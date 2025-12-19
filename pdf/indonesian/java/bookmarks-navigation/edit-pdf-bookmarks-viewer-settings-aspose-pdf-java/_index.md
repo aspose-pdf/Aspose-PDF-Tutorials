@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-14"
-"description": "Pelajari cara mengedit penanda PDF dan menyesuaikan pengaturan penampil dengan Aspose.PDF untuk Java. Tingkatkan pengalaman pengguna dengan menguasai preferensi navigasi dan tata letak."
-"title": "Master Aspose.PDF Java&#58; Edit Bookmark PDF & Konfigurasikan Pengaturan Penampil"
-"url": "/id/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/"
-"weight": 1
+date: '2025-12-19'
+description: Pelajari cara mengubah tata letak halaman PDF, mengedit bookmark PDF,
+  dan menyesuaikan pengaturan penampil dengan Aspose.PDF untuk Java. Kuasai navigasi
+  dan preferensi tata letak untuk pengalaman pengguna yang lebih lancar.
+keywords:
+- edit PDF bookmarks Java
+- Aspose.PDF viewer settings
+- configure PDF navigation Java
+title: 'Ubah Tata Letak Halaman PDF di Java: Sunting Penanda Buku & Pengaturan'
+url: /id/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,27 +17,37 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Master Aspose.PDF Java: Edit Bookmark PDF & Konfigurasikan Pengaturan Penampil
+# Ubah Tata Letak Halaman PDF di Java: Edit Penanda & Pengaturan
 
-## Perkenalan
-Menavigasi dokumen PDF yang rumit dapat menjadi rumit jika penanda tidak selaras atau preferensi penampil tidak diatur dengan benar. Tutorial ini menunjukkan cara menggunakan Aspose.PDF untuk Java guna mengedit penanda yang ada dan menyesuaikan pengaturan tampilan, sehingga meningkatkan pengalaman pengguna.
+## Pendahuluan
+Menavigasi dokumen PDF yang kompleks dapat menjadi merepotkan, terutama ketika pengaturan **change PDF page layout** tidak dikonfigurasi dengan benar atau penanda mengarah ke tempat yang salah. Dalam tutorial ini Anda akan belajar cara **change PDF page layout**, **edit PDF bookmarks**, dan **configure PDF viewer settings** menggunakan Aspose.PDF untuk Java. Pada akhirnya, Anda akan memiliki kontrol penuh atas navigasi, tujuan penanda, dan cara dokumen ditampilkan kepada pembaca.
 
-**Apa yang Akan Anda Pelajari:**
-- Ubah penanda PDF agar akurat dalam menunjuk ke awal halaman.
-- Buat penanda yang tepat dengan tujuan tertentu selama pembuatan PDF.
-- Sesuaikan preferensi pemirsa untuk presentasi yang optimal.
+**Apa yang Akan Anda Pelajari**
+- Cara mengedit penanda PDF yang ada sehingga mereka mengarah ke awal halaman.  
+- Cara menetapkan tujuan penanda saat membuat PDF.  
+- Cara mengubah preferensi penampil seperti tata letak halaman.  
+- Tips praktis untuk memuat dokumen PDF di Java dan mengoptimalkan kinerja.
 
-Dengan Aspose.PDF untuk Java, dapatkan kendali penuh atas pengaturan navigasi dan tata letak dokumen Anda. Mari kita atur lingkungan Anda dan terapkan fitur-fitur ini selangkah demi selangkah.
+### Jawaban Cepat
+- **Apa cara utama untuk mengubah tata letak halaman PDF?** Gunakan `PdfContentEditor.changeViewerPreference()` dengan `ViewerPreference.PAGE_LAYOUT_SINGLE_PAGE`.  
+- **Bisakah saya mengedit tujuan penanda setelah PDF dibuat?** Ya – muat dokumen, akses outline, dan tetapkan `ExplicitDestination` baru.  
+- **Apakah saya memerlukan lisensi untuk fitur-fitur ini?** Versi percobaan gratis cukup untuk evaluasi; lisensi penuh menghilangkan semua batasan.  
+- **Dependensi Maven mana yang diperlukan?** `com.aspose:aspose-pdf:25.3` (atau lebih baru).  
+- **Apakah ini kompatibel dengan Java 11 ke atas?** Tentu – Aspose.PDF mendukung Java 8+.
 
-### Prasyarat
-Sebelum memulai, pastikan Anda memiliki:
-- **Perpustakaan & Ketergantungan**: Gunakan Aspose.PDF untuk Java versi 25.3 atau yang lebih baru.
-- **Pengaturan Lingkungan**: Pengaturan pengembangan Java yang berfungsi dengan JDK terinstal.
-- **Persyaratan Pengetahuan**: Pemahaman dasar tentang Java dan penanganan PDF secara terprogram.
+## Apa itu “change PDF page layout”?
+Mengubah tata letak halaman PDF mengontrol bagaimana halaman ditampilkan dalam penampil—satu halaman, berkelanjutan, tampilan dua‑halaman, dll. Menyesuaikan pengaturan ini meningkatkan keterbacaan, terutama untuk laporan panjang atau katalog.
 
-### Menyiapkan Aspose.PDF untuk Java
-#### Instalasi Maven
-Untuk memasukkan Aspose.PDF ke dalam proyek Anda, tambahkan ketergantungan ini ke `pom.xml`:
+## Mengapa mengedit penanda PDF dan menetapkan tujuan penanda?
+Penanda berfungsi seperti daftar isi. Tujuan yang tepat memastikan pembaca langsung melompat ke bagian yang dimaksud, mengurangi frustrasi dan meningkatkan pengalaman pengguna secara keseluruhan.
+
+## Prasyarat
+- **Perpustakaan & Dependensi**: Aspose.PDF for Java v25.3 atau lebih baru.  
+- **Lingkungan**: JDK 8 atau lebih baru, alat build Maven atau Gradle.  
+- **Pengetahuan**: Pemrograman Java dasar dan pemahaman konsep PDF.
+
+## Menyiapkan Aspose.PDF untuk Java
+### Instalasi Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -39,131 +55,142 @@ Untuk memasukkan Aspose.PDF ke dalam proyek Anda, tambahkan ketergantungan ini k
     <version>25.3</version>
 </dependency>
 ```
-#### Instalasi Gradle
-Untuk pengguna Gradle, tambahkan ini ke `build.gradle`:
+### Instalasi Gradle
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
-**Akuisisi Lisensi**: Mulailah dengan uji coba gratis atau minta lisensi sementara untuk akses fitur lengkap tanpa batasan. Pertimbangkan untuk membeli lisensi lengkap untuk penggunaan jangka panjang.
-#### Inisialisasi Dasar
-Untuk mulai menggunakan Aspose.PDF:
+**Perolehan Lisensi**: Mulailah dengan percobaan gratis atau minta lisensi sementara untuk akses penuh fitur. Pertimbangkan membeli lisensi permanen untuk penggunaan produksi.
+
+### Inisialisasi Dasar
 ```java
 import com.aspose.pdf.Document;
 
 public class PDFSetup {
     public static void main(String[] args) {
-        // Inisialisasi objek dokumen
+        // Initialize document object
         Document pdfDocument = new Document("path/to/your/pdf");
         
         System.out.println("Aspose.PDF for Java initialized successfully.");
     }
 }
 ```
-### Panduan Implementasi
-Bagian ini mencakup pengeditan penanda, pengaturan tujuan selama pembuatan PDF, dan modifikasi preferensi penampil.
-#### Mengedit Bookmark yang Ada untuk Menunjuk ke Awal Halaman
-**Ringkasan**: Sesuaikan penanda halaman sehingga secara akurat menunjuk ke awal halaman tertentu dalam dokumen Anda.
-1. **Mengakses Bookmark**
-   Muat PDF Anda dan akses garis besar penandanya:
-   ```java
-   import com.aspose.pdf.Document;
-   import com.aspose.pdf.ExplicitDestination;
-   import com.aspose.pdf.OutlineItemCollection;
 
-   Document pdfDocument = new Document("YOUR_DOCUMENT_DIRECTORY/input.pdf");
-   OutlineItemCollection pdfOutline = pdfDocument.getOutlines().get_Item(1);
-   ```
-2. **Menetapkan Tujuan Baru**
-   Perbarui tujuan untuk memastikannya mengarah ke awal halaman:
-   ```java
-   pdfOutline.setDestination(
-       ExplicitDestination.createDestination(pdfDocument.getPages().get_Item(1),
-           ExplicitDestinationType.FitH,
-           pdfDocument.getPages().get_Item(1).getMediaBox().getHeight())
-   );
-   ```
-3. **Menyimpan Perubahan**
-   Simpan dokumen PDF Anda yang telah diperbarui:
-   ```java
-   String outputDir = "YOUR_OUTPUT_DIRECTORY/bookmarkShouldPointToStartOfPage.pdf";
-   pdfDocument.save(outputDir);
-   ```
-#### Membuat Bookmark Baru dengan Tujuan Tertentu
-**Ringkasan**: Buat penanda yang mengarahkan pengguna langsung ke lokasi yang diinginkan di PDF Anda yang baru dibuat.
-1. **Membuat dan Mengonfigurasi Bookmark**
-   Inisialisasi bookmark baru dan atur propertinya:
-   ```java
-   import com.aspose.pdf.GoToAction;
-   import com.aspose.pdf.FitVExplicitDestination;
+## Panduan Implementasi
+### Cara Mengubah Tata Letak Halaman PDF di Java
+**Ikhtisar**: Sesuaikan preferensi penampil untuk menampilkan halaman sesuai keinginan Anda.
 
-   OutlineItemCollection pdfOutline_new = new OutlineItemCollection(pdfDocument.getOutlines());
-   pdfOutline_new.setTitle("Test Bookmark");
-   pdfOutline_new.setItalic(true);
-   pdfOutline_new.setBold(true);
-   ```
-2. **Menentukan Tujuan Penanda Buku**
-   Tentukan tujuan untuk penanda Anda:
-   ```java
-   pdfOutline_new.setAction(new GoToAction(
-       new FitVExplicitDestination(pdfDocument.getPages().get_Item(2), 0)));
-   ```
-3. **Menambahkan dan Menyimpan PDF**
-   Tambahkan penanda ke kerangka dokumen dan simpan:
-   ```java
-   pdfDocument.getOutlines().add(pdfOutline_new);
-   
-   String outputDir = "YOUR_OUTPUT_DIRECTORY/setDestinationWhileCreatingPDF.pdf";
-   pdfDocument.save(outputDir);
-   ```
-#### Mengatur Preferensi Penampil
-**Ringkasan**: Sesuaikan cara PDF Anda dilihat dengan mengatur preferensi penampil tertentu seperti tata letak halaman.
-1. **Menginisialisasi PdfContentEditor**
-   Gunakan `PdfContentEditor` kelas untuk mengubah pengaturan dokumen:
-   ```java
-   import com.aspose.pdf.facades.PdfContentEditor;
-   import com.aspose.pdf.facades.ViewerPreference;
+#### Menginisialisasi PdfContentEditor
+```java
+import com.aspose.pdf.facades.PdfContentEditor;
+import com.aspose.pdf.facades.ViewerPreference;
 
-   PdfContentEditor editor = new PdfContentEditor();
-   editor.bindPdf("YOUR_DOCUMENT_DIRECTORY/input.pdf");
-   ```
-2. **Mengubah Preferensi Pemirsa**
-   Atur preferensi penampil ke tata letak satu halaman:
-   ```java
-   editor.changeViewerPreference(ViewerPreference.PAGE_LAYOUT_SINGLE_PAGE);
-   ```
-3. **Menyimpan Dokumen yang Diperbarui**
-   Simpan perubahan pada berkas PDF Anda:
-   ```java
-   String outputDir = "YOUR_OUTPUT_DIRECTORY/settingViewerPreferences.pdf";
-   editor.save(outputDir);
-   ```
-### Aplikasi Praktis
-1. **Buku Digital**: Tingkatkan buku digital dengan memastikan penanda buku mengarah langsung ke awal bab.
-2. **Laporan dan Manual**: Tingkatkan navigasi dalam dokumen teknis dengan konfigurasi penanda dan penampil yang tepat.
-3. **Katalog Produk E-commerce**: Mengoptimalkan katalog produk untuk tampilan satu halaman, membuatnya lebih mudah digunakan.
-### Pertimbangan Kinerja
-- **Mengoptimalkan Sumber Daya**: Gunakan struktur data yang efisien saat menangani file PDF besar untuk meminimalkan penggunaan memori.
-- **Manajemen Memori Java**Perhatikan pengumpulan sampah dan pembuangan sumber daya dengan Aspose.PDF untuk menjaga kinerja.
-### Kesimpulan
-Kini Anda memiliki alat untuk mengedit penanda halaman secara akurat, membuat titik navigasi yang tepat selama pembuatan PDF, dan menyesuaikan preferensi penampil untuk dokumen Anda. Jelajahi fitur tambahan Aspose.PDF dan integrasikan ke dalam proyek Java yang lebih besar.
-**Langkah Berikutnya**Pertimbangkan untuk mengeksplorasi teknik manipulasi dokumen tingkat lanjut menggunakan Aspose.PDF dan mengintegrasikan fungsionalitas ini ke dalam aplikasi Java yang lebih besar.
-### Bagian FAQ
-1. **Apa itu Aspose.PDF?**
-   - Pustaka hebat untuk mengelola PDF di Java, menawarkan fitur seperti pengeditan, pembuatan, dan konversi dokumen PDF.
-2. **Bagaimana cara mengedit bookmark dalam PDF menggunakan Aspose.PDF?**
-   - Muat dokumen, akses penanda yang diinginkan, ubah tujuannya, dan simpan perubahan seperti yang ditunjukkan dalam tutorial ini.
-3. **Bisakah Aspose.PDF mengatur preferensi penampil untuk tata letak satu halaman?**
-   - Ya, menggunakan `PdfContentEditor`Anda dapat dengan mudah menyesuaikan pengaturan penampil seperti tata letak halaman untuk meningkatkan keterbacaan.
-4. **Apakah ada uji coba gratis yang tersedia untuk Aspose.PDF?**
-   - Tentu saja! Mulailah dengan uji coba gratis atau minta lisensi sementara untuk mencoba semua fitur tanpa batasan.
-5. **Apa praktik terbaik untuk mengelola PDF di Java menggunakan Aspose.PDF?**
-   - Manfaatkan manajemen memori yang efisien, manfaatkan pemrosesan batch jika memungkinkan, dan selalu simpan perubahan untuk mencegah kehilangan data.
-### Sumber daya
-- **Dokumentasi**: [Referensi Java Aspose.PDF](https://reference.aspose.com/pdf/java/)
-- **Unduh**: [Rilis Terbaru untuk Java](https://releases.aspose.com/pdf/java/)
-- **Pembelian**: [Beli Lisensi Aspose.PDF](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis**: [Coba Aspose.PDF Gratis](https://releases.aspose.com/pdf/java/)
-- **Lisensi Sementara**: [Minta Lisensi Sementara](https://purchase.aspose.com/temporary-license)
+PdfContentEditor editor = new PdfContentEditor();
+editor.bindPdf("YOUR_DOCUMENT_DIRECTORY/input.pdf");
+```
+#### Mengubah Preferensi Penampil
+```java
+editor.changeViewerPreference(ViewerPreference.PAGE_LAYOUT_SINGLE_PAGE);
+```
+#### Menyimpan Dokumen yang Diperbarui
+```java
+String outputDir = "YOUR_OUTPUT_DIRECTORY/settingViewerPreferences.pdf";
+editor.save(outputDir);
+```
+
+### Cara Mengedit Penanda PDF
+**Ikhtisar**: Sesuaikan penanda yang ada sehingga mereka secara akurat mengarah ke awal halaman tertentu.
+
+#### Mengakses Penanda
+```java
+import com.aspose.pdf.Document;
+import com.aspose.pdf.ExplicitDestination;
+import com.aspose.pdf.OutlineItemCollection;
+
+Document pdfDocument = new Document("YOUR_DOCUMENT_DIRECTORY/input.pdf");
+OutlineItemCollection pdfOutline = pdfDocument.getOutlines().get_Item(1);
+```
+#### Menetapkan Tujuan Baru
+```java
+pdfOutline.setDestination(
+    ExplicitDestination.createDestination(pdfDocument.getPages().get_Item(1),
+        ExplicitDestinationType.FitH,
+        pdfDocument.getPages().get_Item(1).getMediaBox().getHeight())
+);
+```
+#### Menyimpan Perubahan
+```java
+String outputDir = "YOUR_OUTPUT_DIRECTORY/bookmarkShouldPointToStartOfPage.pdf";
+pdfDocument.save(outputDir);
+```
+
+### Cara Menetapkan Tujuan Penanda Saat Membuat PDF
+**Ikhtisar**: Buat penanda yang mengarahkan pengguna langsung ke lokasi yang diinginkan dalam PDF yang baru dihasilkan.
+
+#### Membuat dan Mengonfigurasi Penanda
+```java
+import com.aspose.pdf.GoToAction;
+import com.aspose.pdf.FitVExplicitDestination;
+
+OutlineItemCollection pdfOutline_new = new OutlineItemCollection(pdfDocument.getOutlines());
+pdfOutline_new.setTitle("Test Bookmark");
+pdfOutline_new.setItalic(true);
+pdfOutline_new.setBold(true);
+```
+#### Mendefinisikan Tujuan Penanda
+```java
+pdfOutline_new.setAction(new GoToAction(
+    new FitVExplicitDestination(pdfDocument.getPages().get_Item(2), 0)));
+```
+#### Menambahkan dan Menyimpan PDF
+```java
+pdfDocument.getOutlines().add(pdfOutline_new);
+
+String outputDir = "YOUR_OUTPUT_DIRECTORY/setDestinationWhileCreatingPDF.pdf";
+pdfDocument.save(outputDir);
+```
+
+## Aplikasi Praktis
+1. **Buku Digital** – Pastikan setiap penanda bab berada di bagian atas halaman untuk pengalaman membaca yang mulus.  
+2. **Manual Teknis** – Navigasi yang tepat membantu insinyur menemukan bagian dengan cepat, terutama pada PDF besar.  
+3. **Katalog Produk** – Tata letak satu halaman membuat penelusuran katalog di tablet lebih intuitif.
+
+## Pertimbangan Kinerja
+- **Mengoptimalkan Sumber Daya**: Saat menangani PDF besar, gunakan `Document.optimizeResources()` untuk mengurangi konsumsi memori.  
+- **Manajemen Memori Java**: Tutup stream secara eksplisit dan biarkan garbage collector mengambil kembali objek setelah pemrosesan.
+
+## Masalah Umum & Solusi
+- **Penanda Tidak Terupdate**: Pastikan Anda memodifikasi indeks outline yang benar (`get_Item(1)` mengacu pada penanda tingkat atas pertama).  
+- **Preferensi Penampil Tidak Diterapkan**: Pastikan Anda memanggil `editor.save()` setelah mengubah preferensi; jika tidak, perubahan hanya tetap di memori.  
+- **Pengecualian Lisensi**: Lisensi percobaan dapat menambahkan watermark; dapatkan lisensi penuh untuk produksi.
+
+## Pertanyaan yang Sering Diajukan
+**T: Apa cara termudah untuk memuat dokumen PDF di Java?**  
+**J:** Gunakan `new Document("path/to/file.pdf")`; Aspose.PDF secara otomatis mendeteksi format file.
+
+**T: Bisakah saya mengubah tata letak halaman tanpa menggunakan PdfContentEditor?**  
+**J:** Ya, Anda dapat menetapkan preferensi penampil langsung pada objek `Document` melalui `pdfDocument.getViewerPreferences().setPageLayout(...)`.
+
+**T: Apakah mengubah tata letak penampil memengaruhi pencetakan?**  
+**J:** Tata letak penampil hanya memengaruhi tampilan di layar; tidak mengubah output cetak.
+
+**T: Apakah ada batasan jumlah penanda yang dapat saya buat?**  
+**J:** Tidak ada batasan eksplisit, tetapi pohon outline yang sangat besar dapat memengaruhi kinerja; tetaplah mengatur dengan rapi.
+
+**T: Bagaimana saya memastikan tujuan penanda akurat setelah menambah atau menghapus halaman?**  
+**J:** Hitung kembali tujuan menggunakan indeks halaman saat ini setelah setiap perubahan struktural.
+
+## Sumber Daya
+- **Dokumentasi**: [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/)
+- **Unduh**: [Latest Releases for Java](https://releases.aspose.com/pdf/java/)
+- **Beli**: [Beli Lisensi Aspose.PDF](https://purchase.aspose.com/buy)
+- **Coba Gratis**: [Coba Aspose.PDF Gratis](https://releases.aspose.com/pdf/java/)
+- **Minta Lisensi Sementara**: [Minta Lisensi Sementara](https://purchase.aspose.com/temporary-license)
+
+---
+
+**Terakhir Diperbarui:** 2025-12-19  
+**Diuji Dengan:** Aspose.PDF for Java v25.3  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
