@@ -30,7 +30,8 @@ These tutorials also provide detailed code examples, clear explanations, and ill
 | [Dynamic XFA To Acro Form](./dynamic-xfa-to-acro-form/) | Learn how to convert dynamic XFA forms to standard AcroForms using Aspose.PDF for .NET in this step-by-step tutorial. |  
 | [Fill PDF Form Field](./fill-form-field/) | Learn how to fill PDF form fields using Aspose.PDF for .NET with this step-by-step tutorial. Automate your PDF tasks effortlessly. |  
 | [Fill XFAFields](./fill-xfafields/) | Learn how to programmatically fill XFA fields in PDFs using Aspose.PDF for .NET with this step-by-step tutorial. Discover simple, powerful PDF manipulation tools. |  
-| [Flatten Forms In PDF Document](./flatten-forms/) | Learn how to flatten forms in PDF documents using Aspose.PDF for .NET with this step-by-step guide. Secure your data effortlessly. |  
+| [Flatten Forms In PDF Document](./flatten-forms/) | Learn how to flatten forms in PDF documents using Aspose.PDF for .NET with this step-by-step guide. Secure your data effortlessly. |
+| [Flatten PDF Form Fields in C# – Complete Guide to Remove Interactive Fields](./flatten-pdf-form-fields-in-c-complete-guide-to-remove-intera/) |  |
 | [Form Field Font 14](./form-field-font-14/) | Learn how to change the font of form fields in a PDF document using Aspose.PDF for .NET. Step-by-step guide with code examples and tips for better PDF forms. |  
 | [Get PDF Form Field Coordinates](./get-coordinates/) | Unlock PDF manipulation with Aspose.PDF for .NET! Learn how to retrieve form field coordinates in just a few simple steps. |  
 | [Get Fields From Region In PDF File](./get-fields-from-region/) | Learn how to extract fields from a specified region in PDF files effortlessly using Aspose.PDF for .NET in this comprehensive guide. |  
@@ -50,6 +51,7 @@ These tutorials also provide detailed code examples, clear explanations, and ill
 | [Set Java Script](./set-java-script/) | Unlock the power of Aspose.PDF for .NET. Learn how to set up JavaScript on form fields with our step-by-step guide. |  
 | [Set Radio Button Caption](./set-radio-button-caption/) | Learn how to set radio button captions in PDFs using Aspose.PDF for .NET. This step-by-step guide walks you through loading, modifying, and saving your PDF forms. |  
 | [Text Box](./text-box/) | Discover how to effortlessly add text boxes to PDFs using Aspose.PDF for .NET with this step-by-step guide. Enhance user interaction. |  
+| [How to Fill PDF Forms in C# – Complete Guide to Import FDF and Save Updated PDF](./how-to-fill-pdf-forms-in-c-complete-guide-to-import-fdf-and/) | Learn how to fill PDF forms in C# by importing FDF data and saving the updated PDF using Aspose.PDF for .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

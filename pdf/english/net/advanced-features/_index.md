@@ -47,6 +47,8 @@ Learn how to create accessible, well-structured tagged PDFs using Aspose.PDF for
 ### [Create and Manage Tagged PDFs with Aspose.PDF for .NET&#58; Enhance Accessibility and SEO](./create-manage-tagged-pdfs-aspose-pdf-dotnet/)
 Learn how to create accessible, tagged PDF documents using Aspose.PDF in .NET. Improve document accessibility and search engine indexing by following this comprehensive guide.
 
+### [Extract PDF Layers in C# – Save, Separate, and Split PDF Layers](./extract-pdf-layers-in-c-save-separate-and-split-pdf-layers/)
+
 ### [How to Create Multi-Layer PDFs Using Aspose.PDF for .NET&#58; A Comprehensive Guide](./create-multi-layer-pdfs-aspose-pdf-dotnet/)
 Learn how to create dynamic and interactive multi-layered PDF documents using Aspose.PDF for .NET with this step-by-step guide.
 
@@ -61,6 +63,8 @@ Learn how to use Aspose.PDF for .NET to validate and process accessible PDF docu
 
 ### [Mastering Accessible PDF Creation with Aspose.PDF .NET&#58; Crafting Tagged PDFs with Styled Tables](./aspose-pdf-net-tagged-pdfs-styled-tables/)
 Learn to craft accessible, styled tagged PDF documents using Aspose.PDF for .NET. Master creating compliant PDFs with structured tables and enhanced accessibility.
+
+### [How to Compare PDFs in C# – Step‑by‑Step Guide to Detect Changes and Highlight Differences](./how-to-compare-pdfs-in-c-step-by-step-guide-to-detect-change/)
 
 ## Additional Resources
 

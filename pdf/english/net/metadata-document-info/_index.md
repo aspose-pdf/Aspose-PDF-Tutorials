@@ -36,7 +36,7 @@ Learn how to extract page properties like dimensions and box measurements from P
 Master extracting XMP metadata from PDF files using Aspose.PDF for .NET. This guide provides a step-by-step approach, including setup instructions and code examples.
 
 ### [How to Extract XMP Metadata from PDFs Using Aspose.PDF for .NET&#58; A Complete Guide](./extract-xmp-metadata-aspose-pdf-dotnet/)
-Learn how to efficiently extract XMP metadata from PDF documents using Aspose.PDF for .NET. Follow this detailed guide with step-by-step instructions and practical applications.
+Learn how efficiently extract XMP metadata from PDF documents using Aspose.PDF for .NET. Follow this detailed guide with step-by-step instructions and practical applications.
 
 ### [How to Retrieve PDF Page Properties Using Aspose.PDF for .NET (Step-by-Step Guide)](./retrieve-pdf-page-properties-aspose-pdf-net/)
 Learn how to extract rotation, page count, and box sizes from PDF pages using Aspose.PDF for .NET. Follow this step-by-step guide for efficient document processing.
@@ -56,8 +56,12 @@ Learn to manage PDF metadata using Aspose.PDF for .NET. This guide covers adding
 ### [Mastering Custom Properties in PDFs with Aspose.PDF for .NET&#58; A Comprehensive Guide](./aspose-pdf-master-custom-properties/)
 Learn how to manage custom properties in PDF documents using Aspose.PDF for .NET, enhancing metadata-driven applications like digital archiving and document management.
 
+### [Create PDF Document Aspose – Complete Guide to Adding Custom Metadata PDF](./create-pdf-document-aspose-complete-guide-to-adding-custom-m/)
+
 ### [Set PDF Document Metadata Using Aspose.PDF for .NET&#58; A Developer's Guide](./set-pdf-metadata-aspose-pdf-dotnet/)
 Learn how to efficiently set metadata like author, title, and keywords in PDFs using Aspose.PDF for .NET. Simplify your document management workflow with this comprehensive guide.
+
+### [Check PDF Changes in C# – Detect Incremental Updates with Aspose.Pdf](./check-pdf-changes-in-c-detect-incremental-updates-with-aspos/)
 
 ## Additional Resources
 

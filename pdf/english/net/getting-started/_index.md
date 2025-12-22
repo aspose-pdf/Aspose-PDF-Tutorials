@@ -32,6 +32,8 @@ A code tutorial for Aspose.PDF Net
 ### [Loading Aspose.PDF License from File in .NET&#58; A Comprehensive Guide](./load-aspose-pdf-license-file-net/)
 Learn how to seamlessly switch between trial and licensed modes for Aspose.PDF in .NET by loading a license file, ensuring smooth application functionality.
 
+### [How to Chat with Llama in C# – Step‑by‑Step Guide to Get AI Response](./how-to-chat-with-llama-in-c-step-by-step-guide-to-get-ai-res/)
+
 ## Additional Resources
 
 - [Aspose.PDF for Net Documentation](https://docs.aspose.com/pdf/net/)

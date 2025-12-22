@@ -21,6 +21,8 @@ Aspose.PDF for .NET's "Programming with Images" tutorials walk you through the s
 | Title | Description |
 | --- | --- | 
 | [Add Image In PDF File](./add-image/) | Learn how to add images to a PDF file programmatically using Aspose.PDF for .NET. Step-by-step guide, example code, and FAQs included for seamless implementation. |  
+| [Add image to pdf in C# – Complete guide to convert HEIC, set page size & save document](./add-image-to-pdf-in-c-complete-guide-to-convert-heic-set-pag/) |  |
+| [Add Alt Text PDF – Automatic Image Descriptions with Aspose PDF AI](./add-alt-text-pdf-automatic-image-descriptions-with-aspose-pd/) |  |
 | [All Pages To TIFF](./all-pages-to-tiff/) | Learn how to convert all pages of a PDF to TIFF using Aspose.PDF for .NET in this step-by-step tutorial. Easy and efficient document management. |  
 | [Bradley Algorithm](./bradley-algorithm/) | Learn how to convert a PDF to TIFF using the Bradley algorithm in Aspose.PDF for .NET. Step-by-step guide, prerequisites, and FAQs for seamless conversion. |  
 | [CGM Image to PDF](./cgm-image-to-pdf/) | Easily convert CGM images to PDF using Aspose.PDF for .NET. Follow this simple step-by-step guide and streamline your file conversion process. |  
@@ -30,6 +32,7 @@ Aspose.PDF for .NET's "Programming with Images" tutorials walk you through the s
 | [Convert Page Region To DOM](./convert-page-region-to-dom/) | Unlock the potential of your PDF documents with Aspose.PDF for .NET. Convert regions of PDFs to images & enhance your workflow. |  
 | [Convert To BMP](./convert-to-bmp/) | Learn how to easily convert PDFs to BMP images using Aspose.PDF for .NET in this step-by-step tutorial. Perfect for .NET developers. |  
 | [Create Thumbnail Images In PDF File](./create-thumbnail-images/) | Generate thumbnail images for each page in your PDF file effortlessly using Aspose.PDF for .NET. Enhance your document preview experience. |  
+| [How to Create PDF with Cropped Images in C# – Complete Aspose.PDF Guide](./how-to-create-pdf-with-cropped-images-in-c-complete-aspose-p/) |  |  
 | [Delete Images From PDF File](./delete-images/) | Learn how to delete images from PDF files using Aspose.PDF for .NET in a simple, step-by-step tutorial. Optimize PDFs by removing unwanted images easily. |  
 | [Extract Images From PDF File](./extract-images/) | Learn how to extract images from a PDF file using Aspose.PDF for .NET with this step-by-step guide. Get started with easy-to-follow instructions. |  
 | [Fast Shrink Images](./fast-shrink-images/) | Learn how to efficiently use Aspose.PDF for .NET to shrink images in PDF files, optimizing for size while maintaining quality. |  
@@ -49,6 +52,7 @@ Aspose.PDF for .NET's "Programming with Images" tutorials walk you through the s
 | [Set Image Size In PDF File](./set-image-size/) | Learn how to set the image size in a PDF using Aspose.PDF for .NET. This step-by-step guide will help you resize images, adjust page properties, and save PDFs. |  
 | [Shrink Images In PDF File](./shrink-images/) | Easily shrink images in PDF files using Aspose.PDF for .NET with this step-by-step guide, ensuring smaller file sizes while maintaining quality. |  
 | [Store Image In XImage Collection](./store-image-in-ximage-collection/) |  Learn how to store images in XImage collection using Aspose.PDF for .NET in this complete step-by-step guide. |  
+| [Add Stencil Mask PDF in C# – Complete Step‑by‑Step Guide](./add-stencil-mask-pdf-in-c-complete-step-by-step-guide/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

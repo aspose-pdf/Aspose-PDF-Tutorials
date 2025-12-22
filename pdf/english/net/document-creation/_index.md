@@ -20,6 +20,10 @@ Our document creation tutorials provide comprehensive guidance for generating PD
 ### [Create PDF Booklets Using Aspose.PDF for .NET&#58; A Step-by-Step Guide](./aspose-pdf-net-create-booklets-tutorial/)
 Learn how to create professional PDF booklets with Aspose.PDF for .NET. This tutorial covers setup, implementation, and practical applications.
 
+### [Create PDF Document in C# – Step‑by‑Step Guide to Add Text, Pages, and Save Files](./create-pdf-document-in-c-step-by-step-guide-to-add-text-page/)
+
+### [Create PDF Document with Aspose.PDF – Add Page, Text, and Expiry Date](./create-pdf-document-with-aspose-pdf-add-page-text-and-expiry/)
+
 ### [Create PDFs from XML and XSLT Using Aspose.PDF .NET&#58; A Step-by-Step Guide](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
 Learn how to convert XML data into PDF format using Aspose.PDF for .NET with XSLT transformations. This guide covers setup, binding, and customization.
 
@@ -73,6 +77,10 @@ Learn how to create accessible, well-structured tagged PDFs using Aspose.PDF for
 
 ### [Mastering PDF Booklet Creation with Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 A code tutorial for Aspose.PDF Net
+
+### [Create crash report in C# – Complete Guide to Generating Diagnostic PDF Reports](./create-crash-report-in-c-complete-guide-to-generating-diagno/)
+
+### [Summarize PDF with AI in C# – Step‑by‑Step Guide to Create, Save & Generate Summary PDFs](./summarize-pdf-with-ai-in-c-step-by-step-guide-to-create-save/)
 
 ## Additional Resources
 

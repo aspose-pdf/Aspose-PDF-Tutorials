@@ -34,6 +34,7 @@ You'll learn how to specify conversion settings, extract text and images, retain
 | [PDF To DOC](./pdf-to-doc/) | Learn how to convert PDF to DOC using Aspose.PDF for .NET in this comprehensive guide. Step-by-step instructions and tips included.  |  
 | [PDF To EPUB](./pdf-to-epub/) | Learn how to convert PDF to EPUB using Aspose.PDF for .NET in this step-by-step tutorial. Perfect for developers and content creators. |  
 | [PDF To HTML](./pdf-to-html/) | Learn how to convert PDF to HTML using Aspose.PDF for .NET with this step-by-step guide. Perfect for developers and content creators. |  
+| [Convert PDF to HTML in C# – Complete Guide Using Aspose.Pdf](./convert-pdf-to-html-in-c-complete-guide-using-aspose-pdf/) |  |
 | [PDF To PDFA](./pdf-to-pdfa/) | Learn how to convert PDF files to PDF/A format using Aspose.PDF for .NET with this step-by-step tutorial. |  
 | [PDF To PDFA3b](./pdf-to-pdfa3b/) | Learn to convert PDF files to PDF/A-3B format effortlessly with Aspose.PDF for .NET in this step-by-step guide. |  
 | [PDF To PNG Font Hinting](./pdf-to-png-font-hinting/) | Learn to convert PDF to PNG with font hinting using Aspose.PDF for .NET in an easy step-by-step guide. |  
@@ -56,6 +57,8 @@ You'll learn how to specify conversion settings, extract text and images, retain
 | [XML To PDF](./xml-to-pdf/) | Learn how to convert XML to PDF using Aspose.PDF for .NET in this comprehensive step-by-step tutorial, complete with code examples and detailed explanations. |  
 | [XML To PDFSet Image Path](./xml-to-pdfset-image-path/) | Learn how to effortlessly convert XML to PDF using Aspose.PDF for .NET. This detailed guide walks you through the process step by step, from setup to completion. |  
 | [XPS To PDF](./xps-to-pdf/) | Learn how to convert XPS files to PDF using Aspose.PDF for .NET with this step-by-step tutorial. Perfect for developers and document enthusiasts. |  
+| [Convert PDF to PDF/X‑1a in C# – Complete Aspose PDF Guide](./convert-pdf-to-pdf-x-1a-in-c-complete-aspose-pdf-guide/) |  |
+| [Show PDF Conversion Progress in C# – Complete Guide to Monitoring PDF Conversion](./show-pdf-conversion-progress-in-c-complete-guide-to-monitori/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

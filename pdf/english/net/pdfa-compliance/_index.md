@@ -23,6 +23,10 @@ A code tutorial for Aspose.PDF Net
 ### [Convert PDF to PDF/A Using Aspose.PDF .NET&#58; A Step-by-Step Guide for Compliance](./convert-pdf-to-pdfa-aspose-dotnet-guide/)
 Learn how to convert regular PDFs into PDF/A-1b compliant documents with Aspose.PDF .NET. Ensure archival quality and compliance through this detailed, step-by-step guide.
 
+### [Convert PDF to PDF/A – Complete Step‑by‑Step C# Tutorial](./convert-pdf-to-pdf-a-complete-step-by-step-c-tutorial/)
+
+### [Convert PDF to PDF/A in C# – Step‑by‑Step Guide for Reliable PDF/A Conversion](./convert-pdf-to-pdf-a-in-c-step-by-step-guide-for-reliable-pd/)
+
 ### [Convert PDF to PDF/A-3B with Aspose.PDF for .NET](./convert-pdf-to-pdfa-3b-aspose-net/)
 A code tutorial for Aspose.PDF Net
 
@@ -37,6 +41,10 @@ Learn how to validate PDF/A-1a compliance using Aspose.PDF for .NET. This guide 
 
 ### [Master PDF/A Validation Using Aspose.PDF for .NET in C#](./master-pdfa-validation-aspose-pdf-net/)
 Learn how to validate PDF documents against PDF/A standards using Aspose.PDF .NET. Ensure compliance and enhance document reliability with our step-by-step guide.
+
+### [c# pdf validation – How to Validate PDF Files for PDF/A‑1a Compliance](./c-pdf-validation-how-to-validate-pdf-files-for-pdf-a-1a-comp/)
+
+### [Load PDF Document C# – Validate PDF/A‑1b with Aspose.PDF – Complete Step‑by‑Step Guide](./load-pdf-document-c-validate-pdf-a-1b-with-aspose-pdf-comple/)
 
 ## Additional Resources
 

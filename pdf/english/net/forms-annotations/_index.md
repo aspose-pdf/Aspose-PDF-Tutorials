@@ -21,7 +21,7 @@ Master PDF interactive features with our comprehensive Aspose.PDF forms and anno
 Learn how to add text, checkbox, combo box, list box, and multi-line fields to PDFs using Aspose.PDF for .NET. This guide covers setup, code examples, and integration tips.
 
 ### [Add List Items to PDF Forms Using Aspose.PDF .NET&#58; A Complete Guide](./add-list-items-aspose-pdf-net/)
-Learn how to add list items to existing PDF forms using Aspose.PDF for .NET with step-by-step instructions and practical examples. Streamline your document workflows today.
+Learn how to add list items to existing PDF forms using Aspose.PDF .NET with step-by-step instructions and practical examples. Streamline your document workflows today.
 
 ### [Add Measured Line Annotation to PDF with Aspose.PDF](./add-measured-line-annotation-aspose-pdf/)
 A code tutorial for Aspose.PDF Net
@@ -37,6 +37,8 @@ Learn how to dynamically add text fields to existing PDF forms using Aspose.PDF 
 
 ### [Add Tooltip to PDF Field with Aspose.PDF for .NET&#58; Step-by-Step Guide](./add-tooltip-to-pdf-field-aspose-pdf-net/)
 Learn how to add tooltips to PDF fields using Aspose.PDF for .NET. Enhance your forms with this step-by-step guide.
+
+### [Add Signature Field PDF in C# – How to Add Signature and Duplicate PDF Annotation](./add-signature-field-pdf-in-c-how-to-add-signature-and-duplic/)
 
 ### [Automate PDF Form Filling with XML Data Using Aspose.PDF for .NET](./import-xml-data-pdf-forms-aspose-pdf-net/)
 Learn how to automate filling PDF forms using Aspose.PDF and XML data. Follow this guide for efficient implementation, performance tips, and real-world applications.
@@ -105,13 +107,10 @@ Learn how to efficiently extract annotations from PDF files using Aspose.PDF for
 Learn how to efficiently extract data from PDF forms using Aspose.PDF for .NET. This guide covers setup, field retrieval, and practical applications.
 
 ### [Flatten PDF Annotations Using Aspose.PDF for .NET&#58; A Comprehensive Guide](./aspose-pdf-net-flatten-annotations/)
-Learn how to flatten annotations in PDFs using Aspose.PDF for .NET. This guide provides step-by-step instructions and best practices to ensure clean, professional document distribution.
 
 ### [Guide to Importing Annotations in PDFs with Aspose.PDF .NET and C#](./import-annotations-pdf-aspose-net-csharp-guide/)
-Learn how to import annotations into PDF documents using Aspose.PDF for .NET with this comprehensive guide, complete with code examples and practical applications.
 
 ### [Guide to Removing Hyperlinks from PDFs Using Aspose.PDF for .NET](./guide-remove-hyperlinks-aspose-pdf-net/)
-Learn how to efficiently remove hyperlinks from your PDF documents using Aspose.PDF for .NET with this comprehensive guide.
 
 ### [How to Add File Attachment Annotations in PDFs Using Aspose.PDF for .NET | Step-by-Step Guide](./create-file-attachment-annotations-aspose-pdf-net/)
 Learn how to seamlessly add file attachment annotations to your PDF documents using Aspose.PDF for .NET. This step-by-step guide covers everything from setting up the library to implementing annotations.
@@ -174,49 +173,36 @@ Learn how to extract links from PDFs using Aspose.PDF for .NET with this step-by
 Learn how to extract specific form fields within a defined region of your PDF documents using the powerful Aspose.PDF for .NET library. Follow this step-by-step guide.
 
 ### [How to Flatten PDF Form Fields Using Aspose.PDF for .NET&#58; A Developer's Guide](./flatten-pdf-form-fields-aspose-net/)
-Learn how to flatten PDF form fields using Aspose.PDF for .NET. Ensure your documents remain uneditable with this comprehensive developer guide.
 
 ### [How to Flatten PDF Form Fields Using Aspose.PDF for .NET&#58; A Developer's Guide](./flatten-pdf-form-fields-aspose-pdf-net-guide/)
-Learn how to use Aspose.PDF for .NET to flatten PDF form fields, ensuring data integrity and security. Follow this step-by-step guide with code examples.
+
+### [How to Flatten PDF with Aspose PDF – Complete How to Flatten PDF Tutorial](./how-to-flatten-pdf-with-aspose-pdf-complete-how-to-flatten-p/)
 
 ### [How to Import PDF Form Data Using C# and Aspose.PDF for .NET&#58; A Complete Guide](./import-pdf-form-data-using-csharp-asposepdf/)
-Learn how to efficiently import data into PDF forms using C# with Aspose.PDF for .NET. Streamline your workflows and improve data management.
 
 ### [How to Import XFDF Data into PDFs Using Aspose.PDF .NET&#58; A Comprehensive Guide](./import-xfdf-data-aspose-pdf-net-guide/)
-Learn how to seamlessly import XFDF data into PDF forms using Aspose.PDF for .NET. This guide covers installation, code examples, and practical applications.
 
 ### [How to Modify PDF Form Fields Using Aspose.PDF for .NET&#58; A Complete Guide](./modify-pdf-form-fields-aspose-pdf-dotnet/)
-Learn how to modify PDF form fields programmatically using Aspose.PDF for .NET with detailed steps and best practices.
 
 ### [How to Modify PDF Form Fields Using Aspose.PDF for .NET&#58; A Step-by-Step Guide](./modify-pdf-form-fields-aspose-dotnet-tutorial/)
-Learn how to efficiently modify and manage PDF form fields using Aspose.PDF for .NET. This guide covers installation, editing field values, setting read-only properties, and more.
 
 ### [How to Move PDF Form Fields Using Aspose.PDF for .NET&#58; A Step-by-Step Guide](./move-pdf-form-field-aspose-pdf-dotnet/)
-Learn how to move PDF form fields with ease using Aspose.PDF for .NET. This guide provides step-by-step instructions and best practices for developers.
 
 ### [How to Remove PDF Annotations Using Aspose.PDF for .NET&#58; A Complete Guide](./delete-annotations-aspose-pdf-net-guide/)
-Learn how to efficiently remove annotations from PDFs using Aspose.PDF for .NET. This step-by-step guide covers opening, deleting specific annotations like text notes, and saving your documents.
 
 ### [How to Select a RadioButton in PDF using Aspose.PDF .NET&#58; A Comprehensive Guide](./select-radio-button-aspose-pdf-net/)
-Learn how to programmatically select radio buttons within PDFs using Aspose.PDF for .NET. This guide covers setup, code examples, and practical applications.
 
 ### [How to Set PDF Submit Button URLs Using Aspose.PDF .NET in C#](./aspose-pdf-dotnet-csharp-set-submit-button-url/)
-Learn how to automate form submissions from a PDF using Aspose.PDF .NET with C#. Enhance your document workflows by setting up submit button URLs efficiently.
 
 ### [How to Update Free Text Annotations in PDFs Using Aspose.PDF for .NET](./update-pdf-text-annotations-aspose-dotnet/)
-Learn how to efficiently update free text annotations in PDF documents using Aspose.PDF for .NET, including changing font size and color.
 
 ### [How to Update PDF Link Annotations with Aspose.PDF for .NET&#58; Step-by-Step Guide](./update-pdf-link-annotations-aspose-dotnet/)
-Learn how to update link annotations in PDFs using Aspose.PDF for .NET. This guide covers modifying internal and external links, ensuring your documents function seamlessly.
 
 ### [How to Update RadioButton Captions in PDF Forms Using Aspose.PDF for .NET](./update-radio-button-captions-pdf-aspose-pdf-net/)
-Learn how to update radio button captions in PDF forms using Aspose.PDF for .NET. This guide provides step-by-step instructions and best practices.
 
 ### [Import XFDF Annotations into PDFs with Aspose.PDF for .NET&#58; A Comprehensive Guide](./import-xfdf-annotations-aspose-pdf-net/)
-Learn how to import annotations from an XFDF file into a PDF using Aspose.PDF for .NET, streamlining your workflow with ease.
 
 ### [Interactive PDFs with Screen Annotations in .NET using Aspose.PDF | Forms & Annotations Guide](./interactive-pdfs-screen-annotations-dotnet-aspose-pdf/)
-Learn how to create interactive PDFs with screen annotations in .NET using Aspose.PDF. This guide covers adding multimedia, optimizing performance, and retrieving resources.
 
 ### [Invisible Annotations in PDFs with Aspose.PDF .NET](./aspose-pdf-net-invisible-annotations/)
 A code tutorial for Aspose.PDF Net
@@ -233,10 +219,10 @@ Learn how to efficiently load, access, and manipulate PDF annotations using Aspo
 ### [Master PDF Field Manipulation with Aspose.PDF for .NET&#58; A Developer’s Comprehensive Guide](./aspose-pdf-net-mastering-field-manipulation-guide/)
 Learn to automate reading, adding, modifying, and deleting fields in PDFs using Aspose.PDF for .NET. Perfect for developers looking to streamline document workflows.
 
-### [Master PDF Form Manipulation Using Aspose.PDF for .NET](./master-aspose-pdf-dotnet-form-manipulation/)
+### [Master PDF Form Manipulation with Aspose.PDF for .NET](./master-aspose-pdf-dotnet-form-manipulation/)
 Learn how to efficiently manage and manipulate PDF forms using Aspose.PDF for .NET. Enhance your document workflows with dynamic fields, submit buttons, and more.
 
-### [Master PDF Form Manipulation in .NET with Arabic Text Using Aspose.PDF](./aspose-pdf-net-arabic-text-manipulation/)
+### [Master PDF Form Manipulation in .NET with Aspose.PDF .NET&#58; A Complete Guide](./aspose-pdf-net-arabic-text-manipulation/)
 Learn how to efficiently load and modify PDF forms containing Arabic text using Aspose.PDF for .NET. Streamline your multilingual document handling effortlessly.
 
 ### [Master PDF Form Manipulation in .NET with Aspose.PDF&#58; A Complete Guide](./master-net-pdf-form-manipulation-asposepdf/)

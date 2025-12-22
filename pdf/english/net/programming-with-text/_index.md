@@ -38,9 +38,13 @@ Aspose.PDF's "Programming with Text" tutorials for .NET offer a comprehensive ra
 | [Extract Text From Page Region In PDF File](./extract-text-from-page-region/) | Learn how to extract text from a specific region in a PDF using Aspose.PDF for .NET with this step-by-step guide. Efficiently gather and save text from your documents. |  
 | [Extract Text Page In PDF File](./extract-text-page/) | Learn how to extract text from a specific page in PDF file using Aspose.PDF for .NET. |  
 | [Extract Text Using Text Device](./extract-text-using-text-device/) | Learn how to extract text from a PDF document using the Text Device in Aspose.PDF for .NET. |  
+| [Extract Summary from PDF with OpenAI C# – Complete Step‑by‑Step Guide](./extract-summary-from-pdf-with-openai-c-complete-step-by-step/) |  |  
+| [Summarize PDF with AI in C# – Complete Step‑by‑Step Guide](./summarize-pdf-with-ai-in-c-complete-step-by-step-guide/) |  |  
 | [Get Width Of Text Dynamically](./get-width-of-text-dynamically/) | Learn to dynamically measure text widths using Aspose.PDF for .NET in this comprehensive step-by-step tutorial tailored for developers. |  
 | [Hidden Text Block In PDF File](./hidden-text-block/) | Create interactive PDFs with hidden text blocks using Aspose.PDF for .NET. This tutorial provides a step-by-step guide to enhance your documents. |  
 | [Highlight Character In PDF File](./highlight-character-in-pdf/) | Learn to highlight characters in a PDF using Aspose.PDF for .NET in this comprehensive step-by-step guide. |  
+| [How to Extract Text from Image C# – Complete AI‑Powered Guide](./how-to-extract-text-from-image-c-complete-ai-powered-guide/) |  |
+| [How to Summarize PDF with AI – Step‑by‑Step Guide Using Aspose Copilot](./how-to-summarize-pdf-with-ai-step-by-step-guide-using-aspose/) |  |  
 | [Multicolumn Paragraphs In PDF File](./multicolumn-paragraphs/) | Learn how to create & manage multicolumn paragraphs in PDF files using Aspose.PDF for .NET with our step-by-step guide. |  
 | [Placing Text Around Image In PDF File](./placing-text-around-image/) | Learn how to place text around images in PDFs using Aspose.PDF for .NET. Follow our step-by-step guide to create professional PDFs with images and text side by side. |  
 | [Rearrange Contents Using Text Replacement](./rearrange-contents-using-text-replacement/) | Learn how to rearrange PDF contents using text replacement with Aspose.PDF for .NET. Step-by-step tutorial to enhance your document editing skills. |  
@@ -60,6 +64,7 @@ Aspose.PDF's "Programming with Text" tutorials for .NET offer a comprehensive ra
 | [Rotate Text Using Text Paragraph And Builder In PDF File](./rotate-text-using-text-paragraph-and-builder/) | Learn how to rotate text using text paragraph and builder in PDF file using Aspose.PDF for .NET. |  
 | [Search And Get Text All](./search-and-get-text-all/) | Learn how to search and get text from all pages of a PDF document using Aspose.PDF for .NET. |  
 | [Search And Get Text Page In PDF File](./search-and-get-text-page/) | Learn how to search and get text from a specific page in PDF file using Aspose.PDF for .NET. |  
+| [Search PDF with Regex – Complete C# Guide for Case‑Insensitive Text Extraction](./search-pdf-with-regex-complete-c-guide-for-case-insensitive/) |  |
 | [Search Regular Expression In PDF File](./search-regular-expression/) | Learn how to search for regular expressions in PDF files using Aspose.PDF for .NET in this step-by-step tutorial. Boost your productivity with regex. |  
 | [Search Text And Add Hyperlink](./search-text-and-add-hyperlink/) | Learn how to search text and add hyperlinks in PDFs using Aspose.PDF for .NET with our step-by-step tutorial. |  
 | [Search Text And Draw Rectangle](./search-text-and-draw-rectangle/) | Learn to search text in PDFs and highlight it with rectangles using Aspose.PDF for .NET! Easy step-by-step tutorial for enhanced PDF manipulation skills. |  

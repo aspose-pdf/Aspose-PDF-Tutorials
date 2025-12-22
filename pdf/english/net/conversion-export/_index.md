@@ -83,6 +83,8 @@ Learn how to convert PDF documents to HTML format using Aspose.PDF for .NET, inc
 ### [Convert PDF to PNG with Aspose.PDF .NET&#58; Enhance Font Hinting for Sharp Text Rendering](./convert-pdf-png-aspose-net-font-hinting/)
 Learn how to convert PDF documents into high-quality PNG images using Aspose.PDF .NET, ensuring sharp text rendering through font hinting.
 
+### [Create PNG from PDF in C# – Step‑by‑Step Guide](./create-png-from-pdf-in-c-step-by-step-guide/)
+
 ### [Convert PDF to PPTX with Aspose.PDF for .NET&#58; Step-by-Step Guide](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 Learn how to efficiently convert PDF documents into PowerPoint presentations using Aspose.PDF for .NET. This step-by-step guide covers basic conversion, advanced features like image slides, and progress tracking.
 
@@ -143,6 +145,8 @@ Learn how to efficiently export data from applications to PDF using Aspose.PDF f
 ### [Export PDF Annotations with Aspose.PDF .NET&#58; A Comprehensive Guide](./export-annotations-aspose-pdf-net/)
 Learn how to efficiently export annotations from PDFs using Aspose.PDF for .NET. This guide covers setup, implementation, and best practices.
 
+### [Extract PDF Layers in C# – Complete Guide to Export PDF Layers](./extract-pdf-layers-in-c-complete-guide-to-export-pdf-layers/)
+
 ### [Export PDF Data to XML with Aspose.PDF for .NET&#58; A Step-by-Step Guide](./export-pdf-data-to-xml-aspose-dotnet-guide/)
 Learn how to efficiently export PDF form data into structured XML using Aspose.PDF for .NET, a powerful library designed for PDF manipulation.
 
@@ -189,7 +193,7 @@ Learn how to convert PDF files to EPUB format using Aspose.PDF for .NET. Follow 
 Learn how to convert PDFs into high-quality multi-page TIFF images using Aspose.PDF for .NET. Follow this step-by-step guide for easy implementation in C#.
 
 ### [How to Convert PDF to PostScript in C# Using Aspose.PDF&#58; A Comprehensive Guide](./convert-pdf-to-postscript-aspose-csharp/)
-Learn how to convert PDF files to PostScript format using Aspose.PDF for .NET with this step-by-step guide. Perfect for high-quality printing needs.
+Learn how to convert PDF files to PostScript format using Aspose.PDF for .NET. This step-by-step guide is perfect for high-quality printing needs.
 
 ### [How to Convert PDF to TIFF Using Aspose.PDF for .NET&#58; A Step-by-Step Guide](./convert-pdf-to-tiff-aspose-net/)
 Learn how to convert PDF files into high-quality TIFF images using Aspose.PDF for .NET. Follow our step-by-step guide with code examples and configuration tips.

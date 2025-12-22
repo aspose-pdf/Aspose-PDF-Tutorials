@@ -37,6 +37,10 @@ Tutorials include step-by-step instructions, detailed code examples, and clear e
 | [Split To Pages](./split-to-pages/) | Easily split PDFs into individual pages using Aspose.PDF for .NET with this comprehensive tutorial. Step-by-step guide included. |  
 | [Update PDF Page Dimensions](./update-dimensions/) | Discover how to update PDF page dimensions effortlessly with Aspose.PDF for .NET in this comprehensive, step-by-step guide. |  
 | [Zoom To Page Contents In PDF File](./zoom-to-page-contents/) | Learn how to zoom to page contents in PDF files using Aspose.PDF for .NET in this comprehensive guide. Enhance your PDF documents according to your specific needs. |  
+| [Add Blank Page PDF in C# – Complete Guide to Insert, Duplicate, and Update Pagination](./add-blank-page-pdf-in-c-complete-guide-to-insert-duplicate-a/) |  |  
+| [compare pdf pages in C# – Complete Guide to Side‑by‑Side PDF Comparison](./compare-pdf-pages-in-c-complete-guide-to-side-by-side-pdf-co/) |  |  
+| [Read First Page of a PDF and Extract Vector Graphics in C# – Complete Guide](./read-first-page-of-a-pdf-and-extract-vector-graphics-in-c-co/) |  |  
+| [Create PDF Document C# – Add a Table of Contents, Insert Pages & Customize Page Numbers](./create-pdf-document-c-add-a-table-of-contents-insert-pages-c/) |  |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

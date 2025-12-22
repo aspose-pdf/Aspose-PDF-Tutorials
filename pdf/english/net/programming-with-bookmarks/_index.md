@@ -27,11 +27,13 @@ Additionally, these tutorials show you how to customize bookmark properties, suc
 | [Delete Particular Bookmark In PDF File](./delete-particular-bookmark/) | Learn how to delete a particular bookmark in a PDF file using Aspose.PDF for .NET with this step-by-step guide. |  
 | [Expand Bookmarks In PDF File](./expand-bookmarks/) | Learn how to expand bookmarks in PDF files using Aspose.PDF for .NET with this step-by-step guide. Perfect for developers looking to enhance PDF navigation. |  
 | [Get Bookmark Page Number In PDF File](./get-bookmark-page-number/) | Learn how to extract bookmark page numbers from PDF files using Aspose.PDF for .NET in this comprehensive tutorial. |  
-| [Get Bookmarks In PDF File](./get-bookmarks/) | Learn how to extract bookmarks from PDF files using Aspose.PDF for .NET in this step-by-step tutorial. Enhance your PDF navigation. |  
+| [Get Bookmarks In PDF File](./get-bookmarks/) | Learn how to extract bookmarks from PDF files using Aspose.PDF for .NET in a step-by-step tutorial. Enhance your PDF navigation. |  
 | [Get Child Bookmarks In PDF File](./get-child-bookmarks/) | Learn how to get child bookmarks in a PDF file using Aspose.PDF for .NET with this step-by-step guide. Enhance your PDF navigation. |  
 | [Inherit Zoom In PDF File](./inherit-zoom/) | Learn how to inherit zoom in PDF files using Aspose.PDF for .NET with this step-by-step guide. Enhance your PDF viewing experience. |  
 | [Update Bookmarks In PDF File](./update-bookmarks/) | Learn how to update bookmarks in a PDF file using Aspose.PDF for .NET with this guide. Perfect for developers looking to modify PDF bookmarks effectively. |  
 | [Update Child Bookmarks In PDF File](./update-child-bookmarks/) | Learn how to update child bookmarks in PDF files using Aspose.PDF for .NET with this step-by-step guide. Enhance your PDF navigation. |  
+
+### [Create PDF Document with Table of Contents – Complete Aspose.Pdf Guide](./create-pdf-document-with-table-of-contents-complete-aspose-p/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

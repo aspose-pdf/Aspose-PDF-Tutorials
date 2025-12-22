@@ -68,6 +68,8 @@ Learn how to unlock and decrypt protected PDF files using Aspose.PDF for .NET in
 ### [Verify PDF Passwords with Aspose.PDF .NET&#58; A Step-by-Step Guide for Security & Permissions](./verify-pdf-passwords-aspose-dot-net-guide/)
 Learn how to verify PDF passwords using Aspose.PDF for .NET in C#. This comprehensive guide simplifies document security and access control.
 
+### [How to lock PDF layers in C# with Aspose.PDF – Complete Step‑by‑Step Guide](./how-to-lock-pdf-layers-in-c-with-aspose-pdf-complete-step-by/)
+
 ## Additional Resources
 
 - [Aspose.PDF for Net Documentation](https://docs.aspose.com/pdf/net/)
