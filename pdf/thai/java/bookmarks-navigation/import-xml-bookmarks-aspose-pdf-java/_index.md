@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-14"
-"description": "เรียนรู้วิธีการนำเข้าบุ๊กมาร์ก XML ลงในเอกสาร PDF ได้อย่างราบรื่นด้วย Aspose.PDF สำหรับ Java เพื่อปรับปรุงการนำทางและการใช้งานเอกสาร"
-"title": "นำเข้าบุ๊กมาร์ก XML ลงใน PDF โดยใช้ Aspose.PDF Java&#58; คู่มือฉบับสมบูรณ์"
-"url": "/th/java/bookmarks-navigation/import-xml-bookmarks-aspose-pdf-java/"
-"weight": 1
+date: '2025-12-22'
+description: เรียนรู้วิธีนำเข้าที่คั่นหน้าไปยังไฟล์ PDF ด้วย Aspose.PDF for Java รวมถึงการนำเข้าที่คั่นหน้าจาก
+  XML และวิธีการเพิ่มที่คั่นหน้าโดยโปรแกรม.
+keywords:
+- import bookmarks into PDFs
+- Aspose.PDF for Java
+- XML bookmarks
+title: วิธีนำเข้าบุ๊กมาร์กลงในไฟล์ PDF ด้วย Aspose.PDF สำหรับ Java
+url: /th/java/bookmarks-navigation/import-xml-bookmarks-aspose-pdf-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,36 +16,47 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# นำเข้าบุ๊กมาร์ก XML ลงใน PDF โดยใช้ Aspose.PDF Java
+# วิธีการนำเข้าบุ๊กมาร์กลงใน PDF ด้วย Aspose.PDF for Java
 
-## การแนะนำ
-การนำทางเอกสาร PDF ที่ซับซ้อนทำได้ง่ายขึ้นด้วยบุ๊กมาร์กที่จัดระเบียบ คู่มือนี้จะแสดงวิธีการนำเข้าบุ๊กมาร์ก XML แบบไดนามิกไปยัง PDF ที่มีอยู่โดยใช้ Aspose.PDF สำหรับ Java เพื่อปรับปรุงการเข้าถึงและการใช้งานเอกสาร
+## Introduction
+หากคุณกำลังมองหาวิธีที่ชัดเจนและเป็นขั้นตอน **วิธีการนำเข้าบุ๊กมาร์ก** ลงใน PDF คุณมาถูกที่แล้ว ในบทแนะนำนี้เราจะสาธิตวิธีนำโครงสร้างบุ๊กมาร์กแบบ XML ไปใส่ในไฟล์ PDF ที่มีอยู่โดยใช้ Aspose.PDF for Java ทำให้เอกสารขนาดใหญ่สามารถนำทางได้ทันทีและเป็นมิตรต่อผู้ใช้
 
-**สิ่งที่คุณจะได้เรียนรู้:**
-- วิธีใช้ Aspose.PDF สำหรับ Java เพื่อนำเข้าบุ๊กมาร์กจากไฟล์ XML
-- ขั้นตอนการใช้ InputStreams เพื่อนำเข้าบุ๊กมาร์ก
-- คุณสมบัติหลักของคลาส PdfBookmarkEditor
-- แนวทางปฏิบัติที่ดีที่สุดสำหรับการเพิ่มประสิทธิภาพในแอปพลิเคชันขนาดใหญ่
+**สิ่งที่คุณจะได้เรียนรู้**
+- วิธีนำเข้าบุ๊กมาร์กจาก XML ไปยัง PDF
+- วิธีเพิ่มบุ๊กมาร์กโดยโปรแกรมโดยใช้ InputStream
+- คุณลักษณะสำคัญของคลาส `PdfBookmarkEditor`
+- เคล็ดลับประสิทธิภาพสำหรับการประมวลผลขนาดใหญ่
 
-## ข้อกำหนดเบื้องต้น
-หากต้องการทำตามบทช่วยสอนนี้ ให้แน่ใจว่าคุณปฏิบัติตามข้อกำหนดเบื้องต้นเหล่านี้:
+## Quick Answers
+- **ต้องการไลบรารีอะไร?** Aspose.PDF for Java (v25.3 หรือใหม่กว่า)  
+- **ฉันสามารถนำเข้าบุ๊กมาร์กจาก XML ได้หรือไม่?** ได้ – ใช้ `importBookmarksWithXML`  
+- **ฉันต้องการไลเซนส์สำหรับการพัฒนาหรือไม่?** ไลเซนส์ทดลองฟรีใช้ได้สำหรับการทดสอบ; จำเป็นต้องมีไลเซนส์ที่ซื้อสำหรับการใช้งานจริง  
+- **รองรับ InputStream หรือไม่?** แน่นอน – คุณสามารถป้อน XML ผ่าน `InputStream` สำหรับสถานการณ์ที่ยืดหยุ่น  
+- **วิธีนี้จะทำงานกับ PDF ขนาดใหญ่หรือไม่?** ใช่, หากจัดการสตรีมและประมวลผลเป็นชุดอย่างเหมาะสม
 
-### ไลบรารีและการอ้างอิงที่จำเป็น
-ใช้ Aspose.PDF สำหรับไลบรารี Java เวอร์ชัน 25.3 ขึ้นไป
+## “วิธีการนำเข้าบุ๊กมาร์ก” คืออะไร?
+การนำเข้าบุ๊กมาร์กหมายถึงการนำโครงสร้างการนำทางที่กำหนดไว้ล่วงหน้า (โดยทั่วไปเก็บใน XML) แล้วฝังลงใน PDF เพื่อให้ผู้อ่านสามารถกระโดดไปยังส่วน, บท, หรือจุดใด ๆ ในเอกสารได้โดยตรง
 
-### ข้อกำหนดการตั้งค่าสภาพแวดล้อม
+## ทำไมต้องใช้ Aspose.PDF for Java สำหรับงานนี้?
+Aspose.PDF มี API ระดับสูงที่ซ่อนรายละเอียดภายในของ PDF ทำให้คุณโฟกัสที่ตรรกะธุรกิจได้ รองรับการนำเข้าจากไฟล์และสตรีม, ทำงานข้ามแพลตฟอร์ม, และไม่ต้องพึ่งพาไลบรารีเนทีฟเพิ่มเติม
+
+## Prerequisites
+### Required Libraries and Dependencies
+- Aspose.PDF for Java **v25.3** หรือใหม่กว่า
+
+### Environment Setup
 - ติดตั้ง Java Development Kit (JDK)
-- ใช้ Integrated Development Environment (IDE) เช่น IntelliJ IDEA หรือ Eclipse
-- กำหนดค่า Maven หรือ Gradle ในโครงการของคุณ
+- IDE เช่น IntelliJ IDEA หรือ Eclipse
+- Maven หรือ Gradle สำหรับการจัดการ dependencies
 
-### ข้อกำหนดเบื้องต้นของความรู้
-ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java และความคุ้นเคยกับโครงสร้าง XML จะเป็นประโยชน์
+### Knowledge Prerequisites
+- ความรู้พื้นฐานการเขียนโปรแกรม Java
+- ความคุ้นเคยกับโครงสร้างไฟล์ XML
 
-## การตั้งค่า Aspose.PDF สำหรับ Java
-รวมไลบรารี Aspose.PDF เข้ากับโปรเจ็กต์ Java ของคุณโดยใช้ Maven หรือ Gradle:
+## Setting Up Aspose.PDF for Java
+รวมไลบรารีโดยใช้เครื่องมือสร้างที่คุณชื่นชอบ
 
-### การใช้ Maven
-เพิ่มการอ้างอิงนี้ให้กับคุณ `pom.xml` ไฟล์:
+### Using Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -49,25 +65,23 @@
 </dependency>
 ```
 
-### การใช้ Gradle
-รวมบรรทัดนี้ไว้ในของคุณ `build.gradle` ไฟล์:
+### Using Gradle
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### ขั้นตอนการรับใบอนุญาต
-- **ทดลองใช้งานฟรี:** เริ่มต้นด้วยการทดลองใช้ฟรีเพื่อสำรวจคุณสมบัติต่างๆ
-- **ใบอนุญาตชั่วคราว:** สมัครเพื่อขยายเวลาการเข้าถึงโดยไม่มีข้อจำกัด
-- **ซื้อ:** ควรพิจารณาซื้อใบอนุญาตเต็มรูปแบบเพื่อใช้งานในระยะยาว
+### License Acquisition Steps
+- **Free Trial:** สมัครรับไลเซนส์ทดลองเพื่อสำรวจคุณสมบัติทั้งหมด  
+- **Temporary License:** ขอไลเซนส์ทดลองต่ออายุหากต้องการการประเมินระยะยาว  
+- **Full Purchase:** ซื้อไลเซนส์เชิงพาณิชย์สำหรับการใช้งานผลิตภัณฑ์ไม่จำกัด
 
-#### การเริ่มต้นและการตั้งค่าเบื้องต้น
-เริ่มต้น Aspose.PDF ในโครงการ Java ของคุณ:
+#### Basic Initialization and Setup
 ```java
 import com.aspose.pdf.*;
 
 public class PdfSetup {
     public static void main(String[] args) {
-        // สมัครใบอนุญาตถ้ามี
+        // Apply the license if available
         License license = new License();
         license.setLicense("path/to/your/license/file");
 
@@ -76,115 +90,114 @@ public class PdfSetup {
 }
 ```
 
-## คู่มือการใช้งาน
-สำรวจสองวิธีในการนำเข้าบุ๊กมาร์ก: การใช้เส้นทางไฟล์และสตรีมอินพุต
+## How to Import Bookmarks into PDFs
+ด้านล่างนี้เราจะอธิบายสองสถานการณ์ทั่วไป: การนำเข้าจากไฟล์ XML โดยตรงและการนำเข้าจาก `InputStream` ทั้งสองวิธีตอบคำถาม **วิธีการเพิ่มบุ๊กมาร์ก** อย่างมีประสิทธิภาพ
 
-### นำเข้าบุ๊กมาร์กจากไฟล์ XML ไปยัง PDF ที่มีอยู่ (คุณลักษณะ 1)
-**ภาพรวม:** คุณสมบัตินี้ช่วยให้คุณสามารถนำเข้าบุ๊กมาร์กจากไฟล์ XML ลงในเอกสาร PDF ที่มีอยู่แล้วโดยตรง ซึ่งจะช่วยปรับปรุงโครงสร้างการนำทางโดยไม่ต้องแก้ไขด้วยตนเอง
+### Import Bookmarks from XML File (Feature 1)
+**Overview:** วิธีนี้อ่านไฟล์ XML ที่มีรายการบุ๊กมาร์กแบบลำดับชั้นและแทรกลงใน PDF ที่มีอยู่
 
-#### การดำเนินการแบบทีละขั้นตอน
-##### ตั้งค่าสภาพแวดล้อมของคุณ
-ตรวจสอบให้แน่ใจว่าโครงการของคุณได้รับการกำหนดค่าด้วยสิ่งที่ต้องมีที่จำเป็น
+#### Step‑by‑Step Implementation
+1. **Load the Existing PDF Document**  
+   ```java
+   import com.aspose.pdf.facades.PdfBookmarkEditor;
 
-##### โหลดเอกสาร PDF ที่มีอยู่
-```java
-import com.aspose.pdf.facades.PdfBookmarkEditor;
+   String dataDir = "YOUR_DOCUMENT_DIRECTORY";
+   String outputDir = "YOUR_OUTPUT_DIRECTORY";
 
-String dataDir = "YOUR_DOCUMENT_DIRECTORY";
-String outputDir = "YOUR_OUTPUT_DIRECTORY";
+   PdfBookmarkEditor bookmarkEditor = new PdfBookmarkEditor();
+   bookmarkEditor.bindPdf(dataDir + "/Input.pdf");
+   ```
+   *Explanation:* `PdfBookmarkEditor` ถูกผูกกับ PDF เป้าหมาย
 
-PdfBookmarkEditor bookmarkEditor = new PdfBookmarkEditor();
-bookmarkEditor.bindPdf(dataDir + "/Input.pdf");
-```
-*คำอธิบาย:* สร้างตัวอย่าง `PdfBookmarkEditor` และผูกเข้ากับไฟล์ PDF ที่มีอยู่
+2. **Import Bookmarks from XML**  
+   ```java
+   // Import bookmarks from an XML file.
+   bookmarkEditor.importBookmarksWithXML(dataDir + "/bookmarks.xml");
+   ```
+   *Purpose:* โครงสร้าง XML จะถูกแยกวิเคราะห์และเพิ่มเป็นบุ๊กมาร์กใน PDF
 
-##### นำเข้าบุ๊กมาร์ก
-```java
-// นำเข้าบุ๊กมาร์กจากไฟล์ XML
-bookmarkEditor.importBookmarksWithXML(dataDir + "/bookmarks.xml");
-```
-*วัตถุประสงค์:* วิธีการนี้จะอ่านโครงสร้างบุ๊กมาร์กจาก XML ที่ให้มาและรวมเข้ากับเอกสาร PDF ของคุณ
+3. **Save the Updated PDF**  
+   ```java
+   // Save changes to a new PDF file.
+   bookmarkEditor.save(outputDir + "/output.pdf");
+   ```
+   *Result:* PDF ใหม่ที่มีต้นไม้การนำทางที่นำเข้าแล้ว
 
-##### บันทึกเอกสาร PDF ที่ได้รับการอัพเดต
-```java
-// บันทึกการเปลี่ยนแปลงไปยังไฟล์ PDF ใหม่
-bookmarkEditor.save(outputDir + "/output.pdf");
-```
-*ค่าส่งคืน:* วิธีนี้จะบันทึก PDF ที่แก้ไขแล้วโดยใส่บุ๊กมาร์กที่นำเข้าทั้งหมดไว้ในที่เดียวกัน
+**Troubleshooting Tips**
+- ตรวจสอบว่า XML ปฏิบัติตามสคีมาของ Aspose (องค์ประกอบราก `<Bookmarks>`)  
+- ตรวจสอบสิทธิ์ไฟล์หากพบ `IOException`
 
-**เคล็ดลับการแก้ไขปัญหา:**
-- ตรวจสอบให้แน่ใจว่ารูปแบบ XML ตรงกับโครงสร้างที่คาดหวังของ Aspose เพื่อหลีกเลี่ยงข้อผิดพลาดในการแยกวิเคราะห์
-- ตรวจสอบเส้นทางและสิทธิ์ของไฟล์หากคุณพบ IOExceptions
+### Import Bookmarks from InputStream (Feature 2)
+**Overview:** วิธีนี้เหมาะเมื่อข้อมูล XML มาจากฐานข้อมูล, เว็บเซอร์วิส, หรือแหล่งข้อมูลในหน่วยความจำใด ๆ
 
-### นำเข้าบุ๊กมาร์กจาก InputStream ไปยัง PDF ที่มีอยู่ (ฟีเจอร์ 2)
-**ภาพรวม:** วิธีนี้เกี่ยวข้องกับการอ่าน XML ที่มีบุ๊กมาร์กผ่านสตรีมอินพุต ซึ่งให้ความยืดหยุ่นเมื่อทำงานกับแหล่งข้อมูลแบบไดนามิกหรือข้อจำกัดหน่วยความจำ
+#### Step‑by‑Step Implementation
+1. **Load the Existing PDF Document**  
+   ```java
+   PdfBookmarkEditor bookmarkeditor = new PdfBookmarkEditor();
+   bookmarkeditor.bindPdf(dataDir + "/Input.pdf");
+   ```
+   *Explanation:* ขั้นตอนการผูกเหมือนเดิม
 
-#### การดำเนินการแบบทีละขั้นตอน
-##### ตั้งค่าสภาพแวดล้อมของคุณ
-ตรวจสอบให้แน่ใจว่าการอ้างอิง Maven/Gradle ของคุณได้รับการกำหนดค่าอย่างถูกต้อง
+2. **Create an InputStream for XML Data**  
+   ```java
+   import java.io.FileInputStream;
+   import java.io.InputStream;
 
-##### โหลดเอกสาร PDF ที่มีอยู่
-```java
-PdfBookmarkEditor bookmarkeditor = new PdfBookmarkEditor();
-bookmarkeditor.bindPdf(dataDir + "/Input.pdf");
-```
-*คำอธิบาย:* การเริ่มต้น `PdfBookmarkEditor` และผูกเข้ากับไฟล์ PDF เป้าหมายเหมือนเดิม
+   InputStream is = new FileInputStream(dataDir + "/bookmark.xml");
+   ```
+   *Purpose:* อ่านไฟล์ XML เข้าเป็นสตรีม
 
-##### สร้าง InputStream สำหรับข้อมูล XML
-```java
-import java.io.FileInputStream;
-import java.io.InputStream;
+3. **Import Bookmarks Using the Stream**  
+   ```java
+   // Use the input stream to import bookmarks.
+   bookmarkeditor.importBookmarksWithXML(is);
+   ```
+   *Method Purpose:* รับ `InputStream` เพื่อแหล่งข้อมูลที่ยืดหยุ่น
 
-InputStream is = new FileInputStream(dataDir + "/bookmark.xml");
-```
-*วัตถุประสงค์:* การ `FileInputStream` อ่านข้อมูลจากไฟล์ XML ที่ระบุลงในสตรีม ซึ่งพร้อมสำหรับการประมวลผลโดย Aspose.PDF
+4. **Save the Updated PDF Document**  
+   ```java
+   bookmarkeditor.save(outputDir + "/output.pdf");
+   ```
+   *Explanation:* บันทึกการเปลี่ยนแปลง
 
-##### นำเข้าบุ๊กมาร์กโดยใช้ InputStream
-```java
-// ใช้สตรีมอินพุตเพื่อนำเข้าบุ๊กมาร์ก
-bookmarkeditor.importBookmarksWithXML(is);
-```
-*วัตถุประสงค์วิธีการ:* วิธีการนี้ยอมรับ `InputStream`ช่วยให้สามารถรวมบุ๊กมาร์กได้โดยไม่ต้องเข้าถึงไฟล์โดยตรง
+**Troubleshooting Tips**
+- ปิด `InputStream` หลังการนำเข้าเสมอ (`is.close();`) เพื่อหลีกเลี่ยงการรั่วของทรัพยากร  
+- ตรวจสอบความถูกต้องของไวยากรณ์ XML ก่อนส่งให้ editor
 
-##### บันทึกเอกสาร PDF ที่ได้รับการอัพเดต
-```java
-bookmarkeditor.save(outputDir + "/output.pdf");
-```
-*คำอธิบาย:* เช่นเดียวกับก่อนหน้านี้ ให้บันทึกเอกสารด้วยบุ๊กมาร์กที่ผสานรวมไว้ในตำแหน่งที่ระบุ
+## Practical Applications
+1. **Automated Document Management** – ประมวลผล PDF จำนวนหลายพันไฟล์เป็นชุดเพื่อเพิ่มสารบัญที่สม่ำเสมอ  
+2. **Digital Publishing** – สร้าง e‑books พร้อมบุ๊กมาร์กไดนามิกที่ดึงจาก CMS  
+3. **Legal Documentation** – นำทางสัญญาและไฟล์คดีได้อย่างรวดเร็ว  
+4. **Academic Research** – เพิ่มบุ๊กมาร์กระดับบทในวิทยานิพนธ์ขนาดใหญ่  
+5. **Corporate Reports** – ปรับปรุงรายงานประจำปีด้วยส่วนที่คลิกได้
 
-**เคล็ดลับการแก้ไขปัญหา:**
-- ตรวจสอบให้แน่ใจว่าสตรีมอินพุตของคุณปิดอย่างถูกต้องหลังใช้งานเพื่อป้องกันการรั่วไหลของทรัพยากร
-- ตรวจสอบความถูกต้องของไวยากรณ์ XML ในสตรีมอินพุตหากเกิดข้อผิดพลาดระหว่างการนำเข้า
+## Performance Considerations
+- **Stream Usage:** แนะนำให้ใช้ `InputStream` สำหรับไฟล์ XML ขนาดใหญ่เพื่อประหยัดหน่วยความจำ  
+- **Concurrency:** ใช้ `ExecutorService` ของ Java เพื่อประมวลผล PDF หลายไฟล์พร้อมกัน  
+- **Batch Processing:** จัดกลุ่มไฟล์เป็นชุดเพื่อ ลดภาระ I/O
 
-## การประยุกต์ใช้งานจริง
-1. **ระบบจัดการเอกสารอัตโนมัติ:** ปรับปรุงการอัพเดตและจัดการเอกสาร PDF จำนวนมากด้วยการเพิ่มบุ๊กมาร์กผ่านโปรแกรม
-   
-2. **การจัดพิมพ์ดิจิตอล:** ปรับปรุงประสบการณ์ผู้ใช้ในนิตยสารดิจิทัลหรือหนังสืออิเล็กทรอนิกส์ด้วยสารบัญที่สร้างแบบไดนามิกโดยใช้ข้อมูล XML
+## Frequently Asked Questions
 
-3. **เอกสารทางกฎหมาย:** จัดระเบียบแฟ้มคดี สัญญา และเอกสารสรุปทางกฎหมายอย่างมีประสิทธิภาพเพื่อการอ้างอิงอย่างรวดเร็ว
+**Q: ฉันสามารถนำเข้าบุ๊กมาร์กจากรูปแบบอื่นนอกจาก XML ได้หรือไม่?**  
+A: ได้. Aspose.PDF ยังรองรับ JSON, FDF, และ XFDF สำหรับการนำเข้าบุ๊กมาร์ก
 
-4. **บทความวิจัยทางวิชาการ:** อำนวยความสะดวกในการนำทางผ่านเอกสารการวิจัยที่ครอบคลุมโดยการนำเข้าบุ๊กมาร์กที่มีโครงสร้างจากฐานข้อมูลวิชาการ
+**Q: ฉันต้องการไลเซนส์เพื่อใช้ `PdfBookmarkEditor` ในการพัฒนาหรือไม่?**  
+A: ไลเซนส์ทดลองฟรีใช้ได้สำหรับการประเมิน; จำเป็นต้องมีไลเซนส์เต็มสำหรับการใช้งานในสภาพแวดล้อมการผลิต
 
-5. **รายงานขององค์กร:** ปรับปรุงการเข้าถึงส่วนต่างๆ ในรายงานประจำปีหรืองบการเงินด้วยการบุ๊กมาร์กอัตโนมัติ
+**Q: จะจัดการกับ PDF ที่มีการป้องกันด้วยรหัสผ่านอย่างไร?**  
+A: เปิด PDF ด้วยรหัสผ่านโดยใช้ `PdfBookmarkEditor.bindPdf(String path, String password)` ก่อนทำการนำเข้าบุ๊กมาร์ก
 
-## การพิจารณาประสิทธิภาพ
-- **เพิ่มประสิทธิภาพการใช้ทรัพยากร:** ใช้สตรีมอย่างชาญฉลาดและจัดการหน่วยความจำอย่างมีประสิทธิภาพ โดยเฉพาะอย่างยิ่งเมื่อจัดการกับไฟล์ XML ขนาดใหญ่
-- **การจัดการเธรด:** หากต้องจัดการ PDF หลายฉบับพร้อมกัน ควรพิจารณาใช้ยูทิลิตี้การทำงานพร้อมกันของ Java เพื่อประสิทธิภาพที่ดีที่สุด
-- **การประมวลผลแบบแบตช์:** สำหรับการดำเนินการจำนวนมาก ให้ประมวลผลเอกสารเป็นชุดเพื่อรักษาการตอบสนองของระบบ
+**Q: จะเกิดอะไรขึ้นหากโครงสร้าง XML ไม่ถูกต้อง?**  
+A: Aspose.PDF จะโยน `PdfException` พร้อมรายละเอียดของปัญหาการแยกวิเคราะห์ — ควรตรวจสอบ XML กับสคีมก่อน
 
-## บทสรุป
-คุณได้เรียนรู้วิธีการนำเข้าบุ๊กมาร์กไปยังไฟล์ PDF ที่มีอยู่แล้วโดยใช้ Aspose.PDF สำหรับ Java ทักษะนี้จะช่วยปรับปรุงการใช้งานเอกสารของคุณได้อย่างมากและประหยัดเวลาในการจัดการเอกสาร หากต้องการเพิ่มความสามารถของคุณเพิ่มเติม ให้ทำดังนี้:
-- สำรวจคุณสมบัติเพิ่มเติมภายใน Aspose.PDF
-- ทดลองใช้รูปแบบอินพุตอื่น ๆ ที่รองรับโดย Aspose
+**Q: มีวิธีตรวจสอบว่าบุ๊กมาร์กถูกเพิ่มอย่างถูกต้องหรือไม่?**  
+A: หลังบันทึก, เปิด PDF ด้วยโปรแกรมดูใดก็ได้และตรวจสอบแผงบุ๊กมาร์ก; ในเชิงโปรแกรมคุณสามารถเรียกดูรายการบุ๊กมาร์กผ่าน `PdfBookmarkEditor.getBookmarks()` ได้
 
-**คำกระตุ้นการตัดสินใจ:** ลองนำโซลูชันนี้ไปใช้ในโครงการถัดไปของคุณเพื่อดูการปรับปรุงทันทีในการนำทางและการจัดระเบียบเอกสาร!
+---
 
-## ส่วนคำถามที่พบบ่อย
-1. **การใช้งานหลักของ Aspose.PDF สำหรับ Java คืออะไร**
-   - ให้ความสามารถในการจัดการ PDF ที่ครอบคลุม รวมถึงการสร้าง การแก้ไข และการแปลง
-
-2. **ฉันสามารถนำเข้าบุ๊กมาร์กจากรูปแบบอื่นนอกเหนือจาก XML ได้หรือไม่**
-   - ใช่ Aspose.PDF รองรับการนำเข้าบุ๊กมาร์กจากรูปแบบไฟล์ต่างๆ เช่น JSON, FDF เป็นต้น
+**Last Updated:** 2025-12-22  
+**Tested With:** Aspose.PDF for Java v25.3  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
