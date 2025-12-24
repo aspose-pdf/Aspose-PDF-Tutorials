@@ -44,11 +44,15 @@ Learn how to enhance your PDF security by digitally signing documents with times
 ### [How to Implement PDF Privileges in .NET Using Aspose.PDF for Enhanced Security](./implement-pdf-privileges-net-aspose-pdf/)
 Learn how to control access and encrypt your PDF documents using Aspose.PDF in .NET, ensuring security while maintaining usability.
 
+### [How to lock PDF layers with Aspose.PDF – Complete PDF Layer Tutorial](./how-to-lock-pdf-layers-with-aspose-pdf-complete-pdf-layer-tu/)
+
 ### [How to Remove PDF Usage Rights using Aspose.PDF .NET - A Comprehensive Guide](./remove-pdf-usage-rights-aspose-dotnet/)
 Learn how to efficiently remove usage rights from a PDF using Aspose.PDF for .NET. This guide provides step-by-step instructions and best practices for managing document permissions.
 
 ### [How to Set PDF Permissions Using Aspose.PDF for .NET&#58; A Comprehensive Guide](./set-pdf-privileges-aspose-pdf-dotnet/)
 Learn how to set and manage PDF permissions with Aspose.PDF for .NET, ensuring secure document sharing. Follow our step-by-step guide for efficient implementation.
+
+### [Set PDF Password in C# – Complete Step‑by‑Step Guide](./set-pdf-password-in-c-complete-step-by-step-guide/)
 
 ### [How to Set an Expiry Date on PDFs Using Aspose.PDF for .NET (C# Tutorial)](./set-pdf-expiry-date-aspose-dotnet/)
 Learn how to set an expiry date on a PDF using Aspose.PDF for .NET in C#. This tutorial covers installation, configuration, and implementation with detailed code examples.

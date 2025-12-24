@@ -23,6 +23,7 @@ The resource includes tutorials on the Aspose.PDF for .NET library's programming
 | [Add Layers To PDF File](./addlayers/) | Discover how to add layers to PDFs using Aspose.PDF for .NET. This step-by-step guide will enhance your PDF manipulation skills. |  
 | [Add Remove Javascript To PDF Document](./addremovejavascripttodoc/) | Learn how to add and remove JavaScript to PDF document using Aspose.PDF for .NET. Step-by-step guide with code tutorials for document-level scripting. |  
 | [Add TOC To PDF File](./addtoc/) | Learn how to add a Table of Contents to a PDF using Aspose.PDF for .NET. This step-by-step guide simplifies the process and ensures easy navigation within your documents. |  
+| [Add entries pdf dictionary in C# with Aspose.Pdf – Complete Guide](./add-entries-pdf-dictionary-in-c-with-aspose-pdf-complete-gui/) |  |  
 | [Allow Resuse Page Content](./allowresusepagecontent/) | Learn how to optimize PDFs by enabling "Allow Resuse Page Content" feature using Aspose.PDF for .NET. Reduce file size and improve performance. |  
 | [Convert From RGBTo Grayscale](./convertfromrgbtograyscale/) | Learn how to convert a PDF from RGB to grayscale using Aspose.PDF for .NET. A step-by-step guide to simplify PDF color conversion and save file space. |  
 | [Create Multilayer PDF File First Approach](./createmultilayerpdffirstapproach/) | Learn how to create multilayer PDF file using the First Approach with Aspose.PDF for .NET. Add text, images, and more to enhance your PDFs. |  
@@ -58,6 +59,8 @@ The resource includes tutorials on the Aspose.PDF for .NET library's programming
 | [Validate PDF AB Standard](./validatepdfabstandard/) | Learn how to validate a PDF for PDF/A-1b standard using Aspose.PDF for .NET in this step-by-step tutorial. Ensure compliance for long-term archiving. |  
 | [Validate PDF Files A Standard](./validatepdfastandard/) | Learn how to validate PDF files against the PDF/A-1a standard using Aspose.PDF for .NET in this comprehensive step-by-step tutorial. |  
 | [Validate PDF UA Standard](./validatepdfuastandard/) | Learn how to validate a PDF for the PDF/UA accessibility standard using Aspose.PDF for .NET with our step-by-step guide and detailed explanations. |  
+| [How to Check PDF for Incremental Updates in C# – Step‑by‑Step Guide](./how-to-check-pdf-for-incremental-updates-in-c-step-by-step-g/) |  |  
+| [Generate Crash Report in C# – Complete Guide to Log Exceptions to File](./generate-crash-report-in-c-complete-guide-to-log-exceptions/) |  |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

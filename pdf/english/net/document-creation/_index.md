@@ -35,6 +35,8 @@ Learn how to generate dynamic PDF documents with text and images using Aspose.PD
 ### [Create Structured PDFs with Automatic Page Breaks in .NET using Aspose.PDF](./create-pdfs-page-breaks-net-aspose-pdf/)
 Learn how to create structured PDF documents programmatically in a .NET environment using Aspose.PDF, featuring automatic page breaks for precise formatting.
 
+### [Create PDF Document with Aspose.Pdf in C# – Step‑by‑Step Guide](./create-pdf-document-with-aspose-pdf-in-c-step-by-step-guide/)
+
 ### [Create a PDF Booklet with Aspose.PDF .NET&#58; Streamlined Step-by-Step Guide](./create-pdf-booklet-aspose-pdf-net-guide/)
 Learn how to automate PDF booklet creation using Aspose.PDF for .NET. This guide covers setup, implementation, and optimization tips.
 
@@ -73,6 +75,10 @@ Learn how to create accessible, well-structured tagged PDFs using Aspose.PDF for
 
 ### [Mastering PDF Booklet Creation with Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 A code tutorial for Aspose.PDF Net
+
+### [Add image to PDF in C# – Convert HEIC to PDF, Create PDF from Image, and Set PDF Page Size](./add-image-to-pdf-in-c-convert-heic-to-pdf-create-pdf-from-im/)
+
+### [Create PDF Document in C# – Full Guide to Add Text, Pages & JavaScript](./create-pdf-document-in-c-full-guide-to-add-text-pages-javasc/)
 
 ## Additional Resources
 

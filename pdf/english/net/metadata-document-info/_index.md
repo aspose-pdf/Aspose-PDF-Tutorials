@@ -59,6 +59,8 @@ Learn how to manage custom properties in PDF documents using Aspose.PDF for .NET
 ### [Set PDF Document Metadata Using Aspose.PDF for .NET&#58; A Developer's Guide](./set-pdf-metadata-aspose-pdf-dotnet/)
 Learn how to efficiently set metadata like author, title, and keywords in PDFs using Aspose.PDF for .NET. Simplify your document management workflow with this comprehensive guide.
 
+### [pdf modification detection in C# – Complete Guide to Check PDF for Updates](./pdf-modification-detection-in-c-complete-guide-to-check-pdf/)
+
 ## Additional Resources
 
 - [Aspose.PDF for Net Documentation](https://docs.aspose.com/pdf/net/)

@@ -23,6 +23,8 @@ Learn how to access and modify child elements in tagged PDFs with Aspose.PDF for
 ### [Add Colored Line Layers to PDFs Using Aspose.PDF for .NET&#58; A Comprehensive Guide](./add-colored-lines-pdfs-using-aspose-pdf-net/)
 Learn how to enhance your PDF documents by adding colored line layers using Aspose.PDF for .NET. This guide provides step-by-step instructions and practical applications.
 
+### [Add Transparency to PDF with C# – Aspose.Pdf ExtGState Guide](./add-transparency-to-pdf-with-c-aspose-pdf-extgstate-guide/)
+
 ### [Aspose.PDF .NET&#58; Enhancing PDF Accessibility through Tagging](./aspose-pdf-net-accessible-tagging-guide/)
 Learn how to use Aspose.PDF .NET for accessible tagging in PDFs. Set titles, languages, and logical structures easily.
 
@@ -47,6 +49,12 @@ Learn how to create accessible, well-structured tagged PDFs using Aspose.PDF for
 ### [Create and Manage Tagged PDFs with Aspose.PDF for .NET&#58; Enhance Accessibility and SEO](./create-manage-tagged-pdfs-aspose-pdf-dotnet/)
 Learn how to create accessible, tagged PDF documents using Aspose.PDF in .NET. Improve document accessibility and search engine indexing by following this comprehensive guide.
 
+### [Extract PDF Layers in C# – Complete Step‑by‑Step Guide](./extract-pdf-layers-in-c-complete-step-by-step-guide/)
+
+### [How to Save PDF and Merge PDF Layers with Aspose.PDF – Complete C# Guide](./how-to-save-pdf-and-merge-pdf-layers-with-aspose-pdf-complet/)
+
+### [Flatten PDF Transparency in C# – Complete Guide to Save Flattened PDFs](./flatten-pdf-transparency-in-c-complete-guide-to-save-flatten/)
+
 ### [How to Create Multi-Layer PDFs Using Aspose.PDF for .NET&#58; A Comprehensive Guide](./create-multi-layer-pdfs-aspose-pdf-dotnet/)
 Learn how to create dynamic and interactive multi-layered PDF documents using Aspose.PDF for .NET with this step-by-step guide.
 
@@ -54,13 +62,21 @@ Learn how to create dynamic and interactive multi-layered PDF documents using As
 Learn how to create accessible tagged PDF documents using Aspose.PDF for .NET. Enhance document structure and accessibility with this comprehensive guide.
 
 ### [How to Validate PDFs Against the PDF/UA Standard Using Aspose.PDF for .NET&#58; A Comprehensive Guide](./validate-pdf-ua-standard-aspose-dotnet/)
-Learn how to ensure your PDF documents meet accessibility standards with Aspose.PDF for .NET. This guide covers validation steps, setup, and real-world applications.
+Learn how to ensure your PDF documents meet accessibility standards with Aspose.PDF for .NET. This guide covers validation steps, setup, and real‑world applications.
 
 ### [Master Aspose.PDF .NET for Accessible PDFs&#58; Validate & Process PDF/UA-1 Documents](./mastering-aspose-pdf-net-accessible-pdfs/)
 Learn how to use Aspose.PDF for .NET to validate and process accessible PDF documents according to the PDF/UA-1 standard. Enhance digital document usability with this comprehensive guide.
 
 ### [Mastering Accessible PDF Creation with Aspose.PDF .NET&#58; Crafting Tagged PDFs with Styled Tables](./aspose-pdf-net-tagged-pdfs-styled-tables/)
 Learn to craft accessible, styled tagged PDF documents using Aspose.PDF for .NET. Master creating compliant PDFs with structured tables and enhanced accessibility.
+
+### [Compare two PDFs in C# – Step‑by‑Side Side‑by‑Side PDF Comparison Guide](./compare-two-pdfs-in-c-step-by-step-side-by-side-pdf-comparis/)
+
+### [Get AI Response in C# – Complete Guide to Send Chat Message with Aspose.Pdf.AI](./get-ai-response-in-c-complete-guide-to-send-chat-message-wit/)
+
+### [Create chat completion request with Aspose.Pdf.AI LlamaClient in C# – Step‑by‑Step Guide](./create-chat-completion-request-with-aspose-pdf-ai-llamaclien/)
+
+### [Create Summary PDF with AI – Step‑by‑Step Guide Using Aspose.Pdf.AI](./create-summary-pdf-with-ai-step-by-step-guide-using-aspose-p/)
 
 ## Additional Resources
 

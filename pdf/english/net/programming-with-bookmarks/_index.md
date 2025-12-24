@@ -32,6 +32,8 @@ Additionally, these tutorials show you how to customize bookmark properties, suc
 | [Inherit Zoom In PDF File](./inherit-zoom/) | Learn how to inherit zoom in PDF files using Aspose.PDF for .NET with this step-by-step guide. Enhance your PDF viewing experience. |  
 | [Update Bookmarks In PDF File](./update-bookmarks/) | Learn how to update bookmarks in a PDF file using Aspose.PDF for .NET with this guide. Perfect for developers looking to modify PDF bookmarks effectively. |  
 | [Update Child Bookmarks In PDF File](./update-child-bookmarks/) | Learn how to update child bookmarks in PDF files using Aspose.PDF for .NET with this step-by-step guide. Enhance your PDF navigation. |  
+| [How to Add TOC to a PDF with Aspose.PDF – Step‑by‑Step Guide](./how-to-add-toc-to-a-pdf-with-aspose-pdf-step-by-step-guide/) | Learn how to add a table of contents (TOC) to PDF files using Aspose.PDF for .NET in this step-by-step guide. |
+| [How to Add TOC in PDF with Aspose.Pdf – Step‑by‑Step Guide](./how-to-add-toc-in-pdf-with-aspose-pdf-step-by-step-guide/) | Learn how to add a table of contents (TOC) to PDF files using Aspose.PDF for .NET in this step-by-step guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

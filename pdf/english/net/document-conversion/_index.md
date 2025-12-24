@@ -23,6 +23,7 @@ You'll learn how to specify conversion settings, extract text and images, retain
 | --- | --- | 
 | [Add Attachment to PDFA](./add-attachment-to-pdfa/) | Learn how to add attachments to a PDF/A document using Aspose.PDF for .NET with this step-by-step guide. |  
 | [CGM To PDF Files](./cgm-to-pdf/) | Learn how to convert CGM files to PDF using Aspose.PDF for .NET with this step-by-step guide. Perfect for developers and designers alike. |  
+| [Convert PDF to HTML with Aspose: Complete C# Step‑by‑Step Guide](./convert-pdf-to-html-with-aspose-complete-c-step-by-step-guid/) |  |  
 | [EPUB To PDF](./epub-to-pdf/) | Learn how to convert EPUB to PDF using Aspose.PDF for .NET with this step-by-step guide. Easy, efficient, and perfect for all users. |  
 | [Get SVG Dimensions](./get-svg-dimensions/) | Learn how to use Aspose.PDF for .NET to convert SVG files to PDF with this step-by-step guide. Perfect for developers looking to manipulate PDFs. |  
 | [HTML To PDF](./html-to-pdf/) | Learn how to convert HTML to PDF using Aspose.PDF for .NET with this comprehensive step-by-step guide. |  
@@ -48,6 +49,7 @@ You'll learn how to specify conversion settings, extract text and images, retain
 | [Remove Hyperlinks After Converting From Html](./remove-hyperlinks-after-converting-from-html/) | Learn how to remove hyperlinks from HTML documents after converting to PDF using Aspose.PDF for .NET in this step-by-step guide. |  
 | [Replace Missing Fonts](./replace-missing-fonts/) | Learn how to replace missing fonts in PDF documents using Aspose.PDF for .NET with this step-by-step guide. |  
 | [Set Default Font Name](./set-default-font-name/) | Learn how to set a default font name when rendering PDFs to images using Aspose.PDF for .NET. This guide covers prerequisites, step-by-step instructions, and FAQs. |  
+| [Summarize PDF with AI – Complete C# Guide to Convert PDF to Summary](./summarize-pdf-with-ai-complete-c-guide-to-convert-pdf-to-sum/) |  |
 | [SVG To PDF](./svg-to-pdf/) | Learn how to convert SVG to PDF using Aspose.PDF for .NET in this step-by-step tutorial. Perfect for developers and designers. |  
 | [TeX To PDF](./tex-to-pdf/) | Learn how to convert TeX to PDF using Aspose.PDF for .NET with this detailed, step-by-step guide. Perfect for developers and document professionals. |  
 | [Text To PDF](./text-to-pdf/) | Learn how to convert text files to PDF using Aspose.PDF for .NET in this step-by-step guide. Perfect for developers looking to enhance their applications. |  
@@ -55,7 +57,11 @@ You'll learn how to specify conversion settings, extract text and images, retain
 | [Web Page To PDF](./web-page-to-pdf/) | Learn how to convert web pages to PDF using Aspose.PDF for .NET in this detailed, step-by-step tutorial. |  
 | [XML To PDF](./xml-to-pdf/) | Learn how to convert XML to PDF using Aspose.PDF for .NET in this comprehensive step-by-step tutorial, complete with code examples and detailed explanations. |  
 | [XML To PDFSet Image Path](./xml-to-pdfset-image-path/) | Learn how to effortlessly convert XML to PDF using Aspose.PDF for .NET. This detailed guide walks you through the process step by step, from setup to completion. |  
-| [XPS To PDF](./xps-to-pdf/) | Learn how to convert XPS files to PDF using Aspose.PDF for .NET with this step-by-step tutorial. Perfect for developers and document enthusiasts. |  
+| [XPS To PDF](./xps-to-pdf/) | Learn how to convert XPS files to PDF using Aspose.PDF for .NET with this step-by-step tutorial. Perfect for developers and document enthusiasts. |
+ 
+### [How to Use DocSaveOptions in C# – Implement Progress Handler for PDF Conversion](./how-to-use-docsaveoptions-in-c-implement-progress-handler-fo/)
+
+### [Convert PDF to PDF/X‑1a in C# – Complete Step‑by‑Step Guide with Aspose](./convert-pdf-to-pdf-x-1a-in-c-complete-step-by-step-guide-wit/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

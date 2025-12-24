@@ -28,14 +28,16 @@ Aspose.PDF's "Programming with Text" tutorials for .NET offer a comprehensive ra
 | [Add Text With Shading Colors In PDF File](./add-text-with-shading-colors/) | Learn how to add text shading in PDF files using Aspose.PDF for .NET with this step-by-step tutorial. Customize your documents with colored gradients. |  
 | [Add Tooltip To Text In PDF File](./add-tooltip-to-text/) | Learn how to add tooltips to text in PDF files using Aspose.PDF for .NET. Enhance your PDFs with informative hover texts effortlessly. |  
 | [Add Transparent Text In PDF File](./add-transparent-text/) | Learn how to easily add transparent text to a PDF using Aspose.PDF for .NET with this comprehensive guide. Step-by-step instructions for achieving perfect transparency. |  
-| [Create Multi Column Pdf](./create-multi-column-pdf/) | Learn how to create multi-column PDFs using Aspose.PDF for .NET. A step-by-step guide with code examples and detailed explanations. Perfect for professionals. |  
+| [Create Multi Column Pdf](./create-multi-column-pdf/) | Learn how to create multi-column PDFs using Aspose.PDF for .NET. A step-by-step guide with code examples and detailed explanations. Perfect for professionals. |
+| [Create PDF Summary in C# – Step‑by‑Step Guide Using Aspose PDF AI](./create-pdf-summary-in-c-step-by-step-guide-using-aspose-pdf/) |  |
 | [Custom Tab Stops In PDF File](./custom-tab-stops/) | Learn how to set up custom tab stops in a PDF using Aspose.PDF for .NET. This tutorial covers step-by-step instructions for aligning text professionally. |  
 | [Determine Line Break In PDF File](./determine-line-break/) | Learn how to determine line breaks in PDF documents using Aspose.PDF for .NET. A step-by-step tutorial for developers. |  
 | [Embed Standard Type 1Fonts In PDF File](./embed-standard-type-1fonts/) | Learn how to embed Standard Type 1 fonts in PDF files using Aspose.PDF for .NET with this step-by-step guide to enhance your document’s accessibility. |  
 | [Extract Columns Text In PDF File](./extract-columns-text/) | Learn how to extract columns of text from PDF files using Aspose.PDF for .NET. This guide breaks down each step with code examples and explanations. |  
 | [Extract Paragraphs In PDF File](./extract-paragraphs/) | Learn how to extract paragraphs from PDF files using Aspose.PDF for .NET in this easy-to-follow tutorial. Perfect for developers of all levels. |   
 | [Extract Text All In PDF File](./extract-text-all/) |Learn how to easily extract text from PDF files using Aspose.PDF for .NET with this step-by-step tutorial.|  
-| [Extract Text From Page Region In PDF File](./extract-text-from-page-region/) | Learn how to extract text from a specific region in a PDF using Aspose.PDF for .NET with this step-by-step guide. Efficiently gather and save text from your documents. |  
+| [Extract Text From Page Region In PDF File](./extract-text-from-page-region/) | Learn how to extract text from a specific region in a PDF using Aspose.PDF for .NET with this step-by-step guide. Efficiently gather and save text from your documents. |
+| [Extract Text from PDF in C# – Complete Guide Using GPT‑4o Mini OCR](./extract-text-from-pdf-in-c-complete-guide-using-gpt-4o-mini/) |  |
 | [Extract Text Page In PDF File](./extract-text-page/) | Learn how to extract text from a specific page in PDF file using Aspose.PDF for .NET. |  
 | [Extract Text Using Text Device](./extract-text-using-text-device/) | Learn how to extract text from a PDF document using the Text Device in Aspose.PDF for .NET. |  
 | [Get Width Of Text Dynamically](./get-width-of-text-dynamically/) | Learn to dynamically measure text widths using Aspose.PDF for .NET in this comprehensive step-by-step tutorial tailored for developers. |  
@@ -64,7 +66,9 @@ Aspose.PDF's "Programming with Text" tutorials for .NET offer a comprehensive ra
 | [Search Text And Add Hyperlink](./search-text-and-add-hyperlink/) | Learn how to search text and add hyperlinks in PDFs using Aspose.PDF for .NET with our step-by-step tutorial. |  
 | [Search Text And Draw Rectangle](./search-text-and-draw-rectangle/) | Learn to search text in PDFs and highlight it with rectangles using Aspose.PDF for .NET! Easy step-by-step tutorial for enhanced PDF manipulation skills. |  
 | [Search Text Segments Page In PDF File](./search-text-segments-page/) | Learn how to search text segments in PDF files using Aspose.PDF for .NET with this detailed step-by-step guide. Extract text, analyze segments, and more. |  
-| [Search Text With Dot Net Regex](./search-text-with-dot-net-regex/) | Learn how to search text in PDFs using .NET Regex with Aspose.PDF. Follow our step-by-step guide and simplify your PDF tasks. |   
+| [Search Text With Dot Net Regex](./search-text-with-dot-net-regex/) | Learn how to search text in PDFs using .NET Regex with Aspose.PDF. Follow our step-by-step guide and simplify your PDF tasks. |  
+| [How to Search PDF in C# – Complete Guide to Regex Text Extraction](./how-to-search-pdf-in-c-complete-guide-to-regex-text-extracti/) |  |
+| [How to Summarize PDF with C# – Complete Guide to Chat with PDF using OpenAI](./how-to-summarize-pdf-with-c-complete-guide-to-chat-with-pdf/) |  |
 | [Specify Line Spacing In PDF File](./specify-line-spacing/) | Learn how to specify line spacing in a PDF using Aspose.PDF for .NET with this step-by-step guide. Perfect for developers seeking precise text formatting. |  
 | [Text Alignment For Floating Box Contents In PDF File](./text-alignment-for-floating-box-contents/) | Learn how to align floating box contents in PDF files using Aspose.PDF for .NET. Create stunning documents with professional layouts. |  
 | [Text And Image As Paragraph In PDF File](./text-and-image-as-paragraph/) | Create PDFs with text and images using Aspose.PDF for .NET. Learn how to add text and inline images step-by-step. |  

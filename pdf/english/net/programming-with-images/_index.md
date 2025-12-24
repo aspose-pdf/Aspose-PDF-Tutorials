@@ -21,6 +21,8 @@ Aspose.PDF for .NET's "Programming with Images" tutorials walk you through the s
 | Title | Description |
 | --- | --- | 
 | [Add Image In PDF File](./add-image/) | Learn how to add images to a PDF file programmatically using Aspose.PDF for .NET. Step-by-step guide, example code, and FAQs included for seamless implementation. |  
+| [Add Mask to PDF in C# – Step‑by‑Step Guide to Stencil Masks](./add-mask-to-pdf-in-c-step-by-step-guide-to-stencil-masks/) |  |  
+| [Crop image in PDF with C# – Create PDF from Image, Add Image to PDF, and Save PDF Document](./crop-image-in-pdf-with-c-create-pdf-from-image-add-image-to/) |  |
 | [All Pages To TIFF](./all-pages-to-tiff/) | Learn how to convert all pages of a PDF to TIFF using Aspose.PDF for .NET in this step-by-step tutorial. Easy and efficient document management. |  
 | [Bradley Algorithm](./bradley-algorithm/) | Learn how to convert a PDF to TIFF using the Bradley algorithm in Aspose.PDF for .NET. Step-by-step guide, prerequisites, and FAQs for seamless conversion. |  
 | [CGM Image to PDF](./cgm-image-to-pdf/) | Easily convert CGM images to PDF using Aspose.PDF for .NET. Follow this simple step-by-step guide and streamline your file conversion process. |  
@@ -49,6 +51,7 @@ Aspose.PDF for .NET's "Programming with Images" tutorials walk you through the s
 | [Set Image Size In PDF File](./set-image-size/) | Learn how to set the image size in a PDF using Aspose.PDF for .NET. This step-by-step guide will help you resize images, adjust page properties, and save PDFs. |  
 | [Shrink Images In PDF File](./shrink-images/) | Easily shrink images in PDF files using Aspose.PDF for .NET with this step-by-step guide, ensuring smaller file sizes while maintaining quality. |  
 | [Store Image In XImage Collection](./store-image-in-ximage-collection/) |  Learn how to store images in XImage collection using Aspose.PDF for .NET in this complete step-by-step guide. |  
+| [Create Image Description Copilot in C# – Full Guide to Extract Image Alt Text](./create-image-description-copilot-in-c-full-guide-to-extract/) |  |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -22,6 +22,8 @@ Explore the features of Aspose.PDF for .NET with dedicated tutorials. Learn how 
 | Title | Description |
 | --- | --- | 
 | [Apply Number Style In PDF File](./apply-number-style/) | Learn how to apply different number styles (Roman numerals, alphabetical) to headings in a PDF using Aspose.PDF for .NET with this step-by-step guide. |   
+| [How to Add TOC in a PDF with Aspose.PDF – Step‑by‑Step C# Guide](./how-to-add-toc-in-a-pdf-with-aspose-pdf-step-by-step-c-guide/) |  |
+| [How to Add TOC in a PDF with C# – Complete Step‑by‑Step Guide](./how-to-add-toc-in-a-pdf-with-c-complete-step-by-step-guide/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

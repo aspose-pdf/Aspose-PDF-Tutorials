@@ -29,9 +29,11 @@ These tutorials also provide detailed code examples, clear explanations, and ill
 | [Determine Required Field In PDF Form](./determine-required-field/) | Learn how to determine required fields in a PDF form using Aspose.PDF for .NET. Our step-by-step guide simplifies form management and enhances your PDF automation workflow. |  
 | [Dynamic XFA To Acro Form](./dynamic-xfa-to-acro-form/) | Learn how to convert dynamic XFA forms to standard AcroForms using Aspose.PDF for .NET in this step-by-step tutorial. |  
 | [Fill PDF Form Field](./fill-form-field/) | Learn how to fill PDF form fields using Aspose.PDF for .NET with this step-by-step tutorial. Automate your PDF tasks effortlessly. |  
+| [How to Fill PDF Forms in C# – Step‑by‑Step Guide](./how-to-fill-pdf-forms-in-c-step-by-step-guide/) |  |  
 | [Fill XFAFields](./fill-xfafields/) | Learn how to programmatically fill XFA fields in PDFs using Aspose.PDF for .NET with this step-by-step tutorial. Discover simple, powerful PDF manipulation tools. |  
 | [Flatten Forms In PDF Document](./flatten-forms/) | Learn how to flatten forms in PDF documents using Aspose.PDF for .NET with this step-by-step guide. Secure your data effortlessly. |  
 | [Form Field Font 14](./form-field-font-14/) | Learn how to change the font of form fields in a PDF document using Aspose.PDF for .NET. Step-by-step guide with code examples and tips for better PDF forms. |  
+| [How to Flatten PDF in C#: Remove Form Fields, Convert Fillable PDF & Make PDFs Non‑Editable](./how-to-flatten-pdf-in-c-remove-form-fields-convert-fillable/) |  |
 | [Get PDF Form Field Coordinates](./get-coordinates/) | Unlock PDF manipulation with Aspose.PDF for .NET! Learn how to retrieve form field coordinates in just a few simple steps. |  
 | [Get Fields From Region In PDF File](./get-fields-from-region/) | Learn how to extract fields from a specified region in PDF files effortlessly using Aspose.PDF for .NET in this comprehensive guide. |  
 | [Get Value From Field In PDF Document](./get-value-from-field/) | Learn how to easily extract values from form fields in a PDF document using Aspose.PDF for .NET with this step-by-step tutorial. |  

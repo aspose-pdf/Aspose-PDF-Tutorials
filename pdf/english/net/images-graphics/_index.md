@@ -59,8 +59,10 @@ A code tutorial for Aspose.PDF Net
 ### [Extract Images from PDF Signatures Using Aspose.PDF .NET&#58; A Comprehensive Guide](./extract-images-pdf-signatures-aspose-pdf-dotnet/)
 Learn how to extract images embedded in PDF signatures using Aspose.PDF for .NET. This guide provides step-by-step instructions and practical applications.
 
-### [Extract Images from PDF with Aspose.PDF for .NET](./extract-images-pdfs-aspose-pdf-net/)
+### [Extract Images from PDF](./extract-images-pdfs-aspose-pdf-net/)
 A code tutorial for Aspose.PDF Net
+
+### [extract vector graphics pdf with Aspose.PDF – Complete C# Guide](./extract-vector-graphics-pdf-with-aspose-pdf-complete-c-guide/)
 
 ### [Fast Image Shrinking in PDFs with Aspose.PDF .NET&#58; Optimize and Compress Images Efficiently](./optimize-pdf-images-aspose-net-fast-compression/)
 Learn how to shrink images within PDF files using Aspose.PDF for .NET, reducing file sizes while maintaining quality. Perfect for faster loading and efficient storage.
