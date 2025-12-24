@@ -1,9 +1,13 @@
 ---
-"date": "2025-04-14"
-"description": "了解如何使用 Aspose.PDF for Java 以程式設計方式從 PDF 中提取和顯示書籤，從而增強應用程式中的導航。"
-"title": "如何使用 Aspose.PDF for Java 檢索和顯示 PDF 書籤"
-"url": "/zh-hant/java/bookmarks-navigation/retrieve-display-pdf-bookmarks-aspose-pdf-java/"
-"weight": 1
+date: '2025-12-24'
+description: 學習如何使用 Aspose.PDF for Java 取得 PDF 書籤、提取並有效顯示書籤標題、樣式及顏色。
+keywords:
+- retrieve pdf bookmarks java
+- display PDF bookmarks Aspose.PDF
+- Aspose.PDF for Java setup
+title: 使用 Aspose.PDF 的 Java 取得 PDF 書籤 – 完整指南
+url: /zh-hant/java/bookmarks-navigation/retrieve-display-pdf-bookmarks-aspose-pdf-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,24 +15,39 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# 如何使用 Aspose.PDF for Java 檢索和顯示 PDF 書籤
+# 如何使用 Aspose.PDF for Java 取得 PDF 書籤（Java）
+
 ## 介紹
-難以從 PDF 文件中提取書籤？本教學探討如何使用 Aspose.PDF for Java 檢索和顯示 PDF 書籤。無論是建立需要導航功能的應用程式還是提取元數據，掌握 PDF 中的書籤操作都至關重要。
-### 您將學到什麼
-- 使用 Aspose.PDF for Java 設定您的環境
-- 從 PDF 文件中檢索書籤
-- 顯示書籤標題和屬性，如粗體、斜體和顏色
-- 實際應用和整合可能性
-- 優化資源使用的效能考慮
-在開始之前，讓我們先來了解先決條件！
-## 先決條件
-為了有效地遵循本教程，您需要：
-- **所需庫**：需要 Aspose.PDF for Java（版本 25.3）。
-- **環境設定**：確保安裝了 JDK 的兼容開發環境，如 IntelliJ IDEA 或 Eclipse。
-- **知識前提**：熟悉 Java 程式設計並對 Maven 或 Gradle 建置系統有基本的了解。
-## 為 Java 設定 Aspose.PDF
-### 安裝訊息
-使用 Maven 或 Gradle 將 Aspose.PDF 庫包含到您的專案中：
+在 PDF 文件中提取書籤感到困難嗎？在本教學中，您將學習 **how to retrieve pdf bookmarks java**（如何使用 Java 取得 PDF 書籤），使用功能強大的 Aspose.PDF 函式庫。無論您是構建具備豐富導覽功能的檢視器、提取索引用的中繼資料，或是自動化文件處理，精通書籤操作對於提供順暢的使用者體驗都是必不可少的。
+
+### 快速解答
+- **What does “retrieve pdf bookmarks java” mean?** 它指的是使用 Java 程式碼以程式方式讀取 PDF 檔案的目錄（書籤）。
+- **Which library is best for this task?** Aspose.PDF for Java 提供簡易的 API 以存取書籤標題、樣式與顏色。
+- **Do I need a license?** 免費試用版可用於評估；正式環境則需永久授權。
+- **Can I handle large PDFs?** 可以——使用串流方式，並在使用完畢後關閉 `Document` 物件以釋放資源。
+- **Is this approach thread‑safe?** 建議每個執行緒建立獨立的 `Document` 實例，以確保執行緒安全。
+
+### 您將學習
+- 使用 Aspose.PDF for Java 設定開發環境  
+- 從 PDF 文件中取得書籤  
+- 顯示書籤標題及粗體、斜體、顏色等屬性  
+- 實務應用與整合可能性  
+- 效能考量與資源最佳化  
+
+在開始之前，讓我們先了解前置需求！
+
+## retrieve pdf bookmarks java – 您需要了解的資訊
+在撰寫任何程式碼之前，請確保您已備妥所需的工具與知識。
+
+## 前置條件
+- **Required Libraries**：必須使用 Aspose.PDF for Java（版本 25.3）。
+- **Environment Setup**：相容的 IDE（如 IntelliJ IDEA 或 Eclipse）並已安裝 JDK。
+- **Knowledge Prerequisites**：熟悉 Java 程式設計，並具備 Maven 或 Gradle 建置系統的基本概念。
+
+## 設定 Aspose.PDF for Java
+### 安裝資訊
+Include the Aspose.PDF library in your project using either Maven or Gradle:
+
 **Maven**
 ```xml
 <dependency>
@@ -37,89 +56,135 @@
     <version>25.3</version>
 </dependency>
 ```
+
 **Gradle**
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
-### 許可證獲取
-Aspose.PDF for Java 允許免費試用、臨時許可或購買完整版本。訪問 [Aspose 購買](https://purchase.aspose.com/buy) 探索您的選擇。
-#### 基本初始化和設定
-若要在您的應用程式中初始化 Aspose.PDF，請正確設定許可證檔：
+
+### 取得授權
+Aspose.PDF for Java 提供免費試用、臨時授權或完整版本購買。請前往 [Aspose Purchase](https://purchase.aspose.com/buy) 了解可用方案。
+
+#### 基本初始化與設定
+在應用程式中初始化 Aspose.PDF 時，請正確設定授權檔案：
 ```java
 License license = new License();
 license.setLicense("path/to/your/license/file.lic");
 ```
-完成此設定後，讓我們繼續實現書籤提取功能。
-## 實施指南
-### 從 PDF 文件中提取書籤
-本節指導您使用 Aspose.PDF for Java 檢索書籤。
-#### 開啟 PDF 文檔
-載入您的 PDF 文件：
+
+完成上述設定後，我們即可進行書籤擷取功能的實作。
+
+## 實作指南
+### 從 PDF 文件中擷取書籤
+本節將說明如何使用 Aspose.PDF for Java 取得書籤。
+
+#### 開啟 PDF 文件
+載入 PDF 文件：
 ```java
-String dataDir = "YOUR_DOCUMENT_DIRECTORY/input.pdf"; // 輸入 PDF 檔案的路徑
-document pdfDocument = new Document(dataDir);
+String dataDir = "YOUR_DOCUMENT_DIRECTORY/input.pdf"; // Path to the input PDF file
+Document pdfDocument = new Document(dataDir);
 ```
-#### 循環瀏覽書籤
+
+#### 迭代書籤
 遍歷文件中的所有書籤：
 ```java
 for (OutlineItemCollection outlineItem : pdfDocument.getOutlines()) {
-    // 訪問書籤詳細信息
+    // Access bookmark details
 }
 ```
-#### 顯示書籤詳細信息
-對於每個書籤，顯示其標題和屬性，如斜體、粗體和顏色：
+
+#### 顯示書籤詳細資訊
+對每個書籤，顯示其標題及斜體、粗體、顏色等屬性：
 ```java
 String title = outlineItem.getTitle();
-boolean isItalic = outlineItem.isItalic();  // 修正了斜體檢查的方法調用
-boolean isBold = outlineItem.getBold();     // 檢查文字是否為粗體
+boolean isItalic = outlineItem.isItalic();  // Corrected method call for italic check
+boolean isBold = outlineItem.getBold();     // Check if the text is bold
 int color = outlineItem.getColor().getKnownColor();
 
-// 範例輸出
+// Example output
 System.out.println("Title: " + title);
 System.out.println("Is Italic: " + isItalic);
 System.out.println("Is Bold: " + isBold);
 System.out.println("Color: " + color);
 ```
-**解釋**： 這 `getTitle()` 方法檢索書籤的名稱，而 `isItalic()` 和 `getBold()` 檢查文字樣式。這 `getColor()` 提供顏色資訊。
-### 故障排除提示
-- **缺少書籤**：確保您的 PDF 確實包含書籤。
-- **路徑錯誤**：仔細檢查文件路徑的準確性。
-## 實際應用
-提取和操作 PDF 書籤可應用於各種場景：
-1. **內容導航應用**：透過允許快速瀏覽文件的各個部分來增強使用者體驗。
-2. **文件管理系統**：根據書籤標題自動對內容進行分類。
-3. **電子學習平台**：使學生能夠直接跳到重點課程或主題。
-## 性能考慮
-處理大型 PDF 時，請考慮以下效能提示：
-- 如果可能的話，使用串流傳輸來有效地處理大型文件。
-- 監控記憶體使用情況並優化您的環境設定。
-- 關閉 `Document` 使用後正確使用物件以釋放資源。
-遵循最佳實務可確保順利運作和有效率的資源管理。
+**說明**：`getTitle()` 方法取得書籤名稱，`isItalic()` 與 `getBold()` 用於檢查文字樣式，`getColor()` 則提供顏色資訊。
+
+### 疑難排解技巧
+- **Missing Bookmarks**：請確認 PDF 確實包含書籤。  
+- **Path Errors**：再次確認檔案路徑的正確性。
+
+## 實務應用
+提取與操作 PDF 書籤可應用於多種情境：
+
+1. **內容導覽應用程式** – 讓使用者能快速在文件各章節間切換，提升使用體驗。  
+2. **文件管理系統** – 依據書籤標題自動分類內容。  
+3. **線上學習平台** – 讓學員直接跳至關鍵課程或主題。
+
+## 效能考量
+處理大型 PDF 時，請留意以下效能建議：
+
+- 如有可能，使用串流方式以有效處理大型文件。  
+- 監控記憶體使用情況，並優化環境設定。  
+- 使用完畢後，正確關閉 `Document` 物件以釋放資源。  
+
+遵循最佳實踐可確保順暢運作與資源效能。
+
+## 常見問題與解決方案
+| 問題 | 可能原因 | 解決方式 |
+|------|----------|----------|
+| 書籤無輸出 | PDF 沒有大綱 | 確認來源 PDF 包含書籤 |
+| `getColor()` 發生 NullPointerException | 書籤未設定顏色 | 在存取顏色前加入 null 檢查 |
+| 授權未套用 | 授權檔案路徑不正確 | 確保 `setLicense` 指向正確的 `.lic` 檔案 |
+
 ## 結論
-在本教學中，我們介紹如何使用 Aspose.PDF for Java 擷取和顯示 PDF 書籤。透過遵循這些步驟，您可以使用進階文件導航功能來增強您的應用程式。
+在本教學中，我們說明了 **how to retrieve pdf bookmarks java**（如何使用 Java 取得 PDF 書籤）使用 Aspose.PDF for Java。依循這些步驟，即可為您的應用程式加入進階的文件導覽功能。
+
 ### 後續步驟
-- 探索 Aspose.PDF 的更多功能。
-- 將書籤提取整合到更大的項目中。
-- 嘗試額外的文檔處理任務。
-考慮在實際專案中嘗試該解決方案，看看它如何增強功能！
-## 常見問題部分
-**Q：從 PDF 中提取書籤的目的是什麼？**
-答：提取書籤有助於導航和分類 PDF 中的內容，從而提高使用者體驗和效率。
-**Q：存取書籤屬性時如何處理錯誤？**
-答：確保您的 PDF 有書籤。使用 try-catch 區塊來有效地管理異常。
-**Q：Aspose.PDF 可以免費使用嗎？**
-答：是的，您可以先免費試用，或是取得臨時許可證。
-**Q：Aspose.PDF 免費版有什麼限制嗎？**
-A：免費試用有使用限制；考慮購買完整許可證以供無限制使用。
-**Q：如何在 Web 應用程式中整合 PDF 書籤提取？**
-答：使用伺服器端 Java 處理文件並透過 API 或直接資料庫儲存將結果傳送到前端。
+- 探索 Aspose.PDF 的更多功能。  
+- 將書籤擷取整合至更大型的專案中。  
+- 嘗試其他文件處理任務。  
+
+建議在實務專案中嘗試此解決方案，觀察其功能提升效果！
+
+## 常見問答
+**Q: 為何要從 PDF 提取書籤？**  
+A: 提取書籤有助於在 PDF 內導覽與分類內容，提升使用者體驗與效率。
+
+**Q: 存取書籤屬性時如何處理錯誤？**  
+A: 請確認 PDF 含有書籤。使用 try‑catch 區塊有效管理例外。
+
+**Q: Aspose.PDF 可以免費使用嗎？**  
+A: 可以，您可以先使用免費試用版或取得臨時授權。
+
+**Q: Aspose.PDF 免費版有什麼限制？**  
+A: 免費試用版有使用限制；若需無限制使用，建議購買完整授權。
+
+**Q: 如何在 Web 應用程式中整合 PDF 書籤擷取？**  
+A: 在伺服器端使用 Java 處理文件，然後透過 API 或直接寫入資料庫的方式將結果傳送至前端。
+
+## 常見問題
+**Q: 此方法能處理受密碼保護的 PDF 嗎？**  
+A: 可以——在建立 `Document` 物件時提供密碼即可。
+
+**Q: 我能取得巢狀（子）書籤嗎？**  
+A: 當然可以。可遞迴遍歷 `OutlineItemCollection` 以取得子項目。
+
+**Q: 此 API 是否相容於 Java 8 及更新版本？**  
+A: Aspose.PDF for Java 支援 Java 8 以上，包括 Java 11 與 Java 17。
+
+**Q: 如何將書籤清單匯出為 CSV 檔案？**  
+A: 遍歷大綱，收集細節後，使用標準的 Java I/O 類別寫入 CSV。
+
+**Q: 若需修改書籤標題該怎麼做？**  
+A: 使用 `outlineItem.setTitle("New Title")`，然後儲存文件。
+
 ## 資源
-- **文件**： [Aspose.PDF Java 參考](https://reference.aspose.com/pdf/java/)
-- **下載**： [Aspose PDF Java 版本](https://releases.aspose.com/pdf/java/)
-- **購買**： [購買 Aspose 產品](https://purchase.aspose.com/buy)
-- **免費試用**： [從免費試用開始](https://releases.aspose.com/pdf/java/)
-- **臨時執照**： [申請臨時許可證](https://purchase.aspose.com/temporary-license/)
-- **支援論壇**： [Aspose PDF 社群支持](https://forum.aspose.com/c/pdf/10)
+- **Documentation**: [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/)  
+- **Download**: [Aspose PDF Releases for Java](https://releases.aspose.com/pdf/java/)  
+- **Purchase**: [Buy Aspose Products](https://purchase.aspose.com/buy)  
+- **Free Trial**: [Start with a Free Trial](https://releases.aspose.com/pdf/java/)  
+- **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Support Forum**: [Aspose PDF Community Support](https://forum.aspose.com/c/pdf/10)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -128,3 +193,9 @@ A：免費試用有使用限制；考慮購買完整許可證以供無限制使�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Last Updated:** 2025-12-24  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
