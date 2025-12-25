@@ -32,6 +32,12 @@ A code tutorial for Aspose.PDF Net
 ### [Loading Aspose.PDF License from File in .NET&#58; A Comprehensive Guide](./load-aspose-pdf-license-file-net/)
 Learn how to seamlessly switch between trial and licensed modes for Aspose.PDF in .NET by loading a license file, ensuring smooth application functionality.
 
+### [Create Chat Completion with Llama in C# – Step‑by‑Step Guide](./create-chat-completion-with-llama-in-c-step-by-step-guide/)
+Step-by-step guide to create chat completion using Llama in C#.
+
+### [Set API Key in Aspose PDF AI – Complete C# Guide](./set-api-key-in-aspose-pdf-ai-complete-c-guide/)
+Step-by-step guide to configure API key for Aspose PDF AI in C# applications.
+
 ## Additional Resources
 
 - [Aspose.PDF for Net Documentation](https://docs.aspose.com/pdf/net/)

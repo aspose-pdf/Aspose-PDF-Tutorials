@@ -35,8 +35,20 @@ Learn how to convert standard PDF documents into the robust PDF/X-4 format using
 ### [How to Validate PDF/A-1a with Aspose.PDF for .NET&#58; A Comprehensive Guide](./validate-pdf-a-1a-aspose-pdf-dotnet/)
 Learn how to validate PDF/A-1a compliance using Aspose.PDF for .NET. This guide offers step-by-step instructions, code examples, and integration tips.
 
+### [How to Check PDF/A Compliance in C# – Validate PDF/A‑1a with Aspose.PDF](./how-to-check-pdf-a-compliance-in-c-validate-pdf-a-1a-with-as/)
+Step-by-step guide to validate PDF/A-1a compliance in C# using Aspose.PDF.
+
+### [How to Check PDF/A in C# – How to Validate PDF Files](./how-to-check-pdf-a-in-c-how-to-validate-pdf-files/)
+Step-by-step guide to validate PDF/A compliance in C# using Aspose.PDF.
+
 ### [Master PDF/A Validation Using Aspose.PDF for .NET in C#](./master-pdfa-validation-aspose-pdf-net/)
 Learn how to validate PDF documents against PDF/A standards using Aspose.PDF .NET. Ensure compliance and enhance document reliability with our step-by-step guide.
+
+### [c# pdf to pdfa conversion guide – Aspose PDF step‑by‑step](./c-pdf-to-pdfa-conversion-guide-aspose-pdf-step-by-step/)
+Step-by-step guide to convert PDFs to PDF/A using Aspose.PDF in C#.
+
+### [Convert PDF to PDF/A in C# – Full Step‑by‑Step Guide](./convert-pdf-to-pdf-a-in-c-full-step-by-step-guide/)
+A comprehensive step-by-step guide to convert PDFs to PDF/A using C# and Aspose.PDF.
 
 ## Additional Resources
 

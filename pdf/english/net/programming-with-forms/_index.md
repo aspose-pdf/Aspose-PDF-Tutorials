@@ -30,13 +30,16 @@ These tutorials also provide detailed code examples, clear explanations, and ill
 | [Dynamic XFA To Acro Form](./dynamic-xfa-to-acro-form/) | Learn how to convert dynamic XFA forms to standard AcroForms using Aspose.PDF for .NET in this step-by-step tutorial. |  
 | [Fill PDF Form Field](./fill-form-field/) | Learn how to fill PDF form fields using Aspose.PDF for .NET with this step-by-step tutorial. Automate your PDF tasks effortlessly. |  
 | [Fill XFAFields](./fill-xfafields/) | Learn how to programmatically fill XFA fields in PDFs using Aspose.PDF for .NET with this step-by-step tutorial. Discover simple, powerful PDF manipulation tools. |  
-| [Flatten Forms In PDF Document](./flatten-forms/) | Learn how to flatten forms in PDF documents using Aspose.PDF for .NET with this step-by-step guide. Secure your data effortlessly. |  
+| [Flatten Forms In PDF Document](./flatten-forms/) | Learn how to flatten forms in PDF documents using Aspose.PDF for .NET with this step-by-step guide. Secure your data effortlessly. |
+| [how to flatten pdf – convert pdf to flat in C#](./how-to-flatten-pdf-convert-pdf-to-flat-in-c/) | Learn how to flatten a PDF and convert it to a flat file using Aspose.PDF for .NET in C#. |
+| [Flatten PDF Form Fields with Aspose.PDF – Complete C# Guide](./flatten-pdf-form-fields-with-aspose-pdf-complete-c-guide/) | Learn how to flatten PDF form fields using Aspose.PDF for .NET in a comprehensive C# guide. |
 | [Form Field Font 14](./form-field-font-14/) | Learn how to change the font of form fields in a PDF document using Aspose.PDF for .NET. Step-by-step guide with code examples and tips for better PDF forms. |  
 | [Get PDF Form Field Coordinates](./get-coordinates/) | Unlock PDF manipulation with Aspose.PDF for .NET! Learn how to retrieve form field coordinates in just a few simple steps. |  
 | [Get Fields From Region In PDF File](./get-fields-from-region/) | Learn how to extract fields from a specified region in PDF files effortlessly using Aspose.PDF for .NET in this comprehensive guide. |  
 | [Get Value From Field In PDF Document](./get-value-from-field/) | Learn how to easily extract values from form fields in a PDF document using Aspose.PDF for .NET with this step-by-step tutorial. |  
 | [Get Values From All Fields In PDF Document](./get-values-from-all-fields/) | Learn how to extract values from all fields in a PDF document using Aspose.PDF for .NET with this step-by-step guide. |  
-| [Get XFAProperties](./get-xfaproperties/) | Learn how to retrieve XFA properties using Aspose.PDF for .NET in this comprehensive tutorial. Step-by-step guide included. |  
+| [Get XFAProperties](./get-xfaproperties/) | Learn how to retrieve XFA properties using Aspose.PDF for .NET in this comprehensive tutorial. Step-by-step guide included. |
+| [Import FDF into PDF with Aspose.PDF – Step‑by‑Step C# Guide](./import-fdf-into-pdf-with-aspose-pdf-step-by-step-c-guide/) | Learn how to import FDF data into a PDF using Aspose.PDF for .NET in this step‑by‑step C# tutorial. |
 | [Grouped Check Boxes In PDF Document](./grouped-check-boxes/) | Learn how to create grouped checkboxes (radio buttons) in a PDF document using Aspose.PDF for .NET with this step-by-step tutorial. |  
 | [Horizontally And Vertically Radio Buttons](./horizontally-and-vertically-radio-buttons/) | Learn how to create horizontally and vertically aligned radio buttons in PDF using Aspose.PDF for .NET with this step-by-step tutorial. |  
 | [Modify Form Field In PDF Document](./modify-form-field/) | Learn how to modify form fields in PDF documents using Aspose.PDF for .NET with this step-by-step guide. Perfect for developers looking to enhance PDF functionality. |  

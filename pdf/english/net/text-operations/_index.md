@@ -27,13 +27,28 @@ Learn how to add page numbers using Aspose.PDF for .NET with a step-by-step guid
 Learn how to remove all text from PDF documents efficiently using Aspose.PDF for .NET. Follow this step-by-step guide with code examples and performance tips.
 
 ### [Create & Rotate Text in PDFs Using Aspose.PDF .NET&#58; A Comprehensive Guide for Developers](./create-rotate-text-aspose-pdf-net/)
-Learn how to create and rotate text in PDF documents using Aspose.PDF for .NET. This guide covers initialization, text configuration, and creative layouts with C#.
+Learn how to create and rotate text in PDF documents using Aspose.PDF .NET. This guide covers initialization, text configuration, and creative layouts with C#.
 
 ### [Create Indented Text PDFs in .NET Using Aspose.PDF](./create-indented-text-pdfs-net-aspose-pdf/)
 A code tutorial for Aspose.PDF Net
 
 ### [Create PDFs with Text Borders Using Aspose.PDF for .NET&#58; A Comprehensive Guide](./pdf-creation-aspose-net-text-borders/)
 Learn how to create and customize PDF documents with text borders using Aspose.PDF for .NET, enhancing your reports, invoices, and brochures.
+
+### [Create summary pdf with Aspose.Pdf.AI & OpenAI – Complete Guide](./create-summary-pdf-with-aspose-pdf-ai-openai-complete-guide/)
+Generate PDF summaries using Aspose.PDF.AI and OpenAI with step-by-step C# code.
+
+### [Generate PDF Summary with Aspose PDF AI – Step‑by‑Step Guide](./generate-pdf-summary-with-aspose-pdf-ai-step-by-step-guide/)
+Learn how to generate PDF summaries using Aspose PDF AI with a detailed step-by-step C# guide.
+
+### [Summarize PDF with AI – Complete C# Guide](./summarize-pdf-with-ai-complete-c-guide/)
+Learn how to summarize PDF content using AI with a complete C# guide.
+
+### [How to Extract Text from PDF with Aspose AI OCR – Full Guide](./how-to-extract-text-from-pdf-with-aspose-ai-ocr-full-guide/)
+Learn how to extract text from PDFs using Aspose AI OCR with a step-by-step C# guide.
+
+### [How to Use Aspose for OCR: Extract Text from PDFs and Images](./how-to-use-aspose-for-ocr-extract-text-from-pdfs-and-images/)
+Learn how to extract text from PDFs and images using Aspose OCR with step-by-step C# examples.
 
 ### [Efficient PDF Text Replacement in .NET Using Aspose.PDF&#58; A Step-by-Step Guide](./net-pdf-text-replacement-aspose-pdf-guide/)
 Learn how to efficiently replace text in PDF files using Aspose.PDF for .NET. Streamline your document workflows with this comprehensive guide.
@@ -45,7 +60,7 @@ Learn how to seamlessly embed custom fonts into your PDF documents using Aspose.
 Learn how to embed fonts into your PDF documents using Aspose.PDF for .NET. Ensure consistent typography across platforms with this comprehensive tutorial.
 
 ### [Embed Type 1 Fonts in PDFs Using Aspose.PDF .NET | A Comprehensive Guide](./embed-type-1-fonts-aspose-pdf-net/)
-Learn how to embed standard Type 1 fonts into PDF documents using Aspose.PDF for .NET. Ensure consistent typography across all devices with this easy-to-follow guide.
+Learn how to embed standard Type 1 fonts into PDF documents using Aspose.PDF .NET. Ensure consistent typography across all devices with this easy-to-follow guide.
 
 ### [Extract Fonts from PDFs Using Aspose.PDF for .NET&#58; A Comprehensive Guide](./extract-fonts-aspose-pdf-net/)
 Learn how to efficiently extract fonts from PDF documents using Aspose.PDF for .NET. Perfect for document auditing and digital preservation.

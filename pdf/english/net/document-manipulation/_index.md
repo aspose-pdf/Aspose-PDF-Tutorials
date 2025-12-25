@@ -36,7 +36,7 @@ Learn how to enhance your PDF documents by adding interactive JavaScript to push
 Learn how to add page breaks in PDF documents using Aspose.PDF for .NET. Follow our step-by-step guide on installation, setup, and implementation.
 
 ### [Add Rectangles & Configure PDF Pages with Aspose.PDF .NET&#58; A Comprehensive Guide](./aspose-pdf-net-add-rectangles-configure-pages/)
-Master adding rectangles and configuring pages in PDFs using Aspose.PDF for .NET. Follow this guide to learn document manipulation techniques effectively.
+Master adding rectangles and configuring pages in PDFs using Aspose.PDF .NET. Follow this guide to learn document manipulation techniques effectively.
 
 ### [Aspose.PDF .NET&#58; Set PDF Margins & Customize Headers/Footers](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 Master the art of setting page margins and customizing headers/footers in your PDFs with Aspose.PDF for .NET. Follow this detailed guide to enhance document layout consistency.
@@ -68,11 +68,17 @@ Learn how to create multi-page (N-Up) PDF documents from single pages with Aspos
 ### [Create N-up PDF Layout with Aspose.PDF .NET](./create-nup-pdf-layout-aspose-pdf-net/)
 A code tutorial for Aspose.PDF Net
 
+### [Create PDF per Layer – Complete Guide to Split PDFs by Layers](./create-pdf-per-layer-complete-guide-to-split-pdfs-by-layers/)
+Learn how to split a PDF into separate files for each layer using Aspose.PDF for .NET in this comprehensive guide.
+
 ### [Customize PDF Pages with Aspose.PDF for .NET&#58; A Comprehensive Guide to Document Manipulation](./customize-pdf-pages-aspose-pdf-net/)
 Learn how to customize PDF pages using Aspose.PDF for .NET. Adjust alignment, size, rotation, and more in your C# projects.
 
 ### [Delete PDF Pages Using Aspose.PDF and C# Streams&#58; A Complete Guide](./delete-pdf-pages-aspose-pdf-c-sharp-streams/)
 Learn how to efficiently delete specific pages from a PDF using Aspose.PDF for .NET with this step-by-step tutorial in C#.
+
+### [Detect Changes in PDF – Complete C# Guide with Aspose.Pdf](./detect-changes-in-pdf-complete-c-guide-with-aspose-pdf/)
+Learn how to detect changes in PDF documents using Aspose.PDF for .NET with C# in this comprehensive guide.
 
 ### [Efficient PDF Optimization&#58; Remove Unused Objects using Aspose.PDF for .NET](./optimize-pdf-aspose-pdf-net-remove-unused-objects/)
 Learn how to optimize PDFs by removing unused objects with Aspose.PDF for .NET, improving file size and performance.
@@ -91,6 +97,15 @@ Learn how to efficiently extract specific pages from PDFs in your .NET applicati
 
 ### [Extract Specific Pages from PDF with Aspose.PDF for .NET](./extract-pdf-pages-aspose-dotnet/)
 A code tutorial for Aspose.PDF Net
+
+### [extract layers from pdf – Complete C# Guide](./extract-layers-from-pdf-complete-c-guide/)
+Learn how to extract layers from PDF files using Aspose.PDF for .NET with a complete C# guide.
+
+### [How to Lock Layer in PDF using C# – Step‑by‑Step Guide](./how-to-lock-layer-in-pdf-using-c-step-by-step-guide/)
+Learn how to lock PDF layers programmatically using C# and Aspose.PDF for .NET in this step-by-step guide.
+
+### [merge all layers pdf with Aspose.Pdf in C#](./merge-all-layers-pdf-with-aspose-pdf-in-c/)
+Learn how to merge all layers of a PDF into a single document using Aspose.PDF for .NET with C#.
 
 ### [Hide TOC Page Numbers in PDFs Using Aspose.PDF for .NET&#58; A Step-by-Step Guide](./hide-toc-page-numbers-aspose-pdf-dotnet/)
 Learn how to remove page numbers from a Table of Contents in your PDF files using Aspose.PDF for .NET. This guide offers step-by-step instructions and key configuration options.
@@ -216,7 +231,7 @@ Learn how to insert pages into a PDF using Aspose.PDF for .NET. This step-by-ste
 Learn how to insert pages into a PDF using Aspose.PDF for .NET with this step-by-step guide. Streamline your document workflow efficiently.
 
 ### [Insert an Empty Page in PDF using Aspose.PDF .NET&#58; A Comprehensive Guide](./aspose-pdf-net-insert-empty-page/)
-Learn how to insert empty pages into PDF documents with ease using Aspose.PDF for .NET. Follow this step-by-step guide to enhance your document manipulation skills.
+Learn how to insert empty pages into PDF documents with ease using Aspose.PDF .NET. Follow this step-by-step guide to enhance your document manipulation skills.
 
 ### [Master Aspose.PDF .NET's MakeNUp Method for Efficient PDF Layouts](./aspose-pdf-net-make-nup-method-pdf-layout/)
 Learn how to efficiently rearrange multiple PDF pages into new layouts using Aspose.PDF .NET's MakeNUp method. Ideal for newsletters, brochures, and reports.
@@ -306,7 +321,7 @@ Learn how to split a PDF file into individual pages using Aspose.PDF for .NET an
 Learn how to split PDF pages into separate files using Aspose.PDF for .NET. This comprehensive guide covers setup, implementation, and optimization tips.
 
 ### [Split and Create PDF Files Using Aspose.PDF .NET | Document Manipulation Guide](./split-create-pdf-aspose-pdf-net/)
-Learn how to split multi-page PDFs and create new PDF files using Aspose.PDF for .NET. Follow this comprehensive guide with code examples.
+Learn how to split multi-page PDFs and create new PDF files using Aspose.PDF .NET. Follow this comprehensive guide with code examples.
 
 ### [Ultimate Guide to PDF Manipulation with Aspose.PDF .NET&#58; Load, Save & Replace Text Efficiently](./master-pdf-manipulation-aspose-pdf-net/)
 Learn how to master PDF manipulation using Aspose.PDF for .NET. This guide covers loading, saving, and replacing text in PDFs, ideal for developers seeking efficiency.

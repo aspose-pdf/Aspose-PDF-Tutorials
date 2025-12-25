@@ -58,6 +58,7 @@ The resource includes tutorials on the Aspose.PDF for .NET library's programming
 | [Validate PDF AB Standard](./validatepdfabstandard/) | Learn how to validate a PDF for PDF/A-1b standard using Aspose.PDF for .NET in this step-by-step tutorial. Ensure compliance for long-term archiving. |  
 | [Validate PDF Files A Standard](./validatepdfastandard/) | Learn how to validate PDF files against the PDF/A-1a standard using Aspose.PDF for .NET in this comprehensive step-by-step tutorial. |  
 | [Validate PDF UA Standard](./validatepdfuastandard/) | Learn how to validate a PDF for the PDF/UA accessibility standard using Aspose.PDF for .NET with our step-by-step guide and detailed explanations. |  
+| [Summarize PDF with AI – Full C# Tutorial](./summarize-pdf-with-ai-full-c-tutorial/) | Learn how to use AI to summarize PDF content with a complete C# tutorial using Aspose.PDF for .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

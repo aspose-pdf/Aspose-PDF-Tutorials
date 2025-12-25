@@ -17,6 +17,9 @@ Our metadata and document information tutorials show you how to manage PDF docum
 
 ## Available Tutorials
 
+### [check pdf for changes with C# – Complete Guide](./check-pdf-for-changes-with-c-complete-guide/)
+Detect PDF modifications using C# and Aspose.PDF. Learn to compare versions and automate change detection in documents.
+
 ### [Create SEO-Optimized Tagged PDFs with Aspose.PDF for .NET&#58; A Comprehensive Guide](./create-seo-rich-tagged-pdfs-aspose-net/)
 Learn how to create accessible and SEO-friendly tagged PDFs using Aspose.PDF for .NET. Enhance document accessibility, improve search engine indexing, and boost discoverability.
 
@@ -36,7 +39,7 @@ Learn how to extract page properties like dimensions and box measurements from P
 Master extracting XMP metadata from PDF files using Aspose.PDF for .NET. This guide provides a step-by-step approach, including setup instructions and code examples.
 
 ### [How to Extract XMP Metadata from PDFs Using Aspose.PDF for .NET&#58; A Complete Guide](./extract-xmp-metadata-aspose-pdf-dotnet/)
-Learn how to efficiently extract XMP metadata from PDF documents using Aspose.PDF for .NET. Follow this detailed guide with step-by-step instructions and practical applications.
+Learn how efficiently extract XMP metadata from PDF documents using Aspose.PDF for .NET. Follow this detailed guide with step-by-step instructions and practical applications.
 
 ### [How to Retrieve PDF Page Properties Using Aspose.PDF for .NET (Step-by-Step Guide)](./retrieve-pdf-page-properties-aspose-pdf-net/)
 Learn how to extract rotation, page count, and box sizes from PDF pages using Aspose.PDF for .NET. Follow this step-by-step guide for efficient document processing.
@@ -58,6 +61,9 @@ Learn how to manage custom properties in PDF documents using Aspose.PDF for .NET
 
 ### [Set PDF Document Metadata Using Aspose.PDF for .NET&#58; A Developer's Guide](./set-pdf-metadata-aspose-pdf-dotnet/)
 Learn how to efficiently set metadata like author, title, and keywords in PDFs using Aspose.PDF for .NET. Simplify your document management workflow with this comprehensive guide.
+
+### [How to Add PDF Metadata with Aspose – Complete Guide](./how-to-add-pdf-metadata-with-aspose-complete-guide/)
+Step-by-step guide to adding PDF metadata using Aspose.PDF for .NET, covering setup, code examples, and best practices.
 
 ## Additional Resources
 

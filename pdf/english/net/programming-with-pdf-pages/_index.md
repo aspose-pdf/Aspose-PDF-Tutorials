@@ -14,7 +14,7 @@ description: Check out programming tutorials with PDF pages using Aspose.PDF for
 
 # Programming with PDF Pages
 
-The "Programming with PDF Pages" documentation for Aspose.PDF for .NET provides step-by-step tutorials to help you master the manipulation and management of pages in a PDF file. You'll learn how to add, remove, extract, and rearrange pages, as well as how to configure page properties such as size, orientation, and margins. These tutorials will guide you through practical examples and provide you with the knowledge to work effectively with PDF pages in your .NET applications.
+The "Programming with PDF Pages" documentation for Aspose.PDF for .NET provides step-by-step tutorials to help you master the manipulation and management of pages in a PDF file. You'll learn how to add, remove, extract, and rearrange pages, as well as how to configure page properties such such as size, orientation, and margins. These tutorials will guide you through practical examples and provide you with the knowledge to work effectively with PDF pages in your .NET applications.
 
 Tutorials include step-by-step instructions, detailed code examples, and clear explanations to make it easy to understand. Whether you are a beginner or an experienced developer, these resources will help you master the PDF page manipulation features offered by Aspose.PDF for .NET, opening up new possibilities for your application development projects.
 
@@ -34,9 +34,12 @@ Tutorials include step-by-step instructions, detailed code examples, and clear e
 | [Set Image As Page Background In PDF File](./image-as-background/) | Learn how to set an image as the page background in a PDF using Aspose.PDF for .NET with this step-by-step guide. Create professional, visually appealing documents. |  
 | [Insert Empty Page In PDF File](./insert-empty-page/) | Learn how to insert an empty page into a PDF document using Aspose.PDF for .NET. Step-by-step tutorial with code examples for seamless PDF manipulation. |  
 | [Insert Empty Page At End](./insert-empty-page-at-end/) | Learn to insert an empty page into a PDF document effortlessly with Aspose.PDF for .NET in this beginner-friendly guide. Perfect for quick edits. |  
+| [Insert PDF Page with Aspose.PDF – Complete C# Guide](./insert-pdf-page-with-aspose-pdf-complete-c-guide/) | Step-by-step C# guide to insert a PDF page using Aspose.PDF, with detailed code examples and best practices. |
 | [Split To Pages](./split-to-pages/) | Easily split PDFs into individual pages using Aspose.PDF for .NET with this comprehensive tutorial. Step-by-step guide included. |  
 | [Update PDF Page Dimensions](./update-dimensions/) | Discover how to update PDF page dimensions effortlessly with Aspose.PDF for .NET in this comprehensive, step-by-step guide. |  
 | [Zoom To Page Contents In PDF File](./zoom-to-page-contents/) | Learn how to zoom to page contents in PDF files using Aspose.PDF for .NET in this comprehensive guide. Enhance your PDF documents according to your specific needs. |  
+| [Compare PDF Pages in C# – Complete Guide to Side‑by‑Side Comparison](./compare-pdf-pages-in-c-complete-guide-to-side-by-side-compar/) | Step-by-step guide to compare PDF pages side‑by‑side using Aspose.PDF for .NET in C#. |
+| [Insert Page PDF & Add Table of Contents – Aspose.PDF Guide](./insert-page-pdf-add-table-of-contents-aspose-pdf-guide/) | Learn how to insert a new page and generate a table of contents in a PDF using Aspose.PDF for .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

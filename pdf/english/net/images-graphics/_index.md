@@ -32,6 +32,9 @@ Learn how to convert images to a single PDF with Aspose.PDF for .NET in C#. This
 ### [Convert SVG to PDF Using Aspose.PDF for .NET&#58; A Step-by-Step Guide](./svg-to-pdf-aspose-pdf-net-tutorial/)
 Learn how to convert SVG files into high-quality PDFs seamlessly using Aspose.PDF for .NET. Follow this comprehensive tutorial with code examples and performance tips.
 
+### [Change Stroke Opacity in PDF with Aspose – Complete Guide](./change-stroke-opacity-in-pdf-with-aspose-complete-guide/)
+Learn how to modify stroke opacity in PDF graphics using Aspose.PDF for .NET with step-by-step code examples.
+
 ### [Create & Fill Rectangles in PDFs Using Aspose.PDF for .NET&#58; A Step-by-Step Guide](./create-fill-rectangle-aspose-pdf-net/)
 Learn how to create and fill rectangles in PDF documents using Aspose.PDF for .NET. This step-by-step guide covers everything from setup to implementation with C#.
 
@@ -136,6 +139,9 @@ Learn how to efficiently extract images from specific pages in a PDF with Aspose
 
 ### [How to Extract PDF Page Info & Render Images with Aspose.PDF for .NET (2023 Guide)](./extract-pdf-info-render-images-aspose-dotnet/)
 Learn how to extract page dimensions and render images from PDFs using Aspose.PDF for .NET. This guide covers setup, implementation, and practical applications.
+
+### [How to Get Coordinates from PDF Vector Graphics – Complete Guide](./how-to-get-coordinates-from-pdf-vector-graphics-complete-gui/)
+Learn how to retrieve coordinates of vector graphics in PDFs using Aspose.PDF for .NET with this comprehensive guide.
 
 ### [How to Optimize PDF Images Using Aspose.PDF for .NET](./optimize-pdf-images-aspose-dotnet/)
 Learn how to efficiently resize, compress, and adjust image quality in PDFs using Aspose.PDF for .NET. Improve document performance and user experience.

@@ -32,6 +32,9 @@ Learn how to streamline your PDF files and reduce their size with Aspose.PDF for
 ### [How to Reduce PDF Size Using Aspose.PDF for .NET&#58; A Step-by-Step Guide](./shrink-pdf-size-aspose-pdf-net/)
 Learn how to effectively reduce PDF file sizes using Aspose.PDF for .NET with this comprehensive guide. Optimize your documents effortlessly and enhance storage efficiency.
 
+### [How to Track Progress while Converting PDFs – A Complete Aspose Guide](./how-to-track-progress-while-converting-pdfs-a-complete-aspos/)
+Learn how to monitor conversion progress in Aspose.PDF for .NET, enabling real-time feedback and better user experience.
+
 ### [Optimize PDFs Efficiently&#58; Link Duplicate Streams Using Aspose.PDF for .NET](./optimize-pdfs-aspose-pdf-link-duplicate-streams/)
 Learn how to reduce PDF file size and enhance performance by linking duplicate streams with Aspose.PDF for .NET. Follow our easy guide to optimize your documents.
 

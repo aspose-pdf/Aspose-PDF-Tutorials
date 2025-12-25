@@ -23,6 +23,7 @@ Aspose.PDF for .NET's "Programming with Tagged PDFs" tutorials walk you through 
 | [Access Children Elements](./access-children-elements/) | Learn how to access and modify child elements in tagged PDFs with Aspose.PDF for .NET in this step-by-step tutorial. |  
 | [Add Structure Element Into Element](./add-structure-element-into-element/) | Learn how to add accessibility structure elements into PDFs using Aspose.PDF for .NET in this comprehensive step-by-step tutorial. |  
 | [Create Note Structure Element](./create-note-structure-element/) | Learn to create note structure elements in PDFs with Aspose.PDF for .NET through this detailed, step-by-step tutorial. |  
+| [Create Accessible PDF with Aspose.Pdf – Step‑by‑Step Guide](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Learn how to create an accessible PDF using Aspose.PDF for .NET in this detailed step‑by‑step guide. |  
 | [Create PDF with Tagged Image](./create-pdf-with-tagged-image/) | Learn to create a tagged PDF with images using Aspose.PDF for .NET. Follow our step-by-step guide for accessible and professional document creation. |  
 | [Create PDF with Tagged Text](./create-pdf-with-tagged-text/) | Learn how to create tagged PDFs with accessible content using Aspose.PDF for .NET in this comprehensive step-by-step tutorial. |  
 | [Create Structure Elements](./create-structure-elements/) | Learn how to create structure elements in PDF with Aspose.PDF for .NET. A step-by-step guide for enhanced PDF accessibility and organization. |  
@@ -44,6 +45,7 @@ Aspose.PDF for .NET's "Programming with Tagged PDFs" tutorials walk you through 
 | [Text Block Structure Elements](./text-block-structure-elements/) | Learn how to use Aspose.PDF for .NET to add text block structure elements, such as headings and tagged paragraphs, to an existing PDF document. |  
 | [Text Structure Elements In PDF File](./text-structure-elements/) | Learn to manipulate text structure elements in PDFs with Aspose.PDF for .NET. This step-by-step guide covers everything you need to create structured PDFs. |  
 | [Validate PDF File](./validate-pdf/) | Learn how to validate a PDF file with Aspose.PDF for .NET. Check its compliance with standards and generate a validation report. |  
+| [add alt text pdf – Complete C# Guide with OpenAI](./add-alt-text-pdf-complete-c-guide-with-openai/) | Learn how to add alt text to PDFs using C# and OpenAI with Aspose.PDF for .NET in this comprehensive guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

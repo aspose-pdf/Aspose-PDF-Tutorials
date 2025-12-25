@@ -24,6 +24,9 @@ Aspose.PDF for .NET's "Programming with Operators" tutorials guide you through t
 | [PDF Operators](./pdf-operators/) | Step-by-step guide to using PDF operators with Aspose.PDF for .NET. Add an image to a PDF page and specify its position. |  
 | [Remove Graphics Objects In PDF File](./remove-graphics-objects/) | Learn how to remove graphics objects from a PDF file using Aspose.PDF for .NET in this step-by-step guide. Simplify your PDF manipulation tasks. |  
 
+### [how to catch inner exception in C# – Complete Crash Report Guide](./how-to-catch-inner-exception-in-c-complete-crash-report-guid/)
+Learn how to capture inner exceptions in C# and generate comprehensive crash reports using Aspose.PDF for .NET.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
