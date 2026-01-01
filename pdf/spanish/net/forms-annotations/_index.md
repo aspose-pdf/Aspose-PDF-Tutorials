@@ -278,6 +278,9 @@ Aprenda a establecer y recuperar límites de caracteres en campos PDF con Aspose
 ### [Actualizar anotaciones de PDF con Aspose.PDF para .NET: una guía completa](./update-pdf-annotations-aspose-pdf-dotnet/)
 Aprenda a actualizar anotaciones de PDF mediante programación con Aspose.PDF para .NET. Esta guía incluye consejos de configuración, implementación y rendimiento.
 
+### [Crear documento PDF con Aspose – Añadir página, cuadro de texto y formulario](./create-pdf-document-with-aspose-add-page-text-box-and-form/)
+Aprenda a crear un documento PDF, añadir una página, un cuadro de texto y un formulario usando Aspose.PDF para .NET.
+
 ## Recursos adicionales
 
 - [Documentación de Aspose.PDF para la red](https://docs.aspose.com/pdf/net/)

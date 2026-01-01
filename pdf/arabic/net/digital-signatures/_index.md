@@ -50,6 +50,12 @@
 ### [إتقان Aspose.PDF .NET: كيفية التحقق من التوقيعات الرقمية في ملفات PDF](./aspose-pdf-net-verify-digital-signature/)
 تعرّف على كيفية التحقق من التوقيعات الرقمية في ملفات PDF باستخدام Aspose.PDF لـ .NET. تأكّد من سلامة المستندات وصحتها من خلال دليلنا المفصل.
 
+### [التحقق من توقيع PDF في C# – دليل خطوة بخطوة](./verify-pdf-signature-in-c-step-by-step-guide/)
+تعرّف على كيفية التحقق من توقيع PDF باستخدام C# خطوة بخطوة مع Aspose.PDF لـ .NET.
+
+### [كيفية التحقق من PDF – التحقق من توقيع PDF باستخدام Aspose](./how-to-verify-pdf-validate-pdf-signature-with-aspose/)
+تعرّف على كيفية التحقق من صحة توقيع PDF باستخدام Aspose خطوة بخطوة.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

@@ -60,7 +60,9 @@ Tìm hiểu cách đảm bảo tài liệu PDF của bạn đáp ứng các tiê
 Tìm hiểu cách sử dụng Aspose.PDF cho .NET để xác thực và xử lý các tài liệu PDF có thể truy cập theo tiêu chuẩn PDF/UA-1. Nâng cao khả năng sử dụng tài liệu kỹ thuật số với hướng dẫn toàn diện này.
 
 ### [Làm chủ việc tạo PDF có thể truy cập được với Aspose.PDF .NET: Tạo PDF được gắn thẻ với các bảng có kiểu](./aspose-pdf-net-tagged-pdfs-styled-tables/)
-Học cách tạo các tài liệu PDF có gắn thẻ và có thể truy cập được bằng Aspose.PDF cho .NET. Làm chủ việc tạo các tệp PDF tuân thủ với các bảng có cấu trúc và khả năng truy cập được cải thiện.
+
+### [Cách so sánh PDF trong C# – Hướng dẫn toàn diện tạo PDF Diff](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
+Tìm hiểu cách so sánh các tệp PDF trong C# và tạo báo cáo sự khác biệt PDF một cách chi tiết.
 
 ## Tài nguyên bổ sung
 

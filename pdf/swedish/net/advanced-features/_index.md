@@ -62,6 +62,9 @@ Lär dig hur du använder Aspose.PDF för .NET för att validera och bearbeta ti
 ### [Bemästra skapande av tillgängliga PDF-filer med Aspose.PDF .NET: Skapa taggade PDF-filer med formaterade tabeller](./aspose-pdf-net-tagged-pdfs-styled-tables/)
 Lär dig skapa tillgängliga, formaterade taggade PDF-dokument med Aspose.PDF för .NET. Bemästra skapandet av kompatibla PDF-filer med strukturerade tabeller och förbättrad tillgänglighet.
 
+### [Hur man jämför PDF-filer i C# – En komplett guide för att generera PDF-diff](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
+Lär dig att jämföra PDF-dokument i C# och generera diff-filer med Aspose.PDF för .NET.
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

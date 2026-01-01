@@ -278,6 +278,9 @@ Aspose.PDF Net 代码教程
 ### [使用 Aspose.PDF for .NET 更新 PDF 注释：综合指南](./update-pdf-annotations-aspose-pdf-dotnet/)
 学习如何使用 Aspose.PDF for .NET 以编程方式更新 PDF 注释。本指南涵盖设置、实现和性能技巧。
 
+### [使用 Aspose.PDF 创建 PDF 文档 – 添加页面、文本框和表单](./create-pdf-document-with-aspose-add-page-text-box-and-form/)
+了解如何使用 Aspose 在 PDF 中创建文档、添加新页面、插入文本框并创建交互式表单字段的完整步骤。
+
 ## 其他资源
 
 - [Aspose.PDF 用于网络文档](https://docs.aspose.com/pdf/net/)

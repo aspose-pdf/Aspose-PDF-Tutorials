@@ -65,6 +65,9 @@ Dowiedz się, jak tworzyć dynamiczne pliki PDF z tabelami i przyciskami radiowy
 ### [Utwórz pole kombi PDF przy użyciu Aspose.PDF dla .NET: Podręcznik programisty](./create-pdf-combobox-aspose-pdf-net/)
 Dowiedz się, jak tworzyć interaktywne dokumenty PDF z polami ComboBox przy użyciu Aspose.PDF dla .NET. Ten przewodnik obejmuje konfigurację, implementację i rozwiązywanie problemów.
 
+### [Utwórz dokument PDF przy użyciu Aspose – Dodaj stronę, pole tekstowe i formularz](./create-pdf-document-with-aspose-add-page-text-box-and-form/)
+Dowiedz się, jak w Aspose.PDF utworzyć dokument PDF, dodać nową stronę, pole tekstowe oraz formularz.
+
 ### [Tworzenie interaktywnych plików PDF za pomocą Aspose.PDF .NET: wdrażanie akcji najechania kursorem w celu zwiększenia zaangażowania](./interactive-pdfs-aspose-pdf-net-hover-actions/)
 Dowiedz się, jak tworzyć interaktywne pliki PDF za pomocą Aspose.PDF dla .NET, dodając akcje najechania kursorem myszy. Zwiększ zaangażowanie użytkowników i zrozumienie dokumentów, takich jak raporty, formularze i instrukcje.
 

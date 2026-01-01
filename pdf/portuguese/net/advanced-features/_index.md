@@ -62,6 +62,9 @@ Aprenda a usar o Aspose.PDF para .NET para validar e processar documentos PDF ac
 ### [Dominando a criação de PDF acessível com Aspose.PDF .NET: Criando PDFs marcados com tabelas estilizadas](./aspose-pdf-net-tagged-pdfs-styled-tables/)
 Aprenda a criar documentos PDF acessíveis, estilizados e marcados usando o Aspose.PDF para .NET. Domine a criação de PDFs compatíveis com tabelas estruturadas e acessibilidade aprimorada.
 
+### [Como comparar PDFs em C# – Guia completo para gerar diferenças de PDF](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
+Aprenda a comparar documentos PDF em C# usando Aspose.PDF, gerando diferenças de forma precisa e automatizada.
+
 ## Recursos adicionais
 
 - [Aspose.PDF para documentação da Net](https://docs.aspose.com/pdf/net/)
