@@ -37,6 +37,7 @@ Les tutoriels incluent des instructions étape par étape, des exemples de code 
 | [Diviser en pages](./split-to-pages/) Divisez facilement vos PDF en pages individuelles avec Aspose.PDF pour .NET grâce à ce tutoriel complet. Guide étape par étape inclus.  
 | [Mettre à jour les dimensions de la page PDF](./update-dimensions/) | Découvrez comment mettre à jour les dimensions des pages PDF sans effort avec Aspose.PDF pour .NET dans ce guide complet, étape par étape. |  
 | [Zoom sur le contenu de la page dans le fichier PDF](./zoom-to-page-contents/) | Découvrez comment zoomer sur le contenu des pages de vos fichiers PDF avec Aspose.PDF pour .NET dans ce guide complet. Améliorez vos documents PDF selon vos besoins spécifiques. |  
+| [Ajouter des numéros de page PDF avec C# – Guide complet étape par étape](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Apprenez à ajouter des numéros de page à un PDF en C# avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

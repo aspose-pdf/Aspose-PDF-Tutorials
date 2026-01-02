@@ -44,6 +44,9 @@ Dowiedz się, jak skutecznie usuwać podpisy cyfrowe z plików PDF za pomocą As
 ### [Jak weryfikować podpisy PDF za pomocą Aspose.PDF dla .NET: kompleksowy przewodnik](./verify-pdf-signatures-aspose-pdf-net/)
 Dowiedz się, jak weryfikować podpisy cyfrowe w plikach PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje konfigurację, implementację i praktyczne zastosowania.
 
+### [Weryfikacja podpisu PDF w C# – Kompletny przewodnik walidacji cyfrowego podpisu PDF](./verify-pdf-signature-in-c-complete-guide-to-validate-digital/)
+Dowiedz się, jak zweryfikować podpis cyfrowy w plikach PDF przy użyciu C# i Aspose.PDF .NET.
+
 ### [Poznaj podpisywanie i weryfikację plików PDF za pomocą Aspose.PDF .NET](./mastering-aspose-pdf-net-sign-verify-smart-card-certificates/)
 Samouczek dotyczący kodu dla Aspose.PDF Net
 

@@ -74,6 +74,9 @@
 ### [Освоение создания PDF-буклетов с помощью Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Учебник по коду для Aspose.PDF Net
 
+### [Создание PDF-документа с Aspose.PDF – добавить страницу, форму и сохранить](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
+Узнайте, как добавить страницу, форму и сохранить PDF-документ с помощью Aspose.PDF для .NET.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.PDF для сети](https://docs.aspose.com/pdf/net/)

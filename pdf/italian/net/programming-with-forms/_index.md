@@ -16,7 +16,7 @@
 
 tutorial "Programmazione con i moduli" di Aspose.PDF per .NET sono risorse essenziali per gli sviluppatori che desiderano creare e manipolare moduli PDF interattivi. Questi tutorial forniscono un'introduzione dettagliata alle funzionalità di creazione, modifica e compilazione di moduli PDF utilizzando la libreria Aspose.PDF per .NET. Imparerai come creare campi modulo, aggiungere pulsanti, eseguire convalide e calcoli ed estrarre dati dai moduli compilati. Con questi tutorial, sarai in grado di sviluppare potenti applicazioni per la manipolazione di moduli PDF nel tuo progetto .NET.
 
-Questi tutorial forniscono anche esempi di codice dettagliati, spiegazioni chiare e illustrazioni per semplificare la comprensione e l'apprendimento. Verrai guidato passo dopo passo attraverso le varie fasi della programmazione con i moduli PDF, permettendoti di padroneggiare rapidamente i concetti e le tecniche necessarie per creare moduli PDF interattivi efficaci e personalizzati. Che tu sia un principiante o uno sviluppatore esperto, questi tutorial ti aiuteranno a migliorare le tue competenze di programmazione con i moduli PDF utilizzando Aspose.PDF per .NET.
+Questi tutorial forniscono anche esempi di codice dettagliati, spiegazioni chiare e illustrazioni per semplificare la comprensione e l'apprendimento. Verrai guidato passo dopo passo attraverso le varie fasi della programmazione con i moduli PDF, permettendoti di padroneggiare rapidamente i concetti e le tecniche necessarie per creare moduli PDF interattivi efficaci e personalizzati. Che tu sia un principiante o un sviluppatore esperto, questi tutorial ti aiuteranno a migliorare le tue competenze di programmazione con i moduli PDF utilizzando Aspose.PDF per .NET.
 
 ## Tutorial
 | Titolo | Descrizione |
@@ -50,6 +50,7 @@ Questi tutorial forniscono anche esempi di codice dettagliati, spiegazioni chiar
 | [Imposta Java Script](./set-java-script/) | Sfrutta la potenza di Aspose.PDF per .NET. Scopri come impostare JavaScript nei campi dei moduli con la nostra guida passo passo. |  
 | [Imposta la didascalia del pulsante di scelta](./set-radio-button-caption/) Scopri come impostare le didascalie dei pulsanti di opzione nei PDF utilizzando Aspose.PDF per .NET. Questa guida dettagliata ti guiderà passo passo nel caricamento, nella modifica e nel salvataggio dei tuoi moduli PDF. |  
 | [Casella di testo](./text-box/) | Scopri come aggiungere facilmente caselle di testo ai PDF utilizzando Aspose.PDF per .NET con questa guida passo passo. Migliora l'interazione con l'utente. |  
+| [Come creare PDF con Aspose – Aggiungere campo modulo e pagine](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Scopri come creare un PDF, aggiungere campi modulo e gestire le pagine usando Aspose.PDF per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

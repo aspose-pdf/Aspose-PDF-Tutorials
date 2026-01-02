@@ -24,7 +24,7 @@ Eğitimler, adım adım talimatlar, ayrıntılı kod örnekleri ve anlaşılmas�
 | [Yönelimi Değiştir](./change-orientation/) | Aspose.PDF for .NET ile PDF'in sayfa yönünü değiştirmek için adım adım kılavuz. Projelerinizde takip etmesi ve uygulaması kolaydır. |  
 | [PDF Dosyalarını Birleştir](./concatenate-pdf-files/) | Bu kapsamlı adım adım kılavuzla Aspose.PDF for .NET'i kullanarak PDF dosyalarını zahmetsizce birleştirin.  
 | [PDF Dosyasındaki Belirli Sayfayı Sil](./delete-particular-page/) | Aspose.PDF for .NET'i kullanarak PDF dosyasından belirli bir sayfayı nasıl sileceğinizi adım adım anlatan bu kılavuzla öğrenin.  
-| [Sayfa Rengini Belirle](./determine-page-color/) Aspose.PDF for .NET'i kullanarak adım adım kılavuzumuzla PDF dosyalarının sayfa rengini belirlemeyi öğrenin. Tüm beceri seviyeleri için kolay uygulama. |  
+| [Sayfa Rengini Belirle](./determine-page-color/) Aspose.PDF for .NET'i kullanarak adım adım kılavuzumuzla PDF dosalarının sayfa rengini belirlemeyi öğrenin. Tüm beceri seviyeleri için kolay uygulama. |  
 | [Sayfa İçeriğini PDF Dosyasına Sığdır](./fit-page-contents/) | Aspose.PDF for .NET kullanarak PDF içeriklerinizi zahmetsizce yerleştirin. Bu kılavuz, optimum sayfa düzeni elde etmek için ayrıntılı, adım adım bir yaklaşım sağlar. |  
 | [PDF Sayfa Boyutlarını Alın](./get-dimensions/) | Bu eğitimde, .NET için Aspose.PDF kullanarak PDF sayfa boyutlarının nasıl alınacağını ve düzenlemelerin nasıl yapılacağını açıklıyoruz. İşlem boyunca size rehberlik etmek için ayrıntılı adımlar sağlanmıştır. |  
 | [PDF Dosyasındaki Sayfa Sayısını Al](./get-number-of-pages/) | Aspose.PDF for .NET kullanarak PDF dosyasındaki sayfa sayısını almak için adım adım kılavuz. Uygulaması basit, projeleriniz için ideal. |  
@@ -37,6 +37,7 @@ Eğitimler, adım adım talimatlar, ayrıntılı kod örnekleri ve anlaşılmas�
 | [Sayfalara Böl](./split-to-pages/) Bu kapsamlı eğitimle Aspose.PDF for .NET'i kullanarak PDF'leri kolayca tek tek sayfalara bölün. Adım adım kılavuz dahildir. |  
 | [PDF Sayfa Boyutlarını Güncelle](./update-dimensions/) | Bu kapsamlı, adım adım kılavuzda, Aspose.PDF for .NET ile PDF sayfa boyutlarını zahmetsizce nasıl güncelleyeceğinizi keşfedin. |  
 | [PDF Dosyasındaki Sayfa İçeriğine Yakınlaştır](./zoom-to-page-contents/) | Bu kapsamlı kılavuzda Aspose.PDF for .NET kullanarak PDF dosyalarındaki sayfa içeriklerine nasıl yakınlaştırma yapacağınızı öğrenin. PDF belgelerinizi özel ihtiyaçlarınıza göre geliştirin. |  
+| [C# ile PDF'e Sayfa Numaraları Ekle – Tam Adım‑Adım Kılavuz](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF dosyalarına sayfa numaraları eklemeyi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
