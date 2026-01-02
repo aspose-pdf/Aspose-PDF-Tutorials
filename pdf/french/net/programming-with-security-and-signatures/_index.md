@@ -33,6 +33,7 @@ Ce tutoriel vous offre un aperçu détaillé des méthodes et techniques permett
 | [Définir les privilèges dans un fichier PDF](./set-privileges/) | Découvrez comment définir les privilèges PDF avec Aspose.PDF pour .NET grâce à ce guide étape par étape. Sécurisez efficacement vos documents. |  
 | [Signer avec une carte à puce à l'aide d'une signature de fichier PDF](./sign-with-smart-card-using-pdf-file-signature/) | Apprenez à signer des fichiers PDF à l'aide d'une carte à puce avec Aspose.PDF pour .NET. Suivez ce guide étape par étape pour des signatures numériques sécurisées. |  
 | [Signer avec une carte à puce en utilisant le champ de signature](./sign-with-smart-card-using-signature-field/) | Apprenez à signer des PDF en toute sécurité à l'aide d'une carte à puce avec Aspose.PDF pour .NET. Suivez notre guide étape par étape pour une mise en œuvre facile. |  
+| [Vérifier les signatures PDF en C# – Lire les fichiers PDF signés](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Apprenez à lire et analyser les signatures numériques des PDF avec Aspose.PDF pour .NET en C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

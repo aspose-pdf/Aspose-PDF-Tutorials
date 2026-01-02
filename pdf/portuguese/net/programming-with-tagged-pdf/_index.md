@@ -44,6 +44,7 @@ Os tutoriais "Programação com PDFs Marcados" do Aspose.PDF para .NET orientam 
 | [Elementos de estrutura de bloco de texto](./text-block-structure-elements/) | Aprenda a usar o Aspose.PDF para .NET para adicionar elementos de estrutura de bloco de texto, como títulos e parágrafos marcados, a um documento PDF existente. |  
 | [Elementos de estrutura de texto em arquivo PDF](./text-structure-elements/) Aprenda a manipular elementos de estrutura de texto em PDFs com o Aspose.PDF para .NET. Este guia passo a passo abrange tudo o que você precisa para criar PDFs estruturados. |  
 | [Validar arquivo PDF](./validate-pdf/) | Aprenda a validar um arquivo PDF com o Aspose.PDF para .NET. Verifique sua conformidade com os padrões e gere um relatório de validação. |  
+| [Criar PDF Marcado em C# – Guia Completo Passo a Passo](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Aprenda a criar um PDF marcado em C# usando Aspose.PDF para .NET com este guia passo a passo completo. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

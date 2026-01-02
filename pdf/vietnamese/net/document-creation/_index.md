@@ -74,6 +74,9 @@ Tìm hiểu cách tạo PDF có gắn thẻ có cấu trúc tốt, dễ truy c�
 ### [Làm chủ việc tạo sách PDF với Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Hướng dẫn mã cho Aspose.PDF Net
 
+### [Tạo tài liệu PDF với Aspose.PDF – Thêm trang, hình dạng & Lưu](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
+Hướng dẫn cách thêm trang, hình dạng và lưu tài liệu PDF bằng Aspose.PDF trong .NET.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)
