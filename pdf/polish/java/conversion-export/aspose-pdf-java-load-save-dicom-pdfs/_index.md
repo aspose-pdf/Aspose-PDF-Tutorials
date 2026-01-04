@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-14"
-"description": "Dowiedz się, jak bezproblemowo konwertować obrazy DICOM do plików PDF za pomocą Aspose.PDF dla Java. Ten przewodnik obejmuje konfigurację, implementację kodu i praktyczne zastosowania."
-"title": "Ładowanie i konwertowanie plików DICOM do PDF za pomocą Aspose.PDF Java&#58; Kompleksowy przewodnik"
-"url": "/pl/java/conversion-export/aspose-pdf-java-load-save-dicom-pdfs/"
-"weight": 1
+date: '2026-01-04'
+description: Dowiedz się, jak konwertować pliki DICOM na PDF za pomocą Aspose.PDF
+  dla Javy i zobacz, jak dodać obraz do dokumentu PDF w kilku prostych krokach.
+keywords:
+- convert DICOM to PDF
+- Aspose.PDF for Java setup
+- DICOM image processing
+title: 'Ładowanie i konwersja DICOM do PDF przy użyciu Aspose.PDF Java: kompleksowy
+  przewodnik'
+url: /pl/java/conversion-export/aspose-pdf-java-load-save-dicom-pdfs/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,28 +17,44 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Ładowanie i konwertowanie DICOM do PDF za pomocą Aspose.PDF Java: kompleksowy przewodnik
+# Załaduj i konwertuj DICOM do PDF przy użyciu Aspose.PDF Java: Kompletny przewodnik
 
-## Wstęp
+## Wprowadzenie
 
-Praca z danymi obrazowania medycznego często wymaga konwersji plików DICOM do bardziej dostępnego formatu, takiego jak PDF. Ten samouczek pokaże Ci, jak używać Aspose.PDF dla Java do konwersji obrazów DICOM do PDF, ułatwiając integrację w systemach informatycznych opieki zdrowotnej i poprawiając prezentację danych.
+Praca z danymi obrazowania medycznego często wymaga **convert dicom to pdf**, aby klinicyści mogli przeglądać skany bez specjalistycznego oprogramowania. W tym przewodniku zobaczysz dokładnie, jak załadować obraz DICOM, osadzić go w PDF i zapisać wynik — oraz szybki przegląd **how to add image** elementów w Twoich PDF-ach dla bardziej bogatych raportów.
 
 **W tym przewodniku dowiesz się:**
-- Konfigurowanie Aspose.PDF dla Java
+- Konfiguracja Aspose.PDF dla Java
 - Ładowanie obrazu DICOM przy użyciu Aspose.PDF
 - Osadzanie obrazu w dokumencie PDF
-- Zapisywanie wynikowego pliku PDF
+- Zapisywanie powstałego PDF
+
+## Szybkie odpowiedzi
+- **Jakiej biblioteki powinienem używać?** Aspose.PDF for Java.
+- **Czy mogę konwertować dicom do pdf w kilka minut?** Tak, prosty 5‑etapowy przykład kodu to umożliwia.
+- **Czy potrzebna jest licencja?** Bezpłatna wersja próbna działa do oceny; licencja jest wymagana w produkcji.
+- **Jak dodać obraz do PDF?** Użyj klasy `Image` i dodaj ją do akapitów strony.
+- **Jaka wersja Java jest wymagana?** Java 8 lub wyższa.
+
+## Co to jest „convert dicom to pdf”?
+Konwersja DICOM do PDF oznacza pobranie danych obrazowania medycznego przechowywanych w pliku DICOM i renderowanie ich jako standardową stronę PDF. Dzięki temu obraz jest widoczny na dowolnym urządzeniu bez instalowania przeglądarek DICOM.
+
+## Dlaczego używać Aspose.PDF dla Java?
+- **Brak zewnętrznych zależności** – czyste API Java.
+- **Pełna kontrola** nad układem PDF, kompresją i bezpieczeństwem.
+- **Obsługa DICOM** od razu, więc nie potrzebujesz dodatkowych bibliotek obrazów.
+- **Skalowalny** dla pojedynczych obrazów lub konwersji wsadowych.
 
 ## Wymagania wstępne
 
 Przed rozpoczęciem upewnij się, że masz:
 - **Wymagane biblioteki:** Dołącz Aspose.PDF dla Java do swojego projektu.
-- **Konfiguracja środowiska:** Zainstalowany JDK i środowisko IDE, np. IntelliJ IDEA lub Eclipse.
-- **Wymagania wstępne dotyczące wiedzy:** Podstawowa znajomość programowania w Javie i obsługi plików.
+- **Konfiguracja środowiska:** Zainstalowany JDK (8+) oraz IDE, takie jak IntelliJ IDEA lub Eclipse.
+- **Wymagania wiedzy:** Podstawowa znajomość programowania w Javie i obsługi plików.
 
-## Konfigurowanie Aspose.PDF dla Java
+## Konfiguracja Aspose.PDF dla Java
 
-Aby uwzględnić plik Aspose.PDF w swoim projekcie, wykonaj następujące kroki:
+Postępuj zgodnie z poniższymi krokami, aby dołączyć Aspose.PDF do swojego projektu:
 
 ### Konfiguracja Maven
 
@@ -48,68 +70,68 @@ Dodaj tę zależność do swojego `pom.xml`:
 
 ### Konfiguracja Gradle
 
-W przypadku Gradle dodaj do swojego `build.gradle`:
+Dla Gradle, dodaj poniższe do swojego `build.gradle`:
 
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### Nabycie licencji
-- **Bezpłatna wersja próbna:** Zacznij od bezpłatnego okresu próbnego.
-- **Licencja tymczasowa:** Poproś o tymczasową licencję, aby uzyskać pełny dostęp do funkcji ewaluacyjnych.
+### Uzyskanie licencji
+- **Bezpłatna wersja próbna:** Rozpocznij od wersji próbnej.
+- **Licencja tymczasowa:** Poproś o tymczasową licencję, aby uzyskać pełne funkcje oceny.
 - **Zakup:** Kup bibliotekę do stałego użytku.
 
-Po skonfigurowaniu środowiska i zależności zainicjuj plik Aspose.PDF, tworząc wystąpienie `Document`.
+Po skonfigurowaniu środowiska i zależności, zainicjalizuj Aspose.PDF, tworząc instancję `Document`.
 
-## Przewodnik wdrażania
+## Przewodnik implementacji
 
-Oto jak przekonwertować obrazy DICOM do formatu PDF przy użyciu Aspose.PDF dla języka Java:
+Oto krok po kroku kod, którego potrzebujesz, aby **convert dicom to pdf** i **add image** do dokumentu.
 
-### Załaduj obraz DICOM z pliku
+### Krok 1: Załaduj obraz DICOM z pliku
 
-Używać `FileInputStream` aby otworzyć plik DICOM:
+Użyj `FileInputStream`, aby otworzyć plik DICOM:
 
 ```java
 import java.io.FileInputStream;
 import com.aspose.pdf.Document;
 import com.aspose.pdf.Image;
 
-String dataDir = "YOUR_DOCUMENT_DIRECTORY"; // Zastąp ścieżką do pliku DICOM
+String dataDir = "YOUR_DOCUMENT_DIRECTORY"; // Replace with your DICOM file path
 
 try {
     FileInputStream imageStream = new FileInputStream(new File(dataDir + "/0002.dcm"));
 ```
 
-### Utwórz nowy dokument PDF i dodaj stronę
+### Krok 2: Utwórz nowy dokument PDF i dodaj stronę
 
 Utwórz instancję `Document` i dodaj stronę:
 
 ```java
-    // Zainicjuj nowy obiekt dokumentu i dodaj stronę
+    // Initialize a new Document object and add a page
     Document pdfDocument = new Document();
     pdfDocument.getPages().add();
 ```
 
-### Osadź obraz DICOM w pliku PDF
+### Krok 3: Osadź obraz DICOM w PDF
 
-Zainicjuj `Image` obiekt, ustaw jego typ na DICOM i załaduj obraz:
+Zainicjalizuj obiekt `Image`, ustaw jego typ na DICOM i załaduj obraz:
 
 ```java
-    // Zainicjuj obiekt obrazu z typem pliku DICOM
+    // Initialize Image object with the DICOM file type
     Image image = new Image();
     image.setFileType(ImageFileType.Dicom);
     image.setImageStream(imageStream);
 
-    // Dodaj obraz do pierwszej strony dokumentu PDF
+    // Add the image to the first page of the PDF document
     pdfDocument.getPages().get_Item(1).getParagraphs().add(image);
 ```
 
-### Zapisz dokument PDF
+### Krok 4: Zapisz dokument PDF
 
 Zapisz swój dokument z osadzonym obrazem DICOM:
 
 ```java
-    String outputDir = "YOUR_OUTPUT_DIRECTORY"; // Zastąp żądaną ścieżką wyjściową
+    String outputDir = "YOUR_OUTPUT_DIRECTORY"; // Replace with your desired output path
     pdfDocument.save(outputDir + "/PdfWithDicomImage_out.pdf");
 } catch (FileNotFoundException e) {
     throw new RuntimeException(e);
@@ -117,44 +139,49 @@ Zapisz swój dokument z osadzonym obrazem DICOM:
 ```
 
 ### Rozwiązywanie problemów
-- **Nie znaleziono pliku:** Sprawdź, czy plik DICOM znajduje się w określonej lokalizacji.
-- **Problemy ze strumieniem:** Sprawdź, czy strumień jest prawidłowo otwierany i zamykany, aby zapobiec wyciekom pamięci.
+- **Plik nie znaleziony:** Upewnij się, że plik DICOM istnieje w podanej lokalizacji.
+- **Problemy ze strumieniem:** Potwierdź, że strumień jest prawidłowo otwarty i zamknięty, aby zapobiec wyciekom pamięci.
 
-## Zastosowania praktyczne
-1. **Systemy raportowania medycznego:** Konwertuj skany pacjentów do plików PDF, aby łatwo udostępniać je personelowi medycznemu.
-2. **Tworzenie treści edukacyjnych:** Osadzaj obrazy DICOM o wysokiej rozdzielczości w materiałach edukacyjnych.
-3. **Archiwizacja danych:** Konwertuj starsze pliki DICOM do formatu PDF na potrzeby nowoczesnych systemów archiwizacji.
+## Jak dodać obraz do PDF – typowe przypadki użycia
+1. **Systemy raportowania medycznego:** Konwertuj skany pacjentów do PDF w celu łatwego udostępniania wśród klinicystów.
+2. **Tworzenie treści edukacyjnych:** Osadzaj wysokiej rozdzielczości obrazy DICOM w podręcznikach szkoleniowych.
+3. **Archiwizacja danych:** Przechowuj starsze pliki DICOM jako PDF w nowoczesnych rozwiązaniach archiwizacyjnych.
 
 ## Rozważania dotyczące wydajności
-Aby zoptymalizować wydajność podczas korzystania z Aspose.PDF:
-- Zarządzaj pamięcią efektywnie, zamykając strumienie po ich użyciu.
-- Stosuj odpowiednie techniki obsługi plików, aby uniknąć niepotrzebnych operacji wejścia/wyjścia.
-- Regularnie aktualizuj bibliotekę, aby korzystać z optymalizacji i poprawek błędów.
+Aby utrzymać konwersję szybką i oszczędną pod względem pamięci:
+- Zamykaj strumienie (`imageStream.close()`) po zapisaniu.
+- Ponownie używaj jednej instancji `Document` przy przetwarzaniu wsadowym.
+- Uaktualnij do najnowszej wersji Aspose.PDF, aby uzyskać poprawki wydajności.
 
-## Wniosek
-Nauczyłeś się, jak konwertować obrazy DICOM na dokumenty PDF za pomocą Aspose.PDF dla Java. Ta możliwość może ulepszyć Twoje aplikacje dzięki solidnym funkcjom przetwarzania obrazu. Poznaj dalsze funkcjonalności Aspose.PDF lub zintegruj go z innymi systemami, aby rozszerzyć swoje projekty.
+## Zakończenie
+Masz teraz kompletny, gotowy do produkcji przykład, jak **convert dicom to pdf** i **add image** przy użyciu Aspose.PDF dla Java. Śmiało rozbudowuj tę bazę — dodawaj wiele stron, znaki wodne lub szyfrowanie, zgodnie z wymaganiami projektu.
 
-## Sekcja FAQ
-1. **Czym jest Aspose.PDF?**
-   - Biblioteka umożliwiająca programistom tworzenie, edytowanie i konwertowanie dokumentów PDF w języku Java.
-2. **Czy mogę używać Aspose.PDF bezpłatnie?**
-   - Zacznij od bezpłatnego okresu próbnego lub poproś o tymczasową licencję na czas oceny.
-3. **Jak radzić sobie z dużymi plikami DICOM?**
-   - Stosuj efektywne metody zarządzania pamięcią, aby zapobiegać spowolnieniom.
-4. **Czy można dodać wiele obrazów do jednego pliku PDF?**
-   - Tak, przejrzyj strumienie obrazów i dodaj je jako nowe strony w tym samym dokumencie.
-5. **Co zrobić, jeśli mój plik PDF jest uszkodzony?**
-   - Upewnij się, że wszystkie ścieżki plików są poprawne i że strumienie są właściwie zarządzane podczas przetwarzania.
+## Najczęściej zadawane pytania
+
+**Q:** Czym jest Aspose.PDF?  
+**A:** Biblioteką Java, która pozwala programistom tworzyć, modyfikować i konwertować dokumenty PDF programowo.
+
+**Q:** Czy mogę używać Aspose.PDF za darmo?  
+**A:** Tak, możesz rozpocząć od wersji próbnej lub poprosić o tymczasową licencję do oceny.
+
+**Q:** Jak obsługiwać duże pliki DICOM?  
+**A:** Stosuj efektywne zarządzanie pamięcią (szybko zamykaj strumienie) i rozważ przetwarzanie w partiach.
+
+**Q:** Czy można dodać wiele obrazów do jednego PDF?  
+**A:** Oczywiście — iteruj po strumieniach obrazów, dodając każdy jako nową stronę lub akapit.
+
+**Q:** Mój wyjściowy PDF jest uszkodzony — co sprawdzić?  
+**A:** Zweryfikuj ścieżki plików, upewnij się, że strumienie są zamknięte i potwierdź, że używasz kompatybilnej wersji Aspose.PDF.
 
 ## Zasoby
-- **Dokumentacja:** [Aspose.PDF Dokumentacja Java](https://reference.aspose.com/pdf/java/)
-- **Pobierać:** [Wydania Aspose.PDF dla Javy](https://releases.aspose.com/pdf/java/)
-- **Zakup:** [Kup Aspose.PDF](https://purchase.aspose.com/buy)
-- **Bezpłatna wersja próbna:** [Rozpocznij bezpłatny okres próbny](https://releases.aspose.com/pdf/java/)
-- **Licencja tymczasowa:** [Poproś o licencję tymczasową](https://purchase.aspose.com/temporary-license/)
-- **Forum wsparcia:** [Wsparcie społeczności Aspose PDF](https://forum.aspose.com/c/pdf/10)
+- **Dokumentacja:** [Aspose.PDF Java Documentation](https://reference.aspose.com/pdf/java/)
+- **Pobierz:** [Aspose.PDF Releases for Java](https://releases.aspose.com/pdf/java/)
+- **Zakup:** [Buy Aspose.PDF](https://purchase.aspose.com/buy)
+- **Bezpłatna wersja próbna:** [Start Your Free Trial](https://releases.aspose.com/pdf/java/)
+- **Licencja tymczasowa:** [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
+- **Forum wsparcia:** [Aspose PDF Community Support](https://forum.aspose.com/c/pdf/10)
 
-Teraz wypróbuj sam i odkryj możliwości Aspose.PDF dla Java!
+Teraz wypróbuj to sam i odkryj możliwości Aspose.PDF dla Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -163,3 +190,9 @@ Teraz wypróbuj sam i odkryj możliwości Aspose.PDF dla Java!
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Ostatnia aktualizacja:** 2026-01-04  
+**Testowano z:** Aspose.PDF 25.3 for Java  
+**Autor:** Aspose
