@@ -50,6 +50,12 @@ Aspose.PDF Net에 대한 코드 튜토리얼
 ### [Aspose.PDF .NET 마스터링: PDF 파일의 디지털 서명을 확인하는 방법](./aspose-pdf-net-verify-digital-signature/)
 Aspose.PDF for .NET을 사용하여 PDF 파일의 디지털 서명을 확인하는 방법을 알아보세요. 단계별 가이드를 통해 문서의 무결성과 신뢰성을 확보하세요.
 
+### [PDF 문서 로드 C# – PDF/X‑4로 변환 및 서명 목록 보기](./load-pdf-document-c-convert-to-pdf-x-4-list-signatures/)
+C#을 사용해 PDF 문서를 로드하고 PDF/X‑4 형식으로 변환한 뒤, 서명 목록을 추출하는 방법을 단계별로 안내합니다.
+
+### [Aspose를 사용하여 PDF 서명 검증 – PDF를 HTML로 변환](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
+Aspose를 사용해 PDF 서명을 검증하고 PDF를 HTML로 변환하는 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 
 - [Net 문서용 Aspose.PDF](https://docs.aspose.com/pdf/net/)

@@ -31,8 +31,9 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Ekstrak Info Tanda Tangan](./extract-signature-info/) | Pelajari cara mengekstrak tanda tangan digital dan informasi sertifikat dari dokumen PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah lengkap untuk pengembang C#. Bahasa Indonesia:  
 | [Apakah Dilindungi Kata Sandi?](./is-password-protected/) Pelajari cara memeriksa apakah PDF dilindungi kata sandi menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah yang komprehensif ini. Bahasa Indonesia:  
 | [Mengatur Hak Istimewa Dalam File PDF](./set-privileges/) | Pelajari cara mengatur hak akses PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Amankan dokumen Anda secara efektif. Bahasa Indonesia:  
-| [Tanda Tangan Dengan Kartu Pintar Menggunakan Tanda Tangan File Pdf](./sign-with-smart-card-using-pdf-file-signature/) | Pelajari cara menandatangani file PDF menggunakan kartu pintar dengan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah ini untuk mendapatkan tanda tangan digital yang aman. Bahasa Indonesia:  
+| [Tanda Tangan Dengan Kartu Pintar Menggunakan Tanda Tanda File Pdf](./sign-with-smart-card-using-pdf-file-signature/) | Pelajari cara menandatangani file PDF menggunakan kartu pintar dengan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah ini untuk mendapatkan tanda tangan digital yang aman. Bahasa Indonesia:  
 | [Tanda Tangan Dengan Kartu Pintar Menggunakan Kolom Tanda Tangan](./sign-with-smart-card-using-signature-field/) | Pelajari cara menandatangani PDF dengan aman menggunakan kartu pintar dengan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah kami untuk penerapan yang mudah. |  
+| [Cara Memperbaiki File PDF – Panduan Lengkap C# dengan Aspose.PDF](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Pelajari cara memperbaiki file PDF yang rusak menggunakan Aspose.PDF untuk .NET dengan panduan lengkap C#. Bahasa Indonesia:  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
