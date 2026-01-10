@@ -74,6 +74,9 @@ Ismerje meg, hogyan hozhat létre akadálymentes, jól strukturált, címkézett
 ### [PDF füzetkészítés elsajátítása az Aspose.PDF .NET segítségével](./aspose-pdf-net-create-booklet-page-arrangement/)
 Kód oktatóanyag az Aspose.PDF Nethez
 
+### [PDF dokumentum létrehozása Aspose.PDF‑vel – Lépésről‑lépésre útmutató](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Tanulja meg, hogyan hozhat létre PDF dokumentumot az Aspose.PDF segítségével lépésről‑lépésre.
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)

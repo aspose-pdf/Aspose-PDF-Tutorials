@@ -74,6 +74,9 @@ Naučte se, jak vytvářet přístupné, dobře strukturované tagované soubory
 ### [Zvládnutí tvorby brožur ve formátu PDF s Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Výukový program pro kódování Aspose.PDF Net
 
+### [Vytvoření PDF dokumentu pomocí Aspose.PDF – krok‑po‑kroku průvodce](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.PDF vytvořit PDF dokument krok za krokem s praktickými ukázkami kódu.
+
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)

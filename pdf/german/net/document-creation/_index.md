@@ -74,6 +74,9 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET barrierefreie, gut strukturierte 
 ### [PDF-Broschüren erstellen mit Aspose.PDF .NET meistern](./aspose-pdf-net-create-booklet-page-arrangement/)
 Ein Code-Tutorial für Aspose.PDF Net
 
+### [PDF-Dokument mit Aspose.PDF erstellen – Schritt‑für‑Schritt‑Anleitung](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF ein PDF-Dokument Schritt für Schritt erstellen.
+
 ## Weitere Ressourcen
 
 - [Aspose.PDF für Net-Dokumentation](https://docs.aspose.com/pdf/net/)
