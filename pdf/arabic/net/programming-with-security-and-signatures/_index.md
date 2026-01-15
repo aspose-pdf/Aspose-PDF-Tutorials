@@ -33,6 +33,9 @@
 | [تعيين الامتيازات في ملف PDF](./set-privileges/) تعرّف على كيفية ضبط صلاحيات PDF باستخدام Aspose.PDF لـ .NET من خلال هذا الدليل المفصل. وفّر الحماية لمستنداتك بفعالية.  
 | [التوقيع بالبطاقة الذكية باستخدام توقيع ملف PDF](./sign-with-smart-card-using-pdf-file-signature/) تعرّف على كيفية توقيع ملفات PDF باستخدام بطاقة ذكية مع Aspose.PDF لـ .NET. اتبع هذا الدليل خطوة بخطوة للحصول على توقيعات رقمية آمنة.  
 | [التوقيع باستخدام البطاقة الذكية باستخدام حقل التوقيع](./sign-with-smart-card-using-signature-field/) | تعرّف على كيفية توقيع ملفات PDF بأمان باستخدام بطاقة ذكية باستخدام Aspose.PDF لـ .NET. اتبع دليلنا خطوة بخطوة لسهولة التنفيذ. |  
+| [كيفية التحقق من توقيعات PDF في C# – دليل خطوة بخطوة كامل](./how-to-verify-pdf-signatures-in-c-complete-step-by-step-guid/) | تعرّف على كيفية التحقق من صحة توقيعات PDF باستخدام Aspose.PDF لـ .NET في دليل شامل خطوة بخطوة. |  
+| [كيفية التحقق من توقيعات PDF باستخدام Aspose.PDF – دليل كامل](./how-to-verify-pdf-signatures-with-aspose-pdf-complete-guide/) | تعرّف على خطوات التحقق من صحة توقيعات PDF باستخدام Aspose.PDF لـ .NET في دليل شامل خطوة بخطوة. |
+| [كيفية التحقق من التوقيع في PDF باستخدام Aspose – دليل](./how-to-verify-signature-in-pdf-using-aspose-guide/) | تعرّف على خطوات التحقق من صحة توقيع PDF باستخدام Aspose.PDF لـ .NET في دليل شامل خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

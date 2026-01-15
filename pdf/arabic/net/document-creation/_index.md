@@ -74,6 +74,9 @@
 ### [إتقان إنشاء كتيبات PDF باستخدام Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 برنامج تعليمي لبرمجة Aspose.PDF Net
 
+### [إنشاء مستند PDF باستخدام Aspose.Pdf – دليل خطوة بخطوة](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+تعرّف على كيفية إنشاء مستند PDF باستخدام Aspose.Pdf من خلال دليل خطوة بخطوة شامل.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

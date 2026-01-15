@@ -33,6 +33,9 @@ Este tutorial le ofrece una descripción detallada de los métodos y técnicas p
 | [Establecer privilegios en un archivo PDF](./set-privileges/) Aprenda a configurar privilegios de PDF con Aspose.PDF para .NET con esta guía paso a paso. Proteja sus documentos eficazmente.  
 | [Firmar con tarjeta inteligente usando la firma de un archivo PDF](./sign-with-smart-card-using-pdf-file-signature/) Aprenda a firmar archivos PDF con una tarjeta inteligente con Aspose.PDF para .NET. Siga esta guía paso a paso para firmas digitales seguras.  
 | [Firmar con tarjeta inteligente usando el campo de firma](./sign-with-smart-card-using-signature-field/) Aprenda a firmar archivos PDF de forma segura con una tarjeta inteligente con Aspose.PDF para .NET. Siga nuestra guía paso a paso para una implementación sencilla.  
+| [Cómo verificar firmas PDF en C# – Guía completa paso a paso](./how-to-verify-pdf-signatures-in-c-complete-step-by-step-guid/) Verifique firmas PDF en C# con Aspose.PDF para .NET. Guía paso a paso para validar la autenticidad de documentos.  
+| [Cómo verificar la firma en PDF usando Aspose – Guía](./how-to-verify-signature-in-pdf-using-aspose-guide/) Verifique firmas PDF usando Aspose en C#. Guía paso a paso para validar la autenticidad de documentos.  
+| [Cómo verificar firmas PDF con Aspose.PDF – Guía completa](./how-to-verify-pdf-signatures-with-aspose-pdf-complete-guide/) Verifique firmas PDF con Aspose.PDF. Guía paso a paso para validar la autenticidad de documentos.  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

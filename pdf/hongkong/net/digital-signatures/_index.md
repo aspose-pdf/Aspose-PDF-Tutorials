@@ -50,6 +50,9 @@ Aspose.PDF Net 程式碼教學
 ### [掌握 Aspose.PDF .NET：如何驗證 PDF 檔案中的數位簽名](./aspose-pdf-net-verify-digital-signature/)
 了解如何使用 Aspose.PDF for .NET 驗證 PDF 檔案中的數位簽章。透過我們的逐步指南確保文件的完整性和真實性。
 
+### [載入已簽署的 PDF 文件並列出其簽章 – C# 指南](./load-signed-pdf-document-and-list-its-signatures-c-guide/)
+了解如何在 C# 中載入已簽署的 PDF 文件，並列出其中的所有簽章資訊。
+
 ## 其他資源
 
 - [Aspose.PDF 用於網頁文檔](https://docs.aspose.com/pdf/net/)

@@ -33,6 +33,9 @@ De tutorial geeft u een gedetailleerd overzicht van methoden en technieken om de
 | [Rechten instellen in PDF-bestand](./set-privileges/) | Leer hoe u PDF-rechten instelt met Aspose.PDF voor .NET met deze stapsgewijze handleiding. Beveilig uw documenten effectief. |  
 | [Ondertekenen met smartcard met behulp van PDF-bestandshandtekening](./sign-with-smart-card-using-pdf-file-signature/) | Leer hoe u PDF-bestanden ondertekent met een smartcard met Aspose.PDF voor .NET. Volg deze stapsgewijze handleiding voor veilige digitale handtekeningen. |  
 | [Ondertekenen met smartcard met behulp van handtekeningveld](./sign-with-smart-card-using-signature-field/) | Leer hoe u PDF's veilig kunt ondertekenen met een smartcard met Aspose.PDF voor .NET. Volg onze stapsgewijze handleiding voor eenvoudige implementatie. |  
+| [Hoe PDF-handtekeningen te verifiëren in C# – Complete stapsgewijze handleiding](./how-to-verify-pdf-signatures-in-c-complete-step-by-step-guid/) | Leer hoe u PDF-handtekeningen kunt verifiëren met Aspose.PDF voor .NET in C#. Stapsgewijze gids voor veilige en betrouwbare validatie. |  
+| [Hoe handtekening in PDF te verifiëren met Aspose – Gids](./how-to-verify-signature-in-pdf-using-aspose-guide/) | Leer hoe u handtekeningen in PDF's kunt verifiëren met Aspose.PDF voor .NET. Volg de stapsgewijze handleiding voor betrouwbare validatie. |  
+| [Hoe PDF-handtekeningen te verifiëren met Aspose.PDF – Complete gids](./how-to-verify-pdf-signatures-with-aspose-pdf-complete-guide/) | Leer hoe u PDF-handtekeningen kunt verifiëren met Aspose.PDF voor .NET. Volledige stap‑voor‑stap handleiding. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -38,6 +38,9 @@ Aspose.PDF Net 程式碼教學
 ### [使用 C# 中的 Aspose.PDF for .NET 掌握 PDF/A 驗證](./master-pdfa-validation-aspose-pdf-net/)
 了解如何使用 Aspose.PDF .NET 驗證 PDF 文件是否符合 PDF/A 標準。透過我們的逐步指南確保合規性並提高文件可靠性。
 
+### [在 C# 中建立 PDF/A 檔案 – 完整轉換教學](./create-pdf-a-file-in-c-full-conversion-tutorial/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中完整轉換並建立符合 PDF/A 標準的檔案。
+
 ## 其他資源
 
 - [Aspose.PDF 用於網頁文檔](https://docs.aspose.com/pdf/net/)

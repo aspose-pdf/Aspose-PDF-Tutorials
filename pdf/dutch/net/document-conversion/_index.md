@@ -43,6 +43,7 @@ leert hoe u conversie-instellingen opgeeft, tekst en afbeeldingen extraheert, de
 | [PDF naar XLS](./pdf-to-xls/) Converteer PDF-bestanden eenvoudig naar XLS-formaat met Aspose.PDF voor .NET. Volg onze stapsgewijze handleiding voor naadloze data-extractie. |  
 | [PDF naar XML](./pdf-to-xml/) | Leer in deze uitgebreide tutorial hoe u PDF naar XML converteert met Aspose.PDF voor .NET. Stapsgewijze handleiding met codevoorbeelden inbegrepen. |  
 | [PDF naar XPS](./pdf-to-xps/) | Leer hoe u PDF naar XPS converteert met Aspose.PDF voor .NET met deze stapsgewijze handleiding. Perfect voor ontwikkelaars en liefhebbers van documentverwerking. |  
+| [PDF-document laden C# – Converteren naar PDF/X-4](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | Leer hoe u een PDF-document laadt en converteert naar PDF/X-4 met Aspose.PDF voor .NET in C#. |
 | [Naschrift naar PDF](./postscript-to-pdf/) | Leer in deze stapsgewijze tutorial hoe u Postscript-bestanden naar PDF converteert met Aspose.PDF voor .NET. Perfect voor ontwikkelaars van alle niveaus. |  
 | [Geef referenties op tijdens HTML naar PDF](./provide-credentials-during-html-to-pdf/) | Leer hoe u HTML naar PDF converteert met Aspose.PDF voor .NET met deze stapsgewijze handleiding. Perfect voor ontwikkelaars die het genereren van documenten willen stroomlijnen. |  
 | [Hyperlinks verwijderen na conversie van HTML](./remove-hyperlinks-after-converting-from-html/) Leer hoe u hyperlinks uit HTML-documenten verwijdert na conversie naar PDF met Aspose.PDF voor .NET in deze stapsgewijze handleiding.  
@@ -56,6 +57,7 @@ leert hoe u conversie-instellingen opgeeft, tekst en afbeeldingen extraheert, de
 | [XML naar PDF](./xml-to-pdf/) | Leer hoe u XML naar PDF kunt converteren met Aspose.PDF voor .NET in deze uitgebreide stapsgewijze tutorial, compleet met codevoorbeelden en gedetailleerde uitleg. |  
 | [XML naar PDFSet-afbeeldingspad](./xml-to-pdfset-image-path/) | Leer hoe u moeiteloos XML naar PDF converteert met Aspose.PDF voor .NET. Deze gedetailleerde handleiding leidt u stap voor stap door het proces, van installatie tot voltooiing. |  
 | [XPS naar PDF](./xps-to-pdf/) Leer hoe u XPS-bestanden naar PDF converteert met Aspose.PDF voor .NET met deze stapsgewijze tutorial. Perfect voor ontwikkelaars en documentliefhebbers. |  
+| [Aspose PDF naar HTML-conversie in C# – Complete gids](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | Leer hoe u PDF-bestanden naar HTML converteert met Aspose.PDF voor .NET in C# met deze uitgebreide stap‑voor‑stap handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

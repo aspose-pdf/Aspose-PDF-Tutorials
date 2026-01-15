@@ -50,6 +50,9 @@ Ein Code-Tutorial für Aspose.PDF Net
 ### [Aspose.PDF .NET beherrschen: So überprüfen Sie digitale Signaturen in PDF-Dateien](./aspose-pdf-net-verify-digital-signature/)
 Erfahren Sie, wie Sie digitale Signaturen in PDF-Dateien mit Aspose.PDF für .NET überprüfen. Stellen Sie die Integrität und Authentizität von Dokumenten mit unserer Schritt-für-Schritt-Anleitung sicher.
 
+### [Laden Sie ein signiertes PDF-Dokument und listen Sie dessen Signaturen – C#-Leitfaden](./load-signed-pdf-document-and-list-its-signatures-c-guide/)
+Erfahren Sie, wie Sie ein signiertes PDF öffnen und alle enthaltenen Signaturen mit Aspose.PDF für .NET auflisten.
+
 ## Weitere Ressourcen
 
 - [Aspose.PDF für Net-Dokumentation](https://docs.aspose.com/pdf/net/)

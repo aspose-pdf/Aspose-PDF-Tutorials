@@ -26,6 +26,7 @@ You'll learn how to specify conversion settings, extract text and images, retain
 | [EPUB To PDF](./epub-to-pdf/) | Learn how to convert EPUB to PDF using Aspose.PDF for .NET with this step-by-step guide. Easy, efficient, and perfect for all users. |  
 | [Get SVG Dimensions](./get-svg-dimensions/) | Learn how to use Aspose.PDF for .NET to convert SVG files to PDF with this step-by-step guide. Perfect for developers looking to manipulate PDFs. |  
 | [HTML To PDF](./html-to-pdf/) | Learn how to convert HTML to PDF using Aspose.PDF for .NET with this comprehensive step-by-step guide. |  
+| [Load PDF Document C# – Convert to PDF/X-4 Step‑by‑Step Guide](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | Learn how to load a PDF document and convert it to PDF/X-4 using Aspose.PDF for .NET with this step-by-step guide. |  
 | [Markdown To PDF](./markdown-to-pdf/) | Learn how to convert Markdown to PDF using Aspose.PDF for .NET in this step-by-step tutorial. Perfect for developers looking to streamline document conversion. |  
 | [MHT To PDF](./mht-to-pdf/) | Learn how to convert MHT files to PDF using Aspose.PDF for .NET in this step-by-step tutorial. Easy and efficient document conversion. |  
 | [Page Orientation According Image Dimensions](./page-orientation-according-image-dimensions/) | Learn how to create PDFs with Aspose.PDF for .NET, setting page orientation based on image dimensions in this step-by-step guide. |  
@@ -56,6 +57,7 @@ You'll learn how to specify conversion settings, extract text and images, retain
 | [XML To PDF](./xml-to-pdf/) | Learn how to convert XML to PDF using Aspose.PDF for .NET in this comprehensive step-by-step tutorial, complete with code examples and detailed explanations. |  
 | [XML To PDFSet Image Path](./xml-to-pdfset-image-path/) | Learn how to effortlessly convert XML to PDF using Aspose.PDF for .NET. This detailed guide walks you through the process step by step, from setup to completion. |  
 | [XPS To PDF](./xps-to-pdf/) | Learn how to convert XPS files to PDF using Aspose.PDF for .NET with this step-by-step tutorial. Perfect for developers and document enthusiasts. |  
+| [Aspose PDF to HTML Conversion in C# – Complete Guide](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | Learn how to convert PDF files to HTML using Aspose.PDF for .NET with a comprehensive step-by-step guide in C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

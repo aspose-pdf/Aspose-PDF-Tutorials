@@ -44,6 +44,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Elemen Struktur Blok Teks](./text-block-structure-elements/) | Pelajari cara menggunakan Aspose.PDF untuk .NET untuk menambahkan elemen struktur blok teks, seperti judul dan paragraf yang diberi tag, ke dokumen PDF yang ada. Bahasa Indonesia:  
 | [Elemen Struktur Teks Dalam File PDF](./text-structure-elements/) Pelajari cara memanipulasi elemen struktur teks dalam PDF dengan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini mencakup semua yang Anda butuhkan untuk membuat PDF terstruktur. Bahasa Indonesia:  
 | [Validasi File PDF](./validate-pdf/) | Pelajari cara memvalidasi file PDF dengan Aspose.PDF untuk .NET. Periksa kepatuhannya terhadap standar dan buat laporan validasi. |  
+| [Buat PDF yang Ditandai di C# – Tambahkan Heading & Teks Aksesibel](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Pelajari cara membuat PDF yang ditandai di C# dengan menambahkan heading dan teks yang dapat diakses menggunakan Aspose.PDF untuk .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

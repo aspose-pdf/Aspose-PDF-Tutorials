@@ -74,6 +74,9 @@ Pelajari cara membuat PDF bertag yang mudah diakses dan terstruktur dengan baik 
 ### [Menguasai Pembuatan Buklet PDF dengan Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Tutorial kode untuk Aspose.PDF Net
 
+### [Buat Dokumen PDF dengan Aspose.Pdf – Panduan Langkah demi Langkah](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Pelajari cara membuat dokumen PDF secara terprogram menggunakan Aspose.Pdf dengan panduan langkah demi langkah yang mudah diikuti.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

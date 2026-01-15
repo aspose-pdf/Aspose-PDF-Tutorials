@@ -33,6 +33,9 @@ The tutorial gives you a detailed overview of methods and techniques to ensure t
 | [Set Privileges In PDF File](./set-privileges/) | Learn how to set PDF privileges using Aspose.PDF for .NET with this step-by-step guide. Secure your documents effectively. |  
 | [Sign With Smart Card Using Pdf File Signature](./sign-with-smart-card-using-pdf-file-signature/) | Learn how to sign PDF files using a smart card with Aspose.PDF for .NET. Follow this step-by-step guide for secure digital signatures. |  
 | [Sign With Smart Card Using Signature Field](./sign-with-smart-card-using-signature-field/) | Learn how to securely sign PDFs using a smart card with Aspose.PDF for .NET. Follow our step-by-step guide for easy implementation. |  
+| [How to Verify PDF Signatures in C# – Complete Step‑by‑Step Guide](./how-to-verify-pdf-signatures-in-c-complete-step-by-step-guid/) | Learn how to verify PDF signatures in C# using Aspose.PDF for .NET. Follow this step‑by‑step guide to ensure document authenticity. |
+| [How to Verify Signature in PDF using Aspose – Guide](./how-to-verify-signature-in-pdf-using-aspose-guide/) | Learn how to verify PDF signatures using Aspose.PDF for .NET in this concise step‑by‑step guide. |
+| [How to verify PDF signatures with Aspose.PDF – Complete Guide](./how-to-verify-pdf-signatures-with-aspose-pdf-complete-guide/) | Learn how to verify PDF signatures using Aspose.PDF for .NET with a complete step‑by‑step guide for C# developers. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

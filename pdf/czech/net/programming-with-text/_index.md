@@ -21,7 +21,7 @@ Výukové programy „Programování s textem“ pro .NET od Aspose.PDF nabízej
 | --- | --- | 
 | [Přidat a vyhledat skrytý text v souboru PDF](./add-and-search-hidden-text/) | Naučte se přidávat a vyhledávat skrytý text v PDF dokumentech pomocí Aspose.PDF pro .NET. Podrobný návod s příklady kódu. |  
 | [Přidání seřazeného seznamu HTML do dokumentů](./add-html-ordered-list-into-documents/) | Naučte se přidávat seřazené seznamy HTML do PDF dokumentů pomocí Aspose.PDF pro .NET. Objevte podrobné pokyny v tomto podrobném tutoriálu. |  
-| [Přidání HTML pomocí DOMu](./add-html-using-dom/) V tomto podrobném návodu se naučte, jak přidat HTML obsah do PDF dokumentů pomocí Aspose.PDF pro .NET. Snadno vylepšete své PDF soubory pomocí dynamického formátování HTML. |  
+| [Přidání HTML pomocí DOMu](./add-html-using-dom/) V tomto podrobném návodu se naučte, jak přidat HTML obsah do PDF dokumentů pomocí Aspose.PDF pro .NET. Snadno vylepšete své PDF soubory pomocí dynamického formátování HTML. |
 | [Přidání HTML pomocí DOM a přepsání PDF](./add-html-using-dom-and-overwrite/) | Naučte se, jak přidat HTML obsah do PDF pomocí Aspose.PDF pro .NET. Tento podrobný návod pokrývá vše od nastavení až po konečné uložení. |  
 | [Přidat odsazení následujících řádků v souboru PDF](./add-subsequent-lines-indent/) | Naučte se, jak přidat odsazení následujících řádků do PDF souborů pomocí Aspose.PDF pro .NET. Postupujte podle tohoto podrobného návodu krok za krokem pro profesionální formátování textu. |  
 | [Přidat textový okraj do PDF souboru](./add-text-border/) | Naučte se, jak přidat textový okraj do PDF souboru pomocí Aspose.PDF pro .NET s tímto podrobným návodem. Vylepšete své PDF dokumenty. |  
@@ -70,6 +70,7 @@ Výukové programy „Programování s textem“ pro .NET od Aspose.PDF nabízej
 | [Text a obrázek jako odstavec v souboru PDF](./text-and-image-as-paragraph/) | Vytvářejte PDF soubory s textem a obrázky pomocí Aspose.PDF pro .NET. Naučte se krok za krokem přidávat text a vložené obrázky. |  
 | [Textové segmenty v souboru PDF](./text-segments/) | Naučte se, jak vyhledávat konkrétní textové segmenty v souboru PDF pomocí regulárních výrazů v Aspose.PDF pro .NET. |  
 | [Použití Latexového skriptu v PDF souboru](./use-latex-script/) | Naučte se, jak pomocí Latexového skriptu přidávat matematické výrazy nebo vzorce do PDF souboru pomocí Aspose.PDF pro .NET. |  
+| [Přidat Batesova čísla do PDF – Bates číslování PDF](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Naučte se přidávat Batesova čísla do PDF souborů pomocí Aspose.PDF pro .NET. Podrobný návod s ukázkami kódu. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

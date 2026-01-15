@@ -37,6 +37,7 @@ Hướng dẫn bao gồm hướng dẫn từng bước, ví dụ mã chi tiết 
 | [Chia thành các trang](./split-to-pages/) Dễ dàng chia PDF thành các trang riêng lẻ bằng Aspose.PDF cho .NET với hướng dẫn toàn diện này. Có kèm hướng dẫn từng bước. |  
 | [Cập nhật kích thước trang PDF](./update-dimensions/) | Khám phá cách cập nhật kích thước trang PDF dễ dàng bằng Aspose.PDF cho .NET trong hướng dẫn toàn diện, từng bước này. |  
 | [Phóng to nội dung trang trong tệp PDF](./zoom-to-page-contents/) | Tìm hiểu cách phóng to nội dung trang trong tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn toàn diện này. Cải thiện tài liệu PDF của bạn theo nhu cầu cụ thể của bạn. |  
+| [Thêm trang vào PDF với Aspose – Hướng dẫn C# đầy đủ](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Hướng dẫn chi tiết cách thêm trang vào tệp PDF bằng Aspose.PDF cho .NET sử dụng C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

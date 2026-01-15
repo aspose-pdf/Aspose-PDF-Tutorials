@@ -74,6 +74,9 @@ Leer hoe u toegankelijke, goed gestructureerde, getagde PDF's maakt met Aspose.P
 ### [PDF-boekjes maken onder de knie krijgen met Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Een codetutorial voor Aspose.PDF Net
 
+### [PDF-document maken met Aspose.Pdf – Stapsgewijze handleiding](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Leer hoe u een PDF-document maakt met Aspose.Pdf via een gedetailleerde stap‑voor‑stap handleiding.
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)
