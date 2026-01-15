@@ -18,6 +18,7 @@
 Aspose.PDF for .NET 的「使用標記 PDF 進行程式設計」教學課程將引導您使用此程式庫來操作和產生標記 PDF。了解如何建立內容結構、管理標記元素、驗證 PDF/UA 合規性以及提高 PDF 文件的可存取性。這些教學讓您深入了解使用標記 PDF 進行編程，並協助您充分利用 Aspose.PDF for .NET 的強大功能。
 
 ## 教學
+
 |標題 |描述 |
 | --- | --- | 
 | [訪問子元素](./access-children-elements/) |在本逐步教學中了解如何使用 Aspose.PDF for .NET 存取和修改標記 PDF 中的子元素。 |  
@@ -46,6 +47,8 @@ Aspose.PDF for .NET 的「使用標記 PDF 進行程式設計」教學課程將�
 | [驗證 PDF 文件](./validate-pdf/) |了解如何使用 Aspose.PDF for .NET 驗證 PDF 檔案。檢查其是否符合標準並產生驗證報告。 |  
 | [在 C# 中建立標記 PDF – 完整步驟指南](./create-tagged-pdf-in-c-complete-step-by-step-guide/) |透過完整步驟指南，使用 C# 建立標記 PDF，提升文件可存取性與結構。 |  
 | [使用 Aspose 使 PDF 可存取：插入段落 PDF 步驟說明](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) |本教學說明如何使用 Aspose.PDF for .NET 在 PDF 中插入段落，以提升文件的可存取性。 |  
+
+| [在 C# 中建立標記 PDF – 新增標題與可存取文字](./create-tagged-pdf-in-c-add-heading-accessible-text/) |學習如何使用 Aspose.PDF for .NET 在 C# 中建立標記 PDF，並加入標題與可存取的文字內容。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

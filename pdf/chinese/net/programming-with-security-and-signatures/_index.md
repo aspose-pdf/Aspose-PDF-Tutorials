@@ -19,6 +19,7 @@
 本教程将详细介绍确保 PDF 文档机密性和真实性的方法和技术。您将学习如何管理数字证书、添加安全权限、应用安全策略等。通过这些教程，您将能够可靠且专业地保护您的 PDF 文档。
 
 ## 教程
+
 标题 | 描述 |
 | --- | --- | 
 | [更改 PDF 文件中的密码](./change-password/) 学习如何使用 Aspose.PDF for .NET 轻松更改 PDF 密码。我们的分步指南将引导您安全地完成整个过程。|  
@@ -36,6 +37,10 @@
 | [在 C# 中检查 PDF 签名 – 如何读取已签名的 PDF 文件](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) 了解如何使用 Aspose.PDF for .NET 在 C# 中读取已签名的 PDF 文件并检查签名信息。|  
 | [如何修复 PDF 文件 – 使用 Aspose.Pdf 的完整 C# 指南](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) 了解如何使用 Aspose.Pdf for .NET 在 C# 中修复受损的 PDF 文件，分步指南帮助您恢复文档完整性。|  
 | [在 C# 中检查 PDF 签名 – 完整编程指南](./verify-pdf-signature-in-c-complete-programming-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名并检查其完整性。分步指南帮助您确保文档安全。|  
+
+| [如何在 C# 中验证 PDF 签名 – 完整分步指南](./how-to-verify-pdf-signatures-in-c-complete-step-by-step-guid/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名，分步指南帮助您确保文档完整性。|  
+| [如何使用 Aspose 验证 PDF 中的签名 – 指南](./how-to-verify-signature-in-pdf-using-aspose-guide/) 了解如何使用 Aspose.PDF for .NET 验证 PDF 签名，提供完整的分步指南。|  
+| [使用 Aspose.PDF 验证 PDF 签名 – 完整指南](./how-to-verify-pdf-signatures-with-aspose-pdf-complete-guide/) 了解如何使用 Aspose.PDF for .NET 完整验证 PDF 签名，提供详细的分步指南。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

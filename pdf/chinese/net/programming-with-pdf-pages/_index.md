@@ -19,6 +19,7 @@ Aspose.PDF for .NET 的“使用 PDF 页面进行编程”文档提供了分步�
 教程包含分步说明、详细的代码示例和清晰的解释，易于理解。无论您是初学者还是经验丰富的开发人员，这些资源都将帮助您掌握 Aspose.PDF for .NET 提供的 PDF 页面操作功能，为您的应用程序开发项目开辟新的可能性。
 
 ## 教程
+
 标题 | 描述 |
 | --- | --- | 
 | [改变方向](./change-orientation/) 使用 Aspose.PDF for .NET 更改 PDF 页面方向的分步指南。易于遵循并在您的项目中实施。|  
@@ -38,6 +39,8 @@ Aspose.PDF for .NET 的“使用 PDF 页面进行编程”文档提供了分步�
 | [更新 PDF 页面尺寸](./update-dimensions/) 通过这份全面的分步指南，了解如何使用 Aspose.PDF for .NET 轻松更新 PDF 页面尺寸。|  
 | [缩放至 PDF 文件中的页面内容](./zoom-to-page-contents/) 在本指南中学习如何使用 Aspose.PDF for .NET 缩放 PDF 文件中的页面内容。根据您的特定需求增强您的 PDF 文档。|  
 | [使用 C# 为 PDF 添加页码 – 完整分步指南](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) 使用 Aspose.PDF for .NET 和 C# 为 PDF 添加页码的完整分步指南，易于实现。|  
+
+| [使用 Aspose 向 PDF 添加页面 – 完整 C# 指南](./add-pages-to-pdf-with-aspose-complete-c-guide/) 使用 Aspose.PDF for .NET 完整的 C# 指南，教您向 PDF 添加页面并进行自定义。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

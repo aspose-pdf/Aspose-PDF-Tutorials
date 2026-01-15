@@ -18,6 +18,7 @@
 Les tutoriels « Programmation avec des PDF balisés » d'Aspose.PDF pour .NET vous guident dans l'utilisation de cette bibliothèque pour manipuler et générer des PDF balisés. Apprenez à créer des structures de contenu, à gérer les éléments balisés, à valider la conformité PDF/UA et à améliorer l'accessibilité des documents PDF. Ces tutoriels vous offrent une compréhension approfondie de la programmation avec des PDF balisés et vous aident à exploiter pleinement la puissance d'Aspose.PDF pour .NET.
 
 ## Tutoriels
+
 | Titre | Description |
 | --- | --- | 
 | [Accéder aux éléments enfants](./access-children-elements/) | Apprenez à accéder et à modifier les éléments enfants dans les PDF balisés avec Aspose.PDF pour .NET dans ce didacticiel étape par étape. |  
@@ -28,7 +29,6 @@ Les tutoriels « Programmation avec des PDF balisés » d'Aspose.PDF pour .NET
 | [Créer des éléments de structure](./create-structure-elements/) | Apprenez à créer des éléments de structure au format PDF avec Aspose.PDF pour .NET. Un guide étape par étape pour une accessibilité et une organisation améliorées des PDF. |  
 | [Créer une arborescence d'éléments de structure](./create-structure-elements-tree/) | Apprenez à créer une arborescence d'éléments de structure dans des documents PDF avec Aspose.PDF pour .NET. Suivez ce guide étape par étape. |  
 | [Créer un élément de tableau](./create-table-element/) Guide étape par étape pour créer un élément de tableau avec Aspose.PDF pour .NET. Générez facilement des PDF dynamiques avec des tableaux. |  
-| [Nom de balise personnalisé](./custom-tag-name/) Guide étape par étape pour utiliser un nom de balise personnalisé avec Aspose.PDF pour .NET. Améliorez la structure de vos PDF avec des balises personnalisées.  
 | [Éléments de structure d'illustration](./illustration-structure-elements/) | Créez des PDF structurés avec des éléments d'illustration dans Aspose.PDF pour .NET en suivant notre didacticiel étape par étape. |  
 | [Éléments de structure en ligne](./inline-structure-elements/) Guide étape par étape pour utiliser les éléments structurels en ligne avec Aspose.PDF pour .NET. Organisez vos PDF avec des titres et des paragraphes. |  
 | [Éléments de structure de lien](./link-structure-elements/) | Apprenez à créer des éléments de structure de liens dans un PDF avec Aspose.PDF pour .NET. Guide étape par étape pour ajouter des liens accessibles, des images et valider la conformité. |  
@@ -46,6 +46,8 @@ Les tutoriels « Programmation avec des PDF balisés » d'Aspose.PDF pour .NET
 | [Valider le fichier PDF](./validate-pdf/) | Apprenez à valider un fichier PDF avec Aspose.PDF pour .NET. Vérifiez sa conformité aux normes et générez un rapport de validation. |
 | [Créer un PDF balisé en C# – Guide complet étape par étape](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Apprenez à créer un PDF balisé en C# avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
 | [Rendre le PDF accessible avec Aspose : insérer un paragraphe PDF étape par étape](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Apprenez à insérer un paragraphe dans un PDF accessible avec Aspose.PDF pour .NET, étape par étape. |
+
+| [Créer un PDF balisé en C# – Ajouter un titre et du texte accessible](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Apprenez à créer un PDF balisé en C# avec un titre et du texte accessible à l'aide d'Aspose.PDF pour .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

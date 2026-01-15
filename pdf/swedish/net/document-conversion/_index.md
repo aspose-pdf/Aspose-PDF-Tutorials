@@ -19,6 +19,7 @@ I Aspose.PDF-dokumentkonverteringshandledningarna för .NET lär du dig hur du k
 Du lär dig hur du anger konverteringsinställningar, extraherar text och bilder, behåller originaldokumentstruktur och formatering och utför masskonverteringar. Handledningarna ger detaljerade kodexempel och steg-för-steg-förklaringar som hjälper dig att bemästra dokumentkonverteringsfunktionerna i Aspose.PDF för .NET. Oavsett om du behöver konvertera dokument för arkivering, elektronisk distribution eller andra behov, ger dessa handledningar dig kunskapen för att effektivt utföra alla dokumentkonverteringsuppgifter med hjälp av det kraftfulla Aspose.PDF-biblioteket för .NET.
 
 ## Handledningar
+
 | Titel | Beskrivning |
 | --- | --- | 
 | [Lägg till bilaga till PDF-fil](./add-attachment-to-pdfa/) | Lär dig hur du lägger till bilagor till ett PDF/A-dokument med Aspose.PDF för .NET med den här steg-för-steg-guiden. |  
@@ -58,6 +59,9 @@ Du lär dig hur du anger konverteringsinställningar, extraherar text och bilder
 | [XML till PDF](./xml-to-pdf/) | Lär dig hur du konverterar XML till PDF med Aspose.PDF för .NET i den här omfattande steg-för-steg-handledningen, komplett med kodexempel och detaljerade förklaringar. |
 | [XML till PDFSet-bildsökväg](./xml-to-pdfset-image-path/) | Lär dig hur du enkelt konverterar XML till PDF med Aspose.PDF för .NET. Den här detaljerade guiden guidar dig genom processen steg för steg, från installation till slutförande. |
 | [XPS till PDF](./xps-to-pdf/) Lär dig hur du konverterar XPS-filer till PDF med Aspose.PDF för .NET med den här steg-för-steg-handledningen. Perfekt för utvecklare och dokumententusiaster. |
+
+| [Aspose PDF till HTML‑konvertering i C# – Komplett guide](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | Lär dig hur du konverterar PDF till HTML i C# med Aspose.PDF i denna kompletta steg‑för‑steg‑guide. |
+| [Ladda PDF-dokument C# – Konvertera till PDF/X-4 steg‑för‑steg‑guide](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | Lär dig hur du laddar ett PDF-dokument i C# och konverterar det till PDF/X-4 med Aspose.PDF för .NET i denna steg-för-steg-guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -18,6 +18,7 @@
 Samouczki Aspose.PDF for .NET „Programming with Tagged PDFs” przeprowadzą Cię przez proces korzystania z tej biblioteki do manipulowania i generowania oznaczonych plików PDF. Dowiedz się, jak tworzyć struktury treści, zarządzać oznaczonymi elementami, sprawdzać zgodność PDF/UA i poprawiać dostępność dokumentów PDF. Te samouczki zapewniają dogłębne zrozumienie programowania z oznaczonymi plikami PDF i pomagają w pełni wykorzystać potencjał Aspose.PDF for .NET.
 
 ## Samouczki
+
 | Tytuł | Opis |
 | --- | --- | 
 | [Dostęp do elementów dziecięcych](./access-children-elements/) | Dowiedz się, jak uzyskać dostęp do elementów podrzędnych w oznaczonych plikach PDF i jak je modyfikować za pomocą Aspose.PDF dla platformy .NET, korzystając z tego samouczka krok po kroku. |  
@@ -46,6 +47,8 @@ Samouczki Aspose.PDF for .NET „Programming with Tagged PDFs” przeprowadzą C
 | [Sprawdź poprawność pliku PDF](./validate-pdf/) | Dowiedz się, jak sprawdzić poprawność pliku PDF za pomocą Aspose.PDF dla .NET. Sprawdź jego zgodność ze standardami i wygeneruj raport walidacyjny. |  
 | [Utwórz PDF z tagami w C# – Kompletny przewodnik krok po kroku](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Dowiedz się, jak w C# utworzyć oznaczony plik PDF, korzystając z Aspose.PDF, krok po kroku, aby zapewnić dostępność i zgodność PDF/UA. |  
 | [Uczyń PDF dostępnym z Aspose: Wstaw akapit PDF krok po kroku](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Dowiedz się, jak wstawić akapit do oznaczonego pliku PDF przy użyciu Aspose.PDF dla .NET, krok po kroku. |  
+
+| [Utwórz PDF z tagami w C# – Dodaj nagłówek i dostępny tekst](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Dowiedz się, jak w C# utworzyć PDF z tagami, dodać nagłówek oraz tekst dostępny, korzystając z Aspose.PDF dla .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

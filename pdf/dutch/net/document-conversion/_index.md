@@ -19,6 +19,7 @@ In de Aspose.PDF-documentconversiehandleidingen voor .NET leert u hoe u verschil
 leert hoe u conversie-instellingen opgeeft, tekst en afbeeldingen extraheert, de originele documentstructuur en -opmaak behoudt en bulkconversies uitvoert. De tutorials bieden gedetailleerde codevoorbeelden en stapsgewijze uitleg om u te helpen de mogelijkheden van Aspose.PDF voor .NET voor documentconversie onder de knie te krijgen. Of u nu documenten moet converteren voor archivering, elektronische distributie of andere doeleinden, deze tutorials bieden u de kennis om alle documentconversietaken efficiënt uit te voeren met behulp van de krachtige Aspose.PDF-bibliotheek voor .NET.
 
 ## Zelfstudies
+
 | Titel | Beschrijving |
 | --- | --- | 
 | [Bijlage toevoegen aan PDFA](./add-attachment-to-pdfa/) | Leer hoe u bijlagen toevoegt aan een PDF/A-document met Aspose.PDF voor .NET met deze stapsgewijze handleiding. |  
@@ -46,7 +47,6 @@ leert hoe u conversie-instellingen opgeeft, tekst en afbeeldingen extraheert, de
 | [PDF naar XPS](./pdf-to-xps/) | Leer hoe u PDF naar XPS converteert met Aspose.PDF voor .NET met deze stapsgewijze handleiding. Perfect voor ontwikkelaars en liefhebbers van documentverwerking. |  
 | [Naschrift naar PDF](./postscript-to-pdf/) | Leer in deze stapsgewijze tutorial hoe u Postscript-bestanden naar PDF converteert met Aspose.PDF voor .NET. Perfect voor ontwikkelaars van alle niveaus. |  
 | [Geef referenties op tijdens HTML naar PDF](./provide-credentials-during-html-to-pdf/) | Leer hoe u HTML naar PDF converteert met Aspose.PDF voor .NET met deze stapsgewijze handleiding. Perfect voor ontwikkelaars die het genereren van documenten willen stroomlijnen. |  
-| [Hyperlinks verwijderen na conversie van HTML](./remove-hyperlinks-after-converting-from-html/) Leer hoe u hyperlinks uit HTML-documenten verwijdert na conversie naar PDF met Aspose.PDF voor .NET in deze stapsgewijze handleiding.  
 | [Vervang ontbrekende lettertypen](./replace-missing-fonts/) | Leer hoe u ontbrekende lettertypen in PDF-documenten kunt vervangen met Aspose.PDF voor .NET met deze stapsgewijze handleiding. |  
 | [Standaardlettertypenaam instellen](./set-default-font-name/) | Leer hoe u een standaardlettertype instelt bij het renderen van PDF's naar afbeeldingen met Aspose.PDF voor .NET. Deze handleiding behandelt de vereisten, stapsgewijze instructies en veelgestelde vragen. |  
 | [SVG naar PDF](./svg-to-pdf/) | Leer hoe je SVG naar PDF converteert met Aspose.PDF voor .NET in deze stapsgewijze tutorial. Perfect voor ontwikkelaars en ontwerpers. |  
@@ -58,6 +58,9 @@ leert hoe u conversie-instellingen opgeeft, tekst en afbeeldingen extraheert, de
 | [XML naar PDFSet-afbeeldingspad](./xml-to-pdfset-image-path/) | Leer hoe u moeiteloos XML naar PDF converteert met Aspose.PDF voor .NET. Deze gedetailleerde handleiding leidt u stap voor stap door het proces, van installatie tot voltooiing. |  
 | [XPS naar PDF](./xps-to-pdf/) Leer hoe u XPS-bestanden naar PDF converteert met Aspose.PDF voor .NET met deze stapsgewijze tutorial. Perfect voor ontwikkelaars en documentliefhebbers. |  
 | [pdf naar png-tutorial – PDF-pagina's converteren naar PNG in C#](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Leer hoe u PDF-pagina's naar PNG converteert met Aspose.PDF voor .NET in C#. |
+
+| [PDF-document laden C# – Converteren naar PDF/X-4](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | Leer hoe u een PDF-document laadt en converteert naar PDF/X-4 met Aspose.PDF voor .NET in C#. |
+| [Aspose PDF naar HTML-conversie in C# – Complete gids](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | Leer hoe u PDF-bestanden naar HTML converteert met Aspose.PDF voor .NET in C# met deze uitgebreide stap‑voor‑stap handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

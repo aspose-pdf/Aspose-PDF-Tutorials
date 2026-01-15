@@ -18,6 +18,7 @@
 Os tutoriais "Programação com PDFs Marcados" do Aspose.PDF para .NET orientam você no uso desta biblioteca para manipular e gerar PDFs marcados. Aprenda a criar estruturas de conteúdo, gerenciar elementos marcados, validar a conformidade com PDF/UA e melhorar a acessibilidade de documentos PDF. Esses tutoriais oferecem uma compreensão aprofundada da programação com PDFs marcados e ajudam você a aproveitar ao máximo o poder do Aspose.PDF para .NET.
 
 ## Tutoriais
+
 | Título | Descrição |
 | --- | --- | 
 | [Acessar Elementos Filhos](./access-children-elements/) | Aprenda como acessar e modificar elementos filho em PDFs marcados com o Aspose.PDF para .NET neste tutorial passo a passo. |  
@@ -46,6 +47,8 @@ Os tutoriais "Programação com PDFs Marcados" do Aspose.PDF para .NET orientam 
 | [Validar arquivo PDF](./validate-pdf/) | Aprenda a validar um arquivo PDF com o Aspose.PDF para .NET. Verifique sua conformidade com os padrões e gere um relatório de validação. |  
 | [Tornar PDF acessível com Aspose: Inserir parágrafo PDF passo a passo](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Aprenda a inserir parágrafos em PDFs para melhorar a acessibilidade usando Aspose.PDF para .NET, passo a passo. |
 | [Criar PDF Marcado em C# – Guia Completo Passo a Passo](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Aprenda a criar um PDF marcado em C# usando Aspose.PDF para .NET com este guia passo a passo completo. |  
+
+| [Criar PDF Marcado em C# – Adicionar Cabeçalho e Texto Acessível](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Aprenda a criar um PDF marcado em C# adicionando cabeçalhos e texto acessível usando Aspose.PDF para .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

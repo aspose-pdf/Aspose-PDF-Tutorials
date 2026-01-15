@@ -17,48 +17,37 @@ Digitális aláírással kapcsolatos oktatóanyagaink átfogó útmutatást nyú
 
 ## Elérhető oktatóanyagok
 
+
 ### [Digitális aláírások PDF-ekben az Aspose.PDF for .NET segítségével: Átfogó útmutató](./digital-signature-aspose-pdf-net-tutorial/)
 Ismerje meg, hogyan valósíthat meg digitális aláírásokat PDF-fájlokban az Aspose.PDF for .NET használatával. Ez az útmutató a beállítást, az aláírási folyamatokat és az aláírások megjelenésének kezelését ismerteti.
-
 ### [PDF digitális aláírása egyéni megjelenéssel az Aspose.PDF for .NET használatával: lépésről lépésre útmutató](./digitally-sign-pdf-custom-appearance-aspose-pdf-net/)
 Ismerje meg, hogyan írhat digitálisan alá PDF-fájlokat egyéni megjelenéssel az Aspose.PDF for .NET használatával. Ez az útmutató a digitális aláírások beállítását, testreszabását és gyakorlati alkalmazását ismerteti a dokumentumokban.
-
 ### [Digitális aláírási információk kinyerése PDF-ekből az Aspose.PDF segítségével](./extract-digital-signature-info-from-pdfs-aspose-pdf/)
 Kód oktatóanyag az Aspose.PDF Nethez
-
 ### [PDF aláírási nyelvének módosítása az Aspose.PDF for .NET segítségével](./change-pdf-signature-language-aspose-net/)
 Ismerje meg, hogyan szabhatja testre a digitális aláírás szövegét PDF-ekben az Aspose.PDF for .NET segítségével. Tökéletes többnyelvű dokumentumok elkészítéséhez és lokalizálásához.
-
 ### [PDF aláírások létrehozása és ellenőrzése az Aspose.PDF for .NET használatával](./create-verify-pdf-signatures-aspose-net/)
 Ismerje meg, hogyan hozhat létre, írhat alá és ellenőrizhet biztonságosan PDF-aláírásokat az Aspose.PDF for .NET segítségével. Javítsa dokumentum-munkafolyamatait ezzel az átfogó útmutatóval.
-
 ### [PDF aláírási információk kinyerése az Aspose.PDF .NET használatával: lépésről lépésre útmutató](./extract-pdf-signature-info-aspose-pdf-net/)
 Ismerje meg, hogyan kinyerheti a digitális aláírás adatait PDF-ekből az Aspose.PDF for .NET segítségével. Ez a lépésről lépésre haladó útmutató a telepítést, a megvalósítást és a gyakorlati alkalmazásokat ismerteti.
-
 ### [Digitális aláírások megvalósítása .NET-ben az Aspose.PDF segítségével: Átfogó útmutató](./implement-pdf-signatures-dotnet-aspose-pdf-guide/)
 Ismerje meg, hogyan valósíthat meg biztonságos digitális aláírásokat PDF-fájlokon az Aspose.PDF for .NET használatával, beleértve az opcionális mezők letiltását is.
-
 ### [PDF digitális aláírások eltávolítása az Aspose.PDF .NET használatával | Teljes útmutató](./remove-pdf-digital-signatures-aspose-pdf-net/)
 Ismerje meg, hogyan távolíthatja el hatékonyan a digitális aláírásokat PDF-ekből az Aspose.PDF .NET segítségével. Ez az átfogó útmutató az egy- és többaláírások eltávolítását ismerteti, lépésről lépésre bemutatva.
-
 ### [PDF aláírások ellenőrzése az Aspose.PDF for .NET használatával: Átfogó útmutató](./verify-pdf-signatures-aspose-pdf-net/)
 Ismerje meg, hogyan ellenőrizheti a digitális aláírásokat PDF fájlokban az Aspose.PDF for .NET segítségével. Ez az útmutató a beállítást, a megvalósítást és a gyakorlati alkalmazásokat ismerteti.
-
 ### [PDF aláírás és ellenőrzés mesterfokon az Aspose.PDF .NET segítségével](./mastering-aspose-pdf-net-sign-verify-smart-card-certificates/)
 Kód oktatóanyag az Aspose.PDF Nethez
-
 ### [Aspose.PDF .NET elsajátítása: Hogyan ellenőrizhetjük a digitális aláírásokat PDF fájlokban](./aspose-pdf-net-verify-digital-signature/)
 Ismerje meg, hogyan ellenőrizheti a digitális aláírásokat PDF fájlokban az Aspose.PDF for .NET segítségével. Biztosítsa a dokumentumok integritását és hitelességét lépésről lépésre bemutató útmutatónkkal.
-
 ### [PDF aláírás ellenőrzése C#-ban – Teljes útmutató a digitális aláírás ellenőrzéséhez PDF-ben](./verify-pdf-signature-in-c-complete-guide-to-validate-digital/)
 Ismerje meg, hogyan ellenőrizheti a PDF digitális aláírását C#-ban az Aspose.PDF for .NET segítségével, lépésről lépésre útmutatóval.
-
 ### [PDF dokumentum betöltése C# – Konvertálás PDF/X‑4 formátumba és aláírások listázása](./load-pdf-document-c-convert-to-pdf-x-4-list-signatures/)
 Ismerje meg, hogyan tölthet be PDF-et C#-ban, konvertálhatja PDF/X‑4-re, és listázhatja a benne lévő aláírásokat az Aspose.PDF for .NET használatával.
-
 ### [PDF aláírás ellenőrzése Aspose-szal – PDF konvertálása HTML-re](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
 Ismerje meg, hogyan ellenőrizheti a PDF aláírását és konvertálhatja a dokumentumot HTML formátumba az Aspose.PDF for .NET használatával.
-
+### [Aláírt PDF-dokumentum betöltése és aláírásainak listázása – C# útmutató](./load-signed-pdf-document-and-list-its-signatures-c-guide/)
+Ismerje meg, hogyan tölthet be aláírt PDF-fájlt, és listázhatja ki benne található aláírásokat C#-ban az Aspose.PDF használatával.
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)

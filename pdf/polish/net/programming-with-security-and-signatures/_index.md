@@ -19,6 +19,7 @@ Samouczek Programming with Security and Signatures przeprowadzi Cię przez funkc
 Samouczek zapewnia szczegółowy przegląd metod i technik zapewniających poufność i autentyczność plików PDF. Dowiesz się, jak zarządzać certyfikatami cyfrowymi, dodawać uprawnienia bezpieczeństwa, stosować zasady bezpieczeństwa i nie tylko. Korzystając z tych samouczków, będziesz w stanie niezawodnie i profesjonalnie zabezpieczać dokumenty PDF.
 
 ## Samouczki
+
 | Tytuł | Opis |
 | --- | --- | 
 | [Zmień hasło w pliku PDF](./change-password/) | Naucz się łatwo zmieniać hasła PDF za pomocą Aspose.PDF dla .NET. Nasz przewodnik krok po kroku przeprowadzi Cię przez ten proces bezpiecznie. |  
@@ -36,6 +37,10 @@ Samouczek zapewnia szczegółowy przegląd metod i technik zapewniających poufn
 | [Sprawdź podpisy PDF w C# – Jak odczytać podpisane pliki PDF](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Dowiedz się, jak odczytywać i weryfikować podpisy PDF w C# przy użyciu Aspose.PDF. |  
 | [Sprawdź podpis PDF w C# – Kompletny przewodnik programistyczny](./verify-pdf-signature-in-c-complete-programming-guide/) | Dowiedz się, jak w pełni weryfikować podpisy PDF w C# przy użyciu Aspose.PDF – krok po kroku. |  
 | [Jak naprawić pliki PDF – Kompletny przewodnik C# z Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Dowiedz się, jak naprawić uszkodzone pliki PDF przy użyciu Aspose.PDF dla .NET w języku C# – krok po kroku. |  
+
+| [Jak zweryfikować podpisy PDF w C# – Kompletny przewodnik krok po kroku](./how-to-verify-pdf-signatures-in-c-complete-step-by-step-guid/) | Dowiedz się, jak w prosty sposób weryfikować podpisy cyfrowe w plikach PDF przy użyciu Aspose.PDF dla .NET w C#. |  
+| [Jak zweryfikować podpis w PDF przy użyciu Aspose – przewodnik](./how-to-verify-signature-in-pdf-using-aspose-guide/) | Dowiedz się, jak w prosty sposób zweryfikować podpis w pliku PDF przy użyciu Aspose. |  
+| [Jak zweryfikować podpisy PDF za pomocą Aspose.PDF – Kompletny przewodnik](./how-to-verify-pdf-signatures-with-aspose-pdf-complete-guide/) | Dowiedz się, jak skutecznie weryfikować podpisy cyfrowe w dokumentach PDF przy użyciu Aspose.PDF w prostym przewodniku krok po kroku. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

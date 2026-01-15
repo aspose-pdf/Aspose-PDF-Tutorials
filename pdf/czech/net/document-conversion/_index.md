@@ -19,6 +19,7 @@ V tutoriálech pro převod dokumentů Aspose.PDF pro .NET se naučíte, jak pře
 Naučíte se, jak nastavit převod, extrahovat text a obrázky, zachovat původní strukturu a formátování dokumentu a provádět hromadné převody. Návody poskytují podrobné příklady kódu a podrobná vysvětlení, která vám pomohou zvládnout možnosti převodu dokumentů v knihovně Aspose.PDF pro .NET. Ať už potřebujete převést dokumenty pro archivaci, elektronickou distribuci nebo jiné účely, tyto návody vám poskytnou znalosti pro efektivní provádění všech úkolů převodu dokumentů pomocí výkonné knihovny Aspose.PDF pro .NET.
 
 ## Návody
+
 | Název | Popis |
 | --- | --- | 
 | [Přidat přílohu k PDFA](./add-attachment-to-pdfa/) | Naučte se, jak přidávat přílohy k dokumentu PDF/A pomocí Aspose.PDF pro .NET s tímto podrobným návodem. |  
@@ -58,6 +59,9 @@ Naučíte se, jak nastavit převod, extrahovat text a obrázky, zachovat původn
 | [XPS do PDF](./xps-to-pdf/) Naučte se, jak převést soubory XPS do PDF pomocí Aspose.PDF pro .NET v tomto podrobném návodu. Ideální pro vývojáře a nadšence do dokumentů. |
 | [Převod PDF na PDF/X‑4 v C# – krok za krokem ASP.NET PDF tutoriál](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Naučte se, jak převést PDF na PDF/X‑4 pomocí Aspose.PDF pro .NET v C# s podrobným krok za krokem návodem. |
 | [PDF na PNG tutoriál – Převod stránek PDF do PNG v C#](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Naučte se, jak převést stránky PDF do formátu PNG pomocí Aspose.PDF pro .NET v C#. |
+
+| [Načíst PDF dokument C# – Převod na PDF/X-4 krok za krokem](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | Naučte se, jak načíst PDF a převést jej na PDF/X-4 pomocí Aspose.PDF pro .NET. Praktický průvodce krok za krokem. |
+| [Aspose PDF do HTML převod v C# – kompletní průvodce](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | Naučte se, jak převést PDF soubory do HTML pomocí Aspose.PDF pro .NET v C# s tímto podrobným návodem. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

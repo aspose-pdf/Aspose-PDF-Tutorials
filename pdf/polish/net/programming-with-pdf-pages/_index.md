@@ -19,6 +19,7 @@ Dokumentacja „Programming with PDF Pages” dla Aspose.PDF dla .NET zawiera sa
 Samouczki obejmują instrukcje krok po kroku, szczegółowe przykłady kodu i jasne wyjaśnienia ułatwiające zrozumienie. Niezależnie od tego, czy jesteś początkującym, czy doświadczonym programistą, te zasoby pomogą Ci opanować funkcje manipulacji stronami PDF oferowane przez Aspose.PDF dla .NET, otwierając nowe możliwości dla Twoich projektów rozwoju aplikacji.
 
 ## Samouczki
+
 | Tytuł | Opis |
 | --- | --- | 
 | [Zmiana orientacji](./change-orientation/) | Przewodnik krok po kroku, jak zmienić orientację strony pliku PDF za pomocą Aspose.PDF dla .NET. Łatwy do naśladowania i wdrożenia w Twoich projektach. |  
@@ -38,6 +39,8 @@ Samouczki obejmują instrukcje krok po kroku, szczegółowe przykłady kodu i ja
 | [Aktualizuj wymiary strony PDF](./update-dimensions/) | Dowiedz się, jak bez wysiłku aktualizować wymiary stron PDF za pomocą Aspose.PDF dla platformy .NET w tym kompleksowym przewodniku krok po kroku. |  
 | [Powiększ zawartość strony w pliku PDF](./zoom-to-page-contents/) | Dowiedz się, jak powiększać zawartość stron w plikach PDF za pomocą Aspose.PDF dla .NET w tym kompleksowym przewodniku. Ulepsz swoje dokumenty PDF zgodnie ze swoimi konkretnymi potrzebami. |  
 | [Dodaj numery stron PDF w C# – Pełny przewodnik krok po kroku](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Krok po kroku pokażemy, jak dodać numery stron do pliku PDF w C# przy użyciu Aspose.PDF dla .NET. |
+
+| [Dodaj strony do PDF za pomocą Aspose – Kompletny przewodnik C#](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Kompletny przewodnik krok po kroku, jak dodać strony do pliku PDF w C# przy użyciu Aspose.PDF dla .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

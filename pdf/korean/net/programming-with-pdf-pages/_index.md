@@ -19,6 +19,7 @@ Aspose.PDF for .NET의 "PDF 페이지 프로그래밍" 설명서는 PDF 파일�
 튜토리얼에는 단계별 지침, 자세한 코드 예제, 그리고 명확한 설명이 포함되어 있어 쉽게 이해할 수 있습니다. 초보자든 숙련된 개발자든, 이 자료들을 통해 Aspose.PDF for .NET이 제공하는 PDF 페이지 조작 기능을 완벽하게 익혀 애플리케이션 개발 프로젝트에 새로운 가능성을 열어보세요.
 
 ## 튜토리얼
+
 | 제목 | 설명 |
 | --- | --- | 
 | [방향 전환](./change-orientation/) | Aspose.PDF for .NET을 사용하여 PDF 페이지 방향을 변경하는 단계별 가이드입니다. 쉽게 따라 하고 프로젝트에 구현할 수 있습니다. |  
@@ -38,6 +39,8 @@ Aspose.PDF for .NET의 "PDF 페이지 프로그래밍" 설명서는 PDF 파일�
 | [PDF 페이지 크기 업데이트](./update-dimensions/) | 이 포괄적인 단계별 가이드를 통해 Aspose.PDF for .NET을 사용하여 PDF 페이지 크기를 손쉽게 업데이트하는 방법을 알아보세요. |  
 | [PDF 파일의 페이지 내용 확대](./zoom-to-page-contents/) | 이 포괄적인 가이드에서 Aspose.PDF for .NET을 사용하여 PDF 파일의 페이지 내용을 확대/축소하는 방법을 알아보세요. 특정 요구 사항에 맞게 PDF 문서를 향상시키세요. |  
 | [C#로 PDF에 페이지 번호 추가 – 전체 단계별 가이드](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 C#로 PDF에 페이지 번호를 추가하는 단계별 가이드입니다. |  
+
+| [Aspose를 사용하여 PDF에 페이지 추가 – 완전 C# 가이드](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF에 페이지를 추가하는 방법을 단계별로 안내합니다. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

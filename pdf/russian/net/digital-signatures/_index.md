@@ -53,6 +53,9 @@
 ### [Проверка подписи PDF с Aspose – конвертация PDF в HTML](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
 Узнайте, как проверить подпись PDF и преобразовать документ в HTML с помощью Aspose.PDF для .NET.
 
+### [Загрузка подписанного PDF-документа и вывод списка его подписей – руководство C#](./load-signed-pdf-document-and-list-its-signatures-c-guide/)
+Узнайте, как загрузить подписанный PDF и получить список всех подписей с помощью Aspose.PDF для .NET на C#.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.PDF для сети](https://docs.aspose.com/pdf/net/)

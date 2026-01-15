@@ -19,6 +19,7 @@
 本教學將為您詳細概述確保 PDF 文件的機密性和真實性的方法和技術。您將學習如何管理數位憑證、新增安全權限、應用程式安全性原則等。使用這些教程，您將能夠可靠、專業地保護您的 PDF 文件。
 
 ## 教學
+
 |標題 |描述 |
 | --- | --- | 
 | [更改 PDF 文件中的密碼](./change-password/) |學習使用 Aspose.PDF for .NET 輕鬆更改 PDF 密碼。我們的逐步指南將引導您安全地完成整個過程。 |  
@@ -37,6 +38,10 @@
 | [在 C# 中驗證 PDF 簽章 – 完整程式設計指南](./verify-pdf-signature-in-c-complete-programming-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中完整驗證 PDF 簽章的步驟與技巧。 |
 | [使用簽名字段透過智慧卡簽名](./sign-with-smart-card-using-signature-field/) |了解如何使用 Aspose.PDF for .NET 的智慧卡安全地簽署 PDF。按照我們的逐步指南即可輕鬆實施。 |  
 | [如何修復 PDF 檔案 – 完整的 C# 指南（使用 Aspose.Pdf）](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) |了解如何使用 Aspose.PDF for .NET 修復受損的 PDF 檔案。逐步指南協助您恢復文件完整性。 |  
+
+| [如何在 C# 中驗證 PDF 簽章 – 完整步驟指南](./how-to-verify-pdf-signatures-in-c-complete-step-by-step-guid/) |了解如何使用 Aspose.PDF for .NET 在 C# 中驗證 PDF 簽章。逐步指南確保簽章完整性。 |  
+| [如何在 PDF 中使用 Aspose 驗證簽章 – 指南](./how-to-verify-signature-in-pdf-using-aspose-guide/) |了解如何使用 Aspose.PDF for .NET 驗證 PDF 簽章，確保文件完整性與真實性。 |  
+| [如何使用 Aspose.PDF 驗證 PDF 簽章 – 完整指南](./how-to-verify-pdf-signatures-with-aspose-pdf-complete-guide/) |了解如何使用 Aspose.PDF for .NET 完整驗證 PDF 簽章，提供逐步指南確保文件真實性。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

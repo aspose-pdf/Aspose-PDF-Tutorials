@@ -19,6 +19,7 @@ Tutorial Pemrograman dengan Keamanan dan Tanda Tangan memandu Anda melalui fitur
 Tutorial ini memberikan gambaran terperinci tentang metode dan teknik untuk memastikan kerahasiaan dan keaslian file PDF Anda. Anda akan mempelajari cara mengelola sertifikat digital, menambahkan izin keamanan, menerapkan kebijakan keamanan, dan banyak lagi. Dengan menggunakan tutorial ini, Anda akan dapat mengamankan dokumen PDF Anda secara andal dan profesional.
 
 ## Tutorial
+
 | Judul | Deskripsi |
 Bahasa Indonesia: --- | --- Bahasa Indonesia: 
 | [Ubah Kata Sandi Dalam File PDF](./change-password/) | Pelajari cara mengubah kata sandi PDF dengan mudah menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah kami akan memandu Anda melalui proses ini dengan aman. Bahasa Indonesia:  
@@ -34,7 +35,6 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Tanda Tangan Dengan Kartu Pintar Menggunakan Tanda Tanda File Pdf](./sign-with-smart-card-using-pdf-file-signature/) | Pelajari cara menandatangani file PDF menggunakan kartu pintar dengan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah ini untuk mendapatkan tanda tangan digital yang aman. Bahasa Indonesia:  
 | [Tanda Tangan Dengan Kartu Pintar Menggunakan Kolom Tanda Tangan](./sign-with-smart-card-using-signature-field/) | Pelajari cara menandatangani PDF dengan aman menggunakan kartu pintar dengan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah kami untuk penerapan yang mudah. |  
 | [Periksa Tanda Tangan PDF di C# – Cara Membaca File PDF yang Ditandatangani](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Pelajari cara memeriksa tanda tangan PDF dan membaca file PDF yang ditandatangani menggunakan Aspose.PDF untuk .NET. |  
-| [Cara Memperbaiki File PDF – Panduan Lengkap C# dengan Aspose.PDF](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Pelajari cara memperbaiki file PDF yang rusak menggunakan Aspose.PDF untuk .NET dengan panduan lengkap C#. Bahasa Indonesia:  
 | [Verifikasi Tanda Tangan PDF di C# – Panduan Pemrograman Lengkap](./verify-pdf-signature-in-c-complete-programming-guide/) | Pelajari cara memverifikasi tanda tangan PDF menggunakan C# dengan Aspose.PDF untuk .NET dalam panduan pemrograman lengkap. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

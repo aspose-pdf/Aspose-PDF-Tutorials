@@ -19,6 +19,7 @@ Tài liệu "Lập trình với PDF Pages" dành cho Aspose.PDF for .NET cung c�
 Hướng dẫn bao gồm hướng dẫn từng bước, ví dụ mã chi tiết và giải thích rõ ràng để dễ hiểu. Cho dù bạn là người mới bắt đầu hay nhà phát triển có kinh nghiệm, các tài nguyên này sẽ giúp bạn nắm vững các tính năng thao tác trang PDF do Aspose.PDF cung cấp cho .NET, mở ra những khả năng mới cho các dự án phát triển ứng dụng của bạn.
 
 ## Hướng dẫn
+
 | Tiêu đề | Mô tả |
 | --- | --- | 
 | [Thay đổi hướng](./change-orientation/) | Hướng dẫn từng bước để thay đổi hướng trang của PDF bằng Aspose.PDF cho .NET. Dễ dàng thực hiện và triển khai trong các dự án của bạn. |  
@@ -38,6 +39,8 @@ Hướng dẫn bao gồm hướng dẫn từng bước, ví dụ mã chi tiết 
 | [Cập nhật kích thước trang PDF](./update-dimensions/) | Khám phá cách cập nhật kích thước trang PDF dễ dàng bằng Aspose.PDF cho .NET trong hướng dẫn toàn diện, từng bước này. |  
 | [Phóng to nội dung trang trong tệp PDF](./zoom-to-page-contents/) | Tìm hiểu cách phóng to nội dung trang trong tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn toàn diện này. Cải thiện tài liệu PDF của bạn theo nhu cầu cụ thể của bạn. |  
 | [Thêm số trang PDF bằng C# – Hướng dẫn chi tiết từng bước](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Hướng dẫn chi tiết cách thêm số trang vào tài liệu PDF bằng C# với Aspose.PDF cho .NET. |  
+
+| [Thêm trang vào PDF với Aspose – Hướng dẫn C# đầy đủ](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Hướng dẫn chi tiết cách thêm trang vào tệp PDF bằng Aspose.PDF cho .NET sử dụng C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
