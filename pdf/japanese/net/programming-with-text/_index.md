@@ -70,6 +70,7 @@ Aspose.PDFの.NET向け「テキストプログラミング」チュートリア
 | [PDFファイル内の段落としてのテキストと画像](./text-and-image-as-paragraph/) Aspose.PDF for .NET を使用して、テキストと画像を含むPDFを作成します。テキストとインライン画像を追加する方法をステップバイステップで学習します。 |  
 | [PDFファイル内のテキストセグメント](./text-segments/) Aspose.PDF for .NET で正規表現を使用して PDF ファイル内の特定のテキスト セグメントを検索する方法を学習します。 |  
 | [PDFファイルでLaTeXスクリプトを使用する](./use-latex-script/) Aspose.PDF for .NET を使用して、LaTeX スクリプトで PDF ファイルに数式や式を追加する方法を学習します。 |  
+| [PDFにベーツ番号を追加 – ベーツ番号付与](./add-bates-numbers-to-pdf-bates-numbering-pdf/) Aspose.PDF for .NET を使用して、PDF にベーツ番号（ページ番号）を追加する方法を学びます。ステップバイステップのガイドです。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

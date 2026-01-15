@@ -44,6 +44,7 @@ tutorial "Programmazione con PDF con tag" di Aspose.PDF per .NET ti guideranno n
 | [Elementi della struttura del blocco di testo](./text-block-structure-elements/) | Scopri come utilizzare Aspose.PDF per .NET per aggiungere elementi della struttura del blocco di testo, come titoli e paragrafi taggati, a un documento PDF esistente. |  
 | [Elementi della struttura del testo nel file PDF](./text-structure-elements/) Impara a manipolare gli elementi della struttura del testo nei PDF con Aspose.PDF per .NET. Questa guida passo passo illustra tutto il necessario per creare PDF strutturati. |  
 | [Convalida file PDF](./validate-pdf/) | Scopri come convalidare un file PDF con Aspose.PDF per .NET. Verifica la sua conformità agli standard e genera un report di convalida. |  
+| [Crea PDF taggato in C# – Aggiungi intestazione e testo accessibile](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Scopri come creare un PDF taggato in C# aggiungendo intestazioni e testo accessibile con Aspose.PDF per .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

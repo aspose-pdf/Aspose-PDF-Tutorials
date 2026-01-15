@@ -33,6 +33,9 @@ Tento tutoriál vám poskytne podrobný přehled metod a technik pro zajištěn�
 | [Nastavení oprávnění v souboru PDF](./set-privileges/) | Naučte se, jak nastavit oprávnění PDF pomocí Aspose.PDF pro .NET s tímto podrobným návodem. Efektivně zabezpečte své dokumenty. |  
 | [Podepsat pomocí čipové karty s použitím podpisu v souboru PDF](./sign-with-smart-card-using-pdf-file-signature/) | Naučte se, jak podepisovat soubory PDF pomocí čipové karty s Aspose.PDF pro .NET. Postupujte podle tohoto podrobného návodu pro zabezpečené digitální podpisy. |  
 | [Podepisujte pomocí čipové karty s použitím pole pro podpis](./sign-with-smart-card-using-signature-field/) | Naučte se, jak bezpečně podepisovat PDF soubory pomocí čipové karty s Aspose.PDF pro .NET. Pro snadnou implementaci postupujte podle našeho podrobného návodu. |  
+| [Jak ověřit PDF podpisy v C# – Kompletní průvodce krok za krokem](./how-to-verify-pdf-signatures-in-c-complete-step-by-step-guid/) | Naučte se, jak ověřit PDF podpisy v C# pomocí Aspose.PDF pro .NET. Kompletní krok‑za‑krokem návod. |  
+| [Jak ověřit podpis v PDF pomocí Aspose – Průvodce](./how-to-verify-signature-in-pdf-using-aspose-guide/) | Naučte se, jak ověřit podpis v PDF pomocí Aspose.PDF pro .NET. Kompletní krok‑za‑krokem návod. |  
+| [Jak ověřit PDF podpisy s Aspose.PDF – kompletní průvodce](./how-to-verify-pdf-signatures-with-aspose-pdf-complete-guide/) | Naučte se, jak ověřit PDF podpisy pomocí Aspose.PDF – kompletní průvodce. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

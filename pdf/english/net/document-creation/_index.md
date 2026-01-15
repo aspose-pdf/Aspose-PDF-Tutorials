@@ -74,6 +74,9 @@ Learn how to create accessible, well-structured tagged PDFs using Aspose.PDF for
 ### [Mastering PDF Booklet Creation with Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 A code tutorial for Aspose.PDF Net
 
+### [Create PDF Document with Aspose.Pdf – Step‑by‑Step Guide](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Learn how to create PDF documents using Aspose.PDF for .NET with a detailed step‑by‑step guide.
+
 ## Additional Resources
 
 - [Aspose.PDF for Net Documentation](https://docs.aspose.com/pdf/net/)

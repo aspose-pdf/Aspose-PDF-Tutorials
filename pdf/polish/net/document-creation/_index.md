@@ -74,6 +74,9 @@ Dowiedz się, jak tworzyć dostępne, dobrze ustrukturyzowane, oznaczone pliki P
 ### [Opanowanie tworzenia broszur PDF za pomocą Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Samouczek dotyczący kodu dla Aspose.PDF Net
 
+### [Utwórz dokument PDF za pomocą Aspose.Pdf – przewodnik krok po kroku](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Dowiedz się, jak utworzyć dokument PDF przy użyciu Aspose.Pdf, krok po kroku, z przykładami kodu.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

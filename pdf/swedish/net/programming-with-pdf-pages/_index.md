@@ -37,6 +37,7 @@ Handledningarna innehåller steg-för-steg-instruktioner, detaljerade kodexempel
 | [Dela upp till sidor](./split-to-pages/) Dela enkelt PDF-filer till individuella sidor med Aspose.PDF för .NET med denna omfattande handledning. Steg-för-steg-guide ingår. |  
 | [Uppdatera PDF-siddimensioner](./update-dimensions/) | Upptäck hur du enkelt uppdaterar PDF-siddimensioner med Aspose.PDF för .NET i den här omfattande steg-för-steg-guiden. |  
 | [Zooma till sidinnehåll i PDF-fil](./zoom-to-page-contents/) | Lär dig hur du zoomar till sidinnehåll i PDF-filer med Aspose.PDF för .NET i den här omfattande guiden. Förbättra dina PDF-dokument efter dina specifika behov. |  
+| [Lägg till sidor i PDF med Aspose – Komplett C#-guide](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Steg-för-steg-guide för att lägga till sidor i en PDF med Aspose.PDF för .NET i C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

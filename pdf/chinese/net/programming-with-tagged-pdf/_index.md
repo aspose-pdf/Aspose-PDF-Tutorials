@@ -44,6 +44,7 @@ Aspose.PDF for .NET 的“使用标签 PDF 进行编程”教程将指导您如�
 | [文本块结构元素](./text-block-structure-elements/) 了解如何使用 Aspose.PDF for .NET 将文本块结构元素（例如标题和标记段落）添加到现有 PDF 文档。|  
 | [PDF文件中的文本结构元素](./text-structure-elements/) 学习使用 Aspose.PDF for .NET 操作 PDF 中的文本结构元素。本分步指南涵盖创建结构化 PDF 所需的一切。|  
 | [验证 PDF 文件](./validate-pdf/) 了解如何使用 Aspose.PDF for .NET 验证 PDF 文件。检查其是否符合标准并生成验证报告。|  
+| [在 C# 中创建带标签的 PDF – 添加标题和可访问文本](./create-tagged-pdf-in-c-add-heading-accessible-text/) 通过本分步教程学习如何在 C# 中为 PDF 添加标题和可访问文本，以提升可访问性。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

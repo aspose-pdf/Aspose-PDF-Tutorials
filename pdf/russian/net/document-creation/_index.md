@@ -74,6 +74,9 @@
 ### [Освоение создания PDF-буклетов с помощью Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Учебник по коду для Aspose.PDF Net
 
+### [Создание PDF‑документа с Aspose.Pdf – пошаговое руководство](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Узнайте, как создавать PDF‑документы с помощью Aspose.Pdf, следуя пошаговому руководству.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.PDF для сети](https://docs.aspose.com/pdf/net/)

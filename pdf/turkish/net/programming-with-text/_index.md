@@ -41,13 +41,13 @@ Aspose.PDF'nin .NET için "Metinle Programlama" eğitimleri, PDF belgelerinizdek
 | [Metnin Genişliğini Dinamik Olarak Alın](./get-width-of-text-dynamically/) | Geliştiricilere özel bu kapsamlı adım adım eğitimde Aspose.PDF for .NET kullanarak metin genişliklerini dinamik olarak ölçmeyi öğrenin.  
 | [PDF Dosyasında Gizli Metin Bloğu](./hidden-text-block/) | .NET için Aspose.PDF kullanarak gizli metin blokları içeren etkileşimli PDF'ler oluşturun. Bu eğitim, belgelerinizi geliştirmek için adım adım bir kılavuz sağlar. |  
 | [PDF Dosyasında Karakteri Vurgula](./highlight-character-in-pdf/) | Bu kapsamlı adım adım kılavuzda Aspose.PDF for .NET kullanarak bir PDF'deki karakterleri vurgulamayı öğrenin.  
-| [PDF Dosyasında Çok Sütunlu Paragraflar](./multicolumn-paragraphs/) | Aspose.PDF for .NET'i kullanarak adım adım kılavuzumuzla PDF dosyalarında çok sütunlu paragrafların nasıl oluşturulacağını ve yönetileceğini öğrenin.  
+| [PDF Dosyasında Çok Sütunlu Paragraflar](./multicolumn-paragraphs/) | Aspose.PDF for .NET'i kullanarak adım adım kılavuzumuzla PDF dosalarında çok sütunlu paragrafların nasıl oluşturulacağını ve yönetileceğini öğrenin.  
 | [PDF Dosyasında Görüntünün Etrafına Metin Yerleştirme](./placing-text-around-image/) | Aspose.PDF for .NET kullanarak PDF'lerdeki resimlerin etrafına metin yerleştirmeyi öğrenin. Resim ve metnin yan yana olduğu profesyonel PDF'ler oluşturmak için adım adım kılavuzumuzu izleyin. |  
 | [Metin Değiştirmeyi Kullanarak İçerikleri Yeniden Düzenleyin](./rearrange-contents-using-text-replacement/) | Aspose.PDF for .NET ile metin değiştirmeyi kullanarak PDF içeriklerini nasıl yeniden düzenleyeceğinizi öğrenin. Belge düzenleme becerilerinizi geliştirmek için adım adım eğitim. |  
 | [PDF Dosyasındaki Tüm Metni Kaldır](./remove-all-text/) | Aspose.PDF for .NET'i kullanarak adım adım kılavuzumuzla PDF dosyasındaki tüm metni kolayca kaldırın.  
 | [PDF'den Tüm Metni Kaldır](./remove-all-text-from-pdf/) | Aspose.PDF for .NET kullanarak bir PDF belgesinden tüm metni etkili bir şekilde nasıl kaldıracağınızı öğrenin. PDF manipülasyonunda ustalaşmak için basit kılavuzumuzu izleyin. |  
 | [PDF Dosyasındaki Kullanılmayan Yazı Tiplerini Kaldır](./remove-unused-fonts/) | Aspose.PDF for .NET kullanarak PDF dosyalarından kullanılmayan yazı tiplerini zahmetsizce nasıl kaldıracağınızı öğrenin. Performansı artırın ve dosya boyutunu azaltın. |  
-| [PDF Dosyasında Değiştirilebilir Sembollerin Oluşturulması](./rendering-replaceable-symbols/) Bu adım adım kılavuzla Aspose.PDF for .NET'i kullanarak PDF dosyalarında değiştirilebilir sembollerin nasıl oluşturulacağını öğrenin.  
+| [PDF Dosyasında Değiştirilebilir Sembollerin Oluşturulması](./rendering-replaceable-symbols/) Bu adım adım kılavuzla Aspose.PDF for .NET'i kullanarak PDF dosalarında değiştirilebilir sembollerin nasıl oluşturulacağını öğrenin.  
 | [Başlık Altbilgisindeki Değiştirilebilir Semboller](./replaceable-symbols-in-header-footer/) | Aspose.PDF for .NET kullanarak bir PDF belgesinin üst bilgi ve alt bilgisinde değiştirilebilir sembollerin nasıl kullanılacağını öğrenin. |  
 | [İlk Oluşumu Değiştir](./replace-first-occurrence/) | Aspose.PDF for .NET'i kullanarak PDF'deki ilk metnin nasıl değiştirileceğini adım adım kılavuzumuzla öğrenin. Geliştiriciler ve belge işleyicileri için mükemmeldir. |  
 | [PDF Dosyasındaki Yazı Tiplerini Değiştir](./replace-fonts/) | Aspose.PDF for .NET kullanarak PDF dosyalarındaki yazı tiplerini kolayca değiştirin. Yazı tiplerini değiştirmek için kod örnekleriyle adım adım kılavuz. |  
@@ -70,6 +70,7 @@ Aspose.PDF'nin .NET için "Metinle Programlama" eğitimleri, PDF belgelerinizdek
 | [PDF Dosyasında Metin Ve Resim Paragraf Olarak](./text-and-image-as-paragraph/) | Aspose.PDF for .NET kullanarak metin ve resimlerle PDF'ler oluşturun. Adım adım metin ve satır içi resimlerin nasıl ekleneceğini öğrenin. |  
 | [PDF Dosyasındaki Metin Bölümleri](./text-segments/) | Aspose.PDF for .NET'te düzenli ifadeler kullanarak PDF dosyasındaki belirli metin parçalarını nasıl arayacağınızı öğrenin. |  
 | [PDF Dosyasında Latex Komut Dosyasını Kullan](./use-latex-script/) | Aspose.PDF for .NET kullanarak PDF dosyasına matematiksel ifadeler veya formüller eklemek için Latex betiğinin nasıl kullanılacağını öğrenin. |  
+| [PDF'ye Bates Numaraları Ekle – bates numbering pdf](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Aspose.PDF for .NET kullanarak PDF dosyalarına Bates numaraları eklemeyi öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

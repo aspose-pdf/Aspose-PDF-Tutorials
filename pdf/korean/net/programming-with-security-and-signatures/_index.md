@@ -26,13 +26,16 @@
 | [PDF 파일에서 올바른 비밀번호 확인](./determine-correct-password/) | Aspose.PDF for .NET을 사용하여 올바른 암호로 PDF 파일의 잠금을 해제하세요. 올바른 암호를 쉽게 식별하는 방법을 알아보세요. |  
 | [PDF 파일에 디지털로 로그인](./digitally-sign/) Aspose.PDF for .NET을 사용하여 PDF 파일에 디지털 서명하는 방법을 알아보세요. 문서의 보안과 진위 여부를 확인하는 단계별 가이드입니다. |  
 | [PDF 파일에 타임스탬프를 포함한 디지털 서명](./digitally-sign-with-time-stamp/) | Aspose.PDF for .NET을 사용하여 타임스탬프가 있는 PDF에 디지털 서명하는 방법을 알아보세요. 이 단계별 가이드에서는 필수 구성 요소, 인증서 설정, 타임스탬프 등에 대해 설명합니다. |  
-| [PDF 파일 암호화](./encrypt/) | Aspose.PDF for .NET을 사용하여 PDF 파일을 손쉽게 암호화하는 방법을 알아보세요. 간편한 단계별 가이드로 민감한 정보를 보호하세요. |  
+| [PDF 파일 암호화](./encrypt/) | Aspose.PDF for .NET을 사용하여 PDF 파일을 손쉽게 암호화하는 방법을 알아보세요. 간편한 단계별 가이드를 통해 민감한 정보를 보호하세요. |  
 | [이미지 추출](./extracting-image/) | Aspose.PDF for .NET을 사용하여 PDF에서 이미지를 추출하는 방법을 쉽게 알아보세요. 원활한 이미지 추출을 위한 단계별 가이드를 따라해 보세요. |  
 | [서명 정보 추출](./extract-signature-info/) | Aspose.PDF for .NET을 사용하여 PDF 문서에서 디지털 서명과 인증서 정보를 추출하는 방법을 알아보세요. C# 개발자를 위한 완벽한 단계별 가이드입니다. |  
 | [비밀번호로 보호되어 있습니까?](./is-password-protected/) 이 포괄적인 단계별 가이드를 통해 Aspose.PDF for .NET을 사용하여 PDF가 암호로 보호되어 있는지 확인하는 방법을 알아보세요. |  
 | [PDF 파일에 권한 설정](./set-privileges/) | Aspose.PDF for .NET을 사용하여 PDF 권한을 설정하는 방법을 단계별 가이드를 통해 알아보세요. 문서를 효과적으로 보호하세요. |  
 | [PDF 파일 서명을 사용하여 스마트 카드로 서명](./sign-with-smart-card-using-pdf-file-signature/) | Aspose.PDF for .NET을 사용하여 스마트 카드를 사용하여 PDF 파일에 서명하는 방법을 알아보세요. 안전한 디지털 서명을 위한 단계별 가이드를 따르세요. |  
 | [서명 필드를 사용하여 스마트 카드로 서명](./sign-with-smart-card-using-signature-field/) | Aspose.PDF for .NET을 사용하여 스마트 카드를 사용하여 PDF에 안전하게 서명하는 방법을 알아보세요. 간편한 구현을 위한 단계별 가이드를 따르세요. |  
+| [C#에서 PDF 서명을 검증하는 방법 – 완전한 단계별 가이드](./how-to-verify-pdf-signatures-in-c-complete-step-by-step-guid/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 서명을 검증하는 방법을 단계별로 안내합니다. |  
+| [Aspose를 사용하여 PDF 서명을 검증하는 방법 – 가이드](./how-to-verify-signature-in-pdf-using-aspose-guide/) | Aspose.PDF for .NET을 사용하여 PDF 서명을 검증하는 방법을 단계별로 안내합니다. |  
+| [Aspose.PDF를 사용하여 PDF 서명을 검증하는 방법 – 완전한 단계별 가이드](./how-to-verify-pdf-signatures-with-aspose-pdf-complete-guide/) | Aspose.PDF for .NET을 사용하여 PDF 서명을 검증하는 방법을 단계별로 안내합니다. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

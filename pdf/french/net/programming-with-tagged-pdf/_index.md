@@ -44,6 +44,7 @@ Les tutoriels « Programmation avec des PDF balisés » d'Aspose.PDF pour .NET
 | [Éléments de structure du bloc de texte](./text-block-structure-elements/) | Apprenez à utiliser Aspose.PDF pour .NET pour ajouter des éléments de structure de bloc de texte, tels que des titres et des paragraphes balisés, à un document PDF existant. |  
 | [Éléments de structure de texte dans un fichier PDF](./text-structure-elements/) Apprenez à manipuler les éléments de structure de texte dans les PDF avec Aspose.PDF pour .NET. Ce guide étape par étape couvre tout ce dont vous avez besoin pour créer des PDF structurés. |  
 | [Valider le fichier PDF](./validate-pdf/) | Apprenez à valider un fichier PDF avec Aspose.PDF pour .NET. Vérifiez sa conformité aux normes et générez un rapport de validation. |  
+| [Créer un PDF balisé en C# – Ajouter un titre et du texte accessible](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Apprenez à créer un PDF balisé en C# avec un titre et du texte accessible à l'aide d'Aspose.PDF pour .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

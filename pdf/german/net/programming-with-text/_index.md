@@ -21,7 +21,7 @@ Die Aspose.PDF-Tutorials „Programmieren mit Text“ für .NET bieten umfassend
 | --- | --- | 
 | [Hinzufügen und Suchen von verstecktem Text in PDF-Dateien](./add-and-search-hidden-text/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET versteckten Text in PDF-Dokumenten hinzufügen und suchen. Schritt-für-Schritt-Anleitung mit Codebeispielen. |  
 | [Fügen Sie HTML-geordnete Listen in Dokumente ein](./add-html-ordered-list-into-documents/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET HTML-geordnete Listen in PDF-Dokumente einfügen. Dieses ausführliche Tutorial enthält Schritt-für-Schritt-Anleitungen. |  
-| [HTML mit DOM hinzufügen](./add-html-using-dom/) Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.PDF für .NET HTML-Inhalte zu PDF-Dokumenten hinzufügen. Optimieren Sie Ihre PDF-Dateien ganz einfach mit dynamischer HTML-Formatierung. |  
+| [HTML mit DOM hinzufügen](./add-html-using-dom/) Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.PDF für .NET HTML-Inhalte zu PDF-Dokumenten hinzufügen. Optimieren Sie Ihre PDF-Dateien ganz einfach mit dynamischer HTML-Formatierung. |
 | [HTML mit DOM und PDF-Überschreiben hinzufügen](./add-html-using-dom-and-overwrite/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET HTML-Inhalte zu PDFs hinzufügen. Diese Schritt-für-Schritt-Anleitung deckt alles von der Einrichtung bis zum endgültigen Speichern ab. |  
 | [Fügen Sie der PDF-Datei einen Einzug für nachfolgende Zeilen hinzu](./add-subsequent-lines-indent/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET Zeileneinzüge in PDF-Dateien einfügen. Folgen Sie dieser detaillierten Schritt-für-Schritt-Anleitung zur professionellen Textformatierung. |  
 | [Textrahmen in PDF-Datei hinzufügen](./add-text-border/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET einen Textrahmen in eine PDF-Datei einfügen. Optimieren Sie Ihre PDF-Dokumente. |  
@@ -70,6 +70,7 @@ Die Aspose.PDF-Tutorials „Programmieren mit Text“ für .NET bieten umfassend
 | [Text und Bild als Absatz in einer PDF-Datei](./text-and-image-as-paragraph/) | Erstellen Sie PDFs mit Text und Bildern mit Aspose.PDF für .NET. Erfahren Sie Schritt für Schritt, wie Sie Text und Inline-Bilder hinzufügen. |  
 | [Textsegmente in der PDF-Datei](./text-segments/) | Erfahren Sie, wie Sie mithilfe regulärer Ausdrücke in Aspose.PDF für .NET nach bestimmten Textsegmenten in PDF-Dateien suchen. |  
 | [Latex-Skript in PDF-Datei verwenden](./use-latex-script/) | Erfahren Sie, wie Sie mithilfe von Aspose.PDF für .NET mithilfe eines Latex-Skripts mathematische Ausdrücke oder Formeln in PDF-Dateien einfügen. |  
+| [Bates-Nummern zu PDF hinzufügen – bates numbering pdf](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET Bates-Nummern zu PDF-Dokumenten hinzufügen. Schritt‑für‑Schritt‑Anleitung mit Codebeispielen. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
