@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-14"
-"description": "Aspose.PDF for Java kullanarak PDF belgelerini HTML formatına nasıl dönüştüreceğinizi öğrenin, buna bir görüntü depolama klasörü belirtme de dahildir. Etkili içerik yönetimi için bu adım adım kılavuzu izleyin."
-"title": "Aspose.PDF Java Kullanarak PDF'yi Resim Klasörleriyle HTML'ye Nasıl Dönüştürebilirsiniz (Adım Adım Kılavuz)"
-"url": "/tr/java/conversion-export/convert-pdf-html-aspose-java-images-folder/"
-"weight": 1
+date: '2026-01-16'
+description: Aspose.PDF kullanarak PDF'den HTML'ye Java dönüşümünün nasıl yapılacağını
+  öğrenin, bir resim klasörü ayarlayın ve Maven bağımlılığıyla PDF'nin nasıl dönüştürüleceğini
+  görün. Geliştiriciler için adım adım rehber.
+keywords:
+- convert PDF to HTML
+- Aspose.PDF Java
+- image storage folder
+title: pdf to html java – PDF'yi Görüntü Klasörleriyle HTML'ye Dönüştür
+url: /tr/java/conversion-export/convert-pdf-html-aspose-java-images-folder/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,37 +17,45 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.PDF Java Kullanarak PDF'yi Resim Klasörleriyle HTML'ye Nasıl Dönüştürebilirsiniz
+# pdf to html java – Aspose.PDF Java Kullanarak PDF'yi HTML'ye Görüntü Klasörleriyle Dönüştürme
 
-## giriiş
-Görüntü depolamayı yönetirken bir PDF belgesini HTML biçimine dönüştürmek, verimli içerik yönetimi hedefleyen web geliştiricileri için çok önemlidir. Bu eğitim, **Java için Aspose.PDF** Dönüştürme sırasında bir görüntü klasörü belirlemek, iş akışınızı kolaylaştırmak ve varlıklarınızı etkili bir şekilde düzenlemek için kütüphaneyi kullanın.
+## Giriş
+Eğer **pdf to html java** dönüşümüne ihtiyaç duyuyor ve her bir görüntüyü düzenli bir şekilde tutmak istiyorsanız, doğru yerdesiniz. Bu öğreticide **Aspose.PDF for Java** kullanarak bir PDF belgesini HTML'ye dönüştürmek ve çıkarılan tüm görüntüler için ayrı bir klasör belirlemek için gereken adımları adım adım göstereceğiz. Bu yaklaşım zaman kazandırır, karışık bir çıktı dizinini önler ve ortaya çıkan web sayfalarının bakımını kolaylaştırır.
 
-### Ne Öğreneceksiniz
-- Projenizde Java için Aspose.PDF'yi nasıl kurarsınız.
-- PDF'den HTML'e dönüştürme sırasında görüntü depolamayı yapılandırma adımları.
-- Dönüştürme sürecinde karşılaşılan yaygın sorunların giderilmesi.
-- Bu özelliğin gerçek dünya senaryolarında pratik uygulamaları.
-Uygulamaya geçmeden önce her şeyin hazır olduğundan emin olalım.
+### Hızlı Yanıtlar
+- **Ana kütüphane nedir?** Aspose.PDF for Java.  
+- **Hedeflemem gereken anahtar kelime nedir?** “pdf to html java”.  
+- **Maven bağımlılığına ihtiyacım var mı?** Evet – *aspose pdf maven dependency* bölümüne bakın.  
+- **Java ile PDF görüntülerini çıkarabilir miyim?** Evet, `setSpecialFolderForAllImages` kullanın.  
+- **Üretim için lisans gerekli mi?** Tam işlevsellik için geçerli bir Aspose lisansı önerilir.
 
-## Ön koşullar
-Başlamadan önce gerekli kütüphanelerin ve ortam ayarlarının olduğundan emin olun:
+### Öğrenecekleriniz
+- Aspose.PDF for Java'ı projenizde nasıl kuracağınızı.  
+- **pdf to html java** dönüşümü sırasında görüntü depolamayı nasıl yapılandıracağınızı.  
+- Yaygın sorunların giderilmesi için ipuçları.  
+- Java ile PDF görüntülerini çıkarmanın değer kattığı gerçek dünya senaryoları.
+
+Koda dalmadan önce her şeyin hazır olduğundan emin olalım.
+
+## Önkoşullar
+Başlamadan önce gerekli kütüphanelere ve ortam kurulumuna sahip olduğunuzdan emin olun:
 
 ### Gerekli Kütüphaneler
-- **Java için Aspose.PDF** sürüm 25.3
+- **Aspose.PDF for Java** (en son sürüm)
 
-### Çevre Kurulum Gereksinimleri
-- Makinenizde yüklü bir Java Geliştirme Kiti (JDK).
+### Ortam Kurulum Gereksinimleri
+- Makinenizde yüklü bir Java Development Kit (JDK).  
 - IntelliJ IDEA veya Eclipse gibi bir IDE.
 
 ### Bilgi Önkoşulları
-- Java programlamanın temel bilgisi.
-- Maven veya Gradle derleme araçlarına aşinalık.
+- Java programlamaya temel bir anlayış.  
+- Maven veya Gradle yapı araçlarına aşinalık.
 
-## Java için Aspose.PDF Kurulumu
-Projenizde Aspose.PDF'yi kullanmak için, onu bir bağımlılık olarak eklemeniz gerekir. Maven ve Gradle kullanarak kurulum adımları aşağıdadır:
+## Aspose.PDF for Java Kurulumu
+Projede Aspose.PDF kullanmak için onu bir bağımlılık olarak eklemeniz gerekir. Aşağıda **Maven** ve **Gradle** kullanarak kurulum adımları verilmiştir.
 
-### Usta
-Aşağıdaki bağımlılığı ekleyin `pom.xml` dosya:
+### aspose pdf maven dependency
+`pom.xml` dosyanıza aşağıdaki bağımlılığı ekleyin:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -51,102 +65,103 @@ Aşağıdaki bağımlılığı ekleyin `pom.xml` dosya:
 ```
 
 ### Gradle
-Bunu da ekleyin `build.gradle` dosya:
+`build.gradle` dosyanıza bunu ekleyin:
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
 #### Lisans Edinimi
-1. **Ücretsiz Deneme**: Özellikleri keşfetmek için Aspose'un ücretsiz deneme sürümünü indirerek başlayın.
-2. **Geçici Lisans**:Uzun süreli testler için geçici lisans alın.
-3. **Satın almak**:Uzun vadede ihtiyaçlarınızı karşılayacağını düşünüyorsanız satın almayı düşünebilirsiniz.
+1. **Ücretsiz Deneme** – Özellikleri keşfetmek için Aspose'tan bir deneme sürümü indirin.  
+2. **Geçici Lisans** – Uzun vadeli testler için geçici bir lisans edinin.  
+3. **Satın Alma** – Üretim kullanımı için bir lisans almayı düşünün.
 
-## Uygulama Kılavuzu
-Bu bölüm, PDF dönüştürme sırasında bir resim klasörü belirtme özelliğini uygulamada size yol gösterecektir.
+## Uygulama Rehberi
+Bu bölüm, **pdf to html java** dönüşümü için gereken tam kodu ve bir görüntü klasörü belirlemeyi adım adım gösterir.
 
-### Dönüştürme için Görüntü Klasörünün Belirlenmesi
-**Genel Bakış:** Buradaki birincil işlev, bir PDF dosyasından çıkarılan tüm görsellerin HTML biçimine dönüştürülmesi sırasında kaydedileceği belirli bir dizini belirlemektir. Bu, özellikle daha büyük belgelerde varlıkların verimli bir şekilde yönetilmesine yardımcı olur.
+### Dönüşüm İçin Görüntü Klasörünün Belirlenmesi
+**Genel Bakış:** PDF'den çıkarılan tüm görüntülerin HTML'ye dönüşüm sırasında kaydedileceği bir dizin belirleyeceğiz. Bu, özellikle çok sayıda görüntü içeren büyük PDF'lerle çalışırken projenizi düzenli tutar.
 
-#### Adım 1: Yolları Tanımlayın
+#### Adım 1: Yolları Tanımlama
 ```java
-// Giriş PDF'niz ve çıktı dizininiz için yolları tanımlayın
+// Define paths for your input PDF and output directory
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 String outputDir = "YOUR_OUTPUT_DIRECTORY";
 ```
-*Açıklama:* Yer değiştirmek `YOUR_DOCUMENT_DIRECTORY` Ve `YOUR_OUTPUT_DIRECTORY` PDF dosyalarınızın bulunduğu gerçek yolları ve dönüştürülmüş HTML dosyalarını kaydetmek istediğiniz yerleri belirtir.
+*Açıklama:* `YOUR_DOCUMENT_DIRECTORY` ve `YOUR_OUTPUT_DIRECTORY` değerlerini makinenizdeki gerçek konumlarla değiştirin.
 
-#### Adım 2: PDF Belgesini Yükleyin
+#### Adım 2: PDF Belgesini Yükleme
 ```java
-// Belgeyi belirtilen dizinden yükleyin
+// Load the document from the specified directory
 Document pdfDocument = new Document(dataDir + "SampleDataTable.pdf");
 ```
-*Açıklama:* Bu adım bir `Document` PDF dosyanızı temsil eden nesne. Dosya bulunamadı istisnalarından kaçınmak için PDF yolunun doğru olduğundan emin olun.
+*Açıklama:* Bu, kaynak PDF için bir `Document` nesnesi oluşturur. Dosya adının mevcut bir PDF ile eşleştiğinden emin olun.
 
-#### Adım 3: HTML Kaydetme Seçeneklerini Yapılandırın
+#### Adım 3: HTML Kaydetme Seçeneklerini Yapılandırma
 ```java
-// Dönüştürme ayarları için HtmlSaveOptions'ı ayarlayın
+// Set up HtmlSaveOptions for conversion settings
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 
-// Görüntülerin saklanacağı klasörü belirtin
+// Specify the folder where images will be stored
 saveOptions.setSpecialFolderForAllImages(outputDir + "imageFolder/");
 ```
-*Açıklama:* Ayarlayarak `setSpecialFolderForAllImages`Aspose.PDF'in çıkarılan tüm görüntüleri belirlenmiş bir klasörde saklamasını sağlayarak projenizin düzenli kalmasına yardımcı olursunuz.
+*Açıklama:* `setSpecialFolderForAllImages`, Aspose.PDF'e çıkarılan her görüntüyü belirttiğiniz `imageFolder` alt dizinine koymasını söyler.
 
-#### Adım 4: HTML Belgesini Kaydedin
+#### Adım 4: HTML Belgesini Kaydetme
 ```java
-// PDF'yi belirtilen görüntü depolama konumuyla bir HTML belgesi olarak dönüştürün ve kaydedin
+// Convert and save the PDF as an HTML document with specified image storage location
 pdfDocument.save(outputDir + "resultant.html", saveOptions);
 ```
-*Açıklama:* Bu adım, belirttiğiniz yapılandırmalara bağlı kalarak çıktıyı HTML formatında kaydederek dönüştürme işlemini tamamlar.
+*Açıklama:* Dönüşüm burada tamamlanır ve tanımladığınız klasörde depolanan görüntülere referans veren bir HTML dosyası üretir.
 
 ### Sorun Giderme İpuçları
-- **Dosya Bulunamadı Hatası**:Doğruluk açısından dizin yollarının iki kez kontrol edin.
-- **Lisans Sorunları**Lisanslı bir sürüm kullanıyorsanız lisans dosyanızın doğru şekilde ayarlandığından emin olun.
+- **Dosya Bulunamadı** – `dataDir` ve dosya adını iki kez kontrol edin.  
+- **Lisans Sorunları** – herhangi bir Aspose API'si çağırmadan önce lisans dosyasının yüklendiğinden emin olun.  
+- **İzin Hataları** – uygulamanın `outputDir` üzerine yazma izni olduğundan emin olun.
 
 ## Pratik Uygulamalar
-Bu özelliğin birkaç pratik uygulaması vardır:
-1. **E-ticaret Platformları**: Ürün kılavuzlarını PDF'den HTML'e dönüştürerek web sayfalarında daha hızlı yükleme sağlamak için görselleri ayrı dizinlerde saklayın.
-2. **İçerik Yönetim Sistemleri (CMS)**: PDF dönüştürme sırasında görüntü varlıklarını ayrı ayrı yöneterek içerik güncellemelerini kolaylaştırın.
-3. **Belge Arşivleme**HTML'e dönüştürülen belgelerin düzenli arşivlerini tutun, görselleri sistematik bir şekilde saklayın.
+Bu özellik birçok gerçek dünya projesinde öne çıkar:
 
-## Performans Hususları
-Büyük PDF dosyalarını dönüştürürken performansı optimize etmek için:
-- Çıkarılan görselleri depolamak için verimli dizin yapıları kullanın.
-- Bellek kullanımını izleyin ve OutOfMemoryErrors hatasını önlemek için gerekirse JVM ayarlarını düzenleyin.
-- Uygun olduğu durumlarda, birden fazla dönüşümü aynı anda işlemek için çoklu iş parçacığını uygulayın.
+1. **E‑ticaret Platformları** – Ürün kılavuzlarını HTML'ye dönüştürürken, daha hızlı sayfa yüklemeleri için görüntüleri ayrı bir klasörde tutun.  
+2. **İçerik Yönetim Sistemleri (CMS)** – Görüntü varlıklarını ayrı yöneterek güncellemeleri ve SEO optimizasyonunu basitleştirin.  
+3. **Belge Arşivleme** – Eski PDF'lerin HTML sürümlerini temiz bir görüntü hiyerarşisiyle saklayarak daha kolay erişim sağlayın.
+
+## Performans Düşünceleri
+Büyük PDF'leri dönüştürürken şu ipuçlarını aklınızda tutun:
+
+- Görüntü depolama için mantıklı bir dizin yapısı kullanın.  
+- JVM belleğini izleyin; `OutOfMemoryError` alırsanız yığın boyutunu artırın.  
+- Toplu işleme için, birden fazla PDF'i aynı anda işlemek amacıyla çoklu iş parçacığı kullanımını düşünün.
 
 ### En İyi Uygulamalar
-- Performans iyileştirmelerinden yararlanmak için Aspose.PDF'yi düzenli olarak en son sürüme güncelleyin.
-- Dönüşüm süreçlerindeki darboğazları belirlemek için uygulamanızın profilini çıkarın.
+- Performans iyileştirmelerinden yararlanmak için Aspose.PDF'ı düzenli olarak güncelleyin.  
+- Dönüşüm hattınızı profil çıkararak darboğazları erken tespit edin.
 
-## Çözüm
-Bu eğitimde, nasıl kullanılacağını ele aldık **Aspose.PDF Java** PDF'den HTML'ye dönüştürme sırasında bir resim klasörü belirtmek için. Bu adımları izleyerek varlıklarınızı daha etkili bir şekilde yönetebilir ve belge yönetimi görevlerini kolaylaştırabilirsiniz.
+## Sonuç
+Bu rehberde Aspose.PDF ile **pdf to html java** dönüşümü için bilmeniz gereken her şeyi, **extract pdf images java**'ı özel bir klasöre nasıl çıkaracağınızı da kapsayacak şekilde ele aldık. Bu adımları izleyerek temiz, web‑hazır HTML dosyaları üretirken görüntü varlıklarınızı düzenli tutacaksınız.
 
 ### Sonraki Adımlar
-- Projelerinizi geliştirmek için Aspose.PDF'nin diğer özelliklerini deneyin.
-- Ek yapılandırma seçeneklerini keşfedin `HtmlSaveOptions` dönüşümleri daha da özelleştirmek için.
-
-Bu çözümü deneyin ve belge işleme sürecinizi nasıl dönüştürdüğünü görün.
+- CSS gömme veya yazı tipi işleme gibi diğer `HtmlSaveOptions` ayarlarıyla deneyler yapın.  
+- Daha geniş belge iş akışları için Aspose.PDF'ın PDF‑to‑DOCX veya PDF‑to‑EPUB özelliklerini keşfedin.
 
 ## SSS Bölümü
-1. **Aspose.PDF'yi sistemime nasıl kurarım?**
-   - Proje yapılandırma dosyalarınıza gerekli bağımlılıkları eklediğinizden emin olarak, açıklandığı gibi Maven veya Gradle kullanın.
-2. **Bu yöntemi kullanarak birden fazla PDF'yi aynı anda dönüştürebilir miyim?**
-   - Evet, bir dizi PDF dosyası üzerinde yineleme yaparak ve dönüştürme sürecini her birine uygulayarak.
-3. **Belirtilen images klasörü mevcut değilse ne olur?**
-   - Aspose.PDF bunu oluşturmaya çalışacaktır, ancak izin sorunlarından kaçınmak için dizinin erişilebilir olduğundan emin olmalısınız.
-4. **Dönüştürme sırasında büyük PDF dosyalarını nasıl işleyebilirim?**
-   - Daha iyi performans için PDF'yi daha küçük bölümlere ayırmayı veya sisteminizin bellek ayarlarını optimize etmeyi düşünün.
-5. **Bu özellik Aspose.PDF Java'nın tüm sürümlerinde mevcut mu?**
-   - Bu özel yapılandırma 25.3 sürümünden itibaren desteklenmektedir; geriye dönük uyumluluk için belgeleri kontrol edin.
+1. **Aspose.PDF'ı sistemime nasıl kurarım?**  
+   - Açıklanan şekilde Maven veya Gradle kullanın ve bağımlılığın proje dosyalarınıza eklendiğinden emin olun.  
+2. **Bu yöntemle birden fazla PDF'ı aynı anda dönüştürebilir miyim?**  
+   - Evet, PDF dosyalarının bir koleksiyonunu döngüye alıp aynı dönüşüm mantığını her birine uygulayabilirsiniz.  
+3. **Belirtilen görüntü klasörü mevcut değilse ne olur?**  
+   - Aspose.PDF oluşturmayı deneyecek, ancak hatalardan kaçınmak için yazma izinlerini doğrulamalısınız.  
+4. **Dönüşüm sırasında büyük PDF dosyalarını nasıl yönetebilirim?**  
+   - PDF'i daha küçük bölümlere ayırmayı veya daha iyi performans için JVM bellek ayarlarını düzenlemeyi düşünün.  
+5. **Bu özellik Aspose.PDF Java'nın tüm sürümlerinde mevcut mu?**  
+   - `setSpecialFolderForAllImages` seçeneği 25.3 ve üzeri sürümlerde desteklenir; daha eski sürümler için sürüm notlarını kontrol edin.
 
 ## Kaynaklar
-- [Aspose.PDF Java Belgeleri](https://reference.aspose.com/pdf/java/)
-- [Java için Aspose.PDF'yi indirin](https://releases.aspose.com/pdf/java/)
-- [Lisans Satın Al](https://purchase.aspose.com/buy)
-- [Ücretsiz Deneme İndir](https://releases.aspose.com/pdf/java/)
-- [Geçici Lisans Başvurusu](https://purchase.aspose.com/temporary-license/)
-- [Aspose Destek Forumu](https://forum.aspose.com/c/pdf/10)
+- [Aspose.PDF Java Documentation](https://reference.aspose.com/pdf/java/)
+- [Download Aspose.PDF for Java](https://releases.aspose.com/pdf/java/)
+- [Purchase License](https://purchase.aspose.com/buy)
+- [Free Trial Download](https://releases.aspose.com/pdf/java/)
+- [Temporary License Application](https://purchase.aspose.com/temporary-license/)
+- [Aspose Support Forum](https://forum.aspose.com/c/pdf/10)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -155,3 +170,9 @@ Bu çözümü deneyin ve belge işleme sürecinizi nasıl dönüştürdüğünü
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+---
+
+**Son Güncelleme:** 2026-01-16  
+**Test Edilen Sürüm:** Aspose.PDF for Java 25.3  
+**Yazar:** Aspose
