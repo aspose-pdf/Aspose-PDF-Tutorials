@@ -1,12 +1,13 @@
 ---
-date: '2025-12-01'
-description: Pelajari cara membuat file PDF yang dapat diakses, menghasilkan tabel
-  PDF, dan menandai PDF untuk pembaca layar menggunakan Aspose.PDF untuk Java.
+date: '2026-02-01'
+description: Pelajari cara menambahkan teks alt pada PDF, menghasilkan tabel PDF dengan
+  Java, dan membuat PDF yang dapat diakses dengan Aspose.PDF, memastikan kepatuhan
+  aksesibilitas PDF.
 keywords:
 - accessible PDFs with Java
 - Aspose.PDF for Java
 - tagged PDF creation
-title: Buat PDF Aksesibel dengan Konten Bertag di Java Menggunakan Aspose.PDF
+title: Tambahkan Teks Alt PDF – Buat PDF Berlabel yang Aksesibel dengan Java
 url: /id/java/advanced-features/create-accessible-pdfs-tagged-content-java-aspose-pdf/
 weight: 1
 ---
@@ -16,34 +17,34 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Membuat PDF yang Aksesibel dengan Konten Bertag di Java Menggunakan Aspose.PDF
+# Tambahkan Teks Alt PDF – Buat PDF Bertag Aksesibel di Java
 
-Membuat dokumen **PDF yang aksesibel** sangat penting untuk memastikan semua pengguna, termasuk mereka yang mengandalkan teknologi bantu, dapat membaca dan berinteraksi dengan konten Anda. Pada tutorial ini Anda akan belajar cara **membuat PDF yang aksesibel** dengan konten bertag, menghasilkan tabel PDF, dan mengatur bahasa dokumen sehingga pembaca layar dapat menafsirkan struktur dengan benar.
+Membuat **accessible PDF** sangat penting untuk memastikan semua pengguna, termasuk mereka yang mengandalkan teknologi bantu, dapat membaca dan berinteraksi dengan konten Anda. Dalam tutorial ini Anda akan belajar cara **add alt text pdf**, menghasilkan tabel PDF, dan menandai PDF sehingga pembaca layar dapat menginterpretasikan struktur dengan benar.
 
 ## Jawaban Cepat
-- **Pustaka apa yang harus saya gunakan?** Aspose.PDF untuk Java.  
-- **Berapa lama waktu implementasinya?** Sekitar 15‑20 menit untuk PDF bertag dasar.  
-- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk pengembangan; lisensi permanen diperlukan untuk produksi.  
+- **Library apa yang harus saya gunakan?** Aspose.PDF for Java.  
+- **Berapa lama waktu yang dibutuhkan untuk mengimplementasikan?** Sekitar 15‑20 menit untuk PDF bertag dasar.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis cukup untuk pengembangan; lisensi permanen diperlukan untuk produksi.  
 - **Bisakah saya menghasilkan tabel?** Ya – API memungkinkan Anda membuat dan menata tabel PDF dengan struktur bertag.  
-- **Bagaimana cara membuat PDF dapat dibaca oleh pembaca layar?** Tag konten, atur bahasa, dan sediakan teks alternatif untuk elemen struktural.
+- **Bagaimana cara membuat PDF dapat dibaca oleh pembaca layar?** Tandai konten, atur bahasa, dan sediakan teks alternatif untuk elemen struktural.
 
 ## Apa itu “create accessible pdf”?
-**PDF yang aksesibel** berisi struktur logis (tag) yang menggambarkan judul, tabel, paragraf, dan elemen lainnya. Struktur ini memungkinkan pembaca layar dan alat bantu lainnya menyajikan dokumen secara bermakna bagi pengguna dengan gangguan penglihatan atau kognitif.
+Sebuah **accessible PDF** berisi struktur logis (tag) yang menggambarkan heading, tabel, paragraf, dan elemen lainnya. Struktur ini memungkinkan pembaca layar dan alat bantu lainnya menyajikan dokumen secara bermakna kepada pengguna dengan gangguan visual atau kognitif.
 
-## Mengapa menandai PDF?
+## Cara menambahkan alt text pdf dan menandai konten?
 Menandai PDF (proses **how to tag pdf**) memberi Anda:
 - **Navigasi yang lebih baik** untuk pembaca layar dan pengguna keyboard.  
-- **Kepatuhan** terhadap standar WCAG 2.1 dan PDF/UA.  
+- **Kepatuhan** dengan WCAG 2.1, PDF/UA, dan kepatuhan aksesibilitas pdf secara keseluruhan.  
 - **Pencarian yang lebih baik** karena teks diindeks secara semantik.  
 
-## Prasyarat
+## Prerequisites
 Sebelum memulai, pastikan Anda memiliki:
 - Java Development Kit (JDK) terpasang.  
 - IDE seperti IntelliJ IDEA atau Eclipse.  
 - Pengetahuan dasar Java dan pemahaman tentang konsep PDF.  
 
-### Pustaka dan Dependensi yang Diperlukan
-Tambahkan Aspose.PDF untuk Java ke proyek Anda menggunakan Maven atau Gradle.
+### Required Libraries and Dependencies
+Tambahkan Aspose.PDF for Java ke proyek Anda menggunakan Maven atau Gradle.
 
 **Maven**  
 ```xml
@@ -59,13 +60,13 @@ Tambahkan Aspose.PDF untuk Java ke proyek Anda menggunakan Maven atau Gradle.
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### Akuisisi Lisensi
-Aspose.PDF untuk Java menawarkan percobaan gratis. Anda dapat memperoleh lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/). Untuk penggunaan produksi, beli lisensi penuh.
+### License Acquisition
+Aspose.PDF for Java menawarkan percobaan gratis. Anda dapat memperoleh lisensi sementara [di sini](https://purchase.aspose.com/temporary-license/). Untuk penggunaan produksi, beli lisensi penuh.
 
-## Menyiapkan Aspose.PDF untuk Java
+## Setting Up Aspose.PDF for Java
 Jika Anda tidak menggunakan Maven/Gradle, unduh JAR dari [situs rilis Aspose](https://releases.aspose.com/pdf/java/) dan tambahkan ke jalur build proyek Anda.
 
-Berikut contoh snippet sederhana yang memverifikasi pengaturan Anda dengan membuat PDF kosong:
+Berikut cuplikan sederhana yang memverifikasi pengaturan Anda dengan membuat PDF kosong:
 
 ```java
 import com.aspose.pdf.Document;
@@ -83,13 +84,13 @@ public class PdfCreator {
 }
 ```
 
-## Panduan Implementasi
+## Implementation Guide
 
 ### Membuat PDF Baru dengan Konten Bertag
-**Gambaran Umum** – Konten bertag menyediakan hierarki logis yang meningkatkan aksesibilitas. Langkah‑langkah di bawah ini memandu Anda membuat PDF, mengaktifkan tagging, dan mengisi tabel yang ditata.
+**Gambaran Umum** – Konten bertag menyediakan hierarki logis yang meningkatkan aksesibilitas. Langkah-langkah di bawah ini memandu Anda membuat PDF, mengaktifkan tagging, dan mengisi tabel yang bergaya.
 
-#### Langkah 1: Inisialisasi Dokumen dan Aktifkan Tagging
-Pertama, buat instance `Document` dan dapatkan antarmuka `ITaggedContent`. Kami juga **mengatur bahasa PDF** (langkah **set pdf language**) sehingga pembaca layar mengetahui locale dokumen.
+#### Step 1: Initialize the Document and Enable Tagging
+Pertama, buat instance `Document` dan dapatkan antarmuka `ITaggedContent`. Kami juga **mengatur bahasa PDF** sehingga pembaca layar mengetahui locale dokumen.
 
 ```java
 import com.aspose.pdf.*;
@@ -113,8 +114,8 @@ public class TaggedPdfCreator {
 }
 ```
 
-#### Langkah 2: Tambahkan Elemen Struktur (How to generate PDF table)
-Selanjutnya, definisikan elemen root dan buat struktur tabel dengan header, body, dan footer. Ini mendemonstrasikan fungsi **generate pdf table** sambil menjaga semua konten tetap bertag.
+#### Step 2: Add Structure Elements (How to generate PDF table)
+Selanjutnya, definisikan elemen root dan buat struktur tabel dengan header, body, dan footer. Ini mendemonstrasikan fungsi **generate pdf table java** sambil menjaga konten tetap sepenuhnya bertag.
 
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.bls.*;
@@ -132,8 +133,8 @@ TableTBodyElement tableTBodyElement = tableElement.createTBody();
 TableTFootElement tableTFootElement = tableElement.createTFoot();
 ```
 
-#### Langkah 3: Isi Elemen Tabel (Styling rows for screen reader PDF)
-Sekarang kami menambahkan baris, menata mereka, dan menyediakan teks alternatif. Teks alternatif memastikan tabel dapat dipahami oleh pengguna **screen reader PDF**.
+#### Step 3: Populate Table Elements (Styling rows for screen reader PDF)
+Sekarang kami menambahkan baris, menata mereka, dan menyediakan teks alternatif. Teks alternatif memastikan tabel dapat dipahami oleh pengguna **screen reader PDF** dan memenuhi persyaratan **add alt text pdf**.
 
 ```java
 int rowCount = 7;
@@ -180,7 +181,7 @@ for (int colIndex = 0; colIndex < colCount; colIndex++) {
 }
 ```
 
-### Menyimpan Dokumen PDF
+### Saving the PDF Document
 Akhirnya, simpan dokumen. File yang disimpan mempertahankan semua tag, pengaturan bahasa, dan struktur tabel, menjadikannya siap **create accessible pdf** untuk distribusi.
 
 ```java
@@ -189,56 +190,52 @@ document.save(outputDir + "/StyleTableRow.pdf");
 System.out.println("Document saved successfully.");
 ```
 
-## Aplikasi Praktis
-Membuat PDF yang aksesibel penting dalam banyak skenario dunia nyata:
+## Practical Applications
+Membuat PDF aksesibel sangat penting dalam banyak skenario dunia nyata:
 
-1. **Materi Pendidikan** – Sediakan buku teks dan handout inklusif untuk semua siswa.  
-2. **Publikasi Pemerintah** – Penuhi mandat legal tentang aksesibilitas untuk dokumen publik.  
-3. **Laporan Korporat** – Pastikan pemegang saham dan karyawan dapat mengakses laporan keuangan dengan pembaca layar.  
+1. **Materi Pendidikan** – Menyediakan buku teks dan handout inklusif untuk semua siswa.  
+2. **Publikasi Pemerintah** – Memenuhi mandat aksesibilitas hukum untuk dokumen publik.  
+3. **Laporan Korporat** – Memastikan pemegang saham dan karyawan dapat mengakses laporan keuangan dengan pembaca layar.  
 
-## Pertimbangan Kinerja
-Saat bekerja dengan PDF berukuran besar:
+## Performance Considerations
+Saat bekerja dengan PDF besar:
+- Pantau penggunaan memori; lepaskan sumber daya dengan cepat.  
+- Kurangi jumlah elemen dinamis yang Anda tambahkan.  
+- Ikuti praktik terbaik Java untuk pengumpulan sampah dan penggunaan kembali objek.  
 
-- Pantau penggunaan memori; lepaskan sumber daya sesegera mungkin.  
-- Minimalkan jumlah elemen dinamis yang Anda tambahkan.  
-- Ikuti praktik terbaik Java untuk pengelolaan garbage collection dan reuse objek.  
-
-## Masalah Umum dan Solusinya
+## Common Issues and Solutions
 | Masalah | Solusi |
-|---------|--------|
+|-------|----------|
 | Tag tidak muncul di pembaca PDF | Pastikan `taggedContent` diperoleh dan `setTitle`/`setLanguage` dipanggil sebelum menambahkan elemen. |
-| Sel tabel tidak memiliki teks alternatif | Gunakan `setAlternativeText` pada setiap `TableTRElement` serta pada baris header/footer. |
-| File besar menyebabkan OutOfMemoryError | Proses dokumen secara bertahap atau tingkatkan ukuran heap JVM (`-Xmx`). |
+| Sel tabel tidak memiliki teks alternatif | Gunakan `setAlternativeText` pada setiap `TableTRElement` dan pada baris header/footer. |
+| File besar menyebabkan OutOfMemoryError | Proses dokumen dalam bagian-bagian atau tingkatkan ukuran heap JVM (`-Xmx`). |
 
-## Pertanyaan yang Sering Diajukan
+## Frequently Asked Questions
 
-**T: Bagaimana cara memverifikasi bahwa PDF saya benar‑benar aksesibel?**  
-J: Gunakan alat seperti Accessibility Checker di Adobe Acrobat atau buka file dengan pembaca layar (NVDA, JAWS) untuk memastikan navigasi yang tepat.
+**Q: Bagaimana saya dapat memverifikasi bahwa PDF saya benar‑benar aksesibel?**  
+A: Gunakan alat seperti Accessibility Checker Adobe Acrobat atau buka file dengan pembaca layar (NVDA, JAWS) untuk memastikan navigasi yang tepat.
 
-**T: Apakah Aspose.PDF mendukung bahasa lain selain Inggris?**  
-J: Ya. Atur kode bahasa melalui `taggedContent.setLanguage("fr-FR")` untuk bahasa Prancis, `es-ES` untuk bahasa Spanyol, dll.
+**Q: Apakah Aspose.PDF mendukung bahasa lain selain Bahasa Inggris?**  
+A: Ya. Atur kode bahasa melalui `taggedContent.setLanguage("fr-FR")` untuk bahasa Prancis, `es-ES` untuk bahasa Spanyol, dll.
 
-**T: Bisakah saya menambahkan gambar dengan teks alt ke PDF yang bertag?**  
-J: Tentu. Gunakan kelas `Image` dan atur properti `AlternativeText` untuk mendeskripsikan konten visual.
+**Q: Bisakah saya menambahkan gambar dengan teks alt ke PDF bertag?**  
+A: Tentu saja. Gunakan kelas `Image` dan atur properti `AlternativeText`‑nya untuk mendeskripsikan konten visual.
 
-**T: Apakah ada batas jumlah baris yang dapat saya hasilkan dalam tabel PDF?**  
-J: Tidak ada batas keras, tetapi tabel sangat besar dapat meningkatkan konsumsi memori; pertimbangkan pagination atau memecah dokumen.
+**Q: Apakah ada batasan jumlah baris yang dapat saya hasilkan dalam tabel PDF?**  
+A: Tidak ada batas keras, tetapi tabel yang sangat besar dapat meningkatkan konsumsi memori; pertimbangkan paginasi atau membagi dokumen.
 
-**T: Apakah PDF yang dihasilkan akan bekerja pada semua pembaca layar?**  
-J: Ketika tag, bahasa, dan teks alternatif telah diatur dengan benar, PDF mematuhi PDF/UA dan seharusnya dapat dibaca oleh kebanyakan pembaca layar utama.
+: Ketika PDF mematuhi PDF/UA dan seharusnya dapat dibaca oleh sebagian besar pembaca layar utama.
 
-## Kesimpulan
-Anda kini memiliki panduan lengkap langkah‑demi‑langkah untuk **create accessible pdf** dengan konten bertag, menghasilkan tabel yang ditata, dan memastikan kompatibilitas dengan pembaca layar. Dengan memanfaatkan Aspose.PDF untuk Java, Anda dapat menyematkan aksesibilitas langsung ke dalam alur pembuatan PDF, menyajikan konten inklusif kepada setiap audiens.
+## Conclusion
+Anda sekarang dengan konten bertag, menghasilkan tabel bergaya, dan memastikan kompatibilitas dengan pembaca layar. Dengan memanfaatkan Aspose.PDF menyajikan konten inklusif kepada setiap audiens.
 
-### Langkah Selanjutnya
-- Jelajahi fitur tagging tambahan seperti judul, daftar, dan tautan.  
-- Integrasikan alur kerja ini ke dalam layanan Java Anda yang sudah ada atau pekerjaan batch.  
+### Next Steps
+- Jelajahi fitur tagging tambahan seperti heading, list, dan link.  
+- Integrasikan alur kerja ini ke dalam layanan Java Anda yang ada atau pekerjaan pemrosesan batch.  
 - Bagikan pengalaman Anda dan ajukan pertanyaan di [forum Aspose PDF](https://forum.aspose.com/c/pdf/10).
 
----
-
-**Terakhir Diperbarui:** 2025-12-01  
-**Diuji Dengan:** Aspose.PDF untuk Java 25.3  
+**Terakhir Diperbarui:** 2026-02-01  
+**Diuji Dengan:** Aspose.PDF for Java 25.3  
 **Penulis:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
