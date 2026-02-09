@@ -50,6 +50,12 @@
 ### [Освоение Aspose.PDF .NET: как проверить цифровые подписи в PDF-файлах](./aspose-pdf-net-verify-digital-signature/)
 Узнайте, как проверить цифровые подписи в файлах PDF с помощью Aspose.PDF для .NET. Обеспечьте целостность и подлинность документа с помощью нашего пошагового руководства.
 
+### [Проверка подписи PDF и добавление прямоугольника в PDF с помощью Aspose](./verify-pdf-signature-and-add-rectangle-pdf-with-aspose/)
+Узнайте, как проверить цифровую подпись PDF и добавить прямоугольник в документ с помощью Aspose.PDF для .NET.
+
+### [Экспорт PDF в HTML и проверка подписи PDF с помощью Aspose](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
+Узнайте, как экспортировать PDF в HTML и проверять цифровую подпись PDF с помощью Aspose.PDF для .NET.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.PDF для сети](https://docs.aspose.com/pdf/net/)

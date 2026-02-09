@@ -23,6 +23,7 @@ Bạn sẽ học cách chỉ định cài đặt chuyển đổi, trích xuất 
 | --- | --- | 
 | [Thêm tệp đính kèm vào PDFA](./add-attachment-to-pdfa/) | Tìm hiểu cách thêm tệp đính kèm vào tài liệu PDF/A bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. |  
 | [CGM sang tập tin PDF](./cgm-to-pdf/) | Tìm hiểu cách chuyển đổi tệp CGM sang PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Hoàn hảo cho cả nhà phát triển và nhà thiết kế. |  
+| [Cách chuyển đổi PDF với Aspose.Pdf – Hướng dẫn C# đầy đủ](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | Hướng dẫn chi tiết cách chuyển đổi PDF bằng Aspose.Pdf trong C#, bao gồm các bước thực hiện và ví dụ mã đầy đủ. |  
 | [EPUB sang PDF](./epub-to-pdf/) Tìm hiểu cách chuyển đổi EPUB sang PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Dễ dàng, hiệu quả và hoàn hảo cho mọi người dùng. |  
 | [Nhận kích thước SVG](./get-svg-dimensions/) | Tìm hiểu cách sử dụng Aspose.PDF cho .NET để chuyển đổi tệp SVG sang PDF với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển muốn thao tác với PDF. |  
 | [HTML sang PDF](./html-to-pdf/) | Tìm hiểu cách chuyển đổi HTML sang PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước toàn diện này. |  

@@ -227,6 +227,9 @@ Výukový program pro kódování Aspose.PDF Net
 ### [Konverze PDF do TIFF v .NET pomocí Aspose.PDF: Podrobný návod](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Naučte se, jak převádět dokumenty PDF do obrázků TIFF pomocí Aspose.PDF pro .NET. Osvojte si vlastní barevné hloubky a pokročilé techniky zpracování obrazu.
 
+### [Uložení PDF jako PNG a konverze na PDF/X‑1a pomocí Aspose PDF](./save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf/)
+Naučte se uložit PDF jako PNG a následně převést do formátu PDF/X‑1a pomocí Aspose.PDF v .NET.
+
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)

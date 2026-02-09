@@ -50,6 +50,12 @@ Un tutorial sul codice per Aspose.PDF Net
 ### [Padroneggiare Aspose.PDF .NET: come verificare le firme digitali nei file PDF](./aspose-pdf-net-verify-digital-signature/)
 Scopri come verificare le firme digitali nei file PDF utilizzando Aspose.PDF per .NET. Garantisci l'integrità e l'autenticità dei documenti con la nostra guida passo passo.
 
+### [Verifica la firma PDF e aggiungi un rettangolo al PDF con Aspose](./verify-pdf-signature-and-add-rectangle-pdf-with-aspose/)
+Scopri come verificare la firma digitale di un PDF e disegnare un rettangolo sul documento usando Aspose.PDF per .NET.
+
+### [Esporta PDF in HTML e valida la firma PDF con Aspose](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
+Scopri come convertire un PDF in HTML e verificare la firma digitale usando Aspose.PDF per .NET.
+
 ## Risorse aggiuntive
 
 - [Aspose.PDF per la documentazione di rete](https://docs.aspose.com/pdf/net/)

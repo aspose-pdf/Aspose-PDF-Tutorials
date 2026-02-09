@@ -44,11 +44,17 @@ Pelajari cara menghapus tanda tangan digital dari PDF secara efisien menggunakan
 ### [Cara Memverifikasi Tanda Tangan PDF Menggunakan Aspose.PDF untuk .NET: Panduan Lengkap](./verify-pdf-signatures-aspose-pdf-net/)
 Pelajari cara memverifikasi tanda tangan digital dalam file PDF menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup penyiapan, penerapan, dan aplikasi praktis.
 
+### [Verifikasi Tanda Tangan PDF dan Tambahkan Persegi Panjang pada PDF dengan Aspose](./verify-pdf-signature-and-add-rectangle-pdf-with-aspose/)
+Pelajari cara memverifikasi tanda tangan PDF dan menambahkan bentuk persegi panjang ke dokumen menggunakan Aspose.PDF untuk .NET.
+
 ### [Kuasai Penandatanganan & Verifikasi PDF dengan Aspose.PDF .NET](./mastering-aspose-pdf-net-sign-verify-smart-card-certificates/)
 Tutorial kode untuk Aspose.PDF Net
 
 ### [Menguasai Aspose.PDF .NET: Cara Memverifikasi Tanda Tangan Digital dalam File PDF](./aspose-pdf-net-verify-digital-signature/)
 Pelajari cara memverifikasi tanda tangan digital dalam file PDF menggunakan Aspose.PDF untuk .NET. Pastikan integritas dan keaslian dokumen dengan panduan langkah demi langkah kami.
+
+### [Ekspor PDF ke HTML & Validasi Tanda Tangan PDF dengan Aspose](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
+Pelajari cara mengekspor PDF ke HTML dan memvalidasi tanda tangan PDF menggunakan Aspose.PDF untuk .NET.
 
 ## Sumber Daya Tambahan
 

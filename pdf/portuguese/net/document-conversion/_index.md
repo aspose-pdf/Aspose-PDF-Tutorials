@@ -23,6 +23,7 @@ Você aprenderá a especificar configurações de conversão, extrair texto e im
 | --- | --- | 
 | [Adicionar anexo ao PDFA](./add-attachment-to-pdfa/) | Aprenda como adicionar anexos a um documento PDF/A usando o Aspose.PDF para .NET com este guia passo a passo. |  
 | [Arquivos CGM para PDF](./cgm-to-pdf/) | Aprenda a converter arquivos CGM para PDF usando o Aspose.PDF para .NET com este guia passo a passo. Perfeito para desenvolvedores e designers. |  
+| [Como converter PDF com Aspose.Pdf – Guia completo em C#](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | Aprenda a converter PDFs usando Aspose.PDF em C# com este guia completo passo a passo. |  
 | [EPUB para PDF](./epub-to-pdf/) Aprenda a converter EPUB para PDF usando o Aspose.PDF para .NET com este guia passo a passo. Fácil, eficiente e perfeito para todos os usuários. |  
 | [Obter dimensões SVG](./get-svg-dimensions/) | Aprenda a usar o Aspose.PDF para .NET para converter arquivos SVG em PDF com este guia passo a passo. Perfeito para desenvolvedores que desejam manipular PDFs. |  
 | [HTML para PDF](./html-to-pdf/) | Aprenda como converter HTML para PDF usando o Aspose.PDF para .NET com este guia passo a passo abrangente. |  
@@ -49,7 +50,7 @@ Você aprenderá a especificar configurações de conversão, extrair texto e im
 | [Substituir fontes ausentes](./replace-missing-fonts/) | Aprenda como substituir fontes ausentes em documentos PDF usando o Aspose.PDF para .NET com este guia passo a passo. |  
 | [Definir nome da fonte padrão](./set-default-font-name/) | Aprenda a definir um nome de fonte padrão ao renderizar PDFs em imagens usando o Aspose.PDF para .NET. Este guia aborda pré-requisitos, instruções passo a passo e perguntas frequentes. |  
 | [SVG para PDF](./svg-to-pdf/) | Aprenda a converter SVG para PDF usando o Aspose.PDF para .NET neste tutorial passo a passo. Perfeito para desenvolvedores e designers. |  
-| [TeX para PDF](./tex-to-pdf/) | Aprenda a converter TeX para PDF usando o Aspose.PDF para .NET com este guia passo a passo detalhado. Perfeito para desenvolvedores e profissionais de documentos. |  
+| [TeX para PDF](./tex-to-pdf/) | Aprenda a converter TeX para PDF usando o Aspose.PDF para .NET com um guia passo a passo detalhado. Perfeito para desenvolvedores e profissionais de documentos. |  
 | [Texto para PDF](./text-to-pdf/) Aprenda a converter arquivos de texto para PDF usando o Aspose.PDF para .NET neste guia passo a passo. Perfeito para desenvolvedores que buscam aprimorar seus aplicativos. |  
 | [Melhoria de desempenho de TIFF para PDF](./tiff-to-pdf-performance-improvement/) | Converta imagens TIFF para PDF com eficiência usando o Aspose.PDF para .NET. Aprenda passo a passo dicas de otimização de desempenho para lidar com arquivos de imagem grandes sem problemas. |  
 | [Página da Web para PDF](./web-page-to-pdf/) | Aprenda como converter páginas da web em PDF usando o Aspose.PDF para .NET neste tutorial detalhado e passo a passo. |  

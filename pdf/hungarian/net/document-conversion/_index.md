@@ -40,7 +40,7 @@ Megtanulod, hogyan adhatsz meg konvertálási beállításokat, hogyan kinyerhet
 | [PDF-ből PPT-be](./pdf-to-ppt/) | Tanuld meg, hogyan konvertálhatsz PDF-et PPT-vé az Aspose.PDF for .NET segítségével ezzel a lépésről lépésre szóló útmutatóval. Egyszerű, hatékony és tökéletes prezentációkhoz. |  
 | [PDF-ből SVG-be](./pdf-to-svg/) | Tanulja meg, hogyan konvertálhat PDF fájlokat SVG formátumba az Aspose.PDF for .NET segítségével ebben a lépésről lépésre szóló útmutatóban. Tökéletes fejlesztők és tervezők számára. |  
 | [PDF-ből TeX-be](./pdf-to-tex/) | Tanulja meg, hogyan konvertálhat PDF-fájlokat TeX-fájlokká az Aspose.PDF for .NET segítségével ezzel a lépésről lépésre szóló útmutatóval. Tökéletes azoknak a fejlesztőknek, akik szeretnék fejleszteni dokumentumfeldolgozási készségeiket. |  
-| [PDF-ből XLS-be](./pdf-to-xls/) Könnyedén konvertálhat PDF fájlokat XLS formátumba az Aspose.PDF for .NET segítségével. Kövesse lépésről lépésre szóló útmutatónkat a zökkenőmentes adatkinyeréshez. |  
+| [PDF-ből XLS-be](./pdf-to-xls/) Könnyedén konvertálhat PDF fájlokat XLS formátumba az Aspose.PDF for .NET segítségével. Kövesse lépésről lépésre útmutatónkat a zökkenőmentes adatkinyeréshez. |  
 | [PDF-ből XML-be](./pdf-to-xml/) | Tanulja meg, hogyan konvertálhat PDF-fájlokat XML-fájlokká az Aspose.PDF for .NET segítségével ebben az átfogó oktatóanyagban. Lépésről lépésre útmutató kódpéldákkal. |  
 | [PDF-ből XPS-be](./pdf-to-xps/) | Tanulja meg, hogyan konvertálhat PDF-fájlokat XPS-fájlokká az Aspose.PDF for .NET segítségével ezzel a lépésről lépésre szóló útmutatóval. Tökéletes fejlesztők és dokumentumfeldolgozás szerelmesei számára. |  
 | [Utóirat PDF-be](./postscript-to-pdf/) | Tanuld meg, hogyan konvertálhatsz Postscript fájlokat PDF-be az Aspose.PDF for .NET segítségével ebben a lépésről lépésre szóló útmutatóban. Tökéletes minden szintű fejlesztő számára. |  
@@ -56,6 +56,7 @@ Megtanulod, hogyan adhatsz meg konvertálási beállításokat, hogyan kinyerhet
 | [XML-ből PDF-be](./xml-to-pdf/) | Tanuld meg, hogyan konvertálhatsz XML-t PDF-be az Aspose.PDF for .NET segítségével ebben az átfogó, lépésről lépésre szóló útmutatóban, kódpéldákkal és részletes magyarázatokkal kiegészítve. |  
 | [XML PDF-beállításaKépútvonal beállítása](./xml-to-pdfset-image-path/) | Ismerje meg, hogyan konvertálhat könnyedén XML-t PDF-be az Aspose.PDF for .NET segítségével. Ez a részletes útmutató lépésről lépésre végigvezeti Önt a folyamaton, a beállítástól a befejezésig. |  
 | [XPS-ből PDF-be](./xps-to-pdf/) Tanulja meg, hogyan konvertálhat XPS fájlokat PDF-be az Aspose.PDF for .NET segítségével ezzel a lépésről lépésre szóló útmutatóval. Tökéletes fejlesztők és dokumentumrajongók számára. |  
+| [PDF konvertálása Aspose.Pdf segítségével – Teljes C# útmutató](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | Tanulja meg, hogyan konvertáljon PDF fájlokat C#-ban az Aspose.Pdf használatával ebben a részletes útmutatóban. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

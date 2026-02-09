@@ -141,7 +141,7 @@ Pelajari cara memotong bagian tertentu dari halaman PDF dan mengubahnya menjadi 
 Pelajari cara mengekspor data dari aplikasi ke PDF secara efisien menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup pengaturan, contoh kode dalam C#, dan fitur-fitur utama.
 
 ### [Ekspor Anotasi PDF dengan Aspose.PDF .NET: Panduan Lengkap](./export-annotations-aspose-pdf-net/)
-Pelajari cara mengekspor anotasi dari PDF secara efisien menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup penyiapan, penerapan, dan praktik terbaik.
+Pelajari cara mengekspor anotasi dari PDF secara efisien menggunakan Aspose.PDF .NET. Panduan ini mencakup penyiapan, penerapan, dan praktik terbaik.
 
 ### [Ekspor Data PDF ke XML dengan Aspose.PDF untuk .NET: Panduan Langkah demi Langkah](./export-pdf-data-to-xml-aspose-dotnet-guide/)
 Pelajari cara mengekspor data formulir PDF secara efisien ke XML terstruktur menggunakan Aspose.PDF untuk .NET, pustaka canggih yang dirancang untuk manipulasi PDF.
@@ -186,7 +186,7 @@ Pelajari cara mengonversi dokumen PDF menjadi gambar TIFF biner menggunakan Aspo
 Pelajari cara mengonversi file PDF ke format EPUB menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah ini untuk meningkatkan penerbitan digital dan aksesibilitas konten.
 
 ### [Cara Mengonversi PDF ke TIFF Multi-Halaman Menggunakan Aspose.PDF .NET - Panduan Langkah demi Langkah](./convert-pdf-to-multi-page-tiff-aspose-dotnet/)
-Pelajari cara mengonversi PDF menjadi gambar TIFF multi-halaman berkualitas tinggi menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah ini untuk implementasi mudah dalam C#.
+Pelajari cara mengonversi PDF menjadi gambar TIFF multi-halaman berkualitas tinggi menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah kami untuk implementasi mudah dalam C#.
 
 ### [Cara Mengonversi PDF ke PostScript di C# Menggunakan Aspose.PDF: Panduan Lengkap](./convert-pdf-to-postscript-aspose-csharp/)
 Pelajari cara mengonversi file PDF ke format PostScript menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Sempurna untuk kebutuhan pencetakan berkualitas tinggi.
@@ -219,13 +219,15 @@ Pelajari cara mengoptimalkan konversi PDF ke HTML menggunakan Aspose.PDF untuk .
 Pelajari cara mengonversi dokumen PDF ke HTML dengan gambar PNG eksternal menggunakan Aspose.PDF untuk .NET. Panduan ini memastikan pelestarian tata letak dan pengoptimalan kinerja web.
 
 ### [Konversi PDF ke HTML dengan Aspose.PDF .NET: Panduan Lengkap](./aspose-pdf-net-pdf-to-html-conversion/)
-Kuasai konversi PDF ke HTML menggunakan Aspose.PDF untuk .NET. Tingkatkan aksesibilitas dan keterlibatan dokumen dengan opsi yang dapat disesuaikan.
+Kuasai konversi PDF ke HTML menggunakan Aspose.PDF .NET. Tingkatkan aksesibilitas dan keterlibatan dokumen dengan opsi yang dapat disesuaikan.
 
 ### [Konversi PDF ke HTML dengan Aspose.PDF untuk .NET](./pdf-to-html-conversion-aspose-dot-net/)
 Tutorial kode untuk Aspose.PDF Net
 
 ### [Konversi PDF ke TIFF dalam .NET Menggunakan Aspose.PDF: Panduan Langkah demi Langkah](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Pelajari cara mengonversi dokumen PDF ke gambar TIFF menggunakan Aspose.PDF untuk .NET. Kuasai kedalaman warna khusus dan teknik pemrosesan gambar tingkat lanjut.
+
+### [Simpan PDF sebagai PNG dan Konversi ke PDF/X‑1a dengan Aspose PDF](./save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf/)
 
 ## Sumber Daya Tambahan
 

@@ -83,6 +83,9 @@
 ### [แปลง PDF เป็น PNG ด้วย Aspose.PDF .NET: ปรับปรุงการแสดงข้อความให้คมชัดยิ่งขึ้น](./convert-pdf-png-aspose-net-font-hinting/)
 เรียนรู้วิธีการแปลงเอกสาร PDF เป็นภาพ PNG คุณภาพสูงโดยใช้ Aspose.PDF .NET รับประกันการแสดงผลข้อความคมชัดผ่านการบอกใบ้แบบอักษร
 
+### [บันทึก PDF เป็น PNG และแปลงเป็น PDF/X‑1a ด้วย Aspose PDF](./save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf/)
+เรียนรู้วิธีบันทึกไฟล์ PDF เป็นภาพ PNG แล้วแปลงเป็น PDF/X‑1a ด้วย Aspose PDF ใน .NET
+
 ### [แปลง PDF เป็น PPTX ด้วย Aspose.PDF สำหรับ .NET: คำแนะนำทีละขั้นตอน](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 เรียนรู้วิธีการแปลงเอกสาร PDF เป็นงานนำเสนอ PowerPoint อย่างมีประสิทธิภาพโดยใช้ Aspose.PDF สำหรับ .NET คำแนะนำทีละขั้นตอนนี้ครอบคลุมถึงการแปลงพื้นฐาน คุณสมบัติขั้นสูง เช่น สไลด์รูปภาพ และการติดตามความคืบหน้า
 
