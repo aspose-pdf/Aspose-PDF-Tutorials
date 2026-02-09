@@ -18,6 +18,7 @@ Nos tutoriels sur la signature numérique proposent des conseils complets pour i
 ## Tutoriels disponibles
 
 
+
 ### [Signatures numériques dans les fichiers PDF avec Aspose.PDF pour .NET : guide complet](./digital-signature-aspose-pdf-net-tutorial/)
 Découvrez comment implémenter des signatures numériques dans les PDF avec Aspose.PDF pour .NET. Ce guide couvre la configuration, les processus de signature et la gestion de l'apparence des signatures.
 ### [Signer numériquement un PDF avec une apparence personnalisée à l'aide d'Aspose.PDF pour .NET : un guide étape par étape](./digitally-sign-pdf-custom-appearance-aspose-pdf-net/)
@@ -48,6 +49,10 @@ Apprenez à charger un PDF, le convertir au format PDF/X‑4 et à répertorier 
 Découvrez comment valider une signature PDF et convertir le document en HTML avec Aspose.PDF pour .NET.
 ### [Charger un document PDF signé et lister ses signatures – Guide C#](./load-signed-pdf-document-and-list-its-signatures-c-guide/)
 Apprenez à charger un PDF signé et à répertorier toutes ses signatures à l'aide d'Aspose.PDF pour .NET en C#.
+### [Vérifier la signature PDF et ajouter un rectangle PDF avec Aspose](./verify-pdf-signature-and-add-rectangle-pdf-with-aspose/)
+Apprenez à vérifier une signature PDF et à dessiner un rectangle autour de la zone signée à l'aide d'Aspose.PDF pour .NET.
+### [Exporter un PDF en HTML et valider la signature PDF avec Aspose](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
+Apprenez à convertir un PDF en HTML puis à vérifier sa signature numérique à l'aide d'Aspose.PDF pour .NET.
 ## Ressources supplémentaires
 
 - [Aspose.PDF pour la documentation réseau](https://docs.aspose.com/pdf/net/)

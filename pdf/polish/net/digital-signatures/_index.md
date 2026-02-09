@@ -18,6 +18,7 @@ Nasze samouczki dotyczące podpisów cyfrowych zapewniają kompleksowe wskazówk
 ## Dostępne samouczki
 
 
+
 ### [Podpisy cyfrowe w plikach PDF z Aspose.PDF dla .NET: kompleksowy przewodnik](./digital-signature-aspose-pdf-net-tutorial/)
 Dowiedz się, jak implementować podpisy cyfrowe w plikach PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje konfigurację, procesy podpisywania i zarządzanie wyglądem podpisów.
 ### [Cyfrowe podpisywanie plików PDF z niestandardowym wyglądem przy użyciu Aspose.PDF dla .NET: przewodnik krok po kroku](./digitally-sign-pdf-custom-appearance-aspose-pdf-net/)
@@ -52,6 +53,10 @@ Dowiedz się, jak wczytać dokument PDF w C#, przekonwertować go do formatu PDF
 Dowiedz się, jak zweryfikować podpis PDF i jednocześnie przekonwertować dokument do formatu HTML przy użyciu Aspose.PDF.
 ### [Załaduj podpisany dokument PDF i wyświetl jego podpisy – przewodnik C#](./load-signed-pdf-document-and-list-its-signatures-c-guide/)
 Dowiedz się, jak wczytać podpisany plik PDF i wylistować wszystkie jego podpisy przy użyciu Aspose.PDF w C#.
+### [Weryfikacja podpisu PDF i dodawanie prostokąta do PDF przy użyciu Aspose](./verify-pdf-signature-and-add-rectangle-pdf-with-aspose/)
+Dowiedz się, jak zweryfikować podpis PDF i dodać prostokąt do dokumentu przy użyciu Aspose.PDF dla .NET.
+### [Eksport PDF do HTML i weryfikacja podpisu PDF przy użyciu Aspose](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
+Dowiedz się, jak wyeksportować plik PDF do HTML i zweryfikować jego podpis cyfrowy przy użyciu Aspose.
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

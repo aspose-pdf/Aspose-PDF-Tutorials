@@ -20,6 +20,7 @@
 
 ## 教程
 
+
 标题 | 描述 |
 | --- | --- | 
 | [将附件添加到 PDFA](./add-attachment-to-pdfa/) | 通过本分步指南了解如何使用 Aspose.PDF for .NET 将附件添加到 PDF/A 文档。|  
@@ -62,6 +63,8 @@
 
 | [Aspose PDF 转 HTML 转换（C#）完整指南](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | 通过本完整分步指南，了解如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 转换为 HTML，实现高质量网页输出。|  
 | [加载 PDF 文档 C# – 转换为 PDF/X-4 步骤指南](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | 通过本分步指南学习使用 Aspose.PDF for .NET 在 C# 中加载 PDF 并将其转换为 PDF/X-4。|  
+
+| [使用 Aspose.Pdf 将 PDF 转换 – 完整 C# 指南](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | 通过本完整的 C# 指南学习使用 Aspose.Pdf 将 PDF 文件转换为其他格式的步骤和技巧。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -20,6 +20,7 @@ Du lär dig hur du anger konverteringsinställningar, extraherar text och bilder
 
 ## Handledningar
 
+
 | Titel | Beskrivning |
 | --- | --- | 
 | [Lägg till bilaga till PDF-fil](./add-attachment-to-pdfa/) | Lär dig hur du lägger till bilagor till ett PDF/A-dokument med Aspose.PDF för .NET med den här steg-för-steg-guiden. |  
@@ -62,6 +63,8 @@ Du lär dig hur du anger konverteringsinställningar, extraherar text och bilder
 
 | [Aspose PDF till HTML‑konvertering i C# – Komplett guide](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | Lär dig hur du konverterar PDF till HTML i C# med Aspose.PDF i denna kompletta steg‑för‑steg‑guide. |
 | [Ladda PDF-dokument C# – Konvertera till PDF/X-4 steg‑för‑steg‑guide](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | Lär dig hur du laddar ett PDF-dokument i C# och konverterar det till PDF/X-4 med Aspose.PDF för .NET i denna steg-för-steg-guide. |
+
+| [Hur du konverterar PDF med Aspose.Pdf – Komplett C#-guide](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | Lär dig steg för steg hur du konverterar PDF-filer med Aspose.Pdf i C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

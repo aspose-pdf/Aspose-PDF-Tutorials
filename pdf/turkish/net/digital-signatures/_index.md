@@ -18,6 +18,7 @@ Dijital imza eğitimlerimiz, .NET'te Aspose.PDF kullanarak belge imzalama yetene
 ## Mevcut Eğitimler
 
 
+
 ### [Aspose.PDF for .NET ile PDF'lerde Dijital İmzalar: Kapsamlı Bir Kılavuz](./digital-signature-aspose-pdf-net-tutorial/)
 Aspose.PDF for .NET kullanarak PDF'lerde dijital imzaların nasıl uygulanacağını öğrenin. Bu kılavuz, kurulum, imzalama süreçleri ve imza görünümlerinin yönetilmesini kapsar.
 ### [.NET için Aspose.PDF'yi Kullanarak Özel Görünümlü Bir PDF'yi Dijital Olarak İmzalayın: Adım Adım Kılavuz](./digitally-sign-pdf-custom-appearance-aspose-pdf-net/)
@@ -52,6 +53,10 @@ C# kullanarak PDF belgesini yükleyin, PDF/X‑4 formatına dönüştürün ve i
 Aspose kullanarak PDF imzasını doğrularken aynı zamanda PDF'yi HTML formatına dönüştürmeyi öğrenin.
 ### [İmzalı PDF Belgesini Yükleyin ve İmzalarını Listeleyin – C# Kılavuzu](./load-signed-pdf-document-and-list-its-signatures-c-guide/)
 C# kullanarak imzalı PDF dosyasını nasıl yükleyeceğinizi ve içindeki tüm dijital imzaları nasıl listeleyeceğinizi öğrenin.
+### [Aspose ile PDF imzasını doğrulama ve PDF'ye dikdörtgen ekleme](./verify-pdf-signature-and-add-rectangle-pdf-with-aspose/)
+Aspose.PDF for .NET kullanarak PDF imzasını doğrulama ve belgeye dikdörtgen şekli ekleme adımlarını öğrenin.
+### [PDF'yi HTML'ye Dışa Aktarın ve Aspose ile PDF İmzasını Doğrulayın](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
+Aspose.PDF for .NET ile PDF'yi HTML'ye dönüştürün ve PDF imzasını doğrulama adımlarını öğrenin.
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)

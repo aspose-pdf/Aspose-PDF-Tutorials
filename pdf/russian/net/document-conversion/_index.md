@@ -20,6 +20,7 @@
 
 ## Учебники
 
+
 | Название | Описание |
 | --- | --- | 
 | [Добавить вложение в PDFA](./add-attachment-to-pdfa/) | Узнайте, как добавлять вложения в документ PDF/A с помощью Aspose.PDF для .NET с помощью этого пошагового руководства. |  
@@ -63,6 +64,7 @@
 | [Загрузка PDF-документа C# – Конвертация в PDF/X-4 пошаговое руководство](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | Узнайте, как загрузить PDF-документ в C# и конвертировать его в формат PDF/X-4 с помощью Aspose.PDF для .NET в этом пошаговом руководстве. |
 | [Конвертация Aspose PDF в HTML на C# – Полное руководство](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | Узнайте, как конвертировать PDF в HTML с помощью Aspose.PDF для .NET на C# в этом полном пошаговом руководстве. |
 
+| [Как конвертировать PDF с Aspose.Pdf – Полное руководство на C#](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | Узнайте, как конвертировать PDF с помощью Aspose.PDF для .NET в этом полном руководстве на C#. |  
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

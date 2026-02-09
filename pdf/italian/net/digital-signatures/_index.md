@@ -18,6 +18,7 @@ nostri tutorial sulla firma digitale forniscono una guida completa per l'impleme
 ## Tutorial disponibili
 
 
+
 ### [Firme digitali nei PDF con Aspose.PDF per .NET: una guida completa](./digital-signature-aspose-pdf-net-tutorial/)
 Scopri come implementare le firme digitali nei PDF utilizzando Aspose.PDF per .NET. Questa guida illustra la configurazione, i processi di firma e la gestione dell'aspetto delle firme.
 ### [Firmare digitalmente un PDF con aspetto personalizzato utilizzando Aspose.PDF per .NET: una guida passo passo](./digitally-sign-pdf-custom-appearance-aspose-pdf-net/)
@@ -50,6 +51,10 @@ Scopri come caricare un PDF in C#, convertirlo in PDF/X‑4 e elencare le firme 
 Scopri come convalidare le firme PDF e convertire i PDF in HTML con Aspose, garantendo l'integrità dei documenti durante la trasformazione.
 ### [Carica documento PDF firmato e elenca le firme – Guida C#](./load-signed-pdf-document-and-list-its-signatures-c-guide/)
 Scopri come caricare un PDF firmato e ottenere l'elenco delle firme con Aspose.PDF per .NET usando C#.
+### [Verifica la firma PDF e aggiungi un rettangolo al PDF con Aspose](./verify-pdf-signature-and-add-rectangle-pdf-with-aspose/)
+Scopri come verificare la firma digitale di un PDF e disegnare un rettangolo sul documento usando Aspose.PDF per .NET.
+### [Esporta PDF in HTML e valida la firma PDF con Aspose](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
+Scopri come convertire un PDF in HTML e verificare la firma digitale usando Aspose.PDF per .NET.
 ## Risorse aggiuntive
 
 - [Aspose.PDF per la documentazione di rete](https://docs.aspose.com/pdf/net/)

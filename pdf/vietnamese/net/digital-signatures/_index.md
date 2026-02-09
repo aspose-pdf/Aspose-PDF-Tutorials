@@ -18,6 +18,7 @@ Hướng dẫn về chữ ký số của chúng tôi cung cấp hướng dẫn t
 ## Hướng dẫn có sẵn
 
 
+
 ### [Chữ ký số trong PDF với Aspose.PDF cho .NET: Hướng dẫn toàn diện](./digital-signature-aspose-pdf-net-tutorial/)
 Tìm hiểu cách triển khai chữ ký số trong PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm thiết lập, quy trình ký và quản lý giao diện chữ ký.
 ### [Ký số vào PDF với Giao diện tùy chỉnh bằng Aspose.PDF cho .NET: Hướng dẫn từng bước](./digitally-sign-pdf-custom-appearance-aspose-pdf-net/)
@@ -52,6 +53,10 @@ Hướng dẫn cách tải tài liệu PDF, chuyển đổi sang định dạng 
 Hướng dẫn cách xác thực chữ ký PDF và chuyển đổi tài liệu PDF sang HTML bằng Aspose.
 ### [Tải tài liệu PDF đã ký và liệt kê các chữ ký – Hướng dẫn C#](./load-signed-pdf-document-and-list-its-signatures-c-guide/)
 Hướng dẫn cách tải tài liệu PDF đã ký và liệt kê các chữ ký trong đó bằng C# với Aspose.PDF.
+### [Cách xác minh chữ ký PDF và thêm hình chữ nhật vào PDF với Aspose](./verify-pdf-signature-and-add-rectangle-pdf-with-aspose/)
+Hướng dẫn cách xác minh chữ ký số trong PDF và vẽ hình chữ nhật lên tài liệu bằng Aspose.PDF cho .NET.
+### [Xuất PDF sang HTML và xác thực chữ ký PDF với Aspose](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
+Hướng dẫn cách xuất PDF sang HTML và xác thực chữ ký PDF bằng Aspose.
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)

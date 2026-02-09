@@ -18,6 +18,7 @@ Tutorial tanda tangan digital kami menyediakan panduan komprehensif untuk menera
 ## Tutorial yang Tersedia
 
 
+
 ### [Tanda Tangan Digital dalam PDF dengan Aspose.PDF untuk .NET: Panduan Lengkap](./digital-signature-aspose-pdf-net-tutorial/)
 Pelajari cara menerapkan tanda tangan digital dalam PDF menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup penyiapan, proses penandatanganan, dan pengelolaan tampilan tanda tangan.
 ### [Menandatangani PDF Secara Digital dengan Tampilan Kustom Menggunakan Aspose.PDF untuk .NET: Panduan Langkah demi Langkah](./digitally-sign-pdf-custom-appearance-aspose-pdf-net/)
@@ -50,6 +51,10 @@ Pelajari cara memuat dokumen PDF, mengonversinya ke format PDF/X‑4, dan menamp
 Pelajari cara memvalidasi tanda tangan PDF dan mengonversi PDF ke HTML menggunakan Aspose.
 ### [Muat Dokumen PDF yang Ditandatangani dan Daftar Tanda Tangannya – Panduan C#](./load-signed-pdf-document-and-list-its-signatures-c-guide/)
 Pelajari cara memuat dokumen PDF yang telah ditandatangani dan menampilkan semua tanda tangan yang ada menggunakan Aspose.PDF untuk .NET dengan C#.
+### [Verifikasi Tanda Tangan PDF dan Tambahkan Persegi Panjang pada PDF dengan Aspose](./verify-pdf-signature-and-add-rectangle-pdf-with-aspose/)
+Pelajari cara memverifikasi tanda tangan PDF dan menambahkan bentuk persegi panjang ke dokumen menggunakan Aspose.PDF untuk .NET.
+### [Ekspor PDF ke HTML & Validasi Tanda Tangan PDF dengan Aspose](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
+Pelajari cara mengekspor PDF ke HTML dan memvalidasi tanda tangan PDF menggunakan Aspose.PDF untuk .NET.
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

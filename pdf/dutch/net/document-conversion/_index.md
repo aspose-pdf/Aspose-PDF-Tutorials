@@ -20,6 +20,7 @@ leert hoe u conversie-instellingen opgeeft, tekst en afbeeldingen extraheert, de
 
 ## Zelfstudies
 
+
 | Titel | Beschrijving |
 | --- | --- | 
 | [Bijlage toevoegen aan PDFA](./add-attachment-to-pdfa/) | Leer hoe u bijlagen toevoegt aan een PDF/A-document met Aspose.PDF voor .NET met deze stapsgewijze handleiding. |  
@@ -61,6 +62,8 @@ leert hoe u conversie-instellingen opgeeft, tekst en afbeeldingen extraheert, de
 
 | [PDF-document laden C# – Converteren naar PDF/X-4](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | Leer hoe u een PDF-document laadt en converteert naar PDF/X-4 met Aspose.PDF voor .NET in C#. |
 | [Aspose PDF naar HTML-conversie in C# – Complete gids](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | Leer hoe u PDF-bestanden naar HTML converteert met Aspose.PDF voor .NET in C# met deze uitgebreide stap‑voor‑stap handleiding. |
+
+| [Hoe PDF te converteren met Aspose.Pdf – Complete C#-gids](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | Leer stap voor stap hoe u PDF-bestanden converteert met Aspose.PDF voor .NET in C# met deze uitgebreide gids. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

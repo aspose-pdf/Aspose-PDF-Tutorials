@@ -18,6 +18,7 @@ Naše tutoriály o digitálním podpisu poskytují komplexní návod pro impleme
 ## Dostupné tutoriály
 
 
+
 ### [Digitální podpisy v PDF souborech s Aspose.PDF pro .NET: Komplexní průvodce](./digital-signature-aspose-pdf-net-tutorial/)
 ### [Digitální podepsání PDF s vlastním vzhledem pomocí Aspose.PDF pro .NET: Podrobný návod](./digitally-sign-pdf-custom-appearance-aspose-pdf-net/)
 ### [Extrahujte informace o digitálním podpisu z PDF souborů pomocí Aspose.PDF](./extract-digital-signature-info-from-pdfs-aspose-pdf/)
@@ -50,6 +51,10 @@ Naučte se načíst PDF v C#, převést jej na PDF/X‑4 a získat seznam digit�
 Naučte se, jak ověřit podpis PDF a převést PDF dokument do HTML pomocí Aspose.PDF pro .NET.
 ### [Načíst podepsaný PDF dokument a vypsat jeho podpisy – průvodce C#](./load-signed-pdf-document-and-list-its-signatures-c-guide/)
 Naučte se, jak načíst podepsaný PDF soubor a získat seznam všech digitálních podpisů pomocí Aspose.PDF pro .NET v C#.
+### [Ověření podpisu PDF a přidání obdélníku do PDF pomocí Aspose](./verify-pdf-signature-and-add-rectangle-pdf-with-aspose/)
+Naučte se, jak ověřit podpis PDF a přidat obdélníkovou oblast pomocí Aspose.PDF pro .NET.
+### [Export PDF do HTML a ověření podpisu PDF pomocí Aspose](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
+Naučte se exportovat PDF do HTML a ověřit digitální podpis PDF pomocí Aspose.PDF pro .NET.
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)

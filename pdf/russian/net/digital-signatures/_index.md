@@ -56,6 +56,12 @@
 ### [Загрузка подписанного PDF-документа и вывод списка его подписей – руководство C#](./load-signed-pdf-document-and-list-its-signatures-c-guide/)
 Узнайте, как загрузить подписанный PDF и получить список всех подписей с помощью Aspose.PDF для .NET на C#.
 
+### [Проверка подписи PDF и добавление прямоугольника в PDF с помощью Aspose](./verify-pdf-signature-and-add-rectangle-pdf-with-aspose/)
+Узнайте, как проверить цифровую подпись PDF и добавить прямоугольник в документ с помощью Aspose.PDF для .NET.
+
+### [Экспорт PDF в HTML и проверка подписи PDF с помощью Aspose](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
+Узнайте, как экспортировать PDF в HTML и проверять цифровую подпись PDF с помощью Aspose.PDF для .NET.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.PDF для сети](https://docs.aspose.com/pdf/net/)

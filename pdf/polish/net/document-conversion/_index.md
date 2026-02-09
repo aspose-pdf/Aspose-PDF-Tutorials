@@ -20,6 +20,7 @@ Dowiesz się, jak określać ustawienia konwersji, wyodrębniać tekst i obrazy,
 
 ## Samouczki
 
+
 | Tytuł | Opis |
 | --- | --- | 
 | [Dodaj załącznik do PDFA](./add-attachment-to-pdfa/) | Dowiedz się, jak dodawać załączniki do dokumentu PDF/A za pomocą Aspose.PDF dla platformy .NET, korzystając z tego przewodnika krok po kroku. |  
@@ -63,6 +64,8 @@ Dowiesz się, jak określać ustawienia konwersji, wyodrębniać tekst i obrazy,
 
 | [Konwersja Aspose PDF do HTML w C# – Kompletny przewodnik](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | Dowiedz się, jak konwertować pliki PDF do HTML w C# przy użyciu Aspose.PDF, krok po kroku, z przykładami kodu. |
 | [Ładowanie dokumentu PDF w C# – konwersja do PDF/X-4 – przewodnik krok po kroku](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | Dowiedz się, jak wczytać dokument PDF w C# i przekonwertować go do formatu PDF/X-4, korzystając z Aspose.PDF dla .NET. |
+
+| [Jak konwertować PDF przy użyciu Aspose.Pdf – Kompletny przewodnik C#](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | Dowiedz się, jak konwertować pliki PDF przy użyciu Aspose.Pdf w pełnym przewodniku C#, krok po kroku. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

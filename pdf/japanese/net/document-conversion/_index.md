@@ -20,6 +20,7 @@ Aspose.PDF の .NET 向けドキュメント変換チュートリアルでは、
 
 ## チュートリアル
 
+
 タイトル | 説明 |
 | --- | --- | 
 | [PDFAに添付ファイルを追加する](./add-attachment-to-pdfa/) このステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF/A ドキュメントに添付ファイルを追加する方法を学習します。 |  
@@ -62,6 +63,8 @@ Aspose.PDF の .NET 向けドキュメント変換チュートリアルでは、
 
 | [C# での Aspose PDF から HTML への変換 – 完全ガイド](./aspose-pdf-to-html-conversion-in-c-complete-guide/) Aspose.PDF for .NET を使用して C# で PDF を HTML に変換する方法をステップバイステップで解説します。 |  
 | [PDFドキュメントの読み込み（C#） – PDF/X-4 へ変換するステップバイステップ ガイド](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) Aspose.PDF for .NET を使用して C# で PDF を読み込み、PDF/X-4 形式に変換する方法をステップバイステップで解説します。 |  
+
+| [Aspose.PdfでPDFを変換する方法 – 完全C#ガイド](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) この包括的なステップバイステップ ガイドでは、Aspose.Pdf を使用して PDF を C# で変換する方法を学びます。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -18,6 +18,7 @@ Onze tutorials over digitale handtekeningen bieden uitgebreide begeleiding bij h
 ## Beschikbare tutorials
 
 
+
 ### [Digitale handtekeningen in PDF's met Aspose.PDF voor .NET: een uitgebreide handleiding](./digital-signature-aspose-pdf-net-tutorial/)
 Leer hoe u digitale handtekeningen in PDF's implementeert met Aspose.PDF voor .NET. Deze handleiding behandelt de installatie, ondertekeningsprocessen en het beheer van de weergave van handtekeningen.
 ### [Een PDF digitaal ondertekenen met een aangepast uiterlijk met Aspose.PDF voor .NET: een stapsgewijze handleiding](./digitally-sign-pdf-custom-appearance-aspose-pdf-net/)
@@ -50,6 +51,10 @@ Leer hoe u een PDF-document laadt, converteert naar PDF/X‑4 en de aanwezige ha
 Leer hoe u een PDF-handtekening valideert en het document naar HTML converteert met Aspose.PDF voor .NET.
 ### [Ondertekend PDF-document laden en de handtekeningen weergeven – C#-gids](./load-signed-pdf-document-and-list-its-signatures-c-guide/)
 Leer hoe u een ondertekend PDF-document laadt en alle bijbehorende handtekeningen opsomt met Aspose.PDF voor .NET in C#.
+### [PDF-handtekening verifiëren en rechthoek toevoegen met Aspose.PDF voor .NET](./verify-pdf-signature-and-add-rectangle-pdf-with-aspose/)
+Leer hoe u een PDF-handtekening verifieert en een rechthoek toevoegt met Aspose.PDF in .NET.
+### [PDF exporteren naar HTML en PDF-handtekening valideren met Aspose](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
+Leer hoe u PDF-bestanden exporteert naar HTML en de digitale handtekening controleert met Aspose.PDF voor .NET.
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

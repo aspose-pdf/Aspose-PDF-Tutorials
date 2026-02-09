@@ -39,6 +39,7 @@ class Program
 You'll learn how to specify conversion settings, extract text and images, retain original document structure and formatting, and perform bulk conversions. The tutorials provide detailed code examples and step‑by‑step explanations to help you master the document conversion capabilities of Aspose.PDF for .NET. Whether you need to convert documents for archiving, electronic distribution, or other needs, these tutorials provide you with the knowledge to perform all document conversion tasks efficiently using the powerful Aspose.PDF library for .NET.
 
 ## Tutorials
+
 | Title | Description |
 | --- | --- | 
 | [Add Attachment to PDFA](./add-attachment-to-pdfa/) | Learn how to add attachments to a PDF/A document using Aspose.PDF for .NET with this step-by-step guide. |  
@@ -81,6 +82,7 @@ You'll learn how to specify conversion settings, extract text and images, retain
 | [XPS To PDF](./xps-to-pdf/) | Learn how to convert XPS files to PDF using Aspose.PDF for .NET with this step-by-step tutorial. Perfect for developers and document enthusiasts. |  
 | [Aspose PDF to HTML Conversion in C# – Complete Guide](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | Learn how to convert PDF files to HTML using Aspose.PDF for .NET with a comprehensive step-by-step guide in C#. |  
 
+| [How to Convert PDF with Aspose.Pdf – Complete C# Guide](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | Learn how to convert PDF files using Aspose.PDF for .NET with a complete C# guide, covering code examples and best practices. |  
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

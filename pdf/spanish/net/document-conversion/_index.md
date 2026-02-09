@@ -20,6 +20,7 @@ Aprenderá a especificar la configuración de conversión, extraer texto e imág
 
 ## Tutoriales
 
+
 | Título | Descripción |
 | --- | --- | 
 | [Agregar archivo adjunto a PDFA](./add-attachment-to-pdfa/) | Aprenda a agregar archivos adjuntos a un documento PDF/A usando Aspose.PDF para .NET con esta guía paso a paso. |  
@@ -38,6 +39,8 @@ Aprenderá a especificar la configuración de conversión, extraer texto e imág
 
 | [Cargar documento PDF C# – Convertir a PDF/X-4 Guía paso a paso](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | Aprenda a cargar un documento PDF y convertirlo a PDF/X‑4 usando Aspose.PDF para .NET en esta guía paso a paso. |
 | [Conversión de Aspose PDF a HTML en C# – Guía completa](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | Aprenda a convertir archivos PDF a HTML con Aspose.PDF para .NET usando C# en esta guía paso a paso. |
+
+| [Cómo convertir PDF con Aspose.Pdf – Guía completa en C#](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | Aprenda a convertir PDFs con Aspose.Pdf usando C# en esta guía completa paso a paso. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

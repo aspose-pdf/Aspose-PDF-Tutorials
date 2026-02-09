@@ -20,6 +20,7 @@
 
 ## دروس تعليمية
 
+
 | العنوان | الوصف |
 | --- | --- | 
 | [إضافة مرفق إلى PDFA](./add-attachment-to-pdfa/) |تعرف على كيفية إضافة مرفقات إلى مستند PDF/A باستخدام Aspose.PDF لـ .NET من خلال هذا الدليل خطوة بخطوة. |  
@@ -38,6 +39,8 @@
 
 | [تحميل مستند PDF C# – التحويل إلى PDF/X-4 دليل خطوة بخطوة](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) |تعرف على كيفية تحميل مستند PDF باستخدام C# وتحويله إلى صيغة PDF/X-4 باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |
 | [تحويل Aspose PDF إلى HTML باستخدام C# – دليل شامل](./aspose-pdf-to-html-conversion-in-c-complete-guide/) |تعرف على كيفية تحويل ملفات PDF إلى HTML باستخدام Aspose.PDF لـ .NET مع دليل خطوة بخطوة شامل. |
+
+| [كيفية تحويل PDF باستخدام Aspose.Pdf – دليل C# كامل](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) |تعرف على كيفية تحويل ملفات PDF باستخدام Aspose.Pdf في دليل شامل بلغة C# خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
