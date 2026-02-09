@@ -43,6 +43,7 @@ Naučíte se, jak nastavit převod, extrahovat text a obrázky, zachovat původn
 | [PDF do XLS](./pdf-to-xls/) Snadno převádějte soubory PDF do formátu XLS pomocí Aspose.PDF pro .NET. Postupujte podle našeho podrobného návodu pro bezproblémovou extrakci dat. |  
 | [PDF do XML](./pdf-to-xml/) | V tomto komplexním tutoriálu se naučte, jak převést PDF do XML pomocí Aspose.PDF pro .NET. Podrobný návod s příklady kódu. |  
 | [PDF do XPS](./pdf-to-xps/) | Naučte se, jak převést PDF do XPS pomocí Aspose.PDF pro .NET s tímto podrobným návodem. Ideální pro vývojáře a nadšence do zpracování dokumentů. |  
+| [Jak převést PDF pomocí Aspose.Pdf – Kompletní průvodce v C#](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | Kompletní návod, jak převést PDF soubory pomocí Aspose.Pdf v jazyce C# s podrobnými ukázkami kódu. |  
 | [Postskriptum do PDF](./postscript-to-pdf/) | Naučte se v tomto podrobném návodu, jak převést soubory PostScript do PDF pomocí Aspose.PDF pro .NET. Ideální pro vývojáře všech úrovní. |  
 | [Zadejte přihlašovací údaje během převodu HTML do PDF](./provide-credentials-during-html-to-pdf/) | Naučte se, jak převést HTML do PDF pomocí Aspose.PDF pro .NET s tímto podrobným návodem. Ideální pro vývojáře, kteří chtějí zefektivnit generování dokumentů. |  
 | [Odstranění hypertextových odkazů po převodu z HTML](./remove-hyperlinks-after-converting-from-html/) V tomto podrobném návodu se naučte, jak odstranit hypertextové odkazy z HTML dokumentů po převodu do PDF pomocí Aspose.PDF pro .NET. |  

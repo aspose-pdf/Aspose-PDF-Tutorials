@@ -50,6 +50,12 @@ A code tutorial for Aspose.PDF Net
 ### [Mastering Aspose.PDF .NET&#58; How to Verify Digital Signatures in PDF Files](./aspose-pdf-net-verify-digital-signature/)
 Learn how to verify digital signatures in PDF files using Aspose.PDF for .NET. Ensure document integrity and authenticity with our step-by-step guide.
 
+### [verify pdf signature and add rectangle pdf with Aspose](./verify-pdf-signature-and-add-rectangle-pdf-with-aspose/)
+Learn how to verify a PDF signature and draw a rectangle on the document using Aspose.PDF for .NET.
+
+### [export pdf to html & validate pdf signature with Aspose](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
+Learn how to export PDFs to HTML and validate PDF signatures using Aspose.PDF for .NET in a step-by-step guide.
+
 ## Additional Resources
 
 - [Aspose.PDF for Net Documentation](https://docs.aspose.com/pdf/net/)

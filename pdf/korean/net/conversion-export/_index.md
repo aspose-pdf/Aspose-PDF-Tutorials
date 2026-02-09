@@ -53,6 +53,9 @@ Aspose.PDF Net에 대한 코드 튜토리얼
 ### [Aspose.PDF .NET을 사용하여 PDF 페이지를 PNG로 변환: 포괄적인 가이드](./convert-pdf-pages-to-png-aspose-net/)
 Aspose.PDF for .NET을 사용하여 PDF 페이지를 고품질 PNG 이미지로 변환하는 방법을 알아보세요. 이 단계별 가이드를 따라 변환 과정을 효율적으로 자동화하세요.
 
+### [Aspose PDF를 사용하여 PDF를 PNG로 저장하고 PDF/X‑1a로 변환](./save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf/)
+Aspose PDF를 사용해 PDF를 PNG 이미지로 저장한 뒤 PDF/X‑1a 표준으로 변환하는 방법을 단계별로 안내합니다.
+
 ### [Aspose.PDF for .NET을 사용하여 PDF를 BMP로 변환: 단계별 가이드](./convert-pdf-to-bmp-aspose-pdf-net/)
 이 포괄적인 가이드를 통해 Aspose.PDF for .NET을 사용하여 PDF 페이지를 고품질 BMP 이미지로 변환하는 방법을 알아보세요.
 
@@ -84,7 +87,7 @@ Aspose.PDF for .NET을 사용하여 PDF 문서를 HTML 형식으로 변환하는
 Aspose.PDF .NET을 사용하여 PDF 문서를 고품질 PNG 이미지로 변환하는 방법을 알아보고, 글꼴 힌팅을 통해 선명한 텍스트 렌더링을 보장합니다.
 
 ### [Aspose.PDF for .NET을 사용하여 PDF를 PPTX로 변환: 단계별 가이드](./convert-pdf-to-pptx-aspose-dotnet-guide/)
-Aspose.PDF for .NET을 사용하여 PDF 문서를 PowerPoint 프레젠테이션으로 효율적으로 변환하는 방법을 알아보세요. 이 단계별 가이드에서는 기본 변환, 이미지 슬라이드와 같은 고급 기능, 진행률 추적 등을 다룹니다.
+Aspose.PDF for .NET을 사용하여 PDF 문서를 PowerPoint 프레젠테이션으로 효율적으로 변환하는 방법을 알아보세요. 이 단계별 가이드는 기본 변환, 이미지 슬라이드와 같은 고급 기능, 진행률 추적 등을 다룹니다.
 
 ### [Aspose.PDF for .NET을 사용하여 PDF를 SVG로 변환: 단계별 가이드](./aspose-pdf-net-pdf-to-svg-conversion/)
 Aspose.PDF for .NET을 사용하여 PDF를 SVG로 변환하는 방법을 알아보세요. 이 종합 가이드에서는 설정, 변환 단계 및 최적화 팁을 다룹니다.

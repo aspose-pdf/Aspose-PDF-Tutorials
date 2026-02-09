@@ -227,6 +227,9 @@ Aspose.PDF Net için bir kod öğreticisi
 ### [Aspose.PDF Kullanarak .NET'te PDF'yi TIFF'e Dönüştürme: Adım Adım Kılavuz](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Aspose.PDF for .NET kullanarak PDF belgelerini TIFF görüntülerine nasıl dönüştüreceğinizi öğrenin. Özel renk derinliklerinde ve gelişmiş görüntü işleme tekniklerinde ustalaşın.
 
+### [Aspose PDF ile PDF'yi PNG Olarak Kaydedin ve PDF/X‑1a'ya Dönüştürün](./save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf/)
+Aspose PDF kullanarak PDF dosyasını PNG olarak kaydedip ardından PDF/X‑1a standardına dönüştürmeyi öğrenin.
+
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)

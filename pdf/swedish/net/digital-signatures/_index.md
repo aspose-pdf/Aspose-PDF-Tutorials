@@ -44,11 +44,17 @@ Lär dig hur du effektivt tar bort digitala signaturer från PDF-filer med Aspos
 ### [Hur man verifierar PDF-signaturer med Aspose.PDF för .NET: En omfattande guide](./verify-pdf-signatures-aspose-pdf-net/)
 Lär dig hur du verifierar digitala signaturer i PDF-filer med Aspose.PDF för .NET. Den här guiden behandlar installation, implementering och praktiska tillämpningar.
 
+### [Verifiera PDF-signatur och lägg till rektangel i PDF med Aspose](./verify-pdf-signature-and-add-rectangle-pdf-with-aspose/)
+Lär dig hur du verifierar en PDF-signatur och ritar en rektangel i PDF-dokumentet med Aspose.
+
 ### [Master PDF-signering och verifiering med Aspose.PDF .NET](./mastering-aspose-pdf-net-sign-verify-smart-card-certificates/)
 En kodhandledning för Aspose.PDF Net
 
 ### [Mastering Aspose.PDF .NET: Hur man verifierar digitala signaturer i PDF-filer](./aspose-pdf-net-verify-digital-signature/)
 Lär dig hur du verifierar digitala signaturer i PDF-filer med Aspose.PDF för .NET. Säkerställ dokumentintegritet och äkthet med vår steg-för-steg-guide.
+
+### [Exportera PDF till HTML och validera PDF-signatur med Aspose](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
+Lär dig hur du konverterar PDF till HTML och samtidigt validerar PDF-signaturer med Aspose.
 
 ## Ytterligare resurser
 
