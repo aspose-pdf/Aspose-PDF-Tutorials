@@ -1,14 +1,14 @@
 ---
-date: '2025-12-09'
-description: Ismerje meg, hogyan lehet PDF-fájlokat címkézni Java-ban az Aspose.PDF
-  segítségével. Ez az útmutató bemutatja, hogyan lehet hozzáférhető PDF-et generálni,
-  bekezdést hozzáadni PDF Java-ban, és alkalmazni a PDF hozzáférhetőségi címkézést.
+date: '2026-02-09'
+description: Tanulja meg, hogyan címkézze meg a PDF-fájlokat Java-ban az Aspose.PDF
+  segítségével, hozza létre a hozzáférhető PDF-dokumentumokat, állítsa be a PDF címét,
+  és adjon hozzá címkéket a képernyőolvasó kompatibilitás érdekében.
 keywords:
 - tagged PDFs in Java
 - Aspose.PDF for Java
 - accessible PDF creation
-title: 'Hogyan címkézzünk PDF-et Java-ban az Aspose.PDF segítségével: Teljes útmutató
-  a hozzáférhetőséghez és a struktúrához'
+title: 'PDF címkézése Java-ban az Aspose.PDF segítségével: Teljes útmutató a hozzáférhetőséghez
+  és a struktúrához'
 url: /hu/java/advanced-features/master-tagged-pdfs-java-aspose-pdf-guide/
 weight: 1
 ---
@@ -20,43 +20,37 @@ weight: 1
 {{< blocks/products/pf/tutorial-page-section >}}
 # Hogyan címkézzünk PDF-et Java-ban az Aspose.PDF segítségével: Teljes útmutató a hozzáférhetőséghez és a struktúrához
 
-## Bevezetés
-Az elérhető PDF-dokumentumok létrehozása és a **PDF címkézésének** megtanulása kulcsfontosságú azok számára, akik képernyőolvasókra és egyéb segítő technológiákra támaszkodnak. Annak biztosítása, hogy a PDF-jeid egyszerre legyenek hozzáférhetőek és jól strukturáltak, kihívást jelenthet, de az Aspose.PDF for Java egyszerűvé teszi a folyamatot, mivel lehetővé teszi a címek, nyelvek és a strukturált tartalom közvetlen beállítását a PDF-ben.
+## Introduction
+Az elérhető PDF-dokumentumok létrehozása és a **how to tag PDF** fájlok megismerése létfontosságú azok számára, akik képernyőolvasókra és egyéb segítő technológiákra támaszkodnak. Az, hogy a PDF-jeid egyszerre legyenek hozzáférhetőek és jól strukturáltak, kihívást jelenthet, de az Aspose.PDF for Java egyszerűvé teszi a folyamatot, mivel lehetővé teszi a címek, nyelvek és a strukturált tartalom közvetlen beállítását a PDF-ben.
 
-Ebben az útmutatóban megvizsgáljuk, hogyan használhatod az Aspose.PDF könyvtárat címkézett PDF-dokumentumok létrehozásához Java-ban. Megtanulod, hogyan:
-- Állíts be címeket és nyelvi attribútumokat a PDF-ekhez.
-- Adj hozzá bekezdés‑ és span‑elemeket a dokumentumszerkezet javításához.
-- Ágyazz be span‑elemeket bekezdésekbe összetettebb elrendezésekhez.
+Ebben az útmutatóban megtudod, hogyan:
+- **Set PDF title** és nyelvi attribútumok beállítása a jobb hozzáférhetőség érdekében.  
+- **Add paragraph and span elements** a logikus dokumentumhierarchia felépítéséhez.  
+- **Nest span elements** bekezdésekbe összetett elrendezésekhez.  
 
-Merüljünk el a környezet beállításában és a funkciók megvalósításában!
+Lépésről lépésre végigvezetünk, elmagyarázzuk, miért fontos, és gyakorlati tippeket adunk, amelyeket azonnal alkalmazhatsz.
 
-### Gyors válaszok
-- **Mi az a PDF hozzáférhetőségi címkézés?** Ez a folyamat, amely során logikai struktúrát (címkéket) adunk egy PDF-hez, hogy a képernyőolvasók helyesen értelmezzék a tartalmat.  
-- **Miért használjuk az Aspose.PDF‑t a címkézéshez?** Egy folyékony API‑t biztosít a PDF-ek létrehozásához, módosításához és címkézéséhez Adobe Acrobat nélkül.  
-- **Mennyi időt vesz igénybe az alapvető megvalósítás?** Körülbelül 10–15 perc egy egyszerű dokumentumhoz.  
-- **Szükségem van licencre?** A próbaverzió elegendő az értékeléshez, de a licenc szükséges a termelésben való használathoz.  
-- **Mely Java verziók támogatottak?** Java 8 és újabb (beleértve a Java 11, 17 és 21 verziókat).
+### Quick Answers
+- **What is PDF accessibility tagging?** Ez a folyamat, amely logikai struktúrát (címkéket) ad egy PDF-hez, hogy a képernyőolvasók helyesen értelmezhessék a tartalmat.  
+- **Why use Aspose.PDF for tagging?** Egy folyékony API-t biztosít PDF-ek létrehozásához, módosításához és címkézéséhez Adobe Acrobat nélkül.  
+- **How long does the basic implementation take?** Körülbelül 10–15 perc egy egyszerű dokumentumhoz.  
+- **Do I need a license?** A próbaverzió elegendő értékeléshez, de a termeléshez licenc szükséges.  
+- **Which Java versions are supported?** Java 8 és újabb (beleértve a Java 11, 17 és 21 verziókat).
 
-### Előkövetelmények
-Mielőtt elkezdenénk, győződj meg róla, hogy a következők rendelkezésre állnak:
-- **Java fejlesztői környezet:** Telepített JDK (8-as vagy újabb verzió).  
-- **Maven/Gradle építőeszköz:** Ismereted van a Maven vagy Gradle használatáról a függőségkezeléshez.  
-- **Alapvető Java ismeretek:** A Java programozási koncepciók megértése.
+## What is PDF Accessibility Tagging?
+A PDF hozzáférhetőségi címkézés magában foglalja egy logikai struktúra (címek, fejlécek, bekezdések, span-ek, táblázatok stb.) beágyazását a PDF-be. Ez a struktúra lehetővé teszi a segítő technológiák számára, hogy a tartalmat értelmes sorrendben mutassák be, így a dokumentum **generate accessible PDF** kimenetet hoz létre.
 
-## Mi az a PDF hozzáférhetőségi címkézés?
-A PDF hozzáférhetőségi címkézés magában foglalja egy logikai struktúra (címek, fejlécek, bekezdések, span‑ok, táblázatok stb.) beágyazását a PDF-be. Ez a struktúra lehetővé teszi a segítő technológiák számára, hogy értelmes sorrendben mutassák a tartalmat, így a dokumentum **generate accessible PDF** kimenetet hoz létre.
+## Why Use Aspose.PDF for Java?
+Az Aspose.PDF for Java egy **aspose pdf java tutorial**‑grade megoldás, amely:
+- Bármely Java‑t támogató platformon működik.  
+- Lehetővé teszi a PDF-ek programozott létrehozását, szerkesztését és címkézését.  
+- Finomhangolt vezérlést biztosít a címkézési elemek, például bekezdések és span-ek felett – tökéletes **add paragraph pdf java** esetekhez.
 
-## Miért használjuk az Aspose.PDF‑t Java‑ban?
-Az Aspose.PDF for Java egy **aspose pdf java tutorial**‑szintű megoldás, amely:
-- Bármely Java‑t támogató platformon működik.
-- Lehetővé teszi a PDF-ek programozott létrehozását, szerkesztését és címkézését.
-- Finomhangolt vezérlést biztosít a címkéző elemek, például bekezdések és span‑ok felett, ami elengedhetetlen **add paragraph pdf java** esetekben.
+## Setting Up Aspose.PDF for Java
+Az Aspose.PDF használatának megkezdéséhez a Java‑projektedben a könyvtárat függőségként kell felvenned. Íme, hogyan teheted meg Maven‑nel és Gradle‑lel:
 
-## Az Aspose.PDF for Java beállítása
-Ahhoz, hogy az Aspose.PDF‑t Java projektjeidben használhasd, a könyvtárat függőségként kell felvenned. Íme, hogyan teheted ezt Maven‑nel és Gradle‑lel:
-
-### Maven telepítés
-Add hozzá a következő függőséget a `pom.xml` fájlodhoz:
+### Maven Installation
+Add a következő függőséget a `pom.xml` fájlodba:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -65,28 +59,28 @@ Add hozzá a következő függőséget a `pom.xml` fájlodhoz:
 </dependency>
 ```
 
-### Gradle telepítés
-Helyezd be ezt a `build.gradle` fájlodba:
+### Gradle Installation
+Add ezt a `build.gradle` fájlodba:
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### Licenc beszerzése
-Az Aspose.PDF próbaverzió korlátainak meghaladása érdekében ideiglenes licencet vagy teljes licencet szerezhetsz be. Így teheted:
-- **Ingyenes próbaverzió:** Töltsd le a legújabb verziót a [Aspose PDF Java Releases](https://releases.aspose.com/pdf/java/) oldalról.  
-- **Ideiglenes licenc:** Kérj ingyenes ideiglenes licencet a [Aspose Temporary License Page](https://purchase.aspose.com/temporary-license/) oldalon.  
-- **Licenc vásárlása:** Vásárolj teljes licencet az [Aspose Purchase Page](https://purchase.aspose.com/buy) oldalon.
+### License Acquisition
+Az Aspose.PDF próbaverzió korlátain túl a teljes funkcionalitás eléréséhez ideiglenes vagy teljes licencre van szükség. Így járhatsz el:
+- **Free Trial:** Töltsd le a legújabb verziót a [Aspose PDF Java Releases](https://releases.aspose.com/pdf/java/) oldalról.  
+- **Temporary License:** Kérj ingyenes ideiglenes licencet a [Aspose Temporary License Page](https://purchase.aspose.com/temporary-license/) oldalon.  
+- **Purchase License:** Vásárolj teljes licencet az [Aspose Purchase Page](https://purchase.aspose.com/buy) oldalon.
 
-Miután megvan a licencfájl, alkalmazd azt a Java‑alkalmazásodban, hogy minden funkció elérhető legyen.
+Miután megvan a licencfájl, alkalmazd a Java‑alkalmazásodban, hogy feloldja az összes funkciót.
 
-## Megvalósítási útmutató
-A megvalósítást három fő funkcióra bontjuk: címek és nyelvek beállítása, bekezdés‑ és span‑elemek hozzáadása, valamint span‑elemek beágyazása bekezdésekbe. Minden szakasz részletes lépéseket és kódrészleteket tartalmaz.
+## How to Tag PDF in Java with Aspose.PDF
+A megvalósítást három fő funkcióra bontjuk: címek és nyelvek beállítása, bekezdés‑ és span‑elemek hozzáadása, valamint a span‑ek bekezdésen belüli beágyazása. Minden szakasz részletes, lépésről‑lépésre útmutatót tartalmaz.
 
-### Cím és nyelv beállítása PDF dokumentumban
-**Áttekintés:** Ez a funkció bemutatja, hogyan definiálhatod egy címkézett PDF dokumentum címét és nyelvét, biztosítva, hogy hozzáférhető és a segítő technológiák által helyesen értelmezett legyen.
+### Setting Title and Language for a PDF Document
+**Overview:** Egy címkézett PDF címének és nyelvének meghatározása biztosítja, hogy a segítő technológiák helyesen bejelentsék a dokumentumot.
 
-#### Lépés‑ről‑lépésre megvalósítás
-1. **Az Aspose.PDF Document inicializálása:**  
+#### Step‑by‑Step Implementation
+1. **Initialize the Aspose.PDF Document:**
    ```java
    import com.aspose.pdf.Document;
    import com.aspose.pdf.tagged.ITaggedContent;
@@ -97,7 +91,7 @@ A megvalósítást három fő funkcióra bontjuk: címek és nyelvek beállítá
    Document document = new Document();
    ITaggedContent taggedContent = document.getTaggedContent();
    ```
-2. **Cím és nyelv beállítása:**  
+2. **Set Title and Language:**
    ```java
    // Set the title of the PDF document
    taggedContent.setTitle("Text Elements Example");
@@ -105,17 +99,17 @@ A megvalósítást három fő funkcióra bontjuk: címek és nyelvek beállítá
    // Define the language (e.g., English - United States)
    taggedContent.setLanguage("en-US");
    ```
-3. **Dokumentum mentése:**  
+3. **Save the Document:**
    ```java
    document.save(outFile);
    ```
-**Magyarázat:** A cím és a nyelv beállításával olyan alapvető metaadatokat adsz meg, amelyek segítik a **pdf accessibility tagging** folyamatot, és a képernyőolvasók helyesen bejelentik a dokumentumot.
+**Explanation:** A cím és a nyelv beállításával olyan alapvető metaadatokat biztosítasz, amelyek segítik a **pdf accessibility tagging** folyamatát, és a képernyőolvasók helyesen bejelentik a dokumentumot.
 
-### Bekezdés és span elemek hozzáadása
-**Áttekintés:** Javítsd a PDF struktúráját bekezdés‑ és span‑elemek hozzáadásával, hogy logikusan szervezett dokumentumot hozz létre.
+### Adding Paragraph and Span Elements
+**Overview:** A bekezdés‑ és span‑címkék logikus áramlást adnak a PDF‑nek, megkönnyítve a felhasználók és az eszközök navigációját.
 
-#### Lépés‑ről‑lépésre megvalósítás
-1. **Dokumentum és címkézett tartalom létrehozása:**  
+#### Step‑by‑Step Implementation
+1. **Create Document and Tagged Content:**
    ```java
    String dataDir = "YOUR_DOCUMENT_DIRECTORY";
    String outFile = dataDir + "AddParagraphAndSpanElements_Output.pdf";
@@ -123,7 +117,7 @@ A megvalósítást három fő funkcióra bontjuk: címek és nyelvek beállítá
    Document document = new Document();
    ITaggedContent taggedContent = document.getTaggedContent();
    ```
-2. **Bekezdés és span elemek hozzáfűzése:**  
+2. **Append Paragraph and Span Elements:**
    ```java
    import com.aspose.pdf.tagged.logicalstructure.elements.StructureElement;
    import com.aspose.pdf.tagged.logicalstructure.elements.bls.ParagraphElement;
@@ -144,17 +138,17 @@ A megvalósítást három fő funkcióra bontjuk: címek és nyelvek beállítá
    p1.appendChild(span11);
    p1.appendChild(span12);
    ```
-3. **Dokumentum mentése:**  
+3. **Save Your Document:**
    ```java
    document.save(outFile);
    ```
-**Magyarázat:** Ez a szakasz egy alap **add paragraph pdf java** példát mutat be, amely strukturált szövegáramot hoz létre, javítva az olvashatóságot és a navigációt.
+**Explanation:** Ez egy klasszikus **add paragraph pdf java** szcenáriót mutat be, amely strukturált szövegáramot hoz létre, javítva az olvashatóságot és a navigációt.
 
-### Span elemek beágyazása bekezdés elembe
-**Áttekintés:** Hozz létre összetettebb szövegszerkezeteket span elemek beágyazásával bekezdésekbe.
+### Nesting Span Elements within a Paragraph Element
+**Overview:** A span‑ek beágyazása lehetővé teszi gazdagabb szöveghierarchiák építését – például különböző stílusok vagy logikai csoportok alkalmazását egyetlen bekezdésen belül.
 
-#### Lépés‑ről‑lépésre megvalósítás
-1. **Dokumentumszerkezet inicializálása:**  
+#### Step‑by‑Step Implementation
+1. **Initialize Document Structure:**
    ```java
    String dataDir = "YOUR_DOCUMENT_DIRECTORY";
    String outFile = dataDir + "NestSpanElements_Output.pdf";
@@ -162,7 +156,7 @@ A megvalósítást három fő funkcióra bontjuk: címek és nyelvek beállítá
    Document document = new Document();
    ITaggedContent taggedContent = document.getTaggedContent();
    ```
-2. **Span elemek létrehozása és beágyazása:**  
+2. **Create and Nest Span Elements:**
    ```java
    StructureElement rootElement = taggedContent.getRootElement();
 
@@ -187,60 +181,61 @@ A megvalósítást három fő funkcióra bontjuk: címek és nyelvek beállítá
 
    p4.setText(".");
    ```
-3. **Dokumentum mentése:**  
+3. **Save the Document:**
    ```java
    document.save(outFile);
    ```
-**Magyarázat:** A beágyazás lehetővé teszi gazdagabb, részletesebb struktúrák építését, ami elengedhetetlen **generate accessible PDF** dokumentumok létrehozásához, amelyek szigorú hozzáférhetőségi szabványoknak felelnek meg.
+**Explanation:** A beágyazás lehetővé teszi összetett struktúrák létrehozását, ami elengedhetetlen **generate accessible PDF** dokumentumok készítéséhez, amelyek megfelelnek a szigorú hozzáférhetőségi szabványoknak.
 
-## Gyakorlati alkalmazások
-- **Digitális kiadás:** Hozz létre hozzáférhető e‑könyveket strukturált tartalommal.  
-- **Kormányzati dokumentáció:** Biztosítsd a hozzáférhetőségi szabályozásoknak való megfelelést.  
-- **Vállalati jelentések:** Javítsd a navigációt és az olvashatóságot az érintettek számára.  
-- **Oktatási anyagok:** Biztosíts a diákok számára hozzáférhető tanulási forrásokat.
+## Practical Applications
+Az Aspose.PDF címkézési képességei számos valós életbeli felhasználási területen alkalmazhatók:
+- **Digital Publishing:** Hozz létre hozzáférhető e‑könyveket strukturált tartalommal.  
+- **Government Documentation:** Biztosítsd a hozzáférhetőségi szabályozásoknak való megfelelést.  
+- **Corporate Reports:** Javítsd a navigációt és az olvashatóságot az érintettek számára.  
+- **Educational Materials:** Nyújts diákoknak hozzáférhető tananyagokat.
 
-## Teljesítményfontosságú szempontok
-Nagy PDF-ekkel vagy összetett struktúrákkal dolgozva tartsd szem előtt a következő tippeket:
-- **Memóriakezelés:** Az objektumokat a használat után azonnal szabadítsd fel.  
-- **Kötegelt feldolgozás:** Dokumentumokat kötegekben dolgozz fel a erőforrás-felhasználás szabályozásához.  
-- **Frissítések:** Használd az Aspose.PDF legújabb verzióját a teljesítményjavulások és hibajavítások érdekében.
+## Performance Considerations
+Nagy PDF‑ek vagy összetett címke‑hierarchiák kezelésekor tartsd szem előtt a következő tippeket:
+- **Memory Management:** Az objektumokat használat után azonnal szabadítsd fel.  
+- **Batch Processing:** Dokumentumokat kötegben dolgozz fel a erőforrás-fogyasztás szabályozásához.  
+- **Stay Updated:** Használd az Aspose.PDF legújabb verzióját a teljesítményjavulások és hibajavítások érdekében.
 
-## Gyakori problémák és megoldások
+## Common Issues and Solutions
 | Probléma | Megoldás |
 |----------|----------|
-| **Címkék nem jelennek meg a PDF‑nézőben** | Ellenőrizd, hogy a `taggedContent.setTitle()` és a `setLanguage()` hívások a mentés előtt megtörténnek. |
+| **Címkék nem jelennek meg a PDF nézőben** | Ellenőrizd, hogy a `taggedContent.setTitle()` és a `setLanguage()` hívások a mentés előtt megtörténnek. |
 | **Nagy fájlméret** | Hívd meg a `document.optimizeResources()` metódust a `save()` előtt az erőforrások tömörítéséhez. |
-| **Váratlan szövegsorrend** | Győződj meg róla, hogy a span‑okat a kívánt sorrendben fűzöd hozzá a bekezdésekhez. |
+| **Váratlan szövegsorrend** | Győződj meg róla, hogy a span‑eket a kívánt sorrendben fűzöd hozzá a bekezdésekhez. |
 
-## Gyakran feltett kérdések
+## Frequently Asked Questions
 
-**Q: Hogyan biztosíthatom, hogy a PDF-jeim megfelelnek a WCAG 2.1 hozzáférhetőségi szabványoknak?**  
-A: Használd az Aspose.PDF‑t a dokumentum címének, nyelvének és a megfelelő címkézés (bekezdések, span‑ok, fejlécek) beállításához. Futtasd a PDF-et egy hozzáférhetőségi ellenőrzővel (pl. PAC 3), hogy ellenőrizd a megfelelőséget.
+**Q: Hogyan biztosíthatom, hogy a PDF-jeim megfeleljenek a WCAG 2.1 hozzáférhetőségi szabványoknak?**  
+A: Használd az Aspose.PDF‑t a dokumentum címének, nyelvének és a megfelelő címkézés (bekezdések, span‑ek, fejlécek) beállításához. Futtasd a PDF‑et egy hozzáférhetőségi ellenőrzővel (pl. PAC 3), hogy ellenőrizd a megfelelőséget.
 
-**Q: Címkézhetek már meglévő, címkézetlen PDF-eket?**  
-A: Igen. Töltsd be a PDF-et, szerezd meg az `ITaggedContent`‑et, és programozottan add hozzá a hiányzó címkéket a mentés előtt.
+**Q: Címkézhetek már meglévő, címkézetlen PDF‑eket?**  
+A: Igen. Töltsd be a PDF‑et, szerezd meg a `ITaggedContent`‑et, programozottan add hozzá a hiányzó címkéket, majd mentsd el.
 
 **Q: Támogatja az Aspose.PDF más nyelveket és jobbról balra írást?**  
-A: Teljes mértékben. Állítsd be a megfelelő nyelvkódot (pl. `ar-SA` az arabhoz), és adj Unicode szöveget a span‑okhoz.
+A: Teljes mértékben. Állítsd be a megfelelő nyelvkódot (pl. `ar-SA` az arabhoz), és adj Unicode szöveget a span‑ekhez.
 
-**Q: Mi a legjobb módja a nagyon nagy dokumentumok (százszámú oldalak) kezelésének?**  
-A: Dolgozd fel a dokumentumot szakaszokra, használd a `Document.optimizeResources()` metódust, és fontold meg a kimenet streaming‑jét a magas memóriahasználat elkerülése érdekében.
+**Q: Mi a legjobb módja a nagyon nagy dokumentumok (százszámú oldal) kezelésének?**  
+A: A dokumentumot szakaszokra bontva dolgozd fel, használd a `Document.optimizeResources()` metódust, és fontold meg a kimenet streamelését a memóriaigény csökkentése érdekében.
 
-**Q: Van mód a címkehierarchia validálására a létrehozás után?**  
-A: Exportálhatod a PDF struktúrafáját a `document.getTaggedContent().getRootElement()` metódussal, és programozottan vagy PDF‑eszközökkel ellenőrizheted.
+**Q: Van mód a címke‑hierarchia validálására a létrehozás után?**  
+A: Exportálhatod a PDF struktúrafáját a `document.getTaggedContent().getRootElement()` metódussal, és programozottan vagy PDF‑elemző eszközökkel ellenőrizheted.
 
-## Következtetés
-Most már elsajátítottad, hogyan **címkézz PDF** fájlokat Java‑ban az Aspose.PDF segítségével – címek, nyelvek beállítása és strukturált tartalom építése bekezdésekkel és beágyazott span‑okkal. Ezek a technikák lehetővé teszik, hogy hozzáférhető PDF-eket generálj, amelyek megfelelnek a modern hozzáférhetőségi szabványoknak, és minden felhasználó számára kiváló olvasási élményt nyújtanak.
+## Conclusion
+Most már elsajátítottad, hogyan **how to tag PDF** fájlokat kell Java‑ban az Aspose.PDF segítségével – címek, nyelvek beállítása és strukturált tartalom építése bekezdésekkel és beágyazott span‑ekkel. Ezek a technikák lehetővé teszik, hogy hozzáférhető PDF‑eket generálj, amelyek megfelelnek a modern hozzáférhetőségi szabványoknak, és kiváló olvasási élményt nyújtanak minden felhasználó számára.
 
-**Következő lépések:**  
-- Kísérletezz további címkétípusokkal, például táblázatokkal, listákkal és ábrákkal.  
+**Next Steps:**  
+- Kísérletezz további címketípusokkal, például táblázatokkal, listákkal és ábrákkal.  
 - Integráld a címkézési munkafolyamatot a meglévő dokumentumgeneráló csővezetékedbe.  
 - Fedezd fel az Aspose.PDF OCR‑ és konverziós funkcióit, hogy bővítsd a dokumentumkezelési képességeidet.
 
 ---
 
-**Legutóbb frissítve:** 2025-12-09  
-**Tesztelve:** Aspose.PDF for Java 25.3  
+**Legutóbb frissítve:** 2026-02-09  
+**Tesztelve a következővel:** Aspose.PDF for Java 25.3  
 **Szerző:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
