@@ -53,6 +53,8 @@
 Μάθετε πώς να επαληθεύετε υπογραφές PDF και να προσθέτετε ορθογώνιο σχήμα στο έγγραφο χρησιμοποιώντας το Aspose.PDF για .NET.
 ### [Εξαγωγή PDF σε HTML & επαλήθευση υπογραφής PDF με το Aspose](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
 Μάθετε πώς να μετατρέψετε PDF σε HTML και να επαληθεύσετε την ψηφιακή υπογραφή του PDF χρησιμοποιώντας το Aspose.
+### [Πώς να επαληθεύσετε την υπογραφή σε PDF με το Aspose.Pdf – Οδηγός C#](./how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/)
+Μάθετε πώς να επαληθεύετε ψηφιακές υπογραφές σε αρχεία PDF χρησιμοποιώντας το Aspose.Pdf με C#.
 ## Πρόσθετοι Πόροι
 
 - [Aspose.PDF για τεκμηρίωση δικτύου](https://docs.aspose.com/pdf/net/)

@@ -37,8 +37,8 @@
 | [التحقق من صحة ملف PDF](./validate-pdf/) | تعرّف على كيفية التحقق من صحة ملف PDF باستخدام Aspose.PDF لـ .NET. تحقق من توافقه مع المعايير وأنشئ تقرير التحقق. |  
 | [إنشاء ملف PDF مُعلَّم في C# – دليل خطوة بخطوة كامل](./create-tagged-pdf-in-c-complete-step-by-step-guide/) |تعلم كيفية إنشاء ملف PDF مُعلَّم باستخدام C# و Aspose.PDF خطوة بخطوة.|  
 | [اجعل ملف PDF قابلاً للوصول باستخدام Aspose: إدراج فقرة PDF خطوة بخطوة](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) |تعلم كيفية جعل ملفات PDF قابلة للوصول بإضافة فقرات باستخدام Aspose.PDF لـ .NET خطوة بخطوة.|  
-
 | [إنشاء ملف PDF مُعلَّم في C# – إضافة عنوان ونص قابل للوصول](./create-tagged-pdf-in-c-add-heading-accessible-text/) | تعلم كيفية إنشاء ملف PDF مُعلَّم وإضافة عنوان ونص يمكن الوصول إليه باستخدام Aspose.PDF لـ .NET في C#. |  
+| [إنشاء PDF قابل للوصول باستخدام Aspose.Pdf – دليل خطوة بخطوة](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | تعلم كيفية إنشاء ملفات PDF قابلة للوصول وفق معايير PDF/UA باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

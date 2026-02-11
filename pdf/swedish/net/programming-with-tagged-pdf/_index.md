@@ -47,6 +47,7 @@ Aspose.PDF för .NET:s handledningar "Programmering med taggade PDF-filer" guida
 | [Textstrukturelement i PDF-fil](./text-structure-elements/) Lär dig att manipulera textstrukturelement i PDF-filer med Aspose.PDF för .NET. Den här steg-för-steg-guiden täcker allt du behöver för att skapa strukturerade PDF-filer. |  
 | [Validera PDF-fil](./validate-pdf/) | Lär dig hur du validerar en PDF-fil med Aspose.PDF för .NET. Kontrollera att den uppfyller standarder och generera en valideringsrapport. |  
 | [Skapa taggad PDF i C# – Lägg till rubrik och tillgänglig text](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Lär dig hur du skapar en taggad PDF i C# med rubrik och tillgänglig text för förbättrad PDF/UA‑kompatibilitet. |  
+| [Skapa tillgänglig PDF med Aspose.Pdf – Steg‑för‑steg‑guide](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Lär dig hur du skapar en tillgänglig PDF med Aspose.Pdf genom en detaljerad steg‑för‑steg‑guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

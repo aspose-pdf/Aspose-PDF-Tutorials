@@ -40,6 +40,7 @@ Les tutoriels « Programmation avec tampons et filigranes » d'Aspose.PDF pour
 | [Texte dans le pied de page du fichier PDF](./text-in-footer/) | Apprenez à ajouter du texte dans le pied de page d'un fichier PDF avec Aspose.PDF pour .NET. |  
 | [Texte dans l'en-tête du fichier PDF](./text-in-header/) | Apprenez à ajouter des en-têtes de texte à vos PDF avec Aspose.PDF pour .NET grâce à ce tutoriel étape par étape. Améliorez vos documents efficacement. |  
 | [Ajouter une numérotation Bates PDF en C# – Guide complet](./add-bates-numbering-pdf-in-c-complete-guide/) | Apprenez à ajouter une numérotation Bates à vos fichiers PDF avec Aspose.PDF pour .NET en suivant ce guide complet étape par étape. |  
+| [Comment ajouter un repère Bates – Guide étape par étape pour les PDF](./how-to-add-bates-step-by-step-guide-for-pdfs/) | Apprenez à ajouter des repères Bates à vos fichiers PDF avec Aspose.PDF pour .NET grâce à ce guide détaillé. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

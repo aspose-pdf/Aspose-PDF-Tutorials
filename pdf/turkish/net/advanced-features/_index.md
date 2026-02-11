@@ -23,6 +23,9 @@ Aspose.PDF for .NET ile etiketli PDF'lerdeki alt öğelere nasıl erişeceğiniz
 ### [.NET için Aspose.PDF Kullanarak PDF'lere Renkli Çizgi Katmanları Ekleme: Kapsamlı Bir Kılavuz](./add-colored-lines-pdfs-using-aspose-pdf-net/)
 Aspose.PDF for .NET kullanarak renkli çizgi katmanları ekleyerek PDF belgelerinizi nasıl geliştireceğinizi öğrenin. Bu kılavuz adım adım talimatlar ve pratik uygulamalar sağlar.
 
+### [C#'ta PDF Şeffaflığını Düzenleme – Adım Adım Kılavuz](./edit-pdf-transparency-in-c-step-by-step-guide/)
+C# ve Aspose.PDF for .NET kullanarak PDF dosyalarındaki şeffaflık ayarlarını nasıl düzenleyeceğinizi adım adım öğrenin.
+
 ### [Aspose.PDF .NET: Etiketleme ile PDF Erişilebilirliğini Geliştirme](./aspose-pdf-net-accessible-tagging-guide/)
 PDF'lerde erişilebilir etiketleme için Aspose.PDF .NET'i nasıl kullanacağınızı öğrenin. Başlıkları, dilleri ve mantıksal yapıları kolayca ayarlayın.
 

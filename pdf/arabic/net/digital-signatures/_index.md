@@ -53,6 +53,7 @@
 تعلم كيفية التحقق من توقيع PDF وإدراج شكل مستطيل في المستند باستخدام مكتبة Aspose.PDF لـ .NET.
 ### [تصدير PDF إلى HTML والتحقق من توقيع PDF باستخدام Aspose](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
 تعلم كيفية تصدير ملفات PDF إلى HTML والتحقق من صحة توقيع PDF باستخدام مكتبة Aspose.
+### [كيفية التحقق من التوقيع في PDF باستخدام Aspose.PDF – دليل C#](./how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/)
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

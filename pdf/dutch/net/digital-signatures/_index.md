@@ -55,6 +55,8 @@ Leer hoe u een ondertekend PDF-document laadt en alle bijbehorende handtekeninge
 Leer hoe u een PDF-handtekening verifieert en een rechthoek toevoegt met Aspose.PDF in .NET.
 ### [PDF exporteren naar HTML en PDF-handtekening valideren met Aspose](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
 Leer hoe u PDF-bestanden exporteert naar HTML en de digitale handtekening controleert met Aspose.PDF voor .NET.
+### [Hoe handtekening in PDF te verifiëren met Aspose.Pdf – C#-gids](./how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/)
+Leer hoe u digitale handtekeningen in PDF's kunt verifiëren met Aspose.Pdf in C#.
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

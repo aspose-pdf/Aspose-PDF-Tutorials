@@ -47,8 +47,8 @@ Aspose.PDF for .NET के "टैग किए गए PDF के साथ प�
 | [पीडीएफ फाइल को मान्य करें](./validate-pdf/) | .NET के लिए Aspose.PDF के साथ PDF फ़ाइल को सत्यापित करना सीखें। मानकों के साथ इसके अनुपालन की जाँच करें और एक सत्यापन रिपोर्ट तैयार करें। |  
 | [C# में टैग्ड PDF बनाएं – पूर्ण चरण-दर-चरण गाइड](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | C# के लिए Aspose.PDF का उपयोग करके टैग्ड PDF बनाने की पूरी चरण-दर-चरण मार्गदर्शिका। |
 | [Aspose के साथ PDF को सुलभ बनाएं: पैराग्राफ PDF डालें चरण‑दर‑चरण](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Aspose.PDF for .NET का उपयोग करके PDF में पैराग्राफ जोड़कर उसे सुलभ बनाने की चरण‑दर‑चरण मार्गदर्शिका। |
-
 | [C# में टैग की गई PDF बनाएं – शीर्षक और सुलभ टेक्स्ट जोड़ें](./create-tagged-pdf-in-c-add-heading-accessible-text/) | .NET के लिए Aspose.PDF का उपयोग करके C# में शीर्षक और सुलभ टेक्स्ट के साथ टैग्ड PDF बनाने की चरण-दर-चरण मार्गदर्शिका। |  
+| [Aspose.Pdf के साथ सुलभ PDF बनाएं – चरण-दर-चरण गाइड](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Aspose.Pdf का उपयोग करके सुलभ PDF बनाने की पूरी प्रक्रिया सीखें। चरण-दर-चरण मार्गदर्शिका। |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

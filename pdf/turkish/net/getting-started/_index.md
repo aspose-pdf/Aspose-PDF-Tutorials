@@ -32,6 +32,9 @@ Aspose.PDF Net için bir kod öğreticisi
 ### [.NET'te Dosyadan Aspose.PDF Lisansını Yükleme: Kapsamlı Bir Kılavuz](./load-aspose-pdf-license-file-net/)
 .NET'te Aspose.PDF için deneme ve lisanslı modlar arasında sorunsuz bir şekilde geçiş yapmayı öğrenmek için bir lisans dosyası yükleyin ve uygulamanın sorunsuz çalışmasını sağlayın.
 
+### [Aspose Nasıl Kurulur – Belirli Sürümler İçin PowerShell Kılavuzu](./how-to-install-aspose-powershell-guide-for-specific-versions/)
+Belirli Aspose sürümlerini PowerShell kullanarak nasıl kuracağınızı adım adım öğrenin.
+
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)

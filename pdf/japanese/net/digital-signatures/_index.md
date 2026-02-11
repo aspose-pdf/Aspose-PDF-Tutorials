@@ -53,6 +53,8 @@ C# を使用して署名済み PDF を読み込み、含まれる署名情報を
 Aspose.PDF for .NET を使用して、PDF のデジタル署名を検証し、矩形注釈を追加する方法をステップバイステップで解説します。
 ### [Aspose を使用して PDF を HTML にエクスポートし、PDF 署名を検証する](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
 このチュートリアルでは、Aspose を使って PDF を HTML に変換し、同時に PDF のデジタル署名を検証する方法を学びます。
+### [Aspose.Pdf で PDF の署名を検証する方法 – C# ガイド](./how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/)
+Aspose.Pdf を使用して PDF のデジタル署名を検証する手順とサンプルコードを解説します。
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)

@@ -32,6 +32,9 @@ Výukový program pro kódování Aspose.PDF Net
 ### [Načítání licence Aspose.PDF ze souboru v .NET: Komplexní průvodce](./load-aspose-pdf-license-file-net/)
 Naučte se, jak bezproblémově přepínat mezi zkušebním a licencovaným režimem pro Aspose.PDF v .NET načtením licenčního souboru, což zajistí bezproblémové fungování aplikace.
 
+### [Jak nainstalovat Aspose – PowerShell průvodce pro konkrétní verze](./how-to-install-aspose-powershell-guide-for-specific-versions/)
+Podrobný návod, jak pomocí PowerShell nainstalovat konkrétní verze Aspose a spravovat je v .NET projektech.
+
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)

@@ -45,6 +45,8 @@ C# में साइन किए गए PDF को लोड करके स
 Aspose का उपयोग करके PDF हस्ताक्षर को सत्यापित करने और दस्तावेज़ में आयताकार एनोटेशन जोड़ने का चरण-दर-चरण मार्गदर्शन।
 ### [Aspose के साथ PDF को HTML में निर्यात करें और PDF हस्ताक्षर सत्यापित करें](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
 Aspose का उपयोग करके PDF को HTML में बदलें और डिजिटल हस्ताक्षर को सत्यापित करें।
+### [Aspose.Pdf के साथ PDF में हस्ताक्षर कैसे सत्यापित करें – C# गाइड](./how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/)
+Aspose.Pdf का उपयोग करके C# में PDF हस्ताक्षरों को सत्यापित करने के चरण-दर-चरण मार्गदर्शन।
 ## अतिरिक्त संसाधन
 
 - [Aspose.PDF for Net दस्तावेज़ीकरण](https://docs.aspose.com/pdf/net/)

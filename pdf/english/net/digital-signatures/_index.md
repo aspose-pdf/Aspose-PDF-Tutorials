@@ -59,6 +59,8 @@ Learn how to efficiently remove digital signatures from PDFs using Aspose.PDF .N
 Learn how to verify digital signatures in PDF files using Aspose.PDF for .NET. This guide covers setup, implementation, and practical applications.
 ### [verify pdf signature in C# – Complete Guide to Validate Digital Signature PDF](./verify-pdf-signature-in-c-complete-guide-to-validate-digital/)
 Learn how to verify PDF signatures in C# using Aspose.PDF for .NET. This guide covers validation steps and best practices.
+### [How to Verify Signature in PDF with Aspose.Pdf – C# Guide](./how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/)
+Learn how to verify PDF signatures using Aspose.PDF for .NET with C# code examples, covering validation steps and best practices.
 ### [Master PDF Signing & Verification with Aspose.PDF .NET](./mastering-aspose-pdf-net-sign-verify-smart-card-certificates/)
 A code tutorial for Aspose.PDF Net
 ### [Mastering Aspose.PDF .NET&#58; How to Verify Digital Signatures in PDF Files](./aspose-pdf-net-verify-digital-signature/)

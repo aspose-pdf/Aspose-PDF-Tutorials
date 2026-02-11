@@ -57,6 +57,8 @@ Hướng dẫn cách tải tài liệu PDF đã ký và liệt kê các chữ k�
 Hướng dẫn cách xác minh chữ ký số trong PDF và vẽ hình chữ nhật lên tài liệu bằng Aspose.PDF cho .NET.
 ### [Xuất PDF sang HTML và xác thực chữ ký PDF với Aspose](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
 Hướng dẫn cách xuất PDF sang HTML và xác thực chữ ký PDF bằng Aspose.
+### [Cách xác minh chữ ký trong PDF với Aspose.Pdf – Hướng dẫn C#](./how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/)
+Hướng dẫn chi tiết cách xác minh chữ ký số trong tài liệu PDF bằng Aspose.Pdf sử dụng C#.
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)

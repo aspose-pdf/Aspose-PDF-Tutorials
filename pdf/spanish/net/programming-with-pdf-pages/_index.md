@@ -29,8 +29,8 @@ Los tutoriales incluyen instrucciones paso a paso, ejemplos de código detallado
 | [Obtener página específica](./get-particular-page/) Aprenda cómo extraer una página particular de un PDF y guardarla como un nuevo documento usando Aspose.PDF para .NET en esta guía paso a paso. |  
 | [Actualizar las dimensiones de la página PDF](./update-dimensions/) | Descubra cómo actualizar las dimensiones de páginas PDF sin esfuerzo con Aspose.PDF para .NET en esta guía completa paso a paso. |  
 | [Agregar números de página a PDF con C# – Guía completa paso a paso](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Aprenda a numerar páginas en un PDF con C# y Aspose.PDF para .NET mediante esta guía paso a paso. |  
-
 | [Agregar páginas a PDF con Aspose – Guía completa en C#](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Guía paso a paso para agregar páginas a un PDF usando Aspose.PDF en C#. |  
+| [Crear documento PDF en C# – Añadir página a PDF y rectángulo](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) | Aprenda a crear un documento PDF en C#, agregar una nueva página y dibujar un rectángulo usando Aspose.PDF para .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
