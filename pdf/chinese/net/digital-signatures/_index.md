@@ -44,6 +44,9 @@ Aspose.PDF Net 代码教程
 ### [如何使用 Aspose.PDF for .NET 验证 PDF 签名：综合指南](./verify-pdf-signatures-aspose-pdf-net/)
 学习如何使用 Aspose.PDF for .NET 验证 PDF 文件中的数字签名。本指南涵盖设置、实施和实际应用。
 
+### [如何使用 Aspose.PDF for .NET 在 PDF 中验证签名 – C# 指南](./how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/)
+本指南展示了使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名的步骤和代码示例。
+
 ### [使用 Aspose.PDF .NET 掌握 PDF 签名和验证](./mastering-aspose-pdf-net-sign-verify-smart-card-certificates/)
 Aspose.PDF Net 代码教程
 

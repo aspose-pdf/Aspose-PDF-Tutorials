@@ -32,6 +32,9 @@ Aspose.PDF Net 程式碼教學
 ### [從.NET檔案載入Aspose.PDF許可證：綜合指南](./load-aspose-pdf-license-file-net/)
 了解如何透過載入授權檔案在 .NET 中無縫切換 Aspose.PDF 的試用模式和授權模式，確保應用程式功能順暢。
 
+### [如何安裝 Aspose – 針對特定版本的 PowerShell 指南](./how-to-install-aspose-powershell-guide-for-specific-versions/)
+本指南說明如何使用 PowerShell 為不同版本的 Aspose 進行安裝與配置。
+
 ## 其他資源
 
 - [Aspose.PDF 用於網頁文檔](https://docs.aspose.com/pdf/net/)

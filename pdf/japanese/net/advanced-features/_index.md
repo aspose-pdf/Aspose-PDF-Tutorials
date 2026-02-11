@@ -62,6 +62,9 @@ Aspose.PDF for .NET を使用して、PDF/UA-1 標準に準拠したアクセシ
 ### [Aspose.PDF .NET でアクセシブルな PDF 作成をマスター: スタイル付きテーブルを使ったタグ付き PDF の作成](./aspose-pdf-net-tagged-pdfs-styled-tables/)
 Aspose.PDF for .NET を使用して、アクセシビリティ対応でスタイル設定されたタグ付きPDFドキュメントを作成する方法を学びます。構造化されたテーブルと強化されたアクセシビリティを備えた、準拠したPDFの作成をマスターしましょう。
 
+### [C#でPDFの透過性を編集する – ステップバイステップ ガイド](./edit-pdf-transparency-in-c-step-by-step-guide/)
+C# と Aspose.PDF を使用して、PDF の透過属性を編集し、透明効果をカスタマイズする方法を学びます。
+
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)

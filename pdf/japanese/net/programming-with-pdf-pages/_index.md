@@ -37,6 +37,7 @@ Aspose.PDF for .NET の「PDF ページを使ったプログラミング」ド�
 | [ページに分割](./split-to-pages/) この包括的なチュートリアルでは、Aspose.PDF for .NET を使用して PDF を簡単に個別のページに分割できます。ステップバイステップのガイドも含まれています。 |  
 | [PDFページサイズの更新](./update-dimensions/) この包括的なステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF ページのサイズを簡単に更新する方法を説明します。 |  
 | [PDFファイルのページコンテンツにズーム](./zoom-to-page-contents/) この包括的なガイドでは、Aspose.PDF for .NET を使用して PDF ファイルのページコンテンツを拡大する方法を学習します。特定のニーズに合わせて PDF ドキュメントを強化しましょう。 |  
+| [C# で PDF ドキュメントを作成 – PDF にページと矩形を追加](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) Aspose.PDF for .NET を使用して、C# で新しい PDF を作成し、ページと矩形オブジェクトを追加する手順をステップバイステップで解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

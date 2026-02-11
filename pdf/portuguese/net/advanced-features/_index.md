@@ -62,6 +62,9 @@ Aprenda a usar o Aspose.PDF para .NET para validar e processar documentos PDF ac
 ### [Dominando a criação de PDF acessível com Aspose.PDF .NET: Criando PDFs marcados com tabelas estilizadas](./aspose-pdf-net-tagged-pdfs-styled-tables/)
 Aprenda a criar documentos PDF acessíveis, estilizados e marcados usando o Aspose.PDF para .NET. Domine a criação de PDFs compatíveis com tabelas estruturadas e acessibilidade aprimorada.
 
+### [Editar transparência de PDF em C# – Guia passo a passo](./edit-pdf-transparency-in-c-step-by-step-guide/)
+Aprenda a modificar a transparência de objetos em PDFs usando Aspose.PDF para .NET com exemplos práticos em C#.
+
 ## Recursos adicionais
 
 - [Aspose.PDF para documentação da Net](https://docs.aspose.com/pdf/net/)

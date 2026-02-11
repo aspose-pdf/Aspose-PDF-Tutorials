@@ -20,7 +20,7 @@ Aspose.PDF의 .NET용 "스탬프 및 워터마크 프로그래밍" 튜토리얼�
 ## 튜토리얼
 | 제목 | 설명 |
 | --- | --- | 
-| [PDF 파일에 날짜 시간 스탬프 추가](./add-date-time-stamp/) Aspose.PDF for .NET을 사용하여 PDF 파일에 날짜 및 시간 스탬프를 추가하는 방법을 단계별 가이드를 통해 알아보세요. 문서의 신뢰성을 높이는 데 매우 유용합니다. |  
+| [PDF 파일에 날짜 시간 스탬프 추가](./add-date-time-stamp/) Aspose.PDF for .NET을 사용하여 PDF 파일에 날짜 및 시간 스탬프를 추가하는 방법을 단계별 가이드를 통해 알아보세요. 문서의 신뢰성을 높이는 데 매우 유용합니다. |  |
 | [PDF 파일에 이미지 스탬프 추가](./add-image-stamp/) | Aspose.PDF for .NET을 사용하여 단계별 지침과 예제 코드를 통해 PDF 파일에 이미지 스탬프를 추가하는 방법을 알아보세요. |  
 | [PDF 파일에 다른 헤더 추가](./adding-different-headers/) | Aspose.PDF for .NET을 사용하여 PDF 파일에 다양한 헤더를 추가하는 방법을 알아보세요. PDF 파일을 사용자 지정하기 위한 단계별 가이드입니다. |  
 | [PDF 파일에 PDF 페이지 스탬프 추가](./add-pdf-page-stamp/) | Aspose.PDF for .NET을 사용하여 PDF 페이지 스탬프를 추가하는 방법을 이 자세한 가이드를 통해 알아보세요. PDF 문서의 효과를 높여 보세요. |  
@@ -39,6 +39,7 @@ Aspose.PDF의 .NET용 "스탬프 및 워터마크 프로그래밍" 튜토리얼�
 | [헤더 푸터 섹션의 테이블](./table-in-header-footer-section/) | Aspose.PDF for .NET을 사용하여 PDF 파일의 바닥글에 텍스트를 쉽게 추가하는 방법을 알아보세요. 원활한 통합을 위해 단계별 가이드가 포함되어 있습니다. |  
 | [PDF 파일 바닥글의 텍스트](./text-in-footer/) | Aspose.PDF for .NET을 사용하여 PDF 파일의 바닥글에 텍스트를 추가하는 방법을 알아보세요. |  
 | [PDF 파일 헤더의 텍스트](./text-in-header/) | Aspose.PDF for .NET을 사용하여 PDF에 텍스트 헤더를 추가하는 방법을 단계별 튜토리얼을 통해 알아보세요. 문서를 효율적이고 효과적으로 개선해 보세요. |  
+| [PDF에 Bates를 추가하는 단계별 가이드](./how-to-add-bates-step-by-step-guide-for-pdfs/) | Aspose.PDF for .NET을 사용하여 PDF 문서에 Bates 번호를 추가하는 방법을 단계별로 안내합니다. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

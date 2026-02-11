@@ -44,6 +44,7 @@ Az Aspose.PDF for .NET „Címkézett PDF-ekkel való programozás” című okt
 | [Szövegblokk szerkezeti elemei](./text-block-structure-elements/) | Ismerje meg, hogyan használható az Aspose.PDF for .NET szövegblokk-szerkezeti elemek, például címsorok és címkézett bekezdések hozzáadásához egy meglévő PDF-dokumentumhoz. |  
 | [Szövegszerkezeti elemek PDF fájlban](./text-structure-elements/) Tanulja meg a PDF-ek szövegszerkezeti elemeinek kezelését az Aspose.PDF for .NET segítségével. Ez a lépésről lépésre szóló útmutató mindent tartalmaz, amire szüksége van strukturált PDF-ek létrehozásához. |  
 | [PDF fájl érvényesítése](./validate-pdf/) | Ismerje meg, hogyan validálhat egy PDF fájlt az Aspose.PDF for .NET segítségével. Ellenőrizze a szabványoknak való megfelelését, és készítsen érvényesítési jelentést. |  
+| [Akadálymentes PDF létrehozása Aspose.Pdf‑vel – Lépésről‑lépésre útmutató](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Ismerje meg, hogyan hozhat létre akadálymentes PDF-et az Aspose.Pdf segítségével lépésről‑lépésre útmutatóval. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

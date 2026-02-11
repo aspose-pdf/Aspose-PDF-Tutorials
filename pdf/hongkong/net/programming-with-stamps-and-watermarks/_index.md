@@ -39,6 +39,7 @@ Aspose.PDF 的「使用圖章和浮水印進行程式設計」.NET 教學課程�
 | [頁首頁尾部分中的表格](./table-in-header-footer-section/) |了解如何使用 Aspose.PDF for .NET 輕鬆地將文字新增至 PDF 檔案的頁尾。包含逐步指南，可實現無縫整合。 |  
 | [PDF 檔案頁尾中的文字](./text-in-footer/) |了解如何使用 Aspose.PDF for .NET 在 PDF 檔案的頁尾中新增文字。 |  
 | [PDF 檔案標題中的文本](./text-in-header/) |透過本逐步教學學習如何使用 Aspose.PDF for .NET 在 PDF 中新增文字標題。有效率且有效地增強您的文件。 |  
+| [在 PDF 檔案中新增 Bates 編號](./how-to-add-bates-step-by-step-guide-for-pdfs/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 PDF 中新增 Bates 編號，提升文件追蹤與管理。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

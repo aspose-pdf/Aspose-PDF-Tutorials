@@ -36,7 +36,8 @@ Návody obsahují podrobné pokyny, podrobné příklady kódu a jasná vysvětl
 | [Vložit prázdnou stránku na konec](./insert-empty-page-at-end/) | Naučte se v tomto průvodci pro začátečníky bez námahy vkládat prázdnou stránku do dokumentu PDF s Aspose.PDF pro .NET. Ideální pro rychlé úpravy. |  
 | [Rozdělit na stránky](./split-to-pages/) Snadno rozdělte PDF soubory na jednotlivé stránky pomocí Aspose.PDF pro .NET s tímto komplexním tutoriálem. Součástí je podrobný návod. |  
 | [Aktualizovat rozměry stránky PDF](./update-dimensions/) | Zjistěte, jak snadno aktualizovat rozměry stránek PDF pomocí Aspose.PDF pro .NET v tomto komplexním návodu krok za krokem. |  
-| [Přiblížit na obsah stránky v souboru PDF](./zoom-to-page-contents/) | V tomto komplexním průvodci se naučte, jak přiblížit obsah stránky v souborech PDF pomocí Aspose.PDF pro .NET. Vylepšete své dokumenty PDF podle svých specifických potřeb. |  
+| [Přiblížit na obsah stránky v souboru PDF](./zoom-to-page-contents/) | V tomto komplexním průvodci se naučte, jak přiblížit obsah stránky v souborech PDF pomocí Aspose.PDF pro .NET. Vylepšete své dokumenty PDF podle svých specifických potřeb. |
+| [Vytvořit PDF dokument v C# – Přidat stránku do PDF a obdélník](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) | Naučte se, jak vytvořit PDF, přidat novou stránku a kreslit obdélník pomocí Aspose.PDF pro .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
