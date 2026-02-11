@@ -44,6 +44,7 @@
 | [عناصر بنية كتلة النص](./text-block-structure-elements/) |تعرف على كيفية استخدام Aspose.PDF لـ .NET لإضافة عناصر بنية كتلة النص، مثل العناوين والفقرات المميزة، إلى مستند PDF موجود. |  
 | [عناصر بنية النص في ملف PDF](./text-structure-elements/) تعلم كيفية التعامل مع عناصر بنية النص في ملفات PDF باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل خطوة بخطوة كل ما تحتاجه لإنشاء ملفات PDF منظمة.  
 | [التحقق من صحة ملف PDF](./validate-pdf/) | تعرّف على كيفية التحقق من صحة ملف PDF باستخدام Aspose.PDF لـ .NET. تحقق من توافقه مع المعايير وأنشئ تقرير التحقق. |  
+| [إنشاء PDF قابل للوصول باستخدام Aspose.Pdf – دليل خطوة بخطوة](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | تعلم كيفية إنشاء ملفات PDF قابلة للوصول وفق معايير PDF/UA باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

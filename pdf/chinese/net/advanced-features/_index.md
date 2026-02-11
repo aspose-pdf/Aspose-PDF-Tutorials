@@ -62,6 +62,9 @@
 ### [掌握使用 Aspose.PDF .NET 创建可访问的 PDF：使用样式表制作带标签的 PDF](./aspose-pdf-net-tagged-pdfs-styled-tables/)
 学习使用 Aspose.PDF for .NET 制作易于访问、样式化且带标签的 PDF 文档。掌握如何创建具有结构化表格和增强可访问性的合规 PDF。
 
+### [使用 C# 编辑 PDF 透明度 – 步骤指南](./edit-pdf-transparency-in-c-step-by-step-guide/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中编辑 PDF 的透明度属性，实现渐变和层效果。
+
 ## 其他资源
 
 - [Aspose.PDF 用于网络文档](https://docs.aspose.com/pdf/net/)

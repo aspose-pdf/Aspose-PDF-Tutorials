@@ -62,6 +62,9 @@ Tìm hiểu cách sử dụng Aspose.PDF cho .NET để xác thực và xử lý
 ### [Làm chủ việc tạo PDF có thể truy cập được với Aspose.PDF .NET: Tạo PDF được gắn thẻ với các bảng có kiểu](./aspose-pdf-net-tagged-pdfs-styled-tables/)
 Học cách tạo các tài liệu PDF có gắn thẻ và có thể truy cập được bằng Aspose.PDF cho .NET. Làm chủ việc tạo các tệp PDF tuân thủ với các bảng có cấu trúc và khả năng truy cập được cải thiện.
 
+### [Chỉnh sửa độ trong suốt PDF bằng C# – Hướng dẫn từng bước](./edit-pdf-transparency-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách chỉnh sửa độ trong suốt của tài liệu PDF bằng C# với Aspose.PDF, bao gồm các ví dụ thực tế.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)

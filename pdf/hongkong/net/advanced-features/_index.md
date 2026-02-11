@@ -62,6 +62,9 @@
 ### [掌握使用 Aspose.PDF .NET 建立可存取的 PDF：使用樣式表製作標籤的 PDF](./aspose-pdf-net-tagged-pdfs-styled-tables/)
 學習使用 Aspose.PDF for .NET 製作可存取、帶有樣式標記的 PDF 文件。掌握如何建立具有結構化表格和增強可訪問性的兼容 PDF。
 
+### [在 C# 中編輯 PDF 透明度 – 步驟指南](./edit-pdf-transparency-in-c-step-by-step-guide/)
+了解如何在 C# 使用 Aspose.PDF 編輯 PDF 透明度屬性，實現漸層與圖層效果的詳細步驟說明。
+
 ## 其他資源
 
 - [Aspose.PDF 用於網頁文檔](https://docs.aspose.com/pdf/net/)

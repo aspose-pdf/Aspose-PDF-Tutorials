@@ -62,6 +62,9 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET barrierefreie PDF-Dokumente gemä
 ### [Barrierefreie PDF-Erstellung mit Aspose.PDF .NET meistern: Erstellen getaggter PDFs mit formatierten Tabellen](./aspose-pdf-net-tagged-pdfs-styled-tables/)
 Lernen Sie, mit Aspose.PDF für .NET barrierefreie, formatierte und getaggte PDF-Dokumente zu erstellen. Meistern Sie die Erstellung konformer PDFs mit strukturierten Tabellen und verbesserter Barrierefreiheit.
 
+### [PDF-Transparenz in C# bearbeiten – Schritt‑für‑Schritt‑Anleitung](./edit-pdf-transparency-in-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET die Transparenz von PDF-Elementen in C# anpassen und visuelle Effekte steuern.
+
 ## Weitere Ressourcen
 
 - [Aspose.PDF für Net-Dokumentation](https://docs.aspose.com/pdf/net/)

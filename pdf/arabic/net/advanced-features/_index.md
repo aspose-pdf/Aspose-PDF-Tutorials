@@ -62,6 +62,9 @@
 ### [إتقان إنشاء ملفات PDF سهلة الوصول باستخدام Aspose.PDF .NET: إنشاء ملفات PDF مُعلَّمة باستخدام جداول مُنسَّقة](./aspose-pdf-net-tagged-pdfs-styled-tables/)
 تعلم كيفية إنشاء مستندات PDF سهلة الاستخدام ومنسقة ومُعلَّمة باستخدام Aspose.PDF لـ .NET. أتقن إنشاء ملفات PDF متوافقة مع جداول منظمة وإمكانية وصول مُحسَّنة.
 
+### [تحرير شفافية PDF في C# – دليل خطوة بخطوة](./edit-pdf-transparency-in-c-step-by-step-guide/)
+تعلم كيفية تعديل شفافية ملفات PDF باستخدام Aspose.PDF لـ .NET مع أمثلة عملية بلغة C#.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

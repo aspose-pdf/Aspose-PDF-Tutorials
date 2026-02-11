@@ -62,6 +62,9 @@ Pelajari cara menggunakan Aspose.PDF untuk .NET guna memvalidasi dan memproses d
 ### [Menguasai Pembuatan PDF yang Mudah Diakses dengan Aspose.PDF .NET: Membuat PDF yang Ditandai dengan Tabel Bergaya](./aspose-pdf-net-tagged-pdfs-styled-tables/)
 Pelajari cara membuat dokumen PDF yang mudah diakses dan diberi tag dengan gaya menggunakan Aspose.PDF for .NET. Kuasai pembuatan PDF yang sesuai dengan tabel terstruktur dan aksesibilitas yang ditingkatkan.
 
+### [Edit Transparansi PDF di C# – Panduan Langkah demi Langkah](./edit-pdf-transparency-in-c-step-by-step-guide/)
+Pelajari cara mengedit tingkat transparansi elemen PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode C# langkah demi langkah.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

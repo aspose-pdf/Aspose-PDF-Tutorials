@@ -39,6 +39,7 @@
 | [الجدول في قسم الرأس والتذييل](./table-in-header-footer-section/) | تعرّف على كيفية إضافة نص بسهولة إلى تذييل ملف PDF باستخدام Aspose.PDF لـ .NET. دليل خطوة بخطوة مُرفق لضمان التكامل السلس. |  
 | [النص في تذييل ملف PDF](./text-in-footer/) |تعرف على كيفية إضافة نص في تذييل ملف PDF باستخدام Aspose.PDF لـ .NET. |  
 | [النص في رأس ملف PDF](./text-in-header/) تعلم كيفية إضافة عناوين نصية إلى ملفات PDF باستخدام Aspose.PDF لـ .NET من خلال هذا البرنامج التعليمي خطوة بخطوة. حسّن مستنداتك بكفاءة وفعالية.  
+| [كيفية إضافة Bates – دليل خطوة بخطوة لملفات PDF](./how-to-add-bates-step-by-step-guide-for-pdfs/) |تعرف على كيفية إضافة علامات Bates إلى ملفات PDF باستخدام Aspose.PDF لـ .NET من خلال دليل خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

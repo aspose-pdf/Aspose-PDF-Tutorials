@@ -62,6 +62,9 @@ Ismerje meg, hogyan használható az Aspose.PDF for .NET az akadálymentes PDF d
 ### [Akadálymentes PDF-készítés elsajátítása az Aspose.PDF .NET segítségével: Címkézett PDF-ek készítése stílusos táblázatokkal](./aspose-pdf-net-tagged-pdfs-styled-tables/)
 Tanulj meg akadálymentes, stílusos, címkézett PDF dokumentumokat készíteni az Aspose.PDF for .NET segítségével. Sajátítsd el a strukturált táblázatokkal és fokozott akadálymentesítéssel rendelkező, szabványos PDF dokumentumok létrehozását.
 
+### [PDF átlátszóság szerkesztése C#-ban – Lépésről lépésre útmutató](./edit-pdf-transparency-in-c-step-by-step-guide/)
+Tanulja meg, hogyan módosíthatja a PDF átlátszósági beállításait C#-ban az Aspose.PDF for .NET segítségével.
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)

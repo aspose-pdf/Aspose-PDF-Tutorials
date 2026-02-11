@@ -36,7 +36,8 @@ Samouczki obejmują instrukcje krok po kroku, szczegółowe przykłady kodu i ja
 | [Wstaw pustą stronę na końcu](./insert-empty-page-at-end/) | Naucz się bez wysiłku wstawiać pustą stronę do dokumentu PDF za pomocą Aspose.PDF dla .NET w tym przyjaznym dla początkujących przewodniku. Idealny do szybkich edycji. |  
 | [Podziel na strony](./split-to-pages/) Łatwo podziel pliki PDF na pojedyncze strony za pomocą Aspose.PDF dla .NET dzięki temu kompleksowemu samouczkowi. Zawiera przewodnik krok po kroku. |  
 | [Aktualizuj wymiary strony PDF](./update-dimensions/) | Dowiedz się, jak bez wysiłku aktualizować wymiary stron PDF za pomocą Aspose.PDF dla platformy .NET w tym kompleksowym przewodniku krok po kroku. |  
-| [Powiększ zawartość strony w pliku PDF](./zoom-to-page-contents/) | Dowiedz się, jak powiększać zawartość stron w plikach PDF za pomocą Aspose.PDF dla .NET w tym kompleksowym przewodniku. Ulepsz swoje dokumenty PDF zgodnie ze swoimi konkretnymi potrzebami. |  
+| [Powiększ zawartość strony w pliku PDF](./zoom-to-page-contents/) | Dowiedz się, jak powiększać zawartość stron w plikach PDF za pomocą Aspose.PDF dla .NET w tym kompleksowym przewodniku. Ulepsz swoje dokumenty PDF zgodnie ze swoimi konkretnymi potrzebami. |
+| [Utwórz dokument PDF w C# – Dodaj stronę i prostokąt](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) | Krok po kroku pokażemy, jak utworzyć dokument PDF w C#, dodać stronę i rysować prostokąt przy użyciu Aspose.PDF dla .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

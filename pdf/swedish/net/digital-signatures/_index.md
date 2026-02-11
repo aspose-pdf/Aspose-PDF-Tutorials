@@ -50,6 +50,9 @@ En kodhandledning för Aspose.PDF Net
 ### [Mastering Aspose.PDF .NET: Hur man verifierar digitala signaturer i PDF-filer](./aspose-pdf-net-verify-digital-signature/)
 Lär dig hur du verifierar digitala signaturer i PDF-filer med Aspose.PDF för .NET. Säkerställ dokumentintegritet och äkthet med vår steg-för-steg-guide.
 
+### [Hur man verifierar signatur i PDF med Aspose.Pdf – C#-guide](./how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/)
+Lär dig hur du verifierar en digital signatur i PDF-filer med Aspose.Pdf i C#.
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

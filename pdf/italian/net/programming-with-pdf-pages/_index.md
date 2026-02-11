@@ -36,7 +36,8 @@ tutorial includono istruzioni dettagliate, esempi di codice dettagliati e spiega
 | [Inserisci pagina vuota alla fine](./insert-empty-page-at-end/) | Impara a inserire una pagina vuota in un documento PDF senza sforzo con Aspose.PDF per .NET in questa guida per principianti. Perfetta per modifiche rapide. |  
 | [Dividi in pagine](./split-to-pages/) Dividi facilmente i PDF in singole pagine utilizzando Aspose.PDF per .NET con questo tutorial completo. Guida passo passo inclusa. |  
 | [Aggiorna le dimensioni della pagina PDF](./update-dimensions/) | Scopri come aggiornare senza sforzo le dimensioni delle pagine PDF con Aspose.PDF per .NET in questa guida completa e dettagliata. |  
-| [Zoom sul contenuto della pagina nel file PDF](./zoom-to-page-contents/) | Scopri come ingrandire il contenuto delle pagine nei file PDF utilizzando Aspose.PDF per .NET in questa guida completa. Ottimizza i tuoi documenti PDF in base alle tue esigenze specifiche.  
+| [Zoom sul contenuto della pagina nel file PDF](./zoom-to-page-contents/) | Scopri come ingrandire il contenuto delle pagine nei file PDF utilizzando Aspose.PDF per .NET in questa guida completa. Ottimizza i tuoi documenti PDF in base alle tue esigenze specifiche. |  
+| [Crea documento PDF in C# – Aggiungi pagina al PDF e rettangolo](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) | Guida passo passo per creare un documento PDF in C#, aggiungere una pagina e disegnare un rettangolo usando Aspose.PDF per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

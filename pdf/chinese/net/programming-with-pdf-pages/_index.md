@@ -37,6 +37,7 @@ Aspose.PDF for .NET 的“使用 PDF 页面进行编程”文档提供了分步�
 | [拆分至页面](./split-to-pages/) 使用 Aspose.PDF for .NET 轻松将 PDF 拆分为独立页面，本教程包含分步指南。|  
 | [更新 PDF 页面尺寸](./update-dimensions/) 通过这份全面的分步指南，了解如何使用 Aspose.PDF for .NET 轻松更新 PDF 页面尺寸。|  
 | [缩放至 PDF 文件中的页面内容](./zoom-to-page-contents/) 在本指南中学习如何使用 Aspose.PDF for .NET 缩放 PDF 文件中的页面内容。根据您的特定需求增强您的 PDF 文档。|  
+| [在 C# 中创建 PDF 文档 – 添加页面和矩形](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) 使用 Aspose.PDF for .NET 在 C# 中创建 PDF 文档，并向其中添加页面和矩形的分步指南。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

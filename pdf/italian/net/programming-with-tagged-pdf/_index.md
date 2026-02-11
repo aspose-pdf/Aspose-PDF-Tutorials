@@ -25,6 +25,7 @@ tutorial "Programmazione con PDF con tag" di Aspose.PDF per .NET ti guideranno n
 | [Crea elemento struttura nota](./create-note-structure-element/) Impara a creare elementi di struttura delle note nei PDF con Aspose.PDF per .NET attraverso questo tutorial dettagliato e passo dopo passo.  
 | [Crea PDF con immagine taggata](./create-pdf-with-tagged-image/) | Impara a creare un PDF con tag e immagini utilizzando Aspose.PDF per .NET. Segui la nostra guida passo passo per creare documenti accessibili e professionali. |  
 | [Crea PDF con testo taggato](./create-pdf-with-tagged-text/) | Scopri come creare PDF taggati con contenuti accessibili utilizzando Aspose.PDF per .NET in questo tutorial completo passo dopo passo.  
+| [Crea PDF accessibile con Aspose.Pdf – Guida passo‑passo](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Scopri come creare PDF accessibili passo passo con Aspose.Pdf per .NET. |  
 | [Crea elementi di struttura](./create-structure-elements/) | Scopri come creare elementi strutturali in PDF con Aspose.PDF per .NET. Una guida passo passo per migliorare l'accessibilità e l'organizzazione dei PDF. |  
 | [Crea elementi di struttura ad albero](./create-structure-elements-tree/) | Scopri come creare un albero di elementi di struttura nei documenti PDF utilizzando Aspose.PDF per .NET. Segui questa guida passo passo. |  
 | [Crea elemento tabella](./create-table-element/) Guida passo passo per creare un elemento array con Aspose.PDF per .NET. Genera facilmente PDF dinamici con tabelle. |  

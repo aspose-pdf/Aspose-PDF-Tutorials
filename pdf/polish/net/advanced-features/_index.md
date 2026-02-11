@@ -35,7 +35,7 @@ Naucz się tworzyć ustrukturyzowane, tagowane pliki PDF za pomocą Aspose.PDF d
 ### [Tworzenie dostępnych, oznaczonych plików PDF przy użyciu Aspose.PDF dla .NET: Ulepszanie tytułów, tekstu alternatywnego i układu](./enhanced-tagged-pdfs-aspose-pdf-dot-net/)
 Dowiedz się, jak tworzyć dostępne, oznaczone pliki PDF za pomocą Aspose.PDF dla .NET. Ustaw tytuły, tekst alternatywny i atrybuty układu, takie jak BBox, za pomocą C#. Popraw dostępność dokumentu.
 
-### [Tworzenie dostępnych, oznaczonych plików PDF za pomocą Aspose.PDF dla .NET: przewodnik krok po kroku](./create-tagged-pdfs-aspose-pdf-dotnet/)
+### [Tworzenie dostępnych, oznaczonych plików PDF przy użyciu Aspose.PDF dla .NET: przewodnik krok po kroku](./create-tagged-pdfs-aspose-pdf-dotnet/)
 Dowiedz się, jak tworzyć dostępne, oznaczone dokumenty PDF przy użyciu Aspose.PDF dla .NET. Ten przewodnik obejmuje konfigurację, dodawanie ilustracji i zapisywanie dokumentu.
 
 ### [Tworzenie wielojęzycznych oznaczonych plików PDF za pomocą Aspose.PDF dla .NET: kompleksowy przewodnik](./create-multilingual-tagged-pdfs-aspose-pdf-net/)
@@ -61,6 +61,9 @@ Dowiedz się, jak używać Aspose.PDF dla .NET do walidacji i przetwarzania dost
 
 ### [Opanowanie tworzenia dostępnych plików PDF za pomocą Aspose.PDF .NET: Tworzenie oznaczonych plików PDF za pomocą tabel ze stylami](./aspose-pdf-net-tagged-pdfs-styled-tables/)
 Naucz się tworzyć dostępne, stylizowane i oznaczone dokumenty PDF przy użyciu Aspose.PDF dla .NET. Opanuj tworzenie zgodnych plików PDF ze strukturalnymi tabelami i ulepszoną dostępnością.
+
+### [Edycja przezroczystości PDF w C# – przewodnik krok po kroku](./edit-pdf-transparency-in-c-step-by-step-guide/)
+Dowiedz się, jak modyfikować przezroczystość elementów w plikach PDF przy użyciu Aspose.PDF dla .NET w języku C#.
 
 ## Dodatkowe zasoby
 

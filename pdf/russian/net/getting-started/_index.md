@@ -32,6 +32,9 @@
 ### [Загрузка лицензии Aspose.PDF из файла в .NET: подробное руководство](./load-aspose-pdf-license-file-net/)
 Узнайте, как легко переключаться между пробным и лицензионным режимами Aspose.PDF в .NET, загрузив файл лицензии и обеспечив бесперебойную работу приложения.
 
+### [Как установить Aspose – руководство PowerShell для конкретных версий](./how-to-install-aspose-powershell-guide-for-specific-versions/)
+Пошаговое руководство по установке Aspose через PowerShell для выбранных версий.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.PDF для сети](https://docs.aspose.com/pdf/net/)
