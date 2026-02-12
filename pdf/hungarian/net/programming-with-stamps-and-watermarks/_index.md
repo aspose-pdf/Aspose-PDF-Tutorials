@@ -39,6 +39,7 @@ Az Aspose.PDF „Bélyegzők és vízjelek programozása” című .NET oktatóa
 | [Táblázat a fejlécben, láblécben](./table-in-header-footer-section/) | Ismerje meg, hogyan adhat hozzá egyszerűen szöveget egy PDF fájl láblécéhez az Aspose.PDF for .NET segítségével. Lépésről lépésre útmutató a zökkenőmentes integrációhoz. |  
 | [Szöveg a PDF fájl láblécében](./text-in-footer/) | Ismerje meg, hogyan adhat hozzá szöveget a PDF fájlok láblécéhez az Aspose.PDF for .NET segítségével. |  
 | [Szöveg a PDF fájl fejlécében](./text-in-header/) | Tanulja meg, hogyan adhat hozzá szöveges fejléceket PDF-ekhez az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Javítsa dokumentumai hatékonyságát és eredményességét. |  
+| [PDF átlátszóság módosítása Aspose.PDF‑vel – Teljes C# útmutató](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) Tanulja meg, hogyan módosíthatja a PDF átlátszóságát Aspose.PDF for .NET használatával ebben a részletes C# útmutatóban. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

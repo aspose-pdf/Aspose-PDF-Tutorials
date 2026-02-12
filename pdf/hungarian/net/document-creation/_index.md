@@ -74,6 +74,9 @@ Ismerje meg, hogyan hozhat létre akadálymentes, jól strukturált, címkézett
 ### [PDF füzetkészítés elsajátítása az Aspose.PDF .NET segítségével](./aspose-pdf-net-create-booklet-page-arrangement/)
 Kód oktatóanyag az Aspose.PDF Nethez
 
+### [PDF dokumentum létrehozása C# – Üres oldal hozzáadása és téglalap rajzolása](./create-pdf-document-c-add-blank-page-draw-rectangle/)
+Tanulja meg, hogyan adhat hozzá üres oldalt és rajzolhat téglalapot egy PDF dokumentumhoz C#-ban az Aspose.PDF for .NET segítségével.
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)

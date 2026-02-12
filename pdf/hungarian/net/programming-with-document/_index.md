@@ -40,7 +40,7 @@ Az anyag oktatóanyagokat tartalmaz az Aspose.PDF for .NET könyvtár dokumentum
 | [Figyelmeztetések fogadása betűtípus-helyettesítés esetén](./getwarningsforfontsubstitution/) | Ismerje meg, hogyan használható az Aspose.PDF for .NET GetWarningsForFontSubstitution funkciója a betűtípus-helyettesítési figyelmeztetések észlelésére PDF-dokumentumok megnyitásakor. |  
 | [XMP metaadatok beszerzése](./getxmpmetadata/) | Tanulja meg, hogyan kinyerhet XMP metaadatokat PDF-ekből az Aspose.PDF for .NET segítségével ebben a lépésről lépésre szóló útmutatóban. Könnyen kinyerhet értékes információkat PDF-dokumentumaiból. |  
 | [Figyelmeztetések fogadása betűtípus-helyettesítés esetén](./getwarningsforfontsubstitution/) | Ismerje meg, hogyan használható az Aspose.PDF for .NET GetWarningsForFontSubstitution funkciója a betűtípus-helyettesítési figyelmeztetések észlelésére PDF-dokumentumok megnyitásakor. |  
-| [Nagyítási tényező beolvasása PDF fájlban](./getzoomfactor/) Tanuld meg, hogyan használható az Aspose.PDF for .NET a PDF fájl nagyítási tényezőjének meghatározásához ezzel a lépésről lépésre szóló útmutatóval. |  
+| [Nagyítási tényező beolvasása PDF fájlban](./getzoomfactor/) Tanuld meg, hogyan használható az Aspose.PDF for .NET a PDF fájl nagyítási tényezőjének meghatározásához ezzel a lépésről lépésre útmutatóval. |  
 | [Oldalszámok elrejtése a tartalomjegyzékben](./hidepagenumbersintoc/) | Tanulja meg, hogyan rejtheti el az oldalszámokat a tartalomjegyzékben az Aspose.PDF for .NET használatával. Kövesse ezt a részletes útmutatót kódpéldákkal professzionális PDF-ek létrehozásához. |  
 | [Duplikált streamek összekapcsolása](./linkduplicatestreams/) | Ismerje meg, hogyan csatolhat ismétlődő adatfolyamokat PDF dokumentumokban az Aspose.PDF for .NET használatával. Optimalizálja PDF fájljait a jobb teljesítmény és a fájlméret csökkentése érdekében. |  
 | [PDF dokumentum optimalizálása](./optimizedocument/) | Tanulja meg, hogyan optimalizálhatja a PDF dokumentumokat az Aspose.PDF for .NET segítségével lépésről lépésre haladó útmutatónkkal. Növelje a webes teljesítményt a fájlméret és a bonyolultság csökkentésével. |  
@@ -58,6 +58,7 @@ Az anyag oktatóanyagokat tartalmaz az Aspose.PDF for .NET könyvtár dokumentum
 | [PDF AB szabvány érvényesítése](./validatepdfabstandard/) Ebben a lépésről lépésre szóló útmutatóban megtudhatja, hogyan validálhatja a PDF-fájlokat PDF/A-1b szabványnak megfelelően az Aspose.PDF for .NET használatával. Biztosítsa a megfelelőséget a hosszú távú archiváláshoz. |  
 | [PDF fájlok validálása szabványként](./validatepdfastandard/) | Ebben az átfogó, lépésről lépésre bemutató útmutatóban megtudhatja, hogyan validálhatja a PDF-fájlokat a PDF/A-1a szabvány alapján az Aspose.PDF for .NET használatával. |  
 | [PDF UA szabvány validálása](./validatepdfuastandard/) | Tanulja meg, hogyan validálhatja a PDF-fájlokat a PDF/UA akadálymentesítési szabványnak megfelelően az Aspose.PDF for .NET használatával lépésről lépésre bemutatott útmutatónkkal és részletes magyarázatainkkal. |  
+| [PDF fájlok javítása – lépésről‑lépésre útmutató az Aspose.Pdf használatával](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Ismerje meg, hogyan javíthatja meg a hibás PDF fájlokat az Aspose.Pdf segítségével lépésről‑lépésre útmutatóval. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

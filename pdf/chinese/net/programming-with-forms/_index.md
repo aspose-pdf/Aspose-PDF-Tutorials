@@ -50,6 +50,8 @@ Aspose.PDF for .NET“表单编程”教程是开发人员创建和操作交互�
 | [设置 Java 脚本](./set-java-script/) 解锁 Aspose.PDF for .NET 的强大功能。通过我们的分步指南学习如何在表单字段上设置 JavaScript。|  
 | [设置单选按钮标题](./set-radio-button-caption/) 了解如何使用 Aspose.PDF for .NET 在 PDF 中设置单选按钮标题。本分步指南将引导您完成 PDF 表单的加载、修改和保存。|  
 | [文本框](./text-box/) 通过本分步指南，了解如何使用 Aspose.PDF for .NET 轻松地将文本框添加到 PDF。增强用户交互。|  
+| [使用多个文本框小部件创建 PDF 文档 – 步骤详解指南](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) 通过本分步指南学习如何使用 Aspose.PDF for .NET 在 PDF 中创建包含多个文本框小部件的文档。|  
+| [向 PDF 添加 Bates 编号 – 步骤详解 C# 指南](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) 通过本分步教程，学习使用 Aspose.PDF for .NET 在 PDF 中添加 Bates 编号，实现文档标识和管理。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

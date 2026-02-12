@@ -56,6 +56,8 @@ Dowiesz się, jak określać ustawienia konwersji, wyodrębniać tekst i obrazy,
 | [XML do PDF](./xml-to-pdf/) | Dowiedz się, jak konwertować pliki XML do PDF za pomocą Aspose.PDF dla platformy .NET w tym kompleksowym samouczku krok po kroku, uzupełnionym o przykłady kodu i szczegółowe wyjaśnienia. |  
 | [Ścieżka obrazu XML do PDFUstaw](./xml-to-pdfset-image-path/) | Dowiedz się, jak bez wysiłku konwertować XML do PDF za pomocą Aspose.PDF dla .NET. Ten szczegółowy przewodnik przeprowadzi Cię przez proces krok po kroku, od konfiguracji do ukończenia. |  
 | [XPS do PDF](./xps-to-pdf/) Dowiedz się, jak konwertować pliki XPS do PDF za pomocą Aspose.PDF dla .NET dzięki temu samouczkowi krok po kroku. Idealne dla programistów i entuzjastów dokumentów. |  
+| [Zapisz PDF jako HTML – Zachowaj wektory i wyłącz rasteryzację](./save-pdf-as-html-keep-vectors-disable-rasterization/) | Dowiedz się, jak zapisać PDF jako HTML zachowując wektory i wyłączając rasteryzację przy użyciu Aspose.PDF dla .NET. |
+| [Jak zapisać PDF przy użyciu Aspose – Kompletny przewodnik konwersji C#](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) | Dowiedz się, jak zapisać PDF przy użyciu Aspose w pełnym przewodniku konwersji C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

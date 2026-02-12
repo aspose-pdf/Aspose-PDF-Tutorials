@@ -74,6 +74,9 @@
 ### [Κατακτήστε τη δημιουργία φυλλαδίων PDF με το Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Ένα σεμινάριο κώδικα για το Aspose.PDF Net
 
+### [Δημιουργία εγγράφου PDF C# – Προσθήκη κενής σελίδας & Σχεδίαση ορθογωνίου](./create-pdf-document-c-add-blank-page-draw-rectangle/)
+Μάθετε πώς να δημιουργήσετε PDF σε C#, προσθέτοντας κενή σελίδα και σχεδιάζοντας ορθογώνιο.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.PDF για τεκμηρίωση δικτύου](https://docs.aspose.com/pdf/net/)

@@ -56,6 +56,8 @@ leert hoe u conversie-instellingen opgeeft, tekst en afbeeldingen extraheert, de
 | [XML naar PDF](./xml-to-pdf/) | Leer hoe u XML naar PDF kunt converteren met Aspose.PDF voor .NET in deze uitgebreide stapsgewijze tutorial, compleet met codevoorbeelden en gedetailleerde uitleg. |  
 | [XML naar PDFSet-afbeeldingspad](./xml-to-pdfset-image-path/) | Leer hoe u moeiteloos XML naar PDF converteert met Aspose.PDF voor .NET. Deze gedetailleerde handleiding leidt u stap voor stap door het proces, van installatie tot voltooiing. |  
 | [XPS naar PDF](./xps-to-pdf/) Leer hoe u XPS-bestanden naar PDF converteert met Aspose.PDF voor .NET met deze stapsgewijze tutorial. Perfect voor ontwikkelaars en documentliefhebbers. |  
+| [Hoe PDF opslaan met Aspose – Complete C# conversiegids](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) | Leer hoe u PDF-bestanden opslaat met Aspose in C# met een volledige stap‑voor‑stap conversiegids. |  
+| [PDF opslaan als HTML – Vectoren behouden & rasterisatie uitschakelen](./save-pdf-as-html-keep-vectors-disable-rasterization/) | Leer hoe u PDF's opslaat als HTML, waarbij vectoren behouden blijven en rasterisatie wordt uitgeschakeld, met Aspose.PDF voor .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

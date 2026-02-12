@@ -28,6 +28,7 @@ Aspose.PDF for .NET 的「使用標記 PDF 進行程式設計」教學課程將�
 | [建立結構元素](./create-structure-elements/) |了解如何使用 Aspose.PDF for .NET 在 PDF 中建立結構元素。增強 PDF 可訪問性和組織性的逐步指南。 |  
 | [建立結構元素樹](./create-structure-elements-tree/) |了解如何使用 Aspose.PDF for .NET 在 PDF 文件中建立結構元素樹。請按照本逐步指南進行操作。 |  
 | [建立表元素](./create-table-element/) |使用 Aspose.PDF for .NET 建立陣列元素的逐步指南。輕鬆產生帶有表格的動態 PDF。 |  
+| [在 C# 中建立標記 PDF – 逐步指南](./create-tagged-pdf-in-c-step-by-step-guide/) |透過本逐步指南，學習如何使用 Aspose.PDF for .NET 在 C# 中建立符合 PDF/UA 標準的標記 PDF。 |  
 | [自訂標籤名稱](./custom-tag-name/) |使用 Aspose.PDF for .NET 自訂標籤名稱的逐步指南。使用自訂標籤改善 PDF 的結構。 |  
 | [插圖結構元素](./illustration-structure-elements/) |按照我們的逐步教程，在 Aspose.PDF for .NET 中建立帶有插圖元素的結構化 PDF。 |  
 | [內聯結構元素](./inline-structure-elements/) |使用 Aspose.PDF for .NET 線上結構元素的逐步指南。使用標題和段落來組織您的 PDF。 |  

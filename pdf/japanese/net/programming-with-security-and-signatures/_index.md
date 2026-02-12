@@ -33,6 +33,9 @@
 | [PDF ファイルに権限を設定する](./set-privileges/) Aspose.PDF for .NET を使用してPDFの権限を設定する方法をステップバイステップで解説します。ドキュメントを効果的に保護しましょう。 |  
 | [PDFファイルの署名を使用してスマートカードで署名する](./sign-with-smart-card-using-pdf-file-signature/) Aspose.PDF for .NET を使ってスマートカードでPDFファイルに署名する方法を学びましょう。安全なデジタル署名を実現するには、このステップバイステップガイドに従ってください。 |  
 | [署名フィールドを使用してスマートカードで署名する](./sign-with-smart-card-using-signature-field/) Aspose.PDF for .NET を使ってスマートカードで安全に PDF に署名する方法を学びましょう。ステップバイステップのガイドに従って簡単に実装できます。 |  
+| [C# で PDF デジタル署名を検証する – 完全ガイド](./verify-pdf-digital-signature-in-c-complete-guide/) Aspose.PDF for .NET を使用して、C# で PDF のデジタル署名を検証する方法をステップバイステップで解説します。 |  
+| [C# で PDF 署名を検証する – ステップバイステップ ガイド](./validate-pdf-signature-in-c-step-by-step-guide/) Aspose.PDF for .NET を使用して、C# で PDF のデジタル署名を検証する方法を学びます。ステップバイステップで解説します。 |  
+| [PDF 署名ハンドラの作成 – C# で署名を一覧表示](./create-pdf-signature-handler-list-signatures-in-c/) Aspose.PDF for .NET を使用して、C# で PDF の署名ハンドラを作成し、署名一覧を取得する方法を学びます。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

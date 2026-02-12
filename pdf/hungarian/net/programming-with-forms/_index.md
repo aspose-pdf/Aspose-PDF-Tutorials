@@ -50,6 +50,8 @@ Ezek az oktatóanyagok részletes kódpéldákat, világos magyarázatokat és i
 | [Java szkript beállítása](./set-java-script/) | Engedd szabadjára az Aspose.PDF for .NET erejét. Tanuld meg, hogyan állíthatsz be JavaScriptet az űrlapmezőkön lépésről lépésre bemutató útmutatónkkal. |  
 | [Rádiógomb feliratának beállítása](./set-radio-button-caption/) Ismerje meg, hogyan állíthat be választógomb-feliratokat PDF-fájlokban az Aspose.PDF for .NET használatával. Ez a lépésről lépésre szóló útmutató végigvezeti Önt a PDF-űrlapok betöltésén, módosításán és mentésén. |  
 | [Szövegdoboz](./text-box/) | Fedezze fel, hogyan adhat könnyedén szövegdobozokat PDF-fájlokhoz az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Fokozza a felhasználói interakciót. |  
+| [Bates-számok hozzáadása PDF-ekhez – Lépésről lépésre C# útmutató](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Tanulja meg, hogyan adhat hozzá Bates-számokat PDF dokumentumokhoz C#-ban az Aspose.PDF for .NET használatával. |
+| [PDF dokumentum létrehozása több szövegdoboz widgettel – Lépésről lépésre útmutató](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Lépésről lépésre bemutatja, hogyan hozhat létre PDF dokumentumot több szövegdoboz widgettel az Aspose.PDF for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -25,6 +25,7 @@ Aspose.PDF för .NET:s handledningar "Programmering med taggade PDF-filer" guida
 | [Skapa anteckningsstrukturelement](./create-note-structure-element/) Lär dig skapa anteckningsstrukturelement i PDF-filer med Aspose.PDF för .NET genom den här detaljerade steg-för-steg-handledningen. |  
 | [Skapa PDF med taggad bild](./create-pdf-with-tagged-image/) | Lär dig skapa en taggad PDF med bilder med Aspose.PDF för .NET. Följ vår steg-för-steg-guide för tillgänglig och professionell dokumentskapning. |  
 | [Skapa PDF med taggad text](./create-pdf-with-tagged-text/) | Lär dig hur du skapar taggade PDF-filer med tillgängligt innehåll med Aspose.PDF för .NET i den här omfattande steg-för-steg-handledningen. |  
+| [Skapa taggad PDF i C# – Steg‑för‑steg‑guide](./create-tagged-pdf-in-c-step-by-step-guide/) | Lär dig hur du skapar en taggad PDF i C# med en detaljerad steg‑för‑steg‑guide. |  
 | [Skapa strukturelement](./create-structure-elements/) | Lär dig hur du skapar strukturelement i PDF med Aspose.PDF för .NET. En steg-för-steg-guide för förbättrad PDF-tillgänglighet och organisation. |  
 | [Skapa strukturelementträd](./create-structure-elements-tree/) | Lär dig hur du skapar ett strukturelementträd i PDF-dokument med Aspose.PDF för .NET. Följ den här steg-för-steg-guiden. |  
 | [Skapa tabellelement](./create-table-element/) Steg-för-steg-guide för att skapa ett arrayelement med Aspose.PDF för .NET. Generera enkelt dynamiska PDF-filer med tabeller. |  
