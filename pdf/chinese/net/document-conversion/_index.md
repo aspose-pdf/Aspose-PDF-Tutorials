@@ -26,6 +26,7 @@
 | [EPUB 转 PDF](./epub-to-pdf/) 学习如何使用 Aspose.PDF for .NET 将 EPUB 转换为 PDF，本指南一步步讲解。简单高效，适合所有用户。|  
 | [获取 SVG 尺寸](./get-svg-dimensions/) 学习如何使用 Aspose.PDF for .NET 将 SVG 文件转换为 PDF，本指南一步步讲解。非常适合需要处理 PDF 文件的开发人员。|  
 | [HTML 转 PDF](./html-to-pdf/) | 通过本全面的分步指南了解如何使用 Aspose.PDF for .NET 将 HTML 转换为 PDF。|  
+| [将 PDF 保存为 HTML – 保持矢量并禁用光栅化](./save-pdf-as-html-keep-vectors-disable-rasterization/) | 通过本分步指南了解如何使用 Aspose.PDF for .NET 将 PDF 保存为 HTML，保持矢量内容并禁用光栅化。|  
 | [Markdown 转 PDF](./markdown-to-pdf/) | 在本分步教程中学习如何使用 Aspose.PDF for .NET 将 Markdown 转换为 PDF。非常适合希望简化文档转换的开发人员。|  
 | [MHT 转 PDF](./mht-to-pdf/) | 在本分步教程中学习如何使用 Aspose.PDF for .NET 将 MHT 文件转换为 PDF。轻松高效的文档转换。|  
 | [根据图像尺寸调整页面方向](./page-orientation-according-image-dimensions/) 在本分步指南中了解如何使用 Aspose.PDF for .NET 创建 PDF，并根据图像尺寸设置页面方向。|  
@@ -56,6 +57,7 @@
 | [XML 转 PDF](./xml-to-pdf/) | 通过本全面的分步教程学习如何使用 Aspose.PDF for .NET 将 XML 转换为 PDF，其中包含代码示例和详细解释。|  
 | [XML 转 PDFSet 图像路径](./xml-to-pdfset-image-path/) 学习如何使用 Aspose.PDF for .NET 轻松将 XML 转换为 PDF。本指南将逐步指导您完成从设置到完成的整个过程。|  
 | [XPS 转 PDF](./xps-to-pdf/) 学习如何使用 Aspose.PDF for .NET 将 XPS 文件转换为 PDF，本教程循序渐进，非常适合开发人员和文档爱好者。|  
+| [如何使用 Aspose 保存 PDF – 完整的 C# 转换指南](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) 通过本分步指南了解如何使用 Aspose.PDF for .NET 在 C# 中保存 PDF，涵盖完整的转换流程。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

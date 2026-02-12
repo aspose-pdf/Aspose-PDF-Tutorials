@@ -31,14 +31,15 @@ Los tutoriales de Aspose.PDF "Programación con sellos y marcas de agua" para .N
 | [Rellenar texto de trazo en archivo PDF](./fill-stroke-text/) | Aprenda a rellenar texto con trazos en archivos PDF sin esfuerzo usando Aspose.PDF para .NET con esta guía paso a paso repleta de ejemplos prácticos. |  
 | [Obtener marca de agua de archivo PDF](./get-watermark/) Aprenda a extraer marcas de agua de archivos PDF con Aspose.PDF para .NET con una guía paso a paso. Tutorial detallado para la extracción de marcas de agua.  
 | [Imagen y número de página en la sección de encabezado y pie de página](./image-and-page-number-in-header-footer-section/) Aprenda cómo agregar una imagen y números de página al encabezado y pie de página de su PDF usando Aspose.PDF para .NET en este tutorial paso a paso.  
-| [Imagen y número de página en la sección de encabezado y pie de página en línea](./image-and-page-number-in-header-footer-section-inline/) | Aprenda cómo agregar una imagen y un número de página en línea en la sección de encabezado de un PDF usando Aspose.PDF para .NET con esta guía paso a paso. |  
+| [Imagen y número de página en la sección de encabezado y pie de página en línea](./image-and-page-number-in-header-footer-section-inline/) | Aprenda cómo agregar una imagen y un número de página en línea en la sección del encabezado de un PDF usando Aspose.PDF para .NET con esta guía paso a paso. |  
 | [Imagen en pie de página](./image-in-footer/) Aprenda a añadir una imagen al pie de página de un PDF con Aspose.PDF para .NET con este detallado tutorial paso a paso. Ideal para mejorar sus documentos.  
 | [Imagen en el encabezado](./image-in-header/) | Aprenda a agregar una imagen al encabezado de un PDF usando Aspose.PDF para .NET en este tutorial paso a paso.  
 | [Número de página en el encabezado y pie de página mediante cuadro flotante](./page-number-in-header-footer-using-floating-box/) | Agregue fácilmente números de página en el encabezado y pie de página de su PDF usando un cuadro flotante con Aspose.PDF para .NET en este tutorial paso a paso.  
 | [Sellos de número de página en archivos PDF](./page-number-stamps/) Aprenda cómo agregar sellos de número de página a archivos PDF usando Aspose.PDF para .NET a través de nuestra guía fácil de seguir, completa con un ejemplo de código. |  
 | [Tabla en la sección de encabezado y pie de página](./table-in-header-footer-section/) Aprenda a agregar texto fácilmente al pie de página de un archivo PDF con Aspose.PDF para .NET. Incluye una guía paso a paso para una integración perfecta.  
-| [Texto en el pie de página del archivo PDF](./text-in-footer/) | Aprenda a agregar texto en el pie de página de un archivo PDF con Aspose.PDF para .NET. |  
-| [Texto en el encabezado del archivo PDF](./text-in-header/) Aprenda a agregar encabezados de texto a archivos PDF con Aspose.PDF para .NET con este tutorial paso a paso. Mejore sus documentos de forma eficiente y eficaz.  
+| [Texto en el pie de página del archivo PDF](./text-in-footer/) | Aprenda a agregar texto en el pie de página de un PDF con Aspose.PDF para .NET. |  
+| [Texto en el encabezado del archivo PDF](./text-in-header/) Aprende a agregar encabezados de texto a archivos PDF con Aspose.PDF para .NET con este tutorial paso a paso. Mejore sus documentos de forma eficiente y eficaz.  
+| [Cambiar la opacidad del PDF con Aspose.PDF – Guía completa en C#](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) | Aprenda a modificar la opacidad de un PDF usando Aspose.PDF en C# con esta guía paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

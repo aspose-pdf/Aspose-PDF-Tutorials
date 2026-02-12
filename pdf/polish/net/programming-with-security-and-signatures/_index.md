@@ -29,10 +29,13 @@ Samouczek zapewnia szczegółowy przegląd metod i technik zapewniających poufn
 | [Zaszyfruj plik PDF](./encrypt/) | Dowiedz się, jak bez wysiłku szyfrować pliki PDF za pomocą Aspose.PDF dla .NET. Zabezpiecz poufne informacje dzięki naszemu prostemu przewodnikowi krok po kroku. |  
 | [Ekstrakcja obrazu](./extracting-image/) | Łatwo naucz się wyodrębniać obrazy z plików PDF za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bezproblemowo wyodrębniać obrazy. |  
 | [Wyodrębnij informacje o podpisie](./extract-signature-info/) | Dowiedz się, jak wyodrębnić podpisy cyfrowe i informacje o certyfikacie z dokumentów PDF przy użyciu Aspose.PDF dla .NET. Kompletny przewodnik krok po kroku dla programistów C#. |  
+| [Utwórz obsługę podpisu PDF – wyświetlanie listy podpisów w C#](./create-pdf-signature-handler-list-signatures-in-c/) | Dowiedz się, jak w C# utworzyć obsługę podpisu PDF i wyświetlić listę podpisów w dokumencie, korzystając z Aspose.PDF dla .NET. |  
 | [Czy hasło jest chronione?](./is-password-protected/) Dowiedz się, jak sprawdzić, czy plik PDF jest chroniony hasłem za pomocą Aspose.PDF dla platformy .NET, korzystając z tego kompleksowego przewodnika krok po kroku. |  
 | [Ustaw uprawnienia w pliku PDF](./set-privileges/) | Dowiedz się, jak ustawić uprawnienia PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Skutecznie zabezpiecz swoje dokumenty. |  
 | [Podpisz za pomocą karty inteligentnej, używając podpisu pliku PDF](./sign-with-smart-card-using-pdf-file-signature/) | Dowiedz się, jak podpisywać pliki PDF za pomocą karty inteligentnej za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby uzyskać bezpieczne podpisy cyfrowe. |  
 | [Podpisz kartą inteligentną, korzystając z pola podpisu](./sign-with-smart-card-using-signature-field/) | Dowiedz się, jak bezpiecznie podpisywać pliki PDF za pomocą karty inteligentnej za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby ułatwić wdrożenie. |  
+| [Sprawdź cyfrowy podpis PDF w C# – Kompletny przewodnik](./verify-pdf-digital-signature-in-c-complete-guide/) | Dowiedz się, jak w C# zweryfikować cyfrowy podpis PDF, sprawdzając jego integralność i autentyczność przy użyciu Aspose.PDF dla .NET. |  
+| [Sprawdź podpis PDF w C# – Przewodnik krok po kroku](./validate-pdf-signature-in-c-step-by-step-guide/) | Poznaj, jak w C# zweryfikować podpis PDF, sprawdzając integralność i autentyczność dokumentu przy użyciu Aspose.PDF dla .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

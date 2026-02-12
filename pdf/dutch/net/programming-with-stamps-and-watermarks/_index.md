@@ -24,7 +24,7 @@ De tutorials "Programmeren met stempels en watermerken" van Aspose.PDF voor .NET
 | [Afbeeldingsstempel toevoegen aan PDF-bestand](./add-image-stamp/) | Leer hoe u een afbeeldingsstempel toevoegt aan PDF-bestanden met Aspose.PDF voor .NET, met stapsgewijze instructies en voorbeeldcode. |  
 | [Verschillende kopteksten toevoegen aan een PDF-bestand](./adding-different-headers/) | Leer hoe u verschillende kopteksten aan PDF-bestanden toevoegt met Aspose.PDF voor .NET. Stapsgewijze handleiding voor het aanpassen van uw PDF's. |  
 | [PDF-paginastempel toevoegen in PDF-bestand](./add-pdf-page-stamp/) | Leer hoe u een PDF-paginastempel toevoegt met Aspose.PDF voor .NET met deze gedetailleerde handleiding. Vergroot de impact van uw PDF-documenten. |  
-| [Tekststempel toevoegen in PDF-bestand](./add-text-stamp/) | Leer hoe u met behulp van Aspose.PDF voor .NET een tekststempel toevoegt aan een PDF-bestand en verbeter de presentatie van uw documenten met onze stapsgewijze handleiding. |  
+| [Tekststempel toevoegen in PDF-bestand](./add-text-stamp/) | Leer hoe u met behulp van Aspose.PDF voor .NET een tekststempel toevoegt aan een PDF-bestand en verbeter de presentatie van uw documenten met onze stapsgewijze zelfstudie. |  
 | [Artefacten tellen in PDF-bestand](./counting-artifacts/) Leer hoe u watermerken in een PDF kunt tellen met Aspose.PDF voor .NET. Stapsgewijze handleiding voor beginners, geen voorkennis vereist. |  
 | [Uitlijning in PDF-bestand definiëren](./define-alignment/) | Deze handleiding beschrijft hoe u tekstuitlijning in PDF-bestanden definieert met behulp van Aspose.PDF voor .NET, compleet met een stapsgewijze zelfstudie. |  
 | [Tekst uit stempelannotatie halen](./extract-text-from-stamp-annotation/) | Leer hoe u tekst uit een stempelannotatie in PDF kunt extraheren met Aspose.PDF voor .NET met deze stapsgewijze zelfstudie, compleet met een gedetailleerd codevoorbeeld. |  
@@ -39,6 +39,7 @@ De tutorials "Programmeren met stempels en watermerken" van Aspose.PDF voor .NET
 | [Tabel in koptekst-voettekstsectie](./table-in-header-footer-section/) | Leer hoe u eenvoudig tekst toevoegt aan de voettekst van een PDF-bestand met Aspose.PDF voor .NET. Inclusief stapsgewijze handleiding voor naadloze integratie. |  
 | [Tekst in voettekst van PDF-bestand](./text-in-footer/) | Leer hoe u tekst toevoegt in de voettekst van een PDF-bestand met Aspose.PDF voor .NET. |  
 | [Tekst in koptekst van PDF-bestand](./text-in-header/) | Leer hoe u tekstkoppen aan PDF's toevoegt met Aspose.PDF voor .NET met deze stapsgewijze tutorial. Verbeter uw documenten efficiënt en effectief. |  
+| [PDF-opaciteit wijzigen met Aspose.PDF – Complete C#-gids](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) | Leer hoe u de doorzichtigheid van PDF-pagina's aanpast met Aspose.PDF voor .NET in C# met deze stapsgewijze handleiding. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

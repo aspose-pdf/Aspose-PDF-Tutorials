@@ -29,10 +29,13 @@ Das Tutorial gibt Ihnen einen detaillierten Überblick über Methoden und Techni
 | [PDF-Datei verschlüsseln](./encrypt/) | Erfahren Sie, wie Sie Ihre PDF-Dateien mühelos mit Aspose.PDF für .NET verschlüsseln. Schützen Sie vertrauliche Informationen mit unserer einfachen Schritt-für-Schritt-Anleitung. |  
 | [Bild extrahieren](./extracting-image/) | Erfahren Sie ganz einfach, wie Sie mit Aspose.PDF für .NET Bilder aus PDFs extrahieren. Folgen Sie unserer Schritt-für-Schritt-Anleitung zur nahtlosen Bildextraktion. |  
 | [Signaturinformationen extrahieren](./extract-signature-info/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET digitale Signaturen und Zertifikatsinformationen aus PDF-Dokumenten extrahieren. Eine vollständige Schritt-für-Schritt-Anleitung für C#-Entwickler. |  
+| [PDF-Signatur-Handler erstellen – Signaturen in C# auflisten](./create-pdf-signature-handler-list-signatures-in-c/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET einen PDF-Signatur-Handler erstellen und alle Signaturen in einer PDF-Datei auflisten. |  
+| [PDF-Digitale Signatur in C# überprüfen – Vollständige Anleitung](./verify-pdf-digital-signature-in-c-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET digitale Signaturen in PDF-Dateien in C# prüfen und deren Gültigkeit sicherstellen. |
 | [Ist passwortgeschützt](./is-password-protected/) Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET überprüfen, ob eine PDF-Datei passwortgeschützt ist. |  
 | [Berechtigungen in PDF-Datei festlegen](./set-privileges/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET PDF-Berechtigungen festlegen. Schützen Sie Ihre Dokumente effektiv. |  
 | [Mit Smartcard unterschreiben und PDF-Dateisignatur verwenden](./sign-with-smart-card-using-pdf-file-signature/) | Erfahren Sie, wie Sie PDF-Dateien mit einer Smartcard mit Aspose.PDF für .NET signieren. Folgen Sie dieser Schritt-für-Schritt-Anleitung für sichere digitale Signaturen. |  
 | [Mit Smartcard unterschreiben und dabei das Signaturfeld verwenden](./sign-with-smart-card-using-signature-field/) | Erfahren Sie, wie Sie PDFs mit Aspose.PDF für .NET sicher per Smartcard signieren. Folgen Sie unserer Schritt-für-Schritt-Anleitung für eine einfache Implementierung. |  
+| [PDF-Signatur in C# validieren – Schritt‑für‑Schritt‑Anleitung](./validate-pdf-signature-in-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF‑Signaturen in C# prüfen und deren Gültigkeit sicherstellen. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

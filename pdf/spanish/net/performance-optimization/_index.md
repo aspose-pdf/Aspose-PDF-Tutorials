@@ -50,6 +50,9 @@ Domine el arte de convertir archivos SVG a PDF con precisión y eficiencia usand
 ### [Desincrustar fuentes en archivos PDF con Aspose.PDF para .NET: reducir el tamaño del archivo y mejorar el rendimiento](./optimize-pdfs-unembed-fonts-aspose-pdf-net/)
 Aprenda a desincrustar fuentes de sus archivos PDF con Aspose.PDF para .NET. Optimice el rendimiento de sus archivos PDF, reduzca el tamaño de los archivos y mejore los tiempos de carga con esta guía paso a paso.
 
+### [Optimizar imágenes PDF – Reducir el tamaño del archivo PDF con C#](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
+Aprenda a reducir el tamaño de PDFs optimizando imágenes mediante C#, mejorando la velocidad y el uso de memoria.
+
 ## Recursos adicionales
 
 - [Documentación de Aspose.PDF para la red](https://docs.aspose.com/pdf/net/)

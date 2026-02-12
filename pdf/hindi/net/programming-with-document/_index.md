@@ -58,7 +58,7 @@
 | [पीडीएफ एबी मानक मान्य करें](./validatepdfabstandard/) इस चरण-दर-चरण ट्यूटोरियल में जानें कि .NET के लिए Aspose.PDF का उपयोग करके PDF/A-1b मानक के लिए PDF को कैसे मान्य किया जाए। दीर्घकालिक संग्रहण के लिए अनुपालन सुनिश्चित करें। |  
 | [पीडीएफ फाइलों को मान्य करें एक मानक](./validatepdfastandard/) | इस व्यापक चरण-दर-चरण ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF/A-1a मानक के विरुद्ध PDF फ़ाइलों को मान्य करना सीखें। |  
 | [PDF UA मानक मान्य करें](./validatepdfuastandard/) | हमारे चरण-दर-चरण मार्गदर्शिका और विस्तृत स्पष्टीकरण के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF/UA पहुँच-योग्यता मानक के लिए PDF को मान्य करना सीखें। |  
-
+| [PDF फ़ाइलों की मरम्मत कैसे करें – Aspose.Pdf का उपयोग करके चरण‑दर‑चरण गाइड](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइलों को कैसे मरम्मत करें, इस चरण‑दर‑चरण गाइड में सीखें। |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

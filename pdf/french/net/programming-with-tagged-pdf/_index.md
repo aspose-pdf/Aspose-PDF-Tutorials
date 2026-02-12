@@ -22,9 +22,10 @@ Les tutoriels « Programmation avec des PDF balisés » d'Aspose.PDF pour .NET
 | --- | --- | 
 | [Accéder aux éléments enfants](./access-children-elements/) | Apprenez à accéder et à modifier les éléments enfants dans les PDF balisés avec Aspose.PDF pour .NET dans ce didacticiel étape par étape. |  
 | [Ajouter un élément de structure dans un élément](./add-structure-element-into-element/) | Apprenez à ajouter des éléments de structure d'accessibilité dans les fichiers PDF à l'aide d'Aspose.PDF pour .NET dans ce didacticiel complet étape par étape. |  
-| [Créer un élément de structure de note](./create-note-structure-element/) Apprenez à créer des éléments de structure de notes dans des fichiers PDF avec Aspose.PDF pour .NET grâce à ce didacticiel détaillé, étape par étape. |  
+| [Créer un élément de structure de note](./create-note-structure-element/) Apprenez à créer des éléments de structure de notes dans des fichiers PDF avec Aspose.PDF pour .NET grâce à ce didacticiel détaillé, étape par étape. |
 | [Créer un PDF avec une image balisée](./create-pdf-with-tagged-image/) | Apprenez à créer un PDF balisé avec des images grâce à Aspose.PDF pour .NET. Suivez notre guide étape par étape pour créer des documents accessibles et professionnels. |  
-| [Créer un PDF avec du texte balisé](./create-pdf-with-tagged-text/) | Apprenez à créer des PDF balisés avec du contenu accessible à l'aide d'Aspose.PDF pour .NET dans ce didacticiel complet étape par étape. |  
+| [Créer un PDF avec du texte balisé](./create-pdf-with-tagged-text/) | Apprenez à créer des PDF balisés avec du contenu accessible à l'aide d'Aspose.PDF pour .NET dans ce didacticiel complet étape par étape. |
+| [Créer un PDF balisé en C# – Guide étape par étape](./create-tagged-pdf-in-c-step-by-step-guide/) | Apprenez à créer un PDF balisé en C# avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
 | [Créer des éléments de structure](./create-structure-elements/) | Apprenez à créer des éléments de structure au format PDF avec Aspose.PDF pour .NET. Un guide étape par étape pour une accessibilité et une organisation améliorées des PDF. |  
 | [Créer une arborescence d'éléments de structure](./create-structure-elements-tree/) | Apprenez à créer une arborescence d'éléments de structure dans des documents PDF avec Aspose.PDF pour .NET. Suivez ce guide étape par étape. |  
 | [Créer un élément de tableau](./create-table-element/) Guide étape par étape pour créer un élément de tableau avec Aspose.PDF pour .NET. Générez facilement des PDF dynamiques avec des tableaux. |  

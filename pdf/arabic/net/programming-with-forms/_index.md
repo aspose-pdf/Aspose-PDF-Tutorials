@@ -50,6 +50,8 @@
 | [تعيين جافا سكريبت](./set-java-script/) | استغل قوة Aspose.PDF لـ .NET. تعلّم كيفية إعداد JavaScript في حقول النماذج من خلال دليلنا المفصل. |  
 | [تعيين تسمية توضيحية لأزرار الراديو](./set-radio-button-caption/) تعرّف على كيفية ضبط تسميات أزرار الاختيار في ملفات PDF باستخدام Aspose.PDF لـ .NET. يرشدك هذا الدليل خطوة بخطوة خلال تحميل نماذج PDF وتعديلها وحفظها.  
 | [مربع النص](./text-box/) اكتشف كيفية إضافة مربعات نصية بسهولة إلى ملفات PDF باستخدام Aspose.PDF لـ .NET من خلال هذا الدليل المفصل. حسّن تفاعل المستخدم.  
+| [إضافة أرقام Bates إلى ملفات PDF – دليل خطوة بخطوة بلغة C#](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | تعرف على كيفية إضافة أرقام Bates إلى مستندات PDF باستخدام Aspose.PDF لـ .NET مع مثال عملي بلغة C#. |  
+| [إنشاء مستند PDF مع عدة أدوات TextBox – دليل خطوة بخطوة](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) تعلم كيفية إنشاء مستند PDF يحتوي على عدة مربعات نصية باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

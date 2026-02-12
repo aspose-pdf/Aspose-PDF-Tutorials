@@ -43,7 +43,8 @@ tutorial "Programmazione con PDF con tag" di Aspose.PDF per .NET ti guideranno n
 | [Tagga l'immagine nel PDF esistente](./tag-image-in-existing-pdf/) | Scopri come taggare le immagini nei PDF esistenti utilizzando Aspose.PDF per .NET. Guida passo passo per migliorare l'accessibilità con la conformità PDF/UA. |  
 | [Elementi della struttura del blocco di testo](./text-block-structure-elements/) | Scopri come utilizzare Aspose.PDF per .NET per aggiungere elementi della struttura del blocco di testo, come titoli e paragrafi taggati, a un documento PDF esistente. |  
 | [Elementi della struttura del testo nel file PDF](./text-structure-elements/) Impara a manipolare gli elementi della struttura del testo nei PDF con Aspose.PDF per .NET. Questa guida passo passo illustra tutto il necessario per creare PDF strutturati. |  
-| [Convalida file PDF](./validate-pdf/) | Scopri come convalidare un file PDF con Aspose.PDF per .NET. Verifica la sua conformità agli standard e genera un report di convalida. |  
+| [Convalida file PDF](./validate-pdf/) | Scopri come convalidare un file PDF con Aspose.PDF per .NET. Verifica la sua conformità agli standard e genera un report di convalida. |
+| [Crea PDF con tag in C# – Guida passo passo](./create-tagged-pdf-in-c-step-by-step-guide/) | Impara a creare PDF con tag in C# usando Aspose.PDF per .NET con istruzioni dettagliate passo passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

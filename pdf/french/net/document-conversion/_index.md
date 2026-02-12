@@ -26,6 +26,7 @@ Vous apprendrez à définir les paramètres de conversion, à extraire du texte 
 | [EPUB vers PDF](./epub-to-pdf/) Apprenez à convertir un fichier EPUB en PDF avec Aspose.PDF pour .NET grâce à ce guide étape par étape. Simple, efficace et idéal pour tous les utilisateurs. |  
 | [Obtenir les dimensions SVG](./get-svg-dimensions/) | Apprenez à utiliser Aspose.PDF pour .NET pour convertir des fichiers SVG en PDF grâce à ce guide étape par étape. Idéal pour les développeurs souhaitant manipuler des PDF. |  
 | [HTML vers PDF](./html-to-pdf/) | Apprenez à convertir du HTML en PDF à l'aide d'Aspose.PDF pour .NET avec ce guide complet étape par étape. |  
+| [Enregistrer le PDF en HTML – Conserver les vecteurs et désactiver la rasterisation](./save-pdf-as-html-keep-vectors-disable-rasterization/) | Apprenez à enregistrer un PDF au format HTML tout en conservant les vecteurs et en désactivant la rasterisation avec Aspose.PDF pour .NET. |  
 | [Conversion Markdown en PDF](./markdown-to-pdf/) | Découvrez comment convertir du Markdown en PDF avec Aspose.PDF pour .NET grâce à ce tutoriel étape par étape. Idéal pour les développeurs souhaitant simplifier la conversion de leurs documents. |  
 | [MHT vers PDF](./mht-to-pdf/) | Découvrez comment convertir des fichiers MHT en PDF avec Aspose.PDF pour .NET grâce à ce tutoriel étape par étape. Conversion de documents simple et efficace. |  
 | [Orientation de la page selon les dimensions de l'image](./page-orientation-according-image-dimensions/) Apprenez à créer des PDF avec Aspose.PDF pour .NET, en définissant l'orientation de la page en fonction des dimensions de l'image dans ce guide étape par étape. |  
@@ -37,7 +38,7 @@ Vous apprendrez à définir les paramètres de conversion, à extraire du texte 
 | [PDF vers PDFA](./pdf-to-pdfa/) Apprenez à convertir des fichiers PDF au format PDF/A à l'aide d'Aspose.PDF pour .NET avec ce didacticiel étape par étape. |  
 | [PDF vers PDFA3b](./pdf-to-pdfa3b/) | Apprenez à convertir des fichiers PDF au format PDF/A-3B sans effort avec Aspose.PDF pour .NET dans ce guide étape par étape. |  
 | [Conversion de polices PDF en PNG](./pdf-to-png-font-hinting/) | Apprenez à convertir un PDF en PNG avec indication de police à l'aide d'Aspose.PDF pour .NET dans un guide étape par étape simple. |  
-| [PDF en PPT](./pdf-to-ppt/) | Apprenez à convertir un PDF en PowerPoint avec Aspose.PDF pour .NET grâce à ce guide étape par étape. Simple, efficace et idéal pour les présentations. |  
+| [PDF en PPT](./pdf-to-ppt/) | Apprenez à convertir un PDF en PowerPoint avec Aspose.PDF pour .NET grâce à ce guide étape par étape. Simple, efficace et idéal pour présentations. |  
 | [PDF en SVG](./pdf-to-svg/) | Découvrez comment convertir des fichiers PDF au format SVG avec Aspose.PDF pour .NET grâce à ce tutoriel étape par étape. Idéal pour les développeurs et les designers. |  
 | [PDF vers TeX](./pdf-to-tex/) | Apprenez à convertir des PDF en TeX avec Aspose.PDF pour .NET grâce à ce guide étape par étape. Idéal pour les développeurs souhaitant améliorer leurs compétences en traitement de documents. |  
 | [PDF vers XLS](./pdf-to-xls/) Convertissez facilement des fichiers PDF au format XLS avec Aspose.PDF pour .NET. Suivez notre guide étape par étape pour une extraction de données fluide. |  
@@ -56,7 +57,7 @@ Vous apprendrez à définir les paramètres de conversion, à extraire du texte 
 | [XML vers PDF](./xml-to-pdf/) | Apprenez à convertir XML en PDF à l'aide d'Aspose.PDF pour .NET dans ce didacticiel complet étape par étape, avec des exemples de code et des explications détaillées. |  
 | [XML vers PDFDéfinir le chemin de l'image](./xml-to-pdfset-image-path/) | Apprenez à convertir facilement du XML en PDF avec Aspose.PDF pour .NET. Ce guide détaillé vous guide pas à pas, de la configuration à la finalisation. |  
 | [XPS en PDF](./xps-to-pdf/) Apprenez à convertir des fichiers XPS en PDF avec Aspose.PDF pour .NET grâce à ce tutoriel étape par étape. Idéal pour les développeurs et les passionnés de documentation. |  
-
+| [Comment enregistrer un PDF avec Aspose – Guide complet de conversion C#](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) | Apprenez à enregistrer un PDF avec Aspose en C# grâce à ce guide complet étape par étape. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

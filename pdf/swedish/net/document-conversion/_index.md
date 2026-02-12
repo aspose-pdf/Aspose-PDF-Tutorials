@@ -34,6 +34,7 @@ Du lär dig hur du anger konverteringsinställningar, extraherar text och bilder
 | [PDF till DOC](./pdf-to-doc/) | Lär dig hur du konverterar PDF till DOC med Aspose.PDF för .NET i den här omfattande guiden. Steg-för-steg-instruktioner och tips ingår. |  
 | [PDF till EPUB](./pdf-to-epub/) | Lär dig hur du konverterar PDF till EPUB med Aspose.PDF för .NET i den här steg-för-steg-handledningen. Perfekt för utvecklare och innehållsskapare. |  
 | [PDF till HTML](./pdf-to-html/) | Lär dig hur du konverterar PDF till HTML med Aspose.PDF för .NET med den här steg-för-steg-guiden. Perfekt för utvecklare och innehållsskapare. |  
+| [Spara PDF som HTML – Behåll vektorer och inaktivera rasterisering](./save-pdf-as-html-keep-vectors-disable-rasterization/) | Lär dig hur du sparar PDF som HTML med vektorgrafik bevarad och utan rasterisering med Aspose.PDF för .NET. |  
 | [PDF till PDFA](./pdf-to-pdfa/) Lär dig hur du konverterar PDF-filer till PDF/A-format med Aspose.PDF för .NET med den här steg-för-steg-handledningen. |  
 | [PDF till PDFA3b](./pdf-to-pdfa3b/) | Lär dig att konvertera PDF-filer till PDF/A-3B-format utan problem med Aspose.PDF för .NET i den här steg-för-steg-guiden. |  
 | [PDF till PNG-teckensnittstips](./pdf-to-png-font-hinting/) | Lär dig konvertera PDF till PNG med teckensnittstips med hjälp av Aspose.PDF för .NET i en enkel steg-för-steg-guide. |  
@@ -56,6 +57,7 @@ Du lär dig hur du anger konverteringsinställningar, extraherar text och bilder
 | [XML till PDF](./xml-to-pdf/) | Lär dig hur du konverterar XML till PDF med Aspose.PDF för .NET i den här omfattande steg-för-steg-handledningen, komplett med kodexempel och detaljerade förklaringar. |  
 | [XML till PDFSet-bildsökväg](./xml-to-pdfset-image-path/) | Lär dig hur du enkelt konverterar XML till PDF med Aspose.PDF för .NET. Den här detaljerade guiden guidar dig genom processen steg för steg, från installation till slutförande. |  
 | [XPS till PDF](./xps-to-pdf/) Lär dig hur du konverterar XPS-filer till PDF med Aspose.PDF för .NET med den här steg-för-steg-handledningen. Perfekt för utvecklare och dokumententusiaster. |  
+| [Hur du sparar PDF med Aspose – Komplett C#-konverteringsguide](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) | Lär dig hur du sparar PDF-filer med Aspose i en komplett C#-konverteringsguide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

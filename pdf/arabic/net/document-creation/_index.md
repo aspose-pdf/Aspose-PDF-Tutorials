@@ -74,6 +74,9 @@
 ### [إتقان إنشاء كتيبات PDF باستخدام Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 برنامج تعليمي لبرمجة Aspose.PDF Net
 
+### [إنشاء مستند PDF بلغة C# – إضافة صفحة فارغة ورسم مستطيل](./create-pdf-document-c-add-blank-page-draw-rectangle/)
+تعلم كيفية إضافة صفحة فارغة إلى مستند PDF ورسم مستطيل باستخدام Aspose.PDF لـ .NET.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

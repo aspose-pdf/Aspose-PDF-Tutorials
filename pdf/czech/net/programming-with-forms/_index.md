@@ -23,7 +23,7 @@ Tyto tutoriály také obsahují podrobné příklady kódu, jasná vysvětlení 
 | --- | --- | 
 | [Přidat k poli popisek](./add-tooltip-to-field/) | V tomto podrobném návodu se naučte, jak přidat popisky k polím formulářů v dokumentech PDF pomocí Aspose.PDF pro .NET. Zlepšete použitelnost a uživatelský zážitek. |  
 | [Vyplňování arabského textu](./arabic-text-filling/) | Naučte se, jak vyplňovat arabský text ve formulářích PDF pomocí Aspose.PDF pro .NET v tomto podrobném návodu. Zlepšete si své dovednosti v manipulaci s PDF. |  
-| [Pole se seznamem](./combo-box/) Naučte se, jak přidat pole se seznamem do PDF pomocí Aspose.PDF pro .NET. Postupujte podle našeho podrobného návodu a snadno vytvořte interaktivní formuláře PDF. |  
+| [Pole se seznamem](./combo-box/) Naučte se, jak přidat pole se seznamem do PDF pomocí Aspose.PDF pro .NET. Postupujte podle našeho podrobného návodu a snadno vytvořte interaktivní formuláře PDF. |
 | [Vytvořit dokument](./create-doc/) | Naučte se v tomto komplexním návodu krok za krokem vytvářet interaktivní PDF dokumenty s přepínači pomocí Aspose.PDF pro .NET. |  
 | [Smazat pole formuláře v dokumentu PDF](./delete-form-field/) | Naučte se, jak odstranit pole formuláře v dokumentech PDF pomocí Aspose.PDF pro .NET s tímto podrobným návodem. Ideální pro vývojáře a nadšence do PDF. |  
 | [Určení povinného pole ve formuláři PDF](./determine-required-field/) | Naučte se, jak pomocí Aspose.PDF pro .NET určit povinná pole ve formuláři PDF. Náš podrobný návod zjednodušuje správu formulářů a vylepšuje váš pracovní postup automatizace PDF. |  
@@ -50,6 +50,8 @@ Tyto tutoriály také obsahují podrobné příklady kódu, jasná vysvětlení 
 | [Nastavení skriptu Java](./set-java-script/) | Odemkněte sílu Aspose.PDF pro .NET. Naučte se, jak nastavit JavaScript v polích formuláře s naším podrobným návodem. |  
 | [Nastavit popisek přepínače](./set-radio-button-caption/) Naučte se, jak nastavit popisky přepínačů v PDF pomocí Aspose.PDF pro .NET. Tato podrobná příručka vás provede načítáním, úpravou a ukládáním formulářů PDF. |  
 | [Textové pole](./text-box/) | Zjistěte, jak snadno přidat textová pole do PDF souborů pomocí Aspose.PDF pro .NET s tímto podrobným návodem. Vylepšete interakci s uživatelem. |  
+| [Vytvořit PDF dokument s více widgety textových polí – krok za krokem](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Naučte se, jak vytvořit PDF dokument s více textovými poli pomocí Aspose.PDF pro .NET v tomto podrobném návodu. |
+| [Přidat Batesová čísla do PDF – krok za krokem C# průvodce](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Naučte se, jak přidat Batesova čísla do PDF souborů pomocí Aspose.PDF pro .NET v tomto podrobném C# návodu. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

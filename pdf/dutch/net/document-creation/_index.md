@@ -71,8 +71,8 @@ Leer complexe PDF-documenten maken met Aspose.PDF voor .NET. Deze handleiding be
 ### [Beheers het maken van PDF-bestanden met Aspose.PDF voor .NET: een uitgebreide gids voor toegankelijkheid en SEO](./master-tagged-pdf-creation-aspose-pdf-dotnet/)
 Leer hoe u toegankelijke, goed gestructureerde, getagde PDF's maakt met Aspose.PDF voor .NET. Deze handleiding behandelt het instellen van documenteigenschappen, het toevoegen van links en het insluiten van afbeeldingen.
 
-### [PDF-boekjes maken onder de knie krijgen met Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
-Een codetutorial voor Aspose.PDF Net
+### [PDF-document maken in C# – Lege pagina toevoegen en rechthoek tekenen](./create-pdf-document-c-add-blank-page-draw-rectangle/)
+Leer hoe u met Aspose.PDF voor .NET een PDF maakt, een lege pagina toevoegt en een rechthoek tekent in C#.
 
 ## Aanvullende bronnen
 

@@ -74,6 +74,9 @@ Apprenez à créer des PDF balisés, accessibles et bien structurés avec Aspose
 ### [Maîtriser la création de brochures PDF avec Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Un tutoriel de code pour Aspose.PDF Net
 
+### [Créer un document PDF C# – Ajouter une page vierge et dessiner un rectangle](./create-pdf-document-c-add-blank-page-draw-rectangle/)
+Apprenez à créer un PDF, ajouter une page blanche et dessiner un rectangle avec Aspose.PDF pour .NET en C#.
+
 ## Ressources supplémentaires
 
 - [Aspose.PDF pour la documentation réseau](https://docs.aspose.com/pdf/net/)

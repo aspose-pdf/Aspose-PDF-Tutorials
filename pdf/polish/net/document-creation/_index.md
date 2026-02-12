@@ -74,6 +74,9 @@ Dowiedz się, jak tworzyć dostępne, dobrze ustrukturyzowane, oznaczone pliki P
 ### [Opanowanie tworzenia broszur PDF za pomocą Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Samouczek dotyczący kodu dla Aspose.PDF Net
 
+### [Tworzenie dokumentu PDF w C# – Dodaj pustą stronę i narysuj prostokąt](./create-pdf-document-c-add-blank-page-draw-rectangle/)
+Dowiedz się, jak w C# utworzyć dokument PDF, dodać pustą stronę i narysować prostokąt przy użyciu Aspose.PDF.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

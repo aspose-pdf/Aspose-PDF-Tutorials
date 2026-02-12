@@ -55,9 +55,10 @@ Cette ressource comprend des tutoriels sur la fonctionnalité de programmation a
 | [Définir le facteur de zoom dans le fichier PDF](./setzoomfactor/) | Apprenez à définir un facteur de zoom dans vos fichiers PDF avec Aspose.PDF pour .NET. Améliorez l'expérience utilisateur grâce à ce guide étape par étape. |  
 | [Réduire les documents PDF](./shrinkdocuments/) | Découvrez comment réduire la taille de vos documents PDF avec Aspose.PDF pour .NET grâce à ce guide étape par étape. Optimisez vos ressources PDF et réduisez la taille de vos fichiers sans compromettre la qualité. |  
 | [Désintégrer les polices et optimiser les fichiers PDF](./unembedfonts/) | Apprenez à désintégrer les polices et à optimiser les fichiers PDF à l'aide d'Aspose.PDF pour .NET dans ce didacticiel étape par étape. |  
-| [Valider la norme PDF AB](./validatepdfabstandard/) Découvrez comment valider un PDF selon la norme PDF/A-1b avec Aspose.PDF pour .NET grâce à ce tutoriel étape par étape. Assurez la conformité pour un archivage à long terme. |  
+| [Valider la norme PDF AB](./validatepdfabstandard/) | Découvrez comment valider un PDF selon la norme PDF/A-1b avec Aspose.PDF pour .NET grâce à ce tutoriel étape par étape. Assurez la conformité pour un archivage à long terme. |  
 | [Valider les fichiers PDF Une norme](./validatepdfastandard/) | Apprenez à valider les fichiers PDF par rapport à la norme PDF/A-1a à l'aide d'Aspose.PDF pour .NET dans ce didacticiel complet étape par étape. |  
 | [Valider la norme PDF UA](./validatepdfuastandard/) | Apprenez à valider un PDF pour la norme d'accessibilité PDF/UA à l'aide d'Aspose.PDF pour .NET avec notre guide étape par étape et nos explications détaillées. |  
+| [Comment réparer des fichiers PDF – Guide étape par étape avec Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Apprenez à réparer des fichiers PDF corrompus avec Aspose.Pdf grâce à ce guide détaillé étape par étape. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

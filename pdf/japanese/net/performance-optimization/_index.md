@@ -50,6 +50,9 @@ Aspose.PDF for .NET を使って、SVG ファイルを正確かつ効率的に P
 ### [Aspose.PDF for .NET を使用して PDF からフォントを埋め込み解除: ファイルサイズを縮小し、パフォーマンスを向上](./optimize-pdfs-unembed-fonts-aspose-pdf-net/)
 Aspose.PDF for .NET を使用して、PDF ファイルからフォントの埋め込みを解除する方法を学びましょう。このステップバイステップガイドで、PDF のパフォーマンスを最適化し、ファイルサイズを縮小し、読み込み時間を短縮しましょう。
 
+### [PDF 画像の最適化 – C# で PDF ファイルサイズを削減](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
+C# を使用して PDF 内の画像を圧縮・最適化し、ファイルサイズを効果的に削減する方法を学びます。
+
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)
