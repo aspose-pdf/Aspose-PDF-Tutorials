@@ -23,7 +23,7 @@ Os tutoriais "Programação com PDFs Marcados" do Aspose.PDF para .NET orientam 
 | --- | --- | 
 | [Acessar Elementos Filhos](./access-children-elements/) | Aprenda como acessar e modificar elementos filho em PDFs marcados com o Aspose.PDF para .NET neste tutorial passo a passo. |  
 | [Adicionar elemento de estrutura ao elemento](./add-structure-element-into-element/) | Aprenda como adicionar elementos de estrutura de acessibilidade em PDFs usando o Aspose.PDF para .NET neste tutorial passo a passo abrangente. |  
-| [Criar elemento de estrutura de nota](./create-note-structure-element/) Aprenda a criar elementos de estrutura de notas em PDFs com o Aspose.PDF para .NET por meio deste tutorial detalhado e passo a passo. |  
+| [Criar elemento de estrutura de nota](./create-note-structure-element/) Aprenda a criar elementos de estrutura de notas em PDFs com o Aspose.PDF para .NET por meio deste tutorial detalhado e passo a passo. |
 | [Criar PDF com imagem marcada](./create-pdf-with-tagged-image/) | Aprenda a criar um PDF com tags e imagens usando o Aspose.PDF para .NET. Siga nosso guia passo a passo para criar documentos de forma acessível e profissional. |  
 | [Criar PDF com texto marcado](./create-pdf-with-tagged-text/) | Aprenda a criar PDFs marcados com conteúdo acessível usando o Aspose.PDF para .NET neste tutorial passo a passo abrangente. |  
 | [Criar elementos de estrutura](./create-structure-elements/) | Aprenda a criar elementos de estrutura em PDF com o Aspose.PDF para .NET. Um guia passo a passo para melhor acessibilidade e organização de PDFs. |  
@@ -49,6 +49,7 @@ Os tutoriais "Programação com PDFs Marcados" do Aspose.PDF para .NET orientam 
 | [Criar PDF Marcado em C# – Guia Completo Passo a Passo](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Aprenda a criar um PDF marcado em C# usando Aspose.PDF para .NET com este guia passo a passo completo. |  
 | [Criar PDF Marcado em C# – Adicionar Cabeçalho e Texto Acessível](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Aprenda a criar um PDF marcado em C# adicionando cabeçalhos e texto acessível usando Aspose.PDF para .NET. |  
 | [Criar PDF acessível com Aspose.Pdf – Guia passo a passo](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Aprenda a criar PDFs acessíveis usando Aspose.Pdf em um guia passo a passo detalhado. |  
+| [Criar PDF Marcado em C# – Guia Passo a Passo](./create-tagged-pdf-in-c-step-by-step-guide/) | Aprenda a criar um PDF marcado em C# usando Aspose.PDF para .NET com este guia passo a passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

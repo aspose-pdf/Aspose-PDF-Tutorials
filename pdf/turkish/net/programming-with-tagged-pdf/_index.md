@@ -21,9 +21,6 @@ Aspose.PDF for .NET'in "Etiketli PDF'lerle Programlama" öğreticileri, bu kitap
 
 | Başlık | Açıklama |
 | --- | --- | 
-| [Çocuk Öğelerine Erişim](./access-children-elements/) | Bu adım adım eğitimde, Aspose.PDF for .NET ile etiketli PDF'lerdeki alt öğelere nasıl erişeceğinizi ve bunları nasıl değiştireceğinizi öğrenin.  
-| [Elemana Yapı Elemanı Ekle](./add-structure-element-into-element/) | Bu kapsamlı adım adım eğitimde Aspose.PDF for .NET kullanarak PDF'lere erişilebilirlik yapı öğelerinin nasıl ekleneceğini öğrenin.  
-| [Not Yapısı Elemanı Oluştur](./create-note-structure-element/) | Bu ayrıntılı, adım adım eğitimle Aspose.PDF for .NET ile PDF'lerde not yapı öğeleri oluşturmayı öğrenin.  
 | [Etiketli Resimle PDF Oluştur](./create-pdf-with-tagged-image/) | Aspose.PDF for .NET kullanarak görsellerle etiketli PDF oluşturmayı öğrenin. Erişilebilir ve profesyonel belge oluşturma için adım adım kılavuzumuzu izleyin. |  
 | [Yapı Elemanları Oluştur](./create-structure-elements/) | .NET için Aspose.PDF ile PDF'de yapı öğelerinin nasıl oluşturulacağını öğrenin. Gelişmiş PDF erişilebilirliği ve organizasyonu için adım adım bir kılavuz. |  
 | [Yapı Elemanları Ağacı Oluştur](./create-structure-elements-tree/) | .NET için Aspose.PDF kullanarak PDF belgelerinde bir yapı elemanları ağacının nasıl oluşturulacağını öğrenin. Bu adım adım kılavuzu izleyin. |  
@@ -46,6 +43,13 @@ Aspose.PDF for .NET'in "Etiketli PDF'lerle Programlama" öğreticileri, bu kitap
 | [Aspose ile PDF'yi Erişilebilir Hale Getirin: Paragraf PDF Ekleme Adım Adım](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Aspose.PDF for .NET kullanarak PDF'ye paragraf ekleyerek erişilebilirliği nasıl artıracağınızı adım adım öğrenin. |
 | [C# ile Etiketli PDF Oluştur – Başlık ve Erişilebilir Metin Ekle](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Bu adım adım eğitimde C# kullanarak etiketli PDF'ye başlık ekleyip erişilebilir metin oluşturmayı öğrenin. |  
 | [Aspose.Pdf ile Erişilebilir PDF Oluştur – Adım Adım Kılavuz](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Aspose.PDF for .NET kullanarak erişilebilir PDF oluşturmayı adım adım öğrenin. |  
+| [Çocuk Öğelerine Erişim](./access-children-elements/) | Bu adım adım eğitimde, Aspose.PDF for .NET ile etiketli PDF'lerdeki alt öğelere nasıl erişeceğinizi ve bunları nasıl değiştireceğinizi öğrenin.  |
+| [Elemana Yapı Elemanı Ekle](./add-structure-element-into-element/) | Bu kapsamlı adım adım eğitimde Aspose.PDF for .NET kullanarak PDF'lere erişilebilirlik yapı öğelerinin nasıl ekleneceğini öğrenin.  |
+| [Not Yapısı Elemanı Oluştur](./create-note-structure-element/) | Bu ayrıntılı, adım adım eğitimle Aspose.PDF for .NET ile PDF'lerde not yapı öğeleri oluşturmayı öğrenin. |
+| [Etiketli Metinle PDF Oluştur](./create-pdf-with-tagged-text/) | Bu kapsamlı adım adım eğitimde, .NET için Aspose.PDF'yi kullanarak erişilebilir içerikli etiketli PDF'lerin nasıl oluşturulacağını öğrenin. |
+| [İllüstrasyon Yapı Elemanları](./illustration-structure-elements/) | Aspose.PDF for .NET'te adım adım eğitimimizi izleyerek çizim öğeleri içeren yapılandırılmış PDF'ler oluşturun. |
+| [Metin Bloğu Yapı Elemanları](./text-block-structure-elements/) | Başlıklar ve etiketli paragraflar gibi metin bloğu yapı öğelerini mevcut bir PDF belgesine eklemek için Aspose.PDF for .NET'i nasıl kullanacağınızı öğrenin. |
+| [C# ile Etiketli PDF Oluştur – Adım Adım Kılavuz](./create-tagged-pdf-in-c-step-by-step-guide/) | Bu adım adım rehberde, C# kullanarak Aspose.PDF for .NET ile etiketli PDF oluşturmayı öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

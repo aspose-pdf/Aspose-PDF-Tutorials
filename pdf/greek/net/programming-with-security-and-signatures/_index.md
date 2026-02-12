@@ -37,10 +37,12 @@
 | [Έλεγχος υπογραφών PDF σε C# – Πώς να διαβάσετε υπογεγραμμένα αρχεία PDF](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Μάθετε πώς να ελέγχετε και να διαβάζετε υπογεγραμμένα αρχεία PDF χρησιμοποιώντας C# και Aspose.PDF. |  
 | [Πώς να επισκευάσετε αρχεία PDF – Πλήρης οδηγός C# με Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Μάθετε πώς να επισκευάσετε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET με οδηγίες βήμα προς βήμα. |  
 | [Επαλήθευση υπογραφής PDF σε C# – Πλήρης προγραμματιστικός οδηγός](./verify-pdf-signature-in-c-complete-programming-guide/) | Μάθετε πώς να ελέγχετε και να επαληθεύετε ψηφιακές υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF. |
-
 | [Πώς να επαληθεύσετε τις υπογραφές PDF σε C# – Πλήρης οδηγός βήμα‑βήμα](./how-to-verify-pdf-signatures-in-c-complete-step-by-step-guid/) | Μάθετε πώς να επαληθεύετε ψηφιακές υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF για .NET, με αναλυτικές οδηγίες βήμα‑βήμα. |  
 | [Πώς να επαληθεύσετε την υπογραφή σε PDF χρησιμοποιώντας το Aspose – Οδηγός](./how-to-verify-signature-in-pdf-using-aspose-guide/) | Μάθετε πώς να επαληθεύετε ψηφιακές υπογραφές PDF με το Aspose.PDF για .NET, ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα. |  
 | [Πώς να επαληθεύσετε τις υπογραφές PDF με το Aspose.PDF – Πλήρης οδηγός](./how-to-verify-pdf-signatures-with-aspose-pdf-complete-guide/) | Μάθετε πώς να επαληθεύετε ψηφιακές υπογραφές PDF με το Aspose.PDF για .NET, ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα. |  
+| [Επαλήθευση ψηφιακής υπογραφής PDF σε C# – Πλήρης οδηγός](./verify-pdf-digital-signature-in-c-complete-guide/) | Μάθετε πώς να επαληθεύετε ψηφιακές υπογραφές PDF σε C# χρησιμοποιώντας το Aspose.PDF για .NET με οδηγίες βήμα προς βήμα. |  
+| [Δημιουργία χειριστή υπογραφής PDF – Λίστα υπογραφών σε C#](./create-pdf-signature-handler-list-signatures-in-c/) | Μάθετε πώς να δημιουργήσετε έναν χειριστή υπογραφής PDF και να εμφανίσετε τη λίστα υπογραφών σε C# χρησιμοποιώντας το Aspose.PDF για .NET. |
+| [Επικύρωση υπογραφής PDF σε C# – Οδηγός βήμα προς βήμα](./validate-pdf-signature-in-c-step-by-step-guide/) | Μάθετε πώς να επικυρώνετε υπογραφές PDF σε C# με το Aspose.PDF για .NET, ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

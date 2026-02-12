@@ -62,6 +62,8 @@
 تعلّم كيفية إنشاء مستند PDF باستخدام Aspose.PDF خطوة بخطوة.
 ### [إنشاء مستند PDF باستخدام Aspose في C# – دليل خطوة بخطوة](./create-pdf-document-with-aspose-in-c-step-by-step-guide/)
 تعلّم كيفية إنشاء مستند PDF باستخدام Aspose في لغة C# خطوة بخطوة.
+### [إنشاء مستند PDF بلغة C# – إضافة صفحة فارغة ورسم مستطيل](./create-pdf-document-c-add-blank-page-draw-rectangle/)
+تعلم كيفية إضافة صفحة فارغة إلى مستند PDF ورسم مستطيل باستخدام Aspose.PDF لـ .NET.
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

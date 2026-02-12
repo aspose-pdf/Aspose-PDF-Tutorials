@@ -41,6 +41,7 @@
 | [ข้อความในส่วนท้ายของไฟล์ PDF](./text-in-footer/) | เรียนรู้วิธีการเพิ่มข้อความในส่วนท้ายของไฟล์ PDF ด้วย Aspose.PPDF สำหรับ .NET -  
 | [ข้อความในส่วนหัวของไฟล์ PDF](./text-in-header/) | เรียนรู้การเพิ่มส่วนหัวข้อความในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนนี้ ปรับปรุงเอกสารของคุณอย่างมีประสิทธิภาพและมีประสิทธิผล |  
 | [วิธีเพิ่ม Bates – คู่มือขั้นตอนต่อขั้นตอนสำหรับ PDF](./how-to-add-bates-step-by-step-guide-for-pdfs/) | เรียนรู้วิธีเพิ่ม Bates ลงในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือทีละขั้นตอน |
+| [เปลี่ยนความทึบของ PDF ด้วย Aspose.PDF – คู่มือ C# ฉบับสมบูรณ์](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) | เรียนรู้วิธีปรับความทึบของไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ด้วยคู่มือขั้นตอนเต็มรูปแบบ |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

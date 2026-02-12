@@ -60,9 +60,10 @@
 | [XML 轉 PDFSet 影像路徑](./xml-to-pdfset-image-path/) |了解如何使用 Aspose.PDF for .NET 輕鬆地將 XML 轉換為 PDF。本詳細指南將逐步引導您完成整個過程，從設定到完成。 |  
 | [XPS 轉 PDF](./xps-to-pdf/) |透過本逐步教學了解如何使用 Aspose.PDF for .NET 將 XPS 檔案轉換為 PDF。非常適合開發人員和文檔愛好者。 |  
 | [在 C# 中將 PDF 轉換為 PDF/X‑4 – ASP.NET PDF 分步教學](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 轉換為 PDF/X‑4 格式。 |
-
 | [載入 PDF 文件 C# – 轉換為 PDF/X-4 步驟指南](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) |了解如何使用 Aspose.PDF for .NET 載入 PDF 並將其轉換為 PDF/X-4 格式的完整步驟。 |  
 | [Aspose PDF 轉 HTML（C#）完整指南](./aspose-pdf-to-html-conversion-in-c-complete-guide/) |透過本完整指南了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 轉換為 HTML。 |  
+| [將 PDF 另存為 HTML – 保留向量並停用點陣化](./save-pdf-as-html-keep-vectors-disable-rasterization/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 PDF 另存為 HTML，保留向量圖形並停用點陣化。 |  
+| [如何使用 Aspose 儲存 PDF – 完整 C# 轉換指南](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) |透過本完整指南了解如何使用 Aspose.PDF for .NET 以 C# 將檔案儲存為 PDF，涵蓋步驟與最佳實踐。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

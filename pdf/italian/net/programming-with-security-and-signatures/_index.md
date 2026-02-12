@@ -37,10 +37,12 @@ Questo tutorial offre una panoramica dettagliata di metodi e tecniche per garant
 | [Verifica le firme PDF in C# – Come leggere i file PDF firmati](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Scopri come leggere e analizzare le firme digitali nei PDF usando C# e Aspose.PDF per .NET. |
 | [Come riparare i file PDF – Guida completa C# con Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Scopri come riparare i PDF danneggiati con Aspose.PDF per .NET usando C#. Guida passo passo per recuperare i contenuti. |
 | [Verifica firma PDF in C# – Guida completa di programmazione](./verify-pdf-signature-in-c-complete-programming-guide/) | Scopri come verificare le firme PDF usando C# e Aspose.PDF, con esempi completi e best practice. |
-
 | [Come verificare le firme PDF con Aspose.PDF – Guida completa](./how-to-verify-pdf-signatures-with-aspose-pdf-complete-guide/) | Scopri come verificare le firme PDF con Aspose.PDF in una guida completa passo passo. |  
 | [Come verificare le firme PDF in C# – Guida completa passo‑per‑passo](./how-to-verify-pdf-signatures-in-c-complete-step-by-step-guid/) | Scopri come verificare le firme digitali dei PDF in C# con una guida dettagliata passo dopo passo. |  
 | [Come verificare la firma in PDF usando Aspose – Guida](./how-to-verify-signature-in-pdf-using-aspose-guide/) | Scopri come verificare la firma in un PDF usando Aspose con una guida passo passo. |
+| [Verifica della firma digitale PDF in C# – Guida completa](./verify-pdf-digital-signature-in-c-complete-guide/) | Scopri come verificare le firme digitali dei PDF in C# con Aspose.PDF per .NET, passo passo. |  
+| [Convalida firma PDF in C# – Guida passo‑a‑passo](./validate-pdf-signature-in-c-step-by-step-guide/) | Scopri come convalidare le firme PDF in C# con Aspose.PDF per .NET, passo dopo passo. |
+| [Crea gestore di firme PDF – Elenca le firme in C#](./create-pdf-signature-handler-list-signatures-in-c/) | Scopri come creare un gestore di firme PDF in C# per elencare tutte le firme presenti in un documento. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

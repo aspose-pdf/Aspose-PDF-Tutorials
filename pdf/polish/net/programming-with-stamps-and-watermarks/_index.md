@@ -41,6 +41,7 @@ Samouczki „Programowanie ze stemplami i znakami wodnymi” dla .NET firmy Aspo
 | [Tekst w stopce pliku PDF](./text-in-footer/) | Dowiedz się, jak dodać tekst w stopce pliku PDF za pomocą Aspose.PDF dla platformy .NET. |  
 | [Tekst w nagłówku pliku PDF](./text-in-header/) | Naucz się dodawać nagłówki tekstowe do plików PDF za pomocą Aspose.PDF dla .NET dzięki temu samouczkowi krok po kroku. Ulepszaj swoje dokumenty wydajnie i skutecznie. |  
 | [Jak dodać numerację Bates – przewodnik krok po kroku dla plików PDF](./how-to-add-bates-step-by-step-guide-for-pdfs/) | Dowiedz się, jak dodać numerację Bates do dokumentów PDF przy użyciu Aspose.PDF dla .NET w prostym przewodniku krok po kroku. |  
+| [Zmień przezroczystość PDF za pomocą Aspose.PDF – Kompletny przewodnik C#](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) | Dowiedz się, jak zmienić przezroczystość dokumentu PDF w C# przy użyciu Aspose.PDF w prostym przewodniku krok po kroku. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -41,6 +41,7 @@ Os tutoriais "Programação com Carimbos e Marcas D'água" do Aspose.PDF para .N
 | [Texto no cabeçalho do arquivo PDF](./text-in-header/) | Aprenda a adicionar cabeçalhos de texto a PDFs usando o Aspose.PDF para .NET com este tutorial passo a passo. Aprimore seus documentos com eficiência e eficácia. |  
 | [Adicionar numeração Bates em PDF em C# – Guia completo](./add-bates-numbering-pdf-in-c-complete-guide/) | Aprenda a aplicar numeração Bates em PDFs usando Aspose.PDF para .NET com este guia passo a passo. |  
 | [Como adicionar Bates – Guia passo a passo para PDFs](./how-to-add-bates-step-by-step-guide-for-pdfs/) | Aprenda a adicionar números de Bates a arquivos PDF usando o Aspose.PDF para .NET com este guia passo a passo. |
+| [Alterar Opacidade de PDF com Aspose.PDF – Guia Completo em C#](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) | Aprenda a alterar a opacidade de páginas PDF usando Aspose.PDF para .NET com este guia completo em C#. |  
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

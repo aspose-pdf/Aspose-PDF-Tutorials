@@ -51,6 +51,8 @@ Ces tutoriels proposent également des exemples de code détaillés, des explica
 | [Définir la légende du bouton radio](./set-radio-button-caption/) Apprenez à définir des légendes de boutons radio dans vos PDF avec Aspose.PDF pour .NET. Ce guide étape par étape vous guidera dans le chargement, la modification et l'enregistrement de vos formulaires PDF. |
 | [Zone de texte](./text-box/) | Découvrez comment ajouter facilement des zones de texte à vos PDF avec Aspose.PDF pour .NET grâce à ce guide étape par étape. Améliorez l'interaction utilisateur. |
 | [Comment créer un PDF avec Aspose – Ajouter un champ de formulaire et des pages](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Apprenez à créer un PDF, ajouter des champs de formulaire et gérer les pages avec Aspose.PDF pour .NET dans ce guide étape par étape. |
+| [Créer un document PDF avec plusieurs widgets de zone de texte – Guide étape par étape](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Créez un PDF contenant plusieurs zones de texte avec Aspose.PDF pour .NET. Guide complet étape par étape. |
+| [Ajouter des numéros Bates aux PDF – Guide étape par étape C#](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Apprenez à ajouter des numéros Bates à vos fichiers PDF avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

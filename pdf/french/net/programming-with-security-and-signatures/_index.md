@@ -36,10 +36,11 @@ Ce tutoriel vous offre un aperçu détaillé des méthodes et techniques permett
 | [Vérifier les signatures PDF en C# – Lire les fichiers PDF signés](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Apprenez à lire et analyser les signatures numériques des PDF avec Aspose.PDF pour .NET en C#. |
 | [Comment réparer les fichiers PDF – Guide complet C# avec Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Apprenez à réparer les fichiers PDF corrompus avec Aspose.PDF pour .NET en suivant ce guide complet étape par étape en C#. |
 | [Vérifier la signature PDF en C# – Guide complet de programmation](./verify-pdf-signature-in-c-complete-programming-guide/) | Apprenez à vérifier les signatures PDF en C# avec Aspose.PDF, étape par étape, pour garantir l'authenticité de vos documents. |
-
 | [Comment vérifier les signatures PDF en C# – Guide complet étape par étape](./how-to-verify-pdf-signatures-in-c-complete-step-by-step-guid/) | Apprenez à vérifier les signatures numériques des PDF avec Aspose.PDF pour .NET grâce à un guide détaillé étape par étape. |
 | [Comment vérifier la signature dans un PDF avec Aspose – Guide](./how-to-verify-signature-in-pdf-using-aspose-guide/) | Apprenez à vérifier les signatures PDF avec Aspose.PDF pour .NET grâce à un guide complet étape par étape. |
 | [Comment vérifier les signatures PDF avec Aspose.PDF – Guide complet](./how-to-verify-pdf-signatures-with-aspose-pdf-complete-guide/) | Apprenez à vérifier les signatures PDF avec Aspose.PDF grâce à un guide complet étape par étape. |
+| [Vérifier la signature numérique PDF en C# – Guide complet](./verify-pdf-digital-signature-in-c-complete-guide/) | Apprenez à vérifier les signatures numériques PDF en C# avec Aspose.PDF pour .NET, guide complet étape par étape. |  
+| [Créer un gestionnaire de signature PDF – Lister les signatures en C#](./create-pdf-signature-handler-list-signatures-in-c/) | Apprenez à créer un gestionnaire de signatures PDF et à lister les signatures existantes en C# avec Aspose.PDF. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

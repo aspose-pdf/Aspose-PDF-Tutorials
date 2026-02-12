@@ -38,8 +38,7 @@ Los tutoriales de Aspose.PDF "Programación con sellos y marcas de agua" para .N
 | [Sellos de número de página en archivos PDF](./page-number-stamps/) Aprenda cómo agregar sellos de número de página a archivos PDF usando Aspose.PDF para .NET a través de nuestra guía fácil de seguir, completa con un ejemplo de código. |  
 | [Tabla en la sección de encabezado y pie de página](./table-in-header-footer-section/) Aprenda a agregar texto fácilmente al pie de página de un archivo PDF con Aspose.PDF para .NET. Incluye una guía paso a paso para una integración perfecta.  
 | [Texto en el pie de página del archivo PDF](./text-in-footer/) | Aprenda a agregar texto en el pie de página de un archivo PDF con Aspose.PDF para .NET. |  
-| [Texto en el encabezado del archivo PDF](./text-in-header/) Aprenda a agregar encabezados de texto a archivos PDF con Aspose.PDF para .NET con este tutorial paso a paso. Mejore sus documentos de forma eficiente y eficaz.  
-| [Agregar numeración Bates a PDF en C# – Guía completa](./add-bates-numbering-pdf-in-c-complete-guide/) Aprenda a aplicar numeración Bates a documentos PDF usando Aspose.PDF para .NET con este tutorial paso a paso.  
+| [Cambiar la opacidad del PDF con Aspose.PDF – Guía completa en C#](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) | Aprenda a modificar la opacidad de un PDF usando Aspose.PDF en C# con esta guía paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

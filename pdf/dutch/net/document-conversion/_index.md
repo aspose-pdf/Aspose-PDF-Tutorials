@@ -59,11 +59,11 @@ leert hoe u conversie-instellingen opgeeft, tekst en afbeeldingen extraheert, de
 | [XML naar PDFSet-afbeeldingspad](./xml-to-pdfset-image-path/) | Leer hoe u moeiteloos XML naar PDF converteert met Aspose.PDF voor .NET. Deze gedetailleerde handleiding leidt u stap voor stap door het proces, van installatie tot voltooiing. |  
 | [XPS naar PDF](./xps-to-pdf/) Leer hoe u XPS-bestanden naar PDF converteert met Aspose.PDF voor .NET met deze stapsgewijze tutorial. Perfect voor ontwikkelaars en documentliefhebbers. |  
 | [pdf naar png-tutorial – PDF-pagina's converteren naar PNG in C#](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Leer hoe u PDF-pagina's naar PNG converteert met Aspose.PDF voor .NET in C#. |
-
 | [PDF-document laden C# – Converteren naar PDF/X-4](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | Leer hoe u een PDF-document laadt en converteert naar PDF/X-4 met Aspose.PDF voor .NET in C#. |
 | [Aspose PDF naar HTML-conversie in C# – Complete gids](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | Leer hoe u PDF-bestanden naar HTML converteert met Aspose.PDF voor .NET in C# met deze uitgebreide stap‑voor‑stap handleiding. |
-
 | [Hoe PDF te converteren met Aspose.Pdf – Complete C#-gids](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | Leer stap voor stap hoe u PDF-bestanden converteert met Aspose.PDF voor .NET in C# met deze uitgebreide gids. |
+| [Hoe PDF opslaan met Aspose – Complete C# conversiegids](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) | Leer hoe u PDF-bestanden opslaat met Aspose in C# met een volledige stap‑voor‑stap conversiegids. |  
+| [PDF opslaan als HTML – Vectoren behouden & rasterisatie uitschakelen](./save-pdf-as-html-keep-vectors-disable-rasterization/) | Leer hoe u PDF's opslaat als HTML, waarbij vectoren behouden blijven en rasterisatie wordt uitgeschakeld, met Aspose.PDF voor .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
