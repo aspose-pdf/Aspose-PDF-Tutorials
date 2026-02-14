@@ -1,47 +1,55 @@
 ---
-date: '2025-12-06'
-description: Naučte se, jak označovat PDF pomocí Aspose.PDF pro Javu, přidávat nadpisy
-  a odstavce a zlepšit přístupnost PDF pro lepší navigaci.
+date: '2026-02-14'
+description: Naučte se, jak označit PDF pomocí Aspose.PDF pro Javu, vytvořit přístupný
+  PDF, přidat prvky nadpisu a odstavce a zlepšit přístupnost PDF pro lepší navigaci.
 keywords:
 - Aspose.PDF for Java
 - tagged PDF creation
 - accessible PDFs
 - how to tag pdf
-title: Jak označit PDF pomocí Aspose.PDF pro Javu – přístupné PDF
+title: Jak označit PDF pomocí Aspose.PDF pro Java – Přístupné PDF
 url: /cs/java/advanced-features/master-aspose-pdf-java-tagged-pdfs/
 weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ after "## Setting Up Aspose.PDF for Java": we have "Add the library to your project using one of the following build systems." Translate: "Přidejte knihovnu do svého projektu pomocí jednoho z následujících systémů sestavení."
+
+Also after "#### License Acquisition" we translated.
+
+Make sure we keep code block placeholders unchanged.
+
+Now produce final output with all translated content, preserving shortcodes and formatting.
+
+Let's construct final.{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Ovládání tvorby označených PDF s Aspose.PDF pro Java
+# Ovládání tvorby označených PDF s Aspose.PDF for Java
 
-V tomto komplexním průvodci se naučíte **jak označit PDF** pomocí Aspose.PDF pro Java, což vám umožní vytvářet přístupné, dobře strukturované dokumenty, které hladce fungují se čtečkami obrazovky a dalšími asistenčními technologiemi.
+V tomto komplexním průvodci se naučíte **jak označit PDF** pomocí Aspose.PDF for Java, což vám umožní vytvářet přístupné, dobře strukturované dokumenty, které hladce fungují se čtečkami obrazovky a dalšími asistenčními technologiemi. Na konci tutoriálu také pochopíte, jak **vytvořit přístupné PDF** soubory splňující požadavky PDF/UA, a jak **nastavit jazyk PDF** pro optimální přístupnost.
 
 ## Rychlé odpovědi
 - **Co je označování PDF?** Přidání logické struktury (tagů), která popisuje nadpisy, odstavce, tabulky atd., pro přístupnost.  
-- **Která knihovna se používá?** Aspose.PDF pro Java (verze 25.3 nebo novější).  
-- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro hodnocení; pro produkční nasazení je vyžadována komerční licence.  
-- **Mohu přidat záhlaví a odstavce?** Ano – API poskytuje třídy `HeaderElement` a `ParagraphElement`.  
-- **Je to jen pro Java?** Příklad je v Javě, ale podobné koncepty existují pro .NET a další platformy.
+- **Která knihovna se používá?** Aspose.PDF for Java (verze 25.3 nebo novější).  
+- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro hodnocení; pro produkční použití je vyžadována komerční licence.  
+- **Mohu přidávat záhlaví a odstavce?** Ano – API poskytuje třídy `HeaderElement` a `ParagraphElement`.  
+- **Je to jen pro Java?** Příklad je v Javě, ale podobné koncepty existují pro .NET a další platformy.  
 
-## Co je **jak označit PDF**?
+## Jak označit PDF pomocí Aspose.PDF for Java
 Označování PDF znamená vložení logického stromu struktury do souboru. Tento strom informuje asistenční technologie, které části dokumentu jsou nadpisy, odstavce, seznamy atd., což činí PDF mnohem použitelnějším pro osoby se zrakovým postižením.
 
-## Proč používat Aspose.PDF pro Java k označování PDF?
-- **Kompletní podpora přístupnosti** – vestavěné metody pro přidávání tagů, nastavení jazyka a definování názvů dokumentů.  
+## Proč použít Aspose.PDF for Java k označování PDF?
+- **Kompletní podpora přístupnosti** – vestavěné metody pro přidávání tagů, nastavení jazyka a definování názvů dokumentu.  
 - **Žádné externí závislosti** – funguje s čistými Java projekty a populárními IDE.  
 - **Robustní výkon** – efektivně zpracovává velké soubory s funkcemi správy paměti.  
 
-## Předpoklady
-- **Aspose.PDF pro Java** ≥ 25.3 (doporučena nejnovější verze).  
-- IDE pro Java, např. IntelliJ IDEA nebo Eclipse.  
+## Vytvoření přístupného PDF – Požadavky
+- **Aspose.PDF for Java** ≥ 25.3 (doporučena nejnovější verze).  
+- IDE pro Javu, např. IntelliJ IDEA nebo Eclipse.  
 - Základní znalost syntaxe Javy a nástrojů pro sestavení Maven/Gradle.  
 
-## Nastavení Aspose.PDF pro Java
+## Nastavení Aspose.PDF for Java
 Přidejte knihovnu do svého projektu pomocí jednoho z následujících systémů sestavení.
 
 ### Nastavení Maven
@@ -66,12 +74,9 @@ implementation 'com.aspose:aspose-pdf:25.3'
 Aspose.PDF nabízí bezplatnou zkušební verzi pro hodnocení. Získejte dočasnou licenci pro testování nebo zakupte plnou licenci pro produkční použití.
 
 ## Průvodce implementací
-Níže je krok‑za‑krokem průvodce nejčastějšími úkoly označování.
+Níže je krok za krokem průvodce nejčastějšími úkoly označování.
 
-### Jak označit PDF pomocí Aspose.PDF pro Java
-Tato sekce ukazuje hlavní postup pro vytvoření označeného PDF, přidání názvu dokumentu, jazyka, záhlaví a odstavců.
-
-#### Krok 1: Inicializace dokumentu
+### Krok 1: Inicializace dokumentu
 Vytvořte nový objekt `Document` a získejte jeho rozhraní pro označený obsah.
 
 ```java
@@ -85,8 +90,8 @@ Document document = new Document();
 ITaggedContent taggedContent = document.getTaggedContent();
 ```
 
-#### Krok 2: Nastavení názvu a jazyka  
-Nastavení názvu a jazyka zlepšuje **aspose pdf přístupnost** a pomáhá čtečkám obrazovky správně oznamovat dokument.
+### Krok 2: Nastavení názvu a jazyka  
+Nastavení názvu a jazyka zlepšuje **aspose pdf accessibility** a pomáhá čtečkám obrazovky správně oznámit dokument. To také splňuje část **pdf ua compliance**.
 
 ```java
 taggedContent.setTitle("Tagged Pdf Document");
@@ -108,7 +113,7 @@ headerElement.setActualText("Heading 1");
 document.save(outputDir + "/TaggedPdfWithHeader.pdf");
 ```
 
-### Přidání elementů odstavce – **aspose pdf add paragraph** / **add paragraph pdf java**
+### Přidání elementů odstavců – **aspose pdf add paragraph** / **add paragraph pdf java**
 Odstavce rozšiřují obsah a zlepšují čitelnost.
 
 #### Krok 1: Přidání odstavců do dokumentu  
@@ -125,68 +130,62 @@ paragraphElement2.setActualText("test 2");
 document.save(outputDir + "/TaggedPdfWithParagraphs.pdf");
 ```
 
-## Praktické aplikace
-Označená PDF jsou cenná v mnoha reálných scénářích:
+## Generování označeného PDF – Běžné případy použití
+1. **Soulad s přístupností** – splnění standardů WCAG a PDF/UA pro uživatele se zdravotním postižením.  
+2. **Zlepšená navigace** – umožňuje rychlé přechody k nadpisům a sekcím ve velkých dokumentech.  
+3. **Integrace asistenčních technologií** – funguje hladce s čtečkami obrazovky, Braillovými displeji a dalšími nástroji.  
 
-1. **Soulad s přístupností** – Splňte standardy WCAG a PDF/UA pro uživatele se zdravotním postižením.  
-2. **Vylepšená navigace** – Umožňuje rychlé přeskakování na nadpisy a sekce ve velkých dokumentech.  
-3. **Integrace asistenčních technologií** – Bezproblémová spolupráce s čtečkami obrazovky, Braillovými displeji a dalšími nástroji.  
+## Nastavení jazyka PDF – Proč je to důležité
+Určení jazyka (např. `en-US`) umožňuje asistenčním technologiím použít správná pravidla výslovnosti a dělení slov. Také přispívá k **pdf ua compliance** a zlepšuje celkové hodnocení přístupnosti dokumentu.
+
+## Přidání tagů do PDF – Tipy a osvědčené postupy
+- **Hierarchie tagů:** Udržujte strom tagů mělký; hluboké vnoření může některé čtečky zmást.  
+- **Konzistentní pojmenování:** Používejte jasné, popisné hodnoty `ActualText` pro nadpisy a odstavce.  
+- **Validace včas:** Po každé větší změně spusťte kontrolu panelu „Tags“ v Adobe Acrobat.  
 
 ## Úvahy o výkonu
-Při práci s velkými PDF:
+Při zpracování velkých PDF:
 
-- Používejte Java try‑with‑resources nebo explicitní volání `close()` k uvolnění souborových handle.  
+- Používejte Java try‑with‑resources nebo explicitní volání `close()` k uvolnění souborových deskriptorů.  
 - Zavolejte `document.optimizeResources()`, pokud potřebujete snížit spotřebu paměti.  
 
-## Závěr
-Nyní jste se naučili **jak označit PDF** pomocí Aspose.PDF pro Java, včetně nastavení metadat dokumentu, přidání elementů záhlaví a vložení elementů odstavců. Tyto techniky zvyšují přístupnost PDF a usnadňují navigaci v dokumentech.
-
-### Další kroky
-- Prozkoumejte pokročilé funkce označování, jako jsou tabulky, seznamy a vlastní tagy.  
-- Kombinujte označování s digitálními podpisy pro zabezpečená, přístupná PDF.  
-
-## Sekce FAQ
-1. **Co je označené PDF?**  
-   Označené PDF obsahuje sémantické informace, které pomáhají čtečkám obrazovky, zlepšují přístupnost.  
-2. **Jak začít s Aspose.PDF pro Java?**  
-   Přidejte knihovnu do svého projektu pomocí Maven nebo Gradle, jak je uvedeno výše.  
-3. **Mohu používat Aspose.PDF zdarma?**  
-   Ano, je k dispozici bezplatná zkušební verze; licence je vyžadována pro produkci.  
-4. **Jaké jsou výhody označených PDF?**  
-   Zvyšují přístupnost, zlepšují navigaci a dobře spolupracují s asistenčními technologiemi.  
-5. **Kde najdu další zdroje o Aspose.PDF?**  
-   Navštivte [oficiální dokumentaci Aspose](https://reference.aspose.com/pdf/java/) pro komplexní průvodce a tutoriály.  
+## Časté problémy a řešení
+| Problém | Řešení |
+|---------|--------|
+| Tagy se v Acrobat neobjevují | Ujistěte se, že voláte `document.save()` **po** přidání každého elementu. |
+| Jazyk není rozpoznán | Ověřte, že kód jazyka odpovídá BCP‑47 (např. `en-US`, `fr-FR`). |
+| Velké soubory způsobují OutOfMemoryError | Povolte `document.optimizeResources()` a zpracovávejte stránky po částech. |
 
 ## Často kladené otázky
 
-**Q: Ovlivňuje označování vizuální rozvržení mého PDF?**  
-A: Ne. Tagy jsou neviditelné metadata; nemění vzhled PDF na obrazovce.
+**Q: Co je označené PDF?**  
+A: Označené PDF obsahuje sémantické informace, které pomáhají čtečkám obrazovky, zlepšují přístupnost.  
 
-**Q: Mohu přidat tagy do existujícího PDF?**  
-A: Ano. Načtěte PDF, získejte jeho `ITaggedContent` a podle potřeby přidejte nové elementy.
+**Q: Jak začít s Aspose.PDF for Java?**  
+A: Přidejte knihovnu do svého projektu pomocí Maven nebo Gradle, jak je uvedeno výše.  
 
-**Q: Existuje limit na počet tagů, které mohu přidat?**  
-A: Prakticky ne, ale extrémně velké stromy tagů mohou ovlivnit výkon; optimalizujte, kde je to možné.
+**Q: Můžu používat Aspose.PDF zdarma?**  
+A: Ano, je k dispozici bezplatná zkušební verze; licence je vyžadována pro produkci.  
 
-**Q: Jak ověřím, že je mé PDF správně označeno?**  
-A: Použijte panel „Tags“ v Adobe Acrobat nebo jakýkoli nástroj pro validaci PDF/UA.
+**Q: Jaké jsou výhody označených PDF?**  
+A: Zvyšují přístupnost, zlepšují navigaci a dobře fungují s asistenčními technologiemi.  
 
-**Q: Bude to fungovat na Java 11 a novějších?**  
-A: Rozhodně. Aspose.PDF pro Java podporuje Java 8+ a je plně kompatibilní s Java 11, 17 a novějšími verzemi.
+**Q: Kde najdu další zdroje o Aspose.PDF?**  
+A: Navštivte [oficiální dokumentaci Aspose](https://reference.aspose.com/pdf/java/) pro komplexní průvodce a tutoriály.  
 
 ## Zdroje
-- [Documentation](https://reference.aspose.com/pdf/java/)
-- [Download Library](https://releases.aspose.com/pdf/java/)
-- [Purchase License](https://purchase.aspose.com/buy)
-- [Free Trial](https://releases.aspose.com/pdf/java/)
-- [Temporary License](https://purchase.aspose.com/temporary-license/)
-- [Support Forum](https://forum.aspose.com/c/pdf/10)
+- [Dokumentace](https://reference.aspose.com/pdf/java/)
+- [Stáhnout knihovnu](https://releases.aspose.com/pdf/java/)
+- [Koupit licenci](https://purchase.aspose.com/buy)
+- [Bezplatná zkušební verze](https://releases.aspose.com/pdf/java/)
+- [Dočasná licence](https://purchase.aspose.com/temporary-license/)
+- [Fórum podpory](https://forum.aspose.com/c/pdf/10)
 
 ---
 
-**Poslední aktualizace:** 2025-12-06  
-**Testováno s:** Aspose.PDF pro Java 25.3  
-**Autor:** Aspose
+**Last Updated:** 2026-02-14  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
