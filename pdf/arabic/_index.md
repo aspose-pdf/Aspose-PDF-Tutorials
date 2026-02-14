@@ -1,11 +1,10 @@
 ---
-date: 2025-12-13
-description: تعلم كيفية إنشاء ملفات PDF باستخدام دروس Aspose.PDF المرئية. استكشف رسم
-  خط في PDF، استخراج الصور من PDF، تغيير حجم صور PDF، ضغط صور PDF، وإضافة جدول إلى
-  PDF.
+date: 2026-02-14
+description: تعلم كيفية إنشاء ملفات PDF باستخدام دروس Aspose.PDF المرئية، بما في ذلك
+  رسم الخطوط، استخراج الصور وتغيير حجمها، ضغط الصور، وإضافة الجداول في .NET.
 keywords: null
 limit: null
-title: كيفية إنشاء PDF باستخدام دروس Aspose.PDF المرئية
+title: إنشاء PDF باستخدام دروس Aspose.PDF المرئية – الدليل الكامل
 url: /ar/
 weight: 10
 ---
@@ -16,33 +15,32 @@ weight: 10
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# كيفية إنشاء PDF باستخدام دروس Aspose.PDF المرئية
-  
-توفر دروس Aspose.PDF المرئية تجربة تعلم تفاعلية للمطورين الذين يعملون مع ملفات PDF في .NET. تغطي هذه الدروس مهام معالجة PDF الأساسية مثل الإنشاء، التحرير، التحويل، وتأمين ملفات PDF مع رسومات بصرية في الوقت الفعلي وأمثلة على الشيفرة. سواء كنت مبتدئًا أو مطورًا ذو خبرة، فإن أدلتنا خطوة بخطوة تبسط العمليات المعقدة، وتساعدك على **كيفية إنشاء PDF** بسرعة وكفاءة.  
+# إنشاء PDF باستخدام دروس Aspose.PDF المرئية  
 
-كل درس يتضمن رسومات توضيحية عالية الجودة، لقطات شاشة مشروحة، ومقاطع شيفرة C# جاهزة للاستخدام لتعزيز فهمك. مع أمثلة عملية ودروس منظمة، يمكنك إتقان Aspose.PDF لـ .NET بسهولة. استكشف دروسنا اليوم وارتق بمهاراتك في تطوير PDF!
+توفر لك دروس Aspose.PDF المرئية طريقة عملية لـ **إنشاء PDF باستخدام Aspose.PDF** بسرعة، سواء كنت تبني فواتير أو تقارير أو نماذج تفاعلية. تجمع هذه الأدلة خطوة بخطوة بين شروحات واضحة، لقطات شاشة عالية الدقة، ومقاطع شفرة C# جاهزة للتنفيذ حتى تتمكن من التركيز على حل المشكلات التجارية الحقيقية بدلاً من التعامل مع تفاصيل PDF منخفضة المستوى.  
+
+كل درس يوجهك خلال مهمة محددة — رسم خطوط، استخراج صور، تغيير حجم الرسومات، ضغط الموارد، أو إنشاء جداول — لتتمكن من إتقان معالجة PDF في .NET بثقة.
 
 ## إجابات سريعة
-- **ما هو الهدف الأساسي من هذه الدروس؟** لتعليمك كيفية إنشاء مستندات PDF وإجراء عمليات معالجة PDF المتقدمة باستخدام Aspose.PDF لـ .NET.  
-- **هل أحتاج إلى ترخيص؟** يتوفر إصدار تجريبي مجاني؛ يتطلب الاستخدام في الإنتاج ترخيص تجاري.  
-- **ما إصدارات .NET المدعومة؟** .NET Framework 4.5+، .NET Core 3.1+، .NET 5/6/7.  
-- **هل يمكنني استخدام هذه الدروس للـ Java؟** توجد دروس منفصلة للـ Java مذكورة لاحقًا في هذه الصفحة.  
-- **كم من الوقت يستغرق تنفيذ إنشاء PDF أساسي؟** عادةً أقل من 10 دقائق بمجرد الإشارة إلى المكتبة.
+- **ما هو الهدف الرئيسي من هذه الدروس؟** إظهار كيفية إنشاء PDF باستخدام Aspose.PDF وأداء عمليات PDF الشائعة في .NET.  
+- **هل أحتاج إلى رخصة تجارية؟** النسخة التجريبية المجانية تكفي للتقييم؛ الرخصة المدفوعة مطلوبة للإنتاج.  
+- **ما هي إصدارات .NET المدعومة؟** .NET Framework 4.5+، .NET Core 3.1+، .NET 5/6/7.  
+- **هل تتوفر نظائر Java؟** نعم — دروس Java المرئية منفصلة مدرجة لاحقًا في هذه الصفحة.  
+- **كم يستغرق إنشاء PDF أساسي؟** عادةً أقل من 10 دقائق بمجرد الإشارة إلى المكتبة.
 
-## كيفية إنشاء PDF – نظرة عامة
-يبدأ إنشاء PDF باستخدام Aspose.PDF بإنشاء كائن من فئة `Document`، إضافة صفحات، وتعبئتها بالمحتوى مثل النصوص، الصور، الجداول أو الرسومات. تقوم الـ API بتجريد هياكل PDF منخفضة المستوى، مما يتيح لك التركيز على منطق الأعمال لتطبيقك.
+## كيفية إنشاء PDF باستخدام Aspose.PDF – نظرة عامة
+يبدأ إنشاء PDF باستخدام Aspose.PDF بإنشاء كائن من الفئة `Document`، إضافة صفحات، ثم ملء تلك الصفحات بالنصوص أو الصور أو الجداول أو الرسومات. تحميك واجهة برمجة التطبيقات عالية المستوى من تعقيد مواصفات PDF، مما يتيح لك التركيز على منطق الأعمال في تطبيقك.
 
-## [دروس Aspose.PDF لـ .NET المرئية](./net/)
+## [دروس Aspose.PDF للـ .NET المرئية](./net/)
 
-توفر دروس Aspose.PDF لـ .NET المرئية أدلة شاملة خطوة بخطوة لمساعدة المطورين على إتقان معالجة PDF باستخدام C#. سواء كنت بحاجة إلى إنشاء، تحرير، تحويل أو تعديل ملفات PDF، فإن هذه الدروس تقدم شروحات واضحة وأمثلة عملية على الشيفرة. مع التركيز على سيناريوهات واقعية، تجعل المهام المعقدة في PDF بسيطة وفعّالة.
+توفر دروس Aspose.PDF للـ .NET المرئية أدلة شاملة خطوة بخطوة لمساعدة المطورين على إتقان معالجة PDF باستخدام C#. سواء كنت بحاجة إلى إنشاء أو تعديل أو تحويل أو معالجة ملفات PDF، فإن هذه الدروس تقدم شروحات واضحة وأمثلة شفرة عملية. مع التركيز على سيناريوهات واقعية، تجعل المهام المعقدة في PDF بسيطة وفعّالة.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+## [إنشاء مخططات في PDF باستخدام Aspose.PDF للـ .NET](./net/graphs/)
 
-## [إنشاء رسومات بيانية في PDF باستخدام Aspose.PDF لـ .NET](./net/graphs/)
-
-تعلم كيفية إنشاء وتخصيص الرسومات البيانية في PDF باستخدام Aspose.PDF لـ .NET. أضف مخططات الخط، الأعمدة، والدوائر بسهولة باستخدام أمثلة شيفرة C#.
+تعلم كيفية إنشاء وتخصيص المخططات في PDF باستخدام Aspose.PDF للـ .NET. أضف مخططات الخطوط، الأعمدة، والدوائر بسهولة باستخدام أمثلة شفرة C#.
 
 {{< tutorial-card link="./net/graphs/add-drawing/" title="Create a PDF with Transparent Graphs Using Aspose.PDF" imgSrc="./net/graphs/add-drawing/images/thumb.png" >}}
 
@@ -55,12 +53,12 @@ weight: 10
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 ## رسم خطوط PDF
-رسم خطوط مستقيمة أو مائلة هو طلب شائع للنماذج، التوقيعات، والدلائل البصرية. يوضح درس “Draw Diagonal Lines” استدعاءات الـ API الدقيقة اللازمة لإضافة كائنات خطوط دقيقة إلى أي صفحة PDF.
+رسم خطوط مستقيمة أو قطرية هو طلب شائع للنماذج، التوقيعات، والدلائل البصرية. يوضح درس “رسم خطوط قطرية” استدعاءات API الدقيقة اللازمة لإضافة كائنات خطوط دقيقة إلى أي صفحة PDF.
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [إنشاء صور من PDF باستخدام Aspose.PDF لـ .NET](./net/images/)
+## [إنشاء صور من PDF باستخدام Aspose.PDF للـ .NET](./net/images/)
 
-تعلم كيفية إنشاء صور من ملفات PDF باستخدام Aspose.PDF لـ .NET. حوّل صفحات PDF إلى JPEG أو PNG أو BMP بسهولة في C# وبجودة عالية.
+تعلم كيفية إنشاء صور من ملفات PDF باستخدام Aspose.PDF للـ .NET. حوّل صفحات PDF إلى JPEG أو PNG أو BMP بسهولة باستخدام C# وبجودة عالية.
 
 {{< tutorial-card link="./net/images/extract-image/" title="Extract Images from PDF in C# using Aspose.PDF" imgSrc="./net/images/extract-image/images/thumb.png" >}}
 
@@ -73,18 +71,18 @@ weight: 10
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 ## استخراج صور PDF
-يظهر درس “Extract Images” كيفية سحب الأصول النقطية من ملفات PDF الحالية، وهي تقنية مفيدة لإعادة استخدام المحتوى أو مشاريع الترحيل.
+يظهر درس “استخراج الصور” كيفية سحب الأصول النقطية من ملفات PDF الموجودة، وهي تقنية مفيدة لإعادة استخدام المحتوى أو مشاريع الترحيل.
 
-## تعديل حجم صور PDF
-عندما تحتاج إلى ملفات أصغر أو عرض أسرع، يشرح دليل “Resize Image” كيفية تعديل أبعاد الصورة برمجياً مع الحفاظ على الجودة.
+## تغيير حجم صور PDF
+عندما تحتاج إلى ملفات أصغر أو عرض أسرع، يوضح دليل “تغيير حجم الصورة” كيفية تعديل أبعاد الصورة برمجياً مع الحفاظ على الجودة.
 
 ## ضغط صور PDF
-في بيئات ذات سعة تخزين محدودة، يوضح درس “Shrink Image” إعدادات الضغط التي تقلل حجم PDF بشكل كبير دون فقدان بصري ملحوظ.
+في بيئات ذات سعة تخزين محدودة، يوضح درس “ضغط الصورة” إعدادات الضغط التي تقلل حجم PDF بشكل كبير دون فقدان بصري ملحوظ.
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [دروس شاملة حول الجداول في Aspose.PDF لـ .NET](./net/tables/)
+## [دروس شاملة حول الجداول في Aspose.PDF للـ .NET](./net/tables/)
 
-تعلم كيفية إنشاء وتنسيق ومعالجة الجداول في مستندات PDF باستخدام Aspose.PDF لـ .NET من خلال دروس خطوة بخطوة وأمثلة على الشيفرة.
+تعلم كيفية إنشاء وتنسيق ومعالجة الجداول في مستندات PDF باستخدام Aspose.PDF للـ .NET من خلال دروس خطوة بخطوة وأمثلة شفرة.
 
 {{< tutorial-card link="./net/tables/add-table/" title="Add Table to an Existing PDF Using Aspose.PDF for .NET" imgSrc="./net/tables/add-table/images/thumb.png" >}}
 
@@ -98,13 +96,13 @@ weight: 10
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-## إضافة جدول إلى PDF
-الجداول أساسية للتقارير والفواتير. يجمع هذا القسم الدروس المتعلقة بالجداول، موفرًا لك مرجعًا شاملاً لإضافة الجداول وتنسيقها وترقيم صفحاتها في ملفات PDF.
+## إضافة جدول PDF
+الجداول أساسية للتقارير والفواتير. يجمع هذا القسم الدروس المتعلقة بالجداول، موفرًا لك مرجعًا شاملاً لإضافة وتنسيق وترقيم الجداول في ملفات PDF.
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## [دروس شاملة لمعالجة النص في Aspose.PDF لـ .NET](./net/text/)
+## [دروس شاملة لمعالجة النص في Aspose.PDF للـ .NET](./net/text/)
 
-تعلم كيفية إنشاء وتنسيق ومعالجة النص في مستندات PDF باستخدام Aspose.PDF لـ .NET من خلال دروس خطوة بخطوة وأمثلة على الشيفرة.
+تعلم كيفية إنشاء وتنسيق ومعالجة النص في مستندات PDF باستخدام Aspose.PDF للـ .NET من خلال دروس خطوة بخطوة وأمثلة شفرة.
 
 {{< tutorial-card link="./net/text/add-text/" title="Adding Text to PDF Documents with Aspose.PDF" imgSrc="./net/text/add-text/images/thumb.png" >}}
 
@@ -122,17 +120,17 @@ weight: 10
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-هذه روابط لبعض الموارد المفيدة:
+These are links to some useful resources:
 - [البدء](./net/getting-started/)
 - [البرمجة مع المستند](./net/programming-with-document/)
 - [البرمجة مع التعليقات التوضيحية](./net/programming-with-annotations/)
-- [تحويل المستندات](./net/document-conversion/)
+- [تحويل المستند](./net/document-conversion/)
 - [البرمجة مع النماذج](./net/programming-with-forms/)
 - [البرمجة مع الجداول](./net/programming-with-tables/)
 - [البرمجة مع صفحات PDF](./net/programming-with-pdf-pages/)
-- [البرمجة مع الرسومات البيانية](./net/programming-with-graphs/)
-- [إنشاء المستندات](./net/document-creation/)
-- [معالجة المستندات](./net/document-manipulation/)
+- [البرمجة مع المخططات](./net/programming-with-graphs/)
+- [إنشاء المستند](./net/document-creation/)
+- [معالجة المستند](./net/document-manipulation/)
 - [عمليات النص](./net/text-operations/)
 - [الصور والرسومات](./net/images-graphics/)
 - [الجداول والقوائم](./net/tables-lists/)
@@ -143,7 +141,7 @@ weight: 10
 - [المرفقات والملفات المدمجة](./net/attachments-embedded-files/)
 - [البيانات الوصفية ومعلومات المستند](./net/metadata-document-info/)
 - [الامتثال لـ PDF/A](./net/pdfa-compliance/)
-- [الإشارات والتنقل](./net/bookmarks-navigation/)
+- [الإشارات المرجعية والتنقل](./net/bookmarks-navigation/)
 - [العلامات المائية والخلفيات](./net/watermarks-backgrounds/)
 - [التوقيعات الرقمية](./net/digital-signatures/)
 - [الميزات المتقدمة](./net/advanced-features/)
@@ -153,29 +151,29 @@ weight: 10
 ## واجهة برمجة تطبيقات معالجة Aspose.PDF للـ Java
 
 {{% alert color="primary" %}}
-اتقن Aspose.PDF للـ Java من خلال دروس شاملة. أنشئ، حرّر، وحسّن ملفات PDF بسهولة. ارتق بمهاراتك في تطوير PDF اليوم!
+اتقن Aspose.PDF للـ Java من خلال دروس شاملة. أنشئ، عدّل، وحسّن ملفات PDF بسهولة. ارتق بمهارات تطوير PDF الخاصة بك اليوم!
 {{% /alert %}}
 
-هذه روابط لبعض الموارد المفيدة:
+These are links to some useful resources:
 - [البدء](./java/getting-started/)	
-- [تعليقات PDF التوضيحية](./java/pdf-annotations/)
+- [تعليقات PDF](./java/pdf-annotations/)
 - [مرفقات PDF](./java/pdf-attachments/)
 - [إشارات PDF](./java/pdf-bookmarks/)
 - [تحويل وتحويل PDF](./java/pdf-conversion-transformation/)
 - [صور PDF](./java/pdf-images/)
 - [معالجة صور PDF](./java/pdf-image-manipulation/)
-- [روابط مستندات PDF](./java/pdf-document-links/)
+- [روابط مستند PDF](./java/pdf-document-links/)
 - [معالجة صفحات PDF](./java/pdf-page-manipulation/)
 - [عمليات مستند PDF](./java/pdf-document-operations/)
 - [حقول نماذج PDF](./java/pdf-form-fields/)
 - [جداول PDF](./java/pdf-tables/)
 - [عناصر بنية PDF](./java/pdf-structure-elements/)
-- [وسوم PDF والبنية](./java/pdf-tags-and-structure/)
+- [علامات PDF والبنية](./java/pdf-tags-and-structure/)
 - [أنماط وتنسيق PDF](./java/pdf-styles-and-formatting/)
 - [استخراج نص PDF](./java/pdf-text-extraction/)
-- [التحقق من صحة PDF والتحقق](./java/pdf-validation-and-verification/)
-- [إنشاء المستندات](./java/document-creation/)
-- [معالجة المستندات](./java/document-manipulation/)
+- [التحقق والتصديق على PDF](./java/pdf-validation-and-verification/)
+- [إنشاء المستند](./java/document-creation/)
+- [معالجة المستند](./java/document-manipulation/)
 - [عمليات النص](./java/text-operations/)
 - [الصور والرسومات](./java/images-graphics/)
 - [الجداول والقوائم](./java/tables-lists/)
@@ -186,7 +184,7 @@ weight: 10
 - [المرفقات والملفات المدمجة](./java/attachments-embedded-files/)
 - [البيانات الوصفية ومعلومات المستند](./java/metadata-document-info/)
 - [الامتثال لـ PDF/A](./java/pdfa-compliance/)
-- [الإشارات والتنقل](./java/bookmarks-navigation/)
+- [الإشارات المرجعية والتنقل](./java/bookmarks-navigation/)
 - [العلامات المائية والخلفيات](./java/watermarks-backgrounds/)
 - [التوقيعات الرقمية](./java/digital-signatures/)
 - [الميزات المتقدمة](./java/advanced-features/)
@@ -195,7 +193,7 @@ weight: 10
 ## الأسئلة المتكررة
 
 **س:** *هل يمكنني استخدام هذه الدروس في تطبيق تجاري؟*  
-**ج:** نعم، تحتاج إلى ترخيص Aspose صالح للاستخدام في الإنتاج؛ يتوفر إصدار تجريبي مجاني للتقييم.
+**ج:** نعم، تحتاج إلى رخصة Aspose صالحة للاستخدام في الإنتاج؛ النسخة التجريبية المجانية متاحة للتقييم.
 
 **س:** *هل تعمل دروس .NET مع .NET Core؟*  
 **ج:** بالتأكيد – جميع الأمثلة متوافقة مع .NET Core 3.1 وما بعده، وكذلك .NET 5/6/7.
@@ -204,15 +202,13 @@ weight: 10
 **ج:** استخدم الفئة `PdfExtractor` الموضحة في قسم “استخراج صور PDF” لسحب الأصول النقطية.
 
 **س:** *ما هي أفضل طريقة لإضافة جدول إلى PDF؟*  
-**ج:** اتبع دليل “إضافة جدول إلى PDF”؛ يغطي إنشاء كائن `Table`، تعبئة الصفوف، وتطبيق الحدود.
+**ج:** اتبع دليل “إضافة جدول PDF”؛ فهو يغطي إنشاء كائن `Table`، تعبئة الصفوف، وتطبيق الحدود.
 
 **س:** *هل يمكنني رسم خطوط أو أشكال مخصصة على صفحة PDF؟*  
-**ج:** نعم – راجع درس “رسم خطوط PDF” لاستخدام الكائنات الأولية `Line` و `Rectangle`.
+**ج:** نعم – راجع درس “رسم خطوط PDF” لاستخدام بدائيات `Line` و `Rectangle`.
 
----
-
-**آخر تحديث:** 2025-12-13  
-**تم الاختبار مع:** Aspose.PDF 24.11 لـ .NET & Aspose.PDF 24.11 لـ Java  
+**آخر تحديث:** 2026-02-14  
+**تم الاختبار مع:** Aspose.PDF 24.11 للـ .NET & Aspose.PDF 24.11 للـ Java  
 **المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
