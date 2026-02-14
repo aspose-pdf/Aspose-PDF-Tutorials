@@ -39,6 +39,8 @@ Aspose.PDF の .NET 向けチュートリアル「スタンプと透かしを使
 | [ヘッダーフッターセクションの表](./table-in-header-footer-section/) Aspose.PDF for .NET を使用して、PDF ファイルのフッターにテキストを簡単に追加する方法を学びましょう。シームレスな統合のためのステップバイステップガイドが付属しています。 |  
 | [PDFファイルのフッター内のテキスト](./text-in-footer/) Aspose.PDF for .NET を使用して PDF ファイルのフッターにテキストを追加する方法を学習します。 |  
 | [PDFファイルのヘッダー内のテキスト](./text-in-header/) Aspose.PDF for .NET を使用してPDFにテキストヘッダーを追加する方法をステップバイステップで学ぶチュートリアルです。ドキュメントを効率的かつ効果的に強化しましょう。 |  
+| [Bates番号付け PDF – 完全な C# ガイド](./add-bates-numbering-pdf-complete-c-guide/) Aspose.PDF for .NET を使用して PDF に Bates 番号付けを追加する方法を、ステップバイステップで解説します。 |  
+| [C# で PDF の不透明度を変更する – 完全な Aspose ガイド](./change-pdf-opacity-in-c-complete-aspose-guide/) Aspose.PDF for .NET を使用して C# で PDF の不透明度を変更する方法をステップバイステップで解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

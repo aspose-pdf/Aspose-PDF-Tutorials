@@ -37,13 +37,14 @@ Los tutoriales "Programación con PDF etiquetados" de Aspose.PDF para .NET le gu
 | [Propiedades de los elementos de estructura en un archivo PDF](./structure-elements-properties/) Guía paso a paso para trabajar con propiedades de elementos estructurales en archivos PDF con Aspose.PDF para .NET. Cree elementos estructurales con abundante información.  
 | [Celda de tabla de estilos](./style-table-cell/) Aprenda a aplicar estilo a las celdas de una tabla PDF con Aspose.PDF para .NET con este tutorial detallado. Siga las instrucciones para crear y dar formato a atractivas tablas PDF.  
 | [Elemento de tabla de estilos](./style-table-element/) | Aprenda a crear y diseñar un elemento de tabla en Aspose.PDF para .NET con instrucciones paso a paso, estilos personalizados y compatibilidad con PDF/UA. |  
-| [Fila de tabla de estilos](./style-table-row/) Aprenda a aplicar estilo a las filas de una tabla en un PDF usando Aspose.PDF para .NET con una guía paso a paso para mejorar el formato de su documento con facilidad. |  
+| [Fila de tabla de estilos](./style-table-row/) Aprenda a aplicar estilo a las filas de una tabla en un PDF usando Aspose.PDF para .NET con una guía paso a paso para mejorar el formato de su documento con facilidad.  
 | [Estructura del texto de estilo en un archivo PDF](./style-text-structure/) Aprenda a aplicar estilo a la estructura del texto en archivos PDF con Aspose.PDF para .NET en este completo tutorial paso a paso. Transforme sus documentos.  
 | [Contenido PDF etiquetado](./tagged-pdf-content/) Aprenda a trabajar con contenido etiquetado en un documento PDF con Aspose.PDF para .NET. Guía paso a paso para usar etiquetas.  
 | [Etiquetar imagen en un PDF existente](./tag-image-in-existing-pdf/) Aprenda a etiquetar imágenes en archivos PDF existentes con Aspose.PDF para .NET. Guía paso a paso para mejorar la accesibilidad con compatibilidad con PDF/UA.  
 | [Elementos de la estructura del bloque de texto](./text-block-structure-elements/) | Aprenda a utilizar Aspose.PDF para .NET para agregar elementos de estructura de bloques de texto, como encabezados y párrafos etiquetados, a un documento PDF existente. |  
 | [Elementos de la estructura del texto en un archivo PDF](./text-structure-elements/) Aprenda a manipular elementos de estructura de texto en archivos PDF con Aspose.PDF para .NET. Esta guía paso a paso cubre todo lo necesario para crear archivos PDF estructurados.  
-| [Validar archivo PDF](./validate-pdf/) Aprenda a validar un archivo PDF con Aspose.PDF para .NET. Compruebe su cumplimiento de los estándares y genere un informe de validación.  
+| [Validar archivo PDF](./validate-pdf/) Aprenda a validar un archivo PDF con Aspose.PDF para .NET. Compruebe su cumplimiento de los estándares y genere un informe de validación. |  
+| [Cómo etiquetar PDF con Aspose – Guía completa de etiquetas de accesibilidad PDF](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) | Aprenda a aplicar etiquetas de accesibilidad a PDFs con Aspose.PDF para .NET en esta guía completa paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
