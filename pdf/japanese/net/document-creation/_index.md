@@ -74,6 +74,9 @@ Aspose.PDF for .NET を使用して、アクセシビリティが高く、構造
 ### [Aspose.PDF .NET で PDF ブックレット作成をマスターする](./aspose-pdf-net-create-booklet-page-arrangement/)
 Aspose.PDF Net のコードチュートリアル
 
+### [C# で PDF ドキュメントを作成 – ページの追加、矩形の描画、保存](./create-pdf-document-c-add-page-draw-rectangle-save/)
+C# を使用して新しいページを追加し、矩形を描画して PDF を保存する方法をステップバイステップで解説します。
+
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)

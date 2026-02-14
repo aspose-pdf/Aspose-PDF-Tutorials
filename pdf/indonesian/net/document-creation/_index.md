@@ -74,6 +74,9 @@ Pelajari cara membuat PDF bertag yang mudah diakses dan terstruktur dengan baik 
 ### [Menguasai Pembuatan Buklet PDF dengan Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Tutorial kode untuk Aspose.PDF Net
 
+### [Buat Dokumen PDF C# – Tambah Halaman, Gambar Persegi Panjang & Simpan](./create-pdf-document-c-add-page-draw-rectangle-save/)
+Pelajari cara membuat dokumen PDF di C#, menambahkan halaman, menggambar persegi panjang, dan menyimpannya dengan Aspose.PDF.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

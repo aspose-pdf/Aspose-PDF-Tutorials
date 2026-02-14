@@ -44,6 +44,7 @@ Aspose.PDF for .NET の「タグ付き PDF を使ったプログラミング」�
 | [テキストブロック構造要素](./text-block-structure-elements/) Aspose.PDF for .NET を使用して、見出しやタグ付き段落などのテキスト ブロック構造要素を既存の PDF ドキュメントに追加する方法を学びます。 |  
 | [PDFファイル内のテキスト構造要素](./text-structure-elements/) Aspose.PDF for .NET を使って、PDF 内のテキスト構造要素を操作する方法を学びましょう。このステップバイステップガイドでは、構造化された PDF を作成するために必要なすべての手順を網羅しています。 |  
 | [PDFファイルの検証](./validate-pdf/) Aspose.PDF for .NET を使って PDF ファイルを検証する方法を学びましょう。標準規格への準拠を確認し、検証レポートを生成します。 |  
+| [AsposeでPDFにタグ付けする方法 – PDFアクセシビリティタグ完全ガイド](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) Aspose.PDF を使用して PDF にアクセシビリティタグを付与し、PDF/UA 準拠のドキュメントを作成する手順を詳しく解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

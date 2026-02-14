@@ -44,6 +44,7 @@ Aspose.PDF for .NET의 "태그가 지정된 PDF 프로그래밍" 튜토리얼은
 | [텍스트 블록 구조 요소](./text-block-structure-elements/) | Aspose.PDF for .NET을 사용하여 기존 PDF 문서에 제목 및 태그가 지정된 문단과 같은 텍스트 블록 구조 요소를 추가하는 방법을 알아보세요. |  
 | [PDF 파일의 텍스트 구조 요소](./text-structure-elements/) Aspose.PDF for .NET을 사용하여 PDF의 텍스트 구조 요소를 조작하는 방법을 알아보세요. 이 단계별 가이드에서는 구조화된 PDF를 만드는 데 필요한 모든 것을 다룹니다. |  
 | [PDF 파일 검증](./validate-pdf/) | Aspose.PDF for .NET을 사용하여 PDF 파일의 유효성을 검사하는 방법을 알아보세요. 표준 준수 여부를 확인하고 유효성 검사 보고서를 생성하세요. |  
+| [Aspose로 PDF에 태그 지정하기 – PDF 접근성 태그 완전 가이드](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) | Aspose.PDF for .NET을 활용해 PDF에 접근성 태그를 적용하고 검증하는 전체 과정을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

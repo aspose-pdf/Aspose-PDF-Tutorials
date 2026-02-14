@@ -44,6 +44,7 @@ Aspose.PDF for .NET 的「使用標記 PDF 進行程式設計」教學課程將�
 | [文字區塊結構元素](./text-block-structure-elements/) |了解如何使用 Aspose.PDF for .NET 將文字區塊結構元素（例如標題和標記段落）新增至現有 PDF 文件。 |  
 | [PDF檔案中的文字結構元素](./text-structure-elements/) |學習使用 Aspose.PDF for .NET 操作 PDF 中的文字結構元素。本逐步指南涵蓋了創建結構化 PDF 所需的所有內容。 |  
 | [驗證 PDF 文件](./validate-pdf/) |了解如何使用 Aspose.PDF for .NET 驗證 PDF 檔案。檢查其是否符合標準並產生驗證報告。 |  
+| [如何使用 Aspose 標記 PDF – PDF 可存取性標籤完整指南](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) |本完整指南說明如何使用 Aspose.PDF 為 PDF 添加可存取性標籤，提升文件的可讀性與合規性。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

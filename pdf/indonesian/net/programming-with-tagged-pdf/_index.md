@@ -43,7 +43,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Tag Gambar Dalam PDF yang Ada](./tag-image-in-existing-pdf/) | Pelajari cara memberi tag pada gambar dalam PDF yang ada menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah untuk meningkatkan aksesibilitas dengan kepatuhan PDF/UA. Bahasa Indonesia:  
 | [Elemen Struktur Blok Teks](./text-block-structure-elements/) | Pelajari cara menggunakan Aspose.PDF untuk .NET untuk menambahkan elemen struktur blok teks, seperti judul dan paragraf yang diberi tag, ke dokumen PDF yang ada. Bahasa Indonesia:  
 | [Elemen Struktur Teks Dalam File PDF](./text-structure-elements/) Pelajari cara memanipulasi elemen struktur teks dalam PDF dengan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini mencakup semua yang Anda butuhkan untuk membuat PDF terstruktur. Bahasa Indonesia:  
-| [Validasi File PDF](./validate-pdf/) | Pelajari cara memvalidasi file PDF dengan Aspose.PDF untuk .NET. Periksa kepatuhannya terhadap standar dan buat laporan validasi. |  
+| [Validasi File PDF](./validate-pdf/) | Pelajari cara memvalidasi file PDF dengan Aspose.PDF untuk .NET. Periksa kepatuhannya terhadap standar dan buat laporan validasi. |
+| [Cara Menandai PDF dengan Aspose – Panduan Lengkap Tag Aksesibilitas PDF](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) | Pelajari cara menandai PDF untuk meningkatkan aksesibilitas menggunakan Aspose.PDF dalam panduan lengkap ini. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -74,6 +74,9 @@
 ### [เรียนรู้การสร้าง PDF Booklet ด้วย Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.PDF Net
 
+### [สร้างเอกสาร PDF ด้วย C# – เพิ่มหน้า, วาดสี่เหลี่ยมและบันทึก](./create-pdf-document-c-add-page-draw-rectangle-save/)
+เรียนรู้วิธีสร้าง PDF ด้วย C# เพิ่มหน้า วาดสี่เหลี่ยมและบันทึกไฟล์โดยใช้ Aspose.PDF สำหรับ .NET
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)

@@ -36,9 +36,11 @@ Aspose.PDF의 .NET용 "스탬프 및 워터마크 프로그래밍" 튜토리얼�
 | [헤더의 이미지](./image-in-header/) | 이 단계별 튜토리얼에서는 Aspose.PDF for .NET을 사용하여 PDF 헤더에 이미지를 추가하는 방법을 알아봅니다. |  
 | [플로팅 박스를 사용하여 머리글 바닥글에 페이지 번호 표시](./page-number-in-header-footer-using-floating-box/) | 이 단계별 튜토리얼에서는 Aspose.PDF for .NET의 Floating Box를 사용하여 PDF 머리글과 바닥글에 페이지 번호를 쉽게 추가합니다. |  
 | [PDF 파일의 페이지 번호 스탬프](./page-number-stamps/) 코드 예제가 포함된 쉽게 따라할 수 있는 가이드를 통해 Aspose.PDF for .NET을 사용하여 PDF 파일에 페이지 번호 스탬프를 추가하는 방법을 알아보세요. |  
+| [Bates 번호 매기기 PDF 추가 – 완전 C# 가이드](./add-bates-numbering-pdf-complete-c-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF에 Bates 번호 매기기를 추가하는 방법을 단계별로 안내합니다. |  
 | [헤더 푸터 섹션의 테이블](./table-in-header-footer-section/) | Aspose.PDF for .NET을 사용하여 PDF 파일의 바닥글에 텍스트를 쉽게 추가하는 방법을 알아보세요. 원활한 통합을 위해 단계별 가이드가 포함되어 있습니다. |  
 | [PDF 파일 바닥글의 텍스트](./text-in-footer/) | Aspose.PDF for .NET을 사용하여 PDF 파일의 바닥글에 텍스트를 추가하는 방법을 알아보세요. |  
 | [PDF 파일 헤더의 텍스트](./text-in-header/) | Aspose.PDF for .NET을 사용하여 PDF에 텍스트 헤더를 추가하는 방법을 단계별 튜토리얼을 통해 알아보세요. 문서를 효율적이고 효과적으로 개선해 보세요. |  
+| [C#에서 PDF 불투명도 변경 – 완전 Aspose 가이드](./change-pdf-opacity-in-c-complete-aspose-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 페이지의 불투명도를 조정하는 방법을 단계별로 안내합니다. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

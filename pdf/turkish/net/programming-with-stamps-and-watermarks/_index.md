@@ -26,7 +26,7 @@ Aspose.PDF'nin .NET için "Pullar ve Filigranlarla Programlama" öğreticileri, 
 | [PDF Dosyasına PDF Sayfa Damgası Ekle](./add-pdf-page-stamp/) | Bu detaylı kılavuzla Aspose.PDF for .NET kullanarak PDF sayfa damgası eklemeyi öğrenin. PDF belgelerinizin etkisini artırın. |  
 | [PDF Dosyasına Metin Damgası Ekle](./add-text-stamp/) | Aspose.PDF for .NET'i kullanarak adım adım kılavuzumuzla bir PDF dosyasına metin damgası eklemeyi öğrenin ve belge sunumlarınızı bir üst seviyeye taşıyın. |  
 | [PDF Dosyasında Eserlerin Sayımı](./counting-artifacts/) .NET için Aspose.PDF kullanarak bir PDF'deki filigranları nasıl sayacağınızı öğrenin. Herhangi bir ön deneyim gerektirmeyen yeni başlayanlar için adım adım kılavuz. |  
-| [PDF Dosyasında Hizalamayı Tanımla](./define-alignment/) | Bu kılavuz, .NET için Aspose.PDF'yi kullanarak PDF dosyalarında metin hizalamasının nasıl tanımlanacağını adım adım bir eğitimle birlikte ele almaktadır.  
+| [PDF Dosyasında Hizalamayı Tanımla](./define-alignment/) | Bu kılavuz, .NET için Aspose.PDF'yi kullanarak PDF dosalarında metin hizalamasının nasıl tanımlanacağını adım adım bir eğitimle birlikte ele almaktadır.  
 | [Damga Açıklamasından Metin Çıkar](./extract-text-from-stamp-annotation/) | Bu adım adım eğitimle, .NET için Aspose.PDF'yi kullanarak bir damga açıklamasından metnin nasıl çıkarılacağını öğrenin, ayrıntılı bir kod örneği de var.  
 | [PDF Dosyasında Vuruş Metnini Doldur](./fill-stroke-text/) | Bu pratik örneklerle dolu adım adım kılavuzla, Aspose.PDF for .NET kullanarak PDF dosyalarındaki kontur metnini zahmetsizce nasıl dolduracağınızı öğrenin.  
 | [PDF Dosyasından Filigran Al](./get-watermark/) | Aspose.PDF for .NET kullanarak PDF dosyalarından filigranların nasıl çıkarılacağını adım adım bir kılavuzla öğrenin. Filigran çıkarma için ayrıntılı eğitim. |  
@@ -39,6 +39,8 @@ Aspose.PDF'nin .NET için "Pullar ve Filigranlarla Programlama" öğreticileri, 
 | [Üstbilgi Altbilgi Bölümündeki Tablo](./table-in-header-footer-section/) | Aspose.PDF for .NET kullanarak bir PDF dosyasının altbilgisine kolayca metin eklemeyi öğrenin. Sorunsuz entegrasyon için adım adım kılavuz dahildir. |  
 | [PDF Dosyasının Altbilgisindeki Metin](./text-in-footer/) | Aspose.PDF for .NET ile PDF dosyasının alt bilgisine metin eklemeyi öğrenin. |  
 | [PDF Dosyasının Başlığındaki Metin](./text-in-header/) | Bu adım adım eğitimle Aspose.PDF for .NET kullanarak PDF'lere metin başlıkları eklemeyi öğrenin. Belgelerinizi verimli ve etkili bir şekilde geliştirin. |  
+| [C#'ta PDF Şeffaflığını Değiştir – Tam Aspose Kılavuzu](./change-pdf-opacity-in-c-complete-aspose-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF sayfalarının şeffaflığını nasıl ayarlayacağınızı adım adım öğrenin. |  
+| [Bates Numaralandırması PDF Ekle – Tam C# Kılavuzu](./add-bates-numbering-pdf-complete-c-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF dosyalarına Bates numaralandırması eklemeyi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

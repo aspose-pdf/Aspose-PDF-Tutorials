@@ -43,7 +43,8 @@ Az Aspose.PDF for .NET „Címkézett PDF-ekkel való programozás” című okt
 | [Kép címkézése meglévő PDF-ben](./tag-image-in-existing-pdf/) | Ismerje meg, hogyan címkézheti a képeket meglévő PDF-fájlokban az Aspose.PDF for .NET használatával. Lépésről lépésre útmutató a PDF/UA-megfelelőségű akadálymentesítés javításához.  
 | [Szövegblokk szerkezeti elemei](./text-block-structure-elements/) | Ismerje meg, hogyan használható az Aspose.PDF for .NET szövegblokk-szerkezeti elemek, például címsorok és címkézett bekezdések hozzáadásához egy meglévő PDF-dokumentumhoz. |  
 | [Szövegszerkezeti elemek PDF fájlban](./text-structure-elements/) Tanulja meg a PDF-ek szövegszerkezeti elemeinek kezelését az Aspose.PDF for .NET segítségével. Ez a lépésről lépésre szóló útmutató mindent tartalmaz, amire szüksége van strukturált PDF-ek létrehozásához. |  
-| [PDF fájl érvényesítése](./validate-pdf/) | Ismerje meg, hogyan validálhat egy PDF fájlt az Aspose.PDF for .NET segítségével. Ellenőrizze a szabványoknak való megfelelését, és készítsen érvényesítési jelentést. |  
+| [PDF fájl érvényesítése](./validate-pdf/) | Ismerje meg, hogyan validálhat egy PDF fájlt az Aspose.PDF for .NET segítségével. Ellenőrizze a szabványoknak való megfelelését, és készítsen érvényesítési jelentést. |
+| [Hogyan címkézzük a PDF-et az Aspose-szal – Teljes útmutató a PDF hozzáférhetőségi címkékhez](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) | Lépésről lépésre útmutató a PDF-ek hozzáférhetőségi címkéinek létrehozásához az Aspose.PDF for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

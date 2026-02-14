@@ -44,6 +44,7 @@ Aspose.PDF for .NET'in "Etiketli PDF'lerle Programlama" öğreticileri, bu kitap
 | [Metin Bloğu Yapı Elemanları](./text-block-structure-elements/) | Başlıklar ve etiketli paragraflar gibi metin bloğu yapı öğelerini mevcut bir PDF belgesine eklemek için Aspose.PDF for .NET'i nasıl kullanacağınızı öğrenin.  
 | [PDF Dosyasındaki Metin Yapısı Öğeleri](./text-structure-elements/) Aspose.PDF for .NET ile PDF'lerdeki metin yapı öğelerini düzenlemeyi öğrenin. Bu adım adım kılavuz, yapılandırılmış PDF'ler oluşturmak için ihtiyacınız olan her şeyi kapsar. |  
 | [PDF Dosyasını Doğrula](./validate-pdf/) | .NET için Aspose.PDF ile bir PDF dosyasının nasıl doğrulanacağını öğrenin. Standartlara uygunluğunu kontrol edin ve bir doğrulama raporu oluşturun. |  
+| [Aspose ile PDF Etiketleme – PDF Erişilebilirlik Etiketlerine Tam Kılavuz](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) | Aspose.PDF for .NET kullanarak PDF'lere erişilebilirlik etiketleri eklemeyi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
