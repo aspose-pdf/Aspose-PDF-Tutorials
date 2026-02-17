@@ -1,9 +1,9 @@
 ---
-date: 2025-12-14
-description: Aspose.PDF for Java kullanarak PDF belgelerinde PDF eklerini nasıl çıkaracağınızı,
-  dosya gömeceğinizi ve PDF eklerini ekleyeceğinizi öğrenin – eksiksiz PDF ekleri
-  öğreticisi.
-title: Aspose.PDF Java için PDF Eklerini Çıkarma Öğreticisi
+date: 2026-02-17
+description: Aspose.PDF for Java kullanarak gömülü PDF dosyalarını nasıl çıkaracağınızı,
+  dosyaları nasıl gömeceğinizi ve PDF eklerini nasıl ekleyeceğinizi öğrenin – eksiksiz
+  PDF ekleme öğreticisi.
+title: Aspose.PDF Java için Gömülü Dosyaları Çıkarma PDF Öğreticisi
 url: /tr/java/attachments-embedded-files/
 weight: 11
 ---
@@ -13,101 +13,99 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.PDF Java için PDF Eklerini Çıkarma Eğitimi
+# Aspose.PDF Java için Gömülü Dosyaları Çıkarma PDF Öğreticisi
 
-Bu kapsamlı rehberde **PDF eklerini nasıl çıkaracağınızı** ve Aspose.PDF for Java kullanarak gömülü kaynaklarla nasıl çalışacağınızı keşfedeceksiniz. İster ek dosyalar çıkarmak, ister özel yazı tipleri gömmek, ister bağlantılı içeriği yönetmek isteyin, bu eğitim her adımı net ve sohbet tarzı açıklamalarla size gösterir. Sonunda eklerin çıkarılmasını otomatikleştirebilecek, dosyaları gömebilecek ve hatta Java‑tarzı PDF ekleri ekleyerek daha zengin, etkileşimli PDF'ler oluşturabileceksiniz.
+Bu kapsamlı rehberde **gömülü dosyaları pdf çıkarma** ve Aspose.PDF for Java kullanarak gömülü kaynaklarla çalışma konularını keşfedeceksiniz. İster ek belgeleri çıkarmak, ister özel yazı tipleri eklemek, ister bağlı içerikleri yönetmek isteyin, her adımı net ve sohbet tarzı açıklamalarla sizinle paylaşacağız. Sonunda, çıkarma işlemini otomatikleştirebilecek, yeni dosyalar ekleyebilecek ve PDF eklerini java‑stilinde ekleyerek daha zengin, etkileşimli PDF'ler oluşturabileceksiniz.
 
 ## Hızlı Yanıtlar
-- **“PDF eklerini çıkarmak” ne anlama geliyor?** Bu, bir PDF belgesine eklenmiş dosyaların programlı olarak çıkarılmasını ifade eder.  
-- **Hangi kütüphane bunu destekliyor?** Aspose.PDF for Java, ek yönetimi için tam özellikli bir API sağlar.  
-- **Bir lisansa ihtiyacım var mı?** Üretim kullanımı için geçici ya da tam lisans gereklidir; ücretsiz deneme sürümü test için çalışır.  
-- **Çıkarma sırasında dosyaları gömebilir miyim?** Evet – aynı iş akışında hem gömebilir hem de çıkarabilirsiniz.  
-- **Bu yaklaşım PDF portföyleriyle uyumlu mu?** Kesinlikle; aynı API'yi kullanarak PDF portföy dosyalarını da çıkarabilirsiniz.
+- **“extract embedded files pdf” ne anlama geliyor?** PDF belgesine eklenmiş dosyaları programatik olarak çıkarmak anlamına gelir.  
+- **Hangi kütüphane bunu destekliyor?** Aspose.PDF for Java, ek dosya işlemleri için tam özellikli bir API sağlar.  
+- **Lisans gerekli mi?** Üretim kullanımı için geçici veya tam lisans gerekir; deneme sürümü test için çalışır.  
+- **Çıkarma sırasında dosya ekleyebilir miyim?** Evet – aynı iş akışında hem dosya ekleyebilir hem de çıkarabilirsiniz.  
+- **Bu yaklaşım PDF portföyleriyle uyumlu mu?** Kesinlikle; aynı API ile PDF portföy dosyalarını da çıkarabilirsiniz.
 
-## PDF eklerini çıkarmak nedir?
-PDF eklerini çıkarmak, bir PDF içinde gömülü olan görüntüler, elektronik tablolar veya metin belgeleri gibi herhangi bir dosyayı geri getirmek anlamına gelir. Bu ekler gömülü dosya akışları olarak depolanır ve Aspose.PDF API'si aracılığıyla programlı olarak erişilebilir.
+## “extract embedded files pdf” nedir?
+Gömülü dosyaları pdf çıkarma, bir PDF içinde gömülü olarak bulunan herhangi bir dosyayı (görseller, elektronik tablolar, metin belgeleri veya diğer PDF'ler) geri almaktır. Bu dosyalar gömülü dosya akışları olarak saklanır ve Aspose.PDF API'si aracılığıyla programatik olarak erişilebilir.
 
-## Neden Aspose.PDF for Java'ı ekleri yönetmek için kullanmalısınız?
-- **Tam kontrol** ek yaşam döngüsü üzerinde (ekleme, kaldırma, çıkarma).  
-- **Çapraz platform** uyumluluğu, herhangi bir Java destekli ortamda çalışır.  
-- **PDF portföyleri desteği**, gömülü dosyaların toplu çıkarılmasını sağlar.  
-- **Sağlam dokümantasyon** ve geliştirmeyi hızlandıran örnekler.
+## Neden gömülü dosyaları pdf çıkaralım?
+- **Eklenti yaşam döngüsü üzerinde tam kontrol** (ekleme, kaldırma, çıkarma).  
+- **Çapraz‑platform** desteği, herhangi bir Java‑uyumlu ortamda çalışır.  
+- **PDF portföy** yönetimi, bir kerede çok sayıda gömülü öğeyi toplu olarak çıkarma imkanı.  
+- **Hızlı geliştirme**, sağlam dokümantasyon ve hazır kod örnekleri sayesinde.
 
 ## Önkoşullar
-- Java Development Kit (JDK) 8 veya üzeri.  
+- Java Development Kit (JDK) 8 veya üzeri.  
 - Aspose.PDF for Java kütüphanesi (aşağıdaki bağlantılardan indirilebilir).  
-- Bir veya daha fazla ek içeren bir PDF dosyası.
+- Bir veya daha fazla ek içeren PDF dosyası.
 
-## Aspose.PDF for Java kullanarak PDF eklerini nasıl çıkarabilirsiniz
-Aşağıda çıkarma sürecinin adım adım bir yürütülmesi yer almaktadır. Kod kendisi bağlantılı eğitim sayfalarında sağlanmıştır; burada kavramsal akışa odaklanıyoruz.
+## Aspose.PDF for Java kullanarak gömülü dosyaları pdf nasıl çıkarılır
+Aşağıda çıkarma sürecinin adım adım açıklaması yer almaktadır. Gerçek kod, bağlantılı öğretici sayfalarda bulunur; burada kavramsal akışa odaklanıyoruz.
 
 ### Adım 1: PDF belgesini yükleyin
-`Document` sınıfı ile hedef PDF'yi açın. Dosya şifre korumalıysa, yükleme sırasında şifreyi sağlayın.
+`Document` sınıfı ile hedef PDF'i açın. Dosya şifreli ise, yükleme sırasında şifreyi sağlayın.
 
 ### Adım 2: Ekli dosyaları listeleyin
-Tüm ekli dosyaları listelemek için `Document.getEmbeddedFiles()` koleksiyonunu kullanın. Her giriş dosya adı, boyut ve MIME türünü verir.
+`Document.getEmbeddedFiles()` koleksiyonunu kullanarak tüm ekli dosyaları listeleyin. Her giriş dosya adı, boyut ve MIME tipini verir.
 
 ### Adım 3: Her eki diske kaydedin
-Koleksiyon üzerinde döngü kurarak her dosya akışını istediğiniz bir konuma yazın. Bu, orijinal ek içeriğini değişmeden çıkarır.
+Koleksiyon üzerinde döngü kurarak her dosya akışını istediğiniz konuma yazın. Bu, orijinal ek içeriğini değişmeden çıkarır.
 
-### Adım 4: (İsteğe Bağlı) Çıkarılan ekleri kaldırın
-Orijinal ekler olmadan temiz bir PDF'ye ihtiyacınız varsa, `Document.getEmbeddedFiles().clear()` çağırın ve belgeyi kaydedin.
+### Adım 4: (İsteğe bağlı) Çıkarılan ekleri kaldırın
+Orijinal ekleri içermeyen temiz bir PDF istiyorsanız, `Document.getEmbeddedFiles().clear()` çağırın ve belgeyi kaydedin.
 
-## PDF‑tarzı dosyaları nasıl gömebilirsiniz
-Dosyaları gömmek benzer bir desen izler ancak ters yönde çalışır: bir `FileSpecification` nesnesi oluşturur, özelliklerini ayarlarsınız ve belgeye gömülü dosyalar koleksiyonuna eklersiniz. Bu, ek kaynakları doğrudan PDF içinde paketlemek istediğinizde faydalıdır.
+## PDF‑stilinde dosya ekleme
+Dosya ekleme, ters yönde aynı desenle gerçekleşir: bir `FileSpecification` nesnesi oluşturun, özelliklerini ayarlayın ve belgeye ekli dosyalar koleksiyonuna ekleyin. Bu, ek kaynakları doğrudan PDF içinde paketlemek istediğinizde kullanışlıdır.
 
-## PDF eklerini Java‑tarzı nasıl ekleyebilirsiniz
-Ekleri eklemek Aspose.PDF ile oldukça basittir. Eklemek istediğiniz her dosya için bir `FileSpecification` oluşturun, ardından belgeye ekleyin. Bu teknik aşağıdaki “add pdf attachments java” eğitiminde ele alınmıştır.
+## PDF eklerini java‑tarzı ekleme
+Aspose.PDF ile ek eklemek oldukça basittir. Eklemek istediğiniz her dosya için bir `FileSpecification` oluşturun, ardından belgeye ekleyin. Bu teknik, aşağıdaki “add pdf attachments java” öğreticisinde ele alınmıştır.
 
-## PDF portföy dosalarını nasıl çıkarabilirsiniz
-PDF portföyleri, birden fazla PDF ve diğer dosya türlerini tutabilen kapsayıcılardır. Portföy öğeleri üzerinde döngü kurmak için aynı `EmbeddedFiles` koleksiyonunu kullanın ve ardından her birini ayrı ayrı çıkarın. “extract pdf portfolio files” eğitimi ayrıntılı bir kod örneği sunar.
+## PDF portföy dosyalarını çıkarma
+PDF portföyleri, birden çok PDF ve diğer dosya türlerini tutabilen kapsayıcılardır. Aynı `EmbeddedFiles` koleksiyonunu kullanarak portföy öğeleri arasında döngü kurun ve her birini ayrı ayrı çıkarın. “extract pdf portfolio files” öğreticisi ayrıntılı bir kod örneği sunar.
 
-## Yaygın tuzaklar ve sorun giderme
-- **Eksik izinler:** Çalışan sürecin çıktı klasörüne yazma izni olduğundan emin olun.  
-- **Şifreli PDF'ler:** Doğru şifreyi sağlayın; aksi takdirde ek çıkarma başarısız olur.  
-- **Büyük ekler:** Çok büyük dosyalar için, yüksek bellek tüketimini önlemek amacıyla çıktıyı akış olarak düşünün.  
+## Yaygın hatalar ve sorun giderme
+- **İzin eksikliği:** Çıktı klasörüne yazma izniniz olduğundan emin olun.  
+- **Şifreli PDF'ler:** Doğru şifreyi sağlayın; aksi takdirde çıkarma başarısız olur.  
+- **Büyük ekler:** Çok büyük dosyalar için bellek tüketimini azaltmak amacıyla çıktıyı akış olarak yazmayı düşünün.  
 
-## Mevcut Eğitimler
+## PDF ek tutorial java – İlgili Kılavuzlar
 
-### [Aspose.PDF for Java Kullanarak PDF'den Tüm Ekleri Etkin Bir Şekilde Kaldırma](./remove-attachments-pdf-aspose-java/)
+### Mevcut Öğreticiler
 
-### [Aspose.PDF for Java Kullanarak PDF'lere Ek Ekleme&#58; Geliştirici Rehberi](./add-attachments-pdf-aspose-pdf-java/)
-
-### [Aspose.PDF for Java Kullanarak PDF'lerden Gömülü Dosyaları Çıkarma&#58; Kapsamlı Rehber](./extract-embedded-files-pdf-aspose-java-guide/)
-
-### [Aspose.PDF Java Kullanarak PDF Portföyünden Gömülü Dosyaları Çıkarma](./extract-files-pdf-portfolio-aspose-java/)
-
-### [Aspose.PDF Java&#58; PDF'lerde Gömülü Dosyalara Erişim ve Yönetim](./master-aspose-pdf-java-access-manage-embedded-files/)
+- [Aspose.PDF for Java Kullanarak Bir PDF'den Tüm Ekleri Verimli Şekilde Kaldırma](./remove-attachments-pdf-aspose-java/)
+- [Aspose.PDF for Java&#58; Geliştiricinin Rehberi ile PDF'lere Ek Ekleme](./add-attachments-pdf-aspose-pdf-java/)
+- [Aspose.PDF for Java&#58; Gömülü Dosyaları Çıkarma – Kapsamlı Bir Kılavuz](./extract-embedded-files-pdf-aspose-java-guide/)
+- [Aspose.PDF Java ile PDF Portföyünden Gömülü Dosyaları Çıkarma](./extract-files-pdf-portfolio-aspose-java/)
+- [Aspose.PDF Java&#58; PDF'lerde Gömülü Dosyaları Erişim ve Yönetim](./master-aspose-pdf-java-access-manage-embedded-files/)
 
 ## Ek Kaynaklar
 
-- [Aspose.PDF for Java Dokümantasyonu](https://docs.aspose.com/pdf/java/)
-- [Aspose.PDF for Java API Referansı](https://reference.aspose.com/pdf/java/)
-- [Aspose.PDF for Java'ı İndirin](https://releases.aspose.com/pdf/java/)
-- [Ücretsiz Destek](https://forum.aspose.com/)
-- [Geçici Lisans](https://purchase.aspose.com/temporary-license/)
+- [Aspose.PDF for Java Documentation](https://docs.aspose.com/pdf/java/)
+- [Aspose.PDF for Java API Reference](https://reference.aspose.com/pdf/java/)
+- [Download Aspose.PDF for Java](https://releases.aspose.com/pdf/java/)
+- [Free Support](https://forum.aspose.com/)
+- [Temporary License](https://purchase.aspose.com/temporary-license/)
 
 ## Sıkça Sorulan Sorular
 
-**Q:** *Şifre korumalı bir PDF'den ekleri çıkarabilir miyim?*  
-**A:** Evet. `Document` nesnesini açarken şifreyi sağlayın, ardından çıkarma adımlarına devam edin.
+**S:** *Şifre korumalı bir PDF'den ekleri çıkarabilir miyim?*  
+**C:** Evet. `Document` nesnesini açarken şifreyi sağlayın, ardından çıkarma adımlarını izleyin.
 
-**Q:** *Ekleyebileceğim ek sayısında bir sınırlama var mı?*  
-**A:** Aspose.PDF katı bir sınırlama getirmez; pratik sınır PDF spesifikasyonu ve mevcut bellek miktarıdır.
+**S:** *Kaç tane ek gömebileceğimde bir sınır var mı?*  
+**C:** Aspose.PDF katı bir sınır koymaz; pratik sınır PDF spesifikasyonu ve mevcut bellek miktarıdır.
 
-**Q:** *PDF portföyünden ekleri nasıl çıkarabilirim?*  
-**A:** Aynı `EmbeddedFiles` koleksiyonunu kullanın; her portföy öğesi ayrı ayrı kaydedilebilen bir gömülü dosya olarak görünür.
+**S:** *PDF portföyünden ekleri nasıl çıkarırım?*  
+**C:** Aynı `EmbeddedFiles` koleksiyonunu kullanın; her portföy öğesi ayrı bir gömülü dosya olarak görünür ve bireysel olarak kaydedilebilir.
 
-**Q:** *Gömme ve çıkarma için ayrı bir lisansa ihtiyacım var mı?*  
-**A:** Hayır. Tek bir Aspose.PDF for Java lisansı tüm ek‑ile ilgili özellikleri kapsar.
+**S:** *Ekleme ile çıkarma için ayrı bir lisansa ihtiyacım var mı?*  
+**C:** Hayır. Tek bir Aspose.PDF for Java lisansı tüm ek‑ile ilgili özellikleri kapsar.
 
-**Q:** *Bu süreci birden fazla PDF için otomatikleştirebilir miyim?*  
-**A:** Kesinlikle. Çıkarma mantığını bir döngü içinde sararak bir dizindeki her dosyayı işleyebilirsiniz.
+**S:** *Bu süreci birden çok PDF için otomatikleştirebilir miyim?*  
+**C:** Kesinlikle. Dizin içindeki her dosyayı işleyen bir döngüye çıkarma mantığını yerleştirin.
 
 ---
 
-**Son Güncelleme:** 2025-12-14  
-**Test Edilen:** Aspose.PDF for Java 24.12  
+**Son Güncelleme:** 2026-02-17  
+**Test Edilen Versiyon:** Aspose.PDF for Java 24.12  
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
