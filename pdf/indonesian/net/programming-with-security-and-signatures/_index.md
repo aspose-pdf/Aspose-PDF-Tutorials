@@ -33,6 +33,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Mengatur Hak Istimewa Dalam File PDF](./set-privileges/) | Pelajari cara mengatur hak akses PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Amankan dokumen Anda secara efektif. Bahasa Indonesia:  
 | [Tanda Tangan Dengan Kartu Pintar Menggunakan Tanda Tangan File Pdf](./sign-with-smart-card-using-pdf-file-signature/) | Pelajari cara menandatangani file PDF menggunakan kartu pintar dengan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah ini untuk mendapatkan tanda tangan digital yang aman. Bahasa Indonesia:  
 | [Tanda Tangan Dengan Kartu Pintar Menggunakan Kolom Tanda Tangan](./sign-with-smart-card-using-signature-field/) | Pelajari cara menandatangani PDF dengan aman menggunakan kartu pintar dengan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah kami untuk penerapan yang mudah. |  
+| [Muat Dokumen PDF C# – Panduan Lengkap Membaca dan Mendaftar Tanda Tangan](./load-pdf-document-c-complete-guide-to-reading-and-listing-si/) | Pelajari cara memuat dokumen PDF menggunakan C#, membaca dan menampilkan semua tanda tangan digital yang terdapat di dalamnya. |
+| [Verifikasi Tanda Tangan PDF di C# – Panduan Lengkap Langkah demi Langkah](./verify-pdf-signature-in-c-complete-step-by-step-guide/) | Pelajari cara memverifikasi tanda tangan PDF menggunakan C# dengan panduan langkah demi langkah yang lengkap. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

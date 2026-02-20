@@ -32,6 +32,9 @@ Un tutorial sul codice per Aspose.PDF Net
 ### [Caricamento della licenza Aspose.PDF da un file in .NET: una guida completa](./load-aspose-pdf-license-file-net/)
 Scopri come passare senza problemi dalla modalità di prova a quella con licenza per Aspose.PDF in .NET caricando un file di licenza, assicurando così il corretto funzionamento dell'applicazione.
 
+### [Come installare pacchetti NuGet tramite PowerShell – passo passo](./how-to-install-nuget-packages-via-powershell-step-by-step/)
+Guida passo passo per installare pacchetti NuGet usando PowerShell.
+
 ## Risorse aggiuntive
 
 - [Aspose.PDF per la documentazione di rete](https://docs.aspose.com/pdf/net/)

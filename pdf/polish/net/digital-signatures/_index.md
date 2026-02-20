@@ -50,6 +50,9 @@ Samouczek dotyczący kodu dla Aspose.PDF Net
 ### [Opanowanie Aspose.PDF .NET: Jak weryfikować podpisy cyfrowe w plikach PDF](./aspose-pdf-net-verify-digital-signature/)
 Dowiedz się, jak weryfikować podpisy cyfrowe w plikach PDF za pomocą Aspose.PDF dla .NET. Zapewnij integralność i autentyczność dokumentu dzięki naszemu przewodnikowi krok po kroku.
 
+### [Samouczek podpisu PDF – Weryfikacja podpisów PDF w C# przy użyciu Aspose.Pdf](./pdf-signature-tutorial-verify-pdf-signatures-in-c-with-aspos/)
+Dowiedz się, jak weryfikować podpisy PDF w aplikacjach C# przy użyciu biblioteki Aspose.Pdf, zapewniając integralność dokumentów.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

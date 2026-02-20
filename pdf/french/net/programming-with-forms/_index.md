@@ -50,6 +50,7 @@ Ces tutoriels proposent également des exemples de code détaillés, des explica
 | [Définir le script Java](./set-java-script/) | Exploitez toute la puissance d'Aspose.PDF pour .NET. Apprenez à configurer JavaScript dans les champs de formulaire grâce à notre guide étape par étape. |  
 | [Définir la légende du bouton radio](./set-radio-button-caption/) Apprenez à définir des légendes de boutons radio dans vos PDF avec Aspose.PDF pour .NET. Ce guide étape par étape vous guidera dans le chargement, la modification et l'enregistrement de vos formulaires PDF. |  
 | [Zone de texte](./text-box/) | Découvrez comment ajouter facilement des zones de texte à vos PDF avec Aspose.PDF pour .NET grâce à ce guide étape par étape. Améliorez l'interaction utilisateur. |  
+| [Comment ajouter une zone de texte PDF – Créer un champ de formulaire PDF et enregistrer le document PDF modifié](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Apprenez à ajouter une zone de texte à un PDF, créer un champ de formulaire et enregistrer le document modifié avec Aspose.PDF pour .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

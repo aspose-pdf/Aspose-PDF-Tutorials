@@ -56,6 +56,9 @@
 | [XML إلى PDF](./xml-to-pdf/) |تعرف على كيفية تحويل XML إلى PDF باستخدام Aspose.PDF لـ .NET في هذا البرنامج التعليمي الشامل خطوة بخطوة، والذي يتضمن أمثلة التعليمات البرمجية والشروحات التفصيلية. |  
 | [XML إلى PDF تعيين مسار الصورة](./xml-to-pdfset-image-path/) تعلّم كيفية تحويل XML إلى PDF بسهولة باستخدام Aspose.PDF لـ .NET. يشرح لك هذا الدليل المفصل العملية خطوة بخطوة، من الإعداد إلى الاكتمال.  
 | [XPS إلى PDF](./xps-to-pdf/) تعلّم كيفية تحويل ملفات XPS إلى PDF باستخدام Aspose.PDF لـ .NET من خلال هذا البرنامج التعليمي خطوة بخطوة. مثالي للمطورين وهواة المستندات.  
+| [إضافة ترقيم Bates إلى DOCX وتحويله إلى PDF – دليل C# الكامل](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) |تعلم كيفية إضافة ترقيم Bates إلى ملفات DOCX ثم تحويلها إلى PDF باستخدام Aspose.PDF لـ .NET مع دليل C# خطوة بخطوة. |  
+| [حفظ مستند PDF – كيفية إضافة إهليلج وتحويل DOCX إلى PDF](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) |تعرّف على كيفية حفظ مستند PDF وإضافة إهليلج، ثم تحويل ملفات DOCX إلى PDF باستخدام Aspose.PDF لـ .NET. |  
+| [تحويل docx إلى pdf في C# – دليل كامل خطوة بخطوة](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) |تعرف على كيفية تحويل ملفات docx إلى pdf باستخدام Aspose.PDF لـ .NET مع دليل شامل خطوة بخطوة في C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

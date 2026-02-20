@@ -32,6 +32,9 @@ Aspose.PDF Net için bir kod öğreticisi
 ### [.NET'te Dosyadan Aspose.PDF Lisansını Yükleme: Kapsamlı Bir Kılavuz](./load-aspose-pdf-license-file-net/)
 .NET'te Aspose.PDF için deneme ve lisanslı modlar arasında sorunsuz bir şekilde geçiş yapmayı öğrenmek için bir lisans dosyası yükleyin ve uygulamanın sorunsuz çalışmasını sağlayın.
 
+### [PowerShell ile NuGet Paketlerini Adım Adım Nasıl Kurulur](./how-to-install-nuget-packages-via-powershell-step-by-step/)
+PowerShell komutlarıyla NuGet paketlerini indirip projelerinize eklemenin adım adım rehberi.
+
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)

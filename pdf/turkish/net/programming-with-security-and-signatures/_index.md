@@ -29,10 +29,12 @@ Eğitim, PDF dosyalarınızın gizliliğini ve gerçekliğini sağlamak için y�
 | [PDF Dosyasını Şifrele](./encrypt/) | Aspose.PDF for .NET kullanarak PDF dosyalarınızı zahmetsizce nasıl şifreleyeceğinizi öğrenin. Kolay adım adım kılavuzumuzla hassas bilgileri güvence altına alın. |  
 | [Görüntüyü Çıkarma](./extracting-image/) | Aspose.PDF for .NET kullanarak PDF'lerden görüntüleri nasıl çıkaracağınızı kolayca öğrenin. Sorunsuz görüntü çıkarma için adım adım kılavuzumuzu izleyin. |  
 | [İmza Bilgilerini Çıkar](./extract-signature-info/) | Aspose.PDF for .NET kullanarak PDF belgelerinden dijital imzaları ve sertifika bilgilerini nasıl çıkaracağınızı öğrenin. C# geliştiricileri için eksiksiz bir adım adım kılavuz. |  
-| [Şifre Korumalı mı](./is-password-protected/) Bu kapsamlı adım adım kılavuzda, .NET için Aspose.PDF'yi kullanarak bir PDF'nin parola korumalı olup olmadığını nasıl kontrol edeceğinizi öğrenin.  
+| [Şifre Korumalı mı](./is-password-protected/) Bu kapsamlı adım adım kılavuzda, .NET için Aspose.PDF'yi kullanarak bir PDF'nin parola korumalı olup olmadığını nasıl kontrol edeceğinizi öğrenin. |  
 | [PDF Dosyasında Ayrıcalıkları Ayarla](./set-privileges/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF ayrıcalıklarının nasıl ayarlanacağını öğrenin. Belgelerinizi etkili bir şekilde güvenceye alın. |  
 | [Pdf Dosya İmzası Kullanarak Akıllı Kartla İmzalayın](./sign-with-smart-card-using-pdf-file-signature/) | Aspose.PDF for .NET ile akıllı kart kullanarak PDF dosyalarını nasıl imzalayacağınızı öğrenin. Güvenli dijital imzalar için bu adım adım kılavuzu izleyin. |  
 | [İmza Alanını Kullanarak Akıllı Kartla İmzalayın](./sign-with-smart-card-using-signature-field/) | Aspose.PDF for .NET ile akıllı kart kullanarak PDF'leri güvenli bir şekilde nasıl imzalayacağınızı öğrenin. Kolay uygulama için adım adım kılavuzumuzu izleyin. |  
+| [PDF Belgesini Yükleme C# – İmzaları Okuma ve Listeleme Tam Kılavuzu](./load-pdf-document-c-complete-guide-to-reading-and-listing-si/) | Aspose.PDF for .NET kullanarak PDF'deki dijital imzaları nasıl okuyup listeleyeceğinizi öğrenin. |  
+| [C# ile PDF İmzasını Doğrulama – Tam Adım‑Adım Kılavuz](./verify-pdf-signature-in-c-complete-step-by-step-guide/) | Aspose.PDF for .NET kullanarak PDF imzasını nasıl doğrulayacağınızı öğrenin. Adım adım rehberle güvenli belge doğrulama. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

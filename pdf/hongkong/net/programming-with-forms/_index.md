@@ -50,6 +50,7 @@ Aspose.PDF for .NET「使用表單程式設計」教學課程是希望建立和�
 | [設定 Java 腳本](./set-java-script/) |釋放 Aspose.PDF for .NET 的強大功能。透過我們的逐步指南了解如何在表單欄位上設定 JavaScript。 |  
 | [設定單選按鈕標題](./set-radio-button-caption/) |了解如何使用 Aspose.PDF for .NET 在 PDF 中設定單選按鈕標題。本逐步指南將引導您載入、修改和儲存 PDF 表單。 |  
 | [文字方塊](./text-box/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 輕鬆地將文字方塊新增至 PDF。增強用戶互動。 |  
+| [如何新增文字方塊 PDF – 建立 PDF 表單欄位並儲存編輯後的 PDF 文件](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 新增文字方塊、建立表單欄位並儲存編輯後的 PDF。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

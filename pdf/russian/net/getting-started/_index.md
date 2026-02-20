@@ -32,6 +32,9 @@
 ### [Загрузка лицензии Aspose.PDF из файла в .NET: подробное руководство](./load-aspose-pdf-license-file-net/)
 Узнайте, как легко переключаться между пробным и лицензионным режимами Aspose.PDF в .NET, загрузив файл лицензии и обеспечив бесперебойную работу приложения.
 
+### [Как установить пакеты NuGet через PowerShell – пошагово](./how-to-install-nuget-packages-via-powershell-step-by-step/)
+Пошаговое руководство по установке пакетов NuGet через PowerShell для проектов .NET.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.PDF для сети](https://docs.aspose.com/pdf/net/)

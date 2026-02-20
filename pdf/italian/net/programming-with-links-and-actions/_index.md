@@ -32,6 +32,7 @@ La pagina del tutorial "Programmazione con collegamenti e azioni" su Aspose.PDF 
 | [Specificare la pagina durante la visualizzazione](./specify-page-when-viewing/) | Scopri come specificare una pagina da visualizzare in un PDF utilizzando Aspose.PDF per .NET. Migliora la navigazione utente con questa semplice guida. |  
 | [Aggiorna i link nel file PDF](./update-links/) Scopri come aggiornare il colore del testo del link in un file PDF utilizzando Aspose.PDF per .NET. Questa guida passo passo ti guiderà passo passo in ogni dettaglio con esempi facili da seguire. |  
 | [Aggiorna il colore del testo del collegamento nel file PDF](./update-link-text-color/) | Aggiorna senza sforzo i link nei tuoi file PDF utilizzando Aspose.PDF per .NET con questa guida completa passo passo. Semplifica la modifica dei tuoi PDF. |  
+| [Crea collegamento ipertestuale PDF in C# – Guida passo‑passo](./create-pdf-hyperlink-in-c-step-by-step-guide/) | Scopri come creare un collegamento ipertestuale in un PDF usando C# e Aspose.PDF per .NET con questa guida passo‑passo. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -32,6 +32,7 @@ Az Aspose.PDF for .NET fájl „Programozás linkekkel és műveletekkel” cím
 | [Oldal megadása megtekintéskor](./specify-page-when-viewing/) | Ismerje meg, hogyan adhat meg egy megtekintendő oldalt PDF-ben az Aspose.PDF for .NET használatával. Ezzel az egyszerű útmutatóval javíthatja a felhasználói navigációt. |  
 | [PDF fájlban található linkek frissítése](./update-links/) Ismerje meg, hogyan frissítheti a hivatkozás szövegének színét egy PDF fájlban az Aspose.PDF for .NET használatával. Ez a lépésről lépésre szóló útmutató könnyen követhető példákkal mutatja be a részleteket. |  
 | [Hivatkozás szövegszínének frissítése PDF fájlban](./update-link-text-color/) | Könnyedén frissítheti PDF-fájljaiban található hivatkozásokat az Aspose.PDF for .NET segítségével ezzel az átfogó, lépésről lépésre szóló útmutatóval. Egyszerűsítse a PDF-szerkesztést. |  
+| [PDF hiperhivatkozás létrehozása C#‑ban – Lépésről‑lépésre útmutató](./create-pdf-hyperlink-in-c-step-by-step-guide/) | Ismerje meg, hogyan hozhat PDF hiperhivatkozásokat C#‑ban az Aspose.PDF for .NET segítségével, részletes lépésről‑lépésre útmutatóval. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -50,6 +50,7 @@ Aspose.PDF for .NETの「フォームを使ったプログラミング」チュ�
 | [Java Scriptを設定する](./set-java-script/) Aspose.PDF for .NET のパワーを解き放ちましょう。ステップバイステップガイドで、フォームフィールドに JavaScript を設定する方法を学びましょう。 |  
 | [ラジオボタンのキャプションを設定する](./set-radio-button-caption/) Aspose.PDF for .NET を使用してPDFにラジオボタンのキャプションを設定する方法を学びましょう。このステップバイステップガイドでは、PDFフォームの読み込み、変更、保存の手順を詳しく説明します。 |  
 | [テキストボックス](./text-box/) Aspose.PDF for .NET を使って PDF にテキストボックスを簡単に追加する方法をステップバイステップで解説します。ユーザーインタラクションを強化します。 |  
+| [テキストボックス PDF の追加方法 – PDF フォームフィールドの作成と編集済み PDF ドキュメントの保存](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) Aspose.PDF for .NET を使用して PDF にテキストボックス フィールドを作成し、編集した PDF を保存する方法をステップバイステップで解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
