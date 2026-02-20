@@ -32,6 +32,7 @@ De tutorialpagina 'Programmeren met koppelingen en acties' op Aspose.PDF voor .N
 | [Geef pagina op bij bekijken](./specify-page-when-viewing/) | Leer hoe u een pagina kunt opgeven die u in een PDF wilt weergeven met Aspose.PDF voor .NET. Verbeter de gebruikersnavigatie met deze eenvoudige handleiding. |  
 | [Links in PDF-bestand bijwerken](./update-links/) Leer hoe u de kleur van de linktekst in een PDF-bestand kunt bijwerken met Aspose.PDF voor .NET. Deze stapsgewijze handleiding leidt u door elk detail met eenvoudig te volgen voorbeelden. |  
 | [Linktekstkleur in PDF-bestand bijwerken](./update-link-text-color/) | Werk moeiteloos koppelingen in uw PDF-bestanden bij met Aspose.PDF voor .NET met deze uitgebreide stapsgewijze handleiding. Vereenvoudig uw PDF-bewerking. |  
+| [PDF-hyperlink maken in C# – Stapsgewijze handleiding](./create-pdf-hyperlink-in-c-step-by-step-guide/) | Leer hoe u een PDF-hyperlink maakt in C# met Aspose.PDF voor .NET via een stapsgewijze handleiding. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

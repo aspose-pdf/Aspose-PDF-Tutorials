@@ -50,6 +50,7 @@ Ezek az oktatóanyagok részletes kódpéldákat, világos magyarázatokat és i
 | [Java szkript beállítása](./set-java-script/) | Engedd szabadjára az Aspose.PDF for .NET erejét. Tanuld meg, hogyan állíthatsz be JavaScriptet az űrlapmezőkön lépésről lépésre bemutató útmutatónkkal. |  
 | [Rádiógomb feliratának beállítása](./set-radio-button-caption/) Ismerje meg, hogyan állíthat be választógomb-feliratokat PDF-fájlokban az Aspose.PDF for .NET használatával. Ez a lépésről lépésre szóló útmutató végigvezeti Önt a PDF-űrlapok betöltésén, módosításán és mentésén. |  
 | [Szövegdoboz](./text-box/) | Fedezze fel, hogyan adhat könnyedén szövegdobozokat PDF-fájlokhoz az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Fokozza a felhasználói interakciót. |  
+| [Hogyan adjunk hozzá szövegdobozt PDF-hez – PDF űrlapmező létrehozása és szerkesztett PDF dokumentum mentése](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Tanulja meg, hogyan adhat szövegdobozt PDF űrlaphoz, és mentheti a módosított dokumentumot az Aspose.PDF for .NET használatával. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

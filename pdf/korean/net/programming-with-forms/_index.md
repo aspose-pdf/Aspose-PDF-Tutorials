@@ -50,6 +50,7 @@ Aspose.PDF for .NET "Forms 프로그래밍" 튜토리얼은 대화형 PDF 양식
 | [자바 스크립트 설정](./set-java-script/) | .NET용 Aspose.PDF의 강력한 기능을 활용하세요. 단계별 가이드를 통해 양식 필드에 JavaScript를 설정하는 방법을 알아보세요. |  
 | [라디오 버튼 캡션 설정](./set-radio-button-caption/) Aspose.PDF for .NET을 사용하여 PDF에 라디오 버튼 캡션을 설정하는 방법을 알아보세요. 이 단계별 가이드는 PDF 양식을 로드, 수정 및 저장하는 방법을 안내합니다. |  
 | [텍스트 상자](./text-box/) | Aspose.PDF for .NET을 사용하여 PDF에 텍스트 상자를 손쉽게 추가하는 방법을 단계별 가이드를 통해 알아보세요. 사용자 상호 작용을 향상시켜 보세요. |  
+| [텍스트 상자 PDF 추가 방법 – PDF 양식 필드 만들기 및 편집된 PDF 문서 저장](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Aspose.PDF for .NET을 사용하여 PDF에 텍스트 상자를 추가하고, 양식 필드를 만든 뒤 편집된 PDF 문서를 저장하는 방법을 단계별로 안내합니다. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

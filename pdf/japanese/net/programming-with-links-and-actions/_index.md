@@ -23,6 +23,7 @@ Aspose.PDF for .NET の「リンクとアクションを使ったプログラミ
 | [PDFファイルにアプリケーションリンクを作成する](./create-application-link/) Aspose.PDF for .NET を使用して PDF ファイルにアプリケーションリンクを作成する方法を学びます。PDF のインタラクティブ性を高めるためのステップバイステップガイドです。 |  
 | [ドキュメントリンクを作成](./create-document-link/) Aspose.PDF for .NET を使用して PDF にドキュメントリンクを作成する方法をご紹介します。PDF ドキュメントのナビゲーションとインタラクティブ性を強化します。 |  
 | [PDFファイルにローカルハイパーリンクを作成する](./create-local-hyperlink/) ステップバイステップ ガイドを使用して、Aspose.PDF for .NET を使用して PDF ファイルにローカル ハイパーリンクを簡単に作成する方法を学びます。 |  
+| [C# で PDF ハイパーリンクを作成する – ステップバイステップガイド](./create-pdf-hyperlink-in-c-step-by-step-guide/) Aspose.PDF for .NET を使って C# で PDF にハイパーリンクを作成する方法をステップバイステップで学びます。インタラクティブな PDF を簡単に実装できます。 |  
 | [PDFファイル内のリンクを抽出する](./extract-links/) このステップバイステップのチュートリアルでは、Aspose.PDF for .NET を使用して PDF ファイルからリンクを簡単に抽出する方法を説明します。 |  
 | [PDFファイル内のハイパーリンク先を取得する](./get-hyperlink-destinations/) Aspose.PDF for .NET を使用して、PDF ファイルからハイパーリンク先を簡単に抽出する方法を学びましょう。この簡単なステップバイステップのチュートリアルに従ってください。 |  
 | [PDFファイル内のハイパーリンクテキストを取得する](./get-hyperlink-text/) Aspose.PDF for .NET を使用して、PDF ファイルからハイパーリンクテキストを簡単に抽出する方法を学びましょう。ステップバイステップのガイドとコードが含まれています。 |  

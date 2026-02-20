@@ -32,6 +32,7 @@ Aprenderá a especificar la configuración de conversión, extraer texto e imág
 | [PCL a PDF](./pcl-to-pdf/) Aprenda a convertir archivos PCL a PDF con Aspose.PDF para .NET con esta guía paso a paso. Ideal tanto para desarrolladores como para empresas.  
 | [PDFA a PDF](./pdfa-to-pdf/) | Aprenda a convertir PDF/A a PDF usando Aspose.PDF para .NET en esta guía completa paso a paso. |  
 | [PDF a DOC](./pdf-to-doc/) Aprenda a convertir PDF a DOC con Aspose.PDF para .NET en esta guía completa. Incluye instrucciones y consejos paso a paso.  
+| [Convertir docx a pdf en C# – Guía completa paso a paso](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) Aprenda a convertir archivos DOCX a PDF usando C# y Aspose.PDF para .NET con esta guía paso a paso.  
 | [PDF a EPUB](./pdf-to-epub/) Aprenda a convertir PDF a EPUB con Aspose.PDF para .NET en este tutorial paso a paso. Ideal para desarrolladores y creadores de contenido.  
 | [PDF a HTML](./pdf-to-html/) Aprenda a convertir PDF a HTML con Aspose.PDF para .NET con esta guía paso a paso. Ideal para desarrolladores y creadores de contenido.  
 | [PDF a PDFA](./pdf-to-pdfa/) Aprenda a convertir archivos PDF al formato PDF/A usando Aspose.PDF para .NET con este tutorial paso a paso. |  
@@ -56,6 +57,8 @@ Aprenderá a especificar la configuración de conversión, extraer texto e imág
 | [XML a PDF](./xml-to-pdf/) | Aprenda a convertir XML a PDF usando Aspose.PDF para .NET en este completo tutorial paso a paso, con ejemplos de código y explicaciones detalladas. |  
 | [Ruta de la imagen de XML a PDF](./xml-to-pdfset-image-path/) Aprenda a convertir XML a PDF fácilmente con Aspose.PDF para .NET. Esta guía detallada le guiará paso a paso por el proceso, desde la configuración hasta la finalización.  
 | [XPS a PDF](./xps-to-pdf/) Aprenda a convertir archivos XPS a PDF con Aspose.PDF para .NET con este tutorial paso a paso. Ideal para desarrolladores y aficionados a la documentación.  
+| [Agregar numeración Bates a DOCX y convertir a PDF – Guía completa en C#](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | Aprenda a añadir numeración Bates a documentos DOCX y convertirlos a PDF usando Aspose.PDF para .NET con C# paso a paso. |  
+| [Guardar documento PDF – Cómo agregar una elipse y convertir DOCX a PDF](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | Aprenda a guardar un PDF, añadir una elipse y convertir DOCX a PDF con Aspose.PDF para .NET paso a paso. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

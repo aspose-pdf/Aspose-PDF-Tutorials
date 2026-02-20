@@ -32,6 +32,7 @@ leert hoe u conversie-instellingen opgeeft, tekst en afbeeldingen extraheert, de
 | [PCL naar PDF](./pcl-to-pdf/) | Leer hoe u PCL-bestanden naar PDF converteert met Aspose.PDF voor .NET met deze stapsgewijze handleiding. Perfect voor zowel ontwikkelaars als bedrijven. |  
 | [PDFA naar PDF](./pdfa-to-pdf/) | Leer hoe u PDF/A naar PDF kunt converteren met Aspose.PDF voor .NET in deze uitgebreide, stapsgewijze handleiding. |  
 | [PDF naar DOC](./pdf-to-doc/) | Leer hoe u PDF naar DOC kunt converteren met Aspose.PDF voor .NET in deze uitgebreide handleiding. Inclusief stapsgewijze instructies en tips. |  
+| [Docx naar PDF converteren in C# – Complete stapsgewijze gids](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Leer hoe u docx-bestanden naar PDF converteert in C# met Aspose.PDF voor .NET via een volledige stap‑voor‑stap handleiding. |  
 | [PDF naar EPUB](./pdf-to-epub/) | Leer in deze stapsgewijze tutorial hoe je PDF naar EPUB converteert met Aspose.PDF voor .NET. Perfect voor ontwikkelaars en content creators. |  
 | [PDF naar HTML](./pdf-to-html/) | Leer hoe je PDF naar HTML converteert met Aspose.PDF voor .NET met deze stapsgewijze handleiding. Perfect voor ontwikkelaars en content creators. |  
 | [PDF naar PDFA](./pdf-to-pdfa/) Leer hoe u PDF-bestanden naar PDF/A-formaat kunt converteren met Aspose.PDF voor .NET met deze stapsgewijze tutorial. |  
@@ -56,6 +57,8 @@ leert hoe u conversie-instellingen opgeeft, tekst en afbeeldingen extraheert, de
 | [XML naar PDF](./xml-to-pdf/) | Leer hoe u XML naar PDF kunt converteren met Aspose.PDF voor .NET in deze uitgebreide stapsgewijze tutorial, compleet met codevoorbeelden en gedetailleerde uitleg. |  
 | [XML naar PDFSet-afbeeldingspad](./xml-to-pdfset-image-path/) | Leer hoe u moeiteloos XML naar PDF converteert met Aspose.PDF voor .NET. Deze gedetailleerde handleiding leidt u stap voor stap door het proces, van installatie tot voltooiing. |  
 | [XPS naar PDF](./xps-to-pdf/) Leer hoe u XPS-bestanden naar PDF converteert met Aspose.PDF voor .NET met deze stapsgewijze tutorial. Perfect voor ontwikkelaars en documentliefhebbers. |  
+| [Bates-nummers toevoegen aan DOCX en converteren naar PDF – Complete C#-gids](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | Leer hoe u Bates-nummers toevoegt aan een DOCX en deze converteert naar PDF met Aspose.PDF voor .NET in deze volledige C#-handleiding. |  
+| [Document PDF opslaan – Hoe een ellips toe te voegen en DOCX naar PDF converteren](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | Leer hoe u een PDF-document opslaat, een ellips toevoegt en een DOCX-bestand converteert naar PDF met Aspose.PDF voor .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

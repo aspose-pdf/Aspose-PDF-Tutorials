@@ -56,6 +56,9 @@
 | [XML을 PDF로](./xml-to-pdf/) | 이 포괄적인 단계별 튜토리얼에서는 Aspose.PDF for .NET을 사용하여 XML을 PDF로 변환하는 방법을 알아봅니다. 코드 예제와 자세한 설명이 수록되어 있습니다. |  
 | [XML에서 PDFSet 이미지 경로로](./xml-to-pdfset-image-path/) | Aspose.PDF for .NET을 사용하여 XML을 PDF로 손쉽게 변환하는 방법을 알아보세요. 이 자세한 가이드는 설정부터 완료까지 단계별 과정을 안내합니다. |  
 | [XPS에서 PDF로](./xps-to-pdf/) Aspose.PDF for .NET을 사용하여 XPS 파일을 PDF로 변환하는 방법을 단계별 튜토리얼을 통해 알아보세요. 개발자와 문서 작성자에게 안성맞춤입니다. |  
+| [DOCX에 베이츠 번호 추가 및 PDF 변환 – 완전한 C# 가이드](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | Aspose.PDF for .NET을 사용하여 DOCX 파일에 베이츠 번호를 추가하고 C#으로 PDF로 변환하는 방법을 단계별로 안내합니다. |  
+| [문서 PDF 저장 – 타원 추가 및 DOCX를 PDF로 변환](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | Aspose.PDF for .NET을 사용해 DOCX에 타원을 추가하고 PDF로 저장하는 방법을 단계별로 안내합니다. |  
+| [C#에서 docx를 PDF로 변환 – 완전 단계별 가이드](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 DOCX 파일을 PDF로 변환하는 완전한 단계별 가이드를 제공합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

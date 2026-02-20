@@ -32,6 +32,8 @@ Aspose.PDF の .NET 向けドキュメント変換チュートリアルでは、
 | [PCLからPDFへ](./pcl-to-pdf/) Aspose.PDF for .NET を使用してPCLファイルをPDFに変換する方法を、ステップバイステップで解説するガイドです。開発者にも企業にも最適です。 |  
 | [PDFAからPDFへ](./pdfa-to-pdf/) この包括的なステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF/A を PDF に変換する方法を学習します。 |  
 | [PDFからDOCへ](./pdf-to-doc/) Aspose.PDF for .NET を使用してPDFをDOCに変換する方法を、この包括的なガイドで学びましょう。ステップバイステップの説明とヒントも含まれています。 |  
+| [DOCXにベーツ番号を追加してPDFへ変換 – 完全C#ガイド](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) このステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して DOCX にベーツ番号を追加し、PDF に変換する方法を学習します。 |  
+| [ドキュメント PDF を保存 – 楕円を追加し DOCX を PDF に変換する方法](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) Aspose.PDF for .NET を使用して、DOCX ファイルを PDF に変換し、PDF に楕円形を追加して保存する手順を解説します。 |  
 | [PDFからEPUBへ](./pdf-to-epub/) Aspose.PDF for .NET を使用してPDFをEPUBに変換する方法をステップバイステップで解説するチュートリアルです。開発者やコンテンツ作成者に最適です。 |  
 | [PDFからHTMLへ](./pdf-to-html/) Aspose.PDF for .NET を使用してPDFをHTMLに変換する方法をステップバイステップで解説します。開発者やコンテンツ作成者に最適です。 |  
 | [PDFからPDFAへ](./pdf-to-pdfa/) このステップバイステップのチュートリアルで、Aspose.PDF for .NET を使用して PDF ファイルを PDF/A 形式に変換する方法を学習します。 |  
@@ -56,6 +58,7 @@ Aspose.PDF の .NET 向けドキュメント変換チュートリアルでは、
 | [XMLからPDFへ](./xml-to-pdf/) コード例と詳細な説明を含む包括的なステップバイステップのチュートリアルで、Aspose.PDF for .NET を使用して XML を PDF に変換する方法を学習します。 |  
 | [XMLからPDFへの画像パスの設定](./xml-to-pdfset-image-path/) Aspose.PDF for .NET を使って、XML を PDF に簡単に変換する方法を学びましょう。この詳細なガイドでは、セットアップから完了まで、プロセスをステップごとに詳しく説明します。 |  
 | [XPSからPDFへ](./xps-to-pdf/) Aspose.PDF for .NET を使用してXPSファイルをPDFに変換する方法を、ステップバイステップのチュートリアルで学びましょう。開発者やドキュメント作成に興味のある方に最適です。 |  
+| [C#でdocxをPDFに変換 – 完全ステップバイステップガイド](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) Aspose.PDF for .NET を使用して、C# で docx ファイルを PDF に変換する完全な手順を解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -50,6 +50,9 @@
 ### [Mastering Aspose.PDF .NET: Πώς να επαληθεύσετε ψηφιακές υπογραφές σε αρχεία PDF](./aspose-pdf-net-verify-digital-signature/)
 Μάθετε πώς να επαληθεύετε τις ψηφιακές υπογραφές σε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET. Διασφαλίστε την ακεραιότητα και την αυθεντικότητα του εγγράφου με τον αναλυτικό μας οδηγό.
 
+### [Σεμινάριο υπογραφής PDF – Επαλήθευση υπογραφών PDF σε C# με το Aspose.Pdf](./pdf-signature-tutorial-verify-pdf-signatures-in-c-with-aspos/)
+Μάθετε πώς να επαληθεύετε υπογραφές PDF σε C# με το Aspose.Pdf, εξασφαλίζοντας την ακεραιότητα των εγγράφων σας.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.PDF για τεκμηρίωση δικτύου](https://docs.aspose.com/pdf/net/)

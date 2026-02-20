@@ -1,7 +1,7 @@
 ---
-"description": "使用安全性和簽名進行程式設計教學教您如何保護和簽署 PDF 文檔，確保機密性和真實性。"
+"description": "使用安全性和簽名進行程式設計教您如何保護和簽署 PDF 文檔，確保機密性和真實性。"
 "linktitle": "使用安全性和簽名進行編程"
-"title": "使用安全性和簽名進行編程"
+"title": "使用安全性和編程"
 "url": "/zh-hant/net/programming-with-security-and-signatures/"
 "weight": 17
 ---
@@ -12,7 +12,7 @@
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用安全性和簽名進行編程
+# 使用安全性和編程
 
 使用安全性和簽名進行程式教學將引導您了解 PDF 文件的安全性和簽名功能。您將學習如何使用密碼保護您的 PDF 文件、新增數位簽章以及驗證簽章文件的完整性。
 
@@ -33,6 +33,8 @@
 | [在 PDF 檔案中設定權限](./set-privileges/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 設定 PDF 權限。有效地保護您的文件。 |  
 | [使用 PDF 檔案簽名透過智慧卡進行簽名](./sign-with-smart-card-using-pdf-file-signature/) |了解如何使用 Aspose.PDF for .NET 的智慧卡簽署 PDF 檔案。請按照本逐步指南取得安全的數位簽章。 |  
 | [使用簽名字段透過智慧卡簽名](./sign-with-smart-card-using-signature-field/) |了解如何使用 Aspose.PDF for .NET 的智慧卡安全地簽署 PDF。按照我們的逐步指南即可輕鬆實施。 |  
+| [載入 PDF 文件 C# – 閱讀與列出簽章的完整指南](./load-pdf-document-c-complete-guide-to-reading-and-listing-si/) |了解如何使用 Aspose.PDF for .NET 在 C# 中載入 PDF，讀取並列出所有簽章資訊的完整步驟。 |  
+| [在 C# 中驗證 PDF 簽章 – 完整步驟指南](./verify-pdf-signature-in-c-complete-step-by-step-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中驗證 PDF 簽章的完整步驟指南。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

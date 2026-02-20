@@ -32,6 +32,9 @@ Ein Code-Tutorial für Aspose.PDF Net
 ### [Laden der Aspose.PDF-Lizenz aus einer Datei in .NET: Eine umfassende Anleitung](./load-aspose-pdf-license-file-net/)
 Erfahren Sie, wie Sie durch Laden einer Lizenzdatei nahtlos zwischen Test- und lizenziertem Modus für Aspose.PDF in .NET wechseln und so eine reibungslose Anwendungsfunktionalität gewährleisten.
 
+### [Wie man NuGet-Pakete über PowerShell installiert – Schritt für Schritt](./how-to-install-nuget-packages-via-powershell-step-by-step/)
+Ein Leitfaden zur Installation von NuGet-Paketen über PowerShell in .NET-Projekten, Schritt für Schritt erklärt.
+
 ## Weitere Ressourcen
 
 - [Aspose.PDF für Net-Dokumentation](https://docs.aspose.com/pdf/net/)

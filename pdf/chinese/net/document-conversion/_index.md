@@ -56,6 +56,9 @@
 | [XML 转 PDF](./xml-to-pdf/) | 通过本全面的分步教程学习如何使用 Aspose.PDF for .NET 将 XML 转换为 PDF，其中包含代码示例和详细解释。|  
 | [XML 转 PDFSet 图像路径](./xml-to-pdfset-image-path/) 学习如何使用 Aspose.PDF for .NET 轻松将 XML 转换为 PDF。本指南将逐步指导您完成从设置到完成的整个过程。|  
 | [XPS 转 PDF](./xps-to-pdf/) 学习如何使用 Aspose.PDF for .NET 将 XPS 文件转换为 PDF，本教程循序渐进，非常适合开发人员和文档爱好者。|  
+| [向 DOCX 添加 Bates 编号并转换为 PDF – 完整 C# 指南](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | 通过本完整的 C# 指南学习如何在 DOCX 文档中添加 Bates 编号并将其转换为 PDF。|  
+| [保存文档 PDF – 如何添加椭圆并将 DOCX 转换为 PDF](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | 通过本分步指南了解如何在 PDF 中添加椭圆形状并将 DOCX 文档转换为 PDF。|  
+| [在 C# 中将 docx 转换为 pdf – 完整分步指南](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | 通过本完整的分步指南学习如何使用 Aspose.PDF for .NET 将 DOCX 文档转换为 PDF，包括代码示例和常见问题解答，帮助开发者高效实现转换。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

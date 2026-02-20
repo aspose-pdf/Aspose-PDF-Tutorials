@@ -22,16 +22,18 @@ Bạn sẽ học cách chỉ định cài đặt chuyển đổi, trích xuất 
 | Tiêu đề | Mô tả |
 | --- | --- | 
 | [Thêm tệp đính kèm vào PDFA](./add-attachment-to-pdfa/) | Tìm hiểu cách thêm tệp đính kèm vào tài liệu PDF/A bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. |  
+| [Thêm số Bates vào DOCX và Chuyển đổi sang PDF – Hướng dẫn đầy đủ C#](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | Tìm hiểu cách thêm số Bates vào tài liệu DOCX và chuyển đổi sang PDF bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết C#. |  
 | [CGM sang tập tin PDF](./cgm-to-pdf/) | Tìm hiểu cách chuyển đổi tệp CGM sang PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Hoàn hảo cho cả nhà phát triển và nhà thiết kế. |  
 | [EPUB sang PDF](./epub-to-pdf/) Tìm hiểu cách chuyển đổi EPUB sang PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Dễ dàng, hiệu quả và hoàn hảo cho mọi người dùng. |  
 | [Nhận kích thước SVG](./get-svg-dimensions/) | Tìm hiểu cách sử dụng Aspose.PDF cho .NET để chuyển đổi tệp SVG sang PDF với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển muốn thao tác với PDF. |  
-| [HTML sang PDF](./html-to-pdf/) | Tìm hiểu cách chuyển đổi HTML sang PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước toàn diện này. |  
+| [HTML sang PDF](./html-to-pdf/) | Tìm hiểu cách chuyển đổi HTML sang PDF bằng Aspose.PDF cho .NET với hướng dẫn toàn diện này. |  
 | [Markdown sang PDF](./markdown-to-pdf/) | Tìm hiểu cách chuyển đổi Markdown sang PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển muốn hợp lý hóa việc chuyển đổi tài liệu. |  
 | [MHT sang PDF](./mht-to-pdf/) | Tìm hiểu cách chuyển đổi tệp MHT sang PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Chuyển đổi tài liệu dễ dàng và hiệu quả. |  
 | [Định hướng trang theo kích thước hình ảnh](./page-orientation-according-image-dimensions/) Tìm hiểu cách tạo tệp PDF bằng Aspose.PDF cho .NET, thiết lập hướng trang dựa trên kích thước hình ảnh trong hướng dẫn từng bước này. |  
 | [PCL sang PDF](./pcl-to-pdf/) | Tìm hiểu cách chuyển đổi tệp PCL sang PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Hoàn hảo cho cả nhà phát triển và doanh nghiệp. |  
 | [PDFA sang PDF](./pdfa-to-pdf/) | Tìm hiểu cách chuyển đổi PDF/A sang PDF bằng Aspose.PDF cho .NET trong hướng dẫn toàn diện, từng bước này. |  
 | [PDF sang DOC](./pdf-to-doc/) | Tìm hiểu cách chuyển đổi PDF sang DOC bằng Aspose.PDF cho .NET trong hướng dẫn toàn diện này. Bao gồm hướng dẫn từng bước và mẹo. |  
+| [Lưu tài liệu PDF – Cách thêm hình ellipse và chuyển DOCX sang PDF](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | Tìm hiểu cách lưu tài liệu PDF, thêm hình ellipse và chuyển đổi DOCX sang PDF bằng Aspose.PDF cho .NET. |  
 | [PDF sang EPUB](./pdf-to-epub/) | Tìm hiểu cách chuyển đổi PDF sang EPUB bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển và người sáng tạo nội dung. |  
 | [PDF sang HTML](./pdf-to-html/) | Tìm hiểu cách chuyển đổi PDF sang HTML bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển và người sáng tạo nội dung. |  
 | [PDF sang PDFA](./pdf-to-pdfa/) Tìm hiểu cách chuyển đổi tệp PDF sang định dạng PDF/A bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. |  
@@ -56,6 +58,7 @@ Bạn sẽ học cách chỉ định cài đặt chuyển đổi, trích xuất 
 | [XML sang PDF](./xml-to-pdf/) | Tìm hiểu cách chuyển đổi XML sang PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước toàn diện này, kèm theo các ví dụ mã và giải thích chi tiết. |  
 | [XML To PDFĐặt Đường dẫn hình ảnh](./xml-to-pdfset-image-path/) | Tìm hiểu cách chuyển đổi XML sang PDF dễ dàng bằng Aspose.PDF cho .NET. Hướng dẫn chi tiết này hướng dẫn bạn từng bước trong quy trình, từ thiết lập đến hoàn tất. |  
 | [XPS sang PDF](./xps-to-pdf/) Tìm hiểu cách chuyển đổi tệp XPS sang PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển và những người đam mê tài liệu. |  
+| [Chuyển đổi docx sang pdf trong C# – Hướng dẫn chi tiết từng bước](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Tìm hiểu cách chuyển đổi tệp docx sang pdf bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết từng bước. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -32,6 +32,9 @@ Kód oktatóanyag az Aspose.PDF Nethez
 ### [Aspose.PDF licenc betöltése fájlból .NET-ben: Átfogó útmutató](./load-aspose-pdf-license-file-net/)
 Ismerje meg, hogyan válthat zökkenőmentesen az Aspose.PDF próba- és licencelt módja között .NET-ben egy licencfájl betöltésével, biztosítva az alkalmazás zökkenőmentes működését.
 
+### [NuGet csomagok telepítése PowerShell segítségével – lépésről lépésre](./how-to-install-nuget-packages-via-powershell-step-by-step/)
+Ismerje meg, hogyan telepíthet NuGet csomagokat PowerShell parancsokkal, részletes, lépésről lépésre útmutatóval.
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)

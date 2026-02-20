@@ -50,6 +50,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Atur Java Script](./set-java-script/) | Manfaatkan kekuatan Aspose.PDF untuk .NET. Pelajari cara mengatur JavaScript pada kolom formulir dengan panduan langkah demi langkah kami. Bahasa Indonesia:  
 | [Mengatur Judul Tombol Radio](./set-radio-button-caption/) Pelajari cara mengatur teks tombol radio dalam PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini memandu Anda dalam memuat, memodifikasi, dan menyimpan formulir PDF. Bahasa Indonesia:  
 | [Kotak Teks](./text-box/) | Temukan cara mudah menambahkan kotak teks ke PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini. Tingkatkan interaksi pengguna. |  
+| [Cara Menambahkan Kotak Teks PDF – Membuat Kolom Formulir PDF & Menyimpan Dokumen PDF yang Diedit](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Pelajari cara menambahkan kotak teks ke formulir PDF, membuat bidang formulir, dan menyimpan dokumen PDF yang telah diedit menggunakan Aspose.PDF for .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

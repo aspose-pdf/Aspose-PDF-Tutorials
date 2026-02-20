@@ -50,6 +50,7 @@ Các hướng dẫn này cũng cung cấp các ví dụ mã chi tiết, giải t
 | [Đặt Java Script](./set-java-script/) | Mở khóa sức mạnh của Aspose.PDF cho .NET. Tìm hiểu cách thiết lập JavaScript trên các trường biểu mẫu với hướng dẫn từng bước của chúng tôi. |  
 | [Đặt tiêu đề nút radio](./set-radio-button-caption/) Tìm hiểu cách đặt tiêu đề nút radio trong PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước này hướng dẫn bạn cách tải, sửa đổi và lưu biểu mẫu PDF. |  
 | [Hộp văn bản](./text-box/) | Khám phá cách dễ dàng thêm hộp văn bản vào PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Tăng cường tương tác của người dùng. |  
+| [Cách Thêm Hộp Văn Bản PDF – Tạo Trường Biểu Mẫu PDF & Lưu Tài Liệu PDF Đã Chỉnh Sửa](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Hướng dẫn chi tiết cách thêm hộp văn bản vào biểu mẫu PDF, tạo trường biểu mẫu và lưu tài liệu PDF đã chỉnh sửa bằng Aspose.PDF cho .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

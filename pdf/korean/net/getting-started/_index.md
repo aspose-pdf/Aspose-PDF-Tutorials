@@ -32,6 +32,9 @@ Aspose.PDF Net에 대한 코드 튜토리얼
 ### [.NET에서 파일에서 Aspose.PDF 라이선스 로드: 포괄적인 가이드](./load-aspose-pdf-license-file-net/)
 라이선스 파일을 로드하여 .NET에서 Aspose.PDF의 평가판과 라이선스 모드 사이를 원활하게 전환하는 방법을 알아보고, 원활한 애플리케이션 기능을 보장합니다.
 
+### [PowerShell을 사용하여 NuGet 패키지를 설치하는 방법 – 단계별](./how-to-install-nuget-packages-via-powershell-step-by-step/)
+PowerShell 명령을 이용해 NuGet 패키지를 손쉽게 설치하고 관리하는 단계별 가이드
+
 ## 추가 자료
 
 - [Net 문서용 Aspose.PDF](https://docs.aspose.com/pdf/net/)

@@ -32,6 +32,9 @@ Hướng dẫn mã cho Aspose.PDF Net
 ### [Tải Giấy phép Aspose.PDF từ Tệp trong .NET: Hướng dẫn Toàn diện](./load-aspose-pdf-license-file-net/)
 Tìm hiểu cách chuyển đổi liền mạch giữa chế độ dùng thử và chế độ cấp phép cho Aspose.PDF trong .NET bằng cách tải tệp cấp phép, đảm bảo chức năng ứng dụng hoạt động trơn tru.
 
+### [Cách cài đặt gói NuGet qua PowerShell – từng bước](./how-to-install-nuget-packages-via-powershell-step-by-step/)
+Hướng dẫn chi tiết cách sử dụng PowerShell để cài đặt các gói NuGet trong dự án .NET.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)

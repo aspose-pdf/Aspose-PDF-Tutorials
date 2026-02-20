@@ -32,6 +32,9 @@ Aspose.PDF Net 代码教程
 ### [从.NET文件中加载Aspose.PDF许可证：综合指南](./load-aspose-pdf-license-file-net/)
 了解如何通过加载许可证文件在 .NET 中无缝切换 Aspose.PDF 的试用模式和许可模式，确保应用程序功能顺畅。
 
+### [如何通过 PowerShell 安装 NuGet 包 – 步骤指南](./how-to-install-nuget-packages-via-powershell-step-by-step/)
+通过 PowerShell 脚本一步步安装 NuGet 包的完整指南
+
 ## 其他资源
 
 - [Aspose.PDF 用于网络文档](https://docs.aspose.com/pdf/net/)
