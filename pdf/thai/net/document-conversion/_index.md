@@ -56,6 +56,9 @@
 - [XML เป็น PDF](./xml-to-pdf/) | เรียนรู้วิธีแปลง XML เป็น PDF โดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนทีละขั้นตอนอย่างครอบคลุมนี้ พร้อมด้วยตัวอย่างโค้ดและคำอธิบายโดยละเอียด -  
 | [XML เป็น PDF ตั้งค่าเส้นทางของรูปภาพ](./xml-to-pdfset-image-path/) | เรียนรู้วิธีการแปลง XML เป็น PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ .NET คำแนะนำโดยละเอียดนี้จะแนะนำคุณทีละขั้นตอนตั้งแต่การตั้งค่าจนถึงการเสร็จสมบูรณ์ -  
 | [XPS เป็น PDF](./xps-to-pdf/) เรียนรู้วิธีแปลงไฟล์ XPS เป็น PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยบทช่วยสอนแบบทีละขั้นตอนนี้ เหมาะสำหรับนักพัฒนาและผู้ที่ชื่นชอบเอกสาร |  
+- [สร้าง HTML จาก PDF ด้วย C# – คู่มือขั้นตอนเต็ม](./create-html-from-pdf-in-c-complete-step-by-step-guide/) | เรียนรู้วิธีสร้าง HTML จากไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้  
+- [บทช่วยสอนการแปลง PDF ด้วย C# – แปลง PDF เป็น PDF/X-4](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) | เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/X-4 ด้วย Aspose.PDF สำหรับ .NET ในบทช่วยสอนขั้นตอนเดียวนี้  
+- [วิธีตั้งค่า ICC ในการแปลง PDF ด้วย Aspose – คู่มือครบถ้วน](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | เรียนรู้วิธีตั้งค่า ICC ในการแปลง PDF ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียดในคู่มือขั้นตอนเต็ม  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

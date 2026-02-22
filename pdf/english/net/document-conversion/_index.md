@@ -23,9 +23,12 @@ You'll learn how to specify conversion settings, extract text and images, retain
 | --- | --- | 
 | [Add Attachment to PDFA](./add-attachment-to-pdfa/) | Learn how to add attachments to a PDF/A document using Aspose.PDF for .NET with this step-by-step guide. |  
 | [CGM To PDF Files](./cgm-to-pdf/) | Learn how to convert CGM files to PDF using Aspose.PDF for .NET with this step-by-step guide. Perfect for developers and designers alike. |  
+| [Create HTML from PDF in C# – Complete Step‑by‑Step Guide](./create-html-from-pdf-in-c-complete-step-by-step-guide/) | Learn how to create HTML from a PDF using Aspose.PDF for .NET with this step‑by‑step guide. |
+| [c# pdf conversion tutorial – convert pdf to pdf/x-4](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) | Learn how to convert PDF to PDF/X-4 using Aspose.PDF for .NET in this step-by-step tutorial. |  
 | [EPUB To PDF](./epub-to-pdf/) | Learn how to convert EPUB to PDF using Aspose.PDF for .NET with this step-by-step guide. Easy, efficient, and perfect for all users. |  
 | [Get SVG Dimensions](./get-svg-dimensions/) | Learn how to use Aspose.PDF for .NET to convert SVG files to PDF with this step-by-step guide. Perfect for developers looking to manipulate PDFs. |  
 | [HTML To PDF](./html-to-pdf/) | Learn how to convert HTML to PDF using Aspose.PDF for .NET with this comprehensive step-by-step guide. |  
+| [How to set ICC in Aspose PDF conversion – Complete Guide](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | Learn how to set ICC profiles during PDF conversion using Aspose.PDF for .NET in this comprehensive step-by-step guide. |  
 | [Markdown To PDF](./markdown-to-pdf/) | Learn how to convert Markdown to PDF using Aspose.PDF for .NET in this step-by-step tutorial. Perfect for developers looking to streamline document conversion. |  
 | [MHT To PDF](./mht-to-pdf/) | Learn how to convert MHT files to PDF using Aspose.PDF for .NET in this step-by-step tutorial. Easy and efficient document conversion. |  
 | [Page Orientation According Image Dimensions](./page-orientation-according-image-dimensions/) | Learn how to create PDFs with Aspose.PDF for .NET, setting page orientation based on image dimensions in this step-by-step guide. |  

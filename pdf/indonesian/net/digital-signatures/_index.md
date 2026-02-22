@@ -26,6 +26,9 @@ Pelajari cara menandatangani PDF secara digital dengan tampilan khusus menggunak
 ### [Ekstrak Info Tanda Tangan Digital dari PDF dengan Aspose.PDF](./extract-digital-signature-info-from-pdfs-aspose-pdf/)
 Tutorial kode untuk Aspose.PDF Net
 
+### [Ekstrak tanda tangan dari PDF dengan Aspose.Pdf – Panduan Lengkap](./extract-signatures-from-pdf-with-aspose-pdf-complete-guide/)
+Pelajari cara mengekstrak tanda tangan dari PDF menggunakan Aspose.Pdf dengan panduan lengkap langkah demi langkah.
+
 ### [Cara Mengubah Bahasa Tanda Tangan PDF dengan Aspose.PDF untuk .NET](./change-pdf-signature-language-aspose-net/)
 Pelajari cara menyesuaikan teks tanda tangan digital dalam PDF menggunakan Aspose.PDF untuk .NET. Sempurna untuk persiapan dan pelokalan dokumen multibahasa.
 

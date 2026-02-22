@@ -26,6 +26,9 @@ Lär dig hur du digitalt signerar en PDF med anpassat utseende med Aspose.PDF f�
 ### [Extrahera information om digital signatur från PDF-filer med Aspose.PDF](./extract-digital-signature-info-from-pdfs-aspose-pdf/)
 En kodhandledning för Aspose.PDF Net
 
+### [Extrahera signaturer från PDF med Aspose.Pdf – Komplett guide](./extract-signatures-from-pdf-with-aspose-pdf-complete-guide/)
+Lär dig hur du extraherar alla digitala signaturer från PDF-dokument med Aspose.Pdf i .NET, inklusive kodexempel och steg-för-steg-instruktioner.
+
 ### [Hur man ändrar PDF-signaturspråk med Aspose.PDF för .NET](./change-pdf-signature-language-aspose-net/)
 Lär dig hur du anpassar text för digital signatur i PDF-filer med Aspose.PDF för .NET. Perfekt för flerspråkig dokumentförberedelse och lokalisering.
 

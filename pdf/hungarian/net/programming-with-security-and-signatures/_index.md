@@ -33,6 +33,7 @@ Az oktatóanyag részletes áttekintést nyújt a PDF-fájlok titkosságának é
 | [Jogosultságok beállítása PDF fájlban](./set-privileges/) | Tanulja meg, hogyan állíthat be PDF-jogosultságokat az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Biztosítsa dokumentumai hatékony védelmét. |  
 | [Aláírás intelligens kártyával PDF fájl aláírásával](./sign-with-smart-card-using-pdf-file-signature/) | Ismerje meg, hogyan írhat alá PDF-fájlokat intelligens kártyával az Aspose.PDF for .NET segítségével. Kövesse ezt a lépésről lépésre szóló útmutatót a biztonságos digitális aláírásokhoz. |  
 | [Aláírás intelligens kártyával az aláírásmező használatával](./sign-with-smart-card-using-signature-field/) | Ismerje meg, hogyan írhat alá biztonságosan PDF-fájlokat intelligens kártya használatával az Aspose.PDF for .NET segítségével. Kövesse lépésről lépésre szóló útmutatónkat az egyszerű megvalósítás érdekében. |  
+| [Aláírt PDF létrehozása C#‑ban – Lépésről‑lépésre útmutató](./create-signed-pdf-in-c-step-by-step-guide/) | Ismerje meg, hogyan hozhat létre aláírt PDF-fájlokat C#‑ban az Aspose.PDF for .NET segítségével. Lépésről‑lépésre útmutató. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

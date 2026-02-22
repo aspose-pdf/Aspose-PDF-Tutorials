@@ -50,6 +50,9 @@
 ### [เรียนรู้การใช้ Aspose.PDF .NET: วิธีการตรวจสอบลายเซ็นดิจิทัลในไฟล์ PDF](./aspose-pdf-net-verify-digital-signature/)
 เรียนรู้วิธีการตรวจสอบลายเซ็นดิจิทัลในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET รับรองความสมบูรณ์และความถูกต้องของเอกสารด้วยคู่มือทีละขั้นตอนของเรา
 
+### [ดึงลายเซ็นจาก PDF ด้วย Aspose.Pdf – คู่มือฉบับสมบูรณ์](./extract-signatures-from-pdf-with-aspose-pdf-complete-guide/)
+เรียนรู้วิธีดึงลายเซ็นทั้งหมดจากไฟล์ PDF ด้วย Aspose.Pdf พร้อมขั้นตอนและตัวอย่างโค้ดที่ครบถ้วน
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)

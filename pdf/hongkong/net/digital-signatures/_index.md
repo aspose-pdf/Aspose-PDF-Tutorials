@@ -35,6 +35,9 @@ Aspose.PDF Net 程式碼教學
 ### [如何使用 Aspose.PDF .NET 提取 PDF 簽名資訊：逐步指南](./extract-pdf-signature-info-aspose-pdf-net/)
 了解如何使用 Aspose.PDF for .NET 從 PDF 中提取數位簽章資訊。本逐步指南涵蓋安裝、實施和實際應用。
 
+### [使用 Aspose.PDF 從 PDF 中提取簽名 – 完整指南](./extract-signatures-from-pdf-with-aspose-pdf-complete-guide/)
+本完整指南說明如何使用 Aspose.PDF 從 PDF 文件中提取所有簽名資訊，包含程式碼範例與步驟說明。
+
 ### [如何使用 Aspose.PDF 在 .NET 中實現數位簽章：綜合指南](./implement-pdf-signatures-dotnet-aspose-pdf-guide/)
 了解如何使用 Aspose.PDF for .NET 在 PDF 上實現安全數位簽名，包括抑制選用欄位。
 
