@@ -39,6 +39,7 @@ Az Aspose.PDF „Bélyegzők és vízjelek programozása” című .NET oktatóa
 | [Táblázat a fejlécben, láblécben](./table-in-header-footer-section/) | Ismerje meg, hogyan adhat hozzá egyszerűen szöveget egy PDF fájl láblécéhez az Aspose.PDF for .NET segítségével. Lépésről lépésre útmutató a zökkenőmentes integrációhoz. |  
 | [Szöveg a PDF fájl láblécében](./text-in-footer/) | Ismerje meg, hogyan adhat hozzá szöveget a PDF fájlok láblécéhez az Aspose.PDF for .NET segítségével. |  
 | [Szöveg a PDF fájl fejlécében](./text-in-header/) | Tanulja meg, hogyan adhat hozzá szöveges fejléceket PDF-ekhez az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Javítsa dokumentumai hatékonyságát és eredményességét. |  
+| [Bizalmas vízjel PDF Aspose-szal: Szövegbélyegző hozzáadása az első oldalhoz](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) Tanulja meg, hogyan adhat hozzá szövegbélyegzőt az első oldalhoz, hogy bizalmas vízjelet helyezzen el PDF-ben az Aspose.PDF for .NET használatával. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -50,6 +50,9 @@ Výukový program pro kódování Aspose.PDF Net
 ### [Zvládnutí Aspose.PDF .NET: Jak ověřovat digitální podpisy v souborech PDF](./aspose-pdf-net-verify-digital-signature/)
 Naučte se, jak ověřovat digitální podpisy v souborech PDF pomocí Aspose.PDF pro .NET. Zajistěte integritu a pravost dokumentu pomocí našeho podrobného návodu.
 
+### [Extrahování podpisů z PDF pomocí Aspose.PDF – kompletní průvodce](./extract-signatures-from-pdf-with-aspose-pdf-complete-guide/)
+Naučte se, jak pomocí Aspose.PDF extrahovat všechny digitální podpisy z PDF souborů a zpracovat jejich data.
+
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)

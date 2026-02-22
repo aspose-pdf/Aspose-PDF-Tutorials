@@ -39,6 +39,7 @@ Aspose.PDF 的“使用图章和水印进行编程”.NET 教程将指导您逐�
 | [页眉页脚部分中的表格](./table-in-header-footer-section/) 了解如何使用 Aspose.PDF for .NET 轻松地在 PDF 文件页脚添加文本。包含无缝集成的分步指南。|  
 | [PDF 文件页脚中的文本](./text-in-footer/) 了解如何使用 Aspose.PDF for .NET 在 PDF 文件的页脚中添加文本。|  
 | [PDF 文件标题中的文本](./text-in-header/) 通过本分步教程学习如何使用 Aspose.PDF for .NET 为 PDF 添加文本标题。高效且有效地增强您的文档。|  
+| [机密水印 PDF 与 Aspose：在首页添加文本印章](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) 学习如何使用 Aspose.PDF for .NET 在 PDF 首页添加文本水印，以实现机密标记。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

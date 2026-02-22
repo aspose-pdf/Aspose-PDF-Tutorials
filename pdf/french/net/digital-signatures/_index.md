@@ -50,6 +50,9 @@ Un tutoriel de code pour Aspose.PDF Net
 ### [Maîtriser Aspose.PDF .NET : Comment vérifier les signatures numériques dans les fichiers PDF](./aspose-pdf-net-verify-digital-signature/)
 Découvrez comment vérifier les signatures numériques des fichiers PDF avec Aspose.PDF pour .NET. Assurez l'intégrité et l'authenticité de vos documents grâce à notre guide étape par étape.
 
+### [Extraire les signatures d'un PDF avec Aspose.PDF – Guide complet](./extract-signatures-from-pdf-with-aspose-pdf-complete-guide/)
+Découvrez comment extraire les signatures d'un PDF avec Aspose.PDF. Ce guide complet couvre les étapes de récupération et d'analyse des signatures.
+
 ## Ressources supplémentaires
 
 - [Aspose.PDF pour la documentation réseau](https://docs.aspose.com/pdf/net/)

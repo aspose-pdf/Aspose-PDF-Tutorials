@@ -26,6 +26,9 @@
 ### [使用 Aspose.PDF 从 PDF 中提取数字签名信息](./extract-digital-signature-info-from-pdfs-aspose-pdf/)
 Aspose.PDF Net 代码教程
 
+### [使用 Aspose.PDF 从 PDF 中提取签名 – 完整指南](./extract-signatures-from-pdf-with-aspose-pdf-complete-guide/)
+本完整指南展示如何使用 Aspose.PDF 提取 PDF 文档中的所有数字签名，包含代码示例和最佳实践。
+
 ### [如何使用 Aspose.PDF for .NET 更改 PDF 签名语言](./change-pdf-signature-language-aspose-net/)
 了解如何使用 Aspose.PDF for .NET 自定义 PDF 中的数字签名文本。非常适合多语言文档的准备和本地化。
 

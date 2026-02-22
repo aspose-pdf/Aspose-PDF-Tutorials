@@ -1,5 +1,5 @@
 ---
-"description": "使用安全性和簽名進行程式設計教學教您如何保護和簽署 PDF 文檔，確保機密性和真實性。"
+"description": "使用安全性和簽名進行程式設計教您如何保護和簽署 PDF 文檔，確保機密性和真實性。"
 "linktitle": "使用安全性和簽名進行編程"
 "title": "使用安全性和簽名進行編程"
 "url": "/zh-hant/net/programming-with-security-and-signatures/"
@@ -33,6 +33,7 @@
 | [在 PDF 檔案中設定權限](./set-privileges/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 設定 PDF 權限。有效地保護您的文件。 |  
 | [使用 PDF 檔案簽名透過智慧卡進行簽名](./sign-with-smart-card-using-pdf-file-signature/) |了解如何使用 Aspose.PDF for .NET 的智慧卡簽署 PDF 檔案。請按照本逐步指南取得安全的數位簽章。 |  
 | [使用簽名字段透過智慧卡簽名](./sign-with-smart-card-using-signature-field/) |了解如何使用 Aspose.PDF for .NET 的智慧卡安全地簽署 PDF。按照我們的逐步指南即可輕鬆實施。 |  
+| [在 C# 中建立簽名 PDF – 步驟說明指南](./create-signed-pdf-in-c-step-by-step-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中建立簽署的 PDF 文件，提供完整的步驟說明與範例。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -39,6 +39,7 @@ Aspose.PDFs handledningar "Programmering med stämplar och vattenstämplar" för
 | [Tabell i sidhuvuds- och sidfotssektionen](./table-in-header-footer-section/) | Lär dig hur du enkelt lägger till text i sidfoten på en PDF-fil med Aspose.PDF för .NET. Steg-för-steg-guide ingår för sömlös integration. |  
 | [Text i sidfoten på PDF-filen](./text-in-footer/) | Lär dig hur du lägger till text i sidfoten på en PDF-fil med Aspose.PDF för .NET. |  
 | [Text i sidhuvudet på PDF-filen](./text-in-header/) | Lär dig lägga till textrubriker i PDF-filer med Aspose.PDF för .NET med den här steg-för-steg-handledningen. Förbättra dina dokument effektivt och ändamålsenligt. |  
+| [Konfidentiell vattenstämpel PDF med Aspose: Lägg till en textstämpel på första sidan](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) | Lär dig hur du lägger till en textstämpel på första sidan för konfidentiell vattenstämpel med Aspose.PDF för .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
