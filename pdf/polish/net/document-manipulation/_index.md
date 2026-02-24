@@ -236,16 +236,16 @@ Dowiedz się, jak skutecznie zarządzać plikami PDF za pomocą Aspose.PDF dla .
 ### [Opanuj manipulację plikami PDF w .NET za pomocą Aspose.PDF: kompleksowy przewodnik](./aspose-pdf-net-tutorial/)
 Dowiedz się, jak programowo zarządzać plikami PDF w .NET za pomocą Aspose.PDF. Ten przewodnik obejmuje ładowanie dokumentów, dostęp do pól formularzy i iterowanie opcji.
 
-### [Opanuj manipulację plikami PDF za pomocą Aspose.PDF .NET: kompleksowy przewodnik po automatyzacji dokumentów](./master-pdf-manipulation-aspose-dotnet-guide/)
+### [Opanuj manipulację plikami PDF w .NET za pomocą Aspose.PDF: kompleksowy przewodnik](./master-pdf-manipulation-aspose-pdf-net-guide/)
 Dowiedz się, jak automatyzować zadania związane z plikami PDF za pomocą Aspose.PDF dla platformy .NET, w tym łączenie plików, dodawanie stron, wstawianie znaczników tekstowych i tworzenie łączy.
 
-### [Opanuj manipulację plikami PDF dzięki Aspose.PDF .NET: Łatwe ładowanie i modyfikowanie dokumentów](./mastering-pdf-manipulation-aspose-dotnet/)
+### [Opanuj manipulację plikami PDF za pomocą Aspose.PDF .NET: Łatwe ładowanie i modyfikowanie dokumentów](./mastering-pdf-manipulation-aspose-dotnet/)
 Dowiedz się, jak opanować ładowanie, nawigację i modyfikowanie dokumentów PDF przy użyciu potężnej biblioteki Aspose.PDF .NET. Ulepsz swoje aplikacje już dziś!
 
 ### [Opanuj manipulację plikami PDF za pomocą Aspose.PDF .NET: przewodnik ładowania, wyszukiwania i adnotacji](./aspose-pdf-dotnet-mastering-pdfs-manipulation-guide/)
 Naucz się manipulować plikami PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje ładowanie dokumentów, wyszukiwanie tekstu i stosowanie adnotacji, takich jak przekreślenia.
 
-### [Opanuj manipulację plikami PDF za pomocą Aspose.PDF dla .NET: kompleksowy przewodnik](./mastering-pdf-manipulation-aspose-pdf-net-guide/)
+### [Opanuj manipulację plikami PDF za pomocą Aspose.PDF .NET: kompleksowy przewodnik](./mastering-pdf-manipulation-aspose-pdf-net-guide/)
 Dowiedz się, jak wydajnie tworzyć, modyfikować, scalać i wyodrębniać dane z plików PDF przy użyciu Aspose.PDF dla platformy .NET. Ulepsz swoje przepływy pracy nad dokumentami i zwiększ produktywność.
 
 ### [Opanuj manipulację liczbą stron w PDF za pomocą Aspose.PDF dla .NET: Kompletny przewodnik](./mastering-pdf-manipulation-aspose-pdf-net/)
@@ -309,7 +309,9 @@ Dowiedz się, jak podzielić strony PDF na osobne pliki za pomocą Aspose.PDF dl
 Dowiedz się, jak dzielić wielostronicowe pliki PDF i tworzyć nowe pliki PDF za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z tym kompleksowym przewodnikiem z przykładami kodu.
 
 ### [Najlepszy przewodnik po manipulacji plikami PDF za pomocą Aspose.PDF .NET: Ładowanie, zapisywanie i zamiana tekstu w sposób wydajny](./master-pdf-manipulation-aspose-pdf-net/)
-Dowiedz się, jak opanować manipulację PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje ładowanie, zapisywanie i zastępowanie tekstu w plikach PDF, co jest idealne dla programistów poszukujących wydajności.
+
+### [Jak naprawić PDF w C# – Szybko napraw uszkodzone pliki PDF](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
+Dowiedz się, jak w C# szybko naprawić uszkodzone pliki PDF przy użyciu Aspose.PDF.
 
 ## Dodatkowe zasoby
 

@@ -74,6 +74,15 @@ Scopri come creare PDF accessibili e ben strutturati con tag utilizzando Aspose.
 ### [Padroneggiare la creazione di opuscoli PDF con Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Un tutorial sul codice per Aspose.PDF Net
 
+### [Crea documento PDF in C# – Aggiungi pagina vuota, tag e span](./create-pdf-document-in-c-add-blank-page-tags-and-span/)
+Scopri come creare un documento PDF in C# aggiungendo una pagina vuota, tag e span per migliorare l'accessibilità e la formattazione.
+
+### [Come creare PDF in C# – Aggiungi pagina, disegna rettangolo e salva](./how-to-create-pdf-in-c-add-page-draw-rectangle-save/)
+Scopri come creare un PDF in C# aggiungendo una pagina, disegnando un rettangolo e salvando il documento.
+
+### [Crea documento PDF in C# – Guida passo‑passo](./create-pdf-document-in-c-step-by-step-guide/)
+Scopri come creare un documento PDF in C# con una guida dettagliata passo‑passo, includendo esempi di codice e best practice.
+
 ## Risorse aggiuntive
 
 - [Aspose.PDF per la documentazione di rete](https://docs.aspose.com/pdf/net/)

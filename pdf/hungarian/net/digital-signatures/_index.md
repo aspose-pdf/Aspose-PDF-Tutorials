@@ -50,6 +50,9 @@ Kód oktatóanyag az Aspose.PDF Nethez
 ### [Aspose.PDF .NET elsajátítása: Hogyan ellenőrizhetjük a digitális aláírásokat PDF fájlokban](./aspose-pdf-net-verify-digital-signature/)
 Ismerje meg, hogyan ellenőrizheti a digitális aláírásokat PDF fájlokban az Aspose.PDF for .NET segítségével. Biztosítsa a dokumentumok integritását és hitelességét lépésről lépésre bemutató útmutatónkkal.
 
+### [Aláírások kinyerése PDF-ből C#‑ban – Lépésről‑lépésre útmutató](./how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/)
+Ismerje meg, hogyan nyerhet ki aláírásokat PDF-dokumentumokból C#‑ban az Aspose.PDF for .NET használatával.
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)

@@ -33,6 +33,8 @@
 | [在 PDF 文件中设置权限](./set-privileges/) 学习如何使用 Aspose.PDF for .NET 设置 PDF 权限，并遵循本分步指南。有效保护您的文档安全。|  
 | [使用 PDF 文件签名通过智能卡进行签名](./sign-with-smart-card-using-pdf-file-signature/) 了解如何使用 Aspose.PDF for .NET 的智能卡对 PDF 文件进行签名。请按照本指南一步步操作，获取安全的数字签名。|  
 | [使用签名字段通过智能卡签名](./sign-with-smart-card-using-signature-field/) 了解如何使用 Aspose.PDF for .NET 的智能卡安全地签署 PDF。按照我们的分步指南，轻松实现。|  
+| [在 C# 中验证 PDF 签名 – 步骤指南](./verify-pdf-signature-in-c-step-by-step-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名。分步指南，确保文档完整性。|  
+| [如何在 C# 中使用 OCSP 验证 PDF 数字签名](./how-to-use-ocsp-to-validate-pdf-digital-signature-in-c/) 了解如何使用 Aspose.PDF for .NET 在 C# 中通过 OCSP 验证 PDF 数字签名。分步指南，确保签名真实性。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

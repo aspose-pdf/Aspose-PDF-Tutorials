@@ -111,7 +111,7 @@ Lär dig hur du lägger till linjeobjekt i PDF-filer med Aspose.PDF för .NET. D
 Lär dig hur du lägger till sidfot med textstämplar på varje sida i dina PDF-dokument med Aspose.PDF för .NET med vår steg-för-steg-guide. Effektivisera dokumenthanteringen.
 
 ### [Hur man lägger till en textstämpel till PDF-filer med Aspose.PDF för .NET](./add-text-stamp-pdf-aspose-dotnet/)
-Lär dig hur du effektivt lägger till textstämplar i PDF-dokument med Aspose.PDF för .NET. Förbättra din dokumenthantering med den här steg-för-steg-guiden.
+Lär dig hur du effektivt lägger till textstämpel i PDF-dokument med Aspose.PDF för .NET. Förbättra din dokumenthantering med den här steg-för-steg-guiden.
 
 ### [Så här lägger du till en tom sida i slutet av en PDF med Aspose.PDF för .NET | Steg-för-steg-guide](./add-empty-page-end-pdf-aspose-pdf-net/)
 Lär dig hur du smidigt lägger till en tom sida i slutet av din PDF med Aspose.PDF för .NET. Den här omfattande handledningen täcker installation, implementering och bästa praxis.
@@ -310,6 +310,9 @@ Lär dig hur du delar upp flersidiga PDF-filer och skapar nya PDF-filer med Aspo
 
 ### [Ultimat guide till PDF-manipulation med Aspose.PDF .NET: Ladda, spara och ersätt text effektivt](./master-pdf-manipulation-aspose-pdf-net/)
 Lär dig hur du bemästrar PDF-manipulation med Aspose.PDF för .NET. Den här guiden behandlar hur man laddar, sparar och ersätter text i PDF-filer, perfekt för utvecklare som söker effektivitet.
+
+### [Hur man reparerar PDF i C# – Åtgärda korrumperade PDF-filer snabbt](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
+Lär dig hur du reparerar skadade PDF-filer i C# med Aspose.PDF för .NET snabbt och enkelt.
 
 ## Ytterligare resurser
 

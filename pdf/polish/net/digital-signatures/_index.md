@@ -35,6 +35,9 @@ Dowiedz się, jak bezpiecznie tworzyć, podpisywać i weryfikować podpisy PDF z
 ### [Jak wyodrębnić informacje o podpisie PDF za pomocą Aspose.PDF .NET: przewodnik krok po kroku](./extract-pdf-signature-info-aspose-pdf-net/)
 Dowiedz się, jak wyodrębnić informacje o podpisie cyfrowym z plików PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik krok po kroku obejmuje instalację, implementację i praktyczne zastosowania.
 
+### [Jak wyodrębnić podpisy z pliku PDF w C# – przewodnik krok po kroku](./how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/)
+Dowiedz się, jak wyodrębnić podpisy z plików PDF przy użyciu Aspose.PDF w C#.
+
 ### [Jak wdrożyć podpisy cyfrowe w .NET za pomocą Aspose.PDF: kompleksowy przewodnik](./implement-pdf-signatures-dotnet-aspose-pdf-guide/)
 Dowiedz się, jak wdrażać bezpieczne podpisy cyfrowe w plikach PDF za pomocą Aspose.PDF dla platformy .NET, w tym jak pomijać pola opcjonalne.
 

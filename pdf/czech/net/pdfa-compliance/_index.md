@@ -38,6 +38,9 @@ Naučte se, jak ověřit shodu s PDF/A-1a pomocí Aspose.PDF pro .NET. Tato př�
 ### [Validace PDF/A pomocí Aspose.PDF pro .NET v C#](./master-pdfa-validation-aspose-pdf-net/)
 Naučte se, jak ověřovat PDF dokumenty podle standardů PDF/A pomocí Aspose.PDF .NET. Zajistěte shodu s předpisy a zvyšte spolehlivost dokumentů s naším podrobným návodem.
 
+### [Jak vytvořit PDF/A v C# – krok za krokem průvodce Aspose](./how-to-create-pdf-a-in-c-step-by-step-aspose-guide/)
+Naučte se, jak pomocí Aspose.PDF pro .NET vytvořit PDF/A dokumenty v C# krok za krokem.
+
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)

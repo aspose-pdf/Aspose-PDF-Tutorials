@@ -117,7 +117,7 @@ Aspose.PDF for .NET을 사용하여 PDF 문서에 텍스트 스탬프를 효율�
 Aspose.PDF for .NET을 사용하여 PDF 끝에 빈 페이지를 원활하게 추가하는 방법을 알아보세요. 이 포괄적인 튜토리얼에서는 설정, 구현 및 모범 사례를 다룹니다.
 
 ### [Aspose.PDF for .NET을 사용하여 PDF에 페이지 번호를 추가하고 사용자 지정하는 방법 | 문서 조작 가이드](./add-customize-page-numbers-aspose-pdf-dot-net/)
-Aspose.PDF for .NET을 사용하여 PDF 문서에 페이지 번호를 손쉽게 추가하고 사용자 지정하는 방법을 알아보세요. 이 종합 가이드에서는 설치, 사용자 지정 옵션, 그리고 성능 향상 팁을 다룹니다.
+Aspose.PDF for .NET을 사용하여 PDF 문서에 페이지 번호를 손쉽게 추가하고 사용자 지정하는 방법을 알아보세요. 이 종합 가이드는 설치, 사용자 지정 옵션, 그리고 성능 향상 팁을 다룹니다.
 
 ### [Aspose.PDF .NET을 사용하여 PDF에 JavaScript를 추가하고 제거하는 방법: 포괄적인 가이드](./aspose-pdf-net-add-remove-javascript-pdfs/)
 Aspose.PDF for .NET을 사용하여 PDF 문서에 JavaScript 함수를 추가하고 제거하는 방법을 알아보세요. 단계별 가이드를 통해 문서의 상호 작용성과 기능을 향상시키세요.
@@ -156,7 +156,7 @@ Aspose.PDF for .NET을 사용하여 PDF 페이지 크기를 A4 크기로 업데�
 Aspose.PDF for .NET을 사용하여 페이지 여백을 설정하고 선을 그리는 등 PDF를 사용자 지정하는 방법을 알아보세요. 문서 서식을 개선하려는 개발자에게 적합합니다.
 
 ### [Aspose.PDF .NET을 사용하여 PDF에서 페이지를 삭제하는 방법: 포괄적인 가이드](./delete-pdf-pages-aspose-net/)
-Aspose.PDF for .NET을 사용하여 PDF 문서에서 특정 페이지를 쉽게 삭제하는 방법을 알아보세요. 이 단계별 가이드에서는 설정, 구현 및 모범 사례를 다룹니다.
+Aspose.PDF for .NET을 사용하여 PDF 문서에서 특정 페이지를 쉽게 삭제하는 방법을 알아보세요. 이 단계별 가이드는 설정, 구현 및 모범 사례를 다룹니다.
 
 ### [.NET용 Aspose.PDF에서 파일 압축을 비활성화하는 방법: 단계별 가이드](./disable-file-compression-aspose-pdf-net-guide/)
 이 종합 가이드를 통해 Aspose.PDF for .NET을 사용하여 PDF 파일 압축을 비활성화하는 방법을 알아보세요. 지금 바로 문서 처리 능력을 향상시켜 보세요.
@@ -207,7 +207,7 @@ Aspose.PDF for .NET을 사용하여 PDF 문서의 공백을 효율적으로 제�
 Aspose.PDF for .NET을 사용하여 PDF 파일의 링크를 프로그래밍 방식으로 업데이트하는 방법을 알아보세요. 이 단계별 가이드를 통해 링크 업데이트를 효율적으로 자동화하세요.
 
 ### [Aspose.PDF .NET을 사용하여 PDF 링크 텍스트 색상을 업데이트하는 방법: 완전한 가이드](./update-pdf-link-text-color-aspose-net/)
-Aspose.PDF for .NET을 사용하여 PDF 링크의 텍스트 색상을 쉽게 변경하는 방법을 알아보세요. 이 종합 가이드에서는 설치, 구현 및 최적화 팁을 다룹니다.
+Aspose.PDF for .NET을 사용하여 PDF 링크의 �스트 색상을 쉽게 변경하는 방법을 알아보세요. 이 종합 가이드에서는 설치, 구현 및 최적화 팁을 다룹니다.
 
 ### [.NET용 Aspose.PDF를 사용하여 PDF에 페이지 삽입: 문서 조작에 대한 완벽한 가이드](./insert-pages-pdf-aspose-dotnet-guide/)
 Aspose.PDF for .NET을 사용하여 PDF에 페이지를 삽입하는 방법을 알아보세요. 이 단계별 가이드는 설정부터 구현까지 모든 것을 다루며, C# 개발자에게 적합합니다.
@@ -233,7 +233,7 @@ Aspose.PDF for .NET을 사용하여 PDF 문서 속성을 열고, 가져오고, �
 ### [Aspose.PDF를 사용하여 .NET에서 PDF 조작 마스터하기: 종합 가이드](./master-pdf-manipulation-net-asposepdf/)
 Aspose.PDF for .NET을 사용하여 PDF를 효율적으로 관리하는 방법을 알아보세요. 이 자세한 가이드를 통해 PDF 파일을 원활하게 추가, 추출, 분할하는 방법을 알아보세요.
 
-### [Aspose.PDF를 사용한 .NET에서의 PDF 조작 마스터하기: 종합 가이드](./aspose-pdf-net-tutorial/)
+### [Aspose.PDF를 사용한 .NET에서 PDF 조작 마스터하기: 종합 가이드](./aspose-pdf-net-tutorial/)
 Aspose.PDF를 사용하여 .NET에서 PDF를 프로그래밍 방식으로 관리하는 방법을 알아보세요. 이 가이드에서는 문서 로드, 양식 필드 접근, 옵션 반복에 대해 다룹니다.
 
 ### [Aspose.PDF .NET을 활용한 PDF 조작 마스터하기: 문서 자동화에 대한 포괄적인 가이드](./master-pdf-manipulation-aspose-dotnet-guide/)
@@ -310,6 +310,9 @@ Aspose.PDF for .NET을 사용하여 여러 페이지로 구성된 PDF를 분할�
 
 ### [Aspose.PDF .NET을 활용한 PDF 조작 완벽 가이드: 텍스트를 효율적으로 로드, 저장 및 바꾸기](./master-pdf-manipulation-aspose-pdf-net/)
 Aspose.PDF for .NET을 사용하여 PDF를 완벽하게 다루는 방법을 알아보세요. 이 가이드에서는 PDF의 텍스트 로드, 저장 및 바꾸기를 다루며, 효율성을 추구하는 개발자에게 이상적입니다.
+
+### [C#에서 PDF 복구 방법 – 손상된 PDF 파일을 빠르게 수정](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
+C#과 Aspose.PDF를 사용하여 손상된 PDF 파일을 빠르게 복구하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

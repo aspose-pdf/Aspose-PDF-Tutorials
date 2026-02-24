@@ -74,6 +74,15 @@ Naučte se, jak vytvářet přístupné, dobře strukturované tagované soubory
 ### [Zvládnutí tvorby brožur ve formátu PDF s Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Výukový program pro kódování Aspose.PDF Net
 
+### [Vytvořte PDF dokument v C# – Přidejte prázdnou stránku, tagy a span](./create-pdf-document-in-c-add-blank-page-tags-and-span/)
+Naučte se, jak v C# vytvořit PDF dokument, přidat prázdnou stránku, tagy a span pro lepší strukturu a formátování.
+
+### [Jak vytvořit PDF v C# – Přidat stránku, nakreslit obdélník a uložit](./how-to-create-pdf-in-c-add-page-draw-rectangle-save/)
+Naučte se, jak v C# vytvořit PDF, přidat novou stránku, nakreslit obdélník a soubor uložit.
+
+### [Vytvořte PDF dokument v C# – krok za krokem průvodce](./create-pdf-document-in-c-step-by-step-guide/)
+Naučte se, jak v C# vytvořit PDF dokument krok za krokem s podrobnými ukázkami kódu.
+
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)

@@ -43,6 +43,7 @@
 | [PDF 轉 XLS](./pdf-to-xls/) |使用 Aspose.PDF for .NET 輕鬆將 PDF 檔案轉換為 XLS 格式。請按照我們的逐步指南進行無縫資料提取。 |  
 | [PDF 轉 XML](./pdf-to-xml/) |在本綜合教學課程中學習如何使用 Aspose.PDF for .NET 將 PDF 轉換為 XML。包含程式碼範例的分步指南。 |  
 | [PDF 轉 XPS](./pdf-to-xps/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 XPS。非常適合開發人員和文件處理愛好者。 |  
+| [Aspose PDF 轉換（C#）- 逐步指南](./aspose-pdf-conversion-in-c-step-by-step-guide/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 C# 中執行 PDF 轉換。 |  
 | [Postscript 轉 PDF](./postscript-to-pdf/) |在本逐步教學中學習如何使用 Aspose.PDF for .NET 將 Postscript 檔案轉換為 PDF。適合各個層級的開發人員。 |  
 | [在 HTML 轉 PDF 過程中提供憑證](./provide-credentials-during-html-to-pdf/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 HTML 轉換為 PDF。非常適合希望簡化文件產生的開發人員。 |  
 | [從 HTML 轉換後刪除超鏈接](./remove-hyperlinks-after-converting-from-html/) |在本逐步指南中了解如何使用 Aspose.PDF for .NET 將 HTML 文件轉換為 PDF 後從 HTML 文件中刪除超連結。 |  

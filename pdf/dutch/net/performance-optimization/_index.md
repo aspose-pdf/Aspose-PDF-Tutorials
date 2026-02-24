@@ -44,11 +44,17 @@ Leer hoe u PDF-documenten kunt optimaliseren met Aspose.PDF .NET voor betere web
 ### [Optimaliseer PDF's met Aspose.PDF .NET: Beheers FlateDecode-compressietechnieken](./aspose-pdf-net-flatedecode-compression-guide/)
 Leer hoe u PDF-bestanden kunt verkleinen met FlateDecode-compressie met Aspose.PDF voor .NET. Volg deze handleiding om afbeeldingen te optimaliseren, de prestaties te verbeteren en de kwaliteit te behouden.
 
+### [Hoe PDF te comprimeren met Aspose – Snelle C#-gids](./how-to-compress-pdf-with-aspose-quick-c-guide/)
+Leer in een paar stappen hoe u PDF-bestanden comprimeert met Aspose.PDF in C# voor kleinere bestandsgrootte en snellere prestaties.
+
 ### [Optimaliseer SVG naar PDF-conversie met Aspose.PDF voor .NET | Prestatiegids](./optimize-svg-to-pdf-conversion-aspose-pdf-net/)
 Leer de kunst van het nauwkeurig en efficiënt converteren van SVG-bestanden naar PDF met Aspose.PDF voor .NET. Leer installatie-, configuratie- en optimalisatietechnieken in deze uitgebreide handleiding.
 
 ### [Niet-ingebedde lettertypen in PDF's met Aspose.PDF voor .NET: verklein de bestandsgrootte en verbeter de prestaties](./optimize-pdfs-unembed-fonts-aspose-pdf-net/)
 Leer hoe u lettertypen uit uw PDF-bestanden verwijdert met Aspose.PDF voor .NET. Optimaliseer de PDF-prestaties, verklein de bestandsgrootte en verkort de laadtijden met deze stapsgewijze handleiding.
+
+### [Geoptimaliseerde PDF opslaan in C# – grootte verkleinen en pagina's opschonen](./save-optimized-pdf-in-c-reduce-size-clean-pages/)
+Leer hoe u met Aspose.PDF in C# geoptimaliseerde PDF's opslaat, de bestandsgrootte verkleint en ongebruikte pagina's verwijdert.
 
 ## Aanvullende bronnen
 
