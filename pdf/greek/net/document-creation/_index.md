@@ -74,6 +74,15 @@
 ### [Κατακτήστε τη δημιουργία φυλλαδίων PDF με το Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Ένα σεμινάριο κώδικα για το Aspose.PDF Net
 
+### [Δημιουργία εγγράφου PDF σε C# – Προσθήκη κενής σελίδας, ετικετών και Span](./create-pdf-document-in-c-add-blank-page-tags-and-span/)
+Μάθετε πώς να δημιουργήσετε έγγραφο PDF σε C# προσθέτοντας κενή σελίδα, ετικέτες και Span.
+
+### [Πώς να δημιουργήσετε PDF σε C# – Προσθήκη σελίδας, Σχεδίαση ορθογωνίου & Αποθήκευση](./how-to-create-pdf-in-c-add-page-draw-rectangle-save/)
+Μάθετε πώς να προσθέσετε σελίδα, σχεδιάσετε ορθογώνιο και αποθηκεύσετε το PDF χρησιμοποιώντας Aspose.PDF για .NET σε C#.
+
+### [Δημιουργία εγγράφου PDF σε C# – Οδηγός βήμα‑βήμα](./create-pdf-document-in-c-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε έγγραφο PDF σε C# βήμα προς βήμα.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.PDF για τεκμηρίωση δικτύου](https://docs.aspose.com/pdf/net/)

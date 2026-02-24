@@ -74,6 +74,15 @@ Lär dig hur du skapar tillgängliga, välstrukturerade taggade PDF-filer med As
 ### [Bemästra PDF-häftesskapande med Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 En kodhandledning för Aspose.PDF Net
 
+### [Skapa PDF-dokument i C# – Lägg till tom sida, taggar och span](./create-pdf-document-in-c-add-blank-page-tags-and-span/)
+Lär dig hur du skapar ett PDF-dokument i C#, lägger till en tom sida, använder taggar och span för avancerad layout.
+
+### [Skapa PDF-dokument i C# – En steg‑för‑steg‑guide](./create-pdf-document-in-c-step-by-step-guide/)
+Lär dig hur du skapar ett PDF-dokument i C# med Aspose.PDF genom en tydlig steg‑för‑steg‑guide.
+
+### [Hur man skapar PDF i C# – Lägg till sida, rita rektangel och spara](./how-to-create-pdf-in-c-add-page-draw-rectangle-save/)
+Lär dig hur du skapar en PDF i C#, lägger till en ny sida, ritar en rektangel och sparar dokumentet med Aspose.PDF.
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

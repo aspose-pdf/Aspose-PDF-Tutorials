@@ -24,7 +24,7 @@ Az oktatóanyag részletes áttekintést nyújt a PDF-fájlok titkosságának é
 | [Jelszó módosítása PDF fájlban](./change-password/) | Tanulja meg, hogyan módosíthatja egyszerűen a PDF-jelszavakat az Aspose.PDF for .NET segítségével. Lépésről lépésre útmutatónk biztonságosan végigvezeti Önt a folyamaton. |  
 | [PDF fájl visszafejtése](./decrypt/) | Ismerje meg, hogyan fejtheti vissza biztonságosan a PDF-fájlokat az Aspose.PDF for .NET segítségével. Lépésről lépésre útmutatást kaphat dokumentumkezelési készségei fejlesztéséhez. |  
 | [A helyes jelszó meghatározása a PDF fájlban](./determine-correct-password/) | Oldja fel a PDF fájlokat a megfelelő jelszóval az Aspose.PDF for .NET segítségével. Ismerje meg, hogyan azonosíthatja egyszerűen a helyes jelszót. |  
-| [Digitális bejelentkezés PDF-fájl](./digitally-sign/) Ismerje meg, hogyan írhat digitálisan alá PDF fájlokat az Aspose.PDF for .NET segítségével. Lépésről lépésre útmutató a dokumentumok biztonságának és hitelességének biztosításához.  
+| [Digitális bejelentkezés PDF-fájl](./digitally-sign/) Ismerje meg, hogyan írhat digitálisan alá PDF fájlokat az Aspose.PDF for .NET segítségével. Lépésről lépésre útmutató a dokumentumok biztonságának és hitelességének biztosításához. |  
 | [Digitális aláírás időbélyeggel PDF fájlban](./digitally-sign-with-time-stamp/) | Ismerje meg, hogyan írhat digitálisan alá egy PDF-et időbélyeggel az Aspose.PDF for .NET használatával. Ez a lépésről lépésre szóló útmutató ismerteti az előfeltételeket, a tanúsítványok beállítását, az időbélyegzést és egyebeket. |  
 | [PDF fájl titkosítása](./encrypt/) | Tanulja meg, hogyan titkosíthatja könnyedén PDF-fájljait az Aspose.PDF for .NET segítségével. Védje bizalmas adatait egyszerű, lépésről lépésre szóló útmutatónkkal. |  
 | [Kép kibontása](./extracting-image/) | Tanulja meg egyszerűen, hogyan kinyerhet képeket PDF-ekből az Aspose.PDF for .NET segítségével. Kövesse lépésről lépésre szóló útmutatónkat a zökkenőmentes képkinyeréshez. |  
@@ -33,6 +33,8 @@ Az oktatóanyag részletes áttekintést nyújt a PDF-fájlok titkosságának é
 | [Jogosultságok beállítása PDF fájlban](./set-privileges/) | Tanulja meg, hogyan állíthat be PDF-jogosultságokat az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Biztosítsa dokumentumai hatékony védelmét. |  
 | [Aláírás intelligens kártyával PDF fájl aláírásával](./sign-with-smart-card-using-pdf-file-signature/) | Ismerje meg, hogyan írhat alá PDF-fájlokat intelligens kártyával az Aspose.PDF for .NET segítségével. Kövesse ezt a lépésről lépésre szóló útmutatót a biztonságos digitális aláírásokhoz. |  
 | [Aláírás intelligens kártyával az aláírásmező használatával](./sign-with-smart-card-using-signature-field/) | Ismerje meg, hogyan írhat alá biztonságosan PDF-fájlokat intelligens kártya használatával az Aspose.PDF for .NET segítségével. Kövesse lépésről lépésre szóló útmutatónkat az egyszerű megvalósítás érdekében. |  
+| [PDF aláírás ellenőrzése C#‑ban – Lépésről‑lépésre útmutató](./verify-pdf-signature-in-c-step-by-step-guide/) | Ismerje meg, hogyan ellenőrizheti a PDF-dokumentumok digitális aláírását C#‑ban az Aspose.PDF for .NET segítségével. |  
+| [Hogyan használja az OCSP-t a PDF digitális aláírás ellenőrzéséhez C#‑ban](./how-to-use-ocsp-to-validate-pdf-digital-signature-in-c/) | Ismerje meg, hogyan használhatja az OCSP protokollt a PDF digitális aláírások valós idejű ellenőrzéséhez C#‑ban az Aspose.PDF for .NET segítségével. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

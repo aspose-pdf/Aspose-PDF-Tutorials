@@ -35,6 +35,9 @@ Learn how to securely create, sign, and verify PDF signatures with Aspose.PDF fo
 ### [How to Extract PDF Signature Information Using Aspose.PDF .NET&#58; A Step-by-Step Guide](./extract-pdf-signature-info-aspose-pdf-net/)
 Learn how to extract digital signature information from PDFs using Aspose.PDF for .NET. This step-by-step guide covers installation, implementation, and practical applications.
 
+### [How to Extract Signatures from a PDF in C# – Step‑by‑Step Guide](./how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/)
+Step-by-step guide to extract digital signatures from PDF files using C# and Aspose.PDF for .NET.
+
 ### [How to Implement Digital Signatures in .NET with Aspose.PDF&#58; A Comprehensive Guide](./implement-pdf-signatures-dotnet-aspose-pdf-guide/)
 Learn how to implement secure digital signatures on PDFs using Aspose.PDF for .NET, including suppressing optional fields.
 

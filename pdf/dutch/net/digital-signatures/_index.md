@@ -50,6 +50,9 @@ Een codetutorial voor Aspose.PDF Net
 ### [Aspose.PDF .NET onder de knie krijgen: digitale handtekeningen in PDF-bestanden verifiëren](./aspose-pdf-net-verify-digital-signature/)
 Leer hoe u digitale handtekeningen in PDF-bestanden kunt verifiëren met Aspose.PDF voor .NET. Garandeer de integriteit en authenticiteit van uw documenten met onze stapsgewijze handleiding.
 
+### [Hoe handtekeningen uit een PDF te extraheren in C# – Stapsgewijze handleiding](./how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/)
+Leer hoe u handtekeningen uit een PDF haalt met C# en Aspose.PDF. Deze gids behandelt installatie, implementatie en praktische voorbeelden.
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

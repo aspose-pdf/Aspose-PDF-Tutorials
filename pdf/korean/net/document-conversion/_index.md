@@ -56,6 +56,7 @@
 | [XML을 PDF로](./xml-to-pdf/) | 이 포괄적인 단계별 튜토리얼에서는 Aspose.PDF for .NET을 사용하여 XML을 PDF로 변환하는 방법을 알아봅니다. 코드 예제와 자세한 설명이 수록되어 있습니다. |  
 | [XML에서 PDFSet 이미지 경로로](./xml-to-pdfset-image-path/) | Aspose.PDF for .NET을 사용하여 XML을 PDF로 손쉽게 변환하는 방법을 알아보세요. 이 자세한 가이드는 설정부터 완료까지 단계별 과정을 안내합니다. |  
 | [XPS에서 PDF로](./xps-to-pdf/) Aspose.PDF for .NET을 사용하여 XPS 파일을 PDF로 변환하는 방법을 단계별 튜토리얼을 통해 알아보세요. 개발자와 문서 작성자에게 안성맞춤입니다. |  
+| [C#에서 Aspose PDF 변환 – 단계별 가이드](./aspose-pdf-conversion-in-c-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 변환을 단계별로 수행하는 방법을 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

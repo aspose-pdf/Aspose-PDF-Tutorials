@@ -56,6 +56,7 @@ Naučíte se, jak nastavit převod, extrahovat text a obrázky, zachovat původn
 | [XML do PDF](./xml-to-pdf/) | Naučte se, jak převést XML do PDF pomocí Aspose.PDF pro .NET v tomto komplexním návodu krok za krokem, který obsahuje příklady kódu a podrobné vysvětlení. |  
 | [Cesta k obrázku z XML do PDF](./xml-to-pdfset-image-path/) | Naučte se, jak snadno převést XML do PDF pomocí Aspose.PDF pro .NET. Tato podrobná příručka vás krok za krokem provede celým procesem, od nastavení až po dokončení. |  
 | [XPS do PDF](./xps-to-pdf/) Naučte se, jak převést soubory XPS do PDF pomocí Aspose.PDF pro .NET v tomto podrobném návodu. Ideální pro vývojáře a nadšence do dokumentů. |  
+| [Aspose PDF konverze v C# – krok za krokem](./aspose-pdf-conversion-in-c-step-by-step-guide/) | Naučte se, jak provést konverzi PDF v C# pomocí Aspose.PDF krok za krokem. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

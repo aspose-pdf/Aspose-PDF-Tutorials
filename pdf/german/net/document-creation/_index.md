@@ -74,6 +74,15 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET barrierefreie, gut strukturierte 
 ### [PDF-Broschüren erstellen mit Aspose.PDF .NET meistern](./aspose-pdf-net-create-booklet-page-arrangement/)
 Ein Code-Tutorial für Aspose.PDF Net
 
+### [PDF-Dokument in C# erstellen – Leere Seite, Tags und Span hinzufügen](./create-pdf-document-in-c-add-blank-page-tags-and-span/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF-Dokument in C# erstellen, eine leere Seite, Tags und Span hinzufügen.
+
+### [PDF-Dokument in C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-pdf-document-in-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF-Dokument in C# Schritt für Schritt erstellen, inklusive Seiten, Tags und Spans.
+
+### [So erstellen Sie ein PDF in C# – Seite hinzufügen, Rechteck zeichnen und speichern](./how-to-create-pdf-in-c-add-page-draw-rectangle-save/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF in C# erstellen, eine Seite hinzufügen, ein Rechteck zeichnen und das Dokument speichern.
+
 ## Weitere Ressourcen
 
 - [Aspose.PDF für Net-Dokumentation](https://docs.aspose.com/pdf/net/)

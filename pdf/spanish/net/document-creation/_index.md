@@ -41,6 +41,15 @@ Aprenda a automatizar la creación de folletos PDF con Aspose.PDF para .NET. Est
 ### [Creación dinámica de PDF con HTML en Aspose.PDF .NET](./aspose-pdf-net-dynamic-html-pdfs/)
 Un tutorial de código para Aspose.PDF Net
 
+### [Crear documento PDF en C# – Añadir página en blanco, etiquetas y span](./create-pdf-document-in-c-add-blank-page-tags-and-span/)
+Aprenda a crear un documento PDF en C#, agregar una página en blanco, etiquetas y spans para contenido estructurado.
+
+### [Cómo crear PDF en C# – Añadir página, dibujar rectángulo y guardar](./how-to-create-pdf-in-c-add-page-draw-rectangle-save/)
+Aprenda a crear un PDF en C#, añadir una página en blanco, dibujar un rectángulo y guardar el archivo con Aspose.PDF.
+
+### [Crear documento PDF en C# – Guía paso a paso](./create-pdf-document-in-c-step-by-step-guide/)
+Aprenda a crear un documento PDF en C# paso a paso con Aspose.PDF para .NET, cubriendo configuración y generación de contenido.
+
 ### [Cómo crear folletos PDF con Aspose.PDF .NET en C#: guía paso a paso](./create-pdf-booklets-aspose-pdf-net-csharp-guide/)
 Aprenda a crear folletos PDF profesionales con Aspose.PDF para .NET y C#. Esta guía abarca la configuración, la implementación y las prácticas recomendadas.
 

@@ -68,6 +68,9 @@ Aspose.PDF Net 程式碼教學
 ### [使用 Aspose.PDF 在 .NET 中將 PDF 轉換為 HTML，無需儲存影像](./convert-pdf-html-net-asposepdf-no-images/)
 了解如何使用 Aspose.PDF for .NET 將 PDF 檔案轉換為 HTML，而無需單獨儲存影像。透過我們的詳細指南保持佈局完整性。
 
+### [使用 Aspose.PDF 將 PDF 另存為 HTML – 快速 C# 教學](./save-pdf-as-html-with-aspose-pdf-quick-c-guide/)
+了解如何使用 Aspose.PDF for .NET 和 C# 快速將 PDF 轉換為 HTML，提供簡明步驟與程式碼範例。
+
 ### [使用 Aspose.PDF 在 .NET 中使用自訂影像路徑將 PDF 轉換為 HTML](./convert-pdf-html-custom-image-paths-dotnet/)
 了解如何使用 Aspose.PDF for .NET 將 PDF 檔案轉換為 HTML 格式，並有效地自訂影像路徑。非常適合網路整合。
 

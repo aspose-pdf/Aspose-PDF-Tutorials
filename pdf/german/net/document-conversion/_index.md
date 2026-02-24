@@ -56,6 +56,7 @@ Sie lernen, wie Sie Konvertierungseinstellungen festlegen, Text und Bilder extra
 | [XML zu PDF](./xml-to-pdf/) | Erfahren Sie in diesem umfassenden Schritt-für-Schritt-Tutorial mit Codebeispielen und ausführlichen Erklärungen, wie Sie XML mit Aspose.PDF für .NET in PDF konvertieren. |  
 | [XML zu PDFBildpfad festlegen](./xml-to-pdfset-image-path/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET mühelos XML in PDF konvertieren. Diese detaillierte Anleitung führt Sie Schritt für Schritt durch den Prozess, von der Einrichtung bis zur Fertigstellung. |  
 | [XPS zu PDF](./xps-to-pdf/) Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie XPS-Dateien mit Aspose.PDF für .NET in PDF konvertieren. Perfekt für Entwickler und Dokument-Enthusiasten. |  
+| [Aspose PDF-Konvertierung in C# – Schritt‑für‑Schritt‑Anleitung](./aspose-pdf-conversion-in-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Dateien in C# Schritt für Schritt konvertieren. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

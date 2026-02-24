@@ -218,8 +218,11 @@ Ismerje meg, hogyan optimalizálhatja a PDF HTML-be konvertálását az Aspose.P
 ### [PDF HTML-be konvertálása Aspose.PDF .NET használatával: Képek mentése külső PNG-ként](./pdf-to-html-conversion-external-png-aspose-pdf-net/)
 Ismerje meg, hogyan konvertálhat PDF dokumentumokat HTML-be külső PNG képekkel az Aspose.PDF for .NET segítségével. Ez az útmutató biztosítja az elrendezés megőrzését és a webes teljesítmény optimalizálását.
 
-### [PDF HTML-be konvertálása az Aspose.PDF .NET segítségével: Átfogó útmutató](./aspose-pdf-net-pdf-to-html-conversion/)
-Sajátítsa el a PDF-HTML konverzió mesteri szintjét az Aspose.PDF for .NET segítségével. Javítsa a dokumentumok akadálymentesítését és interakcióját testreszabható beállításokkal.
+### [PDF HTML-be konvertálása az Aspose.PDF .NET segítségével](./aspose-pdf-net-pdf-to-html-conversion/)
+Kód oktatóanyag az Aspose.PDF Nethez
+
+### [PDF mentése HTML-ként az Aspose.PDF használatával – Gyors C# útmutató](./save-pdf-as-html-with-aspose-pdf-quick-c-guide/)
+Ismerje meg, hogyan menthet PDF-et HTML formátumba gyors C# példával az Aspose.PDF segítségével.
 
 ### [PDF HTML-be konvertálása az Aspose.PDF for .NET segítségével](./pdf-to-html-conversion-aspose-dot-net/)
 Kód oktatóanyag az Aspose.PDF Nethez

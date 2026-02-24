@@ -74,6 +74,15 @@
 ### [Освоение создания PDF-буклетов с помощью Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Учебник по коду для Aspose.PDF Net
 
+### [Создание PDF-документа в C# – Добавление пустой страницы, тегов и Span](./create-pdf-document-in-c-add-blank-page-tags-and-span/)
+Узнайте, как программно создать PDF-документ в C#, добавить пустую страницу, теги и элемент Span с помощью Aspose.PDF для .NET.
+
+### [Создание PDF-документа в C# – пошаговое руководство](./create-pdf-document-in-c-step-by-step-guide/)
+Узнайте, как шаг за шагом создать PDF-документ в C# с помощью Aspose.PDF для .NET.
+
+### [Как создать PDF в C# – Добавить страницу, нарисовать прямоугольник и сохранить](./how-to-create-pdf-in-c-add-page-draw-rectangle-save/)
+Узнайте, как программно создать PDF в C#, добавить страницу, нарисовать прямоугольник и сохранить файл.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.PDF для сети](https://docs.aspose.com/pdf/net/)

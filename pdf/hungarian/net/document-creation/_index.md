@@ -74,6 +74,15 @@ Ismerje meg, hogyan hozhat létre akadálymentes, jól strukturált, címkézett
 ### [PDF füzetkészítés elsajátítása az Aspose.PDF .NET segítségével](./aspose-pdf-net-create-booklet-page-arrangement/)
 Kód oktatóanyag az Aspose.PDF Nethez
 
+### [PDF dokumentum létrehozása C#-ban – Üres oldal, címkék és span hozzáadása](./create-pdf-document-in-c-add-blank-page-tags-and-span/)
+Tanulja meg, hogyan hozhat létre PDF dokumentumot C#-ban, üres oldalt, címkéket és span elemeket adva hozzá.
+
+### [PDF létrehozása C#-ban – Oldal hozzáadása, téglalap rajzolása és mentés](./how-to-create-pdf-in-c-add-page-draw-rectangle-save/)
+Tanulja meg, hogyan adjon hozzá új oldalt, rajzoljon téglalapot és mentse a PDF-et C#-ban az Aspose.PDF segítségével.
+
+### [PDF dokumentum létrehozása C#‑ban – Lépésről‑lépésre útmutató](./create-pdf-document-in-c-step-by-step-guide/)
+Tanulja meg, hogyan hozhat létre PDF dokumentumot C#‑ban részletes, lépésről‑lépésre útmutatóval.
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)
