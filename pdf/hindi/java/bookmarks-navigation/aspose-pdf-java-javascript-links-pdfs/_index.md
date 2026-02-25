@@ -7,7 +7,7 @@ keywords:
 - Add JavaScript Links to PDFs
 - Aspose.PDF for Java
 - Interactive PDF Documents
-title: 'इंटरैक्टिव PDF बनाएं: Aspose.PDF for Java का उपयोग करके जावास्क्रिप्ट लिंक
+title: 'इंटरैक्टिव PDF बनाएं - Aspose.PDF for Java का उपयोग करके जावास्क्रिप्ट लिंक
   जोड़ें'
 url: /hi/java/bookmarks-navigation/aspose-pdf-java-javascript-links-pdfs/
 weight: 1

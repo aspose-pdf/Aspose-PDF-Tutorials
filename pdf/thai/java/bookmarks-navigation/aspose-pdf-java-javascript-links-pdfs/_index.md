@@ -7,7 +7,7 @@ keywords:
 - Add JavaScript Links to PDFs
 - Aspose.PDF for Java
 - Interactive PDF Documents
-title: 'สร้าง PDF แบบโต้ตอบ: เพิ่มลิงก์ JavaScript ด้วย Aspose.PDF สำหรับ Java'
+title: 'สร้าง PDF แบบโต้ตอบ - เพิ่มลิงก์ JavaScript ด้วย Aspose.PDF สำหรับ Java'
 url: /th/java/bookmarks-navigation/aspose-pdf-java-javascript-links-pdfs/
 weight: 1
 ---
@@ -140,31 +140,31 @@ editor.save("YOUR_OUTPUT_DIRECTORY/JavaScriptAdded_output.pdf");
 
 พร้อมจะก้าวต่อไปหรือยัง? พิจารณานำ PDF แบบโต้ตอบเหล่านี้ไปผสานในแอปพลิเคชันเว็บหรืออัตโนมัติการประมวลผลไฟล์หลายไฟล์ในงานแบตช์!
 
-## FAQ Section
+## ส่วนคำถามที่พบบ่อย
 
-1. **Aspose.PDF for Java คืออะไร?**  
-   - ไลบรารีที่อนุญาตให้สร้าง แก้ไข และโต้ตอบกับเอกสาร PDF ด้วย Java  
+1. **Aspose.PDF สำหรับ Java คืออะไร?** 
+- บรรยายที่สร้างหลังคาและอาหารกับเอกสาร PDF ด้วย Java
 
-2. **ฉันสามารถใช้ Aspose.PDF ได้โดยไม่ซื้อไลเซนส์หรือไม่?**  
-   - ได้ แต่จะทำงานในโหมดประเมินผลพร้อมข้อจำกัดบางประการ  
+2. **ฉันสามารถใช้ Aspose.PDF ได้โดยไม่ต้องซื้อไลเซนส์หรือไม่?** 
+- มีส่วนทำให้เมนบอร์ดประเมินผลพร้อมอัพเดต
 
-3. **ฉันจะเพิ่มหลายการกระทำ JavaScript ในหน้า PDF หนึ่งหน้าอย่างไร?**  
-   - สร้างอ็อบเจ็กต์ `Rectangle` แยกกันและเรียก `createJavaScriptLink` สำหรับแต่ละการกระทำ  
+3. ** ฉันจะเพิ่มหลาย ๆ ครั้ง JavaScript ในหน้า PDF ของหน้าอย่างไร?** 
+- สร้างอ็อบเจ็กต์ `Rectangle` แยกกันและเรียก `createJavaScriptLink` ส่วนที่เหลือของที่นี่
 
-4. **ปัญหาที่พบบ่อยเมื่อใช้ Aspose.PDF มีอะไรบ้าง?**  
-   - การรั่วไหลของหน่วยความจำหรือปัญหาขนาดไฟล์อาจเกิดขึ้นหากไม่ได้จัดการอย่างเหมาะสม—ควรจัดการทรัพยากรอย่างมีประสิทธิภาพ  
+4. ** ปัญหาที่พบบ่อยเมื่อใช้ Aspose.PDF คำถาม?** 
+- คำอธิบายของเหตุผลหรือปัญหาขนาดไฟล์อาจเกิดขึ้นหากไม่ได้ปฏิบัติตาม—ควรจัดการทรัพยากรอย่างมีประสิทธิภาพ
 
-5. **ฉันสามารถหา ตัวอย่างขั้นสูงของการใช้ Aspose.PDF ได้จากที่ไหน?**  
-   - [Aspose Documentation](https://reference.aspose.com/pdf/java/) มีคู่มือและตัวอย่างโค้ดที่ครอบคลุม  
+5. ** สำรวจหาคำอธิบายโดยละเอียดของการใช้ Aspose.PDF จากที่ไหน?** 
+- [Aspose Documentation](https://reference.aspose.com/pdf/java/) มีคู่มือและตัวอย่างโค้ดของพระเจ้า
 
-## Resources
+## ทรัพยากร
 
-- **Documentation:** [Aspose PDF Java Reference](https://reference.aspose.com/pdf/java/)  
-- **Download:** [Aspose PDF Releases](https://releases.aspose.com/pdf/java/)  
-- **Purchase:** [Buy Aspose License](https://purchase.aspose.com/buy)  
-- **Free Trial:** [Try Aspose Free](https://releases.aspose.com/pdf/java/)  
-- **Temporary License:** [Get a Temporary License](https://purchase.aspose.com/temporary-license/)  
-- **Support:** [Aspose Forum](https://forum.aspose.com/c/pdf/10)  
+- **เอกสารประกอบ:** [กำหนด PDF Java เอกสารอ้างอิง: [https://reference.aspose.com/pdf/java/]
+- **ดาวน์โหลด:** [Aspose PDF Releases](https://releases.aspose.com/pdf/java/)
+- **ซื้อ:** [ซื้อใบอนุญาต Aspose](https://purchase.aspose.com/buy)
+- **ทดลองใช้ฟรี:** [ลองใช้ Aspose ฟรี](https://releases.aspose.com/pdf/java/)
+- **ใบอนุญาตชั่วคราว:** [รับใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
+- **การสนับสนุน:** [ฟอรัม Aspose](https://forum.aspose.com/c/pdf/10) 
 
 ---
 

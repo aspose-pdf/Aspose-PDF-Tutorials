@@ -6,7 +6,7 @@ keywords:
 - Add JavaScript Links to PDFs
 - Aspose.PDF for Java
 - Interactive PDF Documents
-title: 创建交互式 PDF：使用 Aspose.PDF for Java 添加 JavaScript 链接
+title: 创建交互式 PDF - 使用 Aspose.PDF for Java 添加 JavaScript 链接
 url: /zh/java/bookmarks-navigation/aspose-pdf-java-javascript-links-pdfs/
 weight: 1
 ---

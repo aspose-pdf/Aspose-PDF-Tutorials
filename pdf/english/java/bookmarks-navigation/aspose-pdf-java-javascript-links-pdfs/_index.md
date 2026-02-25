@@ -1,5 +1,5 @@
 ---
-title: "Create Interactive PDF: Add JavaScript Links Using Aspose.PDF for Java"
+title: "Create Interactive PDF - Add JavaScript Links Using Aspose.PDF for Java"
 description: "Learn how to create interactive PDF documents by adding JavaScript links with Aspose.PDF for Java. Follow this step‑by‑step guide to bind PDF, add JavaScript, and save PDF with JavaScript."
 date: "2025-12-18"
 weight: 1

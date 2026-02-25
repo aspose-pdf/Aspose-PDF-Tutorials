@@ -7,7 +7,7 @@ keywords:
 - Add JavaScript Links to PDFs
 - Aspose.PDF for Java
 - Interactive PDF Documents
-title: 'إنشاء ملف PDF تفاعلي: إضافة روابط JavaScript باستخدام Aspose.PDF للغة Java'
+title: 'إنشاء ملف PDF تفاعلي - إضافة روابط JavaScript باستخدام Aspose.PDF للغة Java'
 url: /ar/java/bookmarks-navigation/aspose-pdf-java-javascript-links-pdfs/
 weight: 1
 ---
@@ -19,18 +19,18 @@ weight: 1
 {{< blocks/products/pf/tutorial-page-section >}}
 # كيفية إضافة روابط JavaScript تفاعلية في ملفات PDF باستخدام Aspose.PDF للـ Java
 
-## Introduction
+## مقدمة
 
 في هذا الدليل، ستتعلم كيفية **إنشاء PDF تفاعلي** عن طريق تضمين روابط JavaScript باستخدام Aspose.PDF للـ Java. تحسين تفاعلية ملفات PDF يمكن أن يعزز بشكل كبير مشاركة المستخدم، خاصةً عند التنقل في تقارير معقدة أو كتب إلكترونية. سيُظهر هذا البرنامج التعليمي كيفية استخدام Aspose.PDF للـ Java—مكتبة قوية—لإضافة روابط JavaScript قابلة للنقر داخل ملفات PDF الخاصة بك، وتحويلها إلى موارد ديناميكية وتفاعلية.
 
-## Quick Answers
+## إجابات سريعة
 - **ماذا يعني “إنشاء PDF تفاعلي”؟** يعني إضافة عناصر مثل روابط JavaScript تستجيب لإجراءات المستخدم.  
 - **أي مكتبة هي الأفضل لهذه المهمة؟** Aspose.PDF للـ Java توفر واجهة برمجة تطبيقات بسيطة للروابط JavaScript.  
 - **هل أحتاج إلى ترخيص؟** الترخيص المؤقت أو المشتراى يزيل حدود التقييم.  
 - **هل يمكن ربط PDF موجود؟** نعم—استخدم `PdfContentEditor.bindPdf` لربطه بملف موجود.  
 - **هل سيزداد حجم PDF كثيرًا؟** حافظ على JavaScript مختصرة وتجنب الصور الكبيرة لـ **تحسين حجم PDF JavaScript**.
 
-## Prerequisites
+## المتطلبات الأساسية
 
 قبل البدء، تأكد من وجود ما يلي:
 
@@ -38,7 +38,7 @@ weight: 1
 - **إعداد البيئة:** يفضل أن تكون لديك معرفة أساسية بـ Java ومفاهيم معالجة PDF.  
 - **المتطلبات المعرفية:** الإلمام ببرمجة Java، مثل مبادئ البرمجة الكائنية، سيكون مفيدًا لكنه ليس ضروريًا.
 
-## Setting Up Aspose.PDF for Java
+## إعداد Aspose.PDF للغة Java
 
 لاستخدام Aspose.PDF في مشروعك، أدرج المكتبة عبر Maven أو Gradle:
 
@@ -72,11 +72,11 @@ License license = new License();
 license.setLicense("path/to/your/license/file.lic");
 ```
 
-## How to create interactive PDF with JavaScript links
+## كيفية إنشاء ملف PDF تفاعلي باستخدام روابط JavaScript
 
 مع اكتمال الإعداد، دعنا نتبع الخطوات الدقيقة اللازمة **لإنشاء PDF تفاعلي** يحتوي على إجراءات JavaScript.
 
-### Step 1: Create and Bind a PDF Document
+### الخطوة 1: إنشاء مستند PDF وربطه
 
 أولاً، أنشئ كائنًا من `PdfContentEditor` واربطه بملف PDF الذي تريد تحسينه:
 ```java
@@ -88,9 +88,9 @@ PdfContentEditor editor = new PdfContentEditor();
 // Bind the editor to an existing PDF document
 editor.bindPdf("YOUR_DOCUMENT_DIRECTORY/input.pdf");
 ```
-**Explanation:** `bindPdf` يربط المحرر بملف PDF المصدر، مما يتيح لك تعديل صفحاته، إضافة تعليقات توضيحية، و**ربط كائنات PDF Java**.
+**شرح:** `bindPdf` يربط المحرر بملف PDF المصدر، مما يتيح لك تعديل صفحاته، إضافة تعليقات توضيحية، و**ربط كائنات PDF Java**.
 
-### Step 2: Define a JavaScript Link
+### الخطوة 2: تعريف رابط JavaScript
 
 بعد ذلك، عرّف مستطيلًا قابلًا للنقر واربطه بمقتطف JavaScript. هذا هو جوهر **كيفية إضافة JavaScript** إلى PDF:
 ```java
@@ -109,68 +109,68 @@ String code = "app.alert('Welcome to Aspose!');";
 // Add a JavaScript link to the first page of the PDF document
 editor.createJavaScriptLink(code, rect, 1, linkColor);
 ```
-**Key Points:**  
+**النقاط الرئيسية:**  
 - `Rectangle` يحدد المنطقة القابلة للنقر.  
 - `Color` يحدد المظهر البصري للرابط.  
 - `createJavaScriptLink` يربط كود JavaScript بالمستطيل المحدد على الصفحة المختارة.
 
-### Step 3: Save the Updated PDF
+### الخطوة 3: حفظ ملف PDF المُحدَّث
 
 أخيرًا، احفظ التغييرات على القرص. هذه الخطوة **تحفظ PDF مع JavaScript** بحيث تستمر التفاعلية:
 ```java
 // Save changes to a new PDF file
 editor.save("YOUR_OUTPUT_DIRECTORY/JavaScriptAdded_output.pdf");
 ```
-**Explanation:** طريقة `save` تنشئ ملف PDF جديد يحتوي على رابط JavaScript الذي عرّفته للتو.
+**شرح:** طريقة `save` تنشئ ملف PDF جديد يحتوي على رابط JavaScript الذي عرّفته للتو.
 
-## Practical Applications
+## تطبيقات عملية
 
 1. **تقارير تفاعلية:** حسّن تقارير الأعمال بإضافة رؤى قابلة للنقر تكشف عن حسابات أو بيانات تفصيلية.  
 2. **مواد التعلم الإلكتروني:** أنشئ ملفات PDF تعليمية يمكن للطلاب النقر على المواضيع للحصول على شروحات إضافية أو موارد خارجية.  
 3. **نماذج رقمية:** دمج إجراءات مثل تأكيدات الإرسال أو التحقق من الحقول مباشرة داخل PDF.
 
-## Performance Considerations
+## اعتبارات الأداء
 
 - **Optimize PDF size JavaScript:** حافظ على JavaScript مختصرة وتجنب تضمين أصول كبيرة للحفاظ على حجم ملف معقول.  
 - **Java Memory Management:** راقب استهلاك الذاكرة، خاصةً عند معالجة ملفات PDF كبيرة، لتجنب التسريبات.
 
-## Conclusion
+## خاتمة
 
-باتباع هذا البرنامج التعليمي، أصبحت الآن تعرف **كيفية إنشاء PDF تفاعلي** باستخدام Aspose.PDF للـ Java. جرّب إجراءات JavaScript مختلفة لتخصيص تجارب المستخدم، واستكشف ميزات إضافية في Aspose.PDF مثل معالجة النماذج، إضافة العلامات المائية، ودمج المستندات.
+باتباع هذا البرنامج التعليمي، أصبحت الآن تعرف **كيفية إنشاء PDF تفاعلي** باستخدام Aspose.PDF للـ Java. جرب إجراءات JavaScript مختلفة لتخصيص تجارب المستخدم، واستكشاف الميزات الإضافية في Aspose.PDF مثل النماذج، إضافة العلامات المائية، ودمج المستندات.
 
-هل أنت مستعد للخطوة التالية؟ فكر في دمج هذه ملفات PDF التفاعلية في تطبيقات الويب أو أتمتة معالجة ملفات متعددة في دفعات.
+هل أنت مستعد للخطوة التالية؟ فكر في دمج هذه الملفات بصيغة PDF التفاعلية في تطبيقات الويب أو معالجة ملفات متعددة في الدفعات.
 
-## FAQ Section
+## قسم الأسئلة الشائعة
 
-1. **ما هو Aspose.PDF للـ Java؟**  
-   - مكتبة تسمح بإنشاء وتعديل وتفاعل مع مستندات PDF باستخدام Java.
+1. **ما هو Aspose.PDF للـ Java؟** 
+- مكتبة متاحة وتعديل وتفاعل مع مستندات PDF باستخدام Java.
 
-2. **هل يمكنني استخدام Aspose.PDF دون شراء ترخيص؟**  
-   - نعم، لكنه سيعمل في وضع التقييم مع بعض القيود.
+2. **هل يمكنني استخدام Aspose.PDF دون شراء ترخيص؟** 
+- نعم، ولكن سيعمل في وضع التقييم مع بعض القيود.
 
-3. **كيف يمكنني إضافة عدة إجراءات JavaScript إلى صفحة PDF واحدة؟**  
-   - أنشئ كائنات `Rectangle` منفصلة واستدعِ `createJavaScriptLink` لكل إجراء.
+3. **كيف يمكنني إضافة عدة إجراءات JavaScript إلى صفحة PDF واحدة؟** 
+- أنشئ كائنات `Rectangle` `` بروتين و `` createJavaScriptLink` لكل إجراء.
 
-4. **ما هي بعض المشكلات الشائعة عند استخدام Aspose.PDF؟**  
-   - قد تحدث تسريبات للذاكرة أو مشاكل في حجم الملف إذا لم يتم إدارة الموارد بفعالية—تأكد من تحرير الموارد بشكل مناسب.
+4. **ما هي بعض المشكلات الشائعة عند استخدام Aspose.PDF؟** 
+- يمكن أن تحدث مافيات للذاكرة أو مشاكل في حجم الملف إذا لم يتم إدارة الموارد - التأكد من تحرير الموارد بشكل مناسب.
 
-5. **أين يمكنني العثور على أمثلة متقدمة لاستخدام Aspose.PDF؟**  
-   - توفر [Aspose Documentation](https://reference.aspose.com/pdf/java/) أدلة شاملة وعينات كود.
+5. **هل يمكنني العثور على أمثلة متقدمة لاستخدام Aspose.PDF؟** 
+- توفر [Aspose Documentation](https://reference.aspose.com/pdf/java/) دليل شامل وعينات كود.
 
-## Resources
+## الموارد
 
-- **Documentation:** [Aspose PDF Java Reference](https://reference.aspose.com/pdf/java/)  
-- **Download:** [Aspose PDF Releases](https://releases.aspose.com/pdf/java/)  
-- **Purchase:** [Buy Aspose License](https://purchase.aspose.com/buy)  
-- **Free Trial:** [Try Aspose Free](https://releases.aspose.com/pdf/java/)  
-- **Temporary License:** [Get a Temporary License](https://purchase.aspose.com/temporary-license/)  
-- **Support:** [Aspose Forum](https://forum.aspose.com/c/pdf/10)
+- **الوثائق:** [مرجع Aspose PDF Java](https://reference.aspose.com/pdf/java/)
+- **التنزيل:** [إصدارات Aspose PDF](https://releases.aspose.com/pdf/java/)
+- **الشراء:** [شراء ترخيص Aspose](https://purchase.aspose.com/buy)
+- **تجربة مجانية:** [جرب Aspose مجانًا](https://releases.aspose.com/pdf/java/)
+- **الترخيص المؤقت:** [الحصول على ترخيص مؤقت](https://purchase.aspose.com/temporary-license/)
+- **الدعم:** [منتدى Aspose](https://forum.aspose.com/c/pdf/10)
 
 ---
 
-**Last Updated:** 2025-12-18  
-**Tested With:** Aspose.PDF 25.3 for Java  
-**Author:** Aspose  
+**آخر تحديث:** ١٨-١٢-٢٠٢٥
+**تم الاختبار باستخدام:** Aspose.PDF 25.3 لجافا
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

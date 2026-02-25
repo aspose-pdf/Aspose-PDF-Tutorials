@@ -7,7 +7,7 @@ keywords:
 - Add JavaScript Links to PDFs
 - Aspose.PDF for Java
 - Interactive PDF Documents
-title: 'Etkileşimli PDF Oluşturun: Aspose.PDF for Java Kullanarak JavaScript Bağlantıları
+title: 'Etkileşimli PDF Oluşturun - Aspose.PDF for Java Kullanarak JavaScript Bağlantıları
   Ekleyin'
 url: /tr/java/bookmarks-navigation/aspose-pdf-java-javascript-links-pdfs/
 weight: 1
@@ -20,26 +20,26 @@ weight: 1
 {{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.PDF for Java Kullanarak PDF'lerde Etkileşimli JavaScript Bağlantıları Nasıl Eklenir
 
-## Introduction
+## Giriiş
 
-Bu rehberde, Aspose.PDF for Java ile JavaScript bağlantıları ekleyerek **etkileşimli PDF** belgeleri oluşturmayı öğreneceksiniz. PDF dosyalarının etkileşimini artırmak, özellikle karmaşık raporlar veya e‑kitaplarda gezinirken kullanıcı katılımını önemli ölçüde iyileştirebilir. Bu öğreticide, güçlü bir kütüphane olan Aspose.PDF for Java'ı kullanarak PDF dosyalarınıza tıklanabilir JavaScript bağlantıları ekleyecek ve bunları dinamik, etkileşimli kaynaklara dönüştüreceksiniz.
+Bu rehberde, Aspose.PDF for Java ile JavaScript bileşenlerinin eklenmesi **etkileşimli PDF** kayıt oluşturmayı bölmeleri. PDF işlemlerinin arttırılmasını artırır, özellikle karmaşık raporlar veya e‑kitaplarda gezinirken kullanıcı eklemeni önemli ölçüde iyileştirebilir. Bu öğreticide, güçlü bir kütüphane olan Aspose.PDF for Java'yı kullanarak PDF dosyalarınıza tıklanabilir JavaScript bağlantılarını ekleyecek ve bunları dinamik, etkileşimli kaynaklara dönüştüreceksiniz.
 
-## Quick Answers
-- **“Etkileşimli PDF oluşturmak” ne anlama geliyor?** Kullanıcı eylemlerine yanıt veren JavaScript bağlantıları gibi öğeler eklemek demektir.  
-- **Bu görev için en iyi kütüphane hangisi?** Aspose.PDF for Java, JavaScript bağlantıları için basit bir API sunar.  
-- **Lisans almam gerekiyor mu?** Geçici veya satın alınmış bir lisans, değerlendirme sınırlamalarını kaldırır.  
-- **Mevcut bir PDF'ye bağlayabilir miyim?** Evet—`PdfContentEditor.bindPdf` kullanarak mevcut bir dosyaya bağlayabilirsiniz.  
-- **PDF boyutu çok artar mı?** JavaScript'i kısa tutun ve büyük resimlerden kaçının; **PDF boyutunu JavaScript ile optimize edin**.
+## Hızlı Yanıtlar
+- **“Etkileşimli PDF oluşturmak” ne anlama geliyor?** Kullanıcının eylemlerine yanıt veren JavaScript bağlantıları gibi geliştirmeleri değiştirmek demektir.
+- **Bu görev için en iyi kütüphane hangisi?** Aspose.PDF for Java, JavaScript bağlantıları için basit bir API sunar.
+- **Lisans almam gerekiyor mu?** Geçici veya satın alma seçenekleri bir lisans, değerlendirme sınırlamalarını kaldırır.
+- **Mevcut bir PDF'ye bağlayabilir miyim?** Evet—`PdfContentEditor.bindPdf` kullanarak mevcut bir dosyayı bağlayabilirsiniz.
+- **PDF boyutu çok artar mı?** JavaScript'i kısa süre tutmak ve büyük resimlerden kaçınmak; **PDF değişimi JavaScript dosyasını optimize edin**.
 
-## Prerequisites
+## Önkoşullar
 
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
-- **Libraries & Dependencies:** Aspose.PDF for Java gereklidir. Bağımlılık yönetimi için Maven veya Gradle kurun.  
-- **Environment Setup:** Java ve PDF işleme kavramlarına temel bir anlayış önerilir.  
-- **Knowledge Prerequisites:** Nesne‑yönelimli prensipler gibi Java programlama bilgisi faydalı olur ancak zorunlu değildir.
+- **Kütüphaneler ve Bağımlılıklar:** Aspose.PDF for Java gereklidir. Bağımlılık yönetimi için Maven veya Gradle kurulumu.
+- **Ortam Kurulumu:** Java ve PDF işleme kavramlarına temel bir anlayış önerilir.
+- **Bilgi Önkoşulları:** Nesne‑yönelimli prensipler gibi Java programlama bilgisi faydalı olur ancak zorunlu değildir.
 
-## Setting Up Aspose.PDF for Java
+## Java için Aspose.PDF'yi Kurma
 
 Projelerinizde Aspose.PDF'i kullanmak için kütüphaneyi Maven veya Gradle aracılığıyla ekleyin:
 
@@ -59,12 +59,12 @@ Projelerinizde Aspose.PDF'i kullanmak için kütüphaneyi Maven veya Gradle arac
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-**License Acquisition:** Aspose.PDF'i tam olarak kullanabilmek için geçici bir lisans almayı veya bir lisans satın almayı düşünün; böylece değerlendirme kısıtlamaları kaldırılır.  
-- [Free Trial](https://releases.aspose.com/pdf/java/)  
-- [Temporary License](https://purchase.aspose.com/temporary-license/)  
-- [Purchase](https://purchase.aspose.com/buy)
+**Lisans Alımı:** Aspose.PDF'i tam olarak kullanmak için geçici bir lisans almayı veya bir lisans satın almayı düşünün; Böylece kısıtlamaları kaldırılır.
+- [Ücretsiz Deneme](https://releases.aspose.com/pdf/java/)
+- [Geçici Lisans](https://purchase.aspose.com/temporary-license/)
+- [Satın Alma](https://purchase.aspose.com/buy)
 
-**Basic Initialization:** Kurulum tamamlandıktan sonra Aspose.PDF'i Java ortamınızda başlatın:
+**Temel Başlatma:** Kurulum tamamlandıktan sonra Aspose.PDF'i Java ortamınızda başlatın:
 ```java
 import com.aspose.pdf.*;
 
@@ -73,13 +73,13 @@ License license = new License();
 license.setLicense("path/to/your/license/file.lic");
 ```
 
-## How to create interactive PDF with JavaScript links
+## JavaScript bağlantılarıyla etkileşimli PDF nasıl oluşturulur
 
-Kurulum tamamlandığında, **etkileşimli PDF** dosyaları oluşturmak için JavaScript eylemleri içeren adımları inceleyelim.
+Kurulum tamamlandığında, **etkileşimli PDF** dosyaları oluşturmak için JavaScript işlemlerini içeren adımları inceleyelim.
 
-### Step 1: Create and Bind a PDF Document
+### Adım 1: PDF Belgesi Oluşturun ve Bağlayın
 
-`PdfContentEditor` örneği oluşturun ve geliştirmek istediğiniz PDF'ye bağlayın:
+`PdfContentEditor` örneğini oluşturmak ve genişletmek istediğiniz PDF'ye göre:
 ```java
 import com.aspose.pdf.facades.PdfContentEditor;
 
@@ -89,11 +89,12 @@ PdfContentEditor editor = new PdfContentEditor();
 // Bind the editor to an existing PDF document
 editor.bindPdf("YOUR_DOCUMENT_DIRECTORY/input.pdf");
 ```
-**Explanation:** `bindPdf` editörü kaynak PDF'nize bağlar, sayfalarını değiştirmenize, açıklama eklemenize ve **PDF Java** nesnelerini bağlamanıza olanak tanır.
 
-### Step 2: Define a JavaScript Link
+**Açıklama:** `bindPdf` ana kaynak PDF'nize bağlananlar, sayfalarını dağıtan, açıklama kaydeden ve **PDF Java** nesnelerini bağlamanıza olanak tanır.
 
-Tıklanabilir bir dikdörtgen tanımlayın ve bunu bir JavaScript kod parçacığıyla ilişkilendirin. Bu, PDF'ye **JavaScript ekleme** konusunun temelidir:
+### Adım 2: Bir JavaScript Bağlantısı Tanımlayın
+
+Tıklanabilir bir kayıt defteri tanımlayın ve bunu bir JavaScript kod parçasıyla ayırın. Bu, PDF'ye **JavaScript ekleme** konusunun temelidir:
 ```java
 import java.awt.Rectangle;
 import java.awt.Color;
@@ -110,68 +111,69 @@ String code = "app.alert('Welcome to Aspose!');";
 // Add a JavaScript link to the first page of the PDF document
 editor.createJavaScriptLink(code, rect, 1, linkColor);
 ```
-**Key Points:**  
-- `Rectangle` tıklanabilir alanı belirler.  
-- `Color` bağlantının görsel görünümünü tanımlar.  
-- `createJavaScriptLink` seçilen sayfadaki tanımlı dikdörtgene JavaScript kodunu bağlar.
 
-### Step 3: Save the Updated PDF
+**Önemli Noktalar:**
+- 'Dikdörtgen' tıklanabilir alanı belirler.
+- `Renkli` konektörün görsel olarak görüntüleyebilirsiniz.
+- `createJavaScriptLink` seçilen sayfadaki tanımlamalı bölmelere JavaScript çözümlemelerini sağlar.
 
-Değişiklikleri diske yazın. Bu adım **JavaScript ile PDF kaydeder**, böylece etkileşim kalıcı olur:
+### 3. Adım: Güncellenmiş PDF'yi kaydedin
+
+değişiklikleri diske yazın. Bu adım **JavaScript ile PDF sağlar**, böylece iletişim kalıcı olur:
 ```java
 // Save changes to a new PDF file
 editor.save("YOUR_OUTPUT_DIRECTORY/JavaScriptAdded_output.pdf");
 ```
-**Explanation:** `save` yöntemi, az önce tanımladığınız JavaScript bağlantısını içeren yeni bir PDF oluşturur.
+**Açıklama:** `save' yöntemi, az önce tanımladığınız JavaScript dosyasını içeren yeni bir PDF oluşturur.
 
-## Practical Applications
+## Pratik Uygulamalar
 
-1. **Interactive Reports:** İş raporlarını tıklanabilir içgörülerle zenginleştirerek hesaplamaları veya alt veri setlerini gösterebilirsiniz.  
-2. **E‑Learning Materials:** Öğrencilerin ek açıklamalar veya dış kaynaklar için konulara tıklayabileceği eğitim PDF'leri oluşturun.  
-3. **Digital Forms:** PDF içinde doğrudan gönderim onayları veya alan doğrulamaları gibi eylemler ekleyin.
+1. **Etkileşimli Raporlar:** İş raporlarını tıklanabilir içgörülerle zenginleştirerek programlamaları veya alt veri ayarlarını gösterebilirsiniz.
+2. **E-Öğrenim Materyalleri:** Bilgi ek açıklamalar veya dış kaynaklar için tıklanabilir eğitim PDF'leri oluşturulur.
+3. **Dijital Formlar:** PDF içinde doğrudan gönderim onayları veya alan işlemleri gibi işlemleri içerir.
 
-## Performance Considerations
+## Performansla İlgili Hususlar
 
-- **Optimize PDF size JavaScript:** JavaScript'i kısa tutun ve büyük varlıkları gömmekten kaçının; böylece dosya boyutu makul kalır.  
-- **Java Memory Management:** Özellikle büyük PDF'ler işlenirken bellek kullanımını izleyin, sızıntıları önleyin.
+- **PDF boyutunu optimize et JavaScript:** JavaScript'i kısa süre tutmak ve büyük varlıkları gömmekten kaçınmak; dolayısıyla dosya boyutu makul düzeyde kalıyor.
+- **Java Bellek Yönetimi:** Özellikle büyük PDF'ler işlenirken bellek depolamayı izleyin, sızıntıları önleyin.
 
-## Conclusion
+## Çözüm
 
-Bu öğreticiyi izleyerek, Aspose.PDF for Java kullanarak **etkileşimli PDF** belgeleri oluşturmayı öğrendiniz. Farklı JavaScript eylemleriyle kullanıcı deneyimlerini özelleştirin ve form işleme, filigran ekleme, belge birleştirme gibi ek Aspose.PDF özelliklerini keşfedin.
+Bu bilgileri okumayı izleyerek, Aspose.PDF for Java kullanarak **etkileşimli PDF** belgelerini oluşturmayı öğreniniz. Farklı JavaScript işlemleriyle kullanıcı deneyimlerini özelleştirmein ve form işleme, filigran ekleme, belge engelleme gibi ek Aspose.PDF'nin özellikleri geliştirme.
 
-Bir adım daha ileri gitmeye hazır mısınız? Bu etkileşimli PDF'leri web uygulamalarına entegre etmeyi veya birden fazla dosyayı toplu işlerde otomatik olarak işlemeyi düşünün!
+Bir adım daha ileri gitmeye hazır mısınız? Bu etkileşimli PDF'leri web uygulamalarına entegre etmeyi veya birden fazla olanları toplu işlerde otomatik olarak işlemeyi düşünün!
 
-## FAQ Section
+## SSS Bölümü
 
-1. **Aspose.PDF for Java nedir?**  
-   - Java kullanarak PDF belgeleri oluşturma, değiştirme ve etkileşim ekleme imkanı sağlayan bir kütüphanedir.
+1. **Aspose.PDF for Java nedir?** 
+- Java kullanarak PDF kayıtlarının oluşturulması, değiştirilmesi ve arttırılmasına izin veren bir kütüphanedir.
 
-2. **Aspose.PDF'i lisans satın almadan kullanabilir miyim?**  
-   - Evet, ancak belirli kısıtlamalarla değerlendirme modunda çalışır.
+2. **Aspose.PDF'i lisansı satın almadan kullanabilir miyim?** 
+- Evet, ancak belirli sınırlamalarla değerlendirme modu çalışır.
 
-3. **Tek bir PDF sayfasına birden fazla JavaScript eylemi nasıl eklenir?**  
-   - Ayrı `Rectangle` nesneleri oluşturup her birine `createJavaScriptLink` çağrısı yapın.
+3. **Tek bir PDF sayfasına birden fazla JavaScript işlemi nasıl eklenir?** 
+- Ayrı `Dikdörtgen` öğelerini oluşturun ve ona bir `createJavaScriptLink` bölmesi yapın.
 
-4. **Aspose.PDF kullanırken sık karşılaşılan sorunlar nelerdir?**  
-   - Bellek sızıntıları veya dosya boyutu sorunları, kaynakları verimli yönetmediğinizde ortaya çıkabilir—kaynakları doğru şekilde serbest bırakın.
+4. **Aspose.PDF'yi kullanırken sık sık karşılaşılan sorunlar nelerdir?** 
+- Bellek sızıntıları veya dosya boyutu sorunları, kaynakları verimli şekilde çalıştırdığınızda ortaya çıkabilir—kaynakları doğru şekilde serbest bırakın.
 
-5. **Aspose.PDF kullanımına dair daha gelişmiş örnekler nerede bulunur?**  
-   - [Aspose Documentation](https://reference.aspose.com/pdf/java/) kapsamlı kılavuzlar ve kod örnekleri sunar.
+5. **Aspose.PDF kullanımında daha gelişmiş örnekler nerede bulunur?** 
+- [Aspose Documentation](https://reference.aspose.com/pdf/java/) özet kılavuzlar ve kod örnekleri sunar.
 
-## Resources
+## Kaynaklar
 
-- **Documentation:** [Aspose PDF Java Reference](https://reference.aspose.com/pdf/java/)  
-- **Download:** [Aspose PDF Releases](https://releases.aspose.com/pdf/java/)  
-- **Purchase:** [Buy Aspose License](https://purchase.aspose.com/buy)  
-- **Free Trial:** [Try Aspose Free](https://releases.aspose.com/pdf/java/)  
-- **Temporary License:** [Get a Temporary License](https://purchase.aspose.com/temporary-license/)  
-- **Support:** [Aspose Forum](https://forum.aspose.com/c/pdf/10)
+- **Belgeler:** [Aspose PDF Java Referansı](https://reference.aspose.com/pdf/java/)
+- **İndir:** [Aspose PDF Sürümleri](https://releases.aspose.com/pdf/java/)
+- **Satın Al:** [Aspose Lisansı Satın Al](https://purchase.aspose.com/buy)
+- **Ücretsiz Deneme:** [Aspose'u Ücretsiz Deneyin](https://releases.aspose.com/pdf/java/)
+- **Geçici Lisans:** [Geçici Lisans Alın](https://purchase.aspose.com/temporary-license/)
+- **Destek:** [Aspose Forumu](https://forum.aspose.com/c/pdf/10)
 
 ---
 
-**Last Updated:** 2025-12-18  
-**Tested With:** Aspose.PDF 25.3 for Java  
-**Author:** Aspose  
+**Son Güncelleme:** 2025-12-18
+**Şununla Test Edildi:** Aspose.PDF 25.3 Java Sürümü
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
