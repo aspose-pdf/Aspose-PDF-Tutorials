@@ -74,6 +74,12 @@
 ### [เรียนรู้การสร้าง PDF Booklet ด้วย Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.PDF Net
 
+### [สร้างเอกสาร PDF – เพิ่มหน้าใน PDF, แท็กหัวเรื่อง, และกำหนดตำแหน่งองค์ประกอบ](./create-pdf-document-add-page-to-pdf-tag-heading-and-position/)
+เรียนรู้วิธีสร้างเอกสาร PDF เพิ่มหน้า แท็กหัวเรื่อง และกำหนดตำแหน่งขององค์ประกอบต่างๆ ด้วย Aspose.PDF สำหรับ .NET
+
+### [สร้างเอกสาร PDF ด้วย C# – คู่มือทีละขั้นตอน](./create-pdf-document-in-c-step-by-step-guide/)
+เรียนรู้วิธีสร้างเอกสาร PDF ด้วย C# อย่างละเอียดด้วยขั้นตอนทีละขั้นตอนเพื่อการพัฒนาแอปพลิเคชัน
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)

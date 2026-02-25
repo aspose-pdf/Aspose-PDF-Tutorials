@@ -22,6 +22,7 @@ Naučíte se, jak nastavit převod, extrahovat text a obrázky, zachovat původn
 | Název | Popis |
 | --- | --- | 
 | [Přidat přílohu k PDFA](./add-attachment-to-pdfa/) | Naučte se, jak přidávat přílohy k dokumentu PDF/A pomocí Aspose.PDF pro .NET s tímto podrobným návodem. |  
+| [Přidat ICC profil a převést PDF na PDF/X‑4 – průvodce v C#](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) | Naučte se, jak přidat ICC profil a převést PDF na PDF/X‑4 pomocí Aspose.PDF pro .NET v C#. |  
 | [CGM do PDF souborů](./cgm-to-pdf/) | Naučte se, jak převést soubory CGM do PDF pomocí Aspose.PDF pro .NET s tímto podrobným návodem. Ideální pro vývojáře i designéry. |  
 | [EPUB do PDF](./epub-to-pdf/) Naučte se, jak převést EPUB do PDF pomocí Aspose.PDF pro .NET s tímto podrobným návodem. Snadné, efektivní a perfektní pro všechny uživatele. |  
 | [Získat SVG rozměry](./get-svg-dimensions/) | Naučte se, jak pomocí tohoto podrobného návodu používat Aspose.PDF pro .NET k převodu souborů SVG do PDF. Ideální pro vývojáře, kteří chtějí manipulovat s PDF soubory. |  

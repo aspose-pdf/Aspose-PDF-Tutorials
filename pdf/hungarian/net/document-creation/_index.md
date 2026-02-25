@@ -74,6 +74,12 @@ Ismerje meg, hogyan hozhat létre akadálymentes, jól strukturált, címkézett
 ### [PDF füzetkészítés elsajátítása az Aspose.PDF .NET segítségével](./aspose-pdf-net-create-booklet-page-arrangement/)
 Kód oktatóanyag az Aspose.PDF Nethez
 
+### [PDF dokumentum létrehozása C#‑ban – Lépésről‑lépésre útmutató](./create-pdf-document-in-c-step-by-step-guide/)
+Tanulja meg, hogyan hozhat létre PDF dokumentumot C#‑ban részletes, lépésről‑lépésre útmutatóval.
+
+### [PDF dokumentum létrehozása – Oldal hozzáadása PDF-hez, Fejléc címkézése és elemek pozicionálása](./create-pdf-document-add-page-to-pdf-tag-heading-and-position/)
+Tanulja meg, hogyan adhat hozzá oldalt PDF-hez, címkézheti a fejléceket, és helyezheti el az elemeket a kívánt pozícióba.
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)

@@ -32,11 +32,12 @@ Tutorials bevatten stapsgewijze instructies, gedetailleerde codevoorbeelden en d
 | [Specifieke pagina ophalen](./get-particular-page/) Leer hoe u een bepaalde pagina uit een PDF kunt extraheren en deze als een nieuw document kunt opslaan met Aspose.PDF voor .NET in deze stapsgewijze handleiding.  
 | [PDF-eigenschappen ophalen](./get-properties/) | Leer hoe u PDF-eigenschappen efficiënt kunt extraheren met Aspose.PDF voor .NET. Stapsgewijze handleiding met codevoorbeelden en aanbevolen procedures. |  
 | [Afbeelding instellen als pagina-achtergrond in PDF-bestand](./image-as-background/) | Leer hoe u een afbeelding als pagina-achtergrond in een PDF instelt met Aspose.PDF voor .NET met deze stapsgewijze handleiding. Maak professionele, visueel aantrekkelijke documenten. |  
-| [Lege pagina invoegen in PDF-bestand](./insert-empty-page/) | Leer hoe u een lege pagina in een PDF-document invoegt met Aspose.PDF voor .NET. Stapsgewijze tutorial met codevoorbeelden voor naadloze PDF-bewerking. |  
-| [Lege pagina aan het einde invoegen](./insert-empty-page-at-end/) | Leer hoe je moeiteloos een lege pagina in een PDF-document invoegt met Aspose.PDF voor .NET in deze beginnersvriendelijke handleiding. Perfect voor snelle bewerkingen. |  
-| [Splitsen in pagina's](./split-to-pages/) Splits PDF's eenvoudig in afzonderlijke pagina's met Aspose.PDF voor .NET met deze uitgebreide tutorial. Inclusief stapsgewijze handleiding. |  
-| [PDF-pagina-afmetingen bijwerken](./update-dimensions/) | Ontdek hoe u moeiteloos PDF-paginaafmetingen kunt bijwerken met Aspose.PDF voor .NET in deze uitgebreide, stapsgewijze handleiding. |  
-| [Zoom naar pagina-inhoud in PDF-bestand](./zoom-to-page-contents/) | Leer in deze uitgebreide handleiding hoe u kunt inzoomen op pagina-inhoud in PDF-bestanden met Aspose.PDF voor .NET. Verbeter uw PDF-documenten naar uw specifieke behoeften. |  
+| [Lege pagina invoegen in PDF-bestand](./insert-empty-page/) | Leer hoe u een lege pagina in een PDF-document invoegt met Aspose.PDF voor .NET. Stapsgewijze tutorial met codevoorbeelden voor naadloze PDF-bewerking. |
+| [Lege PDF-pagina maken – Volledige PDF-tekenhandleiding](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Leer hoe u een lege PDF-pagina maakt met volledige tekenfunctionaliteit in Aspose.PDF voor .NET. |
+| [Lege pagina aan het einde invoegen](./insert-empty-page-at-end/) | Leer hoe je moeiteloos een lege pagina in een PDF-document invoegt met Aspose.PDF voor .NET in deze beginnersvriendelijke handleiding. Perfect voor snelle bewerkingen. |
+| [Splitsen in pagina's](./split-to-pages/) Splits PDF's eenvoudig in afzonderlijke pagina's met Aspose.PDF voor .NET met deze uitgebreide tutorial. Inclusief stapsgewijze handleiding. |
+| [PDF-pagina-afmetingen bijwerken](./update-dimensions/) | Ontdek hoe u moeiteloos PDF-paginaafmetingen kunt bijwerken met Aspose.PDF voor .NET in deze uitgebreide, stapsgewijze handleiding. |
+| [Zoom naar pagina-inhoud in PDF-bestand](./zoom-to-page-contents/) | Leer in deze uitgebreide handleiding hoe u kunt inzoomen op pagina-inhoud in PDF-bestanden met Aspose.PDF voor .NET. Verbeter uw PDF-documenten naar uw specifieke behoeften. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

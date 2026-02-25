@@ -37,6 +37,7 @@
 | [PDF에서 PDFA로](./pdf-to-pdfa/) 이 단계별 튜토리얼을 통해 Aspose.PDF for .NET을 사용하여 PDF 파일을 PDF/A 형식으로 변환하는 방법을 알아보세요. |  
 | [PDF에서 PDFA3b로](./pdf-to-pdfa3b/) | 이 단계별 가이드를 통해 Aspose.PDF for .NET을 사용하여 PDF 파일을 PDF/A-3B 형식으로 손쉽게 변환하는 방법을 알아보세요. |  
 | [PDF를 PNG로 변환하는 글꼴 힌팅](./pdf-to-png-font-hinting/) | Aspose.PDF for .NET을 사용하여 간단한 단계별 가이드로 글꼴 힌팅을 적용하여 PDF를 PNG로 변환하는 방법을 알아보세요. |  
+| [ICC 프로파일 추가 및 PDF를 PDF/X‑4로 변환 – C# 가이드](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) | Aspose.PDF for .NET을 사용하여 PDF에 ICC 프로파일을 추가하고 PDF/X‑4 형식으로 변환하는 방법을 단계별 가이드로 알아보세요. |
 | [PDF를 PPT로](./pdf-to-ppt/) | Aspose.PDF for .NET을 사용하여 PDF를 PPT로 변환하는 방법을 단계별 가이드를 통해 알아보세요. 쉽고 효율적이며 프레젠테이션에 적합합니다. |  
 | [PDF를 SVG로](./pdf-to-svg/) | Aspose.PDF for .NET을 사용하여 PDF 파일을 SVG 형식으로 변환하는 방법을 단계별 튜토리얼을 통해 알아보세요. 개발자와 디자이너에게 안성맞춤입니다. |  
 | [PDF에서 TeX로](./pdf-to-tex/) | Aspose.PDF for .NET을 사용하여 PDF를 TeX로 변환하는 방법을 단계별 가이드를 통해 알아보세요. 문서 처리 능력 향상을 원하는 개발자에게 적합합니다. |  
@@ -44,14 +45,14 @@
 | [PDF에서 XML로](./pdf-to-xml/) | 이 포괄적인 튜토리얼에서 Aspose.PDF for .NET을 사용하여 PDF를 XML로 변환하는 방법을 알아보세요. 코드 예제가 포함된 단계별 가이드입니다. |  
 | [PDF에서 XPS로](./pdf-to-xps/) | Aspose.PDF for .NET을 사용하여 PDF를 XPS로 변환하는 방법을 단계별 가이드를 통해 알아보세요. 개발자와 문서 처리 전문가에게 안성맞춤입니다. |  
 | [포스트스크립트를 PDF로](./postscript-to-pdf/) | Aspose.PDF for .NET을 사용하여 PostScript 파일을 PDF로 변환하는 방법을 단계별 튜토리얼에서 알아보세요. 모든 수준의 개발자에게 적합합니다. |  
-| [HTML을 PDF로 변환하는 동안 자격 증명 제공](./provide-credentials-during-html-to-pdf/) | Aspose.PDF for .NET을 사용하여 HTML을 PDF로 변환하는 방법을 단계별 가이드를 통해 알아보세요. 문서 생성을 간소화하려는 개발자에게 적합합니다. |  
+| [HTML을 PDF로 변환하는 동안 자격 증명 제공](./provide-credentials-during-html-to-pdf/) | Aspose.PDF for .NET을 사용하여 HTML를 PDF로 변환하는 방법을 단계별 가이드를 통해 알아보세요. 문서 생성을 간소화하려는 개발자에게 적합합니다. |  
 | [HTML에서 변환 후 하이퍼링크 제거](./remove-hyperlinks-after-converting-from-html/) 이 단계별 가이드에서는 Aspose.PDF for .NET을 사용하여 PDF로 변환한 후 HTML 문서에서 하이퍼링크를 제거하는 방법을 알아봅니다. |  
 | [누락된 글꼴 바꾸기](./replace-missing-fonts/) | 이 단계별 가이드를 통해 Aspose.PDF for .NET을 사용하여 PDF 문서에서 누락된 글꼴을 바꾸는 방법을 알아보세요. |  
 | [기본 글꼴 이름 설정](./set-default-font-name/) | Aspose.PDF for .NET을 사용하여 PDF를 이미지로 렌더링할 때 기본 글꼴 이름을 설정하는 방법을 알아보세요. 이 가이드에서는 필수 구성 요소, 단계별 지침 및 FAQ를 다룹니다. |  
 | [SVG를 PDF로](./svg-to-pdf/) | Aspose.PDF for .NET을 사용하여 SVG를 PDF로 변환하는 방법을 단계별 튜토리얼에서 알아보세요. 개발자와 디자이너에게 적합합니다. |  
 | [TeX에서 PDF로](./tex-to-pdf/) | Aspose.PDF for .NET을 사용하여 TeX를 PDF로 변환하는 방법을 단계별로 자세히 알아보세요. 개발자와 문서 전문가에게 적합합니다. |  
 | [텍스트를 PDF로](./text-to-pdf/) Aspose.PDF for .NET을 사용하여 텍스트 파일을 PDF로 변환하는 방법을 단계별 가이드에서 알아보세요. 애플리케이션 개선을 원하는 개발자에게 적합합니다. |  
-| [TIFF에서 PDF로의 성능 개선](./tiff-to-pdf-performance-improvement/) | Aspose.PDF for .NET을 사용하여 TIFF 이미지를 PDF로 효율적으로 변환하세요. 대용량 이미지 파일을 원활하게 처리하기 위한 성능 최적화 팁을 단계별로 살펴보세요. |  
+| [TIFF에서 PDF로의 성능 개선](./tiff-to-pdf-performance-improvement/) | Aspose.PDF for .NET을 사용을 통해 TIFF 이미지를 PDF로 효율적으로 변환하세요. 대용량 이미지 파일을 원활하게 처리하기 위한 성모 최적화 팁을 단계별로 살펴보세요. |  
 | [웹 페이지를 PDF로](./web-page-to-pdf/) | 이 자세하고 단계별 튜토리얼을 통해 Aspose.PDF for .NET을 사용하여 웹 페이지를 PDF로 변환하는 방법을 알아보세요. |  
 | [XML을 PDF로](./xml-to-pdf/) | 이 포괄적인 단계별 튜토리얼에서는 Aspose.PDF for .NET을 사용하여 XML을 PDF로 변환하는 방법을 알아봅니다. 코드 예제와 자세한 설명이 수록되어 있습니다. |  
 | [XML에서 PDFSet 이미지 경로로](./xml-to-pdfset-image-path/) | Aspose.PDF for .NET을 사용하여 XML을 PDF로 손쉽게 변환하는 방법을 알아보세요. 이 자세한 가이드는 설정부터 완료까지 단계별 과정을 안내합니다. |  

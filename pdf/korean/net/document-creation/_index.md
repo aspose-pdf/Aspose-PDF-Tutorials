@@ -74,6 +74,11 @@ Aspose.PDF for .NET을 사용하여 접근성이 뛰어나고 구조화된 태�
 ### [Aspose.PDF .NET을 활용한 PDF 소책자 제작 마스터하기](./aspose-pdf-net-create-booklet-page-arrangement/)
 Aspose.PDF Net에 대한 코드 튜토리얼
 
+### [PDF 문서 만들기 – PDF에 페이지 추가, 헤딩 태그 지정 및 요소 위치 지정](./create-pdf-document-add-page-to-pdf-tag-heading-and-position/)
+
+### [C#에서 PDF 문서 만들기 – 단계별 가이드](./create-pdf-document-in-c-step-by-step-guide/)
+C#를 사용해 처음부터 PDF 문서를 만들고, 다양한 기능을 구현하는 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 
 - [Net 문서용 Aspose.PDF](https://docs.aspose.com/pdf/net/)

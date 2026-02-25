@@ -74,6 +74,12 @@ Leer hoe u toegankelijke, goed gestructureerde, getagde PDF's maakt met Aspose.P
 ### [PDF-boekjes maken onder de knie krijgen met Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Een codetutorial voor Aspose.PDF Net
 
+### [PDF-document maken – Pagina toevoegen aan PDF, koptekst taggen en elementen positioneren](./create-pdf-document-add-page-to-pdf-tag-heading-and-position/)
+Leer hoe u een PDF-document maakt, een pagina toevoegt, kopteksten tagt en elementen nauwkeurig positioneert met Aspose.PDF voor .NET.
+
+### [PDF-document maken in C# – Stapsgewijze handleiding](./create-pdf-document-in-c-step-by-step-guide/)
+Leer hoe u een PDF-document maakt in C# met Aspose.PDF voor .NET, stap voor stap.
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

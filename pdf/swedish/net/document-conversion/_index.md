@@ -22,6 +22,7 @@ Du lär dig hur du anger konverteringsinställningar, extraherar text och bilder
 | Titel | Beskrivning |
 | --- | --- | 
 | [Lägg till bilaga till PDF-fil](./add-attachment-to-pdfa/) | Lär dig hur du lägger till bilagor till ett PDF/A-dokument med Aspose.PDF för .NET med den här steg-för-steg-guiden. |  
+| [Lägg till ICC-profil och konvertera PDF till PDF/X‑4 – C#-guide](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) | Lär dig hur du lägger till en ICC-profil och konverterar PDF till PDF/X‑4 med Aspose.PDF för .NET i C#. |  
 | [CGM till PDF-filer](./cgm-to-pdf/) | Lär dig hur du konverterar CGM-filer till PDF med Aspose.PDF för .NET med den här steg-för-steg-guiden. Perfekt för både utvecklare och designers. |  
 | [EPUB till PDF](./epub-to-pdf/) Lär dig hur du konverterar EPUB till PDF med Aspose.PDF för .NET med den här steg-för-steg-guiden. Enkelt, effektivt och perfekt för alla användare. |  
 | [Hämta SVG-dimensioner](./get-svg-dimensions/) | Lär dig hur du använder Aspose.PDF för .NET för att konvertera SVG-filer till PDF med den här steg-för-steg-guiden. Perfekt för utvecklare som vill manipulera PDF-filer. |  

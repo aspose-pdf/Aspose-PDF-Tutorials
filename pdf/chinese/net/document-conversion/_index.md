@@ -56,6 +56,7 @@
 | [XML 转 PDF](./xml-to-pdf/) | 通过本全面的分步教程学习如何使用 Aspose.PDF for .NET 将 XML 转换为 PDF，其中包含代码示例和详细解释。|  
 | [XML 转 PDFSet 图像路径](./xml-to-pdfset-image-path/) 学习如何使用 Aspose.PDF for .NET 轻松将 XML 转换为 PDF。本指南将逐步指导您完成从设置到完成的整个过程。|  
 | [XPS 转 PDF](./xps-to-pdf/) 学习如何使用 Aspose.PDF for .NET 将 XPS 文件转换为 PDF，本教程循序渐进，非常适合开发人员和文档爱好者。|  
+| [添加 ICC 配置文件并将 PDF 转换为 PDF/X‑4 – C# 指南](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) | 通过本分步指南了解如何使用 Aspose.PDF for .NET 添加 ICC 配置文件并将 PDF 转换为 PDF/X‑4（C#）。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

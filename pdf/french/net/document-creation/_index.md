@@ -74,6 +74,12 @@ Apprenez à créer des PDF balisés, accessibles et bien structurés avec Aspose
 ### [Maîtriser la création de brochures PDF avec Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Un tutoriel de code pour Aspose.PDF Net
 
+### [Créer un document PDF – Ajouter une page au PDF, baliser le titre et positionner les éléments](./create-pdf-document-add-page-to-pdf-tag-heading-and-position/)
+Apprenez à créer un PDF, ajouter une page, appliquer un tag de titre et positionner précisément des éléments avec Aspose.PDF pour .NET.
+
+### [Créer un document PDF en C# – Guide étape par étape](./create-pdf-document-in-c-step-by-step-guide/)
+Apprenez à créer un document PDF en C# en suivant un guide détaillé étape par étape.
+
 ## Ressources supplémentaires
 
 - [Aspose.PDF pour la documentation réseau](https://docs.aspose.com/pdf/net/)

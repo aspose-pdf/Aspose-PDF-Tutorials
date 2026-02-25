@@ -33,6 +33,7 @@ Aspose.PDF for .NET の「PDF ページを使ったプログラミング」ド�
 | [PDFプロパティを取得](./get-properties/) Aspose.PDF for .NET を使用して PDF プロパティを効率的に抽出する方法を学びましょう。コード例とベストプラクティスを交えたステップバイステップガイドです。 |  
 | [PDFファイルのページ背景に画像を設定する](./image-as-background/) Aspose.PDF for .NET を使用してPDFのページの背景に画像を設定する方法をステップバイステップで解説します。プロフェッショナルで視覚的に魅力的なドキュメントを作成できます。 |  
 | [PDFファイルに空白ページを挿入する](./insert-empty-page/) Aspose.PDF for .NET を使用して、PDF ドキュメントに空白ページを挿入する方法を学びましょう。シームレスな PDF 操作のためのコード例を交えたステップバイステップのチュートリアルです。 |  
+| [空白 PDF ページの作成 – 完全 PDF 描画チュートリアル](./create-blank-pdf-page-full-pdf-drawing-tutorial/) Aspose.PDF for .NET を使用して、空白の PDF ページを作成し、フル描画機能を活用する手順をステップバイステップで解説します。 |  
 | [最後に空白ページを挿入](./insert-empty-page-at-end/) この初心者向けガイドでは、Aspose.PDF for .NET を使って PDF ドキュメントに空白ページを簡単に挿入する方法を学習できます。簡単な編集に最適です。 |  
 | [ページに分割](./split-to-pages/) この包括的なチュートリアルでは、Aspose.PDF for .NET を使用して PDF を簡単に個別のページに分割できます。ステップバイステップのガイドも含まれています。 |  
 | [PDFページサイズの更新](./update-dimensions/) この包括的なステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF ページのサイズを簡単に更新する方法を説明します。 |  

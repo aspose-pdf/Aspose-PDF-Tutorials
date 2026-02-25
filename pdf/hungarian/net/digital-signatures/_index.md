@@ -44,11 +44,17 @@ Ismerje meg, hogyan távolíthatja el hatékonyan a digitális aláírásokat PD
 ### [PDF aláírások ellenőrzése az Aspose.PDF for .NET használatával: Átfogó útmutató](./verify-pdf-signatures-aspose-pdf-net/)
 Ismerje meg, hogyan ellenőrizheti a digitális aláírásokat PDF fájlokban az Aspose.PDF for .NET segítségével. Ez az útmutató a beállítást, a megvalósítást és a gyakorlati alkalmazásokat ismerteti.
 
+### [PDF aláírás ellenőrzése C#-ban – Teljes lépésről lépésre útmutató](./how-to-verify-pdf-signature-in-c-complete-step-by-step-tutor/)
+Ismerje meg, hogyan ellenőrizheti a PDF aláírásokat C#-ban az Aspose.PDF for .NET segítségével, részletes lépésekkel.
+
 ### [PDF aláírás és ellenőrzés mesterfokon az Aspose.PDF .NET segítségével](./mastering-aspose-pdf-net-sign-verify-smart-card-certificates/)
 Kód oktatóanyag az Aspose.PDF Nethez
 
 ### [Aspose.PDF .NET elsajátítása: Hogyan ellenőrizhetjük a digitális aláírásokat PDF fájlokban](./aspose-pdf-net-verify-digital-signature/)
 Ismerje meg, hogyan ellenőrizheti a digitális aláírásokat PDF fájlokban az Aspose.PDF for .NET segítségével. Biztosítsa a dokumentumok integritását és hitelességét lépésről lépésre bemutató útmutatónkkal.
+
+### [PDF aláírásnevek lekérése C#-ban – Teljes programozási útmutató](./retrieve-pdf-signature-names-in-c-complete-programming-guide/)
+Ismerje meg, hogyan kérheti le a PDF aláírások neveit C#-ban az Aspose.PDF for .NET segítségével.
 
 ## További források
 
