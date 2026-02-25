@@ -7,7 +7,7 @@ keywords:
 - expand PDF bookmarks
 - Aspose.PDF Java
 - PDF page mode
-title: 'Poradnik Aspose PDF Java: Rozszerz zakładki PDF przy użyciu Aspose.PDF'
+title: 'Poradnik Aspose PDF Java - Rozszerz zakładki PDF przy użyciu Aspose.PDF'
 url: /pl/java/bookmarks-navigation/expand-pdf-bookmarks-aspose-java/
 weight: 1
 ---

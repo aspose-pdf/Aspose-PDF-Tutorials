@@ -7,7 +7,7 @@ keywords:
 - expand PDF bookmarks
 - Aspose.PDF Java
 - PDF page mode
-title: 'Εκμάθηση Aspose PDF Java: Επέκταση Σελιδοδεικτών PDF με τη χρήση του Aspose.PDF'
+title: 'Εκμάθηση Aspose PDF Java - Επέκταση Σελιδοδεικτών PDF με τη χρήση του Aspose.PDF'
 url: /el/java/bookmarks-navigation/expand-pdf-bookmarks-aspose-java/
 weight: 1
 ---
@@ -21,37 +21,37 @@ weight: 1
 
 Η πλοήγηση σε πολύπλοκα έγγραφα PDF γίνεται παιχνιδάκι όταν οι σελιδοδείκτες επεκτείνονται αυτόματα. Σε αυτό το **aspose pdf java tutorial**, θα μάθετε πώς να φορτώνετε ένα έγγραφο PDF με το Aspose.PDF for Java, να ορίζετε τη σωστή λειτουργία σελίδας και να διασφαλίζετε ότι οι σελιδοδείκτες ανοίγουν από προεπιλογή. Αυτή η προσέγγιση βελτιώνει την εμπειρία του χρήστη, επιτρέποντας στους αναγνώστες να μεταβαίνουν απευθείας στις ενότητες που χρειάζονται χωρίς επιπλέον κλικ.
 
-## Quick Answers
-- **What does this tutorial cover?** Loading a PDF, setting page mode, expanding bookmarks, and saving the file.  
-- **Which library version is required?** Aspose.PDF for Java 25.3 or later.  
-- **Do I need a license?** A free trial works for testing; a commercial license is required for production.  
-- **Can I target specific bookmarks only?** Yes – adjust the loop logic to select particular outlines.  
-- **Is this suitable for large PDFs?** Yes, but consider processing outlines in batches and tuning JVM memory.
+## Γρήγορες Απαντήσεις
+- **Τι καλύπτει αυτό το σεμινάριο;** Φόρτωση PDF, ρύθμιση λειτουργίας σελίδας, επέκταση σελιδοδεικτών και αποθήκευση αρχείου.
+- **Ποια έκδοση βιβλιοθήκης απαιτείται;** Aspose.PDF για Java25.3 ή νεότερη έκδοση.
+- **Χρειάζομαι άδεια χρήσης;** Μια δωρεάν δοκιμαστική έκδοση λειτουργεί για δοκιμές. Απαιτείται εμπορική άδεια χρήσης για παραγωγή.
+- **Μπορώ να στοχεύσω μόνο συγκεκριμένους σελιδοδείκτες;** Ναι – προσαρμόστε τη λογική του βρόχου για να επιλέξετε συγκεκριμένα περιγράμματα.
+- **Είναι αυτό κατάλληλο για μεγάλα PDF;** Ναι, αλλά σκεφτείτε να επεξεργαστείτε περιγράμματα σε παρτίδες και να ρυθμίσετε τη μνήμη JVM.
 
-## What is an Aspose PDF Java Tutorial?
-An **aspose pdf java tutorial** is a step‑by‑step guide that shows you how to use the Aspose.PDF API in Java projects. It walks you through real‑world code, explains each call, and demonstrates how to solve common PDF manipulation tasks.
+## Τι είναι ένα σεμινάριο Java για Aspose PDF;
+Ένα **σεμινάριο Java για aspose pdf** είναι ένας οδηγός βήμα προς βήμα που σας δείχνει πώς να χρησιμοποιείτε το API Aspose.PDF σε έργα Java. Σας καθοδηγεί στον πραγματικό κώδικα, εξηγεί κάθε κλήση και δείχνει πώς να επιλύετε κοινές εργασίες χειρισμού PDF.
 
-## Why Expand PDF Bookmarks Automatically?
-Automatically opening PDF bookmarks saves users time, especially in:
-- **Educational PDFs** – students see the full table of contents instantly.  
-- **Corporate reports** – executives can jump directly to key sections.  
-- **Legal contracts** – lawyers navigate clauses without scrolling.
+## Γιατί να επεκτείνετε αυτόματα τους σελιδοδείκτες PDF;
+Το αυτόματο άνοιγμα σελιδοδεικτών PDF εξοικονομεί χρόνο στους χρήστες, ειδικά σε:
+- **Εκπαιδευτικά PDF** – οι μαθητές βλέπουν αμέσως τον πλήρη πίνακα περιεχομένων.
+- **Εταιρικές αναφορές** – τα στελέχη μπορούν να μεταβούν απευθείας σε βασικές ενότητες.
+- **Νομικές συμβάσεις** – οι δικηγόροι πλοηγούνται στις ρήτρες χωρίς κύλιση.
 
-### Prerequisites
-Before using Aspose.PDF for Java, ensure you have:
+### Προαπαιτούμενα
+Πριν χρησιμοποιήσετε το Aspose.PDF για Java, βεβαιωθείτε ότι έχετε:
 
-1. **Required Libraries and Dependencies:**  
-   - Aspose.PDF for Java library (version 25.3 or later)
+1. **Απαιτούμενες βιβλιοθήκες και εξαρτήσεις:**
+- Βιβλιοθήκη Aspose.PDF για Java (έκδοση 25.3 ή νεότερη)
 
-2. **Environment Setup Requirements:**  
-   - Maven or Gradle configured in your IDE  
-   - Basic Java development knowledge
+2. **Απαιτήσεις ρύθμισης περιβάλλοντος:**
+- Maven ή Gradle διαμορφωμένο στο IDE σας
+- Βασικές γνώσεις ανάπτυξης Java
 
-3. **Knowledge Prerequisites:**  
-   - Understanding of PDF structure, especially bookmarks (outlines)
+3. **Προαπαιτούμενα γνώσης:**
+- Κατανόηση της δομής PDF, ειδικά των σελιδοδεικτών (περιγραμμάτων)
 
-### Setting Up Aspose.PDF for Java
-To include Aspose.PDF in your project as a dependency:
+### Ρύθμιση Aspose.PDF για Java
+Για να συμπεριλάβετε το Aspose.PDF στο έργο σας ως εξάρτηση:
 
 **Maven**
 ```xml
@@ -67,93 +67,97 @@ To include Aspose.PDF in your project as a dependency:
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-#### License Acquisition Steps
-- **Free Trial:** Start with a free trial to test the library’s capabilities.  
-- **Temporary License:** Get a temporary license for extended evaluation from Aspose’s website.  
-- **Purchase:** Obtain a full license for commercial projects.
+#### Βήματα Απόκτησης Άδειας Χρήσης
+- **Δωρεάν Δοκιμή:** Ξεκινήστε με μια δωρεάν δοκιμή για να δοκιμάσετε τις δυνατότητες της βιβλιοθήκης.
+- **Προσωρινή Άδεια Χρήσης:** Αποκτήστε μια προσωρινή άδεια χρήσης για εκτεταμένη αξιολόγηση από τον ιστότοπο της Aspose.
+- **Αγορά:** Αποκτήστε μια πλήρη άδεια χρήσης για εμπορικά έργα.
 
-Once the library is added and licensed, you can initialize it:
+Μόλις προστεθεί και αδειοδοτηθεί η βιβλιοθήκη, μπορείτε να την αρχικοποιήσετε:
 
 ```java
 // Initialize the Document class with the path to your PDF file
 document doc = new Document("path/to/your/input.pdf");
 ```
 
-### Implementation Guide
-We'll break the solution into four clear steps: loading the document, setting the page mode, expanding bookmarks, and saving the updated PDF.
+### Οδηγός Υλοποίησης
+Θα χωρίσουμε τη λύση σε τέσσερα σαφή βήματα: φόρτωση του εγγράφου, ρύθμιση της λειτουργίας σελίδας, επέκταση σελιδοδεικτών και αποθήκευση του ενημερωμένου PDF.
 
-#### Loading the PDF Document
+#### Φόρτωση του Εγγράφου PDF
 ```java
 // Load an existing PDF document from your specified directory
 document doc = new Document("YOUR_DOCUMENT_DIRECTORY/input.pdf");
 ```
-**Explanation:** This creates a `Document` object that represents the PDF you want to modify. Replace the placeholder path with your actual file location.
+**Επεξήγηση:** Αυτό δημιουργεί ένα αντικείμενο `Έγγραφο` που αντιπροσωπεύει το PDF που θέλετε να τροποποιήσετε. Αντικαταστήστε τη διαδρομή κράτησης θέσης με την πραγματική τοποθεσία του αρχείου σας.
 
-#### Setting Page Mode
+#### Ρύθμιση Λειτουργίας Σελίδας
 ```java
 doc.setPageMode(PageMode.UseOutlines);
 ```
-**Explanation:** `setPageMode()` tells the PDF viewer how to open the file. `UseOutlines` forces the viewer to display the bookmarks pane automatically.
 
-#### Expanding Bookmarks
+**Επεξήγηση:** Το `setPageMode()` λέει στο πρόγραμμα προβολής PDF πώς να ανοίξει το αρχείο. Το `UseOutlines` αναγκάζει το πρόγραμμα προβολής να εμφανίσει αυτόματα το παράθυρο σελιδοδεικτών.
+
+#### Επέκταση Σελιδοδεικτών
 ```java
 // Iterate over each bookmark and set its state to open
 for (int counter = 1; counter <= doc.getOutlines().size(); counter++) {
     doc.getOutlines().get_Item(counter).setOpen(true);
 }
 ```
-**Explanation:** The loop walks through every outline entry (bookmark) and sets its `Open` property to `true`, ensuring all bookmarks appear expanded when the PDF opens.
 
-#### Saving the Modified PDF
+**Επεξήγηση:** Ο βρόχος περνάει από κάθε καταχώρηση διάρθρωσης (σελιδοδείκτη) και ορίζει την ιδιότητά του `Άνοιγμα` σε `true`, διασφαλίζοντας ότι όλοι οι σελιδοδείκτες εμφανίζονται αναπτυγμένοι όταν ανοίγει το PDF.
+
+#### Αποθήκευση του Τροποποιημένου PDF
 ```java
 doc.save("YOUR_OUTPUT_DIRECTORY/Bookmarks_Expanded.pdf");
 ```
-**Explanation:** The `save()` method writes the changes to a new file. Adjust the output path as needed.
+**Επεξήγηση:** Η μέθοδος `save()` εγγράφει τις αλλαγές σε ένα νέο αρχείο. Προσαρμόστε τη διαδρομή εξόδου όπως απαιτείται.
 
-### Practical Applications
-Expanding PDF bookmarks is useful in many real‑world scenarios:
+### Πρακτικές Εφαρμογές
+Η επέκταση των σελιδοδεικτών PDF είναι χρήσιμη σε πολλά σενάρια του πραγματικού κόσμου:
 
-- **Educational Materials:** Students instantly see the full chapter list.  
-- **Corporate Reports:** Executives can jump to financial summaries without searching.  
-- **Legal Documents:** Lawyers locate clauses quickly, saving valuable time.
+- **Εκπαιδευτικό Υλικό:** Οι μαθητές βλέπουν αμέσως την πλήρη λίστα κεφαλαίων.
 
-Integrating this logic into document‑management systems can automate bookmark preparation before distribution.
+- **Εταιρικές Αναφορές:** Τα στελέχη μπορούν να μεταβούν σε οικονομικές περιλήψεις χωρίς αναζήτηση.
+- **Νομικά Έγγραφα:** Οι δικηγόροι εντοπίζουν γρήγορα τις ρήτρες, εξοικονομώντας πολύτιμο χρόνο.
 
-### Performance Considerations
-When handling large PDFs with many outlines:
+Η ενσωμάτωση αυτής της λογικής σε συστήματα διαχείρισης εγγράφων μπορεί να αυτοματοποιήσει την προετοιμασία σελιδοδεικτών πριν από τη διανομή.
 
-- Dispose of the `Document` object after saving to free memory.  
-- Process outlines in smaller batches if the document contains thousands of entries.  
-- Tune the Java heap size (`-Xmx`) based on your application's memory profile.
+### Παράγοντες Απόδοσης
+Κατά τον χειρισμό μεγάλων PDF με πολλά περιγράμματα:
 
-## Frequently Asked Questions
-**Q1: How do I set up a free trial for Aspose.PDF?**  
-A1: Visit the [Aspose Free Trial page](https://releases.aspose.com/pdf/java/) to download the library and start experimenting.
+- Απορρίψτε το αντικείμενο `Έγγραφο` μετά την αποθήκευση για να ελευθερώσετε μνήμη.
 
-**Q2: What are common issues when expanding bookmarks?**  
-A2: Verify the file path is correct and ensure your application has read/write permissions for the source and destination folders.
+- Επεξεργαστείτε περιγράμματα σε μικρότερες παρτίδες εάν το έγγραφο περιέχει χιλιάδες καταχωρήσεις.
+- Ρυθμίστε το μέγεθος του σωρού Java (`-Xmx`) με βάση το προφίλ μνήμης της εφαρμογής σας.
 
-**Q3: Can I expand specific bookmarks instead of all?**  
-A3: Yes. Modify the loop to target only the outlines you need, e.g., by checking the bookmark title before calling `setOpen(true)`.
+## Συχνές Ερωτήσεις
+**Ε1: Πώς μπορώ να ρυθμίσω μια δωρεάν δοκιμαστική έκδοση για το Aspose.PDF;**
+A1: Επισκεφθείτε τη [σελίδα Δωρεάν Δοκιμαστικής Έκδοσης Aspose](https://releases.aspose.com/pdf/java/) για να κατεβάσετε τη βιβλιοθήκη και να ξεκινήσετε τον πειραματισμό.
 
-**Q4: How do I handle large PDF documents with many bookmarks?**  
-A4: Process outlines incrementally and consider increasing the JVM heap size (`-Xmx2g` or higher) to avoid `OutOfMemoryError`.
+**Ε2: Ποια είναι τα συνηθισμένα προβλήματα κατά την επέκταση σελιδοδεικτών;**
+A2: Επαληθεύστε ότι η διαδρομή αρχείου είναι σωστή και βεβαιωθείτε ότι η εφαρμογή σας έχει δικαιώματα ανάγνωσης/εγγραφής για τους φακέλους προέλευσης και προορισμού.
 
-**Q5: Is Aspose.PDF suitable for commercial projects?**  
-A5: Absolutely. Acquire a license from the [Aspose Purchase page](https://purchase.aspose.com/buy) for production use.
+**Ε3: Μπορώ να αναπτύξω συγκεκριμένους σελιδοδείκτες αντί για όλους;**
+A3: Ναι. Τροποποιήστε τον βρόχο ώστε να στοχεύει μόνο τα περιγράμματα που χρειάζεστε, π.χ., ελέγχοντας τον τίτλο του σελιδοδείκτη πριν καλέσετε την εντολή `setOpen(true)`.
 
-### Resources
-- **Documentation:** Explore detailed guides and API references at [Aspose PDF Documentation](https://reference.aspose.com/pdf/java/).  
-- **Download:** Get the latest version of Aspose.PDF from the [Downloads Page](https://releases.aspose.com/pdf/java/).  
-- **Purchase & Free Trial:** Visit [Aspose Purchase](https://purchase.aspose.com/buy) for licensing options.  
-- **Temporary License:** Obtain a temporary license to evaluate features via [Aspose Temporary License](https://purchase.aspose.com/temporary-license/).  
-- **Support:** Ask questions on the [Aspose Support Forum](https://forum.aspose.com/c/pdf/10) if you encounter any issues.
+**Ε4: Πώς μπορώ να χειριστώ μεγάλα έγγραφα PDF με πολλούς σελιδοδείκτες;**
+A4: Επεξεργαστείτε τα περιγράμματα σταδιακά και εξετάστε το ενδεχόμενο αύξησης του μεγέθους του σωρού JVM (`-Xmx2g` ή υψηλότερο) για να αποφύγετε το `OutOfMemoryError`.
+
+**Ε5: Είναι το Aspose.PDF κατάλληλο για εμπορικά έργα;**
+A5: Απολύτως. Αποκτήστε μια άδεια χρήσης από τη [σελίδα αγοράς Aspose](https://purchase.aspose.com/buy) για χρήση παραγωγής.
+
+### Πόροι
+- **Τεκμηρίωση:** Εξερευνήστε λεπτομερείς οδηγούς και αναφορές API στην [Τεκμηρίωση PDF Aspose](https://reference.aspose.com/pdf/java/).
+- **Λήψη:** Αποκτήστε την τελευταία έκδοση του Aspose.PDF από τη [Σελίδα λήψεων](https://releases.aspose.com/pdf/java/).
+- **Αγορά & Δωρεάν δοκιμή:** Επισκεφθείτε την [Αγορά Aspose](https://purchase.aspose.com/buy) για επιλογές αδειοδότησης.
+- **Προσωρινή άδεια χρήσης:** Αποκτήστε μια προσωρινή άδεια χρήσης για να αξιολογήσετε λειτουργίες μέσω της [Προσωρινής άδειας χρήσης Aspose](https://purchase.aspose.com/temporary-license/).
+- **Υποστήριξη:** Υποβάλετε ερωτήσεις στο [Φόρουμ Υποστήριξης Aspose](https://forum.aspose.com/c/pdf/10) εάν αντιμετωπίσετε οποιοδήποτε πρόβλημα.
 
 ---
 
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.PDF 25.3 for Java  
-**Author:** Aspose  
+**Τελευταία ενημέρωση:** 20-12-2025
+**Δοκιμάστηκε με:** Aspose.PDF 25.3 για Java
+**Συγγραφέας:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

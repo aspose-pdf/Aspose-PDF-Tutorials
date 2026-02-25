@@ -183,6 +183,12 @@ pdfDocument.save(outputDir);
 - **نسخة تجريبية مجانية**: ابدأ بتجربة مجانية على [Aspose PDF Java Downloads](https://releases.aspose.com/pdf/java/)  
 - **ترخيص مؤقت**: احصل على ترخيص مؤقت من [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**آخر تحديث:** 2025-12-20  
+**تم الاختبار مع:** Aspose.PDF للـ Java 25.3  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -190,9 +196,3 @@ pdfDocument.save(outputDir);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-20  
-**تم الاختبار مع:** Aspose.PDF للـ Java 25.3  
-**المؤلف:** Aspose

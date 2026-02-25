@@ -6,7 +6,7 @@ keywords:
 - extract hyperlinks from pdf java
 - aspose.pdf hyperlink extraction
 - java pdf link annotation
-title: 'دليل Aspose PDF Java: استخراج الروابط التشعبية من ملف PDF'
+title: 'دليل Aspose PDF Java - استخراج الروابط التشعبية من ملف PDF'
 url: /ar/java/bookmarks-navigation/extract-hyperlinks-pdf-aspose-java/
 weight: 1
 ---
@@ -170,6 +170,12 @@ A5: نفّذ آليات فحص الأخطاء عند معالجة URIs، مثل 
 
 هذا الدليل الشامل يزودك بالمعرفة لاستخراج الروابط التشعبية من ملفات PDF باستخدام Aspose.PDF for Java. برمجة سعيدة!
 
+---
+
+**آخر تحديث:** 2025-12-20  
+**تم الاختبار مع:** Aspose.PDF 25.3 for Java  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -177,9 +183,3 @@ A5: نفّذ آليات فحص الأخطاء عند معالجة URIs، مثل 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-20  
-**تم الاختبار مع:** Aspose.PDF 25.3 for Java  
-**المؤلف:** Aspose

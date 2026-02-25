@@ -7,7 +7,7 @@ keywords:
 - expand PDF bookmarks
 - Aspose.PDF Java
 - PDF page mode
-title: 'Tutoriel Aspose PDF Java : Développer les signets PDF avec Aspose.PDF'
+title: 'Tutoriel Aspose PDF Java - Développer les signets PDF avec Aspose.PDF'
 url: /fr/java/bookmarks-navigation/expand-pdf-bookmarks-aspose-java/
 weight: 1
 ---

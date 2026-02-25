@@ -7,7 +7,7 @@ keywords:
 - expand PDF bookmarks
 - Aspose.PDF Java
 - PDF page mode
-title: 'Aspose PDF Java-tutorial: PDF-bladwijzers uitbreiden met Aspose.PDF'
+title: 'Aspose PDF Java-tutorial - PDF-bladwijzers uitbreiden met Aspose.PDF'
 url: /nl/java/bookmarks-navigation/expand-pdf-bookmarks-aspose-java/
 weight: 1
 ---

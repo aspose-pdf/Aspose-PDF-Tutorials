@@ -5,7 +5,7 @@ keywords:
 - extract hyperlinks from pdf java
 - aspose.pdf hyperlink extraction
 - java pdf link annotation
-title: Aspose PDF Java 教學：從 PDF 中提取超連結
+title: Aspose PDF Java 教學 - 從 PDF 中提取超連結
 url: /zh-hant/java/bookmarks-navigation/extract-hyperlinks-pdf-aspose-java/
 weight: 1
 ---
@@ -168,6 +168,12 @@ A5: 在處理 URI 時實作錯誤檢查機制，例如驗證 URL 格式或可達
 
 本完整指南提供您使用 Aspose.PDF for Java 從 PDF 中擷取超連結的知識。祝開發順利！
 
+---
+
+**Last Updated:** 2025-12-20  
+**Tested With:** Aspose.PDF 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -175,9 +181,3 @@ A5: 在處理 URI 時實作錯誤檢查機制，例如驗證 URL 格式或可達
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.PDF 25.3 for Java  
-**Author:** Aspose

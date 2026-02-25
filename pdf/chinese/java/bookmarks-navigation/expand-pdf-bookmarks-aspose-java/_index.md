@@ -6,7 +6,7 @@ keywords:
 - expand PDF bookmarks
 - Aspose.PDF Java
 - PDF page mode
-title: Aspose PDF Java 教程：使用 Aspose.PDF 展开 PDF 书签
+title: Aspose PDF Java 教程 - 使用 Aspose.PDF 展开 PDF 书签
 url: /zh/java/bookmarks-navigation/expand-pdf-bookmarks-aspose-java/
 weight: 1
 ---

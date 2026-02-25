@@ -185,6 +185,12 @@ pdfDocument.save(outputDir);
 - **Free Trial**: Ξεκινήστε με μια δοκιμή στο [Aspose PDF Java Downloads](https://releases.aspose.com/pdf/java/)  
 - **Temporary License**: Αποκτήστε προσωρινή άδεια από το [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Last Updated:** 2025-12-20  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -192,9 +198,3 @@ pdfDocument.save(outputDir);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

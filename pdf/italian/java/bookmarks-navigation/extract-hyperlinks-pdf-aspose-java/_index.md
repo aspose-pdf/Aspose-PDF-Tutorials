@@ -7,7 +7,7 @@ keywords:
 - extract hyperlinks from pdf java
 - aspose.pdf hyperlink extraction
 - java pdf link annotation
-title: 'Tutorial Aspose PDF Java: Estrarre i collegamenti ipertestuali da un PDF'
+title: 'Tutorial Aspose PDF Java - Estrarre i collegamenti ipertestuali da un PDF'
 url: /it/java/bookmarks-navigation/extract-hyperlinks-pdf-aspose-java/
 weight: 1
 ---
@@ -170,6 +170,12 @@ R5: Implementa meccanismi di controllo degli errori durante l'elaborazione degli
 
 Questa guida completa ti fornisce le conoscenze necessarie per estrarre i collegamenti ipertestuali dai PDF usando Aspose.PDF per Java. Buon coding!
 
+---
+
+**Ultimo aggiornamento:** 2025-12-20  
+**Testato con:** Aspose.PDF 25.3 per Java  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -177,9 +183,3 @@ Questa guida completa ti fornisce le conoscenze necessarie per estrarre i colleg
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2025-12-20  
-**Testato con:** Aspose.PDF 25.3 per Java  
-**Autore:** Aspose

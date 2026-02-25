@@ -183,6 +183,12 @@ If you have any questions, feel free to reach out through the [Aspose Destek For
 - **Free Trial**: Deneme sürümüne [Aspose PDF Java İndirmeleri](https://releases.aspose.com/pdf/java/) adresinden başlayın.  
 - **Temporary License**: [Aspose Geçici Lisansı](https://purchase.aspose.com/temporary-license/) üzerinden geçici lisans alın.
 
+---
+
+**Last Updated:** 2025-12-20  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -190,9 +196,3 @@ If you have any questions, feel free to reach out through the [Aspose Destek For
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

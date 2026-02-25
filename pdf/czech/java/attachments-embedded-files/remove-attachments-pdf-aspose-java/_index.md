@@ -184,6 +184,12 @@ Máte-li jakékoli otázky, neváhejte se obrátit přes [Aspose Support Forum](
 - **Bezplatná zkušební verze**: Začněte s trial verzí na [Aspose PDF Java Downloads](https://releases.aspose.com/pdf/java/)  
 - **Dočasná licence**: Získejte dočasnou licenci na [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Poslední aktualizace:** 2025-12-20  
+**Testováno s:** Aspose.PDF pro Java 25.3  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -191,9 +197,3 @@ Máte-li jakékoli otázky, neváhejte se obrátit přes [Aspose Support Forum](
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-12-20  
-**Testováno s:** Aspose.PDF pro Java 25.3  
-**Autor:** Aspose

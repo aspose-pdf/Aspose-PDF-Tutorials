@@ -7,7 +7,7 @@ keywords:
 - expand PDF bookmarks
 - Aspose.PDF Java
 - PDF page mode
-title: 'Tutorial Aspose PDF Java: Espandere i segnalibri PDF con Aspose.PDF'
+title: 'Tutorial Aspose PDF Java - Espandere i segnalibri PDF con Aspose.PDF'
 url: /it/java/bookmarks-navigation/expand-pdf-bookmarks-aspose-java/
 weight: 1
 ---

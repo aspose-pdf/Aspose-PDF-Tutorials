@@ -7,7 +7,7 @@ keywords:
 - extract hyperlinks from pdf java
 - aspose.pdf hyperlink extraction
 - java pdf link annotation
-title: 'Οδηγός Aspose PDF Java: Εξαγωγή υπερσυνδέσμων από PDF'
+title: 'Οδηγός Aspose PDF Java - Εξαγωγή υπερσυνδέσμων από PDF'
 url: /el/java/bookmarks-navigation/extract-hyperlinks-pdf-aspose-java/
 weight: 1
 ---
@@ -171,6 +171,12 @@ A5: Εφαρμόστε μηχανισμούς ελέγχου σφαλμάτων 
 
 Αυτός ο ολοκληρωμένος οδηγός σας εξοπλίζει με τη γνώση για την εξαγωγή υπερσυνδέσμων από PDF χρησιμοποιώντας το Aspose.PDF for Java. Καλή προγραμματιστική!
 
+---
+
+**Last Updated:** 2025-12-20  
+**Tested With:** Aspose.PDF 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -178,9 +184,3 @@ A5: Εφαρμόστε μηχανισμούς ελέγχου σφαλμάτων 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.PDF 25.3 for Java  
-**Author:** Aspose

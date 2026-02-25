@@ -183,6 +183,12 @@ Als u vragen heeft, neem dan contact op via het [Aspose Support Forum](https://f
 - **Free Trial**: Begin met een proefversie op [Aspose PDF Java Downloads](https://releases.aspose.com/pdf/java/)  
 - **Temporary License**: Verkrijg een tijdelijke licentie via [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Last Updated:** 2025-12-20  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -190,9 +196,3 @@ Als u vragen heeft, neem dan contact op via het [Aspose Support Forum](https://f
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

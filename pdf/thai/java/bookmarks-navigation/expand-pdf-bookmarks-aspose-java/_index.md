@@ -6,7 +6,7 @@ keywords:
 - expand PDF bookmarks
 - Aspose.PDF Java
 - PDF page mode
-title: 'บทแนะนำ Aspose PDF Java: ขยายบุ๊กมาร์ก PDF ด้วย Aspose.PDF'
+title: 'บทแนะนำ Aspose PDF Java - ขยายบุ๊กมาร์ก PDF ด้วย Aspose.PDF'
 url: /th/java/bookmarks-navigation/expand-pdf-bookmarks-aspose-java/
 weight: 1
 ---

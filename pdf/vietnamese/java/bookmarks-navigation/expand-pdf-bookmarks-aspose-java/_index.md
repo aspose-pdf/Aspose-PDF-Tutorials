@@ -7,7 +7,7 @@ keywords:
 - expand PDF bookmarks
 - Aspose.PDF Java
 - PDF page mode
-title: 'Hướng dẫn Aspose PDF Java: Mở rộng dấu trang PDF bằng Aspose.PDF'
+title: 'Hướng dẫn Aspose PDF Java - Mở rộng dấu trang PDF bằng Aspose.PDF'
 url: /vi/java/bookmarks-navigation/expand-pdf-bookmarks-aspose-java/
 weight: 1
 ---

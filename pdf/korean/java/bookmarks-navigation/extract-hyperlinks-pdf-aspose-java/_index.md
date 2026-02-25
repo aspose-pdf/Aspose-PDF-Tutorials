@@ -6,7 +6,7 @@ keywords:
 - extract hyperlinks from pdf java
 - aspose.pdf hyperlink extraction
 - java pdf link annotation
-title: 'Aspose PDF Java 튜토리얼: PDF에서 하이퍼링크 추출'
+title: 'Aspose PDF Java 튜토리얼 - PDF에서 하이퍼링크 추출'
 url: /ko/java/bookmarks-navigation/extract-hyperlinks-pdf-aspose-java/
 weight: 1
 ---
@@ -172,6 +172,12 @@ A5: URI를 처리할 때 URL 형식이나 접근 가능성을 검증하는 등 �
 
 이 포괄적인 가이드는 Aspose.PDF for Java를 사용하여 PDF에서 하이퍼링크를 추출하는 지식을 제공합니다. 즐거운 코딩 되세요!
 
+---
+
+**마지막 업데이트:** 2025-12-20  
+**테스트 환경:** Aspose.PDF 25.3 for Java  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -179,9 +185,3 @@ A5: URI를 처리할 때 URL 형식이나 접근 가능성을 검증하는 등 �
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-20  
-**테스트 환경:** Aspose.PDF 25.3 for Java  
-**작성자:** Aspose

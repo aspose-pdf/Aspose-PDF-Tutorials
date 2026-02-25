@@ -184,6 +184,12 @@ Nếu bạn có bất kỳ câu hỏi nào, hãy liên hệ qua [Aspose Support 
 - **Free Trial**: Bắt đầu với bản dùng thử tại [Aspose PDF Java Downloads](https://releases.aspose.com/pdf/java/)  
 - **Temporary License**: Nhận giấy phép tạm thời từ [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Last Updated:** 2025-12-20  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -191,9 +197,3 @@ Nếu bạn có bất kỳ câu hỏi nào, hãy liên hệ qua [Aspose Support 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

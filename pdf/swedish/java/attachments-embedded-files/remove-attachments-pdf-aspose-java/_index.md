@@ -184,6 +184,13 @@ Om du har några frågor, tveka inte att kontakta oss via [Aspose Support Forum]
 - **Free Trial**: Börja med en provversion på [Aspose PDF Java Downloads](https://releases.aspose.com/pdf/java/)  
 - **Temporary License**: Skaffa en tillfällig licens från [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)
 
+
+---
+
+**Last Updated:** 2025-12-20  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -191,9 +198,3 @@ Om du har några frågor, tveka inte att kontakta oss via [Aspose Support Forum]
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

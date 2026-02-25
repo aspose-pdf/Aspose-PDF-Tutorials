@@ -7,7 +7,7 @@ keywords:
 - extract hyperlinks from pdf java
 - aspose.pdf hyperlink extraction
 - java pdf link annotation
-title: 'Aspose PDF Java útmutató: Hiperhivatkozások kinyerése egy PDF-ből'
+title: 'Aspose PDF Java útmutató - Hiperhivatkozások kinyerése egy PDF-ből'
 url: /hu/java/bookmarks-navigation/extract-hyperlinks-pdf-aspose-java/
 weight: 1
 ---
@@ -170,6 +170,12 @@ A5: Implementáljon hibakezelő mechanizmusokat az URI‑k feldolgozásakor, pé
 
 Ez az átfogó útmutató felvértezi Önt a tudással, hogy hiperhivatkozásokat nyerjen ki PDF‑ekből az Aspose.PDF for Java segítségével. Boldog kódolást!
 
+---
+
+**Legutóbb frissítve:** 2025-12-20  
+**Tesztelve a következővel:** Aspose.PDF 25.3 for Java  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -177,9 +183,3 @@ Ez az átfogó útmutató felvértezi Önt a tudással, hogy hiperhivatkozásoka
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Legutóbb frissítve:** 2025-12-20  
-**Tesztelve a következővel:** Aspose.PDF 25.3 for Java  
-**Szerző:** Aspose

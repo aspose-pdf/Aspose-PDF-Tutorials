@@ -7,7 +7,7 @@ keywords:
 - expand PDF bookmarks
 - Aspose.PDF Java
 - PDF page mode
-title: 'Aspose PDF Java útmutató: PDF könyvjelzők kibontása az Aspose.PDF használatával'
+title: 'Aspose PDF Java útmutató - PDF könyvjelzők kibontása az Aspose.PDF használatával'
 url: /hu/java/bookmarks-navigation/expand-pdf-bookmarks-aspose-java/
 weight: 1
 ---

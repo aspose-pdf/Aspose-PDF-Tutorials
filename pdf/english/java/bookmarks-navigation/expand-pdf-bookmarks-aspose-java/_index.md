@@ -1,5 +1,5 @@
 ---
-title: "Aspose PDF Java Tutorial: Expand PDF Bookmarks Using Aspose.PDF"
+title: "Aspose PDF Java Tutorial - Expand PDF Bookmarks Using Aspose.PDF"
 description: "Learn how to expand PDF bookmarks with Aspose.PDF for Java in this Aspose PDF Java tutorial. Includes loading PDF, setting page modes, and automatically opening PDF bookmarks."
 date: "2025-12-20"
 weight: 1

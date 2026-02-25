@@ -7,7 +7,7 @@ keywords:
 - expand PDF bookmarks
 - Aspose.PDF Java
 - PDF page mode
-title: 'Aspose PDF Java Öğreticisi: Aspose.PDF Kullanarak PDF Yer İmlerini Genişletme'
+title: 'Aspose PDF Java Öğreticisi - Aspose.PDF Kullanarak PDF Yer İmlerini Genişletme'
 url: /tr/java/bookmarks-navigation/expand-pdf-bookmarks-aspose-java/
 weight: 1
 ---

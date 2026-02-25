@@ -7,7 +7,7 @@ keywords:
 - extract hyperlinks from pdf java
 - aspose.pdf hyperlink extraction
 - java pdf link annotation
-title: 'Aspose PDF Java Öğreticisi: PDF''den Hipermetin Bağlantılarını Çıkarma'
+title: 'Aspose PDF Java Öğreticisi - PDF''den Hipermetin Bağlantılarını Çıkarma'
 url: /tr/java/bookmarks-navigation/extract-hyperlinks-pdf-aspose-java/
 weight: 1
 ---
@@ -171,6 +171,12 @@ A5: URI'leri işlerken URL formatını veya erişilebilirliğini doğrulama gibi
 
 Bu kapsamlı rehber, Aspose.PDF for Java kullanarak PDF'lerden köprü çıkarmak için gereken bilgiyle donatır. Kodlamanın tadını çıkarın!
 
+---
+
+**Last Updated:** 2025-12-20  
+**Tested With:** Aspose.PDF 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -178,9 +184,3 @@ Bu kapsamlı rehber, Aspose.PDF for Java kullanarak PDF'lerden köprü çıkarma
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.PDF 25.3 for Java  
-**Author:** Aspose

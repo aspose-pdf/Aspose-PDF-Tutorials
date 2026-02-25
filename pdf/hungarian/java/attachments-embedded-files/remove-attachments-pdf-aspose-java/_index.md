@@ -185,6 +185,12 @@ Ha kérdése van, nyugodtan forduljon a [Aspose Support Forum](https://forum.asp
 - **Free Trial**: Kezdje egy próbaverzióval a [Aspose PDF Java Downloads](https://releases.aspose.com/pdf/java/) oldalon  
 - **Temporary License**: Ideiglenes licencet szerezhet a [Aspose Temporary License](https://purchase.aspose.com/temporary-license/) oldalról
 
+---
+
+**Last Updated:** 2025-12-20  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -192,9 +198,3 @@ Ha kérdése van, nyugodtan forduljon a [Aspose Support Forum](https://forum.asp
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

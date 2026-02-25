@@ -184,6 +184,12 @@ Se tiver dúvidas, sinta‑se à vontade para entrar em contato através do [Asp
 - **Avaliação Gratuita**: Comece com uma avaliação em [Aspose PDF Java Downloads](https://releases.aspose.com/pdf/java/)  
 - **Licença Temporária**: Obtenha uma licença temporária em [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Última atualização:** 2025-12-20  
+**Testado com:** Aspose.PDF para Java 25.3  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -191,9 +197,3 @@ Se tiver dúvidas, sinta‑se à vontade para entrar em contato através do [Asp
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2025-12-20  
-**Testado com:** Aspose.PDF para Java 25.3  
-**Autor:** Aspose

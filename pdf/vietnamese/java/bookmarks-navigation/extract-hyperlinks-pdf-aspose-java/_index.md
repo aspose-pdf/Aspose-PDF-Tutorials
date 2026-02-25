@@ -6,7 +6,7 @@ keywords:
 - extract hyperlinks from pdf java
 - aspose.pdf hyperlink extraction
 - java pdf link annotation
-title: 'Hướng dẫn Aspose PDF Java: Trích xuất siêu liên kết từ PDF'
+title: 'Hướng dẫn Aspose PDF Java - Trích xuất siêu liên kết từ PDF'
 url: /vi/java/bookmarks-navigation/extract-hyperlinks-pdf-aspose-java/
 weight: 1
 ---
@@ -168,6 +168,12 @@ A5: Triển khai cơ chế kiểm tra lỗi khi xử lý URI, chẳng hạn như
 
 Hướng dẫn toàn diện này trang bị cho bạn kiến thức để trích xuất siêu liên kết từ PDF bằng Aspose.PDF cho Java. Chúc lập trình vui vẻ!
 
+---
+
+**Last Updated:** 2025-12-20  
+**Tested With:** Aspose.PDF 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -175,9 +181,3 @@ Hướng dẫn toàn diện này trang bị cho bạn kiến thức để trích
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.PDF 25.3 for Java  
-**Author:** Aspose

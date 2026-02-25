@@ -6,7 +6,7 @@ keywords:
 - expand PDF bookmarks
 - Aspose.PDF Java
 - PDF page mode
-title: Aspose PDF Java チュートリアル：Aspose.PDF を使用した PDF ブックマークの展開
+title: Aspose PDF Java チュートリアル - Aspose.PDF を使用した PDF ブックマークの展開
 url: /ja/java/bookmarks-navigation/expand-pdf-bookmarks-aspose-java/
 weight: 1
 ---
@@ -20,7 +20,7 @@ weight: 1
 
 複雑な PDF ドキュメントのナビゲーションが、ブックマークを自動的に展開するだけで楽になります。この **aspose pdf java tutorial** では、Aspose.PDF for Java で PDF ドキュメントを読み込み、適切なページモードを設定し、ブックマークをデフォルトで開く方法を学びます。この手法により、読者は余計なクリックなしで必要なセクションにすぐにジャンプでき、ユーザーエクスペリエンスが向上します。
 
-## Quick Answers
+## クイックアンサー
 - **このチュートリアルでカバーする内容は？** PDF の読み込み、ページモードの設定、ブックマークの展開、ファイルの保存。  
 - **必要なライブラリのバージョンは？** Aspose.PDF for Java 25.3 以降。  
 - **ライセンスは必要ですか？** 無料トライアルでテストは可能ですが、商用利用には商用ライセンスが必要です。  
@@ -86,13 +86,13 @@ document doc = new Document("path/to/your/input.pdf");
 // Load an existing PDF document from your specified directory
 document doc = new Document("YOUR_DOCUMENT_DIRECTORY/input.pdf");
 ```
-**Explanation:** 変更したい PDF を表す `Document` オブジェクトを作成します。プレースホルダーのパスは実際のファイル位置に置き換えてください。
+**説明：** 変更したい PDF を表す `Document` オブジェクトを作成します。プレースホルダーのパスは実際のファイル位置に置き換えてください。
 
 #### ページモードの設定
 ```java
 doc.setPageMode(PageMode.UseOutlines);
 ```
-**Explanation:** `setPageMode()` は PDF ビューアに対してファイルを開く方法を指示します。`UseOutlines` を指定すると、ビューアは自動的にブックマークペインを表示します。
+**説明：** `setPageMode()` は PDF ビューアに対してファイルを開く方法を指示します。`UseOutlines` を指定すると、ビューアは自動的にブックマークペインを表示します。
 
 #### ブックマークの展開
 ```java
@@ -101,13 +101,13 @@ for (int counter = 1; counter <= doc.getOutlines().size(); counter++) {
     doc.getOutlines().get_Item(counter).setOpen(true);
 }
 ```
-**Explanation:** ループがすべてのアウトラインエントリ（ブックマーク）を走査し、`Open` プロパティを `true` に設定することで、PDF を開いたときにすべてのブックマークが展開された状態になります。
+**説明：** ループがすべてのアウトラインエントリ（ブックマーク）を走査し、`Open` プロパティを `true` に設定することで、PDF を開いたときにすべてのブックマークが展開された状態になります。
 
 #### 変更後の PDF の保存
 ```java
 doc.save("YOUR_OUTPUT_DIRECTORY/Bookmarks_Expanded.pdf");
 ```
-**Explanation:** `save()` メソッドで変更を新しいファイルに書き出します。出力パスは必要に応じて調整してください。
+**説明：** `save()` メソッドで変更を新しいファイルに書き出します。出力パスは必要に応じて調整してください。
 
 ### 実用例
 PDF ブックマークの展開は、さまざまな実務シナリオで役立ちます：
@@ -125,7 +125,7 @@ PDF ブックマークの展開は、さまざまな実務シナリオで役立�
 - ドキュメントに数千件のエントリがある場合は、アウトラインを小さなバッチに分割して処理します。  
 - アプリケーションのメモリプロファイルに合わせて Java ヒープサイズ（`-Xmx`）を調整します。
 
-## Frequently Asked Questions
+## よくある質問
 **Q1: Aspose.PDF の無料トライアルはどう設定しますか？**  
 A1: [Aspose Free Trial ページ](https://releases.aspose.com/pdf/java/) からライブラリをダウンロードし、試用を開始してください。
 
@@ -141,7 +141,7 @@ A4: アウトラインを段階的に処理し、JVM ヒープサイズを `-Xmx
 **Q5: Aspose.PDF は商用プロジェクトに適していますか？**  
 A5: もちろんです。商用利用には [Aspose Purchase ページ](https://purchase.aspose.com/buy) からライセンスを取得してください。
 
-### Resources
+## リソース
 - **Documentation:** 詳細なガイドと API リファレンスは [Aspose PDF Documentation](https://reference.aspose.com/pdf/java/) を参照してください。  
 - **Download:** 最新バージョンの Aspose.PDF は [Downloads Page](https://releases.aspose.com/pdf/java/) から入手できます。  
 - **Purchase & Free Trial:** ライセンスオプションは [Aspose Purchase](https://purchase.aspose.com/buy) をご覧ください。  
