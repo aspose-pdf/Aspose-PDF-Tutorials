@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-14"
-"description": "Erfahren Sie, wie Sie PDF-Lesezeichen bearbeiten und Viewer-Einstellungen mit Aspose.PDF für Java anpassen. Verbessern Sie die Benutzerfreundlichkeit, indem Sie Navigations- und Layouteinstellungen beherrschen."
-"title": "Master Aspose.PDF Java – PDF-Lesezeichen bearbeiten und Viewer-Einstellungen konfigurieren"
-"url": "/de/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/"
-"weight": 1
+date: '2025-12-19'
+description: Erfahren Sie, wie Sie das PDF‑Seitenlayout ändern, PDF‑Lesezeichen bearbeiten
+  und die Viewer‑Einstellungen mit Aspose.PDF für Java anpassen. Beherrschen Sie Navigations‑
+  und Layoutpräferenzen für ein reibungsloseres Benutzererlebnis.
+keywords:
+- edit PDF bookmarks Java
+- Aspose.PDF viewer settings
+- configure PDF navigation Java
+title: 'PDF‑Seitenlayout in Java ändern - Lesezeichen und Einstellungen bearbeiten'
+url: /de/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,27 +17,37 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Master Aspose.PDF Java: PDF-Lesezeichen bearbeiten und Viewer-Einstellungen konfigurieren
+# PDF-Seitenlayout in Java ändern: Lesezeichen & Einstellungen bearbeiten
 
-## Einführung
-Das Navigieren in komplexen PDF-Dokumenten kann mühsam sein, wenn Lesezeichen falsch ausgerichtet oder die Anzeigeeinstellungen falsch eingestellt sind. Dieses Tutorial zeigt, wie Sie mit Aspose.PDF für Java vorhandene Lesezeichen bearbeiten und Anzeigeeinstellungen anpassen, um das Benutzererlebnis zu verbessern.
+## Einleitung
+Die Navigation in komplexen PDF‑Dokumenten kann mühsam sein, besonders wenn die **change PDF page layout**‑Einstellung nicht korrekt konfiguriert ist oder Lesezeichen auf falsche Stellen zeigen. In diesem Tutorial lernen Sie, wie Sie **change PDF page layout**, **PDF-Lesezeichen bearbeiten** und **PDF‑Viewer‑Einstellungen konfigurieren** mit Aspose.PDF für Java. Am Ende haben Sie die volle Kontrolle über die Navigation, Lesezeichen‑Ziele und die Darstellung des Dokuments für die Leser.
 
-**Was Sie lernen werden:**
-- Ändern Sie PDF-Lesezeichen, um genau auf den Seitenanfang zu verweisen.
-- Erstellen Sie während der PDF-Generierung präzise Lesezeichen mit bestimmten Zielen.
-- Passen Sie die Zuschauereinstellungen für eine optimale Präsentation an.
+**Was Sie lernen werden**
+- Wie man vorhandene PDF‑Lesezeichen bearbeitet, sodass sie auf den Anfang einer Seite zeigen.  
+- Wie man Lesezeichen‑Ziele beim Erstellen eines PDFs festlegt.  
+- Wie man Viewer‑Einstellungen wie das Seitenlayout ändert.  
+- Praktische Tipps zum Laden eines PDF‑Dokuments in Java und zur Leistungsoptimierung.
 
-Mit Aspose.PDF für Java erhalten Sie die volle Kontrolle über die Navigations- und Layouteinstellungen Ihres Dokuments. Wir richten Ihre Umgebung ein und implementieren diese Funktionen Schritt für Schritt.
+### Schnelle Antworten
+- **Was ist der primäre Weg, das PDF‑Seitenlayout zu ändern?** Verwenden Sie `PdfContentEditor.changeViewerPreference()` mit `ViewerPreference.PAGE_LAYOUT_SINGLE_PAGE`.  
+- **Kann ich Lesezeichen‑Ziele nach der PDF‑Erstellung bearbeiten?** Ja – laden Sie das Dokument, greifen Sie auf die Gliederung zu und setzen Sie ein neues `ExplicitDestination`.  
+- **Benötige ich eine Lizenz für diese Funktionen?** Eine kostenlose Testversion reicht für die Evaluierung; eine Voll‑Lizenz entfernt alle Einschränkungen.  
+- **Welche Maven‑Abhängigkeit ist erforderlich?** `com.aspose:aspose-pdf:25.3` (oder neuer).  
+- **Ist das mit Java 11 und höher kompatibel?** Absolut – Aspose.PDF unterstützt Java 8+.
 
-### Voraussetzungen
-Stellen Sie vor dem Start sicher, dass Sie über Folgendes verfügen:
-- **Bibliotheken und Abhängigkeiten**: Verwenden Sie Aspose.PDF für Java Version 25.3 oder höher.
-- **Umgebungs-Setup**: Ein funktionierendes Java-Entwicklungs-Setup mit installiertem JDK.
-- **Wissensanforderungen**: Grundlegende Kenntnisse in Java und der programmgesteuerten PDF-Verarbeitung.
+## Was bedeutet „change PDF page layout“?
+Das Ändern des PDF‑Seitenlayouts steuert, wie Seiten in einem Viewer angezeigt werden – Einzelseite, kontinuierlich, Zwei‑Seiten‑Ansicht usw. Die Anpassung dieser Einstellung verbessert die Lesbarkeit, insbesondere bei langen Berichten oder Katalogen.
 
-### Einrichten von Aspose.PDF für Java
-#### Maven-Installation
-Um Aspose.PDF in Ihr Projekt einzubinden, fügen Sie diese Abhängigkeit zu Ihrem `pom.xml`:
+## Warum PDF‑Lesezeichen bearbeiten und Lesezeichen‑Ziele festlegen?
+Lesezeichen fungieren wie ein Inhaltsverzeichnis. Präzise Ziele sorgen dafür, dass Leser sofort zum gewünschten Abschnitt springen, was Frustration reduziert und die Benutzererfahrung insgesamt verbessert.
+
+## Voraussetzungen
+- **Bibliotheken & Abhängigkeiten**: Aspose.PDF für Java v25.3 oder neuer.  
+- **Umgebung**: JDK 8 oder neuer, Maven‑ oder Gradle‑Build‑Tool.  
+- **Kenntnisse**: Grundlegende Java‑Programmierung und Vertrautheit mit PDF‑Konzepten.
+
+## Einrichtung von Aspose.PDF für Java
+### Maven-Installation
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -39,131 +55,142 @@ Um Aspose.PDF in Ihr Projekt einzubinden, fügen Sie diese Abhängigkeit zu Ihre
     <version>25.3</version>
 </dependency>
 ```
-#### Gradle-Installation
-Für Gradle-Benutzer fügen Sie dies zu Ihrem `build.gradle`:
+### Gradle-Installation
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
-**Lizenzerwerb**: Starten Sie mit einer kostenlosen Testversion oder fordern Sie eine temporäre Lizenz für uneingeschränkten Zugriff auf alle Funktionen an. Für eine langfristige Nutzung können Sie eine Volllizenz erwerben.
-#### Grundlegende Initialisierung
-So beginnen Sie mit der Verwendung von Aspose.PDF:
+**Lizenzbeschaffung**: Beginnen Sie mit einer kostenlosen Testversion oder beantragen Sie eine temporäre Lizenz für den vollen Funktionsumfang. Erwägen Sie den Kauf einer dauerhaften Lizenz für den Produktionseinsatz.
+
+### Grundlegende Initialisierung
 ```java
 import com.aspose.pdf.Document;
 
 public class PDFSetup {
     public static void main(String[] args) {
-        // Dokumentobjekt initialisieren
+        // Initialize document object
         Document pdfDocument = new Document("path/to/your/pdf");
         
         System.out.println("Aspose.PDF for Java initialized successfully.");
     }
 }
 ```
-### Implementierungshandbuch
-In diesem Abschnitt wird das Bearbeiten von Lesezeichen, das Festlegen von Zielen während der PDF-Erstellung und das Ändern der Viewer-Einstellungen behandelt.
-#### Bearbeiten vorhandener Lesezeichen, um auf den Seitenanfang zu verweisen
-**Überblick**: Passen Sie Lesezeichen so an, dass sie genau auf den Anfang einer bestimmten Seite in Ihrem Dokument zeigen.
-1. **Zugriff auf Lesezeichen**
-   Laden Sie Ihr PDF und greifen Sie auf die Lesezeichenübersicht zu:
-   ```java
-   import com.aspose.pdf.Document;
-   import com.aspose.pdf.ExplicitDestination;
-   import com.aspose.pdf.OutlineItemCollection;
 
-   Document pdfDocument = new Document("YOUR_DOCUMENT_DIRECTORY/input.pdf");
-   OutlineItemCollection pdfOutline = pdfDocument.getOutlines().get_Item(1);
-   ```
-2. **Festlegen eines neuen Ziels**
-   Aktualisieren Sie das Ziel, um sicherzustellen, dass es auf den Anfang einer Seite verweist:
-   ```java
-   pdfOutline.setDestination(
-       ExplicitDestination.createDestination(pdfDocument.getPages().get_Item(1),
-           ExplicitDestinationType.FitH,
-           pdfDocument.getPages().get_Item(1).getMediaBox().getHeight())
-   );
-   ```
-3. **Änderungen speichern**
-   Speichern Sie Ihr aktualisiertes PDF-Dokument:
-   ```java
-   String outputDir = "YOUR_OUTPUT_DIRECTORY/bookmarkShouldPointToStartOfPage.pdf";
-   pdfDocument.save(outputDir);
-   ```
-#### Erstellen neuer Lesezeichen mit bestimmten Zielen
-**Überblick**: Erstellen Sie Lesezeichen, die Benutzer direkt zu den gewünschten Stellen in Ihrem neu generierten PDF führen.
-1. **Lesezeichen erstellen und konfigurieren**
-   Initialisieren Sie ein neues Lesezeichen und legen Sie seine Eigenschaften fest:
-   ```java
-   import com.aspose.pdf.GoToAction;
-   import com.aspose.pdf.FitVExplicitDestination;
+## Implementierungsleitfaden
+### Wie man das PDF‑Seitenlayout in Java ändert
+**Übersicht**: Passen Sie Viewer‑Einstellungen an, um Seiten so anzuzeigen, wie Sie es wünschen.
 
-   OutlineItemCollection pdfOutline_new = new OutlineItemCollection(pdfDocument.getOutlines());
-   pdfOutline_new.setTitle("Test Bookmark");
-   pdfOutline_new.setItalic(true);
-   pdfOutline_new.setBold(true);
-   ```
-2. **Lesezeichenziel definieren**
-   Geben Sie das Ziel für Ihr Lesezeichen an:
-   ```java
-   pdfOutline_new.setAction(new GoToAction(
-       new FitVExplicitDestination(pdfDocument.getPages().get_Item(2), 0)));
-   ```
-3. **Hinzufügen und Speichern der PDF**
-   Fügen Sie das Lesezeichen zur Gliederung des Dokuments hinzu und speichern Sie es:
-   ```java
-   pdfDocument.getOutlines().add(pdfOutline_new);
-   
-   String outputDir = "YOUR_OUTPUT_DIRECTORY/setDestinationWhileCreatingPDF.pdf";
-   pdfDocument.save(outputDir);
-   ```
-#### Festlegen der Viewer-Einstellungen
-**Überblick**: Passen Sie die Anzeige Ihrer PDF-Datei an, indem Sie bestimmte Anzeigeeinstellungen wie das Seitenlayout festlegen.
-1. **Initialisieren von PdfContentEditor**
-   Verwenden Sie die `PdfContentEditor` Klasse zum Ändern der Dokumenteinstellungen:
-   ```java
-   import com.aspose.pdf.facades.PdfContentEditor;
-   import com.aspose.pdf.facades.ViewerPreference;
+#### Initialisierung von PdfContentEditor
+```java
+import com.aspose.pdf.facades.PdfContentEditor;
+import com.aspose.pdf.facades.ViewerPreference;
 
-   PdfContentEditor editor = new PdfContentEditor();
-   editor.bindPdf("YOUR_DOCUMENT_DIRECTORY/input.pdf");
-   ```
-2. **Ändern der Viewer-Einstellungen**
-   Stellen Sie die Viewer-Einstellungen auf Einzelseitenlayout ein:
-   ```java
-   editor.changeViewerPreference(ViewerPreference.PAGE_LAYOUT_SINGLE_PAGE);
-   ```
-3. **Aktualisiertes Dokument speichern**
-   Speichern Sie die Änderungen an Ihrer PDF-Datei:
-   ```java
-   String outputDir = "YOUR_OUTPUT_DIRECTORY/settingViewerPreferences.pdf";
-   editor.save(outputDir);
-   ```
-### Praktische Anwendungen
-1. **Digitale Bücher**: Verbessern Sie digitale Bücher, indem Sie sicherstellen, dass Lesezeichen direkt zum Kapitelanfang führen.
-2. **Berichte und Handbücher**: Verbessern Sie die Navigation in technischen Dokumenten mit präzisen Lesezeichen- und Viewer-Konfigurationen.
-3. **E-Commerce-Produktkataloge**: Optimieren Sie Produktkataloge für die Einzelseitenanzeige und machen Sie sie benutzerfreundlicher.
-### Überlegungen zur Leistung
-- **Ressourcen optimieren**: Verwenden Sie beim Verarbeiten großer PDF-Dateien effiziente Datenstrukturen, um den Speicherverbrauch zu minimieren.
-- **Java-Speicherverwaltung**Achten Sie bei Aspose.PDF auf die Speicherbereinigung und Ressourcenentsorgung, um die Leistung aufrechtzuerhalten.
-### Abschluss
-Sie verfügen nun über die Tools, um Lesezeichen präzise zu bearbeiten, präzise Navigationspunkte während der PDF-Erstellung zu erstellen und die Anzeigeeinstellungen für Ihre Dokumente anzupassen. Entdecken Sie zusätzliche Funktionen von Aspose.PDF und integrieren Sie diese in größere Java-Projekte.
-**Nächste Schritte**: Erwägen Sie die Erkundung erweiterter Dokumentbearbeitungstechniken mit Aspose.PDF und die Integration dieser Funktionen in größere Java-Anwendungen.
-### FAQ-Bereich
-1. **Was ist Aspose.PDF?**
-   - Eine leistungsstarke Bibliothek zum Verwalten von PDFs in Java, die Funktionen wie das Bearbeiten, Erstellen und Konvertieren von PDF-Dokumenten bietet.
-2. **Wie bearbeite ich Lesezeichen in einer PDF-Datei mit Aspose.PDF?**
-   - Laden Sie das Dokument, greifen Sie auf das gewünschte Lesezeichen zu, ändern Sie dessen Ziel und speichern Sie die Änderungen wie in diesem Lernprogramm gezeigt.
-3. **Kann Aspose.PDF Viewer-Einstellungen für das Einzelseitenlayout festlegen?**
-   - Ja, mit `PdfContentEditor`können Sie Viewer-Einstellungen wie das Seitenlayout einfach anpassen, um die Lesbarkeit zu verbessern.
-4. **Gibt es eine kostenlose Testversion für Aspose.PDF?**
-   - Absolut! Starten Sie mit einer kostenlosen Testversion oder fordern Sie eine temporäre Lizenz an, um alle Funktionen uneingeschränkt zu nutzen.
-5. **Was sind die Best Practices für die Verwaltung von PDFs in Java mit Aspose.PDF?**
-   - Nutzen Sie eine effiziente Speicherverwaltung, nutzen Sie, wenn möglich, die Stapelverarbeitung und speichern Sie Änderungen immer, um Datenverlust zu vermeiden.
-### Ressourcen
-- **Dokumentation**: [Aspose.PDF Java-Referenz](https://reference.aspose.com/pdf/java/)
-- **Herunterladen**: [Neueste Versionen für Java](https://releases.aspose.com/pdf/java/)
-- **Kaufen**: [Aspose.PDF-Lizenz kaufen](https://purchase.aspose.com/buy)
-- **Kostenlose Testversion**: [Testen Sie Aspose.PDF kostenlos](https://releases.aspose.com/pdf/java/)
-- **Temporäre Lizenz**: [Temporäre Lizenz anfordern](https://purchase.aspose.com/temporary-license)
+PdfContentEditor editor = new PdfContentEditor();
+editor.bindPdf("YOUR_DOCUMENT_DIRECTORY/input.pdf");
+```
+#### Ändern von Viewer‑Einstellungen
+```java
+editor.changeViewerPreference(ViewerPreference.PAGE_LAYOUT_SINGLE_PAGE);
+```
+#### Speichern des aktualisierten Dokuments
+```java
+String outputDir = "YOUR_OUTPUT_DIRECTORY/settingViewerPreferences.pdf";
+editor.save(outputDir);
+```
+
+### Wie man PDF‑Lesezeichen bearbeitet
+**Übersicht**: Passen Sie vorhandene Lesezeichen an, sodass sie exakt auf den Anfang einer bestimmten Seite zeigen.
+
+#### Zugriff auf Lesezeichen
+```java
+import com.aspose.pdf.Document;
+import com.aspose.pdf.ExplicitDestination;
+import com.aspose.pdf.OutlineItemCollection;
+
+Document pdfDocument = new Document("YOUR_DOCUMENT_DIRECTORY/input.pdf");
+OutlineItemCollection pdfOutline = pdfDocument.getOutlines().get_Item(1);
+```
+#### Festlegen eines neuen Ziels
+```java
+pdfOutline.setDestination(
+    ExplicitDestination.createDestination(pdfDocument.getPages().get_Item(1),
+        ExplicitDestinationType.FitH,
+        pdfDocument.getPages().get_Item(1).getMediaBox().getHeight())
+);
+```
+#### Änderungen speichern
+```java
+String outputDir = "YOUR_OUTPUT_DIRECTORY/bookmarkShouldPointToStartOfPage.pdf";
+pdfDocument.save(outputDir);
+```
+
+### Wie man ein Lesezeichen‑Ziel beim Erstellen eines PDFs festlegt
+**Übersicht**: Erstellen Sie Lesezeichen, die Benutzer direkt zu gewünschten Positionen in einem neu generierten PDF führen.
+
+#### Erstellen und Konfigurieren von Lesezeichen
+```java
+import com.aspose.pdf.GoToAction;
+import com.aspose.pdf.FitVExplicitDestination;
+
+OutlineItemCollection pdfOutline_new = new OutlineItemCollection(pdfDocument.getOutlines());
+pdfOutline_new.setTitle("Test Bookmark");
+pdfOutline_new.setItalic(true);
+pdfOutline_new.setBold(true);
+```
+#### Definieren des Lesezeichen‑Ziels
+```java
+pdfOutline_new.setAction(new GoToAction(
+    new FitVExplicitDestination(pdfDocument.getPages().get_Item(2), 0)));
+```
+#### Hinzufügen und Speichern des PDFs
+```java
+pdfDocument.getOutlines().add(pdfOutline_new);
+
+String outputDir = "YOUR_OUTPUT_DIRECTORY/setDestinationWhileCreatingPDF.pdf";
+pdfDocument.save(outputDir);
+```
+
+## Praktische Anwendungen
+1. **Digitale Bücher** – Sicherstellen, dass jedes Kapitel‑Lesezeichen oben auf der Seite landet für ein nahtloses Leseerlebnis.  
+2. **Technische Handbücher** – Präzise Navigation hilft Ingenieuren, Abschnitte schnell zu finden, besonders in großen PDFs.  
+3. **Produktkataloge** – Einzelseiten‑Layout macht das Durchsuchen von Katalogen auf Tablets intuitiver.
+
+## Leistungsüberlegungen
+- **Ressourcenoptimierung**: Beim Umgang mit großen PDFs verwenden Sie `Document.optimizeResources()`, um den Speicherverbrauch zu reduzieren.  
+- **Java‑Speicherverwaltung**: Schließen Sie Streams explizit und lassen Sie den Garbage Collector Objekte nach der Verarbeitung freigeben.
+
+## Häufige Probleme & Lösungen
+- **Lesezeichen werden nicht aktualisiert**: Vergewissern Sie sich, dass Sie den richtigen Gliederungs‑Index ändern (`get_Item(1)` bezieht sich auf das erste Lesezeichen der obersten Ebene).  
+- **Viewer‑Einstellung wird nicht angewendet**: Stellen Sie sicher, dass Sie `editor.save()` nach dem Ändern der Einstellungen aufrufen; sonst bleiben die Änderungen nur im Speicher.  
+- **Lizenz‑Ausnahmen**: Eine Testlizenz kann Wasserzeichen hinzufügen; für die Produktion benötigen Sie eine Voll‑Lizenz.
+
+## Häufig gestellte Fragen
+**F: Was ist der einfachste Weg, ein PDF‑Dokument in Java zu laden?**  
+A: Verwenden Sie `new Document("path/to/file.pdf")`; Aspose.PDF erkennt das Dateiformat automatisch.
+
+**F: Kann ich das Seitenlayout ändern, ohne PdfContentEditor zu benutzen?**  
+A: Ja, Sie können Viewer‑Einstellungen direkt am `Document`‑Objekt über `pdfDocument.getViewerPreferences().setPageLayout(...)` setzen.
+
+**F: Wirkt sich das Ändern des Viewer‑Layouts auf den Druck aus?**  
+A: Das Viewer‑Layout beeinflusst nur die Anzeige auf dem Bildschirm; es ändert nicht das gedruckte Ergebnis.
+
+**F: Gibt es Begrenzungen für die Anzahl der Lesezeichen, die ich erstellen kann?**  
+A: Keine explizite Begrenzung, aber sehr große Gliederungsbäume können die Leistung beeinträchtigen; halten Sie sie organisiert.
+
+**F: Wie stelle ich sicher, dass Lesezeichen‑Ziele nach dem Hinzufügen oder Entfernen von Seiten korrekt bleiben?**  
+A: Berechnen Sie die Ziele nach strukturellen Änderungen erneut anhand der aktuellen Seitenindizes.
+
+## Ressourcen
+- **Dokumentation**: [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/)
+- **Download**: [Latest Releases for Java](https://releases.aspose.com/pdf/java/)
+- **Kauf**: [Buy Aspose.PDF License](https://purchase.aspose.com/buy)
+- **Kostenlose Testversion**: [Try Aspose.PDF Free](https://releases.aspose.com/pdf/java/)
+- **Temporäre Lizenz**: [Request Temporary License](https://purchase.aspose.com/temporary-license)
+
+---
+
+**Letzte Aktualisierung:** 2025-12-19  
+**Getestet mit:** Aspose.PDF für Java v25.3  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
