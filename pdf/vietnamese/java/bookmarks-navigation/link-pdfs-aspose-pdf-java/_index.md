@@ -149,6 +149,12 @@ Khám phá các loại chú thích khác (ví dụ, `TextAnnotation`, `LinkAnnot
 
 Khám phá các tài nguyên này để nâng cao kỹ năng của bạn với Aspose.PDF cho Java. Chúc lập trình vui vẻ!
 
+---
+
+**Cập nhật lần cuối:** 2025-12-22  
+**Kiểm tra với:** Aspose.PDF for Java 25.3  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -156,9 +162,3 @@ Khám phá các tài nguyên này để nâng cao kỹ năng của bạn với A
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-12-22  
-**Kiểm tra với:** Aspose.PDF for Java 25.3  
-**Tác giả:** Aspose

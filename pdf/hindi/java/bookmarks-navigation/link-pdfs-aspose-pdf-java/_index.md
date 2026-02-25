@@ -149,6 +149,12 @@ PDF के बीच हाइपरलिंक एम्बेड करना
 
 इन संसाधनों का अन्वेषण करके Aspose.PDF for Java में अपनी महारत को गहरा करें। Happy coding!
 
+---
+
+**Last Updated:** 2025-12-22  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -156,9 +162,3 @@ PDF के बीच हाइपरलिंक एम्बेड करना
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-22  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

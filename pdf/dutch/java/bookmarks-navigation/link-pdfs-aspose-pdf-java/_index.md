@@ -149,6 +149,12 @@ Ontdek andere annotatietypen (bijv. `TextAnnotation`, `LinkAnnotation` met URLâ€
 
 Verken deze bronnen om je beheersing van Aspose.PDF for Java te verdiepen. Veel programmeerplezier!
 
+---
+
+**Laatst bijgewerkt:** 2025-12-22  
+**Getest met:** Aspose.PDF for Java 25.3  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -156,9 +162,3 @@ Verken deze bronnen om je beheersing van Aspose.PDF for Java te verdiepen. Veel 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2025-12-22  
-**Getest met:** Aspose.PDF for Java 25.3  
-**Auteur:** Aspose

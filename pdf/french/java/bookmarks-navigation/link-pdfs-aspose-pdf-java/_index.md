@@ -148,6 +148,12 @@ Explorez d’autres types d’annotation (par ex., `TextAnnotation`, `LinkAnnota
 
 Explorez ces ressources pour approfondir votre maîtrise d’Aspose.PDF pour Java. Bon codage !
 
+---
+
+**Last Updated:** 2025-12-22  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -155,9 +161,3 @@ Explorez ces ressources pour approfondir votre maîtrise d’Aspose.PDF pour Jav
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-22  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

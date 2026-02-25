@@ -148,6 +148,12 @@ pdfDocument.save("YOUR_OUTPUT_DIRECTORY/Hyperlink_to_PDF.pdf");
 
 探索這些資源，深化您對 Aspose.PDF for Java 的掌握。祝開發順利！
 
+---
+
+**最後更新:** 2025-12-22  
+**測試環境:** Aspose.PDF for Java 25.3  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -155,9 +161,3 @@ pdfDocument.save("YOUR_OUTPUT_DIRECTORY/Hyperlink_to_PDF.pdf");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新:** 2025-12-22  
-**測試環境:** Aspose.PDF for Java 25.3  
-**作者:** Aspose

@@ -149,6 +149,12 @@ Fedezzen fel más annotáció típusokat (pl. `TextAnnotation`, `LinkAnnotation`
 
 Fedezze fel ezeket az erőforrásokat, hogy elmélyítse az Aspose.PDF for Java használatában szerzett tudását. Boldog kódolást!
 
+---
+
+**Last Updated:** 2025-12-22  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -156,9 +162,3 @@ Fedezze fel ezeket az erőforrásokat, hogy elmélyítse az Aspose.PDF for Java 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-22  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

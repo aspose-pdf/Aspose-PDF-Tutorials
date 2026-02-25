@@ -148,6 +148,12 @@ pdfDocument.save("YOUR_OUTPUT_DIRECTORY/Hyperlink_to_PDF.pdf");
 
 สำรวจแหล่งข้อมูลเหล่านี้เพื่อเพิ่มพูนความเชี่ยวชาญของคุณใน Aspose.PDF for Java. Happy coding!
 
+---
+
+**อัปเดตล่าสุด:** 2025-12-22  
+**ทดสอบด้วย:** Aspose.PDF for Java 25.3  
+**ผู้เขียน:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -155,9 +161,3 @@ pdfDocument.save("YOUR_OUTPUT_DIRECTORY/Hyperlink_to_PDF.pdf");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**อัปเดตล่าสุด:** 2025-12-22  
-**ทดสอบด้วย:** Aspose.PDF for Java 25.3  
-**ผู้เขียน:** Aspose

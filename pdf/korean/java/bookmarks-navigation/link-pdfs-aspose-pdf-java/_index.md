@@ -148,6 +148,12 @@ PDF 간에 하이퍼링크를 삽입하는 것은 다양한 시나리오에서 �
 
 이 리소스를 탐색하여 Aspose.PDF for Java에 대한 숙련도를 높이세요. 즐거운 코딩 되세요!
 
+---
+
+**Last Updated:** 2025-12-22  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -155,9 +161,3 @@ PDF 간에 하이퍼링크를 삽입하는 것은 다양한 시나리오에서 �
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-22  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

@@ -66,7 +66,7 @@ Aspose.PDF oferuje darmową wersję próbną do testowania funkcji, z opcjami ty
 ## Jak dodać link do PDF przy użyciu Aspose.PDF for Java
 Poniżej znajduje się przewodnik krok po kroku, który tworzy hiperłącze w jednym PDF prowadzące do innego dokumentu PDF.
 
-### Step 1: Initialize the Document
+### Krok 1: Zainicjuj dokument
 Najpierw utwórz nowy dokument PDF i dodaj pustą stronę, na której będzie znajdował się link.
 
 ```java
@@ -74,7 +74,7 @@ Document pdfDocument = new Document();
 pdfDocument.getPages().add();
 ```
 
-### Step 2: Define the Link Location
+### Krok 2: Zdefiniuj lokalizację linku
 Określ prostokątny obszar, który stanie się klikalny.
 
 ```java
@@ -82,7 +82,7 @@ Rectangle rect = new Rectangle(100, 100, 110, 110);
 LinkAnnotation link = new LinkAnnotation(pdfDocument.getPages().get_Item(1), rect);
 ```
 
-### Step 3: Set Link Properties
+### Krok 3: Ustaw właściwości linku
 Dostosuj wygląd i określ docelowy PDF oraz numer strony.
 
 ```java
@@ -90,64 +90,70 @@ link.setColor(Color.fromRgb(java.awt.Color.green));
 link.setAction(new GoToRemoteAction("YOUR_DOCUMENT_DIRECTORY/SampleDataTable.pdf", 1));
 ```
 
-### Step 4: Add the Link Annotation to the Page
+### Krok 4: Dodaj adnotację linku do strony
 Dołącz adnotację do pierwszej strony dokumentu.
 
 ```java
 pdfDocument.getPages().get_Item(1).getAnnotations().add(link);
 ```
 
-### Step 5: Save the Modified PDF
+### Krok 5: Zapisz zmodyfikowany plik PDF
 Zapisz plik wyjściowy na dysku.
 
 ```java
 pdfDocument.save("YOUR_OUTPUT_DIRECTORY/Hyperlink_to_PDF.pdf");
 ```
 
-#### Troubleshooting Tips
-- **Błędy brakujących zależności:** Sprawdź wpisy Maven/Gradle i wykonaj czyste budowanie.  
-- **Nieprawidłowe położenie linku:** Dostosuj współrzędne `Rectangle`, aby pasowały do żądanego obszaru.  
-- **Nie znaleziono pliku docelowego:** Upewnij się, że ścieżka w `GoToRemoteAction` wskazuje na istniejący plik PDF.
+#### Wskazówki dotyczące rozwiązywania problemów
+- **Błędy hamulcowe zależne:** Sprawdź wpisy Maven/Gradle i wykonaj czyste obliczenia.
+- **Nieprawidłowe położenie linku:** Dostosuj współrzędne `Rectangle`, aby zastosować do zastosowanianego obszaru.
+- **Nie znaleziono pliku docelowego:** zastosowanie, że śledzenie w `GoToRemoteAction` następuje na skutek pliku PDF.
 
-## Praktyczne zastosowania dodawania linku do PDF
-Osadzanie hiperłączy między PDF‑ami jest przydatne w wielu scenariuszach:
+## Praktyczne zastosowanie dodawania linku do PDF
+Osadzenie hiperłączy między PDF-ami jest uzależnione w wielu scenariuszach:
 
-1. **Dokumenty prawne:** Odwołania do klauzul, załączników lub aneksów przechowywanych w osobnych plikach.  
-2. **Artykuły naukowe:** Linki do dodatkowych zestawów danych, repozytoriów kodu lub rozszerzonych sekcji metodologicznych.  
-3. **Materiały edukacyjne:** Połączenie rozdziałów podręcznika z dodatkowymi materiałami lub interaktywnymi quizami.  
+1. **Dokumenty prawne:** Odwołania do przepisów, uwagach lub zastrzeżeniach przechowywanych w określonych plikach.
+2. **Artykuły naukowe:** Linki do dodatkowych zestawów danych, repozytoriów kodu lub rozszerzonych sekcji metodologicznych.
+3. **Materiały edukacyjne:** Połączenie rozdziałów podręczników z przełącznikami materiałowymi lub interaktywnymi quizami.
 
 ## Rozważania dotyczące wydajności
-- **Zarządzanie pamięcią:** Przy dużych partiach monitoruj zużycie sterty JVM i rozważ przetwarzanie plików w strumieniach.  
-- **Obciążenie adnotacjami:** Utrzymuj licę adnotacji na rozsądnym poziomie; każda z nich dodaje niewielki koszt przetwarzania.  
-- **Operacje asynchroniczne:** Skorzystaj z `CompletableFuture` w Javie do równoległego przetwarzania wielu PDF‑ów.
+- **Zarządzanie pamięcią:** Przy dużych partycjach monitoruj niszczonych sterty JVM i przesyłanie plików w strumieniach.
+- **Obciążenie adnotacjami:** Utrzymuj lice adnotacji na poziomie; Każda z nich jest dostępna w ramach niewielkiego kosztu przetwarzania.
+- **Operacje asynchroniczne:** wykorzystanie z `CompletableFuture` w Javie do równoległego przetwarzania wielu PDF-ów.
 
 ## Zakończenie
-Teraz wiesz, jak **dodawać linki do PDF** przy użyciu Aspose.PDF for Java. Ta funkcjonalność usprawnia nawigację w dokumentach, poprawia doświadczenie użytkownika i otwiera drzwi do zaawansowanych przepływów pracy z PDF‑ami.
+Teraz wiesz, jak **dostarczyć link do PDF** przy użyciu Aspose.PDF dla Java. Ta usprawnienie nawigacji w dokumentach, poprawia doświadczenie użytkownika i otwiera drzwi do zaawansowanych przepływów pracy z PDF-ami.
 
-**Next Steps:**  
-Zbadaj inne typy adnotacji (np. `TextAnnotation`, `LinkAnnotation` z URL‑ami), eksperymentuj z dynamicznym generowaniem linków lub zintegrować tę logikę z większym potokiem generowania dokumentów.
+**Następne kroki:**
+Zbadaj inne typy adnotacji (np. `TextAnnotation`, `LinkAnnotation` z URL-ami), eksperymentuj z dynamicznym generowaniem linków lub integruj tę logikę z większym potokiem wyników dokumentów.
 
-## Frequently Asked Questions
-1. **Co zrobić, gdy mój link nie działa?**  
-   Upewnij się, że ścieżka do docelowego PDF jest poprawna i plik istnieje w podanej lokalizacji.  
-2. **Czy mogę zmienić kolor hiperłącza?**  
-   Tak — użyj `link.setColor(Color.fromRgb(java.awt.Color.<COLOR_NAME>));`, aby dostosować kolor.  
-3. **Czy można linkować do konkretnego tekstu lub obiektu na innej stronie?**  
-   Aspose.PDF obsługuje nawigację na poziomie stron; linkowanie na poziomie obiektów wymaga dodatkowych działań, takich jak nazwane cele (named destinations).  
-4. **Jak obsłużyć wiele linków w jednym dokumencie?**  
-   Utwórz dodatkowe instancje `LinkAnnotation`, każdą z własnym prostokątem i akcją, i dodaj je do kolekcji adnotacji strony.  
-5. **Jakie są najlepsze praktyki używania Aspose.PDF z Java?**  
-   Utrzymuj bibliotekę aktualną, ponownie używaj obiektów `Document` kiedy to możliwe i korzystaj z forów społecznościowych w celu rozwiązywania problemów.
+## Często zadawane pytania
+1. **Co Reg, gdy mój link nie działa?** 
+następuje, że ścieżka do docelowego pliku PDF jest poprawna i plik znajduje się w podanej lokalizacji.
+2. **Czy mogę zmienić kolor hiperłącza?** 
+Tak — `link.setColor(Color.fromRgb(java.awt.Color.<COLOR_NAME>));`, aby dostosować kolor.
+3. **Czy można linkować do tekstu lub obiektu na innej stronie?** 
+Aspose.PDF obsługuje nawigację na poziomie stron; linkowanie na poziomie zagadnień wymaga dodatkowych działań, takich jak nazwane cele (nazwane miejsca docelowe).
+4. **Jak obsłuży wiele linków w jednej trwałości?** 
+Utwórz dodatkowe instancje `LinkAnnotation`, każde z naturalnym dramatem i akcją, i dodaj je do kolekcji adnotacji strony.
+5. **Jakie są najlepsze praktyki stosowania Aspose.PDF z Java?** 
+Utrzymuj bibliotekę wtórną, ponownie używaj obiektów `Document`, kiedy będzie to możliwe i skorzystaj z forów społecznościowych w celu osiągnięcia problemów.
 
-## Resources
-- **Documentation:** [Aspose.PDF Documentation](https://reference.aspose.com/pdf/java/)  
-- **Download Library:** [Releases Page](https://releases.aspose.com/pdf/java/)  
-- **Purchase a License:** [Buy Aspose](https://purchase.aspose.com/buy)  
-- **Free Trial:** [Get Started](https://releases.aspose.com/pdf/java/)  
-- **Temporary License:** [Apply Here](https://purchase.aspose.com/temporary-license/)  
-- **Support Forum:** [Aspose Community](https://forum.aspose.com/c/pdf/10)
+## Zasoby
+- **Dokumentacja:** [Dokumentacja Aspose.PDF](https://reference.aspose.com/pdf/java/)
+- **Biblioteka do pobrania:** [Strona wydań](https://releases.aspose.com/pdf/java/)
+- **Kup licencję:** [Kup Aspose](https://purchase.aspose.com/buy)
+- **Bezpłatna wersja próbna:** [Rozpocznij](https://releases.aspose.com/pdf/java/)
+- **Licencja tymczasowa:** [Złóż wniosek tutaj](https://purchase.aspose.com/temporary-license/)
+- **Forum wsparcia:** [Społeczność Aspose](https://forum.aspose.com/c/pdf/10)
 
-Odkryj te zasoby, aby pogłębić swoją wiedzę o Aspose.PDF for Java. Szczęśliwego kodowania!
+Odkryj te zasoby, aby pogłębić swoją wiedzę o Aspose.PDF dla Javy. Szczęśliwego kodowania!
+
+---
+
+**Ostatnia aktualizacja:** 2025-12-22
+**Testowano z:** Aspose.PDF dla Javy 25.3
+**Autor:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -156,9 +162,3 @@ Odkryj te zasoby, aby pogłębić swoją wiedzę o Aspose.PDF for Java. Szczęś
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-22  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

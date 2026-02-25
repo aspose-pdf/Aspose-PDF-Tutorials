@@ -149,6 +149,12 @@ Jelajahi tipe anotasi lain (mis., `TextAnnotation`, `LinkAnnotation` dengan URL)
 
 Jelajahi sumber daya ini untuk memperdalam penguasaan Anda atas Aspose.PDF untuk Java. Selamat coding!
 
+---
+
+**Last Updated:** 2025-12-22  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -156,9 +162,3 @@ Jelajahi sumber daya ini untuk memperdalam penguasaan Anda atas Aspose.PDF untuk
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-22  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

@@ -147,6 +147,12 @@ Explore other annotation types (e.g., `TextAnnotation`, `LinkAnnotation` with UR
 
 Explore these resources to deepen your mastery of Aspose.PDF for Java. Happy coding!
 
+---
+
+**Last Updated:** 2025-12-22  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -154,9 +160,3 @@ Explore these resources to deepen your mastery of Aspose.PDF for Java. Happy cod
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-22  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

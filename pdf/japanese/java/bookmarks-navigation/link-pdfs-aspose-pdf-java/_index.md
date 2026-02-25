@@ -20,7 +20,7 @@ weight: 1
 
 今日のデジタル環境では、**PDF へのリンク追加** をプログラムで行うことは、関連リソースへ読者を誘導するインタラクティブな文書を作成する上で不可欠です。法務ブリーフ、研究レポート、e‑ラーニングモジュールなど、別の PDF を指すハイパーリンクを埋め込むことで、ナビゲーションがシームレスになります。本チュートリアルでは、Aspose.PDF for Java を使用して、プロジェクトのセットアップから最終的な保存までの全工程を解説します。
 
-## Quick Answers
+## クイックアンサー
 - **“add link to PDF” とは何ですか？** クリック可能な領域を埋め込み、選択されたときに別の PDF（または特定のページ）を開くことです。  
 - **このタスクに最適なライブラリはどれですか？** Aspose.PDF for Java は、PDF アノテーションの作成と管理に強力な API を提供します。  
 - **ライセンスは必要ですか？** 開発段階では無料トライアルで利用可能です。商用環境では有償ライセンスが必要です。  
@@ -124,7 +124,7 @@ PDF 間のハイパーリンクはさまざまなシナリオで有用です。
 **次のステップ:**  
 他のアノテーションタイプ（例: `TextAnnotation`、URL を持つ `LinkAnnotation`）を試したり、動的リンク生成を実験したり、ドキュメント生成パイプラインに組み込んでみてください。
 
-## Frequently Asked Questions
+## よくある質問
 1. **リンクが機能しない場合は？**  
    対象 PDF のパスが正しく、指定場所にファイルが存在することを確認してください。  
 2. **ハイパーリンクの色を変更できますか？**  
@@ -136,7 +136,7 @@ PDF 間のハイパーリンクはさまざまなシナリオで有用です。
 5. **Java で Aspose.PDF を使用する際のベストプラクティスは？**  
    ライブラリは常に最新バージョンに保ち、`Document` オブジェクトは可能な限り再利用し、コミュニティフォーラムで情報収集・問題解決を行ってください。  
 
-## Resources
+## リソース
 - **ドキュメント:** [Aspose.PDF Documentation](https://reference.aspose.com/pdf/java/)  
 - **ライブラリのダウンロード:** [Releases Page](https://releases.aspose.com/pdf/java/)  
 - **ライセンス購入:** [Buy Aspose](https://purchase.aspose.com/buy)  
@@ -146,6 +146,12 @@ PDF 間のハイパーリンクはさまざまなシナリオで有用です。
 
 これらのリソースを活用して、Aspose.PDF for Java の習熟度をさらに高めてください。ハッピーコーディング！
 
+---
+
+**Last Updated:** 2025-12-22  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -153,9 +159,3 @@ PDF 間のハイパーリンクはさまざまなシナリオで有用です。
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-22  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

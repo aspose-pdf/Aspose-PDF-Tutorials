@@ -149,6 +149,12 @@ Utforska andra annotationstyper (t.ex. `TextAnnotation`, `LinkAnnotation` med UR
 
 Utforska dessa resurser för att fördjupa din kunskap om Aspose.PDF för Java. Lycka till med kodningen!
 
+---
+
+**Senast uppdaterad:** 2025-12-22  
+**Testad med:** Aspose.PDF for Java 25.3  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -156,9 +162,3 @@ Utforska dessa resurser för att fördjupa din kunskap om Aspose.PDF för Java. 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2025-12-22  
-**Testad med:** Aspose.PDF for Java 25.3  
-**Författare:** Aspose

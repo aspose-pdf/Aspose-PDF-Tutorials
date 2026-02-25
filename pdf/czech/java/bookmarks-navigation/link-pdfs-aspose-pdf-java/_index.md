@@ -153,6 +153,12 @@ Prozkoumejte další typy anotací (např. `TextAnnotation`, `LinkAnnotation` s 
 
 Prozkoumejte tyto zdroje, abyste prohloubili své znalosti o Aspose.PDF pro Java. Šťastné programování!
 
+---
+
+**Poslední aktualizace:** 2025-12-22  
+**Testováno s:** Aspose.PDF pro Java 25.3  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -160,9 +166,3 @@ Prozkoumejte tyto zdroje, abyste prohloubili své znalosti o Aspose.PDF pro Java
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-12-22  
-**Testováno s:** Aspose.PDF pro Java 25.3  
-**Autor:** Aspose
