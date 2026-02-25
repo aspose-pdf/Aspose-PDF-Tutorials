@@ -33,6 +33,7 @@
 | [PDF 파일에 권한 설정](./set-privileges/) | Aspose.PDF for .NET을 사용하여 PDF 권한을 설정하는 방법을 단계별 가이드를 통해 알아보세요. 문서를 효과적으로 보호하세요. |  
 | [PDF 파일 서명을 사용하여 스마트 카드로 서명](./sign-with-smart-card-using-pdf-file-signature/) | Aspose.PDF for .NET을 사용하여 스마트 카드를 사용하여 PDF 파일에 서명하는 방법을 알아보세요. 안전한 디지털 서명을 위한 단계별 가이드를 따르세요. |  
 | [서명 필드를 사용하여 스마트 카드로 서명](./sign-with-smart-card-using-signature-field/) | Aspose.PDF for .NET을 사용하여 스마트 카드를 사용하여 PDF에 안전하게 서명하는 방법을 알아보세요. 간편한 구현을 위한 단계별 가이드를 따르세요. |  
+| [C#에서 PDF 서명 검증 – 완전 단계별 가이드](./verify-pdf-signature-in-c-complete-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 PDF 서명을 검증하는 방법을 단계별로 안내합니다. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

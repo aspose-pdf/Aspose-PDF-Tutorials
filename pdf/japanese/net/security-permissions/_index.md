@@ -62,6 +62,9 @@ Aspose.PDF を使用して、.NET で PDF に安全なデジタル署名と検�
 ### [Aspose.PDF .NET による PDF 編集のマスター: 安全なドキュメント処理のための総合ガイド](./mastering-pdf-redaction-aspose-pdf-net-guide/)
 Aspose.PDF .NET を使用して PDF を安全に編集する方法を学びましょう。このガイドでは、アノテーションベースとファサードベースのアプローチを取り上げ、ドキュメントのコンプライアンス維持を実現します。
 
+### [Aspose Plugin Manager を使用した PDF のレダクション適用 – 完全ガイド](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
+Aspose Plugin Manager を使用して PDF のレダクション（情報隠蔽）を実装する方法をステップバイステップで解説します。
+
 ### [Aspose.PDF for .NET で PDF ファイルのロックを解除して復号化する: 完全ガイド](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 C#でAspose.PDF for .NETを使用して、保護されたPDFファイルのロックを解除し、復号化する方法を学びましょう。このガイドでは、セットアップ、復号化の手順、そしてベストプラクティスについて説明します。
 

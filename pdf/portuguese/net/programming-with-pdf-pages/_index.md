@@ -37,6 +37,7 @@ Os tutoriais incluem instruções passo a passo, exemplos de código detalhados 
 | [Dividir em páginas](./split-to-pages/) Divida PDFs facilmente em páginas individuais usando o Aspose.PDF para .NET com este tutorial completo. Guia passo a passo incluído. |  
 | [Atualizar dimensões da página PDF](./update-dimensions/) | Descubra como atualizar as dimensões de páginas PDF sem esforço com o Aspose.PDF para .NET neste guia abrangente passo a passo. |  
 | [Ampliar o conteúdo da página em arquivo PDF](./zoom-to-page-contents/) | Aprenda a aplicar zoom no conteúdo de páginas em arquivos PDF usando o Aspose.PDF para .NET neste guia completo. Aprimore seus documentos PDF de acordo com suas necessidades específicas. |  
+| [Criar página PDF em branco – Tutorial completo de desenho PDF](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Aprenda a criar uma página PDF em branco usando o Aspose.PDF para .NET com este tutorial passo a passo. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

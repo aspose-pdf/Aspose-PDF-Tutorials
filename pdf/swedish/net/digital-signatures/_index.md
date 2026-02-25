@@ -44,11 +44,17 @@ Lär dig hur du effektivt tar bort digitala signaturer från PDF-filer med Aspos
 ### [Hur man verifierar PDF-signaturer med Aspose.PDF för .NET: En omfattande guide](./verify-pdf-signatures-aspose-pdf-net/)
 Lär dig hur du verifierar digitala signaturer i PDF-filer med Aspose.PDF för .NET. Den här guiden behandlar installation, implementering och praktiska tillämpningar.
 
+### [Hur man verifierar PDF-signatur i C# – Komplett steg‑för‑steg‑handledning](./how-to-verify-pdf-signature-in-c-complete-step-by-step-tutor/)
+Lär dig hur du verifierar PDF-signaturer i C# med Aspose.PDF för .NET. En komplett steg-för-steg-guide.
+
 ### [Master PDF-signering och verifiering med Aspose.PDF .NET](./mastering-aspose-pdf-net-sign-verify-smart-card-certificates/)
 En kodhandledning för Aspose.PDF Net
 
 ### [Mastering Aspose.PDF .NET: Hur man verifierar digitala signaturer i PDF-filer](./aspose-pdf-net-verify-digital-signature/)
 Lär dig hur du verifierar digitala signaturer i PDF-filer med Aspose.PDF för .NET. Säkerställ dokumentintegritet och äkthet med vår steg-för-steg-guide.
+
+### [Hämta PDF-signaturnamn i C# – Komplett programmeringsguide](./retrieve-pdf-signature-names-in-c-complete-programming-guide/)
+Lär dig hur du hämtar signaturnamn från PDF-filer med C# och Aspose.PDF för .NET.
 
 ## Ytterligare resurser
 

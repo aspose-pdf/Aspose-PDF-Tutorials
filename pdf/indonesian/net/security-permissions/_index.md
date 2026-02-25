@@ -68,6 +68,9 @@ Pelajari cara membuka kunci dan mendekripsi file PDF yang dilindungi menggunakan
 ### [Verifikasi Kata Sandi PDF dengan Aspose.PDF .NET: Panduan Langkah demi Langkah untuk Keamanan & Izin](./verify-pdf-passwords-aspose-dot-net-guide/)
 Pelajari cara memverifikasi kata sandi PDF menggunakan Aspose.PDF untuk .NET dalam C#. Panduan lengkap ini menyederhanakan keamanan dokumen dan kontrol akses.
 
+### [Terapkan Redaksi pada PDF dengan Aspose Plugin Manager – Panduan Lengkap](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
+Pelajari cara menerapkan redaksi pada PDF menggunakan Aspose Plugin Manager dengan panduan lengkap langkah demi langkah.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

@@ -35,6 +35,9 @@
 ### [使用 Aspose.PDF 在 .NET 中创建具有自动分页功能的结构化 PDF](./create-pdfs-page-breaks-net-aspose-pdf/)
 了解如何使用 Aspose.PDF 在 .NET 环境中以编程方式创建结构化 PDF 文档，并具有自动分页功能以实现精确格式化。
 
+### [创建 PDF 文档 – 添加页面、标记标题和定位元素](./create-pdf-document-add-page-to-pdf-tag-heading-and-position/)
+学习如何在 PDF 中添加页面、为标题添加标签并精确定位元素，实现灵活的文档布局。
+
 ### [使用 Aspose.PDF .NET 创建 PDF 小册子：精简的分步指南](./create-pdf-booklet-aspose-pdf-net-guide/)
 学习如何使用 Aspose.PDF for .NET 自动创建 PDF 小册子。本指南涵盖设置、实施和优化技巧。
 
@@ -69,10 +72,13 @@ Aspose.PDF Net 代码教程
 学习如何使用 Aspose.PDF for .NET 创建复杂的 PDF 文档。本指南涵盖创建嵌套表格、添加重复列等操作。
 
 ### [使用 Aspose.PDF for .NET 制作标记 PDF：无障碍和 SEO 综合指南](./master-tagged-pdf-creation-aspose-pdf-dotnet/)
-了解如何使用 Aspose.PDF for .NET 创建易于访问、结构良好的带标签 PDF。本指南涵盖设置文档属性、添加链接以及嵌入图像等操作。
+了解如何使用 Aspose.PDF for .NET 创建易于访问、结构良好的带标签 PDF。本指南覆盖设置文档属性、添加链接以及嵌入图像等操作。
 
 ### [掌握使用 Aspose.PDF .NET 创建 PDF 小册子](./aspose-pdf-net-create-booklet-page-arrangement/)
 Aspose.PDF Net 代码教程
+
+### [在 C# 中创建 PDF 文档 – 分步指南](./create-pdf-document-in-c-step-by-step-guide/)
+学习如何使用 C# 和 Aspose.PDF for .NET 逐步创建 PDF 文档，涵盖设置、代码示例和最佳实践。
 
 ## 其他资源
 

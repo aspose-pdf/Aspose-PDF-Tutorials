@@ -74,6 +74,12 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET barrierefreie, gut strukturierte 
 ### [PDF-Broschüren erstellen mit Aspose.PDF .NET meistern](./aspose-pdf-net-create-booklet-page-arrangement/)
 Ein Code-Tutorial für Aspose.PDF Net
 
+### [PDF-Dokument erstellen – Seite zum PDF hinzufügen, Überschrift taggen und Elemente positionieren](./create-pdf-document-add-page-to-pdf-tag-heading-and-position/)
+Erfahren Sie, wie Sie ein PDF-Dokument erstellen, eine Seite hinzufügen, Überschriften taggen und Elemente exakt positionieren.
+
+### [PDF-Dokument in C# erstellen – Schritt-für-Schritt-Anleitung](./create-pdf-document-in-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF-Dokument in C# programmgesteuert erstellen.
+
 ## Weitere Ressourcen
 
 - [Aspose.PDF für Net-Dokumentation](https://docs.aspose.com/pdf/net/)

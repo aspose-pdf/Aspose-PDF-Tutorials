@@ -74,6 +74,12 @@
 ### [إتقان إنشاء كتيبات PDF باستخدام Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 برنامج تعليمي لبرمجة Aspose.PDF Net
 
+### [إنشاء مستند PDF – إضافة صفحة إلى PDF، وضع علامة على العنوان، وتحديد موضع العناصر](./create-pdf-document-add-page-to-pdf-tag-heading-and-position/)
+تعلم كيفية إنشاء مستند PDF وإضافة صفحة، وضع علامة على العناوين، وتحديد موضع العناصر باستخدام Aspose.PDF لـ .NET.
+
+### [إنشاء مستند PDF في C# – دليل خطوة بخطوة](./create-pdf-document-in-c-step-by-step-guide/)
+تعلم كيفية إنشاء مستند PDF باستخدام C# خطوة بخطوة مع Aspose.PDF لـ .NET.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

@@ -38,7 +38,8 @@ Az Aspose.PDF „Bélyegzők és vízjelek programozása” című .NET oktatóa
 | [Oldalszámbélyegzők PDF fájlban](./page-number-stamps/) Tanulja meg, hogyan adhat hozzá oldalszámbélyegzőket PDF fájlokhoz az Aspose.PDF for .NET segítségével könnyen követhető útmutatónkból, amely kódpéldákat is tartalmaz. |  
 | [Táblázat a fejlécben, láblécben](./table-in-header-footer-section/) | Ismerje meg, hogyan adhat hozzá egyszerűen szöveget egy PDF fájl láblécéhez az Aspose.PDF for .NET segítségével. Lépésről lépésre útmutató a zökkenőmentes integrációhoz. |  
 | [Szöveg a PDF fájl láblécében](./text-in-footer/) | Ismerje meg, hogyan adhat hozzá szöveget a PDF fájlok láblécéhez az Aspose.PDF for .NET segítségével. |  
-| [Szöveg a PDF fájl fejlécében](./text-in-header/) | Tanulja meg, hogyan adhat hozzá szöveges fejléceket PDF-ekhez az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Javítsa dokumentumai hatékonyságát és eredményességét. |  
+| [Szöveg a PDF fájl fejlécében](./text-in-header/) | Tanulja meg, hogyan adhat hozzá szöveges fejléceket PDF-ekhez az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Javítsa dokumentumai hatékonyságát és eredményességét. |
+| [Bates számozási útmutató: Bates számok hozzáadása PDF-ekhez C#-val](./bates-numbering-tutorial-add-bates-numbers-to-pdfs-with-c/) | Tanulja meg, hogyan adhat hozzá Bates számokat PDF fájlokhoz C#-ban az Aspose.PDF for .NET használatával lépésről lépésre útmutatóval. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

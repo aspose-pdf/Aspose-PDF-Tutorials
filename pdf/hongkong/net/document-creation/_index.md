@@ -39,7 +39,7 @@
 了解如何使用 Aspose.PDF for .NET 自動建立 PDF 小冊子。本指南涵蓋設定、實作和優化技巧。
 
 ### [在 Aspose.PDF .NET 中使用 HTML 建立動態 PDF](./aspose-pdf-net-dynamic-html-pdfs/)
-Aspose.PDF Net 程式碼教學
+Aspose-PDF Net 程式碼教學
 
 ### [如何在 C# 中使用 Aspose.PDF .NET 建立 PDF 小冊子：逐步指南](./create-pdf-booklets-aspose-pdf-net-csharp-guide/)
 了解如何使用 Aspose.PDF for .NET 和 C# 建立專業的 PDF 小冊子。本指南涵蓋設定、實施和最佳實務。
@@ -73,6 +73,12 @@ Aspose.PDF Net 程式碼教學
 
 ### [掌握使用 Aspose.PDF .NET 建立 PDF 小冊子](./aspose-pdf-net-create-booklet-page-arrangement/)
 Aspose.PDF Net 程式碼教學
+
+### [建立 PDF 文件 – 新增頁面、標記標題與定位元素](./create-pdf-document-add-page-to-pdf-tag-heading-and-position/)
+了解如何在 PDF 文件中新增頁面、為標題添加標記並精確定位各種元素。
+
+### [使用 C# 建立 PDF 文件 – 逐步指南](./create-pdf-document-in-c-step-by-step-guide/)
+了解如何在 C# 中使用 Aspose.PDF for .NET 從頭建立 PDF 文件的完整步驟與範例程式碼。
 
 ## 其他資源
 
