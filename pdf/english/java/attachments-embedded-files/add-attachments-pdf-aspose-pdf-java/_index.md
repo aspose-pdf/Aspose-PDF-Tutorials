@@ -1,5 +1,5 @@
 ---
-title: "How to Create PDF Embedded Attachments with Aspose.PDF for Java: A Developer’s Guide"
+title: "How to Create PDF Embedded Attachments with Aspose.PDF for Java - A Developer’s Guide"
 description: "Learn how to create PDF embedded attachments using Aspose.PDF for Java. This tutorial shows you how to add attachment PDF Java projects and set up Aspose PDF Maven."
 date: "2025-12-15"
 weight: 1

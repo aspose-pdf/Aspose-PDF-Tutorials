@@ -7,7 +7,7 @@ keywords:
 - add attachments to PDF with Java
 - Aspose.PDF for Java tutorial
 - attach files to PDF using Aspose
-title: 'Jak tworzyć osadzone załączniki PDF przy użyciu Aspose.PDF dla Javy: przewodnik
+title: 'Jak tworzyć osadzone załączniki PDF przy użyciu Aspose.PDF dla Javy - przewodnik
   dla programistów'
 url: /pl/java/attachments-embedded-files/add-attachments-pdf-aspose-pdf-java/
 weight: 1
@@ -18,52 +18,52 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Jak tworzyć osadzone załączniki PDF przy użyciu Aspose.PDF dla Javy: Przewodnik dla programistów
+# Jak przygotować urządzenia elektryczne PDF przy użyciu Aspose.PDF dla Javy: Przewodnik dla programistów
 
-## Introduction
+## Wstęp
 
-Ulepszanie dokumentów PDF poprzez **create pdf embedded attachments** takie jak obrazy lub pliki tekstowe może usprawnić doświadczenie użytkownika, eliminując potrzebę pobierania wielu plików. Ten przewodnik pomoże Ci wykorzystać Aspose.PDF dla Javy, potężną bibliotekę do pracy z PDF‑ami, aby **add attachment pdf java** projekty szybko i niezawodnie.
+Ulepszanie dokumentów PDF poprzez **tworzenie osadzonych załączników w formacie PDF** takie jak obrazy lub pliki tekstowe mogą usprawnić użytkownika doświadczenia, eliminując ryzyko pobierania wielu plików. Ten przewodnik pomaga Ci działać Aspose.PDF dla Javy, potężną bibliotekę do pracy z PDF-ami, aby **dodaj załącznik pdf java** projekty szybko i niezawodnie.
 
-**What You'll Learn:**
-- Jak **create pdf embedded attachments** przy użyciu Aspose.PDF dla Javy  
-- Ładowanie i dostęp do istniejących dokumentów PDF  
-- Scenariusze rzeczywiste, w których możesz **attach text file pdf** do raportu lub specyfikacji  
+**Czego się nauczysz:**
+- Jak **twórz osadzone załączniki w formacie PDF** przy użyciu Aspose.PDF dla Javy
+- Ładowanie i dostęp do dokumentów PDF
+- Scenariusze rzeczywiste, w których możesz **załączyć plik tekstowy pdf** do raportu lub wystąpienia
 
-Po zakończeniu tego przewodnika będziesz gotowy wdrożyć te funkcjonalności w swoich projektach. Zacznijmy od wymagań wstępnych.
+Po zauważeniu tego przewodnika, należy zastosować się do jego projektu. Rozpocznijmy od wniosków wstępnych.
 
-## Quick Answers
-- **What is the primary library?** Aspose.PDF for Java  
-- **Which build tool is recommended?** Maven (or Gradle) – see the **aspose pdf maven setup** section  
-- **Can I attach any file type?** Yes, any file that can be represented as a byte array  
-- **Do I need a license for production?** A valid Aspose license is required for production use  
-- **How long does the implementation take?** Typically under 15 minutes for a basic attachment
+## Szybkie odpowiedzi
+- **Co to jest biblioteka podstawowa?** Aspose.PDF dla Java
+- ** Które narzędzie do kompilacji jest zalecane?** Maven (lub Gradle) – zobacz sekcję **Konfiguracja maven aspose pdf**
+- **Czy mogę załączyć dowolny typ pliku?** Tak, dowolny plik, który można przedstawić jako tablicę bajtów
+- **Czy potrzebuję licencji na produkcję?** Do użytku produkcyjnego wymagana jest ważna licencja Aspose
+- **Jak długo trwa wdrożenie?** Zwykle poniżej 15 minut w przypadku podstawowego załącznika
 
-## What is “create pdf embedded attachments”?
-Tworzenie osadzonych załączników PDF oznacza wstawianie dodatkowych plików — takich jak obrazy, arkusze kalkulacyjne czy dokumenty tekstowe — bezpośrednio do kontenera PDF. Załączone pliki podróżują razem z PDF‑em, umożliwiając odbiorcom ich otwieranie bez konieczności osobnych pobrań.
+## Co to jest „tworzenie osadzonych załączników PDF”?
+Tworzenie osadzonych materiałów PDF oznacza tworzenie dodatkowych plików — takich jak obrazy, arkusze kalkulacyjne czy dokumenty tekstowe — bezpośrednio do kontenera PDF. Załączone pliki podróżujące razem z PDF-em, wyposażone w odbiorniki, które otwierają się bez konieczności stosowania dodatkowych akcesoriów.
 
-## Why use Aspose.PDF for Java to add attachments?
-- **Full control** over PDF structure and embedded objects  
-- **Cross‑platform** support (Windows, Linux, macOS)  
-- **Robust API** that handles large files and complex PDFs efficiently  
+## Po co używać Aspose.PDF dla Java do dodawania załączników?
+- **Pełna kontrola** nad strukturą PDF i osadzonymi obiektami
+- **Wsparcie wieloplatformowe** (Windows, Linux, macOS)
+- **Solidne API**, które wydajnie obsługuje duże pliki i złożone pliki PDF
 
-## Prerequisites
+## Wymagania wstępne
 
-Before attaching files to PDFs, ensure you have:
+Przed dołączeniem plików do plików PDF upewnij się, że posiadasz:
 
-### Required Libraries and Dependencies
-- **Aspose.PDF for Java** – the core library used in this tutorial.  
-- **Java Development Kit (JDK)** – version 11 or later.  
+### Wymagane biblioteki i zależności
+- **Aspose.PDF dla Java** – podstawową bibliotekę używaną w tym samouczku.
+- **Java Development Kit (JDK)** – wersja 11 lub nowsza.
 
-### Environment Setup Requirements
-- A compatible IDE such as IntelliJ IDEA, Eclipse, or NetBeans.  
-- Basic knowledge of Java programming and handling file I/O operations.  
+## Wymagania dotyczące konfiguracji środowiska
+- Kompatybilne środowisko programistyczne (IDE), takie jak IntelliJ IDEA, Eclipse lub NetBeans.
+- Podstawową znajomość programowania w Javie i obsługi operacji wejścia/wyjścia na plikach.
 
-## Setting Up Aspose.PDF for Java
+## Konfiguracja Aspose.PDF dla Javy
 
-Setting up Aspose.PDF is straightforward using either Maven or Gradle. Below is the **aspose pdf maven setup** you’ll need.
+Konfiguracja Aspose.PDF jest prosta przy użyciu Maven lub Gradle. Poniżej znajduje się **konfiguracja Aspose PDF Maven**, której będziesz potrzebować.
 
 ### Maven
-Add the following dependency to your `pom.xml`:
+Dodaj następującą zależność do pliku `pom.xml`:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -73,32 +73,32 @@ Add the following dependency to your `pom.xml`:
 ```
 
 ### Gradle
-Include this in your `build.gradle` file:
+Dołącz to do pliku `build.gradle`:
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-#### License Acquisition Steps
-Aspose.PDF for Java offers different licensing options, including a free trial and temporary licenses:
-- **Free Trial**: Download and test the library with all features enabled.  
-- **Temporary License**: Obtain this from Aspose to extend your testing period without evaluation limitations.  
-- **Purchase**: For long‑term use in production environments.  
+#### Kroki uzyskania licencji
+Aspose.PDF dla Javy oferuje różne opcje licencjonowania, w tym bezpłatną wersję próbną i licencje tymczasowe:
+- **Bezpłatna wersja próbna**: Pobierz i przetestuj bibliotekę ze wszystkimi włączonymi funkcjami.
+- **Licencja tymczasowa**: Uzyskaj ją od Aspose, aby przedłużyć okres testowania bez ograniczeń ewaluacyjnych.
+- **Kup**: Do długoterminowego użytkowania w środowiskach produkcyjnych.
 
-#### Basic Initialization
-Once you have added Aspose.PDF for Java to your project, initialize it by creating a `Document` object. This will be the starting point for all your PDF manipulations.
+#### Podstawowa inicjalizacja
+Po dodaniu Aspose.PDF dla Javy do projektu zainicjuj go, tworząc obiekt `Dokument`. Będzie to punkt wyjścia do wszystkich operacji na plikach PDF.
 
-## Implementation Guide
+## Przewodnik po implementacji
 
-Let’s break down the implementation into two main features: attaching files and loading PDF documents.
+Podzielmy implementację na dwie główne funkcje: dołączanie plików i ładowanie dokumentów PDF.
 
-### Feature 1: Attach a File to a PDF Document
+### Funkcja 1: Dołączanie pliku do dokumentu PDF
 
-#### Overview
-This feature allows you to embed additional files directly within a PDF document, useful for providing supplementary information without separate attachments.
+#### Omówienie
+Ta funkcja umożliwia osadzanie dodatkowych plików bezpośrednio w dokumencie PDF, co jest przydatne do dostarczania informacji uzupełniających bez konieczności dodawania osobnych załączników.
 
-#### Implementation Steps
-**Step 1: Set Up Your Environment**  
-Define the paths for your source PDF and the file you want to attach:
+#### Kroki wdrożenia
+**Krok 1: Konfiguracja środowiska**
+Zdefiniuj ścieżki do źródłowego pliku PDF i pliku, który chcesz dołączyć:
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY"; // Update this path
 String targetPdfPath = dataDir + "/input.pdf";
@@ -106,106 +106,110 @@ String attachmentFilePath = dataDir + "/test.txt";
 String targetOutputPath = "YOUR_OUTPUT_DIRECTORY/output.pdf";
 ```
 
-**Step 2: Open the PDF Document**  
-Create a `Document` object to load your existing PDF:
+**Krok 2: Otwórz dokument PDF**
+Utwórz obiekt „Dokument”, aby załadować istniejący plik PDF:
 ```java
 Document document = new Document(targetPdfPath);
 ```
 
-**Step 3: Create File Specification**  
-Use `FileSpecification` to describe the file you wish to attach, including its description:
+**Krok 3: Utwórz specyfikację pliku**
+Użyj „Specyfikacji pliku”, aby opisać plik, który chcesz załączyć, wraz z jego opisem:
 ```java
 FileSpecification fileSpecification = new FileSpecification(attachmentFilePath, "Sample text file");
 ```
 
-**Step 4: Add Attachment to PDF**  
-Attach the file to your document by adding it to the embedded files collection:
+**Krok 4: Dodaj załącznik do pliku PDF**
+Dołącz plik do dokumentu, dodając go do kolekcji plików osadzonych:
 ```java
 document.getEmbeddedFiles().add(fileSpecification);
 ```
 
-**Step 5: Save the Modified Document**  
-Finally, save the document with its new attachment:
+**Krok 5: Zapisz zmodyfikowany dokument**
+Na koniec zapisz dokument z nowym załącznikiem:
 ```java
 document.save(targetOutputPath);
 ```
 
-### Feature 2: Load a PDF Document
+### Funkcja 2: Załaduj dokument PDF
 
-#### Overview
-Loading and accessing a PDF document is essential for any manipulation. This step demonstrates how to access various elements of your loaded PDF.
+#### Omówienie
+Ładowanie i otwieranie dokumentu PDF jest niezbędne do wszelkich operacji. Ten krok pokazuje, jak uzyskać dostęp do różnych elementów załadowanego pliku PDF.
 
-#### Implementation Steps
-**Step 1: Open the PDF**  
-Load an existing PDF using its path:
+#### Kroki wdrożenia
+**Krok 1: Otwórz plik PDF**
+Załaduj istniejący plik PDF, korzystając ze ścieżki:
 ```java
 Document document = new Document(targetPdfPath);
 ```
 
-**Step 2: Access Document Elements**  
-You can now access different parts of the document, such as text and attachments. For instance, to get the number of pages:
+**Krok 2: Dostęp do elementów dokumentu**
+Możesz teraz uzyskać dostęp do różnych części dokumentu, takich jak tekst i załączniki. Na przykład, aby sprawdzić liczbę stron:
 ```java
 int numberOfPages = document.getPages().size();
 ```
 
-## Practical Applications
+## Zastosowania praktyczne
 
-Adding attachments to PDFs is beneficial in various scenarios:
-1. **Software Documentation** – Attach sample data files or configuration scripts.  
-2. **Legal Documents** – Include supplementary agreements or reference materials.  
-3. **Educational Resources** – Provide additional reading material or datasets within a single document.  
-4. **Business Reports** – Embed raw data files for further analysis.  
+Dodawanie załączników do plików PDF jest korzystne w różnych scenariuszach:
+1. **Dokumentacja oprogramowania** – Dołącz przykładowe pliki danych lub skrypty konfiguracyjne.
+2. **Dokumenty prawne** – Dołącz umowy uzupełniające lub materiały referencyjne.
+3. **Materiały edukacyjne** – Zapewnij dodatkowe materiały do ​​czytania lub zestawy danych w jednym dokumencie.
+4. **Raporty biznesowe** – Osadź pliki danych surowych do dalszej analizy.
 
-Integration possibilities include linking this functionality with content management systems (CMS) to automate the attachment process in digital workflows.
+Możliwości integracji obejmują połączenie tej funkcjonalności z systemami zarządzania treścią (CMS) w celu automatyzacji procesu dołączania w cyfrowych obiegach pracy.
 
-## Performance Considerations
+## Zagadnienia dotyczące wydajności
 
-When working with Aspose.PDF for Java, consider these performance tips:
-- **Optimize Resource Usage** – Be mindful of memory allocation when handling large PDF files.  
-- **Java Memory Management** – Use efficient data structures and clean up resources after use to prevent memory leaks.  
-- **Batch Processing** – If processing multiple documents, consider using multi‑threading to enhance performance.
+Pracując z Aspose.PDF dla Javy, należy wziąć pod uwagę następujące wskazówki dotyczące wydajności:
+- **Optymalizacja wykorzystania zasobów** – Należy pamiętać o alokacji pamięci podczas obsługi dużych plików PDF.
+- **Zarządzanie pamięcią w Javie** – Używaj wydajnych struktur danych i czyść zasoby po ich wykorzystaniu, aby zapobiec wyciekom pamięci.
+- **Przetwarzanie wsadowe** – W przypadku przetwarzania wielu dokumentów rozważ użycie wielowątkowości w celu zwiększenia wydajności.
 
-## Common Issues and Solutions
-- **Large Attachments** – Compress files before embedding to keep PDF size manageable.  
-- **Unsupported File Types** – Ensure the file can be read as a byte array; most common formats are supported.  
-- **License Errors** – Verify that the license file is correctly loaded before saving the document.
+## Typowe problemy i rozwiązania
+- **Duże załączniki** – Kompresuj pliki przed osadzeniem, aby zachować rozmiar pliku PDF na rozsądnym poziomie.
+- **Nieobsługiwane typy plików** – Upewnij się, że plik można odczytać jako tablicę bajtów; większość popularnych formatów jest obsługiwana.
+- **Błędy licencji** – Przed zapisaniem dokumentu sprawdź, czy plik licencji został poprawnie wczytany.
 
-## Conclusion
+## Wnioski
 
-You’ve now mastered how to **create pdf embedded attachments** using Aspose.PDF for Java. This capability can significantly enhance your document management processes by embedding relevant data directly into PDFs. For further exploration, consider delving deeper into Aspose.PDF’s extensive feature set or integrating it with other libraries and services.
+Umiesz już **tworzyć osadzone załączniki PDF** za pomocą Aspose.PDF dla Java. Ta funkcja może znacznie usprawnić procesy zarządzania dokumentami poprzez osadzanie odpowiednich danych bezpośrednio w plikach PDF. Aby dowiedzieć się więcej, rozważ dogłębne zapoznanie się z rozbudowanym zestawem funkcji Aspose.PDF lub zintegrowanie go z innymi bibliotekami i usługami.
 
-**Next Steps:**
-- Experiment with different file types as attachments.  
-- Explore additional features of Aspose.PDF for Java to enhance your PDF handling capabilities.
+**Kolejne kroki:**
+- Eksperymentuj z różnymi typami plików jako załącznikami.
+- Poznaj dodatkowe funkcje Aspose.PDF dla Javy, aby zwiększyć możliwości obsługi plików PDF.
 
-## FAQ Section
+## Sekcja FAQ
 
-1. **Can I attach multiple files to a single PDF?**  
-   - Yes, you can add multiple `FileSpecification` objects to the embedded files collection.  
-2. **What file types are supported as attachments?**  
-   - Any file type that can be represented as a byte array is supported.  
-3. **How do I handle large PDFs efficiently?**  
-   - Consider optimizing your code for memory management and processing efficiency, especially when dealing with large documents.  
-4. **Is there a limit to the number of files I can attach?**  
-   - The limit depends on your system’s resources and Aspose.PDF's capacity.  
-5. **How do I remove an attachment from a PDF?**  
-   - Access the embedded files collection and use its methods to remove specific entries.
+1. **Czy mogę dołączyć wiele plików do jednego pliku PDF?**
+- Tak, możesz dodać wiele obiektów `FileSpecification` do kolekcji plików osadzonych.
 
-## Resources
+2. **Jakie typy plików są obsługiwane jako załączniki?**
+- Obsługiwany jest każdy typ pliku, który można przedstawić jako tablicę bajtów.
+
+3. **Jak efektywnie obsługiwać duże pliki PDF?**
+- Rozważ optymalizację kodu pod kątem zarządzania pamięcią i wydajności przetwarzania, szczególnie w przypadku dużych dokumentów.
+
+4. **Czy istnieje limit liczby plików, które mogę dołączyć?**
+- Limit zależy od zasobów systemu i pojemności Aspose.PDF.
+
+5. **Jak usunąć załącznik z pliku PDF?**
+- Uzyskaj dostęp do kolekcji plików osadzonych i użyj jej metod, aby usunąć określone wpisy.
+
+## Zasoby
 - [Dokumentacja](https://reference.aspose.com/pdf/java/)
 - [Pobierz Aspose.PDF dla Javy](https://releases.aspose.com/pdf/java/)
-- [Kup licencję](https://purchase.aspose.com/buy)
+- [Kup dostawy](https://purchase.aspose.com/buy)
 - [Pobierz wersję próbną](https://releases.aspose.com/pdf/java/)
 - [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
 - [Forum wsparcia](https://forum.aspose.com/c/pdf/10)
 
-Explore these resources for more detailed information and community support. Happy coding!
+Zapoznaj się z tymi zasobami, aby uzyskać bardziej szczegółowe informacje i wsparcie społeczności. Miłego kodowania!
 
 ---
 
-**Last Updated:** 2025-12-15  
-**Tested With:** Aspose.PDF 25.3 for Java  
-**Author:** Aspose  
+**Ostatnia aktualizacja:** 2025-12-15
+**Testowano z:** Aspose.PDF 25.3 dla Javy
+**Autor:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

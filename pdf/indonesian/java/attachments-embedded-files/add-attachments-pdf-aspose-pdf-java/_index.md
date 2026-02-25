@@ -7,7 +7,7 @@ keywords:
 - add attachments to PDF with Java
 - Aspose.PDF for Java tutorial
 - attach files to PDF using Aspose
-title: 'Cara Membuat Lampiran Tertanam dalam PDF dengan Aspose.PDF untuk Java: Panduan
+title: 'Cara Membuat Lampiran Tertanam dalam PDF dengan Aspose.PDF untuk Java - Panduan
   Pengembang'
 url: /id/java/attachments-embedded-files/add-attachments-pdf-aspose-pdf-java/
 weight: 1

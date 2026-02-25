@@ -8,7 +8,7 @@ keywords:
 - Aspose.PDF for Java tutorial
 - attach files to PDF using Aspose
 title: 'Comment créer des pièces jointes intégrées dans un PDF avec Aspose.PDF pour
-  Java : guide du développeur'
+  Java - guide du développeur'
 url: /fr/java/attachments-embedded-files/add-attachments-pdf-aspose-pdf-java/
 weight: 1
 ---

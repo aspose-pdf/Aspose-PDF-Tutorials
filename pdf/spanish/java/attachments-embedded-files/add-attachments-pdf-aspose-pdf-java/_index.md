@@ -7,8 +7,7 @@ keywords:
 - add attachments to PDF with Java
 - Aspose.PDF for Java tutorial
 - attach files to PDF using Aspose
-title: 'Cómo crear archivos adjuntos incrustados en PDF con Aspose.PDF para Java:
-  Guía del desarrollador'
+title: 'Cómo crear archivos adjuntos incrustados en PDF con Aspose.PDF para Java - Guía del desarrollador'
 url: /es/java/attachments-embedded-files/add-attachments-pdf-aspose-pdf-java/
 weight: 1
 ---
@@ -97,8 +96,8 @@ Desglosemos la implementación en dos características principales: adjuntar arc
 Esta función le permite incrustar archivos adicionales directamente dentro de un documento PDF, útil para proporcionar información complementaria sin adjuntos separados.
 
 #### Pasos de implementación
-**Step 1: Set Up Your Environment**  
-Define the paths for your source PDF and the file you want to attach:
+**Paso 1: Configura tu entorno**
+Define las rutas para tu PDF de origen y el archivo que deseas adjuntar:
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY"; // Update this path
 String targetPdfPath = dataDir + "/input.pdf";
@@ -106,26 +105,26 @@ String attachmentFilePath = dataDir + "/test.txt";
 String targetOutputPath = "YOUR_OUTPUT_DIRECTORY/output.pdf";
 ```
 
-**Step 2: Open the PDF Document**  
-Create a `Document` object to load your existing PDF:
+**Paso 2: Abre el documento PDF**
+Crea un objeto `Documento` para cargar tu PDF existente:
 ```java
 Document document = new Document(targetPdfPath);
 ```
 
-**Step 3: Create File Specification**  
-Use `FileSpecification` to describe the file you wish to attach, including its description:
+**Paso 3: Crea la especificación del archivo**
+Usa `Especificación del archivo` para describir el archivo que deseas adjuntar, incluyendo su descripción:
 ```java
 FileSpecification fileSpecification = new FileSpecification(attachmentFilePath, "Sample text file");
 ```
 
-**Step 4: Add Attachment to PDF**  
-Attach the file to your document by adding it to the embedded files collection:
+**Paso 4: Añade un archivo adjunto al PDF**
+Adjunta el archivo a tu documento agregándolo a la colección de archivos incrustados:
 ```java
 document.getEmbeddedFiles().add(fileSpecification);
 ```
 
-**Step 5: Save the Modified Document**  
-Finally, save the document with its new attachment:
+**Paso 5: Guarda el documento modificado**
+Finalmente, guarda el documento con su nuevo archivo adjunto:
 ```java
 document.save(targetOutputPath);
 ```
@@ -136,14 +135,14 @@ document.save(targetOutputPath);
 Cargar y acceder a un documento PDF es esencial para cualquier manipulación. Este paso muestra cómo acceder a varios elementos de su PDF cargado.
 
 #### Pasos de implementación
-**Step 1: Open the PDF**  
-Load an existing PDF using its path:
+**Paso 1: Abrir el PDF**
+Cargue un PDF existente usando su ruta:
 ```java
 Document document = new Document(targetPdfPath);
 ```
 
-**Step 2: Access Document Elements**  
-You can now access different parts of the document, such as text and attachments. For instance, to get the number of pages:
+**Paso 2: Acceder a los elementos del documento**
+Ahora puede acceder a diferentes partes del documento, como el texto y los archivos adjuntos. Por ejemplo, para obtener el número de páginas:
 ```java
 int numberOfPages = document.getPages().size();
 ```

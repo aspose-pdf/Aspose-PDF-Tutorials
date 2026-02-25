@@ -7,7 +7,7 @@ keywords:
 - add attachments to PDF with Java
 - Aspose.PDF for Java tutorial
 - attach files to PDF using Aspose
-title: 'Как создать вложения в PDF с помощью Aspose.PDF для Java: руководство разработчика'
+title: 'Как создать вложения в PDF с помощью Aspose.PDF для Java - руководство разработчика'
 url: /ru/java/attachments-embedded-files/add-attachments-pdf-aspose-pdf-java/
 weight: 1
 ---
