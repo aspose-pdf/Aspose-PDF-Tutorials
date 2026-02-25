@@ -8,7 +8,7 @@ keywords:
 - edit PDF bookmarks Java
 - Aspose.PDF viewer settings
 - configure PDF navigation Java
-title: 'Modifier la mise en page PDF en Java : modifier les signets et les paramètres'
+title: 'Modifier la mise en page PDF en Java - modifier les signets et les paramètres'
 url: /fr/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/
 weight: 1
 ---

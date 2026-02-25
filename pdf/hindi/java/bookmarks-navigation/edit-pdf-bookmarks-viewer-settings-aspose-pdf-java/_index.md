@@ -7,7 +7,7 @@ keywords:
 - edit PDF bookmarks Java
 - Aspose.PDF viewer settings
 - configure PDF navigation Java
-title: 'जावा में PDF पेज लेआउट बदलें: बुकमार्क और सेटिंग्स संपादित करें'
+title: 'जावा में PDF पेज लेआउट बदलें - बुकमार्क और सेटिंग्स संपादित करें'
 url: /hi/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/
 weight: 1
 ---

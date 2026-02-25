@@ -7,7 +7,7 @@ keywords:
 - edit PDF bookmarks Java
 - Aspose.PDF viewer settings
 - configure PDF navigation Java
-title: 'Změna rozložení stránky PDF v Javě: úprava záložek a nastavení'
+title: 'Změna rozložení stránky PDF v Javě - úprava záložek a nastavení'
 url: /cs/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/
 weight: 1
 ---

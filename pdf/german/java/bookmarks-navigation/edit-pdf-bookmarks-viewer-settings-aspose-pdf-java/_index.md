@@ -7,7 +7,7 @@ keywords:
 - edit PDF bookmarks Java
 - Aspose.PDF viewer settings
 - configure PDF navigation Java
-title: 'PDF‑Seitenlayout in Java ändern: Lesezeichen und Einstellungen bearbeiten'
+title: 'PDF‑Seitenlayout in Java ändern - Lesezeichen und Einstellungen bearbeiten'
 url: /de/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/
 weight: 1
 ---

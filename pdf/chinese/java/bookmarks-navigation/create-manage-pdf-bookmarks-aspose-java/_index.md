@@ -17,8 +17,6 @@ weight: 1
 {{< blocks/products/pf/tutorial-page-section >}}
 # 如何使用 Aspose.PDF for Java 创建 PDF 书签并管理导航
 
-**标题：** 精通 Aspose.PDF for Java 的 PDF 书签创建：提升文档导航体验
-
 ## 介绍
 
 在本教程中，你将学习如何 **create pdf bookmarks**，让在大型 PDF 中导航变得轻而易举。浏览冗长的 PDF 文档可能会很麻烦，尤其是需要在章节之间快速跳转时。书签正是此时的好帮手！通过使用 Aspose.PDF for Java，你可以高效地 **add bookmarks to pdf** 文件，将静态文档转变为动态、易于探索的资源。

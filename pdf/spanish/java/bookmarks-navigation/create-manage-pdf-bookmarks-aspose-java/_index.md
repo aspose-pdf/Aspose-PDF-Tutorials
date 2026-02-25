@@ -20,8 +20,6 @@ weight: 1
 {{< blocks/products/pf/tutorial-page-section >}}
 # Cómo crear marcadores PDF y gestionar la navegación usando Aspose.PDF para Java
 
-**Título:** Dominando la creación de marcadores PDF con Aspose.PDF para Java: Mejora la navegación de tus documentos
-
 ## Introducción
 
 En este tutorial aprenderás a **crear marcadores pdf** que facilitan la navegación en PDFs extensos. Navegar por documentos PDF largos puede ser engorroso, sobre todo cuando necesitas saltar rápidamente entre secciones. ¡Ahí es donde los marcadores resultan útiles! Aprovechando Aspose.PDF para Java, puedes **agregar marcadores a pdf** de forma eficiente y convertir documentos estáticos en recursos dinámicos y fáciles de explorar.

@@ -7,7 +7,7 @@ keywords:
 - edit PDF bookmarks Java
 - Aspose.PDF viewer settings
 - configure PDF navigation Java
-title: 'Изменить макет страниц PDF в Java: редактировать закладки и настройки'
+title: 'Изменить макет страниц PDF в Java - редактировать закладки и настройки'
 url: /ru/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/
 weight: 1
 ---

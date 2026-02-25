@@ -7,7 +7,7 @@ keywords:
 - edit PDF bookmarks Java
 - Aspose.PDF viewer settings
 - configure PDF navigation Java
-title: 'Zmień układ stron PDF w Javie: edytuj zakładki i ustawienia'
+title: 'Zmień układ stron PDF w Javie - edytuj zakładki i ustawienia'
 url: /pl/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/
 weight: 1
 ---

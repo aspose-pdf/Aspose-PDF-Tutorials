@@ -7,7 +7,7 @@ keywords:
 - edit PDF bookmarks Java
 - Aspose.PDF viewer settings
 - configure PDF navigation Java
-title: 'Ubah Tata Letak Halaman PDF di Java: Sunting Penanda Buku & Pengaturan'
+title: 'Ubah Tata Letak Halaman PDF di Java - Sunting Penanda Buku & Pengaturan'
 url: /id/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/
 weight: 1
 ---

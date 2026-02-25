@@ -7,7 +7,7 @@ keywords:
 - edit PDF bookmarks Java
 - Aspose.PDF viewer settings
 - configure PDF navigation Java
-title: 'Αλλαγή διάταξης σελίδας PDF σε Java: Επεξεργασία σελιδοδεικτών & ρυθμίσεων'
+title: 'Αλλαγή διάταξης σελίδας PDF σε Java - Επεξεργασία σελιδοδεικτών & ρυθμίσεων'
 url: /el/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/
 weight: 1
 ---

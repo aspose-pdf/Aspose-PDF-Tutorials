@@ -19,8 +19,6 @@ weight: 1
 {{< blocks/products/pf/tutorial-page-section >}}
 # Jak vytvořit záložky PDF a spravovat navigaci pomocí Aspose.PDF pro Java
 
-**Title:** Ovládání tvorby záložek PDF pomocí Aspose.PDF pro Java: Vylepšete navigaci ve svých dokumentech
-
 ## Úvod
 
 V tomto tutoriálu se naučíte, jak **vytvářet záložky PDF**, které usnadní navigaci ve velkých PDF souborech. Procházení rozsáhlých PDF dokumentů může být obtížné, zejména když potřebujete rychle přeskakovat mezi sekcemi. Zde přicházejí záložky vhodně k použití! Využitím Aspose.PDF pro Java můžete efektivně **přidávat záložky do PDF** souborů a proměnit statické dokumenty v dynamické, snadno prozkoumatelné zdroje.

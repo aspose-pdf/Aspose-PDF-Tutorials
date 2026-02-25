@@ -19,8 +19,6 @@ weight: 1
 {{< blocks/products/pf/tutorial-page-section >}}
 # Come creare segnalibri PDF e gestire la navigazione con Aspose.PDF per Java
 
-**Titolo:** Padroneggiare la creazione di segnalibri PDF con Aspose.PDF per Java: migliorare la navigazione del documento
-
 ## Introduzione
 
 In questo tutorial imparerai a **create pdf bookmarks** che rendono la navigazione di PDF di grandi dimensioni un gioco da ragazzi. Navigare attraverso lunghi documenti PDF può essere un fastidio, soprattutto quando devi saltare rapidamente tra le sezioni. Ecco dove i segnalibri sono utili! Sfruttando Aspose.PDF per Java, puoi **add bookmarks to pdf** in modo efficiente e trasformare documenti statici in risorse dinamiche e facili da esplorare.

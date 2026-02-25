@@ -7,7 +7,7 @@ keywords:
 - edit PDF bookmarks Java
 - Aspose.PDF viewer settings
 - configure PDF navigation Java
-title: 'تغيير تخطيط صفحة PDF في جافا: تعديل العلامات المرجعية والإعدادات'
+title: 'تغيير تخطيط صفحة PDF في جافا - تعديل العلامات المرجعية والإعدادات'
 url: /ar/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/
 weight: 1
 ---

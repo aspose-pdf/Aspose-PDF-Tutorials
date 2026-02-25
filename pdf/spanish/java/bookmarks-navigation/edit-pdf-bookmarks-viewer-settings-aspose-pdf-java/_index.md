@@ -7,7 +7,7 @@ keywords:
 - edit PDF bookmarks Java
 - Aspose.PDF viewer settings
 - configure PDF navigation Java
-title: 'Cambiar el diseño de página PDF en Java: editar marcadores y configuraciones'
+title: 'Cambiar el diseño de página PDF en Java - editar marcadores y configuraciones'
 url: /es/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/
 weight: 1
 ---

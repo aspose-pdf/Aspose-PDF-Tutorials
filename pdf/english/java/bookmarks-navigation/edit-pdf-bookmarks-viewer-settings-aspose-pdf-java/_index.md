@@ -1,5 +1,5 @@
 ---
-title: "Change PDF Page Layout in Java: Edit Bookmarks & Settings"
+title: "Change PDF Page Layout in Java - Edit Bookmarks & Settings"
 description: "Learn how to change PDF page layout, edit PDF bookmarks, and customize viewer settings with Aspose.PDF for Java. Master navigation and layout preferences for a smoother user experience."
 date: "2025-12-19"
 weight: 1

@@ -18,8 +18,6 @@ weight: 1
 {{< blocks/products/pf/tutorial-page-section >}}
 # Hoe PDF‑bladwijzers te maken en navigatie te beheren met Aspose.PDF voor Java
 
-**Titel:** PDF‑bladwijzercreatie beheersen met Aspose.PDF voor Java: Verbeter de navigatie van uw document
-
 ## Inleiding
 
 In deze tutorial leer je hoe je **pdf‑bladwijzers kunt maken** die het navigeren door grote PDF‑bestanden een fluitje van een cent maken. Het doorbladeren van omvangrijke PDF‑documenten kan een gedoe zijn, vooral wanneer je snel tussen secties wilt springen. Daar komen bladwijzers van pas! Door gebruik te maken van Aspose.PDF voor Java kun je efficiënt **bladwijzers toevoegen aan pdf**‑bestanden en statische documenten omtoveren tot dynamische, gemakkelijk te verkennen bronnen.

@@ -7,7 +7,7 @@ keywords:
 - edit PDF bookmarks Java
 - Aspose.PDF viewer settings
 - configure PDF navigation Java
-title: 'Thay đổi bố cục trang PDF trong Java: Chỉnh sửa dấu trang và cài đặt'
+title: 'Thay đổi bố cục trang PDF trong Java - Chỉnh sửa dấu trang và cài đặt'
 url: /vi/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/
 weight: 1
 ---

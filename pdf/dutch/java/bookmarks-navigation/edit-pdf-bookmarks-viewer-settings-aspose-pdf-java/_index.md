@@ -7,7 +7,7 @@ keywords:
 - edit PDF bookmarks Java
 - Aspose.PDF viewer settings
 - configure PDF navigation Java
-title: 'PDF-paginavorm wijzigen in Java: bladwijzers en instellingen bewerken'
+title: 'PDF-paginavorm wijzigen in Java - bladwijzers en instellingen bewerken'
 url: /nl/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/
 weight: 1
 ---

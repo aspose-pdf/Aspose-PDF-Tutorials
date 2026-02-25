@@ -19,8 +19,6 @@ weight: 1
 {{< blocks/products/pf/tutorial-page-section >}}
 # Jak tworzyć zakładki PDF i zarządzać nawigacją przy użyciu Aspose.PDF dla Javy
 
-**Title:** Opanowanie tworzenia zakładek PDF przy użyciu Aspose.PDF dla Javy: Ulepsz nawigację w dokumencie
-
 ## Wprowadzenie
 
 W tym samouczku dowiesz się, jak **tworzyć zakładki PDF**, które ułatwią nawigację po dużych plikach PDF. Poruszanie się po obszernych dokumentach PDF może być uciążliwe, szczególnie gdy trzeba szybko przeskoczyć między sekcjami. Właśnie tutaj przydają się zakładki! Korzystając z Aspose.PDF dla Javy, możesz efektywnie **dodawać zakładki do PDF** i przekształcić statyczne dokumenty w dynamiczne, łatwe do przeglądania zasoby.

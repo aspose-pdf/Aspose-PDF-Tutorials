@@ -5,7 +5,7 @@ keywords:
 - edit PDF bookmarks Java
 - Aspose.PDF viewer settings
 - configure PDF navigation Java
-title: 在 Java 中更改 PDF 頁面佈局：編輯書籤與設定
+title: 在 Java 中更改 PDF 頁面佈局 - 編輯書籤與設定
 url: /zh-hant/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/
 weight: 1
 ---

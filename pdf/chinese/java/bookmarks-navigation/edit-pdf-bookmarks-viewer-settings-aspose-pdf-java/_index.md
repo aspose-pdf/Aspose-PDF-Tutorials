@@ -5,7 +5,7 @@ keywords:
 - edit PDF bookmarks Java
 - Aspose.PDF viewer settings
 - configure PDF navigation Java
-title: 在 Java 中更改 PDF 页面布局：编辑书签和设置
+title: 在 Java 中更改 PDF 页面布局 - 编辑书签和设置
 url: /zh/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/
 weight: 1
 ---

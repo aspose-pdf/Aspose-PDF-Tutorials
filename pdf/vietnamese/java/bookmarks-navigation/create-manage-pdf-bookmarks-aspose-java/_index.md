@@ -19,8 +19,6 @@ weight: 1
 {{< blocks/products/pf/tutorial-page-section >}}
 # Cách Tạo Đánh Dấu PDF và Quản Lý Điều Hướng Sử Dụng Aspose.PDF cho Java
 
-**Title:** Làm Chủ Việc Tạo Đánh Dấu PDF với Aspose.PDF cho Java: Nâng Cao Điều Hướng Tài Liệu Của Bạn
-
 ## Giới Thiệu
 
 Trong hướng dẫn này, bạn sẽ học cách **tạo đánh dấu pdf** giúp việc điều hướng các tệp PDF lớn trở nên dễ dàng. Việc di chuyển qua các tài liệu PDF dài có thể gây phiền toái, đặc biệt khi bạn cần nhanh chóng chuyển đến các phần khác nhau. Đó là lúc các đánh dấu trở nên hữu ích! Bằng cách tận dụng Aspose.PDF cho Java, bạn có thể hiệu quả **thêm đánh dấu vào pdf** và biến các tài liệu tĩnh thành các nguồn tài nguyên động, dễ khám phá.

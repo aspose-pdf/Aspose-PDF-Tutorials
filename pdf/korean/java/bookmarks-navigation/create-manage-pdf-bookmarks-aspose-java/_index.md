@@ -18,8 +18,6 @@ weight: 1
 {{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.PDF for Java를 사용하여 PDF 북마크 만들기 및 탐색 관리 방법
 
-**Title:** Aspose.PDF for Java로 PDF 북마크 만들기 마스터하기: 문서 탐색 향상
-
 ## 소개
 
 이 튜토리얼에서는 대용량 PDF를 손쉽게 탐색할 수 있도록 **create pdf bookmarks**(PDF 북마크 만들기)를 배우게 됩니다. 긴 PDF 문서를 탐색하는 것은 특히 섹션 간에 빠르게 이동해야 할 때 번거로울 수 있습니다. 바로 이때 북마크가 유용합니다! Aspose.PDF for Java를 활용하면 **add bookmarks to pdf**(PDF에 북마크 추가)를 효율적으로 수행하여 정적인 문서를 동적이고 탐색하기 쉬운 리소스로 변환할 수 있습니다.

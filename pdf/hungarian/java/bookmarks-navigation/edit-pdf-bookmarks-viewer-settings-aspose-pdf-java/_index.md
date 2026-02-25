@@ -8,7 +8,7 @@ keywords:
 - edit PDF bookmarks Java
 - Aspose.PDF viewer settings
 - configure PDF navigation Java
-title: 'PDF oldalelrendezés módosítása Java-ban: Könyvjelzők és beállítások szerkesztése'
+title: 'PDF oldalelrendezés módosítása Java-ban - Könyvjelzők és beállítások szerkesztése'
 url: /hu/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/
 weight: 1
 ---

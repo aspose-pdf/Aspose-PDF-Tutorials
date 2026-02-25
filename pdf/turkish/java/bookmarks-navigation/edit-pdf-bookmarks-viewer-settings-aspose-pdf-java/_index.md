@@ -8,7 +8,7 @@ keywords:
 - edit PDF bookmarks Java
 - Aspose.PDF viewer settings
 - configure PDF navigation Java
-title: 'Java''da PDF Sayfa Düzenini Değiştir: Yer İmlerini ve Ayarları Düzenle'
+title: 'Java''da PDF Sayfa Düzenini Değiştir - Yer İmlerini ve Ayarları Düzenle'
 url: /tr/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/
 weight: 1
 ---

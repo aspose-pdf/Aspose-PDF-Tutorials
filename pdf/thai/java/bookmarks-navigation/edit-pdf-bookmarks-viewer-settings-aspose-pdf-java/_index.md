@@ -6,7 +6,7 @@ keywords:
 - edit PDF bookmarks Java
 - Aspose.PDF viewer settings
 - configure PDF navigation Java
-title: 'เปลี่ยนการจัดหน้า PDF ใน Java: แก้ไขบุ๊กมาร์กและการตั้งค่า'
+title: 'เปลี่ยนการจัดหน้า PDF ใน Java - แก้ไขบุ๊กมาร์กและการตั้งค่า'
 url: /th/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/
 weight: 1
 ---

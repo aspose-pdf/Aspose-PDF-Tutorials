@@ -19,8 +19,6 @@ weight: 1
 {{< blocks/products/pf/tutorial-page-section >}}
 # Comment créer des signets PDF et gérer la navigation avec Aspose.PDF for Java
 
-**Titre :** Maîtriser la création de signets PDF avec Aspose.PDF for Java : améliorez la navigation de vos documents
-
 ## Introduction
 
 Dans ce tutoriel, vous apprendrez comment **créer des signets PDF** qui facilitent la navigation dans de gros fichiers PDF. Parcourir des documents PDF volumineux peut être fastidieux, surtout lorsqu’il faut passer rapidement d’une section à une autre. C’est là que les signets sont utiles ! En exploitant Aspose.PDF for Java, vous pouvez efficacement **ajouter des signets à des PDF** et transformer des documents statiques en ressources dynamiques et faciles à explorer.

@@ -6,7 +6,7 @@ keywords:
 - edit PDF bookmarks Java
 - Aspose.PDF viewer settings
 - configure PDF navigation Java
-title: 'Java에서 PDF 페이지 레이아웃 변경: 북마크 및 설정 편집'
+title: 'Java에서 PDF 페이지 레이아웃 변경 - 북마크 및 설정 편집'
 url: /ko/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/
 weight: 1
 ---
