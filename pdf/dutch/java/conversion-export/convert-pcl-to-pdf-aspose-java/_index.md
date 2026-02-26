@@ -7,7 +7,7 @@ keywords:
 - PCL to PDF conversion
 - Aspose.PDF for Java setup
 - Java document conversion
-title: 'Hoe PCL naar PDF converteren met Aspose.PDF voor Java: Een stapsgewijze handleiding'
+title: 'Hoe PCL naar PDF converteren met Aspose.PDF voor Java - Een stapsgewijze handleiding'
 url: /nl/java/conversion-export/convert-pcl-to-pdf-aspose-java/
 weight: 1
 ---

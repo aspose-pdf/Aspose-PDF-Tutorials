@@ -1,5 +1,5 @@
 ---
-title: "Aspose PDF Java Tutorial: Convert EPUB to PDF"
+title: "Aspose PDF Java Tutorial - Convert EPUB to PDF"
 description: "Aspose PDF Java tutorial that shows how to convert EPUB to PDF quickly, covering setup, code, and optimization tips."
 date: "2026-01-09"
 weight: 1

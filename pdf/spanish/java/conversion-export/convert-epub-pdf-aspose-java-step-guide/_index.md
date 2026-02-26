@@ -6,7 +6,7 @@ keywords:
 - convert EPUB to PDF
 - Aspose.PDF Java library
 - PDF conversion using Aspose
-title: 'Tutorial de Aspose PDF Java: Convertir EPUB a PDF'
+title: 'Tutorial de Aspose PDF Java - Convertir EPUB a PDF'
 url: /es/java/conversion-export/convert-epub-pdf-aspose-java-step-guide/
 weight: 1
 ---
