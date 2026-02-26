@@ -44,6 +44,12 @@ Tìm hiểu cách xóa chữ ký số khỏi PDF hiệu quả bằng Aspose.PDF 
 ### [Cách xác minh chữ ký PDF bằng Aspose.PDF cho .NET: Hướng dẫn toàn diện](./verify-pdf-signatures-aspose-pdf-net/)
 Tìm hiểu cách xác minh chữ ký số trong tệp PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm thiết lập, triển khai và ứng dụng thực tế.
 
+### [Cách xác minh PDF – Xác thực chữ ký PDF với Aspose](./how-to-verify-pdf-validate-pdf-signature-with-aspose/)
+Hướng dẫn chi tiết cách xác minh chữ ký số trong tài liệu PDF bằng Aspose, bao gồm thiết lập và kiểm tra tính toàn vẹn.
+
+### [Xác minh chữ ký PDF trong C# – Hướng dẫn từng bước](./verify-pdf-signature-in-c-step-by-step-guide/)
+Tìm hiểu cách xác minh chữ ký PDF trong C# bằng Aspose.PDF, bao gồm thiết lập, kiểm tra và xác thực chữ ký một cách chi tiết.
+
 ### [Làm chủ việc ký và xác minh PDF với Aspose.PDF .NET](./mastering-aspose-pdf-net-sign-verify-smart-card-certificates/)
 Hướng dẫn mã cho Aspose.PDF Net
 

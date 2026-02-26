@@ -62,6 +62,9 @@ Leer hoe u Aspose.PDF voor .NET kunt gebruiken om toegankelijke PDF-documenten t
 ### [Toegankelijke PDF-creatie onder de knie krijgen met Aspose.PDF .NET: Gelabelde PDF's maken met gestileerde tabellen](./aspose-pdf-net-tagged-pdfs-styled-tables/)
 Leer hoe u toegankelijke, gestileerde, getagde PDF-documenten maakt met Aspose.PDF voor .NET. Leer hoe u conforme PDF's maakt met gestructureerde tabellen en verbeterde toegankelijkheid.
 
+### [Hoe PDF's te vergelijken in C# – Complete gids voor het genereren van PDF-diff](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
+Leer hoe u PDF-bestanden met C# kunt vergelijken en verschillen (diff) genereert met Aspose.PDF.
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

@@ -44,6 +44,12 @@
 ### [วิธีการตรวจสอบลายเซ็น PDF โดยใช้ Aspose.PDF สำหรับ .NET: คู่มือฉบับสมบูรณ์](./verify-pdf-signatures-aspose-pdf-net/)
 เรียนรู้วิธีการตรวจสอบลายเซ็นดิจิทัลในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET คู่มือนี้ครอบคลุมถึงการตั้งค่า การใช้งาน และแอปพลิเคชันในทางปฏิบัติ
 
+### [วิธีตรวจสอบ PDF – ตรวจสอบลายเซ็น PDF ด้วย Aspose](./how-to-verify-pdf-validate-pdf-signature-with-aspose/)
+เรียนรู้วิธีตรวจสอบลายเซ็น PDF อย่างละเอียดด้วย Aspose เพื่อยืนยันความสมบูรณ์ของเอกสาร
+
+### [ตรวจสอบลายเซ็น PDF ด้วย C# – คู่มือทีละขั้นตอน](./verify-pdf-signature-in-c-step-by-step-guide/)
+เรียนรู้วิธีตรวจสอบลายเซ็น PDF อย่างละเอียดด้วย C# ด้วยขั้นตอนที่ชัดเจน
+
 ### [เชี่ยวชาญการลงนามและการยืนยัน PDF ด้วย Aspose.PDF .NET](./mastering-aspose-pdf-net-sign-verify-smart-card-certificates/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.PDF Net
 
