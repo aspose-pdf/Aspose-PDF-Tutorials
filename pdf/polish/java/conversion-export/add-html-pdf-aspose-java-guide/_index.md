@@ -155,22 +155,6 @@ Ten samouczek przedstawił krok po kroku **jak tworzyć PDF** przy użyciu Aspos
 - Poznaj dodatkowe funkcje Aspose.PDF, takie jak znaki wodne, szyfrowanie i podpisy cyfrowe.  
 - Zintegruj tę logikę z istniejącymi usługami Java lub mikro‑serwisami.
 
-## Sekcja FAQ
-**P1: Jak rozwiązać błąd nieprawidłowego HTML w moim PDF?**  
-O1: Upewnij się, że treść HTML jest dobrze sformułowana i nie zawiera nieobsługiwanych znaczników ani atrybutów.
-
-**P2: Czy Aspose.PDF radzi sobie efektywnie z dużymi plikami?**  
-O2: Tak, przy odpowiednich ustawieniach zarządzania pamięcią możesz przetwarzać duże PDF‑y. Rozważ podzielenie bardzo dużych dokumentów na mniejsze sekcje.
-
-**P3: Czy istnieje limit liczby stron, które mogę utworzyć w PDF przy użyciu Aspose.PDF?**  
-O3: Nie ma sztywnego limitu stron; wydajność zależy od zasobów systemowych i złożoności dokumentu.
-
-**P4: Czy mogę scalić wiele fragmentów HTML w jeden PDF?**  
-O4: Tak, możesz dodać kilka obiektów `HtmlFragment` do tej samej `Page` lub na różnych stronach.
-
-**P5: Jak zastosować style do mojej treści HTML w Aspose.PDF?**  
-O5: Używaj standardowego CSS wewnątrz łańcuchów HTML, ale ogranicz się do właściwości CSS obsługiwanych przez Aspose.PDF, aby zapewnić prawidłowe renderowanie.
-
 ## Najczęściej zadawane pytania
 
 **P: Czy ten samouczek obejmuje konwersję pełnych stron HTML (z CSS i obrazami) do PDF?**  
@@ -196,14 +180,6 @@ O: Tak — utwórz obiekt `HeaderFooter` i dołącz go do `Document` przed dodan
 - **Licencja tymczasowa**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Wsparcie**: [Aspose PDF Forum](https://forum.aspose.com/c/pdf/10)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Ostatnia aktualizacja:** 2025-12-29  
@@ -211,3 +187,11 @@ O: Tak — utwórz obiekt `HeaderFooter` i dołącz go do `Document` przed dodan
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

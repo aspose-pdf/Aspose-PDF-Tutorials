@@ -153,22 +153,6 @@ doc.save(outputFilePath);
 - استكشاف ميزات إضافية في Aspose.PDF مثل العلامات المائية، التشفير، والتوقيعات الرقمية.
 - دمج هذه المنطق في خدمات Java الحالية أو الخدمات المصغرة.
 
-## قسم الأسئلة المتكررة
-**س1: كيف أحل خطأ HTML غير صالح في PDF؟**  
-**ج1:** تأكد من أن محتوى HTML مُشكل بشكل صحيح ولا يحتوي على وسوم أو خصائص غير مدعومة.
-
-**س2: هل يمكن لـ Aspose.PDF التعامل مع ملفات كبيرة بكفاءة؟**  
-**ج2:** نعم، مع إعدادات إدارة الذاكرة المناسبة يمكنك معالجة PDFs الكبيرة. فكر في تقسيم المستندات الضخمة إلى أقسام أصغر.
-
-**س3: هل هناك حد لعدد الصفحات التي يمكن إنشاؤها في PDF باستخدام Aspose.PDF؟**  
-**ج3:** لا يوجد حد ثابت للصفحات؛ الأداء يعتمد على موارد النظام وتعقيد المستند.
-
-**س4: هل يمكن دمج عدة أجزاء HTML في PDF واحد؟**  
-**ج4:** نعم، يمكنك إضافة عدة كائنات `HtmlFragment` إلى نفس `Page` أو عبر صفحات متعددة.
-
-**س5: كيف أطبق الأنماط على محتوى HTML في Aspose.PDF؟**  
-**ج5:** استخدم CSS قياسي داخل سلاسل HTML الخاصة بك، لكن التزم بخصائص CSS المدعومة من قبل Aspose.PDF لضمان عرض موثوق.
-
 ## الأسئلة المتكررة
 **س: هل يغطي هذا الدرس تحويل صفحات HTML كاملة (مع CSS وصور) إلى PDF؟**  
 **ج:** يركز المثال على أجزاء HTML بسيطة، لكن نفس النهج يعمل مع الصفحات الكاملة—فقط تأكد من أن جميع الموارد متاحة.
@@ -193,14 +177,6 @@ doc.save(outputFilePath);
 - **Temporary License**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose PDF Forum](https://forum.aspose.com/c/pdf/10)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-29  
@@ -208,3 +184,11 @@ doc.save(outputFilePath);
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

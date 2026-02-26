@@ -198,6 +198,12 @@ Känn dig fri att [try implementing this solution](https://releases.aspose.com/p
 - [Download Aspose.PDF for Java](https://releases.aspose.com/pdf/java/)
 - [Purchase a License](https://purchase.aspose.com/buy)
 
+---
+
+**Senast uppdaterad:** 2025-12-29  
+**Testad med:** Aspose.PDF 25.3 for Java  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -205,9 +211,3 @@ Känn dig fri att [try implementing this solution](https://releases.aspose.com/p
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2025-12-29  
-**Testad med:** Aspose.PDF 25.3 for Java  
-**Författare:** Aspose

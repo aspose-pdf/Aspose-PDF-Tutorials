@@ -153,22 +153,6 @@ Aspose.PDF 提供多種實務應用：
 - 探索 Aspose.PDF 的其他功能，如浮水印、加密與數位簽章。
 - 將此邏輯整合至您現有的 Java 服務或微服務中。
 
-## 常見問答
-**Q1：如何解決 PDF 中的無效 HTML 錯誤？**  
-A1：確保 HTML 內容格式正確，且不含不支援的標籤或屬性。
-
-**Q2：Aspose.PDF 能有效處理大型檔案嗎？**  
-A2：可以，透過適當的記憶體管理設定即可處理大型 PDF。建議將極大的文件拆分成較小的段落。
-
-**Q3：使用 Aspose.PDF 建立 PDF 時，頁數有上限嗎？**  
-A3：沒有硬性頁數上限；效能取決於系統資源與文件複雜度。
-
-**Q4：我可以將多個 HTML 片段合併成單一 PDF 嗎？**  
-A4：可以，您可以將多個 `HtmlFragment` 物件加入同一 `Page`，或分散於多頁。
-
-**Q5：如何在 Aspose.PDF 中為 HTML 內容套用樣式？**  
-A5：在 HTML 字串中使用標準 CSS，但請僅使用 Aspose.PDF 支援的 CSS 屬性，以確保正確渲染。
-
 ## 常見問題
 
 **Q：本教學是否涵蓋將完整的 HTML 頁面（含 CSS 與圖片）轉換為 PDF？**  
@@ -194,6 +178,12 @@ A：可以——先建立 `HeaderFooter` 物件，並在加入 HTML 內容前將
 - **臨時授權**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **支援**: [Aspose PDF Forum](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**最後更新：** 2025-12-29  
+**測試環境：** Aspose.PDF for Java 25.3  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -201,9 +191,3 @@ A：可以——先建立 `HeaderFooter` 物件，並在加入 HTML 內容前將
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2025-12-29  
-**測試環境：** Aspose.PDF for Java 25.3  
-**作者：** Aspose

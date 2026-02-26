@@ -154,22 +154,6 @@ Este tutorial forneceu um fluxo passo a passo **como criar pdf** usando Aspose.P
 - Explore recursos adicionais do Aspose.PDF, como marcas d'água, criptografia e assinaturas digitais.
 - Integre esta lógica em seus serviços Java existentes ou micro‑serviços.
 
-## Seção de FAQ
-**Q1: Como resolvo um erro de HTML inválido no meu PDF?**  
-A1: Certifique‑se de que o conteúdo HTML esteja bem‑formado e não contenha tags ou atributos não suportados.
-
-**Q2: O Aspose.PDF pode lidar com arquivos grandes de forma eficiente?**  
-A2: Sim, com configurações adequadas de gerenciamento de memória você pode processar PDFs grandes. Considere dividir documentos extremamente grandes em seções menores.
-
-**Q3: Existe um limite para o número de páginas que posso criar em um PDF usando Aspose.PDF?**  
-A3: Não há um limite rígido de páginas; o desempenho depende dos recursos do sistema e da complexidade do documento.
-
-**Q4: Posso mesclar vários fragmentos HTML em um único PDF?**  
-A4: Sim, você pode adicionar vários objetos `HtmlFragment` à mesma `Page` ou em várias páginas.
-
-**Q5: Como aplico estilos ao meu conteúdo HTML no Aspose.PDF?**  
-A5: Use CSS padrão dentro das strings HTML, mas mantenha‑se nas propriedades CSS suportadas pelo Aspose.PDF para renderização confiável.
-
 ## Perguntas Frequentes
 
 **Q: Este tutorial cobre a conversão de páginas HTML completas (com CSS e imagens) para PDF?**  
@@ -195,14 +179,6 @@ A: Sim — crie um objeto `HeaderFooter` e anexe ao `Document` antes de adiciona
 - **Temporary License**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose PDF Forum](https://forum.aspose.com/c/pdf/10)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-29  
@@ -210,3 +186,11 @@ A: Sim — crie um objeto `HeaderFooter` e anexe ao `Document` antes de adiciona
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

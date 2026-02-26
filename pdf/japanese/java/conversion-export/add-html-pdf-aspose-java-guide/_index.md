@@ -154,22 +154,6 @@ Aspose.PDF の具体的な活用シーンは多数あります。
 - ウォーターマーク、暗号化、デジタル署名など、Aspose.PDF の追加機能を探求する。
 - このロジックを既存の Java サービスやマイクロサービスに統合する。
 
-## FAQ セクション
-**Q1: PDF で無効な HTML エラーが出た場合の対処法は？**  
-A1: HTML コンテンツが正しく構成され、サポートされていないタグや属性が含まれていないことを確認してください。
-
-**Q2: Aspose.PDF は大容量ファイルを効率的に処理できますか？**  
-A2: はい、適切なメモリ管理設定を行えば大きな PDF も処理可能です。非常に大きなドキュメントは小分けにして処理することを検討してください。
-
-**Q3: Aspose.PDF で作成できるページ数に上限はありますか？**  
-A3: ハードなページ上限はありません。パフォーマンスはシステムリソースとドキュメントの複雑さに依存します。
-
-**Q4: 複数の HTML フラグメントを 1 つの PDF に結合できますか？**  
-A4: はい、複数の `HtmlFragment` オブジェクトを同じ `Page` または複数ページに追加できます。
-
-**Q5: Aspose.PDF で HTML コンテンツにスタイルを適用するには？**  
-A5: HTML 文字列内に標準的な CSS を使用しますが、Aspose.PDF がサポートする CSS プロパティに限定してください。
-
 ## よくある質問
 
 **Q: 本チュートリアルは CSS や画像を含む完全な HTML ページを PDF に変換する方法をカバーしていますか？**  
@@ -195,14 +179,6 @@ A: はい、`HeaderFooter` オブジェクトを作成し、HTML コンテンツ
 - **一時ライセンス**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **サポート**: [Aspose PDF Forum](https://forum.aspose.com/c/pdf/10)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最終更新日:** 2025-12-29  
@@ -210,3 +186,11 @@ A: はい、`HeaderFooter` オブジェクトを作成し、HTML コンテンツ
 **作成者:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

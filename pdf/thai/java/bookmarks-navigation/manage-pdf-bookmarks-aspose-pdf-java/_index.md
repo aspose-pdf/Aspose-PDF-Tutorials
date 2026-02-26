@@ -18,40 +18,40 @@ weight: 1
 {{< blocks/products/pf/tutorial-page-section >}}
 # เชี่ยวชาญการจัดการบุ๊กมาร์ก PDF ด้วย Aspose.PDF Java
 
-## Introduction
+## การแนะนำ
 
-คุณกำลังประสบปัญหาในการจัดระเบียบรายงานหรือการนำเสนอ PDF ที่ยาวมากอย่างมีประสิทธิภาพหรือไม่? การนำทางไปยังส่วนสำคัญที่ซ่อนอยู่ลึกในหน้าอาจเป็นเรื่องท้าทาย บทเรียนนี้จะสอนคุณในการ **create pdf bookmarks** และจัดการกับมันใน PDF ด้วย **Aspose.PDF for Java** เพื่อให้เนื้อหาที่สำคัญเข้าถึงได้ง่าย
+นี่คือสาเหตุของการจัดทำรายงานหรือเอกสาร PDF ที่ยาวมากอย่างมีประสิทธิภาพหรือไม่? เรียนรู้ไปยังส่วนสำคัญที่ลึกลงไปบ่อยครั้งที่เรื่องการต่อสู้ เรียนรู้ที่จะสอนคุณใน **สร้างบุ๊คมาร์ค pdf** และมันใน PDF ด้วย **Aspose.PDF สำหรับ Java** เพื่อให้เนื้อหาที่สำคัญเข้าถึงได้
 
-ในคู่มือฉบับสมบูรณ์นี้ เราจะสำรวจ:
-- การเปิดเอกสาร PDF ที่มีอยู่
-- การสร้างและกำหนดค่าบุ๊กมาร์กระดับพาเรนท์และชิลด์
-- การเพิ่มบุ๊กมาร์กไปยังคอลเลกชันโครงร่างของเอกสาร
-- การบันทึก PDF พร้อมลำดับชั้นบุ๊กมาร์กใหม่
+ในคู่มือฉบับสมบูรณ์นี้สำรวจ:
+- เอกสารนี้ PDF เป็นตัวอย่าง
+- ภาพรวมและภาพรวมมาร์กระดับพาเรนท์และชิลด์
+- บุ๊กมาร์กไปยังข้อสังเกตของเอกสาร
+- วิจัย PDF พร้อมด้วยชั้นบุ๊กมาร์กใหม่
 
-**What You'll Learn:**
-- การตั้งค่า Aspose.PDF for Java ในโปรเจกต์ของคุณ
-- เทคนิคในการ **add bookmarks to pdf** และ **save pdf with bookmarks**
-- เคล็ดลับในการจัดระเบียบบุ๊กมาร์กอย่างมีประสิทธิภาพ
-- แนวปฏิบัติที่ดีที่สุดสำหรับการบันทึก PDF ที่อัปเดตพร้อมบุ๊กมาร์กใหม่
+**สิ่งที่คุณจะได้เรียนรู้:**
+- คุณสามารถ Aspose.PDF สำหรับ Java ในโปรเจกต์ของคุณ
+- เทคนิคในการ **เพิ่มบุ๊คมาร์คลงใน pdf** และ **บันทึก pdf ด้วยบุ๊คมาร์ค**
+- เคล็ดลับในการบริหารบุ๊กมาร์กอย่างมีประสิทธิภาพ
+- แนวปฏิบัติที่ดีที่สุดสำหรับการวิจัย PDF ที่อัปเดตพร้อมบุ๊กมาร์กใหม่
 
-มาร่วมเริ่มต้นด้วยการตั้งค่าข้อกำหนดเบื้องต้นที่จำเป็นกันเถอะ
+เราจะมาแจ้งให้ทราบในเบื้องต้นกันเถอะ
 
-## Quick Answers
-- **What is the primary purpose?** เพื่อ **create pdf bookmarks** ที่ช่วยปรับปรุงการนำทางในเอกสาร  
-- **Which library is used?** Aspose.PDF for Java.  
-- **Do I need a license?** มีการทดลองใช้ฟรี; จำเป็นต้องมีไลเซนส์สำหรับการใช้งานจริง  
-- **Can I open a PDF document in Java?** ได้ – ใช้คลาส `Document` (`open pdf document java`).  
-- **How do I save the PDF after adding bookmarks?** เรียก `document.save(...)` (`save pdf with bookmarks`).
+## คำตอบด่วน
+- **จุดประสงค์หลักคืออะไร** เพื่อ **สร้างบุ๊คมาร์ค pdf** ที่ช่วยปรับปรุงประสิทธิภาพของเอกสารได้
+- **ใช้ไลบรารีใด** Aspose.PDF สำหรับ Java
+- **Do I need a License?** เอกสารข้อมูลฟรี; อย่าลืมทานอาหารเซนส์จริง
+- **ฉันสามารถเปิดเอกสาร PDF ใน Java ได้หรือไม่** ได้ – ใช้คลาส `Document` (`open pdf document java`)
+- **ฉันจะบันทึก PDF หลังจากเพิ่มบุ๊กมาร์กได้อย่างไร** เรียก `document.save(...)` (`บันทึก pdf ด้วยบุ๊กมาร์ก`)
 
-## Prerequisites
+## ข้อกำหนดเบื้องต้น
 
-ก่อนจะลงลึกสู่การทำงานจริง โปรดตรวจสอบว่าคุณมีสิ่งต่อไปนี้:
+ลงลึกสู่การทำงานจริงกรุณาตรวจสอบคุณอีกครั้ง:
 
-### Required Libraries and Dependencies
+### ไลบรารีและการพึ่งพาที่จำเป็น
 
-เพื่อใช้ Aspose.PDF for Java ให้เพิ่มเข้าไปในโปรเจกต์ของคุณโดยใช้ Maven หรือ Gradle:
+เอกสาร Aspose.PDF สำหรับ Java สามารถเพิ่มโปรเจกต์ของคุณในส่วน Maven หรือ Gradle:
 
-**Maven:**
+**มาเวน:**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -60,29 +60,29 @@ weight: 1
 </dependency>
 ```
 
-**Gradle:**
+**เกรเดิล:**
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### Environment Setup
-- ตรวจสอบว่าคุณได้ติดตั้ง Java Development Kit (JDK) แล้ว  
+### การตั้งค่าสภาพแวดล้อม
+- คุณสามารถติดตั้ง Java Development Kit (JDK) ได้แล้ว
 - ตั้งค่า Integrated Development Environment (IDE) เช่น IntelliJ IDEA หรือ Eclipse
 
-### Knowledge Prerequisites
-ความเข้าใจพื้นฐานของ:
-- การเขียนโปรแกรม Java  
-- การทำงานกับเครื่องมือสร้าง Maven/Gradle
+### ข้อกำหนดเบื้องต้นของความรู้
+ความเข้าใจในความรู้สึก:
+- เกาะจาวา
+- การเป็นเครื่องมือสร้าง Maven/Gradle
 
-## Setting Up Aspose.PDF for Java
+## การตั้งค่า Aspose.PDF สำหรับ Java
 
-ก่อนที่จะเริ่มพัฒนาฟีเจอร์ต่าง ๆ ให้ตั้งค่า Aspose.PDF for Java ในโปรเจกต์ของคุณ นี่คือขั้นตอนเริ่มต้น:
-1. **Installation**: ใช้สแนปช็อตของ dependency ที่ให้ไว้ในไฟล์ `pom.xml` (Maven) หรือ `build.gradle` (Gradle) ของคุณ  
-2. **License Acquisition**:
-   - เริ่มต้นด้วย [free trial](https://releases.aspose.com/pdf/java/) เพื่อทดสอบความสามารถ  
-   - รับไลเซนส์ชั่วคราวจาก [Aspose website](https://purchase.aspose.com/temporary-license/)  
-   - เยี่ยมชม [Purchase Aspose.PDF](https://purchase.aspose.com/buy) สำหรับการใช้งานต่อเนื่อง  
-3. **Basic Initialization**:
+เราจะเริ่มพัฒนาในส่วนต่างๆ มากมายให้คุณติดตั้ง Aspose.PDF สำหรับ Java ในโปรเจกต์ของคุณทั้งหมดในขั้นตอนเริ่มต้น:
+1. **การติดตั้ง**: ใช้สแนปช็อตของการพึ่งพาที่ให้ไฟล์ `pom.xml` (Maven) หรือ `build.gradle` (Gradle) ของคุณ
+2. **การได้มาซึ่งใบอนุญาต**: 
+- สามารถ [ทดลองใช้ฟรี](https://releases.aspose.com/pdf/java/) เพื่อทดสอบความสามารถในการทดสอบ 
+- รับไลเซนส์ชั่วคราวจาก [Aspose website](https://purchase.aspose.com/temporary-license/) 
+- ยังคง [Purchase Aspose.PDF](https://purchase.aspose.com/buy) ยังคงต่อเนื่อง
+3. **การเริ่มต้นขั้นพื้นฐาน**:
 ```java
 import com.aspose.pdf.Document;
 // Initialize document object
@@ -91,9 +91,9 @@ document = new Document("YOUR_DOCUMENT_DIRECTORY/input.pdf");
 
 ตอนนี้เราได้ตั้งค่าสภาพแวดล้อมและ dependencies แล้ว ให้ไปสู่ส่วนแนะนำการทำงานต่อไป
 
-## Implementation Guide
+## คู่มือการใช้งาน
 
-### Feature 1: Open PDF Document
+### คุณสมบัติที่ 1: เปิดเอกสาร PDF
 เพื่อจัดการไฟล์ PDF ให้เปิดไฟล์โดยใช้ Aspose.PDF for Java (`open pdf document java`):
 ```java
 import com.aspose.pdf.Document;
@@ -103,7 +103,7 @@ document = new Document(dataDir + "/input.pdf");
 - **Parameters**: ตัวแปร `dataDir` ควรชี้ไปยังตำแหน่งที่ตั้งของเอกสารของคุณ  
 - **Purpose**: การโหลด PDF เข้าไปในอ็อบเจ็กต์ `Document` ทำให้สามารถจัดการต่อได้
 
-### Feature 2: Create and Configure Parent Bookmark
+### คุณสมบัติที่ 2: สร้างและกำหนดค่าบุ๊กมาร์กหลัก
 การสร้างบุ๊กมาร์กช่วยจัดระเบียบเนื้อหาอย่างมีประสิทธิภาพ นี่คือวิธี **add bookmarks to pdf** ระดับพาเรนท์:
 ```java
 import com.aspose.pdf.OutlineItemCollection;
@@ -119,7 +119,7 @@ pdfOutline.setDestination(new GoToAction(document.getPages().get_Item(2)));
   - `setItalic()` & `setBold()`: ใช้สไตล์ข้อความ  
   - `setDestination()`: กำหนดปลายทางของบุ๊กมาร์กไปยังหน้าที่กำหนด  
 
-### Feature 3: Create and Configure Child Bookmark
+### คุณสมบัติที่ 3: สร้างและกำหนดค่าบุ๊กมาร์กย่อย
 เพิ่มประสิทธิภาพการนำทางด้วยการเพิ่มชิลด์บุ๊กมาร์ก:
 ```java
 import com.aspose.pdf.OutlineItemCollection;
@@ -131,7 +131,7 @@ pdfChildOutline.setBold(true);
 pdfChildOutline.setDestination(new GoToAction(document.getPages().get_Item(2)));
 ```
 
-### Feature 4: Add Child Bookmark to Parent Bookmark
+### คุณสมบัติที่ 4: เพิ่มบุ๊กมาร์กย่อยลงในบุ๊กมาร์กหลัก
 จัดระเบียบบุ๊กมาร์กโดยการใส่ชิลด์บุ๊กมาร์กภายใต้พาเรนท์:
 ```java
 document.getOutlines().add(pdfOutline); // Ensure pdfOutline is the parent
@@ -139,7 +139,7 @@ pdfOutline.add(pdfChildOutline);
 ```
 - **Purpose**: วิธีนี้จัดระเบียบบุ๊กมาร์กเป็นลำดับชั้นเพื่อการนำทางที่ดียิ่งขึ้น
 
-### Feature 5: Add Parent Bookmark to Document and Save
+### คุณสมบัติที่ 5: เพิ่มบุ๊กมาร์กหลักลงในเอกสารและบันทึก
 บันทึก PDF พร้อมการกำหนดค่าบุ๊กมาร์กที่อัปเดต (`save pdf with bookmarks`):
 ```java
 import com.aspose.pdf.Document;
@@ -149,52 +149,58 @@ document.save(outputDir + "/PDF_with_ChildBookmarks.pdf");
 ```
 - **Purpose**: ทำให้การเปลี่ยนแปลงคงอยู่โดยการบันทึกเอกสารด้วยชื่อไฟล์ใหม่
 
-## Practical Applications
-การสร้างและจัดการบุ๊กมาร์กใน PDF มีประโยชน์ต่อ:
-1. **Legal Documents** – จัดระเบียบข้อและข้อย่อย  
-2. **Educational Materials** – กระโดดระหว่างบทและหัวข้อได้อย่างรวดเร็ว  
-3. **Technical Manuals** – เข้าถึงโมดูลและฟังก์ชันต่าง ๆ อย่างง่าย  
-4. **Business Reports** – เน้นผลการค้นหาหรือข้อเสนอแนะสำคัญ  
-5. **Presentations** – ช่วยให้การนำทางระหว่างสไลด์เป็นไปอย่างราบรื่น  
+## การใช้งานจริง
+การจัดการและการจัดการบุ๊กมาร์กใน PDF มีประโยชน์ต่อ:
+1. **เอกสารทางกฎหมาย** – ระเบียบข้อและข้อย่อย
+2. **สื่อการศึกษา** – กระโดดระหว่างบทและหัวข้ออย่างรวดเร็ว
+3. **คู่มือทางเทคนิค** – เข้าถึงและฟังก์ชั่นต่าง ๆ ได้อย่างง่ายดาย
+4. **รายงานทางธุรกิจ** – เน้นย้ำหรือมีความสำคัญ
+5. **Presentations** – เอกสารประกอบระหว่างสไลด์โชว์ต่างๆ
 
-บุ๊กมาร์กเหล่านี้สามารถผสานรวมกับระบบจัดการเอกสารเพื่อเพิ่มประสิทธิภาพการทำงานอัตโนมัติได้
+บุ๊กมาร์กสามารถตอบสนองความต้องการของระบบจัดการเอกสารเพื่อการทำงานอัตโนมัติได้
 
-## Performance Considerations
-เมื่อทำงานกับ Aspose.PDF ควรคำนึงถึง:
-- **Optimize Memory Usage** – ปิดเอกสารหลังการประมวลผลเพื่อคืนหน่วยความจำ  
-- **Efficient Resource Management** – ใช้สตรีมเมื่อต้องจัดการไฟล์ขนาดใหญ่  
-- **Java Memory Best Practices** – ตรวจสอบการใช้ heap ของแอปพลิเคชันและปรับตั้งค่า JVM ตามความจำเป็น  
+## ข้อควรพิจารณาด้านประสิทธิภาพ
+ในส่วนของ Aspose.PDF ในวันนี้:
+- **เพิ่มประสิทธิภาพการใช้หน่วยความจำ** – ปิดเอกสารหลังเพื่อคืนคำอธิบาย
+- **การจัดการทรัพยากรที่มีประสิทธิภาพ** – ใช้สตรีมเมื่อต้องจัดการไฟล์ขนาดใหญ่
+- **Java Memory Best Practices** – การถ่ายทำโดยใช้ฮีปของแอปพลิเคชันและปรับการตั้งค่า JVM ตามความกว้าง
 
-## Common Issues and Solutions
-- **Password‑protected PDFs** – ใช้ `Document.decrypt()` ก่อนเพิ่มบุ๊กมาร์ก  
-- **Large Files** – ประมวลผลหน้าเป็นส่วน ๆ หรือใช้ `Document.optimizeResources()`  
-- **Missing Outlines** – ตรวจสอบว่าคุณเรียก `document.getOutlines().add(pdfOutline)` ก่อนบันทึก  
+## ปัญหาทั่วไปและแนวทางแก้ไข
+- **Password‑protected PDFs** – use `Document.decrypt()` ก่อนเพิ่มบุ๊กมาร์ก
+- **ไฟล์ขนาดใหญ่** – ไม่ว่าหน้าจะเป็นอย่างไร `Document.optimizeResources()`
+- **Missing Outlines** – ภาพถ่ายที่คุณเรียก `document.getOutlines().add(pdfOutline)` ก่อนบันทึก
 
-## Conclusion
-ขอแสดงความยินดี! คุณได้เรียนรู้วิธี **create pdf bookmarks**, เพิ่มบุ๊กมาร์กลงในเอกสาร, และ **save pdf with bookmarks** ด้วย Aspose.PDF for Java ทักษะนี้จะช่วยเพิ่มความสามารถในการนำทางของเอกสารที่ซับซ้อน ทำให้ใช้งานง่ายและมีประสิทธิภาพมากขึ้น
+## บทสรุป
+บทความ! บางครั้ง **สร้างบุ๊กมาร์ก pdf**, เพิ่มบุ๊กมาร์กลงในเอกสาร, และ **บันทึก pdf ด้วยบุ๊กมาร์ก** ด้วย Aspose.PDF สำหรับ Java ทักษะการตรวจสอบอย่างละเอียดของคำสั่งของสมุนไพร อย่างไรก็ตาม ไม่มีการรวบรวมข้อมูลอีกครั้ง...
 
-**Next Steps:**
-- ทดลองกับการกำหนดค่าบุ๊กมาร์กที่แตกต่างกัน (หลายระดับชิลด์, การกระทำแบบกำหนดเอง)  
-- สำรวจฟีเจอร์อื่น ๆ ของ Aspose.PDF เช่น การสกัดข้อความ, การจัดการรูปภาพ, และการรวม PDF  
+**ขั้นตอนต่อไป:**
+- ทดลองกับบุ๊กมาร์กผิวหน้า (หลายระดับชิลด์, ที่นี่)
+- เป็นที่อื่น ๆ ของ Aspose.PDF เช่น การสกัดข้อความ, องค์ประกอบรูปภาพ, และการควบคุม PDF
 
-อย่าลังเลที่จะ [try implementing this solution](https://releases.aspose.com/pdf/java/) ในโปรเจกต์ของคุณวันนี้!
+คุณ [ลองดำเนินการแก้ไขปัญหานี้](https://releases.aspose.com/pdf/java/) ในโปรเจกต์ของคุณวันนี้!
 
-## FAQ Section
-1. **How do I customize the appearance of bookmarks?**  
-   ใช้เมธอดเช่น `setItalic()`, `setBold()` เพื่อสไตล์ข้อความ และสำรวจตัวเลือกการสไตล์เพิ่มเติมในเอกสารของ Aspose.PDF  
-2. **Can I add multiple child bookmarks under one parent?**  
-   ได้, เพียงเรียกเมธอด `add()` บนบุ๊กมาร์กพาเรนท์ของคุณสำหรับแต่ละชิลด์ใหม่ที่คุณสร้าง  
-3. **What if my PDF document is password-protected?**  
-   ปลดล็อกโดยใช้ความสามารถการถอดรหัสของ Aspose.PDF ก่อนเพิ่มบุ๊กมาร์ก  
-4. **Is there a limit to how many bookmarks I can add?**  
-   ไม่มีขีดจำกัดที่แน่นอน, แต่ควรคำนึงถึงประสิทธิภาพและประสบการณ์ผู้ใช้เมื่อมีการบุ๊กมาร์กจำนวนมาก  
-5. **How do I handle errors when saving the document?**  
-   จับข้อยกเว้นที่เกี่ยวกับการดำเนินการไฟล์ (เช่น `IOException`) และตรวจสอบว่าไดเรกทอรีเอาต์พุตของคุณเข้าถึงได้  
+## ส่วนคำถามที่พบบ่อย
+1. **ฉันจะปรับแต่งรูปลักษณ์ของบุ๊กมาร์กได้อย่างไร** 
+ใช้เมธอดเช่น `setItalic()`, `setBold()` ไปที่สไตล์ข้อความ และสำรวจตัวเลือกสไตล์เพิ่มเติมในเอกสารของ Aspose.PDF
+2. **ฉันสามารถเพิ่มบุ๊กมาร์กย่อยหลายรายการภายใต้ผู้ปกครองคนเดียวได้หรือไม่** 
+ได้เพียงเรียกเมธอด `add()` บนบุ๊กมาร์กพาเรนท์ของคุณ...
+3. **จะเกิดอะไรขึ้นหากเอกสาร PDF ของฉันมีการป้องกันด้วยรหัสผ่าน** 
+การค้นพบความสามารถการถอดรหัสของ Aspose.PDF ก่อนเพิ่มบุ๊กมาร์ก
+4. **ฉันสามารถเพิ่มบุ๊กมาร์กได้จำกัดจำนวนหรือไม่** 
+โดยไม่ต้องทำอะไรเลย แต่ควรทราบถึงประสบการณ์และประสบการณ์ของผู้ใช้บุ๊กมาร์กจำนวนมาก
+5. **ฉันจะจัดการกับข้อผิดพลาดเมื่อบันทึกเอกสารได้อย่างไร** 
+เพื่อให้ทราบถึงแนวทางการดำเนินการของไฟล์ (เช่น `IOException`) และระบบควบคุมของคุณที่เข้าถึงได้
 
-## Resources
-- [Aspose.PDF Documentation](https://reference.aspose.com/pdf/java/)
-- [Download Aspose.PDF for Java](https://releases.aspose.com/pdf/java/)
-- [Purchase a License](https://purchase.aspose.com/buy)
+## ทรัพยากร
+- [Aspose.PDF [เอกสารประกอบ](https://reference.aspose.com/pdf/java/)
+- [ดาวน์โหลด Aspose.PDF สำหรับ Java](https://releases.aspose.com/pdf/java/)
+- [ซื้อใบอนุญาต](https://purchase.aspose.com/buy)
+
+---
+
+**อัปเดตล่าสุด:** 2025-12-29
+**ทดสอบกับ:** Aspose.PDF 25.3 สำหรับ Java
+**ผู้เขียน:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -203,9 +209,3 @@ document.save(outputDir + "/PDF_with_ChildBookmarks.pdf");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-29  
-**Tested With:** Aspose.PDF 25.3 for Java  
-**Author:** Aspose

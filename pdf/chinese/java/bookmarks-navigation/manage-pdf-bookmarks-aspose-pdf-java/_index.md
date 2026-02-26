@@ -195,6 +195,12 @@ document.save(outputDir + "/PDF_with_ChildBookmarks.pdf");
 - [下载 Aspose.PDF for Java](https://releases.aspose.com/pdf/java/)  
 - [购买许可证](https://purchase.aspose.com/buy)
 
+---
+
+**最后更新：** 2025-12-29  
+**测试版本：** Aspose.PDF 25.3 for Java  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -202,9 +208,3 @@ document.save(outputDir + "/PDF_with_ChildBookmarks.pdf");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2025-12-29  
-**测试版本：** Aspose.PDF 25.3 for Java  
-**作者：** Aspose

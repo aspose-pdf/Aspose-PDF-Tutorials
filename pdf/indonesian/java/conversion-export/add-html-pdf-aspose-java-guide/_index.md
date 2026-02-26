@@ -154,22 +154,6 @@ Tutorial ini memberikan Anda alur kerja **cara membuat pdf** langkah demi langka
 - Jelajahi fitur tambahan Aspose.PDF seperti watermark, enkripsi, dan tanda tangan digital.
 - Integrasikan logika ini ke dalam layanan Java Anda yang ada atau micro‑services.
 
-## Bagian FAQ
-**Q1: Bagaimana cara mengatasi kesalahan HTML tidak valid di PDF saya?**  
-A1: Pastikan konten HTML terbentuk dengan baik dan tidak mengandung tag atau atribut yang tidak didukung.
-
-**Q2: Bisakah Aspose.PDF menangani file besar secara efisien?**  
-A2: Ya, dengan pengaturan manajemen memori yang tepat Anda dapat memproses PDF besar. Pertimbangkan memecah dokumen yang sangat besar menjadi bagian‑bagian yang lebih kecil.
-
-**Q3: Apakah ada batas jumlah halaman yang dapat saya buat dalam PDF menggunakan Aspose.PDF?**  
-A3: Tidak ada batas halaman yang keras; kinerja tergantung pada sumber daya sistem dan kompleksitas dokumen.
-
-**Q4: Bisakah saya menggabungkan beberapa fragmen HTML menjadi satu PDF?**  
-A4: Ya, Anda dapat menambahkan beberapa objek `HtmlFragment` ke `Page` yang sama atau ke beberapa halaman.
-
-**Q5: Bagaimana cara menerapkan gaya pada konten HTML saya di Aspose.PDF?**  
-A5: Gunakan CSS standar di dalam string HTML Anda, tetapi tetap pada properti CSS yang didukung oleh Aspose.PDF untuk rendering yang dapat diandalkan.
-
 ## Pertanyaan yang Sering Diajukan
 
 **Q: Apakah tutorial ini mencakup konversi halaman HTML lengkap (dengan CSS dan gambar) ke PDF?**  
@@ -195,6 +179,12 @@ A: Ya—buat objek `HeaderFooter` dan lampirkan ke `Document` sebelum menambahka
 - **Lisensi Sementara**: [Dapatkan Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
 - **Dukungan**: [Forum Aspose PDF](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Terakhir Diperbarui:** 2025-12-29  
+**Diuji Dengan:** Aspose.PDF for Java 25.3  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -202,9 +192,3 @@ A: Ya—buat objek `HeaderFooter` dan lampirkan ke `Document` sebelum menambahka
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2025-12-29  
-**Diuji Dengan:** Aspose.PDF for Java 25.3  
-**Penulis:** Aspose

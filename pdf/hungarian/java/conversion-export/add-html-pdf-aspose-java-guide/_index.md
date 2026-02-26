@@ -155,22 +155,6 @@ Ez az útmutató lépésről‑lépésre bemutatta, hogyan **hozzunk létre pdf*
 - Fedezze fel az Aspose.PDF további funkcióit, például vízjeleket, titkosítást és digitális aláírásokat.
 - Integrálja ezt a logikát meglévő Java szolgáltatásaiba vagy mikro‑szolgáltatásaiba.
 
-## Gyakran Ismételt Kérdések
-**Q1: Hogyan oldjam meg az „invalid HTML” hibát a PDF‑ben?**  
-A1: Győződjön meg arról, hogy a HTML‑tartalom jól formázott, és nem tartalmaz nem támogatott címkéket vagy attribútumokat.
-
-**Q2: Kezelheti az Aspose.PDF a nagy fájlokat hatékonyan?**  
-A2: Igen, megfelelő memória‑kezelési beállításokkal nagy PDF‑eket is feldolgozhat. Fontolja meg a rendkívül nagy dokumentumok kisebb szakaszokra bontását.
-
-**Q3: Van korlátozás a PDF‑ben létrehozható oldalak számában az Aspose.PDF‑vel?**  
-A3: Nincs szigorú oldalszám‑korlát; a teljesítmény a rendszer erőforrásaitól és a dokumentum összetettségétől függ.
-
-**Q4: Egyesíthetek több HTML fragmentumot egyetlen PDF‑be?**  
-A4: Igen, több `HtmlFragment` objektumot is hozzáadhat ugyanahhoz a `Page`‑hez vagy több oldalra.
-
-**Q5: Hogyan alkalmazhatok stílusokat a HTML‑tartalomra az Aspose.PDF‑ben?**  
-A5: Használjon szabványos CSS‑t a HTML‑stringjeiben, de csak az Aspose.PDF által támogatott CSS‑tulajdonságokat alkalmazza a megbízható megjelenítéshez.
-
 ## Gyakran Feltett Kérdések
 
 **Q: Lefedi ez az útmutató a teljes HTML oldalak (CSS‑szel és képekkel) PDF‑vé konvertálását?**  
@@ -196,14 +180,6 @@ A: Igen – hozzon létre egy `HeaderFooter` objektumot, és csatolja a `Documen
 - **Ideiglenes licenc**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Támogatás**: [Aspose PDF Forum](https://forum.aspose.com/c/pdf/10)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Utoljára frissítve:** 2025-12-29  
@@ -211,3 +187,11 @@ A: Igen – hozzon létre egy `HeaderFooter` objektumot, és csatolja a `Documen
 **Szerző:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

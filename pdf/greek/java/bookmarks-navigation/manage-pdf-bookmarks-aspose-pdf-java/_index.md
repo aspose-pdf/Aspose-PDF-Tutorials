@@ -196,6 +196,12 @@ document.save(outputDir + "/PDF_with_ChildBookmarks.pdf");
 - [Download Aspose.PDF for Java](https://releases.aspose.com/pdf/java/)
 - [Purchase a License](https://purchase.aspose.com/buy)
 
+---
+
+**Τελευταία Ενημέρωση:** 2025-12-29  
+**Δοκιμή Με:** Aspose.PDF 25.3 for Java  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -203,9 +209,3 @@ document.save(outputDir + "/PDF_with_ChildBookmarks.pdf");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2025-12-29  
-**Δοκιμή Με:** Aspose.PDF 25.3 for Java  
-**Συγγραφέας:** Aspose

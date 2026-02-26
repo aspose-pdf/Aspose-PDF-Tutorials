@@ -202,6 +202,12 @@ Aspose.PDF を使用する際は、以下を考慮してください：
 - [Aspose.PDF for Java のダウンロード](https://releases.aspose.com/pdf/java/)
 - [ライセンスの購入](https://purchase.aspose.com/buy)
 
+---
+
+**Last Updated:** 2025-12-29  
+**Tested With:** Aspose.PDF 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -209,9 +215,3 @@ Aspose.PDF を使用する際は、以下を考慮してください：
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-29  
-**Tested With:** Aspose.PDF 25.3 for Java  
-**Author:** Aspose

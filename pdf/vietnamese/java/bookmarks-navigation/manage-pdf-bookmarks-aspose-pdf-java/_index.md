@@ -203,6 +203,12 @@ Hãy tự do [thử triển khai giải pháp này](https://releases.aspose.com/
 - [Tải xuống Aspose.PDF cho Java](https://releases.aspose.com/pdf/java/)
 - [Mua giấy phép](https://purchase.aspose.com/buy)
 
+---
+
+**Cập nhật lần cuối:** 2025-12-29  
+**Đã kiểm thử với:** Aspose.PDF 25.3 cho Java  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -210,9 +216,3 @@ Hãy tự do [thử triển khai giải pháp này](https://releases.aspose.com/
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2025-12-29  
-**Đã kiểm thử với:** Aspose.PDF 25.3 cho Java  
-**Tác giả:** Aspose

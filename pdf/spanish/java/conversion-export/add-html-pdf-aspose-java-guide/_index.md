@@ -154,22 +154,6 @@ Este tutorial le proporcionó un flujo paso a paso **cómo crear pdf** usando As
 - Explore características adicionales de Aspose.PDF como marcas de agua, cifrado y firmas digitales.  
 - Integre esta lógica en sus servicios Java existentes o micro‑servicios.
 
-## Sección de preguntas frecuentes
-**P1: ¿Cómo resuelvo un error de HTML inválido en mi PDF?**  
-R1: Asegúrese de que el contenido HTML esté bien formado y no contenga etiquetas o atributos no compatibles.
-
-**P2: ¿Puede Aspose.PDF manejar archivos grandes de forma eficiente?**  
-R2: Sí, con una configuración adecuada de gestión de memoria puede procesar PDFs grandes. Considere dividir documentos extremadamente extensos en secciones más pequeñas.
-
-**P3: ¿Existe un límite al número de páginas que puedo crear en un PDF usando Aspose.PDF?**  
-R3: No hay un límite estricto de páginas; el rendimiento depende de los recursos del sistema y la complejidad del documento.
-
-**P4: ¿Puedo combinar varios fragmentos HTML en un solo PDF?**  
-R4: Sí, puede añadir varios objetos `HtmlFragment` a la misma `Page` o a lo largo de múltiples páginas.
-
-**P5: ¿Cómo aplico estilos a mi contenido HTML en Aspose.PDF?**  
-R5: Use CSS estándar dentro de sus cadenas HTML, pero manténgase en las propiedades CSS compatibles con Aspose.PDF para un renderizado fiable.
-
 ## Preguntas frecuentes
 
 **P: ¿Este tutorial cubre la conversión de páginas HTML completas (con CSS e imágenes) a PDF?**  
@@ -195,14 +179,6 @@ R: Sí, cree un objeto `HeaderFooter` y asígnelo al `Document` antes de añadir
 - **Licencia temporal**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Soporte**: [Aspose PDF Forum](https://forum.aspose.com/c/pdf/10)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última actualización:** 2025-12-29  
@@ -210,3 +186,11 @@ R: Sí, cree un objeto `HeaderFooter` y asígnelo al `Document` antes de añadir
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

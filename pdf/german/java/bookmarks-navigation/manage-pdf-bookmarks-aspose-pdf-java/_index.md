@@ -195,6 +195,12 @@ Fühlen Sie sich frei, [diese Lösung zu implementieren](https://releases.aspose
 - [Download Aspose.PDF for Java](https://releases.aspose.com/pdf/java/)
 - [Purchase a License](https://purchase.aspose.com/buy)
 
+---
+
+**Last Updated:** 2025-12-29  
+**Tested With:** Aspose.PDF 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -202,9 +208,3 @@ Fühlen Sie sich frei, [diese Lösung zu implementieren](https://releases.aspose
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-29  
-**Tested With:** Aspose.PDF 25.3 for Java  
-**Author:** Aspose

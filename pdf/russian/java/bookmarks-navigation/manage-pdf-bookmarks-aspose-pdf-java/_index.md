@@ -197,6 +197,12 @@ document.save(outputDir + "/PDF_with_ChildBookmarks.pdf");
 - [Скачать Aspose.PDF для Java](https://releases.aspose.com/pdf/java/)
 - [Приобрести лицензию](https://purchase.aspose.com/buy)
 
+---
+
+**Последнее обновление:** 2025-12-29  
+**Тестировано с:** Aspose.PDF 25.3 для Java  
+**Автор:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -204,9 +210,3 @@ document.save(outputDir + "/PDF_with_ChildBookmarks.pdf");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2025-12-29  
-**Тестировано с:** Aspose.PDF 25.3 для Java  
-**Автор:** Aspose

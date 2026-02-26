@@ -198,6 +198,12 @@ Al trabajar con Aspose.PDF, considere:
 - [Download Aspose.PDF for Java](https://releases.aspose.com/pdf/java/)
 - [Purchase a License](https://purchase.aspose.com/buy)
 
+---
+
+**Última actualización:** 2025-12-29  
+**Probado con:** Aspose.PDF 25.3 for Java  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -205,9 +211,3 @@ Al trabajar con Aspose.PDF, considere:
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2025-12-29  
-**Probado con:** Aspose.PDF 25.3 for Java  
-**Autor:** Aspose

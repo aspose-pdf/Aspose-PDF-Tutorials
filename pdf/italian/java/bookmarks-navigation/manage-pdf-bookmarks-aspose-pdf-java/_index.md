@@ -198,6 +198,12 @@ Sentiti libero di [provare a implementare questa soluzione](https://releases.asp
 - [Download Aspose.PDF for Java](https://releases.aspose.com/pdf/java/)
 - [Acquista una Licenza](https://purchase.aspose.com/buy)
 
+---
+
+**Ultimo aggiornamento:** 2025-12-29  
+**Testato con:** Aspose.PDF 25.3 for Java  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -205,9 +211,3 @@ Sentiti libero di [provare a implementare questa soluzione](https://releases.asp
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2025-12-29  
-**Testato con:** Aspose.PDF 25.3 for Java  
-**Autore:** Aspose

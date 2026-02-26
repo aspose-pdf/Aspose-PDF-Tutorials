@@ -196,6 +196,12 @@ document.save(outputDir + "/PDF_with_ChildBookmarks.pdf");
 - [تحميل Aspose.PDF for Java](https://releases.aspose.com/pdf/java/)
 - [شراء ترخيص](https://purchase.aspose.com/buy)
 
+---
+
+**آخر تحديث:** 2025-12-29  
+**تم الاختبار مع:** Aspose.PDF 25.3 for Java  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -203,9 +209,3 @@ document.save(outputDir + "/PDF_with_ChildBookmarks.pdf");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2025-12-29  
-**تم الاختبار مع:** Aspose.PDF 25.3 for Java  
-**المؤلف:** Aspose

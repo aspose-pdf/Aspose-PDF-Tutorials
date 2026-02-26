@@ -151,22 +151,6 @@ Tento tutoriál vám poskytl krok za krokem **jak vytvořit pdf** workflow pomoc
 - Prozkoumejte další funkce Aspose.PDF, jako jsou vodoznaky, šifrování a digitální podpisy.
 - Integrovat tuto logiku do vašich existujících Java služeb nebo mikro‑služeb.
 
-## Sekce FAQ
-**Q1: Jak vyřešit chybu neplatného HTML v mém PDF?**  
-A1: Ujistěte se, že HTML obsah je dobře formovaný a neobsahuje nepodporované značky nebo atributy.
-
-**Q2: Dokáže Aspose.PDF efektivně zpracovávat velké soubory?**  
-A2: Ano, s vhodnými nastaveními správy paměti můžete zpracovávat velké PDF. Zvažte rozdělení extrémně velkých dokumentů na menší sekce.
-
-**Q3: Existuje limit počtu stránek, které mohu vytvořit v PDF pomocí Aspose.PDF?**  
-A3: Neexistuje pevný limit počtu stránek; výkon závisí na systémových zdrojích a složitosti dokumentu.
-
-**Q4: Mohu sloučit více HTML fragmentů do jednoho PDF?**  
-A4: Ano, můžete přidat několik `HtmlFragment` objektů do stejné `Page` nebo napříč více stránkami.
-
-**Q5: Jak aplikovat styly na můj HTML obsah v Aspose.PDF?**  
-A5: Použijte standardní CSS ve vašich HTML řetězcích, ale držte se CSS vlastností podporovaných Aspose.PDF pro spolehlivé vykreslení.
-
 ## Často kladené otázky
 
 **Q: Pokrývá tento tutoriál konverzi kompletních HTML stránek (s CSS a obrázky) do PDF?**  
@@ -192,14 +176,6 @@ A: Ano – vytvořte objekt `HeaderFooter` a připojte jej k `Document` před p�
 - **Temporary License**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose PDF Forum](https://forum.aspose.com/c/pdf/10)
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2025-12-29  
@@ -207,3 +183,11 @@ A: Ano – vytvořte objekt `HeaderFooter` a připojte jej k `Document` před p�
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
