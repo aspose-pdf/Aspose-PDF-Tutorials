@@ -172,14 +172,6 @@ A: 可以先將頁面渲染為影像顯示於 UI 元件，確認後再決定裁�
 
 依照本指南操作後，您已具備 **how to crop PDF** 頁面並使用 Aspose.PDF for Java 轉換為高品質 BMP 影像的堅實基礎。可自行嘗試不同解析度、輸出格式與批次工作流程，以符合您的專案需求。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **最後更新：** 2026-01-01  
@@ -187,3 +179,11 @@ A: 可以先將頁面渲染為影像顯示於 UI 元件，確認後再決定裁�
 **作者：** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

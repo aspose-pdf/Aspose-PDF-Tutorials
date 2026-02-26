@@ -173,14 +173,6 @@ A: Renderelheted az oldalt először képként, megjelenítheted egy UI komponen
 
 Ezzel az útmutatóval most már szilárd alapokkal rendelkezel **hogyan vágj le PDF** oldalakat, és konvertáld őket magas minőségű BMP képekké az Aspose.PDF for Java segítségével. Kísérletezz különböző felbontásokkal, kimeneti formátumokkal és kötegelt munkafolyamatokkal, hogy a projekted igényeihez leginkább illeszkedjen.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Utoljára frissítve:** 2026-01-01  
@@ -188,3 +180,11 @@ Ezzel az útmutatóval most már szilárd alapokkal rendelkezel **hogyan vágj l
 **Szerző:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

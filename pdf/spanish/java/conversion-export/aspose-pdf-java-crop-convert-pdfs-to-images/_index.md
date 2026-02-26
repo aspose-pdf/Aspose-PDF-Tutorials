@@ -174,14 +174,6 @@ R: Puedes renderizar la página a una imagen primero y mostrarla en un component
 
 Siguiendo esta guía, ahora tienes una base sólida para **cómo recortar PDF** y convertirlas en imágenes BMP de alta calidad usando Aspose.PDF para Java. Experimenta con diferentes resoluciones, formatos de salida y flujos de trabajo por lotes para adaptarlos a las necesidades específicas de tu proyecto.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última actualización:** 2026-01-01  
@@ -189,3 +181,11 @@ Siguiendo esta guía, ahora tienes una base sólida para **cómo recortar PDF** 
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -173,14 +173,6 @@ A: Bạn có thể render trang thành hình ảnh trước, hiển thị trong 
 
 Bằng cách làm theo hướng dẫn này, bạn đã có nền tảng vững chắc để **cắt PDF** các trang và chuyển chúng thành hình ảnh BMP chất lượng cao bằng Aspose.PDF cho Java. Hãy thử nghiệm với các độ phân giải, định dạng đầu ra và quy trình xử lý hàng loạt khác nhau để phù hợp với nhu cầu dự án của bạn.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Cập nhật lần cuối:** 2026-01-01  
@@ -188,3 +180,11 @@ Bằng cách làm theo hướng dẫn này, bạn đã có nền tảng vững c
 **Tác giả:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

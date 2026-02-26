@@ -174,14 +174,6 @@ A: Je kunt de pagina eerst renderen naar een afbeelding en deze weergeven in een
 
 Door deze gids te volgen, heb je nu een solide basis voor **hoe je PDF**-pagina's kunt bijsnijden en omzetten naar BMP‑afbeeldingen van hoge kwaliteit met Aspose.PDF voor Java. Experimenteer met verschillende resoluties, uitvoerformaten en batch‑workflows om aan de specifieke eisen van je project te voldoen.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Laatst bijgewerkt:** 2026-01-01  
@@ -189,3 +181,11 @@ Door deze gids te volgen, heb je nu een solide basis voor **hoe je PDF**-pagina'
 **Auteur:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

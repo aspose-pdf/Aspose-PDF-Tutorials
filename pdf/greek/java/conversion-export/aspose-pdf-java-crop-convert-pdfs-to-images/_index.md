@@ -174,6 +174,12 @@ A: You can render the page to an image first and display it in a UI component, t
 
 Ακολουθώντας αυτόν τον οδηγό, έχετε τώρα μια σταθερή βάση για **πώς να κόψετε PDF** σελίδες και να τις μετατρέψετε σε εικόνες BMP υψηλής ποιότητας χρησιμοποιώντας το Aspose.PDF for Java. Πειραματιστείτε με διαφορετικές αναλύσεις, μορφές εξόδου και ροές εργασίας σε παρτίδες για να ταιριάζουν στις συγκεκριμένες ανάγκες του έργου σας.
 
+---
+
+**Τελευταία Ενημέρωση:** 2026-01-01  
+**Δοκιμάστηκε Με:** Aspose.PDF for Java 25.3  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -181,9 +187,3 @@ A: You can render the page to an image first and display it in a UI component, t
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2026-01-01  
-**Δοκιμάστηκε Με:** Aspose.PDF for Java 25.3  
-**Συγγραφέας:** Aspose

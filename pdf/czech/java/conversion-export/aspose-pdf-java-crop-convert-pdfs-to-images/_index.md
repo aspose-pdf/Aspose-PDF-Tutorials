@@ -81,36 +81,36 @@ S připraveným prostředím přejděme k ořezávání.
 ## Jak oříznout stránky PDF pomocí Aspose.PDF
 Ořezání vám umožní zaměřit se na konkrétní oblast stránky. Níže je podrobný postup krok za krokem.
 
-### Step 1: Import Necessary Libraries
+### Krok 1: Import nezbytných knihoven
 ```java
 import com.aspose.pdf.Document;
 import com.aspose.pdf.Rectangle;
 ```
 
-### Step 2: Load the PDF Document
+### Krok 2: Načtěte dokument PDF
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Document document = new Document(dataDir + "/Input.pdf");
 ```
 
-### Step 3: Define the Crop Region (set crop box pdf)
+### Krok 3: Definujte oblast oříznutí (nastavení ořezového pole pdf)
 ```java
 Rectangle pageRect = new Rectangle(20, 671, 693, 1125);
 document.getPages().get_Item(1).setCropBox(pageRect);
 ```
-- *Parametry*: souřadnice left, bottom, right, top (v bodech).
+- *Parametry*: souřadnice vlevo, dole, vpravo, nahoře (v bodech).
 
-### Step 4: Save the Cropped Document
+### Krok 4: Uložte oříznutý dokument
 ```java
 document.save(dataDir + "/CroppedOutput.pdf");
 ```
 
-> **Tip:** Ověřte rozměry obdélníku vůči velikosti stránky, abyste se vyhnuli chybám „out of bounds“.
+> **Tip:** Ověřte rozměry obdélníku vůči velikosti stránek, abyste se vyhnuli chybám „out of bounds“.
 
 ## Převod oříznuté oblasti PDF na obrázek (pdf na bmp převod)
 Nyní, když je stránka oříznutá, můžete ji vykreslit jako BMP obrázek – běžný **vysoké rozlišení pdf obrázek** formát.
 
-### Step 5: Import Additional Libraries
+### Krok 5: Import dalších knihoven
 ```java
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -118,13 +118,13 @@ import com.aspose.pdf.devices.BmpDevice;
 import com.aspose.pdf.devices.Resolution;
 ```
 
-### Step 6: Save Cropped PDF to a Byte Stream
+### Krok 6: Uložte oříznuté PDF do bajtového toku
 ```java
 ByteArrayOutputStream outStream = new ByteArrayOutputStream();
 document.save(outStream);
 ```
 
-### Step 7: Load from Byte Stream and Convert
+### Krok 7: Načíst z Byte Stream a převést
 ```java
 document = new Document(new ByteArrayInputStream(outStream.toByteArray()));
 Resolution resolution = new Resolution(300); // High‑quality image
@@ -173,14 +173,6 @@ A: Můžete nejprve vykreslit stránku do obrázku a zobrazit ji v UI komponent�
 
 Podle tohoto průvodce máte nyní solidní základy pro **jak oříznout PDF** stránky a převést je na vysoce kvalitní BMP obrázky pomocí Aspose.PDF pro Java. Experimentujte s různými rozlišeními, výstupními formáty a dávkovými workflow, aby vyhovovaly vašim konkrétním potřebám projektu.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-01  
@@ -188,3 +180,11 @@ Podle tohoto průvodce máte nyní solidní základy pro **jak oříznout PDF** 
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

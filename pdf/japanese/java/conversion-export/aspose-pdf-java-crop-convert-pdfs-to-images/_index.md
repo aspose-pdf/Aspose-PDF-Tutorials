@@ -19,7 +19,7 @@ weight: 1
 
 Java で **PDF を切り抜く方法** と、その切り抜いた領域を画像に変換する方法を知りたい方は、ここが最適です。この包括的なガイドでは、PDF ページから領域を切り抜き、Aspose.PDF for Java を使用して高解像度 BMP 画像に変換する手順を解説し、文書管理ワークフローの効率化に役立てます。
 
-## Quick Answers
+## クイックアンサー
 - **主要なライブラリは？** Aspose.PDF for Java。
 - **カスタムのクロップボックスを設定できるか？** はい – `setCropBox` メソッドを使用します。
 - **どのフォーマットが最高品質か？** 300 dpi の BMP が高解像度 PDF 画像を提供します。
@@ -145,7 +145,7 @@ bmpDevice.process(document.getPages().get_Item(1), "YOUR_OUTPUT_DIRECTORY/Output
 - **バッチ処理:** 大きな PDF はページ単位で順次処理し、メモリフットプリントを抑制。
 - **リソースクリーンアップ:** 使用後は `document.dispose()` を呼び出すか、JVM のガベージコレクタに任せてオブジェクトを解放。
 
-## Frequently Asked Questions
+## よくある質問
 
 **Q: 複数ページを一度に切り抜くには？**  
 A: `document.getPages()` をイテレートし、必要に応じて各ページに `setCropBox` を適用します。
@@ -162,7 +162,7 @@ A: ページをバッチで処理し、ストリームを再利用し、`documen
 **Q: 保存前に切り抜き領域をプレビューできるか？**  
 A: ページを画像としてレンダリングし UI コンポーネントに表示し、ユーザーにクロップボックスを確認させることができます。
 
-## Resources
+## リソース
 - **Documentation:** [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/)
 - **Download:** [Aspose.PDF Releases](https://releases.aspose.com/pdf/java/)
 - **Purchase:** [Buy Aspose.PDF](https://purchase.aspose.com/buy)
@@ -172,14 +172,6 @@ A: ページを画像としてレンダリングし UI コンポーネントに�
 
 このガイドに従うことで、**PDF を切り抜く方法** と Aspose.PDF for Java を使用した高品質 BMP 画像への変換手順の基礎が身につきました。解像度や出力フォーマット、バッチワークフローをプロジェクトの要件に合わせて調整し、活用してください。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-01  
@@ -187,3 +179,11 @@ A: ページを画像としてレンダリングし UI コンポーネントに�
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

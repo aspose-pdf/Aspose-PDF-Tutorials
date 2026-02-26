@@ -174,14 +174,6 @@ bmpDevice.process(document.getPages().get_Item(1), "YOUR_OUTPUT_DIRECTORY/Output
 
 इस गाइड को फॉलो करके, अब आपके पास **PDF को कैसे क्रॉप करें** और Aspose.PDF for Java का उपयोग करके हाई‑क्वालिटी BMP इमेज में बदलने की ठोस नींव है। विभिन्न रेज़ॉल्यूशन, आउटपुट फ़ॉर्मेट और बैच वर्कफ़्लो के साथ प्रयोग करें ताकि आपके प्रोजेक्ट की विशिष्ट ज़रूरतें पूरी हों।
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-01  
@@ -189,3 +181,11 @@ bmpDevice.process(document.getPages().get_Item(1), "YOUR_OUTPUT_DIRECTORY/Output
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

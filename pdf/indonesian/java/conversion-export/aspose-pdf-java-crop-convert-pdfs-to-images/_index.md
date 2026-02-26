@@ -17,6 +17,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Potong dan Konversi Halaman PDF menjadi Gambar Menggunakan Aspose.PDF Java
 
 Jika Anda perlu mengetahui **cara memotong PDF** halaman dan mengubah bagian tersebut menjadi gambar menggunakan Java, Anda berada di tempat yang tepat. Panduan komprehensif ini memandu Anda melalui pemotongan area dari halaman PDF, kemudian mengonversi area tersebut menjadi gambar BMP resolusi tinggi dengan Aspose.PDF untuk Java, membantu Anda menyederhanakan alur kerja manajemen dokumen.
@@ -174,6 +175,12 @@ A: Anda dapat merender halaman ke gambar terlebih dahulu dan menampilkannya dala
 
 Dengan mengikuti panduan ini, Anda kini memiliki dasar yang kuat untuk **cara memotong PDF** halaman dan mengonversinya menjadi gambar BMP berkualitas tinggi menggunakan Aspose.PDF untuk Java. Bereksperimenlah dengan resolusi yang berbeda, format output, dan alur kerja batch untuk menyesuaikan kebutuhan proyek Anda.
 
+---
+
+**Terakhir Diperbarui:** 2026-01-01  
+**Diuji Dengan:** Aspose.PDF for Java 25.3  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -181,9 +188,3 @@ Dengan mengikuti panduan ini, Anda kini memiliki dasar yang kuat untuk **cara me
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2026-01-01  
-**Diuji Dengan:** Aspose.PDF for Java 25.3  
-**Penulis:** Aspose

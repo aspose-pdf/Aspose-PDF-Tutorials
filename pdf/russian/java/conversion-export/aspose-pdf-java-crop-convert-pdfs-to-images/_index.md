@@ -174,14 +174,6 @@ A: Можно сначала отрисовать страницу в изобр
 
 Следуя этому руководству, вы получили надёжную основу для **how to crop PDF** страниц и их конвертации в изображения BMP высокого качества с помощью Aspose.PDF for Java. Экспериментируйте с различными разрешениями, форматами вывода и пакетными процессами, чтобы адаптировать решение под конкретные требования вашего проекта.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Последнее обновление:** 2026-01-01  
@@ -189,3 +181,11 @@ A: Можно сначала отрисовать страницу в изобр
 **Автор:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

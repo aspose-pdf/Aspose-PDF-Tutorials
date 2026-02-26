@@ -7,7 +7,7 @@ keywords:
 - Convert PDF to PPTX
 - Aspose.PDF for Java
 - PDF manipulation
-title: 'Converti PDF in PPTX con Aspose.PDF per Java: Guida completa'
+title: 'Converti PDF in PPTX con Aspose.PDF per Java - Guida completa'
 url: /it/java/conversion-export/aspose-pdf-java-convert-pdfs-to-pptx/
 weight: 1
 ---
@@ -18,8 +18,6 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 # Converti PDF in PPTX con Aspose.PDF per Java: Guida Completa
-## Conversione e Esportazione
-**URL SEO corrente**: aspose-pdf-java-convert-pdfs-to-pptx
 
 ## Introduzione
 Nel mondo digitale di oggi, aziende e privati si trovano spesso a dover manipolare documenti PDF. Che si tratti di estrarre dati da report o di preparare presentazioni, gestire i file PDF in modo efficiente è fondamentale. Questo tutorial ti guida nell'uso di Aspose.PDF per Java per **convertire pdf in pptx**, una necessità comune negli ambienti aziendali.
@@ -171,6 +169,12 @@ Quando lavori con file PDF di grandi dimensioni, considera questi consigli per o
 
 Abbraccia il potere della manipolazione PDF nelle tue applicazioni Java oggi stesso!
 
+---
+
+**Ultimo Aggiornamento:** 2026-01-01  
+**Testato Con:** Aspose.PDF 25.3 for Java  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -178,9 +182,3 @@ Abbraccia il potere della manipolazione PDF nelle tue applicazioni Java oggi ste
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo Aggiornamento:** 2026-01-01  
-**Testato Con:** Aspose.PDF 25.3 for Java  
-**Autore:** Aspose

@@ -173,14 +173,6 @@ C: Sayfayı önce bir görüntüye render edip UI bileşeninde göstererek kırp
 
 Bu kılavuzu izleyerek, Aspose.PDF for Java kullanarak **PDF nasıl kırpılır** ve yüksek kaliteli BMP görüntülerine dönüştürülür konularında sağlam bir temele sahip oldunuz. Farklı çözünürlükler, çıktı formatları ve toplu iş akışlarıyla deneyler yaparak projenizin özel ihtiyaçlarına uygun hale getirebilirsiniz.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Son Güncelleme:** 2026-01-01  
@@ -188,3 +180,11 @@ Bu kılavuzu izleyerek, Aspose.PDF for Java kullanarak **PDF nasıl kırpılır*
 **Yazar:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

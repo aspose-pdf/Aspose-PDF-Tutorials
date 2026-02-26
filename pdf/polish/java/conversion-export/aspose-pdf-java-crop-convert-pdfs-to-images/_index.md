@@ -174,6 +174,12 @@ A: Możesz najpierw wyrenderować stronę jako obraz i wyświetlić go w kompone
 
 Stosując się do tego przewodnika, masz teraz solidne podstawy do **przycinania PDF** stron i konwertowania ich na wysokiej jakości obrazy BMP przy użyciu Aspose.PDF dla Java. Eksperymentuj z różnymi rozdzielczościami, formatami wyjściowymi i przepływami wsadowymi, aby dopasować je do konkretnych potrzeb projektu.
 
+---
+
+**Ostatnia aktualizacja:** 2026-01-01  
+**Testowano z:** Aspose.PDF for Java 25.3  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -181,9 +187,3 @@ Stosując się do tego przewodnika, masz teraz solidne podstawy do **przycinania
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2026-01-01  
-**Testowano z:** Aspose.PDF for Java 25.3  
-**Autor:** Aspose

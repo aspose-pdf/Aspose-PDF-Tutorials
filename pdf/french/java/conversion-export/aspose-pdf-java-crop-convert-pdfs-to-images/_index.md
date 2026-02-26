@@ -174,14 +174,6 @@ R : Vous pouvez d’abord rendre la page en image et l’afficher dans un comp
 
 En suivant ce guide, vous disposez maintenant d’une base solide pour **how to crop PDF** et convertir les pages en images BMP de haute qualité avec Aspose.PDF for Java. Expérimentez avec différentes résolutions, formats de sortie et flux de travail par lots pour répondre aux besoins spécifiques de votre projet.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Dernière mise à jour :** 2026-01-01  
@@ -189,3 +181,11 @@ En suivant ce guide, vous disposez maintenant d’une base solide pour **how to 
 **Auteur :** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

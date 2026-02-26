@@ -173,14 +173,6 @@ bmpDevice.process(document.getPages().get_Item(1), "YOUR_OUTPUT_DIRECTORY/Output
 
 باتباع هذا الدليل، أصبحت الآن تمتلك أساسًا قويًا لـ **كيفية قص PDF** وتحويله إلى صور BMP عالية الجودة باستخدام Aspose.PDF for Java. جرّب دقات مختلفة، صيغ إخراج مختلفة، وسير عمل دفعي لتلبية احتياجات مشروعك الخاصة.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **آخر تحديث:** 2026-01-01  
@@ -188,3 +180,11 @@ bmpDevice.process(document.getPages().get_Item(1), "YOUR_OUTPUT_DIRECTORY/Output
 **المؤلف:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

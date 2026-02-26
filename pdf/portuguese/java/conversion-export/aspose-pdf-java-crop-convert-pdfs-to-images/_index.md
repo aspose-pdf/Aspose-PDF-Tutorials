@@ -173,14 +173,6 @@ R: Você pode renderizar a página para uma imagem primeiro e exibí‑la em um 
 
 Seguindo este guia, você agora tem uma base sólida para **como cortar PDF** e convertê‑lo em imagens BMP de alta qualidade usando Aspose.PDF para Java. Experimente diferentes resoluções, formatos de saída e fluxos de trabalho em lote para atender às necessidades específicas do seu projeto.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Última Atualização:** 2026-01-01  
@@ -188,3 +180,11 @@ Seguindo este guia, você agora tem uma base sólida para **como cortar PDF** e 
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -173,14 +173,6 @@ A: Sie können die Seite zuerst in ein Bild rendern und in einer UI‑Komponente
 
 Indem Sie diesem Leitfaden folgen, haben Sie nun eine solide Grundlage, **how to crop PDF** Seiten zu beschneiden und sie mit Aspose.PDF für Java in hochqualitative BMP‑Bilder zu konvertieren. Experimentieren Sie mit verschiedenen Auflösungen, Ausgabeformaten und Batch‑Workflows, um sie an die Anforderungen Ihres Projekts anzupassen.
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Zuletzt aktualisiert:** 2026-01-01  
@@ -188,3 +180,11 @@ Indem Sie diesem Leitfaden folgen, haben Sie nun eine solide Grundlage, **how to
 **Autor:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

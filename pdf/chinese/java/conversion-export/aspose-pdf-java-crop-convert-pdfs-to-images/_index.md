@@ -172,14 +172,6 @@ A: 您可以先将页面渲染为图像并在 UI 组件中显示，然后确认�
 
 通过本指南，您已经掌握了使用 Aspose.PDF for Java **裁剪 PDF** 页面并将其转换为高质量 BMP 图像的坚实基础。请尝试不同的分辨率、输出格式和批处理工作流，以满足您的具体项目需求。
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-
 ---
 
 **Last Updated:** 2026-01-01  
@@ -187,3 +179,11 @@ A: 您可以先将页面渲染为图像并在 UI 组件中显示，然后确认�
 **Author:** Aspose  
 
 ---
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
