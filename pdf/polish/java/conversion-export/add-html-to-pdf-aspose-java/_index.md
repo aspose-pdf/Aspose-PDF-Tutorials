@@ -222,6 +222,12 @@ A: Podstawowy CSS inline jest obsługiwany. W przypadku zaawansowanego stylowani
 
 Teraz, gdy poznałeś dodawanie HTML do PDF‑ów przy użyciu Aspose.PDF dla Javy, wypróbuj to w swoich projektach! Rozpocznij eksperymenty i zobacz rezultaty!
 
+---
+
+**Ostatnia aktualizacja:** 2026-01-04  
+**Testowano z:** Aspose.PDF dla Javy 25.3  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -229,9 +235,3 @@ Teraz, gdy poznałeś dodawanie HTML do PDF‑ów przy użyciu Aspose.PDF dla Ja
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2026-01-04  
-**Testowano z:** Aspose.PDF dla Javy 25.3  
-**Autor:** Aspose

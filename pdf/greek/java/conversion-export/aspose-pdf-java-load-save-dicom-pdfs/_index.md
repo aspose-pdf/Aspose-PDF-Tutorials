@@ -6,7 +6,7 @@ keywords:
 - convert DICOM to PDF
 - Aspose.PDF for Java setup
 - DICOM image processing
-title: 'Φόρτωση και Μετατροπή DICOM σε PDF με τη χρήση Aspose.PDF Java: Ένας ολοκληρωμένος
+title: 'Φόρτωση και Μετατροπή DICOM σε PDF με τη χρήση Aspose.PDF Java - Ένας ολοκληρωμένος
   οδηγός'
 url: /el/java/conversion-export/aspose-pdf-java-load-save-dicom-pdfs/
 weight: 1
@@ -56,9 +56,9 @@ weight: 1
 
 Ακολουθήστε αυτά τα βήματα για να συμπεριλάβετε το Aspose.PDF στο έργο σας:
 
-### Maven Setup
+### Ρύθμιση Maven
 
-Add this dependency to your `pom.xml`:
+Προσθέστε αυτήν την εξάρτηση στο `pom.xml` σας:
 
 ```xml
 <dependency>
@@ -68,28 +68,28 @@ Add this dependency to your `pom.xml`:
 </dependency>
 ```
 
-### Gradle Setup
+### Ρύθμιση Gradle
 
-For Gradle, add the following to your `build.gradle`:
+Για το Gradle, προσθέστε τα ακόλουθα στο `build.gradle` σας:
 
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### License Acquisition
-- **Free Trial:** Begin with a free trial.
-- **Temporary License:** Request a temporary license for full evaluation features.
-- **Purchase:** Buy the library for ongoing use.
+### Απόκτηση Άδειας Χρήσης
+- **Δωρεάν Δοκιμή:** Ξεκινήστε με μια δωρεάν δοκιμή.
+- **Προσωρινή Άδεια Χρήσης:** Αίτημα προσωρινής άδειας χρήσης για πλήρεις δυνατότητες αξιολόγησης.
+- **Αγορά:** Αγοράστε τη βιβλιοθήκη για συνεχή χρήση.
 
-After setting up your environment and dependencies, initialize Aspose.PDF by creating an instance of `Document`.
+Αφού ρυθμίσετε το περιβάλλον και τις εξαρτήσεις σας, αρχικοποιήστε το Aspose.PDF δημιουργώντας μια παρουσία του `Document`.
 
 ## Οδηγός Υλοποίησης
 
-Here’s the step‑by‑step code you need to **convert dicom to pdf** and **add image** to the document.
+Ακολουθεί ο βήμα προς βήμα κώδικας που χρειάζεστε για να **μετατρέψετε dicom σε pdf** και να **προσθέσετε εικόνα** στο έγγραφο.
 
-### Step 1: Load a DICOM Image from File
+### Βήμα 1: Φόρτωση εικόνας DICOM από αρχείο
 
-Use `FileInputStream` to open the DICOM file:
+Χρησιμοποιήστε το `FileInputStream` για να ανοίξετε το αρχείο DICOM:
 
 ```java
 import java.io.FileInputStream;
@@ -102,9 +102,9 @@ try {
     FileInputStream imageStream = new FileInputStream(new File(dataDir + "/0002.dcm"));
 ```
 
-### Step 2: Create a New PDF Document and Add a Page
+### Βήμα 2: Δημιουργία νέου εγγράφου PDF και προσθήκη σελίδας
 
-Create an instance of `Document` and add a page:
+Δημιουργήστε μια παρουσία του `Εγγράφου` και προσθέστε μια σελίδα:
 
 ```java
     // Initialize a new Document object and add a page
@@ -112,9 +112,9 @@ Create an instance of `Document` and add a page:
     pdfDocument.getPages().add();
 ```
 
-### Step 3: Embed the DICOM Image into the PDF
+### Βήμα 3: Ενσωματώστε την εικόνα DICOM στο PDF
 
-Initialize an `Image` object, set its type to DICOM, and load the image:
+Αρχικοποιήστε ένα αντικείμενο `Εικόνα`, ορίστε τον τύπο του σε DICOM και φορτώστε την εικόνα:
 
 ```java
     // Initialize Image object with the DICOM file type
@@ -126,9 +126,9 @@ Initialize an `Image` object, set its type to DICOM, and load the image:
     pdfDocument.getPages().get_Item(1).getParagraphs().add(image);
 ```
 
-### Step 4: Save the PDF Document
+### Βήμα 4: Αποθήκευση του εγγράφου PDF
 
-Save your document with the embedded DICOM image:
+Αποθηκεύστε το έγγραφό σας με την ενσωματωμένη εικόνα DICOM:
 
 ```java
     String outputDir = "YOUR_OUTPUT_DIRECTORY"; // Replace with your desired output path
@@ -138,50 +138,56 @@ Save your document with the embedded DICOM image:
 }
 ```
 
-### Troubleshooting
-- **File Not Found:** Ensure the DICOM file exists at the specified location.
-- **Stream Issues:** Confirm your stream is properly opened and closed to prevent memory leaks.
+### Αντιμετώπιση προβλημάτων
+- **Το αρχείο δεν βρέθηκε:** Βεβαιωθείτε ότι το αρχείο DICOM υπάρχει στην καθορισμένη θέση.
+- **Προβλήματα ροής:** Επιβεβαιώστε ότι η ροή σας έχει ανοίξει και κλείσει σωστά για να αποτρέψετε διαρροές μνήμης.
 
 ## Πώς να προσθέσετε εικόνα σε PDF – Συνηθισμένες Περιπτώσεις Χρήσης
-1. **Medical Reporting Systems:** Convert patient scans into PDFs for easy sharing among clinicians.
-2. **Educational Content Creation:** Embed high‑resolution DICOM images in training manuals.
-3. **Data Archiving:** Store legacy DICOM files as PDFs for modern archival solutions.
+1. **Συστήματα ιατρικής αναφοράς:** Μετατροπή σαρώσεων ασθενών σε PDF για εύκολη κοινή χρήση μεταξύ των κλινικών γιατρών.
+2. **Δημιουργία Εκπαιδευτικού Περιεχομένου:** Ενσωματώστε εικόνες DICOM υψηλής ανάλυσης σε εκπαιδευτικά εγχειρίδια.
+3. **Αρχειοθέτηση δεδομένων:** Αποθηκεύστε αρχεία DICOM παλαιού τύπου ως αρχεία PDF για σύγχρονες αρχειακές λύσεις.
 
-## Performance Considerations
+## Θέματα απόδοσης
 Για να διατηρήσετε τη μετατροπή γρήγορη και αποδοτική σε μνήμη:
-- Close streams (`imageStream.close()`) after saving.
-- Reuse a single `Document` instance for batch processing.
-- Upgrade to the latest Aspose.PDF version for performance fixes.
+- Κλείσιμο ροών (`imageStream.close()`) μετά την αποθήκευση.
+- Επαναχρησιμοποίηση μιας μεμονωμένης παρουσίας «Έγγραφου» για ομαδική επεξεργασία.
+- Αναβάθμιση στην πιο πρόσφατη έκδοση Aspose.PDF για διορθώσεις απόδοσης.
 
 ## Συμπέρασμα
-You now have a complete, production‑ready example of how to **convert dicom to pdf** and **add image** content using Aspose.PDF for Java. Feel free to expand this foundation—add multiple pages, watermarks, or encryption as your project requires.
+Τώρα έχετε ένα πλήρες, έτοιμο για παραγωγή παράδειγμα του τρόπου **μετατροπής dicom σε pdf** και **προσθήκης περιεχομένου εικόνας** χρησιμοποιώντας το Aspose.PDF για Java. Μη διστάσετε να επεκτείνετε αυτό το θεμέλιο—προσθέστε πολλές σελίδες, υδατογραφήματα ή κρυπτογράφηση όπως απαιτεί το έργο σας.
 
 ## Συχνές Ερωτήσεις
 
-**Q:** What is Aspose.PDF?  
-**A:** A Java library that lets developers create, manipulate, and convert PDF documents programmatically.
+**Ε:** Τι είναι το Aspose.PDF;
+**Α:** Μια βιβλιοθήκη Java που επιτρέπει στους προγραμματιστές να δημιουργούν, να χειρίζονται και να μετατρέπουν έγγραφα PDF μέσω προγραμματισμού.
 
-**Q:** Can I use Aspose.PDF for free?  
-**A:** Yes, you can start with a free trial or request a temporary license for evaluation.
+**Ε:** Μπορώ να χρησιμοποιήσω το Aspose.PDF δωρεάν;
+**Α:** Ναι, μπορείτε να ξεκινήσετε με μια δωρεάν δοκιμαστική περίοδο ή να ζητήσετε μια προσωρινή άδεια χρήσης για αξιολόγηση.
 
-**Q:** How do I handle large DICOM files?  
-**A:** Use efficient memory management (close streams promptly) and consider processing in chunks.
+**Ε:** Πώς χειρίζομαι μεγάλα αρχεία DICOM;
+**Α:** Χρησιμοποιήστε αποτελεσματική διαχείριση μνήμης (κλείσιμο ροών άμεσα) και εξετάστε το ενδεχόμενο επεξεργασίας σε τμήματα.
 
-**Q:** Is it possible to add multiple images to one PDF?  
-**A:** Absolutely—iterate over image streams, add each as a new page or paragraph.
+**Ε:** Είναι δυνατή η προσθήκη πολλαπλών εικόνων σε ένα PDF;
+**Α:** Απολύτως—επαναλάβετε τις ροές εικόνων, προσθέστε την καθεμία ως νέα σελίδα ή παράγραφο.
 
-**Q:** My output PDF looks corrupted—what should I check?  
-**A:** Verify file paths, ensure streams are closed, and confirm you’re using a compatible Aspose.PDF version.
+**Ε:** Το PDF εξόδου μου φαίνεται κατεστραμμένο—τι πρέπει να ελέγξω;
+**Α:** Επαληθεύστε τις διαδρομές αρχείων, βεβαιωθείτε ότι οι ροές είναι κλειστές και επιβεβαιώστε ότι χρησιμοποιείτε μια συμβατή έκδοση Aspose.PDF.
 
 ## Πόροι
-- **Documentation:** [Τεκμηρίωση Aspose.PDF Java](https://reference.aspose.com/pdf/java/)
-- **Download:** [Λήψεις Aspose.PDF για Java](https://releases.aspose.com/pdf/java/)
-- **Purchase:** [Αγορά Aspose.PDF](https://purchase.aspose.com/buy)
-- **Free Trial:** [Ξεκινήστε τη Δωρεάν Δοκιμή](https://releases.aspose.com/pdf/java/)
-- **Temporary License:** [Αίτηση για Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/)
-- **Support Forum:** [Φόρουμ Υποστήριξης Aspose PDF](https://forum.aspose.com/c/pdf/10)
+- **Τεκμηρίωση:** [Τεκμηρίωση Aspose.PDF Java](https://reference.aspose.com/pdf/java/)
+- **Λήψη:** [Λήψεις Aspose.PDF για Java](https://releases.aspose.com/pdf/java/)
+- **Αγορά:** [Αγορά Aspose.PDF](https://purchase.aspose.com/buy)
+- **Δωρεάν δοκιμή:** [Ξεκινήστε τη Δοκιμή](https://releases.aspose.com/pdf/java/)
+- **Προσωρινή Άδεια:** [Αίτηση για Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/)
+- **Φόρουμ Υποστήριξης:** [Φόρουμ Υποστήριξης Aspose PDF](https://forum.aspose.com/c/pdf/10)
 
-Now, try it yourself and explore the possibilities with Aspose.PDF for Java!
+Τώρα, δοκιμάστε το μόνοι σας και εξερευνήστε τις δυνατότητες με το Aspose.PDF για Java!
+
+---
+
+**Τελευταία Ενημέρωση:** 2026-01-04
+**Δοκιμή Με:** Aspose.PDF 25.3 for Java
+**Συγγραφέας:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -190,9 +196,3 @@ Now, try it yourself and explore the possibilities with Aspose.PDF for Java!
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2026-01-04  
-**Δοκιμή Με:** Aspose.PDF 25.3 for Java  
-**Συγγραφέας:** Aspose

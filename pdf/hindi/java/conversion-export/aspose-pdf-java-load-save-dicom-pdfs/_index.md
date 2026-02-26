@@ -6,7 +6,7 @@ keywords:
 - convert DICOM to PDF
 - Aspose.PDF for Java setup
 - DICOM image processing
-title: 'Aspose.PDF Java का उपयोग करके DICOM को PDF में लोड और कनवर्ट करें: एक व्यापक
+title: 'Aspose.PDF Java का उपयोग करके DICOM को PDF में लोड और कनवर्ट करें - एक व्यापक
   गाइड'
 url: /hi/java/conversion-export/aspose-pdf-java-load-save-dicom-pdfs/
 weight: 1
@@ -183,6 +183,12 @@ try {
 
 अब खुद आज़माएँ और Aspose.PDF for Java के साथ संभावनाओं का अन्वेषण करें!
 
+---
+
+**Last Updated:** 2026-01-04  
+**Tested With:** Aspose.PDF 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -190,9 +196,3 @@ try {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-04  
-**Tested With:** Aspose.PDF 25.3 for Java  
-**Author:** Aspose

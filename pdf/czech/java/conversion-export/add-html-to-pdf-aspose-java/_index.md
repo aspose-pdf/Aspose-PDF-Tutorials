@@ -222,6 +222,12 @@ A: Základní inline CSS je podporováno. Pro pokročilé stylování předzprac
 
 Nyní, když jste prozkoumali přidávání HTML do PDF pomocí Aspose.PDF pro Java, proč to nevyzkoušet ve svých projektech? Začněte experimentovat a podívejte se na výsledky!
 
+---
+
+**Last Updated:** 2026-01-04  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -229,9 +235,3 @@ Nyní, když jste prozkoumali přidávání HTML do PDF pomocí Aspose.PDF pro J
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-04  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

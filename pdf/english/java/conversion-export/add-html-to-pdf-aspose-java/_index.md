@@ -221,6 +221,12 @@ A: Basic inline CSS is supported. For advanced styling, preprocess your HTML or 
 
 Now that you've explored adding HTML to PDFs with Aspose.PDF for Java, why not try implementing it in your projects? Start experimenting and see the results!
 
+---
+
+**Last Updated:** 2026-01-04  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -228,9 +234,3 @@ Now that you've explored adding HTML to PDFs with Aspose.PDF for Java, why not t
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-04  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

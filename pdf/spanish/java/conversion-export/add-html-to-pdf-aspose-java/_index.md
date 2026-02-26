@@ -222,6 +222,12 @@ R: Se admite CSS en línea básico. Para estilos avanzados, preprocesa tu HTML o
 
 Ahora que has explorado cómo agregar HTML a PDFs con Aspose.PDF para Java, ¿por qué no probarlo en tus proyectos? ¡Comienza a experimentar y observa los resultados!
 
+---
+
+**Última actualización:** 2026-01-04  
+**Probado con:** Aspose.PDF para Java 25.3  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -229,9 +235,3 @@ Ahora que has explorado cómo agregar HTML a PDFs con Aspose.PDF para Java, ¿po
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2026-01-04  
-**Probado con:** Aspose.PDF para Java 25.3  
-**Autor:** Aspose

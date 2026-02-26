@@ -5,7 +5,7 @@ keywords:
 - convert DICOM to PDF
 - Aspose.PDF for Java setup
 - DICOM image processing
-title: 使用 Aspose.PDF Java 加载并转换 DICOM 为 PDF：全面指南
+title: 使用 Aspose.PDF Java 加载并转换 DICOM 为 PDF - 全面指南
 url: /zh/java/conversion-export/aspose-pdf-java-load-save-dicom-pdfs/
 weight: 1
 ---
@@ -54,7 +54,7 @@ weight: 1
 
 按照以下步骤将 Aspose.PDF 包含到项目中：
 
-### Maven Setup
+### Maven 安装
 
 将此依赖添加到您的 `pom.xml` 中：
 
@@ -66,7 +66,7 @@ weight: 1
 </dependency>
 ```
 
-### Gradle Setup
+### Gradle 安装
 
 对于 Gradle，在您的 `build.gradle` 中添加以下内容：
 
@@ -74,7 +74,7 @@ weight: 1
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### License Acquisition
+### 许可证获取
 - **免费试用：** 从免费试用开始。
 - **临时许可证：** 请求临时许可证以获取完整评估功能。
 - **购买：** 购买库以持续使用。
@@ -85,7 +85,7 @@ implementation 'com.aspose:aspose-pdf:25.3'
 
 以下是您需要的逐步代码，用于 **convert dicom to pdf** 并 **add image** 到文档中。
 
-### Step 1: Load a DICOM Image from File
+### 步骤 1：从文件加载 DICOM 图像
 
 使用 `FileInputStream` 打开 DICOM 文件：
 
@@ -100,7 +100,7 @@ try {
     FileInputStream imageStream = new FileInputStream(new File(dataDir + "/0002.dcm"));
 ```
 
-### Step 2: Create a New PDF Document and Add a Page
+### 步骤 2：创建新的 PDF 文档并添加页面
 
 创建 `Document` 实例并添加页面：
 
@@ -110,7 +110,7 @@ try {
     pdfDocument.getPages().add();
 ```
 
-### Step 3: Embed the DICOM Image into the PDF
+### 步骤 3：将 DICOM 图像嵌入 PDF
 
 初始化 `Image` 对象，设置其类型为 DICOM，并加载图像：
 
@@ -124,7 +124,7 @@ try {
     pdfDocument.getPages().get_Item(1).getParagraphs().add(image);
 ```
 
-### Step 4: Save the PDF Document
+### 步骤 4：保存 PDF 文档
 
 使用嵌入的 DICOM 图像保存文档：
 
@@ -136,7 +136,7 @@ try {
 }
 ```
 
-### Troubleshooting
+### 故障排除
 - **文件未找到：** 确保 DICOM 文件存在于指定位置。
 - **流问题：** 确认流已正确打开和关闭，以防止内存泄漏。
 
@@ -181,6 +181,12 @@ try {
 
 现在，亲自尝试并探索 Aspose.PDF for Java 的无限可能！
 
+---
+
+**最后更新：** 2026-01-04  
+**测试版本：** Aspose.PDF 25.3 for Java  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -188,9 +194,3 @@ try {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2026-01-04  
-**测试版本：** Aspose.PDF 25.3 for Java  
-**作者：** Aspose

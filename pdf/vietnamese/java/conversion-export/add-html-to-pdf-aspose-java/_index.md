@@ -222,6 +222,12 @@ Chúc mừng! Bạn đã học cách thêm một **aspose pdf html fragment** v�
 
 Bây giờ bạn đã khám phá cách thêm HTML vào PDF với Aspose.PDF cho Java, tại sao không thử áp dụng vào dự án của mình? Bắt đầu thử nghiệm và xem kết quả!
 
+---
+
+**Cập nhật lần cuối:** 2026-01-04  
+**Kiểm tra với:** Aspose.PDF cho Java 25.3  
+**Tác giả:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -229,9 +235,3 @@ Bây giờ bạn đã khám phá cách thêm HTML vào PDF với Aspose.PDF cho 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Cập nhật lần cuối:** 2026-01-04  
-**Kiểm tra với:** Aspose.PDF cho Java 25.3  
-**Tác giả:** Aspose

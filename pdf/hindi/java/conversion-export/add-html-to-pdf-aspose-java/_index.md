@@ -220,6 +220,12 @@ When using Aspose.PDF for Java, keep these tips in mind to optimize performance:
 
 अब जब आपने Aspose.PDF for Java के साथ PDF में HTML जोड़ने का अन्वेषण किया है, तो क्यों न इसे अपने प्रोजेक्ट्स में लागू करने की कोशिश करें? प्रयोग शुरू करें और परिणाम देखें!
 
+---
+
+**Last Updated:** 2026-01-04  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -227,9 +233,3 @@ When using Aspose.PDF for Java, keep these tips in mind to optimize performance:
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-04  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

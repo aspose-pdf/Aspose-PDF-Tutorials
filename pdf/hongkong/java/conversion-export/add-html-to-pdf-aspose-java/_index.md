@@ -221,6 +221,12 @@ A: 支援基本的行內 CSS。若需進階樣式，請先對 HTML 進行前置�
 
 現在你已了解如何使用 Aspose.PDF for Java 將 HTML 加入 PDF，何不在自己的專案中試試看？開始實驗，看看成果吧！
 
+---
+
+**最後更新：** 2026-01-04  
+**測試版本：** Aspose.PDF for Java 25.3  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -228,9 +234,3 @@ A: 支援基本的行內 CSS。若需進階樣式，請先對 HTML 進行前置�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2026-01-04  
-**測試版本：** Aspose.PDF for Java 25.3  
-**作者：** Aspose

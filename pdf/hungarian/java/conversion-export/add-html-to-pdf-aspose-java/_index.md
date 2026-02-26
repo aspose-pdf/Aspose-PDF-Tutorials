@@ -221,6 +221,12 @@ A: Alapvető inline CSS támogatott. Haladó stílusokhoz előfeldolgozhatja a H
 
 Most, hogy megismerte a HTML PDF-be való beillesztését az Aspose.PDF for Java segítségével, próbálja ki a saját projektjeiben! Kezdjen el kísérletezni és lássa az eredményeket!
 
+---
+
+**Last Updated:** 2026-01-04  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -228,9 +234,3 @@ Most, hogy megismerte a HTML PDF-be való beillesztését az Aspose.PDF for Java
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-04  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

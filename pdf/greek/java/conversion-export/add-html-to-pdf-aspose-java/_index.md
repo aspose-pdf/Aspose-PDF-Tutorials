@@ -222,6 +222,12 @@ Document doc = new Document();
 
 Τώρα που εξερευνήσατε την προσθήκη HTML σε PDF με το Aspose.PDF για Java, γιατί να μην το δοκιμάσετε στα δικά σας έργα; Ξεκινήστε να πειραματίζεστε και δείτε τα αποτελέσματα!
 
+---
+
+**Τελευταία Ενημέρωση:** 2026-01-04  
+**Δοκιμάστηκε Με:** Aspose.PDF για Java 25.3  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -229,9 +235,3 @@ Document doc = new Document();
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2026-01-04  
-**Δοκιμάστηκε Με:** Aspose.PDF για Java 25.3  
-**Συγγραφέας:** Aspose

@@ -222,6 +222,12 @@ A: Grundläggande inline‑CSS stöds. För avancerad styling, förbehandla din 
 
 Nu när du har utforskat hur du lägger till HTML i PDF‑filer med Aspose.PDF för Java, varför inte prova att implementera det i dina projekt? Börja experimentera och se resultaten!
 
+---
+
+**Senast uppdaterad:** 2026-01-04  
+**Testat med:** Aspose.PDF för Java 25.3  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -229,9 +235,3 @@ Nu när du har utforskat hur du lägger till HTML i PDF‑filer med Aspose.PDF f
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2026-01-04  
-**Testat med:** Aspose.PDF för Java 25.3  
-**Författare:** Aspose

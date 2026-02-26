@@ -1,5 +1,5 @@
 ---
-title: "Load and Convert DICOM to PDF Using Aspose.PDF Java&#58; A Comprehensive Guide"
+title: "Load and Convert DICOM to PDF Using Aspose.PDF Java -  A Comprehensive Guide"
 description: "Learn how to convert dicom to pdf with Aspose.PDF for Java and see how to add image to a PDF document in a few simple steps."
 date: "2026-01-04"
 weight: 1
@@ -181,6 +181,12 @@ You now have a complete, production‑ready example of how to **convert dicom to
 
 Now, try it yourself and explore the possibilities with Aspose.PDF for Java!
 
+---
+
+**Last Updated:** 2026-01-04  
+**Tested With:** Aspose.PDF 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -188,9 +194,3 @@ Now, try it yourself and explore the possibilities with Aspose.PDF for Java!
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-04  
-**Tested With:** Aspose.PDF 25.3 for Java  
-**Author:** Aspose
