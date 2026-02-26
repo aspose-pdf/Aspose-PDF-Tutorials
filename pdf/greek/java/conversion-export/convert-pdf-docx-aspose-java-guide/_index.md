@@ -215,12 +215,13 @@ document.save("YOUR_OUTPUT_DIRECTORY/usingTheDocSaveOptionsClass.doc", saveOptio
 **Ε: Μπορώ να τρέξω OCR σε σκαναρισμένα PDF πριν τη μετατροπή;**  
 Α: Αν και το Aspose.PDF δεν περιλαμβάνει OCR, μπορείτε να το συνδυάσετε με Aspose.OCR ή άλλες βιβλιοθήκες OCR για μετατροπή raster‑to‑text πριν τη μετατροπή.
 
+**Σχετικοί Πόροι:** [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/) | [Σελίδα Εκδόσεων](https://releases.aspose.com/pdf/java/) | [Αγορά Τώρα](https://purchase.aspose.com/buy) | [Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/) | [Φόρουμ Υποστήριξης](https://forum.aspose.com/c/pdf/10)
+
 ---
 
 **Τελευταία Ενημέρωση:** 2026-01-11  
 **Δοκιμασμένο Με:** Aspose.PDF for Java 25.3  
 **Συγγραφέας:** Aspose  
-**Σχετικοί Πόροι:** [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/) | [Σελίδα Εκδόσεων](https://releases.aspose.com/pdf/java/) | [Αγορά Τώρα](https://purchase.aspose.com/buy) | [Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/) | [Φόρουμ Υποστήριξης](https://forum.aspose.com/c/pdf/10)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

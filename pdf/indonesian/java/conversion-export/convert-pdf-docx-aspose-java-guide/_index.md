@@ -214,12 +214,13 @@ A: Tingkatkan heap JVM (`-Xmx2G` atau lebih tinggi) dan proses PDF dalam bagian-
 **Q: Bisakah saya menjalankan OCR pada PDF yang dipindai sebelum konversi?**  
 A: Meskipun Aspose.PDF tidak menyertakan OCR, Anda dapat menggabungkannya dengan Aspose.OCR atau perpustakaan OCR lain untuk mengubah raster menjadi teks sebelum mengonversi.
 
+**Sumber Daya Terkait:** [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/) | [Releases Page](https://releases.aspose.com/pdf/java/) | [Buy Now](https://purchase.aspose.com/buy) | [Temporary License](https://purchase.aspose.com/temporary-license/) | [Support Forum](https://forum.aspose.com/c/pdf/10)
+
 ---
 
 **Terakhir Diperbarui:** 2026-01-11  
 **Diuji Dengan:** Aspose.PDF for Java 25.3  
 **Penulis:** Aspose  
-**Sumber Daya Terkait:** [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/) | [Releases Page](https://releases.aspose.com/pdf/java/) | [Buy Now](https://purchase.aspose.com/buy) | [Temporary License](https://purchase.aspose.com/temporary-license/) | [Support Forum](https://forum.aspose.com/c/pdf/10)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

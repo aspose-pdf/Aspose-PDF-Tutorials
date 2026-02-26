@@ -213,12 +213,13 @@ C: JVM yığınını artırın (`-Xmx2G` veya daha yüksek) ve mümkünse PDF'yi
 **S: Dönüştürmeden önce taranmış PDF'lerde OCR çalıştırabilir miyim?**  
 C: Aspose.PDF OCR içermez, ancak dönüştürmeden önce raster‑to‑text yapmak için Aspose.OCR veya diğer OCR kütüphaneleriyle birleştirebilirsiniz.
 
+**Related Resources:** [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/) | [Releases Page](https://releases.aspose.com/pdf/java/) | [Buy Now](https://purchase.aspose.com/buy) | [Temporary License](https://purchase.aspose.com/temporary-license/) | [Support Forum](https://forum.aspose.com/c/pdf/10)
+
 ---
 
 **Last Updated:** 2026-01-11  
 **Tested With:** Aspose.PDF for Java 25.3  
 **Author:** Aspose  
-**Related Resources:** [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/) | [Releases Page](https://releases.aspose.com/pdf/java/) | [Buy Now](https://purchase.aspose.com/buy) | [Temporary License](https://purchase.aspose.com/temporary-license/) | [Support Forum](https://forum.aspose.com/c/pdf/10)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

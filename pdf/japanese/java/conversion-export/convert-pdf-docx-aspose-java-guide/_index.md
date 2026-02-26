@@ -214,12 +214,13 @@ A: JVM ヒープを増やし（`-Xmx2G` 以上）、可能であれば PDF を�
 **Q: スキャンした PDF に対して変換前に OCR を実行できますか？**  
 A: Aspose.PDF には OCR 機能がありませんが、Aspose.OCR や他の OCR ライブラリと組み合わせて、ラスタ画像をテキストに変換してから変換できます。
 
+**Related Resources:** [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/) | [Releases Page](https://releases.aspose.com/pdf/java/) | [Buy Now](https://purchase.aspose.com/buy) | [Temporary License](https://purchase.aspose.com/temporary-license/) | [Support Forum](https://forum.aspose.com/c/pdf/10)
+
 ---
 
 **Last Updated:** 2026-01-11  
 **Tested With:** Aspose.PDF for Java 25.3  
 **Author:** Aspose  
-**Related Resources:** [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/) | [Releases Page](https://releases.aspose.com/pdf/java/) | [Buy Now](https://purchase.aspose.com/buy) | [Temporary License](https://purchase.aspose.com/temporary-license/) | [Support Forum](https://forum.aspose.com/c/pdf/10)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

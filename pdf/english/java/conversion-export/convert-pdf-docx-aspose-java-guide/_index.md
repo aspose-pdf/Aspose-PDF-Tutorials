@@ -213,12 +213,13 @@ A: Increase the JVM heap (`-Xmx2G` or higher) and process the PDF in sections if
 **Q: Can I run OCR on scanned PDFs before conversion?**  
 A: While Aspose.PDF doesn’t include OCR, you can pair it with Aspose.OCR or other OCR libraries to raster‑to‑text before converting.
 
+**Related Resources:** [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/) | [Releases Page](https://releases.aspose.com/pdf/java/) | [Buy Now](https://purchase.aspose.com/buy) | [Temporary License](https://purchase.aspose.com/temporary-license/) | [Support Forum](https://forum.aspose.com/c/pdf/10)
+
 ---
 
 **Last Updated:** 2026-01-11  
 **Tested With:** Aspose.PDF for Java 25.3  
 **Author:** Aspose  
-**Related Resources:** [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/) | [Releases Page](https://releases.aspose.com/pdf/java/) | [Buy Now](https://purchase.aspose.com/buy) | [Temporary License](https://purchase.aspose.com/temporary-license/) | [Support Forum](https://forum.aspose.com/c/pdf/10)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

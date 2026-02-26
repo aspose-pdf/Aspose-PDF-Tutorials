@@ -214,12 +214,13 @@ A: 增加 JVM 堆積 (`-Xmx2G` 或更高)；若可能，將 PDF 分段處理，�
 **Q: 在轉換前能對掃描 PDF 執行 OCR 嗎？**  
 A: 雖然 Aspose.PDF 本身不含 OCR 功能，但可搭配 Aspose.OCR 或其他 OCR 函式庫先將影像轉為文字，再進行轉換。
 
+**相關資源：** [Aspose.PDF Java 參考文件](https://reference.aspose.com/pdf/java/) | [發行頁面](https://releases.aspose.com/pdf/java/) | [立即購買](https://purchase.aspose.com/buy) | [臨時授權](https://purchase.aspose.com/temporary-license/) | [支援論壇](https://forum.aspose.com/c/pdf/10)
+
 ---
 
 **最後更新：** 2026-01-11  
 **測試版本：** Aspose.PDF for Java 25.3  
 **作者：** Aspose  
-**相關資源：** [Aspose.PDF Java 參考文件](https://reference.aspose.com/pdf/java/) | [發行頁面](https://releases.aspose.com/pdf/java/) | [立即購買](https://purchase.aspose.com/buy) | [臨時授權](https://purchase.aspose.com/temporary-license/) | [支援論壇](https://forum.aspose.com/c/pdf/10)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

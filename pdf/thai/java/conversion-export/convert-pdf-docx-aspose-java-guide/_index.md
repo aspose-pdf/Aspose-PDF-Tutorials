@@ -223,12 +223,13 @@ A: เพิ่มขนาด heap ของ JVM (`-Xmx2G` หรือสู�
 **Q: ฉันสามารถใช้ OCR กับ PDF สแกนก่อนการแปลงได้หรือไม่?**  
 A: แม้ว่า Aspose.PDF จะไม่มี OCR ในตัว, คุณสามารถใช้ร่วมกับ Aspose.OCR หรือไลบรารี OCR อื่นเพื่อแปลงภาพเป็นข้อความก่อนการแปลง.
 
+**Related Resources:** [อ้างอิง Aspose.PDF Java](https://reference.aspose.com/pdf/java/) | [หน้าปล่อยเวอร์ชัน](https://releases.aspose.com/pdf/java/) | [ซื้อเลย](https://purchase.aspose.com/buy) | [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) | [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/pdf/10)
+
 ---
 
 **Last Updated:** 2026-01-11  
 **Tested With:** Aspose.PDF for Java 25.3  
 **Author:** Aspose  
-**Related Resources:** [อ้างอิง Aspose.PDF Java](https://reference.aspose.com/pdf/java/) | [หน้าปล่อยเวอร์ชัน](https://releases.aspose.com/pdf/java/) | [ซื้อเลย](https://purchase.aspose.com/buy) | [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) | [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/pdf/10)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

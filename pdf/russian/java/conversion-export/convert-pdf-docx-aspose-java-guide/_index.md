@@ -217,12 +217,13 @@ A: Увеличьте размер кучи JVM (`-Xmx2G` или больше) �
 **Q: Могу ли я выполнить OCR на отсканированных PDF перед конвертацией?**  
 A: Хотя Aspose.PDF не включает OCR, вы можете сочетать его с Aspose.OCR или другими OCR‑библиотеками для преобразования растра в текст перед конвертацией.
 
+**Связанные ресурсы:** [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/) | [Releases Page](https://releases.aspose.com/pdf/java/) | [Buy Now](https://purchase.aspose.com/buy) | [Temporary License](https://purchase.aspose.com/temporary-license/) | [Support Forum](https://forum.aspose.com/c/pdf/10)
+
 ---
 
 **Последнее обновление:** 2026-01-11  
 **Тестировано с:** Aspose.PDF for Java 25.3  
 **Автор:** Aspose  
-**Связанные ресурсы:** [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/) | [Releases Page](https://releases.aspose.com/pdf/java/) | [Buy Now](https://purchase.aspose.com/buy) | [Temporary License](https://purchase.aspose.com/temporary-license/) | [Support Forum](https://forum.aspose.com/c/pdf/10)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

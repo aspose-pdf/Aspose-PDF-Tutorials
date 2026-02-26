@@ -214,12 +214,13 @@ R : Augmentez le heap JVM (`-Xmx2G` ou plus) et traitez le PDF par sections si
 **Q : Puis‑je exécuter l’OCR sur des PDF numérisés avant la conversion ?**  
 R : Bien qu'Aspose.PDF n'inclue pas d'OCR, vous pouvez le coupler avec Aspose.OCR ou d'autres bibliothèques OCR pour raster‑to‑text avant la conversion.
 
+**Ressources associées** : [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/) | [Releases Page](https://releases.aspose.com/pdf/java/) | [Buy Now](https://purchase.aspose.com/buy) | [Temporary License](https://purchase.aspose.com/temporary-license/) | [Support Forum](https://forum.aspose.com/c/pdf/10)
+
 ---
 
 **Dernière mise à jour** : 2026-01-11  
 **Testé avec** : Aspose.PDF pour Java 25.3  
 **Auteur** : Aspose  
-**Ressources associées** : [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/) | [Releases Page](https://releases.aspose.com/pdf/java/) | [Buy Now](https://purchase.aspose.com/buy) | [Temporary License](https://purchase.aspose.com/temporary-license/) | [Support Forum](https://forum.aspose.com/c/pdf/10)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

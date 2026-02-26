@@ -214,12 +214,13 @@ A: Zwiększ pamięć sterty JVM (`-Xmx2G` lub wyższą) i przetwarzaj PDF w sekc
 **Q: Czy mogę uruchomić OCR na zeskanowanych PDF‑ach przed konwersją?**  
 A: Chociaż Aspose.PDF nie zawiera OCR, możesz połączyć go z Aspose.OCR lub innymi bibliotekami OCR, aby przekształcić raster na tekst przed konwersją.
 
+**Powiązane zasoby:** [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/) | [Releases Page](https://releases.aspose.com/pdf/java/) | [Buy Now](https://purchase.aspose.com/buy) | [Temporary License](https://purchase.aspose.com/temporary-license/) | [Support Forum](https://forum.aspose.com/c/pdf/10)
+
 ---
 
 **Last Updated:** 2026-01-11  
 **Tested With:** Aspose.PDF for Java 25.3  
 **Author:** Aspose  
-**Powiązane zasoby:** [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/) | [Releases Page](https://releases.aspose.com/pdf/java/) | [Buy Now](https://purchase.aspose.com/buy) | [Temporary License](https://purchase.aspose.com/temporary-license/) | [Support Forum](https://forum.aspose.com/c/pdf/10)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

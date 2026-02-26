@@ -220,12 +220,13 @@ A: Növelje a JVM heap méretét (`-Xmx2G` vagy nagyobb) és ha lehetséges, dol
 **Q: Futathatok OCR-t beolvasott PDF-eken a konverzió előtt?**  
 A: Bár az Aspose.PDF nem tartalmaz OCR-t, párosíthatja azt az Aspose.OCR-rel vagy más OCR könyvtárakkal, hogy a raster képet szöveggé alakítsa a konvertálás előtt.
 
+**Kapcsolódó források:** [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/) | [Releases Page](https://releases.aspose.com/pdf/java/) | [Buy Now](https://purchase.aspose.com/buy) | [Temporary License](https://purchase.aspose.com/temporary-license/) | [Support Forum](https://forum.aspose.com/c/pdf/10)
+
 ---
 
 **Last Updated:** 2026-01-11  
 **Tested With:** Aspose.PDF for Java 25.3  
 **Author:** Aspose  
-**Kapcsolódó források:** [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/) | [Releases Page](https://releases.aspose.com/pdf/java/) | [Buy Now](https://purchase.aspose.com/buy) | [Temporary License](https://purchase.aspose.com/temporary-license/) | [Support Forum](https://forum.aspose.com/c/pdf/10)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

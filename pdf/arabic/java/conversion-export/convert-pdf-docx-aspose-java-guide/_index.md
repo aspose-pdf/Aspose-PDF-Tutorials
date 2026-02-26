@@ -16,45 +16,45 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# pdf to word java: تحويل PDF إلى DOC/DOCX باستخدام Aspose.PDF for Java
+# pdf إلى word java: تحويل PDF إلى DOC/DOCX باستخدام Aspose.PDF لـ Java
 
-## Introduction
+## مقدمة
 
-إذا كنت بحاجة إلى تحويل ملفات PDF إلى مستندات Microsoft Word قابلة للتحرير بالكامل، فإن إتقان تحويل **pdf to word java** أمر ضروري. سواء كنت تتعامل مع العقود أو التقارير أو ملفات PDF القديمة، يتيح لك Aspose.PDF for Java إجراء التحويل بسرعة مع الحفاظ على التخطيط والخطوط والصور. في هذا الدليل ستتعلم كيفية **save PDF as DOCX**، وتكوين الخيارات المتقدمة، ودمج المكتبة عبر Maven أو Gradle.
+إذا كنت بحاجة إلى تحويل ملفات PDF إلى مستندات Microsoft Word للتحرير بالكامل، فإن إتقان تحويل **pdf إلى word java** أمر ضروري. سواء كنت كثيفة مع العقود أو التقارير أو ملفات PDF القديمة، يتيح لك Aspose.PDF for Java إجراء التحويل بسرعة مع تحقيق التخطيط والخطوط والخطوط. في هذا الدليل ستتعلم كيفية **حفظ PDF كـ DOCX**، وتكوين الخيارات المتقدمة، ودمج المكتبة عبر Maven أو Gradle.
 
-- **What You'll Learn**
-  - تحويل مستندات PDF إلى صيغ DOC/DOCX باستخدام Aspose.PDF.
-  - استخدام `DocSaveOptions` للتحكم الدقيق في عملية التحويل.
-  - إعداد **aspose pdf maven dependency** (أو Gradle) في مشروع Java الخاص بك.
+- **ما ستتعلمه** 
+- تحويل المستندات PDF إلى صيغ DOC/DOCX باستخدام Aspose.PDF. 
+- استخدام `DocSaveOptions` لتوقيت التنبيه في التحويل. 
+- إعداد **اعتمادية pdf maven** (أو Gradle) في مشروع Java الخاص بك.
 
-## Quick Answers
-- **What is the primary library for pdf to word java?** Aspose.PDF for Java.
-- **Which Maven artifact adds the library?** `com.aspose:aspose-pdf`.
-- **Can I output DOCX directly?** Yes, using `DocSaveOptions` with `DocFormat.DocX`.
-- **Do I need a license for production?** A commercial license is required; a temporary trial license is available.
-- **Is the conversion memory‑intensive?** It can be, so allocate sufficient heap space (e.g., `-Xmx2G`).
+## إجابات سريعة
+- **ما هي المكتبة الأساسية لتحويل pdf إلى word java؟** Aspose.PDF لـ Java.
+- **ما هي قطعة Maven الأثرية التي تضيف المكتبة؟** `com.aspose:aspose-pdf`.
+- **هل يمكنني إخراج DOCX مباشرة؟** نعم، باستخدام `DocSaveOptions` مع `DocFormat.DocX`.
+- **هل أحتاج إلى ترخيص للإنتاج؟** مطلوب ترخيص تجاري؛ يتوفر ترخيص تجريبي مؤقت.
+- **هل عملية التحويل تستهلك الكثير من الذاكرة؟** يمكن أن تكون كذلك، لذا قم بتخصيص مساحة كافية من الكومة (على سبيل المثال، `-Xmx2G`).
 
-## What is **pdf to word java**?
-تحويل PDF إلى مستند Word في بيئة Java يعني قراءة ملف PDF باستخدام Aspose.PDF، ترجمة هيكله، وكتابة النتيجة كملف `.doc` أو `.docx` يمكن فتحه وتحريره في Microsoft Word.
+## ما هو **pdf إلى word java**؟
+تحويل PDF إلى Word مستند في بيئة Java يعني قراءة ملف PDF باستخدام Aspose.PDF، ترجمة هيكله، وكتابة النتيجة كملف `.doc` أو `.docx` يمكن فتحه وتحريره في Microsoft Word.
 
-## Why use Aspose.PDF for Java for pdf to word java conversion?
-- **High fidelity** – يحتفظ بالتخطيطات المعقدة والجداول والصور.
-- **No external dependencies** – جافا صافية، تعمل على أي نظام تشغيل.
-- **Advanced options** – التحكم في تدفق النص، التعرف على القوائم النقطية، وإعدادات القرب.
-- **Scalable** – مناسبة للملفات الفردية أو المعالجة الدفعية في الأنظمة المؤسسية.
+## لماذا نستخدم Aspose.PDF لـ Java لتحويل pdf إلى word java؟
+- **دقة عالية** – الدقة بالتخطيطات المعقدة والجداول.
+- **لا توجد تبعيات خارجية** – جافا نت، تعمل على أي نظام تشغيل.
+- **الخيارات المتقدمة** – التحكم في تدفق النص، التعرف على الكاميرا النقطية، وإعدادات القرب.
+- **قابلة للتطوير** – مناسبة للملفات الفردية أو الدفعية في الحاسب الآلي الإلكتروني.
 
-## Prerequisites
+## المتطلبات الأساسية
 
-- **Java Development Kit (JDK):** الإصدار 8 أو أعلى.
+- **مجموعة تطوير Java (JDK):** الإصدار 8 أو الأعلى.
 - **IDE:** IntelliJ IDEA، Eclipse، أو NetBeans.
-- **Aspose.PDF for Java library:** الإصدار 25.3 أو أحدث.
+- **Aspose.PDF لمكتبة Java:** الإصدار 25.3 أو أحدث.
 
-### Environment Setup
-1. قم بتثبيت JDK إذا لم يكن موجودًا مسبقًا.
-2. اختر بيئة تطوير وأنشئ مشروع Java جديد.
-3. تأكد من جاهزية Maven أو Gradle لإدارة التبعيات.
+### إعداد البيئة
+1. قم بتثبيت JDK إذا لم يكن موجودًا ليفنيًا.
+2. اختر بيئة تطوير وأنشئ مشروع Java الجديد.
+3. تأكد من جاهزية Maven أو Gradle الابتكارات التبعيات.
 
-## How to add **aspose pdf maven dependency**
+## كيفية إضافة **اعتماد تبعية pdf maven**
 لإضافة Aspose.PDF إلى مشروعك، أضف المقتطف التالي إلى ملف `pom.xml`. هذا هو **aspose pdf maven dependency** الرسمي المطلوب لتحويل pdf to word java.
 
 ```xml
@@ -71,13 +71,13 @@ If you prefer Gradle, use the equivalent declaration:
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### License Acquisition
-يتطلب Aspose.PDF رخصة للاستخدام غير المقيد. يمكنك الحصول على واحدة من الخيارات التالية:
+### الحصول على الترخيص
+يلزم Aspose.PDF بترخيص غير محدود. يمكنك الحصول على واحدة من الخيارات التالية:
 
-- **Free Trial:** اختبار جميع الميزات بدون قيود – احصل على رخصة مؤقتة [here](https://purchase.aspose.com/temporary-license/).
-- **Purchase:** للعب workloads الإنتاجية، اشترِ رخصة كاملة [here](https://purchase.aspose.com/buy).
+- **تجربة مجانية:** اختبار جميع المزايا بدون إلكترونيات – احصل على ترخيص مؤقتة [هنا](https://purchase.aspose.com/temporary-license/).
+- **الشراء:** التعبير عن أعباء العمل، اشترِ الترخيص الكامل [هنا](https://purchase.aspose.com/buy).
 
-### Basic Initialization
+### التهيئة الأساسية
 بعد إضافة المكتبة، قم بتهيئة الرخصة في الكود الخاص بك:
 
 ```java
@@ -96,16 +96,16 @@ class InitializeAsposePDF {
 }
 ```
 
-## Implementation Guide
+## دليل التنفيذ
 
 Below are three common scenarios for **convert pdf to docx java** conversion.
 
-### Saving PDF to DOC Format
-#### Overview
+### حفظ ملف PDF بصيغة DOC
+#### نظرة عامة
 استخدم هذا النهج البسيط عندما تحتاج فقط إلى ملف `.doc` قديم دون تعديلات تخطيط إضافية.
 
-#### Steps
-**Step 1: Load the Source PDF Document**
+#### الخطوات
+**الخطوة 1: تحميل ملف PDF المصدر**
 
 ```java
 import com.aspose.pdf.Document;
@@ -114,24 +114,24 @@ String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Document pdfDocument = new Document(dataDir + "/input2.pdf");
 ```
 
-**Step 2: Save as DOC File**
+**الخطوة 2: الحفظ كملف DOC**
 
 ```java
 pdfDocument.save("YOUR_OUTPUT_DIRECTORY/TableHeightIssue.doc", SaveFormat.Doc);
 ```
 
-### Saving PDF to DOCX Format
-#### Overview
+### حفظ ملف PDF بصيغة DOCX
+#### نظرة عامة
 استفد من `DocSaveOptions` لإنتاج ملف `.docx` حديث مع توافقية أفضل.
 
-#### Steps
-**Step 1: Load the Source PDF Document**
+#### الخطوات
+**الخطوة 1: تحميل ملف PDF المصدر**
 
 ```java
 Document doc = new Document(dataDir + "/input.pdf");
 ```
 
-**Step 2: Configure DocSaveOptions**
+**الخطوة 2: ضبط خيارات الحفظ المتقدمة**
 
 ```java
 import com.aspose.pdf.DocSaveOptions;
@@ -140,24 +140,24 @@ DocSaveOptions saveOptions = new DocSaveOptions();
 saveOptions.setFormat(DocSaveOptions.DocFormat.DocX);
 ```
 
-**Step 3: Save as DOCX File**
+**الخطوة 3: الحفظ كملف DOCX**
 
 ```java
 doc.save("YOUR_OUTPUT_DIRECTORY/savingToDOCX.docx", saveOptions);
 ```
 
-### Using DocSaveOptions for Advanced Conversion Settings
-#### Overview
+### استخدام خيارات الحفظ المتقدمة لإعدادات التحويل المتقدمة
+#### نظرة عام
 ضبط عملية التحويل بدقة—مفيد للملفات PDF المعقدة التي تحتوي على جداول، قوائم نقطية، وتخطيطات مختلطة.
 
-#### Steps
-**Step 1: Load the Source PDF Document**
+#### الخطوات
+**الخطوة 1: تحميل ملف PDF المصدر**
 
 ```java
 Document document = new Document(dataDir + "/source.pdf");
 ```
 
-**Step 2: Set Advanced Save Options**
+**الخطوة 2: ضبط خيارات الحفظ المتقدمة**
 
 ```java
 DocSaveOptions saveOption = new DocSaveOptions();
@@ -166,60 +166,61 @@ saveOption.setRelativeHorizontalProximity(2.5f);
 saveOption.setRecognizeBullets(true);
 ```
 
-**Step 3: Save with Advanced Settings**
+**الخطوة 3: الحفظ بالإعدادات المتقدمة**
 
 ```java
 document.save("YOUR_OUTPUT_DIRECTORY/usingTheDocSaveOptionsClass.doc", saveOption);
 ```
 
-## Troubleshooting Tips
-- **Conversion errors or corrupted output:** تحقق من أن ملف PDF المصدر غير تالف وأنك تستخدم أحدث نسخة من Aspose.PDF.
-- **Missing formatting:** عدل `DocSaveOptions` (مثلاً، غيّر `RecognitionMode` أو فعّل `setRecognizeBullets`).
-- **Out‑of‑memory exceptions:** زد حجم heap للـ JVM (`-Xmx2G`) وتأكد من تحرير الكائنات فور الانتهاء.
+## نصائح لاستكشاف الأخطاء وإصلاحها
+- **أخطاء التحويل أو المخرجات التالفة:** تأكد من أن ملف PDF المصدر غير تالف وأنك أحدث نسخة مستخدمة من Aspose.PDF.
+- **تنسيق مفقود:** عدل `DocSaveOptions` (مثلاً، غيّر `RecognitionMode` أو فعّل `setRecognizeBullets`).
+- **استثناءات خارج الذاكرة:** زد حجم الكومة للـ JVM (`-Xmx2G`) وتأكد من تحرير الكائنات فور الانتهاء.
 
-## Practical Applications
-1. **Document Management Systems** – تحويل ملفات PDF المؤرشفة إلى ملفات Word قابلة للتحرير للفهرسة والتعديل.
-2. **Automated Report Generation** – تحويل تقارير PDF المستندة إلى بيانات إلى DOCX للمعالجة اللاحقة.
-3. **Legal Document Processing** – تحرير العقود والاتفاقيات بعد التحويل.
-4. **Content Migration** – نقل محتوى PDF القديم إلى منصات CMS حديثة.
-5. **CMS Integration** – تحويل PDF المرفوع تلقائيًا إلى DOCX للمحررين.
+## تطبيقات عملية
+1. **أنظمة إدارة المستندات** – تحويل ملفات PDF المؤرشفة إلى ملفات Word قابلة للتحرير للفهرسة والتعديل.
+2. ** إنشاء التقارير تلقائيًا ** – تحويل التقارير المستندة إلى PDF إلى بيانات إلى DOCX للمعالجة التالية.
+3. **معالجة المستندات القانونية** – تحرير والعقود الاتفاقيات بعد التحويل.
+4. **ترحيل المحتوى** – نقل محتوى PDF القديم إلى أجهزة CMS الحديثة.
+5. **تكامل CMS** – تحويل PDF المرفوع إلى DOCX للمحررين.
 
-## Performance Considerations
-- خصص ذاكرة heap كافية للملفات PDF الكبيرة.
-- أعد استخدام كائنات `DocSaveOptions` عند معالجة دفعات.
-- استدعِ `document.dispose()` (أو اترك GC يتولى) بعد كل تحويل لتحرير الموارد.
+## اعتبارات الأداء
+- خصص ذاكرة كومة كافية للملفات PDF الكبيرة.
+- استخدام كائنات `DocSaveOptions` عند الدفعات.
+- قررتِ `document.dispose()` (أو اترك GC يتولى) بعد كل تحويل لتحرير الموارد.
 
-## Conclusion
-إتقان تحويل **pdf to word java** باستخدام Aspose.PDF for Java يتيح لك أتمتة سير عمل المستندات، تقليل الحاجة إلى إعادة الكتابة اليدوية، والحفاظ على دقة المستند. الآن لديك الأدوات لإجراء تحويل DOC الأساسي، إنشاء ملفات DOCX، وتطبيق إعدادات متقدمة لتخطيطات معقدة.
+## خاتمة
+إتقان تحويل **pdf to word java** باستخدام Aspose.PDF for Java يتيح لك طباعة سير كتابة عمل المستند، لا تحتاج إلى إعادة تصنيع يدوي، ومراقبة الاعتماد المستندي. الآن لديك القدرة على الوصول إلى برنامج DOC الأساسي، إنشاء ملفات DOCX، وتطبيقات الإعدادات المتقدمة لتخطيط برامج التشغيل.
 
-### Next Steps
-- جرّب تكوينات مختلفة لـ `DocSaveOptions` لتناسب ملفات PDF الخاصة بك.
-- استكشف إمكانيات إضافية في Aspose.PDF مثل إنشاء PDF، دمج ملفات، وتكامل OCR.
-- شارك تجاربك على [Aspose Forum](https://forum.aspose.com/c/pdf/10).
+### الخطوات التالية
+- الجرّب الاختيارات المختلفة لـ `DocSaveOptions` باستثناء ملفات PDF الخاصة بك.
+- بالإضافة إلى ذلك في Aspose.PDF مثل إنشاء PDF، دمج الملفات، وتكامل OCR.
+- شارك تجاربك على [منتدى Aspose](https://forum.aspose.com/c/pdf/10).
 
-## Frequently Asked Questions
+## الأسئلة المتداولة
 
-**Q: Can I convert multiple PDFs to DOCX in a single run?**  
-A: نعم. يمكنك تكرار القائمة عبر مجموعة من الملفات وتطبيق نفس منطق التحويل على كل مستند.
+**س: هل يمكنني تحويل ملفات PDF متعددة إلى DOCX في عملية واحدة؟**
+ج: نعم. يمكنك كتابة شريط عبر مجموعة الملفات ونسخ قرص DVD بشكل كامل.
 
-**Q: My converted document loses some formatting—what can I do?**  
-A: راجع إعدادات `DocSaveOptions`. قد يؤدي تغيير `RecognitionMode` أو تعديل قيم القرب إلى استعادة دقة التخطيط.
+**س: يفقد المستند الذي تم تحويله بعض التنسيق، فماذا يمكنني أن أفعل؟**
+ج: راجع الإعدادات `DocSaveOptions`. قد يؤدي إلى تغيير `RecognitionMode` أو تعديل قيم القرب إلى تحقيق النجاح.
 
-**Q: Does Aspose.PDF support all PDF versions?**  
-A: يدعم مجموعة واسعة من معايير PDF، بما في ذلك PDF/A، PDF/X، وملفات PDF المشفرة.
+**س: هل يدعم Aspose.PDF جميع إصدارات PDF؟**
+ج: يدعم مجموعة واسعة من معايير PDF، بما في ذلك PDF/A، PDF/X، فقط PDF المشفرة.
 
-**Q: How do I handle very large PDFs without exhausting memory?**  
-A: زد حجم heap للـ JVM (`-Xmx2G` أو أعلى) وعالج PDF على أقسام إذا أمكن. كذلك حرّر الكائنات فور الانتهاء.
+**س: كيف يمكنني التعامل مع ملفات PDF الكبيرة جدًا دون استنفاد الذاكرة؟**
+ج: زد حجم الكومة لـ JVM (`-Xmx2G` أو أعلى) ومعالجة PDF على الأقسام إذا أمكن. كذلك حرّر الكائن فور الانتهاء.
 
-**Q: Can I run OCR on scanned PDFs before conversion?**  
-A: بينما لا يتضمن Aspose.PDF OCR، يمكنك دمجه مع Aspose.OCR أو مكتبات OCR أخرى لتحويل الصور إلى نص قبل التحويل.
+**س: هل يمكنني تشغيل تقنية التعرف الضوئي على الحروف (OCR) على ملفات PDF الممسوحة ضوئيًا قبل التحويل؟**
+ج: بينما لا تتضمن Aspose.PDF OCR، يمكنك دمجه مع Aspose.OCR أو مكتبات OCR أخرى لتحويل الصور إلى نص قبل التحويل.
+
+**الموارد ذات الصلة:** [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/) | [صفحة الإصدارات](https://releases.aspose.com/pdf/Java/) | [اشتري الآن](https://purchase.aspose.com/buy) | [الترخيص المؤقت](https://purchase.aspose.com/temporary-license/) | [منتدى الدعم](https://forum.aspose.com/c/pdf/10)
 
 ---
 
-**Last Updated:** 2026-01-11  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose  
-**Related Resources:** [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/) | [Releases Page](https://releases.aspose.com/pdf/java/) | [Buy Now](https://purchase.aspose.com/buy) | [Temporary License](https://purchase.aspose.com/temporary-license/) | [Support Forum](https://forum.aspose.com/c/pdf/10)
+**آخر تحديث:** ١١ يناير ٢٠٢٦
+**تم الاختبار باستخدام:** Aspose.PDF لجافا ٢٥.٣
+**المؤلف:** Aspose 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

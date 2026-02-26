@@ -214,12 +214,13 @@ A: Tăng heap JVM (`-Xmx2G` hoặc cao hơn) và xử lý PDF theo các phần n
 **Q: Tôi có thể chạy OCR trên các PDF đã quét trước khi chuyển đổi không?**  
 A: Mặc dù Aspose.PDF không bao gồm OCR, bạn có thể kết hợp nó với Aspose.OCR hoặc các thư viện OCR khác để chuyển đổi raster‑to‑text trước khi chuyển đổi.
 
+**Tài nguyên liên quan:** [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/) | [Releases Page](https://releases.aspose.com/pdf/java/) | [Buy Now](https://purchase.aspose.com/buy) | [Temporary License](https://purchase.aspose.com/temporary-license/) | [Support Forum](https://forum.aspose.com/c/pdf/10)
+
 ---
 
 **Cập nhật lần cuối:** 2026-01-11  
 **Được kiểm tra với:** Aspose.PDF for Java 25.3  
 **Tác giả:** Aspose  
-**Tài nguyên liên quan:** [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/) | [Releases Page](https://releases.aspose.com/pdf/java/) | [Buy Now](https://purchase.aspose.com/buy) | [Temporary License](https://purchase.aspose.com/temporary-license/) | [Support Forum](https://forum.aspose.com/c/pdf/10)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

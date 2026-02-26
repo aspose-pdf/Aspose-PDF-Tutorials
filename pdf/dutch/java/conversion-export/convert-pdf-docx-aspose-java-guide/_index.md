@@ -214,12 +214,13 @@ A: Verhoog de JVM‑heap (`-Xmx2G` of hoger) en verwerk de PDF in secties indien
 **Q: Kan ik OCR uitvoeren op gescande PDF's vóór conversie?**  
 A: Hoewel Aspose.PDF geen OCR bevat, kun je het combineren met Aspose.OCR of andere OCR‑bibliotheken om raster‑naar‑tekst uit te voeren vóór het converteren.
 
+**Gerelateerde bronnen:** [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/) | [Releases Page](https://releases.aspose.com/pdf/java/) | [Buy Now](https://purchase.aspose.com/buy) | [Temporary License](https://purchase.aspose.com/temporary-license/) | [Support Forum](https://forum.aspose.com/c/pdf/10)
+
 ---
 
 **Laatst bijgewerkt:** 2026-01-11  
 **Getest met:** Aspose.PDF for Java 25.3  
 **Auteur:** Aspose  
-**Gerelateerde bronnen:** [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/) | [Releases Page](https://releases.aspose.com/pdf/java/) | [Buy Now](https://purchase.aspose.com/buy) | [Temporary License](https://purchase.aspose.com/temporary-license/) | [Support Forum](https://forum.aspose.com/c/pdf/10)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -214,12 +214,13 @@ A: JVM 힙을 늘리고(`-Xmx2G` 이상) 가능하면 PDF를 섹션별로 처리
 **Q: 변환 전에 스캔된 PDF에 OCR을 적용할 수 있나요?**  
 A: Aspose.PDF 자체에는 OCR이 포함되어 있지 않지만, Aspose.OCR 또는 다른 OCR 라이브러리와 결합해 래스터‑텍스트 변환 후에 변환할 수 있습니다.
 
+**Related Resources:** [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/) | [Releases Page](https://releases.aspose.com/pdf/java/) | [Buy Now](https://purchase.aspose.com/buy) | [Temporary License](https://purchase.aspose.com/temporary-license/) | [Support Forum](https://forum.aspose.com/c/pdf/10)
+
 ---
 
 **Last Updated:** 2026-01-11  
 **Tested With:** Aspose.PDF for Java 25.3  
 **Author:** Aspose  
-**Related Resources:** [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/) | [Releases Page](https://releases.aspose.com/pdf/java/) | [Buy Now](https://purchase.aspose.com/buy) | [Temporary License](https://purchase.aspose.com/temporary-license/) | [Support Forum](https://forum.aspose.com/c/pdf/10)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

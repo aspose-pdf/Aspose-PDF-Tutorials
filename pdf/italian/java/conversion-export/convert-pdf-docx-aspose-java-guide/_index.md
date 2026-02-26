@@ -214,12 +214,13 @@ R: Aumenta l'heap JVM (`-Xmx2G` o superiore) e, se possibile, elabora il PDF in 
 **D: Posso eseguire OCR su PDF scansionati prima della conversione?**  
 R: Sebbene Aspose.PDF non includa OCR, puoi combinarlo con Aspose.OCR o altre librerie OCR per trasformare raster in testo prima della conversione.
 
+**Risorse correlate:** [Riferimento Aspose.PDF Java](https://reference.aspose.com/pdf/java/) | [Pagina delle release](https://releases.aspose.com/pdf/java/) | [Acquista ora](https://purchase.aspose.com/buy) | [Licenza temporanea](https://purchase.aspose.com/temporary-license/) | [Forum di supporto](https://forum.aspose.com/c/pdf/10)
+
 ---
 
 **Ultimo aggiornamento:** 2026-01-11  
 **Testato con:** Aspose.PDF per Java 25.3  
 **Autore:** Aspose  
-**Risorse correlate:** [Riferimento Aspose.PDF Java](https://reference.aspose.com/pdf/java/) | [Pagina delle release](https://releases.aspose.com/pdf/java/) | [Acquista ora](https://purchase.aspose.com/buy) | [Licenza temporanea](https://purchase.aspose.com/temporary-license/) | [Forum di supporto](https://forum.aspose.com/c/pdf/10)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
