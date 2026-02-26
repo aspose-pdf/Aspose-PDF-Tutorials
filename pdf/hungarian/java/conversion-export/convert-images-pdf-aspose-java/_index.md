@@ -7,8 +7,7 @@ keywords:
 - convert images to PDF
 - Aspose.PDF for Java
 - image-to-PDF conversion
-title: 'Hogyan konvertáljunk képeket PDF-be az Aspose.PDF for Java használatával:
-  Átfogó útmutató'
+title: 'Hogyan konvertáljunk képeket PDF-be az Aspose.PDF for Java használatával - Átfogó útmutató'
 url: /hu/java/conversion-export/convert-images-pdf-aspose-java/
 weight: 1
 ---
@@ -215,6 +214,12 @@ A: A könyvtár képes megnyitni és menteni titkosított PDF-eket, de a képek 
 
 Készen áll a kipróbálásra? Valósítsa meg ezt a megoldást a projektjében még ma, és egyszerűsítse a kép‑PDF munkafolyamatát!
 
+---
+
+**Utolsó frissítés:** 2026-01-06  
+**Tesztelve ezzel:** Aspose.PDF for Java 25.3  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -222,9 +227,3 @@ Készen áll a kipróbálásra? Valósítsa meg ezt a megoldást a projektjében
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2026-01-06  
-**Tesztelve ezzel:** Aspose.PDF for Java 25.3  
-**Szerző:** Aspose

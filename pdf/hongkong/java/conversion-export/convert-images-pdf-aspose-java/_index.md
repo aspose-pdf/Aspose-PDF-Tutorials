@@ -212,6 +212,12 @@ A: 此函式庫可開啟與儲存加密的 PDF，但圖像插入僅在未加密�
 
 準備好試試看了嗎？立即在您的專案中實作此解決方案，簡化圖像轉 PDF 的工作流程！
 
+---
+
+**最後更新：** 2026-01-06  
+**測試環境：** Aspose.PDF for Java 25.3  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -219,9 +225,3 @@ A: 此函式庫可開啟與儲存加密的 PDF，但圖像插入僅在未加密�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2026-01-06  
-**測試環境：** Aspose.PDF for Java 25.3  
-**作者：** Aspose

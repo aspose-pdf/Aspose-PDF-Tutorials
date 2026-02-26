@@ -7,7 +7,7 @@ keywords:
 - convert images to PDF
 - Aspose.PDF for Java
 - image-to-PDF conversion
-title: 'Jak převést obrázky do PDF pomocí Aspose.PDF pro Java: komplexní průvodce'
+title: 'Jak převést obrázky do PDF pomocí Aspose.PDF pro Java - komplexní průvodce'
 url: /cs/java/conversion-export/convert-images-pdf-aspose-java/
 weight: 1
 ---
@@ -213,6 +213,12 @@ A: Knihovna může otevírat a ukládat šifrované PDF, ale vkládání obrázk
 
 Jste připraveni to vyzkoušet? Implementujte toto řešení ve svém projektu ještě dnes a zjednodušte svůj workflow převodu obrázků do PDF!
 
+---
+
+**Poslední aktualizace:** 2026-01-06  
+**Testováno s:** Aspose.PDF pro Java 25.3  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -220,9 +226,3 @@ Jste připraveni to vyzkoušet? Implementujte toto řešení ve svém projektu j
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-01-06  
-**Testováno s:** Aspose.PDF pro Java 25.3  
-**Autor:** Aspose

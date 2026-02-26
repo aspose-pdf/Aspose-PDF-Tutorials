@@ -7,7 +7,7 @@ keywords:
 - convert images to PDF
 - Aspose.PDF for Java
 - image-to-PDF conversion
-title: 'Cara Mengonversi Gambar ke PDF Menggunakan Aspose.PDF untuk Java: Panduan
+title: 'Cara Mengonversi Gambar ke PDF Menggunakan Aspose.PDF untuk Java - Panduan
   Komprehensif'
 url: /id/java/conversion-export/convert-images-pdf-aspose-java/
 weight: 1
@@ -214,6 +214,12 @@ A: The library can open and save encrypted PDFs, but image insertion works only 
 
 Siap mencobanya? Implementasikan solusi ini dalam proyek Anda hari ini dan permudah alur kerja mengonversi gambar ke PDF!
 
+---
+
+**Terakhir Diperbarui:** 2026-01-06  
+**Diuji Dengan:** Aspose.PDF untuk Java 25.3  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -221,9 +227,3 @@ Siap mencobanya? Implementasikan solusi ini dalam proyek Anda hari ini dan permu
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2026-01-06  
-**Diuji Dengan:** Aspose.PDF untuk Java 25.3  
-**Penulis:** Aspose

@@ -7,7 +7,7 @@ keywords:
 - convert images to PDF
 - Aspose.PDF for Java
 - image-to-PDF conversion
-title: 'Aspose.PDF for Java का उपयोग करके छवियों को PDF में कैसे बदलें: एक व्यापक
+title: 'Aspose.PDF for Java का उपयोग करके छवियों को PDF में कैसे बदलें - एक व्यापक
   गाइड'
 url: /hi/java/conversion-export/convert-images-pdf-aspose-java/
 weight: 1
@@ -216,6 +216,12 @@ A: लाइब्रेरी एन्क्रिप्टेड PDF को �
 
 इसे आज़माने के लिए तैयार हैं? इस समाधान को अपने प्रोजेक्ट में लागू करें और अपनी छवि‑से‑PDF कार्यप्रवाह को सुव्यवस्थित करें!
 
+---
+
+**Last Updated:** 2026-01-06  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -223,9 +229,3 @@ A: लाइब्रेरी एन्क्रिप्टेड PDF को �
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-06  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

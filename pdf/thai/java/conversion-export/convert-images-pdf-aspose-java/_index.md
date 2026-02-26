@@ -6,7 +6,7 @@ keywords:
 - convert images to PDF
 - Aspose.PDF for Java
 - image-to-PDF conversion
-title: 'วิธีแปลงภาพเป็น PDF ด้วย Aspose.PDF สำหรับ Java: คู่มือฉบับสมบูรณ์'
+title: 'วิธีแปลงภาพเป็น PDF ด้วย Aspose.PDF สำหรับ Java - คู่มือฉบับสมบูรณ์'
 url: /th/java/conversion-export/convert-images-pdf-aspose-java/
 weight: 1
 ---
@@ -212,6 +212,12 @@ doc.save("YOUR_OUTPUT_DIRECTORY/BufferedImage.pdf");
 
 พร้อมลองใช้งานแล้วหรือยัง? นำโซลูชันนี้ไปใช้ในโปรเจกต์ของคุณวันนี้และทำให้กระบวนการแปลงรูปภาพเป็น PDF ของคุณเป็นเรื่องง่าย!
 
+---
+
+**Last Updated:** 2026-01-06  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -219,9 +225,3 @@ doc.save("YOUR_OUTPUT_DIRECTORY/BufferedImage.pdf");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-06  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

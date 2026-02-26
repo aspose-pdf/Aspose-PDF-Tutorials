@@ -7,7 +7,7 @@ keywords:
 - convert images to PDF
 - Aspose.PDF for Java
 - image-to-PDF conversion
-title: 'Come convertire le immagini in PDF usando Aspose.PDF per Java: una guida completa'
+title: 'Come convertire le immagini in PDF usando Aspose.PDF per Java - una guida completa'
 url: /it/java/conversion-export/convert-images-pdf-aspose-java/
 weight: 1
 ---
@@ -213,6 +213,12 @@ A: La libreria può aprire e salvare PDF crittografati, ma l'inserimento di imma
 
 Pronto a provarlo? Implementa questa soluzione nel tuo progetto oggi stesso e semplifica il tuo flusso di lavoro di conversione immagine‑in‑PDF!
 
+---
+
+**Ultimo aggiornamento:** 2026-01-06  
+**Testato con:** Aspose.PDF for Java 25.3  
+**Autore:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -220,9 +226,3 @@ Pronto a provarlo? Implementa questa soluzione nel tuo progetto oggi stesso e se
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ultimo aggiornamento:** 2026-01-06  
-**Testato con:** Aspose.PDF for Java 25.3  
-**Autore:** Aspose

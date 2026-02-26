@@ -7,7 +7,7 @@ keywords:
 - convert images to PDF
 - Aspose.PDF for Java
 - image-to-PDF conversion
-title: 'Hoe afbeeldingen naar PDF converteren met Aspose.PDF voor Java: een uitgebreide
+title: 'Hoe afbeeldingen naar PDF converteren met Aspose.PDF voor Java - een uitgebreide
   gids'
 url: /nl/java/conversion-export/convert-images-pdf-aspose-java/
 weight: 1
@@ -214,6 +214,12 @@ A: De bibliotheek kan versleutelde PDF’s openen en opslaan, maar het invoegen 
 
 Klaar om het uit te proberen? Implementeer deze oplossing vandaag nog in je project en stroomlijn je afbeelding‑naar‑PDF‑workflow!
 
+---
+
+**Laatst bijgewerkt:** 2026-01-06  
+**Getest met:** Aspose.PDF voor Java 25.3  
+**Auteur:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -221,9 +227,3 @@ Klaar om het uit te proberen? Implementeer deze oplossing vandaag nog in je proj
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Laatst bijgewerkt:** 2026-01-06  
-**Getest met:** Aspose.PDF voor Java 25.3  
-**Auteur:** Aspose

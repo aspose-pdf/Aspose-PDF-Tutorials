@@ -211,6 +211,12 @@ doc.save("YOUR_OUTPUT_DIRECTORY/BufferedImage.pdf");
 
 准备好尝试了吗？立即在项目中实现此方案，简化图像到 PDF 的工作流！
 
+---
+
+**最后更新：** 2026-01-06  
+**测试环境：** Aspose.PDF for Java 25.3  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -218,9 +224,3 @@ doc.save("YOUR_OUTPUT_DIRECTORY/BufferedImage.pdf");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2026-01-06  
-**测试环境：** Aspose.PDF for Java 25.3  
-**作者：** Aspose
