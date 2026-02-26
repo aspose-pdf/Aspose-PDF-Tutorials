@@ -7,7 +7,7 @@ keywords:
 - Aspose.PDF for Java
 - open PDF in Java
 - add bookmarks to PDF
-title: 'Tạo dấu trang PDF với Aspose.PDF cho Java: Mở, Lưu & Thêm dấu trang'
+title: 'Tạo dấu trang PDF với Aspose.PDF cho Java - Mở, Lưu & Thêm dấu trang'
 url: /vi/java/bookmarks-navigation/master-aspose-pdf-java-open-save-bookmarks/
 weight: 1
 ---

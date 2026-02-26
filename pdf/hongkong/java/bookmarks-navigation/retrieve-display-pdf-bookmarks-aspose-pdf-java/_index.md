@@ -146,22 +146,6 @@ System.out.println("Color: " + color);
 
 建議在實務專案中嘗試此解決方案，觀察其功能提升效果！
 
-## 常見問答
-**Q: 為何要從 PDF 提取書籤？**  
-A: 提取書籤有助於在 PDF 內導覽與分類內容，提升使用者體驗與效率。
-
-**Q: 存取書籤屬性時如何處理錯誤？**  
-A: 請確認 PDF 含有書籤。使用 try‑catch 區塊有效管理例外。
-
-**Q: Aspose.PDF 可以免費使用嗎？**  
-A: 可以，您可以先使用免費試用版或取得臨時授權。
-
-**Q: Aspose.PDF 免費版有什麼限制？**  
-A: 免費試用版有使用限制；若需無限制使用，建議購買完整授權。
-
-**Q: 如何在 Web 應用程式中整合 PDF 書籤擷取？**  
-A: 在伺服器端使用 Java 處理文件，然後透過 API 或直接寫入資料庫的方式將結果傳送至前端。
-
 ## 常見問題
 **Q: 此方法能處理受密碼保護的 PDF 嗎？**  
 A: 可以——在建立 `Document` 物件時提供密碼即可。
@@ -186,6 +170,12 @@ A: 使用 `outlineItem.setTitle("New Title")`，然後儲存文件。
 - **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Support Forum**: [Aspose PDF Community Support](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Last Updated:** 2025-12-24  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -193,9 +183,3 @@ A: 使用 `outlineItem.setTitle("New Title")`，然後儲存文件。
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-24  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

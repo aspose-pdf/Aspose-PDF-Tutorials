@@ -1,5 +1,5 @@
 ---
-title: "Create PDF Bookmarks with Aspose.PDF for Java: Open, Save & Add Bookmarks"
+title: "Create PDF Bookmarks with Aspose.PDF for Java - Open, Save & Add Bookmarks"
 description: "Learn how to create PDF bookmarks, open PDF Java files, and save PDFs using Aspose.PDF for Java. Enhance your document management skills with this comprehensive guide."
 date: "2025-12-24"
 weight: 1

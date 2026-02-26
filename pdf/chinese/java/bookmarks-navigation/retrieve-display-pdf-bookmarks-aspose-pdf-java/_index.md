@@ -144,22 +144,6 @@ System.out.println("Color: " + color);
 
 考虑在实际项目中尝试该解决方案，看看它如何提升功能！
 
-## FAQ 部分
-**Q: 从 PDF 中提取书签的目的是什么？**  
-A: 提取书签有助于在 PDF 中导航和对内容进行分类，提升用户体验和效率。
-
-**Q: 访问书签属性时如何处理错误？**  
-A: 确保您的 PDF 包含书签。使用 try‑catch 块有效管理异常。
-
-**Q: Aspose.PDF 可以免费使用吗？**  
-A: 是的，您可以使用免费试用或获取临时许可证。
-
-**Q: Aspose.PDF 免费版有哪些限制？**  
-A: 免费试用有使用限制；如需无限制使用，请考虑购买完整许可证。
-
-**Q: 如何在 Web 应用程序中集成 PDF 书签提取？**  
-A: 使用服务器端 Java 处理文档，并通过 API 或直接写入数据库将结果发送到前端。
-
 ## 常见问题
 **Q: 此方法适用于受密码保护的 PDF 吗？**  
 A: 是的——在创建 `Document` 对象时提供密码即可。
@@ -184,6 +168,12 @@ A: 使用 `outlineItem.setTitle("New Title")` 然后保存文档。
 - **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support Forum**: [Aspose PDF Community Support](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Last Updated:** 2025-12-24  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -191,9 +181,3 @@ A: 使用 `outlineItem.setTitle("New Title")` 然后保存文档。
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-24  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

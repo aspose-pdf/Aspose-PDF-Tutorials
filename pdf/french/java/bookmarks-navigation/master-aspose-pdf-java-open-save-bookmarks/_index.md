@@ -7,7 +7,7 @@ keywords:
 - Aspose.PDF for Java
 - open PDF in Java
 - add bookmarks to PDF
-title: 'Créer des signets PDF avec Aspose.PDF pour Java : ouvrir, enregistrer et ajouter
+title: 'Créer des signets PDF avec Aspose.PDF pour Java - ouvrir, enregistrer et ajouter
   des signets'
 url: /fr/java/bookmarks-navigation/master-aspose-pdf-java-open-save-bookmarks/
 weight: 1

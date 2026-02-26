@@ -7,7 +7,7 @@ keywords:
 - Aspose.PDF for Java
 - open PDF in Java
 - add bookmarks to PDF
-title: 'إنشاء إشارات مرجعية لملف PDF باستخدام Aspose.PDF للـ Java: الفتح، الحفظ وإضافة
+title: 'إنشاء إشارات مرجعية لملف PDF باستخدام Aspose.PDF للـ Java - الفتح، الحفظ وإضافة
   الإشارات المرجعية'
 url: /ar/java/bookmarks-navigation/master-aspose-pdf-java-open-save-bookmarks/
 weight: 1

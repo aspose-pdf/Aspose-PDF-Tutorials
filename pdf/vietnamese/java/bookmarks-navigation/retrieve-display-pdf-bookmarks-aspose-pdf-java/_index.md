@@ -147,22 +147,6 @@ Trong hướng dẫn này, chúng ta đã đề cập **cách lấy bookmark pdf
 
 Hãy thử giải pháp này trong một dự án thực tế để xem nó cải thiện chức năng như thế nào!
 
-## Phần Câu hỏi thường gặp
-**Q: Mục đích của việc trích xuất bookmark từ PDF là gì?**  
-A: Việc trích xuất bookmark giúp điều hướng và phân loại nội dung trong PDF, cải thiện trải nghiệm người dùng và hiệu quả.  
-
-**Q: Làm thế nào để xử lý lỗi khi truy cập thuộc tính bookmark?**  
-A: Đảm bảo PDF của bạn có bookmark. Sử dụng khối try‑catch để quản lý ngoại lệ một cách hiệu quả.  
-
-**Q: Aspose.PDF có thể dùng miễn phí không?**  
-A: Có, bạn có thể bắt đầu với bản dùng thử miễn phí hoặc nhận giấy phép tạm thời.  
-
-**Q: Có giới hạn nào với phiên bản miễn phí của Aspose.PDF không?**  
-A: Bản dùng thử có các hạn chế về sử dụng; hãy cân nhắc mua giấy phép đầy đủ để sử dụng không giới hạn.  
-
-**Q: Làm thế nào để tích hợp việc trích xuất bookmark PDF trong ứng dụng web?**  
-A: Sử dụng Java phía máy chủ để xử lý tài liệu và gửi kết quả tới giao diện người dùng qua API hoặc lưu trực tiếp vào cơ sở dữ liệu.
-
 ## Câu hỏi thường gặp
 **Q: Phương pháp này có hoạt động với PDF được bảo vệ bằng mật khẩu không?**  
 A: Có—chỉ cần cung cấp mật khẩu khi tạo đối tượng `Document`.  
@@ -187,6 +171,12 @@ A: Sử dụng `outlineItem.setTitle("New Title")` và sau đó lưu tài liệu
 - **Giấy phép tạm thời**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Diễn đàn hỗ trợ**: [Aspose PDF Community Support](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Last Updated:** 2025-12-24  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -194,9 +184,3 @@ A: Sử dụng `outlineItem.setTitle("New Title")` và sau đó lưu tài liệu
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-24  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

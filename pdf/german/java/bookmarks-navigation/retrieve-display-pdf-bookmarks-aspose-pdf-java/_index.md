@@ -147,22 +147,6 @@ In diesem Tutorial haben wir **how to retrieve pdf bookmarks java** mit Aspose.P
 
 Probieren Sie die Lösung in einem realen Projekt aus, um zu sehen, wie sie die Funktionalität verbessert!
 
-## FAQ‑Abschnitt
-**F: Was ist der Zweck des Extrahierens von Lesezeichen aus PDFs?**  
-A: Das Extrahieren von Lesezeichen hilft, Inhalte innerhalb eines PDFs zu navigieren und zu kategorisieren, wodurch die Benutzererfahrung und Effizienz verbessert werden.  
-
-**F: Wie gehe ich mit Fehlern beim Zugriff auf Lesezeicheneigenschaften um?**  
-A: Stellen Sie sicher, dass Ihr PDF Lesezeichen enthält. Verwenden Sie try‑catch‑Blöcke, um Ausnahmen effektiv zu handhaben.  
-
-**F: Kann Aspose.PDF kostenlos verwendet werden?**  
-A: Ja, Sie können mit einer kostenlosen Testversion beginnen oder eine temporäre Lizenz erhalten.  
-
-**F: Gibt es Einschränkungen bei der kostenlosen Version von Aspose.PDF?**  
-A: Die kostenlose Testversion hat Nutzungsbeschränkungen; erwägen Sie den Kauf einer Vollversion für uneingeschränkte Nutzung.  
-
-**F: Wie integriere ich die PDF‑Lesezeichen‑Extraktion in Web‑Anwendungen?**  
-A: Verwenden Sie serverseitiges Java, um Dokumente zu verarbeiten und die Ergebnisse über APIs oder direkte Datenbankspeicherung an Ihr Frontend zu senden.
-
 ## Häufig gestellte Fragen
 **F: Funktioniert diese Methode bei passwortgeschützten PDFs?**  
 A: Ja – geben Sie einfach das Passwort beim Erstellen des `Document`‑Objekts an.  
@@ -187,6 +171,12 @@ A: Verwenden Sie `outlineItem.setTitle("New Title")` und speichern Sie anschlie�
 - **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Support Forum**: [Aspose PDF Community Support](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Last Updated:** 2025-12-24  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -194,9 +184,3 @@ A: Verwenden Sie `outlineItem.setTitle("New Title")` und speichern Sie anschlie�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-24  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

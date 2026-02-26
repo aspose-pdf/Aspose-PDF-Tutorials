@@ -148,22 +148,6 @@ Dans ce tutoriel, nous avons couvert **how to retrieve pdf bookmarks java** en u
 
 Envisagez d'essayer la solution dans un projet réel pour voir comment elle améliore les fonctionnalités !
 
-## FAQ Section
-**Q : Quel est le but d'extraire les signets des PDF ?**  
-**R :** L'extraction des signets aide à naviguer et à catégoriser le contenu d'un PDF, améliorant l'expérience utilisateur et l'efficacité.  
-
-**Q : Comment gérer les erreurs lors de l'accès aux propriétés des signets ?**  
-**R :** Assurez-vous que votre PDF possède des signets. Utilisez des blocs try‑catch pour gérer efficacement les exceptions.  
-
-**Q : Aspose.PDF peut‑il être utilisé gratuitement ?**  
-**R :** Oui, vous pouvez commencer avec un essai gratuit ou obtenir une licence temporaire.  
-
-**Q : Existe‑t‑il des limitations avec la version gratuite d'Aspose.PDF ?**  
-**R :** L'essai gratuit comporte des restrictions d'utilisation ; envisagez d'acheter une licence complète pour un usage illimité.  
-
-**Q : Comment intégrer l'extraction de signets PDF dans les applications web ?**  
-**R :** Utilisez Java côté serveur pour traiter les documents et envoyer les résultats à votre interface via des API ou un stockage direct en base de données.  
-
 ## Frequently Asked Questions
 **Q : Cette méthode fonctionne‑t‑elle avec des PDF protégés par mot de passe ?**  
 **R :** Oui—il suffit de fournir le mot de passe lors de la construction de l'objet `Document`.  
@@ -188,6 +172,12 @@ Envisagez d'essayer la solution dans un projet réel pour voir comment elle amé
 - **Licence temporaire** : [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Forum de support** : [Aspose PDF Community Support](https://forum.aspose.com/c/pdf/10)  
 
+---
+
+**Last Updated:** 2025-12-24  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -195,9 +185,3 @@ Envisagez d'essayer la solution dans un projet réel pour voir comment elle amé
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-24  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

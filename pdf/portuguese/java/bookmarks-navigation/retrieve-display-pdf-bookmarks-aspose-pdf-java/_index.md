@@ -145,22 +145,6 @@ Neste tutorial, cobrimos **como recuperar marcadores de PDF em Java** usando Asp
 
 Considere testar a solução em um projeto real para ver como ela aprimora a funcionalidade!
 
-## Seção de Perguntas Frequentes
-**Q: Qual é o objetivo de extrair marcadores de PDFs?**  
-A: Extrair marcadores ajuda a navegar e categorizar o conteúdo dentro de um PDF, melhorando a experiência do usuário e a eficiência.  
-
-**Q: Como lidar com erros ao acessar propriedades de marcadores?**  
-A: Certifique‑se de que seu PDF possui marcadores. Use blocos try‑catch para gerenciar exceções de forma eficaz.  
-
-**Q: O Aspose.PDF pode ser usado gratuitamente?**  
-A: Sim, você pode começar com um teste gratuito ou obter uma licença temporária.  
-
-**Q: Existem limitações na versão gratuita do Aspose.PDF?**  
-A: O teste gratuito tem restrições de uso; considere comprar uma licença completa para uso ilimitado.  
-
-**Q: Como integrar a extração de marcadores de PDF em aplicações web?**  
-A: Use Java no lado do servidor para processar documentos e enviar os resultados ao frontend via APIs ou armazenamento direto no banco de dados.  
-
 ## Perguntas Frequentes
 **Q: Este método funciona com PDFs protegidos por senha?**  
 A: Sim—basta fornecer a senha ao construir o objeto `Document`.  
@@ -185,6 +169,12 @@ A: Use `outlineItem.setTitle("New Title")` e então salve o documento.
 - **Licença Temporária**: [Solicitar uma Licença Temporária](https://purchase.aspose.com/temporary-license/)  
 - **Fórum de Suporte**: [Suporte da Comunidade Aspose PDF](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Última Atualização:** 2025-12-24  
+**Testado com:** Aspose.PDF for Java 25.3  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -192,9 +182,3 @@ A: Use `outlineItem.setTitle("New Title")` e então salve o documento.
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última Atualização:** 2025-12-24  
-**Testado com:** Aspose.PDF for Java 25.3  
-**Autor:** Aspose

@@ -7,7 +7,7 @@ keywords:
 - Aspose.PDF for Java
 - open PDF in Java
 - add bookmarks to PDF
-title: 'Buat Penanda PDF dengan Aspose.PDF untuk Java: Buka, Simpan & Tambahkan Penanda'
+title: 'Buat Penanda PDF dengan Aspose.PDF untuk Java - Buka, Simpan & Tambahkan Penanda'
 url: /id/java/bookmarks-navigation/master-aspose-pdf-java-open-save-bookmarks/
 weight: 1
 ---
@@ -17,53 +17,53 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Menguasai Aspose.PDF untuk Java: Membuka, Menyimpan & Menambahkan Bookmark ke PDF
+# Menguasai Aspose.PDF untuk Java: Membuka, menyimpan & Menambahkan Bookmark ke PDF
 
-## Introduction
+## Perkenalan
 
-Dalam dunia digital saat ini, **manajemen dokumen** yang efisien sangat penting bagi bisnis dan pengembang. Jika Anda perlu **membuat PDF bookmarks**, membuka file PDF di Java, dan menyimpan hasilnya secara programatis, Anda berada di tempat yang tepat. Tutorial ini memandu Anda menggunakan Aspose.PDF untuk Java untuk membuka, menyimpan, dan menambahkan bookmark yang dapat dinavigasi, memberikan aplikasi Anda keunggulan profesional.
+Dalam dunia digital saat ini, **manajemen dokumen** yang efisien sangat penting bagi bisnis dan pengembang. Jika Anda perlu **membuat bookmark PDF**, membuka file PDF di Java, dan menyimpan hasilnya secara terprogram, Anda berada di tempat yang tepat. Tutorial ini memandu Anda menggunakan Aspose.PDF untuk Java untuk membuka, menyimpan, dan menambahkan bookmark yang dapat dinavigasi, memberikan aplikasi Anda keunggulan profesional.
 
-**What You'll Learn:**
-- Cara **open PDF Java** file dan **save PDF Java** dokumen.
-- Instruksi langkah‑demi‑langkah untuk **create PDF bookmarks**.
+**Yang Akan Anda Pelajari:**
+- Cara **buka PDF Java** file dan **simpan PDF Java** dokumen.
+- Instruksi langkah‑demi‑langkah untuk **membuat bookmark PDF**.
 - Skenario dunia nyata di mana **java pdf handling** bersinar.
 
-Mari kita selami prasyarat dan siapkan lingkungan Anda!
+Mari kita menyelami perenungan dan menyiapkan lingkungan Anda!
 
-## Quick Answers
-- **Apa tujuan utama?** Membuat PDF bookmarks, membuka PDF, dan menyimpannya menggunakan Aspose.PDF untuk Java.  
-- **Perpustakaan apa yang diperlukan?** Aspose.PDF untuk Java (v25.3 atau lebih baru).  
-- **Apakah saya memerlukan lisensi?** Versi percobaan gratis cukup untuk evaluasi; lisensi komersial diperlukan untuk produksi.  
-- **Versi Java apa yang didukung?** Semua JDK 8+ (sebaiknya LTS terbaru).  
+## Jawaban Cepat
+- **Apa tujuan utama?** Membuat bookmark PDF, membuka PDF, dan menyimpannya menggunakan Aspose.PDF untuk Java.
+- **Perpustakaan apa yang diperlukan?** Aspose.PDF untuk Java (v25.3 atau lebih baru).
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis cukup untuk evaluasi; lisensi komersial diperlukan untuk produksi.
+- **Versi Java apa yang didukung?** Semua JDK 8+ (sebaiknya LTS terbaru).
 - **Apakah memori menjadi perhatian?** Ya—gunakan teknik **pdf memory management java** untuk file besar.
 
-## What is “create PDF bookmarks”?
-Membuat PDF bookmarks berarti menambahkan entri navigasi ke pohon outline PDF, memungkinkan pembaca melompat langsung ke bagian tertentu dengan satu klik.
+## Apa itu “buat bookmark PDF”?
+Membuat bookmark PDF berarti menambahkan entri navigasi ke pohon outline PDF, memungkinkan pembaca melompat langsung ke bagian tertentu dengan satu klik.
 
-## Why use Aspose.PDF for Java?
+## Mengapa menggunakan Aspose.PDF untuk Java?
 Aspose.PDF menyediakan API **pure Java** yang tidak memerlukan perangkat lunak eksternal, mendukung **java pdf handling** berperforma tinggi, dan menawarkan kontrol detail atas bookmark, enkripsi, dan lainnya.
 
-## Prerequisites
+## Prasyarat
 
 Sebelum Anda memulai, pastikan Anda memiliki hal‑hal berikut:
 
-### Required Libraries and Versions
-- **Aspose.PDF for Java**: Versi 25.3 atau lebih baru disarankan.
+### Perpustakaan dan Versi yang Diperlukan
+- **Aspose.PDF untuk Java**: Versi 25.3 atau lebih baru disarankan.
 - **Java Development Kit (JDK)**: Pastikan Anda memiliki JDK 8 atau yang lebih baru terpasang.
 
-### Environment Setup Requirements
+### Persyaratan Pengaturan Lingkungan
 - Sebuah IDE seperti IntelliJ IDEA atau Eclipse.
-- Maven atau Gradle untuk manajemen dependensi.
+- Maven atau Gradle untuk manajemen ketergantungan.
 
-### Knowledge Prerequisites
+### Prasyarat Pengetahuan
 - Keterampilan dasar pemrograman Java.
 - Familiaritas dengan menambahkan dependensi menggunakan Maven atau Gradle.
 
-## Setting Up Aspose.PDF for Java
+## Menyiapkan Aspose.PDF untuk Java
 
 Untuk mulai bekerja dengan Aspose.PDF untuk Java, sertakan dalam proyek Anda. Di bawah ini cuplikan tepat yang Anda perlukan—jaga tetap tidak diubah.
 
-**Maven:**
+**Pakar:**
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -77,29 +77,29 @@ Untuk mulai bekerja dengan Aspose.PDF untuk Java, sertakan dalam proyek Anda. Di
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### License Acquisition
+### Akuisisi Lisensi
 Anda dapat memulai dengan percobaan gratis untuk menjelajahi fitur. Untuk penggunaan produksi, beli lisensi atau minta lisensi sementara.
 
-**Basic Initialization and Setup**
+**Inisialisasi dan Pengaturan Dasar**
 Pastikan proyek Anda mengenali pustaka Aspose.PDF setelah menambahkan dependensi:
 
 ```java
 import com.aspose.pdf.Document;
 ```
 
-## Implementation Guide
+## Panduan Penerapan
 
-### How to Create PDF Bookmarks in Java
+### Cara Membuat Bookmark PDF di Java
 Bagian ini menggabungkan dua tugas inti—membuka/menyimpan PDF dan menambahkan bookmark—ke dalam alur kerja yang jelas.
 
-#### Feature 1: Open and Save PDF Document
+#### Fitur 1: Buka dan Simpan Dokumen PDF
 
-**Overview:**  
-Buka file PDF yang ada, opsional modifikasi, lalu simpan hasilnya.
+**Ringkasan:**
+Buka file PDF yang ada, varian modifikasi, lalu simpan hasilnya.
 
-**Step‑by‑Step Implementation**
+**Implementasi Langkah-demi-Langkah**
 
-**Step 1: Define Directory Paths**  
+**Langkah 1: Tentukan Jalur Direktori**
 Tentukan jalur direktori Anda. Ganti placeholder dengan folder sebenarnya.
 
 ```java
@@ -107,7 +107,7 @@ String dataDir = "YOUR_DOCUMENT_DIRECTORY"; // Replace with your actual document
 String outputDir = "YOUR_OUTPUT_DIRECTORY"; // Replace with your actual output directory path
 ```
 
-**Step 2: Open PDF Document**  
+**Langkah 2: Buka Dokumen PDF**
 Gunakan kelas `Document` milik Aspose.PDF untuk memuat file.
 
 ```java
@@ -115,29 +115,29 @@ Document pdfDocument = new Document(dataDir + "/input.pdf");
 ```
 *Mengapa langkah ini?* Membuka dokumen memberi Anda akses penuh ke halaman, outline, dan metadata.
 
-**Step 3: Save the Document**  
+**Langkah 3: Simpan Dokumen**
 Tuliskan PDF (yang mungkin telah dimodifikasi) ke lokasi baru.
 
 ```java
 pdfDocument.save(outputDir + "/output.pdf");
 ```
 
-#### Feature 2: Create and Configure Bookmark in PDF
+#### Fitur 2: Membuat dan Mengonfigurasi Bookmark dalam PDF
 
-**Overview:**  
-Bookmark meningkatkan navigasi. Fitur ini menunjukkan cara membuat bookmark, menata tampilannya, dan menautkannya ke halaman tertentu.
+**Ringkasan:**
+Bookmark meningkatkan navigasi. Fitur ini menunjukkan cara membuat bookmark, menata tampilannya, dan menghubungkannya ke halaman tertentu.
 
-**Step‑by‑Step Implementation**
+**Implementasi Langkah-demi-Langkah**
 
-**Step 1: Open the Source Document**  
+**Langkah 1: Buka Dokumen Sumber**
 Buka PDF yang ingin Anda tambahi bookmark.
 
 ```java
 Document pdfDocument = new Document(dataDir + "/input.pdf");
 ```
 
-**Step 2: Create an OutlineItemCollection**  
-Atur judul dan gaya visual bookmark.
+**Langkah 2: Buat OutlineItemCollection**
+Atur judul dan gaya penanda visual.
 
 ```java
 OutlineItemCollection pdfOutline = new OutlineItemCollection(pdfDocument.getOutlines());
@@ -145,76 +145,76 @@ pdfOutline.setTitle("Test Outline"); // Set the bookmark title.
 pdfOutline.setItalic(true); // Style adjustments.
 pdfOutline.setBold(true);
 ```
-*Styling* membuat bookmark menonjol di sidebar penampil.
+*Styling* membuat bookmark menonjol di penampil sidebar.
 
-**Step 3: Link Bookmark to a Page**  
+**Langkah 3: Tautkan Bookmark ke Halaman**
 Tautkan bookmark ke halaman pertama (Anda dapat mengubah indeks).
 
 ```java
 pdfOutline.setAction(new GoToAction(pdfDocument.getPages().get_Item(1))); // Navigates to the first page.
 ```
 
-**Step 4: Add and Save Document**  
-Tambahkan bookmark ke pohon outline dokumen dan simpan perubahan.
+**Langkah 4: Tambahkan dan Simpan Dokumen**
+Tambahkan bookmark ke pohon garis besar dokumen dan simpan perubahan.
 
 ```java
 document.getOutlines().add(pdfOutline);
 pdfDocument.save(outputDir + "/output.pdf");
 ```
 
-## Open PDF in Java (Additional Tips)
+## Buka PDF di Java (Tips Tambahan)
 - Gunakan `Document pdf = new Document("path/to/file.pdf");` untuk memuat PDF apa pun dengan cepat.
 - Untuk file yang dilindungi kata sandi, berikan kata sandi ke konstruktor: `new Document("file.pdf", new LoadOptions("pwd"))`.
 
-## Save PDF in Java (Best Practices)
+## Simpan PDF di Java (Praktik Terbaik)
 - Pilih format yang tepat: `pdfDocument.save("output.pdf");` untuk PDF standar, atau `pdfDocument.save("output.xps");` untuk XPS.
 - Saat menangani file besar, panggil `pdfDocument.optimizeResources();` sebelum menyimpan untuk mengurangi ukuran.
 
-## Common Use Cases for create PDF bookmarks
-- **Content Management Systems** – Secara otomatis menghasilkan bookmark untuk bab atau bagian.
+## Kasus Penggunaan Umum untuk membuat bookmark PDF
+- **Sistem Manajemen Konten** – Secara otomatis menghasilkan bookmark untuk bab atau bagian.
 - **E‑books & Manuals** – Menyediakan daftar isi yang dapat diklik.
 - **Legal Document Suites** – Melompat cepat ke klausul atau lampiran.
 
-## Performance Considerations – pdf memory management java
+## Pertimbangan Kinerja – manajemen memori pdf java
 
 Saat memproses PDF besar atau batch, perhatikan hal‑hal berikut:
 
-- **Memory Management:** Tingkatkan heap JVM (`-Xmx2g` atau lebih tinggi) jika Anda menemui `OutOfMemoryError`.
-- **Batch Processing:** Loop melalui file dan gunakan kembali satu instance `Document` bila memungkinkan.
-- **Resource Optimization:** Panggil `pdfDocument.optimizeResources();` untuk membebaskan objek yang tidak terpakai sebelum menyimpan.
+- **Memory Management:** Tingkatkan heap JVM (`-Xmx2g` atau lebih tinggi) jika Anda membahas `OutOfMemoryError`.
+- **Pemrosesan Batch:** Loop melalui file dan gunakan kembali satu instance `Document` bila memungkinkan.
+- **Resource Optimization:** Panggil `pdfDocument.optimizeResources();` untuk membebaskan objek yang tidak terpakai sebelum disimpan.
 
-## Conclusion
+## Kesimpulan
 
-Dengan menguasai fitur Aspose.PDF ini, Anda dapat **create PDF bookmarks**, membuka PDF, dan menyimpannya secara efisien di Java. Hal ini memungkinkan Anda membangun solusi penanganan dokumen yang kuat untuk platform CMS, perpustakaan digital, dan lainnya.
+Dengan menguasai fitur Aspose.PDF ini, Anda dapat **membuat bookmark PDF**, membuka PDF, dan menyimpannya secara efisien di Java. Hal ini memungkinkan Anda membangun solusi penanganan dokumen yang kuat untuk platform CMS, perpustakaan digital, dan lainnya.
 
-**Next Steps**
-- Jelajahi fitur lanjutan seperti enkripsi PDF, tanda tangan digital, dan pengisian formulir.
+**Langkah Selanjutnya**
+- Menjelajahi fitur lanjutan seperti enkripsi PDF, tanda tangan digital, dan pengisian formulir.
 - Gabungkan Aspose.PDF dengan produk Aspose lainnya (mis., Aspose.Words) untuk pipeline dokumen end‑to‑end.
 
 Siap untuk mengimplementasikan? Mulailah dengan percobaan gratis Aspose.PDF dan lihat perbedaannya!
 
-## Frequently Asked Questions
+## Pertanyaan yang Sering Diajukan
 
-**Q: What is Aspose.PDF for Java?**  
-A: Ini adalah pustaka kuat untuk membuat, mengedit, dan memanipulasi file PDF dalam aplikasi Java.
+**T: Apa itu Aspose.PDF untuk Java?**
+A: Ini adalah pustaka yang kuat untuk membuat, mengedit, dan memanipulasi file PDF dalam aplikasi Java.
 
-**Q: Can I use Aspose.PDF with both Maven and Gradle?**  
+**T: Dapatkah saya menggunakan Aspose.PDF dengan Maven dan Gradle?**
 A: Ya, dependensi dapat ditambahkan ke salah satu alat build seperti yang ditunjukkan pada bagian setup.
 
-**Q: How do bookmarks improve user experience?**  
-A: Bookmark menyediakan navigasi cepat dalam dokumen, membuat PDF besar lebih mudah dijelajahi.
+**T: Bagaimana bookmark meningkatkan pengalaman pengguna?**
+A: Bookmark menyediakan navigasi cepat dalam dokumen, membuat PDF besar lebih mudah dibaca.
 
-**Q: Is there a performance impact when processing large PDFs?**  
-A: Manajemen **pdf memory management java** yang tepat—seperti menyesuaikan ukuran heap JVM dan mengoptimalkan sumber daya—membantu mengurangi dampak performa.
+**T: Apakah ada dampak kinerja saat memproses PDF berukuran besar?**
+A: Manajemen **pdf memory management java** yang tepat—seperti menyesuaikan ukuran heap JVM dan mengoptimalkan sumber daya—membantu mengurangi dampak kinerja.
 
-**Q: Where can I find additional support or resources for Aspose.PDF?**  
-A: Kunjungi [Aspose Documentation](https://reference.aspose.com/pdf/java/) atau [support forum](https://forum.aspose.com/c/pdf/10) untuk bantuan lebih lanjut.
+**T: Di mana saya dapat menemukan dukungan atau sumber daya tambahan untuk Aspose.PDF?**
+J: Kunjungi [Dokumentasi Aspose](https://reference.aspose.com/pdf/java/) atau [forum dukungan](https://forum.aspose.com/c/pdf/10) untuk bantuan lebih lanjut.
 
 ---
 
-**Last Updated:** 2025-12-24  
-**Tested With:** Aspose.PDF 25.3 for Java  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 2025-12-24
+**Diuji Dengan:** Aspose.PDF 25.3 untuk Java
+**Pengarang:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

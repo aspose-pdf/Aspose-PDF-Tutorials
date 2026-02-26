@@ -148,22 +148,6 @@ Ebben az útmutatóban bemutattuk, **hogyan lehet PDF könyvjelzőket lekérni J
 Próbáld ki a megoldást egy valós projektben, hogy lásd, hogyan növeli a funkcionalitást!
 
 ## Gyakran Ismételt Kérdések
-**K: Miért fontos a könyvjelzők kinyerése a PDF‑ekből?**  
-V: A könyvjelzők segítenek a tartalom navigálásában és kategorizálásában, ezáltal javítva a felhasználói élményt és a hatékonyságot.  
-
-**K: Hogyan kezeljem a hibákat a könyvjelző‑tulajdonságok elérésekor?**  
-V: Győződj meg róla, hogy a PDF tartalmaz könyvjelzőket. Használj try‑catch blokkokat a kivételek hatékony kezeléséhez.  
-
-**K: Használható-e az Aspose.PDF ingyenesen?**  
-V: Igen, ingyenes próba vagy ideiglenes licenc áll rendelkezésre.  
-
-**K: Vannak-e korlátozások az Aspose.PDF ingyenes verziójában?**  
-V: A próba verzió használati korlátozásokkal jár; teljes verzió vásárlása esetén korlátlan használhatóságot kapsz.  
-
-**K: Hogyan integráljam a PDF könyvjelző‑kivonást webalkalmazásokba?**  
-V: Használj szerver‑oldali Java‑t a dokumentumok feldolgozásához, majd küldd az eredményeket a front‑endre API‑kon vagy közvetlen adatbázis‑tároláson keresztül.
-
-## Gyakran Ismételt Kérdések
 **K: Működik ez a módszer jelszóval védett PDF‑ekkel?**  
 V: Igen — csak add meg a jelszót a `Document` objektum létrehozásakor.  
 
@@ -187,6 +171,12 @@ V: Használd a `outlineItem.setTitle("Új cím")` metódust, majd mentsd el a do
 - **Ideiglenes licenc**: [Ideiglenes licenc kérése](https://purchase.aspose.com/temporary-license/)  
 - **Támogatói fórum**: [Aspose PDF közösségi támogatás](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Utoljára frissítve:** 2025-12-24  
+**Tesztelt verzió:** Aspose.PDF for Java 25.3  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -194,9 +184,3 @@ V: Használd a `outlineItem.setTitle("Új cím")` metódust, majd mentsd el a do
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utoljára frissítve:** 2025-12-24  
-**Tesztelt verzió:** Aspose.PDF for Java 25.3  
-**Szerző:** Aspose

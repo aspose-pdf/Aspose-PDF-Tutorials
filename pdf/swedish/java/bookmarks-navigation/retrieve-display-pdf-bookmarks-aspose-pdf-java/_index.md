@@ -146,22 +146,6 @@ I den här handledningen har vi gått igenom **hur man hämtar pdf bookmarks jav
 
 Prova gärna lösningen i ett verkligt projekt för att se hur den förbättrar funktionaliteten!
 
-## FAQ‑avsnitt
-**Q: Vad är syftet med att extrahera bokmärken från PDF‑filer?**  
-A: Att extrahera bokmärken hjälper till att navigera och kategorisera innehåll i en PDF, vilket förbättrar användarupplevelsen och effektiviteten.  
-
-**Q: Hur hanterar jag fel när jag får åtkomst till bokmärkesegenskaper?**  
-A: Säkerställ att ditt PDF‑dokument har bokmärken. Använd try‑catch‑block för att hantera undantag på ett effektivt sätt.  
-
-**Q: Kan Aspose.PDF användas gratis?**  
-A: Ja, du kan börja med en gratis provversion eller skaffa en temporär licens.  
-
-**Q: Finns det begränsningar med den fria versionen av Aspose.PDF?**  
-A: Gratisprovet har användningsrestriktioner; överväg att köpa en full licens för obegränsad användning.  
-
-**Q: Hur integrerar jag PDF‑bokmärkeshämtning i webbapplikationer?**  
-A: Använd server‑side Java för att bearbeta dokument och skicka resultat till ditt frontend via API:er eller direkt databaslagring.
-
 ## Vanliga frågor
 **Q: Fungerar denna metod med lösenordsskyddade PDF‑filer?**  
 A: Ja — ange bara lösenordet när du skapar `Document`‑objektet.  
@@ -186,6 +170,12 @@ A: Använd `outlineItem.setTitle("New Title")` och spara sedan dokumentet.
 - **Temporär licens**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Supportforum**: [Aspose PDF Community Support](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Senast uppdaterad:** 2025-12-24  
+**Testat med:** Aspose.PDF för Java 25.3  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -193,9 +183,3 @@ A: Använd `outlineItem.setTitle("New Title")` och spara sedan dokumentet.
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2025-12-24  
-**Testat med:** Aspose.PDF för Java 25.3  
-**Författare:** Aspose

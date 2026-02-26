@@ -7,7 +7,7 @@ keywords:
 - Aspose.PDF for Java
 - open PDF in Java
 - add bookmarks to PDF
-title: 'PDF-bladwijzers maken met Aspose.PDF voor Java: openen, opslaan en bladwijzers
+title: 'PDF-bladwijzers maken met Aspose.PDF voor Java - openen, opslaan en bladwijzers
   toevoegen'
 url: /nl/java/bookmarks-navigation/master-aspose-pdf-java-open-save-bookmarks/
 weight: 1

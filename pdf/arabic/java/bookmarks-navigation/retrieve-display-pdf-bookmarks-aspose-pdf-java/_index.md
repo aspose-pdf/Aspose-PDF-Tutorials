@@ -146,22 +146,6 @@ System.out.println("Color: " + color);
 
 فكر في تجربة الحل في مشروع واقعي لترى كيف يعزز الوظائف!
 
-## قسم الأسئلة المتكررة
-**س: ما هو هدف استخراج الإشارات من ملفات PDF؟**  
-**ج:** يساعد استخراج الإشارات على التنقل وتصنيف المحتوى داخل PDF، مما يحسن تجربة المستخدم والكفاءة.  
-
-**س: كيف يمكنني التعامل مع الأخطاء عند الوصول إلى خصائص الإشارة؟**  
-**ج:** تأكد من أن PDF يحتوي على إشارات. استخدم كتل try‑catch لإدارة الاستثناءات بفعالية.  
-
-**س: هل يمكن استخدام Aspose.PDF مجانًا؟**  
-**ج:** نعم، يمكنك البدء بنسخة تجريبية مجانية أو الحصول على ترخيص مؤقت.  
-
-**س: هل هناك قيود على النسخة المجانية من Aspose.PDF؟**  
-**ج:** النسخة التجريبية لديها قيود على الاستخدام؛ فكر في شراء ترخيص كامل للاستخدام غير المحدود.  
-
-**س: كيف يمكن دمج استخراج إشارات PDF في تطبيقات الويب؟**  
-**ج:** استخدم Java على الخادم لمعالجة المستندات وإرسال النتائج إلى الواجهة الأمامية عبر APIs أو تخزينها مباشرة في قاعدة البيانات.
-
 ## الأسئلة المتكررة
 **س: هل تعمل هذه الطريقة مع ملفات PDF المحمية بكلمة مرور؟**  
 **ج:** نعم—فقط قدم كلمة المرور عند إنشاء كائن `Document`.  
@@ -186,6 +170,12 @@ System.out.println("Color: " + color);
 - **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Support Forum**: [Aspose PDF Community Support](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Last Updated:** 2025-12-24  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -193,9 +183,3 @@ System.out.println("Color: " + color);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-24  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

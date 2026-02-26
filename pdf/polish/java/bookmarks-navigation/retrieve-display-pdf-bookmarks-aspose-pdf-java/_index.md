@@ -146,22 +146,6 @@ W tym samouczku omówiliśmy **jak pobrać zakładki PDF w Javie** przy użyciu 
 
 Rozważ wypróbowanie rozwiązania w rzeczywistym projekcie, aby zobaczyć, jak zwiększa funkcjonalność!
 
-## Sekcja FAQ
-**P: Jaki jest cel wyodrębniania zakładek z PDF‑ów?**  
-O: Wyodrębnianie zakładek ułatwia nawigację i kategoryzację treści w PDF‑ie, poprawiając doświadczenie użytkownika i efektywność.  
-
-**P: Jak obsługiwać błędy przy dostępie do właściwości zakładek?**  
-O: Upewnij się, że PDF zawiera zakładki. Używaj bloków try‑catch, aby skutecznie zarządzać wyjątkami.  
-
-**P: Czy Aspose.PDF można używać za darmo?**  
-O: Tak, możesz rozpocząć od wersji próbnej lub uzyskać tymczasową licencję.  
-
-**P: Czy istnieją ograniczenia w darmowej wersji Aspose.PDF?**  
-O: Wersja próbna ma ograniczenia użytkowania; rozważ zakup pełnej licencji dla nieograniczonego dostępu.  
-
-**P: Jak zintegrować wyodrębnianie zakładek PDF w aplikacjach webowych?**  
-O: Użyj Java po stronie serwera do przetwarzania dokumentów i przekazuj wyniki do frontendu poprzez API lub bezpośrednie zapisy w bazie danych.
-
 ## Najczęściej zadawane pytania
 **P: Czy ta metoda działa z PDF‑ami zabezpieczonymi hasłem?**  
 O: Tak — wystarczy podać hasło przy tworzeniu obiektu `Document`.  
@@ -186,6 +170,12 @@ O: Użyj `outlineItem.setTitle("Nowy Tytuł")`, a następnie zapisz dokument.
 - **Licencja tymczasowa**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Forum wsparcia**: [Aspose PDF Community Support](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Ostatnia aktualizacja:** 2025-12-24  
+**Testowano z:** Aspose.PDF dla Javy 25.3  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -193,9 +183,3 @@ O: Użyj `outlineItem.setTitle("Nowy Tytuł")`, a następnie zapisz dokument.
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Ostatnia aktualizacja:** 2025-12-24  
-**Testowano z:** Aspose.PDF dla Javy 25.3  
-**Autor:** Aspose

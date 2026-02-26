@@ -7,7 +7,7 @@ keywords:
 - Aspose.PDF for Java
 - open PDF in Java
 - add bookmarks to PDF
-title: 'PDF-Lesezeichen mit Aspose.PDF für Java erstellen: Öffnen, Speichern & Lesezeichen
+title: 'PDF-Lesezeichen mit Aspose.PDF für Java erstellen - Öffnen, Speichern & Lesezeichen
   hinzufügen'
 url: /de/java/bookmarks-navigation/master-aspose-pdf-java-open-save-bookmarks/
 weight: 1

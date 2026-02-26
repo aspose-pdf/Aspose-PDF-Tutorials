@@ -146,22 +146,6 @@ PDF 북마크를 추출하고 조작하는 것은 다양한 시나리오에 적�
 
 실제 프로젝트에 적용해 보면서 기능 향상을 확인해 보시기 바랍니다!
 
-## FAQ 섹션
-**Q: PDF에서 북마크를 추출하는 목적은 무엇인가요?**  
-A: 북마크를 추출하면 PDF 내 콘텐츠를 빠르게 탐색하고 분류할 수 있어 사용자 경험과 효율성이 향상됩니다.  
-
-**Q: 북마크 속성에 접근할 때 오류를 어떻게 처리하나요?**  
-A: PDF에 북마크가 있는지 확인하고, 예외 처리를 위해 try‑catch 블록을 사용하세요.  
-
-**Q: Aspose.PDF를 무료로 사용할 수 있나요?**  
-A: 예, 무료 체험으로 시작하거나 임시 라이선스를 받을 수 있습니다.  
-
-**Q: 무료 버전의 Aspose.PDF에 제한이 있나요?**  
-A: 무료 체험에는 사용 제한이 있으며, 무제한 사용을 위해 정식 라이선스 구매를 권장합니다.  
-
-**Q: 웹 애플리케이션에서 PDF 북마크 추출을 어떻게 통합하나요?**  
-A: 서버‑사이드 Java로 문서를 처리하고 API 또는 직접 데이터베이스 저장을 통해 프론트엔드에 결과를 전달합니다.
-
 ## 자주 묻는 질문
 **Q: 이 방법은 비밀번호로 보호된 PDF에서도 작동하나요?**  
 A: 예—`Document` 객체를 생성할 때 비밀번호를 제공하면 됩니다.  
@@ -186,6 +170,12 @@ A: `outlineItem.setTitle("새 제목")`을 사용한 뒤 문서를 저장하면 
 - **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Support Forum**: [Aspose PDF Community Support](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**마지막 업데이트:** 2025-12-24  
+**테스트 환경:** Aspose.PDF for Java 25.3  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -193,9 +183,3 @@ A: `outlineItem.setTitle("새 제목")`을 사용한 뒤 문서를 저장하면 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2025-12-24  
-**테스트 환경:** Aspose.PDF for Java 25.3  
-**작성자:** Aspose

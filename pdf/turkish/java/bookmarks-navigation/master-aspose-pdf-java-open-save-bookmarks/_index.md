@@ -7,7 +7,7 @@ keywords:
 - Aspose.PDF for Java
 - open PDF in Java
 - add bookmarks to PDF
-title: 'Aspose.PDF for Java ile PDF Yer İmleri Oluşturma: Aç, Kaydet ve Yer İmleri
+title: 'Aspose.PDF for Java ile PDF Yer İmleri Oluşturma - Aç, Kaydet ve Yer İmleri
   Ekle'
 url: /tr/java/bookmarks-navigation/master-aspose-pdf-java-open-save-bookmarks/
 weight: 1

@@ -7,7 +7,7 @@ keywords:
 - Aspose.PDF for Java
 - open PDF in Java
 - add bookmarks to PDF
-title: 'Tworzenie zakładek PDF w Aspose.PDF dla Javy: otwieranie, zapisywanie i dodawanie
+title: 'Tworzenie zakładek PDF w Aspose.PDF dla Javy - otwieranie, zapisywanie i dodawanie
   zakładek'
 url: /pl/java/bookmarks-navigation/master-aspose-pdf-java-open-save-bookmarks/
 weight: 1

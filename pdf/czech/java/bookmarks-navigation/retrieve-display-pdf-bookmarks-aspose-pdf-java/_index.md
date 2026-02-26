@@ -147,22 +147,6 @@ V tomto tutoriálu jsme probrali **jak načíst záložky PDF v Javě** pomocí 
 Vyzkoušejte řešení v reálném projektu a zjistěte, jak zlepšuje funkčnost!
 
 ## Často kladené otázky
-**Q: Jaký je účel extrahování záložek z PDF?**  
-A: Extrahování záložek usnadňuje navigaci a kategorizaci obsahu v PDF, čímž zlepšuje uživatelský zážitek a efektivitu.  
-
-**Q: Jak zacházet s chybami při přístupu k vlastnostem záložky?**  
-A: Ujistěte se, že PDF obsahuje záložky. Používejte bloky try‑catch pro efektivní správu výjimek.  
-
-**Q: Lze Aspose.PDF používat zdarma?**  
-A: Ano, můžete začít s bezplatnou zkušební verzí nebo získat dočasnou licenci.  
-
-**Q: Existují omezení u bezplatné verze Aspose.PDF?**  
-A: Zkušební verze má omezení používání; pro neomezené využití zvažte zakoupení plné licence.  
-
-**Q: Jak integrovat extrakci záložek PDF do webových aplikací?**  
-A: Použijte server‑side Javu pro zpracování dokumentů a výsledky pošlete na frontend přes API nebo přímé uložení do databáze.
-
-## Často kladené otázky
 **Q: Funguje tato metoda i s PDF chráněnými heslem?**  
 A: Ano — stačí při vytváření objektu `Document` zadat heslo.  
 
@@ -186,6 +170,12 @@ A: Použijte `outlineItem.setTitle("Nový Název")` a poté dokument uložte.
 - **Dočasná licence**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Fórum podpory**: [Aspose PDF Community Support](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Poslední aktualizace:** 2025-12-24  
+**Testováno s:** Aspose.PDF for Java 25.3  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -193,9 +183,3 @@ A: Použijte `outlineItem.setTitle("Nový Název")` a poté dokument uložte.
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2025-12-24  
-**Testováno s:** Aspose.PDF for Java 25.3  
-**Autor:** Aspose

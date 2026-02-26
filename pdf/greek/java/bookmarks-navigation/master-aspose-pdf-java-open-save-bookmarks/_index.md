@@ -7,7 +7,7 @@ keywords:
 - Aspose.PDF for Java
 - open PDF in Java
 - add bookmarks to PDF
-title: 'Δημιουργία σελιδοδεικτών PDF με το Aspose.PDF για Java: Άνοιγμα, αποθήκευση
+title: 'Δημιουργία σελιδοδεικτών PDF με το Aspose.PDF για Java - Άνοιγμα, αποθήκευση
   & προσθήκη σελιδοδεικτών'
 url: /el/java/bookmarks-navigation/master-aspose-pdf-java-open-save-bookmarks/
 weight: 1

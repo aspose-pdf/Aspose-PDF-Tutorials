@@ -145,22 +145,6 @@ Bu öğreticide Aspose.PDF for Java kullanarak **how to retrieve pdf bookmarks j
 
 Çözümü gerçek bir projede deneyerek işlevselliği nasıl artırdığını görün!
 
-## SSS Bölümü
-**Q: PDF'lerden yer imlerini çıkarmanın amacı nedir?**  
-A: Yer imlerini çıkarmak, PDF içindeki içeriği gezinmeye ve sınıflandırmaya yardımcı olur, kullanıcı deneyimini ve verimliliği artırır.
-
-**Q: Yer imi özelliklerine erişirken hataları nasıl yönetebilirim?**  
-A: PDF'nizin yer imleri içerdiğinden emin olun. İstisnaları etkili bir şekilde yönetmek için try‑catch blokları kullanın.
-
-**Q: Aspose.PDF ücretsiz kullanılabilir mi?**  
-A: Evet, ücretsiz deneme ile başlayabilir veya geçici bir lisans alabilirsiniz.
-
-**Q: Aspose.PDF'nin ücretsiz sürümünde sınırlamalar var mı?**  
-A: Ücretsiz deneme kullanım kısıtlamalarına sahiptir; sınırsız kullanım için tam lisans satın almayı düşünün.
-
-**Q: PDF yer imi çıkarımını web uygulamalarına nasıl entegre ederim?**  
-A: Belgeleri işlemek için sunucu tarafı Java kullanın ve sonuçları API'ler aracılığıyla ya da doğrudan veritabanı depolama yoluyla ön yüzünüze gönderin.
-
 ## Sık Sorulan Sorular
 **Q: Bu yöntem şifre korumalı PDF'lerde çalışır mı?**  
 A: Evet—`Document` nesnesi oluşturulurken şifreyi sağlayın.
@@ -185,6 +169,12 @@ A: `outlineItem.setTitle("New Title")` kullanın ve ardından belgeyi kaydedin.
 - **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Support Forum**: [Aspose PDF Community Support](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Last Updated:** 2025-12-24  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -192,9 +182,3 @@ A: `outlineItem.setTitle("New Title")` kullanın ve ardından belgeyi kaydedin.
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2025-12-24  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

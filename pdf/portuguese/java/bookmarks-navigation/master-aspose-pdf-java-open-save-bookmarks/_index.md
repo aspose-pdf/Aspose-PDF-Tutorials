@@ -7,7 +7,7 @@ keywords:
 - Aspose.PDF for Java
 - open PDF in Java
 - add bookmarks to PDF
-title: 'Criar Marcadores PDF com Aspose.PDF para Java: Abrir, Salvar e Adicionar Marcadores'
+title: 'Criar Marcadores PDF com Aspose.PDF para Java - Abrir, Salvar e Adicionar Marcadores'
 url: /pt/java/bookmarks-navigation/master-aspose-pdf-java-open-save-bookmarks/
 weight: 1
 ---

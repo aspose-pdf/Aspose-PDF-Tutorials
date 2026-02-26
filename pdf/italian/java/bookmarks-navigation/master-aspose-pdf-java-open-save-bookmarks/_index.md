@@ -7,7 +7,7 @@ keywords:
 - Aspose.PDF for Java
 - open PDF in Java
 - add bookmarks to PDF
-title: 'Crea segnalibri PDF con Aspose.PDF per Java: apri, salva e aggiungi segnalibri'
+title: 'Crea segnalibri PDF con Aspose.PDF per Java - apri, salva e aggiungi segnalibri'
 url: /it/java/bookmarks-navigation/master-aspose-pdf-java-open-save-bookmarks/
 weight: 1
 ---

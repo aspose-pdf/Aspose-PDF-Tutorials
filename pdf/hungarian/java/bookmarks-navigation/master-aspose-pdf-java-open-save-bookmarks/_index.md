@@ -7,7 +7,7 @@ keywords:
 - Aspose.PDF for Java
 - open PDF in Java
 - add bookmarks to PDF
-title: 'PDF könyvjelzők létrehozása az Aspose.PDF for Java segítségével: megnyitás,
+title: 'PDF könyvjelzők létrehozása az Aspose.PDF for Java segítségével - megnyitás,
   mentés és könyvjelzők hozzáadása'
 url: /hu/java/bookmarks-navigation/master-aspose-pdf-java-open-save-bookmarks/
 weight: 1
