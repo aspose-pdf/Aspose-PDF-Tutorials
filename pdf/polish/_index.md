@@ -54,10 +54,11 @@ Dowiedz się, jak tworzyć i dostosowywać wykresy w PDF przy użyciu Aspose.PDF
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Rysowanie linii w PDF
 Rysowanie prostych lub przekątnych linii jest powszechnym wymogiem w formularzach, podpisach i przewodnikach wizualnych. Samouczek „Rysuj przekątne linie” pokazuje dokładne wywołania API potrzebne do dodania precyzyjnych obiektów linii na dowolnej stronie PDF.
 
-{{< blocks/products/pf/tutorial-page-section >}}
 ## [Generowanie obrazów z PDF przy użyciu Aspose.PDF dla .NET](./net/images/)
 
 Dowiedz się, jak generować obrazy z plików PDF przy użyciu Aspose.PDF dla .NET. Konwertuj strony PDF na JPEG, PNG lub BMP z łatwością w C# przy wysokiej jakości.
@@ -72,6 +73,8 @@ Dowiedz się, jak generować obrazy z plików PDF przy użyciu Aspose.PDF dla .N
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Wyodrębnianie obrazów PDF
 Samouczek „Wyodrębnianie obrazów” pokazuje, jak wyciągać zasoby rastrowe z istniejących plików PDF, przydatną technikę do ponownego wykorzystania treści lub projektów migracyjnych.
 
@@ -80,6 +83,8 @@ Gdy potrzebujesz mniejszych plików lub szybszego renderowania, przewodnik „Zm
 
 ## Kompresja obrazów PDF
 W środowiskach o ograniczonej przestrzeni dyskowej, samouczek „Zmniejsz obraz” demonstruje ustawienia kompresji, które znacząco zmniejszają rozmiar PDF bez zauważalnej utraty wizualnej.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Kompleksowe samouczki tabel w Aspose.PDF dla .NET](./net/tables/)
@@ -98,10 +103,11 @@ Dowiedz się, jak tworzyć, formatować i manipulować tabelami w dokumentach PD
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Dodawanie tabeli PDF
 Tabele są niezbędne w raportach i fakturach. Ta sekcja zbiera samouczki związane z tabelami, zapewniając jedyne miejsce odniesienia do dodawania, stylizacji i paginacji tabel w PDF.
 
-{{< blocks/products/pf/tutorial-page-section >}}
 ## [Kompleksowe samouczki obsługi tekstu w Aspose.PDF dla .NET](./net/text/)
 
 Dowiedz się, jak tworzyć, formatować i manipulować tekstem w dokumentach PDF przy użyciu Aspose.PDF dla .NET, korzystając z samouczków krok po kroku i przykładów kodu.

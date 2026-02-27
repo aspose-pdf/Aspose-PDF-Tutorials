@@ -54,10 +54,11 @@ Aprenda a criar e personalizar gráficos em PDF usando Aspose.PDF para .NET. Adi
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Desenhar Linha PDF
 Desenhar linhas retas ou diagonais é uma necessidade comum para formulários, assinaturas e guias visuais. O tutorial “Desenhar Linhas Diagonais” demonstra as chamadas de API exatas necessárias para adicionar objetos de linha precisos a qualquer página de PDF.
 
-{{< blocks/products/pf/tutorial-page-section >}}
 ## [Gerar Imagens a partir de PDF usando Aspose.PDF para .NET](./net/images/)
 
 Aprenda a gerar imagens a partir de arquivos PDF usando Aspose.PDF para .NET. Converta páginas de PDF para JPEG, PNG ou BMP facilmente em C# com alta qualidade.
@@ -72,6 +73,8 @@ Aprenda a gerar imagens a partir de arquivos PDF usando Aspose.PDF para .NET. Co
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Extrair Imagens PDF
 O tutorial “Extrair Imagens” mostra como extrair ativos raster de PDFs existentes, uma técnica útil para reutilização de conteúdo ou projetos de migração.
 
@@ -80,6 +83,8 @@ Quando você precisa de arquivos menores ou renderização mais rápida, o guia 
 
 ## Comprimir Imagens de PDF
 Para ambientes com restrição de armazenamento, o tutorial “Reduzir Imagem” demonstra configurações de compressão que reduzem drasticamente o tamanho do PDF sem perda visual perceptível.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Tutoriais Abrangentes de Tabelas no Aspose.PDF para .NET](./net/tables/)
@@ -98,10 +103,11 @@ Aprenda a criar, formatar e manipular tabelas em documentos PDF usando Aspose.PD
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Adicionar Tabela PDF
 Tabelas são essenciais para relatórios e faturas. Esta seção agrega os tutoriais relacionados a tabelas, fornecendo uma referência única para adicionar, estilizar e paginar tabelas em PDFs.
 
-{{< blocks/products/pf/tutorial-page-section >}}
 ## [Tutoriais Abrangentes de Manipulação de Texto no Aspose.PDF para .NET](./net/text/)
 
 Aprenda a criar, formatar e manipular texto em documentos PDF usando Aspose.PDF para .NET com tutoriais passo a passo e exemplos de código.

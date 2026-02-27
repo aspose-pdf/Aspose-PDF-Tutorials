@@ -54,10 +54,11 @@ Tìm hiểu cách tạo và tùy chỉnh đồ thị trong PDF bằng Aspose.PDF
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Vẽ Đường PDF
 Vẽ các đường thẳng hoặc đường chéo là yêu cầu phổ biến cho biểu mẫu, chữ ký và hướng dẫn trực quan. Hướng dẫn “Vẽ Đường Chéo” minh họa các lời gọi API chính xác cần thiết để thêm các đối tượng đường chính xác vào bất kỳ trang PDF nào.
 
-{{< blocks/products/pf/tutorial-page-section >}}
 ## [Tạo Hình Ảnh từ PDF bằng Aspose.PDF cho .NET](./net/images/)
 
 Tìm hiểu cách tạo hình ảnh từ tệp PDF bằng Aspose.PDF cho .NET. Chuyển đổi các trang PDF sang JPEG, PNG hoặc BMP một cách dễ dàng trong C# với chất lượng cao.
@@ -72,6 +73,8 @@ Tìm hiểu cách tạo hình ảnh từ tệp PDF bằng Aspose.PDF cho .NET. C
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Trích Xuất Hình Ảnh PDF
 Hướng dẫn “Trích Xuất Hình Ảnh” chỉ ra cách lấy các tài sản raster ra khỏi các PDF hiện có, một kỹ thuật hữu ích cho việc tái sử dụng nội dung hoặc các dự án di chuyển.
 
@@ -81,7 +84,10 @@ Khi bạn cần tệp nhỏ hơn hoặc tốc độ hiển thị nhanh hơn, hư
 ## Nén Hình Ảnh PDF
 Trong các môi trường có hạn chế về lưu trữ, hướng dẫn “Nén Hình Ảnh” trình bày các cài đặt nén giúp giảm đáng kể kích thước PDF mà không gây mất mát hình ảnh đáng chú ý.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
+
 ## [Các Hướng Dẫn Toàn Diện về Bảng trong Aspose.PDF cho .NET](./net/tables/)
 
 Tìm hiểu cách tạo, định dạng và thao tác với bảng trong tài liệu PDF bằng Aspose.PDF cho .NET với các hướng dẫn từng bước và ví dụ mã.
@@ -98,10 +104,11 @@ Tìm hiểu cách tạo, định dạng và thao tác với bảng trong tài li
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Thêm Bảng PDF
 Bảng là yếu tố thiết yếu cho báo cáo và hoá đơn. Phần này tổng hợp các hướng dẫn liên quan đến bảng, cung cấp cho bạn một nguồn tham khảo duy nhất để thêm, tạo kiểu và phân trang bảng trong PDF.
 
-{{< blocks/products/pf/tutorial-page-section >}}
 ## [Các Hướng Dẫn Toàn Diện về Xử Lý Văn Bản trong Aspose.PDF cho .NET](./net/text/)
 
 Tìm hiểu cách tạo, định dạng và thao tác với văn bản trong tài liệu PDF bằng Aspose.PDF cho .NET với các hướng dẫn từng bước và ví dụ mã.
