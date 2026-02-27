@@ -85,6 +85,8 @@ För lagringsbegränsade miljöer visar handledningen “Shrink Image” komprim
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## [Omfattande tabellhandledningar i Aspose.PDF för .NET](./net/tables/)
 
 Lär dig hur du skapar, formaterar och manipulerar tabeller i PDF‑dokument med Aspose.PDF för .NET genom steg‑för‑steg‑handledningar och kodexempel.
