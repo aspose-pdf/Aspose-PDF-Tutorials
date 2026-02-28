@@ -39,6 +39,7 @@ Hướng dẫn "Lập trình với tem và hình mờ" của Aspose.PDF dành ch
 | [Bảng Trong Phần Đầu Trang Chân Trang](./table-in-header-footer-section/) | Tìm hiểu cách dễ dàng thêm văn bản vào chân trang của tệp PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước được bao gồm để tích hợp liền mạch. |  
 | [Văn bản ở chân trang của tệp PDF](./text-in-footer/) | Tìm hiểu cách thêm văn bản vào chân trang của tệp PDF bằng Aspose.PDF cho .NET. |  
 | [Văn bản trong tiêu đề của tệp PDF](./text-in-header/) | Học cách thêm tiêu đề văn bản vào PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Cải thiện tài liệu của bạn một cách hiệu quả và hiệu suất cao. |  
+| [Tạo Hình Mờ PDF – Thêm Tem & Chuyển DOCX sang PDF](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) Tìm hiểu cách tạo hình mờ PDF, thêm tem và chuyển DOCX sang PDF bằng Aspose.PDF cho .NET với hướng dẫn chi tiết. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

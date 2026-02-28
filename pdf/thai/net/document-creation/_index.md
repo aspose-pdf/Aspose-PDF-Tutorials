@@ -71,8 +71,8 @@
 ### [หลักการสร้าง PDF ที่แท็กด้วย Aspose.PDF สำหรับ .NET: คู่มือครอบคลุมเกี่ยวกับการเข้าถึงและ SEO](./master-tagged-pdf-creation-aspose-pdf-dotnet/)
 เรียนรู้วิธีสร้าง PDF ที่แท็กไว้อย่างเข้าถึงได้และมีโครงสร้างที่ดีโดยใช้ Aspose.PDF สำหรับ .NET คู่มือนี้ครอบคลุมถึงการตั้งค่าคุณสมบัติของเอกสาร การเพิ่มลิงก์ และการฝังรูปภาพ
 
-### [เรียนรู้การสร้าง PDF Booklet ด้วย Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
-บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.PDF Net
+### [สร้างเอกสาร PDF ด้วย C# – คู่มือการเพิ่มหมายเลข Bates](./create-pdf-document-c-add-bates-numbering-guide/)
+เรียนรู้วิธีเพิ่มหมายเลข Bates ให้กับไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ใน C#
 
 ## แหล่งข้อมูลเพิ่มเติม
 

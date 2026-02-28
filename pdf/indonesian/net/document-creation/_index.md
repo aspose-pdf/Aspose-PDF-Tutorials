@@ -74,6 +74,9 @@ Pelajari cara membuat PDF bertag yang mudah diakses dan terstruktur dengan baik 
 ### [Menguasai Pembuatan Buklet PDF dengan Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Tutorial kode untuk Aspose.PDF Net
 
+### [Buat Dokumen PDF C# – Panduan Penambahan Penomoran Bates](./create-pdf-document-c-add-bates-numbering-guide/)
+Pelajari cara menambahkan penomoran Bates ke dokumen PDF menggunakan Aspose.PDF untuk .NET dengan C# dalam panduan langkah demi langkah.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

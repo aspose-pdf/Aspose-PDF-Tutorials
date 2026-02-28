@@ -74,6 +74,9 @@
 ### [إتقان إنشاء كتيبات PDF باستخدام Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 برنامج تعليمي لبرمجة Aspose.PDF Net
 
+### [إنشاء مستند PDF باستخدام C# – دليل إضافة ترقيم Bates](./create-pdf-document-c-add-bates-numbering-guide/)
+تعلم كيفية إضافة ترقيم Bates إلى مستندات PDF باستخدام Aspose.PDF لـ .NET في C# خطوة بخطوة.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

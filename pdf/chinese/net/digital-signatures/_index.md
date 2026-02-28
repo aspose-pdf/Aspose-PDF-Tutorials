@@ -47,6 +47,9 @@ Aspose.PDF Net 代码教程
 ### [在 C# 中验证 PDF 签名 – 分步指南](./verify-pdf-signature-in-c-step-by-step-guide/)
 了解如何使用 C# 和 Aspose.PDF for .NET 验证 PDF 文件中的数字签名，确保文档完整性和真实性。
 
+### [在 C# 中检查 PDF 签名 – 验证数字签名 PDF](./check-pdf-signature-in-c-validate-digital-signature-pdf/)
+了解如何使用 C# 与 Aspose.PDF for .NET 检查并验证 PDF 的数字签名，确保文档安全。
+
 ### [如何验证 PDF – 使用 Aspose 验证 PDF 签名](./how-to-verify-pdf-validate-pdf-signature-with-aspose/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名，确保文档的完整性和真实性。
 
@@ -55,6 +58,9 @@ Aspose.PDF Net 代码教程
 
 ### [掌握 Aspose.PDF .NET：如何验证 PDF 文件中的数字签名](./aspose-pdf-net-verify-digital-signature/)
 了解如何使用 Aspose.PDF for .NET 验证 PDF 文件中的数字签名。遵循我们的分步指南，确保文档的完整性和真实性。
+
+### [如何从 PDF 中提取签署者 – 完整 C# 指南](./how-to-extract-signer-from-pdf-complete-c-guide/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中提取 PDF 的签署者信息，帮助验证文档来源。
 
 ## 其他资源
 

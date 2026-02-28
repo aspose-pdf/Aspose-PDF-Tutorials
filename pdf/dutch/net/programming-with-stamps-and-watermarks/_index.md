@@ -39,6 +39,7 @@ De tutorials "Programmeren met stempels en watermerken" van Aspose.PDF voor .NET
 | [Tabel in koptekst-voettekstsectie](./table-in-header-footer-section/) | Leer hoe u eenvoudig tekst toevoegt aan de voettekst van een PDF-bestand met Aspose.PDF voor .NET. Inclusief stapsgewijze handleiding voor naadloze integratie. |  
 | [Tekst in voettekst van PDF-bestand](./text-in-footer/) | Leer hoe u tekst toevoegt in de voettekst van een PDF-bestand met Aspose.PDF voor .NET. |  
 | [Tekst in koptekst van PDF-bestand](./text-in-header/) | Leer hoe u tekstkoppen aan PDF's toevoegt met Aspose.PDF voor .NET met deze stapsgewijze tutorial. Verbeter uw documenten efficiënt en effectief. |  
+| [PDF-watermerk maken - Stempel toevoegen en DOCX naar PDF converteren](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) | Leer hoe u een watermerk maakt, een stempel toevoegt en een DOCX-bestand converteert naar PDF met Aspose.PDF voor .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

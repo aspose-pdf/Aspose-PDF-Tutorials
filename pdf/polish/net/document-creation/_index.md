@@ -74,6 +74,9 @@ Dowiedz się, jak tworzyć dostępne, dobrze ustrukturyzowane, oznaczone pliki P
 ### [Opanowanie tworzenia broszur PDF za pomocą Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Samouczek dotyczący kodu dla Aspose.PDF Net
 
+### [Tworzenie dokumentu PDF w C# – Przewodnik dodawania numeracji Batesa](./create-pdf-document-c-add-bates-numbering-guide/)
+Dowiedz się, jak dodać numerację Bates do dokumentu PDF w C# przy użyciu Aspose.PDF.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

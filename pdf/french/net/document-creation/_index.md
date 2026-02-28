@@ -74,6 +74,9 @@ Apprenez à créer des PDF balisés, accessibles et bien structurés avec Aspose
 ### [Maîtriser la création de brochures PDF avec Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Un tutoriel de code pour Aspose.PDF Net
 
+### [Créer un document PDF C# – Guide d'ajout de la numérotation Bates](./create-pdf-document-c-add-bates-numbering-guide/)
+Apprenez à ajouter une numérotation Bates à vos PDF en C# avec Aspose.PDF.
+
 ## Ressources supplémentaires
 
 - [Aspose.PDF pour la documentation réseau](https://docs.aspose.com/pdf/net/)

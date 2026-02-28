@@ -39,6 +39,7 @@ Aspose.PDF'nin .NET için "Pullar ve Filigranlarla Programlama" öğreticileri, 
 | [Üstbilgi Altbilgi Bölümündeki Tablo](./table-in-header-footer-section/) | Aspose.PDF for .NET kullanarak bir PDF dosyasının altbilgisine kolayca metin eklemeyi öğrenin. Sorunsuz entegrasyon için adım adım kılavuz dahildir. |  
 | [PDF Dosyasının Altbilgisindeki Metin](./text-in-footer/) | Aspose.PDF for .NET ile PDF dosyasının alt bilgisine metin eklemeyi öğrenin. |  
 | [PDF Dosyasının Başlığındaki Metin](./text-in-header/) | Bu adım adım eğitimle Aspose.PDF for .NET kullanarak PDF'lere metin başlıkları eklemeyi öğrenin. Belgelerinizi verimli ve etkili bir şekilde geliştirin. |  
+| [PDF Filigranı Oluştur – Damga Ekle ve DOCX'i PDF'e Dönüştür](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) | Aspose.PDF for .NET kullanarak PDF'e filigran ekleyin, damga oluşturun ve DOCX dosyasını PDF'e dönüştürün. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

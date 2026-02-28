@@ -33,12 +33,13 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Gambar dan Nomor Halaman di Bagian Header dan Footer](./image-and-page-number-in-header-footer-section/) Pelajari cara menambahkan gambar dan nomor halaman ke header dan footer PDF Anda menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini. Bahasa Indonesia:  
 | [Gambar dan Nomor Halaman di Bagian Header dan Footer Sebaris](./image-and-page-number-in-header-footer-section-inline/) | Pelajari cara menambahkan gambar dan nomor halaman sebaris di bagian header PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Bahasa Indonesia:  
 | [Gambar di Footer](./image-in-footer/) | Pelajari cara menambahkan gambar di bagian bawah PDF menggunakan Aspose.PDF for .NET dengan tutorial langkah demi langkah yang terperinci ini. Sempurna untuk menyempurnakan dokumen Anda. Bahasa Indonesia:  
-| [Gambar Di Header](./image-in-header/) | Pelajari cara menambahkan gambar ke header PDF menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini. Bahasa Indonesia:  
+| [Gambar Di Header](./image-in-header/) | Pelajari cara menambahkan gambar ke header PDF menggunakan Aspose.PDF for .NET dalam tutorial langkah demi langkah ini. Bahasa Indonesia:  
 | [Nomor Halaman Di Header Footer Menggunakan Floating Box](./page-number-in-header-footer-using-floating-box/) | Tambahkan nomor halaman dengan mudah di header dan footer PDF Anda menggunakan Kotak Mengambang dengan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini. Bahasa Indonesia:  
 | [Stempel Nomor Halaman Dalam File PDF](./page-number-stamps/) Pelajari cara menambahkan stempel nomor halaman ke file PDF menggunakan Aspose.PDF untuk .NET melalui panduan kami yang mudah diikuti, lengkap dengan contoh kode. Bahasa Indonesia:  
 | [Tabel Di Bagian Header Footer](./table-in-header-footer-section/) | Pelajari cara mudah menambahkan teks ke bagian bawah berkas PDF menggunakan Aspose.PDF for .NET. Panduan langkah demi langkah disertakan untuk integrasi yang lancar. Bahasa Indonesia:  
-| [Teks Di Footer File PDF](./text-in-footer/) | Pelajari cara menambahkan teks di footer file PDF dengan Aspose.PDF untuk .NET. Bahasa Indonesia:  
+| [Teks Di Footer File PDF](./text-in-footer/) | Pelajari cara menambahkan teks di footer file PDF dengan Aspose.PDF for .NET. Bahasa Indonesia:  
 | [Teks Di Header File PDF](./text-in-header/) | Pelajari cara menambahkan tajuk teks ke PDF menggunakan Aspose.PDF for .NET dengan tutorial langkah demi langkah ini. Sempurnakan dokumen Anda secara efisien dan efektif. |  
+| [Buat Tanda Air PDF – Tambahkan Stempel & Konversi DOCX ke PDF](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) | Pelajari cara membuat tanda air PDF, menambahkan stempel, dan mengonversi dokumen DOCX ke PDF menggunakan Aspose.PDF untuk .NET. Bahasa Indonesia:  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

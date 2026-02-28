@@ -36,6 +36,7 @@ Aspose.PDF の .NET 向けドキュメント変換チュートリアルでは、
 | [PDFからHTMLへ](./pdf-to-html/) Aspose.PDF for .NET を使用してPDFをHTMLに変換する方法をステップバイステップで解説します。開発者やコンテンツ作成者に最適です。 |  
 | [PDFからPDFAへ](./pdf-to-pdfa/) このステップバイステップのチュートリアルで、Aspose.PDF for .NET を使用して PDF ファイルを PDF/A 形式に変換する方法を学習します。 |  
 | [PDFからPDFA3bへ](./pdf-to-pdfa3b/) このステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF ファイルを PDF/A-3B 形式に簡単に変換する方法を学習します。 |  
+| [C# で PDF を PDF/X‑4 に変換する方法 – ステップバイステップ ガイド](./how-to-convert-pdf-to-pdf-x-4-in-c-step-by-step-guide/) Aspose.PDF for .NET を使用して、C# で PDF を PDF/X‑4 形式に変換する手順を解説します。 |  
 | [PDFからPNGへのフォントヒント](./pdf-to-png-font-hinting/) Aspose.PDF for .NET を使用して、フォントヒント付きの PDF を PNG に変換する方法を簡単なステップバイステップ ガイドで学習します。 |  
 | [PDFからPPTへ](./pdf-to-ppt/) Aspose.PDF for .NET を使って PDF を PPT に変換する方法をステップバイステップで解説します。簡単、効率的、そしてプレゼンテーションに最適です。 |  
 | [PDFからSVGへ](./pdf-to-svg/) Aspose.PDF for .NET を使用してPDFファイルをSVG形式に変換する方法をステップバイステップで学ぶチュートリアルです。開発者やデザイナーに最適です。 |  
@@ -56,6 +57,8 @@ Aspose.PDF の .NET 向けドキュメント変換チュートリアルでは、
 | [XMLからPDFへ](./xml-to-pdf/) コード例と詳細な説明を含む包括的なステップバイステップのチュートリアルで、Aspose.PDF for .NET を使用して XML を PDF に変換する方法を学習します。 |  
 | [XMLからPDFへの画像パスの設定](./xml-to-pdfset-image-path/) Aspose.PDF for .NET を使って、XML を PDF に簡単に変換する方法を学びましょう。この詳細なガイドでは、セットアップから完了まで、プロセスをステップごとに詳しく説明します。 |  
 | [XPSからPDFへ](./xps-to-pdf/) Aspose.PDF for .NET を使用してXPSファイルをPDFに変換する方法を、ステップバイステップのチュートリアルで学びましょう。開発者やドキュメント作成に興味のある方に最適です。 |  
+| [Word を PDF に変換する際に ICC プロファイルを設定する – 完全 C# ガイド](./set-icc-profile-when-converting-word-to-pdf-complete-c-guide/) Aspose.PDF for .NET を使用して、Word 文書を PDF に変換する際に ICC プロファイルを設定する方法をステップバイステップで解説します。 |  
+| [Word を HTML にエクスポートする完全 C# ガイド – ドキュメントを HTML として保存](./save-document-as-html-complete-c-guide-to-export-word-to-htm/) Aspose.PDF for .NET を使用して、Word 文書を HTML にエクスポートし、保存する方法をステップバイステップで解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

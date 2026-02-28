@@ -56,6 +56,9 @@ leert hoe u conversie-instellingen opgeeft, tekst en afbeeldingen extraheert, de
 | [XML naar PDF](./xml-to-pdf/) | Leer hoe u XML naar PDF kunt converteren met Aspose.PDF voor .NET in deze uitgebreide stapsgewijze tutorial, compleet met codevoorbeelden en gedetailleerde uitleg. |  
 | [XML naar PDFSet-afbeeldingspad](./xml-to-pdfset-image-path/) | Leer hoe u moeiteloos XML naar PDF converteert met Aspose.PDF voor .NET. Deze gedetailleerde handleiding leidt u stap voor stap door het proces, van installatie tot voltooiing. |  
 | [XPS naar PDF](./xps-to-pdf/) Leer hoe u XPS-bestanden naar PDF converteert met Aspose.PDF voor .NET met deze stapsgewijze tutorial. Perfect voor ontwikkelaars en documentliefhebbers. |  
+| [Hoe PDF naar PDF/X‑4 converteren in C# – Stapsgewijze handleiding](./how-to-convert-pdf-to-pdf-x-4-in-c-step-by-step-guide/) | Leer hoe u PDF-bestanden naar PDF/X‑4 converteert met Aspose.PDF voor .NET in C# met deze stapsgewijze handleiding. |  
+| [ICC-profiel instellen bij conversie van Word naar PDF – Complete C#-handleiding](./set-icc-profile-when-converting-word-to-pdf-complete-c-guide/) | Leer hoe u een ICC-profiel instelt bij het converteren van Word naar PDF met Aspose.PDF voor .NET in deze uitgebreide C#-handleiding. |
+| [Document opslaan als HTML – Complete C#-handleiding voor het exporteren van Word naar HTML](./save-document-as-html-complete-c-guide-to-export-word-to-htm/) | Leer hoe u een Word-document opslaat als HTML met Aspose.PDF voor .NET in deze complete C#-handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

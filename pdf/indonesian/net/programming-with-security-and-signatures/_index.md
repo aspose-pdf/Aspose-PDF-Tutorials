@@ -32,7 +32,9 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Apakah Dilindungi Kata Sandi?](./is-password-protected/) Pelajari cara memeriksa apakah PDF dilindungi kata sandi menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah yang komprehensif ini. Bahasa Indonesia:  
 | [Mengatur Hak Istimewa Dalam File PDF](./set-privileges/) | Pelajari cara mengatur hak akses PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Amankan dokumen Anda secara efektif. Bahasa Indonesia:  
 | [Tanda Tangan Dengan Kartu Pintar Menggunakan Tanda Tangan File Pdf](./sign-with-smart-card-using-pdf-file-signature/) | Pelajari cara menandatangani file PDF menggunakan kartu pintar dengan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah ini untuk mendapatkan tanda tangan digital yang aman. Bahasa Indonesia:  
-| [Tanda Tangan Dengan Kartu Pintar Menggunakan Kolom Tanda Tangan](./sign-with-smart-card-using-signature-field/) | Pelajari cara menandatangani PDF dengan aman menggunakan kartu pintar dengan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah kami untuk penerapan yang mudah. |  
+| [Tanda Tangan Dengan Kartu Pintar Menggunakan Kolom Tanda Tangan](./sign-with-smart-card-using-signature-field/) | Pelajari cara menandatangani PDF dengan aman menggunakan kartu pintar dengan Aspose.PDF untuk .NET. Panduan langkah demi langkah kami untuk penerapan yang mudah. |  
+| [Verifikasi Tanda Tangan PDF dengan Aspose.Pdf – Panduan Langkah demi Langkah](./verify-pdf-signature-with-aspose-pdf-step-by-step-guide/) | Pelajari cara memverifikasi tanda tangan digital pada file PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah. |
+| [Cara Memverifikasi PDF – Panduan Lengkap C# untuk Tanda Tangan Digital](./how-to-verify-pdf-complete-c-guide-for-digital-signatures/) | Pelajari cara memverifikasi tanda tangan digital pada file PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah lengkap. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
