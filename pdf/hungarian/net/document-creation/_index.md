@@ -74,6 +74,9 @@ Ismerje meg, hogyan hozhat létre akadálymentes, jól strukturált, címkézett
 ### [PDF füzetkészítés elsajátítása az Aspose.PDF .NET segítségével](./aspose-pdf-net-create-booklet-page-arrangement/)
 Kód oktatóanyag az Aspose.PDF Nethez
 
+### [PDF dokumentum létrehozása C# – Bates számozás hozzáadása útmutató](./create-pdf-document-c-add-bates-numbering-guide/)
+Tanulja meg, hogyan adhat hozzá Bates-számozást PDF dokumentumokhoz C#-ban az Aspose.PDF for .NET használatával.
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)

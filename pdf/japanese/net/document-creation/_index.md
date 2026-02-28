@@ -74,6 +74,9 @@ Aspose.PDF for .NET を使用して、アクセシビリティが高く、構造
 ### [Aspose.PDF .NET で PDF ブックレット作成をマスターする](./aspose-pdf-net-create-booklet-page-arrangement/)
 Aspose.PDF Net のコードチュートリアル
 
+### [C# で PDF ドキュメントにベーツ番号を付与するガイド](./create-pdf-document-c-add-bates-numbering-guide/)
+Aspose.PDF for .NET を使用して、C# で PDF にベーツ番号を自動的に付与する方法を学びます。
+
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)

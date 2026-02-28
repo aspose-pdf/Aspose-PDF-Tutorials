@@ -36,6 +36,7 @@ Naučíte se, jak nastavit převod, extrahovat text a obrázky, zachovat původn
 | [PDF do HTML](./pdf-to-html/) | Naučte se, jak převést PDF do HTML pomocí Aspose.PDF pro .NET s tímto podrobným návodem. Ideální pro vývojáře a tvůrce obsahu. |  
 | [PDF do PDFA](./pdf-to-pdfa/) Naučte se, jak převést soubory PDF do formátu PDF/A pomocí Aspose.PDF pro .NET v tomto podrobném návodu. |  
 | [PDF do PDFA3b](./pdf-to-pdfa3b/) | Naučte se bez námahy převádět soubory PDF do formátu PDF/A-3B pomocí Aspose.PDF pro .NET v tomto podrobném návodu. |  
+| [Jak převést PDF na PDF/X‑4 v C# – krok za krokem](./how-to-convert-pdf-to-pdf-x-4-in-c-step-by-step-guide/) | Naučte se, jak převést PDF do formátu PDF/X‑4 pomocí Aspose.PDF pro .NET v tomto podrobném návodu krok za krokem. |  
 | [Tipy pro převod písma z PDF do PNG](./pdf-to-png-font-hinting/) | Naučte se převádět PDF do PNG s hintingem fontů pomocí Aspose.PDF pro .NET v jednoduchém podrobném návodu. |  
 | [PDF do PPT](./pdf-to-ppt/) | Naučte se, jak převést PDF do PPT pomocí Aspose.PDF pro .NET s tímto podrobným návodem. Snadné, efektivní a ideální pro prezentace. |  
 | [PDF do formátu SVG](./pdf-to-svg/) | Naučte se v tomto podrobném návodu, jak převést soubory PDF do formátu SVG pomocí Aspose.PDF pro .NET. Ideální pro vývojáře a designéry. |  
@@ -56,6 +57,8 @@ Naučíte se, jak nastavit převod, extrahovat text a obrázky, zachovat původn
 | [XML do PDF](./xml-to-pdf/) | Naučte se, jak převést XML do PDF pomocí Aspose.PDF pro .NET v tomto komplexním návodu krok za krokem, který obsahuje příklady kódu a podrobné vysvětlení. |  
 | [Cesta k obrázku z XML do PDF](./xml-to-pdfset-image-path/) | Naučte se, jak snadno převést XML do PDF pomocí Aspose.PDF pro .NET. Tato podrobná příručka vás krok za krokem provede celým procesem, od nastavení až po dokončení. |  
 | [XPS do PDF](./xps-to-pdf/) Naučte se, jak převést soubory XPS do PDF pomocí Aspose.PDF pro .NET v tomto podrobném návodu. Ideální pro vývojáře a nadšence do dokumentů. |  
+| [Nastavení ICC profilu při převodu Wordu do PDF – Kompletní průvodce C#](./set-icc-profile-when-converting-word-to-pdf-complete-c-guide/) | Naučte se, jak nastavit ICC profil při převodu dokumentů Word do PDF pomocí Aspose.PDF pro .NET v tomto podrobném průvodci C#. |  
+| [Uložit dokument jako HTML – Kompletní průvodce C# pro export Word do HTML](./save-document-as-html-complete-c-guide-to-export-word-to-htm/) | Naučte se, jak pomocí Aspose.PDF pro .NET uložit dokument Word jako HTML v podrobném průvodci pro C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

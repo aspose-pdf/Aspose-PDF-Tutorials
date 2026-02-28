@@ -74,6 +74,9 @@ Naučte se, jak vytvářet přístupné, dobře strukturované tagované soubory
 ### [Zvládnutí tvorby brožur ve formátu PDF s Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Výukový program pro kódování Aspose.PDF Net
 
+### [Vytvoření PDF dokumentu v C# – Průvodce přidáním Batesova číslování](./create-pdf-document-c-add-bates-numbering-guide/)
+Naučte se, jak přidat Batesovo číslování do PDF dokumentů v C# pomocí Aspose.PDF.
+
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)

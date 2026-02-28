@@ -74,6 +74,9 @@
 ### [Освоение создания PDF-буклетов с помощью Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Учебник по коду для Aspose.PDF Net
 
+### [Создание PDF-документа C# – руководство по добавлению нумерации Бейтса](./create-pdf-document-c-add-bates-numbering-guide/)
+Узнайте, как добавить нумерацию Бейтса в PDF-документ с помощью Aspose.PDF для .NET на C#.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.PDF для сети](https://docs.aspose.com/pdf/net/)

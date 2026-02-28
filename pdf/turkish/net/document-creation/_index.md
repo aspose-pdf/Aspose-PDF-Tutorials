@@ -74,6 +74,9 @@ Aspose.PDF for .NET kullanarak PDF'leri nasıl oluşturacağınızı, özelleşt
 ### [Aspose.PDF .NET ile PDF Kitapçık Oluşturmada Ustalaşma](./aspose-pdf-net-create-booklet-page-arrangement/)
 Aspose.PDF Net için bir kod öğreticisi
 
+### [PDF Belgesi Oluşturma C# – Bates Numaralandırma Ekleme Kılavuzu](./create-pdf-document-c-add-bates-numbering-guide/)
+C# kullanarak PDF belgelerine Bates numaralandırması eklemeyi öğrenin. Adım adım örnek kod ve açıklamalar.
+
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)

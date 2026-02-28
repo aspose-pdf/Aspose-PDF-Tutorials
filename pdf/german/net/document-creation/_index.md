@@ -74,6 +74,9 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET barrierefreie, gut strukturierte 
 ### [PDF-Broschüren erstellen mit Aspose.PDF .NET meistern](./aspose-pdf-net-create-booklet-page-arrangement/)
 Ein Code-Tutorial für Aspose.PDF Net
 
+### [Erstellen Sie ein PDF-Dokument in C# – Leitfaden zum Hinzufügen von Bates-Nummerierung](./create-pdf-document-c-add-bates-numbering-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# Bates-Nummerierung zu PDF-Dokumenten hinzufügen.
+
 ## Weitere Ressourcen
 
 - [Aspose.PDF für Net-Dokumentation](https://docs.aspose.com/pdf/net/)

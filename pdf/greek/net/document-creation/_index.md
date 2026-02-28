@@ -74,6 +74,9 @@
 ### [Κατακτήστε τη δημιουργία φυλλαδίων PDF με το Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Ένα σεμινάριο κώδικα για το Aspose.PDF Net
 
+### [Δημιουργία εγγράφου PDF C# – Οδηγός προσθήκης αριθμησης Bates](./create-pdf-document-c-add-bates-numbering-guide/)
+Μάθετε πώς να προσθέσετε αριθμητική Bates σε PDF με το Aspose.PDF για .NET σε C#.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.PDF για τεκμηρίωση δικτύου](https://docs.aspose.com/pdf/net/)

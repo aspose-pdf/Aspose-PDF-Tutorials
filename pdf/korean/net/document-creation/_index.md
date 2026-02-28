@@ -42,7 +42,10 @@ Aspose.PDF for .NET을 사용하여 PDF 소책자 생성을 자동화하는 방�
 Aspose.PDF Net에 대한 코드 튜토리얼
 
 ### [C#에서 Aspose.PDF .NET을 사용하여 PDF 소책자를 만드는 방법: 단계별 가이드](./create-pdf-booklets-aspose-pdf-net-csharp-guide/)
-.NET 및 C#용 Aspose.PDF를 사용하여 전문적인 PDF 소책자를 만드는 방법을 알아보세요. 이 가이드에서는 설정, 구현 및 모범 사례를 다룹니다.
+Aspose.PDF for .NET을 사용하여 전문적인 PDF 소책자를 만드는 방법을 알아보세요. 이 가이드에서는 설정, 구현 및 모범 사례를 다룹니다.
+
+### [C#으로 PDF 문서 만들기 – 베이츠 번호 매기기 가이드](./create-pdf-document-c-add-bates-numbering-guide/)
+Aspose.PDF for .NET을 사용하여 C#에서 PDF 문서에 베이츠 번호를 추가하는 방법을 단계별로 안내합니다.
 
 ### [Aspose.PDF .NET을 사용하여 LaTeX로 PDF를 만드는 방법: 단계별 가이드](./create-pdf-latex-aspose-dotnet-guide/)
 Aspose.PDF for .NET을 사용하여 LaTeX로 전문적인 PDF 문서를 만드는 방법을 알아보세요. 이 가이드에서는 설정, 코드 예제, 그리고 실제 적용 사례를 다룹니다.

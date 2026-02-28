@@ -29,10 +29,12 @@ De tutorial geeft u een gedetailleerd overzicht van methoden en technieken om de
 | [PDF-bestand versleutelen](./encrypt/) | Leer hoe u uw PDF-bestanden moeiteloos kunt versleutelen met Aspose.PDF voor .NET. Beveilig gevoelige informatie met onze eenvoudige stapsgewijze handleiding. |  
 | [Afbeelding extraheren](./extracting-image/) | Leer eenvoudig hoe u afbeeldingen uit PDF's kunt extraheren met Aspose.PDF voor .NET. Volg onze stapsgewijze handleiding voor naadloze beeldextractie. |  
 | [Handtekeninginfo extraheren](./extract-signature-info/) | Leer hoe u digitale handtekeningen en certificaatgegevens uit PDF-documenten haalt met Aspose.PDF voor .NET. Een complete stapsgewijze handleiding voor C#-ontwikkelaars. |  
+| [PDF-handtekening verifiëren met Aspose.Pdf – Stapsgewijze handleiding](./verify-pdf-signature-with-aspose-pdf-step-by-step-guide/) | Leer hoe u PDF-handtekeningen kunt verifiëren met Aspose.PDF voor .NET in een duidelijke stap‑voor‑stap handleiding. |  
 | [Is wachtwoordbeveiligd](./is-password-protected/) Leer hoe u kunt controleren of een PDF met een wachtwoord is beveiligd met Aspose.PDF voor .NET in deze uitgebreide stapsgewijze handleiding. |  
 | [Rechten instellen in PDF-bestand](./set-privileges/) | Leer hoe u PDF-rechten instelt met Aspose.PDF voor .NET met deze stapsgewijze handleiding. Beveilig uw documenten effectief. |  
 | [Ondertekenen met smartcard met behulp van PDF-bestandshandtekening](./sign-with-smart-card-using-pdf-file-signature/) | Leer hoe u PDF-bestanden ondertekent met een smartcard met Aspose.PDF voor .NET. Volg deze stapsgewijze handleiding voor veilige digitale handtekeningen. |  
 | [Ondertekenen met smartcard met behulp van handtekeningveld](./sign-with-smart-card-using-signature-field/) | Leer hoe u PDF's veilig kunt ondertekenen met een smartcard met Aspose.PDF voor .NET. Volg onze stapsgewijze handleiding voor eenvoudige implementatie. |  
+| [Hoe PDF te verifiëren – Complete C#-gids voor digitale handtekeningen](./how-to-verify-pdf-complete-c-guide-for-digital-signatures/) | Leer hoe u PDF-handtekeningen kunt verifiëren met Aspose.PDF voor .NET in een volledige C#‑handleiding. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

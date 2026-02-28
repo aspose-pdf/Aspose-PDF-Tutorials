@@ -74,6 +74,9 @@ Tìm hiểu cách tạo PDF có gắn thẻ có cấu trúc tốt, dễ truy c�
 ### [Làm chủ việc tạo sách PDF với Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Hướng dẫn mã cho Aspose.PDF Net
 
+### [Tạo tài liệu PDF C# – Hướng dẫn thêm số Bates](./create-pdf-document-c-add-bates-numbering-guide/)
+Tìm hiểu cách thêm số Bates vào tài liệu PDF bằng Aspose.PDF cho .NET trong C#.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)

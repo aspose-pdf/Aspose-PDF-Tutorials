@@ -37,8 +37,9 @@ Los tutoriales de Aspose.PDF "Programación con sellos y marcas de agua" para .N
 | [Número de página en el encabezado y pie de página mediante cuadro flotante](./page-number-in-header-footer-using-floating-box/) | Agregue fácilmente números de página en el encabezado y pie de página de su PDF usando un cuadro flotante con Aspose.PDF para .NET en este tutorial paso a paso.  
 | [Sellos de número de página en archivos PDF](./page-number-stamps/) Aprenda cómo agregar sellos de número de página a archivos PDF usando Aspose.PDF para .NET a través de nuestra guía fácil de seguir, completa con un ejemplo de código. |  
 | [Tabla en la sección de encabezado y pie de página](./table-in-header-footer-section/) Aprenda a agregar texto fácilmente al pie de página de un archivo PDF con Aspose.PDF para .NET. Incluye una guía paso a paso para una integración perfecta.  
-| [Texto en el pie de página del archivo PDF](./text-in-footer/) | Aprenda a agregar texto en el pie de página de un archivo PDF con Aspose.PDF para .NET. |  
+| [Texto en el pie de página del archivo PDF](./text-in-footer/) | Aprenda a agregar texto en el pie de página de un PDF con Aspose.PDF para .NET. |  
 | [Texto en el encabezado del archivo PDF](./text-in-header/) Aprenda a agregar encabezados de texto a archivos PDF con Aspose.PDF para .NET con este tutorial paso a paso. Mejore sus documentos de forma eficiente y eficaz.  
+| [Crear marca de agua PDF – Añadir sello y convertir DOCX a PDF](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) Aprenda a crear una marca de agua en PDF, agregar un sello y convertir DOCX a PDF con Aspose.PDF para .NET.  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

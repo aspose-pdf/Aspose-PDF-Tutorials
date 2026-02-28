@@ -74,6 +74,9 @@ Lär dig hur du skapar tillgängliga, välstrukturerade taggade PDF-filer med As
 ### [Bemästra PDF-häftesskapande med Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 En kodhandledning för Aspose.PDF Net
 
+### [Skapa PDF-dokument i C# – Guide för att lägga till Bates-nummerering](./create-pdf-document-c-add-bates-numbering-guide/)
+Lär dig hur du lägger till Bates-nummer i PDF-dokument med Aspose.PDF för .NET i C#.
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

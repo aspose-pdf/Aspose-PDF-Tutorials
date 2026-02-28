@@ -23,18 +23,19 @@ Dönüştürme ayarlarını nasıl belirleyeceğinizi, metin ve görüntüleri n
 | --- | --- | 
 | [PDFA'ya Ek Ekle](./add-attachment-to-pdfa/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak bir PDF/A belgesine eklerin nasıl ekleneceğini öğrenin.  
 | [CGM'den PDF Dosyalarına](./cgm-to-pdf/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak CGM dosyalarını PDF'ye nasıl dönüştüreceğinizi öğrenin. Hem geliştiriciler hem de tasarımcılar için mükemmel. |  
-| [EPUB'dan PDF'e](./epub-to-pdf/) Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak EPUB'ı PDF'ye nasıl dönüştüreceğinizi öğrenin. Kolay, etkili ve tüm kullanıcılar için mükemmel. |  
+| [EPUB'dan PDF'e](./epub-to-pdf/) Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak EPUB'ı PDF'ye nasıl dönüştüreceğinizi öğrenin. Kolay, etkili ve tüm kullanıcılar için mükemmel. |
 | [SVG Boyutlarını Alın](./get-svg-dimensions/) | Bu adım adım kılavuzla SVG dosyalarını PDF'ye dönüştürmek için Aspose.PDF for .NET'i nasıl kullanacağınızı öğrenin. PDF'leri düzenlemek isteyen geliştiriciler için mükemmel. |  
 | [HTML'den PDF'e](./html-to-pdf/) | Bu kapsamlı adım adım kılavuzla Aspose.PDF for .NET'i kullanarak HTML'yi PDF'ye nasıl dönüştüreceğinizi öğrenin.  
 | [Markdown'dan PDF'e](./markdown-to-pdf/) | Bu adım adım eğitimde Aspose.PDF for .NET kullanarak Markdown'ı PDF'ye nasıl dönüştüreceğinizi öğrenin. Belge dönüşümünü kolaylaştırmak isteyen geliştiriciler için mükemmeldir. |  
 | [MHT PDF'ye](./mht-to-pdf/) | Bu adım adım eğitimde Aspose.PDF for .NET kullanarak MHT dosyalarını PDF'ye nasıl dönüştüreceğinizi öğrenin. Kolay ve etkili belge dönüştürme. |  
-| [Görüntü Boyutlarına Göre Sayfa Yönlendirmesi](./page-orientation-according-image-dimensions/) Bu adım adım kılavuzda, Aspose.PDF for .NET ile PDF'lerin nasıl oluşturulacağını ve sayfa yönünün görüntü boyutlarına göre nasıl ayarlanacağını öğrenin.  
+| [Görüntü Boyutlarına Göre Sayfa Yönlendirmesi](./page-orientation-according-image-dimensions/) Bu adım adım kılavuzda, Aspose.PDF for .NET ile PDF'lerin nasıl oluşturulacağını ve sayfa yönünün görüntü boyutlarına göre nasıl ayarlanacağını öğrenin. |
 | [PCL'den PDF'e](./pcl-to-pdf/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PCL dosyalarını PDF'ye nasıl dönüştüreceğinizi öğrenin. Hem geliştiriciler hem de işletmeler için mükemmel. |  
 | [PDFA'dan PDF'e](./pdfa-to-pdf/) | Bu kapsamlı, adım adım kılavuzda Aspose.PDF for .NET kullanarak PDF/A'yı PDF'ye nasıl dönüştüreceğinizi öğrenin. |  
 | [PDF'den DOC'a](./pdf-to-doc/) | Bu kapsamlı kılavuzda Aspose.PDF for .NET kullanarak PDF'yi DOC'ye nasıl dönüştüreceğinizi öğrenin. Adım adım talimatlar ve ipuçları dahildir. |  
 | [PDF'den EPUB'a](./pdf-to-epub/) | Bu adım adım eğitimde Aspose.PDF for .NET kullanarak PDF'yi EPUB'a nasıl dönüştüreceğinizi öğrenin. Geliştiriciler ve içerik oluşturucular için mükemmel. |  
 | [PDF'den HTML'ye](./pdf-to-html/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF'yi HTML'ye nasıl dönüştüreceğinizi öğrenin. Geliştiriciler ve içerik oluşturucular için mükemmel. |  
-| [PDF'den PDFA'ya](./pdf-to-pdfa/) Bu adım adım eğitimle Aspose.PDF for .NET kullanarak PDF dosyalarını PDF/A formatına nasıl dönüştüreceğinizi öğrenin. |  
+| [PDF'den PDFA'ya](./pdf-to-pdfa/) Bu adım adım eğitimle Aspose.PDF for .NET kullanarak PDF dosyalarını PDF/A formatına nasıl dönüştüreceğinizi öğrenin. |
+| [PDF'den PDF/X‑4'e](./how-to-convert-pdf-to-pdf-x-4-in-c-step-by-step-guide/) | Bu adım adım kılavuzda Aspose.PDF for .NET kullanarak PDF dosyalarını PDF/X‑4 formatına nasıl dönüştüreceğinizi öğrenin. |
 | [PDF'den PDFA3b'ye](./pdf-to-pdfa3b/) | Bu adım adım kılavuzda Aspose.PDF for .NET ile PDF dosyalarını zahmetsizce PDF/A-3B formatına dönüştürmeyi öğrenin.  
 | [PDF'den PNG'ye Yazı Tipi İpucu](./pdf-to-png-font-hinting/) | Aspose.PDF for .NET'i kullanarak PDF'yi font ipuçlarıyla PNG'ye dönüştürmeyi kolay adım adım bir kılavuzda öğrenin. |  
 | [PDF'den PPT'ye](./pdf-to-ppt/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF'yi PPT'ye nasıl dönüştüreceğinizi öğrenin. Kolay, etkili ve sunumlar için mükemmel. |  
@@ -53,6 +54,8 @@ Dönüştürme ayarlarını nasıl belirleyeceğinizi, metin ve görüntüleri n
 | [Metinden PDF'e](./text-to-pdf/) Bu adım adım kılavuzda Aspose.PDF for .NET kullanarak metin dosyalarını PDF'ye nasıl dönüştüreceğinizi öğrenin. Uygulamalarını geliştirmek isteyen geliştiriciler için mükemmeldir. |  
 | [TIFF'ten PDF'e Performans İyileştirme](./tiff-to-pdf-performance-improvement/) | TIFF görüntülerini Aspose.PDF for .NET kullanarak PDF'ye verimli bir şekilde dönüştürün. Büyük görüntü dosyalarını sorunsuz bir şekilde işlemek için performans optimizasyon ipuçlarıyla adım adım öğrenin. |  
 | [Web Sayfasını PDF'ye Dönüştür](./web-page-to-pdf/) | Bu detaylı, adım adım eğitimde Aspose.PDF for .NET kullanarak web sayfalarını PDF'ye nasıl dönüştüreceğinizi öğrenin.  
+| [Word'ü PDF'ye Dönüştürürken ICC Profilini Ayarlama – Tam C# Rehberi](./set-icc-profile-when-converting-word-to-pdf-complete-c-guide/) | Aspose.PDF for .NET kullanarak Word dosyalarını PDF'ye dönüştürürken ICC profilini nasıl ayarlayacağınızı adım adım öğrenin. |
+| [Belgeyi HTML Olarak Kaydet – Word'ü HTML'ye Dönüştürmek İçin Tam C# Rehberi](./save-document-as-html-complete-c-guide-to-export-word-to-htm/) | Aspose.PDF for .NET kullanarak Word belgelerini HTML'ye nasıl kaydedeceğinizi adım adım öğrenin. |
 | [XML'den PDF'e](./xml-to-pdf/) | Bu kapsamlı adım adım eğitimde, kod örnekleri ve detaylı açıklamalarla birlikte Aspose.PDF for .NET kullanarak XML'i PDF'ye nasıl dönüştüreceğinizi öğrenin.  
 | [XML'den PDFSet Görüntü Yoluna](./xml-to-pdfset-image-path/) | Aspose.PDF for .NET kullanarak XML'i PDF'ye zahmetsizce nasıl dönüştüreceğinizi öğrenin. Bu ayrıntılı kılavuz, kurulumdan tamamlanmaya kadar süreci adım adım anlatır. |  
 | [XPS'den PDF'e](./xps-to-pdf/) Bu adım adım eğitimle Aspose.PDF for .NET kullanarak XPS dosyalarını PDF'ye nasıl dönüştüreceğinizi öğrenin. Geliştiriciler ve belge meraklıları için mükemmel. |  

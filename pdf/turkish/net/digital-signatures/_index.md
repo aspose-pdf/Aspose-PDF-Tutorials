@@ -26,6 +26,9 @@ Aspose.PDF for .NET kullanarak özel görünümle bir PDF'yi dijital olarak nas�
 ### [Aspose.PDF ile PDF'lerden Dijital İmza Bilgilerini Çıkarın](./extract-digital-signature-info-from-pdfs-aspose-pdf/)
 Aspose.PDF Net için bir kod öğreticisi
 
+### [PDF'den İmzalayanı Çıkarma – Tam C# Kılavuzu](./how-to-extract-signer-from-pdf-complete-c-guide/)
+C# kullanarak PDF dosyasından imzalayan bilgilerini nasıl çıkaracağınızı adım adım öğrenin.
+
 ### [Aspose.PDF for .NET ile PDF İmza Dili Nasıl Değiştirilir](./change-pdf-signature-language-aspose-net/)
 Aspose.PDF for .NET kullanarak PDF'lerdeki dijital imza metnini nasıl özelleştireceğinizi öğrenin. Çok dilli belge hazırlama ve yerelleştirme için mükemmeldir.
 
@@ -55,6 +58,9 @@ C# kullanarak PDF dosyalarındaki dijital imzaları nasıl doğrulayacağınız�
 
 ### [PDF'yi Doğrulama – Aspose ile PDF İmzasını Doğrulama](./how-to-verify-pdf-validate-pdf-signature-with-aspose/)
 Aspose.PDF for .NET kullanarak PDF dosyalarında dijital imzaları nasıl doğrulayacağınızı adım adım öğrenin.
+
+### [C# ile PDF İmzasını Kontrol Et – Dijital İmza PDF'sini Doğrula](./check-pdf-signature-in-c-validate-digital-signature-pdf/)
+C# kullanarak PDF dosyalarındaki dijital imzaları nasıl doğrulayacağınızı adım adım öğrenin.
 
 ## Ek Kaynaklar
 

@@ -74,6 +74,9 @@ Aspose.PDF Net 代码教程
 ### [掌握使用 Aspose.PDF .NET 创建 PDF 小册子](./aspose-pdf-net-create-booklet-page-arrangement/)
 Aspose.PDF Net 代码教程
 
+### [使用 C# 创建 PDF 文档 – 添加 Bates 编号指南](./create-pdf-document-c-add-bates-numbering-guide/)
+学习如何在 C# 中使用 Aspose.PDF 为 PDF 文档添加 Bates 编号，实现批量文档标识。
+
 ## 其他资源
 
 - [Aspose.PDF 用于网络文档](https://docs.aspose.com/pdf/net/)

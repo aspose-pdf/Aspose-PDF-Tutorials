@@ -33,7 +33,10 @@ Leer hoe u de tekst van digitale handtekeningen in PDF's kunt aanpassen met Aspo
 Leer hoe u veilig PDF-handtekeningen kunt maken, ondertekenen en verifiëren met Aspose.PDF voor .NET. Verbeter uw documentworkflows met deze uitgebreide handleiding.
 
 ### [PDF-handtekeninginformatie extraheren met Aspose.PDF .NET: een stapsgewijze handleiding](./extract-pdf-signature-info-aspose-pdf-net/)
-Leer hoe u digitale handtekeninginformatie uit PDF's kunt halen met Aspose.PDF voor .NET. Deze stapsgewijze handleiding behandelt de installatie, implementatie en praktische toepassingen.
+Leer hoe u digitale signatuurinformatie uit PDF's kunt halen met Aspose.PDF voor .NET. Deze stapsgewijze handleiding behandelt de installatie, implementatie en praktische toepassingen.
+
+### [Hoe u de ondertekenaar uit een PDF extraheert – Complete C#‑handleiding](./how-to-extract-signer-from-pdf-complete-c-guide/)
+Leer hoe u de ondertekenaar uit een PDF haalt met C# en Aspose.PDF voor .NET in een stapsgewijze tutorial.
 
 ### [Hoe u digitale handtekeningen implementeert in .NET met Aspose.PDF: Een uitgebreide handleiding](./implement-pdf-signatures-dotnet-aspose-pdf-guide/)
 Leer hoe u veilige digitale handtekeningen op PDF's implementeert met Aspose.PDF voor .NET, inclusief het onderdrukken van optionele velden.
@@ -46,6 +49,9 @@ Leer hoe u digitale handtekeningen in PDF-bestanden kunt verifiëren met Aspose.
 
 ### [PDF-handtekening verifiëren in C# – een stapsgewijze handleiding](./verify-pdf-signature-in-c-step-by-step-guide/)
 Leer hoe u PDF-handtekeningen kunt verifiëren met C# en Aspose.PDF voor .NET in een duidelijke stap‑voor‑stap tutorial.
+
+### [PDF-handtekening controleren in C# – Digitale handtekening valideren](./check-pdf-signature-in-c-validate-digital-signature-pdf/)
+Leer hoe u PDF-handtekeningen valideert met C# en Aspose.PDF voor .NET in een stapsgewijze tutorial.
 
 ### [Beheers PDF-ondertekening en -verificatie met Aspose.PDF .NET](./mastering-aspose-pdf-net-sign-verify-smart-card-certificates/)
 Een codetutorial voor Aspose.PDF Net

@@ -29,10 +29,12 @@ The tutorial gives you a detailed overview of methods and techniques to ensure t
 | [Encrypt PDF File](./encrypt/) | Learn how to encrypt your PDF files effortlessly using Aspose.PDF for .NET. Secure sensitive information with our easy step-by-step guide. |  
 | [Extracting Image](./extracting-image/) | Easily learn how to extract images from PDFs using Aspose.PDF for .NET. Follow our step-by-step guide for seamless image extraction. |  
 | [Extract Signature Info](./extract-signature-info/) | Learn how to extract digital signatures and certificate information from PDF documents using Aspose.PDF for .NET. A complete step-by-step guide for C# developers. |  
+| [Verify PDF Signature with Aspose.Pdf – Step‑by‑Step Guide](./verify-pdf-signature-with-aspose-pdf-step-by-step-guide/) | Learn how to verify PDF signatures using Aspose.PDF for .NET in a step-by-step guide. |  
 | [Is Password Protected](./is-password-protected/) | Learn how to check if a PDF is password protected using Aspose.PDF for .NET in this comprehensive step-by-step guide. |  
 | [Set Privileges In PDF File](./set-privileges/) | Learn how to set PDF privileges using Aspose.PDF for .NET with this step-by-step guide. Secure your documents effectively. |  
 | [Sign With Smart Card Using Pdf File Signature](./sign-with-smart-card-using-pdf-file-signature/) | Learn how to sign PDF files using a smart card with Aspose.PDF for .NET. Follow this step-by-step guide for secure digital signatures. |  
 | [Sign With Smart Card Using Signature Field](./sign-with-smart-card-using-signature-field/) | Learn how to securely sign PDFs using a smart card with Aspose.PDF for .NET. Follow our step-by-step guide for easy implementation. |  
+| [How to Verify PDF – Complete C# Guide for Digital Signatures](./how-to-verify-pdf-complete-c-guide-for-digital-signatures/) | Learn how to verify PDF digital signatures using Aspose.PDF for .NET with a complete C# step‑by‑step guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -74,6 +74,9 @@ Leer hoe u toegankelijke, goed gestructureerde, getagde PDF's maakt met Aspose.P
 ### [PDF-boekjes maken onder de knie krijgen met Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Een codetutorial voor Aspose.PDF Net
 
+### [PDF-document maken in C# – Gids voor het toevoegen van Bates-nummers](./create-pdf-document-c-add-bates-numbering-guide/)
+Leer hoe u met Aspose.PDF voor .NET en C# Bates-nummers toevoegt aan PDF-documenten.
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)
