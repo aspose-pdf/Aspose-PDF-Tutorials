@@ -1,12 +1,12 @@
 ---
-date: '2025-12-22'
-description: Dowiedz się, jak importować zakładki do plików PDF przy użyciu Aspose.PDF
-  dla Javy, obejmując import zakładek z XML oraz sposób dodawania zakładek programowo.
+date: '2026-03-01'
+description: Dowiedz się, jak dodawać zakładki do plików PDF przy użyciu Aspose.PDF
+  for Java, w tym jak programowo importować zakładki PDF z XML lub strumienia InputStream.
 keywords:
 - import bookmarks into PDFs
 - Aspose.PDF for Java
 - XML bookmarks
-title: Jak importować zakładki do plików PDF przy użyciu Aspose.PDF dla Javy
+title: Jak dodać zakładki do plików PDF przy użyciu Aspose.PDF dla Javy
 url: /pl/java/bookmarks-navigation/import-xml-bookmarks-aspose-pdf-java/
 weight: 1
 ---
@@ -16,33 +16,36 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Jak importować zakładki do plików PDF przy użyciu Aspose.PDF dla Javy
+# Jak dodać zakładki do plików PDF przy użyciu Aspose.PDF dla Javy
 
 ## Wprowadzenie
-Jeśli szukasz jasnego, krok po kroku sposobu **jak importować zakładki** do PDF, jesteś we właściwym miejscu. W tym samouczku pokażemy, jak wprowadzić struktury zakładek oparte na XML do istniejących plików PDF przy użyciu Aspose.PDF dla Javy, czyniąc duże dokumenty natychmiast nawigowalne i przyjazne dla użytkownika.
+Jeśli szukasz przejrzystego, krok po kroku przewodnika, jak **dodać zakładki** do pliku PDF, jesteś we właściwym miejscu. W tym samouczku pokażemy, jak wprowadzić struktury zakładek oparte na XML do istniejących plików PDF przy użyciu Aspose.PDF dla Javy, czyniąc duże dokumenty natychmiastowo nawigowalne i przyjazne dla użytkownika.
 
 **Czego się nauczysz**
-- Jak importować zakładki z XML do PDF
-- Jak programowo dodawać zakładki przy użyciu InputStreams
+- Jak importować zakładki PDF z XML do pliku PDF
+- Jak programowo dodawać zakładki przy użyciu `InputStream`
 - Kluczowe funkcje klasy `PdfBookmarkEditor`
-- Wskazówki dotyczące wydajności przy przetwarzaniu dużych plików
+- Wskazówki dotyczące wydajności przy przetwarzaniu dużej skali
 
 ## Szybkie odpowiedzi
-- **Jakiej biblioteki potrzebuję?** Aspose.PDF dla Javy (v25.3 lub nowsza).  
+- **Jakiej biblioteki potrzebujesz?** Aspose.PDF for Java (v25.3 lub nowsza).  
 - **Czy mogę importować zakładki z XML?** Tak – użyj `importBookmarksWithXML`.  
-- **Czy potrzebna jest licencja do rozwoju?** Darmowa wersja próbna wystarczy do testów; licencja komercyjna jest wymagana w produkcji.  
-- **Czy obsługiwany jest InputStream?** Oczywiście – możesz przekazać XML za pomocą `InputStream` w elastycznych scenariuszach.  
-- **Czy to działa z dużymi plikami PDF?** Tak, przy odpowiednim zarządzaniu strumieniami i przetwarzaniu wsadowym.
+- **Czy potrzebna jest licencja do rozwoju?** Bezpłatna wersja próbna działa do testów; zakupiona licencja jest wymagana w produkcji.  
+- **Czy InputStream jest obsługiwany?** Absolutnie – możesz dostarczyć XML przez `InputStream` w elastycznych scenariuszach.  
+- **Czy to zadziała z dużymi plikami PDF?** Tak, przy odpowiednim zarządzaniu strumieniami i przetwarzaniu wsadowym.
 
-## Co oznacza „jak importować zakładki”?
-Importowanie zakładek oznacza wzięcie wcześniej zdefiniowanej struktury nawigacji (zazwyczaj przechowywanej w XML) i osadzenie jej w pliku PDF, aby czytelnicy mogli bezpośrednio przechodzić do sekcji, rozdziałów lub dowolnych logicznych punktów dokumentu.
+## Jak dodać zakładki do plików PDF
+Dodawanie zakładek to zasadniczo osadzanie mapy nawigacyjnej wewnątrz PDF, aby czytelnicy mogli przeskakiwać bezpośrednio do sekcji, rozdziałów lub dowolnego logicznego punktu. Aspose.PDF abstrahuje niskopoziomową strukturę PDF, pozwalając skupić się na logice biznesowej, a nie na wewnętrznych detalach PDF.
 
-## Dlaczego używać Aspose.PDF dla Javy do tego zadania?
-Aspose.PDF oferuje wysokopoziomowe API, które ukrywa szczegóły wewnętrzne PDF, pozwalając skupić się na logice biznesowej. Obsługuje zarówno importy oparte na plikach, jak i na strumieniach, działa na różnych platformach i nie wymaga dodatkowych zależności natywnych.
+## Dlaczego warto dodawać zakładki do plików PDF?
+- **Poprawione doświadczenie użytkownika:** Czytelnicy mogą natychmiast znaleźć sekcje bez przewijania.
+- **Przyjazne dla wyszukiwarek:** Zakładki działają jako logiczne nagłówki, które mogą być indeksowane.
+- **Gotowe do automatyzacji:** Idealne do wsadowego przetwarzania tysięcy raportów, e‑booków lub dokumentów prawnych.
+- **Kompatybilność wieloplatformowa:** Ten sam kod działa na Windows, Linux i macOS.
 
 ## Wymagania wstępne
 ### Wymagane biblioteki i zależności
-- Aspose.PDF dla Javy **v25.3** lub nowsza.
+- Aspose.PDF for Java **v25.3** lub nowsza.
 
 ### Konfiguracja środowiska
 - Zainstalowany Java Development Kit (JDK).
@@ -50,11 +53,11 @@ Aspose.PDF oferuje wysokopoziomowe API, które ukrywa szczegóły wewnętrzne PD
 - Maven lub Gradle do zarządzania zależnościami.
 
 ### Wymagania wiedzy
-- Podstawowa znajomość programowania w Javie.
+- Podstawowa programowanie w Javie.
 - Znajomość struktury plików XML.
 
 ## Konfiguracja Aspose.PDF dla Javy
-Zintegruj bibliotekę przy użyciu wybranego narzędzia budowania.
+Zintegruj bibliotekę używając preferowanego narzędzia budującego.
 
 ### Użycie Maven
 ```xml
@@ -71,9 +74,9 @@ implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
 ### Kroki uzyskania licencji
-- **Darmowa wersja próbna:** Zarejestruj się, aby otrzymać licencję próbną i przetestować wszystkie funkcje.  
-- **Licencja tymczasowa:** Poproś o przedłużoną wersję próbną, jeśli potrzebujesz dłuższego okresu oceny.  
-- **Pełny zakup:** Nabyj licencję komercyjną, aby uzyskać nieograniczone użycie w produkcji.
+- **Bezpłatna wersja próbna:** Zarejestruj się po licencję próbną, aby wypróbować wszystkie funkcje.  
+- **Licencja tymczasowa:** Poproś o przedłużoną wersję próbną, jeśli potrzebujesz dłuższej oceny.  
+- **Pełny zakup:** Nabyj licencję komercyjną do nieograniczonego użycia produkcyjnego.
 
 #### Podstawowa inicjalizacja i konfiguracja
 ```java
@@ -90,14 +93,11 @@ public class PdfSetup {
 }
 ```
 
-## Jak importować zakładki do plików PDF
-Poniżej przeprowadzimy dwa typowe scenariusze: import bezpośrednio z pliku XML oraz import z `InputStream`. Oba podejścia odpowiadają na pytanie **jak efektywnie dodać zakładki**.
+## Importowanie zakładek PDF z XML (Funkcja 1)
+**Przegląd:** Ta metoda odczytuje plik XML zawierający hierarchiczną listę zakładek i wstawia ją do istniejącego pliku PDF.
 
-### Import zakładek z pliku XML (Funkcja 1)
-**Przegląd:** Ta metoda odczytuje plik XML zawierający hierarchiczną listę zakładek i wstawia ją do istniejącego PDF.
-
-#### Implementacja krok po kroku
-1. **Załaduj istniejący dokument PDF**  
+### Implementacja krok po kroku
+1. **Load the Existing PDF Document**  
    ```java
    import com.aspose.pdf.facades.PdfBookmarkEditor;
 
@@ -109,36 +109,36 @@ Poniżej przeprowadzimy dwa typowe scenariusze: import bezpośrednio z pliku XML
    ```
    *Wyjaśnienie:* `PdfBookmarkEditor` jest powiązany z docelowym PDF.
 
-2. **Importuj zakładki z XML**  
+2. **Import Bookmarks from XML**  
    ```java
    // Import bookmarks from an XML file.
    bookmarkEditor.importBookmarksWithXML(dataDir + "/bookmarks.xml");
    ```
    *Cel:* Struktura XML jest parsowana i dodawana jako zakładki PDF.
 
-3. **Zapisz zaktualizowany PDF**  
+3. **Save the Updated PDF**  
    ```java
    // Save changes to a new PDF file.
    bookmarkEditor.save(outputDir + "/output.pdf");
    ```
-   *Wynik:* Nowy PDF z zaimportowanym drzewem nawigacji.
+   *Wynik:* Nowy PDF z zaimportowanym drzewem nawigacyjnym.
 
 **Wskazówki rozwiązywania problemów**
-- Sprawdź, czy XML spełnia schemat Aspose (element główny `<Bookmarks>`).  
+- Zweryfikuj, że XML spełnia schemat Aspose (element główny `<Bookmarks>`).  
 - Sprawdź uprawnienia do pliku, jeśli napotkasz `IOException`.  
 
-### Import zakładek z InputStream (Funkcja 2)
-**Przegląd:** To podejście jest idealne, gdy dane XML pochodzą z bazy danych, usługi sieciowej lub innego źródła w pamięci.
+## Importowanie zakładek PDF z InputStream (Funkcja 2)
+**Przegląd:** To podejście jest idealne, gdy dane XML pochodzą z bazy danych, usługi sieciowej lub dowolnego źródła w pamięci.
 
-#### Implementacja krok po kroku
-1. **Załaduj istniejący dokument PDF**  
+### Implementacja krok po kroku
+1. **Load the Existing PDF Document**  
    ```java
    PdfBookmarkEditor bookmarkeditor = new PdfBookmarkEditor();
    bookmarkeditor.bindPdf(dataDir + "/Input.pdf");
    ```
    *Wyjaśnienie:* Ten sam krok wiązania co wcześniej.
 
-2. **Utwórz InputStream dla danych XML**  
+2. **Create an InputStream for XML Data**  
    ```java
    import java.io.FileInputStream;
    import java.io.InputStream;
@@ -147,56 +147,56 @@ Poniżej przeprowadzimy dwa typowe scenariusze: import bezpośrednio z pliku XML
    ```
    *Cel:* Odczytuje plik XML do strumienia.
 
-3. **Importuj zakładki przy użyciu strumienia**  
+3. **Import Bookmarks Using the Stream**  
    ```java
    // Use the input stream to import bookmarks.
    bookmarkeditor.importBookmarksWithXML(is);
    ```
    *Cel metody:* Akceptuje `InputStream` dla elastycznych źródeł danych.
 
-4. **Zapisz zaktualizowany dokument PDF**  
+4. **Save the Updated PDF Document**  
    ```java
    bookmarkeditor.save(outputDir + "/output.pdf");
    ```
-   *Wyjaśnienie:* Zapisuje wprowadzone zmiany.
+   *Wyjaśnienie:* Zapisuje zmiany.
 
 **Wskazówki rozwiązywania problemów**
 - Zawsze zamykaj `InputStream` po imporcie (`is.close();`), aby uniknąć wycieków zasobów.  
-- Sprawdź składnię XML przed przekazaniem go do edytora.
+- Zweryfikuj składnię XML przed przekazaniem jej do edytora.
 
 ## Praktyczne zastosowania
-1. **Zautomatyzowane zarządzanie dokumentami** – Przetwarzaj wsadowo tysiące PDF, dodając spójną tabelę treści.  
-2. **Publikowanie cyfrowe** – Generuj e‑książki z dynamicznymi zakładkami pobieranymi z CMS.  
+1. **Zautomatyzowane zarządzanie dokumentami** – Wsadowe przetwarzanie tysięcy PDF w celu dodania spójnego spisu treści.  
+2. **Publikacja cyfrowa** – Generowanie e‑booków z dynamicznymi zakładkami pobieranymi z CMS.  
 3. **Dokumentacja prawna** – Szybka nawigacja po umowach i aktach spraw.  
-4. **Badania naukowe** – Dodawaj zakładki na poziomie rozdziałów do obszernych rozpraw.  
-5. **Raporty korporacyjne** – Ulepsz roczne sprawozdania o klikalne sekcje.
+4. **Badania akademickie** – Dodawanie zakładek na poziomie rozdziałów do dużych rozpraw.  
+5. **Raporty korporacyjne** – Ulepszenie raportów rocznych o sekcje klikalne.
 
 ## Rozważania dotyczące wydajności
-- **Użycie strumieni:** Preferuj `InputStream` dla dużych plików XML, aby ograniczyć zużycie pamięci.  
-- **Równoległość:** Skorzystaj z `ExecutorService` w Javie, aby przetwarzać wiele PDF jednocześnie.  
+- **Użycie strumieni:** Preferuj `InputStream` dla dużych plików XML, aby utrzymać niskie zużycie pamięci.  
+- **Współbieżność:** Użyj `ExecutorService` Javy do równoległego przetwarzania wielu PDF.  
 - **Przetwarzanie wsadowe:** Grupuj pliki w partie, aby zmniejszyć narzut I/O.
 
 ## Najczęściej zadawane pytania
 
-**P: Czy mogę importować zakładki z formatów innych niż XML?**  
-O: Tak. Aspose.PDF obsługuje także JSON, FDF i XFDF do importu zakładek.
+**P:** Czy mogę importować zakładki z formatów innych niż XML?  
+**O:** Tak. Aspose.PDF obsługuje także JSON, FDF i XFDF do importu zakładek.
 
-**P: Czy potrzebna jest licencja do używania `PdfBookmarkEditor` w rozwoju?**  
-O: Licencja próbna wystarczy do oceny; pełna licencja jest wymagana w środowiskach produkcyjnych.
+**P:** Czy potrzebna jest licencja do używania `PdfBookmarkEditor` w rozwoju?  
+**O:** Licencja próbna działa w ocenie; pełna licencja jest wymagana w środowiskach produkcyjnych.
 
-**P: Jak obsłużyć pliki PDF zabezpieczone hasłem?**  
-O: Otwórz PDF z hasłem używając `PdfBookmarkEditor.bindPdf(String path, String password)` przed importem zakładek.
+**P:** Jak obsłużyć PDF‑y chronione hasłem?  
+**O:** Otwórz PDF z hasłem używając `PdfBookmarkEditor.bindPdf(String path, String password)` przed importem zakładek.
 
-**P: Co się stanie, jeśli struktura XML będzie nieprawidłowa?**  
-O: Aspose.PDF zgłosi `PdfException` z opisem problemu – najpierw zwaliduj XML względem schematu.
+**P:** Co się stanie, jeśli struktura XML jest nieprawidłowa?  
+**O:** Aspose.PDF rzuca `PdfException` opisujący problem parsowania — najpierw zweryfikuj XML względem schematu.
 
-**P: Czy istnieje sposób, aby zweryfikować poprawność dodanych zakładek?**  
-O: Po zapisaniu otwórz PDF w dowolnym przeglądarce i sprawdź panel zakładek; programowo możesz wyliczyć zakładki za pomocą `PdfBookmarkEditor.getBookmarks()`.
+**P:** Czy istnieje sposób, aby zweryfikować, że zakładki zostały dodane poprawnie?  
+**O:** Po zapisaniu otwórz PDF w dowolnym przeglądarce i sprawdź panel zakładek; programowo możesz wyliczyć zakładki za pomocą `PdfBookmarkEditor.getBookmarks()`.
 
 ---
 
-**Ostatnia aktualizacja:** 2025-12-22  
-**Testowano z:** Aspose.PDF dla Javy v25.3  
+**Ostatnia aktualizacja:** 2026-03-01  
+**Testowano z:** Aspose.PDF for Java v25.3  
 **Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
