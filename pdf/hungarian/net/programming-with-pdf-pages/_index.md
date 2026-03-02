@@ -37,6 +37,7 @@ Az oktatóanyagok lépésről lépésre bemutatják az utasításokat, részlete
 | [Oldalakra osztás](./split-to-pages/) Könnyedén bontsd fel a PDF fájlokat különálló oldalakra az Aspose.PDF for .NET segítségével ezzel az átfogó oktatóanyaggal. Lépésről lépésre útmutató mellékelve. |  
 | [PDF oldalméretek frissítése](./update-dimensions/) | Fedezze fel, hogyan frissítheti könnyedén a PDF oldalak méreteit az Aspose.PDF for .NET segítségével ebben az átfogó, lépésről lépésre szóló útmutatóban. |  
 | [PDF fájl tartalmának nagyítása](./zoom-to-page-contents/) | Ebben az átfogó útmutatóban megtudhatja, hogyan nagyíthatja az oldalak tartalmát PDF fájlokban az Aspose.PDF for .NET segítségével. Javítsa PDF dokumentumait az Ön igényei szerint. |  
+| [Aspose PDF oktatóanyag – Üres oldal beszúrása és Bates-számozás frissítése](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Útmutató üres oldal beszúrásához és a Bates-számozás frissítéséhez PDF-ben az Aspose.PDF for .NET segítségével. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

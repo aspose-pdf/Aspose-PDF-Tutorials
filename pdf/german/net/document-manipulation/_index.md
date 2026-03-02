@@ -98,10 +98,10 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET Seitenzahlen aus dem Inhaltsverze
 ### [So fügen Sie mit Aspose.PDF für .NET verschiedene Kopfzeilen in PDF-Dateien hinzu: Eine Schritt-für-Schritt-Anleitung](./add-different-headers-aspose-pdf-net/)
 Erfahren Sie in diesem ausführlichen C#-Tutorial, wie Sie mit Aspose.PDF für .NET auf jeder Seite eines PDF-Dokuments unterschiedliche Kopfzeilen hinzufügen und anpassen.
 
-### [So fügen Sie mit Aspose.PDF für .NET Kopfzeilen zu PDFs hinzu: Eine umfassende Anleitung](./add-header-pdf-aspose-dotnet-guide/)
+### [So fügen Sie mit Aspose.PDF für .NET Kopfzeilen zu PDFs hinzufügen: Eine umfassende Anleitung](./add-header-pdf-aspose-dotnet-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET nahtlos Kopfzeilen, einschließlich Text und Bilder, zu Ihren PDF-Dokumenten hinzufügen. Perfekt für die Verbesserung des Dokumenten-Brandings.
 
-### [So fügen Sie mit Aspose.PDF für .NET Kopfzeilen zu PDFs hinzu: Eine umfassende Anleitung](./add-headers-aspose-pdf-dotnet-guide/)
+### [So fügen Sie mit Aspose.PDF für .NET Kopfzeilen zu PDFs hinzufügen: Eine umfassende Anleitung](./add-headers-aspose-pdf-dotnet-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET nahtlos Textkopfzeilen zu Ihren PDF-Dateien hinzufügen und so die Lesbarkeit und Organisation der Dokumente verbessern.
 
 ### [So fügen Sie mit Aspose.PDF für .NET ein Linienobjekt in PDF ein: Eine Schritt-für-Schritt-Anleitung](./add-line-aspose-pdf-dotnet-tutorial/)
@@ -310,6 +310,9 @@ Erfahren Sie, wie Sie mehrseitige PDFs mit Aspose.PDF für .NET aufteilen und ne
 
 ### [Ultimativer Leitfaden zur PDF-Manipulation mit Aspose.PDF .NET: Text effizient laden, speichern und ersetzen](./master-pdf-manipulation-aspose-pdf-net/)
 Erfahren Sie, wie Sie PDFs mit Aspose.PDF für .NET bearbeiten. Diese Anleitung behandelt das Laden, Speichern und Ersetzen von Text in PDFs – ideal für Entwickler, die Wert auf Effizienz legen.
+
+### [Wie man PDFs in C# redigiert – Text in PDFs ausblenden & Inhalte entfernen](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET vertrauliche Informationen in PDFs ausblenden und Inhalte sicher entfernen.
 
 ## Weitere Ressourcen
 

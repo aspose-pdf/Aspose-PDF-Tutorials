@@ -56,6 +56,7 @@ You'll learn how to specify conversion settings, extract text and images, retain
 | [XML To PDF](./xml-to-pdf/) | Learn how to convert XML to PDF using Aspose.PDF for .NET in this comprehensive step-by-step tutorial, complete with code examples and detailed explanations. |  
 | [XML To PDFSet Image Path](./xml-to-pdfset-image-path/) | Learn how to effortlessly convert XML to PDF using Aspose.PDF for .NET. This detailed guide walks you through the process step by step, from setup to completion. |  
 | [XPS To PDF](./xps-to-pdf/) | Learn how to convert XPS files to PDF using Aspose.PDF for .NET with this step-by-step tutorial. Perfect for developers and document enthusiasts. |  
+| [Aspose PDF conversion: Convert PDF to PDF/X‑4 in C#](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) | Learn how to convert PDF to PDF/X‑4 using Aspose.PDF for .NET in this step-by-step guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

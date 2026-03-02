@@ -50,6 +50,12 @@ Leer de kunst van het nauwkeurig en efficiënt converteren van SVG-bestanden naa
 ### [Niet-ingebedde lettertypen in PDF's met Aspose.PDF voor .NET: verklein de bestandsgrootte en verbeter de prestaties](./optimize-pdfs-unembed-fonts-aspose-pdf-net/)
 Leer hoe u lettertypen uit uw PDF-bestanden verwijdert met Aspose.PDF voor .NET. Optimaliseer de PDF-prestaties, verklein de bestandsgrootte en verkort de laadtijden met deze stapsgewijze handleiding.
 
+### [Geoptimaliseerde PDF maken – PDF-afbeeldingen comprimeren met verliesloze JPEG](./create-optimized-pdf-compress-pdf-images-with-lossless-jpeg/)
+Leer hoe u PDF-afbeeldingen kunt comprimeren met verliesloze JPEG om de bestandsgrootte te verkleinen zonder kwaliteitsverlies.
+
+### [Hoe PDF te optimaliseren in C#: lege pagina toevoegen, HTML exporteren, ondertekenen](./how-to-optimize-pdf-in-c-add-blank-page-export-html-sign/)
+Leer hoe u in C# een lege pagina toevoegt, PDF exporteert naar HTML en digitale handtekeningen toepast.
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

@@ -311,6 +311,9 @@ Leer hoe u PDF's met meerdere pagina's kunt splitsen en nieuwe PDF-bestanden kun
 ### [Ultieme gids voor PDF-manipulatie met Aspose.PDF .NET: tekst efficiënt laden, opslaan en vervangen](./master-pdf-manipulation-aspose-pdf-net/)
 Leer hoe je PDF-bewerking onder de knie krijgt met Aspose.PDF voor .NET. Deze handleiding behandelt het laden, opslaan en vervangen van tekst in PDF's, ideaal voor ontwikkelaars die op zoek zijn naar efficiëntie.
 
+### [Hoe PDF te redigeren in C# – Tekst verbergen en inhoud verwijderen uit PDF](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
+Leer hoe u gevoelige tekst kunt verbergen en ongewenste inhoud kunt verwijderen uit PDF's met Aspose.PDF voor .NET in C#.
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

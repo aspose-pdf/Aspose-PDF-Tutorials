@@ -74,6 +74,12 @@ Scopri come creare PDF accessibili e ben strutturati con tag utilizzando Aspose.
 ### [Padroneggiare la creazione di opuscoli PDF con Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Un tutorial sul codice per Aspose.PDF Net
 
+### [Creare documento PDF con Aspose.Pdf – Guida passo‑passo](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Scopri come creare documenti PDF da zero utilizzando Aspose.Pdf con una guida passo‑passo completa.
+
+### [Creare documento PDF – Aggiungere pagina vuota, disegnare rettangolo e salvare](./create-pdf-document-add-blank-page-draw-rectangle-save/)
+Impara a creare un PDF, aggiungere una pagina vuota, disegnare un rettangolo e salvare il documento usando Aspose.PDF per .NET.
+
 ## Risorse aggiuntive
 
 - [Aspose.PDF per la documentazione di rete](https://docs.aspose.com/pdf/net/)

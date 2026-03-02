@@ -53,6 +53,9 @@ Aspose.PDF for .NET kullanarak PDF'leri profesyonel kitapçıklara nasıl dönü
 ### [Aspose.PDF for .NET ile PDF'ler Nasıl Oluşturulur ve İşlenir: Kapsamlı Bir Kılavuz](./create-manipulate-pdf-aspose-dotnet/)
 Aspose.PDF for .NET kullanarak PDF belgelerini nasıl oluşturacağınızı, düzenleyeceğinizi ve geliştireceğinizi öğrenin. PDF'lerinize grafik ve şeffaf metin ekleme konusunda ustalaşın.
 
+### [Aspose.PDF for .NET ile PDF Belgesi Oluşturma: Adım Adım Kılavuz](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Aspose.PDF for .NET kullanarak PDF belgelerini sıfırdan oluşturmayı adım adım öğrenin.
+
 ### [Aspose ile Java PDF Oluşturma: .NET Geliştiricileri için Dinamik Görüntü Yönlendirme Kılavuzu](./java-pdf-creation-aspose-dynamic-image-orientation-guide/)
 Aspose.PDF for .NET kullanarak Java tabanlı PDF oluşturmayı otomatikleştirmeyi öğrenin ve boyutlara göre görüntü yönünü dinamik olarak ayarlayın.
 
@@ -73,6 +76,9 @@ Aspose.PDF for .NET kullanarak PDF'leri nasıl oluşturacağınızı, özelleşt
 
 ### [Aspose.PDF .NET ile PDF Kitapçık Oluşturmada Ustalaşma](./aspose-pdf-net-create-booklet-page-arrangement/)
 Aspose.PDF Net için bir kod öğreticisi
+
+### [PDF Belgesi Oluşturma – Boş Sayfa Ekle, Dikdörtgen Çiz ve Kaydet](./create-pdf-document-add-blank-page-draw-rectangle-save/)
+Aspose.PDF for .NET kullanarak boş bir sayfa ekleyip, dikdörtgen çizen ve PDF'yi kaydeden örnek kodu öğrenin.
 
 ## Ek Kaynaklar
 

@@ -37,6 +37,7 @@ Handledningarna innehåller steg-för-steg-instruktioner, detaljerade kodexempel
 | [Dela upp till sidor](./split-to-pages/) Dela enkelt PDF-filer till individuella sidor med Aspose.PDF för .NET med denna omfattande handledning. Steg-för-steg-guide ingår. |  
 | [Uppdatera PDF-siddimensioner](./update-dimensions/) | Upptäck hur du enkelt uppdaterar PDF-siddimensioner med Aspose.PDF för .NET i den här omfattande steg-för-steg-guiden. |  
 | [Zooma till sidinnehåll i PDF-fil](./zoom-to-page-contents/) | Lär dig hur du zoomar till sidinnehåll i PDF-filer med Aspose.PDF för .NET i den här omfattande guiden. Förbättra dina PDF-dokument efter dina specifika behov. |  
+| [Aspose PDF-handledning – Infoga en tom sida och uppdatera Bates-numrering](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Steg-för-steg-guide för att infoga en tom sida i en PDF och uppdatera Bates-numrering med Aspose.PDF för .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

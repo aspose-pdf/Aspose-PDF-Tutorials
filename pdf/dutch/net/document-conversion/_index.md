@@ -21,6 +21,7 @@ leert hoe u conversie-instellingen opgeeft, tekst en afbeeldingen extraheert, de
 ## Zelfstudies
 | Titel | Beschrijving |
 | --- | --- | 
+| [Aspose PDF-conversie: PDF naar PDF/X‑4 converteren in C#](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) | Leer hoe u een PDF-bestand naar PDF/X‑4 converteert met Aspose.PDF voor .NET in C# met deze stapsgewijze handleiding. |
 | [Bijlage toevoegen aan PDFA](./add-attachment-to-pdfa/) | Leer hoe u bijlagen toevoegt aan een PDF/A-document met Aspose.PDF voor .NET met deze stapsgewijze handleiding. |  
 | [CGM naar PDF-bestanden](./cgm-to-pdf/) | Leer hoe u CGM-bestanden naar PDF converteert met Aspose.PDF voor .NET met deze stapsgewijze handleiding. Perfect voor zowel ontwikkelaars als ontwerpers. |  
 | [EPUB naar PDF](./epub-to-pdf/) Leer hoe u EPUB naar PDF kunt converteren met Aspose.PDF voor .NET met deze stapsgewijze handleiding. Eenvoudig, efficiënt en perfect voor alle gebruikers. |  

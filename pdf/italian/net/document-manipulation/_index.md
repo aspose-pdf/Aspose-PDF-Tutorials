@@ -311,6 +311,9 @@ Scopri come dividere PDF multipagina e creare nuovi file PDF utilizzando Aspose.
 ### [Guida definitiva alla manipolazione di PDF con Aspose.PDF .NET: carica, salva e sostituisci il testo in modo efficiente](./master-pdf-manipulation-aspose-pdf-net/)
 Scopri come padroneggiare la manipolazione dei PDF utilizzando Aspose.PDF per .NET. Questa guida illustra come caricare, salvare e sostituire il testo nei PDF, ideale per gli sviluppatori che cercano efficienza.
 
+### [Come censurare PDF in C# – Nascondere testo PDF e rimuovere contenuto PDF](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
+Scopri come nascondere testo sensibile e rimuovere contenuti da PDF utilizzando Aspose.PDF per .NET con C#.
+
 ## Risorse aggiuntive
 
 - [Aspose.PDF per la documentazione di rete](https://docs.aspose.com/pdf/net/)

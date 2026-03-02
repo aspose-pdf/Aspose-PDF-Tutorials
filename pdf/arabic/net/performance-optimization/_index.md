@@ -50,6 +50,12 @@
 ### [إلغاء تضمين الخطوط في ملفات PDF باستخدام Aspose.PDF لـ .NET: تقليل حجم الملف وتحسين الأداء](./optimize-pdfs-unembed-fonts-aspose-pdf-net/)
 تعرّف على كيفية إزالة الخطوط من ملفات PDF باستخدام Aspose.PDF لـ .NET. حسّن أداء ملفات PDF، وقلل حجمها، وحسّن أوقات التحميل من خلال هذا الدليل المفصل.
 
+### [إنشاء PDF مُحسّن – ضغط صور PDF باستخدام JPEG غير فقدان للبيانات](./create-optimized-pdf-compress-pdf-images-with-lossless-jpeg/)
+تعرّف على كيفية ضغط صور ملفات PDF باستخدام تنسيق JPEG غير فقدان للبيانات لتحقيق حجم أصغر دون التضحية بجودة الصورة.
+
+### [كيفية تحسين PDF في C# بإضافة صفحة فارغة، تصدير HTML، وتوقيع](./how-to-optimize-pdf-in-c-add-blank-page-export-html-sign/)
+تعلم خطوات تحسين ملفات PDF باستخدام Aspose.PDF في C# لإضافة صفحات فارغة، تصدير إلى HTML، وتوقيع المستندات.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

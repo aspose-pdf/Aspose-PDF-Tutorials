@@ -37,6 +37,7 @@
 | [تقسيم إلى صفحات](./split-to-pages/) قسّم ملفات PDF بسهولة إلى صفحات منفصلة باستخدام Aspose.PDF لـ .NET مع هذا البرنامج التعليمي الشامل. يتضمن دليلًا خطوة بخطوة.  
 | [تحديث أبعاد صفحة PDF](./update-dimensions/) |اكتشف كيفية تحديث أبعاد صفحات PDF بسهولة باستخدام Aspose.PDF لـ .NET في هذا الدليل الشامل خطوة بخطوة. |  
 | [تكبير محتويات الصفحة في ملف PDF](./zoom-to-page-contents/) تعرّف على كيفية تكبير محتوى صفحات ملفات PDF باستخدام Aspose.PDF لـ .NET في هذا الدليل الشامل. حسّن مستندات PDF الخاصة بك وفقًا لاحتياجاتك الخاصة.  
+| [إدراج صفحة فارغة وتحديث ترقيم Bates](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | دليل خطوة بخطوة لإدراج صفحة فارغة في ملف PDF وتحديث ترقيم Bates باستخدام Aspose.PDF لـ .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

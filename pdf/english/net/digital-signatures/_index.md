@@ -50,6 +50,9 @@ Learn how to validate PDF signatures using Aspose.PDF for .NET with clear step�
 ### [Verify PDF Signature in C# – Step‑by‑Step Guide](./verify-pdf-signature-in-c-step-by-step-guide/)
 Step-by-step tutorial on verifying PDF signatures using C# and Aspose.PDF for .NET, covering validation and best practices.
 
+### [Validate PDF Signature in C# – Step‑by‑Step Guide](./validate-pdf-signature-in-c-step-by-step-guide/)
+Step-by-step tutorial on validating PDF signatures using C# and Aspose.PDF for .NET, covering verification methods and best practices.
+
 ### [Master PDF Signing & Verification with Aspose.PDF .NET](./mastering-aspose-pdf-net-sign-verify-smart-card-certificates/)
 A code tutorial for Aspose.PDF Net
 

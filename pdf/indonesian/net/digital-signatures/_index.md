@@ -47,6 +47,9 @@ Pelajari cara memverifikasi tanda tangan digital dalam file PDF menggunakan Aspo
 ### [Verifikasi Tanda Tangan PDF di C# – Panduan Langkah demi Langkah](./verify-pdf-signature-in-c-step-by-step-guide/)
 Panduan lengkap untuk memverifikasi tanda tangan PDF menggunakan C# dengan Aspose.PDF, mencakup contoh kode dan langkah praktis.
 
+### [Validasi Tanda Tangan PDF di C# – Panduan Langkah demi Langkah](./validate-pdf-signature-in-c-step-by-step-guide/)
+Panduan lengkap untuk memvalidasi tanda tangan PDF menggunakan C# dengan Aspose.PDF, mencakup contoh kode dan langkah praktis.
+
 ### [Kuasai Penandatanganan & Verifikasi PDF dengan Aspose.PDF .NET](./mastering-aspose-pdf-net-sign-verify-smart-card-certificates/)
 Tutorial kode untuk Aspose.PDF Net
 

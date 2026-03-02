@@ -50,6 +50,11 @@ Sajátítsa el az SVG fájlok PDF-be konvertálásának művészetét precíz é
 ### [Betűtípusok beágyazásának eltávolítása PDF-ekből az Aspose.PDF for .NET használatával: Fájlméret csökkentése és teljesítmény javítása](./optimize-pdfs-unembed-fonts-aspose-pdf-net/)
 Ismerje meg, hogyan távolíthatja el a betűtípusok beágyazását PDF-fájljaiból az Aspose.PDF for .NET segítségével. Optimalizálja a PDF-teljesítményt, csökkentse a fájlméretet és javítsa a betöltési időket ezzel a lépésről lépésre szóló útmutatóval.
 
+### [Optimalizált PDF létrehozása – PDF képek tömörítése veszteségmentes JPEG formátummal](./create-optimized-pdf-compress-pdf-images-with-lossless-jpeg/)
+Ismerje meg, hogyan tömörítheti a PDF-ben lévő képeket veszteségmentes JPEG formátummal az Aspose.PDF for .NET segítségével.
+
+### [Hogyan optimalizálja a PDF-et C#-ban: üres oldal hozzáadása, HTML exportálás, aláírás](./how-to-optimize-pdf-in-c-add-blank-page-export-html-sign/)
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)

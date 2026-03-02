@@ -74,6 +74,12 @@ Aprenda a crear archivos PDF etiquetados, accesibles y bien estructurados con As
 ### [Dominando la creación de folletos PDF con Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Un tutorial de código para Aspose.PDF Net
 
+### [Crear documento PDF con Aspose.PDF – Guía paso a paso](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Aprenda a crear documentos PDF con Aspose.PDF mediante una guía paso a paso con ejemplos de código.
+
+### [Crear documento PDF – Añadir página en blanco, dibujar rectángulo y guardar](./create-pdf-document-add-blank-page-draw-rectangle-save/)
+Aprenda a crear un documento PDF, añadir una página en blanco, dibujar un rectángulo y guardar el archivo usando Aspose.PDF para .NET.
+
 ## Recursos adicionales
 
 - [Documentación de Aspose.PDF para la red](https://docs.aspose.com/pdf/net/)

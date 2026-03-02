@@ -37,6 +37,7 @@ Samouczki obejmują instrukcje krok po kroku, szczegółowe przykłady kodu i ja
 | [Podziel na strony](./split-to-pages/) Łatwo podziel pliki PDF na pojedyncze strony za pomocą Aspose.PDF dla .NET dzięki temu kompleksowemu samouczkowi. Zawiera przewodnik krok po kroku. |  
 | [Aktualizuj wymiary strony PDF](./update-dimensions/) | Dowiedz się, jak bez wysiłku aktualizować wymiary stron PDF za pomocą Aspose.PDF dla platformy .NET w tym kompleksowym przewodniku krok po kroku. |  
 | [Powiększ zawartość strony w pliku PDF](./zoom-to-page-contents/) | Dowiedz się, jak powiększać zawartość stron w plikach PDF za pomocą Aspose.PDF dla .NET w tym kompleksowym przewodniku. Ulepsz swoje dokumenty PDF zgodnie ze swoimi konkretnymi potrzebami. |  
+| [Samouczek Aspose PDF – Wstaw pustą stronę i zaktualizuj numerację Batesa](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Krok po kroku pokażemy, jak wstawić pustą stronę i zaktualizować numerację Bates w pliku PDF przy użyciu Aspose.PDF dla .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

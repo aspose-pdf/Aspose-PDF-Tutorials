@@ -74,6 +74,9 @@ Aprenda a criar PDFs acessíveis, bem estruturados e com tags usando o Aspose.PD
 ### [Dominando a criação de livretos em PDF com Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Um tutorial de código para Aspose.PDF Net
 
+### [Crie documento PDF – adicione página em branco, desenhe retângulo e salve](./create-pdf-document-add-blank-page-draw-rectangle-save/)
+Aprenda a criar um documento PDF, inserir uma página em branco, desenhar um retângulo e salvar o arquivo usando Aspose.PDF para .NET.
+
 ## Recursos adicionais
 
 - [Aspose.PDF para documentação da Net](https://docs.aspose.com/pdf/net/)

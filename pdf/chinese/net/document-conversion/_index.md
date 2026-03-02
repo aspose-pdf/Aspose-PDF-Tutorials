@@ -36,6 +36,7 @@
 | [PDF 转 HTML](./pdf-to-html/) | 学习如何使用 Aspose.PDF for .NET 将 PDF 转换为 HTML，本指南一步步讲解。非常适合开发人员和内容创作者。|  
 | [PDF 转 PDFA](./pdf-to-pdfa/) 通过本分步教程了解如何使用 Aspose.PDF for .NET 将 PDF 文件转换为 PDF/A 格式。|  
 | [PDF 转 PDFA3b](./pdf-to-pdfa3b/) | 在本分步指南中学习如何使用 Aspose.PDF for .NET 轻松地将 PDF 文件转换为 PDF/A-3B 格式。|  
+| [Aspose PDF 转换：在 C# 中将 PDF 转换为 PDF/X‑4](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) | 通过本分步指南了解如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 文件转换为 PDF/X‑4 格式。|  
 | [PDF 转 PNG 字体提示](./pdf-to-png-font-hinting/) 通过简单的分步指南学习如何使用 Aspose.PDF for .NET 将 PDF 转换为带有字体提示的 PNG。|  
 | [PDF转PPT](./pdf-to-ppt/) | 学习如何使用 Aspose.PDF for .NET 将 PDF 转换为 PPT，本指南一步步讲解。简单高效，非常适合演示。|  
 | [PDF 转 SVG](./pdf-to-svg/) | 在本分步教程中学习如何使用 Aspose.PDF for .NET 将 PDF 文件转换为 SVG 格式。非常适合开发人员和设计师。|  

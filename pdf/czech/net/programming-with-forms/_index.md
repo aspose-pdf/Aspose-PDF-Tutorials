@@ -50,6 +50,7 @@ Tyto tutoriály také obsahují podrobné příklady kódu, jasná vysvětlení 
 | [Nastavení skriptu Java](./set-java-script/) | Odemkněte sílu Aspose.PDF pro .NET. Naučte se, jak nastavit JavaScript v polích formuláře s naším podrobným návodem. |  
 | [Nastavit popisek přepínače](./set-radio-button-caption/) Naučte se, jak nastavit popisky přepínačů v PDF pomocí Aspose.PDF pro .NET. Tato podrobná příručka vás provede načítáním, úpravou a ukládáním formulářů PDF. |  
 | [Textové pole](./text-box/) | Zjistěte, jak snadno přidat textová pole do PDF souborů pomocí Aspose.PDF pro .NET s tímto podrobným návodem. Vylepšete interakci s uživatelem. |  
+| [Jak vytvořit PDF s Aspose – Přidat pole do kolekce](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Naučte se, jak pomocí Aspose.PDF přidat pole do kolekce v PDF dokumentu. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

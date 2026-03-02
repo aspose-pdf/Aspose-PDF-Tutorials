@@ -53,6 +53,9 @@ Découvrez comment vérifier les signatures numériques des fichiers PDF avec As
 ### [Vérifier la signature PDF en C# – Guide étape par étape](./verify-pdf-signature-in-c-step-by-step-guide/)
 Apprenez à vérifier les signatures PDF en C# avec un guide détaillé étape par étape.
 
+### [Valider la signature PDF en C# – Guide étape par étape](./validate-pdf-signature-in-c-step-by-step-guide/)
+Apprenez à valider les signatures PDF en C# grâce à un guide détaillé étape par étape.
+
 ### [Comment vérifier un PDF – Valider la signature PDF avec Aspose](./how-to-verify-pdf-validate-pdf-signature-with-aspose/)
 Apprenez à vérifier la validité d'une signature PDF en utilisant Aspose, avec un guide étape par étape en C#.
 

@@ -36,7 +36,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Sisipkan Halaman Kosong Di Akhir](./insert-empty-page-at-end/) | Pelajari cara memasukkan halaman kosong ke dalam dokumen PDF dengan mudah menggunakan Aspose.PDF untuk .NET dalam panduan yang mudah dipahami bagi pemula ini. Sempurna untuk pengeditan cepat. Bahasa Indonesia:  
 | [Dibagi Menjadi Halaman](./split-to-pages/) Pisahkan PDF ke dalam halaman-halaman individual dengan mudah menggunakan Aspose.PDF for .NET dengan tutorial lengkap ini. Panduan langkah demi langkah disertakan. Bahasa Indonesia:  
 | [Perbarui Dimensi Halaman PDF](./update-dimensions/) | Temukan cara memperbarui dimensi halaman PDF dengan mudah dengan Aspose.PDF untuk .NET dalam panduan langkah demi langkah yang komprehensif ini. Bahasa Indonesia:  
-| [Perbesar Isi Halaman Dalam File PDF](./zoom-to-page-contents/) | Pelajari cara memperbesar konten halaman dalam file PDF menggunakan Aspose.PDF untuk .NET dalam panduan lengkap ini. Sempurnakan dokumen PDF Anda sesuai dengan kebutuhan spesifik Anda. |  
+| [Perbesar Isi Halaman Dalam File PDF](./zoom-to-page-contents/) | Pelajari cara memperbesar konten halaman dalam file PDF menggunakan Aspose.PDF untuk .NET dalam panduan lengkap ini. Sempurnakan dokumen PDF Anda sesuai dengan kebutuhan spesifik Anda.  
+| [Tutorial Aspose PDF – Menyisipkan Halaman Kosong dan Memperbarui Penomoran Bates](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Panduan langkah demi langkah untuk menyisipkan halaman kosong ke dalam PDF dan memperbarui penomoran Bates menggunakan Aspose.PDF untuk .NET.  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

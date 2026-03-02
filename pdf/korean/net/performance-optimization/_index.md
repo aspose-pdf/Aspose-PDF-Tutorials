@@ -50,6 +50,12 @@ Aspose.PDF for .NET을 사용하여 SVG 파일을 정확하고 효율적으로 P
 ### [Aspose.PDF for .NET을 사용하여 PDF에 포함된 글꼴 제거: 파일 크기 줄이기 및 성능 향상](./optimize-pdfs-unembed-fonts-aspose-pdf-net/)
 Aspose.PDF for .NET을 사용하여 PDF 파일에서 글꼴을 제거하는 방법을 알아보세요. 이 단계별 가이드를 통해 PDF 성능을 최적화하고, 파일 크기를 줄이고, 로드 시간을 단축하세요.
 
+### [최적화된 PDF 만들기 – 무손실 JPEG로 PDF 이미지 압축](./create-optimized-pdf-compress-pdf-images-with-lossless-jpeg/)
+Aspose.PDF for .NET을 사용하여 무손실 JPEG 압축으로 PDF 이미지 크기를 줄이고 품질을 유지하는 방법을 단계별로 안내합니다.
+
+### [C#에서 PDF 최적화하기: 빈 페이지 추가, HTML 내보내기, 서명](./how-to-optimize-pdf-in-c-add-blank-page-export-html-sign/)
+Aspose.PDF for .NET을 사용해 C#에서 PDF에 빈 페이지를 추가하고, HTML로 내보내며, 서명하는 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 
 - [Net 문서용 Aspose.PDF](https://docs.aspose.com/pdf/net/)

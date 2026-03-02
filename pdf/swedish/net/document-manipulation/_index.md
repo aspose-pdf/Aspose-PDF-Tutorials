@@ -188,6 +188,9 @@ Lär dig hur du effektivt tar bort alla bokmärken från dina PDF-dokument med A
 ### [Så här tar du bort all text från PDF-filer med Aspose.PDF .NET för dokumentmanipulation](./remove-text-aspose-pdf-net-tutorial/)
 Lär dig hur du effektivt tar bort all text från en PDF med Aspose.PDF .NET. Perfekt för att skydda känsliga data eller rensa dokument.
 
+### [Maskera PDF i C# – Dölj text och ta bort innehåll](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
+Lär dig hur du maskar känslig information i PDF-filer genom att dölja text och ta bort innehåll med Aspose.PDF för .NET i C#.
+
 ### [Så här tar du bort PDF-öppningsåtgärder med Aspose.PDF för .NET: En komplett guide](./remove-pdf-open-action-aspose-dotnet-guide/)
 Lär dig hur du eliminerar oönskade öppnande åtgärder från PDF-filer med Aspose.PDF för .NET. Den här guiden ger steg-för-steg-instruktioner och bästa praxis.
 

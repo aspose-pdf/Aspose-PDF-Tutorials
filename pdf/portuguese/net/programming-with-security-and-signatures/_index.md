@@ -33,6 +33,8 @@ Este tutorial oferece uma visão geral detalhada de métodos e técnicas para ga
 | [Definir privilégios em arquivo PDF](./set-privileges/) | Aprenda a definir privilégios de PDF usando o Aspose.PDF para .NET com este guia passo a passo. Proteja seus documentos com eficiência. |  
 | [Assinar com cartão inteligente usando assinatura de arquivo PDF](./sign-with-smart-card-using-pdf-file-signature/) | Aprenda a assinar arquivos PDF usando um cartão inteligente com o Aspose.PDF para .NET. Siga este guia passo a passo para assinaturas digitais seguras. |  
 | [Assinar com cartão inteligente usando o campo de assinatura](./sign-with-smart-card-using-signature-field/) | Aprenda a assinar PDFs com segurança usando um cartão inteligente com o Aspose.PDF para .NET. Siga nosso guia passo a passo para uma implementação fácil. |  
+| [Verificar assinatura de PDF em C# – Guia completo passo a passo](./verify-pdf-signature-in-c-complete-step-by-step-guide/) | Aprenda a verificar assinaturas digitais em PDFs usando C# e Aspose.PDF para .NET. Guia passo a passo detalhado. |  
+| [Abrir PDF assinado – Como ler suas assinaturas digitais](./open-signed-pdf-how-to-read-its-digital-signatures/) | Aprenda a abrir PDFs assinados e ler suas assinaturas digitais usando Aspose.PDF para .NET. Guia passo a passo para extrair informações de assinatura. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

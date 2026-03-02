@@ -50,6 +50,9 @@
 ### [ตรวจสอบลายเซ็น PDF ด้วย C# – คู่มือทีละขั้นตอน](./verify-pdf-signature-in-c-step-by-step-guide/)
 เรียนรู้วิธีตรวจสอบลายเซ็น PDF อย่างละเอียดด้วย C# ด้วยขั้นตอนที่ชัดเจน
 
+### [Validate PDF Signature in C# – Step‑by‑Step Guide](./validate-pdf-signature-in-c-step-by-step-guide/)
+เรียนรู้วิธีตรวจสอบลายเซ็น PDF อย่างละเอียดด้วย C# ผ่านขั้นตอนที่ชัดเจน
+
 ### [เชี่ยวชาญการลงนามและการยืนยัน PDF ด้วย Aspose.PDF .NET](./mastering-aspose-pdf-net-sign-verify-smart-card-certificates/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.PDF Net
 
