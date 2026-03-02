@@ -36,7 +36,8 @@
 | [PDF 轉 HTML](./pdf-to-html/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 HTML。非常適合開發人員和內容創作者。 |  
 | [PDF 轉 PDFA](./pdf-to-pdfa/) |透過本逐步教學了解如何使用 Aspose.PDF for .NET 將 PDF 檔案轉換為 PDF/A 格式。 |  
 | [PDF 轉 PDFA3b](./pdf-to-pdfa3b/) |透過本逐步指南學習如何使用 Aspose.PDF for .NET 輕鬆地將 PDF 文件轉換為 PDF/A-3B 格式。 |  
-| [PDF 轉 PNG 字體提示](./pdf-to-png-font-hinting/) |透過簡單的逐步指南學習如何使用 Aspose.PDF for .NET 將 PDF 轉換為帶有字體提示的 PNG。 |  
+| [PDF 轉 PNG 字體提示](./pdf-to-png-font-hinting/) |透過簡單的逐步指南學習如何使用 Aspose.PDF for .NET 將 PDF 轉換為帶有字體提示的 PNG。 |
+| [PDF 轉 PNG 教學 – 在 C# 中將 PDF 頁面轉換為 PNG](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) |了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 頁面轉換為 PNG 圖像。 |
 | [PDF轉PPT](./pdf-to-ppt/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 PPT。簡單、高效，非常適合演示。 |  
 | [PDF 轉 SVG](./pdf-to-svg/) |在本逐步教學中學習如何使用 Aspose.PDF for .NET 將 PDF 檔案轉換為 SVG 格式。非常適合開發人員和設計師。 |  
 | [PDF 轉 TeX](./pdf-to-tex/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 TeX。非常適合希望提高文件處理技能的開發人員。 |  
@@ -56,6 +57,7 @@
 | [XML 轉 PDF](./xml-to-pdf/) |透過本全面的逐步教學學習如何使用 Aspose.PDF for .NET 將 XML 轉換為 PDF，其中包含程式碼範例和詳細解釋。 |  
 | [XML 轉 PDFSet 影像路徑](./xml-to-pdfset-image-path/) |了解如何使用 Aspose.PDF for .NET 輕鬆地將 XML 轉換為 PDF。本詳細指南將逐步引導您完成整個過程，從設定到完成。 |  
 | [XPS 轉 PDF](./xps-to-pdf/) |透過本逐步教學了解如何使用 Aspose.PDF for .NET 將 XPS 檔案轉換為 PDF。非常適合開發人員和文檔愛好者。 |  
+| [在 C# 中將 PDF 轉換為 PDF/X‑4 – ASP.NET PDF 分步教學](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 轉換為 PDF/X‑4 格式。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

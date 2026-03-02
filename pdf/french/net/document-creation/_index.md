@@ -74,6 +74,9 @@ Apprenez à créer des PDF balisés, accessibles et bien structurés avec Aspose
 ### [Maîtriser la création de brochures PDF avec Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Un tutoriel de code pour Aspose.PDF Net
 
+### [Créer un document PDF avec Aspose.PDF – Ajouter une page, une forme et enregistrer](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
+Apprenez à ajouter une page, insérer une forme et enregistrer le document PDF avec Aspose.PDF pour .NET.
+
 ## Ressources supplémentaires
 
 - [Aspose.PDF pour la documentation réseau](https://docs.aspose.com/pdf/net/)

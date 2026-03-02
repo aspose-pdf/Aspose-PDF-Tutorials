@@ -44,6 +44,9 @@ Aspose.PDF .NET kullanarak PDF'lerden dijital imzaları etkili bir şekilde nas�
 ### [.NET için Aspose.PDF Kullanarak PDF İmzalarını Doğrulama: Kapsamlı Bir Kılavuz](./verify-pdf-signatures-aspose-pdf-net/)
 Aspose.PDF for .NET kullanarak PDF dosyalarındaki dijital imzaların nasıl doğrulanacağını öğrenin. Bu kılavuz kurulum, uygulama ve pratik uygulamaları kapsar.
 
+### [C# ile PDF İmzasını Doğrulama – Dijital İmza PDF'sini Doğrulamak için Tam Kılavuz](./verify-pdf-signature-in-c-complete-guide-to-validate-digital/)
+C# kullanarak PDF dosyalarındaki dijital imzaları nasıl doğrulayacağınızı adım adım öğrenin. Güvenli doğrulama tekniklerini keşfedin.
+
 ### [Aspose.PDF .NET ile PDF İmzalama ve Doğrulamada Ustalaşın](./mastering-aspose-pdf-net-sign-verify-smart-card-certificates/)
 Aspose.PDF Net için bir kod öğreticisi
 

@@ -39,6 +39,7 @@ These tutorials also provide detailed code examples, clear explanations, and ill
 | [Get XFAProperties](./get-xfaproperties/) | Learn how to retrieve XFA properties using Aspose.PDF for .NET in this comprehensive tutorial. Step-by-step guide included. |  
 | [Grouped Check Boxes In PDF Document](./grouped-check-boxes/) | Learn how to create grouped checkboxes (radio buttons) in a PDF document using Aspose.PDF for .NET with this step-by-step tutorial. |  
 | [Horizontally And Vertically Radio Buttons](./horizontally-and-vertically-radio-buttons/) | Learn how to create horizontally and vertically aligned radio buttons in PDF using Aspose.PDF for .NET with this step-by-step tutorial. |  
+| [How to Create PDF with Aspose – Add Form Field and Pages](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Learn how to create a PDF, add form fields, and insert pages using Aspose.PDF for .NET in this step-by-step tutorial. |
 | [Modify Form Field In PDF Document](./modify-form-field/) | Learn how to modify form fields in PDF documents using Aspose.PDF for .NET with this step-by-step guide. Perfect for developers looking to enhance PDF functionality. |  
 | [Move Form Field](./move-form-field/) | Learn how to move form fields in PDF documents using Aspose.PDF for .NET with this guide. Follow this detailed tutorial to modify text box locations easily. |  
 | [Preserve Rights](./preserve-rights/) | Preserve form rights in your PDF documents with Aspose.PDF for .NET. |  
