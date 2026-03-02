@@ -28,22 +28,22 @@ url: /id/net/programming-with-pdf-pages/add-page-numbers-pdf-with-c-full-step-by
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Add page numbers pdf with C# – Complete Programming Tutorial
+# Tambahkan nomor halaman pdf dengan C# – Tutorial Pemrograman Lengkap
 
-Pernah perlu **menambahkan nomor halaman pdf** tetapi tidak yakin harus mulai dari mana? Anda bukan satu-satunya—para pengembang terus menanyakan cara menempelkan nomor, footer, atau bahkan identifier gaya Bates pada setiap halaman PDF.  
+Pernah perlu **menambahkan nomor halaman pdf** tetapi tidak yakin harus mulai dari mana? Anda bukan satu-satunya—para pengembang terus menanyakan cara menempelkan nomor, footer, atau bahkan pengidentifikasi gaya Bates pada setiap halaman PDF.
 
-Dalam tutorial ini Anda akan melihat contoh C# yang siap dijalankan yang **mengulang halaman pdf**, menempelkan footer nomor halaman, dan (jika diinginkan) menambahkan watermark khusus. Kami juga akan menunjukkan cara mengubah stamp menjadi nomor Bates, yang pada dasarnya berarti “menambahkan penomoran bates” untuk dokumen hukum atau forensik. Pada akhir tutorial, Anda akan memiliki satu metode yang dapat digunakan kembali yang menangani semua tugas ini tanpa kesulitan.
+Dalam tutorial ini Anda akan melihat contoh C# yang siap dijalankan yang **mengulang halaman pdf**, menempelkan footer nomor halaman, dan (jika diinginkan) menambahkan watermark khusus. Kami juga akan menunjukkan cara mengubah stempel menjadi nomor Bates, yang pada dasarnya berarti “menambahkan penomoran bates” untuk dokumen hukum atau forensik. Pada akhir tutorial, Anda akan memiliki satu metode yang dapat digunakan kembali untuk menangani semua tugas ini tanpa kesulitan.
 
-## Add page numbers pdf – Overview
+## Tambahkan nomor halaman pdf – Ikhtisar
 
-Sebelum kita masuk ke kode, mari klarifikasi apa arti “add page numbers pdf” dalam dunia Aspose.Pdf. Library memperlakukan setiap potongan teks yang Anda tempatkan pada halaman sebagai **TextStamp**. Dengan membuat satu stamp dengan placeholder halaman (`{page}`) dan menerapkannya ke setiap halaman, Anda otomatis mendapatkan penomoran berurutan. Stamp yang sama dapat membawa teks tambahan, sehingga Anda dapat **menambahkan teks footer** seperti “Confidential” atau identifier khusus kasus.
+Sebelum kita masuk ke kode, mari klarifikasi apa arti “tambahkan nomor halaman pdf” di dunia Aspose.Pdf. Library menata setiap potongan teks yang Anda tempatkan pada halaman sebagai **TextStamp**. Dengan membuat satu stempel dengan placeholder halaman (`{page}`) dan menerapkannya ke setiap halaman, Anda secara otomatis mendapatkan penomoran berurutan. Stempel yang sama dapat membawa teks tambahan, sehingga Anda dapat **menambahkan teks footer** seperti “Confidential” atau identifier khusus kasus.
 
-> **Mengapa menggunakan stamp alih-alih mengedit aliran konten PDF?**  
-> Stamp adalah objek tingkat tinggi yang menghormati margin halaman, rotasi, dan grafis yang ada. Mereka juga jauh lebih mudah dipelihara—cukup ubah beberapa properti dan jalankan kembali skrip.
+> **Mengapa menggunakan stamp alih-alih mengedit aliran konten PDF?**
+> Stempel adalah objek tingkat tinggi yang menghormati margin halaman, rotasi, dan grafis yang ada. Mereka juga jauh lebih mudah dipelihara—cukup mengubah beberapa properti dan menjalankan kembali skrip.
 
-## Loop through PDF pages to apply stamps
+## Ulangi halaman PDF untuk menerapkan prangko
 
-Langkah praktis pertama adalah membuka PDF sumber dan mengiterasi halamannya. Ini adalah pola **loop through pdf pages** klasik yang digunakan kebanyakan contoh Aspose.
+Langkah praktis pertama adalah membuka sumber PDF dan mengiterasi halamannya. Ini adalah pola **loop through pdf page** klasik yang digunakan kebanyakan contoh Aspose.
 
 ```csharp
 using Aspose.Pdf;
@@ -66,11 +66,11 @@ using (var pdfDocument = new Document(sourcePdfPath))
 }
 ```
 
-> **Pro tip:** Jika PDF Anda sangat besar (ratusan halaman), pertimbangkan memprosesnya dalam batch untuk menjaga penggunaan memori tetap rendah. Aspose.Pdf memuat halaman secara lazy, sehingga loop itu sendiri sudah cukup efisien.
+> **Tips pro:** Jika PDF Anda sangat besar (ratusan halaman), memprosesnya dalam batch untuk menjaga penggunaan memori tetap rendah. Aspose.Pdf memuat halaman dengan malas, sehingga loop itu sendiri sudah cukup efisien.
 
-## Add bates numbering and footer text
+## Tambahkan penomoran bates dan teks footer
 
-Sekarang kita dapat melintasi setiap halaman, mari buat **TextStamp** yang dapat digunakan kembali yang memuat nomor halaman dan teks footer opsional. Placeholder `{page}` secara otomatis digantikan dengan indeks halaman saat ini.
+Sekarang kita dapat melintasi setiap halaman, mari buat **TextStamp** yang dapat digunakan kembali yang memuat nomor halaman dan teks footer opsional. Placeholder `{page}` secara otomatis diganti dengan indeks halaman saat ini.
 
 ```csharp
 // Create a stamp that will be reused for every page
@@ -92,10 +92,10 @@ foreach (Page page in pdfDocument.Pages)
     page.AddStamp(batesStamp);
 ```
 
-### Why this works
+### Mengapa ini berhasil
 
-* **`Bates-{page}`** – Aspose menggantikan `{page}` dengan nomor halaman sebenarnya, memberi Anda nomor Bates klasik secara otomatis.
-* **`Confidential`** – Ini adalah bagian **add footer text**. Anda dapat menggantinya dengan string apa pun, bahkan menarik data dari basis data.
+* **`Bates-{page}`** – Asumsikan mengganti `{page}` dengan nomor halaman sebenarnya, memberi Anda nomor Bates klasik secara otomatis.
+* **`Confidential`** – Ini adalah bagian **tambahkan teks footer**. Anda dapat menggantinya dengan string apa pun, bahkan menarik data dari basis data.
 * **Styling** – Menggunakan `TextState` memungkinkan Anda menyesuaikan warna, opacity, dan bahkan rotasi tanpa menyentuh aliran konten internal PDF.
 
 Jika Anda hanya membutuhkan angka biasa, hapus awalan “Bates‑” dan teks tambahan:
@@ -112,9 +112,9 @@ var simpleStamp = new TextStamp("{page}")
 };
 ```
 
-## Add a custom watermark (optional)
+## Tambahkan tanda air khusus (opsional)
 
-Kadang Anda menginginkan lebih dari footer—Anda membutuhkan logo semi‑transparent atau overlay “DRAFT” di seluruh halaman. Di sinilah **add custom watermark** berperan. Kelas `TextStamp` yang sama dapat dipakai kembali, cukup ubah alignment dan opacity-nya.
+Kadang-kadang Anda menginginkan lebih dari footer—Anda membutuhkan logo semi-transparan atau overlay “DRAFT” di seluruh halaman. Di sini **tambahkan tanda air khusus** ikut serta. Kelas `TextStamp` yang sama dapat dipakai kembali, cukup ubah penyelarasan dan opacity-nya.
 
 ```csharp
 var watermark = new TextStamp("DRAFT")
@@ -136,9 +136,9 @@ foreach (Page page in pdfDocument.Pages)
 }
 ```
 
-> **Catatan:** Urutan penting. Menambahkan watermark terlebih dahulu memastikan nomor halaman tetap terbaca di atas teks semi‑transparent.
+> **Catatan:** Urutan penting. Menambahkan watermark terlebih dahulu memastikan nomor halaman tetap terbaca di atas teks semi‑transparan.
 
-## Save the PDF and verify results
+## Simpan PDF dan verifikasi hasilnya
 
 Setelah stamping, langkah terakhir adalah menulis perubahan kembali ke disk. Panggilan `Save` yang kami tempatkan sebelumnya melakukan pekerjaan berat, tetapi mari tambahkan cuplikan verifikasi cepat yang membuka file baru dan mencetak berapa banyak halaman yang diproses.
 
@@ -152,20 +152,20 @@ using (var resultDoc = new Document(outputPdfPath))
 }
 ```
 
-Saat Anda menjalankan program lengkap, Anda akan melihat PDF di mana setiap halaman diakhiri dengan sesuatu seperti **“Bates‑3 – Confidential”** (atau hanya “3” jika Anda menggunakan stamp sederhana) dan, jika Anda mengaktifkan watermark, “DRAFT” samar di tengah.
+Saat Anda menjalankan program lengkap, Anda akan melihat PDF di mana setiap halaman diakhiri dengan sesuatu seperti **“Bates‑3 – Confidential”** (atau hanya “3” jika Anda menggunakan stempel sederhana) dan, jika Anda mengaktifkan watermark, “DRAFT” samar di tengah.
 
-### Expected output
+### Hasil yang diharapkan
 
-| Halaman | Footer (contoh) |
+| Halaman | Catatan Kaki (contoh) |
 |---------|-----------------|
-| 1       | Bates‑1 – Rahasia |
-| 2       | Bates‑2 – Rahasia |
-| …       | … |
-| N       | Bates‑N – Rahasia |
+| 1 | Bates‑1 – Rahasia |
+| 2 | Bates‑2 – Rahasia |
+| … | … |
+| tidak | Bates‑N – Rahasia |
 
-Jika Anda membuka file di penampil, angka-angka akan berada 20 pts dari margin kiri dan bawah, sesuai konvensi dokumen hukum umum.
+Jika Anda membuka file di penampil, angka-angka akan berada 20pts dari margin kiri dan bawah, sesuai konvensi dokumen hukum umum.
 
-## Full working example (copy‑paste ready)
+## Contoh kerja lengkap (siap salin‑tempel)
 
 ```csharp
 using Aspose.Pdf;
@@ -209,17 +209,17 @@ using (var pdfDocument = new Document(sourcePdfPath))
 }
 ```
 
-Simpan ini sebagai `AddPageNumbers.cs`, pulihkan paket NuGet Aspose.Pdf (`Install-Package Aspose.Pdf`), dan jalankan. Anda akan mendapatkan file **add page numbers pdf** yang juga mendemonstrasikan **add bates numbering**, **add footer text**, **add custom watermark**, dan pola **loop through pdf pages** klasik—semua dalam satu skrip rapi.
+Simpan ini sebagai `AddPageNumbers.cs`, pulihkan paket NuGet Aspose.Pdf (`Install-Package Aspose.Pdf`), dan jalankan. Anda akan mendapatkan file **tambahkan nomor halaman pdf** yang juga mendemonstrasikan **tambahkan penomoran bates**, **tambahkan teks footer**, **tambahkan tanda air khusus**, dan pola **loop through pdf halaman** klasik—semua dalam satu skrip rapi.
 
-![contoh add page numbers pdf](https://example.com/images/add-page-numbers-pdf.png "Tangkapan layar menampilkan halaman PDF berangka dengan footer dan watermark")
+![contoh menambahkan nomor halaman pdf](https://example.com/images/add-page-numbers-pdf.png "Tangkapan layar menampilkan halaman PDF berangka dengan footer dan watermark")
 
-## Conclusion
+## Kesimpulan
 
-Kami telah membahas semua yang Anda perlukan untuk **add page numbers pdf** menggunakan Aspose.Pdf di C#. Dari looping melalui setiap halaman, menempelkan nomor Bates, menambahkan teks footer khusus, hingga melapisi watermark semi‑transparent, kode ini cukup ringkas untuk dimasukkan ke proyek apa pun.  
+Kami telah membahas semua yang Anda perlukan untuk **menambahkan nomor halaman pdf** menggunakan Aspose.Pdf di C#. Dari looping melalui setiap halaman, menempelkan nomor Bates, menambahkan teks footer khusus, hingga melapisi watermark semi-transparan, kode ini cukup ringkas untuk dimasukkan ke proyek apa pun.
 
-Selanjutnya, Anda mungkin ingin menjelajahi skenario lebih lanjut—seperti menarik teks footer dari basis data, menerapkan font berbeda per bagian, atau menghasilkan PDF indeks terpisah yang mencantumkan semua nomor Bates. Semua ekstensi tersebut dibangun di atas ide inti yang telah kami tunjukkan, sehingga Anda berada pada posisi yang tepat untuk memperluas solusi seiring kebutuhan Anda berkembang.  
+Selanjutnya, Anda mungkin ingin menjelajahi skenario lebih lanjut—seperti menarik teks footer dari data dasar, menerapkan font yang berbeda per bagian, atau menghasilkan indeks PDF secara terpisah yang mencantumkan semua nomor Bates. Semua ekstensi tersebut dibangun di atas ide inti yang telah kami tunjukkan, sehingga Anda berada pada posisi yang tepat untuk memperluas solusi seiring berkembangnya kebutuhan Anda.
 
-Cobalah, sesuaikan stylingnya, dan beri tahu kami di komentar bagaimana hasilnya. Selamat coding!
+Saya, sesuaikan stylingnya, dan beri tahu kami di komentar bagaimana hasilnya. Selamat coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

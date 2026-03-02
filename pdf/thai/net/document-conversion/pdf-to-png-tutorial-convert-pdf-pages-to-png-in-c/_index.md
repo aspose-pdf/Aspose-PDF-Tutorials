@@ -26,7 +26,7 @@ url: /th/net/document-conversion/pdf-to-png-tutorial-convert-pdf-pages-to-png-in
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# pdf to png tutorial – Convert PDF pages to PNG in C#
+# บทช่วยสอนการแปลง PDF เป็น PNG – แปลงหน้า PDF เป็น PNG ใน C#
 
 เคยสงสัยไหมว่าจะแปลงแต่ละหน้าของ PDF ให้เป็นไฟล์ PNG ที่คมชัดได้อย่างไรโดยไม่ต้องบิดหัว? นั่นคือสิ่งที่ **pdf to png tutorial** นี้จะแก้ให้คุณ ในเวลาไม่กี่นาทีคุณจะสามารถ **extract images from pdf** เอกสาร, **create png from pdf**, และแม้กระทั่ง **export pdf as png** เพื่อใช้ในแกลเลอรีเว็บหรือรายงานต่าง ๆ
 
@@ -34,7 +34,7 @@ url: /th/net/document-conversion/pdf-to-png-tutorial-convert-pdf-pages-to-png-in
 
 > **Pro tip:** หากคุณต้องการเพียงภาพเดียวจาก PDF คุณก็ยังสามารถใช้วิธีนี้ได้; แค่หยุดลูปหลังจากหน้าที่แรกและคุณจะได้ PNG ที่สมบูรณ์แบบ
 
-## What You’ll Need
+## สิ่งที่คุณต้องใช้
 
 - **Aspose.Pdf for .NET** (แพคเกจ NuGet เวอร์ชันล่าสุดทำงานดีที่สุด; ณ เวลาที่เขียนคือเวอร์ชัน 23.11)
 - .NET 6+ หรือ .NET Framework 4.7.2+ (API เหมือนกันในทั้งสอง)
@@ -45,7 +45,7 @@ url: /th/net/document-conversion/pdf-to-png-tutorial-convert-pdf-pages-to-png-in
 
 ![pdf to png tutorial example](/images/pdf-to-png-example.png){alt="pdf to png tutorial – ตัวอย่างผลลัพธ์ PNG จากหน้า PDF"}
 
-## Step 1: Install Aspose.Pdf via NuGet
+## ขั้นตอนที่ 1: ติดตั้ง Aspose.Pdf ผ่าน NuGet
 
 ก่อนอื่นเราต้องมีไลบรารี Aspose.Pdf เปิดเทอร์มินัลในโฟลเดอร์โปรเจกต์และรัน:
 
@@ -55,7 +55,7 @@ dotnet add package Aspose.Pdf
 
 หรือหากคุณชอบใช้ UI ของ Visual Studio ให้คลิกขวาที่ **Dependencies → Manage NuGet Packages**, ค้นหา *Aspose.Pdf* แล้วคลิก **Install** แพคเกจนี้จะนำทุกอย่างที่จำเป็นสำหรับการ **convert pdf to png** มาให้โดยไม่ต้องพึ่งพาไลบรารีเนทีฟใด ๆ
 
-## Step 2: Load the Source PDF Document
+## ขั้นตอนที่ 2: โหลดเอกสาร PDF ต้นฉบับ
 
 การโหลด PDF ทำได้ง่ายเพียงสร้างอ็อบเจ็กต์ `Document` ตรวจสอบให้แน่ใจว่าเส้นทางชี้ไปยังไฟล์จริง; มิฉะนั้นคุณจะเจอ `FileNotFoundException`.
 
@@ -71,7 +71,7 @@ Document pdfDocument = new Document(sourcePdfPath);
 
 ทำไมเราต้องห่อ `Document` ด้วยบล็อก `using` หลังจากนี้? เพราะคลาสนี้ implements `IDisposable`. การ Dispose จะปล่อยทรัพยากรเนทีฟและหลีกเลี่ยงปัญหาไฟล์ล็อก—สำคัญมากเมื่อคุณประมวลผล PDF จำนวนมากในงานแบตช์
 
-## Step 3: Create a PNG Device (the Engine Behind the Conversion)
+## ขั้นตอนที่ 3: สร้างอุปกรณ์ PNG (กลไกเบื้องหลังการแปลง)
 
 Aspose.Pdf ใช้ *devices* เพื่อเรนเดอร์หน้าเป็นรูปแบบภาพต่าง ๆ `PngDevice` ให้เราควบคุม DPI, การบีบอัด, และความลึกของสี สำหรับกรณีส่วนใหญ่ค่าเริ่มต้น (96 DPI, 24‑bit color) เพียงพอ, แต่คุณสามารถปรับได้หากต้องการความละเอียดสูงกว่า
 
@@ -85,7 +85,7 @@ var pngDevice = new PngDevice(
 
 DPI ที่สูงกว่าจะทำให้ไฟล์ใหญ่ขึ้น, ดังนั้นให้สมดุลคุณภาพกับพื้นที่จัดเก็บและการใช้งานต่อไป หากคุณต้องการแค่ thumbnail ให้ลด DPI ลงเหลือ 72 จะลดขนาดไฟล์ได้มาก
 
-## Step 4: Iterate Through Every Page and Save as PNG
+## ขั้นตอนที่ 4: วนลูปผ่านทุกหน้าและบันทึกเป็น PNG
 
 ตอนนี้มาส่วนสนุก—วนลูปแต่ละหน้า, ประมวลผลด้วยอุปกรณ์, แล้วบันทึกไฟล์ผลลัพธ์ ดัชนีลูปเริ่มที่ **1** เพราะคอลเลกชันหน้าของ Aspose มีเลขเริ่มจาก 1 (เป็นลักษณะพิเศษที่ทำให้ผู้เริ่มต้นสับสน)
 
@@ -104,11 +104,11 @@ for (int pageNumber = 1; pageNumber <= pdfDocument.Pages.Count; pageNumber++)
 
 แต่ละรอบจะสร้างไฟล์ PNG แยกต่างหากชื่อ `page1.png`, `page2.png`, เป็นต้น วิธีนี้ **extract images from pdf** หน้าอย่างตรงไปตรงมา, รักษาเลย์เอาต์เดิม, กราฟิกเวกเตอร์, และการเรนเดอร์ข้อความ
 
-### Handling Large PDFs
+### การจัดการ PDF ขนาดใหญ่
 
 หาก PDF ของคุณมีหลายร้อยหน้า คุณอาจกังวลเรื่องการใช้หน่วยความจำ ข่าวดีคือ `PngDevice.Process` จะสตรีมแต่ละหน้าโดยตรงไปยังดิสก์, ทำให้ footprint ของหน่วยความจำต่ำอยู่แล้ว อย่างไรก็ตามควรตรวจสอบพื้นที่ดิสก์—PNG ที่ DPI สูงอาจเพิ่มขนาดอย่างรวดเร็ว
 
-## Step 5: Wrap Everything in a Using Block (Best Practice)
+## ขั้นตอนที่ 5: ครอบทุกอย่างด้วยบล็อก Using (แนวทางปฏิบัติที่ดีที่สุด)
 
 การใส่ `Document` ไว้ใน `using` จะรับประกันการทำความสะอาดที่ถูกต้อง:
 
@@ -128,9 +128,9 @@ using (var pdfDocument = new Document(sourcePdfPath))
 
 เมื่อบล็อกสิ้นสุด ไฟล์ PDF จะถูกปลดล็อกและ handle เนทีฟจะถูกปล่อย นี่คือแนวทางที่แนะนำสำหรับการ **export pdf as png** ในโค้ดระดับ production
 
-## Optional Variations & Edge Cases
+## ตัวเลือกเพิ่มเติมและกรณีพิเศษ
 
-### 1. Converting Only Selected Pages
+### 1. แปลงเฉพาะหน้าที่เลือก
 
 บางครั้งคุณอาจไม่ต้องการแปลงทั้งเอกสาร เพียงปรับลูปตามนี้:
 
@@ -142,7 +142,7 @@ foreach (int pageNumber in pagesToConvert)
 }
 ```
 
-### 2. Adding a Transparent Background
+### 2. เพิ่มพื้นหลังโปร่งใส
 
 หากต้องการ PNG ที่มีช่อง alpha (เหมาะสำหรับวางบนพื้นหลังสี), ตั้งค่า `BackgroundColor` เป็น `Color.Transparent` ก่อนประมวลผล:
 
@@ -150,7 +150,7 @@ foreach (int pageNumber in pagesToConvert)
 pngDevice.BackgroundColor = Color.Transparent;
 ```
 
-### 3. Saving to a MemoryStream
+### 3. บันทึกไปยัง MemoryStream
 
 เมื่อคุณต้องการข้อมูล PNG อยู่ในหน่วยความจำ—เช่นอัปโหลดไปยังคลาวด์สตอเรจ—ใช้ `MemoryStream` แทนการระบุพาธไฟล์:
 
@@ -161,7 +161,7 @@ byte[] pngBytes = ms.ToArray();
 // upload pngBytes wherever you like
 ```
 
-### 4. Dealing with Password‑Protected PDFs
+### 4. การจัดการกับ PDF ที่ป้องกันด้วยรหัสผ่าน
 
 หาก PDF ต้นฉบับถูกเข้ารหัส ให้ส่งรหัสผ่าน:
 
@@ -172,7 +172,7 @@ using var pdfDocument = new Document(sourcePdfPath, loadOptions);
 
 ตอนนี้ pipeline **convert pdf to png** จะทำงานได้แม้กับไฟล์ที่มีการป้องกัน
 
-## Full Working Example
+## ตัวอย่างการทำงานแบบเต็มรูปแบบ
 
 ด้านล่างเป็นโปรแกรมเต็มที่พร้อมรัน เพียงคัดลอก‑วางลงในแอปคอนโซลและกด **F5**.
 
@@ -229,7 +229,7 @@ class Program
 
 เมื่อรันสคริปต์นี้ จะสร้างไฟล์ PNG ชุดหนึ่งต่อหนึ่งหน้าไว้ใน `C:\Docs\ConvertedPages` เปิดไฟล์ใดก็ได้ด้วยโปรแกรมดูภาพที่คุณชอบ; คุณจะเห็นสำเนาภาพที่ตรงกับหน้า PDF ดั้งเดิมอย่างสมบูรณ์
 
-## Conclusion
+## สรุป
 
 ใน **pdf to png tutorial** นี้ เราได้ครอบคลุมทุกอย่างที่คุณต้องการเพื่อ **extract images from pdf**, **create png from pdf**, และ **export pdf as png** ด้วย Aspose.Pdf for .NET เราเริ่มจากการติดตั้งแพคเกจ NuGet, โหลด PDF, ตั้งค่า `PngDevice` ความละเอียดสูง, วนลูปแต่ละหน้า, และห่อทั้งหมดในบล็อก `using` เพื่อจัดการทรัพยากรอย่างสะอาด เรายังสำรวจกรณีเช่นการแปลงหน้าที่เลือก, พื้นหลังโปร่งใส, สตรีมในหน่วยความจำ, และไฟล์ที่มีรหัสผ่าน
 

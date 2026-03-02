@@ -36,7 +36,7 @@ W tym samouczku przeprowadzimy Cię przez kompletny, gotowy do uruchomienia przy
 
 > **Pro tip:** Aspose.Pdf działa z .NET 6+, .NET Framework 4.6+ oraz nawet .NET Core. Upewnij się, że przed rozpoczęciem zainstalowałeś pakiet NuGet `Aspose.Pdf`.
 
-## Prerequisites
+## Wymagania wstępne
 
 - Visual Studio 2022 (lub dowolne IDE C#, które preferujesz)
 - Zainstalowane .NET 6 SDK
@@ -45,7 +45,7 @@ W tym samouczku przeprowadzimy Cię przez kompletny, gotowy do uruchomienia przy
 
 Jeśli którykolwiek z tych elementów jest Ci nieznany, po prostu zainstaluj SDK i dodaj pakiet – dalsza część przewodnika zakłada, że komfortowo otwierasz projekt konsolowy.
 
-## Step 1: Set Up the Project and Import Namespaces
+## Krok 1: Skonfiguruj projekt i zaimportuj przestrzenie nazw
 
 Najpierw utwórz nową aplikację konsolową:
 
@@ -64,7 +64,7 @@ using Aspose.Pdf.Forms;
 
 Te przestrzenie nazw dają dostęp do klas `Document`, `Page` i `TextBoxField`, których będziemy używać.
 
-## Step 2: Create a Fresh PDF Document
+## Krok 2: Utwórz nowy dokument PDF
 
 Potrzebujemy czystego płótna, zanim zaczniemy rozrzucać pola. Klasa `Document` reprezentuje cały plik PDF.
 
@@ -78,7 +78,7 @@ using (var pdfDocument = new Document())
 
 Umieszczenie dokumentu w bloku `using` zapewnia automatyczne zwolnienie zasobów po zapisaniu pliku.
 
-## Step 3: Add the Initial Page
+## Krok 3: Dodaj stronę początkową
 
 PDF bez stron to po prostu nic. Dodajmy pierwszą stronę, na której początkowo pojawi się nasze pole tekstowe.
 
@@ -89,7 +89,7 @@ Page firstPage = pdfDocument.Pages.Add();
 
 Metoda `Pages.Add()` zwraca obiekt `Page`, do którego później będziemy się odwoływać przy pozycjonowaniu widgetów.
 
-## Step 4: Define the Multi‑Page TextBox Field
+## Krok 4: Zdefiniuj pole wielostronicowego pola tekstowego
 
 Oto serce rozwiązania: pojedynczy `TextBoxField`, który podłączymy do wielu stron. Pomyśl o polu jako kontenerze danych, a o każdym widgetcie jako wizualnej reprezentacji na konkretnej stronie.
 
@@ -106,7 +106,7 @@ var multiPageTextBox = new TextBoxField(firstPage, new Rectangle(100, 600, 300, 
 - **Value** ustawia domyślny tekst, który zobaczą użytkownicy.
 - `Rectangle` definiuje pozycję widgetu (lewy, dolny, prawy, górny) w punktach.
 
-## Step 5: Add Additional Pages and Attach Widgets
+## Krok 5: Dodaj dodatkowe strony i dołącz widżety
 
 Teraz upewnimy się, że dokument ma co najmniej trzy strony, a następnie podłączymy to samo pole tekstowe do stron 2 i 3 przy użyciu `AddWidgetAnnotation`.
 
@@ -122,7 +122,7 @@ multiPageTextBox.AddWidgetAnnotation(pdfDocument.Pages[3], new Rectangle(100, 60
 
 Każde wywołanie tworzy wizualny widget na docelowej stronie, ale odwołuje się do pierwotnego `TextBoxField`. Edycja pola tekstowego na dowolnej stronie automatycznie aktualizuje wartość wszędzie – przydatna funkcja w formularzach przeglądowych lub umowach.
 
-## Step 6: Register the Field with the Form Collection
+## Krok 6: Zarejestruj pole w kolekcji formularzy
 
 Jeśli pominiesz ten krok, pole nie pojawi się w hierarchii interaktywnych formularzy PDF, a Acrobat je zignoruje.
 
@@ -133,7 +133,7 @@ pdfDocument.Form.Add(multiPageTextBox, "MultiPageComment");
 
 Drugi argument to nazwa pola, jaka pojawi się w wewnętrznym słowniku formularza PDF. Utrzymywanie spójnych nazw ułatwia późniejsze programowe wyciąganie danych.
 
-## Step 7: Save the PDF to Disk
+## Krok 7: Zapisz plik PDF na dysku
 
 Na koniec zapisz dokument do pliku. Wybierz folder, do którego masz prawo zapisu; w tym przykładzie użyjemy podfolderu `output`.
 
@@ -144,7 +144,7 @@ pdfDocument.Save("output/MultiWidgetTextBox.pdf");
 
 Gdy otworzysz `output/MultiWidgetTextBox.pdf` w Adobe Acrobat Reader, zobaczysz to samo pole tekstowe na stronach 1‑3. Wpisanie czegokolwiek w jedną z instancji zaktualizuje je wszystkie – dokładnie to, co chcieliśmy osiągnąć.
 
-## Full Working Example
+## Pełny przykład działania
 
 Poniżej znajduje się kompletny program, który możesz skopiować i wkleić do `Program.cs`. Kompiluje się i działa od razu.
 
@@ -190,20 +190,20 @@ namespace PdfFormDemo
 }
 ```
 
-### Expected Result
+### Oczekiwany rezultat
 
 - **Trzy strony** w pliku PDF.
 - **Jedno pole tekstowe** wyświetlane na każdej stronie w współrzędnych (100, 600)‑(300, 650).
 - **Zsynchronizowana zawartość**: edycja pola na dowolnej stronie aktualizuje pozostałe.
 - Plik zostaje zapisany jako `output/MultiWidgetTextBox.pdf`.
 
-## Common Questions & Edge Cases
+## Często zadawane pytania i skrajne przypadki
 
-### What if I need the textbox on more than three pages?
+### Co zrobić, jeśli pole tekstowe będzie potrzebne na więcej niż trzech stronach?
 
 Po prostu dodaj kolejne strony przy pomocy `pdfDocument.Pages.Add()` i powtórz wywołanie `AddWidgetAnnotation` dla każdej nowej strony. Obiekt pola pozostaje ten sam, więc jedynym dodatkowym kosztem jest tworzenie kolejnych widgetów.
 
-### Can I change the appearance (font, color) of each widget independently?
+### Czy mogę niezależnie zmienić wygląd (czcionkę, kolor) każdego widżetu?
 
 Tak. Po utworzeniu widgetu możesz pobrać go poprzez `multiPageTextBox.Widgets` i zmodyfikować jego właściwości `Appearance`. Pamiętaj jednak, że zmiana wyglądu jednego widgetu nie wpłynie na pozostałe, chyba że edytujesz każdy z osobna.
 
@@ -214,7 +214,7 @@ widget.Appearance.NormalGraphicsState.FontSize = 12;
 widget.Appearance.NormalGraphicsState.TextColor = Color.GetBlue();
 ```
 
-### How do I extract the entered value later?
+### Jak później wyodrębnić wprowadzoną wartość?
 
 Gdy użytkownik wypełni PDF i zwróci plik, użyj Aspose.Pdf do odczytania pola formularza:
 
@@ -224,18 +224,18 @@ var field = (TextBoxField)filledDoc.Form["MultiPageComment"];
 Console.WriteLine($"User entered: {field.Value}");
 ```
 
-### What about PDF/A compliance?
+### Co ze zgodnością z PDF/A?
 
 Jeśli potrzebujesz zgodności z PDF/A‑1b, przed zapisem wywołaj `pdfDocument.ConvertToPdfA()`. Pole formularza nadal będzie działać, ale niektóre przeglądarki PDF/A mogą ograniczyć edycję. Przetestuj to z docelową grupą odbiorców.
 
-## Tips & Best Practices
+## Wskazówki i najlepsze praktyki
 
 - **Używaj opisowych nazw pól** – ułatwiają one wyciąganie danych.
 - **Unikaj nakładania się widgetów** – Acrobat może zgłosić błąd „field name already exists”, jeśli dwa widgety zajmują tę samą przestrzeń na tej samej.
 - **Ustaw `ReadOnly = false`** tylko wtedy, gdy naprawdę chcesz, aby użytkownicy mogli edytować; w przeciwnym razie zablokuj pole, aby zapobiec przypadkowym zmianom.
 - **Utrzymuj współrzędne prostokąta** spójne na wszystkich stronach, aby uzyskać jednolity wygląd, chyba że celowo chcesz różne rozmiary.
 
-## Conclusion
+## Wnioski
 
 Teraz wiesz **jak tworzyć PDF** przy użyciu Aspose.Pdf, które zawierają wielokrotnego użytku pole formularza rozciągnięte na wiele stron. Postępując zgodnie z siedmioma krokami – inicjalizacją dokumentu, dodawaniem stron, definiowaniem `TextBoxField`, podłączaniem widgetów, rejestracją pola i zapisem – możesz budować zaawansowane interaktywne PDF‑y bez potrzeby korzystania z zewnętrznych projektantów formularzy.
 

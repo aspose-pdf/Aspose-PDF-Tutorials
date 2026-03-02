@@ -26,7 +26,7 @@ url: /tr/net/document-conversion/pdf-to-png-tutorial-convert-pdf-pages-to-png-in
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# pdf to png tutorial – Convert PDF pages to PNG in C#
+# PDF'den PNG'ye Dönüştürme Eğitimi – C# ile PDF Sayfalarını PNG'ye Dönüştürme
 
 Hiç bir PDF sayfasını saçınızı yolmak zorunda kalmadan net bir PNG dosyasına dönüştürmeyi düşündünüz mü? İşte bu **pdf to png tutorial** tam da bunu çözüyor. Birkaç dakika içinde **extract images from pdf** belgelerinden **create png from pdf** oluşturabilecek ve hatta **export pdf as png** işlemini web galerileri veya raporlar için kullanabileceksiniz.
 
@@ -34,7 +34,7 @@ Kütüphaneyi kurmaktan, kaynak dosyayı yüklemeye, dönüşümü yapılandırm
 
 > **Pro tip:** PDF'ten yalnızca tek bir görüntüye ihtiyacınız varsa, bu yaklaşımı hâlâ kullanabilirsiniz; döngüyü ilk sayfada durdurun ve mükemmel bir PNG çıkarımı elde edin.
 
-## What You’ll Need
+## İhtiyacınız Olanlar
 
 - **Aspose.Pdf for .NET** (en yeni NuGet paketi en iyisidir; yazı zamanı itibarıyla sürüm 23.11)
 - .NET 6+ veya .NET Framework 4.7.2+ (API her iki platformda da aynı)
@@ -45,7 +45,7 @@ Ek native kütüphane yok, ImageMagick yok, karmaşık COM interop yok. Sadece s
 
 ![pdf to png tutorial example](/images/pdf-to-png-example.png){alt="pdf to png tutorial – PDF sayfasından örnek PNG çıktısı"}
 
-## Step 1: Install Aspose.Pdf via NuGet
+## Adım 1: NuGet üzerinden Aspose.Pdf'i yükleyin
 
 İlk olarak Aspose.Pdf kütüphanesine ihtiyacımız var. Proje klasörünüzde terminali açın ve şu komutu çalıştırın:
 
@@ -55,7 +55,7 @@ dotnet add package Aspose.Pdf
 
 Ya da Visual Studio UI'ını tercih ediyorsanız, **Dependencies → Manage NuGet Packages** üzerine sağ tıklayın, *Aspose.Pdf*'i aratın ve **Install**'a tıklayın. Paket, **convert pdf to png** işlemini herhangi bir native bağımlılık olmadan yapmamızı sağlayan her şeyi getirir.
 
-## Step 2: Load the Source PDF Document
+## Adım 2: Kaynak PDF Belgesini yükleyin
 
 PDF yüklemek, bir `Document` nesnesi oluşturmak kadar basittir. Yolun gerçek dosyayı işaret ettiğinden emin olun; aksi takdirde `FileNotFoundException` alırsınız.
 
@@ -71,7 +71,7 @@ Document pdfDocument = new Document(sourcePdfPath);
 
 `Document`'i daha sonra bir `using` bloğu içinde neden sarıyoruz? Çünkü sınıf `IDisposable` uygular. Dispose etmek native kaynakları serbest bırakır ve dosya kilitleme sorunlarını önler—özellikle toplu işlerde birçok PDF işliyorsanız önemlidir.
 
-## Step 3: Create a PNG Device (the Engine Behind the Conversion)
+## Adım 3: Bir PNG Aygıtı oluşturun (Dönüştürmenin Arkasındaki Motor)
 
 Aspose.Pdf, sayfaları çeşitli görüntü formatlarına render etmek için *cihazlar* kullanır. `PngDevice` DPI, sıkıştırma ve renk derinliği üzerinde kontrol sağlar. Çoğu senaryo için varsayılanlar (96 DPI, 24‑bit renk) yeterlidir, ancak daha yüksek doğruluk istiyorsanız ayarları değiştirebilirsiniz.
 
@@ -85,7 +85,7 @@ var pngDevice = new PngDevice(
 
 Daha yüksek DPI daha büyük dosyalar demektir, bu yüzden kaliteyi depolama ve sonraki kullanım ile dengeleyin. Sadece küçük önizlemelere ihtiyacınız varsa DPI'yi 72'ye düşürerek çok fazla kilobayt tasarruf edebilirsiniz.
 
-## Step 4: Iterate Through Every Page and Save as PNG
+## Adım 4: Her Sayfayı Tekrarlayın ve PNG olarak kaydedin
 
 Şimdi eğlenceli kısım—her sayfayı döngüye al, cihazla işle ve çıktıyı dosyaya yaz. Döngü indeksi **1**'den başlar çünkü Aspose'un sayfa koleksiyonu 1‑tabanlıdır (yeni başlayanları şaşırtan bir tuhaflık).
 
@@ -104,11 +104,11 @@ for (int pageNumber = 1; pageNumber <= pdfDocument.Pages.Count; pageNumber++)
 
 Her yineleme `page1.png`, `page2.png` vb. adında ayrı bir PNG dosyası oluşturur. Bu basit yaklaşım **extract images from pdf** sayfalarından orijinal düzeni, vektör grafikleri ve metin render'ını koruyarak çıkarır.
 
-### Handling Large PDFs
+### Büyük PDF'leri İşleme
 
 Kaynak PDF'iniz yüzlerce sayfaya ulaşıyorsa bellek tüketimi konusunda endişelenebilirsiniz. İyi haber: `PngDevice.Process` her sayfayı doğrudan diske akıtır, böylece bellek ayak izi düşük kalır. Yine de disk alanına dikkat edin—yüksek‑DPI PNG'ler hızla büyüyebilir.
 
-## Step 5: Wrap Everything in a Using Block (Best Practice)
+## Adım 5: Her Şeyi Bir Using Bloğuna Sarın (En İyi Uygulama)
 
 `Document`'i bir `using` ifadesi içine almak, doğru temizlik garantiler:
 
@@ -128,9 +128,9 @@ using (var pdfDocument = new Document(sourcePdfPath))
 
 Blok bittiğinde PDF dosyasının kilidi kalkar ve altındaki native tutucular serbest bırakılır. Bu desen, üretim kodunda **export pdf as png** yapmanın önerilen yoludur.
 
-## Optional Variations & Edge Cases
+## İsteğe Bağlı Varyasyonlar ve Uç Durumlar
 
-### 1. Converting Only Selected Pages
+### 1. Yalnızca Seçilen Sayfaları Dönüştürme
 
 Bazen tüm belgeye ihtiyacınız olmayabilir. Döngüyü şu şekilde ayarlayın:
 
@@ -142,7 +142,7 @@ foreach (int pageNumber in pagesToConvert)
 }
 ```
 
-### 2. Adding a Transparent Background
+### 2. Şeffaf Arka Plan Ekleme
 
 Alfa kanallı PNG'leri (renkli arka planların üzerine bindirmek için kullanışlı) tercih ediyorsanız, işleme başlamadan önce `BackgroundColor`'ı `Color.Transparent` olarak ayarlayın:
 
@@ -150,7 +150,7 @@ Alfa kanallı PNG'leri (renkli arka planların üzerine bindirmek için kullanı
 pngDevice.BackgroundColor = Color.Transparent;
 ```
 
-### 3. Saving to a MemoryStream
+### 3. MemoryStream'e Kaydetme
 
 PNG verisine bellekte ihtiyacınız varsa—örneğin bir bulut depolama kovasına yüklemek için—dosya yolu yerine bir `MemoryStream` kullanın:
 
@@ -161,7 +161,7 @@ byte[] pngBytes = ms.ToArray();
 // upload pngBytes wherever you like
 ```
 
-### 4. Dealing with Password‑Protected PDFs
+### 4. Şifre Korumalı PDF'lerle Başa Çıkma
 
 Kaynak PDF şifreli ise, şifreyi sağlayın:
 
@@ -172,7 +172,7 @@ using var pdfDocument = new Document(sourcePdfPath, loadOptions);
 
 Şimdi **convert pdf to png** hattı, güvenli dosyalarda bile çalışıyor.
 
-## Full Working Example
+## Tam Çalışan Örnek
 
 Aşağıda her şeyi bir araya getiren, çalıştırmaya hazır tam program bulunuyor. Kopyalayıp bir console uygulamasına yapıştırın ve **F5** tuşuna basın.
 
@@ -229,7 +229,7 @@ class Program
 
 Bu betiği çalıştırdığınızda `C:\Docs\ConvertedPages` içinde bir sayfa başına bir PNG dosyası üretilecektir. Favori görüntüleyicinizde herhangi birini açın; orijinal PDF sayfasının tam bir görsel kopyasını görmelisiniz.
 
-## Conclusion
+## Çözüm
 
 Bu **pdf to png tutorial**'da **extract images from pdf**, **create png from pdf** ve **export pdf as png** işlemlerini Aspose.Pdf for .NET kullanarak nasıl yapacağınızı öğrendiniz. NuGet paketini kurarak, PDF'i yükleyerek, yüksek çözünürlüklü bir `PngDevice` yapılandırarak, sayfalar üzerinde döngü kurarak ve kaynakları temizlemek için `using` bloğu ekleyerek tüm süreci tamamladık. Ayrıca seçmeli sayfa dönüştürme, şeffaf arka plan, bellek içi akışlar ve şifreli dosyalar gibi varyasyonları da inceledik.
 

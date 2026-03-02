@@ -30,33 +30,33 @@ url: /it/net/programming-with-tagged-pdf/create-tagged-pdf-in-c-complete-step-by
 
 # Crea PDF con Tag in C# – Guida Completa Passo‑Passo
 
-Hai mai dovuto **creare PDF con tag** che siano sia esteticamente curati sia compatibili con i lettori di schermo? Non sei l'unico. Molti sviluppatori si trovano in difficoltà quando cercano di combinare un posizionamento preciso del layout con i corretti tag di accessibilità.  
+Hai mai dovuto **creare PDF con tag** che siano sia esteticamente curati sia compatibili con i lettori di schermo? Non sei l'unico. Molti sviluppatori si trovano in difficoltà quando cercano di combinare un posizionamento preciso del layout con i corretti tag di accessibilità.
 
-In questo tutorial ti mostreremo esattamente come **add heading to PDF**, applicare un **add heading tag**, e rispondere alla domanda comune **how to tag PDF** per la conformità. Alla fine avrai un PDF in cui l'intestazione è posizionata esattamente dove desideri *e* contrassegnata come intestazione di livello 1, soddisfacendo il requisito **pdf accessibility heading**.
+In questo tutorial ti mostreremo esattamente come **aggiungere intestazione al PDF**, applicare un **aggiungi tag intestazione**, e rispondere alla comune domanda **come taggare PDF** per la conformità. Alla fine avrai un PDF in cui l'intestazione è posizionata esattamente dove desideri *e* contrassegnata come intestazione di livello1, soddisfacendo il requisito **pdf accessibilità intestazione**.
 
-## What You’ll Build
+## Cosa costruirai
 
-Genereremo un PDF a pagina singola che:
+Genereremo un PDF a una pagina singola che:
 
-1. Utilizza la funzionalità `TaggedContent` di Aspose.Pdf.  
-2. Posiziona un'intestazione a una coordinata precisa (X, Y).  
-3. Tagga quel paragrafo come intestazione di livello 1 per le tecnologie assistive.  
+1. Utilizza la funzionalità `TaggedContent` di Aspose.Pdf.
+2. Posiziona un'intestazione a una coordinata precisa (X,Y).
+3. Tagga quel paragrafo come intestazione di livello1 per le tecnologie assistive.
 
-Nessun servizio esterno, nessuna libreria oscura—solo C# puro e Aspose.Pdf (versione 23.9 o successiva).  
+Nessun servizio esterno, nessuna libreria oscura—solo C# puro e Aspose.Pdf (versione23.9 o successiva).
 
-> **Pro tip:** Se stai già usando Aspose in un altro progetto, puoi inserire questo codice direttamente nel tuo codice esistente.
+> **Suggerimento:** Se stai già utilizzando Aspose in un altro progetto, puoi inserire questo codice direttamente nel tuo codice esistente.
 
-## Prerequisites
+## Prerequisiti
 
-- .NET 6 SDK (o qualsiasi versione .NET supportata da Aspose.Pdf).  
-- Una licenza valida di Aspose.Pdf (o la valutazione gratuita, che aggiunge una filigrana).  
-- Visual Studio 2022 o il tuo IDE preferito.  
+- .NET6 SDK (o qualsiasi versione .NET supportata da Aspose.Pdf).
+- Una licenza valida di Aspose.Pdf (o la valutazione gratuita, che aggiunge una filigrana).
+- Visual Studio2022 o il tuo IDE preferito.
 
 Tutto qui—nulla altro da installare.
 
-## Create Tagged PDF – Position a Heading
+## Crea PDF con tag: posiziona un'intestazione
 
-La prima cosa di cui abbiamo bisogno è un nuovo oggetto `Document` con il tagging attivato.
+La prima cosa di cui abbiamo bisogno è un nuovo oggetto `Documento` con il tagging attivato.
 
 ```csharp
 using Aspose.Pdf;
@@ -75,7 +75,7 @@ using (var pdfDocument = new Document())
 **Perché è importante:**  
 `TaggedContent` indica ai lettori PDF che il file contiene un albero di struttura logica. Senza di esso, qualsiasi intestazione aggiunta sarebbe solo testo visivo—i lettori di schermo la ignorerebbero.
 
-## Add Heading to PDF with Aspose.Pdf
+## Aggiungi un'intestazione al PDF con Aspose.Pdf
 
 Successivamente creiamo una pagina e un paragrafo che conterrà il testo dell'intestazione.
 
@@ -102,7 +102,7 @@ var headingParagraph = new Paragraph(new TextFragment("Chapter 1 – Introduct
 
 Nota come **add heading to PDF** venga effettuato impostando la proprietà `Position`. Le coordinate sono in punti (1 pollice = 72 punti), così puoi perfezionare il layout per corrispondere a qualsiasi mock‑up di design.
 
-## Tag the Paragraph as a Heading Tag
+## Tagga il paragrafo come tag di intestazione
 
 Il tagging è il cuore della domanda **how to tag pdf**. La classe `HeadingTag` informa i lettori PDF che questo paragrafo rappresenta un'intestazione, e l'argomento intero (`1`) indica il livello dell'intestazione.
 
@@ -122,7 +122,7 @@ Aspose crea una voce nell'albero di struttura del PDF (`/StructTreeRoot`) che ap
 
 Le tecnologie assistive leggono questo albero per annunciare “Heading level 1, Chapter 1 – Introduction”.
 
-## How to Tag PDF for Accessibility – Save the File
+## Come taggare un PDF per l'accessibilità – Salva il file
 
 Infine, salviamo il documento su disco. Il file ora contiene sia i dati di posizionamento visivo sia il corretto tag di accessibilità.
 
@@ -133,7 +133,7 @@ pdfDocument.Save("YOUR_DIRECTORY/TaggedPositioned.pdf");
 
 Quando apri `TaggedPositioned.pdf` in Adobe Acrobat Pro e visualizzi il pannello **Tags**, vedrai una voce di livello superiore `H1`. L'esecuzione del **Accessibility Checker** integrato non dovrebbe segnalare problemi con l'intestazione.
 
-## Verify PDF Accessibility Heading
+## Verifica l'accessibilità dell'intestazione del PDF
 
 È sempre buona pratica verificare che l'intestazione sia riconosciuta.
 
@@ -145,16 +145,16 @@ Se senti l'annuncio corretto, hai **create tagged pdf** con successo, soddisface
 
 ![Create tagged PDF example](image.png "Create tagged PDF"){: alt="Esempio di PDF con tag"}
 
-## Common Variations & Edge Cases
+## Varianti comuni e casi limite
 
-| Situation | What to Change | Why |
-|-----------|----------------|-----|
-| **Multiple headings** | Duplicate the `headingParagraph` block, change the text, and use `new HeadingTag(2)` for sub‑headings. | Keeps the logical hierarchy (H1 → H2 → H3). |
-| **Different page size** | Adjust `pdfPage.PageInfo.Width/Height` before adding the paragraph. | Guarantees the coordinates stay inside the printable area. |
-| **Right‑to‑left languages** | Use `TextFragment("مقدمة الفصل 1")` and set `Paragraph.Alignment = HorizontalAlignment.Right`. | Ensures proper visual order for RTL scripts. |
-| **Dynamic content** | Compute `Y` based on previous elements’ `Height` to avoid overlap. | Prevents accidental covering of existing content. |
+| Situazione | Cosa modificare | Perché |
+|-----------|---------------------|
+| **Intestazioni multiple** | Duplica il blocco `headingParagraph`, modifica il testo e usa `new HeadingTag(2)` per i sottotitoli. | Mantiene la gerarchia logica (H1 → H2 → H3). |
+| **Dimensioni di pagina diverse** | Regola `pdfPage.PageInfo.Width/Height` prima di aggiungere il paragrafo. | Garantisce che le coordinate rimangano all'interno dell'area di stampa. |
+| **Lingue da destra a sinistra** | Utilizza `TextFragment("مقدمة الفصل 1")` e imposta `Paragraph.Alignment = HorizontalAlignment.Right`. | Garantisce il corretto ordine visivo per gli script RTL. |
+| **Contenuto dinamico** | Calcola `Y` in base all'altezza `Height` degli elementi precedenti per evitare sovrapposizioni. | Impedisce la copertura accidentale di contenuti esistenti. |
 
-## Full Working Example
+## Esempio completo funzionante
 
 Copia‑incolla il seguente codice in un nuovo progetto console C#. Compila ed esegui subito (supponendo che tu abbia aggiunto il pacchetto NuGet Aspose.Pdf).
 
@@ -203,19 +203,19 @@ class Program
 **Risultato atteso:**  
 Un PDF a una pagina chiamato `TaggedPositioned.pdf` che mostra “Chapter 1 – Introduction” vicino all'angolo in alto a sinistra e contiene un tag `H1` nel suo albero di struttura.
 
-## Wrap‑Up
+## Incartare
 
-Abbiamo percorso l'intero processo di **create tagged pdf** con Aspose.Pdf, dall'inizializzazione del documento al posizionamento di un'intestazione e infine **add heading tag** per l'accessibilità. Ora sai **how to tag pdf** in modo che i lettori di schermo trattino correttamente le tue intestazioni, rispettando lo standard **pdf accessibility heading**.
+Abbiamo percorso l'intero processo di **create tagged pdf** con Aspose.Pdf, dall'inizializzazione del documento al posizionamento di un'intestazione e infine **add header tag** per l'accessibilità. Ora sai **how to tag pdf** in modo che i lettori di schermo trattino correttamente le tue intestazioni, rispettando lo standard **pdf Accessibility Heading**.
 
-### What’s Next?
+### Qual è il prossimo passo?
 
-- **Add more content** (tables, images) while preserving the tag hierarchy.  
-- **Generate a table of contents** automatically using `Document.Outlines`.  
-- **Run batch processing** to tag existing PDFs that lack a structure tree.  
+- **Aggiungi più contenuti** (tabelle, immagini) preservando la gerarchia dei tag.
+- **Genera un sommario** automaticamente utilizzando `Document.Outlines`.
+- **Esegui l'elaborazione batch** per taggare i PDF esistenti privi di struttura ad albero.
 
-Sentiti libero di sperimentare—cambia le coordinate, prova diversi livelli di intestazione, o integra questo snippet in una pipeline più ampia di generazione di report. Se incontri difficoltà, i forum e la documentazione di Aspose sono ottime risorse, ma i passaggi fondamentali che abbiamo coperto rimarranno sempre validi.
+Sentiti libero di sperimentare: cambia le coordinate, prova diversi livelli di intestazione, o integra questo snippet in una pipeline più ampia di generazione di report. Se incontri difficoltà, i forum e la documentazione di Aspose sono ottime risorse, ma i passaggi fondamentali che abbiamo coperto rimarranno sempre validi.
 
-Happy coding, and may your PDFs be both beautiful **and** accessible!
+Buona programmazione e che i tuoi PDF siano belli **e** accessibili!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -28,29 +28,29 @@ url: /pl/net/document-creation/create-pdf-document-with-aspose-pdf-add-page-shap
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Create PDF Document with Aspose.PDF – Add Page, Shape & Save
+# Utwórz dokument PDF za pomocą Aspose.PDF – Dodaj stronę, kształt i zapisz
 
-Ever needed to **create pdf document** in C# but weren't sure where to begin? You're not the only one—developers constantly ask, *“how do I add page to pdf and draw shapes without blowing up the file?”* The good news is that Aspose.PDF makes the whole process feel like a walk in the park.
+Czy kiedykolwiek musiałeś **stworzyć dokument PDF** w C#, ale nie wiedziałeś, od czego zacząć? Nie jesteś jedyny — programiści ciągle pytają: *„jak dodać stronę do pliku PDF i narysować kształty bez powiększania pliku?”* Dobra wiadomość jest taka, że ​​Aspose.PDF sprawia, że ​​cały proces wydaje się spacerkiem.
 
-In this tutorial we’ll walk through a complete, ready‑to‑run example that **creates a PDF document**, adds a fresh page, draws an oversized rectangle (an *Aspose PDF rectangle*), checks whether the shape stays inside the page bounds, and finally **save pdf file** to disk. By the end you’ll have a solid foundation for any PDF‑generation task, whether you’re building invoices, reports, or custom graphics.
+W tym samouczku przeprowadzimy Cię przez kompletny, gotowy do uruchomienia przykład, który **tworzy dokument PDF**, dodaje nową stronę, rysuje powiększony prostokąt (*prostokąt Aspose PDF*), sprawdza, czy kształt mieści się w granicach strony i na koniec **zapisuje plik PDF** na dysku. Po ukończeniu kursu będziesz mieć solidne podstawy do każdego zadania generowania plików PDF, niezależnie od tego, czy tworzysz faktury, raporty, czy niestandardowe grafiki.
 
-## What You’ll Learn
+## Czego się nauczysz
 
-- How to initialize an Aspose.PDF `Document` object.  
-- The exact steps to **add page to pdf** and why you should add pages before any content.  
-- How to define and style an **Aspose PDF rectangle** using `Rectangle` and `GraphInfo`.  
-- The method `CheckGraphicsBoundary` that tells you if a shape fits—perfect for avoiding clipped graphics.  
-- The simplest way to **save pdf file** while handling potential boundary issues.  
+- Jak zainicjować obiekt `Document` w Aspose.PDF.
+- Dokładne kroki **dodawania strony do pliku PDF** i dlaczego warto dodawać strony przed jakąkolwiek treścią.
+- Jak zdefiniować i nadać styl prostokątowi **Aspose PDF** za pomocą `Rectangle` i `GraphInfo`.
+- Metoda `CheckGraphicsBoundary`, która sprawdza, czy kształt pasuje — idealna do uniknięcia przycinania grafiki.
+- Najprostszy sposób na **zapisanie pliku PDF** z uwzględnieniem potencjalnych problemów z granicami.
 
-**Prerequisites:** .NET 6+ (or .NET Framework 4.6+), Visual Studio or any C# IDE, and a valid Aspose.PDF license (or the free evaluation). No other third‑party libraries are required.
+**Wymagania wstępne:** .NET 6+ (lub .NET Framework 4.6+), Visual Studio lub dowolne środowisko IDE C# oraz ważna licencja Aspose.PDF (lub bezpłatna wersja próbna). Nie są wymagane żadne inne biblioteki innych firm.
 
-![Create PDF Document example](alt="Utwórz dokument PDF przy użyciu Aspose.PDF, pokazujący czerwony prostokąt wykraczający poza granice strony")
+![Create PDF Document example](alt="Utwórz dokument PDF przy użyciu Aspose.PDF, udostępniany kultowy czerwony osiągający poza granicami strony")
 
 ---
 
-## Step 1 – Initialize the PDF Document
+## Krok 1 – Zainicjuj dokument PDF
 
-The first thing you need is a blank canvas. In Aspose.PDF this is the `Document` class. Think of it as the notebook where every page you add will live.
+Pierwszą rzeczą, której potrzebujesz, jest puste płótno. W Aspose.PDF jest to klasa „Dokument”. Wyobraź sobie ją jako notatnik, w którym będzie przechowywana każda dodana strona.
 
 ```csharp
 using Aspose.Pdf;
@@ -60,39 +60,39 @@ using Aspose.Pdf.Drawing;
 var pdfDocument = new Document();
 ```
 
-*Why this matters:* The `Document` object holds all pages, fonts, and resources. Creating it early ensures you have a clean slate and avoids hidden state bugs later on.
+*Dlaczego to ważne:* Obiekt „Dokument” przechowuje wszystkie strony, czcionki i zasoby. Utworzenie go na wczesnym etapie zapewnia czysty projekt i pozwala uniknąć ukrytych błędów stanu w przyszłości.
 
 ---
 
-## Step 2 – Add a Page to PDF
+## Krok 2 – Dodaj stronę do pliku PDF
 
-A PDF without pages is like a book with no pages—pretty useless. Adding a page is a one‑liner, but you should understand the default page size (A4 = 595 × 842 points) because it influences how your shapes will render.
+Plik PDF bez stron jest jak książka bez stron — praktycznie bezużyteczny. Dodanie strony to prosta czynność, ale warto zrozumieć domyślny rozmiar strony (A4 = 595 × 842 punkty), ponieważ wpływa on na sposób renderowania kształtów.
 
 ```csharp
 // Step 2: Add a page to the document
 Page pdfPage = pdfDocument.Pages.Add();   // A4 size by default
 ```
 
-> **Pro tip:** If you need a custom size, use `pdfDocument.Pages.Add(width, height)`—just remember that all coordinates are measured in points (1 pt = 1/72 inch).
+> **Wskazówka:** Jeśli potrzebujesz niestandardowego rozmiaru, użyj `pdfDocument.Pages.Add(szerokość, wysokość)` — pamiętaj tylko, że wszystkie współrzędne są mierzone w punktach (1 pkt = 1/72 cala).
 
 ---
 
-## Step 3 – Define an Oversized Rectangle (Aspose PDF Rectangle)
+## Krok 3 — Zdefiniuj prostokąt o powiększonym rozmiarze (prostokąt Aspose PDF)
 
-Now we create a rectangle larger than the page. This is intentional: we’ll later demonstrate how to detect overflow.
+Teraz tworzymy prostokąt większy niż strona. Jest to celowe: później pokażemy, jak wykryć przepełnienie.
 
 ```csharp
 // Step 3: Define a rectangle larger than the page size (A4 = 595×842)
 var oversizedRect = new Rectangle(0, 0, 800, 1200);
 ```
 
-*Why use an oversized shape?* It lets you test `CheckGraphicsBoundary`, a handy method that prevents accidental clipping when you later place graphics programmatically.
+*Dlaczego używać powiększonego kształtu?* Pozwala to przetestować `CheckGraphicsBoundary`, przydatną metodę zapobiegającą przypadkowemu przycinaniu podczas późniejszego programowego umieszczania grafiki.
 
 ---
 
-## Step 4 – How to Add Shape PDF: Create the Aspose PDF Rectangle Shape
+## Krok 4 — Jak dodać kształt PDF: Utwórz kształt prostokąta Aspose PDF
 
-With the dimensions set, we turn the `Rectangle` into a drawable shape and give it a vibrant red color.
+Po ustawieniu wymiarów przekształcamy `Prostokąt` w kształt możliwy do narysowania i nadajemy mu intensywny czerwony kolor.
 
 ```csharp
 // Step 4: Create a rectangle shape, set its color to red
@@ -100,39 +100,39 @@ var redRectangleShape = new Rectangle(oversizedRect);
 redRectangleShape.GraphInfo = new GraphInfo { Color = Color.Red };
 ```
 
-The `GraphInfo` property controls visual aspects such as stroke color, line width, and fill. Here we only set the stroke color, but you could also fill the rectangle by adding `FillColor = Color.Yellow` for a highlighted effect.
+Właściwość `GraphInfo` kontroluje aspekty wizualne, takie jak kolor obrysu, szerokość linii i wypełnienie. Tutaj ustawiamy tylko kolor obrysu, ale możesz również wypełnić prostokąt, dodając `FillColor = Color.Yellow`, aby uzyskać efekt podświetlenia.
 
 ---
 
-## Step 5 – Add the Shape to the Page’s Content
+## Krok 5 – Dodaj kształt do zawartości strony
 
-Now that the shape is ready, we insert it into the page’s paragraph collection. This is the point where the rectangle becomes part of the PDF layout.
+Gdy kształt jest już gotowy, wstawiamy go do kolekcji akapitów strony. W tym momencie prostokąt staje się częścią układu PDF.
 
 ```csharp
 // Step 5: Add the shape to the page's content
 pdfPage.Paragraphs.Add(redRectangleShape);
 ```
 
-*Behind the scenes:* Aspose.PDF treats every drawable element as a paragraph, which simplifies layering and ordering. Adding the shape early means you can still adjust its position later if needed.
+*Za kulisami:* Aspose.PDF traktuje każdy element rysowalny jako akapit, co upraszcza warstwowanie i porządkowanie. Dodanie kształtu na wczesnym etapie oznacza, że ​​w razie potrzeby można później dostosować jego położenie.
 
 ---
 
-## Step 6 – Verify Shape Fits: Using CheckGraphicsBoundary
+## Krok 6 – Sprawdź dopasowanie kształtu: Korzystanie z funkcji CheckGraphicsBoundary
 
-Before we commit the file, let’s ask Aspose whether the rectangle stays inside the page boundaries. This step answers the common question, *“how to add shape pdf without it spilling over?”*
+Zanim zatwierdzimy plik, sprawdźmy w Aspose, czy prostokąt mieści się w granicach strony. Ten krok odpowiada na częste pytanie: *„jak dodać kształt w formacie PDF, aby nie wychodził poza obszar?”*
 
 ```csharp
 // Step 6: Verify whether the shape fits completely inside the page bounds
 bool fitsWithinPage = pdfPage.CheckGraphicsBoundary(redRectangleShape);
 ```
 
-`fitsWithinPage` will be `false` for our oversized rectangle. You can handle the result however you like—log a warning, resize the shape, or abort the save.
+W przypadku naszego prostokąta o zbyt dużym rozmiarze parametr `fitsWithinPage` będzie miał wartość `false`. Możesz dostosować wynik w dowolny sposób — wyświetlić ostrzeżenie, zmienić rozmiar kształtu lub przerwać zapisywanie.
 
 ---
 
-## Step 7 – Save PDF File and Output Result
+## Krok 7 – Zapisywanie pliku PDF i wynik wyjściowy
 
-Finally, we write the document to disk. The `Save` method supports many formats; here we stick with the classic PDF.
+Na koniec zapisujemy dokument na dysku. Metoda `Save` obsługuje wiele formatów; tutaj trzymamy się klasycznego pliku PDF.
 
 ```csharp
 // Step 7: Output the result and save the PDF
@@ -143,14 +143,14 @@ Console.WriteLine(fitsWithinPage
 pdfDocument.Save("YOUR_DIRECTORY/ShapeBoundaryCheck.pdf");
 ```
 
-> **What if the shape exceeds the bounds?**  
-> You could shrink it by scaling the rectangle dimensions, or move it to a new page. The `CheckGraphicsBoundary` method is perfect for loops that auto‑adjust shapes until they fit.
+> **Co się stanie, jeśli kształt przekroczy granice?**
+> Możesz go zmniejszyć, skalując wymiary prostokąta, lub przenieść na nową stronę. Metoda `CheckGraphicsBoundary` idealnie nadaje się do pętli, które automatycznie dopasowują kształty, aż do ich dopasowania.
 
 ---
 
-## Full Working Example
+## Pełny przykład działania
 
-Copy‑paste the entire block below into a new console project. It compiles as‑is (just replace `YOUR_DIRECTORY` with a real folder).
+Skopiuj i wklej cały poniższy blok do nowego projektu konsoli. Kompiluje się tak jak jest (wystarczy zastąpić `YOUR_DIRECTORY` prawdziwym folderem).
 
 ```csharp
 using Aspose.Pdf;
@@ -188,29 +188,29 @@ using (var pdfDocument = new Document())
 Shape exceeds page boundaries – adjust before saving.
 ```
 
-When you open `ShapeBoundaryCheck.pdf`, you’ll see a bright red rectangle that spills past the page edges—exactly what we programmed.
+Po otwarciu pliku `ShapeBoundaryCheck.pdf` zobaczysz jasnoczerwony prostokąt wykraczający poza krawędzie strony — dokładnie tak, jak zaprogramowaliśmy.
 
 ---
 
-## Common Questions & Edge Cases
+## Często zadawane pytania i przypadki skrajne
 
-| Question | Answer |
+| Pytanie | Odpowiedź |
 |----------|--------|
-| *Can I add multiple shapes?* | Absolutely. Just repeat steps 4‑5 for each shape, or store them in a list and loop. |
-| *What if I need a different page size?* | Use `pdfDocument.Pages.Add(width, height)` before adding shapes. Remember to recalculate coordinates. |
-| *Is `CheckGraphicsBoundary` expensive?* | It’s a lightweight check; you can call it for each shape without noticeable overhead. |
-| *How do I fill the rectangle?* | Set `redRectangleShape.GraphInfo.FillColor = Color.Yellow;` before adding it to the page. |
-| *Do I need a license for Aspose.PDF?* | The free evaluation works, but it adds a watermark. For production, a license removes the watermark and unlocks full features. |
+| *Czy mogę dodać wiele kształtów?* | Oczywiście. Wystarczy powtórzyć kroki 4–5 dla każdego kształtu lub zapisać je na liście i zapętlić. |
+| *Co zrobić, jeśli potrzebuję innego rozmiaru strony?* | Użyj `pdfDocument.Pages.Add(width, height)` przed dodaniem kształtów. Pamiętaj o ponownym obliczeniu współrzędnych. |
+| *Czy `CheckGraphicsBoundary` jest kosztowne?* | To lekkie sprawdzenie; można je wywołać dla każdego kształtu bez zauważalnego narzutu. |
+| *Jak wypełnić prostokąt?* | Ustaw `redRectangleShape.GraphInfo.FillColor = Color.Yellow;` przed dodaniem go do strony. |
+| *Czy potrzebuję licencji na Aspose.PDF?* | Bezpłatna wersja próbna działa, ale dodaje znak wodny. W wersji produkcyjnej licencja usuwa znak wodny i odblokowuje wszystkie funkcje. |
 
 ---
 
-## Conclusion
+## Podsumowanie
 
-You now know how to **create pdf document** with Aspose.PDF, **add page to pdf**, draw an **aspose pdf rectangle**, verify its boundaries, and **save pdf file** safely. This end‑to‑end example covers the essential building blocks for any PDF‑generation scenario in C#.
+Wiesz już, jak **utworzyć dokument PDF** za pomocą Aspose.PDF, **dodać stronę do pliku PDF**, narysować **prostokąt Aspose PDF**, sprawdzić jego granice i **bezpiecznie zapisać plik PDF**. Ten kompleksowy przykład obejmuje podstawowe elementy każdego scenariusza generowania plików PDF w języku C#.
 
-Ready for the next step? Try swapping the red rectangle for a logo image, experiment with different page orientations, or generate a table of contents automatically. The Aspose.PDF API is rich enough to handle invoices, reports, and even interactive forms—so go ahead and make those PDFs work for you.
+Gotowy na kolejny krok? Spróbuj zamienić czerwony prostokąt na logo, poeksperymentuj z różnymi orientacjami strony lub wygeneruj spis treści automatycznie. API Aspose.PDF jest wystarczająco rozbudowane, aby obsługiwać faktury, raporty, a nawet formularze interaktywne – więc śmiało, spraw, aby te pliki PDF działały na Twoją korzyść.
 
-If you ran into any hiccups, drop a comment below. Happy coding, and may your PDFs always stay within the margins!
+Jeśli napotkałeś jakieś problemy, zostaw komentarz poniżej. Powodzenia w kodowaniu i oby Twoje pliki PDF zawsze mieściły się w marginesach!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

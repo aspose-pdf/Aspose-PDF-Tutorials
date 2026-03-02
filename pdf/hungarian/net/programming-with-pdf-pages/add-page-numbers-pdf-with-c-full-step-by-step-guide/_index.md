@@ -28,22 +28,22 @@ url: /hu/net/programming-with-pdf-pages/add-page-numbers-pdf-with-c-full-step-by
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Add page numbers pdf with C# – Complete Programming Tutorial
+# Oldalszámok hozzáadása pdf-hez C#-val – Teljes programozási oktatóanyag
 
-Ever needed to **add page numbers pdf** files but weren’t sure where to start? You’re not the only one—developers constantly ask how to stamp numbers, footers, or even a Bates‑style identifier on every page of a PDF.  
+Szüksége volt már **oldalszámok hozzáadására pdf** fájlokhoz, de nem tudta, hol kezdje? Nem Ön az egyetlen – a fejlesztők folyamatosan azt kérdezik, hogyan lehet számokat, lábléceket vagy akár Bates-stílusú azonosítót elhelyezni egy PDF minden oldalán.
 
-In this tutorial you’ll see a ready‑to‑run C# example that **loops through pdf pages**, stamps a page‑number footer, and (if you wish) adds a custom watermark. We’ll also show you how to switch the stamp to a Bates number, which is just a fancy way of saying “add bates numbering” for legal or forensic documents. By the end, you’ll have a single, reusable method that handles all of these tasks without breaking a sweat.
+Ebben az oktatóanyagban egy futtatásra kész C# példát láthat, amely **végigjárja a pdf oldalakat**, oldalszámot tartalmazó láblécet helyez el, és (ha szeretné) egyéni vízjelet ad hozzá. Azt is megmutatjuk, hogyan válthatja át a bélyegzőt Bates-számra, ami csak egy divatos módja annak, hogy jogi vagy igazságügyi dokumentumokhoz „Bates-számozás hozzáadása”-t mondjon. A végére egyetlen, újrafelhasználható metódusa lesz, amely mindezeket a feladatokat gond nélkül kezeli.
 
-## Add page numbers pdf – Overview
+## Oldalszámok hozzáadása pdf-hez – Áttekintés
 
-Before we dive into code, let’s clarify what “add page numbers pdf” really means in the Aspose.Pdf world. The library treats any piece of text you place on a page as a **TextStamp**. By creating one stamp with a page placeholder (`{page}`) and applying it to each page, you automatically get sequential numbering. The same stamp can carry additional text, so you can **add footer text** like “Confidential” or a case‑specific identifier.
+Mielőtt belemerülnénk a kódba, tisztázzuk, mit jelent valójában az „oldalszámok hozzáadása pdf” az Aspose.Pdf világában. A könyvtár minden oldalra elhelyezett szövegrészt **Szövegbélyegzőként** kezel. Ha létrehoz egy bélyegzőt egy oldalhelykitöltővel (`{page}`), és azt minden oldalra alkalmazza, automatikusan sorszámozást kap. Ugyanaz a bélyegző további szöveget is hordozhat, így **hozzáadhat láblécszöveget**, például „Bizalmas” vagy egy esetspecifikus azonosítót.
 
-> **Why use a stamp instead of editing the PDF content stream?**  
-> Stamps are high‑level objects that respect page margins, rotation, and existing graphics. They’re also far easier to maintain—just change a few properties and re‑run the script.
+> **Miért érdemes bélyegzőt használni a PDF tartalomfolyam szerkesztése helyett?**
+> A bélyegzők magas szintű objektumok, amelyek tiszteletben tartják az oldalmargókat, az elforgatást és a meglévő grafikákat. Sokkal könnyebben karbantarthatók is – csak néhány tulajdonságot kell megváltoztatni, és újra futtatni a szkriptet.
 
-## Loop through PDF pages to apply stamps
+## PDF oldalakon végigfuttatása bélyegzők alkalmazásához
 
-The first practical step is to open the source PDF and iterate over its pages. This is the classic **loop through pdf pages** pattern that most Aspose examples use.
+Az első gyakorlati lépés a forrás PDF megnyitása és az oldalakon való végigfutás. Ez a klasszikus **pdf oldalakon végigfutó** minta, amelyet a legtöbb Aspose példa használ.
 
 ```csharp
 using Aspose.Pdf;
@@ -66,11 +66,11 @@ using (var pdfDocument = new Document(sourcePdfPath))
 }
 ```
 
-> **Pro tip:** If your PDF is huge (hundreds of pages), consider processing it in batches to keep memory usage low. Aspose.Pdf streams pages lazily, so the loop itself is already pretty efficient.
+> **Profi tipp:** Ha a PDF-ed hatalmas (több száz oldalas), érdemes kötegekben feldolgozni, hogy alacsonyan tartsd a memóriahasználatot. Az Aspose.Pdf lassan streameli az oldalakat, így maga a ciklus már elég hatékony.
 
-## Add bates numbering and footer text
+## Bates-számozás és lábléc szöveg hozzáadása
 
-Now that we can walk through each page, let’s create a **reusable TextStamp** that carries both the page number and optional footer text. The `{page}` placeholder is automatically replaced by the current page index.
+Most, hogy végigmehettünk az egyes oldalakon, hozzunk létre egy **újrafelhasználható szövegbélyegzőt**, amely tartalmazza mind az oldalszámot, mind az opcionális lábléc szöveget. A `{page}` helyőrzőt automatikusan az aktuális oldalindex helyettesíti.
 
 ```csharp
 // Create a stamp that will be reused for every page
@@ -92,13 +92,14 @@ foreach (Page page in pdfDocument.Pages)
     page.AddStamp(batesStamp);
 ```
 
-### Why this works
+### Miért működik ez
 
-* **`Bates-{page}`** – Aspose substitutes `{page}` with the actual page number, giving you a classic Bates number automatically.
-* **`Confidential`** – This is the **add footer text** part. You can replace it with any string, even pull data from a database.
-* **Styling** – Using `TextState` lets you tweak color, opacity, and even rotation without touching the PDF's inner content streams.
+* **`Bates-{page}`** – Az Aspose a `{page}` helyére a tényleges oldalszámot írja, így automatikusan egy klasszikus Bates-számot kapsz.
 
-If you only need plain numbers, drop the “Bates‑” prefix and the extra text:
+* **`Bizalmas`** – Ez a **lábléc szöveg hozzáadása** rész. Bármilyen karakterlánccal lecserélheted, akár adatbázisból is lekérhetsz adatokat.
+* **Stílus** – A `TextState` használatával a PDF belső tartalomfolyamainak érintése nélkül módosíthatod a színt, az átlátszóságot és akár az elforgatást is.
+
+Ha csak sima számokra van szükséged, hagyd el a „Bates-” előtagot és az extra szöveget:
 
 ```csharp
 var simpleStamp = new TextStamp("{page}")
@@ -112,9 +113,9 @@ var simpleStamp = new TextStamp("{page}")
 };
 ```
 
-## Add a custom watermark (optional)
+## Egyéni vízjel hozzáadása (opcionális)
 
-Sometimes you want more than a footer—you need a semi‑transparent logo or a “DRAFT” overlay across the whole page. That’s where **add custom watermark** comes in. The same `TextStamp` class can be repurposed, just change its alignment and opacity.
+Néha többre van szükség, mint egy lábléc – szükséged lehet egy félig átlátszó logóra vagy egy „VÁZLAT” feliratra az egész oldalon. Itt jön képbe az **egyéni vízjel hozzáadása**. Ugyanaz a `TextStamp` osztály újrafelhasználható, csak az igazítását és az átlátszóságát kell megváltoztatni.
 
 ```csharp
 var watermark = new TextStamp("DRAFT")
@@ -136,11 +137,11 @@ foreach (Page page in pdfDocument.Pages)
 }
 ```
 
-> **Note:** Order matters. Adding the watermark first ensures the page numbers stay readable on top of the semi‑transparent text.
+> **Megjegyzés:** A sorrend számít. A vízjel első hozzáadása biztosítja, hogy az oldalszámok olvashatók maradjanak a félig átlátszó szöveg tetején.
 
-## Save the PDF and verify results
+## A PDF mentése és az eredmények ellenőrzése
 
-After stamping, the final step is to write the changes back to disk. The `Save` call we placed earlier does the heavy lifting, but let’s add a quick verification snippet that opens the new file and prints how many pages were processed.
+A bélyegzés után az utolsó lépés a módosítások lemezre írása. A korábban végrehajtott `Mentés` hívás elvégzi a nehéz munkát, de adjunk hozzá egy gyors ellenőrző kódrészletet, amely megnyitja az új fájlt, és kinyomtatja, hogy hány oldalt dolgoztunk fel.
 
 ```csharp
 pdfDocument.Save(outputPdfPath);
@@ -152,20 +153,20 @@ using (var resultDoc = new Document(outputPdfPath))
 }
 ```
 
-When you run the full program, you should see a PDF where every page ends with something like **“Bates‑3 – Confidential”** (or just “3” if you used the simple stamp) and, if you enabled the watermark, a faint “DRAFT” across the middle.
+A teljes program futtatásakor egy olyan PDF-et kell látnod, ahol minden oldal valami ilyesmivel végződik: **„Bates-3 – Bizalmas”** (vagy csak „3”, ha az egyszerű bélyegzőt használtad), és ha engedélyezted a vízjelet, egy halvány „VÁZLAT” felirattal a közepén.
 
-### Expected output
+### Várható kimenet
 
-| Page | Footer (example) |
-|------|------------------|
-| 1    | Bates‑1 – Confidential |
-| 2    | Bates‑2 – Confidential |
-| …    | … |
-| N    | Bates‑N – Confidential |
+| Oldal | Lábléc (példa) |
+|------|-------------------|
+| 1 | Bates‑1 – Bizalmas |
+| 2 | Bates‑2 – Bizalmas |
+| … | … |
+| N | Bates‑N – Bizalmas |
 
-If you opened the file in a viewer, the numbers will sit 20 pts from the left and bottom margins, matching typical legal‑document conventions.
+Ha egy megjelenítőben nyitotta meg a fájlt, a számok a bal és az alsó margótól 20 ponttal lesznek, a jogi dokumentumokra jellemző konvencióknak megfelelően.
 
-## Full working example (copy‑paste ready)
+## Teljes működő példa (másolásra és beillesztésre kész)
 
 ```csharp
 using Aspose.Pdf;
@@ -209,17 +210,17 @@ using (var pdfDocument = new Document(sourcePdfPath))
 }
 ```
 
-Save this as `AddPageNumbers.cs`, restore the Aspose.Pdf NuGet package (`Install-Package Aspose.Pdf`), and run it. You’ll get a **add page numbers pdf** file that also demonstrates **add bates numbering**, **add footer text**, **add custom watermark**, and the classic **loop through pdf pages** pattern—all in one tidy script.
+Mentsd el ezt `AddPageNumbers.cs` néven, állítsd vissza az Aspose.Pdf NuGet csomagot (`Install-Package Aspose.Pdf`), és futtasd. Kapsz egy **oldalszámozást tartalmazó pdf** fájlt, amely bemutatja a **Bates-számozás hozzáadását**, a **lábléc szövegének hozzáadását**, az **egyéni vízjel hozzáadását** és a klasszikus **pdf oldalakon keresztüli ciklusos léptetést** mintát – mindezt egyetlen rendezett szkriptben.
 
-![add page numbers pdf example](https://example.com/images/add-page-numbers-pdf.png "Screenshot showing numbered PDF pages with footer and watermark")
+![oldalszámozás hozzáadása pdf példa](https://example.com/images/add-page-numbers-pdf.png "Képernyőkép, amely számozott PDF oldalakat mutat lábléccel és vízjellel")
 
-## Conclusion
+## Konklúzió
 
-We’ve covered everything you need to **add page numbers pdf** files using Aspose.Pdf in C#. From looping through each page, to stamping Bates numbers, appending custom footer text, and even layering a semi‑transparent watermark, the code is compact enough to drop into any existing project.  
+Mindent lefedtünk, amire szükséged van az **oldalszámozáshoz pdf** fájlokban az Aspose.Pdf használatával C#-ban. Az egyes oldalakon keresztüli ciklusoktól kezdve a Bates-számok pecsételésén át az egyéni lábléc szövegének hozzáfűzéséig és egy félig átlátszó vízjel rétegezéséig a kód elég kompakt ahhoz, hogy bármilyen meglévő projektbe beilleszthető legyen.
 
-Next, you might want to explore more advanced scenarios—like pulling the footer text from a database, applying different fonts per section, or generating a separate index PDF that lists all Bates numbers. All of those extensions build on the same core ideas we’ve shown here, so you’re well‑positioned to expand the solution as your requirements grow.  
+Ezután érdemes lehet bonyolultabb forgatókönyveket is felfedezni – például a lábléc szövegének adatbázisból való lekérését, különböző betűtípusok alkalmazását szakaszonként, vagy egy különálló index PDF létrehozását, amely felsorolja az összes Bates-számot. Mindezek a bővítmények ugyanazokra az alapvető ötletekre épülnek, amelyeket itt bemutattunk, így jó helyzetben leszel ahhoz, hogy a megoldást az igényeid növekedésével bővítsd.
 
-Give it a try, tweak the styling, and let me know in the comments how it worked for you. Happy coding!
+Próbáld ki, finomhangold a stílust, és írd meg a hozzászólásokban, hogy neked hogyan vált be. Jó programozást!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

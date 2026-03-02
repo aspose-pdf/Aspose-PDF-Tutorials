@@ -25,20 +25,20 @@ url: /ja/net/programming-with-pdf-pages/add-page-numbers-pdf-with-c-full-step-by
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Add page numbers pdf with C# – Complete Programming Tutorial
+# C# で PDF にページ番号を追加する – 完全なプログラミングチュートリアル
 
 PDF ファイルに **ページ番号を追加** したいけど、どこから始めればいいか分からないことはありませんか？ あなたは一人ではありません。開発者は常に、PDF の各ページに番号、フッター、あるいはベーツ方式の識別子をスタンプする方法を尋ねています。
 
 このチュートリアルでは、**PDF ページをループ** し、ページ番号フッターをスタンプし、（必要なら）カスタム透かしを追加する、すぐに実行できる C# のサンプルを紹介します。また、スタンプをベーツ番号に切り替える方法も示します。これは、法的またはフォレンジック文書向けに「ベーツ番号を追加」するということです。最後まで読めば、これらすべてのタスクを手間なく処理できる再利用可能なメソッドが手に入ります。
 
-## Add page numbers pdf – Overview
+## PDF にページ番号を追加する – 概要
 
 コードに入る前に、Aspose.Pdf の世界で「add page numbers pdf」が実際に何を意味するのかを整理しましょう。ライブラリでは、ページ上に配置するテキストはすべて **TextStamp** として扱われます。ページプレースホルダー（`{page}`）を含むスタンプを作成し、各ページに適用すれば、連番が自動的に付与されます。同じスタンプに追加テキストを入れれば、**フッター テキストの追加**（例: 「Confidential」やケース固有の識別子）も可能です。
 
 > **なぜ PDF のコンテンツストリームを直接編集せずにスタンプを使うのか？**  
 > スタンプはページの余白、回転、既存のグラフィックを考慮した高レベルオブジェクトです。プロパティを数か所変更してスクリプトを再実行するだけで済むので、保守性も格段に向上します。
 
-## Loop through PDF pages to apply stamps
+## PDF ページをループ処理してスタンプを適用する
 
 最初の実践ステップは、ソース PDF を開き、ページを順に走査することです。これはほとんどの Aspose サンプルで使用される、**loop through pdf pages** パターンです。
 
@@ -65,7 +65,7 @@ using (var pdfDocument = new Document(sourcePdfPath))
 
 > **プロのコツ:** PDF が数百ページと大きい場合は、バッチ処理でメモリ使用量を抑えることを検討してください。Aspose.Pdf はページを遅延ストリーミングするため、ループ自体はすでにかなり効率的です。
 
-## Add bates numbering and footer text
+## ベイツ番号とフッターテキストを追加する
 
 各ページを走査できるようになったので、ページ番号と任意のフッターテキストの両方を保持する **再利用可能な TextStamp** を作成しましょう。`{page}` プレースホルダーは現在のページインデックスに自動置換されます。
 
@@ -89,7 +89,7 @@ foreach (Page page in pdfDocument.Pages)
     page.AddStamp(batesStamp);
 ```
 
-### Why this works
+### この処理が機能する理由
 
 * **`Bates-{page}`** – Aspose が `{page}` を実際のページ番号に置き換えることで、クラシックなベーツ番号が自動的に生成されます。  
 * **`Confidential`** – これが **add footer text** 部分です。任意の文字列に置き換えられ、データベースから取得することも可能です。  
@@ -109,7 +109,7 @@ var simpleStamp = new TextStamp("{page}")
 };
 ```
 
-## Add a custom watermark (optional)
+## カスタム透かしを追加する（オプション）
 
 フッターだけでなく、半透明のロゴや「DRAFT」などの全ページに重ねるオーバーレイが必要になることもあります。そこで **add custom watermark** が活躍します。同じ `TextStamp` クラスを再利用し、配置と透明度を変更するだけです。
 
@@ -135,7 +135,7 @@ foreach (Page page in pdfDocument.Pages)
 
 > **注意:** 順序は重要です。透かしを先に追加すれば、ページ番号が半透明テキストの上に表示され、読みやすさが保たれます。
 
-## Save the PDF and verify results
+## PDF を保存して結果を確認する
 
 スタンプ処理が終わったら、変更をディスクに書き戻すだけです。先ほど配置した `Save` 呼び出しが主な処理を行いますが、ここで簡単な検証コードを追加し、処理したページ数を出力してみましょう。
 
@@ -151,18 +151,18 @@ using (var resultDoc = new Document(outputPdfPath))
 
 プログラムを実行すると、すべてのページの末尾に **「Bates‑3 – Confidential」**（シンプルスタンプを使用した場合は「3」）が表示され、透かしを有効にしていればページ中央に薄く「DRAFT」が重なります。
 
-### Expected output
+### 期待される出力
 
-| Page | Footer (example) |
-|------|------------------|
-| 1    | Bates‑1 – Confidential |
-| 2    | Bates‑2 – Confidential |
-| …    | … |
-| N    | Bates‑N – Confidential |
+| ページ | フッター（例）|
+|----------------------|------------------|
+| 1 | ベイツ番号 1 – 機密 |
+| 2 | ベイツ番号 2 – 機密 |
+| … | … |
+| N | ベイツ番号 N – 機密 |
 
 ビューアでファイルを開くと、番号は左下から 20 pts の位置に配置され、一般的な法務文書の慣例に合わせた配置になります。
 
-## Full working example (copy‑paste ready)
+## 完全な動作例（コピー＆ペースト可能）
 
 ```csharp
 using Aspose.Pdf;
@@ -210,7 +210,7 @@ using (var pdfDocument = new Document(sourcePdfPath))
 
 ![add page numbers pdf example](https://example.com/images/add-page-numbers-pdf.png "Screenshot showing numbered PDF pages with footer and watermark")
 
-## Conclusion
+## まとめ
 
 Aspose.Pdf と C# を使って **add page numbers pdf** ファイルを作成するために必要なすべてを網羅しました。ページごとのループ、ベーツ番号のスタンプ、カスタムフッターテキストの追加、さらには半透明透かしのレイヤリングまで、コードはどの既存プロジェクトにもすぐに組み込めるほどコンパクトです。
 

@@ -31,14 +31,14 @@ url: /zh-hant/net/programming-with-pdf-pages/add-page-numbers-pdf-with-c-full-st
 
 在本教學中，你將看到一個可直接執行的 C# 範例，會 **loop through pdf pages**，在每頁加上頁碼頁腳，並（如果需要）加入自訂浮水印。我們也會示範如何將印章切換成 Bates 編號，這只不過是法律或鑑識文件中「add bates numbering」的說法而已。完成後，你將擁有一個單一、可重複使用的方法，輕鬆處理上述所有工作。
 
-## Add page numbers pdf – Overview
+## 新增 PDF 頁碼 – 概述
 
 在深入程式碼之前，先釐清在 Aspose.Pdf 世界裡「add page numbers pdf」究竟是什麼意思。這個函式庫會將你放在頁面上的任何文字視為 **TextStamp**。只要建立一個帶有頁碼佔位符（`{page}`）的印章，並套用到每一頁，就會自動產生連續編號。同一個印章還可以攜帶額外文字，讓你 **add footer text** 如「Confidential」或特定案件的識別碼。
 
 > **為什麼使用印章而不是直接編輯 PDF 內容串流？**  
 > 印章是高階物件，會自動考慮頁邊距、旋轉角度以及既有圖形。維護起來也更簡單——只要調整幾個屬性，再重新執行腳本即可。
 
-## Loop through PDF pages to apply stamps
+## 遍歷 PDF 頁面以套用圖章
 
 第一個實作步驟是開啟來源 PDF，並對其頁面進行迭代。這就是大多數 Aspose 範例使用的 **loop through pdf pages** 模式。
 
@@ -65,7 +65,7 @@ using (var pdfDocument = new Document(sourcePdfPath))
 
 > **小技巧：** 若你的 PDF 非常龐大（上百頁），建議分批處理以降低記憶體使用量。Aspose.Pdf 會延遲載入頁面，因此迴圈本身已相當有效率。
 
-## Add bates numbering and footer text
+## 新增貝茨編號和頁尾文本
 
 現在我們可以逐頁走訪，接下來建立一個 **reusable TextStamp**，同時帶有頁碼與可選的頁腳文字。`{page}` 佔位符會自動被當前頁碼取代。
 
@@ -109,7 +109,7 @@ var simpleStamp = new TextStamp("{page}")
 };
 ```
 
-## Add a custom watermark (optional)
+## 新增自訂浮水印（可選）
 
 有時候你需要的不只是頁腳——可能要在整頁加上半透明的商標或「DRAFT」覆蓋層。這時 **add custom watermark** 就派上用場。只要重新設定 `TextStamp` 的對齊方式與不透明度，即可重新利用同一個類別。
 
@@ -135,7 +135,7 @@ foreach (Page page in pdfDocument.Pages)
 
 > **注意：** 執行順序很重要。先加入浮水印可以確保頁碼在半透明文字之上仍保持可讀。
 
-## Save the PDF and verify results
+## 儲存 PDF 並驗證結果
 
 印章完成後，最後一步是將變更寫回磁碟。先前放置的 `Save` 呼叫已負責大部分工作，這裡再加上一段簡易驗證程式碼，會開啟新檔並印出已處理的頁數。
 
@@ -151,18 +151,18 @@ using (var resultDoc = new Document(outputPdfPath))
 
 執行完整程式後，你應該會看到每一頁的結尾類似 **「Bates‑3 – Confidential」**（若使用簡易印章則只會是「3」），若啟用了浮水印，則會在頁面中間看到淡淡的「DRAFT」字樣。
 
-### Expected output
+### 預期輸出
 
-| Page | Footer (example) |
+| 頁碼 | 頁尾（範例） |
 |------|------------------|
-| 1    | Bates‑1 – Confidential |
-| 2    | Bates‑2 – Confidential |
-| …    | … |
-| N    | Bates‑N – Confidential |
+| 1 | Bates‑1 – 機密 |
+| 2 | Bates‑2 – 機密 |
+| … | … |
+| N | Bates‑N – 機密 |
 
 若在檢視器中開啟檔案，頁碼會距左邊與底部邊距各 20 pts，符合一般法律文件的慣例。
 
-## Full working example (copy‑paste ready)
+## 完整範例（可直接複製貼上）
 
 ```csharp
 using Aspose.Pdf;
@@ -210,7 +210,7 @@ using (var pdfDocument = new Document(sourcePdfPath))
 
 ![add page numbers pdf example](https://example.com/images/add-page-numbers-pdf.png "Screenshot showing numbered PDF pages with footer and watermark")
 
-## Conclusion
+## 結論
 
 我們已完整說明如何使用 Aspose.Pdf 於 C# **add page numbers pdf**。從逐頁迭代、蓋上 Bates 編號、加入自訂頁腳文字，到疊加半透明浮水印，程式碼足夠精簡，能直接嵌入任何既有專案。
 
