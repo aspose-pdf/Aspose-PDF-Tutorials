@@ -53,10 +53,11 @@ Leer hoe je grafieken kunt maken en aanpassen in PDF met Aspose.PDF voor .NET. V
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Lijn tekenen PDF
 Het tekenen van rechte of diagonale lijnen is een veelvoorkomende eis voor formulieren, handtekeningen en visuele hulplijnen. De tutorial “Draw Diagonal Lines” toont de exacte API‑aanroepen die nodig zijn om precieze lijnobjecten aan elke PDF‑pagina toe te voegen.
 
-{{< blocks/products/pf/tutorial-page-section >}}
 ## [Afbeeldingen genereren uit PDF met Aspose.PDF voor .NET](./net/images/)
 
 Leer hoe je afbeeldingen kunt genereren uit PDF‑bestanden met Aspose.PDF voor .NET. Converteer PDF‑pagina's moeiteloos naar JPEG, PNG of BMP in C# met hoge kwaliteit.
@@ -71,6 +72,8 @@ Leer hoe je afbeeldingen kunt genereren uit PDF‑bestanden met Aspose.PDF voor 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Afbeeldingen extraheren PDF
 De tutorial “Extract Images” laat zien hoe je raster‑assets uit bestaande PDF's kunt halen, een handige techniek voor hergebruik van inhoud of migratieprojecten.
 
@@ -80,7 +83,10 @@ Wanneer je kleinere bestanden of snellere weergave nodig hebt, legt de gids “R
 ## PDF‑afbeeldingen comprimeren
 Voor omgevingen met beperkte opslagruimte toont de tutorial “Shrink Image” compressie‑instellingen die de PDF‑grootte drastisch verkleinen zonder merkbaar visueel verlies.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
+
 ## [Uitgebreide tabel‑tutorials in Aspose.PDF voor .NET](./net/tables/)
 
 Leer hoe je tabellen kunt maken, opmaken en manipuleren in PDF‑documenten met Aspose.PDF voor .NET via stap‑voor‑stap‑tutorials en code‑voorbeelden.
@@ -97,10 +103,11 @@ Leer hoe je tabellen kunt maken, opmaken en manipuleren in PDF‑documenten met 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## Tabel toevoegen PDF
 Tabellen zijn essentieel voor rapporten en facturen. Deze sectie verzamelt de tabel‑gerelateerde tutorials, waardoor je een alles‑in‑één referentie hebt voor het toevoegen, stijlen en pagineren van tabellen in PDF's.
 
-{{< blocks/products/pf/tutorial-page-section >}}
 ## [Uitgebreide tutorials voor tekstverwerking in Aspose.PDF voor .NET](./net/text/)
 
 Leer hoe je tabellen kunt maken, opmaken en manipuleren in PDF‑documenten met Aspose.PDF voor .NET via stap‑voor‑stap‑tutorials en code‑voorbeelden.

@@ -278,6 +278,9 @@ Aspose.PDF for .NET ile PDF alanlarında karakter sınırlarının nasıl ayarla
 ### [.NET için Aspose.PDF ile PDF Açıklamalarını Güncelleyin: Kapsamlı Bir Kılavuz](./update-pdf-annotations-aspose-pdf-dotnet/)
 .NET için Aspose.PDF kullanarak PDF açıklamalarını programlı olarak nasıl güncelleyeceğinizi öğrenin. Bu kılavuz kurulum, uygulama ve performans ipuçlarını kapsar.
 
+### [Aspose ile PDF Belgesi Oluşturma – Sayfa, Metin Kutusu ve Form Ekleme](./create-pdf-document-with-aspose-add-page-text-box-and-form/)
+Aspose.PDF for .NET kullanarak yeni bir PDF oluşturun, sayfa ekleyin, metin kutusu ve form alanları ekleyerek belgeyi özelleştirin.
+
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)

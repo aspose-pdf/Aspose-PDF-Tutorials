@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-14"
-"description": "Naučte se, jak upravovat záložky PDF a přizpůsobovat nastavení prohlížeče pomocí Aspose.PDF pro Javu. Vylepšete uživatelský zážitek zvládnutím navigace a předvoleb rozvržení."
-"title": "Zvládněte Aspose.PDF v Javě, upravte záložky PDF a konfigurujte nastavení prohlížeče"
-"url": "/cs/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/"
-"weight": 1
+date: '2025-12-19'
+description: Naučte se, jak změnit rozložení stránek PDF, upravit záložky PDF a přizpůsobit
+  nastavení prohlížeče pomocí Aspose.PDF pro Javu. Ovládněte navigaci a preference
+  rozložení pro plynulejší uživatelský zážitek.
+keywords:
+- edit PDF bookmarks Java
+- Aspose.PDF viewer settings
+- configure PDF navigation Java
+title: 'Změna rozložení stránky PDF v Javě - úprava záložek a nastavení'
+url: /cs/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,27 +17,37 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Zvládněte Aspose.PDF v Javě: Úprava záložek PDF a konfigurace nastavení prohlížeče
+# Změna rozložení stránky PDF v Javě: úprava záložek a nastavení
 
-## Zavedení
-Navigace ve složitých PDF dokumentech může být obtížná, pokud jsou záložky špatně zarovnány nebo jsou nesprávně nastaveny předvolby prohlížeče. Tento tutoriál ukazuje, jak pomocí Aspose.PDF pro Javu upravovat existující záložky a přizpůsobovat nastavení zobrazení, což zlepšuje uživatelský komfort.
+## Úvod
+Navigace v komplexních PDF dokumentech může být obtížná, zejména když není správně nakonfigurováno nastavení **change PDF page layout** nebo záložky ukazují na špatná místa. V tomto tutoriálu se naučíte, jak **change PDF page layout**, **edit PDF bookmarks** a **configure PDF viewer settings** pomocí Aspose.PDF pro Java. Na konci budete mít plnou kontrolu nad navigací, cíli záložek a tím, jak je dokument prezentován čtenářům.
 
-**Co se naučíte:**
-- Upravte záložky PDF tak, aby přesně ukazovaly na začátek stránky.
-- Vytvořte si přesné záložky s konkrétními cíli během generování PDF.
-- Upravte preference prohlížeče pro optimální prezentaci.
+**Co se naučíte**
+- Jak upravit existující PDF záložky tak, aby ukazovaly na začátek stránky.  
+- Jak nastavit cíle záložek při vytváření PDF.  
+- Jak změnit předvolby prohlížeče, například rozložení stránky.  
+- Praktické tipy pro načítání PDF dokumentu v Javě a optimalizaci výkonu.
 
-Aspose.PDF pro Javu získejte plnou kontrolu nad navigací a nastavením rozvržení dokumentu. Pojďme si nastavit prostředí a implementovat tyto funkce krok za krokem.
+### Rychlé odpovědi
+- **Jaký je hlavní způsob, jak změnit rozložení stránky PDF?** Použijte `PdfContentEditor.changeViewerPreference()` s `ViewerPreference.PAGE_LAYOUT_SINGLE_PAGE`.  
+- **Mohu po vytvoření PDF upravit cíle záložek?** Ano – načtěte dokument, přistupte k osnově a nastavte nový `ExplicitDestination`.  
+- **Potřebuji licenci pro tyto funkce?** Bezplatná zkušební verze funguje pro hodnocení; plná licence odstraňuje všechna omezení.  
+- **Která Maven závislost je vyžadována?** `com.aspose:aspose-pdf:25.3` (nebo novější).  
+- **Je to kompatibilní s Java 11 a vyšší?** Rozhodně – Aspose.PDF podporuje Java 8+.
 
-### Předpoklady
-Než začnete, ujistěte se, že máte:
-- **Knihovny a závislosti**Pro Javu verze 25.3 nebo novější použijte soubor Aspose.PDF.
-- **Nastavení prostředí**Funkční vývojové prostředí v Javě s nainstalovaným JDK.
-- **Požadavky na znalosti**Základní znalost Javy a programově práce s PDF.
+## Co je „change PDF page layout“?
+Změna rozložení stránky PDF řídí, jak jsou stránky zobrazovány v prohlížeči – jednostránkové, kontinuální, dvoustránkové zobrazení atd. Úprava tohoto nastavení zlepšuje čitelnost, zejména u dlouhých zpráv nebo katalogů.
 
-### Nastavení souboru Aspose.PDF pro Javu
-#### Instalace Mavenu
-Chcete-li do projektu zahrnout Aspose.PDF, přidejte tuto závislost do svého `pom.xml`:
+## Proč upravovat PDF záložky a nastavovat cíle záložek?
+Záložky fungují jako obsah. Přesné cíle zajišťují, že čtenáři přeskakují přímo na požadovanou sekci, což snižuje frustraci a zlepšuje celkový uživatelský zážitek.
+
+## Předpoklady
+- **Knihovny a závislosti**: Aspose.PDF pro Java v25.3 nebo novější.  
+- **Prostředí**: JDK 8 nebo novější, Maven nebo Gradle.  
+- **Znalosti**: Základní programování v Javě a povědomí o PDF konceptech.
+
+## Nastavení Aspose.PDF pro Java
+### Instalace pomocí Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -39,131 +55,142 @@ Chcete-li do projektu zahrnout Aspose.PDF, přidejte tuto závislost do svého `
     <version>25.3</version>
 </dependency>
 ```
-#### Instalace Gradle
-Pro uživatele Gradle přidejte toto do svého `build.gradle`:
+### Instalace pomocí Gradle
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
-**Získání licence**Začněte s bezplatnou zkušební verzí nebo si požádejte o dočasnou licenci pro přístup k plným funkcím bez omezení. Pro dlouhodobé používání zvažte zakoupení plné licence.
-#### Základní inicializace
-Chcete-li začít používat Aspose.PDF:
+**Získání licence**: Začněte s bezplatnou zkušební verzí nebo požádejte o dočasnou licenci pro plný přístup k funkcím. Zvažte zakoupení trvalé licence pro produkční použití.
+
+### Základní inicializace
 ```java
 import com.aspose.pdf.Document;
 
 public class PDFSetup {
     public static void main(String[] args) {
-        // Inicializovat objekt dokumentu
+        // Initialize document object
         Document pdfDocument = new Document("path/to/your/pdf");
         
         System.out.println("Aspose.PDF for Java initialized successfully.");
     }
 }
 ```
-### Průvodce implementací
-Tato část se zabývá úpravou záložek, nastavením cílů během vytváření PDF a úpravou předvoleb prohlížeče.
-#### Úprava existujících záložek tak, aby ukazovaly na začátek stránky
-**Přehled**: Upravte záložky tak, aby přesně odkazovaly na začátek konkrétní stránky v dokumentu.
-1. **Přístup k záložkám**
-   Načtěte si PDF a zobrazte si jeho obrys záložek:
-   ```java
-   import com.aspose.pdf.Document;
-   import com.aspose.pdf.ExplicitDestination;
-   import com.aspose.pdf.OutlineItemCollection;
 
-   Document pdfDocument = new Document("YOUR_DOCUMENT_DIRECTORY/input.pdf");
-   OutlineItemCollection pdfOutline = pdfDocument.getOutlines().get_Item(1);
-   ```
-2. **Nastavení nového cíle**
-   Aktualizujte cíl tak, aby odkazoval na začátek stránky:
-   ```java
-   pdfOutline.setDestination(
-       ExplicitDestination.createDestination(pdfDocument.getPages().get_Item(1),
-           ExplicitDestinationType.FitH,
-           pdfDocument.getPages().get_Item(1).getMediaBox().getHeight())
-   );
-   ```
-3. **Ukládání změn**
-   Uložte si aktualizovaný PDF dokument:
-   ```java
-   String outputDir = "YOUR_OUTPUT_DIRECTORY/bookmarkShouldPointToStartOfPage.pdf";
-   pdfDocument.save(outputDir);
-   ```
-#### Vytváření nových záložek s konkrétními cílovými umístěními
-**Přehled**Vytvořte záložky, které uživatele povedou přímo na požadovaná místa v nově vygenerovaném PDF.
-1. **Vytvoření a konfigurace záložky**
-   Inicializujte novou záložku a nastavte její vlastnosti:
-   ```java
-   import com.aspose.pdf.GoToAction;
-   import com.aspose.pdf.FitVExplicitDestination;
+## Průvodce implementací
+### Jak změnit rozložení stránky PDF v Javě
+**Přehled**: Upravit předvolby prohlížeče tak, aby stránky byly zobrazeny podle vašich požadavků.
 
-   OutlineItemCollection pdfOutline_new = new OutlineItemCollection(pdfDocument.getOutlines());
-   pdfOutline_new.setTitle("Test Bookmark");
-   pdfOutline_new.setItalic(true);
-   pdfOutline_new.setBold(true);
-   ```
-2. **Definování cíle záložky**
-   Zadejte cíl pro vaši záložku:
-   ```java
-   pdfOutline_new.setAction(new GoToAction(
-       new FitVExplicitDestination(pdfDocument.getPages().get_Item(2), 0)));
-   ```
-3. **Přidání a uložení PDF**
-   Přidejte záložku do osnovy dokumentu a uložte ji:
-   ```java
-   pdfDocument.getOutlines().add(pdfOutline_new);
-   
-   String outputDir = "YOUR_OUTPUT_DIRECTORY/setDestinationWhileCreatingPDF.pdf";
-   pdfDocument.save(outputDir);
-   ```
-#### Nastavení předvoleb prohlížeče
-**Přehled**: Přizpůsobte si zobrazení PDF nastavením konkrétních předvoleb prohlížeče, jako je rozvržení stránky.
-1. **Inicializace PdfContentEditoru**
-   Použijte `PdfContentEditor` třída pro úpravu nastavení dokumentu:
-   ```java
-   import com.aspose.pdf.facades.PdfContentEditor;
-   import com.aspose.pdf.facades.ViewerPreference;
+#### Inicializace PdfContentEditor
+```java
+import com.aspose.pdf.facades.PdfContentEditor;
+import com.aspose.pdf.facades.ViewerPreference;
 
-   PdfContentEditor editor = new PdfContentEditor();
-   editor.bindPdf("YOUR_DOCUMENT_DIRECTORY/input.pdf");
-   ```
-2. **Změna předvoleb prohlížeče**
-   Nastavte prohlížeč na rozvržení na jednu stránku:
-   ```java
-   editor.changeViewerPreference(ViewerPreference.PAGE_LAYOUT_SINGLE_PAGE);
-   ```
-3. **Ukládání aktualizovaného dokumentu**
-   Uložte změny do souboru PDF:
-   ```java
-   String outputDir = "YOUR_OUTPUT_DIRECTORY/settingViewerPreferences.pdf";
-   editor.save(outputDir);
-   ```
-### Praktické aplikace
-1. **Digitální knihy**Vylepšete digitální knihy zajištěním, aby záložky vedly přímo na začátek kapitol.
-2. **Zprávy a manuály**Zlepšete navigaci v technických dokumentech pomocí přesného vytváření záložek a konfigurace prohlížeče.
-3. **Katalogy produktů pro e-commerce**Optimalizujte produktové katalogy pro zobrazení na jedné stránce, čímž je učiníte uživatelsky přívětivějšími.
-### Úvahy o výkonu
-- **Optimalizace zdrojů**: Při práci s velkými soubory PDF používejte efektivní datové struktury, abyste minimalizovali využití paměti.
-- **Správa paměti v Javě**Pro zachování výkonu dbejte na sběr odpadu a likvidaci zdrojů s Aspose.PDF.
-### Závěr
-Nyní máte nástroje pro přesnou úpravu záložek, vytváření přesných navigačních bodů během vytváření PDF a přizpůsobení preferencí prohlížeče vašim dokumentům. Prozkoumejte další funkce Aspose.PDF a integrujte je do větších projektů v Javě.
-**Další kroky**Zvažte prozkoumání pokročilých technik manipulace s dokumenty pomocí Aspose.PDF a integraci těchto funkcí do větších aplikací v Javě.
-### Sekce Často kladených otázek
-1. **Co je Aspose.PDF?**
-   - Výkonná knihovna pro správu PDF souborů v Javě, která nabízí funkce jako úprava, vytváření a konverze PDF dokumentů.
-2. **Jak upravím záložky v PDF pomocí Aspose.PDF?**
-   - Načtěte dokument, přejděte k požadované záložce, upravte její umístění a uložte změny, jak je znázorněno v tomto tutoriálu.
-3. **Může Aspose.PDF nastavit předvolby prohlížeče pro jednostránkové rozvržení?**
-   - Ano, s použitím `PdfContentEditor`můžete snadno upravit nastavení prohlížeče, například rozvržení stránky, a zlepšit tak čitelnost.
-4. **Je k dispozici bezplatná zkušební verze pro Aspose.PDF?**
-   - Rozhodně! Začněte s bezplatnou zkušební verzí nebo si požádejte o dočasnou licenci a prozkoumejte všechny funkce bez omezení.
-5. **Jaké jsou osvědčené postupy pro správu PDF souborů v Javě pomocí Aspose.PDF?**
-   - Využívejte efektivní správu paměti, kdekoli je to možné, využívejte dávkové zpracování a vždy ukládejte změny, abyste zabránili ztrátě dat.
-### Zdroje
-- **Dokumentace**: [Aspose.PDF Referenční příručka k Javě](https://reference.aspose.com/pdf/java/)
-- **Stáhnout**: [Nejnovější verze pro Javu](https://releases.aspose.com/pdf/java/)
-- **Nákup**: [Koupit licenci Aspose.PDF](https://purchase.aspose.com/buy)
-- **Bezplatná zkušební verze**: [Vyzkoušejte Aspose.PDF zdarma](https://releases.aspose.com/pdf/java/)
-- **Dočasná licence**: [Žádost o dočasnou licenci](https://purchase.aspose.com/temporary-license)
+PdfContentEditor editor = new PdfContentEditor();
+editor.bindPdf("YOUR_DOCUMENT_DIRECTORY/input.pdf");
+```
+#### Změna předvoleb prohlížeče
+```java
+editor.changeViewerPreference(ViewerPreference.PAGE_LAYOUT_SINGLE_PAGE);
+```
+#### Uložení aktualizovaného dokumentu
+```java
+String outputDir = "YOUR_OUTPUT_DIRECTORY/settingViewerPreferences.pdf";
+editor.save(outputDir);
+```
+
+### Jak upravit PDF záložky
+**Přehled**: Upravit existující záložky tak, aby přesně ukazovaly na začátek konkrétní stránky.
+
+#### Přístup k záložkám
+```java
+import com.aspose.pdf.Document;
+import com.aspose.pdf.ExplicitDestination;
+import com.aspose.pdf.OutlineItemCollection;
+
+Document pdfDocument = new Document("YOUR_DOCUMENT_DIRECTORY/input.pdf");
+OutlineItemCollection pdfOutline = pdfDocument.getOutlines().get_Item(1);
+```
+#### Nastavení nového cíle
+```java
+pdfOutline.setDestination(
+    ExplicitDestination.createDestination(pdfDocument.getPages().get_Item(1),
+        ExplicitDestinationType.FitH,
+        pdfDocument.getPages().get_Item(1).getMediaBox().getHeight())
+);
+```
+#### Uložení změn
+```java
+String outputDir = "YOUR_OUTPUT_DIRECTORY/bookmarkShouldPointToStartOfPage.pdf";
+pdfDocument.save(outputDir);
+```
+
+### Jak nastavit cíl záložky při vytváření PDF
+**Přehled**: Vytvořit záložky, které uživatele přímo navedou na požadovaná místa v nově generovaném PDF.
+
+#### Vytvoření a konfigurace záložky
+```java
+import com.aspose.pdf.GoToAction;
+import com.aspose.pdf.FitVExplicitDestination;
+
+OutlineItemCollection pdfOutline_new = new OutlineItemCollection(pdfDocument.getOutlines());
+pdfOutline_new.setTitle("Test Bookmark");
+pdfOutline_new.setItalic(true);
+pdfOutline_new.setBold(true);
+```
+#### Definice cíle záložky
+```java
+pdfOutline_new.setAction(new GoToAction(
+    new FitVExplicitDestination(pdfDocument.getPages().get_Item(2), 0)));
+```
+#### Přidání a uložení PDF
+```java
+pdfDocument.getOutlines().add(pdfOutline_new);
+
+String outputDir = "YOUR_OUTPUT_DIRECTORY/setDestinationWhileCreatingPDF.pdf";
+pdfDocument.save(outputDir);
+```
+
+## Praktické aplikace
+1. **Digitální knihy** – Zajistěte, aby každá záložka kapitoly končila na vrcholu stránky pro plynulý čtenářský zážitek.  
+2. **Technické příručky** – Přesná navigace pomáhá inženýrům rychle najít sekce, zejména ve velkých PDF.  
+3. **Produktové katalogy** – Jednostránkové rozložení usnadňuje prohlížení katalogů na tabletech.
+
+## Úvahy o výkonu
+- **Optimalizace zdrojů**: Při práci s velkými PDF použijte `Document.optimizeResources()` ke snížení spotřeby paměti.  
+- **Správa paměti v Javě**: Výslovně uzavírejte streamy a nechte garbage collector uvolnit objekty po zpracování.
+
+## Časté problémy a řešení
+- **Záložky se neaktualizují**: Ověřte, že upravujete správný index osnovy (`get_Item(1)` odkazuje na první záložku nejvyšší úrovně).  
+- **Předvolba prohlížeče se neaplikuje**: Ujistěte se, že po změně předvoleb zavoláte `editor.save()`; jinak zůstane změna jen v paměti.  
+- **Výjimky licence**: Zkušební licence může přidávat vodoznaky; pro produkci získejte plnou licenci.
+
+## Často kladené otázky
+**Q: Jaký je nejjednodušší způsob, jak načíst PDF dokument v Javě?**  
+A: Použijte `new Document("path/to/file.pdf")`; Aspose.PDF automaticky detekuje formát souboru.
+
+**Q: Mohu změnit rozložení stránky bez použití PdfContentEditor?**  
+A: Ano, můžete nastavit předvolby přímo na objektu `Document` pomocí `pdfDocument.getViewerPreferences().setPageLayout(...)`.
+
+**Q: Ovlivňuje změna rozložení prohlížeče tisk?**  
+A: Rozložení prohlížeče ovlivňuje pouze zobrazení na obrazovce; nemění výstup při tisku.
+
+**Q: Existují limity na počet záložek, které mohu vytvořit?**  
+A: Žádný explicitní limit, ale extrémně velké stromy osnov mohou ovlivnit výkon; udržujte je organizované.
+
+**Q: Jak zajistit, aby cíle záložek byly přesné po přidání nebo odebrání stránek?**  
+A: Přepočítejte cíle pomocí aktuálních indexů stránek po jakýchkoli strukturálních změnách.
+
+## Zdroje
+- **Dokumentace**: [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/)
+- **Stáhnout**: [Latest Releases for Java](https://releases.aspose.com/pdf/java/)
+- **Koupit**: [Buy Aspose.PDF License](https://purchase.aspose.com/buy)
+- **Bezplatná zkušební verze**: [Try Aspose.PDF Free](https://releases.aspose.com/pdf/java/)
+- **Dočasná licence**: [Request Temporary License](https://purchase.aspose.com/temporary-license)
+
+---
+
+**Poslední aktualizace:** 2025-12-19  
+**Testováno s:** Aspose.PDF pro Java v25.3  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

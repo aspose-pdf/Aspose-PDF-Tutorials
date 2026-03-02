@@ -65,6 +65,9 @@ Apprenez à créer des PDF dynamiques avec des tableaux et des boutons radio ave
 ### [Créer un champ ComboBox PDF avec Aspose.PDF pour .NET : Guide du développeur](./create-pdf-combobox-aspose-pdf-net/)
 Apprenez à créer des documents PDF interactifs avec des champs ComboBox grâce à Aspose.PDF pour .NET. Ce guide couvre la configuration, la mise en œuvre et le dépannage.
 
+### [Créer un document PDF avec Aspose – Ajouter une page, une zone de texte et un formulaire](./create-pdf-document-with-aspose-add-page-text-box-and-form/)
+Apprenez à créer un document PDF, ajouter une page, une zone de texte et un formulaire avec Aspose.PDF pour .NET.
+
 ### [Création de PDF interactifs avec Aspose.PDF .NET : implémentation d'actions de survol pour un engagement accru](./interactive-pdfs-aspose-pdf-net-hover-actions/)
 Apprenez à créer des PDF interactifs avec Aspose.PDF pour .NET en ajoutant des actions de survol. Améliorez l'engagement et la compréhension des utilisateurs dans des documents tels que des rapports, des formulaires et des manuels.
 
@@ -236,7 +239,7 @@ Apprenez à automatiser la lecture, l'ajout, la modification et la suppression d
 ### [Maîtriser la manipulation des formulaires PDF avec Aspose.PDF pour .NET](./master-aspose-pdf-dotnet-form-manipulation/)
 Apprenez à gérer et manipuler efficacement les formulaires PDF avec Aspose.PDF pour .NET. Améliorez vos flux de travail documentaires avec des champs dynamiques, des boutons d'envoi et bien plus encore.
 
-### [Maîtriser la manipulation de formulaires PDF dans .NET avec du texte arabe grâce à Aspose.PDF](./aspose-pdf-net-arabic-text-manipulation/)
+### [Maîtriser la manipulation des formulaires PDF dans .NET avec du texte arabe grâce à Aspose.PDF](./aspose-pdf-net-arabic-text-manipulation/)
 Apprenez à charger et modifier efficacement des formulaires PDF contenant du texte arabe avec Aspose.PDF pour .NET. Simplifiez la gestion de vos documents multilingues en toute simplicité.
 
 ### [Maîtriser la manipulation de formulaires PDF dans .NET avec Aspose.PDF : un guide complet](./master-net-pdf-form-manipulation-asposepdf/)

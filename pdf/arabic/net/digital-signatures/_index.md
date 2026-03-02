@@ -53,6 +53,7 @@
 ### [التحقق من توقيع PDF في C# – دليل شامل للتحقق من صحة التوقيع الرقمي للملف PDF](./verify-pdf-signature-in-c-complete-guide-to-validate-digital/)
 تعرّف على كيفية التحقق من توقيع PDF باستخدام C# من خلال دليل شامل للتحقق من صحة التوقيع الرقمي.
 
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

@@ -1,9 +1,13 @@
 ---
-"date": "2025-04-14"
-"description": "了解如何使用 Aspose.PDF for Java 編輯 PDF 書籤和自訂檢視器設定。透過掌握導航和佈局偏好來增強使用者體驗。"
-"title": "掌握 Aspose.PDF Java&#58;編輯 PDF 書籤和配置檢視器設置"
-"url": "/zh-hant/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/"
-"weight": 1
+date: '2025-12-19'
+description: 學習如何使用 Aspose.PDF for Java 變更 PDF 頁面版面、編輯 PDF 書籤，並自訂檢視器設定。掌握導覽與版面偏好，提升使用者體驗的流暢度。
+keywords:
+- edit PDF bookmarks Java
+- Aspose.PDF viewer settings
+- configure PDF navigation Java
+title: 在 Java 中更改 PDF 頁面佈局 - 編輯書籤與設定
+url: /zh-hant/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,27 +15,37 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# 掌握 Aspose.PDF Java：編輯 PDF 書籤和配置檢視器設定
+# 在 Java 中變更 PDF 頁面佈局：編輯書籤與設定
 
 ## 介紹
-如果書籤未對齊或檢視器首選項設定不正確，瀏覽複雜的 PDF 文件可能會很麻煩。本教學課程示範如何使用 Aspose.PDF for Java 編輯現有書籤和自訂檢視設置，從而增強使用者體驗。
+在瀏覽複雜的 PDF 文件時可能會相當繁瑣，尤其是 **change PDF page layout** 設定未正確配置或書籤指向錯誤位置時。在本教學中，您將學習如何使用 Aspose.PDF for Java 來 **change PDF page layout**、**edit PDF bookmarks**，以及 **configure PDF viewer settings**。完成後，您將能完整掌控文件的導覽、書籤目的地，以及文件呈現給讀者的方式。
 
-**您將學到什麼：**
-- 修改 PDF 書籤以準確指向頁面開始。
-- 在 PDF 生成期間建立具有特定目的地的精確書籤。
-- 調整觀看者偏好以獲得最佳呈現效果。
+**您將學習**
+- 如何編輯現有的 PDF 書籤，使其指向頁面的起始位置。  
+- 如何在建立 PDF 時設定書籤目的地。  
+- 如何變更檢視器偏好設定，例如頁面佈局。  
+- 在 Java 中載入 PDF 文件的實用技巧與效能最佳化。
 
-使用 Aspose.PDF for Java，您可以完全控製文件的導航和佈局設定。讓我們逐步設定您的環境並實現這些功能。
+### 快速答覆
+- **變更 PDF 頁面佈局的主要方式是什麼？** 使用 `PdfContentEditor.changeViewerPreference()` 搭配 `ViewerPreference.PAGE_LAYOUT_SINGLE_PAGE`。  
+- **可以在 PDF 建立後編輯書籤目的地嗎？** 可以 – 載入文件、存取大綱，並設定新的 `ExplicitDestination`。  
+- **使用這些功能需要授權嗎？** 免費試用版可供評估；完整授權會移除所有限制。  
+- **需要哪個 Maven 相依性？** `com.aspose:aspose-pdf:25.3`（或更新版本）。  
+- **此功能是否相容於 Java 11 以上？** 完全相容 – Aspose.PDF 支援 Java 8 以上。
 
-### 先決條件
-在開始之前，請確保您已：
-- **庫和依賴項**：使用 Aspose.PDF for Java 版本 25.3 或更高版本。
-- **環境設定**：安裝了 JDK 的可正常運作的 Java 開發設定。
-- **知識要求**：對 Java 和 PDF 程式處理有基本的了解。
+## 什麼是「change PDF page layout」？
+變更 PDF 頁面佈局可控制檢視器中頁面的顯示方式——單頁、連續、雙頁等。調整此設定可提升可讀性，特別是對於長篇報告或型錄而言。
 
-### 為 Java 設定 Aspose.PDF
-#### Maven 安裝
-若要將 Aspose.PDF 包含在您的專案中，請將此依賴項新增至您的 `pom.xml`：
+## 為什麼要編輯 PDF 書籤並設定書籤目的地？
+書籤就像目錄一樣。精確的目的地可讓讀者直接跳至目標章節，減少挫折感，提升整體使用體驗。
+
+## 前置條件
+- **函式庫與相依性**：Aspose.PDF for Java v25.3 或更新版本。  
+- **環境**：JDK 8 或更新，Maven 或 Gradle 建置工具。  
+- **知識**：基本的 Java 程式設計與 PDF 概念。
+
+## 設定 Aspose.PDF for Java
+### Maven 安裝
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -39,131 +53,142 @@
     <version>25.3</version>
 </dependency>
 ```
-#### Gradle 安裝
-對於 Gradle 用戶，將其新增至您的 `build.gradle`：
+### Gradle 安裝
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
-**許可證獲取**：從免費試用開始或申請臨時許可證以獲得不受限制的完整功能存取。考慮購買完整許可證以供長期使用。
-#### 基本初始化
-要開始使用 Aspose.PDF：
+**授權取得**：先使用免費試用版或申請臨時授權以取得完整功能。若於正式環境使用，建議購買永久授權。
+
+### 基本初始化
 ```java
 import com.aspose.pdf.Document;
 
 public class PDFSetup {
     public static void main(String[] args) {
-        // 初始化文檔對象
+        // Initialize document object
         Document pdfDocument = new Document("path/to/your/pdf");
         
         System.out.println("Aspose.PDF for Java initialized successfully.");
     }
 }
 ```
-### 實施指南
-本節介紹編輯書籤、在 PDF 建立期間設定目標以及修改檢視器首選項。
-#### 編輯現有書籤以指向頁面開頭
-**概述**：調整書籤，使其準確指向文件中特定頁面的開頭。
-1. **訪問書籤**
-   載入您的 PDF 並造訪其書籤大綱：
-   ```java
-   import com.aspose.pdf.Document;
-   import com.aspose.pdf.ExplicitDestination;
-   import com.aspose.pdf.OutlineItemCollection;
 
-   Document pdfDocument = new Document("YOUR_DOCUMENT_DIRECTORY/input.pdf");
-   OutlineItemCollection pdfOutline = pdfDocument.getOutlines().get_Item(1);
-   ```
-2. **設定新目的地**
-   更新目標以確保它指向頁面的開頭：
-   ```java
-   pdfOutline.setDestination(
-       ExplicitDestination.createDestination(pdfDocument.getPages().get_Item(1),
-           ExplicitDestinationType.FitH,
-           pdfDocument.getPages().get_Item(1).getMediaBox().getHeight())
-   );
-   ```
-3. **儲存變更**
-   儲存更新後的 PDF 文件：
-   ```java
-   String outputDir = "YOUR_OUTPUT_DIRECTORY/bookmarkShouldPointToStartOfPage.pdf";
-   pdfDocument.save(outputDir);
-   ```
-#### 建立具有特定目的地的新書籤
-**概述**：建立書籤，引導使用者直接存取新產生的 PDF 中的所需位置。
-1. **建立和配置書籤**
-   初始化新書籤並設定其屬性：
-   ```java
-   import com.aspose.pdf.GoToAction;
-   import com.aspose.pdf.FitVExplicitDestination;
+## 實作指南
+### 如何在 Java 中變更 PDF 頁面佈局
+**概述**：調整檢視器偏好設定，以符合所需的頁面顯示方式。
 
-   OutlineItemCollection pdfOutline_new = new OutlineItemCollection(pdfDocument.getOutlines());
-   pdfOutline_new.setTitle("Test Bookmark");
-   pdfOutline_new.setItalic(true);
-   pdfOutline_new.setBold(true);
-   ```
-2. **定義書籤目標**
-   指定書籤的目的地：
-   ```java
-   pdfOutline_new.setAction(new GoToAction(
-       new FitVExplicitDestination(pdfDocument.getPages().get_Item(2), 0)));
-   ```
-3. **新增並儲存 PDF**
-   將書籤加入文件大綱並儲存：
-   ```java
-   pdfDocument.getOutlines().add(pdfOutline_new);
-   
-   String outputDir = "YOUR_OUTPUT_DIRECTORY/setDestinationWhileCreatingPDF.pdf";
-   pdfDocument.save(outputDir);
-   ```
-#### 設定檢視器首選項
-**概述**：透過設定特定的檢視器首選項（如頁面佈局）來自訂 PDF 的檢視方式。
-1. **初始化 PdfContentEditor**
-   使用 `PdfContentEditor` 修改文檔設定的類別：
-   ```java
-   import com.aspose.pdf.facades.PdfContentEditor;
-   import com.aspose.pdf.facades.ViewerPreference;
+#### 初始化 PdfContentEditor
+```java
+import com.aspose.pdf.facades.PdfContentEditor;
+import com.aspose.pdf.facades.ViewerPreference;
 
-   PdfContentEditor editor = new PdfContentEditor();
-   editor.bindPdf("YOUR_DOCUMENT_DIRECTORY/input.pdf");
-   ```
-2. **變更檢視器首選項**
-   將檢視器首選項設定為單頁版面：
-   ```java
-   editor.changeViewerPreference(ViewerPreference.PAGE_LAYOUT_SINGLE_PAGE);
-   ```
-3. **儲存更新的文檔**
-   將變更儲存到您的 PDF 檔案：
-   ```java
-   String outputDir = "YOUR_OUTPUT_DIRECTORY/settingViewerPreferences.pdf";
-   editor.save(outputDir);
-   ```
-### 實際應用
-1. **數位圖書**：透過確保書籤直接指向章節開始來增強數位圖書。
-2. **報告和手冊**：透過精確的書籤和檢視器配置改善技術文件中的導覽。
-3. **電子商務產品目錄**：優化產品目錄單頁瀏覽，更人性化。
-### 性能考慮
-- **優化資源**：處理大型 PDF 檔案時使用高效的資料結構以最大限度地減少記憶體使用。
-- **Java記憶體管理**：注意使用 Aspose.PDF 進行垃圾收集和資源處理以保持效能。
-### 結論
-現在，您可以使用這些工具來準確編輯書籤、在建立 PDF 期間建立精確的導航點以及為您的文件自訂檢視器首選項。探索 Aspose.PDF 的附加功能並將其整合到更大的 Java 專案中。
-**後續步驟**：考慮使用 Aspose.PDF 探索進階文件操作技術，並將這些功能整合到更大的 Java 應用程式中。
-### 常見問題部分
-1. **什麼是 Aspose.PDF？**
-   - 一個用於使用 Java 管理 PDF 的強大函式庫，提供編輯、建立和轉換 PDF 文件等功能。
-2. **如何使用 Aspose.PDF 編輯 PDF 中的書籤？**
-   - 載入文檔，存取所需的書籤，修改其目的地，然後儲存更改，如本教學所示。
-3. **Aspose.PDF 可以為單頁版面配置檢視器首選項嗎？**
-   - 是的，使用 `PdfContentEditor`，您可以輕鬆調整檢視器設定（如頁面佈局）以提高可讀性。
-4. **Aspose.PDF 有免費試用版嗎？**
-   - 絕對地！從免費試用開始或申請臨時許可以無限制地探索所有功能。
-5. **使用 Aspose.PDF 在 Java 中管理 PDF 的最佳實務是什麼？**
-   - 利用高效的記憶體管理，盡可能利用批次處理，並始終保存變更以防止資料遺失。
-### 資源
-- **文件**： [Aspose.PDF Java 參考](https://reference.aspose.com/pdf/java/)
-- **下載**： [Java 的最新版本](https://releases.aspose.com/pdf/java/)
-- **購買**： [購買 Aspose.PDF 許可證](https://purchase.aspose.com/buy)
-- **免費試用**： [免費試用 Aspose.PDF](https://releases.aspose.com/pdf/java/)
-- **臨時執照**： [申請臨時許可證](https://purchase.aspose.com/temporary-license)
+PdfContentEditor editor = new PdfContentEditor();
+editor.bindPdf("YOUR_DOCUMENT_DIRECTORY/input.pdf");
+```
+#### 變更檢視器偏好設定
+```java
+editor.changeViewerPreference(ViewerPreference.PAGE_LAYOUT_SINGLE_PAGE);
+```
+#### 儲存更新的文件
+```java
+String outputDir = "YOUR_OUTPUT_DIRECTORY/settingViewerPreferences.pdf";
+editor.save(outputDir);
+```
+
+### 如何編輯 PDF 書籤
+**概述**：調整現有書籤，使其正確指向特定頁面的起始位置。
+
+#### 取得書籤
+```java
+import com.aspose.pdf.Document;
+import com.aspose.pdf.ExplicitDestination;
+import com.aspose.pdf.OutlineItemCollection;
+
+Document pdfDocument = new Document("YOUR_DOCUMENT_DIRECTORY/input.pdf");
+OutlineItemCollection pdfOutline = pdfDocument.getOutlines().get_Item(1);
+```
+#### 設定新目的地
+```java
+pdfOutline.setDestination(
+    ExplicitDestination.createDestination(pdfDocument.getPages().get_Item(1),
+        ExplicitDestinationType.FitH,
+        pdfDocument.getPages().get_Item(1).getMediaBox().getHeight())
+);
+```
+#### 儲存變更
+```java
+String outputDir = "YOUR_OUTPUT_DIRECTORY/bookmarkShouldPointToStartOfPage.pdf";
+pdfDocument.save(outputDir);
+```
+
+### 如何在建立 PDF 時設定書籤目的地
+**概述**：在新產生的 PDF 中建立書籤，直接導向使用者想要的頁面位置。
+
+#### 建立與設定書籤
+```java
+import com.aspose.pdf.GoToAction;
+import com.aspose.pdf.FitVExplicitDestination;
+
+OutlineItemCollection pdfOutline_new = new OutlineItemCollection(pdfDocument.getOutlines());
+pdfOutline_new.setTitle("Test Bookmark");
+pdfOutline_new.setItalic(true);
+pdfOutline_new.setBold(true);
+```
+#### 定義書籤目的地
+```java
+pdfOutline_new.setAction(new GoToAction(
+    new FitVExplicitDestination(pdfDocument.getPages().get_Item(2), 0)));
+```
+#### 新增並儲存 PDF
+```java
+pdfDocument.getOutlines().add(pdfOutline_new);
+
+String outputDir = "YOUR_OUTPUT_DIRECTORY/setDestinationWhileCreatingPDF.pdf";
+pdfDocument.save(outputDir);
+```
+
+## 實務應用
+1. **數位書籍** – 確保每章節書籤位於頁首，提供流暢的閱讀體驗。  
+2. **技術手冊** – 精準的導覽協助工程師快速找到所需章節，特別是大型 PDF。  
+3. **產品型錄** – 單頁佈局讓在平板上瀏覽型錄更加直觀。
+
+## 效能考量
+- **最佳化資源**：處理大型 PDF 時，可使用 `Document.optimizeResources()` 以降低記憶體佔用。  
+- **Java 記憶體管理**：明確關閉串流，並在處理完畢後讓垃圾回收器回收物件。
+
+## 常見問題與解決方案
+- **書籤未更新**：確認您修改的是正確的大綱索引（`get_Item(1)` 代表第一個頂層書籤）。  
+- **檢視器偏好未套用**：確保在變更偏好後呼叫 `editor.save()`，否則變更僅停留在記憶體中。  
+- **授權例外**：試用授權可能會加上浮水印，正式環境請取得完整授權。
+
+## 常見問答
+**Q: 在 Java 中載入 PDF 文件最簡單的方式是什麼？**  
+A: 使用 `new Document("path/to/file.pdf")`；Aspose.PDF 會自動偵測檔案格式。
+
+**Q: 可以不使用 PdfContentEditor 變更頁面佈局嗎？**  
+A: 可以，直接在 `Document` 物件上設定檢視器偏好，例如 `pdfDocument.getViewerPreferences().setPageLayout(...)`。
+
+**Q: 變更檢視器佈局會影響列印結果嗎？**  
+A: 檢視器佈局僅影響螢幕顯示，不會改變列印輸出。
+
+**Q: 建立書籤的數量有限制嗎？**  
+A: 沒有明確上限，但極大的大綱樹可能會影響效能，建議保持結構清晰。
+
+**Q: 在新增或移除頁面後，如何確保書籤目的地仍然正確？**  
+A: 在任何結構變更後，重新計算目的地，使用當前的頁面索引。
+
+## 資源
+- **文件說明**： [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/)  
+- **下載**： [Latest Releases for Java](https://releases.aspose.com/pdf/java/)  
+- **購買**： [Buy Aspose.PDF License](https://purchase.aspose.com/buy)  
+- **免費試用**： [Try Aspose.PDF Free](https://releases.aspose.com/pdf/java/)  
+- **臨時授權**： [Request Temporary License](https://purchase.aspose.com/temporary-license)
+
+---
+
+**最後更新：** 2025-12-19  
+**測試版本：** Aspose.PDF for Java v25.3  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

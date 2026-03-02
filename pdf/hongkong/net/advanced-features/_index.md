@@ -62,6 +62,9 @@
 ### [掌握使用 Aspose.PDF .NET 建立可存取的 PDF：使用樣式表製作標籤的 PDF](./aspose-pdf-net-tagged-pdfs-styled-tables/)
 學習使用 Aspose.PDF for .NET 製作可存取、帶有樣式標記的 PDF 文件。掌握如何建立具有結構化表格和增強可訪問性的兼容 PDF。
 
+### [如何在 C# 中比較 PDF – 生成 PDF 差異的完整指南](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中比較兩個 PDF，生成差異報告並突出顯示變更。
+
 ## 其他資源
 
 - [Aspose.PDF 用於網頁文檔](https://docs.aspose.com/pdf/net/)

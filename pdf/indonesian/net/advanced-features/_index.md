@@ -62,6 +62,9 @@ Pelajari cara menggunakan Aspose.PDF untuk .NET guna memvalidasi dan memproses d
 ### [Menguasai Pembuatan PDF yang Mudah Diakses dengan Aspose.PDF .NET: Membuat PDF yang Ditandai dengan Tabel Bergaya](./aspose-pdf-net-tagged-pdfs-styled-tables/)
 Pelajari cara membuat dokumen PDF yang mudah diakses dan diberi tag dengan gaya menggunakan Aspose.PDF for .NET. Kuasai pembuatan PDF yang sesuai dengan tabel terstruktur dan aksesibilitas yang ditingkatkan.
 
+### [Cara Membandingkan PDF di C# – Panduan Lengkap Membuat PDF Diff](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
+Pelajari cara membandingkan dua file PDF menggunakan C# dan menghasilkan perbedaan PDF dengan Aspose.PDF.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

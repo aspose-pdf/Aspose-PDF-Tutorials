@@ -62,6 +62,9 @@
 ### [掌握使用 Aspose.PDF .NET 创建可访问的 PDF：使用样式表制作带标签的 PDF](./aspose-pdf-net-tagged-pdfs-styled-tables/)
 学习使用 Aspose.PDF for .NET 制作易于访问、样式化且带标签的 PDF 文档。掌握如何创建具有结构化表格和增强可访问性的合规 PDF。
 
+### [如何在 C# 中比较 PDF – 生成 PDF 差异的完整指南](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中比较 PDF 文件并生成差异报告，帮助快速定位文档变化。
+
 ## 其他资源
 
 - [Aspose.PDF 用于网络文档](https://docs.aspose.com/pdf/net/)

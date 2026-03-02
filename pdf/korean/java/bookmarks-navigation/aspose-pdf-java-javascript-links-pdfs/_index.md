@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-14"
-"description": "Aspose.PDF for Java를 사용하여 PDF 문서에 대화형 JavaScript 링크를 추가하는 방법을 알아보세요. 이 포괄적인 가이드를 통해 탐색 기능을 간소화하고 사용자 경험을 향상시키세요."
-"title": "Aspose.PDF for Java를 사용하여 PDF에 JavaScript 링크 추가 및 문서의 상호 작용성 향상"
-"url": "/ko/java/bookmarks-navigation/aspose-pdf-java-javascript-links-pdfs/"
-"weight": 1
+date: '2025-12-18'
+description: Aspose.PDF for Java를 사용하여 JavaScript 링크를 추가함으로써 인터랙티브 PDF 문서를 만드는 방법을
+  배우세요. PDF를 바인딩하고, JavaScript를 추가한 뒤, JavaScript와 함께 PDF를 저장하는 단계별 가이드를 따라보세요.
+keywords:
+- Add JavaScript Links to PDFs
+- Aspose.PDF for Java
+- Interactive PDF Documents
+title: '대화형 PDF 만들기 - Aspose.PDF for Java를 사용해 JavaScript 링크 추가'
+url: /ko/java/bookmarks-navigation/aspose-pdf-java-javascript-links-pdfs/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,35 +16,33 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.PDF for Java를 사용하여 PDF에 대화형 JavaScript 링크를 추가하는 방법
+# Aspose.PDF for Java를 사용하여 PDF에 인터랙티브 JavaScript 링크 추가하는 방법
 
 ## 소개
 
-PDF 문서의 상호작용성을 강화하면 사용자 참여도를 크게 높일 수 있으며, 특히 복잡한 보고서나 전자책을 탐색할 때 더욱 그렇습니다. 이 튜토리얼에서는 강력한 라이브러리인 Aspose.PDF for Java를 사용하여 PDF 파일에 클릭 가능한 JavaScript 링크를 추가하여 동적이고 인터랙티브한 리소스로 변환하는 방법을 보여줍니다.
+이 가이드에서는 Aspose.PDF for Java를 사용해 JavaScript 링크를 삽입함으로써 **인터랙티브 PDF** 문서를 만드는 방법을 배웁니다. PDF 파일의 인터랙티브성을 강화하면 특히 복잡한 보고서나 전자책을 탐색할 때 사용자 참여도를 크게 높일 수 있습니다. 이 튜토리얼에서는 강력한 라이브러리인 Aspose.PDF for Java를 활용해 PDF 파일에 클릭 가능한 JavaScript 링크를 추가하고, 이를 동적이고 인터랙티브한 리소스로 변환하는 방법을 보여줍니다.
 
-이 가이드를 따르면 다음 내용을 배울 수 있습니다.
-- 인스턴스를 만드는 방법 `PdfContentEditor` PDF 문서에 바인딩합니다.
-- 클릭하면 작업이 수행되는 대화형 JavaScript 링크를 추가하는 기술입니다.
-- 이러한 대화형 요소를 사용하여 향상된 PDF 파일을 저장하는 단계입니다.
+## 빠른 답변
+- **“인터랙티브 PDF 만들기”는 무엇을 의미하나요?** 사용자 동작에 반응하는 JavaScript 링크와 같은 요소를 추가하는 것을 의미합니다.  
+- **이 작업에 가장 적합한 라이브러리는 무엇인가요?** Aspose.PDF for Java는 JavaScript 링크를 위한 간단한 API를 제공합니다.  
+- **라이선스가 필요하나요?** 임시 또는 정식 라이선스를 사용하면 평가 제한이 해제됩니다.  
+- **기존 PDF에 바인딩할 수 있나요?** 예—`PdfContentEditor.bindPdf`를 사용하여 기존 파일에 연결합니다.  
+- **PDF 크기가 크게 증가하나요?** JavaScript를 간결하게 유지하고 큰 이미지를 피하여 **optimize PDF size JavaScript**를 유지합니다.
 
-정적인 PDF를 매력적인 문서로 만들 준비가 되셨나요? 시작해 볼까요!
+## 전제 조건
 
-## 필수 조건
+시작하기 전에 다음을 확인하십시오:
 
-시작하기 전에 다음 사항을 확인하세요.
+- **라이브러리 및 종속성:** Aspose.PDF for Java가 필요합니다. Maven 또는 Gradle을 사용해 종속성을 관리하십시오.  
+- **환경 설정:** Java 및 PDF 조작 개념에 대한 기본 이해가 권장됩니다.  
+- **지식 전제 조건:** 객체 지향 원칙과 같은 Java 프로그래밍에 익숙하면 도움이 되지만 필수는 아닙니다.
 
-- **라이브러리 및 종속성:** Java용 Aspose.PDF가 필요합니다. 종속성 관리를 위해 Maven이나 Gradle을 설정하세요.
-  
-- **환경 설정:** Java와 PDF 조작 개념에 대한 기본적인 이해가 권장됩니다.
+## Aspose.PDF for Java 설정하기
 
-- **지식 전제 조건:** 객체 지향 원칙 등 Java 프로그래밍에 대한 지식이 있으면 도움이 되지만 필수는 아닙니다.
+프로젝트에서 Aspose.PDF를 사용하려면 Maven 또는 Gradle을 통해 라이브러리를 포함하십시오:
 
-## Java용 Aspose.PDF 설정
-
-프로젝트에서 Aspose.PDF를 활용하려면 Maven이나 Gradle을 통해 라이브러리를 포함하세요.
-
-### 메이븐
-이 종속성을 다음에 추가하세요. `pom.xml` 파일:
+### Maven
+`pom.xml` 파일에 다음 종속성을 추가하십시오:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -48,119 +51,125 @@ PDF 문서의 상호작용성을 강화하면 사용자 참여도를 크게 높�
 </dependency>
 ```
 
-### 그래들
-이것을 당신의 것에 포함시키세요 `build.gradle` 파일:
+### Gradle
+`build.gradle` 파일에 다음을 포함하십시오:
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-**라이센스 취득:** Aspose.PDF를 최대한 활용하려면 임시 라이선스를 구매하거나 평가판 제한을 해제하는 라이선스를 구매하는 것을 고려해 보세요.
-- [무료 체험](https://releases.aspose.com/pdf/java/)
-- [임시 면허](https://purchase.aspose.com/temporary-license/)
-- [구입](https://purchase.aspose.com/buy)
+**라이선스 획득:** Aspose.PDF를 완전히 활용하려면 평가 제한을 해제하기 위해 임시 라이선스를 획득하거나 정식 라이선스를 구매하는 것을 고려하십시오.  
+- [Free Trial](https://releases.aspose.com/pdf/java/)  
+- [Temporary License](https://purchase.aspose.com/temporary-license/)  
+- [Purchase](https://purchase.aspose.com/buy)
 
-**기본 초기화:** 설치가 완료되면 Java 환경에서 Aspose.PDF를 초기화합니다.
+**기본 초기화:** 설치가 완료되면 Java 환경에서 Aspose.PDF를 초기화하십시오:
 ```java
 import com.aspose.pdf.*;
 
-// PDF 라이브러리 초기화
+// Initialize the PDF library
 License license = new License();
 license.setLicense("path/to/your/license/file.lic");
 ```
 
-## 구현 가이드
+## JavaScript 링크로 인터랙티브 PDF 만들기
 
-설정이 완료되었으니 PDF에 JavaScript 링크를 추가해 보겠습니다.
+설정이 완료되었으니, **인터랙티브 PDF** 파일에 JavaScript 동작을 포함하는 정확한 단계들을 살펴보겠습니다.
 
-### PDF 문서 만들기 및 바인딩
+### Step 1: PDF 문서 생성 및 바인드
 
-먼저 인스턴스를 생성합니다. `PdfContentEditor` PDF 파일에 바인딩하세요:
+먼저 `PdfContentEditor` 인스턴스를 생성하고 강화하려는 PDF에 바인드합니다:
 ```java
 import com.aspose.pdf.facades.PdfContentEditor;
 
-// PdfContentEditor 인스턴스를 생성합니다.
+// Create an instance of PdfContentEditor
 PdfContentEditor editor = new PdfContentEditor();
 
-// 편집기를 기존 PDF 문서에 바인딩
+// Bind the editor to an existing PDF document
 editor.bindPdf("YOUR_DOCUMENT_DIRECTORY/input.pdf");
 ```
-**설명:** 그만큼 `bindPdf` 방법은 PDF 파일을 다음과 연결합니다. `PdfContentEditor`, 수정이 가능함.
+**설명:** `bindPdf`는 편집기를 원본 PDF에 연결하여 페이지 수정, 주석 추가 및 **bind PDF Java** 객체를 사용할 수 있게 합니다.
 
-### PDF 문서에 JavaScript 링크 만들기
+### Step 2: JavaScript 링크 정의
 
-다음으로, JavaScript 동작을 실행하는 클릭 가능 영역을 정의합니다. 이를 위해 사각형을 설정하고 JavaScript 코드 조각에 연결합니다.
+다음으로 클릭 가능한 사각형을 정의하고 JavaScript 스니펫과 연결합니다. 이것이 **PDF에 JavaScript를 추가하는 방법**의 핵심입니다:
 ```java
 import java.awt.Rectangle;
 import java.awt.Color;
 
-// 문서 내에서 클릭 가능한 사각형을 정의합니다.
+// Define a clickable rectangle within the document
 Rectangle rect = new Rectangle(50, 50, 200, 200);
 
-// 하이퍼링크 색상 설정(녹색)
+// Set hyperlink color (green)
 Color linkColor = new Color(0, 255, 0); 
 
-// 클릭 시 실행될 JavaScript 동작
+// JavaScript action to be executed when clicked
 String code = "app.alert('Welcome to Aspose!');";
 
-// PDF 문서의 첫 페이지에 JavaScript 링크 추가
+// Add a JavaScript link to the first page of the PDF document
 editor.createJavaScriptLink(code, rect, 1, linkColor);
 ```
-**주요 포인트:**
-- `Rectangle` 클릭 가능한 영역을 지정합니다.
-- 그만큼 `Color` 객체는 하이퍼링크의 시각적 모양을 정의합니다.
-- `createJavaScriptLink` JavaScript 코드를 지정된 페이지의 이 사각형에 바인딩합니다.
+**핵심 포인트:**  
+- `Rectangle`은 클릭 가능한 영역을 지정합니다.  
+- `Color`는 링크의 시각적 모양을 정의합니다.  
+- `createJavaScriptLink`는 선택한 페이지의 정의된 사각형에 JavaScript 코드를 바인드합니다.
 
-### PDF 문서 변경 사항 저장
+### Step 3: 업데이트된 PDF 저장
 
-새로운 대화형 기능을 적용하여 수정된 문서를 저장합니다.
+마지막으로 변경 내용을 디스크에 기록합니다. 이 단계는 **JavaScript가 포함된 PDF 저장**을 수행하여 인터랙티브성이 유지되도록 합니다:
 ```java
-// 새 PDF 파일에 변경 사항 저장
+// Save changes to a new PDF file
 editor.save("YOUR_OUTPUT_DIRECTORY/JavaScriptAdded_output.pdf");
 ```
-**설명:** 이 단계에서는 모든 수정 사항을 디스크에 다시 기록하여 대화형 요소가 보존되도록 합니다.
+**설명:** `save` 메서드는 방금 정의한 JavaScript 링크를 포함하는 새 PDF를 생성합니다.
 
-## 실제 응용 프로그램
+## 실용적인 적용 사례
 
-1. **대화형 보고서:** 클릭 가능한 통찰력을 통해 더 많은 데이터나 계산을 밝혀내 비즈니스 보고서를 개선하세요.
-2. **e러닝 자료:** 학생들이 주제를 클릭하면 추가 설명이나 자료를 볼 수 있는 교육용 PDF를 만듭니다.
-3. **디지털 양식:** 제출 확인이나 검증 등의 작업을 내장하여 사용자와 양식의 상호 작용을 개선합니다.
+1. **인터랙티브 보고서:** 클릭 가능한 인사이트를 추가해 계산식이나 상세 데이터를 드릴다운 형태로 표시합니다.  
+2. **E‑Learning 자료:** 학생들이 주제를 클릭하면 추가 설명이나 외부 리소스로 연결되는 교육용 PDF를 제작합니다.  
+3. **디지털 양식:** 제출 확인이나 필드 검증과 같은 동작을 PDF 내부에 직접 삽입합니다.
 
 ## 성능 고려 사항
 
-- **파일 크기 최적화:** 성능을 유지하려면 큰 이미지와 광범위한 JavaScript 사용을 제한하세요.
-- **자바 메모리 관리:** 특히 대용량 PDF를 처리할 때 메모리 사용량을 모니터링하여 누수를 방지하세요.
+- **Optimize PDF size JavaScript:** JavaScript를 간결하게 유지하고 큰 자산을 삽입하지 않아 파일 크기를 합리적으로 유지합니다.  
+- **Java Memory Management:** 특히 대용량 PDF를 처리할 때 메모리 사용량을 모니터링하여 누수를 방지합니다.
 
 ## 결론
 
-이 튜토리얼을 따라 하면 Aspose.PDF for Java를 사용하여 PDF 문서에 인터랙티브 기능을 추가하는 방법을 배우게 됩니다. 다양한 JavaScript 액션을 실험하여 사용자 경험을 최적화하고 Aspose.PDF가 제공하는 추가 기능을 살펴보세요.
+이 튜토리얼을 따라 하면 Aspose.PDF for Java를 사용해 **인터랙티브 PDF** 문서를 만드는 방법을 알게 되었습니다. 다양한 JavaScript 동작을 실험해 사용자 경험을 맞춤화하고, 양식 처리, 워터마크 삽입, 문서 병합 등 추가적인 Aspose.PDF 기능도 탐색해 보세요.
 
-한 단계 더 발전할 준비가 되셨나요? 이러한 인터랙티브 PDF를 웹 애플리케이션에 통합하거나 여러 파일 처리를 자동화하는 것을 고려해 보세요!
+한 단계 더 나아가고 싶으신가요? 이러한 인터랙티브 PDF를 웹 애플리케이션에 통합하거나 배치 작업으로 여러 파일을 자동 처리하는 방안을 고려해 보십시오!
 
 ## FAQ 섹션
 
-1. **Java용 Aspose.PDF란 무엇인가요?**
-   - Java를 사용하여 PDF 문서를 만들고, 수정하고, 상호 작용할 수 있는 라이브러리입니다.
+1. **Aspose.PDF for Java란 무엇인가요?**  
+   - Java를 사용해 PDF 문서를 생성, 수정 및 인터랙션할 수 있게 해 주는 라이브러리입니다.
 
-2. **라이선스를 구매하지 않고도 Aspose.PDF를 사용할 수 있나요?**
-   - 네, 하지만 특정 제한 사항이 있는 평가 모드에서 실행됩니다.
+2. **라이선스를 구매하지 않고 Aspose.PDF를 사용할 수 있나요?**  
+   - 예, 하지만 평가 모드로 실행되며 일부 제한이 있습니다.
 
-3. **하나의 PDF 페이지에 여러 JavaScript 동작을 추가하려면 어떻게 해야 하나요?**
-   - 별도로 생성 `Rectangle` 객체 및 호출 `createJavaScriptLink` 각 동작에 대해.
+3. **단일 PDF 페이지에 여러 JavaScript 동작을 추가하려면 어떻게 하나요?**  
+   - 별도의 `Rectangle` 객체를 만들고 각각에 `createJavaScriptLink`를 호출합니다.
 
-4. **Aspose.PDF를 사용할 때 흔히 발생하는 문제는 무엇입니까?**
-   - 적절하게 관리하지 않으면 메모리 누수나 파일 크기 문제가 발생할 수 있으므로 효율적인 리소스 처리를 보장하세요.
+4. **Aspose.PDF 사용 시 흔히 겪는 문제는 무엇인가요?**  
+   - 메모리 누수나 파일 크기 증가 문제가 발생할 수 있으니 효율적인 리소스 관리를 권장합니다.
 
-5. **Aspose.PDF 사용에 대한 더 고급 예제는 어디에서 찾을 수 있나요?**
-   - 그만큼 [Aspose 문서](https://reference.aspose.com/pdf/java/) 포괄적인 가이드와 코드 샘플을 제공합니다.
+5. **Aspose.PDF 사용에 대한 고급 예제는 어디서 찾을 수 있나요?**  
+   - [Aspose Documentation](https://reference.aspose.com/pdf/java/)에서 포괄적인 가이드와 코드 샘플을 제공합니다.
 
-## 자원
+## 리소스
 
-- **선적 서류 비치:** [Aspose PDF Java 참조](https://reference.aspose.com/pdf/java/)
-- **다운로드:** [Aspose PDF 릴리스](https://releases.aspose.com/pdf/java/)
-- **구입:** [Aspose 라이선스 구매](https://purchase.aspose.com/buy)
-- **무료 체험:** [Aspose Free를 사용해 보세요](https://releases.aspose.com/pdf/java/)
-- **임시 면허:** [임시 면허증을 받으세요](https://purchase.aspose.com/temporary-license/)
-- **지원하다:** [Aspose 포럼](https://forum.aspose.com/c/pdf/10)
+- **Documentation:** [Aspose PDF Java Reference](https://reference.aspose.com/pdf/java/)  
+- **Download:** [Aspose PDF Releases](https://releases.aspose.com/pdf/java/)  
+- **Purchase:** [Buy Aspose License](https://purchase.aspose.com/buy)  
+- **Free Trial:** [Try Aspose Free](https://releases.aspose.com/pdf/java/)  
+- **Temporary License:** [Get a Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Support:** [Aspose Forum](https://forum.aspose.com/c/pdf/10)
+
+---
+
+**Last Updated:** 2025-12-18  
+**Tested With:** Aspose.PDF 25.3 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-14"
-"description": "Dowiedz się, jak edytować zakładki PDF i dostosowywać ustawienia przeglądarki za pomocą Aspose.PDF dla Java. Ulepsz doświadczenie użytkownika, opanowując nawigację i preferencje układu."
-"title": "Master Aspose.PDF Java&#58; Edytuj zakładki PDF i skonfiguruj ustawienia przeglądarki"
-"url": "/pl/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/"
-"weight": 1
+date: '2025-12-19'
+description: Dowiedz się, jak zmienić układ stron PDF, edytować zakładki PDF i dostosować
+  ustawienia przeglądarki za pomocą Aspose.PDF for Java. Opanuj nawigację i preferencje
+  układu, aby zapewnić płynniejsze doświadczenie użytkownika.
+keywords:
+- edit PDF bookmarks Java
+- Aspose.PDF viewer settings
+- configure PDF navigation Java
+title: 'Zmień układ stron PDF w Javie - edytuj zakładki i ustawienia'
+url: /pl/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,27 +17,37 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Master Aspose.PDF Java: Edytuj zakładki PDF i skonfiguruj ustawienia przeglądarki
+# Zmienianie układu stron PDF w Javie: Edytowanie zakładek i ustawień
 
-## Wstęp
-Nawigowanie po złożonych dokumentach PDF może być uciążliwe, jeśli zakładki są nieprawidłowo wyrównane lub preferencje przeglądarki są niepoprawnie ustawione. Ten samouczek pokazuje, jak używać Aspose.PDF dla Java do edycji istniejących zakładek i dostosowywania ustawień wyświetlania, co poprawia komfort użytkowania.
+## Wprowadzenie
+Poruszanie się po złożonych dokumentach PDF może być uciążliwe, szczególnie gdy ustawienie **change PDF page layout** nie jest skonfigurowane prawidłowo lub zakładki wskazują niewłaściwe miejsca. W tym samouczku nauczysz się, jak **change PDF page layout**, **edit PDF bookmarks** oraz **configure PDF viewer settings** przy użyciu Aspose.PDF for Java. Po zakończeniu będziesz mieć pełną kontrolę nad nawigacją, docelowymi miejscami zakładek i sposobem prezentacji dokumentu czytelnikom.
 
-**Czego się nauczysz:**
-- Modyfikuj zakładki PDF tak, aby wskazywały początek strony.
-- Twórz precyzyjne zakładki ze szczegółowymi informacjami docelowymi podczas generowania pliku PDF.
-- Dostosuj preferencje widzów, aby uzyskać optymalną prezentację.
+**Czego się nauczysz**
+- Jak edytować istniejące zakładki PDF, aby wskazywały początek strony.  
+- Jak ustawiać cele zakładek podczas tworzenia PDF.  
+- Jak zmienić preferencje przeglądarki, takie jak układ stron.  
+- Praktyczne wskazówki dotyczące ładowania dokumentu PDF w Javie i optymalizacji wydajności.
 
-Dzięki Aspose.PDF for Java uzyskasz pełną kontrolę nad ustawieniami nawigacji i układu dokumentu. Skonfigurujmy środowisko i wdróżmy te funkcje krok po kroku.
+### Szybkie odpowiedzi
+- **Jakim głównym sposobem zmienia się układ stron PDF?** Use `PdfContentEditor.changeViewerPreference()` with `ViewerPreference.PAGE_LAYOUT_SINGLE_PAGE`.  
+- **Czy mogę edytować cele zakładek po utworzeniu PDF?** Yes – load the document, access the outline, and set a new `ExplicitDestination`.  
+- **Czy potrzebna jest licencja do tych funkcji?** A free trial works for evaluation; a full license removes all limitations.  
+- **Jakie zależności Maven są wymagane?** `com.aspose:aspose-pdf:25.3` (or later).  
+- **Czy jest to kompatybilne z Java 11 i wyższymi?** Absolutely – Aspose.PDF supports Java 8+.
 
-### Wymagania wstępne
-Przed rozpoczęciem upewnij się, że masz:
-- **Biblioteki i zależności**: Użyj Aspose.PDF dla Java w wersji 25.3 lub nowszej.
-- **Konfiguracja środowiska**:Działająca konfiguracja środowiska programistycznego Java z zainstalowanym JDK.
-- **Wymagania dotyczące wiedzy**:Podstawowa znajomość języka Java i programistycznego przetwarzania plików PDF.
+## Co to jest „change PDF page layout”?
+Zmiana układu stron PDF kontroluje sposób wyświetlania stron w przeglądarce — pojedyncza strona, ciągła, widok dwustronicowy itp. Dostosowanie tego ustawienia poprawia czytelność, szczególnie w przypadku długich raportów lub katalogów.
 
-### Konfigurowanie Aspose.PDF dla Java
-#### Instalacja Maven
-Aby uwzględnić Aspose.PDF w swoim projekcie, dodaj tę zależność do swojego `pom.xml`:
+## Dlaczego edytować zakładki PDF i ustawiać cele zakładek?
+Zakładki działają jak spis treści. Precyzyjne cele zapewniają, że czytelnicy przechodzą bezpośrednio do zamierzonej sekcji, zmniejszając frustrację i poprawiając ogólne wrażenia użytkownika.
+
+## Wymagania wstępne
+- **Libraries & Dependencies**: Aspose.PDF for Java v25.3 or later.  
+- **Environment**: JDK 8 or newer, Maven or Gradle build tool.  
+- **Knowledge**: Basic Java programming and familiarity with PDF concepts.
+
+## Konfiguracja Aspose.PDF dla Java
+### Instalacja Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -39,131 +55,142 @@ Aby uwzględnić Aspose.PDF w swoim projekcie, dodaj tę zależność do swojego
     <version>25.3</version>
 </dependency>
 ```
-#### Instalacja Gradle
-Użytkownicy Gradle powinni dodać to do swojego `build.gradle`:
+### Instalacja Gradle
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
-**Nabycie licencji**: Zacznij od bezpłatnego okresu próbnego lub poproś o tymczasową licencję, aby uzyskać pełny dostęp do funkcji bez ograniczeń. Rozważ zakup pełnej licencji do długoterminowego użytkowania.
-#### Podstawowa inicjalizacja
-Aby rozpocząć korzystanie z Aspose.PDF:
+**License Acquisition**: Rozpocznij od darmowej wersji próbnej lub poproś o tymczasową licencję, aby uzyskać pełny dostęp do funkcji. Rozważ zakup stałej licencji do użytku produkcyjnego.
+
+### Podstawowa inicjalizacja
 ```java
 import com.aspose.pdf.Document;
 
 public class PDFSetup {
     public static void main(String[] args) {
-        // Zainicjuj obiekt dokumentu
+        // Initialize document object
         Document pdfDocument = new Document("path/to/your/pdf");
         
         System.out.println("Aspose.PDF for Java initialized successfully.");
     }
 }
 ```
-### Przewodnik wdrażania
-W tej sekcji opisano edycję zakładek, ustawianie miejsc docelowych podczas tworzenia plików PDF i modyfikowanie preferencji przeglądarki.
-#### Edytowanie istniejących zakładek, aby wskazywały początek strony
-**Przegląd**:Dostosuj zakładki tak, aby wskazywały początek konkretnej strony w dokumencie.
-1. **Dostęp do zakładek**
-   Załaduj plik PDF i uzyskaj dostęp do jego zakładki:
-   ```java
-   import com.aspose.pdf.Document;
-   import com.aspose.pdf.ExplicitDestination;
-   import com.aspose.pdf.OutlineItemCollection;
 
-   Document pdfDocument = new Document("YOUR_DOCUMENT_DIRECTORY/input.pdf");
-   OutlineItemCollection pdfOutline = pdfDocument.getOutlines().get_Item(1);
-   ```
-2. **Wyznaczanie nowego celu**
-   Zaktualizuj miejsce docelowe, aby upewnić się, że wskazuje na początek strony:
-   ```java
-   pdfOutline.setDestination(
-       ExplicitDestination.createDestination(pdfDocument.getPages().get_Item(1),
-           ExplicitDestinationType.FitH,
-           pdfDocument.getPages().get_Item(1).getMediaBox().getHeight())
-   );
-   ```
-3. **Zapisywanie zmian**
-   Zapisz zaktualizowany dokument PDF:
-   ```java
-   String outputDir = "YOUR_OUTPUT_DIRECTORY/bookmarkShouldPointToStartOfPage.pdf";
-   pdfDocument.save(outputDir);
-   ```
-#### Tworzenie nowych zakładek ze szczegółowymi miejscami docelowymi
-**Przegląd**:Twórz zakładki, które przeniosą użytkowników bezpośrednio do wybranych lokalizacji w nowo wygenerowanym pliku PDF.
-1. **Tworzenie i konfigurowanie zakładek**
-   Zainicjuj nową zakładkę i ustaw jej właściwości:
-   ```java
-   import com.aspose.pdf.GoToAction;
-   import com.aspose.pdf.FitVExplicitDestination;
+## Przewodnik implementacji
+### Jak zmienić układ stron PDF w Javie
+**Overview**: Dostosuj preferencje przeglądarki, aby wyświetlać strony w żądany sposób.
 
-   OutlineItemCollection pdfOutline_new = new OutlineItemCollection(pdfDocument.getOutlines());
-   pdfOutline_new.setTitle("Test Bookmark");
-   pdfOutline_new.setItalic(true);
-   pdfOutline_new.setBold(true);
-   ```
-2. **Definiowanie miejsca docelowego zakładki**
-   Określ miejsce docelowe zakładki:
-   ```java
-   pdfOutline_new.setAction(new GoToAction(
-       new FitVExplicitDestination(pdfDocument.getPages().get_Item(2), 0)));
-   ```
-3. **Dodawanie i zapisywanie pliku PDF**
-   Dodaj zakładkę do konspektu dokumentu i zapisz go:
-   ```java
-   pdfDocument.getOutlines().add(pdfOutline_new);
-   
-   String outputDir = "YOUR_OUTPUT_DIRECTORY/setDestinationWhileCreatingPDF.pdf";
-   pdfDocument.save(outputDir);
-   ```
-#### Ustawianie preferencji przeglądarki
-**Przegląd**: Dostosuj sposób wyświetlania pliku PDF, ustawiając określone preferencje przeglądarki, takie jak układ strony.
-1. **Inicjalizacja PdfContentEditor**
-   Użyj `PdfContentEditor` klasa do modyfikacji ustawień dokumentu:
-   ```java
-   import com.aspose.pdf.facades.PdfContentEditor;
-   import com.aspose.pdf.facades.ViewerPreference;
+#### Inicjalizacja PdfContentEditor
+```java
+import com.aspose.pdf.facades.PdfContentEditor;
+import com.aspose.pdf.facades.ViewerPreference;
 
-   PdfContentEditor editor = new PdfContentEditor();
-   editor.bindPdf("YOUR_DOCUMENT_DIRECTORY/input.pdf");
-   ```
-2. **Zmiana preferencji przeglądarki**
-   Ustaw preferencje przeglądarki na układ jednostronicowy:
-   ```java
-   editor.changeViewerPreference(ViewerPreference.PAGE_LAYOUT_SINGLE_PAGE);
-   ```
-3. **Zapisywanie zaktualizowanego dokumentu**
-   Zapisz zmiany w pliku PDF:
-   ```java
-   String outputDir = "YOUR_OUTPUT_DIRECTORY/settingViewerPreferences.pdf";
-   editor.save(outputDir);
-   ```
-### Zastosowania praktyczne
-1. **Książki cyfrowe**:Ulepsz książki cyfrowe, zapewniając, że zakładki prowadzą bezpośrednio do początku rozdziału.
-2. **Raporty i instrukcje**:Ulepsz nawigację w dokumentach technicznych dzięki precyzyjnym zakładkom i konfiguracjom przeglądarki.
-3. **Katalogi produktów e-commerce**:Zoptymalizuj katalogi produktów pod kątem przeglądania na jednej stronie, dzięki czemu staną się bardziej przyjazne dla użytkownika.
-### Rozważania dotyczące wydajności
-- **Optymalizacja zasobów**:Podczas obsługi dużych plików PDF należy stosować wydajne struktury danych, aby zminimalizować użycie pamięci.
-- **Zarządzanie pamięcią Java**Pamiętaj o zbieraniu śmieci i usuwaniu zasobów w Aspose.PDF, aby utrzymać wydajność.
-### Wniosek
-Masz teraz narzędzia do dokładnej edycji zakładek, tworzenia precyzyjnych punktów nawigacyjnych podczas tworzenia plików PDF i dostosowywania preferencji przeglądarki do swoich dokumentów. Poznaj dodatkowe funkcje Aspose.PDF i zintegruj je z większymi projektami Java.
-**Następne kroki**:Rozważ zapoznanie się z zaawansowanymi technikami manipulowania dokumentami przy użyciu Aspose.PDF i zintegrowanie tych funkcjonalności z większymi aplikacjami Java.
-### Sekcja FAQ
-1. **Czym jest Aspose.PDF?**
-   - Potężna biblioteka do zarządzania plikami PDF w Javie, oferująca funkcje takie jak edycja, tworzenie i konwersja dokumentów PDF.
-2. **Jak edytować zakładki w pliku PDF za pomocą Aspose.PDF?**
-   - Załaduj dokument, przejdź do wybranej zakładki, zmień jej miejsce docelowe i zapisz zmiany, jak pokazano w tym samouczku.
-3. **Czy Aspose.PDF może ustawić preferencje przeglądarki dotyczące układu jednostronicowego?**
-   - Tak, używam `PdfContentEditor`możesz łatwo dostosować ustawienia przeglądarki, takie jak układ strony, aby poprawić czytelność.
-4. **Czy jest dostępna bezpłatna wersja próbna Aspose.PDF?**
-   - Oczywiście! Zacznij od bezpłatnego okresu próbnego lub poproś o tymczasową licencję, aby odkryć wszystkie funkcje bez ograniczeń.
-5. **Jakie są najlepsze praktyki zarządzania plikami PDF w Javie przy użyciu Aspose.PDF?**
-   - Stosuj efektywne zarządzanie pamięcią, korzystaj z przetwarzania wsadowego, gdy jest to możliwe, i zawsze zapisuj zmiany, aby zapobiec utracie danych.
-### Zasoby
-- **Dokumentacja**: [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/)
-- **Pobierać**: [Najnowsze wydania dla Java](https://releases.aspose.com/pdf/java/)
-- **Zakup**: [Kup licencję Aspose.PDF](https://purchase.aspose.com/buy)
-- **Bezpłatna wersja próbna**: [Wypróbuj Aspose.PDF za darmo](https://releases.aspose.com/pdf/java/)
-- **Licencja tymczasowa**: [Poproś o licencję tymczasową](https://purchase.aspose.com/temporary-license)
+PdfContentEditor editor = new PdfContentEditor();
+editor.bindPdf("YOUR_DOCUMENT_DIRECTORY/input.pdf");
+```
+#### Zmiana preferencji przeglądarki
+```java
+editor.changeViewerPreference(ViewerPreference.PAGE_LAYOUT_SINGLE_PAGE);
+```
+#### Zapisywanie zaktualizowanego dokumentu
+```java
+String outputDir = "YOUR_OUTPUT_DIRECTORY/settingViewerPreferences.pdf";
+editor.save(outputDir);
+```
+
+### Jak edytować zakładki PDF
+**Overview**: Dostosuj istniejące zakładki, aby dokładnie wskazywały początek konkretnej strony.
+
+#### Dostęp do zakładek
+```java
+import com.aspose.pdf.Document;
+import com.aspose.pdf.ExplicitDestination;
+import com.aspose.pdf.OutlineItemCollection;
+
+Document pdfDocument = new Document("YOUR_DOCUMENT_DIRECTORY/input.pdf");
+OutlineItemCollection pdfOutline = pdfDocument.getOutlines().get_Item(1);
+```
+#### Ustawianie nowego celu
+```java
+pdfOutline.setDestination(
+    ExplicitDestination.createDestination(pdfDocument.getPages().get_Item(1),
+        ExplicitDestinationType.FitH,
+        pdfDocument.getPages().get_Item(1).getMediaBox().getHeight())
+);
+```
+#### Zapisywanie zmian
+```java
+String outputDir = "YOUR_OUTPUT_DIRECTORY/bookmarkShouldPointToStartOfPage.pdf";
+pdfDocument.save(outputDir);
+```
+
+### Jak ustawić cel zakładki podczas tworzenia PDF
+**Overview**: Utwórz zakładki, które prowadzą użytkowników bezpośrednio do żądanych miejsc w nowo wygenerowanym PDF.
+
+#### Tworzenie i konfigurowanie zakładki
+```java
+import com.aspose.pdf.GoToAction;
+import com.aspose.pdf.FitVExplicitDestination;
+
+OutlineItemCollection pdfOutline_new = new OutlineItemCollection(pdfDocument.getOutlines());
+pdfOutline_new.setTitle("Test Bookmark");
+pdfOutline_new.setItalic(true);
+pdfOutline_new.setBold(true);
+```
+#### Definiowanie celu zakładki
+```java
+pdfOutline_new.setAction(new GoToAction(
+    new FitVExplicitDestination(pdfDocument.getPages().get_Item(2), 0)));
+```
+#### Dodawanie i zapisywanie PDF
+```java
+pdfDocument.getOutlines().add(pdfOutline_new);
+
+String outputDir = "YOUR_OUTPUT_DIRECTORY/setDestinationWhileCreatingPDF.pdf";
+pdfDocument.save(outputDir);
+```
+
+## Praktyczne zastosowania
+1. **Digital Books** – Zapewnij, że zakładka każdego rozdziału znajduje się na górze strony, aby zapewnić płynne doświadczenie czytania.  
+2. **Technical Manuals** – Precyzyjna nawigacja pomaga inżynierom szybko znajdować sekcje, szczególnie w dużych PDF.  
+3. **Product Catalogs** – Układ pojedynczej strony sprawia, że przeglądanie katalogów na tabletach jest bardziej intuicyjne.
+
+## Rozważania dotyczące wydajności
+- **Optimizing Resources**: Podczas obsługi dużych PDF użyj `Document.optimizeResources()`, aby zmniejszyć zużycie pamięci.  
+- **Java Memory Management**: Jawnie zamykaj strumienie i pozwól garbage collectorowi odzyskać obiekty po przetworzeniu.
+
+## Typowe problemy i rozwiązania
+- **Bookmarks Not Updating**: Sprawdź, czy modyfikujesz właściwy indeks konspektu (`get_Item(1)` odnosi się do pierwszej zakładki najwyższego poziomu).  
+- **Viewer Preference Not Applied**: Upewnij się, że wywołujesz `editor.save()` po zmianie preferencji; w przeciwnym razie zmiany pozostaną tylko w pamięci.  
+- **License Exceptions**: Licencja próbna może dodawać znaki wodne; uzyskaj pełną licencję do produkcji.
+
+## Najczęściej zadawane pytania
+**Q: Jaki jest najprostszy sposób załadowania dokumentu PDF w Javie?**  
+A: Use `new Document("path/to/file.pdf")`; Aspose.PDF automatically detects the file format.
+
+**Q: Czy mogę zmienić układ stron bez użycia PdfContentEditor?**  
+A: Yes, you can set viewer preferences directly on the `Document` object via `pdfDocument.getViewerPreferences().setPageLayout(...)`.
+
+**Q: Czy zmiana układu przeglądarki wpływa na drukowanie?**  
+A: Viewer layout only influences on‑screen display; it does not alter the printed output.
+
+**Q: Czy istnieją limity liczby zakładek, które mogę utworzyć?**  
+A: No explicit limit, but extremely large outline trees may impact performance; keep them organized.
+
+**Q: Jak zapewnić, że cele zakładek są dokładne po dodaniu lub usunięciu stron?**  
+A: Re‑calculate destinations using the current page indices after any structural changes.
+
+## Zasoby
+- **Documentation**: [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/)
+- **Download**: [Latest Releases for Java](https://releases.aspose.com/pdf/java/)
+- **Purchase**: [Buy Aspose.PDF License](https://purchase.aspose.com/buy)
+- **Free Trial**: [Try Aspose.PDF Free](https://releases.aspose.com/pdf/java/)
+- **Temporary License**: [Request Temporary License](https://purchase.aspose.com/temporary-license)
+
+---
+
+**Last Updated:** 2025-12-19  
+**Tested With:** Aspose.PDF for Java v25.3  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

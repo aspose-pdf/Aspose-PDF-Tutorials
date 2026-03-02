@@ -150,7 +150,7 @@ Tìm hiểu cách sao chép hiệu quả các trường văn bản giữa các t
 Tìm hiểu cách tạo PDF tương tác với các nút radio bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm cách tạo, cấu hình và tùy chỉnh biểu mẫu PDF để tăng cường sự tương tác của người dùng.
 
 ### [Cách tạo và cấu hình chú thích Polyline trong PDF bằng Aspose.PDF .NET](./create-configure-polyline-annotations-aspose-pdf-net/)
-Tìm hiểu cách tạo và cấu hình chú thích polyline trong tài liệu PDF bằng Aspose.PDF cho .NET, cải thiện quy trình làm việc tài liệu của bạn bằng C#.
+Tìm hiểu cách tạo và cấu hình chú thích polyline trong tài liệu PDF bằng Aspose.PDF .NET, cải thiện quy trình làm việc tài liệu của bạn bằng C#.
 
 ### [Cách tùy chỉnh các trường biểu mẫu PDF bằng Aspose.PDF cho .NET: Hướng dẫn từng bước](./customize-pdf-form-fields-aspose-dotnet/)
 Tìm hiểu cách cải thiện biểu mẫu PDF của bạn bằng Aspose.PDF cho .NET bằng cách tùy chỉnh giao diện và phông chữ của trường biểu mẫu. Làm theo hướng dẫn của chúng tôi để tạo tài liệu chuyên nghiệp.
@@ -277,6 +277,9 @@ Tìm hiểu cách thiết lập và truy xuất giới hạn ký tự trong các
 
 ### [Cập nhật chú thích PDF bằng Aspose.PDF cho .NET: Hướng dẫn toàn diện](./update-pdf-annotations-aspose-pdf-dotnet/)
 Tìm hiểu cách cập nhật chú thích PDF theo chương trình bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm các mẹo thiết lập, triển khai và hiệu suất.
+
+### [Tạo tài liệu PDF với Aspose – Thêm trang, hộp văn bản và biểu mẫu](./create-pdf-document-with-aspose-add-page-text-box-and-form/)
+Hướng dẫn tạo tài liệu PDF, thêm trang, hộp văn bản và biểu mẫu bằng Aspose.PDF cho .NET.
 
 ## Tài nguyên bổ sung
 

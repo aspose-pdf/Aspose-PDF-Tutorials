@@ -52,10 +52,11 @@ Aspose.PDF for .NET을 사용하여 PDF에 그래프를 만들고 사용자 정�
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## PDF에 선 그리기
 양식, 서명 및 시각 가이드를 위해 직선이나 대각선 선을 그리는 경우가 흔합니다. “Draw Diagonal Lines” 튜토리얼은 PDF 페이지에 정확한 선 객체를 추가하는 데 필요한 API 호출을 보여줍니다.
 
-{{< blocks/products/pf/tutorial-page-section >}}
 ## [Aspose.PDF for .NET을 사용하여 PDF에서 이미지 생성](./net/images/)
 
 Aspose.PDF for .NET을 사용하여 PDF 파일에서 이미지를 생성하는 방법을 배웁니다. C#에서 고품질로 PDF 페이지를 JPEG, PNG 또는 BMP로 손쉽게 변환합니다.
@@ -70,6 +71,8 @@ Aspose.PDF for .NET을 사용하여 PDF 파일에서 이미지를 생성하는 �
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## PDF 이미지 추출
 “Extract Images” 튜토리얼은 기존 PDF에서 래스터 자산을 추출하는 방법을 보여주며, 콘텐츠 재사용이나 마이그레이션 프로젝트에 유용한 기술입니다.
 
@@ -78,6 +81,8 @@ Aspose.PDF for .NET을 사용하여 PDF 파일에서 이미지를 생성하는 �
 
 ## PDF 이미지 압축
 스토리지 제한이 있는 환경에서는 “Shrink Image” 튜토리얼이 눈에 띄는 시각적 손실 없이 PDF 크기를 크게 줄이는 압축 설정을 보여줍니다.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Aspose.PDF for .NET 종합 테이블 튜토리얼](./net/tables/)
@@ -96,10 +101,11 @@ Aspose.PDF for .NET을 사용하여 PDF 문서에서 테이블을 만들고, 서
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## PDF에 테이블 추가
 테이블은 보고서와 청구서에 필수적입니다. 이 섹션은 테이블 관련 튜토리얼을 모아 PDF에 테이블을 추가하고 스타일링하며 페이지 매김하는 데 필요한 원스톱 참고 자료를 제공합니다.
 
-{{< blocks/products/pf/tutorial-page-section >}}
 ## [Aspose.PDF for .NET 텍스트 처리 종합 튜토리얼](./net/text/)
 
 Aspose.PDF for .NET을 사용하여 PDF 문서에서 테이블을 만들고, 서식 지정하고, 조작하는 방법을 단계별 튜토리얼과 코드 예제로 배웁니다.

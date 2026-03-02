@@ -51,10 +51,11 @@ Aspose.PDF for .NET を使用して PDF にグラフを作成・カスタマイ�
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## PDF に線を描画
 フォーム、署名、ビジュアルガイドなどで直線や対角線を描く必要があります。「PDF に対角線を描画」チュートリアルでは、任意の PDF ページに正確な線オブジェクトを追加するための API 呼び出しを詳しく解説しています。
 
-{{< blocks/products/pf/tutorial-page-section >}}
 ## [Aspose.PDF for .NET を使用した PDF からの画像生成](./net/images/)
 
 Aspose.PDF for .NET を使用して PDF ファイルから画像を生成する方法を学びます。C# で PDF ページを JPEG、PNG、BMP に高品質で簡単に変換できます。
@@ -69,6 +70,8 @@ Aspose.PDF for .NET を使用して PDF ファイルから画像を生成する�
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## PDF から画像を抽出
 「PDF から画像を抽出」チュートリアルでは、既存の PDF からラスタ資産を取り出す方法を示しており、コンテンツ再利用や移行プロジェクトに便利です。
 
@@ -78,7 +81,10 @@ Aspose.PDF for .NET を使用して PDF ファイルから画像を生成する�
 ## PDF 画像の圧縮
 ストレージが制限された環境向けに、「PDF 画像の圧縮」チュートリアルでは、視覚的な劣化がほとんどないまま PDF サイズを大幅に削減する圧縮設定を紹介します。
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
+
 ## [Aspose.PDF for .NET の包括的なテーブルチュートリアル](./net/tables/)
 
 Aspose.PDF for .NET を使用して PDF ドキュメント内でテーブルを作成、書式設定、操作する方法をステップバイステップで学びます。
@@ -95,10 +101,11 @@ Aspose.PDF for .NET を使用して PDF ドキュメント内でテーブルを�
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/pf/tutorial-page-section >}}
+
 ## PDF にテーブルを追加
 テーブルはレポートや請求書に不可欠です。このセクションではテーブル関連のチュートリアルをまとめており、PDF にテーブルを追加、スタイリング、ページングするためのワンストップリファレンスを提供します。
 
-{{< blocks/products/pf/tutorial-page-section >}}
 ## [Aspose.PDF for .NET の包括的なテキスト処理チュートリアル](./net/text/)
 
 Aspose.PDF for .NET を使用して PDF ドキュメント内でテキストを作成、書式設定、操作する方法をステップバイステップで学びます。

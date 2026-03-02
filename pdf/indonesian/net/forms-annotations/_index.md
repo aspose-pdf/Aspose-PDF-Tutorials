@@ -60,7 +60,7 @@ Tutorial kode untuk Aspose.PDF Net
 Tutorial kode untuk Aspose.PDF Net
 
 ### [Membuat PDF dengan Tabel dan Tombol Radio menggunakan Aspose.PDF .NET | Panduan Langkah demi Langkah](./create-pdf-table-radio-buttons-aspose-pdf-net/)
-Pelajari cara membuat PDF dinamis dengan tabel dan tombol radio menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah ini untuk integrasi yang lancar ke dalam proyek Anda.
+Pelajari cara membuat PDF dinamis dengan tabel dan tombol radio menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah untuk integrasi yang lancar ke dalam proyek Anda.
 
 ### [Membuat Kolom ComboBox PDF Menggunakan Aspose.PDF untuk .NET: Panduan Pengembang](./create-pdf-combobox-aspose-pdf-net/)
 Pelajari cara membuat dokumen PDF interaktif dengan kolom ComboBox menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup penyiapan, penerapan, dan pemecahan masalah.
@@ -233,7 +233,7 @@ Pelajari cara memuat, mengakses, dan memanipulasi anotasi PDF secara efisien men
 ### [Kuasai Manipulasi Bidang PDF dengan Aspose.PDF untuk .NET: Panduan Lengkap untuk Pengembang](./aspose-pdf-net-mastering-field-manipulation-guide/)
 Pelajari cara mengotomatiskan pembacaan, penambahan, modifikasi, dan penghapusan kolom dalam PDF menggunakan Aspose.PDF for .NET. Sempurna bagi pengembang yang ingin menyederhanakan alur kerja dokumen.
 
-### [Kuasai Manipulasi Formulir PDF Menggunakan Aspose.PDF untuk .NET](./master-aspose-pdf-dotnet-form-manipulation/)
+### [Kuasai Manipulasi Formulir PDF dengan Aspose.PDF untuk .NET](./master-aspose-pdf-dotnet-form-manipulation/)
 Pelajari cara mengelola dan memanipulasi formulir PDF secara efisien menggunakan Aspose.PDF untuk .NET. Tingkatkan alur kerja dokumen Anda dengan kolom dinamis, tombol kirim, dan banyak lagi.
 
 ### [Kuasai Manipulasi Formulir PDF dalam .NET dengan Teks Arab Menggunakan Aspose.PDF](./aspose-pdf-net-arabic-text-manipulation/)
@@ -277,6 +277,8 @@ Pelajari cara mengatur dan mengambil batasan karakter di kolom PDF dengan Aspose
 
 ### [Memperbarui Anotasi PDF dengan Aspose.PDF untuk .NET: Panduan Lengkap](./update-pdf-annotations-aspose-pdf-dotnet/)
 Pelajari cara memperbarui anotasi PDF secara terprogram menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup kiat penyiapan, penerapan, dan performa.
+
+### [Buat Dokumen PDF dengan Aspose – Tambahkan Halaman, Kotak Teks, dan Formulir](./create-pdf-document-with-aspose-add-page-text-box-and-form/)
 
 ## Sumber Daya Tambahan
 
