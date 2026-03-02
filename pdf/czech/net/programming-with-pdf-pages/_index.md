@@ -37,6 +37,7 @@ Návody obsahují podrobné pokyny, podrobné příklady kódu a jasná vysvětl
 | [Rozdělit na stránky](./split-to-pages/) Snadno rozdělte PDF soubory na jednotlivé stránky pomocí Aspose.PDF pro .NET s tímto komplexním tutoriálem. Součástí je podrobný návod. |  
 | [Aktualizovat rozměry stránky PDF](./update-dimensions/) | Zjistěte, jak snadno aktualizovat rozměry stránek PDF pomocí Aspose.PDF pro .NET v tomto komplexním návodu krok za krokem. |  
 | [Přiblížit na obsah stránky v souboru PDF](./zoom-to-page-contents/) | V tomto komplexním průvodci se naučte, jak přiblížit obsah stránky v souborech PDF pomocí Aspose.PDF pro .NET. Vylepšete své dokumenty PDF podle svých specifických potřeb. |  
+| [Aspose PDF tutoriál – Vložení prázdné stránky a aktualizace Batesova číslování](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Naučte se, jak vložit prázdnou stránku a aktualizovat Batesovo číslování v PDF pomocí Aspose.PDF pro .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

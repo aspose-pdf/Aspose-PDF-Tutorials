@@ -23,7 +23,7 @@ Các hướng dẫn này cũng cung cấp các ví dụ mã chi tiết, giải t
 | --- | --- | 
 | [Thêm chú giải công cụ vào trường](./add-tooltip-to-field/) | Tìm hiểu cách thêm chú giải công cụ vào các trường biểu mẫu trong tài liệu PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Cải thiện khả năng sử dụng và trải nghiệm của người dùng. |  
 | [Điền văn bản tiếng Ả Rập](./arabic-text-filling/) | Tìm hiểu cách điền văn bản tiếng Ả Rập vào biểu mẫu PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Nâng cao kỹ năng thao tác PDF của bạn. |  
-| [Hộp kết hợp](./combo-box/) Tìm hiểu cách thêm Combo Box vào PDF bằng Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để tạo biểu mẫu PDF tương tác dễ dàng. |  
+| [Hộp kết hợp](./combo-box/) Tìm hiểu cách thêm Combo Box vào PDF bằng Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để tạo biểu mẫu PDF tương tác dễ dàng. |
 | [Tạo Tài Liệu](./create-doc/) | Học cách tạo tài liệu PDF tương tác với các nút radio bằng Aspose.PDF cho .NET trong hướng dẫn từng bước toàn diện này. |  
 | [Xóa trường biểu mẫu trong tài liệu PDF](./delete-form-field/) | Tìm hiểu cách xóa các trường biểu mẫu trong tài liệu PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển và những người đam mê PDF. |  
 | [Xác định trường bắt buộc trong biểu mẫu PDF](./determine-required-field/) | Tìm hiểu cách xác định các trường bắt buộc trong biểu mẫu PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước của chúng tôi giúp đơn giản hóa việc quản lý biểu mẫu và nâng cao quy trình làm việc tự động hóa PDF của bạn. |  
@@ -50,6 +50,7 @@ Các hướng dẫn này cũng cung cấp các ví dụ mã chi tiết, giải t
 | [Đặt Java Script](./set-java-script/) | Mở khóa sức mạnh của Aspose.PDF cho .NET. Tìm hiểu cách thiết lập JavaScript trên các trường biểu mẫu với hướng dẫn từng bước của chúng tôi. |  
 | [Đặt tiêu đề nút radio](./set-radio-button-caption/) Tìm hiểu cách đặt tiêu đề nút radio trong PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước này hướng dẫn bạn cách tải, sửa đổi và lưu biểu mẫu PDF. |  
 | [Hộp văn bản](./text-box/) | Khám phá cách dễ dàng thêm hộp văn bản vào PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Tăng cường tương tác của người dùng. |  
+| [Cách tạo PDF với Aspose – Thêm trường vào bộ sưu tập](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Tìm hiểu cách tạo tệp PDF và thêm trường vào bộ sưu tập bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết này. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

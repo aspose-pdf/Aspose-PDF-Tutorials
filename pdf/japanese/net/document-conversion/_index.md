@@ -56,6 +56,7 @@ Aspose.PDF の .NET 向けドキュメント変換チュートリアルでは、
 | [XMLからPDFへ](./xml-to-pdf/) コード例と詳細な説明を含む包括的なステップバイステップのチュートリアルで、Aspose.PDF for .NET を使用して XML を PDF に変換する方法を学習します。 |  
 | [XMLからPDFへの画像パスの設定](./xml-to-pdfset-image-path/) Aspose.PDF for .NET を使って、XML を PDF に簡単に変換する方法を学びましょう。この詳細なガイドでは、セットアップから完了まで、プロセスをステップごとに詳しく説明します。 |  
 | [XPSからPDFへ](./xps-to-pdf/) Aspose.PDF for .NET を使用してXPSファイルをPDFに変換する方法を、ステップバイステップのチュートリアルで学びましょう。開発者やドキュメント作成に興味のある方に最適です。 |  
+| [Aspose PDF 変換: C# で PDF を PDF/X‑4 に変換](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) Aspose.PDF for .NET を使用して、PDF を PDF/X‑4 形式に変換する手順をステップバイステップで学びます。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

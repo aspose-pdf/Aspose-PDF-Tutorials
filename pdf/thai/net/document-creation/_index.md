@@ -71,8 +71,11 @@
 ### [หลักการสร้าง PDF ที่แท็กด้วย Aspose.PDF สำหรับ .NET: คู่มือครอบคลุมเกี่ยวกับการเข้าถึงและ SEO](./master-tagged-pdf-creation-aspose-pdf-dotnet/)
 เรียนรู้วิธีสร้าง PDF ที่แท็กไว้อย่างเข้าถึงได้และมีโครงสร้างที่ดีโดยใช้ Aspose.PDF สำหรับ .NET คู่มือนี้ครอบคลุมถึงการตั้งค่าคุณสมบัติของเอกสาร การเพิ่มลิงก์ และการฝังรูปภาพ
 
-### [เรียนรู้การสร้าง PDF Booklet ด้วย Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
-บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.PDF Net
+### [สร้างเอกสาร PDF – เพิ่มหน้าเปล่า, วาดสี่เหลี่ยมและบันทึก](./create-pdf-document-add-blank-page-draw-rectangle-save/)
+เรียนรู้วิธีสร้างไฟล์ PDF เพิ่มหน้าเปล่า วาดสี่เหลี่ยม แล้วบันทึกโดยใช้ Aspose.PDF สำหรับ .NET
+
+### [สร้างเอกสาร PDF ด้วย Aspose.Pdf – คู่มือทีละขั้นตอน](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+เรียนรู้วิธีสร้างเอกสาร PDF อย่างง่ายด้วย Aspose.Pdf พร้อมขั้นตอนที่ชัดเจนและตัวอย่างโค้ด
 
 ## แหล่งข้อมูลเพิ่มเติม
 

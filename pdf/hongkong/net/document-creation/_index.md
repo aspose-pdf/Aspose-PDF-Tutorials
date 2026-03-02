@@ -74,6 +74,12 @@ Aspose.PDF Net 程式碼教學
 ### [掌握使用 Aspose.PDF .NET 建立 PDF 小冊子](./aspose-pdf-net-create-booklet-page-arrangement/)
 Aspose.PDF Net 程式碼教學
 
+### [使用 Aspose.Pdf 建立 PDF 文件：逐步指南](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+了解如何使用 Aspose.Pdf 從頭建立 PDF 文件，涵蓋設定、內容添加與保存等步驟。
+
+### [建立 PDF 文件 – 新增空白頁面、繪製矩形並儲存](./create-pdf-document-add-blank-page-draw-rectangle-save/)
+了解如何使用 Aspose.PDF for .NET 建立 PDF，新增空白頁面、繪製矩形，最後儲存檔案。
+
 ## 其他資源
 
 - [Aspose.PDF 用於網頁文檔](https://docs.aspose.com/pdf/net/)

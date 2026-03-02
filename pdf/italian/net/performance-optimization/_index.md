@@ -50,6 +50,12 @@ Padroneggia l'arte di convertire file SVG in PDF con precisione ed efficienza ut
 ### [Come rimuovere i font dai PDF utilizzando Aspose.PDF per .NET: riduzione delle dimensioni dei file e miglioramento delle prestazioni](./optimize-pdfs-unembed-fonts-aspose-pdf-net/)
 Scopri come estrarre i font dai tuoi file PDF utilizzando Aspose.PDF per .NET. Ottimizza le prestazioni dei PDF, riduci le dimensioni dei file e migliora i tempi di caricamento con questa guida passo passo.
 
+### [Crea PDF ottimizzato – comprimi le immagini PDF con JPEG senza perdita](./create-optimized-pdf-compress-pdf-images-with-lossless-jpeg/)
+Scopri come ridurre le dimensioni delle immagini nei PDF usando la compressione JPEG lossless con Aspose.PDF per .NET, mantenendo la qualità.
+
+### [Come ottimizzare PDF in C# aggiungendo una pagina vuota, esportando in HTML e firmando](./how-to-optimize-pdf-in-c-add-blank-page-export-html-sign/)
+Scopri come aggiungere pagine vuote, esportare PDF in HTML e firmare documenti PDF usando Aspose.PDF per .NET in C#.
+
 ## Risorse aggiuntive
 
 - [Aspose.PDF per la documentazione di rete](https://docs.aspose.com/pdf/net/)

@@ -50,6 +50,12 @@
 ### [使用 Aspose.PDF for .NET 在 PDF 中取消嵌入字体：减小文件大小并提高性能](./optimize-pdfs-unembed-fonts-aspose-pdf-net/)
 了解如何使用 Aspose.PDF for .NET 从 PDF 文件中取消嵌入字体。本分步指南将帮助您优化 PDF 性能、减小文件大小并缩短加载时间。
 
+### [创建优化 PDF – 使用无损 JPEG 压缩 PDF 图像](./create-optimized-pdf-compress-pdf-images-with-lossless-jpeg/)
+了解如何使用 Aspose.PDF for .NET 将 PDF 中的图像压缩为无损 JPEG，以减小文件大小并保持图像质量。
+
+### [如何在 C# 中优化 PDF：添加空白页、导出 HTML、签名](./how-to-optimize-pdf-in-c-add-blank-page-export-html-sign/)
+本指南演示在 C# 使用 Aspose.PDF 添加空白页、导出为 HTML 并对 PDF 进行签名的完整步骤。
+
 ## 其他资源
 
 - [Aspose.PDF 用于网络文档](https://docs.aspose.com/pdf/net/)

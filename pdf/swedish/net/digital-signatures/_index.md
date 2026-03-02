@@ -53,6 +53,9 @@ Lär dig hur du verifierar digitala signaturer i PDF-filer med Aspose.PDF för .
 ### [Verifiera PDF-signatur i C# – Steg‑för‑steg‑guide](./verify-pdf-signature-in-c-step-by-step-guide/)
 Lär dig hur du verifierar PDF‑signaturer i C# med en steg‑för‑steg‑guide.
 
+### [Validera PDF-signatur i C# – Steg‑för‑steg‑guide](./validate-pdf-signature-in-c-step-by-step-guide/)
+Lär dig hur du validerar PDF‑signaturer i C# med en tydlig steg‑för‑steg‑guide.
+
 ### [Hur man verifierar PDF – Validera PDF-signatur med Aspose](./how-to-verify-pdf-validate-pdf-signature-with-aspose/)
 Lär dig hur du verifierar PDF‑signaturer med Aspose i en steg‑för‑steg‑guide.
 

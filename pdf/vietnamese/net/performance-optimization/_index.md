@@ -50,6 +50,12 @@ Làm chủ nghệ thuật chuyển đổi tệp SVG sang PDF một cách chính 
 ### [Gỡ bỏ phông chữ trong PDF bằng Aspose.PDF cho .NET: Giảm kích thước tệp và cải thiện hiệu suất](./optimize-pdfs-unembed-fonts-aspose-pdf-net/)
 Tìm hiểu cách bỏ nhúng phông chữ khỏi tệp PDF của bạn bằng Aspose.PDF cho .NET. Tối ưu hóa hiệu suất PDF, giảm kích thước tệp và cải thiện thời gian tải với hướng dẫn từng bước này.
 
+### [Tạo PDF Tối ưu – Nén Hình ảnh PDF bằng JPEG Không mất dữ liệu](./create-optimized-pdf-compress-pdf-images-with-lossless-jpeg/)
+Hướng dẫn tạo PDF tối ưu bằng cách nén các hình ảnh trong PDF sử dụng định dạng JPEG không mất dữ liệu, giảm kích thước mà vẫn giữ chất lượng.
+
+### [Cách tối ưu hóa PDF trong C# Thêm trang trắng, Xuất HTML, Ký](./how-to-optimize-pdf-in-c-add-blank-page-export-html-sign/)
+Hướng dẫn thêm trang trắng, xuất PDF sang HTML và ký tài liệu PDF bằng Aspose.PDF cho .NET trong C#.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)

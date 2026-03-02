@@ -74,6 +74,12 @@ Lär dig hur du skapar tillgängliga, välstrukturerade taggade PDF-filer med As
 ### [Bemästra PDF-häftesskapande med Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 En kodhandledning för Aspose.PDF Net
 
+### [Skapa PDF-dokument med Aspose.Pdf – En steg‑för‑steg‑guide](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Lär dig hur du skapar PDF-dokument med Aspose.Pdf genom en tydlig steg‑för‑steg‑guide.
+
+### [Skapa PDF-dokument – Lägg till tom sida, rita rektangel och spara](./create-pdf-document-add-blank-page-draw-rectangle-save/)
+Lär dig hur du skapar ett PDF-dokument, lägger till en tom sida, ritar en rektangel och sparar filen med Aspose.PDF för .NET.
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

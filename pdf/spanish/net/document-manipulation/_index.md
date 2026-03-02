@@ -240,7 +240,7 @@ Aprenda a gestionar archivos PDF mediante programación en .NET con Aspose.PDF. 
 Aprenda a automatizar tareas de PDF utilizando Aspose.PDF para .NET, incluida la concatenación de archivos, la adición de páginas, la inserción de sellos de texto y la creación de enlaces.
 
 ### [Domine la manipulación de PDF con Aspose.PDF .NET: Cargue y modifique documentos fácilmente](./mastering-pdf-manipulation-aspose-dotnet/)
-Aprenda a dominar la carga, navegación y modificación de documentos PDF con la potente biblioteca Aspose.PDF .NET. ¡Mejore sus aplicaciones hoy mismo!
+Aprenda a dominar la carga, navegación y modificación de documentos PDF con la poderosa biblioteca Aspose.PDF .NET. ¡Mejore sus aplicaciones hoy mismo!
 
 ### [Domine la manipulación de PDF con Aspose.PDF .NET: Guía para cargar, buscar y anotar](./aspose-pdf-dotnet-mastering-pdfs-manipulation-guide/)
 Aprenda a dominar la manipulación de PDF con Aspose.PDF para .NET. Esta guía explica cómo cargar documentos, buscar texto y aplicar anotaciones como tachados.
@@ -306,10 +306,13 @@ Aprenda a dividir un archivo PDF en páginas individuales con Aspose.PDF para .N
 Aprenda a dividir páginas PDF en archivos separados con Aspose.PDF para .NET. Esta guía completa incluye consejos de configuración, implementación y optimización.
 
 ### [Dividir y crear archivos PDF con Aspose.PDF .NET | Guía de manipulación de documentos](./split-create-pdf-aspose-pdf-net/)
-Aprenda a dividir archivos PDF de varias páginas y a crear nuevos archivos PDF con Aspose.PDF para .NET. Siga esta guía completa con ejemplos de código.
+Aprenda a dividir archivos PDF de varias páginas y a crear nuevos archivos PDF con Aspose.PDF .NET. Siga esta guía completa con ejemplos de código.
 
 ### [Guía definitiva para la manipulación de PDF con Aspose.PDF .NET: Carga, guarda y reemplaza texto de forma eficiente](./master-pdf-manipulation-aspose-pdf-net/)
 Aprenda a dominar la manipulación de PDF con Aspose.PDF para .NET. Esta guía explica cómo cargar, guardar y reemplazar texto en PDF, ideal para desarrolladores que buscan eficiencia.
+
+### [Cómo redactar PDF en C# – Ocultar texto PDF y eliminar contenido PDF](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
+Aprenda a redactar PDFs en C#, ocultando texto y eliminando contenido confidencial con Aspose.PDF para .NET.
 
 ## Recursos adicionales
 

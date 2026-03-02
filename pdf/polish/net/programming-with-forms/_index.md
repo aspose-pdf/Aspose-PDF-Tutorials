@@ -50,6 +50,7 @@ Te samouczki zawierają również szczegółowe przykłady kodu, jasne wyjaśnie
 | [Ustaw skrypt Java](./set-java-script/) | Odblokuj moc Aspose.PDF dla .NET. Dowiedz się, jak skonfigurować JavaScript w polach formularza dzięki naszemu przewodnikowi krok po kroku. |  
 | [Ustaw podpis przycisku radiowego](./set-radio-button-caption/) Dowiedz się, jak ustawić podpisy przycisków radiowych w plikach PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik krok po kroku przeprowadzi Cię przez ładowanie, modyfikowanie i zapisywanie formularzy PDF. |  
 | [Pole tekstowe](./text-box/) | Dowiedz się, jak bez wysiłku dodawać pola tekstowe do plików PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Ulepsz interakcję użytkownika. |  
+| [Jak utworzyć PDF przy użyciu Aspose – Dodaj pole do kolekcji](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Dowiedz się, jak dodać pole do kolekcji w dokumencie PDF przy użyciu Aspose.PDF dla .NET w tym przewodniku krok po kroku. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -74,6 +74,12 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET barrierefreie, gut strukturierte 
 ### [PDF-Broschüren erstellen mit Aspose.PDF .NET meistern](./aspose-pdf-net-create-booklet-page-arrangement/)
 Ein Code-Tutorial für Aspose.PDF Net
 
+### [Erstellen Sie ein PDF-Dokument mit Aspose.Pdf – Schritt-für-Schritt-Anleitung](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Pdf ein PDF-Dokument Schritt für Schritt erstellen und anpassen.
+
+### [PDF-Dokument erstellen – Leere Seite hinzufügen, Rechteck zeichnen & speichern](./create-pdf-document-add-blank-page-draw-rectangle-save/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF-Dokument erstellen, eine leere Seite hinzufügen, ein Rechteck zeichnen und das Dokument speichern.
+
 ## Weitere Ressourcen
 
 - [Aspose.PDF für Net-Dokumentation](https://docs.aspose.com/pdf/net/)

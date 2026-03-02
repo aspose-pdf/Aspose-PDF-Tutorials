@@ -306,18 +306,16 @@ Aprenda a dividir um arquivo PDF em páginas individuais usando o Aspose.PDF par
 Aprenda a dividir páginas de PDF em arquivos separados usando o Aspose.PDF para .NET. Este guia completo aborda dicas de configuração, implementação e otimização.
 
 ### [Dividir e Criar Arquivos PDF Usando Aspose.PDF .NET | Guia de Manipulação de Documentos](./split-create-pdf-aspose-pdf-net/)
-Aprenda a dividir PDFs de várias páginas e criar novos arquivos PDF usando o Aspose.PDF para .NET. Siga este guia completo com exemplos de código.
+Aprenda a dividir PDFs de várias páginas e criar novos arquivos PDF usando o Aspose.PDF .NET. Siga este guia completo com exemplos de código.
 
 ### [Guia definitivo para manipulação de PDF com Aspose.PDF .NET: carregue, salve e substitua texto com eficiência](./master-pdf-manipulation-aspose-pdf-net/)
 Aprenda a dominar a manipulação de PDFs usando o Aspose.PDF para .NET. Este guia aborda como carregar, salvar e substituir texto em PDFs, ideal para desenvolvedores que buscam eficiência.
 
-## Recursos adicionais
+### [Como remover todo o texto de PDFs usando Aspose.PDF .NET para manipulação de documentos](./remove-text-aspose-pdf-net-tutorial/)
+Aprenda a remover todo o texto de um PDF com eficiência usando o Aspose.PDF .NET. Perfeito para proteger dados confidenciais ou organizar documentos.
 
-- [Aspose.PDF para documentação da Net](https://docs.aspose.com/pdf/net/)
-- [Referência da API Aspose.PDF para Net](https://reference.aspose.com/pdf/net/)
-- [Baixe Aspose.PDF para a rede](https://releases.aspose.com/pdf/net/)
-- [Suporte gratuito](https://forum.aspose.com/)
-- [Licença Temporária](https://purchase.aspose.com/temporary-license/)
+### [Como censurar PDF em C# – Ocultar texto e remover conteúdo PDF](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
+Aprenda a censurar PDFs, ocultando texto e removendo conteúdo usando Aspose.PDF para .NET em C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

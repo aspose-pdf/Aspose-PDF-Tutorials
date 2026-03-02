@@ -48,7 +48,12 @@ Pelajari cara mengurangi ukuran file PDF menggunakan kompresi FlateDecode dengan
 Kuasai seni mengonversi file SVG ke PDF dengan presisi dan efisiensi menggunakan Aspose.PDF untuk .NET. Pelajari teknik instalasi, pengaturan, dan pengoptimalan dalam panduan lengkap ini.
 
 ### [Cara Menghapus Font yang Disematkan di PDF Menggunakan Aspose.PDF untuk .NET: Mengurangi Ukuran File dan Meningkatkan Performa](./optimize-pdfs-unembed-fonts-aspose-pdf-net/)
-Pelajari cara menghapus font dari file PDF Anda menggunakan Aspose.PDF for .NET. Optimalkan kinerja PDF, kurangi ukuran file, dan tingkatkan waktu pemuatan dengan panduan langkah demi langkah ini.
+
+### [Buat PDF Teroptimasi – Kompres Gambar PDF dengan JPEG Lossless](./create-optimized-pdf-compress-pdf-images-with-lossless-jpeg/)
+Pelajari cara mengompresi gambar dalam PDF menggunakan JPEG lossless dengan Aspose.PDF untuk .NET, mengurangi ukuran tanpa mengorbankan kualitas.
+
+### [Cara Mengoptimalkan PDF di C# dengan Menambahkan Halaman Kosong, Mengekspor HTML, dan Menandatangani](./how-to-optimize-pdf-in-c-add-blank-page-export-html-sign/)
+Pelajari cara menambahkan halaman kosong, mengekspor ke HTML, dan menandatangani PDF menggunakan Aspose.PDF untuk .NET.
 
 ## Sumber Daya Tambahan
 

@@ -21,6 +21,7 @@ Naučíte se, jak nastavit převod, extrahovat text a obrázky, zachovat původn
 ## Návody
 | Název | Popis |
 | --- | --- | 
+| [Aspose PDF konverze: Převod PDF do PDF/X‑4 v C#](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) | Naučte se, jak převést PDF do PDF/X‑4 pomocí Aspose.PDF pro .NET v C# v tomto podrobném návodu. |
 | [Přidat přílohu k PDFA](./add-attachment-to-pdfa/) | Naučte se, jak přidávat přílohy k dokumentu PDF/A pomocí Aspose.PDF pro .NET s tímto podrobným návodem. |  
 | [CGM do PDF souborů](./cgm-to-pdf/) | Naučte se, jak převést soubory CGM do PDF pomocí Aspose.PDF pro .NET s tímto podrobným návodem. Ideální pro vývojáře i designéry. |  
 | [EPUB do PDF](./epub-to-pdf/) Naučte se, jak převést EPUB do PDF pomocí Aspose.PDF pro .NET s tímto podrobným návodem. Snadné, efektivní a perfektní pro všechny uživatele. |  

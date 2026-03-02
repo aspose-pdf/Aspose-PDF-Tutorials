@@ -48,7 +48,12 @@ Aspose.PDF for .NET ile FlateDecode sıkıştırmasını kullanarak PDF dosya bo
 Aspose.PDF for .NET kullanarak SVG dosyalarını hassas ve verimli bir şekilde PDF'lere dönüştürme sanatında ustalaşın. Bu kapsamlı kılavuzda kurulum, ayarlama ve optimizasyon tekniklerini öğrenin.
 
 ### [Aspose.PDF for .NET Kullanarak PDF'lerdeki Yazı Tiplerini Kaldırma: Dosya Boyutunu Azaltın ve Performansı İyileştirin](./optimize-pdfs-unembed-fonts-aspose-pdf-net/)
-Aspose.PDF for .NET kullanarak PDF dosyalarınızdaki yazı tiplerini nasıl kaldıracağınızı öğrenin. Bu adım adım kılavuzla PDF performansını optimize edin, dosya boyutunu küçültün ve yükleme sürelerini iyileştirin.
+
+### [Optimizeli PDF Oluşturun – PDF Görüntülerini Kayıpsız JPEG ile Sıkıştırın](./create-optimized-pdf-compress-pdf-images-with-lossless-jpeg/)
+Aspose.PDF for .NET ile PDF içindeki görüntüleri kayıpsız JPEG sıkıştırmasıyla küçülterek dosya boyutunu azaltmayı öğrenin.
+
+### [C#'ta PDF'yi Optimize Etme: Boş Sayfa Ekleme, HTML Dışa Aktarma, İmzalama](./how-to-optimize-pdf-in-c-add-blank-page-export-html-sign/)
+Aspose.PDF for .NET kullanarak C# içinde PDF'ye boş sayfa ekleme, HTML'ye dönüştürme ve imzalama adımlarını öğrenin.
 
 ## Ek Kaynaklar
 

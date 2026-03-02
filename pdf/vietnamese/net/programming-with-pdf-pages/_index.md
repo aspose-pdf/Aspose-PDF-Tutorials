@@ -34,6 +34,7 @@ Hướng dẫn bao gồm hướng dẫn từng bước, ví dụ mã chi tiết 
 | [Đặt hình ảnh làm nền trang trong tệp PDF](./image-as-background/) | Tìm hiểu cách đặt hình ảnh làm nền trang trong PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Tạo tài liệu chuyên nghiệp, hấp dẫn về mặt hình ảnh. |  
 | [Chèn trang trống vào tệp PDF](./insert-empty-page/) | Tìm hiểu cách chèn một trang trống vào tài liệu PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước với các ví dụ mã để thao tác PDF liền mạch. |  
 | [Chèn trang trống vào cuối](./insert-empty-page-at-end/) | Học cách chèn một trang trống vào tài liệu PDF một cách dễ dàng với Aspose.PDF cho .NET trong hướng dẫn dành cho người mới bắt đầu này. Hoàn hảo cho việc chỉnh sửa nhanh. |  
+| [Chèn trang trống và cập nhật số Bates](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Hướng dẫn chi tiết cách chèn một trang trống vào PDF và cập nhật số Bates bằng Aspose.PDF cho .NET. |  
 | [Chia thành các trang](./split-to-pages/) Dễ dàng chia PDF thành các trang riêng lẻ bằng Aspose.PDF cho .NET với hướng dẫn toàn diện này. Có kèm hướng dẫn từng bước. |  
 | [Cập nhật kích thước trang PDF](./update-dimensions/) | Khám phá cách cập nhật kích thước trang PDF dễ dàng bằng Aspose.PDF cho .NET trong hướng dẫn toàn diện, từng bước này. |  
 | [Phóng to nội dung trang trong tệp PDF](./zoom-to-page-contents/) | Tìm hiểu cách phóng to nội dung trang trong tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn toàn diện này. Cải thiện tài liệu PDF của bạn theo nhu cầu cụ thể của bạn. |  
