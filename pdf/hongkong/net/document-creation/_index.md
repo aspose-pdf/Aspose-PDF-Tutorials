@@ -77,6 +77,9 @@ Aspose.PDF Net 程式碼教學
 ### [使用 Aspose.PDF 建立 PDF 文件 – 新增頁面、形狀與儲存](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 了解如何使用 Aspose.PDF 在 PDF 中新增頁面與形狀，並將文件儲存。
 
+### [使用 Aspose.PDF 建立 PDF 文件：逐步指南](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+了解如何使用 Aspose.PDF 逐步建立 PDF 文件，涵蓋設定、內容加入與儲存技巧。
+
 ## 其他資源
 
 - [Aspose.PDF 用於網頁文檔](https://docs.aspose.com/pdf/net/)

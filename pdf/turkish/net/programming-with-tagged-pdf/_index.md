@@ -37,7 +37,7 @@ Aspose.PDF for .NET'in "Etiketli PDF'lerle Programlama" öğreticileri, bu kitap
 | [PDF Dosyasında Yapı Elemanları Özellikleri](./structure-elements-properties/) | Aspose.PDF for .NET ile PDF dosyasındaki yapısal eleman özellikleriyle çalışmaya yönelik adım adım kılavuz. Bilgi açısından zengin yapısal elemanlar oluşturun. |  
 | [Stil Tablo Hücresi](./style-table-cell/) | Bu detaylı eğitimle .NET için Aspose.PDF kullanarak bir PDF'deki tablo hücrelerini nasıl biçimlendireceğinizi öğrenin. Güzel PDF tabloları oluşturmak ve biçimlendirmek için talimatları izleyin. |  
 | [Stil Tablosu Elemanı](./style-table-element/) | Aspose.PDF for .NET'te adım adım talimatlar, özel stil ve PDF/UA uyumluluğu ile bir tablo öğesinin nasıl oluşturulacağını ve biçimlendirileceğini öğrenin. |  
-| [Stil Tablo Satırı](./style-table-row/) .NET için Aspose.PDF'yi kullanarak PDF'deki tablo satırlarını nasıl biçimlendireceğinizi adım adım anlatan bir kılavuzla öğrenin ve belge biçimlendirmenizi kolaylıkla geliştirin. |  
+| [Stil Tablo Satırı](./style-table-row/) .NET için Aspose.PDF'yi kullanarak PDF'deki tablo satırlarını nasıl biçimlendireceğinizi adım adım anlatan bir kılavuzla öğrenin ve belge biçimlendirmeyi kolaylıkla geliştirin. |  
 | [PDF Dosyasında Stil Metin Yapısı](./style-text-structure/) | Bu kapsamlı adım adım eğitimde Aspose.PDF for .NET ile PDF dosyalarındaki metin yapısını nasıl şekillendireceğinizi öğrenin. Belgelerinizi dönüştürün. |  
 | [Etiketli PDF İçeriği](./tagged-pdf-content/) | .NET için Aspose.PDF ile bir PDF belgesinde etiketli içerikle nasıl çalışılacağını öğrenin. Etiketleri kullanmaya yönelik adım adım bir kılavuz. |  
 | [Mevcut PDF'deki Etiket Resmi](./tag-image-in-existing-pdf/) | Aspose.PDF for .NET kullanarak mevcut PDF'lerdeki görselleri nasıl etiketleyeceğinizi öğrenin. PDF/UA uyumluluğu ile erişilebilirliği artırmak için adım adım kılavuz. |  
@@ -45,6 +45,7 @@ Aspose.PDF for .NET'in "Etiketli PDF'lerle Programlama" öğreticileri, bu kitap
 | [PDF Dosyasındaki Metin Yapısı Öğeleri](./text-structure-elements/) Aspose.PDF for .NET ile PDF'lerdeki metin yapı öğelerini düzenlemeyi öğrenin. Bu adım adım kılavuz, yapılandırılmış PDF'ler oluşturmak için ihtiyacınız olan her şeyi kapsar. |  
 | [PDF Dosyasını Doğrula](./validate-pdf/) | .NET için Aspose.PDF ile bir PDF dosyasının nasıl doğrulanacağını öğrenin. Standartlara uygunluğunu kontrol edin ve bir doğrulama raporu oluşturun. |  
 | [C# ile Etiketli PDF Oluşturma – Tam Adım Adım Kılavuz](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | C# ve Aspose.PDF for .NET kullanarak etiketli PDF oluşturmayı adım adım öğrenin. |
+| [C# ile Etiketli PDF Oluşturma – Aspose PDF Tam Kılavuz](./create-tagged-pdf-in-c-aspose-pdf-complete-guide/) | C# ve Aspose.PDF ile etiketli PDF oluşturmanın tam rehberini keşfedin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

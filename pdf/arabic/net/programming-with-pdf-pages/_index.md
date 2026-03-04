@@ -38,6 +38,8 @@
 | [تحديث أبعاد صفحة PDF](./update-dimensions/) |اكتشف كيفية تحديث أبعاد صفحات PDF بسهولة باستخدام Aspose.PDF لـ .NET في هذا الدليل الشامل خطوة بخطوة. |  
 | [تكبير محتويات الصفحة في ملف PDF](./zoom-to-page-contents/) تعرّف على كيفية تكبير محتوى صفحات ملفات PDF باستخدام Aspose.PDF لـ .NET في هذا الدليل الشامل. حسّن مستندات PDF الخاصة بك وفقًا لاحتياجاتك الخاصة.  
 | [إضافة أرقام الصفحات إلى PDF باستخدام C# – دليل كامل خطوة بخطوة](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | دليل خطوة بخطوة لإضافة أرقام الصفحات إلى ملفات PDF باستخدام C# و Aspose.PDF لـ .NET. |  
+| [إنشاء مستند PDF C# – إضافة ترقيم Bates](./create-pdf-document-c-add-bates-numbering/) | دليل خطوة بخطوة لإضافة ترقيم Bates إلى مستند PDF باستخدام Aspose.PDF لـ .NET و C#. |
+| [إضافة ترقيم Bates إلى PDF – دليل خطوة بخطوة لترقيم صفحات PDF](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | دليل شامل يوضح كيفية إضافة ترقيم Bates إلى ملفات PDF باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

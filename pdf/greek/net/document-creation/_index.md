@@ -77,6 +77,9 @@
 ### [Δημιουργία εγγράφου PDF με Aspose.PDF – Προσθήκη σελίδας, σχήματος & αποθήκευση](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Μάθετε πώς να δημιουργήσετε ένα έγγραφο PDF, να προσθέσετε σελίδα, σχήμα και να το αποθηκεύσετε χρησιμοποιώντας το Aspose.PDF.
 
+### [Δημιουργία εγγράφου PDF με Aspose.PDF – Οδηγός βήμα προς βήμα](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε ένα έγγραφο PDF, προσθέτοντας σελίδες, σχήματα και αποθηκεύοντάς το με το Aspose.PDF.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.PDF για τεκμηρίωση δικτύου](https://docs.aspose.com/pdf/net/)

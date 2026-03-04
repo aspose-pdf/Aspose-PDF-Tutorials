@@ -34,6 +34,7 @@ Hướng dẫn cung cấp cho bạn tổng quan chi tiết về các phương ph
 | [Thiết lập quyền trong tệp PDF](./set-privileges/) | Tìm hiểu cách thiết lập quyền PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Bảo mật tài liệu của bạn một cách hiệu quả. |  
 | [Ký bằng thẻ thông minh sử dụng chữ ký tệp PDF](./sign-with-smart-card-using-pdf-file-signature/) | Tìm hiểu cách ký tệp PDF bằng thẻ thông minh với Aspose.PDF cho .NET. Thực hiện theo hướng dẫn từng bước này để có chữ ký số an toàn. |  
 | [Ký bằng thẻ thông minh sử dụng trường chữ ký](./sign-with-smart-card-using-signature-field/) | Tìm hiểu cách ký PDF an toàn bằng thẻ thông minh với Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để triển khai dễ dàng. |  
+| [Kiểm tra PDF để tìm chữ ký – Cách liệt kê chữ ký trong C# với Aspose.PDF](./check-pdf-for-signatures-how-to-list-signatures-in-c-with-as/) | Học cách kiểm tra và liệt kê các chữ ký PDF bằng C# với Aspose.PDF trong hướng dẫn chi tiết. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

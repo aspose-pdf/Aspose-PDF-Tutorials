@@ -77,6 +77,9 @@ Een codetutorial voor Aspose.PDF Net
 ### [PDF-document maken met Aspose.PDF – Pagina toevoegen, vorm toevoegen & opslaan](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Leer hoe u met Aspose.PDF een PDF maakt, een pagina en vorm toevoegt en het document opslaat.
 
+### [PDF-document maken met Aspose.PDF: een stapsgewijze handleiding](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Leer hoe u met Aspose.PDF een PDF-document maakt, pagina's toevoegt en opslaat in een stapsgewijze handleiding.
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

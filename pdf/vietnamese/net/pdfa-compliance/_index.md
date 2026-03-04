@@ -38,6 +38,9 @@ Tìm hiểu cách xác thực sự tuân thủ PDF/A-1a bằng Aspose.PDF cho .N
 ### [Xác thực PDF/A bằng Aspose.PDF cho .NET trong C#](./master-pdfa-validation-aspose-pdf-net/)
 Tìm hiểu cách xác thực tài liệu PDF theo tiêu chuẩn PDF/A bằng Aspose.PDF .NET. Đảm bảo tuân thủ và nâng cao độ tin cậy của tài liệu với hướng dẫn từng bước của chúng tôi.
 
+### [Chuyển đổi PDF sang PDF/A trong C# – Hướng dẫn từng bước](./convert-pdf-to-pdf-a-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu PDF sang PDF/A trong C# bằng Aspose.PDF, đảm bảo tuân thủ tiêu chuẩn lưu trữ.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)

@@ -40,7 +40,7 @@ Dönüştürme ayarlarını nasıl belirleyeceğinizi, metin ve görüntüleri n
 | [PDF'den PNG'ye Dönüştürme – C#'ta PDF Sayfalarını PNG'ye Çevirme](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Bu adım adım kılavuzda Aspose.PDF for .NET kullanarak PDF sayfalarını PNG formatına nasıl dönüştüreceğinizi öğrenin. |
 | [PDF'den PPT'ye](./pdf-to-ppt/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF'yi PPT'ye nasıl dönüştüreceğinizi öğrenin. Kolay, etkili ve sunumlar için mükemmel. |  
 | [PDF'den SVG'ye](./pdf-to-svg/) | Bu adım adım eğitimde Aspose.PDF for .NET kullanarak PDF dosyalarını SVG formatına nasıl dönüştüreceğinizi öğrenin. Geliştiriciler ve tasarımcılar için mükemmel. |  
-| [PDF'den TeX'e](./pdf-to-tex/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF'yi TeX'e nasıl dönüştüreceğinizi öğrenin. Belge işleme becerilerini geliştirmek isteyen geliştiriciler için mükemmeldir. |  
+| [PDF'den TeX'e](./pdf-to-tex/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF'yi TeX'e nasıl dönüştürececeğinizi öğrenin. Belge işleme becerilerini geliştirmek isteyen geliştiriciler için mükemmeldir. |  
 | [PDF'den XLS'e](./pdf-to-xls/) Aspose.PDF for .NET kullanarak PDF dosyalarını kolayca XLS formatına dönüştürün. Sorunsuz veri çıkarma için adım adım kılavuzumuzu izleyin. |  
 | [PDF'den XML'e](./pdf-to-xml/) | Bu kapsamlı eğitimde Aspose.PDF for .NET kullanarak PDF'yi XML'e nasıl dönüştüreceğinizi öğrenin. Kod örneklerinin de dahil olduğu adım adım kılavuz. |  
 | [PDF'den XPS'e](./pdf-to-xps/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF'yi XPS'e nasıl dönüştüreceğinizi öğrenin. Geliştiriciler ve belge işleme meraklıları için mükemmel. |  
@@ -58,6 +58,8 @@ Dönüştürme ayarlarını nasıl belirleyeceğinizi, metin ve görüntüleri n
 | [XML'den PDFSet Görüntü Yoluna](./xml-to-pdfset-image-path/) | Aspose.PDF for .NET kullanarak XML'i PDF'ye zahmetsizce nasıl dönüştüreceğinizi öğrenin. Bu ayrıntılı kılavuz, kurulumdan tamamlanmaya kadar süreci adım adım anlatır. |  
 | [XPS'den PDF'e](./xps-to-pdf/) Bu adım adım eğitimle Aspose.PDF for .NET kullanarak XPS dosyalarını PDF'ye nasıl dönüştüreceğinizi öğrenin. Geliştiriciler ve belge meraklıları için mükemmel. |
 | [PDF'yi C#'ta PDF/X‑4'e Dönüştür – Adım Adım ASP.NET PDF Eğitimi](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Aspose.PDF for .NET kullanarak PDF dosyalarını PDF/X‑4 formatına C# ile nasıl dönüştüreceğinizi öğrenin. |
+| [PDF'yi PDF/X‑4'e Dönüştür – Aspose ile Adım Adım Kılavuz](./how-to-convert-pdf-to-pdf-x-4-with-aspose-step-by-step-guide/) | Aspose.PDF for .NET kullanarak PDF dosyalarını PDF/X‑4 formatına nasıl dönüştüreceğinizi adım adım öğrenin. |
+| [C#'ta PDF Dönüştürme Seçeneklerini Ayarlama – Aspose Rehberi](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | Bu adım adım kılavuzda C# kullanarak PDF dönüştürme seçeneklerini nasıl ayarlayacağınızı öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

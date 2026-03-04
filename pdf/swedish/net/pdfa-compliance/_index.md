@@ -38,6 +38,9 @@ Lär dig hur du validerar PDF/A-1a-efterlevnad med Aspose.PDF för .NET. Den hä
 ### [Behärska PDF/A-validering med Aspose.PDF för .NET i C#](./master-pdfa-validation-aspose-pdf-net/)
 Lär dig hur du validerar PDF-dokument mot PDF/A-standarder med Aspose.PDF .NET. Säkerställ efterlevnad och förbättra dokumentens tillförlitlighet med vår steg-för-steg-guide.
 
+### [Konvertera PDF till PDF/A i C# – Steg‑för‑steg‑guide](./convert-pdf-to-pdf-a-in-c-step-by-step-guide/)
+Lär dig hur du konverterar PDF-filer till PDF/A-format med C# och Aspose.PDF .NET i en detaljerad steg-för-steg-guide.
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

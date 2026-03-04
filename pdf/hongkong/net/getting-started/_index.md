@@ -32,6 +32,9 @@ Aspose.PDF Net 程式碼教學
 ### [從.NET檔案載入Aspose.PDF許可證：綜合指南](./load-aspose-pdf-license-file-net/)
 了解如何透過載入授權檔案在 .NET 中無縫切換 Aspose.PDF 的試用模式和授權模式，確保應用程式功能順暢。
 
+### [如何使用 PowerShell 驗證 NuGet 套件的安裝](./how-to-verify-installation-of-a-nuget-package-with-powershel/)
+本教學說明如何使用 PowerShell 指令驗證 NuGet 套件是否正確安裝於 .NET 專案中。
+
 ## 其他資源
 
 - [Aspose.PDF 用於網頁文檔](https://docs.aspose.com/pdf/net/)

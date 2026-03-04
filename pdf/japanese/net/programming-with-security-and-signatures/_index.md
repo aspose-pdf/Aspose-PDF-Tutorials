@@ -34,6 +34,7 @@
 | [PDFファイルの署名を使用してスマートカードで署名する](./sign-with-smart-card-using-pdf-file-signature/) Aspose.PDF for .NET を使ってスマートカードでPDFファイルに署名する方法を学びましょう。安全なデジタル署名を実現するには、このステップバイステップガイドに従ってください。 |  
 | [署名フィールドを使用してスマートカードで署名する](./sign-with-smart-card-using-signature-field/) Aspose.PDF for .NET を使ってスマートカードで安全に PDF に署名する方法を学びましょう。ステップバイステップのガイドに従って簡単に実装できます。 |  
 | [C# で PDF 署名を確認する – 署名済み PDF ファイルの読み取り方法](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) Aspose.PDF for .NET を使用して、C# で署名済み PDF の署名情報を取得し、検証する方法を学びます。 |  
+| [PDF の署名を確認する – C# で署名一覧を取得する方法（Aspose.PDF 使用）](./check-pdf-for-signatures-how-to-list-signatures-in-c-with-as/) Aspose.PDF for .NET を使用して、C# で PDF の署名情報を一覧表示する方法を学びます。ステップバイステップのガイドです。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

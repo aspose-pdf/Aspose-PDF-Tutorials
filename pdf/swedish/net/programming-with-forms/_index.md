@@ -40,7 +40,7 @@ Dessa handledningar ger också detaljerade kodexempel, tydliga förklaringar och
 | [Grupperade kryssrutor i PDF-dokument](./grouped-check-boxes/) | Lär dig hur du skapar grupperade kryssrutor (radioknappar) i ett PDF-dokument med Aspose.PDF för .NET med den här steg-för-steg-handledningen. |
 | [Horisontellt och vertikalt radioknappar](./horizontally-and-vertically-radio-buttons/) Lär dig hur du skapar horisontellt och vertikalt justerade radioknappar i PDF med Aspose.PDF för .NET med den här steg-för-steg-handledningen. |
 | [Ändra formulärfält i PDF-dokument](./modify-form-field/) | Lär dig hur du ändrar formulärfält i PDF-dokument med Aspose.PDF för .NET med den här steg-för-steg-guiden. Perfekt för utvecklare som vill förbättra PDF-funktionaliteten. |
-| [Flytta formulärfält](./move-form-field/) | Lär dig hur du flyttar formulärfält i PDF-dokument med Aspose.PDF för .NET med den här guiden. Följ den här detaljerade handledningen för att enkelt ändra textrutornas placering. |
+| [Flytta formulärfält](./move-form-field/) | Lär dig hur du flyttar formulärfält i PDF-dokument med Aspose.PDF för .NET med denna guiden. Följ den här detaljerade handledningen för att enkelt ändra textrutornas placering. |
 | [Bevara rättigheter](./preserve-rights/) | Bevara formulärrättigheter i dina PDF-dokument med Aspose.PDF för .NET. |
 | [Radioknapp](./radio-button/) | Lär dig hur du skapar interaktiva radioknappar i PDF-dokument med Aspose.PDF för .NET med den här steg-för-steg-handledningen. |
 | [Radioknapp med alternativ](./radio-button-with-options/) Frigör potentialen hos interaktiva PDF-filer genom att lägga till radioknappar med Aspose.PDF för .NET. Skapa engagerande formulär enkelt och förbättra användarupplevelsen. |
@@ -51,6 +51,8 @@ Dessa handledningar ger också detaljerade kodexempel, tydliga förklaringar och
 | [Ställ in bildtext för radioknapp](./set-radio-button-caption/) Lär dig hur du ställer in bildtexter för radioknappar i PDF-filer med Aspose.PDF för .NET. Den här steg-för-steg-guiden guidar dig genom hur du laddar, ändrar och sparar dina PDF-formulär. |
 | [Textruta](./text-box/) | Upptäck hur du enkelt lägger till textrutor i PDF-filer med Aspose.PDF för .NET med den här steg-för-steg-guiden. Förbättra användarinteraktionen. |
 | [Hur man skapar PDF med Aspose – Lägg till formulärfält och sidor](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Lär dig hur du skapar en PDF, lägger till formulärfält och sidor med Aspose.PDF för .NET i en steg-för-steg-guide. |
+| [Skapa PDF-dokument med flera widgetar – steg-för-steg-guide](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) | Lär dig hur du skapar ett PDF-dokument med flera widgetar med Aspose.PDF för .NET i denna steg-för-steg-guide. |
+| [Skapa PDF med sidor och textrutefält – Fullständig C#-guide](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Lär dig hur du skapar en PDF med flera sidor och textrutefält i C# med Aspose.PDF för .NET i denna steg-för-steg-guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
