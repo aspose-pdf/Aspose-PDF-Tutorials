@@ -32,6 +32,9 @@ Výukový program pro kódování Aspose.PDF Net
 ### [Načítání licence Aspose.PDF ze souboru v .NET: Komplexní průvodce](./load-aspose-pdf-license-file-net/)
 Naučte se, jak bezproblémově přepínat mezi zkušebním a licencovaným režimem pro Aspose.PDF v .NET načtením licenčního souboru, což zajistí bezproblémové fungování aplikace.
 
+### [Jak ověřit instalaci NuGet balíčku pomocí PowerShellu](./how-to-verify-installation-of-a-nuget-package-with-powershel/)
+Naučte se, jak pomocí PowerShellu ověřit, že byl NuGet balíček úspěšně nainstalován.
+
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)

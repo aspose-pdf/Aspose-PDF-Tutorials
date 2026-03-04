@@ -32,6 +32,9 @@ Samouczek dotyczący kodu dla Aspose.PDF Net
 ### [Ładowanie licencji Aspose.PDF z pliku w .NET: kompleksowy przewodnik](./load-aspose-pdf-license-file-net/)
 Dowiedz się, jak płynnie przełączać się między trybem próbnym a licencjonowanym aplikacji Aspose.PDF w środowisku .NET, ładując plik licencji i zapewniając tym samym płynne działanie aplikacji.
 
+### [Jak zweryfikować instalację pakietu NuGet przy użyciu PowerShell](./how-to-verify-installation-of-a-nuget-package-with-powershel/)
+Sprawdź, czy pakiet NuGet został poprawnie zainstalowany, używając poleceń PowerShell.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

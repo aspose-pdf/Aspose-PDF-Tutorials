@@ -32,6 +32,9 @@ Tutorial kode untuk Aspose.PDF Net
 ### [Memuat Lisensi Aspose.PDF dari File dalam .NET: Panduan Lengkap](./load-aspose-pdf-license-file-net/)
 Pelajari cara beralih dengan mudah antara mode uji coba dan mode berlisensi untuk Aspose.PDF di .NET dengan memuat berkas lisensi, yang memastikan fungsionalitas aplikasi yang lancar.
 
+### [Cara Memverifikasi Instalasi Paket NuGet dengan PowerShell](./how-to-verify-installation-of-a-nuget-package-with-powershel/)
+Panduan langkah demi langkah untuk memeriksa apakah paket NuGet telah terpasang dengan benar menggunakan PowerShell.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

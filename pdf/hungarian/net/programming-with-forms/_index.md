@@ -24,7 +24,8 @@ Ezek az oktatóanyagok részletes kódpéldákat, világos magyarázatokat és i
 | [Eszköztipp hozzáadása mezőhöz](./add-tooltip-to-field/) | Ebben a lépésről lépésre szóló útmutatóban megtudhatja, hogyan adhat hozzá eszköztippeket PDF dokumentumok űrlapmezőihez az Aspose.PDF for .NET használatával. Javítsa a használhatóságot és a felhasználói élményt. |  
 | [Arab szöveg kitöltése](./arabic-text-filling/) | Tanulja meg, hogyan tölthet ki arab szöveget PDF űrlapokban az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Fejlessze PDF-szerkesztési készségeit. |  
 | [Kombinált mező](./combo-box/) Ismerje meg, hogyan adhat hozzá kombinált listát egy PDF-hez az Aspose.PDF for .NET használatával. Kövesse lépésről lépésre szóló útmutatónkat az interaktív PDF-űrlapok egyszerű létrehozásához. |  
-| [Dokumentum létrehozása](./create-doc/) | Tanulja meg, hogyan hozhat létre interaktív PDF dokumentumokat választógombokkal az Aspose.PDF for .NET segítségével ebben az átfogó, lépésről lépésre szóló útmutatóban. |  
+| [Dokumentum létrehozása](./create-doc/) | Tanulja meg, hogyan hozhat létre interaktív PDF dokumentumokat választógombokkal az Aspose.PDF for .NET segítségével ebben az átfogó, lépésről lépésre szóló útmutatóban. |
+| [PDF dokumentum létrehozása több widgettel – Lépésről lépésre útmutató](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) | Tanulja meg, hogyan hozhat létre PDF dokumentumot több űrlapwidgettel az Aspose.PDF for .NET segítségével ebben a részletes útmutatóban. |
 | [Űrlapmező törlése PDF dokumentumban](./delete-form-field/) | Tanulja meg, hogyan törölhet űrlapmezőket PDF dokumentumokban az Aspose.PDF for .NET használatával ebből a lépésről lépésre szóló útmutatóból. Tökéletes fejlesztők és PDF-rajongók számára. |  
 | [Kötelező mező meghatározása PDF űrlapon](./determine-required-field/) | Ismerje meg, hogyan határozhatja meg a PDF űrlapok kötelező mezőit az Aspose.PDF for .NET használatával. Lépésről lépésre bemutató útmutatónk leegyszerűsíti az űrlapkezelést és javítja a PDF automatizálási munkafolyamatot. |  
 | [Dinamikus XFA Acro űrlappá](./dynamic-xfa-to-acro-form/) | Ebben a lépésről lépésre szóló útmutatóban megtudhatja, hogyan konvertálhat dinamikus XFA űrlapokat szabványos AcroForm-okká az Aspose.PDF for .NET használatával. |  
@@ -51,6 +52,7 @@ Ezek az oktatóanyagok részletes kódpéldákat, világos magyarázatokat és i
 | [Rádiógomb feliratának beállítása](./set-radio-button-caption/) Ismerje meg, hogyan állíthat be választógomb-feliratokat PDF-fájlokban az Aspose.PDF for .NET használatával. Ez a lépésről lépésre szóló útmutató végigvezeti Önt a PDF-űrlapok betöltésén, módosításán és mentésén. |  
 | [Szövegdoboz](./text-box/) | Fedezze fel, hogyan adhat könnyedén szövegdobozokat PDF-fájlokhoz az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Fokozza a felhasználói interakciót. |  
 | [PDF létrehozása Aspose-szal – Űrlapmező és oldalak hozzáadása](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Ismerje meg, hogyan hozhat létre PDF-et Aspose használatával, és adhat hozzá űrlapmezőket és oldalakat lépésről lépésre. |
+| [PDF létrehozása oldalakkal és szövegdoboz mezőkkel – Teljes C# útmutató](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Lépésről lépésre bemutatja, hogyan hozhat létre PDF-et több oldallal és szövegdoboz mezőkkel C#-ban az Aspose.PDF for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
