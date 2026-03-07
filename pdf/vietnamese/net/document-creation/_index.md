@@ -77,6 +77,12 @@ Hướng dẫn mã cho Aspose.PDF Net
 ### [Tạo tài liệu PDF với Aspose.PDF – Thêm trang, hình dạng & Lưu](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Hướng dẫn cách thêm trang, hình dạng và lưu tài liệu PDF bằng Aspose.PDF trong .NET.
 
+### [Tạo tài liệu PDF với Aspose.PDF – Hướng dẫn từng bước](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Hướng dẫn chi tiết cách tạo tài liệu PDF bằng Aspose.PDF trong .NET, bao gồm thêm trang, hình dạng và lưu tệp.
+
+### [Tạo tài liệu PDF với Aspose.PDF – Hướng dẫn đầy đủ C#](./create-pdf-document-with-aspose-pdf-full-c-guide/)
+Hướng dẫn chi tiết cách tạo tài liệu PDF bằng Aspose.PDF trong C#, bao gồm thêm trang, hình dạng và lưu tệp.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)

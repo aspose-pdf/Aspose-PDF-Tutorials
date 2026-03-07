@@ -50,6 +50,9 @@
 ### [إلغاء تضمين الخطوط في ملفات PDF باستخدام Aspose.PDF لـ .NET: تقليل حجم الملف وتحسين الأداء](./optimize-pdfs-unembed-fonts-aspose-pdf-net/)
 تعرّف على كيفية إزالة الخطوط من ملفات PDF باستخدام Aspose.PDF لـ .NET. حسّن أداء ملفات PDF، وقلل حجمها، وحسّن أوقات التحميل من خلال هذا الدليل المفصل.
 
+### [كيفية ضغط ملفات PDF باستخدام Aspose.PDF – دليل سريع](./how-to-compress-pdf-with-aspose-pdf-quick-guide/)
+تعلم طريقة سريعة لضغط ملفات PDF باستخدام Aspose.PDF لتحقيق أحجام أصغر وتحسين سرعة التحميل.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

@@ -77,6 +77,12 @@ Samouczek dotyczący kodu dla Aspose.PDF Net
 ### [Utwórz dokument PDF przy użyciu Aspose.PDF – Dodaj stronę, kształt i zapisz](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Dowiedz się, jak w Aspose.PDF dodać nową stronę, rysować kształty i zapisać dokument PDF w aplikacji .NET.
 
+### [Utwórz dokument PDF przy użyciu Aspose.PDF – przewodnik krok po kroku](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Dowiedz się, jak krok po kroku utworzyć dokument PDF w Aspose.PDF, dodając elementy i zapisując go w .NET.
+
+### [Utwórz dokument PDF przy użyciu Aspose.PDF – Pełny przewodnik C#](./create-pdf-document-with-aspose-pdf-full-c-guide/)
+Kompletny przewodnik C# pokazujący, jak tworzyć dokumenty PDF, dodawać elementy i zapisywać je przy użyciu Aspose.PDF.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

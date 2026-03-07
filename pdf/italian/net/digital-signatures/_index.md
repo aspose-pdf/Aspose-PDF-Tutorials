@@ -47,6 +47,9 @@ Scopri come verificare le firme digitali nei file PDF utilizzando Aspose.PDF per
 ### [Verifica della firma PDF in C# – Guida passo‑passo](./verify-pdf-signature-in-c-step-by-step-guide/)
 Scopri come verificare le firme PDF in C# con una guida dettagliata passo‑passo.
 
+### [Come leggere le firme nei PDF con C# – Guida passo‑passo](./how-to-read-signatures-in-pdf-with-c-step-by-step-guide/)
+Scopri come leggere le firme digitali nei PDF utilizzando C#. Questa guida passo‑passo mostra il codice necessario per estrarre e analizzare le firme.
+
 ### [Padroneggia la firma e la verifica dei PDF con Aspose.PDF .NET](./mastering-aspose-pdf-net-sign-verify-smart-card-certificates/)
 Un tutorial sul codice per Aspose.PDF Net
 

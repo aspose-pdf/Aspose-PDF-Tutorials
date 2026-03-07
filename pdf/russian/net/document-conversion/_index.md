@@ -58,6 +58,7 @@
 | [XML в PDFУстановить путь к изображению](./xml-to-pdfset-image-path/) | Узнайте, как легко конвертировать XML в PDF с помощью Aspose.PDF для .NET. Это подробное руководство проведет вас через процесс шаг за шагом, от настройки до завершения. |  
 | [XPS в PDF](./xps-to-pdf/) Узнайте, как преобразовать файлы XPS в PDF с помощью Aspose.PDF для .NET с помощью этого пошагового руководства. Идеально подходит для разработчиков и энтузиастов документов. |  
 | [Конвертировать PDF в PDF/X‑4 на C# – пошаговое руководство ASP.NET PDF](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Узнайте, как конвертировать PDF в PDF/X‑4 с помощью Aspose.PDF для .NET в этом пошаговом руководстве. |
+| [Aspose PDF Tutorial: Конвертировать PDF в PDF/X‑4 на C#](./aspose-pdf-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Узнайте, как конвертировать PDF в PDF/X‑4 с помощью Aspose.PDF для .NET в этом пошаговом руководстве. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

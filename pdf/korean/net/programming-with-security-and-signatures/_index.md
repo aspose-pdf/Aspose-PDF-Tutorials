@@ -34,6 +34,8 @@
 | [PDF 파일 서명을 사용하여 스마트 카드로 서명](./sign-with-smart-card-using-pdf-file-signature/) | Aspose.PDF for .NET을 사용하여 스마트 카드를 사용하여 PDF 파일에 서명하는 방법을 알아보세요. 안전한 디지털 서명을 위한 단계별 가이드를 따르세요. |  
 | [서명 필드를 사용하여 스마트 카드로 서명](./sign-with-smart-card-using-signature-field/) | Aspose.PDF for .NET을 사용하여 스마트 카드를 사용하여 PDF에 안전하게 서명하는 방법을 알아보세요. 간편한 구현을 위한 단계별 가이드를 따르세요. |  
 | [C#에서 PDF 서명 확인 – 서명된 PDF 파일 읽는 방법](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Aspose.PDF for .NET을 사용하여 C#에서 서명된 PDF 파일의 서명을 확인하고 읽는 방법을 단계별로 안내합니다. |  
+| [C#을 이용한 PDF 서명 확인 – 완전 Aspose 가이드](./how-to-verify-signature-in-pdf-using-c-complete-aspose-guide/) | Aspose.PDF for .NET을 활용하여 C#에서 PDF 서명을 검증하고 읽는 방법을 단계별로 안내합니다. |  
+| [C#에서 디지털 서명 PDF 추가 – 완전 단계별 가이드](./add-digital-signature-pdf-in-c-complete-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF에 디지털 서명을 추가하는 방법을 단계별로 안내합니다. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

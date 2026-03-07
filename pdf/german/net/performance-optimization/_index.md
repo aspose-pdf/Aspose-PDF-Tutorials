@@ -50,6 +50,9 @@ Meistern Sie die Kunst, SVG-Dateien präzise und effizient in PDFs zu konvertier
 ### [Einbetten von Schriftarten in PDFs mit Aspose.PDF für .NET: Reduzieren Sie die Dateigröße und verbessern Sie die Leistung](./optimize-pdfs-unembed-fonts-aspose-pdf-net/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET Schriftarten aus Ihren PDF-Dateien entfernen. Optimieren Sie die PDF-Leistung, reduzieren Sie die Dateigröße und verbessern Sie die Ladezeiten mit dieser Schritt-für-Schritt-Anleitung.
 
+### [PDF mit Aspose.PDF komprimieren – Schnellleitfaden](./how-to-compress-pdf-with-aspose-pdf-quick-guide/)
+Erfahren Sie, wie Sie PDFs schnell mit Aspose.PDF komprimieren, um Dateigröße zu reduzieren und die Leistung zu verbessern.
+
 ## Weitere Ressourcen
 
 - [Aspose.PDF für Net-Dokumentation](https://docs.aspose.com/pdf/net/)

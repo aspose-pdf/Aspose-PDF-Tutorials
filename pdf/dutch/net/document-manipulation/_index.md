@@ -191,6 +191,9 @@ Leer hoe u efficiënt alle tekst uit een PDF verwijdert met Aspose.PDF .NET. Ide
 ### [PDF-openacties verwijderen met Aspose.PDF voor .NET: een complete handleiding](./remove-pdf-open-action-aspose-dotnet-guide/)
 Leer hoe u ongewenste geopende acties uit PDF-bestanden verwijdert met Aspose.PDF voor .NET. Deze handleiding biedt stapsgewijze instructies en aanbevolen procedures.
 
+### [Hoe PDF te redigeren in C# met Aspose PDF – Complete gids](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
+Leer hoe u gevoelige informatie uit PDF's kunt verwijderen met Aspose PDF in C#.
+
 ### [PDF-pagina's splitsen met Aspose.PDF voor .NET: een complete handleiding](./mastering-pdf-page-splitting-aspose-pdf-net/)
 Leer hoe u PDF-pagina's efficiënt kunt opsplitsen in afzonderlijke bestanden met Aspose.PDF voor .NET met deze uitgebreide handleiding. Verbeter vandaag nog uw vaardigheden in documentverwerking.
 
@@ -278,7 +281,7 @@ Een codetutorial voor Aspose.PDF Net
 ### [PDF's samenvoegen in .NET met Aspose.PDF: een uitgebreide handleiding](./merge-pdfs-net-aspose-pdf-tutorial/)
 Leer hoe u PDF-bestanden naadloos kunt samenvoegen met Aspose.PDF voor .NET. Deze stapsgewijze handleiding behandelt de installatie, implementatie en praktische toepassingen.
 
-### [PDF-formuliervelden verplaatsen in .NET met Aspose.PDF: een stapsgewijze handleiding](./move-pdf-fields-aspose-pdf-dotnet-guide/)
+### [PDF-formuliervelden verplaatsen in .NET met Aspose.PDF voor .NET: een stapsgewijze handleiding](./move-pdf-fields-aspose-pdf-dotnet-guide/)
 Leer hoe u moeiteloos PDF-formuliervelden kunt verplaatsen en herpositioneren met Aspose.PDF voor .NET. Deze handleiding behandelt de installatie, stapsgewijze instructies en tips voor probleemoplossing.
 
 ### [PDF-manipulatie eenvoudig gemaakt: Aspose.PDF .NET-handleiding voor het laden, opslaan en zoomen van configuraties](./master-pdf-manipulation-aspose-dotnet-load-save-configure-page-zoom/)
