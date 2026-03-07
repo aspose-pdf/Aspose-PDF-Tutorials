@@ -45,6 +45,7 @@
 | [عناصر بنية النص في ملف PDF](./text-structure-elements/) تعلم كيفية التعامل مع عناصر بنية النص في ملفات PDF باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل خطوة بخطوة كل ما تحتاجه لإنشاء ملفات PDF منظمة.  
 | [التحقق من صحة ملف PDF](./validate-pdf/) | تعرّف على كيفية التحقق من صحة ملف PDF باستخدام Aspose.PDF لـ .NET. تحقق من توافقه مع المعايير وأنشئ تقرير التحقق. |  
 | [إنشاء ملف PDF مُعلَّم في C# – دليل خطوة بخطوة كامل](./create-tagged-pdf-in-c-complete-step-by-step-guide/) |تعلم كيفية إنشاء ملف PDF مُعلَّم باستخدام C# و Aspose.PDF خطوة بخطوة.|  
+| [إنشاء ملف PDF مُعلَّم في C# – دليل خطوة بخطوة](./create-tagged-pdf-in-c-step-by-step-guide/) |تعلم كيفية إنشاء ملف PDF مُعلَّم باستخدام C# و Aspose.PDF باتباع خطوات مفصلة.|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

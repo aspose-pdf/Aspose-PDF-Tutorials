@@ -50,6 +50,9 @@ Opanuj sztukę konwersji plików SVG do PDF z precyzją i wydajnością, korzyst
 ### [Nieosadzone czcionki w plikach PDF przy użyciu Aspose.PDF dla .NET: Zmniejsz rozmiar pliku i popraw wydajność](./optimize-pdfs-unembed-fonts-aspose-pdf-net/)
 Dowiedz się, jak usunąć osadzone czcionki z plików PDF za pomocą Aspose.PDF dla .NET. Zoptymalizuj wydajność PDF, zmniejsz rozmiar pliku i skróć czas ładowania dzięki temu przewodnikowi krok po kroku.
 
+### [Jak skompresować PDF przy użyciu Aspose.PDF – szybki przewodnik](./how-to-compress-pdf-with-aspose-pdf-quick-guide/)
+Dowiedz się, jak szybko skompresować pliki PDF przy użyciu Aspose.PDF, aby zmniejszyć ich rozmiar i poprawić wydajność.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

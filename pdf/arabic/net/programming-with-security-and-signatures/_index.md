@@ -34,6 +34,8 @@
 | [التوقيع بالبطاقة الذكية باستخدام توقيع ملف PDF](./sign-with-smart-card-using-pdf-file-signature/) تعرّف على كيفية توقيع ملفات PDF باستخدام بطاقة ذكية مع Aspose.PDF لـ .NET. اتبع هذا الدليل خطوة بخطوة للحصول على توقيعات رقمية آمنة.  
 | [التوقيع باستخدام البطاقة الذكية باستخدام حقل التوقيع](./sign-with-smart-card-using-signature-field/) | تعرّف على كيفية توقيع ملفات PDF بأمان باستخدام بطاقة ذكية باستخدام Aspose.PDF لـ .NET. اتبع دليلنا خطوة بخطوة لسهولة التنفيذ. |  
 | [التحقق من توقيعات PDF في C# – كيفية قراءة ملفات PDF الموقعة](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | تعلم كيفية قراءة والتحقق من التوقيعات الرقمية في ملفات PDF باستخدام C# و Aspose.PDF. |
+| [كيفية التحقق من التوقيع في ملف PDF باستخدام C# – دليل Aspose الكامل](./how-to-verify-signature-in-pdf-using-c-complete-aspose-guide/) | تعلم خطوة بخطوة كيفية التحقق من التوقيعات الرقمية في ملفات PDF باستخدام C# و Aspose.PDF. |
+| [إضافة توقيع رقمي PDF في C# – دليل خطوة بخطوة كامل](./add-digital-signature-pdf-in-c-complete-step-by-step-guide/) | تعلم كيفية إضافة توقيع رقمي إلى ملفات PDF باستخدام C# و Aspose.PDF خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

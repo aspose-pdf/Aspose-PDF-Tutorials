@@ -39,6 +39,7 @@ Hướng dẫn "Lập trình với tem và hình mờ" của Aspose.PDF dành ch
 | [Bảng Trong Phần Đầu Trang Chân Trang](./table-in-header-footer-section/) | Tìm hiểu cách dễ dàng thêm văn bản vào chân trang của tệp PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước được bao gồm để tích hợp liền mạch. |  
 | [Văn bản ở chân trang của tệp PDF](./text-in-footer/) | Tìm hiểu cách thêm văn bản vào chân trang của tệp PDF bằng Aspose.PDF cho .NET. |  
 | [Văn bản trong tiêu đề của tệp PDF](./text-in-header/) | Học cách thêm tiêu đề văn bản vào PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Cải thiện tài liệu của bạn một cách hiệu quả và hiệu suất cao. |  
+| [Tạo tài liệu PDF với đánh số Bates trong C# – Hướng dẫn đầy đủ](./create-pdf-document-with-bates-numbering-in-c-full-guide/) | Hướng dẫn chi tiết cách tạo tài liệu PDF có đánh số Bates bằng C# và Aspose.PDF cho .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

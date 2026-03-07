@@ -57,6 +57,9 @@ Naučte se, jak ověřovat digitální podpisy v souborech PDF pomocí Aspose.PD
 ### [Ověření podpisu PDF v C# – Kompletní průvodce validací digitálního podpisu PDF](./verify-pdf-signature-in-c-complete-guide-to-validate-digital/)
 Naučte se, jak ověřit digitální podpis PDF pomocí C# s Aspose.PDF pro .NET. Kompletní průvodce krok za krokem.
 
+### [Jak číst podpisy v PDF pomocí C# – krok za krokem průvodce](./how-to-read-signatures-in-pdf-with-c-step-by-step-guide/)
+Naučte se, jak pomocí C# načíst a analyzovat digitální podpisy v PDF souborech s Aspose.PDF.
+
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)

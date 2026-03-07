@@ -311,6 +311,9 @@ Aspose.PDF for .NET を使用して、複数ページのPDFを分割し、新し
 ### [Aspose.PDF .NET による PDF 操作の究極ガイド: テキストを効率的に読み込み、保存し、置換する](./master-pdf-manipulation-aspose-pdf-net/)
 Aspose.PDF for .NET を使って PDF 操作をマスターする方法を学びましょう。このガイドでは、PDF 内のテキストの読み込み、保存、置換について解説しており、効率性を重視する開発者に最適です。
 
+### [Aspose.PDF for .NET を使用して C# で PDF を編集（情報隠蔽）する完全ガイド](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
+Aspose.PDF for .NET を使い、C# で PDF の機密情報をマスク（編集）する手順とベストプラクティスをステップバイステップで解説します。
+
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)

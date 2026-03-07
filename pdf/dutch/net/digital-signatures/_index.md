@@ -26,6 +26,9 @@ Leer hoe u een PDF digitaal ondertekent met een aangepaste vormgeving met Aspose
 ### [Digitale handtekeninginformatie uit PDF's extraheren met Aspose.PDF](./extract-digital-signature-info-from-pdfs-aspose-pdf/)
 Een codetutorial voor Aspose.PDF Net
 
+### [Hoe handtekeningen lezen in PDF met C# – Stapsgewijze handleiding](./how-to-read-signatures-in-pdf-with-c-step-by-step-guide/)
+Leer hoe u digitale handtekeningen uit PDF‑bestanden kunt uitlezen met C# en Aspose.PDF voor .NET in een duidelijke stap‑voor‑stap gids.
+
 ### [Hoe u de PDF-handtekeningtaal kunt wijzigen met Aspose.PDF voor .NET](./change-pdf-signature-language-aspose-net/)
 Leer hoe u de tekst van digitale handtekeningen in PDF's kunt aanpassen met Aspose.PDF voor .NET. Perfect voor het voorbereiden en lokaliseren van meertalige documenten.
 

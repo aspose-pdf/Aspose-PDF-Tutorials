@@ -33,7 +33,7 @@
 
 ### [Как удалить цифровые подписи PDF с помощью Aspose.PDF .NET | Полное руководство](./remove-pdf-digital-signatures-aspose-pdf-net/)
 
-### [Как проверить подписи PDF с помощью Aspose.PDF для .NET: подробное руководство](./verify-pdf-signatures-aspose-pdf-net/)
+### [Как проверить подписи PDF с помощью Aspose.PDF для .NET: подробное руководство](./verify-pdf-signatures-aspose-net/)
 
 ### [Проверка подписи PDF в C# – пошаговое руководство](./verify-pdf-signature-in-c-step-by-step-guide/)
 Узнайте, как проверять цифровые подписи PDF-файлов в C# с помощью Aspose.PDF, следуя пошаговым инструкциям.
@@ -46,6 +46,9 @@
 
 ### [Как проверить PDF – проверка подписи PDF с помощью Aspose](./how-to-verify-pdf-validate-pdf-signature-with-aspose/)
 Узнайте, как проверять подписи PDF с помощью Aspose, обеспечивая подлинность и целостность документов.
+
+### [Как читать подписи в PDF с C# – пошаговое руководство](./how-to-read-signatures-in-pdf-with-c-step-by-step-guide/)
+Узнайте, как считывать подписи из PDF-файлов с помощью C# и Aspose.PDF, следуя пошаговым инструкциям.
 
 ## Дополнительные ресурсы
 

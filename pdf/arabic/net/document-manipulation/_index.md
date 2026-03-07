@@ -311,6 +311,8 @@
 ### [الدليل الشامل لمعالجة ملفات PDF باستخدام Aspose.PDF .NET: تحميل وحفظ واستبدال النص بكفاءة](./master-pdf-manipulation-aspose-pdf-net/)
 تعلّم كيفية إتقان معالجة ملفات PDF باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل تحميل النصوص وحفظها واستبدالها في ملفات PDF، وهو مثالي للمطورين الباحثين عن الكفاءة.
 
+### [كيفية إخفاء محتوى PDF في C# باستخدام Aspose PDF – دليل شامل](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

@@ -77,6 +77,12 @@
 ### [Δημιουργία εγγράφου PDF με Aspose.PDF – Προσθήκη σελίδας, σχήματος & αποθήκευση](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Μάθετε πώς να δημιουργήσετε ένα έγγραφο PDF, να προσθέσετε σελίδα, σχήμα και να το αποθηκεύσετε χρησιμοποιώντας το Aspose.PDF.
 
+### [Δημιουργία εγγράφου PDF με Aspose.PDF – Οδηγός βήμα προς βήμα](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε ένα έγγραφο PDF από την αρχή με το Aspose.PDF, ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα.
+
+### [Δημιουργία εγγράφου PDF με Aspose.PDF – Πλήρης οδηγός C#](./create-pdf-document-with-aspose-pdf-full-c-guide/)
+Μάθετε πώς να δημιουργήσετε πλήρες έγγραφο PDF σε C# χρησιμοποιώντας το Aspose.PDF, με βήμα‑βήμα παραδείγματα κώδικα.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.PDF για τεκμηρίωση δικτύου](https://docs.aspose.com/pdf/net/)

@@ -311,6 +311,9 @@ Lär dig hur du delar upp flersidiga PDF-filer och skapar nya PDF-filer med Aspo
 ### [Ultimat guide till PDF-manipulation med Aspose.PDF .NET: Ladda, spara och ersätt text effektivt](./master-pdf-manipulation-aspose-pdf-net/)
 Lär dig hur du bemästrar PDF-manipulation med Aspose.PDF för .NET. Den här guiden behandlar hur man laddar, sparar och ersätter text i PDF-filer, perfekt för utvecklare som söker effektivitet.
 
+### [Hur man maskerar PDF i C# med Aspose PDF – Komplett guide](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
+Lär dig hur du maskerar känslig information i PDF-filer med Aspose PDF för .NET och C# i denna kompletta steg-för-steg-guide.
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

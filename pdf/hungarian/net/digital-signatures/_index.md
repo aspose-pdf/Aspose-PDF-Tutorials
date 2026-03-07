@@ -53,6 +53,8 @@ Ismerje meg, hogyan ellenőrizheti a digitális aláírásokat PDF fájlokban az
 ### [PDF aláírás ellenőrzése C#-ban – Teljes útmutató a digitális aláírás ellenőrzéséhez PDF-ben](./verify-pdf-signature-in-c-complete-guide-to-validate-digital/)
 Ismerje meg, hogyan ellenőrizheti a PDF digitális aláírását C#-ban az Aspose.PDF for .NET segítségével, lépésről lépésre útmutatóval.
 
+### [Hogyan olvassuk ki az aláírásokat PDF-ben C#-ban – Lépésről lépésre útmutató](./how-to-read-signatures-in-pdf-with-c-step-by-step-guide/)
+Ismerje meg, hogyan olvashatja ki a digitális aláírásokat PDF-fájlokból C#-ban az Aspose.PDF for .NET segítségével.
 
 ## További források
 

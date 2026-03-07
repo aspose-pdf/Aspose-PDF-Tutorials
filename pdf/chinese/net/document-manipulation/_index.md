@@ -188,6 +188,9 @@ Aspose.PDF Net 代码教程
 ### [如何使用 Aspose.PDF .NET 从 PDF 中删除所有文本进行文档操作](./remove-text-aspose-pdf-net-tutorial/)
 了解如何使用 Aspose.PDF .NET 高效地从 PDF 中删除所有文本。非常适合保护敏感数据或整理文档。
 
+### [如何在 C# 中使用 Aspose PDF 对 PDF 进行编辑（遮蔽） – 完整指南](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
+了解如何使用 Aspose PDF for .NET 在 C# 中对 PDF 文档进行编辑（遮蔽），通过分步指南实现敏感信息隐藏。
+
 ### [如何使用 Aspose.PDF for .NET 删除 PDF 打开操作：完整指南](./remove-pdf-open-action-aspose-dotnet-guide/)
 了解如何使用 Aspose.PDF for .NET 消除 PDF 文件中不必要的打开操作。本指南提供分步说明和最佳实践。
 
@@ -238,9 +241,6 @@ Aspose.PDF Net 代码教程
 
 ### [使用 Aspose.PDF .NET 掌握 PDF 操作：文档自动化综合指南](./master-pdf-manipulation-aspose-dotnet-guide/)
 了解如何使用 Aspose.PDF for .NET 自动执行 PDF 任务，包括连接文件、添加页面、插入文本戳和创建链接。
-
-### [使用 Aspose.PDF .NET 掌握 PDF 操作：轻松加载和修改文档](./mastering-pdf-manipulation-aspose-dotnet/)
-学习如何使用强大的 Aspose.PDF .NET 库来掌握 PDF 文档的加载、导航和修改。立即增强您的应用程序！
 
 ### [使用 Aspose.PDF .NET 掌握 PDF 操作：加载、搜索、注释指南](./aspose-pdf-dotnet-mastering-pdfs-manipulation-guide/)
 学习使用 Aspose.PDF for .NET 掌握 PDF 操作。本指南涵盖加载文档、搜索文本以及应用删除线等注释。
