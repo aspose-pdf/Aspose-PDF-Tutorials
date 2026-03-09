@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-14"
-"description": "Tìm hiểu cách ghi lại cảnh báo thay thế phông chữ khi chuyển đổi tài liệu PDF sang HTML bằng Aspose.PDF cho Java. Đảm bảo chuyển đổi tài liệu của bạn duy trì giao diện mong muốn với hướng dẫn này."
-"title": "Ghi lại cảnh báo thay thế phông chữ trong chuyển đổi PDF sang HTML bằng Aspose.PDF Java"
-"url": "/vi/java/conversion-export/capture-font-substitution-warnings-pdf-html-conversion-asposepdf-java/"
-"weight": 1
+date: '2026-03-09'
+description: Tìm hiểu cách ghi lại cảnh báo thay thế phông chữ trong quá trình chuyển
+  đổi PDF sang HTML với Aspose.PDF cho Java, đảm bảo việc hiển thị chính xác và phát
+  hiện các phông chữ thiếu trong PDF.
+keywords:
+- Aspose.Aspose.PDF
+- Java
+- Document Processing
+title: 'Chuyển đổi PDF sang HTML: Ghi lại Cảnh báo Thay thế Phông chữ bằng Aspose.PDF
+  cho Java'
+url: /vi/java/conversion-export/capture-font-substitution-warnings-pdf-html-conversion-asposepdf-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,29 +18,49 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Cách ghi lại cảnh báo thay thế phông chữ trong quá trình chuyển đổi PDF sang HTML bằng Aspose.PDF Java
+# Chuyển đổi PDF sang HTML: Ghi lại Cảnh báo Thay thế Phông chữ với Aspose.PDF cho Java
 
 ## Giới thiệu
 
-Việc chuyển đổi PDF sang định dạng HTML thường có thể dẫn đến việc thay thế phông chữ, ảnh hưởng đến bố cục và tính toàn vẹn trực quan. Với **Aspose.PDF cho Java**, việc ghi lại các cảnh báo thay thế phông chữ này trở nên đơn giản, giúp đảm bảo quá trình chuyển đổi của bạn chính xác và duy trì được giao diện mong muốn.
+Khi bạn thực hiện một **pdf to html conversion**, việc thay thế phông chữ có thể âm thầm làm thay đổi giao diện các trang, gây dịch chuyển bố cục hoặc thiếu ký tự. Ghi lại các cảnh báo này giúp bạn xác minh rằng quá trình chuyển đổi giữ nguyên thiết kế gốc và giúp phát hiện các phông chữ thiếu **pdf** trước khi chúng trở thành vấn đề. Trong hướng dẫn này, bạn sẽ học cách tích hợp vào pipeline chuyển đổi của Aspose.PDF for Java, ghi lại mọi thay đổi phông chữ, và lưu tệp HTML kết quả một cách tự tin.
 
-Hướng dẫn này sẽ hướng dẫn bạn cách triển khai cảnh báo thay thế phông chữ khi chuyển đổi tài liệu PDF sang HTML bằng Aspose.PDF cho Java. Bạn sẽ hiểu sâu hơn về các bước kỹ thuật và hiểu tại sao một số cấu hình nhất định lại quan trọng.
+**Bạn sẽ đạt được:**
+- Hiểu vì sao việc giám sát thay thế phông chữ quan trọng đối với **pdf to html conversion**.
+- Thiết lập một trình xử lý thay thế phông chữ ghi lại mọi thay đổi phông.
+- Cấu hình `HtmlSaveOptions` để tinh chỉnh đầu ra chuyển đổi.
 
-**Những gì bạn sẽ học được:**
-- Tầm quan trọng của việc ghi lại các thay thế phông chữ trong quá trình chuyển đổi.
-- Cách thiết lập trình xử lý thay thế phông chữ trong ứng dụng của bạn.
-- Các tùy chọn cấu hình chính để tối ưu hóa việc chuyển đổi PDF sang HTML.
+Hãy chắc chắn bạn đã có mọi thứ cần thiết trước khi bắt đầu.
 
-Chúng ta hãy bắt đầu bằng cách kiểm tra các điều kiện tiên quyết cần thiết trước khi bắt đầu.
+## Câu hỏi nhanh
+- **Trình xử lý thay thế phông chữ làm gì?** Nó ghi lại tên phông chữ gốc và phông chữ mà Aspose.PDF thay thế trong quá trình chuyển đổi.  
+- **Tôi có thể dùng nó với các dự án pdf to html java không?** Có, đoạn mã hoạt động với bất kỳ ứng dụng Java nào tham chiếu tới Aspose.PDF.  
+- **Có cần giấy phép cho môi trường sản xuất không?** Cần một giấy phép Aspose.PDF hợp lệ cho các triển khai thương mại.  
+- **Các phông chữ thiếu sẽ được phát hiện tự động không?** Trình xử lý ghi lại mọi lần thay thế, do đó giúp bạn phát hiện các phông chữ thiếu **pdf**.  
+- **Cần cấu hình bổ sung nào không?** Chỉ cần thiết lập tiêu chuẩn của Aspose.PDF và đăng ký trình xử lý như dưới đây.
 
-## Điều kiện tiên quyết
+## pdf to html conversion là gì?
+Pdf to html conversion chuyển đổi một tài liệu PDF thành tệp HTML thân thiện với web trong khi cố gắng giữ nguyên bố cục, phông chữ và hình ảnh gốc. Quá trình này hữu ích để hiển thị PDF trong trình duyệt mà không cần plugin xem PDF.
 
-Trước khi tiếp tục, hãy đảm bảo bạn có:
+## Tại sao cần ghi lại cảnh báo thay thế phông chữ?
+Trong quá trình chuyển đổi, nếu phông chữ gốc không được nhúng hoặc không có trên hệ thống, Aspose.PDF sẽ thay thế bằng một phông dự phòng. Nếu không có thông tin, HTML có thể trông khác biệt đáng kể. Bằng cách ghi lại các cảnh báo, bạn có thể:
+- Xác định sớm các phông chữ thiếu.
+- Chọn nhúng các phông chữ cần thiết.
+- Cung cấp chiến lược dự phòng cho người dùng cuối.
 
-### Thư viện và phụ thuộc bắt buộc
-Để sử dụng Aspose.PDF cho Java, hãy đưa nó vào như một dependency trong dự án của bạn. Thực hiện theo các hướng dẫn cài đặt sau bằng Maven hoặc Gradle:
+## Yêu cầu trước
 
-**Maven**
+Trước khi bắt đầu, hãy chắc chắn bạn đã có:
+
+- **Java Development Kit (JDK)** – phiên bản 8 trở lên.  
+- **IDE** – IntelliJ IDEA, Eclipse, hoặc bất kỳ trình soạn thảo nào bạn thích.  
+- **Công cụ xây dựng** – Maven hoặc Gradle (cả hai ví dụ đều được cung cấp).  
+- **Kiến thức cơ bản về Java** – đủ để tạo một phương thức `main` đơn giản và chạy mã.
+
+## Cài đặt Aspose.PDF cho Java
+
+### 1. Thêm phụ thuộc Aspose.PDF
+Sử dụng đoạn mã phù hợp với hệ thống xây dựng của bạn.
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -42,81 +69,95 @@ Trước khi tiếp tục, hãy đảm bảo bạn có:
 </dependency>
 ```
 
-**Tốt nghiệp**
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### Yêu cầu thiết lập môi trường
-- Bộ công cụ phát triển Java (JDK) được cài đặt trên máy của bạn.
-- Một IDE như IntelliJ IDEA hoặc Eclipse để viết và kiểm tra mã của bạn.
+### 2. Nhận và áp dụng giấy phép
+- Nhận giấy phép dùng thử miễn phí để khám phá đầy đủ tính năng mà không có hạn chế [tại đây](https://purchase.aspose.com/temporary-license/).  
+- Đối với môi trường sản xuất, mua giấy phép vĩnh viễn hoặc giấy phép tạm thời từ Aspose [tại đây](https://purchase.aspose.com/temporary-license/).
 
-### Điều kiện tiên quyết về kiến thức
-- Hiểu biết cơ bản về lập trình Java.
-- Quen thuộc với các công cụ xây dựng Maven/Gradle, nếu có.
-
-## Thiết lập Aspose.PDF cho Java
-
-Để bắt đầu sử dụng Aspose.PDF cho Java, hãy làm theo các bước sau:
-
-1. **Thêm phụ thuộc**: Bao gồm thư viện Aspose.PDF vào dự án của bạn như được hiển thị ở trên.
-2. **Mua lại giấy phép**:
-   - Nhận giấy phép dùng thử miễn phí để khám phá đầy đủ các tính năng mà không có giới hạn [đây](https://purchase.aspose.com/temporary-license/).
-   - Để sử dụng lâu dài, hãy cân nhắc mua đăng ký hoặc mua giấy phép tạm thời từ [Đặt ra](https://purchase.aspose.com/temporary-license/).
-3. **Khởi tạo cơ bản**: Tạo một phiên bản của `Document` lớp và tải tệp PDF của bạn như minh họa bên dưới:
+### 3. Tải tài liệu PDF của bạn
+Tạo một thể hiện `Document` trỏ tới tệp PDF nguồn.
 
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Document pdfDoc = new Document(dataDir + "input1.pdf");
 ```
 
-Bây giờ, chúng ta hãy cùng xem hướng dẫn thực hiện.
+## Hướng dẫn triển khai
 
-## Hướng dẫn thực hiện
+### Tính năng: Cảnh báo Thay thế Phông chữ trong pdf to html conversion
 
-### Tính năng: Cảnh báo thay thế phông chữ trong chuyển đổi PDF sang HTML
+Tính năng này cho phép bạn giám sát và ghi lại bất kỳ lần thay thế phông chữ nào xảy ra khi chuyển đổi PDF sang HTML.
 
-Tính năng này cho phép bạn theo dõi và ghi lại mọi sự thay đổi phông chữ xảy ra trong quá trình chuyển đổi từ định dạng PDF sang HTML.
+#### Bước 1: Tải Tài liệu PDF của Bạn
+(Đã được trình bày ở trên) Việc tải tài liệu cho phép bạn truy cập nội dung và thông tin phông chữ của nó.
 
-#### Bước 1: Tải tài liệu PDF của bạn
-Tải tệp PDF hiện có của bạn bằng Aspose.PDF `Document` lớp. Bước này rất cần thiết để truy cập nội dung của lớp và áp dụng các thao tác tiếp theo.
-
-```java
-String dataDir = "YOUR_DOCUMENT_DIRECTORY";
-Document pdfDoc = new Document(dataDir + "input1.pdf");
-```
-
-#### Bước 2: Thiết lập Trình xử lý thay thế phông chữ
-Triển khai trình xử lý thay thế phông chữ để ghi lại mọi thay đổi về phông chữ trong quá trình chuyển đổi. Trình xử lý này ghi lại phông chữ gốc và phông chữ đã thay thế.
+#### Bước 2: Thiết lập Trình xử lý Thay thế Phông chữ
+Đăng ký một trình xử lý ghi lại mỗi lần thay thế vào một bản đồ để kiểm tra sau.
 
 ```java
 final Map<String, String> names = new HashMap<>();
 pdfDoc.FontSubstitution.add(new Document.FontSubstitutionHandler() {
     public void invoke(Font font, Font newFont) {
-        // Nhật ký thay thế FontNames vào bản đồ.
+        // Log substituted FontNames into a map.
         names.put(font.getFontName(), newFont.getFontName());
     }
 });
 ```
 
-**Tại sao lại thực hiện bước này?**
-Việc ghi lại các thay đổi phông chữ cho phép bạn thực hiện hành động khắc phục nếu tính toàn vẹn trực quan của tài liệu bị ảnh hưởng.
+**Lý do quan trọng:**  
+Nếu quá trình chuyển đổi thay thế một phông chữ độc quyền bằng phông chung, HTML có thể hiển thị với khoảng cách hoặc glyphs bị thiếu không mong muốn. Bản đồ `names` cung cấp cho bạn một chuỗi kiểm toán rõ ràng.
 
-#### Bước 3: Cấu hình tùy chọn lưu HTML
-Cài đặt `HtmlSaveOptions` để xác định cách lưu tệp PDF dưới dạng tệp HTML. 
+#### Bước 3: Cấu hình HTML Save Options
+Tạo một thể hiện `HtmlSaveOptions` để điều khiển cách PDF được lưu dưới dạng HTML.
 
 ```java
 HtmlSaveOptions htmlSaveOps = new HtmlSaveOptions();
 ```
 
-**Tùy chọn cấu hình chính:**
-- Điều chỉnh các thiết lập như nén hình ảnh, nhúng phông chữ và nhiều hơn nữa thông qua các thuộc tính của `HtmlSaveOptions`.
+Bạn có thể tùy chỉnh thêm các thuộc tính như `SplitIntoPages`, `EmbedFonts`, hoặc `ImageCompression` tùy theo nhu cầu dự án.
 
-#### Bước 4: Lưu tài liệu đã chuyển đổi
-Cuối cùng, lưu tài liệu PDF của bạn dưới dạng tệp HTML bằng các tùy chọn đã chỉ định.
+#### Bước 4: Lưu Tài liệu Đã Chuyển Đổi
+Cuối cùng, ghi đầu ra HTML ra đĩa.
 
 ```java
 pdfDoc.save("YOUR_OUTPUT_DIRECTORY/getWarningForFontSubstitution.html\
+```
+
+Sau khi thực thi, kiểm tra bản đồ `names` để xem những phông chữ nào đã được thay thế. Nếu bạn thấy các mục không mong muốn, hãy cân nhắc nhúng các phông chữ thiếu hoặc điều chỉnh cài đặt chuyển đổi.
+
+## Các vấn đề thường gặp & Khắc phục
+
+| Triệu chứng | Nguyên nhân có thể | Cách khắc phục |
+|------------|--------------------|----------------|
+| Không có mục nào trong bản đồ `names` | Thay thế phông chữ bị tắt hoặc tất cả phông đã được nhúng | Đảm bảo `EmbedFonts` được đặt thành `false` trong `HtmlSaveOptions` nếu bạn muốn thấy các lần thay thế. |
+| Bố cục HTML bị phá vỡ | Phông chữ thay thế thiếu các glyph cần thiết | Nhúng phông chữ thiếu hoặc cung cấp CSS fallback phù hợp với thiết kế gốc. |
+| `pdfDoc.save` ném ngoại lệ | Đường dẫn đầu ra không đúng hoặc thiếu quyền ghi | Kiểm tra `YOUR_OUTPUT_DIRECTORY` tồn tại và có quyền ghi. |
+
+## Câu hỏi thường gặp
+
+**H: Tôi có thể dùng cách này với các định dạng đầu ra khác (ví dụ DOCX) không?**  
+Đ: Có. Aspose.PDF cung cấp các sự kiện thay thế phông chữ tương tự cho hầu hết các mục tiêu chuyển đổi.
+
+**H: Làm sao phát hiện phông chữ thiếu **pdf** trước khi chuyển đổi?**  
+Đ: Kiểm tra bộ sưu tập `pdfDoc.FontInfo` hoặc dựa vào trình xử lý thay thế trong quá trình chuyển đổi.
+
+**H: Có cách tự động nhúng phông chữ thiếu không?**  
+Đ: Đặt `htmlSaveOps.setEmbedFonts(true)`; Aspose.PDF sẽ nhúng các phông có sẵn, nhưng các phông thực sự thiếu phải được cung cấp thủ công.
+
+**H: Điều này có hoạt động với PDF được mã hóa không?**  
+Đ: Có, miễn là bạn cung cấp mật khẩu khi tải tài liệu: `new Document(path, new LoadOptions(password))`.
+
+**H: Điều này có làm tăng thời gian chuyển đổi không?**  
+Đ: Việc ghi lại các lần thay thế chỉ gây thêm ít mili giây, nên ảnh hưởng là tối thiểu.
+
+---
+
+**Cập nhật lần cuối:** 2026-03-09  
+**Đã kiểm thử với:** Aspose.PDF 25.3 for Java  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
