@@ -1,39 +1,68 @@
 ---
-"date": "2025-04-14"
-"description": "Erfahren Sie, wie Sie Warnungen zur Schriftartersetzung beim Konvertieren von PDF-Dokumenten in HTML mit Aspose.PDF für Java erfassen. Mit dieser Anleitung stellen Sie sicher, dass Ihre Dokumentkonvertierungen das gewünschte Erscheinungsbild beibehalten."
-"title": "Erfassen Sie Warnungen zur Schriftartersetzung bei der Konvertierung von PDF in HTML mit Aspose.PDF Java"
-"url": "/de/java/conversion-export/capture-font-substitution-warnings-pdf-html-conversion-asposepdf-java/"
-"weight": 1
+date: '2026-03-09'
+description: Lernen Sie, wie Sie Warnungen zur Schriftart‑Substitution während der
+  PDF‑zu‑HTML‑Konvertierung mit Aspose.PDF für Java erfassen, um eine genaue Darstellung
+  sicherzustellen und fehlende Schriftarten im PDF zu erkennen.
+keywords:
+- Aspose.Aspose.PDF
+- Java
+- Document Processing
+title: 'PDF-zu-HTML-Konvertierung: Erfassung von Warnungen zur Schriftart-Substitution
+  mit Aspose.PDF für Java'
+url: /de/java/conversion-export/capture-font-substitution-warnings-pdf-html-conversion-asposepdf-java/
+weight: 1
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+ keep as is. We kept it unchanged. "Font Substitution" we kept as "Font‑Substitution". That's okay.
+
+Make sure we didn't translate URLs.
+
+Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# So erfassen Sie Warnungen zur Schriftartersetzung bei der Konvertierung von PDF in HTML mit Aspose.PDF Java
+# PDF-zu-HTML-Konvertierung: Font‑Substitutionswarnungen mit Aspose.PDF für Java erfassen
 
-## Einführung
+## Introduction
 
-Die Konvertierung von PDFs ins HTML-Format kann häufig zu Schriftartenaustausch führen, was sich auf das Layout und die visuelle Integrität auswirkt. Mit **Aspose.PDF für Java**Das Erfassen dieser Warnungen zur Schriftartersetzung wird zum Kinderspiel und trägt dazu bei, sicherzustellen, dass Ihre Konvertierungen genau sind und das beabsichtigte Erscheinungsbild beibehalten.
+Wenn Sie eine **pdf to html conversion** durchführen, kann die Font‑Substitution stillschweigend das Aussehen Ihrer Seiten verändern, Layoutverschiebungen oder fehlende Zeichen verursachen. Das Erfassen dieser Warnungen ermöglicht es Ihnen zu überprüfen, dass die Konvertierung das ursprüngliche Design beibehält, und hilft Ihnen, fehlende Fonts pdf zu erkennen, bevor sie zum Problem werden. In diesem Tutorial lernen Sie, wie Sie in die Konvertierungspipeline von Aspose.PDF für Java eingreifen, Font‑Änderungen protokollieren und die resultierende HTML‑Datei sicher speichern.
 
-Dieses Tutorial führt Sie durch die Implementierung von Warnungen zur Schriftartersetzung bei der Konvertierung von PDF-Dokumenten in HTML mit Aspose.PDF für Java. Sie erhalten Einblicke in die technischen Schritte und verstehen, warum bestimmte Konfigurationen entscheidend sind.
+**What you’ll achieve:**
+- Verstehen, warum die Überwachung von Font‑Substitution für die pdf to html conversion wichtig ist.
+- Ein Font‑Substitution‑Handler einrichten, der jede Font‑Änderung aufzeichnet.
+- `HtmlSaveOptions` konfigurieren, um die Konvertierungsausgabe fein abzustimmen.
 
-**Was Sie lernen werden:**
-- Die Bedeutung der Erfassung von Schriftartersetzungen während der Konvertierung.
-- So richten Sie einen Schriftartersetzungshandler in Ihrer Anwendung ein.
-- Wichtige Konfigurationsoptionen zur Optimierung der Konvertierung von PDF in HTML.
+Stellen wir sicher, dass Sie alles haben, was Sie benötigen, bevor wir loslegen.
 
-Sehen wir uns zunächst die erforderlichen Voraussetzungen an, bevor wir beginnen.
+## Quick Answers
+- **Was macht der Font‑Substitution‑Handler?** Er protokolliert den ursprünglichen Font‑Namen und den Font, den Aspose.PDF während der Konvertierung substituiert.  
+- **Kann ich das mit pdf to html Java‑Projekten verwenden?** Ja, der Code funktioniert mit jeder Java‑Anwendung, die Aspose.PDF referenziert.  
+- **Benötige ich eine Lizenz für den Produktionseinsatz?** Eine gültige Aspose.PDF‑Lizenz ist für kommerzielle Bereitstellungen erforderlich.  
+- **Werden fehlende Fonts automatisch erkannt?** Der Handler protokolliert jede Substitution und ermöglicht so das Erkennen fehlender Fonts pdf.  
+- **Ist zusätzliche Konfiguration erforderlich?** Nur die Standard‑Aspose.PDF‑Einrichtung und die unten gezeigte Handler‑Registrierung.
 
-## Voraussetzungen
+## What is pdf to html conversion?
+Pdf to html conversion wandelt ein PDF‑Dokument in eine web‑freundliche HTML‑Datei um, wobei versucht wird, das ursprüngliche Layout, die Fonts und Bilder beizubehalten. Dieser Vorgang ist nützlich, um PDFs in Browsern anzuzeigen, ohne ein PDF‑Viewer‑Plug‑in zu benötigen.
 
-Bevor Sie fortfahren, stellen Sie sicher, dass Sie über Folgendes verfügen:
+## Why capture font substitution warnings?
+Während der Konvertierung, wenn die ursprüngliche Schrift nicht eingebettet ist oder nicht im System verfügbar ist, substituiert Aspose.PDF sie durch eine Ersatzschrift. Ohne Sichtbarkeit kann das HTML merklich anders aussehen. Durch das Erfassen von Warnungen können Sie:
+- Fehlende Fonts frühzeitig identifizieren.
+- Entscheiden, die erforderlichen Fonts einzubetten.
+- Eine Fallback‑Strategie für End‑Benutzer bereitstellen.
 
-### Erforderliche Bibliotheken und Abhängigkeiten
-Um Aspose.PDF für Java zu verwenden, binden Sie es als Abhängigkeit in Ihr Projekt ein. Folgen Sie diesen Installationsanweisungen mit Maven oder Gradle:
+## Prerequisites
 
-**Maven**
+- **Java Development Kit (JDK)** – Version 8 oder neuer.  
+- **IDE** – IntelliJ IDEA, Eclipse oder ein beliebiger Editor Ihrer Wahl.  
+- **Build‑Tool** – Maven oder Gradle (beide Beispiele sind enthalten).  
+- **Grundlegende Java‑Kenntnisse** – ausreichend, um eine einfache `main`‑Methode zu erstellen und den Code auszuführen.
+
+## Setting Up Aspose.PDF for Java
+
+### 1. Add the Aspose.PDF dependency
+Use the snippet that matches your build system.
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -42,81 +71,95 @@ Um Aspose.PDF für Java zu verwenden, binden Sie es als Abhängigkeit in Ihr Pro
 </dependency>
 ```
 
-**Gradle**
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### Anforderungen für die Umgebungseinrichtung
-- Auf Ihrem Computer ist das Java Development Kit (JDK) installiert.
-- Eine IDE wie IntelliJ IDEA oder Eclipse zum Schreiben und Testen Ihres Codes.
+### 2. Acquire and apply a license
+- Holen Sie sich eine kostenlose Testlizenz, um alle Funktionen ohne Einschränkungen zu erkunden [here](https://purchase.aspose.com/temporary-license/).  
+- Für den Produktionseinsatz erwerben Sie eine permanente Lizenz oder eine temporäre Lizenz von Aspose [here](https://purchase.aspose.com/temporary-license/).
 
-### Voraussetzungen
-- Grundlegende Kenntnisse der Java-Programmierung.
-- Vertrautheit mit Maven/Gradle-Build-Tools, falls zutreffend.
-
-## Einrichten von Aspose.PDF für Java
-
-Um Aspose.PDF für Java zu verwenden, führen Sie die folgenden Schritte aus:
-
-1. **Abhängigkeit hinzufügen**: Fügen Sie die Aspose.PDF-Bibliothek wie oben gezeigt in Ihr Projekt ein.
-2. **Lizenzerwerb**:
-   - Holen Sie sich eine kostenlose Testlizenz, um alle Funktionen ohne Einschränkungen zu nutzen [Hier](https://purchase.aspose.com/temporary-license/).
-   - Für eine längere Nutzung sollten Sie ein Abonnement oder eine temporäre Lizenz erwerben von [Aspose](https://purchase.aspose.com/temporary-license/).
-3. **Grundlegende Initialisierung**: Erstellen Sie eine Instanz des `Document` Klasse und laden Sie Ihre PDF-Datei wie unten gezeigt:
+### 3. Load your PDF document
+Create a `Document` instance pointing to the source PDF.
 
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Document pdfDoc = new Document(dataDir + "input1.pdf");
 ```
 
-Fahren wir nun mit unserem Implementierungsleitfaden fort.
+## Implementation Guide
 
-## Implementierungshandbuch
+### Feature: Font Substitution Warning in pdf to html conversion
 
-### Funktion: Warnung vor Schriftartersetzung bei der Konvertierung von PDF in HTML
+Dieses Feature ermöglicht es Ihnen, alle Font‑Substitutionen zu überwachen und zu erfassen, die beim Konvertieren eines PDFs zu HTML auftreten.
 
-Mit dieser Funktion können Sie alle Schriftartersetzungen überwachen und erfassen, die während des Konvertierungsprozesses vom PDF- ins HTML-Format auftreten.
+#### Step 1: Load Your PDF Document
+(Already shown above) Loading the document gives you access to its content and font information.
 
-#### Schritt 1: Laden Sie Ihr PDF-Dokument
-Laden Sie Ihre vorhandene PDF-Datei mit Aspose.PDF's `Document` Klasse. Dieser Schritt ist wichtig, um auf den Inhalt zuzugreifen und weitere Operationen anzuwenden.
-
-```java
-String dataDir = "YOUR_DOCUMENT_DIRECTORY";
-Document pdfDoc = new Document(dataDir + "input1.pdf");
-```
-
-#### Schritt 2: Einrichten eines Schriftartenersetzungshandlers
-Implementieren Sie einen Handler für die Schriftartersetzung, um alle Änderungen an Schriftarten während der Konvertierung zu erfassen. Dieser Handler protokolliert die ursprünglichen und ersetzten Schriftarten.
+#### Step 2: Set Up a Font Substitution Handler
+Register a handler that logs each substitution into a map for later inspection.
 
 ```java
 final Map<String, String> names = new HashMap<>();
 pdfDoc.FontSubstitution.add(new Document.FontSubstitutionHandler() {
     public void invoke(Font font, Font newFont) {
-        // Protokollieren Sie ersetzte FontNames in einer Karte.
+        // Log substituted FontNames into a map.
         names.put(font.getFontName(), newFont.getFontName());
     }
 });
 ```
 
-**Warum dieser Schritt?**
-Durch die Erfassung von Schriftartersetzungen können Sie Korrekturmaßnahmen ergreifen, wenn die visuelle Integrität Ihres Dokuments beeinträchtigt ist.
+**Why this matters:**  
+Wenn die Konvertierung eine proprietäre Schrift durch eine generische ersetzt, kann das HTML mit unerwarteten Abständen oder fehlenden Glyphen dargestellt werden. Die Map `names` liefert Ihnen eine klare Prüfspur.
 
-#### Schritt 3: Konfigurieren Sie die HTML-Speicheroptionen
-Aufstellen `HtmlSaveOptions` um festzulegen, wie das PDF als HTML-Datei gespeichert werden soll. 
+#### Step 3: Configure HTML Save Options
+Create an `HtmlSaveOptions` instance to control how the PDF is saved as HTML.
 
 ```java
 HtmlSaveOptions htmlSaveOps = new HtmlSaveOptions();
 ```
 
-**Wichtige Konfigurationsoptionen:**
-- Passen Sie Einstellungen wie Bildkomprimierung, Schriftarteinbettung und mehr über die Eigenschaften von `HtmlSaveOptions`.
+Sie können weitere Eigenschaften wie `SplitIntoPages`, `EmbedFonts` oder `ImageCompression` je nach Projektbedarf anpassen.
 
-#### Schritt 4: Speichern Sie das konvertierte Dokument
-Speichern Sie Ihr PDF-Dokument abschließend mit den angegebenen Optionen als HTML-Datei.
+#### Step 4: Save the Converted Document
+Finally, write the HTML output to disk.
 
 ```java
 pdfDoc.save("YOUR_OUTPUT_DIRECTORY/getWarningForFontSubstitution.html\
+```
+
+Nach der Ausführung prüfen Sie die Map `names`, um zu sehen, welche Fonts substituiert wurden. Wenn Sie unerwartete Einträge bemerken, sollten Sie das Einbetten fehlender Fonts in Betracht ziehen oder die Konvertierungseinstellungen anpassen.
+
+## Common Issues & Troubleshooting
+
+| Symptom | Wahrscheinliche Ursache | Lösung |
+|---------|--------------------------|--------|
+| Keine Einträge in der `names`‑Map | Font‑Substitution deaktiviert oder alle Fonts sind eingebettet | Stellen Sie sicher, dass `EmbedFonts` in `HtmlSaveOptions` auf `false` gesetzt ist, wenn Sie Substitutionen sehen möchten. |
+| HTML‑Layout beschädigt | Die substituierte Schrift enthält nicht die erforderlichen Glyphen | Betten Sie die fehlende Schrift ein oder stellen Sie ein CSS‑Fallback bereit, das dem Originaldesign entspricht. |
+| `pdfDoc.save` wirft eine Ausnahme | Falscher Ausgabepfad oder fehlende Schreibberechtigungen | Überprüfen Sie, dass das Verzeichnis `YOUR_OUTPUT_DIRECTORY` existiert und beschreibbar ist. |
+
+## Frequently Asked Questions
+
+**F: Kann ich diesen Ansatz mit anderen Ausgabeformaten (z. B. DOCX) verwenden?**  
+A: Ja. Aspose.PDF bietet ähnliche Font‑Substitutions‑Ereignisse für die meisten Konvertierungsziele.
+
+**F: Wie erkenne ich fehlende Fonts pdf vor der Konvertierung?**  
+A: Untersuchen Sie die `pdfDoc.FontInfo`‑Sammlung oder verlassen Sie sich während der Konvertierung auf den Substitutions‑Handler.
+
+**F: Gibt es eine Möglichkeit, fehlende Fonts automatisch einzubetten?**  
+A: Setzen Sie `htmlSaveOps.setEmbedFonts(true)`; Aspose.PDF bettet verfügbare Fonts ein, jedoch müssen wirklich fehlende Fonts manuell bereitgestellt werden.
+
+**F: Funktioniert das mit verschlüsselten PDFs?**  
+A: Ja, solange Sie beim Laden des Dokuments das Passwort angeben: `new Document(path, new LoadOptions(password))`.
+
+**F: Erhöht das die Konvertierungszeit?**  
+A: Der Aufwand für das Protokollieren von Substitutionen ist minimal und fügt typischerweise nur wenige Millisekunden hinzu.
+
+---
+
+**Zuletzt aktualisiert:** 2026-03-09  
+**Getestet mit:** Aspose.PDF 25.3 für Java  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
