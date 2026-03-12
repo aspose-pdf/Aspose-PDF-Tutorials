@@ -24,7 +24,7 @@ url: /th/net/document-creation/create-pdf-document-with-aspose-pdf-step-by-step-
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-{{< blocks/products-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
 # สร้างเอกสาร PDF ด้วย Aspose.PDF – คู่มือขั้นตอนโดยละเอียด
 
@@ -245,7 +245,10 @@ class Program
 
 หากคุณเจอปัญหาหรือมีไอเดียสำหรับการปรับปรุงเพิ่มเติม อย่าลังเลที่จะคอมเมนต์ ขอให้สนุกกับการเขียนโค้ดและสร้าง PDF ที่สวยงาม!
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
