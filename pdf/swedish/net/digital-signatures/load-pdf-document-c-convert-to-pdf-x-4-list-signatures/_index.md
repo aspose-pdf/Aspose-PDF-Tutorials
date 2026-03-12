@@ -271,7 +271,10 @@ Nästa steg du kan utforska:
 
 Prova det, justera sökvägarna, och låt biblioteket göra det tunga arbetet. Lycka till med kodandet!
 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< //products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}
