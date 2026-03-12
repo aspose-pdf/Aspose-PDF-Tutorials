@@ -56,9 +56,6 @@ Pelajari cara membuat dan menyesuaikan grafik dalam PDF menggunakan Aspose.PDF u
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Gambar Garis PDF
-Menggambar garis lurus atau diagonal adalah kebutuhan umum untuk formulir, tanda tangan, dan panduan visual. Tutorial “Draw Diagonal Lines” menunjukkan panggilan API yang tepat untuk menambahkan objek garis yang presisi ke halaman PDF mana pun.
-
 ## [Hasilkan Gambar dari PDF menggunakan Aspose.PDF untuk .NET](./net/images/)
 
 Pelajari cara menghasilkan gambar dari file PDF menggunakan Aspose.PDF untuk .NET. Konversi halaman PDF ke JPEG, PNG, atau BMP dengan mudah dalam C# dengan kualitas tinggi.
@@ -70,19 +67,6 @@ Pelajari cara menghasilkan gambar dari file PDF menggunakan Aspose.PDF untuk .NE
 {{< tutorial-card link="./net/images/set-image-size/" title="Create and Modify a PDF with Images Using Aspose.PDF" imgSrc="./net/images/set-image-size/images/thumb.png" >}}
 
 {{< tutorial-card link="./net/images/shrink-image/" title="Optimize PDF by Compressing Images in Aspose.PDF" imgSrc="./net/images/shrink-image/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
-## Ekstrak Gambar PDF
-Tutorial “Extract Images” menunjukkan cara mengambil aset raster dari PDF yang ada, teknik berguna untuk penggunaan kembali konten atau proyek migrasi.
-
-## Ubah Ukuran Gambar PDF
-Ketika Anda membutuhkan file lebih kecil atau rendering lebih cepat, panduan “Resize Image” menjelaskan cara menyesuaikan dimensi gambar secara programatik sambil mempertahankan kualitas.
-
-## Kompres Gambar PDF
-Untuk lingkungan dengan keterbatasan penyimpanan, tutorial “Shrink Image” menunjukkan pengaturan kompresi yang secara dramatis mengurangi ukuran PDF tanpa kehilangan visual yang terlihat.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -105,9 +89,6 @@ Pelajari cara membuat, memformat, dan memanipulasi tabel dalam dokumen PDF mengg
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-
-## Tambah Tabel PDF
-Tabel penting untuk laporan dan faktur. Bagian ini mengumpulkan tutorial terkait tabel, memberikan referensi satu pintu untuk menambahkan, menata, dan mempaginasi tabel dalam PDF.
 
 ## [Tutorial Komprehensif Penanganan Teks di Aspose.PDF untuk .NET](./net/text/)
 

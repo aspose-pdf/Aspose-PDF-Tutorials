@@ -55,9 +55,6 @@ Naučte se, jak vytvářet a přizpůsobovat grafy v PDF pomocí Aspose.PDF pro 
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Kreslení čar v PDF
-Kreslení rovných nebo diagonálních čar je běžná potřeba pro formuláře, podpisy a vizuální vodítka. Tutoriál „Draw Diagonal Lines“ ukazuje přesné volání API potřebné k přidání přesných objektů čar na libovolnou stránku PDF.
-
 ## [Generování obrázků z PDF pomocí Aspose.PDF pro .NET](./net/images/)
 
 Naučte se, jak generovat obrázky z PDF souborů pomocí Aspose.PDF pro .NET. Převádějte stránky PDF do formátů JPEG, PNG nebo BMP snadno v C# s vysokou kvalitou.
@@ -69,19 +66,6 @@ Naučte se, jak generovat obrázky z PDF souborů pomocí Aspose.PDF pro .NET. P
 {{< tutorial-card link="./net/images/set-image-size/" title="Create and Modify a PDF with Images Using Aspose.PDF" imgSrc="./net/images/set-image-size/images/thumb.png" >}}
 
 {{< tutorial-card link="./net/images/shrink-image/" title="Optimize PDF by Compressing Images in Aspose.PDF" imgSrc="./net/images/shrink-image/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
-## Extrahování obrázků z PDF
-Tutoriál „Extract Images“ ukazuje, jak vytáhnout rastrová aktiva z existujících PDF, což je užitečná technika pro opětovné použití obsahu nebo migrační projekty.
-
-## Změna velikosti obrázků v PDF
-Když potřebujete menší soubory nebo rychlejší vykreslování, průvodce „Resize Image“ vysvětluje, jak programově upravit rozměry obrázku při zachování kvality.
-
-## Komprese obrázků v PDF
-V prostředích s omezeným úložištěm tutoriál „Shrink Image“ ukazuje nastavení komprese, které výrazně snižuje velikost PDF bez znatelné ztráty vizuální kvality.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -104,9 +88,6 @@ Naučte se, jak vytvářet, formátovat a manipulovat s tabulkami v PDF dokument
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-
-## Přidání tabulky do PDF
-Tabulky jsou nezbytné pro zprávy a faktury. Tato sekce shromažďuje tutoriály související s tabulkami a poskytuje vám jediné místo pro přidávání, stylování a stránkování tabulek v PDF.
 
 ## [Komplexní tutoriály pro práci s textem v Aspose.PDF pro .NET](./net/text/)
 

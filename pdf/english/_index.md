@@ -52,8 +52,6 @@ Learn how to create and customize graphs in PDF using Aspose.PDF for .NET. Add l
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## Draw Line PDF
-Drawing straight or diagonal lines is a common requirement for forms, signatures, and visual guides. The “Draw Diagonal Lines” tutorial demonstrates the exact API calls needed to add precise line objects to any PDF page.
 
 ## [Generate Images from PDF using Aspose.PDF for .NET](./net/images/)
 
@@ -66,18 +64,6 @@ Learn how to generate images from PDF files using Aspose.PDF for .NET. Convert P
 {{< tutorial-card link="./net/images/set-image-size/" title="Create and Modify a PDF with Images Using Aspose.PDF" imgSrc="./net/images/set-image-size/images/thumb.png" >}}
 
 {{< tutorial-card link="./net/images/shrink-image/" title="Optimize PDF by Compressing Images in Aspose.PDF" imgSrc="./net/images/shrink-image/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-## Extract Images PDF
-The “Extract Images” tutorial shows how to pull raster assets out of existing PDFs, a handy technique for content reuse or migration projects.
-
-## Resize PDF Images
-When you need smaller files or faster rendering, the “Resize Image” guide explains how to programmatically adjust image dimensions while preserving quality.
-
-## Compress PDF Images
-For storage‑constrained environments, the “Shrink Image” tutorial demonstrates compression settings that dramatically reduce PDF size without noticeable visual loss.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -100,8 +86,6 @@ Learn how to create, format, and manipulate tables in PDF documents using Aspose
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-## Add Table PDF
-Tables are essential for reports and invoices. This section aggregates the table‑related tutorials, giving you a one‑stop reference for adding, styling, and paginating tables in PDFs.
 
 ## [Comprehensive Tutorials Text Handling in Aspose.PDF for .NET](./net/text/)
 

@@ -56,9 +56,6 @@ Erfahren Sie, wie Sie Diagramme in PDFs mit Aspose.PDF für .NET erstellen und a
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Linie in PDF zeichnen
-Das Zeichnen von geraden oder diagonalen Linien ist eine häufige Anforderung für Formulare, Unterschriften und visuelle Leitfäden. Das Tutorial „Diagonal­linien zeichnen“ zeigt die genauen API‑Aufrufe, die erforderlich sind, um präzise Linienobjekte zu einer beliebigen PDF‑Seite hinzuzufügen.
-
 ## [Bilder aus PDF mit Aspose.PDF für .NET generieren](./net/images/)
 
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET Bilder aus PDF‑Dateien erzeugen. Konvertieren Sie PDF‑Seiten mühelos in JPEG, PNG oder BMP in C# mit hoher Qualität.
@@ -70,19 +67,6 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET Bilder aus PDF‑Dateien erzeugen
 {{< tutorial-card link="./net/images/set-image-size/" title="Create and Modify a PDF with Images Using Aspose.PDF" imgSrc="./net/images/set-image-size/images/thumb.png" >}}
 
 {{< tutorial-card link="./net/images/shrink-image/" title="Optimize PDF by Compressing Images in Aspose.PDF" imgSrc="./net/images/shrink-image/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
-## Bilder aus PDF extrahieren
-Das Tutorial „Bilder extrahieren“ zeigt, wie man Raster‑Assets aus bestehenden PDFs herauszieht – eine nützliche Technik für die Wiederverwendung von Inhalten oder Migrationsprojekte.
-
-## PDF‑Bilder skalieren
-Wenn Sie kleinere Dateien oder schnellere Darstellung benötigen, erklärt der Leitfaden „Bild skalieren“, wie Sie Bildabmessungen programmgesteuert anpassen und dabei die Qualität erhalten.
-
-## PDF‑Bilder komprimieren
-Für speicherbeschränkte Umgebungen demonstriert das Tutorial „Bild verkleinern“ Komprimierungseinstellungen, die die PDF‑Größe drastisch reduzieren, ohne sichtbaren Qualitätsverlust.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -105,9 +89,6 @@ Erfahren Sie, wie Sie Tabellen in PDF‑Dokumenten mit Aspose.PDF für .NET erst
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-
-## Tabelle zu PDF hinzufügen
-Tabellen sind für Berichte und Rechnungen unverzichtbar. Dieser Abschnitt fasst die tabellenbezogenen Tutorials zusammen und bietet Ihnen eine zentrale Referenz zum Hinzufügen, Gestalten und Paginieren von Tabellen in PDFs.
 
 ## [Umfassende Text‑Verarbeitungstutorials in Aspose.PDF für .NET](./net/text/)
 

@@ -56,9 +56,6 @@ weight: 10
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## رسم خطوط PDF
-رسم خطوط مستقيمة أو مائلة هو طلب شائع للنماذج، التوقيعات، والدلائل البصرية. يوضح درس “Draw Diagonal Lines” استدعاءات الـ API الدقيقة اللازمة لإضافة كائنات خطوط دقيقة إلى أي صفحة PDF.
-
 ## [إنشاء صور من PDF باستخدام Aspose.PDF لـ .NET](./net/images/)
 
 تعلم كيفية إنشاء صور من ملفات PDF باستخدام Aspose.PDF لـ .NET. حوّل صفحات PDF إلى JPEG أو PNG أو BMP بسهولة في C# وبجودة عالية.
@@ -70,19 +67,6 @@ weight: 10
 {{< tutorial-card link="./net/images/set-image-size/" title="Create and Modify a PDF with Images Using Aspose.PDF" imgSrc="./net/images/set-image-size/images/thumb.png" >}}
 
 {{< tutorial-card link="./net/images/shrink-image/" title="Optimize PDF by Compressing Images in Aspose.PDF" imgSrc="./net/images/shrink-image/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
-## استخراج صور PDF
-يظهر درس “Extract Images” كيفية سحب الأصول النقطية من ملفات PDF الحالية، وهي تقنية مفيدة لإعادة استخدام المحتوى أو مشاريع الترحيل.
-
-## تعديل حجم صور PDF
-عندما تحتاج إلى ملفات أصغر أو عرض أسرع، يشرح دليل “Resize Image” كيفية تعديل أبعاد الصورة برمجياً مع الحفاظ على الجودة.
-
-## ضغط صور PDF
-في بيئات ذات سعة تخزين محدودة، يوضح درس “Shrink Image” إعدادات الضغط التي تقلل حجم PDF بشكل كبير دون فقدان بصري ملحوظ.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -105,9 +89,6 @@ weight: 10
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-
-## إضافة جدول إلى PDF
-الجداول أساسية للتقارير والفواتير. يجمع هذا القسم الدروس المتعلقة بالجداول، موفرًا لك مرجعًا شاملاً لإضافة الجداول وتنسيقها وترقيم صفحاتها في ملفات PDF.
 
 ## [دروس شاملة لمعالجة النص في Aspose.PDF لـ .NET](./net/text/)
 

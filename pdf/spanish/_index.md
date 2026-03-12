@@ -56,9 +56,6 @@ Aprende a crear y personalizar gráficos en PDF usando Aspose.PDF para .NET. Añ
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Dibujar línea PDF
-Dibujar líneas rectas o diagonales es un requisito común para formularios, firmas y guías visuales. El tutorial “Draw Diagonal Lines” muestra las llamadas exactas a la API necesarias para añadir objetos de línea precisos a cualquier página PDF.
-
 ## [Generar imágenes a partir de PDF usando Aspose.PDF para .NET](./net/images/)
 
 Aprende a generar imágenes a partir de archivos PDF usando Aspose.PDF para .NET. Convierte páginas PDF a JPEG, PNG o BMP sin esfuerzo en C# con alta calidad.
@@ -70,19 +67,6 @@ Aprende a generar imágenes a partir de archivos PDF usando Aspose.PDF para .NET
 {{< tutorial-card link="./net/images/set-image-size/" title="Create and Modify a PDF with Images Using Aspose.PDF" imgSrc="./net/images/set-image-size/images/thumb.png" >}}
 
 {{< tutorial-card link="./net/images/shrink-image/" title="Optimize PDF by Compressing Images in Aspose.PDF" imgSrc="./net/images/shrink-image/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
-## Extraer imágenes PDF
-El tutorial “Extract Images” muestra cómo extraer recursos raster de PDFs existentes, una técnica útil para reutilizar contenido o proyectos de migración.
-
-## Redimensionar imágenes PDF
-Cuando necesitas archivos más pequeños o una renderización más rápida, la guía “Resize Image” explica cómo ajustar programáticamente las dimensiones de la imagen manteniendo la calidad.
-
-## Comprimir imágenes PDF
-Para entornos con limitaciones de almacenamiento, el tutorial “Shrink Image” muestra configuraciones de compresión que reducen drásticamente el tamaño del PDF sin una pérdida visual notable.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -105,9 +89,6 @@ Aprende a crear, formatear y manipular tablas en documentos PDF usando Aspose.PD
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-
-## Añadir tabla PDF
-Las tablas son esenciales para informes y facturas. Esta sección agrupa los tutoriales relacionados con tablas, brindándote una referencia única para añadir, estilizar y paginar tablas en PDFs.
 
 ## [Tutoriales completos de manejo de texto en Aspose.PDF para .NET](./net/text/)
 

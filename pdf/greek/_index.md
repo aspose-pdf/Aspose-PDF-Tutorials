@@ -56,9 +56,6 @@ weight: 10
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Σχεδίαση Γραμμής PDF
-Η σχεδίαση ευθείων ή διαγώνιων γραμμών είναι συχνή απαίτηση για φόρμες, υπογραφές και οπτικούς οδηγούς. Το tutorial «Σχεδίαση Διαγώνιων Γραμμών» δείχνει τις ακριβείς κλήσεις API που χρειάζονται για να προσθέσετε ακριβή αντικείμενα γραμμής σε οποιαδήποτε σελίδα PDF.
-
 ## [Δημιουργία Εικόνων από PDF χρησιμοποιώντας Aspose.PDF για .NET](./net/images/)
 
 Μάθετε πώς να δημιουργείτε εικόνες από αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET. Μετατρέψτε σελίδες PDF σε JPEG, PNG ή BMP εύκολα με C# και υψηλή ποιότητα.
@@ -70,19 +67,6 @@ weight: 10
 {{< tutorial-card link="./net/images/set-image-size/" title="Create and Modify a PDF with Images Using Aspose.PDF" imgSrc="./net/images/set-image-size/images/thumb.png" >}}
 
 {{< tutorial-card link="./net/images/shrink-image/" title="Optimize PDF by Compressing Images in Aspose.PDF" imgSrc="./net/images/shrink-image/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
-## Εξαγωγή Εικόνων PDF
-Το tutorial «Εξαγωγή Εικόνων» δείχνει πώς να εξάγετε ραστερά στοιχεία από υπάρχοντα PDF, μια χρήσιμη τεχνική για επαναχρησιμοποίηση περιεχομένου ή έργα μετανάστευσης.
-
-## Αλλαγή Μεγέθους Εικόνων PDF
-Όταν χρειάζεστε μικρότερα αρχεία ή ταχύτερη απόδοση, ο οδηγός «Αλλαγή Μεγέθους Εικόνας» εξηγεί πώς να προσαρμόζετε προγραμματιστικά τις διαστάσεις της εικόνας διατηρώντας την ποιότητα.
-
-## Συμπίεση Εικόνων PDF
-Για περιβάλλοντα με περιορισμένο χώρο αποθήκευσης, το tutorial «Συμπίεση Εικόνας» δείχνει ρυθμίσεις συμπίεσης που μειώνουν δραστικά το μέγεθος του PDF χωρίς εμφανή απώλεια στην εικόνα.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -105,9 +89,6 @@ weight: 10
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-
-## Προσθήκη Πίνακα PDF
-Οι πίνακες είναι ουσιώδεις για αναφορές και τιμολόγια. Αυτή η ενότητα συγκεντρώνει τα tutorials σχετιζόμενα με πίνακες, παρέχοντάς σας μια ολοκληρωμένη αναφορά για προσθήκη, στυλιζάρισμα και σελιδοποίηση πινάκων σε PDF.
 
 ## [Πλήρη Tutorials Διαχείρισης Κειμένου στο Aspose.PDF για .NET](./net/text/)
 

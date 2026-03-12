@@ -54,9 +54,6 @@ Aspose.PDF for .NET 可视化教程提供全面的逐步指南，帮助开发者
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## 绘制线条 PDF
-在表单、签名和视觉指南中，绘制直线或对角线是常见需求。“绘制对角线”教程演示了在任意 PDF 页面添加精确线对象所需的 API 调用。
-
 ## [使用 Aspose.PDF for .NET 从 PDF 生成图像](./net/images/)
 
 了解如何使用 Aspose.PDF for .NET 从 PDF 文件生成图像。使用 C# 将 PDF 页面轻松转换为 JPEG、PNG 或 BMP，且质量高。
@@ -68,19 +65,6 @@ Aspose.PDF for .NET 可视化教程提供全面的逐步指南，帮助开发者
 {{< tutorial-card link="./net/images/set-image-size/" title="Create and Modify a PDF with Images Using Aspose.PDF" imgSrc="./net/images/set-image-size/images/thumb.png" >}}
 
 {{< tutorial-card link="./net/images/shrink-image/" title="Optimize PDF by Compressing Images in Aspose.PDF" imgSrc="./net/images/shrink-image/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
-## 提取图像 PDF
-“提取图像”教程展示了如何从现有 PDF 中提取光栅资源，这是一种用于内容重用或迁移项目的实用技术。
-
-## 调整 PDF 图像大小
-当您需要更小的文件或更快的渲染时，“调整图像”指南解释了如何在保持质量的前提下以编程方式调整图像尺寸。
-
-## 压缩 PDF 图像
-在存储受限的环境中，“压缩图像”教程演示了能够显著降低 PDF 大小且几乎无视觉损失的压缩设置。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -103,9 +87,6 @@ Aspose.PDF for .NET 可视化教程提供全面的逐步指南，帮助开发者
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-
-## 添加表格 PDF
-表格是报告和发票的关键组成。本节汇总了与表格相关的教程，为您提供在 PDF 中添加、样式化和分页表格的一站式参考。
 
 ## [Aspose.PDF for .NET 中的综合文本处理教程](./net/text/)
 

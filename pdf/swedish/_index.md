@@ -55,9 +55,6 @@ Lär dig hur du skapar och anpassar diagram i PDF med Aspose.PDF för .NET. Läg
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Rita linje PDF
-Att rita raka eller diagonala linjer är ett vanligt krav för formulär, signaturer och visuella guider. Handledningen “Draw Diagonal Lines” visar de exakta API‑anropen som behövs för att lägga till precisa linjeobjekt på vilken PDF‑sida som helst.
-
 ## [Generera bilder från PDF med Aspose.PDF för .NET](./net/images/)
 
 Lär dig hur du genererar bilder från PDF‑filer med Aspose.PDF för .NET. Konvertera PDF‑sidor till JPEG, PNG eller BMP enkelt i C# med hög kvalitet.
@@ -69,19 +66,6 @@ Lär dig hur du genererar bilder från PDF‑filer med Aspose.PDF för .NET. Kon
 {{< tutorial-card link="./net/images/set-image-size/" title="Create and Modify a PDF with Images Using Aspose.PDF" imgSrc="./net/images/set-image-size/images/thumb.png" >}}
 
 {{< tutorial-card link="./net/images/shrink-image/" title="Optimize PDF by Compressing Images in Aspose.PDF" imgSrc="./net/images/shrink-image/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
-## Extrahera bilder PDF
-Handledningen “Extract Images” visar hur man drar ut raster‑tillgångar från befintliga PDF‑filer, en praktisk teknik för återanvändning av innehåll eller migrationsprojekt.
-
-## Ändra storlek på PDF‑bilder
-När du behöver mindre filer eller snabbare rendering förklarar guiden “Resize Image” hur du programatiskt justerar bilddimensioner samtidigt som du bevarar kvaliteten.
-
-## Komprimera PDF‑bilder
-För lagringsbegränsade miljöer visar handledningen “Shrink Image” komprimeringsinställningar som kraftigt minskar PDF‑storleken utan märkbar visuell förlust.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -104,9 +88,6 @@ Lär dig hur du skapar, formaterar och manipulerar tabeller i PDF‑dokument med
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-
-## Lägg till tabell PDF
-Tabeller är viktiga för rapporter och fakturor. Denna sektion samlar tabellrelaterade handledningar och ger dig en komplett referens för att lägga till, styla och paginera tabeller i PDF‑filer.
 
 ## [Omfattande handledningar för texthantering i Aspose.PDF för .NET](./net/text/)
 

@@ -56,9 +56,6 @@ weight: 10
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Рисование линий PDF
-Рисование прямых или диагональных линий является распространённой потребностью для форм, подписей и визуальных подсказок. Учебный материал «Draw Diagonal Lines» демонстрирует точные вызовы API, необходимые для добавления точных объектов линии на любую страницу PDF.
-
 ## [Генерация изображений из PDF с помощью Aspose.PDF для .NET](./net/images/)
 
 Узнайте, как генерировать изображения из PDF‑файлов с помощью Aspose.PDF для .NET. Конвертируйте страницы PDF в JPEG, PNG или BMP без усилий в C# с высоким качеством.
@@ -70,19 +67,6 @@ weight: 10
 {{< tutorial-card link="./net/images/set-image-size/" title="Create and Modify a PDF with Images Using Aspose.PDF" imgSrc="./net/images/set-image-size/images/thumb.png" >}}
 
 {{< tutorial-card link="./net/images/shrink-image/" title="Optimize PDF by Compressing Images in Aspose.PDF" imgSrc="./net/images/shrink-image/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
-## Извлечение изображений PDF
-Учебный материал «Extract Images» показывает, как извлекать растровые ресурсы из существующих PDF, что является удобной техникой для повторного использования контента или проектов миграции.
-
-## Изменение размеров изображений PDF
-Когда нужны более небольшие файлы или более быстрая отрисовка, руководство «Resize Image» объясняет, как программно изменять размеры изображений, сохраняя качество.
-
-## Сжатие изображений PDF
-Для сред с ограниченным объёмом хранилища учебный материал «Shrink Image» демонстрирует настройки сжатия, которые значительно уменьшают размер PDF без заметных визуальных потерь.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -105,9 +89,6 @@ weight: 10
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-
-## Добавление таблицы PDF
-Таблицы являются неотъемлемой частью отчетов и счетов. Этот раздел собирает учебные материалы, связанные с таблицами, предоставляя вам единый справочник по добавлению, стилизации и пагинации таблиц в PDF.
 
 ## [Полные учебные материалы по работе с текстом в Aspose.PDF для .NET](./net/text/)
 

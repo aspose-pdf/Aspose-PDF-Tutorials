@@ -56,9 +56,6 @@ Scopri come creare e personalizzare grafici in PDF usando Aspose.PDF per .NET. A
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Disegna linee PDF
-Disegnare linee rette o diagonali è una necessità comune per moduli, firme e guide visive. Il tutorial “Draw Diagonal Lines” dimostra le chiamate API esatte necessarie per aggiungere oggetti linea precisi a qualsiasi pagina PDF.
-
 ## [Generare immagini da PDF usando Aspose.PDF per .NET](./net/images/)
 
 Scopri come generare immagini da file PDF usando Aspose.PDF per .NET. Converti pagine PDF in JPEG, PNG o BMP senza sforzo in C# con alta qualità.
@@ -70,19 +67,6 @@ Scopri come generare immagini da file PDF usando Aspose.PDF per .NET. Converti p
 {{< tutorial-card link="./net/images/set-image-size/" title="Create and Modify a PDF with Images Using Aspose.PDF" imgSrc="./net/images/set-image-size/images/thumb.png" >}}
 
 {{< tutorial-card link="./net/images/shrink-image/" title="Optimize PDF by Compressing Images in Aspose.PDF" imgSrc="./net/images/shrink-image/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
-## Estrai immagini PDF
-Il tutorial “Extract Images” mostra come estrarre risorse raster da PDF esistenti, una tecnica utile per il riutilizzo dei contenuti o progetti di migrazione.
-
-## Ridimensiona immagini PDF
-Quando hai bisogno di file più piccoli o di rendering più veloce, la guida “Resize Image” spiega come regolare programmaticamente le dimensioni delle immagini mantenendo la qualità.
-
-## Comprimi immagini PDF
-Per ambienti con limitazioni di spazio, il tutorial “Shrink Image” dimostra le impostazioni di compressione che riducono drasticamente le dimensioni del PDF senza perdita visiva evidente.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -105,9 +89,6 @@ Scopri come creare, formattare e manipolare tabelle nei documenti PDF usando Asp
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-
-## Aggiungi tabella PDF
-Le tabelle sono essenziali per report e fatture. Questa sezione aggrega i tutorial relativi alle tabelle, fornendoti un riferimento unico per aggiungere, stilizzare e paginare tabelle nei PDF.
 
 ## [Tutorial completi sulla gestione del testo in Aspose.PDF per .NET](./net/text/)
 

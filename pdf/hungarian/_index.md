@@ -55,9 +55,6 @@ Ismerd meg, hogyan hozhatsz létre és testreszabhatsz grafikonokat PDF-ben az A
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Vonal rajzolása PDF-ben
-Egyenes vagy átlós vonalak rajzolása gyakori igény űrlapok, aláírások és vizuális útmutatók esetén. A „Draw Diagonal Lines” (Átlós vonalak rajzolása) oktatóanyag bemutatja a pontos API hívásokat, amelyekkel precíz vonalobjektumokat adhatunk hozzá bármely PDF oldalhoz.
-
 ## [Képek generálása PDF-ből az Aspose.PDF for .NET használatával](./net/images/)
 
 Ismerd meg, hogyan generálhatsz képeket PDF-fájlokból az Aspose.PDF for .NET használatával. PDF oldalakat egyszerűen konvertálhatsz JPEG, PNG vagy BMP formátumba C#-ban, magas minőségben.
@@ -74,18 +71,6 @@ Ismerd meg, hogyan generálhatsz képeket PDF-fájlokból az Aspose.PDF for .NET
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Képek kinyerése PDF-ből
-Az „Extract Images” (Képek kinyerése) oktatóanyag bemutatja, hogyan lehet rastereszközöket kinyerni meglévő PDF-ekből, ami hasznos technika tartalomújrafelhasználáshoz vagy migrációs projektekhez.
-
-## PDF képek átméretezése
-Amikor kisebb fájlokra vagy gyorsabb megjelenítésre van szükség, a „Resize Image” (Kép átméretezése) útmutató elmagyarázza, hogyan lehet programozottan módosítani a képméreteket a minőség megőrzése mellett.
-
-## PDF képek tömörítése
-Tárolási korlátokkal rendelkező környezetekben a „Shrink Image” (Kép zsugorítása) oktatóanyag bemutatja a tömörítési beállításokat, amelyek jelentősen csökkentik a PDF méretét anélkül, hogy észrevehető vizuális minőségveszteség következne be.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 ## [Átfogó táblázat oktatóanyagok az Aspose.PDF for .NET-ben](./net/tables/)
 
 Ismerd meg, hogyan hozhatsz létre, formázhatsz és manipulálhatsz táblázatokat PDF-dokumentumokban az Aspose.PDF for .NET segítségével, lépésről‑lépésre oktatóanyagokkal és kódrészletekkel.
@@ -103,9 +88,6 @@ Ismerd meg, hogyan hozhatsz létre, formázhatsz és manipulálhatsz táblázato
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-
-## Táblázat hozzáadása PDF-hez
-A táblázatok elengedhetetlenek jelentésekhez és számlákhoz. Ez a szakasz összegyűjti a táblázatokkal kapcsolatos oktatóanyagokat, egy helyen biztosítva a táblázatok hozzáadásához, formázásához és oldaltöréséhez szükséges referencia anyagokat PDF-ekben.
 
 ## [Átfogó szövegkezelési oktatóanyagok az Aspose.PDF for .NET-ben](./net/text/)
 

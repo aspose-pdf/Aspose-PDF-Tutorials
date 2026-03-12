@@ -55,9 +55,6 @@ Aspose.PDF for .NET 視覺教學提供完整的逐步指南，協助開發人員
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## 繪製線條 PDF
-在表單、簽名與視覺指引中，繪製直線或對角線是常見需求。「Draw Diagonal Lines」教學示範了在任意 PDF 頁面加入精確線條物件所需的 API 呼叫。
-
 ## [使用 Aspose.PDF for .NET 從 PDF 產生影像](./net/images/)
 
 了解如何使用 Aspose.PDF for .NET 從 PDF 檔案產生影像。以 C# 高品質地將 PDF 頁面轉換為 JPEG、PNG 或 BMP。
@@ -69,19 +66,6 @@ Aspose.PDF for .NET 視覺教學提供完整的逐步指南，協助開發人員
 {{< tutorial-card link="./net/images/set-image-size/" title="Create and Modify a PDF with Images Using Aspose.PDF" imgSrc="./net/images/set-image-size/images/thumb.png" >}}
 
 {{< tutorial-card link="./net/images/shrink-image/" title="Optimize PDF by Compressing Images in Aspose.PDF" imgSrc="./net/images/shrink-image/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
-## 從 PDF 擷取影像
-「Extract Images」教學示範如何從現有 PDF 中抽取點陣資產，這是內容重用或遷移專案的實用技巧。
-
-## 調整 PDF 影像大小
-當需要更小的檔案或更快的渲染時，「Resize Image」指南說明如何以程式方式調整影像尺寸，同時保留品質。
-
-## 壓縮 PDF 影像
-在儲存空間受限的環境下，「Shrink Image」教學展示可大幅減少 PDF 大小的壓縮設定，且不會產生明顯的視覺損失。
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -104,9 +88,6 @@ Aspose.PDF for .NET 視覺教學提供完整的逐步指南，協助開發人員
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-
-## 新增表格 PDF
-表格是報告與發票的關鍵元素。本節彙整所有表格相關教學，提供一次性參考，以在 PDF 中新增、樣式化與分頁表格。
 
 ## [Aspose.PDF for .NET 完整文字處理教學](./net/text/)
 

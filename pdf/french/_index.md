@@ -56,9 +56,6 @@ Apprenez à créer et personnaliser des graphiques dans un PDF en utilisant Aspo
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## Dessiner des lignes PDF
-Tracer des lignes droites ou diagonales est une exigence courante pour les formulaires, les signatures et les guides visuels. Le tutoriel « Dessiner des lignes diagonales » montre les appels d'API exacts nécessaires pour ajouter des objets ligne précis à n'importe quelle page PDF.
-
 ## [Générer des images à partir d'un PDF avec Aspose.PDF pour .NET](./net/images/)
 
 Apprenez à générer des images à partir de fichiers PDF en utilisant Aspose.PDF pour .NET. Convertissez des pages PDF en JPEG, PNG ou BMP sans effort en C# avec une haute qualité.
@@ -70,19 +67,6 @@ Apprenez à générer des images à partir de fichiers PDF en utilisant Aspose.P
 {{< tutorial-card link="./net/images/set-image-size/" title="Create and Modify a PDF with Images Using Aspose.PDF" imgSrc="./net/images/set-image-size/images/thumb.png" >}}
 
 {{< tutorial-card link="./net/images/shrink-image/" title="Optimize PDF by Compressing Images in Aspose.PDF" imgSrc="./net/images/shrink-image/images/thumb.png" >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
-## Extraire des images PDF
-Le tutoriel « Extraire des images » montre comment extraire les ressources raster d'un PDF existant, une technique pratique pour la réutilisation de contenu ou les projets de migration.
-
-## Redimensionner les images PDF
-Lorsque vous avez besoin de fichiers plus petits ou d'un rendu plus rapide, le guide « Redimensionner l'image » explique comment ajuster programmétiquement les dimensions de l'image tout en préservant la qualité.
-
-## Compresser les images PDF
-Pour les environnements à capacité de stockage limitée, le tutoriel « Réduire l'image » montre les paramètres de compression qui réduisent considérablement la taille du PDF sans perte visuelle perceptible.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -105,9 +89,6 @@ Apprenez à créer, formater et manipuler des tableaux dans des documents PDF en
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-
-## Ajouter un tableau PDF
-Les tableaux sont essentiels pour les rapports et les factures. Cette section regroupe les tutoriels liés aux tableaux, vous offrant une référence unique pour ajouter, styliser et paginer les tableaux dans les PDF.
 
 ## [Tutoriels complets sur la gestion du texte dans Aspose.PDF pour .NET](./net/text/)
 

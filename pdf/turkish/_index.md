@@ -55,9 +55,6 @@ Aspose.PDF for .NET kullanarak PDF içinde grafik oluşturmayı ve özelleştirm
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## PDF'de Çizgi Çizme
-Düz veya çapraz çizgiler çizmek, formlar, imzalar ve görsel rehberler için yaygın bir gereksinimdir. “Çapraz Çizgiler Çizme” eğitimi, herhangi bir PDF sayfasına kesin çizgi nesneleri eklemek için gereken API çağrılarını gösterir.
-
 ## [Aspose.PDF for .NET kullanarak PDF'den Görüntü Oluşturma](./net/images/)
 
 Aspose.PDF for .NET kullanarak PDF dosyalarından görüntü oluşturmayı öğrenin. PDF sayfalarını yüksek kaliteyle C# içinde JPEG, PNG veya BMP formatlarına zahmetsizce dönüştürün.
@@ -74,18 +71,6 @@ Aspose.PDF for .NET kullanarak PDF dosyalarından görüntü oluşturmayı öğr
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-## PDF'den Görüntü Çıkarma
-“Görüntü Çıkarma” eğitimi, mevcut PDF'lerden raster varlıkları çıkarmayı gösterir; bu, içerik yeniden kullanımı veya taşıma projeleri için kullanışlı bir tekniktir.
-
-## PDF Görüntülerini Yeniden Boyutlandırma
-Daha küçük dosyalara veya daha hızlı renderlamaya ihtiyaç duyduğunuzda, “Görüntüyü Yeniden Boyutlandır” rehberi, kaliteyi koruyarak programlı bir şekilde görüntü boyutlarını ayarlamayı açıklar.
-
-## PDF Görüntülerini Sıkıştırma
-Depolama sınırlı ortamlar için, “Görüntüyü Küçült” eğitimi, görsel kayıpsız bir şekilde PDF boyutunu büyük ölçüde azaltan sıkıştırma ayarlarını gösterir.
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
 ## [Aspose.PDF for .NET'te Kapsamlı Tablo Eğitimleri](./net/tables/)
 
 Aspose.PDF for .NET kullanarak PDF belgelerinde tablo oluşturma, biçimlendirme ve manipülasyonunu adım adım eğitimler ve kod örnekleriyle öğrenin.
@@ -103,9 +88,6 @@ Aspose.PDF for .NET kullanarak PDF belgelerinde tablo oluşturma, biçimlendirme
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-
-## PDF'ye Tablo Ekleme
-Tablolar raporlar ve faturalar için gereklidir. Bu bölüm, tabloyla ilgili eğitimleri bir araya getirerek PDF'lerde tablo ekleme, stil verme ve sayfalama için tek bir referans sunar.
 
 ## [Aspose.PDF for .NET'te Kapsamlı Metin İşleme Eğitimleri](./net/text/)
 
