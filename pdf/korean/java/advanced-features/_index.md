@@ -1,8 +1,8 @@
 ---
-date: 2025-11-28
-description: Aspose.PDF를 사용하여 Java에서 PDF 레이어를 만드는 방법을 배우고, 포트폴리오, 접근성 등을 포함한 고급 PDF
-  기능을 탐색하세요.
-title: PDF 레이어 생성 Java – 고급 Aspose.PDF 기능
+date: 2026-02-09
+description: Aspose.PDF를 사용하여 Java에서 PDF 선택적 콘텐츠 그룹을 탐색하고, PDF 접근성 검증 기술, 레이어 생성 및
+  고급 PDF 기능을 배웁니다.
+title: PDF 선택적 콘텐츠 그룹 – Java에서 PDF 레이어 만들기
 url: /ko/java/advanced-features/
 weight: 17
 ---
@@ -12,71 +12,80 @@ weight: 17
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# PDF 레이어 생성 Java – 고급 Aspose.PDF 기능
+# PDF 선택적 콘텐츠 그룹 – Java에서 PDF 레이어 만들기
 
-If you’re looking to **create PDF layers in Java**, you’ve come to the right place. This hub gathers the most comprehensive Aspose.PDF for Java tutorials that walk you through sophisticated PDF techniques—from optional content groups (layers) to PDF/UA accessibility validation, portfolios, and more. Whether you’re building interactive documents, accessible PDFs, or rich‑media packages, these guides give you ready‑to‑run Java code and clear step‑by‑step explanations.
+Java에서 **pdf 선택적 콘텐츠 그룹**을 사용하여 **PDF 레이어를 만들고** 싶다면, 바로 이곳이 정답입니다. 이 허브는 Aspose.PDF for Java 튜토리얼 중 가장 포괄적인 내용을 모아 PDF 레이어(선택적 콘텐츠 그룹)부터 PDF/UA 접근성 검증, 포트폴리오 등 고급 기술을 단계별로 안내합니다. 인터랙티브 문서, 접근성 PDF, 리치 미디어 패키지를 만들고자 할 때, 실행 가능한 Java 코드와 명확한 단계별 설명을 제공합니다.
 
 ## Quick Answers
-- **What is a PDF layer?** A PDF layer (optional content group) lets you show or hide content dynamically without altering the file structure.  
-- **Why use Aspose.PDF for Java?** It provides a pure‑Java API with full support for creating, editing, and rendering layers, portfolios, and accessibility features.  
-- **Do I need a license?** A temporary license works for development; a full license is required for production.  
-- **Which Java version is supported?** Aspose.PDF for Java supports Java 8 and later.  
-- **Can layers be exported to HTML?** Yes—use the layer‑rendering guide to convert layered PDFs into HTML.
+- **PDF 레이어란?** PDF 레이어(선택적 콘텐츠 그룹)는 파일 구조를 변경하지 않고도 콘텐츠를 동적으로 표시하거나 숨길 수 있게 해줍니다.  
+- **왜 Aspose.PDF for Java를 사용하나요?** 순수 Java API를 제공하며 레이어, 포트폴리오, 접근성 기능을 완벽하게 생성·편집·렌더링할 수 있습니다.  
+- **라이선스가 필요합니까?** 개발 단계에서는 임시 라이선스로 충분하지만, 실제 운영 환경에서는 정식 라이선스가 필요합니다.  
+- **지원되는 Java 버전은?** Aspose.PDF for Java는 Java 8 이상을 지원합니다.  
+- **레이어를 HTML로 내보낼 수 있나요?** 예—레이어 렌더링 가이드를 사용하면 레이어가 적용된 PDF를 HTML로 변환할 수 있습니다.
+
+## What are pdf optional content groups?
+pdf 선택적 콘텐츠 그룹(OCG)은 PDF 레이어의 기술적 용어입니다. 페이지 객체를 그룹화하여 뷰어가 각 그룹의 가시성을 독립적으로 토글할 수 있게 합니다. 이를 통해 다국어 PDF, 워터마크, 또는 조건에 따라 다른 콘텐츠가 표시되는 인터랙티브 폼을 만들 수 있습니다.
+
+## Why use pdf optional content groups?
+- **동적 프레젠테이션:** 사용자 선호도나 디바이스 환경에 따라 콘텐츠를 표시하거나 숨깁니다.  
+- **파일 크기 감소:** 하나의 PDF에 여러 버전의 콘텐츠를 포함시켜 전체 문서를 중복 저장하지 않아도 됩니다.  
+- **접근성 향상:** OCG와 태그를 결합하고 **pdf 접근성 검증**을 수행하면 스크린 리더 내비게이션이 개선됩니다.  
+- **SEO 개선:** 태그가 지정된 레이어 PDF는 메타데이터와 결합될 때 검색 엔진 인덱싱이 용이합니다.
 
 ## What is “create PDF layers Java”?
-Creating PDF layers in Java means using the Aspose.PDF API to define optional content groups (OCGs) that can be toggled on or off by PDF viewers. This technique is ideal for multilingual documents, watermarks, or interactive forms where different content should appear under different conditions.
+Java에서 PDF 레이어를 만든다는 것은 Aspose.PDF API를 사용해 선택적 콘텐츠 그룹(OCG)을 정의하고, PDF 뷰어가 해당 그룹을 켜거나 끌 수 있게 하는 것을 의미합니다. 이 기술은 다국어 문서, 워터마크, 또는 조건에 따라 다른 콘텐츠가 표시되는 인터랙티브 폼에 최적화되어 있습니다.
 
 ## Why use PDF layers?
-- **Dynamic presentation:** Show or hide content based on user preferences or device capabilities.  
-- **Reduced file size:** One PDF can contain multiple versions of content without duplicating the whole document.  
-- **Enhanced accessibility:** Pair layers with tags to improve navigation for screen readers.  
+- **동적 프레젠테이션:** 사용자 선호도나 디바이스 환경에 따라 콘텐츠를 표시하거나 숨깁니다.  
+- **파일 크기 감소:** 하나의 PDF에 여러 버전의 콘텐츠를 포함시켜 전체 문서를 중복 저장하지 않아도 됩니다.  
+- **접근성 향상:** 레이어와 태그를 결합해 스크린 리더 내비게이션을 개선합니다.  
 
 ## How to create PDF layers in Java
-Below you’ll find a curated list of tutorials that each focus on a specific advanced feature. Click any link to dive into a full, code‑rich guide.
+아래에서는 특정 고급 기능에 초점을 맞춘 튜토리얼 목록을 제공합니다. 원하는 링크를 클릭하면 코드가 풍부한 전체 가이드를 확인할 수 있습니다.
 
 ### Available Tutorials
 
-#### [Aspose.PDF Java&#58; 단계별 가이드 PDF/UA 표준 검증을 통한 접근성 준수](./validate-pdf-ua-aspose-java-guide/)
-Learn how to use Aspose.PDF for Java to validate your PDF documents against PDF/UA standards, ensuring accessibility compliance and inclusivity.
+#### [Aspose.PDF Java&#58; Step‑By‑Step Guide to Validate PDF/UA Standards for Accessibility Compliance](./validate-pdf-ua-aspose-java-guide/)
+PDF/UA 표준에 대한 접근성 준수를 검증하는 Aspose.PDF for Java 사용 방법을 단계별로 안내합니다.
 
-#### [Aspose.PDF를 사용한 Java에서 태그가 지정된 접근성 PDF 만들기](./create-accessible-pdfs-tagged-content-java-aspose-pdf/)
-Learn how to create accessible, tagged PDF documents with Aspose.PDF for Java. Ensure your PDFs are inclusive and meet accessibility standards.
+#### [Create Accessible PDFs with Tagged Content in Java using Aspose.PDF](./create-accessible-pdfs-tagged-content-java-aspose-pdf/)
+Aspose.PDF for Java를 활용해 태그가 지정된 접근성 PDF를 만드는 방법을 배웁니다. 포괄적인 접근성 표준을 충족하도록 도와줍니다.
 
-#### [Aspose.PDF for Java&#58; 태그가 지정된 PDF 만들기 – 완전 가이드](./aspose-pdf-java-create-tagged-pdfs/)
-Learn how to create and configure accessible tagged PDF documents using Aspose.PDF for Java. This guide covers setup, logical structure creation, and saving documents.
+#### [Create Accessible Tagged PDFs Using Aspose.PDF for Java&#58; A Complete Guide](./aspose-pdf-java-create-tagged-pdfs/)
+Aspose.PDF for Java를 이용해 접근성 태그가 포함된 PDF를 생성하고 구성하는 전체 과정을 다룹니다.
 
-#### [Aspose.PDF for Java&#58; 태그가 지정된 PDF 만들기 – 접근성 및 SEO 향상](./create-tagged-pdf-aspose-java/)
-Learn how to create accessible, tagged PDF documents using Aspose.PDF for Java. Improve accessibility and search engine optimization by structuring content effectively.
+#### [Create Tagged PDFs with Aspose.PDF for Java&#58; Enhance Accessibility and SEO](./create-tagged-pdf-aspose-java/)
+태그가 지정된 PDF를 만들어 접근성과 검색 엔진 최적화를 동시에 향상시키는 방법을 소개합니다.
 
-#### [Java에서 접근성 PDF 만들기&#58; 헤더와 단락을 위한 Aspose.PDF 사용 종합 가이드](./accessible-pdfs-aspose-pdf-java/)
-Learn how to create accessible PDFs with headers and paragraphs using Aspose.PDF for Java. Ensure compliance with accessibility standards for assistive technologies.
+#### [Creating Accessible PDFs in Java&#58; A Comprehensive Guide to Using Aspose.PDF for Headers and Paragraphs](./accessible-pdfs-aspose-pdf-java/)
+헤더와 단락을 포함한 접근성 PDF를 Aspose.PDF for Java로 만드는 종합 가이드입니다.
 
-#### [Aspose.PDF for Java&#58; 접근성 태그 PDF 만들기 종합 가이드](./aspose-pdf-java-tagged-pdfs-creation/)
-Learn how to create and manage accessible tagged PDFs using Aspose.PDF for Java, enhancing screen reader compatibility and document accessibility.
+#### [Creating Accessible Tagged PDFs with Aspose.PDF for Java&#58; A Comprehensive Guide](./aspose-pdf-java-tagged-pdfs-creation/)
+접근성 태그가 포함된 PDF를 생성·관리하여 스크린 리더 호환성을 높이는 방법을 상세히 설명합니다.
 
-#### [Aspose.PDF for Java&#58; 태그가 지정된 PDF 만들기 종합 가이드](./create-tagged-pdfs-aspose-pdf-java/)
-Learn how to create accessible and well‑structured PDF documents using Aspose.PDF for Java. Enhance your digital content's compatibility with assistive technologies.
+#### [How to Create Tagged PDFs with Aspose.PDF for Java&#58; A Comprehensive Guide](./create-tagged-pdfs-aspose-pdf-java/)
+Aspose.PDF for Java를 사용해 구조화된 접근성 PDF를 만드는 전체 프로세스를 안내합니다.
 
-#### [Aspose.PDF for Java&#58; PDF 레이어 만들기 및 사용자 지정 단계별 가이드](./create-pdf-layers-aspose-java/)
-Master creating layered PDFs with Aspose.PDF for Java. This guide covers setup, coding examples, and practical applications.
+#### [How to Create and Customize PDF Layers Using Aspose.PDF for Java&#58; A Step‑By‑Step Guide](./create-pdf-layers-aspose-java/)
+Aspose.PDF for Java로 레이어가 적용된 PDF를 만들고 커스터마이징하는 단계별 가이드입니다.
 
-#### [Aspose.PDF Java&#58; PDF 접근성 검증 가이드 – PDF/UA‑1 표준 준수](./validate-pdf-accessibility-aspose-java/)
-Learn how to ensure your PDFs meet accessibility standards using Aspose.PDF in Java. This guide covers setup, validation processes, and logging results.
+#### [How to Validate PDF Accessibility Using Aspose.PDF Java for Compliance with PDF/UA‑1 Standards](./validate-pdf-accessibility-aspose-java/)
+Aspose.PDF Java를 활용해 PDF/UA‑1 표준에 맞는 접근성 검증을 수행하는 방법을 다룹니다.
 
-#### [Aspose.PDF Java&#58; PDF 레이어 렌더링 구현 종합 가이드](./aspose-pdf-java-layer-rendering-guide/)
-Learn to render PDF layers into HTML using Aspose.PDF Java. This guide covers setup, configuration, and conversion for enhanced web content.
+#### [Implement PDF Layer Rendering with Aspose.PDF Java&#58; A Comprehensive Guide](./aspose-pdf-java-layer-rendering-guide/)
+Aspose.PDF Java를 사용해 PDF 레이어를 HTML로 렌더링하는 전체 프로세스를 설명합니다.
 
-#### [Java PDF 태깅&#58; 접근성 및 구조 향상](./java-pdf-tagging-aspose-pdf-enhancement/)
-Learn how to enhance accessibility in your Java‑based PDFs using Aspose.PDF. This guide covers adding titles, headers, and structured content for better document organization.
+#### [Java PDF Tagging with Aspose.PDF&#58; Enhance Accessibility and Structure](./java-pdf-tagging-aspose-pdf-enhancement/)
+Aspose.PDF를 이용해 Java 기반 PDF에 제목, 헤더, 구조화된 콘텐츠를 추가해 문서 조직과 접근성을 강화하는 방법을 소개합니다.
 
-#### [Aspose.PDF for Java 마스터&#58; 접근성 태그 PDF 만들기](./master-aspose-pdf-java-tagged-pdfs/)
-Learn to create accessible and well‑structured tagged PDF documents using Aspose.PDF for Java, enhancing accessibility and navigation.
+#### [Master Aspose.PDF for Java&#58; Creating Accessible Tagged PDFs](./master-aspose-pdf-java-tagged-pdfs/)
+Aspose.PDF for Java로 접근성 태그가 포함된 PDF를 마스터 수준으로 만드는 방법을 안내합니다.
 
-#### [Java에서 Aspose.PDF를 활용한 태그 PDF 마스터&#58; 접근성 및 구조화 완전 가이드](./master-tagged-pdfs-java-aspose-pdf-guide/)
-Learn to create accessible, well‑structured tagged PDFs in Java with Aspose.PDF. This guide covers setting titles, languages, and adding complex elements.
+#### [Master Tagged PDFs in Java using Aspose.PDF&#58; A Complete Guide for Accessibility and Structuring](./master-tagged-pdfs-java-aspose-pdf-guide/)
+Aspose.PDF를 활용해 Java에서 접근성 및 구조화된 태그 PDF를 완벽히 구현하는 가이드입니다.
 
-#### [Aspose.PDF Java&#58; PDF 열기 동작 마스터링 – 원활한 문서 제어 고급 가이드](./mastering-pdf-open-actions-aspose-pdf-java/)
-Learn how to control PDF open actions using Aspose.PDF for Java. This comprehensive guide covers setup, modification, and practical applications.
+#### [Mastering PDF Open Actions with Aspose.PDF Java&#58; Advanced Guide for Seamless Document Control](./mastering-pdf-open-actions-aspose-pdf-java/)
+Aspose.PDF for Java를 사용해 PDF 열기 동작을 제어하고 문서 흐름을 매끄럽게 관리하는 고급 가이드를 제공합니다.
 
 ## Additional Resources
 
@@ -88,24 +97,30 @@ Learn how to control PDF open actions using Aspose.PDF for Java. This comprehens
 
 ## Frequently Asked Questions
 
-**Q: PDF가 생성된 후 레이어를 추가하거나 제거할 수 있나요?**  
-A: Yes. Aspose.PDF lets you modify optional content groups at any time, enabling dynamic updates without rebuilding the whole document.
+**Q: PDF가 생성된 후에 레이어를 추가하거나 제거할 수 있나요?**  
+A: 예. Aspose.PDF를 사용하면 언제든지 선택적 콘텐츠 그룹을 수정할 수 있어 전체 문서를 다시 만들 필요 없이 동적으로 업데이트할 수 있습니다.
 
 **Q: PDF 레이어가 파일 크기에 어떤 영향을 미치나요?**  
-A: Layers share the same page resources, so they usually add only a modest overhead compared to storing separate PDFs for each version.
+A: 레이어는 동일한 페이지 리소스를 공유하므로, 각 버전을 별도의 PDF로 저장하는 경우에 비해 오버헤드가 최소화됩니다.
 
-**Q: 모든 뷰어에서 PDF 레이어를 지원하나요?**  
-A: Most modern PDF viewers (Adobe Acrobat, Foxit, PDF.js) support optional content groups, but older or lightweight viewers may ignore them.
+**Q: 모든 뷰어가 PDF 레이어를 지원하나요?**  
+A: 최신 Adobe Acrobat, Foxit, PDF.js 등 대부분의 현대 PDF 뷰어는 선택적 콘텐츠 그룹을 지원하지만, 일부 오래되거나 경량 뷰어는 이를 무시할 수 있습니다.
 
-**Q: 레이어를 사용하기 위해 특별한 권한을 설정해야 하나요?**  
-A: No special permissions are required; layers are part of the PDF specification and are handled like any other page content.
+**Q: 레이어를 사용하기 위해 특별한 권한 설정이 필요한가요?**  
+A: 필요하지 않습니다. 레이어는 PDF 사양에 포함된 기능이며 다른 페이지 콘텐츠와 동일하게 처리됩니다.
 
-**Q: 접근성을 높이기 위해 PDF/UA 태깅과 레이어를 결합할 수 있나요?**  
-A: Absolutely. You can tag each layer’s content, allowing screen readers to navigate layered documents more effectively.
+**Q: 레이어와 PDF/UA 태그를 결합해 접근성을 개선할 수 있나요?**  
+A: 물론 가능합니다. 각 레이어에 태그를 지정하면 스크린 리더가 레이어별 콘텐츠를 보다 효과적으로 탐색할 수 있습니다.
+
+**Q: 레이어가 적용된 PDF에 대해 pdf 접근성 검증은 어떻게 작동하나요?**  
+A: Aspose.PDF는 전체 문서와 각 선택적 콘텐츠 그룹을 모두 검사하여 PDF/UA 표준 준수를 확인합니다.
+
+**Q: 많은 레이어를 렌더링하면 성능에 영향을 미치나요?**  
+A: 많은 OCG를 렌더링하면 처리 시간이 늘어날 수 있지만, Aspose.PDF는 리소스 공유를 최적화해 대부분의 사용 사례에서 성능을 충분히 유지합니다.
 
 ---
 
-**Last Updated:** 2025-11-28  
+**Last Updated:** 2026-02-09  
 **Tested With:** Aspose.PDF for Java 24.11  
 **Author:** Aspose
 
