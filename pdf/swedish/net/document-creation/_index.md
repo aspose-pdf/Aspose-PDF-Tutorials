@@ -79,6 +79,9 @@ Lär dig hur du skapar ett PDF-dokument, lägger till en sida och former samt sp
 ### [Skapa PDF-dokument med Aspose.PDF – Steg‑för‑steg‑guide](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 Lär dig hur du skapar PDF-dokument med Aspose.PDF i en steg‑för‑steg‑guide.
 
+### [Skapa PDF-dokument med Aspose i C# – Steg‑för‑steg‑guide](./create-pdf-document-with-aspose-in-c-step-by-step-guide/)
+Lär dig hur du skapar PDF-dokument med Aspose i C# genom en detaljerad steg‑för‑steg‑guide.
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)
