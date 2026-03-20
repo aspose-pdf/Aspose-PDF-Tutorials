@@ -22,6 +22,7 @@ Aspose.PDFs handledningar "Programmering med stämplar och vattenstämplar" för
 | --- | --- | 
 | [Lägg till datum- och tidsstämpel i PDF-fil](./add-date-time-stamp/) Lär dig hur du lägger till en datum- och tidsstämpel i dina PDF-filer med Aspose.PDF för .NET med den här steg-för-steg-guiden. Perfekt för att förbättra dokumentäktheten. |  
 | [Lägg till bildstämpel i PDF-fil](./add-image-stamp/) | Lär dig hur du lägger till en bildstämpel i PDF-filer med Aspose.PDF för .NET med steg-för-steg-vägledning och exempelkod. |  
+| [Lägg till stämpel i PDF – Applicera vattenstämpel på första sidan](./add-stamp-to-pdf-apply-watermark-pdf-on-first-page/) | Lär dig hur du lägger till en stämpel och applicerar en vattenstämpel på den första sidan i en PDF med Aspose.PDF för .NET. |
 | [Lägga till olika rubriker i PDF-fil](./adding-different-headers/) | Lär dig hur du lägger till olika rubriker i PDF-filer med Aspose.PDF för .NET. Steg-för-steg-guide för att anpassa dina PDF-filer. |  
 | [Lägg till PDF-sidstämpel i PDF-fil](./add-pdf-page-stamp/) | Lär dig hur du lägger till en PDF-sidstämpel med Aspose.PDF för .NET med den här detaljerade guiden. Öka dina PDF-dokuments effekt. |  
 | [Lägg till textstämpel i PDF-fil](./add-text-stamp/) | Lär dig hur du lägger till en textstämpel i en PDF-fil med Aspose.PDF för .NET med vår steg-för-steg-guide och höjer dina dokumentpresentationer. |  
