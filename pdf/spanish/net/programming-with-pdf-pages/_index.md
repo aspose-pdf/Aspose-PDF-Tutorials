@@ -23,7 +23,7 @@ Los tutoriales incluyen instrucciones paso a paso, ejemplos de código detallado
 | --- | --- | 
 | [Cambiar la orientación](./change-orientation/) Guía paso a paso para cambiar la orientación de un PDF con Aspose.PDF para .NET. Fácil de seguir e implementar en tus proyectos.  
 | [Concatenar archivos PDF](./concatenate-pdf-files/) | Concatene archivos PDF sin esfuerzo utilizando Aspose.PDF para .NET con esta completa guía paso a paso. |  
-| [Eliminar una página específica en un archivo PDF](./delete-particular-page/) | Aprenda a eliminar una página específica de un archivo PDF usando Aspose.PDF para .NET con esta guía paso a paso. |  
+| [Eliminar una página específica en un archivo PDF](./delete-particular-page/) | Aprenda a eliminar una página específica de un PDF usando Aspose.PDF para .NET con esta guía paso a paso. |  
 | [Determinar el color de la página](./determine-page-color/) Aprenda a determinar el color de página de archivos PDF usando Aspose.PDF para .NET con nuestra guía paso a paso. Fácil implementación para todos los niveles.  
 | [Ajustar el contenido de la página en un archivo PDF](./fit-page-contents/) | Adapte fácilmente el contenido de sus PDF con Aspose.PDF para .NET. Esta guía ofrece un enfoque detallado, paso a paso, para lograr un diseño de página óptimo. |  
 | [Obtener dimensiones de página PDF](./get-dimensions/) En este tutorial, explicamos cómo obtener las dimensiones de página de un PDF y realizar manipulaciones con Aspose.PDF para .NET. Se proporcionan pasos detallados para guiarle en el proceso.  
@@ -38,6 +38,7 @@ Los tutoriales incluyen instrucciones paso a paso, ejemplos de código detallado
 | [Actualizar las dimensiones de la página PDF](./update-dimensions/) | Descubra cómo actualizar las dimensiones de páginas PDF sin esfuerzo con Aspose.PDF para .NET en esta guía completa paso a paso. |  
 | [Acercar el contenido de la página en un archivo PDF](./zoom-to-page-contents/) Aprenda a ampliar el contenido de las páginas de archivos PDF con Aspose.PDF para .NET en esta guía completa. Mejore sus documentos PDF según sus necesidades.  
 | [Agregar números de página a PDF con C# – Guía completa paso a paso](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Aprenda a numerar páginas en un PDF con C# y Aspose.PDF para .NET mediante esta guía paso a paso. |  
+| [Crear documento PDF C# – Guía para agregar formas y páginas en blanco](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Aprenda a crear documentos PDF en C#, añadiendo formas y páginas en blanco con Aspose.PDF para .NET paso a paso. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -83,6 +83,9 @@
 ### [تحويل PDF إلى PNG باستخدام Aspose.PDF .NET: تحسين تلميحات الخطوط لعرض نص واضح](./convert-pdf-png-aspose-net-font-hinting/)
 تعرف على كيفية تحويل مستندات PDF إلى صور PNG عالية الجودة باستخدام Aspose.PDF .NET، مما يضمن عرض نص حاد من خلال تلميحات الخط.
 
+### [Aspose PDF إلى PNG – تصدير الصفحة الأولى بدقة 300 DPI](./aspose-pdf-to-png-export-first-page-at-300-dpi/)
+دليل يوضح كيفية تصدير الصفحة الأولى من مستند PDF إلى صورة PNG بدقة 300 DPI باستخدام Aspose.PDF لـ .NET.
+
 ### [تحويل PDF إلى PPTX باستخدام Aspose.PDF لـ .NET: دليل خطوة بخطوة](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 تعرّف على كيفية تحويل مستندات PDF بكفاءة إلى عروض تقديمية بتنسيق PowerPoint باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل خطوة بخطوة أساسيات التحويل، وميزات متقدمة مثل شرائح الصور، وتتبع التقدم.
 

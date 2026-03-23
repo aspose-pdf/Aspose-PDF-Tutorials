@@ -63,7 +63,9 @@ Aspose.PDF for .NET を使用して、PDF/UA-1 標準に準拠したアクセシ
 Aspose.PDF for .NET を使用して、アクセシビリティ対応でスタイル設定されたタグ付きPDFドキュメントを作成する方法を学びます。構造化されたテーブルと強化されたアクセシビリティを備えた、準拠したPDFの作成をマスターしましょう。
 
 ### [C#でPDFを比較する方法 – PDF差分生成の完全ガイド](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
-C# と Aspose.PDF を使用して、PDF の差分を生成し、比較する方法を学びます。
+
+### [Aspose.Pdf を使用して PDF の OCR を実行する方法 – 完全 C# ガイド](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
+Aspose.Pdf の OCR 機能を活用し、PDF からテキスト抽出を行う手順を C# で詳しく解説します。
 
 ## 追加リソース
 
