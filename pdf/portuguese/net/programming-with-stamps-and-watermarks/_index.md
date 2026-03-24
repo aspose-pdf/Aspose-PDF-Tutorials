@@ -39,6 +39,8 @@ Os tutoriais "Programação com Carimbos e Marcas D'água" do Aspose.PDF para .N
 | [Tabela na seção Cabeçalho e Rodapé](./table-in-header-footer-section/) | Aprenda a adicionar texto facilmente ao rodapé de um arquivo PDF usando o Aspose.PDF para .NET. Guia passo a passo incluído para integração perfeita. |  
 | [Texto no rodapé do arquivo PDF](./text-in-footer/) | Aprenda como adicionar texto no rodapé do arquivo PDF com o Aspose.PDF para .NET. |  
 | [Texto no cabeçalho do arquivo PDF](./text-in-header/) | Aprenda a adicionar cabeçalhos de texto a PDFs usando o Aspose.PDF para .NET com este tutorial passo a passo. Aprimore seus documentos com eficiência e eficácia. |  
+| [Como adicionar carimbo a PDF com Aspose.Pdf – Guia passo a passo](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) | Aprenda a inserir carimbos em arquivos PDF usando Aspose.PDF para .NET com este guia detalhado passo a passo. |
+| [Criar aviso de página inteira em PDF – Guia rápido em C#](./create-pdf-full-page-notice-quick-c-guide/) | Aprenda a criar um aviso de página inteira em PDF usando Aspose.PDF para .NET com este guia rápido em C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

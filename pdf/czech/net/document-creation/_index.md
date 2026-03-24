@@ -78,6 +78,10 @@ Výukový program pro kódování Aspose.PDF Net
 Naučte se, jak vytvořit PDF, přidat stránku a tvar a soubor uložit pomocí Aspose.PDF.
 ### [Vytvoření PDF dokumentu pomocí Aspose.PDF – krok‑po‑kroku průvodce](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.PDF vytvořit PDF dokument krok za krokem s praktickými ukázkami kódu.
+### [Vytvořte PDF dokument v C# – Přidejte stránku do PDF a nakreslete obdélník](./create-pdf-document-in-c-add-page-to-pdf-draw-rectangle/)
+Naučte se, jak pomocí Aspose.PDF pro .NET vytvořit PDF, přidat stránku a nakreslit obdélník v C#.
+### [Vytvořte PDF dokument v C# – Kompletní průvodce generováním v paměti](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
+Naučte se, jak v C# vytvořit PDF dokument přímo v paměti bez ukládání na disk.
 
 ## Další zdroje
 

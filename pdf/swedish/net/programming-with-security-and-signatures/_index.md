@@ -35,6 +35,10 @@ Handledningen ger dig en detaljerad översikt över metoder och tekniker för at
 | [Signera med smartkort med hjälp av signaturfältet](./sign-with-smart-card-using-signature-field/) | Lär dig hur du signerar PDF-filer säkert med ett smartkort med Aspose.PDF för .NET. Följ vår steg-för-steg-guide för enkel implementering. |  
 | [Kontrollera PDF-signaturer i C# – Så läser du signerade PDF-filer](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Lär dig hur du läser och verifierar signerade PDF-filer med Aspose.PDF för .NET i C#. |
 | [Hur man reparerar PDF-filer – Komplett C#-guide med Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Lär dig steg för steg hur du reparerar skadade PDF-filer med Aspose.PDF i C#. |
+| [Verifiera PDF-digital signatur i C# med Aspose.Pdf](./verify-pdf-digital-signature-in-c-with-aspose-pdf/) | Lär dig hur du verifierar digitala PDF-signaturer i C# med Aspose.PDF i en steg-för-steg-guide. |
+| [Ladda PFX-certifikat C# – Skapa PKCS7-fristående signatur](./load-pfx-certificate-c-create-pkcs7-detached-signature/) | Lär dig hur du laddar ett PFX‑certifikat i C# och skapar en PKCS7‑fristående signatur med Aspose.PDF för .NET. |
+| [Kontrollera PDF-signaturer i C# – Snabbguide för att verifiera digitala signaturer](./check-pdf-signatures-in-c-quick-guide-to-verify-digital-sign/) | Lär dig hur du snabbt verifierar PDF-signaturer i C# med Aspose.PDF för .NET. |
+| [PDF-signaturhandledning: Verifiera en PDF:s digitala signatur i C#](./pdf-signature-tutorial-verify-a-pdf-s-digital-signature-in-c/) | Lär dig hur du verifierar en PDF:s digitala signatur i C# med Aspose.PDF för .NET i en kort guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

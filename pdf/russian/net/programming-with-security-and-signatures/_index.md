@@ -34,7 +34,11 @@
 | [Подпишите с помощью смарт-карты, используя подпись в файле PDF](./sign-with-smart-card-using-pdf-file-signature/) | Узнайте, как подписывать файлы PDF с помощью смарт-карты с Aspose.PDF для .NET. Следуйте этому пошаговому руководству для безопасных цифровых подписей. |  
 | [Подпишите с помощью смарт-карты, используя поле подписи](./sign-with-smart-card-using-signature-field/) | Узнайте, как безопасно подписывать PDF-файлы с помощью смарт-карты с помощью Aspose.PDF для .NET. Следуйте нашему пошаговому руководству для легкой реализации. |  
 | [Проверка подписей PDF в C# – Как читать подписанные PDF-файлы](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Узнайте, как проверять подписи PDF и читать подписанные файлы с помощью Aspose.PDF для .NET на C#. |  
+| [Проверка подписей PDF в C# – Быстрое руководство по проверке цифровых подписей](./check-pdf-signatures-in-c-quick-guide-to-verify-digital-sign/) | Узнайте, как быстро проверять цифровые подписи PDF в C# с помощью Aspose.PDF. |  
 | [Как восстановить PDF-файлы – Полное руководство на C# с Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Узнайте, как восстанавливать поврежденные PDF-файлы с помощью Aspose.PDF для .NET. Пошаговое руководство на C#. |  
+| [Проверка цифровой подписи PDF в C# с Aspose.Pdf](./verify-pdf-digital-signature-in-c-with-aspose-pdf/) | Узнайте, как проверять цифровую подпись PDF в C# с помощью Aspose.PDF для .NET. Пошаговое руководство для разработчиков. |  
+| [Загрузка сертификата PFX C# – Создание отделенной подписи PKCS7](./load-pfx-certificate-c-create-pkcs7-detached-signature/) | Узнайте, как загрузить сертификат PFX в C# и создать отделенную подпись PKCS7 с помощью Aspose.PDF. |  
+| [Учебник по подписи PDF: проверка цифровой подписи PDF в C#](./pdf-signature-tutorial-verify-a-pdf-s-digital-signature-in-c/) | Узнайте, как проверять цифровую подпись PDF в C# с помощью Aspose.PDF для .NET. Пошаговое руководство для разработчиков. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

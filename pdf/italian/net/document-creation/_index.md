@@ -76,8 +76,15 @@ Un tutorial sul codice per Aspose.PDF Net
 
 ### [Crea documento PDF con Aspose.PDF – Aggiungi pagina, forma e salva](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Scopri come aggiungere pagine e forme a un PDF e salvarlo usando Aspose.PDF per .NET.
+
+### [Crea documento PDF in C# – Aggiungi pagina al PDF e disegna un rettangolo](./create-pdf-document-in-c-add-page-draw-rectangle/)
+Scopri come aggiungere una pagina a un PDF e disegnare un rettangolo usando Aspose.PDF per .NET in C#.
+
 ### [Creare documento PDF con Aspose.PDF – Guida passo‑passo](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 Scopri come generare un documento PDF da zero utilizzando Aspose.PDF per .NET con questa guida passo‑passo.
+
+### [Creare documento PDF in C# – Guida completa alla generazione in memoria](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
+Scopri come generare PDF interamente in memoria usando Aspose.PDF per .NET con C#, senza scrivere file temporanei.
 
 ## Risorse aggiuntive
 

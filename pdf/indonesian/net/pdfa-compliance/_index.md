@@ -38,6 +38,9 @@ Pelajari cara memvalidasi kepatuhan PDF/A-1a menggunakan Aspose.PDF untuk .NET. 
 ### [Validasi Master PDF/A Menggunakan Aspose.PDF untuk .NET di C#](./master-pdfa-validation-aspose-pdf-net/)
 Pelajari cara memvalidasi dokumen PDF terhadap standar PDF/A menggunakan Aspose.PDF .NET. Pastikan kepatuhan dan tingkatkan keandalan dokumen dengan panduan langkah demi langkah kami.
 
+### [Konversi PDF ke PDF/A dalam C# – Panduan Lengkap Langkah demi Langkah](./convert-pdf-to-pdf-a-in-c-complete-step-by-step-guide/)
+Pelajari cara mengonversi PDF ke PDF/A menggunakan C# dengan contoh kode lengkap dan langkah-langkah detail.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

@@ -23,6 +23,7 @@ Aspose.PDF for .NET's "Programming with Tagged PDFs" tutorials walk you through 
 | [Access Children Elements](./access-children-elements/) | Learn how to access and modify child elements in tagged PDFs with Aspose.PDF for .NET in this step-by-step tutorial. |  
 | [Add Structure Element Into Element](./add-structure-element-into-element/) | Learn how to add accessibility structure elements into PDFs using Aspose.PDF for .NET in this comprehensive step-by-step tutorial. |  
 | [Create Note Structure Element](./create-note-structure-element/) | Learn to create note structure elements in PDFs with Aspose.PDF for .NET through this detailed, step-by-step tutorial. |  
+| [Create PDF Document – Set Absolute Position for Tagged Text](./create-pdf-document-set-absolute-position-for-tagged-text/) | Learn how to set absolute position for tagged text in a PDF using Aspose.PDF for .NET. |  
 | [Create PDF with Tagged Image](./create-pdf-with-tagged-image/) | Learn to create a tagged PDF with images using Aspose.PDF for .NET. Follow our step-by-step guide for accessible and professional document creation. |  
 | [Create PDF with Tagged Text](./create-pdf-with-tagged-text/) | Learn how to create tagged PDFs with accessible content using Aspose.PDF for .NET in this comprehensive step-by-step tutorial. |  
 | [Create Tagged PDF in C# – Complete Step‑by‑Step Guide](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Learn how to create a fully tagged PDF using Aspose.PDF for .NET in C# with this comprehensive step-by-step guide. |
