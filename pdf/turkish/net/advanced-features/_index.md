@@ -65,6 +65,9 @@ Aspose.PDF for .NET kullanarak erişilebilir, biçimlendirilmiş etiketli PDF be
 ### [C# ile PDF'leri Karşılaştırma – PDF Diff Oluşturma İçin Tam Kılavuz](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 C# ve Aspose.PDF kullanarak PDF dosyalarını karşılaştırmayı, farkları (diff) oluşturmayı ve raporlamayı öğrenin.
 
+### [Aspose.Pdf ile Her PDF Katmanını Kaydet – Adım Adım Kılavuz](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
+Aspose.Pdf for .NET kullanarak PDF dosyalarındaki her katmanı ayrı ayrı kaydetmeyi öğrenin.
+
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)

@@ -101,14 +101,17 @@ Pelajari cara menyempurnakan dokumen PDF Anda dengan menambahkan garis putus-put
 ### [Cara Membuat PDF Berlabel dengan Gambar di .NET Menggunakan Aspose.PDF](./create-tagged-pdf-image-dotnet/)
 Pelajari cara membuat PDF berlabel yang mudah diakses dan disematkan gambar menggunakan Aspose.PDF for .NET. Tingkatkan aksesibilitas dan presentasi dokumen untuk semua pengguna.
 
-### [Cara Membuat Persegi Panjang Transparan dalam PDF Menggunakan Aspose.PDF untuk .NET](./create-transparent-rectangles-aspose-pdf-dotnet/)
-Pelajari cara menyempurnakan dokumen PDF Anda dengan membuat persegi panjang dengan transparansi alfa menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah ini.
+### [Cara Membuat Persegi Panjang Transparan dalam PDF Menggunakan Aspose.PDF untuk .NET](./create-transparent-rectangles-aspose-pdf-net/)
+Tutorial kode untuk Aspose.PDF Net
+
+### [Cara Menggambar Persegi Panjang di PDF dengan C# – Panduan Langkah demi Langkah](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
+Pelajari cara menggambar persegi panjang dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan C# melalui panduan langkah demi langkah.
 
 ### [Cara Menghapus Gambar dari File PDF Menggunakan Aspose.PDF untuk .NET - Panduan Lengkap](./delete-images-aspose-pdf-net/)
 Pelajari cara menghapus gambar dari file PDF secara efisien menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup pengaturan, contoh kode, dan praktik terbaik.
 
 ### [Cara Menghapus Gambar dari PDF Menggunakan Aspose.PDF .NET: Panduan Langkah demi Langkah](./delete-images-aspose-pdf-net-guide/)
-Pelajari cara menghapus gambar dari file PDF menggunakan Aspose.PDF untuk .NET. Panduan lengkap ini mencakup pengaturan, penerapan, dan aplikasi praktis.
+Pelajari cara menghapus gambar dari PDF menggunakan Aspose.PDF untuk .NET. Panduan lengkap ini mencakup pengaturan, penerapan, dan aplikasi praktis.
 
 ### [Cara Menghapus Gambar dari PDF Menggunakan Aspose.PDF untuk .NET: Panduan Lengkap](./delete-images-from-pdf-aspose-dotnet/)
 Pelajari cara menghapus semua gambar dari PDF secara efisien menggunakan Aspose.PDF for .NET, meningkatkan privasi file dan mengurangi ukuran. Ikuti panduan langkah demi langkah ini.

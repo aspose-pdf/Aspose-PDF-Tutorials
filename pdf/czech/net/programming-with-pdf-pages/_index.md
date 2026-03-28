@@ -38,6 +38,9 @@ Návody obsahují podrobné pokyny, podrobné příklady kódu a jasná vysvětl
 | [Aktualizovat rozměry stránky PDF](./update-dimensions/) | Zjistěte, jak snadno aktualizovat rozměry stránek PDF pomocí Aspose.PDF pro .NET v tomto komplexním návodu krok za krokem. |  
 | [Přiblížit na obsah stránky v souboru PDF](./zoom-to-page-contents/) | V tomto komplexním průvodci se naučte, jak přiblížit obsah stránky v souborech PDF pomocí Aspose.PDF pro .NET. Vylepšete své dokumenty PDF podle svých specifických potřeb. |  
 | [Přidat čísla stránek do PDF pomocí C# – Kompletní krok‑za‑krokem průvodce](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Kompletní krok‑za‑krokem průvodce přidáním čísel stránek do PDF pomocí C# a Aspose.PDF pro .NET. |
+| [Přidat Batesovo číslování v C# – krok za krokem průvodce](./add-bates-numbering-in-c-step-by-step-guide/) | Kompletní krok‑za‑krokem průvodce přidáním Batesova číslování do PDF pomocí C# a Aspose.PDF pro .NET. |
+| [Přidat stránky do PDF – krok‑za‑krokem průvodce pro vývojáře C#](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) | Kompletní krok‑za‑krokem průvodce přidáním stránek do PDF pomocí C# a Aspose.PDF pro .NET. |
+| [Přeskupit stránky PDF v C# – Kompletní krok‑za‑krokem průvodce](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | Kompletní krok‑za‑krokem průvodce přeskupením stránek PDF pomocí C# a Aspose.PDF pro .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -35,6 +35,8 @@
 | [हस्ताक्षर फ़ील्ड का उपयोग करके स्मार्ट कार्ड से हस्ताक्षर करें](./sign-with-smart-card-using-signature-field/) | .NET के लिए Aspose.PDF के साथ स्मार्ट कार्ड का उपयोग करके PDF पर सुरक्षित रूप से हस्ताक्षर करना सीखें। आसान कार्यान्वयन के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें। |  
 | [C# में PDF हस्ताक्षर जाँचें – साइन किए गए PDF फ़ाइलें पढ़ें](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | .NET के लिए Aspose.PDF का उपयोग करके PDF हस्ताक्षर कैसे पढ़ें, इस चरण-दर-चरण मार्गदर्शिका में जानें। |  
 | [PDF फ़ाइलों की मरम्मत कैसे करें – Aspose.Pdf के साथ पूर्ण C# गाइड](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Aspose.Pdf का उपयोग करके C# में PDF फ़ाइलों को ठीक करने के चरण-दर-चरण मार्गदर्शन। |  
+| [C# में डिजिटल हस्ताक्षर PDF सत्यापित करें – पूर्ण Aspose.PDF गाइड](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) | .NET के लिए Aspose.PDF का उपयोग करके PDF डिजिटल हस्ताक्षर कैसे सत्यापित करें, इस पूर्ण मार्गदर्शिका में सीखें। |  
+| [C# में CA सर्वर कॉन्फ़िगर करें – वर्ड दस्तावेज़ हस्ताक्षर सत्यापित करने के लिए पूर्ण गाइड](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) | C# और Aspose.PDF का उपयोग करके वर्ड दस्तावेज़ के डिजिटल हस्ताक्षर को सत्यापित करने के लिए CA सर्वर सेटअप करने की पूरी प्रक्रिया सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

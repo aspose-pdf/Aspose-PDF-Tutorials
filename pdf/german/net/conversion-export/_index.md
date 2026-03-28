@@ -140,6 +140,9 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET bestimmte Bereiche einer PDF-Seit
 ### [Exportieren von Daten in PDF mit Aspose.PDF für .NET: Eine vollständige Anleitung](./export-data-pdf-aspose-net-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET Daten aus Anwendungen effizient in PDF exportieren. Diese Anleitung behandelt die Einrichtung, Codebeispiele in C# und wichtige Funktionen.
 
+### [Wie man DOCX exportiert – Schritt‑für‑Schritt‑Anleitung für C#‑Entwickler](./how-to-export-docx-step-by-step-guide-for-c-developers/)
+Erfahren Sie, wie Sie DOCX-Dateien mit Aspose.PDF für .NET aus C# exportieren.
+
 ### [PDF-Anmerkungen mit Aspose.PDF .NET exportieren: Ein umfassender Leitfaden](./export-annotations-aspose-pdf-net/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET Anmerkungen effizient aus PDFs exportieren. Diese Anleitung behandelt Einrichtung, Implementierung und bewährte Methoden.
 

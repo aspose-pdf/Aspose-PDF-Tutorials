@@ -104,11 +104,14 @@ Tìm hiểu cách tạo PDF có gắn thẻ có thể truy cập được nhúng
 ### [Cách tạo hình chữ nhật trong suốt trong PDF bằng Aspose.PDF cho .NET](./create-transparent-rectangles-aspose-pdf-dotnet/)
 Tìm hiểu cách cải thiện tài liệu PDF của bạn bằng cách tạo hình chữ nhật có độ trong suốt alpha bằng Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước này.
 
+### [Cách Vẽ Hình Chữ Nhật trong PDF bằng C# – Hướng Dẫn Từng Bước](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
+Tìm hiểu cách vẽ hình chữ nhật trong tài liệu PDF bằng C# sử dụng Aspose.PDF cho .NET qua hướng dẫn chi tiết từng bước.
+
 ### [Cách xóa hình ảnh khỏi tệp PDF bằng Aspose.PDF cho .NET - Hướng dẫn đầy đủ](./delete-images-aspose-pdf-net/)
 Tìm hiểu cách xóa hình ảnh khỏi tệp PDF hiệu quả bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm thiết lập, ví dụ về mã và các biện pháp thực hành tốt nhất.
 
 ### [Cách xóa hình ảnh khỏi PDF bằng Aspose.PDF .NET: Hướng dẫn từng bước](./delete-images-aspose-pdf-net-guide/)
-Tìm hiểu cách xóa hình ảnh khỏi tệp PDF bằng Aspose.PDF cho .NET. Hướng dẫn toàn diện này bao gồm thiết lập, triển khai và ứng dụng thực tế.
+Tìm hiểu cách xóa hình ảnh khỏi PDF bằng Aspose.PDF .NET. Hướng dẫn toàn diện này bao gồm thiết lập, triển khai và ứng dụng thực tế.
 
 ### [Cách xóa hình ảnh khỏi PDF bằng Aspose.PDF cho .NET: Hướng dẫn toàn diện](./delete-images-from-pdf-aspose-dotnet/)
 Tìm hiểu cách xóa hiệu quả tất cả hình ảnh khỏi PDF bằng Aspose.PDF cho .NET, tăng cường quyền riêng tư của tệp và giảm kích thước. Làm theo hướng dẫn từng bước này.

@@ -65,6 +65,9 @@
 ### [Πώς να συγκρίνετε PDF σε C# – Πλήρης οδηγός δημιουργίας διαφοράς PDF](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 Μάθετε πώς να συγκρίνετε αρχεία PDF χρησιμοποιώντας C# και το Aspose.PDF, δημιουργώντας ακριβείς διαφορές PDF.
 
+### [Αποθήκευση κάθε επιπέδου PDF με το Aspose.Pdf – Οδηγός βήμα προς βήμα](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
+Μάθετε πώς να αποθηκεύετε κάθε επίπεδο PDF χρησιμοποιώντας το Aspose.Pdf με αναλυτικές οδηγίες βήμα προς βήμα.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.PDF για τεκμηρίωση δικτύου](https://docs.aspose.com/pdf/net/)

@@ -65,6 +65,9 @@ Learn to craft accessible, styled tagged PDF documents using Aspose.PDF for .NET
 ### [How to Compare PDFs in C# – Complete Guide to Generating PDF Diff](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 Learn how to compare two PDFs in C# using Aspose.PDF for .NET and generate a visual diff document.
 
+### [Save Each PDF Layer with Aspose.Pdf – Step‑by‑Step Guide](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
+Learn how to extract and save individual PDF layers using Aspose.PDF for .NET with this detailed step‑by‑step guide.
+
 ## Additional Resources
 
 - [Aspose.PDF for Net Documentation](https://docs.aspose.com/pdf/net/)
