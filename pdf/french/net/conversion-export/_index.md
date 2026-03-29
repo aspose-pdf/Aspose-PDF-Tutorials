@@ -74,6 +74,12 @@ Apprenez à convertir des fichiers PDF au format HTML avec Aspose.PDF pour .NET 
 ### [Convertir un PDF en HTML avec Aspose.PDF pour .NET : conserver les polices aux formats TTF et WOFF](./convert-pdf-html-aspose-net-truetype-woff/)
 Apprenez à convertir des PDF en HTML avec Aspose.PDF pour .NET tout en préservant les polices TrueType (TTF) et Web Open Font Format (WOFF). Guide étape par étape avec exemples de code.
 
+### [Enregistrer un PDF en HTML avec Aspose – Guide complet C#](./save-pdf-as-html-with-aspose-complete-c-guide/)
+Apprenez à enregistrer des fichiers PDF au format HTML en C# avec Aspose, en suivant un guide complet pas à pas.
+
+### [Enregistrer un PDF en HTML avec C# – Guide complet étape par étape](./save-pdf-as-html-with-c-complete-step-by-step-guide/)
+Apprenez à enregistrer des PDF au format HTML en C# avec Aspose, grâce à un guide complet étape par étape.
+
 ### [Convertir un PDF en HTML avec des dimensions personnalisées à l'aide d'Aspose.PDF](./convert-pdf-html-custom-dimensions-asposepdf-net/)
 Un tutoriel de code pour Aspose.PDF Net
 
@@ -90,7 +96,7 @@ Apprenez à convertir efficacement des documents PDF en présentations PowerPoin
 Apprenez à convertir des PDF en SVG avec Aspose.PDF pour .NET. Ce guide complet couvre la configuration, les étapes de conversion et des conseils d'optimisation.
 
 ### [Convertir un PDF en TIFF avec Aspose.PDF .NET : guide complet](./convert-pdf-page-to-tiff-aspose-net/)
-Apprenez à convertir des pages PDF en images TIFF de haute qualité à l'aide d'Aspose.PDF pour .NET avec ce didacticiel étape par étape.
+Apprenez à convertir des pages PDF en images TIFF de haute qualité à l'aide d'Aspose.PDF .NET avec ce didacticiel étape par étape.
 
 ### [Convertir un PDF en TeX avec Aspose.PDF pour .NET : guide complet](./convert-pdf-to-tex-aspose-dotnet/)
 Apprenez à convertir des documents PDF complexes au format TeX modifiable avec Aspose.PDF pour .NET. Ce guide couvre l'installation, les étapes de conversion et l'optimisation des performances.
@@ -226,6 +232,9 @@ Un tutoriel de code pour Aspose.PDF Net
 
 ### [Conversion PDF en TIFF dans .NET avec Aspose.PDF : guide étape par étape](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Apprenez à convertir des documents PDF en images TIFF avec Aspose.PDF pour .NET. Maîtrisez les profondeurs de couleurs personnalisées et les techniques avancées de traitement d'image.
+
+### [Convertir un PDF en PDF/X‑1a, exporter la page en PNG et ajouter un tampon de texte](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
+Apprenez à convertir un PDF au format PDF/X‑1a, à exporter une page en PNG et à ajouter un tampon de texte avec Aspose.PDF pour .NET.
 
 ## Ressources supplémentaires
 

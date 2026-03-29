@@ -23,6 +23,9 @@ Aprenda a implementar assinaturas digitais em PDFs usando o Aspose.PDF para .NET
 ### [Assine digitalmente um PDF com aparência personalizada usando Aspose.PDF para .NET: um guia passo a passo](./digitally-sign-pdf-custom-appearance-aspose-pdf-net/)
 Aprenda a assinar digitalmente um PDF com aparência personalizada usando o Aspose.PDF para .NET. Este guia aborda a configuração, a personalização e as aplicações práticas de assinaturas digitais em seus documentos.
 
+### [Como assinar PDF e adicionar imagens – Guia completo em C#](./how-to-sign-pdf-and-add-images-complete-c-guide/)
+Aprenda a assinar PDFs e inserir imagens usando Aspose.PDF para .NET com exemplos completos em C#.
+
 ### [Extraia informações de assinatura digital de PDFs com Aspose.PDF](./extract-digital-signature-info-from-pdfs-aspose-pdf/)
 Um tutorial de código para Aspose.PDF Net
 
@@ -58,6 +61,7 @@ Aprenda a verificar assinaturas digitais em arquivos PDF usando o Aspose.PDF par
 
 ### [Verificar assinatura de PDF em C# – Guia completo para validar assinatura digital de PDF](./verify-pdf-signature-in-c-complete-guide-to-validate-digital/)
 Aprenda a validar assinaturas digitais em PDFs usando C#, com exemplos passo a passo e melhores práticas.
+
 ### [Carregar documento PDF C# – Converter para PDF/X‑4 e listar assinaturas](./load-pdf-document-c-convert-to-pdf-x-4-list-signatures/)
 Aprenda a carregar um PDF em C#, convertê‑lo para o padrão PDF/X‑4 e listar as assinaturas presentes.
 

@@ -20,6 +20,9 @@
 ### [使用 Aspose.PDF for .NET 在 PDF 中進行數位簽章：綜合指南](./digital-signature-aspose-pdf-net-tutorial/)
 了解如何使用 Aspose.PDF for .NET 在 PDF 中實作數位簽章。本指南涵蓋設定、簽名流程和管理簽名外觀。
 
+### [如何簽署 PDF 並添加圖像 – 完整 C# 指南](./how-to-sign-pdf-and-add-images-complete-c-guide/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中為 PDF 簽名並嵌入圖像，提供完整步驟與範例程式碼。
+
 ### [使用 Aspose.PDF for .NET 對 PDF 進行自訂外觀數位簽章：逐步指南](./digitally-sign-pdf-custom-appearance-aspose-pdf-net/)
 了解如何使用 Aspose.PDF for .NET 對具有自訂外觀的 PDF 進行數位簽章。本指南涵蓋文件中數位簽章的設定、客製化和實際應用。
 
