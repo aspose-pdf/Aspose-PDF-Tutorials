@@ -77,8 +77,11 @@ Scopri come convertire i PDF in HTML utilizzando Aspose.PDF per .NET, mantenendo
 ### [Converti PDF in HTML con dimensioni personalizzate utilizzando Aspose.PDF](./convert-pdf-html-custom-dimensions-asposepdf-net/)
 Un tutorial sul codice per Aspose.PDF Net
 
-### [Convertire PDF in HTML con URL di immagini personalizzate utilizzando Aspose.PDF .NET: una guida completa](./convert-pdf-html-custom-image-urls-aspose-pdf-net/)
-Scopri come convertire i documenti PDF in formato HTML utilizzando Aspose.PDF per .NET, inclusa la personalizzazione degli URL delle immagini e l'implementazione di una strategia su misura per il risparmio delle risorse.
+### [Salva PDF come HTML con Aspose – Guida completa C#](./save-pdf-as-html-with-aspose-complete-c-guide/)
+Scopri come salvare PDF come HTML usando Aspose in C#, con esempi pratici e impostazioni avanzate.
+
+### [Salva PDF come HTML con C# – Guida completa passo‑passo](./save-pdf-as-html-with-c-complete-step-by-step-guide/)
+Scopri come salvare PDF in HTML usando C# con Aspose.PDF, seguendo una guida dettagliata passo dopo passo.
 
 ### [Converti PDF in PNG con Aspose.PDF .NET: migliora i suggerimenti sui font per una resa nitida del testo](./convert-pdf-png-aspose-net-font-hinting/)
 Scopri come convertire i documenti PDF in immagini PNG di alta qualità utilizzando Aspose.PDF .NET, garantendo una resa nitida del testo tramite suggerimenti sui font.
@@ -226,6 +229,9 @@ Un tutorial sul codice per Aspose.PDF Net
 
 ### [Conversione da PDF a TIFF in .NET con Aspose.PDF: una guida passo passo](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Scopri come convertire documenti PDF in immagini TIFF utilizzando Aspose.PDF per .NET. Padroneggia profondità di colore personalizzate e tecniche avanzate di elaborazione delle immagini.
+
+### [Convertire PDF in PDF/X-1a, esportare pagina PNG e aggiungere timbro di testo](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
+Scopri come convertire un PDF in PDF/X‑1a, esportare le pagine come PNG e aggiungere timbri di testo usando Aspose.PDF per .NET.
 
 ## Risorse aggiuntive
 
