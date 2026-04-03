@@ -35,6 +35,9 @@
 ### [كيفية استخراج معلومات توقيع PDF باستخدام Aspose.PDF .NET: دليل خطوة بخطوة](./extract-pdf-signature-info-aspose-pdf-net/)
 تعرّف على كيفية استخراج معلومات التوقيع الرقمي من ملفات PDF باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل خطوة بخطوة التثبيت والتنفيذ والتطبيقات العملية.
 
+### [كيفية استخراج التوقيعات من ملفات PDF باستخدام Aspose C#](./how-to-extract-signatures-from-pdf-aspose-c-guide/)
+تعلم كيفية استخراج التوقيعات الرقمية من ملفات PDF باستخدام مكتبة Aspose.PDF في C# خطوة بخطوة.
+
 ### [كيفية تنفيذ التوقيعات الرقمية في .NET باستخدام Aspose.PDF: دليل شامل](./implement-pdf-signatures-dotnet-aspose-pdf-guide/)
 تعرف على كيفية تنفيذ التوقيعات الرقمية الآمنة على ملفات PDF باستخدام Aspose.PDF لـ .NET، بما في ذلك إلغاء الحقول الاختيارية.
 
@@ -58,6 +61,9 @@
 
 ### [التحقق من توقيع PDF باستخدام Aspose – تحويل PDF إلى HTML](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
 تعرّف على كيفية التحقق من توقيع PDF وتحويله إلى HTML باستخدام Aspose.
+
+### [تحقق من توقيع PDF وإضافة ترقيم Bates – دليل C# كامل](./verify-pdf-signature-and-add-bates-numbering-complete-c-guid/)
+دليل شامل يوضح كيفية التحقق من توقيع PDF وإضافة ترقيم Bates باستخدام C# و Aspose.PDF.
 
 ## موارد إضافية
 
