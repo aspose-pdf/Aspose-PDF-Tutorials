@@ -62,7 +62,7 @@
 ### [แปลง PDF เป็น EMF ด้วย Aspose.PDF สำหรับ .NET](./convert-pdf-to-emf-aspose-dotnet/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.PDF Net
 
-### [แปลง PDF เป็น HTML โดยใช้ Aspose.PDF สำหรับ .NET: คำแนะนำเกี่ยวกับเอาต์พุตสตรีม](./convert-pdf-html-aspose-dotnet-guide/)
+### [แปลง PDF เป็น HTML โดยใช้ Aspose.PDF สำหรับ .NET: คำแนะนำเกี่ยวกับเอาต์พุตสตรีม](./convert-pdf-html-asposedotnet-guide/)
 เรียนรู้วิธีการแปลงไฟล์ PDF เป็น HTML ด้วย Aspose.PDF สำหรับ .NET โดยใช้เอาต์พุตสตรีม ปรับปรุงการบูรณาการและการเข้าถึงเว็บของคุณ
 
 ### [แปลง PDF เป็น HTML ใน .NET โดยใช้ Aspose.PDF โดยไม่ต้องบันทึกภาพ](./convert-pdf-html-net-asposepdf-no-images/)
@@ -192,7 +192,7 @@
 เรียนรู้วิธีแปลงไฟล์ PDF เป็นรูปแบบ PostScript โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ เหมาะอย่างยิ่งสำหรับความต้องการการพิมพ์คุณภาพสูง
 
 ### [วิธีแปลง PDF เป็น TIFF โดยใช้ Aspose.PDF สำหรับ .NET: คำแนะนำทีละขั้นตอน](./convert-pdf-to-tiff-aspose-net/)
-เรียนรู้วิธีแปลงไฟล์ PDF เป็นรูปภาพ TIFF คุณภาพสูงโดยใช้ Aspose.PDF สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราซึ่งมีตัวอย่างโค้ดและคำแนะนำในการกำหนดค่า
+เรียนรู้วิธีแปลงไฟล์ PDF เป็นรูปภาพ TIFF คุณภาพสูงโดยใช้ Aspose.PDF สำหรับ .NET ปฏิบัติตามคำแนะนำของเราซึ่งมีตัวอย่างโค้ดและคำแนะนำในการกำหนดค่า
 
 ### [วิธีแปลง PDF เป็น XML โดยใช้ Aspose.PDF สำหรับ .NET: คำแนะนำทีละขั้นตอน](./pdf-to-xml-conversion-aspose-pdf-net/)
 เรียนรู้ศิลปะการแปลงเอกสาร PDF เป็น XML ด้วย Aspose.PDF สำหรับ .NET ปฏิบัติตามคำแนะนำที่ครอบคลุมนี้เพื่อปรับปรุงการจัดการเอกสารของคุณ
@@ -223,6 +223,9 @@
 
 ### [การแปลง PDF เป็น HTML ด้วย Aspose.PDF สำหรับ .NET](./pdf-to-html-conversion-aspose-dot-net/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.PDF Net
+
+### [แปลง PDF เป็น HTML และตรวจสอบลายเซ็น PDF – คู่มือเต็ม Aspose .NET](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
+เรียนรู้วิธีแปลง PDF เป็น HTML และตรวจสอบลายเซ็น PDF อย่างละเอียดด้วย Aspose.PDF สำหรับ .NET
 
 ### [การแปลง PDF เป็น TIFF ใน .NET โดยใช้ Aspose.PDF: คำแนะนำทีละขั้นตอน](./pdf-to-tiff-conversion-aspose-pdf-net/)
 เรียนรู้วิธีการแปลงเอกสาร PDF เป็นภาพ TIFF โดยใช้ Aspose.PDF สำหรับ .NET เชี่ยวชาญความลึกสีที่กำหนดเองและเทคนิคการประมวลผลภาพขั้นสูง
