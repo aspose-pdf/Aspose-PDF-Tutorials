@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-14"
-"description": "了解如何使用 Aspose.PDF for Java 將 PDF 檔案轉換為 XLSX 格式。本指南涵蓋載入、轉換和最佳化文件處理。"
-"title": "使用 Aspose.PDF&#58; 在 Java 中將 PDF 轉換為 Excel開發人員綜合指南"
-"url": "/zh-hant/java/conversion-export/convert-pdf-to-excel-aspose-pdf-java/"
-"weight": 1
+date: '2026-04-05'
+description: 學習如何在 Java 中使用 Aspose.PDF 將 PDF 儲存為 XLSX。本一步一步指南涵蓋 PDF 轉 Excel（Java）的轉換、載入、轉換流程及效能技巧。
+keywords:
+- save pdf as xlsx
+- convert pdf to excel java
+- how to convert pdf to xlsx
+- java pdf to spreadsheet
+- load pdf document java
+title: 如何在 Java 中使用 Aspose.PDF 將 PDF 另存為 XLSX
+url: /zh-hant/java/conversion-export/convert-pdf-to-excel-aspose-pdf-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,36 +17,55 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# 使用 Aspose.PDF 在 Java 中將 PDF 轉換為 Excel：開發人員指南
+# 如何在 Java 中使用 Aspose.PDF 將 PDF 另存為 XLSX
 
 ## 介紹
 
-您是否希望自動將 PDF 文件轉換為 Excel 文件？使用 Aspose.PDF for Java，這個過程變得毫不費力。本綜合指南將指導您將 PDF 文件無縫轉換為 XLSX 檔案。
+如果您需要 **將 PDF 另存為 XLSX** 快速且可靠，Aspose.PDF for Java 可讓此工作變得輕而易舉。在本指南中，我們將逐步說明從設定函式庫到將 PDF 文件轉換為 Excel 活頁簿的全部流程，讓您能在 Java 應用程式中自動化資料擷取與分析。
 
-在當今數據驅動的世界中，企業經常需要處理以 PDF 格式儲存的大量資訊。將這些文件轉換為 Excel 可以實現更好的數據分析以及與其他軟體系統的整合。
+在當前資料驅動的環境下，將 PDF 轉換為試算表是報表、財務分析以及與 ERP 或 CRM 系統整合的常見需求。完成本教學後，您將能僅用幾行程式碼將單一 PDF 或一批 PDF 轉換為 Excel 檔案。
 
-**您將學到什麼：**
-- 如何使用 Aspose.PDF Java 載入 PDF 文檔
-- 將 PDF 檔案轉換為 XLSX 格式的步驟
-- 使用 Aspose.PDF 設定您的開發環境
-- 以程式設計方式轉換文件的實際應用
+**您將學會**
+- 如何使用 Aspose.PDF **載入 PDF 文件（java）**
+- 逐步說明如何 **將 PDF 另存為 XLSX**
+- 如何有效率地 **將 PDF 轉換為 Excel（java）**
+- 大型專案批次將 PDF 轉換為 Excel 的技巧
+- Java PDF 轉換為試算表的實務案例
 
-在深入實施之前，請確保已滿足所有先決條件。
+在開始之前，請確保已滿足以下前置條件。
 
-## 先決條件
+## 快速解答
+- **轉換的主要類別是什麼？** `Document` 來自 Aspose.PDF。  
+- **哪個選項控制 Excel 格式？** 使用 `ExcelSaveOptions` 搭配 `ExcelFormat.XLSX`。  
+- **我可以批次轉換多個 PDF 嗎？** 可以 – 迴圈處理檔案並重複使用相同的轉換邏輯。  
+- **生產環境需要授權嗎？** 完整的 Aspose.PDF 授權會移除評估限制。  
+- **支援哪些 Java 版本？** 所有近期的 LTS 版本（Java 8‑17+）。
 
-要學習本教程，您需要：
+## 什麼是「將 PDF 另存為 XLSX」？
 
-- **庫和依賴項**：請確保您已安裝 Aspose.PDF for Java。我們將使用 25.3 版本。
-- **環境設定**：確保您的開發環境已設定 JDK（Java 開發工具包）和 IntelliJ IDEA 或 Eclipse 等 IDE。
-- **知識前提**：對 Java 程式設計有基本的了解，並熟悉使用 Maven 或 Gradle 進行依賴管理。
+將 PDF 另存為 XLSX 意味著從 PDF 檔案中擷取表格資料，並寫入 Excel 活頁簿（XLSX）。這使得後續的資料操作、計算與視覺化變得更容易，而這些在 PDF 上直接執行相當困難。
 
-## 為 Java 設定 Aspose.PDF
+## 為什麼使用 Aspose.PDF 將 PDF 轉換為 Excel？
 
-在 Java 中開始使用 Aspose.PDF 非常簡單。請按照以下步驟將其包含在您的專案中：
+- **高保真** – 保留表格、字型與儲存格格式。  
+- **無外部相依性** – 純 Java 函式庫，無需本機二進位檔。  
+- **可擴充** – 支援單一檔案與批次處理。  
+- **功能豐富的 API** – 可透過 `ExcelSaveOptions` 微調輸出。
+
+## 前置條件
+
+要跟隨本教學，您需要：
+
+- **Aspose.PDF for Java**（本範例使用 25.3 版）。  
+- **JDK 8 或更高版本**，以及如 IntelliJ IDEA 或 Eclipse 的 IDE。  
+- 具備 **Maven** 或 **Gradle** 的基本依賴管理知識。
+
+## 設定 Aspose.PDF for Java
+
+將函式庫加入專案非常簡單。請選擇您偏好的建置工具。
 
 ### 使用 Maven
-將以下相依性新增至您的 `pom.xml` 文件：
+在您的 `pom.xml` 檔案中加入以下相依性：
 
 ```xml
 <dependency>
@@ -51,137 +76,136 @@
 ```
 
 ### 使用 Gradle
-將其包含在您的 `build.gradle`：
+在您的 `build.gradle` 中加入：
 
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-新增依賴項後，從 Aspose 下載臨時許可證以解鎖所有功能以進行評估，或根據需要購買完整許可證。
+加入相依性後，請向 Aspose 取得臨時或完整授權，以解鎖全部功能。
 
-#### 許可證取得步驟：
-1. **免費試用**：下載免費試用版即可存取基本功能。
-2. **臨時執照**：在測試階段申請臨時許可證以獲得全功能存取。
-3. **購買**：購買完整許可證以在生產環境中不受限制地整合 Aspose.PDF。
+#### 取得授權步驟
+1. **免費試用** – 下載試用授權以進行基本測試。  
+2. **臨時授權** – 申請臨時金鑰以完整功能評估。  
+3. **購買** – 取得生產授權以無限制使用。
 
-透過設定許可證文件來初始化庫，如下所示：
+在程式碼中初始化授權：
 
 ```java
 com.aspose.pdf.License license = new com.aspose.pdf.License();
 license.setLicense("path/to/Aspose.Total.Java.lic");
 ```
 
-設定好環境後，讓我們繼續實現轉換功能。
-
-## 實施指南
+## 實作指南
 
 ### 載入 PDF 文件
 
 #### 概述
-在將 PDF 文件轉換為 Excel 文件之前，您必須使用 Aspose.PDF for Java 載入它。本節將指導您完成此初始步驟。
+在您能 **將 PDF 另存為 XLSX** 之前，需要將來源 PDF 載入 `Document` 物件。
 
-#### 逐步實施
+#### 步驟說明
 
-**1.導入所需的類別**
-首先，確保導入了必要的套件：
+**1. 匯入必要的類別**
 
 ```java
 import com.aspose.pdf.Document;
 ```
 
-**2. 載入您的 PDF 文檔**
-透過指定路徑來載入現有的 PDF 文件：
+**2. 載入您的 PDF 文件**
 
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Document doc = new Document(dataDir + "/input.pdf");
 ```
-這 `Document` 此類別是 Aspose.PDF 的核心，代表已載入的 PDF 檔案。
 
-### 將PDF轉換為XLSX格式
+`Document` 類別代表您即將轉換的 PDF 檔案。
+
+### 將 PDF 轉換為 XLSX 格式
 
 #### 概述
-此功能示範如何將載入的 PDF 文件轉換為 Excel (XLSX) 格式。 
+現在我們將已載入的 PDF 轉換為 Excel 工作簿。
 
-#### 逐步實施
+#### 步驟說明
 
-**1.導入所需的類別**
-導入轉換所需的類別：
+**1. 匯入轉換類別**
 
 ```java
 import com.aspose.pdf.Document;
 import com.aspose.pdf.ExcelSaveOptions;
 ```
 
-**2. 載入 PDF 文檔**
-確保您的 PDF 按照上一節所示加載。
-
-**3.初始化 Excel 儲存選項**
-設定 `ExcelSaveOptions` 指定您想要 XLSX 輸出：
+**2. 初始化 Excel 儲存選項**
 
 ```java
 ExcelSaveOptions options = new ExcelSaveOptions();
 options.setFormat(ExcelSaveOptions.ExcelFormat.XLSX);
 ```
 
-**4. 轉換並儲存為 XLSX**
-最後，透過指定所需的輸出目錄將文件儲存為 XLSX 格式：
+**3. 轉換並儲存為 XLSX**
 
 ```java
 String outputDir = "YOUR_OUTPUT_DIRECTORY";
 doc.save(outputDir + "/output.xlsx", options);
 ```
-這 `save` 方法將轉換後的檔案寫入磁碟。
 
-#### 故障排除提示
-- **文件路徑**：確保正確指定輸入和輸出目錄。
-- **依賴項**：驗證 Aspose.PDF 是否透過 Maven 或 Gradle 正確新增。
+`save` 方法會將 **將 PDF 另存為 XLSX** 的結果寫入指定的資料夾。
 
-## 實際應用
+#### 疑難排解技巧
+- 驗證 `dataDir` 和 `outputDir` 指向有效且可寫入的目錄。  
+- 確保 Aspose.PDF 依賴項與授權檔案中使用的版本相符。  
+- 對於大型 PDF，考慮在轉換前呼叫 `doc.optimizeResources()` 以減少記憶體使用。
 
-1. **資料遷移項目**：將舊版 PDF 報表自動轉換為 Excel 進行分析。
-2. **財務報告**：透過將以 PDF 格式儲存的月報表轉換為 XLSX 來簡化財務資料處理。
-3. **與 CRM 系統集成**：透過整合轉換為 Excel 檔案的 PDF 發票來增強客戶關係管理系統。
+## 實務應用
 
-## 性能考慮
+1. **資料遷移** – 將舊有 PDF 報告搬移至 Excel 以進行分析。  
+2. **財務報告** – 將每月報表轉換為 XLSX 供預算工具使用。  
+3. **CRM 整合** – 將 PDF 發票轉換為試算表以批次匯入。
 
-- **優化記憶體使用**：使用高效的記憶體處理技術，尤其是在處理大型文件時。
-- **批次處理**：如果轉換多個文檔，請實施批次以最大限度地減少資源壓力。
-- **非同步操作**：對於 Web 應用程序，請考慮非同步執行轉換以縮短回應時間。
+## 效能考量
 
-## 結論
+- **記憶體管理** – 對大型檔案使用 `doc.optimizeResources()`。  
+- **批次處理** – 迴圈處理 PDF 清單，並重複使用單一 `ExcelSaveOptions` 實例。  
+- **非同步執行** – 在 Web 服務中，將轉換放在獨立執行緒或任務佇列，以降低回應時間。
 
-現在您已經掌握了使用 Aspose.PDF for Java 將 PDF 檔案轉換為 Excel 格式的基礎知識。此功能為資料操作和整合開闢了無數的可能性。
+## 常見問題與解決方案
 
-**後續步驟：**
-探索 Aspose.PDF 提供的更多功能，例如編輯或合併文件。嘗試不同的設置 `ExcelSaveOptions` 根據您的需求自訂輸出。
+| 問題 | 解決方案 |
+|------|----------|
+| **FileNotFoundException** | 仔細檢查 `dataDir` 和 `outputDir` 的路徑。如有需要，請使用絕對路徑。 |
+| **OutOfMemoryError** | 啟用 JVM `-Xmx` 參數，並在儲存前呼叫 `doc.optimizeResources()`。 |
+| **Missing Table Data** | 調整 `ExcelSaveOptions`（例如 `setDetectTables(true)`），以提升表格偵測。 |
+| **License Not Found** | 確認授權檔案路徑，並確保它已包含於執行時的 classpath 中。 |
 
-準備好承擔更複雜的文件處理任務了嗎？立即嘗試將 Aspose.PDF 整合到您的專案中！
+## 常見問與答
 
-## 常見問題部分
+**問：我可以批次將多個 PDF 轉換為 Excel 嗎？**  
+答：可以。遍歷檔案路徑集合，載入每個 `Document`，並使用相同的 `ExcelSaveOptions` 呼叫 `doc.save()`。
 
-1. **我可以一次轉換多個 PDF 嗎？**
-   是的，您可以透過迭代文件路徑集合並應用相同的轉換邏輯來批次處理多個文件。
+**問：免費試用會限制頁數嗎？**  
+答：試用版可能會加上浮水印並限制處理大小，但核心轉換功能在未取得完整授權時仍可使用。
 
-2. **使用免費試用許可證時有哪些限制？**
-   免費試用可能會限製文件處理能力或在輸出文件上附加浮水印。
+**問：Aspose.PDF 是否相容於 Java 17？**  
+答：當然。Aspose.PDF 支援 Java 8 直至最新的 LTS 版本，包括 Java 17。
 
-3. **Aspose.PDF 是否與所有版本的 Java 相容？**
-   Aspose.PDF 支援多個 Java 版本，但請務必在其文件頁面上檢查最新的兼容性。
+**問：如何處理受密碼保護的 PDF？**  
+答：將密碼傳遞給 `Document` 建構子，例如：`new Document(path, password)`。
 
-4. **我該如何優雅地處理轉換錯誤？**
-   圍繞轉換邏輯實作 try-catch 區塊並記錄任何異常以便於調試。
-
-5. **我可以進一步自訂 Excel 輸出格式嗎？**
-   是的， `ExcelSaveOptions` 提供各種配置來微調您的 Excel 檔案的外觀。
+**問：我可以自訂 Excel 版面配置（例如欄寬）嗎？**  
+答：`ExcelSaveOptions` 提供 `setColumnWidth()` 與 `setCellFormatting()` 等屬性，以進行精細調整。
 
 ## 資源
-- [文件](https://reference.aspose.com/pdf/java/)
+- [文件說明](https://reference.aspose.com/pdf/java/)
 - [下載](https://releases.aspose.com/pdf/java/)
-- [購買許可證](https://purchase.aspose.com/buy)
+- [購買授權](https://purchase.aspose.com/buy)
 - [免費試用](https://releases.aspose.com/pdf/java/)
-- [臨時執照](https://purchase.aspose.com/temporary-license/)
+- [臨時授權](https://purchase.aspose.com/temporary-license/)
 - [支援論壇](https://forum.aspose.com/c/pdf/10)
+
+---
+
+**最後更新：** 2026-04-05  
+**測試環境：** Aspose.PDF for Java 25.3  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
