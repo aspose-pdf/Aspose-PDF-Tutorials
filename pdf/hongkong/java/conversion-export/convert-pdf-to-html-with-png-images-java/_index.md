@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-14"
-"description": "了解如何使用 Aspose.PDF for Java 將 PDF 轉換為嵌入 PNG 圖片的 HTML 格式，確保高品質的視覺效果和跨平台相容性。"
-"title": "使用 Aspose.PDF 在 Java 中將 PDF 轉換為 HTML 格式並嵌入 PNG 圖片"
-"url": "/zh-hant/java/conversion-export/convert-pdf-to-html-with-png-images-java/"
-"weight": 1
+date: '2026-04-05'
+description: 學習如何在 Java 中使用 Aspose.PDF 將 PDF 轉換為 HTML 時嵌入 PNG 圖像。本分步指南涵蓋 PDF 轉 HTML
+  的轉換，並確保高品質的視覺效果。
+keywords:
+- how to embed png
+- convert pdf to html
+- pdf to html java
+- aspose pdf java
+- batch convert pdf html
+title: 如何使用 Aspose.PDF for Java 從 PDF 將 PNG 圖片嵌入 HTML
+url: /zh-hant/java/conversion-export/convert-pdf-to-html-with-png-images-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,31 +18,38 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# 如何使用 Aspose.PDF for Java 將 PDF 轉換為 HTML，而無需將圖片儲存為 SVG
+# 如何在 HTML 中嵌入 PNG 圖像（來自 PDF） Aspose.PDF Java
 
 ### 介紹
 
-如果處理不當，將 PDF 文件轉換為 HTML 可能會導致影像品質問題。本指南示範如何使用 Aspose.PDF for Java 將 PDF 檔案轉換為 HTML，同時將圖片嵌入為 PNG，以確保更好的相容性和視覺一致性。
+將 PDF 文件轉換為 HTML 時，如果處理不當，可能會出現圖像品質問題。在本教學中，您將學會 **如何在使用 Aspose.PDF for Java 進行 PDF 轉 HTML 時嵌入 PNG 圖像**，確保高品質的視覺效果與廣泛的瀏覽器相容性。
 
-在本教程中，您將學習：
-- 如何使用 Aspose.PDF for Java 設定您的環境
-- 配置 PDF 到 HTML 轉換的步驟
-- Aspose.PDF 中 HTML 儲存選項的主要功能
-- 實際應用和性能考慮
+在本指南中，您將學習：
+- 如何使用 Aspose.PDF for Java 設定開發環境  
+- 使用 PNG 光柵化配置 **PDF 轉 HTML** 的步驟  
+- Aspose.PDF 中 HTML 儲存選項的主要功能  
+- 實務應用、效能技巧與常見陷阱  
 
-讓我們來探索如何輕鬆轉換您的 PDF！
+讓我們一起輕鬆轉換 PDF！
 
-### 先決條件
+## 快速解答
+- **「嵌入 PNG」是什麼意思？** 它會將 PNG 圖像資料直接存放在產生的 HTML 檔案內。  
+- **需要哪個函式庫？** Aspose.PDF for Java（建議使用最新版本）。  
+- **需要授權嗎？** 免費試用可用於測試；正式上線需購買商業授權。  
+- **可以批次轉換多個 PDF 嗎？** 可以，只需在迴圈中處理檔案並重複使用相同的轉換程式碼。  
+- **輸出是否具備響應式設計？** 固定版面配置會保留原始外觀，之後可自行加入 CSS 以實現響應式。
 
-在開始之前，請確保您已：
-- **Java 開發工具包 (JDK)**：Java 8 或更高版本。
-- **Maven/Gradle**：用於依賴管理。
-- **Aspose.PDF for Java 函式庫**：版本 25.3 或更高版本。
-- Java 程式設計和 XML 配置的基本知識。
+### 前置條件
 
-### 為 Java 設定 Aspose.PDF
+開始之前，請確保您已具備：
+- **Java Development Kit (JDK)**：Java 8 或更新版本。  
+- **Maven 或 Gradle**：用於相依性管理。  
+- **Aspose.PDF for Java**：版本 25.3 或更新（或最新發行版）。  
+- 基本的 Java 程式設計與 XML 設定知識。
 
-若要開始使用 Aspose.PDF，請將其作為依賴項新增至專案的建置檔案。
+### 設定 Aspose.PDF for Java
+
+在專案中將函式庫加入相依性。
 
 **Maven**
 ```xml
@@ -51,100 +65,121 @@
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-#### 許可證獲取
+#### 授權取得
 
-要使用 Aspose.PDF，您可以先免費試用，也可以取得臨時授權以進行評估。為了繼續使用，建議購買訂閱。
+您可以先使用免費試用版，或取得臨時評估授權。正式環境請購買完整授權。
 
-- **免費試用**： [Aspose PDF免費下載](https://releases.aspose.com/pdf/java/)
-- **臨時執照**： [取得臨時許可證](https://purchase.aspose.com/temporary-license/)
+- **免費試用**： [Aspose PDF 免費下載](https://releases.aspose.com/pdf/java/)  
+- **臨時授權**： [取得臨時授權](https://purchase.aspose.com/temporary-license/)
 
-### 實施指南
+### 實作指南
 
-設定好環境後，請依照下列步驟將 PDF 轉換為 HTML，同時將圖片嵌入為 PNG。
+環境就緒後，請依照以下步驟 **將 PDF 轉換為 HTML** 並嵌入 PNG 圖像。
 
-#### 將 PDF 轉換為嵌入 PNG 影像的 HTML
+#### 步驟 1：開啟來源 PDF 文件
 
-**1.開啟來源PDF文檔**
+使用 Aspose.PDF 載入 PDF 檔案至記憶體：
 
-使用 Aspose.PDF 將 PDF 文件載入到記憶體中：
 ```java
 import com.aspose.pdf.Document;
 
 String dataDir = "YOUR_DOCUMENT_DIRECTORY/input.pdf";
 Document pdfDocument = new Document(dataDir);
 ```
-確保您的路徑正確指向您的 PDF 所在的位置。
 
-**2.配置HTML保存選項**
+請確認 `dataDir` 指向 PDF 的實際位置。
 
-配置轉換如何處理影像和佈局：
+#### 步驟 2：設定 HTML 儲存選項以 PNG 光柵化
+
+設定轉換選項，使圖像以嵌入的 PNG 部分儲存：
+
 ```java
 import com.aspose.pdf.HtmlSaveOptions;
 
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-// 透過固定佈局保持視覺一致性
+// Preserve the original layout
 saveOptions.setFixedLayout(true);
-// 將圖像以 PNG 格式嵌入到頁面背景中，而不是 SVG 格式
-saveOptions.setRasterImagesSavingMode(HtmlSaveOptions.RasterImagesSavingModes.AsEmbeddedPartsOfPngPageBackground);
+// Embed images as PNG instead of SVG
+saveOptions.setRasterImagesSavingMode(
+    HtmlSaveOptions.RasterImagesSavingModes.AsEmbeddedPartsOfPngPageBackground);
 ```
-這 `setFixedLayout(true)` 確保 HTML 反映 PDF 的視覺結構。這裡的關鍵方法， `setRasterImagesSavingMode`，指示 Aspose.PDF 將圖片嵌入為 PNG，避免使用可能無法在各個瀏覽器中一致呈現的 SVG 格式。
 
-**3.儲存轉換後的HTML文件**
+`setFixedLayout(true)` 旗標會讓 HTML 版面與 PDF 完全相同，而光柵圖像模式則確保 PNG 嵌入。
 
-使用您指定的選項將文件儲存為 HTML 格式：
+#### 步驟 3：儲存轉換後的 HTML 檔案
+
+將 HTML 輸出寫入磁碟：
+
 ```java
 String outputDir = "YOUR_OUTPUT_DIRECTORY/converted_file.html";
 pdfDocument.save(outputDir, saveOptions);
 ```
-這會將轉換後的檔案儲存到您想要的位置，並保留嵌入的 PNG 映像。
 
-### 實際應用
+最終產生的 HTML 檔案會直接在頁面原始碼中嵌入 PNG 圖像。
 
-將 PDF 轉換為 HTML 在各種情況下都有益處：
-1. **網路發布**：無需下載即可在網站上顯示文件。
-2. **電子商務**：直接在平台上展示產品手冊或指南。
-3. **內容管理系統**：整合文件內容，提高可訪問性。
-4. **存檔和共享**：透過 HTML 格式共用文檔，同時保持視覺保真度。
+### 為什麼使用此方法？（如何將 PDF 轉換為高品質圖像的 HTML）
 
-### 性能考慮
+相較於 SVG，嵌入 PNG 圖像具備以下優勢：
+- **在所有瀏覽器（包括舊版）上都有一致的渲染效果**。  
+- **可更精確控制圖像壓縮與色彩深度**。  
+- **部署更簡單**——不需要額外的外部圖像檔案。
 
-轉換大型 PDF 時，請考慮以下技巧來優化效能：
-- 在 Java 中使用高效率的記憶體管理技術。
-- 針對非常大的檔案調整 JVM 設定。
-- 利用 Aspose.PDF 的功能來處理複雜文件。
+### 常見使用情境
 
-透過遵循資源使用和 Java 記憶體管理的最佳實踐，您可以確保順利轉換。
+1. **Web 發佈** – 直接在網頁上顯示 PDF，避免強制下載。  
+2. **電商說明書** – 將產品說明直接嵌入商品頁面。  
+3. **內容管理系統** – 將文件以 HTML 形式儲存，方便搜尋。  
+4. **批次轉換** – 自動化大量文件庫的轉換工作。
+
+### 效能考量（PDF 轉 HTML Java）
+
+處理大型 PDF 時，請留意以下建議：
+- 使用串流 API 或 `Document.optimizeResources()` 以降低記憶體佔用。  
+- 依檔案大小調整 JVM 堆積大小（`-Xmx`）。  
+- 若需 **批次轉換 PDF 為 HTML**，可順序處理或使用執行緒池，並重複使用同一個 `HtmlSaveOptions` 實例。
+
+### 疑難排解與常見陷阱
+
+- **圖像缺失** – 確認 `setRasterImagesSavingMode` 已設定為 `AsEmbeddedPartsOfPngPageBackground`。  
+- **版面變形** – 確保已啟用 `setFixedLayout(true)`。  
+- **記憶體不足** – 在儲存大型檔案前先呼叫 `pdfDocument.optimizeResources()`。
 
 ### 結論
 
-您已經了解如何使用 Aspose.PDF for Java 將 PDF 轉換為 HTML，同時將圖片嵌入為 PNG。這種方法可以確保跨平台有更好的兼容性和視覺一致性。探索 Aspose.PDF 的其他功能或將此解決方案整合到更大的工作流程中。
+現在您已掌握 **在使用 Aspose.PDF for Java 將 PDF 轉換為 HTML 時嵌入 PNG 圖像** 的方法。此方案提供可靠的視覺保真度與廣泛的瀏覽器支援，特別適合 Web 發佈、文件門戶與批次轉換流程。
 
-嘗試在您的下一個專案中實現此轉換並體驗無縫文件轉換！
+立即在您的下一個專案中試試看，體驗無縫的 PDF‑to‑HTML 轉換！
 
-### 常見問題部分
+## 常見問答
 
-**Q：我可以一次將多個 PDF 轉換為 HTML 嗎？**
-答：是的，遍歷 PDF 文件列表並對每個文件應用相同的轉換過程。
+**Q: 可以一次轉換多個 PDF 為 HTML 嗎？**  
+A: 可以。遍歷 PDF 檔案路徑集合，對每個文件套用相同的轉換邏輯。
 
-**Q：如果轉換後的 HTML 看起來不正確怎麼辦？**
-答：確保 `setFixedLayout(true)` 在您的儲存選項中設定。這保留了 PDF 的原始佈局。
+**Q: 若轉換後的 HTML 看起來不正確，該怎麼辦？**  
+A: 再次確認已啟用 `setFixedLayout(true)`，此設定會保留原始 PDF 版面。
 
-**Q：如何有效地處理大型文件？**
-答：使用 Aspose.PDF 的記憶體管理設置，並考慮在必要時分解非常大的檔案。
+**Q: 如何有效處理極大型文件？**  
+A: 使用 `Document.optimizeResources()`，必要時將 PDF 拆分為較小的片段再進行轉換。
 
-**Q：我可以進一步修改輸出 HTML 嗎？**
-答：是的，轉換後使用標準 Web 技術或函式庫來處理產生的 HTML。
+**Q: 產生的 HTML 可以再進一步編輯嗎？**  
+A: 當然可以。轉換完成後，您可使用任何標準的網頁工具或程式庫對 HTML 進行修改。
 
-**Q：有沒有辦法不用編碼就能試用 Aspose.PDF？**
-答：使用 Aspose 的線上工具進行基本轉換，並瀏覽文件以了解更進階的用途。
+**Q: 有不寫程式就能試用 Aspose.PDF 的方式嗎？**  
+A: 有，Aspose 提供線上轉換工具，可快速、免程式碼測試。
 
 ### 資源
-- **文件**： [Aspose PDF Java 參考](https://reference.aspose.com/pdf/java/)
-- **下載**： [Aspose PDF 發布](https://releases.aspose.com/pdf/java/)
-- **購買**： [購買 Aspose 許可證](https://purchase.aspose.com/buy)
-- **免費試用**： [Aspose PDF免費下載](https://releases.aspose.com/pdf/java/)
-- **臨時執照**： [取得臨時許可證](https://purchase.aspose.com/temporary-license/)
+- **文件說明**： [Aspose PDF Java 參考文件](https://reference.aspose.com/pdf/java/)  
+- **下載**： [Aspose PDF 版本下載](https://releases.aspose.com/pdf/java/)  
+- **購買**： [購買 Aspose 授權](https://purchase.aspose.com/buy)  
+- **免費試用**： [Aspose PDF 免費下載](https://releases.aspose.com/pdf/java/)  
+- **臨時授權**： [取得臨時授權](https://purchase.aspose.com/temporary-license/)  
 - **支援**： [Aspose 支援論壇](https://forum.aspose.com/c/pdf/10)
+
+---
+
+**最後更新：** 2026-04-05  
+**測試環境：** Aspose.PDF for Java 25.3（撰寫時的最新版本）  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
