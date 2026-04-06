@@ -30,6 +30,7 @@ Aspose.PDF の .NET 向けチュートリアル「スタンプと透かしを使
 | [スタンプ注釈からテキストを抽出する](./extract-text-from-stamp-annotation/) このステップバイステップのチュートリアルでは、詳細なコード例を使用して、Aspose.PDF for .NET を使用して PDF 内のスタンプ注釈からテキストを抽出する方法を学習します。 |  
 | [PDFファイル内のストロークテキストの塗りつぶし](./fill-stroke-text/) 実用的な例が満載のステップバイステップ ガイドで、Aspose.PDF for .NET を使用して PDF ファイルにストローク テキストを簡単に入力する方法を学びます。 |  
 | [PDFファイルから透かしを取得する](./get-watermark/) Aspose.PDF for .NET を使用してPDFファイルから透かしを抽出する方法をステップバイステップで解説します。透かし抽出の詳細なチュートリアルです。 |  
+| [C# で PDF に透かしを追加する – Aspose 完全ガイド](./add-watermark-pdf-in-c-complete-guide-with-aspose/) Aspose.PDF for .NET を使用して C# で PDF に透かしを追加する方法を、ステップバイステップで解説します。 |  
 | [ヘッダーフッターセクションの画像とページ番号](./image-and-page-number-in-header-footer-section/) このステップバイステップのチュートリアルでは、Aspose.PDF for .NET を使用して PDF のヘッダーとフッターに画像とページ番号を追加する方法を学習します。 |  
 | [ヘッダーフッターセクションのインライン画像とページ番号](./image-and-page-number-in-header-footer-section-inline/) このステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF のヘッダー セクションに画像とページ番号をインラインで追加する方法を説明します。 |  
 | [フッター内の画像](./image-in-footer/) Aspose.PDF for .NET を使ってPDFのフッターに画像を追加する方法を、ステップバイステップで詳しく解説するチュートリアルで学びましょう。ドキュメントの見栄えを良くするのに最適です。 |  

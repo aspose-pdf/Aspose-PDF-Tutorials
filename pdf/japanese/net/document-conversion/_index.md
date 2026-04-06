@@ -29,11 +29,13 @@ Aspose.PDF の .NET 向けドキュメント変換チュートリアルでは、
 | [マークダウンからPDFへ](./markdown-to-pdf/) このステップバイステップのチュートリアルでは、Aspose.PDF for .NET を使用して Markdown を PDF に変換する方法を学びます。ドキュメント変換を効率化したい開発者に最適です。 |  
 | [MHTからPDFへ](./mht-to-pdf/) このステップバイステップのチュートリアルでは、Aspose.PDF for .NET を使用してMHTファイルをPDFに変換する方法を学びます。簡単かつ効率的なドキュメント変換を実現します。 |  
 | [画像サイズに応じたページの向き](./page-orientation-according-image-dimensions/) このステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF を作成し、画像のサイズに基づいてページの向きを設定する方法を学習します。 |  
+| [C#でJPGからPDFを作成 – クロッピングと新しいページの完全ガイド](./create-pdf-from-jpg-in-c-full-guide-with-cropping-and-new-pa/) このステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して C# で JPG 画像を PDF に変換し、クロッピングや新しいページの追加方法を学びます。 |  
 | [PCLからPDFへ](./pcl-to-pdf/) Aspose.PDF for .NET を使用してPCLファイルをPDFに変換する方法を、ステップバイステップで解説するガイドです。開発者にも企業にも最適です。 |  
 | [PDFAからPDFへ](./pdfa-to-pdf/) この包括的なステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF/A を PDF に変換する方法を学習します。 |  
 | [PDFからDOCへ](./pdf-to-doc/) Aspose.PDF for .NET を使用してPDFをDOCに変換する方法を、この包括的なガイドで学びましょう。ステップバイステップの説明とヒントも含まれています。 |  
 | [PDFからEPUBへ](./pdf-to-epub/) Aspose.PDF for .NET を使用してPDFをEPUBに変換する方法をステップバイステップで解説するチュートリアルです。開発者やコンテンツ作成者に最適です。 |  
-| [PDFからHTMLへ](./pdf-to-html/) Aspose.PDF for .NET を使用してPDFをHTMLに変換する方法をステップバイステップで解説します。開発者やコンテンツ作成者に最適です。 |  
+| [PDFからHTMLへ](./pdf-to-html/) Aspose.PDF for .NET を使用してPDFをHTMLに変換する方法をステップバイステップで解説します。開発者やコンテンツ作成者に最適です。 |
+| [Aspose.PDFでPDFをHTMLに保存 – ステップバイステップ C# ガイド](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) Aspose.PDF for .NET を使用して、PDF を HTML に変換し保存する方法をステップバイステップで解説します。 |
 | [PDFからPDFAへ](./pdf-to-pdfa/) このステップバイステップのチュートリアルで、Aspose.PDF for .NET を使用して PDF ファイルを PDF/A 形式に変換する方法を学習します。 |  
 | [PDFからPDFA3bへ](./pdf-to-pdfa3b/) このステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF ファイルを PDF/A-3B 形式に簡単に変換する方法を学習します。 |  
 | [PDFからPNGへのフォントヒント](./pdf-to-png-font-hinting/) Aspose.PDF for .NET を使用して、フォントヒント付きの PDF を PNG に変換する方法を簡単なステップバイステップ ガイドで学習します。 |  

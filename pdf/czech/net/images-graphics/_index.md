@@ -35,6 +35,9 @@ Naučte se, jak bez problémů převádět soubory SVG do vysoce kvalitních PDF
 ### [Vytváření a vyplňování obdélníků v PDF pomocí Aspose.PDF pro .NET: Podrobný návod](./create-fill-rectangle-aspose-pdf-net/)
 Naučte se, jak vytvářet a vyplňovat obdélníky v PDF dokumentech pomocí Aspose.PDF pro .NET. Tato podrobná příručka pokrývá vše od nastavení až po implementaci v C#.
 
+### [Přidání obdélníku do PDF v C# – Kompletní průvodce Aspose PDF](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+Naučte se, jak pomocí Aspose.PDF pro .NET v C# přidat obdélník do PDF dokumentu.
+
 ### [Vytvořte si vlastní PDF razítka s Aspose.PDF v .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Výukový program pro kódování Aspose.PDF Net
 
