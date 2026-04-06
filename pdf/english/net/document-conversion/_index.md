@@ -50,6 +50,7 @@ You'll learn how to specify conversion settings, extract text and images, retain
 | [Remove Hyperlinks After Converting From Html](./remove-hyperlinks-after-converting-from-html/) | Learn how to remove hyperlinks from HTML documents after converting to PDF using Aspose.PDF for .NET in this step-by-step guide. |  
 | [Replace Missing Fonts](./replace-missing-fonts/) | Learn how to replace missing fonts in PDF documents using Aspose.PDF for .NET with this step-by-step guide. |  
 | [Set Default Font Name](./set-default-font-name/) | Learn how to set a default font name when rendering PDFs to images using Aspose.PDF for .NET. This guide covers prerequisites, step-by-step instructions, and FAQs. |  
+| [Save PDF as HTML with Aspose.PDF – Step‑by‑Step C# Guide](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) | Learn how to save PDF as HTML using Aspose.PDF for .NET in this step‑by‑step C# guide. |
 | [SVG To PDF](./svg-to-pdf/) | Learn how to convert SVG to PDF using Aspose.PDF for .NET in this step-by-step tutorial. Perfect for developers and designers. |  
 | [TeX To PDF](./tex-to-pdf/) | Learn how to convert TeX to PDF using Aspose.PDF for .NET with this detailed, step-by-step guide. Perfect for developers and document professionals. |  
 | [Text To PDF](./text-to-pdf/) | Learn how to convert text files to PDF using Aspose.PDF for .NET in this step-by-step guide. Perfect for developers looking to enhance their applications. |  
@@ -58,6 +59,7 @@ You'll learn how to specify conversion settings, extract text and images, retain
 | [XML To PDF](./xml-to-pdf/) | Learn how to convert XML to PDF using Aspose.PDF for .NET in this comprehensive step-by-step tutorial, complete with code examples and detailed explanations. |  
 | [XML To PDFSet Image Path](./xml-to-pdfset-image-path/) | Learn how to effortlessly convert XML to PDF using Aspose.PDF for .NET. This detailed guide walks you through the process step by step, from setup to completion. |  
 | [XPS To PDF](./xps-to-pdf/) | Learn how to convert XPS files to PDF using Aspose.PDF for .NET with this step-by-step tutorial. Perfect for developers and document enthusiasts. |  
+| [Create PDF from JPG in C# – Full Guide with Cropping and New Pages](./create-pdf-from-jpg-in-c-full-guide-with-cropping-and-new-pa/) | Learn how to generate a PDF from JPG images in C#, including cropping images and adding new pages, using Aspose.PDF for .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

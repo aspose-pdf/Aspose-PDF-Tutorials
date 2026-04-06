@@ -35,6 +35,8 @@
 | [使用签名字段通过智能卡签名](./sign-with-smart-card-using-signature-field/) 了解如何使用 Aspose.PDF for .NET 的智能卡安全地签署 PDF。按照我们的分步指南，轻松实现。|  
 | [在 C# 中检查 PDF 签名 – 如何读取已签名的 PDF 文件](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) 了解如何使用 Aspose.PDF for .NET 在 C# 中读取已签名的 PDF 文件并检查签名信息。|  
 | [如何修复 PDF 文件 – 使用 Aspose.Pdf 的完整 C# 指南](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) 了解如何使用 Aspose.Pdf for .NET 在 C# 中修复受损的 PDF 文件，分步指南帮助您恢复文档完整性。|  
+| [PDF 签名提取教程 – 如何在 C# 中列出 PDF 签名](./pdf-signature-extraction-tutorial-how-to-list-pdf-signatures/) 了解如何使用 Aspose.PDF for .NET 在 C# 中提取并列出 PDF 文档的数字签名，分步指南帮助您快速实现。|  
+| [在 C# 中创建已签名 PDF – 步骤指南](./create-signed-pdf-in-c-step-by-step-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中创建并签署 PDF 文档，分步指导确保安全可靠。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
