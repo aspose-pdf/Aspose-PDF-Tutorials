@@ -37,9 +37,10 @@ Vous apprendrez à définir les paramètres de conversion, à extraire du texte 
 | [PDF vers PDFA](./pdf-to-pdfa/) Apprenez à convertir des fichiers PDF au format PDF/A à l'aide d'Aspose.PDF pour .NET avec ce didacticiel étape par étape. |  
 | [PDF vers PDFA3b](./pdf-to-pdfa3b/) | Apprenez à convertir des fichiers PDF au format PDF/A-3B sans effort avec Aspose.PDF pour .NET dans ce guide étape par étape. |
 | [Convertir PDF en PDF/X‑4 en C#](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Apprenez à convertir un PDF en PDF/X‑4 en C# avec Aspose.PDF pour .NET grâce à ce tutoriel ASP.NET étape par étape. |
+| [Ouvrir un document PDF C# – Convertir en PDF/X‑4 pour l'impression](./open-pdf-document-c-convert-to-pdf-x-4-for-printing/) | Apprenez à ouvrir un document PDF et le convertir en PDF/X‑4 pour l'impression avec Aspose.PDF pour .NET. |
 | [Conversion de polices PDF en PNG](./pdf-to-png-font-hinting/) | Apprenez à convertir un PDF en PNG avec indication de police à l'aide d'Aspose.PDF pour .NET dans un guide étape par étape simple. |  
 | [Tutoriel PDF vers PNG – Convertir des pages PDF en PNG en C#](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Apprenez à convertir chaque page d'un PDF en images PNG avec Aspose.PDF pour .NET en C#. |
-| [PDF en PPT](./pdf-to-ppt/) | Apprenez à convertir un PDF en PowerPoint avec Aspose.PDF pour .NET grâce à ce guide étape par étape. Simple, efficace et idéal pour les présentations. |  
+| [PDF en PPT](./pdf-to-ppt/) | Apprenez à convertir un PDF en PowerPoint avec Aspose.PDF pour .NET grâce à ce guide étape par étape. Simple, efficace et idéal pour présentations. |  
 | [PDF en SVG](./pdf-to-svg/) | Découvrez comment convertir des fichiers PDF au format SVG avec Aspose.PDF pour .NET grâce à ce tutoriel étape par étape. Idéal pour les développeurs et les designers. |  
 | [PDF vers TeX](./pdf-to-tex/) | Apprenez à convertir des PDF en TeX avec Aspose.PDF pour .NET grâce à un guide étape par étape. Idéal pour les développeurs souhaitant améliorer leurs compétences en traitement de documents. |  
 | [PDF vers XLS](./pdf-to-xls/) Convertissez facilement des fichiers PDF au format XLS avec Aspose.PDF pour .NET. Suivez notre guide étape par étape pour une extraction de données fluide. |  

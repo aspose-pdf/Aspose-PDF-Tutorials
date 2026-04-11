@@ -19,6 +19,7 @@ Este recurso incluye tutoriales sobre la programación con la función de docume
 ## Tutoriales
 | Título | Descripción |
 | --- | --- | 
+| [Abrir archivo PDF C# – Cómo reparar un PDF corrupto en minutos](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) Aprenda a reparar rápidamente archivos PDF dañados usando Aspose.PDF para .NET en C#.  
 | [Agregar Java Script a un archivo PDF](./addjavascripttopage/) Aprenda a añadir JavaScript a archivos PDF con Aspose.PDF para .NET. Guía paso a paso con tutoriales de código para scripting a nivel de documento y página.  
 | [Agregar capas a un archivo PDF](./addlayers/) Descubre cómo añadir capas a archivos PDF con Aspose.PDF para .NET. Esta guía paso a paso mejorará tus habilidades de manipulación de PDF.  
 | [Agregar o quitar Javascript a un documento PDF](./addremovejavascripttodoc/) Aprenda a agregar y eliminar JavaScript en documentos PDF con Aspose.PDF para .NET. Guía paso a paso con tutoriales de código para scripting a nivel de documento.  

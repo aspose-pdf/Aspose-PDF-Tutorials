@@ -58,6 +58,7 @@ The resource includes tutorials on the Aspose.PDF for .NET library's programming
 | [Validate PDF AB Standard](./validatepdfabstandard/) | Learn how to validate a PDF for PDF/A-1b standard using Aspose.PDF for .NET in this step-by-step tutorial. Ensure compliance for long-term archiving. |  
 | [Validate PDF Files A Standard](./validatepdfastandard/) | Learn how to validate PDF files against the PDF/A-1a standard using Aspose.PDF for .NET in this comprehensive step-by-step tutorial. |  
 | [Validate PDF UA Standard](./validatepdfuastandard/) | Learn how to validate a PDF for the PDF/UA accessibility standard using Aspose.PDF for .NET with our step-by-step guide and detailed explanations. |  
+| [Open PDF File C# – How to Repair a Corrupted PDF in Minutes](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | Learn how to open and repair a corrupted PDF using Aspose.PDF for .NET in C# quickly. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

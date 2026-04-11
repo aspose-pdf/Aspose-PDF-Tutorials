@@ -30,15 +30,16 @@ Az Aspose.PDF „Bélyegzők és vízjelek programozása” című .NET oktatóa
 | [Szöveg kinyerése a bélyegzőjegyzetből](./extract-text-from-stamp-annotation/) | Tanulja meg, hogyan kinyerhet szöveget egy PDF-ben lévő bélyegzőjegyzetből az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval, amely részletes kódpéldát is tartalmaz. |  
 | [Kitöltési körvonal szövege PDF fájlban](./fill-stroke-text/) | Tanuld meg, hogyan tölthetsz ki könnyedén körvonalas szöveget PDF fájlokban az Aspose.PDF for .NET segítségével ezzel a gyakorlati példákat is tartalmazó, lépésről lépésre szóló útmutatóval. |  
 | [Vízjel beszerzése PDF fájlból](./get-watermark/) | Tanulja meg, hogyan kinyerhet vízjeleket PDF fájlokból az Aspose.PDF for .NET segítségével egy lépésről lépésre szóló útmutatóval. Részletes útmutató a vízjel kinyeréséhez. |  
-| [Kép és oldalszám a fejléc és lábléc szakaszban](./image-and-page-number-in-header-footer-section/) Ebben a lépésről lépésre szóló útmutatóban megtudhatja, hogyan adhat hozzá képet és oldalszámokat PDF-je fejlécéhez és láblécéhez az Aspose.PDF for .NET használatával. |  
+| [Kép és oldalszám a fejléc és lábléc szakaszban](./image-and-page-number-in-header-footer-section/) Ebben a lépésről lépésre útmutatóban megtudhatja, hogyan adhat hozzá képet és oldalszámokat PDF-je fejlécéhez és láblécéhez az Aspose.PDF for .NET használatával. |  
 | [Kép és oldalszám a fejléc és lábléc szakaszban beágyazva](./image-and-page-number-in-header-footer-section-inline/) | Tanulja meg, hogyan adhat hozzá képet és oldalszámot egy PDF fejléc részéhez az Aspose.PDF for .NET használatával ebből a lépésről lépésre szóló útmutatóból. |  
 | [Kép a láblécben](./image-in-footer/) | Tanuld meg, hogyan adhatsz hozzá képet egy PDF láblécéhez az Aspose.PDF for .NET használatával ezzel a részletes, lépésről lépésre szóló útmutatóval. Tökéletes a dokumentumaid fejlesztéséhez. |  
-| [Kép a fejlécben](./image-in-header/) | Ebben a lépésről lépésre szóló útmutatóban megtudhatja, hogyan adhat hozzá képet egy PDF fejlécéhez az Aspose.PDF for .NET használatával. |  
+| [Kép a fejlécben](./image-in-header/) | Ebben a lépésről lépésre útmutatóban megtudhatja, hogyan adhat hozzá képet egy PDF fejlécéhez az Aspose.PDF for .NET használatával. |  
 | [Oldalszámozás fejlécben és láblécben lebegő doboz használatával](./page-number-in-header-footer-using-floating-box/) | Ebben a lépésről lépésre bemutatóban könnyedén hozzáadhat oldalszámokat a PDF fejlécéhez és láblécéhez egy lebegő doboz segítségével az Aspose.PDF for .NET segítségével. |  
 | [Oldalszámbélyegzők PDF fájlban](./page-number-stamps/) Tanulja meg, hogyan adhat hozzá oldalszámbélyegzőket PDF fájlokhoz az Aspose.PDF for .NET segítségével könnyen követhető útmutatónkból, amely kódpéldákat is tartalmaz. |  
 | [Táblázat a fejlécben, láblécben](./table-in-header-footer-section/) | Ismerje meg, hogyan adhat hozzá egyszerűen szöveget egy PDF fájl láblécéhez az Aspose.PDF for .NET segítségével. Lépésről lépésre útmutató a zökkenőmentes integrációhoz. |  
-| [Szöveg a PDF fájl láblécében](./text-in-footer/) | Ismerje meg, hogyan adhat hozzá szöveget a PDF fájlok láblécéhez az Aspose.PDF for .NET segítségével. |  
+| [Szöveg a PDF fájl láblécében](./text-in-footer/) | Ismerje meg, hogyan adhat hozzá szöveget a PDF fájlok láblécéhez az Aspose.PDF for .NET használatával. |  
 | [Szöveg a PDF fájl fejlécében](./text-in-header/) | Tanulja meg, hogyan adhat hozzá szöveges fejléceket PDF-ekhez az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Javítsa dokumentumai hatékonyságát és eredményességét. |  
+| [Bates-számozás hozzáadása PDF-ekhez C#-ban – Teljes útmutató](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Tanulja meg, hogyan alkalmazhat Bates-számozást PDF dokumentumokra C#-ban az Aspose.PDF for .NET segítségével. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -76,8 +76,12 @@ Tutorial kode untuk Aspose.PDF Net
 
 ### [Buat Dokumen PDF dengan Aspose.PDF – Tambahkan Halaman, Bentuk & Simpan](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Pelajari cara menambahkan halaman, bentuk, dan menyimpan dokumen PDF menggunakan Aspose.PDF.
+
 ### [Buat Dokumen PDF dengan Aspose.PDF – Panduan Langkah demi Langkah](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 Pelajari cara membuat dokumen PDF menggunakan Aspose.PDF dengan panduan langkah demi langkah yang mudah diikuti.
+
+### [Buat Dokumen PDF C# – Panduan Langkah demi Langkah untuk Menambahkan Halaman Kosong dan Menggambar Persegi Panjang](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
+Pelajari cara menambahkan halaman kosong dan menggambar persegi panjang dalam dokumen PDF menggunakan Aspose.PDF untuk .NET.
 
 ## Sumber Daya Tambahan
 
