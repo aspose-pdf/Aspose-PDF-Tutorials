@@ -58,6 +58,7 @@
 | [驗證 PDF AB 標準](./validatepdfabstandard/) |在本逐步教學中了解如何使用 Aspose.PDF for .NET 驗證 PDF 是否符合 PDF/A-1b 標準。確保長期存檔的合規性。 |  
 | [驗證 PDF 文件標準](./validatepdfastandard/) |在本全面的逐步教學中，了解如何使用 Aspose.PDF for .NET 根據 PDF/A-1a 標準驗證 PDF 檔案。 |  
 | [驗證 PDF UA 標準](./validatepdfuastandard/) |透過我們的逐步指南和詳細說明，了解如何使用 Aspose.PDF for .NET 驗證 PDF 是否符合 PDF/UA 可訪問性標準。 |  
+| [開啟 PDF 檔案 C# – 如何在數分鐘內修復損壞的 PDF](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) |了解如何使用 Aspose.PDF for .NET 於 C# 中快速修復受損的 PDF 檔案，步驟簡單且高效。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

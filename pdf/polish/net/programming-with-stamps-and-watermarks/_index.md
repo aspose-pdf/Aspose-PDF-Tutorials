@@ -31,7 +31,7 @@ Samouczki „Programowanie ze stemplami i znakami wodnymi” dla .NET firmy Aspo
 | [Wypełnij tekst obrysu w pliku PDF](./fill-stroke-text/) | Dowiedz się, jak bez wysiłku wypełniać tekst obrysowy w plikach PDF za pomocą Aspose.PDF dla platformy .NET dzięki temu przewodnikowi krok po kroku wypełnionemu praktycznymi przykładami. |  
 | [Pobierz znak wodny z pliku PDF](./get-watermark/) | Dowiedz się, jak wyodrębnić znaki wodne z plików PDF za pomocą Aspose.PDF dla .NET dzięki przewodnikowi krok po kroku. Szczegółowy samouczek dotyczący wyodrębniania znaków wodnych. |  
 | [Obraz i numer strony w sekcji nagłówka i stopki](./image-and-page-number-in-header-footer-section/) Dowiedz się, jak dodać obraz i numery stron do nagłówka i stopki pliku PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego samouczka krok po kroku. |  
-| [Obraz i numer strony w sekcji nagłówka i stopki w tekście](./image-and-page-number-in-header-footer-section-inline/) | Dowiedz się, jak dodać obraz i numer strony w sekcji nagłówka pliku PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego przewodnika krok po kroku. |  
+| [Obraz i numer strony w sekcji nagłówka i stopki w tekście](./image-and-page-number-in-header-footer-section-inline/) | Dowiedz się, jak dodać obraz i numer strony w sekcji nagłówka pliku PDF za pomocą tego przewodnika krok po kroku. |  
 | [Obraz w stopce](./image-in-footer/) | Dowiedz się, jak dodać obraz w stopce pliku PDF za pomocą Aspose.PDF dla .NET dzięki temu szczegółowemu samouczkowi krok po kroku. Idealne do ulepszania dokumentów. |  
 | [Obraz w nagłówku](./image-in-header/) | Dowiedz się, jak dodać obraz do nagłówka pliku PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego samouczka krok po kroku. |  
 | [Numer strony w nagłówku i stopce za pomocą pola pływającego](./page-number-in-header-footer-using-floating-box/) | W tym samouczku krok po kroku dowiesz się, jak łatwo dodawać numery stron w nagłówku i stopce pliku PDF za pomocą funkcji Floating Box w programie Aspose.PDF dla platformy .NET. |  
@@ -39,6 +39,7 @@ Samouczki „Programowanie ze stemplami i znakami wodnymi” dla .NET firmy Aspo
 | [Tabela w sekcji nagłówka i stopki](./table-in-header-footer-section/) | Dowiedz się, jak łatwo dodać tekst do stopki pliku PDF za pomocą Aspose.PDF dla .NET. Dołączony przewodnik krok po kroku dla bezproblemowej integracji. |  
 | [Tekst w stopce pliku PDF](./text-in-footer/) | Dowiedz się, jak dodać tekst w stopce pliku PDF za pomocą Aspose.PDF dla platformy .NET. |  
 | [Tekst w nagłówku pliku PDF](./text-in-header/) | Naucz się dodawać nagłówki tekstowe do plików PDF za pomocą Aspose.PDF dla .NET dzięki temu samouczkowi krok po kroku. Ulepszaj swoje dokumenty wydajnie i skutecznie. |  
+| [Dodaj numerację Bates do plików PDF w C# – Kompletny przewodnik](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Dowiedz się, jak automatycznie dodawać numerację Bates do dokumentów PDF przy użyciu Aspose.PDF dla .NET i języka C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

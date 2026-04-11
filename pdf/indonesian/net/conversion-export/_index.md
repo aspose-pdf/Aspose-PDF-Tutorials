@@ -224,6 +224,9 @@ Kuasai konversi PDF ke HTML menggunakan Aspose.PDF untuk .NET. Tingkatkan aksesi
 ### [Konversi PDF ke HTML dengan Aspose.PDF untuk .NET](./pdf-to-html-conversion-aspose-dot-net/)
 Tutorial kode untuk Aspose.PDF Net
 
+### [Cara Menyimpan HTML dari PDF – Panduan Langkah demi Langkah](./how-to-save-html-from-pdf-step-by-step-guide/)
+Pelajari cara mengekstrak dan menyimpan konten HTML dari file PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode langkah demi langkah.
+
 ### [Konversi PDF ke TIFF dalam .NET Menggunakan Aspose.PDF: Panduan Langkah demi Langkah](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Pelajari cara mengonversi dokumen PDF ke gambar TIFF menggunakan Aspose.PDF untuk .NET. Kuasai kedalaman warna khusus dan teknik pemrosesan gambar tingkat lanjut.
 

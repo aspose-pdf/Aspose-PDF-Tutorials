@@ -141,7 +141,7 @@ Apprenez à recadrer des zones spécifiques d'une page PDF et à les convertir e
 Découvrez comment exporter efficacement des données d'applications au format PDF avec Aspose.PDF pour .NET. Ce guide présente la configuration, des exemples de code en C# et les fonctionnalités clés.
 
 ### [Exporter des annotations PDF avec Aspose.PDF .NET : un guide complet](./export-annotations-aspose-pdf-net/)
-Découvrez comment exporter efficacement des annotations à partir de PDF avec Aspose.PDF pour .NET. Ce guide couvre la configuration, la mise en œuvre et les bonnes pratiques.
+Découvrez comment exporter efficacement des annotations à partir de PDF avec Aspose.PDF .NET. Ce guide couvre la configuration, la mise en œuvre et les bonnes pratiques.
 
 ### [Exporter des données PDF au format XML avec Aspose.PDF pour .NET : guide étape par étape](./export-pdf-data-to-xml-aspose-dotnet-guide/)
 Découvrez comment exporter efficacement les données de formulaire PDF en XML structuré à l'aide d'Aspose.PDF pour .NET, une bibliothèque puissante conçue pour la manipulation de PDF.
@@ -223,6 +223,9 @@ Maîtrisez la conversion PDF en HTML avec Aspose.PDF pour .NET. Améliorez l'acc
 
 ### [Conversion PDF en HTML avec Aspose.PDF pour .NET](./pdf-to-html-conversion-aspose-dot-net/)
 Un tutoriel de code pour Aspose.PDF Net
+
+### [Comment enregistrer du HTML à partir d'un PDF – Guide étape par étape](./how-to-save-html-from-pdf-step-by-step-guide/)
+Apprenez à extraire et enregistrer le contenu HTML d'un PDF avec Aspose.PDF pour .NET grâce à ce guide détaillé.
 
 ### [Conversion PDF en TIFF dans .NET avec Aspose.PDF : guide étape par étape](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Apprenez à convertir des documents PDF en images TIFF avec Aspose.PDF pour .NET. Maîtrisez les profondeurs de couleurs personnalisées et les techniques avancées de traitement d'image.

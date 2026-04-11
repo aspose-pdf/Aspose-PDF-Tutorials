@@ -58,6 +58,7 @@
 | [PDF AB標準の検証](./validatepdfabstandard/) このステップバイステップのチュートリアルでは、Aspose.PDF for .NET を使用して PDF を PDF/A-1b 規格に準拠しているか検証する方法を学習します。長期アーカイブのコンプライアンスを確保します。 |  
 | [PDFファイルの検証標準](./validatepdfastandard/) この包括的なステップバイステップのチュートリアルでは、Aspose.PDF for .NET を使用して PDF ファイルを PDF/A-1a 標準に準拠して検証する方法を説明します。 |  
 | [PDF UA標準の検証](./validatepdfuastandard/) ステップバイステップのガイドと詳細な説明に従って、Aspose.PDF for .NET を使用して PDF/UA アクセシビリティ標準に対して PDF を検証する方法を学びます。 |  
+| [PDFファイルを開く C# – 数分で破損したPDFを修復する方法](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) Aspose.PDF for .NET を使用して、C# で破損した PDF を数分で修復する手順を解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
