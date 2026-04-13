@@ -58,6 +58,7 @@ Zasób zawiera samouczki dotyczące programowania funkcji dokumentu w bibliotece
 | [Zweryfikuj PDF AB Standard](./validatepdfabstandard/) Dowiedz się, jak sprawdzić zgodność pliku PDF ze standardem PDF/A-1b przy użyciu Aspose.PDF dla .NET w tym samouczku krok po kroku. Zapewnij zgodność w celu długoterminowej archiwizacji. |  
 | [Weryfikacja plików PDF Standard](./validatepdfastandard/) | Dowiedz się, jak weryfikować pliki PDF pod kątem zgodności ze standardem PDF/A-1a przy użyciu Aspose.PDF dla platformy .NET, korzystając z tego kompleksowego samouczka krok po kroku. |  
 | [Sprawdź PDF UA Standard](./validatepdfuastandard/) | Dowiedz się, jak sprawdzić zgodność pliku PDF ze standardem dostępności PDF/UA przy użyciu Aspose.PDF dla platformy .NET, korzystając z naszego przewodnika krok po kroku i szczegółowych wyjaśnień. |  
+| [Jak odczytać dokument Word i wyodrębnić określoną stronę – przewodnik C#](./how-to-read-word-document-and-extract-specific-page-from-wor/) | Dowiedz się, jak w C# odczytać dokument Word i wyodrębnić wybraną stronę przy użyciu Aspose.Words. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

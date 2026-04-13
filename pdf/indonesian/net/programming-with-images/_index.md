@@ -49,6 +49,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Mengatur Ukuran Gambar Dalam File PDF](./set-image-size/) | Pelajari cara mengatur ukuran gambar dalam PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini akan membantu Anda mengubah ukuran gambar, menyesuaikan properti halaman, dan menyimpan PDF. Bahasa Indonesia:  
 | [Mengecilkan Gambar Dalam File PDF](./shrink-images/) | Kecilkan gambar dalam file PDF dengan mudah menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini, memastikan ukuran file lebih kecil dengan tetap menjaga kualitas. Bahasa Indonesia:  
 | [Simpan Gambar Dalam Koleksi XImage](./store-image-in-ximage-collection/) | Pelajari cara menyimpan gambar dalam koleksi XImage menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah lengkap ini. |  
+| [Tambahkan Gambar ke Word – Panduan Pemrograman C# Lengkap](./add-figure-to-word-complete-c-programming-guide/) | Pelajari cara menambahkan gambar ke dokumen Word menggunakan Aspose.Words untuk .NET dengan contoh kode C# lengkap. Bahasa Indonesia: |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

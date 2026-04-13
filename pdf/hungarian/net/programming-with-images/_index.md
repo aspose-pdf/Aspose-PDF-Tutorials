@@ -37,7 +37,7 @@ Az Aspose.PDF for .NET „Képekkel programozás” című oktatóanyagai végig
 | [Képek azonosítása PDF fájlban](./identify-images/) | Tanulja meg, hogyan azonosíthatja a képeket PDF fájlokban, és hogyan állapíthatja meg színtípusukat (szürkeárnyalatos vagy RGB) az Aspose.PDF for .NET segítségével ebben a részletes, lépésről lépésre szóló útmutatóban. |  
 | [Képinformációk a PDF fájlban](./image-information/) | Tanulja meg, hogyan kinyerhet képinformációkat PDF-ekből az Aspose.PDF for .NET segítségével átfogó, lépésről lépésre szóló útmutatónkkal. |  
 | [Képelhelyezések](./image-placements/) | Ismerje meg, hogyan lehet kinyerni és manipulálni a képek elhelyezését PDF dokumentumokban az Aspose.PDF for .NET használatával. Lépésről lépésre útmutató példákkal és kódrészletekkel. |  
-| [Kép PDF-be](./image-to-pdf/) Tanuld meg, hogyan konvertálhatsz képeket PDF formátumba az Aspose.PDF for .NET segítségével ebben a lépésről lépésre szóló útmutatóban. Tökéletes fejlesztők és tech-rajongók számára. |  
+| [Kép PDF-be](./image-to-pdf/) Tanuld meg, hogyan konvertálhatsz képeket PDF formátumba az Aspose.PDF for .NET segítségével ebben a lépésről lépésre útmutatóban. Tökéletes fejlesztők és tech-rajongók számára. |  
 | [Nagy CGM kép PDF-be](./large-cgm-image-to-pdf/) | Alakítson át nagyméretű CGM képeket könnyedén PDF formátumba az Aspose.PDF for .NET segítségével. Kövesse ezt az egyszerű útmutatót a gyors és hatékony konvertálási folyamathoz. |  
 | [Oldalakból képek](./pages-to-images/) | Gyorsan konvertálhat PDF oldalakat kiváló minőségű képekké az Aspose.PDF for .NET segítségével ezzel az átfogó, lépésről lépésre bemutató útmutatóval. |  
 | [Oldal EMF-be](./page-to-emf/) | Tanulja meg, hogyan konvertálhat PDF-oldalt EMF formátumba ezzel a lépésről lépésre szóló útmutatóval az Aspose.PDF for .NET használatával. Tökéletes fejlesztők számára. |  
@@ -47,8 +47,9 @@ Az Aspose.PDF for .NET „Képekkel programozás” című oktatóanyagai végig
 | [Képek átméretezése PDF fájlban](./resize-images/) | Tanulja meg, hogyan méretezheti át a képeket egy PDF fájlban az Aspose.PDF for .NET segítségével ezzel a részletes útmutatóval. Optimalizálja a fájlméretet a minőség romlása nélkül. |  
 | [Képek keresése és lekérése PDF fájlban](./search-and-get-images/) | Tanulja meg, hogyan kinyerhet könnyedén képeket PDF fájlokból az Aspose.PDF for .NET segítségével. Kövesse ezt a lépésről lépésre szóló útmutatót PDF-feldolgozási készségeinek fejlesztéséhez. |  
 | [Képméret beállítása PDF fájlban](./set-image-size/) | Ismerje meg, hogyan állíthatja be a képméretet egy PDF-ben az Aspose.PDF for .NET használatával. Ez a lépésről lépésre szóló útmutató segít a képek átméretezésében, az oldaltulajdonságok módosításában és a PDF-ek mentésében. |  
-| [Képek összezsugorítása PDF fájlban](./shrink-images/) | Az Aspose.PDF for .NET segítségével könnyedén zsugoríthatja a PDF fájlok képeit ezzel a lépésről lépésre szóló útmutatóval, biztosítva a kisebb fájlméretet a minőség megőrzése mellett. |  
+| [Képek összezsugorítása PDF fájlban](./shrink-images/) | Az Aspose.PDF for .NET segítségével könnyen zsugoríthatja a PDF fájlok képeit ezzel a lépésről lépésre szóló útmutatóval, biztosítva a kisebb fájlméretet a minőség megőrzése mellett. |  
 | [Kép tárolása az XImage gyűjteményben](./store-image-in-ximage-collection/) | Tanulja meg, hogyan tárolhat képeket az XImage gyűjteményben az Aspose.PDF for .NET használatával ebben a teljes, lépésről lépésre szóló útmutatóban. |  
+| [Ábra hozzáadása Word-hez – Teljes C# programozási útmutató](./add-figure-to-word-complete-c-programming-guide/) | Tanulja meg, hogyan adhat hozzá ábrákat Word dokumentumokhoz C#-ban az Aspose.Words for .NET segítségével, lépésről lépésre útmutatóval. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

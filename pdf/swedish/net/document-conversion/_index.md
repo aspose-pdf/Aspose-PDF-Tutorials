@@ -34,9 +34,11 @@ Du lär dig hur du anger konverteringsinställningar, extraherar text och bilder
 | [PDF till DOC](./pdf-to-doc/) | Lär dig hur du konverterar PDF till DOC med Aspose.PDF för .NET i den här omfattande guiden. Steg-för-steg-instruktioner och tips ingår. |
 | [PDF till EPUB](./pdf-to-epub/) | Lär dig hur du konverterar PDF till EPUB med Aspose.PDF för .NET i den här steg-för-steg-handledningen. Perfekt för utvecklare och innehållsskapare. |
 | [PDF till HTML](./pdf-to-html/) | Lär dig hur du konverterar PDF till HTML med Aspose.PDF för .NET med den här steg-för-steg-guiden. Perfekt för utvecklare och innehållsskapare. |
+| [Skapa HTML från PDF med Aspose.PDF – Steg‑för‑steg‑guide](./create-html-from-pdf-with-aspose-pdf-step-by-step-guide/) | Lär dig hur du konverterar PDF till HTML med Aspose.PDF för .NET i en detaljerad steg‑för‑steg‑guide. |
 | [PDF till PDFA](./pdf-to-pdfa/) Lär dig hur du konverterar PDF-filer till PDF/A-format med Aspose.PDF för .NET med den här steg-för-steg-handledningen. |
-| [PDF till PDFA3b](./pdf-to-pdfa3b/) | Lär dig att konvertera PDF-filer till PDF/A-3B-format utan problem med Aspose.PDF för .NET i den här steg-för-steg-guiden. |
+| [PDF till PDFA3b](./pdf-to-pdfa3b/) | Lär dig att konvertera PDF-filer till PDF/A-3B-format utan problem med Aspose.PDF för .NET i den här steg-för‑steg‑guiden. |
 | [Konvertera PDF till PDF/X‑4 i C# – Steg‑för‑steg ASP.NET PDF‑handledning](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Lär dig hur du konverterar PDF till PDF/X‑4 med Aspose.PDF för .NET i en detaljerad steg‑för‑steg‑guide. |
+| [Hur man konverterar PDF till PDF/X‑4 i C# med Aspose PDF](./how-to-convert-pdf-to-pdf-x-4-in-c-with-aspose-pdf/) | Lär dig hur du konverterar PDF till PDF/X‑4 i C# med Aspose.PDF för .NET i en detaljerad steg‑för‑steg‑guide. |
 | [PDF till PNG-teckensnittstips](./pdf-to-png-font-hinting/) | Lär dig konvertera PDF till PNG med teckensnittstips med hjälp av Aspose.PDF för .NET i en enkel steg-för-steg-guide. |
 | [pdf till png‑handledning – Konvertera PDF‑sidor till PNG i C#](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Lär dig hur du konverterar PDF‑sidor till PNG‑bilder i C# med Aspose.PDF för .NET i denna steg‑för‑steg‑guide. |
 | [PDF till PPT](./pdf-to-ppt/) | Lär dig hur du konverterar PDF till PPT med Aspose.PDF för .NET med den här steg-för-steg-guiden. Enkelt, effektivt och perfekt för presentationer. |
