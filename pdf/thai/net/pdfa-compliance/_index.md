@@ -38,6 +38,9 @@
 ### [การตรวจสอบ PDF/A แบบมืออาชีพโดยใช้ Aspose.PDF สำหรับ .NET ใน C#](./master-pdfa-validation-aspose-pdf-net/)
 เรียนรู้วิธีการตรวจสอบเอกสาร PDF ตามมาตรฐาน PDF/A โดยใช้ Aspose.PDF .NET รับรองความสอดคล้องและเพิ่มความน่าเชื่อถือของเอกสารด้วยคู่มือทีละขั้นตอนของเรา
 
+### [วิธีสร้าง PDF/A ด้วย C# – แปลง PDF เป็น PDF/A อย่างง่าย](./how-to-create-pdf-a-in-c-convert-pdf-to-pdf-a-easily/)
+เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/A อย่างรวดเร็วด้วย C# และ Aspose.PDF .NET
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)

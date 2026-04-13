@@ -49,6 +49,7 @@ Aspose.PDF for .NET 的「使用影像編程」教學課程將引導您完成操
 | [設定 PDF 檔案中的圖像大小](./set-image-size/) |了解如何使用 Aspose.PDF for .NET 設定 PDF 中的圖片大小。本逐步指南將幫助您調整圖像大小、調整頁面屬性以及儲存 PDF。 |  
 | [縮小PDF檔案中的影像](./shrink-images/) |請依照本逐步指南使用 Aspose.PDF for .NET 輕鬆縮小 PDF 檔案中的影像，確保檔案大小更小，同時保持品質。 |  
 | [將影像儲存在 XImage 集合中](./store-image-in-ximage-collection/) |透過本完整的逐步指南了解如何使用 Aspose.PDF for .NET 將影像儲存在 XImage 集合中。 |  
+| [在 Word 中新增圖形 – 完整 C# 程式設計指南](./add-figure-to-word-complete-c-programming-guide/) |了解如何使用 Aspose.Words for .NET 以 C# 程式設計方式將圖形新增至 Word 文件，包含步驟說明與範例程式碼。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
