@@ -17,6 +17,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # pdf to html java – PDF konvertálása HTML-re képmappákkal az Aspose.PDF Java használatával
 
 ## Bevezetés
@@ -161,6 +162,12 @@ Ebben az útmutatóban mindent áttekintettünk, ami a **pdf to html java** konv
 - [Temporary License Application](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Utolsó frissítés:** 2026-01-16  
+**Tesztelve a következővel:** Aspose.PDF for Java 25.3  
+**Szerző:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -168,9 +175,3 @@ Ebben az útmutatóban mindent áttekintettünk, ami a **pdf to html java** konv
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Utolsó frissítés:** 2026-01-16  
-**Tesztelve a következővel:** Aspose.PDF for Java 25.3  
-**Szerző:** Aspose

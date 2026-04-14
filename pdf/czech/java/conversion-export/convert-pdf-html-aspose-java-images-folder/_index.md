@@ -17,6 +17,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # pdf to html java – Převod PDF na HTML s použitím složek pro obrázky pomocí Aspose.PDF Java
 
 ## Úvod
@@ -163,6 +164,12 @@ V tomto průvodci jsme pokryli vše, co potřebujete vědět o **pdf to html jav
 - [Temporary License Application](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Poslední aktualizace:** 2026-01-16  
+**Testováno s:** Aspose.PDF for Java 25.3  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -170,9 +177,3 @@ V tomto průvodci jsme pokryli vše, co potřebujete vědět o **pdf to html jav
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-01-16  
-**Testováno s:** Aspose.PDF for Java 25.3  
-**Autor:** Aspose

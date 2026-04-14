@@ -17,6 +17,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # pdf to html java – Chuyển đổi PDF sang HTML với Thư mục Hình ảnh bằng Aspose.PDF Java
 
 ## Giới thiệu
@@ -163,6 +164,12 @@ Trong hướng dẫn này, chúng ta đã đề cập đến mọi thứ bạn c
 - [Temporary License Application](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Last Updated:** 2026-01-16  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -170,9 +177,3 @@ Trong hướng dẫn này, chúng ta đã đề cập đến mọi thứ bạn c
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-16  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

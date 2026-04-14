@@ -16,6 +16,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # pdf to html java – Aspose.PDF Java를 사용하여 이미지 폴더와 함께 PDF를 HTML로 변환
 
 ## 소개
@@ -80,7 +81,7 @@ implementation 'com.aspose:aspose-pdf:25.3'
 ### 변환을 위한 이미지 폴더 지정
 **개요:** 변환 과정에서 PDF에서 추출된 모든 이미지를 저장할 디렉터리를 지정합니다. 특히 이미지가 많은 대용량 PDF를 다룰 때 프로젝트를 깔끔하게 유지할 수 있습니다.
 
-#### Step 1: Define Paths
+#### 1단계: 경로 정의
 ```java
 // Define paths for your input PDF and output directory
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
@@ -88,14 +89,14 @@ String outputDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 *설명:* `YOUR_DOCUMENT_DIRECTORY`와 `YOUR_OUTPUT_DIRECTORY`를 실제 머신의 경로로 교체하세요.
 
-#### Step 2: Load the PDF Document
+#### 2단계: PDF 문서 불러오기
 ```java
 // Load the document from the specified directory
 Document pdfDocument = new Document(dataDir + "SampleDataTable.pdf");
 ```
 *설명:* 소스 PDF에 대한 `Document` 객체를 생성합니다. 파일 이름이 기존 PDF와 일치하는지 확인하세요.
 
-#### Step 3: Configure HTML Save Options
+#### 3단계: HTML 저장 옵션 설정
 ```java
 // Set up HtmlSaveOptions for conversion settings
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
@@ -105,7 +106,7 @@ saveOptions.setSpecialFolderForAllImages(outputDir + "imageFolder/");
 ```
 *설명:* `setSpecialFolderForAllImages`는 Aspose.PDF에게 추출된 모든 이미지를 지정한 `imageFolder` 하위 디렉터리에 저장하도록 지시합니다.
 
-#### Step 4: Save the HTML Document
+#### 4단계: HTML 문서 저장
 ```java
 // Convert and save the PDF as an HTML document with specified image storage location
 pdfDocument.save(outputDir + "resultant.html", saveOptions);
@@ -162,6 +163,12 @@ pdfDocument.save(outputDir + "resultant.html", saveOptions);
 - [임시 라이선스 신청](https://purchase.aspose.com/temporary-license/)
 - [Aspose 지원 포럼](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Last Updated:** 2026-01-16  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -169,9 +176,3 @@ pdfDocument.save(outputDir + "resultant.html", saveOptions);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-16  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

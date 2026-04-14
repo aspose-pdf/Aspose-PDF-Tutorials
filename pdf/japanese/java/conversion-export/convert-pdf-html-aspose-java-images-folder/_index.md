@@ -16,6 +16,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # pdf to html java – Aspose.PDF Java を使用した画像フォルダー付き PDF から HTML への変換
 
 ## はじめに
@@ -80,7 +81,7 @@ implementation 'com.aspose:aspose-pdf:25.3'
 ### 変換時の画像フォルダーの指定
 **概要:** 変換中に PDF から抽出されたすべての画像を保存するディレクトリを指定します。これにより、特に画像が多数含まれる大きな PDF を扱う際に、プロジェクトが整理された状態を保てます。
 
-#### Step 1: Define Paths
+#### ステップ1：パスを定義する
 ```java
 // Define paths for your input PDF and output directory
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
@@ -88,14 +89,14 @@ String outputDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 *Explanation:* `YOUR_DOCUMENT_DIRECTORY` と `YOUR_OUTPUT_DIRECTORY` を実際のパスに置き換えてください。
 
-#### Step 2: Load the PDF Document
+#### ステップ2：PDFドキュメントを読み込む
 ```java
 // Load the document from the specified directory
 Document pdfDocument = new Document(dataDir + "SampleDataTable.pdf");
 ```
 *Explanation:* ソース PDF 用の `Document` オブジェクトを作成します。ファイル名が既存の PDF と一致していることを確認してください。
 
-#### Step 3: Configure HTML Save Options
+#### ステップ3：HTML保存オプションを設定する
 ```java
 // Set up HtmlSaveOptions for conversion settings
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
@@ -105,7 +106,7 @@ saveOptions.setSpecialFolderForAllImages(outputDir + "imageFolder/");
 ```
 *Explanation:* `setSpecialFolderForAllImages` は、抽出されたすべての画像を指定した `imageFolder` サブディレクトリに配置するよう Aspose.PDF に指示します。
 
-#### Step 4: Save the HTML Document
+#### ステップ4：HTMLドキュメントを保存する
 ```java
 // Convert and save the PDF as an HTML document with specified image storage location
 pdfDocument.save(outputDir + "resultant.html", saveOptions);
@@ -176,6 +177,12 @@ pdfDocument.save(outputDir + "resultant.html", saveOptions);
 - [Temporary License Application](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Last Updated:** 2026-01-16  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -183,9 +190,3 @@ pdfDocument.save(outputDir + "resultant.html", saveOptions);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-16  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

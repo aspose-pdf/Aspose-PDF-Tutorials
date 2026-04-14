@@ -17,6 +17,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # pdf to html java – Konwersja PDF do HTML z folderami obrazów przy użyciu Aspose.PDF Java
 
 ## Wprowadzenie
@@ -163,6 +164,12 @@ W tym przewodniku omówiliśmy wszystko, co potrzebne do konwersji **pdf to html
 - [Temporary License Application](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Last Updated:** 2026-01-16  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -170,9 +177,3 @@ W tym przewodniku omówiliśmy wszystko, co potrzebne do konwersji **pdf to html
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-16  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

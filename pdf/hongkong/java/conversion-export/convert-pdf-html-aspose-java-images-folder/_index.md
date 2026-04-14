@@ -16,6 +16,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # pdf to html java – 使用 Aspose.PDF Java 轉換 PDF 為 HTML 並使用圖像資料夾
 
 ## 介紹
@@ -162,6 +163,12 @@ pdfDocument.save(outputDir + "resultant.html", saveOptions);
 - [臨時授權申請](https://purchase.aspose.com/temporary-license/)
 - [Aspose 支援論壇](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**最後更新：** 2026-01-16  
+**測試環境：** Aspose.PDF for Java 25.3  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -169,9 +176,3 @@ pdfDocument.save(outputDir + "resultant.html", saveOptions);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2026-01-16  
-**測試環境：** Aspose.PDF for Java 25.3  
-**作者：** Aspose

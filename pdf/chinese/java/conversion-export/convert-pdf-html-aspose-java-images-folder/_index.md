@@ -16,6 +16,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # pdf to html java – 使用 Aspose.PDF Java 将 PDF 转换为带图像文件夹的 HTML
 
 ## 介绍
@@ -69,7 +70,7 @@ weight: 1
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-#### License Acquisition
+#### 许可证获取
 1. **免费试用** – 从 Aspose 下载试用版以探索功能。  
 2. **临时许可证** – 获取临时许可证以进行更长时间的测试。  
 3. **购买** – 考虑购买许可证用于生产使用。
@@ -162,6 +163,12 @@ pdfDocument.save(outputDir + "resultant.html", saveOptions);
 - [Temporary License Application](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Last Updated:** 2026-01-16  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -169,9 +176,3 @@ pdfDocument.save(outputDir + "resultant.html", saveOptions);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-01-16  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

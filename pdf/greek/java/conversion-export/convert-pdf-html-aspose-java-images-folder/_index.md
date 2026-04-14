@@ -17,6 +17,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # pdf to html java – Μετατροπή PDF σε HTML με Φάκελους Εικόνων χρησιμοποιώντας το Aspose.PDF Java
 
 ## Εισαγωγή
@@ -81,7 +82,7 @@ implementation 'com.aspose:aspose-pdf:25.3'
 ### Καθορισμός Φακέλου Εικόνων για τη Μετατροπή
 **Overview:** Θα ορίσουμε έναν κατάλογο όπου όλες οι εξαγόμενες εικόνες από το PDF θα αποθηκεύονται κατά τη μετατροπή σε HTML. Αυτό διατηρεί το έργο σας τακτοποιημένο, ειδικά όταν εργάζεστε με μεγάλα PDF που περιέχουν πολλές εικόνες.
 
-#### Step 1: Define Paths
+#### Βήμα 1: Ορισμός διαδρομών
 ```java
 // Define paths for your input PDF and output directory
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
@@ -89,14 +90,14 @@ String outputDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 *Explanation:* Αντικαταστήστε το `YOUR_DOCUMENT_DIRECTORY` και το `YOUR_OUTPUT_DIRECTORY` με τις πραγματικές τοποθεσίες στον υπολογιστή σας.
 
-#### Step 2: Load the PDF Document
+#### Βήμα 2: Φόρτωση του εγγράφου PDF
 ```java
 // Load the document from the specified directory
 Document pdfDocument = new Document(dataDir + "SampleDataTable.pdf");
 ```
 *Explanation:* Αυτό δημιουργεί ένα αντικείμενο `Document` για το πηγαίο PDF. Βεβαιωθείτε ότι το όνομα αρχείου ταιριάζει με ένα υπάρχον PDF.
 
-#### Step 3: Configure HTML Save Options
+#### Βήμα 3: Ρύθμιση παραμέτρων επιλογών αποθήκευσης HTML
 ```java
 // Set up HtmlSaveOptions for conversion settings
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
@@ -106,7 +107,7 @@ saveOptions.setSpecialFolderForAllImages(outputDir + "imageFolder/");
 ```
 *Explanation:* Η μέθοδος `setSpecialFolderForAllImages` λέει στο Aspose.PDF να τοποθετήσει κάθε εξαγόμενη εικόνα στον υπο‑κατάλογο `imageFolder` που παρέχετε.
 
-#### Step 4: Save the HTML Document
+#### Βήμα 4: Αποθήκευση του εγγράφου HTML
 ```java
 // Convert and save the PDF as an HTML document with specified image storage location
 pdfDocument.save(outputDir + "resultant.html", saveOptions);
@@ -163,6 +164,12 @@ pdfDocument.save(outputDir + "resultant.html", saveOptions);
 - [Αίτηση για Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/)
 - [Φόρουμ Υποστήριξης Aspose](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Τελευταία Ενημέρωση:** 2026-01-16  
+**Δοκιμάστηκε Με:** Aspose.PDF for Java 25.3  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -170,9 +177,3 @@ pdfDocument.save(outputDir + "resultant.html", saveOptions);
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2026-01-16  
-**Δοκιμάστηκε Με:** Aspose.PDF for Java 25.3  
-**Συγγραφέας:** Aspose
