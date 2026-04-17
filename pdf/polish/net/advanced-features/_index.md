@@ -35,7 +35,7 @@ Naucz się tworzyć ustrukturyzowane, tagowane pliki PDF za pomocą Aspose.PDF d
 ### [Tworzenie dostępnych, oznaczonych plików PDF przy użyciu Aspose.PDF dla .NET: Ulepszanie tytułów, tekstu alternatywnego i układu](./enhanced-tagged-pdfs-aspose-pdf-dot-net/)
 Dowiedz się, jak tworzyć dostępne, oznaczone pliki PDF za pomocą Aspose.PDF dla .NET. Ustaw tytuły, tekst alternatywny i atrybuty układu, takie jak BBox, za pomocą C#. Popraw dostępność dokumentu.
 
-### [Tworzenie dostępnych, oznaczonych plików PDF za pomocą Aspose.PDF dla .NET: przewodnik krok po kroku](./create-tagged-pdfs-aspose-pdf-dotnet/)
+### [Tworzenie dostępnych, oznaczonych plików PDF przy użyciu Aspose.PDF dla .NET: przewodnik krok po kroku](./create-tagged-pdfs-aspose-pdf-dotnet/)
 Dowiedz się, jak tworzyć dostępne, oznaczone dokumenty PDF przy użyciu Aspose.PDF dla .NET. Ten przewodnik obejmuje konfigurację, dodawanie ilustracji i zapisywanie dokumentu.
 
 ### [Tworzenie wielojęzycznych oznaczonych plików PDF za pomocą Aspose.PDF dla .NET: kompleksowy przewodnik](./create-multilingual-tagged-pdfs-aspose-pdf-net/)
@@ -50,7 +50,7 @@ Dowiedz się, jak tworzyć dostępne, oznaczone dokumenty PDF przy użyciu Aspos
 ### [Jak tworzyć wielowarstwowe pliki PDF przy użyciu Aspose.PDF dla .NET: kompleksowy przewodnik](./create-multi-layer-pdfs-aspose-pdf-dotnet/)
 Dowiedz się, jak tworzyć dynamiczne i interaktywne, wielowarstwowe dokumenty PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego przewodnika krok po kroku.
 
-### [Jak tworzyć oznaczone pliki PDF za pomocą Aspose.PDF dla .NET: przewodnik zaawansowany](./creating-tagged-pdfs-aspose-pdf-dotnet/)
+### [Jak tworzyć oznaczone pliki PDF przy użyciu Aspose.PDF dla .NET: przewodnik zaawansowany](./creating-tagged-pdfs-aspose-pdf-dotnet/)
 Dowiedz się, jak tworzyć dostępne, oznaczone dokumenty PDF przy użyciu Aspose.PDF dla platformy .NET. Ulepsz strukturę dokumentu i dostępność dzięki temu kompleksowemu przewodnikowi.
 
 ### [Jak walidować pliki PDF pod kątem standardu PDF/UA przy użyciu Aspose.PDF dla .NET: kompleksowy przewodnik](./validate-pdf-ua-standard-aspose-dotnet/)
@@ -64,6 +64,9 @@ Naucz się tworzyć dostępne, stylizowane i oznaczone dokumenty PDF przy użyci
 
 ### [Jak porównywać pliki PDF w C# – Kompletny przewodnik po generowaniu różnic PDF](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 Dowiedz się, jak porównać dwa pliki PDF i wygenerować ich różnice przy użyciu Aspose.PDF dla .NET w C#.
+
+### [Zapisz każdą warstwę PDF przy użyciu Aspose.Pdf – przewodnik krok po kroku](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
+Dowiedz się, jak wyodrębnić i zapisać poszczególne warstwy PDF przy użyciu Aspose.Pdf w .NET.
 
 ## Dodatkowe zasoby
 

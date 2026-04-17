@@ -140,6 +140,9 @@ Tìm hiểu cách cắt các vùng cụ thể của trang PDF và chuyển đổ
 ### [Xuất dữ liệu sang PDF bằng Aspose.PDF cho .NET: Hướng dẫn đầy đủ](./export-data-pdf-aspose-net-guide/)
 Tìm hiểu cách xuất dữ liệu hiệu quả từ ứng dụng sang PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm thiết lập, ví dụ mã trong C# và các tính năng chính.
 
+### [Cách xuất DOCX – Hướng dẫn từng bước cho nhà phát triển C#](./how-to-export-docx-step-by-step-guide-for-c-developers/)
+Tìm hiểu cách xuất tài liệu DOCX từ ứng dụng C# bằng Aspose.PDF, bao gồm các bước cấu hình và ví dụ mã thực tế.
+
 ### [Xuất chú thích PDF bằng Aspose.PDF .NET: Hướng dẫn toàn diện](./export-annotations-aspose-pdf-net/)
 Tìm hiểu cách xuất chú thích hiệu quả từ PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm thiết lập, triển khai và các biện pháp thực hành tốt nhất.
 

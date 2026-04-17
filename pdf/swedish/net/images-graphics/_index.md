@@ -35,6 +35,9 @@ Lär dig hur du konverterar SVG-filer till högkvalitativa PDF-filer smidigt med
 ### [Skapa och fyll rektanglar i PDF-filer med Aspose.PDF för .NET: En steg-för-steg-guide](./create-fill-rectangle-aspose-pdf-net/)
 Lär dig hur du skapar och fyller rektanglar i PDF-dokument med Aspose.PDF för .NET. Den här steg-för-steg-guiden täcker allt från installation till implementering med C#.
 
+### [Hur man ritar en rektangel i PDF med C# – En steg‑för‑steg‑guide](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
+Lär dig hur du ritar en enkel rektangel i en PDF med C# och Aspose.PDF för .NET i denna steg‑för‑steg‑guide.
+
 ### [Skapa anpassade PDF-stämplar med Aspose.PDF i .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 En kodhandledning för Aspose.PDF Net
 
@@ -126,7 +129,7 @@ Lär dig hur du effektivt extraherar bilder från PDF-filer med Aspose.PDF .NET 
 Lär dig hur du enkelt extraherar bilder från PDF-dokument med Aspose.PDF för .NET med den här omfattande utvecklarguiden. Förbättra ditt dokumenthanteringsarbetsflöde idag.
 
 ### [Hur man extraherar bilder från PDF-filer med Aspose.PDF för .NET: En steg-för-steg-guide](./extract-images-aspose-pdf-dot-net-guide/)
-Lär dig hur du effektivt extraherar bilder från PDF-filer med Aspose.PDF för .NET med den här omfattande guiden, med kodexempel och bästa praxis.
+Lär dig hur du effektivt extraherar bilder från PDF-filer med Aspose.PDF för .NET med den här omfattande guiden. Perfekt för att extrahera bilder med kodexempel och bästa praxis.
 
 ### [Hur man extraherar bilder från PDF-filer med Aspose.PDF för .NET: En steg-för-steg-guide](./extract-images-aspose-pdf-net-guide/)
 Lär dig hur du extraherar bilder från PDF-dokument med Aspose.PDF för .NET med den här omfattande guiden. Perfekt för utvecklare som vill förbättra dokumentbehandlingsfunktionerna.

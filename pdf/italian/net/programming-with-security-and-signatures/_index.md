@@ -35,6 +35,8 @@ Questo tutorial offre una panoramica dettagliata di metodi e tecniche per garant
 | [Firma con la smart card utilizzando il campo firma](./sign-with-smart-card-using-signature-field/) | Scopri come firmare in modo sicuro i PDF utilizzando una smart card con Aspose.PDF per .NET. Segui la nostra guida passo passo per una facile implementazione. |  
 | [Verifica le firme PDF in C# – Come leggere i file PDF firmati](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Scopri come leggere e analizzare le firme digitali nei PDF usando C# e Aspose.PDF per .NET. |
 | [Come riparare i file PDF – Guida completa C# con Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Scopri come riparare i PDF danneggiati con Aspose.PDF per .NET usando C#. Guida passo passo per recuperare i contenuti. |
+| [Convalida firma digitale PDF in C# – Guida completa Aspose.PDF](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) | Scopri come convalidare firme digitali nei PDF usando C# e Aspose.PDF per .NET. |
+| [Configura server CA in C# – Guida completa per convalidare le firme dei documenti Word](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) | Scopri come configurare un server CA in C# per convalidare le firme dei documenti Word con Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

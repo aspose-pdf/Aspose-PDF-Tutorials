@@ -227,6 +227,9 @@ Un tutoriel de code pour Aspose.PDF Net
 ### [Conversion PDF en TIFF dans .NET avec Aspose.PDF : guide étape par étape](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Apprenez à convertir des documents PDF en images TIFF avec Aspose.PDF pour .NET. Maîtrisez les profondeurs de couleurs personnalisées et les techniques avancées de traitement d'image.
 
+### [Comment exporter DOCX – Guide étape par étape pour les développeurs C#](./how-to-export-docx-step-by-step-guide-for-c-developers/)
+Apprenez à exporter des documents DOCX à partir de PDF en C# avec Aspose.PDF, étape par étape, incluant le code et les meilleures pratiques.
+
 ## Ressources supplémentaires
 
 - [Aspose.PDF pour la documentation réseau](https://docs.aspose.com/pdf/net/)

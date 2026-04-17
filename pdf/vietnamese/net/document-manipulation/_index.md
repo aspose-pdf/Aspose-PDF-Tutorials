@@ -243,73 +243,12 @@ Tìm hiểu cách tự động hóa các tác vụ PDF bằng Aspose.PDF cho .NE
 Tìm hiểu cách làm chủ việc tải, điều hướng và sửa đổi tài liệu PDF bằng thư viện Aspose.PDF .NET mạnh mẽ. Nâng cao ứng dụng của bạn ngay hôm nay!
 
 ### [Làm chủ thao tác PDF với Aspose.PDF .NET: Hướng dẫn tải, tìm kiếm, chú thích](./aspose-pdf-dotnet-mastering-pdfs-manipulation-guide/)
-Học cách thành thạo thao tác PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm tải tài liệu, tìm kiếm văn bản và áp dụng chú thích như gạch bỏ.
 
-### [Làm chủ thao tác PDF với Aspose.PDF cho .NET: Hướng dẫn toàn diện](./mastering-pdf-manipulation-aspose-pdf-net-guide/)
-Tìm hiểu cách tạo, sửa đổi, hợp nhất và trích xuất dữ liệu hiệu quả từ PDF bằng Aspose.PDF cho .NET. Cải thiện quy trình làm việc tài liệu của bạn và nâng cao năng suất.
+### [Cách làm phẳng PDF với Aspose.PDF – Hướng dẫn đầy đủ](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+Tìm hiểu cách làm phẳng tài liệu PDF, loại bỏ các lớp tương tác và chú thích, để tạo tệp PDF tĩnh bằng Aspose.PDF cho .NET.
 
-### [Làm chủ việc đếm số trang PDF với Aspose.PDF cho .NET: Hướng dẫn đầy đủ](./mastering-pdf-manipulation-aspose-pdf-net/)
-Tìm hiểu cách truy xuất và sửa đổi số lượng trang PDF hiệu quả bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm thiết lập, triển khai và ứng dụng thực tế.
-
-### [Làm chủ Aspose.PDF .NET: Tích hợp LaTeX liền mạch vào các bảng và ô PDF](./integrate-latex-aspose-pdf-dotnet/)
-Học cách tích hợp LaTeX vào PDF bằng Aspose.PDF cho .NET. Cải thiện tài liệu của bạn bằng các biểu thức toán học chuyên nghiệp và công thức khoa học.
-
-### [Làm chủ Aspose.PDF cho .NET: Chỉnh sửa PDF dễ dàng](./aspose-pdf-net-open-modify-save-pdfs/)
-Hướng dẫn mã cho Aspose.PDF Net
-
-### [Làm chủ tiêu đề PDF động với bảng và hình ảnh bằng Aspose.PDF .NET](./dynamic-pdf-headers-tables-images-aspose-pdf/)
-Tìm hiểu cách tạo tiêu đề PDF động với bảng và hình ảnh bằng Aspose.PDF cho .NET. Nâng cao thiết kế tài liệu của bạn một cách dễ dàng.
-
-### [Làm chủ việc ghép nối PDF với Aspose.PDF cho .NET: Hướng dẫn toàn diện](./mastering-pdf-concatenation-aspose-net-guide/)
-Tìm hiểu cách nối liền mạch nhiều tệp PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm thiết lập, nối và xử lý các tệp bị hỏng.
-
-### [Làm chủ quản lý PDF: Định hướng trang, màu sắc và phát hiện khoảng trống hiệu quả với Aspose.PDF .NET](./aspose-pdf-net-page-orientation-color-blank-detection/)
-Tìm hiểu cách quản lý tài liệu PDF hiệu quả bằng cách thay đổi hướng trang, phát hiện màu trắng và xác định trang trống bằng Aspose.PDF cho .NET.
-
-### [Làm chủ thao tác PDF: Hướng dẫn toàn diện về cách sử dụng Aspose.PDF cho .NET](./aspose-pdf-net-manipulation-guide/)
-Tìm hiểu cách thao tác hiệu quả các tệp PDF với Aspose.PDF cho .NET. Từ thiết lập đến các tính năng nâng cao, hướng dẫn này bao gồm mọi thứ bạn cần để tự động hóa tài liệu.
-
-### [Làm chủ thao tác PDF: Aspose.PDF .NET để tìm kiếm Regex và xử lý tài liệu](./aspose-pdf-net-regex-searching/)
-Tìm hiểu cách sử dụng Aspose.PDF cho .NET để tải, thao tác và thực hiện tìm kiếm regex trong tài liệu PDF. Tự động hóa các tác vụ xử lý tài liệu của bạn một cách hiệu quả.
-
-### [Làm chủ việc tách trang PDF bằng Aspose.PDF .NET](./mastering-page-splitting-aspose-pdf-net/)
-Hướng dẫn mã cho Aspose.PDF Net
-
-### [Ghép PDF trong .NET bằng Aspose.PDF: Hướng dẫn toàn diện](./merge-pdfs-net-aspose-pdf-tutorial/)
-Tìm hiểu cách hợp nhất các tệp PDF một cách liền mạch bằng Aspose.PDF cho .NET. Hướng dẫn từng bước này bao gồm thiết lập, triển khai và ứng dụng thực tế.
-
-### [Di chuyển các trường biểu mẫu PDF trong .NET bằng Aspose.PDF: Hướng dẫn từng bước](./move-pdf-fields-aspose-pdf-dotnet-guide/)
-Tìm hiểu cách di chuyển và định vị lại các trường biểu mẫu PDF một cách dễ dàng với Aspose.PDF cho .NET. Hướng dẫn này bao gồm thiết lập, hướng dẫn từng bước và mẹo khắc phục sự cố.
-
-### [Thao tác PDF dễ dàng: Hướng dẫn Aspose.PDF .NET về Tải, Lưu và Thu phóng Cấu hình](./master-pdf-manipulation-aspose-dotnet-load-save-configure-page-zoom/)
-Làm chủ thao tác PDF với Aspose.PDF cho .NET. Tìm hiểu cách tải, lưu, trích xuất kích thước và cấu hình cài đặt thu phóng hiệu quả.
-
-### [Thay thế lần xuất hiện văn bản đầu tiên trong PDF bằng Aspose.PDF cho .NET - Hướng dẫn toàn diện](./replace-first-text-occurrence-aspose-pdf-net/)
-Tìm hiểu cách thay thế lần xuất hiện đầu tiên của văn bản trong PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm thiết lập, ví dụ mã và ứng dụng thực tế.
-
-### [Thay đổi kích thước nội dung PDF với Aspose.PDF cho .NET](./resize-pdf-contents-aspose-pdf-dotnet/)
-Hướng dẫn mã cho Aspose.PDF Net
-
-### [Xoay trang PDF và lấy kích thước bằng Aspose.PDF cho .NET](./rotate-pdf-pages-dimensions-aspose-dotnet/)
-Tìm hiểu cách xoay trang PDF hiệu quả và lấy kích thước của chúng bằng Aspose.PDF cho .NET. Nâng cao kỹ năng thao tác tài liệu của bạn với hướng dẫn toàn diện này.
-
-### [Xoay trang PDF bằng Aspose.PDF trong .NET: Hướng dẫn dành cho nhà phát triển](./rotate-pdf-pages-aspose-pdf-dotnet/)
-Tìm hiểu cách xoay các trang PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm cách xoay các trang cụ thể theo độ và bao gồm các ví dụ mã để thao tác tài liệu hiệu quả.
-
-### [Tách các trang PDF từ một trang cụ thể bằng cách sử dụng .NET Streams và Aspose.PDF](./split-pdf-pages-with-net-streams-aspose-pdf/)
-Tìm hiểu cách tách hiệu quả các tệp PDF từ một trang cụ thể bằng luồng .NET với Aspose.PDF, giúp nâng cao khả năng quản lý tài liệu trong ứng dụng của bạn.
-
-### [Chia các trang PDF thành các tệp riêng lẻ bằng Aspose.PDF .NET (Hướng dẫn C#)](./split-pdf-pages-aspose-net-csharp/)
-Tìm hiểu cách chia tệp PDF thành các trang riêng lẻ bằng Aspose.PDF cho .NET và C#. Hướng dẫn này bao gồm thiết lập, triển khai và ứng dụng thực tế.
-
-### [Chia các trang PDF thành các tệp riêng biệt với Aspose.PDF cho .NET: Hướng dẫn toàn diện](./aspose-pdf-split-pdf-pages-net/)
-Tìm hiểu cách chia các trang PDF thành các tệp riêng biệt bằng Aspose.PDF cho .NET. Hướng dẫn toàn diện này bao gồm các mẹo thiết lập, triển khai và tối ưu hóa.
-
-### [Tách và tạo tệp PDF bằng Aspose.PDF .NET | Hướng dẫn xử lý tài liệu](./split-create-pdf-aspose-pdf-net/)
-Tìm hiểu cách chia nhỏ các tệp PDF nhiều trang và tạo tệp PDF mới bằng Aspose.PDF cho .NET. Thực hiện theo hướng dẫn toàn diện này với các ví dụ về mã.
-
-### [Hướng dẫn tối ưu về thao tác PDF với Aspose.PDF .NET: Tải, lưu và thay thế văn bản hiệu quả](./master-pdf-manipulation-aspose-pdf-net/)
-Tìm hiểu cách làm chủ thao tác PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm việc tải, lưu và thay thế văn bản trong PDF, lý tưởng cho các nhà phát triển tìm kiếm hiệu quả.
+### [Cách so sánh PDF với Aspose – Hướng dẫn từng bước](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
+Tìm hiểu cách so sánh các tệp PDF bằng Aspose trong .NET qua các bước chi tiết.
 
 ## Tài nguyên bổ sung
 
