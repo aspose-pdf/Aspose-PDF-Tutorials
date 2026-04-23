@@ -65,6 +65,9 @@ Aspose.PDF Net のコードチュートリアル
 ### [Aspose.PDF for .NET を使用して PDF を HTML に変換する: ストリーム出力ガイド](./convert-pdf-html-aspose-dotnet-guide/)
 Aspose.PDF for .NET のストリーム出力を使用して PDF ファイルを HTML に変換する方法を学びましょう。Web 統合とアクセシビリティを強化します。
 
+### [Aspose.PDF を使用して PDF を HTML に変換する: 完全 C# ガイド](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
+Aspose.PDF for .NET を使い、PDF を HTML に変換して保存する方法を C# で詳しく解説します。
+
 ### [Aspose.PDF を使用して画像を保存せずに .NET で PDF を HTML に変換する](./convert-pdf-html-net-asposepdf-no-images/)
 Aspose.PDF for .NET を使用して、画像を個別に保存することなく PDF ファイルを HTML に変換する方法を学びましょう。詳細なガイドでレイアウトの整合性を維持できます。
 

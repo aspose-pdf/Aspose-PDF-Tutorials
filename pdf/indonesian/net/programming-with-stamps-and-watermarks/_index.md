@@ -39,6 +39,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Tabel Di Bagian Header Footer](./table-in-header-footer-section/) | Pelajari cara mudah menambahkan teks ke bagian bawah berkas PDF menggunakan Aspose.PDF for .NET. Panduan langkah demi langkah disertakan untuk integrasi yang lancar. Bahasa Indonesia:  
 | [Teks Di Footer File PDF](./text-in-footer/) | Pelajari cara menambahkan teks di footer file PDF dengan Aspose.PDF untuk .NET. Bahasa Indonesia:  
 | [Teks Di Header File PDF](./text-in-header/) | Pelajari cara menambahkan tajuk teks ke PDF menggunakan Aspose.PDF for .NET dengan tutorial langkah demi langkah ini. Sempurnakan dokumen Anda secara efisien dan efektif. |  
+| [Tambahkan Stempel ke PDF – Terapkan Tanda Air PDF pada Halaman Pertama](./add-stamp-to-pdf-apply-watermark-pdf-on-first-page/) | Pelajari cara menambahkan stempel ke PDF dan menerapkan tanda air pada halaman pertama menggunakan Aspose.PDF for .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

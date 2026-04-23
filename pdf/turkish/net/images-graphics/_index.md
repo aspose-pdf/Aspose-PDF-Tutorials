@@ -44,6 +44,9 @@ Aspose.PDF .NET kullanarak paragrafları çıkarıp vurgulayarak görsel olarak 
 ### [Aspose.PDF .NET ile PDF'lere Şeffaf Şekiller Çizin](./draw-transparent-shapes-aspose-pdf-net/)
 Aspose.PDF Net için bir kod öğreticisi
 
+### [C# ile Aspose PDF Kullanarak PDF'ye Şeffaflık Ekleme – Adım Adım Kılavuz](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Aspose PDF for .NET ile PDF belgelerine şeffaflık eklemeyi, C# kod örnekleriyle adım adım öğrenin.
+
 ### [Aspose.PDF for .NET ile Verimli PDF Görüntü Tanımlama](./master-image-identification-aspose-pdf-net/)
 Aspose.PDF for .NET kullanarak PDF'lerdeki gri tonlamalı ve RGB görüntüleri nasıl tanımlayacağınızı öğrenin. Bu eğitim, kurulum, görüntü çıkarma ve performans ipuçlarını kapsar.
 
@@ -92,7 +95,7 @@ Aspose.PDF for .NET kullanarak PDF'lerinizdeki belirli sayfalara resim damgalar�
 ### [Aspose.PDF for .NET Kullanarak PDF'ye Resim Damgası Nasıl Eklenir: Kapsamlı Bir Kılavuz](./add-image-stamp-pdf-aspose-dotnet/)
 Aspose.PDF for .NET kullanarak PDF'lerinize logolar veya filigranlar gibi resim damgaları eklemeyi öğrenin. Bu kılavuz kurulum, uygulama ve pratik uygulamaları kapsar.
 
-### [Aspose.PDF for .NET Kullanarak PDF Sayfalarını PNG Görüntülerine Nasıl Dönüştürebilirsiniz](./convert-pdf-page-to-png-aspose-dotnet/)
+### [Aspose.PDF for .NET Kullanarak PDF Sayfalarını PNG Görüntülerine Nasıl Dönüştürürsünüz](./convert-pdf-page-to-png-aspose-dotnet/)
 Aspose.PDF for .NET kullanarak PDF sayfalarını yüksek kaliteli PNG görüntülerine nasıl dönüştüreceğinizi öğrenin. Kod örnekleri ve en iyi uygulamalarla bu adım adım kılavuzu izleyin.
 
 ### [.NET için Aspose.PDF Kullanarak PDF'lerde Kesikli Çizgiler Nasıl Oluşturulur: Adım Adım Kılavuz](./create-dashed-lines-aspose-pdf-net/)
