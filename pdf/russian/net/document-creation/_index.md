@@ -77,6 +77,12 @@
 ### [Создание PDF-документа с Aspose.PDF – добавить страницу, форму и сохранить](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Узнайте, как добавить страницу, форму и сохранить PDF-документ с помощью Aspose.PDF для .NET.
 
+### [Создание PDF‑документа в C# – добавить страницу в PDF и нарисовать прямоугольник](./create-pdf-document-in-c-add-page-to-pdf-draw-rectangle/)
+Узнайте, как добавить страницу и нарисовать прямоугольник в PDF‑документе с помощью Aspose.PDF для .NET.
+
+### [Создание PDF‑документа в C# – Полное руководство по генерации в памяти](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
+Узнайте, как создавать PDF‑документы полностью в памяти с помощью Aspose.PDF для .NET на C#.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.PDF для сети](https://docs.aspose.com/pdf/net/)

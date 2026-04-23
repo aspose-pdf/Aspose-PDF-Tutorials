@@ -21,6 +21,7 @@ Tutorials include step-by-step instructions, detailed code examples, and clear e
 ## Tutorials
 | Title | Description |
 | --- | --- | 
+| [Add bates numbering pdf with Aspose – Complete Guide](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Step-by-step guide to add Bates numbering to a PDF using Aspose.PDF for .NET. |
 | [Add page numbers pdf with C# – Full Step‑by‑Step Guide](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Step-by-step guide to add page numbers to a PDF using C# and Aspose.PDF for .NET. |
 | [Change Orientation](./change-orientation/) | Step-by-step guide to change page orientation of a PDF with Aspose.PDF for .NET. Easy to follow and implement in your projects. |  
 | [Concatenate PDF Files](./concatenate-pdf-files/) | Concatenate PDF files effortlessly using Aspose.PDF for .NET with this comprehensive step-by-step guide. |  

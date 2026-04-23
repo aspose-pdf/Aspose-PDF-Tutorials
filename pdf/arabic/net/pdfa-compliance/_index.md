@@ -38,6 +38,9 @@
 ### [التحقق من صحة ملفات PDF/A الرئيسية باستخدام Aspose.PDF لـ .NET في C#](./master-pdfa-validation-aspose-pdf-net/)
 تعرّف على كيفية التحقق من صحة مستندات PDF وفقًا لمعايير PDF/A باستخدام Aspose.PDF .NET. اضمن التوافق وعزز موثوقية مستنداتك من خلال دليلنا المفصل.
 
+### [تحويل PDF إلى PDF/A باستخدام C# – دليل كامل خطوة بخطوة](./convert-pdf-to-pdf-a-in-c-complete-step-by-step-guide/)
+تعرف على كيفية تحويل ملفات PDF إلى PDF/A باستخدام C# مع دليل شامل خطوة بخطوة.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

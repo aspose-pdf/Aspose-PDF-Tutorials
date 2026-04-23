@@ -74,10 +74,17 @@ Dowiedz się, jak tworzyć dostępne, dobrze ustrukturyzowane, oznaczone pliki P
 ### [Opanowanie tworzenia broszur PDF za pomocą Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Samouczek dotyczący kodu dla Aspose.PDF Net
 
+### [Utwórz dokument PDF w C# – Dodaj stronę do PDF i narysuj prostokąt](./create-pdf-document-in-c-add-page-to-pdf-draw-rectangle/)
+Dowiedz się, jak w Aspose.PDF dla .NET dodać nową stronę i narysować prostokąt w dokumencie PDF przy użyciu C#.
+
 ### [Utwórz dokument PDF przy użyciu Aspose.PDF – Dodaj stronę, kształt i zapisz](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Dowiedz się, jak w Aspose.PDF dodać nową stronę, rysować kształty i zapisać dokument PDF w aplikacji .NET.
+
 ### [Tworzenie dokumentu PDF przy użyciu Aspose.PDF – przewodnik krok po kroku](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 Dowiedz się, jak krok po kroku tworzyć dokumenty PDF przy użyciu Aspose.PDF w .NET.
+
+### [Utwórz dokument PDF w C# – Pełny przewodnik po generowaniu w pamięci](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
+Dowiedz się, jak w Aspose.PDF dla .NET wygenerować dokument PDF w pamięci przy użyciu C#.
 
 ## Dodatkowe zasoby
 
