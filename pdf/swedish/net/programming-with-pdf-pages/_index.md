@@ -38,6 +38,7 @@ Handledningarna innehåller steg-för-steg-instruktioner, detaljerade kodexempel
 | [Uppdatera PDF-siddimensioner](./update-dimensions/) | Upptäck hur du enkelt uppdaterar PDF-siddimensioner med Aspose.PDF för .NET i den här omfattande steg-för-steg-guiden. |  
 | [Zooma till sidinnehåll i PDF-fil](./zoom-to-page-contents/) | Lär dig hur du zoomar till sidinnehåll i PDF-filer med Aspose.PDF för .NET i den här omfattande guiden. Förbättra dina PDF-dokument efter dina specifika behov. |  
 | [Lägg till sidnummer i PDF med C# – Fullständig steg‑för‑steg‑guide](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Lär dig hur du lägger till sidnummer i en PDF med C# med en detaljerad steg‑för‑steg‑guide. |
+| [Skapa PDF-dokument C# – Lägg till former & tomma sidor – Guide](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Steg-för-steg-guide för att skapa PDF-dokument i C# och lägga till former samt tomma sidor med Aspose.PDF för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

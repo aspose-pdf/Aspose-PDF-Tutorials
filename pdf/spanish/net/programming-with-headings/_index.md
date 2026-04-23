@@ -22,6 +22,7 @@ Explore las funciones de Aspose.PDF para .NET con tutoriales dedicados. Aprenda 
 | Título | Descripción |
 | --- | --- | 
 | [Aplicar estilo de número en un archivo PDF](./apply-number-style/) | Aprenda a aplicar diferentes estilos de números (números romanos, alfabéticos) a los encabezados de un PDF usando Aspose.PDF para .NET con esta guía paso a paso. |   
+| [Agregar encabezado a PDF con Aspose – Guía completa en C#](./add-heading-to-pdf-with-aspose-complete-c-guide/) | Aprenda a agregar encabezados a un PDF usando Aspose.PDF para .NET con una guía completa en C#. |   
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

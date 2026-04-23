@@ -38,6 +38,7 @@ Návody obsahují podrobné pokyny, podrobné příklady kódu a jasná vysvětl
 | [Aktualizovat rozměry stránky PDF](./update-dimensions/) | Zjistěte, jak snadno aktualizovat rozměry stránek PDF pomocí Aspose.PDF pro .NET v tomto komplexním návodu krok za krokem. |  
 | [Přiblížit na obsah stránky v souboru PDF](./zoom-to-page-contents/) | V tomto komplexním průvodci se naučte, jak přiblížit obsah stránky v souborech PDF pomocí Aspose.PDF pro .NET. Vylepšete své dokumenty PDF podle svých specifických potřeb. |  
 | [Přidat čísla stránek do PDF pomocí C# – Kompletní krok‑za‑krokem průvodce](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Kompletní krok‑za‑krokem průvodce přidáním čísel stránek do PDF pomocí C# a Aspose.PDF pro .NET. |
+| [Vytvořit PDF dokument C# – Přidat tvary a prázdné stránky – Průvodce](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Naučte se, jak pomocí Aspose.PDF pro .NET v C# přidávat tvary a prázdné stránky do PDF dokumentu. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

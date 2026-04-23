@@ -53,6 +53,9 @@
 ### [التحقق من توقيع PDF في C# – دليل شامل للتحقق من صحة التوقيع الرقمي للملف PDF](./verify-pdf-signature-in-c-complete-guide-to-validate-digital/)
 تعرّف على كيفية التحقق من توقيع PDF باستخدام C# من خلال دليل شامل للتحقق من صحة التوقيع الرقمي.
 
+### [التحقق من التوقيع الرقمي لملف PDF في C# – دليل Aspose.Pdf الكامل](./validate-pdf-digital-signature-in-c-complete-aspose-pdf-guid/)
+تعرّف على كيفية التحقق من صحة التوقيع الرقمي لملفات PDF باستخدام Aspose.PDF في C# من خلال دليل شامل خطوة بخطوة.
+
 ### [تحميل مستند PDF باستخدام C# – التحويل إلى PDF/X‑4 وعرض التوقيعات](./load-pdf-document-c-convert-to-pdf-x-4-list-signatures/)
 تعلم كيفية تحميل مستند PDF في C#، تحويله إلى صيغة PDF/X‑4 واستخراج قائمة التوقيعات المضمنة.
 

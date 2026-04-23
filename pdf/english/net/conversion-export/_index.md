@@ -227,6 +227,9 @@ A code tutorial for Aspose.PDF Net
 ### [PDF to TIFF Conversion in .NET Using Aspose.PDF&#58; A Step-by-Step Guide](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Learn how to convert PDF documents to TIFF images using Aspose.PDF for .NET. Master custom color depths and advanced image processing techniques.
 
+### [Aspose PDF to PNG – Export First Page at 300 DPI](./aspose-pdf-to-png-export-first-page-at-300-dpi/)
+Learn how to export the first page of a PDF as a PNG image at 300 DPI using Aspose.PDF for .NET.
+
 ## Additional Resources
 
 - [Aspose.PDF for Net Documentation](https://docs.aspose.com/pdf/net/)
