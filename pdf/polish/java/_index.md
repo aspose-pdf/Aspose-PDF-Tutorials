@@ -1,10 +1,10 @@
 ---
-date: 2025-11-28
-description: Dowiedz się, jak dodawać adnotacje do plików PDF, tworzyć PDF‑y w Javie,
-  wyodrębniać tekst, konwertować PDF na Word, dodawać znaki wodne i stosować podpisy
-  cyfrowe przy użyciu Aspose.PDF dla Javy.
+date: 2026-02-09
+description: Dowiedz się, jak tworzyć pliki PDF w Javie, dodawać adnotacje PDF, wyodrębniać
+  tekst, konwertować PDF na Word, dodawać znak wodny do PDF w Javie oraz stosować
+  podpisy cyfrowe przy użyciu Aspose.PDF.
 linktitle: Aspose.PDF for Java Tutorials
-title: Dodaj adnotacje do PDF przy użyciu Aspose.PDF dla Javy
+title: Tworzenie PDF w Javie – Dodawanie adnotacji przy użyciu Aspose.PDF
 url: /pl/java/
 weight: 10
 ---
@@ -15,139 +15,142 @@ weight: 10
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Dodawanie adnotacji do PDF przy użyciu Aspose.PDF for Java
+# Dodawanie adnotacji do PDF przy użyciu Aspose.PDF dla Java
 
-Jeśli chcesz **dodawać adnotacje do PDF** programowo, trafiłeś we właściwe miejsce. W tym przewodniku wyjaśnimy, dlaczego Aspose.PDF for Java jest najlepszym wyborem do manipulacji PDF, pokażemy, jak szybko rozpocząć pracę, oraz skierujemy Cię do szczegółowych tutoriali obejmujących wszystko, od tworzenia PDF po stosowanie podpisów cyfrowych.
+Jeśli chcesz **dodawać adnotacje do PDF** programowo **i nauczyć się, jak tworzyć PDF w Javie**, trafiłeś we właściwe miejsce. W tym przewodniku wyjaśnimy, dlaczego Aspose.PDF dla Java jest najlepszym wyborem do manipulacji PDF, pokażemy, jak szybko rozpocząć pracę, oraz wskażemy szczegółowe samouczki obejmujące wszystko, od tworzenia PDF po stosowanie podpisów cyfrowych.
 
 ## Szybkie odpowiedzi
-- **Jaki jest najłatwiejszy sposób dodawania adnotacji do PDF w Javie?** Użyj klas `Annotation` Aspose.PDF (np. `TextAnnotation`, `LinkAnnotation`).  
-- **Czy potrzebna jest licencja do użytku produkcyjnego?** Tak – licencja komercyjna usuwa ograniczenia wersji ewaluacyjnej.  
-- **Czy mogę również tworzyć PDF i wyodrębniać tekst przy użyciu tej samej biblioteki?** Oczywiście; Aspose.PDF obsługuje tworzenie, edycję, wyodrębnianie, konwersję, dodawanie znaków wodnych i podpisy cyfrowe.  
-- **Jakiej wersji Javy wymaga?** Java 8 lub nowsza jest w pełni wspierana.  
-- **Czy istnieje wbudowane wsparcie dla zgodności PDF/A?** Tak – możesz bezpośrednio generować i weryfikować dokumenty PDF/A.
-
-## Jak dodać adnotacje do PDF przy użyciu Aspose.PDF for Java
-Dodawanie adnotacji jest tak proste, jak utworzenie odpowiedniej klasy adnotacji i dołączenie jej do strony. Takie podejście pozwala wzbogacić PDF o komentarze, linki, podświetlenia i inne elementy, czyniąc dokumenty interaktywnymi dla użytkowników końcowych.
+- **Jaki jest najprostszy sposób na dodanie adnotacji do PDF w Javie?** Użyj klas `Annotation` Aspose.PDF (np. `TextAnnotation`, `LinkAnnotation`).  
+- **Czy potrzebuję licencji do użytku produkcyjnego?** Tak – licencja komercyjna usuwa ograniczenia wersji ewaluacyjnej.  
+- **Czy mogę również tworzyć PDF i wyodrębniać tekst przy użyciu tej samej biblioteki?** Oczywiście; Aspose.PDF obsługuje tworzenie, edycję, wyodrębnianie, konwersję, znakowanie wodne i podpisy cyfrowe.  
+- **Jakiej wersji Javy wymaga?** Java 8 lub wyższa jest w pełni wspierana.  
+- **Czy istnieje wbudowana obsługa zgodności z PDF/A?** Tak – możesz bezpośrednio generować i weryfikować dokumenty PDF/A.  
 
 ## Jak tworzyć PDF w Javie przy użyciu Aspose.PDF
-Poza adnotacjami, wielu programistów potrzebuje **tworzyć PDF w Javie** od podstaw lub z szablonów. Aspose.PDF oferuje płynne API, które pozwala dodawać strony, tekst, obrazy, tabele, a nawet złożone układy przy użyciu kilku linii kodu.
+Tworzenie PDF od podstaw jest proste. Tworzysz instancję `Document`, dodajesz strony, a następnie wypełniasz je treścią. Ten sam przepływ pracy pozwala **dodawać adnotacje PDF**, osadzać obrazy lub wstawiać tabele — wszystko w jednym dokumencie.
+
+## Jak dodawać adnotacje PDF w Javie
+Dodawanie adnotacji jest tak proste, jak utworzenie odpowiedniej klasy adnotacji i dołączenie jej do strony. To podejście pozwala wzbogacić PDF‑y o komentarze, linki, podświetlenia i inne elementy, czyniąc dokumenty interaktywnymi dla użytkowników końcowych.
 
 ## Jak wyodrębnić tekst z PDF w Javie
-Gdy potrzebujesz **wyodrębnić tekst z PDF w Javie**, klasa `TextAbsorber` biblioteki dokładnie przechwytuje tekst, zachowując kolejność i formatowanie. Jest to idealne rozwiązanie do indeksowania wyszukiwania, eksploracji danych lub projektów migracji treści.
+Gdy potrzebujesz **pdf text extraction java**, klasa `TextAbsorber` biblioteki dokładnie przechwytuje tekst, zachowując kolejność i formatowanie. Jest to idealne rozwiązanie do indeksowania wyszukiwania, eksploracji danych lub projektów migracji treści.
 
 ## Jak konwertować PDF na Word w Javie
-Jeśli Twój przepływ pracy wymaga **konwersji PDF na Word w Javie**, silnik konwersji Aspose.PDF generuje pliki DOC/DOCX zachowujące układ, czcionki i obrazy, upraszczając edycję i ponowne wykorzystanie dokumentów.
+Jeśli Twój przepływ pracy wymaga **convert PDF to word java**, silnik konwersji Aspose.PDF generuje pliki DOC/DOCX zachowujące układ, czcionki i obrazy, ułatwiając edycję i ponowne wykorzystanie dokumentów.
 
-## Jak dodać znak wodny do PDF przy użyciu Aspose.PDF
-Dodanie wizualnego identyfikatora jest proste dzięki funkcji **add watermark to PDF**. Możesz nakładać znaki wodne w postaci tekstu lub obrazu na każdą stronę, dostosowywać przezroczystość, obrót i pozycję, aby spełnić wytyczne brandingowe.
+## Jak dodać znak wodny do PDF w Javie
+Dodanie wizualnego identyfikatora jest proste dzięki funkcji **add watermark to pdf java**. Możesz nakładać znaki wodne tekstowe lub graficzne na każdą stronę, dostosowywać przezroczystość, obrót i pozycję, aby spełnić wytyczne brandingowe.
 
 ## Jak zastosować podpis cyfrowy PDF przy użyciu Aspose.PDF
-Aplikacje o krytycznym znaczeniu bezpieczeństwa często wymagają **apply digital signature PDF**. Aspose.PDF obsługuje podpisy oparte na certyfikatach, znacznikowanie czasowe i weryfikację podpisu, zapewniając integralność dokumentu i brak możliwości odrzucenia.
+Aplikacje wymagające wysokiego poziomu bezpieczeństwa często potrzebują **apply digital signature PDF**. Aspose.PDF obsługuje podpisy oparte na certyfikatach, znacznikowanie czasowe i weryfikację podpisu, zapewniając integralność dokumentu i brak możliwości odrzucenia.
 
-## Odblokowanie potencjału Aspose.PDF for Java
-Czy jesteś gotowy wykorzystać pełny potencjał Aspose.PDF for Java? Nasze tutoriale są Twoją bramą do odblokowania tego potężnego narzędzia do manipulacji PDF. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, oferujemy przewodniki krok po kroku, które pomogą Ci tworzyć, edytować i optymalizować dokumenty PDF bezproblemowo.
+## Dlaczego używać Aspose.PDF do pól formularzy PDF w Javie?
+Jeśli musisz pracować z **pdf form fields java**, Aspose.PDF oferuje rozbudowane API do tworzenia, wypełniania i wyodrębniania danych z interaktywnych pól formularzy. Ułatwia to automatyzację procesów przetwarzania formularzy.
 
-## Kompleksowe tutoriale manipulacji PDF
-Nasze tutoriale obejmują szeroki zakres zadań związanych z PDF. Od podstawowych operacji, takich jak wstawianie tekstu i manipulacja stronami, po zaawansowane tematy, takie jak struktura PDF, tagi i zgodność z dostępnością, zdobędziesz wiedzę niezbędną do tworzenia wizualnie imponujących i przyjaznych użytkownikowi PDF. Niezależnie od tego, czy automatyzujesz generowanie dokumentów, czy ulepszasz istniejące PDF, te zasoby podniosą Twoje umiejętności manipulacji PDF.
+## Odblokowanie potencjału Aspose.PDF dla Java
+
+Czy jesteś gotowy, aby wykorzystać pełny potencjał Aspose.PDF dla Java? Nasze samouczki są Twoją bramą do odblokowania tego potężnego narzędzia do manipulacji PDF. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, dostarczamy przewodniki krok po kroku, które pomogą Ci tworzyć, edytować i optymalizować dokumenty PDF bezproblemowo.
+
+## Kompleksowe samouczki manipulacji PDF
+
+Nasze samouczki obejmują szeroki zakres zadań związanych z PDF. Od podstawowych operacji, takich jak wstawianie tekstu i manipulacja stronami, po zaawansowane tematy, takie jak struktura PDF, tagi i zgodność z dostępnością, zdobędziesz wiedzę potrzebną do tworzenia wizualnie imponujących i przyjaznych użytkownikowi PDF‑ów. Niezależnie od tego, czy automatyzujesz generowanie dokumentów, czy ulepszasz istniejące PDF‑y, te zasoby podniosą Twoje umiejętności manipulacji PDF.
 
 ## Opanowanie sztuki tworzenia PDF
-Dołącz do naszych tutoriali już dziś i rozpocznij podróż, aby opanować sztukę tworzenia PDF z Aspose.PDF for Java. Usprawnij przepływy dokumentów, twórz PDF wyróżniające się i otwórz drzwi do nieograniczonych możliwości. Te tutoriale są Twoim kluczem do zostania biegłym programistą PDF, gotowym z pewnością podjąć się każdego zadania związanego z PDF.
 
-## Tutoriale Aspose.PDF for Java
+Dołącz do naszych samouczków już dziś i rozpocznij podróż, aby opanować sztukę tworzenia PDF przy użyciu Aspose.PDF dla Java. Usprawnij przepływy dokumentów, twórz PDF‑y, które się wyróżniają, i otwórz drzwi do nieograniczonych możliwości. Te samouczki są Twoim kluczem do zostania biegłym programistą PDF, gotowym podjąć się każdego zadania związanego z PDF z pewnością siebie.
+
+## Samouczki Aspose.PDF dla Java
 ### [Rozpoczęcie](./getting-started/)
-Krok po kroku tutoriale dotyczące instalacji Aspose.PDF, licencjonowania, konfiguracji oraz tworzenia pierwszego dokumentu PDF w aplikacjach Java.
+Step-by-step tutorials for Aspose.PDF installation, licensing, setup, and creating your first PDF document in Java applications.
 ### [Adnotacje PDF](./pdf-annotations/)
-Poznaj tutoriale dotyczące adnotacji PDF w Aspose.PDF for Java, ucz się dodawać interaktywność, komentarze i wiele więcej do swoich PDF‑ów.
+Explore PDF annotation tutorials with Aspose.PDF for Java, learn to add interactivity, comments, and more to your PDFs.
 ### [Załączniki PDF](./pdf-attachments/)
-Naucz się zarządzać załącznikami PDF w Javie przy użyciu Aspose.PDF. Dołączaj pliki, obrazy i inne zasoby do swoich PDF‑ów bez wysiłku.
+Learn to manage PDF attachments in Java with Aspose.PDF. Attach files, images, and more to your PDFs effortlessly.
 ### [Zakładki PDF](./pdf-bookmarks/)
-Naucz się tworzyć interaktywne zakładki PDF w Aspose.PDF for Java. Popraw nawigację w dokumencie i doświadczenie użytkownika.
+Learn to create interactive PDF bookmarks with Aspose.PDF for Java. Elevate document navigation and user experience.
 ### [Konwersja i Transformacja PDF](./pdf-conversion-transformation/)
-Odblokuj moc konwersji i transformacji PDF przy użyciu Aspose.PDF for Java – kompleksowe tutoriale dla deweloperów. Rozwijaj swoje umiejętności przetwarzania PDF już dziś!
+Unlock the Power of PDF Conversion & Transformation with Aspose.PDF for Java - Comprehensive Tutorials for Developers. Enhance Your PDF Processing Skills Today!
 ### [Obrazy PDF](./pdf-images/)
-Poznaj manipulację obrazami w PDF przy użyciu Aspose.PDF for Java. Naucz się wstawiać, modyfikować i optymalizować obrazy w PDF‑ach bez wysiłku.
-### [Manipulacja Obrazami PDF](./pdf-image-manipulation/)
-Naucz się manipulacji obrazami PDF w Aspose.PDF for Java. Transformuj, edytuj i optymalizuj obrazy w swoich dokumentach PDF bez problemu.
-### [Linki w Dokumencie PDF](./pdf-document-links/)
-Poznaj linki w dokumentach PDF w Javie dzięki tutorialom Aspose.PDF for Java. Twórz hiperłącza, zakładki i interaktywne PDF‑y bez trudu.
-### [Manipulacja Stronami PDF](./pdf-page-manipulation/)
-Poznaj manipulację stronami PDF w Aspose.PDF for Java. Naucz się przestawiać, wyodrębniać i ulepszać strony PDF bez wysiłku.
-### [Operacje na Dokumencie PDF](./pdf-document-operations/)
-Poznaj operacje na dokumentach PDF w Aspose.PDF for Java. Naucz się manipulować, tworzyć i ulepszać PDF‑y płynnie w Javie.
-### [Pola Formularzy PDF](./pdf-form-fields/)
-Naucz się tworzyć interaktywne formularze PDF w Aspose.PDF for Java. Kompleksowe tutoriale dla efektywnej manipulacji polami formularzy.
+Explore PDF image manipulation with Aspose.PDF for Java. Learn to insert, modify, and optimize images in PDFs effortlessly.
+### [Manipulacja obrazami PDF](./pdf-image-manipulation/)
+Learn PDF image manipulation with Aspose.PDF for Java. Transform, edit, and optimize images in your PDF documents effortlessly.
+### [Linki w dokumencie PDF](./pdf-document-links/)
+Explore PDF document links in Java with Aspose.PDF for Java tutorials. Create hyperlinks, bookmarks, and interactive PDFs effortlessly.
+### [Manipulacja stronami PDF](./pdf-page-manipulation/)
+Explore PDF Page Manipulation with Aspose.PDF for Java. Learn to rearrange, extract, and enhance PDF pages effortlessly.
+### [Operacje na dokumencie PDF](./pdf-document-operations/)
+Explore PDF Document Operations with Aspose.PDF for Java. Learn to manipulate, create, and enhance PDFs seamlessly in Java.
+### [Pola formularzy PDF](./pdf-form-fields/)
+Learn to create interactive PDF forms with Aspose.PDF for Java. Comprehensive tutorials for efficient form field manipulation.
 ### [Tabele PDF](./pdf-tables/)
-Poznaj tabele PDF w Aspose.PDF for Java. Łatwo twórz i manipuluj tabelami w swoich dokumentach PDF. 
-### [Elementy Struktury PDF](./pdf-structure-elements/)
-Poznaj tutoriale Aspose.PDF for Java, aby opanować elementy struktury PDF. Twórz uporządkowane, dostępne PDF‑y bez trudu.
-### [Tagi i Struktura PDF](./pdf-tags-and-structure/)
-Opanuj tagi i strukturę PDF w Javie dzięki tutorialom Aspose.PDF for Java. Twórz dostępne i uporządkowane PDF‑y bez wysiłku.
-### [Style i Formatowanie PDF](./pdf-styles-and-formatting/)
-Naucz się stylów i formatowania PDF w Javie z Aspose.PDF for Java. Opanuj estetykę i układ PDF dla zachwycających dokumentów.
-### [Wyodrębnianie Tekstu PDF](./pdf-text-extraction/)
-Naucz się wyodrębniać tekst z PDF przy użyciu Aspose.PDF for Java. Otrzymaj krok po kroku tutoriale dla efektywnego wyodrębniania tekstu z PDF‑ów.
-### [Walidacja i Weryfikacja PDF](./pdf-validation-and-verification/)
-Poznaj walidację i weryfikację PDF przy użyciu Aspose.PDF for Java. Zapewnij integralność dokumentu i zgodność w naszych kompleksowych tutorialach.
-### [Tworzenie Dokumentów](./document-creation/)
-Naucz się tworzyć dokumenty PDF od podstaw, z szablonów i innych formatów przy użyciu Aspose.PDF for Java poprzez szczegółowe tutoriale.
-### [Manipulacja Dokumentami](./document-manipulation/)
-Kompletne tutoriale dotyczące dodawania, modyfikacji i manipulacji zawartością w dokumentach PDF przy użyciu Aspose.PDF for Java.
-### [Operacje na Tekście](./text-operations/)
-Krok po kroku tutoriale dotyczące pracy z tekstem, czcionkami, formatowaniem i wyodrębnianiem tekstu w dokumentach PDF przy użyciu Aspose.PDF for Java.
-### [Obrazy i Grafika](./images-graphics/)
-Naucz się pracować z obrazami, grafiką wektorową i elementami wizualnymi w dokumentach PDF dzięki tym tutorialom Aspose.PDF Java.
-### [Tabele i Listy](./tables-lists/)
-Kompletne tutoriale dotyczące tworzenia i manipulacji tabelami, listami i strukturalną treścią w dokumentach PDF przy użyciu Aspose.PDF for Java.
-### [Formularze i Adnotacje](./forms-annotations/)
-Krok po kroku tutoriale dotyczące pracy z interaktywnymi formularzami, adnotacjami i komentarzami w dokumentach PDF przy użyciu Aspose.PDF for Java.
-### [Bezpieczeństwo i Uprawnienia](./security-permissions/)
-Naucz się wdrażać szyfrowanie dokumentów, podpisy cyfrowe, redakcję i kontrolę dostępu w dokumentach PDF przy użyciu tutoriali Aspose.PDF Java.
-### [Konwersja i Eksport](./conversion-export/)
-Kompletne tutoriale dotyczące konwersji dokumentów PDF do i z innych formatów (DOC, DOCX, HTML, obrazy) przy użyciu Aspose.PDF for Java.
-### [Drukowanie i Renderowanie](./printing-rendering/)
-Krok po kroku tutoriale dotyczące implementacji funkcji drukowania, renderowania wizualnego i podglądu PDF przy użyciu Aspose.PDF for Java.
-### [Załączniki i Pliki Osadzone](./attachments-embedded-files/)
-Naucz się pracować z załącznikami plików, zasobami osadzonymi i powiązaną treścią w dokumentach PDF przy użyciu Aspose.PDF for Java.
-### [Metadane i Informacje o Dokumencie](./metadata-document-info/)
-Kompletne tutoriale dotyczące zarządzania właściwościami dokumentu, metadanymi i polami informacyjnymi w plikach PDF przy użyciu Aspose.PDF for Java.
+Explore PDF tables with Aspose.PDF for Java. Effortlessly create and manipulate tables in your PDF documents. 
+### [Elementy struktury PDF](./pdf-structure-elements/)
+Explore Aspose.PDF for Java tutorials to master PDF structure elements. Create organized, accessible PDFs effortlessly.
+### [Tagi i struktura PDF](./pdf-tags-and-structure/)
+Master PDF tags and structure in Java with Aspose.PDF for Java tutorials. Create accessible and organized PDFs effortlessly.
+### [Style i formatowanie PDF](./pdf-styles-and-formatting/)
+Learn PDF styles and formatting in Java with Aspose.PDF for Java. Master PDF aesthetics and layout for stunning documents.
+### [Wyodrębnianie tekstu PDF](./pdf-text-extraction/)
+Learn PDF text extraction with Aspose.PDF for Java. Get step-by-step tutorials for efficient text extraction from PDFs.
+### [Walidacja i weryfikacja PDF](./pdf-validation-and-verification/)
+Explore PDF validation and verification using Aspose.PDF for Java. Ensure document integrity and compliance in our comprehensive tutorials.
+### [Tworzenie dokumentu](./document-creation/)
+Learn how to create PDF documents from scratch, templates, and other formats with Aspose.PDF for Java through detailed tutorials.
+### [Manipulacja dokumentem](./document-manipulation/)
+Complete tutorials for adding, modifying, and manipulating content in PDF documents using Aspose.PDF for Java.
+### [Operacje na tekście](./text-operations/)
+Step-by-step tutorials for working with text, fonts, formatting, and text extraction in PDF documents using Aspose.PDF for Java.
+### [Obrazy i grafika](./images-graphics/)
+Learn to work with images, vector graphics, and visual elements in PDF documents with these Aspose.PDF Java tutorials.
+### [Tabele i listy](./tables-lists/)
+Complete tutorials for creating and manipulating tables, lists, and structured content in PDF documents using Aspose.PDF for Java.
+### [Formularze i adnotacje](./forms-annotations/)
+Step-by-step tutorials for working with interactive forms, annotations, and comments in PDF documents using Aspose.PDF for Java.
+### [Bezpieczeństwo i uprawnienia](./security-permissions/)
+Learn to implement document encryption, digital signatures, redaction, and access controls in PDF documents with Aspose.PDF Java tutorials.
+### [Konwersja i eksport](./conversion-export/)
+Complete tutorials for converting PDF documents to and from other formats (DOC, DOCX, HTML, images) using Aspose.PDF for Java.
+### [Drukowanie i renderowanie](./printing-rendering/)
+Step-by-step tutorials for implementing printing functionality, visual rendering, and PDF preview with Aspose.PDF for Java.
+### [Załączniki i pliki osadzone](./attachments-embedded-files/)
+Learn to work with file attachments, embedded resources, and linked content in PDF documents using Aspose.PDF for Java.
+### [Metadane i informacje o dokumencie](./metadata-document-info/)
+Complete tutorials for managing document properties, metadata, and information fields in PDF files using Aspose.PDF for Java.
 ### [Zgodność PDF/A](./pdfa-compliance/)
-Krok po kroku tutoriale dotyczące tworzenia i walidacji dokumentów zgodnych z PDF/A dla archiwizacji przy użyciu Aspose.PDF for Java.
-### [Zakładki i Nawigacja](./bookmarks-navigation/)
-Naucz się implementować zakładki dokumentu, hiperłącza i elementy nawigacyjne w dokumentach PDF przy użyciu tutoriali Aspose.PDF Java.
-### [Znaki wodne i Tła](./watermarks-backgrounds/)
-Kompletne tutoriale dotyczące dodawania znaków wodnych tekstowych i graficznych, tła oraz elementów dekoracyjnych do dokumentów PDF przy użyciu Aspose.PDF for Java.
-### [Podpisy Cyfrowe](./digital-signatures/)
-Krok po kroku tutoriale dotyczące implementacji podpisów cyfrowych, certyfikatów i weryfikacji podpisu w dokumentach PDF przy użyciu Aspose.PDF for Java.
-### [Zaawansowane Funkcje](./advanced-features/)
-Naucz się implementować warstwy, portfolia, funkcje dostępności i zaawansowane możliwości PDF przy użyciu tych tutoriali Aspose.PDF Java.
-### [Optymalizacja Wydajności](./performance-optimization/)
-Krok po kroku tutoriale dotyczące optymalizacji zużycia pamięci, przyspieszania przetwarzania i obsługi dużych plików PDF przy użyciu Aspose.PDF for Java.
+Step-by-step tutorials for creating and validating PDF/A compliant documents for archiving using Aspose.PDF for Java.
+### [Zakładki i nawigacja](./bookmarks-navigation/)
+Learn to implement document bookmarks, hyperlinks, and navigation elements in PDF documents with Aspose.PDF Java tutorials.
+### [Znaki wodne i tła](./watermarks-backgrounds/)
+Complete tutorials for adding text and image watermarks, backgrounds, and decorative elements to PDF documents with Aspose.PDF for Java.
+### [Podpisy cyfrowe](./digital-signatures/)
+Step-by-step tutorials for implementing digital signatures, certificates, and signature validation in PDF documents with Aspose.PDF for Java.
+### [Zaawansowane funkcje](./advanced-features/)
+Learn to implement layers, portfolios, accessibility features, and advanced PDF functionality with these Aspose.PDF Java tutorials.
+### [Optymalizacja wydajności](./performance-optimization/)
+Step-by-step tutorials for optimizing memory usage, improving processing speed, and handling large PDF files with Aspose.PDF for Java.
 
 ## Najczęściej zadawane pytania
 
-**P: Czy mogę używać Aspose.PDF for Java w projekcie komercyjnym?**  
-A: Tak, pod warunkiem posiadania ważnej licencji komercyjnej. Dostępna jest bezpłatna wersja próbna do oceny.
+**Q: Czy mogę używać Aspose.PDF dla Java w projekcie komercyjnym?**  
+A: Tak, pod warunkiem posiadania ważnej licencji komercyjnej. Dostępna jest darmowa wersja próbna do oceny.
 
-**P: Czy biblioteka obsługuje PDF zabezpieczone hasłem?**  
-A: Zdecydowanie. Możesz otwierać zaszyfrowane PDF, podając hasło podczas ładowania dokumentu.
+**Q: Czy biblioteka obsługuje PDF‑y zabezpieczone hasłem?**  
+A: Zdecydowanie tak. Możesz otworzyć zaszyfrowane PDF‑y, podając hasło podczas ładowania dokumentu.
 
-**P: Które wersje Javy są kompatybilne z Aspose.PDF?**  
+**Q: Które wersje Javy są kompatybilne z Aspose.PDF?**  
 A: Java 8, 11 i nowsze wersje są w pełni wspierane.
 
-**P: Jak obsłużyć bardzo duże pliki PDF bez wyczerpania pamięci?**  
+**Q: Jak radzić sobie z bardzo dużymi plikami PDF bez wyczerpania pamięci?**  
 A: Użyj metody `Document.optimizeResources()` i przetwarzaj strony w trybie strumieniowym, aby zmniejszyć zużycie pamięci.
 
-**P: Czy można dodać zarówno znak wodny, jak i podpis cyfrowy do tego samego PDF?**  
-A: Tak. Najpierw zastosuj znak wodny, a następnie podpisz dokument; podpis obejmie ostateczną zawartość.
+**Q: Czy można dodać zarówno znak wodny, jak i podpis cyfrowy do tego samego PDF?**  
+A: Tak. Najpierw zastosuj znak wodny, a potem podpisz dokument; podpis obejmie ostateczną treść.
 
 ---
 
-**Ostatnia aktualizacja:** 2025-11-28  
-**Testowano z:** Aspose.PDF for Java 24.11 (najnowsza w momencie pisania)  
+**Ostatnia aktualizacja:** 2026-02-09  
+**Testowane z:** Aspose.PDF for Java 24.11 (latest at time of writing)  
 **Autor:** Aspose  
-
----
-
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

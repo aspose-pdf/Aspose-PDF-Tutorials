@@ -1,8 +1,8 @@
 ---
-date: '2025-12-09'
-description: Tìm hiểu cách gắn thẻ tệp PDF trong Java bằng Aspose.PDF. Bài hướng dẫn
-  này chỉ cách tạo PDF có khả năng truy cập, thêm đoạn văn vào PDF bằng Java và áp
-  dụng gắn thẻ khả năng truy cập cho PDF.
+date: '2026-02-09'
+description: Tìm hiểu cách gắn thẻ tệp PDF trong Java bằng Aspose.PDF, tạo tài liệu
+  PDF có khả năng truy cập, đặt tiêu đề PDF và thêm thẻ để tương thích với trình đọc
+  màn hình.
 keywords:
 - tagged PDFs in Java
 - Aspose.PDF for Java
@@ -21,42 +21,36 @@ weight: 1
 # Cách Gắn Thẻ PDF trong Java bằng Aspose.PDF: Hướng Dẫn Toàn Diện về Khả Năng Truy Cập và Cấu Trúc
 
 ## Giới thiệu
-Việc tạo tài liệu PDF có khả năng truy cập và học **cách gắn thẻ PDF** là rất quan trọng đối với người dùng dựa vào trình đọc màn hình và các công nghệ hỗ trợ khác. Đảm bảo PDF của bạn vừa có khả năng truy cập vừa được cấu trúc tốt có thể là thách thức, nhưng Aspose.PDF cho Java giúp quá trình này trở nên đơn giản bằng cách cho phép bạn đặt tiêu đề, ngôn ngữ và nội dung có cấu trúc trực tiếp trong PDF.
+Việc tạo tài liệu PDF có khả năng truy cập và học **cách gắn thẻ PDF** là rất quan trọng đối với người dùng dựa vào trình đọc màn hình và các công nghệ hỗ trợ khác. Đảm bảo PDF của bạn vừa có khả năng truy cập vừa được cấu trúc tốt có thể là thách thức, nhưng Aspose.PDF for Java giúp quá trình này trở nên đơn giản bằng cách cho phép bạn đặt tiêu đề, ngôn ngữ và nội dung có cấu trúc trực tiếp trong PDF.
 
-Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng thư viện Aspose.PDF để tạo tài liệu PDF có gắn thẻ trong Java. Bạn sẽ học cách:
-- Đặt tiêu đề và thuộc tính ngôn ngữ cho PDF.
-- Thêm các phần tử đoạn văn và span để cải thiện cấu trúc tài liệu.
-- Nhúng các phần tử span vào trong đoạn văn để tạo bố cục phức tạp hơn.
+Trong hướng dẫn này, bạn sẽ khám phá cách:
+- **Đặt tiêu đề PDF** và thuộc tính ngôn ngữ để cải thiện khả năng truy cập.  
+- **Thêm các phần đoạn (paragraph) và span** để xây dựng một cấu trúc tài liệu logic.  
+- **Lồng các phần span** vào trong các đoạn để tạo bố cục phức tạp.  
 
-Hãy cùng bắt đầu thiết lập môi trường và triển khai các tính năng này!
+Chúng tôi sẽ hướng dẫn từng bước, giải thích lý do quan trọng và cung cấp các mẹo thực tế mà bạn có thể áp dụng ngay lập tức.
 
 ### Câu trả lời nhanh
 - **Gắn thẻ khả năng truy cập PDF là gì?** Đó là quá trình thêm cấu trúc logic (các thẻ) vào PDF để trình đọc màn hình có thể diễn giải nội dung một cách chính xác.  
 - **Tại sao nên dùng Aspose.PDF để gắn thẻ?** Nó cung cấp một API mượt mà để tạo, chỉnh sửa và gắn thẻ PDF mà không cần Adobe Acrobat.  
-- **Thời gian thực hiện cơ bản là bao lâu?** Khoảng 10–15 phút cho một tài liệu đơn giản.  
+- **Thời gian thực hiện cơ bản mất bao lâu?** Khoảng 10–15 phút cho một tài liệu đơn giản.  
 - **Có cần giấy phép không?** Bản dùng thử đủ cho việc đánh giá, nhưng cần giấy phép cho môi trường sản xuất.  
-- **Phiên bản Java nào được hỗ trợ?** Java 8 trở lên (bao gồm Java 11, 17 và 21).
-
-### Điều kiện tiên quyết
-Trước khi bắt đầu, hãy đảm bảo bạn đã có:
-- **Môi trường phát triển Java:** Đã cài JDK (phiên bản 8 hoặc mới hơn).  
-- **Công cụ xây dựng Maven/Gradle:** Quen thuộc với việc sử dụng Maven hoặc Gradle để quản lý phụ thuộc.  
-- **Kiến thức cơ bản về Java:** Hiểu các khái niệm lập trình Java.
+- **Các phiên bản Java nào được hỗ trợ?** Java 8 trở lên (bao gồm Java 11, 17 và 21).
 
 ## Gắn Thẻ Khả Năng Truy Cập PDF là gì?
-Gắn thẻ khả năng truy cập PDF liên quan đến việc nhúng một cấu trúc logic (tiêu đề, đề mục, đoạn văn, span, bảng, v.v.) vào PDF. Cấu trúc này cho phép các công nghệ hỗ trợ trình bày nội dung theo một thứ tự có nghĩa, giúp tài liệu **tạo ra PDF có khả năng truy cập**.
+Gắn thẻ khả năng truy cập PDF liên quan đến việc nhúng một cấu trúc logic (tiêu đề, đề mục, đoạn, span, bảng, v.v.) vào PDF. Cấu trúc này cho phép các công nghệ hỗ trợ trình bày nội dung theo một thứ tự có nghĩa, giúp tài liệu **tạo ra PDF có khả năng truy cập**.
 
 ## Tại sao nên dùng Aspose.PDF cho Java?
-Aspose.PDF cho Java là một giải pháp **aspose pdf java tutorial**‑cấp độ cao, cung cấp:
-- Hoạt động trên bất kỳ nền tảng nào hỗ trợ Java.
-- Cho phép bạn tạo, chỉnh sửa và gắn thẻ PDF một cách lập trình.
-- Kiểm soát chi tiết các phần tử gắn thẻ như đoạn văn và span, rất cần thiết cho các trường hợp **add paragraph pdf java**.
+Aspose.PDF for Java là một giải pháp **aspose pdf java tutorial**‑cấp độ cao mà:
+- Hoạt động trên bất kỳ nền tảng nào hỗ trợ Java.  
+- Cho phép bạn tạo, chỉnh sửa và gắn thẻ PDF một cách lập trình.  
+- Cung cấp kiểm soát chi tiết đối với các phần tử gắn thẻ như đoạn và span—lý tưởng cho các trường hợp **add paragraph pdf java**.
 
 ## Cài Đặt Aspose.PDF cho Java
-Để bắt đầu sử dụng Aspose.PDF trong dự án Java, bạn cần thêm thư viện này làm phụ thuộc. Dưới đây là cách thực hiện với Maven và Gradle:
+Để bắt đầu làm việc với Aspose.PDF trong dự án Java, bạn cần thêm thư viện này như một phụ thuộc. Dưới đây là cách thực hiện bằng Maven và Gradle:
 
 ### Cài đặt Maven
-Thêm phụ thuộc sau vào file `pom.xml` của bạn:
+Thêm phụ thuộc sau vào tệp `pom.xml` của bạn:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -66,24 +60,24 @@ Thêm phụ thuộc sau vào file `pom.xml` của bạn:
 ```
 
 ### Cài đặt Gradle
-Thêm đoạn này vào file `build.gradle` của bạn:
+Thêm đoạn này vào tệp `build.gradle` của bạn:
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
 ### Nhận Giấy Phép
-Để sử dụng Aspose.PDF vượt qua giới hạn bản dùng thử, bạn có thể lấy giấy phép tạm thời hoặc mua giấy phép đầy đủ. Cách thực hiện:
+Để sử dụng Aspose.PDF vượt qua giới hạn dùng thử, bạn có thể lấy giấy phép tạm thời hoặc mua giấy phép đầy đủ. Cách thực hiện:
 - **Dùng thử miễn phí:** Tải phiên bản mới nhất từ [Aspose PDF Java Releases](https://releases.aspose.com/pdf/java/).  
 - **Giấy phép tạm thời:** Yêu cầu giấy phép tạm thời miễn phí qua [Aspose Temporary License Page](https://purchase.aspose.com/temporary-license/).  
 - **Mua giấy phép:** Mua giấy phép đầy đủ tại [Aspose Purchase Page](https://purchase.aspose.com/buy).
 
-Sau khi có file giấy phép, áp dụng nó trong ứng dụng Java để mở khóa toàn bộ tính năng.
+Sau khi có tệp giấy phép, áp dụng nó trong ứng dụng Java của bạn để mở khóa tất cả các tính năng.
 
-## Hướng Dẫn Triển Khai
-Chúng ta sẽ chia triển khai thành ba tính năng chính: đặt tiêu đề và ngôn ngữ, thêm đoạn văn và span, và nhúng span vào trong đoạn văn. Mỗi phần đều có các bước chi tiết kèm đoạn mã mẫu.
+## Cách Gắn Thẻ PDF trong Java với Aspose.PDF
+Chúng tôi sẽ chia triển khai thành ba tính năng chính: đặt tiêu đề và ngôn ngữ, thêm các phần đoạn và span, và lồng span trong đoạn. Mỗi phần bao gồm hướng dẫn chi tiết từng bước.
 
-### Đặt Tiêu Đề và Ngôn Ngữ cho Tài Liệu PDF
-**Tổng quan:** Tính năng này minh họa cách xác định tiêu đề và ngôn ngữ của tài liệu PDF có gắn thẻ, đảm bảo khả năng truy cập và được công nghệ hỗ trợ diễn giải đúng.
+### Đặt Tiêu đề và Ngôn ngữ cho Tài liệu PDF
+**Tổng quan:** Xác định tiêu đề và ngôn ngữ của PDF đã gắn thẻ giúp các công nghệ hỗ trợ thông báo tài liệu một cách chính xác.
 
 #### Triển khai từng bước
 1. **Khởi tạo đối tượng Aspose.PDF Document:**
@@ -109,13 +103,13 @@ Chúng ta sẽ chia triển khai thành ba tính năng chính: đặt tiêu đ�
    ```java
    document.save(outFile);
    ```
-**Giải thích:** Khi đặt tiêu đề và ngôn ngữ, bạn cung cấp siêu dữ liệu quan trọng giúp **pdf accessibility tagging** và giúp trình đọc màn hình thông báo đúng tài liệu.
+**Giải thích:** Bằng cách đặt tiêu đề và ngôn ngữ, bạn cung cấp siêu dữ liệu quan trọng hỗ trợ **pdf accessibility tagging** và giúp trình đọc màn hình thông báo tài liệu đúng cách.
 
-### Thêm Đoạn Văn và Phần Tử Span
-**Tổng quan:** Cải thiện cấu trúc PDF bằng cách thêm các phần tử đoạn văn và span để tạo tài liệu được tổ chức logic.
+### Thêm Các Phần Đoạn và Span
+**Tổng quan:** Các thẻ đoạn và span tạo ra luồng logic cho PDF, giúp người dùng và công cụ dễ dàng điều hướng.
 
 #### Triển khai từng bước
-1. **Tạo Document và Nội Dung Được Gắn Thẻ:**
+1. **Tạo Document và Tagged Content:**
    ```java
    String dataDir = "YOUR_DOCUMENT_DIRECTORY";
    String outFile = dataDir + "AddParagraphAndSpanElements_Output.pdf";
@@ -123,7 +117,7 @@ Chúng ta sẽ chia triển khai thành ba tính năng chính: đặt tiêu đ�
    Document document = new Document();
    ITaggedContent taggedContent = document.getTaggedContent();
    ```
-2. **Thêm Đoạn Văn và Span:**
+2. **Thêm các phần Đoạn và Span:**
    ```java
    import com.aspose.pdf.tagged.logicalstructure.elements.StructureElement;
    import com.aspose.pdf.tagged.logicalstructure.elements.bls.ParagraphElement;
@@ -144,17 +138,17 @@ Chúng ta sẽ chia triển khai thành ba tính năng chính: đặt tiêu đ�
    p1.appendChild(span11);
    p1.appendChild(span12);
    ```
-3. **Lưu Tài Liệu của Bạn:**
+3. **Lưu Document của bạn:**
    ```java
    document.save(outFile);
    ```
-**Giải thích:** Phần này minh họa một kịch bản **add paragraph pdf java** cơ bản, tạo luồng văn bản có cấu trúc, cải thiện khả năng đọc và điều hướng.
+**Giải thích:** Điều này minh họa một trường hợp **add paragraph pdf java** điển hình, tạo ra luồng văn bản có cấu trúc, cải thiện khả năng đọc và điều hướng.
 
-### Nhúng Phần Tử Span vào Đoạn Văn
-**Tổng quan:** Tạo cấu trúc văn bản phức tạp hơn bằng cách nhúng span vào trong đoạn văn.
+### Lồng Các Phần Span trong Phần Đoạn
+**Tổng quan:** Lồng span cho phép bạn xây dựng các cấp độ văn bản phong phú hơn—ví dụ, áp dụng các kiểu khác nhau hoặc nhóm logic bên trong một đoạn duy nhất.
 
 #### Triển khai từng bước
-1. **Khởi tạo Cấu Trúc Tài Liệu:**
+1. **Khởi tạo Cấu trúc Document:**
    ```java
    String dataDir = "YOUR_DOCUMENT_DIRECTORY";
    String outFile = dataDir + "NestSpanElements_Output.pdf";
@@ -162,7 +156,7 @@ Chúng ta sẽ chia triển khai thành ba tính năng chính: đặt tiêu đ�
    Document document = new Document();
    ITaggedContent taggedContent = document.getTaggedContent();
    ```
-2. **Tạo và Nhúng Span:**
+2. **Tạo và Lồng các Phần Span:**
    ```java
    StructureElement rootElement = taggedContent.getRootElement();
 
@@ -187,60 +181,60 @@ Chúng ta sẽ chia triển khai thành ba tính năng chính: đặt tiêu đ�
 
    p4.setText(".");
    ```
-3. **Lưu Tài Liệu:**
+3. **Lưu Document:**
    ```java
    document.save(outFile);
    ```
-**Giải thích:** Việc nhúng cho phép bạn xây dựng cấu trúc chi tiết hơn, rất cần thiết để tạo **generate accessible PDF** đáp ứng tiêu chuẩn truy cập nghiêm ngặt.
+**Giải thích:** Việc lồng giúp bạn xây dựng các cấu trúc phức tạp, điều này rất cần thiết để tạo ra các tài liệu **generate accessible PDF** đáp ứng các tiêu chuẩn khắt khe về khả năng truy cập.
 
 ## Ứng Dụng Thực Tiễn
-Khả năng gắn thẻ của Aspose.PDF có nhiều ứng dụng thực tế:
+Các khả năng gắn thẻ của Aspose.PDF có nhiều ứng dụng trong thực tế:
 - **Xuất bản kỹ thuật số:** Tạo e‑book có khả năng truy cập với nội dung có cấu trúc.  
 - **Tài liệu chính phủ:** Đảm bảo tuân thủ các quy định về khả năng truy cập.  
-- **Báo cáo doanh nghiệp:** Nâng cao khả năng điều hướng và đọc cho các bên liên quan.  
+- **Báo cáo doanh nghiệp:** Nâng cao khả năng điều hướng và đọc hiểu cho các bên liên quan.  
 - **Tài liệu giáo dục:** Cung cấp tài nguyên học tập có khả năng truy cập cho sinh viên.
 
 ## Lưu Ý Về Hiệu Suất
-Khi làm việc với PDF lớn hoặc cấu trúc phức tạp, hãy nhớ:
+Khi làm việc với PDF lớn hoặc cấu trúc thẻ phức tạp, hãy ghi nhớ các mẹo sau:
 - **Quản lý bộ nhớ:** Giải phóng các đối tượng ngay sau khi sử dụng.  
 - **Xử lý theo lô:** Xử lý tài liệu theo lô để kiểm soát tiêu thụ tài nguyên.  
-- **Cập nhật thường xuyên:** Sử dụng phiên bản mới nhất của Aspose.PDF để được cải thiện hiệu suất và sửa lỗi.
+- **Cập nhật thường xuyên:** Sử dụng phiên bản Aspose.PDF mới nhất để có cải tiến về hiệu suất và sửa lỗi.
 
 ## Các Vấn Đề Thường Gặp và Giải Pháp
 | Vấn đề | Giải pháp |
 |-------|----------|
-| **Thẻ không hiển thị trong trình xem PDF** | Kiểm tra rằng `taggedContent.setTitle()` và `setLanguage()` đã được gọi trước khi lưu. |
-| **Kích thước file lớn** | Gọi `document.optimizeResources()` trước `save()` để nén tài nguyên. |
-| **Thứ tự văn bản không mong muốn** | Đảm bảo bạn thêm span vào đoạn văn theo đúng thứ tự mong muốn. |
+| **Thẻ không hiển thị trong trình xem PDF** | Kiểm tra rằng `taggedContent.setTitle()` và `setLanguage()` được gọi trước khi lưu. |
+| **Kích thước tệp lớn** | Gọi `document.optimizeResources()` trước `save()` để nén tài nguyên. |
+| **Thứ tự văn bản không mong muốn** | Đảm bảo bạn thêm các span vào đoạn theo thứ tự mong muốn. |
 
 ## Câu Hỏi Thường Gặp
 
-**H: Làm sao để PDF đáp ứng tiêu chuẩn WCAG 2.1?**  
-Đ: Sử dụng Aspose.PDF để đặt tiêu đề, ngôn ngữ và gắn thẻ đúng (đoạn văn, span, đề mục). Chạy PDF qua công cụ kiểm tra khả năng truy cập (ví dụ PAC 3) để xác nhận.
+**H: Làm sao để đảm bảo PDF của tôi đáp ứng tiêu chuẩn WCAG 2.1?**  
+Đ: Sử dụng Aspose.PDF để đặt tiêu đề tài liệu, ngôn ngữ và gắn thẻ đúng cách (đoạn, span, đề mục). Chạy PDF qua công cụ kiểm tra khả năng truy cập (ví dụ: PAC 3) để xác nhận tuân thủ.
 
-**H: Có thể gắn thẻ PDF đã tồn tại mà không có thẻ không?**  
-Đ: Có. Tải PDF, lấy `ITaggedContent`, và thêm các thẻ còn thiếu bằng lập trình trước khi lưu.
+**H: Tôi có thể gắn thẻ PDF đã tồn tại mà không có thẻ không?**  
+Đ: Có. Tải PDF, lấy `ITaggedContent`, thêm các thẻ còn thiếu bằng lập trình, sau đó lưu lại.
 
-**H: Aspose.PDF có hỗ trợ ngôn ngữ khác và script viết từ phải sang trái không?**  
-Đ: Có. Đặt mã ngôn ngữ phù hợp (ví dụ `ar-SA` cho tiếng Ả Rập) và thêm văn bản Unicode vào span.
+**H: Aspose.PDF có hỗ trợ các ngôn ngữ khác và script viết từ phải sang trái không?**  
+Đ: Hoàn toàn có. Đặt mã ngôn ngữ phù hợp (ví dụ `ar-SA` cho tiếng Ả Rập) và thêm văn bản Unicode vào các span.
 
-**H: Cách xử lý tài liệu rất lớn (hàng trăm trang) tốt nhất?**  
-Đ: Xử lý tài liệu theo phần, dùng `Document.optimizeResources()`, và cân nhắc streaming đầu ra để tránh tiêu thụ bộ nhớ cao.
+**H: Cách xử lý tài liệu rất lớn (hàng trăm trang) tốt nhất là gì?**  
+Đ: Xử lý tài liệu theo từng phần, sử dụng `Document.optimizeResources()`, và cân nhắc streaming đầu ra để tránh tiêu thụ bộ nhớ cao.
 
-**H: Có cách nào kiểm tra cây thẻ sau khi tạo không?**  
-Đ: Bạn có thể xuất cây cấu trúc của PDF bằng `document.getTaggedContent().getRootElement()` và kiểm tra bằng lập trình hoặc công cụ PDF.
+**H: Có cách nào để xác thực cây thẻ sau khi tạo không?**  
+Đ: Bạn có thể xuất cây cấu trúc của PDF bằng `document.getTaggedContent().getRootElement()` và kiểm tra nó bằng cách lập trình hoặc dùng công cụ phân tích PDF.
 
-## Kết Luận
-Bạn đã nắm vững **cách gắn thẻ PDF** trong Java bằng Aspose.PDF—đặt tiêu đề, ngôn ngữ và xây dựng nội dung có cấu trúc với đoạn văn và span lồng nhau. Những kỹ thuật này cho phép bạn tạo PDF có khả năng truy cập đáp ứng tiêu chuẩn hiện đại và mang lại trải nghiệm đọc tốt hơn cho mọi người.
+## Kết luận
+Bạn đã nắm vững **cách gắn thẻ PDF** trong Java bằng Aspose.PDF—đặt tiêu đề, ngôn ngữ và xây dựng nội dung có cấu trúc với đoạn và span lồng nhau. Những kỹ thuật này cho phép bạn tạo ra các PDF có khả năng truy cập đáp ứng tiêu chuẩn hiện đại và mang lại trải nghiệm đọc tốt hơn cho mọi người dùng.
 
-**Bước Tiếp Theo:**  
+**Bước tiếp theo:**  
 - Thử nghiệm các loại thẻ khác như bảng, danh sách và hình ảnh.  
-- Tích hợp quy trình gắn thẻ vào pipeline tạo tài liệu hiện có.  
-- Khám phá tính năng OCR và chuyển đổi của Aspose.PDF để mở rộng khả năng xử lý tài liệu.
+- Tích hợp quy trình gắn thẻ vào các pipeline tạo tài liệu hiện có.  
+- Khám phá tính năng OCR và chuyển đổi của Aspose.PDF để mở rộng khả năng xử lý tài liệu của bạn.
 
 ---
 
-**Cập nhật lần cuối:** 2025-12-09  
+**Cập nhật lần cuối:** 2026-02-09  
 **Kiểm tra với:** Aspose.PDF for Java 25.3  
 **Tác giả:** Aspose  
 
