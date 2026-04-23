@@ -1,12 +1,12 @@
 ---
-date: '2025-12-22'
-description: Scopri come importare i segnalibri nei PDF usando Aspose.PDF per Java,
-  coprendo l'importazione dei segnalibri da XML e come aggiungere i segnalibri programmaticamente.
+date: '2026-03-01'
+description: Scopri come aggiungere segnalibri ai PDF usando Aspose.PDF per Java,
+  incluso come importare i segnalibri PDF da XML o InputStream in modo programmatico.
 keywords:
 - import bookmarks into PDFs
 - Aspose.PDF for Java
 - XML bookmarks
-title: Come importare i segnalibri nei PDF usando Aspose.PDF per Java
+title: Come aggiungere segnalibri ai PDF usando Aspose.PDF per Java
 url: /it/java/bookmarks-navigation/import-xml-bookmarks-aspose-pdf-java/
 weight: 1
 ---
@@ -16,29 +16,32 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Come importare i segnalibri nei PDF usando Aspose.PDF per Java
+# Come aggiungere segnalibri ai PDF usando Aspose.PDF per Java
 
 ## Introduzione
-Se stai cercando un modo chiaro, passo‑per‑passo **per importare i segnalibri** in un PDF, sei nel posto giusto. In questo tutorial ti mostreremo come inserire strutture di segnalibri basate su XML in file PDF esistenti con Aspose.PDF per Java, rendendo i documenti voluminosi immediatamente navigabili e facili da usare.
+Se stai cercando una guida chiara, passo‑per‑passo su **come aggiungere segnalibri** a un PDF, sei nel posto giusto. In questo tutorial ti mostreremo come inserire strutture di segnalibri basate su XML in file PDF esistenti con Aspose.PDF per Java, rendendo i documenti di grandi dimensioni immediatamente navigabili e facili da usare.
 
 **Cosa imparerai**
-- Come importare i segnalibri da XML in un PDF
-- Come aggiungere i segnalibri programmaticamente usando InputStream
-- Le funzionalità chiave della classe `PdfBookmarkEditor`
+- Come importare i segnalibri PDF da XML in un PDF
+- Come aggiungere segnalibri programmaticamente usando `InputStream`
+- Caratteristiche principali della classe `PdfBookmarkEditor`
 - Suggerimenti sulle prestazioni per l'elaborazione su larga scala
 
 ## Risposte rapide
 - **Quale libreria è necessaria?** Aspose.PDF per Java (v25.3 o successiva).  
-- **Posso importare i segnalibri da XML?** Sì – usa `importBookmarksWithXML`.  
-- **È necessaria una licenza per lo sviluppo?** Una licenza di prova gratuita è sufficiente per i test; è richiesta una licenza acquistata per la produzione.  
+- **Posso importare segnalibri da XML?** Sì – usa `importBookmarksWithXML`.  
+- **Ho bisogno di una licenza per lo sviluppo?** Una licenza di prova gratuita è sufficiente per i test; è necessaria una licenza acquistata per la produzione.  
 - **È supportato un InputStream?** Assolutamente – puoi fornire l'XML tramite `InputStream` per scenari flessibili.  
 - **Funziona con PDF di grandi dimensioni?** Sì, con una corretta gestione dello stream e l'elaborazione batch.
 
-## Che cosa significa “come importare i segnalibri”?
-Importare i segnalibri significa prendere una struttura di navigazione predefinita (di solito memorizzata in XML) e incorporarla in un PDF affinché i lettori possano saltare direttamente a sezioni, capitoli o a qualsiasi punto logico del documento.
+## Come aggiungere segnalibri ai PDF
+Aggiungere segnalibri consiste essenzialmente nell'incorporare una mappa di navigazione all'interno del PDF in modo che i lettori possano passare direttamente a sezioni, capitoli o qualsiasi punto logico. Aspose.PDF astrae la struttura PDF a basso livello, permettendoti di concentrarti sulla logica di business anziché sugli internals del PDF.
 
-## Perché usare Aspose.PDF per Java per questo compito?
-Aspose.PDF offre un'API di alto livello che astrae le complessità interne del PDF, permettendoti di concentrarti sulla logica di business. Supporta sia importazioni basate su file sia su stream, funziona su più piattaforme e non richiede dipendenze native aggiuntive.
+## Perché aggiungere segnalibri ai PDF?
+- **Esperienza utente migliorata:** I lettori possono individuare istantaneamente le sezioni senza scorrere.
+- **Ottimizzato per i motori di ricerca:** I segnalibri fungono da intestazioni logiche indicizzabili.
+- **Pronto per l'automazione:** Perfetto per l'elaborazione batch di migliaia di report, e‑book o documenti legali.
+- **Compatibilità cross‑platform:** Lo stesso codice funziona su Windows, Linux e macOS.
 
 ## Prerequisiti
 ### Librerie e dipendenze richieste
@@ -49,7 +52,7 @@ Aspose.PDF offre un'API di alto livello che astrae le complessità interne del P
 - IDE come IntelliJ IDEA o Eclipse.
 - Maven o Gradle per la gestione delle dipendenze.
 
-### Conoscenze preliminari
+### Prerequisiti di conoscenza
 - Programmazione Java di base.
 - Familiarità con la struttura dei file XML.
 
@@ -72,8 +75,8 @@ implementation 'com.aspose:aspose-pdf:25.3'
 
 ### Passaggi per l'acquisizione della licenza
 - **Prova gratuita:** Registrati per una licenza di prova per esplorare tutte le funzionalità.  
-- **Licenza temporanea:** Richiedi una prova estesa se ti serve una valutazione più lunga.  
-- **Acquisto completo:** Ottieni una licenza commerciale per un uso illimitato in produzione.
+- **Licenza temporanea:** Richiedi una prova estesa se hai bisogno di una valutazione più lunga.  
+- **Acquisto completo:** Ottieni una licenza commerciale per uso illimitato in produzione.
 
 #### Inizializzazione e configurazione di base
 ```java
@@ -90,14 +93,11 @@ public class PdfSetup {
 }
 ```
 
-## Come importare i segnalibri nei PDF
-Di seguito descriviamo due scenari comuni: importare direttamente da un file XML e importare da un `InputStream`. Entrambi gli approcci rispondono alla domanda **come aggiungere i segnalibri** in modo efficiente.
-
-### Importare i segnalibri da file XML (Funzionalità 1)
+## Importare segnalibri PDF da XML (Funzione 1)
 **Panoramica:** Questo metodo legge un file XML che contiene un elenco gerarchico di segnalibri e lo inserisce in un PDF esistente.
 
-#### Implementazione passo‑per‑passo
-1. **Caricare il documento PDF esistente**  
+### Implementazione passo‑per‑passo
+1. **Carica il documento PDF esistente**  
    ```java
    import com.aspose.pdf.facades.PdfBookmarkEditor;
 
@@ -107,38 +107,38 @@ Di seguito descriviamo due scenari comuni: importare direttamente da un file XML
    PdfBookmarkEditor bookmarkEditor = new PdfBookmarkEditor();
    bookmarkEditor.bindPdf(dataDir + "/Input.pdf");
    ```
-   *Spiegazione:* `PdfBookmarkEditor` viene associato al PDF di destinazione.
+   *Spiegazione:* `PdfBookmarkEditor` è associato al PDF di destinazione.
 
-2. **Importare i segnalibri da XML**  
+2. **Importa i segnalibri da XML**  
    ```java
    // Import bookmarks from an XML file.
    bookmarkEditor.importBookmarksWithXML(dataDir + "/bookmarks.xml");
    ```
    *Scopo:* La struttura XML viene analizzata e aggiunta come segnalibri PDF.
 
-3. **Salvare il PDF aggiornato**  
+3. **Salva il PDF aggiornato**  
    ```java
    // Save changes to a new PDF file.
    bookmarkEditor.save(outputDir + "/output.pdf");
    ```
-   *Risultato:* Un nuovo PDF con l’albero di navigazione importato.
+   *Risultato:* Un nuovo PDF con l'albero di navigazione importato.
 
 **Suggerimenti per la risoluzione dei problemi**
 - Verifica che l'XML segua lo schema di Aspose (elemento radice `<Bookmarks>`).  
-- Controlla i permessi dei file se incontri un `IOException`.  
+- Controlla i permessi dei file se incontri `IOException`.  
 
-### Importare i segnalibri da InputStream (Funzionalità 2)
-**Panoramica:** Questo approccio è ideale quando i dati XML provengono da un database, servizio web o qualsiasi fonte in‑memoria.
+## Importare segnalibri PDF da InputStream (Funzione 2)
+**Panoramica:** Questo approccio è ideale quando i dati XML provengono da un database, servizio web o qualsiasi fonte in memoria.
 
-#### Implementazione passo‑per‑passo
-1. **Caricare il documento PDF esistente**  
+### Implementazione passo‑per‑passo
+1. **Carica il documento PDF esistente**  
    ```java
    PdfBookmarkEditor bookmarkeditor = new PdfBookmarkEditor();
    bookmarkeditor.bindPdf(dataDir + "/Input.pdf");
    ```
-   *Spiegazione:* Stessa operazione di associazione vista prima.
+   *Spiegazione:* Stesso passaggio di binding di prima.
 
-2. **Creare un InputStream per i dati XML**  
+2. **Crea un InputStream per i dati XML**  
    ```java
    import java.io.FileInputStream;
    import java.io.InputStream;
@@ -147,14 +147,14 @@ Di seguito descriviamo due scenari comuni: importare direttamente da un file XML
    ```
    *Scopo:* Legge il file XML in uno stream.
 
-3. **Importare i segnalibri usando lo stream**  
+3. **Importa i segnalibri usando lo stream**  
    ```java
    // Use the input stream to import bookmarks.
    bookmarkeditor.importBookmarksWithXML(is);
    ```
    *Scopo del metodo:* Accetta un `InputStream` per fonti di dati flessibili.
 
-4. **Salvare il documento PDF aggiornato**  
+4. **Salva il documento PDF aggiornato**  
    ```java
    bookmarkeditor.save(outputDir + "/output.pdf");
    ```
@@ -165,37 +165,37 @@ Di seguito descriviamo due scenari comuni: importare direttamente da un file XML
 - Convalida la sintassi XML prima di passarla all'editor.
 
 ## Applicazioni pratiche
-1. **Gestione documentale automatizzata** – Elabora in batch migliaia di PDF per aggiungere un indice coerente.  
+1. **Gestione documenti automatizzata** – Elabora in batch migliaia di PDF per aggiungere un indice coerente.  
 2. **Pubblicazione digitale** – Genera e‑book con segnalibri dinamici estratti da un CMS.  
-3. **Documentazione legale** – Naviga rapidamente contratti e fascicoli di causa.  
+3. **Documentazione legale** – Naviga rapidamente contratti e fascicoli.  
 4. **Ricerca accademica** – Aggiungi segnalibri a livello di capitolo a grandi tesi.  
-5. **Report aziendali** – Arricchisci i report annuali con sezioni cliccabili.
+5. **Report aziendali** – Migliora i report annuali con sezioni cliccabili.
 
 ## Considerazioni sulle prestazioni
-- **Uso degli stream:** Preferisci `InputStream` per file XML di grandi dimensioni per mantenere basso l’utilizzo di memoria.  
+- **Uso dello stream:** Preferisci `InputStream` per file XML di grandi dimensioni per mantenere basso l'uso di memoria.  
 - **Concorrenza:** Usa `ExecutorService` di Java per elaborare più PDF in parallelo.  
-- **Elaborazione batch:** Raggruppa i file in batch per ridurre l’overhead di I/O.
+- **Elaborazione batch:** Raggruppa i file in batch per ridurre il sovraccarico I/O.
 
 ## Domande frequenti
 
-**D: Posso importare i segnalibri da formati diversi da XML?**  
+**D: Posso importare segnalibri da formati diversi da XML?**  
 R: Sì. Aspose.PDF supporta anche JSON, FDF e XFDF per l'importazione dei segnalibri.
 
-**D: È necessaria una licenza per usare `PdfBookmarkEditor` in sviluppo?**  
-R: Una licenza di prova gratuita è sufficiente per la valutazione; è richiesta una licenza completa per le distribuzioni in produzione.
+**D: Ho bisogno di una licenza per usare `PdfBookmarkEditor` nello sviluppo?**  
+R: Una licenza di prova gratuita è sufficiente per la valutazione; è necessaria una licenza completa per le distribuzioni in produzione.
 
-**D: Come gestire i PDF protetti da password?**  
+**D: Come gestisco i PDF protetti da password?**  
 R: Apri il PDF con la password usando `PdfBookmarkEditor.bindPdf(String path, String password)` prima di importare i segnalibri.
 
-**D: Cosa succede se la struttura XML è invalida?**  
-R: Aspose.PDF lancia una `PdfException` che descrive il problema di parsing—convalida l'XML rispetto allo schema prima dell'importazione.
+**D: Cosa succede se la struttura XML è non valida?**  
+R: Aspose.PDF genera una `PdfException` che descrive il problema di parsing—convalida prima l'XML rispetto allo schema.
 
 **D: Esiste un modo per verificare che i segnalibri siano stati aggiunti correttamente?**  
-R: Dopo il salvataggio, apri il PDF in qualsiasi visualizzatore e controlla il pannello dei segnalibri; programmaticamente puoi enumerare i segnalibri tramite `PdfBookmarkEditor.getBookmarks()`.
+R: Dopo il salvataggio, apri il PDF in qualsiasi visualizzatore e controlla il pannello dei segnalibri; programmaticamente puoi elencare i segnalibri tramite `PdfBookmarkEditor.getBookmarks()`.
 
 ---
 
-**Ultimo aggiornamento:** 2025-12-22  
+**Ultimo aggiornamento:** 2026-03-01  
 **Testato con:** Aspose.PDF per Java v25.3  
 **Autore:** Aspose  
 
