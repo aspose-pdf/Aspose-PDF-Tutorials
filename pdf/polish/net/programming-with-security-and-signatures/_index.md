@@ -35,6 +35,7 @@ Samouczek zapewnia szczegółowy przegląd metod i technik zapewniających poufn
 | [Podpisz kartą inteligentną, korzystając z pola podpisu](./sign-with-smart-card-using-signature-field/) | Dowiedz się, jak bezpiecznie podpisywać pliki PDF za pomocą karty inteligentnej za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby ułatwić wdrożenie. |  
 | [Sprawdź podpisy PDF w C# – Jak odczytać podpisane pliki PDF](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Dowiedz się, jak odczytywać i weryfikować podpisy PDF w C# przy użyciu Aspose.PDF. |  
 | [Jak naprawić pliki PDF – Kompletny przewodnik C# z Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Dowiedz się, jak naprawić uszkodzone pliki PDF przy użyciu Aspose.PDF dla .NET w języku C# – krok po kroku. |  
+| [Sprawdź podpis PDF w C# – Kompletny przewodnik](./validate-pdf-signature-in-c-complete-guide/) | Dowiedz się, jak zweryfikować podpisy PDF w C# przy użyciu Aspose.PDF – kompletny przewodnik krok po kroku. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

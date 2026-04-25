@@ -86,6 +86,9 @@ Lär dig hur du kombinerar PDF-sidor effektivt med hjälp av N-Up-metoden med As
 ### [Ta bort sidor effektivt från PDF-filer med Aspose.PDF för .NET](./delete-pages-pdf-aspose-dotnet/)
 Lär dig hur du effektivt tar bort sidor från PDF-dokument med hjälp av Aspose.PDF för .NET, ett kraftfullt bibliotek för dokumenthantering i C#.
 
+### [Ta bort teckensnitt från PDF med Aspose – En steg‑för‑steg‑guide](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
+Lär dig hur du tar bort inbäddade teckensnitt från PDF-dokument med Aspose.PDF för .NET i några enkla steg.
+
 ### [Extrahera sidor med Aspose.PDF för .NET: En omfattande guide](./extract-pages-aspose-pdf-net/)
 Lär dig hur du effektivt extraherar specifika sidor från PDF-filer i dina .NET-applikationer med hjälp av Aspose.PDF. Den här guiden täcker installation, implementering och praktiska användningsområden.
 

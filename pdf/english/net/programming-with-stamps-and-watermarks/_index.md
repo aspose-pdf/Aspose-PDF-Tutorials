@@ -20,6 +20,7 @@ Aspose.PDF's "Programming with Stamps and Watermarks" tutorials for .NET walk yo
 ## Tutorials
 | Title | Description |
 | --- | --- | 
+| [Add Bates Numbering to PDFs with Aspose – Complete Guide](./add-bates-numbering-to-pdfs-with-aspose-complete-guide/) | Learn how to add Bates numbering to PDF documents using Aspose.PDF for .NET in this comprehensive step-by-step guide. |
 | [Add Date Time Stamp In PDF File](./add-date-time-stamp/) | Learn how to add a date and time stamp to your PDF files using Aspose.PDF for .NET with this step-by-step guide. Perfect for enhancing document authenticity. |  
 | [Add Image Stamp In PDF File](./add-image-stamp/) | Learn how to add an image stamp to PDF files using Aspose.PDF for .NET with step-by-step guidance and example code. |  
 | [Adding Different Headers In PDF File](./adding-different-headers/) | Learn how to add different headers to PDF files using Aspose.PDF for .NET. Step-by-step guide for customizing your PDFs. |  
