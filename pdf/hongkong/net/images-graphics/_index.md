@@ -164,6 +164,9 @@ Aspose.PDF Net 程式碼教學
 ### [使用 Aspose.Pdf for .NET 設定 PDF 中的影像背景：綜合指南](./aspose-pdf-net-set-image-backgrounds/)
 了解如何使用 Aspose.PDF for .NET 設定影像背景來增強您的 PDF 文件。本指南涵蓋設定、實作和優化技巧。
 
+### [如何驗證 PDF 並新增矩形 – 完整指南](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
+了解如何使用 Aspose.PDF for .NET 驗證 PDF 文件的完整性並在其中新增矩形，以提升文件的安全性與視覺效果。
+
 ## 其他資源
 
 - [Aspose.PDF 用於網頁文檔](https://docs.aspose.com/pdf/net/)

@@ -50,6 +50,9 @@ Lär dig hur du effektivt skriver ut specifika sidor i en PDF med Aspose.PDF fö
 ### [Ställ in anpassad zoomfaktor i PDF-filer med Aspose.PDF för .NET - En komplett guide](./aspose-pdf-net-set-zoom-factor-pdfs/)
 Lär dig hur du ställer in en anpassad zoomfaktor i PDF-dokument med Aspose.PDF för .NET. Den här guiden behandlar installation, implementeringssteg och praktiska tillämpningar.
 
+### [Hur man renderar PDF som PNG i C# – Steg‑för‑steg‑guide](./how-to-render-pdf-as-png-in-c-step-by-step-guide/)
+Lär dig hur du konverterar PDF‑sidor till PNG‑bilder i C# med Aspose.PDF genom en enkel steg‑för‑steg‑guide.
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

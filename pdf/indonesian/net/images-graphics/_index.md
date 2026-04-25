@@ -37,6 +37,8 @@ Pelajari cara membuat dan mengisi persegi panjang dalam dokumen PDF menggunakan 
 
 ### [Buat Stempel PDF Kustom dengan Aspose.PDF di .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Tutorial kode untuk Aspose.PDF Net
+### [Cara Memvalidasi PDF dan Menambahkan Persegi Panjang – Panduan Lengkap](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
+Panduan lengkap untuk memvalidasi PDF dan menambahkan persegi panjang menggunakan Aspose.PDF untuk .NET.
 
 ### [Membuat PDF dengan Sorotan Batas Menggunakan Aspose.PDF .NET: Panduan Lengkap untuk Pengembang](./create-pdf-borders-highlight-aspose-pdf-net/)
 Pelajari cara membuat dokumen PDF yang menarik secara visual dengan mengekstrak dan menyorot paragraf menggunakan Aspose.PDF .NET. Tingkatkan keterbacaan dokumen Anda dengan bingkai khusus.

@@ -104,6 +104,9 @@ Aprenda a crear archivos PDF accesibles, etiquetados e incrustados con imágenes
 ### [Cómo crear rectángulos transparentes en archivos PDF con Aspose.PDF para .NET](./create-transparent-rectangles-aspose-pdf-dotnet/)
 Aprenda a mejorar sus documentos PDF creando rectángulos con transparencia alfa con Aspose.PDF para .NET. Siga esta guía paso a paso.
 
+### [Cómo validar PDF y añadir un rectángulo – Guía completa](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
+Aprenda a validar la integridad de un PDF y a dibujar un rectángulo usando Aspose.PDF para .NET en C#.
+
 ### [Cómo eliminar imágenes de archivos PDF con Aspose.PDF para .NET: guía completa](./delete-images-aspose-pdf-net/)
 Aprenda a eliminar imágenes de archivos PDF de forma eficiente con Aspose.PDF para .NET. Esta guía abarca la configuración, ejemplos de código y prácticas recomendadas.
 
@@ -111,7 +114,7 @@ Aprenda a eliminar imágenes de archivos PDF de forma eficiente con Aspose.PDF p
 Aprenda a eliminar imágenes de archivos PDF con Aspose.PDF para .NET. Esta guía completa abarca la configuración, la implementación y las aplicaciones prácticas.
 
 ### [Cómo eliminar imágenes de un PDF con Aspose.PDF para .NET: una guía completa](./delete-images-from-pdf-aspose-dotnet/)
-Aprenda a eliminar eficientemente todas las imágenes de un PDF con Aspose.PDF para .NET, mejorando la privacidad de los archivos y reduciendo su tamaño. Siga esta guía paso a paso.
+Aprenda a eliminar eficientemente todas las imágenes de un PDF con Aspose.PDF para .NET, mejorando la privacidad de los archivos y reduciendo su tamaño. Siga una guía paso a paso.
 
 ### [Cómo detectar colores de página PDF con Aspose.PDF para .NET: una guía completa](./detect-pdf-page-color-aspose-dotnet/)
 Aprenda a determinar el tipo de color de cada página de un PDF con Aspose.PDF para .NET. Este tutorial paso a paso abarca la instalación, la configuración y las aplicaciones prácticas.
@@ -131,7 +134,7 @@ Aprenda a extraer imágenes de manera eficiente de archivos PDF usando Aspose.PD
 ### [Cómo extraer imágenes de archivos PDF con Aspose.PDF para .NET: guía paso a paso](./extract-images-aspose-pdf-net-guide/)
 Aprenda a extraer imágenes de documentos PDF con Aspose.PDF para .NET con esta guía completa. Ideal para desarrolladores que buscan optimizar sus capacidades de procesamiento de documentos.
 
-### [Cómo extraer imágenes de páginas específicas de un PDF usando Aspose.PDF para .NET](./extract-images-pdfs-specific-pages-aspose-dotnet/)
+### [Cómo extraer imágenes de archivos PDF con Aspose.PDF para .NET: guía paso a paso](./extract-images-pdfs-specific-pages-aspose-dotnet/)
 Aprenda a extraer imágenes de páginas específicas de un PDF de forma eficiente con Aspose.PDF para .NET. Esta guía incluye consejos de configuración, implementación y rendimiento.
 
 ### [Cómo extraer información de páginas PDF y renderizar imágenes con Aspose.PDF para .NET (Guía 2023)](./extract-pdf-info-render-images-aspose-dotnet/)

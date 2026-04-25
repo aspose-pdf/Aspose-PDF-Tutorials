@@ -152,6 +152,9 @@ Learn how to efficiently replace images in PDF documents using Aspose.PDF for .N
 ### [How to Set Image Size in a PDF Using Aspose.PDF for .NET](./set-image-size-pdf-aspose-dotnet/)
 Learn how to adjust image sizes in PDFs with Aspose.PDF for .NET, perfect for creating professional documents and presentations.
 
+### [How to Validate PDF and Add Rectangle – Complete Guide](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
+Learn how to validate PDF files and add rectangles using Aspose.PDF for .NET with step-by-step C# examples.
+
 ### [Mastering Image Placement in PDFs Using Aspose.PDF for .NET](./optimize-image-placement-aspose-pdf-net/)
 Learn to optimize image placements in PDF documents with Aspose.PDF for .NET. Enhance document quality and efficiency with practical guides.
 
