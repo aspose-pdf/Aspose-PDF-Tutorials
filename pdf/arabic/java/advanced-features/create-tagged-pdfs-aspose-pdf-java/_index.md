@@ -1,14 +1,14 @@
 ---
-date: '2025-12-02'
-description: تعلم تقنيات إمكانية الوصول إلى ملفات PDF في جافا، وكيفية إضافة العلامات
-  إلى PDF، والحصول على ترخيص Aspose.PDF لجافا. أنشئ ملفات PDF قابلة للوصول ومنظمة
-  بشكل جيد بسهولة.
+date: '2026-05-03'
+description: تعلم تقنيات إمكانية الوصول إلى ملفات PDF باستخدام Java، وكيفية إضافة
+  العلامات إلى PDF، والحصول على ترخيص Aspose.PDF for Java. أنشئ ملفات PDF قابلة للوصول
+  ومنظمة بشكل جيد بسهولة.
 keywords:
-- create tagged PDFs
-- Aspose.PDF for Java
-- Java PDF library
+- java pdf accessibility
+- aspose pdf java license
+- aspose pdf java tutorial
 title: جافا PDF إمكانية الوصول – إنشاء ملفات PDF ذات العلامات باستخدام Aspose.PDF
-  لجافا
+  للـ جافا
 url: /ar/java/advanced-features/create-tagged-pdfs-aspose-pdf-java/
 weight: 1
 ---
@@ -18,54 +18,60 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# إمكانية الوصول إلى PDF في جافا – إنشاء ملفات PDF مُعلمة باستخدام Aspose.PDF للغة جافا
+# java pdf accessibility – إنشاء ملفات PDF ذات وسوم باستخدام Aspose.PDF for Java
 
-## Introduction
-في عالمنا الرقمي اليوم، **java pdf accessibility** ليست مجرد ميزة إضافية—إنها متطلب للوصول إلى كل مستخدم، بما في ذلك أولئك الذين يعتمدون على قارئات الشاشة وغيرها من التقنيات المساعدة. يوضح هذا الدليل كيفية **add tags to pdf** باستخدام مكتبة Aspose.PDF للغة جافا، محولاً ملفات PDF العادية إلى مستندات قابلة للوصول بالكامل. سنستعرض إعداد البيئة، إنشاء عناصر هيكلية (تجميع، مستوى كتلة، مستوى مضمن، وعناصر توضيحية)، ونصائح الأداء للمشاريع الكبيرة.
+## المقدمة
+في عالمنا الرقمي اليوم، **java pdf accessibility** ليست مجرد ميزة إضافية—إنها متطلب للوصول إلى كل مستخدم، بما في ذلك الذين يعتمدون على قارئات الشاشة وغيرها من التقنيات المساعدة. يوضح هذا الدليل كيفية **add tags to pdf** باستخدام مكتبة Aspose.PDF للغة Java، مما يحول ملفات PDF العادية إلى مستندات قابلة للوصول بالكامل. سنستعرض إعداد البيئة، وإنشاء عناصر هيكلية (وسوم التجميع، وسوم المستوى الكتلي، وسوم المستوى المضمن، ووسوم الرسوم التوضيحية)، ونصائح الأداء للمشاريع الكبيرة.
 
-### What You'll Learn
-- كيفية إعداد Aspose.PDF للغة جافا  
-- كيفية **add tags to pdf** المستندات (عناصر التجميع، النص، والعناصر التوضيحية)  
+### ما ستتعلمه
+- كيفية إعداد Aspose.PDF للغة Java  
+- كيفية **add tags to pdf** المستندات (عناصر التجميع، النص، والرسوم التوضيحية)  
 - سيناريوهات واقعية حيث **java pdf accessibility** تحدث فرقًا  
 - اعتبارات الترخيص – **license aspose pdf java** للاستخدام في الإنتاج  
 
-الآن بعد أن عرفت لماذا تُعد إمكانية الوصول مهمة، دعنا نتحقق من المتطلبات المسبقة قبل بدء الترميز.
+الآن بعد أن عرفت لماذا يهم الوصول، دعنا نتحقق من المتطلبات المسبقة قبل أن نبدأ بالبرمجة.
 
-## Quick Answers
-- **What is java pdf accessibility?** جعل ملفات PDF قابلة للقراءة بواسطة التقنيات المساعدة من خلال وضع العلامات بشكل صحيح.  
-- **Which library helps add tags to pdf?** Aspose.PDF للغة جافا يوفر واجهة برمجة تطبيقات كاملة للوسم.  
-- **Do I need a license?** نعم – **license aspose pdf java** مطلوبة للنشر في بيئات الإنتاج.  
-- **Can I use Maven or Gradle?** كلاهما مدعومان؛ اختر ما يناسب سير عمل البناء لديك.  
-- **Is it suitable for large documents?** بالتأكيد – اتبع نصائح الأداء المذكورة في الدليل.
+## إجابات سريعة
+- **What is java pdf accessibility?** جعل ملفات PDF قابلة للقراءة بواسطة التقنيات المساعدة من خلال الوسم المناسب.  
+- **Which library helps add tags to pdf?** Aspose.PDF for Java يوفر واجهة برمجة تطبيقات وسوم كاملة.  
+- **Do I need a license?** نعم – **license aspose pdf java** مطلوب للنشر في بيئات الإنتاج.  
+- **Can I use Maven or Gradle?** كلاهما مدعومان؛ اختر ما يناسب سير عمل البناء الخاص بك.  
+- **Is it suitable for large documents?** بالتأكيد – اتبع نصائح الأداء في الدليل.
 
-## What is java pdf accessibility?
-**java pdf accessibility** تشير إلى ممارسة إنشاء ملفات PDF يمكن لقارئات الشاشة، وشاشات برايل، وغيرها من الأدوات المساعدة تفسيرها. تحدد العلامات الصحيحة ترتيب القراءة المنطقي، والعناوين، والجداول، والرسوم، مما يضمن أن كل مستخدم يتلقى المحتوى كما هو مقصود.
+## ما هو java pdf accessibility؟
+**java pdf accessibility** يشير إلى ممارسة إنشاء ملفات PDF يمكن تفسيرها بواسطة قارئات الشاشة، شاشات برايل، وغيرها من الأدوات المساعدة. يحدد الوسم المناسب ترتيب القراءة المنطقي، العناوين، الجداول، والرسوم، مما يضمن أن كل مستخدم يتلقى المحتوى كما هو مقصود.
 
-## Why add tags to pdf?
-تحويل PDF مسطح إلى مستند مُنظم من خلال الوسم يجلب الفوائد التالية:
+## لماذا إضافة وسوم إلى pdf؟
+يحول الوسم ملف PDF مسطح إلى مستند منظم. تشمل الفوائد:
 - **Compliance** مع معايير WCAG 2.1 و PDF/UA  
-- **Improved searchability** والتنقل لجميع المستخدمين  
-- **Future‑proofing** مستنداتك لأدوات إمكانية الوصول المستقبلية  
+- **Improved searchability** وتحسين البحث والتنقل لجميع المستخدمين  
+- **Future‑proofing** مستنداتك للأدوات المساعدة المستقبلية  
 
-## Prerequisites
-- معرفة أساسية ببرمجة جافا  
-- Maven أو Gradle مثبت لإدارة الاعتمادات  
-- JDK 8 أو أحدث  
+## حالات الاستخدام الشائعة لـ java pdf accessibility
+الوسم ضروري في العديد من الصناعات:
+- **E‑learning platforms** – جعل ملفات PDF الخاصة بالدورات قابلة للتنقل للمتعلمين ذوي الإعاقة.  
+- **Government portals** – تلبية المتطلبات القانونية للوصول للوثائق العامة.  
+- **Corporate reporting** – ضمان أن التقارير السنوية والبيانات المالية قابلة للوصول للمساهمين الذين يستخدمون قارئات الشاشة.  
+
+## المتطلبات المسبقة
+- معرفة أساسية ببرمجة Java  
+- وجود Maven أو Gradle مثبت لإدارة التبعيات  
+- JDK 8 أو أحدث  
 - بيئة تطوير متكاملة (IntelliJ IDEA، Eclipse، NetBeans، إلخ)
 
-### Required Libraries and Versions
-- **Aspose.PDF for Java** – أحدث إصدار مستقر (مثال: 25.3)
+### المكتبات المطلوبة والإصدارات
+- **Aspose.PDF for Java** – أحدث إصدار ثابت (مثال: 25.3)
 
-### License Acquisition Steps
+### خطوات الحصول على الترخيص
 1. **Free Trial** – ابدأ بـ [free trial](https://releases.aspose.com/pdf/java/) لاستكشاف الميزات.  
-2. **Temporary License** – احصل على مفتاح قصير الأمد من [temporary‑license page](https://purchase.aspose.com/temporary-license/).  
-3. **Full License** – اشترِ **license aspose pdf java** دائمًا من [official store](https://purchase.aspose.com/buy).  
+2. **Temporary License** – احصل على مفتاح قصير الأجل من [temporary‑license page](https://purchase.aspose.com/temporary-license/).  
+3. **Full License** – اشترِ **license aspose pdf java** دائم من [official store](https://purchase.aspose.com/buy).  
 
-## Setting Up Aspose.PDF for Java
-قبل الغوص في الشيفرة، دعنا نضيف المكتبة إلى مشروعنا.
+## إعداد Aspose.PDF للغة Java
+قبل الغوص في الكود، دعنا نضيف المكتبة إلى مشروعنا.
 
-### Using Maven
-أضف الاعتماد التالي إلى ملف `pom.xml` الخاص بك:
+### استخدام Maven
+أضف التبعية التالية إلى ملف `pom.xml` الخاص بك:
 
 ```xml
 <dependency>
@@ -75,15 +81,15 @@ weight: 1
 </dependency>
 ```
 
-### Using Gradle
-أدرج السطر التالي في ملف `build.gradle` الخاص بك:
+### استخدام Gradle
+أدرج هذا السطر في ملف `build.gradle` الخاص بك:
 
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### Basic Initialization and Setup
-بعد توفر المكتبة، أنشئ مستند PDF جديدًا وفعل الوسم:
+### التهيئة الأساسية والإعداد
+بعد توفر المكتبة، أنشئ مستند PDF جديد وفعل الوسم:
 
 ```java
 import com.aspose.pdf.Document;
@@ -91,13 +97,13 @@ import com.aspose.pdf.Document;
 Document document = new Document();
 ```
 
-## Implementation Guide
-ستجد أدناه أمثلة خطوة بخطوة لكل نوع من عناصر الهيكل. يبدأ كل قسم بتهيئة المستند ومحتواه المُوسوم – ستلاحظ نمط الثلاث أسطر المتكرر للوضوح.
+## دليل التنفيذ
+ستجد أدناه أمثلة خطوة بخطوة لكل نوع من عناصر الهيكل. يبدأ كل قسم بتهيئة المستند ومحتواه الموسوم – ستلاحظ نمط الثلاثة أسطر المتكرر للتوضيح.
 
-### Creating Grouping Elements
-عناصر التجميع تعرف الأقسام المنطقية مثل الفصول أو الأعمال الفنية.
+### إنشاء عناصر التجميع
+تعرف عناصر التجميع الأقسام المنطقية مثل الأجزاء أو الأعمال الفنية.
 
-#### Step 1 – Initialize Document and Tagged Content
+#### الخطوة 1 – تهيئة المستند والمحتوى الموسوم
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Document document = new Document();
@@ -107,17 +113,17 @@ taggedContent.setTitle("Tagged Pdf Document");
 taggedContent.setLanguage("en-US");
 ```
 
-#### Step 2 – Create Grouping Elements
+#### الخطوة 2 – إنشاء عناصر التجميع
 ```java
 PartElement partElement = taggedContent.createPartElement();
 ArtElement artElement = taggedContent.createArtElement();
 // Add more elements as needed...
 ```
 
-### Creating Text Block‑Level Structure Elements
-الوسوم على مستوى الكتلة مثل الفقرات والعناوين توفر ترتيب قراءة واضح.
+### إنشاء عناصر هيكلية نصية على مستوى الكتلة
+توفر الوسوم على مستوى الكتلة مثل الفقرات والعناوين ترتيب قراءة واضح.
 
-#### Step 1 – Initialize Document and Tagged Content
+#### الخطوة 1 – تهيئة المستند والمحتوى الموسوم
 ```java
 Document document = new Document();
 com.aspose.pdf.tagged.ITaggedContent taggedContent = document.getTaggedContent();
@@ -126,17 +132,17 @@ taggedContent.setTitle("Tagged Pdf Document");
 taggedContent.setLanguage("en-US");
 ```
 
-#### Step 2 – Create Text Block‑Level Elements
+#### الخطوة 2 – إنشاء عناصر نصية على مستوى الكتلة
 ```java
 ParagraphElement paragraphElement = taggedContent.createParagraphElement();
 HeaderElement headerElement = taggedContent.createHeaderElement();
 HeaderElement h1Element = taggedContent.createHeaderElement(1);
 ```
 
-### Creating Text Inline‑Level Structure Elements
-الوسوم المضمنة تتعامل مع أجزاء أصغر من النص مثل الاقتباسات أو الملاحظات.
+### إنشاء عناصر هيكلية نصية على المستوى المضمن
+تتعامل الوسوم المضمنة مع قطع نصية أصغر مثل الاقتباسات أو الملاحظات.
 
-#### Step 1 – Initialize Document and Tagged Content
+#### الخطوة 1 – تهيئة المستند والمحتوى الموسوم
 ```java
 Document document = new Document();
 com.aspose.pdf.tagged.ITaggedContent taggedContent = document.getTaggedContent();
@@ -145,17 +151,17 @@ taggedContent.setTitle("Tagged Pdf Document");
 taggedContent.setLanguage("en-US");
 ```
 
-#### Step 2 – Create Inline‑Level Elements
+#### الخطوة 2 – إنشاء عناصر على المستوى المضمن
 ```java
 SpanElement spanElement = taggedContent.createSpanElement();
 QuoteElement quoteElement = taggedContent.createQuoteElement();
 NoteElement noteElement = taggedContent.createNoteElement();
 ```
 
-### Creating Illustration Structure Elements
-الأشكال والرسوميات ضرورية للملفات التقنية والتعليمية.
+### إنشاء عناصر هيكلية توضيحية
+الرسوم التوضيحية والصيغ ضرورية لملفات PDF التقنية والتعليمية.
 
-#### Step 1 – Initialize Document and Tagged Content
+#### الخطوة 1 – تهيئة المستند والمحتوى الموسوم
 ```java
 Document document = new Document();
 com.aspose.pdf.tagged.ITaggedContent taggedContent = document.getTaggedContent();
@@ -164,55 +170,55 @@ taggedContent.setTitle("Tagged Pdf Document");
 taggedContent.setLanguage("en-US");
 ```
 
-#### Step 2 – Create Illustration Elements
+#### الخطوة 2 – إنشاء عناصر توضيحية
 ```java
 FigureElement figureElement = taggedContent.createFigureElement();
 FormulaElement formulaElement = taggedContent.createFormulaElement();
 ```
 
-## Practical Applications
+## تطبيقات عملية
 **Tagged PDFs** لا غنى عنها عبر العديد من القطاعات:
 
-| Industry | Why Tagging Matters |
+| الصناعة | لماذا الوسم مهم |
 |----------|----------------------|
-| **Publishing** | يتيح للكتب الإلكترونية والمجلات الرقمية القراءة عبر قارئات الشاشة. |
-| **Legal** | يضمن الامتثال للوائح إمكانية الوصول في العقود والملفات القانونية. |
-| **Education** | يجعل الكتب الدراسية، والأوراق البحثية، وملاحظات المحاضرات متاحة لجميع المتعلمين. |
+| **النشر** | يمكن الكتب الإلكترونية والمجلات الرقمية من القراءة بواسطة قارئات الشاشة. |
+| **القانونية** | يضمن الامتثال للأنظمة المتعلقة بالوصول للاتفاقيات والملفات. |
+| **التعليم** | يجعل الكتب الدراسية، الأوراق البحثية، وملاحظات المحاضرات قابلة للاستخدام لجميع المتعلمين. |
 
-دمج هذه الهياكل مع نظام إدارة محتوى (CMS) يبسط سير عمل المستندات ويحسن تحسين محركات البحث للملفات القابلة للبحث.
+## اعتبارات الأداء
+عند التعامل مع ملفات PDF الكبيرة (مئات الصفحات أو صور عالية الدقة)، احرص على مراعاة هذه النصائح:
 
-## Performance Considerations
-عند التعامل مع ملفات PDF كبيرة (مئات الصفحات أو صور عالية الدقة)، ضع في اعتبارك النصائح التالية:
-
-- **Chunk Processing** – أنشئ ووسم العناصر على دفعات بدلاً من تحميل المستند بالكامل مرة واحدة.  
-- **Dispose Early** – استدعِ `document.dispose()` عند الانتهاء لتحرير الموارد الأصلية.  
+- **Chunk Processing** – إنشاء ووضع وسوم للعناصر على دفعات بدلاً من تحميل المستند بالكامل مرة واحدة.  
+- **Dispose Early** – استدعاء `document.dispose()` عند الانتهاء لتحرير الموارد الأصلية.  
 - **Memory Management** – تجنب الاحتفاظ بالكائنات الكبيرة لفترة أطول من الضرورة؛ استخدم المتغيرات المحلية داخل الحلقات.  
 
-## Conclusion
-أصبحت الآن تمتلك أساسًا قويًا لتطبيق **java pdf accessibility** عبر **adding tags to pdf** باستخدام Aspose.PDF للغة جافا. جرّب الأنواع المختلفة من العناصر، وادمجها لتعكس الهيكل المنطقي لمستندك، وتذكر تطبيق أفضل ممارسات الأداء للملفات الكبيرة. لمزيد من التفاصيل، استكشف الوثائق الرسمية لـ [Aspose PDF Java documentation](https://reference.aspose.com/pdf/java/).
+## الخلاصة
+لديك الآن أساس قوي لتنفيذ **java pdf accessibility** عبر **add tags to pdf** باستخدام Aspose.PDF للغة Java. جرب الأنواع المختلفة من العناصر، ودمجها لتعكس الهيكل المنطقي لمستندك، وتذكر تطبيق أفضل ممارسات الأداء للملفات الكبيرة. للحصول على تفاصيل أعمق، استكشف [Aspose PDF Java documentation](https://reference.aspose.com/pdf/java/).
 
-### Next Steps
+### الخطوات التالية
 - استكشف ميزات الوسم المتقدمة مثل تعيين الأدوار المخصصة.  
-- أتمتة عملية الوسم في خط أنابيب CI/CD لتوليد المستندات بشكل مستمر.  
-- راجع تقارير التوافق مع PDF/UA التي تُنشئها Aspose.PDF.
+- أتمتة الوسم في خط أنابيب CI/CD الخاص بك لتوليد المستندات بشكل مستمر.  
+- مراجعة تقارير الامتثال لـ PDF/UA التي يولدها Aspose.PDF.  
 
-## FAQ Section
-**Q1: How do I ensure my PDFs are accessible?**  
+## قسم الأسئلة الشائعة
+**س1: كيف أضمن أن ملفات PDF الخاصة بي قابلة للوصول؟**  
 A: استخدم واجهة برمجة تطبيقات الوسم في Aspose.PDF لتحديد الهيكل المنطقي (العناوين، الفقرات، الرسوم) وتعيين لغة المستند والعنوان.
 
-**Q2: Can Aspose.PDF handle large documents efficiently?**  
-A: نعم. اتبع نصائح الأداء أعلاه—عالج المستندات على دفعات، حرّر الكائنات فور الانتهاء، وتجنب الاحتفاظ غير الضروري بالكائنات الكبيرة.
+**س2: هل يمكن لـ Aspose.PDF التعامل مع المستندات الكبيرة بكفاءة؟**  
+A: نعم. اتبع نصائح الأداء أعلاه—عالج على دفعات، حرر الكائنات بسرعة، وتجنب الاحتفاظ غير الضروري بالكائنات.
 
-**Q3: Is a **license aspose pdf java** required for production?**  
-A: بالتأكيد. الترخيص الكامل يزيل قيود التقييم ويمنحك حقوق الاستخدام التجاري.
+**س3: هل **license aspose pdf java** مطلوب للإنتاج؟**  
+A: بالتأكيد. الترخيص الكامل يزيل قيود التقييم ويمنحك حقوقًا تجارية.
 
-**Q4: Where can I find help if I run into issues?**  
+**س4: أين يمكنني العثور على مساعدة إذا واجهت مشاكل؟**  
 A: زر [Aspose support forum](https://forum.aspose.com/c/pdf/10) للحصول على مساعدة المجتمع والردود الرسمية.
 
-**Q5: Can I combine Aspose.PDF with other Java libraries?**  
-A: نعم. المكتبة تتكامل جيدًا مع أطر مثل Spring، Apache POI، و PDFBox لتدفقات عمل هجينة.
+**س5: هل يمكنني دمج Aspose.PDF مع مكتبات Java أخرى؟**  
+A: نعم. المكتبة تعمل بشكل جيد جنبًا إلى جنب مع أطر مثل Spring، Apache POI، و PDFBox لتدفقات عمل هجينة.
 
-**Last Updated:** 2025-12-02  
+---
+
+**Last Updated:** 2026-05-03  
 **Tested With:** Aspose.PDF for Java 25.3  
 **Author:** Aspose  
 
