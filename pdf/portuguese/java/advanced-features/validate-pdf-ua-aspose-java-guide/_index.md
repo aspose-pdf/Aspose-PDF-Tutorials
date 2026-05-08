@@ -12,14 +12,6 @@ url: /pt/java/advanced-features/validate-pdf-ua-aspose-java-guide/
 weight: 1
 ---
 
- bullet points with double spaces after dash? Keep same.
-
-Let's translate.
-
-We'll keep markdown syntax.
-
-Proceed.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -150,18 +142,6 @@ Agora você viu como configurar **Aspose.PDF for Java**, aplicar uma **aspose pd
 
 Pronto para tornar seus PDFs acessíveis? Implemente estas etapas hoje e experimente a diferença!
 
-## Seção de FAQ
-1. **O que é conformidade PDF/UA‑1?**  
-   PDF/UA‑1 é um padrão ISO que define como os PDFs devem ser estruturados para acessibilidade, permitindo que tecnologias assistivas os leiam corretamente.  
-2. **Como obtenho uma licença temporária para Aspose.PDF?**  
-   Acesse o site da Aspose, solicite uma licença temporária e aplique-a ao seu projeto Java conforme descrito na documentação.  
-3. **O Aspose.PDF valida arquivos PDF grandes de forma eficiente?**  
-   Sim, mas é recomendável processar arquivos grandes em lotes e monitorar o uso de memória.  
-4. **O que devo fazer se a validação falhar?**  
-   Abra o `logfile.xml` gerado, localize os problemas relatados e ajuste o PDF (por exemplo, adicionando tags ausentes) antes de validar novamente.  
-5. **O Aspose.PDF está disponível para outras linguagens de programação?**  
-   Absolutamente – a Aspose oferece bibliotecas PDF para .NET, C++, Python e mais. Consulte o site oficial para detalhes.
-
 ## Perguntas Frequentes
 **Q: Como aplico a aspose pdf java license no código?**  
 A: Carregue o arquivo de licença com `License license = new License(); license.setLicense("Aspose.PDF.Java.lic");` antes de criar quaisquer objetos `Document`.
@@ -188,6 +168,12 @@ A: Sim, uma **aspose pdf java license** válida remove limites de avaliação e 
 
 Inicie sua jornada rumo à acessibilidade de PDFs aproveitando o Aspose.PDF for Java hoje mesmo!
 
+---
+
+**Última atualização:** 2026-02-11  
+**Testado com:** Aspose.PDF for Java 25.3  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -195,9 +181,3 @@ Inicie sua jornada rumo à acessibilidade de PDFs aproveitando o Aspose.PDF for 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2026-02-11  
-**Testado com:** Aspose.PDF for Java 25.3  
-**Autor:** Aspose

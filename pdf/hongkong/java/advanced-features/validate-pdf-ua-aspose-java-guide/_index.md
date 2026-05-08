@@ -16,6 +16,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Aspose PDF Java 授權：逐步指引驗證 PDF/UA 標準以符合無障礙規範
 
 ## 介紹
@@ -142,18 +143,6 @@ doc.close();
 準備好讓您的 PDF 更加無障礙了嗎？立即實作這些步驟，體驗不同！
 
 ## 常見問答
-1. **什麼是 PDF/UA‑1 合規性？**  
-   PDF/UA‑1 為 ISO 標準，定義 PDF 必須如何結構化以符合無障礙，讓輔助技術能正確讀取。  
-2. **如何取得 Aspose.PDF 的臨時授權？**  
-   前往 Aspose 官方網站，申請臨時授權，並依文件說明套用至您的 Java 專案。  
-3. **Aspose.PDF 能有效驗證大型 PDF 檔案嗎？**  
-   可以，但建議將大型檔案分批處理並監控記憶體使用情況。  
-4. **驗證失敗時該怎麼辦？**  
-   開啟產生的 `logfile.xml`，找出報告的問題，調整 PDF（例如加入缺少的標記）後重新驗證。  
-5. **Aspose.PDF 是否支援其他程式語言？**  
-   當然 – Aspose 提供 .NET、C++、Python 等多種語言的 PDF 函式庫。詳情請見官方網站。
-
-## 常見問答
 **Q: 如何在程式碼中套用 aspose pdf java license？**  
 A: 在建立任何 `Document` 物件之前，先載入授權檔案：`License license = new License(); license.setLicense("Aspose.PDF.Java.lic");`。
 
@@ -179,6 +168,12 @@ A: 必須，有效的 **aspose pdf java license** 會移除評估限制並提供
 
 立即利用 Aspose.PDF for Java 開啟您的 PDF 無障礙之旅！
 
+---
+
+**Last Updated:** 2026-02-11  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -186,9 +181,3 @@ A: 必須，有效的 **aspose pdf java license** 會移除評估限制並提供
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-11  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

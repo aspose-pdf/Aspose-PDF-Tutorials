@@ -17,6 +17,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Aspose PDF Java Lisansı: Erişilebilirlik Uyumluluğu için PDF/UA Standartlarını Doğrulama Adım‑Adım Kılavuzu
 
 ## Giriş
@@ -142,18 +143,6 @@ Artık **Aspose.PDF for Java**'ı nasıl kuracağınızı, bir **aspose pdf java
 
 PDF'lerinizi erişilebilir hâle getirmeye hazır mısınız? Bu adımları bugün uygulayın ve farkı yaşayın!
 
-## SSS Bölümü
-1. **PDF/UA‑1 uyumluluğu nedir?**  
-   PDF/UA‑1, PDF'lerin erişilebilirlik için nasıl yapılandırılması gerektiğini tanımlayan bir ISO standardıdır ve yardımcı teknolojilerin PDF'leri doğru şekilde okumasını sağlar.  
-2. **Aspose.PDF için geçici lisansı nasıl alırım?**  
-   Aspose web sitesini ziyaret edin, geçici lisans talep edin ve belgelerde açıklandığı gibi Java projenize uygulayın.  
-3. **Aspose.PDF büyük PDF dosyalarını verimli bir şekilde doğrulayabilir mi?**  
-   Evet, ancak büyük dosyaları toplu işleyerek ve bellek kullanımını izleyerek işlem yapmanız önerilir.  
-4. **Doğrulama başarısız olursa ne yapmalıyım?**  
-   Oluşturulan `logfile.xml` dosyasını açın, rapor edilen sorunları bulun ve PDF'yi (örneğin eksik etiketler ekleyerek) düzeltip yeniden doğrulayın.  
-5. **Aspose.PDF diğer programlama dilleri için mevcut mu?**  
-   Kesinlikle – Aspose .NET, C++, Python ve daha fazlası için PDF kütüphaneleri sunar. Ayrıntılar için resmi siteye bakın.
-
 ## Sıkça Sorulan Sorular
 **Q: Kodu içinde aspose pdf java lisansını nasıl uygularım?**  
 A: `License license = new License(); license.setLicense("Aspose.PDF.Java.lic");` kodunu herhangi bir `Document` nesnesi oluşturmadan önce çalıştırarak lisansı yükleyin.
@@ -180,6 +169,12 @@ A: Evet, geçerli bir **aspose pdf java lisansı** değerlendirme sınırlamalar
 
 Aspose.PDF for Java'ı kullanarak PDF erişilebilirliği yolculuğunuza bugün başlayın!
 
+---
+
+**Son Güncelleme:** 2026-02-11  
+**Test Edilen:** Aspose.PDF for Java 25.3  
+**Yazar:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -187,9 +182,3 @@ Aspose.PDF for Java'ı kullanarak PDF erişilebilirliği yolculuğunuza bugün b
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Son Güncelleme:** 2026-02-11  
-**Test Edilen:** Aspose.PDF for Java 25.3  
-**Yazar:** Aspose

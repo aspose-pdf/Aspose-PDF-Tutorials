@@ -17,6 +17,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Aspose PDF Java License: Hướng Dẫn Từng Bước Để Kiểm Tra Tiêu Chuẩn PDF/UA Cho Tuân Thủ Truy Cập
 
 ## Giới thiệu
@@ -142,18 +143,6 @@ Bây giờ bạn đã biết cách cài đặt **Aspose.PDF for Java**, áp dụ
 
 Sẵn sàng làm cho các PDF của bạn trở nên dễ tiếp cận? Thực hiện các bước này ngay hôm nay và cảm nhận sự khác biệt!
 
-## Phần Câu hỏi Thường gặp
-1. **PDF/UA‑1 compliance là gì?**  
-   PDF/UA‑1 là một tiêu chuẩn ISO định nghĩa cách cấu trúc PDF để truy cập, cho phép các công nghệ hỗ trợ đọc chúng đúng cách.  
-2. **Làm sao để nhận giấy phép tạm thời cho Aspose.PDF?**  
-   Truy cập trang web Aspose, yêu cầu giấy phép tạm thời, và áp dụng nó vào dự án Java của bạn như mô tả trong tài liệu.  
-3. **Aspose.PDF có thể kiểm tra các tệp PDF lớn một cách hiệu quả không?**  
-   Có, nhưng tốt nhất là xử lý các tệp lớn theo lô và giám sát việc sử dụng bộ nhớ.  
-4. **Nếu kiểm tra không thành công, tôi nên làm gì?**  
-   Mở `logfile.xml` đã tạo, xác định các vấn đề được báo cáo, và điều chỉnh PDF (ví dụ, thêm các thẻ còn thiếu) trước khi kiểm tra lại.  
-5. **Aspose.PDF có sẵn cho các ngôn ngữ lập trình khác không?**  
-   Chắc chắn – Aspose cung cấp các thư viện PDF cho .NET, C++, Python và nhiều ngôn ngữ khác. Xem trang chính thức để biết chi tiết.
-
 ## Câu hỏi Thường gặp
 **Q: Làm sao để áp dụng aspose pdf java license trong mã?**  
 A: Tải tệp giấy phép bằng `License license = new License(); license.setLicense("Aspose.PDF.Java.lic");` trước khi tạo bất kỳ đối tượng `Document` nào.
@@ -180,6 +169,12 @@ A: Có, **aspose pdf java license** hợp lệ sẽ loại bỏ các giới hạ
 
 Hãy bắt đầu hành trình tiếp cận PDF của bạn bằng cách tận dụng Aspose.PDF cho Java ngay hôm nay!
 
+---
+
+**Last Updated:** 2026-02-11  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -187,9 +182,3 @@ Hãy bắt đầu hành trình tiếp cận PDF của bạn bằng cách tận d
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-11  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

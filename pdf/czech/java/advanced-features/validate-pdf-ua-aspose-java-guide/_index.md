@@ -17,6 +17,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Aspose PDF Java License: Průvodce krok za krokem k ověření standardů PDF/UA pro soulad s přístupností
 
 ## Úvod
@@ -142,18 +143,6 @@ Nyní jste viděli, jak nastavit **Aspose.PDF for Java**, použít **aspose pdf 
 
 Připraveni učinit vaše PDF přístupnými? Implementujte tyto kroky ještě dnes a zažijte rozdíl!
 
-## Sekce FAQ
-1. **Co je soulad s PDF/UA‑1?**  
-   PDF/UA‑1 je standard ISO, který definuje, jak musí být PDF strukturovány pro přístupnost, což umožňuje asistenčním technologiím je správně číst.  
-2. **Jak získám dočasnou licenci pro Aspose.PDF?**  
-   Navštivte web Aspose, požádejte o dočasnou licenci a aplikujte ji do vašeho Java projektu podle popisu v dokumentaci.  
-3. **Může Aspose.PDF efektivně validovat velké PDF soubory?**  
-   Ano, ale je nejlepší zpracovávat velké soubory v dávkách a sledovat využití paměti.  
-4. **Co mám dělat, pokud validace selže?**  
-   Otevřete vygenerovaný `logfile.xml`, najděte nahlášené problémy a upravte PDF (např. přidejte chybějící tagy) před opětovnou validací.  
-5. **Je Aspose.PDF dostupný pro jiné programovací jazyky?**  
-   Rozhodně – Aspose nabízí PDF knihovny pro .NET, C++, Python a další. Viz oficiální stránka pro podrobnosti.
-
 ## Často kladené otázky
 **Q: Jak aplikovat aspose pdf java license v kódu?**  
 A: Načtěte soubor licence pomocí `License license = new License(); license.setLicense("Aspose.PDF.Java.lic");` před vytvořením jakýchkoli objektů `Document`.
@@ -180,6 +169,12 @@ A: Ano, platná **aspose pdf java license** odstraňuje omezení hodnocení a po
 
 Vydejte se na cestu k PDF přístupnosti využitím Aspose.PDF for Java ještě dnes!
 
+---
+
+**Last Updated:** 2026-02-11  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -187,9 +182,3 @@ Vydejte se na cestu k PDF přístupnosti využitím Aspose.PDF for Java ještě 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-11  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

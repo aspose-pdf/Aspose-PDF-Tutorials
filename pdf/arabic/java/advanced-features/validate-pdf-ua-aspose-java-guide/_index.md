@@ -17,6 +17,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # رخصة Aspose PDF Java: دليل خطوة بخطوة للتحقق من معايير PDF/UA للامتثال للوصولية
 
 ## المقدمة
@@ -142,18 +143,6 @@ doc.close();
 
 هل أنت مستعد لجعل ملفات PDF الخاصة بك وصولية؟ نفّذ هذه الخطوات اليوم واختبر الفرق!
 
-## قسم الأسئلة المتكررة
-1. **ما هو امتثال PDF/UA‑1؟**  
-   PDF/UA‑1 هو معيار ISO يحدد كيفية هيكلة ملفات PDF للوصولية، مما يمكّن التقنيات المساعدة من قراءتها بشكل صحيح.  
-2. **كيف أحصل على رخصة مؤقتة لـ Aspose.PDF؟**  
-   زر موقع Aspose، اطلب رخصة مؤقتة، وطبقها على مشروع Java الخاص بك كما هو موضح في الوثائق.  
-3. **هل يمكن لـ Aspose.PDF التحقق من ملفات PDF الكبيرة بكفاءة؟**  
-   نعم، لكن من الأفضل معالجة الملفات الكبيرة على دفعات ومراقبة استهلاك الذاكرة.  
-4. **ماذا أفعل إذا فشل التحقق؟**  
-   افتح `logfile.xml` المُولد، حدد المشكلات المبلّغ عنها، وقم بتعديل PDF (مثلاً، إضافة العلامات المفقودة) قبل إعادة التحقق.  
-5. **هل تتوفر Aspose.PDF للغات برمجة أخرى؟**  
-   بالتأكيد – تقدم Aspose مكتبات PDF لـ .NET، C++، Python، وأكثر. راجع الموقع الرسمي للتفاصيل.
-
 ## أسئلة شائعة
 **س: كيف أطبق رخصة aspose pdf java في الكود؟**  
 ج: حمّل ملف الرخصة باستخدام `License license = new License(); license.setLicense("Aspose.PDF.Java.lic");` قبل إنشاء أي كائنات `Document`.
@@ -180,6 +169,12 @@ doc.close();
 
 ابدأ رحلتك نحو وصولية PDF باستخدام Aspose.PDF for Java اليوم!
 
+---
+
+**Last Updated:** 2026-02-11  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -187,9 +182,3 @@ doc.close();
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-02-11  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose
