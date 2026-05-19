@@ -65,6 +65,9 @@
 ### [如何在 C# 中比较 PDF – 生成 PDF 差异的完整指南](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中比较 PDF 文件并生成差异报告，帮助快速定位文档变化。
 
+### [使用 Aspose.Pdf 保存每个 PDF 图层：分步指南](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
+了解如何使用 Aspose.Pdf 将 PDF 中的每个图层单独保存，以实现更细粒度的内容管理。
+
 ## 其他资源
 
 - [Aspose.PDF 用于网络文档](https://docs.aspose.com/pdf/net/)

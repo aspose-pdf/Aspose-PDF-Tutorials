@@ -59,6 +59,9 @@ PDF ドキュメントを読み込み、PDF/X‑4 に変換し、署名情報を
 ### [Aspose を使用した PDF 署名の検証 – PDF を HTML に変換](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
 Aspose を利用して PDF の署名を検証し、PDF を HTML に変換する手順を解説します。
 
+### [C# で PDF にデジタル署名を追加する – 完全ガイド](./add-digital-signature-pdf-in-c-complete-guide/)
+C# を使用して PDF にデジタル署名を追加する手順をステップバイステップで解説します。
+
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)

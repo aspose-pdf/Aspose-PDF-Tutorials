@@ -65,6 +65,9 @@ Aprenda a criar documentos PDF acessíveis, estilizados e marcados usando o Aspo
 ### [Como comparar PDFs em C# – Guia completo para gerar diferenças de PDF](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 Aprenda a comparar documentos PDF em C# usando Aspose.PDF, gerando diferenças de forma precisa e automatizada.
 
+### [Salvar Cada Camada de PDF com Aspose.Pdf – Guia Passo a Passo](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
+Aprenda a salvar individualmente cada camada de um documento PDF usando Aspose.Pdf em .NET, com exemplos de código passo a passo.
+
 ## Recursos adicionais
 
 - [Aspose.PDF para documentação da Net](https://docs.aspose.com/pdf/net/)

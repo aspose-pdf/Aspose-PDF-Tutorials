@@ -32,10 +32,10 @@ Aspose.PDF for .NET'in "Resimlerle Programlama" eğitimleri, PDF belgelerinizdek
 | [PDF Dosyasında Küçük Resim Görüntüleri Oluşturun](./create-thumbnail-images/) | Aspose.PDF for .NET kullanarak PDF dosyanızdaki her sayfa için zahmetsizce küçük resim görüntüleri oluşturun. Belge önizleme deneyiminizi geliştirin. |  
 | [PDF Dosyasından Resimleri Sil](./delete-images/) | Basit, adım adım bir eğitimde Aspose.PDF for .NET kullanarak PDF dosyalarından resimleri nasıl sileceğinizi öğrenin. İstenmeyen resimleri kolayca kaldırarak PDF'leri optimize edin. |  
 | [PDF Dosyasından Görüntüleri Çıkar](./extract-images/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak bir PDF dosyasından görüntüleri nasıl çıkaracağınızı öğrenin. Kolayca takip edilebilen talimatlarla başlayın. |  
-| [Hızlı Küçülen Görüntüler](./fast-shrink-images/) PDF dosyalarındaki resimleri küçültmek, kaliteyi korurken boyutu optimize etmek için Aspose.PDF for .NET'i nasıl verimli bir şekilde kullanacağınızı öğrenin. |  
+| [Hızlı Küçülen Görüntüler](./fast-shrink-images/) PDF dosalarındaki resimleri küçültmek, kaliteyi korurken boyutu optimize etmek için Aspose.PDF for .NET'i nasıl verimli bir şekilde kullanacağınızı öğrenin. |  
 | [Flate Kod Çözme Sıkıştırması](./flate-decode-compression/) | Aspose.PDF for .NET'te Flate Decode Compression'ı kullanmayı öğrenin. Bu adım adım kılavuzla PDF dosya boyutunu verimli bir şekilde optimize edin. |  
 | [PDF Dosyasındaki Resimleri Tanımla](./identify-images/) | Bu ayrıntılı adım adım kılavuzda, Aspose.PDF for .NET'i kullanarak PDF dosyalarındaki görselleri nasıl tanımlayacağınızı ve renk türlerini (gri tonlamalı veya RGB) nasıl tespit edeceğinizi öğrenin.  
-| [PDF Dosyasında Resim Bilgileri](./image-information/) | Kapsamlı adım adım kılavuzumuzla Aspose.PDF for .NET'i kullanarak PDF'lerden görüntü bilgilerini çıkarmayı öğrenin.  
+| [PDF Dosyasındaki Resim Bilgileri](./image-information/) | Kapsamlı adım adım kılavuzumuzla Aspose.PDF for .NET'i kullanarak PDF'lerden görüntü bilgilerini çıkarmayı öğrenin. |  
 | [Resim Yerleşimleri](./image-placements/) | Aspose.PDF for .NET kullanarak PDF belgelerindeki görüntü yerleşimlerini nasıl çıkaracağınızı ve düzenleyeceğinizi öğrenin. Örnekler ve kod parçacıkları içeren adım adım kılavuz. |  
 | [Resimden PDF'e](./image-to-pdf/) Bu adım adım kılavuzda Aspose.PDF for .NET ile görüntüleri PDF'ye nasıl dönüştüreceğinizi öğrenin. Geliştiriciler ve teknoloji meraklıları için mükemmel. |  
 | [Büyük CGM Görüntüsünü PDF'ye Dönüştür](./large-cgm-image-to-pdf/) | Aspose.PDF for .NET kullanarak büyük CGM resimlerini zahmetsizce PDF'ye dönüştürün. Hızlı ve etkili bir dönüştürme süreci için bu basit kılavuzu izleyin. |  
@@ -49,6 +49,7 @@ Aspose.PDF for .NET'in "Resimlerle Programlama" eğitimleri, PDF belgelerinizdek
 | [PDF Dosyasında Görüntü Boyutunu Ayarla](./set-image-size/) | .NET için Aspose.PDF kullanarak bir PDF'deki görüntü boyutunun nasıl ayarlanacağını öğrenin. Bu adım adım kılavuz, görüntüleri yeniden boyutlandırmanıza, sayfa özelliklerini ayarlamanıza ve PDF'leri kaydetmenize yardımcı olacaktır. |  
 | [PDF Dosyasındaki Görüntüleri Küçült](./shrink-images/) | Bu adım adım kılavuzla Aspose.PDF for .NET'i kullanarak PDF dosyalarındaki resimleri kolayca küçültün, kaliteyi korurken daha küçük dosya boyutları elde edin. |  
 | [Resmi XImage Koleksiyonunda Sakla](./store-image-in-ximage-collection/) | Bu kapsamlı adım adım kılavuzda, .NET için Aspose.PDF'yi kullanarak XImage koleksiyonunda görüntülerin nasıl depolanacağını öğrenin. |  
+| [Boş PDF Sayfası Oluştur – Görüntü Ekleme, Kırpma ve Yeniden Boyutlandırma Tam Kılavuzu](./create-blank-pdf-page-full-guide-to-adding-cropping-resizing/) | Aspose.PDF for .NET kullanarak boş bir PDF sayfası oluşturun ve görüntü ekleme, kırpma ve yeniden boyutlandırma işlemlerini öğrenin. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -36,7 +36,7 @@ Aprenda a aprimorar seus documentos PDF adicionando JavaScript interativo aos ca
 Aprenda a adicionar quebras de página em documentos PDF usando o Aspose.PDF para .NET. Siga nosso guia passo a passo sobre instalação, configuração e implementação.
 
 ### [Adicionar retângulos e configurar páginas PDF com Aspose.PDF .NET: um guia completo](./aspose-pdf-net-add-rectangles-configure-pages/)
-Domine a adição de retângulos e a configuração de páginas em PDFs usando o Aspose.PDF para .NET. Siga este guia para aprender técnicas de manipulação de documentos com eficácia.
+Domine a adição de retângulos e a configuração de páginas em PDFs usando o Aspose.PDF .NET. Siga este guia para aprender técnicas de manipulação de documentos com eficácia.
 
 ### [Aspose.PDF .NET: Definir margens de PDF e personalizar cabeçalhos/rodapés](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 Domine a arte de definir margens de página e personalizar cabeçalhos/rodapés em seus PDFs com o Aspose.PDF para .NET. Siga este guia detalhado para aprimorar a consistência do layout do documento.
@@ -306,10 +306,16 @@ Aprenda a dividir um arquivo PDF em páginas individuais usando o Aspose.PDF par
 Aprenda a dividir páginas de PDF em arquivos separados usando o Aspose.PDF para .NET. Este guia completo aborda dicas de configuração, implementação e otimização.
 
 ### [Dividir e Criar Arquivos PDF Usando Aspose.PDF .NET | Guia de Manipulação de Documentos](./split-create-pdf-aspose-pdf-net/)
-Aprenda a dividir PDFs de várias páginas e criar novos arquivos PDF usando o Aspose.PDF para .NET. Siga este guia completo com exemplos de código.
+Aprenda a dividir PDFs de várias páginas e criar novos arquivos PDF usando o Aspose.PDF .NET. Siga este guia completo com exemplos de código.
 
 ### [Guia definitivo para manipulação de PDF com Aspose.PDF .NET: carregue, salve e substitua texto com eficiência](./master-pdf-manipulation-aspose-pdf-net/)
 Aprenda a dominar a manipulação de PDFs usando o Aspose.PDF para .NET. Este guia aborda como carregar, salvar e substituir texto em PDFs, ideal para desenvolvedores que buscam eficiência.
+
+### [Como achatar PDF com Aspose.PDF – Guia completo](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+Aprenda a achatar PDFs, removendo interatividade e reduzindo tamanho, usando Aspose.PDF em um guia passo a passo.
+
+### [Como comparar PDFs com Aspose – guia passo a passo](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
+Aprenda a comparar PDFs usando Aspose passo a passo, com exemplos de código C# e dicas de melhores práticas.
 
 ## Recursos adicionais
 

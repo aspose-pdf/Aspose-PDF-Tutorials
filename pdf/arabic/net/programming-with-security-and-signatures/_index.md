@@ -21,7 +21,7 @@
 ## دروس تعليمية
 | العنوان | الوصف |
 | --- | --- | 
-| [تغيير كلمة المرور في ملف PDF](./change-password/) تعلم كيفية تغيير كلمات مرور ملفات PDF بسهولة باستخدام Aspose.PDF لـ .NET. دليلنا المفصل يرشدك خلال العملية بأمان.  
+| [تغيير كلمة المرور في ملف PDF](./change-password/) تعلم كيفية تغيير كلمات مرور ملفات PDF بسهولة باستخدام Aspose.PDF لـ .NET. دليلنا المفصل يرشدك خلال العملية بأمان.  |
 | [فك تشفير ملف PDF](./decrypt/) | تعلّم كيفية فك تشفير ملفات PDF بأمان باستخدام Aspose.PDF لـ .NET. احصل على إرشادات خطوة بخطوة لتحسين مهاراتك في إدارة المستندات. |  
 | [تحديد كلمة المرور الصحيحة في ملف PDF](./determine-correct-password/) | افتح ملفات PDF بكلمة مرور صحيحة باستخدام Aspose.PDF لـ .NET. تعلّم كيفية تحديد كلمة المرور الصحيحة بسهولة. |  
 | [تسجيل الدخول رقميًا إلى ملف PDF](./digitally-sign/) تعرّف على كيفية التوقيع الرقمي على ملفات PDF باستخدام Aspose.PDF لـ .NET. دليل خطوة بخطوة لضمان أمان مستنداتك وصحتها. |  
@@ -34,7 +34,9 @@
 | [التوقيع بالبطاقة الذكية باستخدام توقيع ملف PDF](./sign-with-smart-card-using-pdf-file-signature/) تعرّف على كيفية توقيع ملفات PDF باستخدام بطاقة ذكية مع Aspose.PDF لـ .NET. اتبع هذا الدليل خطوة بخطوة للحصول على توقيعات رقمية آمنة.  
 | [التوقيع باستخدام البطاقة الذكية باستخدام حقل التوقيع](./sign-with-smart-card-using-signature-field/) | تعرّف على كيفية توقيع ملفات PDF بأمان باستخدام بطاقة ذكية باستخدام Aspose.PDF لـ .NET. اتبع دليلنا خطوة بخطوة لسهولة التنفيذ. |  
 | [التحقق من توقيعات PDF في C# – كيفية قراءة ملفات PDF الموقعة](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | تعلم كيفية قراءة والتحقق من التوقيعات الرقمية في ملفات PDF باستخدام C# و Aspose.PDF. |
-| [كيفية إصلاح ملفات PDF – دليل C# كامل باستخدام Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | تعلم كيفية إصلاح ملفات PDF المتضررة باستخدام Aspose.PDF لـ .NET في دليل شامل خطوة بخطوة بلغة C#. |  
+| [كيفية إصلاح ملفات PDF – دليل C# كامل باستخدام Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | تعلم كيفية إصلاح ملفات PDF المتضررة باستخدام Aspose.PDF لـ .NET في دليل شامل خطوة بخطوة بلغة C#. |
+| [التحقق من التوقيع الرقمي PDF في C# – دليل Aspose.PDF كامل](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) | تعلم كيفية التحقق من صحة التوقيع الرقمي في ملفات PDF باستخدام C# و Aspose.PDF خطوة بخطوة. |
+| [تكوين خادم CA في C# – دليل كامل للتحقق من توقيعات مستندات Word](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) | تعلم كيفية تكوين خادم CA باستخدام C# للتحقق من توقيعات مستندات Word خطوة بخطوة باستخدام Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
