@@ -39,6 +39,7 @@ Les tutoriels « Programmation avec tampons et filigranes » d'Aspose.PDF pour
 | [Tableau dans la section En-tête/Pied de page](./table-in-header-footer-section/) | Apprenez à ajouter facilement du texte au pied de page d'un fichier PDF avec Aspose.PDF pour .NET. Guide étape par étape inclus pour une intégration transparente. |  
 | [Texte dans le pied de page du fichier PDF](./text-in-footer/) | Apprenez à ajouter du texte dans le pied de page d'un fichier PDF avec Aspose.PDF pour .NET. |  
 | [Texte dans l'en-tête du fichier PDF](./text-in-header/) | Apprenez à ajouter des en-têtes de texte à vos PDF avec Aspose.PDF pour .NET grâce à ce tutoriel étape par étape. Améliorez vos documents efficacement. |  
+| [Ajouter un tampon au PDF – Appliquer un filigrane PDF sur la première page](./add-stamp-to-pdf-apply-watermark-pdf-on-first-page/) | Apprenez à ajouter un tampon qui agit comme filigrane uniquement sur la première page d'un PDF avec Aspose.PDF pour .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
