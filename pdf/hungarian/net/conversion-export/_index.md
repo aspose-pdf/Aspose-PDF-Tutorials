@@ -192,7 +192,7 @@ Tanuld meg, hogyan konvertálhatsz PDF fájlokat kiváló minőségű, többolda
 Tanuld meg, hogyan konvertálhatsz PDF fájlokat PostScript formátumba az Aspose.PDF for .NET segítségével ezzel a lépésről lépésre haladó útmutatóval. Tökéletes választás kiváló minőségű nyomtatási igényekhez.
 
 ### [PDF konvertálása TIFF formátumba az Aspose.PDF for .NET használatával: lépésről lépésre útmutató](./convert-pdf-to-tiff-aspose-net/)
-Tanuld meg, hogyan konvertálhatsz PDF fájlokat kiváló minőségű TIFF képekké az Aspose.PDF for .NET segítségével. Kövesd lépésről lépésre szóló útmutatónkat kódpéldákkal és konfigurációs tippekkel.
+Tanuld meg, hogyan konvertálhatsz PDF fájlokat kiváló minőségű TIFF képekké az Aspose.PDF for .NET segítségével. Kövesd lépésről lépésre útmutatónkat kódpéldákkal és konfigurációs tippekkel.
 
 ### [PDF konvertálása XML-lé az Aspose.PDF for .NET használatával: lépésről lépésre útmutató](./pdf-to-xml-conversion-aspose-pdf-net/)
 Sajátítsa el a PDF dokumentumok XML-be konvertálásának művészetét az Aspose.PDF for .NET segítségével. Kövesse ezt az átfogó útmutatót, és fejlessze dokumentumkezelését.
@@ -226,6 +226,9 @@ Kód oktatóanyag az Aspose.PDF Nethez
 
 ### [PDF-ből TIFF-be konvertálás .NET-ben az Aspose.PDF használatával: lépésről lépésre útmutató](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Tanuld meg, hogyan konvertálhatsz PDF dokumentumokat TIFF képekké az Aspose.PDF for .NET segítségével. Sajátítsd el az egyéni színmélységeket és a fejlett képfeldolgozási technikákat.
+
+### [PDF konvertálása HTML-be és PDF aláírás ellenőrzése – Teljes Aspose .NET útmutató](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
+Ismerje meg, hogyan konvertálhat PDF-et HTML-be, majd ellenőrizheti a PDF aláírását az Aspose.PDF for .NET segítségével, részletes kódpéldákkal.
 
 ## További források
 

@@ -29,6 +29,9 @@ Naučte se, jak převést XML data do profesionálních PDF dokumentů pomocí A
 ### [Komplexní průvodce: Převod PDF do HTML pomocí Aspose.PDF .NET s vlastními strategiemi](./convert-pdf-html-aspose-dotnet-custom-strategies/)
 Naučte se, jak převádět PDF do HTML pomocí vlastních strategií pomocí Aspose.PDF pro .NET. Zachovejte vysokou věrnost, efektivně zpracovávejte obrázky, fonty a CSS.
 
+### [Převod PDF do HTML a ověření podpisu PDF – Kompletní průvodce Aspose .NET](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
+Naučte se převádět PDF do HTML a ověřovat digitální podpisy pomocí Aspose.PDF pro .NET s podrobnými ukázkami kódu.
+
 ### [Komplexní průvodce: Převod PDF do TIFF pomocí Aspose.PDF .NET pro bezproblémovou konverzi dokumentů](./convert-pdf-to-tiff-aspose-dotnet-guide/)
 Naučte se, jak efektivně převádět soubory PDF do vysoce kvalitních obrázků TIFF pomocí Aspose.PDF pro .NET. Postupujte podle tohoto podrobného návodu a vylepšete si pracovní postup zpracování dokumentů.
 
@@ -120,7 +123,7 @@ Naučte se, jak bez problémů převádět soubory TeX do PDF pomocí Aspose.PDF
 Naučte se, jak bez problémů převádět textové soubory do profesionálních PDF dokumentů pomocí Aspose.PDF pro .NET. Postupujte podle tohoto podrobného návodu s příklady kódu a tipy pro optimalizaci.
 
 ### [Převod XML do PDF v C# pomocí Aspose.PDF: Komplexní průvodce pro .NET vývojáře](./convert-xml-to-pdf-csharp-aspose-pdf-guide/)
-Naučte se, jak efektivně převádět soubory XML do profesionálních PDF pomocí Aspose.PDF a C#. Postupujte podle tohoto podrobného návodu určeného pro vývojáře .NET.
+Naučte se, jak efektivně převádět soubory XML do profesionálních PDF pomocí Aspose.PDF a C#. Postupujte podle tohoto podrobního návodu určeného pro vývojáře .NET.
 
 ### [Převod XML do PDF pomocí Aspose.PDF pro .NET: Podrobný návod](./convert-xml-pdf-aspose-dotnet/)
 Naučte se, jak transformovat XML data do stylizovaných PDF souborů pomocí Aspose.PDF a XSLT v .NET. Tato příručka se zabývá nastavením, kroky převodu a reálnými aplikacemi.

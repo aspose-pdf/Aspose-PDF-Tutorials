@@ -62,6 +62,12 @@ Scopri come caricare un PDF in C#, convertirlo in PDF/X‑4 e elencare le firme 
 ### [Convalida firma PDF con Aspose – Converti PDF in HTML](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
 Scopri come convalidare le firme PDF e convertire i PDF in HTML con Aspose, garantendo l'integrità dei documenti durante la trasformazione.
 
+### [Verifica la firma PDF e aggiungi la numerazione Bates – Guida completa C#](./verify-pdf-signature-and-add-bates-numbering-complete-c-guid/)
+Scopri come verificare la firma PDF e aggiungere la numerazione Bates usando C# con Aspose.PDF.
+
+### [Come estrarre le firme da PDF – Guida Aspose C#](./how-to-extract-signatures-from-pdf-aspose-c-guide/)
+Scopri come estrarre le firme digitali dai PDF con Aspose.PDF per .NET usando C#, con esempi di codice chiari e pratici.
+
 ## Risorse aggiuntive
 
 - [Aspose.PDF per la documentazione di rete](https://docs.aspose.com/pdf/net/)

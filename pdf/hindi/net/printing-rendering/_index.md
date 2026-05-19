@@ -50,6 +50,9 @@
 ### [.NET के लिए Aspose.PDF का उपयोग करके PDF में कस्टम ज़ूम फैक्टर सेट करें - एक संपूर्ण गाइड](./aspose-pdf-net-set-zoom-factor-pdfs/)
 .NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ों में कस्टम ज़ूम फ़ैक्टर सेट करना सीखें। यह मार्गदर्शिका इंस्टॉलेशन, कार्यान्वयन चरणों और व्यावहारिक अनुप्रयोगों को कवर करती है।
 
+### [C# में PDF को रेंडर कैसे करें – PNG, HTML और स्टैम्पिंग के लिए संपूर्ण गाइड](./how-to-render-pdf-in-c-complete-guide-to-png-html-stamping/)
+C# में Aspose.PDF का उपयोग करके PDF को PNG, HTML में बदलना और स्टैम्प जोड़ना सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.PDF for Net दस्तावेज़ीकरण](https://docs.aspose.com/pdf/net/)
