@@ -164,6 +164,9 @@ Lär dig hur du konverterar EPUB-filer till PDF med Aspose.PDF för .NET med den
 ### [Hur man konverterar HTML till PDF med Aspose.PDF .NET: En komplett guide](./convert-html-pdf-aspose-dotnet-guide/)
 Lär dig hur du effektivt konverterar HTML-dokument till professionellt utseende PDF-filer med Aspose.PDF .NET. Upptäck tekniker för att hantera externa resurser och rendera komplext innehåll.
 
+### [Spara HTML från PDF – steg‑för‑steg‑guide](./how-to-save-html-from-pdf-step-by-step-guide/)
+Lär dig hur du extraherar och sparar HTML‑innehåll från en PDF‑fil med Aspose.PDF för .NET i en detaljerad steg‑för‑steg‑guide.
+
 ### [Hur man konverterar stora CGM-bilder till PDF med Aspose.PDF .NET: En omfattande guide](./convert-large-cgm-images-to-pdf-aspose-pdf-net/)
 Lär dig hur du enkelt konverterar stora CGM-bilder (Computer Graphics Metafile) till PDF-filer med Aspose.PDF .NET. Den här guiden behandlar installation, implementering och bästa praxis.
 

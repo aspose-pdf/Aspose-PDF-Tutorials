@@ -76,8 +76,12 @@ Aspose.PDF Net 代码教程
 
 ### [使用 Aspose.PDF 创建 PDF 文档 – 添加页面、形状并保存](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 学习如何使用 Aspose.PDF 在 .NET 中创建 PDF 文档，添加页面和形状并保存。
+
 ### [使用 Aspose.PDF 创建 PDF 文档：分步指南](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 学习如何使用 Aspose.PDF 在 .NET 中一步步创建 PDF 文档，涵盖基本设置、页面添加和内容写入。
+
+### [使用 Aspose.PDF for .NET 创建 PDF 文档（C#）——添加空白页并绘制矩形的分步指南](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
+学习如何使用 Aspose.PDF for .NET 在 C# 中创建 PDF 文档，添加空白页并绘制矩形形状的完整步骤。
 
 ## 其他资源
 

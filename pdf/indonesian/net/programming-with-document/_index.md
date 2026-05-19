@@ -58,6 +58,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Validasi PDF AB Standar](./validatepdfabstandard/) Pelajari cara memvalidasi PDF untuk standar PDF/A-1b menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini. Pastikan kepatuhan untuk pengarsipan jangka panjang. Bahasa Indonesia:  
 | [Validasi File PDF Standar](./validatepdfastandard/) | Pelajari cara memvalidasi file PDF terhadap standar PDF/A-1a menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah yang komprehensif ini. Bahasa Indonesia:  
 | [Validasi PDF UA Standar](./validatepdfuastandard/) | Pelajari cara memvalidasi PDF untuk standar aksesibilitas PDF/UA menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah dan penjelasan terperinci kami. |  
+| [Buka File PDF C# – Cara Memperbaiki PDF Rusak dalam Hitungan Menit](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | Pelajari cara membuka file PDF dan memperbaiki PDF yang rusak dalam hitungan menit menggunakan Aspose.PDF untuk .NET dengan C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -152,6 +152,9 @@ Naučte se, jak snadno formátovat HTML obsah v PDF pomocí Aspose.PDF pro .NET 
 ### [Jak přidat HTML obsah do PDF pomocí Aspose.PDF .NET: Kompletní průvodce](./add-html-pdf-aspose-dotnet-guide/)
 Naučte se, jak bez problémů přidávat HTML obsah do PDF dokumentů pomocí Aspose.PDF .NET. Tato příručka se zabývá nastavením, implementací a praktickými aplikacemi pro dynamické generování dokumentů.
 
+### [Jak uložit HTML z PDF – průvodce krok za krokem](./how-to-save-html-from-pdf-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.PDF pro .NET uložit obsah PDF jako HTML soubor krok po kroku.
+
 ### [Jak převést soubory CGM do PDF pomocí Aspose.PDF pro .NET](./aspose-pdf-net-cgm-to-pdf-conversion/)
 Naučte se, jak bez problémů převádět soubory Computer Graphics Metafile (CGM) do PDF pomocí nástroje Aspose.PDF pro .NET. Tato příručka se zabývá nastavením, převodem a integrací pro aplikace .NET.
 
