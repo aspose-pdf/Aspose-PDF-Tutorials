@@ -164,6 +164,9 @@ Aspose.PDF for .NET kullanarak PDF belgelerindeki görüntüleri nasıl sıkış
 ### [.NET için Aspose.PDF Kullanarak PDF'lerde Görüntü Arka Planları Ayarlama: Kapsamlı Bir Kılavuz](./aspose-pdf-net-set-image-backgrounds/)
 Aspose.PDF for .NET kullanarak görüntü arka planları ayarlayarak PDF belgelerinizi nasıl geliştireceğinizi öğrenin. Bu kılavuz kurulum, uygulama ve optimizasyon ipuçlarını kapsar.
 
+### [C# ile PDF'ye Dikdörtgen Ekleme – Tam Aspose PDF Kılavuzu](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+C# ve Aspose.PDF for .NET kullanarak PDF belgelerine dikdörtgen şekilleri eklemeyi adım adım öğrenin.
+
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)

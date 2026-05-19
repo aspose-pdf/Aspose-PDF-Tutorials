@@ -58,6 +58,8 @@
 | [XML से PDFसेट छवि पथ](./xml-to-pdfset-image-path/) | जानें कि .NET के लिए Aspose.PDF का उपयोग करके XML को आसानी से PDF में कैसे परिवर्तित किया जाए। यह विस्तृत गाइड आपको सेटअप से लेकर पूरा होने तक की प्रक्रिया के बारे में चरण दर चरण बताता है। |  
 | [XPS से PDF में](./xps-to-pdf/) इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.PDF का उपयोग करके XPS फ़ाइलों को PDF में कनवर्ट करना सीखें। डेवलपर्स और दस्तावेज़ उत्साही लोगों के लिए बिल्कुल सही। |  
 | [C# में PDF को PDF/X‑4 में परिवर्तित करें – चरण-दर-चरण ASP.NET PDF ट्यूटोरियल](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | इस ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X‑4 फ़ॉर्मेट में बदलना सीखें। |
+| [Aspose.PDF के साथ PDF को HTML के रूप में सहेजें – चरण‑दर‑चरण C# गाइड](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) | इस चरण‑दर‑चरण ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को HTML में सहेजना सीखें। |
+| [C# में JPG से PDF बनाएं – क्रॉपिंग और नई पृष्ठों के साथ पूर्ण गाइड](./create-pdf-from-jpg-in-c-full-guide-with-cropping-and-new-pa/) | इस विस्तृत गाइड में C# के साथ JPG छवियों को क्रॉप करके नई पृष्ठों के साथ PDF बनाने के चरण सीखें। |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

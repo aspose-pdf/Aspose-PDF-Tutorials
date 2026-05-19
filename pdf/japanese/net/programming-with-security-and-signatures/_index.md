@@ -29,12 +29,14 @@
 | [PDFファイルを暗号化する](./encrypt/) Aspose.PDF for .NET を使って PDF ファイルを簡単に暗号化する方法を学びましょう。簡単なステップバイステップガイドで機密情報を保護しましょう。 |  
 | [画像の抽出](./extracting-image/) Aspose.PDF for .NET を使って PDF から画像を抽出する方法を簡単に学びましょう。ステップバイステップのガイドに従って、シームレスに画像抽出を行いましょう。 |  
 | [署名情報の抽出](./extract-signature-info/) Aspose.PDF for .NET を使用して、PDF ドキュメントからデジタル署名と証明書情報を抽出する方法を学びましょう。C# 開発者向けの完全なステップバイステップガイドです。 |  
+| [PDF 署名抽出チュートリアル – C# で PDF 署名を一覧表示する方法](./pdf-signature-extraction-tutorial-how-to-list-pdf-signatures/) Aspose.PDF for .NET を使用して、C# で PDF のデジタル署名を取得し、一覧表示する方法を学びます。ステップバイステップガイドです。 |  
 | [パスワード保護されています](./is-password-protected/) この包括的なステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF がパスワードで保護されているかどうかを確認する方法を説明します。 |  
 | [PDF ファイルに権限を設定する](./set-privileges/) Aspose.PDF for .NET を使用してPDFの権限を設定する方法をステップバイステップで解説します。ドキュメントを効果的に保護しましょう。 |  
 | [PDFファイルの署名を使用してスマートカードで署名する](./sign-with-smart-card-using-pdf-file-signature/) Aspose.PDF for .NET を使ってスマートカードでPDFファイルに署名する方法を学びましょう。安全なデジタル署名を実現するには、このステップバイステップガイドに従ってください。 |  
 | [署名フィールドを使用してスマートカードで署名する](./sign-with-smart-card-using-signature-field/) Aspose.PDF for .NET を使ってスマートカードで安全に PDF に署名する方法を学びましょう。ステップバイステップのガイドに従って簡単に実装できます。 |  
 | [C# で PDF 署名を確認する – 署名済み PDF ファイルの読み取り方法](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) Aspose.PDF for .NET を使用して、C# で署名済み PDF の署名情報を取得し、検証する方法を学びます。 |  
 | [PDF ファイルの修復方法 – Aspose.Pdf を使用した完全な C# ガイド](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) Aspose.PDF for .NET を使用して PDF ファイルを修復する方法を学びましょう。ステップバイステップのガイドで、破損した文書を復元できます。 |  
+| [C# で署名付き PDF を作成 – ステップバイステップ ガイド](./create-signed-pdf-in-c-step-by-step-guide/) Aspose.PDF for .NET を使用して、C# で PDF にデジタル署名を追加する方法をステップバイステップで解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
