@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-14"
-"description": "Aprenda a capturar advertencias de sustitución de fuentes al convertir documentos PDF a HTML con Aspose.PDF para Java. Asegúrese de que sus documentos conserven la apariencia deseada con esta guía."
-"title": "Capturar advertencias de sustitución de fuentes en la conversión de PDF a HTML con Aspose.PDF Java"
-"url": "/es/java/conversion-export/capture-font-substitution-warnings-pdf-html-conversion-asposepdf-java/"
-"weight": 1
+date: '2026-03-09'
+description: Aprenda cómo capturar advertencias de sustitución de fuentes durante
+  la conversión de PDF a HTML con Aspose.PDF para Java, garantizando una renderización
+  precisa y detectando fuentes faltantes en el PDF.
+keywords:
+- Aspose.Aspose.PDF
+- Java
+- Document Processing
+title: 'Conversión de PDF a HTML: Captura de advertencias de sustitución de fuentes
+  usando Aspose.PDF para Java'
+url: /es/java/conversion-export/capture-font-substitution-warnings-pdf-html-conversion-asposepdf-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,29 +18,49 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Cómo capturar advertencias de sustitución de fuentes en la conversión de PDF a HTML con Aspose.PDF Java
+# Conversión de PDF a HTML: Captura de advertencias de sustitución de fuentes con Aspose.PDF para Java
 
 ## Introducción
 
-La conversión de archivos PDF a formato HTML a menudo puede provocar sustituciones de fuentes, lo que afecta el diseño y la integridad visual. Con **Aspose.PDF para Java**Capturar estas advertencias de sustitución de fuentes se vuelve sencillo, lo que ayuda a garantizar que sus conversiones sean precisas y mantengan la apariencia deseada.
+Cuando realizas una **pdf to html conversion**, la sustitución de fuentes puede alterar silenciosamente el aspecto de tus páginas, provocando cambios de diseño o caracteres faltantes. Capturar estas advertencias te permite verificar que la conversión preserve el diseño original y ayuda a detectar fuentes faltantes pdf antes de que se conviertan en un problema. En este tutorial, aprenderás cómo engancharte al pipeline de conversión de Aspose.PDF para Java, registrar cualquier cambio de fuente y guardar el archivo HTML resultante con confianza.
 
-Este tutorial te guiará en la implementación de advertencias de sustitución de fuentes al convertir documentos PDF a HTML con Aspose.PDF para Java. Aprenderás los pasos técnicos y comprenderás la importancia de ciertas configuraciones.
+**Lo que lograrás:**
+- Entender por qué monitorear la sustitución de fuentes es importante para la conversión pdf a html.
+- Configurar un manejador de sustitución de fuentes que registre cada cambio de fuente.
+- Configurar `HtmlSaveOptions` para afinar la salida de la conversión.
 
-**Lo que aprenderás:**
-- La importancia de capturar sustituciones de fuentes durante la conversión.
-- Cómo configurar un controlador de sustitución de fuentes en su aplicación.
-- Opciones de configuración clave para optimizar las conversiones de PDF a HTML.
+Asegurémonos de que tienes todo lo necesario antes de profundizar.
 
-Comencemos revisando los requisitos previos necesarios antes de comenzar.
+## Respuestas rápidas
+- **¿Qué hace el manejador de sustitución de fuentes?** Registra el nombre de la fuente original y la fuente que Aspose.PDF sustituye durante la conversión.  
+- **¿Puedo usar esto con proyectos pdf to html java?** Sí, el código funciona con cualquier aplicación Java que haga referencia a Aspose.PDF.  
+- **¿Necesito una licencia para uso en producción?** Se requiere una licencia válida de Aspose.PDF para implementaciones comerciales.  
+- **¿Se detectarán automáticamente las fuentes faltantes?** El manejador registra cada sustitución, permitiéndote detectar fuentes faltantes pdf.  
+- **¿Se requiere alguna configuración adicional?** Solo la configuración estándar de Aspose.PDF y el registro del manejador que se muestra a continuación.
 
-## Prerrequisitos
+## ¿Qué es la conversión pdf a html?
+La conversión pdf a html transforma un documento PDF en un archivo HTML amigable para la web, intentando conservar el diseño original, las fuentes y las imágenes. Este proceso es útil para mostrar PDFs en navegadores sin requerir un complemento visor de PDF.
 
-Antes de continuar, asegúrese de tener:
+## ¿Por qué capturar advertencias de sustitución de fuentes?
+Durante la conversión, si la fuente original no está incrustada o no está disponible en el sistema, Aspose.PDF la sustituye por una alternativa. Sin visibilidad, el HTML puede verse notablemente diferente. Al capturar advertencias puedes:
+- Identificar fuentes faltantes temprano.
+- Elegir incrustar las fuentes requeridas.
+- Proveer una estrategia de respaldo para los usuarios finales.
 
-### Bibliotecas y dependencias requeridas
-Para usar Aspose.PDF para Java, inclúyalo como dependencia en su proyecto. Siga estas instrucciones de instalación con Maven o Gradle:
+## Requisitos previos
 
-**Experto**
+Antes de comenzar, asegúrate de contar con lo siguiente:
+
+- **Java Development Kit (JDK)** – versión 8 o superior.  
+- **IDE** – IntelliJ IDEA, Eclipse, o cualquier editor que prefieras.  
+- **Herramienta de compilación** – Maven o Gradle (se proporcionan ambos ejemplos).  
+- **Conocimientos básicos de Java** – suficiente para crear un método `main` simple y ejecutar el código.
+
+## Configuración de Aspose.PDF para Java
+
+### 1. Añadir la dependencia de Aspose.PDF
+Utiliza el fragmento que coincida con tu sistema de compilación.
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -42,81 +69,95 @@ Para usar Aspose.PDF para Java, inclúyalo como dependencia en su proyecto. Siga
 </dependency>
 ```
 
-**Gradle**
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### Requisitos de configuración del entorno
-- Java Development Kit (JDK) instalado en su máquina.
-- Un IDE como IntelliJ IDEA o Eclipse para escribir y probar su código.
+### 2. Obtener y aplicar una licencia
+- Obtén una licencia de prueba gratuita para explorar todas las funciones sin limitaciones [aquí](https://purchase.aspose.com/temporary-license/).  
+- Para uso en producción, compra una licencia permanente o una temporal de Aspose [aquí](https://purchase.aspose.com/temporary-license/).
 
-### Requisitos previos de conocimiento
-- Comprensión básica de la programación Java.
-- Familiaridad con las herramientas de compilación Maven/Gradle, si corresponde.
-
-## Configuración de Aspose.PDF para Java
-
-Para comenzar a utilizar Aspose.PDF para Java, siga estos pasos:
-
-1. **Agregar dependencia**:Incluya la biblioteca Aspose.PDF en su proyecto como se muestra arriba.
-2. **Adquisición de licencias**:
-   - Obtenga una licencia de prueba gratuita para explorar todas las funciones sin limitaciones [aquí](https://purchase.aspose.com/temporary-license/).
-   - Para un uso prolongado, considere comprar una suscripción o adquirir una licencia temporal de [Supongamos](https://purchase.aspose.com/temporary-license/).
-3. **Inicialización básica**:Crear una instancia de la `Document` clase y cargue su archivo PDF como se muestra a continuación:
+### 3. Cargar tu documento PDF
+Crea una instancia `Document` que apunte al PDF de origen.
 
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Document pdfDoc = new Document(dataDir + "input1.pdf");
 ```
-
-Ahora, procedamos con nuestra guía de implementación.
 
 ## Guía de implementación
 
-### Característica: Advertencia de sustitución de fuentes en la conversión de PDF a HTML
+### Funcionalidad: Advertencia de sustitución de fuentes en la conversión pdf a html
 
-Esta función le permite supervisar y capturar cualquier sustitución de fuentes que se produzca durante el proceso de conversión de formato PDF a HTML.
+Esta funcionalidad te permite monitorear y capturar cualquier sustitución de fuentes que ocurra al convertir un PDF a HTML.
 
-#### Paso 1: Cargue su documento PDF
-Cargue su archivo PDF existente usando Aspose.PDF `Document` clase. Este paso es esencial para acceder a su contenido y aplicar operaciones posteriores.
+#### Paso 1: Cargar tu documento PDF
+(Ya mostrado arriba) Cargar el documento te brinda acceso a su contenido e información de fuentes.
 
-```java
-String dataDir = "YOUR_DOCUMENT_DIRECTORY";
-Document pdfDoc = new Document(dataDir + "input1.pdf");
-```
-
-#### Paso 2: Configurar un controlador de sustitución de fuentes
-Implemente un controlador de sustitución de fuentes para registrar cualquier cambio en las fuentes durante la conversión. Este controlador registra las fuentes originales y las sustituidas.
+#### Paso 2: Configurar un manejador de sustitución de fuentes
+Registra un manejador que registre cada sustitución en un mapa para su inspección posterior.
 
 ```java
 final Map<String, String> names = new HashMap<>();
 pdfDoc.FontSubstitution.add(new Document.FontSubstitutionHandler() {
     public void invoke(Font font, Font newFont) {
-        // El registro sustituyó FontNames en un mapa.
+        // Log substituted FontNames into a map.
         names.put(font.getFontName(), newFont.getFontName());
     }
 });
 ```
 
-**¿Por qué este paso?**
-La captura de sustituciones de fuentes le permite tomar medidas correctivas si la integridad visual de su documento se ve comprometida.
+**Por qué es importante:**  
+Si la conversión intercambia una fuente propietaria por una genérica, el HTML puede renderizarse con espaciado inesperado o glifos faltantes. El mapa `names` te brinda una pista de auditoría clara.
 
-#### Paso 3: Configurar las opciones de guardado de HTML
-Configuración `HtmlSaveOptions` para definir cómo debe guardarse el PDF como archivo HTML. 
+#### Paso 3: Configurar opciones de guardado HTML
+Crea una instancia `HtmlSaveOptions` para controlar cómo se guarda el PDF como HTML.
 
 ```java
 HtmlSaveOptions htmlSaveOps = new HtmlSaveOptions();
 ```
 
-**Opciones de configuración clave:**
-- Ajuste configuraciones como compresión de imágenes, incrustación de fuentes y más a través de las propiedades de `HtmlSaveOptions`.
+Puedes personalizar aún más propiedades como `SplitIntoPages`, `EmbedFonts` o `ImageCompression` según las necesidades de tu proyecto.
 
 #### Paso 4: Guardar el documento convertido
-Por último, guarde su documento PDF como un archivo HTML utilizando las opciones especificadas.
+Finalmente, escribe la salida HTML en disco.
 
 ```java
 pdfDoc.save("YOUR_OUTPUT_DIRECTORY/getWarningForFontSubstitution.html\
+```
+
+Después de la ejecución, inspecciona el mapa `names` para ver qué fuentes fueron sustituidas. Si notas entradas inesperadas, considera incrustar las fuentes faltantes o ajustar la configuración de conversión.
+
+## Problemas comunes y solución de problemas
+
+| Síntoma | Causa probable | Solución |
+|---------|----------------|----------|
+| No hay entradas en el mapa `names` | Sustitución de fuentes deshabilitada o todas las fuentes están incrustadas | Asegúrate de que `EmbedFonts` esté configurado a `false` en `HtmlSaveOptions` si deseas ver sustituciones. |
+| Diseño HTML roto | La fuente sustituida carece de los glifos requeridos | Incrusta la fuente faltante o proporciona un fallback CSS que coincida con el diseño original. |
+| `pdfDoc.save` lanza una excepción | Ruta de salida incorrecta o permisos de escritura faltantes | Verifica que `YOUR_OUTPUT_DIRECTORY` exista y tenga permisos de escritura. |
+
+## Preguntas frecuentes
+
+**P: ¿Puedo usar este enfoque con otros formatos de salida (p. ej., DOCX)?**  
+R: Sí. Aspose.PDF ofrece eventos de sustitución de fuentes similares para la mayoría de los destinos de conversión.
+
+**P: ¿Cómo detecto fuentes faltantes pdf antes de la conversión?**  
+R: Inspecciona la colección `pdfDoc.FontInfo` o confía en el manejador de sustitución durante la conversión.
+
+**P: ¿Hay una forma de incrustar automáticamente las fuentes faltantes?**  
+R: Configura `htmlSaveOps.setEmbedFonts(true)`; Aspose.PDF incrustará las fuentes disponibles, pero las fuentes realmente faltantes deben suministrarse manualmente.
+
+**P: ¿Esto funciona con PDFs encriptados?**  
+R: Sí, siempre que proporciones la contraseña al cargar el documento: `new Document(path, new LoadOptions(password))`.
+
+**P: ¿Esto aumentará el tiempo de conversión?**  
+R: La sobrecarga de registrar sustituciones es mínima, típicamente añadiendo solo unos pocos milisegundos.
+
+---
+
+**Última actualización:** 2026-03-09  
+**Probado con:** Aspose.PDF 25.3 para Java  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

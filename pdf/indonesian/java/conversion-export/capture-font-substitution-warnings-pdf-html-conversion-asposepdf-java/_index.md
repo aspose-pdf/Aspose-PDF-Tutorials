@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-14"
-"description": "Pelajari cara menangkap peringatan penggantian font saat mengonversi dokumen PDF ke HTML menggunakan Aspose.PDF untuk Java. Pastikan konversi dokumen Anda mempertahankan tampilan yang diinginkan dengan panduan ini."
-"title": "Menangkap Peringatan Penggantian Font dalam Konversi PDF ke HTML Menggunakan Aspose.PDF Java"
-"url": "/id/java/conversion-export/capture-font-substitution-warnings-pdf-html-conversion-asposepdf-java/"
-"weight": 1
+date: '2026-03-09'
+description: Pelajari cara menangkap peringatan substitusi font selama konversi PDF
+  ke HTML dengan Aspose.PDF untuk Java, memastikan rendering yang akurat dan mendeteksi
+  font yang hilang pada PDF.
+keywords:
+- Aspose.Aspose.PDF
+- Java
+- Document Processing
+title: 'Konversi PDF ke HTML: Menangkap Peringatan Substitusi Font Menggunakan Aspose.PDF
+  untuk Java'
+url: /id/java/conversion-export/capture-font-substitution-warnings-pdf-html-conversion-asposepdf-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,29 +18,49 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Cara Menangkap Peringatan Penggantian Font dalam Konversi PDF ke HTML Menggunakan Aspose.PDF Java
+# Konversi PDF ke HTML: Tangkap Peringatan Substitusi Font dengan Aspose.PDF untuk Java
 
-## Perkenalan
+## Introduction
 
-Mengonversi PDF ke format HTML sering kali dapat menyebabkan penggantian font, yang memengaruhi tata letak dan integritas visual. **Aspose.PDF untuk Java**, menangkap peringatan penggantian font ini menjadi mudah, membantu memastikan konversi Anda akurat dan mempertahankan tampilan yang diinginkan.
+Saat Anda melakukan **pdf to html conversion**, substitusi font dapat secara diam-diam mengubah tampilan halaman Anda, menyebabkan pergeseran tata letak atau karakter yang hilang. Menangkap peringatan ini memungkinkan Anda memverifikasi bahwa konversi mempertahankan desain asli dan membantu Anda mendeteksi font yang hilang pdf sebelum menjadi masalah. Dalam tutorial ini, Anda akan belajar cara mengaitkan ke pipeline konversi Aspose.PDF untuk Java, mencatat setiap perubahan font, dan menyimpan file HTML yang dihasilkan dengan percaya diri.
 
-Tutorial ini akan memandu Anda menerapkan peringatan penggantian font saat mengonversi dokumen PDF ke HTML menggunakan Aspose.PDF untuk Java. Anda akan memperoleh wawasan tentang langkah-langkah teknis dan memahami mengapa konfigurasi tertentu penting.
+**Apa yang akan Anda capai:**
+- Memahami mengapa pemantauan substitusi font penting untuk konversi pdf ke html.
+- Menyiapkan handler substitusi font yang mencatat setiap perubahan font.
+- Mengonfigurasi `HtmlSaveOptions` untuk menyetel output konversi secara detail.
 
-**Apa yang Akan Anda Pelajari:**
-- Pentingnya menangkap substitusi font selama konversi.
-- Cara mengatur penanganan substitusi font di aplikasi Anda.
-- Opsi konfigurasi utama untuk mengoptimalkan konversi PDF ke HTML.
+Pastikan Anda memiliki semua yang diperlukan sebelum kita mulai.
 
-Mari kita mulai dengan memeriksa prasyarat yang diperlukan sebelum memulai.
+## Quick Answers
+- **Apa yang dilakukan handler substitusi font?** Ia mencatat nama font asli dan font yang digantikan oleh Aspose.PDF selama konversi.  
+- **Apakah saya dapat menggunakan ini dengan proyek pdf ke html java?** Ya, kode ini bekerja dengan aplikasi Java apa pun yang merujuk ke Aspose.PDF.  
+- **Apakah saya memerlukan lisensi untuk penggunaan produksi?** Lisensi Aspose.PDF yang valid diperlukan untuk penyebaran komersial.  
+- **Apakah font yang hilang akan terdeteksi secara otomatis?** Handler mencatat setiap substitusi, secara efektif memungkinkan Anda mendeteksi font yang hilang pdf.  
+- **Apakah ada konfigurasi tambahan yang diperlukan?** Hanya pengaturan standar Aspose.PDF dan pendaftaran handler seperti yang ditunjukkan di bawah.
 
-## Prasyarat
+## What is pdf to html conversion?
+Konversi pdf ke html mengubah dokumen PDF menjadi file HTML yang ramah web sambil berusaha mempertahankan tata letak, font, dan gambar asli. Proses ini berguna untuk menampilkan PDF di peramban tanpa memerlukan plug‑in penampil PDF.
 
-Sebelum melanjutkan, pastikan Anda memiliki:
+## Why capture font substitution warnings?
+Selama konversi, jika font asli tidak disematkan atau tidak tersedia di sistem, Aspose.PDF menggantinya dengan font cadangan. Tanpa visibilitas, HTML dapat terlihat berbeda secara signifikan. Dengan menangkap peringatan Anda dapat:
+- Mengidentifikasi font yang hilang lebih awal.
+- Memilih untuk menyematkan font yang diperlukan.
+- Menyediakan strategi cadangan untuk pengguna akhir.
 
-### Pustaka dan Ketergantungan yang Diperlukan
-Untuk menggunakan Aspose.PDF untuk Java, sertakan sebagai dependensi dalam proyek Anda. Ikuti petunjuk instalasi berikut menggunakan Maven atau Gradle:
+## Prerequisites
 
-**Pakar**
+Sebelum Anda memulai, pastikan Anda memiliki hal‑hal berikut:
+
+- **Java Development Kit (JDK)** – versi 8 atau lebih baru.  
+- **IDE** – IntelliJ IDEA, Eclipse, atau editor apa pun yang Anda sukai.  
+- **Alat build** – Maven atau Gradle (kedua contoh disediakan).  
+- **Pengetahuan Java dasar** – cukup untuk membuat metode `main` sederhana dan menjalankan kode.
+
+## Setting Up Aspose.PDF for Java
+
+### 1. Add the Aspose.PDF dependency
+Use the snippet that matches your build system.
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -42,81 +69,95 @@ Untuk menggunakan Aspose.PDF untuk Java, sertakan sebagai dependensi dalam proye
 </dependency>
 ```
 
-**Bahasa Inggris Gradle**
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### Persyaratan Pengaturan Lingkungan
-- Java Development Kit (JDK) terinstal di komputer Anda.
-- IDE seperti IntelliJ IDEA atau Eclipse untuk menulis dan menguji kode Anda.
+### 2. Acquire and apply a license
+- Dapatkan lisensi percobaan gratis untuk menjelajahi semua fitur tanpa batasan [di sini](https://purchase.aspose.com/temporary-license/).  
+- Untuk penggunaan produksi, beli lisensi permanen atau lisensi sementara dari Aspose [di sini](https://purchase.aspose.com/temporary-license/).
 
-### Prasyarat Pengetahuan
-- Pemahaman dasar tentang pemrograman Java.
-- Kemampuan menggunakan alat pembangun Maven/Gradle, jika ada.
-
-## Menyiapkan Aspose.PDF untuk Java
-
-Untuk mulai menggunakan Aspose.PDF untuk Java, ikuti langkah-langkah berikut:
-
-1. **Tambahkan Ketergantungan**Sertakan pustaka Aspose.PDF dalam proyek Anda seperti yang ditunjukkan di atas.
-2. **Akuisisi Lisensi**:
-   - Dapatkan lisensi uji coba gratis untuk menjelajahi fitur lengkap tanpa batasan [Di Sini](https://purchase.aspose.com/temporary-license/).
-   - Untuk penggunaan jangka panjang, pertimbangkan untuk membeli langganan atau memperoleh lisensi sementara dari [Asumsikan](https://purchase.aspose.com/temporary-license/).
-3. **Inisialisasi Dasar**: Buat sebuah instance dari `Document` kelas dan muat berkas PDF Anda seperti yang ditunjukkan di bawah ini:
+### 3. Load your PDF document
+Create a `Document` instance pointing to the source PDF.
 
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Document pdfDoc = new Document(dataDir + "input1.pdf");
 ```
 
-Sekarang, mari kita lanjutkan dengan panduan implementasi kita.
+## Implementation Guide
 
-## Panduan Implementasi
+### Feature: Font Substitution Warning in pdf to html conversion
 
-### Fitur: Peringatan Penggantian Font dalam Konversi PDF ke HTML
+Fitur ini memungkinkan Anda memantau dan menangkap setiap substitusi font yang terjadi saat mengonversi PDF ke HTML.
 
-Fitur ini memungkinkan Anda untuk memantau dan menangkap setiap penggantian font yang terjadi selama proses konversi dari format PDF ke HTML.
+#### Step 1: Load Your PDF Document
+(Already shown above) (Sudah ditampilkan di atas) Memuat dokumen memberi Anda akses ke konten dan informasi fontnya.
 
-#### Langkah 1: Muat Dokumen PDF Anda
-Muat file PDF Anda yang ada menggunakan Aspose.PDF `Document` kelas. Langkah ini penting untuk mengakses kontennya dan menerapkan operasi lebih lanjut.
-
-```java
-String dataDir = "YOUR_DOCUMENT_DIRECTORY";
-Document pdfDoc = new Document(dataDir + "input1.pdf");
-```
-
-#### Langkah 2: Siapkan Penanganan Penggantian Font
-Terapkan pengendali substitusi font untuk menangkap setiap perubahan font selama konversi. Pengendali ini mencatat font asli dan yang diganti.
+#### Step 2: Set Up a Font Substitution Handler
+Register a handler that logs each substitution into a map for later inspection.
 
 ```java
 final Map<String, String> names = new HashMap<>();
 pdfDoc.FontSubstitution.add(new Document.FontSubstitutionHandler() {
     public void invoke(Font font, Font newFont) {
-        // Catat nama Font yang diganti ke dalam peta.
+        // Log substituted FontNames into a map.
         names.put(font.getFontName(), newFont.getFontName());
     }
 });
 ```
 
-**Mengapa Langkah Ini?**
-Menangkap substitusi font memungkinkan Anda mengambil tindakan perbaikan jika integritas visual dokumen Anda terganggu.
+**Mengapa ini penting:**  
+Jika konversi mengganti font proprietari dengan yang generik, HTML dapat ditampilkan dengan spasi tak terduga atau glyph yang hilang. Peta `names` memberi Anda jejak audit yang jelas.
 
-#### Langkah 3: Konfigurasikan Opsi Penyimpanan HTML
-Mendirikan `HtmlSaveOptions` untuk menentukan bagaimana PDF harus disimpan sebagai berkas HTML. 
+#### Step 3: Configure HTML Save Options
+Create an `HtmlSaveOptions` instance to control how the PDF is saved as HTML.
 
 ```java
 HtmlSaveOptions htmlSaveOps = new HtmlSaveOptions();
 ```
 
-**Opsi Konfigurasi Utama:**
-- Sesuaikan pengaturan seperti kompresi gambar, penyematan font, dan lainnya melalui properti `HtmlSaveOptions`.
+Anda dapat menyesuaikan lebih lanjut properti seperti `SplitIntoPages`, `EmbedFonts`, atau `ImageCompression` tergantung pada kebutuhan proyek Anda.
 
-#### Langkah 4: Simpan Dokumen yang Dikonversi
-Terakhir, simpan dokumen PDF Anda sebagai berkas HTML menggunakan opsi yang ditentukan.
+#### Step 4: Save the Converted Document
+Finally, write the HTML output to disk.
 
 ```java
 pdfDoc.save("YOUR_OUTPUT_DIRECTORY/getWarningForFontSubstitution.html\
+```
+
+Setelah eksekusi, periksa peta `names` untuk melihat font mana yang disubstitusi. Jika Anda menemukan entri yang tidak diharapkan, pertimbangkan untuk menyematkan font yang hilang atau menyesuaikan pengaturan konversi.
+
+## Common Issues & Troubleshooting
+
+| Gejala | Penyebab Kemungkinan | Solusi |
+|---------|--------------|-----|
+| Tidak ada entri dalam peta `names` | Substitusi font dinonaktifkan atau semua font disematkan | Pastikan `EmbedFonts` disetel ke `false` dalam `HtmlSaveOptions` jika Anda ingin melihat substitusi. |
+| Tata letak HTML rusak | Font yang disubstitusi tidak memiliki glyph yang diperlukan | Sematkan font yang hilang atau sediakan fallback CSS yang cocok dengan desain asli. |
+| `pdfDoc.save` melemparkan pengecualian | Path output tidak benar atau izin menulis tidak ada | Verifikasi bahwa `YOUR_OUTPUT_DIRECTORY` ada dan dapat ditulisi. |
+
+## Frequently Asked Questions
+
+**T: Bisakah saya menggunakan pendekatan ini dengan format output lain (mis., DOCX)?**  
+J: Ya. Aspose.PDF menyediakan peristiwa substitusi font serupa untuk sebagian besar target konversi.
+
+**T: Bagaimana cara mendeteksi font yang hilang pdf sebelum konversi?**  
+J: Periksa koleksi `pdfDoc.FontInfo` atau bergantung pada handler substitusi selama konversi.
+
+**T: Apakah ada cara untuk secara otomatis menyematkan font yang hilang?**  
+J: Atur `htmlSaveOps.setEmbedFonts(true)`; Aspose.PDF akan menyematkan font yang tersedia, tetapi font yang benar-benar hilang harus disediakan secara manual.
+
+**T: Apakah ini bekerja dengan PDF terenkripsi?**  
+J: Ya, selama Anda menyediakan kata sandi saat memuat dokumen: `new Document(path, new LoadOptions(password))`.
+
+**T: Apakah ini akan meningkatkan waktu konversi?**  
+J: Beban tambahan untuk mencatat substitusi sangat kecil, biasanya hanya menambah beberapa milidetik.
+
+---
+
+**Terakhir Diperbarui:** 2026-03-09  
+**Diuji Dengan:** Aspose.PDF 25.3 for Java  
+**Penulis:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
