@@ -186,7 +186,7 @@ Pelajari cara mengonversi dokumen PDF menjadi gambar TIFF biner menggunakan Aspo
 Pelajari cara mengonversi file PDF ke format EPUB menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah ini untuk meningkatkan penerbitan digital dan aksesibilitas konten.
 
 ### [Cara Mengonversi PDF ke TIFF Multi-Halaman Menggunakan Aspose.PDF .NET - Panduan Langkah demi Langkah](./convert-pdf-to-multi-page-tiff-aspose-dotnet/)
-Pelajari cara mengonversi PDF menjadi gambar TIFF multi-halaman berkualitas tinggi menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah ini untuk implementasi mudah dalam C#.
+Pelajari cara mengonversi PDF menjadi gambar TIFF multi-halaman berkualitas tinggi menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah kami untuk implementasi mudah dalam C#.
 
 ### [Cara Mengonversi PDF ke PostScript di C# Menggunakan Aspose.PDF: Panduan Lengkap](./convert-pdf-to-postscript-aspose-csharp/)
 Pelajari cara mengonversi file PDF ke format PostScript menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Sempurna untuk kebutuhan pencetakan berkualitas tinggi.
@@ -226,6 +226,9 @@ Tutorial kode untuk Aspose.PDF Net
 
 ### [Konversi PDF ke TIFF dalam .NET Menggunakan Aspose.PDF: Panduan Langkah demi Langkah](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Pelajari cara mengonversi dokumen PDF ke gambar TIFF menggunakan Aspose.PDF untuk .NET. Kuasai kedalaman warna khusus dan teknik pemrosesan gambar tingkat lanjut.
+
+### [Cara Menyimpan PDF dengan Aspose – Panduan Langkah demi Langkah](./how-to-save-pdf-with-aspose-step-by-step-guide/)
+Pelajari cara menyimpan dokumen PDF menggunakan Aspose dengan contoh kode C# langkah demi langkah.
 
 ## Sumber Daya Tambahan
 

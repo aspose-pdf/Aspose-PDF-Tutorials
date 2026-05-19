@@ -32,7 +32,8 @@ Aspose.PDF for .NET's "Programming with Tagged PDFs" tutorials walk you through 
 | [Custom Tag Name](./custom-tag-name/) | Step-by-step guide to using a custom tag name with Aspose.PDF for .NET. Improve the structure of your PDFs with custom tags. |  
 | [Illustration Structure Elements](./illustration-structure-elements/) | Create structured PDFs with illustration elements in Aspose.PDF for .NET by following our step-by-step tutorial. |  
 | [Inline Structure Elements](./inline-structure-elements/) | Step-by-step guide to using online structural elements with Aspose.PDF for .NET. Organize your PDFs with headings and paragraphs. |  
-| [Link Structure Elements](./link-structure-elements/) | Learn how to create link structure elements in a PDF using Aspose.PDF for .NET. Step-by-step guide for adding accessible links, images, and compliance validation. |  
+| [Link Structure Elements](./link-structure-elements/) | Learn how to create link structure elements in a PDF using Aspose.PDF for .NET. Step-by-step guide for adding accessible links, images, and compliance validation. |
+| [Make PDF Accessible with Aspose: Insert Paragraph PDF Step‑by‑Step](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Learn how to insert a paragraph into a PDF to improve accessibility using Aspose.PDF for .NET – step‑by‑step guide. |
 | [Root Structure](./root-structure/) | Step-by-step guide to using root structure elements with Aspose.PDF for .NET to access the root and StructTreeRoot object of the PDF document. |  
 | [Setup Language And Title](./setup-language-and-title/) | Step-by-step guide to configure the language and title of a PDF document with Aspose.PDF for .NET. Create personalized multilingual documents. |  
 | [Structure Elements Properties In PDF File](./structure-elements-properties/) | Step-by-step guide to working with structural element properties in PDF file with Aspose.PDF for .NET. Create information-rich structural elements. |  

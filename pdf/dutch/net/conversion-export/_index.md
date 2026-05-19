@@ -227,6 +227,9 @@ Een codetutorial voor Aspose.PDF Net
 ### [PDF naar TIFF-conversie in .NET met Aspose.PDF: een stapsgewijze handleiding](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Leer hoe u PDF-documenten naar TIFF-afbeeldingen converteert met Aspose.PDF voor .NET. Beheers aangepaste kleurdiepten en geavanceerde beeldverwerkingstechnieken.
 
+### [Hoe PDF opslaan met Aspose – Stapsgewijze handleiding](./how-to-save-pdf-with-aspose-step-by-step-guide/)
+Leer hoe u PDF-bestanden opslaat met Aspose in .NET met een duidelijke stap‑voor‑stap uitleg en voorbeeldcode.
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

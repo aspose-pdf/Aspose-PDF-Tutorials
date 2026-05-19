@@ -30,11 +30,11 @@ Les tutoriels « Programmation avec des PDF balisés » d'Aspose.PDF pour .NET
 | [Créer un élément de tableau](./create-table-element/) Guide étape par étape pour créer un élément de tableau avec Aspose.PDF pour .NET. Générez facilement des PDF dynamiques avec des tableaux. |  
 | [Nom de balise personnalisé](./custom-tag-name/) Guide étape par étape pour utiliser un nom de balise personnalisé avec Aspose.PDF pour .NET. Améliorez la structure de vos PDF avec des balises personnalisées.  
 | [Éléments de structure d'illustration](./illustration-structure-elements/) | Créez des PDF structurés avec des éléments d'illustration dans Aspose.PDF pour .NET en suivant notre didacticiel étape par étape. |  
-| [Éléments de structure en ligne](./inline-structure-elements/) Guide étape par étape pour utiliser les éléments structurels en ligne avec Aspose.PDF pour .NET. Organisez vos PDF avec des titres et des paragraphes.  
+| [Éléments de structure en ligne](./inline-structure-elements/) Guide étape par étape pour utiliser les éléments structurels en ligne avec Aspose.PDF pour .NET. Organisez vos PDF avec des titres et des paragraphes. |  
 | [Éléments de structure de lien](./link-structure-elements/) | Apprenez à créer des éléments de structure de liens dans un PDF avec Aspose.PDF pour .NET. Guide étape par étape pour ajouter des liens accessibles, des images et valider la conformité. |  
 | [Structure racinaire](./root-structure/) Guide étape par étape pour utiliser les éléments de structure racine avec Aspose.PDF pour .NET pour accéder à la racine et à l'objet StructTreeRoot du document PDF. |  
-| [Configuration de la langue et du titre](./setup-language-and-title/) Guide étape par étape pour configurer la langue et le titre d'un document PDF avec Aspose.PDF pour .NET. Créez des documents multilingues personnalisés.  
-| [Propriétés des éléments de structure dans un fichier PDF](./structure-elements-properties/) Guide étape par étape pour travailler avec les propriétés des éléments structurels dans un fichier PDF avec Aspose.PDF pour .NET. Créez des éléments structurels riches en informations.  
+| [Configuration de la langue et du titre](./setup-language-and-title/) Guide étape par étape pour configurer la langue et le titre d'un document PDF avec Aspose.PDF pour .NET. Créez des documents multilingues personnalisés. |  
+| [Propriétés des éléments de structure dans un fichier PDF](./structure-elements-properties/) Guide étape par étape pour travailler avec les propriétés des éléments structurels dans un fichier PDF avec Aspose.PDF pour .NET. Créez des éléments structurels riches en informations. |  
 | [Style de cellule de tableau](./style-table-cell/) | Apprenez à styliser les cellules d'un tableau PDF avec Aspose.PDF pour .NET grâce à ce tutoriel détaillé. Suivez les instructions pour créer et mettre en forme de superbes tableaux PDF. |  
 | [Élément de tableau de style](./style-table-element/) | Apprenez à créer et à styliser un élément de tableau dans Aspose.PDF pour .NET avec des instructions étape par étape, un style personnalisé et la conformité PDF/UA. |  
 | [Style de ligne du tableau](./style-table-row/) Apprenez à styliser les lignes de tableau dans un PDF à l'aide d'Aspose.PDF pour .NET avec un guide étape par étape pour améliorer facilement la mise en forme de votre document. |  
@@ -45,6 +45,7 @@ Les tutoriels « Programmation avec des PDF balisés » d'Aspose.PDF pour .NET
 | [Éléments de structure de texte dans un fichier PDF](./text-structure-elements/) Apprenez à manipuler les éléments de structure de texte dans les PDF avec Aspose.PDF pour .NET. Ce guide étape par étape couvre tout ce dont vous avez besoin pour créer des PDF structurés. |  
 | [Valider le fichier PDF](./validate-pdf/) | Apprenez à valider un fichier PDF avec Aspose.PDF pour .NET. Vérifiez sa conformité aux normes et générez un rapport de validation. |
 | [Créer un PDF balisé en C# – Guide complet étape par étape](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Apprenez à créer un PDF balisé en C# avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
+| [Rendre le PDF accessible avec Aspose : insérer un paragraphe PDF étape par étape](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Apprenez à insérer un paragraphe dans un PDF accessible avec Aspose.PDF pour .NET, étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
