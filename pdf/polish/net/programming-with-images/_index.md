@@ -49,6 +49,7 @@ Samouczki „Programowanie z obrazami” Aspose.PDF for .NET przeprowadzą Cię 
 | [Ustaw rozmiar obrazu w pliku PDF](./set-image-size/) | Dowiedz się, jak ustawić rozmiar obrazu w pliku PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik krok po kroku pomoże Ci zmienić rozmiar obrazów, dostosować właściwości strony i zapisać pliki PDF. |  
 | [Zmniejsz obrazy w pliku PDF](./shrink-images/) | Łatwo zmniejszaj obrazy w plikach PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku, który pozwoli Ci uzyskać mniejsze rozmiary plików przy zachowaniu ich jakości. |  
 | [Przechowuj obraz w kolekcji XImage](./store-image-in-ximage-collection/) | Dowiedz się, jak przechowywać obrazy w kolekcji XImage przy użyciu Aspose.PDF dla platformy .NET, korzystając z tego kompletnego przewodnika krok po kroku. |  
+| [Dodaj rysunek do Word – Kompletny przewodnik programowania w C#](./add-figure-to-word-complete-c-programming-guide/) | Dowiedz się, jak programowo dodawać rysunki do dokumentów Word przy użyciu C# i Aspose.Words dla .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

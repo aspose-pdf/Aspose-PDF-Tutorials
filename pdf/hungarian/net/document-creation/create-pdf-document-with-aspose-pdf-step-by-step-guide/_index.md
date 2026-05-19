@@ -1,26 +1,26 @@
 ---
 category: general
-date: 2026-01-10
-description: PDF dokumentum létrehozása Aspose.PDF használatával C#-ban. Tanulja meg,
-  hogyan adjon hozzá oldalt a PDF-hez, hogyan rajzoljon téglalapot a PDF-ben, és még
-  sok mást ebben a teljes útmutatóban.
+date: 2026-04-12
+description: PDF dokumentum létrehozása Aspose.Pdf használatával C#-ban. Tanulja meg,
+  hogyan adjon hozzá oldalt a PDF-hez, hogyan rajzoljon alakzatot, és hogyan mentse
+  gyorsan a PDF-fájlt.
 draft: false
 keywords:
 - create pdf document
-- add page pdf
-- draw rectangle pdf
-- how to create pdf
-- how to add rectangle
+- add page to pdf
+- add graphics to pdf
+- save pdf file
+- draw shape in pdf
 language: hu
-og_description: PDF dokumentum létrehozása Aspose.PDF használatával C#-ban. Kövesse
-  ezt az útmutatót a PDF oldal hozzáadásához, téglalap rajzolásához és a PDF készítés
-  mesterségéhez.
-og_title: PDF-dokumentum létrehozása az Aspose.PDF segítségével – Teljes útmutató
+og_description: PDF dokumentum létrehozása C#‑ban az Aspose.Pdf segítségével. Ez az
+  útmutató bemutatja, hogyan lehet oldalt hozzáadni a PDF‑hez, grafikát hozzáadni
+  a PDF‑hez, alakzatot rajzolni a PDF‑ben, és menteni a PDF‑fájlt.
+og_title: PDF dokumentum létrehozása az Aspose.Pdf segítségével – Teljes útmutató
 tags:
-- Aspose.PDF
+- Aspose.Pdf
 - C#
-- PDF generation
-title: PDF-dokumentum létrehozása az Aspose.PDF segítségével – Lépésről‑lépésre útmutató
+- PDF Generation
+title: PDF-dokumentum létrehozása az Aspose.Pdf segítségével – Lépésről lépésre útmutató
 url: /hu/net/document-creation/create-pdf-document-with-aspose-pdf-step-by-step-guide/
 ---
 
@@ -28,224 +28,147 @@ url: /hu/net/document-creation/create-pdf-document-with-aspose-pdf-step-by-step-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PDF dokumentum létrehozása Aspose.PDF‑vel – lépésről‑lépésre útmutató
+# PDF dokumentum létrehozása Aspose.Pdf‑vel – Lépésről‑lépésre útmutató
 
-Valaha is szükséged volt **create PDF document** programozott módon, és nem tudtad, hol kezdjed? Nem vagy egyedül – a fejlesztők világszerte ezzel a problémával szembesülnek, amikor jelentéseket, számlákat vagy tanúsítványokat próbálnak automatizálni. A jó hír? Az Aspose.PDF for .NET segítségével néhány C# sorral könnyedén létrehozhatsz egy PDF‑et.
+Szükséged volt már **PDF dokumentum** programozott létrehozására, és nem tudtad, hol kezdjed? Nem vagy egyedül – sok fejlesztő ütközik ebbe a helyzetbe, amikor jelentéseket, számlákat vagy tanúsítványokat automatizál. A jó hír, hogy az Aspose.Pdf for .NET‑vel néhány sor kóddal fel tudsz hozni egy PDF‑et, hozzáadhatsz egy oldalt, rajzolhatsz alakzatot, és elmentheted a fájlt.
 
-Ebben az útmutatóban végigvezetünk a teljes folyamaton: a dokumentum inicializálásától, a **add page PDF** lépésen át, a **draw rectangle PDF** lépésig, egészen a fájl mentéséig. A végére egy stabil, futtatható példát kapsz, és világos megértést a **how to create pdf** használatához.
+Ebben a tutorialban végigvezetünk a teljes folyamaton: **oldal hozzáadása a PDF‑hez**, egy kis **grafika hozzáadása a PDF‑hez**, **alakzat rajzolása a PDF‑ben**, és végül **PDF fájl mentése**. A végére egy kész, futtatható példát kapsz, amit bármely .NET projektbe beilleszthetsz.
 
-## Mit fed le ez az útmutató
+## Amire szükséged lesz
 
-- A kód írása előtt szükséges előfeltételek  
-- Lépésről‑lépésre PDF dokumentum létrehozása  
-- Új oldal hozzáadása a dokumentumhoz (a klasszikus **add page pdf** művelet)  
-- Téglalap alakzat rajzolása, a határok ellenőrzése és beszúrása (a “**draw rectangle pdf**” rész)  
-- Gyakori buktatók és profi tippek a robusztus PDF generáláshoz  
-- Teljes, másolás‑beillesztés‑kész kódminta, amelyet ma futtathatsz  
+- .NET 6+ (vagy .NET Framework 4.7.2+) – a könyvtár mindkettővel működik.
+- Aspose.Pdf for .NET NuGet csomag (`Aspose.Pdf`) – telepítsd a `dotnet add package Aspose.Pdf` paranccsal.
+- Kódszerkesztő vagy IDE (Visual Studio, VS Code, Rider… bármelyik megfelel).
+- Alap C# tudás – ha tudsz `Main` metódust írni, már készen állsz.
 
-Nincsenek külső hivatkozások, nincs hiányzó rész – csak egy önálló megoldás, amelyet idézhetsz vagy megoszthatsz.
+Különösebb erőforrásra nincs szükség; a rajzolt alakzat egy egyszerű útvonal‑stringgel van definiálva.
 
-## Előfeltételek
+## 1. lépés: PDF dokumentum létrehozása és oldal hozzáadása
 
-| Követelmény | Miért fontos |
-|-------------|----------------|
-| .NET 6.0 vagy újabb (vagy .NET Framework 4.6+) | Az Aspose.PDF mindkettőt támogatja; az újabb futtatókörnyezetek jobb teljesítményt nyújtanak. |
-| Aspose.PDF for .NET NuGet csomag (`Aspose.Pdf`) | A könyvtár biztosítja a `Document`, `Page` és a rajzoláshoz szükséges osztályokat, amelyeket használni fogunk. |
-| C# IDE (Visual Studio, Rider, VS Code) | Könnyűvé teszi a fordítást és a hibakeresést. |
-| Írási jogosultság a kimeneti mappához | Szükséges a végső `Save` híváshoz. |
-
-Telepítsd a csomagot a NuGet‑en keresztül:
-
-```bash
-dotnet add package Aspose.Pdf
-```
-
-Ennyi – miután a csomag telepítve van, készen állsz a **create pdf document** műveletre.
-
-## 1. lépés – PDF dokumentum létrehozása (Inicializálás)
-
-Az első dolog, amit teszünk, egy új `Document` példányosítása. Tekintsd ezt egy üres vászonnak, ahol minden oldal, kép vagy alakzat elhelyezkedik.
+Az első dolog, amit meg kell tenned, egy új PDF objektum felvétele. Tekintsd a `Document`‑et a vásznadnak; nélküle nincs semmi, amire rajzolni lehetne.
 
 ```csharp
 using Aspose.Pdf;
-using Aspose.Pdf.Drawing;
-
-// Step 1: Initialize a fresh PDF document
-var pdfDocument = new Document();
-```
-
-> **Miért fontos:** A `Document` a gyökérobjektum. Nélküle nem tudsz oldalakat vagy tartalmat hozzáadni, ezért ez a lépés elengedhetetlen a **how to create pdf**-hez a nulláról.
-
-## 2. lépés – Add Page PDF
-
-Egy PDF oldal nélkül csak egy fájlfejléc. Adjunk hozzá egy oldalt, ahol később a téglalapunkat rajzoljuk.
-
-```csharp
-// Step 2: Add a new page to the document
-var pdfPage = pdfDocument.Pages.Add();
-```
-
-> **Pro tipp:** A `Add()` metódus visszaadja az újonnan létrehozott `Page` objektumot, így további műveleteket láncolhatsz anélkül, hogy újra keresnéd a gyűjteményben.
-
-### Oldalméretek ellenőrzése (opcionális)
-
-Ha pontosan szeretnél alakzatokat elhelyezni, érdemes tudni az oldal méretét:
-
-```csharp
-float pageWidth = pdfPage.PageInfo.Width;   // default A4 width in points
-float pageHeight = pdfPage.PageInfo.Height; // default A4 height in points
-Console.WriteLine($"Page size: {pageWidth}×{pageHeight} points");
-```
-
-Ez a kódrészlet nem kötelező az alapfolyamathoz, de hasznos, ha **how to add rectangle** pontos koordinátákkal szeretnéd megtenni.
-
-## 3. lépés – Draw Rectangle PDF (Határok ellenőrzése és beszúrása)
-
-Most jön a szórakoztató rész: egy téglalap rajzolása. Definiálunk egy téglalapot, ellenőrizzük, hogy belefér-e az oldalba, majd hozzáadjuk az oldal bekezdésgyűjteményéhez.
-
-```csharp
-// Step 3: Define a rectangle shape (LLX, LLY, URX, URY)
-// LLX = lower‑left X, LLY = lower‑left Y, URX = upper‑right X, URY = upper‑right Y
-var rectangleShape = new Rectangle(100, 500, 300, 700);
-
-// Step 4: Verify that the rectangle lies within the page bounds
-bool isInside = rectangleShape.LLX >= 0 &&
-                rectangleShape.URX <= pdfPage.PageInfo.Width &&
-                rectangleShape.LLY >= 0 &&
-                rectangleShape.URY <= pdfPage.PageInfo.Height;
-
-if (isInside)
-{
-    // Step 5: Add the rectangle to the page's paragraphs collection
-    pdfPage.Paragraphs.Add(rectangleShape);
-}
-else
-{
-    Console.WriteLine("Rectangle exceeds page bounds – adjust coordinates.");
-}
-```
-
-> **Miért ellenőrizzük a határokat:** Ha az oldal kívülre próbálsz rajzolni, láthatatlan alakzatok vagy futásidejű figyelmeztetések keletkezhetnek. A feltétel biztosítja, hogy biztonságosan **draw rectangle pdf**.
-
-### Megjelenés testreszabása
-
-A téglalapot szegélyekkel vagy kitöltőszínekkel formázhatod:
-
-```csharp
-rectangleShape.GraphInfo = new GraphInfo
-{
-    // Set a thin black border
-    LineWidth = 1,
-    StrokeColor = Color.Black,
-    // Optional fill (transparent by default)
-    FillColor = Color.LightGray
-};
-```
-
-Nyugodtan kísérletezz – különböző színek, vonalvastagságok vagy akár szaggatott vonalak.
-
-## 4. lépés – PDF dokumentum mentése
-
-Az utolsó lépés a dokumentum lemezre mentése. Válassz egy mappát, amelyhez írási jogosultságod van, és adj a fájlnak egy egyértelmű nevet.
-
-```csharp
-// Step 6: Save the PDF document to a file
-string outputPath = Path.Combine(Environment.CurrentDirectory, "ShapeChecked.pdf");
-pdfDocument.Save(outputPath);
-
-Console.WriteLine($"PDF saved successfully at: {outputPath}");
-```
-
-Amikor megnyitod a `ShapeChecked.pdf` fájlt, egyetlen oldalt kell látnod, amelyen egy világosszürke téglalap helyezkedik el a (100, 500) és (300, 700) koordináták között. Ez a **create pdf document** munkafolyamatunk eredménye.
-
-![Create PDF Document example](image.png){alt="Create PDF document példája, amely egy téglalapot mutat egy oldalon"}
-
-## Teljes működő példa (másolás‑beillesztés kész)
-
-Az alábbiakban a teljes program látható, készen áll a fordításra. Nincs hiányzó rész, nincs külső hivatkozás.
-
-```csharp
-using System;
-using System.IO;
-using Aspose.Pdf;
-using Aspose.Pdf.Drawing;
-using Aspose.Pdf.Color; // For color definitions
+using Aspose.Pdf.Forms;
 
 class Program
 {
     static void Main()
     {
-        // 1️⃣ Create PDF document
-        var pdfDocument = new Document();
+        // Step 1 – initialize a new PDF document (this creates the file in memory)
+        Document pdfDoc = new Document();
 
-        // 2️⃣ Add page PDF
-        var pdfPage = pdfDocument.Pages.Add();
+        // Step 2 – add a blank page where we’ll later place graphics
+        Page page = pdfDoc.Pages.Add();
 
-        // Optional: show page size
-        Console.WriteLine($"Page size: {pdfPage.PageInfo.Width}×{pdfPage.PageInfo.Height} points");
+        // The rest of the steps follow...
+```
 
-        // 3️⃣ Define rectangle (draw rectangle PDF)
-        var rectangleShape = new Rectangle(100, 500, 300, 700);
+> **Miért fontos:** Először a dokumentum létrehozása tiszta lapot biztosít, és azonnali oldal hozzáadása garantálja, hogy legyen egy érvényes `Page` objektum, amelyhez grafikát csatolhatsz. Az oldal kihagyása kivételt eredményez, ha bármit próbálsz rajzolni.
 
-        // Style the rectangle (optional)
-        rectangleShape.GraphInfo = new GraphInfo
+## 2. lépés: Rajzolási terület meghatározása (Graphics Boundary)
+
+Mielőtt rajzolnánk, meg kell mondanunk az Aspose‑nak, hol helyezkedhet el az alakzat. A létrehozott `Rectangle` egy határoló keretként működik – kiinduló pontja (0,0), és 500 × 500 pont széles.
+
+```csharp
+        // Step 3 – define a rectangle that will contain our graphics
+        Rectangle graphicsRect = new Rectangle(0, 0, 500, 500);
+```
+
+> **Pro tipp:** A PDF‑ek koordináta‑rendszere a bal‑alsó sarokból indul. Ha az alakzatot az oldal teteje felé szeretnéd, egyszerűen állítsd be a `Rectangle` `LLX`/`LLY` értékeit.
+
+## 3. lépés: Alakzat felépítése (Path Object)
+
+Most jön a szórakoztató rész – az alakzat rajzolása. Az Aspose.Pdf SVG‑stílusú útvonal‑adatokat használ. Az alábbi példa egy egyszerű négyzetet rajzol, de a stringet bármilyen érvényes útvonallal (körök, csillagok, egyedi logók stb.) helyettesítheted.
+
+```csharp
+        // Step 4 – create a Path describing the shape (a square in this case)
+        Path squarePath = new Path
         {
-            LineWidth = 1,
-            StrokeColor = Color.Black,
-            FillColor = Color.LightGray
+            // "M" = move to, "L" = line to, "Z" = close path
+            // This draws a 500x500 square starting at (0,0)
+            PathData = "M 0,0 L 500,0 L 500,500 L 0,500 Z"
         };
+```
 
-        // 4️⃣ Verify bounds before adding
-        bool fits = rectangleShape.LLX >= 0 &&
-                    rectangleShape.URX <= pdfPage.PageInfo.Width &&
-                    rectangleShape.LLY >= 0 &&
-                    rectangleShape.URY <= pdfPage.PageInfo.Height;
+> **Miért használjuk a `Path`‑t**: Vektorszintű vezérlést biztosít, ami azt jelenti, hogy az alakzat bármilyen nagyításnál éles marad – tökéletes logók vagy diagramok számára.
 
-        if (fits)
+## 4. lépés: Ellenőrzés, hogy az alakzat belefér a határolóba
+
+Az Aspose.Pdf egy kényelmes segédfüggvényt, a `CheckGraphicsBoundary`‑t kínálja. Ez megerősíti, hogy az alakzat nem lóg ki a korábban definiált téglalapból. Ez a lépés opcionális, de megakadályozza a meglepetéseket, amikor később a PDF‑et más rendszerekbe ágyazod.
+
+```csharp
+        // Step 5 – make sure the shape fits within the rectangle
+        bool fits = page.CheckGraphicsBoundary(squarePath, graphicsRect);
+        if (!fits)
         {
-            // 5️⃣ Add rectangle to the page
-            pdfPage.Paragraphs.Add(rectangleShape);
-            Console.WriteLine("Rectangle added successfully.");
+            Console.WriteLine("The shape exceeds the defined graphics boundary.");
+            return;
         }
-        else
-        {
-            Console.WriteLine("Rectangle is out of page bounds – adjust coordinates.");
-        }
+```
 
-        // 6️⃣ Save the PDF
-        string outputFile = Path.Combine(Environment.CurrentDirectory, "ShapeChecked.pdf");
-        pdfDocument.Save(outputFile);
-        Console.WriteLine($"PDF saved at: {outputFile}");
+> **Szélhelyzet megjegyzés:** Bonyolult útvonalak (pl. görbékkel) esetén a határoló‑ellenőrzés elkapja a láthatatlan túlfutást, ami egyébként vágáshoz vezetne.
+
+## 5. lépés: Alakzat hozzáadása az oldalhoz
+
+Most, hogy tudjuk, az alakzat belefér, biztonságosan hozzáadhatjuk az oldalhoz. Az `AddGraphics` metódus a alakzatot és a pozicionáló téglalapot veszi át.
+
+```csharp
+        // Step 6 – actually draw the shape onto the page
+        page.AddGraphics(squarePath, graphicsRect);
+```
+
+> **Mi történik a háttérben:** Az Aspose a `Path`‑t PDF rajzolóparancsokká (`m`, `l`, `h`, `re`, stb.) alakítja, és a tartalom‑folyamba írja az oldalra.
+
+## 6. lépés: PDF fájl mentése
+
+Minden erőfeszítés értelmetlen, ha nem látod az eredményt. A `Save` metódus a memóriában lévő dokumentumot lemezre írja. Webes válaszokhoz közvetlenül egy `MemoryStream`‑be is streamelheted.
+
+```csharp
+        // Step 7 – persist the PDF to disk (or a stream)
+        string outputPath = @"C:\Temp\ShapeDemo.pdf"; // adjust to your environment
+        pdfDoc.Save(outputPath);
+        Console.WriteLine($"PDF saved successfully to {outputPath}");
     }
 }
 ```
 
-A program futtatása egy `ShapeChecked.pdf` fájlt hoz létre a végrehajtható fájl mellett. Nyisd meg bármely PDF‑nézővel; látni fogod a rajzolt téglalapot – bizonyíték arra, hogy sikeresen **create pdf document**, **add page pdf**, és **draw rectangle pdf** mind egy lépésben.
+> **Tipp felhő környezethez:** Cseréld le a `pdfDoc.Save(outputPath)`‑t `pdfDoc.Save(stream)`‑re, ahol a `stream` egy `MemoryStream`. Ezután a byte‑tömböt adhatod vissza egy API végpontról.
 
-## Gyakori kérdések és szélhelyzetek
+### Várható kimenet
 
-| Kérdés | Válasz |
-|----------|--------|
-| *Mi van, ha másik oldalméretre van szükségem?* | Állítsd be a `pdfPage.PageInfo.Width` és `Height` értékeket a rajzolás előtt, vagy hozz létre egy `Page` objektumot egy egyedi `PageSize` enummal (pl. `PageSize.Letter`). |
-| *Hozzáadhatok több téglalapot?* | Természetesen – csak ismételd meg a téglalap‑létrehozó blokkot, és add hozzá minden alakzatot a `pdfPage.Paragraphs` gyűjteményhez. |
-| *Mi történik nagyon kis PDF‑eknél?* | A határok ellenőrzése megakadályozza a tartományon kívüli koordinátákat, így a kód elegánsan hibázik egy konzolüzenettel. |
-| *Lehet-e elforgatni a téglalapot?* | Használd a `rectangleShape.Rotation = 45;` (fok) beállítást a hozzáadás előtt. |
-| *Szükséges-e felszabadítani a `Document`‑et?* | A `Document` implementálja az `IDisposable` interfészt. Egy valós alkalmazásban tedd `using` blokkba a determinisztikus takarításhoz. |
+Nyisd meg a `ShapeDemo.pdf`‑et, és egyetlen oldalon egy tökéletes négyzetet látsz, amely egy 500 × 500 területet tölt ki a bal‑alsó saroktól indulva. Nincsenek extra margók, rejtett artefaktusok.
 
-## Profi tippek és legjobb gyakorlatok
+![Diagram showing a shape drawn in a PDF created with Aspose.Pdf](https://example.com/images/shape-in-pdf.png "Diagram showing a shape drawn in a PDF created with Aspose.Pdf")
 
-- **Csoportos hozzáadások:** Ha tucatnyi alakzatot adsz hozzá, először építsd fel őket egy listában, majd add hozzá a teljes listát a `Paragraphs`‑hez – ez csökkenti a belső feldolgozási terhelést.
-- **Koordináta rendszer:** Az Aspose.PDF pontokat használ (1 pt = 1/72 in). Ne felejtsd el átváltani pixelekről vagy milliméterekről, ha a forrásadat más egységet használ.
-- **Teljesítmény:** Nagy PDF‑eknél fontold meg a `pdfDocument.Optimize()` engedélyezését a mentés előtt; ez tömöríti a streameket és csökkenti a fájlméretet.
-- **Hibakezelés:** Csomagold az egész folyamatot egy `try/catch` blokkba, és naplózd a `PdfException`‑t a jobb diagnosztikáért.
+*(Alt text: Diagram showing a shape drawn in a PDF created with Aspose.Pdf)*
 
-## Összegzés
+## Gyakori variációk és buktatók
 
-Most már pontosan tudod, hogyan **how to create pdf document** az Aspose.PDF‑vel, hogyan **add page pdf**, és hogyan **draw rectangle pdf**, miközben biztonságosan ellenőrzöd a határokat. A fenti teljes példa bármely .NET projektbe beilleszthető, erős alapot biztosítva a fejlettebb PDF‑feladatokhoz, mint képek, táblázatok vagy digitális aláírások beszúrása.
+| Scenario | What to Change | Why |
+|----------|----------------|-----|
+| **Different shape** | Replace `PathData` with `"M 250,0 L 500,500 L 0,500 Z"` for a triangle. | Path strings follow SVG syntax; altering them changes the geometry. |
+| **Multiple shapes** | Call `page.AddGraphics` multiple times with different `Path` objects. | Each call adds a new vector element, allowing composite drawings. |
+| **Positioning elsewhere** | Change `graphicsRect` to `new Rectangle(100, 200, 300, 300)`. | Offsets the drawing area; useful for headers/footers. |
+| **Saving to a stream** | `using var ms = new MemoryStream(); pdfDoc.Save(ms); var bytes = ms.ToArray();` | Required for web APIs or when you don’t want a physical file. |
+| **Higher DPI** | Set `pdfDoc.PageInfo.Dpi = 300;` before adding graphics. | Improves rasterized image quality when the PDF is later converted to PNG/JPEG. |
 
-Készen állsz a következő lépésre? Próbáld ki a téglalap helyett egy `Ellipse` használatát, kísérletezz rétegelt grafikákkal, vagy generálj többoldalas jelentést adat sorok ciklusával. Ugyanazok az elvek – inicializálás, oldalak hozzáadása, alakzatok rajzolása, mentés – minden PDF‑generálási szituációra érvényesek.
+## Összefoglalás
 
-Ha elakadsz, vagy ötleteid vannak a további fejlesztésekhez, nyugodtan hagyj megjegyzést. Boldog kódolást, és élvezd a gyönyörű PDF‑ek építését!
+Most **PDF dokumentumot hoztunk létre**, **oldalt adtunk hozzá a PDF‑hez**, **grafikát adtunk a PDF‑hez** egy határoló téglalap definiálásával, **alakzatot rajzoltunk a PDF‑ben**, és végül **PDF fájlt mentettünk** lemezre. Az egész folyamat egy rendezett `Main` metódusba illeszkedik, amelyet bármely konzolos alkalmazásba egyszerűen beilleszthetsz.
+
+## Mi a következő lépés?
+
+- **Szöveg hozzáadása**: Használd a `TextFragment`‑et a formák címkézéséhez.
+- **Képek beszúrása**: `Image image = new Image(); image.File = "logo.png"; page.Paragraphs.Add(image);`
+- **Színek és vonalstílusok alkalmazása**: Állítsd be a `squarePath.GraphInfo.Color = Color.FromRgb(255, 0, 0);`
+- **Többoldalas jelentések generálása**: Ciklusban dolgozd fel az adatokat, minden rekordhoz adj új oldalt, és használd újra ugyanazt a rajzolási logikát.
+
+Nyugodtan kísérletezz – cseréld le a négyzetet a vállalati logódra, változtasd a színeket, vagy kombinálj több útvonalat egy komplex illusztrációvá. Az Aspose.Pdf API elég rugalmas ahhoz, hogy egyszerű számláktól egészen teljes e‑könyvekig bármit megoldjon.
+
+---
+
+*Boldog kódolást! Ha elakadsz, hagyj egy megjegyzést alul, vagy nézd meg az hivatalos Aspose.Pdf dokumentációt a mélyebb részletekért.*
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
