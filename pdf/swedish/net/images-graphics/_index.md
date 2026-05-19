@@ -35,6 +35,9 @@ Lär dig hur du konverterar SVG-filer till högkvalitativa PDF-filer smidigt med
 ### [Skapa och fyll rektanglar i PDF-filer med Aspose.PDF för .NET: En steg-för-steg-guide](./create-fill-rectangle-aspose-pdf-net/)
 Lär dig hur du skapar och fyller rektanglar i PDF-dokument med Aspose.PDF för .NET. Den här steg-för-steg-guiden täcker allt från installation till implementering med C#.
 
+### [Hur du validerar PDF och lägger till en rektangel – En komplett guide](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
+Lär dig hur du validerar PDF-filer och lägger till en rektangel med Aspose.PDF för .NET i en komplett steg-för-steg-guide.
+
 ### [Skapa anpassade PDF-stämplar med Aspose.PDF i .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 En kodhandledning för Aspose.PDF Net
 

@@ -50,6 +50,9 @@ Naučte se, jak efektivně tisknout konkrétní stránky PDF pomocí nástroje A
 ### [Nastavení vlastního faktoru přiblížení v PDF pomocí Aspose.PDF pro .NET - Kompletní průvodce](./aspose-pdf-net-set-zoom-factor-pdfs/)
 Naučte se, jak nastavit vlastní faktor přiblížení v dokumentech PDF pomocí Aspose.PDF pro .NET. Tato příručka popisuje instalaci, implementační kroky a praktické aplikace.
 
+### [Jak převést PDF na PNG v C# – krok za krokem průvodce](./how-to-render-pdf-as-png-in-c-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.PDF pro .NET v jazyce C# převést PDF soubory na obrázky PNG s podrobnými ukázkami kódu.
+
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)

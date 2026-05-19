@@ -34,6 +34,7 @@
 | [PDF 转 DOC](./pdf-to-doc/) | 在本指南中学习如何使用 Aspose.PDF for .NET 将 PDF 转换为 DOC。其中包含分步说明和技巧。|  
 | [PDF转EPUB](./pdf-to-epub/) | 在本分步教程中学习如何使用 Aspose.PDF for .NET 将 PDF 转换为 EPUB。非常适合开发人员和内容创建者。|  
 | [PDF 转 HTML](./pdf-to-html/) | 学习如何使用 Aspose.PDF for .NET 将 PDF 转换为 HTML，本指南一步步讲解。非常适合开发人员和内容创作者。|  
+| [在 C# 中将 PDF 转换为 HTML – 简单分步指南](./convert-pdf-to-html-in-c-simple-step-by-step-guide/) | 在本分步教程中学习如何使用 Aspose.PDF for .NET 将 PDF 转换为 HTML，适用于 C# 开发人员。|  
 | [PDF 转 PDFA](./pdf-to-pdfa/) 通过本分步教程了解如何使用 Aspose.PDF for .NET 将 PDF 文件转换为 PDF/A 格式。|  
 | [PDF 转 PDFA3b](./pdf-to-pdfa3b/) | 在本分步指南中学习如何使用 Aspose.PDF for .NET 轻松地将 PDF 文件转换为 PDF/A-3B 格式。|  
 | [PDF 转 PNG 字体提示](./pdf-to-png-font-hinting/) 通过简单的分步指南学习如何使用 Aspose.PDF for .NET 将 PDF 转换为带有字体提示的 PNG。|  
@@ -57,6 +58,8 @@
 | [XML 转 PDFSet 图像路径](./xml-to-pdfset-image-path/) 学习如何使用 Aspose.PDF for .NET 轻松将 XML 转换为 PDF。本指南将逐步指导您完成从设置到完成的整个过程。|  
 | [XPS 转 PDF](./xps-to-pdf/) 学习如何使用 Aspose.PDF for .NET 将 XPS 文件转换为 PDF，本教程循序渐进，非常适合开发人员和文档爱好者。|  
 | [在 C# 中将 PDF 转换为 PDF/X‑4 – 步骤详解 ASP.NET PDF 教程](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) 通过本分步指南学习如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 转换为 PDF/X‑4，适用于 ASP.NET 项目。|  
+| [Aspose PDF 转换（C#）– 将 PDF 转换为 PDF/X‑4](./aspose-pdf-conversion-in-c-convert-pdf-to-pdf-x-4/) | 通过本分步指南了解如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 转换为 PDF/X‑4，适用于 ASP.NET 项目。|  
+| [PDF 格式转换教程 – 使用 Aspose 在 C# 中将 PDF 转换为 PDF/X‑4](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-with-a/) | 通过本分步指南了解如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 文件转换为 PDF/X‑4，适用于 ASP.NET 项目。|  
 | [PDF 转 PNG 教程 – 在 C# 中将 PDF 页面转换为 PNG](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | 在本分步教程中学习如何使用 Aspose.PDF for .NET 将 PDF 页面转换为 PNG 图像。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}

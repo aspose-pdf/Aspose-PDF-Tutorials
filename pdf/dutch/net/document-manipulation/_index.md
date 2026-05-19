@@ -36,7 +36,7 @@ Leer hoe u uw PDF-documenten kunt verbeteren door interactief JavaScript toe te 
 Leer hoe u pagina-einden toevoegt aan PDF-documenten met Aspose.PDF voor .NET. Volg onze stapsgewijze handleiding voor installatie, configuratie en implementatie.
 
 ### [Rechthoeken toevoegen en PDF-pagina's configureren met Aspose.PDF .NET: een uitgebreide handleiding](./aspose-pdf-net-add-rectangles-configure-pages/)
-Leer rechthoeken toevoegen en pagina's configureren in PDF's met Aspose.PDF voor .NET. Volg deze handleiding om effectief technieken voor documentmanipulatie te leren.
+Leer rechthoeken toevoegen en pagina's configureren in PDF's met Aspose.PDF .NET. Volg deze handleiding om effectief technieken voor documentmanipulatie te leren.
 
 ### [Aspose.PDF .NET: PDF-marges instellen en kopteksten/voetteksten aanpassen](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 Beheers de kunst van het instellen van paginamarges en het aanpassen van kop- en voetteksten in uw PDF's met Aspose.PDF voor .NET. Volg deze gedetailleerde handleiding om de consistentie van uw documentlay-out te verbeteren.
@@ -73,6 +73,9 @@ Leer hoe u PDF-pagina's kunt aanpassen met Aspose.PDF voor .NET. Pas de uitlijni
 
 ### [PDF-pagina's verwijderen met Aspose.PDF en C# Streams: een complete handleiding](./delete-pdf-pages-aspose-pdf-c-sharp-streams/)
 Leer hoe u met deze stapsgewijze zelfstudie in C# efficiënt specifieke pagina's uit een PDF kunt verwijderen met Aspose.PDF voor .NET.
+
+### [Lettertype uit PDF verwijderen met Aspose – Stapsgewijze handleiding](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
+Leer hoe u een lettertype uit een PDF-bestand verwijdert met Aspose.PDF voor .NET in een duidelijke stap‑voor‑stap handleiding.
 
 ### [Efficiënte PDF-optimalisatie: verwijder ongebruikte objecten met Aspose.PDF voor .NET](./optimize-pdf-aspose-pdf-net-remove-unused-objects/)
 Leer hoe u PDF's kunt optimaliseren door ongebruikte objecten te verwijderen met Aspose.PDF voor .NET, waardoor de bestandsgrootte en prestaties verbeteren.
