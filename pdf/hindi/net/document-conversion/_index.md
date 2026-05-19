@@ -58,6 +58,9 @@
 | [XML से PDFसेट छवि पथ](./xml-to-pdfset-image-path/) | जानें कि .NET के लिए Aspose.PDF का उपयोग करके XML को आसानी से PDF में कैसे परिवर्तित किया जाए। यह विस्तृत गाइड आपको सेटअप से लेकर पूरा होने तक की प्रक्रिया के बारे में चरण दर चरण बताता है। |  
 | [XPS से PDF में](./xps-to-pdf/) इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.PDF का उपयोग करके XPS फ़ाइलों को PDF में कनवर्ट करना सीखें। डेवलपर्स और दस्तावेज़ उत्साही लोगों के लिए बिल्कुल सही। |  
 | [C# में PDF को PDF/X‑4 में परिवर्तित करें – चरण-दर-चरण ASP.NET PDF ट्यूटोरियल](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | इस ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X‑4 फ़ॉर्मेट में बदलना सीखें। |
+| [PDF दस्तावेज़ लोड करें C# – Aspose के साथ PDF/X‑4 में परिवर्तित करें](./load-pdf-document-c-convert-to-pdf-x-4-with-aspose/) | इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ लोड करके उसे PDF/X‑4 फ़ॉर्मेट में बदलना सीखें। |  
+| [PDF/X‑1A रूपांतरण में ICC प्रोफ़ाइल सेट करें – पूर्ण C# गाइड](./set-icc-profile-in-pdf-x-1a-conversion-complete-c-guide/) | इस विस्तृत चरण-दर-चरण गाइड में .NET के लिए Aspose.PDF का उपयोग करके PDF/X‑1A रूपांतरण में ICC प्रोफ़ाइल सेट करना सीखें। |  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

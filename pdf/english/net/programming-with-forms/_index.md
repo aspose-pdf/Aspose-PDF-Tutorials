@@ -25,6 +25,7 @@ These tutorials also provide detailed code examples, clear explanations, and ill
 | [Arabic Text Filling](./arabic-text-filling/) | Learn how to fill Arabic text in PDF forms using Aspose.PDF for .NET with this step-by-step tutorial. Enhance your PDF manipulation skills. |  
 | [Combo Box](./combo-box/) | Learn how to add a Combo Box to a PDF using Aspose.PDF for .NET. Follow our step-by-step guide to create interactive PDF forms easily. |  
 | [Create Document](./create-doc/) | Learn to create interactive PDF documents with radio buttons using Aspose.PDF for .NET in this comprehensive step-by-step guide. |  
+| [Create PDF Document with Aspose – Add Text Box Field](./create-pdf-document-with-aspose-add-text-box-field/) | Learn how to create a PDF document and add a text box field using Aspose.PDF for .NET in this step-by-step guide. |  
 | [Delete Form Field In PDF Document](./delete-form-field/) | Learn how to delete form fields in PDF documents using Aspose.PDF for .NET with this step-by-step guide. Perfect for developers and PDF enthusiasts. |  
 | [Determine Required Field In PDF Form](./determine-required-field/) | Learn how to determine required fields in a PDF form using Aspose.PDF for .NET. Our step-by-step guide simplifies form management and enhances your PDF automation workflow. |  
 | [Dynamic XFA To Acro Form](./dynamic-xfa-to-acro-form/) | Learn how to convert dynamic XFA forms to standard AcroForms using Aspose.PDF for .NET in this step-by-step tutorial. |  

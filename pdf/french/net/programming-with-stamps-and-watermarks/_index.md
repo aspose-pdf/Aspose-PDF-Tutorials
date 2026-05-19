@@ -25,6 +25,7 @@ Les tutoriels « Programmation avec tampons et filigranes » d'Aspose.PDF pour
 | [Ajout de différents en-têtes dans un fichier PDF](./adding-different-headers/) | Apprenez à ajouter différents en-têtes à vos fichiers PDF avec Aspose.PDF pour .NET. Guide étape par étape pour personnaliser vos PDF. |  
 | [Ajouter un tampon de page PDF dans un fichier PDF](./add-pdf-page-stamp/) | Découvrez comment ajouter un tampon de page PDF avec Aspose.PDF pour .NET grâce à ce guide détaillé. Boostez l'impact de vos documents PDF. |  
 | [Ajouter un tampon de texte dans un fichier PDF](./add-text-stamp/) | Apprenez à ajouter un tampon de texte dans un fichier PDF à l'aide d'Aspose.PDF pour .NET avec notre guide étape par étape et améliorez vos présentations de documents. |  
+| [Comment ajouter un tampon à un PDF avec Aspose.Pdf – Guide étape par étape](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) | Apprenez à ajouter un tampon à un PDF en utilisant Aspose.Pdf grâce à ce guide détaillé étape par étape. |  
 | [Comptage des artefacts dans un fichier PDF](./counting-artifacts/) Apprenez à compter les filigranes dans un PDF avec Aspose.PDF pour .NET. Guide étape par étape pour les débutants sans expérience préalable. |  
 | [Définir l'alignement dans le fichier PDF](./define-alignment/) | Ce guide explique comment définir l'alignement du texte dans les fichiers PDF à l'aide d'Aspose.PDF pour .NET, avec un didacticiel étape par étape. |  
 | [Extraire le texte de l'annotation du tampon](./extract-text-from-stamp-annotation/) | Apprenez à extraire du texte d'une annotation de tampon dans un PDF à l'aide d'Aspose.PDF pour .NET avec ce didacticiel étape par étape, accompagné d'un exemple de code détaillé. |  
@@ -39,6 +40,7 @@ Les tutoriels « Programmation avec tampons et filigranes » d'Aspose.PDF pour
 | [Tableau dans la section En-tête/Pied de page](./table-in-header-footer-section/) | Apprenez à ajouter facilement du texte au pied de page d'un fichier PDF avec Aspose.PDF pour .NET. Guide étape par étape inclus pour une intégration transparente. |  
 | [Texte dans le pied de page du fichier PDF](./text-in-footer/) | Apprenez à ajouter du texte dans le pied de page d'un fichier PDF avec Aspose.PDF pour .NET. |  
 | [Texte dans l'en-tête du fichier PDF](./text-in-header/) | Apprenez à ajouter des en-têtes de texte à vos PDF avec Aspose.PDF pour .NET grâce à ce tutoriel étape par étape. Améliorez vos documents efficacement. |  
+| [Créer un avis plein page PDF – Guide rapide C#](./create-pdf-full-page-notice-quick-c-guide/) | Apprenez à créer un avis plein page dans un PDF avec Aspose.PDF pour .NET grâce à ce guide rapide en C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

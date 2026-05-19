@@ -39,6 +39,8 @@ Aspose.PDF's "Programming with Stamps and Watermarks" tutorials for .NET walk yo
 | [Table In Header Footer Section](./table-in-header-footer-section/) | Learn how to easily add text to the footer of a PDF file using Aspose.PDF for .NET. Step-by-step guide included for seamless integration. |  
 | [Text In Footer Of PDF File](./text-in-footer/) | Learn how to add text in the footer of PDF file with Aspose.PDF for .NET. |  
 | [Text In Header Of PDF File](./text-in-header/) | Learn to add text headers to PDFs using Aspose.PDF for .NET with this step-by-step tutorial. Enhance your documents efficiently and effectively. |  
+| [How to Add Stamp to PDF with Aspose.Pdf – Step‑by‑Step Guide](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) | Learn how to add a stamp to a PDF using Aspose.PDF for .NET with this step‑by‑step guide, including customization of appearance and placement. |  
+| [Create PDF full-page notice – Quick C# Guide](./create-pdf-full-page-notice-quick-c-guide/) | Learn how to create a full-page notice in a PDF using C# and Aspose.PDF with this quick step‑by‑step guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

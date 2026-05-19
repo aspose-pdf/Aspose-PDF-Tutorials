@@ -39,6 +39,8 @@
 | [الجدول في قسم الرأس والتذييل](./table-in-header-footer-section/) | تعرّف على كيفية إضافة نص بسهولة إلى تذييل ملف PDF باستخدام Aspose.PDF لـ .NET. دليل خطوة بخطوة مُرفق لضمان التكامل السلس. |  
 | [النص في تذييل ملف PDF](./text-in-footer/) |تعرف على كيفية إضافة نص في تذييل ملف PDF باستخدام Aspose.PDF لـ .NET. |  
 | [النص في رأس ملف PDF](./text-in-header/) تعلم كيفية إضافة عناوين نصية إلى ملفات PDF باستخدام Aspose.PDF لـ .NET من خلال هذا البرنامج التعليمي خطوة بخطوة. حسّن مستنداتك بكفاءة وفعالية.  
+| [كيفية إضافة طابع إلى PDF باستخدام Aspose.Pdf – دليل خطوة بخطوة](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) |تعرف على طريقة إضافة طابع إلى ملفات PDF باستخدام Aspose.Pdf عبر دليل شامل خطوة بخطوة. |
+| [إنشاء إشعار صفحة كاملة في PDF – دليل سريع C#](./create-pdf-full-page-notice-quick-c-guide/) |تعلم كيفية إنشاء إشعار يغطي صفحة كاملة في ملف PDF باستخدام C# و Aspose.PDF خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -83,6 +83,9 @@ Tìm hiểu cách chuyển đổi tài liệu PDF sang định dạng HTML bằn
 ### [Chuyển đổi PDF sang PNG bằng Aspose.PDF .NET: Cải thiện tính năng gợi ý phông chữ để hiển thị văn bản sắc nét](./convert-pdf-png-aspose-net-font-hinting/)
 Tìm hiểu cách chuyển đổi tài liệu PDF thành hình ảnh PNG chất lượng cao bằng Aspose.PDF .NET, đảm bảo hiển thị văn bản sắc nét thông qua gợi ý phông chữ.
 
+### [Chuyển đổi PDF sang PNG trong C# – Hướng dẫn chi tiết từng bước](./convert-pdf-to-png-in-c-complete-step-by-step-guide/)
+Tìm hiểu cách chuyển đổi PDF sang PNG bằng C# với Aspose.PDF, bao gồm các bước cấu hình và mã mẫu.
+
 ### [Chuyển đổi PDF sang PPTX bằng Aspose.PDF cho .NET: Hướng dẫn từng bước](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 Tìm hiểu cách chuyển đổi hiệu quả các tài liệu PDF thành bản trình bày PowerPoint bằng Aspose.PDF cho .NET. Hướng dẫn từng bước này bao gồm chuyển đổi cơ bản, các tính năng nâng cao như slide hình ảnh và theo dõi tiến trình.
 
