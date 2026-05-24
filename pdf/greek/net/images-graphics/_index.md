@@ -35,6 +35,8 @@
 ### [Δημιουργία & Γέμισμα Ορθογώνιων σε PDF Χρησιμοποιώντας το Aspose.PDF για .NET: Οδηγός Βήμα προς Βήμα](./create-fill-rectangle-aspose-pdf-net/)
 Μάθετε πώς να δημιουργείτε και να γεμίζετε ορθογώνια σε έγγραφα PDF χρησιμοποιώντας το Aspose.PDF για .NET. Αυτός ο οδηγός βήμα προς βήμα καλύπτει τα πάντα, από την εγκατάσταση έως την υλοποίηση με C#.
 
+### [Προσθήκη ορθογωνίου σε PDF με το Aspose.PDF – Πλήρης Οδηγός Προγραμματισμού](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+
 ### [Δημιουργήστε προσαρμοσμένες σφραγίδες PDF με το Aspose.PDF σε .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Ένα σεμινάριο κώδικα για το Aspose.PDF Net
 
