@@ -1,0 +1,7 @@
+Title: Add Rectangle to PDF with Aspose.PDF – Complete Programming Guide
+Slug: add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu
+Category: images-graphics
+ProcessedDate: 2026-05-24T07:10:07.108211
+SourceRepo: AI Search API
+Keywords: add rectangle to pdf, validate pdf signature, draw shape in pdf, create pdf with shape
+PRNumber: 83
