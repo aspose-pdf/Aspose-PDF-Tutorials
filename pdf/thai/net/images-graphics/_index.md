@@ -35,6 +35,9 @@
 ### [สร้างและเติมสี่เหลี่ยมในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET: คำแนะนำทีละขั้นตอน](./create-fill-rectangle-aspose-pdf-net/)
 เรียนรู้วิธีการสร้างและเติมสี่เหลี่ยมในเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ .NET คำแนะนำทีละขั้นตอนนี้ครอบคลุมทุกอย่างตั้งแต่การตั้งค่าจนถึงการใช้งานด้วย C#
 
+### [เพิ่มสี่เหลี่ยมลงใน PDF ด้วย Aspose.PDF – คู่มือการเขียนโปรแกรมแบบครบถ้วน](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+เรียนรู้วิธีเพิ่มสี่เหลี่ยมลงใน PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือการเขียนโปรแกรมแบบครบถ้วน
+
 ### [สร้างแสตมป์ PDF แบบกำหนดเองด้วย Aspose.PDF ใน .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.PDF Net
 
