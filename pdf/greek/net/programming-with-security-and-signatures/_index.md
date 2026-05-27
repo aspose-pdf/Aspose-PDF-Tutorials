@@ -35,6 +35,10 @@
 | [Υπογραφή με έξυπνη κάρτα χρησιμοποιώντας το πεδίο υπογραφής](./sign-with-smart-card-using-signature-field/) | Μάθετε πώς να υπογράφετε με ασφάλεια PDF χρησιμοποιώντας μια έξυπνη κάρτα με το Aspose.PDF για .NET. Ακολουθήστε τον αναλυτικό οδηγό μας για εύκολη εφαρμογή. |  
 | [Έλεγχος υπογραφών PDF σε C# – Πώς να διαβάσετε υπογεγραμμένα αρχεία PDF](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Μάθετε πώς να ελέγχετε και να διαβάζετε υπογεγραμμένα αρχεία PDF χρησιμοποιώντας C# και Aspose.PDF. |  
 | [Πώς να επισκευάσετε αρχεία PDF – Πλήρης οδηγός C# με Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Μάθετε πώς να επισκευάσετε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET με οδηγίες βήμα προς βήμα. |  
+| [Έλεγχος υπογραφών PDF με Aspose.Pdf – Πλήρης οδηγός](./check-pdf-signatures-with-aspose-pdf-complete-guide/) | Μάθετε πώς να ελέγχετε και να επαληθεύετε υπογραφές PDF χρησιμοποιώντας το Aspose.Pdf σε πλήρη οδηγό βήμα προς βήμα. |  
+| [Δημιουργία αποσπασμένου υπογράφοντος PKCS7 σε C# – Πλήρης οδηγός](./create-pkcs7-detached-signer-in-c-complete-guide/) | Μάθετε πώς να δημιουργήσετε αποσπαστικό υπογραφέα PKCS7 σε C# με βήμα-βήμα οδηγίες. |  
+| [Ανάκτηση ονομάτων υπογραφών PDF με Aspose.PDF σε C#](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | Μάθετε πώς να ανακτήσετε τα ονόματα των υπογραφών PDF με το Aspose.PDF σε C#. |  
+| [Επικύρωση υπογραφής PDF σε C# – Πλήρης οδηγός βήμα‑βήμα](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | Μάθετε πώς να επικυρώνετε ψηφιακές υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF, βήμα‑βήμα οδηγίες. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

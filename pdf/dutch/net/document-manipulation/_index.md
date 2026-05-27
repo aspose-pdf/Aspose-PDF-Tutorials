@@ -77,6 +77,9 @@ Leer hoe u met deze stapsgewijze zelfstudie in C# efficiënt specifieke pagina's
 ### [Efficiënte PDF-optimalisatie: verwijder ongebruikte objecten met Aspose.PDF voor .NET](./optimize-pdf-aspose-pdf-net-remove-unused-objects/)
 Leer hoe u PDF's kunt optimaliseren door ongebruikte objecten te verwijderen met Aspose.PDF voor .NET, waardoor de bestandsgrootte en prestaties verbeteren.
 
+### [Hoe ingesloten lettertypen uit PDF verwijderen – Stapsgewijze C#‑handleiding](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
+Leer hoe u ingesloten lettertypen uit een PDF kunt verwijderen met een stapsgewijze C#‑handleiding.
+
 ### [Efficiënte PDF-paginamanipulatie met Aspose.PDF voor .NET: een handleiding voor ontwikkelaars](./manipulate-pdf-pages-aspose-dot-net/)
 Leer hoe u PDF-pagina's efficiënt kunt bewerken met Aspose.PDF voor .NET. Deze handleiding behandelt roteren, zoomen en het instellen van beginpunten zonder Adobe Acrobat.
 

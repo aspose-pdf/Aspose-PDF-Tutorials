@@ -35,6 +35,7 @@ Một bộ sưu tập toàn diện các hướng dẫn giới thiệu cách làm
 | [Thiết lập định dạng chú thích văn bản miễn phí](./setfreetextannotationformatting/) | Tìm hiểu cách thiết lập định dạng chú thích văn bản tự do trong tài liệu PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. |  
 | [Gạch bỏ các từ](./strikeoutwords/) | Tìm hiểu cách gạch bỏ các từ trong PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước toàn diện này. Nâng cao kỹ năng chỉnh sửa tài liệu của bạn. |  
 | [Cập nhật chú thích PDF văn bản miễn phí](./updatefreetextannotation/) Tìm hiểu cách cập nhật chú thích văn bản tự do trong tài liệu PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. |  
+| [Cách Sử Dụng Repair trong Aspose.PDF – Sửa Các Chú Thích Bị Hỏng](./how-to-use-repair-in-aspose-pdf-fix-broken-annotations/) Hướng dẫn sử dụng tính năng Repair của Aspose.PDF để khôi phục và sửa chữa các chú thích bị hỏng trong tài liệu PDF. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

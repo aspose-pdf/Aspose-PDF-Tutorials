@@ -1,24 +1,51 @@
 ---
 category: general
-date: 2026-01-10
-description: Создайте PDF‑документ с помощью Aspose.PDF в C#. Узнайте, как добавить
-  страницу PDF, нарисовать прямоугольник PDF и многое другое в этом полном руководстве.
+date: 2026-05-27
+description: Создайте PDF‑документ с помощью Aspose.Pdf на C#. Узнайте, как добавить
+  пустую страницу в PDF, нарисовать прямоугольник, задать его цвет и сохранить PDF
+  в файл за считанные минуты.
 draft: false
 keywords:
 - create pdf document
-- add page pdf
+- add blank page pdf
 - draw rectangle pdf
-- how to create pdf
-- how to add rectangle
+- save pdf to file
+- set rectangle color
 language: ru
-og_description: Создайте PDF‑документ с помощью Aspose.PDF на C#. Следуйте этому руководству,
-  чтобы добавить страницу PDF, нарисовать прямоугольник в PDF и освоить создание PDF.
-og_title: Создание PDF‑документа с помощью Aspose.PDF – Полное руководство
+og_description: Быстро создайте PDF‑документ. В этом руководстве показано, как добавить
+  пустую страницу в PDF, нарисовать прямоугольник в PDF, задать цвет прямоугольника
+  и сохранить PDF в файл с помощью C#.
+og_title: Создание PDF‑документа с Aspose.Pdf – Полное руководство
+schemas:
+- author: Aspose
+  dateModified: '2026-05-27'
+  description: Create PDF document using Aspose.Pdf in C#. Learn how to add blank
+    page PDF, draw rectangle PDF, set rectangle color, and save PDF to file in minutes.
+  headline: Create PDF Document with Aspose.Pdf – Step‑by‑Step Guide
+  type: TechArticle
+- description: Create PDF document using Aspose.Pdf in C#. Learn how to add blank
+    page PDF, draw rectangle PDF, set rectangle color, and save PDF to file in minutes.
+  name: Create PDF Document with Aspose.Pdf – Step‑by‑Step Guide
+  steps:
+  - name: What if I need multiple rectangles?
+    text: Just repeat the `AddRectangle` call with different `Rectangle` instances.
+      Each call adds a new shape to the same page.
+  - name: How do I change the page size?
+    text: 'Pass width and height (in points) when you add the page:'
+  - name: Can I draw a rectangle with a border only (no fill)?
+    text: 'Yes—use the overload that accepts a stroke color and line width:'
+  - name: What if I want to export to a memory stream instead of a file?
+    text: 'Replace `Save(string)` with `Save(Stream)`:'
+  - name: How to handle large PDFs efficiently?
+    text: Dispose of each `Document` as soon as you’re done (the `using` block does
+      this). For massive PDFs, consider **Aspose.Pdf’s** incremental saving feature
+      to avoid loading the entire file into memory.
+  type: HowTo
 tags:
-- Aspose.PDF
+- Aspose.Pdf
 - C#
-- PDF generation
-title: Создание PDF‑документа с Aspose.PDF – пошаговое руководство
+- PDF Generation
+title: Создание PDF‑документа с Aspose.Pdf – пошаговое руководство
 url: /ru/net/document-creation/create-pdf-document-with-aspose-pdf-step-by-step-guide/
 ---
 
@@ -26,224 +53,209 @@ url: /ru/net/document-creation/create-pdf-document-with-aspose-pdf-step-by-step-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Создание PDF-документа с Aspose.PDF – пошаговое руководство
+# Создание PDF‑документа с Aspose.Pdf – Полный учебник
 
-Когда‑нибудь вам нужно было **create PDF document** программно и вы не знали, с чего начать? Вы не одиноки — разработчики по всему миру сталкиваются с этой проблемой, когда пытаются автоматизировать отчёты, счета‑фактуры или сертификаты. Хорошая новость? С Aspose.PDF для .NET вы можете создать PDF всего за несколько строк C#.
+Когда‑нибудь нужно было **создать PDF‑документ** с нуля в .NET‑приложении и не знали, с чего начать? Вы не одиноки. Во многих проектах — будь то счета‑фактуры, отчёты или простые листовки — генерация PDF «на лету» является ежедневной задачей, и правильный подход экономит часы ручной работы.
 
-В этом руководстве мы пройдём весь процесс: от инициализации документа до **add page PDF**, до **draw rectangle PDF**, и наконец сохранения файла. К концу вы получите готовый, исполняемый пример и чёткое понимание **how to create pdf**.
+В этом руководстве мы пройдём через полностью готовый, исполняемый пример, который **создаёт PDF‑документ**, **добавляет пустую страницу PDF**, рисует **прямоугольник PDF**, **устанавливает цвет прямоугольника** и, наконец, **сохраняет PDF в файл**. К концу вы получите автономную программу, которую можно вставить в любой C#‑проект без скрытых шагов.
 
-## Что покрывает данное руководство
+## Требования
 
-- Предварительные требования, необходимые перед написанием кода  
-- Пошаговое создание PDF‑документа  
-- Добавление новой страницы в документ (классическая операция **add page pdf**)  
-- Рисование прямоугольника, проверка его границ и вставка (часть “**draw rectangle pdf**”)  
-- Распространённые подводные камни и профессиональные советы для надёжной генерации PDF  
-- Полный готовый к копированию и вставке пример кода, который можно запустить сегодня  
+Прежде чем начать, убедитесь, что у вас есть:
 
-Без внешних ссылок, без недостающих частей — просто автономное решение, которое вы можете цитировать или делиться им.
+- .NET 6.0 или новее (код также работает на .NET Framework 4.6+)
+- Visual Studio 2022 или любая другая IDE
+- NuGet‑пакет **Aspose.Pdf for .NET** (`Install-Package Aspose.Pdf`)
+- Базовое знакомство с синтаксисом C# (если вы новичок, фрагменты кода сильно прокомментированы)
 
-## Предварительные требования
+> **Полезный совет:** Если вы используете пробную лицензию, Aspose добавит водяной знак. Возьмите бесплатный временный ключ с их сайта, чтобы вывод оставался чистым во время тестов.
 
-| Требование | Почему это важно |
-|------------|------------------|
-| .NET 6.0 или новее (или .NET Framework 4.6+) | Aspose.PDF поддерживает обе версии; более новые среды выполнения обеспечивают лучшую производительность. |
-| NuGet‑пакет Aspose.PDF for .NET (`Aspose.Pdf`) | Библиотека предоставляет классы `Document`, `Page` и рисования, которые мы будем использовать. |
-| IDE для C# (Visual Studio, Rider, VS Code) | Обеспечивает простую компиляцию и отладку. |
-| Разрешение на запись в папку вывода | Необходимо для вызова `Save`. |
+## Шаг 1: Инициализация PDF‑документа (create pdf document)
 
-Установите пакет через NuGet:
-
-```bash
-dotnet add package Aspose.Pdf
-```
-
-Вот и всё — как только пакет установлен, вы готовы к **create pdf document**.
-
-## Шаг 1 — Создание PDF‑документа (инициализация)
-
-Первое, что мы делаем, — создаём новый экземпляр `Document`. Считайте это пустым холстом, на котором будет размещаться каждая страница, изображение или фигура.
+Первое, что нам нужно — пустой объект **PDF‑документа**. Считайте его чистым холстом; всё, что вы добавляете позже, будет находиться внутри этого объекта.
 
 ```csharp
 using Aspose.Pdf;
-using Aspose.Pdf.Drawing;
-
-// Step 1: Initialize a fresh PDF document
-var pdfDocument = new Document();
-```
-
-> **Почему это важно:** `Document` — корневой объект. Без него вы не сможете добавить страницы или контент, поэтому этот шаг необходим для **how to create pdf** с нуля.
-
-## Шаг 2 — Добавление страницы PDF
-
-PDF без страниц — это лишь заголовок файла. Добавим страницу, на которой позже нарисуем наш прямоугольник.
-
-```csharp
-// Step 2: Add a new page to the document
-var pdfPage = pdfDocument.Pages.Add();
-```
-
-> **Совет:** Метод `Add()` возвращает только что созданный объект `Page`, поэтому вы можете цепочкой выполнять дальнейшие действия, не ищя его в коллекции.
-
-### Проверка размеров страницы (необязательно)
-
-Если вы планируете точно размещать фигуры, вам может потребоваться знать размер страницы:
-
-```csharp
-float pageWidth = pdfPage.PageInfo.Width;   // default A4 width in points
-float pageHeight = pdfPage.PageInfo.Height; // default A4 height in points
-Console.WriteLine($"Page size: {pageWidth}×{pageHeight} points");
-```
-
-Этот фрагмент не обязателен для базового процесса, но он помогает, когда вы **how to add rectangle** с точными координатами.
-
-## Шаг 3 — Рисование прямоугольника PDF (проверка границ и вставка)
-
-Теперь начинается интересная часть: рисование прямоугольника. Мы определим прямоугольник, проверим, помещается ли он на странице, и затем добавим его в коллекцию абзацев страницы.
-
-```csharp
-// Step 3: Define a rectangle shape (LLX, LLY, URX, URY)
-// LLX = lower‑left X, LLY = lower‑left Y, URX = upper‑right X, URY = upper‑right Y
-var rectangleShape = new Rectangle(100, 500, 300, 700);
-
-// Step 4: Verify that the rectangle lies within the page bounds
-bool isInside = rectangleShape.LLX >= 0 &&
-                rectangleShape.URX <= pdfPage.PageInfo.Width &&
-                rectangleShape.LLY >= 0 &&
-                rectangleShape.URY <= pdfPage.PageInfo.Height;
-
-if (isInside)
-{
-    // Step 5: Add the rectangle to the page's paragraphs collection
-    pdfPage.Paragraphs.Add(rectangleShape);
-}
-else
-{
-    Console.WriteLine("Rectangle exceeds page bounds – adjust coordinates.");
-}
-```
-
-> **Почему проверяем границы:** Попытка рисовать за пределами страницы может привести к невидимым фигурам или предупреждениям во время выполнения. Условие гарантирует безопасное **draw rectangle pdf**.
-
-### Настройка внешнего вида
-
-Вы можете оформить прямоугольник с помощью границ или заливки:
-
-```csharp
-rectangleShape.GraphInfo = new GraphInfo
-{
-    // Set a thin black border
-    LineWidth = 1,
-    StrokeColor = Color.Black,
-    // Optional fill (transparent by default)
-    FillColor = Color.LightGray
-};
-```
-
-Не стесняйтесь экспериментировать — разные цвета, толщины линий или даже пунктирные штрихи.
-
-## Шаг 4 — Сохранение PDF‑документа
-
-Последний шаг — сохранить документ на диск. Выберите папку, в которую у вас есть права записи, и дайте файлу понятное имя.
-
-```csharp
-// Step 6: Save the PDF document to a file
-string outputPath = Path.Combine(Environment.CurrentDirectory, "ShapeChecked.pdf");
-pdfDocument.Save(outputPath);
-
-Console.WriteLine($"PDF saved successfully at: {outputPath}");
-```
-
-Когда вы откроете `ShapeChecked.pdf`, вы должны увидеть одну страницу с светло‑серым прямоугольником, расположенным между (100, 500) и (300, 700). Это результат нашего рабочего процесса **create pdf document**.
-
-![Create PDF Document example](image.png){alt="Пример создания PDF‑документа, показывающий прямоугольник на странице"}
-
-## Полный рабочий пример (готовый к копированию и вставке)
-
-Ниже представлен весь код программы, готовый к компиляции. Нет недостающих частей, нет внешних ссылок.
-
-```csharp
+using Aspose.Pdf.Text;
 using System;
-using System.IO;
-using Aspose.Pdf;
-using Aspose.Pdf.Drawing;
-using Aspose.Pdf.Color; // For color definitions
 
 class Program
 {
     static void Main()
     {
-        // 1️⃣ Create PDF document
-        var pdfDocument = new Document();
-
-        // 2️⃣ Add page PDF
-        var pdfPage = pdfDocument.Pages.Add();
-
-        // Optional: show page size
-        Console.WriteLine($"Page size: {pdfPage.PageInfo.Width}×{pdfPage.PageInfo.Height} points");
-
-        // 3️⃣ Define rectangle (draw rectangle PDF)
-        var rectangleShape = new Rectangle(100, 500, 300, 700);
-
-        // Style the rectangle (optional)
-        rectangleShape.GraphInfo = new GraphInfo
+        // Step 1: Initialise a new PDF document – this is where we will build everything.
+        using (var pdfDoc = new Document())
         {
-            LineWidth = 1,
-            StrokeColor = Color.Black,
-            FillColor = Color.LightGray
-        };
-
-        // 4️⃣ Verify bounds before adding
-        bool fits = rectangleShape.LLX >= 0 &&
-                    rectangleShape.URX <= pdfPage.PageInfo.Width &&
-                    rectangleShape.LLY >= 0 &&
-                    rectangleShape.URY <= pdfPage.PageInfo.Height;
-
-        if (fits)
-        {
-            // 5️⃣ Add rectangle to the page
-            pdfPage.Paragraphs.Add(rectangleShape);
-            Console.WriteLine("Rectangle added successfully.");
+            // Subsequent steps go here...
         }
-        else
-        {
-            Console.WriteLine("Rectangle is out of page bounds – adjust coordinates.");
-        }
-
-        // 6️⃣ Save the PDF
-        string outputFile = Path.Combine(Environment.CurrentDirectory, "ShapeChecked.pdf");
-        pdfDocument.Save(outputFile);
-        Console.WriteLine($"PDF saved at: {outputFile}");
     }
 }
 ```
 
-Запуск этой программы создаёт файл `ShapeChecked.pdf` рядом с исполняемым файлом. Откройте его в любом PDF‑просмотрщике; вы увидите нарисованный нами прямоугольник — доказательство того, что вы успешно **create pdf document**, **add page pdf** и **draw rectangle pdf** за один раз.
+Зачем использовать `using`? Он гарантирует освобождение всех неуправляемых ресурсов после завершения работы, предотвращая блокировки файлов — частую проблему при работе с PDF.
 
-## Часто задаваемые вопросы и особые случаи
+## Шаг 2: Добавление пустой страницы PDF
 
-| Вопрос | Ответ |
-|--------|-------|
-| *Что если мне нужен другой размер страницы?* | Установите `pdfPage.PageInfo.Width` и `Height` перед рисованием, либо создайте `Page` с пользовательским перечислением `PageSize` (например, `PageSize.Letter`). |
-| *Можно ли добавить несколько прямоугольников?* | Конечно — просто повторите блок создания прямоугольника и добавьте каждую фигуру в `pdfPage.Paragraphs`. |
-| *Что происходит с очень маленькими PDF?* | Проверка границ предотвратит координаты за пределами, поэтому код завершится корректно с сообщением в консоли. |
-| *Можно ли повернуть прямоугольник?* | Используйте `rectangleShape.Rotation = 45;` (градусы) перед добавлением. |
-| *Нужно ли освобождать `Document`?* | `Document` реализует `IDisposable`. В реальном приложении оберните его в блок `using` для детерминированного освобождения. |
+PDF без страниц — как книга без листов — бесполезен. Добавить **пустую страницу PDF** с Aspose просто.
 
-## Профессиональные советы и лучшие практики
+```csharp
+// Step 2: Insert a blank page into the document.
+var page = pdfDoc.Pages.Add();
+```
 
-- **Пакетные добавления:** Если вы добавляете десятки фигур, сначала сформируйте их в список, затем добавьте весь список в `Paragraphs` — это уменьшит внутренние накладные расходы обработки.
-- **Система координат:** Aspose.PDF использует пункты (1 pt = 1/72 in). Не забудьте преобразовать из пикселей или миллиметров, если ваши исходные данные используют другую единицу.
-- **Производительность:** Для больших PDF рассмотрите возможность включения `pdfDocument.Optimize()` перед сохранением; он сжимает потоки и уменьшает размер файла.
-- **Обработка ошибок:** Оберните весь процесс в `try/catch` и логируйте `PdfException` для лучшей диагностики.
+Метод `Pages.Add()` создаёт страницу стандартного размера (A4). Если нужен пользовательский размер, можно передать параметры ширины и высоты, но в большинстве случаев значение по умолчанию подходит.
+
+## Шаг 3: Определение геометрии прямоугольника
+
+Теперь мы **рисуем прямоугольник PDF**. Сначала задаём координаты прямоугольника. Aspose работает в пунктах (1 пункт = 1/72 дюйма), так что прямоугольник от (50, 50) до (300, 200) примерно 3,5 × 2 дюйма.
+
+```csharp
+// Step 3: Define a rectangle (left, bottom, right, top) in points.
+var rectangle = new Rectangle(50, 50, 300, 200);
+```
+
+Почему именно такой порядок? Aspose ожидает координаты в виде left‑bottom‑right‑top; перемешивание их приводит к инвертированной фигуре или исключению во время выполнения.
+
+## Шаг 4: Проверка, помещается ли фигура в Media Box
+
+Перед рисованием стоит убедиться, что фигура находится внутри границ страницы. Это предотвращает тихое обрезание содержимого при операции **draw rectangle PDF**.
+
+```csharp
+// Step 4: Ensure the rectangle lives inside the page’s media box.
+if (!page.PageInfo.IsInsideMediaBox(rectangle))
+{
+    Console.WriteLine("Rectangle exceeds page bounds – adjusting...");
+    // Simple fallback: shrink to fit.
+    rectangle = page.PageInfo.MediaBox;
+}
+```
+
+Обработка этого граничного случая демонстрирует хорошее защитное программирование. В продакшн‑коде вместо этого можно выбросить исключение или записать предупреждение в лог.
+
+## Шаг 5: Установка цвета прямоугольника и его отрисовка
+
+Теперь самая интересная часть — **установить цвет прямоугольника** и отрисовать его на странице. Aspose позволяет передать строку в формате CSS‑hex, что знакомо веб‑разработчикам.
+
+```csharp
+// Step 5: Draw the rectangle with a red fill.
+page.AddRectangle(rectangle, new Color("#FF0000"));
+```
+
+Можно заменить `#FF0000` любым другим hex‑кодом (`#00FF00` — зелёный, `#0000FF` — синий и т.д.). Если нужен контур вместо заливки, используйте `page.AddRectangle(rectangle, new Color("#FF0000"), 2)`, где третий аргумент — ширина линии.
+
+## Шаг 6: Сохранение PDF в файл
+
+Наконец, мы **сохраняем PDF в файл**. Выберите путь, в который приложение имеет права записи; иначе возникнет `UnauthorizedAccessException`.
+
+```csharp
+// Step 6: Persist the document to disk.
+pdfDoc.Save("output/shapes.pdf");
+Console.WriteLine("PDF successfully saved to output/shapes.pdf");
+```
+
+Убедитесь, что папка `output` существует заранее, либо вызовите `Directory.CreateDirectory("output")`, чтобы создать её «на лету».
+
+## Полный рабочий пример
+
+Объединив всё вместе, получаем полную программу, которую можно скопировать в новый консольный проект:
+
+```csharp
+using Aspose.Pdf;
+using System;
+using System.IO;
+
+class Program
+{
+    static void Main()
+    {
+        // Ensure output directory exists.
+        Directory.CreateDirectory("output");
+
+        // 1️⃣ Create a new PDF document.
+        using (var pdfDoc = new Document())
+        {
+            // 2️⃣ Add a blank page PDF.
+            var page = pdfDoc.Pages.Add();
+
+            // 3️⃣ Define the rectangle geometry.
+            var rectangle = new Rectangle(50, 50, 300, 200);
+
+            // 4️⃣ Verify it fits inside the media box.
+            if (!page.PageInfo.IsInsideMediaBox(rectangle))
+            {
+                Console.WriteLine("Rectangle exceeds page bounds – adjusting to page size.");
+                rectangle = page.PageInfo.MediaBox;
+            }
+
+            // 5️⃣ Set rectangle color and draw it.
+            page.AddRectangle(rectangle, new Color("#FF0000")); // red fill
+
+            // 6️⃣ Save PDF to file.
+            pdfDoc.Save("output/shapes.pdf");
+        }
+
+        Console.WriteLine("Done! Check the output folder for shapes.pdf.");
+    }
+}
+```
+
+**Ожидаемый результат:** После запуска программы в каталоге `output` появится файл `shapes.pdf`. При открытии вы увидите одну страницу формата A4 с сплошным красным прямоугольником, расположенным на 50 пт от левого и нижнего краёв.
+
+---
+
+## Часто задаваемые вопросы и граничные случаи
+
+### Что если нужно несколько прямоугольников?
+Просто повторите вызов `AddRectangle` с разными экземплярами `Rectangle`. Каждый вызов добавит новую фигуру на ту же страницу.
+
+### Как изменить размер страницы?
+Передайте ширину и высоту (в пунктах) при добавлении страницы:
+
+```csharp
+var customPage = pdfDoc.Pages.Add();
+customPage.PageInfo.Width = 500;   // ~7 inches
+customPage.PageInfo.Height = 700;  // ~9.7 inches
+```
+
+### Можно ли нарисовать только контур прямоугольника (без заливки)?
+Да — используйте перегрузку, принимающую цвет контура и толщину линии:
+
+```csharp
+page.AddRectangle(rectangle, new Color("#0000FF"), 2); // blue outline, 2‑pt thickness
+```
+
+### Что если я хочу экспортировать в поток памяти, а не в файл?
+Замените `Save(string)` на `Save(Stream)`:
+
+```csharp
+using (var ms = new MemoryStream())
+{
+    pdfDoc.Save(ms);
+    // ms now contains the PDF bytes – you can return it from an API, etc.
+}
+```
+
+### Как эффективно работать с большими PDF?
+Освобождайте каждый `Document`, как только он больше не нужен (блок `using` делает это). Для огромных PDF рассмотрите возможность **инкрементного сохранения** Aspose.Pdf, чтобы не загружать весь файл в память.
+
+---
 
 ## Заключение
 
-Теперь вы точно знаете **how to create pdf document** с Aspose.PDF, как **add page pdf**, и как **draw rectangle pdf**, безопасно проверяя границы. Полный пример выше можно вставить в любой проект .NET, получив надёжную основу для более сложных задач с PDF, таких как вставка изображений, таблиц или цифровых подписей.
+Мы **создали PDF‑документ**, **добавили пустую страницу PDF**, **нарисовали прямоугольник PDF**, **установили цвет прямоугольника** и **сохранили PDF в файл** — всё это с помощью нескольких понятных, прокомментированных строк кода. Такой минималистичный подход позволяет легко адаптировать решение под любые задачи — будь то дополнительные фигуры, пользовательские шрифты или встраивание изображений — без переписывания основной логики.
 
-Готовы к следующему шагу? Попробуйте заменить прямоугольник на `Ellipse`, поэкспериментировать со слоистой графикой или сгенерировать многостраничный отчёт, проходя по строкам данных. Те же принципы — инициализация, добавление страниц, рисование фигур, сохранение — применимы ко всем сценариям генерации PDF.
+Что дальше? Попробуйте заменить прямоугольник на круг (`page.AddCircle`) или наложить текст (`page.Paragraphs.Add(new TextFragment("Hello world!"))`). Также стоит изучить **безопасность PDF** (шифрование, цифровые подписи) или **объединение PDF** для пакетной генерации отчётов.
 
-Если вы столкнётесь с проблемой или у вас есть идеи для дальнейших улучшений, смело оставляйте комментарий. Приятного кодинга и наслаждайтесь созданием красивых PDF!
+Есть свои идеи? Оставляйте комментарий или загляните на форумы Aspose — сообщество всегда готово помочь. Приятного кодинга и удачной генерации стильных PDF!
+
+![Screenshot of a generated PDF showing a red rectangle on a blank page](https://example.com/images/create-pdf-document.png "create pdf document example")
+
+
+## Связанные руководства
+
+- [Create PDF Document with Aspose.PDF – Add Page, Shape & Save](/pdf/english/net/document-creation/create-pdf-document-with-aspose-pdf-add-page-shape-save/)
+- [Create PDF Document with Aspose – Add Page, Text Box, and Form](/pdf/english/net/forms-annotations/create-pdf-document-with-aspose-add-page-text-box-and-form/)
+- [How to Customize PDFs with Aspose.PDF for .NET: Set Page Margins and Draw Lines](/pdf/english/net/document-manipulation/customize-pdfs-aspose-pdf-set-margins-draw-lines/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -45,6 +45,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Elemen Struktur Teks Dalam File PDF](./text-structure-elements/) Pelajari cara memanipulasi elemen struktur teks dalam PDF dengan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini mencakup semua yang Anda butuhkan untuk membuat PDF terstruktur. Bahasa Indonesia:  
 | [Validasi File PDF](./validate-pdf/) | Pelajari cara memvalidasi file PDF dengan Aspose.PDF untuk .NET. Periksa kepatuhannya terhadap standar dan buat laporan validasi. |  
 | [Buat PDF yang Ditandai di C# – Panduan Lengkap Langkah demi Langkah](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Pelajari cara membuat PDF yang ditandai menggunakan Aspose.PDF untuk .NET dengan C# dalam panduan langkah demi langkah yang lengkap. |  
+| [Buat Dokumen PDF C# – Panduan Lengkap dengan Teks yang Ditandai dan Penempatan](./create-pdf-document-c-full-guide-with-tagged-text-and-positi/) | Pelajari cara membuat dokumen PDF dengan teks yang ditandai dan penempatan elemen menggunakan Aspose.PDF untuk .NET dalam panduan lengkap langkah demi langkah. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
