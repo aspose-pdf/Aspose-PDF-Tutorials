@@ -1,0 +1,7 @@
+Title: How to Remove Embedded Fonts PDF – Step‑by‑Step C# Guide
+Slug: how-to-remove-embedded-fonts-pdf-step-by-step-c-guide
+Category: document-manipulation
+ProcessedDate: 2026-05-27T12:40:32.766360
+SourceRepo: AI Search API
+Keywords: how to remove embedded fonts pdf
+PRNumber: 84
