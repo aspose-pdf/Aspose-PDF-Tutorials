@@ -38,6 +38,7 @@ Die Tutorials enthalten Schritt-für-Schritt-Anleitungen, detaillierte Codebeisp
 | [PDF-Seitenabmessungen aktualisieren](./update-dimensions/) | Entdecken Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie die Seitenabmessungen von PDFs mit Aspose.PDF für .NET mühelos aktualisieren. |  
 | [Auf Seiteninhalte in PDF-Dateien zoomen](./zoom-to-page-contents/) | Erfahren Sie in dieser umfassenden Anleitung, wie Sie mit Aspose.PDF für .NET Seiteninhalte in PDF-Dateien vergrößern. Optimieren Sie Ihre PDF-Dokumente nach Ihren individuellen Anforderungen. |
 | [Seitenzahlen zu PDF hinzufügen mit C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET Seitenzahlen zu PDFs hinzufügen – detaillierte Schritt‑für‑Schritt‑Anleitung. |
+| [PDF-Dokument erstellen C# – Anleitung zum Hinzufügen von Formen und leeren Seiten](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF-Dokument in C# erstellen und Formen sowie leere Seiten hinzufügen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

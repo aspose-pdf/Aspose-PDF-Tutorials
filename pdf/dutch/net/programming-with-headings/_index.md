@@ -22,6 +22,7 @@ Ontdek de functies van Aspose.PDF voor .NET met speciale tutorials. Leer hoe u m
 | Titel | Beschrijving |
 | --- | --- | 
 | [Nummerstijl toepassen in PDF-bestand](./apply-number-style/) | Leer hoe u verschillende nummerstijlen (Romeinse cijfers, alfabetisch) kunt toepassen op koppen in een PDF met Aspose.PDF voor .NET met behulp van deze stapsgewijze handleiding. |   
+| [Kop toevoegen aan PDF met Aspose – Complete C#-gids](./add-heading-to-pdf-with-aspose-complete-c-guide/) | Leer stap voor stap hoe u met Aspose.PDF voor .NET een kop aan een PDF toevoegt met C#. |   
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

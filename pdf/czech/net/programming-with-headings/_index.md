@@ -22,6 +22,7 @@ Prozkoumejte funkce Aspose.PDF pro .NET pomocí specializovaných tutoriálů. N
 | Název | Popis |
 | --- | --- | 
 | [Použít styl čísla v souboru PDF](./apply-number-style/) | Naučte se, jak pomocí tohoto podrobného návodu použít různé styly číslování (římské číslice, abecední) na nadpisy v PDF pomocí Aspose.PDF pro .NET. |   
+| [Přidání nadpisu do PDF pomocí Aspose – Kompletní průvodce v C#](./add-heading-to-pdf-with-aspose-complete-c-guide/) | Naučte se, jak pomocí Aspose.PDF pro .NET přidat nadpis do PDF souboru pomocí kompletního C# příkladu. |   
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
