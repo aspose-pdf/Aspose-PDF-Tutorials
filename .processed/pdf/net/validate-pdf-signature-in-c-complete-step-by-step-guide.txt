@@ -1,0 +1,7 @@
+Title: Validate PDF Signature in C# – Complete Step‑by‑Step Guide
+Slug: validate-pdf-signature-in-c-complete-step-by-step-guide
+Category: programming-with-security-and-signatures
+ProcessedDate: 2026-05-27T12:40:38.318308
+SourceRepo: AI Search API
+Keywords: validate pdf signature, verify pdf digital signature, check pdf signature validity, how to verify pdf signature, load pdf document c#
+PRNumber: 84
