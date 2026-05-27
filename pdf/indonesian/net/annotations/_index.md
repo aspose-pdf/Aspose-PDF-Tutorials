@@ -35,6 +35,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Atur Format Anotasi Teks Bebas](./setfreetextannotationformatting/) | Pelajari cara mengatur format anotasi teks bebas dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Bahasa Indonesia:  
 | [Coret Kata-kata](./strikeoutwords/) | Pelajari cara mencoret kata-kata dalam PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah yang komprehensif ini. Tingkatkan keterampilan mengedit dokumen Anda. Bahasa Indonesia:  
 | [Perbarui Anotasi PDF Teks Gratis](./updatefreetextannotation/) Pelajari cara memperbarui anotasi teks bebas dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. |  
+| [Cara Menggunakan Repair di Aspose.PDF – Memperbaiki Anotasi Rusak](./how-to-use-repair-in-aspose-pdf-fix-broken-annotations/) | Pelajari cara menggunakan fitur Repair di Aspose.PDF untuk memperbaiki anotasi yang rusak dalam dokumen PDF Anda. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

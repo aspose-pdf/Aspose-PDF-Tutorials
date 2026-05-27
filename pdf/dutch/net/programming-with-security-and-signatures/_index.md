@@ -34,8 +34,12 @@ De tutorial geeft u een gedetailleerd overzicht van methoden en technieken om de
 | [Ondertekenen met smartcard met behulp van PDF-bestandshandtekening](./sign-with-smart-card-using-pdf-file-signature/) | Leer hoe u PDF-bestanden ondertekent met een smartcard met Aspose.PDF voor .NET. Volg deze stapsgewijze handleiding voor veilige digitale handtekeningen. |  
 | [Ondertekenen met smartcard met behulp van handtekeningveld](./sign-with-smart-card-using-signature-field/) | Leer hoe u PDF's veilig kunt ondertekenen met een smartcard met Aspose.PDF voor .NET. Volg onze stapsgewijze handleiding voor eenvoudige implementatie. |  
 | [PDF-handtekeningen controleren in C# – Hoe ondertekende PDF-bestanden te lezen](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Leer hoe u ondertekende PDF-bestanden kunt lezen en handtekeningen kunt verifiëren met Aspose.PDF voor .NET in C#. |  
+| [PDF-handtekeningen controleren met Aspose.Pdf – Complete gids](./check-pdf-signatures-with-aspose-pdf-complete-guide/) | Leer hoe u PDF-handtekeningen kunt verifiëren met Aspose.Pdf in een uitgebreide stap‑voor‑stap gids. |  
 | [Ondertekenen met smartcard met behulp van handtekeningveld](./sign-with-smart-card-using-signature-field/) | Leer hoe u PDF's veilig kunt ondertekenen met een smartcard met Aspose.PDF voor .NET. Volg onze stapsgewijze handleiding voor eenvoudige implementatie. |
-| [PDF-bestanden repareren – Complete C#-gids met Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Leer hoe u beschadigde PDF-bestanden kunt repareren met Aspose.PDF voor .NET in C#. Volg onze stapsgewijze handleiding. |
+| [PDF-bestanden repareren – Complete C#-gids met Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Leer hoe u beschadigde PDF-bestanden kunt repareren met Aspose.PDF voor .NET in C#. Volg onze stap‑voor‑stap handleiding. |
+| [PKCS7 Detached ondertekenaar maken in C# – Complete gids](./create-pkcs7-detached-signer-in-c-complete-guide/) | Leer hoe u een PKCS7 detached ondertekenaar maakt in C# met Aspose.PDF voor .NET. Stapsgewijze handleiding voor veilige digitale handtekeningen. |
+| [PDF-handtekeningnamen ophalen met Aspose.PDF in C#](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | Leer hoe u met Aspose.PDF in C# de namen van PDF-handtekeningen kunt ophalen. |
+| [PDF-handtekening valideren in C# – Complete stap‑voor‑stap gids](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | Leer hoe u PDF-handtekeningen kunt valideren met Aspose.PDF voor .NET in C# met een gedetailleerde stap‑voor‑stap handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

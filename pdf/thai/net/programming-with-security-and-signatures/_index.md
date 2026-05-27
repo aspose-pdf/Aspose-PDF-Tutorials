@@ -34,7 +34,11 @@
 | [ลงนามด้วยสมาร์ทการ์ดโดยใช้ลายเซ็นไฟล์ PDF](./sign-with-smart-card-using-pdf-file-signature/) | เรียนรู้วิธีลงนามไฟล์ PDF โดยใช้สมาร์ทการ์ดด้วย Aspose.PDF สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อลายเซ็นดิจิทัลที่ปลอดภัย -  
 | [ลงนามด้วยสมาร์ทการ์ดโดยใช้ช่องลายเซ็น](./sign-with-smart-card-using-signature-field/) | เรียนรู้วิธีการลงนาม PDF อย่างปลอดภัยโดยใช้สมาร์ทการ์ดด้วย Aspose.PDF สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการใช้งานที่ง่ายดาย |  
 - [ตรวจสอบลายเซ็น PDF ใน C# – วิธีอ่านไฟล์ PDF ที่ลงนาม](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | เรียนรู้วิธีตรวจสอบและอ่านลายเซ็นดิจิทัลในไฟล์ PDF ด้วย C# และ Aspose.PDF สำหรับ .NET -  
+- [ตรวจสอบลายเซ็น PDF ใน C# – คู่มือขั้นตอนเต็ม](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | เรียนรู้วิธีตรวจสอบลายเซ็น PDF อย่างละเอียดใน C# ด้วย Aspose.PDF สำหรับ .NET ตามขั้นตอนที่ชัดเจน  
 - [วิธีซ่อมไฟล์ PDF – คู่มือ C# ฉบับสมบูรณ์กับ Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | เรียนรู้วิธีซ่อมไฟล์ PDF ที่เสียหายด้วย Aspose.PDF สำหรับ .NET ผ่านขั้นตอนการเขียนโปรแกรม C# อย่างละเอียด
+- [ตรวจสอบลายเซ็น PDF ด้วย Aspose.Pdf – คู่มือฉบับสมบูรณ์](./check-pdf-signatures-with-aspose-pdf-complete-guide/) | เรียนรู้วิธีตรวจสอบและยืนยันลายเซ็นดิจิทัลในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียดและครบถ้วน
+- [สร้าง PKCS7 Detached Signer ใน C# – คู่มือฉบับสมบูรณ์](./create-pkcs7-detached-signer-in-c-complete-guide/) | เรียนรู้วิธีสร้าง PKCS7 Detached Signer ใน C# ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียดและครบถ้วน
+- [ดึงชื่อลายเซ็น PDF ด้วย Aspose.PDF ใน C#](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | เรียนรู้วิธีดึงชื่อของลายเซ็นในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ด้วย C# -
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

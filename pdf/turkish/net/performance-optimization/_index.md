@@ -50,6 +50,10 @@ Aspose.PDF for .NET kullanarak SVG dosyalarını hassas ve verimli bir şekilde 
 ### [Aspose.PDF for .NET Kullanarak PDF'lerdeki Yazı Tiplerini Kaldırma: Dosya Boyutunu Azaltın ve Performansı İyileştirin](./optimize-pdfs-unembed-fonts-aspose-pdf-net/)
 Aspose.PDF for .NET kullanarak PDF dosyalarınızdaki yazı tiplerini nasıl kaldıracağınızı öğrenin. Bu adım adım kılavuzla PDF performansını optimize edin, dosya boyutunu küçültün ve yükleme sürelerini iyileştirin.
 
+### [C# ile Aspose.Pdf kullanarak PDF sıkıştırma: Tam Adım Adım Kılavuz](./how-to-compress-pdf-with-aspose-pdf-in-c-complete-step-by-st/)
+
+### [C#'ta Aspose PDF Görüntü Sıkıştırması – PDF Boyutunu Hızlıca Küçültün](./aspose-pdf-image-compression-in-c-reduce-pdf-size-quickly/)
+
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)

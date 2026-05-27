@@ -28,13 +28,17 @@ The tutorial gives you a detailed overview of methods and techniques to ensure t
 | [Digitally Sign With Time Stamp In PDF File](./digitally-sign-with-time-stamp/) | Learn how to digitally sign a PDF with a timestamp using Aspose.PDF for .NET. This step-by-step guide covers prerequisites, certificate setup, timestamping, and more. |  
 | [Encrypt PDF File](./encrypt/) | Learn how to encrypt your PDF files effortlessly using Aspose.PDF for .NET. Secure sensitive information with our easy step-by-step guide. |  
 | [Extracting Image](./extracting-image/) | Easily learn how to extract images from PDFs using Aspose.PDF for .NET. Follow our step-by-step guide for seamless image extraction. |  
-| [Extract Signature Info](./extract-signature-info/) | Learn how to extract digital signatures and certificate information from PDF documents using Aspose.PDF for .NET. A complete step-by-step guide for C# developers. |  
+| [Extract Signature Info](./extract-signature-info/) | Learn how to extract digital signatures and certificate information from PDF documents using Aspose.PDF for .NET. A complete step-by-step guide for C# developers. |
+| [Retrieve PDF Signature Names with Aspose.PDF in C#](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | Learn how to retrieve PDF signature names using Aspose.PDF for .NET in C#. Follow the step-by-step guide to list signature identifiers. |
 | [Is Password Protected](./is-password-protected/) | Learn how to check if a PDF is password protected using Aspose.PDF for .NET in this comprehensive step-by-step guide. |  
 | [Set Privileges In PDF File](./set-privileges/) | Learn how to set PDF privileges using Aspose.PDF for .NET with this step-by-step guide. Secure your documents effectively. |  
 | [Sign With Smart Card Using Pdf File Signature](./sign-with-smart-card-using-pdf-file-signature/) | Learn how to sign PDF files using a smart card with Aspose.PDF for .NET. Follow this step-by-step guide for secure digital signatures. |  
 | [Sign With Smart Card Using Signature Field](./sign-with-smart-card-using-signature-field/) | Learn how to securely sign PDFs using a smart card with Aspose.PDF for .NET. Follow our step-by-step guide for easy implementation. |  
-| [Check PDF Signatures in C# – How to Read Signed PDF Files](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Learn how to read and verify PDF signatures using Aspose.PDF for .NET in C#. Step-by-step guide for developers. |  
+| [Check PDF Signatures in C# – How to Read Signed PDF Files](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Learn how to read and verify PDF signatures using Aspose.PDF for .NET in C#. Step-by-step guide for developers. |
+| [Check PDF Signatures with Aspose.Pdf – Complete Guide](./check-pdf-signatures-with-aspose-pdf-complete-guide/) | Learn how to verify PDF signatures using Aspose.PDF for .NET in a comprehensive step-by-step guide. |
 | [How to Repair PDF Files – Complete C# Guide with Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Learn how to repair corrupted PDF files using Aspose.PDF for .NET in a comprehensive C# guide. |
+| [Create PKCS7 Detached Signer in C# – Complete Guide](./create-pkcs7-detached-signer-in-c-complete-guide/) | Learn how to create a PKCS#7 detached signer in C# with Aspose.PDF for .NET. A complete step-by-step guide. |
+| [Validate PDF Signature in C# – Complete Step‑by‑Step Guide](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | Learn how to validate PDF signatures using Aspose.PDF for .NET in C#. Comprehensive step-by-step guide for developers. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

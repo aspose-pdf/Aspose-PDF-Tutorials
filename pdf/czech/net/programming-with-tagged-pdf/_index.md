@@ -45,6 +45,7 @@ Výukové programy „Programování s tagovanými PDF“ v knihovně Aspose.PDF
 | [Prvky textové struktury v souboru PDF](./text-structure-elements/) Naučte se manipulovat s prvky textové struktury v PDF pomocí Aspose.PDF pro .NET. Tato podrobná příručka zahrnuje vše, co potřebujete k vytvoření strukturovaných PDF. |  
 | [Ověřit PDF soubor](./validate-pdf/) | Naučte se, jak ověřit soubor PDF pomocí Aspose.PDF pro .NET. Zkontrolujte jeho soulad se standardy a vygenerujte ověřovací zprávu. |  
 | [Vytvořit tagovaný PDF v C# – Kompletní průvodce krok za krokem](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Naučte se, jak pomocí Aspose.PDF pro .NET vytvořit tagovaný PDF soubor v C# pomocí podrobného krok‑za‑krokem návodu. |  
+| [Vytvořit PDF dokument v C# – Kompletní průvodce s tagovaným textem a umístěním](./create-pdf-document-c-full-guide-with-tagged-text-and-positi/) | Kompletní návod, jak v C# vytvořit PDF s tagovaným textem a přesným umístěním prvků pomocí Aspose.PDF pro .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -32,9 +32,10 @@ Kompleksowy zbiór samouczków pokazujących, jak pracować z adnotacjami w doku
 | [Szerokość linii adnotacji lnk](./lnkannotationlinewidth/) Dowiedz się, jak ustawić szerokość linii adnotacji atramentowej w pliku PDF za pomocą Aspose.PDF dla .NET. Ten szczegółowy samouczek przeprowadzi Cię przez każdy krok, zapewniając wysokiej jakości wydruk. |  
 | [Redaguj stronę](./redactpage/) | Dowiedz się, jak skutecznie redagować dokumenty za pomocą Aspose.PDF dla platformy .NET, korzystając z tego kompleksowego przewodnika krok po kroku. |  
 | [Ustaw właściwość odwołania w pliku PDF](./setcalloutproperty/) | Dowiedz się, jak ustawić właściwość odwołania w pliku PDF za pomocą Aspose.PDF dla platformy .NET, korzystając ze szczegółowego samouczka krok po kroku. |  
-| [Ustaw bezpłatne formatowanie adnotacji tekstowych](./setfreetextannotationformatting/) | Dowiedz się, jak ustawić formatowanie adnotacji tekstu swobodnego w dokumentach PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego przewodnika krok po kroku. |  
+| [Ustaw bezpłatne formatowanie adnotacji tekstowych](./setfreetextannotationformatting/) | Dowiedz się, jak ustawić formatowanie adnotacji tekstu swobodnego w dokumentach PDF za pomocą Aspose.PDF dla .NET, korzystając z tego przewodnika krok po kroku. |  
 | [Wykreśl słowa](./strikeoutwords/) | Dowiedz się, jak przekreślać słowa w pliku PDF za pomocą Aspose.PDF dla .NET dzięki temu kompleksowemu przewodnikowi krok po kroku. Udoskonal swoje umiejętności edycji dokumentów. |  
 | [Aktualizuj adnotację do pliku PDF w formacie Free Text](./updatefreetextannotation/) Dowiedz się, jak aktualizować adnotacje tekstu swobodnego w dokumentach PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego przewodnika krok po kroku. |  
+| [Jak używać naprawy w Aspose.PDF – naprawić uszkodzone adnotacje](./how-to-use-repair-in-aspose-pdf-fix-broken-annotations/) Dowiedz się, jak używać funkcji Repair w Aspose.PDF, aby naprawić uszkodzone adnotacje w plikach PDF. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
