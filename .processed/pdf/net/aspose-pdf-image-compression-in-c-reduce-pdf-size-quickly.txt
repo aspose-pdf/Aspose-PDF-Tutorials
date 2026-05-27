@@ -1,0 +1,7 @@
+Title: Aspose PDF Image Compression in C# – Reduce PDF Size Quickly
+Slug: aspose-pdf-image-compression-in-c-reduce-pdf-size-quickly
+Category: performance-optimization
+ProcessedDate: 2026-05-27T12:40:24.779769
+SourceRepo: AI Search API
+Keywords: aspose pdf image compression, optimize pdf file size, compress pdf programmatically, how to compress pdf images, how to reduce pdf size
+PRNumber: 84
