@@ -1,0 +1,7 @@
+Title: PDF format conversion tutorial – Convert PDF to PDF/X-4 in C#
+Slug: pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-in-c
+Category: document-conversion
+ProcessedDate: 2026-06-05T23:43:44.583614
+SourceRepo: AI Search API
+Keywords: pdf format conversion tutorial, convert pdf to pdf/x-4, load pdf document c#, how to convert pdf to pdf/x-4
+PRNumber: 87
