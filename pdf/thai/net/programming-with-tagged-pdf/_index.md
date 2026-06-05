@@ -45,6 +45,7 @@
 - [องค์ประกอบโครงสร้างข้อความในไฟล์ PDF](./text-structure-elements/) เรียนรู้การจัดการองค์ประกอบโครงสร้างข้อความใน PDF ด้วย Aspose.PDF สำหรับ .NET คำแนะนำทีละขั้นตอนนี้ครอบคลุมทุกสิ่งที่คุณต้องการเพื่อสร้าง PDF ที่มีโครงสร้าง -  
 | [ตรวจสอบไฟล์ PDF](./validate-pdf/) | เรียนรู้วิธีการตรวจสอบไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ตรวจสอบความสอดคล้องตามมาตรฐานและสร้างรายงานการตรวจสอบ |  
 - [สร้าง PDF ที่มีแท็กใน C# – คู่มือขั้นตอนเต็ม](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | เรียนรู้วิธีสร้าง PDF ที่มีแท็กด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET ผ่านขั้นตอนที่ละเอียดและครบถ้วน  
+- [สร้าง Text Span ที่เข้าถึงได้ใน PDF ด้วย Aspose: คู่มือ C# ฉบับเต็ม](./create-accessible-text-span-in-pdf-with-aspose-full-c-guide/) | เรียนรู้วิธีสร้าง Text Span ที่เข้าถึงได้ใน PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือ C# ฉบับเต็มขั้นตอนโดยละเอียด  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

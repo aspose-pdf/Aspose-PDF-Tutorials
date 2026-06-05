@@ -58,6 +58,7 @@ Die Ressource enthält Tutorials zur Programmierung mit Dokumentfunktion der Asp
 | [Validieren Sie den PDF AB-Standard](./validatepdfabstandard/) Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.PDF für .NET eine PDF-Datei für den PDF/A-1b-Standard validieren. Stellen Sie die Konformität für die Langzeitarchivierung sicher. |  
 | [Validieren von PDF-Dateien Ein Standard](./validatepdfastandard/) | Erfahren Sie in diesem umfassenden Schritt-für-Schritt-Tutorial, wie Sie PDF-Dateien mit Aspose.PDF für .NET anhand des PDF/A-1a-Standards validieren. |  
 | [Validieren Sie den PDF UA-Standard](./validatepdfuastandard/) | Erfahren Sie mit unserer Schritt-für-Schritt-Anleitung und ausführlichen Erklärungen, wie Sie mit Aspose.PDF für .NET ein PDF für den PDF/UA-Zugänglichkeitsstandard validieren. |  
+| [Erstellen Sie ein benutzerdefiniertes Aspose-Plugin – Vollständige Anleitung zur Automatisierung der PDF-Verarbeitung](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Erfahren Sie, wie Sie ein benutzerdefiniertes Aspose-Plugin erstellen, um die PDF-Verarbeitung zu automatisieren. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

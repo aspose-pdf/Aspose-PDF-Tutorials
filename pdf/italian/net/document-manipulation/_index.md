@@ -38,6 +38,9 @@ Scopri come aggiungere interruzioni di pagina nei documenti PDF utilizzando Aspo
 ### [Aggiungi rettangoli e configura pagine PDF con Aspose.PDF .NET: una guida completa](./aspose-pdf-net-add-rectangles-configure-pages/)
 Impara ad aggiungere rettangoli e a configurare le pagine nei PDF utilizzando Aspose.PDF per .NET. Segui questa guida per apprendere tecniche di manipolazione dei documenti in modo efficace.
 
+### [Aggiungere rettangolo a PDF con C# – Guida completa di programmazione](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
+Scopri come inserire rettangoli nei PDF usando C# e Aspose.PDF con esempi di codice dettagliati.
+
 ### [Aspose.PDF .NET: imposta i margini del PDF e personalizza intestazioni/piè di pagina](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 Padroneggia l'arte di impostare i margini di pagina e personalizzare intestazioni e piè di pagina nei tuoi PDF con Aspose.PDF per .NET. Segui questa guida dettagliata per migliorare la coerenza del layout dei documenti.
 

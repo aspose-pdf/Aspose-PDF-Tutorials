@@ -59,6 +59,9 @@ Aspose.PDF Net 程式碼教學
 ### [使用 Aspose 驗證 PDF 簽章並將 PDF 轉換為 HTML](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
 了解如何使用 Aspose 驗證 PDF 簽章，同時將 PDF 轉換為 HTML 以便於網頁顯示。
 
+### [如何使用憑證簽署 PDF – 完整 C# 指南](./how-to-sign-pdf-using-certificate-complete-c-guide/)
+了解如何在 C# 中使用憑證簽署 PDF，提供完整步驟與範例程式碼。
+
 ## 其他資源
 
 - [Aspose.PDF 用於網頁文檔](https://docs.aspose.com/pdf/net/)

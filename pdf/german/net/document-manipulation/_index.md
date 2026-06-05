@@ -38,6 +38,9 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET Seitenumbrüche in PDF-Dokumente 
 ### [Rechtecke hinzufügen und PDF-Seiten konfigurieren mit Aspose.PDF .NET: Ein umfassender Leitfaden](./aspose-pdf-net-add-rectangles-configure-pages/)
 Meistern Sie das Hinzufügen von Rechtecken und Konfigurieren von Seiten in PDFs mit Aspose.PDF für .NET. Folgen Sie dieser Anleitung, um Techniken zur Dokumentbearbeitung effektiv zu erlernen.
 
+### [Rechteck zu PDF mit C# hinzufügen – Vollständiger Programmierleitfaden](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein Rechteck zu einer PDF-Datei hinzufügen. Schritt‑für‑Schritt‑Anleitung mit C#‑Beispielen.
+
 ### [Aspose.PDF .NET: PDF-Ränder festlegen und Kopf-/Fußzeilen anpassen](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 Meistern Sie das Festlegen von Seitenrändern und Anpassen von Kopf- und Fußzeilen in Ihren PDFs mit Aspose.PDF für .NET. Folgen Sie dieser ausführlichen Anleitung, um die Konsistenz des Dokumentlayouts zu verbessern.
 
@@ -101,7 +104,7 @@ Erfahren Sie in diesem ausführlichen C#-Tutorial, wie Sie mit Aspose.PDF für .
 ### [So fügen Sie mit Aspose.PDF für .NET Kopfzeilen zu PDFs hinzu: Eine umfassende Anleitung](./add-header-pdf-aspose-dotnet-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET nahtlos Kopfzeilen, einschließlich Text und Bilder, zu Ihren PDF-Dokumenten hinzufügen. Perfekt für die Verbesserung des Dokumenten-Brandings.
 
-### [So fügen Sie mit Aspose.PDF für .NET Kopfzeilen zu PDFs hinzu: Eine umfassende Anleitung](./add-headers-aspose-pdf-dotnet-guide/)
+### [So fügen Sie mit Aspose.PDF für .NET Kopfzeilen zu PDFs hinzufügen: Eine umfassende Anleitung](./add-headers-aspose-pdf-dotnet-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET nahtlos Textkopfzeilen zu Ihren PDF-Dateien hinzufügen und so die Lesbarkeit und Organisation der Dokumente verbessern.
 
 ### [So fügen Sie mit Aspose.PDF für .NET ein Linienobjekt in PDF ein: Eine Schritt-für-Schritt-Anleitung](./add-line-aspose-pdf-dotnet-tutorial/)

@@ -37,18 +37,19 @@ Les tutoriels « Programmation avec des images » d'Aspose.PDF pour .NET vous 
 | [Identifier les images dans un fichier PDF](./identify-images/) | Apprenez à identifier les images dans les fichiers PDF et à détecter leur type de couleur (niveaux de gris ou RVB) à l'aide d'Aspose.PDF pour .NET dans ce guide détaillé étape par étape. |  
 | [Informations sur l'image dans le fichier PDF](./image-information/) | Apprenez à extraire des informations d'image à partir de fichiers PDF à l'aide d'Aspose.PDF pour .NET avec notre guide complet étape par étape. |  
 | [Emplacements d'images](./image-placements/) | Apprenez à extraire et à manipuler les emplacements d'images dans des documents PDF avec Aspose.PDF pour .NET. Guide étape par étape avec exemples et extraits de code. |  
-| [Image en PDF](./image-to-pdf/) Découvrez comment convertir des images au format PDF avec Aspose.PDF pour .NET grâce à ce guide étape par étape. Idéal pour les développeurs et les passionnés de technologie. |  
+| [Image en PDF](./image-to-pdf/) | Découvrez comment convertir des images au format PDF avec Aspose.PDF pour .NET grâce à ce guide étape par étape. Idéal pour les développeurs et les passionnés de technologie. |  
 | [Grande image CGM au format PDF](./large-cgm-image-to-pdf/) | Transformez facilement de grandes images CGM en PDF avec Aspose.PDF pour .NET. Suivez ce guide simple pour une conversion rapide et efficace. |  
 | [Pages en images](./pages-to-images/) | Convertissez rapidement des pages PDF en images de haute qualité à l'aide d'Aspose.PDF pour .NET avec ce guide complet étape par étape. |  
 | [Page vers EMF](./page-to-emf/) | Apprenez à convertir une page PDF au format EMF grâce à ce guide étape par étape utilisant Aspose.PDF pour .NET. Idéal pour les développeurs. |  
 | [Page au format PNG](./page-to-png/) | Apprenez à convertir sans effort des pages PDF en images PNG à l'aide d'Aspose.PDF pour .NET dans notre didacticiel détaillé étape par étape. |  
 | [Page PDF en TIFF](./page-to-tiff/) | Apprenez à convertir des pages PDF en images TIFF de haute qualité avec Aspose.PDF pour .NET. Ce guide étape par étape couvre la résolution, la compression et bien plus encore. |  
 | [Remplacer l'image dans un fichier PDF](./replace-image/) Remplacez facilement des images dans vos fichiers PDF grâce à Aspose.PDF pour .NET. Suivez ce guide étape par étape pour améliorer vos compétences en gestion de PDF.  
-| [Redimensionner les images dans un fichier PDF](./resize-images/) | Apprenez à redimensionner les images d'un fichier PDF avec Aspose.PDF pour .NET grâce à ce guide détaillé. Optimisez la taille de votre fichier sans perte de qualité. |  
+| [Redimensionner les images dans un fichier PDF](./resize-images/) | Apprenez à redimensionner les images d'un PDF avec Aspose.PDF pour .NET grâce à ce guide détaillé. Optimisez la taille de votre fichier sans perte de qualité. |  
 | [Rechercher et obtenir des images dans un fichier PDF](./search-and-get-images/) | Apprenez à extraire facilement des images de fichiers PDF avec Aspose.PDF pour .NET. Suivez ce guide étape par étape pour améliorer vos compétences en traitement PDF. |  
 | [Définir la taille de l'image dans le fichier PDF](./set-image-size/) | Apprenez à définir la taille d'une image dans un PDF avec Aspose.PDF pour .NET. Ce guide étape par étape vous aidera à redimensionner les images, à ajuster les propriétés des pages et à enregistrer vos PDF. |  
 | [Réduire les images dans un fichier PDF](./shrink-images/) | Réduisez facilement les images dans les fichiers PDF à l'aide d'Aspose.PDF pour .NET avec ce guide étape par étape, garantissant des tailles de fichiers plus petites tout en maintenant la qualité. |  
 | [Stocker l'image dans la collection XImage](./store-image-in-ximage-collection/) | Apprenez à stocker des images dans la collection XImage à l'aide d'Aspose.PDF pour .NET dans ce guide complet étape par étape. |  
+| [Compresser les images dans DOCX – Réduire la taille du fichier](./compress-images-in-docx-reduce-file-size/) | Apprenez à compresser les images dans un document DOCX afin de réduire la taille du fichier avec Aspose.PDF pour .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -70,6 +70,7 @@ Les tutoriels « Programmation avec du texte » d'Aspose.PDF pour .NET offrent
 | [Texte et image sous forme de paragraphe dans un fichier PDF](./text-and-image-as-paragraph/) | Créez des PDF avec du texte et des images avec Aspose.PDF pour .NET. Apprenez à ajouter du texte et des images en ligne étape par étape. |  
 | [Segments de texte dans un fichier PDF](./text-segments/) | Apprenez à rechercher des segments de texte spécifiques dans un fichier PDF à l'aide d'expressions régulières dans Aspose.PDF pour .NET. |  
 | [Utiliser le script Latex dans un fichier PDF](./use-latex-script/) | Apprenez à utiliser le script Latex pour ajouter des expressions mathématiques ou des formules dans un fichier PDF à l'aide d'Aspose.PDF pour .NET. |  
+| [Créer un élément Span dans Word avec C# – Guide complet](./create-span-element-in-word-with-c-complete-guide/) | Apprenez à créer un élément Span dans Word avec C# grâce à ce guide complet étape par étape. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

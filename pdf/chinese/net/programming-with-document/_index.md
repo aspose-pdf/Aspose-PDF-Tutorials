@@ -58,6 +58,7 @@
 | [验证 PDF AB 标准](./validatepdfabstandard/) 在本分步教程中学习如何使用 Aspose.PDF for .NET 验证 PDF 是否符合 PDF/A-1b 标准。确保符合长期存档的要求。|  
 | [验证 PDF 文件标准](./validatepdfastandard/) 在本全面的分步教程中了解如何使用 Aspose.PDF for .NET 根据 PDF/A-1a 标准验证 PDF 文件。|  
 | [验证 PDF UA 标准](./validatepdfuastandard/) 通过我们的分步指南和详细解释，了解如何使用 Aspose.PDF for .NET 验证 PDF 是否符合 PDF/UA 可访问性标准。|  
+| [创建自定义 Aspose 插件 – 自动化 PDF 处理完整指南](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) 通过本教程学习如何创建自定义 Aspose 插件，以实现 PDF 处理自动化。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

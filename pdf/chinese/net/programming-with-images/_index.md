@@ -49,6 +49,7 @@ Aspose.PDF for .NET 的“图像编程”教程将指导您完成操作和管理
 | [设置 PDF 文件中的图像大小](./set-image-size/) 了解如何使用 Aspose.PDF for .NET 设置 PDF 中的图像大小。本分步指南将帮助您调整图像大小、页面属性以及保存 PDF。|  
 | [缩小PDF文件中的图像](./shrink-images/) 按照本分步指南使用 Aspose.PDF for .NET 轻松缩小 PDF 文件中的图像，确保文件更小，同时保持质量。|  
 | [将图像存储在 XImage 集合中](./store-image-in-ximage-collection/) 通过本完整的分步指南了解如何使用 Aspose.PDF for .NET 将图像存储在 XImage 集合中。|  
+| [压缩 DOCX 中的图像 – 减小文件大小](./compress-images-in-docx-reduce-file-size/) | 通过本分步指南学习如何使用 Aspose.Words for .NET 压缩 DOCX 文档中的图像以减小文件体积。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

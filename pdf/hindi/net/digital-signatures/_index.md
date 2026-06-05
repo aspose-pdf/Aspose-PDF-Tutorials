@@ -27,7 +27,7 @@
 
 ### [.NET के लिए Aspose.PDF का उपयोग करके PDF हस्ताक्षर कैसे बनाएं और सत्यापित करें](./create-verify-pdf-signatures-aspose-net/)
 
-### [Aspose.PDF .NET का उपयोग करके PDF हस्ताक्षर जानकारी कैसे निकालें: एक चरण-दर-चरण मार्गदर्शिका](./extract-pdf-signature-info-aspose-pdf-net/)
+### [Aspose.PDF .NET का उपयोग करके PDF हस्ताक्षर जानकारी कैसे निकालें: एक चरण-दर-श...](./extract-pdf-signature-info-aspose-pdf-net/)
 
 ### [Aspose.PDF के साथ .NET में डिजिटल हस्ताक्षर कैसे लागू करें: एक व्यापक गाइड](./implement-pdf-signatures-dotnet-aspose-pdf-guide/)
 
@@ -52,6 +52,9 @@ C# में PDF दस्तावेज़ लोड करके उसे PD
 
 ### [Aspose के साथ PDF हस्ताक्षर सत्यापित करें – PDF को HTML में परिवर्तित करें](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
 Aspose का उपयोग करके PDF हस्ताक्षर की वैधता जांचें और PDF को HTML में बदलें।
+
+### [प्रमाणपत्र का उपयोग करके PDF पर हस्ताक्षर कैसे करें – पूर्ण C# गाइड](./how-to-sign-pdf-using-certificate-complete-c-guide/)
+C# में प्रमाणपत्र के साथ PDF पर डिजिटल हस्ताक्षर लागू करने की विस्तृत चरण‑दर‑चरण प्रक्रिया।
 
 ## अतिरिक्त संसाधन
 

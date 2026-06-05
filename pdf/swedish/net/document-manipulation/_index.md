@@ -38,6 +38,9 @@ Lär dig hur du lägger till sidbrytningar i PDF-dokument med Aspose.PDF för .N
 ### [Lägg till rektanglar och konfigurera PDF-sidor med Aspose.PDF .NET: En omfattande guide](./aspose-pdf-net-add-rectangles-configure-pages/)
 Bemästra hur man lägger till rektanglar och konfigurerar sidor i PDF-filer med Aspose.PDF för .NET. Följ den här guiden för att lära dig tekniker för dokumenthantering effektivt.
 
+### [Lägg till rektangel i PDF med C# – Komplett programmeringsguide](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
+Lär dig hur du lägger till en rektangel i PDF-dokument med C# och Aspose.PDF i en fullständig steg-för-steg-guide.
+
 ### [Aspose.PDF .NET: Ställ in PDF-marginaler och anpassa sidhuvuden/sidfot](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 Bemästra konsten att ställa in sidmarginaler och anpassa sidhuvuden/sidfot i dina PDF-filer med Aspose.PDF för .NET. Följ den här detaljerade guiden för att förbättra dokumentlayoutens enhetlighet.
 

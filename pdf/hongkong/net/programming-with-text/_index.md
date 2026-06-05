@@ -70,6 +70,7 @@ Aspose.PDF 的 .NET「使用文字程式設計」教學課程提供了處理 PDF
 | [PDF 檔案中的文字和圖像作為段落](./text-and-image-as-paragraph/) |使用 Aspose.PDF for .NET 建立包含文字和圖像的 PDF。了解如何逐步新增文字和內嵌影像。 |  
 | [PDF檔案中的文字片段](./text-segments/) |了解如何在 Aspose.PDF for .NET 中使用正規表示式搜尋 PDF 檔案中的特定文字段。 |  
 | [在 PDF 檔案中使用 Latex 腳本](./use-latex-script/) |了解如何使用 Latex 腳本透過 Aspose.PDF for .NET 在 PDF 檔案中新增數學運算式或公式。 |  
+| [使用 C# 在 Word 中建立 Span 元素 – 完整指南](./create-span-element-in-word-with-c-complete-guide/) |學習如何使用 C# 在 Word 文件中建立 Span 元素的完整步驟與範例。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

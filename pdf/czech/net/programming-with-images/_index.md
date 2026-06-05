@@ -49,6 +49,7 @@ Výukové programy „Programování s obrázky“ v Aspose.PDF pro .NET vás pr
 | [Nastavení velikosti obrázku v souboru PDF](./set-image-size/) | Naučte se, jak nastavit velikost obrázku v PDF pomocí Aspose.PDF pro .NET. Tento podrobný návod vám pomůže změnit velikost obrázků, upravit vlastnosti stránky a uložit PDF soubory. |  
 | [Zmenšit obrázky v souboru PDF](./shrink-images/) | Snadno zmenšete obrázky v PDF souborech pomocí Aspose.PDF pro .NET s tímto podrobným návodem, čímž zajistíte menší velikost souborů při zachování kvality. |  
 | [Uložení obrázku do kolekce XImage](./store-image-in-ximage-collection/) | Naučte se, jak ukládat obrázky do kolekce XImage pomocí Aspose.PDF pro .NET v tomto kompletním podrobném návodu. |  
+| [Komprimovat obrázky v DOCX – Snížení velikosti souboru](./compress-images-in-docx-reduce-file-size/) | Naučte se komprimovat obrázky v souborech DOCX pomocí Aspose.PDF pro .NET a tak snížit velikost souboru. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
