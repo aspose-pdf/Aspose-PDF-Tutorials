@@ -10,11 +10,7 @@ url: /zh/java/advanced-features/accessible-pdfs-aspose-pdf-java/
 weight: 1
 ---
 
- code block placeholders.
-
-Make sure to keep markdown formatting.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
@@ -209,9 +205,9 @@ document.save(outputDir + "/InlineStructureElements.pdf");
 
 | 问题 | 解决方案 |
 |-------|----------|
-| **Headers not appearing in the PDF outline** | Verify that you called `headerElements` for each header level and that the root element is correctly referenced. |
-| **Screen readers ignore paragraph text** | Ensure each paragraph and its spans are appended to the root element as shown in the helper methods. |
-| **License not applied** | Double‑check the file path in `license.setLicense()` and confirm the license file is valid for the version you’re using. |
+| **PDF 大纲中未显示页眉** | 请检查是否已为每个页眉级别调用 `headerElements`，并确保根元素引用正确。 |
+| **屏幕阅读器忽略段落文本** | 请确保每个段落及其 span 元素都已按照辅助方法所示添加到根元素。 |
+| **许可证未应用** | 请仔细检查 `license.setLicense()` 中的文件路径，并确认许可证文件与您使用的版本兼容。 |
 
 ## 常见问答
 

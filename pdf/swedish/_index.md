@@ -10,11 +10,7 @@ url: /sv/
 weight: 10
 ---
 
-je PDF". Might be okay.
-
-Also "Extract Images PDF" heading we used "Extrahera bilder PDF". Could be "Extrahera bilder PDF". Good.
-
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

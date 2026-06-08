@@ -12,9 +12,7 @@ url: /vi/java/advanced-features/accessible-pdfs-aspose-pdf-java/
 weight: 1
 ---
 
- keep markdown formatting.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

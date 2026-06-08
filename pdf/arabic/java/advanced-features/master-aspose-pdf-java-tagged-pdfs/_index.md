@@ -13,12 +13,6 @@ url: /ar/java/advanced-features/master-aspose-pdf-java-tagged-pdfs/
 weight: 1
 ---
 
-.
-
-Be careful with RTL: Arabic text direction not needed in markdown but we can just write Arabic.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

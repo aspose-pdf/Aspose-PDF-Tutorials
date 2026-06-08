@@ -9,9 +9,7 @@ url: /th/
 weight: 10
 ---
 
- all shortcodes exactly.
-
-Let's construct final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

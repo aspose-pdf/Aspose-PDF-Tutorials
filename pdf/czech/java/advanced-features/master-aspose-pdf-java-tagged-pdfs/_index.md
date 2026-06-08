@@ -12,15 +12,7 @@ url: /cs/java/advanced-features/master-aspose-pdf-java-tagged-pdfs/
 weight: 1
 ---
 
- after "## Setting Up Aspose.PDF for Java": we have "Add the library to your project using one of the following build systems." Translate: "Přidejte knihovnu do svého projektu pomocí jednoho z následujících systémů sestavení."
-
-Also after "#### License Acquisition" we translated.
-
-Make sure we keep code block placeholders unchanged.
-
-Now produce final output with all translated content, preserving shortcodes and formatting.
-
-Let's construct final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

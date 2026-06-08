@@ -11,17 +11,12 @@ url: /zh/java/advanced-features/master-aspose-pdf-java-tagged-pdfs/
 weight: 1
 ---
 
- translate each piece.
-
-Need to keep markdown formatting.
-
-Let's produce final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # 掌握使用 Aspose.PDF for Java 创建带标签的 PDF
 
 在本完整指南中，您将学习 **如何使用 Aspose.PDF for Java 为 PDF 添加标签**，从而创建可访问、结构良好的文档，使屏幕阅读器和其他辅助技术能够顺畅使用。教程结束时，您还将了解如何 **创建符合 PDF/UA 标准的可访问 PDF** 文件以及如何 **设置 PDF 语言** 以获得最佳可访问性。

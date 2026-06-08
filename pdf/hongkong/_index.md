@@ -8,9 +8,7 @@ url: /zh-hant/
 weight: 10
 ---
 
- preserve markdown formatting, shortcodes, links.
-
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

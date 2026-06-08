@@ -12,10 +12,6 @@ url: /el/java/advanced-features/create-tagged-pdf-aspose-java/
 weight: 1
 ---
 
- Greek punctuation, but keep markdown.
-
-Let's craft translation.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -23,42 +19,42 @@ Let's craft translation.
 {{< blocks/products/pf/tutorial-page-section >}}
 # Πώς να δημιουργήσετε Tagged PDF Java με Aspose.PDF – Προσβασιμότητα & SEO
 
-## Introduction
+## Εισαγωγή
 
-Αν χρειάζεστε **create tagged PDF Java** αρχεία που είναι τόσο προσβάσιμα από βοηθητικές τεχνολογίες *όσο* φιλικά προς τα crawlers των μηχανών αναζήτησης, βρίσκεστε στο σωστό μέρος. Σε αυτό το tutorial θα περάσουμε βήμα‑βήμα τη διαδικασία χρήσης του **Aspose.PDF for Java** για να δημιουργήσουμε ένα πλήρως tagged PDF, να ορίσουμε τον τίτλο και τη γλώσσα του, και να προσθέσουμε προσαρμοσμένες ετικέτες σε παραγράφους και **tag spans pdf**. Στο τέλος, θα καταλάβετε γιατί η σήμανση είναι σημαντική για **java pdf accessibility**, πώς συμβάλλει στην **pdf seo optimization**, και θα έχετε ένα έτοιμο δείγμα κώδικα που μπορείτε να ενσωματώσετε σε οποιοδήποτε Java project.
+Αν χρειάζεστε **create tagged PDF** αρχεία που είναι τόσο προσβάσιμα από βοηθητικές τεχνολογίες *όσο* φιλικά προς τα crawlers των μηχανών αναζήτησης, βρίσκεστε στο σωστό μέρος. Σε αυτό το tutorial θα περάσουμε βήμα‑βήμα τη διαδικασία χρήσης του **Aspose.PDF for Java** για να δημιουργήσουμε ένα PDF με πλήρως tagged, να ορίσουμε τον τίτλο και τη γλώσσα του, και να προσθέσουμε προσαρμοσμένες ετικέτες σε παραγράφους και **tag spans pdf**. Στο τέλος, θα καταλάβετε γιατί η σήμανση είναι σημαντική για **java pdf accessibility**, πώς συμβάλλει στην **pdf seo optimization**, και θα έχετε ένα έτοιμο δείγμα κώδικα που μπορείτε να ενσωματώσετε σε κάθε Java project.
 
-**What you’ll learn**
+**Τι θα μάθετε**
 
-- Πώς να ρυθμίσετε την **maven dependency aspose pdf** ή την **gradle dependency aspose pdf** στο project σας.  
-- Τα ακριβή βήματα **how to tag pdf** εγγράφων χρησιμοποιώντας το logical‑structure API της Aspose.  
-- Καλύτερες πρακτικές για τη βελτίωση της προσβασιμότητας και του SEO μέσω σωστής σήμανσης.  
+- Πώς να ρυθμίσετε την **maven dependency aspose pdf** ή την **gradle dependency aspose pdf** στο project σας.
+- Τα ακριβή βήματα **how to tag pdf** εγγράφως χρησιμοποιώντας το logical-structure API της Aspose.
+- Καλύτερες πρακτικές για τη βελτίωση της σταθερότητας και του SEO μέσω σωστής σήμανσης.
 
-Ας βουτήξουμε και δούμε πώς να δημιουργήσετε ένα tagged PDF Java βήμα προς βήμα!
+Ας βουτήξουμε και να δούμε πώς να δημιουργήσετε ένα tagged PDF Java βήμα προς βήμα!
 
-## Quick Answers
-- **What is the primary purpose of tagging a PDF?** Ορίζει λογική σειρά ανάγνωσης και σημασιολογική δομή για προγράμματα ανάγνωσης οθόνης και μηχανές αναζήτησης.  
-- **Which library should I use?** Το Aspose.PDF for Java παρέχει ένα ολοκληρωμένο API για τη δημιουργία και σήμανση PDF.  
-- **Do I need a license for development?** Μια δωρεάν δοκιμή λειτουργεί για δοκιμές· απαιτείται μόνιμη άδεια για παραγωγή.  
-- **Can I add tags with Maven or Gradle?** Ναι—απλώς προσθέστε την κατάλληλη **maven dependency aspose pdf** ή **gradle dependency aspose pdf**.  
-- **How long does the implementation take?** Περίπου 10‑15 λεπτά για ένα βασικό tagged έγγραφο.
+## Γρήγορες απαντήσεις
+- **Ποιος είναι ο πρωταρχικός σκοπός της προσθήκης ετικετών σε ένα PDF;** Ορίζει λογική σειρά ανάγνωσης και σημασιολογική δομή για προγράμματα ανάγνωσης οθόνης και μηχανές αναζήτησης.
+- **Ποια βιβλιοθήκη πρέπει να χρησιμοποιήσω;** Το Aspose.PDF για Java παρέχει ένα ολοκληρωμένο API για τη δημιουργία και σήμανση PDF.
+- **Do I need a license for development?** Μια δωρεάν δοκιμή λειτουργεί για δοκιμές· απαιτείται μόνο άδεια για παραγωγή.
+- **Can I add tags with Maven or Gradle?** Ναι—απλώς προσθέστε την κατάλληλη **maven dependency aspose pdf** ή **gradle dependency aspose pdf**.
+- **Πόση ώρα διαρκεί η υλοποίηση;** Περίπου 10‑15 λεπτά για ένα βασικό έγγραφο με ετικέτα.
 
-## What is “how to tag PDF”?
+## Τι είναι το "πώς να επισημάνω το PDF";
 
-Η σήμανση ενός PDF σημαίνει την ενσωμάτωση μιας κρυφής δομής που περιγράφει τίτλους, παραγράφους, πίνακες και άλλα στοιχεία. Αυτή η δομή επιτρέπει στα προγράμματα ανάγνωσης οθόνης να παρουσιάζουν το περιεχόμενο σωστά και δίνει στις μηχανές αναζήτησης το πλαίσιο που χρειάζονται για να ευρετηριάσουν το έγγραφο με ακρίβεια.
+Η σήμανση ενός PDF σημαίνει την ενσωμάτωση μιας κρυφής δομής που περιγράφει τίτλους, παραγράφους, πίνακες και άλλα στοιχεία. Αυτή η δομή επιτρέπει στα προγράμματα ανάγνωσης οθόνης να παρουσιάζουν το περιεχόμενο σωστά και δίνει στις μηχανές αναζήτησης το πλαίσιο που χρειάζονται για να ευρετηριάσουν το έγγραφο με την ακρίβεια.
 
-## Why tag PDFs with Aspose.PDF for Java?
-- **Improved accessibility** – Οι χρήστες προγραμμάτων ανάγνωσης οθόνης λαμβάνουν λογική ροή ανάγνωσης.  
-- **Better SEO** – Οι μηχανές αναζήτησης μπορούν να αναλύσουν και να κατατάξουν τα PDF σας πιο αποτελεσματικά.  
-- **Fine‑grained control** – Μπορείτε να προσθέσετε προσαρμοσμένες ετικέτες σε οποιοδήποτε στοιχείο (παράγραφοι, **tag spans pdf**, πίνακες κ.λπ.).  
+## Γιατί να προσθέσετε ετικέτες σε αρχεία PDF με Aspose.PDF για Java;
+- **Βελτιωμένη προσβασιμότητα** – Οι χρήστες προγραμμάτων ανάγνωσης λήψης λογικής ανάγνωσης ροής
+- **Better SEO** – Οι μηχανές αναζήτησης μπορούν να αναλυθούν και να καταργηθούν τα PDF σας πιο αποτελεσματικά.
+- **Fine‑grained control** – Μπορείτε να προσθέσετε προσαρμοσμένες ετικέτες σε διάφορα στοιχεία (παράγραφοι, **tag spans pdf**, πίνακες κ.λπ.).
 
-## Prerequisites
-- **Aspose.PDF for Java** (κατεβασμένο ή αναφερόμενο μέσω Maven/Gradle).  
-- **Java Development Kit (JDK) 8+**.  
-- Βασικές γνώσεις προγραμματισμού Java.  
+## Προαπαιτούμενα
+- **Aspose.PDF for Java** (κατεβασμένο ή αναφερόμενο μέσω Maven/Gradle).
+- **Κιτ ανάπτυξης Java (JDK) 8+**.
+- Βασικές γνώσεις προγραμματισμού Java.
 
-## Setting Up Aspose.PDF for Java
+## Ρύθμιση Aspose.PDF για Java
 
-### Maven Dependency (aspose pdf)
+### Εξάρτηση Maven (υποθέστε pdf)
 
 Προσθέστε το παρακάτω στο `pom.xml` σας:
 
@@ -70,7 +66,7 @@ Let's craft translation.
 </dependency>
 ```
 
-### Gradle Dependency (aspose pdf)
+### Εξάρτηση Gradle (aspose pdf)
 
 Προσθέστε αυτή τη γραμμή στο αρχείο `build.gradle` σας:
 
@@ -78,11 +74,11 @@ Let's craft translation.
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### License Acquisition
+### Απόκτηση Άδειας Χρήσης
 
 Η Aspose προσφέρει **free trial**, **temporary license**, και **full‑purchase** επιλογές. Επιλέξτε αυτή που ταιριάζει στο χρονοδιάγραμμα του project σας.
 
-### Basic Initialization
+### Βασική Αρχικοποίηση
 
 Ακολουθεί μια ελάχιστη κλάση Java που δημιουργεί ένα κενό PDF έγγραφο και το αποθηκεύει στο δίσκο:
 
@@ -103,14 +99,14 @@ public class PdfCreator {
 }
 ```
 
-## Implementation Guide
+## Οδηγός Υλοποίησης
 
-### How to create tagged PDF Java – Step 1: Create and configure the document
+### Πώς να δημιουργήσετε PDF με ετικέτες Java – Βήμα 1: Δημιουργία και διαμόρφωση του εγγράφου
 
-#### Overview
+#### Επισκόπηση
 Πρώτα, δημιουργούμε ένα αντικείμενο `Document` και ανακτούμε το interface **tagged content**. Αυτό το interface μας επιτρέπει να διαχειριστούμε τη λογική δομή.
 
-#### Code
+#### Κώδικας
 
 ```java
 import com.aspose.pdf.Document;
@@ -133,12 +129,12 @@ taggedContent.setTitle(title);
 taggedContent.setLanguage(language);
 ```
 
-### How to create tagged PDF Java – Step 2: Add paragraph elements with custom tags
+### Πώς να δημιουργήσετε Java με ετικέτα PDF – Βήμα 2: Προσθέστε στοιχεία παραγράφου με προσαρμοσμένες ετικέτες
 
-#### Overview
+#### Επισκόπηση
 Δημιουργούμε ένα **section** (`SectElement`) που λειτουργεί ως container, και προσθέτουμε πολλές **paragraphs** (`ParagraphElement`) μέσα του. Κάθε παράγραφος λαμβάνει μια προσαρμοσμένη ετικέτα για ευκολότερη ταυτοποίηση.
 
-#### Code
+#### Κωδικός
 
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.bls.ParagraphElement;
@@ -158,12 +154,12 @@ sect.appendChild(p1);
 // Append other paragraphs similarly...
 ```
 
-### How to create tagged PDF Java – Step 3: Add span elements with custom tags
+### Πώς να δημιουργήσετε Java με ετικέτα PDF – Βήμα 3: Προσθέστε στοιχεία έκτασης με προσαρμοσμένες ετικέτες
 
-#### Overview
-Τα **spans** διαχωρίζουν τις παραγράφους σε πιο λεπτές μονάδες, επιτρέποντάς μας να σήμανουμε ενδογραμμικά τμήματα κειμένου. Εδώ η **tag spans pdf** δείχνει την αξία της.
+#### Επισκόπηση
+Τα **spans** διαχωρίζουν τις παραγράφους σε πιο λεπτές μονάδες, επιτρέποντάς μας να κάνουμε ενδογραμμικά τμήματα κειμένου. Εδώ η **tag spans pdf** δείχνει την αξία της.
 
-#### Code
+#### Κωδικός
 
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.ils.SpanElement;
@@ -179,70 +175,70 @@ p1.appendChild(span1);
 // Append other spans similarly...
 ```
 
-### How to create tagged PDF Java – Step 4: Save the tagged PDF document
+### Πώς να δημιουργήσετε Java με ετικέτα PDF – Βήμα 4: Αποθηκεύστε το έγγραφο PDF με ετικέτα
 
-#### Overview
-Αφού χτίσουμε τη λογική δομή, απλώς αποθηκεύουμε το έγγραφο στην επιθυμητή τοποθεσία.
+#### Επισκόπηση
+Αφού χτίσουμε τη λογική δομή, αποθηκεύουμε το έγγραφο στην επιθυμητή τοποθεσία.
 
-#### Code
+#### Κωδικός
 
 ```java
 String outputPath = dataDir + "CustomTag.pdf";
 document.save(outputPath);
 ```
 
-## Practical Applications
+## Πρακτικές Εφαρμογές
 
-- **Accessibility compliance** – Συμμόρφωση με τα πρότυπα WCAG 2.1 και PDF/UA.  
-- **PDF SEO optimization** – Οι μηχανές αναζήτησης μπορούν να ευρετηριάσουν τίτλους και ενότητες, βελτιώνοντας την ανακάλυψη.  
-- **Data integration** – Τα δομημένα PDF είναι πιο εύκολα στην ανάλυση για downstream pipelines δεδομένων.  
+- **Accessibility compliance** – Συμμόρφωση με τα πρότυπα WCAG 2.1 και PDF/UA.
+- **PDF SEO optimization** – Οι μηχανές αναζήτησης μπορούν να ευρετηριάσουν τίτλους και ενότητες, βελτιώνοντας την ανακάλυψη.
+- **Data integration** – Τα δομημένα PDF είναι πιο εύκολα στην ανάλυση για δεδομένα downstream pipelines.
 
-## Performance Considerations
+## Θέματα απόδοσης
 
-- Χρησιμοποιήστε **document.optimizeResources()** για μεγάλα αρχεία ώστε να μειώσετε τη χρήση μνήμης.  
-- Απελευθερώστε πόρους άμεσα κλείνοντας τα streams όταν ολοκληρωθεί η εργασία.  
+- Χρησιμοποιήστε **document.optimizeResources()** για μεγάλα αρχεία ώστε να μειώσετε τη χρήση μνήμης.
+- Απελευθερώστε πόρους άμεσα κλείνοντας τα streams όταν ολοκληρωθεί η εργασία.
 
-## Common Issues & Solutions
+## Κοινά Θέματα & Λύσεις
 
-| Issue | Solution |
+| Τεύχος | Λύση |
 |-------|----------|
-| Tags not appearing in PDF readers | Ensure you call `document.save()` after all structural changes. |
-| Large PDFs cause OutOfMemoryError | Process pages in batches and call `document.optimizeResources()`. |
-| Language not recognized | Use a valid BCP‑47 tag (e.g., `en-US`, `fr-FR`). |
+| Οι ετικέτες δεν εμφανίζονται σε προγράμματα ανάγνωσης PDF | Βεβαιωθείτε ότι καλείτε το «document.save()» μετά από όλες τις δομικές αλλαγές. |
+| Τα μεγάλα PDF προκαλούν OutOfMemoryError | Επεξεργαστείτε τις σελίδες σε παρτίδες και καλέστε το «document.optimizeResources()». |
+| Μη αναγνωρισμένη γλώσσα | Χρησιμοποιήστε μια έγκυρη ετικέτα BCP‑47 (π.χ., `en-US`, `fr-FR`). |
 
-## Frequently Asked Questions
+## Συνήθεις Ερωτήσεις
 
-**Q: How do I install Aspose.PDF for Java?**  
-A: Use the **maven dependency aspose pdf** or **gradle dependency aspose pdf** snippets shown above.
+**Ε: Πώς μπορώ να εγκαταστήσω το Aspose.PDF για Java;**
+Α: Χρησιμοποιήστε τα αποσπάσματα **maven dependency aspose pdf** ή **gradle dependency aspose pdf** που εμφανίζονται παραπάνω.
 
-**Q: What are tagged PDFs used for?**  
-A: They provide a semantic structure that improves accessibility for screen readers and boosts SEO by giving search engines meaningful content cues.
+**Ε: Σε τι χρησιμοποιούνται τα PDF με ετικέτες;**
+Α: Παρέχουν μια σημασιολογική δομή που βελτιώνει την προσβασιμότητα για τους αναγνώστες οθόνης και ενισχύει το SEO δίνοντας στις μηχανές αναζήτησης σημαντικές ενδείξεις περιεχομένου.
 
-**Q: Can I customize tags beyond paragraphs and spans?**  
-A: Yes—Aspose.PDF supports tables, lists, figures, and many other logical‑structure elements.
+**Ε: Μπορώ να προσαρμόσω ετικέτες πέρα ​​από παραγράφους και διαστήματα;**
+Α: Ναι—Το Aspose.PDF υποστηρίζει πίνακες, λίστες, σχήματα και πολλά άλλα στοιχεία λογικής δομής.
 
-**Q: How do I obtain a temporary license for Aspose.PDF?**  
-A: Visit the [Aspose website](https://purchase.aspose.com/temporary-license/) to request a trial or temporary license.
+**Ε: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια χρήσης για το Aspose.PDF;**
+Α: Επισκεφθείτε τον [ιστότοπο του Aspose](https://purchase.aspose.com/temporary-license/) για να ζητήσετε μια δοκιμαστική ή προσωρινή άδεια χρήσης.
 
-**Q: What should I do if my PDFs are slow to process?**  
-A: Optimize memory usage with `document.optimizeResources()` and consider processing the document in smaller chunks.
+**Ε: Τι πρέπει να κάνω εάν τα PDF μου επεξεργάζονται αργά;**
+Α: Βελτιστοποιήστε τη χρήση μνήμης με το `document.optimizeResources()` και σκεφτείτε να επεξεργαστείτε το έγγραφο σε μικρότερα τμήματα.
 
-## Resources
+## Πόροι
 
-- **Documentation**: [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/)  
-- **Download**: [Aspose.PDF Releases for Java](https://releases.aspose.com/pdf/java/)  
-- **Purchase**: [Buy Aspose.PDF](https://purchase.aspose.com/buy)  
-- **Free Trial**: [Try Aspose.PDF Free](https://releases.aspose.com/pdf/java/)  
-- **Temporary License**: [Request Temporary License](https://purchase.aspose.com/temporary-license/)  
-- **Support**: [Aspose Forum for PDF](https://forum.aspose.com/c/pdf/10)
+- **Τεκμηρίωση**: [Aspose.PDF Αναφορά Java](https://reference.aspose.com/pdf/java/)
+- **Λήψη**: [Aspose.PDF Εκδόσεις για Java](https://releases.aspose.com/pdf/java/)
+- **Αγορά**: [Αγοράστε Aspose.PDF](https://purchase.aspose.com/buy)
+- **Δωρεάν Δοκιμή**: [Δωρεάν Δοκιμή Aspose.PDF](https://releases.aspose.com/pdf/java/)
+- **Προσωρινή Άδεια**: [Αίτημα Προσωρινής Άδειας](https://purchase.aspose.com/temporary-license/)
+- **Υποστήριξη**: [Aspose Forum for PDF](https://forum.aspose.com/c/pdf/10)
 
-Ακολουθώντας αυτόν τον οδηγό, γνωρίζετε πλέον **how to create tagged PDF Java** έγγραφα χρησιμοποιώντας το Aspose.PDF for Java, ενισχύοντας τόσο την προσβασιμότητα όσο και το SEO. Μη διστάσετε να πειραματιστείτε με πιο σύνθετες δομές ή να ενσωματώσετε αυτή τη ροή εργασίας σε μεγαλύτερα pipelines δημιουργίας εγγράφων.
+Ακολουθώντας αυτόν τον οδηγό, γνωρίστε πλέον **how to create tagged PDF Java** έγγραφα χρησιμοποιώντας το Aspose.PDF for Java, ενισχύοντας τόσο την προσβασιμότητα όσο και το SEO. Μη διστάσετε να πειραματιστείτε με πιο σύνθετες δομές ή να ενσωματώσετε αυτή τη ροή εργασίας σε μεγαλύτερα pipelines δημιουργίας εγγράφων.
 
 ---
 
-**Last Updated:** 2026-02-14  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose
+**Τελευταία ενημέρωση:** 2026-02-14
+**Δοκιμάστηκε με:** Aspose.PDF για Java 25.3
+**Συγγραφέας:** Aspose
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

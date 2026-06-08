@@ -12,19 +12,7 @@ url: /vi/java/advanced-features/create-tagged-pdf-aspose-java/
 weight: 1
 ---
 
- blocks/products/products-backtop-button >}}
-
-Now produce final translation.
-
-We must keep code block placeholders unchanged.
-
-Also keep markdown formatting.
-
-Let's translate.
-
-Be careful with bullet points and list formatting.
-
-Proceed to produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

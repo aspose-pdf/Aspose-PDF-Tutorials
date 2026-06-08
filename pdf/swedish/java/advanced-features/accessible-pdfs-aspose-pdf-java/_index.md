@@ -11,13 +11,7 @@ url: /sv/java/advanced-features/accessible-pdfs-aspose-pdf-java/
 weight: 1
 ---
 
- produce final output with all translations.
-
-Check for any missed items: The table header translation we changed. Ensure markdown table formatting remains correct.
-
-Also ensure we didn't translate any URLs.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

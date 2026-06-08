@@ -11,18 +11,6 @@ url: /ar/java/advanced-features/accessible-pdfs-aspose-pdf-java/
 weight: 1
 ---
 
- Keep bold.
-
-Translate bullet list.
-
-Then link text: "Aspose PDF Java documentation" translate but keep URL.
-
-Then final lines: "Last Updated:", "Tested With:", "Author:" translate.
-
-Now ensure we keep shortcodes at start and end.
-
-Let's craft final output.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

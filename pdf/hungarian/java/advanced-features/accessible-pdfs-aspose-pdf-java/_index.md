@@ -30,7 +30,7 @@ Ebben az útmutatóban **meg fogod tanulni, hogyan címkézd a PDF** dokumentumo
 
 Kezdjük!
 
-## Quick Answers
+## Gyors válaszok
 - **Mi a címkézett PDF elsődleges előnye?** Logikai struktúrát biztosít, amelyet a segítő technológiák olvashatnak.
 - **Melyik könyvtár segít hozzáférhető PDF-eket létrehozni Java-ban?** Aspose.PDF for Java.
 - **Szükségem van licencre a fejlesztéshez?** Egy ideiglenes licenc eltávolítja a kiértékelési korlátokat; a teljes licenc szükséges a termeléshez.

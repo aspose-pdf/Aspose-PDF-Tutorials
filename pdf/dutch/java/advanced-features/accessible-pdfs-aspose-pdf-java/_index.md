@@ -12,16 +12,6 @@ url: /nl/java/advanced-features/accessible-pdfs-aspose-pdf-java/
 weight: 1
 ---
 
- bold inside.
-
-Now the FAQs: translate Q and A.
-
-Make sure to keep code snippets unchanged.
-
-Now produce final output with all sections.
-
-Let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}

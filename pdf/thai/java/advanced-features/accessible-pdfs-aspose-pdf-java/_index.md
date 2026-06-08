@@ -11,17 +11,7 @@ url: /th/java/advanced-features/accessible-pdfs-aspose-pdf-java/
 weight: 1
 ---
 
-:" to "ผู้เขียน:".
-
-But keep dates unchanged.
-
-Then closing shortcodes.
-
-Now produce final content with all translations.
-
-Make sure to keep code placeholders unchanged.
-
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
