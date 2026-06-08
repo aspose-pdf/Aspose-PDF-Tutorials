@@ -202,6 +202,12 @@ Redo att prova? Dyk in i mer avancerade scenarier och utöka dina Java‑applika
 - **Gratis provperiod**: [Prova den](https://releases.aspose.com/pdf/java/)
 - **Tillfällig licens**: [Begär en tillfällig licens](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Last Updated:** 2026-03-01  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -209,9 +215,3 @@ Redo att prova? Dyk in i mer avancerade scenarier och utöka dina Java‑applika
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-01  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

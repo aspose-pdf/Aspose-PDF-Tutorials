@@ -211,6 +211,12 @@ class PDFHandler {
 - **ทดลองใช้ฟรี**: [ลองใช้งาน](https://releases.aspose.com/pdf/java/)
 - **ไลเซนส์ชั่วคราว**: [ขอไลเซนส์ชั่วคราว](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Last Updated:** 2026-03-01  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -218,9 +224,3 @@ class PDFHandler {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-01  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

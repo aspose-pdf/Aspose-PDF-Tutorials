@@ -201,6 +201,12 @@ class PDFHandler {
 - **نسخة تجريبية مجانية**: [جرّبها الآن](https://releases.aspose.com/pdf/java/)
 - **ترخيص مؤقت**: [اطلب ترخيصًا مؤقتًا](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**آخر تحديث:** 2026-03-01  
+**تم الاختبار مع:** Aspose.PDF for Java 25.3  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -208,9 +214,3 @@ class PDFHandler {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-03-01  
-**تم الاختبار مع:** Aspose.PDF for Java 25.3  
-**المؤلف:** Aspose

@@ -202,6 +202,12 @@ Klaar om het uit te proberen? Duik in geavanceerdere scenario’s en breid de mo
 - **Gratis Proefversie**: [Try It Out](https://releases.aspose.com/pdf/java/)  
 - **Tijdelijke Licentie**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Last Updated:** 2026-03-01  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -209,9 +215,3 @@ Klaar om het uit te proberen? Duik in geavanceerdere scenario’s en breid de mo
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-01  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

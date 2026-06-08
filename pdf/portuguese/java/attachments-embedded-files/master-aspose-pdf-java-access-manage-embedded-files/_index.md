@@ -201,6 +201,12 @@ Pronto para experimentar? Mergulhe em cenários mais avançados e expanda as cap
 - **Teste Gratuito**: [Experimente](https://releases.aspose.com/pdf/java/)
 - **Licença Temporária**: [Solicite uma Licença Temporária](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Last Updated:** 2026-03-01  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -208,9 +214,3 @@ Pronto para experimentar? Mergulhe em cenários mais avançados e expanda as cap
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-01  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

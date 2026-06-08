@@ -203,6 +203,12 @@ Jste připraveni to vyzkoušet? Ponořte se do pokročilejších scénářů a r
 - **Free Trial**: [Try It Out](https://releases.aspose.com/pdf/java/)
 - **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Poslední aktualizace:** 2026-03-01  
+**Testováno s:** Aspose.PDF for Java 25.3  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -210,9 +216,3 @@ Jste připraveni to vyzkoušet? Ponořte se do pokročilejších scénářů a r
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-03-01  
-**Testováno s:** Aspose.PDF for Java 25.3  
-**Autor:** Aspose

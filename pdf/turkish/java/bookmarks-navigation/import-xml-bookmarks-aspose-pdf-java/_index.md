@@ -44,22 +44,22 @@ Yer imleri eklemek, PDF içinde bir gezinme haritası gömmek anlamına gelir; b
 - **Çapraz Platform Uyumluluğu:** Aynı kod Windows, Linux ve macOS'ta çalışır.
 
 ## Ön Koşullar
-### Required Libraries and Dependencies
+### Gerekli Kitaplıklar ve Bağımlılıklar
 - Aspose.PDF for Java **v25.3** veya daha yenisi.
 
-### Environment Setup
-- Java Development Kit (JDK) yüklü.  
-- IntelliJ IDEA veya Eclipse gibi bir IDE.  
+### Ortam Kurulumu
+- Java Geliştirme Kiti (JDK) yüklü.
+- IntelliJ IDEA veya Eclipse gibi bir IDE.
 - Bağımlılık yönetimi için Maven veya Gradle.
 
-### Knowledge Prerequisites
-- Temel Java programlama.  
-- XML dosya yapısına aşinalık.
+### Bilgi Önkoşulları
+- Temel Java programlama.
+- XML ​​dosyasının ayarlanabilirliği.
 
-## Setting Up Aspose.PDF for Java
+## Java için Aspose.PDF'yi Kurma
 Kütüphaneyi tercih ettiğiniz yapı aracıyla entegre edin.
 
-### Using Maven
+### Maven'i Kullanmak
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -68,17 +68,17 @@ Kütüphaneyi tercih ettiğiniz yapı aracıyla entegre edin.
 </dependency>
 ```
 
-### Using Gradle
+### Gradle Kullanımı
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### License Acquisition Steps
-- **Ücretsiz Deneme:** Tüm özellikleri keşfetmek için bir deneme lisansı alın.  
-- **Geçici Lisans:** Daha uzun bir değerlendirme için uzatılmış deneme talep edin.  
-- **Tam Satın Alma:** Sınırsız üretim kullanımı için ticari bir lisans edinin.
+### Lisans Alma Adımları
+- **Ücretsiz Deneme:** Tüm özelliklerin ayrılması için bir deneme lisansı alın.
+- **Geçici Lisans:** Daha uzun bir değerlendirme için uzatılmış deneme talep edin.
+- **Tam Satın Alma:** Sınırsız üretim kullanımı için ticari bir lisans onayı.
 
-#### Basic Initialization and Setup
+#### Temel Başlatma ve Kurulum
 ```java
 import com.aspose.pdf.*;
 
@@ -93,10 +93,10 @@ public class PdfSetup {
 }
 ```
 
-## Import PDF Bookmarks from XML (Feature 1)
-**Genel Bakış:** Bu yöntem, hiyerarşik bir yer imi listesi içeren bir XML dosyasını okur ve mevcut bir PDF'e ekler.
+## PDF Yer İmlerini XML'den içe aktarın (Özellik1)
+**Genel Bakış:** Bu yöntem, teknolojik bir yer listesi içeren bir XML dosyası okur ve mevcut bir PDF'e eklenir.
 
-### Step‑by‑Step Implementation
+### Adım Adım Uygulama
 1. **Mevcut PDF Belgesini Yükle**  
    ```java
    import com.aspose.pdf.facades.PdfBookmarkEditor;
@@ -123,14 +123,14 @@ public class PdfSetup {
    ```
    *Sonuç:* İçe aktarılan gezinme ağacıyla yeni bir PDF.
 
-**Troubleshooting Tips**
-- XML'in Aspose şemasına (kök öğe `<Bookmarks>`) uygun olduğunu doğrulayın.  
+**Sorun Giderme İpuçları**
+- XML'in Aspose güncellemesine (kök öğesi `<Yer İmleri>`) uygun olup olmadığını doğrulayın.
 - `IOException` ile karşılaşırsanız dosya izinlerini kontrol edin.
 
-## Import PDF Bookmarks from InputStream (Feature 2)
-**Genel Bakış:** Bu yaklaşım, XML verisinin bir veritabanı, web servisi veya herhangi bir bellek içi kaynaktan geldiği durumlar için idealdir.
+## PDF Yer İşaretlerini Giriş Akışından İçe Aktarın (Özellik2)
+**Genel Bakış:** Bu yaklaşım, XML verisinin bir veri tabanı, web servisi veya herhangi bir bir bellek içi kaynaktan gelen durumlar için idealdir.
 
-### Step‑by‑Step Implementation
+### Adım Adım Uygulama
 1. **Mevcut PDF Belgesini Yükle**  
    ```java
    PdfBookmarkEditor bookmarkeditor = new PdfBookmarkEditor();
@@ -160,43 +160,43 @@ public class PdfSetup {
    ```
    *Açıklama:* Değişiklikleri kalıcı hâle getirir.
 
-**Troubleshooting Tips**
-- İçe aktarma sonrası `InputStream`'i (`is.close();`) her zaman kapatın; kaynak sızıntılarını önlemek için.  
-- Editöre göndermeden önce XML sözdizimini doğrulayın.
+**Sorun Giderme İpuçları**
+- İçe transfer sonrasında `InputStream`'i (`is.close();`) her zaman kapatın; Kaynak sızıntılarını önlemek için.
+- Editöre göndermeden önce XML söz dizimini doğrulayın.
 
-## Practical Applications
-1. **Otomatik Belge Yönetimi** – Tutarlı bir içerik tablosu eklemek için binlerce PDF'i toplu işleyin.  
-2. **Dijital Yayıncılık** – CMS'den alınan dinamik yer imleriyle e‑kitaplar oluşturun.  
-3. **Hukuki Belgeler** – Sözleşme ve dava dosyalarında hızlı gezinme.  
-4. **Akademik Araştırma** – Büyük tezlere bölüm‑seviyesi yer imleri ekleyin.  
-5. **Kurumsal Raporlar** – Yıllık raporları tıklanabilir bölümlerle geliştirin.
+## Pratik Uygulamalar
+1. **Otomatik Belge Yönetimi** – Tutarlı bir içerik tablosu oluşturmak için binlerce PDF'i toplu işleyin.
+2. **Dijital Yayıncılık** – CMS'den alınan dinamik yer imleriyle e‑kitaplar birleştirilir.
+3. **Hukuki Belgeler** – Sözleşme ve dava videolarında hızlı geziniyor.
+4. **Akademik Araştırma** – Büyük tezlere bölüm‑seviyesi yer imleri ekleyin.
+5. **Kurumsal Raporlar** – Yıllık raporlar tıklanabilir bölümlerle geliştirin.
 
-## Performance Considerations
-- **Akış Kullanımı:** Bellek kullanımını düşük tutmak için büyük XML dosyalarında `InputStream` tercih edin.  
-- **Eşzamanlılık:** Birden fazla PDF'i paralel işlemek için Java’nın `ExecutorService`'ini kullanın.  
-- **Toplu İşleme:** I/O yükünü azaltmak için dosyaları toplu hâle getirin.
+## Performansla İlgili Hususlar
+- **Akış Kullanımı:** Bellek yoğunluğunu düşük tutmak için büyük XML dosyalarında `InputStream` tercih edin.
+- **Eşzamanlılık:** Birden fazla PDF'i paralel işlemek için Java'nın `ExecutorService`'ini kullanın.
+- **Toplu İşleme:** I/O'yu azaltmak için dosyaları toplu hâle değiştirin.
 
-## Frequently Asked Questions
+## Sıkça Sorulan Sorular
 
-**S: XML dışındaki formatlardan yer imleri içe aktarabilir miyim?**  
-C: Evet. Aspose.PDF, yer imi içe aktarımı için JSON, FDF ve XFDF'yi de destekler.
+**S: XML dışındaki formatlardan yer imleri içe aktarılabilir mi?**
+C: Evet. Aspose.PDF, yer iminin aktarımı için JSON, FDF ve XFDF'yi de destekliyor.
 
-**S: Geliştirmede `PdfBookmarkEditor` kullanmak için lisansa ihtiyacım var mı?**  
-C: Değerlendirme için ücretsiz deneme lisansı çalışır; üretim dağıtımları için tam lisans gereklidir.
+**S: Geliştirmede `PdfBookmarkEditor` kullanmak için lisansa ihtiyacım var mı?**
+C: Değerlendirme için ücretsiz deneme lisansı çalışır; üretim ürünleri için tam lisans gereklidir.
 
-**S: Şifre korumalı PDF'leri nasıl yönetirim?**  
-C: Yer imlerini içe aktarmadan önce `PdfBookmarkEditor.bindPdf(String path, String password)` kullanarak PDF'yi şifreyle açın.
+**S: Şifreli PDF'leri nasıl yönetirim?**
+C: Yer imlerini içe aktarmadan önce `PdfBookmarkEditor.bindPdf(String path, String şifre)` kullanarak PDF'yi şifreyle açın.
 
-**S: XML yapısı geçersiz olursa ne olur?**  
-C: Aspose.PDF, ayrıştırma sorununu ayrıntılı olarak belirten bir `PdfException` fırlatır—önce XML'i şemaya göre doğrulayın.
+**S: XML yapısı geçersiz olursa ne olur?**
+C: Aspose.PDF, ayrıntılı olarak ayrıntılı olarak sınıflandırılan bir `PdfException` fırlatır—önce XML'i şemaya göre doğrulayın.
 
-**S: Yer imlerinin doğru eklendiğini nasıl doğrularım?**  
-C: Kaydettikten sonra PDF'yi herhangi bir görüntüleyicide açıp yer imi panelini kontrol edin; programlı olarak `PdfBookmarkEditor.getBookmarks()` ile yer imlerini listeleyebilirsiniz.
+**S: Yer imlerinin doğru eklendiği nasıl doğrularım?**
+C: Kaydettikten sonra PDF'yi herhangi bir görüntüleyicide saklanabilir yerimi panelini kontrol edin; programlı olarak `PdfBookmarkEditor.getBookmarks()` ile yer imlerini listeleyebilirsiniz.
 
 ---
 
-**Son Güncelleme:** 2026-03-01  
-**Test Edilen Versiyon:** Aspose.PDF for Java v25.3  
+**Son Güncelleme:** 2026-03-01
+**Edilen Sürümünü Test Edin:** Aspose.PDF for Javav25.3
 **Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

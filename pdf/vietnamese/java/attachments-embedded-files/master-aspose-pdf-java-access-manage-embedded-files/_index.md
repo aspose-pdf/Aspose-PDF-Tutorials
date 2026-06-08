@@ -202,6 +202,12 @@ Sẵn sàng thử nghiệm? Hãy khám phá các kịch bản nâng cao và mở
 - **Dùng Thử Miễn Phí**: [Thử Ngay](https://releases.aspose.com/pdf/java/)
 - **Giấy Phép Tạm Thời**: [Yêu Cầu Giấy Phép Tạm Thời](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Last Updated:** 2026-03-01  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -209,9 +215,3 @@ Sẵn sàng thử nghiệm? Hãy khám phá các kịch bản nâng cao và mở
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-01  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

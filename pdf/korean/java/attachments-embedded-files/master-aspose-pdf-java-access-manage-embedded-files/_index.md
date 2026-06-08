@@ -203,6 +203,12 @@ Aspose.PDF를 사용할 때 성능을 최적화하려면:
 - **Free Trial**: [Try It Out](https://releases.aspose.com/pdf/java/)  
 - **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**마지막 업데이트:** 2026-03-01  
+**테스트 환경:** Aspose.PDF for Java 25.3  
+**작성자:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -210,9 +216,3 @@ Aspose.PDF를 사용할 때 성능을 최적화하려면:
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**마지막 업데이트:** 2026-03-01  
-**테스트 환경:** Aspose.PDF for Java 25.3  
-**작성자:** Aspose

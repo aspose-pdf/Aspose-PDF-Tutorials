@@ -200,6 +200,12 @@ class PDFHandler {
 - **免費試用**：[Try It Out](https://releases.aspose.com/pdf/java/)
 - **暫時授權**：[Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**最後更新：** 2026-03-01  
+**測試環境：** Aspose.PDF for Java 25.3  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -207,9 +213,3 @@ class PDFHandler {
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2026-03-01  
-**測試環境：** Aspose.PDF for Java 25.3  
-**作者：** Aspose

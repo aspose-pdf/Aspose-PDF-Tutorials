@@ -203,6 +203,12 @@ Prêt à l'essayer ? Plongez dans des scénarios plus avancés et étendez dès 
 - **Essai gratuit** : [Essayer](https://releases.aspose.com/pdf/java/)
 - **Licence temporaire** : [Demander une licence temporaire](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Last Updated:** 2026-03-01  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -210,9 +216,3 @@ Prêt à l'essayer ? Plongez dans des scénarios plus avancés et étendez dès 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-01  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

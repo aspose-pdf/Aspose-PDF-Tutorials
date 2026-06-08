@@ -219,6 +219,12 @@ Aspose.PDF を使用する際のパフォーマンス最適化：
 - **Free Trial**: [Try It Out](https://releases.aspose.com/pdf/java/)
 - **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**最終更新日:** 2026-03-01  
+**テスト対象:** Aspose.PDF for Java 25.3  
+**作者:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -226,9 +232,3 @@ Aspose.PDF を使用する際のパフォーマンス最適化：
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最終更新日:** 2026-03-01  
-**テスト対象:** Aspose.PDF for Java 25.3  
-**作者:** Aspose
