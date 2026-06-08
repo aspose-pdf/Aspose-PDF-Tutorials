@@ -62,6 +62,9 @@
 ### [إتقان إنشاء ملفات PDF سهلة الوصول باستخدام Aspose.PDF .NET: إنشاء ملفات PDF مُعلَّمة باستخدام جداول مُنسَّقة](./aspose-pdf-net-tagged-pdfs-styled-tables/)
 تعلم كيفية إنشاء مستندات PDF سهلة الاستخدام ومنسقة ومُعلَّمة باستخدام Aspose.PDF لـ .NET. أتقن إنشاء ملفات PDF متوافقة مع جداول منظمة وإمكانية وصول مُحسَّنة.
 
+### [كيفية مقارنة ملفات PDF في C# – دليل كامل لإنشاء فرق PDF](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
+تعرف على كيفية مقارنة ملفات PDF في C# وإنشاء فرق PDF باستخدام Aspose.PDF بسهولة ودقة.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

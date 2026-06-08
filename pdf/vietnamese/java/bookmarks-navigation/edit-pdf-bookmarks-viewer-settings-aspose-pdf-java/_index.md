@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-14"
-"description": "Tìm hiểu cách chỉnh sửa dấu trang PDF và tùy chỉnh cài đặt trình xem bằng Aspose.PDF cho Java. Nâng cao trải nghiệm người dùng bằng cách làm chủ tùy chọn điều hướng và bố cục."
-"title": "Master Aspose.PDF Java&#58; Chỉnh sửa dấu trang PDF & Cấu hình cài đặt trình xem"
-"url": "/vi/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/"
-"weight": 1
+date: '2025-12-19'
+description: Tìm hiểu cách thay đổi bố cục trang PDF, chỉnh sửa dấu trang PDF và tùy
+  chỉnh cài đặt trình xem với Aspose.PDF cho Java. Nắm vững các tùy chọn điều hướng
+  và bố cục để mang lại trải nghiệm người dùng mượt mà hơn.
+keywords:
+- edit PDF bookmarks Java
+- Aspose.PDF viewer settings
+- configure PDF navigation Java
+title: 'Thay đổi bố cục trang PDF trong Java - Chỉnh sửa dấu trang và cài đặt'
+url: /vi/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,27 +17,37 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Master Aspose.PDF Java: Chỉnh sửa dấu trang PDF & cấu hình cài đặt trình xem
+# Thay đổi bố cục trang PDF trong Java: Chỉnh sửa dấu trang & Cài đặt
 
 ## Giới thiệu
-Việc điều hướng các tài liệu PDF phức tạp có thể trở nên cồng kềnh nếu các dấu trang không thẳng hàng hoặc tùy chọn của người xem được thiết lập không đúng. Hướng dẫn này trình bày cách sử dụng Aspose.PDF cho Java để chỉnh sửa các dấu trang hiện có và tùy chỉnh cài đặt xem, nâng cao trải nghiệm của người dùng.
+Việc duyệt các tài liệu PDF phức tạp có thể gây khó khăn, đặc biệt khi **cài đặt thay đổi bố cục trang PDF** không được cấu hình đúng hoặc dấu trang trỏ đến vị trí sai. Trong hướng dẫn này, bạn sẽ học cách **thay đổi bố cục trang PDF**, **chỉnh sửa dấu trang PDF**, và **cấu hình các tùy chọn xem PDF** bằng Aspose.PDF cho Java. Khi hoàn thành, bạn sẽ có toàn quyền kiểm soát việc điều hướng, đích đến của dấu trang, và cách tài liệu được hiển thị cho người đọc.
 
-**Những gì bạn sẽ học được:**
-- Sửa đổi dấu trang PDF để trỏ chính xác đến đầu trang.
-- Tạo dấu trang chính xác với đích đến cụ thể trong quá trình tạo PDF.
-- Điều chỉnh tùy chọn của người xem để có bản trình bày tối ưu.
+**Bạn sẽ học được**
+- Cách chỉnh sửa các dấu trang PDF hiện có để chúng trỏ tới đầu trang.  
+- Cách đặt đích đến cho dấu trang khi tạo PDF.  
+- Cách thay đổi các tùy chọn xem như bố cục trang.  
+- Các mẹo thực tế để tải tài liệu PDF trong Java và tối ưu hiệu năng.
 
-Với Aspose.PDF for Java, bạn có thể kiểm soát hoàn toàn các thiết lập điều hướng và bố cục của tài liệu. Hãy thiết lập môi trường của bạn và triển khai các tính năng này từng bước một.
+### Câu trả lời nhanh
+- **Cách chính để thay đổi bố cục trang PDF là gì?** Sử dụng `PdfContentEditor.changeViewerPreference()` với `ViewerPreference.PAGE_LAYOUT_SINGLE_PAGE`.  
+- **Tôi có thể chỉnh sửa đích đến của dấu trang sau khi PDF đã được tạo không?** Có – tải tài liệu, truy cập outline, và đặt một `ExplicitDestination` mới.  
+- **Có cần giấy phép cho các tính năng này không?** Bản dùng thử miễn phí đủ cho việc đánh giá; giấy phép đầy đủ sẽ loại bỏ mọi hạn chế.  
+- **Phụ thuộc Maven nào cần thiết?** `com.aspose:aspose-pdf:25.3` (hoặc phiên bản mới hơn).  
+- **Có tương thích với Java 11 trở lên không?** Hoàn toàn – Aspose.PDF hỗ trợ Java 8+.
 
-### Điều kiện tiên quyết
-Trước khi bắt đầu, hãy đảm bảo bạn có:
-- **Thư viện & Phụ thuộc**: Sử dụng Aspose.PDF cho Java phiên bản 25.3 trở lên.
-- **Thiết lập môi trường**: Thiết lập phát triển Java đang hoạt động với JDK được cài đặt.
-- **Yêu cầu về kiến thức**: Hiểu biết cơ bản về Java và xử lý PDF theo chương trình.
+## “Thay đổi bố cục trang PDF” là gì?
+Thay đổi bố cục trang PDF kiểm soát cách các trang được hiển thị trong trình xem — một trang, liên tục, xem hai trang, v.v. Điều chỉnh cài đặt này cải thiện khả năng đọc, đặc biệt đối với các báo cáo dài hoặc danh mục.
 
-### Thiết lập Aspose.PDF cho Java
-#### Cài đặt Maven
-Để đưa Aspose.PDF vào dự án của bạn, hãy thêm sự phụ thuộc này vào `pom.xml`:
+## Tại sao cần chỉnh sửa dấu trang PDF và đặt đích đến cho dấu trang?
+Dấu trang giống như mục lục. Đích đến chính xác giúp người đọc nhảy thẳng tới phần mong muốn, giảm bớt sự bối rối và nâng cao trải nghiệm người dùng.
+
+## Yêu cầu trước
+- **Thư viện & Phụ thuộc**: Aspose.PDF cho Java v25.3 hoặc mới hơn.  
+- **Môi trường**: JDK 8 hoặc mới hơn, công cụ xây dựng Maven hoặc Gradle.  
+- **Kiến thức**: Lập trình Java cơ bản và hiểu biết về khái niệm PDF.
+
+## Cài đặt Aspose.PDF cho Java
+### Cài đặt Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -39,131 +55,142 @@ Trước khi bắt đầu, hãy đảm bảo bạn có:
     <version>25.3</version>
 </dependency>
 ```
-#### Cài đặt Gradle
-Đối với người dùng Gradle, hãy thêm điều này vào `build.gradle`:
+### Cài đặt Gradle
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
-**Mua lại giấy phép**: Bắt đầu bằng bản dùng thử miễn phí hoặc yêu cầu giấy phép tạm thời để truy cập đầy đủ tính năng mà không bị giới hạn. Hãy cân nhắc mua giấy phép đầy đủ để sử dụng lâu dài.
-#### Khởi tạo cơ bản
-Để bắt đầu sử dụng Aspose.PDF:
+**Mua giấy phép**: Bắt đầu với bản dùng thử miễn phí hoặc yêu cầu giấy phép tạm thời để truy cập đầy đủ tính năng. Xem xét mua giấy phép vĩnh viễn cho môi trường sản xuất.
+
+### Khởi tạo cơ bản
 ```java
 import com.aspose.pdf.Document;
 
 public class PDFSetup {
     public static void main(String[] args) {
-        // Khởi tạo đối tượng tài liệu
+        // Initialize document object
         Document pdfDocument = new Document("path/to/your/pdf");
         
         System.out.println("Aspose.PDF for Java initialized successfully.");
     }
 }
 ```
-### Hướng dẫn thực hiện
-Phần này bao gồm cách chỉnh sửa dấu trang, thiết lập đích trong quá trình tạo PDF và sửa đổi tùy chọn của người xem.
-#### Chỉnh sửa Dấu trang Hiện có để Trỏ đến Đầu Trang
-**Tổng quan**: Điều chỉnh dấu trang để chúng trỏ chính xác đến đầu một trang cụ thể trong tài liệu của bạn.
-1. **Truy cập vào Dấu trang**
-   Tải PDF của bạn và truy cập vào phần phác thảo dấu trang của nó:
-   ```java
-   import com.aspose.pdf.Document;
-   import com.aspose.pdf.ExplicitDestination;
-   import com.aspose.pdf.OutlineItemCollection;
 
-   Document pdfDocument = new Document("YOUR_DOCUMENT_DIRECTORY/input.pdf");
-   OutlineItemCollection pdfOutline = pdfDocument.getOutlines().get_Item(1);
-   ```
-2. **Thiết lập một điểm đến mới**
-   Cập nhật đích đến để đảm bảo nó trỏ tới đầu trang:
-   ```java
-   pdfOutline.setDestination(
-       ExplicitDestination.createDestination(pdfDocument.getPages().get_Item(1),
-           ExplicitDestinationType.FitH,
-           pdfDocument.getPages().get_Item(1).getMediaBox().getHeight())
-   );
-   ```
-3. **Lưu thay đổi**
-   Lưu tài liệu PDF đã cập nhật của bạn:
-   ```java
-   String outputDir = "YOUR_OUTPUT_DIRECTORY/bookmarkShouldPointToStartOfPage.pdf";
-   pdfDocument.save(outputDir);
-   ```
-#### Tạo dấu trang mới với các đích cụ thể
-**Tổng quan**: Tạo dấu trang dẫn người dùng trực tiếp đến vị trí mong muốn trong tệp PDF mới tạo của bạn.
-1. **Tạo và cấu hình Bookmark**
-   Khởi tạo một dấu trang mới và thiết lập các thuộc tính của nó:
-   ```java
-   import com.aspose.pdf.GoToAction;
-   import com.aspose.pdf.FitVExplicitDestination;
+## Hướng dẫn triển khai
+### Cách thay đổi bố cục trang PDF trong Java
+**Tổng quan**: Điều chỉnh các tùy chọn xem để hiển thị trang theo cách bạn muốn.
 
-   OutlineItemCollection pdfOutline_new = new OutlineItemCollection(pdfDocument.getOutlines());
-   pdfOutline_new.setTitle("Test Bookmark");
-   pdfOutline_new.setItalic(true);
-   pdfOutline_new.setBold(true);
-   ```
-2. **Xác định Điểm đến của Dấu trang**
-   Chỉ định đích đến cho dấu trang của bạn:
-   ```java
-   pdfOutline_new.setAction(new GoToAction(
-       new FitVExplicitDestination(pdfDocument.getPages().get_Item(2), 0)));
-   ```
-3. **Thêm và Lưu PDF**
-   Thêm dấu trang vào phần phác thảo của tài liệu và lưu lại:
-   ```java
-   pdfDocument.getOutlines().add(pdfOutline_new);
-   
-   String outputDir = "YOUR_OUTPUT_DIRECTORY/setDestinationWhileCreatingPDF.pdf";
-   pdfDocument.save(outputDir);
-   ```
-#### Thiết lập tùy chọn của người xem
-**Tổng quan**: Tùy chỉnh cách xem PDF của bạn bằng cách thiết lập các tùy chọn cụ thể của người xem như bố cục trang.
-1. **Khởi tạo PdfContentEditor**
-   Sử dụng `PdfContentEditor` lớp để sửa đổi cài đặt tài liệu:
-   ```java
-   import com.aspose.pdf.facades.PdfContentEditor;
-   import com.aspose.pdf.facades.ViewerPreference;
+#### Khởi tạo PdfContentEditor
+```java
+import com.aspose.pdf.facades.PdfContentEditor;
+import com.aspose.pdf.facades.ViewerPreference;
 
-   PdfContentEditor editor = new PdfContentEditor();
-   editor.bindPdf("YOUR_DOCUMENT_DIRECTORY/input.pdf");
-   ```
-2. **Thay đổi sở thích của người xem**
-   Đặt tùy chọn của người xem thành bố cục một trang:
-   ```java
-   editor.changeViewerPreference(ViewerPreference.PAGE_LAYOUT_SINGLE_PAGE);
-   ```
-3. **Lưu tài liệu đã cập nhật**
-   Lưu các thay đổi vào tệp PDF của bạn:
-   ```java
-   String outputDir = "YOUR_OUTPUT_DIRECTORY/settingViewerPreferences.pdf";
-   editor.save(outputDir);
-   ```
-### Ứng dụng thực tế
-1. **Sách điện tử**:Cải thiện sách điện tử bằng cách đảm bảo dấu trang dẫn trực tiếp đến phần đầu chương.
-2. **Báo cáo và hướng dẫn**:Cải thiện khả năng điều hướng trong các tài liệu kỹ thuật với tính năng đánh dấu trang và cấu hình trình xem chính xác.
-3. **Danh mục sản phẩm thương mại điện tử**: Tối ưu hóa danh mục sản phẩm để có thể xem trên một trang, giúp chúng thân thiện hơn với người dùng.
-### Cân nhắc về hiệu suất
-- **Tối ưu hóa tài nguyên**: Sử dụng cấu trúc dữ liệu hiệu quả khi xử lý các tệp PDF lớn để giảm thiểu việc sử dụng bộ nhớ.
-- **Quản lý bộ nhớ Java**Hãy chú ý đến việc thu gom rác và xử lý tài nguyên với Aspose.PDF để duy trì hiệu suất.
-### Phần kết luận
-Bây giờ bạn có các công cụ để chỉnh sửa dấu trang chính xác, tạo các điểm điều hướng chính xác trong quá trình tạo PDF và tùy chỉnh tùy chọn trình xem cho tài liệu của bạn. Khám phá các tính năng bổ sung của Aspose.PDF và tích hợp chúng vào các dự án Java lớn hơn.
-**Các bước tiếp theo**:Cân nhắc khám phá các kỹ thuật xử lý tài liệu nâng cao bằng Aspose.PDF và tích hợp các chức năng này vào các ứng dụng Java lớn hơn.
-### Phần Câu hỏi thường gặp
-1. **Aspose.PDF là gì?**
-   - Một thư viện mạnh mẽ để quản lý PDF trong Java, cung cấp các tính năng như chỉnh sửa, tạo và chuyển đổi tài liệu PDF.
-2. **Làm thế nào để chỉnh sửa dấu trang trong PDF bằng Aspose.PDF?**
-   - Tải tài liệu, truy cập vào dấu trang mong muốn, sửa đổi đích đến và lưu các thay đổi như trong hướng dẫn này.
-3. **Aspose.PDF có thể thiết lập tùy chọn của người xem cho bố cục một trang không?**
-   - Có, sử dụng `PdfContentEditor`bạn có thể dễ dàng điều chỉnh cài đặt trình xem như bố cục trang để cải thiện khả năng đọc.
-4. **Có bản dùng thử miễn phí Aspose.PDF không?**
-   - Hoàn toàn có thể! Hãy bắt đầu bằng bản dùng thử miễn phí hoặc yêu cầu giấy phép tạm thời để khám phá tất cả các tính năng mà không bị giới hạn.
-5. **Thực hành tốt nhất để quản lý PDF trong Java bằng Aspose.PDF là gì?**
-   - Sử dụng quản lý bộ nhớ hiệu quả, tận dụng xử lý hàng loạt khi có thể và luôn lưu các thay đổi để tránh mất dữ liệu.
-### Tài nguyên
-- **Tài liệu**: [Tài liệu tham khảo Java Aspose.PDF](https://reference.aspose.com/pdf/java/)
-- **Tải về**: [Phiên bản mới nhất cho Java](https://releases.aspose.com/pdf/java/)
-- **Mua**: [Mua giấy phép Aspose.PDF](https://purchase.aspose.com/buy)
-- **Dùng thử miễn phí**: [Dùng thử Aspose.PDF miễn phí](https://releases.aspose.com/pdf/java/)
-- **Giấy phép tạm thời**: [Yêu cầu Giấy phép tạm thời](https://purchase.aspose.com/temporary-license)
+PdfContentEditor editor = new PdfContentEditor();
+editor.bindPdf("YOUR_DOCUMENT_DIRECTORY/input.pdf");
+```
+#### Thay đổi tùy chọn xem
+```java
+editor.changeViewerPreference(ViewerPreference.PAGE_LAYOUT_SINGLE_PAGE);
+```
+#### Lưu tài liệu đã cập nhật
+```java
+String outputDir = "YOUR_OUTPUT_DIRECTORY/settingViewerPreferences.pdf";
+editor.save(outputDir);
+```
+
+### Cách chỉnh sửa dấu trang PDF
+**Tổng quan**: Điều chỉnh các dấu trang hiện có sao cho chúng trỏ chính xác tới đầu một trang cụ thể.
+
+#### Truy cập dấu trang
+```java
+import com.aspose.pdf.Document;
+import com.aspose.pdf.ExplicitDestination;
+import com.aspose.pdf.OutlineItemCollection;
+
+Document pdfDocument = new Document("YOUR_DOCUMENT_DIRECTORY/input.pdf");
+OutlineItemCollection pdfOutline = pdfDocument.getOutlines().get_Item(1);
+```
+#### Đặt đích đến mới
+```java
+pdfOutline.setDestination(
+    ExplicitDestination.createDestination(pdfDocument.getPages().get_Item(1),
+        ExplicitDestinationType.FitH,
+        pdfDocument.getPages().get_Item(1).getMediaBox().getHeight())
+);
+```
+#### Lưu thay đổi
+```java
+String outputDir = "YOUR_OUTPUT_DIRECTORY/bookmarkShouldPointToStartOfPage.pdf";
+pdfDocument.save(outputDir);
+```
+
+### Cách đặt đích đến cho dấu trang khi tạo PDF
+**Tổng quan**: Tạo dấu trang dẫn người dùng trực tiếp tới vị trí mong muốn trong PDF mới tạo.
+
+#### Tạo và cấu hình dấu trang
+```java
+import com.aspose.pdf.GoToAction;
+import com.aspose.pdf.FitVExplicitDestination;
+
+OutlineItemCollection pdfOutline_new = new OutlineItemCollection(pdfDocument.getOutlines());
+pdfOutline_new.setTitle("Test Bookmark");
+pdfOutline_new.setItalic(true);
+pdfOutline_new.setBold(true);
+```
+#### Xác định đích đến cho dấu trang
+```java
+pdfOutline_new.setAction(new GoToAction(
+    new FitVExplicitDestination(pdfDocument.getPages().get_Item(2), 0)));
+```
+#### Thêm và lưu PDF
+```java
+pdfDocument.getOutlines().add(pdfOutline_new);
+
+String outputDir = "YOUR_OUTPUT_DIRECTORY/setDestinationWhileCreatingPDF.pdf";
+pdfDocument.save(outputDir);
+```
+
+## Ứng dụng thực tế
+1. **Sách điện tử** – Đảm bảo mỗi dấu trang chương nằm ở đầu trang để trải nghiệm đọc liền mạch.  
+2. **Sổ tay kỹ thuật** – Điều hướng chính xác giúp kỹ sư tìm nhanh các phần, đặc biệt trong các PDF lớn.  
+3. **Danh mục sản phẩm** – Bố cục một trang giúp duyệt danh mục trên máy tính bảng trở nên trực quan hơn.
+
+## Các cân nhắc về hiệu năng
+- **Tối ưu tài nguyên**: Khi xử lý PDF lớn, sử dụng `Document.optimizeResources()` để giảm tiêu thụ bộ nhớ.  
+- **Quản lý bộ nhớ Java**: Đóng các luồng một cách rõ ràng và để bộ thu gom rác giải phóng các đối tượng sau khi xử lý.
+
+## Các vấn đề thường gặp & Giải pháp
+- **Dấu trang không cập nhật**: Kiểm tra bạn đang sửa chỉ mục outline đúng (`get_Item(1)` đề cập tới dấu trang cấp cao nhất đầu tiên).  
+- **Tùy chọn xem không được áp dụng**: Đảm bảo gọi `editor.save()` sau khi thay đổi tùy chọn; nếu không, các thay đổi chỉ tồn tại trong bộ nhớ.  
+- **Ngoại lệ giấy phép**: Giấy phép dùng thử có thể thêm watermark; hãy có giấy phép đầy đủ cho môi trường sản xuất.
+
+## Câu hỏi thường gặp
+**H: Cách dễ nhất để tải tài liệu PDF trong Java là gì?**  
+Đ: Sử dụng `new Document("path/to/file.pdf")`; Aspose.PDF tự động nhận dạng định dạng file.
+
+**H: Tôi có thể thay đổi bố cục trang mà không dùng PdfContentEditor không?**  
+Đ: Có, bạn có thể đặt tùy chọn xem trực tiếp trên đối tượng `Document` bằng `pdfDocument.getViewerPreferences().setPageLayout(...)`.
+
+**H: Thay đổi bố cục xem có ảnh hưởng tới việc in không?**  
+Đ: Bố cục xem chỉ ảnh hưởng tới hiển thị trên màn hình; nó không thay đổi kết quả in ra.
+
+**H: Có giới hạn số lượng dấu trang tôi có thể tạo không?**  
+Đ: Không có giới hạn rõ ràng, nhưng cây outline cực lớn có thể ảnh hưởng tới hiệu năng; nên tổ chức chúng hợp lý.
+
+**H: Làm sao để đảm bảo đích đến của dấu trang chính xác sau khi thêm hoặc xóa trang?**  
+Đ: Tính lại các đích đến dựa trên chỉ số trang hiện tại sau bất kỳ thay đổi cấu trúc nào.
+
+## Tài nguyên
+- **Tài liệu**: [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/)
+- **Tải về**: [Latest Releases for Java](https://releases.aspose.com/pdf/java/)
+- **Mua giấy phép**: [Buy Aspose.PDF License](https://purchase.aspose.com/buy)
+- **Dùng thử miễn phí**: [Try Aspose.PDF Free](https://releases.aspose.com/pdf/java/)
+- **Giấy phép tạm thời**: [Request Temporary License](https://purchase.aspose.com/temporary-license)
+
+---
+
+**Cập nhật lần cuối:** 2025-12-19  
+**Kiểm tra với:** Aspose.PDF cho Java v25.3  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

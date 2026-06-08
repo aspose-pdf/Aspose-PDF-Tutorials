@@ -57,6 +57,7 @@ Aspose.PDF for .NET 視覺教學提供完整、一步一步的指南，協助開
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [使用 Aspose.PDF for .NET 從 PDF 產生圖像](./net/images/)
 
+
 了解如何使用 Aspose.PDF for .NET 從 PDF 檔案產生圖像。以 C# 高品質地將 PDF 頁面轉換為 JPEG、PNG 或 BMP。  
 
 {{< tutorial-card link="./net/images/extract-image/" title="Extract Images from PDF in C# using Aspose.PDF" imgSrc="./net/images/extract-image/images/thumb.png" >}}
@@ -79,6 +80,7 @@ Aspose.PDF for .NET 視覺教學提供完整、一步一步的指南，協助開
 在儲存空間受限的環境下，「Shrink Image」教學展示了可大幅減少 PDF 大小且不會產生明顯視覺損失的壓縮設定。  
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 ## [Aspose.PDF for .NET 完整表格教學](./net/tables/)
 
 了解如何使用 Aspose.PDF for .NET 在 PDF 文件中建立、格式化與操作表格，提供一步一步的教學與程式碼範例。  
@@ -99,6 +101,7 @@ Aspose.PDF for .NET 視覺教學提供完整、一步一步的指南，協助開
 表格是報告與發票的關鍵元素。本節彙整了所有與表格相關的教學，提供一站式參考，協助您在 PDF 中加入、樣式化與分頁表格。  
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 ## [Aspose.PDF for .NET 完整文字處理教學](./net/text/)
 
 學習如何在 PDF 文件中使用 Aspose.PDF for .NET 建立、格式化與操作文字，透過一步一步的教學與程式碼範例。  

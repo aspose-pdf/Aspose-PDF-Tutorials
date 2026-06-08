@@ -62,6 +62,9 @@ Ismerje meg, hogyan használható az Aspose.PDF for .NET az akadálymentes PDF d
 ### [Akadálymentes PDF-készítés elsajátítása az Aspose.PDF .NET segítségével: Címkézett PDF-ek készítése stílusos táblázatokkal](./aspose-pdf-net-tagged-pdfs-styled-tables/)
 Tanulj meg akadálymentes, stílusos, címkézett PDF dokumentumokat készíteni az Aspose.PDF for .NET segítségével. Sajátítsd el a strukturált táblázatokkal és fokozott akadálymentesítéssel rendelkező, szabványos PDF dokumentumok létrehozását.
 
+### [Hogyan hasonlítsuk össze a PDF-eket C#-ban – Teljes útmutató a PDF-diff generálásához](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
+Ismerje meg, hogyan hozhat létre PDF-összehasonlító megoldást C#-ban az Aspose.PDF segítségével, és generáljon PDF-diff fájlokat.
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)

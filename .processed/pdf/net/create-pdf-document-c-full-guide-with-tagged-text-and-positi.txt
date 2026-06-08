@@ -1,0 +1,7 @@
+Title: Create PDF Document C# – Full Guide with Tagged Text and Positioning
+Slug: create-pdf-document-c-full-guide-with-tagged-text-and-positi
+Category: programming-with-tagged-pdf
+ProcessedDate: 2026-05-27T12:40:13.401170
+SourceRepo: AI Search API
+Keywords: create pdf document c#, add blank page pdf, how to create tagged pdf, set text position pdf
+PRNumber: 84

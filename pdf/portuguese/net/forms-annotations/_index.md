@@ -21,7 +21,7 @@ Domine os recursos interativos do PDF com nossos tutoriais abrangentes de formul
 Aprenda a adicionar campos de texto, caixa de seleção, caixa de combinação, caixa de listagem e campos multilinha a PDFs usando o Aspose.PDF para .NET. Este guia aborda configuração, exemplos de código e dicas de integração.
 
 ### [Adicionar itens de lista a formulários PDF usando Aspose.PDF .NET: um guia completo](./add-list-items-aspose-pdf-net/)
-Aprenda a adicionar itens de lista a formulários PDF existentes usando o Aspose.PDF para .NET com instruções passo a passo e exemplos práticos. Simplifique seus fluxos de trabalho com documentos hoje mesmo.
+Aprenda a adicionar itens de lista a formulários PDF existentes usando o Aspose.PDF .NET com instruções passo a passo e exemplos práticos. Simplifique seus fluxos de trabalho com documentos hoje mesmo.
 
 ### [Adicionar anotação de linha medida ao PDF com Aspose.PDF](./add-measured-line-annotation-aspose-pdf/)
 Um tutorial de código para Aspose.PDF Net
@@ -34,6 +34,9 @@ Um tutorial de código para Aspose.PDF Net
 
 ### [Adicionar campos de texto a formulários PDF usando Aspose.PDF para .NET: um guia completo](./add-textfields-pdf-aspose-dotnet-guide/)
 Aprenda como adicionar dinamicamente campos de texto a formulários PDF existentes usando o Aspose.PDF para .NET, aprimorando seu gerenciamento de documentos com facilidade e precisão.
+
+### [Adicionar dica de ferramenta ao campo PDF com Aspose.PDF para .NET: guia passo a passo](./add-tooltip-to-pdf-field-aspose-pdf-net/)
+Aprenda a adicionar dicas de ferramentas a campos de PDF usando o Aspose.PDF para .NET. Aprimore seus formulários com este guia passo a passo.
 
 ### [Adicionar dica de ferramenta ao campo PDF com Aspose.PDF para .NET: guia passo a passo](./add-tooltip-to-pdf-field-aspose-pdf-net/)
 Aprenda a adicionar dicas de ferramentas a campos de PDF usando o Aspose.PDF para .NET. Aprimore seus formulários com este guia passo a passo.
@@ -183,7 +186,7 @@ Aprenda a usar o Aspose.PDF para .NET para simplificar campos de formulários PD
 Aprenda a importar dados com eficiência para formulários PDF usando C# com o Aspose.PDF para .NET. Simplifique seus fluxos de trabalho e aprimore o gerenciamento de dados.
 
 ### [Como importar dados XFDF para PDFs usando Aspose.PDF .NET: um guia completo](./import-xfdf-data-aspose-pdf-net-guide/)
-Aprenda a importar dados XFDF para formulários PDF com facilidade usando o Aspose.PDF para .NET. Este guia aborda instalação, exemplos de código e aplicações práticas.
+Aprenda a importar dados XFDF para formulários PDF com facilidade usando o Aspose.PDF .NET. Este guia aborda instalação, exemplos de código e aplicações práticas.
 
 ### [Como modificar campos de formulário PDF usando Aspose.PDF para .NET: um guia completo](./modify-pdf-form-fields-aspose-pdf-dotnet/)
 Aprenda como modificar campos de formulários PDF programaticamente usando o Aspose.PDF para .NET com etapas detalhadas e práticas recomendadas.
@@ -277,6 +280,9 @@ Aprenda a definir e recuperar limites de caracteres em campos PDF com o Aspose.P
 
 ### [Atualizar anotações em PDF com Aspose.PDF para .NET: um guia completo](./update-pdf-annotations-aspose-pdf-dotnet/)
 Aprenda a atualizar programaticamente anotações em PDF usando o Aspose.PDF para .NET. Este guia aborda dicas de configuração, implementação e desempenho.
+
+### [Criar documento PDF com Aspose – adicionar página, caixa de texto e formulário](./create-pdf-document-with-aspose-add-page-text-box-and-form/)
+Aprenda a criar um documento PDF, adicionar uma página, inserir uma caixa de texto e criar um formulário usando Aspose.PDF para .NET.
 
 ## Recursos adicionais
 

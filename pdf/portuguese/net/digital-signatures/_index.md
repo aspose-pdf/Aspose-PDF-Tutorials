@@ -44,11 +44,25 @@ Aprenda a remover assinaturas digitais de PDFs com eficiência usando o Aspose.P
 ### [Como verificar assinaturas de PDF usando Aspose.PDF para .NET: um guia completo](./verify-pdf-signatures-aspose-pdf-net/)
 Aprenda a verificar assinaturas digitais em arquivos PDF usando o Aspose.PDF para .NET. Este guia aborda configuração, implementação e aplicações práticas.
 
+### [Verificar assinatura de PDF em C# – Guia passo a passo](./verify-pdf-signature-in-c-step-by-step-guide/)
+Aprenda a verificar assinaturas de PDF em C# usando Aspose.PDF para .NET, passo a passo.
+
+### [Como Verificar PDF – Validar Assinatura de PDF com Aspose](./how-to-verify-pdf-validate-pdf-signature-with-aspose/)
+Aprenda a validar assinaturas digitais de PDFs usando Aspose, garantindo a integridade e autenticidade dos documentos.
+
 ### [Domine a assinatura e verificação de PDF com Aspose.PDF .NET](./mastering-aspose-pdf-net-sign-verify-smart-card-certificates/)
 Um tutorial de código para Aspose.PDF Net
 
 ### [Dominando o Aspose.PDF .NET: Como verificar assinaturas digitais em arquivos PDF](./aspose-pdf-net-verify-digital-signature/)
 Aprenda a verificar assinaturas digitais em arquivos PDF usando o Aspose.PDF para .NET. Garanta a integridade e a autenticidade do documento com nosso guia passo a passo.
+
+### [Verificar assinatura de PDF em C# – Guia completo para validar assinatura digital de PDF](./verify-pdf-signature-in-c-complete-guide-to-validate-digital/)
+Aprenda a validar assinaturas digitais em PDFs usando C#, com exemplos passo a passo e melhores práticas.
+### [Carregar documento PDF C# – Converter para PDF/X‑4 e listar assinaturas](./load-pdf-document-c-convert-to-pdf-x-4-list-signatures/)
+Aprenda a carregar um PDF em C#, convertê‑lo para o padrão PDF/X‑4 e listar as assinaturas presentes.
+
+### [Validar assinatura PDF com Aspose – Converter PDF para HTML](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
+Aprenda a validar assinaturas PDF e converter documentos PDF para HTML usando Aspose.PDF.
 
 ## Recursos adicionais
 

@@ -44,11 +44,25 @@ Dowiedz się, jak skutecznie usuwać podpisy cyfrowe z plików PDF za pomocą As
 ### [Jak weryfikować podpisy PDF za pomocą Aspose.PDF dla .NET: kompleksowy przewodnik](./verify-pdf-signatures-aspose-pdf-net/)
 Dowiedz się, jak weryfikować podpisy cyfrowe w plikach PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje konfigurację, implementację i praktyczne zastosowania.
 
+### [Weryfikacja podpisu PDF w C# – Kompletny przewodnik walidacji cyfrowego podpisu PDF](./verify-pdf-signature-in-c-complete-guide-to-validate-digital/)
+Dowiedz się, jak zweryfikować podpis cyfrowy w plikach PDF przy użyciu C# i Aspose.PDF .NET.
+
 ### [Poznaj podpisywanie i weryfikację plików PDF za pomocą Aspose.PDF .NET](./mastering-aspose-pdf-net-sign-verify-smart-card-certificates/)
 Samouczek dotyczący kodu dla Aspose.PDF Net
 
 ### [Opanowanie Aspose.PDF .NET: Jak weryfikować podpisy cyfrowe w plikach PDF](./aspose-pdf-net-verify-digital-signature/)
 Dowiedz się, jak weryfikować podpisy cyfrowe w plikach PDF za pomocą Aspose.PDF dla .NET. Zapewnij integralność i autentyczność dokumentu dzięki naszemu przewodnikowi krok po kroku.
+
+### [Weryfikacja podpisu PDF w C# – przewodnik krok po kroku](./verify-pdf-signature-in-c-step-by-step-guide/)
+Dowiedz się, jak weryfikować podpisy PDF w C# przy użyciu Aspose.PDF dla .NET, krok po kroku.
+
+### [Jak zweryfikować PDF – zweryfikuj podpis PDF przy użyciu Aspose](./how-to-verify-pdf-validate-pdf-signature-with-aspose/)
+Dowiedz się, jak weryfikować podpisy PDF przy użyciu Aspose, zapewniając integralność dokumentu.
+### [Ładowanie dokumentu PDF C# – konwersja do PDF/X‑4 i lista podpisów](./load-pdf-document-c-convert-to-pdf-x-4-list-signatures/)
+Dowiedz się, jak wczytać dokument PDF w C#, przekonwertować go do formatu PDF/X‑4 oraz wyświetlić listę podpisów cyfrowych.
+
+### [Weryfikacja podpisu PDF za pomocą Aspose – konwersja PDF do HTML](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
+Dowiedz się, jak zweryfikować podpis PDF i jednocześnie przekonwertować dokument do formatu HTML przy użyciu Aspose.PDF.
 
 ## Dodatkowe zasoby
 

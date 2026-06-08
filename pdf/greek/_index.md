@@ -83,6 +83,7 @@ weight: 10
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Πλήρεις οδηγίες πινάκων στο Aspose.PDF για .NET](./net/tables/)
 
+
 Μάθετε πώς να δημιουργείτε, μορφοποιείτε και να διαχειρίζεστε πίνακες σε έγγραφα PDF χρησιμοποιώντας Aspose.PDF για .NET με βήμα‑βήμα οδηγούς και παραδείγματα κώδικα.  
 
 {{< tutorial-card link="./net/tables/add-table/" title="Add Table to an Existing PDF Using Aspose.PDF for .NET" imgSrc="./net/tables/add-table/images/thumb.png" >}}
@@ -102,6 +103,7 @@ weight: 10
 
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Πλήρεις οδηγίες διαχείρισης κειμένου στο Aspose.PDF για .NET](./net/text/)
+
 
 Μάθετε πώς να δημιουργείτε, μορφοποιείτε και να διαχειρίζεστε κείμενο σε έγγραφα PDF χρησιμοποιώντας Aspose.PDF για .NET με βήμα‑βήμα οδηγούς και παραδείγματα κώδικα.  
 

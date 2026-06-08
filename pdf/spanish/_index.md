@@ -57,6 +57,7 @@ Aprenda a crear y personalizar gráficos en PDF usando Aspose.PDF para .NET. Añ
 Dibujar líneas rectas o diagonales es un requisito común para formularios, firmas y guías visuales. El tutorial “Dibujar líneas diagonales” muestra las llamadas exactas a la API necesarias para agregar objetos de línea precisos a cualquier página PDF.
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 ## [Generar imágenes a partir de PDF usando Aspose.PDF para .NET](./net/images/)
 
 Aprenda a generar imágenes a partir de archivos PDF usando Aspose.PDF para .NET. Convierta páginas PDF a JPEG, PNG o BMP sin esfuerzo en C# con alta calidad.
@@ -81,6 +82,7 @@ Cuando necesita archivos más pequeños o renderizado más rápido, la guía “
 Para entornos con limitaciones de almacenamiento, el tutorial “Reducir imagen” muestra configuraciones de compresión que reducen drásticamente el tamaño del PDF sin una pérdida visual notable.
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 ## [Tutoriales completos de tablas en Aspose.PDF para .NET](./net/tables/)
 
 Aprenda a crear, formatear y manipular tablas en documentos PDF usando Aspose.PDF para .NET con tutoriales paso a paso y ejemplos de código.
@@ -101,6 +103,7 @@ Aprenda a crear, formatear y manipular tablas en documentos PDF usando Aspose.PD
 Las tablas son esenciales para informes y facturas. Esta sección agrupa los tutoriales relacionados con tablas, brindándole una referencia única para agregar, dar estilo y paginar tablas en PDFs.
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 ## [Tutoriales completos de manejo de texto en Aspose.PDF para .NET](./net/text/)
 
 Aprenda a crear, formatear y manipular texto en documentos PDF usando Aspose.PDF para .NET con tutoriales paso a paso y ejemplos de código.

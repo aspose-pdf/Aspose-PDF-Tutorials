@@ -44,6 +44,7 @@ Die Tutorials „Programmieren mit getaggten PDFs“ von Aspose.PDF für .NET f�
 | [Textblockstrukturelemente](./text-block-structure-elements/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET einem vorhandenen PDF-Dokument Textblockstrukturelemente wie Überschriften und markierte Absätze hinzufügen. |  
 | [Textstrukturelemente in der PDF-Datei](./text-structure-elements/) Lernen Sie, Textstrukturelemente in PDFs mit Aspose.PDF für .NET zu bearbeiten. Diese Schritt-für-Schritt-Anleitung behandelt alles, was Sie zum Erstellen strukturierter PDFs benötigen. |  
 | [PDF-Datei validieren](./validate-pdf/) | Erfahren Sie, wie Sie eine PDF-Datei mit Aspose.PDF für .NET validieren. Überprüfen Sie die Konformität mit Standards und erstellen Sie einen Validierungsbericht. |  
+| [Erstellen eines getaggten PDFs in C# – Vollständige Schritt-für-Schritt-Anleitung](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein getaggtes PDF in C# vollständig Schritt für Schritt erstellen. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

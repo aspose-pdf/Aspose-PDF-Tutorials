@@ -156,7 +156,7 @@ Lär dig hur du skapar och konfigurerar polylinjeanteckningar i PDF-dokument med
 Lär dig hur du förbättrar dina PDF-formulär med Aspose.PDF för .NET genom att anpassa formulärfältens utseende och teckensnitt. Följ vår guide för att skapa professionella dokument.
 
 ### [Hur man tar bort alla PDF-anteckningar med Aspose.PDF för .NET i C#](./delete-all-annotations-aspose-pdf-net-csharp/)
-Lär dig hur du effektivt tar bort alla anteckningar från en PDF med Aspose.PDF för .NET med den här omfattande guiden. Förbättra dokumentets tydlighet och professionalism.
+Lär dig hur du effektivt tar bort alla anteckningar från en PDF med Aspose.PDF för .NET. Förbättra dokumentets tydlighet och professionalism.
 
 ### [Så här tar du bort PDF-formulärfält med Aspose.PDF i .NET: Steg-för-steg-guide](./delete-pdf-form-fields-aspose-pdf-net/)
 Lär dig hur du tar bort formulärfält från ett PDF-dokument med Aspose.PDF för .NET. Den här praktiska guiden täcker installation, implementering och bästa praxis.
@@ -276,7 +276,10 @@ Lär dig hur du hämtar knappalternativsvärden och det aktuella valda värdet f
 Lär dig hur du ställer in och hämtar teckengränser i PDF-fält med Aspose.PDF för .NET. Säkerställ dataintegritet och förbättra användarupplevelsen.
 
 ### [Uppdatera PDF-annoteringar med Aspose.PDF för .NET: En omfattande guide](./update-pdf-annotations-aspose-pdf-dotnet/)
-Lär dig hur du programmatiskt uppdaterar PDF-anteckningar med Aspose.PDF för .NET. Den här guiden behandlar tips om installation, implementering och prestanda.
+Lär dig hur du programmerar uppdaterar PDF-anteckningar med Aspose.PDF för .NET. Den här guiden behandlar tips om installation, implementering och prestanda.
+
+### [Skapa PDF-dokument med Aspose – Lägg till sida, textruta och formulär](./create-pdf-document-with-aspose-add-page-text-box-and-form/)
+Lär dig hur du skapar ett PDF-dokument, lägger till en sida, en textruta och ett formulär med Aspose.
 
 ## Ytterligare resurser
 

@@ -54,10 +54,8 @@ Lär dig hur du skapar och anpassar diagram i PDF med Aspose.PDF för .NET. Läg
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-## Rita linje PDF
-Att rita raka eller diagonala linjer är ett vanligt krav för formulär, signaturer och visuella guider. Handledningen “Draw Diagonal Lines” visar de exakta API‑anropen som behövs för att lägga till precisa linjeobjekt på vilken PDF‑sida som helst.
-
 {{< blocks/products/pf/tutorial-page-section >}}
+
 ## [Generera bilder från PDF med Aspose.PDF för .NET](./net/images/)
 
 Lär dig hur du genererar bilder från PDF‑filer med Aspose.PDF för .NET. Konvertera PDF‑sidor till JPEG, PNG eller BMP enkelt i C# med hög kvalitet.
@@ -72,6 +70,7 @@ Lär dig hur du genererar bilder från PDF‑filer med Aspose.PDF för .NET. Kon
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+<<<<<<< optimize/pdf/net/20260214124714
 ## Extrahera bilder PDF
 Handledningen “Extract Images” visar hur man drar ut raster‑resurser från befintliga PDF‑filer, en praktisk teknik för återanvändning av innehåll eller migrationsprojekt.
 
@@ -81,7 +80,10 @@ När du behöver mindre filer eller snabbare rendering förklarar guiden “Resi
 ## Komprimera PDF‑bilder
 För lagringsbegränsade miljöer visar handledningen “Shrink Image” komprimeringsinställningar som kraftigt minskar PDF‑storleken utan märkbar visuell förlust.
 
+=======
+>>>>>>> main
 {{< blocks/products/pf/tutorial-page-section >}}
+
 ## [Omfattande tabellhandledningar i Aspose.PDF för .NET](./net/tables/)
 
 Lär dig hur du skapar, formaterar och manipulerar tabeller i PDF‑dokument med Aspose.PDF för .NET genom steg‑för‑steg‑handledningar och kodexempel.
@@ -98,10 +100,14 @@ Lär dig hur du skapar, formaterar och manipulerar tabeller i PDF‑dokument med
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+<<<<<<< optimize/pdf/net/20260214124714
 ## Lägg till tabell PDF
 Tabeller är viktiga för rapporter och fakturor. Denna sektion samlar tabellrelaterade handledningar och ger dig en helhetsreferens för att lägga till, styla och paginera tabeller i PDF‑filer.
 
+=======
+>>>>>>> main
 {{< blocks/products/pf/tutorial-page-section >}}
+
 ## [Omfattande handledningar för texthantering i Aspose.PDF för .NET](./net/text/)
 
 Lär dig hur du skapar, formaterar och manipulerar text i PDF‑dokument med Aspose.PDF för .NET genom steg‑för‑steg‑handledningar och kodexempel.

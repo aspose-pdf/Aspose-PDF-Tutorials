@@ -102,6 +102,7 @@ weight: 10
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [دروس شاملة لمعالجة النص في Aspose.PDF للـ .NET](./net/text/)
 
+
 تعلم كيفية إنشاء وتنسيق ومعالجة النص في مستندات PDF باستخدام Aspose.PDF للـ .NET من خلال دروس خطوة بخطوة وأمثلة شفرة.
 
 {{< tutorial-card link="./net/text/add-text/" title="Adding Text to PDF Documents with Aspose.PDF" imgSrc="./net/text/add-text/images/thumb.png" >}}

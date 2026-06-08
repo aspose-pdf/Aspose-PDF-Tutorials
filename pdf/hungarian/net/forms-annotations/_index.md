@@ -278,6 +278,9 @@ Tanulja meg, hogyan állíthat be és kérhet le karakterkorlátokat PDF mezőkb
 ### [PDF-jegyzetek frissítése az Aspose.PDF for .NET segítségével: Átfogó útmutató](./update-pdf-annotations-aspose-pdf-dotnet/)
 Ismerje meg, hogyan frissítheti programozottan a PDF-jegyzeteket az Aspose.PDF for .NET használatával. Ez az útmutató a beállítással, a megvalósítással és a teljesítménnyel kapcsolatos tippeket ismerteti.
 
+### [PDF dokumentum létrehozása Aspose-szal – oldal, szövegdoboz és űrlap hozzáadása](./create-pdf-document-with-aspose-add-page-text-box-and-form/)
+Ismerje meg, hogyan hozhat létre PDF dokumentumot, adhat hozzá oldalt, szövegdobozt és űrlapmezőt az Aspose.PDF for .NET segítségével.
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)

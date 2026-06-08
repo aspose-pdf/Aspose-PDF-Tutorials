@@ -62,6 +62,9 @@ Aspose.PDF for .NET을 사용하여 PDF/UA-1 표준에 따라 접근 가능한 P
 ### [Aspose.PDF .NET을 사용하여 접근 가능한 PDF 생성 마스터하기: 스타일이 지정된 표를 사용하여 태그가 지정된 PDF 작성](./aspose-pdf-net-tagged-pdfs-styled-tables/)
 Aspose.PDF for .NET을 사용하여 접근성이 뛰어나고 스타일이 적용된 태그가 지정된 PDF 문서를 만드는 방법을 알아보세요. 구조화된 표와 향상된 접근성을 갖춘 규격에 맞는 PDF를 만드는 방법을 마스터하세요.
 
+### [C#에서 PDF 비교 방법 – PDF 차이 생성 완전 가이드](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
+Aspose.PDF for .NET을 사용하여 PDF를 비교하고 차이를 생성하는 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 
 - [Net 문서용 Aspose.PDF](https://docs.aspose.com/pdf/net/)

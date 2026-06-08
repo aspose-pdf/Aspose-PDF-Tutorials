@@ -81,6 +81,7 @@ Lorsque vous avez besoin de fichiers plus petits ou d’un rendu plus rapide, le
 Pour les environnements à capacité de stockage limitée, le tutoriel « Compresser l’image » montre les paramètres de compression qui réduisent considérablement la taille du PDF sans perte visuelle notable.
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 ## [Tutoriels complets sur les tableaux dans Aspose.PDF pour .NET](./net/tables/)
 
 Apprenez à créer, formater et manipuler des tableaux dans des documents PDF à l’aide d’Aspose.PDF pour .NET grâce à des tutoriels étape par étape et des exemples de code.
@@ -101,6 +102,7 @@ Apprenez à créer, formater et manipuler des tableaux dans des documents PDF à
 Les tableaux sont essentiels pour les rapports et les factures. Cette section regroupe les tutoriels liés aux tableaux, vous offrant une référence unique pour ajouter, styliser et paginer des tableaux dans les PDF.
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 ## [Tutoriels complets sur la gestion du texte dans Aspose.PDF pour .NET](./net/text/)
 
 Apprenez à créer, formater et manipuler du texte dans des documents PDF à l’aide d’Aspose.PDF pour .NET grâce à des tutoriels étape par étape et des exemples de code.

@@ -57,6 +57,7 @@ Pelajari cara membuat dan menyesuaikan grafik dalam PDF menggunakan Aspose.PDF u
 Menggambar garis lurus atau diagonal merupakan kebutuhan umum untuk formulir, tanda tangan, dan panduan visual. Tutorial “Draw Diagonal Lines” menunjukkan pemanggilan API yang tepat untuk menambahkan objek garis yang presisi ke halaman PDF mana pun.
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 ## [Hasilkan Gambar dari PDF menggunakan Aspose.PDF untuk .NET](./net/images/)
 
 Pelajari cara menghasilkan gambar dari file PDF menggunakan Aspose.PDF untuk .NET. Konversi halaman PDF ke JPEG, PNG, atau BMP dengan mudah dalam C# dengan kualitas tinggi.
@@ -81,6 +82,7 @@ Ketika Anda membutuhkan file yang lebih kecil atau rendering yang lebih cepat, p
 Untuk lingkungan dengan keterbatasan penyimpanan, tutorial “Shrink Image” menunjukkan pengaturan kompresi yang secara dramatis mengurangi ukuran PDF tanpa kehilangan visual yang terlihat.
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 ## [Tutorial Tabel Komprehensif di Aspose.PDF untuk .NET](./net/tables/)
 
 Pelajari cara membuat, memformat, dan memanipulasi tabel dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan tutorial langkah‑demi‑langkah dan contoh kode.
@@ -101,6 +103,7 @@ Pelajari cara membuat, memformat, dan memanipulasi tabel dalam dokumen PDF mengg
 Tabel penting untuk laporan dan faktur. Bagian ini mengumpulkan tutorial terkait tabel, memberikan referensi satu pintu untuk menambahkan, menata, dan mempaginasi tabel dalam PDF.
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 ## [Tutorial Komprehensif Penanganan Teks di Aspose.PDF untuk .NET](./net/text/)
 
 Pelajari cara membuat, memformat, dan memanipulasi teks dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan tutorial langkah‑demi‑langkah dan contoh kode.

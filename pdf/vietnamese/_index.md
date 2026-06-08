@@ -57,6 +57,7 @@ Tìm hiểu cách tạo và tùy chỉnh đồ thị trong PDF bằng Aspose.PDF
 Vẽ các đường thẳng hoặc đường chéo là yêu cầu phổ biến cho biểu mẫu, chữ ký và hướng dẫn trực quan. Hướng dẫn “Draw Diagonal Lines” (Vẽ Đường Chéo) minh họa các lời gọi API chính xác cần thiết để thêm các đối tượng đường chính xác vào bất kỳ trang PDF nào.
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 ## [Tạo Hình Ảnh từ PDF bằng Aspose.PDF cho .NET](./net/images/)
 
 Tìm hiểu cách tạo hình ảnh từ các tệp PDF bằng Aspose.PDF cho .NET. Chuyển đổi các trang PDF sang JPEG, PNG hoặc BMP một cách dễ dàng trong C# với chất lượng cao.
@@ -81,6 +82,7 @@ Khi bạn cần tệp nhỏ hơn hoặc tốc độ hiển thị nhanh hơn, hư
 Trong môi trường hạn chế về lưu trữ, hướng dẫn “Shrink Image” (Thu nhỏ Hình ảnh) trình bày các cài đặt nén giúp giảm đáng kể kích thước PDF mà không gây mất mát hình ảnh đáng chú ý.
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 ## [Các Hướng Dẫn Toàn Diện về Bảng trong Aspose.PDF cho .NET](./net/tables/)
 
 Tìm hiểu cách tạo, định dạng và thao tác các bảng trong tài liệu PDF bằng Aspose.PDF cho .NET thông qua các hướng dẫn từng bước và ví dụ mã.

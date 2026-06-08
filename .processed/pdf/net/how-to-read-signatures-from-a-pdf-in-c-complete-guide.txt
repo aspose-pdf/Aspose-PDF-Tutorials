@@ -1,0 +1,7 @@
+Title: How to Read Signatures from a PDF in C# – Complete Guide
+Slug: how-to-read-signatures-from-a-pdf-in-c-complete-guide
+Category: programming-with-security-and-signatures
+ProcessedDate: 2026-06-05T23:43:37.705982
+SourceRepo: AI Search API
+Keywords: how to read signatures, verify pdf signature, how to verify pdf, load pdf c#, list pdf signatures
+PRNumber: 87

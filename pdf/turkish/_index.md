@@ -81,6 +81,7 @@ Daha küçük dosyalara veya daha hızlı renderlamaya ihtiyacınız olduğunda,
 Depolama sınırlı ortamlar için, “Görüntüyü Küçült” eğitimi, görsel kayıpsız bir şekilde PDF boyutunu büyük ölçüde azaltan sıkıştırma ayarlarını gösterir.
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 ## [Aspose.PDF for .NET'te Kapsamlı Tablo Eğitimleri](./net/tables/)
 
 Aspose.PDF for .NET kullanarak PDF belgelerinde tablo oluşturma, biçimlendirme ve manipülasyon yöntemlerini adım‑adım eğitimler ve kod örnekleriyle öğrenin.
@@ -97,10 +98,8 @@ Aspose.PDF for .NET kullanarak PDF belgelerinde tablo oluşturma, biçimlendirme
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-## PDF'ye Tablo Ekleme
-Tablolar raporlar ve faturalar için gereklidir. Bu bölüm, tabloyla ilgili eğitimleri bir araya getirerek PDF'lerde tablo ekleme, stil verme ve sayfalama için tek bir referans sunar.
-
 {{< blocks/products/pf/tutorial-page-section >}}
+
 ## [Aspose.PDF for .NET'te Kapsamlı Metin İşleme Eğitimleri](./net/text/)
 
 Aspose.PDF for .NET kullanarak PDF belgelerinde metin oluşturma, biçimlendirme ve manipülasyon yöntemlerini adım‑adım eğitimler ve kod örnekleriyle öğrenin.

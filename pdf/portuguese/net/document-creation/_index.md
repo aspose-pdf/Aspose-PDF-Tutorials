@@ -74,6 +74,11 @@ Aprenda a criar PDFs acessíveis, bem estruturados e com tags usando o Aspose.PD
 ### [Dominando a criação de livretos em PDF com Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Um tutorial de código para Aspose.PDF Net
 
+### [Criar documento PDF com Aspose.PDF – adicionar página, forma e salvar](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
+Aprenda a criar um documento PDF, adicionar páginas e formas, e salvar o arquivo usando Aspose.PDF para .NET.
+### [Crie um documento PDF com Aspose.PDF – Guia passo a passo](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Aprenda a criar documentos PDF com Aspose.PDF usando um guia passo a passo detalhado.
+
 ## Recursos adicionais
 
 - [Aspose.PDF para documentação da Net](https://docs.aspose.com/pdf/net/)

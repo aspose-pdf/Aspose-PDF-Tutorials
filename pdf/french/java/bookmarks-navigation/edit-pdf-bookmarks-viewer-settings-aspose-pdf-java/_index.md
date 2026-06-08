@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-14"
-"description": "Apprenez à modifier les signets PDF et à personnaliser les paramètres de la visionneuse avec Aspose.PDF pour Java. Améliorez l'expérience utilisateur en maîtrisant les préférences de navigation et de mise en page."
-"title": "Maîtriser Aspose.PDF Java &#58; Modifier les signets PDF et configurer les paramètres de la visionneuse"
-"url": "/fr/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/"
-"weight": 1
+date: '2025-12-19'
+description: Apprenez à modifier la mise en page des pages PDF, à éditer les signets
+  PDF et à personnaliser les paramètres du visualiseur avec Aspose.PDF pour Java.
+  Maîtrisez la navigation et les préférences de mise en page pour une expérience utilisateur
+  plus fluide.
+keywords:
+- edit PDF bookmarks Java
+- Aspose.PDF viewer settings
+- configure PDF navigation Java
+title: 'Modifier la mise en page PDF en Java - modifier les signets et les paramètres'
+url: /fr/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,27 +18,37 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Maîtriser Aspose.PDF Java : modifier les signets PDF et configurer les paramètres de la visionneuse
+# Modifier la mise en page PDF en Java : Modifier les signets et les paramètres
 
 ## Introduction
-La navigation dans des documents PDF complexes peut s'avérer complexe si les signets sont mal alignés ou si les préférences d'affichage sont mal définies. Ce tutoriel montre comment utiliser Aspose.PDF pour Java pour modifier les signets existants et personnaliser les paramètres d'affichage, améliorant ainsi l'expérience utilisateur.
+Naviguer dans des documents PDF complexes peut être fastidieux, surtout lorsque le paramètre **change PDF page layout** n’est pas configuré correctement ou que les signets pointent vers les mauvais emplacements. Dans ce tutoriel, vous apprendrez à **change PDF page layout**, **edit PDF bookmarks**, et **configure PDF viewer settings** en utilisant Aspose.PDF for Java. À la fin, vous aurez le contrôle complet sur la navigation, les destinations des signets et la façon dont le document est présenté aux lecteurs.
 
-**Ce que vous apprendrez :**
-- Modifiez les signets PDF pour pointer avec précision vers les débuts de page.
-- Créez des signets précis avec des destinations spécifiques lors de la génération de PDF.
-- Ajustez les préférences du spectateur pour une présentation optimale.
+**Ce que vous apprendrez**
+- Comment modifier les signets PDF existants afin qu’ils pointent vers le début d’une page.  
+- Comment définir les destinations des signets lors de la création d’un PDF.  
+- Comment modifier les préférences du visualiseur, comme la mise en page.  
+- Conseils pratiques pour charger un document PDF en Java et optimiser les performances.
 
-Avec Aspose.PDF pour Java, maîtrisez pleinement les paramètres de navigation et de mise en page de vos documents. Configurez votre environnement et implémentez ces fonctionnalités étape par étape.
+### Réponses rapides
+- **Quelle est la méthode principale pour changer la mise en page PDF ?** Utilisez `PdfContentEditor.changeViewerPreference()` avec `ViewerPreference.PAGE_LAYOUT_SINGLE_PAGE`.  
+- **Puis‑je modifier les destinations des signets après la création d’un PDF ?** Oui – chargez le document, accédez au plan, et définissez un nouveau `ExplicitDestination`.  
+- **Ai‑je besoin d’une licence pour ces fonctionnalités ?** Un essai gratuit suffit pour l’évaluation ; une licence complète supprime toutes les limitations.  
+- **Quelle dépendance Maven est requise ?** `com.aspose:aspose-pdf:25.3` (ou ultérieure).  
+- **Cette fonctionnalité est‑elle compatible avec Java 11 et supérieur ?** Absolument – Aspose.PDF prend en charge Java 8+.
 
-### Prérequis
-Avant de commencer, assurez-vous d'avoir :
-- **Bibliothèques et dépendances**:Utilisez Aspose.PDF pour Java version 25.3 ou ultérieure.
-- **Configuration de l'environnement**:Une configuration de développement Java fonctionnelle avec JDK installé.
-- **Exigences en matière de connaissances**:Compréhension de base de Java et de la gestion programmatique des PDF.
+## Qu’est‑ce que « change PDF page layout » ?
+Modifier la mise en page PDF contrôle la façon dont les pages sont affichées dans un visualiseur — page unique, continue, vue double page, etc. Ajuster ce paramètre améliore la lisibilité, surtout pour les longs rapports ou catalogues.
 
-### Configuration d'Aspose.PDF pour Java
-#### Installation de Maven
-Pour inclure Aspose.PDF dans votre projet, ajoutez cette dépendance à votre `pom.xml`:
+## Pourquoi modifier les signets PDF et définir les destinations des signets ?
+Les signets fonctionnent comme une table des matières. Des destinations précises garantissent que les lecteurs accèdent directement à la section souhaitée, réduisant la frustration et améliorant l’expérience utilisateur globale.
+
+## Prérequis
+- **Bibliothèques et dépendances** : Aspose.PDF for Java v25.3 ou ultérieure.  
+- **Environnement** : JDK 8 ou plus récent, outil de construction Maven ou Gradle.  
+- **Connaissances** : programmation Java de base et familiarité avec les concepts PDF.
+
+## Configuration d’Aspose.PDF pour Java
+### Installation Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -39,131 +56,142 @@ Pour inclure Aspose.PDF dans votre projet, ajoutez cette dépendance à votre `p
     <version>25.3</version>
 </dependency>
 ```
-#### Installation de Gradle
-Pour les utilisateurs de Gradle, ajoutez ceci à votre `build.gradle`:
+### Installation Gradle
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
-**Acquisition de licence**: Commencez par un essai gratuit ou demandez une licence temporaire pour accéder à toutes les fonctionnalités sans limitation. Envisagez l'achat d'une licence complète pour une utilisation à long terme.
-#### Initialisation de base
-Pour commencer à utiliser Aspose.PDF :
+**Acquisition de licence** : Commencez avec un essai gratuit ou demandez une licence temporaire pour un accès complet aux fonctionnalités. Envisagez d’acheter une licence permanente pour une utilisation en production.
+
+### Initialisation de base
 ```java
 import com.aspose.pdf.Document;
 
 public class PDFSetup {
     public static void main(String[] args) {
-        // Initialiser l'objet document
+        // Initialize document object
         Document pdfDocument = new Document("path/to/your/pdf");
         
         System.out.println("Aspose.PDF for Java initialized successfully.");
     }
 }
 ```
-### Guide de mise en œuvre
-Cette section couvre la modification des signets, la définition des destinations lors de la création de PDF et la modification des préférences de la visionneuse.
-#### Modification des signets existants pour pointer vers le début de la page
-**Aperçu**: Ajustez les signets afin qu'ils pointent avec précision vers le début d'une page spécifique de votre document.
-1. **Accéder aux signets**
-   Chargez votre PDF et accédez à son aperçu des signets :
-   ```java
-   import com.aspose.pdf.Document;
-   import com.aspose.pdf.ExplicitDestination;
-   import com.aspose.pdf.OutlineItemCollection;
 
-   Document pdfDocument = new Document("YOUR_DOCUMENT_DIRECTORY/input.pdf");
-   OutlineItemCollection pdfOutline = pdfDocument.getOutlines().get_Item(1);
-   ```
-2. **Définir une nouvelle destination**
-   Mettez à jour la destination pour vous assurer qu'elle pointe vers le début d'une page :
-   ```java
-   pdfOutline.setDestination(
-       ExplicitDestination.createDestination(pdfDocument.getPages().get_Item(1),
-           ExplicitDestinationType.FitH,
-           pdfDocument.getPages().get_Item(1).getMediaBox().getHeight())
-   );
-   ```
-3. **Sauvegarde des modifications**
-   Enregistrez votre document PDF mis à jour :
-   ```java
-   String outputDir = "YOUR_OUTPUT_DIRECTORY/bookmarkShouldPointToStartOfPage.pdf";
-   pdfDocument.save(outputDir);
-   ```
-#### Créer de nouveaux signets avec des destinations spécifiques
-**Aperçu**: Créez des signets qui dirigent les utilisateurs directement vers les emplacements souhaités dans votre PDF nouvellement généré.
-1. **Création et configuration d'un signet**
-   Initialisez un nouveau signet et définissez ses propriétés :
-   ```java
-   import com.aspose.pdf.GoToAction;
-   import com.aspose.pdf.FitVExplicitDestination;
+## Guide de mise en œuvre
+### Comment modifier la mise en page PDF en Java
+**Vue d’ensemble** : Ajustez les préférences du visualiseur pour afficher les pages comme vous le souhaitez.
 
-   OutlineItemCollection pdfOutline_new = new OutlineItemCollection(pdfDocument.getOutlines());
-   pdfOutline_new.setTitle("Test Bookmark");
-   pdfOutline_new.setItalic(true);
-   pdfOutline_new.setBold(true);
-   ```
-2. **Définition de la destination du signet**
-   Spécifiez la destination de votre signet :
-   ```java
-   pdfOutline_new.setAction(new GoToAction(
-       new FitVExplicitDestination(pdfDocument.getPages().get_Item(2), 0)));
-   ```
-3. **Ajout et enregistrement du PDF**
-   Ajoutez le signet au plan du document et enregistrez-le :
-   ```java
-   pdfDocument.getOutlines().add(pdfOutline_new);
-   
-   String outputDir = "YOUR_OUTPUT_DIRECTORY/setDestinationWhileCreatingPDF.pdf";
-   pdfDocument.save(outputDir);
-   ```
-#### Définition des préférences du spectateur
-**Aperçu**:Personnalisez la façon dont votre PDF est affiché en définissant des préférences de visualisation spécifiques telles que la mise en page.
-1. **Initialisation de PdfContentEditor**
-   Utilisez le `PdfContentEditor` classe pour modifier les paramètres du document :
-   ```java
-   import com.aspose.pdf.facades.PdfContentEditor;
-   import com.aspose.pdf.facades.ViewerPreference;
+#### Initialisation de PdfContentEditor
+```java
+import com.aspose.pdf.facades.PdfContentEditor;
+import com.aspose.pdf.facades.ViewerPreference;
 
-   PdfContentEditor editor = new PdfContentEditor();
-   editor.bindPdf("YOUR_DOCUMENT_DIRECTORY/input.pdf");
-   ```
-2. **Modification des préférences du spectateur**
-   Définissez la préférence du spectateur sur une mise en page sur une seule page :
-   ```java
-   editor.changeViewerPreference(ViewerPreference.PAGE_LAYOUT_SINGLE_PAGE);
-   ```
-3. **Enregistrement du document mis à jour**
-   Enregistrez les modifications apportées à votre fichier PDF :
-   ```java
-   String outputDir = "YOUR_OUTPUT_DIRECTORY/settingViewerPreferences.pdf";
-   editor.save(outputDir);
-   ```
-### Applications pratiques
-1. **Livres numériques**: Améliorez les livres numériques en veillant à ce que les signets mènent directement au début des chapitres.
-2. **Rapports et manuels**: Améliorez la navigation dans les documents techniques grâce à des configurations précises de signets et de visionneuse.
-3. **Catalogues de produits de commerce électronique**:Optimisez les catalogues de produits pour une visualisation sur une seule page, les rendant plus conviviaux.
-### Considérations relatives aux performances
-- **Optimisation des ressources**:Utilisez des structures de données efficaces lors de la gestion de fichiers PDF volumineux pour minimiser l'utilisation de la mémoire.
-- **Gestion de la mémoire Java**Soyez attentif à la collecte des déchets et à l’élimination des ressources avec Aspose.PDF pour maintenir les performances.
-### Conclusion
-Vous disposez désormais des outils nécessaires pour modifier vos signets avec précision, créer des points de navigation précis lors de la création de PDF et personnaliser les préférences de visualisation de vos documents. Explorez les fonctionnalités supplémentaires d'Aspose.PDF et intégrez-les à des projets Java plus vastes.
-**Prochaines étapes**:Envisagez d’explorer des techniques avancées de manipulation de documents à l’aide d’Aspose.PDF et d’intégrer ces fonctionnalités dans des applications Java plus volumineuses.
-### Section FAQ
-1. **Qu'est-ce qu'Aspose.PDF ?**
-   - Une bibliothèque puissante pour la gestion des PDF en Java, offrant des fonctionnalités telles que l'édition, la création et la conversion de documents PDF.
-2. **Comment modifier les signets dans un PDF à l'aide d'Aspose.PDF ?**
-   - Chargez le document, accédez au signet souhaité, modifiez sa destination et enregistrez les modifications comme indiqué dans ce didacticiel.
-3. **Aspose.PDF peut-il définir les préférences du visualiseur pour la mise en page d'une seule page ?**
-   - Oui, en utilisant `PdfContentEditor`vous pouvez facilement ajuster les paramètres de la visionneuse tels que la mise en page pour améliorer la lisibilité.
-4. **Existe-t-il un essai gratuit disponible pour Aspose.PDF ?**
-   - Absolument ! Commencez par un essai gratuit ou demandez une licence temporaire pour explorer toutes les fonctionnalités sans limites.
-5. **Quelles sont les meilleures pratiques pour gérer les PDF en Java à l’aide d’Aspose.PDF ?**
-   - Utilisez une gestion efficace de la mémoire, exploitez le traitement par lots lorsque cela est possible et enregistrez toujours les modifications pour éviter la perte de données.
-### Ressources
-- **Documentation**: [Référence Java Aspose.PDF](https://reference.aspose.com/pdf/java/)
-- **Télécharger**: [Dernières versions de Java](https://releases.aspose.com/pdf/java/)
-- **Achat**: [Acheter la licence Aspose.PDF](https://purchase.aspose.com/buy)
-- **Essai gratuit**: [Essayez Aspose.PDF gratuitement](https://releases.aspose.com/pdf/java/)
-- **Licence temporaire**: [Demande de licence temporaire](https://purchase.aspose.com/temporary-license)
+PdfContentEditor editor = new PdfContentEditor();
+editor.bindPdf("YOUR_DOCUMENT_DIRECTORY/input.pdf");
+```
+#### Modification des préférences du visualiseur
+```java
+editor.changeViewerPreference(ViewerPreference.PAGE_LAYOUT_SINGLE_PAGE);
+```
+#### Enregistrement du document mis à jour
+```java
+String outputDir = "YOUR_OUTPUT_DIRECTORY/settingViewerPreferences.pdf";
+editor.save(outputDir);
+```
+
+### Comment modifier les signets PDF
+**Vue d’ensemble** : Ajustez les signets existants afin qu’ils pointent précisément au début d’une page spécifique.
+
+#### Accès aux signets
+```java
+import com.aspose.pdf.Document;
+import com.aspose.pdf.ExplicitDestination;
+import com.aspose.pdf.OutlineItemCollection;
+
+Document pdfDocument = new Document("YOUR_DOCUMENT_DIRECTORY/input.pdf");
+OutlineItemCollection pdfOutline = pdfDocument.getOutlines().get_Item(1);
+```
+#### Définition d’une nouvelle destination
+```java
+pdfOutline.setDestination(
+    ExplicitDestination.createDestination(pdfDocument.getPages().get_Item(1),
+        ExplicitDestinationType.FitH,
+        pdfDocument.getPages().get_Item(1).getMediaBox().getHeight())
+);
+```
+#### Enregistrement des modifications
+```java
+String outputDir = "YOUR_OUTPUT_DIRECTORY/bookmarkShouldPointToStartOfPage.pdf";
+pdfDocument.save(outputDir);
+```
+
+### Comment définir la destination d’un signet lors de la création d’un PDF
+**Vue d’ensemble** : Créez des signets qui dirigent les utilisateurs directement vers les emplacements souhaités dans un PDF nouvellement généré.
+
+#### Création et configuration du signet
+```java
+import com.aspose.pdf.GoToAction;
+import com.aspose.pdf.FitVExplicitDestination;
+
+OutlineItemCollection pdfOutline_new = new OutlineItemCollection(pdfDocument.getOutlines());
+pdfOutline_new.setTitle("Test Bookmark");
+pdfOutline_new.setItalic(true);
+pdfOutline_new.setBold(true);
+```
+#### Définition de la destination du signet
+```java
+pdfOutline_new.setAction(new GoToAction(
+    new FitVExplicitDestination(pdfDocument.getPages().get_Item(2), 0)));
+```
+#### Ajout et enregistrement du PDF
+```java
+pdfDocument.getOutlines().add(pdfOutline_new);
+
+String outputDir = "YOUR_OUTPUT_DIRECTORY/setDestinationWhileCreatingPDF.pdf";
+pdfDocument.save(outputDir);
+```
+
+## Applications pratiques
+1. **Livres numériques** – Assurez‑vous que chaque signet de chapitre atterrit en haut de la page pour une expérience de lecture fluide.  
+2. **Manuels techniques** – Une navigation précise aide les ingénieurs à trouver rapidement les sections, surtout dans les gros PDF.  
+3. **Catalogues de produits** – La mise en page en page unique rend la navigation dans les catalogues sur tablette plus intuitive.
+
+## Considérations de performance
+- **Optimisation des ressources** : Lors du traitement de gros PDF, utilisez `Document.optimizeResources()` pour réduire la consommation de mémoire.  
+- **Gestion de la mémoire Java** : Fermez explicitement les flux et laissez le ramasse‑miettes récupérer les objets après le traitement.
+
+## Problèmes courants et solutions
+- **Les signets ne se mettent pas à jour** : Vérifiez que vous modifiez le bon index du plan (`get_Item(1)` fait référence au premier signet de niveau supérieur).  
+- **La préférence du visualiseur n’est pas appliquée** : Assurez‑vous d’appeler `editor.save()` après avoir modifié les préférences ; sinon les changements restent uniquement en mémoire.  
+- **Exceptions de licence** : Une licence d’essai peut ajouter des filigranes ; obtenez une licence complète pour la production.
+
+## Foire aux questions
+**Q : Quelle est la façon la plus simple de charger un document PDF en Java ?**  
+R : Utilisez `new Document("path/to/file.pdf")` ; Aspose.PDF détecte automatiquement le format du fichier.
+
+**Q : Puis‑je changer la mise en page sans utiliser PdfContentEditor ?**  
+R : Oui, vous pouvez définir les préférences du visualiseur directement sur l’objet `Document` via `pdfDocument.getViewerPreferences().setPageLayout(...)`.
+
+**Q : Le changement de la mise en page du visualiseur affecte‑t‑il l’impression ?**  
+R : La mise en page du visualiseur n’influence que l’affichage à l’écran ; elle ne modifie pas la sortie imprimée.
+
+**Q : Existe‑t‑il des limites au nombre de signets que je peux créer ?**  
+R : Aucun plafond explicite, mais des arbres de plan très volumineux peuvent impacter les performances ; gardez‑les organisés.
+
+**Q : Comment garantir que les destinations des signets sont précises après l’ajout ou la suppression de pages ?**  
+R : Re‑calculez les destinations en utilisant les indices de pages actuels après toute modification structurelle.
+
+## Ressources
+- **Documentation** : [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/)
+- **Téléchargement** : [Latest Releases for Java](https://releases.aspose.com/pdf/java/)
+- **Achat** : [Buy Aspose.PDF License](https://purchase.aspose.com/buy)
+- **Essai gratuit** : [Try Aspose.PDF Free](https://releases.aspose.com/pdf/java/)
+- **Licence temporaire** : [Request Temporary License](https://purchase.aspose.com/temporary-license)
+
+---
+
+**Dernière mise à jour** : 2025-12-19  
+**Testé avec** : Aspose.PDF for Java v25.3  
+**Auteur** : Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
