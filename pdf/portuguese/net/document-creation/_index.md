@@ -76,8 +76,12 @@ Um tutorial de código para Aspose.PDF Net
 
 ### [Criar documento PDF com Aspose.PDF – adicionar página, forma e salvar](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Aprenda a criar um documento PDF, adicionar páginas e formas, e salvar o arquivo usando Aspose.PDF para .NET.
+
 ### [Crie um documento PDF com Aspose.PDF – Guia passo a passo](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 Aprenda a criar documentos PDF com Aspose.PDF usando um guia passo a passo detalhado.
+
+### [Criar imagem PDF a partir de HEIC – Guia completo em C#](./create-pdf-image-from-heic-complete-c-guide/)
+Aprenda a gerar PDFs contendo imagens HEIC usando Aspose.PDF para .NET com código C# completo.
 
 ## Recursos adicionais
 

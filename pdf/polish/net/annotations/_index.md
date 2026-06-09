@@ -35,6 +35,7 @@ Kompleksowy zbiór samouczków pokazujących, jak pracować z adnotacjami w doku
 | [Ustaw bezpłatne formatowanie adnotacji tekstowych](./setfreetextannotationformatting/) | Dowiedz się, jak ustawić formatowanie adnotacji tekstu swobodnego w dokumentach PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego przewodnika krok po kroku. |  
 | [Wykreśl słowa](./strikeoutwords/) | Dowiedz się, jak przekreślać słowa w pliku PDF za pomocą Aspose.PDF dla .NET dzięki temu kompleksowemu przewodnikowi krok po kroku. Udoskonal swoje umiejętności edycji dokumentów. |  
 | [Aktualizuj adnotację do pliku PDF w formacie Free Text](./updatefreetextannotation/) Dowiedz się, jak aktualizować adnotacje tekstu swobodnego w dokumentach PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego przewodnika krok po kroku. |  
+| [Dodaj adnotację PDF przy użyciu Aspose.PDF - Kompletny przewodnik](./add-annotation-pdf-with-aspose-pdf-complete-guide/) | Kompletny przewodnik krok po kroku, jak dodać adnotację do pliku PDF przy użyciu biblioteki Aspose.PDF dla .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

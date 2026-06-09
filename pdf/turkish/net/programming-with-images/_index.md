@@ -30,12 +30,12 @@ Aspose.PDF for .NET'in "Resimlerle Programlama" eğitimleri, PDF belgelerinizdek
 | [Sayfa Bölgesini DOM'a Dönüştür](./convert-page-region-to-dom/) Aspose.PDF for .NET ile PDF belgelerinizin potansiyelini ortaya çıkarın. PDF'lerin bölgelerini resimlere dönüştürün ve iş akışınızı geliştirin. |  
 | [BMP'ye Dönüştür](./convert-to-bmp/) | Bu adım adım eğitimde Aspose.PDF for .NET kullanarak PDF'leri BMP görüntülerine nasıl kolayca dönüştüreceğinizi öğrenin. .NET geliştiricileri için mükemmel. |  
 | [PDF Dosyasında Küçük Resim Görüntüleri Oluşturun](./create-thumbnail-images/) | Aspose.PDF for .NET kullanarak PDF dosyanızdaki her sayfa için zahmetsizce küçük resim görüntüleri oluşturun. Belge önizleme deneyiminizi geliştirin. |  
-| [PDF Dosyasından Resimleri Sil](./delete-images/) | Basit, adım adım bir eğitimde Aspose.PDF for .NET kullanarak PDF dosyalarından resimleri nasıl sileceğinizi öğrenin. İstenmeyen resimleri kolayca kaldırarak PDF'leri optimize edin. |  
+| [PDF Dosyasından Resimler Sil](./delete-images/) | Basit, adım adım bir eğitimde Aspose.PDF for .NET kullanarak PDF dosyalarından resimleri nasıl sileceğinizi öğrenin. İstenmeyen resimleri kolayca kaldırarak PDF'leri optimize edin. |  
 | [PDF Dosyasından Görüntüleri Çıkar](./extract-images/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak bir PDF dosyasından görüntüleri nasıl çıkaracağınızı öğrenin. Kolayca takip edilebilen talimatlarla başlayın. |  
-| [Hızlı Küçülen Görüntüler](./fast-shrink-images/) PDF dosyalarındaki resimleri küçültmek, kaliteyi korurken boyutu optimize etmek için Aspose.PDF for .NET'i nasıl verimli bir şekilde kullanacağınızı öğrenin. |  
+| [Hızlı Küçülen Görüntüler](./fast-shrink-images/) PDF dosalarındaki resimleri küçültmek, kaliteyi korurken boyutu optimize etmek için Aspose.PDF for .NET'i nasıl verimli bir şekilde kullanacağınızı öğrenin. |  
 | [Flate Kod Çözme Sıkıştırması](./flate-decode-compression/) | Aspose.PDF for .NET'te Flate Decode Compression'ı kullanmayı öğrenin. Bu adım adım kılavuzla PDF dosya boyutunu verimli bir şekilde optimize edin. |  
 | [PDF Dosyasındaki Resimleri Tanımla](./identify-images/) | Bu ayrıntılı adım adım kılavuzda, Aspose.PDF for .NET'i kullanarak PDF dosyalarındaki görselleri nasıl tanımlayacağınızı ve renk türlerini (gri tonlamalı veya RGB) nasıl tespit edeceğinizi öğrenin.  
-| [PDF Dosyasında Resim Bilgileri](./image-information/) | Kapsamlı adım adım kılavuzumuzla Aspose.PDF for .NET'i kullanarak PDF'lerden görüntü bilgilerini çıkarmayı öğrenin.  
+| [PDF Dosyasındaki Resim Bilgileri](./image-information/) | Kapsamlı adım adım kılavuzumuzla Aspose.PDF for .NET'i kullanarak PDF'lerden görüntü bilgilerini çıkarmayı öğrenin. |  
 | [Resim Yerleşimleri](./image-placements/) | Aspose.PDF for .NET kullanarak PDF belgelerindeki görüntü yerleşimlerini nasıl çıkaracağınızı ve düzenleyeceğinizi öğrenin. Örnekler ve kod parçacıkları içeren adım adım kılavuz. |  
 | [Resimden PDF'e](./image-to-pdf/) Bu adım adım kılavuzda Aspose.PDF for .NET ile görüntüleri PDF'ye nasıl dönüştüreceğinizi öğrenin. Geliştiriciler ve teknoloji meraklıları için mükemmel. |  
 | [Büyük CGM Görüntüsünü PDF'ye Dönüştür](./large-cgm-image-to-pdf/) | Aspose.PDF for .NET kullanarak büyük CGM resimlerini zahmetsizce PDF'ye dönüştürün. Hızlı ve etkili bir dönüştürme süreci için bu basit kılavuzu izleyin. |  
@@ -43,12 +43,13 @@ Aspose.PDF for .NET'in "Resimlerle Programlama" eğitimleri, PDF belgelerinizdek
 | [Sayfa EMF'ye](./page-to-emf/) | Aspose.PDF for .NET kullanarak bu adım adım kılavuzla bir PDF sayfasını EMF formatına nasıl dönüştüreceğinizi öğrenin. Geliştiriciler için mükemmel. |  
 | [Sayfa PNG'ye](./page-to-png/) | Aspose.PDF for .NET'i kullanarak PDF sayfalarını PNG görüntülerine zahmetsizce nasıl dönüştüreceğinizi ayrıntılı adım adım eğitimimizde öğrenin.  
 | [PDF Sayfasını TIFF'e Dönüştür](./page-to-tiff/) | Aspose.PDF for .NET kullanarak PDF sayfalarını yüksek kaliteli TIFF görüntülerine nasıl dönüştüreceğinizi öğrenin. Bu adım adım kılavuz çözünürlük, sıkıştırma ve daha fazlasını kapsar. |  
-| [PDF Dosyasındaki Resmi Değiştir](./replace-image/) | Aspose.PDF for .NET kullanarak PDF dosyalarındaki resimleri kolayca değiştirin. Adım adım talimatlar için bu kılavuzu izleyin ve PDF yönetimi becerilerinizi geliştirin. |  
+| [PDF Dosyasındaki Resmi Değiştir](./replace-image/) | Aspose.PDF for .NET kullanarak PDF dosalarındaki resimleri kolayca değiştirin. Adım adım talimatlar için bu kılavuzu izleyin ve PDF yönetimi becerilerinizi geliştirin. |  
 | [PDF Dosyasındaki Resimleri Yeniden Boyutlandırma](./resize-images/) | Bu detaylı kılavuzla Aspose.PDF for .NET kullanarak bir PDF dosyasındaki görsellerin boyutunu nasıl değiştireceğinizi öğrenin. Kaliteyi kaybetmeden dosya boyutunu optimize edin. |  
-| [PDF Dosyasında Görüntüleri Ara ve Al](./search-and-get-images/) | Aspose.PDF for .NET ile PDF dosyalarından zahmetsizce resim çıkarmayı öğrenin. PDF işleme becerilerinizi geliştirmek için bu adım adım kılavuzu izleyin. |  
+| [PDF Dosyasındaki Görüntüleri Ara ve Al](./search-and-get-images/) | Aspose.PDF for .NET ile PDF dosyalarından zahmetsizce resim çıkarmayı öğrenin. PDF işleme becerilerinizi geliştirmek için bu adım adım kılavuzu izleyin. |  
 | [PDF Dosyasında Görüntü Boyutunu Ayarla](./set-image-size/) | .NET için Aspose.PDF kullanarak bir PDF'deki görüntü boyutunun nasıl ayarlanacağını öğrenin. Bu adım adım kılavuz, görüntüleri yeniden boyutlandırmanıza, sayfa özelliklerini ayarlamanıza ve PDF'leri kaydetmenize yardımcı olacaktır. |  
 | [PDF Dosyasındaki Görüntüleri Küçült](./shrink-images/) | Bu adım adım kılavuzla Aspose.PDF for .NET'i kullanarak PDF dosyalarındaki resimleri kolayca küçültün, kaliteyi korurken daha küçük dosya boyutları elde edin. |  
 | [Resmi XImage Koleksiyonunda Sakla](./store-image-in-ximage-collection/) | Bu kapsamlı adım adım kılavuzda, .NET için Aspose.PDF'yi kullanarak XImage koleksiyonunda görüntülerin nasıl depolanacağını öğrenin. |  
+| [Aspose.PDF ile PDF'de Görüntüyü Kırpma – Tam Kılavuz](./crop-image-in-pdf-with-aspose-pdf-complete-guide/) | Aspose.PDF for .NET kullanarak PDF dosyalarındaki görüntüleri nasıl kırpacağınızı adım adım öğrenin. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

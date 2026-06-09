@@ -35,6 +35,7 @@ Một bộ sưu tập toàn diện các hướng dẫn giới thiệu cách làm
 | [Thiết lập định dạng chú thích văn bản miễn phí](./setfreetextannotationformatting/) | Tìm hiểu cách thiết lập định dạng chú thích văn bản tự do trong tài liệu PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. |  
 | [Gạch bỏ các từ](./strikeoutwords/) | Tìm hiểu cách gạch bỏ các từ trong PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước toàn diện này. Nâng cao kỹ năng chỉnh sửa tài liệu của bạn. |  
 | [Cập nhật chú thích PDF văn bản miễn phí](./updatefreetextannotation/) Tìm hiểu cách cập nhật chú thích văn bản tự do trong tài liệu PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. |  
+| [Thêm chú thích PDF với Aspose.PDF - Hướng dẫn đầy đủ](./add-annotation-pdf-with-aspose-pdf-complete-guide/) | Hướng dẫn chi tiết cách thêm chú thích vào PDF bằng Aspose.PDF cho .NET, bao gồm các bước và mã mẫu đầy đủ. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

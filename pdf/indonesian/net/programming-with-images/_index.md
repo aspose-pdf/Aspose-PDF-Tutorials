@@ -48,6 +48,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Cari dan Dapatkan Gambar dalam File PDF](./search-and-get-images/) | Pelajari cara mengekstrak gambar dari file PDF dengan mudah menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah ini untuk meningkatkan keterampilan pemrosesan PDF Anda. Bahasa Indonesia:  
 | [Mengatur Ukuran Gambar Dalam File PDF](./set-image-size/) | Pelajari cara mengatur ukuran gambar dalam PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini akan membantu Anda mengubah ukuran gambar, menyesuaikan properti halaman, dan menyimpan PDF. Bahasa Indonesia:  
 | [Mengecilkan Gambar Dalam File PDF](./shrink-images/) | Kecilkan gambar dalam file PDF dengan mudah menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini, memastikan ukuran file lebih kecil dengan tetap menjaga kualitas. Bahasa Indonesia:  
+| [Memotong Gambar dalam PDF dengan Aspose.PDF – Panduan Lengkap](./crop-image-in-pdf-with-aspose-pdf-complete-guide/) | Pelajari cara memotong gambar dalam file PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah lengkap. Bahasa Indonesia:  
 | [Simpan Gambar Dalam Koleksi XImage](./store-image-in-ximage-collection/) | Pelajari cara menyimpan gambar dalam koleksi XImage menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah lengkap ini. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

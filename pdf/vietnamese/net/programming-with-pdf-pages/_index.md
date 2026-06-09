@@ -38,6 +38,7 @@ Hướng dẫn bao gồm hướng dẫn từng bước, ví dụ mã chi tiết 
 | [Cập nhật kích thước trang PDF](./update-dimensions/) | Khám phá cách cập nhật kích thước trang PDF dễ dàng bằng Aspose.PDF cho .NET trong hướng dẫn toàn diện, từng bước này. |  
 | [Phóng to nội dung trang trong tệp PDF](./zoom-to-page-contents/) | Tìm hiểu cách phóng to nội dung trang trong tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn toàn diện này. Cải thiện tài liệu PDF của bạn theo nhu cầu cụ thể của bạn. |  
 | [Thêm số trang PDF bằng C# – Hướng dẫn chi tiết từng bước](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Hướng dẫn chi tiết cách thêm số trang vào tài liệu PDF bằng C# với Aspose.PDF cho .NET. |  
+| [Sắp xếp lại các trang PDF với Aspose.Pdf – Hướng dẫn C# đầy đủ](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) | Hướng dẫn chi tiết cách sắp xếp lại các trang PDF bằng C# với Aspose.PDF cho .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

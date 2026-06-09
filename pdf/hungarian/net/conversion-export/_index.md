@@ -29,6 +29,12 @@ Ismerje meg, hogyan konvertálhat XML adatokat professzionális PDF dokumentumok
 ### [Átfogó útmutató: PDF konvertálása HTML-be Aspose.PDF .NET használatával egyéni stratégiákkal](./convert-pdf-html-aspose-dotnet-custom-strategies/)
 Tanuld meg, hogyan konvertálhatsz PDF fájlokat HTML-be egyéni stratégiákkal az Aspose.PDF for .NET segítségével. Tartsd fenn a magas minőséget, kezeld hatékonyan a képeket, betűtípusokat és CSS-t.
 
+### [PDF mentése HTML-ként az Aspose.PDF segítségével – Teljes C# útmutató](./save-pdf-as-html-with-aspose-pdf-complete-c-guide/)
+Tanulja meg, hogyan menthet PDF fájlokat HTML formátumba C#-ban az Aspose.PDF segítségével, lépésről lépésre útmutatóval.
+
+### [PDF exportálása HTML-be C#-ban – Teljes Aspose útmutató](./how-to-export-pdf-to-html-in-c-complete-aspose-guide/)
+Tanulja meg, hogyan exportálhat PDF fájlokat HTML formátumba C#-ban az Aspose.PDF segítségével, részletes lépésről-lépésre útmutatóval.
+
 ### [Átfogó útmutató: PDF konvertálása TIFF-be az Aspose.PDF .NET használatával a zökkenőmentes dokumentumkonverzióhoz](./convert-pdf-to-tiff-aspose-dotnet-guide/)
 Ismerje meg, hogyan konvertálhat hatékonyan PDF fájlokat kiváló minőségű TIFF képekké az Aspose.PDF for .NET segítségével. Kövesse ezt a lépésről lépésre szóló útmutatót a dokumentumfeldolgozási munkafolyamat fejlesztéséhez.
 
@@ -81,10 +87,13 @@ Kód oktatóanyag az Aspose.PDF Nethez
 Ismerje meg, hogyan konvertálhat PDF dokumentumokat HTML formátumba az Aspose.PDF for .NET segítségével, beleértve a képek URL-címeinek testreszabását és egy személyre szabott erőforrás-takarékossági stratégia megvalósítását.
 
 ### [PDF konvertálása PNG-vé az Aspose.PDF .NET segítségével: Betűtípus-utalás javítása az éles szövegmegjelenítés érdekében](./convert-pdf-png-aspose-net-font-hinting/)
-Tanulja meg, hogyan konvertálhat PDF dokumentumokat kiváló minőségű PNG képekké az Aspose.PDF .NET segítségével, biztosítva az éles szövegmegjelenítést a betűtípus-hivatkozások segítségével.
+Ismerje meg, hogyan konvertálhat PDF dokumentumokat kiváló minőségű PNG képekké az Aspose.PDF .NET segítségével, biztosítva az éles szövegmegjelenítést a betűtípus-hivatkozások segítségével.
+
+### [PDF renderelése PNG-be Aspose segítségével – Teljes útmutató](./how-to-render-pdf-to-png-with-aspose-complete-guide/)
+Ismerje meg, hogyan konvertálhat PDF fájlokat PNG képekké az Aspose segítségével részletes, lépésről-lépésre útmutatóval.
 
 ### [PDF konvertálása PPTX-be az Aspose.PDF for .NET segítségével: lépésről lépésre útmutató](./convert-pdf-to-pptx-aspose-dotnet-guide/)
-Ismerje meg, hogyan konvertálhat hatékonyan PDF dokumentumokat PowerPoint prezentációkká az Aspose.PDF for .NET segítségével. Ez a lépésről lépésre szóló útmutató bemutatja az alapvető konverziót, a speciális funkciókat, például a diákat és a folyamatkövetést.
+Ismerje meg, hogyan konvertálhat hatékonyan PDF dokumentumokat PowerPoint prezentációkká az Aspose.PDF for .NET segítségével. Ez a lépésről lépésre szóló útmutató bemutatja az alapvető konveriót, a speciális funkciókat, például a diákat és a folyamatkövetést.
 
 ### [PDF konvertálása SVG-vé az Aspose.PDF for .NET segítségével: lépésről lépésre útmutató](./aspose-pdf-net-pdf-to-svg-conversion/)
 Tanuld meg, hogyan konvertálhatsz PDF fájlokat SVG formátumba az Aspose.PDF for .NET segítségével. Ez az átfogó útmutató bemutatja a beállítást, a konvertálás lépéseit és az optimalizálási tippeket.
