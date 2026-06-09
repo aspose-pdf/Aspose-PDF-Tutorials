@@ -1,0 +1,7 @@
+Title: Add Annotation PDF with Aspose.PDF - Complete Guide
+Slug: add-annotation-pdf-with-aspose-pdf-complete-guide
+Category: annotations
+ProcessedDate: 2026-06-09T04:17:07.593124
+SourceRepo: AI Search API
+Keywords: add annotation pdf, save modified pdf, add watermark pdf page, configure pdf stamp, insert text overlay pdf
+PRNumber: 89
