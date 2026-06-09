@@ -1,0 +1,7 @@
+Title: Flatten PDF Layers in C# – Export & Extract Guide
+Slug: flatten-pdf-layers-in-c-export-extract-guide
+Category: document-manipulation
+ProcessedDate: 2026-06-09T04:17:27.781371
+SourceRepo: AI Search API
+Keywords: flatten pdf layers, extract layers from pdf, how to flatten layers, how to export layers, export pdf layers
+PRNumber: 89
