@@ -1,0 +1,7 @@
+Title: Create PDF Image from HEIC – Complete C# Guide
+Slug: create-pdf-image-from-heic-complete-c-guide
+Category: document-creation
+ProcessedDate: 2026-06-09T04:17:35.831414
+SourceRepo: AI Search API
+Keywords: create pdf image, convert heic to pdf, add image to pdf, generate pdf from image, how to read heic
+PRNumber: 89
