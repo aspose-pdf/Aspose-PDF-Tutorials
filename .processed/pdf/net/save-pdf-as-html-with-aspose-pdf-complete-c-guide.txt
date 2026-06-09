@@ -1,0 +1,7 @@
+Title: Save PDF as HTML with Aspose.Pdf – Complete C# Guide
+Slug: save-pdf-as-html-with-aspose-pdf-complete-c-guide
+Category: conversion-export
+ProcessedDate: 2026-06-09T04:16:51.424635
+SourceRepo: AI Search API
+Keywords: save pdf as html, convert pdf to html, how to convert pdf, aspose pdf to html, export pdf html
+PRNumber: 89
