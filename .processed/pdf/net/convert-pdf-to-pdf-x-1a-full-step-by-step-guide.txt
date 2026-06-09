@@ -1,0 +1,7 @@
+Title: Convert PDF to PDF/X-1a – Full Step‑by‑Step Guide
+Slug: convert-pdf-to-pdf-x-1a-full-step-by-step-guide
+Category: document-conversion
+ProcessedDate: 2026-06-09T04:16:59.508728
+SourceRepo: AI Search API
+Keywords: convert pdf to pdf/x-1a, aspose pdf convert, create pdf/x-1a document
+PRNumber: 89
