@@ -9,9 +9,7 @@ weight: 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # 使用 Aspose.PDF 可视化教程创建 PDF  
@@ -51,12 +49,6 @@ Aspose.PDF for .NET 可视化教程提供全面的、一步步的指南，帮助
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-<<<<<<< optimize/pdf/net/20260214124714
-## 在 PDF 中绘制线条
-在表单、签名和视觉指南中，绘制直线或对角线是常见需求。“绘制对角线”教程演示了在任意 PDF 页面添加精确线条对象所需的 API 调用。
-
-=======
->>>>>>> main
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## [使用 Aspose.PDF for .NET 从 PDF 生成图像](./net/images/)
@@ -100,17 +92,11 @@ Aspose.PDF for .NET 可视化教程提供全面的、一步步的指南，帮助
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-<<<<<<< optimize/pdf/net/20260214124714
 ## 在 PDF 中添加表格
 表格是报告和发票的关键。本节汇总了所有表格相关教程，为您提供在 PDF 中添加、样式化和分页表格的一站式参考。
 
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Aspose.PDF for .NET 文本处理综合教程](./net/text/)
-=======
-{{< blocks/products/pf/tutorial-page-section >}}
-
-## [Aspose.PDF for .NET 中的综合文本处理教程](./net/text/)
->>>>>>> main
 
 通过一步步的教程和代码示例，学习如何使用 Aspose.PDF for .NET 在 PDF 文档中创建、格式化和操作文本。
 
@@ -226,7 +212,6 @@ Aspose.PDF for .NET 可视化教程提供全面的、一步步的指南，帮助
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
