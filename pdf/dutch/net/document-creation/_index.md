@@ -80,6 +80,9 @@ Een codetutorial voor Aspose.PDF Net
 ### [PDF-document maken met Aspose.PDF – Pagina toevoegen, vorm toevoegen & opslaan](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Leer hoe u met Aspose.PDF een PDF maakt, een pagina en vorm toevoegt en het document opslaat.
 
+### [PDF-document maken C# – een stapsgewijze handleiding om een lege pagina toe te voegen en een rechthoek te tekenen](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
+Leer hoe u met Aspose.PDF voor .NET een lege pagina toevoegt en een rechthoek tekent in een PDF-document met C#.
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

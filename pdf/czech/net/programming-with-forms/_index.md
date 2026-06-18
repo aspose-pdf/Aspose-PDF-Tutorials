@@ -51,6 +51,7 @@ Tyto tutoriály také obsahují podrobné příklady kódu, jasná vysvětlení 
 | [Nastavit popisek přepínače](./set-radio-button-caption/) Naučte se, jak nastavit popisky přepínačů v PDF pomocí Aspose.PDF pro .NET. Tato podrobná příručka vás provede načítáním, úpravou a ukládáním formulářů PDF. |
 | [Textové pole](./text-box/) | Zjistěte, jak snadno přidat textová pole do PDF souborů pomocí Aspose.PDF pro .NET s tímto podrobným návodem. Vylepšete interakci s uživatelem. |
 | [Jak vytvořit PDF pomocí Aspose – Přidat formulářové pole a stránky](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Naučte se, jak pomocí Aspose.PDF pro .NET vytvořit PDF, přidat formulářová pole a stránky v jednom průvodci. |
+| [Vytvořit PDF dokument C# – krok za krokem průvodce více stránkovými formuláři](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Naučte se, jak pomocí Aspose.PDF pro .NET v C# vytvořit více stránkový PDF formulář krok za krokem. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -27,11 +27,11 @@ recurso inclui tutoriais sobre o recurso de programação com documento da bibli
 | [Converter de RGB para escala de cinza](./convertfromrgbtograyscale/) | Aprenda a converter um PDF de RGB para tons de cinza usando o Aspose.PDF para .NET. Um guia passo a passo para simplificar a conversão de cores em PDF e economizar espaço no arquivo. |  
 | [Crie um arquivo PDF multicamadas - Primeira abordagem](./createmultilayerpdffirstapproach/) | Aprenda a criar um arquivo PDF multicamadas usando a Primeira Abordagem com Aspose.PDF para .NET. Adicione texto, imagens e muito mais para aprimorar seus PDFs. |  
 | [Criar PDF Multicamadas Segunda Abordagem](./createmultilayerpdfsecondapproach/) | Aprenda a criar um PDF multicamadas usando o Aspose.PDF para .NET. Siga nosso guia passo a passo para adicionar texto, imagens e camadas ao seu arquivo PDF sem esforço. |  
-| [Crie PDF A1 com Aspose PDF](./createpdfa1withasposepdf/) | Aprenda a criar arquivos PDF/A-1 com o Aspose.PDF para .NET neste tutorial detalhado. Guia passo a passo com exemplos de código e explicações. |  
+| [Crie PDF A1 com Aspose PDF](./createpdfa1withasposepdf/) | Aprenda a criar arquivos PDF/A-1a com o Aspose.PDF para .NET neste tutorial detalhado. Guia passo a passo com exemplos de código e explicações. |  
 | [Personalize os números das páginas ao adicionar o TOC](./customizepagenumbeswhileaddingtoc/) | Aprenda a personalizar números de página ao adicionar um Índice aos seus documentos PDF usando o Aspose.PDF para .NET neste tutorial abrangente. |  
 | [Determinar o progresso para o arquivo PDF](./determineprogress/) | Aprenda como determinar o progresso das conversões de PDF usando o Aspose.PDF para .NET neste guia abrangente. |  
 | [Incorporar fonte em arquivo PDF](./embedfont/) Aprenda a incorporar fontes em um arquivo PDF usando o Aspose.PDF para .NET com este guia passo a passo. Garanta que seus documentos sejam exibidos corretamente em qualquer dispositivo. |  
-| [Incorporar fontes em arquivo PDF com estratégia de subconjunto](./embedfontsusingsubsetstrategy/) | Aprenda a incorporar fontes em um arquivo PDF com a Estratégia de Subconjunto usando o Aspose.PDF para .NET. Otimize o tamanho do seu PDF incorporando apenas os caracteres necessários. |  
+| [Incorporar fontes em arquivo PDF com estratégia de subconjunto](./embedfontsusingsubsetstrategy/) | Aprenda a incorporar fontes em um PDF com a Estratégia de Subconjunto usando o Aspose.PDF para .NET. Otimize o tamanho do seu PDF incorporando apenas os caracteres necessários. |  
 | [Incorporar fonte durante a criação de documento PDF](./embedfontwhiledoccreation/) | Aprenda a incorporar fontes em documentos PDF usando o Aspose.PDF para .NET com este guia passo a passo. Melhore a aparência do seu PDF. |  
 | [Achatar anotação em arquivo PDF](./flattenannotation/) | Aprenda a nivelar anotações em um arquivo PDF usando o Aspose.PDF para .NET neste guia. Simplifique seu processo de gerenciamento de PDF com nosso tutorial detalhado. |  
 | [Obtenha todas as fontes em arquivo PDF](./getallfonts/) | Aprenda a extrair todas as fontes de um arquivo PDF usando o Aspose.PDF para .NET neste tutorial passo a passo. Perfeito para desenvolvedores e entusiastas de PDF. |  
@@ -58,6 +58,7 @@ recurso inclui tutoriais sobre o recurso de programação com documento da bibli
 | [Validar PDF Padrão AB](./validatepdfabstandard/) Aprenda a validar um PDF para o padrão PDF/A-1b usando o Aspose.PDF para .NET neste tutorial passo a passo. Garanta a conformidade para arquivamento de longo prazo. |  
 | [Validar arquivos PDF Um padrão](./validatepdfastandard/) | Aprenda como validar arquivos PDF de acordo com o padrão PDF/A-1a usando o Aspose.PDF para .NET neste tutorial abrangente passo a passo. |  
 | [Validar PDF UA Padrão](./validatepdfuastandard/) | Aprenda como validar um PDF para o padrão de acessibilidade PDF/UA usando o Aspose.PDF para .NET com nosso guia passo a passo e explicações detalhadas. |  
+| [Abrir arquivo PDF C# – Como reparar um PDF corrompido em minutos](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | Aprenda a abrir e reparar PDFs corrompidos usando Aspose.PDF para .NET em poucos minutos. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

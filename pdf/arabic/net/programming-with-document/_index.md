@@ -58,6 +58,7 @@
 | [التحقق من صحة معيار PDF AB](./validatepdfabstandard/) تعرّف على كيفية التحقق من صحة ملف PDF لمعيار PDF/A-1b باستخدام Aspose.PDF لـ .NET في هذا البرنامج التعليمي خطوة بخطوة. اضمن التوافق مع معايير الأرشفة طويلة الأمد.  
 | [التحقق من صحة ملفات PDF كمعيار](./validatepdfastandard/) |تعرف على كيفية التحقق من صحة ملفات PDF وفقًا لمعيار PDF/A-1a باستخدام Aspose.PDF لـ .NET في هذا البرنامج التعليمي الشامل خطوة بخطوة. |  
 | [التحقق من صحة معيار PDF UA](./validatepdfuastandard/) |تعرف على كيفية التحقق من صحة ملف PDF لمعيار إمكانية الوصول PDF/UA باستخدام Aspose.PDF لـ .NET من خلال دليلنا خطوة بخطوة وشروحاتنا التفصيلية. |  
+| [فتح ملف PDF باستخدام C# – كيفية إصلاح ملف PDF تالف في دقائق](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | تعلم كيفية إصلاح ملفات PDF التالفة بسرعة باستخدام Aspose.PDF لـ .NET وC#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

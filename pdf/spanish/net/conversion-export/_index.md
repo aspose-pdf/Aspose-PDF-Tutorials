@@ -141,7 +141,7 @@ Aprenda a recortar regiones específicas de una página PDF y convertirlas en im
 Aprenda a exportar datos de aplicaciones a PDF de forma eficiente con Aspose.PDF para .NET. Esta guía abarca la configuración, ejemplos de código en C# y las características principales.
 
 ### [Exportar anotaciones PDF con Aspose.PDF .NET: una guía completa](./export-annotations-aspose-pdf-net/)
-Aprenda a exportar anotaciones desde archivos PDF de forma eficiente con Aspose.PDF para .NET. Esta guía abarca la configuración, la implementación y las prácticas recomendadas.
+Aprenda a exportar anotaciones desde archivos PDF de forma eficiente con Aspose.PDF .NET. Esta guía abarca la configuración, la implementación y las prácticas recomendadas.
 
 ### [Exportar datos PDF a XML con Aspose.PDF para .NET: guía paso a paso](./export-pdf-data-to-xml-aspose-dotnet-guide/)
 Aprenda a exportar de manera eficiente datos de formularios PDF a XML estructurado utilizando Aspose.PDF para .NET, una poderosa biblioteca diseñada para la manipulación de PDF.
@@ -224,10 +224,10 @@ Domine la conversión de PDF a HTML con Aspose.PDF para .NET. Mejore la accesibi
 ### [Conversión de PDF a HTML con Aspose.PDF para .NET](./pdf-to-html-conversion-aspose-dot-net/)
 Un tutorial de código para Aspose.PDF Net
 
-### [Conversión de PDF a TIFF en .NET con Aspose.PDF: guía paso a paso](./pdf-to-tiff-conversion-aspose-pdf-net/)
-Aprenda a convertir documentos PDF a imágenes TIFF con Aspose.PDF para .NET. Domine las profundidades de color personalizadas y las técnicas avanzadas de procesamiento de imágenes.
+### [Cómo guardar HTML desde PDF – Guía paso a paso](./how-to-save-html-from-pdf-step-by-step-guide/)
+Aprenda a extraer y guardar contenido HTML de un archivo PDF usando Aspose.PDF para .NET con ejemplos paso a paso.
 
-## Recursos adicionales
+## Conversión de PDF a TIFF en .NET con Aspose.PDF: guía paso a paso
 
 - [Documentación de Aspose.PDF para la red](https://docs.aspose.com/pdf/net/)
 - [Referencia de API de Aspose.PDF para Net](https://reference.aspose.com/pdf/net/)

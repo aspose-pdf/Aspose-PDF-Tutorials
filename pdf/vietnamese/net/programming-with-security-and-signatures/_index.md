@@ -30,11 +30,14 @@ Hướng dẫn cung cấp cho bạn tổng quan chi tiết về các phương ph
 | [Trích xuất hình ảnh](./extracting-image/) | Dễ dàng học cách trích xuất hình ảnh từ PDF bằng Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để trích xuất hình ảnh liền mạch. |  
 | [Trích xuất thông tin chữ ký](./extract-signature-info/) | Tìm hiểu cách trích xuất chữ ký số và thông tin chứng chỉ từ tài liệu PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước đầy đủ dành cho nhà phát triển C#. |  
 | [Kiểm tra chữ ký PDF trong C# – Cách đọc tệp PDF đã ký](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Học cách kiểm tra và đọc các chữ ký PDF bằng C# với Aspose.PDF cho .NET trong hướng dẫn chi tiết. |  
+| [Cách đọc chữ ký trong PDF – Hướng dẫn C# đầy đủ](./how-to-read-signatures-in-a-pdf-complete-c-guide/) | Học cách đọc các chữ ký số trong tài liệu PDF bằng Aspose.PDF cho .NET với hướng dẫn chi tiết từng bước. |  
+| [Xác minh chữ ký PDF trong C# – Hướng dẫn đầy đủ](./how-to-verify-pdf-signatures-in-c-full-guide/) | Học cách xác minh chữ ký PDF bằng C# với Aspose.PDF cho .NET. Hướng dẫn chi tiết từng bước. |
 | [Có được bảo vệ bằng mật khẩu không](./is-password-protected/) Tìm hiểu cách kiểm tra xem tệp PDF có được bảo vệ bằng mật khẩu hay không bằng Aspose.PDF cho .NET trong hướng dẫn từng bước toàn diện này. |  
 | [Thiết lập quyền trong tệp PDF](./set-privileges/) | Tìm hiểu cách thiết lập quyền PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Bảo mật tài liệu của bạn một cách hiệu quả. |  
 | [Ký bằng thẻ thông minh sử dụng chữ ký tệp PDF](./sign-with-smart-card-using-pdf-file-signature/) | Tìm hiểu cách ký tệp PDF bằng thẻ thông minh với Aspose.PDF cho .NET. Thực hiện theo hướng dẫn từng bước này để có chữ ký số an toàn. |  
 | [Ký bằng thẻ thông minh sử dụng trường chữ ký](./sign-with-smart-card-using-signature-field/) | Tìm hiểu cách ký PDF an toàn bằng thẻ thông minh với Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để triển khai dễ dàng. |  
 | [Cách sửa tệp PDF – Hướng dẫn C# đầy đủ với Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Học cách sửa chữa các tệp PDF bị hỏng bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết bằng C#. |  
+| [Hướng dẫn chữ ký PDF – Xác minh và xác thực chữ ký PDF trong C#](./pdf-signature-tutorial-verify-and-validate-pdf-signatures-in/) | Học cách xác minh và xác thực chữ ký PDF trong C# bằng Aspose.PDF, bao gồm các bước chi tiết và ví dụ thực tế. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
