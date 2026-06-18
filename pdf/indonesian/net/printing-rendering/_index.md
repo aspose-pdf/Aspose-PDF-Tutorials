@@ -50,6 +50,9 @@ Pelajari cara mencetak halaman tertentu dari PDF secara efisien menggunakan Aspo
 ### [Mengatur Faktor Zoom Kustom dalam PDF Menggunakan Aspose.PDF untuk .NET - Panduan Lengkap](./aspose-pdf-net-set-zoom-factor-pdfs/)
 Pelajari cara mengatur faktor zoom khusus dalam dokumen PDF menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup instalasi, langkah-langkah implementasi, dan aplikasi praktis.
 
+### [Cara Merender PDF menjadi PNG di C# – Panduan Langkah demi Langkah](./how-to-render-pdf-as-png-in-c-step-by-step-guide/)
+Pelajari cara mengonversi halaman PDF menjadi gambar PNG menggunakan Aspose.PDF untuk .NET dengan contoh kode C# yang mudah diikuti.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

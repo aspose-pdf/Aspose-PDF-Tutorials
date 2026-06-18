@@ -36,6 +36,7 @@ Aspose.PDFs handledningar "Programmering med stämplar och vattenstämplar" för
 | [Bild i sidhuvud](./image-in-header/) | Lär dig hur du lägger till en bild i sidhuvudet på en PDF med Aspose.PDF för .NET i den här steg-för-steg-handledningen. |  
 | [Sidnummer i sidhuvudsfot med flytande ruta](./page-number-in-header-footer-using-floating-box/) | Lägg enkelt till sidnummer i ditt PDF-sidhuvud och -sidfot med hjälp av en flytande ruta med Aspose.PDF för .NET i den här steg-för-steg-handledningen. |  
 | [Sidnummerstämplar i PDF-fil](./page-number-stamps/) Lär dig hur du lägger till sidnummerstämplar i PDF-filer med Aspose.PDF för .NET genom vår lättförståeliga guide, komplett med kodexempel. |  
+| [Lägg till Bates-nummerering i PDF-filer med Aspose – Komplett guide](./add-bates-numbering-to-pdfs-with-aspose-complete-guide/) | Lär dig hur du automatiskt lägger till Bates-nummerering i PDF-dokument med Aspose.PDF för .NET i denna kompletta guide. |  
 | [Tabell i sidhuvuds- och sidfotssektionen](./table-in-header-footer-section/) | Lär dig hur du enkelt lägger till text i sidfoten på en PDF-fil med Aspose.PDF för .NET. Steg-för-steg-guide ingår för sömlös integration. |  
 | [Text i sidfoten på PDF-filen](./text-in-footer/) | Lär dig hur du lägger till text i sidfoten på en PDF-fil med Aspose.PDF för .NET. |  
 | [Text i sidhuvudet på PDF-filen](./text-in-header/) | Lär dig lägga till textrubriker i PDF-filer med Aspose.PDF för .NET med den här steg-för-steg-handledningen. Förbättra dina dokument effektivt och ändamålsenligt. |  

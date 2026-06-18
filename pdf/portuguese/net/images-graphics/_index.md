@@ -104,6 +104,9 @@ Aprenda a criar PDFs acessíveis com tags e imagens incorporadas usando o Aspose
 ### [Como criar retângulos transparentes em PDFs usando Aspose.PDF para .NET](./create-transparent-rectangles-aspose-pdf-dotnet/)
 Aprenda a aprimorar seus documentos PDF criando retângulos com transparência alfa usando o Aspose.PDF para .NET. Siga este guia passo a passo.
 
+### [Como validar PDF e adicionar retângulo – Guia completo](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
+Aprenda a validar arquivos PDF e inserir retângulos usando Aspose.PDF para .NET com este guia completo.
+
 ### [Como excluir imagens de arquivos PDF usando Aspose.PDF para .NET - Guia completo](./delete-images-aspose-pdf-net/)
 Aprenda a excluir imagens de arquivos PDF com eficiência usando o Aspose.PDF para .NET. Este guia aborda configuração, exemplos de código e práticas recomendadas.
 
@@ -141,7 +144,7 @@ Aprenda a extrair dimensões de páginas e renderizar imagens de PDFs usando o A
 Aprenda a redimensionar, compactar e ajustar a qualidade de imagens em PDFs com eficiência usando o Aspose.PDF para .NET. Melhore o desempenho dos documentos e a experiência do usuário.
 
 ### [Como remover gráficos de PDFs usando Aspose.PDF .NET: um guia completo](./remove-graphics-aspose-pdf-net/)
-Aprenda a remover gráficos de PDFs com eficiência usando o Aspose.PDF para .NET. Siga este guia passo a passo para organizar seus documentos e otimizar o tamanho dos arquivos.
+Aprenda a remover gráficos de PDFs com eficiência usando o Aspose.PDF .NET. Siga este guia passo a passo para organizar seus documentos e otimizar o tamanho dos arquivos.
 
 ### [Como substituir imagens em PDFs usando Aspose.PDF .NET: um guia para desenvolvedores](./replace-images-pdf-aspose-net-guide/)
 Aprenda a substituir imagens em documentos PDF com eficiência usando o Aspose.PDF para .NET. Simplifique as atualizações de seus documentos com este guia completo para desenvolvedores.

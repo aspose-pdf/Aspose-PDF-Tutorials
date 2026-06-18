@@ -35,6 +35,9 @@ Scopri come convertire file SVG in PDF di alta qualità senza problemi utilizzan
 ### [Creare e riempire rettangoli nei PDF utilizzando Aspose.PDF per .NET: una guida passo passo](./create-fill-rectangle-aspose-pdf-net/)
 Scopri come creare e riempire rettangoli nei documenti PDF utilizzando Aspose.PDF per .NET. Questa guida passo passo copre tutto, dalla configurazione all'implementazione con C#.
 
+### [Come validare PDF e aggiungere un rettangolo – Guida completa](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
+Scopri come verificare la validità di un PDF e inserire un rettangolo usando Aspose.PDF per .NET con esempi di codice passo passo.
+
 ### [Crea timbri PDF personalizzati con Aspose.PDF in .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Un tutorial sul codice per Aspose.PDF Net
 

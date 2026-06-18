@@ -35,6 +35,9 @@ Tìm hiểu cách chuyển đổi tệp SVG thành PDF chất lượng cao một
 ### [Tạo & Điền Hình Chữ Nhật Trong PDF Sử Dụng Aspose.PDF Cho .NET: Hướng Dẫn Từng Bước](./create-fill-rectangle-aspose-pdf-net/)
 Tìm hiểu cách tạo và điền hình chữ nhật trong tài liệu PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước này bao gồm mọi thứ từ thiết lập đến triển khai bằng C#.
 
+### [Cách xác thực PDF và thêm hình chữ nhật – Hướng dẫn đầy đủ](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
+Tìm hiểu cách xác thực PDF và vẽ hình chữ nhật trong tài liệu bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết này.
+
 ### [Tạo tem PDF tùy chỉnh với Aspose.PDF trong .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Hướng dẫn mã cho Aspose.PDF Net
 
@@ -132,7 +135,7 @@ Tìm hiểu cách trích xuất hình ảnh hiệu quả từ tệp PDF bằng A
 Tìm hiểu cách trích xuất hình ảnh từ tài liệu PDF bằng Aspose.PDF cho .NET với hướng dẫn toàn diện này. Hoàn hảo cho các nhà phát triển muốn nâng cao khả năng xử lý tài liệu.
 
 ### [Cách trích xuất hình ảnh từ các trang cụ thể của PDF bằng Aspose.PDF cho .NET](./extract-images-pdfs-specific-pages-aspose-dotnet/)
-Tìm hiểu cách trích xuất hình ảnh hiệu quả từ các trang cụ thể trong PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm các mẹo thiết lập, triển khai và hiệu suất.
+Tìm hiểu cách trích xuất hình ảnh hiệu quả từ các trang cụ thể trong PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm các mẹt thiết lập, triển khai và hiệu suất.
 
 ### [Cách trích xuất thông tin trang PDF và hiển thị hình ảnh bằng Aspose.PDF cho .NET (Hướng dẫn năm 2023)](./extract-pdf-info-render-images-aspose-dotnet/)
 Tìm hiểu cách trích xuất kích thước trang và hiển thị hình ảnh từ PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm thiết lập, triển khai và ứng dụng thực tế.
@@ -159,10 +162,10 @@ Học cách tối ưu hóa vị trí hình ảnh trong tài liệu PDF với Asp
 Tìm hiểu cách nén và tối ưu hóa hình ảnh trong tài liệu PDF bằng Aspose.PDF cho .NET, giảm kích thước tệp trong khi vẫn duy trì chất lượng. Lý tưởng cho các nhà phát triển và quản lý tài liệu.
 
 ### [Kết xuất LaTeX trong PDF với Aspose.PDF .NET: Hướng dẫn từng bước](./render-latex-aspose-pdf-net-guide/)
-Tìm hiểu cách chuyển các tập lệnh LaTeX phức tạp thành tài liệu PDF bằng Aspose.PDF cho .NET, bao gồm các mẹo thiết lập, triển khai và tối ưu hóa.
+Tìm hiểu cách chuyển các tập lệnh LaTeX phức tạp thành tài liệu PDF bằng Aspose.PDF cho .NET, bao gồm các mẹt thiết lập, triển khai và tối ưu hóa.
 
 ### [Đặt hình nền ảnh trong PDF bằng Aspose.PDF cho .NET: Hướng dẫn toàn diện](./aspose-pdf-net-set-image-backgrounds/)
-Tìm hiểu cách cải thiện tài liệu PDF của bạn bằng cách thiết lập hình nền bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm các mẹo thiết lập, triển khai và tối ưu hóa.
+Tìm hiểu cách cải thiện tài liệu PDF của bạn bằng cách thiết lập hình nền bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm các mẹt thiết lập, triển khai và tối ưu hóa.
 
 ## Tài nguyên bổ sung
 

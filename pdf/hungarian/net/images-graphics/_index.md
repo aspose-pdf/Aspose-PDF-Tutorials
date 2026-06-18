@@ -164,6 +164,9 @@ Ismerje meg, hogyan renderelhet összetett LaTeX szkripteket PDF dokumentumokká
 ### [Képhátterek beállítása PDF-ekben az Aspose.PDF for .NET használatával: Átfogó útmutató](./aspose-pdf-net-set-image-backgrounds/)
 Ismerje meg, hogyan javíthatja PDF-dokumentumait képhátterek beállításával az Aspose.PDF for .NET segítségével. Ez az útmutató a beállítással, a megvalósítással és az optimalizálással kapcsolatos tippeket tartalmazza.
 
+### [PDF validálása és téglalap hozzáadása – Teljes útmutató](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
+Tanulja meg, hogyan ellenőrizheti a PDF-et, és adhat hozzá téglalap alakzatot az Aspose.PDF for .NET segítségével.
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)

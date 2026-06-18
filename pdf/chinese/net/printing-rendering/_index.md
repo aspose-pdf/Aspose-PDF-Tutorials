@@ -27,7 +27,7 @@
 通过本分步指南了解如何使用 Aspose.PDF .NET 将标准 PDF 文档转换为专业小册子。
 
 ### [如何使用 Aspose.PDF for .NET 创建 PDF 小册子：分步指南](./create-pdf-booklet-aspose-pdf-net-guide/)
-了解如何使用 Aspose.PDF for .NET 创建专业的 PDF 小册子。按照我们的分步指南，简化文档处理并增强您的演示文稿。
+了解如何使用 Aspose.PDF for .NET 创建专业的 PDF 小册子。按照我们的分步指南，简化文档处理并增强您的演示稿。
 
 ### [如何在 C# 中使用 Aspose.PDF for .NET 从 PDF 打印特定页面](./print-specific-pages-pdf-aspose-net/)
 学习如何使用 C# 和 Aspose.PDF for .NET 从 PDF 打印特定页面范围。按照本分步指南，高效管理文档。
@@ -49,6 +49,9 @@
 
 ### [使用 Aspose.PDF for .NET 在 PDF 中设置自定义缩放比例 - 完整指南](./aspose-pdf-net-set-zoom-factor-pdfs/)
 了解如何使用 Aspose.PDF for .NET 在 PDF 文档中设置自定义缩放比例。本指南涵盖安装、实施步骤和实际应用。
+
+### [如何在 C# 中使用 Aspose.PDF 将 PDF 渲染为 PNG – 分步指南](./how-to-render-pdf-as-png-in-c-step-by-step-guide/)
+学习如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 页面渲染为 PNG 图像，步骤详尽，代码示例完整。
 
 ## 其他资源
 

@@ -50,6 +50,9 @@ Ismerje meg, hogyan nyomtathat hatékonyan PDF-fájlok egyes oldalait az Aspose.
 ### [Egyéni nagyítási tényező beállítása PDF-ekben az Aspose.PDF for .NET használatával - Teljes útmutató](./aspose-pdf-net-set-zoom-factor-pdfs/)
 Ismerje meg, hogyan állíthat be egyéni nagyítási tényezőt PDF dokumentumokban az Aspose.PDF for .NET használatával. Ez az útmutató a telepítést, a megvalósítás lépéseit és a gyakorlati alkalmazásokat ismerteti.
 
+### [PDF renderelése PNG formátumba C#‑ban – Lépésről lépésre útmutató](./how-to-render-pdf-as-png-in-c-step-by-step-guide/)
+Tanulja meg, hogyan konvertálhat PDF oldalakat PNG képekké C#‑ban az Aspose.PDF for .NET használatával.
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)
