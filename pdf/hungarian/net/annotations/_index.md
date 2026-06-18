@@ -35,6 +35,7 @@
 | [Szabad szöveges jegyzetformázás beállítása](./setfreetextannotationformatting/) | Tanulja meg, hogyan állíthat be szabad szöveges jegyzetformázást PDF dokumentumokban az Aspose.PDF for .NET használatával ebből a lépésről lépésre szóló útmutatóból. |  
 | [Szavak áthúzása](./strikeoutwords/) | Tanulja meg, hogyan húzhat ki szavakat egy PDF-ben az Aspose.PDF for .NET használatával ezzel az átfogó, lépésről lépésre szóló útmutatóval. Fejlessze dokumentumszerkesztési készségeit. |  
 | [Szabad szövegű PDF jegyzet frissítése](./updatefreetextannotation/) Tanulja meg, hogyan frissítheti a szabad szöveges megjegyzéseket PDF dokumentumokban az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. |  
+| [Hogyan használjuk a Repair funkciót az Aspose.PDF-ben – Hibás megjegyzések javítása](./how-to-use-repair-in-aspose-pdf-fix-broken-annotations/) Ismerje meg, hogyan javíthatja a sérült annotációkat az Aspose.PDF Repair funkciójával lépésről lépésre útmutatóval. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -50,6 +50,10 @@
 ### [.NET के लिए Aspose.PDF का उपयोग करके PDF में फ़ॉन्ट्स को अनएम्बेड करें: फ़ाइल का आकार कम करें और प्रदर्शन में सुधार करें](./optimize-pdfs-unembed-fonts-aspose-pdf-net/)
 .NET के लिए Aspose.PDF का उपयोग करके अपनी PDF फ़ाइलों से फ़ॉन्ट को अनएम्बेड करना सीखें। इस चरण-दर-चरण मार्गदर्शिका के साथ PDF प्रदर्शन को अनुकूलित करें, फ़ाइल का आकार कम करें और लोड समय में सुधार करें।
 
+### [C# में Aspose.Pdf के साथ PDF को संपीड़ित करने का तरीका – पूर्ण चरण-दर-चरण गाइड](./how-to-compress-pdf-with-aspose-pdf-in-c-complete-step-by-st/)
+
+### [Aspose PDF इमेज संपीड़न C# में – PDF आकार जल्दी घटाएँ](./aspose-pdf-image-compression-in-c-reduce-pdf-size-quickly/)
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.PDF for Net दस्तावेज़ीकरण](https://docs.aspose.com/pdf/net/)

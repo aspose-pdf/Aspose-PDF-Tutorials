@@ -34,7 +34,11 @@ Samouczek zapewnia szczegółowy przegląd metod i technik zapewniających poufn
 | [Podpisz za pomocą karty inteligentnej, używając podpisu pliku PDF](./sign-with-smart-card-using-pdf-file-signature/) | Dowiedz się, jak podpisywać pliki PDF za pomocą karty inteligentnej za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby uzyskać bezpieczne podpisy cyfrowe. |  
 | [Podpisz kartą inteligentną, korzystając z pola podpisu](./sign-with-smart-card-using-signature-field/) | Dowiedz się, jak bezpiecznie podpisywać pliki PDF za pomocą karty inteligentnej za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby ułatwić wdrożenie. |  
 | [Sprawdź podpisy PDF w C# – Jak odczytać podpisane pliki PDF](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Dowiedz się, jak odczytywać i weryfikować podpisy PDF w C# przy użyciu Aspose.PDF. |  
+| [Sprawdź podpisy PDF za pomocą Aspose.Pdf – Kompletny przewodnik](./check-pdf-signatures-with-aspose-pdf-complete-guide/) | Dowiedz się, jak w pełni weryfikować i odczytywać podpisy PDF przy użyciu Aspose.Pdf w języku C# – krok po kroku. |  
+| [Sprawdź poprawność podpisu PDF w C# – Kompletny przewodnik krok po kroku](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | Poznaj, jak sprawdzić ważność podpisu PDF w C# z Aspose.PDF – szczegółowy przewodnik krok po kroku. |  
 | [Jak naprawić pliki PDF – Kompletny przewodnik C# z Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Dowiedz się, jak naprawić uszkodzone pliki PDF przy użyciu Aspose.PDF dla .NET w języku C# – krok po kroku. |  
+| [Utwórz odłączony podpis PKCS7 w C# – Kompletny przewodnik](./create-pkcs7-detached-signer-in-c-complete-guide/) | Dowiedz się, jak utworzyć odłączony podpis PKCS7 w C# przy użyciu Aspose.PDF dla .NET – kompletny przewodnik krok po kroku. |  
+| [Pobierz nazwy podpisów PDF za pomocą Aspose.PDF w C#](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | Dowiedz się, jak wyodrębnić nazwy podpisów PDF przy użyciu Aspose.PDF w C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

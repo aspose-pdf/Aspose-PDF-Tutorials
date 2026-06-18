@@ -50,6 +50,11 @@
 ### [ยกเลิกการฝังแบบอักษรในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET: ลดขนาดไฟล์และปรับปรุงประสิทธิภาพ](./optimize-pdfs-unembed-fonts-aspose-pdf-net/)
 เรียนรู้วิธีแยกแบบอักษรออกจากไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET เพิ่มประสิทธิภาพ PDF ลดขนาดไฟล์ และปรับปรุงเวลาในการโหลดด้วยคู่มือทีละขั้นตอนนี้
 
+### [วิธีบีบอัด PDF ด้วย Aspose.Pdf ใน C# – คู่มือขั้นตอนเต็ม](./how-to-compress-pdf-with-aspose-pdf-in-c-complete-step-by-st/)
+
+### [การบีบอัดภาพใน Aspose PDF ด้วย C# – ลดขนาด PDF อย่างรวดเร็ว](./aspose-pdf-image-compression-in-c-reduce-pdf-size-quickly/)
+เรียนรู้วิธีบีบอัดภาพใน PDF ด้วย Aspose.PDF ใน C# เพื่อให้ไฟล์ขนาดเล็กลงอย่างรวดเร็วและประหยัดพื้นที่
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)

@@ -191,6 +191,9 @@ Lär dig hur du effektivt tar bort all text från en PDF med Aspose.PDF .NET. Pe
 ### [Så här tar du bort PDF-öppningsåtgärder med Aspose.PDF för .NET: En komplett guide](./remove-pdf-open-action-aspose-dotnet-guide/)
 Lär dig hur du eliminerar oönskade öppnande åtgärder från PDF-filer med Aspose.PDF för .NET. Den här guiden ger steg-för-steg-instruktioner och bästa praxis.
 
+### [Hur man tar bort inbäddade teckensnitt i PDF – Steg‑för‑steg C#‑guide](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
+Lär dig hur du tar bort inbäddade teckensnitt från PDF-filer med Aspose.PDF för .NET i C#.
+
 ### [Så här delar du upp PDF-sidor med Aspose.PDF för .NET: En komplett guide](./mastering-pdf-page-splitting-aspose-pdf-net/)
 Lär dig hur du effektivt delar upp PDF-sidor i individuella filer med Aspose.PDF för .NET med den här omfattande guiden. Öka dina dokumenthanteringsfärdigheter idag.
 
