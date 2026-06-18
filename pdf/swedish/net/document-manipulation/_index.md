@@ -311,6 +311,15 @@ Lär dig hur du delar upp flersidiga PDF-filer och skapar nya PDF-filer med Aspo
 ### [Ultimat guide till PDF-manipulation med Aspose.PDF .NET: Ladda, spara och ersätt text effektivt](./master-pdf-manipulation-aspose-pdf-net/)
 Lär dig hur du bemästrar PDF-manipulation med Aspose.PDF för .NET. Den här guiden behandlar hur man laddar, sparar och ersätter text i PDF-filer, perfekt för utvecklare som söker effektivitet.
 
+### [Platta till PDF-lager i C# – Export- och extraheringsguide](./flatten-pdf-layers-in-c-export-extract-guide/)
+Lär dig hur du plattar till PDF-lager och exporterar eller extraherar dem med Aspose.PDF för .NET i C#.
+
+### [Platta till PDF med Aspose.PDF – Komplett guide](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+Lär dig hur du plattar till PDF-filer med Aspose.PDF för .NET i en steg-för-steg-guide.
+
+### [Visuell PDF-jämförelse i C# – Komplett guide för att jämföra två PDF-filer](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
+Lär dig hur du visuellt jämför två PDF-filer i C# med Aspose.PDF och identifierar skillnader enkelt.
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

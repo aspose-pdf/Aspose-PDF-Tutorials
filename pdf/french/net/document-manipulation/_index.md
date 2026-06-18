@@ -306,10 +306,18 @@ Apprenez à diviser un fichier PDF en pages individuelles avec Aspose.PDF pour .
 Apprenez à diviser des pages PDF en fichiers distincts avec Aspose.PDF pour .NET. Ce guide complet couvre la configuration, la mise en œuvre et l'optimisation.
 
 ### [Diviser et créer des fichiers PDF avec Aspose.PDF .NET | Guide de manipulation de documents](./split-create-pdf-aspose-pdf-net/)
-Apprenez à fractionner des PDF multipages et à créer de nouveaux fichiers PDF avec Aspose.PDF pour .NET. Suivez ce guide complet avec des exemples de code.
+Apprenez à fractionner des PDF multipages et à créer de nouveaux fichiers PDF avec Aspose.PDF .NET. Suivez ce guide complet avec des exemples de code.
 
 ### [Guide ultime de manipulation de PDF avec Aspose.PDF .NET : charger, enregistrer et remplacer du texte efficacement](./master-pdf-manipulation-aspose-pdf-net/)
 Apprenez à maîtriser la manipulation des PDF avec Aspose.PDF pour .NET. Ce guide couvre le chargement, l'enregistrement et le remplacement de texte dans les PDF, idéal pour les développeurs en quête d'efficacité.
+
+### [Aplatir les calques PDF en C# – Guide d'exportation et d'extraction](./flatten-pdf-layers-in-c-export-extract-guide/)
+Apprenez à aplatir les couches d'un PDF, puis à l'exporter et extraire son contenu avec Aspose.PDF pour .NET en C#.
+
+### [Comment aplatir un PDF avec Aspose.PDF – Guide complet](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+Apprenez à aplatir les couches d'un PDF pour simplifier le fichier et améliorer la compatibilité, grâce à Aspose.PDF, avec un guide complet pas à pas.
+
+### [Différence visuelle de PDF en C# – Guide complet pour comparer deux PDF](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
 
 ## Ressources supplémentaires
 

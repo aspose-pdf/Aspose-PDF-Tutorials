@@ -266,7 +266,7 @@ Aspose.PDF Net 代码教程
 ### [掌握 PDF 管理：使用 Aspose.PDF .NET 实现高效的页面方向、颜色和空白检测](./aspose-pdf-net-page-orientation-color-blank-detection/)
 了解如何使用 Aspose.PDF for .NET 通过更改页面方向、检测白色和识别空白页来有效地管理 PDF 文档。
 
-### [掌握 PDF 操作：Aspose.PDF for .NET 综合指南](./aspose-pdf-net-manipulation-guide/)
+### [掌握 PDF 操作：Aspose.PDF .NET 综合指南](./aspose-pdf-net-manipulation-guide/)
 学习如何使用 Aspose.PDF for .NET 高效地操作 PDF。从设置到高级功能，本指南涵盖了文档自动化所需的一切。
 
 ### [掌握 PDF 操作：Aspose.PDF .NET 用于正则表达式搜索和文档处理](./aspose-pdf-net-regex-searching/)
@@ -310,6 +310,14 @@ Aspose.PDF Net 代码教程
 
 ### [使用 Aspose.PDF .NET 进行 PDF 操作的终极指南：高效加载、保存和替换文本](./master-pdf-manipulation-aspose-pdf-net/)
 学习如何使用 Aspose.PDF for .NET 掌握 PDF 操作。本指南涵盖 PDF 中的文本加载、保存和替换，非常适合追求效率的开发人员。
+
+### [在 C# 中展平 PDF 图层 – 导出与提取指南](./flatten-pdf-layers-in-c-export-extract-guide/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中展平 PDF 图层，并导出或提取图层内容的完整步骤。
+
+### [C# 中的可视化 PDF 差异比较 – 比较两个 PDF 的完整指南](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中实现可视化 PDF 差异比较，轻松对比两个 PDF 文档的内容差异。
+
+### [如何使用 Aspose.PDF 将 PDF 展平 – 完整指南](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
 
 ## 其他资源
 

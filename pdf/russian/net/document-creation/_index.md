@@ -77,6 +77,9 @@
 ### [Создание PDF-документа с Aspose.PDF – добавить страницу, форму и сохранить](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Узнайте, как добавить страницу, форму и сохранить PDF-документ с помощью Aspose.PDF для .NET.
 
+### [Создание PDF‑изображения из HEIC – Полное руководство на C#](./create-pdf-image-from-heic-complete-c-guide/)
+Узнайте, как преобразовать изображения HEIC в PDF с помощью Aspose.PDF для .NET, используя C#.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.PDF для сети](https://docs.aspose.com/pdf/net/)

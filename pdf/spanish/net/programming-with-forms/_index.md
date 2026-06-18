@@ -51,6 +51,7 @@ Estos tutoriales también ofrecen ejemplos de código detallados, explicaciones 
 | [Establecer Java Script](./set-java-script/) Desbloquea el poder de Aspose.PDF para .NET. Aprende a configurar JavaScript en campos de formulario con nuestra guía paso a paso.  
 | [Establecer título del botón de opción](./set-radio-button-caption/) Aprenda a configurar títulos de botones de opción en archivos PDF con Aspose.PDF para .NET. Esta guía paso a paso le guiará en la carga, modificación y guardado de sus formularios PDF.  
 | [Cuadro de texto](./text-box/) Descubre cómo añadir fácilmente cuadros de texto a archivos PDF con Aspose.PDF para .NET con esta guía paso a paso. Mejora la interacción del usuario.  
+| [Crear formulario multipágina en C# con Aspose.Pdf – Guía paso a paso](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) Aprenda a crear un formulario PDF de varias páginas en C# usando Aspose.Pdf con esta guía paso a paso.  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

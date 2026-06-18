@@ -36,7 +36,7 @@ Aprenda a aprimorar seus documentos PDF adicionando JavaScript interativo aos ca
 Aprenda a adicionar quebras de página em documentos PDF usando o Aspose.PDF para .NET. Siga nosso guia passo a passo sobre instalação, configuração e implementação.
 
 ### [Adicionar retângulos e configurar páginas PDF com Aspose.PDF .NET: um guia completo](./aspose-pdf-net-add-rectangles-configure-pages/)
-Domine a adição de retângulos e a configuração de páginas em PDFs usando o Aspose.PDF para .NET. Siga este guia para aprender técnicas de manipulação de documentos com eficácia.
+Domine a adição de retângulos e a configuração de páginas em PDFs usando o Aspose.PDF .NET. Siga este guia para aprender técnicas de manipulação de documentos com eficácia.
 
 ### [Aspose.PDF .NET: Definir margens de PDF e personalizar cabeçalhos/rodapés](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 Domine a arte de definir margens de página e personalizar cabeçalhos/rodapés em seus PDFs com o Aspose.PDF para .NET. Siga este guia detalhado para aprimorar a consistência do layout do documento.
@@ -310,6 +310,15 @@ Aprenda a dividir PDFs de várias páginas e criar novos arquivos PDF usando o A
 
 ### [Guia definitivo para manipulação de PDF com Aspose.PDF .NET: carregue, salve e substitua texto com eficiência](./master-pdf-manipulation-aspose-pdf-net/)
 Aprenda a dominar a manipulação de PDFs usando o Aspose.PDF para .NET. Este guia aborda como carregar, salvar e substituir texto em PDFs, ideal para desenvolvedores que buscam eficiência.
+
+### [Aplanar Camadas de PDF em C# – Guia de Exportação e Extração](./flatten-pdf-layers-in-c-export-extract-guide/)
+Aprenda a aplanar camadas de PDFs e exportar ou extrair seu conteúdo usando Aspose.PDF para .NET em C#.
+
+### [Como achatar PDF com Aspose.PDF – Guia completo](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+Aprenda a achatar camadas de PDFs usando Aspose.PDF para .NET, facilitando exportação e extração de conteúdo.
+
+### [Diferença Visual de PDF em C# – Guia Completo para Comparar Dois PDFs](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
+Aprenda a comparar visualmente dois PDFs usando C# com o Aspose.PDF, destacando diferenças e gerando relatórios.
 
 ## Recursos adicionais
 
