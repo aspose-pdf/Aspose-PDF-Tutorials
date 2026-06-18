@@ -49,6 +49,7 @@ Die Tutorials „Programmieren mit Bildern“ von Aspose.PDF für .NET führen S
 | [Bildgröße in PDF-Datei festlegen](./set-image-size/) | Erfahren Sie, wie Sie die Bildgröße in einem PDF mit Aspose.PDF für .NET festlegen. Diese Schritt-für-Schritt-Anleitung hilft Ihnen, die Größe von Bildern zu ändern, Seiteneigenschaften anzupassen und PDFs zu speichern. |  
 | [Bilder in PDF-Dateien verkleinern](./shrink-images/) | Mit dieser Schritt-für-Schritt-Anleitung können Sie Bilder in PDF-Dateien ganz einfach mit Aspose.PDF für .NET verkleinern und so kleinere Dateigrößen bei gleichbleibender Qualität gewährleisten. |  
 | [Bild in XImage-Sammlung speichern](./store-image-in-ximage-collection/) | Erfahren Sie in dieser vollständigen Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET Bilder in einer XImage-Sammlung speichern. |  
+| [Leere PDF-Seite erstellen – Vollständige Anleitung zum Hinzufügen, Zuschneiden und Ändern der Bildgröße](./create-blank-pdf-page-full-guide-to-adding-cropping-resizing/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET eine leere PDF-Seite erstellen und Bilder hinzufügen, zuschneiden sowie deren Größe ändern. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

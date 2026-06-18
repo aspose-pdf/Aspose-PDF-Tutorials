@@ -65,6 +65,9 @@ Tanulj meg akadálymentes, stílusos, címkézett PDF dokumentumokat készíteni
 ### [Hogyan hasonlítsuk össze a PDF-eket C#-ban – Teljes útmutató a PDF-diff generálásához](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 Ismerje meg, hogyan hozhat létre PDF-összehasonlító megoldást C#-ban az Aspose.PDF segítségével, és generáljon PDF-diff fájlokat.
 
+### [Minden PDF réteg mentése az Aspose.Pdf segítségével – Lépésről‑lépésre útmutató](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
+Ismerje meg, hogyan menthet különálló PDF rétegeket az Aspose.Pdf .NET könyvtárral, részletes lépésekkel és kódrészletekkel.
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)

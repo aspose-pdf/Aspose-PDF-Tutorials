@@ -23,6 +23,9 @@ Naučte se, jak přistupovat k podřízeným prvkům v tagovaných PDF souborech
 ### [Přidání barevných čarových vrstev do PDF pomocí Aspose.PDF pro .NET: Komplexní průvodce](./add-colored-lines-pdfs-using-aspose-pdf-net/)
 Naučte se, jak vylepšit své PDF dokumenty přidáním barevných čárových vrstev pomocí Aspose.PDF pro .NET. Tato příručka poskytuje podrobné pokyny a praktické aplikace.
 
+### [Uložení každé vrstvy PDF pomocí Aspose.Pdf – krok za krokem průvodce](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.Pdf uložit jednotlivé vrstvy PDF souboru pomocí podrobného krok za krokem návodu.
+
 ### [Aspose.PDF .NET: Zlepšení přístupnosti PDF pomocí tagování](./aspose-pdf-net-accessible-tagging-guide/)
 Naučte se, jak používat Aspose.PDF .NET pro přístupné označování PDF. Snadno nastavujte názvy, jazyky a logické struktury.
 

@@ -50,6 +50,9 @@
 ### [如何使用 Aspose.PDF for .NET 建立多層 PDF：綜合指南](./create-multi-layer-pdfs-aspose-pdf-dotnet/)
 透過本逐步指南了解如何使用 Aspose.PDF for .NET 建立動態和互動式多層 PDF 文件。
 
+### [使用 Aspose.Pdf 逐步保存每個 PDF 圖層 – 完整指南](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
+了解如何使用 Aspose.Pdf 逐步提取並保存 PDF 中的每個圖層，以便進行更細緻的內容管理。
+
 ### [如何使用 Aspose.PDF for .NET 建立標籤的 PDF：進階指南](./creating-tagged-pdfs-aspose-pdf-dotnet/)
 了解如何使用 Aspose.PDF for .NET 建立可存取的標記 PDF 文件。透過本綜合指南增強文件結構和可訪問性。
 

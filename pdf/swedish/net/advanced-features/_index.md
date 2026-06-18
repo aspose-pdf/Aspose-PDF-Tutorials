@@ -50,6 +50,9 @@ Lär dig hur du skapar tillgängliga, taggade PDF-dokument med Aspose.PDF i .NET
 ### [Hur man skapar PDF-filer med flera lager med Aspose.PDF för .NET: En omfattande guide](./create-multi-layer-pdfs-aspose-pdf-dotnet/)
 Lär dig hur du skapar dynamiska och interaktiva PDF-dokument med flera lager med Aspose.PDF för .NET med den här steg-för-steg-guiden.
 
+### [Spara varje PDF-lager med Aspose.Pdf – steg‑för‑steg‑guide](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
+Lär dig hur du sparar varje lager i en PDF-fil med Aspose.Pdf i en detaljerad steg‑för‑steg‑guide.
+
 ### [Hur man skapar taggade PDF-filer med Aspose.PDF för .NET: En avancerad guide](./creating-tagged-pdfs-aspose-pdf-dotnet/)
 Lär dig hur du skapar tillgängliga taggade PDF-dokument med Aspose.PDF för .NET. Förbättra dokumentstruktur och tillgänglighet med den här omfattande guiden.
 

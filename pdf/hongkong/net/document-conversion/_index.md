@@ -58,6 +58,8 @@
 | [XML 轉 PDFSet 影像路徑](./xml-to-pdfset-image-path/) |了解如何使用 Aspose.PDF for .NET 輕鬆地將 XML 轉換為 PDF。本詳細指南將逐步引導您完成整個過程，從設定到完成。 |  
 | [XPS 轉 PDF](./xps-to-pdf/) |透過本逐步教學了解如何使用 Aspose.PDF for .NET 將 XPS 檔案轉換為 PDF。非常適合開發人員和文檔愛好者。 |  
 | [在 C# 中將 PDF 轉換為 PDF/X‑4 – ASP.NET PDF 分步教學](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 轉換為 PDF/X‑4 格式。 |
+| [Aspose PDF 轉換於 C#：載入、轉換為 PDF/X-4、儲存](./aspose-pdf-conversion-in-c-load-convert-to-pdf-x-4-save/) |了解如何使用 Aspose.PDF for .NET 在 C# 中載入文件、轉換為 PDF/X‑4 並儲存。 |
+| [建立 span 元素並新增至頁面 – 將 DOCX 轉換為 PDF](./create-span-element-and-add-to-page-convert-docx-to-pdf/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 PDF 中建立 span 元素並將 DOCX 轉換為 PDF。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

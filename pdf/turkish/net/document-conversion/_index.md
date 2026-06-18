@@ -58,6 +58,8 @@ Dönüştürme ayarlarını nasıl belirleyeceğinizi, metin ve görüntüleri n
 | [XML'den PDFSet Görüntü Yoluna](./xml-to-pdfset-image-path/) | Aspose.PDF for .NET kullanarak XML'i PDF'ye zahmetsizce nasıl dönüştüreceğinizi öğrenin. Bu ayrıntılı kılavuz, kurulumdan tamamlanmaya kadar süreci adım adım anlatır. |  
 | [XPS'den PDF'e](./xps-to-pdf/) Bu adım adım eğitimle Aspose.PDF for .NET kullanarak XPS dosyalarını PDF'ye nasıl dönüştüreceğinizi öğrenin. Geliştiriciler ve belge meraklıları için mükemmel. |
 | [PDF'yi C#'ta PDF/X‑4'e Dönüştür – Adım Adım ASP.NET PDF Eğitimi](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Aspose.PDF for .NET kullanarak PDF dosyalarını PDF/X‑4 formatına C# ile nasıl dönüştüreceğinizi öğrenin. |
+| [Aspose PDF Dönüştürme C#'ta: Yükle, PDF/X-4'e Dönüştür, Kaydet](./aspose-pdf-conversion-in-c-load-convert-to-pdf-x-4-save/) | Bu adım adım kılavuzda Aspose.PDF for .NET kullanarak C# ile PDF dosyasını yükleyip PDF/X‑4 formatına dönüştürüp kaydetmeyi öğrenin. |
+| [Span öğesi oluştur ve sayfaya ekle – DOCX'i PDF'ye dönüştür](./create-span-element-and-add-to-page-convert-docx-to-pdf/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak DOCX dosyasını PDF'ye dönüştürürken span öğesi eklemeyi öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

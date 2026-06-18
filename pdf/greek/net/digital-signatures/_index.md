@@ -59,6 +59,9 @@
 ### [Επικύρωση υπογραφής PDF με το Aspose – Μετατροπή PDF σε HTML](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
 Μάθετε πώς να επικυρώνετε υπογραφές PDF και να μετατρέπετε PDF σε HTML με το Aspose.PDF για .NET.
 
+### [Προσθήκη ψηφιακής υπογραφής PDF σε C# – Πλήρης οδηγός](./add-digital-signature-pdf-in-c-complete-guide/)
+Μάθετε πώς να προσθέσετε ψηφιακή υπογραφή σε PDF χρησιμοποιώντας C# και Aspose.PDF για .NET.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.PDF για τεκμηρίωση δικτύου](https://docs.aspose.com/pdf/net/)

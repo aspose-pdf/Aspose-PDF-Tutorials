@@ -58,6 +58,8 @@ Aprenderá a especificar la configuración de conversión, extraer texto e imág
 | [XPS a PDF](./xps-to-pdf/) Aprenda a convertir archivos XPS a PDF con Aspose.PDF para .NET con este tutorial paso a paso. Ideal para desarrolladores y aficionados a la documentación.  
 | [Convertir PDF a PDF/X‑4 en C# – Tutorial paso a paso ASP.NET PDF](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Aprenda a convertir PDF a PDF/X‑4 con Aspose.PDF para .NET en este tutorial paso a paso. |
 | [pdf a png tutorial – Convertir páginas PDF a PNG en C#](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Aprenda a convertir páginas PDF a PNG usando Aspose.PDF para .NET con esta guía paso a paso. |
+| [Crear elemento span y agregar a la página – Convertir DOCX a PDF](./create-span-element-and-add-to-page-convert-docx-to-pdf/) | Aprenda a crear un elemento span y añadirlo a la página al convertir DOCX a PDF con Aspose.PDF para .NET. |
+| [Conversión de PDF con Aspose en C#: Cargar, Convertir a PDF/X-4, Guardar](./aspose-pdf-conversion-in-c-load-convert-to-pdf-x-4-save/) | Aprenda a cargar un documento, convertirlo a PDF/X‑4 y guardarlo usando Aspose.PDF para .NET en C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
