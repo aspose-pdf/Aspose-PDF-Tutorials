@@ -1,14 +1,63 @@
 ---
-date: '2025-12-09'
-description: Lär dig hur du taggar PDF‑filer i Java med Aspose.PDF. Denna handledning
-  visar hur du genererar tillgänglig PDF, lägger till ett stycke i PDF med Java och
-  tillämpar PDF‑tillgänglighetstaggar.
+date: '2026-06-17'
+description: Lär dig hur du skapar tillgänglig PDF i Java med Aspose.PDF. Denna handledning
+  täcker lägga till stycke PDF Java, PDF accessibility tagging och generering av fullt
+  taggade PDF-filer.
 keywords:
-- tagged PDFs in Java
-- Aspose.PDF for Java
-- accessible PDF creation
-title: 'Hur man taggar PDF i Java med Aspose.PDF: En komplett guide för tillgänglighet
-  och strukturering'
+- create accessible pdf java
+- add paragraph pdf java
+- aspose pdf java tutorial
+schemas:
+- author: Aspose
+  dateModified: '2026-06-17'
+  description: Learn how to create accessible PDF in Java using Aspose.PDF. This tutorial
+    covers add paragraph PDF Java, PDF accessibility tagging, and generating fully
+    tagged PDFs.
+  headline: Create Accessible PDF in Java with Aspose.PDF Tagging Guide
+  type: TechArticle
+- description: Learn how to create accessible PDF in Java using Aspose.PDF. This tutorial
+    covers add paragraph PDF Java, PDF accessibility tagging, and generating fully
+    tagged PDFs.
+  name: Create Accessible PDF in Java with Aspose.PDF Tagging Guide
+  steps:
+  - name: '**Initialize the Aspose.PDF Document:**'
+    text: '**Initialize the Aspose.PDF Document:**'
+  - name: '**Set Title and Language:**'
+    text: '**Set Title and Language:**'
+  - name: '**Save the Document:**'
+    text: '**Save the Document:**'
+  - name: '**Create Document and Tagged Content:**'
+    text: '**Create Document and Tagged Content:**'
+  - name: '**Append Paragraph and Span Elements:**'
+    text: '**Append Paragraph and Span Elements:**'
+  - name: '**Save Your Document:**'
+    text: '**Save Your Document:**'
+  - name: '**Initialize Document Structure:**'
+    text: '**Initialize Document Structure:**'
+  - name: '**Create and Nest Span Elements:**'
+    text: '**Create and Nest Span Elements:**'
+  - name: '**Save the Document:**'
+    text: '**Save the Document:**'
+  type: HowTo
+- questions:
+  - answer: Set the document title, language, and proper tagging (paragraphs, spans,
+      headings). Then run the PDF through an accessibility checker like PAC 3 to validate
+      compliance.
+    question: How do I ensure my PDFs meet WCAG 2.1 accessibility standards?
+  - answer: Yes. Load the PDF, retrieve its `ITaggedContent` via `document.getTaggedContent()`,
+      add missing tags programmatically, and save the updated file.
+    question: Can I tag existing PDFs that were created without tags?
+  - answer: Absolutely. Assign the appropriate language code (e.g., `ar-SA`) and add
+      Unicode text to spans; the library handles bidirectional rendering automatically.
+    question: Does Aspose.PDF support right‑to‑left scripts such as Arabic or Hebrew?
+  - answer: Process the document in logical sections, use `document.optimizeResources()`,
+      and consider streaming the output to a file to keep memory usage low.
+    question: What is the best approach for very large documents (hundreds of pages)?
+  - answer: You can export the structure tree with `document.getTaggedContent().getRootElement()`
+      and inspect it programmatically or with PDF analysis tools.
+    question: Is there a way to validate the tag hierarchy after creation?
+  type: FAQPage
+title: Skapa tillgänglig PDF i Java med Aspose.PDF Tagging Guide
 url: /sv/java/advanced-features/master-tagged-pdfs-java-aspose-pdf-guide/
 weight: 1
 ---
@@ -18,45 +67,34 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Så taggar du PDF i Java med Aspose.PDF: En komplett guide för tillgänglighet och strukturering
+# Hur man taggar PDF i Java med Aspose.PDF: En komplett guide för tillgänglighet och strukturering
 
 ## Introduktion
-Att skapa tillgängliga PDF-dokument och lära sig **how to tag PDF**‑filer är avgörande för användare som är beroende av skärmläsare och annan hjälpmedelsteknik. Att tillhandahålla dina PDF-filer både tillgängliga och välstrukturerade kan vara en utmaning, men Aspose.PDF för att göra processen enkel genom att låta dig ange titlar, språk och strukturerat innehåll direkt i PDF-filen.
-
-I den här handledningen kommer vi att utforska hur du utnyttjar Aspose.PDF‑biblioteket för att skapa taggade PDF-dokument i Java. Du kommer att lära dig hur du:
-- Anger titlar och språk‑attribut för PDF‑filer.
-- Lägger till paragraf‑ och span‑element för att förbättra dokumentstrukturen.
-- Nästlar span‑element inom paragrafer för mer komplexa layouter.
-
-Låt oss dyka ner i att konfigurera din miljö och implementera dessa funktioner!
+Att skapa **tillgängliga PDF**‑dokument och lära sig **hur man taggar PDF**‑filer är avgörande för användare som förlitar sig på skärmläsare och annan hjälpmedelsteknik. Genom att använda Aspose.PDF för Java kan du programatiskt sätta titlar, språk och strukturerat innehåll, och omvandla en vanlig PDF till en fullt‑taggad, standard‑kompatibel fil. Denna handledning visar hur du **skapar tillgängliga PDF‑Java**‑projekt steg‑för‑steg, med fokus på titel‑ och språkmetadata, paragraf‑ och spantagging samt nästling av spanner för komplexa layouter.
 
 ### Snabba svar
-- **Vad är PDF‑tillgänglighetstagging?** Det är processen att lägga till en logisk struktur (taggar) i en PDF så att skärmläsare kan tolka innehållet korrekt.
-- **Varför använda Aspose.PDF för taggning?** Det erbjuder ett flytande API för att skapa, modifiera och tagga PDF-filer utan att behöva Adobe Acrobat.
-- **Hur lång tid tar grundimplementeringen?** Cirka 10–15 minuter för ett enkelt dokument.
-- **Behöver jag en licens?** En provversion fungerar för utvärdering, men en licens krävs för produktionsanvändning.
-- **Vilka Java‑versioner stöds?** Java8 och senare (inklusive Java11, 17 och 21).
+- **Vad är PDF‑tillgänglighetstaggning?** Det är processen att lägga till en logisk struktur (taggar) i en PDF så att skärmläsare kan tolka innehållet korrekt.  
+- **Varför använda Aspose.PDF för taggning?** Det erbjuder ett flytande API för att skapa, modifiera och tagga PDF‑filer utan att behöva Adobe Acrobat.  
+- **Hur lång tid tar grundimplementeringen?** Ungefär 10–15 minuter för ett enkelt dokument.  
+- **Behöver jag en licens?** En provversion fungerar för utvärdering, men en licens krävs för produktionsbruk.  
+- **Vilka Java‑versioner stöds?** Java 8 och senare (inklusive Java 11, 17 och 21).
 
-### Förutsättningar
-Innan vi börjar, se till att du har följande:
-- **Java‑utvecklingsmiljö:** JDK installerad (version8 eller senare).
-- **Maven/Gradle‑byggverktyg:** Bekantskap med att använda Maven eller Gradle för beroendehantering.
-- **Grundläggande Java‑kunskaper:** Förståelse för Java‑programmeringskoncept.
-
-## Vad är PDF-tillgänglighetsmärkning?
-PDF‑tillgänglighetstagging innebär att bädda in en logisk struktur (titlar, rubriker, paragrafer, span‑element, tabeller osv.) i PDF‑filen. Denna struktur gör det möjligt för hjälpmedel att presentera innehållet i en meningsfull ordning, vilket gör dokumentet **generera tillgänglig PDF**‑utdata.
+## Vad är PDF‑tillgänglighetstaggning?
+PDF‑tillgänglighetstaggning inbäddar en logisk hierarki—titlar, rubriker, stycken, spanner, tabeller och mer—direkt i PDF‑filen, vilket möjliggör för hjälpmedelsteknik att presentera innehållet i en meningsfull läsordning. Denna struktur låter användare med synnedsättningar navigera och förstå dokument precis som seende användare, och omvandlar en statisk visuell fil till en dynamisk, WCAG 2.1‑ och PDF/UA‑kompatibel resurs.
 
 ## Varför använda Aspose.PDF för Java?
-Aspose.PDF för Java är en **aspose pdf java tutorial**‑grade‑lösning som:
-- Fungerar på alla plattformar som stödjer Java.
-- Låter dig skapa, redigera och tagga PDF‑filer programatiskt.
-- Ger fin‑granulär kontroll över taggningselement såsom paragrafer och span, vilket är viktigt för **add paragraph pdf java**‑scenarier.
+Aspose.PDF för Java erbjuder en robust, plattformsoberoende lösning som förenklar PDF‑skapande, redigering och taggning samtidigt som den följer tillgänglighetsstandarder. Dess flytande API ger utvecklare fin‑granulär kontroll över dokumentstruktur, prestanda och formatkonvertering, vilket gör det idealiskt för automatisering på företagsnivå och för att säkerställa efterlevnad av WCAG 2.1 och PDF/UA.
 
-## Konfigurera Aspose.PDF för Java
-För att börja arbeta med Aspose.PDF i ditt Java‑projekt måste du inkludera biblioteket som en beroende. Så här gör du det med Maven och Gradle:
+## Förutsättningar
+- **Java Development Kit:** JDK 8 eller nyare installerat.  
+- **Byggverktyg:** Maven eller Gradle för beroendehantering.  
+- **Grundläggande Java‑kunskaper:** Bekantskap med klasser, metoder och undantagshantering.
 
-### Maven-installation
-Lägg till följande beroende i din `pom.xml`-fil:
+## Installera Aspose.PDF för Java
+För att börja arbeta med Aspose.PDF i ditt Java‑projekt, lägg till biblioteket som ett beroende.
+
+### Maven‑installation
+Lägg till följande beroende i din `pom.xml`‑fil:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -65,28 +103,28 @@ Lägg till följande beroende i din `pom.xml`-fil:
 </dependency>
 ```
 
-### Gradle Installation
+### Gradle‑installation
 Inkludera detta i din `build.gradle`‑fil:
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
 ### Licensförvärv
-För att använda Aspose.PDF utöver provgränserna kan du skaffa en tillfällig licens eller köpa en full licens. Så här gör du:
-- **Gratis provversion:** Ladda ner den senaste versionen från [Aspose PDF Java Releases](https://releases.aspose.com/pdf/java/).
-- **Tillfällig licens:** Begär en gratis tillfällig licens via [Aspose Temporary License Page](https://purchase.aspose.com/temporary-license/).
+För att använda Aspose.PDF utöver provbegränsningarna kan du skaffa en tillfällig licens eller köpa en full licens. Så här gör du:
+- **Gratis prov:** Ladda ner den senaste versionen från [Aspose PDF Java Releases](https://releases.aspose.com/pdf/java/).  
+- **Tillfällig licens:** Begär en gratis tillfällig licens via [Aspose Temporary License Page](https://purchase.aspose.com/temporary-license/).  
 - **Köp licens:** Köp en full licens på [Aspose Purchase Page](https://purchase.aspose.com/buy).
 
-När du har din licensfil, applicera den i din Java-applikation för att låsa upp alla funktioner.
+Efter att du har filen `Aspose.Pdf.Java.lic`, ladda den vid applikationens start för att låsa upp alla funktioner.
 
-## Implementeringsguide
-Vi delar upp implementeringen i tre huvudfunktioner: ange titlar och språk, lägga till paragraf‑ och span‑element, samt nästla span‑element inom paragrafer. Varje avsnitt innehåller detaljerade steg med kodsnuttar för tydlighet.
+## Hur skapar man en tillgänglig PDF i Java?
+Läs in ditt PDF‑dokument, sätt titel och språk, lägg till taggade stycken och spanner, och spara filen — allt i några koncisa steg. Detta direkta tillvägagångssätt säkerställer att den resulterande PDF‑filen är fullt kompatibel med tillgänglighetsstandarder och klar för distribution.
 
-### Ställa in titel och språk för ett PDF-dokument
-**Översikt:** Denna funktion demonstrerar hur du definierar titel och språk för ett taggat PDF-dokument, vilket säkerställer att det är tillgängligt och korrekt tolkas av hjälpmedel.
+### Sätta titel och språk för ett PDF‑dokument
+**Definition:** Klassen `Document` representerar en PDF‑fil i minnet och erbjuder metoder för manipulation.
 
-#### Steg-för-steg-implementering
-1. **Initiera Aspose.PDF‑dokumentet:**
+#### Steg‑för‑steg‑implementation
+1. **Initiera Aspose.PDF‑dokumentet:**  
    ```java
    import com.aspose.pdf.Document;
    import com.aspose.pdf.tagged.ITaggedContent;
@@ -96,34 +134,35 @@ Vi delar upp implementeringen i tre huvudfunktioner: ange titlar och språk, lä
 
    Document document = new Document();
    ITaggedContent taggedContent = document.getTaggedContent();
-   ```
-2. **Ange titel och språk:**
+   ```  
+2. **Sätt titel och språk:**  
    ```java
    // Set the title of the PDF document
    taggedContent.setTitle("Text Elements Example");
 
    // Define the language (e.g., English - United States)
    taggedContent.setLanguage("en-US");
-   ```
-3. **Spara dokumentet:**
+   ```  
+3. **Spara dokumentet:**  
    ```java
    document.save(outFile);
-   ```
-**Explanation:** Genom att ange titel och språk tillhandahåller du viktig metadata som underlättar **pdf accessibility tagging** och hjälper skärmläsare att korrekt annonsera dokumentet.
+   ```  
 
-### Lägga till paragraf- och spanelement
-**Översikt:** Förbättra PDF‑ens struktur genom att lägga till paragraf‑ och span‑element för att skapa ett logiskt organiserat dokument.
+Genom att tilldela en meningsfull titel och rätt språkkod (t.ex. `en-US`) ger du skärmläsare den kontext de behöver för att korrekt annonsera dokumentet.
 
-#### Steg-för-steg-implementering
-1. **Skapa dokument och taggat innehåll:**
+### Lägga till stycke‑ och spanelement
+**Definition:** Klassen `Paragraph` grupperar en serie `Span`‑objekt, där varje span representerar ett textstycke med egen formatering.
+
+#### Steg‑för‑steg‑implementation
+1. **Skapa dokument och taggat innehåll:**  
    ```java
    String dataDir = "YOUR_DOCUMENT_DIRECTORY";
    String outFile = dataDir + "AddParagraphAndSpanElements_Output.pdf";
 
    Document document = new Document();
    ITaggedContent taggedContent = document.getTaggedContent();
-   ```
-2. **Lägg till paragraf‑ och span‑element:**
+   ```  
+2. **Lägg till stycke‑ och spanelement:**  
    ```java
    import com.aspose.pdf.tagged.logicalstructure.elements.StructureElement;
    import com.aspose.pdf.tagged.logicalstructure.elements.bls.ParagraphElement;
@@ -143,26 +182,27 @@ Vi delar upp implementeringen i tre huvudfunktioner: ange titlar och språk, lä
    p1.setText("Paragraph with ");
    p1.appendChild(span11);
    p1.appendChild(span12);
-   ```
-3. **Spara ditt dokument:**
+   ```  
+3. **Spara ditt dokument:**  
    ```java
    document.save(outFile);
-   ```
-**Förklaring:** Detta avsnitt visar ett grundläggande **add paragraph pdf java**‑scenario, där ett strukturerat textflöde förbättrar läsbarhet och navigering.
+   ```  
 
-### Nesting Span Elements inom ett Paragraph Element
-**Översikt:** Skapa mer komplexa textstrukturer genom att nästla span‑element inuti paragrafer.
+Detta mönster låter dig bygga ett logiskt flöde av text, vilket förbättrar navigeringen för hjälpmedelsteknik.
 
-#### Steg-för-steg-implementering
-1. **Initiera dokumentstruktur:**
+### Nästla spanelement inom ett stycke
+**Definition:** Att nästla spanner i ett stycke gör det möjligt att applicera olika stilar eller språkattribut på delsegment av en mening.
+
+#### Steg‑för‑steg‑implementation
+1. **Initiera dokumentstruktur:**  
    ```java
    String dataDir = "YOUR_DOCUMENT_DIRECTORY";
    String outFile = dataDir + "NestSpanElements_Output.pdf";
 
    Document document = new Document();
    ITaggedContent taggedContent = document.getTaggedContent();
-   ```
-2. **Skapa och nästla span‑element:**
+   ```  
+2. **Skapa och nästla spanelement:**  
    ```java
    StructureElement rootElement = taggedContent.getRootElement();
 
@@ -186,68 +226,79 @@ Vi delar upp implementeringen i tre huvudfunktioner: ange titlar och språk, lä
    p4.appendChild(span42);
 
    p4.setText(".");
-   ```
-3. **Spara dokumentet:**
+   ```  
+3. **Spara dokumentet:**  
    ```java
    document.save(outFile);
-   ```
-**Explanation:** Nästling gör det möjligt att bygga rikare, mer detaljerade strukturer, vilket är avgörande för att skapa **generate accessible PDF**‑dokument som uppfyller strikta tillgänglighetsstandarder.
+   ```  
+
+Nästlade spanner är nödvändiga när du behöver blanda språk, applicera fet/kursiv stil eller bädda in hyperlänkar i ett enda stycke.
 
 ## Praktiska tillämpningar
-Aspose.PDF:s taggningsmöjligheter har många praktiska tillämpningar:
-- **Digital publicering:** Skapa tillgängliga e‑böcker med strukturerat innehåll.
-- **Statlig dokumentation:** Säkerställ efterlevnad av tillgänglighetsregler.
-- **Företagsrapporter:** Förbättra navigering och läsbarhet för intressenter.
-- **Utbildningsmaterial:** Tillhandahålla studenter med tillgängliga lärresurser.
+Aspose.PDF:s taggningsfunktioner har många verkliga användningsområden, inklusive:
 
-## Prestandaöverväganden
-När du arbetar med stora PDF-filer eller komplexa strukturer, tänk på följande tips:
-- **Minneshantering:** Frigör objekt omedelbart efter användning.
-- **Batchbehandling:** Bearbeta dokument i batcher för att kontrollera resursförbrukning.
-- **Håll dig uppdaterad:** Använd den senaste Aspose.PDF‑versionen för prestandaförbättringar och buggfixar.
+* **Digital publicering:** Skapa tillgängliga e‑böcker med fullt strukturerat innehåll.  
+* **Statlig dokumentation:** Uppfylla lagstadgade tillgänglighetskrav (t.ex. Section 508, EU Accessibility Directive).  
+* **Företagsrapportering:** Producera rapporter som intressenter kan navigera med skärmläsare.  
+* **Utbildningsmaterial:** Leverera läroböcker och handouts som följer tillgänglighetsstandarder.
+
+## Prestanda‑överväganden
+När du hanterar stora PDF‑filer eller komplexa tagghierarkier, tänk på följande bästa praxis:
+
+* **Minneshantering:** Anropa `document.dispose()` eller använd try‑with‑resources för att snabbt frigöra inhemska resurser.  
+* **Batch‑bearbetning:** Processa dokument i mindre batcher och anropa `document.optimizeResources()` för att minska minnesfotavtrycket.  
+* **Håll dig uppdaterad:** Använd den senaste Aspose.PDF‑utgåvan för att dra nytta av prestandaförbättringar och buggfixar.
 
 ## Vanliga problem och lösningar
 | Problem | Lösning |
-|-------|--------|
-| **Taggar visa inte i PDF‑visaren** | Verifiera att `taggedContent.setTitle()` och `setLanguage()` anropas innan du sparar. |
-| **Stor filstorlek** | Anropa `document.optimizeResources()` före `save()` för att komprimera resurser. |
-| **Oväntad textordning** | Säkerställ att du lägger till span‑element till paragrafer i önskad sekvens. |
+|-------|----------|
+| **Taggar visas inte i PDF‑visaren** | Verifiera att `taggedContent.setTitle()` och `setLanguage()` anropas **innan** `document.save()`. |
+| **Stor filstorlek** | Anropa `document.optimizeResources()` före sparning för att komprimera bilder och ta bort oanvända objekt. |
+| **Oväntad textordning** | Säkerställ att spanner läggs till i stycken i exakt den sekvens du vill att de ska läsas. |
+| **Saknad språkmmetadata** | Sätt språk på `ITaggedContent`‑objektet med ISO‑639‑1‑koden (t.ex. `en`, `fr`, `ar`). |
 
 ## Vanliga frågor
 
-**Fråga: Hur säkerställer jag att mina PDF-filer enligt WCAG2.1-tillgänglighetsstandarder?**
-A: Använd Aspose.PDF för att ange dokumenttitel, språk och korrekt taggning (paragrafer, span‑element, rubriker). Kör PDF-filen genom en tillgänglighetskontroll (t.ex. PAC3) för att verifiera efterlevnad.
+**Q: Hur säkerställer jag att mina PDF‑filer uppfyller WCAG 2.1‑tillgänglighetsstandarder?**  
+A: Sätt dokumenttitel, språk och korrekt taggning (stycken, spanner, rubriker). Kör sedan PDF‑filen genom en tillgänglighetskontroll som PAC 3 för att validera efterlevnad.
 
-**Fråga: Kan jag tagga befintliga PDF-filer som skapats utan taggar?**
-A: Ja. Ladda PDF-filen, hämta dess `ITaggedContent` och lägg till saknade taggar programatiskt innan du sparar.
+**Q: Kan jag tagga befintliga PDF‑filer som skapats utan taggar?**  
+A: Ja. Läs in PDF‑filen, hämta dess `ITaggedContent` via `document.getTaggedContent()`, lägg till saknade taggar programatiskt och spara den uppdaterade filen.
 
-**Q: Stöder Aspose.PDF andra språk och skript som skrivs från höger till vänster?**
-A: Absolut. Ange lämplig språkkod (t.ex. `ar-SA` för arabiska) och lägga till Unicode‑text i span‑elementen.
+**Q: Stöder Aspose.PDF högerskrivna skript som arabiska eller hebreiska?**  
+A: Absolut. Tilldela rätt språkkod (t.ex. `ar-SA`) och lägg till Unicode‑text i spanner; biblioteket hanterar automatiskt bidirektionell rendering.
 
-**F: Vad är det bästa sättet att hantera mycket stora dokument (hundratals sidor)?**
-A: Bearbeta dokumentet i sektioner, använd `Document.optimizeResources()`, och överväg att strömma utdata för att undvika hög minnesanvändning.
+**Q: Vad är bästa tillvägagångssättet för mycket stora dokument (hundratals sidor)?**  
+A: Processa dokumentet i logiska sektioner, använd `document.optimizeResources()` och överväg att streama utdata till en fil för att hålla minnesanvändningen låg.
 
-**F: Finns det ett sätt att validera tagghierarkin efter skapandet?**
-A: Du kan exportera PDF‑ens strukturträd med `document.getTaggedContent().getRootElement()` och inspektera den programatiskt eller med PDF-verktyg.
+**Q: Finns det ett sätt att validera tagghierarkin efter skapandet?**  
+A: Du kan exportera strukturtträdet med `document.getTaggedContent().getRootElement()` och inspektera det programatiskt eller med PDF‑analysverktyg.
 
 ## Slutsats
-Du har nu lärt dig **how to tag PDF**‑filer i Java med Aspose.PDF—att ange titlar, språk och bygga strukturerat innehåll med paragrafer och nästlade span‑element. Dessa tekniker gör det möjligt att generera tillgängliga PDF‑dokument som uppfyller moderna tillgänglighetsstandarder och ger en överlägsen läsupplevelse för alla användare.
+Du har nu en komplett, steg‑för‑steg‑plan för **att skapa tillgängliga pdf java**‑projekt med Aspose.PDF. Genom att sätta titlar, språk och bygga en robust tagghierarki med stycken och nästlade spanner kan du generera PDF‑filer som både är visuellt tilltalande och fullt tillgängliga.  
 
-**Nästa steg:**
-- Experimentera med ytterligare taggtyper som tabeller, listor och figurer.
-- Integrera taggningsarbetsflödet i dina befintliga dokumentgenererings-pipelines.
-- Utforska Aspose.PDF:s OCR‑ och konverteringsfunktioner för att bredda dina dokumenthanteringsmöjligheter.
+**Nästa steg:**  
+* Experimentera med ytterligare taggtyper såsom tabeller, listor och figurer.  
+* Integrera taggningsarbetsflödet i dina befintliga dokumentgenereringspipeline.  
+* Utforska Aspose.PDF:s OCR‑ och konverteringsfunktioner för att bredda dina dokumentbehandlingsmöjligheter.
 
 ---
 
-**Senast uppdaterad:** 2025-12-09
-**Testat med:** Aspose.PDF för Java 25.3
+**Senast uppdaterad:** 2026-06-17  
+**Testat med:** Aspose.PDF for Java 25.3  
 **Författare:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Relaterade handledningar
+
+- [Create and Manage Tagged PDFs Using Aspose.PDF for Java: Enhance Accessibility in Your Documents](/pdf/java/document-manipulation/create-manage-tagged-pdfs-aspose-pdf-java/)
+- [Create Accessible PDFs with Images Using Aspose.PDF for Java: A Complete Guide to Tagged PDF Creation](/pdf/java/images-graphics/create-accessible-pdf-images-aspose-pdf-java/)
+- [Create Accessible Tagged Tables in PDFs Using Aspose.PDF for Java](/pdf/java/tables-lists/create-tagged-table-aspose-pdf-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

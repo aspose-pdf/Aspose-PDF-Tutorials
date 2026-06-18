@@ -1,12 +1,64 @@
 ---
-date: '2026-03-01'
-description: Tìm hiểu cách thêm dấu trang vào PDF bằng Aspose.PDF cho Java, bao gồm
+date: '2026-06-17'
+description: Tìm hiểu cách thêm dấu trang vào PDF bằng Aspose.PDF for Java, bao gồm
   cách nhập dấu trang PDF từ XML hoặc InputStream một cách lập trình.
 keywords:
-- import bookmarks into PDFs
-- Aspose.PDF for Java
-- XML bookmarks
-title: Cách Thêm Dấu Trang vào PDF bằng Aspose.PDF cho Java
+- how to add bookmarks
+- import bookmarks from xml
+- aspose pdf add bookmarks
+schemas:
+- author: Aspose
+  dateModified: '2026-06-17'
+  description: Learn how to add bookmarks to PDFs using Aspose.PDF for Java, including
+    how to import PDF bookmarks from XML or InputStream programmatically.
+  headline: How to Add Bookmarks to PDFs Using Aspose.PDF for Java
+  type: TechArticle
+- description: Learn how to add bookmarks to PDFs using Aspose.PDF for Java, including
+    how to import PDF bookmarks from XML or InputStream programmatically.
+  name: How to Add Bookmarks to PDFs Using Aspose.PDF for Java
+  steps:
+  - name: '**Load the Existing PDF Document**'
+    text: '**Load the Existing PDF Document**'
+  - name: '**Import Bookmarks from XML**'
+    text: '**Import Bookmarks from XML**'
+  - name: '**Save the Updated PDF**'
+    text: '**Save the Updated PDF**'
+  - name: '**Load the Existing PDF Document**'
+    text: '**Load the Existing PDF Document**'
+  - name: '**Create an InputStream for XML Data**'
+    text: '**Create an InputStream for XML Data**'
+  - name: '**Import Bookmarks Using the Stream**'
+    text: '**Import Bookmarks Using the Stream**'
+  - name: '**Save the Updated PDF Document**'
+    text: '**Save the Updated PDF Document**'
+  - name: '**Automated Document Management** – Batch‑process thousands of PDFs to
+      add a consistent table of contents.'
+    text: '**Automated Document Management** – Batch‑process thousands of PDFs to
+      add a consistent table of contents.'
+  - name: '**Digital Publishing** – Generate e‑books with dynamic bookmarks pulled
+      from a CMS.'
+    text: '**Digital Publishing** – Generate e‑books with dynamic bookmarks pulled
+      from a CMS.'
+  - name: '**Legal Documentation** – Quickly navigate contracts and case files.'
+    text: '**Legal Documentation** – Quickly navigate contracts and case files.'
+  type: HowTo
+- questions:
+  - answer: Yes. Aspose.PDF also supports JSON, FDF, and XFDF for bookmark import.
+    question: Can I import bookmarks from formats other than XML?
+  - answer: A free trial license works for evaluation; a full license is required
+      for production deployments.
+    question: Do I need a license to use `PdfBookmarkEditor` in development?
+  - answer: Open the PDF with the password using `PdfBookmarkEditor.bindPdf(String
+      path, String password)` before importing bookmarks.
+    question: How do I handle password‑protected PDFs?
+  - answer: Aspose.PDF throws a `PdfException` detailing the parsing issue—validate
+      the XML against the schema first.
+    question: What happens if the XML structure is invalid?
+  - answer: After saving, open the PDF in any viewer and check the bookmark pane;
+      programmatically you can enumerate bookmarks via `PdfBookmarkEditor.getBookmarks()`.
+    question: Is there a way to verify that bookmarks were added correctly?
+  type: FAQPage
+title: Cách Thêm Dấu Trang vào PDF bằng Aspose.PDF for Java
 url: /vi/java/bookmarks-navigation/import-xml-bookmarks-aspose-pdf-java/
 weight: 1
 ---
@@ -16,36 +68,28 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Cách Thêm Bookmarks vào PDF bằng Aspose.PDF cho Java
+# Cách Thêm Dấu Trang vào PDF bằng Aspose.PDF cho Java
 
 ## Giới thiệu
-Nếu bạn đang tìm kiếm một hướng dẫn rõ ràng, từng bước về **cách thêm bookmarks** vào PDF, bạn đã đến đúng nơi. Trong tutorial này, chúng tôi sẽ chỉ cho bạn cách đưa cấu trúc bookmarks dựa trên XML vào các tệp PDF hiện có bằng Aspose.PDF cho Java, giúp tài liệu lớn trở nên có thể điều hướng ngay lập tức và thân thiện với người dùng.
-
-**Bạn sẽ học được**
-- Cách nhập bookmarks PDF từ XML vào PDF
-- Cách thêm bookmarks một cách lập trình bằng `InputStream`
-- Các tính năng chính của lớp `PdfBookmarkEditor`
-- Mẹo hiệu năng cho việc xử lý quy mô lớn
+Nếu bạn đang tìm kiếm một hướng dẫn rõ ràng, từng bước về **cách thêm dấu trang** vào PDF, bạn đã đến đúng nơi. Trong tutorial này, chúng tôi sẽ chỉ cho bạn cách đưa cấu trúc dấu trang dựa trên XML vào các tệp PDF hiện có bằng Aspose.PDF cho Java, giúp các tài liệu lớn trở nên dễ dàng điều hướng và thân thiện với người dùng. Thêm dấu trang không chỉ cải thiện trải nghiệm đọc mà còn cho phép tự động hoá quy trình cho hàng ngàn tệp.
 
 ## Câu trả lời nhanh
-- **Thư viện cần thiết là gì?** Aspose.PDF cho Java (v25.3 hoặc mới hơn).  
-- **Tôi có thể nhập bookmarks từ XML không?** Có – sử dụng `importBookmarksWithXML`.  
-- **Tôi có cần giấy phép cho việc phát triển không?** Bản dùng thử miễn phí đủ cho việc thử nghiệm; cần giấy phép mua cho môi trường sản xuất.  
+- **Thư viện cần thiết là gì?** Aspose.PDF for Java (v25.3 hoặc mới hơn).  
+- **Tôi có thể nhập dấu trang từ XML không?** Có – sử dụng `importBookmarksWithXML`.  
+- **Tôi có cần giấy phép cho việc phát triển không?** Bản dùng thử miễn phí đủ cho việc thử nghiệm; giấy phép mua cần thiết cho môi trường sản xuất.  
 - **InputStream có được hỗ trợ không?** Chắc chắn – bạn có thể cung cấp XML qua `InputStream` cho các kịch bản linh hoạt.  
-- **Điều này có hoạt động với PDF lớn không?** Có, với việc xử lý stream đúng cách và xử lý theo lô.
+- **Điều này có hoạt động với các PDF lớn không?** Có, với việc xử lý luồng đúng cách và xử lý hàng loạt.
 
-## Cách Thêm Bookmarks vào PDF
-Thêm bookmarks về cơ bản là nhúng một bản đồ điều hướng vào trong PDF để người đọc có thể nhảy trực tiếp tới các phần, chương hoặc bất kỳ điểm logic nào. Aspose.PDF trừu tượng hoá cấu trúc PDF cấp thấp, cho phép bạn tập trung vào logic nghiệp vụ thay vì các chi tiết nội bộ của PDF.
+## Cách Thêm Dấu Trang vào PDF?
+`PdfBookmarkEditor.bindPdf` mở một tệp PDF và chuẩn bị nó cho việc thao tác dấu trang.  
+Tải PDF mục tiêu của bạn bằng `PdfBookmarkEditor.bindPdf("source.pdf")`, gọi `importBookmarksWithXML(xmlFile)` hoặc phiên bản dựa trên luồng, sau đó lưu tài liệu. Mô hình hai bước này chèn một cây điều hướng đầy đủ chỉ trong vài dòng mã, tự động bảo tồn bố cục, hình ảnh và chú thích. Phương thức trả về một thể hiện editor đã được ràng buộc mà bạn có thể tái sử dụng cho nhiều thao tác dấu trang, đảm bảo trạng thái tài liệu nhất quán trong suốt quá trình.
 
-## Tại sao nên thêm Bookmarks vào PDF?
-- **Cải thiện trải nghiệm người dùng:** Độc giả có thể ngay lập tức tìm thấy các phần mà không cần cuộn.
-- **Thân thiện với công cụ tìm kiếm:** Bookmarks hoạt động như các tiêu đề logic có thể được lập chỉ mục.
-- **Sẵn sàng tự động hoá:** Hoàn hảo cho việc xử lý hàng loạt hàng nghìn báo cáo, e‑book hoặc tài liệu pháp lý.
-- **Tương thích đa nền tảng:** cùng một đoạn mã hoạt động trên Windows, Linux và macOS.
+## Tại sao cần thêm Dấu Trang vào PDF?
+Thêm dấu trang cải thiện trải nghiệm người dùng bằng cách cho phép người đọc nhảy trực tiếp tới các phần mà không cần cuộn vô tận. Nó cũng làm cho PDF dễ tìm kiếm hơn cho các công cụ lập chỉ mục, tăng tiềm năng tự động hoá cho việc xử lý hàng loạt hàng nghìn báo cáo, và hoạt động nhất quán trên Windows, Linux và macOS. **Aspose.PDF hỗ trợ hơn 50 định dạng đầu vào và đầu ra** và có thể xử lý các tệp hàng trăm trang mà không cần tải toàn bộ tài liệu vào bộ nhớ, mang lại hiệu suất cao cho các khối lượng công việc doanh nghiệp.
 
 ## Yêu cầu trước
 ### Thư viện và phụ thuộc cần thiết
-- Aspose.PDF cho Java **v25.3** hoặc mới hơn.
+- Aspose.PDF for Java **v25.3** hoặc mới hơn.
 
 ### Cài đặt môi trường
 - Java Development Kit (JDK) đã được cài đặt.
@@ -57,7 +101,7 @@ Thêm bookmarks về cơ bản là nhúng một bản đồ điều hướng và
 - Quen thuộc với cấu trúc tệp XML.
 
 ## Cài đặt Aspose.PDF cho Java
-Tích hợp thư viện bằng công cụ xây dựng bạn ưa thích.
+Tích hợp thư viện bằng công cụ xây dựng ưa thích của bạn.
 
 ### Sử dụng Maven
 ```xml
@@ -73,10 +117,10 @@ Tích hợp thư viện bằng công cụ xây dựng bạn ưa thích.
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### Các bước lấy giấy phép
-- **Dùng thử miễn phí:** Đăng ký giấy phép dùng thử để khám phá tất cả tính năng.  
-- **Giấy phép tạm thời:** Yêu cầu dùng thử kéo dài nếu bạn cần thời gian đánh giá lâu hơn.  
-- **Mua bản đầy đủ:** Mua giấy phép thương mại để sử dụng không giới hạn trong môi trường sản xuất.
+### Các bước mua giấy phép
+- **Bản dùng thử:** Đăng ký giấy phép dùng thử để khám phá tất cả tính năng.  
+- **Giấy phép tạm thời:** Yêu cầu bản dùng thử mở rộng nếu bạn cần thời gian đánh giá lâu hơn.  
+- **Mua đầy đủ:** Mua giấy phép thương mại để sử dụng không giới hạn trong môi trường sản xuất.
 
 #### Khởi tạo và cài đặt cơ bản
 ```java
@@ -93,11 +137,14 @@ public class PdfSetup {
 }
 ```
 
-## Nhập Bookmarks PDF từ XML (Tính năng 1)
-**Tổng quan:** Phương pháp này đọc một tệp XML chứa danh sách bookmark dạng cây và chèn nó vào một PDF hiện có.
+## PdfBookmarkEditor là gì?
+`PdfBookmarkEditor` là lớp tiện ích của Aspose.PDF cho phép ràng buộc vào một tệp PDF và thực hiện nhập, xuất và quản lý cây dấu trang. Sau khi ràng buộc, tất cả các thao tác dấu trang đều diễn ra qua đối tượng này. Nó cung cấp các phương thức để nhập, xuất và sửa đổi cấu trúc dấu trang mà không làm thay đổi bố cục nội dung gốc, rất phù hợp cho các quy trình tài liệu tự động.
 
-### Triển khai từng bước
-1. **Load the Existing PDF Document**  
+## Nhập Dấu Trang PDF từ XML (Tính năng 1)
+**Tổng quan:** Phương thức này đọc tệp XML chứa danh sách dấu trang phân cấp và chèn nó vào PDF hiện có.
+
+### Hướng dẫn thực hiện từng bước
+1. **Tải tài liệu PDF hiện có**  
    ```java
    import com.aspose.pdf.facades.PdfBookmarkEditor;
 
@@ -106,102 +153,110 @@ public class PdfSetup {
 
    PdfBookmarkEditor bookmarkEditor = new PdfBookmarkEditor();
    bookmarkEditor.bindPdf(dataDir + "/Input.pdf");
-   ```
+   ```  
    *Giải thích:* `PdfBookmarkEditor` được liên kết với PDF mục tiêu.
 
-2. **Import Bookmarks from XML**  
+2. **Nhập Dấu Trang từ XML**  
    ```java
    // Import bookmarks from an XML file.
    bookmarkEditor.importBookmarksWithXML(dataDir + "/bookmarks.xml");
-   ```
-   *Mục đích:* Cấu trúc XML được phân tích và thêm vào dưới dạng PDF bookmarks.
+   ```  
+   *Mục đích:* Cấu trúc XML được phân tích và thêm vào dưới dạng dấu trang PDF.
 
-3. **Save the Updated PDF**  
+3. **Lưu PDF đã cập nhật**  
    ```java
    // Save changes to a new PDF file.
    bookmarkEditor.save(outputDir + "/output.pdf");
-   ```
+   ```  
    *Kết quả:* Một PDF mới với cây điều hướng đã được nhập.
 
 **Mẹo khắc phục sự cố**
 - Xác minh rằng XML tuân theo schema của Aspose (phần tử gốc `<Bookmarks>`).  
-- Kiểm tra quyền truy cập tệp nếu gặp `IOException`.  
+- Kiểm tra quyền tệp nếu gặp `IOException`.  
 
-## Nhập Bookmarks PDF từ InputStream (Tính năng 2)
-**Tổng quan:** Cách tiếp cận này lý tưởng khi dữ liệu XML đến từ cơ sở dữ liệu, dịch vụ web hoặc bất kỳ nguồn bộ nhớ nào.
+## Nhập Dấu Trang PDF từ InputStream (Tính năng 2)
+**Tổng quan:** Cách tiếp cận này lý tưởng khi dữ liệu XML đến từ cơ sở dữ liệu, dịch vụ web, hoặc bất kỳ nguồn dữ liệu trong bộ nhớ nào.
 
-### Triển khai từng bước
-1. **Load the Existing PDF Document**  
+### Hướng dẫn thực hiện từng bước
+1. **Tải tài liệu PDF hiện có**  
    ```java
    PdfBookmarkEditor bookmarkeditor = new PdfBookmarkEditor();
    bookmarkeditor.bindPdf(dataDir + "/Input.pdf");
-   ```
+   ```  
    *Giải thích:* Bước liên kết giống như trước.
 
-2. **Create an InputStream for XML Data**  
+2. **Tạo InputStream cho dữ liệu XML**  
    ```java
    import java.io.FileInputStream;
    import java.io.InputStream;
 
    InputStream is = new FileInputStream(dataDir + "/bookmark.xml");
-   ```
-   *Mục đích:* Đọc tệp XML vào một stream.
+   ```  
+   *Mục đích:* Đọc tệp XML vào một luồng.
 
-3. **Import Bookmarks Using the Stream**  
+3. **Nhập Dấu Trang bằng Stream**  
    ```java
    // Use the input stream to import bookmarks.
    bookmarkeditor.importBookmarksWithXML(is);
-   ```
+   ```  
    *Mục đích phương thức:* Chấp nhận một `InputStream` cho các nguồn dữ liệu linh hoạt.
 
-4. **Save the Updated PDF Document**  
+4. **Lưu tài liệu PDF đã cập nhật**  
    ```java
    bookmarkeditor.save(outputDir + "/output.pdf");
-   ```
-   *Giải thích:* Lưu các thay đổi.
+   ```  
+   *Giải thích:* Lưu lại các thay đổi.
 
 **Mẹo khắc phục sự cố**
 - Luôn đóng `InputStream` sau khi nhập (`is.close();`) để tránh rò rỉ tài nguyên.  
-- Xác thực cú pháp XML trước khi truyền vào trình chỉnh sửa.
+- Xác thực cú pháp XML trước khi truyền cho trình chỉnh sửa.
 
-## Ứng dụng thực tế
-1. **Quản lý tài liệu tự động** – Xử lý hàng loạt hàng nghìn PDF để thêm mục lục nhất quán.  
-2. **Xuất bản kỹ thuật số** – Tạo e‑book với bookmarks động được lấy từ CMS.  
+## Ứng dụng thực tiễn
+1. **Quản lý tài liệu tự động** – Xử lý hàng nghìn PDF theo lô để thêm mục lục nhất quán.  
+2. **Xuất bản kỹ thuật số** – Tạo e‑book với dấu trang động lấy từ CMS.  
 3. **Tài liệu pháp lý** – Dễ dàng điều hướng hợp đồng và hồ sơ vụ án.  
-4. **Nghiên cứu học thuật** – Thêm bookmarks cấp chương vào các luận văn lớn.  
+4. **Nghiên cứu học thuật** – Thêm dấu trang cấp chương cho các luận văn lớn.  
 5. **Báo cáo doanh nghiệp** – Nâng cao báo cáo thường niên với các phần có thể nhấp.
 
-## Cân nhắc về hiệu năng
-- **Sử dụng Stream:** Ưu tiên `InputStream` cho các tệp XML lớn để giảm tiêu thụ bộ nhớ.  
-- **Đồng thời:** Sử dụng `ExecutorService` của Java để xử lý nhiều PDF song song.  
-- **Xử lý theo lô:** Nhóm tệp thành các lô để giảm chi phí I/O.
+## Các yếu tố hiệu năng
+- **Sử dụng Stream:** Ưu tiên `InputStream` cho các tệp XML lớn để giảm sử dụng bộ nhớ.  
+- **Đồng thời:** Sử dụng `ExecutorService` của Java để xử lý nhiều PDF đồng thời.  
+- **Xử lý hàng loạt:** Nhóm tệp thành các lô để giảm tải I/O.
 
 ## Câu hỏi thường gặp
-**Câu hỏi:** Tôi có thể nhập bookmarks từ định dạng khác XML không?  
-**Trả lời:** Có. Aspose.PDF cũng hỗ trợ JSON, FDF và XFDF để nhập bookmarks.
 
-**Câu hỏi:** Tôi có cần giấy phép để sử dụng `PdfBookmarkEditor` trong phát triển không?  
-**Trả lời:** Giấy phép dùng thử miễn phí đủ cho việc đánh giá; cần giấy phép đầy đủ cho triển khai sản xuất.
+**Hỏi: Tôi có thể nhập dấu trang từ các định dạng khác ngoài XML không?**  
+Trả lời: Có. Aspose.PDF cũng hỗ trợ JSON, FDF và XFDF để nhập dấu trang.
 
-**Câu hỏi:** Làm sao xử lý PDF có mật khẩu?  
-**Trả lời:** Mở PDF với mật khẩu bằng `PdfBookmarkEditor.bindPdf(String path, String password)` trước khi nhập bookmarks.
+**Hỏi: Tôi có cần giấy phép để sử dụng `PdfBookmarkEditor` trong phát triển không?**  
+Trả lời: Giấy phép dùng thử miễn phí đủ cho việc đánh giá; giấy phép đầy đủ cần thiết cho triển khai sản xuất.
 
-**Câu hỏi:** Điều gì xảy ra nếu cấu trúc XML không hợp lệ?  
-**Trả lời:** Aspose.PDF ném ra `PdfException` mô tả vấn đề phân tích—hãy xác thực XML với schema trước.
+**Hỏi: Làm thế nào để xử lý PDF có mật khẩu?**  
+Trả lời: Mở PDF bằng mật khẩu sử dụng `PdfBookmarkEditor.bindPdf(String path, String password)` trước khi nhập dấu trang.
 
-**Câu hỏi:** Có cách nào xác minh bookmarks đã được thêm đúng không?  
-**Trả lời:** Sau khi lưu, mở PDF bằng bất kỳ trình xem nào và kiểm tra bảng bookmarks; lập trình bạn có thể liệt kê bookmarks qua `PdfBookmarkEditor.getBookmarks()`.
+**Hỏi: Điều gì xảy ra nếu cấu trúc XML không hợp lệ?**  
+Trả lời: Aspose.PDF sẽ ném ra `PdfException` mô tả vấn đề phân tích—hãy xác thực XML với schema trước.
+
+**Hỏi: Có cách nào để xác minh rằng dấu trang đã được thêm đúng không?**  
+Trả lời: Sau khi lưu, mở PDF bằng bất kỳ trình xem nào và kiểm tra khung dấu trang; lập trình bạn có thể liệt kê dấu trang qua `PdfBookmarkEditor.getBookmarks()`.
 
 ---
 
-**Cập nhật lần cuối:** 2026-03-01  
-**Đã kiểm tra với:** Aspose.PDF cho Java v25.3  
-**Tác giả:** Aspose  
+**Last Updated:** 2026-06-17  
+**Tested With:** Aspose.PDF for Java v25.3  
+**Author:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Hướng dẫn liên quan
+
+- [Cách Tạo Dấu Trang PDF và Quản Lý Điều Hướng Bằng Aspose.PDF cho Java](/pdf/java/bookmarks-navigation/create-manage-pdf-bookmarks-aspose-java/)
+- [Xuất Dấu Trang PDF sang XML Bằng Aspose.PDF cho Java: Hướng Dẫn Toàn Diện](/pdf/java/conversion-export/export-pdf-bookmarks-xml-aspose-pdf-java/)
+- [Tạo Mục Lục PDF Java – Dấu Trang & Điều Hướng Aspose.PDF](/pdf/java/bookmarks-navigation/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
