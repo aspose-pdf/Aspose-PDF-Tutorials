@@ -141,7 +141,7 @@ Aprenda a recortar regiões específicas de uma página PDF e convertê-las em i
 Aprenda a exportar dados de aplicativos para PDF com eficiência usando o Aspose.PDF para .NET. Este guia aborda a configuração, exemplos de código em C# e os principais recursos.
 
 ### [Exportar anotações em PDF com Aspose.PDF .NET: um guia completo](./export-annotations-aspose-pdf-net/)
-Aprenda a exportar anotações de PDFs com eficiência usando o Aspose.PDF para .NET. Este guia aborda configuração, implementação e práticas recomendadas.
+Aprenda a exportar anotações de PDFs com eficiência usando o Aspose.PDF .NET. Este guia aborda configuração, implementação e práticas recomendadas.
 
 ### [Exportar dados PDF para XML com Aspose.PDF para .NET: um guia passo a passo](./export-pdf-data-to-xml-aspose-dotnet-guide/)
 Aprenda a exportar com eficiência dados de formulários PDF para XML estruturado usando o Aspose.PDF para .NET, uma biblioteca poderosa projetada para manipulação de PDF.
@@ -224,8 +224,14 @@ Domine a conversão de PDF para HTML usando o Aspose.PDF para .NET. Melhore a ac
 ### [Conversão de PDF para HTML com Aspose.PDF para .NET](./pdf-to-html-conversion-aspose-dot-net/)
 Um tutorial de código para Aspose.PDF Net
 
+### [Converter PDF para HTML em C# – Guia Completo Passo a Passo](./convert-pdf-to-html-in-c-full-step-by-step-guide/)
+Aprenda a converter PDFs para HTML em C# usando Aspose.PDF, com instruções detalhadas e dicas de otimização.
+
 ### [Conversão de PDF para TIFF no .NET usando Aspose.PDF: um guia passo a passo](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Aprenda a converter documentos PDF em imagens TIFF usando o Aspose.PDF para .NET. Domine profundidades de cores personalizadas e técnicas avançadas de processamento de imagens.
+
+### [Converter docx para html em C# – Guia de Programação Completo](./convert-docx-to-html-in-c-complete-programming-guide/)
+Aprenda a converter arquivos DOCX em HTML usando C# com Aspose.PDF, passo a passo com exemplos de código.
 
 ## Recursos adicionais
 

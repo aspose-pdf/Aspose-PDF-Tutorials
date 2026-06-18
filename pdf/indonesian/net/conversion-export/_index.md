@@ -69,13 +69,16 @@ Pelajari cara mengonversi file PDF ke HTML dengan Aspose.PDF untuk .NET mengguna
 Pelajari cara mengonversi file PDF ke HTML menggunakan Aspose.PDF untuk .NET tanpa menyimpan gambar secara terpisah. Pertahankan integritas tata letak dengan panduan terperinci kami.
 
 ### [Konversi PDF ke HTML dalam .NET dengan Jalur Gambar Kustom Menggunakan Aspose.PDF](./convert-pdf-html-custom-image-paths-dotnet/)
-Pelajari cara mengonversi file PDF ke format HTML menggunakan Aspose.PDF untuk .NET, dan sesuaikan jalur gambar secara efisien. Ideal untuk integrasi web.
+Pelajari cara mengonversi file PDF ke HTML menggunakan Aspose.PDF untuk .NET, dan sesuaikan jalur gambar secara efisien. Ideal untuk integrasi web.
 
 ### [Konversi PDF ke HTML dengan Aspose.PDF untuk .NET: Pertahankan Font dalam Format TTF dan WOFF](./convert-pdf-html-aspose-net-truetype-woff/)
 Pelajari cara mengonversi PDF ke HTML menggunakan Aspose.PDF untuk .NET sambil mempertahankan font dalam TrueType (TTF) dan Web Open Font Format (WOFF). Panduan langkah demi langkah dengan contoh kode.
 
 ### [Konversi PDF ke HTML dengan Dimensi Kustom menggunakan Aspose.PDF](./convert-pdf-html-custom-dimensions-asposepdf-net/)
 Tutorial kode untuk Aspose.PDF Net
+
+### [Mengonversi PDF ke HTML dalam C# – Panduan Lengkap Langkah demi Langkah](./convert-pdf-to-html-in-c-full-step-by-step-guide/)
+Pelajari cara mengonversi PDF menjadi HTML menggunakan C# dengan Aspose.PDF, lengkap dengan contoh kode dan penjelasan langkah demi langkah.
 
 ### [Konversi PDF ke HTML dengan URL Gambar Kustom Menggunakan Aspose.PDF .NET: Panduan Lengkap](./convert-pdf-html-custom-image-urls-aspose-pdf-net/)
 Pelajari cara mengonversi dokumen PDF ke format HTML menggunakan Aspose.PDF untuk .NET, termasuk menyesuaikan URL gambar dan menerapkan strategi penghematan sumber daya yang disesuaikan.
@@ -119,6 +122,9 @@ Pelajari cara mengonversi file TeX ke PDF dengan mudah menggunakan Aspose.PDF fo
 ### [Konversi File Teks ke PDF Menggunakan Aspose.PDF untuk .NET: Panduan Langkah demi Langkah](./convert-text-files-to-pdf-aspose-dotnet/)
 Pelajari cara mengonversi file teks menjadi dokumen PDF profesional dengan mudah menggunakan Aspose.PDF for .NET. Ikuti panduan langkah demi langkah ini dengan contoh kode dan kiat pengoptimalan.
 
+### [Mengonversi PDF RGB ke Skala Abu-abu Menggunakan Aspose.PDF untuk .NET | Panduan Lengkap](./convert-rgb-pdfs-to-grayscale-aspose-pdf-net/)
+Pelajari cara mengonversi PDF RGB ke skala abu-abu secara efisien dengan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini memastikan konsistensi desain dan pengurangan ukuran file.
+
 ### [Mengonversi XML ke PDF dalam C# Menggunakan Aspose.PDF: Panduan Lengkap untuk Pengembang .NET](./convert-xml-to-pdf-csharp-aspose-pdf-guide/)
 Pelajari cara mengonversi file XML menjadi PDF profesional secara efisien menggunakan Aspose.PDF dan C#. Ikuti panduan langkah demi langkah yang dirancang khusus untuk pengembang .NET ini.
 
@@ -141,7 +147,7 @@ Pelajari cara memotong bagian tertentu dari halaman PDF dan mengubahnya menjadi 
 Pelajari cara mengekspor data dari aplikasi ke PDF secara efisien menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup pengaturan, contoh kode dalam C#, dan fitur-fitur utama.
 
 ### [Ekspor Anotasi PDF dengan Aspose.PDF .NET: Panduan Lengkap](./export-annotations-aspose-pdf-net/)
-Pelajari cara mengekspor anotasi dari PDF secara efisien menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup penyiapan, penerapan, dan praktik terbaik.
+Pelajari cara mengekspor anotasi dari PDF secara efisien menggunakan Aspose.PDF .NET. Panduan ini mencakup penyiapan, penerapan, dan praktik terbaik.
 
 ### [Ekspor Data PDF ke XML dengan Aspose.PDF untuk .NET: Panduan Langkah demi Langkah](./export-pdf-data-to-xml-aspose-dotnet-guide/)
 Pelajari cara mengekspor data formulir PDF secara efisien ke XML terstruktur menggunakan Aspose.PDF untuk .NET, pustaka canggih yang dirancang untuk manipulasi PDF.
@@ -174,7 +180,7 @@ Pelajari cara mengonversi file MHT ke PDF dengan mudah menggunakan Aspose.PDF fo
 Pelajari cara mengonversi beberapa gambar TIFF menjadi satu dokumen PDF secara efisien menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup penyiapan, penerapan, dan pengoptimalan kinerja.
 
 ### [Cara Mengonversi PCL ke PDF Menggunakan Aspose.PDF untuk .NET: Panduan Lengkap](./convert-pcl-to-pdf-aspose-net/)
-Pelajari cara mengonversi file Printer Command Language (PCL) ke PDF dengan mudah menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah ini dengan contoh kode dan aplikasi praktis.
+Pelajari cara mengonversi file Printer Command Language (PCL) ke PDF dengan mudah menggunakan Aspose.PDF for .NET. Ikuti panduan langkah demi langkah ini dengan contoh kode dan aplikasi praktis.
 
 ### [Cara Mengonversi Halaman PDF ke Gambar Menggunakan Aspose.PDF untuk .NET (Panduan Langkah demi Langkah)](./convert-pdf-pages-to-images-aspose-pdf-net/)
 Pelajari cara mengonversi halaman PDF menjadi gambar secara efisien menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah yang komprehensif ini. Sempurna untuk pengarsipan, berbagi, dan meningkatkan aksesibilitas.
@@ -226,6 +232,9 @@ Tutorial kode untuk Aspose.PDF Net
 
 ### [Konversi PDF ke TIFF dalam .NET Menggunakan Aspose.PDF: Panduan Langkah demi Langkah](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Pelajari cara mengonversi dokumen PDF ke gambar TIFF menggunakan Aspose.PDF untuk .NET. Kuasai kedalaman warna khusus dan teknik pemrosesan gambar tingkat lanjut.
+
+### [Mengonversi docx ke html dalam C# – Panduan Pemrograman Lengkap](./convert-docx-to-html-in-c-complete-programming-guide/)
+Panduan lengkap untuk mengonversi file docx menjadi HTML menggunakan C# dan Aspose.PDF.
 
 ## Sumber Daya Tambahan
 

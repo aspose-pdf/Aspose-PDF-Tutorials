@@ -35,6 +35,8 @@ Este tutorial oferece uma visão geral detalhada de métodos e técnicas para ga
 | [Assinar com cartão inteligente usando o campo de assinatura](./sign-with-smart-card-using-signature-field/) | Aprenda a assinar PDFs com segurança usando um cartão inteligente com o Aspose.PDF para .NET. Siga nosso guia passo a passo para uma implementação fácil. |  
 | [Verificar assinaturas PDF em C# – Como ler arquivos PDF assinados](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Aprenda a ler e validar assinaturas digitais em PDFs usando C# e Aspose.PDF para .NET. |
 | [Como reparar arquivos PDF – Guia completo em C# com Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Aprenda a reparar arquivos PDF corrompidos usando Aspose.PDF para .NET em C#, passo a passo. |  
+| [Verificar assinatura digital PDF com Aspose.PDF – Guia completo em C#](./verify-digital-signature-pdf-with-aspose-pdf-complete-c-guid/) | Aprenda a validar assinaturas digitais em PDFs usando C# e Aspose.PDF, passo a passo. |  
+| [Verificar assinatura PDF com Aspose.PDF – Guia completo em C#](./verify-pdf-signature-with-aspose-pdf-complete-c-guide/) | Aprenda a verificar assinaturas de PDFs com Aspose.PDF em C#, passo a passo, garantindo autenticidade e integridade. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -44,6 +44,9 @@ Dowiedz się, jak tworzyć atrakcyjne wizualnie dokumenty PDF, wyodrębniając i
 ### [Rysuj przezroczyste kształty w plikach PDF za pomocą Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 Samouczek dotyczący kodu dla Aspose.PDF Net
 
+### [Jak dodać kształt do PDF przy użyciu Aspose.PDF w C# – przewodnik krok po kroku](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Dowiedz się, jak dodawać kształty do dokumentów PDF przy użyciu Aspose.PDF w C# w tym szczegółowym przewodniku krok po kroku.
+
 ### [Efektywna identyfikacja obrazów PDF z Aspose.PDF dla .NET](./master-image-identification-aspose-pdf-net/)
 Dowiedz się, jak identyfikować obrazy w skali szarości i RGB w plikach PDF za pomocą Aspose.PDF dla .NET. Ten samouczek obejmuje instalację, ekstrakcję obrazu i wskazówki dotyczące wydajności.
 
