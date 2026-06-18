@@ -1,0 +1,7 @@
+Title: Aspose PDF Conversion Tutorial – Convert PDFs to PDF/X‑4 Step‑by‑Step
+Slug: aspose-pdf-conversion-tutorial-convert-pdfs-to-pdf-x-4-step
+Category: document-conversion
+ProcessedDate: 2026-06-18T11:50:50.883301
+SourceRepo: AI Search API
+Keywords: aspsose pdf conversion tutorial, convert pdf to pdf/x-4
+PRNumber: 92
