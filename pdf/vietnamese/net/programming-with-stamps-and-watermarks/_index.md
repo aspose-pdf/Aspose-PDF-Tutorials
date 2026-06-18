@@ -35,10 +35,11 @@ Hướng dẫn "Lập trình với tem và hình mờ" của Aspose.PDF dành ch
 | [Hình ảnh ở chân trang](./image-in-footer/) | Tìm hiểu cách thêm hình ảnh vào chân trang của PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước chi tiết này. Hoàn hảo để nâng cao tài liệu của bạn. |  
 | [Hình ảnh trong tiêu đề](./image-in-header/) | Tìm hiểu cách thêm hình ảnh vào tiêu đề của tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. |  
 | [Số trang trong Header Footer sử dụng hộp nổi](./page-number-in-header-footer-using-floating-box/) | Dễ dàng thêm số trang vào phần đầu trang và chân trang PDF của bạn bằng cách sử dụng Floating Box với Aspose.PDF cho .NET trong hướng dẫn từng bước này. |  
-| [Con dấu số trang trong tệp PDF](./page-number-stamps/) Tìm hiểu cách thêm dấu số trang vào tệp PDF bằng Aspose.PDF cho .NET thông qua hướng dẫn dễ làm theo của chúng tôi, kèm theo ví dụ mã. |  
-| [Bảng Trong Phần Đầu Trang Chân Trang](./table-in-header-footer-section/) | Tìm hiểu cách dễ dàng thêm văn bản vào chân trang của tệp PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước được bao gồm để tích hợp liền mạch. |  
-| [Văn bản ở chân trang của tệp PDF](./text-in-footer/) | Tìm hiểu cách thêm văn bản vào chân trang của tệp PDF bằng Aspose.PDF cho .NET. |  
-| [Văn bản trong tiêu đề của tệp PDF](./text-in-header/) | Học cách thêm tiêu đề văn bản vào PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Cải thiện tài liệu của bạn một cách hiệu quả và hiệu suất cao. |  
+| [Con dấu số trang trong tệp PDF](./page-number-stamps/) Tìm hiểu cách thêm dấu số trang vào tệp PDF bằng Aspose.PDF cho .NET thông qua hướng dẫn dễ làm theo của chúng tôi, kèm theo ví dụ mã. |
+| [Thêm Số Bates vào PDF trong C#](./add-bates-numbering-to-pdf-in-c-complete-step-by-step-guide/) | Tìm hiểu cách thêm số Bates vào tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn chi tiết từng bước. |
+| [Bảng Trong Phần Đầu Trang Chân Trang](./table-in-header-footer-section/) | Tìm hiểu cách dễ dàng thêm văn bản vào chân trang của tệp PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước được bao gồm để tích hợp liền mạch. |
+| [Văn bản ở chân trang của tệp PDF](./text-in-footer/) | Tìm hiểu cách thêm văn bản vào chân trang của tệp PDF bằng Aspose.PDF cho .NET. |
+| [Văn bản trong tiêu đề của tệp PDF](./text-in-header/) | Học cách thêm tiêu đề văn bản vào PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Cải thiện tài liệu của bạn một cách hiệu quả và hiệu suất cao. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

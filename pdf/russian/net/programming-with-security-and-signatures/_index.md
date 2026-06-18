@@ -35,6 +35,8 @@
 | [Подпишите с помощью смарт-карты, используя поле подписи](./sign-with-smart-card-using-signature-field/) | Узнайте, как безопасно подписывать PDF-файлы с помощью смарт-карты с помощью Aspose.PDF для .NET. Следуйте нашему пошаговому руководству для легкой реализации. |  
 | [Проверка подписей PDF в C# – Как читать подписанные PDF-файлы](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Узнайте, как проверять подписи PDF и читать подписанные файлы с помощью Aspose.PDF для .NET на C#. |  
 | [Как восстановить PDF-файлы – Полное руководство на C# с Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Узнайте, как восстанавливать поврежденные PDF-файлы с помощью Aspose.PDF для .NET. Пошаговое руководство на C#. |  
+| [Проверка цифровой подписи PDF с Aspose.PDF – Полное руководство на C#](./verify-digital-signature-pdf-with-aspose-pdf-complete-c-guid/) | Узнайте, как проверять цифровые подписи PDF с помощью Aspose.PDF для .NET на C#. Пошаговое руководство. |  
+| [Проверка подписи PDF с Aspose.PDF – Полное руководство на C#](./verify-pdf-signature-with-aspose-pdf-complete-c-guide/) | Узнайте, как проверять подписи PDF с помощью Aspose.PDF для .NET на C#. Полное пошаговое руководство. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

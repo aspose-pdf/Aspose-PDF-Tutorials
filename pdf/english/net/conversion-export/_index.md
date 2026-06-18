@@ -102,7 +102,7 @@ Learn how to seamlessly convert PDF files to DOC and DOCX formats using Aspose.P
 Learn how to convert PDF files to XML format with Aspose.PDF for .NET. Enhance data integration and processing capabilities.
 
 ### [Convert PDF/A to Standard PDF Using Aspose.PDF .NET&#58; A Comprehensive Guide](./convert-pdf-a-standard-pdf-aspose-net/)
-Learn how to seamlessly convert PDF/A documents into standard PDFs using Aspose.PDF for .NET with this step-by-step guide.
+Learn how to seamlessly convert PDF/A documents into standard PDFs using Aspose.PDF .NET with this step-by-step guide.
 
 ### [Convert PDFs to Interactive HTML with Custom CSS Using Aspose.PDF .NET](./convert-pdfs-to-html-custom-css-aspose-pdf-net/)
 Learn how to transform PDF documents into interactive, web-friendly HTML formats using Aspose.PDF .NET, complete with custom CSS styling.
@@ -141,7 +141,7 @@ Learn how to crop specific regions of a PDF page and convert them into images us
 Learn how to efficiently export data from applications to PDF using Aspose.PDF for .NET. This guide covers setup, code examples in C#, and key features.
 
 ### [Export PDF Annotations with Aspose.PDF .NET&#58; A Comprehensive Guide](./export-annotations-aspose-pdf-net/)
-Learn how to efficiently export annotations from PDFs using Aspose.PDF for .NET. This guide covers setup, implementation, and best practices.
+Learn how to efficiently export annotations from PDFs using Aspose.PDF .NET. This guide covers setup, implementation, and best practices.
 
 ### [Export PDF Data to XML with Aspose.PDF for .NET&#58; A Step-by-Step Guide](./export-pdf-data-to-xml-aspose-dotnet-guide/)
 Learn how to efficiently export PDF form data into structured XML using Aspose.PDF for .NET, a powerful library designed for PDF manipulation.
@@ -226,6 +226,12 @@ A code tutorial for Aspose.PDF Net
 
 ### [PDF to TIFF Conversion in .NET Using Aspose.PDF&#58; A Step-by-Step Guide](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Learn how to convert PDF documents to TIFF images using Aspose.PDF for .NET. Master custom color depths and advanced image processing techniques.
+
+### [Convert docx to html in C# – Complete Programming Guide](./convert-docx-to-html-in-c-complete-programming-guide/)
+Learn how to convert DOCX files to HTML using Aspose.PDF for .NET with C# code examples and step-by-step instructions.
+
+### [Convert PDF to HTML in C# – Full Step‑by‑Step Guide](./convert-pdf-to-html-in-c-full-step-by-step-guide/)
+Learn how to convert PDF documents to HTML using Aspose.PDF for .NET with a complete C# step‑by‑step guide.
 
 ## Additional Resources
 

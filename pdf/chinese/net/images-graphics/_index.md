@@ -26,6 +26,9 @@
 ### [在 Aspose.Pdf for .NET 中添加渐变色文本：分步指南](./add-text-gradient-shading-aspose-pdf-net/)
 了解如何使用 Aspose.PDF for .NET 为 PDF 添加渐变阴影文本。遵循本指南，提升文档的美观度和可读性。
 
+### [如何使用 Aspose.PDF for .NET 在 C# 中向 PDF 添加形状：分步指南](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+本指南展示如何使用 Aspose.PDF for .NET 在 C# 中创建并添加各种形状到 PDF 文档，提升视觉效果。
+
 ### [使用 Aspose.PDF for .NET 将图像转换为 PDF：分步指南](./convert-images-pdf-aspose-net-guide/)
 学习如何使用 C# 中的 Aspose.PDF for .NET 将图像转换为单个 PDF。本指南提供分步说明、技巧和最佳实践。
 
@@ -150,7 +153,7 @@ Aspose.PDF Net 代码教程
 学习如何使用 Aspose.PDF for .NET 高效地替换 PDF 文档中的图像。本指南内容全面，涵盖设置、实施和实际应用。
 
 ### [如何使用 Aspose.PDF for .NET 设置 PDF 中的图像大小](./set-image-size-pdf-aspose-dotnet/)
-了解如何使用 Aspose.PDF for .NET 调整 PDF 中的图像大小，非常适合创建专业文档和演示文稿。
+了解如何使用 Aspose.PDF for .NET 调整 PDF 中的图像大小，非常适合创建专业文档和演示稿。
 
 ### [使用 Aspose.PDF for .NET 掌握 PDF 中的图像放置](./optimize-image-placement-aspose-pdf-net/)
 学习使用 Aspose.PDF for .NET 优化 PDF 文档中的图像布局。通过实用指南提升文档质量和效率。

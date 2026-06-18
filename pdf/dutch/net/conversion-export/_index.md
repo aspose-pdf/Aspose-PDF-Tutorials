@@ -41,6 +41,9 @@ Leer hoe u Excel-werkbladen efficiënt kunt converteren naar PDF-tabellen met As
 ### [Converteer HTML naar PDF in C# met Aspose.PDF: een complete gids](./convert-html-pdf-aspose-pdf-net-csharp/)
 Leer hoe u HTML-inhoud kunt converteren naar professionele PDF's met Aspose.PDF voor .NET en C#. Deze handleiding behandelt geverifieerde HTTP-verzoeken, conversieprocessen en het instellen van referenties.
 
+### [DOCX naar HTML converteren in C# – Complete programmeergids](./convert-docx-to-html-in-c-complete-programming-guide/)
+Leer hoe u DOCX-bestanden naar HTML converteert met C# en Aspose.PDF, inclusief stap‑voor‑stap codevoorbeelden.
+
 ### [Markdown converteren naar PDF in .NET met Aspose.PDF: een uitgebreide handleiding](./convert-markdown-pdf-aspose-net-tutorial/)
 Leer hoe u Markdown-bestanden naar PDF's converteert met Aspose.PDF voor .NET. Volg deze stapsgewijze handleiding om documentconversie naadloos in uw applicaties te integreren.
 
@@ -81,7 +84,7 @@ Een codetutorial voor Aspose.PDF Net
 Leer hoe u PDF-documenten kunt converteren naar HTML-formaat met Aspose.PDF voor .NET, inclusief het aanpassen van afbeeldings-URL's en het implementeren van een op maat gemaakte strategie voor besparing van bronnen.
 
 ### [Converteer PDF naar PNG met Aspose.PDF .NET: Verbeter lettertype-aanwijzingen voor scherpe tekstweergave](./convert-pdf-png-aspose-net-font-hinting/)
-Leer hoe u PDF-documenten kunt converteren naar PNG-afbeeldingen van hoge kwaliteit met behulp van Aspose.PDF .NET, waarbij u verzekerd bent van een scherpe tekstweergave dankzij lettertypehints.
+Leer hoe u PDF-documenten kunt converteren naar PNG-afbeeldingen van hoge kwaliteit met Aspose.PDF .NET, waarbij u verzekerd bent van een scherpe tekstweergave dankzij lettertypehints.
 
 ### [PDF naar PPTX converteren met Aspose.PDF voor .NET: Stapsgewijze handleiding](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 Leer hoe u PDF-documenten efficiënt kunt converteren naar PowerPoint-presentaties met Aspose.PDF voor .NET. Deze stapsgewijze handleiding behandelt de basisconversie, geavanceerde functies zoals dia's met afbeeldingen en het bijhouden van de voortgang.
@@ -161,7 +164,7 @@ Leer hoe u Computer Graphics Metafile (CGM)-afbeeldingen naar PDF-formaat conver
 ### [EPUB naar PDF converteren met Aspose.PDF .NET: Stapsgewijze handleiding](./convert-epub-pdf-aspose-pdf-net-guide/)
 Leer hoe je EPUB-bestanden naar PDF converteert met Aspose.PDF voor .NET met deze gedetailleerde handleiding. Perfect voor ontwikkelaars die een naadloze documentconversie nodig hebben.
 
-### [HTML naar PDF converteren met Aspose.PDF .NET: een complete gids](./convert-html-pdf-aspose-dotnet-guide/)
+### [HTML naar PDF converteren met Aspose.PDF .NET: een complete gids](./convert-html-pdf-aspose-pdf-net-guide/)
 Leer hoe u HTML-documenten efficiënt kunt converteren naar professioneel ogende PDF's met Aspose.PDF .NET. Ontdek technieken voor het verwerken van externe bronnen en het weergeven van complexe content.
 
 ### [Hoe u grote CGM-afbeeldingen naar PDF kunt converteren met Aspose.PDF .NET: een uitgebreide handleiding](./convert-large-cgm-images-to-pdf-aspose-pdf-net/)
@@ -221,7 +224,10 @@ Leer hoe u PDF-documenten naar HTML converteert met externe PNG-afbeeldingen met
 ### [PDF naar HTML-conversie met Aspose.PDF .NET: een uitgebreide handleiding](./aspose-pdf-net-pdf-to-html-conversion/)
 Beheers PDF-naar-HTML-conversie met Aspose.PDF voor .NET. Verbeter de toegankelijkheid en interactie van uw documenten met aanpasbare opties.
 
-### [PDF naar HTML-conversie met Aspose.PDF voor .NET](./pdf-to-html-conversion-aspose-dot-net/)
+### [PDF naar HTML converteren met Aspose.PDF .NET: een uitgebreide handleiding](./convert-pdf-to-html-in-c-full-step-by-step-guide/)
+Leer hoe u PDF-bestanden in C# naar HTML converteert met Aspose.PDF, stap‑voor‑stap met voorbeeldcode.
+
+### [PDF naar HTML-conversie met Aspose.PDF .NET](./pdf-to-html-conversion-aspose-dot-net/)
 Een codetutorial voor Aspose.PDF Net
 
 ### [PDF naar TIFF-conversie in .NET met Aspose.PDF: een stapsgewijze handleiding](./pdf-to-tiff-conversion-aspose-pdf-net/)
