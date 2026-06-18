@@ -64,6 +64,9 @@ C# kullanarak PDF belgesini yükleyin, PDF/X‑4 formatına dönüştürün ve i
 ### [Aspose ile PDF İmzasını Doğrulama – PDF'yi HTML'ye Dönüştür](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
 Aspose kullanarak PDF imzasını doğrularken aynı zamanda PDF'yi HTML formatına dönüştürmeyi öğrenin.
 
+### [PDF'i İmzalama ve Görüntü Ekleme – Tam C# Kılavuzu](./how-to-sign-pdf-and-add-images-complete-c-guide/)
+C# kullanarak PDF'ye nasıl imza ekleyip, görüntü yerleştireceğinizi adım adım öğrenin.
+
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)

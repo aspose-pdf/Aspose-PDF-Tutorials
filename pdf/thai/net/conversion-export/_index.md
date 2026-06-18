@@ -68,7 +68,7 @@
 ### [แปลง PDF เป็น HTML ใน .NET โดยใช้ Aspose.PDF โดยไม่ต้องบันทึกภาพ](./convert-pdf-html-net-asposepdf-no-images/)
 เรียนรู้วิธีการแปลงไฟล์ PDF เป็น HTML โดยใช้ Aspose.PDF สำหรับ .NET โดยไม่ต้องบันทึกรูปภาพแยกต่างหาก รักษาความสมบูรณ์ของเค้าโครงด้วยคู่มือโดยละเอียดของเรา
 
-### [แปลง PDF เป็น HTML ใน .NET ด้วยเส้นทางรูปภาพที่กำหนดเองโดยใช้ Aspose.PDF](./convert-pdf-html-custom-image-paths-dotnet/)
+### [แปลง PDF เป็น HTML ใน .NET ด้วย Aspose.PDF โดยใช้เส้นทางรูปภาพที่กำหนดเอง](./convert-pdf-html-custom-image-paths-dotnet/)
 เรียนรู้วิธีการแปลงไฟล์ PDF เป็นรูปแบบ HTML โดยใช้ Aspose.PDF สำหรับ .NET และกำหนดเส้นทางรูปภาพอย่างมีประสิทธิภาพ เหมาะอย่างยิ่งสำหรับการผสานรวมเว็บ
 
 ### [แปลง PDF เป็น HTML ด้วย Aspose.PDF สำหรับ .NET: รักษาแบบอักษรในรูปแบบ TTF และ WOFF](./convert-pdf-html-aspose-net-truetype-woff/)
@@ -224,8 +224,17 @@
 ### [การแปลง PDF เป็น HTML ด้วย Aspose.PDF สำหรับ .NET](./pdf-to-html-conversion-aspose-dot-net/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.PDF Net
 
+### [บันทึก PDF เป็น HTML ด้วย Aspose – คู่มือ C# ฉบับสมบูรณ์](./save-pdf-as-html-with-aspose-c-guide/)
+เรียนรู้วิธีบันทึกไฟล์ PDF เป็น HTML ด้วย Aspose.NET ด้วยคู่มือ C# ครบถ้วน
+
+### [บันทึก PDF เป็น HTML ด้วย C# – คู่มือขั้นตอนเต็ม](./save-pdf-as-html-with-c-complete-step-by-step-guide/)
+เรียนรู้วิธีบันทึกไฟล์ PDF เป็น HTML ด้วย C# ผ่านคู่มือขั้นตอนเต็มที่ครอบคลุม
+
 ### [การแปลง PDF เป็น TIFF ใน .NET โดยใช้ Aspose.PDF: คำแนะนำทีละขั้นตอน](./pdf-to-tiff-conversion-aspose-pdf-net/)
 เรียนรู้วิธีการแปลงเอกสาร PDF เป็นภาพ TIFF โดยใช้ Aspose.PDF สำหรับ .NET เชี่ยวชาญความลึกสีที่กำหนดเองและเทคนิคการประมวลผลภาพขั้นสูง
+
+### [แปลง PDF เป็น PDF/X-1a, ส่งออกหน้าเป็น PNG และเพิ่มตราข้อความ](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
+เรียนรู้วิธีแปลง PDF เป็น PDF/X‑1a ส่งออกหน้าเป็น PNG และเพิ่มตราข้อความด้วย Aspose.PDF สำหรับ .NET
 
 ## แหล่งข้อมูลเพิ่มเติม
 
