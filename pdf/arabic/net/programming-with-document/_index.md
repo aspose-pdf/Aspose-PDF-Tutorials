@@ -58,6 +58,7 @@
 | [التحقق من صحة معيار PDF AB](./validatepdfabstandard/) تعرّف على كيفية التحقق من صحة ملف PDF لمعيار PDF/A-1b باستخدام Aspose.PDF لـ .NET في هذا البرنامج التعليمي خطوة بخطوة. اضمن التوافق مع معايير الأرشفة طويلة الأمد.  
 | [التحقق من صحة ملفات PDF كمعيار](./validatepdfastandard/) |تعرف على كيفية التحقق من صحة ملفات PDF وفقًا لمعيار PDF/A-1a باستخدام Aspose.PDF لـ .NET في هذا البرنامج التعليمي الشامل خطوة بخطوة. |  
 | [التحقق من صحة معيار PDF UA](./validatepdfuastandard/) |تعرف على كيفية التحقق من صحة ملف PDF لمعيار إمكانية الوصول PDF/UA باستخدام Aspose.PDF لـ .NET من خلال دليلنا خطوة بخطوة وشروحاتنا التفصيلية. |  
+| [إنشاء مكوّن Aspose مخصص – دليل كامل لأتمتة معالجة PDF](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | دليل خطوة بخطوة لإنشاء مكوّن Aspose مخصص لأتمتة معالجة ملفات PDF باستخدام .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

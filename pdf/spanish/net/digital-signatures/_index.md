@@ -30,7 +30,10 @@ Un tutorial de código para Aspose.PDF Net
 Aprenda a personalizar el texto de la firma digital en archivos PDF con Aspose.PDF para .NET. Ideal para la preparación y localización de documentos multilingües.
 
 ### [Cómo crear y verificar firmas PDF con Aspose.PDF para .NET](./create-verify-pdf-signatures-aspose-net/)
-Aprenda a crear, firmar y verificar firmas PDF de forma segura con Aspose.PDF para .NET. Optimice sus flujos de trabajo con esta guía completa.
+Aprenda a crear, firmar y verificar firmas PDF de forma segura con esta guía completa.
+
+### [Cómo firmar PDF usando certificado – Guía completa en C#](./how-to-sign-pdf-using-certificate-complete-c-guide/)
+Aprenda a firmar PDFs con un certificado digital usando Aspose.PDF para .NET en C# paso a paso.
 
 ### [Cómo extraer información de firma de PDF con Aspose.PDF .NET: guía paso a paso](./extract-pdf-signature-info-aspose-pdf-net/)
 Aprenda a extraer información de firma digital de archivos PDF con Aspose.PDF para .NET. Esta guía paso a paso abarca la instalación, la implementación y las aplicaciones prácticas.

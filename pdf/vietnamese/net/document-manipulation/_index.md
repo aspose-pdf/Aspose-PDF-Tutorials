@@ -38,6 +38,9 @@ Tìm hiểu cách thêm ngắt trang trong tài liệu PDF bằng Aspose.PDF cho
 ### [Thêm hình chữ nhật và định cấu hình trang PDF bằng Aspose.PDF .NET: Hướng dẫn toàn diện](./aspose-pdf-net-add-rectangles-configure-pages/)
 Làm chủ việc thêm hình chữ nhật và cấu hình các trang trong PDF bằng Aspose.PDF cho .NET. Thực hiện theo hướng dẫn này để tìm hiểu các kỹ thuật thao tác tài liệu hiệu quả.
 
+### [Thêm Hình Chữ Nhật vào PDF bằng C# – Hướng Dẫn Lập Trình Toàn Diện](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
+Tìm hiểu cách thêm hình chữ nhật vào tài liệu PDF bằng C# với Aspose.PDF .NET trong hướng dẫn lập trình toàn diện này.
+
 ### [Aspose.PDF .NET: Thiết lập lề PDF & Tùy chỉnh tiêu đề/chân trang](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 Làm chủ nghệ thuật thiết lập lề trang và tùy chỉnh tiêu đề/chân trang trong tệp PDF của bạn với Aspose.PDF cho .NET. Thực hiện theo hướng dẫn chi tiết này để tăng cường tính nhất quán của bố cục tài liệu.
 
@@ -80,7 +83,7 @@ Tìm hiểu cách tối ưu hóa tệp PDF bằng cách loại bỏ các đối 
 ### [Xử lý trang PDF hiệu quả với Aspose.PDF cho .NET: Hướng dẫn dành cho nhà phát triển](./manipulate-pdf-pages-aspose-dot-net/)
 Học cách thao tác hiệu quả các trang PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm xoay, thu phóng và thiết lập gốc mà không cần Adobe Acrobat.
 
-### [Kết hợp hiệu quả các trang PDF bằng Aspose.PDF cho .NET: Hướng dẫn phương pháp N-Up](./combine-pdf-pages-aspose-net-nup-method/)
+### [Kết hợp hiệu quả các trang PDF bằng Aspose.PDF cho .NET: Hướng pháp N-Up](./combine-pdf-pages-aspose-net-nup-method/)
 Tìm hiểu cách kết hợp các trang PDF hiệu quả bằng phương pháp N-Up với Aspose.PDF cho .NET. Hướng dẫn này bao gồm thiết lập, triển khai và ứng dụng thực tế.
 
 ### [Xóa trang khỏi PDF hiệu quả bằng Aspose.PDF cho .NET](./delete-pages-pdf-aspose-dotnet/)

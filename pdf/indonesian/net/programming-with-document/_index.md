@@ -58,6 +58,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Validasi PDF AB Standar](./validatepdfabstandard/) Pelajari cara memvalidasi PDF untuk standar PDF/A-1b menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini. Pastikan kepatuhan untuk pengarsipan jangka panjang. Bahasa Indonesia:  
 | [Validasi File PDF Standar](./validatepdfastandard/) | Pelajari cara memvalidasi file PDF terhadap standar PDF/A-1a menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah yang komprehensif ini. Bahasa Indonesia:  
 | [Validasi PDF UA Standar](./validatepdfuastandard/) | Pelajari cara memvalidasi PDF untuk standar aksesibilitas PDF/UA menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah dan penjelasan terperinci kami. |  
+| [Buat plugin Aspose khusus – Panduan Lengkap untuk Mengotomatiskan Pemrosesan PDF](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Pelajari cara membuat plugin Aspose khusus untuk mengotomatiskan proses PDF dengan panduan langkah demi langkah. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

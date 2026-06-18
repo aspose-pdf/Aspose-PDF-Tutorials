@@ -59,6 +59,9 @@
 ### [التحقق من توقيع PDF باستخدام Aspose – تحويل PDF إلى HTML](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
 تعرّف على كيفية التحقق من توقيع PDF وتحويله إلى HTML باستخدام Aspose.
 
+### [كيفية توقيع ملف PDF باستخدام شهادة – دليل كامل بلغة C#](./how-to-sign-pdf-using-certificate-complete-c-guide/)
+دليل شامل يوضح كيفية توقيع ملفات PDF باستخدام شهادة رقمية في C# مع أمثلة عملية.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

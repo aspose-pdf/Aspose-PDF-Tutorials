@@ -38,6 +38,9 @@ Aspose.PDF for .NET kullanarak düğme alanlarına etkileşimli JavaScript ekley
 ### [Aspose.PDF .NET ile Dikdörtgenler Ekleyin ve PDF Sayfalarını Yapılandırın: Kapsamlı Bir Kılavuz](./aspose-pdf-net-add-rectangles-configure-pages/)
 Aspose.PDF for .NET kullanarak PDF'lere dikdörtgen ekleme ve sayfaları yapılandırma konusunda uzmanlaşın. Belge düzenleme tekniklerini etkili bir şekilde öğrenmek için bu kılavuzu izleyin.
 
+### [C# ile PDF'ye Dikdörtgen Ekleme – Tam Programlama Kılavuzu](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
+C# ve Aspose.PDF for .NET kullanarak PDF belgelerine dikdörtgen eklemeyi adım adım öğrenin ve özelleştirilmiş düzenler oluşturun.
+
 ### [Aspose.PDF .NET: PDF Kenar Boşluklarını Ayarlayın ve Başlıkları/Altbilgileri Özelleştirin](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 Aspose.PDF for .NET ile PDF'lerinizdeki sayfa kenar boşluklarını ayarlama ve üstbilgileri/altbilgileri özelleştirme sanatında ustalaşın. Belge düzeni tutarlılığını artırmak için bu ayrıntılı kılavuzu izleyin.
 

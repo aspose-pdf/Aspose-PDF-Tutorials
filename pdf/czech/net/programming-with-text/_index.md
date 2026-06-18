@@ -70,6 +70,7 @@ Výukové programy „Programování s textem“ pro .NET od Aspose.PDF nabízej
 | [Text a obrázek jako odstavec v souboru PDF](./text-and-image-as-paragraph/) | Vytvářejte PDF soubory s textem a obrázky pomocí Aspose.PDF pro .NET. Naučte se krok za krokem přidávat text a vložené obrázky. |  
 | [Textové segmenty v souboru PDF](./text-segments/) | Naučte se, jak vyhledávat konkrétní textové segmenty v souboru PDF pomocí regulárních výrazů v Aspose.PDF pro .NET. |  
 | [Použití Latexového skriptu v PDF souboru](./use-latex-script/) | Naučte se, jak pomocí Latexového skriptu přidávat matematické výrazy nebo vzorce do PDF souboru pomocí Aspose.PDF pro .NET. |  
+| [Vytvořit prvek Span v aplikaci Word pomocí C# – Kompletní průvodce](./create-span-element-in-word-with-c-complete-guide/) | Naučte se vytvořit prvek Span v dokumentu Word pomocí C# s podrobným návodem a ukázkami kódu. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

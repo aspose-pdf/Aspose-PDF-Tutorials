@@ -58,6 +58,7 @@ De bron bevat tutorials over de programmeerfunctie met documentfunctionaliteit v
 | [Valideer PDF AB-standaard](./validatepdfabstandard/) Leer in deze stapsgewijze tutorial hoe u een PDF kunt valideren voor de PDF/A-1b-standaard met Aspose.PDF voor .NET. Zorg voor compliance bij langetermijnarchivering. |  
 | [PDF-bestanden valideren Een standaard](./validatepdfastandard/) | Leer hoe u PDF-bestanden kunt valideren tegen de PDF/A-1a-standaard met behulp van Aspose.PDF voor .NET in deze uitgebreide stapsgewijze zelfstudie. |  
 | [Valideer PDF UA-standaard](./validatepdfuastandard/) | Leer hoe u een PDF kunt valideren voor de PDF/UA-toegankelijkheidsstandaard met Aspose.PDF voor .NET met onze stapsgewijze handleiding en gedetailleerde uitleg. |  
+| [Aangepaste Aspose-plug-in maken – Complete gids voor het automatiseren van PDF-verwerking](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Leer hoe u een aangepaste Aspose-plug‑in maakt om PDF‑verwerking te automatiseren met stap‑voor‑stap codevoorbeelden. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

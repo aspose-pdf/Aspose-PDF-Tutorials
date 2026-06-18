@@ -70,6 +70,7 @@ Aspose.PDFの.NET向け「テキストプログラミング」チュートリア
 | [PDFファイル内の段落としてのテキストと画像](./text-and-image-as-paragraph/) Aspose.PDF for .NET を使用して、テキストと画像を含むPDFを作成します。テキストとインライン画像を追加する方法をステップバイステップで学習します。 |  
 | [PDFファイル内のテキストセグメント](./text-segments/) Aspose.PDF for .NET で正規表現を使用して PDF ファイル内の特定のテキスト セグメントを検索する方法を学習します。 |  
 | [PDFファイルでLaTeXスクリプトを使用する](./use-latex-script/) Aspose.PDF for .NET を使用して、LaTeX スクリプトで PDF ファイルに数式や式を追加する方法を学習します。 |  
+| [C# で Word の Span 要素を作成する – 完全ガイド](./create-span-element-in-word-with-c-complete-guide/) Aspose.PDF for .NET を使用して、C# で Word 文書に Span 要素を作成し、書式設定や操作方法を学ぶステップバイステップガイドです。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
