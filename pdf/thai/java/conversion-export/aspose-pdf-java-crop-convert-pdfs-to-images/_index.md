@@ -1,12 +1,53 @@
 ---
-date: '2026-01-01'
-description: เรียนรู้วิธีการตัดหน้าต่าง PDF และแปลงเป็นภาพ BMP ความละเอียดสูงโดยใช้
-  Aspose.PDF สำหรับ Java.
+date: '2026-06-07'
+description: เรียนรู้วิธีแปลงหน้ากระดาษ PDF เป็นภาพและตัดต่อโดยใช้ Aspose.PDF สำหรับ
+  Java เพื่อสร้างภาพ PDF ความละเอียดสูง
 keywords:
-- crop PDF pages with Java
-- convert PDF to images using Aspose.PDF
-- Aspose.PDF Java library
-title: วิธีตัดหน้ากระดาษ PDF และแปลงเป็นภาพโดยใช้ Aspose.PDF สำหรับ Java
+- pdf page to image
+- high resolution pdf image
+- convert pdf to bmp
+- java pdf to png
+- aspose pdf license free
+schemas:
+- author: Aspose
+  dateModified: '2026-06-07'
+  description: Learn how to convert a PDF page to image and crop it using Aspose.PDF
+    for Java, producing high resolution PDF images.
+  headline: Convert PDF Page to Image and Crop with Aspose.PDF Java
+  type: TechArticle
+- description: Learn how to convert a PDF page to image and crop it using Aspose.PDF
+    for Java, producing high resolution PDF images.
+  name: Convert PDF Page to Image and Crop with Aspose.PDF Java
+  steps:
+  - name: Define the Crop Region (set crop box pdf)
+    text: '- *Parameters*: left, bottom, right, top coordinates (in points).'
+  - name: Save the Cropped Document
+    text: '> **Pro tip:** Verify the rectangle dimensions against the page size to
+      avoid “out of bounds” errors.'
+  - name: Load from Byte Stream and Convert
+    text: '- The `Resolution` object controls DPI; 300 dpi yields a crisp BMP suitable
+      for printing or further analysis. > **Common pitfall:** Forgetting to close
+      streams can lead to memory leaks. Always dispose of `ByteArrayOutputStream`
+      and `ByteArrayInputStream` when finished.'
+  type: HowTo
+- questions:
+  - answer: Iterate through `document.getPages()` and apply `setCropBox` to each page
+      as needed.
+    question: How do I crop multiple pages at once?
+  - answer: Yes, Aspose.PDF supports `JpegDevice`, `PngDevice`, `TiffDevice`, and
+      more for **pdf to image java** conversions.
+    question: Can I convert PDF pages to other image formats?
+  - answer: Adjust the rectangle coordinates so they stay within the page dimensions;
+      otherwise an exception is thrown.
+    question: What if my crop rectangle exceeds page bounds?
+  - answer: Process pages in batches, reuse streams, and call `document.optimizeResources()`
+      to free unused objects.
+    question: How can I handle very large PDFs efficiently?
+  - answer: Render the page to an image first, display it in a UI component, and confirm
+      the crop box visually.
+    question: Is there a way to preview the cropped area before saving?
+  type: FAQPage
+title: แปลงหน้ากระดาษ PDF เป็นภาพและตัดต่อด้วย Aspose.PDF Java
 url: /th/java/conversion-export/aspose-pdf-java-crop-convert-pdfs-to-images/
 weight: 1
 ---
@@ -16,50 +57,47 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# ตัดและแปลงหน้าต่าง PDF เป็นภาพด้วย Aspose.PDF Java
+# แปลงหน้ PDF เป็นภาพและครอปด้วย Aspose.PDF Java
 
-หากคุณต้องการทราบ **วิธีการตัด PDF** หน้าและแปลงส่วนเหล่านั้นเป็นภาพด้วย Java คุณมาถูกที่แล้ว คู่มือฉบับสมบูรณ์นี้จะพาคุณผ่านขั้นตอนการตัดพื้นที่จากหน้าของ PDF แล้วแปลงพื้นที่นั้นเป็นภาพ BMP ความละเอียดสูงด้วย Aspose.PDF for Java ช่วยให้คุณปรับปรุงกระบวนการจัดการเอกสารได้อย่างมีประสิทธิภาพ
+หากคุณต้องการ **แปลงหน้ PDF เป็นภาพ** พร้อมกับการครอปส่วนที่กำหนดไว้ คุณมาถูกที่แล้ว คู่มือนี้จะพาคุณผ่านขั้นตอนการครอปสี่เหลี่ยมจากหน้ PDF แล้วเรนเดอร์ส่วนนั้นเป็นภาพ BMP ความละเอียดสูงโดยใช้ Aspose.PDF for Java เมื่อเสร็จคุณจะได้โค้ดสั้นที่นำกลับมาใช้ใหม่ได้ซึ่งสามารถใส่ลงในสายงานการประมวลผลเอกสารใด ๆ
 
-## คำตอบอย่างรวดเร็ว
-- **ไลบรารีหลักคืออะไร?** Aspose.PDF for Java  
-- **สามารถตั้งค่า crop box แบบกำหนดเองได้หรือไม่?** ได้ – ใช้เมธอด `setCropBox`  
-- **ฟอร์แมตใดให้คุณภาพดีที่สุด?** BMP ที่ 300 dpi ให้ภาพ PDF ความละเอียดสูง  
-- **ต้องใช้ไลเซนส์สำหรับการทดสอบหรือไม่?** ไลเซนส์ชั่วคราวฟรีจะลบข้อจำกัดการประเมินทั้งหมด  
-- **สามารถแปลงโดยตรงเป็นฟอร์แมตอื่นได้หรือไม่?** ได้ – `JpegDevice`, `PngDevice` ฯลฯ รองรับเช่นกัน  
+## คำตอบด่วน
+- **ไลบรารีที่ใช้ในบทแนะนำนี้คืออะไร?** Aspose.PDF for Java.
+- **ฉันสามารถตั้งค่า crop box แบบกำหนดเองได้หรือไม่?** ใช่ – เรียก `setCropBox` บนวัตถุหน้า.
+- **รูปแบบภาพใดให้คุณภาพดีที่สุด?** BMP ที่ 300 dpi ให้ผลลัพธ์ที่คมชัดที่สุด.
+- **ฉันต้องการไลเซนส์สำหรับการทดสอบหรือไม่?** ไลเซนส์ฟรีชั่วคราวจะลบข้อจำกัดการประเมินทั้งหมด.
+- **ฉันสามารถส่งออกเป็นรูปแบบอื่นได้หรือไม่?** แน่นอน – `JpegDevice`, `PngDevice`, `TiffDevice` เป็นต้น ได้รับการสนับสนุน.
 
-## **วิธีการตัด PDF** ด้วย Aspose.PDF คืออะไร?
-การตัด PDF หมายถึงการกำหนดพื้นที่สี่เหลี่ยม ( *crop box* ) ที่คุณต้องการเก็บไว้และละทิ้งส่วนที่เหลือของหน้า ซึ่งมีประโยชน์สำหรับการสกัดลายเซ็น ตาราง หรือพื้นที่ใด ๆ ที่ต้องการการประมวลผลแยกส่วน
+## วิธี **ครอป PDF** ด้วย Aspose.PDF?
+การครอป PDF ด้วย Aspose.PDF หมายถึงการกำหนด crop box สี่เหลี่ยมที่ระบุส่วนของหน้าให้คงไว้ในขณะที่ตัดส่วนที่เหลือออก ไลบรารีจะปรับ MediaBox, CropBox และขอบเขตอื่น ๆ ของหน้าเพื่อให้เฉพาะพื้นที่ที่เลือกเท่านั้นถูกเรนเดอร์หรือบันทึก.
 
 ## ทำไมต้องใช้ Aspose.PDF สำหรับการแปลง **pdf to image java**?
-- **ผลลัพธ์ความละเอียดสูง** – ควบคุม DPI เพื่อให้ได้ภาพคมชัด  
-- **ไม่มีการพึ่งพาไลบรารีภายนอก** – ไลบรารี Java แท้ ๆ  
-- **รองรับฟอร์แมตหลากหลาย** – BMP, JPEG, PNG, TIFF และอื่น ๆ  
-- **API ที่แข็งแรง** – ตั้งค่า crop box และเรนเดอร์หน้าได้ง่าย  
+Aspose.PDF for Java ให้การเรสเตอร์ไลซ์ความละเอียดสูง ทำให้คุณสามารถเรนเดอร์หน้ PDF ที่ความละเอียดสูงสุด 1200 dpi ซึ่งให้ภาพคมชัดเหมาะสำหรับการพิมพ์และการวิเคราะห์ มันทำงานโดยไม่ต้องพึ่งพาไลบรารีเนทีฟ รองรับรูปแบบผลลัพธ์หลากหลายเช่น BMP, JPEG, PNG, และ TIFF และมี API ที่ง่ายต่อการควบคุม DPI, ความลึกสี, และการบีบอัด.
 
 ## ข้อกำหนดเบื้องต้น
-- **Java Development Kit (JDK)** – ติดตั้งและตั้งค่าเรียบร้อย  
-- **IDE** – IntelliJ IDEA, Eclipse หรือเครื่องมือแก้ไข Java ใด ๆ  
-- **Aspose.PDF for Java** – เวอร์ชัน 25.3 (หรือใหม่กว่า) เพิ่มผ่าน Maven/Gradle  
-- ความรู้พื้นฐาน Java และความคุ้นเคยกับ Maven หรือ Gradle  
+- **JDK** (เวอร์ชัน 8 หรือใหม่กว่า) ติดตั้งและกำหนดค่าแล้ว.
+- **IDE** เช่น IntelliJ IDEA หรือ Eclipse.
+- **Aspose.PDF for Java** – เวอร์ชัน 25.3 หรือใหม่กว่า, เพิ่มผ่าน Maven/Gradle.
+- ความคุ้นเคยพื้นฐานกับ Java และเครื่องมือสร้าง.
 
-## การตั้งค่า Aspose.PDF for Java
-ขั้นแรกให้เพิ่มไลบรารีลงในโปรเจกต์ของคุณ
+## การตั้งค่า Aspose.PDF สำหรับ Java
+ขั้นแรก เพิ่มไลบรารีลงในโครงการของคุณ.
 
-**Maven:**
+**Maven:**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-pdf</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
-```
+```  
 
-คุณยังต้องการไลเซนส์สำหรับการใช้งานในผลิตภัณฑ์ ไลเซนส์ชั่วคราวสามารถขอได้ฟรีเพื่อสำรวจฟังก์ชันทั้งหมด
+รับไลเซนส์ฟรีชั่วคราวเพื่อเปิดใช้งานฟังก์ชันทั้งหมดระหว่างการพัฒนา.
 
 ### การเริ่มต้นพื้นฐาน
 ```java
@@ -74,41 +112,50 @@ public class SetupAsposePDF {
         System.out.println("Setup complete!");
     }
 }
-```
+```  
 
-เมื่อสภาพแวดล้อมพร้อมแล้ว ไปที่ขั้นตอนการตัดต่อกันต่อ
+เมื่อสภาพแวดล้อมพร้อมแล้ว เรามาเริ่มการครอปกันต่อ.
 
-## วิธีการตัดหน้าต่าง PDF ด้วย Aspose.PDF
-การตัดช่วยให้คุณโฟกัสที่พื้นที่เฉพาะของหน้า ด้านล่างเป็นขั้นตอนแบบละเอียด
+## วิธีการครอปหน้ PDF ด้วย Aspose.PDF
+`Rectangle` class แสดงพื้นที่สี่เหลี่ยมที่กำหนดโดยพิกัดซ้าย, ล่าง, ขวา, และบนที่วัดเป็น points.  
+เพื่อครอปหน้ PDF ให้โหลดเอกสาร, สร้าง `Rectangle` ที่กำหนดขอบซ้าย, ล่าง, ขวา, และบนตามที่ต้องการในหน่วย points, แล้วกำหนดให้กับ crop box ของหน้าโดยใช้ `setCropBox`. หลังจากตั้งค่า box แล้ว การบันทึกเอกสารจะสร้างไฟล์ที่มีเฉพาะส่วนที่ระบุบนแต่ละหน้าที่ประมวลผล.
+
+### คำตอบโดยตรง
+คุณครอปหน้ PDF โดยสร้าง `Rectangle` ที่กำหนดขอบซ้าย, ล่าง, ขวา, และบนในหน่วย points, แล้วเรียก `page.setCropBox(rectangle)`. หลังจากตั้งค่า box แล้ว บันทึกเอกสาร – ขอบที่ไม่ต้องการจะถูกลบออกทันที.
 
 ### ขั้นตอนที่ 1: นำเข้าไลบรารีที่จำเป็น
 ```java
 import com.aspose.pdf.Document;
 import com.aspose.pdf.Rectangle;
-```
+```  
 
 ### ขั้นตอนที่ 2: โหลดเอกสาร PDF
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Document document = new Document(dataDir + "/Input.pdf");
-```
+```  
 
-### ขั้นตอนที่ 3: กำหนดพื้นที่ตัด (set crop box pdf)
+### ขั้นตอนที่ 3: กำหนดพื้นที่ครอป (set crop box pdf)
 ```java
 Rectangle pageRect = new Rectangle(20, 671, 693, 1125);
 document.getPages().get_Item(1).setCropBox(pageRect);
-```
-- *พารามิเตอร์*: พิกัด left, bottom, right, top (หน่วยเป็น points)
+```  
+- *Parameters*: พิกัดซ้าย, ล่าง, ขวา, บน (หน่วย points).
 
-### ขั้นตอนที่ 4: บันทึกเอกสารที่ถูกตัด
+### ขั้นตอนที่ 4: บันทึกเอกสารที่ครอปแล้ว
 ```java
 document.save(dataDir + "/CroppedOutput.pdf");
-```
+```  
 
-> **เคล็ดลับมืออาชีพ:** ตรวจสอบขนาดสี่เหลี่ยมเทียบกับขนาดหน้าเพื่อหลีกเลี่ยงข้อผิดพลาด “out of bounds”
+> **เคล็ดลับ:** ตรวจสอบขนาดสี่เหลี่ยมเทียบกับขนาดหน้ากระดาษเพื่อหลีกเลี่ยงข้อผิดพลาด “out of bounds”.
 
-## แปลงพื้นที่ PDF ที่ถูกตัดเป็นภาพ (pdf to bmp conversion)
-เมื่อหน้าถูกตัดแล้ว คุณสามารถเรนเดอร์เป็นภาพ BMP – ฟอร์แมต **high resolution pdf image** ที่นิยม
+## วิธีการแปลงส่วนที่ครอปของ PDF เป็นภาพ (pdf to bmp conversion)
+`BmpDevice` class เรนเดอร์หน้ PDF เป็นรูปแบบภาพ BMP.  
+`Resolution` class ระบุ DPI ของภาพผลลัพธ์.  
+หลังจากครอป คุณสามารถเรนเดอร์ส่วนที่เลือกเป็นภาพโดยสร้าง `BmpDevice`, ตั้งค่าความละเอียด, และประมวลผลหน้า. อุปกรณ์จะเขียนผลลัพธ์ที่เรสเตอร์ไลซ์ลงในสตรีม ซึ่งคุณสามารถบันทึกเป็นไฟล์ BMP หรือแปลงเป็นรูปแบบอื่นตามต้องการ.
+
+### คำตอบโดยตรง
+สร้าง `BmpDevice` (หรืออุปกรณ์ภาพอื่น) ตั้งค่า `Resolution` เป็น 300 dpi, แล้วเรียก `process` บนหน้าที่ครอป. อุปกรณ์จะเขียนภาพลงในสตรีม ซึ่งคุณสามารถบันทึกเป็นไฟล์ `.bmp`.
 
 ### ขั้นตอนที่ 5: นำเข้าไลบรารีเพิ่มเติม
 ```java
@@ -116,13 +163,13 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import com.aspose.pdf.devices.BmpDevice;
 import com.aspose.pdf.devices.Resolution;
-```
+```  
 
-### ขั้นตอนที่ 6: บันทึก PDF ที่ถูกตัดเป็น Byte Stream
+### ขั้นตอนที่ 6: บันทึก PDF ที่ครอปเป็น Byte Stream
 ```java
 ByteArrayOutputStream outStream = new ByteArrayOutputStream();
 document.save(outStream);
-```
+```  
 
 ### ขั้นตอนที่ 7: โหลดจาก Byte Stream และแปลง
 ```java
@@ -130,61 +177,66 @@ document = new Document(new ByteArrayInputStream(outStream.toByteArray()));
 Resolution resolution = new Resolution(300); // High‑quality image
 BmpDevice bmpDevice = new BmpDevice(resolution);
 bmpDevice.process(document.getPages().get_Item(1), "YOUR_OUTPUT_DIRECTORY/Output.bmp");
-```
-- อ็อบเจ็กต์ `Resolution` ควบคุม DPI; 300 dpi ให้ BMP คมชัดเหมาะสำหรับการพิมพ์หรือการวิเคราะห์ต่อไป
+```  
+- วัตถุ `Resolution` ควบคุม DPI; 300 dpi ให้ BMP คมชัดเหมาะสำหรับการพิมพ์หรือการวิเคราะห์ต่อไป.
 
-> **ข้อผิดพลาดทั่วไป:** ลืมปิดสตรีมอาจทำให้เกิดการรั่วของหน่วยความจำ ควรทำลาย `ByteArrayOutputStream` และ `ByteArrayInputStream` เสมอเมื่อใช้งานเสร็จ
+> **ข้อผิดพลาดทั่วไป:** ลืมปิดสตรีมอาจทำให้เกิดการรั่วของหน่วยความจำ ควรทำลาย `ByteArrayOutputStream` และ `ByteArrayInputStream` เสมอเมื่อทำเสร็จ.
 
-## การใช้งานเชิงปฏิบัติ
-- **การจัดเก็บเอกสาร:** ลบส่วนหัว/ส่วนท้ายก่อนบันทึก  
-- **ลายเซ็นดิจิทัล:** สกัดเฉพาะพื้นที่ลายเซ็นเพื่อยืนยัน  
-- **การสกัดข้อมูล:** แยกตารางหรือแผนภูมิเพื่อวิเคราะห์  
-- **การออกแบบกราฟิก:** แปลงส่วนเวกเตอร์ของ PDF เป็นภาพราสเตอร์สำหรับ UI assets  
+## การประยุกต์ใช้งานจริง
+- **Document Archiving:** ลบส่วนหัว/ส่วนท้ายก่อนจัดเก็บเพื่อประหยัดพื้นที่.
+- **Digital Signatures:** ดึงเฉพาะพื้นที่ลายเซ็นสำหรับการตรวจสอบ.
+- **Data Extraction:** แยกตารางหรือแผนภูมิสำหรับสายงานการวิเคราะห์.
+- **Graphic Design:** แปลงส่วนของ PDF เวกเตอร์เป็นทรัพยากรเรสเตอร์สำหรับการจำลอง UI.
 
-## พิจารณาประสิทธิภาพ
-- **Resolution vs. Speed:** DPI สูงเพิ่มเวลาและการใช้หน่วยความจำ  
-- **การประมวลผลเป็นชุด:** ประมวลผล PDF ขนาดใหญ่หน้า‑ต่อหน้าเพื่อรักษาการใช้หน่วยความจำให้ต่ำ  
-- **การทำความสะอาดทรัพยากร:** เรียก `document.dispose()` หรือให้ JVM garbage collector ทำงานหลังการใช้  
+## การพิจารณาประสิทธิภาพ
+- **Resolution vs. Speed:** DPI ที่สูงขึ้นทำให้เวลาในการประมวลผลและการใช้หน่วยความจำเพิ่มขึ้น.
+- **Batch Processing:** ประมวลผล PDF ขนาดใหญ่หน้า‑ต่อหน้าเพื่อรักษาการใช้หน่วยความจำให้ต่ำ.
+- **Resource Cleanup:** เรียก `document.dispose()` หรือให้ garbage collector ของ JVM ทำการคืนวัตถุหลังการใช้งาน.
 
 ## คำถามที่พบบ่อย
 
-**Q: วิธีตัดหลายหน้าในครั้งเดียวทำอย่างไร?**  
-A: วนลูป `document.getPages()` แล้วใช้ `setCropBox` กับแต่ละหน้า ตามต้องการ  
+**Q: ฉันจะครอปหลายหน้าในครั้งเดียวได้อย่างไร?**  
+A: วนลูปผ่าน `document.getPages()` และใช้ `setCropBox` กับแต่ละหน้าตามที่ต้องการ.
 
-**Q: สามารถแปลงหน้าต่าง PDF เป็นฟอร์แมตภาพอื่นได้หรือไม่?**  
-A: ได้, Aspose.PDF รองรับ `JpegDevice`, `PngDevice`, `TiffDevice` ฯลฯ สำหรับการแปลง **pdf to image java**  
+**Q: ฉันสามารถแปลงหน้ PDF เป็นรูปแบบภาพอื่นได้หรือไม่?**  
+A: ใช่, Aspose.PDF รองรับ `JpegDevice`, `PngDevice`, `TiffDevice` และอื่น ๆ สำหรับการแปลง **pdf to image java**.
 
-**Q: ถ้าสี่เหลี่ยมตัดเกินขอบหน้าจะทำอย่างไร?**  
-A: ปรับพิกัดสี่เหลี่ยมให้อยู่ภายในขนาดหน้า มิฉะนั้นจะเกิดข้อยกเว้น  
+**Q: ถ้าสี่เหลี่ยมครอปของฉันเกินขอบหน้าจะทำอย่างไร?**  
+A: ปรับพิกัดของสี่เหลี่ยมให้อยู่ภายในขนาดหน้ากระดาษ; หากไม่เช่นนั้นจะเกิดข้อยกเว้น.
 
-**Q: จะจัดการกับ PDF ขนาดใหญ่อย่างมีประสิทธิภาพอย่างไร?**  
-A: ประมวลผลหน้าเป็นชุด, ใช้สตรีมซ้ำ, และเรียก `document.optimizeResources()` เพื่อลบอ็อบเจ็กต์ที่ไม่ใช้  
+**Q: ฉันจะจัดการกับ PDF ขนาดใหญ่อย่างมีประสิทธิภาพได้อย่างไร?**  
+A: ประมวลผลหน้าเป็นชุด, ใช้สตรีมซ้ำ, และเรียก `document.optimizeResources()` เพื่อปล่อยวัตถุที่ไม่ได้ใช้.
 
-**Q: มีวิธีพรีวิวพื้นที่ที่ตัดก่อนบันทึกหรือไม่?**  
-A: สามารถเรนเดอร์หน้าเป็นภาพแล้วแสดงในคอมโพเนนต์ UI ก่อนยืนยัน crop box  
+**Q: มีวิธีดูตัวอย่างพื้นที่ที่ครอปก่อนบันทึกหรือไม่?**  
+A: เรนเดอร์หน้าเป็นภาพก่อน, แสดงในคอมโพเนนต์ UI, และยืนยัน crop box ด้วยสายตา.
 
 ## แหล่งข้อมูล
-- **Documentation:** [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/)  
-- **Download:** [Aspose.PDF Releases](https://releases.aspose.com/pdf/java/)  
-- **Purchase:** [Buy Aspose.PDF](https://purchase.aspose.com/buy)  
-- **Free Trial:** [Try Aspose.PDF Free](https://releases.aspose.com/pdf/java/)  
-- **Temporary License:** [Get a Temporary License](https://purchase.aspose.com/temporary-license/)  
-- **Support:** [Aspose Forum](https://forum.aspose.com/c/pdf/10)  
+- **เอกสาร:** [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/)
+- **ดาวน์โหลด:** [Aspose.PDF Releases](https://releases.aspose.com/pdf/java/)
+- **ซื้อ:** [Buy Aspose.PDF](https://purchase.aspose.com/buy)
+- **ทดลองใช้ฟรี:** [Try Aspose.PDF Free](https://releases.aspose.com/pdf/java/)
+- **ไลเซนส์ชั่วคราว:** [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
+- **สนับสนุน:** [Aspose Forum](https://forum.aspose.com/c/pdf/10)
 
-โดยทำตามคู่มือนี้ คุณจะมีพื้นฐานที่มั่นคงสำหรับ **วิธีการตัด PDF** หน้าและแปลงเป็นภาพ BMP คุณภาพสูงด้วย Aspose.PDF for Java ทดลองปรับความละเอียด ฟอร์แมตผลลัพธ์ และกระบวนการเป็นชุดเพื่อให้เหมาะกับความต้องการของโครงการของคุณ
-
----
-
-**Last Updated:** 2026-01-01  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose  
+โดยทำตามคู่มือนี้ คุณจะมีพื้นฐานที่มั่นคงสำหรับการแปลง **pdf page to image** และการครอปโดยใช้ Aspose.PDF for Java ทดลองปรับตั้งค่า DPI ต่าง ๆ, รูปแบบผลลัพธ์, และกระบวนการทำงานแบบเป็นชุดเพื่อให้เหมาะกับความต้องการของโครงการของคุณ.
 
 ---
+
+**อัปเดตล่าสุด:** 2026-06-07  
+**ทดสอบด้วย:** Aspose.PDF for Java 25.3  
+**ผู้เขียน:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## บทแนะนำที่เกี่ยวข้อง
+
+- [Extract PDF Page Image to BMP with Aspose.PDF for Java](/pdf/java/conversion-export/convert-pdf-pages-to-bmp-aspose-java/)
+- [Convert PDF to HTML in Java with Embedded PNG Images using Aspose.PDF](/pdf/java/conversion-export/convert-pdf-to-html-with-png-images-java/)
+- [Convert PDF to PNG Using Aspose.PDF for Java – A Comprehensive Guide](/pdf/java/conversion-export/convert-pdf-pages-to-png-aspose-pdf-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
