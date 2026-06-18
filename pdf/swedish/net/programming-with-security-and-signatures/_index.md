@@ -35,6 +35,8 @@ Handledningen ger dig en detaljerad översikt över metoder och tekniker för at
 | [Signera med smartkort med hjälp av signaturfältet](./sign-with-smart-card-using-signature-field/) | Lär dig hur du signerar PDF-filer säkert med ett smartkort med Aspose.PDF för .NET. Följ vår steg-för-steg-guide för enkel implementering. |  
 | [Kontrollera PDF-signaturer i C# – Så läser du signerade PDF-filer](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Lär dig hur du läser och verifierar signerade PDF-filer med Aspose.PDF för .NET i C#. |
 | [Hur man reparerar PDF-filer – Komplett C#-guide med Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Lär dig steg för steg hur du reparerar skadade PDF-filer med Aspose.PDF i C#. |
+| [PDF-signaturutdrag – Hur du listar PDF-signaturer i C#](./pdf-signature-extraction-tutorial-how-to-list-pdf-signatures/) | Lär dig hur du extraherar och listar alla PDF-signaturer i en PDF med Aspose.PDF för .NET i C#. |
+| [Skapa signerad PDF i C# – Steg‑för‑steg‑guide](./create-signed-pdf-in-c-step-by-step-guide/) | Lär dig hur du skapar en signerad PDF i C# med Aspose.PDF för .NET. En tydlig steg‑för‑steg‑guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

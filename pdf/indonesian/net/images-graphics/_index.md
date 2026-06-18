@@ -35,6 +35,9 @@ Pelajari cara mengonversi file SVG menjadi PDF berkualitas tinggi dengan mudah m
 ### [Membuat & Mengisi Persegi Panjang dalam PDF Menggunakan Aspose.PDF untuk .NET: Panduan Langkah demi Langkah](./create-fill-rectangle-aspose-pdf-net/)
 Pelajari cara membuat dan mengisi persegi panjang dalam dokumen PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini mencakup semuanya mulai dari penyiapan hingga implementasi dengan C#.
 
+### [Menambahkan Persegi Panjang ke PDF dengan C# – Panduan Lengkap Aspose PDF](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+Pelajari cara menambahkan bentuk persegi panjang ke dokumen PDF menggunakan Aspose.PDF untuk .NET dengan C# dalam panduan lengkap ini.
+
 ### [Buat Stempel PDF Kustom dengan Aspose.PDF di .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Tutorial kode untuk Aspose.PDF Net
 

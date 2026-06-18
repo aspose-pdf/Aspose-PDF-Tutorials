@@ -104,6 +104,9 @@ Aprenda a crear archivos PDF accesibles, etiquetados e incrustados con imágenes
 ### [Cómo crear rectángulos transparentes en archivos PDF con Aspose.PDF para .NET](./create-transparent-rectangles-aspose-pdf-dotnet/)
 Aprenda a mejorar sus documentos PDF creando rectángulos con transparencia alfa con Aspose.PDF para .NET. Siga esta guía paso a paso.
 
+### [Cómo agregar un rectángulo a un PDF con C# – Guía completa de Aspose PDF](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+Aprenda a añadir un rectángulo a un PDF usando C# y Aspose.PDF, con ejemplos paso a paso y mejores prácticas.
+
 ### [Cómo eliminar imágenes de archivos PDF con Aspose.PDF para .NET: guía completa](./delete-images-aspose-pdf-net/)
 Aprenda a eliminar imágenes de archivos PDF de forma eficiente con Aspose.PDF para .NET. Esta guía abarca la configuración, ejemplos de código y prácticas recomendadas.
 

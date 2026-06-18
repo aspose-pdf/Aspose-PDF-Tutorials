@@ -35,6 +35,9 @@ Tanuld meg, hogyan konvertálhatsz SVG fájlokat zökkenőmentesen kiváló min�
 ### [Téglalapok létrehozása és kitöltése PDF-ekben az Aspose.PDF for .NET használatával: lépésről lépésre útmutató](./create-fill-rectangle-aspose-pdf-net/)
 Tanuld meg, hogyan hozhatsz létre és tölthetsz ki téglalapokat PDF dokumentumokban az Aspose.PDF for .NET segítségével. Ez a lépésről lépésre szóló útmutató mindent lefed a beállítástól a megvalósításig C#-ban.
 
+### [Téglalap hozzáadása PDF-hez C#-ban – Teljes Aspose PDF útmutató](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+Tanuld meg, hogyan adhatsz hozzá téglalapot PDF dokumentumokhoz C#-ban az Aspose.PDF segítségével.
+
 ### [Egyéni PDF-bélyegzők létrehozása az Aspose.PDF segítségével .NET-ben](./create-custom-pdf-stamps-aspose-pdf-net/)
 Kód oktatóanyag az Aspose.PDF Nethez
 
