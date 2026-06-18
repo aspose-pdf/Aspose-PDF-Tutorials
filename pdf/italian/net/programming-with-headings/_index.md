@@ -22,6 +22,7 @@ Esplora le funzionalità di Aspose.PDF per .NET con tutorial dedicati. Impara a 
 | Titolo | Descrizione |
 | --- | --- | 
 | [Applica stile numero nel file PDF](./apply-number-style/) | Scopri come applicare diversi stili di numeri (numeri romani, alfabetici) alle intestazioni di un PDF utilizzando Aspose.PDF per .NET con questa guida dettagliata.   
+| [Aggiungi intestazione a PDF con Aspose – Guida completa C#](./add-heading-to-pdf-with-aspose-complete-c-guide/) | Scopri come aggiungere e formattare intestazioni in un PDF usando Aspose.PDF per .NET con esempi C# completi.   
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

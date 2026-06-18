@@ -65,6 +65,9 @@ Lär dig skapa tillgängliga, formaterade taggade PDF-dokument med Aspose.PDF f�
 ### [Hur man jämför PDF-filer i C# – En komplett guide för att generera PDF-diff](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 Lär dig att jämföra PDF-dokument i C# och generera diff-filer med Aspose.PDF för .NET.
 
+### [Hur du kör OCR på PDF med Aspose.Pdf – Komplett C#-guide](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
+Lär dig hur du använder Aspose.Pdf för att köra OCR på PDF-filer med C#, inklusive steg-för-steg-instruktioner och kodexempel.
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

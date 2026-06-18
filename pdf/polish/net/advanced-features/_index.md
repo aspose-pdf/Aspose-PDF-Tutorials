@@ -35,7 +35,7 @@ Naucz się tworzyć ustrukturyzowane, tagowane pliki PDF za pomocą Aspose.PDF d
 ### [Tworzenie dostępnych, oznaczonych plików PDF przy użyciu Aspose.PDF dla .NET: Ulepszanie tytułów, tekstu alternatywnego i układu](./enhanced-tagged-pdfs-aspose-pdf-dot-net/)
 Dowiedz się, jak tworzyć dostępne, oznaczone pliki PDF za pomocą Aspose.PDF dla .NET. Ustaw tytuły, tekst alternatywny i atrybuty układu, takie jak BBox, za pomocą C#. Popraw dostępność dokumentu.
 
-### [Tworzenie dostępnych, oznaczonych plików PDF za pomocą Aspose.PDF dla .NET: przewodnik krok po kroku](./create-tagged-pdfs-aspose-pdf-dotnet/)
+### [Tworzenie dostępnych, oznaczonych plików PDF przy użyciu Aspose.PDF dla .NET: przewodnik krok po kroku](./create-tagged-pdfs-aspose-pdf-dotnet/)
 Dowiedz się, jak tworzyć dostępne, oznaczone dokumenty PDF przy użyciu Aspose.PDF dla .NET. Ten przewodnik obejmuje konfigurację, dodawanie ilustracji i zapisywanie dokumentu.
 
 ### [Tworzenie wielojęzycznych oznaczonych plików PDF za pomocą Aspose.PDF dla .NET: kompleksowy przewodnik](./create-multilingual-tagged-pdfs-aspose-pdf-net/)
@@ -64,6 +64,9 @@ Naucz się tworzyć dostępne, stylizowane i oznaczone dokumenty PDF przy użyci
 
 ### [Jak porównywać pliki PDF w C# – Kompletny przewodnik po generowaniu różnic PDF](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 Dowiedz się, jak porównać dwa pliki PDF i wygenerować ich różnice przy użyciu Aspose.PDF dla .NET w C#.
+
+### [Jak uruchomić OCR w PDF przy użyciu Aspose.Pdf – Kompletny przewodnik C#](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
+Dowiedz się, jak używać Aspose.Pdf do rozpoznawania tekstu w plikach PDF w C#.
 
 ## Dodatkowe zasoby
 

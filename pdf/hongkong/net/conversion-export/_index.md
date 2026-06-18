@@ -53,35 +53,11 @@ Aspose.PDF Net 程式碼教學
 ### [使用 Aspose.PDF .NET 將 PDF 頁面轉換為 PNG：綜合指南](./convert-pdf-pages-to-png-aspose-net/)
 了解如何使用 Aspose.PDF for .NET 將 PDF 頁面轉換為高品質的 PNG 圖片。按照本逐步指南可以有效地自動化轉換過程。
 
-### [使用 Aspose.PDF for .NET 將 PDF 轉換為 BMP：逐步指南](./convert-pdf-to-bmp-aspose-pdf-net/)
-透過本綜合指南了解如何使用 Aspose.PDF for .NET 將 PDF 頁面轉換為高品質的 BMP 影像。
-
-### [使用 Aspose.PDF for .NET 將 PDF 轉換為 EMF：完整指南](./convert-pdf-emf-aspose-net-guide/)
-了解如何使用 Aspose.PDF for .NET 將 PDF 頁面轉換為 EMF 格式。本指南涵蓋設定、逐步說明和最佳實踐。
-
-### [使用 Aspose.PDF for .NET 將 PDF 轉換為 EMF](./convert-pdf-to-emf-aspose-dotnet/)
-Aspose.PDF Net 程式碼教學
-
-### [使用 Aspose.PDF for .NET 將 PDF 轉換為 HTML：流輸出指南](./convert-pdf-html-aspose-dotnet-guide/)
-了解如何使用串流輸出透過 Aspose.PDF for .NET 將 PDF 檔案轉換為 HTML。增強您的網路整合和可存取性。
-
-### [使用 Aspose.PDF 在 .NET 中將 PDF 轉換為 HTML，無需儲存影像](./convert-pdf-html-net-asposepdf-no-images/)
-了解如何使用 Aspose.PDF for .NET 將 PDF 檔案轉換為 HTML，而無需單獨儲存影像。透過我們的詳細指南保持佈局完整性。
-
-### [使用 Aspose.PDF 在 .NET 中使用自訂影像路徑將 PDF 轉換為 HTML](./convert-pdf-html-custom-image-paths-dotnet/)
-了解如何使用 Aspose.PDF for .NET 將 PDF 檔案轉換為 HTML 格式，並有效地自訂影像路徑。非常適合網路整合。
-
-### [使用 Aspose.PDF for .NET 將 PDF 轉換為 HTML：保留 TTF 和 WOFF 格式的字體](./convert-pdf-html-aspose-net-truetype-woff/)
-了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 HTML，同時保留 TrueType (TTF) 和 Web 開放字體格式 (WOFF)。帶有程式碼範例的分步指南。
-
-### [使用 Aspose.PDF 將 PDF 轉換為具有自訂尺寸的 HTML](./convert-pdf-html-custom-dimensions-asposepdf-net/)
-Aspose.PDF Net 程式碼教學
-
-### [使用 Aspose.PDF .NET 將 PDF 轉換為具有自訂圖像 URL 的 HTML：綜合指南](./convert-pdf-html-custom-image-urls-aspose-pdf-net/)
-了解如何使用 Aspose.PDF for .NET 將 PDF 文件轉換為 HTML 格式，包括自訂圖片 URL 和實施自訂的資源節省策略。
-
-### [使用 Aspose.PDF .NET 將 PDF 轉換為 PNG：增強字體提示以實現清晰的文字渲染](./convert-pdf-png-aspose-net-font-hinting/)
+### [使用 Aspose.PDF for .NET 將 PDF 轉換為 PNG：增強字體提示以實現清晰的文字渲染](./convert-pdf-png-aspose-net-font-hinting/)
 了解如何使用 Aspose.PDF .NET 將 PDF 文件轉換為高品質的 PNG 圖像，確保透過字體提示實現清晰的文字呈現。
+
+### [Aspose PDF 轉 PNG – 匯出首頁（300 DPI）](./aspose-pdf-to-png-export-first-page-at-300-dpi/)
+了解如何使用 Aspose.PDF for .NET 將 PDF 首頁匯出為 300 DPI 的 PNG 圖像，提供程式碼範例與設定說明。
 
 ### [使用 Aspose.PDF for .NET 將 PDF 轉換為 PPTX：逐步指南](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 了解如何使用 Aspose.PDF for .NET 將 PDF 文件有效率地轉換為 PowerPoint 簡報。本逐步指南涵蓋基本轉換、影像幻燈片等高級功能以及進度追蹤。
