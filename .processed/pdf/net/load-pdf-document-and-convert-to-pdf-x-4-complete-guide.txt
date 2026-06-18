@@ -1,0 +1,7 @@
+Title: Load PDF Document and Convert to PDF/X‑4 – Complete Guide
+Slug: load-pdf-document-and-convert-to-pdf-x-4-complete-guide
+Category: document-conversion
+ProcessedDate: 2026-06-18T11:51:06.545389
+SourceRepo: AI Search API
+Keywords: load pdf document, save converted pdf, how to convert pdfx4, convert pdf to pdfx4
+PRNumber: 92
