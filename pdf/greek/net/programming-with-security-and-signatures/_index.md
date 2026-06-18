@@ -34,7 +34,11 @@
 | [Υπογραφή με έξυπνη κάρτα χρησιμοποιώντας υπογραφή αρχείου PDF](./sign-with-smart-card-using-pdf-file-signature/) | Μάθετε πώς να υπογράφετε αρχεία PDF χρησιμοποιώντας μια έξυπνη κάρτα με το Aspose.PDF για .NET. Ακολουθήστε αυτόν τον αναλυτικό οδηγό για ασφαλείς ψηφιακές υπογραφές. |  
 | [Υπογραφή με έξυπνη κάρτα χρησιμοποιώντας το πεδίο υπογραφής](./sign-with-smart-card-using-signature-field/) | Μάθετε πώς να υπογράφετε με ασφάλεια PDF χρησιμοποιώντας μια έξυπνη κάρτα με το Aspose.PDF για .NET. Ακολουθήστε τον αναλυτικό οδηγό μας για εύκολη εφαρμογή. |  
 | [Έλεγχος υπογραφών PDF σε C# – Πώς να διαβάσετε υπογεγραμμένα αρχεία PDF](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Μάθετε πώς να ελέγχετε και να διαβάζετε υπογεγραμμένα αρχεία PDF χρησιμοποιώντας C# και Aspose.PDF. |  
+| [Έλεγχος υπογραφών PDF σε C# – Σύντομος οδηγός για την επαλήθευση ψηφιακών υπογραφών](./check-pdf-signatures-in-c-quick-guide-to-verify-digital-sign/) | Μάθετε πώς να ελέγχετε και να επαληθεύετε ψηφιακές υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF. |  
+| [Επαλήθευση ψηφιακής υπογραφής PDF σε C# με Aspose.Pdf](./verify-pdf-digital-signature-in-c-with-aspose-pdf/) | Μάθετε πώς να επαληθεύετε ψηφιακές υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF. |  
 | [Πώς να επισκευάσετε αρχεία PDF – Πλήρης οδηγός C# με Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Μάθετε πώς να επισκευάσετε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET με οδηγίες βήμα προς βήμα. |  
+| [Φόρτωση Πιστοποιητικού PFX C# – Δημιουργία Αποσπασμένης Υπογραφής PKCS7](./load-pfx-certificate-c-create-pkcs7-detached-signature/) | Μάθετε πώς να φορτώνετε πιστοποιητικό PFX σε C# και να δημιουργείτε αποσπασμένη υπογραφή PKCS7. |  
+| [Οδηγός υπογραφής PDF: Επαλήθευση ψηφιακής υπογραφής PDF σε C#](./pdf-signature-tutorial-verify-a-pdf-s-digital-signature-in-c/) | Μάθετε πώς να επαληθεύετε ψηφιακές υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

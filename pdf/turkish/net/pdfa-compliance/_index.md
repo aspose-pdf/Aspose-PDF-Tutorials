@@ -38,6 +38,9 @@ Aspose.PDF for .NET kullanarak standart PDF belgelerini sağlam PDF/X-4 formatı
 ### [C# ile .NET için Aspose.PDF kullanarak PDF/A Doğrulamada Ustalaşın](./master-pdfa-validation-aspose-pdf-net/)
 Aspose.PDF .NET kullanarak PDF belgelerini PDF/A standartlarına göre nasıl doğrulayacağınızı öğrenin. Adım adım kılavuzumuzla uyumluluğu sağlayın ve belge güvenilirliğini artırın.
 
+### [C# ile PDF'yi PDF/A'ya Dönüştür – Tam Adım Adım Kılavuz](./convert-pdf-to-pdf-a-in-c-complete-step-by-step-guide/)
+C# ve Aspose.PDF for .NET kullanarak PDF dosyalarını PDF/A uyumlu belgelere nasıl dönüştüreceğinizi adım adım öğrenin.
+
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)

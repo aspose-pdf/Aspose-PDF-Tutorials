@@ -51,6 +51,7 @@ Ezek az oktatóanyagok részletes kódpéldákat, világos magyarázatokat és i
 | [Rádiógomb feliratának beállítása](./set-radio-button-caption/) Ismerje meg, hogyan állíthat be választógomb-feliratokat PDF-fájlokban az Aspose.PDF for .NET használatával. Ez a lépésről lépésre szóló útmutató végigvezeti Önt a PDF-űrlapok betöltésén, módosításán és mentésén. |  
 | [Szövegdoboz](./text-box/) | Fedezze fel, hogyan adhat könnyedén szövegdobozokat PDF-fájlokhoz az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Fokozza a felhasználói interakciót. |  
 | [PDF létrehozása Aspose-szal – Űrlapmező és oldalak hozzáadása](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Ismerje meg, hogyan hozhat létre PDF-et Aspose használatával, és adhat hozzá űrlapmezőket és oldalakat lépésről lépésre. |
+| [PDF dokumentum létrehozása Aspose-szal – Szövegdoboz mező hozzáadása](./create-pdf-document-with-aspose-add-text-box-field/) | Ismerje meg, hogyan adhat hozzá szövegdoboz mezőt PDF dokumentumhoz az Aspose.PDF for .NET használatával lépésről lépésre. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
