@@ -1,0 +1,7 @@
+Title: How to Add Shape to PDF with Aspose.PDF in C# – Step‑by‑Step Guide
+Slug: how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu
+Category: images-graphics
+ProcessedDate: 2026-06-18T11:50:46.890985
+SourceRepo: AI Search API
+Keywords: how to add shape to pdf, load pdf document in c#, how to draw shapes in pdf, aspose pdf add rectangle
+PRNumber: 92
