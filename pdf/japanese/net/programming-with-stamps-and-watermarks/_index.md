@@ -25,6 +25,7 @@ Aspose.PDF の .NET 向けチュートリアル「スタンプと透かしを使
 | [PDFファイルに異なるヘッダーを追加する](./adding-different-headers/) Aspose.PDF for .NET を使用して PDF ファイルにさまざまなヘッダーを追加する方法を学びます。PDF をカスタマイズするためのステップバイステップガイドです。 |  
 | [PDFファイルにPDFページスタンプを追加する](./add-pdf-page-stamp/) Aspose.PDF for .NET を使用してPDFにページスタンプを追加する方法を、この詳細なガイドで学びましょう。PDFドキュメントのインパクトを高めましょう。 |  
 | [PDFファイルにテキストスタンプを追加する](./add-text-stamp/) ステップバイステップ ガイドに従って Aspose.PDF for .NET を使用して PDF ファイルにテキスト スタンプを追加し、ドキュメントのプレゼンテーションを向上させる方法を学習します。 |  
+| [PDFにスタンプを追加 – 最初のページに透かしを適用する](./add-stamp-to-pdf-apply-watermark-pdf-on-first-page/) Aspose.PDF for .NET を使用して、PDF の最初のページに透かしとしてスタンプを適用する方法をステップバイステップで解説します。 |  
 | [PDFファイル内のアーティファクトのカウント](./counting-artifacts/) Aspose.PDF for .NET を使用して PDF 内の透かしをカウントする方法を学びましょう。初心者向けのステップバイステップガイドで、事前の経験は必要ありません。 |  
 | [PDFファイル内の配置を定義する](./define-alignment/) このガイドでは、Aspose.PDF for .NET を使用して PDF ファイル内のテキスト配置を定義する方法について、ステップバイステップのチュートリアルとともに説明します。 |  
 | [スタンプ注釈からテキストを抽出する](./extract-text-from-stamp-annotation/) このステップバイステップのチュートリアルでは、詳細なコード例を使用して、Aspose.PDF for .NET を使用して PDF 内のスタンプ注釈からテキストを抽出する方法を学習します。 |  
