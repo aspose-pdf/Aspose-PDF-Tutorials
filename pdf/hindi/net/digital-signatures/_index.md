@@ -23,6 +23,8 @@
 
 ### [Aspose.PDF के साथ PDF से डिजिटल हस्ताक्षर जानकारी निकालें](./extract-digital-signature-info-from-pdfs-aspose-pdf/)
 
+### [PDF से हस्ताक्षर निकालें – Aspose C# गाइड](./how-to-extract-signatures-from-pdf-aspose-c-guide/)
+
 ### [.NET के लिए Aspose.PDF के साथ PDF हस्ताक्षर भाषा कैसे बदलें](./change-pdf-signature-language-aspose-net/)
 
 ### [.NET के लिए Aspose.PDF का उपयोग करके PDF हस्ताक्षर कैसे बनाएं और सत्यापित करें](./create-verify-pdf-signatures-aspose-net/)
@@ -52,6 +54,9 @@ C# में PDF दस्तावेज़ लोड करके उसे PD
 
 ### [Aspose के साथ PDF हस्ताक्षर सत्यापित करें – PDF को HTML में परिवर्तित करें](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
 Aspose का उपयोग करके PDF हस्ताक्षर की वैधता जांचें और PDF को HTML में बदलें।
+
+### [PDF हस्ताक्षर सत्यापित करें और Bates नंबरिंग जोड़ें – पूर्ण C# गाइड](./verify-pdf-signature-and-add-bates-numbering-complete-c-guid/)
+C# में PDF हस्ताक्षर की जाँच और Bates नंबरिंग जोड़ने की पूरी प्रक्रिया सीखें।
 
 ## अतिरिक्त संसाधन
 
