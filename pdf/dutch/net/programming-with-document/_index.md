@@ -58,6 +58,7 @@ De bron bevat tutorials over de programmeerfunctie met documentfunctionaliteit v
 | [Valideer PDF AB-standaard](./validatepdfabstandard/) Leer in deze stapsgewijze tutorial hoe u een PDF kunt valideren voor de PDF/A-1b-standaard met Aspose.PDF voor .NET. Zorg voor compliance bij langetermijnarchivering. |  
 | [PDF-bestanden valideren Een standaard](./validatepdfastandard/) | Leer hoe u PDF-bestanden kunt valideren tegen de PDF/A-1a-standaard met behulp van Aspose.PDF voor .NET in deze uitgebreide stapsgewijze zelfstudie. |  
 | [Valideer PDF UA-standaard](./validatepdfuastandard/) | Leer hoe u een PDF kunt valideren voor de PDF/UA-toegankelijkheidsstandaard met Aspose.PDF voor .NET met onze stapsgewijze handleiding en gedetailleerde uitleg. |  
+| [Hoe een Word-document te lezen en een specifieke pagina uit Word te extraheren – C#-handleiding](./how-to-read-word-document-and-extract-specific-page-from-wor/) | Leer hoe u met Aspose.Words voor .NET een Word-document leest en een specifieke pagina extraheert met C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

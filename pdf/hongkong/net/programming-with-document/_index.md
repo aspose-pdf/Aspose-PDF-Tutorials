@@ -58,6 +58,7 @@
 | [驗證 PDF AB 標準](./validatepdfabstandard/) |在本逐步教學中了解如何使用 Aspose.PDF for .NET 驗證 PDF 是否符合 PDF/A-1b 標準。確保長期存檔的合規性。 |  
 | [驗證 PDF 文件標準](./validatepdfastandard/) |在本全面的逐步教學中，了解如何使用 Aspose.PDF for .NET 根據 PDF/A-1a 標準驗證 PDF 檔案。 |  
 | [驗證 PDF UA 標準](./validatepdfuastandard/) |透過我們的逐步指南和詳細說明，了解如何使用 Aspose.PDF for .NET 驗證 PDF 是否符合 PDF/UA 可訪問性標準。 |  
+| [在 C# 中讀取 Word 文件並提取特定頁面](./how-to-read-word-document-and-extract-specific-page-from-wor/) |了解如何使用 Aspose.Words for .NET 在 C# 中讀取 Word 文件並提取指定頁面。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

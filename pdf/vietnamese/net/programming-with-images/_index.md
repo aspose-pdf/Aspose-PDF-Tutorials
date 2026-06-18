@@ -49,6 +49,7 @@ Hướng dẫn "Lập trình với hình ảnh" của Aspose.PDF cho .NET hướ
 | [Thiết lập kích thước hình ảnh trong tệp PDF](./set-image-size/) | Tìm hiểu cách thiết lập kích thước hình ảnh trong PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước này sẽ giúp bạn thay đổi kích thước hình ảnh, điều chỉnh thuộc tính trang và lưu PDF. |  
 | [Thu nhỏ hình ảnh trong tệp PDF](./shrink-images/) | Dễ dàng thu nhỏ hình ảnh trong tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này, đảm bảo kích thước tệp nhỏ hơn trong khi vẫn duy trì chất lượng. |  
 | [Lưu trữ hình ảnh trong bộ sưu tập XImage](./store-image-in-ximage-collection/) | Tìm hiểu cách lưu trữ hình ảnh trong bộ sưu tập XImage bằng Aspose.PDF cho .NET trong hướng dẫn từng bước đầy đủ này. |  
+| [Thêm hình vào Word – Hướng dẫn lập trình C# đầy đủ](./add-figure-to-word-complete-c-programming-guide/) | Hướng dẫn chi tiết cách chèn hình vào tài liệu Word bằng C# và Aspose.Words, bao gồm mã mẫu và các lưu ý quan trọng. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

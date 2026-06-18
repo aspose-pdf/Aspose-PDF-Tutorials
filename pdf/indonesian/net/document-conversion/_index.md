@@ -57,7 +57,9 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [XML Ke PDFTetapkan Jalur Gambar](./xml-to-pdfset-image-path/) | Pelajari cara mengonversi XML ke PDF dengan mudah menggunakan Aspose.PDF untuk .NET. Panduan terperinci ini memandu Anda melalui proses langkah demi langkah, dari penyiapan hingga penyelesaian. Bahasa Indonesia:  
 | [XPS Ke PDF](./xps-to-pdf/) Pelajari cara mengonversi file XPS ke PDF menggunakan Aspose.PDF untuk .NET dengan tutorial langkah demi langkah ini. Sempurna untuk pengembang dan penggemar dokumen. |  
 | [Konversi PDF ke PDF/X‑4 dalam C#](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Pelajari cara mengonversi PDF ke PDF/X‑4 menggunakan Aspose.PDF untuk .NET dengan contoh kode C# langkah demi langkah. |
+| [How to Convert PDF to PDF/X‑4 in C# with Aspose PDF](./how-to-convert-pdf-to-pdf-x-4-in-c-with-aspose-pdf/) | Pelajari cara mengonversi PDF ke PDF/X‑4 dalam C# menggunakan Aspose.PDF untuk .NET dengan contoh kode lengkap. |
 | [Tutorial PDF ke PNG – Mengonversi Halaman PDF ke PNG dalam C#](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Pelajari cara mengonversi halaman PDF menjadi gambar PNG menggunakan Aspose.PDF untuk .NET dengan contoh kode C# langkah demi langkah. |
+| [Buat HTML dari PDF dengan Aspose.PDF – Panduan Langkah‑ demi‑Langkah](./create-html-from-pdf-with-aspose-pdf-step-by-step-guide/) | Pelajari cara membuat file HTML dari PDF menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah ini. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
