@@ -1,0 +1,7 @@
+Title: Add Bates Numbering PDF – Complete C# Guide with Signing & Conversion
+Slug: add-bates-numbering-pdf-complete-c-guide-with-signing-conver
+Category: programming-with-security-and-signatures
+ProcessedDate: 2026-06-21T15:11:38.010557
+SourceRepo: AI Search API
+Keywords: add bates numbering pdf, how to add bates numbers, digitally sign pdf c#, convert pdf to pdf/x-4, convert pdf to pdfa-4
+PRNumber: 93
