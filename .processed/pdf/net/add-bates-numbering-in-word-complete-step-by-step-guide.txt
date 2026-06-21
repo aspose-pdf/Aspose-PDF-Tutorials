@@ -1,0 +1,7 @@
+Title: Add Bates Numbering in Word – Complete Step‑by‑Step Guide
+Slug: add-bates-numbering-in-word-complete-step-by-step-guide
+Category: programming-with-document
+ProcessedDate: 2026-06-21T15:11:20.667239
+SourceRepo: AI Search API
+Keywords: add bates numbering, how to add bates, bates numbering in word, bates numbering for legal, apply bates numbering
+PRNumber: 93
