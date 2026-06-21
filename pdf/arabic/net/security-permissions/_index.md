@@ -68,6 +68,9 @@
 ### [التحقق من كلمات مرور ملفات PDF باستخدام Aspose.PDF .NET: دليل خطوة بخطوة للأمان والأذونات](./verify-pdf-passwords-aspose-dot-net-guide/)
 تعرّف على كيفية التحقق من كلمات مرور ملفات PDF باستخدام Aspose.PDF لـ .NET بلغة C#. يُبسّط هذا الدليل الشامل أمان المستندات والتحكم في الوصول إليها.
 
+### [كيفية تحرير PDF وإزالة البيانات الحساسة في C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+تعلم كيفية تحرير ملفات PDF وإزالة المعلومات الحساسة باستخدام Aspose.PDF لـ .NET بلغة C#.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

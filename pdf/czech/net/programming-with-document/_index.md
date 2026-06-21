@@ -58,6 +58,8 @@ Zdroj obsahuje návody k programování s funkcí dokumentů v knihovně Aspose.
 | [Ověřit PDF AB Standard](./validatepdfabstandard/) V tomto podrobném návodu se naučte, jak ověřit PDF pro standard PDF/A-1b pomocí Aspose.PDF pro .NET. Zajistěte shodu s předpisy pro dlouhodobou archivaci. |  
 | [Ověřování PDF souborů – standard](./validatepdfastandard/) | V tomto komplexním návodu se naučte, jak ověřit soubory PDF podle standardu PDF/A-1a pomocí nástroje Aspose.PDF pro .NET. |  
 | [Ověření standardu PDF UA](./validatepdfuastandard/) | Naučte se, jak ověřit PDF pro standard přístupnosti PDF/UA pomocí Aspose.PDF pro .NET s naším podrobným návodem a podrobným vysvětlením. |  
+| [Přidání Batesova číslování ve Wordu – kompletní krok‑za‑krokem průvodce](./add-bates-numbering-in-word-complete-step-by-step-guide/) | Naučte se, jak přidat Batesovo číslování do dokumentů Word pomocí Aspose.Words pro .NET v podrobném krok‑za‑krokem návodu. |  
+| [Přidání prázdné stránky do dokumentu Word pomocí C# – Kompletní průvodce](./add-blank-page-in-word-document-with-c-complete-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET přidat prázdnou stránku do dokumentu Word pomocí C# v podrobném průvodci. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

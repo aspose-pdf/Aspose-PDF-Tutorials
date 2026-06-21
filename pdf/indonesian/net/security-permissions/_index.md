@@ -62,6 +62,9 @@ Pelajari cara menerapkan tanda tangan digital yang aman dan verifikasi untuk PDF
 ### [Menguasai Redaksi PDF dengan Aspose.PDF .NET: Panduan Lengkap untuk Penanganan Dokumen yang Aman](./mastering-pdf-redaction-aspose-pdf-net-guide/)
 Pelajari cara menyunting PDF dengan aman menggunakan Aspose.PDF .NET. Panduan ini mencakup pendekatan berbasis anotasi dan fasad, yang memastikan dokumen Anda tetap patuh.
 
+### [Cara Menyunting PDF dan Menghapus Data Sensitif PDF dalam C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+Pelajari cara men‑redact PDF dan menghapus data sensitif secara programatis menggunakan Aspose.PDF untuk .NET dengan contoh kode C#.
+
 ### [Membuka dan Mendekripsi File PDF dengan Aspose.PDF untuk .NET: Panduan Lengkap](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 Pelajari cara membuka kunci dan mendekripsi file PDF yang dilindungi menggunakan Aspose.PDF for .NET dalam C#. Panduan ini mencakup penyiapan, langkah-langkah dekripsi, dan praktik terbaik.
 

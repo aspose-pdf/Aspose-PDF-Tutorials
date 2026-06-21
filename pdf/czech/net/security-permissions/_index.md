@@ -62,6 +62,9 @@ Naučte se, jak implementovat zabezpečené digitální podpisy a ověřování 
 ### [Zvládnutí redakce PDF s Aspose.PDF .NET: Komplexní průvodce pro bezpečnou manipulaci s dokumenty](./mastering-pdf-redaction-aspose-pdf-net-guide/)
 Naučte se, jak bezpečně redigovat PDF soubory pomocí Aspose.PDF .NET. Tato příručka se zabývá přístupy založenými na anotacích a fasádách, které zajišťují, aby vaše dokumenty zůstaly v souladu s předpisy.
 
+### [Jak redigovat PDF a odstranit citlivá data v C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+Naučte se, jak pomocí Aspose.PDF pro .NET redigovat PDF soubory a odstranit citlivé informace v C#.
+
 ### [Odemkněte a dešifrujte PDF soubory pomocí Aspose.PDF pro .NET: Kompletní průvodce](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 Naučte se, jak odemknout a dešifrovat chráněné soubory PDF pomocí Aspose.PDF pro .NET v C#. Tato příručka popisuje nastavení, kroky dešifrování a osvědčené postupy.
 

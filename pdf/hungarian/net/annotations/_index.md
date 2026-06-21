@@ -35,6 +35,7 @@
 | [Szabad szöveges jegyzetformázás beállítása](./setfreetextannotationformatting/) | Tanulja meg, hogyan állíthat be szabad szöveges jegyzetformázást PDF dokumentumokban az Aspose.PDF for .NET használatával ebből a lépésről lépésre szóló útmutatóból. |  
 | [Szavak áthúzása](./strikeoutwords/) | Tanulja meg, hogyan húzhat ki szavakat egy PDF-ben az Aspose.PDF for .NET használatával ezzel az átfogó, lépésről lépésre szóló útmutatóval. Fejlessze dokumentumszerkesztési készségeit. |  
 | [Szabad szövegű PDF jegyzet frissítése](./updatefreetextannotation/) Tanulja meg, hogyan frissítheti a szabad szöveges megjegyzéseket PDF dokumentumokban az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. |  
+| [Téglalap rajzolása PDF-re C#‑val – Lépésről‑lépésre útmutató](./draw-rectangle-on-pdf-with-c-step-by-step-guide/) Tanulja meg, hogyan rajzolhat téglalapot PDF dokumentumba C#‑ban az Aspose.PDF for .NET segítségével ebben a részletes útmutatóban. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -51,6 +51,7 @@ Aspose.PDF for .NET "Forms 프로그래밍" 튜토리얼은 대화형 PDF 양식
 | [라디오 버튼 캡션 설정](./set-radio-button-caption/) Aspose.PDF for .NET을 사용하여 PDF에 라디오 버튼 캡션을 설정하는 방법을 알아보세요. 이 단계별 가이드는 PDF 양식을 로드, 수정 및 저장하는 방법을 안내합니다. |  
 | [텍스트 상자](./text-box/) | Aspose.PDF for .NET을 사용하여 PDF에 텍스트 상자를 손쉽게 추가하는 방법을 단계별 가이드를 통해 알아보세요. 사용자 상호 작용을 향상시켜 보세요. |  
 | [Aspose를 사용하여 PDF 만들기 – 양식 필드 및 페이지 추가](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Aspose.PDF for .NET을 사용하여 PDF에 양식 필드와 페이지를 추가하는 방법을 단계별로 안내합니다. |  
+| [PDF 텍스트 상자 필드 만들기 – 단계별 가이드](./create-pdf-textbox-field-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 PDF에 텍스트 상자 필드를 만드는 방법을 단계별 가이드로 알아보세요. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

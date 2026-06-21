@@ -164,6 +164,9 @@ Aprenda a convertir scripts LaTeX complejos en documentos PDF utilizando Aspose.
 ### [Establecer fondos de imagen en archivos PDF con Aspose.PDF para .NET: una guía completa](./aspose-pdf-net-set-image-backgrounds/)
 Aprenda a mejorar sus documentos PDF configurando fondos de imagen con Aspose.PDF para .NET. Esta guía incluye consejos de configuración, implementación y optimización.
 
+### [Compresión sin pérdida de imágenes en documentos Word – Guía completa](./lossless-image-compression-in-word-docs-complete-guide/)
+Aprenda a comprimir imágenes en documentos Word sin perder calidad usando Aspose.Words para .NET.
+
 ## Recursos adicionales
 
 - [Documentación de Aspose.PDF para la red](https://docs.aspose.com/pdf/net/)

@@ -35,6 +35,7 @@ Komplexní kolekce tutoriálů ukazujících, jak pracovat s anotacemi v PDF dok
 | [Nastavení formátování volného textu anotací](./setfreetextannotationformatting/) | Naučte se, jak nastavit formátování volných textových anotací v dokumentech PDF pomocí Aspose.PDF pro .NET s tímto podrobným návodem. |  
 | [Přeškrtnutá slova](./strikeoutwords/) | Naučte se, jak pomocí Aspose.PDF pro .NET přeškrtávat slova v PDF s tímto komplexním podrobným návodem. Zlepšete si své dovednosti v úpravě dokumentů. |  
 | [Aktualizace anotace PDF s volným textem](./updatefreetextannotation/) Naučte se, jak aktualizovat anotace s volným textem v dokumentech PDF pomocí Aspose.PDF pro .NET s tímto podrobným návodem. |  
+| [Kreslit obdélník v PDF pomocí C# – krok za krokem](./draw-rectangle-on-pdf-with-c-step-by-step-guide/) | Naučte se, jak pomocí Aspose.PDF pro .NET nakreslit obdélník do PDF souboru pomocí C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

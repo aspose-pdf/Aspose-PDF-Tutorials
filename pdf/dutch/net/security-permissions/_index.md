@@ -62,6 +62,9 @@ Leer hoe u veilige digitale handtekeningen en verificatie voor PDF's in .NET imp
 ### [PDF-redactie onder de knie krijgen met Aspose.PDF .NET: een uitgebreide handleiding voor veilig documentbeheer](./mastering-pdf-redaction-aspose-pdf-net-guide/)
 Leer hoe u PDF's veilig kunt redigeren met Aspose.PDF .NET. Deze handleiding behandelt annotatie- en façadebenaderingen, zodat uw documenten aan de regels blijven voldoen.
 
+### [Hoe PDF te redigeren en gevoelige gegevens te verwijderen in C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+Leer hoe u met Aspose.PDF voor .NET PDF's kunt redigeren en gevoelige informatie veilig kunt verwijderen met C#-code.
+
 ### [PDF-bestanden ontgrendelen en decoderen met Aspose.PDF voor .NET: een complete handleiding](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 Leer hoe u beveiligde PDF-bestanden kunt ontgrendelen en decoderen met Aspose.PDF voor .NET in C#. Deze handleiding behandelt de installatie, decoderingsstappen en aanbevolen procedures.
 

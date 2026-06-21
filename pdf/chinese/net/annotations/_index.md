@@ -35,6 +35,7 @@
 | [设置自由文本注释格式](./setfreetextannotationformatting/) 通过本分步指南了解如何使用 Aspose.PDF for .NET 在 PDF 文档中设置自由文本注释格式。|  
 | [删除单词](./strikeoutwords/) 学习如何使用 Aspose.PDF for .NET 在 PDF 中删除文字，并遵循本指南的全面步骤。提升您的文档编辑技能。|  
 | [更新自由文本 PDF 注释](./updatefreetextannotation/) 通过本分步指南了解如何使用 Aspose.PDF for .NET 更新 PDF 文档中的自由文本注释。|  
+| [使用 C# 在 PDF 上绘制矩形 – 分步指南](./draw-rectangle-on-pdf-with-c-step-by-step-guide/) 通过本分步指南学习如何使用 Aspose.PDF for .NET 在 PDF 文档中绘制矩形。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

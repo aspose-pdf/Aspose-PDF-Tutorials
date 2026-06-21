@@ -58,6 +58,8 @@
 - [ตรวจสอบมาตรฐาน PDF AB](./validatepdfabstandard/) เรียนรู้วิธีการตรวจสอบ PDF สำหรับมาตรฐาน PDF/A-1b โดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนแบบทีละขั้นตอนนี้ รับรองว่าเป็นไปตามข้อกำหนดสำหรับการเก็บถาวรในระยะยาว -  
 | [ตรวจสอบไฟล์ PDF เป็นมาตรฐาน](./validatepdfastandard/) | เรียนรู้วิธีการตรวจสอบไฟล์ PDF ตามมาตรฐาน PDF/A-1a โดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนทีละขั้นตอนที่ครอบคลุมนี้  
 - [ตรวจสอบมาตรฐาน PDF UA](./validatepdfuastandard/) | เรียนรู้วิธีการตรวจสอบ PDF สำหรับมาตรฐานการเข้าถึง PDF/UA โดยใช้ Aspose.PDF สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนและคำอธิบายโดยละเอียดของเรา  
+- [เพิ่มหมายเลข Bates ใน Word – คู่มือขั้นตอนเต็ม](./add-bates-numbering-in-word-complete-step-by-step-guide/) | เรียนรู้วิธีเพิ่มหมายเลข Bates ในเอกสาร Word อย่างละเอียดด้วยขั้นตอนครบถ้วนโดยใช้ Aspose.Words สำหรับ .NET
+- [เพิ่มหน้าเปล่าในเอกสาร Word ด้วย C# – คู่มือเต็ม](./add-blank-page-in-word-document-with-c-complete-guide/) | เรียนรู้วิธีเพิ่มหน้าเปล่าในไฟล์ Word ด้วย C# โดยใช้ Aspose.Words สำหรับ .NET อย่างละเอียดในขั้นตอนครบถ้วน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

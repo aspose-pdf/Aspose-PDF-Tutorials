@@ -49,7 +49,8 @@ Estes tutoriais também fornecem exemplos de código detalhados, explicações c
 | [Definir limite de campo](./set-field-limit/) | Aprenda a definir limites de campo em formulários PDF usando o Aspose.PDF para .NET com este tutorial passo a passo. Aprimore a experiência do usuário e a integridade dos dados. |  
 | [Definir Java Script](./set-java-script/) | Libere o poder do Aspose.PDF para .NET. Aprenda a configurar JavaScript em campos de formulário com nosso guia passo a passo. |  
 | [Definir legenda do botão de opção](./set-radio-button-caption/) Aprenda a definir legendas para botões de opção em PDFs usando o Aspose.PDF para .NET. Este guia passo a passo explica como carregar, modificar e salvar seus formulários PDF. |  
-| [Caixa de texto](./text-box/) | Descubra como adicionar caixas de texto a PDFs sem esforço usando o Aspose.PDF para .NET com este guia passo a passo. Aprimore a interação do usuário. |  
+| [Caixa de texto](./text-box/) | Descubra como adicionar caixas de texto a PDFs sem esforço usando o Aspose.PDF para .NET com este guia passo a passo. Aprimore a interação do usuário. |
+| [Criar campo de caixa de texto PDF – Guia passo a passo](./create-pdf-textbox-field-step-by-step-guide/) | Aprenda a criar um campo de caixa de texto em PDFs usando Aspose.PDF para .NET neste guia passo a passo. |
 | [Como criar PDF com Aspose – Adicionar campo de formulário e páginas](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Aprenda a criar um PDF, adicionar campos de formulário e inserir páginas usando Aspose.PDF para .NET neste tutorial passo a passo. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

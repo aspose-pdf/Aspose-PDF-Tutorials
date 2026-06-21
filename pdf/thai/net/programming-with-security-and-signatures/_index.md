@@ -34,7 +34,10 @@
 | [ลงนามด้วยสมาร์ทการ์ดโดยใช้ลายเซ็นไฟล์ PDF](./sign-with-smart-card-using-pdf-file-signature/) | เรียนรู้วิธีลงนามไฟล์ PDF โดยใช้สมาร์ทการ์ดด้วย Aspose.PDF สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อลายเซ็นดิจิทัลที่ปลอดภัย -  
 | [ลงนามด้วยสมาร์ทการ์ดโดยใช้ช่องลายเซ็น](./sign-with-smart-card-using-signature-field/) | เรียนรู้วิธีการลงนาม PDF อย่างปลอดภัยโดยใช้สมาร์ทการ์ดด้วย Aspose.PDF สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการใช้งานที่ง่ายดาย |  
 - [ตรวจสอบลายเซ็น PDF ใน C# – วิธีอ่านไฟล์ PDF ที่ลงนาม](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | เรียนรู้วิธีตรวจสอบและอ่านลายเซ็นดิจิทัลในไฟล์ PDF ด้วย C# และ Aspose.PDF สำหรับ .NET -  
-- [วิธีซ่อมไฟล์ PDF – คู่มือ C# ฉบับสมบูรณ์กับ Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | เรียนรู้วิธีซ่อมไฟล์ PDF ที่เสียหายด้วย Aspose.PDF สำหรับ .NET ผ่านขั้นตอนการเขียนโปรแกรม C# อย่างละเอียด
+- [วิธีซ่อมไฟล์ PDF – คู่มือ C# ฉบับสมบูรณ์กับ Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | เรียนรู้วิธีซ่อมไฟล์ PDF ที่เสียหายด้วย Aspose.PDF สำหรับ .NET ผ่านขั้นตอนการเขียนโปรแกรม C# อย่างละเอียด  
+- [วิธีตรวจสอบ PDF – คู่มือ C# ฉบับสมบูรณ์สำหรับลายเซ็นดิจิทัล](./how-to-verify-pdf-complete-c-guide-for-digital-signatures/) | เรียนรู้วิธีตรวจสอบลายเซ็นดิจิทัลในไฟล์ PDF ด้วย C# อย่างละเอียดและครบถ้วน -  
+- [เพิ่มหมายเลข Bates ให้ PDF – คู่มือ C# ฉบับสมบูรณ์กับการลงนามและการแปลง](./add-bates-numbering-pdf-complete-c-guide-with-signing-conver/) | เรียนรู้วิธีเพิ่มหมายเลข Bates ให้ไฟล์ PDF, ลงนามและแปลงด้วย Aspose.PDF สำหรับ .NET อย่างละเอียดในขั้นตอนเดียว  
+- [วิธีใช้ Validator ใน C# – คู่มือฉบับสมบูรณ์ในการตรวจสอบความถูกต้องของลายเซ็น](./how-to-use-validator-in-c-complete-guide-to-checking-signatu/) | เรียนรู้วิธีใช้ Validator ใน C# เพื่อตรวจสอบความถูกต้องของลายเซ็นดิจิทัลด้วย Aspose.PDF สำหรับ .NET คำแนะนำทีละขั้นตอน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -68,6 +68,9 @@ Scopri come sbloccare e decrittografare file PDF protetti utilizzando Aspose.PDF
 ### [Verifica le password PDF con Aspose.PDF .NET: una guida passo passo per la sicurezza e le autorizzazioni](./verify-pdf-passwords-aspose-dot-net-guide/)
 Scopri come verificare le password dei PDF utilizzando Aspose.PDF per .NET in C#. Questa guida completa semplifica la sicurezza dei documenti e il controllo degli accessi.
 
+### [Come redigere PDF e rimuovere dati sensibili in C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+Scopri come redigere PDF e rimuovere informazioni sensibili usando Aspose.PDF per .NET con esempi di codice C#.
+
 ## Risorse aggiuntive
 
 - [Aspose.PDF per la documentazione di rete](https://docs.aspose.com/pdf/net/)

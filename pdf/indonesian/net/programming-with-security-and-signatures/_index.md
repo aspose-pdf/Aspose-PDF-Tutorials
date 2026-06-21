@@ -35,6 +35,9 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Tanda Tangan Dengan Kartu Pintar Menggunakan Kolom Tanda Tangan](./sign-with-smart-card-using-signature-field/) | Pelajari cara menandatangani PDF dengan aman menggunakan kartu pintar dengan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah kami untuk penerapan yang mudah. |  
 | [Periksa Tanda Tangan PDF di C# – Cara Membaca File PDF yang Ditandatangani](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Pelajari cara memeriksa tanda tangan PDF dan membaca file PDF yang ditandatangani menggunakan Aspose.PDF untuk .NET. |  
 | [Cara Memperbaiki File PDF – Panduan Lengkap C# dengan Aspose.PDF](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Pelajari cara memperbaiki file PDF yang rusak menggunakan Aspose.PDF untuk .NET dengan panduan lengkap C#. Bahasa Indonesia:  
+| [Cara Memverifikasi PDF – Panduan Lengkap C# untuk Tanda Tangan Digital](./how-to-verify-pdf-complete-c-guide-for-digital-signatures/) | Pelajari cara memverifikasi PDF dan memeriksa tanda tangan digital menggunakan Aspose.PDF untuk .NET dalam panduan lengkap C#. Bahasa Indonesia:  
+| [Cara Menggunakan Validator di C# – Panduan Lengkap Memeriksa Validitas Tanda Tangan](./how-to-use-validator-in-c-complete-guide-to-checking-signatu/) | Pelajari cara menggunakan validator di C# untuk memeriksa keabsahan tanda tangan digital pada PDF dengan panduan langkah demi langkah. |  
+| [Tambahkan Penomoran Bates pada PDF – Panduan Lengkap C# dengan Penandatanganan & Konversi](./add-bates-numbering-pdf-complete-c-guide-with-signing-conver/) | Pelajari cara menambahkan penomoran Bates pada PDF, menandatangani, dan mengonversinya menggunakan Aspose.PDF untuk .NET dalam panduan lengkap C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
