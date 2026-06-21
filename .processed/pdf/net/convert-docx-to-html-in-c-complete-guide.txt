@@ -1,0 +1,7 @@
+Title: Convert DOCX to HTML in C# – Complete Guide
+Slug: convert-docx-to-html-in-c-complete-guide
+Category: document-conversion
+ProcessedDate: 2026-06-21T15:11:36.146609
+SourceRepo: AI Search API
+Keywords: convert docx to html, save word as html, change font encoding, export word to html, preserve fonts in html
+PRNumber: 93
