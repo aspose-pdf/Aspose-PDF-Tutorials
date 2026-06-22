@@ -1,12 +1,69 @@
 ---
-date: '2026-01-04'
-description: जावा के साथ Aspose PDF HTML फ्रैगमेंट को PDFs में जोड़ना, HTML से PDF
-  बनाना, और Aspose.PDF का उपयोग करके टेक्स्ट को स्टाइल करना सीखें।
+date: '2026-06-22'
+description: Aspose.PDF for Java के साथ HTML फ्रैगमेंट जोड़कर pdf java बनाना सीखें,
+  HTML से PDF जनरेट करें, PDF मार्जिन सेट करें, और लाइसेंस लागू करें।
 keywords:
-- Add HTML to PDF with Aspose.PDF for Java
-- Aspose.PDF DOM implementation
-- Java library integration
-title: अस्पोज़ पीडीएफ एचटीएमएल फ्रैगमेंट – जावा के साथ एचटीएमएल को पीडीएफ में जोड़ें
+- create pdf java
+- aspose pdf license
+- generate pdf html java
+- set pdf margins
+- aspose pdf maven
+schemas:
+- author: Aspose
+  dateModified: '2026-06-22'
+  description: Learn how to create pdf java by adding an HTML fragment with Aspise.PDF
+    for Java, generate PDF from HTML, set PDF margins, and apply a license.
+  headline: create pdf java – Add HTML Content to a PDF Using Aspose.PDF for Java
+  type: TechArticle
+- description: Learn how to create pdf java by adding an HTML fragment with Aspise.PDF
+    for Java, generate PDF from HTML, set PDF margins, and apply a license.
+  name: create pdf java – Add HTML Content to a PDF Using Aspose.PDF for Java
+  steps:
+  - name: '**Create a Document Object**'
+    text: '**Create a Document Object**'
+  - name: '**Add a Page to the Document**'
+    text: '**Add a Page to the Document**'
+  - name: '**Create an HTML Fragment**'
+    text: '**Create an HTML Fragment**'
+  - name: '**Set Text State**'
+    text: '**Set Text State**'
+  - name: '**Configure Margins**'
+    text: '**Configure Margins**'
+  - name: '**Add the Fragment to the Page**'
+    text: '**Add the Fragment to the Page**'
+  - name: '**Save the Document**'
+    text: '**Save the Document**'
+  - name: '**Dynamic Reports:** Auto‑generate financial statements that include styled
+      tables, charts, and conditional formatting.'
+    text: '**Dynamic Reports:** Auto‑generate financial statements that include styled
+      tables, charts, and conditional formatting.'
+  - name: '**Invoices:** Produce client‑specific invoices where branding colors and
+      fonts are defined in an HTML template.'
+    text: '**Invoices:** Produce client‑specific invoices where branding colors and
+      fonts are defined in an HTML template.'
+  - name: '**Marketing Brochures:** Convert web‑ready brochure layouts into high‑resolution
+      PDFs without redesigning the layout.'
+    text: '**Marketing Brochures:** Convert web‑ready brochure layouts into high‑resolution
+      PDFs without redesigning the layout.'
+  type: HowTo
+- questions:
+  - answer: Use `textState.setFontSize(12)` on the `TextState` object before attaching
+      the `HtmlFragment`.
+    question: How can I change the font size of an HTML fragment?
+  - answer: Split the workload into smaller batches, increase the JVM heap (`-Xmx2g`),
+      or enable `document.optimizeResources()` to free unused objects.
+    question: What should I do if my PDF processing exceeds memory limits?
+  - answer: Aspose provides equivalent libraries for .NET, C++, and Python, but the
+      Java API is specific to Java projects.
+    question: Can I use Aspose.PDF for Java with other programming languages?
+  - answer: Yes—include `<img src="path/to/image.png"/>` in your HTML string and ensure
+      the file path is reachable at runtime.
+    question: Is it possible to embed images inside the HTML fragment?
+  - answer: Basic inline CSS is supported; for advanced layouts, preprocess the HTML
+      or use Aspose’s styling APIs to apply fonts, colors, and spacing before rendering.
+    question: How does Aspose handle complex CSS styles?
+  type: FAQPage
+title: create pdf java – Aspose.PDF for Java का उपयोग करके PDF में HTML सामग्री जोड़ें
 url: /hi/java/conversion-export/add-html-to-pdf-aspose-java/
 weight: 1
 ---
@@ -20,50 +77,54 @@ weight: 1
 
 ## परिचय
 
-क्या आप Java का उपयोग करके अपनी PDF दस्तावेज़ों में HTML सामग्री को सहजता से एकीकृत करना चाहते हैं? इस गाइड में आप सीखेंगे कि **aspose pdf html fragment** को PDF में कैसे जोड़ें, HTML से PDF कैसे जनरेट करें, और Aspose.PDF for Java के साथ टेक्स्ट को कैसे स्टाइल करें। चाहे आप रिपोर्ट, इनवॉइस या मार्केटिंग ब्रोशर बना रहे हों, यह ट्यूटोरियल आपको PDF को समृद्ध HTML फ़ॉर्मेटिंग के साथ समृद्ध करने का व्यावहारिक तरीका दिखाता है।
+यदि आपको **create PDF Java** फ़ाइलें चाहिए जिनमें समृद्ध HTML फ़ॉर्मेटिंग हो, तो Aspose.PDF for Java एक‑स्टेप समाधान प्रदान करता है। इस ट्यूटोरियल में आप सीखेंगे कि **Aspose PDF HTML fragment** को PDF में कैसे जोड़ें, HTML से PDF कैसे जनरेट करें, और सटीक मार्जिन नियंत्रण के साथ टेक्स्ट को कैसे स्टाइल करें। चाहे आप इनवॉइस, डायनेमिक रिपोर्ट या मार्केटिंग ब्रोशर बना रहे हों, HTML एम्बेड करने से आप मौजूदा वेब टेम्पलेट्स को पुन: उपयोग कर सकते हैं जबकि आउटपुट पूरी तरह PDF‑अनुपालन रहता है।
 
-**आप क्या सीखेंगे:**
-- DOM का उपयोग करके PDF में HTML सामग्री कैसे जोड़ें।
-- फ़ॉन्ट, आकार और मार्जिन जैसे टेक्स्ट स्टाइल सेट करना।
-- वास्तविक‑दुनिया के परिदृश्यों में Aspose.PDF for Java के व्यावहारिक अनुप्रयोग।
+**आप क्या सीखेंगे**
+- DOM API का उपयोग करके PDF में HTML सामग्री कैसे जोड़ें।  
+- प्रोग्रामेटिक रूप से फ़ॉन्ट, आकार और **set PDF margins** जैसे टेक्स्ट स्टाइल कैसे सेट करें।  
+- वास्तविक‑दुनिया के परिदृश्य जहाँ **generate PDF HTML Java** विकास समय बचाता है।  
 
-आइए कार्यान्वयन शुरू करने से पहले आवश्यकताओं में डुबकी लगाएँ!
+आइए कार्यान्वयन में डुबकी लगाने से पहले आवश्यकताओं को देखें।
 
 ## त्वरित उत्तर
-- **aspose pdf html fragment फीचर क्या करता है?** यह आपको HTML मार्कअप को सीधे PDF पेज में एम्बेड करने की अनुमति देता है।  
-- **कौन सा Maven आर्टिफैक्ट आवश्यक है?** `com.aspose:aspose-pdf:25.3` (या नया)।  
-- **क्या मैं HTML को CSS से स्टाइल कर सकता हूँ?** बेसिक इनलाइन CSS समर्थित है; जटिल स्टाइल को प्री‑प्रोसेसिंग की आवश्यकता हो सकती है।  
-- **उत्पादन उपयोग के लिए क्या मुझे लाइसेंस चाहिए?** हाँ – एक टेम्पररी या कमर्शियल लाइसेंस आवश्यक है।  
-- **क्या यह तरीका बड़े बैच जॉब्स के लिए उपयुक्त है?** हाँ, लेकिन मेमोरी उपयोग पर नज़र रखें और बैच में प्रोसेसिंग पर विचार करें।
+- **Aspose PDF HTML fragment फीचर क्या करता है?** यह HTML मार्कअप को सीधे PDF पेज में एम्बेड करता है, टेबल, लिस्ट और बेसिक CSS को संरक्षित रखता है।  
+- **कौन सा Maven आर्टिफैक्ट आवश्यक है?** `com.aspose:aspose-pdf:25.3` (या नया) – **Aspose PDF Maven** पैकेज।  
+- **क्या मैं HTML को CSS के साथ स्टाइल कर सकता हूँ?** बेसिक इनलाइन CSS समर्थित है; जटिल स्टाइल्स के लिए HTML को प्री‑प्रोसेस करें या Aspose की स्टाइलिंग API का उपयोग करें।  
+- **उत्पादन उपयोग के लिए लाइसेंस चाहिए?** हाँ – मूल्यांकन वॉटरमार्क हटाने के लिए **Aspose PDF license** आवश्यक है।  
+- **क्या यह तरीका बड़े बैच जॉब्स के लिए उपयुक्त है?** बिल्कुल, लेकिन मेमोरी उपयोग पर नज़र रखें और फाइलों को बैच में प्रोसेस करने पर विचार करें।
 
-## aspose pdf html fragment क्या है?
-एक **aspose pdf html fragment** HTML कोड का वह भाग है जिसे Aspose.PDF पार्स करता है और PDF तत्वों के रूप में रेंडर करता है। यह आपको अपने मौजूदा HTML टेम्प्लेट्स को बनाए रखने और PDF जनरेट करते समय पुनः उपयोग करने की सुविधा देता है।
+## Aspose PDF HTML fragment क्या है?
+यह HTML मार्कअप का एक छोटा टुकड़ा है जिसे Aspose.PDF व्याख्या करके पैराग्राफ, टेबल और इमेज़ जैसे नेटिव PDF तत्वों में बदल सकता है। HTML फ्रैगमेंट का उपयोग करके आप मौजूदा वेब‑आधारित टेम्पलेट्स को पुन: उपयोग कर सकते हैं, स्टाइलिंग और लेआउट को संरक्षित रखते हुए पूरी तरह से अनुपालन PDF दस्तावेज़ जनरेट कर सकते हैं।
 
-## HTML से PDF जनरेट करने के लिए Aspose.PDF for Java का उपयोग क्यों करें?
-- **समृद्ध फ़ॉर्मेटिंग** – टेबल, लिस्ट और बेसिक CSS सटीक रूप से रेंडर होते हैं।  
-- **कोई बाहरी कन्वर्टर नहीं** – सब कुछ आपके Java एप्लिकेशन के भीतर चलता है।  
-- **सूक्ष्म नियंत्रण** – आप मार्जिन, फ़ॉन्ट और पोज़िशनिंग को प्रोग्रामेटिकली समायोजित कर सकते हैं।
+## HTML से PDF जनरेट करने के लिए Aspose.PDF for Java क्यों उपयोग करें?
+Aspose.PDF for Java एकीकृत इंजन प्रदान करता है जो HTML सामग्री को सीधे PDF में बदलता है, बिना बाहरी टूल्स के। यह टेबल, लिस्ट और बेसिक CSS को सटीक रूप से रेंडर करता है, कई फ़ाइल फ़ॉर्मेट्स को सपोर्ट करता है, और डेवलपर्स को लेआउट, फ़ॉन्ट और मार्जिन पर प्रोग्रामेटिक नियंत्रण देता है, जिससे स्वचालित दस्तावेज़ जनरेशन के लिए यह आदर्श बनता है।
+
+- **समृद्ध फ़ॉर्मेटिंग** – टेबल, लिस्ट और बेसिक CSS सटीक रूप से रेंडर होते हैं, 50 से अधिक इनपुट और आउटपुट फ़ॉर्मेट्स को सपोर्ट करते हैं।  
+- **कोई बाहरी कन्वर्टर नहीं** – परिवर्तन पूरी तरह आपके Java एप्लिकेशन के भीतर चलता है, थर्ड‑पार्टी डिपेंडेंसीज़ को समाप्त करता है।  
+- **सूक्ष्म नियंत्रण** – आप प्रत्येक फ्रैगमेंट के लिए मार्जिन, फ़ॉन्ट और पोज़िशनिंग को प्रोग्रामेटिक रूप से समायोजित कर सकते हैं।
 
 ## पूर्वापेक्षाएँ
 
-इस ट्यूटोरियल को शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
+इस ट्यूटोरियल को शुरू करने से पहले सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 
-**आवश्यक लाइब्रेरीज़:**
-- Aspose.PDF for Java संस्करण 25.3 या बाद का।
+**आवश्यक लाइब्रेरीज़**
+- Aspose.PDF for Java संस्करण 25.3 या बाद का ( **Aspose PDF Maven** पैकेज)।
 
-**पर्यावरण सेटअप:**
-- एक संगत Java Development Kit (JDK)।
-- IntelliJ IDEA या Eclipse जैसे एकीकृत विकास वातावरण (IDE)।
+**पर्यावरण सेटअप**
+- संगत Java Development Kit (JDK 8 या नया)।  
+- IntelliJ IDEA या Eclipse जैसे IDE।
 
-**ज्ञान पूर्वापेक्षाएँ:**
-- Java प्रोग्रामिंग और लाइब्रेरीज़ के साथ काम करने की बुनियादी समझ।
+**ज्ञान पूर्वापेक्षाएँ**
+- बेसिक Java प्रोग्रामिंग कौशल और Maven या Gradle की परिचितता।
 
 ## Aspose.PDF for Java सेटअप करना
 
-### aspose pdf Maven डिपेंडेंसी सेट करना
-To get started, you'll need to add the Aspose.PDF library to your project. Here's how you can do it using Maven and Gradle:
+### Aspose PDF Maven डिपेंडेंसी सेटअप करना
+शुरू करने के लिए, अपने प्रोजेक्ट में Aspose.PDF लाइब्रेरी जोड़ें। नीचे दिए गए बिल्ड टूल्स में से एक का उपयोग करें:
 
 **Maven:**
+
+`aspose-pdf` आर्टिफैक्ट सभी PDF मैनिपुलेशन क्लासेज़ प्रदान करता है।
 
 ```xml
 <dependency>
@@ -75,17 +136,19 @@ To get started, you'll need to add the Aspose.PDF library to your project. Here'
 
 **Gradle:**
 
+Gradle उपयोगकर्ता `dependencies` ब्लॉक में वही डिपेंडेंसी घोषित कर सकते हैं।
+
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-#### लाइसेंस प्राप्त करना
-- **फ्री ट्रायल:** आप बेसिक फ़ंक्शनालिटी टेस्ट करने के लिए फ्री ट्रायल संस्करण डाउनलोड कर सकते हैं।  
-- **टेम्पररी लाइसेंस:** अपने मूल्यांकन अवधि के दौरान पूर्ण एक्सेस के लिए टेम्पररी लाइसेंस प्राप्त करने हेतु [Aspose's Temporary License Page](https://purchase.aspose.com/temporary-license/) पर जाएँ।  
-- **खरीद:** यदि आपको अधिक विस्तारित उपयोग चाहिए, तो [Aspose's Purchase Page](https://purchase.aspose.com/buy) से कमर्शियल लाइसेंस खरीदने पर विचार करें।
+#### लाइसेंस प्राप्ति
+- **Free Trial:** कोर फीचर्स का परीक्षण करने के लिए ट्रायल संस्करण डाउनलोड करें।  
+- **Temporary License:** मूल्यांकन के दौरान पूर्ण एक्सेस के लिए [Aspose's Temporary License Page](https://purchase.aspose.com/temporary-license/) से एक टेम्पररी लाइसेंस प्राप्त करें।  
+- **Purchase:** उत्पादन उपयोग के लिए, [Aspose's Purchase Page](https://purchase.aspose.com/buy) पर एक व्यावसायिक लाइसेंस खरीदें।
 
-#### बेसिक इनिशियलाइज़ेशन
-Start by initializing the `Document` object to work with Aspose.PDF:
+#### बुनियादी प्रारंभिककरण
+`Document` क्लास Aspose.PDF की टॉप‑लेवल ऑब्जेक्ट है जो मेमोरी में एकल PDF फ़ाइल का प्रतिनिधित्व करती है। इसे इनिशियलाइज़ करने से आपको सभी बाद के ऑपरेशन्स के लिए एक कैनवास मिल जाता है।
 
 ```java
 import com.aspose.pdf.Document;
@@ -97,139 +160,155 @@ Document doc = new Document();
 
 हम कार्यान्वयन को दो मुख्य फीचर्स में विभाजित करेंगे: HTML सामग्री जोड़ना और टेक्स्ट स्टेट सेट करना।
 
-### DOM का उपयोग करके aspose pdf html fragment जोड़ना
+### DOM का उपयोग करके Aspose PDF HTML fragment जोड़ना
 
-**Overview:** यह फीचर आपको PDF दस्तावेज़ में एक HTML फ्रैगमेंट इन्सर्ट करने की अनुमति देता है, जिससे आपके PDF पेजों में समृद्ध फ़ॉर्मेटिंग संभव हो जाती है।
+**समीक्षा:** एक HTML फ्रैगमेंट को PDF दस्तावेज़ में डालें, जिससे PDF पेजों में समृद्ध फ़ॉर्मेटिंग सक्षम हो।
 
 #### चरण
 
-1. **Create a Document Object**
+1. **एक Document ऑब्जेक्ट बनाएं**  
 
-   ```java
+   `Document` क्लास वह PDF दर्शाती है जिसे आप बना रहे हैं।
+
+```java
    import com.aspose.pdf.Document;
    
    Document doc = new Document();
    ```
 
-2. **Add a Page to the Document**
+2. **डॉक्यूमेंट में एक पेज जोड़ें**  
 
-   ```java
+   नया `Page` ऑब्जेक्ट HTML फ्रैगमेंट के लिए कंटेनर प्रदान करता है।
+
+```java
    import com.aspose.pdf.Page;
    
    Page page = doc.getPages().add();
    ```
 
-3. **Create an HTML Fragment**
+3. **एक HTML फ्रैगमेंट बनाएं**  
 
-   ```java
+   `HtmlFragment` क्लास वह HTML मार्कअप संलग्न करती है जिसे आप रेंडर करना चाहते हैं।
+
+```java
    import com.aspose.pdf.HtmlFragment;
    
    String htmlContent = "<p style='font-family: Verdana'><b><i>Table contains text</i></b></p>";
    HtmlFragment title = new HtmlFragment(htmlContent);
    ```
 
-4. **Set Text State**  
-   Configure the font and size for your HTML content:
+4. **टेक्स्ट स्टेट सेट करें**  
 
-   ```java
+   `TextState` ऑब्जेक्ट का उपयोग करके फ्रैगमेंट के डिफ़ॉल्ट फ़ॉन्ट, आकार और रंग कॉन्फ़िगर करें।
+
+```java
    import com.aspose.pdf.TextState;
    
    title.setTextState(new TextState("Arial", 20));
    ```
 
-5. **Configure Margins**  
-   Adjust margins to position your HTML fragment correctly:
+5. **मार्जिन कॉन्फ़िगर करें**  
 
-   ```java
+   `MarginInfo` क्लास आपको टॉप, बॉटम, लेफ़्ट और राइट मार्जिन सेट करने देती है, जिससे फ्रैगमेंट ठीक वहीँ बैठता है जहाँ आप चाहते हैं।
+
+```java
    title.getMargin().setBottom(10);
    title.getMargin().setTop(400);
    ```
 
-6. **Add the Fragment to the Page**
+6. **फ्रैगमेंट को पेज में जोड़ें**  
 
-   ```java
+   `HtmlFragment` को पेज के `Paragraphs` कलेक्शन में अटैच करें ताकि यह PDF लेआउट का हिस्सा बन जाए।
+
+```java
    page.getParagraphs().add(title);
    ```
 
-7. **Save the Document**
+7. **डॉक्यूमेंट सेव करें**  
 
-   ```java
+   `document.save("output.pdf")` के साथ PDF को डिस्क पर सहेजें। यह कॉल सभी बदलावों, जिसमें एम्बेडेड HTML भी शामिल है, को अंतिम फ़ाइल में लिखता है।
+
+```java
    String outputDir = "YOUR_OUTPUT_DIRECTORY";
    doc.save(outputDir + "/AddHTMLUsingDOMAndOverwrite_out.pdf");
    ```
 
-**समस्या निवारण टिप्स:**
-- सुनिश्चित करें कि आपका HTML सही‑फ़ॉर्मेटेड है ताकि रेंडरिंग समस्याएँ न आएँ।  
-- डॉक्यूमेंट्स को सेव करने के लिए फ़ाइल पाथ को दोबारा जांचें।  
+**समस्या निवारण टिप्स**
+- सुनिश्चित करें कि HTML स्ट्रिंग सही‑फ़ॉर्मेटेड है; खराब टैग रेंडरिंग गैप्स का कारण बन सकते हैं।  
+- `<img>` टैग में संदर्भित इमेज पाथ्स रनटाइम पर उपलब्ध हों, यह जांचें।  
 
 ### टेक्स्ट स्टेट और मार्जिन सेट करना (एडवांस्ड स्टाइलिंग)
 
-**Overview:** यह सेक्शन आपके HTML फ्रैगमेंट के टेक्स्ट स्टाइल को कस्टमाइज़ करने पर केंद्रित है, जिससे पठनीयता और प्रस्तुति में सुधार होता है।
+**समीक्षा:** यह सेक्शन दिखाता है कि कैसे आप अपने HTML फ्रैगमेंट की उपस्थिति को कस्टमाइज़ कर सकते हैं, जैसे फ़ॉन्ट रंग बदलना, बैकग्राउंड शेडिंग लागू करना, या लाइन स्पेसिंग समायोजित करना।
 
-**Steps:** पिछले सेक्शन के चरण 3 से 7 को विभिन्न कॉन्फ़िगरेशन या अतिरिक्त स्टाइलिंग (जैसे फ़ॉन्ट रंग बदलना, बैकग्राउंड जोड़ना) के साथ दोहराएँ।
+**चरण:** वैकल्पिक `TextState` और `MarginInfo` मानों के साथ चरण 3 से 7 दोहराएँ। उदाहरण के लिए, `textState.setForegroundColor(Color.getRed())` का उपयोग करके फ़ॉन्ट रंग को लाल करें।
 
 ## व्यावहारिक अनुप्रयोग
 
-यहाँ कुछ वास्तविक‑दुनिया के परिदृश्य हैं जहाँ PDF में HTML जोड़ना अत्यंत लाभदायक हो सकता है:
+यहाँ कुछ वास्तविक‑दुनिया के परिदृश्य हैं जहाँ **create PDF Java** के साथ HTML फ्रैगमेंट का उपयोग चमकता है:
 
-1. **डायनामिक रिपोर्ट्स:** स्वचालित रूप से वित्तीय रिपोर्ट्स जनरेट करें जिनमें स्टाइल्ड टेबल और सारांश शामिल हों।  
-2. **इनवॉइस:** विभिन्न क्लाइंट्स के लिए कस्टम फ़ॉन्ट और लेआउट के साथ प्रोफेशनल‑लुकिंग इनवॉइस बनाएं।  
-3. **मार्केटिंग ब्रोशर्स:** डिजिटल ब्रोशर्स विकसित करें जो विभिन्न प्लेटफ़ॉर्म पर ब्रांडिंग की स्थिरता बनाए रखें।  
-4. **शैक्षिक सामग्री:** कोर्स मैटेरियल्स जनरेट करें जिनमें क्विज़ या ग्राफ़िक्स जैसे इंटरैक्टिव कंटेंट एम्बेडेड हों।  
+1. **डायनेमिक रिपोर्ट्स:** वित्तीय स्टेटमेंट्स को स्टाइल्ड टेबल, चार्ट और कंडीशनल फ़ॉर्मेटिंग के साथ ऑटो‑जनरेट करें।  
+2. **इनवॉइस:** क्लाइंट‑स्पेसिफिक इनवॉइस बनाएं जहाँ ब्रांडिंग रंग और फ़ॉन्ट HTML टेम्पलेट में परिभाषित हों।  
+3. **मार्केटिंग ब्रोशर:** वेब‑रेडी ब्रोशर लेआउट को हाई‑रेज़ोल्यूशन PDFs में बदलें बिना लेआउट को फिर से डिज़ाइन किए।  
+4. **शैक्षणिक सामग्री:** कोर्स पैकेट्स को एम्बेडेड क्विज़, इमेज़ और फ़ॉर्मेटेड टेक्स्ट ब्लॉक्स के साथ असेंबल करें।
 
-## प्रदर्शन संबंधी विचार
+## प्रदर्शन विचार
 
-When using Aspose.PDF for Java, keep these tips in mind to optimize performance:
+Aspose.PDF for Java को बड़े पैमाने पर उपयोग करते समय इन टिप्स को ध्यान में रखें:
 
-- **मेमोरी मैनेजमेंट:** मेमोरी उपयोग पर नज़र रखें, विशेषकर बड़े डॉक्यूमेंट्स प्रोसेस करते समय। ऑब्जेक्ट लाइफ़टाइम मैनेज करके Java की गार्बेज कलेक्शन को प्रभावी ढंग से उपयोग करें।  
-- **बैच प्रोसेसिंग:** यदि कई PDFs को हैंडल कर रहे हैं, तो ओवरहेड कम करने के लिए उन्हें बैच में प्रोसेस करें।  
+- **मेमोरी मैनेजमेंट:** बड़े HTML फ्रैगमेंट्स काफी हीप स्पेस ले सकते हैं। `System.gc()` का विवेकपूर्ण उपयोग करें और `Document.save(OutputStream)` के साथ बड़े दस्तावेज़ों को स्ट्रीम करने पर विचार करें।  
+- **बैच प्रोसेसिंग:** बड़े रूपांतरण के लिए फाइलों को 20–30 के समूह में प्रोसेस करें ताकि JVM मेमोरी समाप्त न हो।  
+- **PDF मार्जिन को कुशलता से सेट करें:** कई पेजों में एक ही `MarginInfo` इंस्टेंस को पुन: उपयोग करें ताकि ऑब्जेक्ट निर्माण ओवरहेड कम हो।
+
+## HTML फ्रैगमेंट के साथ PDF Java कैसे बनाएं?
+
+अपना HTML स्ट्रिंग लोड करें, उसे `HtmlFragment` में रैप करें, `Page` से अटैच करें, और `document.save(...)` कॉल करें। यह संक्षिप्त वर्कफ़्लो आपको **create PDF Java** फ़ाइलें पूरी तरह स्टाइल्ड कंटेंट के साथ दस लाइनों से कम कोड में बनाता है, अलग HTML‑to‑PDF कन्वर्टर्स की आवश्यकता को समाप्त करता है।
 
 ## निष्कर्ष
 
-बधाई हो! आपने Aspose.PDF for Java का उपयोग करके PDF में **aspose pdf html fragment** जोड़ना और टेक्स्ट स्टाइल को प्रभावी रूप से कस्टमाइज़ करना सीख लिया है। अब जब आपके पास यह ज्ञान है, आप PDF फ़ाइलों को मर्ज करने या दस्तावेज़ों को एन्क्रिप्ट करने जैसी अतिरिक्त कार्यक्षमताओं का अन्वेषण कर सकते हैं।
+बधाई हो! अब आप जानते हैं कि कैसे **create PDF Java** दस्तावेज़ों में HTML फ्रैगमेंट एम्बेड करें, टेक्स्ट को स्टाइल करें, और Aspose.PDF for Java का उपयोग करके मार्जिन नियंत्रित करें। इस आधार के साथ आप PDFs को मर्ज करना, डिजिटल सिग्नेचर जोड़ना, या दस्तावेज़ एन्क्रिप्ट करना जैसे कार्यों में विस्तार कर सकते हैं।
 
-**अगले कदम:**
-- विभिन्न HTML स्टाइलिंग विकल्पों के साथ प्रयोग करें।  
-- अधिक उन्नत फीचर्स के लिए [Aspose दस्तावेज़ीकरण](https://reference.aspose.com/pdf/java/) देखें।  
+**अगले कदम**
+- अधिक जटिल CSS और एक्सटर्नल स्टाइल शीट्स के साथ प्रयोग करें।  
+- उन्नत फीचर्स जैसे PDF/A अनुपालन और इमेज एक्सट्रैक्शन के लिए [Aspose Documentation](https://reference.aspose.com/pdf/java/) देखें।  
 
 ## अक्सर पूछे जाने वाले प्रश्न
 
-**प्रश्न:** HTML fragment का फ़ॉन्ट साइज कैसे बदलें?  
-**उत्तर:** इच्छित फ़ॉन्ट और साइज निर्दिष्ट करने के लिए `setTextState(new TextState("FontName", fontSize))` का उपयोग करें।
+**प्रश्न: मैं HTML फ्रैगमेंट का फ़ॉन्ट आकार कैसे बदल सकता हूँ?**  
+**उत्तर:** `HtmlFragment` को अटैच करने से पहले `TextState` ऑब्जेक्ट पर `textState.setFontSize(12)` कॉल करें।
 
-**प्रश्न:** यदि मेरा PDF प्रोसेसिंग मेमोरी लिमिट से अधिक हो जाए तो क्या करें?  
-**उत्तर:** संसाधन उपयोग को अनुकूलित करने के लिए दस्तावेज़ों को छोटे बैच में प्रोसेस करें या JVM हीप साइज बढ़ाएँ।
+**प्रश्न: यदि मेरा PDF प्रोसेसिंग मेमोरी लिमिट से अधिक हो जाता है तो क्या करें?**  
+**उत्तर:** कार्यभार को छोटे बैचों में विभाजित करें, JVM हीप (`-Xmx2g`) बढ़ाएँ, या `document.optimizeResources()` सक्षम करके अनावश्यक ऑब्जेक्ट्स को मुक्त करें।
 
-**प्रश्न:** क्या मैं Aspose.PDF for Java को अन्य प्रोग्रामिंग भाषाओं के साथ उपयोग कर सकता हूँ?  
-**उत्तर:** Aspose .NET, C++, और अन्य प्लेटफ़ॉर्म के लिए समान लाइब्रेरीज़ प्रदान करता है, लेकिन Java लाइब्रेरी विशेष रूप से Java प्रोजेक्ट्स के लिए है।
+**प्रश्न: क्या मैं Aspose.PDF for Java को अन्य प्रोग्रामिंग भाषाओं के साथ उपयोग कर सकता हूँ?**  
+**उत्तर:** Aspose .NET, C++, और Python के लिए समकक्ष लाइब्रेरीज़ प्रदान करता है, लेकिन Java API विशेष रूप से Java प्रोजेक्ट्स के लिए है।
 
-**प्रश्न:** क्या HTML fragment के अंदर इमेज एम्बेड करना संभव है?  
-**उत्तर:** हाँ—अपने HTML स्ट्रिंग में `<img>` टैग शामिल करें और सुनिश्चित करें कि इमेज पाथ रनटाइम पर एक्सेसिबल हों।
+**प्रश्न: क्या HTML फ्रैगमेंट के अंदर इमेज एम्बेड करना संभव है?**  
+**उत्तर:** हाँ—अपने HTML स्ट्रिंग में `<img src="path/to/image.png"/>` शामिल करें और सुनिश्चित करें कि रनटाइम पर फ़ाइल पाथ पहुँच योग्य हो।
 
-**प्रश्न:** Aspose जटिल CSS स्टाइल को कैसे हैंडल करता है?  
-**उत्तर:** बेसिक इनलाइन CSS समर्थित है। उन्नत स्टाइलिंग के लिए अपने HTML को प्री‑प्रोसेस करें या एम्बेड करने से पहले Aspose की स्टाइलिंग API का उपयोग करें।
+**प्रश्न: Aspose जटिल CSS स्टाइल्स को कैसे संभालता है?**  
+**उत्तर:** बेसिक इनलाइन CSS समर्थित है; उन्नत लेआउट्स के लिए HTML को प्री‑प्रोसेस करें या रेंडरिंग से पहले फ़ॉन्ट, रंग और स्पेसिंग लागू करने के लिए Aspose की स्टाइलिंग API का उपयोग करें।
 
 ## संसाधन
 
-- [Aspose दस्तावेज़ीकरण](https://reference.aspose.com/pdf/java/)
-- [Aspose.PDF डाउनलोड करें](https://releases.aspose.com/pdf/java/)
-- [लाइसेंस खरीदें](https://purchase.aspose.com/buy)
-- [फ्री ट्रायल](https://releases.aspose.com/pdf/java/)
-- [टेम्पररी लाइसेंस](https://purchase.aspose.com/temporary-license/)
-- [Aspose सपोर्ट फ़ोरम](https://forum.aspose.com/c/pdf/10)
+- [Aspose Documentation](https://reference.aspose.com/pdf/java/)
+- [Download Aspose.PDF](https://releases.aspose.com/pdf/java/)
+- [Purchase License](https://purchase.aspose.com/buy)
+- [Free Trial](https://releases.aspose.com/pdf/java/)
+- [Temporary License](https://purchase.aspose.com/temporary-license/)
+- [Aspose Support Forum](https://forum.aspose.com/c/pdf/10)
 
-अब जब आपने Aspose.PDF for Java के साथ PDF में HTML जोड़ने का अन्वेषण किया है, तो क्यों न इसे अपने प्रोजेक्ट्स में लागू करने की कोशिश करें? प्रयोग शुरू करें और परिणाम देखें!
+{{< blocks/products/products-backtop-button >}}
 
----
+## संबंधित ट्यूटोरियल
 
-**Last Updated:** 2026-01-04  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose
+- [PDF Conversion and Export Tutorials with Aspose.PDF Java](/pdf/java/conversion-export/)
+- [Master HTML to PDF Conversion Using Aspose.PDF for Java: A Comprehensive Guide](/pdf/java/conversion-export/html-to-pdf-aspose-java-tutorial/)
+- [How to Set Up Aspose.PDF License Using a Stream in Java: A Comprehensive Guide](/pdf/java/getting-started/aspose-pdf-license-setup-java-stream/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
