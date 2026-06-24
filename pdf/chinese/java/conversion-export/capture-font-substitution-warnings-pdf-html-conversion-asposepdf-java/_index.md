@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-14"
-"description": "了解如何在使用 Aspose.PDF for Java 将 PDF 文档转换为 HTML 时捕获字体替换警告。本指南将确保您的文档转换后保持其预期外观。"
-"title": "使用 Aspose.PDF Java 捕获 PDF 到 HTML 转换中的字体替换警告"
-"url": "/zh/java/conversion-export/capture-font-substitution-warnings-pdf-html-conversion-asposepdf-java/"
-"weight": 1
+date: '2026-03-09'
+description: 了解如何在使用 Aspose.PDF for Java 将 PDF 转换为 HTML 时捕获字体替换警告，以确保渲染准确并检测缺失的 PDF
+  字体。
+keywords:
+- Aspose.Aspose.PDF
+- Java
+- Document Processing
+title: PDF 转 HTML 转换：使用 Aspose.PDF for Java 捕获字体替换警告
+url: /zh/java/conversion-export/capture-font-substitution-warnings-pdf-html-conversion-asposepdf-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,29 +16,49 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# 如何使用 Aspose.PDF Java 捕获 PDF 到 HTML 转换中的字体替换警告
+# PDF 转 HTML 转换：使用 Aspose.PDF for Java 捕获字体替换警告
 
-## 介绍
+## Introduction
 
-将 PDF 转换为 HTML 格式通常会导致字体替换，从而影响布局和视觉完整性。使用 **Java版Aspose.PDF**，捕获这些字体替换警告变得简单，有助于确保您的转换准确并保持其预期的外观。
+当您执行 **pdf to html conversion** 时，字体替换可能会悄悄改变页面的外观，导致布局偏移或字符缺失。捕获这些警告可以让您验证转换是否保留了原始设计，并帮助您在缺失字体 pdf 成为问题之前及时发现它们。在本教程中，您将学习如何接入 Aspose.PDF for Java 的转换管道，记录任何字体更改，并自信地保存生成的 HTML 文件。
 
-本教程将指导您使用 Aspose.PDF for Java 将 PDF 文档转换为 HTML 时实现字体替换警告。您将深入了解相关技术步骤，并理解某些配置的重要性。
+**您将实现的目标：**
+- 理解在 pdf to html conversion 中监控字体替换的重要性。
+- 设置一个记录每次字体更改的字体替换处理程序。
+- 配置 `HtmlSaveOptions` 以微调转换输出。
 
-**您将学到什么：**
-- 在转换过程中捕获字体替换的重要性。
-- 如何在您的应用程序中设置字体替换处理程序。
-- 用于优化 PDF 到 HTML 转换的关键配置选项。
+在深入之前，请确保您已准备好所有必需的内容。
 
-首先让我们检查一下开始之前所需的先决条件。
+## Quick Answers
+- **What does the font substitution handler do?** 它记录原始字体名称以及 Aspose.PDF 在转换期间替换的字体。  
+- **Can I use this with pdf to html java projects?** 可以，代码适用于任何引用 Aspose.PDF 的 Java 应用程序。  
+- **Do I need a license for production use?** 商业部署需要有效的 Aspose.PDF 许可证。  
+- **Will missing fonts be detected automatically?** 处理程序会记录每一次替换，从而有效地帮助您检测缺失字体 pdf。  
+- **Is any additional configuration required?** 只需按照下文所示进行标准的 Aspose.PDF 设置和处理程序注册即可。
 
-## 先决条件
+## What is pdf to html conversion?
+Pdf to html conversion 将 PDF 文档转换为适合网页显示的 HTML 文件，同时尽量保留原始的布局、字体和图像。此过程有助于在浏览器中展示 PDF，而无需 PDF 查看插件。
 
-在继续之前，请确保您已：
+## Why capture font substitution warnings?
+在转换过程中，如果原始字体未嵌入或系统中不存在，Aspose.PDF 会使用备用字体进行替换。若未能看到这些替换，生成的 HTML 可能会出现明显差异。通过捕获警告，您可以：
+- 及早识别缺失的字体。
+- 选择嵌入所需的字体。
+- 为最终用户提供后备方案。
 
-### 所需的库和依赖项
-要使用 Aspose.PDF for Java，请将其作为依赖项添加到您的项目中。请按照以下说明使用 Maven 或 Gradle 进行安装：
+## Prerequisites
 
-**Maven**
+在开始之前，请确保您具备以下条件：
+
+- **Java Development Kit (JDK)** – 8 版或更高。  
+- **IDE** – IntelliJ IDEA、Eclipse 或您喜欢的任何编辑器。  
+- **Build tool** – Maven 或 Gradle（本文提供两种示例）。  
+- **Basic Java knowledge** – 能够创建简单的 `main` 方法并运行代码。
+
+## Setting Up Aspose.PDF for Java
+
+### 1. Add the Aspose.PDF dependency
+使用与您的构建系统相匹配的代码片段。
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -42,81 +67,95 @@
 </dependency>
 ```
 
-**Gradle**
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### 环境设置要求
-- 您的机器上安装了 Java 开发工具包 (JDK)。
-- 用于编写和测试代码的 IDE（例如 IntelliJ IDEA 或 Eclipse）。
+### 2. Acquire and apply a license
+- 获取免费试用许可证，以在不受限制的情况下探索全部功能，[here](https://purchase.aspose.com/temporary-license/)。  
+- 商业使用时，请从 Aspose 购买永久许可证或临时许可证，[here](https://purchase.aspose.com/temporary-license/)。
 
-### 知识前提
-- 对 Java 编程有基本的了解。
-- 熟悉 Maven/Gradle 构建工具（如果适用）。
-
-## 为 Java 设置 Aspose.PDF
-
-要开始使用 Aspose.PDF for Java，请按照以下步骤操作：
-
-1. **添加依赖项**：如上所示，在您的项目中包含 Aspose.PDF 库。
-2. **许可证获取**：
-   - 获取免费试用许可证，无限制探索全部功能 [这里](https://purchase。aspose.com/temporary-license/).
-   - 如需延长使用时间，请考虑购买订阅或获取临时许可证 [Aspose](https://purchase。aspose.com/temporary-license/).
-3. **基本初始化**：创建 `Document` 类并加载您的 PDF 文件，如下所示：
+### 3. Load your PDF document
+创建指向源 PDF 的 `Document` 实例。
 
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Document pdfDoc = new Document(dataDir + "input1.pdf");
 ```
 
-现在，让我们继续我们的实施指南。
+## Implementation Guide
 
-## 实施指南
+### Feature: Font Substitution Warning in pdf to html conversion
 
-### 功能：PDF 到 HTML 转换中的字体替换警告
+此功能可让您在将 PDF 转换为 HTML 时监控并捕获所有字体替换。
 
-此功能允许您监视和捕获从 PDF 到 HTML 格式的转换过程中发生的任何字体替换。
+#### Step 1: Load Your PDF Document
+（已在上文展示）加载文档后即可访问其内容和字体信息。
 
-#### 步骤 1：加载 PDF 文档
-使用 Aspose.PDF 加载您现有的 PDF 文件 `Document` 类。此步骤对于访问其内容和应用进一步的操作至关重要。
-
-```java
-String dataDir = "YOUR_DOCUMENT_DIRECTORY";
-Document pdfDoc = new Document(dataDir + "input1.pdf");
-```
-
-#### 步骤 2：设置字体替换处理程序
-实现字体替换处理程序，以捕获转换过程中字体的任何变化。此处理程序会记录原始字体和替换后的字体。
+#### Step 2: Set Up a Font Substitution Handler
+注册一个处理程序，将每次替换记录到映射表中，以便后续检查。
 
 ```java
 final Map<String, String> names = new HashMap<>();
 pdfDoc.FontSubstitution.add(new Document.FontSubstitutionHandler() {
     public void invoke(Font font, Font newFont) {
-        // 将替换的 FontNames 记录到地图中。
+        // Log substituted FontNames into a map.
         names.put(font.getFontName(), newFont.getFontName());
     }
 });
 ```
 
-**为什么要采取这一步骤？**
-如果文档的视觉完整性受到损害，捕获字体替换可以让您采取纠正措施。
+**Why this matters:**  
+如果转换将专有字体替换为通用字体，HTML 可能会出现意外的间距或缺失的字形。映射表 `names` 为您提供了清晰的审计轨迹。
 
-#### 步骤 3：配置 HTML 保存选项
-设置 `HtmlSaveOptions` 定义如何将 PDF 保存为 HTML 文件。 
+#### Step 3: Configure HTML Save Options
+创建 `HtmlSaveOptions` 实例，以控制 PDF 保存为 HTML 的方式。
 
 ```java
 HtmlSaveOptions htmlSaveOps = new HtmlSaveOptions();
 ```
 
-**关键配置选项：**
-- 通过以下属性调整图像压缩、字体嵌入等设置 `HtmlSaveOptions`。
+您还可以根据项目需求进一步自定义属性，如 `SplitIntoPages`、`EmbedFonts` 或 `ImageCompression`。
 
-#### 步骤4：保存转换后的文档
-最后，使用指定的选项将您的 PDF 文档保存为 HTML 文件。
+#### Step 4: Save the Converted Document
+最后，将 HTML 输出写入磁盘。
 
 ```java
 pdfDoc.save("YOUR_OUTPUT_DIRECTORY/getWarningForFontSubstitution.html\
+```
+
+执行完毕后，检查 `names` 映射表，查看哪些字体被替换。如果出现意外条目，请考虑嵌入缺失的字体或调整转换设置。
+
+## Common Issues & Troubleshooting
+
+| 症状 | 可能原因 | 解决办法 |
+|------|----------|----------|
+| `names` 映射表中没有条目 | 字体替换被禁用或所有字体已嵌入 | 如果希望看到替换，请确保在 `HtmlSaveOptions` 中将 `EmbedFonts` 设置为 `false`。 |
+| HTML 布局错乱 | 替换后的字体缺少必需的字形 | 嵌入缺失的字体，或提供与原始设计匹配的 CSS 后备字体。 |
+| `pdfDoc.save` 抛出异常 | 输出路径不正确或缺少写入权限 | 验证 `YOUR_OUTPUT_DIRECTORY` 是否存在且可写。 |
+
+## Frequently Asked Questions
+
+**Q: Can I use this approach with other output formats (e.g., DOCX)?**  
+A: 可以。Aspose.PDF 为大多数转换目标提供类似的字体替换事件。
+
+**Q: How do I detect missing fonts pdf before conversion?**  
+A: 检查 `pdfDoc.FontInfo` 集合，或在转换期间依赖替换处理程序。
+
+**Q: Is there a way to automatically embed missing fonts?**  
+A: 设置 `htmlSaveOps.setEmbedFonts(true)`；Aspose.PDF 会嵌入可用字体，但真正缺失的字体仍需手动提供。
+
+**Q: Does this work with encrypted PDFs?**  
+A: 可以，只要在加载文档时提供密码：`new Document(path, new LoadOptions(password))`。
+
+**Q: Will this increase conversion time?**  
+A: 记录替换的开销极小，通常只会增加几毫秒。
+
+---
+
+**Last Updated:** 2026-03-09  
+**Tested With:** Aspose.PDF 25.3 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
