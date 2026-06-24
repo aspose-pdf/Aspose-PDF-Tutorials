@@ -68,6 +68,9 @@ Ismerje meg, hogyan oldhatja fel és dekódolhatja vissza a védett PDF-fájloka
 ### [PDF jelszavak ellenőrzése az Aspose.PDF .NET segítségével: Lépésről lépésre útmutató a biztonsághoz és az engedélyekhez](./verify-pdf-passwords-aspose-dot-net-guide/)
 Tanulja meg, hogyan ellenőrizheti PDF-jelszavait az Aspose.PDF for .NET segítségével C#-ban. Ez az átfogó útmutató leegyszerűsíti a dokumentumok biztonságát és a hozzáférés-vezérlést.
 
+### [PDF kitakarása és érzékeny adatok eltávolítása C#-ban](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+Tanulja meg, hogyan takarhatja ki a PDF-et és távolíthatja el az érzékeny adatokat C#-ban az Aspose.PDF for .NET segítségével.
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)

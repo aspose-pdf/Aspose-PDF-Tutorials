@@ -38,6 +38,9 @@ Dowiedz się, jak konwertować pliki PDF do interaktywnych formatów HTML za pom
 ### [Konwertuj tabele Excela do PDF za pomocą Aspose.PDF dla .NET: przewodnik krok po kroku](./convert-excel-to-pdf-aspose-dotnet/)
 Dowiedz się, jak skutecznie konwertować arkusze kalkulacyjne programu Excel na tabele PDF przy użyciu Aspose.PDF dla .NET. Ten przewodnik zawiera instrukcje krok po kroku i niezbędne wskazówki.
 
+### [Konwertuj docx do png w C# – Kompletny przewodnik](./convert-docx-to-png-in-c-complete-guide/)
+Dowiedz się, jak konwertować pliki DOCX na obrazy PNG w C# przy użyciu Aspose.PDF, krok po kroku z przykładami kodu.
+
 ### [Konwersja HTML do PDF w C# przy użyciu Aspose.PDF: Kompletny przewodnik](./convert-html-pdf-aspose-pdf-net-csharp/)
 Dowiedz się, jak konwertować zawartość HTML na profesjonalne pliki PDF za pomocą Aspose.PDF dla .NET i C#. Ten przewodnik obejmuje uwierzytelniane żądania HTTP, procesy konwersji i ustawianie poświadczeń.
 

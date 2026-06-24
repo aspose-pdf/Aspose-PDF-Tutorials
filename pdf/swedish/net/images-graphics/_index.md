@@ -164,6 +164,9 @@ Lär dig hur du renderar komplexa LaTeX-skript till PDF-dokument med Aspose.PDF 
 ### [Ställ in bildbakgrunder i PDF-filer med Aspose.PDF för .NET: En omfattande guide](./aspose-pdf-net-set-image-backgrounds/)
 Lär dig hur du förbättrar dina PDF-dokument genom att ställa in bildbakgrunder med Aspose.PDF för .NET. Den här guiden behandlar tips för installation, implementering och optimering.
 
+### [Förlustfri bildkomprimering i Word-dokument – Komplett guide](./lossless-image-compression-in-word-docs-complete-guide/)
+Lär dig hur du komprimerar bilder i Word-dokument utan kvalitetsförlust med Aspose.Words för .NET.
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

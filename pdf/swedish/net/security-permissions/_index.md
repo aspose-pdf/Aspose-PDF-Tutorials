@@ -68,6 +68,9 @@ Lär dig hur du låser upp och dekrypterar skyddade PDF-filer med Aspose.PDF fö
 ### [Verifiera PDF-lösenord med Aspose.PDF .NET: En steg-för-steg-guide för säkerhet och behörigheter](./verify-pdf-passwords-aspose-dot-net-guide/)
 Lär dig hur du verifierar PDF-lösenord med Aspose.PDF för .NET i C#. Den här omfattande guiden förenklar dokumentsäkerhet och åtkomstkontroll.
 
+### [Hur man raderar PDF och tar bort känslig data i C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+Lär dig hur du raderar känslig information i PDF-filer med Aspose.PDF för .NET i C#.
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

@@ -18,32 +18,14 @@
 ## البرامج التعليمية المتاحة
 
 ### [تحويل متقدم من PDF إلى Excel: إتقان تقنيات Aspose.PDF لـ .NET](./aspose-pdf-net-convert-pdfs-to-excel/)
-تعرف على التقنيات المتقدمة لتحويل ملفات PDF إلى Excel باستخدام Aspose.PDF لـ .NET، وتبسيط استخراج البيانات، وتحسين الإنتاجية.
-
 ### [Aspose.PDF .NET: دليل تحويل XML إلى PDF للمطورين](./aspose-pdf-net-xml-to-pdf-conversion-guide/)
-أتقن استخدام Aspose.PDF لـ .NET لتحويل بيانات XML إلى PDF بسلاسة. تعلم تقنيات التحميل والربط والحفظ الفعّالة من خلال أمثلة عملية.
-
 ### [دليل شامل لتحويل XML إلى PDF باستخدام Aspose.PDF .NET للمطورين](./convert-xml-pdf-aspose-net-guide/)
-تعرّف على كيفية تحويل بيانات XML إلى مستندات PDF احترافية باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل التثبيت، وعمليات التحويل، والتطبيقات العملية.
-
 ### [دليل شامل: تحويل PDF إلى HTML باستخدام Aspose.PDF .NET مع استراتيجيات مخصصة](./convert-pdf-html-aspose-dotnet-custom-strategies/)
-تعلّم كيفية تحويل ملفات PDF إلى HTML باستخدام استراتيجيات مخصصة باستخدام Aspose.PDF لـ .NET. حافظ على دقة عالية، وتعامل مع الصور والخطوط وCSS بكفاءة.
-
 ### [دليل شامل: تحويل ملفات PDF إلى TIFF باستخدام Aspose.PDF .NET لتحويل المستندات بسلاسة](./convert-pdf-to-tiff-aspose-dotnet-guide/)
-تعرّف على كيفية تحويل ملفات PDF بكفاءة إلى صور TIFF عالية الجودة باستخدام Aspose.PDF لـ .NET. اتبع هذا الدليل خطوة بخطوة لتحسين سير عمل معالجة مستنداتك.
-
 ### [دليل شامل: تحويل PDF إلى HTML مع تحديثات التقدم في الوقت الفعلي باستخدام Aspose.PDF لـ .NET](./pdf-to-html-conversion-progress-aspose-pdf-net/)
-تعرّف على كيفية تحويل ملفات PDF إلى صيغ HTML تفاعلية باستخدام Aspose.PDF لـ .NET، مع تحديثات فورية للتقدم. مثالي للمسوقين الرقميين ومنصات التعلم الإلكتروني.
-
 ### [تحويل جداول Excel إلى PDF باستخدام Aspose.PDF لـ .NET: دليل خطوة بخطوة](./convert-excel-to-pdf-aspose-dotnet/)
-تعرّف على كيفية تحويل أوراق عمل Excel إلى جداول PDF بكفاءة باستخدام Aspose.PDF لـ .NET. يقدم هذا الدليل تعليمات خطوة بخطوة ونصائح أساسية.
-
 ### [تحويل HTML إلى PDF في C# باستخدام Aspose.PDF: دليل كامل](./convert-html-pdf-aspose-pdf-net-csharp/)
-تعرّف على كيفية تحويل محتوى HTML إلى ملفات PDF احترافية باستخدام Aspose.PDF لـ .NET وC#. يغطي هذا الدليل طلبات HTTP المُصادق عليها، وعمليات التحويل، وإعداد بيانات الاعتماد.
-
 ### [تحويل Markdown إلى PDF في .NET باستخدام Aspose.PDF: دليل شامل](./convert-markdown-pdf-aspose-net-tutorial/)
-تعرّف على كيفية تحويل ملفات Markdown إلى ملفات PDF باستخدام Aspose.PDF لـ .NET. اتبع هذا الدليل خطوة بخطوة لدمج تحويل المستندات بسلاسة في تطبيقاتك.
-
 ### [تحويل صفحات PDF إلى صور باستخدام Aspose.PDF في .NET](./convert-pdf-pages-to-images-aspose-dotnet/)
 برنامج تعليمي لبرمجة Aspose.PDF Net
 
@@ -123,7 +105,7 @@
 تعلّم كيفية تحويل ملفات XML بكفاءة إلى ملفات PDF احترافية باستخدام Aspose.PDF وC#. اتبع هذا الدليل المفصل، المُصمّم لمطوّري .NET.
 
 ### [تحويل XML إلى PDF باستخدام Aspose.PDF لـ .NET: دليل خطوة بخطوة](./convert-xml-pdf-aspose-dotnet/)
-تعرّف على كيفية تحويل بيانات XML إلى ملفات PDF مُصمّمة باستخدام Aspose.PDF وXSLT في .NET. يغطي هذا الدليل خطوات الإعداد والتحويل والتطبيقات العملية.
+تعرّف على كيفية تحويل بيانات XML إلى ملفات PDF مُصمّرة باستخدام Aspose.PDF وXSLT في .NET. يغطي هذا الدليل خطوات الإعداد والتحويل والتطبيقات العملية.
 
 ### [تحويل XML إلى PDF مع الصور الديناميكية باستخدام Aspose.PDF لـ .NET](./convert-xml-to-pdf-dynamic-images-aspose-net/)
 تعرف على كيفية تحويل بيانات XML إلى مستند PDF ذو مظهر احترافي باستخدام Aspose.PDF لـ .NET، بما في ذلك إدراج الصور الديناميكية.
@@ -226,6 +208,9 @@
 
 ### [تحويل PDF إلى TIFF في .NET باستخدام Aspose.PDF: دليل خطوة بخطوة](./pdf-to-tiff-conversion-aspose-pdf-net/)
 تعلّم كيفية تحويل مستندات PDF إلى صور TIFF باستخدام Aspose.PDF لـ .NET. أتقن أعماق الألوان المخصصة وتقنيات معالجة الصور المتقدمة.
+
+### [تحويل docx إلى png في C# – دليل شامل](./convert-docx-to-png-in-c-complete-guide/)
+دليل خطوة بخطوة لتحويل ملفات docx إلى صور PNG باستخدام C# و Aspose.PDF.
 
 ## موارد إضافية
 

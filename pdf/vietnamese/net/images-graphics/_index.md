@@ -161,8 +161,8 @@ Tìm hiểu cách nén và tối ưu hóa hình ảnh trong tài liệu PDF bằ
 ### [Kết xuất LaTeX trong PDF với Aspose.PDF .NET: Hướng dẫn từng bước](./render-latex-aspose-pdf-net-guide/)
 Tìm hiểu cách chuyển các tập lệnh LaTeX phức tạp thành tài liệu PDF bằng Aspose.PDF cho .NET, bao gồm các mẹo thiết lập, triển khai và tối ưu hóa.
 
-### [Đặt hình nền ảnh trong PDF bằng Aspose.PDF cho .NET: Hướng dẫn toàn diện](./aspose-pdf-net-set-image-backgrounds/)
-Tìm hiểu cách cải thiện tài liệu PDF của bạn bằng cách thiết lập hình nền bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm các mẹo thiết lập, triển khai và tối ưu hóa.
+### [Nén Hình Ảnh Không Mất Dữ Liệu trong Tài liệu Word – Hướng Dẫn Toàn Diện](./lossless-image-compression-in-word-docs-complete-guide/)
+Hướng dẫn chi tiết cách nén hình ảnh trong tài liệu Word mà không làm giảm chất lượng, sử dụng Aspose.Words cho .NET.
 
 ## Tài nguyên bổ sung
 

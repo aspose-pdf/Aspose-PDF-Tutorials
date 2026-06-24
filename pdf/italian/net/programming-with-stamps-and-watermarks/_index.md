@@ -39,6 +39,7 @@ I tutorial di Aspose.PDF "Programmazione con timbri e filigrane" per .NET ti gui
 | [Tabella nella sezione Intestazione Piè di pagina](./table-in-header-footer-section/) | Scopri come aggiungere facilmente testo al piè di pagina di un file PDF utilizzando Aspose.PDF per .NET. Guida passo passo inclusa per un'integrazione perfetta. |  
 | [Testo nel piè di pagina del file PDF](./text-in-footer/) | Scopri come aggiungere testo nel piè di pagina di un file PDF con Aspose.PDF per .NET. |  
 | [Testo nell'intestazione del file PDF](./text-in-header/) | Impara ad aggiungere intestazioni di testo ai PDF utilizzando Aspose.PDF per .NET con questo tutorial passo passo. Migliora i tuoi documenti in modo efficiente ed efficace. |  
+| [Crea filigrana di testo in Word con Aspose.Words – Guida completa](./create-text-watermark-in-word-with-aspose-words-complete-gui/) Scopri come creare una filigrana di testo in un documento Word usando Aspose.Words con esempi di codice dettagliati. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

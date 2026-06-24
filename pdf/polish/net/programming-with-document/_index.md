@@ -58,6 +58,8 @@ Zasób zawiera samouczki dotyczące programowania funkcji dokumentu w bibliotece
 | [Zweryfikuj PDF AB Standard](./validatepdfabstandard/) Dowiedz się, jak sprawdzić zgodność pliku PDF ze standardem PDF/A-1b przy użyciu Aspose.PDF dla .NET w tym samouczku krok po kroku. Zapewnij zgodność w celu długoterminowej archiwizacji. |  
 | [Weryfikacja plików PDF Standard](./validatepdfastandard/) | Dowiedz się, jak weryfikować pliki PDF pod kątem zgodności ze standardem PDF/A-1a przy użyciu Aspose.PDF dla platformy .NET, korzystając z tego kompleksowego samouczka krok po kroku. |  
 | [Sprawdź PDF UA Standard](./validatepdfuastandard/) | Dowiedz się, jak sprawdzić zgodność pliku PDF ze standardem dostępności PDF/UA przy użyciu Aspose.PDF dla platformy .NET, korzystając z naszego przewodnika krok po kroku i szczegółowych wyjaśnień. |  
+| [Dodaj pustą stronę w dokumencie Word przy użyciu C# – Kompletny przewodnik](./add-blank-page-in-word-document-with-c-complete-guide/) | Dowiedz się, jak dodać pustą stronę do dokumentu Word przy użyciu C# w tym kompletnym przewodniku krok po kroku. |  
+| [Dodaj numerację Bates w Wordzie – Kompletny przewodnik krok po kroku](./add-bates-numbering-in-word-complete-step-by-step-guide/) | Dowiedz się, jak dodać numerację Bates w dokumentach Word przy użyciu Aspose.Words dla .NET. Szczegółowy przewodnik krok po kroku. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

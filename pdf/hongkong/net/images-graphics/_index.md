@@ -164,6 +164,9 @@ Aspose.PDF Net 程式碼教學
 ### [使用 Aspose.Pdf for .NET 設定 PDF 中的影像背景：綜合指南](./aspose-pdf-net-set-image-backgrounds/)
 了解如何使用 Aspose.PDF for .NET 設定影像背景來增強您的 PDF 文件。本指南涵蓋設定、實作和優化技巧。
 
+### [Word 文件中的無損影像壓縮 – 完整指南](./lossless-image-compression-in-word-docs-complete-guide/)
+了解如何使用 Aspose.Words for .NET 在 Word 文件中進行無損影像壓縮，保持品質同時減少檔案大小。
+
 ## 其他資源
 
 - [Aspose.PDF 用於網頁文檔](https://docs.aspose.com/pdf/net/)

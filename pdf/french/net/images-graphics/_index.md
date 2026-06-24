@@ -164,6 +164,9 @@ Découvrez comment restituer des scripts LaTeX complexes dans des documents PDF 
 ### [Définir l'arrière-plan des images dans les fichiers PDF avec Aspose.PDF pour .NET : guide complet](./aspose-pdf-net-set-image-backgrounds/)
 Découvrez comment améliorer vos documents PDF en définissant des images d'arrière-plan avec Aspose.PDF pour .NET. Ce guide présente des conseils de configuration, de mise en œuvre et d'optimisation.
 
+### [Compression d'images sans perte dans les documents Word – Guide complet](./lossless-image-compression-in-word-docs-complete-guide/)
+Apprenez à compresser des images dans les fichiers Word sans perte de qualité en utilisant Aspose.Words pour .NET.
+
 ## Ressources supplémentaires
 
 - [Aspose.PDF pour la documentation réseau](https://docs.aspose.com/pdf/net/)

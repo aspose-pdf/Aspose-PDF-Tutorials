@@ -35,6 +35,9 @@ Das Tutorial gibt Ihnen einen detaillierten Überblick über Methoden und Techni
 | [Mit Smartcard unterschreiben und dabei das Signaturfeld verwenden](./sign-with-smart-card-using-signature-field/) | Erfahren Sie, wie Sie PDFs mit Aspose.PDF für .NET sicher per Smartcard signieren. Folgen Sie unserer Schritt-für-Schritt-Anleitung für eine einfache Implementierung. |  
 | [PDF-Signaturen in C# prüfen – So lesen Sie signierte PDF-Dateien](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Signaturen auslesen und signierte PDF-Dateien analysieren. |
 | [PDF-Dateien reparieren – Vollständiger C#-Leitfaden mit Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Erfahren Sie, wie Sie beschädigte PDF-Dateien mit Aspose.PDF für .NET in C# reparieren und wiederherstellen. |  
+| [Wie man PDF überprüft – Vollständiger C#-Leitfaden für digitale Signaturen](./how-to-verify-pdf-complete-c-guide-for-digital-signatures/) | Erfahren Sie, wie Sie PDF-Dateien mit Aspose.PDF für .NET auf digitale Signaturen prüfen und verifizieren. |
+| [Wie man den Validator in C# verwendet – Vollständiger Leitfaden zur Überprüfung der Signaturgültigkeit](./how-to-use-validator-in-c-complete-guide-to-checking-signatu/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET den Validator einsetzen, um die Gültigkeit von Signaturen in PDFs zu prüfen. |
+| [Bates-Nummerierung PDF hinzufügen – Vollständiger C# Leitfaden mit Signatur und Konvertierung](./add-bates-numbering-pdf-complete-c-guide-with-signing-conver/) | Erfahren Sie, wie Sie PDFs mit Bates-Nummern versehen, digital signieren und in verschiedene Formate konvertieren – Schritt für Schritt mit Aspose.PDF für .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
