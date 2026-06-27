@@ -164,6 +164,12 @@ Naučte se, jak vykreslit složité LaTeX skripty do PDF dokumentů pomocí Aspo
 ### [Nastavení pozadí obrázků v PDF pomocí Aspose.PDF pro .NET: Komplexní průvodce](./aspose-pdf-net-set-image-backgrounds/)
 Naučte se, jak vylepšit své PDF dokumenty nastavením pozadí obrázků pomocí Aspose.PDF pro .NET. Tato příručka obsahuje tipy pro nastavení, implementaci a optimalizaci.
 
+### [Překrytí obrázků v PDF – přidání masky a povolení automatického výběru zásobníku](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+Naučte se, jak přidat masku a automaticky vybrat zásobník při překrývání obrázků v PDF pomocí Aspose.PDF pro .NET.
+
+### [Jak používat GraphicsAbsorber – Extrahovat vektorovou grafiku z PDF pomocí Aspose.Pdf](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
+Naučte se, jak pomocí GraphicsAbsorber extrahovat vektorovou grafiku z PDF souborů pomocí Aspose.Pdf.
+
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)

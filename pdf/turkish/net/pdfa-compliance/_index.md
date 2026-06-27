@@ -38,6 +38,9 @@ Aspose.PDF for .NET kullanarak standart PDF belgelerini sağlam PDF/X-4 formatı
 ### [C# ile .NET için Aspose.PDF kullanarak PDF/A Doğrulamada Ustalaşın](./master-pdfa-validation-aspose-pdf-net/)
 Aspose.PDF .NET kullanarak PDF belgelerini PDF/A standartlarına göre nasıl doğrulayacağınızı öğrenin. Adım adım kılavuzumuzla uyumluluğu sağlayın ve belge güvenilirliğini artırın.
 
+### [Aspose PDF'de ICC Ayarlama – Tam C# Kılavuzu](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
+Aspose PDF ile ICC profili ayarlamayı ve renk yönetimini C# kodu ile adım adım öğrenin.
+
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)

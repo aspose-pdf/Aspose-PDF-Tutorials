@@ -37,6 +37,7 @@ Aspose.PDF の .NET 向けドキュメント変換チュートリアルでは、
 | [PDFからPDFAへ](./pdf-to-pdfa/) このステップバイステップのチュートリアルで、Aspose.PDF for .NET を使用して PDF ファイルを PDF/A 形式に変換する方法を学習します。 |  
 | [PDFからPDFA3bへ](./pdf-to-pdfa3b/) このステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF ファイルを PDF/A-3B 形式に簡単に変換する方法を学習します。 |  
 | [PDFからPNGへのフォントヒント](./pdf-to-png-font-hinting/) Aspose.PDF for .NET を使用して、フォントヒント付きの PDF を PNG に変換する方法を簡単なステップバイステップ ガイドで学習します。 |  
+| [Aspose.Pdf で PDF 画像を作成 – ステップバイステップ ガイド](./create-pdf-image-with-aspose-pdf-step-by-step-guide/) Aspose.PDF for .NET を使用して、PDF に画像を埋め込む方法をステップバイステップで解説します。 |  
 | [PDFからPPTへ](./pdf-to-ppt/) Aspose.PDF for .NET を使って PDF を PPT に変換する方法をステップバイステップで解説します。簡単、効率的、そしてプレゼンテーションに最適です。 |  
 | [PDFからSVGへ](./pdf-to-svg/) Aspose.PDF for .NET を使用してPDFファイルをSVG形式に変換する方法をステップバイステップで学ぶチュートリアルです。開発者やデザイナーに最適です。 |  
 | [PDFからTeXへ](./pdf-to-tex/) Aspose.PDF for .NET を使用してPDFをTeXに変換する方法をステップバイステップで解説します。ドキュメント処理スキルの向上を目指す開発者に最適です。 |  
@@ -57,7 +58,9 @@ Aspose.PDF の .NET 向けドキュメント変換チュートリアルでは、
 | [XMLからPDFへの画像パスの設定](./xml-to-pdfset-image-path/) Aspose.PDF for .NET を使って、XML を PDF に簡単に変換する方法を学びましょう。この詳細なガイドでは、セットアップから完了まで、プロセスをステップごとに詳しく説明します。 |  
 | [XPSからPDFへ](./xps-to-pdf/) Aspose.PDF for .NET を使用してXPSファイルをPDFに変換する方法を、ステップバイステップのチュートリアルで学びましょう。開発者やドキュメント作成に興味のある方に最適です。 |  
 | [C#でPDFをPDF/X‑4に変換 – ステップバイステップ ASP.NET PDF チュートリアル](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) PDF を PDF/X‑4 形式に変換する方法を、C# と Aspose.PDF for .NET で学びます。 |  
+| [Aspose PDF フォーマット変換: C# で PDF を PDF/X‑4 に変換する](./aspose-pdf-format-conversion-convert-pdf-to-pdf-x-4-in-c/) C# と Aspose.PDF for .NET を使用して、PDF を PDF/X‑4 形式に変換する方法を学びます。 |  
 | [PDFからPNGへのチュートリアル – C#でPDFページをPNGに変換](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) Aspose.PDF for .NET を使用して、C#でPDFページをPNG画像に変換する方法をステップバイステップで解説します。 |  
+| [AsposeでPDFを変換する方法 – 完全ステップバイステップガイド](./how-to-convert-pdf-with-aspose-complete-step-by-step-guide/) Aspose.PDF for .NET を使用して、PDF をさまざまな形式に変換する完全な手順を解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

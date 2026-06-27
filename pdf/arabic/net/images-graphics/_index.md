@@ -164,6 +164,10 @@
 ### [تعيين خلفيات الصور في ملفات PDF باستخدام Aspose.PDF لـ .NET: دليل شامل](./aspose-pdf-net-set-image-backgrounds/)
 تعرّف على كيفية تحسين مستندات PDF الخاصة بك عن طريق تعيين خلفيات الصور باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل نصائح للإعداد والتنفيذ والتحسين.
 
+### [دليل تراكب الصور في PDF – إضافة قناع وتمكين اختيار الصينية تلقائيًا](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+
+### [كيفية استخدام GraphicsAbsorber – استخراج الرسومات المتجهة من PDF باستخدام Aspose.PDF لـ .NET](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

@@ -53,6 +53,9 @@ Tanuld meg, hogyan módosíthatod a PDF oldalak tájolását az Aspose.PDF for .
 ### [PDF oldalak kombinálása .NET-ben az Aspose.PDF segítségével: Teljes körű útmutató a MakeNUp elrendezésekhez](./combine-pdf-pages-aspose-net-make-nup/)
 Ismerd meg, hogyan szervezheted át a PDF oldalakat az Aspose.PDF for .NET használatával. Ez az útmutató a MakeNUp funkció beállítását, kódolását és gyakorlati alkalmazásait ismerteti.
 
+### [PDF rétegek egyesítése C#-ban – Hogyan kombináljunk PDF rétegeket](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+Ismerje meg, hogyan egyesítheti a PDF rétegeket C#-ban az Aspose.PDF for .NET segítségével, lépésről lépésre útmutatóval.
+
 ### [Átfogó útmutató a PDF felosztásához .NET-ben az Aspose.PDF használatával](./pdf-splitting-net-aspose-pdf-guide/)
 Tanulja meg, hogyan oszthatja fel PDF-fájlokat .NET-ben az Aspose.PDF használatával. Ez az útmutató a fájlfolyam-kezelést, az oldalfelosztási technikákat és a teljesítmény optimalizálását ismerteti a hatékony dokumentumkezelés érdekében.
 
@@ -240,7 +243,7 @@ Ismerje meg, hogyan kezelheti programozottan a PDF-eket .NET-ben az Aspose.PDF h
 Ismerje meg, hogyan automatizálhatja a PDF-feladatokat az Aspose.PDF for .NET használatával, beleértve a fájlok összefűzését, oldalak hozzáadását, szövegbélyegzők beszúrását és hivatkozások létrehozását.
 
 ### [PDF-manipuláció mestere az Aspose.PDF .NET segítségével: Dokumentumok egyszerű betöltése és módosítása](./mastering-pdf-manipulation-aspose-dotnet/)
-Tanuld meg, hogyan töltheted be, navigálhatsz és módosíthatod a PDF dokumentumokat a hatékony Aspose.PDF .NET könyvtár segítségével. Fejleszd alkalmazásaid még ma!
+Tanuld meg, hogyan töltheted be, navigálhatsz és módosíthasd a PDF dokumentumokat a hatékony Aspose.PDF .NET könyvtár segítségével. Fejleszd alkalmazásaid még ma!
 
 ### [PDF-manipuláció mestere az Aspose.PDF .NET segítségével: Betöltési, keresési és jegyzetelési útmutató](./aspose-pdf-dotnet-mastering-pdfs-manipulation-guide/)
 Tanuld meg elsajátítani a PDF-manipulációt az Aspose.PDF for .NET segítségével. Ez az útmutató a dokumentumok betöltését, a szövegkeresést és az olyan megjegyzések alkalmazását ismerteti, mint az áthúzás.

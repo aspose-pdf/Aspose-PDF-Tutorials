@@ -164,6 +164,9 @@ Ismerje meg, hogyan renderelhet összetett LaTeX szkripteket PDF dokumentumokká
 ### [Képhátterek beállítása PDF-ekben az Aspose.PDF for .NET használatával: Átfogó útmutató](./aspose-pdf-net-set-image-backgrounds/)
 Ismerje meg, hogyan javíthatja PDF-dokumentumait képhátterek beállításával az Aspose.PDF for .NET segítségével. Ez az útmutató a beállítással, a megvalósítással és az optimalizálással kapcsolatos tippeket tartalmazza.
 
+### [Képátfedés PDF oktatóanyag – maszk hozzáadása és automatikus tálca kiválasztás engedélyezése](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+Ismerje meg, hogyan helyezhet fel maszkot a PDF-re, és engedélyezheti az automatikus tálcaválasztást az Aspose.PDF for .NET segítségével.
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)

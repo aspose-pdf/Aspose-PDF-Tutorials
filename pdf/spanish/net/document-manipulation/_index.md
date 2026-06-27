@@ -179,6 +179,12 @@ Aprenda a combinar varios documentos PDF en un solo archivo de forma eficiente c
 ### [Cómo fusionar archivos PDF con Aspose.PDF para .NET: concatenación de secuencias y preservación de la estructura lógica](./merge-pdf-aspose-net-streams-structure/)
 Aprenda a concatenar archivos PDF con Aspose.PDF para .NET, preservando la estructura lógica para mayor accesibilidad. Esta guía abarca la concatenación de flujos, la optimización del rendimiento y aplicaciones prácticas.
 
+### [Cómo fusionar archivos PDF en .NET con Aspose.PDF: una guía completa](./merge-pdfs-net-aspose-pdf-tutorial/)
+Aprenda a combinar varios documentos PDF en un solo archivo de forma eficiente con Aspose.PDF para .NET. Esta guía ofrece instrucciones paso a paso, ejemplos de código y consejos para optimizar la gestión de documentos.
+
+### [Combinar capas PDF en C# – Cómo combinar capas PDF](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+Aprenda a combinar múltiples capas en un archivo PDF usando Aspose.PDF para .NET con C#.
+
 ### [Cómo prefijar nombres de clases CSS en archivos PDF con Aspose.PDF para .NET](./prefix-css-class-names-pdf-aspose-pdf-net/)
 Aprenda a convertir documentos PDF a HTML con prefijos de nombre de clase CSS personalizados usando Aspose.PDF para .NET. Garantice un estilo único y evite conflictos.
 
@@ -216,7 +222,7 @@ Aprenda a insertar páginas en un PDF con Aspose.PDF para .NET. Esta guía paso 
 Aprenda a insertar páginas en un PDF con Aspose.PDF para .NET con esta guía paso a paso. Optimice su flujo de trabajo documental.
 
 ### [Insertar una página vacía en un PDF con Aspose.PDF .NET: una guía completa](./aspose-pdf-net-insert-empty-page/)
-Aprenda a insertar páginas vacías en documentos PDF fácilmente con Aspose.PDF para .NET. Siga esta guía paso a paso para mejorar sus habilidades de manipulación de documentos.
+Aprenda a insertar páginas vacías en documentos PDF fácilmente con Aspose.PDF .NET. Siga esta guía paso a paso para mejorar sus habilidades de manipulación de documentos.
 
 ### [Domine el método MakeNUp de Aspose.PDF .NET para diseños PDF eficientes](./aspose-pdf-net-make-nup-method-pdf-layout/)
 Aprenda a reorganizar eficientemente varias páginas PDF en nuevos diseños con el método MakeNUp de Aspose.PDF .NET. Ideal para boletines, folletos e informes.
@@ -306,7 +312,7 @@ Aprenda a dividir un archivo PDF en páginas individuales con Aspose.PDF para .N
 Aprenda a dividir páginas PDF en archivos separados con Aspose.PDF para .NET. Esta guía completa incluye consejos de configuración, implementación y optimización.
 
 ### [Dividir y crear archivos PDF con Aspose.PDF .NET | Guía de manipulación de documentos](./split-create-pdf-aspose-pdf-net/)
-Aprenda a dividir archivos PDF de varias páginas y a crear nuevos archivos PDF con Aspose.PDF para .NET. Siga esta guía completa con ejemplos de código.
+Aprenda a dividir archivos PDF de varias páginas y a crear nuevos archivos PDF con Aspose.PDF .NET. Siga esta guía completa con ejemplos de código.
 
 ### [Guía definitiva para la manipulación de PDF con Aspose.PDF .NET: Carga, guarda y reemplaza texto de forma eficiente](./master-pdf-manipulation-aspose-pdf-net/)
 Aprenda a dominar la manipulación de PDF con Aspose.PDF para .NET. Esta guía explica cómo cargar, guardar y reemplazar texto en PDF, ideal para desarrolladores que buscan eficiencia.

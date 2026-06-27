@@ -47,6 +47,9 @@ Ein Code-Tutorial für Aspose.PDF Net
 ### [Effiziente PDF-Bildidentifizierung mit Aspose.PDF für .NET](./master-image-identification-aspose-pdf-net/)
 Erfahren Sie, wie Sie Graustufen- und RGB-Bilder in PDFs mit Aspose.PDF für .NET identifizieren. Dieses Tutorial behandelt Installation, Bildextraktion und Performance-Tipps.
 
+### [So verwenden Sie GraphicsAbsorber – Vektorgrafiken aus PDF mit Aspose.Pdf extrahieren](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
+Erfahren Sie, wie Sie mit Aspose.Pdf den GraphicsAbsorber einsetzen, um Vektorgrafiken aus PDF-Dateien zu extrahieren.
+
 ### [Konvertieren Sie Bildströme effizient in PDFs mit Aspose.PDF für .NET](./convert-image-stream-to-pdf-aspose-dotnet/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET Bildstreams in professionelle PDF-Dokumente konvertieren. Folgen Sie dieser Schritt-für-Schritt-Anleitung, um Ihre Dokumenten-Workflows zu verbessern.
 
@@ -77,7 +80,7 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET nahtlos Bilder zu Ihren PDF-Dokum
 ### [So fügen Sie mit Aspose.PDF für .NET Bilder zu PDFs hinzu: Eine vollständige Anleitung](./add-images-to-pdfs-using-aspose-pdf-net/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET nahtlos Bilder zu Ihren PDF-Dokumenten hinzufügen. Diese Schritt-für-Schritt-Anleitung behandelt Einrichtung, Implementierung und praktische Anwendungen.
 
-### [So fügen Sie mit Aspose.PDF für .NET Bilder zu PDFs hinzu: Eine Schritt-für-Schritt-Anleitung](./add-images-to-pdfs-aspose-pdf-net/)
+### [So fügen Sie mit Aspose.PDF für .NET Bilder zu PDFs hinzufügen: Eine Schritt-für-Schritt-Anleitung](./add-images-to-pdfs-aspose-pdf-net/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET nahtlos Bilder zu Ihren PDFs hinzufügen. Diese Anleitung beschreibt das Hinzufügen von Bildern zu vorhandenen PDFs und das Erstellen neuer Bilder aus DICOM-Dateien.
 
 ### [So fügen Sie mit Aspose.PDF für .NET einen Bildkopf zu PDFs hinzu: Eine Schritt-für-Schritt-Anleitung](./add-image-header-pdf-aspose-dotnet/)
@@ -163,6 +166,9 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET komplexe LaTeX-Skripte in PDF-Dok
 
 ### [Bildhintergründe in PDFs mit Aspose.PDF für .NET festlegen: Eine umfassende Anleitung](./aspose-pdf-net-set-image-backgrounds/)
 Erfahren Sie, wie Sie Ihre PDF-Dokumente mit Aspose.PDF für .NET durch die Einrichtung von Bildhintergründen optimieren. Diese Anleitung enthält Tipps zur Einrichtung, Implementierung und Optimierung.
+
+### [Bildüberlagerungs-PDF-Tutorial – Maske hinzufügen und automatische Tablettauswahl aktivieren](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET Masken überlagern und die automatische Tablettauswahl in PDFs aktivieren.
 
 ## Weitere Ressourcen
 

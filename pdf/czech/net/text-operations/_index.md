@@ -140,7 +140,10 @@ Naučte se, jak efektivně otáčet a upravovat text v PDF dokumentech pomocí A
 ### [Zvládněte vyhledávání textu v PDF pomocí regulárních výrazů pomocí Aspose.PDF .NET](./aspose-pdf-net-regex-text-search/)
 Výukový program pro kódování Aspose.PDF Net
 
-### [Zvládněte rotaci textu v PDF pomocí Aspose.PDF pro .NET: Kompletní průvodce](./rotate-text-pdf-aspose-dotnet/)
+### [Jak vyhledávat PDF pomocí Aspose.Pdf – Kompletní průvodce C#](./how-to-search-pdf-with-aspose-pdf-complete-c-guide/)
+Naučte se, jak vyhledávat text v PDF dokumentech pomocí Aspose.Pdf v C# s podrobným návodem a příklady kódu.
+
+### [Zvládnutí rotaci textu v PDF pomocí Aspose.PDF pro .NET: Kompletní průvodce](./rotate-text-pdf-aspose-dotnet/)
 Naučte se, jak otáčet text v PDF dokumentech pomocí Aspose.PDF pro .NET. Tato komplexní příručka zahrnuje nastavení, příklady kódu a praktické aplikace.
 
 ### [Zarovnání textu v plovoucích rámečcích PDF pomocí Aspose.PDF pro .NET](./align-text-pdf-floating-boxes-aspose-pdf-net/)

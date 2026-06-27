@@ -23,7 +23,7 @@ Bu eğitimler ayrıca anlamanızı ve öğrenmenizi kolaylaştırmak için ayrı
 | --- | --- | 
 | [Alana Araç İpucu Ekle](./add-tooltip-to-field/) | Bu adım adım kılavuzda Aspose.PDF for .NET kullanarak PDF belgelerindeki form alanlarına araç ipuçlarının nasıl ekleneceğini öğrenin. Kullanılabilirliği ve kullanıcı deneyimini geliştirin. |  
 | [Arapça Metin Doldurma](./arabic-text-filling/) | Bu adım adım eğitimle Aspose.PDF for .NET kullanarak PDF formlarına Arapça metinleri nasıl dolduracağınızı öğrenin. PDF düzenleme becerilerinizi geliştirin. |  
-| [Kombo Kutusu](./combo-box/) Aspose.PDF for .NET kullanarak bir PDF'ye Combo Box eklemeyi öğrenin. Etkileşimli PDF formlarını kolayca oluşturmak için adım adım kılavuzumuzu izleyin. |  
+| [Kombo Kutusu](./combo-box/) Aspose.PDF for .NET kullanarak bir PDF'ye Combo Box eklemeyi öğrenin. Etkileşimli PDF formlarını kolayca oluşturmak için adım adım kılavuzumuzu izleyin. |
 | [Belge Oluştur](./create-doc/) | Bu kapsamlı adım adım kılavuzda Aspose.PDF for .NET kullanarak radyo düğmeli etkileşimli PDF belgeleri oluşturmayı öğrenin.  
 | [PDF Belgesindeki Form Alanını Sil](./delete-form-field/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF belgelerindeki form alanlarını nasıl sileceğinizi öğrenin. Geliştiriciler ve PDF meraklıları için mükemmel. |  
 | [PDF Formunda Gerekli Alanı Belirleyin](./determine-required-field/) | .NET için Aspose.PDF kullanarak bir PDF formundaki zorunlu alanların nasıl belirleneceğini öğrenin. Adım adım kılavuzumuz form yönetimini basitleştirir ve PDF otomasyon iş akışınızı geliştirir. |  
@@ -51,6 +51,7 @@ Bu eğitimler ayrıca anlamanızı ve öğrenmenizi kolaylaştırmak için ayrı
 | [Radyo Düğmesi Başlığını Ayarla](./set-radio-button-caption/) Aspose.PDF for .NET kullanarak PDF'lerde radyo düğmesi başlıklarının nasıl ayarlanacağını öğrenin. Bu adım adım kılavuz, PDF formlarınızı yükleme, değiştirme ve kaydetme konusunda size yol gösterir. |  
 | [Metin Kutusu](./text-box/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF'lere metin kutularını zahmetsizce nasıl ekleyeceğinizi keşfedin. Kullanıcı etkileşimini geliştirin. |  
 | [Aspose ile PDF Oluşturma – Form Alanı ve Sayfalar Ekle](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Aspose.PDF for .NET kullanarak PDF'e form alanı eklemeyi ve sayfalar eklemeyi adım adım öğrenin. |  
+| [C# ile PDF'ye FDF İçe Aktarma – Tam Adım Adım Kılavuz](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Aspose.PDF for .NET kullanarak C# ile FDF dosyasını PDF'ye nasıl aktaracağınızı adım adım öğrenin. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
