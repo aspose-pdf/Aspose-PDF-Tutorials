@@ -1,0 +1,7 @@
+Title: Compare PDF Documents with Aspose.Pdf – Complete Visual Diff Guide
+Slug: compare-pdf-documents-with-aspose-pdf-complete-visual-diff-g
+Category: advanced-features
+ProcessedDate: 2026-06-27T23:32:20.167490
+SourceRepo: AI Search API
+Keywords: compare pdf documents, compare two pdfs, visual pdf diff, save pdf diff, pdf visual comparison
+PRNumber: 96
