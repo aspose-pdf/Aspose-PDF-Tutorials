@@ -1,0 +1,7 @@
+Title: Aspose PDF format conversion: Convert PDF to PDF/X‑4 in C#
+Slug: aspose-pdf-format-conversion-convert-pdf-to-pdf-x-4-in-c
+Category: document-conversion
+ProcessedDate: 2026-06-27T23:32:04.883707
+SourceRepo: AI Search API
+Keywords: aspose pdf format conversion, convert pdf to pdf/x-4
+PRNumber: 96
