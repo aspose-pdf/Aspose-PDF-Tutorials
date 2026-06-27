@@ -45,6 +45,7 @@ Hướng dẫn "Lập trình với PDF được gắn thẻ" của Aspose.PDF ch
 | [Các thành phần cấu trúc văn bản trong tệp PDF](./text-structure-elements/) Học cách thao tác các thành phần cấu trúc văn bản trong PDF với Aspose.PDF cho .NET. Hướng dẫn từng bước này bao gồm mọi thứ bạn cần để tạo PDF có cấu trúc. |  
 | [Xác thực tệp PDF](./validate-pdf/) | Tìm hiểu cách xác thực tệp PDF bằng Aspose.PDF cho .NET. Kiểm tra xem tệp có tuân thủ các tiêu chuẩn hay không và tạo báo cáo xác thực. |  
 | [Tạo PDF được gắn thẻ trong C# – Hướng dẫn chi tiết từng bước](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Học cách tạo PDF được gắn thẻ trong C# bằng Aspose.PDF cho .NET qua hướng dẫn chi tiết từng bước. |  
+| [Cách gắn thẻ PDF với Aspose.Pdf – Hướng dẫn lập trình đầy đủ](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | Học cách gắn thẻ PDF bằng Aspose.Pdf trong hướng dẫn lập trình chi tiết từng bước. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

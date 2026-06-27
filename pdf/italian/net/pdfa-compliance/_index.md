@@ -38,6 +38,9 @@ Scopri come convalidare la conformità PDF/A-1a utilizzando Aspose.PDF per .NET.
 ### [Padroneggiare la convalida PDF/A utilizzando Aspose.PDF per .NET in C#](./master-pdfa-validation-aspose-pdf-net/)
 Scopri come convalidare i documenti PDF secondo gli standard PDF/A utilizzando Aspose.PDF .NET. Garantisci la conformità e migliora l'affidabilità dei documenti con la nostra guida passo passo.
 
+### [Come impostare ICC in Aspose PDF – Guida completa C#](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
+Scopri come impostare il profilo ICC nei PDF usando Aspose.PDF con esempi di codice C# completi.
+
 ## Risorse aggiuntive
 
 - [Aspose.PDF per la documentazione di rete](https://docs.aspose.com/pdf/net/)

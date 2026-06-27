@@ -20,6 +20,9 @@
 ### [使用 Aspose.PDF for .NET 為 PDF 新增圖像圖章：逐步指南](./add-image-stamp-to-pdf-aspose-dotnet/)
 了解如何使用 Aspose.PDF for .NET 將圖像印章（例如標誌）無縫添加到 PDF 的每一頁。透過專業品牌來增強您的文件。
 
+### [圖像覆疊 PDF 教學 – 添加遮罩並啟用自動托盤選擇](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+了解如何在 PDF 中覆疊圖像、添加遮罩並啟用自動托盤選擇，以提升文件處理效率。
+
 ### [使用 Aspose.PDF for .NET 將影像新增至 PDF：逐步指南](./adding-images-aspose-pdf-net-guide/)
 透過本詳細指南了解如何使用 Aspose.PDF for .NET 將影像新增至 PDF 文件。透過掌握 XImage 集合和矩陣轉換來增強您的報告和小冊子。
 
@@ -78,7 +81,7 @@ Aspose.PDF Net 程式碼教學
 了解如何使用 Aspose.PDF for .NET 將影像無縫地新增至您的 PDF 文件。本逐步指南涵蓋設定、實施和實際應用。
 
 ### [如何使用 Aspose.PDF for .NET 將影像新增至 PDF：逐步指南](./add-images-to-pdfs-aspose-pdf-net/)
-了解如何使用 Aspose.PDF for .NET 將影像無縫地新增至您的 PDF。本指南介紹如何為現有 PDF 新增影像以及如何從 DICOM 檔案建立新影像。
+了解如何使用 Aspose.PDF for .NET 將影像無縫地新增至 PDF。本指南介紹如何為現有 PDF 新增影像以及如何從 DICOM 檔案建立新影像。
 
 ### [如何使用 Aspose.PDF for .NET 為 PDF 新增影像頁首：逐步指南](./add-image-header-pdf-aspose-dotnet/)
 透過本全面的逐步指南了解如何使用 Aspose.PDF for .NET 將影像標題新增至 PDF 文件。
@@ -163,6 +166,9 @@ Aspose.PDF Net 程式碼教學
 
 ### [使用 Aspose.Pdf for .NET 設定 PDF 中的影像背景：綜合指南](./aspose-pdf-net-set-image-backgrounds/)
 了解如何使用 Aspose.PDF for .NET 設定影像背景來增強您的 PDF 文件。本指南涵蓋設定、實作和優化技巧。
+
+### [如何使用 GraphicsAbsorber – 使用 Aspose.PDF 從 PDF 提取向量圖形](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
+了解如何利用 Aspose.PDF 的 GraphicsAbsorber 從 PDF 文件中擷取向量圖形，並將其保存或進一步處理。
 
 ## 其他資源
 

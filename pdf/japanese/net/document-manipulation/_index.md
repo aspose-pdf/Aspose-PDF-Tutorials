@@ -311,6 +311,9 @@ Aspose.PDF for .NET を使用して、複数ページのPDFを分割し、新し
 ### [Aspose.PDF .NET による PDF 操作の究極ガイド: テキストを効率的に読み込み、保存し、置換する](./master-pdf-manipulation-aspose-pdf-net/)
 Aspose.PDF for .NET を使って PDF 操作をマスターする方法を学びましょう。このガイドでは、PDF 内のテキストの読み込み、保存、置換について解説しており、効率性を重視する開発者に最適です。
 
+### [C# で PDF レイヤーを結合する – PDF レイヤーの結合方法](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+Aspose.PDF for .NET を使用して、PDF ドキュメント内の複数レイヤーを統合し、単一のレイヤーにまとめる方法を学びます。
+
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)

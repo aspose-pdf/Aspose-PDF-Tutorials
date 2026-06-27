@@ -308,6 +308,9 @@ Leer hoe u PDF-pagina's kunt splitsen in afzonderlijke bestanden met Aspose.PDF 
 ### [PDF-bestanden splitsen en maken met Aspose.PDF .NET | Handleiding voor documentmanipulatie](./split-create-pdf-aspose-pdf-net/)
 Leer hoe u PDF's met meerdere pagina's kunt splitsen en nieuwe PDF-bestanden kunt maken met Aspose.PDF voor .NET. Volg deze uitgebreide handleiding met codevoorbeelden.
 
+### [PDF-lagen samenvoegen in C# – Hoe PDF-lagen combineren](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+Leer hoe u met Aspose.PDF voor .NET PDF-lagen kunt combineren in C# voor geavanceerde documentstructuren.
+
 ### [Ultieme gids voor PDF-manipulatie met Aspose.PDF .NET: tekst efficiënt laden, opslaan en vervangen](./master-pdf-manipulation-aspose-pdf-net/)
 Leer hoe je PDF-bewerking onder de knie krijgt met Aspose.PDF voor .NET. Deze handleiding behandelt het laden, opslaan en vervangen van tekst in PDF's, ideaal voor ontwikkelaars die op zoek zijn naar efficiëntie.
 

@@ -65,6 +65,12 @@
 ### [كيفية مقارنة ملفات PDF في C# – دليل كامل لإنشاء فرق PDF](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 تعرف على كيفية مقارنة ملفات PDF في C# وإنشاء فرق PDF باستخدام Aspose.PDF بسهولة ودقة.
 
+### [مقارنة مستندات PDF باستخدام Aspose.Pdf – دليل كامل للفرق البصري](./compare-pdf-documents-with-aspose-pdf-complete-visual-diff-g/)
+اكتشف طريقة مقارنة مستندات PDF وإنشاء فرق بصري كامل باستخدام Aspose.Pdf في بيئة .NET.
+
+### [مقارنة مستندين PDF – دليل كامل بلغة C#](./compare-two-pdf-documents-complete-c-guide/)
+تعرف على كيفية مقارنة مستندين PDF باستخدام C# وإنشاء فرق شامل باستخدام Aspose.PDF.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

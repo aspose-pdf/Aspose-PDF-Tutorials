@@ -38,6 +38,9 @@ Erfahren Sie, wie Sie die PDF/A-1a-Konformität mit Aspose.PDF für .NET validie
 ### [PDF/A-Validierung mit Aspose.PDF für .NET in C# meistern](./master-pdfa-validation-aspose-pdf-net/)
 Erfahren Sie, wie Sie PDF-Dokumente mit Aspose.PDF .NET anhand von PDF/A-Standards validieren. Stellen Sie die Konformität sicher und verbessern Sie die Dokumentenzuverlässigkeit mit unserer Schritt-für-Schritt-Anleitung.
 
+### [Wie man ICC in Aspose PDF einstellt – Vollständige C#‑Anleitung](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
+Erfahren Sie, wie Sie ICC-Profile in Aspose PDF mit C# setzen, um Farbmanagement und PDF/A‑Konformität zu gewährleisten.
+
 ## Weitere Ressourcen
 
 - [Aspose.PDF für Net-Dokumentation](https://docs.aspose.com/pdf/net/)

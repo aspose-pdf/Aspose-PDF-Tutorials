@@ -38,6 +38,9 @@
 ### [การตรวจสอบ PDF/A แบบมืออาชีพโดยใช้ Aspose.PDF สำหรับ .NET ใน C#](./master-pdfa-validation-aspose-pdf-net/)
 เรียนรู้วิธีการตรวจสอบเอกสาร PDF ตามมาตรฐาน PDF/A โดยใช้ Aspose.PDF .NET รับรองความสอดคล้องและเพิ่มความน่าเชื่อถือของเอกสารด้วยคู่มือทีละขั้นตอนของเรา
 
+### [วิธีตั้งค่า ICC ใน Aspose PDF – คู่มือ C# ฉบับสมบูรณ์](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
+คู่มือขั้นตอนเต็มสำหรับการตั้งค่า ICC ใน Aspose.PDF ด้วย C#
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)

@@ -65,6 +65,12 @@ Naučte se vytvářet přístupné, stylizované a tagované PDF dokumenty pomoc
 ### [Jak porovnat PDF v C# – Kompletní průvodce generováním PDF rozdílů](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 Naučte se, jak porovnat PDF soubory v C# a generovat rozdíly PDF pomocí Aspose.PDF.
 
+### [Porovnejte PDF dokumenty pomocí Aspose.Pdf – Kompletní vizuální průvodce](./compare-pdf-documents-with-aspose-pdf-complete-visual-diff-g/)
+Naučte se, jak porovnat PDF soubory a vizuálně zobrazit rozdíly pomocí Aspose.Pdf v C#.
+
+### [Porovnejte dva PDF dokumenty – Kompletní průvodce C#](./compare-two-pdf-documents-complete-c-guide/)
+Naučte se porovnat dva PDF dokumenty v C# a zobrazit rozdíly pomocí Aspose.PDF.
+
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)

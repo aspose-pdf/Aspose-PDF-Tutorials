@@ -27,7 +27,7 @@ Pelajari cara menambahkan nomor halaman menggunakan Aspose.PDF untuk .NET dengan
 Pelajari cara menghapus semua teks dari dokumen PDF secara efisien menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah ini dengan contoh kode dan kiat performa.
 
 ### [Membuat & Memutar Teks dalam PDF Menggunakan Aspose.PDF .NET: Panduan Lengkap untuk Pengembang](./create-rotate-text-aspose-pdf-net/)
-Pelajari cara membuat dan memutar teks dalam dokumen PDF menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup inisialisasi, konfigurasi teks, dan tata letak kreatif dengan C#.
+Pelajari cara membuat dan memutar teks dalam dokumen PDF menggunakan Aspose.PDF .NET. Panduan ini mencakup inisialisasi, konfigurasi teks, dan tata letak kreatif dengan C#.
 
 ### [Membuat PDF Teks Indentasi di .NET Menggunakan Aspose.PDF](./create-indented-text-pdfs-net-aspose-pdf/)
 Tutorial kode untuk Aspose.PDF Net
@@ -103,6 +103,9 @@ Kuasai rotasi teks dalam PDF dengan Aspose.PDF untuk .NET menggunakan panduan le
 
 ### [Kuasai Aspose.PDF untuk .NET: Buka dan Cari Dokumen PDF Secara Efisien](./aspose-pdf-net-open-search-pdfs/)
 Pelajari cara menggunakan Aspose.PDF untuk .NET guna membuka dan mencari dokumen PDF. Panduan ini mencakup pengaturan, pencarian teks di halaman tertentu, dan aplikasi praktis.
+
+### [Cara Mencari PDF dengan Aspose.Pdf – Panduan Lengkap C#](./how-to-search-pdf-with-aspose-pdf-complete-c-guide/)
+Pelajari cara mencari teks dalam file PDF menggunakan Aspose.Pdf dengan contoh kode C# lengkap dan langkah-langkah praktis.
 
 ### [Kuasai Penghentian Tab Kustom dalam PDF Menggunakan Aspose.PDF untuk .NET: Panduan Lengkap](./master-custom-tab-stops-aspose-pdf-net/)
 Pelajari cara menguasai penghentian tab khusus dalam dokumen PDF menggunakan Aspose.PDF untuk .NET, yang akan meningkatkan keterampilan pemformatan dokumen dan presentasi Anda.

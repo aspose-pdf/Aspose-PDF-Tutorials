@@ -164,6 +164,9 @@ Leer hoe u complexe LaTeX-scripts kunt omzetten in PDF-documenten met Aspose.PDF
 ### [Afbeeldingsachtergronden instellen in PDF's met Aspose.PDF voor .NET: een uitgebreide handleiding](./aspose-pdf-net-set-image-backgrounds/)
 Leer hoe u uw PDF-documenten kunt verbeteren door afbeeldingsachtergronden in te stellen met Aspose.PDF voor .NET. Deze handleiding behandelt tips voor installatie, implementatie en optimalisatie.
 
+### [Afbeeldingsoverlay in PDF – masker toevoegen en automatische lade-selectie inschakelen](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+Leer hoe u een afbeeldingsoverlay met masker toevoegt en automatische lade-selectie activeert in PDF's met Aspose.PDF voor .NET.
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

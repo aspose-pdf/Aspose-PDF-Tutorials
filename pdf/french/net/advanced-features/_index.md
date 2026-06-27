@@ -65,6 +65,12 @@ Apprenez à créer des documents PDF balisés, accessibles et stylisés avec Asp
 ### [Comment comparer des PDF en C# – Guide complet pour générer un diff PDF](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 Apprenez à comparer deux documents PDF en C# et à générer un fichier de différences PDF avec Aspose.PDF.
 
+### [Comparer des documents PDF avec Aspose.Pdf – Guide complet de diff visuel](./compare-pdf-documents-with-aspose-pdf-complete-visual-diff-g/)
+Apprenez à comparer visuellement des documents PDF et à générer un diff complet avec Aspose.Pdf.
+
+### [Comparer deux documents PDF – Guide complet C#](./compare-two-pdf-documents-complete-c-guide/)
+Apprenez à comparer deux fichiers PDF en C# et à générer un rapport de différences complet avec Aspose.PDF.
+
 ## Ressources supplémentaires
 
 - [Aspose.PDF pour la documentation réseau](https://docs.aspose.com/pdf/net/)

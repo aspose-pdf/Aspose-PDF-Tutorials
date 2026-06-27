@@ -65,6 +65,12 @@
 ### [Как сравнивать PDF в C# — Полное руководство по генерации различий PDF](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 Узнайте, как сравнивать PDF-файлы в C# и генерировать отчет о различиях с помощью Aspose.PDF.
 
+### [Сравнение двух PDF-документов — Полное руководство на C#](./compare-two-pdf-documents-complete-c-guide/)
+Узнайте, как сравнивать два PDF-файла и получать подробный отчет о различиях с помощью Aspose.PDF в C#.
+
+### [Сравнение PDF-документов с Aspose.Pdf – Полное руководство по визуальному сравнению](./compare-pdf-documents-with-aspose-pdf-complete-visual-diff-g/)
+Узнайте, как сравнивать PDF-документы и визуально отображать различия с помощью Aspose.Pdf.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.PDF для сети](https://docs.aspose.com/pdf/net/)

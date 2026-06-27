@@ -62,7 +62,11 @@ PDF/UA-1 मानक के अनुसार सुलभ PDF दस्ता
 ### [Aspose.PDF .NET के साथ सुलभ PDF निर्माण में महारत हासिल करना: स्टाइल्ड टेबल्स के साथ टैग किए गए PDF तैयार करना](./aspose-pdf-net-tagged-pdfs-styled-tables/)
 
 ### [C# में PDFs की तुलना कैसे करें – PDF डिफ़ जेनरेट करने का पूर्ण गाइड](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
-C# में Aspose.PDF का उपयोग करके दो PDF फ़ाइलों की तुलना करने और अंतर (डिफ) उत्पन्न करने की पूरी प्रक्रिया सीखें।
+
+### [Aspose.Pdf के साथ PDF दस्तावेज़ों की तुलना – पूर्ण विज़ुअल डिफ़ गाइड](./compare-pdf-documents-with-aspose-pdf-complete-visual-diff-g/)
+C# में Aspose.Pdf का उपयोग करके दो PDF फ़ाइलों की तुलना करें और विज़ुअल डिफ़ उत्पन्न करें।
+
+### [दो PDF दस्तावेज़ों की तुलना – पूर्ण C# गाइड](./compare-two-pdf-documents-complete-c-guide/)
 
 ## अतिरिक्त संसाधन
 

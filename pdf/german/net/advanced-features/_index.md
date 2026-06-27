@@ -65,6 +65,12 @@ Lernen Sie, mit Aspose.PDF für .NET barrierefreie, formatierte und getaggte PDF
 ### [So vergleichen Sie PDFs in C# – Vollständige Anleitung zur Generierung von PDF-Differenzen](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDFs vergleichen und Unterschiede (Diff) programmatisch ermitteln.
 
+### [So vergleichen Sie zwei PDF-Dokumente – Vollständiger C#‑Leitfaden](./compare-two-pdf-documents-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET zwei PDF-Dokumente vergleichen und Unterschiede programmatisch ermitteln.
+
+### [PDF-Dokumente vergleichen mit Aspose.Pdf – Vollständige visuelle Diff-Anleitung](./compare-pdf-documents-with-aspose-pdf-complete-visual-diff-g/)
+Erfahren Sie, wie Sie PDF-Dokumente visuell vergleichen und Unterschiede programmatisch ermitteln.
+
 ## Weitere Ressourcen
 
 - [Aspose.PDF für Net-Dokumentation](https://docs.aspose.com/pdf/net/)

@@ -53,6 +53,9 @@ Apprenez à modifier l'orientation des pages PDF avec Aspose.PDF pour .NET. Ce g
 ### [Combiner des pages PDF dans .NET avec Aspose.PDF : Guide complet des mises en page MakeNUp](./combine-pdf-pages-aspose-net-make-nup/)
 Apprenez à réorganiser des pages PDF avec Aspose.PDF pour .NET. Ce guide couvre la configuration, le codage et les applications pratiques de la fonctionnalité MakeNUp.
 
+### [Fusionner les calques PDF en C# – Comment combiner les calques PDF](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+Découvrez comment fusionner les calques d'un PDF en C# avec Aspose.PDF pour .NET.
+
 ### [Guide complet sur le fractionnement de PDF dans .NET avec Aspose.PDF](./pdf-splitting-net-aspose-pdf-guide/)
 Apprenez à fractionner des fichiers PDF dans .NET avec Aspose.PDF. Ce guide couvre la gestion des flux de fichiers, les techniques de fractionnement de pages et l'optimisation des performances pour une gestion efficace des documents.
 
@@ -306,7 +309,7 @@ Apprenez à diviser un fichier PDF en pages individuelles avec Aspose.PDF pour .
 Apprenez à diviser des pages PDF en fichiers distincts avec Aspose.PDF pour .NET. Ce guide complet couvre la configuration, la mise en œuvre et l'optimisation.
 
 ### [Diviser et créer des fichiers PDF avec Aspose.PDF .NET | Guide de manipulation de documents](./split-create-pdf-aspose-pdf-net/)
-Apprenez à fractionner des PDF multipages et à créer de nouveaux fichiers PDF avec Aspose.PDF pour .NET. Suivez ce guide complet avec des exemples de code.
+Apprenez à fractionner des PDF multipages et à créer de nouveaux fichiers PDF avec Aspose.PDF .NET. Suivez ce guide complet avec des exemples de code.
 
 ### [Guide ultime de manipulation de PDF avec Aspose.PDF .NET : charger, enregistrer et remplacer du texte efficacement](./master-pdf-manipulation-aspose-pdf-net/)
 Apprenez à maîtriser la manipulation des PDF avec Aspose.PDF pour .NET. Ce guide couvre le chargement, l'enregistrement et le remplacement de texte dans les PDF, idéal pour les développeurs en quête d'efficacité.

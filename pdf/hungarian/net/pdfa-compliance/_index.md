@@ -38,6 +38,9 @@ Ismerje meg, hogyan validálhatja a PDF/A-1a megfelelőséget az Aspose.PDF for 
 ### [PDF/A mesterszintű validáció Aspose.PDF használatával .NET-hez C#-ban](./master-pdfa-validation-aspose-pdf-net/)
 Ismerje meg, hogyan validálhatja a PDF dokumentumokat a PDF/A szabványoknak megfelelően az Aspose.PDF .NET használatával. Lépésről lépésre útmutatónkkal biztosíthatja a megfelelőséget és növelheti a dokumentumok megbízhatóságát.
 
+### [Hogyan állítsuk be az ICC-t az Aspose PDF-ben – Teljes C# útmutató](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
+Ismerje meg, hogyan állíthatja be az ICC színprofilt az Aspose PDF-ben C# nyelven, a teljes útmutató segítségével.
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)

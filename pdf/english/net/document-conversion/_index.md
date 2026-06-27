@@ -24,6 +24,7 @@ You'll learn how to specify conversion settings, extract text and images, retain
 | [Add Attachment to PDFA](./add-attachment-to-pdfa/) | Learn how to add attachments to a PDF/A document using Aspose.PDF for .NET with this step-by-step guide. |  
 | [CGM To PDF Files](./cgm-to-pdf/) | Learn how to convert CGM files to PDF using Aspose.PDF for .NET with this step-by-step guide. Perfect for developers and designers alike. |  
 | [Convert PDF to PDF/X‑4 in C# – Step‑by‑Step ASP.NET PDF Tutorial](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Learn how to convert PDF to PDF/X‑4 using Aspose.PDF for .NET in this step‑by‑step ASP.NET tutorial. |
+| [Aspose PDF format conversion: Convert PDF to PDF/X‑4 in C#](./aspose-pdf-format-conversion-convert-pdf-to-pdf-x-4-in-c/) | Step‑by‑step guide to convert PDF to PDF/X‑4 in C# using Aspose.PDF for .NET. |
 | [EPUB To PDF](./epub-to-pdf/) | Learn how to convert EPUB to PDF using Aspose.PDF for .NET with this step-by-step guide. Easy, efficient, and perfect for all users. |  
 | [Get SVG Dimensions](./get-svg-dimensions/) | Learn how to use Aspose.PDF for .NET to convert SVG files to PDF with this step-by-step guide. Perfect for developers looking to manipulate PDFs. |  
 | [HTML To PDF](./html-to-pdf/) | Learn how to convert HTML to PDF using Aspose.PDF for .NET with this comprehensive step-by-step guide. |  
@@ -58,6 +59,8 @@ You'll learn how to specify conversion settings, extract text and images, retain
 | [XML To PDF](./xml-to-pdf/) | Learn how to convert XML to PDF using Aspose.PDF for .NET in this comprehensive step-by-step tutorial, complete with code examples and detailed explanations. |  
 | [XML To PDFSet Image Path](./xml-to-pdfset-image-path/) | Learn how to effortlessly convert XML to PDF using Aspose.PDF for .NET. This detailed guide walks you through the process step by step, from setup to completion. |  
 | [XPS To PDF](./xps-to-pdf/) | Learn how to convert XPS files to PDF using Aspose.PDF for .NET with this step-by-step tutorial. Perfect for developers and document enthusiasts. |  
+| [Create PDF Image with Aspose.Pdf – Step‑by‑Step Guide](./create-pdf-image-with-aspose-pdf-step-by-step-guide/) | Learn how to create a PDF image using Aspose.PDF for .NET with this step‑by‑step guide. |
+| [How to Convert PDF with Aspose – Complete Step‑by‑Step Guide](./how-to-convert-pdf-with-aspose-complete-step-by-step-guide/) | Learn how to convert PDFs using Aspose.PDF for .NET with this comprehensive step‑by‑step guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
