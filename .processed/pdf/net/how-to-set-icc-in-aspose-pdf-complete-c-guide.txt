@@ -1,0 +1,7 @@
+Title: how to set icc in Aspose PDF – Complete C# Guide
+Slug: how-to-set-icc-in-aspose-pdf-complete-c-guide
+Category: pdfa-compliance
+ProcessedDate: 2026-06-27T23:32:08.631803
+SourceRepo: AI Search API
+Keywords: how to set icc, apply icc profile, aspose pdf conversion, load pdf c#, output intent pdf
+PRNumber: 96
