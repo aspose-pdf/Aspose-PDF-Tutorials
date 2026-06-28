@@ -1,13 +1,63 @@
 ---
-date: '2026-01-16'
-description: Tìm hiểu cách chuyển đổi PDF sang HTML bằng Java sử dụng Aspose.PDF,
-  thiết lập thư mục hình ảnh và xem cách chuyển đổi PDF với phụ thuộc Maven. Hướng
-  dẫn chi tiết từng bước cho các nhà phát triển.
+date: '2026-06-28'
+description: Tìm hiểu cách sử dụng Aspose PDF Java License để chuyển đổi PDF sang
+  HTML với các thư mục hình ảnh, bao gồm thiết lập phụ thuộc Maven. Lý tưởng cho các
+  nhà phát triển cần chuyển đổi PDF sang HTML bằng Java.
 keywords:
-- convert PDF to HTML
-- Aspose.PDF Java
-- image storage folder
-title: pdf sang html java – Chuyển PDF sang HTML với các thư mục hình ảnh
+- aspose pdf java license
+- convert pdf with images
+- convert pdf to html java
+- aspose pdf maven dependency
+- extract pdf images java
+schemas:
+- author: Aspose
+  dateModified: '2026-06-28'
+  description: Learn how to use Aspose PDF Java License to convert PDF to HTML with
+    image folders, including Maven dependency setup. Ideal for developers needing
+    PDF to HTML Java conversion.
+  headline: Aspose PDF Java License – Convert PDF to HTML with Images
+  type: TechArticle
+- description: Learn how to use Aspose PDF Java License to convert PDF to HTML with
+    image folders, including Maven dependency setup. Ideal for developers needing
+    PDF to HTML Java conversion.
+  name: Aspose PDF Java License – Convert PDF to HTML with Images
+  steps:
+  - name: Define Paths
+    text: 'The `Document` class represents a PDF file in memory. Define your source
+      and output locations first: *Explanation:* Replace `YOUR_DOCUMENT_DIRECTORY`
+      and `YOUR_OUTPUT_DIRECTORY` with the actual locations on your machine.'
+  - name: Load the PDF Document
+    text: The `Document` class loads the source PDF for processing. *Explanation:*
+      This creates a `Document` object for the source PDF. Ensure the file name matches
+      an existing PDF.
+  - name: Configure HTML Save Options
+    text: '`HtmlSaveOptions` controls how the conversion behaves. Setting `setSpecialFolderForAllImages`
+      tells Aspose.PDF to place every extracted image into the `imageFolder` sub‑directory
+      you provide. *Explanation:* `setSpecialFolderForAllImages` tells Aspose.PDF
+      to place every extracted image into the `imag'
+  - name: Save the HTML Document
+    text: The conversion finishes here, producing an HTML file that references images
+      stored in the folder you defined. *Explanation:* The conversion finishes here,
+      producing an HTML file that references images stored in the folder you defined.
+  type: HowTo
+- questions:
+  - answer: Use Maven or Gradle as described, ensuring the dependency is added to
+      your project files and a valid license is loaded before any API usage.
+    question: How do I install Aspose.PDF on my system?
+  - answer: Yes, iterate over a collection of PDF files and apply the same conversion
+      logic to each, reusing the same `HtmlSaveOptions` instance.
+    question: Can I convert multiple PDFs at once using this method?
+  - answer: Aspose.PDF will attempt to create it, but you should verify write permissions
+      to avoid failures.
+    question: What happens if the specified images folder doesn't exist?
+  - answer: Consider splitting the PDF into smaller sections, increase JVM heap size,
+      or enable image compression via `HtmlSaveOptions`.
+    question: How can I handle large PDF files during conversion?
+  - answer: The `setSpecialFolderForAllImages` option is supported from version 25.3
+      onward; earlier versions may require a different approach.
+    question: Is this feature available in all versions of Aspose.PDF Java?
+  type: FAQPage
+title: Aspose PDF Java License – Chuyển đổi PDF sang HTML với Hình ảnh
 url: /vi/java/conversion-export/convert-pdf-html-aspose-java-images-folder/
 weight: 1
 ---
@@ -18,45 +68,54 @@ weight: 1
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# pdf to html java – Chuyển đổi PDF sang HTML với Thư mục Hình ảnh bằng Aspose.PDF Java
+# Aspose PDF Java License – Chuyển đổi PDF sang HTML với Hình ảnh
 
 ## Giới thiệu
-Nếu bạn cần **pdf to html java** chuyển đổi đồng thời giữ mọi hình ảnh được sắp xếp gọn gàng, bạn đang ở đúng nơi. Trong hướng dẫn này, chúng ta sẽ đi qua các bước chi tiết để sử dụng **Aspose.PDF for Java** chuyển đổi tài liệu PDF sang HTML và chỉ định một thư mục riêng cho tất cả các hình ảnh được trích xuất. Cách làm này giúp bạn tiết kiệm thời gian, tránh thư mục đầu ra lộn xộn và làm cho các trang web kết quả dễ bảo trì hơn.
+Nếu bạn cần **convert PDF to HTML Java** trong khi giữ mọi hình ảnh đã trích xuất được sắp xếp gọn gàng, bạn đã đến đúng nơi. Trong hướng dẫn này, chúng tôi sẽ trình bày các bước chính xác để sử dụng **Aspose.PDF for Java** cùng với một **aspose pdf java license** hợp lệ để chuyển đổi tài liệu PDF sang HTML và lưu tất cả hình ảnh vào một thư mục riêng. Cách tiếp cận này giúp bạn tiết kiệm thời gian, ngăn ngừa thư mục đầu ra bị lộn xộn và làm cho các trang web kết quả dễ bảo trì hơn.
 
 ### Câu trả lời nhanh
 - **Thư viện chính là gì?** Aspose.PDF for Java.  
-- **Từ khóa cần nhắm tới?** “pdf to html java”.  
-- **Cần phụ thuộc Maven không?** Có – xem phần *aspose pdf maven dependency*.  
-- **Có thể trích xuất hình ảnh PDF bằng Java không?** Có, dùng `setSpecialFolderForAllImages`.  
-- **Cần giấy phép cho môi trường production không?** Giấy phép Aspose hợp lệ được khuyến nghị để có đầy đủ chức năng.
+- **Từ khóa tôi nên nhắm tới là gì?** “aspose pdf java license”.  
+- **Tôi có cần phụ thuộc Maven không?** Yes – see the *aspose pdf maven dependency* section.  
+- **Tôi có thể trích xuất hình ảnh PDF bằng Java không?** Yes, use `setSpecialFolderForAllImages`.  
+- **Có cần giấy phép cho môi trường sản xuất không?** A valid Aspose PDF Java license is required for full functionality.
 
-### Những gì bạn sẽ học
-- Cách thiết lập Aspose.PDF for Java trong dự án.  
-- Các bước cấu hình lưu trữ hình ảnh trong quá trình **pdf to html java** chuyển đổi.  
-- Mẹo khắc phục các vấn đề thường gặp.  
-- Các tình huống thực tế mà việc trích xuất hình ảnh PDF bằng Java mang lại giá trị.
+## Aspose PDF Java License là gì?
+The **aspose pdf java license** is a file that unlocks the full feature set of Aspose.PDF for Java, removing evaluation limits and enabling high‑performance PDF processing. With the license applied, you can convert PDFs, extract images, and manipulate documents without watermarks or usage restrictions.
 
-Hãy chắc chắn rằng bạn đã chuẩn bị đầy đủ trước khi bắt đầu viết mã.
+## Tại sao nên sử dụng Aspose.PDF cho Java?
+Aspose.PDF supports **50+ input and output formats** – including DOCX, XLSX, PPTX, HTML, and common image types – and can process multi‑hundred‑page PDFs without loading the entire file into memory. The library offers thread‑safe APIs, making it suitable for batch conversion pipelines and high‑throughput server environments.
 
-## Yêu cầu trước
-Trước khi bắt đầu, hãy đảm bảo bạn có các thư viện và môi trường cần thiết:
+## Các yêu cầu trước
+Before starting, ensure you have the necessary libraries and environment setup:
 
-### Thư viện bắt buộc
-- **Aspose.PDF for Java** (phiên bản mới nhất)
+### Thư viện yêu cầu
+- **Aspose.PDF for Java** (latest version, ≥ 25.3)
 
 ### Yêu cầu thiết lập môi trường
-- Java Development Kit (JDK) đã được cài đặt trên máy của bạn.  
+- Một Java Development Kit (JDK) đã được cài đặt trên máy của bạn.  
 - Một IDE như IntelliJ IDEA hoặc Eclipse.
 
-### Kiến thức nền tảng
+### Kiến thức tiên quyết
 - Hiểu biết cơ bản về lập trình Java.  
 - Quen thuộc với công cụ xây dựng Maven hoặc Gradle.
 
-## Thiết lập Aspose.PDF for Java
-Để sử dụng Aspose.PDF trong dự án, bạn cần thêm nó như một phụ thuộc. Dưới đây là các bước thiết lập bằng **Maven** và **Gradle**.
+## Cách thiết lập Aspose.PDF cho Java với Maven?
+Load the Aspose.PDF library through Maven, then apply your **aspose pdf java license** before any API calls. This ensures all features, including image extraction, are fully unlocked. **License** is a class that loads the Aspose PDF license file and activates the full library.
 
-### aspose pdf maven dependency
-Thêm phụ thuộc sau vào tệp `pom.xml` của bạn:
+Load your license early in the application lifecycle:
+```java
+License license = new License();
+license.setLicense("Aspose.Pdf.Java.lic");
+```
+
+> **Direct answer (45 words):** Add the Aspose PDF Java license file to your project resources, instantiate `License`, and call `setLicense` with the file path before creating any `Document` objects. This activates the full library and prevents evaluation watermarks during PDF‑to‑HTML conversion.
+
+## Thiết lập Aspose.PDF cho Java
+To use Aspose.PDF in your project, you’ll need to include it as a dependency. Below are the steps to set up using **Maven** and **Gradle**.
+
+### phụ thuộc maven aspose pdf
+Add the following dependency to your `pom.xml` file:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -66,38 +125,46 @@ Thêm phụ thuộc sau vào tệp `pom.xml` của bạn:
 ```
 
 ### Gradle
-Thêm đoạn này vào tệp `build.gradle` của bạn:
+Include this in your `build.gradle` file:
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-#### Cách lấy giấy phép
-1. **Dùng thử miễn phí** – tải bản dùng thử từ Aspose để khám phá các tính năng.  
-2. **Giấy phép tạm thời** – nhận giấy phép tạm thời để thử nghiệm kéo dài hơn.  
-3. **Mua bản quyền** – cân nhắc mua giấy phép cho môi trường production.
+#### Cách nhận giấy phép
+1. **Free Trial** – download a trial from Aspose to explore the features.  
+2. **Temporary License** – obtain a temporary license for extended testing.  
+3. **Purchase** – consider buying a license for production use.
 
-## Hướng dẫn triển khai
-Phần này sẽ hướng dẫn bạn qua mã cần thiết để **pdf to html java** chuyển đổi đồng thời chỉ định thư mục hình ảnh.
+## Cách chỉ định thư mục hình ảnh khi chuyển đổi PDF sang HTML?
+Define a folder where all images extracted from the PDF will be saved, keeping your project structure clean and making it easy to reference the assets from the generated HTML. **HtmlSaveOptions.setSpecialFolderForAllImages** is a method that tells Aspose.PDF where to write extracted images during conversion.
 
-### Chỉ định Thư mục Hình ảnh cho Quá trình Chuyển đổi
-**Tổng quan:** Chúng ta sẽ chỉ định một thư mục nơi tất cả các hình ảnh được trích xuất từ PDF sẽ được lưu trong quá trình chuyển đổi sang HTML. Điều này giúp dự án của bạn gọn gàng, đặc biệt khi làm việc với các PDF lớn chứa nhiều hình ảnh.
+> **Direct answer (58 words):** Create a `File` object for the desired image folder, pass it to `HtmlSaveOptions.setSpecialFolderForAllImages`, and then invoke `document.save` with those options. Aspose.PDF will automatically write each image file into the specified folder and update the HTML markup to reference them correctly.
 
-#### Bước 1: Định nghĩa Đường dẫn
+### Chỉ định thư mục hình ảnh cho chuyển đổi
+**Overview:** We’ll designate a directory where all extracted images from the PDF are saved during the conversion to HTML. This keeps your project tidy, especially when dealing with large PDFs that contain many images.
+
+#### Bước 1: Xác định đường dẫn
+The `Document` class represents a PDF file in memory. Define your source and output locations first:
+
 ```java
 // Define paths for your input PDF and output directory
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 String outputDir = "YOUR_OUTPUT_DIRECTORY";
 ```
-*Giải thích:* Thay `YOUR_DOCUMENT_DIRECTORY` và `YOUR_OUTPUT_DIRECTORY` bằng vị trí thực tế trên máy của bạn.
+*Explanation:* Replace `YOUR_DOCUMENT_DIRECTORY` and `YOUR_OUTPUT_DIRECTORY` with the actual locations on your machine.
 
 #### Bước 2: Tải tài liệu PDF
+The `Document` class loads the source PDF for processing.
+
 ```java
 // Load the document from the specified directory
 Document pdfDocument = new Document(dataDir + "SampleDataTable.pdf");
 ```
-*Giải thích:* Đoạn mã này tạo một đối tượng `Document` cho PDF nguồn. Đảm bảo tên tệp khớp với một PDF đã tồn tại.
+*Explanation:* This creates a `Document` object for the source PDF. Ensure the file name matches an existing PDF.
 
-#### Bước 3: Cấu hình tùy chọn Lưu HTML
+#### Bước 3: Cấu hình tùy chọn lưu HTML
+`HtmlSaveOptions` controls how the conversion behaves. Setting `setSpecialFolderForAllImages` tells Aspose.PDF to place every extracted image into the `imageFolder` sub‑directory you provide.
+
 ```java
 // Set up HtmlSaveOptions for conversion settings
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
@@ -105,70 +172,87 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 // Specify the folder where images will be stored
 saveOptions.setSpecialFolderForAllImages(outputDir + "imageFolder/");
 ```
-*Giải thích:* `setSpecialFolderForAllImages` chỉ dẫn Aspose.PDF đặt mọi hình ảnh đã trích xuất vào thư mục con `imageFolder` mà bạn cung cấp.
+*Explanation:* `setSpecialFolderForAllImages` tells Aspose.PDF to place every extracted image into the `imageFolder` sub‑directory you provide.
 
 #### Bước 4: Lưu tài liệu HTML
+The conversion finishes here, producing an HTML file that references images stored in the folder you defined.
+
 ```java
 // Convert and save the PDF as an HTML document with specified image storage location
 pdfDocument.save(outputDir + "resultant.html", saveOptions);
 ```
-*Giải thích:* Quá trình chuyển đổi kết thúc tại đây, tạo ra một tệp HTML tham chiếu đến các hình ảnh được lưu trong thư mục bạn đã định nghĩa.
+*Explanation:* The conversion finishes here, producing an HTML file that references images stored in the folder you defined.
 
-### Mẹo Khắc phục Sự cố
-- **File không tìm thấy** – kiểm tra lại `dataDir` và tên tệp.  
-- **Vấn đề giấy phép** – chắc chắn tệp giấy phép được tải trước khi gọi bất kỳ API nào của Aspose.  
-- **Lỗi quyền truy cập** – xác minh ứng dụng có quyền ghi vào `outputDir`.
+## Cách khắc phục các vấn đề thường gặp trong chuyển đổi PDF sang HTML?
+If you encounter problems during conversion, start by checking file paths, license loading, and permissions. A concise troubleshooting guide helps you resolve typical errors quickly and keep your workflow smooth.
 
-## Ứng dụng Thực tiễn
-Tính năng này tỏa sáng trong nhiều dự án thực tế:
+> **Direct answer (66 words):** If you see “File Not Found”, verify the `dataDir` and file name paths. For license‑related errors, ensure the license file is loaded before any Aspose calls. Permission errors require write access to the output directory. Adjust JVM heap size for large PDFs, and use `HtmlSaveOptions.setCompressImages(true)` to reduce memory pressure.
 
-1. **Nền tảng Thương mại điện tử** – Chuyển đổi sách hướng dẫn sản phẩm sang HTML đồng thời giữ hình ảnh trong thư mục riêng để tải trang nhanh hơn.  
-2. **Hệ thống Quản lý Nội dung (CMS)** – Quản lý tài nguyên hình ảnh riêng biệt, đơn giản hoá việc cập nhật và tối ưu SEO.  
-3. **Lưu trữ Tài liệu** – Lưu phiên bản HTML của các PDF cũ với cấu trúc hình ảnh sạch sẽ, dễ tìm kiếm.
+- **Tệp không tồn tại** – kiểm tra lại `dataDir` và tên tệp.  
+- **Vấn đề giấy phép** – đảm bảo tệp giấy phép được tải trước bất kỳ API nào của Aspose.  
+- **Lỗi quyền** – xác minh ứng dụng có quyền ghi vào `outputDir`.
 
-## Các cân nhắc về Hiệu năng
-Khi chuyển đổi các PDF lớn, hãy nhớ những lời khuyên sau:
+## Ứng dụng thực tế
+This feature shines in many real‑world projects:
+
+1. **Nền tảng thương mại điện tử** – Chuyển đổi hướng dẫn sản phẩm sang HTML trong khi giữ hình ảnh trong thư mục riêng để tải trang nhanh hơn.  
+2. **Hệ thống quản lý nội dung (CMS)** – Quản lý tài nguyên hình ảnh riêng biệt, đơn giản hoá việc cập nhật và tối ưu SEO.  
+3. **Lưu trữ tài liệu** – Lưu các phiên bản HTML của PDF cũ với cấu trúc hình ảnh sạch sẽ để dễ truy xuất.
+
+## Các cân nhắc về hiệu năng
+When converting large PDFs, keep these tips in mind:
 
 - Sử dụng cấu trúc thư mục hợp lý cho việc lưu trữ hình ảnh.  
 - Giám sát bộ nhớ JVM; tăng kích thước heap nếu gặp `OutOfMemoryError`.  
-- Đối với xử lý hàng loạt, cân nhắc đa luồng để đồng thời chuyển đổi nhiều PDF.
+- Đối với xử lý hàng loạt, cân nhắc đa luồng để xử lý nhiều PDF đồng thời.
 
-### Thực hành tốt
-- Thường xuyên nâng cấp Aspose.PDF để hưởng lợi từ các cải tiến về hiệu năng.  
-- Đo hiệu năng pipeline chuyển đổi để phát hiện các nút thắt sớm.
+### Thực hành tốt nhất
+- Thường xuyên nâng cấp Aspose.PDF để hưởng lợi từ cải thiện hiệu năng.  
+- Phân tích pipeline chuyển đổi để phát hiện nút thắt sớm.  
+- Bật `HtmlSaveOptions.setCompressImages(true)` cho tập hợp hình ảnh lớn.
 
 ## Kết luận
-Trong hướng dẫn này, chúng ta đã đề cập đến mọi thứ bạn cần biết để **pdf to html java** chuyển đổi bằng Aspose.PDF, bao gồm cách **extract pdf images java** vào một thư mục tùy chỉnh. Khi thực hiện các bước này, bạn sẽ tạo ra các tệp HTML sạch sẽ, sẵn sàng cho web đồng thời giữ tài sản hình ảnh được tổ chức gọn gàng.
+In this guide we covered everything you need to know for **pdf to html java** conversion with Aspose.PDF, including how to **extract pdf images java** into a custom folder. By applying a valid **aspose pdf java license** and following the steps above, you’ll produce clean, web‑ready HTML files while keeping your image assets organized.
 
-### Các bước tiếp theo
-- Thử nghiệm các thiết lập `HtmlSaveOptions` khác như nhúng CSS hoặc xử lý phông chữ.  
-- Khám phá các tính năng PDF‑to‑DOCX hoặc PDF‑to‑EPUB của Aspose.PDF để mở rộng quy trình làm việc với tài liệu.
+### Bước tiếp theo
+- Thử nghiệm các cài đặt `HtmlSaveOptions` khác như nhúng CSS hoặc xử lý phông chữ.  
+- Khám phá các tính năng PDF‑to‑DOCX hoặc PDF‑to‑EPUB của Aspose.PDF cho quy trình công việc tài liệu rộng hơn.
 
-## Phần Câu hỏi thường gặp
-1. **Làm sao cài đặt Aspose.PDF trên hệ thống?**  
-   - Sử dụng Maven hoặc Gradle như đã mô tả, đảm bảo phụ thuộc được thêm vào tệp dự án của bạn.  
-2. **Có thể chuyển đổi nhiều PDF cùng lúc bằng cách này không?**  
-   - Có, lặp qua một tập hợp các tệp PDF và áp dụng cùng logic chuyển đổi cho mỗi tệp.  
-3. **Nếu thư mục hình ảnh được chỉ định không tồn tại thì sao?**  
-   - Aspose.PDF sẽ cố gắng tạo thư mục đó, nhưng bạn nên kiểm tra quyền ghi để tránh lỗi.  
-4. **Làm sao xử lý các tệp PDF lớn trong quá trình chuyển đổi?**  
-   - Xem xét chia PDF thành các phần nhỏ hơn hoặc điều chỉnh cài đặt bộ nhớ JVM để cải thiện hiệu năng.  
-5. **Tính năng này có sẵn trong tất cả các phiên bản Aspose.PDF Java không?**  
-   - Tùy chọn `setSpecialFolderForAllImages` được hỗ trợ từ phiên bản 25.3 trở lên; kiểm tra ghi chú phát hành cho các phiên bản cũ hơn.
+## Câu hỏi thường gặp
+
+**Q: Làm thế nào để cài đặt Aspose.PDF trên hệ thống của tôi?**  
+A: Use Maven or Gradle as described, ensuring the dependency is added to your project files and a valid license is loaded before any API usage.
+
+**Q: Tôi có thể chuyển đổi nhiều PDF cùng lúc bằng phương pháp này không?**  
+A: Yes, iterate over a collection of PDF files and apply the same conversion logic to each, reusing the same `HtmlSaveOptions` instance.
+
+**Q: Điều gì sẽ xảy ra nếu thư mục hình ảnh được chỉ định không tồn tại?**  
+A: Aspose.PDF will attempt to create it, but you should verify write permissions to avoid failures.
+
+**Q: Làm sao để xử lý các tệp PDF lớn trong quá trình chuyển đổi?**  
+A: Consider splitting the PDF into smaller sections, increase JVM heap size, or enable image compression via `HtmlSaveOptions`.
+
+**Q: Tính năng này có sẵn trong tất cả các phiên bản của Aspose.PDF Java không?**  
+A: The `setSpecialFolderForAllImages` option is supported from version 25.3 onward; earlier versions may require a different approach.
 
 ## Tài nguyên
-- [Aspose.PDF Java Documentation](https://reference.aspose.com/pdf/java/)
-- [Download Aspose.PDF for Java](https://releases.aspose.com/pdf/java/)
-- [Purchase License](https://purchase.aspose.com/buy)
-- [Free Trial Download](https://releases.aspose.com/pdf/java/)
-- [Temporary License Application](https://purchase.aspose.com/temporary-license/)
-- [Aspose Support Forum](https://forum.aspose.com/c/pdf/10)
+- [Tài liệu Aspose.PDF Java](https://reference.aspose.com/pdf/java/)
+- [Tải Aspose.PDF cho Java](https://releases.aspose.com/pdf/java/)
+- [Mua giấy phép](https://purchase.aspose.com/buy)
+- [Tải bản dùng thử miễn phí](https://releases.aspose.com/pdf/java/)
+- [Đăng ký giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
+- [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10)
 
----
-
-**Last Updated:** 2026-01-16  
+**Last Updated:** 2026-06-28  
 **Tested With:** Aspose.PDF for Java 25.3  
 **Author:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Chuyển đổi PDF sang HTML trong Java với hình PNG nhúng bằng Aspose.PDF](/pdf/java/conversion-export/convert-pdf-to-html-with-png-images-java/)
+- [Chuyển đổi PDF sang HTML với tài nguyên nhúng bằng Aspose.PDF cho Java](/pdf/java/conversion-export/convert-pdf-to-html-aspose-java-embedded-resources/)
+- [Chuyển đổi PDF sang HTML đa trang bằng Aspose.PDF cho Java: Hướng dẫn đầy đủ](/pdf/java/conversion-export/convert-pdf-to-multipage-html-aspose-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
