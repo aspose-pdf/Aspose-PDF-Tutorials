@@ -78,6 +78,8 @@ En kodhandledning för Aspose.PDF Net
 Lär dig hur du skapar ett PDF-dokument, lägger till en sida och former samt sparar det med Aspose.PDF för .NET.
 ### [Skapa PDF-dokument med Aspose.PDF – Steg‑för‑steg‑guide](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 Lär dig hur du skapar PDF-dokument med Aspose.PDF i en steg‑för‑steg‑guide.
+### [Skapa PDF-dokument med Aspose.Pdf – Fullständig steg‑för‑steg‑guide](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+Lär dig hur du skapar ett PDF-dokument med Aspose.Pdf genom en komplett steg‑för‑steg‑guide.
 
 ## Ytterligare resurser
 

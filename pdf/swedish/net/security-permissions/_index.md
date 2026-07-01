@@ -62,6 +62,9 @@ Lär dig hur du implementerar säkra digitala signaturer och verifiering för PD
 ### [Mastering PDF-redigering med Aspose.PDF .NET: En omfattande guide för säker dokumenthantering](./mastering-pdf-redaction-aspose-pdf-net-guide/)
 Lär dig hur du säkert redigerar PDF-filer med Aspose.PDF .NET. Den här guiden behandlar annoteringsbaserade metoder och fasadmetoder, vilket säkerställer att dina dokument förblir kompatibla.
 
+### [Hur man röjer PDF med Aspose.Pdf – Komplett steg‑för‑steg‑guide](./how-to-redact-pdf-with-aspose-pdf-complete-step-by-step-guid/)
+Lär dig hur du säkert raderar känslig information i PDF-dokument med Aspose.Pdf i en komplett steg‑för‑steg‑guide.
+
 ### [Lås upp och dekryptera PDF-filer med Aspose.PDF för .NET: En komplett guide](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 Lär dig hur du låser upp och dekrypterar skyddade PDF-filer med Aspose.PDF för .NET i C#. Den här guiden behandlar installation, dekrypteringssteg och bästa praxis.
 

@@ -68,6 +68,9 @@ Aprenda a convertir archivos PDF a HTML con Aspose.PDF para .NET mediante la sal
 ### [Convertir PDF a HTML en .NET usando Aspose.PDF sin guardar imágenes](./convert-pdf-html-net-asposepdf-no-images/)
 Aprenda a convertir archivos PDF a HTML con Aspose.PDF para .NET sin guardar las imágenes por separado. Mantenga la integridad del diseño con nuestra guía detallada.
 
+### [Guardar PDF sin imágenes – Convertir PDF a HTML con Aspose](./save-pdf-without-images-convert-pdf-to-html-with-aspose/)
+Aprenda a convertir PDFs a HTML sin guardar imágenes, reduciendo el tamaño del archivo y preservando la estructura del documento.
+
 ### [Convierta PDF a HTML en .NET con rutas de imagen personalizadas usando Aspose.PDF](./convert-pdf-html-custom-image-paths-dotnet/)
 Aprenda a convertir archivos PDF a formato HTML con Aspose.PDF para .NET y personalice las rutas de las imágenes de forma eficiente. Ideal para la integración web.
 
@@ -82,6 +85,9 @@ Aprenda a convertir documentos PDF a formato HTML utilizando Aspose.PDF para .NE
 
 ### [Convierta PDF a PNG con Aspose.PDF .NET: mejore la representación nítida del texto](./convert-pdf-png-aspose-net-font-hinting/)
 Aprenda a convertir documentos PDF en imágenes PNG de alta calidad utilizando Aspose.PDF .NET, garantizando una representación nítida del texto mediante sugerencias de fuentes.
+
+### [Convertir PDF a PNG – Guía completa de Aspose.PDF](./convert-pdf-page-to-png-complete-aspose-pdf-guide/)
+Aprenda a convertir páginas PDF en imágenes PNG de alta calidad con Aspose.PDF .NET paso a paso.
 
 ### [Convertir PDF a PPTX con Aspose.PDF para .NET: guía paso a paso](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 Aprenda a convertir documentos PDF en presentaciones de PowerPoint de forma eficiente con Aspose.PDF para .NET. Esta guía paso a paso abarca la conversión básica, funciones avanzadas como diapositivas de imágenes y seguimiento del progreso.

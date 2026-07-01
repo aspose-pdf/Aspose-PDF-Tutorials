@@ -74,8 +74,11 @@
 ### [Создание PDF‑документа с Aspose.PDF – пошаговое руководство](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 Узнайте, как создавать PDF‑документы с помощью Aspose.PDF, следуя пошаговым инструкциям.
 
-### [Создание PDF-документа с Aspose.PDF – добавить страницу, форму и сохранить](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
+### [Создание PDF‑документа с Aspose.PDF – добавить страницу, форму и сохранить](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Узнайте, как добавить страницу, форму и сохранить PDF-документ с помощью Aspose.PDF для .NET.
+
+### [Создание PDF‑документа с Aspose.Pdf – полное пошаговое руководство](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+Узнайте, как создавать PDF‑документы с помощью Aspose.Pdf, следуя полному пошаговому руководству.
 
 ## Дополнительные ресурсы
 

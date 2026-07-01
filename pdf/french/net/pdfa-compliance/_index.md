@@ -32,6 +32,9 @@ Découvrez comment créer des documents PDF balisés accessibles et valider leur
 ### [Comment convertir des fichiers PDF en PDF/X-4 avec Aspose.PDF pour .NET : guide étape par étape](./convert-pdfs-to-pdf-x4-aspose-dotnet-guide/)
 Découvrez comment convertir des documents PDF standard au format PDF/X-4 robuste avec Aspose.PDF pour .NET. Ce guide couvre la configuration, la mise en œuvre et le dépannage.
 
+### [Convertir un PDF en PDF/X-1A – Comment créer un document PDF/X-1A](./convert-pdf-to-pdf-x-1a-how-to-create-pdf-x-1a-document/)
+Apprenez à convertir des fichiers PDF en PDF/X-1A conforme, en suivant les étapes de création d'un document PDF/X-1A avec Aspose.PDF .NET.
+
 ### [Comment valider PDF/A-1a avec Aspose.PDF pour .NET : guide complet](./validate-pdf-a-1a-aspose-pdf-dotnet/)
 Découvrez comment valider la conformité PDF/A-1a avec Aspose.PDF pour .NET. Ce guide propose des instructions étape par étape, des exemples de code et des conseils d'intégration.
 
