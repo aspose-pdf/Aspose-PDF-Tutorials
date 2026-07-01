@@ -1,0 +1,7 @@
+Title: Create PDF Document with Aspose.Pdf – Full Step‑by‑Step Guide
+Slug: create-pdf-document-with-aspose-pdf-full-step-by-step-guide
+Category: document-creation
+ProcessedDate: 2026-07-01T02:50:33.998960
+SourceRepo: AI Search API
+Keywords: create pdf document, add page to pdf, draw rectangle pdf, save pdf file, how to draw rectangle
+PRNumber: 98
