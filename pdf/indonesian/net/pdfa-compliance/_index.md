@@ -32,6 +32,9 @@ Pelajari cara membuat dokumen PDF bertag yang dapat diakses dan memvalidasi kepa
 ### [Cara Mengonversi PDF ke PDF/X-4 Menggunakan Aspose.PDF untuk .NET: Panduan Langkah demi Langkah](./convert-pdfs-to-pdf-x4-aspose-dotnet-guide/)
 Pelajari cara mengonversi dokumen PDF standar ke format PDF/X-4 yang tangguh menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup penyiapan, penerapan, dan pemecahan masalah.
 
+### [Konversi PDF ke PDF/X-1A – Cara Membuat Dokumen PDF/X-1A](./convert-pdf-to-pdf-x-1a-how-to-create-pdf-x-1a-document/)
+Pelajari cara mengonversi PDF ke format PDF/X-1A menggunakan Aspose.PDF untuk .NET, lengkap dengan langkah-langkah dan contoh kode.
+
 ### [Cara Memvalidasi PDF/A-1a dengan Aspose.PDF untuk .NET: Panduan Lengkap](./validate-pdf-a-1a-aspose-pdf-dotnet/)
 Pelajari cara memvalidasi kepatuhan PDF/A-1a menggunakan Aspose.PDF untuk .NET. Panduan ini menawarkan petunjuk langkah demi langkah, contoh kode, dan kiat integrasi.
 

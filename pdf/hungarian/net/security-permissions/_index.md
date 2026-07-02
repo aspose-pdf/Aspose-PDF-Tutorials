@@ -62,6 +62,9 @@ Ismerje meg, hogyan valósíthat meg biztonságos digitális aláírásokat és 
 ### [PDF-szerkesztés elsajátítása az Aspose.PDF .NET segítségével: Átfogó útmutató a biztonságos dokumentumkezeléshez](./mastering-pdf-redaction-aspose-pdf-net-guide/)
 Ismerje meg, hogyan szerkesztheti biztonságosan a PDF-fájlokat az Aspose.PDF .NET használatával. Ez az útmutató annotációalapú és előnézeti megközelítéseket ismertet, biztosítva, hogy dokumentumai továbbra is megfelelőek maradjanak.
 
+### [PDF kitakarása az Aspose.Pdf segítségével – Teljes lépésről‑lépésre útmutató](./how-to-redact-pdf-with-aspose-pdf-complete-step-by-step-guid/)
+Ismerje meg, hogyan végezhet el PDF kitakarást az Aspose.Pdf használatával részletes, lépésről‑lépésre útmutatóval.
+
 ### [PDF fájlok feloldása és visszafejtése az Aspose.PDF for .NET segítségével: Teljes körű útmutató](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 Ismerje meg, hogyan oldhatja fel és dekódolhatja vissza a védett PDF-fájlokat az Aspose.PDF for .NET segítségével C#-ban. Ez az útmutató a beállítást, a dekódolás lépéseit és a bevált gyakorlatokat ismerteti.
 

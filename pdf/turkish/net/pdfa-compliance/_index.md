@@ -32,6 +32,9 @@ Aspose.PDF for .NET kullanarak erişilebilir etiketli PDF belgelerinin nasıl ol
 ### [Aspose.PDF for .NET Kullanarak PDF'leri PDF/X-4'e Nasıl Dönüştürebilirsiniz: Adım Adım Kılavuz](./convert-pdfs-to-pdf-x4-aspose-dotnet-guide/)
 Aspose.PDF for .NET kullanarak standart PDF belgelerini sağlam PDF/X-4 formatına nasıl dönüştüreceğinizi öğrenin. Bu kılavuz kurulum, uygulama ve sorun gidermeyi kapsar.
 
+### [Aspose.PDF for .NET Kullanarak PDF'leri PDF/X-1A'ya Dönüştür – PDF/X-1A Belgesi Nasıl Oluşturulur](./convert-pdf-to-pdf-x-1a-how-to-create-pdf-x-1a-document/)
+Aspose.PDF for .NET kullanarak PDF dosyalarını PDF/X-1A formatına nasıl dönüştüreceğinizi ve uyumlu belge oluşturmayı öğrenin.
+
 ### [.NET için Aspose.PDF ile PDF/A-1a Nasıl Doğrulanır: Kapsamlı Bir Kılavuz](./validate-pdf-a-1a-aspose-pdf-dotnet/)
 .NET için Aspose.PDF kullanarak PDF/A-1a uyumluluğunu nasıl doğrulayacağınızı öğrenin. Bu kılavuz adım adım talimatlar, kod örnekleri ve entegrasyon ipuçları sunar.
 

@@ -24,7 +24,8 @@ Hướng dẫn "Lập trình với tem và hình mờ" của Aspose.PDF dành ch
 | [Thêm hình ảnh đóng dấu vào tệp PDF](./add-image-stamp/) | Tìm hiểu cách thêm dấu hình ảnh vào tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước và mã ví dụ. |  
 | [Thêm các tiêu đề khác nhau vào tệp PDF](./adding-different-headers/) | Tìm hiểu cách thêm các tiêu đề khác nhau vào tệp PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước để tùy chỉnh tệp PDF của bạn. |  
 | [Thêm Con Dấu Trang PDF Vào Tệp PDF](./add-pdf-page-stamp/) | Tìm hiểu cách thêm tem trang PDF bằng Aspose.PDF cho .NET với hướng dẫn chi tiết này. Tăng cường tác động của tài liệu PDF của bạn. |  
-| [Thêm Dấu Văn Bản Vào Tệp PDF](./add-text-stamp/) | Tìm hiểu cách thêm dấu văn bản vào tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước của chúng tôi và nâng cao khả năng trình bày tài liệu của bạn. |  
+| [Thêm Dấu Văn Bản Vào Tệp PDF](./add-text-stamp/) | Tìm hiểu cách thêm dấu văn bản vào tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước của chúng tôi và nâng cao khả năng trình bày tài liệu của bạn. |
+| [Cách thêm tem PDF – Hướng dẫn chi tiết với văn bản tự động điều chỉnh](./how-to-add-stamp-pdf-complete-guide-with-auto-fit-text/) | Hướng dẫn chi tiết cách thêm tem vào PDF và tự động điều chỉnh kích thước văn bản để phù hợp. |
 | [Đếm hiện vật trong tệp PDF](./counting-artifacts/) Tìm hiểu cách đếm hình mờ trong PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước dành cho người mới bắt đầu không cần kinh nghiệm trước đó. |  
 | [Xác định căn chỉnh trong tệp PDF](./define-alignment/) | Hướng dẫn này trình bày cách xác định căn chỉnh văn bản trong tệp PDF bằng Aspose.PDF cho .NET, kèm theo hướng dẫn từng bước. |  
 | [Trích xuất văn bản từ chú thích tem](./extract-text-from-stamp-annotation/) | Tìm hiểu cách trích xuất văn bản từ chú thích tem trong PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này, kèm theo ví dụ mã chi tiết. |  

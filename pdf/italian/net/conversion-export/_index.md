@@ -53,6 +53,9 @@ Un tutorial sul codice per Aspose.PDF Net
 ### [Convertire le pagine PDF in PNG con Aspose.PDF .NET: una guida completa](./convert-pdf-pages-to-png-aspose-net/)
 Scopri come convertire le pagine PDF in immagini PNG di alta qualità utilizzando Aspose.PDF per .NET. Segui questa guida passo passo per automatizzare il processo di conversione in modo efficiente.
 
+### [Convertire pagina PDF in PNG – Guida completa Aspose.PDF](./convert-pdf-page-to-png-complete-aspose-pdf-guide/)
+Scopri come convertire singole pagine PDF in immagini PNG di alta qualità con Aspose.PDF .NET, passo passo con esempi di codice.
+
 ### [Convertire PDF in BMP utilizzando Aspose.PDF per .NET: una guida passo passo](./convert-pdf-to-bmp-aspose-pdf-net/)
 Scopri come convertire le pagine PDF in immagini BMP di alta qualità utilizzando Aspose.PDF per .NET con questa guida completa.
 
@@ -67,6 +70,9 @@ Scopri come convertire i file PDF in HTML con Aspose.PDF per .NET utilizzando l'
 
 ### [Converti PDF in HTML in .NET utilizzando Aspose.PDF senza salvare le immagini](./convert-pdf-html-net-asposepdf-no-images/)
 Scopri come convertire i file PDF in HTML utilizzando Aspose.PDF per .NET senza salvare le immagini separatamente. Mantieni l'integrità del layout con la nostra guida dettagliata.
+
+### [Salva PDF senza immagini – Converti PDF in HTML con Aspose](./save-pdf-without-images-convert-pdf-to-html-with-aspose/)
+Scopri come salvare PDF senza includere le immagini convertendoli in HTML con Aspose, riducendo le dimensioni del file.
 
 ### [Converti PDF in HTML in .NET con percorsi immagine personalizzati utilizzando Aspose.PDF](./convert-pdf-html-custom-image-paths-dotnet/)
 Scopri come convertire i file PDF in formato HTML utilizzando Aspose.PDF per .NET e personalizzare i percorsi delle immagini in modo efficiente. Ideale per l'integrazione web.
@@ -141,7 +147,7 @@ Scopri come ritagliare aree specifiche di una pagina PDF e convertirle in immagi
 Scopri come esportare in modo efficiente i dati dalle applicazioni in PDF utilizzando Aspose.PDF per .NET. Questa guida illustra la configurazione, esempi di codice in C# e le funzionalità principali.
 
 ### [Esportare annotazioni PDF con Aspose.PDF .NET: una guida completa](./export-annotations-aspose-pdf-net/)
-Scopri come esportare in modo efficiente annotazioni da PDF utilizzando Aspose.PDF per .NET. Questa guida illustra configurazione, implementazione e best practice.
+Scopri come esportare in modo efficiente annotazioni da PDF utilizzando Aspose.PDF .NET. Questa guida illustra configurazione, implementazione e best practice.
 
 ### [Esportare dati PDF in XML con Aspose.PDF per .NET: una guida passo passo](./export-pdf-data-to-xml-aspose-dotnet-guide/)
 Scopri come esportare in modo efficiente i dati dei moduli PDF in XML strutturato utilizzando Aspose.PDF per .NET, una potente libreria progettata per la manipolazione dei PDF.

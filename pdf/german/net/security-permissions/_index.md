@@ -62,6 +62,9 @@ Erfahren Sie, wie Sie mit Aspose.PDF sichere digitale Signaturen und Verifizieru
 ### [PDF-Redaktion mit Aspose.PDF .NET meistern: Ein umfassender Leitfaden für die sichere Dokumentenverarbeitung](./mastering-pdf-redaction-aspose-pdf-net-guide/)
 Erfahren Sie, wie Sie PDFs mit Aspose.PDF .NET sicher redigieren. Dieser Leitfaden behandelt annotationsbasierte und Fassaden-Ansätze und stellt sicher, dass Ihre Dokumente konform bleiben.
 
+### [Wie man PDFs mit Aspose.Pdf redigiert – Vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-redact-pdf-with-aspose-pdf-complete-step-by-step-guid/)
+Erfahren Sie, wie Sie PDFs mit Aspose.Pdf redigieren – ein vollständiger Schritt‑für‑Schritt‑Leitfaden mit praktischen Codebeispielen.
+
 ### [Entsperren und Entschlüsseln von PDF-Dateien mit Aspose.PDF für .NET: Eine vollständige Anleitung](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 Erfahren Sie, wie Sie geschützte PDF-Dateien mit Aspose.PDF für .NET in C# entsperren und entschlüsseln. Diese Anleitung behandelt Einrichtung, Entschlüsselungsschritte und bewährte Methoden.
 

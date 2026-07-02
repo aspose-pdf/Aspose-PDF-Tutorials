@@ -32,6 +32,9 @@ Ismerje meg, hogyan hozhat létre akadálymentesített címkézett PDF dokumentu
 ### [PDF fájlok konvertálása PDF/X-4 formátumra az Aspose.PDF for .NET használatával: lépésről lépésre útmutató](./convert-pdfs-to-pdf-x4-aspose-dotnet-guide/)
 Ismerje meg, hogyan konvertálhatja a szabványos PDF dokumentumokat robusztus PDF/X-4 formátumba az Aspose.PDF for .NET segítségével. Ez az útmutató a beállítást, a megvalósítást és a hibaelhárítást ismerteti.
 
+### [PDF konvertálása PDF/X-1A formátumba – PDF/X-1A dokumentum létrehozása](./convert-pdf-to-pdf-x-1a-how-to-create-pdf-x-1a-document/)
+Ismerje meg, hogyan konvertálhat PDF-fájlokat PDF/X-1A szabványú dokumentummá az Aspose.PDF for .NET segítségével.
+
 ### [PDF/A-1a validálása az Aspose.PDF for .NET segítségével: Átfogó útmutató](./validate-pdf-a-1a-aspose-pdf-dotnet/)
 Ismerje meg, hogyan validálhatja a PDF/A-1a megfelelőséget az Aspose.PDF for .NET használatával. Ez az útmutató lépésről lépésre bemutatja az útmutatást, kódpéldákat és integrációs tippeket.
 

@@ -53,6 +53,9 @@ Samouczek dotyczący kodu dla Aspose.PDF Net
 ### [Konwertuj strony PDF do PNG za pomocą Aspose.PDF .NET: kompleksowy przewodnik](./convert-pdf-pages-to-png-aspose-net/)
 Dowiedz się, jak konwertować strony PDF na wysokiej jakości obrazy PNG za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby skutecznie zautomatyzować proces konwersji.
 
+### [Konwertuj stronę PDF do PNG – Kompletny przewodnik Aspose.PDF](./convert-pdf-page-to-png-complete-aspose-pdf-guide/)
+Poznaj kompletny przewodnik konwersji pojedynczych stron PDF do formatu PNG przy użyciu Aspose.PDF dla .NET, z praktycznymi przykładami kodu.
+
 ### [Konwersja PDF do BMP za pomocą Aspose.PDF dla .NET: Przewodnik krok po kroku](./convert-pdf-to-bmp-aspose-pdf-net/)
 Dowiedz się, jak konwertować strony PDF na wysokiej jakości obrazy BMP za pomocą Aspose.PDF dla platformy .NET dzięki temu kompleksowemu przewodnikowi.
 
@@ -218,8 +221,11 @@ Dowiedz się, jak zoptymalizować konwersję PDF do HTML przy użyciu Aspose.PDF
 ### [Konwersja PDF do HTML przy użyciu Aspose.PDF .NET: zapisywanie obrazów jako zewnętrznych plików PNG](./pdf-to-html-conversion-external-png-aspose-pdf-net/)
 Dowiedz się, jak konwertować dokumenty PDF do HTML z zewnętrznymi obrazami PNG za pomocą Aspose.PDF dla .NET. Ten przewodnik zapewnia zachowanie układu i optymalizację wydajności sieci.
 
-### [Konwersja PDF do HTML z Aspose.PDF .NET: kompleksowy przewodnik](./aspose-pdf-net-pdf-to-html-conversion/)
+### [Konwersja PDF do HTML przy użyciu Aspose.PDF .NET: kompleksowy przewodnik](./aspose-pdf-net-pdf-to-html-conversion/)
 Opanuj konwersję PDF-HTML przy użyciu Aspose.PDF dla .NET. Zwiększ dostępność dokumentów i zaangażowanie dzięki konfigurowalnym opcjom.
+
+### [Zapisz PDF bez obrazów – konwertuj PDF do HTML przy użyciu Aspose](./save-pdf-without-images-convert-pdf-to-html-with-aspose/)
+Dowiedz się, jak zapisać plik PDF bez obrazów, konwertując go do HTML przy użyciu Aspose.PDF dla .NET.
 
 ### [Konwersja PDF do HTML z Aspose.PDF dla .NET](./pdf-to-html-conversion-aspose-dot-net/)
 Samouczek dotyczący kodu dla Aspose.PDF Net
