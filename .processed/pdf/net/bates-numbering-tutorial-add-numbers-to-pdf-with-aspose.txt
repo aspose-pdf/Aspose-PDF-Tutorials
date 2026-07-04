@@ -1,0 +1,7 @@
+Title: Bates Numbering Tutorial: Add Numbers to PDF with Aspose
+Slug: bates-numbering-tutorial-add-numbers-to-pdf-with-aspose
+Category: programming-with-stamps-and-watermarks
+ProcessedDate: 2026-07-04T07:28:30.616828
+SourceRepo: AI Search API
+Keywords: bates numbering tutorial, add bates numbering pdf, bates numbering example, prefix bates number
+PRNumber: 100
