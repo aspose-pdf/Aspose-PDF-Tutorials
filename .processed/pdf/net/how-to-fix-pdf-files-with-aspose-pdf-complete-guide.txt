@@ -1,0 +1,7 @@
+Title: How to Fix PDF Files with Aspose.Pdf – Complete Guide
+Slug: how-to-fix-pdf-files-with-aspose-pdf-complete-guide
+Category: document-manipulation
+ProcessedDate: 2026-07-04T07:28:37.496747
+SourceRepo: AI Search API
+Keywords: how to fix pdf, repair corrupted pdf, open corrupted pdf, open and repair pdf, fix broken pdf
+PRNumber: 100
