@@ -141,7 +141,7 @@ Tìm hiểu cách cắt các vùng cụ thể của trang PDF và chuyển đổ
 Tìm hiểu cách xuất dữ liệu hiệu quả từ ứng dụng sang PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm thiết lập, ví dụ mã trong C# và các tính năng chính.
 
 ### [Xuất chú thích PDF bằng Aspose.PDF .NET: Hướng dẫn toàn diện](./export-annotations-aspose-pdf-net/)
-Tìm hiểu cách xuất chú thích hiệu quả từ PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm thiết lập, triển khai và các biện pháp thực hành tốt nhất.
+Tìm hiểu cách xuất chú thích hiệu quả từ PDF bằng Aspose.PDF .NET. Hướng dẫn này bao gồm thiết lập, triển khai và các biện pháp thực hành tốt nhất.
 
 ### [Xuất dữ liệu PDF sang XML bằng Aspose.PDF cho .NET: Hướng dẫn từng bước](./export-pdf-data-to-xml-aspose-dotnet-guide/)
 Tìm hiểu cách xuất dữ liệu biểu mẫu PDF sang XML có cấu trúc một cách hiệu quả bằng Aspose.PDF cho .NET, một thư viện mạnh mẽ được thiết kế để xử lý PDF.
@@ -226,6 +226,11 @@ Hướng dẫn mã cho Aspose.PDF Net
 
 ### [Chuyển đổi PDF sang TIFF trong .NET bằng Aspose.PDF: Hướng dẫn từng bước](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Tìm hiểu cách chuyển đổi tài liệu PDF sang hình ảnh TIFF bằng Aspose.PDF cho .NET. Làm chủ độ sâu màu tùy chỉnh và các kỹ thuật xử lý hình ảnh tiên tiến.
+
+### [Aspose PDF sang HTML: Hướng dẫn toàn diện để chuyển đổi PDF và loại bỏ hình ảnh](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu PDF sang HTML và loại bỏ hình ảnh để giảm kích thước tệp.
+
+### [Cách render các trang PDF thành hình ảnh PNG – hướng dẫn đầy đủ Aspose.PDF](./how-to-render-pdf-pages-as-png-images-complete-aspose-pdf-gu/)
 
 ## Tài nguyên bổ sung
 

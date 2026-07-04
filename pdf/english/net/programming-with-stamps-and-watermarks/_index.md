@@ -39,6 +39,8 @@ Aspose.PDF's "Programming with Stamps and Watermarks" tutorials for .NET walk yo
 | [Table In Header Footer Section](./table-in-header-footer-section/) | Learn how to easily add text to the footer of a PDF file using Aspose.PDF for .NET. Step-by-step guide included for seamless integration. |  
 | [Text In Footer Of PDF File](./text-in-footer/) | Learn how to add text in the footer of PDF file with Aspose.PDF for .NET. |  
 | [Text In Header Of PDF File](./text-in-header/) | Learn to add text headers to PDFs using Aspose.PDF for .NET with this step-by-step tutorial. Enhance your documents efficiently and effectively. |  
+| [Bates Numbering Tutorial: Add Numbers to PDF with Aspose](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) | Learn how to add Bates numbering to PDF documents using Aspose.PDF for .NET with step-by-step instructions and sample code. |  
+| [How to Add Watermark PDF – Add Text Overlay PDF with Aspose](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) | Learn how to add a text watermark overlay to PDF files using Aspose.PDF for .NET with step-by-step instructions. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

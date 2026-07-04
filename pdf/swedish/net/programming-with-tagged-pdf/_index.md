@@ -45,6 +45,7 @@ Aspose.PDF för .NET:s handledningar "Programmering med taggade PDF-filer" guida
 | [Element i textblockstrukturen](./text-block-structure-elements/) | Lär dig hur du använder Aspose.PDF för .NET för att lägga till textblockstrukturelement, till exempel rubriker och taggade stycken, i ett befintligt PDF-dokument. |  
 | [Textstrukturelement i PDF-fil](./text-structure-elements/) Lär dig att manipulera textstrukturelement i PDF-filer med Aspose.PDF för .NET. Den här steg-för-steg-guiden täcker allt du behöver för att skapa strukturerade PDF-filer. |  
 | [Validera PDF-fil](./validate-pdf/) | Lär dig hur du validerar en PDF-fil med Aspose.PDF för .NET. Kontrollera att den uppfyller standarder och generera en valideringsrapport. |  
+| [Skapa Span-element PDF med Aspose – Ladda PDF med Aspose och tagga innehåll](./create-span-element-pdf-with-aspose-load-pdf-aspose-and-tag/) | Lär dig hur du skapar ett span‑element i en PDF, laddar PDF med Aspose och taggar innehållet för förbättrad tillgänglighet. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
