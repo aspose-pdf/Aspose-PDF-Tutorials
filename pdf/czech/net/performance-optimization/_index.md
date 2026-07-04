@@ -50,6 +50,9 @@ Zvládněte umění převodu souborů SVG do PDF s přesností a efektivitou pom
 ### [Odebrání vložených písem z PDF pomocí Aspose.PDF pro .NET: Zmenšení velikosti souboru a zlepšení výkonu](./optimize-pdfs-unembed-fonts-aspose-pdf-net/)
 Naučte se, jak odebrat vložené fonty ze souborů PDF pomocí Aspose.PDF pro .NET. Optimalizujte výkon PDF, zmenšete velikost souboru a zlepšete dobu načítání s tímto podrobným návodem.
 
+### [Jak optimalizovat PDF – Kompletní průvodce s Aspose.PDF](./how-to-optimize-pdf-complete-guide-with-aspose-pdf/)
+Získejte podrobný návod, jak optimalizovat PDF soubory pomocí Aspose.PDF, včetně technik komprese, správy zdrojů a zrychlení zpracování.
+
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)

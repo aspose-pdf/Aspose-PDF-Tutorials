@@ -53,6 +53,9 @@ Kód oktatóanyag az Aspose.PDF Nethez
 ### [PDF oldalak konvertálása PNG formátumba az Aspose.PDF .NET segítségével: Átfogó útmutató](./convert-pdf-pages-to-png-aspose-net/)
 Tanuld meg, hogyan konvertálhatsz PDF oldalakat kiváló minőségű PNG képekké az Aspose.PDF for .NET segítségével. Kövesd ezt a lépésről lépésre szóló útmutatót a konvertálási folyamat hatékony automatizálásához.
 
+### [PDF oldalak PNG képekké renderelése – teljes Aspose.PDF útmutató](./how-to-render-pdf-pages-as-png-images-complete-aspose-pdf-gu/)
+Ismerje meg, hogyan konvertálhatja a PDF oldalakat magas minőségű PNG képekké az Aspose.PDF for .NET segítségével, részletes lépésekkel.
+
 ### [PDF konvertálása BMP-vé az Aspose.PDF for .NET használatával: lépésről lépésre útmutató](./convert-pdf-to-bmp-aspose-pdf-net/)
 Tanuld meg, hogyan konvertálhatsz PDF oldalakat kiváló minőségű BMP képekké az Aspose.PDF for .NET segítségével ebből az átfogó útmutatóból.
 
@@ -79,6 +82,9 @@ Kód oktatóanyag az Aspose.PDF Nethez
 
 ### [PDF konvertálása HTML-be egyéni kép URL-ekkel az Aspose.PDF .NET használatával: Átfogó útmutató](./convert-pdf-html-custom-image-urls-aspose-pdf-net/)
 Ismerje meg, hogyan konvertálhat PDF dokumentumokat HTML formátumba az Aspose.PDF for .NET segítségével, beleértve a képek URL-címeinek testreszabását és egy személyre szabott erőforrás-takarékossági stratégia megvalósítását.
+
+### [Aspose PDF HTML-be: Teljes útmutató a PDF-ek konvertálásához és a képek eltávolításához](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
+Ismerje meg, hogyan konvertálhat PDF dokumentumokat HTML-be, és hogyan távolíthatja el a képeket az Aspose.PDF for .NET segítségével.
 
 ### [PDF konvertálása PNG-vé az Aspose.PDF .NET segítségével: Betűtípus-utalás javítása az éles szövegmegjelenítés érdekében](./convert-pdf-png-aspose-net-font-hinting/)
 Tanulja meg, hogyan konvertálhat PDF dokumentumokat kiváló minőségű PNG képekké az Aspose.PDF .NET segítségével, biztosítva az éles szövegmegjelenítést a betűtípus-hivatkozások segítségével.
@@ -225,7 +231,7 @@ Sajátítsa el a PDF-HTML konverzió mesteri szintjét az Aspose.PDF for .NET se
 Kód oktatóanyag az Aspose.PDF Nethez
 
 ### [PDF-ből TIFF-be konvertálás .NET-ben az Aspose.PDF használatával: lépésről lépésre útmutató](./pdf-to-tiff-conversion-aspose-pdf-net/)
-Tanuld meg, hogyan konvertálhatsz PDF dokumentumokat TIFF képekké az Aspose.PDF for .NET segítségével. Sajátítsd el az egyéni színmélységeket és a fejlett képfeldolgozási technikákat.
+Tanuld meg, hogyan konvertálhatsz PDF dokumentumokat TIFF képekké az Aspose.PDF for .NET segítségével. Sajátítsd el a egyéni színmélységeket és a fejlett képfeldolgozási technikákat.
 
 ## További források
 

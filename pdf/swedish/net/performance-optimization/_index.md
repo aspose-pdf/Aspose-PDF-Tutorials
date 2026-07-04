@@ -50,6 +50,9 @@ Bemästra konsten att konvertera SVG-filer till PDF-filer med precision och effe
 ### [Avbädda teckensnitt i PDF-filer med Aspose.PDF för .NET: Minska filstorleken och förbättra prestandan](./optimize-pdfs-unembed-fonts-aspose-pdf-net/)
 Lär dig hur du tar bort inbäddade teckensnitt från dina PDF-filer med Aspose.PDF för .NET. Optimera PDF-prestanda, minska filstorleken och förbättra laddningstiderna med den här steg-för-steg-guiden.
 
+### [Hur du optimerar PDF – Komplett guide med Aspose.Pdf](./how-to-optimize-pdf-complete-guide-with-aspose-pdf/)
+Lär dig hur du optimerar PDF-filer med Aspose.Pdf genom en komplett steg-för-steg-guide för att förbättra prestanda och minska filstorlek.
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

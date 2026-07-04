@@ -53,6 +53,9 @@ Um tutorial de código para Aspose.PDF Net
 ### [Converta páginas PDF para PNG com Aspose.PDF .NET: um guia completo](./convert-pdf-pages-to-png-aspose-net/)
 Aprenda a converter páginas PDF em imagens PNG de alta qualidade usando o Aspose.PDF para .NET. Siga este guia passo a passo para automatizar o processo de conversão com eficiência.
 
+### [Como renderizar páginas PDF como imagens PNG – guia completo do Aspose.PDF](./how-to-render-pdf-pages-as-png-images-complete-aspose-pdf-gu/)
+Aprenda a renderizar páginas PDF como imagens PNG de alta qualidade usando Aspose.PDF .NET com este guia passo a passo.
+
 ### [Converter PDF em BMP usando Aspose.PDF para .NET: um guia passo a passo](./convert-pdf-to-bmp-aspose-pdf-net/)
 Aprenda como converter páginas PDF em imagens BMP de alta qualidade usando o Aspose.PDF para .NET com este guia abrangente.
 
@@ -73,6 +76,9 @@ Aprenda a converter arquivos PDF para o formato HTML usando o Aspose.PDF para .N
 
 ### [Converta PDF para HTML com Aspose.PDF para .NET: preserve fontes nos formatos TTF e WOFF](./convert-pdf-html-aspose-net-truetype-woff/)
 Aprenda a converter PDFs para HTML usando o Aspose.PDF para .NET, preservando fontes TrueType (TTF) e Web Open Font Format (WOFF). Guia passo a passo com exemplos de código.
+
+### [Aspose PDF para HTML: Guia Completo para Converter PDFs e Remover Imagens](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
+Aprenda a converter PDFs em HTML e remover imagens usando Aspose.PDF para .NET, com exemplos de código passo a passo.
 
 ### [Converta PDF para HTML com dimensões personalizadas usando Aspose.PDF](./convert-pdf-html-custom-dimensions-asposepdf-net/)
 Um tutorial de código para Aspose.PDF Net

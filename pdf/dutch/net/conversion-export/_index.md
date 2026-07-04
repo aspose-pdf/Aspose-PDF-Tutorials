@@ -221,11 +221,17 @@ Leer hoe u PDF-documenten naar HTML converteert met externe PNG-afbeeldingen met
 ### [PDF naar HTML-conversie met Aspose.PDF .NET: een uitgebreide handleiding](./aspose-pdf-net-pdf-to-html-conversion/)
 Beheers PDF-naar-HTML-conversie met Aspose.PDF voor .NET. Verbeter de toegankelijkheid en interactie van uw documenten met aanpasbare opties.
 
+### [Aspose PDF naar HTML: Complete gids voor het converteren van PDF's en verwijderen van afbeeldingen](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
+Leer hoe u PDF's converteert naar HTML en daarbij alle afbeeldingen uit het resultaat verwijdert met Aspose.PDF voor .NET.
+
 ### [PDF naar HTML-conversie met Aspose.PDF voor .NET](./pdf-to-html-conversion-aspose-dot-net/)
 Een codetutorial voor Aspose.PDF Net
 
 ### [PDF naar TIFF-conversie in .NET met Aspose.PDF: een stapsgewijze handleiding](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Leer hoe u PDF-documenten naar TIFF-afbeeldingen converteert met Aspose.PDF voor .NET. Beheers aangepaste kleurdiepten en geavanceerde beeldverwerkingstechnieken.
+
+### [Hoe PDF-pagina's renderen als PNG-afbeeldingen – volledige Aspose.PDF-gids](./how-to-render-pdf-pages-as-png-images-complete-aspose-pdf-gu/)
+Leer stap voor stap PDF-pagina's omzetten naar PNG-afbeeldingen met Aspose.PDF in .NET, inclusief codevoorbeelden en optimalisatietips.
 
 ## Aanvullende bronnen
 

@@ -28,7 +28,8 @@ Aspose.PDF for .NET's "Programming with Tagged PDFs" tutorials walk you through 
 | [Create Tagged PDF in C# – Complete Step‑by‑Step Guide](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Learn how to create a fully tagged PDF using Aspose.PDF for .NET in C# with this comprehensive step-by-step guide. |
 | [Create Structure Elements](./create-structure-elements/) | Learn how to create structure elements in PDF with Aspose.PDF for .NET. A step-by-step guide for enhanced PDF accessibility and organization. |  
 | [Create Structure Elements Tree](./create-structure-elements-tree/) | Learn how to create a structure elements tree in PDF documents using Aspose.PDF for .NET. Follow this step-by-step guide. |  
-| [Create Table Element](./create-table-element/) | Step by step guide to create an array element with Aspose.PDF for .NET. Generate dynamic PDFs with tables easily. |  
+| [Create Table Element](./create-table-element/) | Step by step guide to create an array element with Aspose.PDF for .NET. Generate dynamic PDFs with tables easily. |
+| [Create Span Element PDF with Aspose – Load PDF aspose and Tag Content](./create-span-element-pdf-with-aspose-load-pdf-aspose-and-tag/) | Learn how to load a PDF with Aspose and tag its content using a span element in this step-by-step guide. |
 | [Custom Tag Name](./custom-tag-name/) | Step-by-step guide to using a custom tag name with Aspose.PDF for .NET. Improve the structure of your PDFs with custom tags. |  
 | [Illustration Structure Elements](./illustration-structure-elements/) | Create structured PDFs with illustration elements in Aspose.PDF for .NET by following our step-by-step tutorial. |  
 | [Inline Structure Elements](./inline-structure-elements/) | Step-by-step guide to using online structural elements with Aspose.PDF for .NET. Organize your PDFs with headings and paragraphs. |  

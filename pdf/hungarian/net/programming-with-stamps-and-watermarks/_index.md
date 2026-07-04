@@ -39,7 +39,8 @@ Az Aspose.PDF „Bélyegzők és vízjelek programozása” című .NET oktatóa
 | [Táblázat a fejlécben, láblécben](./table-in-header-footer-section/) | Ismerje meg, hogyan adhat hozzá egyszerűen szöveget egy PDF fájl láblécéhez az Aspose.PDF for .NET segítségével. Lépésről lépésre útmutató a zökkenőmentes integrációhoz. |  
 | [Szöveg a PDF fájl láblécében](./text-in-footer/) | Ismerje meg, hogyan adhat hozzá szöveget a PDF fájlok láblécéhez az Aspose.PDF for .NET segítségével. |  
 | [Szöveg a PDF fájl fejlécében](./text-in-header/) | Tanulja meg, hogyan adhat hozzá szöveges fejléceket PDF-ekhez az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Javítsa dokumentumai hatékonyságát és eredményességét. |  
-
+| [Bates számozás oktatóanyag: Számok hozzáadása PDF-hez az Aspose használatával](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) Tanulja meg, hogyan adhat hozzá Bates számozást PDF-fájlokhoz az Aspose.PDF for .NET használatával lépésről lépésre útmutatóval. |  
+| [Hogyan adjunk hozzá vízjelet PDF-hez – Szöveges átfedés PDF-hez az Aspose használatával](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) | Tanulja meg, hogyan adhat hozzá szöveges vízjelet PDF-fájlokhoz az Aspose.PDF for .NET segítségével lépésről lépésre útmutatóval. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
