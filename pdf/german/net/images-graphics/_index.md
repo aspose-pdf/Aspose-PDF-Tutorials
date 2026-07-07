@@ -59,7 +59,7 @@ Ein Code-Tutorial für Aspose.PDF Net
 ### [Extrahieren Sie Bilder aus PDF-Signaturen mit Aspose.PDF .NET: Ein umfassender Leitfaden](./extract-images-pdf-signatures-aspose-pdf-dotnet/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET in PDF-Signaturen eingebettete Bilder extrahieren. Diese Anleitung bietet Schritt-für-Schritt-Anleitungen und praktische Anwendungen.
 
-### [Extrahieren Sie Bilder aus PDF mit Aspose.PDF für .NET](./extract-images-pdfs-aspose-pdf-net/)
+### [Extrahieren Sie Bilder aus PDF mit Aspose.PDF .NET](./extract-images-pdfs-aspose-pdf-net/)
 Ein Code-Tutorial für Aspose.PDF Net
 
 ### [Schnelle Bildverkleinerung in PDFs mit Aspose.PDF .NET: Bilder effizient optimieren und komprimieren](./optimize-pdf-images-aspose-net-fast-compression/)
@@ -77,19 +77,19 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET nahtlos Bilder zu Ihren PDF-Dokum
 ### [So fügen Sie mit Aspose.PDF für .NET Bilder zu PDFs hinzu: Eine vollständige Anleitung](./add-images-to-pdfs-using-aspose-pdf-net/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET nahtlos Bilder zu Ihren PDF-Dokumenten hinzufügen. Diese Schritt-für-Schritt-Anleitung behandelt Einrichtung, Implementierung und praktische Anwendungen.
 
-### [So fügen Sie mit Aspose.PDF für .NET Bilder zu PDFs hinzu: Eine Schritt-für-Schritt-Anleitung](./add-images-to-pdfs-aspose-pdf-net/)
+### [So fügen Sie mit Aspose.PDF für .NET Bilder zu PDFs hinzufügen: Eine Schritt-für-Schritt-Anleitung](./add-images-to-pdfs-aspose-pdf-net/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET nahtlos Bilder zu Ihren PDFs hinzufügen. Diese Anleitung beschreibt das Hinzufügen von Bildern zu vorhandenen PDFs und das Erstellen neuer Bilder aus DICOM-Dateien.
 
-### [So fügen Sie mit Aspose.PDF für .NET einen Bildkopf zu PDFs hinzu: Eine Schritt-für-Schritt-Anleitung](./add-image-header-pdf-aspose-dotnet/)
+### [So fügen Sie mit Aspose.PDF für .NET einen Bildkopf zu PDFs hinzufügen: Eine Schritt-für-Schritt-Anleitung](./add-image-header-pdf-aspose-dotnet/)
 Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET Bildkopfzeilen zu Ihren PDF-Dokumenten hinzufügen.
 
-### [So fügen Sie mit Aspose.PDF für .NET einen Bildstempel zu PDF-Kopfzeilen hinzu](./add-image-stamp-pdf-header-aspose-pdf/)
+### [So fügen Sie mit Aspose.PDF für .NET einen Bildstempel zu PDF-Kopfzeilen hinzufügen](./add-image-stamp-pdf-header-aspose-pdf/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET Bildstempel zu Ihren PDF-Kopfzeilen hinzufügen und so Ihr Branding und Ihre Professionalität verbessern.
 
 ### [So fügen Sie PDF-Seiten mit Aspose.PDF für .NET einen Bildstempel hinzu](./add-image-stamp-pdf-pages-aspose-dotnet/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET Bildstempel zu bestimmten Seiten Ihrer PDF-Dateien hinzufügen. Verbessern Sie Ihr Branding, fügen Sie Wasserzeichen hinzu oder personalisieren Sie Dokumente effizient.
 
-### [So fügen Sie mit Aspose.PDF für .NET einem PDF einen Bildstempel hinzu: Eine umfassende Anleitung](./add-image-stamp-pdf-aspose-dotnet/)
+### [So fügen Sie mit Aspose.PDF für .NET einem PDF einen Bildstempel hinzufügen: Eine umfassende Anleitung](./add-image-stamp-pdf-aspose-dotnet/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET Bildstempel wie Logos oder Wasserzeichen zu Ihren PDFs hinzufügen. Diese Anleitung behandelt Einrichtung, Implementierung und praktische Anwendungen.
 
 ### [So konvertieren Sie PDF-Seiten mit Aspose.PDF für .NET in PNG-Bilder](./convert-pdf-page-to-png-aspose-dotnet/)
@@ -163,6 +163,9 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET komplexe LaTeX-Skripte in PDF-Dok
 
 ### [Bildhintergründe in PDFs mit Aspose.PDF für .NET festlegen: Eine umfassende Anleitung](./aspose-pdf-net-set-image-backgrounds/)
 Erfahren Sie, wie Sie Ihre PDF-Dokumente mit Aspose.PDF für .NET durch die Einrichtung von Bildhintergründen optimieren. Diese Anleitung enthält Tipps zur Einrichtung, Implementierung und Optimierung.
+
+### [ExtGState zu PDF mit Aspose.PDF hinzufügen – Vollständige Anleitung](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET ExtGState-Objekte zu PDFs hinzufügen, um Transparenz, Blendmodi und weitere Grafik‑Effekte zu steuern.
 
 ## Weitere Ressourcen
 
