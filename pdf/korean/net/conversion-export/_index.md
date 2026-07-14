@@ -65,6 +65,9 @@ Aspose.PDF Net에 대한 코드 튜토리얼
 ### [Aspose.PDF for .NET을 사용하여 PDF를 HTML로 변환: 스트림 출력 가이드](./convert-pdf-html-aspose-dotnet-guide/)
 Aspose.PDF for .NET을 사용하여 스트림 출력을 사용하여 PDF 파일을 HTML로 변환하는 방법을 알아보세요. 웹 통합 및 접근성을 향상시켜 보세요.
 
+### [PDF를 HTML로 저장 – PDF 생성, 사각형 모양 추가](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
+Aspose.PDF for .NET을 사용하여 PDF를 만들고 사각형을 추가한 뒤 HTML로 저장하는 방법을 단계별로 안내합니다.
+
 ### [이미지를 저장하지 않고 Aspose.PDF를 사용하여 .NET에서 PDF를 HTML로 변환](./convert-pdf-html-net-asposepdf-no-images/)
 Aspose.PDF for .NET을 사용하여 이미지를 별도로 저장하지 않고 PDF 파일을 HTML로 변환하는 방법을 알아보세요. 자세한 가이드를 통해 레이아웃의 일관성을 유지하세요.
 
@@ -165,7 +168,7 @@ Aspose.PDF for .NET을 사용하여 EPUB 파일을 PDF로 변환하는 방법을
 Aspose.PDF .NET을 사용하여 HTML 문서를 전문가 수준의 PDF로 효율적으로 변환하는 방법을 알아보세요. 외부 리소스를 처리하고 복잡한 콘텐츠를 렌더링하는 기술을 알아보세요.
 
 ### [Aspose.PDF .NET을 사용하여 대용량 CGM 이미지를 PDF로 변환하는 방법: 포괄적인 가이드](./convert-large-cgm-images-to-pdf-aspose-pdf-net/)
-Aspose.PDF .NET을 사용하여 대용량 컴퓨터 그래픽 메타파일(CGM) 이미지를 PDF로 쉽게 변환하는 방법을 알아보세요. 이 가이드에서는 설정, 구현 및 모범 사례를 다룹니다.
+Aspose.PDF .NET을 사용하여 대용량 컴퓨터 그래픽 메타파일(CGM) 이미지를 PDF로 쉽게 변환하는 방법을 알아보세요. 이 가이드는 설정, 구현 및 모범 사례를 다룹니다.
 
 ### [Aspose.PDF for .NET을 사용하여 MHT 파일을 PDF로 변환하는 방법 - 단계별 가이드](./convert-mht-files-to-pdf-aspose-dotnet/)
 Aspose.PDF for .NET을 사용하여 MHT 파일을 PDF로 손쉽게 변환하는 방법을 알아보세요. 이 가이드에서는 설정, 변환 단계 및 모범 사례를 다룹니다.

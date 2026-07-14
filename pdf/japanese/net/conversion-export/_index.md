@@ -71,16 +71,13 @@ Aspose.PDF for .NET を使用して、画像を個別に保存することなく
 ### [Aspose.PDF を使用して、カスタム画像パスで .NET で PDF を HTML に変換する](./convert-pdf-html-custom-image-paths-dotnet/)
 Aspose.PDF for .NET を使用してPDFファイルをHTML形式に変換し、画像パスを効率的にカスタマイズする方法を学びます。Web統合に最適です。
 
-### [Aspose.PDF for .NET で PDF を HTML に変換: TTF および WOFF 形式でフォントを保持](./convert-pdf-html-aspose-net-truetype-woff/)
-Aspose.PDF for .NET を使用して、TrueType (TTF) および Web Open Font Format (WOFF) フォントを維持しながら PDF を HTML に変換する方法を学びます。コード例を交えたステップバイステップのガイドです。
-
-### [Aspose.PDF を使用して PDF をカスタムディメンションで HTML に変換する](./convert-pdf-html-custom-dimensions-asposepdf-net/)
-Aspose.PDF Net のコードチュートリアル
+### [PDF を HTML として保存 – PDF を作成し、長方形シェイプを追加](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
+Aspose.PDF for .NET を使用して PDF を作成し、長方形シェイプを追加した後、HTML に保存する方法を学びます。
 
 ### [Aspose.PDF .NET を使用してカスタム画像 URL で PDF を HTML に変換する: 包括的なガイド](./convert-pdf-html-custom-image-urls-aspose-pdf-net/)
 画像の URL をカスタマイズし、カスタマイズされたリソース節約戦略を実装するなど、Aspose.PDF for .NET を使用して PDF ドキュメントを HTML 形式に変換する方法を学習します。
 
-### [Aspose.PDF .NET で PDF を PNG に変換: フォントヒントを強化して鮮明なテキスト レンダリングを実現](./convert-pdf-png-aspose-net-font-hinting/)
+### [Aspose.PDF .NET を使用して PDF を PNG に変換する: フォントヒントを強化して鮮明なテキスト レンダリングを実現](./convert-pdf-png-aspose-net-font-hinting/)
 Aspose.PDF .NET を使用して PDF ドキュメントを高品質の PNG 画像に変換し、フォントヒントを通じて鮮明なテキスト レンダリングを実現する方法を学習します。
 
 ### [Aspose.PDF for .NET で PDF を PPTX に変換する: ステップバイステップガイド](./convert-pdf-to-pptx-aspose-dotnet-guide/)

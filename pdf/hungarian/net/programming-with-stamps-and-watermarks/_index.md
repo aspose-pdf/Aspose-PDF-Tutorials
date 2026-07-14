@@ -37,8 +37,9 @@ Az Aspose.PDF „Bélyegzők és vízjelek programozása” című .NET oktatóa
 | [Oldalszámozás fejlécben és láblécben lebegő doboz használatával](./page-number-in-header-footer-using-floating-box/) | Ebben a lépésről lépésre bemutatóban könnyedén hozzáadhat oldalszámokat a PDF fejlécéhez és láblécéhez egy lebegő doboz segítségével az Aspose.PDF for .NET segítségével. |  
 | [Oldalszámbélyegzők PDF fájlban](./page-number-stamps/) Tanulja meg, hogyan adhat hozzá oldalszámbélyegzőket PDF fájlokhoz az Aspose.PDF for .NET segítségével könnyen követhető útmutatónkból, amely kódpéldákat is tartalmaz. |  
 | [Táblázat a fejlécben, láblécben](./table-in-header-footer-section/) | Ismerje meg, hogyan adhat hozzá egyszerűen szöveget egy PDF fájl láblécéhez az Aspose.PDF for .NET segítségével. Lépésről lépésre útmutató a zökkenőmentes integrációhoz. |  
-| [Szöveg a PDF fájl láblécében](./text-in-footer/) | Ismerje meg, hogyan adhat hozzá szöveget a PDF fájlok láblécéhez az Aspose.PDF for .NET segítségével. |  
-| [Szöveg a PDF fájl fejlécében](./text-in-header/) | Tanulja meg, hogyan adhat hozzá szöveges fejléceket PDF-ekhez az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Javítsa dokumentumai hatékonyságát és eredményességét. |  
+| [Szöveg a PDF fájl láblécében](./text-in-footer/) | Ismerje meg, hogyan adhat hozzá szöveget a PDF fájlok láblécéhez az Aspose.PDF for .NET használatával. |  
+| [Szöveg a PDF fájl fejlécében](./text-in-header/) | Tanulja meg, hogyan adhat hozzá szöveges fejléceket PDF-ekhez az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Javítsa dokumentumai hatékonyságát és eredményességét. |
+| [Átlátszóság hozzáadása PDF-hez az Aspose.PDF segítségével – Teljes C# útmutató](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) | Tanulja meg, hogyan adhat hozzá átlátszóságot PDF-fájlokhoz az Aspose.PDF for .NET használatával ebben a részletes C# útmutatóban. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

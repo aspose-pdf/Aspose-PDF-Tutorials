@@ -224,6 +224,9 @@
 ### [การแปลง PDF เป็น HTML ด้วย Aspose.PDF สำหรับ .NET](./pdf-to-html-conversion-aspose-dot-net/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.PDF Net
 
+### [บันทึก PDF เป็น HTML – สร้าง PDF และเพิ่มรูปสี่เหลี่ยม](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
+เรียนรู้วิธีบันทึก PDF เป็น HTML พร้อมการสร้าง PDF และเพิ่มรูปสี่เหลี่ยมโดยใช้ Aspose.PDF สำหรับ .NET
+
 ### [การแปลง PDF เป็น TIFF ใน .NET โดยใช้ Aspose.PDF: คำแนะนำทีละขั้นตอน](./pdf-to-tiff-conversion-aspose-pdf-net/)
 เรียนรู้วิธีการแปลงเอกสาร PDF เป็นภาพ TIFF โดยใช้ Aspose.PDF สำหรับ .NET เชี่ยวชาญความลึกสีที่กำหนดเองและเทคนิคการประมวลผลภาพขั้นสูง
 

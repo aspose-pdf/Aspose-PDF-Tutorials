@@ -227,6 +227,9 @@ Hướng dẫn mã cho Aspose.PDF Net
 ### [Chuyển đổi PDF sang TIFF trong .NET bằng Aspose.PDF: Hướng dẫn từng bước](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Tìm hiểu cách chuyển đổi tài liệu PDF sang hình ảnh TIFF bằng Aspose.PDF cho .NET. Làm chủ độ sâu màu tùy chỉnh và các kỹ thuật xử lý hình ảnh tiên tiến.
 
+### [Lưu PDF dưới dạng HTML – Tạo PDF, thêm hình chữ nhật](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
+Hướng dẫn tạo PDF, chèn hình chữ nhật và lưu dưới dạng HTML bằng Aspose.PDF cho .NET.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)
