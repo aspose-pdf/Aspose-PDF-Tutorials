@@ -221,11 +221,14 @@
 ### [Преобразование PDF в HTML с помощью Aspose.PDF .NET: подробное руководство](./aspose-pdf-net-pdf-to-html-conversion/)
 Мастер преобразования PDF в HTML с помощью Aspose.PDF для .NET. Улучшите доступность и вовлеченность документов с помощью настраиваемых параметров.
 
-### [Преобразование PDF в HTML с помощью Aspose.PDF для .NET](./pdf-to-html-conversion-aspose-dot-net/)
+### [Преобразование PDF в HTML с помощью Aspose.PDF .NET](./pdf-to-html-conversion-aspose-dot-net/)
 Учебник по коду для Aspose.PDF Net
 
 ### [Преобразование PDF в TIFF в .NET с использованием Aspose.PDF: пошаговое руководство](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Узнайте, как преобразовывать документы PDF в изображения TIFF с помощью Aspose.PDF для .NET. Освойте пользовательские глубины цвета и передовые методы обработки изображений.
+
+### [Сохранить PDF как HTML – создать PDF, добавить прямоугольную форму](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
+Создайте PDF, добавьте прямоугольник и сохраните как HTML с помощью Aspose.PDF для .NET.
 
 ## Дополнительные ресурсы
 

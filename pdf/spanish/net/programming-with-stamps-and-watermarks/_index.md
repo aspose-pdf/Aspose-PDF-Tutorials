@@ -15,7 +15,7 @@
 # Programación con sellos y marcas de agua
 
 
-Los tutoriales de Aspose.PDF "Programación con sellos y marcas de agua" para .NET te guían paso a paso para añadir sellos y marcas de agua a tus documentos PDF. Aprenderás a personalizar sellos, aplicar marcas de agua de texto y gráficos, y gestionar su posición y apariencia. Estos tutoriales te ayudarán a añadir una capa de seguridad e identificación a tus archivos PDF de forma sencilla y eficaz.
+Los tutoriales de Aspose.PDF "Programación con sellos y marcas de agua" para .NET te guían paso a paso para añadir sellos y marcas de agua a tus documentos PDF. Aprenderás a personalizar sellos, aplicar marcas de agua de texto y gráficos, y gestionar su posición y apariencia. Estos tutoriales te ayudarán a añadir una capa de seguridad e identificación a sus archivos PDF de forma sencilla y eficaz.
 
 ## Tutoriales
 | Título | Descripción |
@@ -39,6 +39,7 @@ Los tutoriales de Aspose.PDF "Programación con sellos y marcas de agua" para .N
 | [Tabla en la sección de encabezado y pie de página](./table-in-header-footer-section/) Aprenda a agregar texto fácilmente al pie de página de un archivo PDF con Aspose.PDF para .NET. Incluye una guía paso a paso para una integración perfecta.  
 | [Texto en el pie de página del archivo PDF](./text-in-footer/) | Aprenda a agregar texto en el pie de página de un archivo PDF con Aspose.PDF para .NET. |  
 | [Texto en el encabezado del archivo PDF](./text-in-header/) Aprenda a agregar encabezados de texto a archivos PDF con Aspose.PDF para .NET con este tutorial paso a paso. Mejore sus documentos de forma eficiente y eficaz.  
+| [Agregar transparencia a PDF con Aspose.PDF – Guía completa en C#](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) | Aprenda a aplicar transparencia a sus documentos PDF usando Aspose.PDF para .NET con esta guía completa en C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

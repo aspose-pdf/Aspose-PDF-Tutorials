@@ -227,6 +227,9 @@ Tutorial kode untuk Aspose.PDF Net
 ### [Konversi PDF ke TIFF dalam .NET Menggunakan Aspose.PDF: Panduan Langkah demi Langkah](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Pelajari cara mengonversi dokumen PDF ke gambar TIFF menggunakan Aspose.PDF untuk .NET. Kuasai kedalaman warna khusus dan teknik pemrosesan gambar tingkat lanjut.
 
+### [Simpan PDF sebagai HTML – Buat PDF, tambahkan bentuk persegi panjang](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
+Pelajari cara menyimpan PDF sebagai HTML, membuat PDF, dan menambahkan bentuk persegi panjang menggunakan Aspose.PDF untuk .NET.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)
