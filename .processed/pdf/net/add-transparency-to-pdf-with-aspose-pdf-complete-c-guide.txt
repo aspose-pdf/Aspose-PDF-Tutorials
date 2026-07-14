@@ -1,0 +1,7 @@
+Title: Add transparency to PDF with Aspose.PDF – Complete C# Guide
+Slug: add-transparency-to-pdf-with-aspose-pdf-complete-c-guide
+Category: programming-with-stamps-and-watermarks
+ProcessedDate: 2026-07-14T10:41:43.232483
+SourceRepo: AI Search API
+Keywords: add transparency to pdf, edit pdf resources
+PRNumber: 103
