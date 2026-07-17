@@ -39,6 +39,7 @@
 | [الجدول في قسم الرأس والتذييل](./table-in-header-footer-section/) | تعرّف على كيفية إضافة نص بسهولة إلى تذييل ملف PDF باستخدام Aspose.PDF لـ .NET. دليل خطوة بخطوة مُرفق لضمان التكامل السلس. |  
 | [النص في تذييل ملف PDF](./text-in-footer/) |تعرف على كيفية إضافة نص في تذييل ملف PDF باستخدام Aspose.PDF لـ .NET. |  
 | [النص في رأس ملف PDF](./text-in-header/) تعلم كيفية إضافة عناوين نصية إلى ملفات PDF باستخدام Aspose.PDF لـ .NET من خلال هذا البرنامج التعليمي خطوة بخطوة. حسّن مستنداتك بكفاءة وفعالية.  
+| [كيفية تغيير الشفافية في PDF باستخدام Aspose.PDF – دليل كامل](./how-to-change-opacity-in-pdf-with-aspose-pdf-complete-guide/) |تعرف على كيفية تعديل شفافية العناصر في ملفات PDF باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
