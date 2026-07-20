@@ -35,10 +35,11 @@ Los tutoriales de Aspose.PDF "Programación con sellos y marcas de agua" para .N
 | [Imagen en pie de página](./image-in-footer/) Aprenda a añadir una imagen al pie de página de un PDF con Aspose.PDF para .NET con este detallado tutorial paso a paso. Ideal para mejorar sus documentos.  
 | [Imagen en el encabezado](./image-in-header/) | Aprenda a agregar una imagen al encabezado de un PDF usando Aspose.PDF para .NET en este tutorial paso a paso.  
 | [Número de página en el encabezado y pie de página mediante cuadro flotante](./page-number-in-header-footer-using-floating-box/) | Agregue fácilmente números de página en el encabezado y pie de página de su PDF usando un cuadro flotante con Aspose.PDF para .NET en este tutorial paso a paso.  
-| [Sellos de número de página en archivos PDF](./page-number-stamps/) Aprenda cómo agregar sellos de número de página a archivos PDF usando Aspose.PDF para .NET a través de nuestra guía fácil de seguir, completa con un ejemplo de código. |  
+| [Sellos de número de página en archivos PDF](./page-number-stamps/) Aprenda cómo agregar sellos de número de página a archivos PDF usando Aspose.PDF para .NET a través de nuestra guía fácil de seguir, completa con un ejemplo de código. |
 | [Tabla en la sección de encabezado y pie de página](./table-in-header-footer-section/) Aprenda a agregar texto fácilmente al pie de página de un archivo PDF con Aspose.PDF para .NET. Incluye una guía paso a paso para una integración perfecta.  
-| [Texto en el pie de página del archivo PDF](./text-in-footer/) | Aprenda a agregar texto en el pie de página de un archivo PDF con Aspose.PDF para .NET. |  
+| [Texto en el pie de página del archivo PDF](./text-in-footer/) | Aprenda a agregar texto en el pie de página de un PDF con Aspose.PDF para .NET. |  
 | [Texto en el encabezado del archivo PDF](./text-in-header/) Aprenda a agregar encabezados de texto a archivos PDF con Aspose.PDF para .NET con este tutorial paso a paso. Mejore sus documentos de forma eficiente y eficaz.  
+| [Cómo agregar numeración Bates en PDF con Aspose – Guía paso a paso](./how-to-add-bates-numbering-in-pdf-with-aspose-step-by-step-g/) | Aprenda a aplicar numeración Bates a sus documentos PDF usando Aspose.PDF para .NET con esta guía paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

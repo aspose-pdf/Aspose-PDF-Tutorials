@@ -38,7 +38,8 @@ De tutorials "Programmeren met stempels en watermerken" van Aspose.PDF voor .NET
 | [Paginanummerstempels in PDF-bestand](./page-number-stamps/) Leer hoe u paginanummerstempels toevoegt aan PDF-bestanden met Aspose.PDF voor .NET via onze eenvoudig te volgen handleiding, compleet met codevoorbeeld. |  
 | [Tabel in koptekst-voettekstsectie](./table-in-header-footer-section/) | Leer hoe u eenvoudig tekst toevoegt aan de voettekst van een PDF-bestand met Aspose.PDF voor .NET. Inclusief stapsgewijze handleiding voor naadloze integratie. |  
 | [Tekst in voettekst van PDF-bestand](./text-in-footer/) | Leer hoe u tekst toevoegt in de voettekst van een PDF-bestand met Aspose.PDF voor .NET. |  
-| [Tekst in koptekst van PDF-bestand](./text-in-header/) | Leer hoe u tekstkoppen aan PDF's toevoegt met Aspose.PDF voor .NET met deze stapsgewijze tutorial. Verbeter uw documenten efficiënt en effectief. |  
+| [Tekst in koptekst van PDF-bestand](./text-in-header/) | Leer hoe u tekstkoppen aan PDF's toevoegt met Aspose.PDF voor .NET met deze stapsgewijze tutorial. Verbeter uw documenten efficiënt en effectief. |
+| [Batesnummering toevoegen aan PDF met Aspose – Stapsgewijze handleiding](./how-to-add-bates-numbering-in-pdf-with-aspose-step-by-step-g/) | Leer hoe u Bates-nummering toevoegt aan PDF's met Aspose.PDF voor .NET via een duidelijke stap‑voor‑stap gids. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

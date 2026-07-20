@@ -58,6 +58,7 @@
 | [XML เป็น PDF ตั้งค่าเส้นทางของรูปภาพ](./xml-to-pdfset-image-path/) | เรียนรู้วิธีการแปลง XML เป็น PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ .NET คำแนะนำโดยละเอียดนี้จะแนะนำคุณทีละขั้นตอนตั้งแต่การตั้งค่าจนถึงการเสร็จสมบูรณ์ -  
 | [XPS เป็น PDF](./xps-to-pdf/) เรียนรู้วิธีแปลงไฟล์ XPS เป็น PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยบทช่วยสอนแบบทีละขั้นตอนนี้ เหมาะสำหรับนักพัฒนาและผู้ที่ชื่นชอบเอกสาร |  
 - [แปลง PDF เป็น PDF/X‑4 ด้วย C# – บทช่วยสอน ASP.NET PDF ทีละขั้นตอน](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/X‑4 ด้วย Aspose.PDF สำหรับ .NET ในบทช่วยสอนแบบทีละขั้นตอนนี้  
+- [แปลง PDF เป็น PDF/X‑4 ด้วย C# – คู่มือ Aspose.Pdf ฉบับสมบูรณ์](./convert-pdf-to-pdf-x-4-with-c-complete-aspose-pdf-guide/) | เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/X‑4 ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET อย่างละเอียดและครบถ้วน  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

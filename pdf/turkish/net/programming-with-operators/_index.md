@@ -22,7 +22,9 @@ Aspose.PDF for .NET'in "Operatörlerle Programlama" eğitimleri, PDF programlama
 | --- | --- | 
 | [Sayfada XForm Çiz](./draw-xform-on-page/) | Bu kapsamlı adım adım kılavuzla .NET için Aspose.PDF kullanarak PDF'de XForms'un nasıl çizileceğini öğrenin. |  
 | [PDF Operatörleri](./pdf-operators/) | Aspose.PDF for .NET ile PDF operatörlerini kullanma konusunda adım adım kılavuz. Bir PDF sayfasına resim ekleyin ve konumunu belirtin. |  
-| [PDF Dosyasındaki Grafik Nesnelerini Kaldır](./remove-graphics-objects/) Bu adım adım kılavuzda Aspose.PDF for .NET kullanarak bir PDF dosyasından grafik nesnelerinin nasıl kaldırılacağını öğrenin. PDF düzenleme görevlerinizi basitleştirin. |  
+| [PDF Dosyasındaki Grafik Nesnelerini Kaldır](./remove-graphics-objects/) | Bu adım adım kılavuzda Aspose.PDF for .NET kullanarak bir PDF dosyasından grafik nesnelerinin nasıl kaldırılacağını öğrenin. PDF düzenleme görevlerinizi basitleştirin. |  
+| [Aspose.Pdf ile Dikdörtgen PDF Ekle – Tam C# Rehberi](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF belgesine dikdörtgen eklemeyi adım adım öğrenin. |  
+| [Aspose.PDF ile PDF Kaynak Sözlüğünü Düzenleme – C# Rehberi](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Aspose.PDF for .NET kullanarak PDF kaynak sözlüğünü nasıl düzenleyeceğinizi adım adım öğrenin. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

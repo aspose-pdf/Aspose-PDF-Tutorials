@@ -68,6 +68,9 @@ Tìm hiểu cách chuyển đổi tệp PDF sang HTML bằng Aspose.PDF cho .NET
 ### [Chuyển đổi PDF sang HTML trong .NET bằng Aspose.PDF mà không cần lưu hình ảnh](./convert-pdf-html-net-asposepdf-no-images/)
 Tìm hiểu cách chuyển đổi tệp PDF sang HTML bằng Aspose.PDF cho .NET mà không cần lưu hình ảnh riêng. Duy trì tính toàn vẹn của bố cục với hướng dẫn chi tiết của chúng tôi.
 
+### [Cách bỏ qua xuất hình ảnh khi chuyển PDF sang HTML – Hướng dẫn C# đầy đủ](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
+Tìm hiểu cách chuyển PDF sang HTML mà không xuất hình ảnh, sử dụng Aspose.PDF cho .NET với C#.
+
 ### [Chuyển đổi PDF sang HTML trong .NET với Đường dẫn hình ảnh tùy chỉnh bằng Aspose.PDF](./convert-pdf-html-custom-image-paths-dotnet/)
 Tìm hiểu cách chuyển đổi tệp PDF sang định dạng HTML bằng Aspose.PDF cho .NET và tùy chỉnh đường dẫn hình ảnh hiệu quả. Lý tưởng cho tích hợp web.
 

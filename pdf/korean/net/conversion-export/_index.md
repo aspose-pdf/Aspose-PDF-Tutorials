@@ -218,11 +218,14 @@ Aspose.PDF for .NET을 사용하여 PDF를 HTML로 변환하는 방법을 최적
 ### [Aspose.PDF .NET을 사용하여 PDF를 HTML로 변환: 이미지를 외부 PNG로 저장](./pdf-to-html-conversion-external-png-aspose-pdf-net/)
 Aspose.PDF for .NET을 사용하여 PDF 문서를 외부 PNG 이미지가 포함된 HTML로 변환하는 방법을 알아보세요. 이 가이드는 레이아웃을 유지하고 웹 성능을 최적화하는 데 도움이 됩니다.
 
-### [Aspose.PDF .NET을 사용한 PDF-HTML 변환: 종합 가이드](./aspose-pdf-net-pdf-to-html-conversion/)
+### [Aspose.PDF .NET을 사용하여 PDF-HTML 변환: 종합 가이드](./aspose-pdf-net-pdf-to-html-conversion/)
 Aspose.PDF for .NET을 사용하여 PDF-HTML 변환을 완벽하게 구현하세요. 사용자 정의 옵션을 통해 문서 접근성과 참여도를 향상시키세요.
 
 ### [Aspose.PDF for .NET을 이용한 PDF-HTML 변환](./pdf-to-html-conversion-aspose-dot-net/)
 Aspose.PDF Net에 대한 코드 튜토리얼
+
+### [Aspose.PDF .NET을 사용하여 PDF를 HTML로 변환: 이미지 내보내기 건너뛰기 – 완전 C# 가이드](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
+Aspose.PDF for .NET을 사용하여 PDF를 HTML로 변환할 때 이미지 파일을 생성하지 않고 변환하는 방법을 단계별 C# 예제로 안내합니다.
 
 ### [Aspose.PDF를 사용하여 .NET에서 PDF를 TIFF로 변환: 단계별 가이드](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Aspose.PDF for .NET을 사용하여 PDF 문서를 TIFF 이미지로 변환하는 방법을 알아보세요. 사용자 정의 색상 심도와 고급 이미지 처리 기술을 익혀보세요.

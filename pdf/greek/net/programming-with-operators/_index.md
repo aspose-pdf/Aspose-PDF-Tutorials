@@ -23,6 +23,8 @@
 | [Σχεδίαση XForm στη σελίδα](./draw-xform-on-page/) | μάθετε πώς να σχεδιάζετε XForms σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με αυτόν τον ολοκληρωμένο οδηγό βήμα προς βήμα. |  
 | [Τελεστές PDF](./pdf-operators/) | Οδηγός βήμα προς βήμα για τη χρήση τελεστών PDF με το Aspose.PDF για .NET. Προσθέστε μια εικόνα σε μια σελίδα PDF και καθορίστε τη θέση της. |  
 | [Αφαίρεση γραφικών αντικειμένων σε αρχείο PDF](./remove-graphics-objects/) Μάθετε πώς να αφαιρείτε γραφικά αντικείμενα από ένα αρχείο PDF χρησιμοποιώντας το Aspose.PDF για .NET σε αυτόν τον οδηγό βήμα προς βήμα. Απλοποιήστε τις εργασίες χειρισμού PDF. |  
+| [Προσθήκη ορθογωνίου PDF με Aspose.Pdf – Πλήρης οδηγός C#](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | Οδηγός βήμα προς βήμα για την προσθήκη ορθογωνίου σε PDF με Aspose.PDF για .NET σε C#. |  
+| [Επεξεργασία λεξικού πόρων PDF με Aspose.PDF – Οδηγός C#](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Οδηγός βήμα προς βήμα για την επεξεργασία του λεξικού πόρων PDF χρησιμοποιώντας Aspose.PDF για .NET σε C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

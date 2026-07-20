@@ -34,7 +34,10 @@ Das Tutorial gibt Ihnen einen detaillierten Überblick über Methoden und Techni
 | [Mit Smartcard unterschreiben und PDF-Dateisignatur verwenden](./sign-with-smart-card-using-pdf-file-signature/) | Erfahren Sie, wie Sie PDF-Dateien mit einer Smartcard mit Aspose.PDF für .NET signieren. Folgen Sie dieser Schritt-für-Schritt-Anleitung für sichere digitale Signaturen. |  
 | [Mit Smartcard unterschreiben und dabei das Signaturfeld verwenden](./sign-with-smart-card-using-signature-field/) | Erfahren Sie, wie Sie PDFs mit Aspose.PDF für .NET sicher per Smartcard signieren. Folgen Sie unserer Schritt-für-Schritt-Anleitung für eine einfache Implementierung. |  
 | [PDF-Signaturen in C# prüfen – So lesen Sie signierte PDF-Dateien](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Signaturen auslesen und signierte PDF-Dateien analysieren. |
-| [PDF-Dateien reparieren – Vollständiger C#-Leitfaden mit Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Erfahren Sie, wie Sie beschädigte PDF-Dateien mit Aspose.PDF für .NET in C# reparieren und wiederherstellen. |  
+| [PDF-Dateien reparieren – Vollständiger C#-Leitfaden mit Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Erfahren Sie, wie Sie beschädigte PDF-Dateien mit Aspose.PDF für .NET in C# reparieren und wiederherstellen. |
+| [PDF mit Aspose validieren – Digitale Signaturen überprüfen](./how-to-validate-pdf-with-aspose-verify-digital-signatures/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Dateien validieren und digitale Signaturen überprüfen. |
+| [Eingebettete Signaturen in PDF mit C# – Vollständige Anleitung](./get-embedded-signatures-pdf-in-c-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET eingebettete Signaturen aus PDF-Dateien in C# auslesen und verarbeiten. |
+| [PDF-Digital-Signatur in C# mit Aspose.PDF validieren](./validate-pdf-digital-signature-in-c-with-aspose-pdf/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET digitale Signaturen in PDF-Dateien in C# prüfen und validieren. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
