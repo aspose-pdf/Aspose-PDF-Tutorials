@@ -23,6 +23,8 @@ Samouczki „Programowanie z operatorami” Aspose.PDF for .NET przeprowadzą Ci
 | [Narysuj XForm na stronie](./draw-xform-on-page/) | dowiedz się, jak rysować formularze XForm w formacie PDF za pomocą Aspose.PDF dla platformy .NET dzięki temu kompleksowemu przewodnikowi krok po kroku. |  
 | [Operatorzy PDF](./pdf-operators/) | Przewodnik krok po kroku dotyczący korzystania z operatorów PDF w Aspose.PDF dla platformy .NET. Dodaj obraz do strony PDF i określ jego pozycję. |  
 | [Usuń obiekty graficzne w pliku PDF](./remove-graphics-objects/) Dowiedz się, jak usuwać obiekty graficzne z pliku PDF za pomocą Aspose.PDF dla .NET w tym przewodniku krok po kroku. Uprość swoje zadania związane z manipulacją PDF. |  
+| [Dodaj prostokąt PDF przy użyciu Aspose.Pdf – Kompletny przewodnik C#](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | Kompletny przewodnik krok po kroku, jak dodać prostokąt do dokumentu PDF przy użyciu Aspose.PDF w C#. |  
+| [Edytuj słownik zasobów PDF przy użyciu Aspose.PDF – przewodnik C#](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Krok po kroku pokażemy, jak edytować słownik zasobów PDF przy użyciu Aspose.PDF w C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

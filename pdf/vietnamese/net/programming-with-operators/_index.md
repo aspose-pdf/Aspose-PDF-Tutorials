@@ -22,7 +22,9 @@ Hướng dẫn "Lập trình với Toán tử" của Aspose.PDF cho .NET hướn
 | --- | --- | 
 | [Vẽ XForm Trên Trang](./draw-xform-on-page/) | hướng dẫn cách vẽ XForms trong PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước toàn diện này. |  
 | [Toán tử PDF](./pdf-operators/) | Hướng dẫn từng bước sử dụng toán tử PDF với Aspose.PDF cho .NET. Thêm hình ảnh vào trang PDF và chỉ định vị trí của hình ảnh đó. |  
-| [Xóa Đối Tượng Đồ Họa Trong Tệp PDF](./remove-graphics-objects/) Tìm hiểu cách xóa các đối tượng đồ họa khỏi tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Đơn giản hóa các tác vụ thao tác PDF của bạn. |  
+| [Xóa Đối Tượng Đồ Họa Trong Tệp PDF](./remove-graphics-objects/) Tìm hiểu cách xóa các đối tượng đồ họa khỏi tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Đơn giản hóa các tác vụ thao tác PDF của bạn. |
+| [Thêm hình chữ nhật PDF với Aspose.Pdf – Hướng dẫn C# đầy đủ](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | Hướng dẫn chi tiết cách thêm hình chữ nhật vào tài liệu PDF bằng Aspose.Pdf cho .NET sử dụng C#. |
+| [Chỉnh sửa Từ điển tài nguyên PDF với Aspose.PDF – Hướng dẫn C#](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Hướng dẫn chi tiết cách chỉnh sửa từ điển tài nguyên trong tệp PDF bằng Aspose.PDF cho .NET sử dụng C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

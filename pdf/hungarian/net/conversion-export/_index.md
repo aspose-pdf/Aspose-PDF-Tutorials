@@ -68,6 +68,9 @@ Tanuld meg, hogyan konvertálhatsz PDF fájlokat HTML-be az Aspose.PDF for .NET 
 ### [PDF konvertálása HTML-be .NET-ben Aspose.PDF használatával képek mentése nélkül](./convert-pdf-html-net-asposepdf-no-images/)
 Tanuld meg, hogyan konvertálhatsz PDF fájlokat HTML-be az Aspose.PDF for .NET segítségével anélkül, hogy külön mentenéd a képeket. Őrizd meg az elrendezés integritását részletes útmutatónkkal.
 
+### [Hogyan hagyjuk ki a képek exportálását PDF-ből HTML-be – Teljes C# útmutató](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
+Tanulja meg, hogyan lehet elkerülni a képek exportálását PDF-ből HTML-be az Aspose.PDF for .NET használatával C#-ban.
+
 ### [PDF konvertálása HTML-be .NET-ben egyéni képútvonalakkal az Aspose.PDF használatával](./convert-pdf-html-custom-image-paths-dotnet/)
 Tanuld meg, hogyan konvertálhatsz PDF fájlokat HTML formátumba az Aspose.PDF for .NET segítségével, és hogyan szabhatod testre hatékonyan a képelérési utakat. Ideális webes integrációhoz.
 
@@ -218,10 +221,10 @@ Ismerje meg, hogyan optimalizálhatja a PDF HTML-be konvertálását az Aspose.P
 ### [PDF HTML-be konvertálása Aspose.PDF .NET használatával: Képek mentése külső PNG-ként](./pdf-to-html-conversion-external-png-aspose-pdf-net/)
 Ismerje meg, hogyan konvertálhat PDF dokumentumokat HTML-be külső PNG képekkel az Aspose.PDF for .NET segítségével. Ez az útmutató biztosítja az elrendezés megőrzését és a webes teljesítmény optimalizálását.
 
-### [PDF HTML-be konvertálása az Aspose.PDF .NET segítségével: Átfogó útmutató](./aspose-pdf-net-pdf-to-html-conversion/)
+### [PDF HTML-be konvertálása Aspose.PDF .NET használatával: Átfogó útmutató](./aspose-pdf-net-pdf-to-html-conversion/)
 Sajátítsa el a PDF-HTML konverzió mesteri szintjét az Aspose.PDF for .NET segítségével. Javítsa a dokumentumok akadálymentesítését és interakcióját testreszabható beállításokkal.
 
-### [PDF HTML-be konvertálása az Aspose.PDF for .NET segítségével](./pdf-to-html-conversion-aspose-dot-net/)
+### [PDF HTML-be konvertálása az Aspose.PDF .NET segítségével](./pdf-to-html-conversion-aspose-dot-net/)
 Kód oktatóanyag az Aspose.PDF Nethez
 
 ### [PDF-ből TIFF-be konvertálás .NET-ben az Aspose.PDF használatával: lépésről lépésre útmutató](./pdf-to-tiff-conversion-aspose-pdf-net/)

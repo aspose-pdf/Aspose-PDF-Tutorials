@@ -23,6 +23,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Menggambar XForm Di Halaman](./draw-xform-on-page/) | pelajari cara menggambar XForms dalam PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah yang komprehensif ini. Bahasa Indonesia:  
 | [Operator PDF](./pdf-operators/) | Panduan langkah demi langkah untuk menggunakan operator PDF dengan Aspose.PDF untuk .NET. Tambahkan gambar ke halaman PDF dan tentukan posisinya. Bahasa Indonesia:  
 | [Hapus Objek Grafik Dalam File PDF](./remove-graphics-objects/) Pelajari cara menghapus objek grafik dari berkas PDF menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah ini. Sederhanakan tugas manipulasi PDF Anda. |  
+| [Menambahkan Persegi Panjang ke PDF dengan Aspose.Pdf – Panduan Lengkap C#](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | Panduan langkah demi langkah menambahkan bentuk persegi panjang ke file PDF menggunakan Aspose.Pdf dengan C#. |  
+| [Edit Kamus Sumber Daya PDF dengan Aspose.PDF – Panduan C#](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Panduan langkah demi langkah mengedit kamus sumber daya PDF menggunakan Aspose.PDF untuk .NET dengan C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -23,6 +23,8 @@ Aspose.PDF for .NET の「演算子を使ったプログラミング」チュー
 | [ページにXFormを描く](./draw-xform-on-page/) この包括的なステップバイステップ ガイドで、Aspose.PDF for .NET を使用して PDF に XForms を描画する方法を学びます。 |  
 | [PDF演算子](./pdf-operators/) Aspose.PDF for .NET で PDF 演算子を使用するためのステップバイステップガイド。PDF ページに画像を追加し、その位置を指定します。 |  
 | [PDFファイル内のグラフィックオブジェクトを削除する](./remove-graphics-objects/) このステップバイステップガイドでは、Aspose.PDF for .NET を使用してPDFファイルからグラフィックオブジェクトを削除する方法を学びます。PDF操作タスクを簡素化します。 |  
+| [Aspose.Pdfで矩形PDFを追加 – 完全なC#ガイド](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) Aspose.PDF for .NET を使用して、C# で矩形を PDF に描画する方法をステップバイステップで解説します。 |  
+| [Aspose.PDFでPDFリソース辞書を編集 – C# ガイド](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) Aspose.PDF for .NET を使用して、PDF のリソース辞書を編集し、カスタムリソースを管理する方法をステップバイステップで解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

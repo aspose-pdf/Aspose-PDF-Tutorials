@@ -218,6 +218,9 @@ Aspose.PDF Net 代码教程
 ### [使用 Aspose.PDF .NET 将 PDF 转换为 HTML：将图像保存为外部 PNG](./pdf-to-html-conversion-external-png-aspose-pdf-net/)
 学习如何使用 Aspose.PDF for .NET 将 PDF 文档转换为包含外部 PNG 图像的 HTML 文档。本指南可确保布局保留并优化 Web 性能。
 
+### [如何在 PDF 转 HTML 时跳过图像导出 – 完整 C# 指南](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
+学习使用 Aspose.PDF for .NET 在将 PDF 转换为 HTML 时跳过图像导出，以提升转换速度并减小文件体积。
+
 ### [使用 Aspose.PDF .NET 将 PDF 转换为 HTML：综合指南](./aspose-pdf-net-pdf-to-html-conversion/)
 使用 Aspose.PDF for .NET 掌握 PDF 到 HTML 的转换。通过可自定义的选项增强文档的可访问性和参与度。
 

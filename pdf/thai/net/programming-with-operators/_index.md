@@ -23,6 +23,8 @@
 - [วาด XForm บนหน้า](./draw-xform-on-page/) | เรียนรู้วิธีการวาด XForms ใน PDF โดยใช้ Aspose.PDF สำหรับ .NET พร้อมคู่มือทีละขั้นตอนที่ครอบคลุมนี้  
 - [ตัวดำเนินการ PDF](./pdf-operators/) | คำแนะนำทีละขั้นตอนในการใช้ตัวดำเนินการ PDF กับ Aspose.PDF สำหรับ .NET เพิ่มรูปภาพลงในหน้า PDF และระบุตำแหน่งของรูปภาพ -  
 | [ลบวัตถุกราฟิกออกจากไฟล์ PDF](./remove-graphics-objects/) เรียนรู้วิธีการลบวัตถุกราฟิกออกจากไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนนี้ ทำให้ภารกิจการจัดการ PDF ของคุณง่ายขึ้น |  
+- [เพิ่มสี่เหลี่ยม PDF ด้วย Aspose.Pdf – คู่มือ C# ฉบับสมบูรณ์](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | เรียนรู้วิธีเพิ่มสี่เหลี่ยมลงในไฟล์ PDF ด้วย Aspose.Pdf สำหรับ .NET ด้วยตัวอย่างโค้ด C# อย่างละเอียด  
+- [แก้ไขพจนานุกรมทรัพยากร PDF ด้วย Aspose.PDF – คู่มือ C#](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | เรียนรู้วิธีแก้ไขพจนานุกรมทรัพยากรของไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ในคู่มือ C# ที่เข้าใจง่าย  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

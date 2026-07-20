@@ -23,6 +23,8 @@ De tutorials "Programmeren met operatoren" van Aspose.PDF voor .NET begeleiden u
 | [XForm op pagina tekenen](./draw-xform-on-page/) | Leer hoe u XForms in PDF kunt tekenen met Aspose.PDF voor .NET met deze uitgebreide stapsgewijze handleiding. |  
 | [PDF-operatoren](./pdf-operators/) | Stapsgewijze handleiding voor het gebruik van PDF-operatoren met Aspose.PDF voor .NET. Voeg een afbeelding toe aan een PDF-pagina en geef de positie ervan op. |  
 | [Grafische objecten uit een PDF-bestand verwijderen](./remove-graphics-objects/) Leer in deze stapsgewijze handleiding hoe u grafische objecten uit een PDF-bestand verwijdert met Aspose.PDF voor .NET. Vereenvoudig uw PDF-bewerkingstaken. |  
+| [Rechthoek toevoegen aan PDF met Aspose.Pdf – Complete C#-gids](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | Leer hoe u een rechthoek toevoegt aan een PDF-bestand met Aspose.Pdf in C# met deze volledige stap‑voor‑stap gids. |  
+| [PDF Resource Dictionary bewerken met Aspose.PDF – C#-gids](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Leer hoe u de resource dictionary van een PDF bewerkt met Aspose.PDF in C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
