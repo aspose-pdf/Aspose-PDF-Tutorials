@@ -1,5 +1,5 @@
 ---
-title: "How to Update Bookmarks in PDF Using Aspose.PDF for Java: A Step‑By‑Step Guide"
+title: "How to Update PDF Bookmarks Using Aspose.PDF for Java API: A Step‑By‑Step Guide"
 description: "Learn how to update bookmarks in PDF files with an Aspose.PDF Java example. This tutorial covers setup, code, and best practices for setting PDF bookmark destination."
 date: "2026-03-04"
 weight: 1
@@ -213,6 +213,7 @@ Ready to implement? Start by downloading [Aspose.PDF](https://releases.aspose.co
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 
 ---
 
