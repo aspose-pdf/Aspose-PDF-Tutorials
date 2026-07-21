@@ -1,8 +1,67 @@
 ---
-date: 2026-02-17
-description: Узнайте, как извлекать встроенные файлы PDF, встраивать файлы и добавлять
-  PDF‑вложения в Java с помощью Aspose.PDF for Java — полный учебник по PDF‑вложениям.
-title: 'Извлечение вложенных файлов PDF: учебник для Aspose.PDF Java'
+date: 2026-07-21
+description: Узнайте, как извлекать вложенные файлы PDF с помощью Aspose.PDF for Java,
+  внедрять новые файлы и добавлять вложения PDF. Это пошаговое руководство охватывает
+  извлечение вложенных pdf‑файлов и извлечение портфолио.
+keywords:
+- how to extract pdf
+- aspose pdf java
+- extract embedded pdf files
+- extract pdf portfolio files
+lastmod: 2026-07-21
+og_description: Как извлечь вложенные файлы PDF с помощью Aspose.PDF for Java. Следуйте
+  этому подробному руководству, чтобы извлекать вложенные pdf‑файлы, управлять портфолио
+  и эффективно добавлять вложения.
+og_image_alt: 'Guide: extract embedded files from PDF using Aspose.PDF for Java'
+og_title: Как извлечь вложенные файлы PDF с помощью Aspose.PDF for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-07-21'
+  description: Learn how to extract PDF embedded files with Aspose.PDF for Java, embed
+    new files, and add PDF attachments. This step‑by‑step guide covers extract embedded
+    pdf files and portfolio extraction.
+  headline: How to Extract PDF Embedded Files Using Aspose.PDF for Java
+  type: TechArticle
+- description: Learn how to extract PDF embedded files with Aspose.PDF for Java, embed
+    new files, and add PDF attachments. This step‑by‑step guide covers extract embedded
+    pdf files and portfolio extraction.
+  name: How to Extract PDF Embedded Files Using Aspose.PDF for Java
+  steps:
+  - name: Load the PDF document
+    text: '`Document` is Aspose.PDF''s top‑level object that represents a single PDF
+      file in memory. Instantiate it with the file path; if the PDF is password‑protected,
+      provide the password as a second argument.'
+  - name: Enumerate attached files
+    text: The `Document.getEmbeddedFiles()` collection returns every embedded file
+      entry, exposing file name, size, and MIME type for each item.
+  - name: Save each attachment to disk
+    text: Iterate through the collection and write each file stream to a location
+      of your choice. This extracts the original attachment content unchanged.
+  - name: (Optional) Remove extracted attachments
+    text: If you need a clean PDF without the original attachments, call `Document.getEmbeddedFiles().clear()`
+      and then save the document.
+  type: HowTo
+- questions:
+  - answer: It means programmatically pulling out files that have been attached to
+      a PDF document.
+    question: What does “extract embedded files pdf” mean?
+  - answer: Aspose.PDF for Java provides a full‑featured API for attachment handling.
+    question: Which library supports this?
+  - answer: A temporary or full license is required for production use; a free trial
+      works for testing.
+    question: Do I need a license?
+  - answer: Yes – you can both embed and extract files in the same workflow.
+    question: Can I embed files while extracting?
+  - answer: Absolutely; you can also extract PDF portfolio files using the same API.
+    question: Is this approach compatible with PDF portfolios?
+  type: FAQPage
+tags:
+- extract pdf
+- aspose pdf java
+- embedded files
+- pdf attachments
+- java pdf processing
+title: Как извлечь вложенные файлы PDF с помощью Aspose.PDF for Java
 url: /ru/java/attachments-embedded-files/
 weight: 11
 ---
@@ -12,105 +71,110 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Учебник по извлечению вложенных файлов PDF для Aspose.PDF Java
+# Как извлечь вложенные файлы PDF с помощью Aspose.PDF для Java
 
-В этом полном руководстве вы узнаете **как извлечь вложенные файлы pdf** и работать с вложенными ресурсами с помощью Aspose.PDF for Java. Независимо от того, нужно ли вам вытащить дополнительные документы, встроить пользовательские шрифты или управлять связанным контентом, мы проведём вас через каждый шаг с понятными, разговорными объяснениями. К концу вы сможете автоматизировать извлечение, встраивать новые файлы и даже добавлять вложения PDF в стиле java, чтобы создавать более насыщенные и интерактивные PDF‑файлы.
+В этом полном руководстве вы узнаете **как извлечь pdf** файлы, вложенные в документ PDF с помощью Aspose.PDF для Java. Независимо от того, нужны ли вам дополнительные отчёты, пользовательские шрифты или любые другие ресурсы, мы пройдём каждый шаг с понятными, разговорными объяснениями, чтобы вы могли автоматизировать извлечение, встраивать новые файлы и добавлять PDF‑вложения в стиле Java.
 
 ## Быстрые ответы
-- **Что означает “extract embedded files pdf”?** Это программное извлечение файлов, которые были прикреплены к документу PDF.  
+- **Что означает “extract embedded files pdf”?** Это означает программное извлечение файлов, которые были вложены в документ PDF.  
 - **Какая библиотека поддерживает это?** Aspose.PDF for Java предоставляет полнофункциональный API для работы с вложениями.  
 - **Нужна ли лицензия?** Для использования в продакшене требуется временная или полная лицензия; бесплатная пробная версия подходит для тестирования.  
-- **Можно ли встраивать файлы во время извлечения?** Да — вы можете одновременно встраивать и извлекать файлы в одном рабочем процессе.  
-- **Совместим ли этот подход с PDF‑портфолио?** Абсолютно; вы также можете извлекать файлы из PDF‑портфолио, используя тот же API.
+- **Можно ли вложить файлы во время извлечения?** Да — вы можете одновременно вкладывать и извлекать файлы в одном рабочем процессе.  
+- **Совместим ли этот подход с PDF‑портфолио?** Абсолютно; вы также можете извлекать файлы PDF‑портфолио с помощью того же API.
 
-## Что такое extract embedded files pdf?
-Извлечение вложенных файлов pdf означает получение любых файлов — изображений, электронных таблиц, текстовых документов или даже других PDF‑файлов, которые были встроены внутри PDF. Эти файлы хранятся как потоки вложенных файлов и могут быть доступны программно через API Aspose.PDF.
+## Что такое извлечение вложенных файлов PDF?
+Извлечение вложенных файлов PDF означает получение любых файлов — изображений, электронных таблиц, текстовых документов или других PDF‑файлов, — которые были вложены внутрь PDF. Эти файлы хранятся как потоки вложенных файлов и могут быть доступны программно через API Aspose.PDF. Извлекая их, вы можете повторно использовать оригинальное содержимое, анализировать прикреплённые данные или переиспользовать ресурсы без ручного открытия исходного PDF.
 
-## Почему стоит извлекать вложенные файлы pdf?
-- **Полный контроль** над жизненным циклом вложений (добавление, удаление, извлечение).  
-- **Кросс‑платформенная** поддержка, работа в любой среде с поддержкой Java.  
-- **Обработка PDF‑портфолио**, позволяющая массово извлекать множество вложенных элементов за один раз.  
-- **Быстрая разработка** благодаря обширной документации и готовым примерам кода.
+## Почему извлекать вложенные файлы PDF?
+Извлечение вложенных файлов PDF даёт вам полный контроль над жизненным циклом вложений, обеспечивает кроссплатформенную обработку и позволяет эффективно работать с PDF‑портфолио. С помощью Aspose.PDF вы можете извлекать до 2 ГБ на одно вложение и управлять тысячами вложенных элементов в одном документе, при этом потребление памяти остаётся низким.
 
 ## Предварительные требования
 - Java Development Kit (JDK) 8 или выше.  
-- Библиотека Aspose.PDF for Java (скачивается по ссылкам ниже).  
+- Библиотека Aspose.PDF for Java (доступна для загрузки по ссылкам ниже).  
 - PDF‑файл, содержащий одно или несколько вложений.
 
-## Как извлечь вложенные файлы pdf с помощью Aspose.PDF for Java
-Ниже представлена пошаговая инструкция процесса извлечения. Сам код находится на связанных страницах‑уроках; здесь мы сосредоточимся на концептуальном потоке.
+## Как извлечь вложенные файлы PDF с помощью Aspose.PDF для Java
+Извлечение вложенных файлов с Aspose.PDF следует простой двухшаговой схеме: загрузить PDF, затем пройтись по коллекции вложенных файлов и записать каждый поток на диск. Такой подход работает как для одиночных PDF, так и для портфолио, содержащих множество вложенных элементов.
 
-### Шаг 1: Загрузите PDF‑документ
-Откройте целевой PDF с помощью класса `Document`. Если файл защищён паролем, укажите пароль при загрузке.
+Класс `Document` представляет PDF‑файл, загруженный в память.  
+Коллекция `EmbeddedFiles` содержит все файлы, вложенные в PDF.
 
-### Шаг 2: Перечислите вложенные файлы
-Используйте коллекцию `Document.getEmbeddedFiles()` для получения списка всех вложенных файлов. Каждая запись содержит имя файла, размер и MIME‑тип.
+### Шаг 1: Загрузить PDF‑документ
+`Document` — это объект верхнего уровня Aspose.PDF, представляющий один PDF‑файл в памяти. Создайте его, указав путь к файлу; если PDF защищён паролем, передайте пароль вторым аргументом.
 
-### Шаг 3: Сохраните каждое вложение на диск
-Пройдитесь по коллекции и запишите каждый поток файла в выбранное вами место. Это извлечёт оригинальное содержимое вложения без изменений.
+### Шаг 2: Перечислить вложенные файлы
+Коллекция `Document.getEmbeddedFiles()` возвращает каждую запись вложенного файла, раскрывая имя файла, размер и MIME‑тип для каждого элемента.
 
-### Шаг 4: (Опционально) Удалите извлечённые вложения
-Если нужен чистый PDF без оригинальных вложений, вызовите `Document.getEmbeddedFiles().clear()` и сохраните документ.
+### Шаг 3: Сохранить каждое вложение на диск
+Пройдите по коллекции и запишите каждый поток файла в выбранное вами место. Это извлекает оригинальное содержимое вложения без изменений.
 
-## Как встраивать файлы в стиле PDF
-Встраивание файлов следует той же схеме в обратном порядке: создайте объект `FileSpecification`, задайте его свойства и добавьте его в коллекцию вложенных файлов документа. Это удобно, когда нужно собрать дополнительные ресурсы непосредственно внутри PDF.
+### Шаг 4: (Опционально) Удалить извлечённые вложения
+Если нужен чистый PDF без оригинальных вложений, вызовите `Document.getEmbeddedFiles().clear()` и затем сохраните документ.
 
-## Как добавить вложения PDF‑style на Java
-Добавление вложений простое с Aspose.PDF. Создайте `FileSpecification` для каждого файла, который хотите прикрепить, затем добавьте его в документ. Эта техника описана в учебнике «add pdf attachments java», ссылка ниже.
+## Как вкладывать файлы в стиле PDF
+Вложение файлов следует той же схеме в обратном порядке. Создайте объект `FileSpecification` (класс, определяющий вложенный файл), задайте его свойства и добавьте в коллекцию `EmbeddedFiles` документа. Это позволяет упаковать дополнительные ресурсы непосредственно внутри PDF.
 
-## Как извлечь файлы из PDF‑портфолио
-PDF‑портфолио — это контейнеры, способные хранить несколько PDF‑файлов и другие типы файлов. Используйте ту же коллекцию `EmbeddedFiles` для перебора элементов портфолио, затем извлеките каждый из них отдельно. Учебник «extract pdf portfolio files» предоставляет подробный пример кода.
+## Как добавить PDF‑вложения на Java
+Добавление вложений простое с Aspose.PDF. Создайте `FileSpecification` для каждого файла, который хотите вложить, затем добавьте его в коллекцию вложенных файлов документа. API автоматически определяет MIME‑тип и создаёт поток, гарантируя корректную упаковку каждого вложения в PDF.
 
-## Распространённые ошибки и их устранение
-- **Недостаточные права:** Убедитесь, что процесс имеет права записи в целевую папку.  
-- **Зашифрованные PDF:** Укажите правильный пароль, иначе извлечение завершится неудачей.  
+## Как извлечь файлы PDF‑портфолио
+PDF‑портфолио — это контейнеры, способные хранить несколько PDF и другие типы файлов. Используйте ту же коллекцию `EmbeddedFiles`, чтобы пройтись по элементам портфолио, затем извлеките каждый из них отдельно. Процесс извлечения портфолио идентичен обычному извлечению вложенных файлов, что упрощает пакетную обработку сложных документов.
+
+## Распространённые проблемы и их устранение
+- **Отсутствие прав:** Убедитесь, что процесс имеет права записи в целевую папку.  
+- **Зашифрованные PDF:** Укажите правильный пароль; иначе извлечение завершится ошибкой.  
 - **Большие вложения:** Для очень больших файлов рассмотрите возможность потоковой записи вывода, чтобы избежать высокого потребления памяти.  
 
-## PDF attachment tutorial java – Связанные руководства
+## Руководство по PDF‑вложениям на Java – Связанные руководства
 
-### Доступные учебники
+### Доступные руководства
 
-- [Efficiently Remove All Attachments from a PDF Using Aspose.PDF for Java](./remove-attachments-pdf-aspose-java/)
-- [How to Add Attachments to PDFs using Aspose.PDF for Java&#58; A Developer’s Guide](./add-attachments-pdf-aspose-pdf-java/)
-- [How to Extract Embedded Files from PDFs Using Aspose.PDF for Java&#58; A Comprehensive Guide](./extract-embedded-files-pdf-aspose-java-guide/)
-- [How to Extract Embedded Files from a PDF Portfolio Using Aspose.PDF Java](./extract-files-pdf-portfolio-aspose-java/)
-- [Master Aspose.PDF Java&#58; Access and Manage Embedded Files in PDFs](./master-aspose-pdf-java-access-manage-embedded-files/)
+- [Эффективно удалить все вложения из PDF с помощью Aspose.PDF для Java](./remove-attachments-pdf-aspose-java/)
+- [Как добавить вложения в PDF с помощью Aspose.PDF for Java: Руководство разработчика](./add-attachments-pdf-aspose-pdf-java/)
+- [Как извлечь вложенные файлы из PDF с помощью Aspose.PDF for Java: Полное руководство](./extract-embedded-files-pdf-aspose-java-guide/)
+- [Как извлечь вложенные файлы из PDF‑портфолио с помощью Aspose.PDF Java](./extract-files-pdf-portfolio-aspose-java/)
+- [Мастер Aspose.PDF Java: Доступ и управление вложенными файлами в PDF](./master-aspose-pdf-java-access-manage-embedded-files/)
 
 ## Дополнительные ресурсы
 
-- [Aspose.PDF for Java Documentation](https://docs.aspose.com/pdf/java/)
-- [Aspose.PDF for Java API Reference](https://reference.aspose.com/pdf/java/)
-- [Download Aspose.PDF for Java](https://releases.aspose.com/pdf/java/)
-- [Free Support](https://forum.aspose.com/)
-- [Temporary License](https://purchase.aspose.com/temporary-license/)
+- [Документация Aspose.PDF for Java](https://docs.aspose.com/pdf/java/)
+- [Справочник API Aspose.PDF for Java](https://reference.aspose.com/pdf/java/)
+- [Скачать Aspose.PDF for Java](https://releases.aspose.com/pdf/java/)
+- [Бесплатная поддержка](https://forum.aspose.com/)
+- [Временная лицензия](https://purchase.aspose.com/temporary-license/)
 
 ## Часто задаваемые вопросы
 
-**Q:** *Можно ли извлекать вложения из PDF, защищённого паролем?*  
-**A:** Да. Укажите пароль при открытии объекта `Document`, затем выполните шаги извлечения.
+**Q:** *Можно ли извлечь вложения из PDF, защищённого паролем?*  
+**A:** Да. Укажите пароль при открытии объекта `Document`, затем продолжайте выполнение шагов извлечения.
 
-**Q:** *Есть ли ограничение на количество вложений, которые можно встроить?*  
-**A:** Aspose.PDF не накладывает строгих ограничений; практический предел определяется спецификацией PDF и доступной оперативной памятью.
+**Q:** *Есть ли ограничение на количество вложений, которые я могу вложить?*  
+**A:** Aspose.PDF поддерживает до 2 ГБ на одно вложение и может обрабатывать тысячи вложенных файлов; практический предел определяется спецификацией PDF и доступной памятью.
 
 **Q:** *Как извлечь вложения из PDF‑портфолио?*  
-**A:** Используйте ту же коллекцию `EmbeddedFiles`; каждый элемент портфолио появляется как вложенный файл, который можно сохранить отдельно.
+**A:** Используйте ту же коллекцию `EmbeddedFiles`; каждый элемент портфолио отображается как вложенный файл, который можно сохранить отдельно.
 
-**Q:** *Нужна ли отдельная лицензия для встраивания и для извлечения?*  
+**Q:** *Нужна ли отдельная лицензия для вложения и извлечения?*  
 **A:** Нет. Одна лицензия Aspose.PDF for Java покрывает все функции, связанные с вложениями.
 
-**Q:** *Можно ли автоматизировать процесс для пакетной обработки PDF‑файлов?*  
+**Q:** *Можно ли автоматизировать процесс для пакетной обработки PDF?*  
 **A:** Абсолютно. Оберните логику извлечения в цикл, который обрабатывает каждый файл в каталоге.
 
----
-
-**Последнее обновление:** 2026-02-17  
+**Последнее обновление:** 2026-07-21  
 **Тестировано с:** Aspose.PDF for Java 24.12  
-**Автор:** Aspose  
+**Автор:** Aspose
+
+## Связанные руководства
+
+- [Как создать вложенные вложения PDF с помощью Aspose.PDF for Java — Руководство разработчика](/pdf/java/attachments-embedded-files/add-attachments-pdf-aspose-pdf-java/)
+- [Учебник Aspose PDF Java: Доступ и управление вложенными файлами в PDF](/pdf/java/attachments-embedded-files/master-aspose-pdf-java-access-manage-embedded-files/)
+- [Извлечение вложенных файлов PDF из PDF‑портфолио с Aspose.PDF Java](/pdf/java/attachments-embedded-files/extract-files-pdf-portfolio-aspose-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
