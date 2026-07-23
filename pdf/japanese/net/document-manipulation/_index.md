@@ -261,7 +261,7 @@ Aspose.PDF Net のコードチュートリアル
 Aspose.PDF for .NET を使用して、表や画像を使った動的なPDFヘッダーを作成する方法を学びましょう。ドキュメントのデザインを簡単に強化できます。
 
 ### [Aspose.PDF for .NET で PDF 連結をマスターする: 総合ガイド](./mastering-pdf-concatenation-aspose-net-guide/)
-Aspose.PDF for .NET を使用して複数の PDF ファイルをシームレスに連結する方法を学びましょう。このガイドでは、セットアップ、連結、破損したファイルの処理について説明します。
+Aspose.PDF for .NET を使用して�数の PDF ファイルをシームレスに連結する方法を学びましょう。このガイドでは、セットアップ、連結、破損したファイルの処理について説明します。
 
 ### [PDF 管理をマスターする: Aspose.PDF .NET による効率的なページ方向、色、空白検出](./aspose-pdf-net-page-orientation-color-blank-detection/)
 Aspose.PDF for .NET を使用して、ページの向きを変更したり、白色を検出したり、空白ページを識別したりすることで、PDF ドキュメントを効率的に管理する方法を学習します。
@@ -310,6 +310,9 @@ Aspose.PDF for .NET を使用して、複数ページのPDFを分割し、新し
 
 ### [Aspose.PDF .NET による PDF 操作の究極ガイド: テキストを効率的に読み込み、保存し、置換する](./master-pdf-manipulation-aspose-pdf-net/)
 Aspose.PDF for .NET を使って PDF 操作をマスターする方法を学びましょう。このガイドでは、PDF 内のテキストの読み込み、保存、置換について解説しており、効率性を重視する開発者に最適です。
+
+### [更新された PDF を保存 – Aspose.Pdf で PDF リソースを編集する](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+Aspose.PDF を使用して、編集した PDF リソースを保存し、最新の PDF ファイルを生成する方法を学びます。
 
 ## 追加リソース
 

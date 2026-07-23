@@ -306,10 +306,13 @@ Aprenda a dividir um arquivo PDF em páginas individuais usando o Aspose.PDF par
 Aprenda a dividir páginas de PDF em arquivos separados usando o Aspose.PDF para .NET. Este guia completo aborda dicas de configuração, implementação e otimização.
 
 ### [Dividir e Criar Arquivos PDF Usando Aspose.PDF .NET | Guia de Manipulação de Documentos](./split-create-pdf-aspose-pdf-net/)
-Aprenda a dividir PDFs de várias páginas e criar novos arquivos PDF usando o Aspose.PDF para .NET. Siga este guia completo com exemplos de código.
+Aprenda a dividir PDFs de várias páginas e criar novos arquivos PDF usando o Aspose.PDF .NET. Siga este guia completo com exemplos de código.
 
 ### [Guia definitivo para manipulação de PDF com Aspose.PDF .NET: carregue, salve e substitua texto com eficiência](./master-pdf-manipulation-aspose-pdf-net/)
 Aprenda a dominar a manipulação de PDFs usando o Aspose.PDF para .NET. Este guia aborda como carregar, salvar e substituir texto em PDFs, ideal para desenvolvedores que buscam eficiência.
+
+### [Salvar PDF Atualizado – Editar Recursos PDF com Aspose.PDF](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+Aprenda a salvar as alterações feitas em um documento PDF usando Aspose.PDF para .NET.
 
 ## Recursos adicionais
 

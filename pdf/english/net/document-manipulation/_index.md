@@ -216,7 +216,7 @@ Learn how to insert pages into a PDF using Aspose.PDF for .NET. This step-by-ste
 Learn how to insert pages into a PDF using Aspose.PDF for .NET with this step-by-step guide. Streamline your document workflow efficiently.
 
 ### [Insert an Empty Page in PDF using Aspose.PDF .NET&#58; A Comprehensive Guide](./aspose-pdf-net-insert-empty-page/)
-Learn how to insert empty pages into PDF documents with ease using Aspose.PDF for .NET. Follow this step-by-step guide to enhance your document manipulation skills.
+Learn how to insert empty pages into PDF documents with ease using Aspose.PDF .NET. Follow this step-by-step guide to enhance your document manipulation skills.
 
 ### [Master Aspose.PDF .NET's MakeNUp Method for Efficient PDF Layouts](./aspose-pdf-net-make-nup-method-pdf-layout/)
 Learn how to efficiently rearrange multiple PDF pages into new layouts using Aspose.PDF .NET's MakeNUp method. Ideal for newsletters, brochures, and reports.
@@ -310,6 +310,9 @@ Learn how to split multi-page PDFs and create new PDF files using Aspose.PDF for
 
 ### [Ultimate Guide to PDF Manipulation with Aspose.PDF .NET&#58; Load, Save & Replace Text Efficiently](./master-pdf-manipulation-aspose-pdf-net/)
 Learn how to master PDF manipulation using Aspose.PDF for .NET. This guide covers loading, saving, and replacing text in PDFs, ideal for developers seeking efficiency.
+
+### [Save Updated PDF – Edit PDF Resources with Aspose.Pdf](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+Learn how to save changes to a PDF after editing its resources using Aspose.PDF for .NET.
 
 ## Additional Resources
 
