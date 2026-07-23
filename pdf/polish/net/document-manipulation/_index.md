@@ -287,6 +287,9 @@ Opanuj manipulację PDF za pomocą Aspose.PDF dla .NET. Dowiedz się, jak ładow
 ### [Zastąp pierwsze wystąpienie tekstu w pliku PDF za pomocą Aspose.PDF dla .NET — kompleksowy przewodnik](./replace-first-text-occurrence-aspose-pdf-net/)
 Dowiedz się, jak zastąpić pierwsze wystąpienie tekstu w pliku PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje konfigurację, przykłady kodu i praktyczne zastosowania.
 
+### [Zapisz zaktualizowany PDF – Edytuj zasoby PDF przy użyciu Aspose.PDF](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+Dowiedz się, jak zapisać zmodyfikowany plik PDF po edycji zasobów przy użyciu Aspose.PDF w .NET.
+
 ### [Zmiana rozmiaru zawartości pliku PDF za pomocą Aspose.PDF dla .NET](./resize-pdf-contents-aspose-pdf-dotnet/)
 Samouczek dotyczący kodu dla Aspose.PDF Net
 
