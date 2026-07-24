@@ -16,6 +16,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Hur man uppdaterar bokmärken i PDF med Aspose.PDF för Java: En steg‑för‑steg‑guide
 
 ## Introduktion
@@ -207,6 +208,12 @@ Redo att implementera? Börja med att ladda ner [Aspose.PDF](https://releases.as
 - **Tillfällig licens**: [Get Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Supportforum**: [Aspose PDF Support](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Senast uppdaterad:** 2026-03-04  
+**Testad med:** Aspose.PDF för Java 25.3  
+**Författare:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -214,9 +221,3 @@ Redo att implementera? Börja med att ladda ner [Aspose.PDF](https://releases.as
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Senast uppdaterad:** 2026-03-04  
-**Testad med:** Aspose.PDF för Java 25.3  
-**Författare:** Aspose

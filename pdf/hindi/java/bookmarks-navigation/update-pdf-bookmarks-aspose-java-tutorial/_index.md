@@ -18,6 +18,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Aspose.PDF for Java का उपयोग करके PDF में बुकमार्क अपडेट करने की चरण‑दर‑चरण गाइड
 
 ## परिचय
@@ -208,6 +209,12 @@ A: यह सीमित कार्यक्षमता के साथ ए
 - **Temporary License**: [Get Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Support Forum**: [Aspose PDF Support](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Last Updated:** 2026-03-04  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -215,9 +222,3 @@ A: यह सीमित कार्यक्षमता के साथ ए
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-04  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

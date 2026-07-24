@@ -16,6 +16,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # วิธีอัปเดตบุ๊กมาร์กใน PDF ด้วย Aspose.PDF for Java: คู่มือแบบขั้นตอน
 
 ## บทนำ
@@ -207,6 +208,12 @@ A: มี [free trial](https://releases.aspose.com/pdf/java/) ที่ให้
 - **Temporary License**: [Get Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Support Forum**: [Aspose PDF Support](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Last Updated:** 2026-03-04  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -214,9 +221,3 @@ A: มี [free trial](https://releases.aspose.com/pdf/java/) ที่ให้
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-04  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

@@ -15,6 +15,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # 如何使用 Aspose.PDF for Java 更新 PDF 書籤：逐步指南
 
 ## 簡介
@@ -173,19 +174,19 @@ pdfDocument.save(outputDir + "BookmarkUpdated_output.pdf");
 
 ## 常見問答
 
-**Q: What is Aspose.PDF for Java?**  
+**Q：什麼是 Aspose.PDF for Java？**  
 A: 它是一套功能強大的程式庫，可使用 Java 程式化地建立、編輯與管理 PDF 檔案。
 
-**Q: How do I install Aspose.PDF in my project?**  
+**Q：如何在我的專案中安裝 Aspose.PDF？**  
 A: 使用 Maven 或 Gradle 如設定指南所示，將相依加入專案即可。
 
-**Q: Can I update multiple bookmarks at once?**  
+**Q：我可以一次更新多個書籤嗎？**  
 A: 可以，遍歷 `OutlineItemCollection` 並依需求逐一更新書籤。
 
-**Q: What happens if a specified page doesn't exist?**  
+**Q：如果指定的頁面不存在會怎樣？**  
 A: 可能會拋出例外。設定目標前務必先驗證頁碼是否有效。
 
-**Q: Is Aspose.PDF free to use?**  
+**Q：Aspose.PDF 可以免費使用嗎？**  
 A: 它提供 [free trial](https://releases.aspose.com/pdf/java/) 供有限功能使用。若需完整功能，請購買授權或取得臨時授權。
 
 ## 結論
@@ -204,6 +205,12 @@ A: 它提供 [free trial](https://releases.aspose.com/pdf/java/) 供有限功能
 - **Temporary License**： [Get Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Support Forum**： [Aspose PDF Support](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**最後更新：** 2026-03-04  
+**測試於：** Aspose.PDF for Java 25.3  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -211,9 +218,3 @@ A: 它提供 [free trial](https://releases.aspose.com/pdf/java/) 供有限功能
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最後更新：** 2026-03-04  
-**測試於：** Aspose.PDF for Java 25.3  
-**作者：** Aspose

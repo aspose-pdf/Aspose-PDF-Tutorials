@@ -17,6 +17,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Wie man Lesezeichen in PDF mit Aspose.PDF für Java aktualisiert: Eine Schritt‑für‑Schritt‑Anleitung
 
 ## Einführung
@@ -208,6 +209,12 @@ Bereit zur Implementierung? Laden Sie noch heute [Aspose.PDF](https://releases.a
 - **Temporary License**: [Get Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Support Forum**: [Aspose PDF Support](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Zuletzt aktualisiert:** 2026-03-04  
+**Getestet mit:** Aspose.PDF for Java 25.3  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -215,9 +222,3 @@ Bereit zur Implementierung? Laden Sie noch heute [Aspose.PDF](https://releases.a
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Zuletzt aktualisiert:** 2026-03-04  
-**Getestet mit:** Aspose.PDF for Java 25.3  
-**Autor:** Aspose

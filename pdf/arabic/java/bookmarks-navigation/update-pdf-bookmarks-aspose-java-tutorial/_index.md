@@ -18,6 +18,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # كيفية تحديث العلامات المرجعية في PDF باستخدام Aspose.PDF for Java: دليل خطوة بخطوة
 
 ## المقدمة
@@ -207,6 +208,12 @@ pdfDocument.save(outputDir + "BookmarkUpdated_output.pdf");
 - **ترخيص مؤقت**: [Get Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **منتدى الدعم**: [Aspose PDF Support](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**آخر تحديث:** 2026-03-04  
+**تم الاختبار مع:** Aspose.PDF for Java 25.3  
+**المؤلف:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -214,9 +221,3 @@ pdfDocument.save(outputDir + "BookmarkUpdated_output.pdf");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**آخر تحديث:** 2026-03-04  
-**تم الاختبار مع:** Aspose.PDF for Java 25.3  
-**المؤلف:** Aspose

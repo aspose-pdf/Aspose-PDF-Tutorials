@@ -17,6 +17,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Как обновить закладки в PDF с помощью Aspose.PDF for Java: пошаговое руководство
 
 ## Введение
@@ -208,6 +209,12 @@ pdfDocument.save(outputDir + "BookmarkUpdated_output.pdf");
 - **Временная лицензия**: [Get Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Форум поддержки**: [Aspose PDF Support](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Последнее обновление:** 2026-03-04  
+**Тестировано с:** Aspose.PDF for Java 25.3  
+**Автор:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -215,9 +222,3 @@ pdfDocument.save(outputDir + "BookmarkUpdated_output.pdf");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2026-03-04  
-**Тестировано с:** Aspose.PDF for Java 25.3  
-**Автор:** Aspose

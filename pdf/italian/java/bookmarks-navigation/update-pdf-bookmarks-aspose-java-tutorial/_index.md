@@ -17,6 +17,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Come aggiornare i segnalibri in PDF usando Aspose.PDF per Java: una guida passo‑passo
 
 ## Introduzione
@@ -202,6 +203,12 @@ Pronto per implementare? Inizia scaricando [Aspose.PDF](https://releases.aspose.
 - **Licenza temporanea**: [Get Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Forum di supporto**: [Aspose PDF Support](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Last Updated:** 2026-03-04  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -209,9 +216,3 @@ Pronto per implementare? Inizia scaricando [Aspose.PDF](https://releases.aspose.
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-04  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

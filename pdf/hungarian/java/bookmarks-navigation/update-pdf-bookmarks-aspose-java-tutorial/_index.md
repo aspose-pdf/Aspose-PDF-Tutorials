@@ -18,6 +18,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Hogyan frissítsük a könyvjelzőket PDF-ben az Aspose.PDF for Java segítségével: Lépés‑ről‑lépésre útmutató
 
 ## Bevezetés
@@ -209,6 +210,12 @@ Készen áll a megvalósításra? Kezdje el letölteni az [Aspose.PDF](https://r
 - **Ideiglenes licenc**: [Get Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Támogatási fórum**: [Aspose PDF Support](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Last Updated:** 2026-03-04  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -216,9 +223,3 @@ Készen áll a megvalósításra? Kezdje el letölteni az [Aspose.PDF](https://r
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-04  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

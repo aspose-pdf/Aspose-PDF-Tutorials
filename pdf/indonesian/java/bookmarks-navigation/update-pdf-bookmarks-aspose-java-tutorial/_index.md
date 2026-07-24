@@ -18,6 +18,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Cara Memperbarui Bookmark di PDF Menggunakan Aspose.PDF untuk Java: Panduan Langkah‑Demi‑Langkah
 
 ## Pendahuluan
@@ -209,6 +210,12 @@ Siap untuk mengimplementasikan? Mulailah dengan mengunduh [Aspose.PDF](https://r
 - **Lisensi Sementara**: [Get Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Forum Dukungan**: [Aspose PDF Support](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Terakhir Diperbarui:** 2026-03-04  
+**Diuji Dengan:** Aspose.PDF untuk Java 25.3  
+**Penulis:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -216,9 +223,3 @@ Siap untuk mengimplementasikan? Mulailah dengan mengunduh [Aspose.PDF](https://r
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Terakhir Diperbarui:** 2026-03-04  
-**Diuji Dengan:** Aspose.PDF untuk Java 25.3  
-**Penulis:** Aspose

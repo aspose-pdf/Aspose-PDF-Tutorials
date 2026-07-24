@@ -15,6 +15,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # 如何使用 Aspose.PDF for Java 更新 PDF 书签：一步步指南
 
 ## 介绍
@@ -207,6 +208,12 @@ pdfDocument.save(outputDir + "BookmarkUpdated_output.pdf");
 - **临时许可证**： [获取临时许可证](https://purchase.aspose.com/temporary-license/)  
 - **支持论坛**： [Aspose PDF 支持](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**最后更新：** 2026-03-04  
+**测试环境：** Aspose.PDF for Java 25.3  
+**作者：** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -214,9 +221,3 @@ pdfDocument.save(outputDir + "BookmarkUpdated_output.pdf");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**最后更新：** 2026-03-04  
-**测试环境：** Aspose.PDF for Java 25.3  
-**作者：** Aspose

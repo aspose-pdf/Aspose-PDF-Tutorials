@@ -18,6 +18,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Jak aktualizovat záložky v PDF pomocí Aspose.PDF pro Java: Průvodce krok za krokem
 
 ## Úvod
@@ -209,6 +210,12 @@ Jste připraveni implementovat? Začněte stažením [Aspose.PDF](https://releas
 - **Dočasná licence**: [Get Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Fórum podpory**: [Aspose PDF Support](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Poslední aktualizace:** 2026-03-04  
+**Testováno s:** Aspose.PDF for Java 25.3  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -216,9 +223,3 @@ Jste připraveni implementovat? Začněte stažením [Aspose.PDF](https://releas
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Poslední aktualizace:** 2026-03-04  
-**Testováno s:** Aspose.PDF for Java 25.3  
-**Autor:** Aspose

@@ -18,6 +18,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Cómo actualizar marcadores en PDF usando Aspose.PDF para Java: una guía paso a paso
 
 ## Introducción
@@ -209,6 +210,12 @@ Ahora ha aprendido **cómo actualizar marcadores** dentro de PDFs usando Aspose.
 - **Licencia temporal**: [Get Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Foro de soporte**: [Aspose PDF Support](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Última actualización:** 2026-03-04  
+**Probado con:** Aspose.PDF para Java 25.3  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -216,9 +223,3 @@ Ahora ha aprendido **cómo actualizar marcadores** dentro de PDFs usando Aspose.
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última actualización:** 2026-03-04  
-**Probado con:** Aspose.PDF para Java 25.3  
-**Autor:** Aspose

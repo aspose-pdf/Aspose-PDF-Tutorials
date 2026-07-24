@@ -18,6 +18,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Πώς να Ενημερώσετε Σελιδοδείκτες σε PDF Χρησιμοποιώντας το Aspose.PDF για Java: Οδηγός Βήμα‑Βήμα
 
 ## Εισαγωγή
@@ -209,6 +210,12 @@ pdfDocument.save(outputDir + "BookmarkUpdated_output.pdf");
 - **Προσωρινή Άδεια**: [Get Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Φόρουμ Υποστήριξης**: [Aspose PDF Support](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Τελευταία Ενημέρωση:** 2026-03-04  
+**Δοκιμάστηκε Με:** Aspose.PDF για Java 25.3  
+**Συγγραφέας:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -216,9 +223,3 @@ pdfDocument.save(outputDir + "BookmarkUpdated_output.pdf");
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Τελευταία Ενημέρωση:** 2026-03-04  
-**Δοκιμάστηκε Με:** Aspose.PDF για Java 25.3  
-**Συγγραφέας:** Aspose

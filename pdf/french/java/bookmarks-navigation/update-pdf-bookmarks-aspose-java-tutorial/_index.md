@@ -18,6 +18,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Comment mettre à jour les signets dans un PDF avec Aspose.PDF pour Java : Guide étape par étape
 
 ## Introduction
@@ -209,6 +210,12 @@ Prêt à implémenter ? Commencez dès maintenant en téléchargeant [Aspose.P
 - **Licence temporaire** : [Obtenir une licence temporaire](https://purchase.aspose.com/temporary-license/)  
 - **Forum de support** : [Support PDF Aspose](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Dernière mise à jour :** 2026-03-04  
+**Testé avec :** Aspose.PDF pour Java 25.3  
+**Auteur :** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -216,9 +223,3 @@ Prêt à implémenter ? Commencez dès maintenant en téléchargeant [Aspose.P
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Dernière mise à jour :** 2026-03-04  
-**Testé avec :** Aspose.PDF pour Java 25.3  
-**Auteur :** Aspose

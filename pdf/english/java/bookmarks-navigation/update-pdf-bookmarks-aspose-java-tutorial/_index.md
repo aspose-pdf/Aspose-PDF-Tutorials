@@ -15,6 +15,7 @@ keywords:
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # How to Update Bookmarks in PDF Using Aspose.PDF for Java: A Step‑By‑Step Guide
 
 ## Introduction
@@ -206,6 +207,12 @@ Ready to implement? Start by downloading [Aspose.PDF](https://releases.aspose.co
 - **Temporary License**: [Get Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Support Forum**: [Aspose PDF Support](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Last Updated:** 2026-03-04  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -213,10 +220,3 @@ Ready to implement? Start by downloading [Aspose.PDF](https://releases.aspose.co
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-04  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose

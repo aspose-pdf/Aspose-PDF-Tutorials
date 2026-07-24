@@ -18,6 +18,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Como Atualizar Marcadores em PDF Usando Aspose.PDF para Java: Um Guia Passo‑a‑Passo
 
 ## Introdução
@@ -209,6 +210,12 @@ Pronto para implementar? Comece baixando [Aspose.PDF](https://releases.aspose.co
 - **Licença Temporária**: [Get Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Fórum de Suporte**: [Aspose PDF Support](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Última atualização:** 2026-03-04  
+**Testado com:** Aspose.PDF para Java 25.3  
+**Autor:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -216,9 +223,3 @@ Pronto para implementar? Comece baixando [Aspose.PDF](https://releases.aspose.co
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Última atualização:** 2026-03-04  
-**Testado com:** Aspose.PDF para Java 25.3  
-**Autor:** Aspose

@@ -18,6 +18,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Cách Cập Nhật Dấu Trang trong PDF Sử Dụng Aspose.PDF cho Java: Hướng Dẫn Từng Bước
 
 ## Giới thiệu
@@ -209,6 +210,12 @@ Sẵn sàng triển khai? Bắt đầu bằng cách tải xuống [Aspose.PDF](h
 - **Temporary License**: [Get Temporary License](https://purchase.aspose.com/temporary-license/)  
 - **Support Forum**: [Aspose PDF Support](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Last Updated:** 2026-03-04  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -216,9 +223,3 @@ Sẵn sàng triển khai? Bắt đầu bằng cách tải xuống [Aspose.PDF](h
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-04  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose
