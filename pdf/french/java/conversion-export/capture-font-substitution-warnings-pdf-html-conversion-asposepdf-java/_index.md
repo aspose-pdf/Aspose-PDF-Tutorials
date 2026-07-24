@@ -18,6 +18,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Conversion PDF vers HTML : Capturer les avertissements de substitution de police avec Aspose.PDF for Java
 
 ## Introduction

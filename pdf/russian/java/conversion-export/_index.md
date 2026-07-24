@@ -13,6 +13,7 @@ weight: 9
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # pdf to png java – Руководства по конвертации и экспорту PDF с Aspose.PDF Java
 
 Если вы ищете **конвертацию страниц PDF в PNG‑изображения** на Java, вы попали в нужное место. Этот центр собирает самые полные **pdf to png java** руководства, а также связанные гайды, такие как **add html to pdf**, **pdf to searchable text**, **pdf to excel java**, **pdf to word java** и **svg to pdf java**. Независимо от того, нужна ли вам конвертация одной страницы, пакетная обработка или продвинутые настройки изображений, пошаговые примеры ниже помогут вам построить надёжные конвейеры обработки документов с Aspose.PDF for Java.
@@ -153,6 +154,12 @@ weight: 9
 - [Бесплатная поддержка](https://forum.aspose.com/)
 - [Временная лицензия](https://purchase.aspose.com/temporary-license/)
 
+---
+
+**Последнее обновление:** 2026-03-09  
+**Тестировано с:** Aspose.PDF 24.11 for Java  
+**Автор:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -160,9 +167,3 @@ weight: 9
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Последнее обновление:** 2026-03-09  
-**Тестировано с:** Aspose.PDF 24.11 for Java  
-**Автор:** Aspose

@@ -11,29 +11,12 @@ url: /ar/java/conversion-export/capture-font-substitution-warnings-pdf-html-conv
 weight: 1
 ---
 
-** as is? The phrase is technical but we can keep as is, but maybe keep the bold formatting. We'll translate the rest.
-
-Let's translate.
-
-We'll go through each paragraph.
-
-I'll produce the final markdown.
-
-Be careful with bullet lists: Use "-" and keep same indentation.
-
-Also table: Keep same pipe format, translate cell contents.
-
-Also Quick Answers: headings and bullet list.
-
-Make sure to keep code block placeholders as separate lines.
-
-Ok let's craft.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # تحويل PDF إلى HTML: التقاط تحذيرات استبدال الخطوط باستخدام Aspose.PDF للغة Java
 
 ## المقدمة

@@ -11,17 +11,12 @@ url: /ko/java/conversion-export/capture-font-substitution-warnings-pdf-html-conv
 weight: 1
 ---
 
- tables.
-
-Now produce final output with all translations.
-
-Let's construct final content.
-
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # PDF to HTML 변환: Aspose.PDF for Java로 글꼴 대체 경고 캡처
 
 ## 소개

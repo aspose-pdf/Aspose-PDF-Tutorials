@@ -18,6 +18,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Преобразование PDF в HTML: Захват предупреждений о замене шрифтов с помощью Aspose.PDF для Java
 
 ## Введение

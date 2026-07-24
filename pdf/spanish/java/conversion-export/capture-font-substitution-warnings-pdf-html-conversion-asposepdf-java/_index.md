@@ -18,6 +18,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Conversión de PDF a HTML: Captura de advertencias de sustitución de fuentes con Aspose.PDF para Java
 
 ## Introducción

@@ -13,13 +13,7 @@ url: /nl/java/conversion-export/capture-font-substitution-warnings-pdf-html-conv
 weight: 1
 ---
 
- didn't miss any text.
-
-Check beginning: after shortcodes, there is no extra text.
-
-Make sure we keep code block placeholders unchanged.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

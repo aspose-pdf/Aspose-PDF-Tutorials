@@ -18,6 +18,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # PDF to HTML átalakítás: Betűtípus‑helyettesítési figyelmeztetések rögzítése az Aspose.PDF for Java segítségével
 
 ## Bevezetés

@@ -15,9 +15,10 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # PDF to HTML 変換: Aspose.PDF for Java でフォント置換警告を取得する
 
-## Introduction
+## はじめに
 
 **pdf to html conversion** を実行すると、フォント置換が静かにページの外観を変えてしまい、レイアウトのずれや文字欠損が発生することがあります。これらの警告を取得することで、変換が元のデザインを保持しているかを確認でき、フォントが欠落していることを問題になる前に検出できます。本チュートリアルでは、Aspose.PDF for Java の変換パイプラインにフックし、フォント変更をログに記録し、生成された HTML ファイルを安心して保存する方法を学びます。
 
@@ -28,23 +29,23 @@ weight: 1
 
 作業を始める前に、必要なものが揃っているか確認しましょう。
 
-## Quick Answers
+## よくある質問
 - **フォント置換ハンドラは何をしますか？** 変換中に Aspose.PDF が置換した元のフォント名と置換後のフォント名を記録します。  
 - **pdf to html java プロジェクトでも使えますか？** はい、Aspose.PDF を参照している任意の Java アプリケーションで動作します。  
 - **本番環境でライセンスは必要ですか？** 商用デプロイには有効な Aspose.PDF ライセンスが必要です。  
 - **欠落フォントは自動的に検出されますか？** ハンドラがすべての置換をログに出すため、欠落フォントを実質的に検出できます。  
 - **追加の設定は必要ですか？** 下記のハンドラ登録と標準的な Aspose.PDF 設定だけです。
 
-## What is pdf to html conversion?
+## PDFからHTMLへの変換とは？
 pdf to html conversion は PDF ドキュメントを Web フレンドリーな HTML ファイルに変換し、元のレイアウト・フォント・画像をできるだけ保持しようとするプロセスです。この処理により、PDF ビューアのプラグインを必要とせずにブラウザで PDF を表示できます。
 
-## Why capture font substitution warnings?
+## フォント置換警告を捕捉する理由とは？
 変換時に元のフォントが埋め込まれていない、またはシステムに存在しない場合、Aspose.PDF は代替フォントに置換します。可視化されていないと、HTML の見た目が大きく変わってしまう可能性があります。警告を取得することで以下が可能になります。
 - 欠落フォントを早期に特定できる。
 - 必要なフォントを埋め込むか検討できる。
 - エンドユーザー向けのフォールバック戦略を提供できる。
 
-## Prerequisites
+## 前提条件
 
 開始する前に、以下を用意してください。
 
@@ -53,9 +54,9 @@ pdf to html conversion は PDF ドキュメントを Web フレンドリーな H
 - **ビルドツール** – Maven または Gradle（両方の例を掲載）。  
 - **基本的な Java 知識** – 簡単な `main` メソッドを作成し、コードを実行できる程度。
 
-## Setting Up Aspose.PDF for Java
+## Aspose.PDF for Javaの設定
 
-### 1. Add the Aspose.PDF dependency
+### 1. Aspose.PDFの依存関係を追加する
 使用しているビルドシステムに合わせてスニペットを利用してください。
 
 ```xml
@@ -70,11 +71,11 @@ pdf to html conversion は PDF ドキュメントを Web フレンドリーな H
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### 2. Acquire and apply a license
+### 2. ライセンスを取得して適用する
 - 完全機能を制限なく試すための無料トライアル ライセンスを取得するには [こちら](https://purchase.aspose.com/temporary-license/)。  
 - 本番利用の場合は、永続ライセンスまたはトライアル ライセンスを Aspose から購入してください [こちら](https://purchase.aspose.com/temporary-license/)。
 
-### 3. Load your PDF document
+### 3. PDFドキュメントを読み込む
 ソース PDF を指す `Document` インスタンスを作成します。
 
 ```java
@@ -82,16 +83,16 @@ String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Document pdfDoc = new Document(dataDir + "input1.pdf");
 ```
 
-## Implementation Guide
+### 実装ガイド
 
-### Feature: Font Substitution Warning in pdf to html conversion
+### 機能：PDFからHTMLへの変換におけるフォント置換警告
 
 この機能は、PDF を HTML に変換する際に発生するフォント置換を監視・取得できるようにします。
 
-#### Step 1: Load Your PDF Document
+#### ステップ1：PDFドキュメントを読み込む
 (上記参照) ドキュメントをロードすると、コンテンツとフォント情報にアクセスできます。
 
-#### Step 2: Set Up a Font Substitution Handler
+#### ステップ2：フォント置換ハンドラーを設定する
 各置換をマップに記録するハンドラを登録します。
 
 ```java
@@ -107,7 +108,7 @@ pdfDoc.FontSubstitution.add(new Document.FontSubstitutionHandler() {
 **この重要性:**  
 変換時にプロプライエタリ フォントが汎用フォントに置換されると、HTML の文字間隔やグリフが予期せぬ形で表示されることがあります。`names` マップは明確な監査ログを提供します。
 
-#### Step 3: Configure HTML Save Options
+#### ステップ3：HTML保存オプションの設定
 `HtmlSaveOptions` インスタンスを作成し、PDF の HTML 変換方法を制御します。
 
 ```java
@@ -116,7 +117,7 @@ HtmlSaveOptions htmlSaveOps = new HtmlSaveOptions();
 
 プロジェクトの要件に応じて、`SplitIntoPages`、`EmbedFonts`、`ImageCompression` などのプロパティをさらにカスタマイズできます。
 
-#### Step 4: Save the Converted Document
+#### ステップ4：変換済みドキュメントの保存
 最後に、HTML 出力をディスクに書き込みます。
 
 ```java
@@ -125,15 +126,15 @@ pdfDoc.save("YOUR_OUTPUT_DIRECTORY/getWarningForFontSubstitution.html\
 
 実行後、`names` マップを確認してどのフォントが置換されたかをチェックしてください。予期しないエントリがあれば、欠落フォントを埋め込むか、変換設定を調整してください。
 
-## Common Issues & Troubleshooting
+## よくある問題とトラブルシューティング
 
-| Symptom | Likely Cause | Fix |
+| 症状 | 考えられる原因 | 解決策 |
 |---------|--------------|-----|
 | `names` マップにエントリがない | フォント置換が無効化されている、またはすべてのフォントが埋め込まれている | 置換を確認したい場合は、`HtmlSaveOptions` の `EmbedFonts` を `false` に設定してください。 |
 | HTML のレイアウトが崩れる | 置換されたフォントに必要なグリフがない | 欠落フォントを埋め込むか、元のデザインに合わせた CSS フォールバックを提供してください。 |
 | `pdfDoc.save` が例外をスローする | 出力パスが正しくない、または書き込み権限がない | `YOUR_OUTPUT_DIRECTORY` が存在し、書き込み可能であることを確認してください。 |
 
-## Frequently Asked Questions
+## よくある質問
 
 **Q: 他の出力形式（例: DOCX）でもこの手法は使えますか？**  
 A: はい。Aspose.PDF はほとんどの変換対象に対して同様のフォント置換イベントを提供します。
