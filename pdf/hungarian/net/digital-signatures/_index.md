@@ -59,6 +59,9 @@ Ismerje meg, hogyan tölthet be PDF-et C#-ban, konvertálhatja PDF/X‑4-re, és
 ### [PDF aláírás ellenőrzése Aspose-szal – PDF konvertálása HTML-re](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
 Ismerje meg, hogyan ellenőrizheti a PDF aláírását és konvertálhatja a dokumentumot HTML formátumba az Aspose.PDF for .NET használatával.
 
+### [PDF aláírás ellenőrzése és PDF aláírások listázása az Aspose.PDF segítségével – Teljes útmutató](./validate-pdf-signature-and-list-pdf-signatures-with-aspose-p/)
+Ismerje meg, hogyan ellenőrizheti a PDF aláírásokat és listázhatja az összes aláírást az Aspose.PDF segítségével, lépésről lépésre útmutató.
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)
