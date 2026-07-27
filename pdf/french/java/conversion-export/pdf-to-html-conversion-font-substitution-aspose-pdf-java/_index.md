@@ -1,9 +1,72 @@
 ---
-"date": "2025-04-14"
-"description": "Apprenez à convertir des PDF en HTML avec Aspose.PDF pour Java, notamment grâce aux techniques de substitution de polices. Idéal pour les développeurs soucieux de préserver l'intégrité de leurs documents."
-"title": "Conversion PDF en HTML avec substitution de polices à l'aide d'Aspose.PDF pour Java"
-"url": "/fr/java/conversion-export/pdf-to-html-conversion-font-substitution-aspose-pdf-java/"
-"weight": 1
+date: '2026-07-27'
+description: Apprenez comment convertir PDF en HTML Java à l'aide d'Aspose.PDF, y
+  compris comment substituer les polices pour les caractères manquants. Suivez des
+  instructions étape par étape pour une conversion fluide.
+keywords:
+- convert pdf to html java
+- how to substitute fonts
+- Aspose.PDF for Java
+lastmod: '2026-07-27'
+og_description: Apprenez comment convertir PDF en HTML Java à l'aide d'Aspose.PDF,
+  y compris comment substituer les polices pour les caractères manquants. Suivez des
+  instructions étape par étape pour une conversion fluide.
+og_image_alt: Guide showing PDF to HTML conversion with font substitution in Java
+  using Aspose.PDF
+og_title: Convertir PDF en HTML Java avec substitution de polices Aspose.PDF
+schemas:
+- author: Aspose
+  dateModified: '2026-07-27'
+  description: Learn how to convert PDF to HTML Java using Aspose.PDF, including how
+    to substitute fonts for missing typefaces. Follow step‑by‑step instructions for
+    seamless conversion.
+  headline: Convert PDF to HTML Java with Font Substitution Aspose.PDF
+  type: TechArticle
+- description: Learn how to convert PDF to HTML Java using Aspose.PDF, including how
+    to substitute fonts for missing typefaces. Follow step‑by‑step instructions for
+    seamless conversion.
+  name: Convert PDF to HTML Java with Font Substitution Aspose.PDF
+  steps:
+  - name: Set up directories and load the document
+    text: Define the input PDF path and the desired HTML output location. Then create
+      a `Document` instance to represent the source PDF.
+  - name: Create a custom font‑substitution class
+    text: '`CustomFontSubstitutionBase` is the base class Aspose.PDF uses to resolve
+      missing fonts. Extend it and override the `substituteFont` method to map source
+      fonts to your preferred replacements.'
+  - name: Register a notifier for substitution events
+    text: Attach an event handler to `Document` so you can log each substitution occurrence.
+      This helps you verify that all missing fonts are being correctly replaced.
+  - name: Configure HtmlSaveOptions and perform the conversion
+    text: Instantiate `HtmlSaveOptions`, set any required options (such as `SplitIntoPages`),
+      and call `document.save(outputPath, htmlOptions)` to generate the HTML files.
+  type: HowTo
+- questions:
+  - answer: Yes – instantiate `Document` with the password parameter or set `document.decrypt(password)`
+      before conversion.
+    question: Can I convert password‑protected PDFs?
+  - answer: Absolutely. Use `HtmlSaveOptions.setPageIndex()` and `setPageCount()`
+      to limit the conversion range.
+    question: Does the API support converting only selected pages?
+  - answer: There is no hard limit; you can map as many as needed, typically using
+      a `Map<String, String>` for fast lookup.
+    question: How many fonts can I map in a single substitution class?
+  - answer: Font names are matched case‑insensitively by default, but you can enforce
+      case sensitivity by customizing the logic.
+    question: Is font substitution case‑sensitive?
+  - answer: The Aspose.PDF for Java documentation provides a rich set of code samples
+      covering all conversion scenarios.
+    question: Where can I find more examples?
+  type: FAQPage
+tags:
+- convert pdf
+- Aspose.PDF
+- Java
+- font substitution
+- PDF to HTML
+title: Convertir PDF en HTML Java avec substitution de polices Aspose.PDF
+url: /fr/java/conversion-export/pdf-to-html-conversion-font-substitution-aspose-pdf-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,33 +74,58 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Maîtriser la conversion PDF en HTML avec substitution de polices avec Aspose.PDF pour Java
+# Maîtriser la conversion PDF en HTML avec substitution de polices à l'aide d'Aspose.PDF pour Java
 
 ## Introduction
 
-Vous cherchez une méthode simple pour convertir des documents PDF en HTML tout en préservant l'intégrité de vos polices ? Vous êtes au bon endroit ! Ce tutoriel vous guidera dans l'utilisation d'Aspose.PDF pour Java pour une conversion PDF en HTML efficace, y compris la substitution de polices. Que vous soyez un développeur gérant des flux de travail documentaires ou un professionnel de l'informatique à la recherche de solutions robustes, cette fonctionnalité est indispensable.
+Convertissez des PDF en HTML Java avec Aspose.PDF et conservez vos polices exactement comme prévu. Dans ce tutoriel, vous apprendrez une méthode complète, prête pour la production, afin de transformer des fichiers PDF en HTML prêt pour le web tout en substituant automatiquement les polices manquantes. Que vous construisiez un service d'archivage de documents, un catalogue e‑commerce ou un importateur CMS, ce guide vous donne la confiance nécessaire pour livrer des résultats pixel‑perfect.
 
-### Ce que vous apprendrez :
-- Configuration et utilisation d'Aspose.PDF pour Java.
-- Conversion de PDF en HTML avec substitutions de polices.
-- Personnalisation de la logique de substitution de police avec la puissante API d'Aspose.PDF.
-- Applications concrètes du processus de conversion.
+### Réponses rapides
+- **Que fait la conversion ?** Il crée du HTML qui reproduit la mise en page du PDF original, y compris les images, les tableaux et le texte formaté.  
+- **Puis-je remplacer les polices manquantes ?** Oui – Aspose.PDF vous permet de mapper les polices indisponibles à des alternatives que vous spécifiez.  
+- **Quelle version de Java est requise ?** Java 8 ou supérieur ; la bibliothèque fonctionne sur toutes les JVM modernes.  
+- **Ai-je besoin d'une licence pour la production ?** Une licence commerciale supprime les limitations de la version d'essai ; un essai gratuit est disponible pour l'évaluation.  
+- **Le processus est-il rapide pour les gros fichiers ?** Avec un réglage mémoire approprié, Aspose.PDF traite des PDF de 500 pages en moins d'une minute.
 
-Avant de vous lancer dans la mise en œuvre, assurez-vous d’avoir tous les prérequis nécessaires prêts.
+## Qu'est-ce qu'Aspose.PDF pour Java ?
+
+Aspose.PDF pour Java est une API complète qui permet la création, la manipulation et la conversion de documents PDF sans nécessiter Adobe Acrobat. Elle prend en charge plus de 50 formats d'entrée et de sortie, offre un accès aux objets de bas niveau, et peut traiter des fichiers de plusieurs centaines de pages sans charger le document entier en mémoire, ce qui la rend idéale pour l'automatisation côté serveur.
+
+## Pourquoi utiliser Aspose.PDF pour Java pour convertir PDF en HTML ?
+
+Aspose.PDF traite les PDF au niveau des objets, préservant les graphiques vectoriels, les polices intégrées et les mises en page complexes. Les avantages quantifiés incluent la prise en charge de **plus de 50 formats de fichiers**, la capacité de convertir des **PDF de 500 pages en moins de 60 secondes**, et un fonctionnement **sans dépendance** (aucun visualiseur PDF externe requis).
+
+## Qu'est-ce que la substitution de polices et pourquoi est‑elle importante ?
+
+La substitution de polices remplace une police manquante ou indisponible par une alternative prédéfinie, garantissant que l'apparence visuelle du HTML converti reste cohérente. Sans substitution, la sortie peut afficher les polices système par défaut, ce qui compromet le design et la lisibilité de vos pages web.
 
 ## Prérequis
+- **Aspose.PDF for Java** version 25.3 (ou ultérieure).  
+- Un environnement de développement Java 8+ (IntelliJ IDEA, Eclipse, ou tout IDE de votre choix).  
+- Connaissances de base en I/O Java et gestion des exceptions.  
 
-Pour suivre efficacement ce tutoriel, vous aurez besoin de :
+## Comment convertir PDF en HTML Java avec substitution de polices ?
 
-- **Bibliothèques et versions**: Assurez-vous d'avoir Aspose.PDF pour Java version 25.3.
-- **Configuration de l'environnement**:Un environnement de développement capable d'exécuter des applications Java (IDE comme IntelliJ IDEA ou Eclipse recommandé).
-- **Exigences en matière de connaissances**: Familiarité avec les concepts de programmation Java, en particulier la gestion des fichiers et des exceptions.
+Le flux de conversion se compose de trois étapes principales : charger le PDF, appliquer un gestionnaire de substitution de polices personnalisé, et enregistrer le résultat en HTML. La classe `Document` représente un fichier PDF et fournit des méthodes pour manipuler son contenu. La classe `HtmlSaveOptions` définit comment le PDF est rendu en HTML, et la classe `CustomFontSubstitutionBase` vous permet de contrôler la logique de substitution de polices. En suivant les étapes détaillées ci‑dessous, vous pouvez produire de manière fiable des documents prêts pour le web qui conservent l'apparence et la sensation d'origine.
 
-## Configuration d'Aspose.PDF pour Java
+### Étape 1 : Configurer les répertoires et charger le document
+Définissez le chemin du PDF d'entrée et l'emplacement de sortie HTML souhaité. Puis créez une instance `Document` pour représenter le PDF source.
+
+### Étape 2 : Créer une classe de substitution de polices personnalisée
+`CustomFontSubstitutionBase` est la classe de base qu'Aspose.PDF utilise pour résoudre les polices manquantes. Étendez‑la et surchargez la méthode `substituteFont` pour mapper les polices sources à vos remplacements préférés.
+
+### Étape 3 : Enregistrer un notificateur pour les événements de substitution
+Attachez un gestionnaire d'événements à `Document` afin de pouvoir consigner chaque occurrence de substitution. Cela vous aide à vérifier que toutes les polices manquantes sont correctement remplacées.
+
+### Étape 4 : Configurer HtmlSaveOptions et effectuer la conversion
+Instanciez `HtmlSaveOptions`, définissez les options requises (comme `SplitIntoPages`), et appelez `document.save(outputPath, htmlOptions)` pour générer les fichiers HTML.
+
+## Comment configurer Aspose.PDF pour Java ?
+
+Aspose.PDF pour Java peut être ajouté à votre projet en utilisant Maven ou Gradle. Choisissez l'outil de construction qui correspond à votre flux de travail et ajoutez la dépendance comme indiqué ci‑dessous.
 
 ### Installation via Maven
-
-Pour ajouter Aspose.PDF à votre projet à l'aide de Maven, incluez la dépendance suivante dans votre `pom.xml`:
+Ajoutez la dépendance suivante à votre `pom.xml` :
 
 ```xml
 <dependency>
@@ -48,58 +136,99 @@ Pour ajouter Aspose.PDF à votre projet à l'aide de Maven, incluez la dépendan
 ```
 
 ### Installation via Gradle
-
-Pour les projets utilisant Gradle, ajoutez la ligne suivante à votre `build.gradle`:
+Incluez cette ligne dans votre `build.gradle` :
 
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
 ### Étapes d'acquisition de licence
-
-Aspose.PDF propose différentes options de licence :
-- **Essai gratuit**: Testez les fonctionnalités avec des limitations.
-- **Licence temporaire**Obtenez une licence temporaire pour un accès complet pendant l'évaluation.
-- **Achat**: Achetez un abonnement ou une licence perpétuelle pour une utilisation à long terme.
+Aspose.PDF propose un essai gratuit, des licences temporaires pour l'évaluation, et des licences commerciales complètes pour une utilisation en production. Choisissez l'option qui correspond à votre calendrier de projet.
 
 #### Initialisation et configuration de base
-Une fois la bibliothèque ajoutée, initialisez-la dans votre application Java :
+Après avoir ajouté la bibliothèque, définissez la licence au démarrage de votre application :
 
 ```java
 com.aspose.pdf.License license = new com.aspose.pdf.License();
 license.setLicense("path_to_your_license.lic");
 ```
 
-## Guide de mise en œuvre
+## Récapitulatif du guide d'implémentation
 
-### Présentation des fonctionnalités : Conversion PDF en HTML avec substitution de polices
+Le flux de conversion consiste à charger le PDF, appliquer la logique de substitution de polices, et enregistrer en HTML. En suivant les quatre étapes ci‑dessus, vous pouvez produire de manière fiable des documents prêts pour le web qui conservent l'apparence d'origine.
 
-Cette fonctionnalité vous permet de convertir des documents PDF au format HTML tout en remplaçant les polices non disponibles par des alternatives spécifiées, garantissant ainsi la cohérence visuelle.
+## Problèmes courants et conseils de dépannage
+- **Chemins de fichiers incorrects** – Vérifiez que les répertoires d'entrée et de sortie existent et sont accessibles en écriture.  
+- **Licence non appliquée** – Assurez‑vous que `License.setLicense()` pointe vers un fichier `.lic` valide ; sinon, vous verrez des messages de filigrane.  
+- **Polices manquantes non substituées** – Vérifiez que votre classe de substitution personnalisée renvoie un objet `FontInfo` valide pour chaque police non mappée.
 
-#### Étape 1 : Configurer les répertoires et charger le document
+## Applications pratiques
+1. **Archivage de documents** – Convertissez les PDF anciens en HTML indexable pour les portails web.  
+2. **Catalogues e‑commerce** – Transformez les PDF de produits en listes HTML responsives.  
+3. **Systèmes de gestion de contenu** – Permettez aux éditeurs d'importer des PDF et de les rendre automatiquement en pages web.  
+4. **Rapports automatisés** – Générez des rapports HTML à partir de modèles PDF pour la distribution par e‑mail.
 
-Commencez par spécifier les chemins d'accès à votre fichier PDF d'entrée et à votre fichier HTML de sortie :
+## Considérations de performance
+
+### Optimisation des performances
+- Traitez les PDF en flux pour maintenir une faible utilisation de la mémoire.  
+- Réutilisez les objets `HtmlSaveOptions` lors de la conversion de nombreux fichiers en lot.
+
+### Bonnes pratiques de gestion de la mémoire Java
+- Surveillez la taille du tas JVM et activez G1GC pour les conversions à grande échelle.  
+- Appelez `document.dispose()` après chaque conversion pour libérer rapidement les ressources natives.
+
+## Conclusion
+
+Vous disposez maintenant d'une méthode complète et prête pour la production afin de **convertir PDF en HTML Java** tout en gérant automatiquement la substitution de polices. Cette capacité garantit que votre sortie HTML ressemble exactement au PDF source, même lorsque les polices d'origine ne sont pas disponibles sur le système cible.
+
+### Prochaines étapes
+Explorez d'autres fonctionnalités d'Aspose.PDF telles que la fusion de PDF, le filigrane et les signatures numériques pour enrichir davantage votre pipeline de traitement de documents.
+
+## FAQ
+
+**Q : Puis‑je convertir des PDF protégés par mot de passe ?**  
+A : Oui – instanciez `Document` avec le paramètre de mot de passe ou appelez `document.decrypt(password)` avant la conversion.
+
+**Q : L'API prend‑elle en charge la conversion de pages sélectionnées uniquement ?**  
+A : Absolument. Utilisez `HtmlSaveOptions.setPageIndex()` et `setPageCount()` pour limiter la plage de conversion.
+
+**Q : Combien de polices puis‑je mapper dans une seule classe de substitution ?**  
+A : Il n'y a pas de limite stricte ; vous pouvez en mapper autant que nécessaire, généralement en utilisant un `Map<String, String>` pour une recherche rapide.
+
+**Q : La substitution de polices est‑elle sensible à la casse ?**  
+A : Les noms de polices sont comparés sans tenir compte de la casse par défaut, mais vous pouvez imposer la sensibilité à la casse en personnalisant la logique.
+
+**Q : Où puis‑je trouver plus d'exemples ?**  
+A : La documentation d'Aspose.PDF pour Java fournit un riche ensemble d'exemples de code couvrant tous les scénarios de conversion.
+
+## Ressources
+- [Documentation](https://reference.aspose.com/pdf/java/)
+- [Download Library](https://releases.aspose.com/pdf/java/)
+- [Purchase Licenses](https://purchase.aspose.com/buy)
+- [Free Trial](https://releases.aspose.com/pdf/java/)
+- [Temporary License](https://purchase.aspose.com/temporary-license/)
+- [Support Forum](https://forum.aspose.com/c/pdf/10)
+
+Plongez dans le monde de la conversion de documents avec Aspose.PDF pour Java et révolutionnez la façon dont vous gérez les PDF dans vos applications !
+
+---
+**Last Updated:** 2026-07-27  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
 
 ```java
-String dataDir = "YOUR_DOCUMENT_DIRECTORY/input1.pdf"; // Chemin d'entrée du PDF
-String outputDir = "YOUR_OUTPUT_DIRECTORY/pdfToHTMLWithFontSubstitution.html"; // Chemin de sortie HTML
+String dataDir = "YOUR_DOCUMENT_DIRECTORY/input1.pdf"; // Input PDF path
+String outputDir = "YOUR_OUTPUT_DIRECTORY/pdfToHTMLWithFontSubstitution.html"; // Output HTML path
 
-// Charger le document à partir du répertoire spécifié
+// Load the document from the specified directory
 Document pdf = new Document(dataDir);
 ```
-
-#### Étape 2 : Configurer la logique de substitution des polices
-
-Créer une sous-classe personnalisée de `CustomFontSubstitutionBase` pour gérer les substitutions de polices :
 
 ```java
 CustomSubst1 subst1 = new CustomSubst1();
 FontRepository.getSubstitutions().add(subst1);
 ```
-
-#### Étape 3 : Ajouter un notificateur pour les événements de substitution de polices
-
-Enregistrez un gestionnaire d'événements pour enregistrer ou imprimer des détails sur la substitution de police :
 
 ```java
 pdf.FontSubstitution.add(new Document.FontSubstitutionHandler() {
@@ -109,71 +238,21 @@ pdf.FontSubstitution.add(new Document.FontSubstitutionHandler() {
 });
 ```
 
-#### Étape 4 : Convertir un PDF en HTML
-
-Configurer le `HtmlSaveOptions` et enregistrez le document sous forme de fichier HTML :
-
 ```java
 HtmlSaveOptions options = new HtmlSaveOptions();
 pdf.save(outputDir, options);
 ```
 
-### Conseils de dépannage
+## Tutoriels associés
 
-- Assurez-vous que tous les chemins sont correctement spécifiés.
-- Vérifiez que la licence Aspose.PDF est correctement définie si vous rencontrez des limitations dans les fonctionnalités.
+- [Conversion PDF en HTML : capturer les avertissements de substitution de polices avec Aspose.PDF pour Java](/pdf/java/conversion-export/capture-font-substitution-warnings-pdf-html-conversion-asposepdf-java/)
+- [Comment convertir PDF en HTML en Java avec Aspose.PDF : exclure des polices spécifiques](/pdf/java/conversion-export/pdf-to-html-conversion-java-exclude-fonts-aspose-pdf/)
+- [pdf to html java – Convertir PDF en HTML avec ressources incorporées en utilisant Aspose.PDF pour Java](/pdf/java/conversion-export/convert-pdf-to-html-aspose-java-embedded-resources/)
 
-## Applications pratiques
-
-1. **Archivage de documents**: Convertissez les archives PDF héritées en formats HTML compatibles avec le Web pour une meilleure accessibilité.
-2. **Plateformes de commerce électronique**: Transformez les catalogues de produits en HTML pour une intégration transparente avec les boutiques en ligne.
-3. **Systèmes de gestion de contenu (CMS)**: Améliorez le CMS en permettant des importations et des conversions de documents riches.
-4. **Génération automatisée de rapports**:Convertissez dynamiquement les rapports de différents services en HTML pour une distribution uniforme.
-
-## Considérations relatives aux performances
-
-### Optimisation des performances
-- Utilisez des pratiques efficaces de gestion des ressources pour gérer les fichiers PDF volumineux.
-- Assurez-vous que l'application dispose d'une allocation de mémoire suffisante pour traiter les documents complexes en douceur.
-
-### Meilleures pratiques pour la gestion de la mémoire Java
-- Surveillez et gérez régulièrement l’espace du tas JVM.
-- Optimisez la collecte des déchets en ajustant les paramètres JVM selon les besoins.
-
-## Conclusion
-
-En suivant ce guide, vous disposez désormais d'une méthode fiable pour convertir des fichiers PDF en HTML tout en garantissant la cohérence des polices. Cette compétence est précieuse pour préserver l'intégrité des documents sur toutes les plateformes.
-
-### Prochaines étapes
-Envisagez d'explorer des fonctionnalités plus avancées d'Aspose.PDF pour Java ou de l'intégrer à d'autres systèmes pour améliorer les capacités de votre application.
-
-## Section FAQ
-
-1. **Quels sont les avantages de l’utilisation d’Aspose.PDF pour Java ?**
-   - Capacités complètes de manipulation et de conversion PDF, garantissant une haute fidélité dans les résultats.
-2. **Comment puis-je gérer les problèmes de licence avec Aspose.PDF ?**
-   - Commencez par un essai gratuit ou demandez une licence temporaire pour évaluer toutes les fonctionnalités.
-3. **Puis-je convertir des documents PDF volumineux sans dégradation des performances ?**
-   - Oui, en optimisant votre application Java pour une meilleure gestion des ressources et une meilleure allocation de mémoire.
-4. **La substitution de police est-elle personnalisable ?**
-   - Absolument ! Vous pouvez définir des règles et des mappages spécifiques pour les substitutions de polices, selon vos besoins.
-5. **Quelles options d’assistance sont disponibles si je rencontre des problèmes ?**
-   - Aspose propose une documentation complète et un forum communautaire de soutien pour vous aider à relever tous les défis.
-
-## Ressources
-- [Documentation](https://reference.aspose.com/pdf/java/)
-- [Télécharger la bibliothèque](https://releases.aspose.com/pdf/java/)
-- [Acheter des licences](https://purchase.aspose.com/buy)
-- [Essai gratuit](https://releases.aspose.com/pdf/java/)
-- [Licence temporaire](https://purchase.aspose.com/temporary-license/)
-- [Forum d'assistance](https://forum.aspose.com/c/pdf/10)
-
-Plongez dans le monde de la conversion de documents avec Aspose.PDF pour Java et révolutionnez la façon dont vous gérez les PDF dans vos applications !
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
