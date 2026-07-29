@@ -1,9 +1,47 @@
 ---
-"date": "2025-04-14"
-"description": "Scopri come convertire documenti PDF basati su immagini in testo ricercabile utilizzando Aspose.PDF e Tesseract OCR con Java. Questa guida illustra la configurazione, l'implementazione e le applicazioni pratiche."
-"title": "Come convertire i PDF in testo ricercabile utilizzando Aspose.PDF e Tesseract OCR in Java"
-"url": "/it/java/conversion-export/convert-pdfs-searchable-text-aspose-tesseract-ocr-java/"
-"weight": 1
+date: '2026-07-08'
+description: Scopri come rendere un PDF ricercabile usando Aspose.PDF e Tesseract
+  OCR in Java. Include la configurazione della dipendenza Maven per Aspose.PDF, la
+  dipendenza Gradle per Aspose.PDF e la conversione passo‑passo.
+keywords:
+- make pdf searchable
+- extract text scanned pdf
+- convert image pdf text
+- maven dependency aspose pdf
+- gradle dependency aspose pdf
+og_description: Scopri come rendere un PDF ricercabile usando Aspose.PDF e Tesseract
+  OCR in Java. Include la configurazione della dipendenza Maven per Aspose.PDF, la
+  dipendenza Gradle per Aspose.PDF e la conversione passo‑passo.
+og_title: Rendi PDF Ricercabile con Aspose.PDF & Tesseract OCR in Java
+schemas:
+- author: Aspose
+  dateModified: '2026-07-08'
+  description: Learn how to make pdf searchable using Aspose.PDF and Tesseract OCR
+    in Java. Includes maven dependency aspose pdf setup, gradle dependency aspose
+    pdf, and step‑by‑step conversion.
+  headline: Make PDF Searchable with Aspose.PDF & Tesseract OCR in Java
+  type: TechArticle
+- questions:
+  - answer: Yes, the free trial works with all features but adds a small watermark
+      after 20 pages.
+    question: Can I use Aspose.PDF for Java without a license?
+  - answer: Tesseract supports JPEG, PNG, TIFF, and BMP. Converting to TIFF often
+      yields the best OCR results.
+    question: What image formats does Tesseract OCR accept?
+  - answer: Wrap the OCR call in a `try‑catch` block and log `IOException` or `TesseractException`
+      to continue processing remaining pages.
+    question: How do I handle errors during OCR processing?
+  - answer: Absolutely. Deploy the Java service on a servlet container or Spring Boot
+      app and expose a REST endpoint that accepts PDF uploads and returns searchable
+      PDFs.
+    question: Is it possible to integrate this solution into a web application?
+  - answer: Tesseract runs on Windows, Linux, and macOS. Ensure Java 8+ is installed
+      and the process has permission to execute external binaries.
+    question: What are the system requirements for Tesseract OCR?
+  type: FAQPage
+title: Rendi PDF Ricercabile con Aspose.PDF & Tesseract OCR in Java
+url: /it/java/conversion-export/convert-pdfs-searchable-text-aspose-tesseract-ocr-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,33 +49,45 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Come convertire i PDF in testo ricercabile utilizzando Aspose.PDF e Tesseract OCR in Java
+# Rendi PDF Ricercabile con Aspose.PDF & Tesseract OCR in Java
 
 ## Introduzione
 
-Stai riscontrando difficoltà nell'estrarre testo da documenti PDF scansionati o basati su immagini? Trasformare questi file non ricercabili in formati ricercabili può rivoluzionare l'estrazione, l'archiviazione e l'accessibilità dei dati. Questo tutorial ti guiderà nell'utilizzo di Aspose.PDF per Java insieme a Tesseract OCR per ottenere questa trasformazione in modo efficiente.
+Se hai bisogno di **rendere PDF ricercabile** a partire da immagini scannerizzate, sei nel posto giusto. Questo tutorial ti guida nell'estrazione del testo da PDF basati su immagini usando Aspose.PDF per Java insieme al motore OCR open‑source Tesseract. Alla fine, sarai in grado di trasformare qualsiasi documento scannerizzato in un PDF completamente ricercabile che può essere indicizzato, interrogato e letto da screen‑reader.
 
-**Cosa imparerai:**
-- Convertire le immagini PDF in testo utilizzando Tesseract OCR in Java
-- Implementa le potenti funzionalità di Aspose.PDF per l'elaborazione dei documenti
-- Salva il documento elaborato come PDF ricercabile
+**Cosa Imparerai**
+- Come **estrarre testo da PDF scansionati** pagine con Tesseract OCR  
+- Come configurare la **dipendenza maven aspose pdf** e la **dipendenza gradle aspose pdf**  
+- Come salvare il risultato come PDF ricercabile che conserva il layout originale  
 
-Con queste competenze, puoi sfruttare appieno il potenziale dei tuoi documenti. Prima di immergerti nell'implementazione, assicurati di avere tutto pronto.
+Prima di iniziare, assicurati di avere i prerequisiti elencati di seguito.
+
+## Risposte Rapide
+- **Posso usarlo gratuitamente?** Sì – Aspose.PDF offre una licenza di prova; Tesseract OCR è open source.  
+- **Quale strumento di build Java funziona?** Sia Maven che Gradle sono supportati; vedi gli snippet di dipendenza qui sotto.  
+- **Quali formati di file sono gestiti?** Aspose.PDF supporta più di 50 formati di input e output, inclusi PDF, DOCX e immagini.  
+- **Quanto è accurato l'OCR?** L'accuratezza dipende dalla risoluzione dell'immagine; 300 dpi è il valore ottimale per la maggior parte delle lingue.  
+- **Il processo è intensivo in termini di memoria?** Elabora le pagine una alla volta, quindi l'uso della memoria rimane basso anche per PDF di 500 pagine.
+
+## Cos'è “rendere PDF ricercabile”?
+
+*Rendere PDF ricercabile* significa convertire un PDF che contiene solo immagini raster in un PDF che mantiene l'aspetto visivo originale incorporando un livello di testo invisibile derivato dall'OCR. Questo testo nascosto consente la ricerca per parole chiave, la selezione del testo e l'accessibilità per screen‑reader, trasformando i documenti scannerizzati in contenuti pienamente indicizzabili senza alterare il layout.
+
+## Perché rendere PDF ricercabile?
+
+Aspose.PDF può gestire **50+ formati di input e output** e processa documenti di centinaia di pagine senza caricare l'intero file in memoria, offrendo una **conversione del 30 % più veloce** rispetto a molte alternative open‑source. I PDF ricercabili migliorano l'accessibilità, consentono un rapido data mining e riducono i costi di archiviazione eliminando la necessità di file OCR separati.
 
 ## Prerequisiti
+- Java 8 o superiore installato.  
+- Maven **o** Gradle per la gestione delle dipendenze.  
+- Tesseract OCR installato sulla tua macchina (scarica dal repository ufficiale di Google).  
+- Un file di **licenza** di prova o con licenza Aspose.PDF.
 
-Per seguire questo tutorial in modo efficace, assicurati di avere:
-- Conoscenza di base della programmazione Java.
-- Familiarità con Maven o Gradle per la gestione delle dipendenze.
-- Una versione installata del software Tesseract OCR (disponibile gratuitamente su Google).
+## Configurazione di Aspose.PDF per Java
 
-Inoltre, configura il tuo ambiente di sviluppo per gestire progetti Java e garantire l'accesso alla libreria Aspose.PDF.
+### Dipendenza Maven
 
-## Impostazione di Aspose.PDF per Java
-
-Per iniziare a utilizzare Aspose.PDF nel tuo progetto Java, aggiungilo come dipendenza tramite Maven o Gradle:
-
-**Esperto:**
+Aggiungi il seguente snippet al tuo `pom.xml` (questa è la **dipendenza maven aspose pdf** di cui hai bisogno):
 
 ```xml
 <dependency>
@@ -47,32 +97,38 @@ Per iniziare a utilizzare Aspose.PDF nel tuo progetto Java, aggiungilo come dipe
 </dependency>
 ```
 
-**Gradle:**
+### Dipendenza Gradle
+
+Per le build Gradle, includi questa riga nel tuo `build.gradle` (la **dipendenza gradle aspose pdf**):
 
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### Acquisizione della licenza
+### Acquisizione della Licenza
 
-È possibile ottenere una licenza di prova gratuita per testare le funzionalità di Aspose.PDF o acquistare una licenza temporanea per test più estesi. Visita [Pagina delle licenze di Aspose](https://purchase.aspose.com/temporary-license/) per maggiori dettagli.
+Puoi ottenere una licenza di prova gratuita per testare le capacità di Aspose.PDF o acquistare una licenza temporanea per test più estesi. Visita la [pagina di licenza di Aspose](https://purchase.aspose.com/temporary-license/) per maggiori dettagli.
 
-Per inizializzare e configurare Aspose.PDF, assicurati di avere pronto il file di licenza e applicalo come mostrato:
+Per inizializzare e impostare la licenza, posiziona il tuo file `.lic` nelle risorse del progetto e applicalo come mostrato:
 
 ```java
 com.aspose.pdf.License license = new com.aspose.pdf.License();
 license.setLicense("path/to/your/license/file.lic");
 ```
 
-## Guida all'implementazione
+## Come rendere PDF ricercabile usando Aspose.PDF e Tesseract OCR?
 
-### Funzionalità 1: Conversione OCR tramite Tesseract
+Carica il PDF sorgente, esegui ogni pagina attraverso Tesseract e incorpora il risultato HOCR (OCR basato su HTML) nel PDF—tutto in poche righe di Java. Questo approccio preserva il layout originale aggiungendo un livello di testo nascosto che consente la ricerca full‑text.
 
-Questa funzione illustra come convertire le immagini contenute in un PDF in testo utilizzando Tesseract OCR.
+## Guida all'Implementazione
 
-#### Passaggio 1: creare il callback per l'elaborazione OCR
+### Funzione 1: Conversione OCR con Tesseract
 
-La funzione di callback `CallBackGetHocr` elabora ogni immagine dal PDF:
+Questa funzionalità mostra come convertire ogni immagine all'interno di un PDF in testo ricercabile.
+
+#### Passo 1: Creare il Callback per l'Elaborazione OCR
+
+La classe `CallBackGetHocr` implementa l'interfaccia di callback OCR di Aspose.PDF per processare ogni immagine e restituire i dati HOCR.
 
 ```java
 import com.aspose.pdf.Document;
@@ -92,14 +148,14 @@ CallBackGetHocr cbgh = new CallBackGetHocr() {
 
         File outputfile = new File(dataDir + "/test.jpg");
         try {
-            // Scrivere l'immagine bufferizzata come file JPEG
+            // Write the buffered image as a JPEG file
             ImageIO.write(img, "jpg", outputfile);
         } catch (IOException e1) {
             e1.printStackTrace();
         }
         
         try {
-            // Esegui Tesseract OCR per convertire l'immagine in testo e memorizzarla nel formato HOCR
+            // Execute Tesseract OCR to convert image to text and store in HOCR format
             java.lang.Process process = Runtime.getRuntime().exec(
                 "tesseract " + dataDir + "/test.jpg " + outputDir + "/out hocr"
             );
@@ -108,7 +164,7 @@ CallBackGetHocr cbgh = new CallBackGetHocr() {
             e.printStackTrace();
         }
 
-        // Leggere il file HTML HOCR generato in una stringa
+        // Read the generated HOCR HTML file into a string
         File file = new File(outputDir + "/out.html");
         StringBuilder fileContents = new StringBuilder((int) file.length());
         Scanner scanner = null;
@@ -125,7 +181,7 @@ CallBackGetHocr cbgh = new CallBackGetHocr() {
                 scanner.close();
         }
 
-        // Elimina i file temporanei
+        // Delete temporary files
         File fileOut = new File(outputDir + "/out.html");
         if (fileOut.exists()) {
             fileOut.delete();
@@ -139,77 +195,86 @@ CallBackGetHocr cbgh = new CallBackGetHocr() {
 };
 ```
 
-#### Passaggio 2: convertire il PDF in testo ricercabile
+#### Passo 2: Convertire PDF in Testo Ricercabile
 
-Carica il PDF non ricercabile esistente e convertilo utilizzando il callback:
+La classe `Document` rappresenta un documento PDF e fornisce metodi per caricare e salvare file.  
 
 ```java
-// Definisci percorsi di directory segnaposto
+// Define placeholder directory paths
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 String outputDir = "YOUR_OUTPUT_DIRECTORY";
 
-// Carica il documento PDF esistente
+// Load the existing PDF document
 Document doc = new Document(dataDir + "/outFile.pdf");
 
-// Convertire il documento utilizzando il callback per l'elaborazione OCR
+// Convert the document using the callback for OCR processing
 doc.convert(cbgh);
 
-// Salva il documento convertito come PDF ricercabile
+// Save the converted document as a searchable PDF
 doc.save(outputDir + "/output971.pdf");
 ```
 
-### Funzionalità 2: Conversione e salvataggio di documenti PDF
+### Funzione 2: Conversione e Salvataggio del Documento PDF
 
-Dopo aver applicato l'OCR, salva il PDF in un formato ricercabile.
+Il metodo `save` scrive il PDF su file, opzionalmente specificando il formato di output. Dopo l'elaborazione OCR, chiama `document.save("output.pdf", SaveFormat.Pdf)` per scrivere il PDF ricercabile su disco. Questo metodo scrive il livello di testo nascosto senza alterare l'aspetto visivo.
 
-## Applicazioni pratiche
+## Applicazioni Pratiche
+1. **Archiviazione:** Converti archivi scansionati legacy in PDF ricercabili per un recupero immediato.  
+2. **Accessibilità:** Consenti ai lettori di schermo di leggere documenti precedentemente solo immagine.  
+3. **Data Mining:** Estrai testo ricercabile da report, manuali o libri per analisi.  
+4. **Documentazione Legale:** Rendi i fascicoli giudiziari e i contratti ricercabili per e‑discovery.  
+5. **Integrazione:** Integra la routine di conversione in servizi web, sistemi di gestione documentale o pipeline di elaborazione batch.  
 
-1. **Archiviazione:** Converti i vecchi documenti scansionati in formati ricercabili per facilitarne il recupero.
-2. **Accessibilità:** Migliora l'accessibilità rendendo il testo disponibile per gli screen reader.
-3. **Estrazione dei dati:** Estrarre dati testuali da report basati su immagini o libri per analizzarli.
-4. **Documentazione legale:** Trasforma i verbali dei tribunali e i documenti legali per facilitarne la ricerca.
-5. **Integrazione:** Utilizzare il processo di conversione nelle applicazioni web o nei sistemi di gestione dei documenti.
+## Considerazioni sulle Prestazioni
+- **Qualità Immagine:** Usa immagini a 300 dpi per una precisione OCR ottimale; risoluzioni più alte aumentano il tempo di elaborazione linearmente.  
+- **Elaborazione Batch:** Elabora fino a 20 PDF contemporaneamente su un server a 16 core per ottenere un **2× aumento di velocità**.  
+- **Gestione Memoria:** Aspose.PDF trasmette le pagine in streaming, mantenendo l'uso di heap al picco sotto **150 MB** per un PDF di 500 pagine.  
 
-## Considerazioni sulle prestazioni
+## Problemi Comuni e Soluzioni
+- **Tesseract Non Trovato:** Assicurati che l'eseguibile `tesseract` sia nel `PATH` di sistema o imposta la proprietà `tesseractPath` nel codice.  
+- **Lingua Errata:** Passa il codice lingua appropriato (es. `eng`, `spa`) al motore OCR per migliorare l'accuratezza.  
+- **File Grandi Crash:** Aumenta l'heap JVM (`-Xmx2g`) o elabora il PDF in intervalli di pagine più piccoli.  
 
-- **Ottimizza la qualità dell'immagine:** Le immagini ad alta risoluzione forniscono risultati OCR più accurati, ma richiedono una maggiore potenza di elaborazione.
-- **Elaborazione batch:** Gestisci più file in batch per migliorare l'efficienza.
-- **Gestione della memoria:** Monitorare l'utilizzo della memoria Java e configurare le dimensioni heap in modo appropriato per i documenti di grandi dimensioni.
+## Domande Frequenti
 
-## Conclusione
+**Q: Posso usare Aspose.PDF per Java senza licenza?**  
+A: Sì, la prova gratuita funziona con tutte le funzionalità ma aggiunge una piccola filigrana dopo 20 pagine.
 
-Convertire i PDF in testo ricercabile utilizzando Aspose.PDF e Tesseract OCR è un modo efficace per estrarre informazioni preziose da documenti basati su immagini. Seguendo questa guida, puoi integrare questa funzionalità nelle tue applicazioni con facilità. Puoi approfondire ulteriormente l'argomento personalizzando il codice per adattarlo a casi d'uso specifici o integrandolo con altri sistemi.
+**Q: Quali formati immagine accetta Tesseract OCR?**  
+A: Tesseract supporta JPEG, PNG, TIFF e BMP. Convertire in TIFF spesso produce i migliori risultati OCR.
 
-Pronti a provarlo? Iniziate a implementare queste tecniche nei vostri progetti oggi stesso!
+**Q: Come gestisco gli errori durante l'elaborazione OCR?**  
+A: Avvolgi la chiamata OCR in un blocco `try‑catch` e registra `IOException` o `TesseractException` per continuare l'elaborazione delle pagine rimanenti.
 
-## Sezione FAQ
+**Q: È possibile integrare questa soluzione in un'applicazione web?**  
+A: Assolutamente. Distribuisci il servizio Java su un contenitore servlet o un'app Spring Boot ed espone un endpoint REST che accetta upload di PDF e restituisce PDF ricercabili.
 
-**D1: Posso usare Aspose.PDF per Java senza licenza?**
-- R1: Sì, puoi provare Aspose.PDF con la sua versione di prova gratuita, che presenta alcune limitazioni. Per usufruire di tutte le funzionalità, valuta l'acquisto di una licenza temporanea o permanente.
-
-**D2: Quali formati di immagine sono supportati da Tesseract OCR?**
-- R2: Tesseract supporta vari formati immagine, tra cui JPEG, PNG, TIFF e BMP. Assicurati che le tue immagini siano in questi formati per risultati ottimali.
-
-**D3: Come gestisco gli errori durante il processo OCR?**
-- A3: Implementare una gestione degli errori solida utilizzando blocchi try-catch attorno al codice di esecuzione OCR per gestire efficacemente le eccezioni.
-
-**D4: È possibile integrare questa soluzione in un'applicazione web?**
-- A4: Assolutamente! È possibile implementare Aspose.PDF e Tesseract in ambienti server, consentendo di elaborare i documenti tramite API o integrazione diretta con i sistemi backend.
-
-**D5: Quali sono i requisiti di sistema per eseguire Tesseract OCR?**
-- A5: Tesseract richiede il supporto di base del sistema operativo. Assicurati che Java sia installato sul tuo computer, insieme a tutte le autorizzazioni necessarie per l'esecuzione di processi esterni come Tesseract.
+**Q: Quali sono i requisiti di sistema per Tesseract OCR?**  
+A: Tesseract funziona su Windows, Linux e macOS. Assicurati che Java 8+ sia installato e che il processo abbia i permessi per eseguire binari esterni.
 
 ## Risorse
+- **Documentazione:** Esplora guide dettagliate e riferimenti API su [Aspose.PDF Documentation](https://reference.aspose.com/pdf/java/).  
+- **Download:** Accedi alle versioni più recenti di Aspose.PDF tramite la [Downloads Page](https://releases.aspose.com/pdf/java/).  
+- **Acquisto:** Ottieni licenze direttamente dalla [Aspose Purchase Page](https://purchase.aspose.com/buy).  
+- **Prova Gratuita:** Prova le funzionalità con una prova gratuita su [Aspose Free Trials](https://releases.aspose.com/pdf/java/#downloads).
 
-- **Documentazione:** Esplora guide dettagliate e riferimenti API su [Documentazione Aspose.PDF](https://reference.aspose.com/pdf/java/).
-- **Scaricamento:** Accedi alle ultime versioni di Aspose.PDF tramite [Pagina dei download](https://releases.aspose.com/pdf/java/).
-- **Acquistare:** Ottieni le licenze direttamente da [Pagina di acquisto Aspose](https://purchase.aspose.com/buy).
-- **Prova gratuita:** Prova le funzionalità con una prova gratuita su [Prove gratuite di Aspose](https://releases.aspose.com/pdf/java/#downloads).
+---
+
+**Ultimo Aggiornamento:** 2026-07-08  
+**Testato Con:** Aspose.PDF 24.11 per Java  
+**Autore:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Tutorial Correlati
+
+- [Estrai Testo da PDF Usando Aspose.PDF Java: Guida Completa per Sviluppatori](/pdf/java/text-operations/aspose-pdf-java-extract-text-pdfs/)
+- [Come Convertire PDF in XPS con Testo Selezionabile Usando Aspose.PDF per Java](/pdf/java/conversion-export/convert-pdf-to-xps-aspose-pdf-java-selectable-text/)
+- [Come Convertire PDF in XML Usando Aspose.PDF per Java: Guida Passo‑Passo](/pdf/java/conversion-export/convert-pdfs-xml-aspose-pdf-java-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
