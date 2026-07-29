@@ -32,6 +32,9 @@ Aspose.PDF Net 程式碼教學
 ### [如何使用 Aspose.PDF for .NET 將 PDF 轉換為 PDF/X-4：逐步指南](./convert-pdfs-to-pdf-x4-aspose-dotnet-guide/)
 了解如何使用 Aspose.PDF for .NET 將標準 PDF 文件轉換為強大的 PDF/X-4 格式。本指南涵蓋設定、實施和故障排除。
 
+### [如何使用 Aspose.PDF for .NET 將 PDF 轉換為 PDF/X-1A：逐步指南](./convert-pdf-to-pdf-x-1a-how-to-create-pdf-x-1a-document/)
+了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為符合 PDF/X-1A 標準的文件，提供逐步說明與程式碼範例。
+
 ### [如何使用 Aspose.PDF for .NET 驗證 PDF/A-1a：綜合指南](./validate-pdf-a-1a-aspose-pdf-dotnet/)
 了解如何使用 Aspose.PDF for .NET 驗證 PDF/A-1a 合規性。本指南提供逐步說明、程式碼範例和整合技巧。
 

@@ -39,6 +39,7 @@ Los tutoriales de Aspose.PDF "Programación con sellos y marcas de agua" para .N
 | [Tabla en la sección de encabezado y pie de página](./table-in-header-footer-section/) Aprenda a agregar texto fácilmente al pie de página de un archivo PDF con Aspose.PDF para .NET. Incluye una guía paso a paso para una integración perfecta.  
 | [Texto en el pie de página del archivo PDF](./text-in-footer/) | Aprenda a agregar texto en el pie de página de un archivo PDF con Aspose.PDF para .NET. |  
 | [Texto en el encabezado del archivo PDF](./text-in-header/) Aprenda a agregar encabezados de texto a archivos PDF con Aspose.PDF para .NET con este tutorial paso a paso. Mejore sus documentos de forma eficiente y eficaz.  
+| [Cómo agregar un sello PDF – Guía completa con ajuste automático de texto](./how-to-add-stamp-pdf-complete-guide-with-auto-fit-text/) | Aprenda a añadir un sello a un PDF con texto que se ajusta automáticamente, paso a paso y con ejemplos de código en Aspose.PDF para .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

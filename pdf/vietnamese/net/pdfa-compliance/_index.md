@@ -32,6 +32,9 @@ Tìm hiểu cách tạo tài liệu PDF có gắn thẻ có thể truy cập và
 ### [Cách chuyển đổi PDF sang PDF/X-4 bằng Aspose.PDF cho .NET: Hướng dẫn từng bước](./convert-pdfs-to-pdf-x4-aspose-dotnet-guide/)
 Tìm hiểu cách chuyển đổi tài liệu PDF chuẩn sang định dạng PDF/X-4 mạnh mẽ bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm thiết lập, triển khai và khắc phục sự cố.
 
+### [Chuyển đổi PDF sang PDF/X-1A – Cách tạo tài liệu PDF/X-1A](./convert-pdf-to-pdf-x-1a-how-to-create-pdf-x-1a-document/)
+Hướng dẫn chi tiết cách chuyển đổi PDF sang định dạng PDF/X-1A để đáp ứng tiêu chuẩn lưu trữ và in ấn.
+
 ### [Cách xác thực PDF/A-1a với Aspose.PDF cho .NET: Hướng dẫn toàn diện](./validate-pdf-a-1a-aspose-pdf-dotnet/)
 Tìm hiểu cách xác thực sự tuân thủ PDF/A-1a bằng Aspose.PDF cho .NET. Hướng dẫn này cung cấp hướng dẫn từng bước, ví dụ về mã và mẹo tích hợp.
 

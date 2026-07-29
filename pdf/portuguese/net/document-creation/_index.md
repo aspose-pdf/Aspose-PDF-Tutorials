@@ -79,6 +79,9 @@ Aprenda a criar um documento PDF, adicionar páginas e formas, e salvar o arquiv
 ### [Crie um documento PDF com Aspose.PDF – Guia passo a passo](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 Aprenda a criar documentos PDF com Aspose.PDF usando um guia passo a passo detalhado.
 
+### [Criar documento PDF com Aspose.Pdf – Guia completo passo a passo](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+Aprenda a criar documentos PDF com Aspose.PDF usando um guia passo a passo completo.
+
 ## Recursos adicionais
 
 - [Aspose.PDF para documentação da Net](https://docs.aspose.com/pdf/net/)

@@ -32,6 +32,12 @@ Erfahren Sie, wie Sie barrierefreie, getaggte PDF-Dokumente erstellen und deren 
 ### [So konvertieren Sie PDFs mit Aspose.PDF für .NET in PDF/X-4: Schritt-für-Schritt-Anleitung](./convert-pdfs-to-pdf-x4-aspose-dotnet-guide/)
 Erfahren Sie, wie Sie Standard-PDF-Dokumente mit Aspose.PDF für .NET in das robuste PDF/X-4-Format konvertieren. Diese Anleitung behandelt Einrichtung, Implementierung und Fehlerbehebung.
 
+### [So konvertieren Sie PDFs mit Aspose.PDF für .NET in PDF/X-4: Schritt-für-Schritt-Anleitung](./convert-pdfs-to-pdf-x4-aspose-dotnet-guide/)
+Erfahren Sie, wie Sie Standard-PDF-Dokumente mit Aspose.PDF für .NET in das robuste PDF/X-4-Format konvertieren. Diese Anleitung behandelt Einrichtung, Implementierung und Fehlerbehebung.
+
+### [PDF in PDF/X-1A konvertieren – So erstellen Sie ein PDF/X-1A-Dokument](./convert-pdf-to-pdf-x-1a-how-to-create-pdf-x-1a-document/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDFs in das PDF/X-1A-Format konvertieren und ein konformes PDF/X-1A-Dokument erstellen.
+
 ### [So validieren Sie PDF/A-1a mit Aspose.PDF für .NET: Ein umfassender Leitfaden](./validate-pdf-a-1a-aspose-pdf-dotnet/)
 Erfahren Sie, wie Sie die PDF/A-1a-Konformität mit Aspose.PDF für .NET validieren. Diese Anleitung bietet Schritt-für-Schritt-Anleitungen, Codebeispiele und Integrationstipps.
 

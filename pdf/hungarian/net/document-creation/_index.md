@@ -76,8 +76,11 @@ Kód oktatóanyag az Aspose.PDF Nethez
 
 ### [PDF dokumentum létrehozása Aspose.PDF segítségével – Oldal, alakzat hozzáadása és mentés](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Tanulja meg, hogyan hozhat létre PDF dokumentumot, adhat hozzá oldalt, alakzatot, majd mentheti azt az Aspose.PDF .NET használatával.
+
 ### [PDF dokumentum létrehozása Aspose.PDF‑vel – Lépésről‑lépésre útmutató](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 Tanulja meg, hogyan hozhat létre PDF dokumentumot az Aspose.PDF segítségével lépésről‑lépésre.
+
+### [PDF dokumentum létrehozása Aspose.PDF‑vel – Teljes lépésről‑lépésre útmutató](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
 
 ## További források
 
