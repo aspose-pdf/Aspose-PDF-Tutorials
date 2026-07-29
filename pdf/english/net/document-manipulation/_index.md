@@ -278,6 +278,9 @@ A code tutorial for Aspose.PDF Net
 ### [Merge PDFs in .NET Using Aspose.PDF&#58; A Comprehensive Guide](./merge-pdfs-net-aspose-pdf-tutorial/)
 Learn how to seamlessly merge PDF files using Aspose.PDF for .NET. This step-by-step guide covers setup, implementation, and practical applications.
 
+### [Merge PDF Layers in C# – How to Combine PDF Layers](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+Learn how to merge multiple PDF layers into a single document using Aspose.PDF for .NET with C# code examples.
+
 ### [Move PDF Form Fields in .NET using Aspose.PDF&#58; A Step-by-Step Guide](./move-pdf-fields-aspose-pdf-dotnet-guide/)
 Learn how to move and reposition PDF form fields effortlessly with Aspose.PDF for .NET. This guide covers setup, step-by-step instructions, and troubleshooting tips.
 
@@ -306,7 +309,7 @@ Learn how to split a PDF file into individual pages using Aspose.PDF for .NET an
 Learn how to split PDF pages into separate files using Aspose.PDF for .NET. This comprehensive guide covers setup, implementation, and optimization tips.
 
 ### [Split and Create PDF Files Using Aspose.PDF .NET | Document Manipulation Guide](./split-create-pdf-aspose-pdf-net/)
-Learn how to split multi-page PDFs and create new PDF files using Aspose.PDF for .NET. Follow this comprehensive guide with code examples.
+Learn how to split multi-page PDFs and create new PDF files using Aspose.PDF .NET. Follow this comprehensive guide with code examples.
 
 ### [Ultimate Guide to PDF Manipulation with Aspose.PDF .NET&#58; Load, Save & Replace Text Efficiently](./master-pdf-manipulation-aspose-pdf-net/)
 Learn how to master PDF manipulation using Aspose.PDF for .NET. This guide covers loading, saving, and replacing text in PDFs, ideal for developers seeking efficiency.

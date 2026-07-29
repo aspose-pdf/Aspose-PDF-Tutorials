@@ -45,6 +45,7 @@ Samouczki Aspose.PDF for .NET „Programming with Tagged PDFs” przeprowadzą C
 | [Elementy struktury tekstu w pliku PDF](./text-structure-elements/) Naucz się manipulować elementami struktury tekstu w plikach PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik krok po kroku obejmuje wszystko, czego potrzebujesz, aby tworzyć ustrukturyzowane pliki PDF. |  
 | [Sprawdź poprawność pliku PDF](./validate-pdf/) | Dowiedz się, jak sprawdzić poprawność pliku PDF za pomocą Aspose.PDF dla .NET. Sprawdź jego zgodność ze standardami i wygeneruj raport walidacyjny. |  
 | [Utwórz PDF z tagami w C# – Kompletny przewodnik krok po kroku](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Dowiedz się, jak w C# utworzyć oznaczony plik PDF, korzystając z Aspose.PDF, krok po kroku, aby zapewnić dostępność i zgodność PDF/UA. |  
+| [Jak oznaczyć PDF przy użyciu Aspose.Pdf – Kompletny przewodnik programistyczny](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | Pełny przewodnik krok po kroku, jak oznaczyć plik PDF przy użyciu Aspose.PDF w .NET, zapewniając dostępność i zgodność PDF/UA. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

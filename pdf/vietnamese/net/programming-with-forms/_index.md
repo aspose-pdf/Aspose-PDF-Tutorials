@@ -50,7 +50,8 @@ Các hướng dẫn này cũng cung cấp các ví dụ mã chi tiết, giải t
 | [Đặt Java Script](./set-java-script/) | Mở khóa sức mạnh của Aspose.PDF cho .NET. Tìm hiểu cách thiết lập JavaScript trên các trường biểu mẫu với hướng dẫn từng bước của chúng tôi. |  
 | [Đặt tiêu đề nút radio](./set-radio-button-caption/) Tìm hiểu cách đặt tiêu đề nút radio trong PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước này hướng dẫn bạn cách tải, sửa đổi và lưu biểu mẫu PDF. |  
 | [Hộp văn bản](./text-box/) | Khám phá cách dễ dàng thêm hộp văn bản vào PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Tăng cường tương tác của người dùng. |  
-| [Cách tạo PDF với Aspose – Thêm trường biểu mẫu và trang](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Hướng dẫn tạo PDF, thêm trường biểu mẫu và các trang bằng Aspose.PDF cho .NET trong các bước đơn giản. |
+| [Cách tạo PDF với Aspose – Thêm trường biểu mẫu và trang](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Hướng dẫn tạo PDF, thêm trường biểu mẫu và các trang bằng Aspose.PDF cho .NET trong các bước đơn giản. |  
+| [Nhập FDF vào PDF bằng C# – Hướng dẫn chi tiết từng bước](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Tìm hiểu cách nhập tệp FDF vào tài liệu PDF bằng C# sử dụng Aspose.PDF cho .NET trong hướng dẫn chi tiết từng bước. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

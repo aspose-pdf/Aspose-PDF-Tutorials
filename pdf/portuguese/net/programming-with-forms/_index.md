@@ -51,6 +51,7 @@ Estes tutoriais também fornecem exemplos de código detalhados, explicações c
 | [Definir legenda do botão de opção](./set-radio-button-caption/) Aprenda a definir legendas para botões de opção em PDFs usando o Aspose.PDF para .NET. Este guia passo a passo explica como carregar, modificar e salvar seus formulários PDF. |  
 | [Caixa de texto](./text-box/) | Descubra como adicionar caixas de texto a PDFs sem esforço usando o Aspose.PDF para .NET com este guia passo a passo. Aprimore a interação do usuário. |  
 | [Como criar PDF com Aspose – Adicionar campo de formulário e páginas](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Aprenda a criar um PDF, adicionar campos de formulário e inserir páginas usando Aspose.PDF para .NET neste tutorial passo a passo. |  
+| [Importar FDF em PDF com C# – Guia Completo Passo a Passo](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Aprenda a importar arquivos FDF em documentos PDF usando C# e Aspose.PDF para .NET neste guia passo a passo. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

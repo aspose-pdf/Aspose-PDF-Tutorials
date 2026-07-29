@@ -65,6 +65,12 @@ Aspose.PDF for .NET を使用して、アクセシビリティ対応でスタイ
 ### [C#でPDFを比較する方法 – PDF差分生成の完全ガイド](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 C# と Aspose.PDF を使用して、PDF の差分を生成し、比較する方法を学びます。
 
+### [Aspose.Pdf で PDF ドキュメントを比較する – 完全ビジュアル差分ガイド](./compare-pdf-documents-with-aspose-pdf-complete-visual-diff-g/)
+Aspose.Pdf を使って PDF ドキュメントを視覚的に比較し、差分を生成する方法をステップバイステップで解説します。
+
+### [2つの PDF ドキュメントを比較する – 完全 C# ガイド](./compare-two-pdf-documents-complete-c-guide/)
+C# と Aspose.PDF を使用して、2 つの PDF ドキュメントを比較し、差分を生成する方法をステップバイステップで学びます。
+
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)

@@ -38,6 +38,9 @@ Dowiedz się, jak sprawdzić zgodność PDF/A-1a przy użyciu Aspose.PDF dla .NE
 ### [Walidacja PDF/A przy użyciu Aspose.PDF dla .NET w C#](./master-pdfa-validation-aspose-pdf-net/)
 Dowiedz się, jak weryfikować dokumenty PDF pod kątem standardów PDF/A przy użyciu Aspose.PDF .NET. Zapewnij zgodność i zwiększ niezawodność dokumentów dzięki naszemu przewodnikowi krok po kroku.
 
+### [Jak ustawić ICC w Aspose PDF – Kompletny przewodnik C#](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
+Pełny przewodnik, jak skonfigurować profil ICC w dokumentach PDF przy użyciu Aspose.PDF w C#.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

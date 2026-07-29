@@ -311,6 +311,9 @@ Scopri come dividere PDF multipagina e creare nuovi file PDF utilizzando Aspose.
 ### [Guida definitiva alla manipolazione di PDF con Aspose.PDF .NET: carica, salva e sostituisci il testo in modo efficiente](./master-pdf-manipulation-aspose-pdf-net/)
 Scopri come padroneggiare la manipolazione dei PDF utilizzando Aspose.PDF per .NET. Questa guida illustra come caricare, salvare e sostituire il testo nei PDF, ideale per gli sviluppatori che cercano efficienza.
 
+### [Unire i livelli PDF in C# – Come combinare i livelli PDF](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+Scopri come unire più livelli di un PDF in C# utilizzando Aspose.PDF per .NET per creare documenti complessi.
+
 ## Risorse aggiuntive
 
 - [Aspose.PDF per la documentazione di rete](https://docs.aspose.com/pdf/net/)

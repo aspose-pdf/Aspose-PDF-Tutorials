@@ -164,6 +164,12 @@ Scopri come trasformare script LaTeX complessi in documenti PDF utilizzando Aspo
 ### [Impostare gli sfondi delle immagini nei PDF utilizzando Aspose.PDF per .NET: una guida completa](./aspose-pdf-net-set-image-backgrounds/)
 Scopri come migliorare i tuoi documenti PDF impostando sfondi con immagini utilizzando Aspose.PDF per .NET. Questa guida include suggerimenti per la configurazione, l'implementazione e l'ottimizzazione.
 
+### [Overlay immagine PDF – aggiungi maschera e abilita la selezione automatica del vassoio](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+Scopri come sovrapporre immagini a PDF, aggiungere maschere e attivare la selezione automatica del vassoio con Aspose.PDF per .NET.
+
+### [Come utilizzare GraphicsAbsorber – Estrarre grafica vettoriale da PDF con Aspose.Pdf](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
+Scopri come estrarre grafica vettoriale da PDF usando GraphicsAbsorber di Aspose.Pdf con esempi di codice C#.
+
 ## Risorse aggiuntive
 
 - [Aspose.PDF per la documentazione di rete](https://docs.aspose.com/pdf/net/)

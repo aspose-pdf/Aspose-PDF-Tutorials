@@ -57,7 +57,10 @@
 | [XML إلى PDF تعيين مسار الصورة](./xml-to-pdfset-image-path/) تعلّم كيفية تحويل XML إلى PDF بسهولة باستخدام Aspose.PDF لـ .NET. يشرح لك هذا الدليل المفصل العملية خطوة بخطوة، من الإعداد إلى الاكتمال.  
 | [XPS إلى PDF](./xps-to-pdf/) تعلّم كيفية تحويل ملفات XPS إلى PDF باستخدام Aspose.PDF لـ .NET من خلال هذا البرنامج التعليمي خطوة بخطوة. مثالي للمطورين وهواة المستندات.  
 | [تحويل PDF إلى PDF/X‑4 باستخدام C#](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) |تعرف على كيفية تحويل ملفات PDF إلى صيغة PDF/X‑4 باستخدام Aspose.PDF لـ .NET في دليل خطوة بخطوة. |  
+| [تحويل تنسيق Aspose PDF: تحويل PDF إلى PDF/X‑4 باستخدام C#](./aspose-pdf-format-conversion-convert-pdf-to-pdf-x-4-in-c/) |تعلم كيفية تحويل ملفات PDF إلى تنسيق PDF/X‑4 باستخدام Aspose.PDF لـ .NET مع C# خطوة بخطوة. |
+| [إنشاء صورة PDF باستخدام Aspose.Pdf – دليل خطوة بخطوة](./create-pdf-image-with-aspose-pdf-step-by-step-guide/) |تعلم كيفية إنشاء صورة PDF باستخدام Aspose.PDF لـ .NET من خلال هذا الدليل خطوة بخطوة. |  
 | [دليل pdf إلى png – تحويل صفحات PDF إلى PNG باستخدام C#](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) |تعلم كيفية تحويل صفحات ملفات PDF إلى صور PNG باستخدام Aspose.PDF لـ .NET مع C# خطوة بخطوة. |
+| [كيفية تحويل PDF باستخدام Aspose – دليل شامل خطوة بخطوة](./how-to-convert-pdf-with-aspose-complete-step-by-step-guide/) |تعرف على كيفية تحويل ملفات PDF باستخدام Aspose خطوة بخطوة مع شرح مفصل وأمثلة برمجية. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

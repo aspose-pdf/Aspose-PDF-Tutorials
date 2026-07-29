@@ -38,6 +38,7 @@ tutorial includono istruzioni dettagliate, esempi di codice dettagliati e spiega
 | [Aggiorna le dimensioni della pagina PDF](./update-dimensions/) | Scopri come aggiornare senza sforzo le dimensioni delle pagine PDF con Aspose.PDF per .NET in questa guida completa e dettagliata. |  
 | [Zoom sul contenuto della pagina nel file PDF](./zoom-to-page-contents/) | Scopri come ingrandire il contenuto delle pagine nei file PDF utilizzando Aspose.PDF per .NET in questa guida completa. Ottimizza i tuoi documenti PDF in base alle tue esigenze specifiche. |
 | [Aggiungi numeri di pagina PDF con C# – Guida completa passo‑passo](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Guida passo passo per aggiungere numeri di pagina a un PDF usando C# e Aspose.PDF per .NET. |
+| [Duplica pagina PDF con Aspose.Pdf – Guida completa](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Guida passo passo per duplicare una pagina PDF usando Aspose.PDF per .NET, con esempi di codice chiari e facili da seguire. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

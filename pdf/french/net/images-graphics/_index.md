@@ -137,6 +137,9 @@ Découvrez comment extraire efficacement des images de pages spécifiques d'un P
 ### [Comment extraire les informations d'une page PDF et afficher des images avec Aspose.PDF pour .NET (Guide 2023)](./extract-pdf-info-render-images-aspose-dotnet/)
 Apprenez à extraire les dimensions des pages et à afficher les images des PDF avec Aspose.PDF pour .NET. Ce guide couvre la configuration, la mise en œuvre et les applications pratiques.
 
+### [Comment utiliser GraphicsAbsorber – extraire des graphiques vectoriels d'un PDF avec Aspose.Pdf](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
+Apprenez à extraire les graphiques vectoriels d'un PDF en utilisant la classe GraphicsAbsorber d'Aspose.PDF pour .NET.
+
 ### [Comment optimiser les images PDF avec Aspose.PDF pour .NET](./optimize-pdf-images-aspose-dotnet/)
 Apprenez à redimensionner, compresser et ajuster efficacement la qualité des images PDF avec Aspose.PDF pour .NET. Améliorez les performances de vos documents et l'expérience utilisateur.
 
@@ -163,6 +166,9 @@ Découvrez comment restituer des scripts LaTeX complexes dans des documents PDF 
 
 ### [Définir l'arrière-plan des images dans les fichiers PDF avec Aspose.PDF pour .NET : guide complet](./aspose-pdf-net-set-image-backgrounds/)
 Découvrez comment améliorer vos documents PDF en définissant des images d'arrière-plan avec Aspose.PDF pour .NET. Ce guide présente des conseils de configuration, de mise en œuvre et d'optimisation.
+
+### [Tutoriel de superposition d'image PDF – ajouter un masque et activer la sélection automatique du plateau](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+Apprenez à superposer des images sur un PDF, ajouter un masque et activer la sélection automatique du plateau avec Aspose.PDF pour .NET.
 
 ## Ressources supplémentaires
 

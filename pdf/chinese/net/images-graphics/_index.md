@@ -32,6 +32,9 @@
 ### [使用 Aspose.PDF for .NET 将 SVG 转换为 PDF：分步指南](./svg-to-pdf-aspose-pdf-net-tutorial/)
 学习如何使用 Aspose.PDF for .NET 将 SVG 文件无缝转换为高质量的 PDF。本教程包含代码示例和性能技巧，内容全面。
 
+### [使用 Aspose.PDF for .NET 的 GraphicsAbsorber 提取 PDF 矢量图形](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
+了解如何使用 GraphicsAbsorber 从 PDF 中提取矢量图形，实现高效的图形处理和再利用。
+
 ### [使用 Aspose.PDF for .NET 在 PDF 中创建和填充矩形：分步指南](./create-fill-rectangle-aspose-pdf-net/)
 学习如何使用 Aspose.PDF for .NET 在 PDF 文档中创建和填充矩形。本分步指南涵盖了从设置到使用 C# 实现的所有内容。
 
@@ -150,7 +153,7 @@ Aspose.PDF Net 代码教程
 学习如何使用 Aspose.PDF for .NET 高效地替换 PDF 文档中的图像。本指南内容全面，涵盖设置、实施和实际应用。
 
 ### [如何使用 Aspose.PDF for .NET 设置 PDF 中的图像大小](./set-image-size-pdf-aspose-dotnet/)
-了解如何使用 Aspose.PDF for .NET 调整 PDF 中的图像大小，非常适合创建专业文档和演示文稿。
+了解如何使用 Aspose.PDF for .NET 调整 PDF 中的图像大小，非常适合创建专业文档和演示稿。
 
 ### [使用 Aspose.PDF for .NET 掌握 PDF 中的图像放置](./optimize-image-placement-aspose-pdf-net/)
 学习使用 Aspose.PDF for .NET 优化 PDF 文档中的图像布局。通过实用指南提升文档质量和效率。
@@ -163,6 +166,9 @@ Aspose.PDF Net 代码教程
 
 ### [使用 Aspose.Pdf for .NET 设置 PDF 中的图像背景：综合指南](./aspose-pdf-net-set-image-backgrounds/)
 了解如何使用 Aspose.PDF for .NET 设置图像背景来增强您的 PDF 文档。本指南涵盖设置、实施和优化技巧。
+
+### [图像叠加 PDF 教程 – 添加遮罩并启用自动托盘选择](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+学习如何在 PDF 中叠加图像，添加遮罩并自动选择托盘，实现高级文档布局。
 
 ## 其他资源
 

@@ -104,6 +104,8 @@
 ### [إتقان Aspose.PDF لـ .NET: فتح مستندات PDF والبحث فيها بكفاءة](./aspose-pdf-net-open-search-pdfs/)
 تعرّف على كيفية استخدام Aspose.PDF لـ .NET لفتح مستندات PDF والبحث فيها. يغطي هذا الدليل الإعداد، والبحث عن نصوص في صفحات محددة، وتطبيقات عملية.
 
+### [كيفية البحث في ملفات PDF باستخدام Aspose.Pdf – دليل كامل بلغة C#](./how-to-search-pdf-with-aspose-pdf-complete-c-guide/)
+
 ### [إتقان علامات التبويب المخصصة في ملفات PDF باستخدام Aspose.PDF لـ .NET: دليل شامل](./master-custom-tab-stops-aspose-pdf-net/)
 تعرف على كيفية إتقان علامات التبويب المخصصة في مستندات PDF باستخدام Aspose.PDF لـ .NET، مما يعزز مهاراتك في تنسيق المستندات وعرضها.
 

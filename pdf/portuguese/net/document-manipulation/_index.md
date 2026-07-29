@@ -278,6 +278,9 @@ Um tutorial de código para Aspose.PDF Net
 ### [Mesclar PDFs no .NET usando Aspose.PDF: um guia completo](./merge-pdfs-net-aspose-pdf-tutorial/)
 Aprenda a mesclar arquivos PDF perfeitamente usando o Aspose.PDF para .NET. Este guia passo a passo aborda configuração, implementação e aplicações práticas.
 
+### [Mesclar camadas PDF em C# – Como combinar camadas PDF](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+Aprenda a combinar camadas de PDFs usando Aspose.PDF para .NET em C#, simplificando a manipulação de documentos complexos.
+
 ### [Mover campos de formulário PDF no .NET usando Aspose.PDF: um guia passo a passo](./move-pdf-fields-aspose-pdf-dotnet-guide/)
 Aprenda a mover e reposicionar campos de formulários PDF sem esforço com o Aspose.PDF para .NET. Este guia aborda configuração, instruções passo a passo e dicas de solução de problemas.
 
