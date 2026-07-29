@@ -23,6 +23,7 @@ Aspose.PDF for .NET's "Programming with Operators" tutorials guide you through t
 | [Draw XForm On Page](./draw-xform-on-page/) | earn how to draw XForms in PDF using Aspose.PDF for .NET with this comprehensive step-by-step guide. |  
 | [PDF Operators](./pdf-operators/) | Step-by-step guide to using PDF operators with Aspose.PDF for .NET. Add an image to a PDF page and specify its position. |  
 | [Remove Graphics Objects In PDF File](./remove-graphics-objects/) | Learn how to remove graphics objects from a PDF file using Aspose.PDF for .NET in this step-by-step guide. Simplify your PDF manipulation tasks. |  
+| [Create Empty PDF Dictionary in C# – Complete Aspose.Pdf Guide](./create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide/) | Step-by-step guide to creating an empty PDF dictionary in C# using Aspose.PDF for .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

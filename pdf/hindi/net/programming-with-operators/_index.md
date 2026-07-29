@@ -23,6 +23,7 @@ Aspose.PDF for .NET के "ऑपरेटर्स के साथ प्र�
 | [पेज पर XForm बनाएं](./draw-xform-on-page/) | इस व्यापक चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF में XForms बनाना सीखें। |  
 | [पीडीएफ ऑपरेटर](./pdf-operators/) | .NET के लिए Aspose.PDF के साथ PDF ऑपरेटर का उपयोग करने के लिए चरण-दर-चरण मार्गदर्शिका। PDF पृष्ठ पर एक छवि जोड़ें और उसकी स्थिति निर्दिष्ट करें। |  
 | [पीडीएफ फाइल में ग्राफिक ऑब्जेक्ट्स हटाएँ](./remove-graphics-objects/) इस चरण-दर-चरण मार्गदर्शिका में .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइल से ग्राफ़िक्स ऑब्जेक्ट को निकालना सीखें। अपने PDF हेरफेर कार्यों को सरल बनाएँ। |  
+| [C# में खाली PDF डिक्शनरी बनाएं – पूर्ण Aspose.Pdf गाइड](./create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide/) | C# में Aspose.PDF का उपयोग करके खाली PDF डिक्शनरी बनाने की पूरी गाइड। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -59,6 +59,9 @@
 ### [Επικύρωση υπογραφής PDF με το Aspose – Μετατροπή PDF σε HTML](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
 Μάθετε πώς να επικυρώνετε υπογραφές PDF και να μετατρέπετε PDF σε HTML με το Aspose.PDF για .NET.
 
+### [Επικύρωση υπογραφής PDF και λίστα υπογραφών PDF με το Aspose.PDF – Πλήρης Οδηγός](./validate-pdf-signature-and-list-pdf-signatures-with-aspose-p/)
+Μάθετε πώς να επικυρώσετε υπογραφές PDF και να εμφανίσετε όλες τις υπογραφές ενός εγγράφου χρησιμοποιώντας το Aspose.PDF για .NET.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.PDF για τεκμηρίωση δικτύου](https://docs.aspose.com/pdf/net/)

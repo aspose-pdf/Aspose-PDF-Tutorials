@@ -18,10 +18,8 @@
 ## البرامج التعليمية المتاحة
 
 ### [التوقيعات الرقمية في ملفات PDF باستخدام Aspose.PDF لـ .NET: دليل شامل](./digital-signature-aspose-pdf-net-tutorial/)
-تعرّف على كيفية تطبيق التوقيعات الرقمية في ملفات PDF باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل الإعداد، وعمليات التوقيع، وإدارة ظهور التوقيعات.
 
 ### [التوقيع رقميًا على ملف PDF بمظهر مخصص باستخدام Aspose.PDF لـ .NET: دليل خطوة بخطوة](./digitally-sign-pdf-custom-appearance-aspose-pdf-net/)
-تعرّف على كيفية التوقيع الرقمي على ملف PDF بمظهر مخصص باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل إعداد التوقيعات الرقمية وتخصيصها وتطبيقاتها العملية في مستنداتك.
 
 ### [استخراج معلومات التوقيع الرقمي من ملفات PDF باستخدام Aspose.PDF](./extract-digital-signature-info-from-pdfs-aspose-pdf/)
 برنامج تعليمي لبرمجة Aspose.PDF Net
@@ -58,6 +56,9 @@
 
 ### [التحقق من توقيع PDF باستخدام Aspose – تحويل PDF إلى HTML](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
 تعرّف على كيفية التحقق من توقيع PDF وتحويله إلى HTML باستخدام Aspose.
+
+### [التحقق من توقيع PDF وإدراج قائمة توقيعات PDF باستخدام Aspose.PDF – دليل شامل](./validate-pdf-signature-and-list-pdf-signatures-with-aspose-p/)
+دليل كامل يوضح كيفية التحقق من توقيع PDF واستخراج جميع التوقيعات المضمنة باستخدام Aspose.PDF في .NET.
 
 ## موارد إضافية
 
