@@ -13,13 +13,13 @@ keywords:
 language: en
 og_description: Create PDF/A file in C# with Aspose.Pdf. This tutorial shows how to
   convert PDF to PDF/A, covering PDF/A‑4 and best practices.
-og_title: Create PDF/A File in C# – Complete Conversion Guide
+og_title: Create PDF/A File in C# with Aspose.Pdf – Complete Conversion Guide
 tags:
 - Aspose.Pdf
 - C#
 - PDF/A
 - Document Conversion
-title: Create PDF/A File in C# – Full Conversion Tutorial
+title: Create PDF/A File in C# with Aspose.Pdf – Full Conversion Tutorial
 url: /net/pdfa-compliance/create-pdf-a-file-in-c-full-conversion-tutorial/
 ---
 

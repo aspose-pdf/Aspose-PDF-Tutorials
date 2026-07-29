@@ -1,6 +1,6 @@
 ---
-title: Programming with Tagged PDF
-linktitle: Programming with Tagged PDF
+title: Create and Manipulate Tagged PDFs with Aspose.PDF for .NET
+linktitle: Create and Manipulate Tagged PDFs with Aspose.PDF for .NET
 weight: 24
 url: /net/programming-with-tagged-pdf/
 description: Check out Aspose.PDF for .NET's Programming with Tagged PDF tutorials to master tagged PDF manipulation and generation.
@@ -14,8 +14,21 @@ description: Check out Aspose.PDF for .NET's Programming with Tagged PDF tutoria
 
 # Programming with Tagged PDF
 
-
 Aspose.PDF for .NET's "Programming with Tagged PDFs" tutorials walk you through using this library to manipulate and generate tagged PDFs. Learn how to create content structures, manage tagged elements, validate PDF/UA compliance, and improve accessibility of PDF documents. These tutorials give you an in-depth understanding of programming with tagged PDFs and help you get the most out of the power of Aspose.PDF for .NET.
+
+```csharp
+// Load a PDF document
+var pdfDocument = new Aspose.Pdf.Document("input.pdf");
+
+// Add a new structure element (e.g., a heading)
+var structure = pdfDocument.StructTreeRoot;
+var heading = new Aspose.Pdf.Tagged.PdfStructureElement(structure, Aspose.Pdf.Tagged.PdfStructureElementType.H1);
+heading.Title = "Chapter 1: Introduction";
+structure.AddKid(heading);
+
+// Save the tagged PDF
+pdfDocument.Save("output_tagged.pdf");
+```
 
 ## Tutorials
 | Title | Description |

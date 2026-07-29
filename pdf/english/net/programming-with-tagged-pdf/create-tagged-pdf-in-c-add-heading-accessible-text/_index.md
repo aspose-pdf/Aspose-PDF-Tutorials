@@ -13,12 +13,12 @@ keywords:
 language: en
 og_description: Create tagged PDF with Aspose.Pdf in C#. This guide shows how to add
   heading to PDF, set accessible text, and add page to PDF.
-og_title: Create Tagged PDF in C# – Add Heading & Accessible Text
+og_title: Create Tagged PDF with Aspose.Pdf in C# – Add Heading & Accessible Text
 tags:
 - Aspose.Pdf
 - C#
 - PDF accessibility
-title: Create Tagged PDF in C# – Add Heading & Accessible Text
+title: Create Tagged PDF with Aspose.Pdf in C# – Add Heading & Accessible Text
 url: /net/programming-with-tagged-pdf/create-tagged-pdf-in-c-add-heading-accessible-text/
 ---
 

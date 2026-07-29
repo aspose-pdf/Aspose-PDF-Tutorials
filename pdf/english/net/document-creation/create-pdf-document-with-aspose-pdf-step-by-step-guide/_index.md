@@ -16,7 +16,7 @@ tags:
 - Aspose.Pdf
 - C#
 - PDF Generation
-title: Create PDF Document with Aspose.Pdf – Step‑by‑Step Guide
+title: Create PDF Document with Aspose.Pdf for .NET – Step‑by‑Step Guide
 url: /net/document-creation/create-pdf-document-with-aspose-pdf-step-by-step-guide/
 ---
 
@@ -24,7 +24,7 @@ url: /net/document-creation/create-pdf-document-with-aspose-pdf-step-by-step-gui
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Create PDF Document with Aspose.Pdf – Step‑by‑Step Guide
+# Create PDF Document with Aspose.Pdf for .NET – Step‑by‑Step Guide
 
 Ever needed to **create pdf document** programmatically and weren’t sure where to start? You’re not alone—many developers hit the same wall when they first tackle PDF automation. In this tutorial we’ll walk through a complete, runnable example that shows you how to **add page to pdf**, draw a rectangle, and **set rectangle fill color** while letting Aspose.Pdf validate the shape’s boundaries.
 
