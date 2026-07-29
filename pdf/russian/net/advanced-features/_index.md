@@ -65,6 +65,9 @@
 ### [Как сравнивать PDF в C# — Полное руководство по генерации различий PDF](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 Узнайте, как сравнивать PDF-файлы в C# и генерировать отчет о различиях с помощью Aspose.PDF.
 
+### [Добавление прозрачности в PDF с Aspose.Pdf – Полное руководство для .NET](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
+Узнайте, как добавить прозрачность в PDF-документы с помощью Aspose.Pdf для .NET, используя полное руководство с примерами кода.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.PDF для сети](https://docs.aspose.com/pdf/net/)

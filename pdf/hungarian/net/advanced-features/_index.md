@@ -23,6 +23,9 @@ Tanulja meg, hogyan férhet hozzá és módosíthatja a címkézett PDF-ek gyerm
 ### [Színes vonalrétegek hozzáadása PDF-ekhez az Aspose.PDF for .NET használatával: Átfogó útmutató](./add-colored-lines-pdfs-using-aspose-pdf-net/)
 Ismerje meg, hogyan javíthatja PDF dokumentumait színes vonalrétegek hozzáadásával az Aspose.PDF for .NET segítségével. Ez az útmutató lépésről lépésre bemutatja a gyakorlati alkalmazásokat.
 
+### [Átlátszóság hozzáadása PDF-hez az Aspose.Pdf segítségével – Teljes .NET útmutató](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
+Ismerje meg, hogyan adhat hozzá átlátszó elemeket PDF-dokumentumokhoz az Aspose.Pdf .NET könyvtár segítségével.
+
 ### [Aspose.PDF .NET: A PDF akadálymentesítésének javítása címkézéssel](./aspose-pdf-net-accessible-tagging-guide/)
 Tanulja meg az Aspose.PDF .NET használatát a PDF-ek akadálymentes címkézéséhez. Állítsa be egyszerűen a címeket, nyelveket és logikai struktúrákat.
 

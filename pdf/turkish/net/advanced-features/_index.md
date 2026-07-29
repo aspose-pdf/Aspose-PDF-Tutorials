@@ -63,7 +63,8 @@ PDF/UA-1 standardına göre erişilebilir PDF belgelerini doğrulamak ve işleme
 Aspose.PDF for .NET kullanarak erişilebilir, biçimlendirilmiş etiketli PDF belgeleri oluşturmayı öğrenin. Yapılandırılmış tablolar ve gelişmiş erişilebilirlikle uyumlu PDF'ler oluşturmada ustalaşın.
 
 ### [C# ile PDF'leri Karşılaştırma – PDF Diff Oluşturma İçin Tam Kılavuz](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
-C# ve Aspose.PDF kullanarak PDF dosyalarını karşılaştırmayı, farkları (diff) oluşturmayı ve raporlamayı öğrenin.
+
+### [Aspose.Pdf ile PDF'ye Şeffaflık Ekleme – Tam .NET Kılavuzu](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
 
 ## Ek Kaynaklar
 

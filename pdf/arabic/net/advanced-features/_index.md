@@ -65,6 +65,9 @@
 ### [كيفية مقارنة ملفات PDF في C# – دليل كامل لإنشاء فرق PDF](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 تعرف على كيفية مقارنة ملفات PDF في C# وإنشاء فرق PDF باستخدام Aspose.PDF بسهولة ودقة.
 
+### [إضافة الشفافية إلى ملفات PDF باستخدام Aspose.Pdf – دليل كامل .NET](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
+تعلم كيفية تطبيق تأثير الشفافية على مستندات PDF باستخدام Aspose.Pdf في بيئة .NET خطوة بخطوة.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

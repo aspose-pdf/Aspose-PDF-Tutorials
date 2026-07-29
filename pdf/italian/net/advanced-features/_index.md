@@ -65,6 +65,9 @@ Impara a creare documenti PDF accessibili, formattati e taggati utilizzando Aspo
 ### [Come confrontare i PDF in C# – Guida completa alla generazione di PDF Diff](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 Scopri come confrontare PDF in C# e generare un file di differenza PDF usando Aspose.PDF per .NET.
 
+### [Aggiungere trasparenza ai PDF con Aspose.Pdf – Guida completa .NET](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
+Scopri come applicare effetti di trasparenza ai PDF usando Aspose.Pdf per .NET con esempi di codice C# dettagliati.
+
 ## Risorse aggiuntive
 
 - [Aspose.PDF per la documentazione di rete](https://docs.aspose.com/pdf/net/)
