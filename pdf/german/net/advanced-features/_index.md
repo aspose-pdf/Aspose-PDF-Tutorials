@@ -65,6 +65,9 @@ Lernen Sie, mit Aspose.PDF für .NET barrierefreie, formatierte und getaggte PDF
 ### [So vergleichen Sie PDFs in C# – Vollständige Anleitung zur Generierung von PDF-Differenzen](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDFs vergleichen und Unterschiede (Diff) programmatisch ermitteln.
 
+### [Transparenz zu PDF mit Aspose.Pdf hinzufügen – Vollständige .NET-Anleitung](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
+Erfahren Sie, wie Sie mit Aspose.Pdf für .NET Transparenz zu PDF-Dokumenten hinzufügen und komplexe Grafik‑Effekte umsetzen.
+
 ## Weitere Ressourcen
 
 - [Aspose.PDF für Net-Dokumentation](https://docs.aspose.com/pdf/net/)

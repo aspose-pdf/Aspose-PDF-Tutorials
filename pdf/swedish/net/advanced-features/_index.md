@@ -65,6 +65,9 @@ Lär dig skapa tillgängliga, formaterade taggade PDF-dokument med Aspose.PDF f�
 ### [Hur man jämför PDF-filer i C# – En komplett guide för att generera PDF-diff](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 Lär dig att jämföra PDF-dokument i C# och generera diff-filer med Aspose.PDF för .NET.
 
+### [Lägg till transparens i PDF med Aspose.Pdf – Komplett .NET-guide](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
+Lär dig hur du lägger till transparens i PDF-dokument med Aspose.Pdf för .NET i en komplett guide.
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)
