@@ -58,7 +58,8 @@ De bron bevat tutorials over de programmeerfunctie met documentfunctionaliteit v
 | [Valideer PDF AB-standaard](./validatepdfabstandard/) Leer in deze stapsgewijze tutorial hoe u een PDF kunt valideren voor de PDF/A-1b-standaard met Aspose.PDF voor .NET. Zorg voor compliance bij langetermijnarchivering. |  
 | [PDF-bestanden valideren Een standaard](./validatepdfastandard/) | Leer hoe u PDF-bestanden kunt valideren tegen de PDF/A-1a-standaard met behulp van Aspose.PDF voor .NET in deze uitgebreide stapsgewijze zelfstudie. |  
 | [Valideer PDF UA-standaard](./validatepdfuastandard/) | Leer hoe u een PDF kunt valideren voor de PDF/UA-toegankelijkheidsstandaard met Aspose.PDF voor .NET met onze stapsgewijze handleiding en gedetailleerde uitleg. |  
-
+| [Bates-nummers toevoegen in Word – Complete stapsgewijze handleiding](./add-bates-numbering-in-word-complete-step-by-step-guide/) | Leer hoe u Bates-nummers toevoegt aan Word-documenten met Aspose.Words voor .NET in deze volledige stap‑voor‑stap gids. |
+| [Lege pagina toevoegen aan Word-document met C# – Complete gids](./add-blank-page-in-word-document-with-c-complete-guide/) | Leer hoe u een lege pagina toevoegt aan een Word-document met C# met deze stapsgewijze handleiding. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

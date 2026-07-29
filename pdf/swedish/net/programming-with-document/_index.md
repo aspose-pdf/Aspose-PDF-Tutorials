@@ -58,6 +58,8 @@ Resursen innehåller handledningar om Aspose.PDF för .NET-bibliotekets programm
 | [Validera PDF AB-standarden](./validatepdfabstandard/) Lär dig hur du validerar en PDF för PDF/A-1b-standarden med Aspose.PDF för .NET i den här steg-för-steg-handledningen. Säkerställ efterlevnad för långsiktig arkivering. |  
 | [Validera PDF-filer som standard](./validatepdfastandard/) | Lär dig hur du validerar PDF-filer mot PDF/A-1a-standarden med hjälp av Aspose.PDF för .NET i den här omfattande steg-för-steg-handledningen. |  
 | [Validera PDF UA-standard](./validatepdfuastandard/) | Lär dig hur du validerar en PDF för PDF/UA-tillgänglighetsstandarden med Aspose.PDF för .NET med vår steg-för-steg-guide och detaljerade förklaringar. |  
+| [Lägg till Bates-nummerering i Word – Komplett steg‑för‑steg‑guide](./add-bates-numbering-in-word-complete-step-by-step-guide/) | Lär dig hur du lägger till Bates‑nummerering i Word‑dokument med en komplett steg‑för‑steg‑guide. |  
+| [Lägg till tom sida i Word-dokument med C# – Komplett guide](./add-blank-page-in-word-document-with-c-complete-guide/) | Lär dig hur du lägger till en tom sida i ett Word-dokument med C# i en komplett steg‑för‑steg‑guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

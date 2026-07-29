@@ -58,6 +58,8 @@
 | [التحقق من صحة معيار PDF AB](./validatepdfabstandard/) تعرّف على كيفية التحقق من صحة ملف PDF لمعيار PDF/A-1b باستخدام Aspose.PDF لـ .NET في هذا البرنامج التعليمي خطوة بخطوة. اضمن التوافق مع معايير الأرشفة طويلة الأمد.  
 | [التحقق من صحة ملفات PDF كمعيار](./validatepdfastandard/) |تعرف على كيفية التحقق من صحة ملفات PDF وفقًا لمعيار PDF/A-1a باستخدام Aspose.PDF لـ .NET في هذا البرنامج التعليمي الشامل خطوة بخطوة. |  
 | [التحقق من صحة معيار PDF UA](./validatepdfuastandard/) |تعرف على كيفية التحقق من صحة ملف PDF لمعيار إمكانية الوصول PDF/UA باستخدام Aspose.PDF لـ .NET من خلال دليلنا خطوة بخطوة وشروحاتنا التفصيلية. |  
+| [إضافة ترقيم Bates في Word – دليل خطوة بخطوة كامل](./add-bates-numbering-in-word-complete-step-by-step-guide/) | تعرّف على كيفية إضافة ترقيم Bates إلى مستندات Word باستخدام Aspose.Words لـ .NET في دليل خطوة بخطوة. |  
+| [إضافة صفحة فارغة في مستند Word باستخدام C# – دليل شامل](./add-blank-page-in-word-document-with-c-complete-guide/) | تعرّف على كيفية إضافة صفحة فارغة إلى مستند Word باستخدام C# ومكتبة Aspose.Words في دليل خطوة بخطوة شامل. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

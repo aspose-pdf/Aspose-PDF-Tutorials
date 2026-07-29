@@ -57,7 +57,9 @@ Este recurso incluye tutoriales sobre la programación con la función de docume
 | [Desincrustar fuentes y optimizar archivos PDF](./unembedfonts/) | Aprenda a desincrustar fuentes y optimizar archivos PDF usando Aspose.PDF para .NET en este tutorial paso a paso. |  
 | [Validar PDF AB Standard](./validatepdfabstandard/) Aprenda a validar un PDF para el estándar PDF/A-1b con Aspose.PDF para .NET en este tutorial paso a paso. Asegúrese de que el archivo sea compatible a largo plazo.  
 | [Validar archivos PDF Un estándar](./validatepdfastandard/) | Aprenda a validar archivos PDF según el estándar PDF/A-1a usando Aspose.PDF para .NET en este completo tutorial paso a paso. |  
-| [Validar PDF UA Standard](./validatepdfuastandard/) | Aprenda a validar un PDF para el estándar de accesibilidad PDF/UA usando Aspose.PDF para .NET con nuestra guía paso a paso y explicaciones detalladas. |  
+| [Validar PDF UA Standard](./validatepdfuastandard/) | Aprenda a validar un PDF para el estándar de accesibilidad PDF/UA usando Aspose.PDF para .NET con nuestra guía paso a paso y explicaciones detalladas. |
+| [Agregar numeración Bates en Word – Guía completa paso a paso](./add-bates-numbering-in-word-complete-step-by-step-guide/) | Aprenda a agregar numeración Bates a documentos Word con Aspose.PDF para .NET. Guía paso a paso con ejemplos de código. |
+| [Agregar página en blanco en documento Word con C# – Guía completa](./add-blank-page-in-word-document-with-c-complete-guide/) Aprenda a agregar una página en blanco a un documento Word usando C# y Aspose.PDF para .NET. Guía paso a paso con ejemplos de código.  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -62,6 +62,9 @@ Tìm hiểu cách triển khai chữ ký số an toàn và xác minh cho PDF tro
 ### [Làm chủ việc biên tập PDF với Aspose.PDF .NET: Hướng dẫn toàn diện để xử lý tài liệu an toàn](./mastering-pdf-redaction-aspose-pdf-net-guide/)
 Tìm hiểu cách biên tập PDF an toàn bằng Aspose.PDF .NET. Hướng dẫn này đề cập đến các phương pháp tiếp cận dựa trên chú thích và facades, đảm bảo tài liệu của bạn vẫn tuân thủ.
 
+### [Cách biên tập PDF và xóa dữ liệu nhạy cảm trong C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+Hướng dẫn cách biên tập PDF để xóa dữ liệu nhạy cảm bằng Aspose.PDF cho .NET trong C#.
+
 ### [Mở khóa và giải mã tệp PDF bằng Aspose.PDF cho .NET: Hướng dẫn đầy đủ](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 Tìm hiểu cách mở khóa và giải mã các tệp PDF được bảo vệ bằng Aspose.PDF cho .NET trong C#. Hướng dẫn này bao gồm thiết lập, các bước giải mã và các biện pháp thực hành tốt nhất.
 
