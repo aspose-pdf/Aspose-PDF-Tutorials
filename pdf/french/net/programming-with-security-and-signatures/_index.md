@@ -35,6 +35,9 @@ Ce tutoriel vous offre un aperçu détaillé des méthodes et techniques permett
 | [Signer avec une carte à puce en utilisant le champ de signature](./sign-with-smart-card-using-signature-field/) | Apprenez à signer des PDF en toute sécurité à l'aide d'une carte à puce avec Aspose.PDF pour .NET. Suivez notre guide étape par étape pour une mise en œuvre facile. |  
 | [Vérifier les signatures PDF en C# – Lire les fichiers PDF signés](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Apprenez à lire et analyser les signatures numériques des PDF avec Aspose.PDF pour .NET en C#. |
 | [Comment réparer les fichiers PDF – Guide complet C# avec Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Apprenez à réparer les fichiers PDF corrompus avec Aspose.PDF pour .NET en suivant ce guide complet étape par étape en C#. |  
+| [Comment valider un PDF avec Aspose : vérifier les signatures numériques](./how-to-validate-pdf-with-aspose-verify-digital-signatures/) | Apprenez à valider les signatures numériques d’un PDF avec Aspose.PDF pour .NET grâce à ce guide étape par étape. |
+| [Obtenir les signatures intégrées PDF en C# – Guide complet](./get-embedded-signatures-pdf-in-c-complete-guide/) | Apprenez à extraire les signatures intégrées d'un PDF en C# avec Aspose.PDF, étape par étape. |
+| [Valider la signature numérique PDF en C# avec Aspose.PDF](./validate-pdf-digital-signature-in-c-with-aspose-pdf/) | Apprenez à valider les signatures numériques d’un PDF en C# avec Aspose.PDF, guide étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

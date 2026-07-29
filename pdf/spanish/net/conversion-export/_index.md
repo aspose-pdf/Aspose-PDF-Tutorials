@@ -68,6 +68,9 @@ Aprenda a convertir archivos PDF a HTML con Aspose.PDF para .NET mediante la sal
 ### [Convertir PDF a HTML en .NET usando Aspose.PDF sin guardar imágenes](./convert-pdf-html-net-asposepdf-no-images/)
 Aprenda a convertir archivos PDF a HTML con Aspose.PDF para .NET sin guardar las imágenes por separado. Mantenga la integridad del diseño con nuestra guía detallada.
 
+### [Cómo omitir la exportación de imágenes al convertir PDF a HTML – Guía completa en C#](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
+Aprenda a convertir PDF a HTML sin generar archivos de imagen, optimizando el proceso con Aspose.PDF para .NET y C#.
+
 ### [Convierta PDF a HTML en .NET con rutas de imagen personalizadas usando Aspose.PDF](./convert-pdf-html-custom-image-paths-dotnet/)
 Aprenda a convertir archivos PDF a formato HTML con Aspose.PDF para .NET y personalice las rutas de las imágenes de forma eficiente. Ideal para la integración web.
 

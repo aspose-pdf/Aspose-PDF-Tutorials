@@ -68,6 +68,9 @@ Learn how to convert PDF files to HTML with Aspose.PDF for .NET using stream out
 ### [Convert PDF to HTML in .NET Using Aspose.PDF Without Saving Images](./convert-pdf-html-net-asposepdf-no-images/)
 Learn how to convert PDF files to HTML using Aspose.PDF for .NET without saving images separately. Maintain layout integrity with our detailed guide.
 
+### [How to Skip Image Export in PDF to HTML – Complete C# Guide](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
+Learn how to prevent image export when converting PDF to HTML using Aspose.PDF for .NET with C#.
+
 ### [Convert PDF to HTML in .NET with Custom Image Paths Using Aspose.PDF](./convert-pdf-html-custom-image-paths-dotnet/)
 Learn how to convert PDF files to HTML format using Aspose.PDF for .NET, and customize image paths efficiently. Ideal for web integration.
 
@@ -141,7 +144,7 @@ Learn how to crop specific regions of a PDF page and convert them into images us
 Learn how to efficiently export data from applications to PDF using Aspose.PDF for .NET. This guide covers setup, code examples in C#, and key features.
 
 ### [Export PDF Annotations with Aspose.PDF .NET&#58; A Comprehensive Guide](./export-annotations-aspose-pdf-net/)
-Learn how to efficiently export annotations from PDFs using Aspose.PDF for .NET. This guide covers setup, implementation, and best practices.
+Learn how to efficiently export annotations from PDFs using Aspose.PDF .NET. This guide covers setup, implementation, and best practices.
 
 ### [Export PDF Data to XML with Aspose.PDF for .NET&#58; A Step-by-Step Guide](./export-pdf-data-to-xml-aspose-dotnet-guide/)
 Learn how to efficiently export PDF form data into structured XML using Aspose.PDF for .NET, a powerful library designed for PDF manipulation.

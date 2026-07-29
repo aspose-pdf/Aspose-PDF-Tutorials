@@ -45,6 +45,7 @@ tutorial "Programmazione con PDF con tag" di Aspose.PDF per .NET ti guideranno n
 | [Elementi della struttura del testo nel file PDF](./text-structure-elements/) Impara a manipolare gli elementi della struttura del testo nei PDF con Aspose.PDF per .NET. Questa guida passo passo illustra tutto il necessario per creare PDF strutturati. |  
 | [Convalida file PDF](./validate-pdf/) | Scopri come convalidare un file PDF con Aspose.PDF per .NET. Verifica la sua conformità agli standard e genera un report di convalida. |  
 | [Crea PDF con tag in C# – Guida completa passo passo](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Impara a creare PDF con tag in C# usando Aspose.PDF per .NET, con istruzioni dettagliate passo passo per garantire l'accessibilità. |  
+| [Crea documento PDF C# – Posiziona testo e aggiungi albero strutturale](./create-pdf-document-c-position-text-and-add-structural-tree/) | Scopri come posizionare testo e aggiungere un albero strutturale a un documento PDF usando Aspose.PDF per .NET in C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

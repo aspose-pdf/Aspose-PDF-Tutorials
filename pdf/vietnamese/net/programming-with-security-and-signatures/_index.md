@@ -24,17 +24,20 @@ Hướng dẫn cung cấp cho bạn tổng quan chi tiết về các phương ph
 | [Thay đổi mật khẩu trong tệp PDF](./change-password/) | Học cách thay đổi mật khẩu PDF dễ dàng bằng Aspose.PDF cho .NET. Hướng dẫn từng bước của chúng tôi sẽ hướng dẫn bạn thực hiện quy trình này một cách an toàn. |  
 | [Giải mã tập tin PDF](./decrypt/) | Tìm hiểu cách giải mã an toàn các tệp PDF bằng Aspose.PDF cho .NET. Nhận hướng dẫn từng bước để nâng cao kỹ năng quản lý tài liệu của bạn. |  
 | [Xác định mật khẩu đúng trong tệp PDF](./determine-correct-password/) | Mở khóa tệp PDF bằng mật khẩu đúng bằng Aspose.PDF cho .NET. Tìm hiểu cách xác định mật khẩu đúng một cách dễ dàng. |  
-| [Đăng nhập kỹ thuật số vào tệp PDF](./digitally-sign/) Tìm hiểu cách ký kỹ thuật số các tệp PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước để đảm bảo tài liệu của bạn an toàn và xác thực. |  
+| [Đăng nhập kỹ thuật số vào tệp PDF](./digitally-sign/) | Tìm hiểu cách ký kỹ thuật số các tệp PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước để đảm bảo tài liệu của bạn an toàn và xác thực. |  
 | [Ký số có dấu thời gian trong tệp PDF](./digitally-sign-with-time-stamp/) | Tìm hiểu cách ký kỹ thuật số vào PDF có dấu thời gian bằng Aspose.PDF cho .NET. Hướng dẫn từng bước này bao gồm các điều kiện tiên quyết, thiết lập chứng chỉ, dấu thời gian và nhiều hơn nữa. |  
 | [Mã hóa tệp PDF](./encrypt/) | Tìm hiểu cách mã hóa tệp PDF của bạn một cách dễ dàng bằng Aspose.PDF cho .NET. Bảo mật thông tin nhạy cảm với hướng dẫn từng bước dễ dàng của chúng tôi. |  
 | [Trích xuất hình ảnh](./extracting-image/) | Dễ dàng học cách trích xuất hình ảnh từ PDF bằng Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để trích xuất hình ảnh liền mạch. |  
 | [Trích xuất thông tin chữ ký](./extract-signature-info/) | Tìm hiểu cách trích xuất chữ ký số và thông tin chứng chỉ từ tài liệu PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước đầy đủ dành cho nhà phát triển C#. |  
 | [Kiểm tra chữ ký PDF trong C# – Cách đọc tệp PDF đã ký](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Học cách kiểm tra và đọc các chữ ký PDF bằng C# với Aspose.PDF cho .NET trong hướng dẫn chi tiết. |  
-| [Có được bảo vệ bằng mật khẩu không](./is-password-protected/) Tìm hiểu cách kiểm tra xem tệp PDF có được bảo vệ bằng mật khẩu hay không bằng Aspose.PDF cho .NET trong hướng dẫn từng bước toàn diện này. |  
+| [Có được bảo vệ bằng mật khẩu không](./is-password-protected/) | Tìm hiểu cách kiểm tra xem tệp PDF có được bảo vệ bằng mật khẩu hay không bằng Aspose.PDF cho .NET trong hướng dẫn từng bước toàn diện này. |  
 | [Thiết lập quyền trong tệp PDF](./set-privileges/) | Tìm hiểu cách thiết lập quyền PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Bảo mật tài liệu của bạn một cách hiệu quả. |  
 | [Ký bằng thẻ thông minh sử dụng chữ ký tệp PDF](./sign-with-smart-card-using-pdf-file-signature/) | Tìm hiểu cách ký tệp PDF bằng thẻ thông minh với Aspose.PDF cho .NET. Thực hiện theo hướng dẫn từng bước này để có chữ ký số an toàn. |  
 | [Ký bằng thẻ thông minh sử dụng trường chữ ký](./sign-with-smart-card-using-signature-field/) | Tìm hiểu cách ký PDF an toàn bằng thẻ thông minh với Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để triển khai dễ dàng. |  
 | [Cách sửa tệp PDF – Hướng dẫn C# đầy đủ với Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Học cách sửa chữa các tệp PDF bị hỏng bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết bằng C#. |  
+| [Cách xác thực PDF với Aspose: Xác minh chữ ký số](./how-to-validate-pdf-with-aspose-verify-digital-signatures/) | Học cách xác thực chữ ký số trong tài liệu PDF bằng Aspose.PDF cho .NET qua hướng dẫn chi tiết từng bước. |  
+| [Lấy chữ ký nhúng PDF trong C# – Hướng dẫn đầy đủ](./get-embedded-signatures-pdf-in-c-complete-guide/) | Hướng dẫn chi tiết cách lấy các chữ ký nhúng trong tài liệu PDF bằng C# và Aspose.PDF cho .NET. |  
+| [Xác thực chữ ký số PDF trong C# với Aspose.PDF](./validate-pdf-digital-signature-in-c-with-aspose-pdf/) | Học cách xác thực chữ ký số trong tài liệu PDF bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết từng bước. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

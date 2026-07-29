@@ -224,6 +224,9 @@ Bemästra PDF-till-HTML-konvertering med Aspose.PDF för .NET. Förbättra dokum
 ### [PDF till HTML-konvertering med Aspose.PDF för .NET](./pdf-to-html-conversion-aspose-dot-net/)
 En kodhandledning för Aspose.PDF Net
 
+### [Hur man hoppar över bildexport i PDF till HTML – Komplett C#-guide](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
+Lär dig hur du utesluter bildexport när du konverterar PDF till HTML med Aspose.PDF i C#.
+
 ### [PDF till TIFF-konvertering i .NET med Aspose.PDF: En steg-för-steg-guide](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Lär dig hur du konverterar PDF-dokument till TIFF-bilder med Aspose.PDF för .NET. Bemästra anpassade färgdjup och avancerade bildbehandlingstekniker.
 
