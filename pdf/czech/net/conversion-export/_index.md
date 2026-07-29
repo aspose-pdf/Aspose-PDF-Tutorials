@@ -83,6 +83,9 @@ Naučte se, jak převádět dokumenty PDF do formátu HTML pomocí nástroje Asp
 ### [Převod PDF do PNG pomocí Aspose.PDF .NET: Vylepšení nápovědy k písmu pro ostré vykreslování textu](./convert-pdf-png-aspose-net-font-hinting/)
 Naučte se, jak převádět PDF dokumenty do vysoce kvalitních obrázků PNG pomocí Aspose.PDF .NET a jak zajistit ostré vykreslování textu pomocí hintingu fontů.
 
+### [Jak vykreslit stránky PDF jako PNG obrázky – kompletní průvodce Aspose.PDF](./how-to-render-pdf-pages-as-png-images-complete-aspose-pdf-gu/)
+Naučte se, jak převádět stránky PDF do PNG obrázků pomocí Aspose.PDF v .NET s podrobným návodem.
+
 ### [Převod PDF do PPTX pomocí Aspose.PDF pro .NET: Podrobný návod](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 Naučte se, jak efektivně převádět dokumenty PDF do prezentací v PowerPointu pomocí nástroje Aspose.PDF pro .NET. Tato podrobná příručka zahrnuje základní převod, pokročilé funkce, jako jsou obrázkové slajdy, a sledování průběhu.
 
@@ -226,6 +229,9 @@ Výukový program pro kódování Aspose.PDF Net
 
 ### [Konverze PDF do TIFF v .NET pomocí Aspose.PDF: Podrobný návod](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Naučte se, jak převádět dokumenty PDF do obrázků TIFF pomocí Aspose.PDF pro .NET. Osvojte si vlastní barevné hloubky a pokročilé techniky zpracování obrazu.
+
+### [Aspose PDF do HTML: Kompletní průvodce převodem PDF a odstraněním obrázků](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
+Kompletní průvodce převodem PDF do HTML s pomocí Aspose.PDF a odstraněním obrázků pro optimalizaci velikosti souboru.
 
 ## Další zdroje
 

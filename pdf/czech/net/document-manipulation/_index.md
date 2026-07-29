@@ -311,6 +311,9 @@ Naučte se, jak rozdělovat vícestránkové PDF soubory a vytvářet nové PDF 
 ### [Ultimátní průvodce manipulací s PDF pomocí Aspose.PDF .NET: Efektivní načítání, ukládání a nahrazování textu](./master-pdf-manipulation-aspose-pdf-net/)
 Naučte se, jak zvládnout manipulaci s PDF pomocí Aspose.PDF pro .NET. Tato příručka se zabývá načítáním, ukládáním a nahrazováním textu v PDF souborech, což je ideální pro vývojáře, kteří hledají efektivitu.
 
+### [Jak opravit PDF soubory pomocí Aspose.PDF – Kompletní průvodce](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
+Naučte se, jak opravit poškozené PDF soubory pomocí Aspose.PDF v tomto podrobném průvodci.
+
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)

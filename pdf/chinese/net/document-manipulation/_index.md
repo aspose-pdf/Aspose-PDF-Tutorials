@@ -311,6 +311,9 @@ Aspose.PDF Net 代码教程
 ### [使用 Aspose.PDF .NET 进行 PDF 操作的终极指南：高效加载、保存和替换文本](./master-pdf-manipulation-aspose-pdf-net/)
 学习如何使用 Aspose.PDF for .NET 掌握 PDF 操作。本指南涵盖 PDF 中的文本加载、保存和替换，非常适合追求效率的开发人员。
 
+### [使用 Aspose.PDF 修复 PDF 文件 – 完整指南](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
+了解如何使用 Aspose.PDF for .NET 修复损坏的 PDF 文件，包括检测错误、修复结构并保存有效文档的完整步骤。
+
 ## 其他资源
 
 - [Aspose.PDF 用于网络文档](https://docs.aspose.com/pdf/net/)
