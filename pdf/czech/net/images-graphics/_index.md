@@ -44,6 +44,9 @@ Naučte se, jak vytvářet vizuálně přitažlivé dokumenty PDF extrakcí a zv
 ### [Kreslení průhledných tvarů v PDF pomocí Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 Výukový program pro kódování Aspose.PDF Net
 
+### [Jak přidat tvar do PDF pomocí Aspose.PDF v C# – krok‑za‑krokem průvodce](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Naučte se, jak pomocí Aspose.PDF v C# přidat různé tvary do PDF dokumentů v tomto podrobném návodu.
+
 ### [Efektivní identifikace obrázků PDF s Aspose.PDF pro .NET](./master-image-identification-aspose-pdf-net/)
 Naučte se, jak identifikovat obrázky ve stupních šedi a RGB v PDF pomocí Aspose.PDF pro .NET. Tento tutoriál se zabývá instalací, extrakcí obrázků a tipy pro výkon.
 

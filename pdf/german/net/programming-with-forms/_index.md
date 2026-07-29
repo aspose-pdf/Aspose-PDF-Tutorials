@@ -50,6 +50,7 @@ Diese Tutorials bieten detaillierte Codebeispiele, klare Erklärungen und Illust
 | [Java-Skript festlegen](./set-java-script/) | Entfesseln Sie die Leistungsfähigkeit von Aspose.PDF für .NET. Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie JavaScript in Formularfeldern einrichten. |
 | [Beschriftung des Optionsfelds festlegen](./set-radio-button-caption/) Erfahren Sie, wie Sie mit Aspose.PDF für .NET Optionsfeldbeschriftungen in PDFs festlegen. Diese Schritt-für-Schritt-Anleitung führt Sie durch das Laden, Ändern und Speichern Ihrer PDF-Formulare. |
 | [Textfeld](./text-box/) | Entdecken Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET mühelos Textfelder zu PDFs hinzufügen. Verbessern Sie die Benutzerinteraktion. |
+| [Textfeld zu PDF-Formular hinzufügen – Vollständige C#-Anleitung](./add-text-box-to-pdf-form-complete-c-guide/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET ein Textfeld zu einem PDF-Formular hinzufügen. |
 | [PDF mit Aspose erstellen – Formularfeld und Seiten hinzufügen](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.PDF für .NET ein PDF erstellen und Formularfelder sowie Seiten hinzufügen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

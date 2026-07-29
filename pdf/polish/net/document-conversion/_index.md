@@ -59,6 +59,8 @@ Dowiesz się, jak określać ustawienia konwersji, wyodrębniać tekst i obrazy,
 | [XPS do PDF](./xps-to-pdf/) Dowiedz się, jak konwertować pliki XPS do PDF za pomocą Aspose.PDF dla .NET dzięki temu samouczkowi krok po kroku. Idealne dla programistów i entuzjastów dokumentów. |  
 | [PDF do PDFA](./pdf-to-pdfa/) Dowiedz się, jak konwertować pliki PDF do formatu PDF/A za pomocą Aspose.PDF dla .NET, korzystając z tego samouczka krok po kroku. |
 | [Konwertuj PDF do PDF/X‑4 w C# – Samouczek ASP.NET PDF krok po kroku](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Dowiedz się, jak w C# konwertować pliki PDF do formatu PDF/X‑4 przy użyciu Aspose.PDF dla .NET w prostym przewodniku krok po kroku. |
+| [Samouczek Aspose PDF – Konwersja PDF do PDF/X‑4 krok po kroku](./aspose-pdf-conversion-tutorial-convert-pdfs-to-pdf-x-4-step/) | Dowiedz się, jak konwertować PDF do PDF/X‑4 przy użyciu Aspose.PDF dla .NET w prostym przewodniku krok po kroku. |
+| [Załaduj dokument PDF i przekonwertuj do PDF/X‑4 – Kompletny przewodnik](./load-pdf-document-and-convert-to-pdf-x-4-complete-guide/) | Dowiedz się, jak w C# załadować dokument PDF i przekonwertować go do formatu PDF/X‑4 przy użyciu Aspose.PDF dla .NET w pełnym przewodniku krok po kroku. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

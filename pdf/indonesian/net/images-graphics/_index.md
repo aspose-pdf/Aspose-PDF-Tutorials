@@ -164,6 +164,9 @@ Pelajari cara merender skrip LaTeX yang kompleks menjadi dokumen PDF menggunakan
 ### [Mengatur Latar Belakang Gambar dalam PDF Menggunakan Aspose.PDF untuk .NET: Panduan Lengkap](./aspose-pdf-net-set-image-backgrounds/)
 Pelajari cara menyempurnakan dokumen PDF Anda dengan mengatur latar belakang gambar menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup kiat penyiapan, penerapan, dan pengoptimalan.
 
+### [Cara Menambahkan Bentuk ke PDF dengan Aspose.PDF di C# – Panduan Langkah demi Langkah](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Pelajari cara menambahkan bentuk ke PDF dengan Aspose.PDF untuk .NET menggunakan C#. Ikuti panduan langkah demi langkah untuk menguasai penempatan bentuk.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

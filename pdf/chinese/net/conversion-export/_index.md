@@ -227,6 +227,11 @@ Aspose.PDF Net 代码教程
 ### [使用 Aspose.PDF 在 .NET 中将 PDF 转换为 TIFF：分步指南](./pdf-to-tiff-conversion-aspose-pdf-net/)
 学习如何使用 Aspose.PDF for .NET 将 PDF 文档转换为 TIFF 图像。掌握自定义色深和高级图像处理技术。
 
+### [使用 Aspose.PDF .NET 将 DOCX 转换为 HTML – 完整编程指南](./convert-docx-to-html-in-c-complete-programming-guide/)
+
+### [在 C# 中将 PDF 转换为 HTML – 完整分步指南](./convert-pdf-to-html-in-c-full-step-by-step-guide/)
+学习如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 文档转换为 HTML，提供完整的代码示例和步骤说明。
+
 ## 其他资源
 
 - [Aspose.PDF 用于网络文档](https://docs.aspose.com/pdf/net/)

@@ -39,6 +39,7 @@ Die Tutorials „Programmieren mit Stempeln und Wasserzeichen“ von Aspose.PDF 
 | [Tabelle im Kopf-/Fußzeilenbereich](./table-in-header-footer-section/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ganz einfach Text zur Fußzeile einer PDF-Datei hinzufügen. Eine Schritt-für-Schritt-Anleitung für eine nahtlose Integration ist enthalten. |  
 | [Text in der Fußzeile einer PDF-Datei](./text-in-footer/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET Text in die Fußzeile einer PDF-Datei einfügen. |  
 | [Text im Header der PDF-Datei](./text-in-header/) | Lernen Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.PDF für .NET Textüberschriften zu PDFs hinzufügen. Optimieren Sie Ihre Dokumente effizient und effektiv. |  
+| [Bates-Nummerierung zu PDF in C# hinzufügen – Vollständige Schritt‑für‑Schritt‑Anleitung](./add-bates-numbering-to-pdf-in-c-complete-step-by-step-guide/) | Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.PDF für .NET Bates‑Nummerierung zu PDFs in C# hinzufügen. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
