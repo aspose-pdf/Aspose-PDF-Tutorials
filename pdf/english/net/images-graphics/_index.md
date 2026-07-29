@@ -104,6 +104,9 @@ Learn how to create accessible tagged PDFs embedded with images using Aspose.PDF
 ### [How to Create Transparent Rectangles in PDFs Using Aspose.PDF for .NET](./create-transparent-rectangles-aspose-pdf-dotnet/)
 Learn how to enhance your PDF documents by creating rectangles with alpha transparency using Aspose.PDF for .NET. Follow this step-by-step guide.
 
+### [Add ExtGState to PDF with Aspose.Pdf – Complete Guide](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+Learn how to add ExtGState objects to PDFs using Aspose.PDF for .NET to control transparency, blending, and other graphics state parameters.
+
 ### [How to Delete Images from PDF Files Using Aspose.PDF for .NET - Complete Guide](./delete-images-aspose-pdf-net/)
 Learn how to efficiently delete images from PDF files using Aspose.PDF for .NET. This guide covers setup, code examples, and best practices.
 

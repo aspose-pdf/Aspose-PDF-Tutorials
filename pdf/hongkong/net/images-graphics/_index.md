@@ -78,7 +78,7 @@ Aspose.PDF Net 程式碼教學
 了解如何使用 Aspose.PDF for .NET 將影像無縫地新增至您的 PDF 文件。本逐步指南涵蓋設定、實施和實際應用。
 
 ### [如何使用 Aspose.PDF for .NET 將影像新增至 PDF：逐步指南](./add-images-to-pdfs-aspose-pdf-net/)
-了解如何使用 Aspose.PDF for .NET 將影像無縫地新增至您的 PDF。本指南介紹如何為現有 PDF 新增影像以及如何從 DICOM 檔案建立新影像。
+了解如何使用 Aspose.PDF for .NET 將影像無縫地新增至 PDF。本指南介紹如何為現有 PDF 新增影像以及如何從 DICOM 檔案建立新影像。
 
 ### [如何使用 Aspose.PDF for .NET 為 PDF 新增影像頁首：逐步指南](./add-image-header-pdf-aspose-dotnet/)
 透過本全面的逐步指南了解如何使用 Aspose.PDF for .NET 將影像標題新增至 PDF 文件。
@@ -163,6 +163,9 @@ Aspose.PDF Net 程式碼教學
 
 ### [使用 Aspose.Pdf for .NET 設定 PDF 中的影像背景：綜合指南](./aspose-pdf-net-set-image-backgrounds/)
 了解如何使用 Aspose.PDF for .NET 設定影像背景來增強您的 PDF 文件。本指南涵蓋設定、實作和優化技巧。
+
+### [使用 Aspose.PDF 為 PDF 添加 ExtGState – 完整指南](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+了解如何使用 Aspose.PDF 在 PDF 中設定 ExtGState 以控制透明度和混合模式的完整步驟指南。
 
 ## 其他資源
 
