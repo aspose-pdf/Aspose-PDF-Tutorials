@@ -14,13 +14,13 @@ keywords:
 language: en
 og_description: How to verify PDF signatures using Aspose.PDF. Follow this tutorial
   to check PDF digital signature, validate PDF signature, and ensure document integrity.
-og_title: How to Verify PDF Signatures in C# – Complete Guide
+og_title: How to Verify PDF Signatures in C# with Aspose.PDF – Complete Guide
 tags:
 - C#
 - Aspose.PDF
 - Digital Signature
 - .NET
-title: How to Verify PDF Signatures in C# – Complete Step‑by‑Step Guide
+title: How to Verify PDF Signatures in C# with Aspose.PDF – Complete Step‑by‑Step Guide
 url: /net/programming-with-security-and-signatures/how-to-verify-pdf-signatures-in-c-complete-step-by-step-guid/
 ---
 
@@ -28,7 +28,7 @@ url: /net/programming-with-security-and-signatures/how-to-verify-pdf-signatures-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Verify PDF Signatures in C# – Complete Step‑by‑Step Guide
+# How to Verify PDF Signatures in C# with Aspose.PDF – Complete Step‑by‑Step Guide
 
 Ever wondered **how to verify pdf** files that were signed by a client or a partner? Maybe you received a contract, opened it, and now you’re not sure if the signature is still trustworthy. That uneasy feeling is common—especially when legal compliance is on the line.  
 
@@ -47,7 +47,7 @@ The good news? With just a few lines of C# and the Aspose.PDF library you can **
 
 If you’ve got those, let’s dive in.
 
-![how to verify pdf example](https://example.com/placeholder-image.jpg "Screenshot showing how to verify pdf signatures in a console app")
+![how to verify pdf example](/net/images/verify-pdf-example.png "Screenshot showing how to verify pdf signatures in a console app")
 
 ---
 

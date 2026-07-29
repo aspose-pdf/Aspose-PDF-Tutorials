@@ -1,5 +1,5 @@
 ---
-title: "PDF Document Creation Tutorials with Aspose.PDF for .NET"
+title: "Learn to Create PDF Documents with Aspose.PDF for .NET"
 description: "Learn how to create PDF documents from scratch, templates, and other formats with Aspose.PDF for .NET through detailed tutorials."
 weight: 2
 url: "/net/document-creation/"
@@ -13,7 +13,17 @@ url: "/net/document-creation/"
 
 # PDF Document Creation Tutorials with Aspose.PDF for .NET
 
-Our document creation tutorials provide comprehensive guidance for generating PDF files programmatically in .NET. Follow these step-by-step guides to learn how to create PDF documents from scratch, use templates, convert from other formats, and implement document-level properties. These practical tutorials include complete code examples for various document creation scenarios, helping you build robust PDF generation capabilities in your .NET applications.
+Our document creation tutorials provide comprehensive guidance for generating PDF files programmatically in .NET. Follow these step‑by‑step guides to learn how to create PDF documents from scratch, use templates, convert from other formats, and implement document‑level properties. These practical tutorials include complete code examples for various document creation scenarios, helping you build robust PDF generation capabilities in your .NET applications.
+
+```csharp
+// Sample code to create a simple PDF document
+using Aspose.Pdf;
+
+var pdf = new Document();
+var page = pdf.Pages.Add();
+page.Paragraphs.Add(new TextFragment("Hello, Aspose.PDF!"));
+pdf.Save("output.pdf");
+```
 
 ## Available Tutorials
 

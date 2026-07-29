@@ -1,5 +1,5 @@
 ---
-title: "PDF Digital Signatures Tutorials for Aspose.PDF .NET"
+title: "Implement PDF Digital Signatures with Aspose.PDF .NET – Tutorials"
 description: "Step-by-step tutorials for implementing digital signatures, certificates, and signature validation in PDF documents with Aspose.PDF for .NET."
 weight: 16
 url: "/net/digital-signatures/"
@@ -14,6 +14,26 @@ url: "/net/digital-signatures/"
 # PDF Digital Signatures Tutorials for Aspose.PDF .NET
 
 Our digital signature tutorials provide comprehensive guidance for implementing document signing capabilities using Aspose.PDF in .NET. These step-by-step guides cover applying digital signatures, working with certificates, implementing signature visualization, validating signed documents, and implementing timestamp functionality. Each tutorial includes detailed C# code examples for secure signing workflows, helping you build applications that can authenticate document origin and guarantee content integrity with cryptographically secure methods.
+
+Below is a simple example of adding a digital signature to a PDF using Aspose.PDF for .NET:
+
+```csharp
+using Aspose.Pdf;
+using Aspose.Pdf.Facades;
+
+public void SignPdf(string inputPath, string outputPath, string certPath, string certPassword)
+{
+    // Load the PDF document
+    var pdfDoc = new Document(inputPath);
+
+    // Create a PdfFileSignature object
+    var pdfSigner = new PdfFileSignature();
+
+    // Set the certificate
+    pdfSigner.BindPdf(pdfDoc);
+    pdfSigner.Sign(certPath, certPassword, outputPath, PdfSignatureAppearance.VisibleSignature);
+}
+```
 
 ## Available Tutorials
 

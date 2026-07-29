@@ -13,13 +13,13 @@ keywords:
 language: en
 og_description: Load PDF Document C# and learn how to convert PDF to PDF/X-4 with
   Aspose.Pdf in a concise, runnable example.
-og_title: Load PDF Document C# – Convert to PDF/X-4 Quickly
+og_title: Load PDF Document C# – Convert to PDF/X-4 with Aspose.Pdf Quickly
 tags:
 - C#
 - PDF
 - Aspose
 - Document Conversion
-title: Load PDF Document C# – Convert to PDF/X-4 Step‑by‑Step Guide
+title: Load PDF Document C# – Convert to PDF/X-4 with Aspose.Pdf – Step‑by‑Step Guide
 url: /net/document-conversion/load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/
 ---
 
@@ -27,7 +27,7 @@ url: /net/document-conversion/load-pdf-document-c-convert-to-pdf-x-4-step-by-ste
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Load PDF Document C# – Convert to PDF/X-4 Step‑by‑Step Guide
+# Load PDF Document C# – Convert to PDF/X-4 with Aspose.Pdf – Step‑by‑Step Guide
 
 Ever wondered how to **load PDF document C#** and then turn it into a PDF/X‑4 file without pulling your hair out? You're not the only one. Many developers hit a wall when they need a production‑ready PDF/X‑4 output for print‑ready workflows, especially when the source is a regular PDF. The good news? With Aspose.Pdf you can do it in just a handful of lines, and I’ll show you exactly how.
 
