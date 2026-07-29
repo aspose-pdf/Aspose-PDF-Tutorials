@@ -224,6 +224,9 @@ Meistern Sie die PDF-zu-HTML-Konvertierung mit Aspose.PDF für .NET. Verbessern 
 ### [PDF-zu-HTML-Konvertierung mit Aspose.PDF für .NET](./pdf-to-html-conversion-aspose-dot-net/)
 Ein Code-Tutorial für Aspose.PDF Net
 
+### [PDF als HTML speichern – PDF erstellen und Rechteckform hinzufügen](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
+Erfahren Sie, wie Sie ein PDF erstellen, ein Rechteck hinzufügen und es anschließend als HTML speichern.
+
 ### [PDF-zu-TIFF-Konvertierung in .NET mit Aspose.PDF: Eine Schritt-für-Schritt-Anleitung](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Erfahren Sie, wie Sie PDF-Dokumente mit Aspose.PDF für .NET in TIFF-Bilder konvertieren. Beherrschen Sie benutzerdefinierte Farbtiefen und erweiterte Bildverarbeitungstechniken.
 

@@ -37,8 +37,9 @@ I tutorial di Aspose.PDF "Programmazione con timbri e filigrane" per .NET ti gui
 | [Numero di pagina nell'intestazione e nel piè di pagina tramite casella mobile](./page-number-in-header-footer-using-floating-box/) | Aggiungi facilmente i numeri di pagina nell'intestazione e nel piè di pagina del tuo PDF utilizzando una casella mobile con Aspose.PDF per .NET in questa guida dettagliata. |  
 | [Timbri numerici di pagina nel file PDF](./page-number-stamps/) Scopri come aggiungere timbri con i numeri di pagina ai file PDF utilizzando Aspose.PDF per .NET attraverso la nostra guida semplice da seguire, completa di esempi di codice. |  
 | [Tabella nella sezione Intestazione Piè di pagina](./table-in-header-footer-section/) | Scopri come aggiungere facilmente testo al piè di pagina di un file PDF utilizzando Aspose.PDF per .NET. Guida passo passo inclusa per un'integrazione perfetta. |  
-| [Testo nel piè di pagina del file PDF](./text-in-footer/) | Scopri come aggiungere testo nel piè di pagina di un file PDF con Aspose.PDF per .NET. |  
-| [Testo nell'intestazione del file PDF](./text-in-header/) | Impara ad aggiungere intestazioni di testo ai PDF utilizzando Aspose.PDF per .NET con questo tutorial passo passo. Migliora i tuoi documenti in modo efficiente ed efficace. |  
+| [Testo nel piè di pagina del file PDF](./text-in-footer/) | Scopri come aggiungere testo nel piè di pagina di un file PDF con Aspose.PDF per .NET. |
+| [Testo nell'intestazione del file PDF](./text-in-header/) | Impara ad aggiungere intestazioni di testo ai PDF utilizzando Aspose.PDF per .NET con questo tutorial passo passo. Migliora i tuoi documenti in modo efficiente ed efficace. |
+| [Aggiungi trasparenza al PDF con Aspose.PDF – Guida completa C#](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) | Scopri come applicare la trasparenza ai PDF usando Aspose.PDF per .NET con esempi di codice C# completi. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
