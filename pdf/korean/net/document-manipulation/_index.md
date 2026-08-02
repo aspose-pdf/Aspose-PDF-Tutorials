@@ -138,7 +138,7 @@ Aspose.PDF for .NET을 사용하여 PDF의 페이지 크기를 효율적으로 �
 이 포괄적인 가이드를 통해 Aspose.PDF for .NET을 사용하여 PDF 스트림을 연결하는 방법을 알아보세요. 단계별 지침, 사전 요구 사항 및 실제 적용 사례를 살펴보세요.
 
 ### [.NET용 Aspose.PDF를 사용하여 PDF를 연결하는 방법: 완전한 가이드](./concatenate-pdfs-aspose-pdf-dotnet-guide/)
-Aspose.PDF for .NET을 사용하여 여러 PDF 파일을 병합하는 방법을 알아보세요. 이 포괄적인 가이드에서는 설정, 구현 및 실제 적용 사례를 다룹니다.
+Aspose.PDF for .NET을 사용하여 여러 PDF 파일을 병합하는 방법을 알아보세요. 이 포괄적인 가이드는 설정, 구현 및 실제 적용 사례를 다룹니다.
 
 ### [Aspose.PDF for .NET을 사용하여 빈 페이지가 있는 PDF를 연결하는 방법: 완전한 가이드](./concatenate-pdfs-blank-pages-aspose-pdf-net/)
 Aspose.PDF for .NET을 사용하여 PDF 파일을 병합하고 빈 페이지를 추가하는 방법을 알아보세요. 문서 관리 워크플로를 효율적으로 간소화하세요.
@@ -233,7 +233,7 @@ Aspose.PDF for .NET을 사용하여 PDF 문서 속성을 열고, 가져오고, �
 ### [Aspose.PDF를 사용하여 .NET에서 PDF 조작 마스터하기: 종합 가이드](./master-pdf-manipulation-net-asposepdf/)
 Aspose.PDF for .NET을 사용하여 PDF를 효율적으로 관리하는 방법을 알아보세요. 이 자세한 가이드를 통해 PDF 파일을 원활하게 추가, 추출, 분할하는 방법을 알아보세요.
 
-### [Aspose.PDF를 사용한 .NET에서의 PDF 조작 마스터하기: 종합 가이드](./aspose-pdf-net-tutorial/)
+### [Aspose.PDF를 사용한 .NET에서 PDF 조작 마스터하기: 종합 가이드](./aspose-pdf-net-tutorial/)
 Aspose.PDF를 사용하여 .NET에서 PDF를 프로그래밍 방식으로 관리하는 방법을 알아보세요. 이 가이드에서는 문서 로드, 양식 필드 접근, 옵션 반복에 대해 다룹니다.
 
 ### [Aspose.PDF .NET을 활용한 PDF 조작 마스터하기: 문서 자동화에 대한 포괄적인 가이드](./master-pdf-manipulation-aspose-dotnet-guide/)
@@ -310,6 +310,8 @@ Aspose.PDF for .NET을 사용하여 여러 페이지로 구성된 PDF를 분할�
 
 ### [Aspose.PDF .NET을 활용한 PDF 조작 완벽 가이드: 텍스트를 효율적으로 로드, 저장 및 바꾸기](./master-pdf-manipulation-aspose-pdf-net/)
 Aspose.PDF for .NET을 사용하여 PDF를 완벽하게 다루는 방법을 알아보세요. 이 가이드에서는 PDF의 텍스트 로드, 저장 및 바꾸기를 다루며, 효율성을 추구하는 개발자에게 이상적입니다.
+
+### [Aspose.PDF를 사용하여 수정된 PDF 저장 – 완전 C# 가이드](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
 
 ## 추가 자료
 

@@ -216,7 +216,7 @@ Leer hoe je pagina's in een PDF invoegt met Aspose.PDF voor .NET. Deze stapsgewi
 Leer hoe u pagina's in een PDF kunt invoegen met Aspose.PDF voor .NET met deze stapsgewijze handleiding. Stroomlijn uw documentworkflow efficiënt.
 
 ### [Een lege pagina invoegen in een PDF met Aspose.PDF .NET: een uitgebreide handleiding](./aspose-pdf-net-insert-empty-page/)
-Leer hoe u eenvoudig lege pagina's in PDF-documenten kunt invoegen met Aspose.PDF voor .NET. Volg deze stapsgewijze handleiding om uw vaardigheden in documentverwerking te verbeteren.
+Leer hoe u eenvoudig lege pagina's in PDF-documenten kunt invoegen met Aspose.PDF .NET. Volg deze stapsgewijze handleiding om uw vaardigheden in documentverwerking te verbeteren.
 
 ### [Beheers de MakeNUp-methode van Aspose.PDF .NET voor efficiënte PDF-layouts](./aspose-pdf-net-make-nup-method-pdf-layout/)
 Leer hoe u meerdere PDF-pagina's efficiënt kunt herschikken naar nieuwe lay-outs met behulp van de MakeNUp-methode van Aspose.PDF .NET. Ideaal voor nieuwsbrieven, brochures en rapporten.
@@ -310,6 +310,9 @@ Leer hoe u PDF's met meerdere pagina's kunt splitsen en nieuwe PDF-bestanden kun
 
 ### [Ultieme gids voor PDF-manipulatie met Aspose.PDF .NET: tekst efficiënt laden, opslaan en vervangen](./master-pdf-manipulation-aspose-pdf-net/)
 Leer hoe je PDF-bewerking onder de knie krijgt met Aspose.PDF voor .NET. Deze handleiding behandelt het laden, opslaan en vervangen van tekst in PDF's, ideaal voor ontwikkelaars die op zoek zijn naar efficiëntie.
+
+### [Gewijzigde PDF opslaan met Aspose.PDF – Complete C#-gids](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+Leer hoe u een bewerkte PDF opslaat met Aspose.PDF in C#, stap voor stap met voorbeeldcode.
 
 ## Aanvullende bronnen
 
