@@ -107,7 +107,7 @@ Aspose.PDF for .NET'i kullanarak PDF dosyalarınıza sorunsuz bir şekilde metin
 ### [.NET için Aspose.PDF Kullanarak PDF'ye Satır Nesnesi Nasıl Eklenir: Adım Adım Kılavuz](./add-line-aspose-pdf-dotnet-tutorial/)
 .NET için Aspose.PDF kullanarak PDF'lere satır nesnelerinin nasıl ekleneceğini öğrenin. Bu kılavuz kurulum, kodlama örnekleri ve pratik uygulamaları kapsar.
 
-### [.NET için Aspose.PDF Kullanarak PDF'lere Metin Damgası Alt Bilgisi Nasıl Eklenir: Adım Adım Kılavuz](./add-text-stamp-footer-aspose-pdf-net/)
+### [.NET için Aspose.PDF Kullanarak PDF'ye Metin Damgası Alt Bilgisi Nasıl Eklenir: Adım Adım Kılavuz](./add-text-stamp-footer-aspose-pdf-net/)
 Aspose.PDF for .NET'i kullanarak PDF belgelerinizin her sayfasına metin damgası altbilgileri eklemeyi adım adım kılavuzumuzla öğrenin. Belge işlemeyi verimli bir şekilde kolaylaştırın.
 
 ### [Aspose.PDF for .NET Kullanarak PDF'lere Metin Damgası Nasıl Eklenir](./add-text-stamp-pdf-aspose-dotnet/)
@@ -152,7 +152,7 @@ Aspose.PDF for .NET kullanarak PDF sayfa boyutlarını A4'e nasıl güncelleyece
 ### [.NET için Aspose.PDF Kullanarak PDF'deki Sayfaları Nasıl Sayabilirsiniz (C# Eğitimi)](./mastering-aspose-pdf-net-get-page-count/)
 Bu adım adım C# eğitimiyle .NET için Aspose.PDF kullanarak bir PDF'deki sayfaların nasıl sayılacağını öğrenin. Belge düzenlemede kolayca ustalaşın.
 
-### [.NET için Aspose.PDF ile PDF'leri Özelleştirme: Sayfa Kenar Boşluklarını Ayarlama ve Çizgiler Çizme](./customize-pdfs-aspose-pdf-set-margins-draw-lines/)
+### [.NET için Aspose.PDF Kullanarak PDF'leri Özelleştirme: Sayfa Kenar Boşluklarını Ayarlama ve Çizgiler Çizme](./customize-pdfs-aspose-pdf-set-margins-draw-lines/)
 Sayfa kenar boşluklarını ayarlayarak ve çizgiler çizerek Aspose.PDF for .NET kullanarak PDF'leri nasıl özelleştireceğinizi öğrenin. Belge biçimlendirmesini geliştirmek isteyen geliştiriciler için mükemmeldir.
 
 ### [Aspose.PDF .NET kullanarak PDF'den Sayfalar Nasıl Silinir: Kapsamlı Bir Kılavuz](./delete-pdf-pages-aspose-net/)
@@ -173,7 +173,7 @@ Aspose.PDF for .NET kullanarak PDF belgelerindeki gizli metinleri nasıl yönete
 ### [.NET için Aspose.PDF Kullanarak PDF'ye Sayfalar Nasıl Eklenir: Adım Adım Kılavuz](./insert-pages-into-pdf-aspose-net/)
 Aspose.PDF for .NET kullanarak bir PDF'den diğerine belirli sayfaları nasıl ekleyeceğinizi öğrenin. Belge düzenleme becerilerinizi geliştirmek için bu adım adım kılavuzu izleyin.
 
-### [.NET için Aspose.PDF Kullanarak Birden Fazla PDF'yi Verimli Şekilde Nasıl Birleştirirsiniz | Belge İşleme Kılavuzu](./append-multiple-pdfs-aspose-pdf-dotnet/)
+### [.NET için Aspose.PDF Kullanarak Birden Fazla PDF'yi Verimli Şekilde Nasıl Birleştirirsiniz | Belge İşleme Kılavuzu](./append-multiple-pdf-files-aspose-net/)
 Aspose.PDF for .NET kullanarak birden fazla PDF belgesini tek bir dosyada nasıl etkili bir şekilde birleştireceğinizi öğrenin. Bu kılavuz, belge yönetimi sürecinizi kolaylaştırmak için adım adım talimatlar, kod örnekleri ve ipuçları sunar.
 
 ### [.NET için Aspose.PDF Kullanarak PDF Dosyaları Nasıl Birleştirilir: Akış Birleştirme ve Mantıksal Yapı Koruma](./merge-pdf-aspose-net-streams-structure/)
@@ -248,7 +248,7 @@ Güçlü Aspose.PDF .NET kütüphanesini kullanarak PDF belgelerini yükleme, ge
 ### [.NET için Aspose.PDF ile PDF İşlemede Ustalaşın: Kapsamlı Bir Kılavuz](./mastering-pdf-manipulation-aspose-pdf-net-guide/)
 Aspose.PDF for .NET kullanarak PDF'lerden verileri etkili bir şekilde nasıl oluşturacağınızı, değiştireceğinizi, birleştireceğinizi ve çıkaracağınızı öğrenin. Belge iş akışlarınızı geliştirin ve üretkenliği artırın.
 
-### [.NET için Aspose.PDF ile PDF Sayfa Sayısı Manipülasyonunda Ustalaşın: Eksiksiz Bir Kılavuz](./mastering-pdf-manipulation-aspose-pdf-net/)
+### [.NET için Aspose.PDF Kullanarak PDF Sayfa Sayısı Manipülasyonunda Ustalaşın: Eksiksiz Bir Kılavuz](./mastering-pdf-manipulation-aspose-pdf-net/)
 Aspose.PDF for .NET kullanarak PDF sayfa sayılarını nasıl verimli bir şekilde alacağınızı ve değiştireceğinizi öğrenin. Bu kılavuz kurulum, uygulama ve pratik uygulamaları kapsar.
 
 ### [Aspose.PDF .NET'te Ustalaşma: LaTeX'i PDF Tablolarına ve Hücrelerine Sorunsuz Bir Şekilde Entegre Edin](./integrate-latex-aspose-pdf-dotnet/)
@@ -310,6 +310,9 @@ Aspose.PDF for .NET kullanarak PDF sayfalarını ayrı dosyalara nasıl bölece�
 
 ### [Aspose.PDF .NET ile PDF Düzenlemeye İlişkin Nihai Kılavuz: Metni Verimli Şekilde Yükleyin, Kaydedin ve Değiştirin](./master-pdf-manipulation-aspose-pdf-net/)
 Aspose.PDF for .NET kullanarak PDF düzenlemede ustalaşmayı öğrenin. Bu kılavuz, PDF'lerde metin yükleme, kaydetme ve değiştirmeyi kapsar ve verimlilik arayan geliştiriciler için idealdir.
+
+### [Aspose.PDF ile Değiştirilmiş PDF'yi Kaydet – Tam C# Kılavuzu](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+Aspose.PDF for .NET kullanarak değiştirilmiş PDF dosyalarını kaydetmeyi adım adım öğrenin ve C# kod örnekleriyle uygulayın.
 
 ## Ek Kaynaklar
 

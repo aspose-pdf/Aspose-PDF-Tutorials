@@ -140,13 +140,7 @@ Aspose.PDF for .NET を使用して、PDF のページサイズを効率的に�
 ### [Aspose.PDF for .NET で PDF を連結する方法: 完全ガイド](./concatenate-pdfs-aspose-pdf-dotnet-guide/)
 Aspose.PDF for .NET を使用して複数のPDFファイルを結合する方法を学びましょう。この包括的なガイドでは、セットアップ、実装、そして実用的なアプリケーションを網羅しています。
 
-### [Aspose.PDF for .NET を使用して空白ページを含む PDF を連結する方法: 完全ガイド](./concatenate-pdfs-blank-pages-aspose-pdf-net/)
-Aspose.PDF for .NET を使用して PDF ファイルを結合し、空白ページを追加する方法を学びます。ドキュメント管理ワークフローを効率的に合理化します。
-
-### [.NET と Aspose.PDF を使用して PDF に空白ページを連結して挿入する方法](./master-net-pdf-manipulation-concatenate-insert-blank-pages-asposepdf/)
-Aspose.PDFとC#を使ってPDFドキュメントを連結し、空白ページを挿入する方法を学びましょう。ドキュメント管理ワークフローを簡単に効率化できます。
-
-### [Aspose.PDF .NET を使用して PDF のページサイズを A4 に変換する方法 | ドキュメント操作ガイド](./update-pdf-page-dimensions-aspose-net/)
+### [Aspose.PDF for .NET を使用して PDF のページサイズを A4 に変換する方法 | ドキュメント操作ガイド](./update-pdf-page-dimensions-aspose-net/)
 Aspose.PDF for .NET を使用して、PDF のページサイズを A4 に更新する方法を学びましょう。このステップバイステップのガイドに従って、ドキュメントを効率的に標準化しましょう。
 
 ### [Aspose.PDF for .NET を使用して PDF のページ数をカウントする方法 (C# チュートリアル)](./mastering-aspose-pdf-net-get-page-count/)
@@ -310,6 +304,9 @@ Aspose.PDF for .NET を使用して、複数ページのPDFを分割し、新し
 
 ### [Aspose.PDF .NET による PDF 操作の究極ガイド: テキストを効率的に読み込み、保存し、置換する](./master-pdf-manipulation-aspose-pdf-net/)
 Aspose.PDF for .NET を使って PDF 操作をマスターする方法を学びましょう。このガイドでは、PDF 内のテキストの読み込み、保存、置換について解説しており、効率性を重視する開発者に最適です。
+
+### [Aspose.PDF を使用して変更された PDF を保存する – 完全 C# ガイド](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+Aspose.PDF for .NET を使用して、変更した PDF を保存する方法をステップバイステップで解説します。
 
 ## 追加リソース
 

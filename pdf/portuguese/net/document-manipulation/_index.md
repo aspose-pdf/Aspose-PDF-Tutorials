@@ -207,7 +207,7 @@ Aprenda a reduzir com eficiência os espaços em branco de documentos PDF usando
 Aprenda a atualizar links em arquivos PDF programaticamente usando o Aspose.PDF para .NET. Automatize atualizações de links de forma eficiente com este guia passo a passo.
 
 ### [Como atualizar a cor do texto do link PDF usando Aspose.PDF .NET: um guia completo](./update-pdf-link-text-color-aspose-net/)
-Aprenda a alterar a cor do texto dos links em PDFs facilmente usando o Aspose.PDF para .NET. Este guia completo aborda dicas de instalação, implementação e otimização.
+Aprenda a alterar a cor do texto dos links em PDFs facilmente usando o Aspose.PDF .NET. Este guia completo aborda dicas de instalação, implementação e otimização.
 
 ### [Inserir páginas em PDF usando Aspose.PDF para .NET: um guia completo para manipulação de documentos](./insert-pages-pdf-aspose-dotnet-guide/)
 Aprenda a inserir páginas em um PDF usando o Aspose.PDF para .NET. Este guia passo a passo abrange tudo, da configuração à implementação, perfeito para desenvolvedores em C#.
@@ -310,6 +310,9 @@ Aprenda a dividir PDFs de várias páginas e criar novos arquivos PDF usando o A
 
 ### [Guia definitivo para manipulação de PDF com Aspose.PDF .NET: carregue, salve e substitua texto com eficiência](./master-pdf-manipulation-aspose-pdf-net/)
 Aprenda a dominar a manipulação de PDFs usando o Aspose.PDF para .NET. Este guia aborda como carregar, salvar e substituir texto em PDFs, ideal para desenvolvedores que buscam eficiência.
+
+### [Salvar PDF modificado com Aspose.PDF – Guia completo em C#](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+Aprenda a salvar PDFs modificados usando Aspose.PDF em C# com este guia passo a passo.
 
 ## Recursos adicionais
 

@@ -195,7 +195,7 @@ Tìm hiểu cách loại bỏ các hành động mở không mong muốn khỏi 
 Tìm hiểu cách chia các trang PDF thành từng tệp riêng lẻ một cách hiệu quả bằng Aspose.PDF cho .NET với hướng dẫn toàn diện này. Nâng cao kỹ năng thao tác tài liệu của bạn ngay hôm nay.
 
 ### [Cách chia trang PDF bằng Aspose.PDF cho .NET: Hướng dẫn toàn diện](./split-pdf-pages-aspose-pdf-net/)
-Tìm hiểu cách tách các trang cụ thể từ PDF thành các tệp riêng biệt bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm cách xử lý và thiết lập luồng.
+Tìm hiểu cách tách các trang PDF thành các tệp riêng biệt bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm cách xử lý và thiết lập luồng.
 
 ### [Cách chia trang PDF bằng Aspose.PDF cho .NET: Hướng dẫn từng bước](./split-pdf-pages-aspose-pdf-net-guide/)
 Tìm hiểu cách chia trang PDF bằng Aspose.PDF cho .NET với hướng dẫn toàn diện này. Làm chủ thao tác tài liệu trong C# và tối ưu hóa quy trình làm việc của bạn.
@@ -242,7 +242,7 @@ Tìm hiểu cách tự động hóa các tác vụ PDF bằng Aspose.PDF cho .NE
 ### [Làm chủ thao tác PDF với Aspose.PDF .NET: Tải và chỉnh sửa tài liệu dễ dàng](./mastering-pdf-manipulation-aspose-dotnet/)
 Tìm hiểu cách làm chủ việc tải, điều hướng và sửa đổi tài liệu PDF bằng thư viện Aspose.PDF .NET mạnh mẽ. Nâng cao ứng dụng của bạn ngay hôm nay!
 
-### [Làm chủ thao tác PDF với Aspose.PDF .NET: Hướng dẫn tải, tìm kiếm, chú thích](./aspose-pdf-dotnet-mastering-pdfs-manipulation-guide/)
+### [Làm chủ thao tác PDF với Aspose.PDF .NET: Tải, tìm kiếm, chú thích](./aspose-pdf-dotnet-mastering-pdfs-manipulation-guide/)
 Học cách thành thạo thao tác PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm tải tài liệu, tìm kiếm văn bản và áp dụng chú thích như gạch bỏ.
 
 ### [Làm chủ thao tác PDF với Aspose.PDF cho .NET: Hướng dẫn toàn diện](./mastering-pdf-manipulation-aspose-pdf-net-guide/)
@@ -310,6 +310,9 @@ Tìm hiểu cách chia nhỏ các tệp PDF nhiều trang và tạo tệp PDF m�
 
 ### [Hướng dẫn tối ưu về thao tác PDF với Aspose.PDF .NET: Tải, lưu và thay thế văn bản hiệu quả](./master-pdf-manipulation-aspose-pdf-net/)
 Tìm hiểu cách làm chủ thao tác PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm việc tải, lưu và thay thế văn bản trong PDF, lý tưởng cho các nhà phát triển tìm kiếm hiệu quả.
+
+### [Lưu PDF đã chỉnh sửa bằng Aspose.PDF – Hướng dẫn C# đầy đủ](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+Tìm hiểu cách lưu tài liệu PDF đã chỉnh sửa bằng Aspose.PDF trong C# với hướng dẫn chi tiết và ví dụ thực tế.
 
 ## Tài nguyên bổ sung
 
