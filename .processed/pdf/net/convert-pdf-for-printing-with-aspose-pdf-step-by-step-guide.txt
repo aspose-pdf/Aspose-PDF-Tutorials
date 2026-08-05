@@ -1,0 +1,7 @@
+Title: Convert PDF for printing with Aspose.PDF – step‑by‑step guide
+Slug: convert-pdf-for-printing-with-aspose-pdf-step-by-step-guide
+Category: printing-rendering
+ProcessedDate: 2026-08-05T07:42:15.685748
+SourceRepo: AI Search API
+Keywords: convert pdf for printing, add icc profile, apply color profile, how to add icc, how to convert pdfx
+PRNumber: 114
