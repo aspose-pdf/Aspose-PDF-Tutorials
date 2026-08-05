@@ -13,13 +13,13 @@ keywords:
 language: en
 og_description: How to verify signature in a PDF with Aspose.Pdf. Step‑by‑step code
   shows how to check pdf signature validity using CA and OCSP.
-og_title: How to Verify a PDF Signature Using Aspose.Pdf – Step‑by‑Step Guide
+og_title: Verify a PDF Signature with Aspose.Pdf for .NET – Step‑by‑Step Guide
 tags:
 - Aspose
 - C#
 - PDF
 - Digital Signature
-title: How to Verify a PDF Signature Using Aspose.Pdf – Step‑by‑Step Guide
+title: Verify a PDF Signature with Aspose.Pdf for .NET – Step‑by‑Step Guide
 url: /net/programming-with-security-and-signatures/how-to-verify-signature-in-pdf-using-aspose-guide/
 ---
 
@@ -27,7 +27,7 @@ url: /net/programming-with-security-and-signatures/how-to-verify-signature-in-pd
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Verify a PDF Signature Using Aspose.Pdf – Step‑by‑Step Guide
+# Verify a PDF Signature with Aspose.Pdf for .NET – Step‑by‑Step Guide
 
 Ever wondered **how to verify signature** on a PDF without pulling your hair out? You're not alone. Many developers hit a wall when they need to *check pdf signature validity* in a .NET app, especially when the signature relies on a Certificate Authority (CA) and OCSP responses.
 
@@ -232,11 +232,9 @@ We’ve covered **how to verify signature** in a PDF using Aspose.Pdf, from load
 
 Ready for the next step? Try swapping the OCSP URL with your own CA, experiment with multiple signatures, or integrate the verification logic into an ASP.NET API that validates user‑uploaded PDFs on the fly. The concepts you’ve learned here—*digital signature verification pdf*, *check pdf signature validity*, and *how to validate signature*—are portable across many .NET projects, so you’ll find them useful again and again.
 
-For more on signing PDFs with Aspose, see {{< relref "sign-pdf-using-aspose" >}}.
+For more on signing PDFs with Aspose, see [Sign PDF using Aspose](/net/programming-with-security-and-signatures/sign-pdf-using-aspose/).
 
 Got more questions? Drop a comment, and happy coding!
-
-<!-- TODO: Add error‑handling examples and unit‑test snippets -->
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

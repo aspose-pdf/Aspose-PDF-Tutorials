@@ -12,12 +12,12 @@ keywords:
 language: en
 og_description: Add pages to PDF quickly with Aspose PDF for C#. This tutorial shows
   how to add textbox and field while creating a PDF document Aspose.
-og_title: Add Pages to a PDF using Aspose.PDF for .NET – Complete C# Guide
+og_title: Learn to Add Pages and Form Fields to PDFs with Aspose.PDF for .NET – Complete C# Guide
 tags:
 - Aspose.PDF
 - C#
 - PDF forms
-title: Add Pages to a PDF using Aspose.PDF for .NET – Complete C# Guide
+title: Learn to Add Pages and Form Fields to PDFs with Aspose.PDF for .NET – Complete C# Guide
 url: /net/programming-with-pdf-pages/add-pages-to-pdf-with-aspose-complete-c-guide/
 ---
 

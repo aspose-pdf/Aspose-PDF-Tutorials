@@ -14,12 +14,12 @@ keywords:
 language: en
 og_description: How to verify PDF signatures using Aspose.PDF in C#. This tutorial
   shows how to validate pdf digital signature and check pdf signature validity step‑by‑step.
-og_title: How to verify PDF signatures – Complete Guide
+og_title: How to verify PDF signatures with Aspose.PDF – Complete Guide
 tags:
 - Aspose.PDF
 - C#
 - PDF security
-title: How to verify PDF signatures – Complete Guide
+title: How to verify PDF signatures with Aspose.PDF – Complete Guide
 url: /net/programming-with-security-and-signatures/how-to-verify-pdf-signatures-with-aspose-pdf-complete-guide/
 ---
 
@@ -27,7 +27,7 @@ url: /net/programming-with-security-and-signatures/how-to-verify-pdf-signatures-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to verify PDF signatures – Complete Guide
+# How to verify PDF signatures with Aspose.PDF – Complete Guide
 
 Ever wondered **how to verify PDF** signatures programmatically? Maybe you’re building a document‑approval workflow and need to be sure the PDF you just received hasn’t been tampered with. In this tutorial, we’ll walk through the exact steps to **validate PDF digital signature** using Aspose.PDF for .NET, and we’ll also cover **digital signature verification pdf** nuances you might run into.
 

@@ -20,7 +20,7 @@ tags:
 - Aspose.PDF
 - Digital Signature
 - .NET
-title: How to Verify PDF Signatures in C# with Aspose.PDF – Complete Step‑by‑Step Guide
+title: Learn to Verify PDF Signatures in C# Using Aspose.PDF – Complete Step‑by‑Step Guide
 url: /net/programming-with-security-and-signatures/how-to-verify-pdf-signatures-in-c-complete-step-by-step-guid/
 ---
 
@@ -47,7 +47,7 @@ The good news? With just a few lines of C# and the Aspose.PDF library you can **
 
 If you’ve got those, let’s dive in.
 
-![how to verify pdf example](/net/images/verify-pdf-example.png "Screenshot showing how to verify pdf signatures in a console app")
+![how to verify pdf example]({{< relref "/net/images/verify-pdf-example.png" >}} "Screenshot showing how to verify pdf signatures in a console app")
 
 ---
 

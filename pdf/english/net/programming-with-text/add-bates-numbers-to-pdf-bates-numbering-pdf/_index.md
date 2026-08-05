@@ -13,12 +13,12 @@ keywords:
 language: en
 og_description: Add bates numbers to your PDF quickly with Aspose.Pdf. Learn how to
   add footer to pdf, add page numbers pdf, and add custom page numbering.
-og_title: Add Bates Numbers to PDF with Aspose.Pdf
+og_title: How to Add Bates Numbers to PDFs Using Aspose.Pdf for .NET – Complete Guide
 tags:
 - Aspose.Pdf
 - C#
 - PDF manipulation
-title: Add Bates Numbers to PDF with Aspose.Pdf – Complete Guide
+title: How to Add Bates Numbers to PDFs Using Aspose.Pdf for .NET – Complete Guide
 url: /net/programming-with-text/add-bates-numbers-to-pdf-bates-numbering-pdf/
 ---
 

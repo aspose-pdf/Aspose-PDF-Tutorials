@@ -1,9 +1,9 @@
 ---
-title: Learn Programming with Security and Signatures using Aspose.PDF for .NET
-linktitle: Learn Programming with Security and Signatures using Aspose.PDF for .NET
+title: Secure and Sign PDFs with Aspose.PDF for .NET – Programming with Security and Signatures
+linktitle: Secure and Sign PDFs with Aspose.PDF for .NET – Programming with Security and Signatures
 weight: 17
 url: /net/programming-with-security-and-signatures/
-description: Programming with Security and Signatures tutorial teaches you how to secure and sign your PDF documents, ensuring confidentiality and authenticity.
+description: Learn how to secure and sign PDF documents using Aspose.PDF for .NET, ensuring confidentiality and authenticity.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

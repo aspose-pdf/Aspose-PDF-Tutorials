@@ -16,7 +16,7 @@ tags:
 - Aspose.Pdf
 - C#
 - PDF Generation
-title: Create PDF Document with Aspose.Pdf for .NET – Step‑by‑Step Guide
+title: Generate a PDF Document with Aspose.Pdf for .NET – Step‑by‑Step Guide
 url: /net/document-creation/create-pdf-document-with-aspose-pdf-step-by-step-guide/
 ---
 
