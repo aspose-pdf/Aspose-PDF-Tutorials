@@ -125,7 +125,7 @@ Aspose.PDF for .NET ile TrueType yazı tiplerini kullanarak PDF'lerdeki satır a
 ### [Aspose.PDF kullanarak .NET'te PDF Metin Çıkarmada Ustalaşın: Kapsamlı Bir Kılavuz](./mastering-pdf-text-extraction-dotnet-asposepdf/)
 Aspose.PDF for .NET ile PDF'lerden metni etkili bir şekilde nasıl çıkaracağınızı ve arayacağınızı öğrenin. Pratik uygulama adımları için bu kılavuzu izleyin.
 
-### [Aspose.PDF for .NET ile PDF Metin Çıkarmada Ustalaşın: Kapsamlı Bir Kılavuz](./mastering-pdf-extraction-aspose-pdf-net-guide/)
+### [Aspose.PDF .NET ile PDF Metin Çıkarmada Ustalaşın: Kapsamlı Bir Kılavuz](./mastering-pdf-extraction-aspose-pdf-net-guide/)
 .NET için Aspose.PDF'yi kullanarak PDF'lerden metni verimli bir şekilde çıkarmayı öğrenin, hatta karmaşık düzenleri bile ele alın. Bu kılavuz, çıkarma süreçlerini yüklemeyi, ayrıştırmayı ve optimize etmeyi kapsar.
 
 ### [.NET için Aspose.PDF ile PDF Metin Çıkarmada Ustalaşın: Geliştiricinin Kılavuzu](./aspose-pdf-net-text-extraction-guide/)
@@ -163,6 +163,11 @@ Aspose.PDF Net için bir kod öğreticisi
 
 ### [.NET için Aspose.PDF kullanarak Etiketli PDF'lerdeki Metni Şekillendirin | Erişilebilir ve Estetik PDF Oluşturma Kılavuzu](./style-text-tagged-pdfs-aspose-pdf-net/)
 .NET için Aspose.PDF ile etiketli PDF belgelerindeki metni nasıl biçimlendireceğinizi öğrenin. Bu kılavuz, erişilebilirliği artırmak için kurulum, teknikler ve pratik uygulamaları kapsar.
+
+### [Aspose.PDF .NET ile PDF Özetleme – Tam Kılavuz](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
+Aspose.PDF.AI kullanarak PDF belgelerini otomatik olarak özetlemenin adım adım rehberi.
+
+### [AI Sohbet PDF: Aspose AI Copilot ile PDF Sorularını Sorun](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
 
 ## Ek Kaynaklar
 

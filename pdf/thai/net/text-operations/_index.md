@@ -164,6 +164,12 @@
 ### [ปรับแต่งข้อความใน PDF ที่มีแท็กโดยใช้ Aspose.PDF สำหรับ .NET | คำแนะนำสำหรับการสร้าง PDF ที่เข้าถึงได้และสวยงาม](./style-text-tagged-pdfs-aspose-pdf-net/)
 เรียนรู้วิธีการกำหนดรูปแบบข้อความในเอกสาร PDF ที่มีแท็กด้วย Aspose.PDF สำหรับ .NET คู่มือนี้ครอบคลุมถึงการติดตั้ง เทคนิค และแอปพลิเคชันจริงเพื่อเพิ่มการเข้าถึง
 
+### [วิธีสรุป PDF ด้วย Aspose.Pdf.AI – คู่มือฉบับสมบูรณ์](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
+เรียนรู้วิธีสรุปเนื้อหา PDF อย่างรวดเร็วด้วย Aspose.Pdf.AI พร้อมขั้นตอนและตัวอย่างโค้ดครบถ้วน
+
+### [AI Chat PDF: ถามคำถาม PDF ด้วย Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
+เรียนรู้วิธีใช้ Aspose AI Copilot เพื่อถามและรับคำตอบจากเอกสาร PDF อย่างมีประสิทธิภาพ
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)

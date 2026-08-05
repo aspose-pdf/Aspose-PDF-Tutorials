@@ -164,6 +164,12 @@ Naučte se, jak vykreslit složité LaTeX skripty do PDF dokumentů pomocí Aspo
 ### [Nastavení pozadí obrázků v PDF pomocí Aspose.PDF pro .NET: Komplexní průvodce](./aspose-pdf-net-set-image-backgrounds/)
 Naučte se, jak vylepšit své PDF dokumenty nastavením pozadí obrázků pomocí Aspose.PDF pro .NET. Tato příručka obsahuje tipy pro nastavení, implementaci a optimalizaci.
 
+### [Přidání obdélníku do PDF pomocí C# – krok za krokem](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.PDF pro .NET v C# přidat obdélník do PDF dokumentu, včetně nastavení pozice a stylu.
+
+### [Přidání grafického stavu PDF pomocí Aspose.PDF – krok za krokem](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.PDF spravovat grafický stav PDF, včetně nastavení průhlednosti a kompozice, krok za krokem.
+
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)

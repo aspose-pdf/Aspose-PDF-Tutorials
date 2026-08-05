@@ -76,8 +76,15 @@ Un tutorial de código para Aspose.PDF Net
 
 ### [Crear documento PDF con Aspose.PDF – Añadir página, forma y guardar](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Aprenda a crear un documento PDF, agregar una página y una forma, y guardarlo usando Aspose.PDF para .NET.
+
 ### [Crear documento PDF con Aspose.PDF – Guía paso a paso](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 Aprenda a crear documentos PDF mediante Aspose.PDF con una guía paso a paso y ejemplos de código.
+
+### [Crear nuevo documento PDF con numeración Bates en C#](./create-new-pdf-document-with-bates-numbering-in-c/)
+Aprenda a generar documentos PDF con numeración Bates utilizando Aspose.PDF para .NET en C#.
+
+### [Crear documento PDF/X‑4 C# – guía paso a paso](./create-pdf-x-4-document-c-step-by-step-guide/)
+Aprenda a crear documentos PDF/X‑4 en C# con Aspose.PDF mediante una guía paso a paso.
 
 ## Recursos adicionales
 

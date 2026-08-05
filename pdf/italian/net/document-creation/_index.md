@@ -29,6 +29,9 @@ Scopri come automatizzare la creazione di opuscoli PDF professionali utilizzando
 ### [Creare PDF professionali con Aspose.PDF per .NET: una guida completa](./create-professional-pdf-aspose-dotnet/)
 Scopri come creare documenti PDF professionali con layout precisi utilizzando Aspose.PDF per .NET. Scopri l'impostazione di pagina, i riquadri mobili e le intestazioni numerate.
 
+### [Creare documento PDF/X‑4 C# – guida passo‑passo](./create-pdf-x-4-document-c-step-by-step-guide/)
+Scopri come creare documenti PDF/X‑4 in C# con Aspose.PDF per .NET, passo dopo passo.
+
 ### [Crea PDF professionali con testo e immagini utilizzando Aspose.PDF per .NET](./create-pdfs-text-images-aspose-pdf-net/)
 Scopri come generare documenti PDF dinamici con testo e immagini utilizzando Aspose.PDF per .NET. Semplifica il processo di creazione dei documenti in modo efficace.
 
@@ -76,6 +79,10 @@ Un tutorial sul codice per Aspose.PDF Net
 
 ### [Crea documento PDF con Aspose.PDF – Aggiungi pagina, forma e salva](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Scopri come aggiungere pagine e forme a un PDF e salvarlo usando Aspose.PDF per .NET.
+
+### [Crea nuovo documento PDF con numerazione Bates in C#](./create-new-pdf-document-with-bates-numbering-in-c/)
+Scopri come aggiungere numerazione Bates a un documento PDF generato con Aspose.PDF per .NET in C#.
+
 ### [Creare documento PDF con Aspose.PDF – Guida passo‑passo](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 Scopri come generare un documento PDF da zero utilizzando Aspose.PDF per .NET con questa guida passo‑passo.
 

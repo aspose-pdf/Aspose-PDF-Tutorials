@@ -50,6 +50,9 @@ Aspose.PDF for .NET kullanarak bir PDF'in belirli sayfalarını nasıl verimli b
 ### [.NET için Aspose.PDF Kullanarak PDF'lerde Özel Yakınlaştırma Faktörünü Ayarlama - Eksiksiz Bir Kılavuz](./aspose-pdf-net-set-zoom-factor-pdfs/)
 Aspose.PDF for .NET kullanarak PDF belgelerinde özel bir yakınlaştırma faktörünün nasıl ayarlanacağını öğrenin. Bu kılavuz, kurulum, uygulama adımları ve pratik uygulamaları kapsar.
 
+### [Aspose.PDF ile Yazdırma İçin PDF Dönüştürme – Adım Adım Kılavuz](./convert-pdf-for-printing-with-aspose-pdf-step-by-step-guide/)
+Aspose.PDF kullanarak PDF dosyalarını yazdırma için nasıl dönüştüreceğinizi adım adım öğrenin.
+
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)

@@ -76,8 +76,15 @@ Samouczek dotyczący kodu dla Aspose.PDF Net
 
 ### [Utwórz dokument PDF przy użyciu Aspose.PDF – Dodaj stronę, kształt i zapisz](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Dowiedz się, jak w Aspose.PDF dodać nową stronę, rysować kształty i zapisać dokument PDF w aplikacji .NET.
+
+### [Utwórz nowy dokument PDF z numeracją Bates w C#](./create-new-pdf-document-with-bates-numbering-in-c/)
+Dowiedz się, jak dodać numerację Bates do nowo tworzonego dokumentu PDF w C# przy użyciu Aspose.PDF.
+
 ### [Tworzenie dokumentu PDF przy użyciu Aspose.PDF – przewodnik krok po kroku](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 Dowiedz się, jak krok po kroku tworzyć dokumenty PDF przy użyciu Aspose.PDF w .NET.
+
+### [Tworzenie dokumentu PDF/X‑4 w C# – przewodnik krok po kroku](./create-pdf-x-4-document-c-step-by-step-guide/)
+Dowiedz się, jak stworzyć dokument PDF/X‑4 w C# przy użyciu Aspose.PDF, krok po kroku.
 
 ## Dodatkowe zasoby
 

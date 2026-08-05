@@ -29,6 +29,8 @@
 
 {{< tutorial-card link="./multicolumn-paragraphs/" title="使用 Aspose.PDF 在 PDF 中建立多列段落" imgSrc="./multicolumn-paragraphs/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/" title="如何使用 Aspose 從掃描的 PDF 中提取文字 – 步驟指南" imgSrc="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

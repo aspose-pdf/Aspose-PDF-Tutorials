@@ -164,6 +164,12 @@ Samouczek dotyczący kodu dla Aspose.PDF Net
 ### [Styl tekstu w oznaczonych plikach PDF przy użyciu Aspose.PDF dla .NET | Przewodnik po tworzeniu dostępnych i estetycznych plików PDF](./style-text-tagged-pdfs-aspose-pdf-net/)
 Dowiedz się, jak stylizować tekst w oznaczonych dokumentach PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje instalację, techniki i praktyczne zastosowania w celu zwiększenia dostępności.
 
+### [Jak podsumować PDF przy użyciu Aspose.Pdf.AI – kompletny przewodnik](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
+Dowiedz się, jak podsumować dokumenty PDF przy użyciu Aspose.Pdf.AI, korzystając z pełnego przewodnika krok po kroku.
+
+### [AI czat PDF: zadawaj pytania do PDF za pomocą Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
+Dowiedz się, jak używać Aspose AI Copilot do zadawania pytań i uzyskiwania odpowiedzi z dokumentów PDF.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

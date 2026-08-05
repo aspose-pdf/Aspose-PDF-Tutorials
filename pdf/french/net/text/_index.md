@@ -29,6 +29,8 @@ Dans cette série de tutoriels, nous explorerons différents aspects de la manip
 
 {{< tutorial-card link="./multicolumn-paragraphs/" title="Paragraphes multicolonnes au format PDF avec Aspose.PDF" imgSrc="./multicolumn-paragraphs/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/" title="Comment utiliser Aspose pour extraire du texte d'un PDF numérisé – guide étape par étape" imgSrc="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

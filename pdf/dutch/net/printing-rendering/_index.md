@@ -50,6 +50,9 @@ Leer hoe u efficiënt specifieke pagina's van een PDF kunt afdrukken met Aspose.
 ### [Aangepaste zoomfactor instellen in PDF's met Aspose.PDF voor .NET - Een complete handleiding](./aspose-pdf-net-set-zoom-factor-pdfs/)
 Leer hoe u een aangepaste zoomfactor in PDF-documenten instelt met Aspose.PDF voor .NET. Deze handleiding behandelt de installatie, implementatiestappen en praktische toepassingen.
 
+### [PDF converteren voor afdrukken met Aspose.PDF – stapsgewijze handleiding](./convert-pdf-for-printing-with-aspose-pdf-step-by-step-guide/)
+Leer hoe u PDF-bestanden optimaliseert voor afdrukken met Aspose.PDF, inclusief instellingen en codevoorbeelden.
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

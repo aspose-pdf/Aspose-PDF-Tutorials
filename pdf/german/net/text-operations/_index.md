@@ -99,7 +99,7 @@ Erfahren Sie mit Schritt-für-Schritt-Anleitungen und Codebeispielen, wie Sie mi
 Erfahren Sie, wie Sie Zeichenfolgenbreiten mit Aspose.PDF für .NET mit Font- und TextState-Objekten präzise messen. Dieser Leitfaden enthält detaillierte Implementierungsschritte, praktische Anwendungen und Performance-Tipps.
 
 ### [So drehen Sie Text in PDFs mit Aspose.PDF für .NET: Eine Schritt-für-Schritt-Anleitung](./rotate-text-aspose-pdf-net-guide/)
-Meistern Sie die Textrotation in PDFs mit Aspose.PDF für .NET mithilfe dieser umfassenden Anleitung. Erfahren Sie, wie Sie Ihre Dokumentlayouts mit gedrehtem Text effizient verbessern.
+Meistern Sie die Textrotation in PDFs mit Aspose.PDF für .NET mithilfe dieser umfassenden Anleitung. Erfahren Sie, wie Sie Ihre Dokumenten-Layouts mit gedrehtem Text effizient verbessern.
 
 ### [Master Aspose.PDF für .NET: PDF-Dokumente effizient öffnen und durchsuchen](./aspose-pdf-net-open-search-pdfs/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Dokumente öffnen und durchsuchen. Diese Anleitung behandelt die Einrichtung, die Textsuche auf bestimmten Seiten und praktische Anwendungen.
@@ -163,6 +163,11 @@ Ein Code-Tutorial für Aspose.PDF Net
 
 ### [Textformatierung in getaggten PDFs mit Aspose.PDF für .NET | Leitfaden zur barrierefreien und ästhetischen PDF-Erstellung](./style-text-tagged-pdfs-aspose-pdf-net/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET Text in getaggten PDF-Dokumenten formatieren. Diese Anleitung behandelt Installation, Techniken und praktische Anwendungen zur Verbesserung der Barrierefreiheit.
+
+### [Wie man PDFs mit Aspose.Pdf.AI zusammenfasst – vollständiger Leitfaden](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
+
+### [KI-Chat-PDF: PDF-Fragen mit Aspose AI Copilot stellen](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
+Erfahren Sie, wie Sie mit Aspose AI Copilot PDF-Dokumente per Chat befragen und interaktive Antworten erhalten.
 
 ## Weitere Ressourcen
 

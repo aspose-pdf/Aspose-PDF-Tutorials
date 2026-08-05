@@ -29,6 +29,8 @@ den här handledningsserien utforskar vi olika aspekter av texthantering med Asp
 
 {{< tutorial-card link="./multicolumn-paragraphs/" title="Flerkolumnsstycken i PDF med Aspose.PDF" imgSrc="./multicolumn-paragraphs/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/" title="Hur du använder Aspose för att extrahera text från en skannad PDF – steg‑för‑steg‑guide" imgSrc="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -76,8 +76,13 @@ Tutorial kode untuk Aspose.PDF Net
 
 ### [Buat Dokumen PDF dengan Aspose.PDF – Tambahkan Halaman, Bentuk & Simpan](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Pelajari cara menambahkan halaman, bentuk, dan menyimpan dokumen PDF menggunakan Aspose.PDF.
+
 ### [Buat Dokumen PDF dengan Aspose.PDF – Panduan Langkah demi Langkah](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 Pelajari cara membuat dokumen PDF menggunakan Aspose.PDF dengan panduan langkah demi langkah yang mudah diikuti.
+
+### [Buat dokumen PDF baru dengan penomoran Bates di C#](./create-new-pdf-document-with-bates-numbering-in-c/)
+
+### [Buat Dokumen PDF/X‑4 C# – Panduan Langkah demi Langkah](./create-pdf-x-4-document-c-step-by-step-guide/)
 
 ## Sumber Daya Tambahan
 
