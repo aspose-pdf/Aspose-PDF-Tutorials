@@ -1,6 +1,6 @@
 ---
-title: Manipulate PDF Pages with Aspose.PDF for .NET
-linktitle: Manipulate PDF Pages with Aspose.PDF for .NET
+title: Learn to Manipulate PDF Pages with Aspose.PDF for .NET
+linktitle: Learn to Manipulate PDF Pages with Aspose.PDF for .NET
 weight: 15
 url: /net/programming-with-pdf-pages/
 description: Check out programming tutorials with PDF pages using Aspose.PDF for .NET. Learn how to manipulate and customize the pages of PDF files.

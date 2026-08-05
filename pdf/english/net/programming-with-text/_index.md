@@ -1,9 +1,9 @@
 ---
-title: Master Programming with Text using Aspose.PDF for .NET
-linktitle: Master Programming with Text using Aspose.PDF for .NET
+title: Add, Edit, and Extract Text Using Aspose.PDF for .NET
+linktitle: Add, Edit, and Extract Text Using Aspose.PDF for .NET
 weight: 25
 url: /net/programming-with-text/
-description: Check out Aspose.PDF for .NET's Programming with Text tutorials, which walk you through advanced text manipulation in your PDF documents.
+description: Check out Aspose.PDF for .NET's Programming with Text tutorials, which walk you through adding, editing, and extracting advanced text in your PDF documents.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}

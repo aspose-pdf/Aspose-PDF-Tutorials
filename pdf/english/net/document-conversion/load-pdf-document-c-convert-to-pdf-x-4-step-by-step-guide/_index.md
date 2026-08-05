@@ -19,7 +19,7 @@ tags:
 - PDF
 - Aspose
 - Document Conversion
-title: Load PDF Document C# – Convert to PDF/X-4 with Aspose.Pdf – Step‑by‑Step Guide
+title: Convert PDF to PDF/X‑4 in C# with Aspose.Pdf – Step‑by‑Step Guide
 url: /net/document-conversion/load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/
 ---
 

@@ -18,7 +18,7 @@ tags:
 - Aspose.Pdf
 - Digital Signature
 - PDF Processing
-title: Load Signed PDF Document and List Its Signatures with Aspose.Pdf – C# Guide
+title: Load Signed PDF Document and List Its Signatures Using Aspose.Pdf for .NET – C# Tutorial
 url: /net/digital-signatures/load-signed-pdf-document-and-list-its-signatures-c-guide/
 ---
 

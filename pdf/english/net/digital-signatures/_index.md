@@ -1,5 +1,5 @@
 ---
-title: "Implement PDF Digital Signatures with Aspose.PDF .NET – Tutorials"
+title: "Create and Verify PDF Digital Signatures with Aspose.PDF for .NET – Tutorial"
 description: "Step-by-step tutorials for implementing digital signatures, certificates, and signature validation in PDF documents with Aspose.PDF for .NET."
 weight: 16
 url: "/net/digital-signatures/"
