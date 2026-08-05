@@ -50,6 +50,9 @@
 ### [使用 Aspose.PDF for .NET 在 PDF 中設定自訂縮放比例 - 完整指南](./aspose-pdf-net-set-zoom-factor-pdfs/)
 了解如何使用 Aspose.PDF for .NET 在 PDF 文件中設定自訂縮放比例。本指南涵蓋安裝、實施步驟和實際應用。
 
+### [使用 Aspose.PDF 轉換 PDF 以列印的逐步指南](./convert-pdf-for-printing-with-aspose-pdf-step-by-step-guide/)
+了解如何使用 Aspose.PDF 將 PDF 轉換為列印友好的格式，並透過程式碼實作完整的列印流程。
+
 ## 其他資源
 
 - [Aspose.PDF 用於網頁文檔](https://docs.aspose.com/pdf/net/)

@@ -42,7 +42,7 @@ Leer hoe u efficiënt tekst in PDF-bestanden kunt vervangen met Aspose.PDF voor 
 Leer hoe u naadloos aangepaste lettertypen in uw PDF-documenten kunt insluiten met Aspose.PDF voor .NET. Volg deze uitgebreide tutorial om merkconsistentie op alle platforms te garanderen.
 
 ### [Lettertypen in PDF's insluiten met Aspose.PDF voor .NET: een stapsgewijze handleiding](./embed-fonts-aspose-pdf-net-guide/)
-Leer hoe u lettertypen in uw PDF-documenten kunt insluiten met Aspose.PDF voor .NET. Zorg voor consistente typografie op alle platforms met deze uitgebreide tutorial.
+Leer hoe u lettertypen in uw PDF-documenten kunt insluiten met Aspose.PDF voor .NET. Zorg voor consistente typografie op alle platforms met deze uitgebreide handleiding.
 
 ### [Type 1-lettertypen in PDF's insluiten met Aspose.PDF .NET | Een uitgebreide handleiding](./embed-type-1-fonts-aspose-pdf-net/)
 Leer hoe u standaard Type 1-lettertypen in PDF-documenten kunt insluiten met Aspose.PDF voor .NET. Zorg voor consistente typografie op alle apparaten met deze gebruiksvriendelijke handleiding.
@@ -163,6 +163,11 @@ Een codetutorial voor Aspose.PDF Net
 
 ### [Stijltekst in gelabelde PDF's met Aspose.PDF voor .NET | Handleiding voor toegankelijke en esthetische PDF-creatie](./style-text-tagged-pdfs-aspose-pdf-net/)
 Leer hoe u tekst in gelabelde PDF-documenten kunt stylen met Aspose.PDF voor .NET. Deze handleiding behandelt de installatie, technieken en praktische toepassingen om de toegankelijkheid te verbeteren.
+
+### [Hoe PDF samen te vatten met Aspose.Pdf.AI – een volledige handleiding](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
+Leer hoe u met Aspose.Pdf.AI automatisch een samenvatting van PDF-documenten genereert en integreert in uw .NET-toepassing.
+
+### [AI-chat-PDF: PDF-vragen stellen met Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
 
 ## Aanvullende bronnen
 

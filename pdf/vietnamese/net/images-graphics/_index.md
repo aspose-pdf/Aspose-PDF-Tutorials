@@ -35,6 +35,9 @@ Tìm hiểu cách chuyển đổi tệp SVG thành PDF chất lượng cao một
 ### [Tạo & Điền Hình Chữ Nhật Trong PDF Sử Dụng Aspose.PDF Cho .NET: Hướng Dẫn Từng Bước](./create-fill-rectangle-aspose-pdf-net/)
 Tìm hiểu cách tạo và điền hình chữ nhật trong tài liệu PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước này bao gồm mọi thứ từ thiết lập đến triển khai bằng C#.
 
+### [Thêm hình chữ nhật vào PDF bằng C# – hướng dẫn từng bước](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách thêm hình chữ nhật vào tệp PDF bằng C# và Aspose.PDF, bao gồm các bước thiết lập và mã mẫu.
+
 ### [Tạo tem PDF tùy chỉnh với Aspose.PDF trong .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Hướng dẫn mã cho Aspose.PDF Net
 
@@ -163,6 +166,9 @@ Tìm hiểu cách chuyển các tập lệnh LaTeX phức tạp thành tài li�
 
 ### [Đặt hình nền ảnh trong PDF bằng Aspose.PDF cho .NET: Hướng dẫn toàn diện](./aspose-pdf-net-set-image-backgrounds/)
 Tìm hiểu cách cải thiện tài liệu PDF của bạn bằng cách thiết lập hình nền bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm các mẹo thiết lập, triển khai và tối ưu hóa.
+
+### [Thêm trạng thái đồ họa vào PDF với Aspose.Pdf – hướng dẫn từng bước](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+Hướng dẫn cách sử dụng GraphicsState trong Aspose.PDF để kiểm soát độ trong suốt và các hiệu ứng đồ họa trong PDF.
 
 ## Tài nguyên bổ sung
 

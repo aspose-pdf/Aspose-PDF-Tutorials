@@ -164,6 +164,10 @@
 ### [Стиль текста в тегированных PDF-файлах с использованием Aspose.PDF для .NET | Руководство по созданию доступных и эстетичных PDF-файлов](./style-text-tagged-pdfs-aspose-pdf-net/)
 Узнайте, как стилизовать текст в тегированных документах PDF с помощью Aspose.PDF для .NET. Это руководство охватывает установку, методы и практические приложения для улучшения доступности.
 
+### [Как суммировать PDF с помощью Aspose.Pdf.AI — полное руководство](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
+
+### [AI‑чат PDF: задавайте вопросы PDF с Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.PDF для сети](https://docs.aspose.com/pdf/net/)

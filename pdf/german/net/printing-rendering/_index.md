@@ -50,6 +50,9 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET effizient einzelne Seiten einer P
 ### [Benutzerdefinierten Zoomfaktor in PDFs mit Aspose.PDF für .NET festlegen – Eine vollständige Anleitung](./aspose-pdf-net-set-zoom-factor-pdfs/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET einen benutzerdefinierten Zoomfaktor in PDF-Dokumenten festlegen. Diese Anleitung behandelt Installation, Implementierungsschritte und praktische Anwendungen.
 
+### [So konvertieren Sie PDF für den Druck mit Aspose.PDF – Schritt‑für‑Schritt‑Anleitung](./convert-pdf-for-printing-with-aspose-pdf-step-by-step-guide/)
+Erfahren Sie, wie Sie PDFs für den Druck optimieren und konvertieren, um optimale Druckergebnisse mit Aspose.PDF zu erzielen.
+
 ## Weitere Ressourcen
 
 - [Aspose.PDF für Net-Dokumentation](https://docs.aspose.com/pdf/net/)

@@ -35,6 +35,9 @@ Apprenez à convertir facilement des fichiers SVG en PDF de haute qualité avec 
 ### [Créer et remplir des rectangles dans des fichiers PDF avec Aspose.PDF pour .NET : guide étape par étape](./create-fill-rectangle-aspose-pdf-net/)
 Apprenez à créer et remplir des rectangles dans des documents PDF avec Aspose.PDF pour .NET. Ce guide étape par étape couvre toutes les étapes, de la configuration à l'implémentation en C#.
 
+### [Ajouter un rectangle à un PDF avec C# – guide étape par étape](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+Apprenez à ajouter un rectangle à un PDF en C# avec Aspose.PDF pour .NET grâce à ce guide détaillé.
+
 ### [Créez des tampons PDF personnalisés avec Aspose.PDF dans .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Un tutoriel de code pour Aspose.PDF Net
 
@@ -163,6 +166,9 @@ Découvrez comment restituer des scripts LaTeX complexes dans des documents PDF 
 
 ### [Définir l'arrière-plan des images dans les fichiers PDF avec Aspose.PDF pour .NET : guide complet](./aspose-pdf-net-set-image-backgrounds/)
 Découvrez comment améliorer vos documents PDF en définissant des images d'arrière-plan avec Aspose.PDF pour .NET. Ce guide présente des conseils de configuration, de mise en œuvre et d'optimisation.
+
+### [Ajouter l'état graphique PDF avec Aspose.PDF – guide étape par étape](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+Apprenez à manipuler l'état graphique d'un PDF avec Aspose.PDF pour .NET grâce à ce guide détaillé étape par étape.
 
 ## Ressources supplémentaires
 

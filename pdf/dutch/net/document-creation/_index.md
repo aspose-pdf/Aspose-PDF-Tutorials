@@ -23,6 +23,9 @@ Leer hoe u professionele PDF-boekjes maakt met Aspose.PDF voor .NET. Deze tutori
 ### [PDF-document maken met Aspose.PDF – een stapsgewijze handleiding](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 Leer stap voor stap hoe u een PDF-document maakt met Aspose.PDF in .NET.
 
+### [PDF/X‑4-document maken in C# – een stapsgewijze handleiding](./create-pdf-x-4-document-c-step-by-step-guide/)
+Leer hoe u een PDF/X‑4-document genereert met Aspose.PDF voor .NET in C#, stap voor stap uitgelegd.
+
 ### [PDF's maken van XML en XSLT met Aspose.PDF .NET: een stapsgewijze handleiding](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
 Leer hoe u XML-gegevens naar PDF-formaat converteert met Aspose.PDF voor .NET met XSLT-transformaties. Deze handleiding behandelt de installatie, binding en aanpassing.
 
@@ -79,6 +82,9 @@ Een codetutorial voor Aspose.PDF Net
 
 ### [PDF-document maken met Aspose.PDF – Pagina toevoegen, vorm toevoegen & opslaan](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Leer hoe u met Aspose.PDF een PDF maakt, een pagina en vorm toevoegt en het document opslaat.
+
+### [Nieuw PDF-document maken met Bates-nummering in C#](./create-new-pdf-document-with-bates-numbering-in-c/)
+Leer hoe u een nieuw PDF-document maakt en automatisch Bates-nummering toevoegt met C# en Aspose.PDF.
 
 ## Aanvullende bronnen
 

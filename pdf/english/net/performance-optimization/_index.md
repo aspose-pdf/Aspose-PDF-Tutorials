@@ -26,6 +26,9 @@ Learn how to reduce PDF file sizes with Aspose.PDF .NET. Discover techniques for
 ### [Efficient PDF Management in .NET using Aspose.PDF&#58; Insert and Stream Pages](./aspose-pdf-net-optimized-pdfs-insert-stream-pages/)
 Learn how to optimize PDF management in .NET with Aspose.PDF. This guide covers inserting pages, stream handling, and performance optimization techniques for seamless document manipulation.
 
+### [How to optimize PDF in .NET – compress PDF in .NET step by step](./how-to-optimize-pdf-in-net-compress-pdf-in-net-step-by-step/)
+Step-by-step guide to compress PDFs in .NET using Aspose.PDF, improving file size and performance.
+
 ### [How to Optimize PDFs by Removing Unused Streams using Aspose.PDF for .NET](./optimize-pdfs-remove-unused-streams-aspose-pdf-net/)
 Learn how to streamline your PDF files and reduce their size with Aspose.PDF for .NET. This guide covers removing unused streams, improving performance, and optimizing document management.
 

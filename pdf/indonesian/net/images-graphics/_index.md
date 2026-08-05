@@ -108,7 +108,7 @@ Pelajari cara menyempurnakan dokumen PDF Anda dengan membuat persegi panjang den
 Pelajari cara menghapus gambar dari file PDF secara efisien menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup pengaturan, contoh kode, dan praktik terbaik.
 
 ### [Cara Menghapus Gambar dari PDF Menggunakan Aspose.PDF .NET: Panduan Langkah demi Langkah](./delete-images-aspose-pdf-net-guide/)
-Pelajari cara menghapus gambar dari file PDF menggunakan Aspose.PDF untuk .NET. Panduan lengkap ini mencakup pengaturan, penerapan, dan aplikasi praktis.
+Pelajari cara menghapus gambar dari PDF menggunakan Aspose.PDF untuk .NET. Panduan lengkap ini mencakup pengaturan, penerapan, dan aplikasi praktis.
 
 ### [Cara Menghapus Gambar dari PDF Menggunakan Aspose.PDF untuk .NET: Panduan Lengkap](./delete-images-from-pdf-aspose-dotnet/)
 Pelajari cara menghapus semua gambar dari PDF secara efisien menggunakan Aspose.PDF for .NET, meningkatkan privasi file dan mengurangi ukuran. Ikuti panduan langkah demi langkah ini.
@@ -163,6 +163,12 @@ Pelajari cara merender skrip LaTeX yang kompleks menjadi dokumen PDF menggunakan
 
 ### [Mengatur Latar Belakang Gambar dalam PDF Menggunakan Aspose.PDF untuk .NET: Panduan Lengkap](./aspose-pdf-net-set-image-backgrounds/)
 Pelajari cara menyempurnakan dokumen PDF Anda dengan mengatur latar belakang gambar menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup kiat penyiapan, penerapan, dan pengoptimalan.
+
+### [Menambahkan Persegi Panjang ke PDF dengan C# – Panduan Langkah demi Langkah](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+Pelajari cara menambahkan bentuk persegi panjang ke dokumen PDF menggunakan C# dengan Aspose.PDF, langkah demi langkah.
+
+### [Menambahkan Status Grafik PDF dengan Aspose.PDF – Panduan Langkah demi Langkah](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+Pelajari cara mengelola status grafik dalam PDF menggunakan Aspose.PDF, termasuk transparansi, komposit, dan efek lanjutan.
 
 ## Sumber Daya Tambahan
 

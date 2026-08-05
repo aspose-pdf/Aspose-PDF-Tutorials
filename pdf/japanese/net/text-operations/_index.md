@@ -83,7 +83,7 @@ Aspose.PDF for .NET を使用して、PDF ファイル内のテキストと画�
 ### [Aspose.PDF for .NET で PDF を編集する方法: 書式付きテキストの追加が簡単](./edit-pdfs-aspose-pdf-net-formatted-text/)
 Aspose.PDF for .NET を使用して、PDF に書式設定されたテキストを追加する方法を学びます。このガイドでは、PDF ファイルの開き方、編集方法、書式設定方法を簡単に説明します。
 
-### [Aspose.PDF for .NET を使用して PDF にフォントを埋め込んだりサブセット化したりする方法 - 包括的なガイド](./embed-subset-fonts-aspose-pdf-net/)
+### [Aspose.PDF for .NET を使用して PDF にカスタムフォントを埋め込む: 完全ガイド](./embed-subset-fonts-aspose-pdf-net/)
 Aspose.PDF for .NET を使用してPDFにフォントを埋め込んだり、サブセット化したりする方法を学びます。このガイドでは、インストール、フォント埋め込み戦略、ドキュメントサイズの最適化について説明します。
 
 ### [Aspose.PDF for .NET を使用して PDF から強調表示されたテキストを抽出する方法](./extract-highlighted-text-aspose-pdf-net/)
@@ -163,6 +163,12 @@ Aspose.PDF Net のコードチュートリアル
 
 ### [Aspose.PDF for .NET を使用してタグ付き PDF のテキストにスタイルを設定する | アクセシビリティと美観に優れた PDF 作成ガイド](./style-text-tagged-pdfs-aspose-pdf-net/)
 Aspose.PDF for .NET を使って、タグ付き PDF ドキュメント内のテキストにスタイルを設定する方法を学びましょう。このガイドでは、インストール、テクニック、そしてアクセシビリティを向上させるための実践的な応用例を解説します。
+
+### [Aspose.PDF .NET を使用して PDF を要約する方法 – 完全ガイド](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
+Aspose.PDF AI を活用し、PDF の内容を自動的に要約する手順とコード例をステップバイステップで解説します。
+
+### [AIチャットPDF: Aspose AI CopilotでPDFに質問する](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
+Aspose AI Copilot を使用して、PDF の内容に自然言語で質問し、即座に回答を取得する方法を学びます。
 
 ## 追加リソース
 

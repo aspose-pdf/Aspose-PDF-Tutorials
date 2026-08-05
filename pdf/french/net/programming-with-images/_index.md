@@ -49,6 +49,7 @@ Les tutoriels « Programmation avec des images » d'Aspose.PDF pour .NET vous 
 | [Définir la taille de l'image dans le fichier PDF](./set-image-size/) | Apprenez à définir la taille d'une image dans un PDF avec Aspose.PDF pour .NET. Ce guide étape par étape vous aidera à redimensionner les images, à ajuster les propriétés des pages et à enregistrer vos PDF. |  
 | [Réduire les images dans un fichier PDF](./shrink-images/) | Réduisez facilement les images dans les fichiers PDF à l'aide d'Aspose.PDF pour .NET avec ce guide étape par étape, garantissant des tailles de fichiers plus petites tout en maintenant la qualité. |  
 | [Stocker l'image dans la collection XImage](./store-image-in-ximage-collection/) | Apprenez à stocker des images dans la collection XImage à l'aide d'Aspose.PDF pour .NET dans ce guide complet étape par étape. |  
+| [Créer un copilote IA pour la description d'images PDF – guide étape par étape](./create-ai-copilot-for-pdf-image-description-step-by-step-gui/) | Apprenez à créer un copilote IA qui génère des descriptions d'images PDF, guide complet pas à pas. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -29,6 +29,8 @@ tej serii samouczków przyjrzymy się różnym aspektom manipulacji tekstem przy
 
 {{< tutorial-card link="./multicolumn-paragraphs/" title="Wielokolumnowe akapity w PDF przy użyciu Aspose.PDF" imgSrc="./multicolumn-paragraphs/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/" title="Jak używać Aspose do wyodrębniania tekstu ze zeskanowanego PDF – przewodnik krok po kroku" imgSrc="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

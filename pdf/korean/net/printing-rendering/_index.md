@@ -50,6 +50,8 @@ Aspose.PDF for .NET을 사용하여 PDF의 특정 페이지를 효율적으로 �
 ### [Aspose.PDF for .NET을 사용하여 PDF에서 사용자 지정 확대/축소 비율 설정 - 완전한 가이드](./aspose-pdf-net-set-zoom-factor-pdfs/)
 Aspose.PDF for .NET을 사용하여 PDF 문서에 사용자 지정 확대/축소 비율을 설정하는 방법을 알아보세요. 이 가이드에서는 설치, 구현 단계 및 실제 적용 사례를 다룹니다.
 
+### [Aspose.PDF를 사용한 인쇄용 PDF 변환 – 단계별 가이드](./convert-pdf-for-printing-with-aspose-pdf-step-by-step-guide/)
+
 ## 추가 자료
 
 - [Net 문서용 Aspose.PDF](https://docs.aspose.com/pdf/net/)

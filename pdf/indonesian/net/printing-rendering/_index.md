@@ -50,6 +50,9 @@ Pelajari cara mencetak halaman tertentu dari PDF secara efisien menggunakan Aspo
 ### [Mengatur Faktor Zoom Kustom dalam PDF Menggunakan Aspose.PDF untuk .NET - Panduan Lengkap](./aspose-pdf-net-set-zoom-factor-pdfs/)
 Pelajari cara mengatur faktor zoom khusus dalam dokumen PDF menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup instalasi, langkah-langkah implementasi, dan aplikasi praktis.
 
+### [Konversi PDF untuk pencetakan dengan Aspose.PDF – panduan langkah demi langkah](./convert-pdf-for-printing-with-aspose-pdf-step-by-step-guide/)
+Pelajari cara mengonversi PDF menjadi format yang optimal untuk pencetakan menggunakan Aspose.PDF dengan contoh kode C#.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

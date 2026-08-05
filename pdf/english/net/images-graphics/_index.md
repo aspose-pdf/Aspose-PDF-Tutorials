@@ -17,6 +17,8 @@ Discover how to enhance PDF documents with visual elements using our comprehensi
 
 ## Available Tutorials
 
+### [Add graphics state pdf with Aspose.Pdf – step‑by‑step guide](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+
 ### [Add Image Stamps to PDFs Using Aspose.PDF for .NET&#58; A Step-by-Step Guide](./add-image-stamp-to-pdf-aspose-dotnet/)
 Learn how to seamlessly add image stamps, such as logos, to every page of a PDF using Aspose.PDF for .NET. Enhance your documents with professional branding.
 
@@ -34,6 +36,9 @@ Learn how to convert SVG files into high-quality PDFs seamlessly using Aspose.PD
 
 ### [Create & Fill Rectangles in PDFs Using Aspose.PDF for .NET&#58; A Step-by-Step Guide](./create-fill-rectangle-aspose-pdf-net/)
 Learn how to create and fill rectangles in PDF documents using Aspose.PDF for .NET. This step-by-step guide covers everything from setup to implementation with C#.
+
+### [Add rectangle to PDF with C# – step‑by‑step guide](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+Learn how to add a rectangle shape to a PDF using Aspose.PDF for .NET with C#.
 
 ### [Create Custom PDF Stamps with Aspose.PDF in .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 A code tutorial for Aspose.PDF Net

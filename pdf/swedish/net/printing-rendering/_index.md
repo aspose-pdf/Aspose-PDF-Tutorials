@@ -50,6 +50,9 @@ Lär dig hur du effektivt skriver ut specifika sidor i en PDF med Aspose.PDF fö
 ### [Ställ in anpassad zoomfaktor i PDF-filer med Aspose.PDF för .NET - En komplett guide](./aspose-pdf-net-set-zoom-factor-pdfs/)
 Lär dig hur du ställer in en anpassad zoomfaktor i PDF-dokument med Aspose.PDF för .NET. Den här guiden behandlar installation, implementeringssteg och praktiska tillämpningar.
 
+### [Konvertera PDF för utskrift med Aspose.PDF – steg‑för‑steg‑guide](./convert-pdf-for-printing-with-aspose-pdf-step-by-step-guide/)
+Lär dig hur du konverterar PDF-filer för optimal utskrift med Aspose.PDF i en steg-för-steg-guide.
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

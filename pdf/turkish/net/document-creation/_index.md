@@ -75,8 +75,15 @@ Aspose.PDF for .NET kullanarak PDF'leri nasıl oluşturacağınızı, özelleşt
 Aspose.PDF Net için bir kod öğreticisi
 
 ### [Aspose.PDF ile PDF Belgesi Oluşturma – Sayfa, Şekil Ekle ve Kaydet](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
+
 ### [Aspose.PDF ile PDF Belgesi Oluşturma – Adım Adım Kılavuz](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 Aspose.PDF for .NET ile PDF belgesi oluşturmayı adım adım öğrenin ve örnek kodlarla uygulayın.
+
+### [C# ile Bates Numaralandırmalı Yeni PDF Belgesi Oluşturma](./create-new-pdf-document-with-bates-numbering-in-c/)
+Aspose.PDF for .NET kullanarak C# dilinde Bates numaralandırmasıyla PDF belgeleri oluşturmayı öğrenin.
+
+### [PDF/X‑4 Belgesi Oluşturma C# – Adım Adım Kılavuz](./create-pdf-x-4-document-c-step-by-step-guide/)
+PDF/X‑4 standardına uygun PDF belgelerini C# ile oluşturmayı öğrenin.
 
 ## Ek Kaynaklar
 

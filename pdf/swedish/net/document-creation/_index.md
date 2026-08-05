@@ -79,6 +79,12 @@ Lär dig hur du skapar ett PDF-dokument, lägger till en sida och former samt sp
 ### [Skapa PDF-dokument med Aspose.PDF – Steg‑för‑steg‑guide](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 Lär dig hur du skapar PDF-dokument med Aspose.PDF i en steg‑för‑steg‑guide.
 
+### [Skapa nytt PDF-dokument med Bates-nummerering i C#](./create-new-pdf-document-with-bates-numbering-in-c/)
+Lär dig hur du skapar ett PDF-dokument med Bates-nummerering i C# med Aspose.PDF för .NET.
+
+### [Skapa PDF/X‑4-dokument C# – steg‑för‑steg‑guide](./create-pdf-x-4-document-c-step-by-step-guide/)
+Lär dig hur du skapar ett PDF/X‑4-dokument i C# med Aspose.PDF för .NET.
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

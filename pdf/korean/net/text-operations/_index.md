@@ -134,8 +134,11 @@ Aspose.PDF for .NET을 사용하여 PDF에서 텍스트를 효율적으로 추�
 ### [Aspose.PDF for .NET을 활용한 PDF 텍스트 조작 마스터하기: 종합 가이드](./mastering-pdf-text-manipulation-aspose-dotnet/)
 Aspose.PDF for .NET을 사용하여 PDF에 텍스트를 추가하고 스타일을 지정하는 방법을 알아보세요. 이 가이드에서는 설정, 스타일 지정, 하이퍼링크 및 실제 적용 방법을 다룹니다.
 
-### [PDF 텍스트 조작 마스터하기: Aspose.PDF for .NET을 사용하여 PDF의 텍스트 회전 및 사용자 지정](./aspose-pdf-net-create-rotate-text-pdfs/)
+### [PDF 텍스트 회전 및 사용자 지정](./aspose-pdf-net-create-rotate-text-pdfs/)
 Aspose.PDF for .NET을 사용하여 PDF 문서 내에서 텍스트를 효과적으로 회전하고 사용자 지정하는 방법을 알아보세요. 이 가이드에서는 설정, 구현 및 고급 기능에 대해 설명합니다.
+
+### [Aspose.Pdf.AI를 사용하여 PDF 요약하기 – 완전 가이드](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
+Aspose.Pdf.AI를 활용해 PDF 내용을 자동으로 요약하는 방법을 단계별로 안내합니다.
 
 ### [Aspose.PDF .NET을 사용하여 정규 표현식을 사용한 PDF 텍스트 검색 마스터하기](./aspose-pdf-net-regex-text-search/)
 Aspose.PDF Net에 대한 코드 튜토리얼
@@ -163,6 +166,9 @@ Aspose.PDF Net에 대한 코드 튜토리얼
 
 ### [Aspose.PDF for .NET을 사용하여 태그가 지정된 PDF의 텍스트 스타일 지정 | 접근성 있고 미적인 PDF 생성 가이드](./style-text-tagged-pdfs-aspose-pdf-net/)
 Aspose.PDF for .NET을 사용하여 태그가 지정된 PDF 문서의 텍스트 스타일을 지정하는 방법을 알아보세요. 이 가이드에서는 접근성을 향상시키기 위한 설치, 기술 및 실제 적용 방법을 다룹니다.
+
+### [AI 채팅 PDF: Aspose AI Copilot을 사용하여 PDF 질문하기](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
+Aspose AI Copilot을 활용해 PDF에 질문하고 답변을 얻는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

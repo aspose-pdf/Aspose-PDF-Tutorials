@@ -49,6 +49,7 @@ Aspose.PDF for .NET の「画像を使ったプログラミング」チュート
 | [PDFファイルの画像サイズを設定する](./set-image-size/) Aspose.PDF for .NET を使用してPDF内の画像サイズを設定する方法を学びましょう。このステップバイステップガイドでは、画像のサイズ変更、ページプロパティの調整、PDFの保存方法について説明します。 |  
 | [PDFファイル内の画像を縮小する](./shrink-images/) このステップバイステップ ガイドに従って Aspose.PDF for .NET を使用して PDF ファイル内の画像を簡単に縮小し、品質を維持しながらファイル サイズを小さくすることができます。 |  
 | [XImageコレクションに画像を保存する](./store-image-in-ximage-collection/) この完全なステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して XImage コレクションに画像を保存する方法を学習します。 |  
+| [PDF画像説明用AIコパイロットの作成 – ステップバイステップガイド](./create-ai-copilot-for-pdf-image-description-step-by-step-gui/) Aspose.PDF for .NET を使用して、PDF画像の説明を生成する AI コパイロットを作成する方法をステップバイステップで解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

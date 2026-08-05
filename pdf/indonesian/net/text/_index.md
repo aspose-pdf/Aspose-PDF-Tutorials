@@ -29,6 +29,8 @@ Dalam rangkaian tutorial ini, kita akan menjelajahi berbagai aspek manipulasi te
 
 {{< tutorial-card link="./multicolumn-paragraphs/" title="Paragraf Multi-Kolom dalam PDF menggunakan Aspose.PDF" imgSrc="./multicolumn-paragraphs/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/" title="Cara Menggunakan Aspose untuk Mengekstrak Teks dari PDF yang Dipindai – Panduan Langkah demi Langkah" imgSrc="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

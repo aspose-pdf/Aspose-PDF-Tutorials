@@ -50,6 +50,8 @@ Tìm hiểu cách in hiệu quả các trang cụ thể của PDF bằng Aspose.
 ### [Thiết lập Hệ số thu phóng tùy chỉnh trong PDF bằng Aspose.PDF cho .NET - Hướng dẫn đầy đủ](./aspose-pdf-net-set-zoom-factor-pdfs/)
 Tìm hiểu cách thiết lập hệ số thu phóng tùy chỉnh trong tài liệu PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm cài đặt, các bước triển khai và ứng dụng thực tế.
 
+### [Chuyển đổi PDF để in với Aspose.PDF – hướng dẫn từng bước](./convert-pdf-for-printing-with-aspose-pdf-step-by-step-guide/)
+
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)

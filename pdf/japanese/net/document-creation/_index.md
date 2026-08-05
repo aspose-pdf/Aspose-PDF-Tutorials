@@ -76,8 +76,15 @@ Aspose.PDF Net のコードチュートリアル
 
 ### [Aspose.PDF を使用して PDF ドキュメントを作成 – ページ、シェイプの追加と保存](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Aspose.PDF の API を利用し、ページや図形を追加して PDF を保存する手順を解説します。
+
 ### [Aspose.PDF を使用した PDF ドキュメントの作成: ステップバイステップ ガイド](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 Aspose.PDF を使用して、.NET で PDF ドキュメントを最初から作成する方法をステップバイステップで学びます。
+
+### [C# でベーツ番号付けされた新しい PDF ドキュメントを作成する](./create-new-pdf-document-with-bates-numbering-in-c/)
+C# でベーツ番号付けを行いながら新しい PDF ドキュメントを作成する方法をステップバイステップで解説します。
+
+### [C# で PDF/X‑4 ドキュメントを作成する – ステップバイステップ ガイド](./create-pdf-x-4-document-c-step-by-step-guide/)
+Aspose.PDF for .NET を使用して、C# で PDF/X‑4 形式の PDF ドキュメントを作成する方法をステップバイステップで解説します。
 
 ## 追加リソース
 

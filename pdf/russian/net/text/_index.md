@@ -29,6 +29,8 @@
 
 {{< tutorial-card link="./multicolumn-paragraphs/" title="Многоколоночные абзацы в PDF с использованием Aspose.PDF" imgSrc="./multicolumn-paragraphs/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/" title="Как использовать Aspose для извлечения текста из сканированного PDF – пошаговое руководство" imgSrc="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -50,6 +50,8 @@
 ### [تعيين عامل تكبير مخصص في ملفات PDF باستخدام Aspose.PDF لـ .NET - دليل كامل](./aspose-pdf-net-set-zoom-factor-pdfs/)
 تعرّف على كيفية ضبط مُعامل تكبير/تصغير مُخصّص في مستندات PDF باستخدام Aspose.PDF لـ .NET. يُغطّي هذا الدليل خطوات التثبيت والتنفيذ والتطبيقات العملية.
 
+### [تحويل PDF للطباعة باستخدام Aspose.PDF – دليل خطوة بخطوة](./convert-pdf-for-printing-with-aspose-pdf-step-by-step-guide/)
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)
