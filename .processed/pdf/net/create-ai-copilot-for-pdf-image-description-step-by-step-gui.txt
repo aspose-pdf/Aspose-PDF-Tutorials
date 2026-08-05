@@ -1,0 +1,7 @@
+Title: Create AI Copilot for PDF image description – step‑by‑step guide
+Slug: create-ai-copilot-for-pdf-image-description-step-by-step-gui
+Category: programming-with-images
+ProcessedDate: 2026-08-05T07:42:40.293979
+SourceRepo: AI Search API
+Keywords: create ai copilot, generate image description, image description pdf, openai image options, extract image description
+PRNumber: 114
