@@ -1,0 +1,7 @@
+Title: Create PDF/X‑4 document C# – step‑by‑step guide
+Slug: create-pdf-x-4-document-c-step-by-step-guide
+Category: document-creation
+ProcessedDate: 2026-08-05T07:42:48.519649
+SourceRepo: AI Search API
+Keywords: create pdf/x‑4 document c#, convert pdf to pdfx4
+PRNumber: 114
