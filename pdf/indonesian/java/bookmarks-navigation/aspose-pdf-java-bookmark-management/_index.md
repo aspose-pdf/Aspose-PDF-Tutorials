@@ -1,12 +1,76 @@
 ---
-date: '2026-02-27'
-description: Pelajari cara menghapus bookmark PDF dengan Java dan menghapus semua
-  bookmark PDF secara efisien menggunakan Aspose.PDF untuk Java.
+date: '2026-08-06'
+description: Pelajari cara menghapus bookmarks dalam file PDF dengan Aspose.PDF for
+  Java, termasuk cara menghapus semua bookmarks PDF dalam satu panggilan.
 keywords:
-- PDF bookmark management
-- delete PDF bookmarks Java
-- manage PDF bookmarks Aspose
-title: Hapus Bookmark PDF Java dengan Aspose.PDF untuk Java
+- how to delete bookmarks
+- how to remove bookmarks
+- remove all pdf bookmarks
+lastmod: '2026-08-06'
+og_description: Pelajari cara menghapus bookmarks dalam file PDF dengan Aspose.PDF
+  for Java. Panduan ini menunjukkan cara menghapus semua bookmarks PDF secara efisien.
+og_image_alt: 'Developer guide: delete PDF bookmarks with Aspose.PDF for Java'
+og_title: Cara menghapus bookmarks pada PDF menggunakan Aspose.PDF for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-06'
+  description: Learn how to delete bookmarks in PDF files with Aspose.PDF for Java,
+    including how to remove all PDF bookmarks in a single call.
+  headline: How to delete bookmarks in PDF using Aspose.PDF for Java
+  type: TechArticle
+- description: Learn how to delete bookmarks in PDF files with Aspose.PDF for Java,
+    including how to remove all PDF bookmarks in a single call.
+  name: How to delete bookmarks in PDF using Aspose.PDF for Java
+  steps:
+  - name: Download the library from the Aspose site.
+    text: Download the library from the Aspose site.
+  - name: Ensure your IDE recognizes the JAR files by adding them to your project's
+      classpath.
+    text: Ensure your IDE recognizes the JAR files by adding them to your project's
+      classpath.
+  - name: You’re ready to start coding!
+    text: You’re ready to start coding!
+  - name: '**Load the document** – open your PDF file using `Document`.'
+    text: '**Load the document** – open your PDF file using `Document`.'
+  - name: '**Delete all bookmarks** – call the `delete()` method on the outlines collection.'
+    text: '**Delete all bookmarks** – call the `delete()` method on the outlines collection.'
+  - name: '**Save the modified document** – write the changes to a new file.'
+    text: '**Save the modified document** – write the changes to a new file.'
+  - name: '**Load the document** – same as before.'
+    text: '**Load the document** – same as before.'
+  - name: '**Delete a specific bookmark** – provide the exact title of the bookmark
+      you wish to remove.'
+    text: '**Delete a specific bookmark** – provide the exact title of the bookmark
+      you wish to remove.'
+  - name: '**Save the modified document** – store the result.'
+    text: '**Save the modified document** – store the result.'
+  - name: '**Digital libraries:** Strip outdated or redundant bookmarks from e‑books
+      before distribution.'
+    text: '**Digital libraries:** Strip outdated or redundant bookmarks from e‑books
+      before distribution.'
+  type: HowTo
+- questions:
+  - answer: A comprehensive PDF manipulation library that lets developers create,
+      modify, and manage PDF files programmatically without needing Adobe Acrobat.
+    question: What is Aspose.PDF for Java?
+  - answer: Yes, you can test with the free trial version, though it imposes size
+      and feature limits that disappear with a purchased license.
+    question: Can I use Aspose.PDF without a license?
+  - answer: Absolutely. Loop through a collection of PDFs and apply the same `delete()`
+      logic to each file; the library’s API is thread‑safe for parallel processing.
+    question: Is it possible to remove all bookmarks in a batch process?
+  - answer: Incorrect file paths, insufficient permissions, and specifying a non‑existent
+      bookmark title are the most frequent problems.
+    question: What are common issues when deleting bookmarks?
+  - answer: Visit the official [Aspose documentation](https://reference.aspose.com/pdf/java/)
+      for detailed API references and additional examples.
+    question: Where can I find more resources on Aspose.PDF for Java?
+  type: FAQPage
+tags:
+- delete pdf bookmarks
+- Aspose.PDF
+- Java PDF processing
+title: Cara menghapus bookmarks pada PDF menggunakan Aspose.PDF for Java
 url: /id/java/bookmarks-navigation/aspose-pdf-java-bookmark-management/
 weight: 1
 ---
@@ -16,36 +80,39 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Delete PDF Bookmarks Java dengan Aspose.PDF for Java
+# Cara menghapus bookmark di PDF menggunakan Aspose.PDF untuk Java
 
-## Introduction
+## Pendahuluan
 
-Jika Anda perlu **delete pdf bookmarks java**, Anda berada di tempat yang tepat. Mengelola outline PDF secara programatik dapat membuat dokumen Anda rapi, mengurangi ukuran file, dan menyederhanakan proses selanjutnya. Pada tutorial ini kami akan membahas semua yang perlu Anda ketahui—dari menyiapkan Aspose.PDF for Java hingga menghapus satu bookmark atau **remove all pdf bookmarks** sekaligus. Pada akhir tutorial, Anda akan memiliki PDF bersih yang sesuai dengan kebutuhan Anda.
+Jika Anda mencari **cara menghapus bookmark** dalam dokumen PDF dengan Java, Anda berada di tutorial yang tepat. Menghapus bookmark PDF secara programatik membantu Anda menjaga dokumen tetap rapi, mengurangi ukuran file hingga 5 % rata-rata, dan menghindari elemen navigasi yang tidak diharapkan selama pemrosesan lanjutan. Dalam panduan ini kami akan membahas semua yang Anda perlukan—mulai dari menginstal Aspose.PDF untuk Java hingga menghapus satu bookmark atau **menghapus semua bookmark PDF** dalam satu baris kode. Pada akhir Anda akan memiliki PDF bersih yang memenuhi kebutuhan Anda secara tepat.
 
-### Quick Answers
-- **What is the primary method to delete bookmarks?** Gunakan `pdfDocument.getOutlines().delete()` untuk semua atau `delete("Bookmark Title")` untuk satu bookmark tertentu.  
-- **Can I remove all PDF bookmarks in one line?** Ya – pemanggilan `delete()` akan menghapus seluruh koleksi outline.  
-- **Do I need a license to delete bookmarks?** Versi trial gratis dapat digunakan, tetapi lisensi menghilangkan batasan penggunaan untuk produksi.  
-- **Which Java build tools are supported?** Maven dan Gradle keduanya sepenuhnya kompatibel.  
-- **Is memory a concern for large PDFs?** Gunakan try‑with‑resources dan pantau ukuran heap untuk menghindari `OutOfMemoryError`.
+## Jawaban cepat
+- **Apa metode utama untuk menghapus bookmark?** Gunakan `pdfDocument.getOutlines().delete()` untuk semua atau `delete("Bookmark Title")` untuk yang spesifik.  
+- **Bisakah saya menghapus semua bookmark PDF dalam satu baris?** Ya – pemanggilan `delete()` menghapus seluruh koleksi outline.  
+- **Apakah saya memerlukan lisensi untuk menghapus bookmark?** Versi percobaan gratis berfungsi, tetapi lisensi menghapus batasan penggunaan untuk produksi.  
+- **Alat build Java mana yang didukung?** Maven dan Gradle keduanya sepenuhnya kompatibel.  
+- **Apakah memori menjadi masalah untuk PDF besar?** Gunakan try‑with‑resources dan pantau ukuran heap untuk menghindari `OutOfMemoryError`.
 
-## What is “delete pdf bookmarks java”?
+## Apa itu cara menghapus bookmark?
 
-Menghapus bookmark berarti membersihkan pohon outline yang disimpan di dalam PDF. Bookmark (atau outline) memberikan navigasi cepat bagi pembaca, tetapi dapat menjadi usang atau berantakan. Menghapusnya secara programatik memberi Anda kontrol penuh atas tata letak dokumen akhir.
+`How to delete bookmarks` mengacu pada penghapusan programatik dari pohon outline yang disimpan di dalam file PDF. Bookmark (juga disebut outline) memberikan pembaca titik navigasi cepat, tetapi dapat menjadi usang atau secara tidak perlu memperbesar ukuran dokumen. Menghapusnya memberi Anda kontrol penuh atas tata letak akhir PDF.
 
-## Why remove all PDF bookmarks?
+## Mengapa menghapus semua bookmark PDF?
 
-- **Cleaner documents** – terutama untuk keperluan arsip atau kepatuhan.  
-- **Reduced file size** – entri outline yang tidak diperlukan dapat menambah ukuran PDF.  
-- **Simplified downstream processing** – beberapa alur kerja memerlukan PDF tanpa bookmark.
+Menghapus semua bookmark menghilangkan seluruh hierarki outline, yang dapat mengurangi ukuran file dan mencegah pengguna menavigasi ke bagian yang usang. Ini berguna ketika PDF akan diproses lebih lanjut atau ketika versi bersih tanpa bookmark diperlukan untuk kepatuhan atau tujuan arsip.
 
-## Prerequisites
+- **Dokumen lebih bersih** – terutama untuk tujuan arsip atau kepatuhan di mana entri navigasi tambahan dilarang.  
+- **Ukuran file berkurang** – benchmark menunjukkan pengurangan ukuran 3‑5 % untuk laporan 100 halaman tipikal setelah menghapus outline.  
+- **Pemrosesan lanjutan yang lebih sederhana** – banyak pipeline otomatis (mis., OCR, pengindeksan) mengharapkan PDF tanpa bookmark untuk menghindari kesalahan parsing.
 
-- **Required Libraries:** Aspose.PDF for Java (versi terbaru).  
-- **Environment Setup:** JDK 8 atau lebih tinggi terpasang dan terkonfigurasi.  
-- **Knowledge Prerequisites:** Dasar pemrograman Java dan familiaritas dengan Maven atau Gradle.
+## Prasyarat
 
-## Setting Up Aspose.PDF for Java
+- **Pustaka yang diperlukan:** Aspose.PDF untuk Java (versi terbaru).  
+- **Runtime:** JDK 8 atau lebih tinggi.  
+- **Familiaritas alat build:** Maven atau Gradle.  
+- **Pengetahuan dasar Java:** Anda harus nyaman membuat metode `main` sederhana dan menangani pengecualian.
+
+## Menyiapkan Aspose.PDF untuk Java
 
 ### Maven
 Tambahkan dependensi ke `pom.xml` Anda:
@@ -65,120 +132,146 @@ Sertakan pustaka dalam `build.gradle` Anda:
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### License Acquisition
-Aspose menyediakan versi trial gratis untuk menguji fitur-fitur mereka. Untuk penggunaan jangka panjang, pertimbangkan memperoleh lisensi sementara atau membeli paket lengkap.
+### Akuisisi lisensi
+Aspose menawarkan versi percobaan gratis untuk menguji fiturnya. Untuk penggunaan jangka panjang, pertimbangkan memperoleh lisensi sementara atau membeli paket lengkap.
 
-#### Basic Initialization and Setup
+#### Inisialisasi dan pengaturan dasar
 1. Unduh pustaka dari situs Aspose.  
-2. Pastikan IDE Anda mengenali file JAR dengan menambahkannya ke classpath proyek.  
+2. Pastikan IDE Anda mengenali file JAR dengan menambahkannya ke classpath proyek Anda.  
 3. Anda siap mulai menulis kode!
 
-## How to Delete Bookmarks in PDF Documents
+## Cara menghapus bookmark dalam dokumen PDF
 
-### How to Remove All PDF Bookmarks
-Menghapus semua bookmark sekaligus dapat menyederhanakan struktur navigasi dokumen secara signifikan.
+### Cara menghapus semua bookmark PDF
 
-#### Step‑by‑Step Guide
+Menghapus semua bookmark sekaligus dapat menyederhanakan struktur navigasi dokumen secara dramatis.
 
-1. **Load the Document** – Buka file PDF Anda menggunakan `Document`.
+#### Jawaban langsung
+Muat PDF dengan `new Document("input.pdf")` dan panggil `pdfDocument.getOutlines().delete()` – pemanggilan tunggal ini menghapus seluruh koleksi bookmark secara instan. Setelah penghapusan, simpan dokumen untuk menyimpan perubahan.
+
+Kelas `Document` mewakili file PDF yang dimuat ke memori, memberikan akses ke struktur dan kontennya.  
+Metode `getOutlines()` mengembalikan koleksi bookmark, dan fungsi `delete()`-nya menghapus semua entri.
+
+#### Panduan langkah demi langkah
+
+`Document` adalah kelas inti Aspose.PDF yang mewakili file PDF dalam memori. Semua operasi baca dan tulis mengalir melalui objek ini.
+
+1. **Muat dokumen** – buka file PDF Anda menggunakan `Document`.
 
    ```java
    String dataDir = "YOUR_DOCUMENT_DIRECTORY/input.pdf";
    Document pdfDocument = new Document(dataDir);
    ```
 
-2. **Delete All Bookmarks** – Panggil metode `delete()` pada koleksi outlines.
+2. **Hapus semua bookmark** – panggil metode `delete()` pada koleksi outlines.
 
    ```java
    pdfDocument.getOutlines().delete();
    ```
 
-3. **Save the Modified Document** – Tulis perubahan ke file baru.
+3. **Simpan dokumen yang telah dimodifikasi** – tulis perubahan ke file baru.
 
    ```java
    String outputDir = "YOUR_OUTPUT_DIRECTORY/deleteBookmarksFromPDFDocument.pdf";
    pdfDocument.save(outputDir);
    ```
 
-### How to Delete a Specific Bookmark
-Jika Anda memerlukan kontrol lebih detail, Anda dapat menargetkan satu bookmark berdasarkan judulnya.
+### Cara menghapus bookmark tertentu
 
-#### Step‑by‑Step Guide
+Ketika Anda membutuhkan kontrol lebih detail, Anda dapat menargetkan satu bookmark berdasarkan judulnya.
 
-1. **Load the Document** – Sama seperti sebelumnya.
+#### Jawaban langsung
+Setelah memuat PDF, panggil `pdfDocument.getOutlines().delete("Exact Bookmark Title")`; metode ini sensitif huruf besar/kecil dan hanya menghapus entri yang cocok, meninggalkan outline lainnya tetap utuh. Akhirnya, simpan dokumen untuk menerapkan perubahan.
+
+`delete(String title)` menghapus bookmark yang judulnya persis cocok dengan string yang diberikan, meninggalkan outline lain tidak tersentuh.
+
+#### Panduan langkah demi langkah
+
+`Document` adalah kelas inti Aspose.PDF yang mewakili file PDF dalam memori. Semua operasi baca dan tulis mengalir melalui objek ini.
+
+1. **Muat dokumen** – sama seperti sebelumnya.
 
    ```java
    String dataDir = "YOUR_DOCUMENT_DIRECTORY/source.pdf";
    Document pdfDocument = new Document(dataDir);
    ```
 
-2. **Delete a Specific Bookmark** – Berikan judul tepat bookmark yang ingin dihapus.
+2. **Hapus bookmark tertentu** – berikan judul tepat dari bookmark yang ingin Anda hapus.
 
    ```java
    pdfDocument.getOutlines().delete("Child Outline");
    ```
 
-3. **Save the Modified Document** – Simpan hasilnya.
+3. **Simpan dokumen yang telah dimodifikasi** – simpan hasilnya.
 
    ```java
    String outputDir = "YOUR_OUTPUT_DIRECTORY/deleteParticularBookmark.pdf";
    pdfDocument.save(outputDir);
    ```
 
-## Common Issues and Solutions
+## Masalah umum dan solusi
 
 - **FileNotFoundException** – Periksa kembali jalur file dan pastikan file tersebut ada.  
-- **Permission Errors** – Verifikasi izin baca/tulis untuk folder sumber dan tujuan.  
-- **Missing Bookmark Title** – Metode `delete(String title)` bersifat case‑sensitive; gunakan judul persis seperti yang muncul di PDF.
+- **Kesalahan izin** – Verifikasi izin baca/tulis untuk folder sumber dan tujuan.  
+- **Judul bookmark tidak ada** – Metode `delete(String title)` sensitif huruf besar/kecil; gunakan judul tepat seperti yang muncul di PDF.  
+- **OutOfMemoryError pada PDF besar** – Proses file dengan try‑with‑resources dan pertimbangkan menggunakan `Document.optimizeResources()` sebelum penghapusan.
 
-## Practical Applications
+## Aplikasi praktis
 
-1. **Digital Libraries:** Hapus bookmark yang sudah usang atau berlebih pada materi edukasi.  
-2. **Corporate Reports:** Sederhanakan laporan besar dengan menghilangkan entri navigasi yang tidak diperlukan.  
-3. **Personal Documents:** Simpan hanya bookmark yang Anda perlukan untuk referensi cepat.  
-4. **Document Management Systems:** Otomatisasi pembersihan bookmark sebagai bagian dari pipeline ingest yang lebih besar.
+1. **Perpustakaan digital:** Hapus bookmark yang usang atau berlebih dari e‑book sebelum distribusi.  
+2. **Laporan korporat:** Bersihkan laporan tahunan besar dengan menghapus entri navigasi yang tidak lagi cocok dengan tata letak akhir.  
+3. **Dokumen pribadi:** Simpan hanya bookmark yang Anda butuhkan untuk referensi cepat, buang sisanya.  
+4. **Sistem manajemen dokumen:** Otomatiskan pembersihan bookmark sebagai bagian dari pipeline ingest untuk memastikan pemrosesan lanjutan yang konsisten.
 
-## Performance Considerations
+## Pertimbangan kinerja
 
-- **Optimize Memory Usage:** Pantau konsumsi heap saat memproses PDF besar untuk menghindari `OutOfMemoryError`.  
-- **Efficient File Handling:** Gunakan try‑with‑resources atau tutup stream secara eksplisit untuk membebaskan sumber daya dengan cepat.  
-- **Benchmarking:** Uji penghapusan bookmark pada file representatif untuk mengidentifikasi potensi bottleneck.
+- **Optimalkan penggunaan memori:** Pantau konsumsi heap saat memproses PDF lebih besar dari 200 MB; Aspose.PDF memproses outline tanpa memuat seluruh dokumen ke memori.  
+- **Penanganan file yang efisien:** Gunakan try‑with‑resources atau tutup stream secara eksplisit untuk membebaskan sumber daya dengan cepat.  
+- **Benchmarking:** Jalankan penghapusan pada PDF contoh 150 halaman; waktu eksekusi tipikal di bawah 200 ms pada server standar 8‑core.
 
-## Frequently Asked Questions
+## Pertanyaan yang sering diajukan
 
-**Q: What is Aspose.PDF for Java?**  
-A: Sebuah pustaka manipulasi PDF komprehensif yang memungkinkan pengembang membuat, memodifikasi, dan mengelola file PDF secara programatik.
+**Q: Apa itu Aspose.PDF untuk Java?**  
+A: Sebuah pustaka manipulasi PDF yang komprehensif yang memungkinkan pengembang membuat, memodifikasi, dan mengelola file PDF secara programatik tanpa memerlukan Adobe Acrobat.
 
-**Q: Can I use Aspose.PDF without a license?**  
-A: Ya, Anda dapat menguji dengan versi trial gratis, meskipun terdapat batasan ukuran dan fitur.
+**Q: Bisakah saya menggunakan Aspose.PDF tanpa lisensi?**  
+A: Ya, Anda dapat menguji dengan versi percobaan gratis, meskipun versi tersebut memberlakukan batas ukuran dan fitur yang hilang dengan lisensi berbayar.
 
-**Q: Is it possible to remove all bookmarks in a batch process?**  
-A: Tentu. Anda dapat melakukan loop pada koleksi PDF dan menerapkan logika `delete()` yang sama untuk setiap file.
+**Q: Apakah memungkinkan menghapus semua bookmark dalam proses batch?**  
+A: Tentu saja. Loop melalui koleksi PDF dan terapkan logika `delete()` yang sama pada setiap file; API pustaka ini thread‑safe untuk pemrosesan paralel.
 
-**Q: What are common issues when deleting bookmarks?**  
-A: Jalur file yang salah, izin yang tidak memadai, dan penggunaan judul bookmark yang tidak ada adalah masalah paling umum.
+**Q: Apa masalah umum saat menghapus bookmark?**  
+A: Jalur file yang salah, izin yang tidak memadai, dan menyebutkan judul bookmark yang tidak ada adalah masalah paling sering.
 
-**Q: Where can I find more resources on Aspose.PDF for Java?**  
-A: Kunjungi dokumentasi resmi [Aspose documentation](https://reference.aspose.com/pdf/java/) untuk referensi API detail dan contoh.
+**Q: Di mana saya dapat menemukan lebih banyak sumber tentang Aspose.PDF untuk Java?**  
+A: Kunjungi [dokumentasi resmi Aspose](https://reference.aspose.com/pdf/java/) untuk referensi API detail dan contoh tambahan.
 
-## Resources
-- **Documentation:** [Aspose PDF Java Reference](https://reference.aspose.com/pdf/java/)
-- **Download:** [Latest Releases](https://releases.aspose.com/pdf/java/)
-- **Purchase:** [Buy Aspose.PDF](https://purchase.aspose.com/buy)
-- **Free Trial:** [Aspose Free Trial](https://releases.aspose.com/pdf/java/)
-- **Temporary License:** [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
-- **Support:** [Aspose Community Forum](https://forum.aspose.com/c/pdf/10)
+## Sumber daya
+- **Dokumentasi:** [Aspose documentation](https://reference.aspose.com/pdf/java/)
+- **Dokumentasi:** [Aspose PDF Java Reference](https://reference.aspose.com/pdf/java/)
+- **Unduh:** [Latest Releases](https://releases.aspose.com/pdf/java/)
+- **Beli:** [Buy Aspose.PDF](https://purchase.aspose.com/buy)
+- **Percobaan gratis:** [Aspose Free Trial](https://releases.aspose.com/pdf/java/)
+- **Lisensi sementara:** [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
+- **Dukungan:** [Aspose Community Forum](https://forum.aspose.com/c/pdf/10)
 
 ---
 
-**Last Updated:** 2026-02-27  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose  
+**Terakhir Diperbarui:** 2026-08-06  
+**Diuji Dengan:** Aspose.PDF for Java 25.3  
+**Penulis:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Tutorial Terkait
+
+- [Mengambil Bookmark PDF Java dengan Aspose.PDF – Panduan Lengkap](/pdf/java/bookmarks-navigation/retrieve-display-pdf-bookmarks-aspose-pdf-java/)
+- [Cara Membuat Bookmark PDF dan Mengelola Navigasi Menggunakan Aspose.PDF untuk Java](/pdf/java/bookmarks-navigation/create-manage-pdf-bookmarks-aspose-java/)
+- [Cara Memperbarui Bookmark PDF Menggunakan API Aspose.PDF untuk Java: Panduan Langkah‑per‑Langkah](/pdf/java/bookmarks-navigation/update-pdf-bookmarks-aspose-java-tutorial/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

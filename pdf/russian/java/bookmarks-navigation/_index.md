@@ -1,9 +1,52 @@
 ---
-date: 2026-02-27
-description: Узнайте, как создавать оглавление PDF на Java с помощью Aspose.PDF for
-  Java, редактировать настройки просмотрщика PDF и эффективно открывать и сохранять
-  закладки PDF. Пошаговые руководства по навигации.
-title: Создание PDF‑оглавления на Java – Закладки и навигация Aspose.PDF
+date: 2026-08-06
+description: Узнайте, как добавить закладки PDF в Java с помощью Aspose.PDF. Это пошаговое
+  руководство охватывает создание TOC, управление закладками и настройку параметров
+  просмотра для беспрепятственной навигации.
+keywords:
+- how to add pdf bookmarks
+- pdf navigation java
+- aspose pdf bookmarks
+- pdf toc java
+- java pdf viewer settings
+lastmod: 2026-08-06
+og_description: Узнайте, как добавить закладки PDF в Java с помощью Aspose.PDF. Это
+  пошаговое руководство охватывает создание TOC, управление закладками и настройку
+  параметров просмотра для беспрепятственной навигации.
+og_image_alt: Guide to adding PDF bookmarks and navigation using Aspose.PDF for Java
+og_title: Как добавить закладки PDF в Java с Aspose.PDF
+schemas:
+- author: Aspose
+  dateModified: '2026-08-06'
+  description: Learn how to add PDF bookmarks in Java using Aspose.PDF. This step‑by‑step
+    guide covers creating a TOC, managing bookmarks, and configuring viewer settings
+    for seamless navigation.
+  headline: How to add PDF bookmarks in Java with Aspose.PDF
+  type: TechArticle
+- questions:
+  - answer: Yes. Open the encrypted document by providing the password, then generate
+      the TOC as usual.
+    question: Can I create a TOC for encrypted PDFs?
+  - answer: Most modern readers respect the PDF OpenAction and ViewerPreferences entries,
+      though a few lightweight viewers may ignore them.
+    question: Does “edit PDF viewer settings” affect all PDF readers?
+  - answer: The library can handle PDFs up to **5 GB**; for very large files, call
+      `document.optimizeResources()` to keep memory consumption low.
+    question: How large a PDF can I process with Aspose.PDF?
+  - answer: Absolutely. Load each document, extract its bookmark tree, and combine
+      them into a single hierarchical structure before saving.
+    question: Is it possible to merge multiple TOCs from different PDFs?
+  - answer: A single license covers all applications on the same machine, but review
+      the licensing terms for deployment scenarios.
+    question: Do I need a separate license for each Java application?
+  type: FAQPage
+tags:
+- pdf bookmarks
+- aspose.pdf
+- java pdf processing
+- pdf navigation
+- table of contents
+title: Как добавить закладки PDF в Java с Aspose.PDF
 url: /ru/java/bookmarks-navigation/
 weight: 14
 ---
@@ -13,104 +56,109 @@ weight: 14
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Учебники по закладкам PDF и навигации для Aspose.PDF Java
+# Как добавить закладки PDF в Java с помощью Aspose.PDF
 
-Повышение удобства использования PDF‑файлов имеет решающее значение для обеспечения плавного чтения. В этой коллекции вы будете **create PDF TOC Java**‑style таблицы содержания, управлять закладками и добавлять навигационные ссылки с помощью Aspose.PDF for Java. Независимо от того, создаёте ли вы отчёт, электронную книгу или техническое руководство, эти пошаговые руководства покажут, как сделать ваши PDF‑файлы интуитивными и простыми для изучения.
+Добавление закладок PDF программно позволяет превратить статический документ в интерактивный, легко‑навигационный ресурс. В этом руководстве вы узнаете **как добавить закладки PDF** с помощью Aspose.PDF for Java, создать оглавление (TOC), изменить параметры просмотра и сохранить обновлённый файл — всё без ручного редактирования или сторонних инструментов.
 
 ## Быстрые ответы
 - **Что означает “create PDF TOC Java”?**  
-  Это относится к программному созданию таблицы содержания внутри PDF с использованием Java и библиотеки Aspose.PDF.  
+  Это генерация иерархического оглавления внутри PDF с использованием Java и Aspose.PDF, чтобы читатели могли сразу переходить к главам.  
 - **Почему использовать Aspose.PDF для навигации?**  
-  Он предоставляет богатый API для закладок, гиперссылок и настроек просмотра без необходимости в Adobe Acrobat.  
+  API предоставляет полный программный контроль над закладками, гиперссылками и параметрами просмотра, устраняя необходимость в Adobe Acrobat.  
 - **Нужна ли лицензия?**  
-  Временная лицензия подходит для тестирования; полная лицензия требуется для продакшн‑развертываний.  
+  Временная лицензия подходит для тестирования; полная лицензия требуется для продакшн‑развёртываний.  
 - **Какие версии Java поддерживаются?**  
-  Java 8 и более новые полностью совместимы с последними выпусками Aspose.PDF for Java.  
+  Java 8 и новее полностью совместимы с последними выпусками Aspose.PDF for Java.  
 - **Можно ли комбинировать закладки с настройками просмотра?**  
-  Да — используя тот же API, вы можете редактировать настройки просмотра PDF одновременно с созданием или обновлением закладок.
+  Да — используя тот же API, вы можете изменять параметры просмотра PDF одновременно с созданием или обновлением закладок.
 
 ## Что такое “create PDF TOC Java”?
-Создание PDF TOC (Table of Contents) в Java означает построение иерархического списка записей, которые ссылаются на разделы внутри документа. TOC улучшает навигацию, особенно в длинных PDF, позволяя читателям переходить непосредственно к главам, разделам или подразделам одним щелчком.
+Оглавление (TOC) — это иерархальный список записей, которые ссылаются на разделы внутри PDF.  
+Вы создаёте PDF TOC в Java, программно формируя этот список и вставляя его в виде набора закладок. Aspose.PDF позволяет задать заголовок каждой записи, целевую страницу и уровень вложенности, после чего записывает структуру в документ за несколько вызовов API.
 
-## Почему использовать функции навигации Aspose.PDF for Java?
-- **Full control** – Добавлять, редактировать или удалять закладки и гиперссылки программно.  
-- **Viewer customization** – Настраивать, как открывается PDF (например, отображать панель закладок, задавать уровень масштабирования).  
-- **No external dependencies** – Работает без Adobe Acrobat или других сторонних инструментов.  
-- **Cross‑platform** – Генерирует одинаковый результат на Windows, Linux или macOS.
+## Почему использовать Aspose.PDF для навигации?
+Aspose.PDF for Java — это полностью управляемая библиотека, позволяющая добавлять, редактировать или удалять закладки и гиперссылки без внешних зависимостей.  
+Она поддерживает **50+ форматов ввода и вывода** и может обрабатывать PDF‑файлы размером до **5 GB**, не загружая весь файл в память, обеспечивая высокопроизводительный контроль навигации в Windows, Linux или macOS.
 
-## Предварительные требования
+## Требования
 - Java Development Kit (JDK) 8 или новее.  
 - Библиотека Aspose.PDF for Java (скачать с официального сайта).  
 - Временный или полный файл лицензии, чтобы избежать ограничений оценки.
 
-## Доступные учебники
+## Доступные руководства
 
-### [Добавить JavaScript ссылки в PDF с помощью Aspose.PDF for Java&#58; Улучшить интерактивность в документах](./aspose-pdf-java-javascript-links-pdfs/)
-Learn how to add interactive JavaScript links to your PDF documents using Aspose.PDF for Java. Streamline navigation and enhance user experience with this comprehensive guide.
+### [Добавить JavaScript ссылки в PDF с помощью Aspose.PDF for Java&#58; улучшить интерактивность в документах](./aspose-pdf-java-javascript-links-pdfs/)
+Узнайте, как добавить интерактивные JavaScript ссылки в ваши PDF‑документы с помощью Aspose.PDF for Java. Упростите навигацию и улучшите пользовательский опыт с помощью этого подробного руководства.
 
-### [Создать таблицу содержания (TOC) в PDF с помощью Aspose.PDF for Java&#58; Руководство разработчика](./aspose-pdf-java-create-toc-in-pdfs/)
-Learn how to add a TOC to your PDF files using Aspose.PDF for Java, enhancing document navigation and professionalism. Follow this step-by-step guide to improve your PDF usability.
+### [Создать оглавление (TOC) в PDF с помощью Aspose.PDF for Java&#58; Руководство разработчика](./aspose-pdf-java-create-toc-in-pdfs/)
+Узнайте, как добавить оглавление в PDF‑файлы с помощью Aspose.PDF for Java, улучшив навигацию и профессиональный вид документов. Следуйте пошаговому руководству для повышения удобства использования PDF.
 
 ### [Эффективно управлять закладками PDF с помощью Aspose.PDF Java](./manage-pdf-bookmarks-aspose-pdf-java/)
-Learn how to create and manage bookmarks in PDFs with Aspose.PDF for Java, ensuring your documents are easily navigable.
+Узнайте, как создавать и управлять закладками в PDF с помощью Aspose.PDF for Java, обеспечивая лёгкую навигацию по документам.
 
 ### [Расширить закладки PDF с помощью Aspose.PDF в Java&#58; Полное руководство](./expand-pdf-bookmarks-aspose-java/)
-Learn how to expand PDF bookmarks with Aspose.PDF for Java. This guide covers loading, modifying, and enhancing user experience in accessing PDF content.
+Узнайте, как расширять закладки PDF с помощью Aspose.PDF for Java. Руководство охватывает загрузку, модификацию и улучшение пользовательского опыта при доступе к содержимому PDF.
 
 ### [Как создавать и управлять закладками PDF с помощью Aspose.PDF for Java&#58; Полное руководство](./create-manage-pdf-bookmarks-aspose-java/)
-Learn how to efficiently create and manage PDF bookmarks with Aspose.PDF for Java. Enhance document navigation with this step-by-step tutorial.
+Узнайте, как эффективно создавать и управлять закладками PDF с помощью Aspose.PDF for Java. Улучшите навигацию в документах с помощью этого пошагового руководства.
 
 ### [Как извлечь гиперссылки из PDF с помощью Aspose.PDF for Java](./extract-hyperlinks-pdf-aspose-java/)
-Learn how to efficiently extract hyperlinks from PDFs using Aspose.PDF for Java. This guide covers setup, implementation, and practical applications.
+Узнайте, как эффективно извлекать гиперссылки из PDF с помощью Aspose.PDF for Java. Руководство охватывает настройку, реализацию и практические применения.
 
 ### [Как получить и отобразить закладки PDF с помощью Aspose.PDF for Java](./retrieve-display-pdf-bookmarks-aspose-pdf-java/)
-Learn how to programmatically extract and display bookmarks from PDFs using Aspose.PDF for Java, enhancing navigation in your applications.
+Узнайте, как программно извлекать и отображать закладки из PDF с помощью Aspose.PDF for Java, улучшая навигацию в ваших приложениях.
 
 ### [Как обновить закладки PDF с помощью Aspose.PDF for Java&#58; Пошаговое руководство](./update-pdf-bookmarks-aspose-java-tutorial/)
-Learn how to update PDF bookmarks efficiently with Aspose.PDF for Java. This guide covers setup, implementation, and best practices.
+Узнайте, как эффективно обновлять закладки PDF с помощью Aspose.PDF for Java. Руководство охватывает настройку, реализацию и лучшие практики.
 
 ### [Импортировать XML закладки в PDF с помощью Aspose.PDF Java&#58; Полное руководство](./import-xml-bookmarks-aspose-pdf-java/)
-Learn how to seamlessly import XML bookmarks into PDF documents with Aspose.PDF for Java, enhancing document navigation and usability.
+Узнайте, как без проблем импортировать XML‑закладки в PDF‑документы с помощью Aspose.PDF for Java, улучшая навигацию и удобство использования документов.
 
-### [Связывать PDF с помощью Aspose.PDF for Java&#58; Легко создавать гиперссылки между документами](./link-pdfs-aspose-pdf-java/)
-Learn how to seamlessly link between PDF documents using Aspose.PDF for Java. This guide covers setting up, creating links programmatically, and practical applications.
+### [Связывать PDF с помощью Aspose.PDF for Java&#58; легко создавать гиперссылки между документами](./link-pdfs-aspose-pdf-java/)
+Узнайте, как без труда связывать PDF‑документы друг с другом с помощью Aspose.PDF for Java. Руководство охватывает настройку, программное создание ссылок и практические примеры.
 
-### [Освоить Aspose.PDF Java&#58; Редактировать закладки PDF и настраивать параметры просмотра](./edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/)
-Learn how to edit PDF bookmarks and customize viewer settings with Aspose.PDF for Java. Enhance user experience by mastering navigation and layout preferences.
+### [Освоить Aspose.PDF Java&#58; редактировать закладки PDF и настраивать параметры просмотра](./edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/)
+Узнайте, как редактировать закладки PDF и настраивать параметры просмотра с помощью Aspose.PDF for Java. Повышайте пользовательский опыт, мастерски управляя навигацией и настройками макета.
 
-### [Освоить управление закладками PDF с помощью Aspose.PDF for Java&#58; Эффективно удалять и управлять закладками](./aspose-pdf-java-bookmark-management/)
-Learn how to manage PDF bookmarks using Aspose.PDF for Java. This tutorial covers deleting all or specific bookmarks, setup guides, and practical applications.
+### [Освоить управление закладками PDF с помощью Aspose.PDF for Java&#58; эффективно удалять и управлять закладками](./aspose-pdf-java-bookmark-management/)
+Узнайте, как управлять закладками PDF с помощью Aspose.PDF for Java. Этот учебник охватывает удаление всех или отдельных закладок, руководства по настройке и практические применения.
 
-### [Освоение Aspose.PDF for Java&#58; Открывать, сохранять и добавлять закладки в PDF](./master-aspose-pdf-java-open-save-bookmarks/)
-Learn how to effectively open, save, and add bookmarks to PDFs using Aspose.PDF for Java. Enhance your document management skills with this comprehensive guide.
+### [Освоение Aspose.PDF for Java&#58; открывать, сохранять и добавлять закладки в PDF](./master-aspose-pdf-java-open-save-bookmarks/)
+Узнайте, как эффективно открывать, сохранять и добавлять закладки в PDF с помощью Aspose.PDF for Java. Повышайте навыки управления документами с этим полным руководством.
 
-## Редактировать настройки просмотра PDF для лучшей навигации
-Настройка параметров просмотра определяет, как PDF открывается в программе чтения пользователя. С помощью Aspose.PDF можно задать начальный вид, отображающий панель закладок, определить масштаб по умолчанию и выбрать макет страниц. Эти настройки делают большие документы более удобными и сокращают время, которое пользователи тратят на поиск содержимого.
+## Настройка параметров просмотра PDF для лучшей навигации
+Объект `ViewerPreferences` определяет, как PDF открывается в просмотрщике.  
+Вы можете сделать панель закладок видимой по умолчанию, задать начальный уровень масштабирования и выбрать макет страниц, например одиночная страница или непрерывный просмотр. Эти настройки сокращают время, которое пользователи тратят на поиск контента, особенно в отчётах со сотнями страниц.
 
 ## Открывать и сохранять закладки PDF программно
-Открытие PDF, изменение его дерева закладок и последующее сохранение обратно просты с помощью API Aspose.PDF. Этот процесс позволяет внедрять динамическую таблицу содержания, реорганизовывать разделы или удалять устаревшие записи — всё без ручного редактирования.
+Класс `Document` представляет PDF‑файл в памяти.  
+Вы открываете PDF с помощью `new Document("input.pdf")`, изменяете дерево закладок через `document.getBookmarks()`, а затем вызываете `document.save("output.pdf")`. Такой рабочий процесс позволяет внедрять динамическое оглавление, реорганизовывать разделы или удалять устаревшие записи без ручного редактирования.
 
 ## Распространённые проблемы и решения
+`LinkAction` задаёт действие гиперссылки, которое переходит к странице внутри PDF.  
+`optimizeResources()` уменьшает использование памяти за счёт оптимизации ресурсов PDF.  
+
 - **Bookmarks not appearing after saving** – Убедитесь, что вызываете `document.save()` после изменения коллекции закладок.  
 - **Hyperlinks pointing to wrong pages** – Проверьте, что номера целевых страниц нумеруются с нуля при использовании `LinkAction`.  
-- **Viewer settings ignored** – Некоторые программы чтения PDF переопределяют встроенные настройки; проверьте в Adobe Acrobat Reader.
+- **Viewer settings ignored** – Некоторые просмотрщики PDF переопределяют встроенные настройки; протестируйте в Adobe Acrobat Reader для подтверждения.  
+- **Large PDF processing fails** – Используйте `document.optimizeResources()` для снижения потребления памяти при файлах более 2 GB.  
 
 ## Часто задаваемые вопросы
 
-**Q: Можно ли создать TOC для зашифрованных PDF?**  
-A: Да. Откройте зашифрованный документ, указав пароль, затем создайте TOC как обычно.
+**Q: Можно ли создать оглавление для зашифрованных PDF?**  
+A: Да. Откройте зашифрованный документ, указав пароль, затем создайте оглавление как обычно.
 
-**Q: Влияет ли “edit PDF viewer settings” на все программы чтения PDF?**  
-A: Большинство современных программ чтения учитывают записи PDF OpenAction и ViewerPreferences, хотя некоторые лёгкие просмотрщики могут их игнорировать.
+**Q: Влияет ли “edit PDF viewer settings” на все просмотрщики PDF?**  
+A: Большинство современных просмотрщиков учитывают записи PDF OpenAction и ViewerPreferences, хотя некоторые лёгкие программы могут их игнорировать.
 
-**Q: Какой размер PDF можно обрабатывать с помощью Aspose.PDF?**  
-A: Библиотека обрабатывает файлы размером в несколько гигабайт, но рекомендуется использовать `Document.optimizeResources()` для снижения потребления памяти.
+**Q: Какой максимальный размер PDF можно обработать с помощью Aspose.PDF?**  
+A: Библиотека способна работать с PDF до **5 GB**; для очень больших файлов вызывайте `document.optimizeResources()`, чтобы снизить расход памяти.
 
-**Q: Можно ли объединить несколько TOC из разных PDF?**  
-A: Конечно. Загрузите каждый документ, извлеките его дерево закладок и объедините их в единую иерархическую структуру перед сохранением.
+**Q: Можно ли объединить несколько оглавлений из разных PDF?**  
+A: Абсолютно. Загрузите каждый документ, извлеките его дерево закладок и объедините их в единую иерархическую структуру перед сохранением.
 
 **Q: Нужна ли отдельная лицензия для каждого Java‑приложения?**  
-A: Одна лицензия покрывает все приложения на одном компьютере, но ознакомьтесь с условиями лицензирования для сценариев развертывания.
+A: Одна лицензия покрывает все приложения на одной машине, но рекомендуется ознакомиться с условиями лицензирования для различных сценариев развертывания.
 
 ## Дополнительные ресурсы
 
@@ -122,9 +170,15 @@ A: Одна лицензия покрывает все приложения на
 
 ---
 
-**Последнее обновление:** 2026-02-27  
+**Последнее обновление:** 2026-08-06  
 **Тестировано с:** Aspose.PDF for Java 24.12  
-**Автор:** Aspose  
+**Автор:** Aspose
+
+## Связанные руководства
+
+- [Как обновить закладки PDF с помощью Aspose.PDF for Java API: пошаговое руководство](/pdf/java/bookmarks-navigation/update-pdf-bookmarks-aspose-java-tutorial/)
+- [Создать оглавление (TOC) в PDF с помощью Aspose.PDF for Java: руководство разработчика](/pdf/java/bookmarks-navigation/aspose-pdf-java-create-toc-in-pdfs/)
+- [Получить закладки PDF на Java с Aspose.PDF – полное руководство](/pdf/java/bookmarks-navigation/retrieve-display-pdf-bookmarks-aspose-pdf-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

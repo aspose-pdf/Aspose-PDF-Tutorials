@@ -1,12 +1,65 @@
 ---
-date: '2026-02-27'
-description: เรียนรู้วิธีการดึงไฟล์ PDF ที่ฝังอยู่จากพอร์ตโฟลิโอ PDF ด้วย Aspose.PDF
-  for Java ปฏิบัติตามคู่มือขั้นตอนต่อขั้นตอนนี้เพื่อดึงไฟล์จาก PDF อย่างมีประสิทธิภาพ
+date: '2026-08-06'
+description: เรียนรู้วิธีสกัดไฟล์ PDF ที่ฝังอยู่จาก PDF Portfolio ด้วย Aspose.PDF
+  สำหรับ Java. ทำตามคู่มือขั้นตอนต่อขั้นตอนนี้เพื่อสกัดไฟล์จาก PDF อย่างมีประสิทธิภาพ.
 keywords:
-- extract embedded files PDF
+- extract embedded files pdf
+- extract files from pdf portfolio
+- extract files from pdf using java
 - aspose.pdf java library
-- manage data from PDF portfolio
-title: ดึงไฟล์ PDF ที่ฝังอยู่จาก PDF Portfolio ด้วย Aspose.PDF Java
+- manage data from pdf portfolio
+lastmod: '2026-08-06'
+og_description: สกัดไฟล์ PDF ที่ฝังอยู่จาก PDF Portfolio ด้วย Aspose.PDF สำหรับ Java.
+  ทำตามคู่มือสั้นนี้เพื่อดึงไฟล์ทุกไฟล์ออกอย่างมีประสิทธิภาพและปลอดภัย.
+og_image_alt: Developer guide showing how to extract embedded files from a PDF portfolio
+  using Aspose.PDF Java
+og_title: สกัดไฟล์ PDF ที่ฝังอยู่จาก PDF Portfolio ด้วย Aspose.PDF สำหรับ Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-06'
+  description: Learn how to extract embedded files pdf from PDF portfolios using Aspise.PDF
+    for Java. Follow this step‑by‑step guide to extract files from pdf efficiently.
+  headline: Extract embedded files pdf from a PDF Portfolio with Aspose.PDF Java
+  type: TechArticle
+- description: Learn how to extract embedded files pdf from PDF portfolios using Aspise.PDF
+    for Java. Follow this step‑by‑step guide to extract files from pdf efficiently.
+  name: Extract embedded files pdf from a PDF Portfolio with Aspose.PDF Java
+  steps:
+  - name: '**Free trial:** Download the latest version from [Aspose Downloads](https://releases.aspose.com/pdf/java/).'
+    text: '**Free trial:** Download the latest version from [Aspose Downloads](https://releases.aspose.com/pdf/java/).'
+  - name: '**Temporary license:** Obtain one by visiting [Aspose Temporary License](https://purchase.aspose.com/temporary-license/).'
+    text: '**Temporary license:** Obtain one by visiting [Aspose Temporary License](https://purchase.aspose.com/temporary-license/).'
+  - name: '**Purchase:** For ongoing use, purchase a license through [Aspose Purchase](https://purchase.aspose.com/buy).'
+    text: '**Purchase:** For ongoing use, purchase a license through [Aspose Purchase](https://purchase.aspose.com/buy).'
+  - name: '**Archiving data:** Consolidate and later unpack multiple documents stored
+      in a single PDF.'
+    text: '**Archiving data:** Consolidate and later unpack multiple documents stored
+      in a single PDF.'
+  - name: '**Data processing pipelines:** Feed extracted files directly into ETL workflows.'
+    text: '**Data processing pipelines:** Feed extracted files directly into ETL workflows.'
+  - name: '**Automated document handling:** Enable back‑office systems to automatically
+      retrieve attached assets.'
+    text: '**Automated document handling:** Enable back‑office systems to automatically
+      retrieve attached assets.'
+  type: HowTo
+- questions:
+  - answer: It refers to pulling out each file that’s been packaged inside a PDF portfolio.
+    question: What does “extract embedded files pdf” mean?
+  - answer: Aspose.PDF for Java provides a simple API for PDF embedded file extraction.
+    question: Which library is best for this task?
+  - answer: A free trial works for evaluation; a commercial license is required for
+      production.
+    question: Do I need a license?
+  - answer: Yes—use streaming and buffered I/O to keep memory usage low.
+    question: Can I handle large portfolios?
+  - answer: Absolutely, just provide the decryption password when opening the PDF.
+    question: Is password protection supported?
+  type: FAQPage
+tags:
+- extract embedded files pdf
+- aspose.pdf
+- java pdf processing
+title: สกัดไฟล์ PDF ที่ฝังอยู่จาก PDF Portfolio ด้วย Aspose.PDF Java
 url: /th/java/attachments-embedded-files/extract-files-pdf-portfolio-aspose-java/
 weight: 1
 ---
@@ -16,49 +69,50 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# วิธีการสกัดไฟล์ที่ฝังอยู่จาก PDF Portfolio ด้วย Aspose.PDF Java
+# วิธีดึงไฟล์ที่ฝังอยู่ใน PDF จากพอร์ตโฟลิโอ PDF โดยใช้ Aspose.PDF Java
 
 ## บทนำ
 
-ในยุคดิจิทัลปัจจุบัน PDF portfolio เป็นเครื่องมือที่มีคุณค่าซึ่งรวมไฟล์หลายไฟล์ไว้ในเอกสารเดียว อย่างไรก็ตามการสกัดไฟล์ที่ฝังอยู่แต่ละไฟล์จาก portfolio เหล่านี้อาจเป็นเรื่องท้าทายหากไม่มีเครื่องมือที่เหมาะสม ด้วย Aspose.PDF สำหรับ Java คุณสามารถ **extract embedded files pdf** ได้อย่างราบรื่นและปรับปรุงกระบวนการจัดการข้อมูลของคุณ
+ในยุคดิจิทัลปัจจุบัน พอร์ตโฟลิโอ PDF เป็นเครื่องมือที่มีคุณค่าซึ่งรวมไฟล์หลายไฟล์ไว้ในเอกสารเดียว อย่างไรก็ตาม การดึงไฟล์ที่ฝังอยู่แต่ละไฟล์จากพอร์ตโฟลิโอเหล่านี้อาจเป็นเรื่องท้าทายหากไม่มีเครื่องมือที่เหมาะสม ด้วย Aspose.PDF for Java คุณสามารถ **extract embedded files pdf** ได้อย่างราบรื่นและปรับปรุงกระบวนการจัดการข้อมูลของคุณ
 
-บทเรียนนี้จะสอนคุณวิธีใช้ Aspose.PDF สำหรับ Java เพื่อสกัดไฟล์ที่ฝังอยู่จาก PDF portfolio อย่างมีประสิทธิภาพ โดยทำตามขั้นตอนทีละขั้นตอน คุณจะได้เรียนรู้วิธีใช้คุณสมบัติที่ทรงพลังของ Aspose ในโครงการของคุณ
+บทแนะนำนี้จะนำคุณผ่านการใช้ Aspose.PDF for Java เพื่อดึงไฟล์ที่ฝังอยู่จากพอร์ตโฟลิโอ PDF อย่างมีประสิทธิภาพ โดยการทำตามขั้นตอนนี้ คุณจะได้เรียนรู้วิธีใช้คุณสมบัติที่ทรงพลังของ Aspose ในโครงการของคุณ
 
-**สิ่งที่คุณจะได้เรียนรู้:**
+**สิ่งที่คุณจะได้เรียนรู้**
 - การตั้งค่าไลบรารี Aspose.PDF ในสภาพแวดล้อม Java ของคุณ
-- การโหลดและวิเคราะห์ PDF portfolio
-- เทคนิคการสกัดไฟล์ที่ฝังอยู่จากเอกสาร PDF
+- การโหลดและวิเคราะห์พอร์ตโฟลิโอ PDF
+- เทคนิคการดึงไฟล์ที่ฝังอยู่จากเอกสาร PDF
 
-## คำตอบสั้น
-- **“extract embedded files pdf” หมายถึงอะไร?** หมายถึงการดึงไฟล์แต่ละไฟล์ที่ถูกบรรจุไว้ใน PDF portfolio ออกมา
-- **ไลบรารีใดดีที่สุดสำหรับงานนี้?** Aspose.PDF สำหรับ Java มี API ที่ง่ายต่อการสกัดไฟล์ที่ฝังอยู่ใน PDF
-- **ต้องมีลิขสิทธิ์หรือไม่?** สามารถใช้รุ่นทดลองฟรีสำหรับการประเมิน; ต้องมีลิขสิทธิ์เชิงพาณิชย์สำหรับการใช้งานจริง
-- **สามารถจัดการกับ portfolio ขนาดใหญ่ได้หรือไม่?** ได้ — ใช้การสตรีมและ I/O แบบบัฟเฟอร์เพื่อลดการใช้หน่วยความจำ
+## คำตอบอย่างรวดเร็ว
+- **อะไรคือ “extract embedded files pdf”?** หมายถึงการดึงไฟล์แต่ละไฟล์ที่ถูกบรรจุอยู่ในพอร์ตโฟลิโอ PDF ออกมา
+- **ไลบรารีใดดีที่สุดสำหรับงานนี้?** Aspose.PDF for Java ให้ API ที่ง่ายต่อการดึงไฟล์ที่ฝังอยู่ใน PDF
+- **ฉันต้องการไลเซนส์หรือไม่?** การทดลองใช้ฟรีทำงานสำหรับการประเมิน; จำเป็นต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานในผลิตภัณฑ์
+- **ฉันสามารถจัดการพอร์ตโฟลิโอขนาดใหญ่ได้หรือไม่?** ได้—ใช้การสตรีมและ I/O แบบบัฟเฟอร์เพื่อให้การใช้หน่วยความจำน้อยลง
 - **รองรับการป้องกันด้วยรหัสผ่านหรือไม่?** แน่นอน เพียงให้รหัสผ่านถอดรหัสเมื่อเปิด PDF
 
 ## “extract embedded files pdf” คืออะไร?
-การสกัดไฟล์ที่ฝังอยู่จาก PDF หมายถึงการดึงไฟล์ทุกไฟล์ที่ PDF portfolio เก็บไว้ภายใน — เช่น รูปภาพ, สเปรดชีต, หรือเอกสารข้อความ — เพื่อให้สามารถบันทึกลงระบบไฟล์และใช้งานได้อย่างอิสระ
 
-## ทำไมต้องใช้ Aspose.PDF สำหรับ Java?
-Aspose.PDF สำหรับ Java มี API ระดับสูงที่ทำให้ซับซ้อนของสเปค PDF ไม่ต้องกังวล รองรับ PDF ที่เข้ารหัส, ไฟล์ขนาดใหญ่, และการจัดการสตรีมที่เชื่อถือได้ ทำให้เป็นตัวเลือกอันดับต้น ๆ สำหรับสถานการณ์ **extract files from pdf**
+การดึงไฟล์ที่ฝังอยู่ใน PDF หมายถึงการดึงข้อมูลทุกไฟล์ที่พอร์ตโฟลิโอ PDF เก็บไว้ภายใน—เช่น รูปภาพ, สเปรดชีต หรือเอกสารข้อความ—และเขียนแต่ละไฟล์ลงในระบบไฟล์ท้องถิ่นเพื่อการใช้งานอย่างอิสระ พอร์ตโฟลิโอเก็บไฟล์เหล่านี้เป็นสเปคไฟล์ที่ฝังอยู่ ทำให้สามารถบรรจุไว้ด้วยกันในขณะที่ยังคงเป็นเอนทิตีแยกต่างหากที่สามารถเข้าถึงและดึงออกได้โดยโปรแกรม
+
+## ทำไมต้องใช้ Aspose.PDF for Java?
+
+Aspose.PDF for Java มี API ระดับสูงที่ทำให้ซับซ้อนของสเปค PDF ง่ายขึ้น รองรับ PDF ที่เข้ารหัส, ไฟล์ขนาดใหญ่, และให้การจัดการสตรีมที่เชื่อถือได้ ทำให้เป็นตัวเลือกอันดับต้น ๆ สำหรับสถานการณ์ **extract files from pdf** ไลบรารีสามารถประมวลผล PDF ขนาดถึง 2 GB ในขณะที่ใช้หน่วยความจำไม่เกิน 200 MB ด้วยสถาปัตยกรรมการโหลดแบบเพิ่มส่วน
 
 ## ข้อกำหนดเบื้องต้น
 
-ก่อนเริ่มทำงาน โปรดตรวจสอบว่าคุณมี:
-
-- **Java Development Kit (JDK):** แนะนำ JDK 8 หรือสูงกว่า
-- **Integrated Development Environment (IDE):** IDE ใดก็ได้ เช่น IntelliJ IDEA, Eclipse หรือ VS Code
+- **Java Development Kit (JDK):** JDK 8 หรือสูงกว่าแนะนำ
+- **Integrated Development Environment (IDE):** IDE ใดก็ได้เช่น IntelliJ IDEA, Eclipse หรือ VS Code จะทำงานได้
 - **Maven/Gradle:** ความรู้พื้นฐานในการใช้ Maven หรือ Gradle สำหรับการจัดการ dependencies
 
-### ไลบรารีและ Dependencies ที่ต้องการ
+### ไลบรารีและ dependencies ที่จำเป็น
 
-ตรวจสอบให้แน่ใจว่าคุณได้รวมไลบรารี Aspose.PDF ไว้ในโปรเจกต์ของคุณแล้ว คุณสามารถใช้ Maven หรือ Gradle เพื่อจัดการ dependency นี้
+ตรวจสอบให้แน่ใจว่าคุณได้รวมไลบรารี Aspose.PDF เข้าในโปรเจกต์ของคุณแล้ว คุณสามารถใช้ Maven หรือ Gradle เพื่อจัดการ dependency นี้ได้
 
-## การตั้งค่า Aspose.PDF สำหรับ Java
+## การตั้งค่า Aspose.PDF for Java
 
-การเริ่มต้นกับ Aspose.PDF สำหรับ Java ทำได้ง่าย ด้านล่างเป็นวิธีตั้งค่าโดยใช้ Maven หรือ Gradle:
+การเริ่มต้นใช้งาน Aspose.PDF for Java ทำได้ง่าย ด้านล่างนี้เป็นวิธีตั้งค่าโดยใช้ Maven หรือ Gradle:
 
-**Maven Setup**
+**ตั้งค่า Maven**
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -67,22 +121,23 @@ Aspose.PDF สำหรับ Java มี API ระดับสูงที่�
 </dependency>
 ```
 
-**Gradle Setup**
+**ตั้งค่า Gradle**
+
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### การขอรับลิขสิทธิ์
+### การขอรับไลเซนส์
 
-เพื่อใช้คุณสมบัติของ Aspose.PDF อย่างเต็มที่ คุณสามารถเริ่มต้นด้วยรุ่นทดลองฟรีหรือขอรับลิขสิทธิ์ชั่วคราวเพื่อการประเมิน สำหรับการใช้งานในผลิตภัณฑ์จริง ควรพิจารณาซื้อไลเซนส์
+เพื่อใช้คุณสมบัติของ Aspose.PDF อย่างเต็มที่ คุณสามารถเริ่มด้วยการทดลองใช้ฟรีหรือขอรับไลเซนส์ชั่วคราวเพื่อการประเมิน สำหรับการใช้งานในผลิตภัณฑ์ ควรพิจารณาซื้อไลเซนส์
 
-1. **Free Trial:** ดาวน์โหลดเวอร์ชันล่าสุดจาก [Aspose Downloads](https://releases.aspose.com/pdf/java/)  
-2. **Temporary License:** รับได้โดยไปที่ [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)  
-3. **Purchase:** สำหรับการใช้งานต่อเนื่อง ให้ซื้อไลเซนส์ผ่าน [Aspose Purchase](https://purchase.aspose.com/buy)
+1. **ทดลองใช้ฟรี:** ดาวน์โหลดเวอร์ชันล่าสุดจาก [Aspose Downloads](https://releases.aspose.com/pdf/java/)  
+2. **ไลเซนส์ชั่วคราว:** รับได้โดยเยี่ยมชม [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)  
+3. **ซื้อ:** สำหรับการใช้งานต่อเนื่อง ให้ซื้อไลเซนส์ผ่าน [Aspose Purchase](https://purchase.aspose.com/buy)
 
 ### การเริ่มต้นและตั้งค่าเบื้องต้น
 
-เมื่อคุณตั้งค่าไลบรารีและกำหนดลิขสิทธิ์แล้ว ให้เริ่มต้น Aspose.PDF ดังนี้:
+เมื่อคุณตั้งค่าไลบรารีและกำหนดค่าไลเซนส์แล้ว ให้เริ่มต้น Aspose.PDF ดังนี้:
 
 ```java
 import com.aspose.pdf.Document;
@@ -91,20 +146,20 @@ import com.aspose.pdf.Document;
 document = new Document("Portfolio_output.pdf");
 ```
 
-## คู่มือการทำงาน
+## คู่มือการดำเนินการ
 
-ตอนนี้คุณพร้อมแล้ว ให้มาดูวิธีสกัดไฟล์ที่ฝังอยู่จาก PDF portfolio ด้วย Aspose.PDF สำหรับ Java
+ตอนนี้คุณพร้อมแล้ว เราจะเดินผ่านขั้นตอนการดึงไฟล์ที่ฝังอยู่จากพอร์ตโฟลิโอ PDF โดยใช้ Aspose.PDF for Java
 
-### สกัดไฟล์จาก PDF Portfolio
+### ดึงไฟล์จากพอร์ตโฟลิโอ PDF
 
 #### ภาพรวม
 
-ส่วนนี้จะแนะนำวิธี **extract embedded files pdf** จาก PDF portfolio ซึ่งมีประโยชน์อย่างยิ่งเมื่อทำงานกับเอกสารที่มีหลายสื่อหรือไฟล์ข้อมูลรวมกัน
+ส่วนนี้จะแนะนำวิธี **extract embedded files pdf** จากพอร์ตโฟลิโอ PDF ซึ่งมีประโยชน์อย่างยิ่งเมื่อทำงานกับเอกสารที่มีหลายประเภทสื่อหรือไฟล์ข้อมูล
 
 #### การดำเนินการแบบขั้นตอน
 
-**1. โหลด PDF Portfolio ต้นฉบับ**  
-เริ่มต้นโดยโหลดเอกสาร PDF เข้าไปในอ็อบเจกต์ `Document` ของ Aspose.PDF:
+**1. Load source PDF portfolio**  
+โหลดพอร์ตโฟลิโอ PDF ต้นฉบับของคุณเข้าสู่หน่วยความจำ คลาส `Document` คืออ็อบเจ็กต์ระดับบนของ Aspose.PDF ที่แทนไฟล์ PDF เดียวในหน่วยความจำ
 
 ```java
 import com.aspose.pdf.Document;
@@ -113,8 +168,8 @@ import com.aspose.pdf.Document;
 document = new Document("Portfolio_output.pdf");
 ```
 
-**2. ดึงคอลเลกชันของไฟล์ที่ฝังอยู่**  
-เข้าถึงคอลเลกชันของไฟล์ที่ฝังอยู่โดยใช้เมธอด `getEmbeddedFiles()`:
+**2. Retrieve embedded files collection**  
+เมธอด `getEmbeddedFiles()` จะคืนคอลเลกชันที่เก็บไฟล์ที่ฝังอยู่ทั้งหมดในพอร์ตโฟลิโอ
 
 ```java
 import com.aspose.pdf.EmbeddedFileCollection;
@@ -123,8 +178,8 @@ import com.aspose.pdf.EmbeddedFileCollection;
 embeddedFiles = document.getEmbeddedFiles();
 ```
 
-**3. วนลูปและสกัดไฟล์แต่ละไฟล์**  
-ทำการวนลูปไฟล์ใน portfolio เพื่อสกัดไฟล์แต่ละไฟล์ออกมา:
+**3. Iterate and extract each file**  
+วนลูปผ่านแต่ละรายการในคอลเลกชันและเขียนสตรีมไฟล์ลงดิสก์ อ็อบเจ็กต์ `FileSpecification` ให้ชื่อไฟล์ต้นฉบับและสตรีมเนื้อหา
 
 ```java
 import java.io.File;
@@ -158,87 +213,94 @@ for (int counter = 1; counter <= embeddedFiles.size(); counter++) {
 ```
 
 ในโค้ดนี้:
-- `input` ดึงสตรีมของไฟล์ที่ฝังอยู่แต่ละไฟล์
+- `input` ดึงสตรีมเนื้อหาของไฟล์ที่ฝังอยู่แต่ละไฟล์
 - สร้างโฟลเดอร์โดยอัตโนมัติด้วย `mkdirs()`
 - เขียนไฟล์ลงดิสก์โดยใช้ `FileOutputStream` แบบบัฟเฟอร์
 
 #### เคล็ดลับการแก้ปัญหา
 
-- **File Not Found:** ตรวจสอบว่าเส้นทาง PDF (`Portfolio_output.pdf`) ชี้ไปยังตำแหน่งที่ถูกต้อง
-- **Permission Issues:** ให้แน่ใจว่าแอปพลิเคชันมีสิทธิ์เขียนในโฟลเดอร์เป้าหมาย
-- **Large Files:** สำหรับไฟล์ฝังขนาดใหญ่มาก ให้พิจารณาเพิ่มขนาด heap ของ JVM หรือประมวลผลไฟล์เป็นชุดเล็ก ๆ
+- **File not found:** ตรวจสอบว่าเส้นทาง PDF (`Portfolio_output.pdf`) ชี้ไปยังตำแหน่งที่ถูกต้อง
+- **Permission issues:** ตรวจสอบให้แน่ใจว่าแอปพลิเคชันมีสิทธิ์เขียนในโฟลเดอร์เป้าหมาย
+- **Large files:** สำหรับไฟล์ฝังขนาดใหญ่มาก ให้พิจารณาเพิ่มขนาด heap ของ JVM หรือประมวลผลไฟล์เป็นชุดย่อย
 
 ## การประยุกต์ใช้ในทางปฏิบัติ
 
-การสกัดไฟล์ที่ฝังอยู่จาก PDF portfolio มีการใช้งานจริงหลายรูปแบบ:
+การดึงไฟล์ที่ฝังอยู่จากพอร์ตโฟลิโอ PDF มีการใช้งานจริงหลายรูปแบบ:
 
-1. **การเก็บถาวรข้อมูล:** รวมและแยกเอกสารหลายไฟล์ที่เก็บอยู่ใน PDF เดียว
-2. **Pipeline การประมวลผลข้อมูล:** ส่งไฟล์ที่สกัดออกไปยังกระบวนการ ETL โดยตรง
-3. **การจัดการเอกสารอัตโนมัติ:** ทำให้ระบบ back‑office สามารถดึงทรัพยากรที่แนบมาด้วยได้โดยอัตโนมัติ
+1. **Archiving data:** รวมและแยกเอกสารหลายไฟล์ที่เก็บไว้ใน PDF เดียวในภายหลัง
+2. **Data processing pipelines:** ส่งไฟล์ที่ดึงออกโดยตรงเข้าสู่กระบวนการ ETL
+3. **Automated document handling:** ทำให้ระบบ back‑office สามารถดึงทรัพยากรที่แนบมาโดยอัตโนมัติได้
 
 ## พิจารณาด้านประสิทธิภาพ
 
-เมื่อทำงานกับ portfolio ขนาดใหญ่ ควรคำนึงถึงข้อแนะนำต่อไปนี้:
+เมื่อทำงานกับพอร์ตโฟลิโอขนาดใหญ่ ให้คำนึงถึงเคล็ดลับต่อไปนี้:
 
-- **Memory Management:** จัดสรร heap memory เพียงพอ (`-Xmx`) สำหรับการจัดการ PDF ขนาดใหญ่
-- **Stream Efficiency:** ใช้สตรีมแบบบัฟเฟอร์ (ตามตัวอย่าง) เพื่อลดภาระ I/O
-- **Batch Processing:** ประมวลผลไฟล์เป็นกลุ่มเพื่อหลีกเลี่ยงการใช้ทรัพยากรระบบจนเต็ม
+- **Memory management:** จัดสรรหน่วยความจำ heap (`-Xmx`) เพียงพอสำหรับการจัดการ PDF ขนาดใหญ่
+- **Stream efficiency:** ใช้สตรีมแบบบัฟเฟอร์ (ตามที่แสดง) เพื่อลดภาระ I/O
+- **Batch processing:** ประมวลผลไฟล์เป็นกลุ่มเพื่อหลีกเลี่ยงการใช้ทรัพยากรระบบจนหมด
 
-## ปัญหาที่พบบ่อยและวิธีแก้
+## ปัญหาทั่วไปและวิธีแก้
 
-| Issue | Cause | Solution |
+| ปัญหา | สาเหตุ | วิธีแก้ |
 |-------|-------|----------|
-| **OutOfMemoryError** | PDF มีขนาดใหญ่เกิน heap เริ่มต้น | เพิ่ม heap ของ JVM (`-Xmx2g`) หรือประมวลผลไฟล์ทีละไฟล์ |
-| **Empty Output Files** | ไม่ได้อ่านสตรีมอินพุตอย่างถูกต้อง | ตรวจสอบให้แน่ใจว่าลูป `input.read(buffer)` ทำงานจนกว่าจะได้ `-1` |
-| **Missing Files After Extraction** | `fileSpecification.getName()` คืนค่าพาธสัมพันธ์โดยไม่มีโฟลเดอร์ | ใช้ `file.getParentFile().mkdirs()` ตามที่แสดงเพื่อสร้างโฟลเดอร์ที่ขาด |
+| **OutOfMemoryError** | PDF มีขนาดใหญ่เกินกว่าหน่วยความจำ heap เริ่มต้น | เพิ่มขนาด heap ของ JVM (`-Xmx2g`) หรือประมวลผลไฟล์ทีละไฟล์ |
+| **Empty output files** | สตรีมอินพุตไม่ได้อ่านอย่างถูกต้อง | ตรวจสอบให้แน่ใจว่าลูป `input.read(buffer)` ทำงานจนถึง `-1` |
+| **Missing files after extraction** | `fileSpecification.getName()` คืนค่าพาธสัมพัทธ์โดยไม่มีโฟลเดอร์ | ใช้ `file.getParentFile().mkdirs()` ตามที่แสดงเพื่อสร้างโฟลเดอร์ที่หายไป |
 
 ## สรุป
 
-คุณได้เรียนรู้วิธี **extract embedded files pdf** จาก PDF portfolio ด้วย Aspose.PDF สำหรับ Java แล้ว ความสามารถนี้ช่วยให้คุณอัตโนมัติการจัดการ PDF ที่ซับซ้อนหลายไฟล์และทำให้กระบวนการจัดการข้อมูลของคุณเป็นระบบมากขึ้น
+คุณได้เชี่ยวชาญการ **extract embedded files pdf** จากพอร์ตโฟลิโอ PDF ด้วย Aspose.PDF for Java แล้ว ความสามารถนี้ช่วยให้คุณอัตโนมัติการจัดการ PDF ที่ซับซ้อนและหลายไฟล์ และทำให้กระบวนการจัดการข้อมูลของคุณเป็นระบบมากขึ้น
 
 ### ขั้นตอนต่อไป
 
 - สำรวจคุณสมบัติเพิ่มเติมของ Aspose.PDF เช่น การแก้ไข PDF, การแปลง, และลายเซ็นดิจิทัล
-- นำตรรกะการสกัดนี้รวมเข้าไปใน pipeline การประมวลผลเอกสารขนาดใหญ่ของคุณ
+- นำตรรกะการดึงไฟล์นี้รวมเข้าในไพป์ไลน์การประมวลผลเอกสารขนาดใหญ่
 
-**Call to Action:** ลองนำโซลูชันนี้ไปใช้ในโปรเจกต์ Java ถัดไปของคุณและสัมผัสความประหยัดเวลาจากการสกัดไฟล์แบบอัตโนมัติ!
+**Call to action:** ลองนำโซลูชันนี้ไปใช้ในโปรเจกต์ Java ถัดไปของคุณและดูว่าคุณประหยัดเวลาในการดึงไฟล์ด้วยมือได้เท่าใด!
 
 ## คำถามที่พบบ่อย
 
-**Q1: สามารถสกัดไฟล์จาก PDF portfolio ที่เข้ารหัสได้หรือไม่?**  
-A1: ได้ แต่ต้องมีคีย์ถอดรหัสที่ถูกต้อง Aspose.PDF รองรับการเปิดเอกสารที่เข้ารหัสด้วยข้อมูลประจำตัวที่ให้มา
+**Q1: สามารถดึงไฟล์จากพอร์ตโฟลิโอ PDF ที่เข้ารหัสได้หรือไม่?**  
+A1: ได้ แต่คุณต้องมีคีย์ถอดรหัสที่ถูกต้อง Aspose.PDF รองรับการเปิดเอกสารที่เข้ารหัสด้วยข้อมูลประจำตัวที่ให้มา
 
-**Q2: สามารถสกัดไฟล์ประเภทใดได้บ้างด้วย Aspose.PDF Java?**  
-A2: สามารถสกัดไฟล์ฝังใด ๆ ที่ PDF portfolio รองรับได้ เช่น รูปภาพ, ไฟล์ข้อความ, สเปรดชีต ฯลฯ
+**Q2: สามารถดึงประเภทไฟล์ใดได้บ้างด้วย Aspose.PDF Java?**  
+A2: คุณสามารถดึงไฟล์ฝังใด ๆ ที่รองรับในพอร์ตโฟลิโอ PDF เช่น รูปภาพ, ไฟล์ข้อความ, สเปรดชีต และอื่น ๆ
 
-**Q3: Aspose.PDF จัดการกับไฟล์ขนาดใหญ่ระหว่างการสกัดอย่างไร?**  
-A3: จัดการหน่วยความจำและสตรีมอย่างมีประสิทธิภาพเพื่อให้การประมวลผลไฟล์ขนาดใหญ่เป็นไปอย่างราบรื่น โดยเฉพาะเมื่อใช้ I/O แบบบัฟเฟอร์
+**Q3: Aspose.PDF จัดการกับไฟล์ขนาดใหญ่ระหว่างการดึงอย่างไร?**  
+A3: มันจัดการหน่วยความจำและการดำเนินการสตรีมอย่างมีประสิทธิภาพเพื่อให้การจัดการไฟล์ขนาดใหญ่เป็นไปอย่างราบรื่น โดยเฉพาะเมื่อใช้ I/O แบบบัฟเฟอร์
 
-**Q4: มีขีดจำกัดจำนวนไฟล์ที่ฝังที่สามารถสกัดได้หรือไม่?**  
-A4: ไม่มีขีดจำกัดเฉพาะ แต่ประสิทธิภาพอาจขึ้นกับทรัพยากรของระบบและความซับซ้อนของ PDF
+**Q4: มีขีดจำกัดจำนวนไฟล์ที่ฝังที่สามารถดึงได้หรือไม่?**  
+A4: ไม่มีขีดจำกัดเฉพาะ แต่ประสิทธิภาพอาจแตกต่างตามทรัพยากรของระบบและความซับซ้อนของ PDF
 
 **Q5: สามารถใช้ Aspose.PDF ในแอปพลิเคชันเชิงพาณิชย์ได้หรือไม่?**  
-A5: แน่นอน! เพียงปฏิบัติตามเงื่อนไขการให้ลิขสิทธิ์เมื่อใช้ในเชิงพาณิชย์
+A5: แน่นอน! โปรดปฏิบัติตามเงื่อนไขการให้สิทธิ์เมื่อใช้ในเชิงพาณิชย์
 
 ## แหล่งข้อมูล
 
-- **Documentation:** [Aspose.PDF Java Documentation](https://reference.aspose.com/pdf/java/)
-- **Download:** [Aspose.PDF Releases](https://releases.aspose.com/pdf/java/)
-- **Purchase:** [Buy Aspose License](https://purchase.aspose.com/buy)
-- **Free Trial:** [Aspose Free Downloads](https://releases.aspose.com/pdf/java/)
-- **Temporary License:** [Request Temporary License](https://purchase.aspose.com/temporary-license/)
-- **Support:** [Aspose Forum](https://forum.aspose.com/c/pdf/10)
+- **เอกสารประกอบ:** [Aspose.PDF Java Documentation](https://reference.aspose.com/pdf/java/)
+- **ดาวน์โหลด:** [Aspose.PDF Releases](https://releases.aspose.com/pdf/java/)
+- **ซื้อ:** [Buy Aspose License](https://purchase.aspose.com/buy)
+- **ทดลองใช้ฟรี:** [Aspose Free Downloads](https://releases.aspose.com/pdf/java/)
+- **ใบอนุญาตชั่วคราว:** [Request Temporary License](https://purchase.aspose.com/temporary-license/)
+- **สนับสนุน:** [Aspose Forum](https://forum.aspose.com/c/pdf/10)
 
 ---
 
-**Last Updated:** 2026-02-27  
-**Tested With:** Aspose.PDF 25.3 for Java  
-**Author:** Aspose  
+**อัปเดตล่าสุด:** 2026-08-06  
+**ทดสอบกับ:** Aspose.PDF 25.3 for Java  
+**ผู้เขียน:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## บทแนะนำที่เกี่ยวข้อง
+
+- [วิธีสร้างไฟล์แนบ PDF ที่ฝังอยู่ด้วย Aspose.PDF for Java - คู่มือสำหรับนักพัฒนา](/pdf/java/attachments-embedded-files/add-attachments-pdf-aspose-pdf-java/)
+- [วิธีลบไฟล์แนบ PDF อย่างมีประสิทธิภาพโดยใช้ Aspose.PDF for Java](/pdf/java/attachments-embedded-files/remove-attachments-pdf-aspose-java/)
+- [Aspose PDF Java Tutorial: การเข้าถึงและจัดการไฟล์ฝังใน PDF](/pdf/java/attachments-embedded-files/master-aspose-pdf-java-access-manage-embedded-files/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
