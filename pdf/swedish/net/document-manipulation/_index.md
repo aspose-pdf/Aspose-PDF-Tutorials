@@ -179,6 +179,9 @@ Lär dig hur du effektivt sammanfogar flera PDF-dokument till en enda fil med As
 ### [Hur man sammanfogar PDF-filer med Aspose.PDF för .NET: Strömsammanfogning och bevarande av logisk struktur](./merge-pdf-aspose-net-streams-structure/)
 Lär dig hur du sammanfogar PDF-filer med Aspose.PDF för .NET, och bevarar den logiska strukturen för tillgänglighet. Den här guiden behandlar strömsammanfogning, prestandaoptimering och praktiska tillämpningar.
 
+### [Sammanfoga PDF-lager i C# – Så kombinerar du PDF-lager](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+Lär dig hur du kombinerar flera PDF-lager i en fil med Aspose.PDF för .NET i C#.
+
 ### [Hur man använder prefix för CSS-klassnamn i PDF-filer med Aspose.PDF för .NET](./prefix-css-class-names-pdf-aspose-pdf-net/)
 Lär dig hur du konverterar PDF-dokument till HTML med anpassade CSS-klassnamnsprefix med Aspose.PDF för .NET. Säkerställ unik stil och undvik konflikter.
 

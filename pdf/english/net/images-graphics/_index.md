@@ -164,6 +164,12 @@ Learn how to render complex LaTeX scripts into PDF documents using Aspose.PDF fo
 ### [Set Image Backgrounds in PDFs Using Aspose.PDF for .NET&#58; A Comprehensive Guide](./aspose-pdf-net-set-image-backgrounds/)
 Learn how to enhance your PDF documents by setting image backgrounds using Aspose.PDF for .NET. This guide covers setup, implementation, and optimization tips.
 
+### [How to Use GraphicsAbsorber – Extract Vector Graphics from PDF with Aspose.Pdf](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
+Learn how to extract vector graphics from PDF files using the GraphicsAbsorber class in Aspose.PDF for .NET.
+
+### [image overlay pdf tutorial – add mask & enable automatic tray selection](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+Learn how to overlay images on PDFs, apply masks, and enable automatic tray selection using Aspose.PDF for .NET.
+
 ## Additional Resources
 
 - [Aspose.PDF for Net Documentation](https://docs.aspose.com/pdf/net/)

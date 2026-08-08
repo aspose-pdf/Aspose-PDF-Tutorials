@@ -38,6 +38,9 @@ Aspose.PDF Net 程式碼教學
 ### [使用 C# 中的 Aspose.PDF for .NET 掌握 PDF/A 驗證](./master-pdfa-validation-aspose-pdf-net/)
 了解如何使用 Aspose.PDF .NET 驗證 PDF 文件是否符合 PDF/A 標準。透過我們的逐步指南確保合規性並提高文件可靠性。
 
+### [如何在 Aspose PDF 中設定 ICC – 完整 C# 指南](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
+本完整 C# 教學說明如何在 Aspose PDF 中設定 ICC 色彩配置檔，以確保 PDF 輸出色彩一致性。
+
 ## 其他資源
 
 - [Aspose.PDF 用於網頁文檔](https://docs.aspose.com/pdf/net/)

@@ -38,6 +38,9 @@ Pelajari cara memvalidasi kepatuhan PDF/A-1a menggunakan Aspose.PDF untuk .NET. 
 ### [Validasi Master PDF/A Menggunakan Aspose.PDF untuk .NET di C#](./master-pdfa-validation-aspose-pdf-net/)
 Pelajari cara memvalidasi dokumen PDF terhadap standar PDF/A menggunakan Aspose.PDF .NET. Pastikan kepatuhan dan tingkatkan keandalan dokumen dengan panduan langkah demi langkah kami.
 
+### [Cara Mengatur ICC di Aspose PDF – Panduan Lengkap C#](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
+Panduan lengkap langkah demi langkah untuk mengatur profil ICC pada PDF menggunakan Aspose.PDF dengan C#.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

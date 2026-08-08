@@ -59,6 +59,9 @@ Aspose.PDF Net 程式碼教學
 ### [使用 Aspose 驗證 PDF 簽章並將 PDF 轉換為 HTML](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
 了解如何使用 Aspose 驗證 PDF 簽章，同時將 PDF 轉換為 HTML 以便於網頁顯示。
 
+### [如何使用 Aspose.PDF 檢查 PDF 簽章 – 完整指南](./how-to-check-signature-in-a-pdf-with-aspose-pdf-complete-gui/)
+了解如何使用 Aspose.PDF 在 PDF 中檢查簽章的完整步驟與程式碼示例。
+
 ## 其他資源
 
 - [Aspose.PDF 用於網頁文檔](https://docs.aspose.com/pdf/net/)

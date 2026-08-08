@@ -38,6 +38,9 @@
 ### [التحقق من صحة ملفات PDF/A الرئيسية باستخدام Aspose.PDF لـ .NET في C#](./master-pdfa-validation-aspose-pdf-net/)
 تعرّف على كيفية التحقق من صحة مستندات PDF وفقًا لمعايير PDF/A باستخدام Aspose.PDF .NET. اضمن التوافق وعزز موثوقية مستنداتك من خلال دليلنا المفصل.
 
+### [كيفية تعيين ICC في Aspose PDF – دليل كامل بلغة C#](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
+تعلم كيفية ضبط ملف تعريف اللون ICC في مستندات PDF باستخدام Aspose.PDF للـ .NET مع أمثلة شاملة بلغة C#.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

@@ -65,6 +65,12 @@
 ### [如何在 C# 中比較 PDF – 生成 PDF 差異的完整指南](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中比較兩個 PDF，生成差異報告並突出顯示變更。
 
+### [使用 Aspose.PDF 比較 PDF 文件 – 完整視覺差異指南](./compare-pdf-documents-with-aspose-pdf-complete-visual-diff-g/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中比較 PDF 文件，生成視覺差異報告並突出顯示變更。
+
+### [比較兩個 PDF 文件 – 完整 C# 指南](./compare-two-pdf-documents-complete-c-guide/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中比較兩個 PDF，生成差異報告並突出顯示變更。
+
 ## 其他資源
 
 - [Aspose.PDF 用於網頁文檔](https://docs.aspose.com/pdf/net/)

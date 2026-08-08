@@ -104,6 +104,9 @@ Maîtrisez la rotation de texte dans vos PDF avec Aspose.PDF pour .NET grâce à
 ### [Maîtrisez Aspose.PDF pour .NET : ouvrez et recherchez efficacement des documents PDF](./aspose-pdf-net-open-search-pdfs/)
 Apprenez à utiliser Aspose.PDF pour .NET pour ouvrir et rechercher des documents PDF. Ce guide couvre la configuration, la recherche de texte dans des pages spécifiques et des applications pratiques.
 
+### [Comment rechercher un PDF avec Aspose.Pdf – Guide complet C#](./how-to-search-pdf-with-aspose-pdf-complete-c-guide/)
+Apprenez à effectuer des recherches de texte dans des fichiers PDF à l'aide d'Aspose.Pdf pour .NET avec un guide complet en C#.
+
 ### [Maîtriser les tabulations personnalisées dans les PDF avec Aspose.PDF pour .NET : un guide complet](./master-custom-tab-stops-aspose-pdf-net/)
 Apprenez à maîtriser les tabulations personnalisées dans les documents PDF à l'aide d'Aspose.PDF pour .NET, améliorant ainsi vos compétences en matière de formatage et de présentation de documents.
 
@@ -125,7 +128,7 @@ Apprenez à optimiser l'interligne dans vos PDF grâce aux polices TrueType avec
 ### [Maîtriser l'extraction de texte PDF dans .NET avec Aspose.PDF : un guide complet](./mastering-pdf-text-extraction-dotnet-asposepdf/)
 Apprenez à extraire et rechercher efficacement du texte dans des PDF avec Aspose.PDF pour .NET. Suivez ce guide pour des étapes de mise en œuvre pratiques.
 
-### [Maîtrisez l'extraction de texte PDF avec Aspose.PDF pour .NET : un guide complet](./mastering-pdf-extraction-aspose-pdf-net-guide/)
+### [Maîtriser l'extraction de texte PDF avec Aspose.PDF pour .NET : un guide complet](./mastering-pdf-extraction-aspose-pdf-net-guide/)
 Apprenez à extraire efficacement du texte de PDF avec Aspose.PDF pour .NET, même avec des mises en page complexes. Ce guide couvre le chargement, l'analyse et l'optimisation des processus d'extraction.
 
 ### [Maîtriser l'extraction de texte PDF avec Aspose.PDF pour .NET : Guide du développeur](./aspose-pdf-net-text-extraction-guide/)

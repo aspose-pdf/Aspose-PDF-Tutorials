@@ -164,6 +164,9 @@ Aspose.PDF for .NET kullanarak PDF belgelerindeki görüntüleri nasıl sıkış
 ### [.NET için Aspose.PDF Kullanarak PDF'lerde Görüntü Arka Planları Ayarlama: Kapsamlı Bir Kılavuz](./aspose-pdf-net-set-image-backgrounds/)
 Aspose.PDF for .NET kullanarak görüntü arka planları ayarlayarak PDF belgelerinizi nasıl geliştireceğinizi öğrenin. Bu kılavuz kurulum, uygulama ve optimizasyon ipuçlarını kapsar.
 
+### [PDF Üzerine Görüntü Yerleştirme Öğreticisi – Maske Ekleme ve Otomatik Tepsi Seçimini Etkinleştirme](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+Aspose.PDF for .NET kullanarak PDF'lere görüntü bindirme, maske ekleme ve otomatik tepsi seçimini nasıl etkinleştireceğinizi öğrenin.
+
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)

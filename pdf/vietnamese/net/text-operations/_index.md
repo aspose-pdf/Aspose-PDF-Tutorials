@@ -140,6 +140,9 @@ Tìm hiểu cách xoay và tùy chỉnh văn bản hiệu quả trong tài liệ
 ### [Làm chủ tìm kiếm văn bản PDF với Regex bằng Aspose.PDF .NET](./aspose-pdf-net-regex-text-search/)
 Hướng dẫn mã cho Aspose.PDF Net
 
+### [Cách tìm kiếm PDF bằng Aspose.Pdf – Hướng Dẫn Toàn Diện C#](./how-to-search-pdf-with-aspose-pdf-complete-c-guide/)
+Tìm hiểu cách tìm kiếm nội dung trong PDF bằng Aspose.Pdf cho .NET với hướng dẫn chi tiết bằng C#.
+
 ### [Làm chủ việc xoay văn bản trong PDF bằng Aspose.PDF cho .NET: Hướng dẫn đầy đủ](./rotate-text-pdf-aspose-dotnet/)
 Tìm hiểu cách xoay văn bản trong tài liệu PDF bằng Aspose.PDF cho .NET. Hướng dẫn toàn diện này bao gồm thiết lập, ví dụ mã và ứng dụng thực tế.
 

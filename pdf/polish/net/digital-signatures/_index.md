@@ -64,6 +64,9 @@ Dowiedz się, jak wczytać dokument PDF w C#, przekonwertować go do formatu PDF
 ### [Weryfikacja podpisu PDF za pomocą Aspose – konwersja PDF do HTML](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
 Dowiedz się, jak zweryfikować podpis PDF i jednocześnie przekonwertować dokument do formatu HTML przy użyciu Aspose.PDF.
 
+### [Jak sprawdzić podpis w pliku PDF za pomocą Aspose.PDF – Kompletny przewodnik](./how-to-check-signature-in-a-pdf-with-aspose-pdf-complete-gui/)
+Dowiedz się, jak sprawdzić podpis w pliku PDF przy użyciu Aspose.PDF – kompletny przewodnik krok po kroku.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

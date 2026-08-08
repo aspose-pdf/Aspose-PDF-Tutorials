@@ -164,6 +164,12 @@ Lär dig hur du renderar komplexa LaTeX-skript till PDF-dokument med Aspose.PDF 
 ### [Ställ in bildbakgrunder i PDF-filer med Aspose.PDF för .NET: En omfattande guide](./aspose-pdf-net-set-image-backgrounds/)
 Lär dig hur du förbättrar dina PDF-dokument genom att ställa in bildbakgrunder med Aspose.PDF för .NET. Den här guiden behandlar tips för installation, implementering och optimering.
 
+### [PDF-handledning för bildöverläggning – lägg till mask och aktivera automatisk brickval](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+Lär dig hur du lägger till en mask och aktiverar automatisk brickval för bildöverläggning i PDF med Aspose.PDF för .NET.
+
+### [Hur man använder GraphicsAbsorber – Extrahera vektorgrafik från PDF med Aspose.Pdf](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
+Lär dig hur du använder GraphicsAbsorber för att extrahera vektorgrafik från PDF-dokument med Aspose.Pdf.
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

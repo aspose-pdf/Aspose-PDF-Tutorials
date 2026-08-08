@@ -78,7 +78,7 @@ Dowiedz się, jak bezproblemowo dodawać obrazy do dokumentów PDF za pomocą As
 Dowiedz się, jak bezproblemowo dodawać obrazy do dokumentów PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik krok po kroku obejmuje konfigurację, implementację i praktyczne zastosowania.
 
 ### [Jak dodawać obrazy do plików PDF za pomocą Aspose.PDF dla .NET: przewodnik krok po kroku](./add-images-to-pdfs-aspose-pdf-net/)
-Dowiedz się, jak bezproblemowo dodawać obrazy do plików PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje dodawanie obrazów do istniejących plików PDF i tworzenie nowych z plików DICOM.
+Dowiedz się, jak bezproblemowo dodawać obrazy do istniejących plików PDF i tworzyć nowe z plików DICOM.
 
 ### [Jak dodać nagłówek obrazu do plików PDF za pomocą Aspose.PDF dla .NET: przewodnik krok po kroku](./add-image-header-pdf-aspose-dotnet/)
 Dowiedz się, jak dodawać nagłówki obrazów do dokumentów PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego kompleksowego przewodnika krok po kroku.
@@ -163,6 +163,12 @@ Dowiedz się, jak przekształcać złożone skrypty LaTeX w dokumenty PDF za pom
 
 ### [Ustawianie tła obrazu w plikach PDF za pomocą Aspose.PDF dla .NET: kompleksowy przewodnik](./aspose-pdf-net-set-image-backgrounds/)
 Dowiedz się, jak ulepszyć swoje dokumenty PDF, ustawiając tła obrazów za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje wskazówki dotyczące konfiguracji, implementacji i optymalizacji.
+
+### [Samouczek nakładania obrazu w PDF – dodaj maskę i włącz automatyczny wybór tacki](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+Dowiedz się, jak nakładać obrazy na pliki PDF, dodawać maski i automatycznie wybierać tacki przy użyciu Aspose.PDF dla .NET.
+
+### [Jak używać GraphicsAbsorber – wyodrębnić grafikę wektorową z PDF przy użyciu Aspose.Pdf](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
+Dowiedz się, jak używać klasy GraphicsAbsorber do wyodrębniania grafiki wektorowej z dokumentów PDF przy pomocy Aspose.Pdf.
 
 ## Dodatkowe zasoby
 

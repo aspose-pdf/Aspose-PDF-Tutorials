@@ -45,7 +45,7 @@ Leer hoe u naadloos aangepaste lettertypen in uw PDF-documenten kunt insluiten m
 Leer hoe u lettertypen in uw PDF-documenten kunt insluiten met Aspose.PDF voor .NET. Zorg voor consistente typografie op alle platforms met deze uitgebreide tutorial.
 
 ### [Type 1-lettertypen in PDF's insluiten met Aspose.PDF .NET | Een uitgebreide handleiding](./embed-type-1-fonts-aspose-pdf-net/)
-Leer hoe u standaard Type 1-lettertypen in PDF-documenten kunt insluiten met Aspose.PDF voor .NET. Zorg voor consistente typografie op alle apparaten met deze gebruiksvriendelijke handleiding.
+Leer hoe u standaard Type 1-lettertypen in PDF-documenten kunt insluiten met Aspose.PDF .NET. Zorg voor consistente typografie op alle apparaten met deze gebruiksvriendelijke handleiding.
 
 ### [Lettertypen uit PDF's extraheren met Aspose.PDF voor .NET: een uitgebreide handleiding](./extract-fonts-aspose-pdf-net/)
 Leer hoe u efficiënt lettertypen uit PDF-documenten kunt extraheren met Aspose.PDF voor .NET. Perfect voor documentcontrole en digitale bewaring.
@@ -159,10 +159,8 @@ Leer hoe u naadloos tekst uit PDF-bestanden kunt extraheren met Aspose.PDF voor 
 Leer hoe u PDF-lettertypen kunt optimaliseren met Aspose.PDF .NET en hoe u uw documenten kunt stroomlijnen door ongebruikte lettertypen te verwijderen en te vervangen door Arial Bold.
 
 ### [Lettertypen in PDF vervangen met Aspose.PDF voor .NET](./replace-fonts-pdf-aspose-dotnet-guide/)
-Een codetutorial voor Aspose.PDF Net
 
-### [Stijltekst in gelabelde PDF's met Aspose.PDF voor .NET | Handleiding voor toegankelijke en esthetische PDF-creatie](./style-text-tagged-pdfs-aspose-pdf-net/)
-Leer hoe u tekst in gelabelde PDF-documenten kunt stylen met Aspose.PDF voor .NET. Deze handleiding behandelt de installatie, technieken en praktische toepassingen om de toegankelijkheid te verbeteren.
+### [Hoe PDF te zoeken met Aspose.Pdf – Complete C#-handleiding](./how-to-search-pdf-with-aspose-pdf-complete-c-guide/)
 
 ## Aanvullende bronnen
 

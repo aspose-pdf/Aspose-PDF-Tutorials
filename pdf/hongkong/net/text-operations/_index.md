@@ -20,6 +20,9 @@
 ### [使用 Aspose.PDF .NET 在 PDF 中進行進階正規表示式搜尋：綜合指南](./aspose-pdf-net-advanced-regex-searches/)
 了解如何使用 Aspose.PDF for .NET 在 PDF 文件中執行高級正規表示式搜索，涵蓋精確匹配、不區分大小寫和超連結提取。
 
+### [如何使用 Aspose.Pdf 搜尋 PDF – 完整 C# 指南](./how-to-search-pdf-with-aspose-pdf-complete-c-guide/)
+了解如何使用 Aspose.Pdf for .NET 在 PDF 文件中執行搜尋，涵蓋關鍵字匹配、正規表示式和高效檢索技巧。
+
 ### [Aspose.PDF .NET：使用 FloatingBox 為 PDF 新增頁碼](./aspose-pdf-net-floatingbox-page-numbering/)
 了解如何使用 Aspose.PDF for .NET 新增頁碼，並逐步指導如何實現 FloatingBox 功能。增強您的文件導航和專業性。
 

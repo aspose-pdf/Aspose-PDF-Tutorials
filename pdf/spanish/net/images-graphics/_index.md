@@ -47,6 +47,9 @@ Un tutorial de código para Aspose.PDF Net
 ### [Identificación eficiente de imágenes PDF con Aspose.PDF para .NET](./master-image-identification-aspose-pdf-net/)
 Aprenda a identificar imágenes en escala de grises y RGB en archivos PDF con Aspose.PDF para .NET. Este tutorial abarca la instalación, la extracción de imágenes y consejos de rendimiento.
 
+### [Cómo usar GraphicsAbsorber – Extraer gráficos vectoriales de PDF con Aspose.Pdf](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
+Aprenda a extraer gráficos vectoriales de archivos PDF usando GraphicsAbsorber de Aspose.Pdf. Guía paso a paso con ejemplos en C#.
+
 ### [Convierta secuencias de imágenes a archivos PDF de forma eficiente con Aspose.PDF para .NET](./convert-image-stream-to-pdf-aspose-dotnet/)
 Aprenda a convertir secuencias de imágenes en documentos PDF de calidad profesional con Aspose.PDF para .NET. Siga esta guía paso a paso para optimizar sus flujos de trabajo con documentos.
 
@@ -163,6 +166,9 @@ Aprenda a convertir scripts LaTeX complejos en documentos PDF utilizando Aspose.
 
 ### [Establecer fondos de imagen en archivos PDF con Aspose.PDF para .NET: una guía completa](./aspose-pdf-net-set-image-backgrounds/)
 Aprenda a mejorar sus documentos PDF configurando fondos de imagen con Aspose.PDF para .NET. Esta guía incluye consejos de configuración, implementación y optimización.
+
+### [Tutorial de superposición de imágenes en PDF – agregar máscara y habilitar selección automática de bandeja](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+Aprenda a superponer imágenes en PDFs, agregar una máscara y habilitar la selección automática de bandeja con Aspose.PDF para .NET.
 
 ## Recursos adicionales
 

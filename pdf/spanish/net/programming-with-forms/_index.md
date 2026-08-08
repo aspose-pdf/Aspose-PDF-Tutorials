@@ -51,6 +51,7 @@ Estos tutoriales también ofrecen ejemplos de código detallados, explicaciones 
 | [Establecer Java Script](./set-java-script/) Desbloquea el poder de Aspose.PDF para .NET. Aprende a configurar JavaScript en campos de formulario con nuestra guía paso a paso.  
 | [Establecer título del botón de opción](./set-radio-button-caption/) Aprenda a configurar títulos de botones de opción en archivos PDF con Aspose.PDF para .NET. Esta guía paso a paso le guiará en la carga, modificación y guardado de sus formularios PDF.  
 | [Cuadro de texto](./text-box/) Descubre cómo añadir fácilmente cuadros de texto a archivos PDF con Aspose.PDF para .NET con esta guía paso a paso. Mejora la interacción del usuario.  
+| [Importar FDF a PDF con C# – Guía completa paso a paso](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) Aprenda a importar archivos FDF a documentos PDF usando Aspose.PDF para .NET con C# en esta guía paso a paso.  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
