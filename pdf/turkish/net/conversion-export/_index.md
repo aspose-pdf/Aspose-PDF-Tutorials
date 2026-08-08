@@ -57,7 +57,7 @@ Aspose.PDF for .NET kullanarak PDF sayfalarını yüksek kaliteli PNG görüntü
 Bu kapsamlı kılavuzla Aspose.PDF for .NET'i kullanarak PDF sayfalarını yüksek kaliteli BMP görüntülerine nasıl dönüştüreceğinizi öğrenin.
 
 ### [.NET için Aspose.PDF Kullanarak PDF'yi EMF'ye Dönüştürme: Eksiksiz Bir Kılavuz](./convert-pdf-emf-aspose-net-guide/)
-Aspose.PDF for .NET kullanarak PDF sayfalarını EMF formatına nasıl dönüştüreceğinizi öğrenin. Bu kılavuz kurulumu, adım adım talimatları ve en iyi uygulamaları kapsar.
+Aspose.PDF for .NET kullanarak PDF sayfalarını EMF formatına nasıl dönüştürececeğinizi öğrenin. Bu kılavuz kurulumu, adım adım talimatları ve en iyi uygulamaları kapsar.
 
 ### [PDF'yi Aspose.PDF for .NET ile EMF'ye dönüştürün](./convert-pdf-to-emf-aspose-dotnet/)
 Aspose.PDF Net için bir kod öğreticisi
@@ -220,6 +220,9 @@ Aspose.PDF for .NET kullanarak PDF belgelerini harici PNG görüntüleriyle HTML
 
 ### [Aspose.PDF .NET ile PDF'yi HTML'ye Dönüştürme: Kapsamlı Bir Kılavuz](./aspose-pdf-net-pdf-to-html-conversion/)
 Aspose.PDF for .NET kullanarak PDF'den HTML'e dönüştürmede ustalaşın. Özelleştirilebilir seçeneklerle belge erişilebilirliğini ve etkileşimini geliştirin.
+
+### [PDF'yi HTML'ye Dönüştürme ve PDF İmzasını Doğrulama – Tam Aspose .NET Kılavuzu](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
+Aspose.PDF for .NET kullanarak PDF'yi HTML'ye dönüştürüp, aynı anda imzasını doğrulama adımlarını öğrenin.
 
 ### [Aspose.PDF for .NET ile PDF'yi HTML'ye Dönüştürme](./pdf-to-html-conversion-aspose-dot-net/)
 Aspose.PDF Net için bir kod öğreticisi

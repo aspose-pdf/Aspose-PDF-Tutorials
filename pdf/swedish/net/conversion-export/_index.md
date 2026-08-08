@@ -227,6 +227,9 @@ En kodhandledning för Aspose.PDF Net
 ### [PDF till TIFF-konvertering i .NET med Aspose.PDF: En steg-för-steg-guide](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Lär dig hur du konverterar PDF-dokument till TIFF-bilder med Aspose.PDF för .NET. Bemästra anpassade färgdjup och avancerade bildbehandlingstekniker.
 
+### [Konvertera PDF till HTML och verifiera PDF-signatur – Fullständig Aspose .NET-guide](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
+Lär dig hur du konverterar PDF till HTML och verifierar PDF-signaturer med Aspose.PDF för .NET i en komplett guide.
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

@@ -50,6 +50,9 @@ Découvrez comment imprimer efficacement des pages spécifiques d'un PDF avec As
 ### [Définir un facteur de zoom personnalisé dans les fichiers PDF avec Aspose.PDF pour .NET - Guide complet](./aspose-pdf-net-set-zoom-factor-pdfs/)
 Découvrez comment définir un facteur de zoom personnalisé dans les documents PDF avec Aspose.PDF pour .NET. Ce guide couvre l'installation, les étapes de mise en œuvre et les applications pratiques.
 
+### [Comment rendre un PDF en C# – Guide complet pour PNG, HTML et le marquage](./how-to-render-pdf-in-c-complete-guide-to-png-html-stamping/)
+Découvrez comment convertir des PDF en images PNG, générer du HTML et appliquer des filigranes avec Aspose.PDF pour .NET.
+
 ## Ressources supplémentaires
 
 - [Aspose.PDF pour la documentation réseau](https://docs.aspose.com/pdf/net/)

@@ -206,20 +206,14 @@ Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.PDF fü
 ### [So verfolgen Sie den PDF-Konvertierungsfortschritt mit Aspose.PDF für .NET: Eine Schritt-für-Schritt-Anleitung](./track-pdf-conversion-progress-aspose-dotnet/)
 Erfahren Sie, wie Sie den Fortschritt der PDF-Konvertierung mit Aspose.PDF für .NET effizient verfolgen. Folgen Sie dieser Schritt-für-Schritt-Anleitung, um Dokumenten-Workflows zu verbessern und das Benutzerfeedback zu verbessern.
 
-### [Master Aspose.PDF .NET: Konvertieren Sie PDF in HTML mit benutzerdefiniertem CSS](./aspose-pdf-net-license-html-conversion-custom-css/)
-Erfahren Sie, wie Sie eine Aspose.PDF-Lizenz anwenden und PDFs mit benutzerdefiniertem CSS und C# in HTML konvertieren. Schalten Sie noch heute alle Funktionen zur Dokumentverarbeitung frei.
-
-### [Meistern Sie die Schriftartensubstitution und PDF-Konvertierung mit Aspose.PDF .NET für Compliance und Markenkonsistenz](./mastering-font-substitution-pdf-conversion-asposepdf-net/)
-Erfahren Sie, wie Sie fehlende Schriftarten durch Ersetzen verwalten und PDFs mit Aspose.PDF .NET in standardisierte Formate konvertieren. Stellen Sie Compliance und Markenkonsistenz auf allen Plattformen sicher.
-
-### [Meistern Sie die PDF-zu-HTML-Konvertierung mit Schriftartenverwaltung in Aspose.PDF für .NET](./optimize-pdf-to-html-font-handling-aspose-net/)
-Erfahren Sie, wie Sie die Konvertierung von PDF in HTML mit Aspose.PDF für .NET optimieren, wobei der Schwerpunkt auf der effizienten Handhabung von Schriftartressourcen und der nahtlosen Integration liegt.
-
 ### [PDF-zu-HTML-Konvertierung mit Aspose.PDF .NET: Bilder als externe PNGs speichern](./pdf-to-html-conversion-external-png-aspose-pdf-net/)
 Erfahren Sie, wie Sie PDF-Dokumente mit externen PNG-Bildern mit Aspose.PDF für .NET in HTML konvertieren. Diese Anleitung gewährleistet Layouterhaltung und optimierte Web-Performance.
 
 ### [PDF-zu-HTML-Konvertierung mit Aspose.PDF .NET: Ein umfassender Leitfaden](./aspose-pdf-net-pdf-to-html-conversion/)
 Meistern Sie die PDF-zu-HTML-Konvertierung mit Aspose.PDF für .NET. Verbessern Sie die Zugänglichkeit und Interaktion von Dokumenten mit anpassbaren Optionen.
+
+### [PDF in HTML konvertieren und PDF-Signatur überprüfen – Vollständige Aspose .NET-Anleitung](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
+Erfahren Sie, wie Sie PDFs mit Aspose.PDF für .NET in HTML umwandeln und die digitale Signatur prüfen.
 
 ### [PDF-zu-HTML-Konvertierung mit Aspose.PDF für .NET](./pdf-to-html-conversion-aspose-dot-net/)
 Ein Code-Tutorial für Aspose.PDF Net
