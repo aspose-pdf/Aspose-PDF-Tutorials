@@ -73,8 +73,12 @@
 
 ### [สร้างเอกสาร PDF ด้วย Aspose.PDF – เพิ่มหน้า รูปร่างและบันทึก](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 เรียนรู้วิธีเพิ่มหน้า รูปร่างและบันทึกไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET
+
 ### [สร้างเอกสาร PDF ด้วย Aspose.PDF – คำแนะนำทีละขั้นตอน](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 เรียนรู้วิธีสร้างเอกสาร PDF อย่างละเอียดด้วย Aspose.PDF ผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ด
+
+### [สร้างเอกสาร PDF ด้วย C# – คู่มือทีละขั้นตอนเพื่อเพิ่มหน้าเปล่าและวาดสี่เหลี่ยม](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
+เรียนรู้วิธีเพิ่มหน้าเปล่าและวาดสี่เหลี่ยมในเอกสาร PDF ด้วย Aspose.PDF สำหรับ .NET ผ่าน C#
 
 ## แหล่งข้อมูลเพิ่มเติม
 

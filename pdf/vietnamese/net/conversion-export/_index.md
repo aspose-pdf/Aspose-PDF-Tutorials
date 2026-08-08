@@ -65,6 +65,9 @@ Hướng dẫn mã cho Aspose.PDF Net
 ### [Chuyển đổi PDF sang HTML bằng Aspose.PDF cho .NET: Hướng dẫn đầu ra luồng](./convert-pdf-html-aspose-dotnet-guide/)
 Tìm hiểu cách chuyển đổi tệp PDF sang HTML bằng Aspose.PDF cho .NET bằng cách sử dụng đầu ra luồng. Nâng cao khả năng tích hợp và khả năng truy cập web của bạn.
 
+### [Cách lưu HTML từ PDF – Hướng dẫn từng bước](./how-to-save-html-from-pdf-step-by-step-guide/)
+Hướng dẫn chi tiết cách lưu nội dung HTML từ tệp PDF bằng Aspose.PDF cho .NET.
+
 ### [Chuyển đổi PDF sang HTML trong .NET bằng Aspose.PDF mà không cần lưu hình ảnh](./convert-pdf-html-net-asposepdf-no-images/)
 Tìm hiểu cách chuyển đổi tệp PDF sang HTML bằng Aspose.PDF cho .NET mà không cần lưu hình ảnh riêng. Duy trì tính toàn vẹn của bố cục với hướng dẫn chi tiết của chúng tôi.
 

@@ -34,7 +34,11 @@ The tutorial gives you a detailed overview of methods and techniques to ensure t
 | [Sign With Smart Card Using Pdf File Signature](./sign-with-smart-card-using-pdf-file-signature/) | Learn how to sign PDF files using a smart card with Aspose.PDF for .NET. Follow this step-by-step guide for secure digital signatures. |  
 | [Sign With Smart Card Using Signature Field](./sign-with-smart-card-using-signature-field/) | Learn how to securely sign PDFs using a smart card with Aspose.PDF for .NET. Follow our step-by-step guide for easy implementation. |  
 | [Check PDF Signatures in C# – How to Read Signed PDF Files](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Learn how to read and verify PDF signatures using Aspose.PDF for .NET in C#. Step-by-step guide for developers. |  
+| [How to Verify PDF Signatures in C# – Full Guide](./how-to-verify-pdf-signatures-in-c-full-guide/) | Learn how to verify PDF signatures using Aspose.PDF for .NET in C#. Step-by-step guide for developers. |
 | [How to Repair PDF Files – Complete C# Guide with Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Learn how to repair corrupted PDF files using Aspose.PDF for .NET in a comprehensive C# guide. |
+| [How to Read Signatures in a PDF – Complete C# Guide](./how-to-read-signatures-in-a-pdf-complete-c-guide/) | Learn how to read PDF signatures using Aspose.PDF for .NET in C#. Follow this step-by-step guide for developers. |
+| [Digital signature c# – Load Certificate, Create PKCS7, and Sign Data](./digital-signature-c-load-certificate-create-pkcs7-and-sign-d/) | Learn how to load a certificate, create a PKCS7 signature, and sign data using Aspose.PDF for .NET in C#. |
+| [pdf signature tutorial – Verify and Validate PDF Signatures in C#](./pdf-signature-tutorial-verify-and-validate-pdf-signatures-in/) | Learn how to verify and validate PDF signatures using Aspose.PDF for .NET in C#. Step-by-step guide for developers. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

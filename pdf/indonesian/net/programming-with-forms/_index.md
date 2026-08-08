@@ -51,6 +51,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Mengatur Judul Tombol Radio](./set-radio-button-caption/) Pelajari cara mengatur teks tombol radio dalam PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini memandu Anda dalam memuat, memodifikasi, dan menyimpan formulir PDF. Bahasa Indonesia:  
 | [Kotak Teks](./text-box/) | Temukan cara mudah menambahkan kotak teks ke PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini. Tingkatkan interaksi pengguna. |
 | [Cara Membuat PDF dengan Aspose – Tambahkan Bidang Formulir dan Halaman](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Pelajari cara membuat PDF, menambahkan bidang formulir, dan menambah halaman menggunakan Aspose.PDF for .NET. |
+| [Buat Dokumen PDF C# – Panduan Langkah-demi-Langkah untuk Formulir Multi‑Halaman](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Pelajari cara membuat dokumen PDF multi‑halaman dengan formulir menggunakan Aspose.PDF for .NET dalam panduan langkah demi langkah ini. Bahasa Indonesia:  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

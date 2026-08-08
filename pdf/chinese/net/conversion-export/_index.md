@@ -80,6 +80,9 @@ Aspose.PDF Net 代码教程
 ### [使用 Aspose.PDF .NET 将 PDF 转换为带有自定义图像 URL 的 HTML：综合指南](./convert-pdf-html-custom-image-urls-aspose-pdf-net/)
 了解如何使用 Aspose.PDF for .NET 将 PDF 文档转换为 HTML 格式，包括自定义图像 URL 和实施定制的资源节省策略。
 
+### [如何从 PDF 保存 HTML – 分步指南](./how-to-save-html-from-pdf-step-by-step-guide/)
+学习使用 Aspose.PDF for .NET 将 PDF 文档中的 HTML 内容提取并保存为独立文件的完整步骤。
+
 ### [使用 Aspose.PDF .NET 将 PDF 转换为 PNG：增强字体提示以实现清晰的文本渲染](./convert-pdf-png-aspose-net-font-hinting/)
 了解如何使用 Aspose.PDF .NET 将 PDF 文档转换为高质量的 PNG 图像，确保通过字体提示实现清晰的文本呈现。
 

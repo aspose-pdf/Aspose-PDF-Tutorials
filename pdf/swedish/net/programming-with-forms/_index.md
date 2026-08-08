@@ -51,6 +51,7 @@ Dessa handledningar ger också detaljerade kodexempel, tydliga förklaringar och
 | [Ställ in bildtext för radioknapp](./set-radio-button-caption/) Lär dig hur du ställer in bildtexter för radioknappar i PDF-filer med Aspose.PDF för .NET. Den här steg-för-steg-guiden guidar dig genom hur du laddar, ändrar och sparar dina PDF-formulär. |
 | [Textruta](./text-box/) | Upptäck hur du enkelt lägger till textrutor i PDF-filer med Aspose.PDF för .NET med den här steg-för-steg-guiden. Förbättra användarinteraktionen. |
 | [Hur man skapar PDF med Aspose – Lägg till formulärfält och sidor](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Lär dig hur du skapar en PDF, lägger till formulärfält och sidor med Aspose.PDF för .NET i en steg-för-steg-guide. |
+| [Skapa PDF-dokument C# – Steg‑för‑steg‑guide för flersidiga formulär](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Lär dig skapa PDF-dokument med flera sidor och formulär i C# med Aspose.PDF för .NET i en steg‑för‑steg‑guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

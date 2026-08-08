@@ -51,6 +51,7 @@ Bu eğitimler ayrıca anlamanızı ve öğrenmenizi kolaylaştırmak için ayrı
 | [Radyo Düğmesi Başlığını Ayarla](./set-radio-button-caption/) Aspose.PDF for .NET kullanarak PDF'lerde radyo düğmesi başlıklarının nasıl ayarlanacağını öğrenin. Bu adım adım kılavuz, PDF formlarınızı yükleme, değiştirme ve kaydetme konusunda size yol gösterir. |  
 | [Metin Kutusu](./text-box/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF'lere metin kutularını zahmetsizce nasıl ekleyeceğinizi keşfedin. Kullanıcı etkileşimini geliştirin. |  
 | [Aspose ile PDF Oluşturma – Form Alanı ve Sayfalar Ekle](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Aspose.PDF for .NET kullanarak PDF'e form alanı eklemeyi ve sayfalar eklemeyi adım adım öğrenin. |  
+| [PDF Belgesi Oluşturma C# – Çok Sayfalı Formlar İçin Adım Adım Kılavuz](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Aspose.PDF for .NET kullanarak C# ile çok sayfalı PDF formları oluşturmayı adım adım öğrenin. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

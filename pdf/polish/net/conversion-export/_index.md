@@ -227,6 +227,9 @@ Samouczek dotyczący kodu dla Aspose.PDF Net
 ### [Konwersja PDF do TIFF w .NET przy użyciu Aspose.PDF: przewodnik krok po kroku](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Dowiedz się, jak konwertować dokumenty PDF na obrazy TIFF za pomocą Aspose.PDF dla .NET. Opanuj niestandardowe głębie kolorów i zaawansowane techniki przetwarzania obrazu.
 
+### [Jak zapisać HTML z PDF – przewodnik krok po kroku](./how-to-save-html-from-pdf-step-by-step-guide/)
+Dowiedz się, jak wyodrębnić i zapisać zawartość HTML z pliku PDF przy użyciu Aspose.PDF dla .NET w kilku prostych krokach.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

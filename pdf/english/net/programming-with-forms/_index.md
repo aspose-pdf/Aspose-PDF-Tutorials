@@ -51,6 +51,7 @@ These tutorials also provide detailed code examples, clear explanations, and ill
 | [Set Java Script](./set-java-script/) | Unlock the power of Aspose.PDF for .NET. Learn how to set up JavaScript on form fields with our step-by-step guide. |  
 | [Set Radio Button Caption](./set-radio-button-caption/) | Learn how to set radio button captions in PDFs using Aspose.PDF for .NET. This step-by-step guide walks you through loading, modifying, and saving your PDF forms. |  
 | [Text Box](./text-box/) | Discover how to effortlessly add text boxes to PDFs using Aspose.PDF for .NET with this step-by-step guide. Enhance user interaction. |  
+| [Create PDF Document C# – Step‑by‑Step Guide to Multi‑Page Forms](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Learn how to create multi‑page PDF forms in C# using Aspose.PDF for .NET with this step‑by‑step guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

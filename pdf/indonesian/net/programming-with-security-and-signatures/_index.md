@@ -35,6 +35,9 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Tanda Tangan Dengan Kartu Pintar Menggunakan Kolom Tanda Tangan](./sign-with-smart-card-using-signature-field/) | Pelajari cara menandatangani PDF dengan aman menggunakan kartu pintar dengan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah kami untuk penerapan yang mudah. |  
 | [Periksa Tanda Tangan PDF di C# – Cara Membaca File PDF yang Ditandatangani](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Pelajari cara memeriksa tanda tangan PDF dan membaca file PDF yang ditandatangani menggunakan Aspose.PDF untuk .NET. |  
 | [Cara Memperbaiki File PDF – Panduan Lengkap C# dengan Aspose.PDF](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Pelajari cara memperbaiki file PDF yang rusak menggunakan Aspose.PDF untuk .NET dengan panduan lengkap C#. Bahasa Indonesia:  
+| [Cara Memverifikasi Tanda Tangan PDF di C# – Panduan Lengkap](./how-to-verify-pdf-signatures-in-c-full-guide/) | Pelajari cara memverifikasi tanda tangan PDF menggunakan C# dengan Aspose.PDF untuk .NET dalam panduan lengkap langkah demi langkah. Bahasa Indonesia:  
+| [Cara Membaca Tanda Tangan dalam PDF – Panduan Lengkap C#](./how-to-read-signatures-in-a-pdf-complete-c-guide/) | Pelajari cara membaca tanda tangan PDF menggunakan C# dengan Aspose.PDF untuk .NET dalam panduan lengkap langkah demi langkah. Bahasa Indonesia:  
+| [Tutorial Tanda Tangan PDF – Verifikasi dan Validasi Tanda Tangan PDF di C#](./pdf-signature-tutorial-verify-and-validate-pdf-signatures-in/) | Pelajari cara memverifikasi dan memvalidasi tanda tangan digital pada file PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode C#. Bahasa Indonesia:  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

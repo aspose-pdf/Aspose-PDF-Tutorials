@@ -34,7 +34,10 @@
 | [Подпишите с помощью смарт-карты, используя подпись в файле PDF](./sign-with-smart-card-using-pdf-file-signature/) | Узнайте, как подписывать файлы PDF с помощью смарт-карты с Aspose.PDF для .NET. Следуйте этому пошаговому руководству для безопасных цифровых подписей. |  
 | [Подпишите с помощью смарт-карты, используя поле подписи](./sign-with-smart-card-using-signature-field/) | Узнайте, как безопасно подписывать PDF-файлы с помощью смарт-карты с помощью Aspose.PDF для .NET. Следуйте нашему пошаговому руководству для легкой реализации. |  
 | [Проверка подписей PDF в C# – Как читать подписанные PDF-файлы](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Узнайте, как проверять подписи PDF и читать подписанные файлы с помощью Aspose.PDF для .NET на C#. |  
+| [Как читать подписи в PDF – Полное руководство на C#](./how-to-read-signatures-in-a-pdf-complete-c-guide/) | Узнайте, как читать подписи в PDF‑файлах с помощью Aspose.PDF для .NET на C#. Пошаговое полное руководство. |  
 | [Как восстановить PDF-файлы – Полное руководство на C# с Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Узнайте, как восстанавливать поврежденные PDF-файлы с помощью Aspose.PDF для .NET. Пошаговое руководство на C#. |  
+| [Проверка подписей PDF в C# – Полное руководство](./how-to-verify-pdf-signatures-in-c-full-guide/) | Подробное руководство по проверке подписей PDF в C# с использованием Aspose.PDF для .NET. |  
+| [Учебник по подписи PDF – проверка и валидация подписей PDF в C#](./pdf-signature-tutorial-verify-and-validate-pdf-signatures-in/) | Узнайте, как проверять и валидировать цифровые подписи PDF в C# с помощью Aspose.PDF для .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

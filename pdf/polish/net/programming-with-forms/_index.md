@@ -51,7 +51,7 @@ Te samouczki zawierają również szczegółowe przykłady kodu, jasne wyjaśnie
 | [Ustaw podpis przycisku radiowego](./set-radio-button-caption/) Dowiedz się, jak ustawić podpisy przycisków radiowych w plikach PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik krok po kroku przeprowadzi Cię przez ładowanie, modyfikowanie i zapisywanie formularzy PDF. |
 | [Pole tekstowe](./text-box/) | Dowiedz się, jak bez wysiłku dodawać pola tekstowe do plików PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Ulepsz interakcję użytkownika. |
 | [Jak utworzyć PDF przy użyciu Aspose – Dodaj pole formularza i strony](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Dowiedz się, jak tworzyć pliki PDF, dodawać pola formularzy i zarządzać stronami przy użyciu Aspose.PDF dla .NET w tym przewodniku krok po kroku. |
-
+| [Utwórz dokument PDF C# – Przewodnik krok po kroku po formularzach wielostronicowych](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Dowiedz się, jak w C# tworzyć dokumenty PDF z wieloma stronami i formularzami przy użyciu Aspose.PDF dla .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

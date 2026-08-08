@@ -40,7 +40,7 @@ Kaynak, Aspose.PDF for .NET kütüphanesinin belge özelliğiyle programlaması 
 | [Font Değişimi İçin Uyarılar Alın](./getwarningsforfontsubstitution/) | Bir PDF belgesini açarken yazı tipi değiştirme uyarılarını algılamak için Aspose.PDF for .NET'in GetWarningsForFontSubstitution özelliğinin nasıl kullanılacağını öğrenin. |  
 | [XMP Meta Verilerini Alın](./getxmpmetadata/) | Bu adım adım kılavuzda .NET için Aspose.PDF kullanarak PDF'lerden XMP meta verilerini nasıl çıkaracağınızı öğrenin. PDF belgelerinizden değerli içgörüleri kolayca açığa çıkarın. |  
 | [Font Değişimi İçin Uyarılar Alın](./getwarningsforfontsubstitution/) | Bir PDF belgesini açarken yazı tipi değiştirme uyarılarını algılamak için Aspose.PDF for .NET'in GetWarningsForFontSubstitution özelliğinin nasıl kullanılacağını öğrenin. |  
-| [PDF Dosyasında Yakınlaştırma Faktörünü Alın](./getzoomfactor/) Bu adım adım kılavuzla PDF dosyasında yakınlaştırma faktörünü elde etmek için Aspose.PDF for .NET'i nasıl kullanacağınızı öğrenin. |  
+| [PDF Dosyasında Yakınlaştırma Faktörünü Alın](./getzoomfactor/) Bu adım adım kılavuzla PDF dosasında yakınlaştırma faktörünü elde etmek için Aspose.PDF for .NET'i nasıl kullanacağınızı öğrenin. |  
 | [İçindekiler Tablosunda Sayfa Numaralarını Gizle](./hidepagenumbersintoc/) | .NET için Aspose.PDF'yi kullanarak İçindekiler Tablosundaki sayfa numaralarını nasıl gizleyeceğinizi öğrenin. Profesyonel PDF'ler oluşturmak için bu ayrıntılı kılavuzu kod örnekleriyle takip edin. |  
 | [Bağlantı Yinelenen Akışlar](./linkduplicatestreams/) | Aspose.PDF for .NET kullanarak PDF belgelerindeki yinelenen akışları nasıl bağlayacağınızı öğrenin. Daha iyi performans ve daha küçük dosya boyutu için PDF'lerinizi optimize edin. |  
 | [PDF Belgesini Optimize Et](./optimizedocument/) | Aspose.PDF for .NET kullanarak PDF belgelerini adım adım nasıl optimize edeceğinizi öğrenin. Dosya boyutunu ve karmaşıklığını azaltarak web performansını artırın. |  
@@ -54,11 +54,11 @@ Kaynak, Aspose.PDF for .NET kütüphanesinin belge özelliğiyle programlaması 
 | [PDF Dosyasında XMP Meta Verilerini Ayarla](./setxmpmetadata/) | .NET için Aspose.PDF kullanarak bir PDF dosyasında XMP meta verilerinin nasıl ayarlanacağını öğrenin. Bu adım adım kılavuz, belgeyi kurmaktan kaydetmeye kadar tüm süreçte size yol gösterir. |  
 | [PDF Dosyasında Yakınlaştırma Faktörünü Ayarla](./setzoomfactor/) | Aspose.PDF for .NET kullanarak PDF dosyalarında yakınlaştırma faktörünün nasıl ayarlanacağını öğrenin. Bu adım adım kılavuzla kullanıcı deneyimini geliştirin. |  
 | [PDF Belgelerini Küçült](./shrinkdocuments/) | Bu adım adım kılavuzda Aspose.PDF for .NET kullanarak PDF belgelerini nasıl küçülteceğinizi öğrenin. PDF kaynaklarını optimize edin ve kaliteyi düşürmeden dosya boyutunu küçültün. |  
-| [Yazı Tiplerini Kaldırın ve PDF Dosyalarını Optimize Edin](./unembedfonts/) | Bu adım adım eğitimde Aspose.PDF for .NET kullanarak yazı tiplerini nasıl kaldıracağınızı ve PDF dosyalarını nasıl optimize edeceğinizi öğrenin.  
+| [Yazı Tiplerini Kaldırın ve PDF Dosalarını Optimize Edin](./unembedfonts/) | Bu adım adım eğitimde Aspose.PDF for .NET kullanarak yazı tiplerini nasıl kaldıracağınızı ve PDF dosalarını nasıl optimize edeceğinizi öğrenin.  
 | [PDF AB Standardını doğrulayın](./validatepdfabstandard/) Bu adım adım eğitimde Aspose.PDF for .NET kullanarak PDF/A-1b standardı için bir PDF'yi nasıl doğrulayacağınızı öğrenin. Uzun vadeli arşivleme için uyumluluğu sağlayın. |  
-| [PDF Dosyalarını Doğrula A Standardı](./validatepdfastandard/) | Bu kapsamlı adım adım eğitimde, Aspose.PDF for .NET kullanarak PDF dosyalarının PDF/A-1a standardına göre nasıl doğrulanacağını öğrenin.  
-| [PDF UA Standardını doğrulayın](./validatepdfuastandard/) | Aspose.PDF for .NET'i kullanarak adım adım kılavuzumuz ve detaylı açıklamalarımızla PDF/UA erişilebilirlik standardı için bir PDF'nin nasıl doğrulanacağını öğrenin.  
-
+| [PDF Dosyalarını Doğrula A Standardı](./validatepdfastandard/) | Bu kapsamlı adım adım eğitimde, Aspose.PDF for .NET kullanarak PDF dosalarının PDF/A-1a standardına göre nasıl doğrulanacağını öğrenin.  
+| [PDF UA Standardını doğrulayın](./validatepdfuastandard/) | Aspose.PDF for .NET'i kullanarak adım adım kılavuzumuz ve detaylı açıklamalarımızla PDF/UA erişilebilirlik standardı için bir PDF'nin nasıl doğrulanacağını öğrenin. |
+| [PDF Dosyasını Aç C# – Bozuk PDF'yi Dakikalar İçinde Onarma](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | Aspose.PDF for .NET kullanarak bozuk bir PDF dosyasını hızlıca onarmayı öğrenin. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
