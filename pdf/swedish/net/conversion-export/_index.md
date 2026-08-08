@@ -221,6 +221,9 @@ Lär dig hur du konverterar PDF-dokument till HTML med externa PNG-bilder med As
 ### [PDF till HTML-konvertering med Aspose.PDF .NET: En omfattande guide](./aspose-pdf-net-pdf-to-html-conversion/)
 Bemästra PDF-till-HTML-konvertering med Aspose.PDF för .NET. Förbättra dokumenttillgänglighet och engagemang med anpassningsbara alternativ.
 
+### [Spara PDF som HTML med Aspose.PDF – Komplett C#-guide](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
+Lär dig hur du konverterar PDF till HTML med Aspose.PDF i C#, steg-för-steg med kodexempel.
+
 ### [PDF till HTML-konvertering med Aspose.PDF för .NET](./pdf-to-html-conversion-aspose-dot-net/)
 En kodhandledning för Aspose.PDF Net
 

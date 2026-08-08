@@ -44,6 +44,9 @@ Erfahren Sie, wie Sie optisch ansprechende PDF-Dokumente erstellen, indem Sie mi
 ### [Zeichnen Sie transparente Formen in PDFs mit Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 Ein Code-Tutorial für Aspose.PDF Net
 
+### [Transparenz zu PDF mit Aspose PDF in C# hinzufügen – Schritt‑für‑Schritt‑Anleitung](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET Transparenz in PDF-Dokumenten hinzufügen und anpassen – eine praktische Schritt‑für‑Schritt‑Anleitung.
+
 ### [Effiziente PDF-Bildidentifizierung mit Aspose.PDF für .NET](./master-image-identification-aspose-pdf-net/)
 Erfahren Sie, wie Sie Graustufen- und RGB-Bilder in PDFs mit Aspose.PDF für .NET identifizieren. Dieses Tutorial behandelt Installation, Bildextraktion und Performance-Tipps.
 
@@ -59,7 +62,7 @@ Ein Code-Tutorial für Aspose.PDF Net
 ### [Extrahieren Sie Bilder aus PDF-Signaturen mit Aspose.PDF .NET: Ein umfassender Leitfaden](./extract-images-pdf-signatures-aspose-pdf-dotnet/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET in PDF-Signaturen eingebettete Bilder extrahieren. Diese Anleitung bietet Schritt-für-Schritt-Anleitungen und praktische Anwendungen.
 
-### [Extrahieren Sie Bilder aus PDF mit Aspose.PDF für .NET](./extract-images-pdfs-aspose-pdf-net/)
+### [Extrahieren Sie Bilder aus PDF mit Aspose.PDF .NET](./extract-images-pdfs-aspose-pdf-net/)
 Ein Code-Tutorial für Aspose.PDF Net
 
 ### [Schnelle Bildverkleinerung in PDFs mit Aspose.PDF .NET: Bilder effizient optimieren und komprimieren](./optimize-pdf-images-aspose-net-fast-compression/)

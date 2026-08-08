@@ -164,6 +164,9 @@ Dowiedz się, jak przekształcać złożone skrypty LaTeX w dokumenty PDF za pom
 ### [Ustawianie tła obrazu w plikach PDF za pomocą Aspose.PDF dla .NET: kompleksowy przewodnik](./aspose-pdf-net-set-image-backgrounds/)
 Dowiedz się, jak ulepszyć swoje dokumenty PDF, ustawiając tła obrazów za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje wskazówki dotyczące konfiguracji, implementacji i optymalizacji.
 
+### [Dodaj przezroczystość do PDF przy użyciu Aspose PDF w C# – Przewodnik krok po kroku](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Dowiedz się, jak w C# dodać przezroczystość do plików PDF przy użyciu Aspose.PDF, krok po kroku.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

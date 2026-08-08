@@ -204,7 +204,7 @@ Aspose.PDF Net 代码教程
 通过本分步教程学习如何使用 Aspose.PDF for .NET 将网页转换为 PDF。非常适合文档管理和离线访问。
 
 ### [如何使用 Aspose.PDF for .NET 跟踪 PDF 转换进度：分步指南](./track-pdf-conversion-progress-aspose-dotnet/)
-了解如何使用 Aspose.PDF for .NET 高效跟踪 PDF 转换进度。遵循本分步指南，增强文档工作流程并提升用户反馈。
+了解如何使用 Aspose.PDF for .NET 高效地跟踪 PDF 转换进度。遵循本分步指南，增强文档工作流程并提升用户反馈。
 
 ### [掌握 Aspose.PDF .NET：使用自定义 CSS 将 PDF 转换为 HTML](./aspose-pdf-net-license-html-conversion-custom-css/)
 了解如何应用 Aspose.PDF 许可证，并使用 C# 将 PDF 转换为带有自定义 CSS 的 HTML。立即解锁完整的文档处理功能。
@@ -221,11 +221,14 @@ Aspose.PDF Net 代码教程
 ### [使用 Aspose.PDF .NET 将 PDF 转换为 HTML：综合指南](./aspose-pdf-net-pdf-to-html-conversion/)
 使用 Aspose.PDF for .NET 掌握 PDF 到 HTML 的转换。通过可自定义的选项增强文档的可访问性和参与度。
 
-### [使用 Aspose.PDF for .NET 将 PDF 转换为 HTML](./pdf-to-html-conversion-aspose-dot-net/)
+### [使用 Aspose.PDF .NET 将 PDF 转换为 HTML](./pdf-to-html-conversion-aspose-dot-net/)
 Aspose.PDF Net 代码教程
 
 ### [使用 Aspose.PDF 在 .NET 中将 PDF 转换为 TIFF：分步指南](./pdf-to-tiff-conversion-aspose-pdf-net/)
 学习如何使用 Aspose.PDF for .NET 将 PDF 文档转换为 TIFF 图像。掌握自定义色深和高级图像处理技术。
+
+### [使用 Aspose.PDF 将 PDF 保存为 HTML – 完整 C# 指南](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
+学习如何使用 Aspose.PDF for .NET 将 PDF 保存为 HTML，提供完整的 C# 示例代码和步骤说明。
 
 ## 其他资源
 

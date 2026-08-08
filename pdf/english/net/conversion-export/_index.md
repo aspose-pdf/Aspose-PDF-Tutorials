@@ -65,6 +65,9 @@ A code tutorial for Aspose.PDF Net
 ### [Convert PDF to HTML Using Aspose.PDF for .NET&#58; Stream Output Guide](./convert-pdf-html-aspose-dotnet-guide/)
 Learn how to convert PDF files to HTML with Aspose.PDF for .NET using stream output. Enhance your web integration and accessibility.
 
+### [Save PDF as HTML using Aspose.PDF – Complete C# Guide](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
+Learn how to save PDF files as HTML using Aspose.PDF in C#, covering conversion settings, customization, and best practices.
+
 ### [Convert PDF to HTML in .NET Using Aspose.PDF Without Saving Images](./convert-pdf-html-net-asposepdf-no-images/)
 Learn how to convert PDF files to HTML using Aspose.PDF for .NET without saving images separately. Maintain layout integrity with our detailed guide.
 
