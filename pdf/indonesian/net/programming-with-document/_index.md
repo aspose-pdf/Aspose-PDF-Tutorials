@@ -50,7 +50,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Tetapkan Font Default](./setdefaultfont/) | Pelajari cara mengatur font default dalam file PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini. Sempurna bagi pengembang yang ingin menyempurnakan dokumen PDF. Bahasa Indonesia:  
 | [Tetapkan Tanggal Kedaluwarsa](./setexpirydate/) | Pelajari cara menetapkan tanggal kedaluwarsa dalam file PDF menggunakan Aspose.PDF untuk .NET. Tingkatkan keamanan dokumen dengan panduan langkah demi langkah ini. Bahasa Indonesia:  
 | [Atur Info File Dalam File PDF](./setfileinfo/) | Pelajari cara mengatur info file dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Sempurnakan PDF Anda dengan metadata dengan mudah. Bahasa Indonesia:  
-| [Tetapkan Properti untuk Dialog Cetak](./setpropertiesforprintdialog/) Manfaatkan potensi pembuatan PDF dengan Aspose.PDF untuk .NET. Panduan ini membantu Anda mengatur properti cetak dengan mudah. Bahasa Indonesia:  
+| [Tetapkan Properti untuk Dialog Cetak](./setpropertiesforprintdialog/) | Manfaatkan potensi pembuatan PDF dengan Aspose.PDF untuk .NET. Panduan ini membantu Anda mengatur properti cetak dengan mudah. Bahasa Indonesia:  
 | [Tetapkan Metadata XMP Dalam File PDF](./setxmpmetadata/) | Pelajari cara mengatur metadata XMP dalam file PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini memandu Anda melalui seluruh proses, mulai dari pengaturan hingga penyimpanan dokumen. Bahasa Indonesia:  
 | [Mengatur Faktor Zoom Dalam File PDF](./setzoomfactor/) | Pelajari cara mengatur faktor zoom dalam file PDF menggunakan Aspose.PDF untuk .NET. Tingkatkan pengalaman pengguna dengan panduan langkah demi langkah ini. Bahasa Indonesia:  
 | [Kecilkan Dokumen PDF](./shrinkdocuments/) | Pelajari cara mengecilkan dokumen PDF menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah ini. Optimalkan sumber daya PDF dan kurangi ukuran file tanpa mengurangi kualitas. Bahasa Indonesia:  
@@ -58,6 +58,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Validasi PDF AB Standar](./validatepdfabstandard/) Pelajari cara memvalidasi PDF untuk standar PDF/A-1b menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini. Pastikan kepatuhan untuk pengarsipan jangka panjang. Bahasa Indonesia:  
 | [Validasi File PDF Standar](./validatepdfastandard/) | Pelajari cara memvalidasi file PDF terhadap standar PDF/A-1a menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah yang komprehensif ini. Bahasa Indonesia:  
 | [Validasi PDF UA Standar](./validatepdfuastandard/) | Pelajari cara memvalidasi PDF untuk standar aksesibilitas PDF/UA menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah dan penjelasan terperinci kami. |  
+| [Cara Membaca Dokumen Word dan Mengekstrak Halaman Tertentu dari Word – Panduan C#](./how-to-read-word-document-and-extract-specific-page-from-wor/) | Pelajari cara membaca dokumen Word dan mengekstrak halaman tertentu menggunakan Aspose.Words untuk .NET dengan C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

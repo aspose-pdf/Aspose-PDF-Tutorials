@@ -44,11 +44,12 @@ Os tutoriais "Programação com Imagens" do Aspose.PDF para .NET guiam você pel
 | [Página para PNG](./page-to-png/) | Aprenda como converter facilmente páginas PDF em imagens PNG usando o Aspose.PDF para .NET em nosso tutorial passo a passo detalhado. |  
 | [Página PDF para TIFF](./page-to-tiff/) | Aprenda a converter páginas PDF em imagens TIFF de alta qualidade usando o Aspose.PDF para .NET. Este guia passo a passo aborda resolução, compactação e muito mais. |  
 | [Substituir imagem em arquivo PDF](./replace-image/) | Substitua facilmente imagens em arquivos PDF usando o Aspose.PDF para .NET. Siga este guia para obter instruções passo a passo e aprimorar suas habilidades de gerenciamento de PDF. |  
-| [Redimensionar imagens em arquivo PDF](./resize-images/) | Aprenda a redimensionar imagens em um arquivo PDF usando o Aspose.PDF para .NET com este guia detalhado. Otimize o tamanho do arquivo sem perder qualidade. |  
+| [Redimensionar imagens em arquivo PDF](./resize-images/) | Aprenda a redimensionar imagens em um PDF usando o Aspose.PDF para .NET com este guia detalhado. Otimize o tamanho do arquivo sem perder qualidade. |  
 | [Pesquise e obtenha imagens em arquivo PDF](./search-and-get-images/) | Aprenda a extrair imagens de arquivos PDF sem esforço com o Aspose.PDF para .NET. Siga este guia passo a passo para aprimorar suas habilidades de processamento de PDF. |  
 | [Definir tamanho da imagem no arquivo PDF](./set-image-size/) | Aprenda a definir o tamanho da imagem em um PDF usando o Aspose.PDF para .NET. Este guia passo a passo ajudará você a redimensionar imagens, ajustar as propriedades da página e salvar PDFs. |  
 | [Reduzir imagens em arquivo PDF](./shrink-images/) | Reduza facilmente imagens em arquivos PDF usando o Aspose.PDF para .NET com este guia passo a passo, garantindo tamanhos de arquivo menores e mantendo a qualidade. |  
 | [Armazenar imagem na coleção XImage](./store-image-in-ximage-collection/) | Aprenda como armazenar imagens na coleção XImage usando o Aspose.PDF para .NET neste guia passo a passo completo. |  
+| [Adicionar Figura ao Word – Guia Completo de Programação em C#](./add-figure-to-word-complete-c-programming-guide/) | Aprenda a inserir figuras em documentos Word usando Aspose.Words para .NET com este guia passo a passo em C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

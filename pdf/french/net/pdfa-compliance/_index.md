@@ -38,6 +38,9 @@ Découvrez comment valider la conformité PDF/A-1a avec Aspose.PDF pour .NET. Ce
 ### [Maîtriser la validation PDF/A avec Aspose.PDF pour .NET en C#](./master-pdfa-validation-aspose-pdf-net/)
 Apprenez à valider vos documents PDF selon les normes PDF/A avec Aspose.PDF .NET. Assurez votre conformité et améliorez la fiabilité de vos documents grâce à notre guide étape par étape.
 
+### [Comment créer un PDF/A en C# – Convertir facilement un PDF en PDF/A](./how-to-create-pdf-a-in-c-convert-pdf-to-pdf-a-easily/)
+Apprenez à créer et convertir rapidement des PDF en PDF/A avec Aspose.PDF en C#.
+
 ## Ressources supplémentaires
 
 - [Aspose.PDF pour la documentation réseau](https://docs.aspose.com/pdf/net/)

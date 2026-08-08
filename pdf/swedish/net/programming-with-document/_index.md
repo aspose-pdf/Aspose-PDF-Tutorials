@@ -58,6 +58,7 @@ Resursen innehåller handledningar om Aspose.PDF för .NET-bibliotekets programm
 | [Validera PDF AB-standarden](./validatepdfabstandard/) Lär dig hur du validerar en PDF för PDF/A-1b-standarden med Aspose.PDF för .NET i den här steg-för-steg-handledningen. Säkerställ efterlevnad för långsiktig arkivering. |  
 | [Validera PDF-filer som standard](./validatepdfastandard/) | Lär dig hur du validerar PDF-filer mot PDF/A-1a-standarden med hjälp av Aspose.PDF för .NET i den här omfattande steg-för-steg-handledningen. |  
 | [Validera PDF UA-standard](./validatepdfuastandard/) | Lär dig hur du validerar en PDF för PDF/UA-tillgänglighetsstandarden med Aspose.PDF för .NET med vår steg-för-steg-guide och detaljerade förklaringar. |  
+| [Hur du läser Word-dokument och extraherar en specifik sida från Word – C#-guide](./how-to-read-word-document-and-extract-specific-page-from-wor/) | Lär dig hur du läser ett Word-dokument och extraherar en specifik sida med C# i Aspose.Words för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

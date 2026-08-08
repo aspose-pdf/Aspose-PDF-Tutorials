@@ -58,6 +58,7 @@ Cette ressource comprend des tutoriels sur la fonctionnalité de programmation a
 | [Valider la norme PDF AB](./validatepdfabstandard/) Découvrez comment valider un PDF selon la norme PDF/A-1b avec Aspose.PDF pour .NET grâce à ce tutoriel étape par étape. Assurez la conformité pour un archivage à long terme. |  
 | [Valider les fichiers PDF Une norme](./validatepdfastandard/) | Apprenez à valider les fichiers PDF par rapport à la norme PDF/A-1a à l'aide d'Aspose.PDF pour .NET dans ce didacticiel complet étape par étape. |  
 | [Valider la norme PDF UA](./validatepdfuastandard/) | Apprenez à valider un PDF pour la norme d'accessibilité PDF/UA à l'aide d'Aspose.PDF pour .NET avec notre guide étape par étape et nos explications détaillées. |  
+| [Comment lire un document Word et extraire une page spécifique – Guide C#](./how-to-read-word-document-and-extract-specific-page-from-wor/) | Apprenez à lire un document Word et à extraire une page précise à l'aide d'Aspose.Words pour .NET en C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

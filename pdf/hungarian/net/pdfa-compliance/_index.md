@@ -23,6 +23,9 @@ Kód oktatóanyag az Aspose.PDF Nethez
 ### [PDF konvertálása PDF/A formátumra Aspose.PDF .NET használatával: Lépésről lépésre útmutató a megfelelőséghez](./convert-pdf-to-pdfa-aspose-dotnet-guide/)
 Tanulja meg, hogyan konvertálhat hagyományos PDF-fájlokat PDF/A-1b kompatibilis dokumentumokká az Aspose.PDF .NET segítségével. Biztosítsa az archiválási minőséget és megfelelőséget ezzel a részletes, lépésről lépésre haladó útmutatóval.
 
+### [Hogyan hozzunk létre PDF/A-t C#-ban – PDF konvertálása PDF/A formátumba egyszerűen](./how-to-create-pdf-a-in-c-convert-pdf-to-pdf-a-easily/)
+Ismerje meg, hogyan konvertálhatja a PDF-fájlokat PDF/A formátumba C# és az Aspose.PDF .NET segítségével egyszerűen.
+
 ### [PDF konvertálása PDF/A-3B formátumra az Aspose.PDF for .NET segítségével](./convert-pdf-to-pdfa-3b-aspose-net/)
 Kód oktatóanyag az Aspose.PDF Nethez
 

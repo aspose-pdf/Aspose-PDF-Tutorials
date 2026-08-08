@@ -58,6 +58,7 @@ Az anyag oktatóanyagokat tartalmaz az Aspose.PDF for .NET könyvtár dokumentum
 | [PDF AB szabvány érvényesítése](./validatepdfabstandard/) Ebben a lépésről lépésre szóló útmutatóban megtudhatja, hogyan validálhatja a PDF-fájlokat PDF/A-1b szabványnak megfelelően az Aspose.PDF for .NET használatával. Biztosítsa a megfelelőséget a hosszú távú archiváláshoz. |  
 | [PDF fájlok validálása szabványként](./validatepdfastandard/) | Ebben az átfogó, lépésről lépésre bemutató útmutatóban megtudhatja, hogyan validálhatja a PDF-fájlokat a PDF/A-1a szabvány alapján az Aspose.PDF for .NET használatával. |  
 | [PDF UA szabvány validálása](./validatepdfuastandard/) | Tanulja meg, hogyan validálhatja a PDF-fájlokat a PDF/UA akadálymentesítési szabványnak megfelelően az Aspose.PDF for .NET használatával lépésről lépésre bemutatott útmutatónkkal és részletes magyarázatainkkal. |  
+| [Hogyan olvassunk Word dokumentumot és nyerjünk ki egy adott oldalt Word-ből – C# útmutató](./how-to-read-word-document-and-extract-specific-page-from-wor/) | Ismerje meg, hogyan olvashat Word dokumentumot és nyerhet ki belőle egy adott oldalt C#-ban az Aspose.Words for .NET használatával. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

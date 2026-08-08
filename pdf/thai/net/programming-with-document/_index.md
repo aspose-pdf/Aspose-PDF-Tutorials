@@ -58,6 +58,7 @@
 - [ตรวจสอบมาตรฐาน PDF AB](./validatepdfabstandard/) เรียนรู้วิธีการตรวจสอบ PDF สำหรับมาตรฐาน PDF/A-1b โดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนแบบทีละขั้นตอนนี้ รับรองว่าเป็นไปตามข้อกำหนดสำหรับการเก็บถาวรในระยะยาว -  
 | [ตรวจสอบไฟล์ PDF เป็นมาตรฐาน](./validatepdfastandard/) | เรียนรู้วิธีการตรวจสอบไฟล์ PDF ตามมาตรฐาน PDF/A-1a โดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนทีละขั้นตอนที่ครอบคลุมนี้  
 - [ตรวจสอบมาตรฐาน PDF UA](./validatepdfuastandard/) | เรียนรู้วิธีการตรวจสอบ PDF สำหรับมาตรฐานการเข้าถึง PDF/UA โดยใช้ Aspose.PDF สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนและคำอธิบายโดยละเอียดของเรา  
+- [วิธีอ่านไฟล์ Word และดึงหน้าที่ต้องการจาก Word – คู่มือ C#](./how-to-read-word-document-and-extract-specific-page-from-wor/) | เรียนรู้วิธีอ่านไฟล์ Word และดึงหน้าที่ต้องการโดยใช้ Aspose.Words สำหรับ .NET ด้วย C# อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

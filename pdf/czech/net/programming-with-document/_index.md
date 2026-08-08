@@ -58,6 +58,7 @@ Zdroj obsahuje návody k programování s funkcí dokumentů v knihovně Aspose.
 | [Ověřit PDF AB Standard](./validatepdfabstandard/) V tomto podrobném návodu se naučte, jak ověřit PDF pro standard PDF/A-1b pomocí Aspose.PDF pro .NET. Zajistěte shodu s předpisy pro dlouhodobou archivaci. |  
 | [Ověřování PDF souborů – standard](./validatepdfastandard/) | V tomto komplexním návodu se naučte, jak ověřit soubory PDF podle standardu PDF/A-1a pomocí nástroje Aspose.PDF pro .NET. |  
 | [Ověření standardu PDF UA](./validatepdfuastandard/) | Naučte se, jak ověřit PDF pro standard přístupnosti PDF/UA pomocí Aspose.PDF pro .NET s naším podrobným návodem a podrobným vysvětlením. |  
+| [Jak číst dokument Word a extrahovat konkrétní stránku z Wordu – průvodce C#](./how-to-read-word-document-and-extract-specific-page-from-wor/) | Naučte se, jak pomocí Aspose.Words pro .NET načíst dokument Word a extrahovat konkrétní stránku v C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
