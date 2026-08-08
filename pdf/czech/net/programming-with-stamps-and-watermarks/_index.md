@@ -20,6 +20,7 @@ Výukové programy „Programování s razítky a vodoznaky“ pro .NET od Aspos
 ## Návody
 | Název | Popis |
 | --- | --- | 
+| [Přidat Batesovo číslování do PDF v C# – Kompletní krok za krokem průvodce](./add-bates-numbering-to-pdf-in-c-complete-step-by-step-guide/) Naučte se, jak přidat Batesovo číslování do PDF souborů pomocí Aspose.PDF pro .NET v tomto podrobném návodu. |  
 | [Přidat datum a časové razítko do souboru PDF](./add-date-time-stamp/) Naučte se, jak přidat datum a časové razítko do souborů PDF pomocí Aspose.PDF pro .NET s tímto podrobným návodem. Ideální pro zvýšení autenticity dokumentů. |  
 | [Přidat obrazové razítko do souboru PDF](./add-image-stamp/) | Naučte se, jak přidat obrázkové razítko do PDF souborů pomocí Aspose.PDF pro .NET s podrobnými pokyny a ukázkovým kódem. |  
 | [Přidání různých záhlaví do souboru PDF](./adding-different-headers/) | Naučte se, jak přidat různé záhlaví do PDF souborů pomocí Aspose.PDF pro .NET. Podrobný návod pro přizpůsobení PDF souborů. |  

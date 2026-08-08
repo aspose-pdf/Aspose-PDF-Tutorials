@@ -44,10 +44,10 @@ Aspose.PDF .NET kullanarak paragrafları çıkarıp vurgulayarak görsel olarak 
 ### [Aspose.PDF .NET ile PDF'lere Şeffaf Şekiller Çizin](./draw-transparent-shapes-aspose-pdf-net/)
 Aspose.PDF Net için bir kod öğreticisi
 
-### [Aspose.PDF for .NET ile Verimli PDF Görüntü Tanımlama](./master-image-identification-aspose-pdf-net/)
-Aspose.PDF for .NET kullanarak PDF'lerdeki gri tonlamalı ve RGB görüntüleri nasıl tanımlayacağınızı öğrenin. Bu eğitim, kurulum, görüntü çıkarma ve performans ipuçlarını kapsar.
+### [.NET için Aspose.PDF Kullanarak PDF'lerde Şeffaf Dikdörtgenler Nasıl Oluşturulur](./create-transparent-rectangles-aspose-pdf-dotnet/)
+Aspose.PDF for .NET kullanarak alfa şeffaflığında dikdörtgenler oluşturarak PDF belgelerinizi nasıl geliştireceğinizi öğrenin. Bu adım adım kılavuzu izleyin.
 
-### [Aspose.PDF for .NET ile Görüntü Akışlarını PDF'lere Verimli Şekilde Dönüştürün](./convert-image-stream-to-pdf-aspose-dotnet/)
+### [.NET için Aspose.PDF Kullanarak PDF'lerde Görüntü Akışlarını Verimli Şekilde Dönüştürün](./convert-image-stream-to-pdf-aspose-dotnet/)
 Aspose.PDF for .NET kullanarak görüntü akışlarını profesyonel kalitede PDF belgelerine nasıl dönüştüreceğinizi öğrenin. Belge iş akışlarınızı geliştirmek için bu adım adım kılavuzu izleyin.
 
 ### [Aspose.PDF ile PDF Bölgelerini Görüntülere Çıkarın ve Dönüştürün](./extract-convert-pdf-regions-aspose-net/)
@@ -163,6 +163,9 @@ Aspose.PDF for .NET kullanarak PDF belgelerindeki görüntüleri nasıl sıkış
 
 ### [.NET için Aspose.PDF Kullanarak PDF'lerde Görüntü Arka Planları Ayarlama: Kapsamlı Bir Kılavuz](./aspose-pdf-net-set-image-backgrounds/)
 Aspose.PDF for .NET kullanarak görüntü arka planları ayarlayarak PDF belgelerinizi nasıl geliştireceğinizi öğrenin. Bu kılavuz kurulum, uygulama ve optimizasyon ipuçlarını kapsar.
+
+### [.NET için Aspose.PDF ile PDF'e Şekil Ekleme: Adım Adım Kılavuz](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+C# ve Aspose.PDF kullanarak PDF belgelerine şekil eklemeyi, konumlandırmayı ve özelleştirmeyi öğrenin.
 
 ## Ek Kaynaklar
 

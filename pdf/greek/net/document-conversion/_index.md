@@ -57,7 +57,9 @@
 | [XML σε PDF](./xml-to-pdf/) | Μάθετε πώς να μετατρέψετε XML σε PDF χρησιμοποιώντας το Aspose.PDF για .NET σε αυτό το ολοκληρωμένο βήμα προς βήμα σεμινάριο, με παραδείγματα κώδικα και λεπτομερείς εξηγήσεις. |  
 | [Ορισμός διαδρομής εικόνας από XML σε PDF](./xml-to-pdfset-image-path/) | Μάθετε πώς να μετατρέπετε εύκολα XML σε PDF χρησιμοποιώντας το Aspose.PDF για .NET. Αυτός ο λεπτομερής οδηγός σας καθοδηγεί βήμα προς βήμα στη διαδικασία, από την εγκατάσταση έως την ολοκλήρωσή της. |  
 | [XPS σε PDF](./xps-to-pdf/) Μάθετε πώς να μετατρέπετε αρχεία XPS σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με αυτό το βήμα προς βήμα εκπαιδευτικό βίντεο. Ιδανικό για προγραμματιστές και λάτρους των εγγράφων. |  
-| [Μετατροπή PDF σε PDF/X‑4 σε C# – Βήμα‑βήμα Εκπαιδευτικό Σεμινάριο ASP.NET PDF](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Μάθετε πώς να μετατρέψετε αρχεία PDF σε PDF/X‑4 χρησιμοποιώντας το Aspose.PDF για .NET σε αυτόν τον αναλυτικό οδηγό βήμα‑βήμα. |  
+| [Μετατροπή PDF σε PDF/X‑4 σε C# – Βήμα‑βήμα Εκπαιδευτικό Σεμινάριο ASP.NET PDF](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Μάθετε πώς να μετατρέψετε αρχεία PDF σε PDF/X‑4 χρησιμοποιώντας το Aspose.PDF για .NET σε αυτόν τον αναλυτικό οδηγό βήμα‑βήμα. |
+| [Aspose PDF Conversion Tutorial – Convert PDFs to PDF/X‑4 Step‑by‑Step](./aspose-pdf-conversion-tutorial-convert-pdfs-to-pdf-x-4-step/) | Μάθετε πώς να μετατρέψετε PDF σε PDF/X‑4 βήμα‑βήμα χρησιμοποιώντας το Aspose.PDF για .NET. |
+| [Φόρτωση εγγράφου PDF και μετατροπή σε PDF/X‑4 – Πλήρης οδηγός](./load-pdf-document-and-convert-to-pdf-x-4-complete-guide/) | Μάθετε πώς να φορτώνετε ένα έγγραφο PDF και να το μετατρέπετε σε PDF/X‑4 χρησιμοποιώντας το Aspose.PDF για .NET σε αυτόν τον πλήρη οδηγό βήμα‑βήμα. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -22,6 +22,7 @@ These tutorials also provide detailed code examples, clear explanations, and ill
 | Title | Description |
 | --- | --- | 
 | [Add Tooltip To Field](./add-tooltip-to-field/) | Learn how to add tooltips to form fields in PDF documents using Aspose.PDF for .NET in this step-by-step guide. Improve usability and user experience. |  
+| [Add Text Box to PDF Form – Complete C# Guide](./add-text-box-to-pdf-form-complete-c-guide/) | Learn how to add a text box to a PDF form using Aspose.PDF for .NET with this complete C# guide. |
 | [Arabic Text Filling](./arabic-text-filling/) | Learn how to fill Arabic text in PDF forms using Aspose.PDF for .NET with this step-by-step tutorial. Enhance your PDF manipulation skills. |  
 | [Combo Box](./combo-box/) | Learn how to add a Combo Box to a PDF using Aspose.PDF for .NET. Follow our step-by-step guide to create interactive PDF forms easily. |  
 | [Create Document](./create-doc/) | Learn to create interactive PDF documents with radio buttons using Aspose.PDF for .NET in this comprehensive step-by-step guide. |  

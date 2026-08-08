@@ -50,6 +50,7 @@ Dessa handledningar ger också detaljerade kodexempel, tydliga förklaringar och
 | [Ställ in Java-skript](./set-java-script/) | Lås upp kraften hos Aspose.PDF för .NET. Lär dig hur du konfigurerar JavaScript i formulärfält med vår steg-för-steg-guide. |
 | [Ställ in bildtext för radioknapp](./set-radio-button-caption/) Lär dig hur du ställer in bildtexter för radioknappar i PDF-filer med Aspose.PDF för .NET. Den här steg-för-steg-guiden guidar dig genom hur du laddar, ändrar och sparar dina PDF-formulär. |
 | [Textruta](./text-box/) | Upptäck hur du enkelt lägger till textrutor i PDF-filer med Aspose.PDF för .NET med den här steg-för-steg-guiden. Förbättra användarinteraktionen. |
+| [Lägg till textruta i PDF-formulär – Komplett C#-guide](./add-text-box-to-pdf-form-complete-c-guide/) | Lär dig hur du lägger till en textruta i ett PDF-formulär med Aspose.PDF för .NET i denna kompletta C#-guide. |
 | [Hur man skapar PDF med Aspose – Lägg till formulärfält och sidor](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Lär dig hur du skapar en PDF, lägger till formulärfält och sidor med Aspose.PDF för .NET i en steg-för-steg-guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
