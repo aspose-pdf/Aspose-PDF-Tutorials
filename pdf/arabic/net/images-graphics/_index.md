@@ -164,6 +164,9 @@
 ### [تعيين خلفيات الصور في ملفات PDF باستخدام Aspose.PDF لـ .NET: دليل شامل](./aspose-pdf-net-set-image-backgrounds/)
 تعرّف على كيفية تحسين مستندات PDF الخاصة بك عن طريق تعيين خلفيات الصور باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل نصائح للإعداد والتنفيذ والتحسين.
 
+### [ضغط الصور بدون فقدان في مستندات Word – دليل شامل](./lossless-image-compression-in-word-docs-complete-guide/)
+تعرّف على كيفية ضغط الصور في مستندات Word دون فقدان الجودة باستخدام Aspose.Words لـ .NET.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

@@ -62,6 +62,9 @@ Dowiedz się, jak wdrożyć bezpieczne podpisy cyfrowe i weryfikację plików PD
 ### [Opanowanie redakcji PDF za pomocą Aspose.PDF .NET: kompleksowy przewodnik po bezpiecznym przetwarzaniu dokumentów](./mastering-pdf-redaction-aspose-pdf-net-guide/)
 Dowiedz się, jak bezpiecznie redagować pliki PDF za pomocą Aspose.PDF .NET. Ten przewodnik obejmuje podejścia oparte na adnotacjach i fasadach, zapewniając zgodność dokumentów.
 
+### [Jak redagować PDF i usuwać wrażliwe dane w C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+Dowiedz się, jak używać Aspose.PDF dla .NET do redakcji i usuwania poufnych informacji z dokumentów PDF w C#.
+
 ### [Odblokowywanie i deszyfrowanie plików PDF za pomocą Aspose.PDF dla .NET: Kompletny przewodnik](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 Dowiedz się, jak odblokować i odszyfrować chronione pliki PDF za pomocą Aspose.PDF dla .NET w C#. Ten przewodnik obejmuje konfigurację, kroki odszyfrowywania i najlepsze praktyki.
 

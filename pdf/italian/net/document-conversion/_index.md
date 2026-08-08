@@ -58,6 +58,8 @@ Imparerai come specificare le impostazioni di conversione, estrarre testo e imma
 | [Imposta percorso immagine XML in PDF](./xml-to-pdfset-image-path/) | Scopri come convertire facilmente XML in PDF utilizzando Aspose.PDF per .NET. Questa guida dettagliata ti guiderà passo dopo passo attraverso il processo, dalla configurazione al completamento. |
 | [Da XPS a PDF](./xps-to-pdf/) Scopri come convertire i file XPS in PDF utilizzando Aspose.PDF per .NET con questo tutorial passo passo. Perfetto per sviluppatori e appassionati di documenti. |
 | [pdf to png tutorial – Converti pagine PDF in PNG in C#](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Scopri come convertire le pagine di un PDF in immagini PNG usando Aspose.PDF per .NET con C#. |
+| [Converti PDF in PDF/X-1A con gestione del colore in C#](./convert-pdf-to-pdf-x-1a-with-color-management-in-c/) | Scopri come convertire PDF in PDF/X‑1A gestendo i colori con Aspose.PDF per .NET in C#. |
+| [Converti DOCX in HTML in C# – Guida completa](./convert-docx-to-html-in-c-complete-guide/) | Scopri come convertire file DOCX in HTML usando Aspose.PDF per .NET con C# in questa guida completa passo passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

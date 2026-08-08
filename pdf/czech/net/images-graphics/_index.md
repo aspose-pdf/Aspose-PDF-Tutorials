@@ -65,6 +65,9 @@ Výukový program pro kódování Aspose.PDF Net
 ### [Rychlé zmenšování obrázků v PDF pomocí Aspose.PDF .NET: Efektivní optimalizace a komprese obrázků](./optimize-pdf-images-aspose-net-fast-compression/)
 Naučte se, jak zmenšit obrázky v PDF souborech pomocí Aspose.PDF pro .NET, zmenšit velikost souborů a zároveň zachovat kvalitu. Ideální pro rychlejší načítání a efektivní ukládání.
 
+### [Bezeztrátová komprese obrázků v dokumentech Word – Kompletní průvodce](./lossless-image-compression-in-word-docs-complete-guide/)
+Naučte se, jak bezeztrátově komprimovat obrázky v dokumentech Word pomocí Aspose.Words pro .NET.
+
 ### [Jak přidat zápatí obrázků do PDF pomocí Aspose.PDF .NET v C#](./aspose-pdf-net-add-image-footers-pdfs/)
 Naučte se, jak přidat zápatí obrázků do PDF dokumentů pomocí Aspose.PDF pro .NET v tomto podrobném návodu. Ideální pro branding a přizpůsobení.
 

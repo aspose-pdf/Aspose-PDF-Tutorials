@@ -62,6 +62,9 @@ Aprenda a implementar assinaturas digitais seguras e verificação para PDFs em 
 ### [Dominando a redação de PDF com Aspose.PDF .NET: um guia completo para manuseio seguro de documentos](./mastering-pdf-redaction-aspose-pdf-net-guide/)
 Aprenda a redigir PDFs com segurança usando o Aspose.PDF .NET. Este guia aborda abordagens baseadas em anotações e fachadas, garantindo que seus documentos permaneçam em conformidade.
 
+### [Como Redigir PDF e Remover Dados Sensíveis de PDF em C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+Aprenda a redigir PDFs e eliminar informações confidenciais usando Aspose.PDF para .NET em C#.
+
 ### [Desbloqueie e descriptografe arquivos PDF com Aspose.PDF para .NET: um guia completo](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 Aprenda a desbloquear e descriptografar arquivos PDF protegidos usando o Aspose.PDF para .NET em C#. Este guia aborda a configuração, as etapas de descriptografia e as práticas recomendadas.
 

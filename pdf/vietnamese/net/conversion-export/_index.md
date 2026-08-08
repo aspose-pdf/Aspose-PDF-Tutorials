@@ -83,6 +83,9 @@ Tìm hiểu cách chuyển đổi tài liệu PDF sang định dạng HTML bằn
 ### [Chuyển đổi PDF sang PNG bằng Aspose.PDF .NET: Cải thiện tính năng gợi ý phông chữ để hiển thị văn bản sắc nét](./convert-pdf-png-aspose-net-font-hinting/)
 Tìm hiểu cách chuyển đổi tài liệu PDF thành hình ảnh PNG chất lượng cao bằng Aspose.PDF .NET, đảm bảo hiển thị văn bản sắc nét thông qua gợi ý phông chữ.
 
+### [Chuyển đổi docx sang png trong C# – Hướng dẫn toàn diện](./convert-docx-to-png-in-c-complete-guide/)
+Tìm hiểu cách chuyển đổi tài liệu DOCX thành hình ảnh PNG trong C# bằng Aspose.PDF, bao gồm các bước cấu hình và ví dụ mã thực tế.
+
 ### [Chuyển đổi PDF sang PPTX bằng Aspose.PDF cho .NET: Hướng dẫn từng bước](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 Tìm hiểu cách chuyển đổi hiệu quả các tài liệu PDF thành bản trình bày PowerPoint bằng Aspose.PDF cho .NET. Hướng dẫn từng bước này bao gồm chuyển đổi cơ bản, các tính năng nâng cao như slide hình ảnh và theo dõi tiến trình.
 
@@ -141,7 +144,7 @@ Tìm hiểu cách cắt các vùng cụ thể của trang PDF và chuyển đổ
 Tìm hiểu cách xuất dữ liệu hiệu quả từ ứng dụng sang PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm thiết lập, ví dụ mã trong C# và các tính năng chính.
 
 ### [Xuất chú thích PDF bằng Aspose.PDF .NET: Hướng dẫn toàn diện](./export-annotations-aspose-pdf-net/)
-Tìm hiểu cách xuất chú thích hiệu quả từ PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm thiết lập, triển khai và các biện pháp thực hành tốt nhất.
+Tìm hiểu cách xuất chú thích hiệu quả từ PDF bằng Aspose.PDF .NET. Hướng dẫn này bao gồm thiết lập, triển khai và các biện pháp thực hành tốt nhất.
 
 ### [Xuất dữ liệu PDF sang XML bằng Aspose.PDF cho .NET: Hướng dẫn từng bước](./export-pdf-data-to-xml-aspose-dotnet-guide/)
 Tìm hiểu cách xuất dữ liệu biểu mẫu PDF sang XML có cấu trúc một cách hiệu quả bằng Aspose.PDF cho .NET, một thư viện mạnh mẽ được thiết kế để xử lý PDF.

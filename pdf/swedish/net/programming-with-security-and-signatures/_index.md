@@ -34,7 +34,10 @@ Handledningen ger dig en detaljerad översikt över metoder och tekniker för at
 | [Signera med smartkort med PDF-filsignatur](./sign-with-smart-card-using-pdf-file-signature/) | Lär dig hur du signerar PDF-filer med ett smartkort med Aspose.PDF för .NET. Följ den här steg-för-steg-guiden för säkra digitala signaturer. |  
 | [Signera med smartkort med hjälp av signaturfältet](./sign-with-smart-card-using-signature-field/) | Lär dig hur du signerar PDF-filer säkert med ett smartkort med Aspose.PDF för .NET. Följ vår steg-för-steg-guide för enkel implementering. |  
 | [Kontrollera PDF-signaturer i C# – Så läser du signerade PDF-filer](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Lär dig hur du läser och verifierar signerade PDF-filer med Aspose.PDF för .NET i C#. |
+| [Hur man använder Validator i C# – Komplett guide för att kontrollera signaturens giltighet](./how-to-use-validator-in-c-complete-guide-to-checking-signatu/) | Lär dig hur du använder Validator i C# för att kontrollera signaturers giltighet med Aspose.PDF för .NET i en steg-för-steg-guide. |
 | [Hur man reparerar PDF-filer – Komplett C#-guide med Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Lär dig steg för steg hur du reparerar skadade PDF-filer med Aspose.PDF i C#. |
+| [Hur man verifierar PDF – Komplett C#-guide för digitala signaturer](./how-to-verify-pdf-complete-c-guide-for-digital-signatures/) | Lär dig hur du verifierar PDF-filer och kontrollerar digitala signaturer med Aspose.PDF för .NET i C#. |
+| [Lägg till Bates-nummerering i PDF – Komplett C#-guide med signering och konvertering](./add-bates-numbering-pdf-complete-c-guide-with-signing-conver/) | Lär dig hur du lägger till Bates-nummerering i PDF, signerar och konverterar dokument med Aspose.PDF för .NET i en komplett steg-för-steg-guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

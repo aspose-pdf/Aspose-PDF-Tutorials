@@ -33,8 +33,11 @@ Este tutorial oferece uma visão geral detalhada de métodos e técnicas para ga
 | [Definir privilégios em arquivo PDF](./set-privileges/) | Aprenda a definir privilégios de PDF usando o Aspose.PDF para .NET com este guia passo a passo. Proteja seus documentos com eficiência. |  
 | [Assinar com cartão inteligente usando assinatura de arquivo PDF](./sign-with-smart-card-using-pdf-file-signature/) | Aprenda a assinar arquivos PDF usando um cartão inteligente com o Aspose.PDF para .NET. Siga este guia passo a passo para assinaturas digitais seguras. |  
 | [Assinar com cartão inteligente usando o campo de assinatura](./sign-with-smart-card-using-signature-field/) | Aprenda a assinar PDFs com segurança usando um cartão inteligente com o Aspose.PDF para .NET. Siga nosso guia passo a passo para uma implementação fácil. |  
-| [Verificar assinaturas PDF em C# – Como ler arquivos PDF assinados](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Aprenda a ler e validar assinaturas digitais em PDFs usando C# e Aspose.PDF para .NET. |
-| [Como reparar arquivos PDF – Guia completo em C# com Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Aprenda a reparar arquivos PDF corrompidos usando Aspose.PDF para .NET em C#, passo a passo. |  
+| [Verificar assinaturas PDF em C# – Como ler arquivos PDF assinados](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Aprenda a ler e validar assinaturas digitais em PDFs usando C# e Aspose.PDF para .NET. |
+| [Como Verificar PDF – Guia Completo em C# para Assinaturas Digitais](./how-to-verify-pdf-complete-c-guide-for-digital-signatures/) | Aprenda a verificar PDFs e validar assinaturas digitais usando C# e Aspose.PDF para .NET. Guia passo a passo completo. |
+| [Como reparar arquivos PDF – Guia completo em C# com Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Aprenda a reparar arquivos PDF corrompidos usando Aspose.PDF para .NET em C#, passo a passo. |
+| [Como usar o Validador em C# – Guia completo para verificar a validade da assinatura](./how-to-use-validator-in-c-complete-guide-to-checking-signatu/) | Aprenda a usar o Validador em C# para validar assinaturas digitais em PDFs com Aspose.PDF para .NET. Guia passo a passo. |
+| [Adicionar Numeração Bates ao PDF – Guia Completo em C# com Assinatura e Conversão](./add-bates-numbering-pdf-complete-c-guide-with-signing-conver/) | Aprenda a adicionar numeração Bates a PDFs, assinar e converter documentos usando Aspose.PDF para .NET em C#. Guia passo a passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
