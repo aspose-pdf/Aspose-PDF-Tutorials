@@ -65,6 +65,9 @@ Tutorial kode untuk Aspose.PDF Net
 ### [Konversi PDF ke HTML Menggunakan Aspose.PDF untuk .NET: Panduan Output Aliran](./convert-pdf-html-aspose-dotnet-guide/)
 Pelajari cara mengonversi file PDF ke HTML dengan Aspose.PDF untuk .NET menggunakan output aliran. Tingkatkan integrasi dan aksesibilitas web Anda.
 
+### [Cara Melewatkan Ekspor Gambar dalam PDF ke HTML – Panduan Lengkap C#](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
+Pelajari cara mengonversi PDF ke HTML tanpa mengekspor gambar menggunakan Aspose.PDF untuk .NET dengan contoh kode C# lengkap.
+
 ### [Konversi PDF ke HTML dalam .NET Menggunakan Aspose.PDF Tanpa Menyimpan Gambar](./convert-pdf-html-net-asposepdf-no-images/)
 Pelajari cara mengonversi file PDF ke HTML menggunakan Aspose.PDF untuk .NET tanpa menyimpan gambar secara terpisah. Pertahankan integritas tata letak dengan panduan terperinci kami.
 

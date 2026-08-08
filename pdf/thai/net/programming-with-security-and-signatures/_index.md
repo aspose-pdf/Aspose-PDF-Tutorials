@@ -35,6 +35,9 @@
 | [ลงนามด้วยสมาร์ทการ์ดโดยใช้ช่องลายเซ็น](./sign-with-smart-card-using-signature-field/) | เรียนรู้วิธีการลงนาม PDF อย่างปลอดภัยโดยใช้สมาร์ทการ์ดด้วย Aspose.PDF สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการใช้งานที่ง่ายดาย |  
 - [ตรวจสอบลายเซ็น PDF ใน C# – วิธีอ่านไฟล์ PDF ที่ลงนาม](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | เรียนรู้วิธีตรวจสอบและอ่านลายเซ็นดิจิทัลในไฟล์ PDF ด้วย C# และ Aspose.PDF สำหรับ .NET -  
 - [วิธีซ่อมไฟล์ PDF – คู่มือ C# ฉบับสมบูรณ์กับ Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | เรียนรู้วิธีซ่อมไฟล์ PDF ที่เสียหายด้วย Aspose.PDF สำหรับ .NET ผ่านขั้นตอนการเขียนโปรแกรม C# อย่างละเอียด
+- [วิธีตรวจสอบ PDF ด้วย Aspose: ตรวจสอบลายเซ็นดิจิทัล](./how-to-validate-pdf-with-aspose-verify-digital-signatures/) | เรียนรู้วิธีตรวจสอบลายเซ็นดิจิทัลใน PDF ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียดและปลอดภัย -
+- [ตรวจสอบลายเซ็นดิจิทัล PDF ใน C# ด้วย Aspose.PDF](./validate-pdf-digital-signature-in-c-with-aspose-pdf/) | เรียนรู้วิธีตรวจสอบลายเซ็นดิจิทัล PDF ด้วย C# และ Aspose.PDF สำหรับ .NET อย่างละเอียดและปลอดภัย -
+- [รับลายเซ็นฝังใน PDF ด้วย C# – คู่มือฉบับสมบูรณ์](./get-embedded-signatures-pdf-in-c-complete-guide/) | เรียนรู้วิธีดึงลายเซ็นฝังในไฟล์ PDF ด้วย C# อย่างละเอียดและครบถ้วน -
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

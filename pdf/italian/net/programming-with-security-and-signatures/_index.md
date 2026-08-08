@@ -34,7 +34,10 @@ Questo tutorial offre una panoramica dettagliata di metodi e tecniche per garant
 | [Firma con la smart card utilizzando la firma del file PDF](./sign-with-smart-card-using-pdf-file-signature/) | Scopri come firmare file PDF utilizzando una smart card con Aspose.PDF per .NET. Segui questa guida passo passo per firme digitali sicure. |  
 | [Firma con la smart card utilizzando il campo firma](./sign-with-smart-card-using-signature-field/) | Scopri come firmare in modo sicuro i PDF utilizzando una smart card con Aspose.PDF per .NET. Segui la nostra guida passo passo per una facile implementazione. |  
 | [Verifica le firme PDF in C# – Come leggere i file PDF firmati](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Scopri come leggere e analizzare le firme digitali nei PDF usando C# e Aspose.PDF per .NET. |
+| [Come convalidare PDF con Aspose: verificare le firme digitali](./how-to-validate-pdf-with-aspose-verify-digital-signatures/) | Scopri come verificare le firme digitali nei PDF usando Aspose.PDF per .NET in modo semplice e sicuro. |
+| [Convalidare la firma digitale PDF in C# con Aspose.PDF](./validate-pdf-digital-signature-in-c-with-aspose-pdf/) | Scopri come convalidare le firme digitali nei PDF usando C# e Aspose.PDF per .NET. |
 | [Come riparare i file PDF – Guida completa C# con Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Scopri come riparare i PDF danneggiati con Aspose.PDF per .NET usando C#. Guida passo passo per recuperare i contenuti. |
+| [Ottenere firme incorporate PDF in C# – Guida completa](./get-embedded-signatures-pdf-in-c-complete-guide/) | Scopri come estrarre le firme incorporate da PDF usando C# e Aspose.PDF per .NET. Guida passo passo completa. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
