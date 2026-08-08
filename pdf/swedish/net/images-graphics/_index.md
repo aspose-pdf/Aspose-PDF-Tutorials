@@ -104,6 +104,9 @@ Lär dig hur du skapar tillgängliga taggade PDF-filer inbäddade med bilder med
 ### [Hur man skapar transparenta rektanglar i PDF-filer med Aspose.PDF för .NET](./create-transparent-rectangles-aspose-pdf-dotnet/)
 Lär dig hur du förbättrar dina PDF-dokument genom att skapa rektanglar med alfatransparens med Aspose.PDF för .NET. Följ den här steg-för-steg-guiden.
 
+### [Ställ in PDF-opacitet i C# med Aspose.PDF – komplett guide](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
+Lär dig hur du justerar opaciteten för PDF-element i C# med Aspose.PDF, inklusive exempel på genomskinlighet och lagerhantering.
+
 ### [Hur man tar bort bilder från PDF-filer med Aspose.PDF för .NET - Komplett guide](./delete-images-aspose-pdf-net/)
 Lär dig hur du effektivt tar bort bilder från PDF-filer med Aspose.PDF för .NET. Den här guiden beskriver installation, kodexempel och bästa praxis.
 

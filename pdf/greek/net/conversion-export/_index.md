@@ -227,6 +227,9 @@ Master Aspose.PDF για .NET για απρόσκοπτη μετατροπή δ�
 ### [Μετατροπή PDF σε TIFF σε .NET χρησιμοποιώντας το Aspose.PDF: Οδηγός βήμα προς βήμα](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Μάθετε πώς να μετατρέπετε έγγραφα PDF σε εικόνες TIFF χρησιμοποιώντας το Aspose.PDF για .NET. Κατακτήστε τα προσαρμοσμένα βάθη χρωμάτων και τις προηγμένες τεχνικές επεξεργασίας εικόνας.
 
+### [Αποθήκευση PDF ως HTML με το Aspose.PDF – οδηγός βήμα προς βήμα](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
+Μάθετε πώς να αποθηκεύετε αρχεία PDF σε μορφή HTML χρησιμοποιώντας το Aspose.PDF με βήμα‑βήμα οδηγίες.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.PDF για τεκμηρίωση δικτύου](https://docs.aspose.com/pdf/net/)

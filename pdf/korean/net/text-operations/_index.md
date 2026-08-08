@@ -164,6 +164,8 @@ Aspose.PDF Net에 대한 코드 튜토리얼
 ### [Aspose.PDF for .NET을 사용하여 태그가 지정된 PDF의 텍스트 스타일 지정 | 접근성 있고 미적인 PDF 생성 가이드](./style-text-tagged-pdfs-aspose-pdf-net/)
 Aspose.PDF for .NET을 사용하여 태그가 지정된 PDF 문서의 텍스트 스타일을 지정하는 방법을 알아보세요. 이 가이드에서는 접근성을 향상시키기 위한 설치, 기술 및 실제 적용 방법을 다룹니다.
 
+### [Aspose.Pdf.AI를 사용하여 PDF 요약하기 – 가이드](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
+
 ## 추가 자료
 
 - [Net 문서용 Aspose.PDF](https://docs.aspose.com/pdf/net/)

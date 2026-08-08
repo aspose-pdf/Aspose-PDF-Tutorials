@@ -76,8 +76,12 @@ Aspose.PDF नेट के लिए एक कोड ट्यूटोरि�
 
 ### [Aspose.PDF के साथ PDF दस्तावेज़ बनाएं – पृष्ठ जोड़ें, आकार बनाएं और सहेजें](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Aspose.PDF का उपयोग करके पृष्ठ, आकार जोड़कर PDF बनाना और सहेजना सीखें।
+
 ### [Aspose.PDF के साथ PDF दस्तावेज़ बनाएं – चरण‑दर‑चरण मार्गदर्शिका](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 Aspose.PDF के साथ PDF दस्तावेज़ बनाने के चरण‑दर‑चरण निर्देश, सेटअप और कोड उदाहरण सहित।
+
+### [C# के साथ Aspose.Pdf का उपयोग करके PDF दस्तावेज़ बनाएं](./create-pdf-document-in-c-with-aspose-pdf/)
+C# में Aspose.Pdf का उपयोग करके PDF दस्तावेज़ बनाने का चरण‑दर‑चरण मार्गदर्शन।
 
 ## अतिरिक्त संसाधन
 

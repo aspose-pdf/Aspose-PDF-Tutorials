@@ -62,6 +62,9 @@ Naučte se načíst PDF v C#, převést jej na PDF/X‑4 a získat seznam digit�
 ### [Ověření podpisu PDF pomocí Aspose – převod PDF na HTML](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
 Naučte se, jak ověřit podpis PDF a převést PDF dokument do HTML pomocí Aspose.PDF pro .NET.
 
+### [Jak ověřit PDF pomocí Aspose.PDF – zkontrolovat platnost podpisu PDF v C#](./how-to-validate-pdf-with-aspose-pdf-check-pdf-signature-vali/)
+Naučte se, jak ověřit platnost podpisu PDF v C# pomocí Aspose.PDF.
+
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)

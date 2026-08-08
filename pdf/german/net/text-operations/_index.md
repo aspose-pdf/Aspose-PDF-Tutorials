@@ -164,6 +164,9 @@ Ein Code-Tutorial für Aspose.PDF Net
 ### [Textformatierung in getaggten PDFs mit Aspose.PDF für .NET | Leitfaden zur barrierefreien und ästhetischen PDF-Erstellung](./style-text-tagged-pdfs-aspose-pdf-net/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET Text in getaggten PDF-Dokumenten formatieren. Diese Anleitung behandelt Installation, Techniken und praktische Anwendungen zur Verbesserung der Barrierefreiheit.
 
+### [Wie man PDFs mit Aspose.Pdf.AI zusammenfasst – Leitfaden](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
+Erfahren Sie, wie Sie mit Aspose.Pdf.AI PDFs automatisch zusammenfassen und wichtige Inhalte extrahieren.
+
 ## Weitere Ressourcen
 
 - [Aspose.PDF für Net-Dokumentation](https://docs.aspose.com/pdf/net/)

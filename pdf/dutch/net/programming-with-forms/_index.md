@@ -51,6 +51,7 @@ Deze tutorials bieden ook gedetailleerde codevoorbeelden, duidelijke uitleg en i
 | [Bijschrift voor keuzerondje instellen](./set-radio-button-caption/) Leer hoe u keuzerondjes in PDF's instelt met Aspose.PDF voor .NET. Deze stapsgewijze handleiding begeleidt u bij het laden, wijzigen en opslaan van uw PDF-formulieren. |  
 | [Tekstvak](./text-box/) | Ontdek hoe u moeiteloos tekstvakken aan PDF's toevoegt met Aspose.PDF voor .NET met deze stapsgewijze handleiding. Verbeter de gebruikersinteractie. |  
 | [Hoe PDF maken met Aspose – Formulierveld en pagina's toevoegen](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Leer hoe u met Aspose.PDF voor .NET een PDF maakt, formuliervelden toevoegt en pagina's beheert in deze stapsgewijze tutorial. |  
+| [PDF-document opslaan met Aspose.PDF – volledige gids](./save-pdf-document-with-aspose-pdf-complete-guide/) | Leer stap voor stap hoe u PDF-documenten opslaat met Aspose.PDF voor .NET in deze volledige gids. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

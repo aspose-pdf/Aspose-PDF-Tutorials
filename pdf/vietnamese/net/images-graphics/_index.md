@@ -44,6 +44,9 @@ Tìm hiểu cách tạo tài liệu PDF hấp dẫn về mặt hình ảnh bằn
 ### [Vẽ các hình dạng trong suốt trong PDF bằng Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 Hướng dẫn mã cho Aspose.PDF Net
 
+### [Đặt độ trong suốt PDF trong C# với Aspose.PDF – hướng dẫn đầy đủ](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
+Hướng dẫn chi tiết cách thiết lập độ trong suốt cho tài liệu PDF bằng C# và Aspose.PDF.
+
 ### [Nhận dạng hình ảnh PDF hiệu quả với Aspose.PDF cho .NET](./master-image-identification-aspose-pdf-net/)
 Tìm hiểu cách xác định hình ảnh thang độ xám và RGB trong PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm các mẹo cài đặt, trích xuất hình ảnh và hiệu suất.
 

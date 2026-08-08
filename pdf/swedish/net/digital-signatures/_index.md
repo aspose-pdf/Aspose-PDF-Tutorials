@@ -59,6 +59,8 @@ Lär dig hur du laddar en PDF, konverterar den till PDF/X‑4 och listar befintl
 ### [Validera PDF-signatur med Aspose – Konvertera PDF till HTML](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
 Lär dig hur du validerar PDF-signaturer och konverterar PDF till HTML med Aspose.PDF för .NET.
 
+### [Hur man validerar PDF med Aspose.PDF – kontrollera PDF-signaturens giltighet i C#](./how-to-validate-pdf-with-aspose-pdf-check-pdf-signature-vali/)
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

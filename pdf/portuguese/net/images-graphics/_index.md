@@ -131,7 +131,7 @@ Aprenda como extrair imagens de arquivos PDF com eficiência usando o Aspose.PDF
 ### [Como extrair imagens de PDFs usando Aspose.PDF para .NET: um guia passo a passo](./extract-images-aspose-pdf-net-guide/)
 Aprenda a extrair imagens de documentos PDF usando o Aspose.PDF para .NET com este guia completo. Perfeito para desenvolvedores que buscam aprimorar os recursos de processamento de documentos.
 
-### [Como extrair imagens de páginas específicas de um PDF usando Aspose.PDF para .NET](./extract-images-pdfs-specific-pages-aspose-dotnet/)
+### [Como extrair imagens de PDFs usando Aspose.PDF para .NET: um guia passo a passo](./extract-images-pdfs-specific-pages-aspose-dotnet/)
 Aprenda a extrair imagens de páginas específicas de um PDF com eficiência usando o Aspose.PDF para .NET. Este guia aborda dicas de configuração, implementação e desempenho.
 
 ### [Como extrair informações de páginas de PDF e renderizar imagens com Aspose.PDF para .NET (Guia 2023)](./extract-pdf-info-render-images-aspose-dotnet/)
@@ -141,7 +141,7 @@ Aprenda a extrair dimensões de páginas e renderizar imagens de PDFs usando o A
 Aprenda a redimensionar, compactar e ajustar a qualidade de imagens em PDFs com eficiência usando o Aspose.PDF para .NET. Melhore o desempenho dos documentos e a experiência do usuário.
 
 ### [Como remover gráficos de PDFs usando Aspose.PDF .NET: um guia completo](./remove-graphics-aspose-pdf-net/)
-Aprenda a remover gráficos de PDFs com eficiência usando o Aspose.PDF para .NET. Siga este guia passo a passo para organizar seus documentos e otimizar o tamanho dos arquivos.
+Aprenda a remover gráficos de PDFs com eficiência usando o Aspose.PDF .NET. Siga este guia passo a passo para organizar seus documentos e otimizar o tamanho dos arquivos.
 
 ### [Como substituir imagens em PDFs usando Aspose.PDF .NET: um guia para desenvolvedores](./replace-images-pdf-aspose-net-guide/)
 Aprenda a substituir imagens em documentos PDF com eficiência usando o Aspose.PDF para .NET. Simplifique as atualizações de seus documentos com este guia completo para desenvolvedores.
@@ -151,6 +151,9 @@ Aprenda a substituir imagens em documentos PDF com eficiência usando o Aspose.P
 
 ### [Como definir o tamanho da imagem em um PDF usando Aspose.PDF para .NET](./set-image-size-pdf-aspose-dotnet/)
 Aprenda a ajustar o tamanho das imagens em PDFs com o Aspose.PDF para .NET, perfeito para criar documentos e apresentações profissionais.
+
+### [Definir opacidade de PDF em C# com Aspose.PDF – guia completo](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
+Aprenda a definir a opacidade de elementos em PDFs usando Aspose.PDF para .NET em C# com este guia passo a passo.
 
 ### [Dominando o posicionamento de imagens em PDFs usando Aspose.PDF para .NET](./optimize-image-placement-aspose-pdf-net/)
 Aprenda a otimizar o posicionamento de imagens em documentos PDF com o Aspose.PDF para .NET. Melhore a qualidade e a eficiência dos seus documentos com guias práticos.

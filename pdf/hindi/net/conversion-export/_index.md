@@ -227,6 +227,9 @@ Aspose.PDF नेट के लिए एक कोड ट्यूटोरि�
 ### [Aspose.PDF का उपयोग करके .NET में PDF से TIFF रूपांतरण: एक चरण-दर-चरण मार्गदर्शिका](./pdf-to-tiff-conversion-aspose-pdf-net/)
 .NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ों को TIFF छवियों में परिवर्तित करना सीखें। कस्टम रंग गहराई और उन्नत छवि प्रसंस्करण तकनीकों में महारत हासिल करें।
 
+### [Aspose.PDF के साथ PDF को HTML के रूप में सहेजें – चरण‑दर‑चरण गाइड](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
+PDF को HTML में बदलने की पूरी प्रक्रिया सीखें, कोड उदाहरण और सर्वोत्तम अभ्यासों के साथ।
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.PDF for Net दस्तावेज़ीकरण](https://docs.aspose.com/pdf/net/)

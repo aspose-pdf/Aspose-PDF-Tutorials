@@ -79,6 +79,9 @@ Naučte se, jak vytvořit PDF, přidat stránku a tvar a soubor uložit pomocí 
 ### [Vytvoření PDF dokumentu pomocí Aspose.PDF – krok‑po‑kroku průvodce](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.PDF vytvořit PDF dokument krok za krokem s praktickými ukázkami kódu.
 
+### [Vytvořte PDF dokument v C# pomocí Aspose.PDF](./create-pdf-document-in-c-with-aspose-pdf/)
+Naučte se, jak pomocí Aspose.PDF v C# vytvořit PDF dokument, přidat stránky, tvary a uložit soubor.
+
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)

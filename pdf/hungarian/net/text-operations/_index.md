@@ -164,6 +164,9 @@ Kód oktatóanyag az Aspose.PDF Nethez
 ### [Szöveg formázása címkézett PDF-ekben az Aspose.PDF for .NET használatával | Útmutató a hozzáférhető és esztétikus PDF-készítéshez](./style-text-tagged-pdfs-aspose-pdf-net/)
 Tanulja meg, hogyan formázhatja a címkézett PDF dokumentumok szövegét az Aspose.PDF for .NET segítségével. Ez az útmutató a telepítést, a technikákat és a gyakorlati alkalmazásokat ismerteti az akadálymentesítés javítása érdekében.
 
+### [Hogyan összefoglaljunk PDF-et az Aspose.Pdf.AI-val – útmutató](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
+Ismerje meg, hogyan lehet összefoglalni PDF dokumentumokat az Aspose.Pdf.AI segítségével.
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)

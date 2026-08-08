@@ -38,6 +38,7 @@ Aspose.PDF for .NET 的「使用 PDF 頁面進行編程」文件提供了逐步�
 | [拆分至頁面](./split-to-pages/) |透過本綜合教程，使用 Aspose.PDF for .NET 輕鬆將 PDF 分割為單獨的頁面。包含逐步指南。 |  
 | [更新 PDF 頁面尺寸](./update-dimensions/) |透過本全面的逐步指南，了解如何使用 Aspose.PDF for .NET 輕鬆更新 PDF 頁面尺寸。 |  
 | [縮放至 PDF 文件中的頁面內容](./zoom-to-page-contents/) |在本綜合指南中了解如何使用 Aspose.PDF for .NET 縮放 PDF 文件中的頁面內容。根據您的特定需求增強您的 PDF 文件。 |  
+| [使用 Aspose 為 PDF 添加 Bates 編號 – 完整逐步指南](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) |使用 Aspose.PDF for .NET 為 PDF 添加 Bates 編號的完整逐步指南，簡單易於實作。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

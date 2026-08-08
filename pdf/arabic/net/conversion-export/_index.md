@@ -123,7 +123,7 @@
 تعلّم كيفية تحويل ملفات XML بكفاءة إلى ملفات PDF احترافية باستخدام Aspose.PDF وC#. اتبع هذا الدليل المفصل، المُصمّم لمطوّري .NET.
 
 ### [تحويل XML إلى PDF باستخدام Aspose.PDF لـ .NET: دليل خطوة بخطوة](./convert-xml-pdf-aspose-dotnet/)
-تعرّف على كيفية تحويل بيانات XML إلى ملفات PDF مُصمّمة باستخدام Aspose.PDF وXSLT في .NET. يغطي هذا الدليل خطوات الإعداد والتحويل والتطبيقات العملية.
+تعرّف على كيفية تحويل بيانات XML إلى ملفات PDF مُصمّرة باستخدام Aspose.PDF وXSLT في .NET. يغطي هذا الدليل خطوات الإعداد والتحويل والتطبيقات العملية.
 
 ### [تحويل XML إلى PDF مع الصور الديناميكية باستخدام Aspose.PDF لـ .NET](./convert-xml-to-pdf-dynamic-images-aspose-net/)
 تعرف على كيفية تحويل بيانات XML إلى مستند PDF ذو مظهر احترافي باستخدام Aspose.PDF لـ .NET، بما في ذلك إدراج الصور الديناميكية.
@@ -221,7 +221,9 @@
 ### [تحويل PDF إلى HTML باستخدام Aspose.PDF .NET: دليل شامل](./aspose-pdf-net-pdf-to-html-conversion/)
 أتقن تحويل PDF إلى HTML باستخدام Aspose.PDF لـ .NET. حسّن إمكانية الوصول إلى المستندات وتفاعلها مع المستخدمين من خلال خيارات قابلة للتخصيص.
 
-### [تحويل PDF إلى HTML باستخدام Aspose.PDF لـ .NET](./pdf-to-html-conversion-aspose-dot-net/)
+### [حفظ PDF كـ HTML باستخدام Aspose.PDF – دليل خطوة بخطوة](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
+
+### [تحويل PDF إلى HTML باستخدام Aspose.PDF .NET](./pdf-to-html-conversion-aspose-dot-net/)
 برنامج تعليمي لبرمجة Aspose.PDF Net
 
 ### [تحويل PDF إلى TIFF في .NET باستخدام Aspose.PDF: دليل خطوة بخطوة](./pdf-to-tiff-conversion-aspose-pdf-net/)

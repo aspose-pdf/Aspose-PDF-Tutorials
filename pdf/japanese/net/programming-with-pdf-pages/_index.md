@@ -38,6 +38,7 @@ Aspose.PDF for .NET の「PDF ページを使ったプログラミング」ド�
 | [PDFページサイズの更新](./update-dimensions/) この包括的なステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF ページのサイズを簡単に更新する方法を説明します。 |  
 | [PDFファイルのページコンテンツにズーム](./zoom-to-page-contents/) この包括的なガイドでは、Aspose.PDF for .NET を使用して PDF ファイルのページコンテンツを拡大する方法を学習します。特定のニーズに合わせて PDF ドキュメントを強化しましょう。 |  
 | [C# で PDF にページ番号を追加 – 完全ステップバイステップガイド](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) Aspose.PDF for .NET を使用して、C# で PDF にページ番号を追加する手順をステップバイステップで解説します。 |
+| [Aspose を使ったベーツ番号付け PDF の追加 – 完全ステップバイステップガイド](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) Aspose.PDF for .NET を使用して、PDF にベーツ番号を追加する方法をステップバイステップで解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

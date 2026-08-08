@@ -44,6 +44,9 @@ Dowiedz się, jak tworzyć atrakcyjne wizualnie dokumenty PDF, wyodrębniając i
 ### [Rysuj przezroczyste kształty w plikach PDF za pomocą Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 Samouczek dotyczący kodu dla Aspose.PDF Net
 
+### [Ustaw przezroczystość PDF w C# przy użyciu Aspose.PDF – kompletny przewodnik](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
+Dowiedz się, jak ustawić przezroczystość w dokumentach PDF przy użyciu Aspose.PDF w C#.
+
 ### [Efektywna identyfikacja obrazów PDF z Aspose.PDF dla .NET](./master-image-identification-aspose-pdf-net/)
 Dowiedz się, jak identyfikować obrazy w skali szarości i RGB w plikach PDF za pomocą Aspose.PDF dla .NET. Ten samouczek obejmuje instalację, ekstrakcję obrazu i wskazówki dotyczące wydajności.
 
@@ -78,7 +81,7 @@ Dowiedz się, jak bezproblemowo dodawać obrazy do dokumentów PDF za pomocą As
 Dowiedz się, jak bezproblemowo dodawać obrazy do dokumentów PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik krok po kroku obejmuje konfigurację, implementację i praktyczne zastosowania.
 
 ### [Jak dodawać obrazy do plików PDF za pomocą Aspose.PDF dla .NET: przewodnik krok po kroku](./add-images-to-pdfs-aspose-pdf-net/)
-Dowiedz się, jak bezproblemowo dodawać obrazy do plików PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje dodawanie obrazów do istniejących plików PDF i tworzenie nowych z plików DICOM.
+Dowiedz się, jak bezproblemowo dodawać obrazy do dokumentów PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje dodawanie obrazów do istniejących plików PDF i tworzenie nowych z plików DICOM.
 
 ### [Jak dodać nagłówek obrazu do plików PDF za pomocą Aspose.PDF dla .NET: przewodnik krok po kroku](./add-image-header-pdf-aspose-dotnet/)
 Dowiedz się, jak dodawać nagłówki obrazów do dokumentów PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego kompleksowego przewodnika krok po kroku.
@@ -129,7 +132,7 @@ Dowiedz się, jak bez wysiłku wyodrębniać obrazy z dokumentów PDF za pomocą
 Dowiedz się, jak efektywnie wyodrębniać obrazy z plików PDF za pomocą Aspose.PDF dla platformy .NET dzięki temu kompleksowemu przewodnikowi zawierającemu przykłady kodu i najlepsze praktyki.
 
 ### [Jak wyodrębnić obrazy z plików PDF za pomocą Aspose.PDF dla .NET: przewodnik krok po kroku](./extract-images-aspose-pdf-net-guide/)
-Dowiedz się, jak wyodrębnić obrazy z dokumentów PDF za pomocą Aspose.PDF dla .NET dzięki temu kompleksowemu przewodnikowi. Idealne dla programistów, którzy chcą udoskonalić możliwości przetwarzania dokumentów.
+Dowiedz się, jak wyodrębniać obrazy z dokumentów PDF za pomocą Aspose.PDF dla .NET dzięki temu kompleksowemu przewodnikowi. Idealne dla programistów, którzy chcą udoskonalić możliwości przetwarzania dokumentów.
 
 ### [Jak wyodrębnić obrazy z określonych stron pliku PDF za pomocą Aspose.PDF dla platformy .NET](./extract-images-pdfs-specific-pages-aspose-dotnet/)
 Dowiedz się, jak wydajnie wyodrębniać obrazy z określonych stron w pliku PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje wskazówki dotyczące konfiguracji, implementacji i wydajności.

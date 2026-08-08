@@ -68,7 +68,7 @@
 ### [แปลง PDF เป็น HTML ใน .NET โดยใช้ Aspose.PDF โดยไม่ต้องบันทึกภาพ](./convert-pdf-html-net-asposepdf-no-images/)
 เรียนรู้วิธีการแปลงไฟล์ PDF เป็น HTML โดยใช้ Aspose.PDF สำหรับ .NET โดยไม่ต้องบันทึกรูปภาพแยกต่างหาก รักษาความสมบูรณ์ของเค้าโครงด้วยคู่มือโดยละเอียดของเรา
 
-### [แปลง PDF เป็น HTML ใน .NET ด้วยเส้นทางรูปภาพที่กำหนดเองโดยใช้ Aspose.PDF](./convert-pdf-html-custom-image-paths-dotnet/)
+### [แปลง PDF เป็น HTML ใน .NET ด้วย Aspose.PDF โดยใช้เส้นทางรูปภาพที่กำหนดเอง](./convert-pdf-html-custom-image-paths-dotnet/)
 เรียนรู้วิธีการแปลงไฟล์ PDF เป็นรูปแบบ HTML โดยใช้ Aspose.PDF สำหรับ .NET และกำหนดเส้นทางรูปภาพอย่างมีประสิทธิภาพ เหมาะอย่างยิ่งสำหรับการผสานรวมเว็บ
 
 ### [แปลง PDF เป็น HTML ด้วย Aspose.PDF สำหรับ .NET: รักษาแบบอักษรในรูปแบบ TTF และ WOFF](./convert-pdf-html-aspose-net-truetype-woff/)
@@ -79,6 +79,9 @@
 
 ### [แปลง PDF เป็น HTML ด้วย URL รูปภาพที่กำหนดเองโดยใช้ Aspose.PDF .NET: คู่มือที่ครอบคลุม](./convert-pdf-html-custom-image-urls-aspose-pdf-net/)
 เรียนรู้วิธีการแปลงเอกสาร PDF เป็นรูปแบบ HTML โดยใช้ Aspose.PDF สำหรับ .NET รวมถึงการปรับแต่ง URL ของรูปภาพและการใช้กลยุทธ์การประหยัดทรัพยากรที่เหมาะสม
+
+### [บันทึก PDF เป็น HTML ด้วย Aspose.PDF – คู่มือขั้นตอนโดยขั้นตอน](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
+เรียนรู้วิธีบันทึกไฟล์ PDF เป็น HTML อย่างละเอียดด้วย Aspose.PDF สำหรับ .NET
 
 ### [แปลง PDF เป็น PNG ด้วย Aspose.PDF .NET: ปรับปรุงการแสดงข้อความให้คมชัดยิ่งขึ้น](./convert-pdf-png-aspose-net-font-hinting/)
 เรียนรู้วิธีการแปลงเอกสาร PDF เป็นภาพ PNG คุณภาพสูงโดยใช้ Aspose.PDF .NET รับประกันการแสดงผลข้อความคมชัดผ่านการบอกใบ้แบบอักษร
@@ -164,10 +167,10 @@
 ### [วิธีแปลง HTML เป็น PDF ด้วย Aspose.PDF .NET: คู่มือฉบับสมบูรณ์](./convert-html-pdf-aspose-dotnet-guide/)
 เรียนรู้วิธีการแปลงเอกสาร HTML เป็น PDF ที่ดูเป็นมืออาชีพอย่างมีประสิทธิภาพโดยใช้ Aspose.PDF .NET ค้นพบเทคนิคในการจัดการทรัพยากรภายนอกและการแสดงเนื้อหาที่ซับซ้อน
 
-### [วิธีแปลงรูปภาพ CGM ขนาดใหญ่เป็น PDF โดยใช้ Aspose.PDF .NET: คู่มือฉบับสมบูรณ์](./convert-large-cgm-images-to-pdf-aspose-pdf-net/)
+### [วิธีการแปลงรูปภาพ CGM ขนาดใหญ่เป็น PDF โดยใช้ Aspose.PDF .NET: คู่มือฉบับสมบูรณ์](./convert-large-cgm-images-to-pdf-aspose-pdf-net/)
 เรียนรู้วิธีแปลงภาพ Computer Graphics Metafile (CGM) ขนาดใหญ่เป็น PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF .NET คู่มือนี้ครอบคลุมถึงการตั้งค่า การใช้งาน และแนวทางปฏิบัติที่ดีที่สุด
 
-### [วิธีแปลงไฟล์ MHT เป็น PDF โดยใช้ Aspose.PDF สำหรับ .NET - คำแนะนำทีละขั้นตอน](./convert-mht-files-to-pdf-aspose-dotnet/)
+### [วิธีการแปลงไฟล์ MHT เป็น PDF โดยใช้ Aspose.PDF สำหรับ .NET - คำแนะนำทีละขั้นตอน](./convert-mht-files-to-pdf-aspose-dotnet/)
 เรียนรู้วิธีการแปลงไฟล์ MHT เป็น PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ .NET คู่มือนี้ครอบคลุมถึงการตั้งค่า ขั้นตอนการแปลง และแนวทางปฏิบัติที่ดีที่สุด
 
 ### [วิธีการแปลงไฟล์ภาพ TIFF หลายไฟล์เป็นไฟล์ PDF ไฟล์เดียวโดยใช้ Aspose.PDF สำหรับ .NET: คู่มือฉบับสมบูรณ์](./convert-tiff-to-pdf-aspose-dotnet-guide/)

@@ -79,6 +79,9 @@ Apprenez à ajouter une page, insérer une forme et enregistrer le document PDF 
 ### [Créer un document PDF avec Aspose.PDF – Guide étape par étape](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 Apprenez à générer un document PDF à l'aide d'Aspose.PDF grâce à un guide détaillé étape par étape.
 
+### [Créer un document PDF en C# avec Aspose.PDF](./create-pdf-document-in-c-with-aspose-pdf/)
+Apprenez à générer un document PDF en C# en utilisant Aspose.PDF, avec ajout de pages, formes et enregistrement.
+
 ## Ressources supplémentaires
 
 - [Aspose.PDF pour la documentation réseau](https://docs.aspose.com/pdf/net/)

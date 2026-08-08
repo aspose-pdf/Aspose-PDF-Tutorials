@@ -164,6 +164,9 @@
 ### [تعيين خلفيات الصور في ملفات PDF باستخدام Aspose.PDF لـ .NET: دليل شامل](./aspose-pdf-net-set-image-backgrounds/)
 تعرّف على كيفية تحسين مستندات PDF الخاصة بك عن طريق تعيين خلفيات الصور باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل نصائح للإعداد والتنفيذ والتحسين.
 
+### [ضبط شفافية PDF في C# باستخدام Aspose.PDF – دليل شامل](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
+تعرّف على كيفية ضبط شفافية ملفات PDF باستخدام Aspose.PDF في C# من خلال دليل شامل خطوة بخطوة.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

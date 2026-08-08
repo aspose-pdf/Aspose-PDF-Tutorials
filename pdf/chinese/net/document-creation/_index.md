@@ -79,6 +79,9 @@ Aspose.PDF Net 代码教程
 ### [使用 Aspose.PDF 创建 PDF 文档：分步指南](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 学习如何使用 Aspose.PDF 在 .NET 中一步步创建 PDF 文档，涵盖基本设置、页面添加和内容写入。
 
+### [使用 Aspose.PDF 在 C# 中创建 PDF 文档](./create-pdf-document-in-c-with-aspose-pdf/)
+使用 Aspose.PDF 在 C# 中创建 PDF 文档的完整指南。
+
 ## 其他资源
 
 - [Aspose.PDF 用于网络文档](https://docs.aspose.com/pdf/net/)
