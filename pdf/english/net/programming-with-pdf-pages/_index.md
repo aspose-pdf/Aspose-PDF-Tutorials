@@ -37,7 +37,8 @@ Tutorials include step-by-step instructions, detailed code examples, and clear e
 | [Insert Empty Page At End](./insert-empty-page-at-end/) | Learn to insert an empty page into a PDF document effortlessly with Aspose.PDF for .NET in this beginner-friendly guide. Perfect for quick edits. |  
 | [Split To Pages](./split-to-pages/) | Easily split PDFs into individual pages using Aspose.PDF for .NET with this comprehensive tutorial. Step-by-step guide included. |  
 | [Update PDF Page Dimensions](./update-dimensions/) | Discover how to update PDF page dimensions effortlessly with Aspose.PDF for .NET in this comprehensive, step-by-step guide. |  
-| [Zoom To Page Contents In PDF File](./zoom-to-page-contents/) | Learn how to zoom to page contents in PDF files using Aspose.PDF for .NET in this comprehensive guide. Enhance your PDF documents according to your specific needs. |  
+| [Zoom To Page Contents In PDF File](./zoom-to-page-contents/) | Learn how to zoom to page contents in PDF files using Aspose.PDF for .NET in this comprehensive guide. Enhance your PDF documents according to your specific needs. |
+| [Add Bates Numbering to PDF with Aspose.PDF – Complete Guide](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Step-by-step guide to add Bates numbering to a PDF using Aspose.PDF for .NET. Easy to follow and implement. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -83,8 +83,11 @@ Aspose.PDF Net 代码教程
 ### [使用 Aspose.PDF .NET 将 PDF 转换为 PNG：增强字体提示以实现清晰的文本渲染](./convert-pdf-png-aspose-net-font-hinting/)
 了解如何使用 Aspose.PDF .NET 将 PDF 文档转换为高质量的 PNG 图像，确保通过字体提示实现清晰的文本呈现。
 
+### [将 PDF 页面转换为 PNG – 完整 Aspose.PDF 指南](./convert-pdf-page-to-png-complete-aspose-pdf-guide/)
+了解如何使用 Aspose.PDF for .NET 将 PDF 页面高效转换为 PNG 图像，保持清晰度并支持自定义设置。
+
 ### [使用 Aspose.PDF for .NET 将 PDF 转换为 PPTX：分步指南](./convert-pdf-to-pptx-aspose-dotnet-guide/)
-了解如何使用 Aspose.PDF for .NET 将 PDF 文档高效地转换为 PowerPoint 演示文稿。本分步指南涵盖基本转换、图像幻灯片等高级功能以及进度跟踪。
+了解如何使用 Aspose.PDF for .NET 将 PDF 文档高效转换为 PowerPoint 演示文稿。本分步指南涵盖基本转换、图像幻灯片等高级功能以及进度跟踪。
 
 ### [使用 Aspose.PDF for .NET 将 PDF 转换为 SVG：分步指南](./aspose-pdf-net-pdf-to-svg-conversion/)
 了解如何使用 Aspose.PDF for .NET 将 PDF 转换为 SVG。本指南内容详尽，涵盖设置、转换步骤和优化技巧。
@@ -226,6 +229,12 @@ Aspose.PDF Net 代码教程
 
 ### [使用 Aspose.PDF 在 .NET 中将 PDF 转换为 TIFF：分步指南](./pdf-to-tiff-conversion-aspose-pdf-net/)
 学习如何使用 Aspose.PDF for .NET 将 PDF 文档转换为 TIFF 图像。掌握自定义色深和高级图像处理技术。
+
+### [使用 Aspose.PDF .NET 将 PDF 转换为 HTML：将图像保存为外部 PNG](./pdf-to-html-conversion-external-png-aspose-pdf-net/)
+学习如何使用 Aspose.PDF for .NET 将 PDF 文档转换为包含外部 PNG 图像的 HTML 文档。本指南可确保布局保留并优化 Web 性能。
+
+### [保存不含图像的 PDF – 使用 Aspose 将 PDF 转换为 HTML](./save-pdf-without-images-convert-pdf-to-html-with-aspose/)
+了解如何使用 Aspose 将 PDF 转换为 HTML，同时去除图像以减小文件体积。
 
 ## 其他资源
 

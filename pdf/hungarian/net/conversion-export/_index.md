@@ -53,8 +53,14 @@ Kód oktatóanyag az Aspose.PDF Nethez
 ### [PDF oldalak konvertálása PNG formátumba az Aspose.PDF .NET segítségével: Átfogó útmutató](./convert-pdf-pages-to-png-aspose-net/)
 Tanuld meg, hogyan konvertálhatsz PDF oldalakat kiváló minőségű PNG képekké az Aspose.PDF for .NET segítségével. Kövesd ezt a lépésről lépésre szóló útmutatót a konvertálási folyamat hatékony automatizálásához.
 
+### [PDF oldal konvertálása PNG-be – Teljes Aspose.Pdf útmutató](./convert-pdf-page-to-png-complete-aspose-pdf-guide/)
+Ismerje meg, hogyan konvertálhat egy PDF oldalt PNG képpé az Aspose.PDF .NET segítségével részletes, lépésről lépésre útmutatóval.
+
 ### [PDF konvertálása BMP-vé az Aspose.PDF for .NET használatával: lépésről lépésre útmutató](./convert-pdf-to-bmp-aspose-pdf-net/)
 Tanuld meg, hogyan konvertálhatsz PDF oldalakat kiváló minőségű BMP képekké az Aspose.PDF for .NET segítségével ebből az átfogó útmutatóból.
+
+### [PDF mentése képek nélkül – PDF konvertálása HTML-be az Aspose használatával](./save-pdf-without-images-convert-pdf-to-html-with-aspose/)
+Tanulja meg, hogyan menthet PDF-et képek eltávolításával, és konvertálhatja HTML-be az Aspose.PDF for .NET segítségével.
 
 ### [PDF konvertálása EMF formátumba Aspose.PDF for .NET használatával: Teljes körű útmutató](./convert-pdf-emf-aspose-net-guide/)
 Ismerje meg, hogyan konvertálhat PDF oldalakat EMF formátumba az Aspose.PDF for .NET segítségével. Ez az útmutató bemutatja a beállítást, a lépésenkénti utasításokat és a bevált gyakorlatokat.
