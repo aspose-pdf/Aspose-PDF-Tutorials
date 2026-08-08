@@ -164,6 +164,9 @@ Scopri come trasformare script LaTeX complessi in documenti PDF utilizzando Aspo
 ### [Impostare gli sfondi delle immagini nei PDF utilizzando Aspose.PDF per .NET: una guida completa](./aspose-pdf-net-set-image-backgrounds/)
 Scopri come migliorare i tuoi documenti PDF impostando sfondi con immagini utilizzando Aspose.PDF per .NET. Questa guida include suggerimenti per la configurazione, l'implementazione e l'ottimizzazione.
 
+### [Aggiungere ExtGState a PDF con Aspose.Pdf – Guida completa](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+Scopri come utilizzare ExtGState per gestire trasparenza ed effetti grafici nei PDF con Aspose.Pdf in C#.
+
 ## Risorse aggiuntive
 
 - [Aspose.PDF per la documentazione di rete](https://docs.aspose.com/pdf/net/)

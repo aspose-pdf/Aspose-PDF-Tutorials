@@ -164,6 +164,9 @@ Leer hoe u complexe LaTeX-scripts kunt omzetten in PDF-documenten met Aspose.PDF
 ### [Afbeeldingsachtergronden instellen in PDF's met Aspose.PDF voor .NET: een uitgebreide handleiding](./aspose-pdf-net-set-image-backgrounds/)
 Leer hoe u uw PDF-documenten kunt verbeteren door afbeeldingsachtergronden in te stellen met Aspose.PDF voor .NET. Deze handleiding behandelt tips voor installatie, implementatie en optimalisatie.
 
+### [ExtGState toevoegen aan PDF met Aspose.Pdf – een volledige handleiding](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+Leer hoe u ExtGState-objecten kunt toepassen om transparantie, mengmodi en andere grafische instellingen in PDF's te beheren met Aspose.Pdf.
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)
