@@ -164,6 +164,8 @@ A code tutorial for Aspose.PDF Net
 ### [Style Text in Tagged PDFs using Aspose.PDF for .NET | Guide for Accessible and Aesthetic PDF Creation](./style-text-tagged-pdfs-aspose-pdf-net/)
 Learn how to style text in tagged PDF documents with Aspose.PDF for .NET. This guide covers installation, techniques, and practical applications to enhance accessibility.
 
+### [How to summarize PDF with Aspose.Pdf.AI – guide](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
+
 ## Additional Resources
 
 - [Aspose.PDF for Net Documentation](https://docs.aspose.com/pdf/net/)

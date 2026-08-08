@@ -164,6 +164,9 @@ Výukový program pro kódování Aspose.PDF Net
 ### [Stylizace textu v tagovaných PDF souborech pomocí Aspose.PDF pro .NET | Průvodce pro tvorbu přístupných a estetických PDF souborů](./style-text-tagged-pdfs-aspose-pdf-net/)
 Naučte se, jak upravovat styl textu v tagovaných PDF dokumentech pomocí Aspose.PDF pro .NET. Tato příručka se zabývá instalací, technikami a praktickými aplikacemi pro zlepšení přístupnosti.
 
+### [Jak shrnout PDF pomocí Aspose.Pdf.AI – průvodce](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
+Naučte se, jak pomocí Aspose.Pdf.AI automaticky vytvořit souhrn obsahu PDF dokumentu v .NET.
+
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)

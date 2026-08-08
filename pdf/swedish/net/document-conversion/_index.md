@@ -58,7 +58,7 @@ Du lär dig hur du anger konverteringsinställningar, extraherar text och bilder
 | [XML till PDF](./xml-to-pdf/) | Lär dig hur du konverterar XML till PDF med Aspose.PDF för .NET i den här omfattande steg-för-steg-handledningen, komplett med kodexempel och detaljerade förklaringar. |
 | [XML till PDFSet-bildsökväg](./xml-to-pdfset-image-path/) | Lär dig hur du enkelt konverterar XML till PDF med Aspose.PDF för .NET. Den här detaljerade guiden guidar dig genom processen steg för steg, från installation till slutförande. |
 | [XPS till PDF](./xps-to-pdf/) Lär dig hur du konverterar XPS-filer till PDF med Aspose.PDF för .NET med den här steg-för-steg-handledningen. Perfekt för utvecklare och dokumententusiaster. |
-
+| [pdfx4 konverteringshandledning – ange PDF-standard och konvertera PDF med Aspose](./pdfx4-conversion-tutorial-set-pdf-standard-and-convert-pdf-u/) | Lär dig hur du ställer in PDF-standard och konverterar PDF-filer till PDF/X‑4 med Aspose.PDF för .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -48,7 +48,7 @@ Lär dig hur du bäddar in teckensnitt i dina PDF-dokument med Aspose.PDF för .
 Lär dig hur du bäddar in standardtypsnitt av typ 1 i PDF-dokument med Aspose.PDF för .NET. Säkerställ enhetlig typografi på alla enheter med den här lättförståeliga guiden.
 
 ### [Extrahera teckensnitt från PDF-filer med Aspose.PDF för .NET: En omfattande guide](./extract-fonts-aspose-pdf-net/)
-Lär dig hur du effektivt extraherar teckensnitt från PDF-dokument med Aspose.PDF för .NET. Perfekt för dokumentgranskning och digital bevaring.
+Lär dig hur du effektivt extraherar teckensnitt från PDF-dokument med Aspose.PDF för .NET. Perfekt för dokumentgranskning och digital bevarande.
 
 ### [Extrahera PDF-fältvärden med Aspose.PDF för .NET: En steg-för-steg-guide](./extract-pdf-field-values-aspose-dotnet-guide/)
 Lär dig hur du extraherar fältvärden från PDF-filer med Aspose.PDF för .NET i C#. Den här guiden behandlar installation, implementering och bästa praxis.
@@ -75,7 +75,7 @@ Lär dig hur du effektivt extraherar text från specifika sidor i en PDF med Asp
 Lär dig hur du effektivt extraherar text från stämpelanteckningar i PDF-dokument med hjälp av Aspose.PDF för .NET. Den här handledningen täcker installation, implementering och praktiska tillämpningar.
 
 ### [Extrahera text från PDF-kolumner med Aspose.PDF för .NET: En omfattande guide](./pdf-column-text-extraction-aspose-dotnet/)
-Lär dig hur du effektivt extraherar text från PDF-filer med flera kolumner i dina .NET-applikationer med Aspose.PDF. Följ den här omfattande guiden för att konfigurera, implementera och optimera extrahering av kolumntext.
+Lär dig hur du effektivt extraherar text från PDF-filer med flera kolumner i dina .NET-applikationer med Aspose.PDF. Följ den här omfattande guiden för att konfigurera, implementera och optimera extraktions av kolumntext.
 
 ### [Så här identifierar du text och bilder i PDF-filer med Aspose.PDF för .NET: En omfattande guide](./detect-text-images-pdf-aspose-pdf-net/)
 Lär dig hur du effektivt identifierar text och bilder i PDF-filer med Aspose.PDF för .NET. Den här guiden täcker installation, extraheringstekniker och praktiska tillämpningar.
@@ -163,6 +163,9 @@ En kodhandledning för Aspose.PDF Net
 
 ### [Stilisera text i taggade PDF-filer med Aspose.PDF för .NET | Guide för att skapa tillgängliga och estetiska PDF-filer](./style-text-tagged-pdfs-aspose-pdf-net/)
 Lär dig hur du formaterar text i taggade PDF-dokument med Aspose.PDF för .NET. Den här guiden behandlar installation, tekniker och praktiska tillämpningar för att förbättra tillgängligheten.
+
+### [Hur du sammanfattar PDF med Aspose.Pdf.AI – guide](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
+Lär dig hur du använder Aspose.Pdf.AI för att automatiskt skapa sammanfattningar av PDF-dokument med .NET.
 
 ## Ytterligare resurser
 

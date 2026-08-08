@@ -209,6 +209,9 @@ Aprenda a supervisar eficientemente el progreso de la conversión de PDF con Asp
 ### [Domine Aspose.PDF .NET: Convierta PDF a HTML con CSS personalizado](./aspose-pdf-net-license-html-conversion-custom-css/)
 Aprenda a aplicar una licencia Aspose.PDF y a convertir archivos PDF a HTML con CSS personalizado usando C#. Desbloquee todas las capacidades de procesamiento de documentos hoy mismo.
 
+### [Guardar PDF como HTML con Aspose.PDF – guía paso a paso](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
+Aprenda a guardar documentos PDF como HTML utilizando Aspose.PDF con una guía paso a paso.
+
 ### [Domine la sustitución de fuentes y la conversión de PDF con Aspose.PDF .NET para lograr conformidad y coherencia de marca](./mastering-font-substitution-pdf-conversion-asposepdf-net/)
 Aprenda a gestionar las fuentes faltantes sustituyéndolas y a convertir archivos PDF a formatos estandarizados con Aspose.PDF .NET. Garantice el cumplimiento normativo y la coherencia de marca en todas las plataformas.
 

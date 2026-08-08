@@ -44,6 +44,9 @@ Aspose.PDF .NET kullanarak paragrafları çıkarıp vurgulayarak görsel olarak 
 ### [Aspose.PDF .NET ile PDF'lere Şeffaf Şekiller Çizin](./draw-transparent-shapes-aspose-pdf-net/)
 Aspose.PDF Net için bir kod öğreticisi
 
+### [C# ile PDF Opaklığını Ayarlama: Aspose.PDF Tam Kılavuz](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
+Aspose.PDF for .NET kullanarak C# ile PDF belgelerinin opaklığını nasıl ayarlayacağınızı adım adım öğrenin.
+
 ### [Aspose.PDF for .NET ile Verimli PDF Görüntü Tanımlama](./master-image-identification-aspose-pdf-net/)
 Aspose.PDF for .NET kullanarak PDF'lerdeki gri tonlamalı ve RGB görüntüleri nasıl tanımlayacağınızı öğrenin. Bu eğitim, kurulum, görüntü çıkarma ve performans ipuçlarını kapsar.
 

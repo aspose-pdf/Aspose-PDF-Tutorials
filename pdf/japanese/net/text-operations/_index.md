@@ -164,6 +164,8 @@ Aspose.PDF Net のコードチュートリアル
 ### [Aspose.PDF for .NET を使用してタグ付き PDF のテキストにスタイルを設定する | アクセシビリティと美観に優れた PDF 作成ガイド](./style-text-tagged-pdfs-aspose-pdf-net/)
 Aspose.PDF for .NET を使って、タグ付き PDF ドキュメント内のテキストにスタイルを設定する方法を学びましょう。このガイドでは、インストール、テクニック、そしてアクセシビリティを向上させるための実践的な応用例を解説します。
 
+### [Aspose.Pdf.AI を使用して PDF を要約する方法 – ガイド](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
+
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)

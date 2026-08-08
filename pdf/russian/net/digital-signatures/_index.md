@@ -47,6 +47,9 @@
 ### [Как проверить PDF – проверка подписи PDF с помощью Aspose](./how-to-verify-pdf-validate-pdf-signature-with-aspose/)
 Узнайте, как проверять подписи PDF с помощью Aspose, обеспечивая подлинность и целостность документов.
 
+### [Как проверить PDF с помощью Aspose.PDF – проверка действительности подписи PDF в C#](./how-to-validate-pdf-with-aspose-pdf-check-pdf-signature-vali/)
+Узнайте, как проверить действительность подписи PDF в C# с помощью Aspose.PDF.
+
 ### [Загрузка PDF‑документа C# – Конвертация в PDF/X‑4 и список подписей](./load-pdf-document-c-convert-to-pdf-x-4-list-signatures/)
 Узнайте, как загрузить PDF‑документ, преобразовать его в формат PDF/X‑4 и получить список цифровых подписей с помощью Aspose.PDF для .NET.
 

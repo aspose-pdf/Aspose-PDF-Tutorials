@@ -59,6 +59,9 @@
 ### [التحقق من توقيع PDF باستخدام Aspose – تحويل PDF إلى HTML](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
 تعرّف على كيفية التحقق من توقيع PDF وتحويله إلى HTML باستخدام Aspose.
 
+### [كيفية التحقق من صحة ملف PDF باستخدام Aspose.PDF – فحص صلاحية توقيع PDF في C#](./how-to-validate-pdf-with-aspose-pdf-check-pdf-signature-vali/)
+دليل شامل للتحقق من صحة توقيع PDF باستخدام C# و Aspose.PDF.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

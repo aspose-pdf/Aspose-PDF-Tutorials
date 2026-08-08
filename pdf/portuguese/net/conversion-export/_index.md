@@ -186,7 +186,7 @@ Aprenda a converter um documento PDF em uma imagem TIFF binarizada usando o Aspo
 Aprenda a converter arquivos PDF para o formato EPUB usando o Aspose.PDF para .NET. Siga este guia passo a passo para aprimorar a publicação digital e a acessibilidade do conteúdo.
 
 ### [Como converter PDF para TIFF de várias páginas usando Aspose.PDF .NET - Guia passo a passo](./convert-pdf-to-multi-page-tiff-aspose-dotnet/)
-Aprenda a converter PDFs em imagens TIFF de várias páginas e alta qualidade usando o Aspose.PDF para .NET. Siga este guia passo a passo para uma implementação fácil em C#.
+Aprenda a converter PDFs em imagens TIFF de várias páginas e alta qualidade usando o Aspose.PDF .NET. Siga este guia passo a passo para uma implementação fácil em C#.
 
 ### [Como converter PDF para PostScript em C# usando Aspose.PDF: um guia completo](./convert-pdf-to-postscript-aspose-csharp/)
 Aprenda a converter arquivos PDF para o formato PostScript usando o Aspose.PDF para .NET com este guia passo a passo. Perfeito para necessidades de impressão de alta qualidade.
@@ -226,6 +226,9 @@ Um tutorial de código para Aspose.PDF Net
 
 ### [Conversão de PDF para TIFF no .NET usando Aspose.PDF: um guia passo a passo](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Aprenda a converter documentos PDF em imagens TIFF usando o Aspose.PDF para .NET. Domine profundidades de cores personalizadas e técnicas avançadas de processamento de imagens.
+
+### [Salvar PDF como HTML com Aspose.PDF – guia passo a passo](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
+Aprenda a converter PDFs em HTML preservando layout e recursos usando Aspose.PDF para .NET, com instruções detalhadas passo a passo.
 
 ## Recursos adicionais
 

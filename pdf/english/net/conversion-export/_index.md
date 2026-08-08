@@ -24,7 +24,7 @@ Learn advanced techniques for converting PDFs to Excel using Aspose.PDF for .NET
 Master Aspose.PDF for .NET to convert XML data into PDF seamlessly. Learn efficient loading, binding, and saving techniques with practical examples.
 
 ### [Comprehensive Guide to Convert XML to PDF Using Aspose.PDF .NET for Developers](./convert-xml-pdf-aspose-net-guide/)
-Learn how to convert XML data into professional PDF documents using Aspose.PDF for .NET. This guide covers installation, conversion processes, and practical applications.
+Learn how to convert XML data into professional PDF documents using Aspose.PDF .NET. This guide covers installation, conversion processes, and practical applications.
 
 ### [Comprehensive Guide&#58; Convert PDF to HTML Using Aspose.PDF .NET with Custom Strategies](./convert-pdf-html-aspose-dotnet-custom-strategies/)
 Learn how to convert PDFs to HTML with custom strategies using Aspose.PDF for .NET. Maintain high fidelity, handle images, fonts, and CSS effectively.
@@ -80,6 +80,8 @@ A code tutorial for Aspose.PDF Net
 ### [Convert PDF to HTML with Custom Image URLs Using Aspose.PDF .NET&#58; A Comprehensive Guide](./convert-pdf-html-custom-image-urls-aspose-pdf-net/)
 Learn how to convert PDF documents to HTML format using Aspose.PDF for .NET, including customizing image URLs and implementing a tailored resource-saving strategy.
 
+### [Save PDF as HTML with Aspose.PDF – step‑by‑step guide](./save-pdf-as-html-with-aspose-pdf-step-by-step-guide/)
+
 ### [Convert PDF to PNG with Aspose.PDF .NET&#58; Enhance Font Hinting for Sharp Text Rendering](./convert-pdf-png-aspose-net-font-hinting/)
 Learn how to convert PDF documents into high-quality PNG images using Aspose.PDF .NET, ensuring sharp text rendering through font hinting.
 
@@ -96,13 +98,13 @@ Learn how to convert PDF pages to high-quality TIFF images using Aspose.PDF for 
 Learn how to convert complex PDF documents into editable TeX format using Aspose.PDF for .NET. This guide covers installation, conversion steps, and performance optimization.
 
 ### [Convert PDF to Word Using Aspose.PDF .NET&#58; A Comprehensive Guide](./convert-pdf-word-aspose-net/)
-Learn how to seamlessly convert PDF files to DOC and DOCX formats using Aspose.PDF for .NET. Master advanced conversion techniques with our step-by-step guide.
+Learn how to seamlessly convert PDF files to DOC and DOCX formats using Aspose.PDF .NET. Master advanced conversion techniques with our step-by-step guide.
 
 ### [Convert PDF to XML Using Aspose.PDF for .NET&#58; Step-by-Step Guide](./convert-pdf-to-xml-aspose-pdf-net/)
 Learn how to convert PDF files to XML format with Aspose.PDF for .NET. Enhance data integration and processing capabilities.
 
 ### [Convert PDF/A to Standard PDF Using Aspose.PDF .NET&#58; A Comprehensive Guide](./convert-pdf-a-standard-pdf-aspose-net/)
-Learn how to seamlessly convert PDF/A documents into standard PDFs using Aspose.PDF for .NET with this step-by-step guide.
+Learn how to seamlessly convert PDF/A documents into standard PDFs using Aspose.PDF .NET with this step-by-step guide.
 
 ### [Convert PDFs to Interactive HTML with Custom CSS Using Aspose.PDF .NET](./convert-pdfs-to-html-custom-css-aspose-pdf-net/)
 Learn how to transform PDF documents into interactive, web-friendly HTML formats using Aspose.PDF .NET, complete with custom CSS styling.
@@ -141,7 +143,7 @@ Learn how to crop specific regions of a PDF page and convert them into images us
 Learn how to efficiently export data from applications to PDF using Aspose.PDF for .NET. This guide covers setup, code examples in C#, and key features.
 
 ### [Export PDF Annotations with Aspose.PDF .NET&#58; A Comprehensive Guide](./export-annotations-aspose-pdf-net/)
-Learn how to efficiently export annotations from PDFs using Aspose.PDF for .NET. This guide covers setup, implementation, and best practices.
+Learn how to efficiently export annotations from PDFs using Aspose.PDF .NET. This guide covers setup, implementation, and best practices.
 
 ### [Export PDF Data to XML with Aspose.PDF for .NET&#58; A Step-by-Step Guide](./export-pdf-data-to-xml-aspose-dotnet-guide/)
 Learn how to efficiently export PDF form data into structured XML using Aspose.PDF for .NET, a powerful library designed for PDF manipulation.

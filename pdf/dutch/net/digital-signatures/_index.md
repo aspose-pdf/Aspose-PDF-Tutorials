@@ -62,6 +62,9 @@ Leer hoe u een PDF-document laadt, converteert naar PDF/X‑4 en de aanwezige ha
 ### [PDF-handtekening valideren met Aspose – PDF naar HTML converteren](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
 Leer hoe u een PDF-handtekening valideert en het document naar HTML converteert met Aspose.PDF voor .NET.
 
+### [PDF valideren met Aspose.PDF – controleer geldigheid van PDF-handtekening in C#](./how-to-validate-pdf-with-aspose-pdf-check-pdf-signature-vali/)
+Leer hoe u een PDF valideert en de handtekeninggeldigheid controleert met Aspose.PDF in C#.
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

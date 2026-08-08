@@ -58,6 +58,7 @@ Megtanulod, hogyan adhatsz meg konvertálási beállításokat, hogyan kinyerhet
 | [XPS-ből PDF-be](./xps-to-pdf/) Tanulja meg, hogyan konvertálhat XPS fájlokat PDF-be az Aspose.PDF for .NET segítségével ezzel a lépésről lépésre szóló útmutatóval. Tökéletes fejlesztők és dokumentumrajongók számára. |
 | [PDF konvertálása PDF/X‑4-re C#‑ban – Lépésről‑lépésre ASP.NET PDF oktatóanyag](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Tanulja meg, hogyan konvertálhat PDF-fájlokat PDF/X‑4 formátumba C#‑ban az Aspose.PDF for .NET segítségével lépésről‑lépésre. |
 | [PDF PNG oktatóanyag – PDF oldalak PNG-be konvertálása C#-ban](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Tanulja meg, hogyan konvertálhat PDF oldalakat PNG képekké C#-ban az Aspose.PDF for .NET használatával. |
+| [pdfx4 konverziós oktatóanyag – PDF szabvány beállítása és PDF konvertálása Aspose használatával](./pdfx4-conversion-tutorial-set-pdf-standard-and-convert-pdf-u/) | Ismerje meg, hogyan állíthat be PDF szabványt és konvertálhat PDF-et pdfx4 formátumba az Aspose.PDF for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

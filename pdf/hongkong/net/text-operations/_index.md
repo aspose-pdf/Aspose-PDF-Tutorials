@@ -162,7 +162,8 @@ Aspose.PDF Net 程式碼教學
 Aspose.PDF Net 程式碼教學
 
 ### [使用 Aspose.PDF for .NET 設定標籤的 PDF 中的文字樣式 |無障礙美觀 PDF 建立指南](./style-text-tagged-pdfs-aspose-pdf-net/)
-了解如何使用 Aspose.PDF for .NET 設定標記 PDF 文件中的文字樣式。本指南涵蓋安裝、技術和實際應用，以增強可訪問性。
+
+### [使用 Aspose.Pdf.AI 摘要 PDF 的指南](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
 
 ## 其他資源
 

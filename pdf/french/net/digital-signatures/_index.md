@@ -59,6 +59,9 @@ Apprenez à charger un PDF, le convertir au format PDF/X‑4 et à répertorier 
 ### [Valider la signature PDF avec Aspose – Convertir le PDF en HTML](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
 Découvrez comment valider une signature PDF et convertir le document en HTML avec Aspose.PDF pour .NET.
 
+### [Comment valider un PDF avec Aspose.PDF – vérifier la validité de la signature PDF en C#](./how-to-validate-pdf-with-aspose-pdf-check-pdf-signature-vali/)
+Apprenez à valider la signature d'un PDF en C# avec Aspose.PDF, étape par étape.
+
 ## Ressources supplémentaires
 
 - [Aspose.PDF pour la documentation réseau](https://docs.aspose.com/pdf/net/)

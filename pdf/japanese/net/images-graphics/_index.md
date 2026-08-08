@@ -164,6 +164,9 @@ Aspose.PDF for .NET を使用してPDFドキュメント内の画像を圧縮・
 ### [Aspose.PDF for .NET を使用して PDF に画像の背景を設定する: 包括的なガイド](./aspose-pdf-net-set-image-backgrounds/)
 Aspose.PDF for .NET を使用して画像背景を設定し、PDFドキュメントの魅力を高める方法を学びましょう。このガイドでは、セットアップ、実装、最適化のヒントを解説します。
 
+### [Aspose.PDF for .NET を使用して C# で PDF の不透明度を設定する：完全ガイド](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
+Aspose.PDF for .NET を使い、C# で PDF の不透明度を設定する方法をステップバイステップで解説します。
+
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)

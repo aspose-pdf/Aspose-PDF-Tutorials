@@ -164,6 +164,9 @@ Learn how to render complex LaTeX scripts into PDF documents using Aspose.PDF fo
 ### [Set Image Backgrounds in PDFs Using Aspose.PDF for .NET&#58; A Comprehensive Guide](./aspose-pdf-net-set-image-backgrounds/)
 Learn how to enhance your PDF documents by setting image backgrounds using Aspose.PDF for .NET. This guide covers setup, implementation, and optimization tips.
 
+### [Set PDF opacity in C# with Aspose.PDF – complete guide](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
+Learn how to set PDF opacity using Aspose.PDF for .NET in C#, with clear step-by-step code examples.
+
 ## Additional Resources
 
 - [Aspose.PDF for Net Documentation](https://docs.aspose.com/pdf/net/)

@@ -164,6 +164,8 @@ Un tutorial de código para Aspose.PDF Net
 ### [Aplicar estilo a texto en PDF etiquetados con Aspose.PDF para .NET | Guía para la creación de PDF accesibles y estéticos](./style-text-tagged-pdfs-aspose-pdf-net/)
 Aprenda a aplicar estilo al texto en documentos PDF etiquetados con Aspose.PDF para .NET. Esta guía abarca la instalación, las técnicas y las aplicaciones prácticas para mejorar la accesibilidad.
 
+### [Cómo resumir PDF con Aspose.Pdf.AI – guía](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
+
 ## Recursos adicionales
 
 - [Documentación de Aspose.PDF para la red](https://docs.aspose.com/pdf/net/)

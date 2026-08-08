@@ -164,6 +164,9 @@ Scopri come trasformare script LaTeX complessi in documenti PDF utilizzando Aspo
 ### [Impostare gli sfondi delle immagini nei PDF utilizzando Aspose.PDF per .NET: una guida completa](./aspose-pdf-net-set-image-backgrounds/)
 Scopri come migliorare i tuoi documenti PDF impostando sfondi con immagini utilizzando Aspose.PDF per .NET. Questa guida include suggerimenti per la configurazione, l'implementazione e l'ottimizzazione.
 
+### [Impostare l'opacità PDF in C# con Aspose.PDF – guida completa](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
+Scopri come impostare l'opacità dei PDF usando Aspose.PDF per .NET in C#, con esempi pratici e consigli di ottimizzazione.
+
 ## Risorse aggiuntive
 
 - [Aspose.PDF per la documentazione di rete](https://docs.aspose.com/pdf/net/)
