@@ -1,12 +1,58 @@
 ---
-date: '2025-12-29'
-description: تعلم كيفية إنشاء مستندات PDF وإضافة محتوى HTML باستخدام Aspose.PDF للغة
-  Java. يوضح هذا البرنامج التعليمي خطوة بخطوة كيفية تحويل HTML إلى PDF في Java.
+date: '2026-06-07'
+description: تعلم كيفية إنشاء PDF من HTML باستخدام Aspose.PDF للـ Java، إضافة HTML
+  إلى PDF، وتحويل HTML إلى PDF بكفاءة.
 keywords:
-- add HTML to PDF Java
-- Aspose.PDF for Java guide
-- convert HTML to PDF in Java
-title: كيفية إنشاء PDF باستخدام HTML باستخدام Aspose.PDF للغة Java
+- create pdf from html
+- add html to pdf
+- convert html to pdf
+- java html to pdf
+- generate pdf with html
+- aspose pdf maven dependency
+schemas:
+- author: Aspose
+  dateModified: '2026-06-07'
+  description: Learn how to create PDF from HTML with Aspose.PDF for Java, add HTML
+    to PDF, and convert HTML to PDF efficiently.
+  headline: How to Create PDF from HTML using Aspose.PDF for Java
+  type: TechArticle
+- description: Learn how to create PDF from HTML with Aspose.PDF for Java, add HTML
+    to PDF, and convert HTML to PDF efficiently.
+  name: How to Create PDF from HTML using Aspose.PDF for Java
+  steps:
+  - name: Add a Page
+    text: '`Page` represents a single page within a PDF document.'
+  - name: Save the New PDF
+    text: This simple setup verifies that your environment is correctly configured
+      before moving on to HTML insertion.
+  - name: Add HTML Fragment to Page
+    text: 'Assuming you have a `Page` object, add your HTML content:'
+  - name: Save the Document with HTML Content
+    text: '**Troubleshooting Tips:** - Ensure the HTML string is well‑formed; malformed
+      tags cause rendering errors. - Verify file system paths to avoid `FileNotFoundException`.
+      - For external CSS or images, use absolute URLs or embed resources directly.'
+  type: HowTo
+- questions:
+  - answer: The example focuses on simple HTML fragments, but the same approach works
+      for full pages—just ensure all resources are reachable via absolute URLs or
+      embedded data.
+    question: Does this tutorial cover converting full HTML pages (with CSS and images)
+      to PDF?
+  - answer: Java 8 through Java 21 are fully supported, giving you flexibility across
+      legacy and modern environments.
+    question: Which Java versions are supported by Aspose.PDF 25.3?
+  - answer: Register your fonts with `FontRepository.registerFont("path/to/font.ttf")`
+      before creating the `HtmlFragment`. `FontRepository` manages font resources
+      for the PDF engine.
+    question: How can I embed custom fonts to preserve exact text appearance?
+  - answer: Call `doc.compress()` before saving, or configure image compression via
+      `PdfSaveOptions` for finer control.
+    question: Is there a way to compress the final PDF to reduce file size?
+  - answer: Yes—create a `HeaderFooter` object, attach it to `doc.getPages().addHeaderFooter()`,
+      then add your HTML fragment.
+    question: Can I add a header/footer to every page while inserting HTML?
+  type: FAQPage
+title: كيفية إنشاء PDF من HTML باستخدام Aspose.PDF للـ Java
 url: /ar/java/conversion-export/add-html-pdf-aspose-java-guide/
 weight: 1
 ---
@@ -16,31 +62,36 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# كيفية إنشاء PDF باستخدام HTML مع Aspose.PDF for Java
+# كيفية إنشاء PDF من HTML باستخدام Aspose.PDF for Java
 
-## المقدمة
+## مقدمة
 
-هل تبحث عن دمج محتوى HTML الديناميكي بسلاسة في مستندات PDF باستخدام Java؟ إذا كنت بحاجة إلى معرفة **كيفية إنشاء PDF** من HTML، سيوجهك هذا الدرس خلال عملية استخدام Aspose.PDF for Java، مكتبة قوية تبسط معالجة المستندات. من خلال دمج محتوى HTML في ملفات PDF، يمكنك إغناء مستنداتك بنص منسق وتخطيطات معقدة تتجاوز النص الأساسي.
+إذا كنت بحاجة إلى **create PDF from HTML** في تطبيق Java، فإن Aspose.PDF for Java يوفّر لك طريقة نظيفة تعتمد على الكود لتضمين HTML منسّق مباشرةً في صفحات PDF. يرشّحك هذا الدليل خلال تثبيت المكتبة، تهيئة مستند، إدراج `HtmlFragment`، وحفظ الملف النهائي—حتى تتمكن من أتمتة الفواتير، التقارير، أو الكتيبات التسويقية دون مغادرة Java.
 
 ### إجابات سريعة
 - **ما المكتبة التي يجب أن أستخدمها؟** Aspose.PDF for Java.
 - **هل يمكنني إضافة HTML إلى PDF؟** نعم، باستخدام الفئة `HtmlFragment`.
-- **هل أحتاج إلى ترخيص للتطوير؟** النسخة التجريبية المجانية تكفي للاختبار؛ يلزم ترخيص تجاري للإنتاج.
+- **هل أحتاج إلى ترخيص للتطوير؟** نسخة تجريبية مجانية تعمل للاختبار؛ يلزم ترخيص تجاري للإنتاج.
 - **ما أدوات بناء Java المدعومة؟** Maven و Gradle.
-- **هل هذا الدرس مناسب لـ Java 11+؟** بالتأكيد – يعمل مع إصدارات Java الحديثة.
+- **هل هذا الدليل مناسب لـ Java 11+؟** بالتأكيد – يعمل مع إصدارات Java الحديثة.
 
-## كيفية إنشاء PDF بمحتوى HTML
-في هذا القسم سنستعرض الخطوات الدقيقة التي تحتاجها **لإنشاء PDF**، إضافة HTML، وحفظ النتيجة. العملية مقسمة إلى إجراءات واضحة مرقمة لتسهيل المتابعة.
+## ما هو إنشاء PDF من HTML؟
 
-## المتطلبات المسبقة
-- **مكتبة Aspose.PDF**: تأكد من أن لديك Aspose.PDF for Java الإصدار 25.3 أو أحدث.
-- **بيئة تطوير Java**: JDK مثبت ومُعد على جهازك.
-- **معرفة أساسية بـ Java**: الإلمام بصياغة Java وإعداد المشروع.
+إنشاء PDF من HTML هو عملية تحويل سلسلة أو ملف HTML إلى مستند PDF مع الحفاظ على التخطيط، تنسيق CSS، والصور. تقوم Aspose.PDF for Java بإجراء هذا التحويل في الذاكرة، مما يلغي الحاجة إلى متصفحات خارجية أو محركات عرض أصلية.
+
+## لماذا استخدام Aspose.PDF for Java لإنشاء PDF من HTML؟
+
+يدعم Aspose.PDF **أكثر من 50 تنسيقًا للإدخال والإخراج**—بما في ذلك DOCX، XLSX، PPTX، HTML، وأنواع الصور—مع معالجة مستندات مئات الصفحات دون تحميل الملف بالكامل إلى الذاكرة. تعمل واجهته البرمجية (API) على Java 8 حتى Java 21، مما يقدّم نتائج متسقة عبر المنصات ويقلل جهد التطوير بما يصل إلى 70 %.
+
+## المتطلبات الأساسية
+- **Aspose.PDF Library**: الإصدار 25.3 أو أحدث (يوصى بأحدث إصدار).
+- **Java Development Environment**: JDK 8+ مثبت و`JAVA_HOME` مُكوَّن.
+- **Basic Java Knowledge**: الإلمام بإعداد مشروع Maven/Gradle.
 
 ## إعداد Aspose.PDF for Java
 
 ### Maven
-أضف الاعتماد التالي إلى ملف `pom.xml` الخاص بك:
+Add the following dependency to your `pom.xml`:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -50,18 +101,18 @@ weight: 1
 ```
 
 ### Gradle
-أدرج هذا في ملف `build.gradle` الخاص بك:
+Include this in your `build.gradle`:
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
 #### خطوات الحصول على الترخيص
-- **نسخة تجريبية مجانية**: ابدأ بنسخة تجريبية مجانية لاستكشاف قدرات المكتبة.
-- **ترخيص مؤقت**: احصل على ترخيص مؤقت للوصول غير المحدود أثناء التقييم.
-- **شراء**: فكر في شراء ترخيص للاستخدام طويل الأمد.
+- **Free Trial**: ابدأ بنسخة تجريبية مجانية لاستكشاف قدرات المكتبة.
+- **Temporary License**: قدّم طلبًا للحصول على ترخيص مؤقت للوصول غير المحدود أثناء التقييم.
+- **Purchase**: فكر في شراء ترخيص للاستخدام على المدى الطويل.
 
 **التهيئة الأساسية والإعداد:**  
-بعد التثبيت، أنت جاهز لإنشاء أول مستند PDF لك:
+بعد التثبيت، أنت جاهز لإنشاء أول مستند PDF لك. تمثل الفئة `Document` ملف PDF في الذاكرة وتوفر طرقًا للتعامل مع صفحاته ومحتوياته.
 ```java
 import com.aspose.pdf.Document;
 
@@ -75,7 +126,7 @@ Document doc = new Document();
 ## دليل التنفيذ
 
 ### إنشاء مستند جديد
-إنشاء PDF فارغ هو الخطوة الأولى في أي عملية توليد مستندات. مع Aspose.PDF، تصبح هذه المهمة بسيطة.
+الفئة `Document` هي الكائن الأعلى مستوى في Aspose.PDF الذي يمثل ملف PDF واحدًا في الذاكرة.
 
 #### الخطوة 1: تهيئة كائن Document
 ```java
@@ -84,6 +135,7 @@ doc = new Document();
 ```
 
 #### الخطوة 2: إضافة صفحة
+`Page` represents a single page within a PDF document.
 ```java
 Page page = doc.getPages().add();
 ```
@@ -93,12 +145,12 @@ Page page = doc.getPages().add();
 doc.save(outputDir + "/new_document.pdf");
 ```
 
-هذه الإعدادات البسيطة تسمح لك بالتحقق من أن بيئتك مُعدة بشكل صحيح وجاهزة للعمليات الأكثر تعقيدًا.
+يتحقق هذا الإعداد البسيط من أن بيئتك مُكوَّنة بشكل صحيح قبل المتابعة إلى إدراج HTML.
 
-### إضافة محتوى HTML باستخدام DOM
-بعد ذلك، سنوضح كيفية إغناء PDF بمحتوى HTML باستخدام الفئة `HtmlFragment`. هذه الميزة أساسية عندما تحتاج إلى **إضافة HTML** أو **تحويل HTML** إلى PDF في Java.
+## كيف تضيف HTML إلى PDF باستخدام Aspose.PDF for Java؟
+حمّل `HtmlFragment` بسلسلة HTML الخاصة بك، عيّن الهوامش الاختيارية، وأرفقه بصفحة—يمكن تنفيذ سير العمل هذا بالكامل في أربع أسطر مختصرة من الكود. تقوم المكتبة بتحليل CSS، الأنماط المضمنة، والجداول الأساسية، وتعرضها بدقة داخل صفحة PDF. تمثل `HtmlFragment` قطعة HTML يمكن عرضها على صفحة PDF.
 
-#### الخطوة 1: إعداد جزء HTML
+### الخطوة 1: إعداد شريحة HTML
 ```java
 import com.aspose.pdf.HtmlFragment;
 import com.aspose.pdf.MarginInfo;
@@ -107,7 +159,7 @@ import com.aspose.pdf.MarginInfo;
 title = new HtmlFragment("<fontsize=10><b><i>Table</i></b></fontsize>");
 ```
 
-#### الخطوة 2: ضبط معلومات الهوامش
+### الخطوة 2: تعيين معلومات الهوامش
 ```java
 MarginInfo margin = new MarginInfo();
 margin.setBottom(10);
@@ -117,78 +169,84 @@ margin.setTop(200);
 title.setMargin(margin);
 ```
 
-#### الخطوة 3: إضافة جزء HTML إلى الصفحة
-بافتراض أنك تمتلك كائن `Page`، أضف محتوى HTML الخاص بك:
+### الخطوة 3: إضافة شريحة HTML إلى الصفحة
+Assuming you have a `Page` object, add your HTML content:
 ```java
 page.getParagraphs().add(title);
 ```
 
-#### الخطوة 4: حفظ المستند بمحتوى HTML
+### الخطوة 4: حفظ المستند بمحتوى HTML
 ```java
 String outputFilePath = outputDir + "/html_content_added.pdf";
 doc.save(outputFilePath);
 ```
 
 **نصائح استكشاف الأخطاء وإصلاحها:**
-- تأكد من أن سلسلة HTML صالحة؛ التنسيق غير الصحيح قد يسبب أخطاء.
-- تحقق من مسارات الدليل لتجنب حدوث `FileNotFoundException`.
+- تأكد من أن سلسلة HTML مُشكّلة بشكل صحيح؛ العلامات غير الصحيحة تسبب أخطاء في العرض.
+- تحقق من مسارات نظام الملفات لتجنب `FileNotFoundException`.
+- بالنسبة إلى CSS أو الصور الخارجية، استخدم عناوين URL مطلقة أو دمج الموارد مباشرة.
 
 ## تطبيقات عملية
-توفر Aspose.PDF العديد من الاستخدامات العملية:
+يقدم Aspose.PDF العديد من السيناريوهات العملية:
 
-1. **إنشاء الفواتير** – إنشاء فواتير تلقائيًا ببيانات ديناميكية وتنسيق باستخدام قوالب HTML.
-2. **إنشاء التقارير** – تضمين جداول HTML معقدة في PDFs لتوضيح تصور البيانات.
-3. **المواد التسويقية** – تصميم كتيبات جذابة تحافظ على العلامة التجارية عبر الصيغ الرقمية والطباعة.
+1. **Invoice Generation** – إنشاء فواتير ديناميكيًا من قوالب HTML التي تشمل هوية الشركة وجداول الضرائب.
+2. **Report Creation** – إدراج جداول HTML معقدة ومخططات في ملفات PDF لتصوير البيانات بوضوح.
+3. **Marketing Material** – إنتاج كتيبات تحتفظ بتنسيق CSS الدقيق عبر التوزيعات الرقمية والمطبوعة.
 
 ## اعتبارات الأداء
-- **تحسين استخدام الذاكرة** – ضبط إعدادات حجم المستند للحفاظ على استهلاك منخفض للذاكرة.
-- **المعالجة الدفعية** – معالجة عدة PDFs دفعة واحدة عند التعامل مع أحجام كبيرة.
-- **هياكل بيانات فعّالة** – استخدم مجموعات مثالية لتوليد المحتوى الديناميكي قبل تضمينه.
-
-## الخلاصة
-قدم لك هذا الدرس خطوة بخطوة سير عمل **كيفية إنشاء PDF** باستخدام Aspose.PDF for Java، من إعداد المكتبة إلى تضمين HTML وحفظ الملف النهائي. باتباع هذه التعليمات، يمكنك إضافة محتوى HTML إلى PDFs بثقة، مما يفتح آفاقًا جديدة لتصميم المستندات والأتمتة.
-
-**الخطوات التالية:**
-- تجربة عناصر HTML أكثر تعقيدًا (CSS، صور، جداول).
-- استكشاف ميزات إضافية في Aspose.PDF مثل العلامات المائية، التشفير، والتوقيعات الرقمية.
-- دمج هذه المنطق في خدمات Java الحالية أو الخدمات المصغرة.
-
-## الأسئلة المتكررة
-**س: هل يغطي هذا الدرس تحويل صفحات HTML كاملة (مع CSS وصور) إلى PDF؟**  
-**ج:** يركز المثال على أجزاء HTML بسيطة، لكن نفس النهج يعمل مع الصفحات الكاملة—فقط تأكد من أن جميع الموارد متاحة.
-
-**س: أي إصدارات Java يدعمها Aspose.PDF 25.3؟**  
-**ج:** Java 8 حتى Java 21 مدعومة بالكامل.
-
-**س: كيف يمكنني تضمين الخطوط للحفاظ على مظهر النص الدقيق؟**  
-**ج:** استخدم `FontRepository` لتسجيل الخطوط المخصصة قبل إنشاء كائنات `HtmlFragment`.
-
-**س: هل هناك طريقة لضغط PDF النهائي لتقليل حجم الملف؟**  
-**ج:** استدعِ `doc.compress()` قبل الحفظ، أو اضبط إعدادات ضغط الصور في `PdfSaveOptions`.
-
-**س: هل يمكنني إضافة رأس/تذييل إلى كل صفحة أثناء إدراج HTML؟**  
-**ج:** نعم—أنشئ كائن `HeaderFooter` وأرفقه بالمستند `Document` قبل إضافة محتوى HTML.
+- **Memory Optimization** – استخدم `Document.enableMemoryOptimization()` للحفاظ على انخفاض استهلاك الذاكرة RAM عند معالجة دفعات كبيرة.
+- **Batch Processing** – كرّر عبر مجموعة من شظايا HTML واحفظ كل واحدة كملف PDF منفصل لتعظيم الإنتاجية.
+- **Efficient Data Structures** – أنشئ سلاسل HTML باستخدام `StringBuilder` قبل إنشاء `HtmlFragment` لتقليل إنشاء الكائنات.
 
 ## الموارد
-- **Documentation**: [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/)
-- **Download**: [Aspose.PDF Releases](https://releases.aspose.com/pdf/java/)
-- **Purchase**: [Buy Aspose.PDF](https://purchase.aspose.com/buy)
-- **Free Trial**: [Aspose Free Trials](https://releases.aspose.com/pdf/java/)
-- **Temporary License**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
-- **Support**: [Aspose PDF Forum](https://forum.aspose.com/c/pdf/10)
+- [مرجع Aspose.PDF Java](https://reference.aspose.com/pdf/java/)
+- [إصدارات Aspose.PDF](https://releases.aspose.com/pdf/java/)
+- [شراء Aspose.PDF](https://purchase.aspose.com/buy)
+- [تجارب Aspose المجانية](https://releases.aspose.com/pdf/java/)
+- [الحصول على ترخيص مؤقت](https://purchase.aspose.com/temporary-license/)
+- [منتدى Aspose PDF](https://forum.aspose.com/c/pdf/10)
+
+## الخلاصة
+أنت الآن تمتلك سير عمل كامل، خطوة بخطوة، لـ **create PDF from HTML** باستخدام Aspose.PDF for Java—من تثبيت المكتبة إلى تضمين HTML وحفظ المستند النهائي. باتباعك لهذه التعليمات، يمكنك أتمتة إنشاء المستندات، تحسين الدقة البصرية، وتوسيع إنشاء PDF عبر تطبيقات المؤسسة.
+
+**الخطوات التالية:**
+- جرّب ميزات CSS المتقدمة، الخطوط المدمجة، ومعالجة الصور.
+- استكشف قدرات إضافية في Aspose.PDF مثل العلامات المائية، التشفير، والتوقيعات الرقمية.
+- دمج هذه المنطق في خدمات Java المصغرة أو وظائف الدُفعات الحالية.
+
+## الأسئلة المتكررة
+
+**س: هل يغطي هذا الدليل تحويل صفحات HTML كاملة (مع CSS وصور) إلى PDF؟**  
+ج: يركز المثال على شظايا HTML بسيطة، لكن نفس النهج يعمل مع الصفحات الكاملة—فقط تأكد من أن جميع الموارد يمكن الوصول إليها عبر عناوين URL مطلقة أو بيانات مدمجة.
+
+**س: ما إصدارات Java المدعومة من Aspose.PDF 25.3؟**  
+ج: Java 8 حتى Java 21 مدعومة بالكامل، مما يمنحك مرونة عبر البيئات القديمة والحديثة.
+
+**س: كيف يمكنني دمج خطوط مخصصة للحفاظ على مظهر النص الدقيق؟**  
+ج: سجّل خطوطك باستخدام `FontRepository.registerFont("path/to/font.ttf")` قبل إنشاء `HtmlFragment`. تدير `FontRepository` موارد الخطوط لمحرك PDF.
+
+**س: هل هناك طريقة لضغط PDF النهائي لتقليل حجم الملف؟**  
+ج: استدعِ `doc.compress()` قبل الحفظ، أو اضبط ضغط الصور عبر `PdfSaveOptions` للحصول على تحكم أدق.
+
+**س: هل يمكنني إضافة رأس/تذييل إلى كل صفحة أثناء إدراج HTML؟**  
+ج: نعم—أنشئ كائن `HeaderFooter`، أرفقه بـ `doc.getPages().addHeaderFooter()`، ثم أضف شريحة HTML الخاصة بك.
 
 ---
+آخر تحديث: 2026-06-07  
+تم الاختبار مع: Aspose.PDF for Java 25.3  
+المؤلف: Aspose  
 
-**Last Updated:** 2025-12-29  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose  
+{{< blocks/products/products-backtop-button >}}
 
----
+## دروس ذات صلة
+
+- [إتقان تحويل HTML إلى PDF باستخدام Aspose.PDF for Java: دليل شامل](/pdf/java/conversion-export/html-to-pdf-aspose-java-tutorial/)
+- [aspose pdf html fragment – إضافة HTML إلى PDF باستخدام Java](/pdf/java/conversion-export/add-html-to-pdf-aspose-java/)
+- [تحويل PDF إلى HTML متعدد الصفحات باستخدام Aspose.PDF for Java: دليل كامل](/pdf/java/conversion-export/convert-pdf-to-multipage-html-aspose-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

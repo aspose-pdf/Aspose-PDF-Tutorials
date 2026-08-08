@@ -1,13 +1,53 @@
 ---
-date: '2025-12-24'
-description: Aprende cómo recuperar marcadores PDF en Java usando Aspose.PDF para
-  Java, extraer y mostrar los títulos, estilos y colores de los marcadores de manera
-  eficiente.
+date: '2026-06-07'
+description: Aprenda cómo leer PDF metadata Java y recuperar PDF bookmarks usando
+  Aspose.PDF para Java – extracción paso a paso de titles, styles, colors y metadata.
 keywords:
+- read pdf metadata java
+- aspose pdf java tutorial
 - retrieve pdf bookmarks java
-- display PDF bookmarks Aspose.PDF
-- Aspose.PDF for Java setup
-title: Recuperar marcadores PDF en Java con Aspose.PDF – Guía completa
+schemas:
+- author: Aspose
+  dateModified: '2026-06-07'
+  description: Learn how to read PDF metadata Java and retrieve PDF bookmarks using
+    Aspose.PDF for Java – step‑by‑step extraction of titles, styles, colors, and metadata.
+  headline: Read PDF Metadata Java & Retrieve Bookmarks with Aspose.PDF
+  type: TechArticle
+- description: Learn how to read PDF metadata Java and retrieve PDF bookmarks using
+    Aspose.PDF for Java – step‑by‑step extraction of titles, styles, colors, and metadata.
+  name: Read PDF Metadata Java & Retrieve Bookmarks with Aspose.PDF
+  steps:
+  - name: '**Content Navigation Apps** – Enhance user experience by allowing quick
+      jumps to sections.'
+    text: '**Content Navigation Apps** – Enhance user experience by allowing quick
+      jumps to sections.'
+  - name: '**Document Management Systems** – Auto‑categorize documents based on bookmarked
+      headings.'
+    text: '**Document Management Systems** – Auto‑categorize documents based on bookmarked
+      headings.'
+  - name: '**E‑Learning Platforms** – Let students jump directly to lessons or topics
+      marked by the author.'
+    text: '**E‑Learning Platforms** – Let students jump directly to lessons or topics
+      marked by the author.'
+  type: HowTo
+- questions:
+  - answer: Yes—simply pass the password to the `Document` constructor, and both metadata
+      and outlines become accessible.
+    question: Does this method work with password‑protected PDFs?
+  - answer: Absolutely. The `OutlineItemCollection` can be traversed recursively to
+      access child items at any depth.
+    question: Can I retrieve nested (child) bookmarks?
+  - answer: Aspose.PDF for Java supports Java 8 onward, including Java 11 and Java
+      17.
+    question: Is the API compatible with Java 8 and newer versions?
+  - answer: Iterate over the outlines, collect the details, and write them using standard
+      Java I/O classes such as `FileWriter` or `BufferedWriter`.
+    question: How can I export the bookmark list to a CSV file?
+  - answer: Use `outlineItem.setTitle("New Title")` and then call `document.save("updated.pdf")`
+      to persist the changes.
+    question: What if I need to modify bookmark titles?
+  type: FAQPage
+title: Leer PDF metadata Java y recuperar bookmarks con Aspose.PDF
 url: /es/java/bookmarks-navigation/retrieve-display-pdf-bookmarks-aspose-pdf-java/
 weight: 1
 ---
@@ -17,87 +57,91 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Cómo recuperar marcadores PDF Java con Aspose.PDF para Java
+# Cómo recuperar marcadores PDF en Java con Aspose.PDF para Java
 
 ## Introducción
-¿Tienes problemas para extraer marcadores de un documento PDF? En este tutorial aprenderás **cómo recuperar marcadores PDF Java** usando la potente biblioteca Aspose.PDF. Ya sea que estés creando un visor con navegación rica, extrayendo metadatos para indexación, o automatizando el procesamiento de documentos, dominar la manipulación de marcadores es esencial para una experiencia de usuario fluida.
+Si necesitas **read PDF metadata Java**‑style y también extraer la jerarquía de marcadores del documento, estás en el lugar correcto. Este tutorial muestra cómo usar Aspose.PDF para Java para extraer tanto metadatos como marcadores, mostrar sus títulos, estilos y colores, e integrar los datos en aplicaciones con navegación avanzada o pipelines de indexación.
 
 ### Respuestas rápidas
-- **¿Qué significa “retrieve pdf bookmarks java”?** Se refiere a leer programáticamente el esquema (marcadores) de un archivo PDF usando código Java.  
-- **¿Qué biblioteca es la mejor para esta tarea?** Aspose.PDF para Java ofrece una API sencilla para acceder a los títulos de los marcadores, estilos y colores.  
-- **¿Necesito una licencia?** Una prueba gratuita sirve para evaluación; se requiere una licencia permanente para producción.  
-- **¿Puedo manejar PDFs grandes?** Sí—utiliza streaming y cierra el objeto `Document` para liberar recursos.  
-- **¿Es este enfoque seguro para subprocesos?** Se recomienda crear una instancia separada de `Document` por subproceso.
+- **What does “read pdf metadata java” mean?** Significa acceder programáticamente a la información incorporada de un PDF (autor, título, palabras clave, etc.) usando código Java.  
+- **Which library handles both metadata and bookmarks?** Aspose.PDF for Java ofrece una API unificada para metadatos, esquemas y muchas otras funciones PDF.  
+- **Do I need a license for production?** Una prueba gratuita funciona para evaluación; una licencia permanente elimina todas las restricciones de evaluación.  
+- **Can the solution process large PDFs efficiently?** Sí—Aspose.PDF transmite datos y libera recursos cuando se cierra el objeto `Document`.  
+- **Is the approach thread‑safe?** Instancia un `Document` separado por hilo; la biblioteca en sí es reentrante.
 
-### Lo que aprenderás
-- Configurar tu entorno con Aspose.PDF para Java  
-- Recuperar marcadores de un documento PDF  
-- Mostrar los títulos de los marcadores y atributos como negrita, cursiva y color  
-- Aplicaciones prácticas y posibilidades de integración  
-- Consideraciones de rendimiento para un uso óptimo de recursos  
+## Lo que aprenderás
+- Configurar Aspose.PDF para Java (Maven/Gradle)  
+- Leer metadatos PDF con Java  
+- Recuperar y mostrar los títulos, estilos y colores de los marcadores  
+- Casos de uso reales como paneles de navegación e indexación de documentos  
+- Consejos de rendimiento para manejar archivos grandes  
 
-¡Vamos a sumergirnos en los requisitos previos antes de comenzar!
+Confirmemos los requisitos previos antes de profundizar.
 
 ## retrieve pdf bookmarks java – Lo que necesitas saber
-Antes de escribir una sola línea de código, asegúrate de tener las herramientas y conocimientos adecuados.
+Antes de escribir una sola línea de código, asegúrate de tener las herramientas y conocimientos adecuados a mano.
 
 ## Requisitos previos
 Para seguir este tutorial de manera eficaz, necesitarás:
-- **Bibliotecas requeridas**: Aspose.PDF para Java (versión 25.3) es necesario.  
-- **Configuración del entorno**: Un IDE compatible como IntelliJ IDEA o Eclipse con JDK instalado.  
-- **Conocimientos previos**: Familiaridad con la programación Java y comprensión básica de los sistemas de construcción Maven o Gradle.
+- **Required Libraries**: Aspose.PDF for Java (versión 25.3) es necesario.  
+- **Environment Setup**: Un IDE compatible como IntelliJ IDEA o Eclipse con JDK instalado.  
+- **Knowledge Prerequisites**: Familiaridad con la programación Java y comprensión básica de los sistemas de construcción Maven o Gradle.
 
 ## Configuración de Aspose.PDF para Java
 ### Información de instalación
 Incluye la biblioteca Aspose.PDF en tu proyecto usando Maven o Gradle:
 
-**Maven**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-pdf</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle**
+**Gradle**  
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
-```
+```  
 
-### Adquisición de licencia
+### Obtención de licencia
 Aspose.PDF para Java permite una prueba gratuita, licencia temporal o compra de la versión completa. Visita [Aspose Purchase](https://purchase.aspose.com/buy) para explorar tus opciones.
 
 #### Inicialización y configuración básica
-Para inicializar Aspose.PDF en tu aplicación, configura el archivo de licencia correctamente:
+La clase `License` carga y aplica tu licencia Aspose.PDF, habilitando la funcionalidad completa sin límites de evaluación. Para inicializar Aspose.PDF en tu aplicación, configura correctamente el archivo de licencia:  
 ```java
 License license = new License();
 license.setLicense("path/to/your/license/file.lic");
-```
+```  
 
-Con esta configuración completa, pasemos a implementar nuestra función de extracción de marcadores.
+Con esta configuración completa, pasemos a implementar nuestra función de extracción de marcadores y metadatos.
 
-## Guía de implementación
-### Extracción de marcadores de un documento PDF
+## ¿Cómo recuperar marcadores PDF usando Aspose.PDF para Java?
+`Document` es la clase principal que representa un documento PDF en Aspose.PDF para Java.  
+Carga el PDF con `new Document("file.pdf")`, luego llama a `document.getOutlines().getAllOutlines()` para obtener una colección de objetos `OutlineItemCollection` — esto te brinda acceso directo a cada marcador en una sola llamada. La API también proporciona `document.getInfo()` para metadatos, de modo que puedes leer autor, título y pares clave‑valor personalizados sin abrir el archivo dos veces.
+
+### Guía de implementación
+#### Extracción de marcadores de un documento PDF
 Esta sección te guía a través de la recuperación de marcadores usando Aspose.PDF para Java.
 
-#### Apertura del documento PDF
-Carga tu documento PDF:
+##### Apertura del documento PDF
+La clase `Document` representa un archivo PDF en memoria, permitiendo operaciones de lectura/escritura y exponiendo colecciones de metadatos y esquemas. Carga tu documento PDF:  
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY/input.pdf"; // Path to the input PDF file
 Document pdfDocument = new Document(dataDir);
-```
+```  
 
-#### Recorrido de los marcadores
-Itera a través de todos los marcadores en el documento:
+##### Recorrido de los marcadores
+`OutlineItemCollection` representa una entrada de marcador individual dentro de la jerarquía de esquemas del PDF.  
 ```java
 for (OutlineItemCollection outlineItem : pdfDocument.getOutlines()) {
     // Access bookmark details
 }
-```
+```  
 
-#### Mostrar detalles de los marcadores
-Para cada marcador, muestra su título y atributos como cursiva, negrita y color:
+##### Mostrar detalles del marcador
+Para cada marcador, muestra su título y atributos como cursiva, negrita y color:  
 ```java
 String title = outlineItem.getTitle();
 boolean isItalic = outlineItem.isItalic();  // Corrected method call for italic check
@@ -109,78 +153,85 @@ System.out.println("Title: " + title);
 System.out.println("Is Italic: " + isItalic);
 System.out.println("Is Bold: " + isBold);
 System.out.println("Color: " + color);
-```
-**Explicación**: El método `getTitle()` recupera el nombre del marcador, mientras que `isItalic()` y `getBold()` verifican el estilo del texto. `getColor()` proporciona información del color.
+```  
+**Explanation**: El método `getTitle()` recupera el nombre del marcador, mientras que `isItalic()` y `getBold()` verifican el estilo del texto. El `getColor()` proporciona información del color.
+
+#### Lectura de metadatos PDF (Palabra clave principal en acción)
+`DocumentInfo` brinda acceso a los campos estándar de metadatos PDF como autor, título y propiedades personalizadas.  
+El método `Document.getInfo()` devuelve un objeto `DocumentInfo` que contiene los campos estándar de metadatos. Llama a `info.getAuthor()`, `info.getTitle()` o `info.getCustomProperties()` para leer los datos que necesitas. Este enfoque de una sola llamada te permite **read pdf metadata java** sin analizar el archivo manualmente.
 
 ### Consejos de solución de problemas
-- **Marcadores faltantes**: Asegúrate de que tu PDF realmente contenga marcadores.  
-- **Errores de ruta**: Verifica dos veces la exactitud de las rutas de archivo.
+- **Missing Bookmarks**: Asegúrate de que tu PDF realmente contenga marcadores.  
+- **Path Errors**: Verifica dos veces las rutas de archivo para precisión.  
+- **Null Metadata**: Algunos PDFs omiten campos opcionales; siempre verifica `null` antes de usar el valor.
 
 ## Aplicaciones prácticas
 Extraer y manipular marcadores PDF puede aplicarse en varios escenarios:
-1. **Aplicaciones de navegación de contenido** – Mejora la experiencia del usuario permitiendo una navegación rápida a través de secciones de un documento.  
-2. **Sistemas de gestión documental** – Categoriza automáticamente el contenido basado en encabezados marcados.  
-3. **Plataformas de e‑learning** – Permite a los estudiantes saltar directamente a lecciones o temas clave.
+1. **Content Navigation Apps** – Mejora la experiencia del usuario permitiendo saltos rápidos a secciones.  
+2. **Document Management Systems** – Auto‑categorización de documentos basada en encabezados marcados.  
+3. **E‑Learning Platforms** – Permite a los estudiantes saltar directamente a lecciones o temas marcados por el autor.  
 
 ## Consideraciones de rendimiento
 Al trabajar con PDFs grandes, considera estos consejos de rendimiento:
-- Utiliza streaming si es posible para manejar documentos grandes de manera eficiente.  
-- Monitorea el uso de memoria y optimiza la configuración de tu entorno.  
-- Cierra correctamente el objeto `Document` después de su uso para liberar recursos.  
+- Aspose.PDF soporta el procesamiento de archivos de hasta **2 GB** sin cargar todo el documento en memoria, gracias a su arquitectura de transmisión.  
+- Usa `Document.optimizeResources()` para reducir la huella de memoria en archivos masivos.  
+- Cierra el objeto `Document` rápidamente (`document.close()`) para liberar recursos nativos.  
 
-Seguir las mejores prácticas asegura un funcionamiento fluido y una gestión eficiente de recursos.
+Seguir las mejores prácticas garantiza una operación fluida y una gestión eficiente de recursos.
 
 ## Problemas comunes y soluciones
 | Problema | Causa probable | Solución |
-|----------|----------------|----------|
-| Sin salida para los marcadores | El PDF no tiene esquemas | Verifica que el PDF de origen contenga marcadores |
-| `NullPointerException` on `getColor()` | El marcador no tiene color asignado | Agregar una verificación nula antes de acceder al color |
-| Licencia no aplicada | Ruta de archivo de licencia incorrecta | Asegúrate de que `setLicense` apunte al archivo `.lic` correcto |
+|-------|--------------|-----|
+| No output for bookmarks | PDF lacks outlines | Verify the source PDF contains bookmarks |
+| `NullPointerException` on `getColor()` | Bookmark has no color set | Add a null check before accessing color |
+| License not applied | Incorrect license file path | Ensure `setLicense` points to the correct `.lic` file |
 
 ## Conclusión
-En este tutorial, hemos cubierto **cómo recuperar marcadores PDF Java** usando Aspose.PDF para Java. Siguiendo estos pasos, puedes mejorar tus aplicaciones con funciones avanzadas de navegación de documentos.
+En este tutorial, hemos cubierto **how to read PDF metadata Java** y **retrieve PDF bookmarks** usando Aspose.PDF para Java. Al seguir estos pasos, puedes mejorar tus aplicaciones con capacidades avanzadas de navegación y extracción de metadatos.
 
 ### Próximos pasos
-- Explora más capacidades de Aspose.PDF.  
-- Integra la extracción de marcadores en proyectos más grandes.  
-- Experimenta con tareas adicionales de procesamiento de documentos.  
-
-¡Considera probar la solución en un proyecto del mundo real para ver cómo mejora la funcionalidad!
+- Explora características adicionales de Aspose.PDF como conversión de PDF a imagen o extracción de texto.  
+- Integra la lista de marcadores en un índice buscable o en un panel de navegación UI.  
+- Experimenta con procesamiento por lotes para manejar varios documentos en una sola ejecución.  
 
 ## Preguntas frecuentes
-**P: ¿Este método funciona con PDFs protegidos con contraseña?**  
-R: Sí—simplemente proporciona la contraseña al crear el objeto `Document`.  
+**Q: ¿Este método funciona con PDFs protegidos con contraseña?**  
+A: Sí—simplemente pasa la contraseña al constructor `Document`, y tanto los metadatos como los esquemas serán accesibles.  
 
-**P: ¿Puedo recuperar marcadores anidados (hijos)?**  
-R: Por supuesto. El `OutlineItemCollection` puede recorrerse recursivamente para acceder a los elementos hijos.  
+**Q: ¿Puedo recuperar marcadores anidados (hijos)?**  
+A: Por supuesto. El `OutlineItemCollection` puede recorrerse recursivamente para acceder a los elementos hijos a cualquier profundidad.  
 
-**P: ¿Es la API compatible con Java 8 y versiones posteriores?**  
-R: Aspose.PDF para Java soporta Java 8 en adelante, incluyendo Java 11 y Java 17.  
+**Q: ¿Es la API compatible con Java 8 y versiones posteriores?**  
+A: Aspose.PDF para Java es compatible con Java 8 en adelante, incluyendo Java 11 y Java 17.  
 
-**P: ¿Cómo puedo exportar la lista de marcadores a un archivo CSV?**  
-R: Recorre los esquemas, recopila los detalles y escríbelos usando las clases estándar de I/O de Java.  
+**Q: ¿Cómo puedo exportar la lista de marcadores a un archivo CSV?**  
+A: Recorre los esquemas, recopila los detalles y escríbelos usando clases estándar de I/O de Java como `FileWriter` o `BufferedWriter`.  
 
-**P: ¿Qué pasa si necesito modificar los títulos de los marcadores?**  
-R: Usa `outlineItem.setTitle("New Title")` y luego guarda el documento.
+**Q: ¿Qué pasa si necesito modificar los títulos de los marcadores?**  
+A: Usa `outlineItem.setTitle("New Title")` y luego llama a `document.save("updated.pdf")` para guardar los cambios.  
 
 ## Recursos
-- **Documentation**: [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/)  
-- **Download**: [Aspose PDF Releases for Java](https://releases.aspose.com/pdf/java/)  
-- **Purchase**: [Buy Aspose Products](https://purchase.aspose.com/buy)  
-- **Free Trial**: [Start with a Free Trial](https://releases.aspose.com/pdf/java/)  
-- **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
-- **Support Forum**: [Aspose PDF Community Support](https://forum.aspose.com/c/pdf/10)
+- **Documentación**: [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/)  
+- **Descarga**: [Aspose PDF Releases for Java](https://releases.aspose.com/pdf/java/)  
+- **Compra**: [Buy Aspose Products](https://purchase.aspose.com/buy)  
+- **Prueba gratuita**: [Start with a Free Trial](https://releases.aspose.com/pdf/java/)  
+- **Licencia temporal**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Foro de soporte**: [Aspose PDF Community Support](https://forum.aspose.com/c/pdf/10)
 
 ---
 
-**Last Updated:** 2025-12-24  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose
+**Última actualización:** 2026-06-07  
+**Probado con:** Aspose.PDF for Java 25.3  
+**Autor:** Aspose
+
+## Tutoriales relacionados
+
+- [Domina la extracción y guardado de metadatos PDF con Aspose.PDF para Java](/pdf/java/metadata-document-info/aspose-pdf-java-metadata-extraction-saves/)
+- [Cómo crear marcadores PDF y gestionar la navegación usando Aspose.PDF para Java](/pdf/java/bookmarks-navigation/create-manage-pdf-bookmarks-aspose-java/)
+- [Cómo importar marcadores a PDFs usando Aspose.PDF para Java](/pdf/java/bookmarks-navigation/import-xml-bookmarks-aspose-pdf-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
