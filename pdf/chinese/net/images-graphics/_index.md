@@ -35,6 +35,9 @@
 ### [使用 Aspose.PDF for .NET 在 PDF 中创建和填充矩形：分步指南](./create-fill-rectangle-aspose-pdf-net/)
 学习如何使用 Aspose.PDF for .NET 在 PDF 文档中创建和填充矩形。本分步指南涵盖了从设置到使用 C# 实现的所有内容。
 
+### [使用 C# 向 PDF 添加矩形：分步指南](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+Aspose.PDF Net 代码教程
+
 ### [使用 .NET 中的 Aspose.PDF 创建自定义 PDF 图章](./create-custom-pdf-stamps-aspose-pdf-net/)
 Aspose.PDF Net 代码教程
 
@@ -43,6 +46,9 @@ Aspose.PDF Net 代码教程
 
 ### [使用 Aspose.PDF .NET 在 PDF 中绘制透明形状](./draw-transparent-shapes-aspose-pdf-net/)
 Aspose.PDF Net 代码教程
+
+### [使用 Aspose.PDF for .NET 添加图形状态 PDF：分步指南](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+了解如何使用 Aspose.PDF for .NET 在 PDF 中管理图形状态，实现透明度、混合模式等高级绘图效果。
 
 ### [使用 Aspose.PDF for .NET 实现高效的 PDF 图像识别](./master-image-identification-aspose-pdf-net/)
 学习如何使用 Aspose.PDF for .NET 识别 PDF 中的灰度和 RGB 图像。本教程涵盖安装、图像提取和性能技巧。
@@ -74,10 +80,10 @@ Aspose.PDF Net 代码教程
 ### [如何使用 Aspose.PDF .NET 将图像添加到 PDF：综合指南](./aspose-pdf-net-add-images-pdfs/)
 了解如何使用 Aspose.PDF for .NET 将图像无缝添加到 PDF 文档。本分步指南涵盖设置、实施和实际应用。
 
-### [如何使用 Aspose.PDF for .NET 将图像添加到 PDF：完整指南](./add-images-to-pdfs-using-aspose-pdf-net/)
+### [如何使用 Aspose.PDF .NET 将图像添加到 PDF：完整指南](./add-images-to-pdfs-using-aspose-pdf-net/)
 了解如何使用 Aspose.PDF for .NET 将图像无缝添加到 PDF 文档。本分步指南涵盖设置、实施和实际应用。
 
-### [如何使用 Aspose.PDF for .NET 将图像添加到 PDF：分步指南](./add-images-to-pdfs-aspose-pdf-net/)
+### [如何使用 Aspose.PDF .NET 将图像添加到 PDF：分步指南](./add-images-to-pdfs-aspose-pdf-net/)
 了解如何使用 Aspose.PDF for .NET 将图像无缝添加到您的 PDF 文档中。本指南涵盖了如何将图像添加到现有 PDF 文档以及如何从 DICOM 文件创建新的 PDF 文档。
 
 ### [如何使用 Aspose.PDF for .NET 为 PDF 添加图像页眉：分步指南](./add-image-header-pdf-aspose-dotnet/)

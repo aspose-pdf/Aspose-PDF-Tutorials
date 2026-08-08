@@ -29,6 +29,8 @@ Ebben az oktatóanyag-sorozatban a szövegszerkesztés különböző aspektusait
 
 {{< tutorial-card link="./multicolumn-paragraphs/" title="Többhasábos bekezdések PDF-ben az Aspose.PDF használatával" imgSrc="./multicolumn-paragraphs/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/" title="Hogyan használja az Aspose-t beolvasott PDF szövegének kinyeréséhez – lépésről‑lépésre útmutató" imgSrc="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

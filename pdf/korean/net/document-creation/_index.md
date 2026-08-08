@@ -75,8 +75,15 @@ Aspose.PDF for .NET을 사용하여 접근성이 뛰어나고 구조화된 태�
 Aspose.PDF Net에 대한 코드 튜토리얼
 
 ### [Aspose.PDF로 PDF 문서 만들기 – 페이지 추가, 도형 삽입 및 저장](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
+
 ### [Aspose.PDF를 사용하여 PDF 문서 만들기 – 단계별 가이드](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 Aspose.PDF를 활용해 PDF 문서를 처음부터 생성하는 방법을 단계별로 안내합니다.
+
+### [C#를 사용한 베이츠 번호 매기기로 새 PDF 문서 만들기](./create-new-pdf-document-with-bates-numbering-in-c/)
+C#와 Aspose.PDF for .NET을 활용하여 베이츠 번호 매기기가 포함된 PDF 문서를 생성하는 방법을 단계별로 안내합니다.
+
+### [C#로 PDF/X‑4 문서 만들기 – 단계별 가이드](./create-pdf-x-4-document-c-step-by-step-guide/)
+C#와 Aspose.PDF for .NET을 사용하여 PDF/X‑4 표준을 충족하는 PDF 문서를 단계별로 생성하는 방법을 안내합니다.
 
 ## 추가 자료
 

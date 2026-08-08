@@ -27,7 +27,7 @@ Pelajari cara menambahkan nomor halaman menggunakan Aspose.PDF untuk .NET dengan
 Pelajari cara menghapus semua teks dari dokumen PDF secara efisien menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah ini dengan contoh kode dan kiat performa.
 
 ### [Membuat & Memutar Teks dalam PDF Menggunakan Aspose.PDF .NET: Panduan Lengkap untuk Pengembang](./create-rotate-text-aspose-pdf-net/)
-Pelajari cara membuat dan memutar teks dalam dokumen PDF menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup inisialisasi, konfigurasi teks, dan tata letak kreatif dengan C#.
+Pelajari cara membuat dan memutar teks dalam dokumen PDF menggunakan Aspose.PDF .NET. Panduan ini mencakup inisialisasi, konfigurasi teks, dan tata letak kreatif dengan C#.
 
 ### [Membuat PDF Teks Indentasi di .NET Menggunakan Aspose.PDF](./create-indented-text-pdfs-net-aspose-pdf/)
 Tutorial kode untuk Aspose.PDF Net
@@ -99,7 +99,7 @@ Pelajari cara menyorot teks secara efisien dalam dokumen PDF menggunakan Aspose.
 Pelajari cara mengukur lebar string secara akurat menggunakan Aspose.PDF untuk .NET dengan objek Font dan TextState. Panduan ini mencakup langkah-langkah implementasi terperinci, aplikasi praktis, dan kiat performa.
 
 ### [Cara Memutar Teks dalam PDF Menggunakan Aspose.PDF untuk .NET: Panduan Langkah demi Langkah](./rotate-text-aspose-pdf-net-guide/)
-Kuasai rotasi teks dalam PDF dengan Aspose.PDF untuk .NET menggunakan panduan lengkap ini. Pelajari cara menyempurnakan tata letak dokumen Anda dengan teks yang diputar secara efisien.
+Kuasai rotasi teks dalam PDF dengan Aspose.PDF .NET menggunakan panduan lengkap ini. Pelajari cara menyempurnakan tata letak dokumen Anda dengan teks yang diputar secara efisien.
 
 ### [Kuasai Aspose.PDF untuk .NET: Buka dan Cari Dokumen PDF Secara Efisien](./aspose-pdf-net-open-search-pdfs/)
 Pelajari cara menggunakan Aspose.PDF untuk .NET guna membuka dan mencari dokumen PDF. Panduan ini mencakup pengaturan, pencarian teks di halaman tertentu, dan aplikasi praktis.
@@ -163,6 +163,11 @@ Tutorial kode untuk Aspose.PDF Net
 
 ### [Gaya Teks dalam PDF yang Ditandai menggunakan Aspose.PDF untuk .NET | Panduan untuk Pembuatan PDF yang Mudah Diakses dan Estetis](./style-text-tagged-pdfs-aspose-pdf-net/)
 Pelajari cara memberi gaya pada teks dalam dokumen PDF yang diberi tag dengan Aspose.PDF untuk .NET. Panduan ini mencakup instalasi, teknik, dan aplikasi praktis untuk meningkatkan aksesibilitas.
+
+### [Cara Meringkas PDF dengan Aspose.Pdf.AI – Panduan Lengkap](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
+
+### [AI Chat PDF: Ajukan Pertanyaan PDF dengan Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
+Gunakan Aspose AI Copilot untuk menanyakan pertanyaan tentang konten PDF secara interaktif.
 
 ## Sumber Daya Tambahan
 

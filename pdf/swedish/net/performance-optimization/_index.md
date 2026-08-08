@@ -44,6 +44,9 @@ Lär dig hur du optimerar PDF-dokument med Aspose.PDF .NET för förbättrad web
 ### [Optimera PDF-filer med Aspose.PDF .NET: Bemästra FlateDecode-komprimeringstekniker](./aspose-pdf-net-flatedecode-compression-guide/)
 Lär dig hur du minskar PDF-filstorlekar med FlateDecode-komprimering med Aspose.PDF för .NET. Följ den här guiden för att optimera bilder, förbättra prestanda och bibehålla kvaliteten.
 
+### [Hur man optimerar PDF i .NET – komprimera PDF i .NET steg för steg](./how-to-optimize-pdf-in-net-compress-pdf-in-net-step-by-step/)
+Lär dig att komprimera PDF-filer i .NET steg för steg med Aspose.PDF.
+
 ### [Optimera konvertering från SVG till PDF med Aspose.PDF för .NET | Prestandaguide](./optimize-svg-to-pdf-conversion-aspose-pdf-net/)
 Bemästra konsten att konvertera SVG-filer till PDF-filer med precision och effektivitet med hjälp av Aspose.PDF för .NET. Lär dig installations-, konfigurations- och optimeringstekniker i den här omfattande guiden.
 

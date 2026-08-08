@@ -23,6 +23,9 @@ Aspose.PDF for .NET を使用して、ロゴなどの画像スタンプを PDF �
 ### [Aspose.PDF for .NET を使用して PDF に画像を追加する: ステップバイステップガイド](./adding-images-aspose-pdf-net-guide/)
 この詳細なガイドでは、Aspose.PDF for .NET を使用してPDFドキュメントに画像を追加する方法を学びます。XImageコレクションと行列変換をマスターすることで、レポートやパンフレットのクオリティを高めましょう。
 
+### [Aspose.PDF を使用してグラフィックスステートを PDF に追加する: ステップバイステップ ガイド](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+Aspose.PDF for .NET を使って PDF にグラフィックスステートを追加し、描画設定を制御する方法を学びます。
+
 ### [Aspose.PDF for .NET でグラデーション シェーディング付きのテキストを追加する: ステップバイステップ ガイド](./add-text-gradient-shading-aspose-pdf-net/)
 Aspose.PDF for .NET を使用して、PDF にグラデーション付きのテキストを追加する方法を学びましょう。このガイドに従って、ドキュメントの美しさと読みやすさを向上させましょう。
 
@@ -34,6 +37,8 @@ Aspose.PDF for .NET を使用して、SVG ファイルを高品質な PDF にシ
 
 ### [Aspose.PDF for .NET を使用して PDF に四角形を作成および塗りつぶす: ステップバイステップ ガイド](./create-fill-rectangle-aspose-pdf-net/)
 Aspose.PDF for .NET を使用して、PDF ドキュメントに四角形を作成し、塗りつぶす方法を学びます。このステップバイステップガイドでは、C# でのセットアップから実装まで、すべてを網羅しています。
+
+### [C# で PDF に四角形を追加する: ステップバイステップ ガイド](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
 
 ### [.NET で Aspose.PDF を使用してカスタム PDF スタンプを作成する](./create-custom-pdf-stamps-aspose-pdf-net/)
 Aspose.PDF Net のコードチュートリアル
@@ -74,28 +79,28 @@ Aspose.PDF for .NET を使用してPDFに画像やテキストを追加する方
 ### [Aspose.PDF .NET を使用して PDF に画像を追加する方法: 包括的なガイド](./aspose-pdf-net-add-images-pdfs/)
 Aspose.PDF for .NET を使用して、PDF ドキュメントにシームレスに画像を追加する方法を学びましょう。このステップバイステップガイドでは、セットアップ、実装、そして実践的な応用方法を解説します。
 
-### [Aspose.PDF for .NET を使用して PDF に画像を追加する方法: 完全ガイド](./add-images-to-pdfs-using-aspose-pdf-net/)
+### [Aspose.PDF .NET を使用して PDF に画像を追加する方法: 完全ガイド](./add-images-to-pdfs-using-aspose-pdf-net/)
 Aspose.PDF for .NET を使用して、PDF ドキュメントにシームレスに画像を追加する方法を学びましょう。このステップバイステップガイドでは、セットアップ、実装、そして実践的な応用方法を解説します。
 
-### [Aspose.PDF for .NET を使用して PDF に画像を追加する方法: ステップバイステップガイド](./add-images-to-pdfs-aspose-pdf-net/)
+### [Aspose.PDF .NET を使用して PDF に画像を追加する方法: ステップバイステップガイド](./add-images-to-pdfs-aspose-pdf-net/)
 Aspose.PDF for .NET を使用して、PDF にシームレスに画像を追加する方法を学びましょう。このガイドでは、既存の PDF に画像を追加する方法と、DICOM ファイルから新しい PDF を作成する方法について説明します。
 
-### [Aspose.PDF for .NET を使用して PDF に画像ヘッダーを追加する方法: ステップバイステップガイド](./add-image-header-pdf-aspose-dotnet/)
+### [Aspose.PDF .NET を使用して PDF に画像ヘッダーを追加する方法: ステップバイステップガイド](./add-image-header-pdf-aspose-dotnet/)
 この包括的なステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF ドキュメントに画像ヘッダーを追加する方法を学習します。
 
-### [Aspose.PDF for .NET を使用して PDF ヘッダーに画像スタンプを追加する方法](./add-image-stamp-pdf-header-aspose-pdf/)
+### [Aspose.PDF .NET を使用して PDF ヘッダーに画像スタンプを追加する方法](./add-image-stamp-pdf-header-aspose-pdf/)
 Aspose.PDF for .NET を使用して PDF ヘッダーに画像スタンプを追加し、ブランディングとプロフェッショナリズムを強化する方法を学習します。
 
-### [Aspose.PDF for .NET を使用して PDF ページに画像スタンプを追加する方法](./add-image-stamp-pdf-pages-aspose-dotnet/)
+### [Aspose.PDF .NET を使用して PDF ページに画像スタンプを追加する方法](./add-image-stamp-pdf-pages-aspose-dotnet/)
 Aspose.PDF for .NET を使用して、PDF の特定のページに画像スタンプを追加する方法を学びます。ブランディング、透かし、ドキュメントのパーソナライズを効率的に強化できます。
 
-### [Aspose.PDF for .NET を使用して PDF に画像スタンプを追加する方法: 包括的なガイド](./add-image-stamp-pdf-aspose-dotnet/)
+### [Aspose.PDF .NET を使用して PDF に画像スタンプを追加する方法: 包括的なガイド](./add-image-stamp-pdf-aspose-dotnet/)
 Aspose.PDF for .NET を使用して、ロゴや透かしなどの画像スタンプを PDF に追加する方法を学習します。このガイドでは、セットアップ、実装、そして実践的な応用例を解説します。
 
-### [Aspose.PDF for .NET を使用して PDF ページを PNG 画像に変換する方法](./convert-pdf-page-to-png-aspose-dotnet/)
+### [Aspose.PDF .NET を使用して PDF ページを PNG 画像に変換する方法](./convert-pdf-page-to-png-aspose-dotnet/)
 Aspose.PDF for .NET を使用して、PDF ページを高品質の PNG 画像に変換する方法を学びましょう。コード例とベストプラクティスを交えたステップバイステップのガイドをご覧ください。
 
-### [Aspose.PDF for .NET を使用して PDF に破線を作成する方法: ステップバイステップガイド](./create-dashed-lines-aspose-pdf-net/)
+### [Aspose.PDF .NET を使用して PDF に破線を作成する方法: ステップバイステップガイド](./create-dashed-lines-aspose-pdf-net/)
 Aspose.PDF for .NET を使って破線を追加し、PDF ドキュメントの魅力を高める方法を学びましょう。このステップバイステップのガイドに従って、洗練されたプロフェッショナルな外観を実現しましょう。
 
 ### [Aspose.PDF を使用して .NET で画像付きのタグ付き PDF を作成する方法](./create-tagged-pdf-image-dotnet/)
@@ -111,7 +116,7 @@ Aspose.PDF for .NET を使用して、PDF ファイルから画像を効率的�
 Aspose.PDF for .NET を使用してPDFファイルから画像を削除する方法を学びましょう。この包括的なガイドでは、セットアップ、実装、そして実用的なアプリケーションを網羅しています。
 
 ### [Aspose.PDF for .NET を使用して PDF から画像を削除する方法: 包括的なガイド](./delete-images-from-pdf-aspose-dotnet/)
-Aspose.PDF for .NET を使用してPDFからすべての画像を効率的に削除し、ファイルのプライバシーを強化しながらサイズを削減する方法を学びましょう。このステップバイステップガイドに従ってください。
+Aspose.PDF for .NET を使用してPDFからすべての画像を効率的に削除し、ファイルのプライバシーを強化しながらサイズを縮小する方法を学びましょう。このステップバイステップガイドに従ってください。
 
 ### [Aspose.PDF for .NET を使用して PDF ページの色を検出する方法: 包括的なガイド](./detect-pdf-page-color-aspose-dotnet/)
 Aspose.PDF for .NET を使用して、PDF の各ページのカラータイプを特定する方法を学びます。このステップバイステップのチュートリアルでは、インストール、セットアップ、そして実践的な応用方法を解説します。

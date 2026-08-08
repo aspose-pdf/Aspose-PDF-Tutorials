@@ -35,6 +35,9 @@ Lär dig hur du konverterar SVG-filer till högkvalitativa PDF-filer smidigt med
 ### [Skapa och fyll rektanglar i PDF-filer med Aspose.PDF för .NET: En steg-för-steg-guide](./create-fill-rectangle-aspose-pdf-net/)
 Lär dig hur du skapar och fyller rektanglar i PDF-dokument med Aspose.PDF för .NET. Den här steg-för-steg-guiden täcker allt från installation till implementering med C#.
 
+### [Lägg till rektangel i PDF med C# – steg‑för‑steg‑guide](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+Lär dig hur du lägger till en rektangel i en PDF med C# i en steg‑för‑steg‑guide.
+
 ### [Skapa anpassade PDF-stämplar med Aspose.PDF i .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 En kodhandledning för Aspose.PDF Net
 
@@ -163,6 +166,8 @@ Lär dig hur du renderar komplexa LaTeX-skript till PDF-dokument med Aspose.PDF 
 
 ### [Ställ in bildbakgrunder i PDF-filer med Aspose.PDF för .NET: En omfattande guide](./aspose-pdf-net-set-image-backgrounds/)
 Lär dig hur du förbättrar dina PDF-dokument genom att ställa in bildbakgrunder med Aspose.PDF för .NET. Den här guiden behandlar tips för installation, implementering och optimering.
+
+### [Lägg till grafikstatus i PDF med Aspose.Pdf – steg‑för‑steg‑guide](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
 
 ## Ytterligare resurser
 

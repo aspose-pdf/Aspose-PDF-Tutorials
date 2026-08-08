@@ -48,7 +48,7 @@ Lär dig hur du bäddar in teckensnitt i dina PDF-dokument med Aspose.PDF för .
 Lär dig hur du bäddar in standardtypsnitt av typ 1 i PDF-dokument med Aspose.PDF för .NET. Säkerställ enhetlig typografi på alla enheter med den här lättförståeliga guiden.
 
 ### [Extrahera teckensnitt från PDF-filer med Aspose.PDF för .NET: En omfattande guide](./extract-fonts-aspose-pdf-net/)
-Lär dig hur du effektivt extraherar teckensnitt från PDF-dokument med Aspose.PDF för .NET. Perfekt för dokumentgranskning och digital bevaring.
+Lär dig hur du effektivt extraherar teckensnitt från PDF-dokument med Aspose.PDF för .NET. Perfekt för dokumentgranskning och digital bevarande.
 
 ### [Extrahera PDF-fältvärden med Aspose.PDF för .NET: En steg-för-steg-guide](./extract-pdf-field-values-aspose-dotnet-guide/)
 Lär dig hur du extraherar fältvärden från PDF-filer med Aspose.PDF för .NET i C#. Den här guiden behandlar installation, implementering och bästa praxis.
@@ -163,6 +163,12 @@ En kodhandledning för Aspose.PDF Net
 
 ### [Stilisera text i taggade PDF-filer med Aspose.PDF för .NET | Guide för att skapa tillgängliga och estetiska PDF-filer](./style-text-tagged-pdfs-aspose-pdf-net/)
 Lär dig hur du formaterar text i taggade PDF-dokument med Aspose.PDF för .NET. Den här guiden behandlar installation, tekniker och praktiska tillämpningar för att förbättra tillgängligheten.
+
+### [Hur du sammanfattar PDF med Aspose.Pdf.AI – en komplett guide](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
+Lär dig hur du använder Aspose.Pdf.AI för att automatiskt generera sammanfattningar av PDF-dokument med en steg-för-steg-guide i .NET.
+
+### [AI-chatt PDF: ställ frågor om PDF med Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
+Lär dig hur du använder Aspose AI Copilot för att ställa frågor och få svar från PDF-dokument via en chattfunktion.
 
 ## Ytterligare resurser
 

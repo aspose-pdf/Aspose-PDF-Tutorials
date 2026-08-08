@@ -35,6 +35,9 @@ Lär dig hur du säkert skapar, signerar och verifierar PDF-signaturer med Aspos
 ### [Hur man extraherar PDF-signaturinformation med Aspose.PDF .NET: En steg-för-steg-guide](./extract-pdf-signature-info-aspose-pdf-net/)
 Lär dig hur du extraherar information om digitala signaturer från PDF-filer med Aspose.PDF för .NET. Den här steg-för-steg-guiden täcker installation, implementering och praktiska tillämpningar.
 
+### [Hur du hämtar signaturer från en PDF i C# – steg‑för‑steg‑guide](./how-to-get-signatures-from-a-pdf-in-c-step-by-step-guide/)
+Lär dig hur du extraherar digitala signaturer från PDF-filer med C# och Aspose.PDF för .NET.
+
 ### [Hur man implementerar digitala signaturer i .NET med Aspose.PDF: En omfattande guide](./implement-pdf-signatures-dotnet-aspose-pdf-guide/)
 Lär dig hur du implementerar säkra digitala signaturer på PDF-filer med Aspose.PDF för .NET, inklusive att undertrycka valfria fält.
 

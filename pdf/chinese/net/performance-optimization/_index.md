@@ -32,6 +32,9 @@
 ### [如何使用 Aspose.PDF for .NET 减小 PDF 大小：分步指南](./shrink-pdf-size-aspose-pdf-net/)
 通过本指南，了解如何使用 Aspose.PDF for .NET 有效缩减 PDF 文件大小。轻松优化您的文档并提高存储效率。
 
+### [如何在 .NET 中优化 PDF – 分步压缩 PDF](./how-to-optimize-pdf-in-net-compress-pdf-in-net-step-by-step/)
+本指南逐步演示如何在 .NET 环境下使用 Aspose.PDF 压缩 PDF，以提升性能并减小文件体积。
+
 ### [高效优化 PDF：使用 Aspose.PDF for .NET 链接重复流](./optimize-pdfs-aspose-pdf-link-duplicate-streams/)
 了解如何通过使用 Aspose.PDF for .NET 链接重复流来减小 PDF 文件大小并提升性能。请遵循我们的简易指南来优化您的文档。
 

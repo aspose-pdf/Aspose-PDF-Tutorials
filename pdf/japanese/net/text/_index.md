@@ -29,6 +29,8 @@ PDFドキュメント内のテキスト操作は、レポート、請求書、�
 
 {{< tutorial-card link="./multicolumn-paragraphs/" title="Aspose.PDF を使用した PDF の複数列段落" imgSrc="./multicolumn-paragraphs/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/" title="Aspose を使用してスキャンされた PDF からテキストを抽出する方法 – ステップバイステップガイド" imgSrc="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

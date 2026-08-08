@@ -164,6 +164,11 @@ Un tutorial sul codice per Aspose.PDF Net
 ### [Formattare il testo nei PDF con tag utilizzando Aspose.PDF per .NET | Guida per la creazione di PDF accessibili ed estetici](./style-text-tagged-pdfs-aspose-pdf-net/)
 Scopri come formattare il testo nei documenti PDF con tag con Aspose.PDF per .NET. Questa guida illustra l'installazione, le tecniche e le applicazioni pratiche per migliorare l'accessibilità.
 
+### [Come riassumere PDF con Aspose.Pdf.AI – guida completa](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
+Scopri come utilizzare Aspose.Pdf.AI per generare riassunti automatici dei documenti PDF in pochi passaggi.
+
+### [AI Chat PDF: chiedi domande sui PDF con Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
+
 ## Risorse aggiuntive
 
 - [Aspose.PDF per la documentazione di rete](https://docs.aspose.com/pdf/net/)

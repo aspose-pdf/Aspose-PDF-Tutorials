@@ -59,6 +59,9 @@ C#을 사용해 PDF 문서를 로드하고 PDF/X‑4 형식으로 변환한 뒤,
 ### [Aspose를 사용하여 PDF 서명 검증 – PDF를 HTML로 변환](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
 Aspose를 사용해 PDF 서명을 검증하고 PDF를 HTML로 변환하는 방법을 단계별로 안내합니다.
 
+### [C#에서 PDF 서명을 가져오는 방법 – 단계별 가이드](./how-to-get-signatures-from-a-pdf-in-c-step-by-step-guide/)
+C#을 사용해 PDF 파일에서 서명을 추출하는 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 
 - [Net 문서용 Aspose.PDF](https://docs.aspose.com/pdf/net/)

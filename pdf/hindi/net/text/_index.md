@@ -29,6 +29,8 @@ PDF दस्तावेज़ में टेक्स्ट के साथ
 
 {{< tutorial-card link="./multicolumn-paragraphs/" title="Aspose.PDF का उपयोग करके PDF में बहु-स्तंभ पैराग्राफ़" imgSrc="./multicolumn-paragraphs/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/" title="स्कैन किए गए PDF से टेक्स्ट निकालने के लिए Aspose का उपयोग कैसे करें – चरण-दर-चरण गाइड" imgSrc="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

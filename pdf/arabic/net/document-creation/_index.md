@@ -76,8 +76,15 @@
 
 ### [إنشاء مستند PDF باستخدام Aspose.PDF – إضافة صفحة وشكل وحفظ](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 تعلم كيفية إنشاء مستند PDF وإضافة صفحات وأشكال وحفظه باستخدام Aspose.PDF في .NET.
+
 ### [إنشاء مستند PDF باستخدام Aspose.PDF – دليل خطوة بخطوة](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 تعلّم كيفية إنشاء مستند PDF باستخدام Aspose.PDF خطوة بخطوة.
+
+### [إنشاء مستند PDF جديد مع ترقيم Bates في C#](./create-new-pdf-document-with-bates-numbering-in-c/)
+تعلم كيفية إنشاء مستند PDF جديد مع ترقيم Bates باستخدام C# و Aspose.PDF.
+
+### [إنشاء مستند PDF/X‑4 باستخدام C# – دليل خطوة بخطوة](./create-pdf-x-4-document-c-step-by-step-guide/)
+تعرّف على كيفية إنشاء مستند PDF/X‑4 باستخدام C# و Aspose.PDF خطوة بخطوة.
 
 ## موارد إضافية
 

@@ -32,6 +32,9 @@ Tìm hiểu cách sắp xếp hợp lý các tệp PDF của bạn và giảm k�
 ### [Cách giảm kích thước PDF bằng Aspose.PDF cho .NET: Hướng dẫn từng bước](./shrink-pdf-size-aspose-pdf-net/)
 Tìm hiểu cách giảm kích thước tệp PDF hiệu quả bằng Aspose.PDF cho .NET với hướng dẫn toàn diện này. Tối ưu hóa tài liệu của bạn một cách dễ dàng và nâng cao hiệu quả lưu trữ.
 
+### [Cách tối ưu hóa PDF trong .NET – nén PDF trong .NET từng bước](./how-to-optimize-pdf-in-net-compress-pdf-in-net-step-by-step/)
+Hướng dẫn chi tiết cách nén PDF trong .NET bằng Aspose.PDF, giảm kích thước và cải thiện hiệu suất từng bước.
+
 ### [Tối ưu hóa PDF hiệu quả: Liên kết các luồng trùng lặp bằng Aspose.PDF cho .NET](./optimize-pdfs-aspose-pdf-link-duplicate-streams/)
 Tìm hiểu cách giảm kích thước tệp PDF và tăng hiệu suất bằng cách liên kết các luồng trùng lặp với Aspose.PDF cho .NET. Làm theo hướng dẫn dễ dàng của chúng tôi để tối ưu hóa tài liệu của bạn.
 

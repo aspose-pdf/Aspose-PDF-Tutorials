@@ -49,6 +49,7 @@ Samouczki „Programowanie z obrazami” Aspose.PDF for .NET przeprowadzą Cię 
 | [Ustaw rozmiar obrazu w pliku PDF](./set-image-size/) | Dowiedz się, jak ustawić rozmiar obrazu w pliku PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik krok po kroku pomoże Ci zmienić rozmiar obrazów, dostosować właściwości strony i zapisać pliki PDF. |  
 | [Zmniejsz obrazy w pliku PDF](./shrink-images/) | Łatwo zmniejszaj obrazy w plikach PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku, który pozwoli Ci uzyskać mniejsze rozmiary plików przy zachowaniu ich jakości. |  
 | [Przechowuj obraz w kolekcji XImage](./store-image-in-ximage-collection/) | Dowiedz się, jak przechowywać obrazy w kolekcji XImage przy użyciu Aspose.PDF dla platformy .NET, korzystając z tego kompletnego przewodnika krok po kroku. |  
+| [Utwórz AI Copilot do opisu obrazów PDF – przewodnik krok po kroku](./create-ai-copilot-for-pdf-image-description-step-by-step-gui/) | Dowiedz się, jak stworzyć AI Copilot generujący opisy obrazów w plikach PDF przy użyciu Aspose.PDF dla .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -49,6 +49,7 @@ De tutorials "Programmeren met afbeeldingen" van Aspose.PDF voor .NET begeleiden
 | [Afbeeldingsgrootte instellen in PDF-bestand](./set-image-size/) | Leer hoe u de afbeeldingsgrootte in een PDF instelt met Aspose.PDF voor .NET. Deze stapsgewijze handleiding helpt u bij het aanpassen van de grootte van afbeeldingen, het aanpassen van pagina-eigenschappen en het opslaan van PDF's. |  
 | [Afbeeldingen in PDF-bestand verkleinen](./shrink-images/) | Verklein eenvoudig afbeeldingen in PDF-bestanden met Aspose.PDF voor .NET aan de hand van deze stapsgewijze handleiding. Zo blijven de bestandsgroottes kleiner, terwijl de kwaliteit behouden blijft. |  
 | [Afbeelding opslaan in XImage-collectie](./store-image-in-ximage-collection/) | Leer hoe u afbeeldingen in de XImage-verzameling opslaat met Aspose.PDF voor .NET in deze complete stapsgewijze handleiding. |  
+| [Maak AI Copilot voor PDF‑afbeeldingsbeschrijving – stapsgewijze handleiding](./create-ai-copilot-for-pdf-image-description-step-by-step-gui/) | Leer hoe u een AI‑copilot maakt die automatisch PDF‑afbeeldingen beschrijft, stap voor stap met Aspose.PDF voor .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

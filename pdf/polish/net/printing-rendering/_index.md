@@ -50,6 +50,9 @@ Dowiedz się, jak wydajnie drukować określone strony pliku PDF za pomocą Aspo
 ### [Ustawianie niestandardowego współczynnika powiększenia w plikach PDF za pomocą Aspose.PDF dla .NET — kompletny przewodnik](./aspose-pdf-net-set-zoom-factor-pdfs/)
 Dowiedz się, jak ustawić niestandardowy współczynnik powiększenia w dokumentach PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje instalację, kroki implementacji i praktyczne zastosowania.
 
+### [Konwertuj PDF do drukowania przy użyciu Aspose.PDF – przewodnik krok po kroku](./convert-pdf-for-printing-with-aspose-pdf-step-by-step-guide/)
+Dowiedz się, jak konwertować pliki PDF do formatu gotowego do drukowania przy użyciu Aspose.PDF.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

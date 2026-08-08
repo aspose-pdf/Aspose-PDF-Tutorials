@@ -35,6 +35,9 @@ Leer hoe je SVG-bestanden naadloos kunt converteren naar hoogwaardige PDF's met 
 ### [Rechthoeken maken en vullen in PDF's met Aspose.PDF voor .NET: een stapsgewijze handleiding](./create-fill-rectangle-aspose-pdf-net/)
 Leer hoe u rechthoeken in PDF-documenten kunt maken en vullen met Aspose.PDF voor .NET. Deze stapsgewijze handleiding behandelt alles van installatie tot implementatie met C#.
 
+### [Rechthoek toevoegen aan PDF met C# – stapsgewijze handleiding](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+Leer hoe u met Aspose.PDF voor .NET een rechthoek aan een PDF toevoegt met C# in deze stapsgewijze handleiding.
+
 ### [Maak aangepaste PDF-stempels met Aspose.PDF in .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Een codetutorial voor Aspose.PDF Net
 
@@ -78,7 +81,7 @@ Leer hoe u naadloos afbeeldingen aan uw PDF-documenten kunt toevoegen met Aspose
 Leer hoe u naadloos afbeeldingen aan uw PDF-documenten kunt toevoegen met Aspose.PDF voor .NET. Deze stapsgewijze handleiding behandelt de installatie, implementatie en praktische toepassingen.
 
 ### [Afbeeldingen toevoegen aan PDF's met Aspose.PDF voor .NET: een stapsgewijze handleiding](./add-images-to-pdfs-aspose-pdf-net/)
-Leer hoe u naadloos afbeeldingen aan uw PDF's kunt toevoegen met Aspose.PDF voor .NET. Deze handleiding behandelt het toevoegen van afbeeldingen aan bestaande PDF's en het maken van nieuwe afbeeldingen vanuit DICOM-bestanden.
+Leer hoe u naadloos afbeeldingen aan uw PDF's toevoegt met Aspose.PDF voor .NET. Deze handleiding behandelt het toevoegen van afbeeldingen aan bestaande PDF's en het maken van nieuwe afbeeldingen vanuit DICOM-bestanden.
 
 ### [Een afbeeldingsheader toevoegen aan PDF's met Aspose.PDF voor .NET: een stapsgewijze handleiding](./add-image-header-pdf-aspose-dotnet/)
 Leer hoe u afbeeldingsheaders toevoegt aan uw PDF-documenten met Aspose.PDF voor .NET met deze uitgebreide stapsgewijze handleiding.
@@ -163,6 +166,8 @@ Leer hoe u complexe LaTeX-scripts kunt omzetten in PDF-documenten met Aspose.PDF
 
 ### [Afbeeldingsachtergronden instellen in PDF's met Aspose.PDF voor .NET: een uitgebreide handleiding](./aspose-pdf-net-set-image-backgrounds/)
 Leer hoe u uw PDF-documenten kunt verbeteren door afbeeldingsachtergronden in te stellen met Aspose.PDF voor .NET. Deze handleiding behandelt tips voor installatie, implementatie en optimalisatie.
+
+### [Grafische status toevoegen aan PDF met Aspose.PDF voor .NET: een stapsgewijze handleiding](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
 
 ## Aanvullende bronnen
 

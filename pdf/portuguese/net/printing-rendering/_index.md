@@ -50,6 +50,9 @@ Aprenda a imprimir com eficiência páginas específicas de um PDF usando o Aspo
 ### [Definir fator de zoom personalizado em PDFs usando Aspose.PDF para .NET - Um guia completo](./aspose-pdf-net-set-zoom-factor-pdfs/)
 Aprenda a definir um fator de zoom personalizado em documentos PDF usando o Aspose.PDF para .NET. Este guia aborda a instalação, as etapas de implementação e as aplicações práticas.
 
+### [Converter PDF para impressão com Aspose.PDF – guia passo a passo](./convert-pdf-for-printing-with-aspose-pdf-step-by-step-guide/)
+Aprenda a converter PDFs para impressão usando Aspose.PDF com este guia passo a passo.
+
 ## Recursos adicionais
 
 - [Aspose.PDF para documentação da Net](https://docs.aspose.com/pdf/net/)

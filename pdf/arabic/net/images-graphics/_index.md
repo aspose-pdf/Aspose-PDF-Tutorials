@@ -35,6 +35,9 @@
 ### [إنشاء المستطيلات وملؤها في ملفات PDF باستخدام Aspose.PDF لـ .NET: دليل خطوة بخطوة](./create-fill-rectangle-aspose-pdf-net/)
 تعرّف على كيفية إنشاء مستطيلات وتعبئتها في مستندات PDF باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل خطوة بخطوة كل شيء، من الإعداد إلى التنفيذ باستخدام C#.
 
+### [إضافة مستطيل إلى PDF باستخدام C#: دليل خطوة بخطوة](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+تعرّف على كيفية إضافة مستطيل إلى مستند PDF باستخدام C# مع Aspose.PDF خطوة بخطوة.
+
 ### [إنشاء طوابع PDF مخصصة باستخدام Aspose.PDF في .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 برنامج تعليمي لبرمجة Aspose.PDF Net
 
@@ -163,6 +166,8 @@
 
 ### [تعيين خلفيات الصور في ملفات PDF باستخدام Aspose.PDF لـ .NET: دليل شامل](./aspose-pdf-net-set-image-backgrounds/)
 تعرّف على كيفية تحسين مستندات PDF الخاصة بك عن طريق تعيين خلفيات الصور باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل نصائح للإعداد والتنفيذ والتحسين.
+
+### [إضافة حالة الرسومات إلى PDF باستخدام Aspose.PDF لـ .NET – دليل خطوة بخطوة](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
 
 ## موارد إضافية
 

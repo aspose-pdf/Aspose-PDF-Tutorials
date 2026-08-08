@@ -50,6 +50,8 @@ Aspose.PDF for .NET を使用して、PDF の特定のページを効率的に�
 ### [Aspose.PDF for .NET を使用して PDF のカスタムズーム係数を設定する - 完全ガイド](./aspose-pdf-net-set-zoom-factor-pdfs/)
 Aspose.PDF for .NET を使用して PDF ドキュメントにカスタムズーム係数を設定する方法を学びます。このガイドでは、インストール、実装手順、そして実用的なアプリケーションについて説明します。
 
+### [Aspose.PDF を使用して印刷用 PDF を変換する – ステップバイステップ ガイド](./convert-pdf-for-printing-with-aspose-pdf-step-by-step-guide/)
+
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)

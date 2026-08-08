@@ -77,6 +77,12 @@
 ### [Создание PDF-документа с Aspose.PDF – добавить страницу, форму и сохранить](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Узнайте, как добавить страницу, форму и сохранить PDF-документ с помощью Aspose.PDF для .NET.
 
+### [Создание нового PDF-документа с нумерацией Бейтса в C#](./create-new-pdf-document-with-bates-numbering-in-c/)
+Узнайте, как добавить нумерацию Бейтса к PDF-документу с помощью Aspose.PDF для .NET в C#.
+
+### [Создание PDF/X‑4 документа C# – пошаговое руководство](./create-pdf-x-4-document-c-step-by-step-guide/)
+Узнайте, как создать документ PDF/X‑4 в C# с помощью Aspose.PDF, следуя пошаговым инструкциям.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.PDF для сети](https://docs.aspose.com/pdf/net/)

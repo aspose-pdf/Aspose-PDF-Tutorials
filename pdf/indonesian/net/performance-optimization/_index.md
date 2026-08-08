@@ -50,6 +50,9 @@ Kuasai seni mengonversi file SVG ke PDF dengan presisi dan efisiensi menggunakan
 ### [Cara Menghapus Font yang Disematkan di PDF Menggunakan Aspose.PDF untuk .NET: Mengurangi Ukuran File dan Meningkatkan Performa](./optimize-pdfs-unembed-fonts-aspose-pdf-net/)
 Pelajari cara menghapus font dari file PDF Anda menggunakan Aspose.PDF for .NET. Optimalkan kinerja PDF, kurangi ukuran file, dan tingkatkan waktu pemuatan dengan panduan langkah demi langkah ini.
 
+### [Cara Mengoptimalkan PDF di .NET – Kompres PDF di .NET Langkah demi Langkah](./how-to-optimize-pdf-in-net-compress-pdf-in-net-step-by-step/)
+Pelajari cara mengompres PDF di .NET secara efisien dengan langkah demi langkah, meningkatkan ukuran file dan performa aplikasi.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)
