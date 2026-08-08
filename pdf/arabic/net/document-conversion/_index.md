@@ -58,6 +58,8 @@
 | [XPS إلى PDF](./xps-to-pdf/) تعلّم كيفية تحويل ملفات XPS إلى PDF باستخدام Aspose.PDF لـ .NET من خلال هذا البرنامج التعليمي خطوة بخطوة. مثالي للمطورين وهواة المستندات.  
 | [تحويل PDF إلى PDF/X‑4 باستخدام C#](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) |تعرف على كيفية تحويل ملفات PDF إلى صيغة PDF/X‑4 باستخدام Aspose.PDF لـ .NET في دليل خطوة بخطوة. |  
 | [دليل pdf إلى png – تحويل صفحات PDF إلى PNG باستخدام C#](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) |تعلم كيفية تحويل صفحات ملفات PDF إلى صور PNG باستخدام Aspose.PDF لـ .NET مع C# خطوة بخطوة. |
+| [حفظ PDF كـ HTML باستخدام Aspose.PDF – دليل خطوة بخطوة بلغة C#](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) |تعرف على كيفية تحويل ملفات PDF إلى HTML باستخدام Aspose.PDF لـ .NET عبر دليل شامل خطوة بخطوة بلغة C#. |
+| [إنشاء PDF من JPG في C# – دليل كامل مع القص وإضافة صفحات جديدة](./create-pdf-from-jpg-in-c-full-guide-with-cropping-and-new-pa/) |تعلم كيفية تحويل صور JPG إلى ملفات PDF باستخدام C# مع قص الصور وإنشاء صفحات جديدة في دليل خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

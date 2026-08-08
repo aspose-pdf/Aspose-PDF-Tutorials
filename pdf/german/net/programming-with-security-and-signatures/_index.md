@@ -35,6 +35,8 @@ Das Tutorial gibt Ihnen einen detaillierten Überblick über Methoden und Techni
 | [Mit Smartcard unterschreiben und dabei das Signaturfeld verwenden](./sign-with-smart-card-using-signature-field/) | Erfahren Sie, wie Sie PDFs mit Aspose.PDF für .NET sicher per Smartcard signieren. Folgen Sie unserer Schritt-für-Schritt-Anleitung für eine einfache Implementierung. |  
 | [PDF-Signaturen in C# prüfen – So lesen Sie signierte PDF-Dateien](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Signaturen auslesen und signierte PDF-Dateien analysieren. |
 | [PDF-Dateien reparieren – Vollständiger C#-Leitfaden mit Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Erfahren Sie, wie Sie beschädigte PDF-Dateien mit Aspose.PDF für .NET in C# reparieren und wiederherstellen. |  
+| [PDF-Signatur-Extraktion – Auflisten von PDF-Signaturen in C#](./pdf-signature-extraction-tutorial-how-to-list-pdf-signatures/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET alle PDF‑Signaturen in C# auslesen und auflisten. |  
+| [Erstellen eines signierten PDFs in C# – Schritt‑für‑Schritt‑Anleitung](./create-signed-pdf-in-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF digital signieren – vollständige Schritt‑für‑Schritt‑Anleitung in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

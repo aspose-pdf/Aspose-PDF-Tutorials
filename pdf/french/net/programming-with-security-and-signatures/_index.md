@@ -34,7 +34,9 @@ Ce tutoriel vous offre un aperçu détaillé des méthodes et techniques permett
 | [Signer avec une carte à puce à l'aide d'une signature de fichier PDF](./sign-with-smart-card-using-pdf-file-signature/) | Apprenez à signer des fichiers PDF à l'aide d'une carte à puce avec Aspose.PDF pour .NET. Suivez ce guide étape par étape pour des signatures numériques sécurisées. |  
 | [Signer avec une carte à puce en utilisant le champ de signature](./sign-with-smart-card-using-signature-field/) | Apprenez à signer des PDF en toute sécurité à l'aide d'une carte à puce avec Aspose.PDF pour .NET. Suivez notre guide étape par étape pour une mise en œuvre facile. |  
 | [Vérifier les signatures PDF en C# – Lire les fichiers PDF signés](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Apprenez à lire et analyser les signatures numériques des PDF avec Aspose.PDF pour .NET en C#. |
-| [Comment réparer les fichiers PDF – Guide complet C# avec Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Apprenez à réparer les fichiers PDF corrompus avec Aspose.PDF pour .NET en suivant ce guide complet étape par étape en C#. |  
+| [Comment réparer les fichiers PDF – Guide complet C# avec Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Apprenez à réparer les fichiers PDF corrompus avec Aspose.PDF pour .NET en suivant ce guide complet étape par étape en C#. |
+| [Tutoriel d'extraction de signature PDF – Comment lister les signatures PDF en C#](./pdf-signature-extraction-tutorial-how-to-list-pdf-signatures/) | Apprenez à extraire et lister les signatures numériques d'un PDF en C# avec Aspose.PDF pour .NET. |
+| [Créer un PDF signé en C# – Guide étape par étape](./create-signed-pdf-in-c-step-by-step-guide/) | Apprenez à créer un PDF signé en C# avec Aspose.PDF, étape par étape, pour garantir l'authenticité de vos documents. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

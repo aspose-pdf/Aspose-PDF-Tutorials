@@ -35,6 +35,9 @@
 ### [使用 Aspose.PDF for .NET 在 PDF 中建立和填滿矩形：逐步指南](./create-fill-rectangle-aspose-pdf-net/)
 了解如何使用 Aspose.PDF for .NET 在 PDF 文件中建立和填滿矩形。本逐步指南涵蓋了從設定到使用 C# 實現的所有內容。
 
+### [使用 C# 為 PDF 新增矩形 – 完整 Aspose PDF 指南](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+了解如何使用 Aspose.PDF for .NET 及 C# 在 PDF 中新增矩形，涵蓋設定、屬性與完整範例程式碼。
+
 ### [使用 .NET 中的 Aspose.PDF 建立自訂 PDF 圖章](./create-custom-pdf-stamps-aspose-pdf-net/)
 Aspose.PDF Net 程式碼教學
 
