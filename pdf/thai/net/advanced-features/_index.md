@@ -65,6 +65,9 @@
 ### [วิธีเปรียบเทียบ PDF ใน C# – คู่มือฉบับสมบูรณ์ในการสร้าง PDF Diff](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 เรียนรู้วิธีเปรียบเทียบไฟล์ PDF ด้วย C# โดยใช้ Aspose.PDF เพื่อสร้างไฟล์ Diff อย่างละเอียด
 
+### [เพิ่มความโปร่งใสให้ PDF ด้วย Aspose.Pdf – คู่มือ .NET ฉบับสมบูรณ์](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
+เรียนรู้วิธีเพิ่มความโปร่งใสให้ไฟล์ PDF ด้วย Aspose.Pdf สำหรับ .NET พร้อมตัวอย่างโค้ดและขั้นตอนครบถ้วน
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)

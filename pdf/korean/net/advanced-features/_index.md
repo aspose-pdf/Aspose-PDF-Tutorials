@@ -50,7 +50,7 @@ Aspose.PDF for .NET을 사용하여 접근성이 뛰어나고 구조가 잘 잡�
 ### [Aspose.PDF for .NET을 사용하여 다중 레이어 PDF를 만드는 방법: 포괄적인 가이드](./create-multi-layer-pdfs-aspose-pdf-dotnet/)
 이 단계별 가이드를 통해 Aspose.PDF for .NET을 사용하여 동적이고 대화형 다중 레이어 PDF 문서를 만드는 방법을 알아보세요.
 
-### [Aspose.PDF for .NET을 사용하여 태그가 지정된 PDF를 만드는 방법: 고급 가이드](./creating-tagged-pdfs-aspose-pdf-dotnet/)
+### [Aspose.PDF for .NET을 사용하여 태그가 지정된 PDF 만들기: 고급 가이드](./creating-tagged-pdfs-aspose-pdf-dotnet/)
 Aspose.PDF for .NET을 사용하여 접근성 높은 태그가 있는 PDF 문서를 만드는 방법을 알아보세요. 이 포괄적인 가이드를 통해 문서의 구조와 접근성을 향상시키세요.
 
 ### [Aspose.PDF for .NET을 사용하여 PDF/UA 표준에 따라 PDF를 검증하는 방법: 포괄적인 가이드](./validate-pdf-ua-standard-aspose-dotnet/)
@@ -64,6 +64,9 @@ Aspose.PDF for .NET을 사용하여 접근성이 뛰어나고 스타일이 적�
 
 ### [C#에서 PDF 비교 방법 – PDF 차이 생성 완전 가이드](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 Aspose.PDF for .NET을 사용하여 PDF를 비교하고 차이를 생성하는 방법을 단계별로 안내합니다.
+
+### [Aspose.Pdf를 사용하여 PDF에 투명도 추가 – 완전 .NET 가이드](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
+Aspose.Pdf를 사용해 PDF에 투명 효과를 적용하고, .NET 환경에서 완전한 구현 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

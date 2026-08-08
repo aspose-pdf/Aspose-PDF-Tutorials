@@ -23,6 +23,9 @@ Learn how to access and modify child elements in tagged PDFs with Aspose.PDF for
 ### [Add Colored Line Layers to PDFs Using Aspose.PDF for .NET&#58; A Comprehensive Guide](./add-colored-lines-pdfs-using-aspose-pdf-net/)
 Learn how to enhance your PDF documents by adding colored line layers using Aspose.PDF for .NET. This guide provides step-by-step instructions and practical applications.
 
+### [Add Transparency to PDF with Aspose.Pdf – Complete .NET Guide](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
+Learn how to apply transparency effects to PDF elements using Aspose.PDF for .NET with step-by-step code examples.
+
 ### [Aspose.PDF .NET&#58; Enhancing PDF Accessibility through Tagging](./aspose-pdf-net-accessible-tagging-guide/)
 Learn how to use Aspose.PDF .NET for accessible tagging in PDFs. Set titles, languages, and logical structures easily.
 

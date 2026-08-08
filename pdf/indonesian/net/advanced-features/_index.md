@@ -65,6 +65,9 @@ Pelajari cara membuat dokumen PDF yang mudah diakses dan diberi tag dengan gaya 
 ### [Cara Membandingkan PDF di C# – Panduan Lengkap Membuat PDF Diff](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 Pelajari cara membandingkan dua file PDF menggunakan C# dan menghasilkan perbedaan PDF dengan Aspose.PDF.
 
+### [Menambahkan Transparansi ke PDF dengan Aspose.Pdf – Panduan Lengkap .NET](./add-transparency-to-pdf-with-aspose-pdf-complete-net-guide/)
+Pelajari cara menambahkan efek transparansi pada PDF menggunakan Aspose.Pdf untuk .NET dengan contoh kode lengkap.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)
