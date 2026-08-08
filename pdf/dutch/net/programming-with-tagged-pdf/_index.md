@@ -43,7 +43,8 @@ De tutorials "Programmeren met getagde PDF's" van Aspose.PDF voor .NET begeleide
 | [Afbeelding taggen in bestaande PDF](./tag-image-in-existing-pdf/) | Leer hoe u afbeeldingen in bestaande PDF's kunt taggen met Aspose.PDF voor .NET. Stapsgewijze handleiding voor het verbeteren van de toegankelijkheid met PDF/UA-compatibiliteit. |  
 | [Tekstblokstructuurelementen](./text-block-structure-elements/) | Leer hoe u Aspose.PDF voor .NET gebruikt om tekstblokstructuurelementen, zoals koppen en gemarkeerde alinea's, toe te voegen aan een bestaand PDF-document. |  
 | [Tekststructuurelementen in PDF-bestand](./text-structure-elements/) Leer hoe u tekststructuurelementen in PDF's kunt bewerken met Aspose.PDF voor .NET. Deze stapsgewijze handleiding behandelt alles wat u nodig hebt om gestructureerde PDF's te maken. |  
-| [PDF-bestand valideren](./validate-pdf/) | Leer hoe u een PDF-bestand valideert met Aspose.PDF voor .NET. Controleer de naleving van de standaarden en genereer een validatierapport. |  
+| [PDF-bestand valideren](./validate-pdf/) | Leer hoe u een PDF-bestand valideert met Aspose.PDF voor .NET. Controleer de naleving van de standaarden en genereer een validatierapport. |
+| [Span-element PDF maken met Aspose – PDF laden en inhoud taggen](./create-span-element-pdf-with-aspose-load-pdf-aspose-and-tag/) | Leer hoe u een PDF laadt, een span-element toevoegt en de inhoud tagt met Aspose.PDF voor .NET. |
 | [Maak getagde PDF in C# – Complete stapsgewijze handleiding](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Leer hoe u met Aspose.PDF voor .NET een getagde PDF in C# maakt, stap voor stap met volledige voorbeelden. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

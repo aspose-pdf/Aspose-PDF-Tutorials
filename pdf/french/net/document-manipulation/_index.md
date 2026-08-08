@@ -209,6 +209,9 @@ Apprenez à mettre à jour les liens dans les fichiers PDF par programmation ave
 ### [Comment mettre à jour la couleur du texte des liens PDF avec Aspose.PDF .NET : guide complet](./update-pdf-link-text-color-aspose-net/)
 Apprenez à modifier facilement la couleur du texte des liens dans les PDF avec Aspose.PDF pour .NET. Ce guide complet couvre l'installation, la mise en œuvre et l'optimisation.
 
+### [Comment réparer les fichiers PDF avec Aspose.Pdf – Guide complet](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
+Apprenez à réparer les fichiers PDF corrompus ou endommagés en utilisant Aspose.Pdf avec ce guide complet étape par étape.
+
 ### [Insérer des pages dans un PDF avec Aspose.PDF pour .NET : Guide complet de manipulation de documents](./insert-pages-pdf-aspose-dotnet-guide/)
 Apprenez à insérer des pages dans un PDF avec Aspose.PDF pour .NET. Ce guide étape par étape couvre tout, de la configuration à la mise en œuvre, idéal pour les développeurs C#.
 
@@ -306,7 +309,7 @@ Apprenez à diviser un fichier PDF en pages individuelles avec Aspose.PDF pour .
 Apprenez à diviser des pages PDF en fichiers distincts avec Aspose.PDF pour .NET. Ce guide complet couvre la configuration, la mise en œuvre et l'optimisation.
 
 ### [Diviser et créer des fichiers PDF avec Aspose.PDF .NET | Guide de manipulation de documents](./split-create-pdf-aspose-pdf-net/)
-Apprenez à fractionner des PDF multipages et à créer de nouveaux fichiers PDF avec Aspose.PDF pour .NET. Suivez ce guide complet avec des exemples de code.
+Apprenez à fractionner des PDF multipages et à créer de nouveaux fichiers PDF avec Aspose.PDF .NET. Suivez ce guide complet avec des exemples de code.
 
 ### [Guide ultime de manipulation de PDF avec Aspose.PDF .NET : charger, enregistrer et remplacer du texte efficacement](./master-pdf-manipulation-aspose-pdf-net/)
 Apprenez à maîtriser la manipulation des PDF avec Aspose.PDF pour .NET. Ce guide couvre le chargement, l'enregistrement et le remplacement de texte dans les PDF, idéal pour les développeurs en quête d'efficacité.

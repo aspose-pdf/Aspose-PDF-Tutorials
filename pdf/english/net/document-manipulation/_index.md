@@ -311,6 +311,9 @@ Learn how to split multi-page PDFs and create new PDF files using Aspose.PDF for
 ### [Ultimate Guide to PDF Manipulation with Aspose.PDF .NET&#58; Load, Save & Replace Text Efficiently](./master-pdf-manipulation-aspose-pdf-net/)
 Learn how to master PDF manipulation using Aspose.PDF for .NET. This guide covers loading, saving, and replacing text in PDFs, ideal for developers seeking efficiency.
 
+### [How to Fix PDF Files with Aspose.Pdf – Complete Guide](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
+Learn how to repair corrupted PDF files using Aspose.PDF for .NET with step-by-step instructions and code examples.
+
 ## Additional Resources
 
 - [Aspose.PDF for Net Documentation](https://docs.aspose.com/pdf/net/)

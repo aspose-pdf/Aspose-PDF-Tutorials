@@ -53,6 +53,12 @@ Ein Code-Tutorial für Aspose.PDF Net
 ### [Konvertieren Sie PDF-Seiten mit Aspose.PDF .NET in PNG: Eine umfassende Anleitung](./convert-pdf-pages-to-png-aspose-net/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Seiten in hochwertige PNG-Bilder konvertieren. Folgen Sie dieser Schritt-für-Schritt-Anleitung, um den Konvertierungsprozess effizient zu automatisieren.
 
+### [PDF-Seiten als PNG-Bilder rendern – vollständiger Aspose.PDF-Leitfaden](./how-to-render-pdf-pages-as-png-images-complete-aspose-pdf-gu/)
+Erfahren Sie, wie Sie PDF-Seiten mit Aspose.PDF in PNG-Bilder umwandeln – komplette Schritt-für-Schritt-Anleitung.
+
+### [Konvertieren Sie PDF in PNG mit Aspose.PDF .NET: Verbessern Sie die Schriftarthinweise für eine scharfe Textwiedergabe](./convert-pdf-png-aspose-net-font-hinting/)
+Erfahren Sie, wie Sie mit Aspose.PDF .NET PDF-Dokumente in hochwertige PNG-Bilder konvertieren und durch Font-Hinting eine scharfe Textdarstellung gewährleisten.
+
 ### [Konvertieren Sie PDF in BMP mit Aspose.PDF für .NET: Eine Schritt-für-Schritt-Anleitung](./convert-pdf-to-bmp-aspose-pdf-net/)
 Erfahren Sie in diesem umfassenden Handbuch, wie Sie mit Aspose.PDF für .NET PDF-Seiten in hochwertige BMP-Bilder konvertieren.
 
@@ -223,6 +229,9 @@ Meistern Sie die PDF-zu-HTML-Konvertierung mit Aspose.PDF für .NET. Verbessern 
 
 ### [PDF-zu-HTML-Konvertierung mit Aspose.PDF für .NET](./pdf-to-html-conversion-aspose-dot-net/)
 Ein Code-Tutorial für Aspose.PDF Net
+
+### [Aspose PDF zu HTML: Vollständiger Leitfaden zum Konvertieren von PDFs und Entfernen von Bildern](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDFs in HTML konvertieren und dabei Bilder aus dem Ergebnis entfernen.
 
 ### [PDF-zu-TIFF-Konvertierung in .NET mit Aspose.PDF: Eine Schritt-für-Schritt-Anleitung](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Erfahren Sie, wie Sie PDF-Dokumente mit Aspose.PDF für .NET in TIFF-Bilder konvertieren. Beherrschen Sie benutzerdefinierte Farbtiefen und erweiterte Bildverarbeitungstechniken.

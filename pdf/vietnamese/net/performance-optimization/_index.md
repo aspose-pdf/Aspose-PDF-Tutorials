@@ -50,6 +50,9 @@ Làm chủ nghệ thuật chuyển đổi tệp SVG sang PDF một cách chính 
 ### [Gỡ bỏ phông chữ trong PDF bằng Aspose.PDF cho .NET: Giảm kích thước tệp và cải thiện hiệu suất](./optimize-pdfs-unembed-fonts-aspose-pdf-net/)
 Tìm hiểu cách bỏ nhúng phông chữ khỏi tệp PDF của bạn bằng Aspose.PDF cho .NET. Tối ưu hóa hiệu suất PDF, giảm kích thước tệp và cải thiện thời gian tải với hướng dẫn từng bước này.
 
+### [Cách tối ưu hóa PDF – Hướng dẫn toàn diện với Aspose.Pdf](./how-to-optimize-pdf-complete-guide-with-aspose-pdf/)
+Khám phá hướng dẫn chi tiết để tối ưu hóa PDF bằng Aspose.Pdf, bao gồm các kỹ thuật giảm kích thước và cải thiện hiệu suất.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)

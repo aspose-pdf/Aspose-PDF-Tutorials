@@ -21,7 +21,7 @@ Os tutoriais incluem instruções passo a passo, exemplos de código detalhados 
 ## Tutoriais
 | Título | Descrição |
 | --- | --- | 
-| [Mudança de Orientação](./change-orientation/) | Guia passo a passo para alterar a orientação da página de um PDF com o Aspose.PDF para .NET. Fácil de seguir e implementar em seus projetos. |  
+| [Mudança de Orientação](./change-orientation/) | Guia passo a passo para alterar a orientação da página de um PDF com Aspose.PDF para .NET. Fácil de seguir e implementar em seus projetos. |  
 | [Concatenar arquivos PDF](./concatenate-pdf-files/) | Concatene arquivos PDF sem esforço usando o Aspose.PDF para .NET com este guia passo a passo abrangente. |  
 | [Excluir página específica em arquivo PDF](./delete-particular-page/) | Aprenda como excluir uma página específica de um arquivo PDF usando o Aspose.PDF para .NET com este guia passo a passo. |  
 | [Determinar a cor da página](./determine-page-color/) Aprenda a determinar a cor da página de arquivos PDF usando o Aspose.PDF para .NET com nosso guia passo a passo. Implementação fácil para todos os níveis de habilidade. |  
@@ -38,6 +38,7 @@ Os tutoriais incluem instruções passo a passo, exemplos de código detalhados 
 | [Atualizar dimensões da página PDF](./update-dimensions/) | Descubra como atualizar as dimensões de páginas PDF sem esforço com o Aspose.PDF para .NET neste guia abrangente passo a passo. |  
 | [Ampliar o conteúdo da página em arquivo PDF](./zoom-to-page-contents/) | Aprenda a aplicar zoom no conteúdo de páginas em arquivos PDF usando o Aspose.PDF para .NET neste guia completo. Aprimore seus documentos PDF de acordo com suas necessidades específicas. |
 | [Adicionar números de página PDF com C# – Guia completo passo a passo](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Aprenda a inserir números de página em PDFs usando C# com o Aspose.PDF, passo a passo. |
+| [Adicionar página em branco PDF com Aspose.PDF – Guia completo](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Aprenda a adicionar uma página em branco a um PDF usando Aspose.PDF com este guia passo a passo completo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

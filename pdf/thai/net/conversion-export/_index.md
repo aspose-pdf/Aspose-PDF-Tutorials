@@ -83,6 +83,9 @@
 ### [แปลง PDF เป็น PNG ด้วย Aspose.PDF .NET: ปรับปรุงการแสดงข้อความให้คมชัดยิ่งขึ้น](./convert-pdf-png-aspose-net-font-hinting/)
 เรียนรู้วิธีการแปลงเอกสาร PDF เป็นภาพ PNG คุณภาพสูงโดยใช้ Aspose.PDF .NET รับประกันการแสดงผลข้อความคมชัดผ่านการบอกใบ้แบบอักษร
 
+### [วิธีแปลงหน้า PDF เป็นภาพ PNG – คู่มือ Aspose.PDF ฉบับสมบูรณ์](./how-to-render-pdf-pages-as-png-images-complete-aspose-pdf-gu/)
+เรียนรู้วิธีแปลงหน้า PDF เป็นภาพ PNG ด้วย Aspose.PDF อย่างละเอียด พร้อมตัวอย่างโค้ดและเคล็ดลับการปรับแต่ง
+
 ### [แปลง PDF เป็น PPTX ด้วย Aspose.PDF สำหรับ .NET: คำแนะนำทีละขั้นตอน](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 เรียนรู้วิธีการแปลงเอกสาร PDF เป็นงานนำเสนอ PowerPoint อย่างมีประสิทธิภาพโดยใช้ Aspose.PDF สำหรับ .NET คำแนะนำทีละขั้นตอนนี้ครอบคลุมถึงการแปลงพื้นฐาน คุณสมบัติขั้นสูง เช่น สไลด์รูปภาพ และการติดตามความคืบหน้า
 
@@ -224,8 +227,8 @@
 ### [การแปลง PDF เป็น HTML ด้วย Aspose.PDF สำหรับ .NET](./pdf-to-html-conversion-aspose-dot-net/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.PDF Net
 
-### [การแปลง PDF เป็น TIFF ใน .NET โดยใช้ Aspose.PDF: คำแนะนำทีละขั้นตอน](./pdf-to-tiff-conversion-aspose-pdf-net/)
-เรียนรู้วิธีการแปลงเอกสาร PDF เป็นภาพ TIFF โดยใช้ Aspose.PDF สำหรับ .NET เชี่ยวชาญความลึกสีที่กำหนดเองและเทคนิคการประมวลผลภาพขั้นสูง
+### [Aspose PDF เป็น HTML: คู่มือฉบับสมบูรณ์ในการแปลง PDF และลบรูปภาพ](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
+เรียนรู้วิธีแปลง PDF เป็น HTML และลบรูปภาพโดยใช้ Aspose.PDF .NET อย่างครบถ้วน
 
 ## แหล่งข้อมูลเพิ่มเติม
 

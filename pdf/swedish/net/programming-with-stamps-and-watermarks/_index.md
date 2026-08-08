@@ -39,6 +39,8 @@ Aspose.PDFs handledningar "Programmering med stämplar och vattenstämplar" för
 | [Tabell i sidhuvuds- och sidfotssektionen](./table-in-header-footer-section/) | Lär dig hur du enkelt lägger till text i sidfoten på en PDF-fil med Aspose.PDF för .NET. Steg-för-steg-guide ingår för sömlös integration. |  
 | [Text i sidfoten på PDF-filen](./text-in-footer/) | Lär dig hur du lägger till text i sidfoten på en PDF-fil med Aspose.PDF för .NET. |  
 | [Text i sidhuvudet på PDF-filen](./text-in-header/) | Lär dig lägga till textrubriker i PDF-filer med Aspose.PDF för .NET med den här steg-för-steg-handledningen. Förbättra dina dokument effektivt och ändamålsenligt. |  
+| [Bates-numreringshandledning: Lägg till nummer i PDF med Aspose](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) | Lär dig hur du använder Bates-numrering för att automatiskt lägga till unika sidnummer i PDF-dokument med Aspose.PDF för .NET. |  
+| [Hur man lägger till vattenstämpel i PDF – Lägg till textöverlägg i PDF med Aspose](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) | Lär dig hur du lägger till en textbaserad vattenstämpel i en PDF med Aspose.PDF för .NET i denna steg-för-steg-guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
