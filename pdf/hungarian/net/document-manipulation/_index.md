@@ -33,7 +33,7 @@ Ismerje meg, hogyan javíthatja PDF dokumentumait képek és oldalszámok hozzá
 Ismerje meg, hogyan javíthatja PDF dokumentumait interaktív JavaScript hozzáadásával nyomógombos mezőkhöz az Aspose.PDF for .NET használatával. Ez az útmutató a beállítást, a megvalósítást és a gyakorlati alkalmazásokat ismerteti.
 
 ### [Oldaltörések hozzáadása PDF-ben az Aspose.PDF for .NET használatával: Teljes körű útmutató](./add-page-breaks-pdf-aspose-dotnet/)
-Tanuld meg, hogyan adhatsz hozzá oldaltöréseket PDF dokumentumokhoz az Aspose.PDF for .NET használatával. Kövesd lépésről lépésre szóló útmutatónkat a telepítésről, beállításról és megvalósításról.
+Tanuld meg, hogyan adhatsz hozzá oldaltöréseket PDF dokumentumokhoz az Aspose.PDF for .NET használatával. Kövesd lépésről lépésre szóló útmutatásunkat a telepítésről, beállításról és megvalósításról.
 
 ### [Téglalapok hozzáadása és PDF-oldalak konfigurálása az Aspose.PDF .NET segítségével: Átfogó útmutató](./aspose-pdf-net-add-rectangles-configure-pages/)
 Sajátítsd el a téglalapok hozzáadását és az oldalak konfigurálását PDF-ekben az Aspose.PDF for .NET használatával. Kövesd ezt az útmutatót a dokumentumkezelési technikák hatékony elsajátításához.
@@ -209,7 +209,7 @@ Ismerje meg, hogyan frissítheti programozottan a PDF fájlokban található hiv
 ### [PDF hivatkozás szövegszínének frissítése az Aspose.PDF .NET használatával: Teljes körű útmutató](./update-pdf-link-text-color-aspose-net/)
 Tanuld meg, hogyan módosíthatod könnyedén a PDF-fájlokban található linkek szövegszínét az Aspose.PDF for .NET segítségével. Ez az átfogó útmutató a telepítéssel, a megvalósítással és az optimalizálással kapcsolatos tippeket tartalmazza.
 
-### [Oldalak beszúrása PDF-be az Aspose.PDF for .NET használatával: Teljes körű útmutató a dokumentumkezeléshez](./insert-pages-pdf-aspose-dotnet-guide/)
+### [Oldalak beszúrása PDF-be az Aspose.PDF for .NET használatával: lépésről lépésre útmutató](./insert-pages-pdf-aspose-dotnet-guide/)
 Tanuld meg, hogyan szúrhatsz be oldalakat PDF-be az Aspose.PDF for .NET használatával. Ez a lépésről lépésre szóló útmutató mindent lefed a beállítástól a megvalósításig, tökéletes C# fejlesztők számára.
 
 ### [Oldalak beszúrása PDF-be az Aspose.PDF for .NET használatával: Átfogó útmutató a zökkenőmentes dokumentumkezeléshez](./aspose-pdf-net-insert-pages-between-numbers/)
@@ -240,7 +240,7 @@ Ismerje meg, hogyan kezelheti programozottan a PDF-eket .NET-ben az Aspose.PDF h
 Ismerje meg, hogyan automatizálhatja a PDF-feladatokat az Aspose.PDF for .NET használatával, beleértve a fájlok összefűzését, oldalak hozzáadását, szövegbélyegzők beszúrását és hivatkozások létrehozását.
 
 ### [PDF-manipuláció mestere az Aspose.PDF .NET segítségével: Dokumentumok egyszerű betöltése és módosítása](./mastering-pdf-manipulation-aspose-dotnet/)
-Tanuld meg, hogyan töltheted be, navigálhatsz és módosíthatod a PDF dokumentumokat a hatékony Aspose.PDF .NET könyvtár segítségével. Fejleszd alkalmazásaid még ma!
+Tanuld meg, hogyan töltheted be, navigálhatsz és módosíthasd a PDF dokumentumokat a hatékony Aspose.PDF .NET könyvtár segítségével. Fejleszd alkalmazásaid még ma!
 
 ### [PDF-manipuláció mestere az Aspose.PDF .NET segítségével: Betöltési, keresési és jegyzetelési útmutató](./aspose-pdf-dotnet-mastering-pdfs-manipulation-guide/)
 Tanuld meg elsajátítani a PDF-manipulációt az Aspose.PDF for .NET segítségével. Ez az útmutató a dokumentumok betöltését, a szövegkeresést és az olyan megjegyzések alkalmazását ismerteti, mint az áthúzás.
@@ -311,13 +311,14 @@ Tanuld meg, hogyan oszthatsz fel többoldalas PDF fájlokat és hogyan hozhatsz 
 ### [Végső útmutató a PDF-manipulációhoz az Aspose.PDF .NET segítségével: Szöveg hatékony betöltése, mentése és cseréje](./master-pdf-manipulation-aspose-pdf-net/)
 Tanuld meg, hogyan mesterien manipulálhatod a PDF-eket az Aspose.PDF for .NET segítségével. Ez az útmutató a PDF-ekben lévő szöveg betöltését, mentését és cseréjét ismerteti, ideális a hatékonyságra törekvő fejlesztők számára.
 
-## További források
+### [PDF rétegek laposítása C#-ban – Exportálási és kinyerési útmutató](./flatten-pdf-layers-in-c-export-extract-guide/)
+Ismerje meg, hogyan laposíthatja a PDF rétegeket C#-ban, és exportálhatja vagy kinyerheti őket az Aspose.PDF for .NET segítségével.
 
-- [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)
-- [Aspose.PDF a Net API referenciaanyagához](https://reference.aspose.com/pdf/net/)
-- [Aspose.PDF letöltése netre](https://releases.aspose.com/pdf/net/)
-- [Ingyenes támogatás](https://forum.aspose.com/)
-- [Ideiglenes engedély](https://purchase.aspose.com/temporary-license/)
+### [PDF laposítása Aspose.PDF használatával – Teljes útmutató](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+Ismerje meg, hogyan laposíthatja a PDF fájlokat az Aspose.PDF segítségével, hogy eltávolítsa a rétegeket és egyszerűsítse a dokumentumot.
+
+### [Vizualizált PDF-eltérés C#-ban – Teljes útmutató két PDF összehasonlításához](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
+Ismerje meg, hogyan hasonlíthat össze két PDF-et vizuálisan C#-ban az Aspose.PDF segítségével.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

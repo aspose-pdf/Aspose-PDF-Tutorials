@@ -51,9 +51,9 @@ Aspose.PDF Net 代码教程
 Aspose.PDF Net 代码教程
 
 ### [使用 Aspose.PDF .NET 将 PDF 页面转换为 PNG：综合指南](./convert-pdf-pages-to-png-aspose-net/)
-了解如何使用 Aspose.PDF for .NET 将 PDF 页面转换为高质量的 PNG 图像。按照本分步指南，高效地自动化转换过程。
+了解如何使用 Aspose.PDF .NET 将 PDF 页面转换为高质量的 PNG 图像。按照本分步指南，高效地自动化转换过程。
 
-### [使用 Aspose.PDF for .NET 将 PDF 转换为 BMP：分步指南](./convert-pdf-to-bmp-aspose-pdf-net/)
+### [使用 Aspose.PDF .NET 将 PDF 转换为 BMP：分步指南](./convert-pdf-to-bmp-aspose-pdf-net/)
 通过本综合指南了解如何使用 Aspose.PDF for .NET 将 PDF 页面转换为高质量的 BMP 图像。
 
 ### [使用 Aspose.PDF for .NET 将 PDF 转换为 EMF：完整指南](./convert-pdf-emf-aspose-net-guide/)
@@ -82,6 +82,9 @@ Aspose.PDF Net 代码教程
 
 ### [使用 Aspose.PDF .NET 将 PDF 转换为 PNG：增强字体提示以实现清晰的文本渲染](./convert-pdf-png-aspose-net-font-hinting/)
 了解如何使用 Aspose.PDF .NET 将 PDF 文档转换为高质量的 PNG 图像，确保通过字体提示实现清晰的文本呈现。
+
+### [使用 Aspose 将 PDF 渲染为 PNG 的完整指南](./how-to-render-pdf-to-png-with-aspose-complete-guide/)
+学习如何使用 Aspose 将 PDF 文件高效渲染为高质量 PNG 图像的完整步骤和代码示例。
 
 ### [使用 Aspose.PDF for .NET 将 PDF 转换为 PPTX：分步指南](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 了解如何使用 Aspose.PDF for .NET 将 PDF 文档高效地转换为 PowerPoint 演示文稿。本分步指南涵盖基本转换、图像幻灯片等高级功能以及进度跟踪。
@@ -223,6 +226,12 @@ Aspose.PDF Net 代码教程
 
 ### [使用 Aspose.PDF for .NET 将 PDF 转换为 HTML](./pdf-to-html-conversion-aspose-dot-net/)
 Aspose.PDF Net 代码教程
+
+### [使用 Aspose.PDF .NET 将 PDF 保存为 HTML – 完整 C# 指南](./save-pdf-as-html-with-aspose-pdf-complete-c-guide/)
+学习如何使用 Aspose.Pdf 将 PDF 保存为 HTML，提供完整的 C# 示例代码和详细步骤指南。
+
+### [如何在 C# 中将 PDF 导出为 HTML – 完整 Aspose 指南](./how-to-export-pdf-to-html-in-c-complete-aspose-guide/)
+学习使用 Aspose.PDF for .NET 在 C# 中将 PDF 导出为 HTML 的完整步骤和代码示例。
 
 ### [使用 Aspose.PDF 在 .NET 中将 PDF 转换为 TIFF：分步指南](./pdf-to-tiff-conversion-aspose-pdf-net/)
 学习如何使用 Aspose.PDF for .NET 将 PDF 文档转换为 TIFF 图像。掌握自定义色深和高级图像处理技术。

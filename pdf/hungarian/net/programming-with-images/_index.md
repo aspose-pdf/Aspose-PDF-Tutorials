@@ -49,6 +49,7 @@ Az Aspose.PDF for .NET „Képekkel programozás” című oktatóanyagai végig
 | [Képméret beállítása PDF fájlban](./set-image-size/) | Ismerje meg, hogyan állíthatja be a képméretet egy PDF-ben az Aspose.PDF for .NET használatával. Ez a lépésről lépésre szóló útmutató segít a képek átméretezésében, az oldaltulajdonságok módosításában és a PDF-ek mentésében. |  
 | [Képek összezsugorítása PDF fájlban](./shrink-images/) | Az Aspose.PDF for .NET segítségével könnyedén zsugoríthatja a PDF fájlok képeit ezzel a lépésről lépésre szóló útmutatóval, biztosítva a kisebb fájlméretet a minőség megőrzése mellett. |  
 | [Kép tárolása az XImage gyűjteményben](./store-image-in-ximage-collection/) | Tanulja meg, hogyan tárolhat képeket az XImage gyűjteményben az Aspose.PDF for .NET használatával ebben a teljes, lépésről lépésre szóló útmutatóban. |  
+| [Kép vágása PDF-ben az Aspose.PDF segítségével – Teljes útmutató](./crop-image-in-pdf-with-aspose-pdf-complete-guide/) | Tanulja meg, hogyan vághat le képeket PDF-ben az Aspose.PDF for .NET segítségével lépésről lépésre útmutatóval. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

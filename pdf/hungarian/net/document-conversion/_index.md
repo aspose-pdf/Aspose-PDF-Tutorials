@@ -42,7 +42,7 @@ Megtanulod, hogyan adhatsz meg konvertálási beállításokat, hogyan kinyerhet
 | [PDF-ből TeX-be](./pdf-to-tex/) | Tanulja meg, hogyan konvertálhat PDF-fájlokat TeX-fájlokká az Aspose.PDF for .NET segítségével ezzel a lépésről lépésre szóló útmutatóval. Tökéletes azoknak a fejlesztőknek, akik szeretnék fejleszteni dokumentumfeldolgozási készségeiket. |
 | [PDF-ből XLS-be](./pdf-to-xls/) Könnyedén konvertálhat PDF fájlokat XLS formátumba az Aspose.PDF for .NET segítségével. Kövesse lépésről lépésre szóló útmutatónkat a zökkenőmentes adatkinyeréshez. |
 | [PDF-ből XML-be](./pdf-to-xml/) | Tanulja meg, hogyan konvertálhat PDF-fájlokat XML-fájlokká az Aspose.PDF for .NET segítségével ebben az átfogó oktatóanyagban. Lépésről lépésre útmutató kódpéldákkal. |
-| [PDF-ből XPS-be](./pdf-to-xps/) | Tanulja meg, hogyan konvertálhat PDF-fájlokat XPS-fájlokká az Aspose.PDF for .NET segítségével ezzel a lépésről lépésre szóló útmutatóval. Tökéletes fejlesztők és dokumentumfeldolgozás szerelmesei számára. |
+| [PDF-ből XPS-be](./pdf-to-xps/) | Tanulja meg, hogyan konvertálhat PDF-fájlokat XPS-fájlokká az Aspose.PDF for .NET segítségével ezzel a lépésről lépésre szóló útmutatóval. Tökéletes fejlesztők és dokumentumrajongók számára. |
 | [Utóirat PDF-be](./postscript-to-pdf/) | Tanuld meg, hogyan konvertálhatsz Postscript fájlokat PDF-be az Aspose.PDF for .NET segítségével ebben a lépésről lépésre szóló útmutatóban. Tökéletes minden szintű fejlesztő számára. |
 | [Hitelesítő adatok megadása HTML PDF-be konvertálása során](./provide-credentials-during-html-to-pdf/) | Tanulja meg, hogyan konvertálhat HTML-t PDF-be az Aspose.PDF for .NET segítségével ezzel a lépésről lépésre szóló útmutatóval. Tökéletes azoknak a fejlesztőknek, akik egyszerűsíteni szeretnék a dokumentumgenerálást. |
 | [Hiperhivatkozások eltávolítása HTML-ből konvertálás után](./remove-hyperlinks-after-converting-from-html/) Ebben a lépésről lépésre szóló útmutatóban megtudhatja, hogyan távolíthat el hiperhivatkozásokat a HTML dokumentumokból, miután az Aspose.PDF for .NET segítségével PDF-be konvertálta azokat. |
@@ -57,7 +57,10 @@ Megtanulod, hogyan adhatsz meg konvertálási beállításokat, hogyan kinyerhet
 | [XML PDF-beállításaKépútvonal beállítása](./xml-to-pdfset-image-path/) | Ismerje meg, hogyan konvertálhat könnyedén XML-t PDF-be az Aspose.PDF for .NET segítségével. Ez a részletes útmutató lépésről lépésre végigvezeti Önt a folyamaton, a beállítástól a befejezésig. |
 | [XPS-ből PDF-be](./xps-to-pdf/) Tanulja meg, hogyan konvertálhat XPS fájlokat PDF-be az Aspose.PDF for .NET segítségével ezzel a lépésről lépésre szóló útmutatóval. Tökéletes fejlesztők és dokumentumrajongók számára. |
 | [PDF konvertálása PDF/X‑4-re C#‑ban – Lépésről‑lépésre ASP.NET PDF oktatóanyag](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Tanulja meg, hogyan konvertálhat PDF-fájlokat PDF/X‑4 formátumba C#‑ban az Aspose.PDF for .NET segítségével lépésről‑lépésre. |
-| [PDF PNG oktatóanyag – PDF oldalak PNG-be konvertálása C#-ban](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Tanulja meg, hogyan konvertálhat PDF oldalakat PNG képekké C#-ban az Aspose.PDF for .NET használatával. |
+| [Aspose PDF oktatóanyag: PDF-ek betöltése és konvertálása PDF/X‑4 formátumba C#-ban](./aspose-pdf-tutorial-load-and-convert-pdfs-to-pdf-x-4-in-c/) | Tanulja meg, hogyan tölthet be és konvertálhat PDF fájlokat PDF/X‑4 formátumba C#-ban az Aspose.PDF for .NET segítségével. |
+| [PDF konvertálása PDF/X-1a formátumba – Teljes lépésről‑lépésre útmutató](./convert-pdf-to-pdf-x-1a-full-step-by-step-guide/) | Tanulja meg, hogyan konvertálhat PDF fájlokat PDF/X‑1a formátumba az Aspose.PDF for .NET segítségével részletes, lépésről‑lépésre útmutatóval. |
+| [PDF PNG oktatóanyag – PDF oldalak PNG-be konvertálása C#-ban](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) |
+| [PDF konvertálása 2.0-ra – Teljes ASP.NET útmutató hibakereséssel](./convert-pdf-to-2-0-full-asp-net-guide-with-error-logging/) | Tanulja meg, hogyan konvertálhat PDF fájlokat PDF 2.0 formátumba ASP.NET‑ben, részletes hibakereséssel és naplózással. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

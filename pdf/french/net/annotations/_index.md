@@ -20,6 +20,7 @@ Une collection complète de tutoriels expliquant comment utiliser les annotation
 | Titre | Description |
 | --- | --- | 
 | [Ajouter une annotation PDF](./addannotation/) Ajoutez facilement des annotations personnalisées à vos PDF avec Aspose.PDF pour .NET grâce à ce guide étape par étape. Personnalisez vos annotations avec des détails et des icônes spécifiques.  
+| [Ajouter une annotation PDF avec Aspose.PDF - Guide complet](./add-annotation-pdf-with-aspose-pdf-complete-guide/) | Découvrez comment ajouter des annotations PDF avec Aspose.PDF en suivant ce guide complet étape par étape. |
 | [Ajouter une annotation de lien](./addlnkannotation/) | Apprenez à ajouter des annotations manuscrites aux fichiers PDF avec Aspose.PDF pour .NET dans ce guide engageant, étape par étape. |  
 | [Ajouter un fichier SWF comme annotation PDF](./addswffileasannotation/) | Apprenez à ajouter des fichiers SWF comme annotations PDF avec Aspose.PDF pour .NET. Enrichissez vos PDF de contenu multimédia interactif grâce à ce tutoriel détaillé. |  
 | [Supprimer toutes les annotations de la page](./deleteallannotationsfrompage/) | Apprenez à supprimer toutes les annotations d'une page PDF avec Aspose.PDF pour .NET. Suivez notre guide étape par étape pour nettoyer efficacement vos PDF. |  

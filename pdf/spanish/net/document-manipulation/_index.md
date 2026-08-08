@@ -108,7 +108,7 @@ Aprenda a agregar sin problemas encabezados de texto a sus archivos PDF usando A
 Aprenda a añadir objetos de línea en archivos PDF con Aspose.PDF para .NET. Esta guía abarca la configuración, ejemplos de programación y aplicaciones prácticas.
 
 ### [Cómo añadir un pie de página con sello de texto en archivos PDF con Aspose.PDF para .NET: guía paso a paso](./add-text-stamp-footer-aspose-pdf-net/)
-Aprenda a añadir sellos de texto en cada página de sus documentos PDF con Aspose.PDF para .NET con nuestra guía paso a paso. Agilice el procesamiento de documentos.
+Aprenda a añadir sellos de texto en cada página de sus documentos PDF con Aspose.PDF para .NET. Agilice el procesamiento de documentos.
 
 ### [Cómo añadir un sello de texto a archivos PDF con Aspose.PDF para .NET](./add-text-stamp-pdf-aspose-dotnet/)
 Aprenda a añadir sellos de texto a documentos PDF de forma eficiente con Aspose.PDF para .NET. Mejore la gestión de sus documentos con esta guía paso a paso.
@@ -306,10 +306,18 @@ Aprenda a dividir un archivo PDF en páginas individuales con Aspose.PDF para .N
 Aprenda a dividir páginas PDF en archivos separados con Aspose.PDF para .NET. Esta guía completa incluye consejos de configuración, implementación y optimización.
 
 ### [Dividir y crear archivos PDF con Aspose.PDF .NET | Guía de manipulación de documentos](./split-create-pdf-aspose-pdf-net/)
-Aprenda a dividir archivos PDF de varias páginas y a crear nuevos archivos PDF con Aspose.PDF para .NET. Siga esta guía completa con ejemplos de código.
+Aprenda a dividir archivos PDF de varias páginas y a crear nuevos archivos PDF con Aspose.PDF .NET. Siga esta guía completa con ejemplos de código.
 
 ### [Guía definitiva para la manipulación de PDF con Aspose.PDF .NET: Carga, guarda y reemplaza texto de forma eficiente](./master-pdf-manipulation-aspose-pdf-net/)
-Aprenda a dominar la manipulación de PDF con Aspose.PDF para .NET. Esta guía explica cómo cargar, guardar y reemplazar texto en PDF, ideal para desarrolladores que buscan eficiencia.
+
+### [Aplanar capas PDF en C# – Guía de exportación y extracción](./flatten-pdf-layers-in-c-export-extract-guide/)
+Aprenda a aplanar capas de archivos PDF y exportarlas o extraerlas usando Aspose.PDF para .NET con C#.
+
+### [Cómo aplanar PDF con Aspose.PDF – Guía completa](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+Aprenda a aplanar documentos PDF, eliminando capas y preservando contenido, usando Aspose.PDF con esta guía paso a paso.
+
+### [Diferencia visual de PDF en C# – Guía completa para comparar dos PDFs](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
+Aprenda a comparar visualmente dos archivos PDF en C# usando Aspose.PDF, con ejemplos paso a paso y mejores prácticas.
 
 ## Recursos adicionales
 

@@ -311,6 +311,15 @@ Leer hoe u PDF's met meerdere pagina's kunt splitsen en nieuwe PDF-bestanden kun
 ### [Ultieme gids voor PDF-manipulatie met Aspose.PDF .NET: tekst efficiënt laden, opslaan en vervangen](./master-pdf-manipulation-aspose-pdf-net/)
 Leer hoe je PDF-bewerking onder de knie krijgt met Aspose.PDF voor .NET. Deze handleiding behandelt het laden, opslaan en vervangen van tekst in PDF's, ideaal voor ontwikkelaars die op zoek zijn naar efficiëntie.
 
+### [PDF-lagen flatten in C# – Export- en extractiegids](./flatten-pdf-layers-in-c-export-extract-guide/)
+Leer hoe u PDF-lagen kunt flatten, exporteren en extraheren met Aspose.PDF voor .NET in C#.
+
+### [PDF flattenen met Aspose.PDF – Complete gids](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+Leer hoe u PDF's kunt flattenen met Aspose.PDF voor .NET in deze volledige stap‑voor‑stap handleiding.
+
+### [Visuele PDF-verschil in C# – Complete gids om twee PDF's te vergelijken](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
+Leer hoe u met Aspose.PDF voor .NET twee PDF-bestanden visueel kunt vergelijken en verschillen kunt identificeren.
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

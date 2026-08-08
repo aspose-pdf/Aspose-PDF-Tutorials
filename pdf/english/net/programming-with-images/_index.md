@@ -30,6 +30,7 @@ Aspose.PDF for .NET's "Programming with Images" tutorials walk you through the s
 | [Convert Page Region To DOM](./convert-page-region-to-dom/) | Unlock the potential of your PDF documents with Aspose.PDF for .NET. Convert regions of PDFs to images & enhance your workflow. |  
 | [Convert To BMP](./convert-to-bmp/) | Learn how to easily convert PDFs to BMP images using Aspose.PDF for .NET in this step-by-step tutorial. Perfect for .NET developers. |  
 | [Create Thumbnail Images In PDF File](./create-thumbnail-images/) | Generate thumbnail images for each page in your PDF file effortlessly using Aspose.PDF for .NET. Enhance your document preview experience. |  
+| [Crop Image in PDF with Aspose.PDF – Complete Guide](./crop-image-in-pdf-with-aspose-pdf-complete-guide/) | Learn how to crop images within PDF files using Aspose.PDF for .NET in this comprehensive step-by-step guide. |  
 | [Delete Images From PDF File](./delete-images/) | Learn how to delete images from PDF files using Aspose.PDF for .NET in a simple, step-by-step tutorial. Optimize PDFs by removing unwanted images easily. |  
 | [Extract Images From PDF File](./extract-images/) | Learn how to extract images from a PDF file using Aspose.PDF for .NET with this step-by-step guide. Get started with easy-to-follow instructions. |  
 | [Fast Shrink Images](./fast-shrink-images/) | Learn how to efficiently use Aspose.PDF for .NET to shrink images in PDF files, optimizing for size while maintaining quality. |  

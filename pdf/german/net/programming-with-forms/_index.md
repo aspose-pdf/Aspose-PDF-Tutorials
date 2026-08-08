@@ -51,6 +51,7 @@ Diese Tutorials bieten detaillierte Codebeispiele, klare Erklärungen und Illust
 | [Beschriftung des Optionsfelds festlegen](./set-radio-button-caption/) Erfahren Sie, wie Sie mit Aspose.PDF für .NET Optionsfeldbeschriftungen in PDFs festlegen. Diese Schritt-für-Schritt-Anleitung führt Sie durch das Laden, Ändern und Speichern Ihrer PDF-Formulare. |
 | [Textfeld](./text-box/) | Entdecken Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET mühelos Textfelder zu PDFs hinzufügen. Verbessern Sie die Benutzerinteraktion. |
 | [PDF mit Aspose erstellen – Formularfeld und Seiten hinzufügen](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.PDF für .NET ein PDF erstellen und Formularfelder sowie Seiten hinzufügen. |
+| [Mehrseitiges Formular in C# mit Aspose.Pdf erstellen – Schritt‑für‑Schritt‑Anleitung](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein mehrseitiges PDF-Formular in C# Schritt für Schritt erstellen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -76,8 +76,12 @@ Tutorial kode untuk Aspose.PDF Net
 
 ### [Buat Dokumen PDF dengan Aspose.PDF – Tambahkan Halaman, Bentuk & Simpan](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Pelajari cara menambahkan halaman, bentuk, dan menyimpan dokumen PDF menggunakan Aspose.PDF.
+
 ### [Buat Dokumen PDF dengan Aspose.PDF – Panduan Langkah demi Langkah](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 Pelajari cara membuat dokumen PDF menggunakan Aspose.PDF dengan panduan langkah demi langkah yang mudah diikuti.
+
+### [Buat Gambar PDF dari HEIC – Panduan Lengkap C#](./create-pdf-image-from-heic-complete-c-guide/)
+Pelajari cara mengonversi file HEIC menjadi gambar PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode C# lengkap.
 
 ## Sumber Daya Tambahan
 

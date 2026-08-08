@@ -101,7 +101,7 @@ Erfahren Sie in diesem ausführlichen C#-Tutorial, wie Sie mit Aspose.PDF für .
 ### [So fügen Sie mit Aspose.PDF für .NET Kopfzeilen zu PDFs hinzu: Eine umfassende Anleitung](./add-header-pdf-aspose-dotnet-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET nahtlos Kopfzeilen, einschließlich Text und Bilder, zu Ihren PDF-Dokumenten hinzufügen. Perfekt für die Verbesserung des Dokumenten-Brandings.
 
-### [So fügen Sie mit Aspose.PDF für .NET Kopfzeilen zu PDFs hinzu: Eine umfassende Anleitung](./add-headers-aspose-pdf-dotnet-guide/)
+### [So fügen Sie mit Aspose.PDF für .NET Kopfzeilen zu PDFs hinzufügen: Eine umfassende Anleitung](./add-headers-aspose-pdf-dotnet-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET nahtlos Textkopfzeilen zu Ihren PDF-Dateien hinzufügen und so die Lesbarkeit und Organisation der Dokumente verbessern.
 
 ### [So fügen Sie mit Aspose.PDF für .NET ein Linienobjekt in PDF ein: Eine Schritt-für-Schritt-Anleitung](./add-line-aspose-pdf-dotnet-tutorial/)
@@ -310,6 +310,15 @@ Erfahren Sie, wie Sie mehrseitige PDFs mit Aspose.PDF für .NET aufteilen und ne
 
 ### [Ultimativer Leitfaden zur PDF-Manipulation mit Aspose.PDF .NET: Text effizient laden, speichern und ersetzen](./master-pdf-manipulation-aspose-pdf-net/)
 Erfahren Sie, wie Sie PDFs mit Aspose.PDF für .NET bearbeiten. Diese Anleitung behandelt das Laden, Speichern und Ersetzen von Text in PDFs – ideal für Entwickler, die Wert auf Effizienz legen.
+
+### [PDF-Ebenen in C# flachlegen – Export- und Extraktionsleitfaden](./flatten-pdf-layers-in-c-export-extract-guide/)
+Erfahren Sie, wie Sie PDF-Ebenen mit Aspose.PDF für .NET flachlegen und Inhalte exportieren oder extrahieren.
+
+### [PDF mit Aspose.PDF flachlegen – Vollständige Anleitung](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+Erfahren Sie, wie Sie PDFs mit Aspose.PDF flachlegen, um Ebenen zu entfernen und die Datei zu vereinfachen.
+
+### [Visueller PDF-Vergleich in C# – Vollständige Anleitung zum Vergleich von zwei PDFs](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET visuelle Unterschiede zwischen zwei PDFs erkennen und vergleichen.
 
 ## Weitere Ressourcen
 

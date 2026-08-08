@@ -37,6 +37,8 @@ Du lär dig hur du anger konverteringsinställningar, extraherar text och bilder
 | [PDF till PDFA](./pdf-to-pdfa/) Lär dig hur du konverterar PDF-filer till PDF/A-format med Aspose.PDF för .NET med den här steg-för-steg-handledningen. |
 | [PDF till PDFA3b](./pdf-to-pdfa3b/) | Lär dig att konvertera PDF-filer till PDF/A-3B-format utan problem med Aspose.PDF för .NET i den här steg-för-steg-guiden. |
 | [Konvertera PDF till PDF/X‑4 i C# – Steg‑för‑steg ASP.NET PDF‑handledning](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Lär dig hur du konverterar PDF till PDF/X‑4 med Aspose.PDF för .NET i en detaljerad steg‑för‑steg‑guide. |
+| [Aspose PDF-handledning: Läs in och konvertera PDF-filer till PDF/X‑4 i C#](./aspose-pdf-tutorial-load-and-convert-pdfs-to-pdf-x-4-in-c/) | Lär dig hur du laddar PDF-filer och konverterar dem till PDF/X‑4-format med Aspose.PDF för .NET i C#. |
+| [Konvertera PDF till PDF/X‑1a – Fullständig steg‑för‑steg‑guide](./convert-pdf-to-pdf-x-1a-full-step-by-step-guide/) | Lär dig hur du konverterar PDF till PDF/X‑1a med Aspose.PDF för .NET i denna fullständiga steg‑för‑steg‑guide. |
 | [PDF till PNG-teckensnittstips](./pdf-to-png-font-hinting/) | Lär dig konvertera PDF till PNG med teckensnittstips med hjälp av Aspose.PDF för .NET i en enkel steg-för-steg-guide. |
 | [pdf till png‑handledning – Konvertera PDF‑sidor till PNG i C#](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Lär dig hur du konverterar PDF‑sidor till PNG‑bilder i C# med Aspose.PDF för .NET i denna steg‑för‑steg‑guide. |
 | [PDF till PPT](./pdf-to-ppt/) | Lär dig hur du konverterar PDF till PPT med Aspose.PDF för .NET med den här steg-för-steg-guiden. Enkelt, effektivt och perfekt för presentationer. |
@@ -58,6 +60,7 @@ Du lär dig hur du anger konverteringsinställningar, extraherar text och bilder
 | [XML till PDF](./xml-to-pdf/) | Lär dig hur du konverterar XML till PDF med Aspose.PDF för .NET i den här omfattande steg-för-steg-handledningen, komplett med kodexempel och detaljerade förklaringar. |
 | [XML till PDFSet-bildsökväg](./xml-to-pdfset-image-path/) | Lär dig hur du enkelt konverterar XML till PDF med Aspose.PDF för .NET. Den här detaljerade guiden guidar dig genom processen steg för steg, från installation till slutförande. |
 | [XPS till PDF](./xps-to-pdf/) Lär dig hur du konverterar XPS-filer till PDF med Aspose.PDF för .NET med den här steg-för-steg-handledningen. Perfekt för utvecklare och dokumententusiaster. |
+| [Konvertera PDF till 2.0 – Fullständig ASP.NET-guide med felloggning](./convert-pdf-to-2-0-full-asp-net-guide-with-error-logging/) | Lär dig hur du konverterar PDF till PDF 2.0 i ASP.NET med komplett felhantering och loggning. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

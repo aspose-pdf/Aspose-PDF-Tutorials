@@ -35,6 +35,7 @@ A comprehensive collection of tutorials showcasing how to work with annotations 
 | [Set Free Text Annotation Formatting](./setfreetextannotationformatting/) | Learn how to set free text annotation formatting in PDF documents using Aspose.PDF for .NET with this step-by-step guide. |  
 | [Strike Out Words](./strikeoutwords/) | Learn how to strike out words in a PDF using Aspose.PDF for .NET with this comprehensive step-by-step guide. Enhance your document editing skills. |  
 | [Update Free Text PDF Annotation](./updatefreetextannotation/) | Learn how to update free text annotations in PDF documents using Aspose.PDF for .NET with this step-by-step guide. |  
+| [Add Annotation PDF with Aspose.PDF - Complete Guide](./add-annotation-pdf-with-aspose-pdf-complete-guide/) | Learn how to add annotations to PDF files using Aspose.PDF for .NET in this complete, step-by-step guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

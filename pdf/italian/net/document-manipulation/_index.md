@@ -248,7 +248,7 @@ Impara a padroneggiare la manipolazione dei PDF utilizzando Aspose.PDF per .NET.
 ### [Padroneggia la manipolazione dei PDF con Aspose.PDF per .NET: una guida completa](./mastering-pdf-manipulation-aspose-pdf-net-guide/)
 Scopri come creare, modificare, unire ed estrarre dati dai PDF in modo efficiente utilizzando Aspose.PDF per .NET. Ottimizza i flussi di lavoro dei tuoi documenti e aumenta la produttività.
 
-### [Padroneggia la manipolazione del conteggio delle pagine PDF con Aspose.PDF per .NET: una guida completa](./mastering-pdf-manipulation-aspose-pdf-net/)
+### [Padroneggiare la manipolazione del conteggio delle pagine PDF con Aspose.PDF per .NET: una guida completa](./mastering-pdf-manipulation-aspose-pdf-net/)
 Scopri come recuperare e modificare in modo efficiente il conteggio delle pagine PDF utilizzando Aspose.PDF per .NET. Questa guida illustra la configurazione, l'implementazione e le applicazioni pratiche.
 
 ### [Padroneggiare Aspose.PDF .NET: integrare perfettamente LaTeX in tabelle e celle PDF](./integrate-latex-aspose-pdf-dotnet/)
@@ -310,6 +310,12 @@ Scopri come dividere PDF multipagina e creare nuovi file PDF utilizzando Aspose.
 
 ### [Guida definitiva alla manipolazione di PDF con Aspose.PDF .NET: carica, salva e sostituisci il testo in modo efficiente](./master-pdf-manipulation-aspose-pdf-net/)
 Scopri come padroneggiare la manipolazione dei PDF utilizzando Aspose.PDF per .NET. Questa guida illustra come caricare, salvare e sostituire il testo nei PDF, ideale per gli sviluppatori che cercano efficienza.
+
+### [Appiattire i livelli PDF in C# – Guida all'esportazione e all'estrazione](./flatten-pdf-layers-in-c-export-extract-guide/)
+Scopri come appiattire i livelli di un PDF e esportarli o estrarli usando Aspose.PDF per .NET con C#.
+
+### [Come appiattire PDF con Aspose.PDF – Guida completa](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+Scopri come appiattire i PDF rimuovendo i livelli e semplificando il contenuto con Aspose.PDF in C#.
 
 ## Risorse aggiuntive
 

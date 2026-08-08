@@ -57,7 +57,10 @@
 | [XML 轉 PDF](./xml-to-pdf/) |透過本全面的逐步教學學習如何使用 Aspose.PDF for .NET 將 XML 轉換為 PDF，其中包含程式碼範例和詳細解釋。 |  
 | [XML 轉 PDFSet 影像路徑](./xml-to-pdfset-image-path/) |了解如何使用 Aspose.PDF for .NET 輕鬆地將 XML 轉換為 PDF。本詳細指南將逐步引導您完成整個過程，從設定到完成。 |  
 | [XPS 轉 PDF](./xps-to-pdf/) |透過本逐步教學了解如何使用 Aspose.PDF for .NET 將 XPS 檔案轉換為 PDF。非常適合開發人員和文檔愛好者。 |  
+| [Aspose PDF 教學：在 C# 中載入並將 PDF 轉換為 PDF/X‑4](./aspose-pdf-tutorial-load-and-convert-pdfs-to-pdf-x-4-in-c/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 C# 中載入 PDF 並轉換為 PDF/X‑4 格式。 |
 | [在 C# 中將 PDF 轉換為 PDF/X‑4 – ASP.NET PDF 分步教學](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 轉換為 PDF/X‑4 格式。 |
+| [將 PDF 轉換為 PDF/X‑1a – 完整分步指南](./convert-pdf-to-pdf-x-1a-full-step-by-step-guide/) |透過本完整分步指南了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 PDF/X‑1a 格式。 |
+| [將 PDF 轉換為 2.0 – 完整 ASP.NET 指南與錯誤記錄](./convert-pdf-to-2-0-full-asp-net-guide-with-error-logging/) |透過本完整的 ASP.NET 教學，了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 2.0 並實作錯誤記錄。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

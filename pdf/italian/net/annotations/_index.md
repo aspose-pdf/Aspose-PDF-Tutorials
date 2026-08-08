@@ -35,6 +35,7 @@ Una raccolta completa di tutorial che illustra come utilizzare le annotazioni ne
 | [Imposta la formattazione delle annotazioni di testo libero](./setfreetextannotationformatting/) | Scopri come impostare la formattazione delle annotazioni di testo libero nei documenti PDF utilizzando Aspose.PDF per .NET con questa guida dettagliata.  
 | [Parole cancellate](./strikeoutwords/) | Scopri come barrare le parole in un PDF usando Aspose.PDF per .NET con questa guida completa passo dopo passo. Migliora le tue capacità di editing dei documenti. |  
 | [Aggiorna annotazione PDF in testo libero](./updatefreetextannotation/) Scopri come aggiornare le annotazioni di testo libero nei documenti PDF utilizzando Aspose.PDF per .NET con questa guida dettagliata.  
+| [Aggiungi annotazione PDF con Aspose.PDF - Guida completa](./add-annotation-pdf-with-aspose-pdf-complete-guide/) Scopri come aggiungere annotazioni PDF con Aspose.PDF per .NET in questa guida completa passo passo.  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

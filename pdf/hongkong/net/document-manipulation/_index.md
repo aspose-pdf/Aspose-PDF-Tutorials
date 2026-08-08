@@ -17,7 +17,7 @@
 
 ## 可用教程
 
-### [使用 Aspose.PDF for .NET 為 PDF 新增日期和時間戳](./aspose-pdf-net-date-time-stamps-annotations/)
+### [使用 Aspose.PDF for .NET 為 PDF 新增日期和時間戳記註解](./aspose-pdf-net-date-time-stamps-annotations/)
 了解如何使用 Aspose.PDF for .NET 有效率地將日期和時間戳記或註解新增至 PDF 文件中。透過這些簡單易行的步驟來增強文件管理。
 
 ### [使用 Aspose.PDF for .NET 為 PDF 新增頁尾](./add-footer-pdf-aspose-dotnet/)
@@ -310,6 +310,13 @@ Aspose.PDF Net 程式碼教學
 
 ### [使用 Aspose.PDF .NET 進行 PDF 操作的終極指南：高效能載入、儲存和取代文本](./master-pdf-manipulation-aspose-pdf-net/)
 了解如何使用 Aspose.PDF for .NET 掌握 PDF 操作。本指南涵蓋了 PDF 中的文字載入、保存和替換，非常適合追求效率的開發人員。
+
+### [在 C# 中平鋪 PDF 圖層 – 匯出與提取指南](./flatten-pdf-layers-in-c-export-extract-guide/)
+
+### [如何使用 Aspose.PDF for .NET 平鋪 PDF – 完整指南](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+了解如何使用 Aspose.PDF for .NET 將 PDF 文件平鋪，移除圖層並產生單一內容層的完整步驟。
+
+### [C# 中的視覺化 PDF 差異比較 – 完整指南：比較兩個 PDF](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
 
 ## 其他資源
 

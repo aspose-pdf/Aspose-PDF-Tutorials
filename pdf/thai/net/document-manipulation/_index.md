@@ -195,7 +195,7 @@
 เรียนรู้วิธีแบ่งหน้า PDF ออกเป็นไฟล์แต่ละไฟล์อย่างมีประสิทธิภาพโดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือฉบับสมบูรณ์นี้ พัฒนาทักษะการจัดการเอกสารของคุณวันนี้
 
 ### [วิธีแยกหน้า PDF โดยใช้ Aspose.PDF สำหรับ .NET: คู่มือฉบับสมบูรณ์](./split-pdf-pages-aspose-pdf-net/)
-เรียนรู้วิธีแยกหน้าเฉพาะจาก PDF ออกเป็นไฟล์แยกต่างหากโดยใช้ Aspose.PDF สำหรับ .NET คู่มือนี้ครอบคลุมถึงการจัดการและการตั้งค่าสตรีม
+เรียนรู้วิธีแยกหน้า PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือที่ครอบคลุมนี้ เชี่ยวชาญการจัดการเอกสารใน C# และเพิ่มประสิทธิภาพเวิร์กโฟลว์ของคุณ
 
 ### [วิธีแยกหน้า PDF โดยใช้ Aspose.PDF สำหรับ .NET: คำแนะนำทีละขั้นตอน](./split-pdf-pages-aspose-pdf-net-guide/)
 เรียนรู้วิธีแยกหน้า PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือที่ครอบคลุมนี้ เชี่ยวชาญการจัดการเอกสารใน C# และเพิ่มประสิทธิภาพเวิร์กโฟลว์ของคุณ
@@ -311,13 +311,11 @@
 ### [คู่มือฉบับสมบูรณ์สำหรับการจัดการ PDF ด้วย Aspose.PDF .NET: โหลด บันทึก และแทนที่ข้อความอย่างมีประสิทธิภาพ](./master-pdf-manipulation-aspose-pdf-net/)
 เรียนรู้วิธีการจัดการ PDF อย่างเชี่ยวชาญโดยใช้ Aspose.PDF สำหรับ .NET คู่มือนี้ครอบคลุมถึงการโหลด การบันทึก และการแทนที่ข้อความใน PDF ซึ่งเหมาะสำหรับนักพัฒนาที่ต้องการประสิทธิภาพ
 
-## แหล่งข้อมูลเพิ่มเติม
+### [ทำให้ชั้น PDF แบนใน C# – คู่มือการส่งออกและสกัดข้อมูล](./flatten-pdf-layers-in-c-export-extract-guide/)
 
-- [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)
-- [เอกสารอ้างอิง Aspose.PDF สำหรับ Net API](https://reference.aspose.com/pdf/net/)
-- [ดาวน์โหลด Aspose.PDF สำหรับ Net](https://releases.aspose.com/pdf/net/)
-- [การสนับสนุนฟรี](https://forum.aspose.com/)
-- [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
+### [วิธีทำให้ PDF แบนด้วย Aspose.PDF – คู่มือฉบับสมบูรณ์](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+
+### [เปรียบเทียบ PDF ด้วย Visual PDF Diff ใน C# – คู่มือฉบับสมบูรณ์เพื่อเปรียบเทียบ PDF สองไฟล์](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

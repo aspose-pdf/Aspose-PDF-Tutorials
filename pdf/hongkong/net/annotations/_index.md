@@ -35,6 +35,7 @@
 | [設定自由文字註釋格式](./setfreetextannotationformatting/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 PDF 文件中設定自由文字註解格式。 |  
 | [刪除單字](./strikeoutwords/) |透過本全面的逐步指南了解如何使用 Aspose.PDF for .NET 在 PDF 中刪除單字。提升您的文檔編輯技能。 |  
 | [更新自由文本 PDF 註釋](./updatefreetextannotation/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 更新 PDF 文件中的自由文字註解。 |  
+| [使用 Aspose.PDF 添加 PDF 註釋 - 完整指南](./add-annotation-pdf-with-aspose-pdf-complete-guide/) |本完整指南展示如何使用 Aspose.PDF for .NET 在 PDF 中新增各種註釋，涵蓋步驟說明與完整程式碼示例。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

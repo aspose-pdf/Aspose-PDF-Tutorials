@@ -35,7 +35,8 @@
 | [使用簽名字段透過智慧卡簽名](./sign-with-smart-card-using-signature-field/) |了解如何使用 Aspose.PDF for .NET 的智慧卡安全地簽署 PDF。按照我們的逐步指南即可輕鬆實施。 |
 | [在 C# 中檢查 PDF 簽章 – 如何讀取已簽署的 PDF 檔案](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) |了解如何使用 Aspose.PDF for .NET 在 C# 中讀取並驗證 PDF 簽章的步驟與技巧。 |
 | [使用簽名字段透過智慧卡簽名](./sign-with-smart-card-using-signature-field/) |了解如何使用 Aspose.PDF for .NET 的智慧卡安全地簽署 PDF。按照我們的逐步指南即可輕鬆實施。 |  
-| [如何修復 PDF 檔案 – 完整的 C# 指南（使用 Aspose.Pdf）](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) |了解如何使用 Aspose.PDF for .NET 修復受損的 PDF 檔案。逐步指南協助您恢復文件完整性。 |  
+| [如何修復 PDF 檔案 – 完整的 C# 指南（使用 Aspose.Pdf）](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) |了解如何使用 Aspose.PDF for .NET 修復受損的 PDF 檔案。逐步指南協助您恢復文件完整性。 |
+| [使用 Aspose.PDF 檢查 PDF 簽章有效性 – 完整 C# 指南](./check-pdf-signature-validity-with-aspose-pdf-complete-c-guid/) |了解如何使用 Aspose.PDF for .NET 在 C# 中檢查 PDF 簽章的有效性，完整步驟指南。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

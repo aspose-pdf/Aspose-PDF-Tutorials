@@ -35,6 +35,7 @@ Eine umfassende Sammlung von Tutorials zeigt, wie Sie mit Aspose.PDF für .NET m
 | [Festlegen der Formatierung für freie Textanmerkungen](./setfreetextannotationformatting/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET die Formatierung von Freitextanmerkungen in PDF-Dokumenten festlegen. |  
 | [Wörter durchstreichen](./strikeoutwords/) | Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET Wörter in einer PDF-Datei durchstreichen. Verbessern Sie Ihre Fähigkeiten zur Dokumentbearbeitung. |  
 | [Freitext-PDF-Anmerkungen aktualisieren](./updatefreetextannotation/) Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET Freitextanmerkungen in PDF-Dokumenten aktualisieren. |  
+| [PDF-Anmerkung hinzufügen – Komplettanleitung mit Aspose.PDF](./add-annotation-pdf-with-aspose-pdf-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Anmerkungen hinzufügen – ein umfassender Leitfaden mit vollständigem Beispielcode. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
