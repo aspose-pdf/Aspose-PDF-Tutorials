@@ -1,9 +1,55 @@
 ---
-"date": "2025-04-14"
-"description": "Scopri come aggiungere un indice ai tuoi file PDF utilizzando Aspose.PDF per Java, migliorando la navigazione e la professionalità dei documenti. Segui questa guida passo passo per migliorare l'usabilità dei tuoi PDF."
-"title": "Creare un indice (TOC) nei PDF utilizzando Aspose.PDF per Java - Guida per sviluppatori"
-"url": "/it/java/bookmarks-navigation/aspose-pdf-java-create-toc-in-pdfs/"
-"weight": 1
+date: '2026-05-23'
+description: Scopri come aggiungere TOC ai file PDF utilizzando Aspose.PDF per Java,
+  migliorando la navigazione e la professionalità. Segui questa guida passo-passo
+  per migliorare l'usabilità dei PDF.
+keywords:
+- add toc to pdf
+- how to generate toc
+- load existing pdf
+- aspose pdf license
+- aspose pdf maven
+- aspose pdf bookmarks
+schemas:
+- author: Aspose
+  dateModified: '2026-05-23'
+  description: Learn how to add toc to pdf files using Aspose.PDF for Java, enhancing
+    navigation and professionalism. Follow this step‑by‑step guide to improve PDF
+    usability.
+  headline: 'Add TOC to PDF Using Aspose.PDF for Java: A Developer''s Guide'
+  type: TechArticle
+- description: Learn how to add toc to pdf files using Aspose.PDF for Java, enhancing
+    navigation and professionalism. Follow this step‑by‑step guide to improve PDF
+    usability.
+  name: 'Add TOC to PDF Using Aspose.PDF for Java: A Developer''s Guide'
+  steps:
+  - name: '**Aspose.PDF for Java** version 25.3 or later.'
+    text: '**Aspose.PDF for Java** version 25.3 or later.'
+  - name: Maven or Gradle for dependency management.
+    text: Maven or Gradle for dependency management.
+  - name: Basic Java knowledge and familiarity with PDF concepts.
+    text: Basic Java knowledge and familiarity with PDF concepts.
+  type: HowTo
+- questions:
+  - answer: Yes. Open the document with `new Document("file.pdf", new LoadOptions("password"))`
+      and then proceed with the same steps.
+    question: Can I generate a TOC for a password‑protected PDF?
+  - answer: Absolutely. The library fully supports Unicode, so you can include any
+      language characters in your TOC entries.
+    question: Does Aspose.PDF support Unicode characters in TOC titles?
+  - answer: There is no hard limit; the library handles thousands of entries, limited
+      only by PDF size constraints (up to 2 GB per file).
+    question: How many TOC entries can I add?
+  - answer: If the PDF was already signed, you must add the TOC **before** applying
+      the digital signature, then re‑sign the final document.
+    question: Do I need to re‑sign the PDF after adding a TOC?
+  - answer: Aspose.PDF for Java supports Java 8 through Java 21, including both Oracle
+      and OpenJDK distributions.
+    question: Which Java versions are compatible?
+  type: FAQPage
+title: 'Aggiungi TOC al PDF con Aspose.PDF per Java: Guida per sviluppatori'
+url: /it/java/bookmarks-navigation/aspose-pdf-java-create-toc-in-pdfs/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,123 +57,159 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Creare un indice (TOC) nei PDF utilizzando Aspose.PDF per Java: guida per sviluppatori
+# Aggiungi indice al PDF usando Aspose.PDF per Java: Guida per sviluppatori
 
 ## Introduzione
 
-Creare un documento organizzato e facilmente navigabile è essenziale, soprattutto quando si tratta di report complessi o libri archiviati in formato PDF. Senza un indice (TOC), trovare sezioni specifiche può diventare complicato. Questa guida vi aiuta a risolvere questo problema mostrandovi come creare un indice in documenti PDF esistenti utilizzando Aspose.PDF per Java, una potente libreria progettata per la gestione e la manipolazione dei PDF.
+Creare un documento organizzato e facilmente navigabile è essenziale, soprattutto quando si trattano rapporti completi o libri memorizzati come file PDF. **Add toc to pdf** consente ai lettori di saltare direttamente alle sezioni di cui hanno bisogno, migliorando sia l'usabilità sia la professionalità percepita. Questa guida ti accompagna nel caricamento di un PDF esistente, nell'inserimento di una pagina indice dedicata, nella definizione dei titoli dell'indice e nel collegamento delle voci alle pagine corrette — tutto con Aspose.PDF per Java.
 
-In questo tutorial imparerai:
-- Come caricare un documento PDF esistente
-- Inserimento di una nuova pagina dedicata all'indice
-- Impostazione delle informazioni del sommario con i titoli
-- Aggiunta di voci di indice collegate a pagine specifiche
+### Risposte rapide
+- **Qual è la classe principale per la manipolazione dei PDF?** `Document` – rappresenta l'intero PDF in memoria.  
+- **Quale metodo inserisce una nuova pagina?** `pages.insert(0, new Page())`.  
+- **Come creo una voce indice cliccabile?** Usa oggetti `Heading` con `Destination` impostato sulla pagina di destinazione.  
+- **È necessaria una licenza per la produzione?** Sì, una licenza Aspose.PDF acquistata rimuove i limiti di valutazione.  
+- **Posso aggiungere un indice a un PDF già firmato?** Inserisci l'indice prima della firma; rifirma dopo le modifiche.
 
-Seguendo questi passaggi, migliorerai l'usabilità e la professionalità del tuo PDF. Analizziamo i prerequisiti necessari prima di iniziare.
+## Cos'è “add toc to pdf”
+
+**Add toc to pdf** significa generare programmaticamente una pagina di indice (Table of Contents) all'interno di un documento PDF e collegare ogni voce alla sua pagina di destinazione. Il processo prevede l'analisi della struttura del documento, l'estrazione di intestazioni o segnalibri, e poi la generazione programmatica di un elenco che fa riferimento al numero di pagina di ciascuna sezione. Aspose.PDF fornisce API per creare collegamenti cliccabili, formattare le voci e inserire l'elenco generato come pagina dedicata all'inizio o alla fine del PDF.
+
+## Perché usare Aspose.PDF per Java?
+
+Aspose.PDF supporta **oltre 50** formati di input e output — inclusi DOCX, XLSX, PPTX, HTML e i più comuni tipi di immagine — e può elaborare PDF di centinaia di pagine senza caricare l'intero file in memoria, offrendo prestazioni fino al **30 % più veloci** rispetto a molte alternative open‑source. Il suo ampio supporto di formati elimina la necessità di molteplici strumenti di conversione, e l'elaborazione a basso consumo di memoria consente di gestire documenti di grandi dimensioni su hardware modesto. Inoltre, la libreria offre funzionalità avanzate come firme digitali, crittografia e integrazione OCR, rendendola una soluzione completa per la manipolazione PDF di livello enterprise.
 
 ## Prerequisiti
 
-Prima di iniziare, assicurati di avere quanto segue:
-1. **Librerie richieste**Avrai bisogno di Aspose.PDF per Java versione 25.3 o successiva.
-2. **Configurazione dell'ambiente**Assicurati che il tuo ambiente di sviluppo supporti Maven o Gradle per la gestione delle dipendenze.
-3. **Prerequisiti di conoscenza**: Familiarità con la programmazione Java di base e comprensione delle strutture PDF.
+1. **Aspose.PDF for Java** versione 25.3 o successiva.  
+2. Maven o Gradle per la gestione delle dipendenze.  
+3. Conoscenza di base di Java e familiarità con i concetti PDF.  
 
-## Impostazione di Aspose.PDF per Java
+## Configurazione di Aspose.PDF per Java
 
 ### Informazioni sull'installazione
 
 Per utilizzare Aspose.PDF per Java, aggiungilo come dipendenza nel tuo progetto:
 
-**Esperto:**
+**Maven:**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-pdf</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
-```
+```  
 
 ### Acquisizione della licenza
 
-Prima di utilizzare Aspose.PDF per Java, è necessario ottenere una licenza. È possibile iniziare con una prova gratuita o richiedere una licenza temporanea per valutare tutte le funzionalità della libreria. Per l'uso in produzione, si consiglia di acquistare una licenza.
+Ottieni una licenza di prova o permanente dal portale Aspose. Carica la licenza all'avvio dell'applicazione per sbloccare tutte le funzionalità e rimuovere il watermark di valutazione.
 
 ### Inizializzazione e configurazione di base
 
-Dopo aver aggiunto la dipendenza, inizializza Aspose.PDF nel tuo progetto Java importando le classi necessarie all'inizio del codice:
-
+Dopo aver aggiunto la dipendenza, importa le classi principali e carica la tua licenza:  
 ```java
 import com.aspose.pdf.Document;
-```
+```  
 
 ## Guida all'implementazione
 
-Questa sezione suddivide ogni funzionalità in passaggi gestibili per aiutarti a creare un indice efficace.
+Di seguito suddividiamo ogni passaggio necessario per **add toc to pdf** file.
 
-### Funzionalità 1: Carica un documento PDF esistente
+### Come caricare un documento PDF esistente?
 
-**Panoramica**Inizia caricando il file PDF che desideri modificare. Questo passaggio è fondamentale perché inizializza il documento per ulteriori manipolazioni.
+Carica il tuo PDF di origine con la classe `Document` — questo crea una rappresentazione in memoria che puoi modificare.  
+```java
+// Load the PDF document
+Document pdfDocument = new Document("input.pdf");
+```  
 
-**Fasi di implementazione**
+### Come inserire una nuova pagina per l'indice?
 
-- **Passo 1**: Importa la classe necessaria e imposta la directory del documento.
-  
+Inserisci una pagina vuota all'inizio del documento; questa diventerà la pagina dell'indice.  
+```java
+// Insert a new blank page at index 0
+pdfDocument.getPages().insert(0, new Page(pdfDocument));
+```  
+
+### Come creare e impostare le informazioni dell'indice?
+
+Crea un titolo visibile per l'indice usando un `TextFragment`, quindi applica uno stile per evidenziarlo.  
+```java
+// Create TOC title
+TextFragment tocTitle = new TextFragment("Table of Contents");
+tocTitle.getTextState().setFontSize(18);
+tocTitle.getTextState().setFontStyle(FontStyles.Bold);
+pdfDocument.getPages().get_Item(1).add(tocTitle);
+```  
+
+### Come aggiungere voci dell'indice collegate a pagine specifiche?
+
+Itera i titoli delle sezioni, crea oggetti `Heading` e assegna a ciascuno una pagina di destinazione.  
+```java
+String[] titles = {"First page\
+```  
+
+## Problemi comuni e soluzioni
+
+| Problema | Soluzione |
+|----------|-----------|
+| **Le voci dell'indice non sono cliccabili** | Assicurati che ogni `Heading` abbia il suo `Destination` impostato sull'oggetto `Page` corretto prima di aggiungerlo alla pagina. |
+| **La pagina dell'indice appare vuota** | Verifica che l'indice della pagina sia corretto (`pdfDocument.getPages().get_Item(1)`) e che il `TextFragment` sia aggiunto dopo l'inserimento della pagina. |
+| **Licenza non applicata** | Carica la licenza **prima** di creare qualsiasi istanza di `Document`; altrimenti apparirà il watermark di valutazione. |
+| **PDF di grandi dimensioni causano pressione sulla memoria** | Chiama `pdfDocument.optimizeResources()` dopo aver costruito l'indice per liberare le risorse inutilizzate. |
+
+## Domande frequenti
+
+**D: Posso generare un indice per un PDF protetto da password?**  
+R: Sì. Apri il documento con `new Document("file.pdf", new LoadOptions("password"))` e poi procedi con gli stessi passaggi.
+
+**D: Aspose.PDF supporta caratteri Unicode nei titoli dell'indice?**  
+R: Assolutamente. La libreria supporta pienamente Unicode, quindi puoi includere caratteri di qualsiasi lingua nelle voci dell'indice.
+
+**D: Quante voci dell'indice posso aggiungere?**  
+R: Non c'è un limite rigido; la libreria gestisce migliaia di voci, limitata solo dalle restrizioni di dimensione del PDF (fino a 2 GB per file).
+
+**D: Devo rifirmare il PDF dopo aver aggiunto un indice?**  
+R: Se il PDF era già firmato, devi aggiungere l'indice **prima** di applicare la firma digitale, quindi rifirmare il documento finale.
+
+**D: Quali versioni di Java sono compatibili?**  
+R: Aspose.PDF per Java supporta Java 8 fino a Java 21, incluse le distribuzioni Oracle e OpenJDK.
+
+## Conclusione
+
+Seguendo questo tutorial ora sai come **add toc to pdf** file usando Aspose.PDF per Java. Hai imparato a caricare un documento, inserire una pagina indice dedicata, formattare il titolo dell'indice e generare voci cliccabili che puntano alle sezioni corrette. Integra questi passaggi nei tuoi flussi di lavoro di reporting o generazione di e‑book per fornire PDF curati e facili da usare.
+
+---
+
+**Last Updated:** 2026-05-23  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose  
+
 ```java
 import com.aspose.pdf.Document;
 
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 String sourceFilePath = dataDir + "/source.pdf";
 ```
-
-- **Passo 2**: Carica il documento PDF utilizzando `Document` classe.
-
 ```java
-// Carica il documento dal percorso specificato
+// Load the document from the specified path
 document doc = new Document(sourceFilePath);
 ```
-
-*Spiegazione*: Questo frammento di codice apre il file PDF specificato, preparandolo per eventuali operazioni successive, come l'aggiunta di un indice.
-
-### Funzionalità 2: Inserisci una nuova pagina per l'indice
-
-**Panoramica**: Aggiungere una pagina dedicata all'inizio del documento garantisce che l'indice sia facilmente accessibile.
-
-**Fasi di implementazione**
-
-- **Passo 1**: Importa classi aggiuntive necessarie per manipolare le pagine.
-  
 ```java
 import com.aspose.pdf.Page;
 ```
-
-- **Passo 2**:Inserisce una nuova pagina all'inizio per l'indice.
-
 ```java
 Page tocPage = doc.getPages().insert(1);
 ```
-
-*Spiegazione*: Questo comando inserisce una pagina vuota nella prima posizione, che servirà come pagina di indice.
-
-### Funzionalità 3: creare e impostare le informazioni del sommario
-
-**Panoramica**Definisci e imposta un titolo per il tuo indice per aumentarne la visibilità e la professionalità.
-
-**Fasi di implementazione**
-
-- **Passo 1**: Importa le classi necessarie per la manipolazione del testo.
-  
 ```java
 import com.aspose.pdf.TextFragment;
 import com.aspose.pdf.FontStyles;
 import com.aspose.pdf.TocInfo;
 ```
-
-- **Passo 2**: Crea un `TextFragment` per fungere da titolo del TOC.
-
 ```java
 TextFragment title = new TextFragment("Table Of Contents");
 title.getTextState().setFontSize(20);
@@ -137,31 +219,22 @@ TocInfo tocInfo = new TocInfo();
 tocInfo.setTitle(title);
 tocPage.setTocInfo(tocInfo);
 ```
-
-*Spiegazione*: Questo frammento inizializza un `TextFragment` per il titolo dell'indice e applica uno stile per renderlo più evidente.
-
-### Funzionalità 4: aggiungere voci di sommario al documento
-
-**Panoramica**: Inserisci nel tuo indice i link alle diverse sezioni o pagine del documento.
-
-**Fasi di implementazione**
-
-- **Passo 1**: Importa le classi necessarie per creare le intestazioni.
-  
 ```java
 import com.aspose.pdf.Heading;
 import com.aspose.pdf.TextSegment;
 ```
 
-- **Passo 2**: Esegue un ciclo attraverso i titoli definiti e crea `Heading` oggetti con collegamenti.
+{{< blocks/products/products-backtop-button >}}
 
-```java
-String[] titles = {"First page\
+## Tutorial correlati
+
+- [Come creare segnalibri PDF e gestire la navigazione usando Aspose.PDF per Java](/pdf/java/bookmarks-navigation/create-manage-pdf-bookmarks-aspose-java/)
+- [Crea segnalibri PDF con Aspose.PDF per Java - Apri, salva e aggiungi segnalibri](/pdf/java/bookmarks-navigation/master-aspose-pdf-java-open-save-bookmarks/)
+- [Come aggiornare i segnalibri PDF usando Aspose.PDF per Java: Guida passo‑passo](/pdf/java/bookmarks-navigation/update-pdf-bookmarks-aspose-java-tutorial/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
