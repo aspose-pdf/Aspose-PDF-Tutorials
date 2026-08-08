@@ -63,7 +63,9 @@
 تعلم كيفية إنشاء مستندات PDF سهلة الاستخدام ومنسقة ومُعلَّمة باستخدام Aspose.PDF لـ .NET. أتقن إنشاء ملفات PDF متوافقة مع جداول منظمة وإمكانية وصول مُحسَّنة.
 
 ### [كيفية مقارنة ملفات PDF في C# – دليل كامل لإنشاء فرق PDF](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
-تعرف على كيفية مقارنة ملفات PDF في C# وإنشاء فرق PDF باستخدام Aspose.PDF بسهولة ودقة.
+
+### [كيفية تشغيل OCR على ملفات PDF باستخدام Aspose.Pdf – دليل كامل بلغة C#](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
+تعرف على كيفية تطبيق تقنية OCR على مستندات PDF باستخدام Aspose.Pdf في C# خطوة بخطوة.
 
 ## موارد إضافية
 

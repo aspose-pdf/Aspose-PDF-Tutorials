@@ -65,6 +65,9 @@ Aprenda a crear documentos PDF accesibles, con estilo y etiquetas usando Aspose.
 ### [Cómo comparar PDFs en C# – Guía completa para generar diferencias de PDF](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 Aprenda a comparar documentos PDF en C# y generar diffs de PDF de forma eficiente con Aspose.PDF.
 
+### [Cómo ejecutar OCR en PDF con Aspose.Pdf – Guía completa en C#](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
+Aprenda a aplicar OCR a documentos PDF usando Aspose.Pdf en C#, paso a paso y con ejemplos completos.
+
 ## Recursos adicionales
 
 - [Documentación de Aspose.PDF para la red](https://docs.aspose.com/pdf/net/)

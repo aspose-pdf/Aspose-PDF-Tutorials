@@ -65,6 +65,9 @@
 ### [如何在 C# 中比较 PDF – 生成 PDF 差异的完整指南](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中比较 PDF 文件并生成差异报告，帮助快速定位文档变化。
 
+### [如何使用 Aspose.Pdf 在 PDF 上运行 OCR – 完整 C# 指南](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
+了解如何使用 Aspose.Pdf 在 C# 中对 PDF 执行光学字符识别（OCR），实现文本提取和搜索功能的完整指南。
+
 ## 其他资源
 
 - [Aspose.PDF 用于网络文档](https://docs.aspose.com/pdf/net/)

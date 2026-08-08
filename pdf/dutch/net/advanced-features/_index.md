@@ -65,6 +65,9 @@ Leer hoe u toegankelijke, gestileerde, getagde PDF-documenten maakt met Aspose.P
 ### [Hoe PDF's te vergelijken in C# – Complete gids voor het genereren van PDF-diff](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 Leer hoe u PDF-bestanden met C# kunt vergelijken en verschillen (diff) genereert met Aspose.PDF.
 
+### [Hoe OCR op PDF uit te voeren met Aspose.Pdf – Complete C#-gids](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
+Leer hoe u met Aspose.Pdf OCR op PDF-bestanden uitvoert in C#, inclusief voorbeeldcode en stapsgewijze instructies.
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

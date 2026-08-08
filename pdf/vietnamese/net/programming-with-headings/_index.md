@@ -22,6 +22,7 @@ Khám phá các tính năng của Aspose.PDF cho .NET với các hướng dẫn 
 | Tiêu đề | Mô tả |
 | --- | --- | 
 | [Áp dụng Kiểu Số Trong Tệp PDF](./apply-number-style/) | Tìm hiểu cách áp dụng các kiểu số khác nhau (số La Mã, chữ cái) cho tiêu đề trong PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. |   
+| [Thêm Tiêu đề vào PDF với Aspose – Hướng dẫn C# đầy đủ](./add-heading-to-pdf-with-aspose-complete-c-guide/) | Hướng dẫn chi tiết cách thêm tiêu đề vào tài liệu PDF bằng Aspose.PDF cho .NET sử dụng C#. |   
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -65,6 +65,9 @@ Learn to craft accessible, styled tagged PDF documents using Aspose.PDF for .NET
 ### [How to Compare PDFs in C# – Complete Guide to Generating PDF Diff](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 Learn how to compare two PDFs in C# using Aspose.PDF for .NET and generate a visual diff document.
 
+### [How to Run OCR on PDF with Aspose.Pdf – Complete C# Guide](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
+Learn how to perform OCR on PDF files using Aspose.PDF for .NET with a complete C# implementation guide.
+
 ## Additional Resources
 
 - [Aspose.PDF for Net Documentation](https://docs.aspose.com/pdf/net/)

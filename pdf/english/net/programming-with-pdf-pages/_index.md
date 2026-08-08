@@ -24,6 +24,7 @@ Tutorials include step-by-step instructions, detailed code examples, and clear e
 | [Add page numbers pdf with C# – Full Step‑by‑Step Guide](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Step-by-step guide to add page numbers to a PDF using C# and Aspose.PDF for .NET. |
 | [Change Orientation](./change-orientation/) | Step-by-step guide to change page orientation of a PDF with Aspose.PDF for .NET. Easy to follow and implement in your projects. |  
 | [Concatenate PDF Files](./concatenate-pdf-files/) | Concatenate PDF files effortlessly using Aspose.PDF for .NET with this comprehensive step-by-step guide. |  
+| [Create PDF Document C# – Add Shapes & Blank Pages Guide](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Step-by-step guide to create a PDF, add shapes and insert blank pages using Aspose.PDF for .NET with C#. |
 | [Delete Particular Page In PDF File](./delete-particular-page/) | Learn how to delete a specific page from a PDF file using Aspose.PDF for .NET with this step-by-step guide. |  
 | [Determine Page Color](./determine-page-color/) | Learn to determine the page color of PDF files using Aspose.PDF for .NET with our step-by-step guide. Easy implementation for all skill levels. |  
 | [Fit Page Contents In PDF File](./fit-page-contents/) | Effortlessly fit your PDF contents using Aspose.PDF for .NET. This guide provides a detailed, step-by-step approach to achieve optimal page layout. |  

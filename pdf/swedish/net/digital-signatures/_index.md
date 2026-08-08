@@ -53,6 +53,9 @@ Lär dig hur du verifierar digitala signaturer i PDF-filer med Aspose.PDF för .
 ### [Verifiera PDF-signatur i C# – Komplett guide för att validera digital signatur i PDF](./verify-pdf-signature-in-c-complete-guide-to-validate-digital/)
 Lär dig hur du verifierar PDF-signaturer i C# med en komplett guide för att validera digitala signaturer i PDF.
 
+### [Validera PDF-digital signatur i C# – Komplett Aspose.PDF-guide](./validate-pdf-digital-signature-in-c-complete-aspose-pdf-guid/)
+Lär dig hur du validerar digitala PDF-signaturer i C# med en komplett Aspose.PDF-guide.
+
 ### [Läs in PDF-dokument C# – Konvertera till PDF/X‑4 och lista signaturer](./load-pdf-document-c-convert-to-pdf-x-4-list-signatures/)
 Lär dig hur du laddar en PDF, konverterar den till PDF/X‑4 och listar befintliga signaturer med Aspose.PDF för .NET i C#.
 

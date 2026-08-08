@@ -21,7 +21,8 @@ Utforska funktionerna i Aspose.PDF för .NET med dedikerade handledningar. Lär 
 ## Handledningar
 | Titel | Beskrivning |
 | --- | --- | 
-| [Använd numerisk stil i PDF-fil](./apply-number-style/) | Lär dig hur du använder olika sifferstilar (romerska siffror, alfabetiska) på rubriker i en PDF med Aspose.PDF för .NET med den här steg-för-steg-guiden. |   
+| [Använd numerisk stil i PDF-fil](./apply-number-style/) | Lär dig hur du använder olika sifferstilar (romerska siffror, alfabetiska) på rubriker i en PDF med Aspose.PDF för .NET med den här steg-för-steg-guiden. |
+| [Lägg till rubrik i PDF med Aspose – Komplett C#-guide](./add-heading-to-pdf-with-aspose-complete-c-guide/) | Lär dig steg för steg hur du lägger till rubriker i PDF-filer med Aspose i C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

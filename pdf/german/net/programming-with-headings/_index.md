@@ -22,6 +22,7 @@ Entdecken Sie die Funktionen von Aspose.PDF für .NET mit speziellen Tutorials. 
 | Titel | Beschreibung |
 | --- | --- | 
 | [Zahlenstil in PDF-Datei anwenden](./apply-number-style/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET verschiedene Zahlenstile (römische Ziffern, alphabetisch) auf Überschriften in einer PDF-Datei anwenden. |   
+| [Überschrift zu PDF hinzufügen mit Aspose – Vollständiger C# Leitfaden](./add-heading-to-pdf-with-aspose-complete-c-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET Überschriften zu PDFs hinzufügen – ein vollständiger Leitfaden in C#. |   
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

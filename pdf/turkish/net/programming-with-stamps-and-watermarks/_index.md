@@ -29,7 +29,7 @@ Aspose.PDF'nin .NET için "Pullar ve Filigranlarla Programlama" öğreticileri, 
 | [PDF Dosyasında Hizalamayı Tanımla](./define-alignment/) | Bu kılavuz, .NET için Aspose.PDF'yi kullanarak PDF dosyalarında metin hizalamasının nasıl tanımlanacağını adım adım bir eğitimle birlikte ele almaktadır.  
 | [Damga Açıklamasından Metin Çıkar](./extract-text-from-stamp-annotation/) | Bu adım adım eğitimle, .NET için Aspose.PDF'yi kullanarak bir damga açıklamasından metnin nasıl çıkarılacağını öğrenin, ayrıntılı bir kod örneği de var.  
 | [PDF Dosyasında Vuruş Metnini Doldur](./fill-stroke-text/) | Bu pratik örneklerle dolu adım adım kılavuzla, Aspose.PDF for .NET kullanarak PDF dosyalarındaki kontur metnini zahmetsizce nasıl dolduracağınızı öğrenin.  
-| [PDF Dosyasından Filigran Al](./get-watermark/) | Aspose.PDF for .NET kullanarak PDF dosyalarından filigranların nasıl çıkarılacağını adım adım bir kılavuzla öğrenin. Filigran çıkarma için ayrıntılı eğitim. |  
+| [PDF Dosyasından Filigran Al](./get-watermark/) | Aspose.PDF for .NET kullanarak PDF dosyalarından filigranların nasıl çıkarılacağını adım adım bir kılavuzla öğrenin. Filigran çıkarma için ayrıntılı eğitim.  
 | [Üstbilgi Altbilgi Bölümündeki Resim ve Sayfa Numarası](./image-and-page-number-in-header-footer-section/) Bu adım adım eğitimde Aspose.PDF for .NET kullanarak PDF'nizin üst bilgi ve alt bilgisine nasıl resim ve sayfa numarası ekleyeceğinizi öğrenin.  
 | [Üstbilgi Altbilgi Bölümünde Resim ve Sayfa Numarası Satır İçi](./image-and-page-number-in-header-footer-section-inline/) | Aspose.PDF for .NET'i kullanarak PDF'in başlık bölümüne satır içi resim ve sayfa numarasının nasıl ekleneceğini bu adım adım kılavuzla öğrenin.  
 | [Altbilgideki Resim](./image-in-footer/) | Bu detaylı adım adım eğitimle .NET için Aspose.PDF kullanarak bir PDF'nin altbilgisine resim eklemeyi öğrenin. Belgelerinizi geliştirmek için mükemmel. |  
@@ -39,6 +39,7 @@ Aspose.PDF'nin .NET için "Pullar ve Filigranlarla Programlama" öğreticileri, 
 | [Üstbilgi Altbilgi Bölümündeki Tablo](./table-in-header-footer-section/) | Aspose.PDF for .NET kullanarak bir PDF dosyasının altbilgisine kolayca metin eklemeyi öğrenin. Sorunsuz entegrasyon için adım adım kılavuz dahildir. |  
 | [PDF Dosyasının Altbilgisindeki Metin](./text-in-footer/) | Aspose.PDF for .NET ile PDF dosyasının alt bilgisine metin eklemeyi öğrenin. |  
 | [PDF Dosyasının Başlığındaki Metin](./text-in-header/) | Bu adım adım eğitimle Aspose.PDF for .NET kullanarak PDF'lere metin başlıkları eklemeyi öğrenin. Belgelerinizi verimli ve etkili bir şekilde geliştirin. |  
+| [Bates Numaralandırma PDF Ekle – Tam C# Kılavuzu](./add-bates-numbering-pdf-complete-c-guide/) | Aspose.PDF for .NET kullanarak PDF dosyalarına Bates numaralandırması eklemeyi adım adım öğrenin. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
