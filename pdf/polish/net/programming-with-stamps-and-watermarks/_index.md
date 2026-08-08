@@ -39,6 +39,8 @@ Samouczki „Programowanie ze stemplami i znakami wodnymi” dla .NET firmy Aspo
 | [Tabela w sekcji nagłówka i stopki](./table-in-header-footer-section/) | Dowiedz się, jak łatwo dodać tekst do stopki pliku PDF za pomocą Aspose.PDF dla .NET. Dołączony przewodnik krok po kroku dla bezproblemowej integracji. |  
 | [Tekst w stopce pliku PDF](./text-in-footer/) | Dowiedz się, jak dodać tekst w stopce pliku PDF za pomocą Aspose.PDF dla platformy .NET. |  
 | [Tekst w nagłówku pliku PDF](./text-in-header/) | Naucz się dodawać nagłówki tekstowe do plików PDF za pomocą Aspose.PDF dla .NET dzięki temu samouczkowi krok po kroku. Ulepszaj swoje dokumenty wydajnie i skutecznie. |  
+| [Jak dodać stempel do PDF za pomocą Aspose.Pdf – Przewodnik krok po kroku](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) | Dowiedz się, jak dodać stempel do pliku PDF przy użyciu Aspose.PDF dla .NET w tym szczegółowym przewodniku krok po kroku. |  
+| [Utwórz pełnostronicowe powiadomienie PDF – szybki przewodnik C#](./create-pdf-full-page-notice-quick-c-guide/) | Dowiedz się, jak w kilku krokach dodać pełnostronicowe powiadomienie do pliku PDF przy użyciu Aspose.PDF w C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

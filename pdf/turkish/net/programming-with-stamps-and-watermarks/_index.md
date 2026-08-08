@@ -39,6 +39,8 @@ Aspose.PDF'nin .NET için "Pullar ve Filigranlarla Programlama" öğreticileri, 
 | [Üstbilgi Altbilgi Bölümündeki Tablo](./table-in-header-footer-section/) | Aspose.PDF for .NET kullanarak bir PDF dosyasının altbilgisine kolayca metin eklemeyi öğrenin. Sorunsuz entegrasyon için adım adım kılavuz dahildir. |  
 | [PDF Dosyasının Altbilgisindeki Metin](./text-in-footer/) | Aspose.PDF for .NET ile PDF dosyasının alt bilgisine metin eklemeyi öğrenin. |  
 | [PDF Dosyasının Başlığındaki Metin](./text-in-header/) | Bu adım adım eğitimle Aspose.PDF for .NET kullanarak PDF'lere metin başlıkları eklemeyi öğrenin. Belgelerinizi verimli ve etkili bir şekilde geliştirin. |  
+| [Aspose.Pdf ile PDF'ye Damga Ekleme – Adım Adım Kılavuz](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) | Aspose.PDF for .NET kullanarak PDF dosyasına damga eklemeyi adım adım öğrenin. |  
+| [PDF Tam Sayfa Bildirimi Oluştur – Hızlı C# Kılavuzu](./create-pdf-full-page-notice-quick-c-guide/) Aspose.PDF for .NET kullanarak C# ile tam sayfa bir bildirim eklemeyi adım adım öğrenin. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

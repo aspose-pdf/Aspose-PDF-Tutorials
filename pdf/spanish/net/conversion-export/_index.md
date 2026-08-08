@@ -83,6 +83,9 @@ Aprenda a convertir documentos PDF a formato HTML utilizando Aspose.PDF para .NE
 ### [Convierta PDF a PNG con Aspose.PDF .NET: mejore la representación nítida del texto](./convert-pdf-png-aspose-net-font-hinting/)
 Aprenda a convertir documentos PDF en imágenes PNG de alta calidad utilizando Aspose.PDF .NET, garantizando una representación nítida del texto mediante sugerencias de fuentes.
 
+### [Convertir PDF a PNG en C# – Guía completa paso a paso](./convert-pdf-to-png-in-c-complete-step-by-step-guide/)
+Aprenda a convertir documentos PDF a imágenes PNG de alta calidad con Aspose.PDF para .NET usando C#. Siga esta guía paso a paso.
+
 ### [Convertir PDF a PPTX con Aspose.PDF para .NET: guía paso a paso](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 Aprenda a convertir documentos PDF en presentaciones de PowerPoint de forma eficiente con Aspose.PDF para .NET. Esta guía paso a paso abarca la conversión básica, funciones avanzadas como diapositivas de imágenes y seguimiento del progreso.
 
@@ -141,7 +144,7 @@ Aprenda a recortar regiones específicas de una página PDF y convertirlas en im
 Aprenda a exportar datos de aplicaciones a PDF de forma eficiente con Aspose.PDF para .NET. Esta guía abarca la configuración, ejemplos de código en C# y las características principales.
 
 ### [Exportar anotaciones PDF con Aspose.PDF .NET: una guía completa](./export-annotations-aspose-pdf-net/)
-Aprenda a exportar anotaciones desde archivos PDF de forma eficiente con Aspose.PDF para .NET. Esta guía abarca la configuración, la implementación y las prácticas recomendadas.
+Aprenda a exportar anotaciones desde archivos PDF de forma eficiente con Aspose.PDF .NET. Esta guía abarca la configuración, la implementación y las prácticas recomendadas.
 
 ### [Exportar datos PDF a XML con Aspose.PDF para .NET: guía paso a paso](./export-pdf-data-to-xml-aspose-dotnet-guide/)
 Aprenda a exportar de manera eficiente datos de formularios PDF a XML estructurado utilizando Aspose.PDF para .NET, una poderosa biblioteca diseñada para la manipulación de PDF.
@@ -159,7 +162,7 @@ Aprenda a convertir fácilmente archivos CGM (Metarchivo de Gráficos de Computa
 Aprenda a convertir imágenes de metarchivo de gráficos de computadora (CGM) a formato PDF con Aspose.PDF para .NET. Esta guía explica la configuración, los pasos de conversión y la solución de problemas.
 
 ### [Cómo convertir EPUB a PDF con Aspose.PDF .NET: Guía paso a paso](./convert-epub-pdf-aspose-pdf-net-guide/)
-Aprenda a convertir archivos EPUB a PDF con Aspose.PDF para .NET con esta guía detallada. Ideal para desarrolladores que necesitan una conversión fluida de documentos.
+Aprenda a convertir archivos EPUB a PDF con Aspose.PDF .NET. Esta guía detallada es ideal para desarrolladores que necesitan una conversión fluida de documentos.
 
 ### [Cómo convertir HTML a PDF con Aspose.PDF .NET: una guía completa](./convert-html-pdf-aspose-dotnet-guide/)
 Aprenda a convertir eficientemente documentos HTML en archivos PDF de aspecto profesional con Aspose.PDF .NET. Descubra técnicas para gestionar recursos externos y renderizar contenido complejo.
@@ -186,7 +189,7 @@ Aprenda a convertir un documento PDF en una imagen TIFF binarizada con Aspose.PD
 Aprenda a convertir archivos PDF a formato EPUB con Aspose.PDF para .NET. Siga esta guía paso a paso para mejorar la publicación digital y la accesibilidad del contenido.
 
 ### [Cómo convertir un PDF a TIFF multipágina con Aspose.PDF .NET: guía paso a paso](./convert-pdf-to-multi-page-tiff-aspose-dotnet/)
-Aprenda a convertir archivos PDF en imágenes TIFF multipágina de alta calidad con Aspose.PDF para .NET. Siga esta guía paso a paso para una implementación sencilla en C#.
+Aprenda a convertir archivos PDF en imágenes TIFF multipágina de alta calidad con Aspose.PDF .NET. Siga esta guía paso a paso para una implementación sencilla en C#.
 
 ### [Cómo convertir PDF a PostScript en C# con Aspose.PDF: una guía completa](./convert-pdf-to-postscript-aspose-csharp/)
 Aprenda a convertir archivos PDF a formato PostScript con Aspose.PDF para .NET con esta guía paso a paso. Ideal para impresiones de alta calidad.

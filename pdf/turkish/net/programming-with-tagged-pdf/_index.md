@@ -45,6 +45,7 @@ Aspose.PDF for .NET'in "Etiketli PDF'lerle Programlama" öğreticileri, bu kitap
 | [PDF Dosyasındaki Metin Yapısı Öğeleri](./text-structure-elements/) Aspose.PDF for .NET ile PDF'lerdeki metin yapı öğelerini düzenlemeyi öğrenin. Bu adım adım kılavuz, yapılandırılmış PDF'ler oluşturmak için ihtiyacınız olan her şeyi kapsar. |  
 | [PDF Dosyasını Doğrula](./validate-pdf/) | .NET için Aspose.PDF ile bir PDF dosyasının nasıl doğrulanacağını öğrenin. Standartlara uygunluğunu kontrol edin ve bir doğrulama raporu oluşturun. |  
 | [C# ile Etiketli PDF Oluşturma – Tam Adım Adım Kılavuz](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | C# ve Aspose.PDF for .NET kullanarak etiketli PDF oluşturmayı adım adım öğrenin. |
+| [PDF Belgesi Oluştur – Etiketli Metin İçin Mutlak Konum Ayarla](./create-pdf-document-set-absolute-position-for-tagged-text/) | Aspose.PDF for .NET kullanarak etiketli metni mutlak konumda yerleştirerek PDF belgesi oluşturmayı öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

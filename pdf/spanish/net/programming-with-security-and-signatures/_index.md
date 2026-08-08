@@ -34,7 +34,10 @@ Este tutorial le ofrece una descripción detallada de los métodos y técnicas p
 | [Firmar con tarjeta inteligente usando la firma de un archivo PDF](./sign-with-smart-card-using-pdf-file-signature/) Aprenda a firmar archivos PDF con una tarjeta inteligente con Aspose.PDF para .NET. Siga esta guía paso a paso para firmas digitales seguras.  
 | [Firmar con tarjeta inteligente usando el campo de firma](./sign-with-smart-card-using-signature-field/) Aprenda a firmar archivos PDF de forma segura con una tarjeta inteligente con Aspose.PDF para .NET. Siga nuestra guía paso a paso para una implementación sencilla.  
 | [Comprobar firmas PDF en C# – Cómo leer archivos PDF firmados](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) Aprenda a comprobar y leer firmas PDF en C# con Aspose.PDF para .NET. Guía paso a paso para extraer información de firmas digitales.  
+| [Comprobar firmas PDF en C# – Guía rápida para verificar firmas digitales](./check-pdf-signatures-in-c-quick-guide-to-verify-digital-sign/) Aprenda a comprobar y verificar firmas PDF en C# rápidamente con Aspose.PDF. Guía paso a paso y ejemplos claros.  
 | [Cómo reparar archivos PDF – Guía completa en C# con Aspose.PDF](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) Aprenda a reparar archivos PDF dañados con Aspose.PDF para .NET usando C#. Guía paso a paso y ejemplos claros.  
+| [Verificar firma digital PDF en C# con Aspose.PDF](./verify-pdf-digital-signature-in-c-with-aspose-pdf/) Aprenda a verificar firmas digitales en PDFs con Aspose.PDF para .NET en C#. Guía paso a paso.  
+| [Tutorial de firma PDF: Verificar la firma digital de un PDF en C#](./pdf-signature-tutorial-verify-a-pdf-s-digital-signature-in-c/) Aprenda a verificar la firma digital de un PDF usando Aspose.PDF para .NET en C#. Guía paso a paso.  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

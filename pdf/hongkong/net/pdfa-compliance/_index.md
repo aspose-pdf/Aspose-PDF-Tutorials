@@ -23,6 +23,9 @@ Aspose.PDF Net 程式碼教學
 ### [使用 Aspose.PDF .NET 將 PDF 轉換為 PDF/A：合規性逐步指南](./convert-pdf-to-pdfa-aspose-dotnet-guide/)
 了解如何使用 Aspose.PDF .NET 將常規 PDF 轉換為符合 PDF/A-1b 標準的文件。透過這個詳細的分步指南確保檔案品質和合規性。
 
+### [使用 C# 將 PDF 轉換為 PDF/A：完整步驟指南](./convert-pdf-to-pdf-a-in-c-complete-step-by-step-guide/)
+了解如何使用 C# 與 Aspose.PDF for .NET 將普通 PDF 轉換為符合 PDF/A 標準的文件，提供完整的步驟與程式碼範例。
+
 ### [使用 Aspose.PDF for .NET 將 PDF 轉換為 PDF/A-3B](./convert-pdf-to-pdfa-3b-aspose-net/)
 Aspose.PDF Net 程式碼教學
 

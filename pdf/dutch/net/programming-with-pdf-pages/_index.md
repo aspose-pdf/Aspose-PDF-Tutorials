@@ -38,6 +38,7 @@ Tutorials bevatten stapsgewijze instructies, gedetailleerde codevoorbeelden en d
 | [PDF-pagina-afmetingen bijwerken](./update-dimensions/) | Ontdek hoe u moeiteloos PDF-paginaafmetingen kunt bijwerken met Aspose.PDF voor .NET in deze uitgebreide, stapsgewijze handleiding. |  
 | [Zoom naar pagina-inhoud in PDF-bestand](./zoom-to-page-contents/) | Leer in deze uitgebreide handleiding hoe u kunt inzoomen op pagina-inhoud in PDF-bestanden met Aspose.PDF voor .NET. Verbeter uw PDF-documenten naar uw specifieke behoeften. |  
 | [Paginanummers toevoegen aan PDF met C# – Volledige stapsgewijze handleiding](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Leer hoe u paginanummers aan een PDF kunt toevoegen met C# en Aspose.PDF voor .NET in een gedetailleerde stap‑voor‑stap handleiding. |
+| [Bates-nummering toevoegen aan PDF met Aspose – Complete gids](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Leer hoe u Bates-nummering aan PDF-bestanden kunt toevoegen met Aspose.PDF voor .NET in deze volledige stap‑voor‑stap handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

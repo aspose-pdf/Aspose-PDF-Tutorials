@@ -76,6 +76,10 @@
 ### [สร้างเอกสาร PDF ด้วย Aspose.PDF – คำแนะนำทีละขั้นตอน](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 เรียนรู้วิธีสร้างเอกสาร PDF อย่างละเอียดด้วย Aspose.PDF ผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ด
 
+### [สร้างเอกสาร PDF ใน C# – เพิ่มหน้าใน PDF และวาดสี่เหลี่ยม](./create-pdf-document-in-c-add-page-to-pdf-draw-rectangle/)
+
+### [สร้างเอกสาร PDF ใน C# – คู่มือเต็มสำหรับการสร้างในหน่วยความจำ](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)

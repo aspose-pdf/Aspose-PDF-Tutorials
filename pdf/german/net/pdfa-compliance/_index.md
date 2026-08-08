@@ -36,7 +36,10 @@ Erfahren Sie, wie Sie Standard-PDF-Dokumente mit Aspose.PDF für .NET in das rob
 Erfahren Sie, wie Sie die PDF/A-1a-Konformität mit Aspose.PDF für .NET validieren. Diese Anleitung bietet Schritt-für-Schritt-Anleitungen, Codebeispiele und Integrationstipps.
 
 ### [PDF/A-Validierung mit Aspose.PDF für .NET in C# meistern](./master-pdfa-validation-aspose-pdf-net/)
-Erfahren Sie, wie Sie PDF-Dokumente mit Aspose.PDF .NET anhand von PDF/A-Standards validieren. Stellen Sie die Konformität sicher und verbessern Sie die Dokumentenzuverlässigkeit mit unserer Schritt-für-Schritt-Anleitung.
+Erfahren Sie, wie Sie PDF-Dokumente mit Aspose.PDF .NET anhand von PDF/A-Standards validieren. Stellen Sie die Konformenz sicher und verbessern Sie die Dokumentenzuverlässigkeit mit unserer Schritt-für-Schritt-Anleitung.
+
+### [PDF in PDF/A mit C# konvertieren – Vollständige Schritt‑für‑Schritt‑Anleitung](./convert-pdf-to-pdf-a-in-c-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie PDFs mit C# und Aspose.PDF in PDF/A konvertieren, inklusive detaillierter Schritte und Codebeispielen.
 
 ## Weitere Ressourcen
 

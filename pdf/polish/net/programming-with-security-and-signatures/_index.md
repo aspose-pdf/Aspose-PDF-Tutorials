@@ -35,6 +35,10 @@ Samouczek zapewnia szczegółowy przegląd metod i technik zapewniających poufn
 | [Podpisz kartą inteligentną, korzystając z pola podpisu](./sign-with-smart-card-using-signature-field/) | Dowiedz się, jak bezpiecznie podpisywać pliki PDF za pomocą karty inteligentnej za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby ułatwić wdrożenie. |  
 | [Sprawdź podpisy PDF w C# – Jak odczytać podpisane pliki PDF](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Dowiedz się, jak odczytywać i weryfikować podpisy PDF w C# przy użyciu Aspose.PDF. |  
 | [Jak naprawić pliki PDF – Kompletny przewodnik C# z Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Dowiedz się, jak naprawić uszkodzone pliki PDF przy użyciu Aspose.PDF dla .NET w języku C# – krok po kroku. |  
+| [Weryfikacja cyfrowego podpisu PDF w C# przy użyciu Aspose.Pdf](./verify-pdf-digital-signature-in-c-with-aspose-pdf/) | Dowiedz się, jak weryfikować cyfrowe podpisy PDF w C# przy użyciu Aspose.PDF. |  
+| [Weryfikacja cyfrowego podpisu PDF w C#](./pdf-signature-tutorial-verify-a-pdf-s-digital-signature-in-c/) | Dowiedz się, jak zweryfikować cyfrowy podpis w plikach PDF przy użyciu Aspose.PDF dla .NET w języku C#. |  
+| [Załaduj certyfikat PFX w C# – Utwórz odłączony podpis PKCS7](./load-pfx-certificate-c-create-pkcs7-detached-signature/) | Dowiedz się, jak załadować certyfikat PFX i utworzyć odłączony podpis PKCS7 przy użyciu Aspose.PDF dla .NET. |  
+| [Sprawdź podpisy PDF w C# – Szybki przewodnik weryfikacji podpisów cyfrowych](./check-pdf-signatures-in-c-quick-guide-to-verify-digital-sign/) | Dowiedz się, jak szybko sprawdzić i zweryfikować podpisy cyfrowe w plikach PDF przy użyciu Aspose.PDF dla .NET w C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -22,6 +22,7 @@ Aspose.PDFs handledningar "Programmering med stämplar och vattenstämplar" för
 | --- | --- | 
 | [Lägg till datum- och tidsstämpel i PDF-fil](./add-date-time-stamp/) Lär dig hur du lägger till en datum- och tidsstämpel i dina PDF-filer med Aspose.PDF för .NET med den här steg-för-steg-guiden. Perfekt för att förbättra dokumentäktheten. |  
 | [Lägg till bildstämpel i PDF-fil](./add-image-stamp/) | Lär dig hur du lägger till en bildstämpel i PDF-filer med Aspose.PDF för .NET med steg-för-steg-vägledning och exempelkod. |  
+| [Hur man lägger till stämpel i PDF med Aspose.Pdf – Steg‑för‑steg‑guide](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) | Lär dig hur du lägger till en stämpel i en PDF-fil med Aspose.PDF för .NET i en enkel steg‑för‑steg‑guide. |
 | [Lägga till olika rubriker i PDF-fil](./adding-different-headers/) | Lär dig hur du lägger till olika rubriker i PDF-filer med Aspose.PDF för .NET. Steg-för-steg-guide för att anpassa dina PDF-filer. |  
 | [Lägg till PDF-sidstämpel i PDF-fil](./add-pdf-page-stamp/) | Lär dig hur du lägger till en PDF-sidstämpel med Aspose.PDF för .NET med den här detaljerade guiden. Öka dina PDF-dokuments effekt. |  
 | [Lägg till textstämpel i PDF-fil](./add-text-stamp/) | Lär dig hur du lägger till en textstämpel i en PDF-fil med Aspose.PDF för .NET med vår steg-för-steg-guide och höjer dina dokumentpresentationer. |  
@@ -39,6 +40,7 @@ Aspose.PDFs handledningar "Programmering med stämplar och vattenstämplar" för
 | [Tabell i sidhuvuds- och sidfotssektionen](./table-in-header-footer-section/) | Lär dig hur du enkelt lägger till text i sidfoten på en PDF-fil med Aspose.PDF för .NET. Steg-för-steg-guide ingår för sömlös integration. |  
 | [Text i sidfoten på PDF-filen](./text-in-footer/) | Lär dig hur du lägger till text i sidfoten på en PDF-fil med Aspose.PDF för .NET. |  
 | [Text i sidhuvudet på PDF-filen](./text-in-header/) | Lär dig lägga till textrubriker i PDF-filer med Aspose.PDF för .NET med den här steg-för-steg-handledningen. Förbättra dina dokument effektivt och ändamålsenligt. |  
+| [Skapa PDF fullsidig notis – Snabb C#-guide](./create-pdf-full-page-notice-quick-c-guide/) | Lär dig hur du snabbt skapar en fullsidig notis i en PDF med C# och Aspose.PDF för .NET i denna korta guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
