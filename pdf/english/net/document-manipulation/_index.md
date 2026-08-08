@@ -216,7 +216,7 @@ Learn how to insert pages into a PDF using Aspose.PDF for .NET. This step-by-ste
 Learn how to insert pages into a PDF using Aspose.PDF for .NET with this step-by-step guide. Streamline your document workflow efficiently.
 
 ### [Insert an Empty Page in PDF using Aspose.PDF .NET&#58; A Comprehensive Guide](./aspose-pdf-net-insert-empty-page/)
-Learn how to insert empty pages into PDF documents with ease using Aspose.PDF for .NET. Follow this step-by-step guide to enhance your document manipulation skills.
+Learn how to insert empty pages into PDF documents with ease using Aspose.PDF .NET. Follow this step-by-step guide to enhance your document manipulation skills.
 
 ### [Master Aspose.PDF .NET's MakeNUp Method for Efficient PDF Layouts](./aspose-pdf-net-make-nup-method-pdf-layout/)
 Learn how to efficiently rearrange multiple PDF pages into new layouts using Aspose.PDF .NET's MakeNUp method. Ideal for newsletters, brochures, and reports.
@@ -296,6 +296,9 @@ Learn how to efficiently rotate PDF pages and retrieve their dimensions using As
 ### [Rotate PDF Pages Using Aspose.PDF in .NET&#58; A Developer’s Guide](./rotate-pdf-pages-aspose-pdf-dotnet/)
 Learn how to rotate PDF pages with Aspose.PDF for .NET. This guide covers rotating specific pages by degrees and includes code examples for efficient document manipulation.
 
+### [Save Modified PDF with Aspose.PDF – Complete C# Guide](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+Learn how to save changes to a PDF document using Aspose.PDF for .NET with a complete C# guide.
+
 ### [Split PDF Pages from a Specific Page Using .NET Streams and Aspose.PDF](./split-pdf-pages-with-net-streams-aspose-pdf/)
 Learn how to efficiently split PDF files from a specific page using .NET streams with Aspose.PDF, enhancing document management in your applications.
 
@@ -306,7 +309,7 @@ Learn how to split a PDF file into individual pages using Aspose.PDF for .NET an
 Learn how to split PDF pages into separate files using Aspose.PDF for .NET. This comprehensive guide covers setup, implementation, and optimization tips.
 
 ### [Split and Create PDF Files Using Aspose.PDF .NET | Document Manipulation Guide](./split-create-pdf-aspose-pdf-net/)
-Learn how to split multi-page PDFs and create new PDF files using Aspose.PDF for .NET. Follow this comprehensive guide with code examples.
+Learn how to split multi-page PDFs and create new PDF files using Aspose.PDF .NET. Follow this comprehensive guide with code examples.
 
 ### [Ultimate Guide to PDF Manipulation with Aspose.PDF .NET&#58; Load, Save & Replace Text Efficiently](./master-pdf-manipulation-aspose-pdf-net/)
 Learn how to master PDF manipulation using Aspose.PDF for .NET. This guide covers loading, saving, and replacing text in PDFs, ideal for developers seeking efficiency.

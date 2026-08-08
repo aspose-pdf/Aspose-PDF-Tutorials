@@ -57,6 +57,7 @@ Bạn sẽ học cách chỉ định cài đặt chuyển đổi, trích xuất 
 | [XML sang PDF](./xml-to-pdf/) | Tìm hiểu cách chuyển đổi XML sang PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước toàn diện này, kèm theo các ví dụ mã và giải thích chi tiết. |  
 | [XML To PDFĐặt Đường dẫn hình ảnh](./xml-to-pdfset-image-path/) | Tìm hiểu cách chuyển đổi XML sang PDF dễ dàng bằng Aspose.PDF cho .NET. Hướng dẫn chi tiết này hướng dẫn bạn từng bước trong quy trình, từ thiết lập đến hoàn tất. |  
 | [XPS sang PDF](./xps-to-pdf/) Tìm hiểu cách chuyển đổi tệp XPS sang PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển và những người đam mê tài liệu. |  
+| [Chuyển đổi PDF sang PDFX với Aspose.Pdf – Hướng dẫn đầy đủ](./convert-pdf-to-pdfx-with-aspose-pdf-complete-guide/) | Hướng dẫn chi tiết cách chuyển đổi tệp PDF sang PDFX bằng Aspose.Pdf cho .NET. |  
 | [Chuyển đổi PDF sang PDF/X‑4 trong C# – Hướng dẫn ASP.NET PDF từng bước](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Tìm hiểu cách chuyển đổi tệp PDF sang định dạng PDF/X‑4 bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

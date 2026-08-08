@@ -102,7 +102,7 @@ Pelajari cara menambahkan dan menyesuaikan tajuk berbeda di setiap halaman dokum
 Pelajari cara menambahkan tajuk, termasuk teks dan gambar, ke dokumen PDF Anda dengan mudah menggunakan Aspose.PDF for .NET. Sempurna untuk meningkatkan pencitraan merek dokumen.
 
 ### [Cara Menambahkan Header ke PDF Menggunakan Aspose.PDF untuk .NET: Panduan Lengkap](./add-headers-aspose-pdf-dotnet-guide/)
-Pelajari cara menambahkan tajuk teks ke berkas PDF Anda dengan mudah menggunakan Aspose.PDF untuk .NET, yang akan meningkatkan keterbacaan dan pengorganisasian dokumen.
+Pelajari cara menambahkan tajuk teks ke berkas PDF Anda dengan mudah menggunakan Aspose.PDF for .NET, yang akan meningkatkan keterbacaan dan pengorganisasian dokumen.
 
 ### [Cara Menambahkan Objek Garis dalam PDF Menggunakan Aspose.PDF untuk .NET: Panduan Langkah demi Langkah](./add-line-aspose-pdf-dotnet-tutorial/)
 Pelajari cara menambahkan objek garis dalam PDF menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup penyiapan, contoh pengodean, dan aplikasi praktis.
@@ -207,7 +207,7 @@ Pelajari cara memangkas spasi kosong dari dokumen PDF secara efisien menggunakan
 Pelajari cara memperbarui tautan dalam file PDF secara terprogram menggunakan Aspose.PDF for .NET. Otomatiskan pembaruan tautan secara efisien dengan panduan langkah demi langkah ini.
 
 ### [Cara Memperbarui Warna Teks Tautan PDF Menggunakan Aspose.PDF .NET: Panduan Lengkap](./update-pdf-link-text-color-aspose-net/)
-Pelajari cara mengubah warna teks tautan dalam PDF dengan mudah menggunakan Aspose.PDF untuk .NET. Panduan lengkap ini mencakup kiat pemasangan, penerapan, dan pengoptimalan.
+Pelajari cara mengubah warna teks tautan dalam PDF dengan mudah menggunakan Aspose.PDF .NET. Panduan lengkap ini mencakup kiat pemasangan, penerapan, dan pengoptimalan.
 
 ### [Memasukkan Halaman ke dalam PDF Menggunakan Aspose.PDF untuk .NET: Panduan Lengkap untuk Manipulasi Dokumen](./insert-pages-pdf-aspose-dotnet-guide/)
 Pelajari cara memasukkan halaman ke dalam PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini mencakup semuanya mulai dari penyiapan hingga penerapan, cocok untuk pengembang C#.
@@ -306,10 +306,12 @@ Pelajari cara membagi file PDF menjadi beberapa halaman menggunakan Aspose.PDF u
 Pelajari cara membagi halaman PDF menjadi beberapa file terpisah menggunakan Aspose.PDF untuk .NET. Panduan lengkap ini mencakup kiat penyiapan, penerapan, dan pengoptimalan.
 
 ### [Membagi dan Membuat File PDF Menggunakan Aspose.PDF .NET | Panduan Manipulasi Dokumen](./split-create-pdf-aspose-pdf-net/)
-Pelajari cara membagi PDF multi-halaman dan membuat file PDF baru menggunakan Aspose.PDF untuk .NET. Ikuti panduan lengkap ini dengan contoh kode.
+Pelajari cara membagi PDF multi-halaman dan membuat file PDF baru menggunakan Aspose.PDF .NET. Ikuti panduan lengkap ini dengan contoh kode.
 
 ### [Panduan Lengkap untuk Manipulasi PDF dengan Aspose.PDF .NET: Memuat, Menyimpan & Mengganti Teks Secara Efisien](./master-pdf-manipulation-aspose-pdf-net/)
 Pelajari cara menguasai manipulasi PDF menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup pemuatan, penyimpanan, dan penggantian teks dalam PDF, ideal bagi pengembang yang menginginkan efisiensi.
+
+### [Simpan PDF yang Dimodifikasi dengan Aspose.PDF – Panduan Lengkap C#](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
 
 ## Sumber Daya Tambahan
 
