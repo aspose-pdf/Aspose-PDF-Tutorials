@@ -34,7 +34,7 @@ De tutorials "Programmeren met afbeeldingen" van Aspose.PDF voor .NET begeleiden
 | [Afbeeldingen uit een PDF-bestand extraheren](./extract-images/) | Leer hoe u afbeeldingen uit een PDF-bestand haalt met Aspose.PDF voor .NET met deze stapsgewijze handleiding. Ga aan de slag met eenvoudig te volgen instructies. |  
 | [Snel krimpende afbeeldingen](./fast-shrink-images/) Leer hoe u Aspose.PDF voor .NET efficiënt kunt gebruiken om afbeeldingen in PDF-bestanden te verkleinen, waarbij u de bestandsgrootte optimaliseert en de kwaliteit behoudt. |  
 | [Flate Decode Compressie](./flate-decode-compression/) | Leer hoe u Flate Decode Compression gebruikt in Aspose.PDF voor .NET. Optimaliseer de PDF-bestandsgrootte efficiënt met deze stapsgewijze handleiding. |  
-| [Afbeeldingen in PDF-bestand identificeren](./identify-images/) | Leer hoe u afbeeldingen in PDF-bestanden kunt identificeren en hun kleurtype (grijswaarden of RGB) kunt detecteren met Aspose.PDF voor .NET in deze gedetailleerde stapsgewijze handleiding.  
+| [Afbeeldingen in PDF-bestand identificeren](./identify-images/) | Leer hoe u afbeeldingen in PDF-bestanden kunt identificeren en hun kleurtype (grijswaarden of RGB) kunt detecteren met Aspose.PDF voor .NET in deze gedetailleerde stapsgewijze handleiding. |
 | [Afbeeldingsinformatie in PDF-bestand](./image-information/) | Leer hoe u afbeeldinginformatie uit PDF's kunt halen met Aspose.PDF voor .NET met onze uitgebreide stapsgewijze handleiding. |  
 | [Afbeeldingsplaatsingen](./image-placements/) | Leer hoe u de plaatsing van afbeeldingen in PDF-documenten kunt extraheren en bewerken met Aspose.PDF voor .NET. Stapsgewijze handleiding met voorbeelden en codefragmenten. |  
 | [Afbeelding naar PDF](./image-to-pdf/) Leer hoe u afbeeldingen naar PDF converteert met Aspose.PDF voor .NET in deze stapsgewijze handleiding. Perfect voor ontwikkelaars en techneuten. |  
@@ -49,6 +49,7 @@ De tutorials "Programmeren met afbeeldingen" van Aspose.PDF voor .NET begeleiden
 | [Afbeeldingsgrootte instellen in PDF-bestand](./set-image-size/) | Leer hoe u de afbeeldingsgrootte in een PDF instelt met Aspose.PDF voor .NET. Deze stapsgewijze handleiding helpt u bij het aanpassen van de grootte van afbeeldingen, het aanpassen van pagina-eigenschappen en het opslaan van PDF's. |  
 | [Afbeeldingen in PDF-bestand verkleinen](./shrink-images/) | Verklein eenvoudig afbeeldingen in PDF-bestanden met Aspose.PDF voor .NET aan de hand van deze stapsgewijze handleiding. Zo blijven de bestandsgroottes kleiner, terwijl de kwaliteit behouden blijft. |  
 | [Afbeelding opslaan in XImage-collectie](./store-image-in-ximage-collection/) | Leer hoe u afbeeldingen in de XImage-verzameling opslaat met Aspose.PDF voor .NET in deze complete stapsgewijze handleiding. |  
+| [Afbeeldingen comprimeren in DOCX – Bestandsgrootte verkleinen](./compress-images-in-docx-reduce-file-size/) | Leer hoe u afbeeldingen in een DOCX-bestand kunt comprimeren om de bestandsgrootte te verkleinen met Aspose.Words voor .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -57,7 +57,9 @@ Aspose.PDF の .NET 向けドキュメント変換チュートリアルでは、
 | [XMLからPDFへの画像パスの設定](./xml-to-pdfset-image-path/) Aspose.PDF for .NET を使って、XML を PDF に簡単に変換する方法を学びましょう。この詳細なガイドでは、セットアップから完了まで、プロセスをステップごとに詳しく説明します。 |  
 | [XPSからPDFへ](./xps-to-pdf/) Aspose.PDF for .NET を使用してXPSファイルをPDFに変換する方法を、ステップバイステップのチュートリアルで学びましょう。開発者やドキュメント作成に興味のある方に最適です。 |  
 | [C#でPDFをPDF/X‑4に変換 – ステップバイステップ ASP.NET PDF チュートリアル](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) PDF を PDF/X‑4 形式に変換する方法を、C# と Aspose.PDF for .NET で学びます。 |  
+| [PDF形式変換チュートリアル – C#でPDFをPDF/X-4に変換](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-in-c/) C# と Aspose.PDF for .NET を使用して PDF を PDF/X‑4 に変換する手順を学びます。 |  
 | [PDFからPNGへのチュートリアル – C#でPDFページをPNGに変換](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) Aspose.PDF for .NET を使用して、C#でPDFページをPNG画像に変換する方法をステップバイステップで解説します。 |  
+| [Word から HTML を作成 – DOCX を HTML に変換する完全ガイド](./create-html-from-word-complete-guide-to-convert-docx-to-html/) このステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して DOCX を HTML に変換する方法を学びます。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

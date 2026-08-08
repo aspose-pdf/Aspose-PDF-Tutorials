@@ -58,6 +58,7 @@ Este recurso incluye tutoriales sobre la programación con la función de docume
 | [Validar PDF AB Standard](./validatepdfabstandard/) Aprenda a validar un PDF para el estándar PDF/A-1b con Aspose.PDF para .NET en este tutorial paso a paso. Asegúrese de que el archivo sea compatible a largo plazo.  
 | [Validar archivos PDF Un estándar](./validatepdfastandard/) | Aprenda a validar archivos PDF según el estándar PDF/A-1a usando Aspose.PDF para .NET en este completo tutorial paso a paso. |  
 | [Validar PDF UA Standard](./validatepdfuastandard/) | Aprenda a validar un PDF para el estándar de accesibilidad PDF/UA usando Aspose.PDF para .NET con nuestra guía paso a paso y explicaciones detalladas. |  
+| [Crear plugin personalizado de Aspose – Guía completa para automatizar el procesamiento de PDF](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) Aprenda a crear un plugin personalizado de Aspose para automatizar tareas de procesamiento de PDF con Aspose.PDF para .NET.  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

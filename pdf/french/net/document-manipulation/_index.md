@@ -38,6 +38,9 @@ Découvrez comment ajouter des sauts de page dans vos documents PDF avec Aspose.
 ### [Ajouter des rectangles et configurer des pages PDF avec Aspose.PDF .NET : un guide complet](./aspose-pdf-net-add-rectangles-configure-pages/)
 Maîtrisez l'ajout de rectangles et la configuration de pages dans vos PDF avec Aspose.PDF pour .NET. Suivez ce guide pour apprendre efficacement les techniques de manipulation de documents.
 
+### [Ajouter un rectangle à un PDF avec C# – Guide complet de programmation](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
+Apprenez à ajouter des rectangles aux documents PDF en C# avec Aspose.PDF, grâce à un guide complet étape par étape.
+
 ### [Aspose.PDF .NET : définir les marges PDF et personnaliser les en-têtes et pieds de page](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 Maîtrisez l'art de définir les marges et de personnaliser les en-têtes et pieds de page de vos PDF avec Aspose.PDF pour .NET. Suivez ce guide détaillé pour améliorer la cohérence de la mise en page de vos documents.
 
@@ -306,7 +309,7 @@ Apprenez à diviser un fichier PDF en pages individuelles avec Aspose.PDF pour .
 Apprenez à diviser des pages PDF en fichiers distincts avec Aspose.PDF pour .NET. Ce guide complet couvre la configuration, la mise en œuvre et l'optimisation.
 
 ### [Diviser et créer des fichiers PDF avec Aspose.PDF .NET | Guide de manipulation de documents](./split-create-pdf-aspose-pdf-net/)
-Apprenez à fractionner des PDF multipages et à créer de nouveaux fichiers PDF avec Aspose.PDF pour .NET. Suivez ce guide complet avec des exemples de code.
+Apprenez à fractionner des PDF multipages et à créer de nouveaux fichiers PDF avec Aspose.PDF .NET. Suivez ce guide complet avec des exemples de code.
 
 ### [Guide ultime de manipulation de PDF avec Aspose.PDF .NET : charger, enregistrer et remplacer du texte efficacement](./master-pdf-manipulation-aspose-pdf-net/)
 Apprenez à maîtriser la manipulation des PDF avec Aspose.PDF pour .NET. Ce guide couvre le chargement, l'enregistrement et le remplacement de texte dans les PDF, idéal pour les développeurs en quête d'efficacité.

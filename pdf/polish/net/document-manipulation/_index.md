@@ -38,6 +38,9 @@ Dowiedz się, jak dodawać podziały stron w dokumentach PDF za pomocą Aspose.P
 ### [Dodawanie prostokątów i konfiguracja stron PDF za pomocą Aspose.PDF .NET: kompleksowy przewodnik](./aspose-pdf-net-add-rectangles-configure-pages/)
 Opanuj dodawanie prostokątów i konfigurowanie stron w plikach PDF za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z tym przewodnikiem, aby skutecznie poznać techniki manipulacji dokumentami.
 
+### [Dodaj prostokąt do PDF w C# – Kompletny przewodnik programistyczny](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
+Dowiedz się, jak programowo dodać prostokąt do pliku PDF przy użyciu C# i Aspose.PDF .NET
+
 ### [Aspose.PDF .NET: Ustaw marginesy PDF i dostosuj nagłówki/stopki](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 Opanuj sztukę ustawiania marginesów stron i dostosowywania nagłówków/stopek w plikach PDF za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z tym szczegółowym przewodnikiem, aby zwiększyć spójność układu dokumentu.
 
@@ -239,13 +242,13 @@ Dowiedz się, jak programowo zarządzać plikami PDF w .NET za pomocą Aspose.PD
 ### [Opanuj manipulację plikami PDF za pomocą Aspose.PDF .NET: kompleksowy przewodnik po automatyzacji dokumentów](./master-pdf-manipulation-aspose-dotnet-guide/)
 Dowiedz się, jak automatyzować zadania związane z plikami PDF za pomocą Aspose.PDF dla platformy .NET, w tym łączenie plików, dodawanie stron, wstawianie znaczników tekstowych i tworzenie łączy.
 
-### [Opanuj manipulację plikami PDF dzięki Aspose.PDF .NET: Łatwe ładowanie i modyfikowanie dokumentów](./mastering-pdf-manipulation-aspose-dotnet/)
+### [Opanuj manipulację plikami PDF za pomocą Aspose.PDF .NET: Łatwe ładowanie i modyfikowanie dokumentów](./mastering-pdf-manipulation-aspose-dotnet/)
 Dowiedz się, jak opanować ładowanie, nawigację i modyfikowanie dokumentów PDF przy użyciu potężnej biblioteki Aspose.PDF .NET. Ulepsz swoje aplikacje już dziś!
 
 ### [Opanuj manipulację plikami PDF za pomocą Aspose.PDF .NET: przewodnik ładowania, wyszukiwania i adnotacji](./aspose-pdf-dotnet-mastering-pdfs-manipulation-guide/)
 Naucz się manipulować plikami PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje ładowanie dokumentów, wyszukiwanie tekstu i stosowanie adnotacji, takich jak przekreślenia.
 
-### [Opanuj manipulację plikami PDF za pomocą Aspose.PDF dla .NET: kompleksowy przewodnik](./mastering-pdf-manipulation-aspose-pdf-net-guide/)
+### [Opanuj manipulację plikami PDF za pomocą Aspose.PDF .NET: kompleksowy przewodnik](./mastering-pdf-manipulation-aspose-pdf-net-guide/)
 Dowiedz się, jak wydajnie tworzyć, modyfikować, scalać i wyodrębniać dane z plików PDF przy użyciu Aspose.PDF dla platformy .NET. Ulepsz swoje przepływy pracy nad dokumentami i zwiększ produktywność.
 
 ### [Opanuj manipulację liczbą stron w PDF za pomocą Aspose.PDF dla .NET: Kompletny przewodnik](./mastering-pdf-manipulation-aspose-pdf-net/)

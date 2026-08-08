@@ -38,6 +38,9 @@ Aprenda a adicionar quebras de página em documentos PDF usando o Aspose.PDF par
 ### [Adicionar retângulos e configurar páginas PDF com Aspose.PDF .NET: um guia completo](./aspose-pdf-net-add-rectangles-configure-pages/)
 Domine a adição de retângulos e a configuração de páginas em PDFs usando o Aspose.PDF para .NET. Siga este guia para aprender técnicas de manipulação de documentos com eficácia.
 
+### [Adicionar retângulo a PDF com C# – Guia completo de programação](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
+Aprenda a adicionar retângulos a documentos PDF usando C# e Aspose.PDF .NET com este guia passo a passo.
+
 ### [Aspose.PDF .NET: Definir margens de PDF e personalizar cabeçalhos/rodapés](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 Domine a arte de definir margens de página e personalizar cabeçalhos/rodapés em seus PDFs com o Aspose.PDF para .NET. Siga este guia detalhado para aprimorar a consistência do layout do documento.
 

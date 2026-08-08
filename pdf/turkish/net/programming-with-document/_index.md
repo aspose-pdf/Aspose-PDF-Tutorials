@@ -54,11 +54,11 @@ Kaynak, Aspose.PDF for .NET kütüphanesinin belge özelliğiyle programlaması 
 | [PDF Dosyasında XMP Meta Verilerini Ayarla](./setxmpmetadata/) | .NET için Aspose.PDF kullanarak bir PDF dosyasında XMP meta verilerinin nasıl ayarlanacağını öğrenin. Bu adım adım kılavuz, belgeyi kurmaktan kaydetmeye kadar tüm süreçte size yol gösterir. |  
 | [PDF Dosyasında Yakınlaştırma Faktörünü Ayarla](./setzoomfactor/) | Aspose.PDF for .NET kullanarak PDF dosyalarında yakınlaştırma faktörünün nasıl ayarlanacağını öğrenin. Bu adım adım kılavuzla kullanıcı deneyimini geliştirin. |  
 | [PDF Belgelerini Küçült](./shrinkdocuments/) | Bu adım adım kılavuzda Aspose.PDF for .NET kullanarak PDF belgelerini nasıl küçülteceğinizi öğrenin. PDF kaynaklarını optimize edin ve kaliteyi düşürmeden dosya boyutunu küçültün. |  
-| [Yazı Tiplerini Kaldırın ve PDF Dosyalarını Optimize Edin](./unembedfonts/) | Bu adım adım eğitimde Aspose.PDF for .NET kullanarak yazı tiplerini nasıl kaldıracağınızı ve PDF dosyalarını nasıl optimize edeceğinizi öğrenin.  
+| [Yazı Tiplerini Kaldırın ve PDF Dosalarını Optimize Edin](./unembedfonts/) | Bu adım adım eğitimde Aspose.PDF for .NET kullanarak yazı tiplerini nasıl kaldıracağınızı ve PDF dosalarını nasıl optimize edeceğinizi öğrenin.  
 | [PDF AB Standardını doğrulayın](./validatepdfabstandard/) Bu adım adım eğitimde Aspose.PDF for .NET kullanarak PDF/A-1b standardı için bir PDF'yi nasıl doğrulayacağınızı öğrenin. Uzun vadeli arşivleme için uyumluluğu sağlayın. |  
-| [PDF Dosyalarını Doğrula A Standardı](./validatepdfastandard/) | Bu kapsamlı adım adım eğitimde, Aspose.PDF for .NET kullanarak PDF dosyalarının PDF/A-1a standardına göre nasıl doğrulanacağını öğrenin.  
-| [PDF UA Standardını doğrulayın](./validatepdfuastandard/) | Aspose.PDF for .NET'i kullanarak adım adım kılavuzumuz ve detaylı açıklamalarımızla PDF/UA erişilebilirlik standardı için bir PDF'nin nasıl doğrulanacağını öğrenin.  
-
+| [PDF Dosyalarını Doğrula A Standardı](./validatepdfastandard/) | Bu kapsamlı adım adım eğitimde, Aspose.PDF for .NET kullanarak PDF dosalarının PDF/A-1a standardına göre nasıl doğrulanacağını öğrenin.  
+| [PDF UA Standardını doğrulayın](./validatepdfuastandard/) | Aspose.PDF for .NET'i kullanarak adım adım kılavuzumuz ve detaylı açıklamalarımızla PDF/UA erişilebilirlik standardı için bir PDF'nin nasıl doğrulanacağını öğrenin. |
+| [Özel Aspose eklentisi oluşturma – PDF İşlemlerini Otomatikleştirmek için Tam Kılavuz](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Aspose.PDF for .NET ile PDF iş akışlarını otomatikleştirmek için özel bir eklenti oluşturmayı adım adım öğrenin. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

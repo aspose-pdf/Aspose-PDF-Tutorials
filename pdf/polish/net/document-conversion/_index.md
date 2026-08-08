@@ -25,7 +25,8 @@ Dowiesz się, jak określać ustawienia konwersji, wyodrębniać tekst i obrazy,
 | [Pliki CGM do PDF](./cgm-to-pdf/) | Dowiedz się, jak konwertować pliki CGM do PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Idealne zarówno dla programistów, jak i projektantów. |  
 | [EPUB do PDF](./epub-to-pdf/) Dowiedz się, jak konwertować EPUB do PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Łatwe, wydajne i idealne dla wszystkich użytkowników. |  
 | [Pobierz wymiary SVG](./get-svg-dimensions/) | Dowiedz się, jak używać Aspose.PDF dla .NET do konwersji plików SVG do PDF dzięki temu przewodnikowi krok po kroku. Idealne dla programistów, którzy chcą manipulować plikami PDF. |  
-| [HTML do PDF](./html-to-pdf/) | Dowiedz się, jak przekonwertować HTML na PDF za pomocą Aspose.PDF dla .NET dzięki temu kompleksowemu przewodnikowi krok po kroku. |  
+| [HTML do PDF](./html-to-pdf/) | Dowiedz się, jak przekonwertować HTML na PDF za pomocą Aspose.PDF dla .NET dzięki temu kompleksowemu przewodnikowi krok po kroku. |
+| [Utwórz HTML z Word – Kompletny przewodnik konwertowania DOCX do HTML](./create-html-from-word-complete-guide-to-convert-docx-to-html/) | Dowiedz się, jak konwertować pliki DOCX do HTML przy użyciu Aspose.PDF dla .NET w tym kompletnym przewodniku krok po kroku. |
 | [Markdown do PDF](./markdown-to-pdf/) | Dowiedz się, jak przekonwertować Markdown na PDF za pomocą Aspose.PDF dla .NET w tym samouczku krok po kroku. Idealne dla programistów, którzy chcą usprawnić konwersję dokumentów. |  
 | [MHT do PDF](./mht-to-pdf/) | Dowiedz się, jak konwertować pliki MHT do PDF za pomocą Aspose.PDF dla .NET w tym samouczku krok po kroku. Łatwa i wydajna konwersja dokumentów. |  
 | [Orientacja strony według wymiarów obrazu](./page-orientation-according-image-dimensions/) Dowiedz się, jak tworzyć pliki PDF za pomocą Aspose.PDF dla platformy .NET i ustawiać orientację strony na podstawie wymiarów obrazu w tym przewodniku krok po kroku. |  
@@ -59,6 +60,7 @@ Dowiesz się, jak określać ustawienia konwersji, wyodrębniać tekst i obrazy,
 | [XPS do PDF](./xps-to-pdf/) Dowiedz się, jak konwertować pliki XPS do PDF za pomocą Aspose.PDF dla .NET dzięki temu samouczkowi krok po kroku. Idealne dla programistów i entuzjastów dokumentów. |  
 | [PDF do PDFA](./pdf-to-pdfa/) Dowiedz się, jak konwertować pliki PDF do formatu PDF/A za pomocą Aspose.PDF dla .NET, korzystając z tego samouczka krok po kroku. |
 | [Konwertuj PDF do PDF/X‑4 w C# – Samouczek ASP.NET PDF krok po kroku](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Dowiedz się, jak w C# konwertować pliki PDF do formatu PDF/X‑4 przy użyciu Aspose.PDF dla .NET w prostym przewodniku krok po kroku. |
+| [Samouczek konwersji formatu PDF – konwersja PDF do PDF/X‑4 w C#](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Dowiedz się, jak konwertować PDF do PDF/X‑4 w C# przy użyciu Aspose.PDF dla .NET w tym samouczku krok po kroku. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

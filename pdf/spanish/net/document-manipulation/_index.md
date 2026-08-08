@@ -38,6 +38,9 @@ Aprenda a añadir saltos de página en documentos PDF con Aspose.PDF para .NET. 
 ### [Agregar rectángulos y configurar páginas PDF con Aspose.PDF .NET: una guía completa](./aspose-pdf-net-add-rectangles-configure-pages/)
 Domine la adición de rectángulos y la configuración de páginas en archivos PDF con Aspose.PDF para .NET. Siga esta guía para aprender técnicas eficaces de manipulación de documentos.
 
+### [Agregar rectángulo a PDF con C# – Guía completa de programación](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
+Aprenda a agregar un rectángulo a archivos PDF con C# y Aspose.PDF .NET mediante esta guía completa de programación.
+
 ### [Aspose.PDF .NET: Configurar márgenes de PDF y personalizar encabezados y pies de página](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 Domine el arte de configurar márgenes de página y personalizar encabezados y pies de página en sus PDF con Aspose.PDF para .NET. Siga esta guía detallada para mejorar la consistencia del diseño de sus documentos.
 
@@ -216,7 +219,7 @@ Aprenda a insertar páginas en un PDF con Aspose.PDF para .NET. Esta guía paso 
 Aprenda a insertar páginas en un PDF con Aspose.PDF para .NET con esta guía paso a paso. Optimice su flujo de trabajo documental.
 
 ### [Insertar una página vacía en un PDF con Aspose.PDF .NET: una guía completa](./aspose-pdf-net-insert-empty-page/)
-Aprenda a insertar páginas vacías en documentos PDF fácilmente con Aspose.PDF para .NET. Siga esta guía paso a paso para mejorar sus habilidades de manipulación de documentos.
+Aprenda a insertar páginas vacías en documentos PDF fácilmente con Aspose.PDF .NET. Siga esta guía paso a paso para mejorar sus habilidades de manipulación de documentos.
 
 ### [Domine el método MakeNUp de Aspose.PDF .NET para diseños PDF eficientes](./aspose-pdf-net-make-nup-method-pdf-layout/)
 Aprenda a reorganizar eficientemente varias páginas PDF en nuevos diseños con el método MakeNUp de Aspose.PDF .NET. Ideal para boletines, folletos e informes.
@@ -240,12 +243,12 @@ Aprenda a gestionar archivos PDF mediante programación en .NET con Aspose.PDF. 
 Aprenda a automatizar tareas de PDF utilizando Aspose.PDF para .NET, incluida la concatenación de archivos, la adición de páginas, la inserción de sellos de texto y la creación de enlaces.
 
 ### [Domine la manipulación de PDF con Aspose.PDF .NET: Cargue y modifique documentos fácilmente](./mastering-pdf-manipulation-aspose-dotnet/)
-Aprenda a dominar la carga, navegación y modificación de documentos PDF con la potente biblioteca Aspose.PDF .NET. ¡Mejore sus aplicaciones hoy mismo!
+Aprenda a dominar la carga, navegación y modificación de documentos PDF con la poderosa biblioteca Aspose.PDF .NET. ¡Mejore sus aplicaciones hoy mismo!
 
 ### [Domine la manipulación de PDF con Aspose.PDF .NET: Guía para cargar, buscar y anotar](./aspose-pdf-dotnet-mastering-pdfs-manipulation-guide/)
 Aprenda a dominar la manipulación de PDF con Aspose.PDF para .NET. Esta guía explica cómo cargar documentos, buscar texto y aplicar anotaciones como tachados.
 
-### [Domine la manipulación de PDF con Aspose.PDF para .NET: una guía completa](./mastering-pdf-manipulation-aspose-pdf-net-guide/)
+### [Domine la manipulación de PDF con Aspose.PDF para .NET: una guía completa](./master-pdf-manipulation-aspose-pdf-net-guide/)
 Aprenda a crear, modificar, combinar y extraer datos de archivos PDF de forma eficiente con Aspose.PDF para .NET. Optimice sus flujos de trabajo con documentos y aumente su productividad.
 
 ### [Domine la manipulación del recuento de páginas PDF con Aspose.PDF para .NET: una guía completa](./mastering-pdf-manipulation-aspose-pdf-net/)

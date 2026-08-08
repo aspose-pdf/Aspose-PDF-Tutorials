@@ -58,6 +58,7 @@
 | [PDF AB 표준 검증](./validatepdfabstandard/) 이 단계별 튜토리얼에서는 Aspose.PDF for .NET을 사용하여 PDF/A-1b 표준에 대한 PDF의 유효성을 검사하는 방법을 알아봅니다. 장기 보관을 위한 규정 준수를 보장합니다. |  
 | [PDF 파일 검증 표준](./validatepdfastandard/) | 이 포괄적인 단계별 튜토리얼을 통해 Aspose.PDF for .NET을 사용하여 PDF/A-1a 표준에 따라 PDF 파일을 검증하는 방법을 알아보세요. |  
 | [PDF UA 표준 검증](./validatepdfuastandard/) | Aspose.PDF for .NET을 사용하여 단계별 가이드와 자세한 설명을 통해 PDF/UA 접근성 표준에 대한 PDF의 유효성을 검사하는 방법을 알아보세요. |  
+| [맞춤 Aspose 플러그인 만들기 – PDF 처리 자동화를 위한 완전 가이드](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Aspose.PDF for .NET을 사용해 맞춤 플러그인을 개발하고 PDF 처리 작업을 자동화하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

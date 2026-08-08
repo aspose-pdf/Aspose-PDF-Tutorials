@@ -70,6 +70,7 @@ Az Aspose.PDF „Szöveggel programozás” című .NET-es oktatóanyagai átfog
 | [Szöveg és kép bekezdésként PDF fájlban](./text-and-image-as-paragraph/) | Hozzon létre szöveget és képeket tartalmazó PDF fájlokat az Aspose.PDF for .NET segítségével. Tanulja meg, hogyan adhat hozzá szöveget és beágyazott képeket lépésről lépésre. |  
 | [Szövegszegmensek PDF fájlban](./text-segments/) | Ismerje meg, hogyan kereshet meghatározott szövegrészeket PDF fájlokban reguláris kifejezések használatával az Aspose.PDF for .NET programban. |  
 | [Latex szkript használata PDF fájlban](./use-latex-script/) | Tanulja meg, hogyan használhat Latex szkripteket matematikai kifejezések vagy képletek PDF fájlokba való hozzáadásához az Aspose.PDF for .NET használatával. |  
+| [Span elem létrehozása Word-ben C#-al – Teljes útmutató](./create-span-element-in-word-with-c-complete-guide/) | Tanulja meg, hogyan hozhat létre span elemeket Word dokumentumokban C# használatával részletes, lépésről-lépésre útmutatóval. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -25,7 +25,8 @@
 | [CGM을 PDF 파일로](./cgm-to-pdf/) | Aspose.PDF for .NET을 사용하여 CGM 파일을 PDF로 변환하는 방법을 단계별 가이드를 통해 알아보세요. 개발자와 디자이너 모두에게 적합합니다. |  
 | [EPUB를 PDF로](./epub-to-pdf/) Aspose.PDF for .NET을 사용하여 EPUB를 PDF로 변환하는 방법을 단계별 가이드를 통해 알아보세요. 모든 사용자에게 쉽고 효율적이며 완벽한 솔루션입니다. |  
 | [SVG 크기 가져오기](./get-svg-dimensions/) | Aspose.PDF for .NET을 사용하여 SVG 파일을 PDF로 변환하는 방법을 단계별 가이드를 통해 알아보세요. PDF를 조작하려는 개발자에게 적합합니다. |  
-| [HTML을 PDF로](./html-to-pdf/) | 이 포괄적인 단계별 가이드를 통해 Aspose.PDF for .NET을 사용하여 HTML을 PDF로 변환하는 방법을 알아보세요. |  
+| [HTML을 PDF로](./html-to-pdf/) | 이 포괄적인 단계별 가이드를 통해 Aspose.PDF for .NET을 사용하여 HTML을 PDF로 변환하는 방법을 알아보세요. |
+| [Word에서 HTML 만들기 – DOCX를 HTML로 변환하는 완전 가이드](./create-html-from-word-complete-guide-to-convert-docx-to-html/) | Aspose.PDF for .NET을 사용하여 DOCX 파일을 HTML로 변환하는 단계별 완전 가이드입니다. |
 | [마크다운을 PDF로](./markdown-to-pdf/) | 이 단계별 튜토리얼에서는 Aspose.PDF for .NET을 사용하여 마크다운을 PDF로 변환하는 방법을 알아봅니다. 문서 변환을 간소화하려는 개발자에게 적합합니다. |  
 | [MHT를 PDF로](./mht-to-pdf/) | Aspose.PDF for .NET을 사용하여 MHT 파일을 PDF로 변환하는 방법을 단계별 튜토리얼에서 알아보세요. 쉽고 효율적인 문서 변환. |  
 | [이미지 크기에 따른 페이지 방향](./page-orientation-according-image-dimensions/) Aspose.PDF for .NET을 사용하여 PDF를 만드는 방법과 이 단계별 가이드에서 이미지 크기에 따라 페이지 방향을 설정하는 방법을 알아보세요. |  
@@ -37,6 +38,7 @@
 | [PDF에서 PDFA로](./pdf-to-pdfa/) 이 단계별 튜토리얼을 통해 Aspose.PDF for .NET을 사용하여 PDF 파일을 PDF/A 형식으로 변환하는 방법을 알아보세요. |  
 | [PDF에서 PDFA3b로](./pdf-to-pdfa3b/) | 이 단계별 가이드를 통해 Aspose.PDF for .NET을 사용하여 PDF 파일을 PDF/A-3B 형식으로 손쉽게 변환하는 방법을 알아보세요. |  
 | [PDF를 PDF/X‑4로 변환하기 – 단계별 ASP.NET PDF 튜토리얼](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Aspose.PDF for .NET을 사용하여 PDF를 PDF/X‑4 형식으로 변환하는 단계별 C# 가이드입니다. |  
+| [PDF 형식 변환 튜토리얼 – C#에서 PDF를 PDF/X‑4로 변환](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Aspose.PDF for .NET을 활용해 C#에서 PDF를 PDF/X‑4 형식으로 변환하는 방법을 단계별로 안내합니다. |  
 | [PDF를 PNG로 변환하는 글꼴 힌팅](./pdf-to-png-font-hinting/) | Aspose.PDF for .NET을 사용하여 간단한 단계별 가이드로 글꼴 힌팅을 적용하여 PDF를 PNG로 변환하는 방법을 알아보세요. |  
 | [PDF를 PNG로 변환하는 튜토리얼 – C#에서 PDF 페이지를 PNG로 변환](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Aspose.PDF for .NET을 사용하여 PDF 페이지를 PNG 이미지로 변환하는 방법을 단계별로 안내합니다. |
 | [PDF를 PPT로](./pdf-to-ppt/) | Aspose.PDF for .NET을 사용하여 PDF를 PPT로 변환하는 방법을 단계별 가이드를 통해 알아보세요. 쉽고 효율적이며 프레젠테이션에 적합합니다. |  

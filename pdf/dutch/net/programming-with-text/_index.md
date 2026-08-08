@@ -70,6 +70,7 @@ De tutorials "Programmeren met tekst" van Aspose.PDF voor .NET bieden een uitgeb
 | [Tekst en afbeelding als alinea in PDF-bestand](./text-and-image-as-paragraph/) | Maak PDF's met tekst en afbeeldingen met Aspose.PDF voor .NET. Leer stap voor stap hoe u tekst en inline afbeeldingen toevoegt. |  
 | [Tekstsegmenten in PDF-bestand](./text-segments/) | Leer hoe u met behulp van reguliere expressies in Aspose.PDF voor .NET naar specifieke tekstsegmenten in een PDF-bestand kunt zoeken. |  
 | [Latex-script gebruiken in PDF-bestand](./use-latex-script/) | Leer hoe u Latex-script kunt gebruiken om wiskundige uitdrukkingen of formules toe te voegen aan een PDF-bestand met behulp van Aspose.PDF voor .NET. |  
+| [Span-element maken in Word met C# – Complete gids](./create-span-element-in-word-with-c-complete-guide/) | Leer hoe u met C# een span-element in een Word-document maakt, inclusief volledige codevoorbeelden en stapsgewijze uitleg. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

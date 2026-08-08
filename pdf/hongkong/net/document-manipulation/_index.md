@@ -17,7 +17,7 @@
 
 ## 可用教程
 
-### [使用 Aspose.PDF for .NET 為 PDF 新增日期和時間戳](./aspose-pdf-net-date-time-stamps-annotations/)
+### [使用 Aspose.PDF for .NET 為 PDF 新增日期和時間戳記](./aspose-pdf-net-date-time-stamps-annotations/)
 了解如何使用 Aspose.PDF for .NET 有效率地將日期和時間戳記或註解新增至 PDF 文件中。透過這些簡單易行的步驟來增強文件管理。
 
 ### [使用 Aspose.PDF for .NET 為 PDF 新增頁尾](./add-footer-pdf-aspose-dotnet/)
@@ -37,6 +37,8 @@ Aspose.PDF Net 程式碼教學
 
 ### [使用 Aspose.PDF .NET 新增矩形和配置 PDF 頁面：綜合指南](./aspose-pdf-net-add-rectangles-configure-pages/)
 掌握使用 Aspose.PDF for .NET 在 PDF 中新增矩形和設定頁面。按照本指南可以有效地學習文件操作技術。
+
+### [使用 C# 向 PDF 新增矩形 – 完整程式設計指南](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
 
 ### [Aspose.PDF .NET：設定 PDF 頁邊距和自訂頁首/頁尾](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 掌握使用 Aspose.PDF for .NET 設定 PDF 頁邊距和自訂頁首/頁尾的技巧。請按照此詳細指南來增強文件佈局的一致性。

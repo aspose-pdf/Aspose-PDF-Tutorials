@@ -38,6 +38,9 @@ Leer hoe u pagina-einden toevoegt aan PDF-documenten met Aspose.PDF voor .NET. V
 ### [Rechthoeken toevoegen en PDF-pagina's configureren met Aspose.PDF .NET: een uitgebreide handleiding](./aspose-pdf-net-add-rectangles-configure-pages/)
 Leer rechthoeken toevoegen en pagina's configureren in PDF's met Aspose.PDF voor .NET. Volg deze handleiding om effectief technieken voor documentmanipulatie te leren.
 
+### [Rechthoek toevoegen aan PDF met C# – Complete programmeergids](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
+Leer hoe u een rechthoek toevoegt aan een PDF-document met C# en Aspose.PDF .NET in deze volledige programmeergids.
+
 ### [Aspose.PDF .NET: PDF-marges instellen en kopteksten/voetteksten aanpassen](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 Beheers de kunst van het instellen van paginamarges en het aanpassen van kop- en voetteksten in uw PDF's met Aspose.PDF voor .NET. Volg deze gedetailleerde handleiding om de consistentie van uw documentlay-out te verbeteren.
 
