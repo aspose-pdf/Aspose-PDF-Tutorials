@@ -311,6 +311,9 @@ Aprenda a dividir PDFs de várias páginas e criar novos arquivos PDF usando o A
 ### [Guia definitivo para manipulação de PDF com Aspose.PDF .NET: carregue, salve e substitua texto com eficiência](./master-pdf-manipulation-aspose-pdf-net/)
 Aprenda a dominar a manipulação de PDFs usando o Aspose.PDF para .NET. Este guia aborda como carregar, salvar e substituir texto em PDFs, ideal para desenvolvedores que buscam eficiência.
 
+### [Como remover fontes incorporadas de PDF – Guia passo a passo em C#](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
+Aprenda a remover fontes incorporadas de PDFs usando Aspose.PDF para .NET com este guia passo a passo em C#.
+
 ## Recursos adicionais
 
 - [Aspose.PDF para documentação da Net](https://docs.aspose.com/pdf/net/)

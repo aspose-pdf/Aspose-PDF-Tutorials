@@ -35,6 +35,7 @@ Eine umfassende Sammlung von Tutorials zeigt, wie Sie mit Aspose.PDF für .NET m
 | [Festlegen der Formatierung für freie Textanmerkungen](./setfreetextannotationformatting/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET die Formatierung von Freitextanmerkungen in PDF-Dokumenten festlegen. |  
 | [Wörter durchstreichen](./strikeoutwords/) | Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET Wörter in einer PDF-Datei durchstreichen. Verbessern Sie Ihre Fähigkeiten zur Dokumentbearbeitung. |  
 | [Freitext-PDF-Anmerkungen aktualisieren](./updatefreetextannotation/) Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET Freitextanmerkungen in PDF-Dokumenten aktualisieren. |  
+| [So verwenden Sie Repair in Aspose.PDF – Defekte Anmerkungen reparieren](./how-to-use-repair-in-aspose-pdf-fix-broken-annotations/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET die Repair‑Funktion nutzen, um beschädigte Anmerkungen in PDF‑Dokumenten zu reparieren. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

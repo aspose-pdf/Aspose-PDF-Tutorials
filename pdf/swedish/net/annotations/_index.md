@@ -35,6 +35,7 @@ En omfattande samling handledningar som visar hur man arbetar med annoteringar i
 | [Ange formatering för fri textannotering](./setfreetextannotationformatting/) | Lär dig hur du ställer in formatering för fritextanteckningar i PDF-dokument med Aspose.PDF för .NET med den här steg-för-steg-guiden. |  
 | [Stryk ut ord](./strikeoutwords/) | Lär dig hur du stryker över ord i en PDF med Aspose.PDF för .NET med den här omfattande steg-för-steg-guiden. Förbättra dina dokumentredigeringsfärdigheter. |  
 | [Uppdatera fritext PDF-annotering](./updatefreetextannotation/) Lär dig hur du uppdaterar fritextanteckningar i PDF-dokument med Aspose.PDF för .NET med den här steg-för-steg-guiden. |  
+| [Hur du använder Repair i Aspose.PDF – Reparera trasiga annoteringar](./how-to-use-repair-in-aspose-pdf-fix-broken-annotations/) Lär dig hur du reparerar PDF-filer och fixar trasiga annoteringar med Aspose.PDF för .NET i denna steg-för-steg-guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

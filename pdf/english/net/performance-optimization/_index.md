@@ -50,6 +50,12 @@ Master the art of converting SVG files to PDFs with precision and efficiency usi
 ### [Unembed Fonts in PDFs Using Aspose.PDF for .NET&#58; Reduce File Size and Improve Performance](./optimize-pdfs-unembed-fonts-aspose-pdf-net/)
 Learn how to unembed fonts from your PDF files using Aspose.PDF for .NET. Optimize PDF performance, reduce file size, and improve load times with this step-by-step guide.
 
+### [how to compress pdf with Aspose.Pdf in C# – Complete Step‑by‑Step Guide](./how-to-compress-pdf-with-aspose-pdf-in-c-complete-step-by-st/)
+Learn how to compress PDFs using Aspose.PDF in C# with a detailed step‑by‑step guide covering settings, options, and best practices.
+
+### [Aspose PDF Image Compression in C# – Reduce PDF Size Quickly](./aspose-pdf-image-compression-in-c-reduce-pdf-size-quickly/)
+Learn how to compress images in PDFs using Aspose.PDF for .NET, reducing file size quickly with simple C# code examples.
+
 ## Additional Resources
 
 - [Aspose.PDF for Net Documentation](https://docs.aspose.com/pdf/net/)

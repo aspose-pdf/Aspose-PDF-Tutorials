@@ -34,7 +34,11 @@
 | [Подпишите с помощью смарт-карты, используя подпись в файле PDF](./sign-with-smart-card-using-pdf-file-signature/) | Узнайте, как подписывать файлы PDF с помощью смарт-карты с Aspose.PDF для .NET. Следуйте этому пошаговому руководству для безопасных цифровых подписей. |  
 | [Подпишите с помощью смарт-карты, используя поле подписи](./sign-with-smart-card-using-signature-field/) | Узнайте, как безопасно подписывать PDF-файлы с помощью смарт-карты с помощью Aspose.PDF для .NET. Следуйте нашему пошаговому руководству для легкой реализации. |  
 | [Проверка подписей PDF в C# – Как читать подписанные PDF-файлы](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Узнайте, как проверять подписи PDF и читать подписанные файлы с помощью Aspose.PDF для .NET на C#. |  
+| [Проверка подписей PDF с Aspose.Pdf – Полное руководство](./check-pdf-signatures-with-aspose-pdf-complete-guide/) | Узнайте, как проверять подписи PDF с помощью Aspose.Pdf в полном пошаговом руководстве. |  
 | [Как восстановить PDF-файлы – Полное руководство на C# с Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Узнайте, как восстанавливать поврежденные PDF-файлы с помощью Aspose.PDF для .NET. Пошаговое руководство на C#. |  
+| [Создание PKCS7 Detached Signer в C# – Полное руководство](./create-pkcs7-detached-signer-in-c-complete-guide/) | Узнайте, как создать PKCS7 Detached Signer в C# с помощью Aspose.PDF для .NET. Пошаговое полное руководство. |  
+| [Получить имена подписей PDF с Aspose.PDF в C#](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | Узнайте, как извлечь имена подписей PDF с помощью Aspose.PDF для .NET в C#. |  
+| [Проверка подписи PDF в C# – Полное пошаговое руководство](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | Узнайте, как проверять подписи PDF в C# с помощью Aspose.PDF в полном пошаговом руководстве. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -45,6 +45,7 @@ Az Aspose.PDF for .NET „Címkézett PDF-ekkel való programozás” című okt
 | [Szövegszerkezeti elemek PDF fájlban](./text-structure-elements/) Tanulja meg a PDF-ek szövegszerkezeti elemeinek kezelését az Aspose.PDF for .NET segítségével. Ez a lépésről lépésre szóló útmutató mindent tartalmaz, amire szüksége van strukturált PDF-ek létrehozásához. |  
 | [PDF fájl érvényesítése](./validate-pdf/) | Ismerje meg, hogyan validálhat egy PDF fájlt az Aspose.PDF for .NET segítségével. Ellenőrizze a szabványoknak való megfelelését, és készítsen érvényesítési jelentést. |  
 | [Címkézett PDF létrehozása C#‑ban – Teljes lépésről‑lépésre útmutató](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Ismerje meg, hogyan hozhat létre teljesen címkézett PDF-et C#‑ban az Aspose.PDF for .NET segítségével, részletes lépésről‑lépésre útmutatóval. |  
+| [PDF dokumentum létrehozása C# – Teljes útmutató címkézett szöveggel és pozicionálással](./create-pdf-document-c-full-guide-with-tagged-text-and-positi/) | Lépésről lépésre útmutató PDF dokumentum C#-ban történő létrehozásához, címkézett szöveggel és elemek pozicionálásával. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

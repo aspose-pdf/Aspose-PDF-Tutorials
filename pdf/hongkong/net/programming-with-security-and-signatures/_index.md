@@ -14,7 +14,7 @@
 
 # 使用安全性和簽名進行編程
 
-使用安全性和簽名進行程式教學將引導您了解 PDF 文件的安全性和簽名功能。您將學習如何使用密碼保護您的 PDF 文件、新增數位簽章以及驗證簽章文件的完整性。
+使用安全性和簽名進程式教學將引導您了解 PDF 文件的安全性和簽名功能。您將學習如何使用密碼保護您的 PDF 文件、新增數位簽章以及驗證簽章文件的完整性。
 
 本教學將為您詳細概述確保 PDF 文件的機密性和真實性的方法和技術。您將學習如何管理數位憑證、新增安全權限、應用程式安全性原則等。使用這些教程，您將能夠可靠、專業地保護您的 PDF 文件。
 
@@ -36,6 +36,10 @@
 | [在 C# 中檢查 PDF 簽章 – 如何讀取已簽署的 PDF 檔案](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) |了解如何使用 Aspose.PDF for .NET 在 C# 中讀取並驗證 PDF 簽章的步驟與技巧。 |
 | [使用簽名字段透過智慧卡簽名](./sign-with-smart-card-using-signature-field/) |了解如何使用 Aspose.PDF for .NET 的智慧卡安全地簽署 PDF。按照我們的逐步指南即可輕鬆實施。 |  
 | [如何修復 PDF 檔案 – 完整的 C# 指南（使用 Aspose.Pdf）](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) |了解如何使用 Aspose.PDF for .NET 修復受損的 PDF 檔案。逐步指南協助您恢復文件完整性。 |  
+| [使用 Aspose.Pdf 檢查 PDF 簽章 – 完整指南](./check-pdf-signatures-with-aspose-pdf-complete-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中檢查和驗證 PDF 簽章的完整步驟。 |  
+| [在 C# 中建立 PKCS7 分離簽署者 – 完整指南](./create-pkcs7-detached-signer-in-c-complete-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中建立 PKCS7 分離簽署，完整步驟指南。 |  
+| [在 C# 中使用 Aspose.PDF 檢索 PDF 簽章名稱](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) |了解如何使用 Aspose.PDF for .NET 在 C# 中取得 PDF 文件的簽章名稱，並透過範例程式碼快速實作。 |  
+| [在 C# 中驗證 PDF 簽章 – 完整步驟指南](./validate-pdf-signature-in-c-complete-step-by-step-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中完整驗證 PDF 簽章的每個步驟，確保文件真實性。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

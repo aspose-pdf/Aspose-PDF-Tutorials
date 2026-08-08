@@ -50,6 +50,12 @@
 ### [使用 Aspose.PDF for .NET 在 PDF 中取消嵌入字体：减小文件大小并提高性能](./optimize-pdfs-unembed-fonts-aspose-pdf-net/)
 了解如何使用 Aspose.PDF for .NET 从 PDF 文件中取消嵌入字体。本分步指南将帮助您优化 PDF 性能、减小文件大小并缩短加载时间。
 
+### [使用 Aspose.PDF 在 C# 中压缩 PDF 的完整分步指南](./how-to-compress-pdf-with-aspose-pdf-in-c-complete-step-by-st/)
+本指南详细演示如何在 C# 中使用 Aspose.PDF 压缩 PDF 文件，提升文件传输效率并保持质量。
+
+### [Aspose PDF 图像压缩（C#）- 快速减小 PDF 大小](./aspose-pdf-image-compression-in-c-reduce-pdf-size-quickly/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中压缩 PDF 图像，实现快速减小文件大小并提升性能。
+
 ## 其他资源
 
 - [Aspose.PDF 用于网络文档](https://docs.aspose.com/pdf/net/)

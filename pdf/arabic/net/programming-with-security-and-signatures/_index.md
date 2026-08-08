@@ -34,7 +34,11 @@
 | [التوقيع بالبطاقة الذكية باستخدام توقيع ملف PDF](./sign-with-smart-card-using-pdf-file-signature/) تعرّف على كيفية توقيع ملفات PDF باستخدام بطاقة ذكية مع Aspose.PDF لـ .NET. اتبع هذا الدليل خطوة بخطوة للحصول على توقيعات رقمية آمنة.  
 | [التوقيع باستخدام البطاقة الذكية باستخدام حقل التوقيع](./sign-with-smart-card-using-signature-field/) | تعرّف على كيفية توقيع ملفات PDF بأمان باستخدام بطاقة ذكية باستخدام Aspose.PDF لـ .NET. اتبع دليلنا خطوة بخطوة لسهولة التنفيذ. |  
 | [التحقق من توقيعات PDF في C# – كيفية قراءة ملفات PDF الموقعة](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | تعلم كيفية قراءة والتحقق من التوقيعات الرقمية في ملفات PDF باستخدام C# و Aspose.PDF. |
-| [كيفية إصلاح ملفات PDF – دليل C# كامل باستخدام Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | تعلم كيفية إصلاح ملفات PDF المتضررة باستخدام Aspose.PDF لـ .NET في دليل شامل خطوة بخطوة بلغة C#. |  
+| [التحقق من توقيعات PDF باستخدام Aspose.Pdf – دليل كامل](./check-pdf-signatures-with-aspose-pdf-complete-guide/) | تعلم كيفية التحقق من توقيعات PDF باستخدام Aspose.PDF في دليل شامل خطوة بخطوة. |
+| [التحقق من توقيع PDF في C# – دليل كامل خطوة بخطوة](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | تعلم كيفية التحقق من صحة توقيع PDF باستخدام C# و Aspose.PDF في دليل شامل خطوة بخطوة. |
+| [كيفية إصلاح ملفات PDF – دليل C# كامل باستخدام Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | تعلم كيفية إصلاح ملفات PDF المتضررة باستخدام Aspose.PDF لـ .NET في دليل شامل خطوة بخطوة بلغة C#. |
+| [إنشاء مُوقّع PKCS7 منفصل في C# – دليل كامل](./create-pkcs7-detached-signer-in-c-complete-guide/) | تعلم كيفية إنشاء توقيع PKCS7 منفصل في C# باستخدام Aspose.PDF لـ .NET. دليل خطوة بخطوة شامل. |
+| [استرجاع أسماء توقيعات PDF باستخدام Aspose.PDF في C#](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | تعلم كيفية استخراج أسماء التوقيعات الرقمية من ملفات PDF باستخدام Aspose.PDF في بيئة C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

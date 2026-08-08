@@ -35,6 +35,7 @@ Una colección completa de tutoriales que muestra cómo trabajar con anotaciones
 | [Establecer formato de anotación de texto libre](./setfreetextannotationformatting/) | Aprenda a configurar el formato de anotación de texto libre en documentos PDF usando Aspose.PDF para .NET con esta guía paso a paso. |  
 | [Tachar palabras](./strikeoutwords/) Aprenda a tachar palabras en un PDF con Aspose.PDF para .NET con esta completa guía paso a paso. Mejore sus habilidades de edición de documentos.  
 | [Actualizar anotación de texto libre en PDF](./updatefreetextannotation/) Aprenda a actualizar anotaciones de texto libre en documentos PDF usando Aspose.PDF para .NET con esta guía paso a paso. |  
+| [Reparar PDF – corregir anotaciones rotas](./how-to-use-repair-in-aspose-pdf-fix-broken-annotations/) Aprenda a usar la función Repair de Aspose.PDF para .NET y corregir anotaciones rotas en sus documentos PDF. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

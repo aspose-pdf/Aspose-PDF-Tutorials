@@ -207,7 +207,7 @@ Pelajari cara memangkas spasi kosong dari dokumen PDF secara efisien menggunakan
 Pelajari cara memperbarui tautan dalam file PDF secara terprogram menggunakan Aspose.PDF for .NET. Otomatiskan pembaruan tautan secara efisien dengan panduan langkah demi langkah ini.
 
 ### [Cara Memperbarui Warna Teks Tautan PDF Menggunakan Aspose.PDF .NET: Panduan Lengkap](./update-pdf-link-text-color-aspose-net/)
-Pelajari cara mengubah warna teks tautan dalam PDF dengan mudah menggunakan Aspose.PDF untuk .NET. Panduan lengkap ini mencakup kiat pemasangan, penerapan, dan pengoptimalan.
+Pelajari cara mengubah warna teks tautan dalam PDF dengan mudah menggunakan Aspose.PDF .NET. Panduan lengkap ini mencakup kiat pemasangan, penerapan, dan pengoptimalan.
 
 ### [Memasukkan Halaman ke dalam PDF Menggunakan Aspose.PDF untuk .NET: Panduan Lengkap untuk Manipulasi Dokumen](./insert-pages-pdf-aspose-dotnet-guide/)
 Pelajari cara memasukkan halaman ke dalam PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini mencakup semuanya mulai dari penyiapan hingga penerapan, cocok untuk pengembang C#.
@@ -310,6 +310,9 @@ Pelajari cara membagi PDF multi-halaman dan membuat file PDF baru menggunakan As
 
 ### [Panduan Lengkap untuk Manipulasi PDF dengan Aspose.PDF .NET: Memuat, Menyimpan & Mengganti Teks Secara Efisien](./master-pdf-manipulation-aspose-pdf-net/)
 Pelajari cara menguasai manipulasi PDF menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup pemuatan, penyimpanan, dan penggantian teks dalam PDF, ideal bagi pengembang yang menginginkan efisiensi.
+
+### [Cara Menghapus Font Tersemat pada PDF – Panduan Langkah demi Langkah C#](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
+Pelajari cara menghapus font tersemat dari file PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode C# yang jelas.
 
 ## Sumber Daya Tambahan
 

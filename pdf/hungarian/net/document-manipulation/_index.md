@@ -75,7 +75,9 @@ Tanuld meg, hogyan szabhatsz testre PDF oldalakat az Aspose.PDF for .NET segíts
 Tanuld meg, hogyan törölhetsz hatékonyan bizonyos oldalakat egy PDF-ből az Aspose.PDF for .NET használatával ezzel a lépésről lépésre haladó C# oktatóanyaggal.
 
 ### [Hatékony PDF-optimalizálás: Nem használt objektumok eltávolítása az Aspose.PDF for .NET használatával](./optimize-pdf-aspose-pdf-net-remove-unused-objects/)
-Ismerje meg, hogyan optimalizálhatja a PDF-fájlokat a nem használt objektumok eltávolításával az Aspose.PDF for .NET segítségével, javítva a fájlméretet és a teljesítményt.
+
+### [Beágyazott betűtípusok eltávolítása PDF-ből – Lépésről‑lépésre C# útmutató](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
+Tanulja meg, hogyan távolíthatja el a PDF-fájlok beágyazott betűtípusait C#-ban az Aspose.PDF for .NET segítségével.
 
 ### [Hatékony PDF oldalkezelés az Aspose.PDF for .NET segítségével: Fejlesztői útmutató](./manipulate-pdf-pages-aspose-dot-net/)
 Tanulja meg a PDF oldalak hatékony kezelését az Aspose.PDF for .NET használatával. Ez az útmutató az Adobe Acrobat nélküli forgatást, nagyítást és az eredet beállítását ismerteti.
@@ -240,7 +242,7 @@ Ismerje meg, hogyan kezelheti programozottan a PDF-eket .NET-ben az Aspose.PDF h
 Ismerje meg, hogyan automatizálhatja a PDF-feladatokat az Aspose.PDF for .NET használatával, beleértve a fájlok összefűzését, oldalak hozzáadását, szövegbélyegzők beszúrását és hivatkozások létrehozását.
 
 ### [PDF-manipuláció mestere az Aspose.PDF .NET segítségével: Dokumentumok egyszerű betöltése és módosítása](./mastering-pdf-manipulation-aspose-dotnet/)
-Tanuld meg, hogyan töltheted be, navigálhatsz és módosíthatod a PDF dokumentumokat a hatékony Aspose.PDF .NET könyvtár segítségével. Fejleszd alkalmazásaid még ma!
+Tanuld meg, hogyan töltheted be, navigálhatsz és módosíthasd a PDF dokumentumokat a hatékony Aspose.PDF .NET könyvtár segítségével. Fejleszd alkalmazásaid még ma!
 
 ### [PDF-manipuláció mestere az Aspose.PDF .NET segítségével: Betöltési, keresési és jegyzetelési útmutató](./aspose-pdf-dotnet-mastering-pdfs-manipulation-guide/)
 Tanuld meg elsajátítani a PDF-manipulációt az Aspose.PDF for .NET segítségével. Ez az útmutató a dokumentumok betöltését, a szövegkeresést és az olyan megjegyzések alkalmazását ismerteti, mint az áthúzás.
