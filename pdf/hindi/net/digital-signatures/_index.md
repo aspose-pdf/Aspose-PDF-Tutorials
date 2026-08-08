@@ -53,6 +53,9 @@ C# में PDF दस्तावेज़ लोड करके उसे PD
 ### [Aspose के साथ PDF हस्ताक्षर सत्यापित करें – PDF को HTML में परिवर्तित करें](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
 Aspose का उपयोग करके PDF हस्ताक्षर की वैधता जांचें और PDF को HTML में बदलें।
 
+### [C# में डिजिटल हस्ताक्षर PDF जोड़ें – पूर्ण गाइड](./add-digital-signature-pdf-in-c-complete-guide/)
+C# का उपयोग करके PDF में डिजिटल हस्ताक्षर जोड़ने की पूरी प्रक्रिया सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.PDF for Net दस्तावेज़ीकरण](https://docs.aspose.com/pdf/net/)

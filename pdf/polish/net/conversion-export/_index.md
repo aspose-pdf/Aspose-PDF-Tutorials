@@ -98,6 +98,9 @@ Dowiedz się, jak konwertować złożone dokumenty PDF do edytowalnego formatu T
 ### [Konwertuj PDF do Worda za pomocą Aspose.PDF .NET: kompleksowy przewodnik](./convert-pdf-word-aspose-net/)
 Dowiedz się, jak bezproblemowo konwertować pliki PDF do formatów DOC i DOCX za pomocą Aspose.PDF dla .NET. Opanuj zaawansowane techniki konwersji dzięki naszemu przewodnikowi krok po kroku.
 
+### [Jak wyeksportować DOCX – Przewodnik krok po kroku dla programistów C#](./how-to-export-docx-step-by-step-guide-for-c-developers/)
+Dowiedz się, jak wyeksportować dokumenty DOCX przy użyciu Aspose.PDF w C#, krok po kroku, z praktycznymi przykładami.
+
 ### [Konwersja PDF do XML przy użyciu Aspose.PDF dla .NET: Przewodnik krok po kroku](./convert-pdf-to-xml-aspose-pdf-net/)
 Dowiedz się, jak konwertować pliki PDF do formatu XML za pomocą Aspose.PDF dla platformy .NET. Ulepsz integrację i możliwości przetwarzania danych.
 

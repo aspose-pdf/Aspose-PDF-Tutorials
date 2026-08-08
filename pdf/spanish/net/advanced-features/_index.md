@@ -50,6 +50,9 @@ Aprenda a crear documentos PDF accesibles y etiquetados con Aspose.PDF en .NET. 
 ### [Cómo crear archivos PDF multicapa con Aspose.PDF para .NET: una guía completa](./create-multi-layer-pdfs-aspose-pdf-dotnet/)
 Aprenda a crear documentos PDF multicapa dinámicos e interactivos utilizando Aspose.PDF para .NET con esta guía paso a paso.
 
+### [Guardar cada capa PDF con Aspose.Pdf – Guía paso a paso](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
+Aprenda a guardar cada capa de un PDF usando Aspose.Pdf con esta guía paso a paso en C#.
+
 ### [Cómo crear archivos PDF etiquetados con Aspose.PDF para .NET: una guía avanzada](./creating-tagged-pdfs-aspose-pdf-dotnet/)
 Aprenda a crear documentos PDF etiquetados y accesibles con Aspose.PDF para .NET. Mejore la estructura y la accesibilidad de sus documentos con esta guía completa.
 

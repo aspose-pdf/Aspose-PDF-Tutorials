@@ -98,6 +98,9 @@ Leer hoe u complexe PDF-documenten kunt converteren naar een bewerkbaar TeX-form
 ### [PDF naar Word converteren met Aspose.PDF .NET: een uitgebreide handleiding](./convert-pdf-word-aspose-net/)
 Leer hoe u PDF-bestanden naadloos kunt converteren naar DOC- en DOCX-formaten met Aspose.PDF voor .NET. Leer geavanceerde conversietechnieken met onze stapsgewijze handleiding.
 
+### [Hoe DOCX exporteren – Stapsgewijze handleiding voor C#-ontwikkelaars](./how-to-export-docx-step-by-step-guide-for-c-developers/)
+Leer hoe u DOCX-bestanden exporteert met Aspose.PDF voor .NET in C# met praktische codevoorbeelden.
+
 ### [PDF naar XML converteren met Aspose.PDF voor .NET: stapsgewijze handleiding](./convert-pdf-to-xml-aspose-pdf-net/)
 Leer hoe u PDF-bestanden naar XML-formaat converteert met Aspose.PDF voor .NET. Verbeter de mogelijkheden voor data-integratie en -verwerking.
 

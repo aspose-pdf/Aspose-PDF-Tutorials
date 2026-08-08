@@ -49,6 +49,7 @@ Aspose.PDF for .NET의 "이미지 프로그래밍" 튜토리얼은 PDF 문서에
 | [PDF 파일의 이미지 크기 설정](./set-image-size/) | Aspose.PDF for .NET을 사용하여 PDF의 이미지 크기를 설정하는 방법을 알아보세요. 이 단계별 가이드는 이미지 크기 조정, 페이지 속성 조정, PDF 저장 방법을 안내합니다. |  
 | [PDF 파일의 이미지 축소](./shrink-images/) | Aspose.PDF for .NET을 사용하여 단계별 가이드를 통해 PDF 파일의 이미지를 쉽게 축소하고, 품질을 유지하면서 파일 크기를 줄일 수 있습니다. |  
 | [XImage 컬렉션에 이미지 저장](./store-image-in-ximage-collection/) | 이 단계별 가이드를 통해 Aspose.PDF for .NET을 사용하여 XImage 컬렉션에 이미지를 저장하는 방법을 알아보세요. |  
+| [빈 PDF 페이지 만들기 – 이미지 추가, 자르기 및 크기 조정 전체 가이드](./create-blank-pdf-page-full-guide-to-adding-cropping-resizing/) | Aspose.PDF for .NET을 사용하여 빈 PDF 페이지를 만들고 이미지 추가, 자르기, 크기 조정하는 방법을 단계별로 안내합니다. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

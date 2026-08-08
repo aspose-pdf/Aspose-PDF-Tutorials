@@ -17,6 +17,9 @@ Bemästra PDF-dokumenthantering med våra detaljerade Aspose.PDF .NET-handlednin
 
 ## Tillgängliga handledningar
 
+### [Hur man jämför PDF-filer med Aspose – steg‑för‑steg‑guide](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
+Lär dig hur du jämför två PDF-dokument programatiskt med Aspose.PDF för .NET i en enkel steg‑för‑steg‑guide.
+
 ### [Lägg till datum- och tidsstämplar till PDF-filer med Aspose.PDF för .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 Lär dig hur du effektivt lägger till datum- och tidsstämplar eller anteckningar i dina PDF-dokument med Aspose.PDF för .NET. Förbättra dokumenthanteringen med dessa enkla steg.
 
@@ -310,6 +313,9 @@ Lär dig hur du delar upp flersidiga PDF-filer och skapar nya PDF-filer med Aspo
 
 ### [Ultimat guide till PDF-manipulation med Aspose.PDF .NET: Ladda, spara och ersätt text effektivt](./master-pdf-manipulation-aspose-pdf-net/)
 Lär dig hur du bemästrar PDF-manipulation med Aspose.PDF för .NET. Den här guiden behandlar hur man laddar, sparar och ersätter text i PDF-filer, perfekt för utvecklare som söker effektivitet.
+
+### [Hur man plattar ut PDF med Aspose.PDF – Komplett guide](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+Lär dig hur du plattar ut PDF-filer för att göra dem oföränderliga med Aspose.PDF i .NET.
 
 ## Ytterligare resurser
 

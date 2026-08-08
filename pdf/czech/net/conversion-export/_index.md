@@ -108,7 +108,7 @@ Naučte se, jak bez problémů převádět dokumenty PDF/A do standardních PDF 
 Naučte se, jak pomocí Aspose.PDF .NET transformovat PDF dokumenty do interaktivních, webových formátů HTML, včetně vlastních CSS stylů.
 
 ### [Převod PS do PDF v C# pomocí Aspose.PDF .NET: Podrobný návod](./convert-ps-to-pdf-aspose-dotnet-csharp/)
-Naučte se, jak efektivně převádět soubory PostScript do PDF ve vašich .NET aplikacích pomocí Aspose.PDF. Postupujte podle tohoto komplexního průvodce s příklady kódu.
+Naučte se, jak efektivně převádět soubory PostScript do PDF ve svých .NET aplikacích pomocí Aspose.PDF. Postupujte podle tohoto komplexního průvodce s příklady kódu.
 
 ### [Převod PDF souborů RGB do stupňů šedi pomocí Aspose.PDF pro .NET | Komplexní průvodce](./convert-rgb-pdfs-to-grayscale-aspose-pdf-net/)
 Naučte se, jak efektivně převádět PDF soubory ve formátu RGB do stupňů šedi pomocí nástroje Aspose.PDF pro .NET. Tento podrobný návod zajišťuje konzistenci návrhu a zmenšení velikosti souboru.
@@ -142,6 +142,9 @@ Naučte se, jak efektivně exportovat data z aplikací do PDF pomocí Aspose.PDF
 
 ### [Export anotací PDF pomocí Aspose.PDF .NET: Komplexní průvodce](./export-annotations-aspose-pdf-net/)
 Naučte se, jak efektivně exportovat anotace z PDF souborů pomocí Aspose.PDF pro .NET. Tato příručka se zabývá nastavením, implementací a osvědčenými postupy.
+
+### [Jak exportovat DOCX – krok za krokem průvodce pro vývojáře C#](./how-to-export-docx-step-by-step-guide-for-c-developers/)
+Naučte se exportovat soubory DOCX pomocí Aspose.PDF pro .NET s podrobnými příklady v C#.
 
 ### [Export PDF dat do XML pomocí Aspose.PDF pro .NET: Podrobný návod](./export-pdf-data-to-xml-aspose-dotnet-guide/)
 Naučte se, jak efektivně exportovat data z PDF formulářů do strukturovaného XML pomocí Aspose.PDF pro .NET, výkonné knihovny určené pro manipulaci s PDF.

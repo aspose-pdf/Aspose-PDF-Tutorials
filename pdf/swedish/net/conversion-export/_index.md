@@ -146,6 +146,9 @@ Lär dig hur du effektivt exporterar anteckningar från PDF-filer med Aspose.PDF
 ### [Exportera PDF-data till XML med Aspose.PDF för .NET: En steg-för-steg-guide](./export-pdf-data-to-xml-aspose-dotnet-guide/)
 Lär dig hur du effektivt exporterar PDF-formulärdata till strukturerad XML med hjälp av Aspose.PDF för .NET, ett kraftfullt bibliotek utformat för PDF-manipulation.
 
+### [Hur man exporterar DOCX – Steg‑för‑steg‑guide för C#‑utvecklare](./how-to-export-docx-step-by-step-guide-for-c-developers/)
+Lär dig hur du exporterar DOCX-filer med Aspose.PDF för .NET i C#, med detaljerade kodexempel och bästa praxis.
+
 ### [Formatera HTML till PDF med Aspose.PDF för .NET: En steg-för-steg-guide](./format-html-pdf-aspose-dotnet-guide/)
 Lär dig hur du enkelt formaterar HTML-innehåll i PDF-filer med Aspose.PDF för .NET med den här omfattande guiden. Perfekt för utvecklare som söker en effektiv konverteringsprocess.
 

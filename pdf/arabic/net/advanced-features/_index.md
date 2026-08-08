@@ -65,6 +65,9 @@
 ### [كيفية مقارنة ملفات PDF في C# – دليل كامل لإنشاء فرق PDF](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 تعرف على كيفية مقارنة ملفات PDF في C# وإنشاء فرق PDF باستخدام Aspose.PDF بسهولة ودقة.
 
+### [حفظ كل طبقة PDF باستخدام Aspose.Pdf – دليل خطوة بخطوة](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
+تعلم كيفية حفظ كل طبقة من ملفات PDF بشكل منفصل باستخدام Aspose.Pdf عبر خطوات واضحة وعملية.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

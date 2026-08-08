@@ -240,10 +240,10 @@ Ismerje meg, hogyan kezelheti programozottan a PDF-eket .NET-ben az Aspose.PDF h
 Ismerje meg, hogyan automatizálhatja a PDF-feladatokat az Aspose.PDF for .NET használatával, beleértve a fájlok összefűzését, oldalak hozzáadását, szövegbélyegzők beszúrását és hivatkozások létrehozását.
 
 ### [PDF-manipuláció mestere az Aspose.PDF .NET segítségével: Dokumentumok egyszerű betöltése és módosítása](./mastering-pdf-manipulation-aspose-dotnet/)
-Tanuld meg, hogyan töltheted be, navigálhatsz és módosíthatod a PDF dokumentumokat a hatékony Aspose.PDF .NET könyvtár segítségével. Fejleszd alkalmazásaid még ma!
+Tanuld meg, hogyan töltheted be, navigálhatsz és módosíthasd a PDF dokumentumokat a hatékony Aspose.PDF .NET könyvtár segítségével. Fejleszd alkalmazásaid még ma!
 
 ### [PDF-manipuláció mestere az Aspose.PDF .NET segítségével: Betöltési, keresési és jegyzetelési útmutató](./aspose-pdf-dotnet-mastering-pdfs-manipulation-guide/)
-Tanuld meg elsajátítani a PDF-manipulációt az Aspose.PDF for .NET segítségével. Ez az útmutató a dokumentumok betöltését, a szövegkeresést és az olyan megjegyzések alkalmazását ismerteti, mint az áthúzás.
+Tanuld meg elsajátítani a PDF-manipulációt az Aspose.PDF for .NET segítségével. Ez az útmutató a dokumentumok betöltését, a szövegkeresést és az olyan megjegyzéseket alkalmazását ismerteti, mint az áthúzás.
 
 ### [PDF-manipuláció mesterfokon az Aspose.PDF for .NET segítségével: Átfogó útmutató](./mastering-pdf-manipulation-aspose-pdf-net-guide/)
 Ismerje meg, hogyan hozhat létre, módosíthat, egyesíthet és kinyerhet adatokat PDF fájlokból hatékonyan az Aspose.PDF for .NET segítségével. Javítsa dokumentum-munkafolyamatait és növelje termelékenységét.
@@ -310,6 +310,12 @@ Tanuld meg, hogyan oszthatsz fel többoldalas PDF fájlokat és hogyan hozhatsz 
 
 ### [Végső útmutató a PDF-manipulációhoz az Aspose.PDF .NET segítségével: Szöveg hatékony betöltése, mentése és cseréje](./master-pdf-manipulation-aspose-pdf-net/)
 Tanuld meg, hogyan mesterien manipulálhatod a PDF-eket az Aspose.PDF for .NET segítségével. Ez az útmutató a PDF-ekben lévő szöveg betöltését, mentését és cseréjét ismerteti, ideális a hatékonyságra törekvő fejlesztők számára.
+
+### [PDF laposítása az Aspose.PDF használatával – Teljes útmutató](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+Ismerje meg, hogyan laposíthatja a PDF fájlokat az Aspose.PDF segítségével, hogy a tartalom ne legyen szerkeszthető.
+
+### [PDF-ek összehasonlítása az Aspose segítségével – lépésről lépésre útmutató](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
+Ismerje meg, hogyan hasonlíthatja össze két PDF fájlt az Aspose.PDF for .NET segítségével, részletes kódpéldákkal és tippekkel.
 
 ## További források
 

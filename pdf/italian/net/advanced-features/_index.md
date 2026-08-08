@@ -23,6 +23,9 @@ Scopri come accedere e modificare gli elementi figlio nei PDF taggati con Aspose
 ### [Aggiungere livelli di linee colorate ai PDF utilizzando Aspose.PDF per .NET: una guida completa](./add-colored-lines-pdfs-using-aspose-pdf-net/)
 Scopri come migliorare i tuoi documenti PDF aggiungendo livelli di linee colorate utilizzando Aspose.PDF per .NET. Questa guida fornisce istruzioni dettagliate e applicazioni pratiche.
 
+### [Salva ogni livello PDF con Aspose.Pdf – Guida passo‑passo](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
+Impara a salvare individualmente i livelli di un PDF utilizzando Aspose.Pdf con una procedura dettagliata passo‑passo.
+
 ### [Aspose.PDF .NET: Migliorare l'accessibilità dei PDF tramite l'aggiunta di tag](./aspose-pdf-net-accessible-tagging-guide/)
 Scopri come utilizzare Aspose.PDF .NET per taggare in modo accessibile i PDF. Imposta facilmente titoli, lingue e strutture logiche.
 

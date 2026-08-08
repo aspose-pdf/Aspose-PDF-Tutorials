@@ -35,6 +35,8 @@ Hướng dẫn cung cấp cho bạn tổng quan chi tiết về các phương ph
 | [Ký bằng thẻ thông minh sử dụng chữ ký tệp PDF](./sign-with-smart-card-using-pdf-file-signature/) | Tìm hiểu cách ký tệp PDF bằng thẻ thông minh với Aspose.PDF cho .NET. Thực hiện theo hướng dẫn từng bước này để có chữ ký số an toàn. |  
 | [Ký bằng thẻ thông minh sử dụng trường chữ ký](./sign-with-smart-card-using-signature-field/) | Tìm hiểu cách ký PDF an toàn bằng thẻ thông minh với Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để triển khai dễ dàng. |  
 | [Cách sửa tệp PDF – Hướng dẫn C# đầy đủ với Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Học cách sửa chữa các tệp PDF bị hỏng bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết bằng C#. |  
+| [Xác thực chữ ký số PDF trong C# – Hướng dẫn đầy đủ Aspose.PDF](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) | Học cách xác thực chữ ký số PDF bằng C# và Aspose.PDF trong hướng dẫn chi tiết này. |  
+| [Cấu hình máy chủ CA trong C# – Hướng dẫn đầy đủ để xác thực chữ ký tài liệu Word](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) | Học cách cấu hình máy chủ CA trong C# để xác thực chữ ký trên tài liệu Word bằng Aspose.Words cho .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

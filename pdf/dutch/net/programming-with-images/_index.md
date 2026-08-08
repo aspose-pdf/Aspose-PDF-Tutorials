@@ -21,6 +21,7 @@ De tutorials "Programmeren met afbeeldingen" van Aspose.PDF voor .NET begeleiden
 | Titel | Beschrijving |
 | --- | --- | 
 | [Afbeelding toevoegen in PDF-bestand](./add-image/) | Leer hoe u afbeeldingen programmatisch aan een PDF-bestand kunt toevoegen met Aspose.PDF voor .NET. Inclusief een stapsgewijze handleiding, voorbeeldcode en veelgestelde vragen voor een naadloze implementatie. |  
+| [Lege PDF-pagina maken – Volledige gids voor toevoegen, bijsnijden en aanpassen van afbeeldingen](./create-blank-pdf-page-full-guide-to-adding-cropping-resizing/) | Leer hoe u een lege PDF-pagina maakt en afbeeldingen toevoegt, bijsnijdt en schaalt met Aspose.PDF voor .NET. |  
 | [Alle pagina's naar TIFF](./all-pages-to-tiff/) | Leer in deze stapsgewijze tutorial hoe u alle pagina's van een PDF naar TIFF kunt converteren met Aspose.PDF voor .NET. Eenvoudig en efficiënt documentbeheer. |  
 | [Bradley-algoritme](./bradley-algorithm/) | Leer hoe u een PDF naar TIFF converteert met behulp van het Bradley-algoritme in Aspose.PDF voor .NET. Stapsgewijze handleiding, vereisten en veelgestelde vragen voor een naadloze conversie. |  
 | [CGM-afbeelding naar PDF](./cgm-image-to-pdf/) | Converteer CGM-afbeeldingen eenvoudig naar PDF met Aspose.PDF voor .NET. Volg deze eenvoudige stapsgewijze handleiding en stroomlijn uw bestandsconversieproces. |  

@@ -104,6 +104,9 @@ Dowiedz się, jak tworzyć dostępne, oznaczone pliki PDF z osadzonymi obrazami 
 ### [Jak tworzyć przezroczyste prostokąty w plikach PDF za pomocą Aspose.PDF dla .NET](./create-transparent-rectangles-aspose-pdf-dotnet/)
 Dowiedz się, jak ulepszyć swoje dokumenty PDF, tworząc prostokąty z przezroczystością alfa za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku.
 
+### [Jak narysować prostokąt w plikach PDF przy użyciu C# – przewodnik krok po kroku](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
+Dowiedz się, jak narysować prostokąt w pliku PDF przy użyciu C# i Aspose.PDF .NET, krok po kroku, z przykładami kodu.
+
 ### [Jak usunąć obrazy z plików PDF za pomocą Aspose.PDF dla .NET - kompletny przewodnik](./delete-images-aspose-pdf-net/)
 Dowiedz się, jak skutecznie usuwać obrazy z plików PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje konfigurację, przykłady kodu i najlepsze praktyki.
 

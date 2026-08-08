@@ -65,6 +65,9 @@ Pelajari cara membuat dokumen PDF yang mudah diakses dan diberi tag dengan gaya 
 ### [Cara Membandingkan PDF di C# – Panduan Lengkap Membuat PDF Diff](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 Pelajari cara membandingkan dua file PDF menggunakan C# dan menghasilkan perbedaan PDF dengan Aspose.PDF.
 
+### [Simpan Setiap Lapisan PDF dengan Aspose.Pdf – Panduan Langkah demi Langkah](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
+Pelajari cara menyimpan setiap lapisan PDF secara terpisah menggunakan Aspose.Pdf dalam panduan langkah demi langkah.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)
