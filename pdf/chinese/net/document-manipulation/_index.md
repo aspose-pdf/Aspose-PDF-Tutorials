@@ -311,6 +311,9 @@ Aspose.PDF Net 代码教程
 ### [使用 Aspose.PDF .NET 进行 PDF 操作的终极指南：高效加载、保存和替换文本](./master-pdf-manipulation-aspose-pdf-net/)
 学习如何使用 Aspose.PDF for .NET 掌握 PDF 操作。本指南涵盖 PDF 中的文本加载、保存和替换，非常适合追求效率的开发人员。
 
+### [保存已更新的 PDF – 使用 Aspose.Pdf 编辑 PDF 资源](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+了解如何使用 Aspose.Pdf 在 .NET 中保存已编辑的 PDF 并管理相关资源。
+
 ## 其他资源
 
 - [Aspose.PDF 用于网络文档](https://docs.aspose.com/pdf/net/)

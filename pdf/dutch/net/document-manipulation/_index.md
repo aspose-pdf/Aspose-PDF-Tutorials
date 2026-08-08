@@ -311,6 +311,9 @@ Leer hoe u PDF's met meerdere pagina's kunt splitsen en nieuwe PDF-bestanden kun
 ### [Ultieme gids voor PDF-manipulatie met Aspose.PDF .NET: tekst efficiënt laden, opslaan en vervangen](./master-pdf-manipulation-aspose-pdf-net/)
 Leer hoe je PDF-bewerking onder de knie krijgt met Aspose.PDF voor .NET. Deze handleiding behandelt het laden, opslaan en vervangen van tekst in PDF's, ideaal voor ontwikkelaars die op zoek zijn naar efficiëntie.
 
+### [Bijgewerkte PDF opslaan – PDF-bronnen bewerken met Aspose.Pdf](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+Leer hoe u een bewerkte PDF opslaat en PDF-bronnen bijwerkt met Aspose.Pdf in .NET.
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)
