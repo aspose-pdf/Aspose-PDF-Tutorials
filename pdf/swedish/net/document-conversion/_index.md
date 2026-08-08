@@ -33,7 +33,8 @@ Du lär dig hur du anger konverteringsinställningar, extraherar text och bilder
 | [PDFA till PDF](./pdfa-to-pdf/) | Lär dig hur du konverterar PDF/A till PDF med Aspose.PDF för .NET i den här omfattande steg-för-steg-guiden. |
 | [PDF till DOC](./pdf-to-doc/) | Lär dig hur du konverterar PDF till DOC med Aspose.PDF för .NET i den här omfattande guiden. Steg-för-steg-instruktioner och tips ingår. |
 | [PDF till EPUB](./pdf-to-epub/) | Lär dig hur du konverterar PDF till EPUB med Aspose.PDF för .NET i den här steg-för-steg-handledningen. Perfekt för utvecklare och innehållsskapare. |
-| [PDF till HTML](./pdf-to-html/) | Lär dig hur du konverterar PDF till HTML med Aspose.PDF för .NET med den här steg-för-steg-guiden. Perfekt för utvecklare och innehållsskapare. |
+| [PDF till HTML](./pdf-to-html/) | Lär dig hur du konverterar PDF till HTML med Aspose.PDF för .NET med den här steg-för-steg-guiden. |
+| [Konvertera PDF till HTML i C# – Enkelt steg‑för‑steg‑guide](./convert-pdf-to-html-in-c-simple-step-by-step-guide/) | Lär dig hur du konverterar PDF till HTML med Aspose.PDF för .NET i en enkel steg‑för‑steg‑guide. |
 | [PDF till PDFA](./pdf-to-pdfa/) Lär dig hur du konverterar PDF-filer till PDF/A-format med Aspose.PDF för .NET med den här steg-för-steg-handledningen. |
 | [PDF till PDFA3b](./pdf-to-pdfa3b/) | Lär dig att konvertera PDF-filer till PDF/A-3B-format utan problem med Aspose.PDF för .NET i den här steg-för-steg-guiden. |
 | [Konvertera PDF till PDF/X‑4 i C# – Steg‑för‑steg ASP.NET PDF‑handledning](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Lär dig hur du konverterar PDF till PDF/X‑4 med Aspose.PDF för .NET i en detaljerad steg‑för‑steg‑guide. |
@@ -58,6 +59,8 @@ Du lär dig hur du anger konverteringsinställningar, extraherar text och bilder
 | [XML till PDF](./xml-to-pdf/) | Lär dig hur du konverterar XML till PDF med Aspose.PDF för .NET i den här omfattande steg-för-steg-handledningen, komplett med kodexempel och detaljerade förklaringar. |
 | [XML till PDFSet-bildsökväg](./xml-to-pdfset-image-path/) | Lär dig hur du enkelt konverterar XML till PDF med Aspose.PDF för .NET. Den här detaljerade guiden guidar dig genom processen steg för steg, från installation till slutförande. |
 | [XPS till PDF](./xps-to-pdf/) Lär dig hur du konverterar XPS-filer till PDF med Aspose.PDF för .NET med den här steg-för-steg-handledningen. Perfekt för utvecklare och dokumententusiaster. |
+| [Aspose PDF‑konvertering i C# – Konvertera PDF till PDF/X‑4](./aspose-pdf-conversion-in-c-convert-pdf-to-pdf-x-4/) | Lär dig hur du konverterar PDF till PDF/X‑4 med Aspose.PDF för .NET i en detaljerad steg‑för‑steg‑guide. |
+| [PDF-formatkonverteringshandledning – Konvertera PDF till PDF/X‑4 med Aspose i C#](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-with-a/) | Lär dig hur du konverterar PDF-filer till PDF/X‑4-format med Aspose.PDF för .NET i C# med en tydlig steg‑för‑steg‑guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

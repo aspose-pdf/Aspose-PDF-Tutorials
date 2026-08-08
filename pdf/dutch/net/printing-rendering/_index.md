@@ -50,6 +50,9 @@ Leer hoe u efficiënt specifieke pagina's van een PDF kunt afdrukken met Aspose.
 ### [Aangepaste zoomfactor instellen in PDF's met Aspose.PDF voor .NET - Een complete handleiding](./aspose-pdf-net-set-zoom-factor-pdfs/)
 Leer hoe u een aangepaste zoomfactor in PDF-documenten instelt met Aspose.PDF voor .NET. Deze handleiding behandelt de installatie, implementatiestappen en praktische toepassingen.
 
+### [PDF renderen als PNG in C# – Stapsgewijze handleiding](./how-to-render-pdf-as-png-in-c-step-by-step-guide/)
+Leer hoe u PDF-bestanden kunt converteren naar PNG-afbeeldingen met Aspose.PDF voor .NET in C# met voorbeeldcode.
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

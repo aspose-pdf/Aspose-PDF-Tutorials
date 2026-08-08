@@ -74,6 +74,9 @@ Aprende a personalizar páginas PDF con Aspose.PDF para .NET. Ajusta la alineaci
 ### [Eliminar páginas PDF con Aspose.PDF y C# Streams: una guía completa](./delete-pdf-pages-aspose-pdf-c-sharp-streams/)
 Aprenda a eliminar de manera eficiente páginas específicas de un PDF usando Aspose.PDF para .NET con este tutorial paso a paso en C#.
 
+### [Eliminar fuente de PDF con Aspose – Guía paso a paso](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
+Aprenda a eliminar fuentes incrustadas de archivos PDF usando Aspose.PDF para .NET con esta guía paso a paso.
+
 ### [Optimización eficiente de PDF: elimine objetos no utilizados con Aspose.PDF para .NET](./optimize-pdf-aspose-pdf-net-remove-unused-objects/)
 Aprenda a optimizar archivos PDF eliminando objetos no utilizados con Aspose.PDF para .NET, mejorando el tamaño y el rendimiento de los archivos.
 

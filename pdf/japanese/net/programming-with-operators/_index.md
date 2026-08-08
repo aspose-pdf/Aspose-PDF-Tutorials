@@ -23,6 +23,7 @@ Aspose.PDF for .NET の「演算子を使ったプログラミング」チュー
 | [ページにXFormを描く](./draw-xform-on-page/) この包括的なステップバイステップ ガイドで、Aspose.PDF for .NET を使用して PDF に XForms を描画する方法を学びます。 |  
 | [PDF演算子](./pdf-operators/) Aspose.PDF for .NET で PDF 演算子を使用するためのステップバイステップガイド。PDF ページに画像を追加し、その位置を指定します。 |  
 | [PDFファイル内のグラフィックオブジェクトを削除する](./remove-graphics-objects/) このステップバイステップガイドでは、Aspose.PDF for .NET を使用してPDFファイルからグラフィックオブジェクトを削除する方法を学びます。PDF操作タスクを簡素化します。 |  
+| [C# でコレクションを反復処理 – アイテムをループするシンプルガイド](./iterate-collection-c-simple-guide-to-loop-over-items/) Aspose.PDF for .NET を使用して、C# でコレクションの各要素をループ処理する方法をステップバイステップで解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

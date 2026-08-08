@@ -50,6 +50,9 @@ Learn how to efficiently print specific pages of a PDF using Aspose.PDF for .NET
 ### [Set Custom Zoom Factor in PDFs Using Aspose.PDF for .NET - A Complete Guide](./aspose-pdf-net-set-zoom-factor-pdfs/)
 Learn how to set a custom zoom factor in PDF documents using Aspose.PDF for .NET. This guide covers installation, implementation steps, and practical applications.
 
+### [How to Render PDF as PNG in C# – Step‑by‑Step Guide](./how-to-render-pdf-as-png-in-c-step-by-step-guide/)
+Learn how to convert PDF pages to PNG images using Aspose.PDF for .NET with C# code examples and step‑by‑step instructions.
+
 ## Additional Resources
 
 - [Aspose.PDF for Net Documentation](https://docs.aspose.com/pdf/net/)

@@ -22,7 +22,8 @@ Tutorial "Pemrograman dengan Operator" Aspose.PDF untuk .NET memandu Anda melalu
 Bahasa Indonesia: --- | --- Bahasa Indonesia: 
 | [Menggambar XForm Di Halaman](./draw-xform-on-page/) | pelajari cara menggambar XForms dalam PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah yang komprehensif ini. Bahasa Indonesia:  
 | [Operator PDF](./pdf-operators/) | Panduan langkah demi langkah untuk menggunakan operator PDF dengan Aspose.PDF untuk .NET. Tambahkan gambar ke halaman PDF dan tentukan posisinya. Bahasa Indonesia:  
-| [Hapus Objek Grafik Dalam File PDF](./remove-graphics-objects/) Pelajari cara menghapus objek grafik dari berkas PDF menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah ini. Sederhanakan tugas manipulasi PDF Anda. |  
+| [Hapus Objek Grafik Dalam File PDF](./remove-graphics-objects/) | Pelajari cara menghapus objek grafik dari berkas PDF menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah ini. Sederhanakan tugas manipulasi PDF Anda. |
+| [Iterasi Koleksi C# – Panduan Sederhana untuk Mengulang Item](./iterate-collection-c-simple-guide-to-loop-over-items/) | Panduan langkah demi langkah untuk mengiterasi koleksi di C# menggunakan loop, membantu memproses setiap item dengan mudah. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

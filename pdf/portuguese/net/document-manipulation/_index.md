@@ -219,97 +219,10 @@ Aprenda a inserir páginas em um PDF usando o Aspose.PDF para .NET com este guia
 Aprenda a inserir páginas vazias em documentos PDF com facilidade usando o Aspose.PDF para .NET. Siga este guia passo a passo para aprimorar suas habilidades de manipulação de documentos.
 
 ### [Domine o método MakeNUp do Aspose.PDF .NET para layouts de PDF eficientes](./aspose-pdf-net-make-nup-method-pdf-layout/)
-Aprenda a reorganizar com eficiência várias páginas de PDF em novos layouts usando o método MakeNUp do Aspose.PDF .NET. Ideal para boletins informativos, folhetos e relatórios.
+Domine o método MakeNUp do Aspose.PDF .NET para layouts de PDF eficientes
 
-### [Domine o Aspose.PDF para .NET: Guia eficiente de concatenação de PDF](./mastering-aspose-pdf-dotnet-pdfs-concatenation-guide/)
-Aprenda a concatenar PDFs usando o Aspose.PDF para .NET com este guia completo. Simplifique suas tarefas de processamento de documentos facilmente.
-
-### [Domine o Aspose.PDF para .NET: combine PDFs perfeitamente usando a funcionalidade N-Up](./combine-pdfs-aspose-pdf-net-n-up-functionality/)
-Aprenda a usar o Aspose.PDF para .NET para combinar vários arquivos PDF com eficiência usando a funcionalidade N-Up. Ideal para desenvolvedores que buscam otimizar a manipulação de documentos.
-
-### [Domine o gerenciamento de PDF: abra e gerencie propriedades de documentos com Aspose.PDF para .NET](./aspose-pdf-dotnet-open-manage-properties/)
-Aprenda a abrir, recuperar e exibir propriedades de documentos PDF usando o Aspose.PDF para .NET. Aprimore sua experiência de visualização de PDFs em todos os aplicativos.
-
-### [Domine a manipulação de PDF em .NET usando Aspose.PDF: um guia completo](./master-pdf-manipulation-net-asposepdf/)
-Aprenda a gerenciar PDFs com eficiência com o Aspose.PDF para .NET. Anexe, extraia e divida arquivos PDF facilmente com este guia detalhado.
-
-### [Domine a manipulação de PDF em .NET com Aspose.PDF: um guia completo](./aspose-pdf-net-tutorial/)
-Aprenda a gerenciar PDFs programaticamente em .NET usando o Aspose.PDF. Este guia aborda o carregamento de documentos, o acesso a campos de formulário e a iteração de opções.
-
-### [Domine a manipulação de PDF com Aspose.PDF .NET: um guia completo para automação de documentos](./master-pdf-manipulation-aspose-dotnet-guide/)
-Aprenda a automatizar tarefas de PDF usando o Aspose.PDF para .NET, incluindo concatenar arquivos, adicionar páginas, inserir carimbos de texto e criar links.
-
-### [Domine a manipulação de PDF com Aspose.PDF .NET: carregue e modifique documentos facilmente](./mastering-pdf-manipulation-aspose-dotnet/)
-Aprenda a dominar o carregamento, a navegação e a modificação de documentos PDF usando a poderosa biblioteca Aspose.PDF .NET. Aprimore seus aplicativos hoje mesmo!
-
-### [Domine a manipulação de PDF com Aspose.PDF .NET: Guia de Carregamento, Pesquisa e Anotação](./aspose-pdf-dotnet-mastering-pdfs-manipulation-guide/)
-Aprenda a dominar a manipulação de PDF usando o Aspose.PDF para .NET. Este guia aborda o carregamento de documentos, a busca em texto e a aplicação de anotações, como tachados.
-
-### [Domine a manipulação de PDF com Aspose.PDF para .NET: um guia completo](./mastering-pdf-manipulation-aspose-pdf-net-guide/)
-Aprenda a criar, modificar, mesclar e extrair dados de PDFs com eficiência usando o Aspose.PDF para .NET. Aprimore seus fluxos de trabalho com documentos e aumente a produtividade.
-
-### [Domine a manipulação de contagem de páginas de PDF com Aspose.PDF para .NET: um guia completo](./mastering-pdf-manipulation-aspose-pdf-net/)
-Aprenda a recuperar e modificar com eficiência a contagem de páginas de um PDF usando o Aspose.PDF para .NET. Este guia aborda configuração, implementação e aplicações práticas.
-
-### [Dominando o Aspose.PDF .NET: Integre perfeitamente o LaTeX em tabelas e células PDF](./integrate-latex-aspose-pdf-dotnet/)
-Aprenda a integrar LaTeX em PDFs usando o Aspose.PDF para .NET. Aprimore seus documentos com expressões matemáticas profissionais e fórmulas científicas.
-
-### [Dominando o Aspose.PDF para .NET: Modifique PDFs sem esforço](./aspose-pdf-net-open-modify-save-pdfs/)
-Um tutorial de código para Aspose.PDF Net
-
-### [Dominando cabeçalhos PDF dinâmicos com tabelas e imagens usando Aspose.PDF .NET](./dynamic-pdf-headers-tables-images-aspose-pdf/)
-Aprenda a criar cabeçalhos PDF dinâmicos com tabelas e imagens usando o Aspose.PDF para .NET. Aprimore o design do seu documento sem esforço.
-
-### [Dominando a concatenação de PDF com Aspose.PDF para .NET: um guia completo](./mastering-pdf-concatenation-aspose-net-guide/)
-Aprenda a concatenar vários arquivos PDF perfeitamente usando o Aspose.PDF para .NET. Este guia aborda a configuração, a concatenação e o tratamento de arquivos corrompidos.
-
-### [Dominando o gerenciamento de PDF: Orientação eficiente de páginas, cores e detecção de espaços em branco com Aspose.PDF .NET](./aspose-pdf-net-page-orientation-color-blank-detection/)
-Aprenda a gerenciar documentos PDF com eficiência alterando a orientação da página, detectando a cor branca e identificando páginas em branco usando o Aspose.PDF para .NET.
-
-### [Dominando a manipulação de PDF: um guia completo para usar o Aspose.PDF para .NET](./aspose-pdf-net-manipulation-guide/)
-Aprenda a manipular PDFs com eficiência com o Aspose.PDF para .NET. Da configuração aos recursos avançados, este guia aborda tudo o que você precisa para a automação de documentos.
-
-### [Dominando a manipulação de PDF: Aspose.PDF .NET para pesquisas de expressões regulares e processamento de documentos](./aspose-pdf-net-regex-searching/)
-Aprenda a usar o Aspose.PDF para .NET para carregar, manipular e realizar pesquisas com expressões regulares em documentos PDF. Automatize suas tarefas de processamento de documentos com eficiência.
-
-### [Dominando a divisão de páginas em PDF com Aspose.PDF .NET](./mastering-page-splitting-aspose-pdf-net/)
-Um tutorial de código para Aspose.PDF Net
-
-### [Mesclar PDFs no .NET usando Aspose.PDF: um guia completo](./merge-pdfs-net-aspose-pdf-tutorial/)
-Aprenda a mesclar arquivos PDF perfeitamente usando o Aspose.PDF para .NET. Este guia passo a passo aborda configuração, implementação e aplicações práticas.
-
-### [Mover campos de formulário PDF no .NET usando Aspose.PDF: um guia passo a passo](./move-pdf-fields-aspose-pdf-dotnet-guide/)
-Aprenda a mover e reposicionar campos de formulários PDF sem esforço com o Aspose.PDF para .NET. Este guia aborda configuração, instruções passo a passo e dicas de solução de problemas.
-
-### [Manipulação de PDF simplificada: Guia Aspose.PDF .NET para carregar, salvar e ampliar configuração](./master-pdf-manipulation-aspose-dotnet-load-save-configure-page-zoom/)
-Domine a manipulação de PDF com o Aspose.PDF para .NET. Aprenda a carregar, salvar, extrair dimensões e configurar o zoom com eficiência.
-
-### [Substituir a primeira ocorrência de texto em PDF usando Aspose.PDF para .NET - Um guia completo](./replace-first-text-occurrence-aspose-pdf-net/)
-Aprenda a substituir a primeira ocorrência de texto em um PDF usando o Aspose.PDF para .NET. Este guia aborda configuração, exemplos de código e aplicações práticas.
-
-### [Redimensione o conteúdo do PDF com Aspose.PDF para .NET](./resize-pdf-contents-aspose-pdf-dotnet/)
-Um tutorial de código para Aspose.PDF Net
-
-### [Girar páginas PDF e recuperar dimensões usando Aspose.PDF para .NET](./rotate-pdf-pages-dimensions-aspose-dotnet/)
-Aprenda a girar páginas de PDF com eficiência e recuperar suas dimensões usando o Aspose.PDF para .NET. Aprimore suas habilidades de manipulação de documentos com este guia completo.
-
-### [Girar páginas PDF usando Aspose.PDF no .NET: um guia para desenvolvedores](./rotate-pdf-pages-aspose-pdf-dotnet/)
-Aprenda a girar páginas de PDF com o Aspose.PDF para .NET. Este guia aborda a rotação de páginas específicas em graus e inclui exemplos de código para manipulação eficiente de documentos.
-
-### [Dividir páginas PDF de uma página específica usando .NET Streams e Aspose.PDF](./split-pdf-pages-with-net-streams-aspose-pdf/)
-Aprenda como dividir eficientemente arquivos PDF de uma página específica usando fluxos .NET com Aspose.PDF, aprimorando o gerenciamento de documentos em seus aplicativos.
-
-### [Dividir páginas PDF em arquivos individuais usando Aspose.PDF .NET (Tutorial em C#)](./split-pdf-pages-aspose-net-csharp/)
-Aprenda a dividir um arquivo PDF em páginas individuais usando o Aspose.PDF para .NET e C#. Este guia aborda configuração, implementação e aplicações práticas.
-
-### [Dividir páginas PDF em arquivos separados com Aspose.PDF para .NET: um guia completo](./aspose-pdf-split-pdf-pages-net/)
-Aprenda a dividir páginas de PDF em arquivos separados usando o Aspose.PDF para .NET. Este guia completo aborda dicas de configuração, implementação e otimização.
-
-### [Dividir e Criar Arquivos PDF Usando Aspose.PDF .NET | Guia de Manipulação de Documentos](./split-create-pdf-aspose-pdf-net/)
-Aprenda a dividir PDFs de várias páginas e criar novos arquivos PDF usando o Aspose.PDF para .NET. Siga este guia completo com exemplos de código.
-
-### [Guia definitivo para manipulação de PDF com Aspose.PDF .NET: carregue, salve e substitua texto com eficiência](./master-pdf-manipulation-aspose-pdf-net/)
-Aprenda a dominar a manipulação de PDFs usando o Aspose.PDF para .NET. Este guia aborda como carregar, salvar e substituir texto em PDFs, ideal para desenvolvedores que buscam eficiência.
+### [Remover fonte de PDF com Aspose – Guia passo a passo](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
+Aprenda a remover fontes de documentos PDF usando Aspose.PDF para .NET com este guia passo a passo.
 
 ## Recursos adicionais
 

@@ -23,6 +23,7 @@ Az Aspose.PDF for .NET „Operátorokkal való programozás” című oktatóany
 | [XForm rajzolása az oldalon](./draw-xform-on-page/) | Tanuld meg, hogyan rajzolhatsz XForm-okat PDF-ben az Aspose.PDF for .NET segítségével ezzel az átfogó, lépésről lépésre szóló útmutatóval. |  
 | [PDF-operátorok](./pdf-operators/) | Lépésről lépésre útmutató a PDF operátorok használatához az Aspose.PDF for .NET fájlban. Kép hozzáadása egy PDF oldalhoz és a pozíciójának megadása. |  
 | [Grafikus objektumok eltávolítása PDF fájlból](./remove-graphics-objects/) Tanulja meg, hogyan távolíthat el grafikus objektumokat egy PDF fájlból az Aspose.PDF for .NET segítségével ebben a lépésenkénti útmutatóban. Egyszerűsítse PDF-szerkesztési feladatait. |  
+| [Gyűjtemény iterálása C# – Egyszerű útmutató az elemek bejárásához](./iterate-collection-c-simple-guide-to-loop-over-items/) | Ismerje meg, hogyan iterálhat C#-ban egy gyűjteményt egyszerű példákkal az Aspose.PDF for .NET használatával. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

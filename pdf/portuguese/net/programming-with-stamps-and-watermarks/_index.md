@@ -39,6 +39,7 @@ Os tutoriais "Programação com Carimbos e Marcas D'água" do Aspose.PDF para .N
 | [Tabela na seção Cabeçalho e Rodapé](./table-in-header-footer-section/) | Aprenda a adicionar texto facilmente ao rodapé de um arquivo PDF usando o Aspose.PDF para .NET. Guia passo a passo incluído para integração perfeita. |  
 | [Texto no rodapé do arquivo PDF](./text-in-footer/) | Aprenda como adicionar texto no rodapé do arquivo PDF com o Aspose.PDF para .NET. |  
 | [Texto no cabeçalho do arquivo PDF](./text-in-header/) | Aprenda a adicionar cabeçalhos de texto a PDFs usando o Aspose.PDF para .NET com este tutorial passo a passo. Aprimore seus documentos com eficiência e eficácia. |  
+| [Adicionar numeração Bates a PDFs com Aspose – Guia completo](./add-bates-numbering-to-pdfs-with-aspose-complete-guide/) Aprenda a adicionar numeração Bates a arquivos PDF usando o Aspose.PDF para .NET com este guia passo a passo. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

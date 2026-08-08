@@ -77,6 +77,9 @@ Erfahren Sie in diesem Schritt-für-Schritt-Tutorial in C#, wie Sie mit Aspose.P
 ### [Effiziente PDF-Optimierung: Entfernen Sie nicht verwendete Objekte mit Aspose.PDF für .NET](./optimize-pdf-aspose-pdf-net-remove-unused-objects/)
 Erfahren Sie, wie Sie PDFs optimieren, indem Sie mit Aspose.PDF für .NET nicht verwendete Objekte entfernen und so Dateigröße und Leistung verbessern.
 
+### [Schriftart aus PDF mit Aspose entfernen – Schritt‑für‑Schritt‑Anleitung](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET Schriftarten aus PDF‑Dateien entfernen und die Dateigröße reduzieren.
+
 ### [Effiziente PDF-Seitenbearbeitung mit Aspose.PDF für .NET: Ein Entwicklerhandbuch](./manipulate-pdf-pages-aspose-dot-net/)
 Erfahren Sie, wie Sie PDF-Seiten mit Aspose.PDF für .NET effizient bearbeiten. Diese Anleitung behandelt das Drehen, Zoomen und Festlegen von Ursprüngen ohne Adobe Acrobat.
 
@@ -101,7 +104,7 @@ Erfahren Sie in diesem ausführlichen C#-Tutorial, wie Sie mit Aspose.PDF für .
 ### [So fügen Sie mit Aspose.PDF für .NET Kopfzeilen zu PDFs hinzu: Eine umfassende Anleitung](./add-header-pdf-aspose-dotnet-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET nahtlos Kopfzeilen, einschließlich Text und Bilder, zu Ihren PDF-Dokumenten hinzufügen. Perfekt für die Verbesserung des Dokumenten-Brandings.
 
-### [So fügen Sie mit Aspose.PDF für .NET Kopfzeilen zu PDFs hinzu: Eine umfassende Anleitung](./add-headers-aspose-pdf-dotnet-guide/)
+### [So fügen Sie mit Aspose.PDF für .NET Kopfzeilen zu PDFs hinzufügen: Eine umfassende Anleitung](./add-headers-aspose-pdf-dotnet-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET nahtlos Textkopfzeilen zu Ihren PDF-Dateien hinzufügen und so die Lesbarkeit und Organisation der Dokumente verbessern.
 
 ### [So fügen Sie mit Aspose.PDF für .NET ein Linienobjekt in PDF ein: Eine Schritt-für-Schritt-Anleitung](./add-line-aspose-pdf-dotnet-tutorial/)

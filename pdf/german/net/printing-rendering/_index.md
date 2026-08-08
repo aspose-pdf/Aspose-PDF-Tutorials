@@ -50,6 +50,9 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET effizient einzelne Seiten einer P
 ### [Benutzerdefinierten Zoomfaktor in PDFs mit Aspose.PDF für .NET festlegen – Eine vollständige Anleitung](./aspose-pdf-net-set-zoom-factor-pdfs/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET einen benutzerdefinierten Zoomfaktor in PDF-Dokumenten festlegen. Diese Anleitung behandelt Installation, Implementierungsschritte und praktische Anwendungen.
 
+### [PDF als PNG rendern in C# – Schritt‑für‑Schritt‑Anleitung](./how-to-render-pdf-as-png-in-c-step-by-step-guide/)
+Erfahren Sie, wie Sie PDF-Dokumente mit Aspose.PDF für .NET in PNG-Bilder konvertieren, inklusive Codebeispielen und Optimierungstipps.
+
 ## Weitere Ressourcen
 
 - [Aspose.PDF für Net-Dokumentation](https://docs.aspose.com/pdf/net/)
