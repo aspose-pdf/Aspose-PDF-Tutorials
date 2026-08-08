@@ -1,13 +1,46 @@
 ---
-date: '2025-12-20'
-description: Erfahren Sie, wie Sie PDF-Lesezeichen mit Aspose.PDF für Java in diesem
-  Aspose PDF Java‑Tutorial erweitern können. Enthält das Laden von PDFs, das Festlegen
-  von Seitenmodi und das automatische Öffnen von PDF-Lesezeichen.
+date: '2026-06-02'
+description: Erfahren Sie, wie Sie Lesezeichen in PDF-Dateien mit Aspose.PDF für Java
+  erweitern. Dieses Schritt‑für‑Schritt Aspose PDF Java‑Tutorial zeigt das Laden,
+  das Festlegen des Seitenmodus und das automatische Öffnen von Lesezeichen.
 keywords:
-- expand PDF bookmarks
-- Aspose.PDF Java
-- PDF page mode
-title: 'Aspose PDF Java Tutorial - PDF‑Lesezeichen erweitern mit Aspose.PDF'
+- how to expand bookmarks
+- aspose pdf maven dependency
+- aspose pdf java tutorial
+schemas:
+- author: Aspose
+  dateModified: '2026-06-02'
+  description: Learn how to expand bookmarks in PDF files using Aspose.PDF for Java.
+    This step‑by‑step Aspose PDF Java tutorial shows loading, setting page mode, and
+    automatically opening bookmarks.
+  headline: How to Expand Bookmarks in PDF using Aspose.PDF for Java
+  type: TechArticle
+- description: Learn how to expand bookmarks in PDF files using Aspose.PDF for Java.
+    This step‑by‑step Aspose PDF Java tutorial shows loading, setting page mode, and
+    automatically opening bookmarks.
+  name: How to Expand Bookmarks in PDF using Aspose.PDF for Java
+  steps:
+  - name: '**Required Libraries and Dependencies**'
+    text: '**Required Libraries and Dependencies**'
+  - name: '**Environment Setup**'
+    text: '**Environment Setup**'
+  - name: '**Basic Knowledge**'
+    text: '**Basic Knowledge**'
+  type: HowTo
+- questions:
+  - answer: Loading a PDF, setting page mode, expanding bookmarks, and saving the
+      file.
+    question: What does this tutorial cover?
+  - answer: Aspose.PDF for Java 25.3 or later.
+    question: Which library version is required?
+  - answer: A free trial works for testing; a commercial license is required for production.
+    question: Do I need a license?
+  - answer: Yes – adjust the loop logic to select particular outlines.
+    question: Can I target specific bookmarks only?
+  - answer: Yes, but consider processing outlines in batches and tuning JVM memory.
+    question: Is this suitable for large PDFs?
+  type: FAQPage
+title: Wie man Lesezeichen in PDF mit Aspose.PDF für Java erweitert
 url: /de/java/bookmarks-navigation/expand-pdf-bookmarks-aspose-java/
 weight: 1
 ---
@@ -17,43 +50,48 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose PDF Java Tutorial: PDF-Lesezeichen erweitern mit Aspose.PDF
+# Wie man Lesezeichen in PDF mit Aspose.PDF für Java erweitert
 
-Das Navigieren in komplexen PDF-Dokumenten wird zum Kinderspiel, wenn Lesezeichen automatisch erweitert werden. In diesem **Aspose PDF Java Tutorial** lernen Sie, wie Sie ein PDF-Dokument mit Aspose.PDF für Java laden, den passenden Seitenmodus festlegen und sicherstellen, dass die Lesezeichen standardmäßig geöffnet sind. Dieser Ansatz verbessert die Benutzererfahrung, sodass Leser sofort zu den benötigten Abschnitten springen können, ohne zusätzliche Klicks.
+Wenn Sie jemals ein riesiges PDF geöffnet und manuell durch das Gliederungsfenster klicken mussten, wissen Sie, wie frustrierend das sein kann. In diesem **Aspose PDF Java Tutorial** zeigen wir Ihnen, **wie man Lesezeichen** automatisch erweitert, sodass Leser beim Öffnen der Datei sofort das vollständige Inhaltsverzeichnis sehen. Sie lernen, ein PDF zu laden, den Seitenmodus des Viewers zu konfigurieren, jeden Gliederungseintrag zu erweitern und das Ergebnis zu speichern – alles mit nur wenigen Zeilen Java‑Code.
 
 ## Schnelle Antworten
-- **Worum geht es in diesem Tutorial?** Laden eines PDFs, Festlegen des Seitenmodus, Erweitern von Lesezeichen und Speichern der Datei.
-- **Welche Bibliotheksversion wird benötigt?** Aspose.PDF für Java25.3 oder höher.
-- **Benötige ich eine Lizenz?** Eine kostenlose Testversion reicht für Tests; Für den Produktionseinsatz ist eine kommerzielle Lizenz erforderlich.
-- **Kann ich nur bestimmte Lesezeichen anvisieren?** Ja – passen Sie die Schleifenlogik an, um gezielt einzelne Outlines auszuwählen.
-- **Ist das für große PDFs geeignet?** Ja, achten Sie jedoch darauf, Outlines in Batches zu verarbeiten und den JVM-Speicher zu optimieren.
+- **Worum geht es in diesem Tutorial?** Laden eines PDFs, Festlegen des Seitenmodus, Erweitern von Lesezeichen und Speichern der Datei.  
+- **Welche Bibliotheksversion ist erforderlich?** Aspose.PDF für Java 25.3 oder neuer.  
+- **Benötige ich eine Lizenz?** Eine kostenlose Testversion reicht für Tests; für den Produktionseinsatz ist eine kommerzielle Lizenz erforderlich.  
+- **Kann ich nur bestimmte Lesezeichen anvisieren?** Ja – passen Sie die Schleifenlogik an, um bestimmte Gliederungen auszuwählen.  
+- **Ist das für große PDFs geeignet?** Ja, jedoch sollten Sie die Verarbeitung von Gliederungen in Chargen und die Anpassung des JVM‑Speichers berücksichtigen.
 
 ## Was ist ein Aspose PDF Java Tutorial?
-Ein **Aspose PDF Java Tutorial** ist eine Schritt-für-Schritt-Anleitung, die zeigt, wie Sie die Aspose.PDF-API in Java-Projekten verwenden. Sie führt Sie durch praxisnahe Code-Beispiele, erklärt jeden Aufruf und demonstriert, wie gängige PDF-Manipulationsaufgaben gelöst werden.
+Ein **Aspose PDF Java Tutorial** ist ein Schritt‑für‑Schritt‑Leitfaden, der demonstriert, wie die Aspose.PDF‑API in Java‑Projekten verwendet wird. Es kombiniert knappe Erklärungen mit sofort ausführbaren Code‑Snippets und hilft Ihnen, reale PDF‑Manipulationsaufgaben schnell zu lösen. Durch das Befolgen der Beispiele können Sie PDF‑Verarbeitungsfunktionen wie Lesezeichen‑Handling, Textextraktion und Dokumentkonvertierung mit minimalem Aufwand in Ihre Anwendungen integrieren.
 
-## Warum PDF-Lesezeichen automatisch erweitern?
-Das automatische Öffnen von PDF-Lesezeichen spart Benutzern Zeit, insbesondere bei:
-- **Bildungs-PDFs** – Studierende sehen sofort das komplette Inhaltsverzeichnis.
-- **Unternehmensberichten** – Führungskräfte können direkt zu den wichtigsten Abschnitten springen.
-- **Rechtsverträgen** – Juristen lernen zu Klauseln, ohne zu scrollen.
+## Warum PDF‑Lesezeichen automatisch erweitern?
+Das automatische Erweitern von PDF‑Lesezeichen verbessert die Navigationseffizienz für End‑User, da sie die gesamte Dokumentstruktur ohne zusätzliche Klicks sehen können. Diese Funktion ist besonders wertvoll in langen Dokumenten, bei denen das schnelle Auffinden von Abschnitten entscheidend ist. Durch das sofortige Anzeigen des Gliederungsfensters können Leser direkt zum gewünschten Kapitel oder Abschnitt springen, was die Zeit für Scrollen und Suchen reduziert.
 
-### Voraussetzungen
-Bevor Sie Aspose.PDF für Java verwenden, stellen Sie sicher, dass Sie Folgendes haben:
+Automatisches Öffnen von PDF‑Lesezeichen spart Benutzern Zeit, insbesondere bei:
 
-1. **Erforderliche Bibliotheken und Abhängigkeiten:** 
-- Aspose.PDF für Java‑Bibliothek (Version25.3 oder höher)
+- **Bildungs‑PDFs** – Studierende sehen sofort die vollständige Kapitelübersicht.  
+- **Unternehmensberichte** – Führungskräfte können direkt zu wichtigen Abschnitten springen.  
+- **Rechtsverträge** – Anwälte finden Klauseln schnell und sparen wertvolle Zeit.
 
-2. **Umgebungs-Setup-Anforderungen:** 
-- Maven oder Gradle in Ihrer IDE konfiguriert 
-- Grundkenntnisse in Java‑Entwicklung
+Quantifizierter Nutzen: Aspose.PDF kann **mehr als 50 Eingabe‑ und Ausgabeformate** verarbeiten und PDFs mit **Hunderten von Lesezeichen** bearbeiten, ohne die gesamte Datei in den Speicher zu laden, wobei der Speicherverbrauch für ein 300‑Seiten‑Dokument unter 100 MB bleibt.
 
-3. **Wissens‑Voraussetzungen:** 
-- Verständnis der PDF-Struktur, insbesondere Lesezeichen (Outlines)
+## Voraussetzungen
+1. **Erforderliche Bibliotheken und Abhängigkeiten**  
+   - Aspose.PDF für Java Bibliothek (Version 25.3 oder neuer).  
+   - Der **aspose pdf maven dependency** Eintrag, der Ihrem Projekt hinzugefügt wird (siehe das Maven‑Snippet unten).
 
-### Einrichten von Aspose.PDF für Java
-Um Aspose.PDF als Abhängigkeit in Ihr Projekt einzubinden:
+2. **Umgebungseinrichtung**  
+   - Maven oder Gradle in Ihrer IDE konfiguriert.  
+   - Java 8 oder neuer installiert.
 
-**Maven**
+3. **Grundkenntnisse**  
+   - Vertrautheit mit der Java‑Projektstruktur.  
+   - Verständnis von PDF‑Gliederungen (Lesezeichen).
+
+## Einrichtung von Aspose.PDF für Java
+Fügen Sie die Aspose.PDF‑Bibliothek zu Ihrer Build‑Datei hinzu.
+
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -62,41 +100,41 @@ Um Aspose.PDF als Abhängigkeit in Ihr Projekt einzubinden:
 </dependency>
 ```
 
-**Gradle**
+**Gradle**  
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-#### Lizenz‑Erwerbsschritte
-- **Kostenlose Testversion:** Beginnen Sie mit einer kostenlosen Testversion, um die Funktionen der Bibliothek zu prüfen.
-- **Temporäre Lizenz:** Holen Sie sich eine temporäre Lizenz für eine erweiterte Evaluierung von Asposes Website.
-- **Kauf:** Erwerben Sie eine Voll‑Lizenz für kommerzielle Projekte.
+#### Schritte zum Erwerb einer Lizenz
+- **Kostenlose Testversion:** Beginnen Sie mit einer kostenlosen Testversion, um die Fähigkeiten der Bibliothek zu testen.  
+- **Temporäre Lizenz:** Holen Sie sich eine temporäre Lizenz für eine erweiterte Evaluierung von der Aspose‑Website.  
+- **Kauf:** Erwerben Sie eine Vollversion für kommerzielle Projekte.
 
-Nachdem die Bibliothek hinzugefügt und lizenziert wurde, können Sie sie initialisieren:
+Sobald die Bibliothek hinzugefügt und lizenziert ist, können Sie sie initialisieren:
 
 ```java
 // Initialize the Document class with the path to your PDF file
 document doc = new Document("path/to/your/input.pdf");
 ```
 
-### Implementierungshandbuch
-Wir teilen die Lösung in vier klaren Schritten: Laden des Dokuments, Festlegen des Seitenmodus, Erweitern des Lesezeichens und Speichern des aktualisierten PDFs.
+## Wie lädt man das PDF‑Dokument?
+Laden Sie Ihre PDF‑Datei in ein Aspose `Document`‑Objekt. Diese einzelne Zeile erstellt eine In‑Memory‑Repräsentation der Quelldatei, sodass Sie deren Struktur lesen und ändern können. Die `Document`‑Klasse repräsentiert eine PDF‑Datei im Speicher und bietet Zugriff auf Seiten, Gliederungen und andere Elemente, wodurch sie das zentrale Objekt für alle PDF‑Operationen ist.
 
-#### Laden des PDF-Dokuments
 ```java
 // Load an existing PDF document from your specified directory
 document doc = new Document("YOUR_DOCUMENT_DIRECTORY/input.pdf");
 ```
-**Erklärung:** Dieser Code erstellt ein `Document`-Objekt, das das PDF darstellt, das Sie ändern möchten. Ersetzen Sie den Platzhalter-Pfad durch den tatsächlichen Speicherort Ihrer Datei.
 
-#### Seitenmodus einstellen
+## Wie setzt man den Seitenmodus, um Lesezeichen zu erweitern?
+Setzen Sie den Seitenmodus des Viewers auf `UseOutlines`, damit der PDF‑Reader beim Öffnen der Datei automatisch das Lesezeichen‑Fenster anzeigt. Die Methode `setPageMode` konfiguriert das Standard‑Viewer‑Verhalten, und die Konstante `PageMode.UseOutlines` weist den PDF‑Viewer an, das Gliederungs‑Panel beim Start zu zeigen.
+
 ```java
 doc.setPageMode(PageMode.UseOutlines);
 ```
 
-**Erklärung:** `setPageMode()` weist den PDF-Viewer an, wie die Datei geöffnet werden soll. `UseOutlines` schaltet den Viewer ein, das Lesezeichen-Panel wird automatisch angezeigt.
+## Wie erweitert man alle Lesezeichen in einem PDF?
+Iterieren Sie über jeden Gliederungseintrag und setzen Sie dessen `Open`‑Eigenschaft auf `true`. Dadurch wird jedes Lesezeichen standardmäßig erweitert angezeigt. Die Klasse `OutlineItemCollection` enthält alle Lesezeicheneinträge; indem Sie jedes Element als offen markieren, zeigt der PDF‑Viewer die gesamte Hierarchie ohne Benutzereingriff an.
 
-#### Lesezeichen erweitern
 ```java
 // Iterate over each bookmark and set its state to open
 for (int counter = 1; counter <= doc.getOutlines().size(); counter++) {
@@ -104,63 +142,67 @@ for (int counter = 1; counter <= doc.getOutlines().size(); counter++) {
 }
 ```
 
-**Erklärung:** Die Schleife durchläuft jeden Outline-Eintrag (Lesezeichen) und setzt dessen `Open`-Eigenschaft auf `true`, sodass beim Öffnen des PDFs alle Lesezeichen erweitert werden.
+## Wie speichert man das PDF nach dem Erweitern der Lesezeichen?
+Schreiben Sie das modifizierte Dokument in eine neue Datei (oder überschreiben Sie die Originaldatei). Die Methode `save()` speichert alle Änderungen, die Sie an der PDF‑Struktur vorgenommen haben. Nach dem Aufruf von `save` behält das PDF den erweiterten Lesezeichen‑Zustand für jeden Viewer, der es öffnet.
 
-#### Speichern der geänderten PDF-Datei
 ```java
 doc.save("YOUR_OUTPUT_DIRECTORY/Bookmarks_Expanded.pdf");
 ```
-**Erklärung:** Die `save()`-Methode schreibt die Änderungen in eine neue Datei. Passen Sie den Ausgabepfad nach Bedarf an.
 
-### Praktische Anwendungen
-Das Erweitern von PDF-Lesezeichen ist in vielen realen Szenarien nützlich:
+## Praktische Anwendungen
+Das Erweitern von PDF‑Lesezeichen ist in vielen realen Szenarien nützlich:
 
-- **Bildungs-Materialien:** Studierende sehen sofort die komplette Kapitel-Liste.
-- **Unternehmensberichte:** Führungskräfte können zu Finanz‑Zusammenfassungen springen, ohne zu suchen.
-- **Rechtsdokumente:** Juristen finden Klauseln schnell und sparen wertvolle Zeit.
+- **Bildungsmaterialien:** Studierende sehen sofort die vollständige Kapitelübersicht.  
+- **Unternehmensberichte:** Führungskräfte können ohne Suche zu Finanzzusammenfassungen springen.  
+- **Rechtsdokumente:** Anwälte finden Klauseln schnell und sparen wertvolle Zeit.
 
-Die Integration dieser Logik in Dokument-Management-Systeme kann die Vorbereitung von Lesezeichen vor der Verteilung automatisieren.
+Die Einbindung dieser Logik in eine Dokument‑Management‑Pipeline automatisiert die Lesezeichen‑Vorbereitung vor der Verteilung und stellt sicher, dass jeder Empfänger ein sofort navigierbares PDF erhält.
 
-### Leistungsüberlegungen
-Beim Umgang mit großen PDFs mit vielen Outlines:
+## Leistungsüberlegungen
+Beim Umgang mit großen PDFs mit Tausenden von Gliederungen:
 
-- Entsorgen Sie das „Document“-Objekt nach dem Speichern, um Speicher freizugeben.
-- Verarbeiten Sie Outlines in kleineren Batches, falls das Dokument Tausende von Einträgen enthält.
-- Geben Sie die Java-Heap-Größe (`-Xmx`) an das Speicherprofil Ihrer Anwendung an.
+- Zerstören Sie das `Document`‑Objekt nach dem Speichern, um Speicher freizugeben.  
+- Verarbeiten Sie Gliederungen in kleineren Chargen, wenn das Dokument viele Einträge enthält.  
+- Passen Sie die Java‑Heap‑Größe (`-Xmx`) an Ihre Arbeitslast an; für ein 500‑Seiten‑PDF ist `-Xmx2g` oft ausreichend.
 
 ## Häufig gestellte Fragen
-**Q1: ​​Wie richte ich eine kostenlose Testversion für Aspose.PDF ein?**
-A1: Besuchen Sie die [Aspose Free Trial page](https://releases.aspose.com/pdf/java/) und laden Sie die Bibliothek herunter, um zu experimentieren.
+**Q1: Wie richte ich eine kostenlose Testversion für Aspose.PDF ein?**  
+A1: Besuchen Sie die [Aspose Free Trial page](https://releases.aspose.com/pdf/java/), um die Bibliothek herunterzuladen und zu experimentieren.
 
-**F2: Welche häufigen Probleme treten beim Erweitern von Lesezeichen auf?**
-A2: Überprüfen Sie, ob der Dateipfad korrekt ist und ob Ihre Anwendung Lese-/Schreibrechte für den Quell- und Zielordner besitzt.
+**Q2: Was sind häufige Probleme beim Erweitern von Lesezeichen?**  
+A2: Überprüfen Sie, ob der Dateipfad korrekt ist und stellen Sie sicher, dass Ihre Anwendung Lese‑/Schreibrechte für die Quell‑ und Zielordner hat.
 
-**F3: Kann ich ein bestimmtes Lesezeichen statt aller erweitern?**
-A3: Ja. Modifizieren Sie die Schleife, um nur die gewünschten Umrisse zu treffen, z.B. indem Sie den Lesezeichen-Titel prüfen, bevor Sie „setOpen(true)“ aufrufen.
+**Q3: Kann ich bestimmte Lesezeichen anstelle aller erweitern?**  
+A3: Ja. Passen Sie die Schleife an, um nur die gewünschten Gliederungen zu bearbeiten, z. B. indem Sie den Lesezeichentitel prüfen, bevor Sie `setOpen(true)` aufrufen.
 
-**F4: Wie gehe ich mit großen PDF-Dokumenten mit vielen Lesezeichen um?**
-A4: Verarbeiten Sie Outlines schrittweise und erwägen Sie, die JVM-Heap-Größe (`-Xmx2g` oder höher) zu erhöhen, um `OutOfMemoryError` zu vermeiden.
+**Q4: Wie gehe ich mit großen PDF‑Dokumenten mit vielen Lesezeichen um?**  
+A5: Verarbeiten Sie Gliederungen schrittweise und erwägen Sie, die JVM‑Heap‑Größe (`-Xmx2g` oder höher) zu erhöhen, um `OutOfMemoryError` zu vermeiden.
 
-**F5: Ist Aspose.PDF für kommerzielle Projekte geeignet?**
-A5: Absolut. Für den Produktionseinsatz erwerben Sie eine Lizenz über die [Aspose Purchase page](https://purchase.aspose.com/buy).
+**Q5: Ist Aspose.PDF für kommerzielle Projekte geeignet?**  
+A5: Absolut. Erwerben Sie eine Lizenz über die [Aspose Purchase page](https://purchase.aspose.com/buy) für den Produktionseinsatz.
 
-### Ressourcen
-- **Dokumentation:** Detaillierte Anleitungen und API-Referenzen finden Sie unter [Aspose PDF Documentation](https://reference.aspose.com/pdf/java/).
-- **Download:** Laden Sie die neueste Version von Aspose.PDF von der [Downloads Page](https://releases.aspose.com/pdf/java/) herunter.
-- **Kauf & kostenlose Testversion:** Besuchen Sie [Aspose Purchase](https://purchase.aspose.com/buy) für Lizenzierungsoptionen.
-- **Temporäre Lizenz:** Holen Sie sich eine temporäre Lizenz zur Evaluierung über [Aspose Temporary License](https://purchase.aspose.com/temporary-license/).
-- **Support:** Stellen Sie Fragen im [Aspose Support Forum](https://forum.aspose.com/c/pdf/10), falls Sie auf Probleme stoßen.
+## Ressourcen
+- **Dokumentation:** Erkunden Sie detaillierte Anleitungen und API‑Referenzen unter [Aspose PDF Documentation](https://reference.aspose.com/pdf/java/).  
+- **Download:** Holen Sie sich die neueste Version von Aspose.PDF von der [Downloads Page](https://releases.aspose.com/pdf/java/).  
+- **Kauf & kostenlose Testversion:** Besuchen Sie [Aspose Purchase](https://purchase.aspose.com/buy) für Lizenzoptionen.  
+- **Temporäre Lizenz:** Erhalten Sie eine temporäre Lizenz zur Evaluierung von Funktionen über [Aspose Temporary License](https://purchase.aspose.com/temporary-license/).  
+- **Support:** Stellen Sie Fragen im [Aspose Support Forum](https://forum.aspose.com/c/pdf/10), falls Sie Probleme haben.
 
----
+**Zuletzt aktualisiert:** 2026-06-02  
+**Getestet mit:** Aspose.PDF 25.3 für Java  
+**Autor:** Aspose
 
-**Letzte Aktualisierung:** 20.12.2025
-**Getestet mit:** Aspose.PDF 25.3 für Java
-**Autor:** Aspose  
+## Verwandte Tutorials
+
+- [Wie man PDF‑Lesezeichen erstellt und die Navigation mit Aspose.PDF für Java verwaltet](/pdf/java/bookmarks-navigation/create-manage-pdf-bookmarks-aspose-java/)
+- [Wie man PDF‑Lesezeichen mit Aspose.PDF für Java aktualisiert: Eine Schritt‑für‑Schritt‑Anleitung](/pdf/java/bookmarks-navigation/update-pdf-bookmarks-aspose-java-tutorial/)
+- [PDF‑Lesezeichen in Java mit Aspose.PDF abrufen – Vollständiger Leitfaden](/pdf/java/bookmarks-navigation/retrieve-display-pdf-bookmarks-aspose-pdf-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

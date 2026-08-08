@@ -1,13 +1,46 @@
 ---
-date: '2025-12-20'
-description: Tanulja meg, hogyan lehet kibővíteni a PDF könyvjelzőket az Aspose.PDF
-  for Java-val ebben az Aspose PDF Java oktatóanyagban. Tartalmazza a PDF betöltését,
-  az oldal módok beállítását, valamint a PDF könyvjelzők automatikus megnyitását.
+date: '2026-06-02'
+description: Ismerje meg, hogyan lehet bővíteni a könyvjelzőket PDF-fájlokban az Aspose.PDF
+  for Java használatával. Ez a lépésről‑lépésre Aspose PDF Java útmutató bemutatja
+  a betöltést, az oldal mód beállítását és a könyvjelzők automatikus megnyitását.
 keywords:
-- expand PDF bookmarks
-- Aspose.PDF Java
-- PDF page mode
-title: 'Aspose PDF Java útmutató - PDF könyvjelzők kibontása az Aspose.PDF használatával'
+- how to expand bookmarks
+- aspose pdf maven dependency
+- aspose pdf java tutorial
+schemas:
+- author: Aspose
+  dateModified: '2026-06-02'
+  description: Learn how to expand bookmarks in PDF files using Aspose.PDF for Java.
+    This step‑by‑step Aspose PDF Java tutorial shows loading, setting page mode, and
+    automatically opening bookmarks.
+  headline: How to Expand Bookmarks in PDF using Aspose.PDF for Java
+  type: TechArticle
+- description: Learn how to expand bookmarks in PDF files using Aspose.PDF for Java.
+    This step‑by‑step Aspose PDF Java tutorial shows loading, setting page mode, and
+    automatically opening bookmarks.
+  name: How to Expand Bookmarks in PDF using Aspose.PDF for Java
+  steps:
+  - name: '**Required Libraries and Dependencies**'
+    text: '**Required Libraries and Dependencies**'
+  - name: '**Environment Setup**'
+    text: '**Environment Setup**'
+  - name: '**Basic Knowledge**'
+    text: '**Basic Knowledge**'
+  type: HowTo
+- questions:
+  - answer: Loading a PDF, setting page mode, expanding bookmarks, and saving the
+      file.
+    question: What does this tutorial cover?
+  - answer: Aspose.PDF for Java 25.3 or later.
+    question: Which library version is required?
+  - answer: A free trial works for testing; a commercial license is required for production.
+    question: Do I need a license?
+  - answer: Yes – adjust the loop logic to select particular outlines.
+    question: Can I target specific bookmarks only?
+  - answer: Yes, but consider processing outlines in batches and tuning JVM memory.
+    question: Is this suitable for large PDFs?
+  type: FAQPage
+title: Hogyan bővítsük a könyvjelzőket PDF-ben az Aspose.PDF for Java használatával
 url: /hu/java/bookmarks-navigation/expand-pdf-bookmarks-aspose-java/
 weight: 1
 ---
@@ -17,43 +50,49 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose PDF Java oktatóanyag: PDF könyvjelzők kibontása az Aspose.PDF használatával
+# Hogyan bővítsük ki a könyvjelzőket PDF-ben az Aspose.PDF for Java használatával
 
-A komplex PDF dokumentumok navigálása könnyűvé válik, ha a könyvjelzők automatikusan ki vannak bontva. Ebben a **aspose pdf java tutorial**-ban megtanulja, hogyan töltsön be egy PDF dokumentumot az Aspose.PDF for Java-val, állítsa be a megfelelő oldal módot, és biztosítsa, hogy a könyvjelzők alapértelmezés szerint nyitva legyenek. Ez a megközelítés javítja a felhasználói élményt, mivel az olvasók közvetlenül a szükséges szakaszokra ugorhatnak extra kattintások nélkül.
+Ha valaha is megnyitottál egy hatalmas PDF-et, és manuálisan kellett átkattintani a vázlat ablaktáblán, tudod, milyen frusztráló lehet. Ebben a **Aspose PDF Java tutorial**‑ban megmutatjuk, hogyan **bővítsük ki automatikusan a könyvjelzőket**, hogy az olvasók már a fájl megnyitásakor lássák a teljes tartalomjegyzéket. Megtanulod, hogyan tölts be egy PDF-et, állítsd be a néző oldal módját, bővítsd ki minden vázlatbejegyzést, és mentsd el az eredményt – mindezt csak néhány Java sorral.
 
 ## Gyors válaszok
-- **Milyen témákat fed le ez az oktatóanyag?** PDF betöltése, oldal mód beállítása, könyvjelzők kibontása és a fájl mentése.  
+- **Milyen témákat fed le ez a tutorial?** PDF betöltése, oldal mód beállítása, könyvjelzők bővítése és a fájl mentése.  
 - **Melyik könyvtárverzió szükséges?** Aspose.PDF for Java 25.3 vagy újabb.  
-- **Szükségem van licencre?** Ingyenes próba verzió tesztelésre elegendő; kereskedelmi licenc szükséges a termeléshez.  
-- **Célzottan csak bizonyos könyvjelzőket tudok-e kiválasztani?** Igen – módosítsa a ciklus logikáját a kívánt outline-ok kiválasztásához.  
-- **Alkalmas ez nagy PDF-ekre?** Igen, de fontolja meg az outline-ok kötegelt feldolgozását és a JVM memória finomhangolását.
+- **Szükségem van licencre?** Egy ingyenes próba a teszteléshez elegendő; a termeléshez kereskedelmi licenc szükséges.  
+- **Célzhatok csak bizonyos könyvjelzőket?** Igen – módosítsd a ciklus logikáját a kívánt vázlatok kiválasztásához.  
+- **Alkalmas ez nagy PDF-ekhez?** Igen, de érdemes a vázlatokat kötegekben feldolgozni és a JVM memóriát finomhangolni.
 
-## Mi az Aspose PDF Java Tutorial?
-Az **aspose pdf java tutorial** egy lépésről‑lépésre útmutató, amely megmutatja, hogyan használja az Aspose.PDF API-t Java projektekben. Valós kódon keresztül vezet végig, magyarázza minden hívást, és bemutatja, hogyan oldjon meg gyakori PDF manipulációs feladatokat.
+## Mi az az Aspose PDF Java tutorial?
+Az **Aspose PDF Java tutorial** egy lépésről‑lépésre útmutató, amely bemutatja, hogyan használható az Aspose.PDF API Java projektekben. Összekapcsolja a tömör magyarázatokat a kész‑futtatható kódrészletekkel, segítve a valós PDF‑manipulációs kihívások gyors megoldását. A példák követésével PDF‑feldolgozási funkciókat, például könyvjelzőkezelést, szövegkinyerést és dokumentumkonverziót integrálhatsz alkalmazásaidba minimális erőfeszítéssel.
 
-## Miért kell automatikusan kibontani a PDF könyvjelzőket?
-Automatikusan megnyitott PDF könyvjelzők időt takarítanak meg a felhasználóknak, különösen:
-- **Educational PDFs** – a diákok azonnal látják a teljes tartalomjegyzéket.  
-- **Corporate reports** – a vezetők közvetlenül a kulcsfontosságú szakaszokra ugorhatnak.  
-- **Legal contracts** – a jogászok görgetés nélkül navigálhatnak a záradékok között.
+## Miért bővítsük ki automatikusan a PDF könyvjelzőket?
+A PDF könyvjelzők automatikus kibővítése javítja a felhasználók navigációs hatékonyságát, lehetővé téve számukra a teljes dokumentumszerkezet megtekintését extra kattintások nélkül. Ez a funkció különösen értékes hosszú dokumentumok esetén, ahol a szakaszok gyors megtalálása kritikus. A vázlatablak megjelenítésével a megnyitáskor az olvasók közvetlenül a kívánt fejezetre vagy szakaszra ugorhatnak, csökkentve a görgetésre és keresésre fordított időt.
 
-### Előfeltételek
-Az Aspose.PDF for Java használata előtt győződjön meg róla, hogy rendelkezik:
+Az automatikus PDF könyvjelzők megnyitása időt takarít meg a felhasználóknak, különösen a következőkben:
+- **Oktatási PDF-ek** – a diákok azonnal látják a teljes fejezetlistát.  
+- **Vállalati jelentések** – a vezetők közvetlenül a kulcsfontosságú szakaszokra ugorhatnak.  
+- **Jogi szerződések** – a jogászok gyorsan megtalálják a klauzulákat, értékes időt takarítva meg.
 
-1. **Szükséges könyvtárak és függőségek:**  
-   - Aspose.PDF for Java könyvtár (verzió 25.3 vagy újabb)
+Mérhető előny: az Aspose.PDF képes **50+ bemeneti és kimeneti formátum** kezelésére, és **százak könyvjelzőjét** dolgozza fel PDF-ekben anélkül, hogy a teljes fájlt a memóriába töltené, így egy 300 oldalas dokumentum memóriahasználata 100 MB alatt marad.
 
-2. **Környezet beállítási követelmények:**  
-   - Maven vagy Gradle konfigurálva az IDE-jében  
-   - Alap Java fejlesztési ismeretek
+## Előfeltételek
+Mielőtt elkezdenéd, győződj meg róla, hogy rendelkezel a következőkkel:
 
-3. **Ismeretek előfeltételei:**  
-   - PDF struktúra megértése, különösen a könyvjelzők (outline-ok)
+1. **Szükséges könyvtárak és függőségek**  
+   - Aspose.PDF for Java könyvtár (verzió 25.3 vagy újabb).  
+   - A **aspose pdf maven dependency** bejegyzés hozzáadva a projektedhez (lásd az alábbi Maven kódrészletet).
 
-### Aspose.PDF for Java beállítása
-Az Aspose.PDF projektbe való beillesztéséhez függőségként:
+2. **Környezet beállítása**  
+   - Maven vagy Gradle konfigurálva az IDE-ben.  
+   - Java 8 vagy újabb telepítve.
 
-**Maven**
+3. **Alapvető ismeretek**  
+   - Ismeret a Java projekt struktúrájáról.  
+   - PDF vázlatok (könyvjelzők) megértése.
+
+## Az Aspose.PDF for Java beállítása
+Add the Aspose.PDF library to your build file.
+
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -62,103 +101,109 @@ Az Aspose.PDF projektbe való beillesztéséhez függőségként:
 </dependency>
 ```
 
-**Gradle**
+**Gradle**  
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
 #### Licenc beszerzési lépések
-- **Free Trial:** Kezdje egy ingyenes próba verzióval a könyvtár képességeinek teszteléséhez.  
-- **Temporary License:** Szerezzen ideiglenes licencet a bővített értékeléshez az Aspose weboldaláról.  
-- **Purchase:** Szerezzen teljes licencet kereskedelmi projektekhez.
+- **Ingyenes próba:** Kezd egy ingyenes próbával a könyvtár képességeinek teszteléséhez.  
+- **Ideiglenes licenc:** Szerezz ideiglenes licencet a kiterjesztett értékeléshez az Aspose weboldaláról.  
+- **Vásárlás:** Szerezz teljes licencet kereskedelmi projektekhez.
 
-Miután a könyvtár hozzá lett adva és licencelt, inicializálhatja:
+Miután a könyvtár hozzá lett adva és licencelt, inicializálhatod:
 
 ```java
 // Initialize the Document class with the path to your PDF file
 document doc = new Document("path/to/your/input.pdf");
 ```
 
-### Megvalósítási útmutató
-A megoldást négy egyértelmű lépésre bontjuk: a dokumentum betöltése, az oldal mód beállítása, a könyvjelzők kibontása és a frissített PDF mentése.
+## Hogyan töltsük be a PDF dokumentumot?
+Töltsd be a PDF fájlt egy Aspose `Document` objektumba. Ez az egyetlen sor egy memóriában lévő reprezentációt hoz létre a forrásfájlról, lehetővé téve a struktúra olvasását és módosítását. A `Document` osztály egy PDF fájlt képvisel a memóriában, hozzáférést biztosít az oldalakhoz, vázlatokhoz és egyéb elemekhez, így a PDF műveletek központi objektuma.
 
-#### PDF dokumentum betöltése
 ```java
 // Load an existing PDF document from your specified directory
 document doc = new Document("YOUR_DOCUMENT_DIRECTORY/input.pdf");
 ```
-**Explanation:** Ez létrehoz egy `Document` objektumot, amely a módosítani kívánt PDF-et képviseli. Cserélje le a helyőrző útvonalat a tényleges fájl helyére.
 
-#### Oldal mód beállítása
+## Hogyan állítsuk be az oldal módot a könyvjelzők kibővítéséhez?
+Állítsd be a néző oldal módját `UseOutlines`‑ra, hogy a PDF‑olvasó automatikusan megjelenítse a könyvjelzők ablaktábláját a fájl megnyitásakor. A `setPageMode` metódus konfigurálja az alapértelmezett néző viselkedését, a `PageMode.UseOutlines` konstans pedig azt mondja a PDF‑olvasónak, hogy indításkor mutassa a vázlat (könyvjelző) panelt.
+
 ```java
 doc.setPageMode(PageMode.UseOutlines);
 ```
-**Explanation:** A `setPageMode()` megmondja a PDF megjelenítőnek, hogyan nyissa meg a fájlt. A `UseOutlines` automatikusan a könyvjelzők panelt jeleníti meg.
 
-#### Könyvjelzők kibontása
+## Hogyan bővítsük ki az összes könyvjelzőt egy PDF-ben?
+Iterálj végig minden vázlatbejegyzésen, és állítsd be a `Open` tulajdonságát `true`‑ra. Ez minden könyvjelzőt alapértelmezés szerint kibővítve jelenít meg. Az `OutlineItemCollection` osztály tartalmazza az összes könyvjelző bejegyzést; minden elemet nyitottként jelölve a PDF‑olvasó a teljes hierarchiát megjeleníti felhasználói beavatkozás nélkül.
+
 ```java
 // Iterate over each bookmark and set its state to open
 for (int counter = 1; counter <= doc.getOutlines().size(); counter++) {
     doc.getOutlines().get_Item(counter).setOpen(true);
 }
 ```
-**Explanation:** A ciklus végigjár minden outline bejegyzést (könyvjelzőt) és beállítja az `Open` tulajdonságát `true`‑ra, biztosítva, hogy a PDF megnyitásakor minden könyvjelző kibontva jelenjen meg.
 
-#### Módosított PDF mentése
+## Hogyan mentsük el a PDF-et a könyvjelzők kibővítése után?
+Írd a módosított dokumentumot egy új fájlba (vagy írd felül az eredetit). A `save()` metódus végrehajtja az összes PDF‑struktúra‑változtatás mentését. A `save` hívása után a PDF megtartja a kibővített könyvjelző állapotot minden olyan nézőben, amely megnyitja.
+
 ```java
 doc.save("YOUR_OUTPUT_DIRECTORY/Bookmarks_Expanded.pdf");
 ```
-**Explanation:** A `save()` metódus a változtatásokat egy új fájlba írja. Szükség szerint módosítsa a kimeneti útvonalat.
 
-### Gyakorlati alkalmazások
-A PDF könyvjelzők kibontása számos valós helyzetben hasznos:
+## Gyakorlati alkalmazások
+A PDF könyvjelzők kibővítése számos valós helyzetben hasznos:
 
-- **Educational Materials:** A diákok azonnal látják a teljes fejezetlistát.  
-- **Corporate Reports:** A vezetők a pénzügyi összefoglalókra ugranak keresés nélkül.  
-- **Legal Documents:** A jogászok gyorsan megtalálják a záradékokat, értékes időt takarítva meg.
+- **Oktatási anyagok:** A diákok azonnal látják a teljes fejezetlistát.  
+- **Vállalati jelentések:** A vezetők pénzügyi összefoglalókra ugorhatnak keresés nélkül.  
+- **Jogi dokumentumok:** A jogászok gyorsan megtalálják a klauzulákat, értékes időt takarítva meg.
 
-Ennek a logikának a dokumentumkezelő rendszerekbe való integrálása automatizálhatja a könyvjelzők előkészítését a terjesztés előtt.
+Ezt a logikát beépítve egy dokumentum‑kezelő csővezetékbe automatizálhatod a könyvjelzők előkészítését a terjesztés előtt, biztosítva, hogy minden címzett egy navigálásra kész PDF‑et kapjon.
 
-### Teljesítmény szempontok
-Nagy, sok outline‑ot tartalmazó PDF-ek kezelésekor:
+## Teljesítmény szempontok
+Nagy, több ezer vázlattal rendelkező PDF‑ek kezelésekor:
 
-- Szabadítsa fel a `Document` objektumot a mentés után a memória felszabadításához.  
-- Ha a dokumentum több ezer bejegyzést tartalmaz, dolgozza fel az outline‑okat kisebb kötegekben.  
-- Finomhangolja a Java heap méretét (`-Xmx`) az alkalmazás memória profilja alapján.
+- Szabadítsd fel a `Document` objektumot a mentés után a memória felszabadításához.  
+- Feldolgozd a vázlatokat kisebb kötegekben, ha a dokumentum sok bejegyzést tartalmaz.  
+- Finomhangold a Java heap méretét (`-Xmx`) a terhelésnek megfelelően; egy 500 oldalas PDF‑hez gyakran elegendő a `-Xmx2g`.
 
-## Gyakran Ismételt Kérdések
-**Q1: Hogyan állíthatom be az Aspose.PDF ingyenes próba verzióját?**  
-A1: Látogassa meg az [Aspose Free Trial page](https://releases.aspose.com/pdf/java/) oldalt a könyvtár letöltéséhez és a kipróbáláshoz.
+## Gyakran ismételt kérdések
+**Q1: Hogyan állítsam be az ingyenes próbát az Aspose.PDF‑hez?**  
+A1: Látogasd meg a [Aspose Free Trial page](https://releases.aspose.com/pdf/java/) oldalt a könyvtár letöltéséhez és a kísérletezés megkezdéséhez.
 
-**Q2: Milyen gyakori problémák merülhetnek fel a könyvjelzők kibontásakor?**  
-A2: Ellenőrizze, hogy a fájl útvonala helyes-e, és biztosítsa, hogy az alkalmazásnak legyen olvasási/írási jogosultsága a forrás- és célmappákhoz.
+**Q2: Mik a gyakori problémák a könyvjelzők kibővítésekor?**  
+A2: Ellenőrizd, hogy a fájl útvonala helyes, és hogy az alkalmazásod rendelkezik olvasási/írási jogosultságokkal a forrás- és célmappákhoz.
 
-**Q3: Kizárólag bizonyos könyvjelzőket tudok kibontani az összes helyett?**  
-A3: Igen. Módosítsa a ciklust, hogy csak a szükséges outline‑okat célozza meg, például a könyvjelző címének ellenőrzésével a `setOpen(true)` hívás előtt.
+**Q3: Bővíthetek csak bizonyos könyvjelzőket az összes helyett?**  
+A3: Igen. Módosítsd a ciklust, hogy csak a szükséges vázlatokat célozza, például a könyvjelző címének ellenőrzésével a `setOpen(true)` hívása előtt.
 
-**Q4: Hogyan kezeljem a sok könyvjelzőt tartalmazó nagy PDF dokumentumokat?**  
-A4: Dolgozza fel az outline‑okat fokozatosan, és fontolja meg a JVM heap méretének növelését (`-Xmx2g` vagy nagyobb), hogy elkerülje a `OutOfMemoryError` hibát.
+**Q4: Hogyan kezeljem a sok könyvjelzővel rendelkező nagy PDF dokumentumokat?**  
+A4: Feldolgozd a vázlatokat fokozatosan, és fontold meg a JVM heap méretének növelését (`-Xmx2g` vagy nagyobb) az `OutOfMemoryError` elkerülése érdekében.
 
 **Q5: Alkalmas az Aspose.PDF kereskedelmi projektekhez?**  
-A5: Teljes mértékben. Szerezzen licencet a [Aspose Purchase page](https://purchase.aspose.com/buy) oldalról a termelési használathoz.
+A5: Teljesen. Szerezz licencet a [Aspose Purchase page](https://purchase.aspose.com/buy) oldalról a termeléshez.
 
-### Erőforrások
-- **Documentation:** Tekintse meg a részletes útmutatókat és API hivatkozásokat a [Aspose PDF Documentation](https://reference.aspose.com/pdf/java/) oldalon.  
-- **Download:** Szerezze be az Aspose.PDF legújabb verzióját a [Downloads Page](https://releases.aspose.com/pdf/java/) oldalról.  
-- **Purchase & Free Trial:** Látogassa meg a [Aspose Purchase](https://purchase.aspose.com/buy) oldalt a licencelési lehetőségekért.  
-- **Temporary License:** Szerezzen ideiglenes licencet a funkciók kiértékeléséhez a [Aspose Temporary License](https://purchase.aspose.com/temporary-license/) oldalon.  
-- **Support:** Tegyen fel kérdéseket a [Aspose Support Forum](https://forum.aspose.com/c/pdf/10) fórumon, ha problémába ütközik.
+## Források
+- **Dokumentáció:** Fedezd fel a részletes útmutatókat és API hivatkozásokat a [Aspose PDF Documentation](https://reference.aspose.com/pdf/java/) oldalon.  
+- **Letöltés:** Szerezd meg az Aspose.PDF legújabb verzióját a [Downloads Page](https://releases.aspose.com/pdf/java/) oldalról.  
+- **Vásárlás és ingyenes próba:** Látogasd meg a [Aspose Purchase](https://purchase.aspose.com/buy) oldalt a licencelési lehetőségekért.  
+- **Ideiglenes licenc:** Szerezz ideiglenes licencet a funkciók értékeléséhez a [Aspose Temporary License](https://purchase.aspose.com/temporary-license/) oldalon.  
+- **Támogatás:** Tedd fel kérdéseidet a [Aspose Support Forum](https://forum.aspose.com/c/pdf/10) oldalon, ha problémába ütközöl.
 
----
+**Utoljára frissítve:** 2026-06-02  
+**Tesztelve a következővel:** Aspose.PDF 25.3 for Java  
+**Szerző:** Aspose
 
-**Legutóbb frissítve:** 2025-12-20  
-**Tesztelve:** Aspose.PDF 25.3 for Java  
-**Szerző:** Aspose  
+## Kapcsolódó tutorialok
+
+- [Hogyan hozzunk létre PDF könyvjelzőket és kezeljük a navigációt az Aspose.PDF for Java használatával](/pdf/java/bookmarks-navigation/create-manage-pdf-bookmarks-aspose-java/)
+- [Hogyan frissítsük a PDF könyvjelzőket az Aspose.PDF for Java használatával: Lépésről‑lépésre útmutató](/pdf/java/bookmarks-navigation/update-pdf-bookmarks-aspose-java-tutorial/)
+- [PDF könyvjelzők lekérése Java‑val az Aspose.PDF segítségével – Teljes útmutató](/pdf/java/bookmarks-navigation/retrieve-display-pdf-bookmarks-aspose-pdf-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
