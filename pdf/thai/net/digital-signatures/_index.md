@@ -64,6 +64,9 @@
 ### [ตรวจสอบลายเซ็น PDF ด้วย Aspose – แปลง PDF เป็น HTML](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
 เรียนรู้วิธีตรวจสอบลายเซ็น PDF แล้วแปลงไฟล์เป็น HTML ด้วย Aspose.PDF สำหรับ .NET
 
+### [ตรวจสอบลายเซ็น PDF และแสดงรายการลายเซ็น PDF ด้วย Aspose.PDF – คู่มือฉบับสมบูรณ์](./validate-pdf-signature-and-list-pdf-signatures-with-aspose-p/)
+เรียนรู้วิธีตรวจสอบความถูกต้องของลายเซ็น PDF และดึงรายการลายเซ็นทั้งหมดจากเอกสารด้วย Aspose.PDF อย่างละเอียด
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)

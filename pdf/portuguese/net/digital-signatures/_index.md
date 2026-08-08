@@ -64,6 +64,9 @@ Aprenda a carregar um PDF em C#, convertê‑lo para o padrão PDF/X‑4 e lista
 ### [Validar assinatura PDF com Aspose – Converter PDF para HTML](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
 Aprenda a validar assinaturas PDF e converter documentos PDF para HTML usando Aspose.PDF.
 
+### [Validar assinatura de PDF e listar assinaturas de PDF com Aspose.PDF – Guia completo](./validate-pdf-signature-and-list-pdf-signatures-with-aspose-p/)
+Aprenda a validar assinaturas de PDF e listar todas as assinaturas presentes usando Aspose.PDF para .NET.
+
 ## Recursos adicionais
 
 - [Aspose.PDF para documentação da Net](https://docs.aspose.com/pdf/net/)
