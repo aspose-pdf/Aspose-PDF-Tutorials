@@ -35,6 +35,9 @@ Leer hoe je SVG-bestanden naadloos kunt converteren naar hoogwaardige PDF's met 
 ### [Rechthoeken maken en vullen in PDF's met Aspose.PDF voor .NET: een stapsgewijze handleiding](./create-fill-rectangle-aspose-pdf-net/)
 Leer hoe u rechthoeken in PDF-documenten kunt maken en vullen met Aspose.PDF voor .NET. Deze stapsgewijze handleiding behandelt alles van installatie tot implementatie met C#.
 
+### [Rechthoek toevoegen aan PDF met Aspose.PDF – Complete programmeergids](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+Leer hoe u met Aspose.PDF een rechthoek aan een PDF toevoegt met volledige codevoorbeelden en stapsgewijze instructies.
+
 ### [Maak aangepaste PDF-stempels met Aspose.PDF in .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Een codetutorial voor Aspose.PDF Net
 

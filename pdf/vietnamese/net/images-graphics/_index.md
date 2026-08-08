@@ -35,6 +35,9 @@ Tìm hiểu cách chuyển đổi tệp SVG thành PDF chất lượng cao một
 ### [Tạo & Điền Hình Chữ Nhật Trong PDF Sử Dụng Aspose.PDF Cho .NET: Hướng Dẫn Từng Bước](./create-fill-rectangle-aspose-pdf-net/)
 Tìm hiểu cách tạo và điền hình chữ nhật trong tài liệu PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước này bao gồm mọi thứ từ thiết lập đến triển khai bằng C#.
 
+### [Thêm Hình Chữ Nhật vào PDF bằng Aspose.PDF – Hướng Dẫn Lập Trình Toàn Diện](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+Hướng dẫn chi tiết cách tạo hình chữ nhật trong tài liệu PDF bằng Aspose.PDF cho .NET, bao gồm mã mẫu và các tùy chọn tùy chỉnh.
+
 ### [Tạo tem PDF tùy chỉnh với Aspose.PDF trong .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Hướng dẫn mã cho Aspose.PDF Net
 
