@@ -35,10 +35,11 @@ Aspose.PDF'nin .NET için "Pullar ve Filigranlarla Programlama" öğreticileri, 
 | [Altbilgideki Resim](./image-in-footer/) | Bu detaylı adım adım eğitimle .NET için Aspose.PDF kullanarak bir PDF'nin altbilgisine resim eklemeyi öğrenin. Belgelerinizi geliştirmek için mükemmel. |  
 | [Başlıktaki Resim](./image-in-header/) | Bu adım adım eğitimde Aspose.PDF for .NET kullanarak PDF'nin başlığına nasıl resim ekleneceğini öğrenin.  
 | [Üstbilgi Altbilgide Yüzen Kutu Kullanarak Sayfa Numarası](./page-number-in-header-footer-using-floating-box/) | Bu adım adım eğitimde Aspose.PDF for .NET ile Yüzen Kutu kullanarak PDF üst bilgi ve alt bilginize kolayca sayfa numaraları ekleyin. |  
-| [PDF Dosyasında Sayfa Numarası Damgaları](./page-number-stamps/) Kolay takip edilebilir kılavuzumuz ve kod örneğimizle Aspose.PDF for .NET'i kullanarak PDF dosyalarına sayfa numarası damgalarının nasıl ekleneceğini öğrenin.  
+| [PDF Dosyasında Sayfa Numarası Damgaları](./page-number-stamps/) | Kolay takip edilebilir kılavuzumuz ve kod örneğimizle Aspose.PDF for .NET'i kullanarak PDF dosyalarına sayfa numarası damgalarının nasıl ekleneceğini öğrenin.  
 | [Üstbilgi Altbilgi Bölümündeki Tablo](./table-in-header-footer-section/) | Aspose.PDF for .NET kullanarak bir PDF dosyasının altbilgisine kolayca metin eklemeyi öğrenin. Sorunsuz entegrasyon için adım adım kılavuz dahildir. |  
 | [PDF Dosyasının Altbilgisindeki Metin](./text-in-footer/) | Aspose.PDF for .NET ile PDF dosyasının alt bilgisine metin eklemeyi öğrenin. |  
 | [PDF Dosyasının Başlığındaki Metin](./text-in-header/) | Bu adım adım eğitimle Aspose.PDF for .NET kullanarak PDF'lere metin başlıkları eklemeyi öğrenin. Belgelerinizi verimli ve etkili bir şekilde geliştirin. |  
+| [Aspose.PDF ile PDF'de Opaklığı Değiştirme – Tam Kılavuz](./how-to-change-opacity-in-pdf-with-aspose-pdf-complete-guide/) | Aspose.PDF for .NET kullanarak PDF dosyalarınızda opaklık ayarlarını nasıl değiştireceğinizi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

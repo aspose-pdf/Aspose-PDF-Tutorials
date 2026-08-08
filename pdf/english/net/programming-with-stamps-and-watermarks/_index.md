@@ -39,6 +39,7 @@ Aspose.PDF's "Programming with Stamps and Watermarks" tutorials for .NET walk yo
 | [Table In Header Footer Section](./table-in-header-footer-section/) | Learn how to easily add text to the footer of a PDF file using Aspose.PDF for .NET. Step-by-step guide included for seamless integration. |  
 | [Text In Footer Of PDF File](./text-in-footer/) | Learn how to add text in the footer of PDF file with Aspose.PDF for .NET. |  
 | [Text In Header Of PDF File](./text-in-header/) | Learn to add text headers to PDFs using Aspose.PDF for .NET with this step-by-step tutorial. Enhance your documents efficiently and effectively. |  
+| [How to Change Opacity in PDF with Aspose.PDF – Complete Guide](./how-to-change-opacity-in-pdf-with-aspose-pdf-complete-guide/) | Learn how to change opacity in PDF files using Aspose.PDF for .NET with this comprehensive step-by-step guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
