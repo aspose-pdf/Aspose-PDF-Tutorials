@@ -37,6 +37,7 @@ Bahasa Indonesia: --- | Bahasa Indonesia:
 | [Dibagi Menjadi Halaman](./split-to-pages/) Pisahkan PDF ke dalam halaman-halaman individual dengan mudah menggunakan Aspose.PDF for .NET dengan tutorial lengkap ini. Panduan langkah demi langkah disertakan. Bahasa Indonesia:  
 | [Perbarui Dimensi Halaman PDF](./update-dimensions/) | Temukan cara memperbarui dimensi halaman PDF dengan mudah dengan Aspose.PDF untuk .NET dalam panduan langkah demi langkah yang komprehensif ini. Bahasa Indonesia:  
 | [Perbesar Isi Halaman Dalam File PDF](./zoom-to-page-contents/) | Pelajari cara memperbesar konten halaman dalam file PDF menggunakan Aspose.PDF untuk .NET dalam panduan lengkap ini. Sempurnakan dokumen PDF Anda sesuai dengan kebutuhan spesifik Anda. |  
+| [Ubah Opasitas PDF dengan C# – Panduan Langkah demi Langkah](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Panduan langkah demi langkah untuk mengubah opasitas PDF menggunakan C# dengan Aspose.PDF untuk .NET. Bahasa Indonesia:  
 | [Menambahkan nomor halaman PDF dengan C# – Panduan Langkah demi Langkah Lengkap](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Panduan langkah demi langkah untuk menambahkan nomor halaman pada file PDF menggunakan C# dengan Aspose.PDF untuk .NET. Mudah diikuti. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

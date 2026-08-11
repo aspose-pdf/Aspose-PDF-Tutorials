@@ -37,6 +37,7 @@ tutorial includono istruzioni dettagliate, esempi di codice dettagliati e spiega
 | [Dividi in pagine](./split-to-pages/) Dividi facilmente i PDF in singole pagine utilizzando Aspose.PDF per .NET con questo tutorial completo. Guida passo passo inclusa. |  
 | [Aggiorna le dimensioni della pagina PDF](./update-dimensions/) | Scopri come aggiornare senza sforzo le dimensioni delle pagine PDF con Aspose.PDF per .NET in questa guida completa e dettagliata. |  
 | [Zoom sul contenuto della pagina nel file PDF](./zoom-to-page-contents/) | Scopri come ingrandire il contenuto delle pagine nei file PDF utilizzando Aspose.PDF per .NET in questa guida completa. Ottimizza i tuoi documenti PDF in base alle tue esigenze specifiche. |
+| [Modifica l'opacità PDF in C# con Aspose.Pdf](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Impara a modificare l'opacità di un PDF usando C# e Aspose.Pdf con questa guida dettagliata passo passo. |
 | [Aggiungi numeri di pagina PDF con C# – Guida completa passo‑passo](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Guida passo passo per aggiungere numeri di pagina a un PDF usando C# e Aspose.PDF per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
