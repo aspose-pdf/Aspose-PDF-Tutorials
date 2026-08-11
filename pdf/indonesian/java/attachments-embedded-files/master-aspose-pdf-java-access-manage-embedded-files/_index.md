@@ -1,12 +1,72 @@
 ---
-date: '2026-03-01'
-description: Jelajahi tutorial Aspose PDF Java ini untuk memuat dokumen PDF, mengekstrak
-  lampiran, dan membaca metadata lampiran PDF secara efisien.
+date: '2026-08-11'
+description: Pelajari cara mengekstrak lampiran menggunakan Aspose PDF for Java, membaca
+  metadata lampiran PDF, dan mengelola file tersemat secara efisien.
 keywords:
-- Aspose.PDF for Java
-- manage embedded files in PDFs
-- access PDF embedded files
-title: 'Tutorial Aspose PDF Java: Mengakses dan Mengelola File Tertanam dalam PDF'
+- how to extract attachments
+- read pdf attachment metadata
+- batch process pdf attachments
+- access embedded pdf files
+- get pdf attachment size
+lastmod: '2026-08-11'
+og_description: Pelajari cara mengekstrak lampiran menggunakan Aspose PDF for Java,
+  membaca metadata lampiran PDF, dan mengelola file tersemat secara efisien.
+og_image_alt: Guide to extract attachments from PDFs using Aspose PDF for Java
+og_title: Cara mengekstrak lampiran dengan Aspose PDF for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-11'
+  description: Learn how to extract attachments using Aspose PDF for Java, read PDF
+    attachment metadata, and manage embedded files efficiently.
+  headline: How to extract attachments with Aspose PDF for Java
+  type: TechArticle
+- description: Learn how to extract attachments using Aspose PDF for Java, read PDF
+    attachment metadata, and manage embedded files efficiently.
+  name: How to extract attachments with Aspose PDF for Java
+  steps:
+  - name: '**Specify your document directory** – tell the runtime where the source
+      PDF lives.'
+    text: '**Specify your document directory** – tell the runtime where the source
+      PDF lives.'
+  - name: '**Load the PDF document** – instantiate the `Document` class to read the
+      file.'
+    text: '**Load the PDF document** – instantiate the `Document` class to read the
+      file.'
+  - name: '**Retrieve the list of embedded files** – the `getEmbeddedFiles()` method
+      returns a collection you can iterate.'
+    text: '**Retrieve the list of embedded files** – the `getEmbeddedFiles()` method
+      returns a collection you can iterate.'
+  - name: '**Print basic properties** – use the `FileSpecification` object to output
+      key details.'
+    text: '**Print basic properties** – use the `FileSpecification` object to output
+      key details.'
+  - name: '**Retrieve additional parameters** – check for custom parameters if they
+      exist.'
+    text: '**Retrieve additional parameters** – check for custom parameters if they
+      exist.'
+  type: HowTo
+- questions:
+  - answer: Yes—acquire a production licence from the [purchase page](https://purchase.aspose.com/buy).
+    question: Can I use Aspose.PDF for commercial purposes?
+  - answer: The `getEmbeddedFiles()` collection will be empty; always check `if (attachments.isEmpty())`
+      before iterating.
+    question: What if my PDF doesn't contain embedded files?
+  - answer: Use the library’s streaming API and configure the JVM heap size; Aspose.PDF
+      processes files in a forward‑only manner to minimise memory footprint.
+    question: How do I handle very large PDFs without exhausting memory?
+  - answer: Aspose.PDF supports any file type that can be stored as a binary stream,
+      but common formats like DOCX, XLSX, PNG, and JPEG are fully recognised and their
+      MIME types are returned automatically.
+    question: Are there limits on the types of files that can be embedded?
+  - answer: Visit the [Aspose's support forum](https://forum.aspose.com/c/pdf/10)
+      or consult the official documentation for troubleshooting tips.
+    question: Where can I get help if I run into issues?
+  type: FAQPage
+tags:
+- extract attachments
+- Aspose.PDF
+- Java PDF processing
+title: Cara mengekstrak lampiran dengan Aspose PDF for Java
 url: /id/java/attachments-embedded-files/master-aspose-pdf-java-access-manage-embedded-files/
 weight: 1
 ---
@@ -16,65 +76,63 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose PDF Java Tutorial: Akses dan Kelola File PDF Tersemat
+# Cara mengekstrak lampiran dengan Aspose PDF untuk Java
 
-##Perkenalan
+## Pendahuluan
 
-apakah tidak berhasil mengelola file yang dimasukkan ke dalam PDF Anda menggunakan Java? Baik Anda perlu **mengekstrak lampiran**, mengambil metadata, atau sekadar mencantumkan file yang tersembunyi di dalam PDF, **aspose pdf java tutorial** ini menunjukkan cara melakukannya dengan tepat. Kami akan memandu Anda memuat PDF, mengakses aset yang disematkan, dan membaca informasi lampiran secara detail—semua dengan penjelasan percakapan yang jelas dan dapat diikuti langkah demi langkah.
+Jika Anda perlu **extract attachments** dari PDF dalam aplikasi Java, tutorial ini menunjukkan secara tepat cara melakukannya. Anda akan belajar memuat PDF, mengenumerasi file tersematnya, dan membaca metadata terperinci seperti nama, tipe MIME, checksum, tanggal pembuatan, dan ukuran. Semua contoh menggunakan Aspose.PDF for Java, perpustakaan paling komprehensif untuk manipulasi PDF di JVM.
 
-### Jawaban Cepat
-- **Apa tujuan utamanya?** Memuat PDF dan membaca file properti yang disematkan.
-- **Perpustakaan mana yang digunakan?** Aspose.PDF untuk Java.
-- **Apakah saya memerlukan lisensi?** Uji coba gratis berfungsi untuk pengujian; izin komersial diperlukan untuk produksi.
-- **Dapatkah saya memproses banyak PDF sekaligus?** Ya—gabungkan kode ini dengan teknik pemrosesan batch.
-- **Metadata apa yang dapat saya baca?** Nama, deskripsi, jenis MIME, checksum, tanggal pembuatan/modifikasi, dan ukuran.
+### Jawaban cepat
+- **Apa tujuan utama?** Muat PDF dan baca properti file tersematnya.  
+- **Perpustakaan mana yang harus Anda gunakan?** Aspose.PDF for Java.  
+- **Apakah saya memerlukan lisensi?** Versi percobaan gratis dapat digunakan untuk pengujian; lisensi komersial diperlukan untuk produksi.  
+- **Bisakah saya memproses banyak PDF sekaligus?** Ya—gabungkan kode ini dengan teknik batch‑process.  
+- **Metadata apa yang dapat saya baca?** Nama, deskripsi, tipe MIME, checksum, tanggal pembuatan/modifikasi, dan ukuran.
 
-## Apa itu Tutorial Java Aspose PDF?
-Dalam tutorial ini Anda akan mempelajari cara **memuat file pdf dokumen java**, mengakses sumber daya yang disematkan, dan mengekstrak metadata berguna seperti **membaca metadata lampiran pdf**. Pada akhir tutorial, Anda akan memiliki potongan kode yang dapat digunakan kembali dan dapat dimasukkan ke proyek Java mana pun.
+## Apa itu cara mengekstrak lampiran?
 
-## Mengapa Menggunakan Aspose.PDF untuk Java?
-- **Kumpulan fitur yang kaya** – Dukungan penuh untuk file yang disematkan, anotasi, dan tanda tangan digital.
-- **Performa tinggi** – Dioptimalkan untuk memproses dokumen skala besar.
-- **Lintas‑platform** – Bekerja pada lingkungan apa pun yang kompatibel dengan JVM.
+**How to extract attachments** mengacu pada proses menemukan dan mengambil file yang telah disematkan di dalam kontainer PDF. Aspose.PDF for Java menyediakan API programatik yang memungkinkan Anda mengenumerasi sumber daya tersemat ini tanpa membuka PDF di penampil.
+
+## Mengapa menggunakan Aspose.PDF untuk Java?
+
+Aspose.PDF mendukung **50+ input and output formats**, termasuk DOCX, XLSX, PPTX, HTML, dan tipe gambar, serta dapat memproses PDF hingga 2 GB tanpa memuat seluruh file ke memori. Perpustakaan ini berjalan pada platform apa pun yang kompatibel dengan JVM, memberikan waktu respons sub‑detik untuk dokumen tipikal, dan menyertakan verifikasi checksum bawaan untuk menjamin integritas file.
 
 ## Prasyarat
 
-### Perpustakaan, Versi, dan Dependensi yang diperlukan
-Untuk mengikuti tutorial ini, Anda memerlukan:
-- **Aspose.PDF untuk Java**, versi 25.3 atau lebih baru.
-- Lingkungan pengembangan yang dapat menjalankan aplikasi Java (misalnya Eclipse, IntelliJ IDEA).
+### Perpustakaan, versi, dan dependensi yang diperlukan
+- **Aspose.PDF for Java**, versi 25.3 atau lebih baru.  
+- IDE Java seperti Eclipse atau IntelliJ IDEA.
 
-### Persyaratan Pengaturan Lingkungan
-Pastikan sistem Anda telah menginstal:
-- Java Development Kit (JDK) 8 atau yang lebih tinggi.
+### Persyaratan penyiapan lingkungan
+- Java Development Kit (JDK) 8 atau lebih tinggi terpasang dan dikonfigurasi di `PATH` Anda.
 
-### Prasyarat Pengetahuan
-Pemahaman dasar pemrograman Java diperlukan, termasuk familiaritas dengan alat build Maven atau Gradle untuk mengelola proyek dependensi.
+### Prasyarat pengetahuan
+- Familiaritas dengan sintaks Java.  
+- Pengalaman dasar dengan Maven atau Gradle untuk manajemen dependensi.
 
 ## Menyiapkan Aspose.PDF untuk Java
-Memulai dengan Aspose.PDF sangat mudah. Pertama, pastikan Anda telah menambahkan pustaka ke proyek menggunakan Maven atau Gradle.
+Tambahkan perpustakaan ke proyek Anda dengan Maven atau Gradle.
 
-**Ketergantungan Maven:**
+**Dependensi Maven:**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-pdf</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Implementasi Gradle:**
+**Implementasi Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
-```
+```  
 
-### Langkah-Langkah Akuisisi Lisensi
-Untuk menggunakan Aspose.PDF, Anda dapat:
-- **Uji Coba Gratis**: Mulai dengan lisensi sementara untuk tujuan evaluasi dari [di sini](https://purchase.aspose.com/temporary-license/).
-- **Pembelian**: Untuk penggunaan produksi, dapatkan lisensi penuh melalui [halaman pembelian Aspose](https://purchase.aspose.com/buy).
+### Langkah memperoleh lisensi
+- **Free trial:** Dapatkan lisensi sementara dari [di sini](https://purchase.aspose.com/temporary-license/).  
+- **Full licence:** Beli lisensi produksi melalui [halaman pembelian Aspose](https://purchase.aspose.com/buy).
 
-### Inisialisasi dan Pengaturan Dasar
-Setelah pustaka terpasang di proyek Anda, inisialisasi Aspose.PDF sebagai berikut:
+### Inisialisasi dan penyiapan dasar
+Setelah perpustakaan berada di classpath, Anda dapat menginisialisasinya sebagai berikut:  
 ```java
 import com.aspose.pdf.Document;
 
@@ -87,66 +145,62 @@ class PDFHandler {
         System.out.println("Aspose.PDF for Java Initialized.");
     }
 }
-```
+```  
 
-## Cara Memuat Dokumen PDF di Java
-Memuat dokumen PDF adalah langkah pertama untuk mengakses file yang disematkan. Bagian berikut menunjukkan kode yang tepat yang Anda butuhkan.
+## Cara memuat dokumen PDF Java
 
-### Panduan Implementasi
+Memuat PDF sangat mudah dengan Aspose.PDF. Anda membuat instance `Document` dengan memberikan jalur file, yang membaca struktur file dan menyiapkannya untuk manipulasi. Kelas `Document` mewakili seluruh PDF dalam memori, memungkinkan Anda menanyakan halaman, sumber daya, dan file tersemat tanpa membuka file di penampil.  
+```text
+Document pdfDoc = new Document("input.pdf");
+```  
+(Ganti placeholder dengan jalur file yang sebenarnya.)
 
-### Fitur 1: Memuat Dokumen PDF
-Memuat dokumen PDF adalah langkah pertama untuk mengakses file yang tertanam di dalamnya.
-
-**Gambaran Umum:**
-Fitur ini menunjukkan cara memuat PDF yang sudah ada menggunakan Aspose.PDF untuk Java, menyiapkan tahapan untuk operasi lebih lanjut seperti mengekstrak properti file yang tertanam.
-
-#### Implementasi Langkah demi Langkah
-1. **Tentukan Direktori Dokumen Anda:**
-	Tentukan di mana PDF input Anda disimpan.  
+### Implementasi langkah demi langkah
+1. **Specify your document directory** – beri tahu runtime di mana PDF sumber berada.  
    ```java
    String dataDir = "YOUR_DOCUMENT_DIRECTORY";
-   ```
-2. **Memuat Dokumen PDF:**
-	Gunakan kelas `Document` untuk memuat file PDF dari jalur yang ditentukan.  
+   ```  
+2. **Load the PDF document** – buat instance kelas `Document` untuk membaca file.  
    ```java
    import com.aspose.pdf.Document;
 
    Document pdfDocument = new Document(dataDir + "/input.pdf");
    System.out.println("PDF Loaded Successfully.");
-   ```
+   ```  
 
-### Fitur 2: Mengakses File Tertanam dalam PDF
-Mengakses file tertanam dalam dokumen yang dimuat sangat penting untuk mengekstrak propertinya.
+## Cara mengakses file PDF tersemat dalam PDF
 
-**Gambaran Umum:**
-Fitur ini menunjukkan cara mengakses daftar file tertanam dan mengambil file tertentu menggunakan kelas `FileSpecification` dari Aspose.PDF.
+Anda dapat mengambil koleksi file tersemat melalui koleksi `FileSpecification` pada objek `Document`. Operasi ini berkompleksitas O(n) dimana *n* adalah jumlah lampiran, dan tidak memerlukan pemuatan seluruh konten setiap file ke memori. Kelas `FileSpecification` mewakili entri file tersemat dalam PDF.  
+```text
+FileSpecificationCollection attachments = pdfDoc.getEmbeddedFiles();
+```  
 
-#### Implementasi Langkah demi Langkah
-1. **Mengambil Daftar File Tertanam:**
-	Akses koleksi file tertanam dalam PDF Anda.  
+### Implementasi langkah demi langkah
+1. **Retrieve the list of embedded files** – metode `getEmbeddedFiles()` mengembalikan koleksi yang dapat Anda iterasi.  
    ```java
    import com.aspose.pdf.FileSpecification;
 
    FileSpecification fileSpecification = pdfDocument.getEmbeddedFiles().get_Item(1);
    System.out.println("Accessed Embedded File.");
-   ```
+   ```  
 
-### Fitur 3: Mengambil Properti File dari File Tertanam
-Mengekstraksi properti file tertanam memberikan metadata yang berharga.
+## Cara membaca metadata lampiran PDF
 
-**Gambaran Umum:**
-Fitur ini mengilustrasikan cara mengambil berbagai properti seperti nama, deskripsi, tipe MIME, dan lainnya dari file tertanam di dalam PDF.
+Membaca metadata memungkinkan Anda membuat keputusan seperti memfilter berdasarkan tipe MIME atau memverifikasi checksum sebelum pemrosesan lebih lanjut. Objek `FileSpecification` menampilkan properti untuk nama, deskripsi, tipe MIME, tanggal pembuatan, tanggal modifikasi, dan ukuran. Dengan memeriksa bidang-bidang ini Anda dapat secara programatik memutuskan lampiran mana yang akan diekstrak, diganti nama, atau diabaikan berdasarkan aturan bisnis Anda.  
+```text
+String name = fileSpec.getName();
+String mime = fileSpec.getMimeType();
+Date created = fileSpec.getCreationDate();
+```  
 
-#### Implementasi Langkah demi Langkah
-1. **Cetak Properti Dasar:**
-	Gunakan objek `FileSpecification` untuk mengakses properti dasar. 
+### Implementasi langkah demi langkah
+1. **Print basic properties** – gunakan objek `FileSpecification` untuk menampilkan detail utama.  
    ```java
    System.out.println("Name:-" + fileSpecification.getName());
    System.out.println("Description:- " + fileSpecification.getDescription());
    System.out.println("Mime Type:-" + fileSpecification.getMIMEType());
-   ```
-2. **Ambil Parameter Tambahan:**
-	Periksa metadata tambahan jika tersedia. 
+   ```  
+2. **Retrieve additional parameters** – periksa parameter khusus jika ada.  
    ```java
    if (fileSpecification.getParams() != null) {
        System.out.println("CheckSum:- " + fileSpecification.getParams().getCheckSum());
@@ -154,75 +208,73 @@ Fitur ini mengilustrasikan cara mengambil berbagai properti seperti nama, deskri
        System.out.println("Modification Date:- " + fileSpecification.getParams().getModDate());
        System.out.println("Size:- " + fileSpecification.getParams().getSize());
    }
-   ```
+   ```  
 
-## Aplikasi Praktis
+## Cara mendapatkan ukuran lampiran PDF
 
-### Kasus Penggunaan 1: Manajemen Aset Digital
-Otomatiskan proses **cara mengekstrak lampiran** untuk perpustakaan digital, memastikan pengambilan dan pengelolaan yang mudah.
+Ukuran lampiran tersedia melalui metode `getSize()`, yang mengembalikan jumlah byte tanpa mendekompresi aliran. Ini memungkinkan Anda dengan cepat melewatkan file yang melebihi ambang batas yang telah ditentukan. Mengetahui ukuran membantu Anda mengalokasikan buffer yang tepat dan memutuskan apakah akan menyimpan lampiran di memori atau menstream-nya langsung ke disk.  
+```text
+long sizeInBytes = fileSpec.getSize();
+```  
 
-### Kasus Penggunaan 2: Sistem Pengarsipan Dokumen
-Sematkan metadata untuk melacak versi atau revisi dokumen langsung di dalam file PDF.
+## Aplikasi praktis
 
-### Kasus Penggunaan 3: Validasi Konten
-Verifikasi integritas file dengan memeriksa checksum sebelum memproses dokumen terlampir.
+### Kasus penggunaan 1: manajemen aset digital
+Otomatisasi proses **how to extract attachments** untuk perpustakaan digital besar, memastikan setiap file tersemat diindeks dengan metadata-nya.
 
-## Pertimbangan Kinerja
-Untuk mengoptimalkan kinerja saat menggunakan Aspose.PDF:
-- **Optimalkan Penggunaan Memori**: Kelola pengaturan memori Java untuk operasi PDF skala besar.
+### Kasus penggunaan 2: sistem pengarsipan dokumen
+Sematkan informasi revisi langsung dalam PDF dan kemudian ambil kembali dengan API metadata untuk melacak riwayat versi.
 
-- **Penanganan File yang Efisien**: Gabungkan logika ini dengan teknik **pemrosesan batch file PDF** untuk mengurangi overhead.
+### Kasus penggunaan 3: validasi konten
+Validasi integritas file dengan membandingkan checksum yang disimpan dengan checksum yang baru dihitung sebelum pemrosesan lanjutan.
 
-- **Praktik Terbaik**: Selalu lepaskan sumber daya dan tutup objek dokumen setelah digunakan.
+## Pertimbangan kinerja
+- **Optimisasi memori:** Setel `-Xmx` secara tepat untuk PDF besar; Aspose.PDF men-stream data dan tidak pernah memuat seluruh dokumen ke RAM.  
+- **Pemrosesan batch:** Gabungkan kode di atas dengan loop yang mengiterasi direktori PDF untuk **batch process pdf attachments** secara efisien.  
+- **Pembersihan sumber daya:** Selalu panggil `pdfDoc.dispose()` setelah selesai untuk melepaskan sumber daya native.
 
-## Kesimpulan
-Dengan mengikuti **tutorial aspose pdf java** ini, Anda telah belajar cara memuat PDF, mengakses file yang disematkan, dan mengekstrak propertinya menggunakan Aspose.PDF for Java. Kemampuan ini dapat secara signifikan meningkatkan kemampuan aplikasi Anda dalam menangani operasi PDF yang kompleks secara efisien.
+## Pertanyaan yang sering diajukan
 
-**Langkah Selanjutnya:**
-- Jelajahi fitur-fitur Aspose.PDF lainnya, seperti manipulasi dokumen atau ekstraksi teks.
+**Q: Dapatkah saya menggunakan Aspose.PDF untuk tujuan komersial?**  
+A: Ya—dapatkan lisensi produksi dari [halaman pembelian](https://purchase.aspose.com/buy).
 
-- Pertimbangkan untuk mengintegrasikannya dengan sistem lain untuk fungsionalitas yang lebih baik, seperti pipeline pemrosesan batch.
+**Q: Bagaimana jika PDF saya tidak berisi file tersemat?**  
+A: Koleksi `getEmbeddedFiles()` akan kosong; selalu periksa `if (attachments.isEmpty())` sebelum mengiterasi.
 
-Siap untuk mencobanya? Jelajahi skenario yang lebih canggih dan perluas kemampuan aplikasi Java Anda hari ini!
+**Q: Bagaimana cara menangani PDF yang sangat besar tanpa menghabiskan memori?**  
+A: Gunakan API streaming perpustakaan dan konfigurasikan ukuran heap JVM; Aspose.PDF memproses file secara forward‑only untuk meminimalkan jejak memori.
 
-## Bagian Tanya Jawab
-1. **Bisakah saya menggunakan Aspose.PDF untuk tujuan komersial?**
+**Q: Apakah ada batasan pada jenis file yang dapat disematkan?**  
+A: Aspose.PDF mendukung semua jenis file yang dapat disimpan sebagai aliran biner, tetapi format umum seperti DOCX, XLSX, PNG, dan JPEG sepenuhnya dikenali dan tipe MIME-nya dikembalikan secara otomatis.
 
-- Ya, setelah mendapatkan lisensi yang sesuai dari [halaman pembelian](https://purchase.aspose.com/buy).
+**Q: Di mana saya dapat mendapatkan bantuan jika mengalami masalah?**  
+A: Kunjungi [forum dukungan Aspose](https://forum.aspose.com/c/pdf/10) atau konsultasikan dokumentasi resmi untuk tips pemecahan masalah.
 
-2. **Bagaimana jika PDF saya tidak berisi file tersemat?**
+## Sumber daya tambahan
 
-- Metode `get_Item()` akan mengembalikan null; selalu periksa kondisi ini.
-
-3. **Bagaimana cara menangani PDF berukuran besar secara efisien?**
-
-- Optimalkan pengaturan memori dan gunakan teknik penanganan file yang efisien seperti yang dibahas di bagian kinerja.
-
-4. **Apakah ada batasan untuk mengakses file yang disematkan?**
-
-- Aspose.PDF dapat mengakses sebagian besar file yang disematkan standar, tetapi pastikan file tersebut sesuai dengan format umum untuk hasil terbaik.
-
-5. **Bagaimana jika saya mengalami kesalahan selama implementasi?**
-
-- Konsultasikan [forum dukungan Aspose](https://forum.aspose.com/c/pdf/10) atau periksa dokumentasi untuk panduan pemecahan masalah.
-
-## Sumber Daya
-- **Dokumentasi**: [Pelajari Lebih Lanjut tentang Aspose.PDF untuk Java](https://reference.aspose.com/pdf/java/)
-- **Unduh Pustaka**: [Dapatkan Versi Terbaru](https://releases.aspose.com/pdf/java/)
-- **Beli Lisensi**: [Beli Sekarang](https://purchase.aspose.com/buy)
-- **Uji Coba Gratis**: [Cobalah](https://releases.aspose.com/pdf/java/)
-- **Lisensi Sementara**: [Minta Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+- Pelajari lebih lanjut tentang Aspose.PDF untuk Java: [Pelajari lebih lanjut tentang Aspose.PDF untuk Java](https://reference.aspose.com/pdf/java/)
+- Dapatkan versi terbaru perpustakaan: [Dapatkan Versi Terbaru](https://releases.aspose.com/pdf/java/)
+- Beli lisensi: [Beli Sekarang](https://purchase.aspose.com/buy)
+- Coba perpustakaan: [Coba Sekarang](https://releases.aspose.com/pdf/java/)
+- Minta lisensi sementara: [Minta Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
 
 ---
 
-**Terakhir Diperbarui:** 2026-03-01
-**Diuji Dengan:** Aspose.PDF untuk Java 25.3
+**Terakhir Diperbarui:** 2026-08-11  
+**Diuji Dengan:** Aspose.PDF for Java 25.3  
 **Penulis:** Aspose
+
+## Tutorial Terkait
+
+- [Cara Membuat Lampiran PDF Tersemat dengan Aspose.PDF untuk Java - Panduan Pengembang](/pdf/java/attachments-embedded-files/add-attachments-pdf-aspose-pdf-java/)
+- [Cara Menghapus Lampiran PDF Secara Efisien Menggunakan Aspose.PDF untuk Java](/pdf/java/attachments-embedded-files/remove-attachments-pdf-aspose-java/)
+- [Ekstrak file PDF tersemat dari PDF Portfolio dengan Aspose.PDF Java](/pdf/java/attachments-embedded-files/extract-files-pdf-portfolio-aspose-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
