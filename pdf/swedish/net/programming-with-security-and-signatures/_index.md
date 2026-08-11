@@ -29,6 +29,7 @@ Handledningen ger dig en detaljerad översikt över metoder och tekniker för at
 | [Kryptera PDF-filen](./encrypt/) | Lär dig hur du krypterar dina PDF-filer utan problem med Aspose.PDF för .NET. Skydda känslig information med vår enkla steg-för-steg-guide. |  
 | [Extraherar bild](./extracting-image/) | Lär dig enkelt hur du extraherar bilder från PDF-filer med Aspose.PDF för .NET. Följ vår steg-för-steg-guide för sömlös bildextrahering. |  
 | [Extrahera signaturinformation](./extract-signature-info/) | Lär dig hur du extraherar digitala signaturer och certifikatinformation från PDF-dokument med Aspose.PDF för .NET. En komplett steg-för-steg-guide för C#-utvecklare. |  
+| [Hur du extraherar signaturer från en PDF i C# – steg‑för‑steg‑guide](./how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/) | Lär dig hur du extraherar digitala signaturer från PDF-filer med Aspose.PDF för .NET i C#. |  
 | [Är lösenordsskyddad](./is-password-protected/) Lär dig hur du kontrollerar om en PDF är lösenordsskyddad med Aspose.PDF för .NET i den här omfattande steg-för-steg-guiden. |  
 | [Ange behörigheter i PDF-fil](./set-privileges/) | Lär dig hur du ställer in PDF-behörigheter med Aspose.PDF för .NET med den här steg-för-steg-guiden. Skydda dina dokument effektivt. |  
 | [Signera med smartkort med PDF-filsignatur](./sign-with-smart-card-using-pdf-file-signature/) | Lär dig hur du signerar PDF-filer med ett smartkort med Aspose.PDF för .NET. Följ den här steg-för-steg-guiden för säkra digitala signaturer. |  

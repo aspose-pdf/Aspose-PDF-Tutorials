@@ -38,6 +38,7 @@ Aspose.PDF for .NET 的“使用 PDF 页面进行编程”文档提供了分步�
 | [更新 PDF 页面尺寸](./update-dimensions/) 通过这份全面的分步指南，了解如何使用 Aspose.PDF for .NET 轻松更新 PDF 页面尺寸。|  
 | [缩放至 PDF 文件中的页面内容](./zoom-to-page-contents/) 在本指南中学习如何使用 Aspose.PDF for .NET 缩放 PDF 文件中的页面内容。根据您的特定需求增强您的 PDF 文档。|  
 | [使用 C# 为 PDF 添加页码 – 完整分步指南](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) 使用 Aspose.PDF for .NET 和 C# 为 PDF 添加页码的完整分步指南，易于实现。|  
+| [使用 Aspose.Pdf 在 C# 中更改 PDF 不透明度 – 分步指南](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) 使用 Aspose.PDF for .NET 在 C# 中更改 PDF 不透明度的分步指南。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

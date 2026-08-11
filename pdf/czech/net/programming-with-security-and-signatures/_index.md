@@ -29,6 +29,7 @@ Tento tutoriál vám poskytne podrobný přehled metod a technik pro zajištěn�
 | [Zašifrovat PDF soubor](./encrypt/) | Naučte se, jak snadno šifrovat soubory PDF pomocí Aspose.PDF pro .NET. Zabezpečte citlivé informace pomocí našeho jednoduchého podrobného návodu. |  
 | [Extrahování obrázku](./extracting-image/) | Snadno se naučte, jak extrahovat obrázky z PDF pomocí Aspose.PDF pro .NET. Postupujte podle našeho podrobného návodu pro bezproblémovou extrakci obrázků. |  
 | [Extrahovat informace o podpisu](./extract-signature-info/) | Naučte se, jak extrahovat digitální podpisy a informace o certifikátech z PDF dokumentů pomocí Aspose.PDF pro .NET. Kompletní podrobný návod pro vývojáře v C#. |  
+| [Jak extrahovat podpisy z PDF v C# – krok za krokem](./how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/) | Podrobný návod, jak v C# extrahovat digitální podpisy z PDF souborů pomocí Aspose.PDF. |  
 | [Je chráněn heslem](./is-password-protected/) V tomto komplexním návodu se naučte, jak pomocí nástroje Aspose.PDF pro .NET zkontrolovat, zda je PDF soubor chráněn heslem. |  
 | [Nastavení oprávnění v souboru PDF](./set-privileges/) | Naučte se, jak nastavit oprávnění PDF pomocí Aspose.PDF pro .NET s tímto podrobným návodem. Efektivně zabezpečte své dokumenty. |  
 | [Podepsat pomocí čipové karty s použitím podpisu v souboru PDF](./sign-with-smart-card-using-pdf-file-signature/) | Naučte se, jak podepisovat soubory PDF pomocí čipové karty s Aspose.PDF pro .NET. Postupujte podle tohoto podrobného návodu pro zabezpečené digitální podpisy. |  
