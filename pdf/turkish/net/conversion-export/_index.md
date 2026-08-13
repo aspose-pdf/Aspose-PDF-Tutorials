@@ -192,7 +192,7 @@ Aspose.PDF for .NET kullanarak PDF'leri yüksek kaliteli çok sayfalı TIFF gör
 Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF dosyalarını PostScript formatına nasıl dönüştüreceğinizi öğrenin. Yüksek kaliteli baskı ihtiyaçları için mükemmeldir.
 
 ### [Aspose.PDF for .NET Kullanılarak PDF'nin TIFF'e Dönüştürülmesi: Adım Adım Kılavuz](./convert-pdf-to-tiff-aspose-net/)
-Aspose.PDF for .NET kullanarak PDF dosyalarını yüksek kaliteli TIFF görüntülerine nasıl dönüştüreceğinizi öğrenin. Kod örnekleri ve yapılandırma ipuçlarıyla adım adım kılavuzumuzu izleyin.
+Aspose.PDF for .NET kullanarak PDF dosalarını yüksek kaliteli TIFF görüntülerine nasıl dönüştüreceğinizi öğrenin. Kod örnekleri ve yapılandırma ipuçlarıyla adım adım kılavuzumuzu izleyin.
 
 ### [.NET için Aspose.PDF Kullanarak PDF'yi XML'e Nasıl Dönüştürebilirsiniz: Adım Adım Kılavuz](./pdf-to-xml-conversion-aspose-pdf-net/)
 Aspose.PDF for .NET ile PDF belgelerini XML'e dönüştürme sanatında ustalaşın. Bu kapsamlı kılavuzu izleyin ve belge yönetiminizi geliştirin.
@@ -226,6 +226,9 @@ Aspose.PDF Net için bir kod öğreticisi
 
 ### [Aspose.PDF Kullanarak .NET'te PDF'yi TIFF'e Dönüştürme: Adım Adım Kılavuz](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Aspose.PDF for .NET kullanarak PDF belgelerini TIFF görüntülerine nasıl dönüştüreceğinizi öğrenin. Özel renk derinliklerinde ve gelişmiş görüntü işleme tekniklerinde ustalaşın.
+
+### [Aspose ile PDF Kaydetme – Adım Adım Kılavuz](./how-to-save-pdf-with-aspose-step-by-step-guide/)
+Aspose.PDF for .NET kullanarak PDF dosyalarını kaydetme sürecini adım adım öğrenin.
 
 ## Ek Kaynaklar
 

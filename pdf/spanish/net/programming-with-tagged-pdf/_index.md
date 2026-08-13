@@ -45,6 +45,7 @@ Los tutoriales "Programación con PDF etiquetados" de Aspose.PDF para .NET le gu
 | [Elementos de la estructura del texto en un archivo PDF](./text-structure-elements/) Aprenda a manipular elementos de estructura de texto en archivos PDF con Aspose.PDF para .NET. Esta guía paso a paso cubre todo lo necesario para crear archivos PDF estructurados.  
 | [Validar archivo PDF](./validate-pdf/) Aprenda a validar un archivo PDF con Aspose.PDF para .NET. Compruebe su cumplimiento de los estándares y genere un informe de validación. |
 | [Crear PDF etiquetado en C# – Guía completa paso a paso](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Aprenda a crear un PDF etiquetado en C# con Aspose.PDF para .NET siguiendo esta guía completa paso a paso. |
+| [Crear PDF accesible con Aspose: Insertar párrafo paso a paso](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Aprenda a insertar un párrafo en un PDF accesible usando Aspose.PDF paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
