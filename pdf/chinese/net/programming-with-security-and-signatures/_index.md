@@ -36,6 +36,7 @@
 | [在 C# 中检查 PDF 签名 – 如何读取已签名的 PDF 文件](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) 了解如何使用 Aspose.PDF for .NET 在 C# 中读取已签名的 PDF 文件并检查签名信息。|  
 | [如何修复 PDF 文件 – 使用 Aspose.Pdf 的完整 C# 指南](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) 了解如何使用 Aspose.Pdf for .NET 在 C# 中修复受损的 PDF 文件，分步指南帮助您恢复文档完整性。|  
 | [在 C# 中检查 PDF 签名 – 完整编程指南](./verify-pdf-signature-in-c-complete-programming-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名并检查其完整性。分步指南帮助您确保文档安全。|  
+| [在 C# 中创建签名选项 – 完整数字签名指南](./create-signature-options-in-c-full-guide-to-digital-signing/) 了解如何使用 Aspose.PDF for .NET 在 C# 中创建签名选项并完成数字签名的完整指南。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

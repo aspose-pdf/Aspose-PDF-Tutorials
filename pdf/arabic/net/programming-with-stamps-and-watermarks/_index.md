@@ -40,6 +40,7 @@
 | [النص في تذييل ملف PDF](./text-in-footer/) |تعرف على كيفية إضافة نص في تذييل ملف PDF باستخدام Aspose.PDF لـ .NET. |  
 | [النص في رأس ملف PDF](./text-in-header/) تعلم كيفية إضافة عناوين نصية إلى ملفات PDF باستخدام Aspose.PDF لـ .NET من خلال هذا البرنامج التعليمي خطوة بخطوة. حسّن مستنداتك بكفاءة وفعالية. |  
 | [إضافة ترقيم بايتس إلى PDF في C# – دليل كامل](./add-bates-numbering-pdf-in-c-complete-guide/) | تعرف على كيفية إضافة ترقيم بايتس إلى ملفات PDF باستخدام Aspose.PDF لـ .NET في دليل شامل خطوة بخطوة. |
+| [كيفية تعيين خيارات ترقيم بايتس في C# – دليل كامل](./how-to-set-bates-numbering-options-in-c-complete-guide/) | تعلم كيفية ضبط خيارات ترقيم بايتس في ملفات PDF باستخدام Aspose.PDF لـ .NET عبر دليل شامل خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

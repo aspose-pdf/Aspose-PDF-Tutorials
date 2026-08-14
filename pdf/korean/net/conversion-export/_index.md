@@ -230,6 +230,8 @@ Aspose.PDF for .NET을 사용하여 PDF 문서를 TIFF 이미지로 변환하는
 ### [Aspose로 PDF 저장하기 – 단계별 가이드](./how-to-save-pdf-with-aspose-step-by-step-guide/)
 Aspose를 사용하여 PDF 파일을 저장하는 방법을 단계별로 안내합니다.
 
+### [C#에서 Aspose.PDF를 사용하여 PDF를 HTML로 저장하고 PDF/X‑4로 변환하기](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
+
 ## 추가 자료
 
 - [Net 문서용 Aspose.PDF](https://docs.aspose.com/pdf/net/)

@@ -35,6 +35,7 @@ Aspose.PDF for .NET を使用して PDF ドキュメント内の注釈を操作�
 | [テキスト注釈の書式を自由に設定](./setfreetextannotationformatting/) このステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF ドキュメントにフリー テキスト注釈の書式を設定する方法を学習します。 |  
 | [単語を消す](./strikeoutwords/) Aspose.PDF for .NET を使ってPDF内の単語に取り消し線を引く方法を、この包括的なステップバイステップガイドで学びましょう。ドキュメント編集スキルを向上させましょう。 |  
 | [フリーテキストPDF注釈の更新](./updatefreetextannotation/) このステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF ドキュメント内のフリー テキスト注釈を更新する方法を学習します。 |  
+| [PDF に矩形を描く – ステップバイステップ C# ガイド](./draw-rectangle-on-pdf-step-by-step-c-guide/) Aspose.PDF for .NET を使用して、PDF に矩形注釈を描く方法をステップバイステップで解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

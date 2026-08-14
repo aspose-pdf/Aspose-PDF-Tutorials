@@ -36,6 +36,7 @@
 | [C# में PDF हस्ताक्षर जाँचें – साइन किए गए PDF फ़ाइलें पढ़ें](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | .NET के लिए Aspose.PDF का उपयोग करके PDF हस्ताक्षर कैसे पढ़ें, इस चरण-दर-स्टेप मार्गदर्शिका में जानें। |  
 | [PDF फ़ाइलों की मरम्मत कैसे करें – Aspose.Pdf के साथ पूर्ण C# गाइड](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Aspose.Pdf का उपयोग करके C# में PDF फ़ाइलों को ठीक करने के चरण-दर-स्टेप मार्गदर्शन। |  
 | [C# में PDF हस्ताक्षर सत्यापित करें – पूर्ण प्रोग्रामिंग गाइड](./verify-pdf-signature-in-c-complete-programming-guide/) | .NET के लिए Aspose.PDF का उपयोग करके C# में PDF हस्ताक्षर कैसे सत्यापित करें, इस पूर्ण गाइड में जानें। |  
+| [C# में सिग्नेचर विकल्प बनाएं – डिजिटल साइनिंग के लिए पूर्ण गाइड](./create-signature-options-in-c-full-guide-to-digital-signing/) | .NET के लिए Aspose.PDF का उपयोग करके C# में डिजिटल हस्ताक्षर विकल्प बनाने की पूरी गाइड सीखें। |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

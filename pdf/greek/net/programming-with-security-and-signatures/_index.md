@@ -36,6 +36,7 @@
 | [Έλεγχος υπογραφών PDF σε C# – Πώς να διαβάσετε υπογεγραμμένα αρχεία PDF](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Μάθετε πώς να ελέγχετε και να διαβάζετε υπογεγραμμένα αρχεία PDF χρησιμοποιώντας C# και Aspose.PDF. |  
 | [Πώς να επισκευάσετε αρχεία PDF – Πλήρης οδηγός C# με Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Μάθετε πώς να επισκευάσετε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET με οδηγίες βήμα προς βήμα. |  
 | [Επαλήθευση υπογραφής PDF σε C# – Πλήρης προγραμματιστικός οδηγός](./verify-pdf-signature-in-c-complete-programming-guide/) | Μάθετε πώς να ελέγχετε και να επαληθεύετε ψηφιακές υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF. |
+| [Δημιουργία επιλογών υπογραφής σε C# – πλήρης οδηγός ψηφιακής υπογραφής](./create-signature-options-in-c-full-guide-to-digital-signing/) | Μάθετε πώς να δημιουργήσετε επιλογές υπογραφής σε C# για ψηφιακή υπογραφή PDF με το Aspose.PDF. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

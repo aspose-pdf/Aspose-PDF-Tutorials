@@ -161,7 +161,7 @@ Tìm hiểu cách chuyển đổi hình ảnh Computer Graphics Metafile (CGM) s
 ### [Cách chuyển đổi EPUB sang PDF bằng Aspose.PDF .NET: Hướng dẫn từng bước](./convert-epub-pdf-aspose-pdf-net-guide/)
 Tìm hiểu cách chuyển đổi tệp EPUB sang PDF bằng Aspose.PDF cho .NET với hướng dẫn chi tiết này. Hoàn hảo cho các nhà phát triển cần chuyển đổi tài liệu liền mạch.
 
-### [Cách chuyển đổi HTML sang PDF bằng Aspose.PDF .NET: Hướng dẫn đầy đủ](./convert-html-pdf-aspose-dotnet-guide/)
+### [Cách chuyển đổi HTML sang PDF bằng Aspose.PDF .NET: Hướng dẫn đầy đủ](./convert-html-pdf-aspose-pdf-net-guide/)
 Tìm hiểu cách chuyển đổi hiệu quả các tài liệu HTML thành PDF chuyên nghiệp bằng Aspose.PDF .NET. Khám phá các kỹ thuật xử lý tài nguyên bên ngoài và hiển thị nội dung phức tạp.
 
 ### [Cách chuyển đổi hình ảnh CGM lớn sang PDF bằng Aspose.PDF .NET: Hướng dẫn toàn diện](./convert-large-cgm-images-to-pdf-aspose-pdf-net/)
@@ -223,6 +223,9 @@ Làm chủ chuyển đổi PDF sang HTML bằng Aspose.PDF cho .NET. Tăng cư�
 
 ### [Chuyển đổi PDF sang HTML với Aspose.PDF cho .NET](./pdf-to-html-conversion-aspose-dot-net/)
 Hướng dẫn mã cho Aspose.PDF Net
+
+### [Lưu PDF dưới dạng HTML và Chuyển đổi sang PDF/X‑4 với Aspose.PDF trong C#](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
+Hướng dẫn lưu PDF dưới dạng HTML, sau đó chuyển đổi sang định dạng PDF/X‑4 bằng Aspose.PDF trong C#.
 
 ### [Chuyển đổi PDF sang TIFF trong .NET bằng Aspose.PDF: Hướng dẫn từng bước](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Tìm hiểu cách chuyển đổi tài liệu PDF sang hình ảnh TIFF bằng Aspose.PDF cho .NET. Làm chủ độ sâu màu tùy chỉnh và các kỹ thuật xử lý hình ảnh tiên tiến.

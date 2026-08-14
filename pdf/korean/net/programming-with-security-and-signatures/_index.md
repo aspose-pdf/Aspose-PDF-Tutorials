@@ -36,6 +36,7 @@
 | [C#에서 PDF 서명 확인 – 서명된 PDF 파일 읽는 방법](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Aspose.PDF for .NET을 사용하여 C#에서 서명된 PDF 파일의 서명을 확인하고 읽는 방법을 단계별로 안내합니다. |  
 | [PDF 파일 복구 방법 – Aspose.Pdf와 함께하는 완전한 C# 가이드](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Aspose.PDF for .NET을 사용하여 PDF 파일을 복구하는 방법을 단계별로 안내합니다. |  
 | [C#에서 PDF 서명 확인 – 완전한 프로그래밍 가이드](./verify-pdf-signature-in-c-complete-programming-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 서명을 검증하고 확인하는 방법을 단계별로 안내합니다. |  
+| [C#에서 서명 옵션 만들기 – 디지털 서명 완전 가이드](./create-signature-options-in-c-full-guide-to-digital-signing/) | Aspose.PDF for .NET을 사용하여 C#에서 다양한 디지털 서명 옵션을 설정하고 적용하는 방법을 단계별로 안내합니다. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

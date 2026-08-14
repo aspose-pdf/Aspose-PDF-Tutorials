@@ -21,6 +21,7 @@ Hướng dẫn "Lập trình với tem và hình mờ" của Aspose.PDF dành ch
 | Tiêu đề | Mô tả |
 | --- | --- | 
 | [Thêm Số Bates vào PDF bằng C# – Hướng Dẫn Đầy Đủ](./add-bates-numbering-pdf-in-c-complete-guide/) | Tìm hiểu cách thêm số Bates vào tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn chi tiết bằng C#. |
+| [Cách thiết lập tùy chọn đánh số Bates trong C# – hướng dẫn đầy đủ](./how-to-set-bates-numbering-options-in-c-complete-guide/) |  |
 | [Thêm Ngày Giờ Vào Tệp PDF](./add-date-time-stamp/) Tìm hiểu cách thêm dấu ngày tháng và thời gian vào tệp PDF của bạn bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Hoàn hảo để tăng cường tính xác thực của tài liệu. |  |
 | [Thêm hình ảnh đóng dấu vào tệp PDF](./add-image-stamp/) | Tìm hiểu cách thêm dấu hình ảnh vào tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước và mã ví dụ. |
 | [Thêm các tiêu đề khác nhau vào tệp PDF](./adding-different-headers/) | Tìm hiểu cách thêm các tiêu đề khác nhau vào tệp PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước để tùy chỉnh tệp PDF của bạn. |

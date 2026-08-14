@@ -36,6 +36,7 @@ Das Tutorial gibt Ihnen einen detaillierten Überblick über Methoden und Techni
 | [PDF-Signaturen in C# prüfen – So lesen Sie signierte PDF-Dateien](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Signaturen auslesen und signierte PDF-Dateien analysieren. |
 | [PDF-Dateien reparieren – Vollständiger C#-Leitfaden mit Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Erfahren Sie, wie Sie beschädigte PDF-Dateien mit Aspose.PDF für .NET in C# reparieren und wiederherstellen. |
 | [PDF-Signatur in C# überprüfen – Vollständiger Programmierleitfaden](./verify-pdf-signature-in-c-complete-programming-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Signaturen in C# vollständig prüfen und verifizieren. |
+| [Signaturoptionen in C# erstellen – vollständiger Leitfaden zum digitalen Signieren](./create-signature-options-in-c-full-guide-to-digital-signing/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET umfassende Signaturoptionen in C# implementieren und digitale Signaturen erstellen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

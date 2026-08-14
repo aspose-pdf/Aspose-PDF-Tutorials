@@ -40,6 +40,7 @@ Aspose.PDF 的「使用圖章和浮水印進行程式設計」.NET 教學課程�
 | [PDF 檔案頁尾中的文字](./text-in-footer/) |了解如何使用 Aspose.PDF for .NET 在 PDF 檔案的頁尾中新增文字。 |  
 | [PDF 檔案標題中的文本](./text-in-header/) |透過本逐步教學學習如何使用 Aspose.PDF for .NET 在 PDF 中新增文字標題。有效率且有效地增強您的文件。 |  
 | [在 C# 中為 PDF 添加 Bates 編號 – 完整指南](./add-bates-numbering-pdf-in-c-complete-guide/) |透過本完整指南了解如何使用 Aspose.PDF for .NET 在 PDF 中添加 Bates 編號，以提升文件的追蹤與管理。 |  
+| [在 C# 中設定 Bates 編號選項 – 完整指南](./how-to-set-bates-numbering-options-in-c-complete-guide/) |本完整指南說明如何在 C# 中設定 Bates 編號的各項選項，以提升文件追蹤與管理。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

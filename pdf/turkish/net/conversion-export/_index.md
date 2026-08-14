@@ -171,7 +171,7 @@ Aspose.PDF .NET kullanarak büyük Bilgisayar Grafikleri Meta Dosyası (CGM) gö
 Aspose.PDF for .NET kullanarak MHT dosyalarını zahmetsizce PDF'lere nasıl dönüştüreceğinizi öğrenin. Bu kılavuz kurulum, dönüştürme adımları ve en iyi uygulamaları kapsar.
 
 ### [.NET için Aspose.PDF Kullanarak Birden Fazla TIFF Görüntüsünü Tek Bir PDF'ye Nasıl Dönüştürebilirsiniz: Kapsamlı Bir Kılavuz](./convert-tiff-to-pdf-aspose-dotnet-guide/)
-Aspose.PDF for .NET kullanarak birden fazla TIFF görüntüsünü tek bir PDF belgesine nasıl verimli bir şekilde dönüştüreceğinizi öğrenin. Bu kılavuz kurulum, uygulama ve performans optimizasyonunu kapsar.
+Aspose.PDF for .NET kullanarak birden fazla TIFF görüntüsünü tek bir PDF belgesine nasıl verimli bir şekilde dönüştürebileceğinizi öğrenin. Bu kılavuz kurulum, uygulama ve performans optimizasyonunu kapsar.
 
 ### [.NET için Aspose.PDF Kullanarak PCL'yi PDF'ye Nasıl Dönüştürebilirsiniz: Eksiksiz Bir Kılavuz](./convert-pcl-to-pdf-aspose-net/)
 Aspose.PDF for .NET kullanarak Printer Command Language (PCL) dosyalarını sorunsuz bir şekilde PDF'ye nasıl dönüştüreceğinizi öğrenin. Kod örnekleri ve pratik uygulamalarla bu adım adım kılavuzu izleyin.
@@ -229,6 +229,8 @@ Aspose.PDF for .NET kullanarak PDF belgelerini TIFF görüntülerine nasıl dön
 
 ### [Aspose ile PDF Kaydetme – Adım Adım Kılavuz](./how-to-save-pdf-with-aspose-step-by-step-guide/)
 Aspose.PDF for .NET kullanarak PDF dosyalarını kaydetme sürecini adım adım öğrenin.
+
+### [C#'ta Aspose.PDF ile PDF'yi HTML olarak kaydedin ve PDF/X‑4'e dönüştürün](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
 
 ## Ek Kaynaklar
 

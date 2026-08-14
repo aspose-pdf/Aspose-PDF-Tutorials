@@ -51,6 +51,7 @@
 | [تعيين تسمية توضيحية لأزرار الراديو](./set-radio-button-caption/) تعرّف على كيفية ضبط تسميات أزرار الاختيار في ملفات PDF باستخدام Aspose.PDF لـ .NET. يرشدك هذا الدليل خطوة بخطوة خلال تحميل نماذج PDF وتعديلها وحفظها.  
 | [مربع النص](./text-box/) اكتشف كيفية إضافة مربعات نصية بسهولة إلى ملفات PDF باستخدام Aspose.PDF لـ .NET من خلال هذا الدليل المفصل. حسّن تفاعل المستخدم.  
 | [كيفية إنشاء PDF باستخدام Aspose – إضافة حقل نموذج وصفحات](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) تعلم كيفية إنشاء مستند PDF وإضافة حقول نموذجية وصفحات باستخدام Aspose.PDF لـ .NET خطوة بخطوة.  
+| [إنشاء حقل نموذج PDF في C# – دليل خطوة بخطوة](./create-pdf-form-field-in-c-step-by-step-guide/) تعلم كيفية إنشاء حقل نموذج PDF باستخدام C# و Aspose.PDF خطوة بخطوة. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

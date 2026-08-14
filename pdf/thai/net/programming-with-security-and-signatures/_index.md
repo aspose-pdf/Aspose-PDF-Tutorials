@@ -36,6 +36,7 @@
 - [ตรวจสอบลายเซ็น PDF ใน C# – วิธีอ่านไฟล์ PDF ที่ลงนาม](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | เรียนรู้วิธีตรวจสอบและอ่านลายเซ็นดิจิทัลในไฟล์ PDF ด้วย C# และ Aspose.PDF สำหรับ .NET -  
 - [วิธีซ่อมไฟล์ PDF – คู่มือ C# ฉบับสมบูรณ์กับ Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | เรียนรู้วิธีซ่อมไฟล์ PDF ที่เสียหายด้วย Aspose.PDF สำหรับ .NET ผ่านขั้นตอนการเขียนโปรแกรม C# อย่างละเอียด
 - [ตรวจสอบลายเซ็น PDF ใน C# – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./verify-pdf-signature-in-c-complete-programming-guide/) | เรียนรู้วิธีตรวจสอบลายเซ็น PDF อย่างละเอียดด้วย C# และ Aspose.PDF สำหรับ .NET – คู่มือการเขียนโปรแกรมเต็มรูปแบบ
+- [สร้างตัวเลือกลายเซ็นใน C# – คู่มือเต็มสำหรับการลงนามดิจิทัล](./create-signature-options-in-c-full-guide-to-digital-signing/) | เรียนรู้วิธีสร้างตัวเลือกลายเซ็นดิจิทัลใน C# อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -228,7 +228,8 @@ Ein Code-Tutorial für Aspose.PDF Net
 Erfahren Sie, wie Sie PDF-Dokumente mit Aspose.PDF für .NET in TIFF-Bilder konvertieren. Beherrschen Sie benutzerdefinierte Farbtiefen und erweiterte Bildverarbeitungstechniken.
 
 ### [Wie man PDF mit Aspose speichert – Schritt‑für‑Schritt‑Anleitung](./how-to-save-pdf-with-aspose-step-by-step-guide/)
-Erfahren Sie, wie Sie PDFs mithilfe von Aspose in .NET speichern, inklusive Codebeispielen und bewährten Methoden.
+
+### [PDF als HTML speichern und in PDF/X‑4 konvertieren mit Aspose.PDF in C#](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
 
 ## Weitere Ressourcen
 

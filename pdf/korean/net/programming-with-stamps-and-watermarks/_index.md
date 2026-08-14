@@ -40,6 +40,7 @@ Aspose.PDF의 .NET용 "스탬프 및 워터마크 프로그래밍" 튜토리얼�
 | [PDF 파일 바닥글의 텍스트](./text-in-footer/) | Aspose.PDF for .NET을 사용하여 PDF 파일의 바닥글에 텍스트를 추가하는 방법을 알아보세요. |  
 | [PDF 파일 헤더의 텍스트](./text-in-header/) | Aspose.PDF for .NET을 사용하여 PDF에 텍스트 헤더를 추가하는 방법을 단계별 튜토리얼을 통해 알아보세요. 문서를 효율적이고 효과적으로 개선해 보세요. |  
 | [C#에서 베이츠 번호 매기기 PDF 추가 – 완전 가이드](./add-bates-numbering-pdf-in-c-complete-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF에 베이츠 번호를 추가하는 방법을 단계별로 안내합니다. |  
+| [C#에서 베이츠 번호 매기기 옵션 설정 – 완전 가이드](./how-to-set-bates-numbering-options-in-c-complete-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 베이츠 번호 매기기 옵션을 설정하는 방법을 단계별로 안내합니다. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

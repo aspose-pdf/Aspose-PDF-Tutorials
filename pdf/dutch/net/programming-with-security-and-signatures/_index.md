@@ -37,6 +37,7 @@ De tutorial geeft u een gedetailleerd overzicht van methoden en technieken om de
 | [Ondertekenen met smartcard met behulp van handtekeningveld](./sign-with-smart-card-using-signature-field/) | Leer hoe u PDF's veilig kunt ondertekenen met een smartcard met Aspose.PDF voor .NET. Volg onze stapsgewijze handleiding voor eenvoudige implementatie. |
 | [PDF-bestanden repareren – Complete C#-gids met Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Leer hoe u beschadigde PDF-bestanden kunt repareren met Aspose.PDF voor .NET in C#. Volg onze stapsgewijze handleiding. |
 | [PDF-handtekening verifiëren in C# – Complete programmeergids](./verify-pdf-signature-in-c-complete-programming-guide/) | Leer hoe u PDF-handtekeningen kunt verifiëren met Aspose.PDF voor .NET in C# met deze volledige programmeergids. |
+| [Handtekeningopties maken in C# – volledige gids voor digitale ondertekening](./create-signature-options-in-c-full-guide-to-digital-signing/) | Leer hoe u handtekeningopties configureert en digitale ondertekeningen implementeert in C# met Aspose.PDF. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

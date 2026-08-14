@@ -230,6 +230,9 @@
 ### [كيفية حفظ ملف PDF باستخدام Aspose – دليل خطوة بخطوة](./how-to-save-pdf-with-aspose-step-by-step-guide/)
 دليل شامل يوضح كيفية حفظ ملفات PDF باستخدام Aspose خطوة بخطوة باستخدام C#.
 
+### [حفظ ملف PDF كـ HTML وتحويله إلى PDF/X‑4 باستخدام Aspose.PDF في C#](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
+تعلم كيفية حفظ PDF كملف HTML ثم تحويله إلى صيغة PDF/X‑4 باستخدام Aspose.PDF في C#.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

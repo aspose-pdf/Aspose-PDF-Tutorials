@@ -36,6 +36,7 @@ Handledningen ger dig en detaljerad översikt över metoder och tekniker för at
 | [Kontrollera PDF-signaturer i C# – Så läser du signerade PDF-filer](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Lär dig hur du läser och verifierar signerade PDF-filer med Aspose.PDF för .NET i C#. |
 | [Verifiera PDF-signatur i C# – Komplett programmeringsguide](./verify-pdf-signature-in-c-complete-programming-guide/) | Lär dig hur du verifierar PDF-signaturer i C# med Aspose.PDF för .NET i en komplett steg‑för‑steg‑guide. |
 | [Hur man reparerar PDF-filer – Komplett C#-guide med Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Lär dig steg för steg hur du reparerar skadade PDF-filer med Aspose.PDF i C#. |
+| [Skapa signaturalternativ i C# – komplett guide till digital signering](./create-signature-options-in-c-full-guide-to-digital-signing/) | Lär dig hur du skapar signaturalternativ och signerar PDF-dokument digitalt med Aspose.PDF för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
