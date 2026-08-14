@@ -35,6 +35,7 @@ Uma coleção abrangente de tutoriais que mostram como trabalhar com anotações
 | [Definir formatação de anotação de texto livre](./setfreetextannotationformatting/) | Aprenda como definir formatação de anotação de texto livre em documentos PDF usando o Aspose.PDF para .NET com este guia passo a passo. |  
 | [Riscar palavras](./strikeoutwords/) | Aprenda a riscar palavras em um PDF usando o Aspose.PDF para .NET com este guia passo a passo completo. Aprimore suas habilidades de edição de documentos. |  
 | [Atualizar anotação de PDF de texto livre](./updatefreetextannotation/) Aprenda como atualizar anotações de texto livre em documentos PDF usando o Aspose.PDF para .NET com este guia passo a passo. |  
+| [Desenhar retângulo em PDF – guia passo a passo C#](./draw-rectangle-on-pdf-step-by-step-c-guide/) | Aprenda a desenhar um retângulo em um PDF usando o Aspose.PDF para .NET com este guia passo a passo em C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -23,6 +23,7 @@ Aspose.PDF för .NET:s handledningar "Programmering med operatorer" guidar dig g
 | [Rita XForm på sidan](./draw-xform-on-page/) | lär dig hur man ritar XForms i PDF med Aspose.PDF för .NET med den här omfattande steg-för-steg-guiden. |  
 | [PDF-operatorer](./pdf-operators/) | Steg-för-steg-guide för att använda PDF-operatorer med Aspose.PDF för .NET. Lägg till en bild på en PDF-sida och ange dess position. |  
 | [Ta bort grafikobjekt i PDF-fil](./remove-graphics-objects/) Lär dig hur du tar bort grafikobjekt från en PDF-fil med Aspose.PDF för .NET i den här steg-för-steg-guiden. Förenkla dina PDF-manipulationsuppgifter. |  
+| [Skapa tom PDF-dictionary i C# med Aspose.Pdf](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | Lär dig hur du skapar en tom PDF-dictionary i C# med Aspose.PDF. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

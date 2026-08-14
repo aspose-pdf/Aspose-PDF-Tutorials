@@ -230,6 +230,9 @@ Aspose.PDF Net 代码教程
 ### [如何使用 Aspose 保存 PDF – 步骤指南](./how-to-save-pdf-with-aspose-step-by-step-guide/)
 本指南详细演示如何使用 Aspose 在 .NET 中保存 PDF 文件的完整步骤。
 
+### [使用 Aspose.PDF 在 C# 中将 PDF 保存为 HTML 并转换为 PDF/X‑4](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
+了解如何使用 Aspose.PDF 将 PDF 保存为 HTML 并转换为 PDF/X‑4 格式。
+
 ## 其他资源
 
 - [Aspose.PDF 用于网络文档](https://docs.aspose.com/pdf/net/)

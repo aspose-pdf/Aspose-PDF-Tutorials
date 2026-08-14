@@ -35,6 +35,7 @@ Aspose.PDF for .NET을 사용하여 PDF 문서에 주석을 추가하는 방법�
 | [자유 텍스트 주석 서식 설정](./setfreetextannotationformatting/) | 이 단계별 가이드를 통해 Aspose.PDF for .NET을 사용하여 PDF 문서에 자유 텍스트 주석 서식을 설정하는 방법을 알아보세요. |  
 | [단어를 삭제하세요](./strikeoutwords/) | Aspose.PDF for .NET을 사용하여 PDF에서 단어를 지우는 방법을 단계별로 자세히 알아보세요. 문서 편집 실력을 향상시켜 보세요. |  
 | [자유 텍스트 PDF 주석 업데이트](./updatefreetextannotation/) 이 단계별 가이드를 통해 Aspose.PDF for .NET을 사용하여 PDF 문서의 자유 텍스트 주석을 업데이트하는 방법을 알아보세요. |  
+| [PDF에 사각형 그리기 – 단계별 C# 가이드](./draw-rectangle-on-pdf-step-by-step-c-guide/) | PDF에 사각형을 그리는 방법을 단계별로 안내합니다. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

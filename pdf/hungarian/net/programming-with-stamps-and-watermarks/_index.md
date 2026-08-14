@@ -40,6 +40,7 @@ Az Aspose.PDF „Bélyegzők és vízjelek programozása” című .NET oktatóa
 | [Szöveg a PDF fájl láblécében](./text-in-footer/) | Ismerje meg, hogyan adhat hozzá szöveget a PDF fájlok láblécéhez az Aspose.PDF for .NET segítségével. |  
 | [Szöveg a PDF fájl fejlécében](./text-in-header/) | Tanulja meg, hogyan adhat hozzá szöveges fejléceket PDF-ekhez az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Javítsa dokumentumai hatékonyságát és eredményességét. |  
 | [Bates-számozás hozzáadása PDF-hez C#-ban – Teljes útmutató](./add-bates-numbering-pdf-in-c-complete-guide/) | Tanulja meg, hogyan adhat hozzá Bates-számozást PDF-fájlokhoz C#-ban az Aspose.PDF for .NET használatával lépésről lépésre útmutatóval. |
+| [Bates-számozás beállítási lehetőségek C#-ban – Teljes útmutató](./how-to-set-bates-numbering-options-in-c-complete-guide/) | Tanulja meg, hogyan állíthatja be a Bates-számozás opcióit C#-ban az Aspose.PDF for .NET segítségével, részletes útmutatóval. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

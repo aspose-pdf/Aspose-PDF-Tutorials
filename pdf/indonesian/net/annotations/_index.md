@@ -35,6 +35,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Atur Format Anotasi Teks Bebas](./setfreetextannotationformatting/) | Pelajari cara mengatur format anotasi teks bebas dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Bahasa Indonesia:  
 | [Coret Kata-kata](./strikeoutwords/) | Pelajari cara mencoret kata-kata dalam PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah yang komprehensif ini. Tingkatkan keterampilan mengedit dokumen Anda. Bahasa Indonesia:  
 | [Perbarui Anotasi PDF Teks Gratis](./updatefreetextannotation/) Pelajari cara memperbarui anotasi teks bebas dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. |  
+| [Gambar Persegi Panjang pada PDF – panduan langkah demi langkah C#](./draw-rectangle-on-pdf-step-by-step-c-guide/) | Pelajari cara menggambar persegi panjang pada PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah dalam C#. Bahasa Indonesia:  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

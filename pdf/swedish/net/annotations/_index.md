@@ -35,6 +35,7 @@ En omfattande samling handledningar som visar hur man arbetar med annoteringar i
 | [Ange formatering för fri textannotering](./setfreetextannotationformatting/) | Lär dig hur du ställer in formatering för fritextanteckningar i PDF-dokument med Aspose.PDF för .NET med den här steg-för-steg-guiden. |  
 | [Stryk ut ord](./strikeoutwords/) | Lär dig hur du stryker över ord i en PDF med Aspose.PDF för .NET med den här omfattande steg-för-steg-guiden. Förbättra dina dokumentredigeringsfärdigheter. |  
 | [Uppdatera fritext PDF-annotering](./updatefreetextannotation/) Lär dig hur du uppdaterar fritextanteckningar i PDF-dokument med Aspose.PDF för .NET med den här steg-för-steg-guiden. |  
+| [Rita rektangel på PDF – steg‑för‑steg C#‑guide](./draw-rectangle-on-pdf-step-by-step-c-guide/) Lär dig hur du ritar en rektangel i en PDF med Aspose.PDF för .NET i en detaljerad steg‑för‑steg‑guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

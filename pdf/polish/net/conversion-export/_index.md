@@ -230,6 +230,9 @@ Dowiedz się, jak konwertować dokumenty PDF na obrazy TIFF za pomocą Aspose.PD
 ### [Jak zapisać PDF przy użyciu Aspose – przewodnik krok po kroku](./how-to-save-pdf-with-aspose-step-by-step-guide/)
 Dowiedz się, jak zapisać dokument PDF przy użyciu Aspose w prostych krokach, wykorzystując C# i .NET.
 
+### [Zapisz PDF jako HTML i konwertuj do PDF/X‑4 za pomocą Aspose.PDF w C#](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
+Dowiedz się, jak zapisać plik PDF jako HTML i następnie przekonwertować go do formatu PDF/X‑4 przy użyciu Aspose.PDF w C#.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

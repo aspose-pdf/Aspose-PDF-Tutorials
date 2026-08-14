@@ -32,9 +32,10 @@ Una colección completa de tutoriales que muestra cómo trabajar con anotaciones
 | [Ancho de línea de anotación lnk](./lnkannotationlinewidth/) Aprenda a configurar el ancho de línea de anotaciones de tinta en un PDF con Aspose.PDF para .NET. Este tutorial detallado le guiará paso a paso para garantizar un resultado de alta calidad.  
 | [Redactar página](./redactpage/) | Aprenda a redactar documentos de manera eficaz utilizando Aspose.PDF para .NET con esta guía completa paso a paso. |  
 | [Establecer la propiedad de llamada en un archivo PDF](./setcalloutproperty/) | Aprenda cómo configurar la propiedad de llamada en un archivo PDF usando Aspose.PDF para .NET en este tutorial detallado paso a paso.  
-| [Establecer formato de anotación de texto libre](./setfreetextannotationformatting/) | Aprenda a configurar el formato de anotación de texto libre en documentos PDF usando Aspose.PDF para .NET con esta guía paso a paso. |  
+| [Establecer formato de anotación de texto libre](./setfreetextannotationformatting/) | Aprenda a configurar el formato anotación de texto libre en documentos PDF usando Aspose.PDF para .NET con una guía paso a paso. |  
 | [Tachar palabras](./strikeoutwords/) Aprenda a tachar palabras en un PDF con Aspose.PDF para .NET con esta completa guía paso a paso. Mejore sus habilidades de edición de documentos.  
 | [Actualizar anotación de texto libre en PDF](./updatefreetextannotation/) Aprenda a actualizar anotaciones de texto libre en documentos PDF usando Aspose.PDF para .NET con esta guía paso a paso. |  
+| [Dibujar rectángulo en PDF – guía paso a paso en C#](./draw-rectangle-on-pdf-step-by-step-c-guide/) | Aprenda a dibujar un rectángulo en un archivo PDF usando Aspose.PDF para .NET con esta guía paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

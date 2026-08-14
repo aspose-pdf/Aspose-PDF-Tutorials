@@ -40,6 +40,7 @@ Aspose.PDF 的“使用图章和水印进行编程”.NET 教程将指导您逐�
 | [PDF 文件页脚中的文本](./text-in-footer/) 了解如何使用 Aspose.PDF for .NET 在 PDF 文件的页脚中添加文本。|  
 | [PDF 文件标题中的文本](./text-in-header/) 通过本分步教程学习如何使用 Aspose.PDF for .NET 为 PDF 添加文本标题。高效且有效地增强您的文档。|  
 | [在 C# 中为 PDF 添加 Bates 编号 – 完整指南](./add-bates-numbering-pdf-in-c-complete-guide/) 学习如何使用 Aspose.PDF for .NET 在 C# 中为 PDF 文档添加 Bates 编号，实现文档追踪和管理的完整步骤指南。|  
+| [在 C# 中设置 Bates 编号选项 – 完整指南](./how-to-set-bates-numbering-options-in-c-complete-guide/) 学习如何使用 Aspose.PDF for .NET 在 C# 中设置 Bates 编号选项的完整步骤指南。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

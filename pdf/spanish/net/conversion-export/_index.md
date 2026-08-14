@@ -159,7 +159,7 @@ Aprenda a convertir fácilmente archivos CGM (Metarchivo de Gráficos de Computa
 Aprenda a convertir imágenes de metarchivo de gráficos de computadora (CGM) a formato PDF con Aspose.PDF para .NET. Esta guía explica la configuración, los pasos de conversión y la solución de problemas.
 
 ### [Cómo convertir EPUB a PDF con Aspose.PDF .NET: Guía paso a paso](./convert-epub-pdf-aspose-pdf-net-guide/)
-Aprenda a convertir archivos EPUB a PDF con Aspose.PDF para .NET con esta guía detallada. Ideal para desarrolladores que necesitan una conversión fluida de documentos.
+Aprenda a convertir archivos EPUB a PDF con Aspose.PDF .NET. Esta guía detallada es ideal para desarrolladores que necesitan una conversión fluida de documentos.
 
 ### [Cómo convertir HTML a PDF con Aspose.PDF .NET: una guía completa](./convert-html-pdf-aspose-dotnet-guide/)
 Aprenda a convertir eficientemente documentos HTML en archivos PDF de aspecto profesional con Aspose.PDF .NET. Descubra técnicas para gestionar recursos externos y renderizar contenido complejo.
@@ -229,6 +229,9 @@ Aprenda a convertir documentos PDF a imágenes TIFF con Aspose.PDF para .NET. Do
 
 ### [Cómo guardar PDF con Aspose – Guía paso a paso](./how-to-save-pdf-with-aspose-step-by-step-guide/)
 Aprenda a guardar documentos PDF con Aspose mediante una guía paso a paso que cubre configuración y opciones de guardado.
+
+### [Guardar PDF como HTML y convertir a PDF/X‑4 con Aspose.PDF en C#](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
+Aprenda a guardar un PDF como HTML y luego convertirlo a PDF/X‑4 usando Aspose.PDF en C#.
 
 ## Recursos adicionales
 

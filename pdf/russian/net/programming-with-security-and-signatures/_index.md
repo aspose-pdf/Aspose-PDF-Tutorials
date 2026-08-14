@@ -36,6 +36,7 @@
 | [Проверка подписей PDF в C# – Как читать подписанные PDF-файлы](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Узнайте, как проверять подписи PDF и читать подписанные файлы с помощью Aspose.PDF для .NET на C#. |  
 | [Проверка подписи PDF в C# – Полное руководство по программированию](./verify-pdf-signature-in-c-complete-programming-guide/) | Узнайте, как проверять подписи PDF в C# с помощью Aspose.PDF для .NET. Полное пошаговое руководство. |  
 | [Как восстановить PDF-файлы – Полное руководство на C# с Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Узнайте, как восстанавливать поврежденные PDF-файлы с помощью Aspose.PDF для .NET. Пошаговое руководство на C#. |  
+| [Создание параметров подписи в C# – полное руководство по цифровой подписи](./create-signature-options-in-c-full-guide-to-digital-signing/) | Узнайте, как создавать параметры цифровой подписи в PDF с помощью Aspose.PDF для .NET на C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

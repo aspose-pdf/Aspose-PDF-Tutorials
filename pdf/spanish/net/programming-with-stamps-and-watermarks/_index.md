@@ -40,6 +40,7 @@ Los tutoriales de Aspose.PDF "Programación con sellos y marcas de agua" para .N
 | [Texto en el pie de página del archivo PDF](./text-in-footer/) | Aprenda a agregar texto en el pie de página de un archivo PDF con Aspose.PDF para .NET. |  
 | [Texto en el encabezado del archivo PDF](./text-in-header/) Aprenda a agregar encabezados de texto a archivos PDF con Aspose.PDF para .NET con este tutorial paso a paso. Mejore sus documentos de forma eficiente y eficaz.  
 | [Agregar numeración Bates a PDF en C# – Guía completa](./add-bates-numbering-pdf-in-c-complete-guide/) Aprenda a aplicar numeración Bates a documentos PDF usando Aspose.PDF para .NET con este tutorial paso a paso.  
+| [Cómo establecer opciones de numeración Bates en C# – guía completa](./how-to-set-bates-numbering-options-in-c-complete-guide/) | Aprenda a configurar opciones de numeración Bates en PDFs usando Aspose.PDF para .NET con esta guía paso a paso. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

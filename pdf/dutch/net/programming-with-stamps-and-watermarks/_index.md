@@ -40,6 +40,7 @@ De tutorials "Programmeren met stempels en watermerken" van Aspose.PDF voor .NET
 | [Tekst in voettekst van PDF-bestand](./text-in-footer/) | Leer hoe u tekst toevoegt in de voettekst van een PDF-bestand met Aspose.PDF voor .NET. |  
 | [Tekst in koptekst van PDF-bestand](./text-in-header/) | Leer hoe u tekstkoppen aan PDF's toevoegt met Aspose.PDF voor .NET met deze stapsgewijze tutorial. Verbeter uw documenten efficiënt en effectief. |  
 | [Bates-nummering toevoegen aan PDF in C# – Complete gids](./add-bates-numbering-pdf-in-c-complete-guide/) | Leer hoe u Bates-nummering aan PDF-documenten toevoegt met Aspose.PDF voor .NET in C# met deze stapsgewijze handleiding. |  
+| [Hoe batesnummering opties instellen in C# – volledige gids](./how-to-set-bates-numbering-options-in-c-complete-guide/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

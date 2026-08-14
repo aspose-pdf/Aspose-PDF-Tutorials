@@ -230,6 +230,9 @@ Naučte se, jak převádět dokumenty PDF do obrázků TIFF pomocí Aspose.PDF p
 ### [Jak uložit PDF pomocí Aspose – krok za krokem průvodce](./how-to-save-pdf-with-aspose-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.PDF v .NET uložit PDF soubory s různými možnostmi nastavení a optimalizace.
 
+### [Uložte PDF jako HTML a převeďte na PDF/X‑4 pomocí Aspose.PDF v C#](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
+Naučte se uložit PDF jako HTML a následně jej převést na PDF/X‑4 pomocí Aspose.PDF v C#.
+
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)

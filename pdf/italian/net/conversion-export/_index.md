@@ -104,6 +104,9 @@ Scopri come convertire i file PDF in formato XML con Aspose.PDF per .NET. Miglio
 ### [Convertire PDF/A in PDF standard utilizzando Aspose.PDF .NET: una guida completa](./convert-pdf-a-standard-pdf-aspose-net/)
 Scopri come convertire senza problemi i documenti PDF/A in PDF standard utilizzando Aspose.PDF per .NET con questa guida dettagliata.
 
+### [Salva PDF come HTML e converti in PDF/X‑4 con Aspose.PDF in C#](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
+Scopri come salvare un PDF come HTML e poi convertirlo in PDF/X‑4 usando Aspose.PDF per .NET con C#.
+
 ### [Convertire i PDF in HTML interattivo con CSS personalizzato utilizzando Aspose.PDF .NET](./convert-pdfs-to-html-custom-css-aspose-pdf-net/)
 Scopri come trasformare i documenti PDF in formati HTML interattivi e adatti al Web utilizzando Aspose.PDF .NET, completo di stile CSS personalizzato.
 

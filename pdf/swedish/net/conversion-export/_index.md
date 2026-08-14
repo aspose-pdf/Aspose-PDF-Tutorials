@@ -219,9 +219,10 @@ Lär dig hur du optimerar konverteringen från PDF till HTML med Aspose.PDF för
 Lär dig hur du konverterar PDF-dokument till HTML med externa PNG-bilder med Aspose.PDF för .NET. Den här guiden säkerställer layoutbevarande och optimering av webbprestanda.
 
 ### [PDF till HTML-konvertering med Aspose.PDF .NET: En omfattande guide](./aspose-pdf-net-pdf-to-html-conversion/)
-Bemästra PDF-till-HTML-konvertering med Aspose.PDF för .NET. Förbättra dokumenttillgänglighet och engagemang med anpassningsbara alternativ.
+Lär dig hur du konverterar PDF-dokument till HTML med externa PNG-bilder med Aspose.PDF för .NET. Den här guiden säkerställer layoutbevarande och optimering av webbprestanda.
 
-### [PDF till HTML-konvertering med Aspose.PDF för .NET](./pdf-to-html-conversion-aspose-dot-net/)
+### [Spara PDF som HTML och konvertera till PDF/X‑4 med Aspose.PDF i C#](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
+### [PDF till HTML-konvertering med Aspose.PDF .NET](./pdf-to-html-conversion-aspose-dot-net/)
 En kodhandledning för Aspose.PDF Net
 
 ### [PDF till TIFF-konvertering i .NET med Aspose.PDF: En steg-för-steg-guide](./pdf-to-tiff-conversion-aspose-pdf-net/)

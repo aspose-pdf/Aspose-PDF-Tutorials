@@ -35,6 +35,7 @@ Een uitgebreide verzameling tutorials die laten zien hoe u met annotaties in PDF
 | [Stel de opmaak van tekstannotaties in](./setfreetextannotationformatting/) | Leer hoe u de opmaak van vrije tekstannotaties in PDF-documenten kunt instellen met Aspose.PDF voor .NET met behulp van deze stapsgewijze handleiding. |  
 | [Woorden doorhalen](./strikeoutwords/) | Leer hoe je woorden in een PDF doorhaalt met Aspose.PDF voor .NET met deze uitgebreide stapsgewijze handleiding. Verbeter je vaardigheden in het bewerken van documenten. |  
 | [Gratis tekst PDF-annotatie bijwerken](./updatefreetextannotation/) Leer hoe u vrije tekstannotaties in PDF-documenten kunt bijwerken met Aspose.PDF voor .NET met deze stapsgewijze handleiding. |  
+| [Rechthoek tekenen op pdf – stap‑voor‑stap C#‑gids](./draw-rectangle-on-pdf-step-by-step-c-guide/) | Leer hoe u met Aspose.PDF voor .NET een rechthoek op een PDF tekent met een stapsgewijze C#‑handleiding. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -22,9 +22,10 @@ Deze tutorials bieden ook gedetailleerde codevoorbeelden, duidelijke uitleg en i
 | Titel | Beschrijving |
 | --- | --- | 
 | [Tooltip toevoegen aan veld](./add-tooltip-to-field/) | Leer in deze stapsgewijze handleiding hoe u tooltips toevoegt aan formuliervelden in PDF-documenten met Aspose.PDF voor .NET. Verbeter de bruikbaarheid en gebruikerservaring. |  
-| [Arabische tekst invullen](./arabic-text-filling/) | Leer hoe u Arabische tekst in PDF-formulieren kunt invullen met Aspose.PDF voor .NET met deze stapsgewijze tutorial. Verbeter uw vaardigheden in PDF-bewerking. |  
+| [Arabische tekst invullen](./arabic-text-filling/) | Leer hoe u Arabische tekst in PDF-formulieren kunt invullen met Aspose.PDF voor .NET met deze stap‑voor‑stap‑tutorial. Verbeter uw vaardigheden in PDF-bewerking. |  
 | [Keuzelijst](./combo-box/) Leer hoe u een keuzelijst met invoervak aan een PDF toevoegt met Aspose.PDF voor .NET. Volg onze stapsgewijze handleiding om eenvoudig interactieve PDF-formulieren te maken. |  
 | [Document maken](./create-doc/) | Leer hoe u interactieve PDF-documenten met keuzerondjes maakt met Aspose.PDF voor .NET in deze uitgebreide stapsgewijze handleiding. |  
+| [PDF-formulierveld maken in C# – stapsgewijze handleiding](./create-pdf-form-field-in-c-step-by-step-guide/) | Leer hoe u een PDF-formulierveld maakt met C# en Aspose.PDF voor .NET in deze stapsgewijze tutorial. |  
 | [Formulierveld verwijderen in PDF-document](./delete-form-field/) | Leer hoe u formuliervelden uit PDF-documenten verwijdert met Aspose.PDF voor .NET met deze stapsgewijze handleiding. Perfect voor ontwikkelaars en PDF-liefhebbers. |  
 | [Bepaal het vereiste veld in het PDF-formulier](./determine-required-field/) | Leer hoe u verplichte velden in een PDF-formulier kunt bepalen met Aspose.PDF voor .NET. Onze stapsgewijze handleiding vereenvoudigt formulierbeheer en verbetert uw PDF-automatiseringsworkflow. |  
 | [Dynamische XFA naar Acro-formulier](./dynamic-xfa-to-acro-form/) | Leer in deze stapsgewijze zelfstudie hoe u dynamische XFA-formulieren naar standaard AcroForms kunt converteren met behulp van Aspose.PDF voor .NET. |  

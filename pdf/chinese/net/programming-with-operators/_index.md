@@ -23,6 +23,7 @@ Aspose.PDF for .NET 的“使用运算符编程”教程将指导您了解 PDF �
 | [在页面上绘制 XForm](./draw-xform-on-page/) | 通过这份全面的分步指南了解如何使用 Aspose.PDF for .NET 在 PDF 中绘制 XForms。|  
 | [PDF 运算符](./pdf-operators/) 使用 Aspose.PDF for .NET 的 PDF 操作符的分步指南。将图像添加到 PDF 页面并指定其位置。|  
 | [删除 PDF 文件中的图形对象](./remove-graphics-objects/) 在本分步指南中学习如何使用 Aspose.PDF for .NET 从 PDF 文件中删除图形对象。简化您的 PDF 操作任务。|  
+| [在 C# 中使用 Aspose.Pdf 创建空 PDF 字典](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | 使用 Aspose.PDF for .NET 在 C# 中创建空的 PDF 字典。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

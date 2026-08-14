@@ -230,6 +230,9 @@ Leer hoe u PDF-documenten naar TIFF-afbeeldingen converteert met Aspose.PDF voor
 ### [Hoe PDF opslaan met Aspose – Stapsgewijze handleiding](./how-to-save-pdf-with-aspose-step-by-step-guide/)
 Leer hoe u PDF-bestanden opslaat met Aspose in .NET met een duidelijke stap‑voor‑stap uitleg en voorbeeldcode.
 
+### [PDF opslaan als HTML en converteren naar PDF/X‑4 met Aspose.PDF in C#](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
+Leer hoe u een PDF opslaat als HTML en vervolgens converteert naar PDF/X‑4 met Aspose.PDF in C#.
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

@@ -40,6 +40,7 @@ Aspose.PDF'nin .NET için "Pullar ve Filigranlarla Programlama" öğreticileri, 
 | [PDF Dosyasının Altbilgisindeki Metin](./text-in-footer/) | Aspose.PDF for .NET ile PDF dosyasının alt bilgisine metin eklemeyi öğrenin. |  
 | [PDF Dosyasının Başlığındaki Metin](./text-in-header/) | Bu adım adım eğitimle Aspose.PDF for .NET kullanarak PDF'lere metin başlıkları eklemeyi öğrenin. Belgelerinizi verimli ve etkili bir şekilde geliştirin. |  
 | [C# ile Bates Numaralandırma PDF Ekle – Tam Kılavuz](./add-bates-numbering-pdf-in-c-complete-guide/) | Aspose.PDF for .NET kullanarak PDF dosyalarına Bates numaralandırma eklemeyi adım adım öğrenin. |  
+| [C# ile Bates Numaralandırma Seçeneklerini Ayarlama – Tam Kılavuz](./how-to-set-bates-numbering-options-in-c-complete-guide/) | Aspose.PDF for .NET kullanarak C# içinde Bates numaralandırma seçeneklerini nasıl ayarlayacağınızı adım adım öğrenin. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

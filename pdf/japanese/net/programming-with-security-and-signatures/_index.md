@@ -36,6 +36,7 @@
 | [C# で PDF 署名を確認する – 署名済み PDF ファイルの読み取り方法](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) Aspose.PDF for .NET を使用して、C# で署名済み PDF の署名情報を取得し、検証する方法を学びます。 |  
 | [PDF ファイルの修復方法 – Aspose.Pdf を使用した完全な C# ガイド](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) Aspose.PDF for .NET を使用して PDF ファイルを修復する方法を学びましょう。ステップバイステップのガイドで、破損した文書を復元できます。 |  
 | [C# で PDF 署名を検証する – 完全プログラミングガイド](./verify-pdf-signature-in-c-complete-programming-guide/) Aspose.PDF for .NET を使用して、C# で PDF 署名を検証し、署名情報を取得する方法を学びます。 |  
+| [C# で署名オプションを作成する – デジタル署名の完全ガイド](./create-signature-options-in-c-full-guide-to-digital-signing/) Aspose.PDF for .NET を使用して、C# でデジタル署名オプションを作成し、署名プロセスをカスタマイズする方法を学びます。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

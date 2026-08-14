@@ -141,7 +141,7 @@ Pelajari cara memotong bagian tertentu dari halaman PDF dan mengubahnya menjadi 
 Pelajari cara mengekspor data dari aplikasi ke PDF secara efisien menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup pengaturan, contoh kode dalam C#, dan fitur-fitur utama.
 
 ### [Ekspor Anotasi PDF dengan Aspose.PDF .NET: Panduan Lengkap](./export-annotations-aspose-pdf-net/)
-Pelajari cara mengekspor anotasi dari PDF secara efisien menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup penyiapan, penerapan, dan praktik terbaik.
+Pelajari cara mengekspor anotasi dari PDF secara efisien menggunakan Aspose.PDF .NET. Panduan ini mencakup penyiapan, penerapan, dan praktik terbaik.
 
 ### [Ekspor Data PDF ke XML dengan Aspose.PDF untuk .NET: Panduan Langkah demi Langkah](./export-pdf-data-to-xml-aspose-dotnet-guide/)
 Pelajari cara mengekspor data formulir PDF secara efisien ke XML terstruktur menggunakan Aspose.PDF untuk .NET, pustaka canggih yang dirancang untuk manipulasi PDF.
@@ -228,7 +228,8 @@ Tutorial kode untuk Aspose.PDF Net
 Pelajari cara mengonversi dokumen PDF ke gambar TIFF menggunakan Aspose.PDF untuk .NET. Kuasai kedalaman warna khusus dan teknik pemrosesan gambar tingkat lanjut.
 
 ### [Cara Menyimpan PDF dengan Aspose – Panduan Langkah demi Langkah](./how-to-save-pdf-with-aspose-step-by-step-guide/)
-Pelajari cara menyimpan dokumen PDF menggunakan Aspose dengan contoh kode C# langkah demi langkah.
+
+### [Simpan PDF sebagai HTML dan Konversi ke PDF/X‑4 dengan Aspose.PDF di C#](./save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c/)
 
 ## Sumber Daya Tambahan
 
