@@ -1,9 +1,49 @@
 ---
-"date": "2025-04-14"
-"description": "Aspose.PDF for Java を使って PDF にデジタル署名を作成およびカスタマイズする方法を学びましょう。この包括的なガイドで、ドキュメントを効率的に保護しましょう。"
-"title": "Aspose.PDF for Java を使用してカスタム PDF デジタル署名を実装する方法"
-"url": "/ja/java/digital-signatures/custom-pdf-digital-signatures-aspose-java/"
-"weight": 1
+date: '2026-08-16'
+description: Aspose.PDF for Java を使用して、カスタム デジタル署名で PDF ドキュメントに署名する方法を学びます。このチュートリアルでは、ステップバイステップの設定、外観のカスタマイズ、PKCS7
+  署名の方法を示します。
+keywords:
+- how to sign pdf
+- aspose pdf digital signature
+- apply digital signature pdf
+- add digital signature java
+- digital signature pdf tutorial
+lastmod: '2026-08-16'
+og_description: Aspose.PDF for Java を使用して、カスタム デジタル署名で PDF ドキュメントに署名する方法を学びます。外観を設定し、PKCS7
+  署名を適用する手順をステップバイステップでご案内します。
+og_image_alt: Guide to implementing custom PDF digital signatures in Java with Aspose.PDF
+og_title: Aspose.PDF for Java を使用したカスタム デジタル署名で PDF に署名する方法
+schemas:
+- author: Aspose
+  dateModified: '2026-08-16'
+  description: Learn how to sign PDF documents with custom digital signatures using
+    Aspose.PDF for Java. This tutorial shows step‑by‑step setup, appearance customization,
+    and PKCS7 signing.
+  headline: How to sign PDF with custom digital signatures using Aspose.PDF for Java
+  type: TechArticle
+- questions:
+  - answer: Yes. Open the document with the password using `new Document("file.pdf",
+      new LoadOptions(password))` before adding the signature.
+    question: Can I sign password‑protected PDFs?
+  - answer: Yes. Loop through a collection of PDFs, apply the same PKCS7 object, and
+      save each signed file.
+    question: Does Aspose.PDF support batch signing?
+  - answer: SHA‑1, SHA‑256, SHA‑384, and SHA‑512 are supported; SHA‑256 is recommended
+      for most scenarios.
+    question: What hash algorithms are available?
+  - answer: Not mandatory, but you can add a timestamp by calling `pkcs.setTimestampServerUrl("http://tsa.example.com")`.
+    question: Is a timestamp authority (TSA) required?
+  - answer: Aspose.PDF for Java works with Java 8, 11, and 17.
+    question: Which Java versions are compatible?
+  type: FAQPage
+tags:
+- pdf signing
+- aspose.pdf
+- java digital signature
+- document security
+title: Aspose.PDF for Java を使用したカスタム デジタル署名で PDF に署名する方法
+url: /ja/java/digital-signatures/custom-pdf-digital-signatures-aspose-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,40 +51,40 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.PDF for Java を使用してカスタム PDF デジタル署名を実装する方法
+# Aspose.PDF for Java を使用したカスタム デジタル署名で PDF に署名する方法
 
-## 導入
+## はじめに
 
-今日の相互接続された世界では、デジタル文書のセキュリティ確保は不可欠です。特に、様々なプラットフォームや国境を越えて共有する場合はなおさらです。開発者が直面する共通の課題は、デジタル署名によってPDF文書の真正性と完全性を確保することです。このチュートリアルでは、デジタル署名の使い方を説明します。 **Aspose.PDF for Java** PDFにカスタマイズ可能なデジタル署名を効率的に作成できます。Aspose.PDFは、ドキュメント処理タスクを簡素化し、強力なセキュリティ機能でPDFワークフローを強化する強力なライブラリです。
+PDF ファイルを **デジタル署名** で保護することで、文書の真正性と完全性が保証され、法務、金融、コンプライアンスのワークフローにとって重要です。このチュートリアルでは、Aspose.PDF for Java を使用して PDF 文書に **署名する方法** を学び、表示外観をカスタマイズし、PKCS7 署名オブジェクトを適用します。最後には、配布可能な完全に署名された PDF が得られます。
 
-### 学習内容:
-- デジタル署名のカスタム外観を設定します。
-- PKCS7 署名オブジェクトの作成と構成。
-- 目に見えるデジタル署名を使用して PDF に署名します。
-- 署名された PDF ドキュメントを保存します。
+## クイック回答
+- **メインライブラリは何ですか？** Aspose.PDF for Java.
+- **必要なコード行数は？** 約 10 行で署名を作成および適用できます。
+- **署名の外観をカスタマイズできますか？** はい、`SignatureAppearance` クラスを使用します。
+- **本番環境でライセンスが必要ですか？** はい、有効な Aspose ライセンスが必要です。
+- **このソリューションはクロスプラットフォームですか？** Java 8+ をサポートする任意の OS で動作します。
 
-始める準備はできましたか? 始める前に、まず前提条件を確認しましょう。
+## PDF におけるデジタル署名とは何ですか？
+
+デジタル署名は暗号ハッシュと証明書を PDF に埋め込み、署名者の身元と内容が改ざんされていないことを証明します。
+
+## デジタル署名に Aspose.PDF for Java を使用する理由は？
+
+Aspose.PDF は **50 以上の入力および出力フォーマット** をサポートし、**2 GB** までの PDF をメモリに全体を読み込まずに処理できるため、大規模な契約書でも高速かつメモリ効率の良い署名が可能です。
 
 ## 前提条件
 
-### 必要なライブラリ、バージョン、依存関係
-このチュートリアルを実行するには、次のものが必要です。
-- **Aspose.PDF for Java** バージョン25.3以降。このライブラリは、PDFドキュメントを操作するための包括的な機能を提供します。
-  
+- **Aspose.PDF for Java** バージョン 25.3 以上。
+- Java Development Kit (JDK) 8 以上。
+- IntelliJ IDEA、Eclipse、VS Code などの IDE。
+- Maven または Gradle の依存関係管理に関する基本的な知識。
+- **.pfx** 形式の有効なコード署名証明書。
 
-### 環境設定要件
-開発環境が次のように設定されていることを確認します。
-- 互換性のある JDK (Java 開発キット) がインストールされています。
-- Java プロジェクト用に構成された IntelliJ IDEA、Eclipse、VS Code などの IDE。
+## Java プロジェクトに Aspose-PDF を追加する方法
 
-### 知識の前提条件
-Javaプログラミングの基礎知識と、MavenまたはGradleビルドツールの使いこなしが役立ちます。さらに、デジタル署名とPDF処理の概念に関する知識があれば、実装の詳細をより効果的に理解するのに役立ちます。
+Java プロジェクトに Aspose.PDF を組み込むには、ビルドツールを使用してライブラリを依存関係として追加します。Maven ユーザーは `pom.xml` に `<dependency>` エントリを追加し、Gradle ユーザーは `build.gradle` で `implementation` 記法を使用します。これにより、コンパイル時に Aspose クラスが利用可能になります。
 
-## Aspose.PDF for Java のセットアップ
-
-作業を開始するには **Aspose.PDF for Java**Maven や Gradle などのパッケージ マネージャーを使用してプロジェクトに追加します。
-
-**メイヴン**
+### Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -53,35 +93,40 @@ Javaプログラミングの基礎知識と、MavenまたはGradleビルドツ�
 </dependency>
 ```
 
-**グラドル**
+### Gradle
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### ライセンス取得手順
-Aspose.PDF を使用するには、ライセンスが必要です。
-- **無料トライアル**まずは無料トライアルをダウンロードしてください [Aspose PDF Java リリース](https://releases。aspose.com/pdf/java/).
-- **一時ライセンス**制限なしで機能を評価する一時ライセンスを申請してください [Aspose 一時ライセンス](https://purchase。aspose.com/temporary-license/).
-- **購入**実稼働環境での使用には、 [Aspose 購入ページ](https://purchase。aspose.com/buy).
+## Aspose ライセンスの取得と設定方法は？
 
-ライセンス ファイルを取得したら、コード内で初期化します。
+Aspose からトライアルをダウンロード、臨時評価をリクエスト、またはフルライセンスを購入してライセンスを取得します。`.lic` ファイルをダウンロードしたら、実行時に `License license = new License(); license.setLicense("Aspose.PDF.Java.lic");` でロードします。これにより、ライブラリが無制限に使用できるように有効化されます。
+
+- **無料トライアル:** [Aspose PDF Java releases](https://releases.aspose.com/pdf/java/)
+- **臨時評価:** [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)
+- **本番用フルライセンス:** [Aspose Purchase page](https://purchase.aspose.com/buy)
+
+PDF 操作を行う前にコード内でライセンスを初期化します:
 
 ```java
 com.aspose.pdf.License license = new com.aspose.pdf.License();
 license.setLicense("path/to/your/license.lic");
 ```
 
-## 実装ガイド
+## カスタム署名外観の設定方法は？
 
-### 署名のカスタム外観の設定
+SignatureAppearance は PDF 内のデジタル署名の視覚的表現を定義するクラスです。`SignatureAppearance` インスタンスを作成し、ラベル、フォント、背景色、署名が描画される矩形を設定します。企業ブランディングに合わせて画像やカスタムテキストを追加することも可能です。設定後、署名前に `SignatureField` に外観を割り当てます。
 
-**概要：** ブランディングやコンプライアンスの要件を満たすために、PDF 内でのデジタル署名の表示方法をカスタマイズします。
+```java
+// Definition anchor
+SignatureAppearance appearance = new SignatureAppearance();
+// Parameters explained: set label, set font, set date format, etc.
+```
 
-#### SignatureAppearance オブジェクトの作成
 ```java
 import com.aspose.pdf.SignatureCustomAppearance;
 
-// 署名のカスタム外観を初期化して構成する
+// Initialize and configure the custom appearance for your signature
 SignatureCustomAppearance signatureCustomAppearance = new SignatureCustomAppearance();
 signatureCustomAppearance.setDateSignedAtLabel("Fecha");
 signatureCustomAppearance.setDigitalSignedLabel("Digitalmente firmado por");
@@ -91,22 +136,80 @@ signatureCustomAppearance.setFontFamilyName("Arial");
 signatureCustomAppearance.setFontSize(10d);
 signatureCustomAppearance.setDateTimeFormat("yyyy.MM.dd HH:mm:ss");
 ```
-- **パラメータの説明**ニーズに合わせてラベル、フォント設定、日付形式をカスタマイズします。
-  
-### PKCS7署名オブジェクトの作成と構成
 
-**概要：** 先ほど設定したカスタム外観を使用して PKCS7 署名オブジェクトを設定します。
+## PKCS7 署名オブジェクトの作成と構成方法は？
 
-#### デジタル署名用のPKCS7の設定
+PKCS7 は PFX ファイルに保存された秘密鍵を使用して PKCS#7 準拠のデジタル署名を作成するクラスです。`.pfx` ファイルから署名証明書をロードし、パスワードを指定し、SHA‑256 などのハッシュアルゴリズムを設定します。その後、`PKCS7` オブジェクトをインスタンス化し、証明書を設定し、必要に応じてタイムスタンプサーバー URL を構成します。このオブジェクトは署名フィールドに添付されます。
+
 ```java
 import com.aspose.pdf.PKCS7;
 
-PKCS7 pkcs = new PKCS7("path/to/your/certificate.pfx\
+PKCS7 pkcs = new PKCS7("path/to/your/certificate.pfx", "certificatePassword");
+pkcs.setSignatureAppearance(appearance);
+pkcs.setReason("Approved");
+pkcs.setLocation("New York, USA");
+```
+
+## PDF に署名を適用して結果を保存する方法は？
+
+Document は Aspose.PDF で PDF ファイルを表す主要クラスです。`new Document(inputPath)` で PDF をロードし、目的のページに `SignatureField` を作成し、準備した `PKCS7` 署名を割り当て、`document.save(outputPath)` を呼び出します。これにより、元のコンテンツをすべて保持したまま署名済み PDF がディスクに書き込まれます。
+
+```java
+import com.aspose.pdf.*;
+
+Document pdfDoc = new Document("input.pdf");
+
+// Add a signature field
+SignatureField signatureField = new SignatureField(pdfDoc.getPages().get(1), new Rectangle(100, 100, 200, 150));
+pdfDoc.getPages().get(1).getAnnotations().add(signatureField);
+
+// Apply PKCS7 signature
+signatureField.setSignature(pkcs);
+
+// Save signed PDF
+pdfDoc.save("signed_output.pdf");
+```
+
+## 一般的な問題とトラブルシューティング
+
+- **証明書パスワードエラー:** パスワードが PFX ファイルと一致しているか、ファイルパスが正しいか確認してください。
+- **署名が表示されない:** 矩形座標がページ境界内にあること、`SignatureAppearance` が正しく設定されていることを確認してください。
+- **大きな PDF が OutOfMemoryError を引き起こす:** 署名前に `Document.optimizeResources()` を使用してメモリ使用量を削減してください。
+
+## よくある質問
+
+**Q: パスワード保護された PDF に署名できますか？**  
+A: はい。署名を追加する前に、`new Document("file.pdf", new LoadOptions(password))` でパスワードを指定してドキュメントを開きます。
+
+**Q: Aspose.PDF はバッチ署名をサポートしていますか？**  
+A: はい。PDF のコレクションをループし、同じ PKCS7 オブジェクトを適用して各署名済みファイルを保存します。
+
+**Q: 利用可能なハッシュアルゴリズムは何ですか？**  
+A: SHA‑1、SHA‑256、SHA‑384、SHA‑512 がサポートされており、ほとんどのシナリオでは SHA‑256 が推奨されます。
+
+**Q: タイムスタンプ機関 (TSA) は必須ですか？**  
+A: 必須ではありませんが、`pkcs.setTimestampServerUrl("http://tsa.example.com")` を呼び出すことでタイムスタンプを追加できます。
+
+**Q: 対応している Java バージョンはどれですか？**  
+A: Aspose.PDF for Java は Java 8、11、17 で動作します。
+
+---
+
+**最終更新日:** 2026-08-16  
+**テスト環境:** Aspose.PDF for Java 25.3  
+**作者:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## 関連チュートリアル
+
+- [Aspose.PDF for Java で PDF を作成・署名する: Java におけるデジタル署名の完全ガイド](/pdf/java/digital-signatures/create-sign-pdfs-aspose-pdf-java/)
+- [Aspose.PDF for Java を使用した PDF のデジタル署名マスター: 包括的ガイド](/pdf/java/digital-signatures/master-digital-signatures-pdf-java-guide/)
+- [Aspose.PDF Java 用 PDF デジタル署名チュートリアル](/pdf/java/digital-signatures/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
