@@ -19,6 +19,7 @@ A documentação "Programação com Páginas PDF" do Aspose.PDF para .NET oferec
 Os tutoriais incluem instruções passo a passo, exemplos de código detalhados e explicações claras para facilitar a compreensão. Seja você iniciante ou desenvolvedor experiente, estes recursos ajudarão você a dominar os recursos de manipulação de páginas PDF oferecidos pelo Aspose.PDF para .NET, abrindo novas possibilidades para seus projetos de desenvolvimento de aplicações.
 
 ## Tutoriais
+
 | Título | Descrição |
 | --- | --- | 
 | [Mudança de Orientação](./change-orientation/) | Guia passo a passo para alterar a orientação da página de um PDF com o Aspose.PDF para .NET. Fácil de seguir e implementar em seus projetos. |  
@@ -38,6 +39,8 @@ Os tutoriais incluem instruções passo a passo, exemplos de código detalhados 
 | [Atualizar dimensões da página PDF](./update-dimensions/) | Descubra como atualizar as dimensões de páginas PDF sem esforço com o Aspose.PDF para .NET neste guia abrangente passo a passo. |  
 | [Ampliar o conteúdo da página em arquivo PDF](./zoom-to-page-contents/) | Aprenda a aplicar zoom no conteúdo de páginas em arquivos PDF usando o Aspose.PDF para .NET neste guia completo. Aprimore seus documentos PDF de acordo com suas necessidades específicas. |
 | [Adicionar números de página PDF com C# – Guia completo passo a passo](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Aprenda a inserir números de página em PDFs usando C# com o Aspose.PDF, passo a passo. |
+
+| [Adicionar páginas ao PDF com Aspose – Guia completo em C#](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Guia passo a passo para adicionar páginas a um PDF usando Aspose.PDF para .NET com C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

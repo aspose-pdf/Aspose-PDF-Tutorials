@@ -19,6 +19,7 @@ Dokumentasi "Pemrograman dengan Halaman PDF" untuk Aspose.PDF untuk .NET menyedi
 Tutorial mencakup petunjuk langkah demi langkah, contoh kode terperinci, dan penjelasan yang jelas agar mudah dipahami. Baik Anda seorang pemula atau pengembang berpengalaman, sumber daya ini akan membantu Anda menguasai fitur manipulasi halaman PDF yang ditawarkan oleh Aspose.PDF untuk .NET, yang membuka kemungkinan baru untuk proyek pengembangan aplikasi Anda.
 
 ## Tutorial
+
 | Judul | Deskripsi |
 Bahasa Indonesia: --- | Bahasa Indonesia: 
 | [Ubah Orientasi](./change-orientation/) | Panduan langkah demi langkah untuk mengubah orientasi halaman PDF dengan Aspose.PDF untuk .NET. Mudah diikuti dan diterapkan dalam proyek Anda. Bahasa Indonesia:  
@@ -38,6 +39,8 @@ Bahasa Indonesia: --- | Bahasa Indonesia:
 | [Perbarui Dimensi Halaman PDF](./update-dimensions/) | Temukan cara memperbarui dimensi halaman PDF dengan mudah dengan Aspose.PDF untuk .NET dalam panduan langkah demi langkah yang komprehensif ini. Bahasa Indonesia:  
 | [Perbesar Isi Halaman Dalam File PDF](./zoom-to-page-contents/) | Pelajari cara memperbesar konten halaman dalam file PDF menggunakan Aspose.PDF untuk .NET dalam panduan lengkap ini. Sempurnakan dokumen PDF Anda sesuai dengan kebutuhan spesifik Anda. |  
 | [Menambahkan nomor halaman PDF dengan C# – Panduan Langkah demi Langkah Lengkap](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Panduan langkah demi langkah untuk menambahkan nomor halaman pada file PDF menggunakan C# dengan Aspose.PDF untuk .NET. Mudah diikuti. |  
+
+| [Menambahkan Halaman ke PDF dengan Aspose – Panduan Lengkap C#](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Panduan langkah demi langkah menambahkan halaman ke PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode C# lengkap. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

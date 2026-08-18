@@ -19,6 +19,7 @@ Il tutorial "Programmare con sicurezza e firme" illustra le funzionalità di sic
 Questo tutorial offre una panoramica dettagliata di metodi e tecniche per garantire la riservatezza e l'autenticità dei file PDF. Imparerai a gestire i certificati digitali, aggiungere autorizzazioni di sicurezza, applicare policy di sicurezza e altro ancora. Grazie a questi tutorial, sarai in grado di proteggere i tuoi documenti PDF in modo affidabile e professionale.
 
 ## Tutorial
+
 | Titolo | Descrizione |
 | --- | --- | 
 | [Cambia password nel file PDF](./change-password/) | Impara a modificare facilmente le password dei PDF utilizzando Aspose.PDF per .NET. La nostra guida passo passo ti guiderà passo dopo passo in modo sicuro. |  
@@ -36,6 +37,10 @@ Questo tutorial offre una panoramica dettagliata di metodi e tecniche per garant
 | [Verifica le firme PDF in C# – Come leggere i file PDF firmati](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Scopri come leggere e analizzare le firme digitali nei PDF usando C# e Aspose.PDF per .NET. |
 | [Come riparare i file PDF – Guida completa C# con Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Scopri come riparare i PDF danneggiati con Aspose.PDF per .NET usando C#. Guida passo passo per recuperare i contenuti. |
 | [Verifica firma PDF in C# – Guida completa di programmazione](./verify-pdf-signature-in-c-complete-programming-guide/) | Scopri come verificare le firme PDF usando C# e Aspose.PDF, con esempi completi e best practice. |
+
+| [Come verificare le firme PDF con Aspose.PDF – Guida completa](./how-to-verify-pdf-signatures-with-aspose-pdf-complete-guide/) | Scopri come verificare le firme PDF con Aspose.PDF in una guida completa passo passo. |  
+| [Come verificare le firme PDF in C# – Guida completa passo‑per‑passo](./how-to-verify-pdf-signatures-in-c-complete-step-by-step-guid/) | Scopri come verificare le firme digitali dei PDF in C# con una guida dettagliata passo dopo passo. |  
+| [Come verificare la firma in PDF usando Aspose – Guida](./how-to-verify-signature-in-pdf-using-aspose-guide/) | Scopri come verificare la firma in un PDF usando Aspose con una guida passo passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

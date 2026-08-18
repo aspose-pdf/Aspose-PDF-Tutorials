@@ -17,53 +17,41 @@ Hướng dẫn về chữ ký số của chúng tôi cung cấp hướng dẫn t
 
 ## Hướng dẫn có sẵn
 
+
 ### [Chữ ký số trong PDF với Aspose.PDF cho .NET: Hướng dẫn toàn diện](./digital-signature-aspose-pdf-net-tutorial/)
 Tìm hiểu cách triển khai chữ ký số trong PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm thiết lập, quy trình ký và quản lý giao diện chữ ký.
-
 ### [Ký số vào PDF với Giao diện tùy chỉnh bằng Aspose.PDF cho .NET: Hướng dẫn từng bước](./digitally-sign-pdf-custom-appearance-aspose-pdf-net/)
 Tìm hiểu cách ký số PDF với giao diện tùy chỉnh bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm thiết lập, tùy chỉnh và ứng dụng thực tế của chữ ký số trong tài liệu của bạn.
-
 ### [Trích xuất thông tin chữ ký số từ PDF bằng Aspose.PDF](./extract-digital-signature-info-from-pdfs-aspose-pdf/)
 Hướng dẫn mã cho Aspose.PDF Net
-
 ### [Cách thay đổi ngôn ngữ chữ ký PDF bằng Aspose.PDF cho .NET](./change-pdf-signature-language-aspose-net/)
 Tìm hiểu cách tùy chỉnh văn bản chữ ký số trong PDF bằng Aspose.PDF cho .NET. Hoàn hảo cho việc chuẩn bị và bản địa hóa tài liệu đa ngôn ngữ.
-
 ### [Cách tạo và xác minh chữ ký PDF bằng Aspose.PDF cho .NET](./create-verify-pdf-signatures-aspose-net/)
 Tìm hiểu cách tạo, ký và xác minh chữ ký PDF an toàn bằng Aspose.PDF cho .NET. Nâng cao quy trình làm việc tài liệu của bạn với hướng dẫn toàn diện này.
-
 ### [Cách trích xuất thông tin chữ ký PDF bằng Aspose.PDF .NET: Hướng dẫn từng bước](./extract-pdf-signature-info-aspose-pdf-net/)
 Tìm hiểu cách trích xuất thông tin chữ ký số từ PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước này bao gồm cài đặt, triển khai và ứng dụng thực tế.
-
 ### [Cách triển khai chữ ký số trong .NET với Aspose.PDF: Hướng dẫn toàn diện](./implement-pdf-signatures-dotnet-aspose-pdf-guide/)
 Tìm hiểu cách triển khai chữ ký số an toàn trên tệp PDF bằng Aspose.PDF cho .NET, bao gồm cả việc loại bỏ các trường tùy chọn.
-
 ### [Cách xóa chữ ký số PDF bằng Aspose.PDF .NET | Hướng dẫn đầy đủ](./remove-pdf-digital-signatures-aspose-pdf-net/)
 Tìm hiểu cách xóa chữ ký số khỏi PDF hiệu quả bằng Aspose.PDF .NET. Hướng dẫn toàn diện này bao gồm xóa chữ ký đơn và nhiều chữ ký, với hướng dẫn từng bước.
-
 ### [Cách xác minh chữ ký PDF bằng Aspose.PDF cho .NET: Hướng dẫn toàn diện](./verify-pdf-signatures-aspose-pdf-net/)
 Tìm hiểu cách xác minh chữ ký số trong tệp PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm thiết lập, triển khai và ứng dụng thực tế.
-
 ### [Cách xác minh PDF – Xác thực chữ ký PDF với Aspose](./how-to-verify-pdf-validate-pdf-signature-with-aspose/)
 Hướng dẫn chi tiết cách xác minh chữ ký số trong tài liệu PDF bằng Aspose, bao gồm thiết lập và kiểm tra tính toàn vẹn.
-
 ### [Xác minh chữ ký PDF trong C# – Hướng dẫn từng bước](./verify-pdf-signature-in-c-step-by-step-guide/)
 Tìm hiểu cách xác minh chữ ký PDF trong C# bằng Aspose.PDF, bao gồm thiết lập, kiểm tra và xác thực chữ ký một cách chi tiết.
-
 ### [Làm chủ việc ký và xác minh PDF với Aspose.PDF .NET](./mastering-aspose-pdf-net-sign-verify-smart-card-certificates/)
 Hướng dẫn mã cho Aspose.PDF Net
-
 ### [Làm chủ Aspose.PDF .NET: Cách xác minh chữ ký số trong tệp PDF](./aspose-pdf-net-verify-digital-signature/)
 Tìm hiểu cách xác minh chữ ký số trong tệp PDF bằng Aspose.PDF cho .NET. Đảm bảo tính toàn vẹn và xác thực của tài liệu với hướng dẫn từng bước của chúng tôi.
-
 ### [Xác minh chữ ký PDF trong C# – Hướng dẫn toàn diện để xác thực chữ ký số PDF](./verify-pdf-signature-in-c-complete-guide-to-validate-digital/)
 Hướng dẫn chi tiết cách xác thực chữ ký số PDF bằng C# với Aspose.PDF, bao gồm các bước triển khai và kiểm tra tính toàn vẹn.
 ### [Tải tài liệu PDF C# – Chuyển đổi sang PDF/X‑4 và Liệt kê chữ ký](./load-pdf-document-c-convert-to-pdf-x-4-list-signatures/)
 Hướng dẫn cách tải tài liệu PDF, chuyển đổi sang định dạng PDF/X‑4 và liệt kê các chữ ký trong tài liệu bằng C#.
-
 ### [Xác thực chữ ký PDF với Aspose – Chuyển PDF sang HTML](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
 Hướng dẫn cách xác thực chữ ký PDF và chuyển đổi tài liệu PDF sang HTML bằng Aspose.
-
+### [Tải tài liệu PDF đã ký và liệt kê các chữ ký – Hướng dẫn C#](./load-signed-pdf-document-and-list-its-signatures-c-guide/)
+Hướng dẫn cách tải tài liệu PDF đã ký và liệt kê các chữ ký trong đó bằng C# với Aspose.PDF.
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)

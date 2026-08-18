@@ -19,6 +19,7 @@ Handledningen Programmering med säkerhet och signaturer guidar dig genom säker
 Handledningen ger dig en detaljerad översikt över metoder och tekniker för att säkerställa dina PDF-filers konfidentialitet och äkthet. Du lär dig hur du hanterar digitala certifikat, lägger till säkerhetsbehörigheter, tillämpar säkerhetspolicyer och mer. Med hjälp av dessa handledningar kommer du att kunna säkra dina PDF-dokument på ett tillförlitligt och professionellt sätt.
 
 ## Handledningar
+
 | Titel | Beskrivning |
 | --- | --- | 
 | [Ändra lösenord i PDF-fil](./change-password/) | Lär dig att enkelt ändra PDF-lösenord med Aspose.PDF för .NET. Vår steg-för-steg-guide guidar dig genom processen på ett säkert sätt. |  
@@ -36,6 +37,10 @@ Handledningen ger dig en detaljerad översikt över metoder och tekniker för at
 | [Kontrollera PDF-signaturer i C# – Så läser du signerade PDF-filer](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Lär dig hur du läser och verifierar signerade PDF-filer med Aspose.PDF för .NET i C#. |
 | [Verifiera PDF-signatur i C# – Komplett programmeringsguide](./verify-pdf-signature-in-c-complete-programming-guide/) | Lär dig hur du verifierar PDF-signaturer i C# med Aspose.PDF för .NET i en komplett steg‑för‑steg‑guide. |
 | [Hur man reparerar PDF-filer – Komplett C#-guide med Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Lär dig steg för steg hur du reparerar skadade PDF-filer med Aspose.PDF i C#. |
+
+| [Hur man verifierar PDF-signaturer i C# – Komplett steg‑för‑steg‑guide](./how-to-verify-pdf-signatures-in-c-complete-step-by-step-guid/) | Lär dig hur du verifierar PDF-signaturer i C# med Aspose.PDF för .NET. En komplett steg‑för‑steg‑guide. |  
+| [Hur man verifierar PDF‑signaturer med Aspose.PDF – Komplett guide](./how-to-verify-pdf-signatures-with-aspose-pdf-complete-guide/) | Lär dig hur du verifierar PDF‑signaturer med Aspose.PDF i en komplett steg‑för‑steg‑guide. |  
+| [Hur man verifierar signatur i PDF med Aspose – Guide](./how-to-verify-signature-in-pdf-using-aspose-guide/) | Lär dig hur du verifierar en PDF‑signatur med Aspose i en steg‑för‑steg‑guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

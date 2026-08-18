@@ -18,6 +18,7 @@
 Aspose.PDF for .NET の「タグ付き PDF を使ったプログラミング」チュートリアルでは、このライブラリを使ってタグ付き PDF を操作および生成する方法を詳しく説明します。コンテンツ構造の作成、タグ付き要素の管理、PDF/UA 準拠の検証、PDF ドキュメントのアクセシビリティ向上の方法を学びます。これらのチュートリアルは、タグ付き PDF を使ったプログラミングを深く理解し、Aspose.PDF for .NET のパワーを最大限に活用するのに役立ちます。
 
 ## チュートリアル
+
 タイトル | 説明 |
 | --- | --- | 
 | [子要素にアクセスする](./access-children-elements/) このステップバイステップのチュートリアルでは、Aspose.PDF for .NET を使用してタグ付き PDF 内の子要素にアクセスし、変更する方法を学習します。 |  
@@ -46,6 +47,8 @@ Aspose.PDF for .NET の「タグ付き PDF を使ったプログラミング」�
 | [PDFファイルの検証](./validate-pdf/) Aspose.PDF for .NET を使って PDF ファイルを検証する方法を学びましょう。標準規格への準拠を確認し、検証レポートを生成します。 |  
 | [C# でタグ付き PDF を作成する – 完全ステップバイステップガイド](./create-tagged-pdf-in-c-complete-step-by-step-guide/) Aspose.PDF for .NET を使用して、C# でタグ付き PDF を最初から作成する方法をステップバイステップで解説します。 |  
 | [Aspose で PDF をアクセシブルにする：段落を挿入するステップバイステップ](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) Aspose.PDF for .NET を使用して、PDF に段落を挿入し、アクセシビリティを向上させる方法を学びます。 |  
+
+| [C# でタグ付き PDF を作成 – 見出しとアクセシブルテキストの追加](./create-tagged-pdf-in-c-add-heading-accessible-text/) Aspose.PDF for .NET を使用して、C# で見出しとアクセシブルなテキストを含むタグ付き PDF を作成する方法を学びます。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

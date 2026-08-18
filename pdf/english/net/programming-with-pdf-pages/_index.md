@@ -1,6 +1,6 @@
 ---
-title: Programming with PDF Pages
-linktitle: Programming with PDF Pages
+title: Learn to Manipulate PDF Pages with Aspose.PDF for .NET
+linktitle: Learn to Manipulate PDF Pages with Aspose.PDF for .NET
 weight: 15
 url: /net/programming-with-pdf-pages/
 description: Check out programming tutorials with PDF pages using Aspose.PDF for .NET. Learn how to manipulate and customize the pages of PDF files.
@@ -15,6 +15,29 @@ description: Check out programming tutorials with PDF pages using Aspose.PDF for
 # Programming with PDF Pages
 
 The "Programming with PDF Pages" documentation for Aspose.PDF for .NET provides step-by-step tutorials to help you master the manipulation and management of pages in a PDF file. You'll learn how to add, remove, extract, and rearrange pages, as well as how to configure page properties such as size, orientation, and margins. These tutorials will guide you through practical examples and provide you with the knowledge to work effectively with PDF pages in your .NET applications.
+
+Below is a simple example that demonstrates how to add a new page to an existing PDF document using Aspose.PDF for .NET:
+
+```csharp
+using Aspose.Pdf;
+using System;
+
+class AddPageExample
+{
+    static void Main()
+    {
+        // Load an existing PDF document
+        Document pdfDocument = new Document("input.pdf");
+
+        // Add a new blank page at the end of the document
+        pdfDocument.Pages.Add();
+
+        // Save the updated PDF document
+        pdfDocument.Save("output.pdf");
+        Console.WriteLine("A new page has been added successfully.");
+    }
+}
+```
 
 Tutorials include step-by-step instructions, detailed code examples, and clear explanations to make it easy to understand. Whether you are a beginner or an experienced developer, these resources will help you master the PDF page manipulation features offered by Aspose.PDF for .NET, opening up new possibilities for your application development projects.
 
@@ -38,6 +61,7 @@ Tutorials include step-by-step instructions, detailed code examples, and clear e
 | [Split To Pages](./split-to-pages/) | Easily split PDFs into individual pages using Aspose.PDF for .NET with this comprehensive tutorial. Step-by-step guide included. |  
 | [Update PDF Page Dimensions](./update-dimensions/) | Discover how to update PDF page dimensions effortlessly with Aspose.PDF for .NET in this comprehensive, step-by-step guide. |  
 | [Zoom To Page Contents In PDF File](./zoom-to-page-contents/) | Learn how to zoom to page contents in PDF files using Aspose.PDF for .NET in this comprehensive guide. Enhance your PDF documents according to your specific needs. |  
+| [Add Pages to PDF with Aspose – Complete C# Guide](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Comprehensive C# guide to add pages to a PDF using Aspose.PDF for .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

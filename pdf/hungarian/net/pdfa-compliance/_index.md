@@ -38,6 +38,9 @@ Ismerje meg, hogyan validálhatja a PDF/A-1a megfelelőséget az Aspose.PDF for 
 ### [PDF/A mesterszintű validáció Aspose.PDF használatával .NET-hez C#-ban](./master-pdfa-validation-aspose-pdf-net/)
 Ismerje meg, hogyan validálhatja a PDF dokumentumokat a PDF/A szabványoknak megfelelően az Aspose.PDF .NET használatával. Lépésről lépésre útmutatónkkal biztosíthatja a megfelelőséget és növelheti a dokumentumok megbízhatóságát.
 
+### [PDF/A fájl létrehozása C#-ban – Teljes konverziós útmutató](./create-pdf-a-file-in-c-full-conversion-tutorial/)
+Tanulja meg, hogyan hozhat létre PDF/A fájlokat C#-ban a teljes konverziós folyamat részletes lépéseivel.
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)
