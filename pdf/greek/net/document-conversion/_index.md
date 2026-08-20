@@ -20,6 +20,7 @@
 
 ## Εκπαιδευτικά σεμινάρια
 
+
 | Τίτλος | Περιγραφή |
 | --- | --- | 
 | [Προσθήκη συνημμένου σε PDFA](./add-attachment-to-pdfa/) | Μάθετε πώς να προσθέτετε συνημμένα σε ένα έγγραφο PDF/A χρησιμοποιώντας το Aspose.PDF για .NET με αυτόν τον οδηγό βήμα προς βήμα. |  
@@ -62,6 +63,8 @@
 
 | [Φόρτωση εγγράφου PDF C# – Μετατροπή σε PDF/X-4 Βήμα‑βήμα Οδηγός](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | Μάθετε πώς να φορτώνετε ένα PDF σε C# και να το μετατρέπετε σε PDF/X‑4 χρησιμοποιώντας το Aspose.PDF για .NET. |  
 | [Μετατροπή Aspose PDF σε HTML με C# – Πλήρης Οδηγός](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | Μάθετε πώς να μετατρέψετε PDF σε HTML με C# χρησιμοποιώντας το Aspose.PDF για .NET σε αυτόν τον πλήρη οδηγό. |  
+
+| [Πώς να μετατρέψετε PDF με το Aspose.Pdf – Πλήρης οδηγός C#](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | Μάθετε πώς να μετατρέψετε PDF χρησιμοποιώντας το Aspose.Pdf με πλήρη οδηγό C# βήμα προς βήμα. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -20,6 +20,7 @@
 
 ## ट्यूटोरियल
 
+
 | शीर्षक | विवरण |
 | --- | --- | 
 | [PDFA में अनुलग्नक जोड़ें](./add-attachment-to-pdfa/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF/A दस्तावेज़ में अनुलग्नक जोड़ना सीखें। |  
@@ -61,6 +62,8 @@
 | [C# में PDF को PDF/X‑4 में परिवर्तित करें – चरण-दर-चरण ASP.NET PDF ट्यूटोरियल](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | इस ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X‑4 फ़ॉर्मेट में बदलना सीखें। |
 | [PDF दस्तावेज़ लोड करें C# – PDF/X-4 में परिवर्तित करने की चरण-दर-चरण गाइड](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | इस चरण-दर-चरण ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ को लोड करके PDF/X-4 फ़ॉर्मेट में बदलना सीखें। |  
 | [Aspose PDF को HTML में C# – पूर्ण गाइड](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | इस विस्तृत मार्गदर्शिका में .NET के लिए Aspose.PDF का उपयोग करके PDF को HTML में बदलना सीखें। |
+
+| [Aspose.Pdf के साथ PDF को कैसे बदलें – पूर्ण C# गाइड](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | इस विस्तृत C# गाइड में Aspose.Pdf का उपयोग करके PDF को बदलना सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -18,6 +18,7 @@
 ## 사용 가능한 튜토리얼
 
 
+
 ### [Aspose.PDF for .NET을 사용한 PDF의 디지털 서명: 포괄적인 가이드](./digital-signature-aspose-pdf-net-tutorial/)
 Aspose.PDF for .NET을 사용하여 PDF에 디지털 서명을 구현하는 방법을 알아보세요. 이 가이드에서는 설정, 서명 프로세스, 서명 모양 관리에 대해 다룹니다.
 ### [Aspose.PDF for .NET을 사용하여 사용자 지정 모양으로 PDF에 디지털 서명하기: 단계별 가이드](./digitally-sign-pdf-custom-appearance-aspose-pdf-net/)
@@ -48,6 +49,10 @@ C#을 사용해 PDF 문서를 로드하고 PDF/X‑4 형식으로 변환한 뒤,
 Aspose를 사용해 PDF 서명을 검증하고 PDF를 HTML로 변환하는 방법을 단계별로 안내합니다.
 ### [서명된 PDF 문서를 로드하고 서명을 나열하는 방법 – C# 가이드](./load-signed-pdf-document-and-list-its-signatures-c-guide/)
 C#을 사용하여 서명된 PDF 문서를 로드하고 포함된 서명 정보를 나열하는 방법을 단계별로 안내합니다.
+### [Aspose를 사용하여 PDF 서명을 확인하고 사각형을 추가하는 방법](./verify-pdf-signature-and-add-rectangle-pdf-with-aspose/)
+Aspose.PDF를 이용해 PDF 서명을 검증하고, 지정된 위치에 사각형을 그려 표시하는 단계별 가이드.
+### [Aspose를 사용하여 PDF를 HTML로 내보내고 PDF 서명을 검증하는 방법](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
+Aspose.PDF를 활용해 PDF를 HTML로 변환하고 서명을 검증하는 단계별 가이드.
 ## 추가 자료
 
 - [Net 문서용 Aspose.PDF](https://docs.aspose.com/pdf/net/)

@@ -18,6 +18,7 @@ Våra handledningar för digitala signaturer ger omfattande vägledning för imp
 ## Tillgängliga handledningar
 
 
+
 ### [Digitala signaturer i PDF-filer med Aspose.PDF för .NET: En omfattande guide](./digital-signature-aspose-pdf-net-tutorial/)
 Lär dig hur du implementerar digitala signaturer i PDF-filer med Aspose.PDF för .NET. Den här guiden behandlar installation, signeringsprocesser och hantering av signaturers utseende.
 ### [Signera en PDF digitalt med anpassat utseende med Aspose.PDF för .NET: En steg-för-steg-guide](./digitally-sign-pdf-custom-appearance-aspose-pdf-net/)
@@ -48,6 +49,10 @@ Lär dig hur du laddar en PDF, konverterar den till PDF/X‑4 och listar befintl
 Lär dig hur du validerar PDF-signaturer och konverterar PDF till HTML med Aspose.PDF för .NET.
 ### [Läs in signerat PDF-dokument och lista dess signaturer – C#-guide](./load-signed-pdf-document-and-list-its-signatures-c-guide/)
 Lär dig hur du laddar ett signerat PDF-dokument och listar alla dess signaturer med C# och Aspose.PDF för .NET.
+### [Verifiera PDF-signatur och lägg till rektangel i PDF med Aspose](./verify-pdf-signature-and-add-rectangle-pdf-with-aspose/)
+Lär dig hur du verifierar en PDF-signatur och ritar en rektangel i PDF-dokumentet med Aspose.
+### [Exportera PDF till HTML och validera PDF-signatur med Aspose](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
+Lär dig hur du konverterar PDF till HTML och samtidigt validerar PDF-signaturer med Aspose.
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

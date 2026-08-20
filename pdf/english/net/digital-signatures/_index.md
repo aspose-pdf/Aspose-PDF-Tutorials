@@ -38,6 +38,7 @@ public void SignPdf(string inputPath, string outputPath, string certPath, string
 ## Available Tutorials
 
 
+
 ### [Digital Signatures in PDFs with Aspose.PDF for .NET&#58; A Comprehensive Guide](./digital-signature-aspose-pdf-net-tutorial/)
 Learn how to implement digital signatures in PDFs using Aspose.PDF for .NET. This guide covers setup, signing processes, and managing signature appearances.
 ### [Digitally Sign a PDF with Custom Appearance Using Aspose.PDF for .NET&#58; A Step‑Step Guide](./digitally-sign-pdf-custom-appearance-aspose-pdf-net/)
@@ -68,6 +69,10 @@ Learn how to load a PDF in C#, convert it to PDF/X‑4 format, and list its digi
 Learn how to validate a PDF signature using Aspose and convert the PDF to HTML in a single workflow.
 ### [Load Signed PDF Document and List Its Signatures – C# Guide](./load-signed-pdf-document-and-list-its-signatures-c-guide/)
 Learn how to load a signed PDF and enumerate its digital signatures using Aspose.PDF for .NET in C#.
+### [verify pdf signature and add rectangle pdf with Aspose](./verify-pdf-signature-and-add-rectangle-pdf-with-aspose/)
+Learn how to verify a PDF signature and draw a rectangle on the document using Aspose.PDF for .NET.
+### [export pdf to html & validate pdf signature with Aspose](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
+Learn how to export PDFs to HTML and validate PDF signatures using Aspose.PDF for .NET in a step-by-step guide.
 ## Additional Resources
 
 - [Aspose.PDF for Net Documentation](https://docs.aspose.com/pdf/net/)

@@ -20,6 +20,7 @@ Megtanulod, hogyan adhatsz meg konvertálási beállításokat, hogyan kinyerhet
 
 ## Oktatóanyagok
 
+
 | Cím | Leírás |
 | --- | --- | 
 | [Melléklet hozzáadása PDFFA-hoz](./add-attachment-to-pdfa/) | Tanulja meg, hogyan adhat hozzá mellékleteket egy PDF/A dokumentumhoz az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. |  
@@ -62,6 +63,8 @@ Megtanulod, hogyan adhatsz meg konvertálási beállításokat, hogyan kinyerhet
 
 | [PDF dokumentum betöltése C# – PDF/X-4 konvertálása lépésről lépésre útmutató](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | Tanulja meg, hogyan tölthet be PDF dokumentumot C#-ban és konvertálhatja PDF/X-4 formátumba az Aspose.PDF for .NET segítségével. |  
 | [Aspose PDF HTML konvertálás C#-ban – Teljes útmutató](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | Tanulja meg, hogyan konvertálhat PDF-et HTML-be C#-ban az Aspose.PDF for .NET segítségével ebben a részletes útmutatóban. |
+
+| [PDF konvertálása Aspose.Pdf segítségével – Teljes C# útmutató](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | Tanulja meg, hogyan konvertáljon PDF fájlokat C#-ban az Aspose.Pdf használatával ebben a részletes útmutatóban. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
