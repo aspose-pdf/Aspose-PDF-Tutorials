@@ -39,8 +39,8 @@ Bahasa Indonesia: --- | Bahasa Indonesia:
 | [Perbarui Dimensi Halaman PDF](./update-dimensions/) | Temukan cara memperbarui dimensi halaman PDF dengan mudah dengan Aspose.PDF untuk .NET dalam panduan langkah demi langkah yang komprehensif ini. Bahasa Indonesia:  
 | [Perbesar Isi Halaman Dalam File PDF](./zoom-to-page-contents/) | Pelajari cara memperbesar konten halaman dalam file PDF menggunakan Aspose.PDF untuk .NET dalam panduan lengkap ini. Sempurnakan dokumen PDF Anda sesuai dengan kebutuhan spesifik Anda. |  
 | [Menambahkan nomor halaman PDF dengan C# – Panduan Langkah demi Langkah Lengkap](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Panduan langkah demi langkah untuk menambahkan nomor halaman pada file PDF menggunakan C# dengan Aspose.PDF untuk .NET. Mudah diikuti. |  
-
 | [Menambahkan Halaman ke PDF dengan Aspose – Panduan Lengkap C#](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Panduan langkah demi langkah menambahkan halaman ke PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode C# lengkap. |  
+| [Buat Dokumen PDF di C# – Tambahkan Halaman ke PDF & Persegi Panjang](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) | Panduan langkah demi langkah untuk membuat dokumen PDF di C#, menambahkan halaman serta menggambar persegi panjang menggunakan Aspose.PDF untuk .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

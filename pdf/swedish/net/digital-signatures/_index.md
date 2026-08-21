@@ -53,6 +53,8 @@ Lär dig hur du laddar ett signerat PDF-dokument och listar alla dess signaturer
 Lär dig hur du verifierar en PDF-signatur och ritar en rektangel i PDF-dokumentet med Aspose.
 ### [Exportera PDF till HTML och validera PDF-signatur med Aspose](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
 Lär dig hur du konverterar PDF till HTML och samtidigt validerar PDF-signaturer med Aspose.
+### [Hur man verifierar signatur i PDF med Aspose.Pdf – C#-guide](./how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/)
+Lär dig hur du verifierar en digital signatur i PDF-filer med Aspose.Pdf i C#.
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

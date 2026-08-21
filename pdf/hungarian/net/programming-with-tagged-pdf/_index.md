@@ -40,8 +40,8 @@ Az Aspose.PDF for .NET „Címkézett PDF-ekkel való programozás” című okt
 | [PDF hozzáférhetővé tétele Aspose-szal: Bekezdés beszúrása PDF-be lépésről‑lépésre](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Ismerje meg, hogyan szúrhat be bekezdést egy PDF-be az Aspose.PDF for .NET segítségével, hogy javítsa a hozzáférhetőséget. |
 | [PDF fájl érvényesítése](./validate-pdf/) | Ismerje meg, hogyan validálhat egy PDF fájlt az Aspose.PDF for .NET segítségével. Ellenőrizze a szabványoknak való megfelelését, és készítsen érvényesítési jelentést. |  
 | [Címkézett PDF létrehozása C#‑ban – Teljes lépésről‑lépésre útmutató](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Ismerje meg, hogyan hozhat létre teljesen címkézett PDF-et C#‑ban az Aspose.PDF for .NET segítségével, részletes lépésről‑lépésre útmutatóval. |  
-
 | [Címkézett PDF létrehozása C#-ban – Fejléc és akadálymentes szöveg hozzáadása](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Tanulja meg, hogyan hozhat létre címkézett PDF-et C#-ban, fejléccel és akadálymentes szöveggel az Aspose.PDF for .NET segítségével. |
+| [Akadálymentes PDF létrehozása Aspose.Pdf‑vel – Lépésről‑lépésre útmutató](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Ismerje meg, hogyan hozhat létre akadálymentes PDF-et az Aspose.Pdf segítségével lépésről‑lépésre útmutatóval. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

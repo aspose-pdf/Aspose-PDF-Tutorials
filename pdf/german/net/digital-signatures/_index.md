@@ -57,6 +57,8 @@ Erfahren Sie, wie Sie ein signiertes PDF öffnen und alle enthaltenen Signaturen
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Signaturen prüfen und ein Rechteck in das Dokument einfügen.
 ### [PDF nach HTML exportieren und PDF-Signatur mit Aspose validieren](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
 Erfahren Sie, wie Sie PDFs mit Aspose in HTML konvertieren und anschließend die Signatur prüfen.
+### [So überprüfen Sie die Signatur in PDF mit Aspose.PDF – C#‑Leitfaden](./how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET digitale Signaturen in PDFs verifizieren. Schritt‑für‑Schritt‑Anleitung mit C#‑Beispielen.
 ## Weitere Ressourcen
 
 - [Aspose.PDF für Net-Dokumentation](https://docs.aspose.com/pdf/net/)

@@ -57,6 +57,8 @@ C# kullanarak imzalı PDF dosyasını nasıl yükleyeceğinizi ve içindeki tüm
 Aspose.PDF for .NET kullanarak PDF imzasını doğrulama ve belgeye dikdörtgen şekli ekleme adımlarını öğrenin.
 ### [PDF'yi HTML'ye Dışa Aktarın ve Aspose ile PDF İmzasını Doğrulayın](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
 Aspose.PDF for .NET ile PDF'yi HTML'ye dönüştürün ve PDF imzasını doğrulama adımlarını öğrenin.
+### [Aspose.PDF ile PDF'de İmzayı Doğrulama – C# Kılavuzu](./how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/)
+Aspose.PDF kullanarak PDF dosyalarındaki dijital imzaları C# ile nasıl doğrulayacağınızı adım adım öğrenin.
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)

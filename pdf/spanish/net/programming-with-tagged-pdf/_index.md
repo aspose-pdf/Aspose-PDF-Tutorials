@@ -28,13 +28,11 @@ Los tutoriales "Programación con PDF etiquetados" de Aspose.PDF para .NET le gu
 | [Elementos de la estructura de la ilustración](./illustration-structure-elements/) | Cree archivos PDF estructurados con elementos de ilustración en Aspose.PDF para .NET siguiendo nuestro tutorial paso a paso. |  
 | [Estructura de la raíz](./root-structure/) Guía paso a paso para utilizar elementos de estructura raíz con Aspose.PDF para .NET para acceder a la raíz y al objeto StructTreeRoot del documento PDF. |  
 | [Elemento de tabla de estilos](./style-table-element/) | Aprenda a crear y diseñar un elemento de tabla en Aspose.PDF para .NET con instrucciones paso a paso, estilos personalizados y compatibilidad con PDF/UA. |  
-| [Fila de tabla de estilos](./style-table-row/) Aprenda a aplicar estilo a las filas de una tabla en un PDF usando Aspose.PDF para .NET con una guía paso a paso para mejorar el formato de su documento con facilidad. |  
 | [Elementos de la estructura del bloque de texto](./text-block-structure-elements/) | Aprenda a utilizar Aspose.PDF para .NET para agregar elementos de estructura de bloques de texto, como encabezados y párrafos etiquetados, a un documento PDF existente. |  
-| [Validar archivo PDF](./validate-pdf/) Aprenda a validar un archivo PDF con Aspose.PDF para .NET. Compruebe su cumplimiento de los estándares y genere un informe de validación. |
 | [Crear PDF etiquetado en C# – Guía completa paso a paso](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Aprenda a crear un PDF etiquetado en C# con Aspose.PDF para .NET siguiendo esta guía completa paso a paso. |
 | [Crear PDF accesible con Aspose: Insertar párrafo paso a paso](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Aprenda a insertar un párrafo en un PDF accesible usando Aspose.PDF paso a paso. |
-
 | [Crear PDF etiquetado en C# – Agregar encabezado y texto accesible](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Aprenda a crear un PDF etiquetado en C# agregando encabezados y texto accesible con Aspose.PDF para .NET. |  
+| [Crear PDF accesible con Aspose.Pdf – Guía paso a paso](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Aprenda a crear PDFs accesibles con Aspose.Pdf mediante una guía paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

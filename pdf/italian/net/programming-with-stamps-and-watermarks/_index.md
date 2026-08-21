@@ -40,6 +40,7 @@ I tutorial di Aspose.PDF "Programmazione con timbri e filigrane" per .NET ti gui
 | [Testo nel piè di pagina del file PDF](./text-in-footer/) | Scopri come aggiungere testo nel piè di pagina di un file PDF con Aspose.PDF per .NET. |  
 | [Testo nell'intestazione del file PDF](./text-in-header/) | Impara ad aggiungere intestazioni di testo ai PDF utilizzando Aspose.PDF per .NET con questo tutorial passo passo. Migliora i tuoi documenti in modo efficiente ed efficace. |  
 | [Aggiungi numerazione Bates PDF in C# – Guida completa](./add-bates-numbering-pdf-in-c-complete-guide/) | Scopri come aggiungere la numerazione Bates ai PDF usando Aspose.PDF per .NET con esempi di codice dettagliati. |  
+| [Come aggiungere Bates – Guida passo‑passo per PDF](./how-to-add-bates-step-by-step-guide-for-pdfs/) | Scopri come aggiungere numerazione Bates ai PDF con Aspose.PDF per .NET tramite una guida dettagliata passo passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

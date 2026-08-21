@@ -44,8 +44,8 @@ Aspose.PDF for .NET'in "Etiketli PDF'lerle Programlama" öğreticileri, bu kitap
 | [PDF Dosyasını Doğrula](./validate-pdf/) | .NET için Aspose.PDF ile bir PDF dosyasının nasıl doğrulanacağını öğrenin. Standartlara uygunluğunu kontrol edin ve bir doğrulama raporu oluşturun. |  
 | [C# ile Etiketli PDF Oluşturma – Tam Adım Adım Kılavuz](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | C# ve Aspose.PDF for .NET kullanarak etiketli PDF oluşturmayı adım adım öğrenin. |
 | [Aspose ile PDF'yi Erişilebilir Hale Getirin: Paragraf PDF Ekleme Adım Adım](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Aspose.PDF for .NET kullanarak PDF'ye paragraf ekleyerek erişilebilirliği nasıl artıracağınızı adım adım öğrenin. |
-
 | [C# ile Etiketli PDF Oluştur – Başlık ve Erişilebilir Metin Ekle](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Bu adım adım eğitimde C# kullanarak etiketli PDF'ye başlık ekleyip erişilebilir metin oluşturmayı öğrenin. |  
+| [Aspose.Pdf ile Erişilebilir PDF Oluştur – Adım Adım Kılavuz](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Aspose.PDF for .NET kullanarak erişilebilir PDF oluşturmayı adım adım öğrenin. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

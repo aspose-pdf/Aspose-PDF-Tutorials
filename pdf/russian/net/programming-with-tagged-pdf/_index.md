@@ -47,8 +47,8 @@
 | [Проверить PDF-файл](./validate-pdf/) | Узнайте, как проверить PDF-файл с помощью Aspose.PDF для .NET. Проверьте его соответствие стандартам и создайте отчет о проверке. |  
 | [Создать тегированный PDF на C# – Полное пошаговое руководство](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Подробное руководство по созданию полностью тегированного PDF в C# с использованием Aspose.PDF, шаг за шагом. |  
 | [Сделать PDF доступным с Aspose: вставка абзаца PDF пошагово](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Узнайте, как добавить абзац в PDF и улучшить его доступность с помощью Aspose.PDF для .NET в пошаговом руководстве. |
-
 | [Создать тегированный PDF в C# – Добавить заголовок и доступный текст](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Узнайте, как создать тегированный PDF в C# с заголовком и доступным текстом, используя Aspose.PDF для .NET. |
+| [Создание доступного PDF с Aspose.Pdf – пошаговое руководство](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Узнайте, как создать доступный PDF с помощью Aspose.Pdf, следуя пошаговому руководству. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

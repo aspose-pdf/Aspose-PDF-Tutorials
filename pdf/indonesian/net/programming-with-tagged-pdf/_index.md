@@ -47,8 +47,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Validasi File PDF](./validate-pdf/) | Pelajari cara memvalidasi file PDF dengan Aspose.PDF untuk .NET. Periksa kepatuhannya terhadap standar dan buat laporan validasi. |  
 | [Buat PDF yang Ditandai di C# – Panduan Lengkap Langkah demi Langkah](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Pelajari cara membuat PDF yang ditandai menggunakan Aspose.PDF untuk .NET dengan C# dalam panduan langkah demi langkah yang lengkap. |  
 | [Buat PDF yang Ditandai di C# – Tambahkan Heading & Teks Aksesibel](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Pelajari cara membuat PDF yang ditandai di C# dengan menambahkan heading dan teks yang dapat diakses menggunakan Aspose.PDF untuk .NET. |  
-
-| [Buat PDF yang Dapat Diakses dengan Aspose: Sisipkan Paragraf PDF Langkah demi Langkah](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Pelajari cara menambahkan paragraf ke PDF yang dapat diakses menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah. Bahasa Indonesia:  
+| [Buat PDF yang Dapat Diakses dengan Aspose.Pdf – Panduan Langkah demi Langkah](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Pelajari cara membuat PDF yang dapat diakses menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

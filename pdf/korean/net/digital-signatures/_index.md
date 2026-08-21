@@ -53,6 +53,8 @@ C#을 사용하여 서명된 PDF 문서를 로드하고 포함된 서명 정보�
 Aspose.PDF를 이용해 PDF 서명을 검증하고, 지정된 위치에 사각형을 그려 표시하는 단계별 가이드.
 ### [Aspose를 사용하여 PDF를 HTML로 내보내고 PDF 서명을 검증하는 방법](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
 Aspose.PDF를 활용해 PDF를 HTML로 변환하고 서명을 검증하는 단계별 가이드.
+### [Aspose.Pdf를 사용한 PDF 서명 검증 방법 – C# 가이드](./how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/)
+Aspose.Pdf를 사용하여 PDF 파일의 디지털 서명을 검증하는 방법을 단계별로 안내합니다.
 ## 추가 자료
 
 - [Net 문서용 Aspose.PDF](https://docs.aspose.com/pdf/net/)

@@ -53,6 +53,8 @@ Apprenez à charger un PDF signé et à répertorier toutes ses signatures à l'
 Apprenez à vérifier une signature PDF et à dessiner un rectangle autour de la zone signée à l'aide d'Aspose.PDF pour .NET.
 ### [Exporter un PDF en HTML et valider la signature PDF avec Aspose](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
 Apprenez à convertir un PDF en HTML puis à vérifier sa signature numérique à l'aide d'Aspose.PDF pour .NET.
+### [Comment vérifier une signature dans un PDF avec Aspose.Pdf – Guide C#](./how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/)
+Apprenez à vérifier les signatures numériques dans les fichiers PDF en utilisant Aspose.Pdf avec C#.
 ## Ressources supplémentaires
 
 - [Aspose.PDF pour la documentation réseau](https://docs.aspose.com/pdf/net/)

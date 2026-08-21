@@ -39,8 +39,8 @@ Samouczki obejmują instrukcje krok po kroku, szczegółowe przykłady kodu i ja
 | [Aktualizuj wymiary strony PDF](./update-dimensions/) | Dowiedz się, jak bez wysiłku aktualizować wymiary stron PDF za pomocą Aspose.PDF dla platformy .NET w tym kompleksowym przewodniku krok po kroku. |  
 | [Powiększ zawartość strony w pliku PDF](./zoom-to-page-contents/) | Dowiedz się, jak powiększać zawartość stron w plikach PDF za pomocą Aspose.PDF dla .NET w tym kompleksowym przewodniku. Ulepsz swoje dokumenty PDF zgodnie ze swoimi konkretnymi potrzebami. |  
 | [Dodaj numery stron PDF w C# – Pełny przewodnik krok po kroku](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Krok po kroku pokażemy, jak dodać numery stron do pliku PDF w C# przy użyciu Aspose.PDF dla .NET. |
-
 | [Dodaj strony do PDF za pomocą Aspose – Kompletny przewodnik C#](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Kompletny przewodnik krok po kroku, jak dodać strony do pliku PDF w C# przy użyciu Aspose.PDF dla .NET. |  
+| [Utwórz dokument PDF w C# – Dodaj stronę i prostokąt](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) | Krok po kroku pokażemy, jak utworzyć dokument PDF w C#, dodać stronę i rysować prostokąt przy użyciu Aspose.PDF dla .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

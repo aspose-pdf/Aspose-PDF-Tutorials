@@ -38,8 +38,8 @@ Az oktatóanyagok lépésről lépésre bemutatják az utasításokat, részlete
 | [PDF oldalméretek frissítése](./update-dimensions/) | Fedezze fel, hogyan frissítheti könnyedén a PDF oldalak méreteit az Aspose.PDF for .NET segítségével ebben az átfogó, lépésről lépésre szóló útmutatóban. |  
 | [PDF fájl tartalmának nagyítása](./zoom-to-page-contents/) | Ebben az átfogó útmutatóban megtudhatja, hogyan nagyíthatja az oldalak tartalmát PDF fájlokban az Aspose.PDF for .NET segítségével. Javítsa PDF dokumentumait az Ön igényei szerint. |
 | [Oldalszámok hozzáadása PDF-hez C#‑vel – Teljes lépésről‑lépésre útmutató](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Lépésről lépésre útmutató a PDF oldalszámok hozzáadásához C#‑ben az Aspose.PDF for .NET használatával. |
-
 | [Oldalak hozzáadása PDF-hez Aspose-szal – Teljes C# útmutató](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Lépésről lépésre bemutatja, hogyan adhat hozzá oldalakat egy PDF-hez az Aspose.PDF for .NET használatával C#-ban. |
+| [PDF dokumentum létrehozása C#-ban – Oldal hozzáadása PDF-hez és téglalap](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) | Lépésről lépésre bemutatja, hogyan hozhat létre PDF dokumentumot C#-ban, adhat hozzá oldalt és rajzolhat téglalapot az Aspose.PDF for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -64,6 +64,8 @@ Tanulj meg akadálymentes, stílusos, címkézett PDF dokumentumokat készíteni
 
 ### [Hogyan hasonlítsuk össze a PDF-eket C#-ban – Teljes útmutató a PDF-diff generálásához](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 Ismerje meg, hogyan hozhat létre PDF-összehasonlító megoldást C#-ban az Aspose.PDF segítségével, és generáljon PDF-diff fájlokat.
+### [PDF átlátszóság szerkesztése C#-ban – Lépésről lépésre útmutató](./edit-pdf-transparency-in-c-step-by-step-guide/)
+Tanulja meg, hogyan módosíthatja a PDF átlátszósági beállításait C#-ban az Aspose.PDF for .NET segítségével.
 
 ## További források
 

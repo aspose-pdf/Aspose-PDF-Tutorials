@@ -57,6 +57,8 @@
 เรียนรู้วิธีตรวจสอบลายเซ็น PDF และเพิ่มรูปสี่เหลี่ยมบนเอกสารโดยใช้ Aspose.PDF สำหรับ .NET
 ### [ส่งออก PDF เป็น HTML และตรวจสอบลายเซ็น PDF ด้วย Aspose](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
 เรียนรู้วิธีส่งออก PDF เป็น HTML และตรวจสอบลายเซ็น PDF ด้วย Aspose.PDF สำหรับ .NET
+### [วิธีตรวจสอบลายเซ็นใน PDF ด้วย Aspose.Pdf – คำแนะนำ C#](./how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/)
+เรียนรู้วิธีตรวจสอบลายเซ็นดิจิทัลในไฟล์ PDF ด้วย Aspose.Pdf สำหรับ .NET ด้วย C#
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)

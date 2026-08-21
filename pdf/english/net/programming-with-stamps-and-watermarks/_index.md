@@ -40,6 +40,7 @@ Aspose.PDF's "Programming with Stamps and Watermarks" tutorials for .NET walk yo
 | [Text In Footer Of PDF File](./text-in-footer/) | Learn how to add text in the footer of PDF file with Aspose.PDF for .NET. |  
 | [Text In Header Of PDF File](./text-in-header/) | Learn to add text headers to PDFs using Aspose.PDF for .NET with this step-by-step tutorial. Enhance your documents efficiently and effectively. |  
 | [Add Bates Numbering PDF in C# – Complete Guide](./add-bates-numbering-pdf-in-c-complete-guide/) | Learn how to add Bates numbering to PDF files using Aspose.PDF for .NET with a comprehensive C# guide. |  
+| [How to Add Bates – Step‑by‑Step Guide for PDFs](./how-to-add-bates-step-by-step-guide-for-pdfs/) | Learn how to add Bates numbering to PDF files using Aspose.PDF for .NET with a step-by-step guide and sample code. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

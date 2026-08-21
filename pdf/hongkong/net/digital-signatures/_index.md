@@ -53,6 +53,8 @@ Aspose.PDF Net 程式碼教學
 了解如何使用 Aspose.PDF for .NET 驗證 PDF 簽章，同時在文件中繪製矩形以突出顯示簽章位置。
 ### [使用 Aspose 將 PDF 匯出為 HTML 並驗證 PDF 簽章](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
 了解如何使用 Aspose 將 PDF 轉換為 HTML，並驗證 PDF 簽章的完整性與真偽。
+### [如何使用 Aspose.PDF 在 PDF 中驗證簽章 – C# 指南](./how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/)
+了解如何使用 Aspose.PDF 在 PDF 中驗證簽章，提供 C# 程式碼範例與實作步驟，確保文件完整性。
 ## 其他資源
 
 - [Aspose.PDF 用於網頁文檔](https://docs.aspose.com/pdf/net/)

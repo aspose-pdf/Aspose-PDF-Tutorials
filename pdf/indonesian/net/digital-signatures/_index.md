@@ -55,6 +55,8 @@ Pelajari cara memuat dokumen PDF yang telah ditandatangani dan menampilkan semua
 Pelajari cara memverifikasi tanda tangan PDF dan menambahkan bentuk persegi panjang ke dokumen menggunakan Aspose.PDF untuk .NET.
 ### [Ekspor PDF ke HTML & Validasi Tanda Tangan PDF dengan Aspose](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
 Pelajari cara mengekspor PDF ke HTML dan memvalidasi tanda tangan PDF menggunakan Aspose.PDF untuk .NET.
+### [Cara Memverifikasi Tanda Tangan dalam PDF dengan Aspose.Pdf – Panduan C#](./how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/)
+Pelajari cara memverifikasi tanda tangan digital dalam file PDF menggunakan Aspose.Pdf dengan contoh kode C#.
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

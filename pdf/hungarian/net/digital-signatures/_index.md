@@ -53,6 +53,8 @@ Ismerje meg, hogyan tölthet be aláírt PDF-fájlt, és listázhatja ki benne t
 Ismerje meg, hogyan ellenőrizheti a PDF aláírást, és adhat hozzá téglalap alakú megjegyzést az Aspose.PDF segítségével.
 ### [PDF exportálása HTML-be és PDF-aláírás ellenőrzése az Aspose segítségével](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
 Ismerje meg, hogyan exportálhat PDF-et HTML formátumba, és ellenőrizheti a PDF-aláírást az Aspose használatával.
+### [Hogyan ellenőrizhetünk aláírást PDF-ben az Aspose.Pdf segítségével – C# útmutató](./how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/)
+Ismerje meg, hogyan ellenőrizheti a PDF aláírásokat az Aspose.Pdf C# könyvtárral.
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)
