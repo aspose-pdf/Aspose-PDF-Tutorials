@@ -19,7 +19,7 @@ Tutorial "Pemrograman dengan Stempel dan Tanda Air" Aspose.PDF untuk .NET memand
 
 ## Tutorial
 | Judul | Deskripsi |
-Bahasa Indonesia: --- | --- Bahasa Indonesia: 
+Bahasa Indonesia: --- | Bahasa Indonesia: 
 | [Tambahkan Cap Tanggal Waktu Dalam File PDF](./add-date-time-stamp/) Pelajari cara menambahkan cap tanggal dan waktu ke berkas PDF Anda menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini. Sempurna untuk meningkatkan keaslian dokumen. Bahasa Indonesia:  
 | [Tambahkan Stempel Gambar Dalam File PDF](./add-image-stamp/) | Pelajari cara menambahkan stempel gambar ke file PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah dan contoh kode. Bahasa Indonesia:  
 | [Menambahkan Header Berbeda Dalam File PDF](./adding-different-headers/) | Pelajari cara menambahkan tajuk yang berbeda ke berkas PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah untuk menyesuaikan PDF Anda. Bahasa Indonesia:  

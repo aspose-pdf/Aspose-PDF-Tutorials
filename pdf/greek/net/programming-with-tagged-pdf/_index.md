@@ -49,6 +49,7 @@
 | [Κάντε το PDF προσβάσιμο με το Aspose: Εισαγωγή παραγράφου PDF βήμα‑βήμα](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Μάθετε πώς να προσθέσετε μια παράγραφο σε PDF με το Aspose.PDF για .NET, βήμα‑βήμα, ώστε το έγγραφο να είναι προσβάσιμο. |
 | [Δημιουργία PDF με ετικέτες σε C# – Προσθήκη επικεφαλίδας & προσβάσιμο κείμενο](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Μάθετε πώς να δημιουργήσετε PDF με ετικέτες σε C# προσθέτοντας επικεφαλίδα και προσβάσιμο κείμενο. |  
 | [Δημιουργία προσβάσιμου PDF με Aspose.Pdf – Βήμα‑βήμα οδηγός](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε ένα προσβάσιμο PDF χρησιμοποιώντας το Aspose.Pdf σε αυτόν τον βήμα‑βήμα οδηγό. |
+| [Δημιουργία PDF με ετικέτες σε C# – Οδηγός βήμα προς βήμα](./create-tagged-pdf-in-c-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε PDF με ετικέτες χρησιμοποιώντας C# και το Aspose.PDF για .NET σε αυτόν τον αναλυτικό οδηγό βήμα προς βήμα. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

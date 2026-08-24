@@ -62,6 +62,8 @@ Leer hoe u toegankelijke, goed gestructureerde, getagde PDF's maakt met Aspose.P
 Een codetutorial voor Aspose.PDF Net
 ### [PDF-document maken met Aspose.PDF – Pagina toevoegen, vorm toevoegen & opslaan](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Leer hoe u met Aspose.PDF een PDF maakt, een pagina en vorm toevoegt en het document opslaat.
+### [PDF-document maken in C# – Lege pagina toevoegen en rechthoek tekenen](./create-pdf-document-c-add-blank-page-draw-rectangle/)
+Leer hoe u met Aspose.PDF voor .NET een PDF maakt, een lege pagina toevoegt en een rechthoek tekent in C#.
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

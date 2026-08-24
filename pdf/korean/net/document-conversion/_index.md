@@ -35,6 +35,7 @@
 | [PDF에서 DOC로](./pdf-to-doc/) | 이 포괄적인 가이드에서 Aspose.PDF for .NET을 사용하여 PDF를 DOC로 변환하는 방법을 알아보세요. 단계별 지침과 팁이 포함되어 있습니다. |  
 | [PDF에서 EPUB로](./pdf-to-epub/) | Aspose.PDF for .NET을 사용하여 PDF를 EPUB로 변환하는 방법을 단계별 튜토리얼에서 알아보세요. 개발자와 콘텐츠 제작자에게 적합합니다. |  
 | [PDF를 HTML로](./pdf-to-html/) | Aspose.PDF for .NET을 사용하여 PDF를 HTML로 변환하는 방법을 단계별 가이드를 통해 알아보세요. 개발자와 콘텐츠 제작자에게 적합합니다. |  
+| [PDF를 HTML로 저장 – 벡터 유지 및 래스터화 비활성화](./save-pdf-as-html-keep-vectors-disable-rasterization/) | Aspose.PDF for .NET을 사용하여 PDF를 HTML로 저장하면서 벡터를 유지하고 래스터화를 비활성화하는 방법을 단계별로 안내합니다. |  
 | [PDF에서 PDFA로](./pdf-to-pdfa/) 이 단계별 튜토리얼을 통해 Aspose.PDF for .NET을 사용하여 PDF 파일을 PDF/A 형식으로 변환하는 방법을 알아보세요. |  
 | [PDF에서 PDFA3b로](./pdf-to-pdfa3b/) | 이 단계별 가이드를 통해 Aspose.PDF for .NET을 사용하여 PDF 파일을 PDF/A-3B 형식으로 손쉽게 변환하는 방법을 알아보세요. |  
 | [PDF를 PDF/X‑4로 변환하기 – 단계별 ASP.NET PDF 튜토리얼](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Aspose.PDF for .NET을 사용하여 PDF를 PDF/X‑4 형식으로 변환하는 단계별 C# 가이드입니다. |  
@@ -61,8 +62,8 @@
 | [XPS에서 PDF로](./xps-to-pdf/) Aspose.PDF for .NET을 사용하여 XPS 파일을 PDF로 변환하는 방법을 단계별 튜토리얼을 통해 알아보세요. 개발자와 문서 작성자에게 안성맞춤입니다. |  
 | [PDF 문서 로드 C# – PDF/X-4로 변환 단계별 가이드](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 문서를 로드하고 PDF/X-4 형식으로 변환하는 방법을 단계별로 안내합니다. |
 | [C#에서 Aspose PDF를 HTML로 변환하는 완전 가이드](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | 이 단계별 가이드를 통해 Aspose.PDF for .NET을 사용하여 C#에서 PDF를 HTML로 변환하는 방법을 배웁니다. |  
-
 | [Aspose.Pdf로 PDF 변환하기 – 완전한 C# 가이드](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | Aspose.PDF for .NET을 사용하여 C#으로 PDF를 변환하는 방법을 단계별로 안내합니다. |
+| [Aspose를 사용하여 PDF 저장하기 – 완전한 C# 변환 가이드](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 파일을 저장하고 변환하는 전체 단계별 가이드를 제공합니다. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

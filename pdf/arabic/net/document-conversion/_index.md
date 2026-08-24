@@ -36,11 +36,11 @@
 | [XML إلى PDF](./xml-to-pdf/) |تعرف على كيفية تحويل XML إلى PDF باستخدام Aspose.PDF لـ .NET في هذا البرنامج التعليمي الشامل خطوة بخطوة، والذي يتضمن أمثلة التعليمات البرمجية والشروحات التفصيلية. |  
 | [تحويل PDF إلى PDF/X‑4 باستخدام C#](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) |تعرف على كيفية تحويل ملفات PDF إلى صيغة PDF/X‑4 باستخدام Aspose.PDF لـ .NET في دليل خطوة بخطوة. |  
 | [دليل pdf إلى png – تحويل صفحات PDF إلى PNG باستخدام C#](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) |تعلم كيفية تحويل صفحات ملفات PDF إلى صور PNG باستخدام Aspose.PDF لـ .NET مع C# خطوة بخطوة. |
-
 | [تحميل مستند PDF C# – التحويل إلى PDF/X-4 دليل خطوة بخطوة](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) |تعرف على كيفية تحميل مستند PDF باستخدام C# وتحويله إلى صيغة PDF/X-4 باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |
 | [تحويل Aspose PDF إلى HTML باستخدام C# – دليل شامل](./aspose-pdf-to-html-conversion-in-c-complete-guide/) |تعرف على كيفية تحويل ملفات PDF إلى HTML باستخدام Aspose.PDF لـ .NET مع دليل خطوة بخطوة شامل. |
-
 | [كيفية تحويل PDF باستخدام Aspose.Pdf – دليل C# كامل](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) |تعرف على كيفية تحويل ملفات PDF باستخدام Aspose.Pdf في دليل شامل بلغة C# خطوة بخطوة. |
+| [كيفية حفظ PDF باستخدام Aspose – دليل C# الكامل](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) |تعرف على كيفية حفظ ملفات PDF باستخدام Aspose.PDF لـ .NET مع دليل شامل خطوة بخطوة بلغة C#. |  
+| [حفظ PDF كـ HTML – الحفاظ على المتجهات وتعطيل التحويل إلى نقطية](./save-pdf-as-html-keep-vectors-disable-rasterization/) |تعلم كيفية حفظ ملفات PDF كـ HTML مع الحفاظ على المتجهات وتعطيل التحويل إلى صور نقطية باستخدام Aspose.PDF لـ .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
