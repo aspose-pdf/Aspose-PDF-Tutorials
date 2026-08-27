@@ -166,6 +166,12 @@ A: Java 11 and later generally offer improved GC and memory handling, benefiting
 - [Temporary License Application](https://purchase.aspose.com/temporary-license/)
 - [Community Support](https://forum.aspose.com/c/pdf/10)
 
+---
+
+**Last Updated:** 2026-03-18  
+**Tested With:** Aspose.PDF 25.3 for Java  
+**Author:** Aspose
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -173,9 +179,3 @@ A: Java 11 and later generally offer improved GC and memory handling, benefiting
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
----
-
-**Last Updated:** 2026-03-18  
-**Tested With:** Aspose.PDF 25.3 for Java  
-**Author:** Aspose
