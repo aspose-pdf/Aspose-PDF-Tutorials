@@ -27,11 +27,19 @@
 ### [Aspose.PDF .NET का उपयोग करके PDF हस्ताक्षर जानकारी कैसे निकालें: एक चरण-दर-चरण मार्गदर्शिका](./extract-pdf-signature-info-aspose-pdf-net/)
 ### [Aspose.PDF के साथ .NET में डिजिटल हस्ताक्षर कैसे लागू करें: एक व्यापक गाइड](./implement-pdf-signatures-dotnet-aspose-pdf-guide/)
 ### [Aspose.PDF .NET का उपयोग करके PDF डिजिटल हस्ताक्षर कैसे हटाएँ | संपूर्ण गाइड](./remove-pdf-digital-signatures-aspose-pdf-net/)
+जानें कि Aspose.PDF .NET का उपयोग करके PDF से डिजिटल हस्ताक्षरों को कुशलतापूर्वक कैसे हटाया जाए। यह व्यापक गाइड चरण-दर-चरण निर्देशों के साथ एकल और एकाधिक हस्ताक्षर हटाने को कवर करता है।
+
 ### [.NET के लिए Aspose.PDF का उपयोग करके PDF हस्ताक्षरों को कैसे सत्यापित करें: एक व्यापक गाइड](./verify-pdf-signatures-aspose-pdf-net/)
 ### [C# में PDF हस्ताक्षर सत्यापित करें – चरण‑दर‑चरण गाइड](./verify-pdf-signature-in-c-step-by-step-guide/)
 C# का उपयोग करके PDF हस्ताक्षर को सत्यापित करने की विस्तृत प्रक्रिया सीखें।
 ### [Aspose.PDF .NET के साथ PDF हस्ताक्षर और सत्यापन में महारत हासिल करें](./mastering-aspose-pdf-net-sign-verify-smart-card-certificates/)
 ### [Aspose.PDF .NET में महारत हासिल करना: PDF फ़ाइलों में डिजिटल हस्ताक्षरों को कैसे सत्यापित करें](./aspose-pdf-net-verify-digital-signature/)
+.NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइलों में डिजिटल हस्ताक्षरों को सत्यापित करना सीखें। हमारे चरण-दर-स्टेप मार्गदर्शिका के साथ दस्तावेज़ की अखंडता और प्रामाणिकता सुनिश्चित करें।
+
+### [C# में PDF हस्ताक्षर नाम प्राप्त करें – पूर्ण प्रोग्रामिंग गाइड](./retrieve-pdf-signature-names-in-c-complete-programming-guide/)
+
+### [C# में PDF हस्ताक्षर कैसे सत्यापित करें – पूर्ण चरण‑दर‑चरण ट्यूटोरियल](./how-to-verify-pdf-signature-in-c-complete-step-by-step-tutor/)
+
 ### [C# में PDF हस्ताक्षर सत्यापित करें – डिजिटल हस्ताक्षर PDF को मान्य करने के लिए पूर्ण गाइड](./verify-pdf-signature-in-c-complete-guide-to-validate-digital/)
 ### [PDF को कैसे सत्यापित करें – Aspose के साथ PDF हस्ताक्षर मान्य करें](./how-to-verify-pdf-validate-pdf-signature-with-aspose/)
 Aspose का उपयोग करके PDF हस्ताक्षर को सत्यापित करने की चरण‑दर‑चरण प्रक्रिया सीखें।

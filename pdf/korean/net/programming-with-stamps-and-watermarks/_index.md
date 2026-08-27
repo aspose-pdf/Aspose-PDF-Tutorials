@@ -40,6 +40,7 @@ Aspose.PDF의 .NET용 "스탬프 및 워터마크 프로그래밍" 튜토리얼�
 | [헤더 푸터 섹션의 테이블](./table-in-header-footer-section/) | Aspose.PDF for .NET을 사용하여 PDF 파일의 바닥글에 텍스트를 쉽게 추가하는 방법을 알아보세요. 원활한 통합을 위해 단계별 가이드가 포함되어 있습니다. |  
 | [PDF 파일 바닥글의 텍스트](./text-in-footer/) | Aspose.PDF for .NET을 사용하여 PDF 파일의 바닥글에 텍스트를 추가하는 방법을 알아보세요. |  
 | [PDF 파일 헤더의 텍스트](./text-in-header/) | Aspose.PDF for .NET을 사용하여 PDF에 텍스트 헤더를 추가하는 방법을 단계별 튜토리얼을 통해 알아보세요. 문서를 효율적이고 효과적으로 개선해 보세요. |  
+| [베이츠 번호 매기기 튜토리얼: C#로 PDF에 베이츠 번호 추가](./bates-numbering-tutorial-add-bates-numbers-to-pdfs-with-c/) | Aspose.PDF for .NET을 사용하여 C#로 PDF에 베이츠 번호를 추가하는 방법을 단계별로 안내합니다. |  
 | [C#에서 PDF 불투명도 변경 – 완전 Aspose 가이드](./change-pdf-opacity-in-c-complete-aspose-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 페이지의 불투명도를 조정하는 방법을 단계별로 안내합니다. |  
 | [C#에서 베이츠 번호 매기기 PDF 추가 – 완전 가이드](./add-bates-numbering-pdf-in-c-complete-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF에 베이츠 번호를 추가하는 방법을 단계별로 안내합니다. |  
 | [PDF에 Bates를 추가하는 단계별 가이드](./how-to-add-bates-step-by-step-guide-for-pdfs/) | Aspose.PDF for .NET을 사용하여 PDF 문서에 Bates 번호를 추가하는 방법을 단계별로 안내합니다. |  

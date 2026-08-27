@@ -43,6 +43,7 @@ You'll learn how to specify conversion settings, extract text and images, retain
 | Title | Description |
 | --- | --- | 
 | [Add Attachment to PDFA](./add-attachment-to-pdfa/) | Learn how to add attachments to a PDF/A document using Aspose.PDF for .NET with this step-by-step guide. |  
+| [add icc profile and convert PDF to PDF/X‑4 – C# guide](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) | Learn how to add an ICC profile and convert PDF to PDF/X‑4 using Aspose.PDF for .NET in C#. |
 | [CGM To PDF Files](./cgm-to-pdf/) | Learn how to convert CGM files to PDF using Aspose.PDF for .NET with this step-by-step guide. Perfect for developers and designers alike. |  
 | [Convert PDF to PDF/X‑4 in C# – Step‑by‑Step ASP.NET PDF Tutorial](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Learn how to convert PDF to PDF/X‑4 using Aspose.PDF for .NET in this step‑by‑step ASP.NET tutorial. |
 | [EPUB To PDF](./epub-to-pdf/) | Learn how to convert EPUB to PDF using Aspose.PDF for .NET with this step-by-step guide. Easy, efficient, and perfect for all users. |  

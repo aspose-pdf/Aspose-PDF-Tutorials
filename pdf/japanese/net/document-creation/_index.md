@@ -59,6 +59,12 @@ Aspose.PDF Net のコードチュートリアル
 ### [C# で PDF ドキュメントを作成 – ページの追加、矩形の描画、保存](./create-pdf-document-c-add-page-draw-rectangle-save/)
 C# を使用して新しいページを追加し、矩形を描画して PDF を保存する方法をステップバイステップで解説します。
 
+### [PDF ドキュメントの作成 – PDF にページを追加し、見出しにタグ付け、要素を配置する](./create-pdf-document-add-page-to-pdf-tag-heading-and-position/)
+PDF ドキュメントに新しいページを追加し、見出しにタグ付けし、要素を正確に配置する方法を学びます。
+
+### [C# で PDF ドキュメントを作成する: ステップバイステップ ガイド](./create-pdf-document-in-c-step-by-step-guide/)
+Aspose.PDF for .NET を使用して、C# で PDF ドキュメントをゼロから作成する方法を学びます。セットアップからコード例まで解説します。
+
 ### [Aspose.PDF を使用して PDF ドキュメントを作成 – ページ、シェイプの追加と保存](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Aspose.PDF の API を利用し、ページや図形を追加して PDF を保存する手順を解説します。
 ### [Aspose.PDF を使用した PDF ドキュメントの作成: ステップバイステップ ガイド](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)

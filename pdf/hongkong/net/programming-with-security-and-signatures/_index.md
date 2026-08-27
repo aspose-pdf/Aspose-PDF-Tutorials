@@ -27,13 +27,14 @@
 | [確定 PDF 檔案中的正確密碼](./determine-correct-password/) |使用 Aspose.PDF for .NET 使用正確的密碼解鎖 PDF 檔案。了解如何輕鬆識別正確的密碼。 |  
 | [對 PDF 檔案進行數位簽名](./digitally-sign/) |了解如何使用 Aspose.PDF for .NET 對 PDF 檔案進行數位簽章。逐步指南確保您的文件安全且真實。 |  
 | [在 PDF 檔案中使用時間戳進行數位簽名](./digitally-sign-with-time-stamp/) |了解如何使用 Aspose.PDF for .NET 對帶有時間戳記的 PDF 進行數位簽章。本逐步指南涵蓋先決條件、證書設定、時間戳記等。 |  
-| [加密PDF文件](./encrypt/) |了解如何使用 Aspose.PDF for .NET 輕鬆加密您的 PDF 檔案。透過我們的簡單逐步指南保護敏感資訊。 |  
+| [加密PDF文件](./encrypt/) |了解如何使用 Aspose.PDF for .NET 輕鬆加密您的 PDF 檔案。透過我們的逐步指南保護敏感資訊。 |  
 | [擷取影像](./extracting-image/) |輕鬆學習如何使用 Aspose.PDF for .NET 從 PDF 擷取影像。按照我們的逐步指南進行無縫影像擷取。 |  
 | [提取簽名資訊](./extract-signature-info/) |了解如何使用 Aspose.PDF for .NET 從 PDF 文件中提取數位簽章和憑證資訊。面向 C# 開發人員的完整逐步指南。 |  
 | [是否受密碼保護](./is-password-protected/) |透過本全面的逐步指南了解如何使用 Aspose.PDF for .NET 檢查 PDF 是否受密碼保護。 |  
 | [在 PDF 檔案中設定權限](./set-privileges/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 設定 PDF 權限。有效地保護您的文件。 |  
 | [使用 PDF 檔案簽名透過智慧卡進行簽名](./sign-with-smart-card-using-pdf-file-signature/) |了解如何使用 Aspose.PDF for .NET 的智慧卡簽署 PDF 檔案。請按照本逐步指南取得安全的數位簽章。 |  
 | [使用簽名字段透過智慧卡簽名](./sign-with-smart-card-using-signature-field/) |了解如何使用 Aspose.PDF for .NET 的智慧卡安全地簽署 PDF。按照我們的逐步指南即可輕鬆實施。 |  
+| [在 C# 中驗證 PDF 簽章 – 完整步驟指南](./verify-pdf-signature-in-c-complete-step-by-step-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中驗證 PDF 簽章。逐步指南確保簽章完整性。 |  
 | [如何使用 Aspose 驗證 PDF 中的簽章 – C# 教學](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) |了解如何使用 Aspose.PDF for .NET 在 C# 中驗證 PDF 簽章，確保文件完整性與真實性。 |  
 | [在 C# 中檢查 PDF 簽章 – 如何讀取已簽署的 PDF 檔案](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) |了解如何使用 Aspose.PDF for .NET 在 C# 中讀取並驗證 PDF 簽章的步驟與技巧。 |
 | [在 C# 中驗證 PDF 簽章 – 完整程式設計指南](./verify-pdf-signature-in-c-complete-programming-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中完整驗證 PDF 簽章的步驟與技巧。 |

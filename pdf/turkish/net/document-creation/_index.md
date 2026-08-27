@@ -59,6 +59,12 @@ Aspose.PDF Net için bir kod öğreticisi
 ### [PDF Belgesi Oluşturma C# – Sayfa Ekle, Dikdörtgen Çiz ve Kaydet](./create-pdf-document-c-add-page-draw-rectangle-save/)
 C# kullanarak bir PDF belgesi oluşturun, sayfa ekleyin, dikdörtgen çizin ve dosyayı kaydedin.
 
+### [PDF Belgesi Oluşturma – PDF'ye Sayfa Ekleme, Başlığı Etiketleme ve Öğeleri Konumlandırma](./create-pdf-document-add-page-to-pdf-tag-heading-and-position/)
+PDF belgesi oluşturmayı, sayfa eklemeyi, başlık etiketlemeyi ve öğeleri konumlandırmayı öğrenin.
+
+### [C# ile PDF Belgesi Oluşturma – Adım Adım Kılavuz](./create-pdf-document-in-c-step-by-step-guide/)
+Aspose.PDF for .NET kullanarak C# dilinde PDF belgesi oluşturmayı adım adım öğrenin.
+
 ### [Aspose.PDF ile PDF Belgesi Oluşturma – Sayfa, Şekil Ekle ve Kaydet](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 ### [Aspose.PDF ile PDF Belgesi Oluşturma – Adım Adım Kılavuz](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 Aspose.PDF for .NET ile PDF belgesi oluşturmayı adım adım öğrenin ve örnek kodlarla uygulayın.

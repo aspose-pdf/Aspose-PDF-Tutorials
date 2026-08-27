@@ -59,6 +59,12 @@ Hướng dẫn mã cho Aspose.PDF Net
 ### [Tạo tài liệu PDF C# – Thêm trang, Vẽ hình chữ nhật & Lưu](./create-pdf-document-c-add-page-draw-rectangle-save/)
 Tìm hiểu cách tạo tài liệu PDF bằng C#, thêm trang, vẽ hình chữ nhật và lưu lại.
 
+### [Tạo tài liệu PDF – Thêm trang vào PDF, Gắn thẻ tiêu đề và Định vị các phần tử](./create-pdf-document-add-page-to-pdf-tag-heading-and-position/)
+Hướng dẫn cách tạo tài liệu PDF, thêm trang, gắn thẻ tiêu đề và định vị các phần tử trong Aspose.PDF cho .NET.
+
+### [Tạo tài liệu PDF bằng C# – Hướng dẫn từng bước](./create-pdf-document-in-c-step-by-step-guide/)
+Tìm hiểu cách tạo tài liệu PDF trong C# bằng Aspose.PDF cho .NET qua hướng dẫn chi tiết từng bước.
+
 ### [Tạo tài liệu PDF với Aspose.PDF – Thêm trang, hình dạng & Lưu](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Hướng dẫn cách thêm trang, hình dạng và lưu tài liệu PDF bằng Aspose.PDF trong .NET.
 ### [Tạo tài liệu PDF với Aspose.PDF – Hướng dẫn từng bước](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)

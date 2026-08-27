@@ -36,11 +36,12 @@ Aspose.PDF's "Programming with Stamps and Watermarks" tutorials for .NET walk yo
 | [Image In Footer](./image-in-footer/) | Learn how to add an image in the footer of a PDF using Aspose.PDF for .NET with this detailed step-by-step tutorial. Perfect for enhancing your documents. |  
 | [Image In Header](./image-in-header/) | Learn how to add an image to the header of a PDF using Aspose.PDF for .NET in this step-by-step tutorial. |  
 | [Page Number In Header Footer Using Floating Box](./page-number-in-header-footer-using-floating-box/) | Easily add page numbers in your PDF header and footer using a Floating Box with Aspose.PDF for .NET in this step-by-step tutorial. |  
-| [Page Number Stamps In PDF File](./page-number-stamps/) | Learn how to add page number stamps to PDF files using Aspose.PDF for .NET through our easy-to-follow guide, complete with code example. |
+| [Page Number Stamps In PDF File](./page-number-stamps/) | Learn how to add page number stamps to PDF files using Aspose.PDF for .NET through our easy-to-follow guide, complete with code example. |  
+| [Table In Header Footer Section](./table-in-header-footer-section/) | Learn how to easily add text to the footer of a PDF file using Aspose.PDF for .NET. Step-by-step guide included for seamless integration. |  
+| [Text In Footer Of PDF File](./text-in-footer/) | Learn how to add text in the footer of PDF file with Aspose.PDF for .NET. |  
+| [Text In Header Of PDF File](./text-in-header/) | Learn to add text headers to PDFs using Aspose.PDF for .NET with this step-by-step tutorial. Enhance your documents efficiently and effectively. |  
+| [bates numbering tutorial: Add Bates Numbers to PDFs with C#](./bates-numbering-tutorial-add-bates-numbers-to-pdfs-with-c/) | Learn how to add Bates numbers to PDF documents using Aspose.PDF for .NET with C# in this step-by-step tutorial. |  
 | [Add Bates Numbering PDF – Complete C# Guide](./add-bates-numbering-pdf-complete-c-guide/) | Learn how to add Bates numbering to PDF files using Aspose.PDF for .NET with a complete C# guide and code examples. |
-| [Table In Header Footer Section](./table-in-header-footer-section/) | Learn how to easily add text to the footer of a PDF file using Aspose.PDF for .NET. Step-by-step guide included for seamless integration. |
-| [Text In Footer Of PDF File](./text-in-footer/) | Learn how to add text in the footer of PDF file with Aspose.PDF for .NET. |
-| [Text In Header Of PDF File](./text-in-header/) | Learn to add text headers to PDFs using Aspose.PDF for .NET with this step-by-step tutorial. Enhance your documents efficiently and effectively. |
 | [Add Bates Numbering PDF in C# – Complete Guide](./add-bates-numbering-pdf-in-c-complete-guide/) | Learn how to add Bates numbering to PDF files using Aspose.PDF for .NET with a comprehensive C# guide. |  
 | [How to Add Bates – Step‑by‑Step Guide for PDFs](./how-to-add-bates-step-by-step-guide-for-pdfs/) | Learn how to add Bates numbering to PDF files using Aspose.PDF for .NET with a step-by-step guide and sample code. |
 | [Change PDF Opacity with Aspose.PDF – Complete C# Guide](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) | Learn how to change PDF opacity using Aspose.PDF for .NET with a complete C# guide. |

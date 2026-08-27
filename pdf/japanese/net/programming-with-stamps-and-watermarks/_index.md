@@ -36,6 +36,7 @@ Aspose.PDF の .NET 向けチュートリアル「スタンプと透かしを使
 | [ヘッダー内の画像](./image-in-header/) このステップバイステップのチュートリアルでは、Aspose.PDF for .NET を使用して PDF のヘッダーに画像を追加する方法を学習します。 |  
 | [フローティングボックスを使用したヘッダーフッターのページ番号](./page-number-in-header-footer-using-floating-box/) このステップバイステップのチュートリアルでは、Aspose.PDF for .NET のフローティング ボックスを使用して、PDF のヘッダーとフッターにページ番号を簡単に追加します。 |  
 | [PDFファイルのページ番号スタンプ](./page-number-stamps/) コード例を含むわかりやすいガイドを通じて、Aspose.PDF for .NET を使用して PDF ファイルにページ番号スタンプを追加する方法を学習します。 |  
+| [Bates番号付けチュートリアル：C#でPDFにBates番号を追加する](./bates-numbering-tutorial-add-bates-numbers-to-pdfs-with-c/) Aspose.PDF for .NET を使用して、C#でPDFにBates番号を追加する方法をステップバイステップで解説します。 |  
 | [ヘッダーフッターセクションの表](./table-in-header-footer-section/) Aspose.PDF for .NET を使用して、PDF ファイルのフッターにテキストを簡単に追加する方法を学びましょう。シームレスな統合のためのステップバイステップガイドが付属しています。 |  
 | [PDFファイルのフッター内のテキスト](./text-in-footer/) Aspose.PDF for .NET を使用して PDF ファイルのフッターにテキストを追加する方法を学習します。 |  
 | [PDFファイルのヘッダー内のテキスト](./text-in-header/) Aspose.PDF for .NET を使用してPDFにテキストヘッダーを追加する方法をステップバイステップで学ぶチュートリアルです。ドキュメントを効率的かつ効果的に強化しましょう。 |  

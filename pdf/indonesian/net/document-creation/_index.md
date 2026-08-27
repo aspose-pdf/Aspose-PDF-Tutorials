@@ -59,6 +59,12 @@ Tutorial kode untuk Aspose.PDF Net
 ### [Buat Dokumen PDF C# – Tambah Halaman, Gambar Persegi Panjang & Simpan](./create-pdf-document-c-add-page-draw-rectangle-save/)
 Pelajari cara membuat dokumen PDF di C#, menambahkan halaman, menggambar persegi panjang, dan menyimpannya dengan Aspose.PDF.
 
+### [Buat Dokumen PDF – Tambahkan Halaman ke PDF, Tag Heading, dan Posisi Elemen](./create-pdf-document-add-page-to-pdf-tag-heading-and-position/)
+Pelajari cara menambahkan halaman, menandai heading, dan menempatkan elemen dalam dokumen PDF menggunakan Aspose.PDF untuk .NET.
+
+### [Buat Dokumen PDF di C# – Panduan Langkah demi Langkah](./create-pdf-document-in-c-step-by-step-guide/)
+Pelajari cara membuat dokumen PDF menggunakan C# dengan Aspose.PDF melalui panduan langkah demi langkah yang lengkap.
+
 ### [Buat Dokumen PDF dengan Aspose.PDF – Tambahkan Halaman, Bentuk & Simpan](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Pelajari cara menambahkan halaman, bentuk, dan menyimpan dokumen PDF menggunakan Aspose.PDF.
 ### [Buat Dokumen PDF dengan Aspose.PDF – Panduan Langkah demi Langkah](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)

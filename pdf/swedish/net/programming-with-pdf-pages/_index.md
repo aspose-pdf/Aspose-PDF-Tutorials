@@ -38,6 +38,7 @@ Handledningarna innehåller steg-för-steg-instruktioner, detaljerade kodexempel
 | [Dela upp till sidor](./split-to-pages/) Dela enkelt PDF-filer till individuella sidor med Aspose.PDF för .NET med denna omfattande handledning. Steg-för-steg-guide ingår. |  
 | [Uppdatera PDF-siddimensioner](./update-dimensions/) | Upptäck hur du enkelt uppdaterar PDF-siddimensioner med Aspose.PDF för .NET i den här omfattande steg-för-steg-guiden. |  
 | [Zooma till sidinnehåll i PDF-fil](./zoom-to-page-contents/) | Lär dig hur du zoomar till sidinnehåll i PDF-filer med Aspose.PDF för .NET i den här omfattande guiden. Förbättra dina PDF-dokument efter dina specifika behov. |  
+| [Skapa tom PDF-sida – Fullständig PDF-ritningshandledning](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Steg-för-steg-guide för att skapa en tom PDF-sida med fullständig PDF-ritning i Aspose.PDF för .NET. |  
 | [Lägg till sidnummer i PDF med C# – Fullständig steg‑för‑steg‑guide](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Lär dig hur du lägger till sidnummer i en PDF med C# med en detaljerad steg‑för‑steg‑guide. |
 | [Lägg till sidor i PDF med Aspose – Komplett C#-guide](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Steg-för-steg-guide för att lägga till sidor i en PDF med Aspose.PDF för .NET i C#. |  
 | [Skapa PDF-dokument i C# – Lägg till sida i PDF & rektangel](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) | Steg-för-steg-guide för att skapa ett PDF-dokument i C#, lägga till en sida och rita en rektangel med Aspose.PDF för .NET. |

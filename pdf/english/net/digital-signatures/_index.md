@@ -57,6 +57,9 @@ Learn how to implement secure digital signatures on PDFs using Aspose.PDF for .N
 Learn how to efficiently remove digital signatures from PDFs using Aspose.PDF .NET. This comprehensive guide covers single and multiple signature removal, with step-by-step instructions.
 ### [How to Verify PDF Signatures Using Aspose.PDF for .NET&#58; A Comprehensive Guide](./verify-pdf-signatures-aspose-pdf-net/)
 Learn how to verify digital signatures in PDF files using Aspose.PDF for .NET. This guide covers setup, implementation, and practical applications.
+### [How to Verify PDF Signature in C# – Complete Step‑by‑Step Tutorial](./how-to-verify-pdf-signature-in-c-complete-step-by-step-tutor/)
+Step-by-step guide to verify PDF signatures using C# and Aspose.PDF for .NET, covering validation techniques and code examples.
+
 ### [verify pdf signature in C# – Complete Guide to Validate Digital Signature PDF](./verify-pdf-signature-in-c-complete-guide-to-validate-digital/)
 Learn how to verify PDF signatures in C# using Aspose.PDF for .NET. This guide covers validation steps and best practices.
 ### [How to Verify Signature in PDF with Aspose.Pdf – C# Guide](./how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/)
@@ -65,6 +68,9 @@ Learn how to verify PDF signatures using Aspose.PDF for .NET with C# code exampl
 A code tutorial for Aspose.PDF Net
 ### [Mastering Aspose.PDF .NET&#58; How to Verify Digital Signatures in PDF Files](./aspose-pdf-net-verify-digital-signature/)
 Learn how to verify digital signatures in PDF files using Aspose.PDF for .NET. Ensure document integrity and authenticity with our step-by-step guide.
+### [Retrieve PDF Signature Names in C# – Complete Programming Guide](./retrieve-pdf-signature-names-in-c-complete-programming-guide/)
+Learn how to retrieve the names of digital signatures in a PDF using C# and Aspose.PDF for .NET.
+
 ### [Load PDF Document C# – Convert to PDF/X‑4 & List Signatures](./load-pdf-document-c-convert-to-pdf-x-4-list-signatures/)
 Learn how to load a PDF in C#, convert it to PDF/X‑4 format, and list its digital signatures using Aspose.PDF for .NET.
 ### [Validate PDF Signature with Aspose – Convert PDF to HTML](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)

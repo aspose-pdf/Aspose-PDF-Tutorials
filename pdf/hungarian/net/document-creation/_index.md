@@ -59,6 +59,12 @@ Kód oktatóanyag az Aspose.PDF Nethez
 ### [PDF dokumentum létrehozása C# – Oldal hozzáadása, téglalap rajzolása és mentés](./create-pdf-document-c-add-page-draw-rectangle-save/)
 Tanulja meg, hogyan hozhat létre PDF dokumentumot C#-ban, adjon hozzá oldalt, rajzoljon téglalapot, majd mentse el.
 
+### [PDF dokumentum létrehozása C#‑ban – Lépésről‑lépésre útmutató](./create-pdf-document-in-c-step-by-step-guide/)
+Tanulja meg, hogyan hozhat létre PDF dokumentumot C#‑ban részletes, lépésről‑lépésre útmutatóval.
+
+### [PDF dokumentum létrehozása – Oldal hozzáadása PDF-hez, Fejléc címkézése és elemek pozicionálása](./create-pdf-document-add-page-to-pdf-tag-heading-and-position/)
+Tanulja meg, hogyan adhat hozzá oldalt PDF-hez, címkézheti a fejléceket, és helyezheti el az elemeket a kívánt pozícióba.
+
 ### [PDF dokumentum létrehozása Aspose.PDF segítségével – Oldal, alakzat hozzáadása és mentés](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Tanulja meg, hogyan hozhat létre PDF dokumentumot, adhat hozzá oldalt, alakzatot, majd mentheti azt az Aspose.PDF .NET használatával.
 ### [PDF dokumentum létrehozása Aspose.PDF‑vel – Lépésről‑lépésre útmutató](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
