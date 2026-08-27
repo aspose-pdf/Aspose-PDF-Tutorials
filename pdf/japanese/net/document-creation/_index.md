@@ -56,6 +56,9 @@ Aspose.PDF for .NET を使用して複雑な PDF ドキュメントを作成す�
 Aspose.PDF for .NET を使用して、アクセシビリティが高く、構造化されたタグ付きPDFを作成する方法を学びます。このガイドでは、ドキュメントプロパティの設定、リンクの追加、画像の埋め込みについて説明します。
 ### [Aspose.PDF .NET で PDF ブックレット作成をマスターする](./aspose-pdf-net-create-booklet-page-arrangement/)
 Aspose.PDF Net のコードチュートリアル
+### [C# で PDF ドキュメントを作成 – ページの追加、矩形の描画、保存](./create-pdf-document-c-add-page-draw-rectangle-save/)
+C# を使用して新しいページを追加し、矩形を描画して PDF を保存する方法をステップバイステップで解説します。
+
 ### [Aspose.PDF を使用して PDF ドキュメントを作成 – ページ、シェイプの追加と保存](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Aspose.PDF の API を利用し、ページや図形を追加して PDF を保存する手順を解説します。
 ### [Aspose.PDF を使用した PDF ドキュメントの作成: ステップバイステップ ガイド](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)

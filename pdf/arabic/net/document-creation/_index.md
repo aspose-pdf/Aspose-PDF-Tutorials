@@ -56,6 +56,9 @@
 تعرّف على كيفية إنشاء ملفات PDF سهلة الوصول ومنظمة بشكل جيد ومُعلّمة باستخدام Aspose.PDF لـ .NET. يتناول هذا الدليل ضبط خصائص المستند، وإضافة الروابط، وتضمين الصور.
 ### [إتقان إنشاء كتيبات PDF باستخدام Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 برنامج تعليمي لبرمجة Aspose.PDF Net
+### [إنشاء مستند PDF C# – إضافة صفحة، رسم مستطيل وحفظه](./create-pdf-document-c-add-page-draw-rectangle-save/)
+تعلم كيفية إضافة صفحة إلى مستند PDF، ورسم مستطيل، وحفظ الملف باستخدام Aspose.PDF لـ .NET في C#.
+
 ### [إنشاء مستند PDF باستخدام Aspose.PDF – إضافة صفحة وشكل وحفظ](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 تعلم كيفية إنشاء مستند PDF وإضافة صفحات وأشكال وحفظه باستخدام Aspose.PDF في .NET.
 ### [إنشاء مستند PDF باستخدام Aspose.PDF – دليل خطوة بخطوة](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)

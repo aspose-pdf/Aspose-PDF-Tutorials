@@ -55,6 +55,9 @@ Aspose.PDF नेट के लिए एक कोड ट्यूटोरि�
 .NET के लिए Aspose.PDF का उपयोग करके सुलभ, अच्छी तरह से संरचित टैग किए गए PDF बनाने का तरीका जानें। यह मार्गदर्शिका दस्तावेज़ गुण सेट करना, लिंक जोड़ना और छवियाँ एम्बेड करना शामिल करती है।
 ### [Aspose.PDF .NET के साथ PDF बुकलेट निर्माण में महारत हासिल करें](./aspose-pdf-net-create-booklet-page-arrangement/)
 Aspose.PDF नेट के लिए एक कोड ट्यूटोरियल
+### [C# में PDF दस्तावेज़ बनाएं – पृष्ठ जोड़ें, आयत बनाएं और सहेजें](./create-pdf-document-c-add-page-draw-rectangle-save/)
+C# कोड का उपयोग करके PDF बनाएं, नया पृष्ठ जोड़ें, आयत आकृति बनाएं और फ़ाइल सहेजें।
+
 ### [Aspose.PDF के साथ PDF दस्तावेज़ बनाएं – पृष्ठ जोड़ें, आकार बनाएं और सहेजें](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Aspose.PDF का उपयोग करके पृष्ठ, आकार जोड़कर PDF बनाना और सहेजना सीखें।
 ### [Aspose.PDF के साथ PDF दस्तावेज़ बनाएं – चरण‑दर‑चरण मार्गदर्शिका](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)

@@ -66,6 +66,9 @@ Learn to create complex PDF documents using Aspose.PDF for .NET. This guide cove
 Learn how to create accessible, well-structured tagged PDFs using Aspose.PDF for .NET. This guide covers setting document properties, adding links, and embedding images.
 ### [Mastering PDF Booklet Creation with Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 A code tutorial for Aspose.PDF Net
+### [Create PDF Document C# – Add Page, Draw Rectangle & Save](./create-pdf-document-c-add-page-draw-rectangle-save/)
+Learn how to create a PDF, add a page, draw a rectangle, and save the document using Aspose.PDF for .NET in C#.
+
 ### [Create PDF Document with Aspose.PDF – Add Page, Shape & Save](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Learn how to add a new page, draw shapes, and save the PDF using Aspose.PDF for .NET.
 ### [Create PDF Document with Aspose.PDF – Step‑by‑Step Guide](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)

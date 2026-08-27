@@ -56,6 +56,9 @@ Học cách tạo tài liệu PDF phức tạp bằng Aspose.PDF cho .NET. Hư�
 Tìm hiểu cách tạo PDF có gắn thẻ có cấu trúc tốt, dễ truy cập bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm thiết lập thuộc tính tài liệu, thêm liên kết và nhúng hình ảnh.
 ### [Làm chủ việc tạo sách PDF với Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Hướng dẫn mã cho Aspose.PDF Net
+### [Tạo tài liệu PDF C# – Thêm trang, Vẽ hình chữ nhật & Lưu](./create-pdf-document-c-add-page-draw-rectangle-save/)
+Tìm hiểu cách tạo tài liệu PDF bằng C#, thêm trang, vẽ hình chữ nhật và lưu lại.
+
 ### [Tạo tài liệu PDF với Aspose.PDF – Thêm trang, hình dạng & Lưu](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Hướng dẫn cách thêm trang, hình dạng và lưu tài liệu PDF bằng Aspose.PDF trong .NET.
 ### [Tạo tài liệu PDF với Aspose.PDF – Hướng dẫn từng bước](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)

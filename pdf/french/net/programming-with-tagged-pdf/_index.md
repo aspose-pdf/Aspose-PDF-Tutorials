@@ -43,11 +43,12 @@ Les tutoriels « Programmation avec des PDF balisés » d'Aspose.PDF pour .NET
 | [Contenu PDF balisé](./tagged-pdf-content/) | Apprenez à utiliser le contenu balisé dans un document PDF avec Aspose.PDF pour .NET. Guide étape par étape pour l'utilisation des balises. |  
 | [Image de balise dans un PDF existant](./tag-image-in-existing-pdf/) | Apprenez à baliser des images dans des PDF existants avec Aspose.PDF pour .NET. Guide étape par étape pour améliorer l'accessibilité grâce à la conformité PDF/UA. |  
 | [Éléments de structure du bloc de texte](./text-block-structure-elements/) | Apprenez à utiliser Aspose.PDF pour .NET pour ajouter des éléments de structure de bloc de texte, tels que des titres et des paragraphes balisés, à un document PDF existant. |  
-| [Valider le fichier PDF](./validate-pdf/) | Apprenez à valider un fichier PDF avec Aspose.PDF pour .NET. Vérifiez sa conformité aux normes et générez un rapport de validation. |
+| [Éléments de structure de texte dans un fichier PDF](./text-structure-elements/) Apprenez à manipuler les éléments de structure de texte dans les PDF avec Aspose.PDF pour .NET. Ce guide étape par étape couvre tout ce dont vous avez besoin pour créer des PDF structurés. |  
+| [Valider le fichier PDF](./validate-pdf/) | Apprenez à valider un fichier PDF avec Aspose.PDF pour .NET. Vérifiez sa conformité aux normes et générez un rapport de validation. |  
+| [Comment baliser un PDF avec Aspose – Guide complet des balises d'accessibilité PDF](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) | Apprenez à baliser vos PDF pour l'accessibilité avec Aspose grâce à ce guide complet étape par étape. |  
 | [Créer un PDF balisé en C# – Guide complet étape par étape](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Apprenez à créer un PDF balisé en C# avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
 | [Rendre le PDF accessible avec Aspose : insérer un paragraphe PDF étape par étape](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Apprenez à insérer un paragraphe dans un PDF accessible avec Aspose.PDF pour .NET, étape par étape. |
 | [Créer un PDF balisé en C# – Ajouter un titre et du texte accessible](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Apprenez à créer un PDF balisé en C# avec un titre et du texte accessible à l'aide d'Aspose.PDF pour .NET. |
-| [Éléments de structure de texte dans un fichier PDF](./text-structure-elements/) | Apprenez à manipuler les éléments de structure de texte dans les PDF avec Aspose.PDF pour .NET. Ce guide étape par étape couvre tout ce dont vous avez besoin pour créer des PDF structurés. |  
 | [Créer un PDF accessible avec Aspose.Pdf – Guide étape par étape](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Apprenez à créer un PDF accessible avec Aspose.Pdf en suivant ce guide détaillé étape par étape. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

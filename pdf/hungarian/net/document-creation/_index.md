@@ -56,6 +56,9 @@ Tanulj meg összetett PDF dokumentumokat létrehozni az Aspose.PDF for .NET seg�
 Ismerje meg, hogyan hozhat létre akadálymentes, jól strukturált, címkézett PDF-eket az Aspose.PDF for .NET használatával. Ez az útmutató a dokumentum tulajdonságainak beállítását, hivatkozások hozzáadását és képek beágyazását ismerteti.
 ### [PDF füzetkészítés elsajátítása az Aspose.PDF .NET segítségével](./aspose-pdf-net-create-booklet-page-arrangement/)
 Kód oktatóanyag az Aspose.PDF Nethez
+### [PDF dokumentum létrehozása C# – Oldal hozzáadása, téglalap rajzolása és mentés](./create-pdf-document-c-add-page-draw-rectangle-save/)
+Tanulja meg, hogyan hozhat létre PDF dokumentumot C#-ban, adjon hozzá oldalt, rajzoljon téglalapot, majd mentse el.
+
 ### [PDF dokumentum létrehozása Aspose.PDF segítségével – Oldal, alakzat hozzáadása és mentés](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Tanulja meg, hogyan hozhat létre PDF dokumentumot, adhat hozzá oldalt, alakzatot, majd mentheti azt az Aspose.PDF .NET használatával.
 ### [PDF dokumentum létrehozása Aspose.PDF‑vel – Lépésről‑lépésre útmutató](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)

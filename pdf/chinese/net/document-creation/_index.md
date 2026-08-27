@@ -56,6 +56,9 @@ Aspose.PDF Net 代码教程
 了解如何使用 Aspose.PDF for .NET 创建易于访问、结构良好的带标签 PDF。本指南涵盖设置文档属性、添加链接以及嵌入图像等操作。
 ### [掌握使用 Aspose.PDF .NET 创建 PDF 小册子](./aspose-pdf-net-create-booklet-page-arrangement/)
 Aspose.PDF Net 代码教程
+### [使用 C# 创建 PDF 文档 – 添加页面、绘制矩形并保存](./create-pdf-document-c-add-page-draw-rectangle-save/)
+学习如何在 C# 中使用 Aspose.PDF 创建 PDF，添加页面、绘制矩形并保存文件。
+
 ### [使用 Aspose.PDF 创建 PDF 文档 – 添加页面、形状并保存](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 学习如何使用 Aspose.PDF 在 .NET 中创建 PDF 文档，添加页面和形状并保存。
 ### [使用 Aspose.PDF 创建 PDF 文档：分步指南](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)

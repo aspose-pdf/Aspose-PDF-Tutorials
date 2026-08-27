@@ -56,6 +56,9 @@ Pelajari cara membuat dokumen PDF yang rumit menggunakan Aspose.PDF untuk .NET. 
 Pelajari cara membuat PDF bertag yang mudah diakses dan terstruktur dengan baik menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup pengaturan properti dokumen, penambahan tautan, dan penyematan gambar.
 ### [Menguasai Pembuatan Buklet PDF dengan Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Tutorial kode untuk Aspose.PDF Net
+### [Buat Dokumen PDF C# – Tambah Halaman, Gambar Persegi Panjang & Simpan](./create-pdf-document-c-add-page-draw-rectangle-save/)
+Pelajari cara membuat dokumen PDF di C#, menambahkan halaman, menggambar persegi panjang, dan menyimpannya dengan Aspose.PDF.
+
 ### [Buat Dokumen PDF dengan Aspose.PDF – Tambahkan Halaman, Bentuk & Simpan](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Pelajari cara menambahkan halaman, bentuk, dan menyimpan dokumen PDF menggunakan Aspose.PDF.
 ### [Buat Dokumen PDF dengan Aspose.PDF – Panduan Langkah demi Langkah](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)

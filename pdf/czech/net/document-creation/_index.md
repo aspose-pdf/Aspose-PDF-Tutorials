@@ -56,6 +56,9 @@ Naučte se vytvářet složité PDF dokumenty pomocí Aspose.PDF pro .NET. Tato 
 Naučte se, jak vytvářet přístupné, dobře strukturované tagované soubory PDF pomocí Aspose.PDF pro .NET. Tato příručka se zabývá nastavením vlastností dokumentu, přidáváním odkazů a vkládáním obrázků.
 ### [Zvládnutí tvorby brožur ve formátu PDF s Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Výukový program pro kódování Aspose.PDF Net
+### [Vytvoření PDF dokumentu v C# – Přidání stránky, kreslení obdélníku a uložení](./create-pdf-document-c-add-page-draw-rectangle-save/)
+Naučte se, jak v C# vytvořit PDF dokument, přidat novou stránku, nakreslit obdélník a soubor uložit pomocí Aspose.PDF.
+
 ### [Vytvořte PDF dokument pomocí Aspose.PDF – Přidejte stránku, tvar a uložte](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Naučte se, jak vytvořit PDF, přidat stránku a tvar a soubor uložit pomocí Aspose.PDF.
 ### [Vytvoření PDF dokumentu pomocí Aspose.PDF – krok‑po‑kroku průvodce](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
