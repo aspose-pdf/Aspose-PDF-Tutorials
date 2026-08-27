@@ -19,6 +19,8 @@ In den Aspose.PDF-Dokumentkonvertierungs-Tutorials für .NET erfahren Sie, wie S
 Sie lernen, wie Sie Konvertierungseinstellungen festlegen, Text und Bilder extrahieren, die ursprüngliche Dokumentstruktur und -formatierung beibehalten und Massenkonvertierungen durchführen. Die Tutorials bieten detaillierte Codebeispiele und Schritt-für-Schritt-Erklärungen, die Ihnen helfen, die Dokumentkonvertierungsfunktionen von Aspose.PDF für .NET zu meistern. Ob Sie Dokumente für die Archivierung, die elektronische Verteilung oder andere Zwecke konvertieren müssen – diese Tutorials vermitteln Ihnen das Wissen, um alle Dokumentkonvertierungsaufgaben effizient mit der leistungsstarken Aspose.PDF-Bibliothek für .NET durchzuführen.
 
 ## Anleitungen
+
+
 | Titel | Beschreibung |
 | --- | --- | 
 | [Anhang zu PDFA hinzufügen](./add-attachment-to-pdfa/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET Anhänge zu einem PDF/A-Dokument hinzufügen. |  
@@ -57,6 +59,13 @@ Sie lernen, wie Sie Konvertierungseinstellungen festlegen, Text und Bilder extra
 | [XML zu PDFBildpfad festlegen](./xml-to-pdfset-image-path/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET mühelos XML in PDF konvertieren. Diese detaillierte Anleitung führt Sie Schritt für Schritt durch den Prozess, von der Einrichtung bis zur Fertigstellung. |  
 | [XPS zu PDF](./xps-to-pdf/) Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie XPS-Dateien mit Aspose.PDF für .NET in PDF konvertieren. Perfekt für Entwickler und Dokument-Enthusiasten. |  
 | [ICC-Profil hinzufügen und PDF nach PDF/X‑4 konvertieren – C#‑Leitfaden](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET ein ICC-Profil hinzufügen und PDF in PDF/X‑4 konvertieren. |
+| [PDF zu PDF/X‑4 in C# – Schritt‑für‑Schritt ASP.NET PDF‑Tutorial](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie PDF‑Dateien mit Aspose.PDF für .NET in das PDF/X‑4‑Format konvertieren. |
+| [PDF zu PNG Tutorial – PDF‑Seiten in PNG konvertieren in C#](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF‑Seiten in PNG‑Bilder konvertieren – Schritt‑für‑Schritt in C#. |
+| [Aspose PDF zu HTML-Konvertierung in C# – Vollständige Anleitung](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | Erfahren Sie in dieser umfassenden Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.PDF für .NET PDFs in HTML konvertieren. |
+| [PDF-Dokument laden C# – Schritt-für-Schritt-Anleitung zur Konvertierung in PDF/X-4](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET ein PDF-Dokument laden und in PDF/X-4 konvertieren. |
+| [Wie man PDF mit Aspose.Pdf konvertiert – Vollständiger C# Leitfaden](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie PDFs mit Aspose.Pdf in C# konvertieren. |
+| [PDF als HTML speichern – Vektoren beibehalten & Rasterisierung deaktivieren](./save-pdf-as-html-keep-vectors-disable-rasterization/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDFs als HTML speichern, Vektoren beibehalten und Rasterisierung deaktivieren. |
+| [PDF mit Aspose speichern – Vollständiger C#-Konvertierungsleitfaden](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) | Erfahren Sie, wie Sie PDFs mit Aspose in C# speichern und konvertieren – Schritt‑für‑Schritt‑Anleitung. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

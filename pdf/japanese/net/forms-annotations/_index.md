@@ -53,7 +53,7 @@ Aspose.PDF for .NET を使用してドキュメントリンク注釈を作成し
 ### [Aspose.PDF for .NET を使用してインタラクティブな PDF ラジオ ボタンを作成する](./aspose-pdf-net-create-radio-buttons/)
 Aspose.PDF for .NET を使用して、インタラクティブなラジオボタンで PDF フォームを強化する方法を学びましょう。データ収集を効率化し、ドキュメントのインタラクティブ性を向上させます。
 
-### [Aspose.PDF for .NET で線注釈を作成する](./create-line-annotations-aspose-pdf-net/)
+### [Aspose.PDF .NET で線注釈を作成する](./create-line-annotations-aspose-pdf-net/)
 Aspose.PDF Net のコードチュートリアル
 
 ### [Aspose.PDF を使用して .NET でラジオ ボタン付きの PDF を作成する](./create-pdfs-radio-buttons-net-aspose-pdf/)
@@ -206,7 +206,7 @@ Aspose.PDF .NETとC#を使用して、PDFからのフォーム送信を自動化
 ### [Aspose.PDF for .NET を使用して PDF 内のフリーテキスト注釈を更新する方法](./update-pdf-text-annotations-aspose-dotnet/)
 フォント サイズや色の変更など、Aspose.PDF for .NET を使用して PDF ドキュメント内のフリー テキスト注釈を効率的に更新する方法を学習します。
 
-### [Aspose.PDF for .NET で PDF リンク注釈を更新する方法: ステップバイステップガイド](./update-pdf-link-annotations-aspose-dotnet/)
+### [Aspose.PDF for .NET を使用して PDF リンク注釈を更新する方法: ステップバイステップガイド](./update-pdf-link-annotations-aspose-dotnet/)
 Aspose.PDF for .NET を使用して PDF 内のリンク注釈を更新する方法を学びます。このガイドでは、内部リンクと外部リンクの変更方法を解説し、ドキュメントがシームレスに機能するようにします。
 
 ### [Aspose.PDF for .NET を使用して PDF フォームのラジオボタンのキャプションを更新する方法](./update-radio-button-captions-pdf-aspose-pdf-net/)
@@ -239,7 +239,7 @@ Aspose.PDF for .NET を使用して PDF フォームを効率的に管理およ�
 ### [Aspose.PDF を使用してアラビア語テキストを含む .NET での PDF フォーム操作をマスターする](./aspose-pdf-net-arabic-text-manipulation/)
 Aspose.PDF for .NET を使用して、アラビア語テキストを含むPDFフォームを効率的に読み込み、変更する方法を学びましょう。多言語ドキュメントの取り扱いを効率化できます。
 
-### [Aspose.PDF で .NET の PDF フォーム操作をマスターする: 完全ガイド](./master-net-pdf-form-manipulation-asposepdf/)
+### [Aspose.PDF を使用して .NET の PDF フォーム操作をマスターする: 完全ガイド](./master-net-pdf-form-manipulation-asposepdf/)
 Aspose.PDF for .NET を使用して、PDF フォームを効率的に開き、編集し、保存する方法を学びましょう。ドキュメント処理を効率化したい開発者に最適です。
 
 ### [Aspose.PDF for .NET をマスターする: PDF フォームに効率的に入力してバインドする方法](./aspose-pdf-net-fill-bind-forms/)
@@ -277,6 +277,9 @@ Aspose.PDF for .NET を使用して、PDF フィールドの文字数制限を�
 
 ### [Aspose.PDF for .NET で PDF 注釈を更新する: 包括的なガイド](./update-pdf-annotations-aspose-pdf-dotnet/)
 Aspose.PDF for .NET を使用して、プログラムでPDF注釈を更新する方法を学びます。このガイドでは、セットアップ、実装、パフォーマンスに関するヒントを紹介します。
+
+### [Aspose で PDF ドキュメントを作成 – ページ、テキストボックス、フォームの追加](./create-pdf-document-with-aspose-add-page-text-box-and-form/)
+Aspose.PDF for .NET を使用して、PDF に新しいページを追加し、テキストボックスとフォームフィールドを配置する方法をステップバイステップで解説します。
 
 ## 追加リソース
 

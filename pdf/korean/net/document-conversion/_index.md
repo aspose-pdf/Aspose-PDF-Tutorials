@@ -19,6 +19,7 @@
 변환 설정 지정, 텍스트 및 이미지 추출, 원본 문서 구조 및 서식 유지, 그리고 대량 변환 수행 방법을 배웁니다. 이 튜토리얼은 Aspose.PDF for .NET의 문서 변환 기능을 완벽하게 익히는 데 도움이 되는 자세한 코드 예제와 단계별 설명을 제공합니다. 보관, 전자 배포 또는 기타 목적으로 문서를 변환해야 하는 경우, 이 튜토리얼은 강력한 Aspose.PDF for .NET 라이브러리를 사용하여 모든 문서 변환 작업을 효율적으로 수행하는 데 필요한 지식을 제공합니다.
 
 ## 튜토리얼
+
 | 제목 | 설명 |
 | --- | --- | 
 | [PDFA에 첨부 파일 추가](./add-attachment-to-pdfa/) | 이 단계별 가이드를 통해 Aspose.PDF for .NET을 사용하여 PDF/A 문서에 첨부 파일을 추가하는 방법을 알아보세요. |  
@@ -34,10 +35,13 @@
 | [PDF에서 DOC로](./pdf-to-doc/) | 이 포괄적인 가이드에서 Aspose.PDF for .NET을 사용하여 PDF를 DOC로 변환하는 방법을 알아보세요. 단계별 지침과 팁이 포함되어 있습니다. |  
 | [PDF에서 EPUB로](./pdf-to-epub/) | Aspose.PDF for .NET을 사용하여 PDF를 EPUB로 변환하는 방법을 단계별 튜토리얼에서 알아보세요. 개발자와 콘텐츠 제작자에게 적합합니다. |  
 | [PDF를 HTML로](./pdf-to-html/) | Aspose.PDF for .NET을 사용하여 PDF를 HTML로 변환하는 방법을 단계별 가이드를 통해 알아보세요. 개발자와 콘텐츠 제작자에게 적합합니다. |  
+| [PDF를 HTML로 저장 – 벡터 유지 및 래스터화 비활성화](./save-pdf-as-html-keep-vectors-disable-rasterization/) | Aspose.PDF for .NET을 사용하여 PDF를 HTML로 저장하면서 벡터를 유지하고 래스터화를 비활성화하는 방법을 단계별로 안내합니다. |  
 | [PDF에서 PDFA로](./pdf-to-pdfa/) 이 단계별 튜토리얼을 통해 Aspose.PDF for .NET을 사용하여 PDF 파일을 PDF/A 형식으로 변환하는 방법을 알아보세요. |  
 | [PDF에서 PDFA3b로](./pdf-to-pdfa3b/) | 이 단계별 가이드를 통해 Aspose.PDF for .NET을 사용하여 PDF 파일을 PDF/A-3B 형식으로 손쉽게 변환하는 방법을 알아보세요. |  
+| [PDF를 PDF/X‑4로 변환하기 – 단계별 ASP.NET PDF 튜토리얼](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Aspose.PDF for .NET을 사용하여 PDF를 PDF/X‑4 형식으로 변환하는 단계별 C# 가이드입니다. |  
 | [PDF를 PNG로 변환하는 글꼴 힌팅](./pdf-to-png-font-hinting/) | Aspose.PDF for .NET을 사용하여 간단한 단계별 가이드로 글꼴 힌팅을 적용하여 PDF를 PNG로 변환하는 방법을 알아보세요. |  
 | [ICC 프로파일 추가 및 PDF를 PDF/X‑4로 변환 – C# 가이드](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) | Aspose.PDF for .NET을 사용하여 PDF에 ICC 프로파일을 추가하고 PDF/X‑4 형식으로 변환하는 방법을 단계별 가이드로 알아보세요. |
+| [PDF를 PNG로 변환하는 튜토리얼 – C#에서 PDF 페이지를 PNG로 변환](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Aspose.PDF for .NET을 사용하여 PDF 페이지를 PNG 이미지로 변환하는 방법을 단계별로 안내합니다. |
 | [PDF를 PPT로](./pdf-to-ppt/) | Aspose.PDF for .NET을 사용하여 PDF를 PPT로 변환하는 방법을 단계별 가이드를 통해 알아보세요. 쉽고 효율적이며 프레젠테이션에 적합합니다. |  
 | [PDF를 SVG로](./pdf-to-svg/) | Aspose.PDF for .NET을 사용하여 PDF 파일을 SVG 형식으로 변환하는 방법을 단계별 튜토리얼을 통해 알아보세요. 개발자와 디자이너에게 안성맞춤입니다. |  
 | [PDF에서 TeX로](./pdf-to-tex/) | Aspose.PDF for .NET을 사용하여 PDF를 TeX로 변환하는 방법을 단계별 가이드를 통해 알아보세요. 문서 처리 능력 향상을 원하는 개발자에게 적합합니다. |  
@@ -57,6 +61,10 @@
 | [XML을 PDF로](./xml-to-pdf/) | 이 포괄적인 단계별 튜토리얼에서는 Aspose.PDF for .NET을 사용하여 XML을 PDF로 변환하는 방법을 알아봅니다. 코드 예제와 자세한 설명이 수록되어 있습니다. |  
 | [XML에서 PDFSet 이미지 경로로](./xml-to-pdfset-image-path/) | Aspose.PDF for .NET을 사용하여 XML을 PDF로 손쉽게 변환하는 방법을 알아보세요. 이 자세한 가이드는 설정부터 완료까지 단계별 과정을 안내합니다. |  
 | [XPS에서 PDF로](./xps-to-pdf/) Aspose.PDF for .NET을 사용하여 XPS 파일을 PDF로 변환하는 방법을 단계별 튜토리얼을 통해 알아보세요. 개발자와 문서 작성자에게 안성맞춤입니다. |  
+| [PDF 문서 로드 C# – PDF/X-4로 변환 단계별 가이드](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 문서를 로드하고 PDF/X-4 형식으로 변환하는 방법을 단계별로 안내합니다. |
+| [C#에서 Aspose PDF를 HTML로 변환하는 완전 가이드](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | 이 단계별 가이드를 통해 Aspose.PDF for .NET을 사용하여 C#에서 PDF를 HTML로 변환하는 방법을 배웁니다. |  
+| [Aspose.Pdf로 PDF 변환하기 – 완전한 C# 가이드](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | Aspose.PDF for .NET을 사용하여 C#으로 PDF를 변환하는 방법을 단계별로 안내합니다. |
+| [Aspose를 사용하여 PDF 저장하기 – 완전한 C# 변환 가이드](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 파일을 저장하고 변환하는 전체 단계별 가이드를 제공합니다. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

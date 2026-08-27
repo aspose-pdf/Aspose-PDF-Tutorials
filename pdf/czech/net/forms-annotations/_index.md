@@ -234,9 +234,9 @@ Naučte se, jak efektivně načítat, přistupovat a manipulovat s anotacemi PDF
 Naučte se automatizovat čtení, přidávání, úpravy a mazání polí v PDF pomocí Aspose.PDF pro .NET. Ideální pro vývojáře, kteří chtějí zefektivnit pracovní postupy s dokumenty.
 
 ### [Manipulace s hlavním PDF formulářem pomocí Aspose.PDF pro .NET](./master-aspose-pdf-dotnet-form-manipulation/)
-Naučte se, jak efektivně spravovat a manipulovat s PDF formuláři pomocí Aspose.PDF pro .NET. Vylepšete své pracovní postupy s dokumenty pomocí dynamických polí, tlačítek pro odesílání a dalších prvků.
+Naučte se, jak efektivně spravovat a manipulovat s PDF formuláři pomocí Aspose.PDF pro .NET. Vylepšete své pracovní postupy s dokumenty pomocí dynamických polí, tlačítek pro odeslání a dalších prvků.
 
-### [Manipulace s hlavním PDF formulářem v .NET s arabským textem pomocí Aspose.PDF](./aspose-pdf-net-arabic-text-manipulation/)
+### [Manipulace s hlavním PDF formuláři v .NET s arabským textem pomocí Aspose.PDF](./aspose-pdf-net-arabic-text-manipulation/)
 Naučte se, jak efektivně načítat a upravovat PDF formuláře obsahující arabský text pomocí Aspose.PDF pro .NET. Zjednodušte si práci s vícejazyčnými dokumenty bez námahy.
 
 ### [Manipulace s hlavními PDF formuláři v .NET s Aspose.PDF: Kompletní průvodce](./master-net-pdf-form-manipulation-asposepdf/)
@@ -276,7 +276,9 @@ Naučte se, jak načíst hodnoty možností tlačítek a aktuálně vybranou hod
 Naučte se, jak nastavit a načíst limity znaků v polích PDF pomocí Aspose.PDF pro .NET. Zajistěte integritu dat a vylepšete uživatelský komfort.
 
 ### [Aktualizace anotací PDF pomocí Aspose.PDF pro .NET: Komplexní průvodce](./update-pdf-annotations-aspose-pdf-dotnet/)
-Naučte se, jak programově aktualizovat anotace PDF pomocí Aspose.PDF pro .NET. Tato příručka obsahuje tipy pro nastavení, implementaci a výkon.
+
+### [Vytvoření PDF dokumentu pomocí Aspose – Přidání stránky, textového pole a formuláře](./create-pdf-document-with-aspose-add-page-text-box-and-form/)
+Naučte se, jak pomocí Aspose.PDF vytvořit PDF, přidat novou stránku, textové pole a formulářové prvky v C#.
 
 ## Další zdroje
 

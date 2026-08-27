@@ -50,6 +50,9 @@ Deze tutorials bieden ook gedetailleerde codevoorbeelden, duidelijke uitleg en i
 | [Java Script instellen](./set-java-script/) | Ontgrendel de kracht van Aspose.PDF voor .NET. Leer hoe u JavaScript instelt op formuliervelden met onze stapsgewijze handleiding. |  
 | [Bijschrift voor keuzerondje instellen](./set-radio-button-caption/) Leer hoe u keuzerondjes in PDF's instelt met Aspose.PDF voor .NET. Deze stapsgewijze handleiding begeleidt u bij het laden, wijzigen en opslaan van uw PDF-formulieren. |  
 | [Tekstvak](./text-box/) | Ontdek hoe u moeiteloos tekstvakken aan PDF's toevoegt met Aspose.PDF voor .NET met deze stapsgewijze handleiding. Verbeter de gebruikersinteractie. |  
+| [Hoe PDF maken met Aspose – Formulierveld en pagina's toevoegen](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Leer hoe u met Aspose.PDF voor .NET een PDF maakt, formuliervelden toevoegt en pagina's beheert in deze stapsgewijze tutorial. |  
+| [Bates-nummers toevoegen aan PDF's – Stapsgewijze C#-gids](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Leer hoe u Bates-nummers aan PDF-documenten toevoegt met Aspose.PDF voor .NET in een duidelijke C#-stapsgewijze handleiding. |
+| [PDF-document maken met meerdere tekstvak-widgets – Stapsgewijze handleiding](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Leer hoe u een PDF-document maakt met meerdere tekstvak-widgets met Aspose.PDF voor .NET in deze stapsgewijze tutorial. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

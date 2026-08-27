@@ -1,0 +1,7 @@
+Title: How to get signatures from a PDF in C# – step‑by‑step guide
+Slug: how-to-get-signatures-from-a-pdf-in-c-step-by-step-guide
+Category: digital-signatures
+ProcessedDate: 2026-08-05T07:42:19.766486
+SourceRepo: AI Search API
+Keywords: how to get signatures, read pdf signatures, extract signature fields pdf, load pdf document c#
+PRNumber: 114

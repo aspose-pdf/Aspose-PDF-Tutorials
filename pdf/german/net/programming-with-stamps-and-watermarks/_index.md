@@ -40,6 +40,11 @@ Die Tutorials „Programmieren mit Stempeln und Wasserzeichen“ von Aspose.PDF 
 | [Text in der Fußzeile einer PDF-Datei](./text-in-footer/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET Text in die Fußzeile einer PDF-Datei einfügen. |  
 | [Text im Header der PDF-Datei](./text-in-header/) | Lernen Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.PDF für .NET Textüberschriften zu PDFs hinzufügen. Optimieren Sie Ihre Dokumente effizient und effektiv. |  
 | [Bates-Nummerierungstutorial: Bates-Nummern zu PDFs mit C# hinzufügen](./bates-numbering-tutorial-add-bates-numbers-to-pdfs-with-c/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET Bates-Nummern zu PDF-Dokumenten hinzufügen. |  
+| [PDF-Deckkraft in C# ändern – Vollständige Aspose-Anleitung](./change-pdf-opacity-in-c-complete-aspose-guide/) Erfahren Sie, wie Sie mit Aspose.PDF für .NET die Deckkraft von PDF-Dokumenten in C# ändern. |  
+| [Bates-Nummerierung zu PDF hinzufügen – Vollständige C#-Anleitung](./add-bates-numbering-pdf-complete-c-guide/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET Bates-Nummern zu PDF-Dokumenten hinzufügen. |
+| [Bates-Nummerierung zu PDF in C# hinzufügen – Komplettanleitung](./add-bates-numbering-pdf-in-c-complete-guide/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET Bates-Nummern zu PDF-Dokumenten hinzufügen. |  
+| [Wie man Bates-Nummern zu PDFs hinzufügt – Schritt‑für‑Schritt‑Anleitung](./how-to-add-bates-step-by-step-guide-for-pdfs/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET Bates‑Nummern zu PDF‑Dokumenten hinzufügen und Ihre Dateien eindeutig kennzeichnen. |  
+| [PDF-Deckkraft mit Aspose.PDF ändern – Vollständiger C#‑Leitfaden](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) | Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.PDF für .NET die Deckkraft von PDFs anpassen. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

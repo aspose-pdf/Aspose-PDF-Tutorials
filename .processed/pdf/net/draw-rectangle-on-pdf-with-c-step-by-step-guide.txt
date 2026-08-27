@@ -1,0 +1,7 @@
+Title: Draw Rectangle on PDF with C# – Step‑by‑Step Guide
+Slug: draw-rectangle-on-pdf-with-c-step-by-step-guide
+Category: annotations
+ProcessedDate: 2026-06-21T15:11:22.332513
+SourceRepo: AI Search API
+Keywords: draw rectangle on pdf, load pdf document, add black rectangle, create black rectangle, save modified pdf
+PRNumber: 93

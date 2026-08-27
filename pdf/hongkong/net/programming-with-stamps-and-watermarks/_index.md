@@ -40,6 +40,11 @@ Aspose.PDF 的「使用圖章和浮水印進行程式設計」.NET 教學課程�
 | [PDF 檔案頁尾中的文字](./text-in-footer/) |了解如何使用 Aspose.PDF for .NET 在 PDF 檔案的頁尾中新增文字。 |  
 | [PDF 檔案標題中的文本](./text-in-header/) |透過本逐步教學學習如何使用 Aspose.PDF for .NET 在 PDF 中新增文字標題。有效率且有效地增強您的文件。 |  
 | [Bates 編號教學：使用 C# 為 PDF 添加 Bates 編號](./bates-numbering-tutorial-add-bates-numbers-to-pdfs-with-c/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 PDF 中添加 Bates 編號，以提升文件的追蹤與管理。 |  
+| [在 C# 中更改 PDF 透明度 – 完整 Aspose 指南](./change-pdf-opacity-in-c-complete-aspose-guide/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 C# 中調整 PDF 的透明度，提升文件視覺效果。 |  
+| [在 PDF 中添加 Bates 編號 – 完整 C# 指南](./add-bates-numbering-pdf-complete-c-guide/) |透過本完整指南了解如何使用 Aspose.PDF for .NET 在 C# 中為 PDF 添加 Bates 編號，提升文件的追蹤與管理。 |  
+| [在 C# 中為 PDF 添加 Bates 編號 – 完整指南](./add-bates-numbering-pdf-in-c-complete-guide/) |透過本完整指南了解如何使用 Aspose.PDF for .NET 在 PDF 中添加 Bates 編號，以提升文件的追蹤與管理。 |  
+| [在 PDF 檔案中新增 Bates 編號](./how-to-add-bates-step-by-step-guide-for-pdfs/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 PDF 中新增 Bates 編號，提升文件追蹤與管理。 |  
+| [使用 Aspose.PDF 更改 PDF 不透明度 – 完整 C# 指南](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) |本完整 C# 教學說明如何使用 Aspose.PDF 調整 PDF 文件的不透明度，以實現視覺效果的自訂。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

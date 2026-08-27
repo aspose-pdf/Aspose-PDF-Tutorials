@@ -14,7 +14,7 @@
 
 # Programação com Texto
 
-Os tutoriais "Programação com Texto" do Aspose.PDF para .NET oferecem uma gama abrangente de instruções para trabalhar com texto em seus documentos PDF. Você aprenderá a adicionar texto, formatá-lo com fontes e estilos, editar conteúdo existente e extrair informações textuais. Os tutoriais também abordam tópicos avançados, como gerenciamento de alinhamentos, tabelas de texto e pesquisa de palavras-chave. Esses recursos passo a passo ajudarão você a dominar todas as facetas da manipulação de texto com o Aspose.PDF para .NET.
+Os tutoriais "Programação com Texto" do Aspose.PDF para .NET oferecem uma gama abrangente de instruções para trabalhar com texto em seus documentos PDF. Você aprenderá a adicionar texto, formatá-lo com fontes e estilos, editar conteúdo existente e extrair informações textuais. Os tutoriais também abordam tópicos avançados, como gerenciamento de alinhamentos, tabelas de texto e pesquisa de palavras‑chave. Esses recursos passo a passo ajudarão você a dominar todas as facetas da manipulação de texto com o Aspose.PDF para .NET.
 
 ## Tutoriais
 | Título | Descrição |
@@ -70,6 +70,7 @@ Os tutoriais "Programação com Texto" do Aspose.PDF para .NET oferecem uma gama
 | [Texto e imagem como parágrafo em arquivo PDF](./text-and-image-as-paragraph/) | Crie PDFs com texto e imagens usando o Aspose.PDF para .NET. Aprenda a adicionar texto e imagens embutidas passo a passo. |  
 | [Segmentos de texto em arquivo PDF](./text-segments/) | Aprenda a pesquisar segmentos de texto específicos em um arquivo PDF usando expressões regulares no Aspose.PDF para .NET. |  
 | [Usar script Latex em arquivo PDF](./use-latex-script/) | Aprenda a usar o script Latex para adicionar expressões matemáticas ou fórmulas em arquivos PDF usando o Aspose.PDF para .NET. |  
+| [Adicionar números Bates ao PDF – numeração Bates](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Aprenda a adicionar numeração Bates a documentos PDF usando o Aspose.PDF para .NET. Guia passo a passo com exemplos de código. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

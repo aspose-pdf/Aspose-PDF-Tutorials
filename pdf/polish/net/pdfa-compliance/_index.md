@@ -38,6 +38,9 @@ Dowiedz się, jak sprawdzić zgodność PDF/A-1a przy użyciu Aspose.PDF dla .NE
 ### [Walidacja PDF/A przy użyciu Aspose.PDF dla .NET w C#](./master-pdfa-validation-aspose-pdf-net/)
 Dowiedz się, jak weryfikować dokumenty PDF pod kątem standardów PDF/A przy użyciu Aspose.PDF .NET. Zapewnij zgodność i zwiększ niezawodność dokumentów dzięki naszemu przewodnikowi krok po kroku.
 
+### [Utwórz plik PDF/A w C# – Pełny samouczek konwersji](./create-pdf-a-file-in-c-full-conversion-tutorial/)
+Kompletny przewodnik, jak w C# stworzyć plik PDF/A, konwertując istniejące PDF przy użyciu Aspose.PDF .NET.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

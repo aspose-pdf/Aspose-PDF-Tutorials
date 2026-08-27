@@ -70,6 +70,7 @@
 | [Κείμενο και εικόνα ως παράγραφος σε αρχείο PDF](./text-and-image-as-paragraph/) | Δημιουργήστε PDF με κείμενο και εικόνες χρησιμοποιώντας το Aspose.PDF για .NET. Μάθετε πώς να προσθέτετε κείμενο και ενσωματωμένες εικόνες βήμα προς βήμα. |  
 | [Τμήματα κειμένου σε αρχείο PDF](./text-segments/) | Μάθετε πώς να αναζητάτε συγκεκριμένα τμήματα κειμένου σε αρχείο PDF χρησιμοποιώντας κανονικές εκφράσεις στο Aspose.PDF για .NET. |  
 | [Χρήση Latex Script σε αρχείο PDF](./use-latex-script/) | Μάθετε πώς να χρησιμοποιείτε το σενάριο Latex για να προσθέσετε μαθηματικές εκφράσεις ή τύπους σε αρχείο PDF χρησιμοποιώντας το Aspose.PDF για .NET. |  
+| [Προσθήκη Bates Numbers σε PDF – αριθμοδότηση Bates](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Μάθετε πώς να προσθέτετε Bates Numbers σε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
