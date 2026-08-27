@@ -1,0 +1,7 @@
+Title: Convert PDF to PDF/X-1a with C# – Step‑by‑Step Guide
+Slug: convert-pdf-to-pdf-x-1a-with-c-step-by-step-guide
+Category: document-conversion
+ProcessedDate: 2026-07-14T10:41:47.703309
+SourceRepo: AI Search API
+Keywords: convert pdf to pdf/x-1a, embed icc profile, set icc profile, how to embed icc, create pdf/x-1a file
+PRNumber: 103

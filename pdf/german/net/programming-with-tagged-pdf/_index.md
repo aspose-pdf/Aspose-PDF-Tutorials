@@ -18,6 +18,7 @@
 Die Tutorials „Programmieren mit getaggten PDFs“ von Aspose.PDF für .NET führen Sie durch die Verwendung dieser Bibliothek zum Bearbeiten und Generieren getaggter PDFs. Erfahren Sie, wie Sie Inhaltsstrukturen erstellen, getaggte Elemente verwalten, die PDF/UA-Konformität validieren und die Barrierefreiheit von PDF-Dokumenten verbessern. Diese Tutorials vermitteln Ihnen ein umfassendes Verständnis der Programmierung mit getaggten PDFs und helfen Ihnen, die Leistungsfähigkeit von Aspose.PDF für .NET optimal zu nutzen.
 
 ## Anleitungen
+
 | Titel | Beschreibung |
 | --- | --- | 
 | [Zugriff auf untergeordnete Elemente](./access-children-elements/) | Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.PDF für .NET auf untergeordnete Elemente in getaggten PDF-Dateien zugreifen und diese ändern. |  
@@ -39,12 +40,17 @@ Die Tutorials „Programmieren mit getaggten PDFs“ von Aspose.PDF für .NET f�
 | [Stiltabellenelement](./style-table-element/) | Erfahren Sie, wie Sie ein Tabellenelement in Aspose.PDF für .NET erstellen und formatieren, mit Schritt-für-Schritt-Anleitungen, benutzerdefiniertem Styling und PDF/UA-Konformität. |  
 | [Tabellenzeile formatieren](./style-table-row/) Erfahren Sie anhand einer Schritt-für-Schritt-Anleitung, wie Sie Tabellenzeilen in einer PDF-Datei mit Aspose.PDF für .NET formatieren und so die Formatierung Ihres Dokuments mühelos verbessern. |  
 | [Textstruktur in PDF-Datei formatieren](./style-text-structure/) | Erfahren Sie in diesem umfassenden Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.PDF für .NET die Textstruktur in PDF-Dateien formatieren. Transformieren Sie Ihre Dokumente. |  
-| [Mit Tags versehener PDF-Inhalt](./tagged-pdf-content/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET mit getaggten Inhalten in einem PDF-Dokument arbeiten. Eine Schritt-für-Schritt-Anleitung zur Verwendung von Tags. |  
+| [Mit Tags versehener PDF-Inhalt](./tagged-pdf-content/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET mit getaggten Inhalten in einem PDF-Dokument arbeiten. Eine Schritt-für-Schritt-Anleitung zur Verwendung von Tags. |
+| [Erstellen eines barrierefreien PDFs mit Aspose.Pdf – Schritt‑für‑Schritt‑Anleitung](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein barrierefreies PDF erstellen – eine detaillierte Schritt‑für‑Schritt‑Anleitung. |
 | [Bild in vorhandenem PDF taggen](./tag-image-in-existing-pdf/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET Bilder in vorhandenen PDFs taggen. Schritt-für-Schritt-Anleitung zur Verbesserung der Zugänglichkeit mit PDF/UA-Konformität. |  
 | [Textblockstrukturelemente](./text-block-structure-elements/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET einem vorhandenen PDF-Dokument Textblockstrukturelemente wie Überschriften und markierte Absätze hinzufügen. |  
 | [Textstrukturelemente in der PDF-Datei](./text-structure-elements/) Lernen Sie, Textstrukturelemente in PDFs mit Aspose.PDF für .NET zu bearbeiten. Diese Schritt-für-Schritt-Anleitung behandelt alles, was Sie zum Erstellen strukturierter PDFs benötigen. |  
 | [PDF-Datei validieren](./validate-pdf/) | Erfahren Sie, wie Sie eine PDF-Datei mit Aspose.PDF für .NET validieren. Überprüfen Sie die Konformität mit Standards und erstellen Sie einen Validierungsbericht. |  
 | [Wie man PDFs mit Aspose taggt – Vollständiger Leitfaden zu PDF-Barrierefreiheits-Tags](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) | Erfahren Sie, wie Sie PDFs mit Aspose taggen und barrierefreie PDFs erstellen – ein umfassender Leitfaden zu Zugänglichkeits-Tags. |  
+| [Erstellen eines getaggten PDFs in C# – Vollständige Schritt-für-Schritt-Anleitung](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein getaggtes PDF in C# vollständig Schritt für Schritt erstellen. |  
+| [PDF barrierefrei machen mit Aspose: Absatz in PDF einfügen – Schritt für Schritt](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET Absätze in PDFs einfügen, um die Barrierefreiheit zu verbessern. |  
+| [Getaggtes PDF in C# erstellen – Überschrift und barrierefreien Text hinzufügen](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein getaggtes PDF in C# erstellen, eine Überschrift hinzufügen und barrierefreien Text einbinden. |
+| [Getaggtes PDF in C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-tagged-pdf-in-c-step-by-step-guide/) | Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.PDF für .NET ein getaggtes PDF in C# erstellen. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

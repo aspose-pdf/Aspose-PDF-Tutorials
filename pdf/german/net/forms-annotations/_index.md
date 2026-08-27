@@ -122,7 +122,7 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET nahtlos FreeText-Anmerkungen zu P
 ### [So fügen Sie mit Aspose.PDF für .NET Tintenanmerkungen in PDFs hinzu](./aspose-pdf-net-ink-annotations-guide/)
 Erfahren Sie, wie Sie Ihre PDFs mit interaktiven Freihandanmerkungen mithilfe von Aspose.PDF für .NET optimieren. Diese Schritt-für-Schritt-Anleitung umfasst Installation, Konfiguration und praktische Anwendungen.
 
-### [So fügen Sie mit Aspose.PDF für .NET Optionsfelder zu PDFs hinzu (C#-Anleitung)](./add-radio-buttons-aspose-pdf-dotnet-csharp/)
+### [So fügen Sie mit Aspose.PDF für .NET Optionsfelder zu PDFs hinzufügen (C#-Anleitung)](./add-radio-buttons-aspose-pdf-dotnet-csharp/)
 Erfahren Sie in diesem umfassenden C#-Tutorial, wie Sie mit Aspose.PDF für .NET interaktive Optionsfelder zu Ihren PDF-Dokumenten hinzufügen. Optimieren Sie die Datenerfassung und verbessern Sie die Dokumentfunktionalität.
 
 ### [So fügen Sie TextBox-Felder in PDFs mit Aspose.PDF für .NET hinzu: Eine Schritt-für-Schritt-Anleitung](./add-textbox-field-aspose-pdf-net/)
@@ -233,7 +233,7 @@ Erfahren Sie, wie Sie PDF-Anmerkungen mit Aspose.PDF für .NET effizient laden, 
 ### [Meistern Sie die PDF-Feldmanipulation mit Aspose.PDF für .NET: Ein umfassender Leitfaden für Entwickler](./aspose-pdf-net-mastering-field-manipulation-guide/)
 Erfahren Sie, wie Sie das Lesen, Hinzufügen, Ändern und Löschen von Feldern in PDFs mit Aspose.PDF für .NET automatisieren. Perfekt für Entwickler, die Dokumenten-Workflows optimieren möchten.
 
-### [Meistern Sie die PDF-Formularmanipulation mit Aspose.PDF für .NET](./master-aspose-pdf-dotnet-form-manipulation/)
+### [Meistern Sie die PDF-Formularmanipulation mit Aspose.PDF für .NET](./master-aspose-pdf-net-form-manipulation/)
 Erfahren Sie, wie Sie PDF-Formulare mit Aspose.PDF für .NET effizient verwalten und bearbeiten. Optimieren Sie Ihre Dokumenten-Workflows mit dynamischen Feldern, Senden-Buttons und mehr.
 
 ### [Meistern Sie die PDF-Formularmanipulation in .NET mit arabischem Text mithilfe von Aspose.PDF](./aspose-pdf-net-arabic-text-manipulation/)
@@ -277,6 +277,9 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET Zeichenbegrenzungen in PDF-Felder
 
 ### [PDF-Anmerkungen mit Aspose.PDF für .NET aktualisieren: Ein umfassender Leitfaden](./update-pdf-annotations-aspose-pdf-dotnet/)
 Erfahren Sie, wie Sie PDF-Anmerkungen mit Aspose.PDF für .NET programmgesteuert aktualisieren. Diese Anleitung enthält Tipps zur Einrichtung, Implementierung und Leistung.
+
+### [PDF-Dokument mit Aspose erstellen – Seite, Textfeld und Formular hinzufügen](./create-pdf-document-with-aspose-add-page-text-box-and-form/)
+Erfahren Sie, wie Sie mit Aspose ein PDF-Dokument erstellen, eine Seite, ein Textfeld und ein Formular hinzufügen.
 
 ## Weitere Ressourcen
 

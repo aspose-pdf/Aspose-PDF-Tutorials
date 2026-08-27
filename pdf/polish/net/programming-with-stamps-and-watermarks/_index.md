@@ -35,12 +35,15 @@ Samouczki „Programowanie ze stemplami i znakami wodnymi” dla .NET firmy Aspo
 | [Obraz w stopce](./image-in-footer/) | Dowiedz się, jak dodać obraz w stopce pliku PDF za pomocą Aspose.PDF dla .NET dzięki temu szczegółowemu samouczkowi krok po kroku. Idealne do ulepszania dokumentów. |  
 | [Obraz w nagłówku](./image-in-header/) | Dowiedz się, jak dodać obraz do nagłówka pliku PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego samouczka krok po kroku. |  
 | [Numer strony w nagłówku i stopce za pomocą pola pływającego](./page-number-in-header-footer-using-floating-box/) | W tym samouczku krok po kroku dowiesz się, jak łatwo dodawać numery stron w nagłówku i stopce pliku PDF za pomocą funkcji Floating Box w programie Aspose.PDF dla platformy .NET. |  
-| [Znaczki z numerami stron w pliku PDF](./page-number-stamps/) Dowiedz się, jak dodawać znaczniki numeracji stron do plików PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z naszego łatwego w użyciu przewodnika z przykładem kodu. |  
+| [Znaczki z numerami stron w pliku PDF](./page-number-stamps/) Dowiedz się, jak dodawać znaczniki numeracji stron do plików PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z naszego łatwego w użycia przewodnika z przykładem kodu. |  
+| [Dodaj numerację Bates do pliku PDF w C# – kompletny przewodnik](./add-bates-numbering-pdf-in-c-complete-guide/) | Dowiedz się, jak dodać numerację Bates do plików PDF w C# przy użyciu Aspose.PDF dla .NET w tym kompletnym przewodniku. |
 | [Tabela w sekcji nagłówka i stopki](./table-in-header-footer-section/) | Dowiedz się, jak łatwo dodać tekst do stopki pliku PDF za pomocą Aspose.PDF dla .NET. Dołączony przewodnik krok po kroku dla bezproblemowej integracji. |  
 | [Tekst w stopce pliku PDF](./text-in-footer/) | Dowiedz się, jak dodać tekst w stopce pliku PDF za pomocą Aspose.PDF dla platformy .NET. |  
 | [Tekst w nagłówku pliku PDF](./text-in-header/) | Naucz się dodawać nagłówki tekstowe do plików PDF za pomocą Aspose.PDF dla .NET dzięki temu samouczkowi krok po kroku. Ulepszaj swoje dokumenty wydajnie i skutecznie. |  
 | [Zmień przezroczystość PDF w C# – Kompletny przewodnik Aspose](./change-pdf-opacity-in-c-complete-aspose-guide/) | Dowiedz się, jak zmienić przezroczystość elementów w pliku PDF przy użyciu Aspose.PDF dla .NET w tym szczegółowym przewodniku. |  
 | [Dodaj numerację Bates w PDF – Kompletny przewodnik C#](./add-bates-numbering-pdf-complete-c-guide/) | Dowiedz się, jak dodać numerację Bates do dokumentów PDF przy użyciu Aspose.PDF dla .NET w tym szczegółowym przewodniku krok po kroku. |  
+| [Jak dodać numerację Bates – przewodnik krok po kroku dla plików PDF](./how-to-add-bates-step-by-step-guide-for-pdfs/) | Dowiedz się, jak dodać numerację Bates do dokumentów PDF przy użyciu Aspose.PDF dla .NET w prostym przewodniku krok po kroku. |  
+| [Zmień przezroczystość PDF za pomocą Aspose.PDF – Kompletny przewodnik C#](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) | Dowiedz się, jak zmienić przezroczystość dokumentu PDF w C# przy użyciu Aspose.PDF w prostym przewodniku krok po kroku. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

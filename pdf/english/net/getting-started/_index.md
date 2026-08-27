@@ -32,6 +32,9 @@ A code tutorial for Aspose.PDF Net
 ### [Loading Aspose.PDF License from File in .NET&#58; A Comprehensive Guide](./load-aspose-pdf-license-file-net/)
 Learn how to seamlessly switch between trial and licensed modes for Aspose.PDF in .NET by loading a license file, ensuring smooth application functionality.
 
+### [How to Install Aspose – PowerShell Guide for Specific Versions](./how-to-install-aspose-powershell-guide-for-specific-versions/)
+Step-by-step PowerShell instructions to install specific versions of Aspose components on Windows.
+
 ## Additional Resources
 
 - [Aspose.PDF for Net Documentation](https://docs.aspose.com/pdf/net/)

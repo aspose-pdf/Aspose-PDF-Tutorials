@@ -41,6 +41,7 @@ Aspose.PDF के "स्टैम्प और वॉटरमार्क क�
 | [पीडीएफ फाइल के हेडर में पाठ](./text-in-header/) | इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF में टेक्स्ट हेडर जोड़ना सीखें। अपने दस्तावेज़ों को कुशलतापूर्वक और प्रभावी ढंग से बेहतर बनाएँ। |  
 | [C# में PDF अपारदर्शिता बदलें – पूर्ण Aspose गाइड](./change-pdf-opacity-in-c-complete-aspose-guide/) C# के लिए Aspose.PDF का उपयोग करके PDF की अपारदर्शिता बदलना सीखें। |  
 | [PDF में Bates नंबरिंग जोड़ें – पूर्ण C# गाइड](./add-bates-numbering-pdf-complete-c-guide/) .NET के लिए Aspose.PDF का उपयोग करके PDF में Bates नंबरिंग जोड़ना सीखें। चरण-दर-चरण मार्गदर्शिका और कोड उदाहरण। |
+| [C# में बेयट्स नंबरिंग PDF जोड़ें – पूर्ण गाइड](./add-bates-numbering-pdf-in-c-complete-guide/) | .NET के लिए Aspose.PDF का उपयोग करके PDF में बेयट्स नंबरिंग जोड़ने की पूरी मार्गदर्शिका। चरण-दर-चरण उदाहरण और कोड। |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

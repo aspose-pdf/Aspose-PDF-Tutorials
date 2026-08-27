@@ -41,6 +41,9 @@ De tutorials "Programmeren met stempels en watermerken" van Aspose.PDF voor .NET
 | [Tekst in koptekst van PDF-bestand](./text-in-header/) | Leer hoe u tekstkoppen aan PDF's toevoegt met Aspose.PDF voor .NET met deze stapsgewijze tutorial. Verbeter uw documenten efficiënt en effectief. |  
 | [PDF-opaciteit wijzigen in C# – Complete Aspose-gids](./change-pdf-opacity-in-c-complete-aspose-guide/) | Leer hoe u de doorzichtigheid van een PDF-bestand kunt aanpassen met Aspose.PDF voor .NET in C# met deze stapsgewijze handleiding. |  
 | [Bates-nummering toevoegen aan PDF – Complete C#-gids](./add-bates-numbering-pdf-complete-c-guide/) | Leer hoe u Bates-nummers toevoegt aan PDF-bestanden met Aspose.PDF voor .NET in C# met deze volledige gids. |  
+| [Bates-nummering toevoegen aan PDF in C# – Complete gids](./add-bates-numbering-pdf-in-c-complete-guide/) | Leer hoe u Bates-nummering aan PDF-documenten toevoegt met Aspose.PDF voor .NET in C# met deze stapsgewijze handleiding. |  
+| [Bates toevoegen – Stapsgewijze handleiding voor PDF's](./how-to-add-bates-step-by-step-guide-for-pdfs/) | Leer hoe u Bates‑nummers toevoegt aan PDF‑documenten met Aspose.PDF voor .NET, stap voor stap. |  
+| [PDF-opaciteit wijzigen met Aspose.PDF – Complete C#-gids](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) | Leer hoe u de doorzichtigheid van PDF-pagina's aanpast met Aspose.PDF voor .NET in C# met deze stapsgewijze handleiding. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

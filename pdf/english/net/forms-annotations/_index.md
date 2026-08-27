@@ -21,7 +21,7 @@ Master PDF interactive features with our comprehensive Aspose.PDF forms and anno
 Learn how to add text, checkbox, combo box, list box, and multi-line fields to PDFs using Aspose.PDF for .NET. This guide covers setup, code examples, and integration tips.
 
 ### [Add List Items to PDF Forms Using Aspose.PDF .NET&#58; A Complete Guide](./add-list-items-aspose-pdf-net/)
-Learn how to add list items to existing PDF forms using Aspose.PDF for .NET with step-by-step instructions and practical examples. Streamline your document workflows today.
+Learn how to add list items to existing PDF forms using Aspose.PDF .NET with step-by-step instructions and practical examples. Streamline your document workflows today.
 
 ### [Add Measured Line Annotation to PDF with Aspose.PDF](./add-measured-line-annotation-aspose-pdf/)
 A code tutorial for Aspose.PDF Net
@@ -233,7 +233,7 @@ Learn how to efficiently load, access, and manipulate PDF annotations using Aspo
 ### [Master PDF Field Manipulation with Aspose.PDF for .NET&#58; A Developer’s Comprehensive Guide](./aspose-pdf-net-mastering-field-manipulation-guide/)
 Learn to automate reading, adding, modifying, and deleting fields in PDFs using Aspose.PDF for .NET. Perfect for developers looking to streamline document workflows.
 
-### [Master PDF Form Manipulation Using Aspose.PDF for .NET](./master-aspose-pdf-dotnet-form-manipulation/)
+### [Master PDF Form Manipulation with Aspose.PDF for .NET](./master-aspose-pdf-dotnet-form-manipulation/)
 Learn how to efficiently manage and manipulate PDF forms using Aspose.PDF for .NET. Enhance your document workflows with dynamic fields, submit buttons, and more.
 
 ### [Master PDF Form Manipulation in .NET with Arabic Text Using Aspose.PDF](./aspose-pdf-net-arabic-text-manipulation/)
@@ -277,6 +277,9 @@ Learn how to set and retrieve character limits in PDF fields with Aspose.PDF for
 
 ### [Update PDF Annotations with Aspose.PDF for .NET&#58; A Comprehensive Guide](./update-pdf-annotations-aspose-pdf-dotnet/)
 Learn how to programmatically update PDF annotations using Aspose.PDF for .NET. This guide covers setup, implementation, and performance tips.
+
+### [Create PDF Document with Aspose – Add Page, Text Box, and Form](./create-pdf-document-with-aspose-add-page-text-box-and-form/)
+Learn how to create a PDF, add a new page, insert a text box, and include a form using Aspose.PDF for .NET.
 
 ## Additional Resources
 

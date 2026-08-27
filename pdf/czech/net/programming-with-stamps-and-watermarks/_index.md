@@ -41,6 +41,7 @@ Výukové programy „Programování s razítky a vodoznaky“ pro .NET od Aspos
 | [Text v záhlaví PDF souboru](./text-in-header/) | Naučte se přidávat textové záhlaví do PDF souborů pomocí Aspose.PDF pro .NET s tímto podrobným návodem. Vylepšete své dokumenty efektivně a účinně. |  
 | [Změna neprůhlednosti PDF v C# – Kompletní průvodce Aspose](./change-pdf-opacity-in-c-complete-aspose-guide/) | Naučte se, jak pomocí Aspose.PDF pro .NET nastavit neprůhlednost stránek PDF v C# s podrobným příkladem kódu. |
 | [Přidat Batesovo číslování PDF – Kompletní průvodce C#](./add-bates-numbering-pdf-complete-c-guide/) | Naučte se, jak pomocí Aspose.PDF pro .NET přidat Batesovo číslování do PDF souborů v C# s podrobným příkladem kódu. |
+| [Přidat Batesovo číslování PDF v C# – Kompletní průvodce](./add-bates-numbering-pdf-in-c-complete-guide/) Naučte se, jak pomocí Aspose.PDF pro .NET přidat Batesovo číslování do PDF souborů v C# s podrobným příkladem kódu. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

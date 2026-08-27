@@ -150,7 +150,7 @@ Leer hoe u efficiënt tekstvelden tussen PDF-documenten kunt kopiëren met Aspos
 Leer hoe u interactieve PDF's met keuzerondjes maakt met Aspose.PDF voor .NET. Deze handleiding behandelt het maken, configureren en aanpassen van PDF-formulieren voor verbeterde gebruikersbetrokkenheid.
 
 ### [Polylijnannotaties in PDF's maken en configureren met Aspose.PDF .NET](./create-configure-polyline-annotations-aspose-pdf-net/)
-Leer hoe u polylijnannotaties in PDF-documenten kunt maken en configureren met Aspose.PDF voor .NET en uw documentworkflow kunt verbeteren met C#.
+Leer hoe u polylijnannotaties in PDF-documenten kunt maken en configureren met Aspose.PDF .NET en uw documentworkflow kunt verbeteren met C#.
 
 ### [PDF-formuliervelden aanpassen met Aspose.PDF voor .NET: een stapsgewijze handleiding](./customize-pdf-form-fields-aspose-dotnet/)
 Leer hoe u uw PDF-formulieren kunt verbeteren met Aspose.PDF voor .NET door de weergave en lettertypen van formuliervelden aan te passen. Volg onze handleiding om professionele documenten te maken.
@@ -277,6 +277,9 @@ Leer hoe u tekenlimieten in PDF-velden kunt instellen en ophalen met Aspose.PDF 
 
 ### [PDF-annotaties bijwerken met Aspose.PDF voor .NET: een uitgebreide handleiding](./update-pdf-annotations-aspose-pdf-dotnet/)
 Leer hoe u PDF-annotaties programmatisch kunt bijwerken met Aspose.PDF voor .NET. Deze handleiding bevat tips voor installatie, implementatie en prestaties.
+
+### [PDF-document maken met Aspose – Pagina, tekstvak en formulier toevoegen](./create-pdf-document-with-aspose-add-page-text-box-and-form/)
+Leer hoe u met Aspose een PDF-document maakt, een pagina, een tekstvak en een formulier toevoegt.
 
 ## Aanvullende bronnen
 

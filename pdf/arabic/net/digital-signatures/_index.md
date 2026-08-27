@@ -17,39 +17,43 @@
 
 ## البرامج التعليمية المتاحة
 
+
+
 ### [التوقيعات الرقمية في ملفات PDF باستخدام Aspose.PDF لـ .NET: دليل شامل](./digital-signature-aspose-pdf-net-tutorial/)
 تعرّف على كيفية تطبيق التوقيعات الرقمية في ملفات PDF باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل الإعداد، وعمليات التوقيع، وإدارة ظهور التوقيعات.
-
 ### [التوقيع رقميًا على ملف PDF بمظهر مخصص باستخدام Aspose.PDF لـ .NET: دليل خطوة بخطوة](./digitally-sign-pdf-custom-appearance-aspose-pdf-net/)
 تعرّف على كيفية التوقيع الرقمي على ملف PDF بمظهر مخصص باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل إعداد التوقيعات الرقمية وتخصيصها وتطبيقاتها العملية في مستنداتك.
-
 ### [استخراج معلومات التوقيع الرقمي من ملفات PDF باستخدام Aspose.PDF](./extract-digital-signature-info-from-pdfs-aspose-pdf/)
 برنامج تعليمي لبرمجة Aspose.PDF Net
-
 ### [كيفية تغيير لغة توقيع PDF باستخدام Aspose.PDF لـ .NET](./change-pdf-signature-language-aspose-net/)
 تعرّف على كيفية تخصيص نص التوقيع الرقمي في ملفات PDF باستخدام Aspose.PDF لـ .NET. مثالي لإعداد وترجمة المستندات متعددة اللغات.
-
 ### [كيفية إنشاء توقيعات PDF والتحقق منها باستخدام Aspose.PDF لـ .NET](./create-verify-pdf-signatures-aspose-net/)
 تعرّف على كيفية إنشاء توقيعات PDF وتوقيعها والتحقق منها بأمان باستخدام Aspose.PDF لـ .NET. حسّن سير عمل مستنداتك مع هذا الدليل الشامل.
-
 ### [كيفية استخراج معلومات توقيع PDF باستخدام Aspose.PDF .NET: دليل خطوة بخطوة](./extract-pdf-signature-info-aspose-pdf-net/)
 تعرّف على كيفية استخراج معلومات التوقيع الرقمي من ملفات PDF باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل خطوة بخطوة التثبيت والتنفيذ والتطبيقات العملية.
-
 ### [كيفية تنفيذ التوقيعات الرقمية في .NET باستخدام Aspose.PDF: دليل شامل](./implement-pdf-signatures-dotnet-aspose-pdf-guide/)
 تعرف على كيفية تنفيذ التوقيعات الرقمية الآمنة على ملفات PDF باستخدام Aspose.PDF لـ .NET، بما في ذلك إلغاء الحقول الاختيارية.
-
 ### [كيفية إزالة التوقيعات الرقمية من ملفات PDF باستخدام Aspose.PDF .NET | دليل شامل](./remove-pdf-digital-signatures-aspose-pdf-net/)
 تعرّف على كيفية إزالة التوقيعات الرقمية بكفاءة من ملفات PDF باستخدام Aspose.PDF .NET. يغطي هذا الدليل الشامل إزالة التوقيع الفردي والمتعدد، مع تعليمات خطوة بخطوة.
-
 ### [كيفية التحقق من توقيعات PDF باستخدام Aspose.PDF لـ .NET: دليل شامل](./verify-pdf-signatures-aspose-pdf-net/)
 تعرّف على كيفية التحقق من التوقيعات الرقمية في ملفات PDF باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل الإعداد والتنفيذ والتطبيقات العملية.
-
 ### [إتقان التوقيع والتحقق من ملفات PDF باستخدام Aspose.PDF .NET](./mastering-aspose-pdf-net-sign-verify-smart-card-certificates/)
 برنامج تعليمي لبرمجة Aspose.PDF Net
-
 ### [إتقان Aspose.PDF .NET: كيفية التحقق من التوقيعات الرقمية في ملفات PDF](./aspose-pdf-net-verify-digital-signature/)
 تعرّف على كيفية التحقق من التوقيعات الرقمية في ملفات PDF باستخدام Aspose.PDF لـ .NET. تأكّد من سلامة المستندات وصحتها من خلال دليلنا المفصل.
-
+### [التحقق من توقيع PDF في C# – دليل شامل للتحقق من صحة التوقيع الرقمي للملف PDF](./verify-pdf-signature-in-c-complete-guide-to-validate-digital/)
+تعرّف على كيفية التحقق من توقيع PDF باستخدام C# من خلال دليل شامل للتحقق من صحة التوقيع الرقمي.
+### [تحميل مستند PDF باستخدام C# – التحويل إلى PDF/X‑4 وعرض التوقيعات](./load-pdf-document-c-convert-to-pdf-x-4-list-signatures/)
+تعلم كيفية تحميل مستند PDF في C#، تحويله إلى صيغة PDF/X‑4 واستخراج قائمة التوقيعات المضمنة.
+### [التحقق من توقيع PDF باستخدام Aspose – تحويل PDF إلى HTML](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
+تعرّف على كيفية التحقق من توقيع PDF وتحويله إلى HTML باستخدام Aspose.
+### [تحميل مستند PDF موقع وعرض توقيعاته – دليل C#](./load-signed-pdf-document-and-list-its-signatures-c-guide/)
+تعرف على كيفية تحميل مستند PDF موقع واستخراج قائمة التوقيعات باستخدام Aspose.PDF في C#.
+### [التحقق من توقيع PDF وإضافة مستطيل إلى PDF باستخدام Aspose](./verify-pdf-signature-and-add-rectangle-pdf-with-aspose/)
+تعلم كيفية التحقق من توقيع PDF وإدراج شكل مستطيل في المستند باستخدام مكتبة Aspose.PDF لـ .NET.
+### [تصدير PDF إلى HTML والتحقق من توقيع PDF باستخدام Aspose](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
+تعلم كيفية تصدير ملفات PDF إلى HTML والتحقق من صحة توقيع PDF باستخدام مكتبة Aspose.
+### [كيفية التحقق من التوقيع في PDF باستخدام Aspose.PDF – دليل C#](./how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/)
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

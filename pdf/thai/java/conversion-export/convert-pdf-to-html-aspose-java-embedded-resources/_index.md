@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-14"
-"description": "เรียนรู้วิธีแปลงเอกสาร PDF เป็นรูปแบบ HTML ที่เป็นมิตรต่อเว็บโดยใช้ Aspose.PDF สำหรับ Java เพื่อให้แน่ใจว่าทรัพยากรทั้งหมด เช่น แบบอักษรและรูปภาพจะถูกฝังไว้"
-"title": "แปลง PDF เป็น HTML ด้วยทรัพยากรที่ฝังไว้โดยใช้ Aspose.PDF สำหรับ Java"
-"url": "/th/java/conversion-export/convert-pdf-to-html-aspose-java-embedded-resources/"
-"weight": 1
+date: '2026-03-23'
+description: เรียนรู้วิธีแปลง PDF เป็น HTML ด้วย Java และ Aspose.PDF, การฝังทรัพยากร
+  HTML, การจัดการภาพจาก PDF ไปยัง HTML, และการสร้างผลลัพธ์ HTML ไฟล์เดียว.
+keywords:
+- convert PDF to HTML Java
+- embed resources in HTML
+- Aspose.PDF for Java tutorial
+title: pdf to html java – แปลง PDF เป็น HTML พร้อมทรัพยากรฝังด้วย Aspose.PDF สำหรับ
+  Java
+url: /th/java/conversion-export/convert-pdf-to-html-aspose-java-embedded-resources/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,8 +17,189 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# แปลงไฟล์ PDF เป็น HTML พร้อมฝังทรัพยากรทั้งหมดโดยใช้ Aspose.PDF สำหรับ Java\n\n## บทนำ\n\nการแปลงไฟล์ PDF เป็นรูปแบบ HTML ที่เป็นมิตรต่อเว็บพร้อมฝังทรัพยากรที่จำเป็นทั้งหมด เช่น แบบอักษรและรูปภาพอาจเป็นเรื่องท้าทาย อย่างไรก็ตาม การใช้ Aspose.PDF สำหรับ Java ช่วยลดความซับซ้อนของกระบวนการนี้ บทช่วยสอนนี้จะแนะนำคุณเกี่ยวกับการแปลงไฟล์ PDF เป็นเอกสาร HTML แบบฝังเต็มรูปแบบที่เหมาะสำหรับการเผยแพร่บนเว็บ\n\n**สิ่งที่คุณจะได้เรียนรู้:**\n- วิธีใช้ Aspose.PDF สำหรับ Java เพื่อแปลงไฟล์ PDF เป็นรูปแบบ HTML\n- กำหนดค่าตัวเลือกเพื่อฝังทรัพยากรทั้งหมดไว้ในไฟล์ HTML ไฟล์เดียว\n- การนำกลยุทธ์การบันทึก HTML แบบกำหนดเองไปใช้ใน Java\n- รับรองการแปลงเอกสารที่ซับซ้อนด้วยทรัพยากรที่ฝังไว้จะราบรื่น\n\nเริ่มต้นด้วยการทบทวนข้อกำหนดเบื้องต้นก่อนจะลงลึกในกระบวนการแปลง\n\n## ข้อกำหนดเบื้องต้น\n\nก่อนจะเริ่มต้น โปรดตรวจสอบว่าคุณมี:\n\n### ไลบรารีและการอ้างอิงที่จำเป็น\n- **Aspose.PDF สำหรับ Java**:ไลบรารีหลักที่จำเป็นสำหรับการจัดการ PDF ใช้เวอร์ชัน 25.3 ขึ้นไป  
-### ข้อกำหนดในการตั้งค่าสภาพแวดล้อม\n- ติดตั้ง Java Development Kit (JDK) บนเครื่องของคุณ\n- IDE เช่น IntelliJ IDEA, Eclipse หรือ NetBeans\n\n### ข้อกำหนดเบื้องต้นเกี่ยวกับความรู้\n- ความเข้าใจพื้นฐานเกี่ยวกับการเขียนโปรแกรม Java\n- คุ้นเคยกับ Maven หรือ Gradle สำหรับการจัดการการอ้างอิง\n\n## การตั้งค่า Aspose.PDF สำหรับ Java\n\nขั้นแรก ให้เพิ่ม Aspose.PDF ลงในสภาพแวดล้อมการพัฒนาของคุณ คุณสามารถรวมไว้เป็นการอ้างอิงโดยใช้ Maven หรือ Gradle:\n\n### Maven\n```xml\n<dependency>\n    <groupId>com.aspose</groupId>\n    <artifactId>aspose-pdf</artifactId>\n    <version>25.3</version>\n</dependency>\n```\n\n### แกรเดิล\n```gradle\nimplementation 'com.aspose:aspose-pdf:25.3'\n```\n\n#### ขั้นตอนการรับใบอนุญาต\n1. **ทดลองใช้งานฟรี**ดาวน์โหลดรุ่นทดลองใช้งานฟรีจากเว็บไซต์ Aspose เพื่อประเมินคุณสมบัติต่างๆ\n2. **ใบอนุญาตชั่วคราว**:ให้สมัครใบอนุญาตชั่วคราวหากคุณต้องการสิทธิ์การเข้าถึงแบบเต็มรูปแบบโดยไม่มีข้อจำกัดในช่วงระยะเวลาประเมินผลของคุณ\n3. **ซื้อ**: ควรพิจารณาซื้อใบอนุญาตสำหรับการใช้งานในระยะยาว\n\nเมื่อรวมอยู่ในโครงการของคุณแล้ว ให้เริ่มต้น Aspose.PDF ดังต่อไปนี้:\n```java\nimport com.aspose.pdf.Document;\n\npublic class PDFToHTMLConverter {\n    public static void main(String[] args) {\n        // Ensure the path to your license file is correct if using a licensed version\n        // License license = new License();\n        // license.setLicense(\"path/to/Aspose.Total.Java.lic\");\n        \n        System.out.println(\"Aspose.PDF for Java setup complete!\");\n    }\n}\n```\n\n## คู่มือการใช้งาน\n\nตอนนี้ มาแปลง PDF ของคุณเป็น HTML พร้อมฝังทรัพยากรทั้งหมดกัน\n\n### การโหลดเอกสาร PDF\nโหลดเอกสาร PDF ของคุณโดยใช้ Aspose.PDF:\n```java\nimport com.aspose.pdf.Document;\n\nString dataDir = \"YOUR_DOCUMENT_DIRECTORY\";\nDocument doc = new Document(dataDir + \"/input.pdf\");\n```\n\n### การกำหนดค่าตัวเลือกการบันทึก HTML\nตั้งค่าตัวเลือกเพื่อฝังทรัพยากรทั้งหมดภายในเอาต์พุต HTML โดยใช้ `HtmlSaveOptions`:\น```java\nimport com.aspose.pdf.HtmlSaveOptions;\nimport com.aspose.pdf.LettersPositioningMethods;\n\nHtmlSaveOptions newOptions = new HtmlSaveOptions();\nnewOptions.setRasterImagesSavingMode(HtmlSaveOptions.RasterImagesSavingModes.AsEmbeddedPartsOfPngPageBackground);\nnewOptions.setFontSavingMode(HtmlSaveOptions.FontSavingModes.SaveInAllFormats);\nnewOptions.setPartsEmbeddingMode(HtmlSaveOptions.PartsEmbeddingModes.EmbedAllIntoHtml);\nnewOptions.setLettersPositioningMethod(LettersPositioningMethods.UseEmUnitsAndCompensationOfRoundingErrorsInCss);\nnewOptions.setSplitIntoPages(false); // Combine all pages into a single HTML file\n```\n\n### การปรับแต่งกลยุทธ์การบันทึก\nใช้กลยุทธ์ที่กำหนดเองเพื่อควบคุมวิธีการบันทึกเนื้อหา HTML:\n```java\nimport java.io.FileOutputStream;\n\nnewOptions.setCustomHtmlSavingStrategy(new HtmlSaveOptions.HtmlPageMarkupSavingStrategy() {\n    public void invoke(HtmlSaveOptions.HtmlPageMarkupSavingInfo htmlSavingInfo) {\n        try {\n            byte[] resultHtmlAsBytes = new byte[(int) htmlSavingInfo.getContentStream().available()];\n            htmlSavingInfo.getContentStream().read(resultHtmlAsBytes, 0, resultHtmlAsBytes.length);\n\n            FileOutputStream fos = new FileOutputStream(\"YOUR_OUTPUT_DIRECTORY/allResourceEmbeddedInSingleResultantStream.html\");\n            fos.write(resultHtmlAsBytes);\n            fos.close();\n        } catch (Exception e) {\n            e.printStackTrace(); // Handle exceptions such as IOException and FileNotFoundException\n        }\n    }\n});\n```\n\n### การบันทึกเอกสาร\nสุดท้าย ให้บันทึกเอกสารของคุณด้วยตัวเลือกที่กำหนดค่าไว้:\n```java\nString outHtmlFile = \"YOUR_OUTPUT_DIRECTORY/ThisFileWillNotAppearOnDisk.html\";\ndoc.save(outHtmlFile, newOptions);\n```\n\n## การประยุกต์ใช้งานจริง\n\n- **การเผยแพร่ทางเว็บไซต์**:ฝังทรัพยากรทั้งหมดไว้ในไฟล์ HTML เดียวเพื่อการโฮสต์เว็บที่ง่ายดาย\n- **การเก็บเอกสารถาวร**:แปลงและเก็บเอกสารโดยที่ทรัพย์สินทั้งหมดยังคงอยู่ **การเรียกดูแบบออฟไลน์**:รับรองการเข้าถึงเนื้อหา PDF แบบออฟไลน์โดยการฝังทรัพยากร **การบูรณาการกับ CMS**:บูรณาการเข้ากับระบบการจัดการเนื้อหาที่จำเป็นต้องมีทรัพยากรที่ฝังไว้ได้อย่างราบรื่น\n\n## ข้อควรพิจารณาด้านประสิทธิภาพ\n\n- **การเพิ่มประสิทธิภาพการใช้ทรัพยากร**: ใช้ `setRasterImagesSavingMode` การฝังรูปภาพอย่างมีประสิทธิภาพ\n- **การจัดการหน่วยความจำ**:ตรวจสอบการใช้งานหน่วยความจำ Java โดยเฉพาะอย่างยิ่งเมื่อต้องจัดการกับ PDF ขนาดใหญ่ **การประมวลผลแบบอะซิงโครนัส**:นำการประมวลผลแบบอะซิงโครนัสมาใช้เพื่อแปลงเอกสารหลายฉบับพร้อมกัน\n\n## สรุป\n\nตอนนี้คุณได้เรียนรู้วิธีการแปลงไฟล์ PDF เป็นรูปแบบ HTML พร้อมฝังทรัพยากรทั้งหมดโดยใช้ Aspose.PDF สำหรับ Java แล้ว วิธีนี้เหมาะอย่างยิ่งสำหรับการเผยแพร่ทางเว็บและการเก็บถาวรเอกสาร ช่วยให้มั่นใจได้ว่าเนื้อหาของคุณจะดูสมบูรณ์แบบไม่ว่าจะเปิดดูที่ไหน\n\n**ขั้นตอนต่อไป:**\n- ทดลองด้วยวิธีที่แตกต่างกัน `HtmlSaveOptions` การกำหนดค่า\n- สำรวจคุณลักษณะอื่นๆ ของ Aspose.PDF เพื่อปรับปรุงความสามารถในการจัดการ PDF ของคุณ\n\nพร้อมที่จะลองใช้งานหรือยัง เริ่มแปลง PDF ของคุณวันนี้!\n\n## ส่วนคำถามที่พบบ่อย\n\n1. **ข้อกำหนดของระบบสำหรับการใช้ Aspose.PDF Java คืออะไร**\n - ต้องใช้ JDK และ IDE ที่เข้ากันได้ เช่น IntelliJ IDEA หรือ Eclipse\n\n2. **ฉันจะรับใบอนุญาตชั่วคราวสำหรับ Aspose.PDF Java ได้อย่างไร**\n - เยี่ยมชม [หน้าการอนุญาตสิทธิ์ของ Aspose](https://purchase.aspose.com/temporary-license/) เพื่อขออันหนึ่ง\n\n3. **ฉันสามารถแปลงไฟล์ PDF หลายไฟล์พร้อมกันได้ไหม?**\n - ใช่ ใช้งานการประมวลผลแบบแบตช์โดยทำซ้ำในไฟล์ต่างๆ ในไดเร็กทอรี\n\n4. **จะเกิดอะไรขึ้นถ้าการแปลงล้มเหลวสำหรับหน้าเฉพาะ?**\n - ตรวจสอบไฟล์ PDF ที่คุณป้อนว่ามีเนื้อหาเสียหายหรือฟีเจอร์ที่ไม่ได้รับการสนับสนุนหรือไม่ และลองอีกครั้ง\n\n5. **ฉันจะลดขนาดไฟล์ HTML ที่สร้างขึ้นได้อย่างไร**\n - เพิ่มประสิทธิภาพรูปภาพและบีบอัด CSS/JS หากเป็นไปได้ก่อนฝัง\n\n## ทรัพยากร\n- [เอกสารประกอบ](https://reference.aspose.com/pdf/java/)\น- [ดาวน์โหลด Aspose.PDF](https://releases.aspose.com/pdf/java/)\น- [ซื้อใบอนุญาต](https://purchase.aspose.com/buy)\น- [ทดลองใช้งานฟรี](https://releases.aspose.com/pdf/java/)\น- [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)\น- [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/pdf/10)\น
+# แปลง PDF เป็น HTML พร้อมฝังทรัพยากรทั้งหมดโดยใช้ Aspose.PDF for Java
+
+## บทนำ
+
+การแปลง PDF เป็น HTML ด้วย **pdf to html java** อาจเป็นเรื่องยากเมื่อคุณต้องการให้ฟอนต์, รูปภาพ, และสไตล์ทั้งหมดคงเดิม อย่างไรก็ตาม Aspose.PDF for Java จะจัดการงานที่ยุ่งยากให้คุณได้ ทำให้คุณสามารถสร้างไฟล์ HTML เดียวที่ฝังทรัพยากรทั้งหมดไว้ได้ ในบทเรียนนี้คุณจะได้เรียนรู้วิธีทำ **aspose pdf html conversion** อย่างเต็มรูปแบบ, ฝังทรัพยากรใน HTML, และเก็บ **pdf to html images** ไว้ในผลลัพธ์โดยตรง
+
+**สิ่งที่คุณจะได้เรียนรู้**
+
+- วิธีใช้ Aspose.PDF for Java เพื่อแปลงไฟล์ PDF เป็นรูปแบบ HTML  
+- การกำหนดค่าตัวเลือกเพื่อฝังทรัพยากรทั้งหมดในไฟล์ HTML เดียว  
+- การนำกลยุทธ์การบันทึก HTML ที่กำหนดเองมาใช้ใน Java  
+- การรับประกันการแปลงเอกสารที่ซับซ้อนพร้อมทรัพยากรฝังอย่างราบรื่น  
+
+### คำตอบอย่างรวดเร็ว
+- **Aspose.PDF สามารถฝังฟอนต์และรูปภาพได้หรือไม่?** ใช่ – สามารถฝังฟอนต์และรูปภาพ raster ทั้งหมดโดยตรงลงใน HTML  
+- **ฉันจะได้ไฟล์ HTML เดียวหรือไม่?** การตั้งค่า `PartsEmbeddingModes.EmbedAllIntoHtml` จะสร้างผลลัพธ์เป็นไฟล์เดียว  
+- **ไลบรารีหลักที่ต้องการคืออะไร?** แพ็กเกจ `aspose-pdf` ของ Maven/Gradle  
+- **จำเป็นต้องมีใบอนุญาตสำหรับฟีเจอร์นี้หรือไม่?** เวอร์ชันทดลองทำงานได้ แต่ใบอนุญาตถาวรจะลบข้อจำกัดการประเมินผลออก  
+- **ฉันสามารถรันบน Java 11+ ได้หรือไม่?** แน่นอน – Aspose.PDF รองรับ JDK เวอร์ชันใหม่  
+
+## pdf to html java คืออะไร
+
+`pdf to html java` หมายถึงกระบวนการนำเอกสาร PDF มาสร้างเป็นการแสดงผล HTML อย่างเป็นโปรแกรมโดยใช้ไลบรารี Java วิธีนี้เหมาะสำหรับการเผยแพร่บนเว็บ, การเก็บเอกสาร, หรือการรวม PDF เข้าในกระบวนการจัดการเนื้อหา  
+
+## ทำไมต้องฝังทรัพยากรใน HTML
+
+การฝังทรัพยากร (ฟอนต์, รูปภาพ, CSS) โดยตรงลงใน HTML จะกำจัดการพึ่งพาไฟล์ภายนอก, ทำให้หน้าเว็บแสดงผลได้อย่างถูกต้องแม้ไม่มีการเชื่อมต่ออินเทอร์เน็ตหรืออยู่ในสภาพแวดล้อมแยกต่างหาก เช่น ไคลเอนต์อีเมลหรือเครื่องมือสร้างเว็บไซต์แบบสเตติก  
+
+## ข้อกำหนดเบื้องต้น
+
+ก่อนเริ่มทำงาน, โปรดตรวจสอบว่าคุณมี:
+
+### ไลบรารีและการพึ่งพาที่จำเป็น
+- **Aspose.PDF for Java** – เวอร์ชัน 25.3 หรือใหม่กว่า  
+- **Java Development Kit (JDK)** – 8 หรือใหม่กว่า  
+- **IDE** – IntelliJ IDEA, Eclipse, หรือ NetBeans  
+
+### ความรู้ที่ต้องมี
+- การเขียนโปรแกรม Java เบื้องต้น  
+- ความคุ้นเคยกับ Maven หรือ Gradle สำหรับการจัดการการพึ่งพา  
+
+## การตั้งค่า Aspose.PDF for Java
+
+แรกเริ่ม, เพิ่ม Aspose.PDF ลงในโปรเจกต์ของคุณ
+
+### Maven
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-pdf</artifactId>
+    <version>25.3</version>
+</dependency>
+```
+
+### Gradle
+```gradle
+implementation 'com.aspose:aspose-pdf:25.3'
+```
+
+#### ขั้นตอนการรับใบอนุญาต
+1. **Free Trial**: ดาวน์โหลดเวอร์ชันทดลองฟรีจากเว็บไซต์ Aspose เพื่อประเมินฟีเจอร์  
+2. **Temporary License**: ขอรับใบอนุญาตชั่วคราวหากต้องการเข้าถึงเต็มรูปแบบโดยไม่มีข้อจำกัดในช่วงการประเมิน  
+3. **Purchase**: พิจารณาซื้อใบอนุญาตสำหรับการใช้งานระยะยาว  
+
+เมื่อเพิ่มลงในโปรเจกต์แล้ว, เริ่มต้น Aspose.PDF:
+
+```java
+import com.aspose.pdf.Document;
+
+public class PDFToHTMLConverter {
+    public static void main(String[] args) {
+        // Ensure the path to your license file is correct if using a licensed version
+        // License license = new License();
+        // license.setLicense("path/to/Aspose.Total.Java.lic");
+        
+        System.out.println("Aspose.PDF for Java setup complete!");
+    }
+}
+```
+
+## คู่มือการทำงาน
+
+ต่อไปเราจะเดินผ่านขั้นตอนการแปลงจริง
+
+### Loading the PDF Document
+```java
+import com.aspose.pdf.Document;
+
+String dataDir = "YOUR_DOCUMENT_DIRECTORY";
+Document doc = new Document(dataDir + "/input.pdf");
+```
+
+### Configuring HTML Save Options
+```java
+import com.aspose.pdf.HtmlSaveOptions;
+import com.aspose.pdf.LettersPositioningMethods;
+
+HtmlSaveOptions newOptions = new HtmlSaveOptions();
+newOptions.setRasterImagesSavingMode(HtmlSaveOptions.RasterImagesSavingModes.AsEmbeddedPartsOfPngPageBackground);
+newOptions.setFontSavingMode(HtmlSaveOptions.FontSavingModes.SaveInAllFormats);
+newOptions.setPartsEmbeddingMode(HtmlSaveOptions.PartsEmbeddingModes.EmbedAllIntoHtml);
+newOptions.setLettersPositioningMethod(LettersPositioningMethods.UseEmUnitsAndCompensationOfRoundingErrorsInCss);
+newOptions.setSplitIntoPages(false); // Combine all pages into a single HTML file
+```
+
+### Customizing the Saving Strategy
+```java
+import java.io.FileOutputStream;
+
+newOptions.setCustomHtmlSavingStrategy(new HtmlSaveOptions.HtmlPageMarkupSavingStrategy() {
+    public void invoke(HtmlSaveOptions.HtmlPageMarkupSavingInfo htmlSavingInfo) {
+        try {
+            byte[] resultHtmlAsBytes = new byte[(int) htmlSavingInfo.getContentStream().available()];
+            htmlSavingInfo.getContentStream().read(resultHtmlAsBytes, 0, resultHtmlAsBytes.length);
+
+            FileOutputStream fos = new FileOutputStream("YOUR_OUTPUT_DIRECTORY/allResourceEmbeddedInSingleResultantStream.html");
+            fos.write(resultHtmlAsBytes);
+            fos.close();
+        } catch (Exception e) {
+            e.printStackTrace(); // Handle exceptions such as IOException and FileNotFoundException
+        }
+    }
+});
+```
+
+### Saving the Document
+```java
+String outHtmlFile = "YOUR_OUTPUT_DIRECTORY/ThisFileWillNotAppearOnDisk.html";
+doc.save(outHtmlFile, newOptions);
+```
+
+## การประยุกต์ใช้งานจริง
+
+- **Web Publishing** – ฝังทรัพยากรทั้งหมดในไฟล์ HTML เดียวเพื่อการโฮสต์ที่ง่ายดาย  
+- **Document Archiving** – รักษา PDF พร้อมทรัพยากรทั้งหมดไว้สำหรับการเก็บระยะยาว  
+- **Offline Browsing** – ผู้ใช้สามารถดู HTML ที่แปลงแล้วโดยไม่ต้องเชื่อมต่ออินเทอร์เน็ต  
+- **CMS Integration** – ส่งออกผลลัพธ์ไฟล์เดียวโดยตรงไปยังระบบจัดการเนื้อหาที่ต้องการทรัพยากรฝัง  
+
+## การพิจารณาด้านประสิทธิภาพ
+
+- **Optimizing Resources** – `setRasterImagesSavingMode` ฝังรูปภาพอย่างมีประสิทธิภาพโดยไม่ทำให้ไฟล์บวมเกินไป  
+- **Memory Management** – ตรวจสอบการใช้ heap ของ Java, โดยเฉพาะกับ PDF ขนาดใหญ่, เพื่อหลีกเลี่ยง `OutOfMemoryError`  
+- **Asynchronous Processing** – สำหรับการแปลงเป็นชุด, ให้รันการแปลงแต่ละรายการในเธรดของตนเองหรือใช้ executor service  
+
+## ปัญหาที่พบบ่อยและวิธีแก้
+
+| Issue | Solution |
+|-------|----------|
+| **Large PDF causes high memory usage** | เปิดใช้งานการประมวลผลแบบ incremental หรือแยก PDF ก่อนแปลง |
+| **Missing fonts in output** | ตรวจสอบให้ไฟล์ฟอนต์เข้าถึงได้โดย JVM หรือใช้ `FontSavingModes.SaveInAllFormats` |
+| **Images appear broken** | ยืนยันว่า `RasterImagesSavingMode` ตั้งค่าให้ฝังพื้นหลัง PNG |
+| **Conversion stalls on complex pages** | เพิ่มขนาด heap ของ JVM (`-Xmx2g`) และพิจารณาsimplify PDF ต้นฉบับ |
+
+## คำถามที่พบบ่อย
+
+**Q: ระบบต้องการอะไรบ้างสำหรับการใช้ Aspose.PDF Java?**  
+A: ต้องมี JDK (8 หรือใหม่กว่า) และ IDE ที่รองรับเช่น IntelliJ IDEA หรือ Eclipse  
+
+**Q: จะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.PDF Java ได้อย่างไร?**  
+A: เยี่ยมชม [Aspose's licensing page](https://purchase.aspose.com/temporary-license/) เพื่อขอรับ  
+
+**Q: สามารถแปลง PDF หลายไฟล์พร้อมกันได้หรือไม่?**  
+A: ได้, สามารถทำการประมวลผลเป็นชุดโดยวนลูปไฟล์ในโฟลเดอร์  
+
+**Q: หากการแปลงล้มเหลวในบางหน้า จะทำอย่างไร?**  
+A: ตรวจสอบ PDF ต้นฉบับว่ามีเนื้อหาที่เสียหายหรือฟีเจอร์ที่ไม่รองรับหรือไม่และลองใหม่อีกครั้ง  
+
+**Q: จะลดขนาดไฟล์ HTML ที่สร้างได้อย่างไร?**  
+A: ปรับรูปภาพและบีบอัด CSS/JS ก่อนฝัง, หรือสลับไปใช้โหมด raster image ที่เข้มข้นกว่า  
+
+## แหล่งข้อมูล
+- [เอกสารอ้างอิง](https://reference.aspose.com/pdf/java/)
+- [ดาวน์โหลด Aspose.PDF](https://releases.aspose.com/pdf/java/)
+- [ซื้อใบอนุญาต](https://purchase.aspose.com/buy)
+- [ทดลองใช้ฟรี](https://releases.aspose.com/pdf/java/)
+- [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
+- [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/pdf/10)
+
+---
+
+**อัปเดตล่าสุด:** 2026-03-23  
+**ทดสอบด้วย:** Aspose.PDF for Java 25.3  
+**ผู้เขียน:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

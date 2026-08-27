@@ -1,0 +1,7 @@
+Title: Convert PDF to 2.0 – Full ASP.NET Guide with Error Logging
+Slug: convert-pdf-to-2-0-full-asp-net-guide-with-error-logging
+Category: document-conversion
+ProcessedDate: 2026-06-09T04:17:37.680466
+SourceRepo: AI Search API
+Keywords: convert pdf to 2.0, save pdf document, asp, how to convert pdf, write errors xml
+PRNumber: 89

@@ -1,6 +1,6 @@
 ---
-title: Programming with Tagged PDF
-linktitle: Programming with Tagged PDF
+title: Create and Manipulate Tagged PDFs with Aspose.PDF for .NET
+linktitle: Create and Manipulate Tagged PDFs with Aspose.PDF for .NET
 weight: 24
 url: /net/programming-with-tagged-pdf/
 description: Check out Aspose.PDF for .NET's Programming with Tagged PDF tutorials to master tagged PDF manipulation and generation.
@@ -14,8 +14,21 @@ description: Check out Aspose.PDF for .NET's Programming with Tagged PDF tutoria
 
 # Programming with Tagged PDF
 
-
 Aspose.PDF for .NET's "Programming with Tagged PDFs" tutorials walk you through using this library to manipulate and generate tagged PDFs. Learn how to create content structures, manage tagged elements, validate PDF/UA compliance, and improve accessibility of PDF documents. These tutorials give you an in-depth understanding of programming with tagged PDFs and help you get the most out of the power of Aspose.PDF for .NET.
+
+```csharp
+// Load a PDF document
+var pdfDocument = new Aspose.Pdf.Document("input.pdf");
+
+// Add a new structure element (e.g., a heading)
+var structure = pdfDocument.StructTreeRoot;
+var heading = new Aspose.Pdf.Tagged.PdfStructureElement(structure, Aspose.Pdf.Tagged.PdfStructureElementType.H1);
+heading.Title = "Chapter 1: Introduction";
+structure.AddKid(heading);
+
+// Save the tagged PDF
+pdfDocument.Save("output_tagged.pdf");
+```
 
 ## Tutorials
 | Title | Description |
@@ -25,13 +38,15 @@ Aspose.PDF for .NET's "Programming with Tagged PDFs" tutorials walk you through 
 | [Create Note Structure Element](./create-note-structure-element/) | Learn to create note structure elements in PDFs with Aspose.PDF for .NET through this detailed, step-by-step tutorial. |  
 | [Create PDF with Tagged Image](./create-pdf-with-tagged-image/) | Learn to create a tagged PDF with images using Aspose.PDF for .NET. Follow our step-by-step guide for accessible and professional document creation. |  
 | [Create PDF with Tagged Text](./create-pdf-with-tagged-text/) | Learn how to create tagged PDFs with accessible content using Aspose.PDF for .NET in this comprehensive step-by-step tutorial. |  
+| [Create Tagged PDF in C# – Complete Step‑by‑Step Guide](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Learn how to create a fully tagged PDF using Aspose.PDF for .NET in C# with this comprehensive step-by-step guide. |
 | [Create Structure Elements](./create-structure-elements/) | Learn how to create structure elements in PDF with Aspose.PDF for .NET. A step-by-step guide for enhanced PDF accessibility and organization. |  
 | [Create Structure Elements Tree](./create-structure-elements-tree/) | Learn how to create a structure elements tree in PDF documents using Aspose.PDF for .NET. Follow this step-by-step guide. |  
 | [Create Table Element](./create-table-element/) | Step by step guide to create an array element with Aspose.PDF for .NET. Generate dynamic PDFs with tables easily. |  
 | [Custom Tag Name](./custom-tag-name/) | Step-by-step guide to using a custom tag name with Aspose.PDF for .NET. Improve the structure of your PDFs with custom tags. |  
 | [Illustration Structure Elements](./illustration-structure-elements/) | Create structured PDFs with illustration elements in Aspose.PDF for .NET by following our step-by-step tutorial. |  
 | [Inline Structure Elements](./inline-structure-elements/) | Step-by-step guide to using online structural elements with Aspose.PDF for .NET. Organize your PDFs with headings and paragraphs. |  
-| [Link Structure Elements](./link-structure-elements/) | Learn how to create link structure elements in a PDF using Aspose.PDF for .NET. Step-by-step guide for adding accessible links, images, and compliance validation. |  
+| [Link Structure Elements](./link-structure-elements/) | Learn how to create link structure elements in a PDF using Aspose.PDF for .NET. Step-by-step guide for adding accessible links, images, and compliance validation. |
+| [Make PDF Accessible with Aspose: Insert Paragraph PDF Step‑by‑Step](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Learn how to insert a paragraph into a PDF to improve accessibility using Aspose.PDF for .NET – step‑by‑step guide. |
 | [Root Structure](./root-structure/) | Step-by-step guide to using root structure elements with Aspose.PDF for .NET to access the root and StructTreeRoot object of the PDF document. |  
 | [Setup Language And Title](./setup-language-and-title/) | Step-by-step guide to configure the language and title of a PDF document with Aspose.PDF for .NET. Create personalized multilingual documents. |  
 | [Structure Elements Properties In PDF File](./structure-elements-properties/) | Step-by-step guide to working with structural element properties in PDF file with Aspose.PDF for .NET. Create information-rich structural elements. |  
@@ -45,6 +60,9 @@ Aspose.PDF for .NET's "Programming with Tagged PDFs" tutorials walk you through 
 | [Text Structure Elements In PDF File](./text-structure-elements/) | Learn to manipulate text structure elements in PDFs with Aspose.PDF for .NET. This step-by-step guide covers everything you need to create structured PDFs. |  
 | [Validate PDF File](./validate-pdf/) | Learn how to validate a PDF file with Aspose.PDF for .NET. Check its compliance with standards and generate a validation report. |  
 | [How to Tag PDF with Aspose – Complete Guide to PDF Accessibility Tags](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) | Learn how to add accessibility tags to PDFs using Aspose.PDF for .NET in this comprehensive step-by-step guide. |
+| [Create Tagged PDF in C# – Add Heading & Accessible Text](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Learn how to create a tagged PDF in C# with headings and accessible text using Aspose.PDF for .NET. |  
+| [Create Accessible PDF with Aspose.Pdf – Step‑by‑Step Guide](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Learn how to create an accessible PDF using Aspose.PDF for .NET in this detailed step‑by‑step guide. |  
+| [Create Tagged PDF in C# – Step‑by‑Step Guide](./create-tagged-pdf-in-c-step-by-step-guide/) | Learn how to create a tagged PDF using C# and Aspose.PDF for .NET in this detailed step‑by‑step guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -41,6 +41,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Teks Di Header File PDF](./text-in-header/) | Pelajari cara menambahkan tajuk teks ke PDF menggunakan Aspose.PDF untuk .NET dengan tutorial langkah demi langkah ini. Sempurnakan dokumen Anda secara efisien dan efektif. |  
 | [Ubah Opasitas PDF di C# – Panduan Lengkap Aspose](./change-pdf-opacity-in-c-complete-aspose-guide/) | Pelajari cara mengubah opasitas halaman PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode C# lengkap. |
 | [Tambahkan Penomoran Bates PDF – Panduan Lengkap C#](./add-bates-numbering-pdf-complete-c-guide/) | Pelajari cara menambahkan penomoran Bates ke file PDF menggunakan Aspose.PDF untuk .NET dengan panduan lengkap dalam C#. |
+| [Tambahkan Penomoran Bates PDF di C# – Panduan Lengkap](./add-bates-numbering-pdf-in-c-complete-guide/) | Pelajari cara menambahkan penomoran Bates ke file PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode lengkap dalam C#. Bahasa Indonesia:  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

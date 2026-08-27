@@ -207,26 +207,26 @@ implementation 'com.aspose:aspose-pdf:25.3'
 ## ปัญหาทั่วไปและวิธีแก้
 | ปัญหา | วิธีแก้ |
 |-------|----------|
-| **Tags not appearing in PDF viewer** | Verify that `taggedContent.setTitle()` and `setLanguage()` are called before saving. |
-| **Large file size** | Call `document.optimizeResources()` before `save()` to compress resources. |
-| **Unexpected text order** | Ensure you append spans to paragraphs in the desired sequence. |
+| **แท็กไม่ปรากฏในโปรแกรมดู PDF** | ตรวจสอบให้แน่ใจว่าได้เรียกใช้ `taggedContent.setTitle()` และ `setLanguage()` ก่อนบันทึก |
+|**ขนาดไฟล์ใหญ่** | เรียกใช้ `document.optimizeResources()` ก่อน `save()` เพื่อบีบอัดทรัพยากร |
+|**ลำดับข้อความไม่เป็นไปตามที่คาดไว้** | ตรวจสอบให้แน่ใจว่าได้เพิ่ม span ลงในย่อหน้าตามลำดับที่ต้องการ |
 
-## คำถามที่พบบ่อย
+## คำบรรยาย
 
-**Q: How do I ensure my PDFs meet WCAG 2.1 accessibility standards?**  
-A: Use Aspose.PDF to set the document title, language, and proper tagging (paragraphs, spans, headings). Run the PDF through an accessibility checker (e.g., PAC 3) to verify compliance.
+**ถาม: ฉันจะแน่ใจได้อย่างไรว่า PDF ของฉันตรงตามมาตรฐานการเข้าถึง WCAG 2.1?**
+ตอบ: ใช้ Aspose.PDF เพื่อตั้งชื่อเอกสาร ภาษา และการติดแท็กที่ถูกต้อง (ย่อหน้า span หัวข้อ) เรียกใช้ PDF ผ่านโปรแกรมตรวจสอบการเข้าถึง (เช่น PAC 3) เพื่อตรวจสอบการปฏิบัติตามข้อกำหนด
 
-**Q: Can I tag existing PDFs that were created without tags?**  
-A: Yes. Load the PDF, retrieve its `ITaggedContent`, and add missing tags programmatically before saving.
+**ถาม: ฉันสามารถติดแท็ก PDF ที่มีอยู่ซึ่งสร้างขึ้นโดยไม่มีแท็กได้หรือไม่?**
+ตอบ: ได้ โหลดไฟล์ PDF ดึงข้อมูล `ITaggedContent` และเพิ่มแท็กที่ขาดหายไปโดยใช้โปรแกรมก่อนบันทึก
 
-**Q: Does Aspose.PDF support other languages and right‑to‑left scripts?**  
-A: Absolutely. Set the appropriate language code (e.g., `ar-SA` for Arabic) and add Unicode text to spans.
+**ถาม: Aspose.PDF รองรับภาษาอื่นๆ และสคริปต์ที่เขียนจากขวาไปซ้ายหรือไม่?**
+ตอบ: ได้อย่างแน่นอน ตั้งค่ารหัสภาษาที่เหมาะสม (เช่น `ar-SA` สำหรับภาษาอาหรับ) และเพิ่มข้อความ Unicode ลงในสแปน
 
-**Q: What is the best way to handle very large documents (hundreds of pages)?**  
-A: Process the document in sections, use `Document.optimizeResources()`, and consider streaming the output to avoid high memory consumption.
+**ถาม: วิธีที่ดีที่สุดในการจัดการเอกสารขนาดใหญ่มาก (หลายร้อยหน้า) คืออะไร?**
+ตอบ: ประมวลผลเอกสารเป็นส่วนๆ ใช้ `Document.optimizeResources()` และพิจารณาการสตรีมเอาต์พุตเพื่อหลีกเลี่ยงการใช้หน่วยความจำสูง
 
-**Q: Is there a way to validate the tag hierarchy after creation?**  
-A: You can export the PDF's structure tree using `document.getTaggedContent().getRootElement()` and inspect it programmatically or with PDF tools.
+**ถาม: มีวิธีตรวจสอบลำดับชั้นของแท็กหลังจากสร้างแล้วหรือไม่?**
+ตอบ: คุณสามารถส่งออกโครงสร้างของ PDF โดยใช้ `document.getTaggedContent().getRootElement()` และตรวจสอบโดยใช้โปรแกรมหรือเครื่องมือ PDF
 
 ## สรุป
 คุณได้เชี่ยวชาญ **วิธีการแท็ก PDF** ด้วย Java โดยใช้ Aspose.PDF—ตั้งค่าชื่อเรื่อง ภาษา และสร้างเนื้อหาแบบมีโครงสร้างด้วย paragraph และการซ้อน span เทคนิคเหล่านี้ทำให้คุณสามารถสร้าง PDF ที่เข้าถึงได้ตามมาตรฐานการเข้าถึงสมัยใหม่และมอบประสบการณ์การอ่านที่เหนือกว่าให้กับผู้ใช้ทุกคน  

@@ -1,0 +1,7 @@
+Title: How to Add Bates Numbering in PDF with Aspose – Step‑by‑Step Guide
+Slug: how-to-add-bates-numbering-in-pdf-with-aspose-step-by-step-g
+Category: programming-with-stamps-and-watermarks
+ProcessedDate: 2026-07-20T14:49:04.573205
+SourceRepo: AI Search API
+Keywords: how to add bates numbering, add bates numbers pdf, add stamp to each page
+PRNumber: 106

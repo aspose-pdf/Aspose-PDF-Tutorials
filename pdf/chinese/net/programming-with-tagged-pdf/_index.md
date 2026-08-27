@@ -18,6 +18,7 @@
 Aspose.PDF for .NET 的“使用标签 PDF 进行编程”教程将指导您如何使用此库来操作和生成带标签的 PDF。学习如何创建内容结构、管理带标签的元素、验证 PDF/UA 合规性以及提升 PDF 文档的可访问性。这些教程将帮助您深入了解使用标签 PDF 进行编程，并帮助您充分利用 Aspose.PDF for .NET 的强大功能。
 
 ## 教程
+
 标题 | 描述 |
 | --- | --- | 
 | [访问子元素](./access-children-elements/) 在本分步教程中了解如何使用 Aspose.PDF for .NET 访问和修改带标签的 PDF 中的子元素。|  
@@ -25,6 +26,7 @@ Aspose.PDF for .NET 的“使用标签 PDF 进行编程”教程将指导您如�
 | [创建注释结构元素](./create-note-structure-element/) 通过这个详细的分步教程学习如何使用 Aspose.PDF for .NET 在 PDF 中创建注释结构元素。|  
 | [创建带标记图像的 PDF](./create-pdf-with-tagged-image/) | 学习如何使用 Aspose.PDF for .NET 创建带图片的带标签 PDF。按照我们的分步指南，创建易于访问且专业的文档。|  
 | [创建带有标记文本的 PDF](./create-pdf-with-tagged-text/) | 在本全面的分步教程中了解如何使用 Aspose.PDF for .NET 创建具有可访问内容的标记 PDF。|  
+| [使用 Aspose 让 PDF 可访问：插入段落的逐步指南](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) 通过本分步教程，了解如何使用 Aspose.PDF for .NET 在 PDF 中插入段落，提升文档的可访问性。|  
 | [创建结构元素](./create-structure-elements/) 学习如何使用 Aspose.PDF for .NET 在 PDF 中创建结构元素。增强 PDF 可访问性和组织性的分步指南。|  
 | [创建结构元素树](./create-structure-elements-tree/) 了解如何使用 Aspose.PDF for .NET 在 PDF 文档中创建结构元素树。请遵循本分步指南。|  
 | [创建表元素](./create-table-element/) 使用 Aspose.PDF for .NET 创建数组元素的分步指南。轻松生成带有表格的动态 PDF。|  
@@ -45,6 +47,9 @@ Aspose.PDF for .NET 的“使用标签 PDF 进行编程”教程将指导您如�
 | [PDF文件中的文本结构元素](./text-structure-elements/) 学习使用 Aspose.PDF for .NET 操作 PDF 中的文本结构元素。本分步指南涵盖创建结构化 PDF 所需的一切。|  
 | [验证 PDF 文件](./validate-pdf/) 了解如何使用 Aspose.PDF for .NET 验证 PDF 文件。检查其是否符合标准并生成验证报告。|  
 | [如何使用 Aspose 标记 PDF – PDF 可访问性标签完整指南](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) 本完整指南教您使用 Aspose.PDF for .NET 为 PDF 添加可访问性标签，提升文档可访问性。|  
+| [在 C# 中创建带标签的 PDF – 完整分步指南](./create-tagged-pdf-in-c-complete-step-by-step-guide/) 通过本完整的分步指南，学习如何使用 Aspose.PDF for .NET 在 C# 中创建符合 PDF/UA 标准的带标签 PDF 文档。|  
+
+| [在 C# 中创建带标签的 PDF – 添加标题和可访问文本](./create-tagged-pdf-in-c-add-heading-accessible-text/) 通过本分步教程学习如何在 C# 中为 PDF 添加标题和可访问文本，以提升可访问性。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -41,6 +41,9 @@ Aspose.PDFs handledningar "Programmering med stämplar och vattenstämplar" för
 | [Text i sidhuvudet på PDF-filen](./text-in-header/) | Lär dig lägga till textrubriker i PDF-filer med Aspose.PDF för .NET med den här steg-för-steg-handledningen. Förbättra dina dokument effektivt och ändamålsenligt. |  
 | [Ändra PDF-opacitet i C# – Komplett Aspose-guide](./change-pdf-opacity-in-c-complete-aspose-guide/) | Lär dig hur du ändrar genomskinligheten i PDF-dokument med Aspose.PDF för .NET i C# i denna kompletta guide. |  
 | [Lägg till Bates-nummerering i PDF – Komplett C#-guide](./add-bates-numbering-pdf-complete-c-guide/) | Lär dig hur du lägger till Bates-nummerering i PDF-filer med Aspose.PDF för .NET i C# med en steg-för-steg-guide. |
+| [Lägg till Bates-nummerering i PDF i C# – Komplett guide](./add-bates-numbering-pdf-in-c-complete-guide/) | Lär dig hur du lägger till Bates-nummerering i PDF-filer med Aspose.PDF för .NET i C# med en steg-för-steg-guide. |
+| [Hur man lägger till Bates – Steg‑för‑steg‑guide för PDF-filer](./how-to-add-bates-step-by-step-guide-for-pdfs/) | Lär dig hur du lägger till Bates‑nummer i PDF-filer med Aspose.PDF för .NET i en enkel steg‑för‑steg‑guide. |  
+| [Ändra PDF-opacitet med Aspose.PDF – Fullständig C#-guide](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) | Lär dig hur du ändrar genomskinligheten i PDF-filer med Aspose.PDF för .NET i en komplett C#-guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

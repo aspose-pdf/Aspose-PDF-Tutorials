@@ -41,6 +41,7 @@
 | [Κείμενο στην κεφαλίδα ενός αρχείου PDF](./text-in-header/) | Μάθετε να προσθέτετε κεφαλίδες κειμένου σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με αυτό το βήμα προς βήμα σεμινάριο. Βελτιώστε τα έγγραφά σας αποτελεσματικά και αποδοτικά. |  
 | [Αλλαγή διαφάνειας PDF σε C# – Πλήρης Οδηγός Aspose](./change-pdf-opacity-in-c-complete-aspose-guide/) | Μάθετε πώς να ρυθμίσετε τη διαφάνεια PDF σε C# χρησιμοποιώντας το Aspose.PDF για .NET με πλήρη οδηγό. |  
 | [Προσθήκη αριθμού Bates σε PDF – Πλήρης οδηγός C#](./add-bates-numbering-pdf-complete-c-guide/) | Μάθετε πώς να προσθέσετε αριθμητική Bates σε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET με πλήρη οδηγό C#. |  
+| [Προσθήκη αρίθμησης Bates σε PDF με C# – Πλήρης οδηγός](./add-bates-numbering-pdf-in-c-complete-guide/) Μάθετε πώς να προσθέσετε αρίθμηση Bates σε PDF με C# χρησιμοποιώντας το Aspose.PDF για .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
