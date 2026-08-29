@@ -1,14 +1,37 @@
 ---
-date: '2026-02-14'
-description: Leer hoe u PDF kunt taggen met Aspose.PDF voor Java, een toegankelijke
-  PDF kunt maken, header- en alinea‑elementen kunt toevoegen en de PDF-toegankelijkheid
-  kunt verbeteren voor betere navigatie.
+date: '2026-06-17'
+description: Leer hoe je een pdf kunt taggen met Aspose.PDF for Java, een header aan
+  een pdf kunt toevoegen, een alinea aan een pdf kunt toevoegen, en voldoet aan de
+  PDF/UA-standaarden voor superieure toegankelijkheid.
 keywords:
-- Aspose.PDF for Java
-- tagged PDF creation
-- accessible PDFs
 - how to tag pdf
-title: Hoe PDF taggen met Aspose.PDF voor Java - Toegankelijke PDF's
+- add header to pdf
+- add paragraph to pdf
+- aspose pdf maven dependency
+- aspose pdf gradle dependency
+schemas:
+- author: Aspose
+  dateModified: '2026-06-17'
+  description: Learn how to tag pdf with Aspose.PDF for Java, add header to pdf, add
+    paragraph to pdf, and meet PDF/UA standards for superior accessibility.
+  headline: How to Tag PDF with Aspose.PDF for Java – Accessible PDFs
+  type: TechArticle
+- questions:
+  - answer: A tagged PDF includes semantic information that aids screen readers, improving
+      accessibility.
+    question: What is a tagged PDF?
+  - answer: Add the library to your project using Maven or Gradle as shown above.
+    question: How do I get started with Aspose.PDF for Java?
+  - answer: Yes, a free trial is available; a license is required for production.
+    question: Can I use Aspose.PDF for free?
+  - answer: They enhance accessibility, improve navigation, and work well with assistive
+      technologies.
+    question: What are the benefits of tagged PDFs?
+  - answer: Visit [Aspose's official documentation](https://reference.aspose.com/pdf/java/)
+      for comprehensive guides and API references.
+    question: Where can I find more resources on Aspose.PDF?
+  type: FAQPage
+title: Hoe PDF te taggen met Aspose.PDF for Java – Toegankelijke PDF's
 url: /nl/java/advanced-features/master-aspose-pdf-java-tagged-pdfs/
 weight: 1
 ---
@@ -18,35 +41,34 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Beheersen van getagde PDF-creatie met Aspose.PDF voor Java
+# Hoe PDF taggen met Aspose.PDF voor Java – Toegankelijke PDF's
 
-In deze uitgebreide gids leer je **hoe je PDF's tagt** met Aspose.PDF voor Java, waardoor je toegankelijke, goed gestructureerde documenten kunt maken die soepel werken met schermlezers en andere hulpmiddelen. Aan het einde van de tutorial begrijp je ook hoe je **toegankelijke PDF**-bestanden maakt die voldoen aan PDF/UA-compliance en hoe je **PDF-taal instelt** voor optimale toegankelijkheid.
+In deze uitgebreide tutorial ontdek je **hoe je pdf tagt** met Aspose.PDF voor Java, waardoor je volledig toegankelijke documenten kunt maken die schermlezers moeiteloos kunnen navigeren. We lopen door het toevoegen van een header, het invoegen van alinea‑elementen, het instellen van de documenttaal en het waarborgen van PDF/UA‑conformiteit — allemaal met duidelijke, stapsgewijze begeleiding.
 
 ## Snelle antwoorden
-- **Wat is het taggen van een PDF?** Het toevoegen van een logische structuur (tags) die koppen, alinea's, tabellen, enz. beschrijft, voor toegankelijkheid.  
-- **Welke bibliotheek wordt gebruikt?** Aspose.PDF for Java (versie 25.3 of later).  
+- **Wat is het taggen van een PDF?** Een logische structuur (tags) toevoegen die koppen, alinea's, tabellen, enz. beschrijft, voor toegankelijkheid.  
+- **Welke bibliotheek wordt gebruikt?** Aspose.PDF voor Java (versie 25.3 of later).  
 - **Heb ik een licentie nodig?** Een gratis proefversie werkt voor evaluatie; een commerciële licentie is vereist voor productie.  
-- **Kan ik kopteksten en alinea's toevoegen?** Ja – de API biedt de klassen `HeaderElement` en `ParagraphElement`.  
-- **Is het alleen Java?** Het voorbeeld is Java, maar vergelijkbare concepten bestaan voor .NET en andere platforms.  
+- **Kan ik headers en alinea's toevoegen?** Ja – de API biedt de klassen `HeaderElement` en `ParagraphElement`.  
+- **Is het alleen Java?** Het voorbeeld is Java, maar soortgelijke concepten bestaan voor .NET en andere platforms.  
 
-## Hoe een PDF taggen met Aspose.PDF voor Java
-Het taggen van een PDF betekent dat er een logische structuurboom in het bestand wordt ingebed. Deze boom vertelt hulpmiddelen welke delen van het document koppen, alinea's, lijsten, enz. zijn, waardoor de PDF veel bruikbaarder wordt voor mensen met een visuele beperking.
+## Wat is PDF‑tagging?
+PDF‑tagging is het proces waarbij een semantische structuurboom in een PDF‑bestand wordt ingebed, die elk stuk inhoud (koppen, alinea's, lijsten, tabellen) beschrijft. Deze structuur stelt hulpmiddelen in staat het document in een betekenisvolle volgorde te presenteren.
 
 ## Waarom Aspose.PDF voor Java gebruiken om PDF's te taggen?
-- **Volledige toegankelijkheidsondersteuning** – ingebouwde methoden voor het toevoegen van tags, het instellen van de taal en het definiëren van documenttitels.  
-- **Geen externe afhankelijkheden** – werkt met gewone Java‑projecten en populaire IDE's.  
-- **Robuuste prestaties** – verwerkt grote bestanden efficiënt met geheugenbeheerfuncties.  
+Aspose.PDF voor Java ondersteunt **meer dan 50 invoer‑ en uitvoerformaten** en kan PDF's met honderden pagina's verwerken zonder het volledige bestand in het geheugen te laden, waardoor snelle, betrouwbare tagging voor grote bedrijfsdocumenten mogelijk is. De ingebouwde toegankelijkheids‑API's maken het gebruik van externe tools overbodig.
 
-## Toegankelijke PDF maken – Vereisten
-- **Aspose.PDF for Java** ≥ 25.3 (de nieuwste versie wordt aanbevolen).  
+## Voorwaarden
+- **Aspose.PDF voor Java** ≥ 25.3 (aanbevolen nieuwste versie).  
 - Een Java‑IDE zoals IntelliJ IDEA of Eclipse.  
-- Basiskennis van Java‑syntaxis en Maven/Gradle‑buildtools.  
+- Maven of Gradle voor afhankelijkheidsbeheer.  
+- Basiskennis van Java.
 
 ## Aspose.PDF voor Java instellen
-Voeg de bibliotheek toe aan je project met een van de volgende buildsystemen.
+Voeg de bibliotheek toe aan je project met een van de volgende buildsysteem‑opties.
 
 ### Maven‑configuratie
-Voeg de volgende dependency toe aan je `pom.xml`‑bestand:
+Voeg de volgende afhankelijkheid toe aan je `pom.xml`‑bestand:
 
 ```xml
 <dependency>
@@ -57,20 +79,20 @@ Voeg de volgende dependency toe aan je `pom.xml`‑bestand:
 ```
 
 ### Gradle‑configuratie
-Voeg deze regel toe aan je `build.gradle`‑bestand:
+Neem deze regel op in je `build.gradle`‑bestand:
 
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-#### Licentie‑verwerving
+#### Licentie‑acquisitie
 Aspose.PDF biedt een gratis proefversie voor evaluatie. Verkrijg een tijdelijke licentie voor testen of koop een volledige licentie voor productie.
 
-## Implementatie‑gids
-Hieronder vind je een stapsgewijze walkthrough van de meest voorkomende tag‑taken.
+## Hoe PDF taggen – Stapsgewijze handleiding
+Het taggen van een PDF omvat het laden van het bestand, het definiëren van de logische structuur en vervolgens het toevoegen van semantische tags zoals koppen en alinea's. In deze handleiding zie je hoe je een document opent, de titel en taal instelt, en vervolgens header‑ en alinea‑elementen invoegt om een volledig getagde, toegankelijke PDF te produceren.
 
 ### Stap 1: Document initialiseren
-Maak een nieuw `Document`‑object aan en haal de getagde‑inhoudinterface op.
+De `Document`‑klasse is het top‑level object van Aspose.PDF dat een enkel PDF‑bestand in het geheugen vertegenwoordigt. Na het aanmaken van een instantie verlopen alle tagging‑bewerkingen via dit object.
 
 ```java
 import com.aspose.pdf.Document;
@@ -83,8 +105,11 @@ Document document = new Document();
 ITaggedContent taggedContent = document.getTaggedContent();
 ```
 
-### Stap 2: Titel en taal configureren  
-Het instellen van een titel en taal verbetert **aspose pdf accessibility** en helpt schermlezers het document correct aan te kondigen. Dit voldoet ook aan een deel van **pdf ua compliance**.
+### Stap 2: Documenttitel en -taal instellen
+De `setTitle`‑methode kent een titel‑string toe aan de PDF‑documentmetadata.  
+De `setLanguage`‑methode definieert de primaire taal van het document met een BCP‑47‑code.
+
+Het instellen van een titel en taal verbetert de toegankelijkheid en voldoet aan de PDF/UA‑conformiteit. Gebruik de `setTitle`‑ en `setLanguage`‑methoden op de `Document`‑instantie.
 
 ```java
 taggedContent.setTitle("Tagged Pdf Document");
@@ -92,11 +117,9 @@ taggedContent.setLanguage("en-US");
 document.save(outputDir + "/TaggedPdfSetup.pdf");
 ```
 
-### Header‑elementen toevoegen – **aspose pdf add header**
-Kopteksten geven structuur aan je PDF en zijn essentieel voor navigatie.
-
-#### Stap 1: Header maken en configureren
-Gebruik de `HeaderElement`‑klasse om een koptekst in te voegen.
+### Hoe een header toevoegen aan PDF?
+De `HeaderElement`‑klasse vertegenwoordigt een heading‑tag in de structuurboom van de PDF.  
+Maak een `HeaderElement`, wijs een heading‑niveau toe en koppel het aan de tag‑boom van het document. Dit biedt een duidelijk navigatiepunt voor schermlezers. Door het juiste niveau (bijv. H1, H2) op te geven, zorg je ervoor dat de documenthiërarchie correct wordt geïnterpreteerd door hulpmiddelen.
 
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.bls.HeaderElement;
@@ -106,11 +129,9 @@ headerElement.setActualText("Heading 1");
 document.save(outputDir + "/TaggedPdfWithHeader.pdf");
 ```
 
-### Paragraaf‑elementen toevoegen – **aspose pdf add paragraph** / **add paragraph pdf java**
-Paragrafen vullen de inhoud aan en verbeteren de leesbaarheid.
-
-#### Stap 1: Paragrafen aan je document toevoegen
-Maak één of meer `ParagraphElement`‑objecten aan.
+### Hoe een alinea toevoegen aan PDF?
+De `ParagraphElement`‑klasse vertegenwoordigt een alinea‑tag binnen de tag‑hiërarchie van de PDF.  
+Instantieer een `ParagraphElement`, vul deze met tekst en koppel hem aan de juiste bovenliggende tag. Alinea‑tags geven de semantiek van de hoofdinhoud weer, waardoor schermlezers de tekst als één doorlopend blok kunnen lezen. Het correct taggen van alinea's verbetert de leesstroom en voldoet aan toegankelijkheidsnormen.
 
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.bls.ParagraphElement;
@@ -123,47 +144,47 @@ paragraphElement2.setActualText("test 2");
 document.save(outputDir + "/TaggedPdfWithParagraphs.pdf");
 ```
 
-## Getagde PDF genereren – Veelvoorkomende gebruikssituaties
-1. **Toegankelijkheidscompliance** – Voldoet aan WCAG- en PDF/UA-standaarden voor gebruikers met een beperking.  
-2. **Verbeterde navigatie** – Maakt snelle sprongen naar koppen en secties in grote documenten mogelijk.  
-3. **Integratie van hulpmiddelen** – Werkt naadloos met schermlezers, braille‑displays en andere tools.  
+## Getagde PDF genereren – Veelvoorkomende use‑cases
+1. **Toegankelijkheids‑compliance** – Voldoen aan WCAG 2.1 en PDF/UA 1.0 normen voor gebruikers met een beperking.  
+2. **Verbeterde navigatie** – Snelle sprongen naar koppen en secties in grote handleidingen mogelijk maken.  
+3. **Integratie van hulpmiddelen** – Werkt naadloos met schermlezers, braille‑displays en voice‑over‑tools.
 
-## PDF-taal instellen – Waarom het belangrijk is
-Het specificeren van de taal (bijv. `en-US`) stelt hulpmiddelen in staat de juiste uitspraakregels en woordafbreking toe te passen. Het draagt ook bij aan **pdf ua compliance** en verbetert de algehele toegankelijkheidsscore van het document.
+## PDF‑taal instellen – Waarom het belangrijk is
+Het specificeren van de taal (bijv. `en-US`) stelt hulpmiddelen in staat de juiste uitspraak‑ en afbreekregels toe te passen, waardoor de toegankelijkheidsscore van het document stijgt en wordt voldaan aan de PDF/UA‑vereisten.
 
-## Tags toevoegen aan PDF – Tips & Best Practices
-- **Tag‑hiërarchie:** Houd de tagboom ondiep; diepe nesting kan sommige lezers verwarren.  
-- **Consistente naamgeving:** Gebruik duidelijke, beschrijvende `ActualText`‑waarden voor koppen en alinea's.  
-- **Vroegtijdig valideren:** Voer Adobe Acrobat’s “Tags”‑paneelcontrole uit na elke grote wijziging.  
+## Tags toevoegen aan PDF – Tips & best practices
+- **Tag‑hiërarchie:** Houd de tag‑boom ondiep; diepe nesting kan sommige lezers verwarren.  
+- **Consistente naamgeving:** Gebruik duidelijke `ActualText`‑waarden voor koppen en alinea's.  
+- **Vroegtijdig valideren:** Voer na elke grote wijziging de “Tags”‑paneelcontrole van Adobe Acrobat uit.  
 
 ## Prestatie‑overwegingen
-Bij het verwerken van grote PDF's:
+Bij het verwerken van grote PDF's (tot 500 MB):
 - Gebruik Java’s try‑with‑resources of expliciete `close()`‑aanroepen om bestands‑handles vrij te geven.  
-- Roep `document.optimizeResources()` aan als je het geheugenverbruik moet verminderen.  
+- Roep `document.optimizeResources()` aan om het geheugenverbruik te verminderen.  
 
 ## Veelvoorkomende problemen en oplossingen
 | Probleem | Oplossing |
-|-------|----------|
-| Tags not appearing in Acrobat | Zorg ervoor dat je `document.save()` **na** het toevoegen van elk element aanroept. |
-| Language not recognized | Controleer of de taalcodes voldoen aan BCP‑47 (bijv. `en-US`, `fr-FR`). |
-| Large files cause OutOfMemoryError | Schakel `document.optimizeResources()` in en verwerk pagina's in delen. |
+|----------|-----------|
+| Tags verschijnen niet in Acrobat | Zorg ervoor dat je `document.save()` **na** het toevoegen van elk element hebt aangeroepen. |
+| Taal niet herkend | Controleer of de taalcodes BCP‑47 volgen (bijv. `en-US`, `fr-FR`). |
+| Grote bestanden veroorzaken OutOfMemoryError | Schakel `document.optimizeResources()` in en verwerk pagina's in delen. |
 
 ## Veelgestelde vragen
 
 **Q: Wat is een getagde PDF?**  
-A: Een getagde PDF bevat semantische informatie die schermlezers helpt, waardoor de toegankelijkheid verbetert.  
+A: Een getagde PDF bevat semantische informatie die schermlezers helpt, waardoor de toegankelijkheid verbetert.
 
 **Q: Hoe begin ik met Aspose.PDF voor Java?**  
-A: Voeg de bibliotheek toe aan je project met Maven of Gradle zoals hierboven getoond.  
+A: Voeg de bibliotheek toe aan je project met Maven of Gradle zoals hierboven getoond.
 
 **Q: Kan ik Aspose.PDF gratis gebruiken?**  
-A: Ja, er is een gratis proefversie beschikbaar; een licentie is vereist voor productie.  
+A: Ja, een gratis proefversie is beschikbaar; een licentie is vereist voor productie.
 
 **Q: Wat zijn de voordelen van getagde PDF's?**  
-A: Ze verbeteren de toegankelijkheid, verbeteren de navigatie en werken goed met hulpmiddelen.  
+A: Ze verbeteren de toegankelijkheid, verbeteren de navigatie en werken goed met hulpmiddelen.
 
 **Q: Waar kan ik meer bronnen over Aspose.PDF vinden?**  
-A: Bezoek [Aspose's officiële documentatie](https://reference.aspose.com/pdf/java/) voor uitgebreide handleidingen en tutorials.  
+A: Bezoek [de officiële documentatie van Aspose](https://reference.aspose.com/pdf/java/) voor uitgebreide handleidingen en API‑referenties.
 
 ## Bronnen
 - [Documentatie](https://reference.aspose.com/pdf/java/)
@@ -175,14 +196,20 @@ A: Bezoek [Aspose's officiële documentatie](https://reference.aspose.com/pdf/ja
 
 ---
 
-**Laatst bijgewerkt:** 2026-02-14  
-**Getest met:** Aspose.PDF for Java 25.3  
-**Auteur:** Aspose
+**Last Updated:** 2026-06-17  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
+## Gerelateerde tutorials
+- [Maak en beheer getagde PDF's met Aspose.PDF voor Java: Verbeter toegankelijkheid in uw documenten](/pdf/java/document-manipulation/create-manage-tagged-pdfs-aspose-pdf-java/)
+- [Maak toegankelijke PDF's met afbeeldingen met Aspose.PDF voor Java: Een volledige gids voor het maken van getagde PDF's](/pdf/java/images-graphics/create-accessible-pdf-images-aspose-pdf-java/)
+- [Maak toegankelijke getagde tabellen in PDF's met Aspose.PDF voor Java](/pdf/java/tables-lists/create-tagged-table-aspose-pdf-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}

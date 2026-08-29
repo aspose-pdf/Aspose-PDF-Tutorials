@@ -1,14 +1,63 @@
 ---
-date: '2025-12-09'
-description: تعلم كيفية وضع علامات على ملفات PDF في Java باستخدام Aspose.PDF. يوضح
-  هذا البرنامج التعليمي كيفية إنشاء PDF يمكن الوصول إليه، إضافة فقرة PDF في Java،
-  وتطبيق وضع علامات إمكانية الوصول لملف PDF.
+date: '2026-06-17'
+description: تعلم كيفية إنشاء PDF قابل للوصول في Java باستخدام Aspose.PDF. يغطي هذا
+  الدليل إضافة فقرة PDF Java، وضع علامات إمكانية الوصول للـ PDF، وإنشاء ملفات PDF
+  مُوسومة بالكامل.
 keywords:
-- tagged PDFs in Java
-- Aspose.PDF for Java
-- accessible PDF creation
-title: 'كيفية إضافة وسوم PDF في جافا باستخدام Aspose.PDF: دليل شامل لإمكانية الوصول
-  والهيكلة'
+- create accessible pdf java
+- add paragraph pdf java
+- aspose pdf java tutorial
+schemas:
+- author: Aspose
+  dateModified: '2026-06-17'
+  description: Learn how to create accessible PDF in Java using Aspose.PDF. This tutorial
+    covers add paragraph PDF Java, PDF accessibility tagging, and generating fully
+    tagged PDFs.
+  headline: Create Accessible PDF in Java with Aspose.PDF Tagging Guide
+  type: TechArticle
+- description: Learn how to create accessible PDF in Java using Aspose.PDF. This tutorial
+    covers add paragraph PDF Java, PDF accessibility tagging, and generating fully
+    tagged PDFs.
+  name: Create Accessible PDF in Java with Aspose.PDF Tagging Guide
+  steps:
+  - name: '**Initialize the Aspose.PDF Document:**'
+    text: '**Initialize the Aspose.PDF Document:**'
+  - name: '**Set Title and Language:**'
+    text: '**Set Title and Language:**'
+  - name: '**Save the Document:**'
+    text: '**Save the Document:**'
+  - name: '**Create Document and Tagged Content:**'
+    text: '**Create Document and Tagged Content:**'
+  - name: '**Append Paragraph and Span Elements:**'
+    text: '**Append Paragraph and Span Elements:**'
+  - name: '**Save Your Document:**'
+    text: '**Save Your Document:**'
+  - name: '**Initialize Document Structure:**'
+    text: '**Initialize Document Structure:**'
+  - name: '**Create and Nest Span Elements:**'
+    text: '**Create and Nest Span Elements:**'
+  - name: '**Save the Document:**'
+    text: '**Save the Document:**'
+  type: HowTo
+- questions:
+  - answer: Set the document title, language, and proper tagging (paragraphs, spans,
+      headings). Then run the PDF through an accessibility checker like PAC 3 to validate
+      compliance.
+    question: How do I ensure my PDFs meet WCAG 2.1 accessibility standards?
+  - answer: Yes. Load the PDF, retrieve its `ITaggedContent` via `document.getTaggedContent()`,
+      add missing tags programmatically, and save the updated file.
+    question: Can I tag existing PDFs that were created without tags?
+  - answer: Absolutely. Assign the appropriate language code (e.g., `ar-SA`) and add
+      Unicode text to spans; the library handles bidirectional rendering automatically.
+    question: Does Aspose.PDF support right‑to‑left scripts such as Arabic or Hebrew?
+  - answer: Process the document in logical sections, use `document.optimizeResources()`,
+      and consider streaming the output to a file to keep memory usage low.
+    question: What is the best approach for very large documents (hundreds of pages)?
+  - answer: You can export the structure tree with `document.getTaggedContent().getRootElement()`
+      and inspect it programmatically or with PDF analysis tools.
+    question: Is there a way to validate the tag hierarchy after creation?
+  type: FAQPage
+title: إنشاء PDF قابل للوصول في Java مع دليل وضع العلامات Aspose.PDF
 url: /ar/java/advanced-features/master-tagged-pdfs-java-aspose-pdf-guide/
 weight: 1
 ---
@@ -18,42 +67,31 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# كيفية وضع علامات PDF في Java باستخدام Aspose.PDF: دليل شامل للوصولية والبنية
+# كيفية وضع علامات PDF في Java باستخدام Aspose.PDF: دليل كامل للقدرة على الوصول والهيكلة
 
-## المقدمة
-إن إنشاء مستندات PDF قابلة للوصول وتعلم **كيفية وضع علامات PDF** أمر حيوي للمستخدمين الذين يعتمدون على قارئات الشاشة وغيرها من التقنيات المساعدة. قد يكون ضمان أن ملفات PDF الخاصة بك قابلة للوصول ومنظمة جيدًا أمرًا صعبًا، لكن Aspose.PDF for Java يجعل العملية بسيطة من خلال السماح لك بتعيين العناوين واللغات والمحتوى المهيكل مباشرةً داخل PDF.
-
-في هذا الدرس، سنستكشف كيفية الاستفادة من مكتبة Aspose.PDF لإنشاء مستندات PDF ذات علامات في Java. ستتعلم كيفية:
-- تعيين العناوين وسمات اللغة لملفات PDF.
-- إضافة عناصر الفقرة والـ span لتعزيز بنية المستند.
-- تضمين عناصر الـ span داخل الفقرات لتصاميم أكثر تعقيدًا.
-
-هيا نبدأ بإعداد بيئتك وتنفيذ هذه الميزات!
+## مقدمة
+إنشاء مستندات **PDF قابلة للوصول** وتعلم **كيفية وضع علامات PDF** أمر حاسم للمستخدمين الذين يعتمدون على قارئات الشاشة وغيرها من التقنيات المساعدة. باستخدام Aspose.PDF for Java يمكنك برمجيًا تعيين العناوين واللغات والمحتوى المُنظم، مما يحول ملف PDF عادي إلى ملف مُوسوم بالكامل ومتوافق مع المعايير. يوضح هذا الدليل كيفية **إنشاء مشاريع PDF Java قابلة للوصول** خطوة بخطوة، مع تغطية بيانات العنوان واللغة، ووضع علامات الفقرات والـ spans، وتداخل الـ spans لتصاميم معقدة.
 
 ### إجابات سريعة
-- **ما هو وضع علامات الوصولية في PDF؟** هو عملية إضافة بنية منطقية (علامات) إلى PDF بحيث يمكن لقارئات الشاشة تفسير المحتوى بشكل صحيح.  
-- **لماذا نستخدم Aspose.PDF للوسم؟** يوفر واجهة برمجة تطبيقات سلسة لإنشاء وتعديل ووضع علامات على ملفات PDF دون الحاجة إلى Adobe Acrobat.  
-- **كم يستغرق تنفيذ الأساس؟** حوالي 10–15 دقيقة لمستند بسيط.  
-- **هل أحتاج إلى ترخيص؟** النسخة التجريبية تكفي للتقييم، لكن الترخيص مطلوب للاستخدام في الإنتاج.  
+- **ما هو وضع علامات الوصول في PDF؟** إنها عملية إضافة هيكل منطقي (علامات) إلى ملف PDF بحيث يمكن لقارئات الشاشة تفسير المحتوى بشكل صحيح.  
+- **لماذا تستخدم Aspose.PDF للوسم؟** يوفر API سهل الاستخدام لإنشاء وتعديل ووضع علامات على ملفات PDF دون الحاجة إلى Adobe Acrobat.  
+- **كم يستغرق التنفيذ الأساسي؟** حوالي 10–15 دقيقة لمستند بسيط.  
+- **هل أحتاج إلى ترخيص؟** النسخة التجريبية تعمل للتقييم، لكن الترخيص مطلوب للاستخدام الإنتاجي.  
 - **ما إصدارات Java المدعومة؟** Java 8 وما بعدها (بما في ذلك Java 11، 17، و21).
 
-### المتطلبات المسبقة
-قبل أن نبدأ، تأكد من توفر ما يلي:
-- **بيئة تطوير Java:** تثبيت JDK (الإصدار 8 أو أحدث).  
-- **أداة بناء Maven/Gradle:** إلمام باستخدام Maven أو Gradle لإدارة الاعتمادات.  
-- **معرفة أساسية بـ Java:** فهم مفاهيم برمجة Java.
+## ما هو وضع علامات الوصول في PDF؟
+يُدمج وضع علامات الوصول في PDF هيكلًا هرميًا منطقيًا—عناوين، رؤوس، فقرات، spans، جداول، وأكثر—مباشرة داخل ملف PDF، مما يمكّن التقنيات المساعدة من تقديم المحتوى بترتيب قراءة مفهوم. يتيح هذا الهيكل للمستخدمين ذوي الإعاقات البصرية التنقل وفهم المستندات كما يفعل المستخدمون البصرون، محولًا ملفًا بصريًا ثابتًا إلى مورد ديناميكي متوافق مع WCAG 2.1 وPDF/UA.
 
-## ما هو وضع علامات الوصولية في PDF؟
-يتضمن وضع علامات الوصولية في PDF تضمين بنية منطقية (عناوين، رؤوس، فقرات، spans، جداول، إلخ) داخل PDF. تتيح هذه البنية للتقنيات المساعدة عرض المحتوى بترتيب ذي معنى، مما يجعل المستند **يولد PDF قابل للوصول**.
+## لماذا استخدام Aspose.PDF for Java؟
+يقدم Aspose.PDF for Java حلاً قويًا متعدد المنصات يبسط إنشاء وتحرير ووضع علامات على ملفات PDF مع الالتزام بمعايير القدرة على الوصول. يمنح API السلس المطورين تحكمًا دقيقًا في بنية المستند، الأداء، وتحويل الصيغ، مما يجعله مثاليًا لأتمتة مستوى المؤسسات وضمان الامتثال لـ WCAG 2.1 وPDF/UA.
 
-## لماذا نستخدم Aspose.PDF for Java؟
-Aspose.PDF for Java هو حل **aspose pdf java tutorial**‑grade يتيح لك:
-- العمل على أي منصة تدعم Java.
-- إنشاء وتحرير ووضع علامات على ملفات PDF برمجيًا.
-- التحكم الدقيق في عناصر الوسم مثل الفقرات والـ spans، وهو أمر أساسي لسيناريوهات **add paragraph pdf java**.
+## المتطلبات المسبقة
+- **Java Development Kit:** تم تثبيت JDK 8 أو أحدث.
+- **Build Tool:** Maven أو Gradle لإدارة الاعتمادات.
+- **Basic Java knowledge:** الإلمام بالصفوف (classes) والطرق (methods) ومعالجة الاستثناءات.
 
 ## إعداد Aspose.PDF for Java
-لبدء العمل مع Aspose.PDF في مشاريع Java الخاصة بك، تحتاج إلى إضافة المكتبة كاعتماد. إليك الطريقة باستخدام Maven وGradle:
+لبدء العمل مع Aspose.PDF في مشروع Java الخاص بك، أضف المكتبة كاعتماد.
 
 ### تثبيت Maven
 أضف الاعتماد التالي إلى ملف `pom.xml` الخاص بك:
@@ -66,27 +104,26 @@ Aspose.PDF for Java هو حل **aspose pdf java tutorial**‑grade يتيح لك
 ```
 
 ### تثبيت Gradle
-قم بإدراج هذا في ملف `build.gradle` الخاص بك:
+أدرج هذا في ملف `build.gradle` الخاص بك:
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
 ### الحصول على الترخيص
-لاستخدام Aspose.PDF خارج حدود النسخة التجريبية، يمكنك الحصول على ترخيص مؤقت أو شراء ترخيص كامل. إليك الطريقة:
-- **نسخة تجريبية مجانية:** حمّل أحدث نسخة من [Aspose PDF Java Releases](https://releases.aspose.com/pdf/java/).  
-- **ترخيص مؤقت:** اطلب ترخيصًا مؤقتًا مجانيًا عبر [Aspose Temporary License Page](https://purchase.aspose.com/temporary-license/).  
-- **شراء ترخيص:** اشترِ ترخيصًا كاملًا من [Aspose Purchase Page](https://purchase.aspose.com/buy).
+- **Free Trial:** Download the latest version from [Aspose PDF Java Releases](https://releases.aspose.com/pdf/java/).  
+- **Temporary License:** Request a free temporary license via the [Aspose Temporary License Page](https://purchase.aspose.com/temporary-license/).  
+- **Purchase License:** Buy a full license on the [Aspose Purchase Page](https://purchase.aspose.com/buy).
 
-بعد حصولك على ملف الترخيص، طبقه في تطبيق Java الخاص بك لفتح جميع الميزات.
+بعد حصولك على ملف `Aspose.Pdf.Java.lic`، قم بتحميله عند بدء تشغيل التطبيق لفتح جميع الميزات.
 
-## دليل التنفيذ
-سنقسم التنفيذ إلى ثلاث ميزات رئيسية: تعيين العناوين واللغات، إضافة عناصر الفقرة والـ span، وتضمين الـ spans داخل الفقرات. كل قسم يتضمن خطوات مفصلة مع مقتطفات شفرة لتوضيح الفكرة.
+## كيف تنشئ PDF قابل للوصول في Java؟
+حمّل مستند PDF الخاص بك، عيّن العنوان واللغة، أضف فقرات وعناصر span موسومة، وأخيرًا احفظ الملف—كل ذلك في بضع خطوات مختصرة. يضمن هذا النهج المباشر أن يكون PDF الناتج متوافقًا بالكامل مع معايير القدرة على الوصول وجاهزًا للتوزيع.
 
 ### تعيين العنوان واللغة لمستند PDF
-**نظرة عامة:** تُظهر هذه الميزة كيفية تعريف عنوان ولغة مستند PDF ذو علامات، لضمان أنه قابل للوصول ويتم تفسيره بشكل صحيح من قبل التقنيات المساعدة.
+**Definition:** فئة `Document` تمثل ملف PDF في الذاكرة وتوفر طرقًا للتلاعب به.
 
 #### تنفيذ خطوة بخطوة
-1. **تهيئة مستند Aspose.PDF:**
+1. **Initialize the Aspose.PDF Document:**  
    ```java
    import com.aspose.pdf.Document;
    import com.aspose.pdf.tagged.ITaggedContent;
@@ -96,34 +133,35 @@ implementation 'com.aspose:aspose-pdf:25.3'
 
    Document document = new Document();
    ITaggedContent taggedContent = document.getTaggedContent();
-   ```
-2. **تعيين العنوان واللغة:**
+   ```  
+2. **Set Title and Language:**  
    ```java
    // Set the title of the PDF document
    taggedContent.setTitle("Text Elements Example");
 
    // Define the language (e.g., English - United States)
    taggedContent.setLanguage("en-US");
-   ```
-3. **حفظ المستند:**
+   ```  
+3. **Save the Document:**  
    ```java
    document.save(outFile);
-   ```
-**شرح:** من خلال تعيين العنوان واللغة، تزود المستند ببيانات تعريفية أساسية تساعد في **pdf accessibility tagging** وتساعد قارئات الشاشة على الإعلان عن المستند بشكل صحيح.
+   ```  
+
+من خلال تعيين عنوان ذو معنى ورمز لغة مناسب (مثل `en-US`)، تزود قارئات الشاشة بالسياق اللازم للإعلان عن المستند بشكل صحيح.
 
 ### إضافة عناصر الفقرة والـ Span
-**نظرة عامة:** حسّن بنية PDF الخاصة بك بإضافة عناصر الفقرة والـ span لإنشاء مستند منظم منطقيًا.
+**Definition:** فئة `Paragraph` تجمع سلسلة من كائنات `Span`، كل منها يمثل مجموعة نصية بصياغتها الخاصة.
 
 #### تنفيذ خطوة بخطوة
-1. **إنشاء مستند ومحتوى ذو علامات:**
+1. **Create Document and Tagged Content:**  
    ```java
    String dataDir = "YOUR_DOCUMENT_DIRECTORY";
    String outFile = dataDir + "AddParagraphAndSpanElements_Output.pdf";
 
    Document document = new Document();
    ITaggedContent taggedContent = document.getTaggedContent();
-   ```
-2. **إلحاق عناصر الفقرة والـ Span:**
+   ```  
+2. **Append Paragraph and Span Elements:**  
    ```java
    import com.aspose.pdf.tagged.logicalstructure.elements.StructureElement;
    import com.aspose.pdf.tagged.logicalstructure.elements.bls.ParagraphElement;
@@ -143,26 +181,27 @@ implementation 'com.aspose:aspose-pdf:25.3'
    p1.setText("Paragraph with ");
    p1.appendChild(span11);
    p1.appendChild(span12);
-   ```
-3. **حفظ المستند:**
+   ```  
+3. **Save Your Document:**  
    ```java
    document.save(outFile);
-   ```
-**شرح:** يوضح هذا القسم سيناريو **add paragraph pdf java** أساسي، حيث يتم إنشاء تدفق نصي منظم يحسن من قابلية القراءة والتنقل.
+   ```  
 
-### تضمين عناصر الـ Span داخل عنصر الفقرة
-**نظرة عامة:** أنشئ هياكل نصية أكثر تعقيدًا بتضمين عناصر الـ span داخل الفقرات.
+هذا النمط يتيح لك بناء تدفق منطقي للنص، محسّنًا التنقل لتقنيات المساعدة.
+
+### تداخل عناصر Span داخل عنصر الفقرة
+**Definition:** يتيح تداخل الـ spans داخل الفقرة تطبيق أنماط أو سمات لغة مميزة على أجزاء فرعية من الجملة.
 
 #### تنفيذ خطوة بخطوة
-1. **تهيئة بنية المستند:**
+1. **Initialize Document Structure:**  
    ```java
    String dataDir = "YOUR_DOCUMENT_DIRECTORY";
    String outFile = dataDir + "NestSpanElements_Output.pdf";
 
    Document document = new Document();
    ITaggedContent taggedContent = document.getTaggedContent();
-   ```
-2. **إنشاء وتضمين عناصر الـ Span:**
+   ```  
+2. **Create and Nest Span Elements:**  
    ```java
    StructureElement rootElement = taggedContent.getRootElement();
 
@@ -186,68 +225,77 @@ implementation 'com.aspose:aspose-pdf:25.3'
    p4.appendChild(span42);
 
    p4.setText(".");
-   ```
-3. **حفظ المستند:**
+   ```  
+3. **Save the Document:**  
    ```java
    document.save(outFile);
-   ```
-**شرح:** يتيح التضمين بناء هياكل أغنى وأكثر تفصيلاً، وهو أمر أساسي لإنشاء مستندات **generate accessible PDF** تلبي معايير الوصول الصارمة.
+   ```  
+
+تُعد الـ spans المتداخلة أساسية عندما تحتاج إلى خلط لغات، تطبيق تنسيق غامق/مائل، أو تضمين روابط داخل فقرة واحدة.
 
 ## التطبيقات العملية
-لدى قدرات الوسم في Aspose.PDF تطبيقات واقعية متعددة:
-- **النشر الرقمي:** إنشاء كتب إلكترونية قابلة للوصول بمحتوى منظم.  
-- **الوثائق الحكومية:** ضمان الامتثال للوائح الوصولية.  
-- **التقارير المؤسسية:** تحسين التنقل والقراءة لأصحاب المصلحة.  
-- **المواد التعليمية:** توفير موارد تعلم قابلة للوصول للطلاب.
+* **Digital Publishing:** إنشاء كتب إلكترونية قابلة للوصول بمحتوى مُنظم بالكامل.  
+* **Government Documentation:** تلبية المتطلبات القانونية للقدرة على الوصول (مثل القسم 508، توجيه الاتحاد الأوروبي للقدرة على الوصول).  
+* **Corporate Reporting:** إنتاج تقارير يمكن لأصحاب المصلحة التنقل فيها باستخدام قارئات الشاشة.  
+* **Educational Materials:** تقديم الكتب المدرسية والنشرات التي تتوافق مع معايير القدرة على الوصول.
 
 ## اعتبارات الأداء
-عند التعامل مع ملفات PDF كبيرة أو هياكل معقدة، ضع في اعتبارك النصائح التالية:
-- **إدارة الذاكرة:** حرّر الكائنات فور الانتهاء من استخدامها.  
-- **المعالجة الدفعية:** عالج المستندات على دفعات للتحكم في استهلاك الموارد.  
-- **ابق محدثًا:** استخدم أحدث نسخة من Aspose.PDF للحصول على تحسينات الأداء وإصلاحات الأخطاء.
+عند التعامل مع ملفات PDF كبيرة أو هياكل علامات معقدة، احرص على اتباع أفضل الممارسات التالية:
+
+* **Memory Management:** استدعِ `document.dispose()` أو استخدم try‑with‑resources لتحرير الموارد الأصلية بسرعة.  
+* **Batch Processing:** معالجة المستندات على دفعات أصغر واستدعاء `document.optimizeResources()` لتقليل استهلاك الذاكرة.  
+* **Stay Updated:** استخدم أحدث إصدار من Aspose.PDF للاستفادة من تحسينات الأداء وإصلاحات الأخطاء.
 
 ## المشكلات الشائعة والحلول
 | المشكلة | الحل |
 |-------|----------|
-| **العلامات لا تظهر في عارض PDF** | تأكد من استدعاء `taggedContent.setTitle()` و `setLanguage()` قبل الحفظ. |
-| **حجم الملف كبير** | استدعِ `document.optimizeResources()` قبل `save()` لضغط الموارد. |
-| **ترتيب النص غير متوقع** | تأكد من إلحاق الـ spans إلى الفقرات بالترتيب المطلوب. |
+| **العلامات لا تظهر في عارض PDF** | تحقق من أن `taggedContent.setTitle()` و `setLanguage()` تم استدعاؤهما **قبل** `document.save()`. |
+| **حجم الملف كبير** | استدعِ `document.optimizeResources()` قبل الحفظ لضغط الصور وإزالة الكائنات غير المستخدمة. |
+| **ترتيب النص غير متوقع** | تأكد من أن الـ spans تُضاف إلى الفقرات بالترتيب الدقيق الذي تريد قراءته. |
+| **بيانات اللغة مفقودة** | عيّن اللغة على كائن `ITaggedContent` باستخدام رمز ISO‑639‑1 (مثل `en`، `fr`، `ar`). |
 
 ## الأسئلة المتكررة
 
-**س: كيف أضمن أن ملفات PDF الخاصة بي تلتزم بمعايير WCAG 2.1 للوصولية؟**  
-ج: استخدم Aspose.PDF لتعيين عنوان المستند، اللغة، والوسم المناسب (فقرات، spans، رؤوس). ثم شغّل فحص الوصولية باستخدام أداة مثل PAC 3 للتحقق من الامتثال.
+**س: كيف أضمن أن ملفات PDF الخاصة بي تلتزم بمعايير WCAG 2.1 للقدرة على الوصول؟**  
+ج: عيّن عنوان المستند، اللغة، والوسم المناسب (فقرات، spans، رؤوس). ثم شغّل PDF عبر أداة فحص القدرة على الوصول مثل PAC 3 للتحقق من الامتثال.
 
 **س: هل يمكنني وضع علامات على ملفات PDF موجودة تم إنشاؤها بدون علامات؟**  
-ج: نعم. حمّل ملف PDF، احصل على `ITaggedContent` الخاص به، وأضف العلامات المفقودة برمجيًا قبل الحفظ.
+ج: نعم. حمّل PDF، استرجع كائن `ITaggedContent` عبر `document.getTaggedContent()`، أضف العلامات المفقودة برمجيًا، واحفظ الملف المحدث.
 
-**س: هل يدعم Aspose.PDF لغات أخرى ونصوص من اليمين إلى اليسار؟**  
-ج: بالتأكيد. عيّن رمز اللغة المناسب (مثل `ar-SA` للغة العربية) وأضف نصًا Unicode إلى الـ spans.
+**س: هل يدعم Aspose.PDF النصوص من اليمين إلى اليسار مثل العربية أو العبرية؟**  
+ج: بالتأكيد. عيّن رمز اللغة المناسب (مثل `ar-SA`) وأضف نص Unicode إلى الـ spans؛ المكتبة تتعامل مع العرض الثنائي الاتجاه تلقائيًا.
 
-**س: ما هي أفضل طريقة للتعامل مع مستندات ضخمة (مئات الصفحات)؟**  
-ج: عالج المستند على أقسام، استخدم `Document.optimizeResources()`، وفكّر في بث الإخراج لتجنب استهلاك الذاكرة العالي.
+**س: ما هو النهج الأفضل للوثائق الكبيرة جدًا (مئات الصفحات)؟**  
+ج: عالج المستند في أقسام منطقية، استخدم `document.optimizeResources()`، وفكّر في بث الإخراج إلى ملف للحفاظ على استهلاك الذاكرة منخفضًا.
 
-**س: هل هناك طريقة للتحقق من تسلسل العلامات بعد الإنشاء؟**  
-ج: يمكنك تصدير شجرة هيكل PDF باستخدام `document.getTaggedContent().getRootElement()` وفحصها برمجيًا أو باستخدام أدوات PDF.
+**س: هل هناك طريقة للتحقق من شجرة العلامات بعد الإنشاء؟**  
+ج: يمكنك تصدير شجرة الهيكل باستخدام `document.getTaggedContent().getRootElement()` وفحصها برمجيًا أو باستخدام أدوات تحليل PDF.
 
 ## الخاتمة
-لقد أصبحت الآن متمكنًا من **كيفية وضع علامات PDF** في Java باستخدام Aspose.PDF—تعيين العناوين، اللغات، وبناء محتوى منظم باستخدام الفقرات والـ spans المتداخلة. هذه التقنيات تمكنك من إنشاء ملفات PDF قابلة للوصول تلبي معايير الوصول الحديثة وتوفر تجربة قراءة متميزة لجميع المستخدمين.
+الآن لديك خريطة طريق كاملة خطوة بخطوة لإنشاء مشاريع **create accessible pdf java** باستخدام Aspose.PDF. من خلال تعيين العناوين، اللغات، وبناء هيكل علامات قوي باستخدام الفقرات والـ spans المتداخلة، يمكنك توليد ملفات PDF جذابة بصريًا ومُتاحة بالكامل.
 
 **الخطوات التالية:**  
-- جرّب أنواع وسوم إضافية مثل الجداول والقوائم والرسوم.  
-- دمج سير عمل الوسم في خطوط إنتاج المستندات الحالية لديك.  
-- استكشف ميزات OCR والتحويل في Aspose.PDF لتوسيع قدرات معالجة المستندات لديك.
+* تجربة أنواع علامات إضافية مثل الجداول والقوائم والرسوم التوضيحية.  
+* دمج سير عمل وضع العلامات في خطوط أنابيب إنشاء المستندات الحالية.  
+* استكشاف ميزات OCR والتحويل في Aspose.PDF لتوسيع قدرات معالجة المستندات.
 
 ---
 
-**آخر تحديث:** 2025-12-09  
-**تم الاختبار مع:** Aspose.PDF for Java 25.3  
-**المؤلف:** Aspose  
+**Last Updated:** 2026-06-17  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## دروس ذات صلة
+
+- [Create and Manage Tagged PDFs Using Aspose.PDF for Java: Enhance Accessibility in Your Documents](/pdf/java/document-manipulation/create-manage-tagged-pdfs-aspose-pdf-java/)
+- [Create Accessible PDFs with Images Using Aspose.PDF for Java: A Complete Guide to Tagged PDF Creation](/pdf/java/images-graphics/create-accessible-pdf-images-aspose-pdf-java/)
+- [Create Accessible Tagged Tables in PDFs Using Aspose.PDF for Java](/pdf/java/tables-lists/create-tagged-table-aspose-pdf-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
