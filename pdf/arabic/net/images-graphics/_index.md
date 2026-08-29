@@ -35,6 +35,9 @@
 ### [إنشاء المستطيلات وملؤها في ملفات PDF باستخدام Aspose.PDF لـ .NET: دليل خطوة بخطوة](./create-fill-rectangle-aspose-pdf-net/)
 تعرّف على كيفية إنشاء مستطيلات وتعبئتها في مستندات PDF باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل خطوة بخطوة كل شيء، من الإعداد إلى التنفيذ باستخدام C#.
 
+### [إضافة مستطيل إلى PDF باستخدام Aspose.PDF – دليل برمجة كامل](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+تعلم كيفية إضافة مستطيل إلى ملفات PDF باستخدام Aspose.PDF مع شرح شامل للبرمجة خطوة بخطوة.
+
 ### [إنشاء طوابع PDF مخصصة باستخدام Aspose.PDF في .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 برنامج تعليمي لبرمجة Aspose.PDF Net
 

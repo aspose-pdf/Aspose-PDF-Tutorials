@@ -35,6 +35,9 @@ Aspose.PDF for .NET kullanarak SVG dosyalarını sorunsuz bir şekilde yüksek k
 ### [.NET için Aspose.PDF'yi Kullanarak PDF'lerde Dikdörtgenler Oluşturma ve Doldurma: Adım Adım Kılavuz](./create-fill-rectangle-aspose-pdf-net/)
 Aspose.PDF for .NET kullanarak PDF belgelerinde dikdörtgenler oluşturmayı ve doldurmayı öğrenin. Bu adım adım kılavuz, kurulumdan C# ile uygulamaya kadar her şeyi kapsar.
 
+### [Aspose.PDF ile PDF'ye Dikdörtgen Ekleme – Tam Programlama Kılavuzu](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+Aspose.PDF for .NET kullanarak PDF belgelerine dikdörtgen şekilleri eklemeyi ve özelleştirmeyi adım adım öğrenin.
+
 ### [.NET'te Aspose.PDF ile Özel PDF Damgaları Oluşturun](./create-custom-pdf-stamps-aspose-pdf-net/)
 Aspose.PDF Net için bir kod öğreticisi
 
