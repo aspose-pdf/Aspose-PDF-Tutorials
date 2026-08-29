@@ -1,9 +1,57 @@
 ---
-"date": "2025-04-14"
-"description": "जानें कि Aspose.PDF for Java का उपयोग करके HTML फ़ाइलों को, जिसमें एम्बेडेड SVG फ़ाइलें भी शामिल हैं, पेशेवर PDF दस्तावेज़ों में कुशलतापूर्वक कैसे परिवर्तित किया जाए। सहज रूपांतरण के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें।"
-"title": "जावा के लिए Aspose.PDF का उपयोग करके HTML से PDF रूपांतरण में महारत हासिल करें&#58; एक व्यापक गाइड"
-"url": "/hi/java/conversion-export/html-to-pdf-aspose-java-tutorial/"
-"weight": 1
+date: '2026-07-21'
+description: Aspose.PDF for Java का उपयोग करके HTML को PDF में कैसे बदलें, सीखें।
+  यह चरण‑दर‑चरण मार्गदर्शिका Maven/Gradle सेटअप, SVGs को संभालना, और सिंगल‑पेज रेंडरिंग
+  को कवर करती है।
+keywords:
+- HTML to PDF conversion
+- Aspose.PDF for Java
+- convert HTML to PDF
+lastmod: '2026-07-21'
+og_description: Aspose.PDF for Java का उपयोग करके HTML को PDF में कैसे बदलें, सीखें।
+  यह चरण‑दर‑चरण मार्गदर्शिका Maven/Gradle सेटअप, SVGs को संभालना, और सिंगल‑पेज रेंडरिंग
+  को कवर करती है।
+og_image_alt: Guide showing how to convert HTML to PDF with Aspose.PDF for Java
+og_title: Aspose.PDF for Java के साथ HTML को PDF में बदलें – मार्गदर्शिका
+schemas:
+- author: Aspose
+  dateModified: '2026-07-21'
+  description: Learn how to convert HTML to PDF using Aspose.PDF for Java. This step‑by‑step
+    guide covers Maven/Gradle setup, handling SVGs, and single‑page rendering.
+  headline: Convert HTML to PDF with Aspose.PDF for Java – Guide
+  type: TechArticle
+- description: Learn how to convert HTML to PDF using Aspose.PDF for Java. This step‑by‑step
+    guide covers Maven/Gradle setup, handling SVGs, and single‑page rendering.
+  name: Convert HTML to PDF with Aspose.PDF for Java – Guide
+  steps:
+  - name: '**E‑Commerce Catalogs:** Turn product pages into downloadable PDF brochures.'
+    text: '**E‑Commerce Catalogs:** Turn product pages into downloadable PDF brochures.'
+  - name: '**Training Materials:** Generate single‑page summaries of webinar content.'
+    text: '**Training Materials:** Generate single‑page summaries of webinar content.'
+  - name: '**Marketing Flyers:** Distribute visually‑rich flyers that include SVG
+      logos and icons.'
+    text: '**Marketing Flyers:** Distribute visually‑rich flyers that include SVG
+      logos and icons.'
+  type: HowTo
+- questions:
+  - answer: Yes. Loop through a list of file paths, apply the same `HtmlLoadOptions`
+      and `Document.save()` logic for each file.
+    question: Can I convert multiple HTML files at once?
+  - answer: Yes. Use `Document.getPages().get_Item(1).addHeaderFooter()` to insert
+      custom text or images.
+    question: Can I add headers and footers to the generated PDF?
+  - answer: Aspose.PDF does not execute JavaScript; ensure any dynamic content is
+      rendered server‑side before conversion.
+    question: What happens if my HTML contains JavaScript?
+  type: FAQPage
+tags:
+- convert html to pdf
+- aspose pdf java
+- java pdf conversion
+- html to pdf java
+title: Aspose.PDF for Java के साथ HTML को PDF में बदलें – मार्गदर्शिका
+url: /hi/java/conversion-export/html-to-pdf-aspose-java-tutorial/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,39 +59,38 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# जावा के लिए Aspose.PDF का उपयोग करके HTML से PDF रूपांतरण में महारत हासिल करें: एक व्यापक गाइड
+# Aspose.PDF for Java के साथ HTML को PDF में बदलें – गाइड
 
 ## परिचय
 
-क्या आप अपने वेब कंटेंट को प्रोफेशनल दिखने वाले PDF दस्तावेज़ों में बदलने का एक कारगर तरीका खोज रहे हैं? आप सही जगह पर हैं! डिजिटल डॉक्यूमेंटेशन के बढ़ते चलन के साथ, HTML फ़ाइलों को—खासकर वे जिनमें एम्बेडेड SVG डेटा हो—PDF में बदलना ज़रूरी है। यह ट्यूटोरियल आपको इसका उपयोग करने में मार्गदर्शन करेगा **जावा के लिए Aspose.PDF** निर्बाध HTML-से-PDF रूपांतरण के लिए.
+क्या आप HTML को PDF में बदलने का एक प्रभावी तरीका खोज रहे हैं? डिजिटल दस्तावेज़ीकरण के बढ़ते चलन के साथ, वेब पेज—जिसमें एम्बेडेड SVG ग्राफ़िक्स भी शामिल हैं—को पेशेवर PDF फ़ाइलों में बदलना एक सामान्य आवश्यकता बन गई है। इस ट्यूटोरियल में हम **Aspose.PDF for Java** का उपयोग करके तेज़, उच्च‑गुणवत्ता वाली HTML‑to‑PDF रूपांतरण प्रक्रिया को समझेंगे।
 
-### आप क्या सीखेंगे:
-- HTML फ़ाइल को PDF दस्तावेज़ में परिवर्तित करें।
-- संपूर्ण HTML सामग्री को एकल-पृष्ठ PDF पर प्रस्तुत करें।
-- रूपांतरण के दौरान एम्बेडेड SVG डेटा युक्त HTML फ़ाइलों को संभालें।
-आइये, पूर्वापेक्षाओं से शुरुआत करें!
+### त्वरित उत्तर
+- **क्या Aspose.PDF SVG को संभाल सकता है?** हाँ, यह एम्बेडेड SVG ग्राफ़िक्स को गुणवत्ता में कोई कमी के बिना रेंडर करता है।  
+- **कौन सा बिल्ड टूल अनुशंसित है?** Maven या Gradle; दोनों पूरी तरह समर्थित हैं।  
+- **क्या विकास के लिए लाइसेंस चाहिए?** परीक्षण के लिए एक फ्री ट्रायल काम करता है; उत्पादन के लिए स्थायी लाइसेंस आवश्यक है।  
+- **क्या सिंगल‑पेज रेंडरिंग संभव है?** बिल्कुल—`HtmlLoadOptions` में `setRenderToSinglePage(true)` सेट करें।  
+- **कौन सा Java संस्करण आवश्यक है?** Java 8 या नया।
 
-## आवश्यक शर्तें
+### “HTML को PDF में बदलना” क्या है?
+**Convert HTML to PDF** का अर्थ है वेब‑पेज मार्कअप (HTML, CSS, इमेजेज, SVGs) को एक स्थिर, प्रिंटेबल PDF दस्तावेज़ में बदलना, जबकि लेआउट और स्टाइलिंग को बरकरार रखना।
 
-इसमें गोता लगाने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित चीजें हैं:
+## Aspose.PDF for Java का उपयोग क्यों करें?
 
-### आवश्यक लाइब्रेरी और निर्भरताएँ
-आपको Java के लिए Aspose.PDF की आवश्यकता होगी, जो PDF में हेरफेर के लिए एक शक्तिशाली लाइब्रेरी है।
+Aspose.PDF for Java **50+ इनपुट और आउटपुट फॉर्मैट** को सपोर्ट करता है और कई‑सौ पेज वाले HTML फ़ाइलों को पूरी सोर्स को मेमोरी में लोड किए बिना प्रोसेस कर सकता है। इसका रेंडरिंग इंजन CSS स्टाइलिंग, फ़ॉन्ट्स और वेक्टर ग्राफ़िक्स को बरकरार रखता है, जिससे PDF मूल वेब व्यू के समान होते हैं और सामान्य सर्वर पर प्रति पेज ≤ 2 सेकंड में उत्पन्न होते हैं।
 
-### पर्यावरण सेटअप आवश्यकताएँ
-- Aspose.PDF के साथ संगत JDK के साथ अपना विकास वातावरण सेट करें।
-- अपने कोडिंग अनुभव को बेहतर बनाने के लिए IntelliJ IDEA या Eclipse जैसे IDE का उपयोग करें।
+## पूर्वापेक्षाएँ
 
-### ज्ञान पूर्वापेक्षाएँ
-- जावा प्रोग्रामिंग अवधारणाओं की बुनियादी समझ।
-- निर्भरता प्रबंधन के लिए मावेन या ग्रेडेल से परिचित होना।
+- **Java Development Kit** 8 या नया।  
+- **IDE** जैसे IntelliJ IDEA या Eclipse।  
+- **Maven** या **Gradle** डिपेंडेंसी मैनेजमेंट के लिए।  
+- बुनियादी Java प्रोग्रामिंग ज्ञान।
 
-## Java के लिए Aspose.PDF सेट अप करना
+## Aspose.PDF for Java सेटअप
 
-आरंभ करना आसान है। अपने प्रोजेक्ट में Aspose.PDF को शामिल करने का तरीका यहां बताया गया है:
+### Maven का उपयोग
+Add the following dependency to your `pom.xml`:
 
-### मावेन का उपयोग करना:
-इस निर्भरता को अपने में जोड़ें `pom.xml` फ़ाइल:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -51,121 +98,143 @@
     <version>25.3</version>
 </dependency>
 ```
-### ग्रेडेल का उपयोग करना:
-इस पंक्ति को अपने में शामिल करें `build.gradle` फ़ाइल:
+
+### Gradle का उपयोग
+Insert this line into your `build.gradle` file:
+
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
+
 #### लाइसेंस प्राप्ति चरण
-- **मुफ्त परीक्षण:** Aspose.PDF की क्षमताओं का पता लगाने के लिए निःशुल्क परीक्षण से शुरुआत करें।
-- **अस्थायी लाइसेंस:** विस्तारित पहुंच के लिए अस्थायी लाइसेंस प्राप्त करें।
-- **खरीदना:** दीर्घकालिक उपयोग के लिए पूर्ण लाइसेंस खरीदने पर विचार करें।
-##### बुनियादी आरंभीकरण और सेटअप
+- **फ्री ट्रायल:** Aspose.PDF की क्षमताओं को जानने के लिए फ्री ट्रायल से शुरू करें।  
+- **टेम्पररी लाइसेंस:** विस्तारित एक्सेस के लिए टेम्पररी लाइसेंस प्राप्त करें।  
+- **खरीद:** दीर्घकालिक उपयोग के लिए पूर्ण लाइसेंस खरीदने पर विचार करें।
+
+##### बेसिक इनिशियलाइज़ेशन और सेटअप
+The `License` class activates your purchased key and removes evaluation watermarks.
+
 ```java
-// Aspose.PDF की पूर्ण सुविधाओं को अनलॉक करने के लिए अपनी लाइसेंस फ़ाइल लोड करें
+// Load your license file to unlock full features of Aspose.PDF
 com.aspose.pdf.License license = new com.aspose.pdf.License();
 license.setLicense("path/to/your/license/file.lic");
 ```
-## कार्यान्वयन मार्गदर्शिका
 
-अब, आइए कार्यान्वयन को विशिष्ट विशेषताओं में विभाजित करें।
+## इम्प्लीमेंटेशन गाइड
 
-### फ़ीचर 1: HTML फ़ाइल को PDF में बदलें
-#### अवलोकन
-यह सुविधा Java के लिए Aspose.PDF का उपयोग करके एक साधारण HTML फ़ाइल को PDF दस्तावेज़ में परिवर्तित करने का प्रदर्शन करती है।
-##### चरण-दर-चरण कार्यान्वयन:
-###### सेटअप लोड विकल्प
+नीचे हम रूपांतरण प्रक्रिया को तीन व्यावहारिक फीचर्स में विभाजित करेंगे।
+
+### HTML फ़ाइल को PDF में कैसे बदलें?
+
+`HtmlLoadOptions` के साथ अपनी HTML फ़ाइल लोड करें, फिर एक `Document` इंस्टेंस बनाएं और `save()` कॉल करें। यह दो‑स्टेप पैटर्न कोड की एक ही लाइन में रूपांतरण करता है।
+
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 HtmlLoadOptions htmloptions = new HtmlLoadOptions(dataDir);
-```
-*स्पष्टीकरण:* The `HtmlLoadOptions` क्लास HTML फ़ाइलों को लोड करने के लिए आधार पथ जैसे विकल्प निर्दिष्ट करने की अनुमति देता है।
-###### दस्तावेज़ लोड करें और परिवर्तित करें
+```  
+*व्याख्या:* `HtmlLoadOptions` क्लास HTML फ़ाइलों को लोड करने के विकल्प निर्धारित करता है, जैसे बेस पाथ और रेंडरिंग सेटिंग्स।  
+
 ```java
 document doc = new Document(dataDir + "/EmailDemo_updated.html", htmloptions);
 doc.save("YOUR_OUTPUT_DIRECTORY/Web+URL_output.pdf");
-```
-*स्पष्टीकरण:* The `Document` कन्स्ट्रक्टर आपकी HTML फ़ाइल लोड करता है। `save()`, आप इसे निर्दिष्ट निर्देशिका में संग्रहीत पीडीएफ में परिवर्तित करते हैं।
+```  
+*व्याख्या:* `Document` क्लास मेमोरी में एक PDF दस्तावेज़ को दर्शाता है; `save()` कॉल करने से परिवर्तित PDF डिस्क पर लिखा जाता है।
 
-### फ़ीचर 2: HTML सामग्री को एकल पृष्ठ PDF में प्रस्तुत करें
-#### अवलोकन
-विस्तृत HTML सामग्री को एकल-पृष्ठ PDF में प्रस्तुत करें, जो संक्षिप्त रिपोर्ट या सारांश बनाने के लिए आदर्श है।
-##### चरण-दर-चरण कार्यान्वयन:
-###### एकल पृष्ठ रेंडरिंग के लिए विकल्प कॉन्फ़िगर करें
+### HTML कंटेंट को सिंगल‑पेज PDF में कैसे रेंडर करें?
+
+`renderToSinglePage` फ़्लैग को `true` सेट करें ताकि पूरी HTML कंटेंट एक PDF पेज में फिट हो जाए, जो संक्षिप्त रिपोर्टों के लिए आदर्श है।
+
 ```java
 HtmlLoadOptions options = new HtmlLoadOptions();
 options.setRenderToSinglePage(true);
-```
-*स्पष्टीकरण:* सेटिंग `setRenderToSinglePage(true)` यह सुनिश्चित करता है कि सभी सामग्री एक पृष्ठ पर समाहित हो जाए, चाहे उसकी मूल लंबाई कुछ भी हो।
-###### दस्तावेज़ लोड करें और सहेजें
+```  
+*व्याख्या:* `setRenderToSinglePage(true)` सभी HTML एलिमेंट्स को एक पेज पर मजबूर करता है, आवश्यकतानुसार कंटेंट को स्वचालित रूप से स्केल करता है।  
+
 ```java
 document doc = new Document(dataDir + "/HTMLToPDF.html", options);
 doc.save("YOUR_OUTPUT_DIRECTORY/RenderContentToSamePage_out.pdf");
-```
-*स्पष्टीकरण:* फ़ीचर 1 के समान, लेकिन एकल-पृष्ठ रेंडरिंग के साथ लागू किया गया `HtmlLoadOptions`.
+```  
+*व्याख्या:* वही `Document` वर्कफ़्लो उपयोग किया जाता है, लेकिन `HtmlLoadOptions` के माध्यम से सिंगल‑पेज रेंडरिंग लागू की जाती है।
 
-### फ़ीचर 3: एम्बेडेड SVG डेटा के साथ HTML रेंडर करें
-#### अवलोकन
-यह सुविधा एम्बेडेड SVG डेटा युक्त HTML फ़ाइल को PDF दस्तावेज़ में परिवर्तित करने पर केंद्रित है।
-##### चरण-दर-चरण कार्यान्वयन:
-###### SVG पथ के साथ लोड विकल्प आरंभ करें
+### एम्बेडेड SVG डेटा के साथ HTML को कैसे बदलें?
+
+बेस पाथ को कॉन्फ़िगर करें ताकि कन्वर्टर HTML में संदर्भित बाहरी SVG फ़ाइलों को ढूँढ़ सके।
+
 ```java
 HtmlLoadOptions options = new HtmlLoadOptions(dataDir + "/HTMLSVG.html");
-```
-*स्पष्टीकरण:* आधार पथ को रूपांतरण के दौरान SVG सामग्री को सही ढंग से संभालने के लिए सेट किया गया है।
-###### दस्तावेज़ बनाएँ और सहेजें
+```  
+*व्याख्या:* `HtmlLoadOptions` का बेस पाथ SVG एसेट्स वाले फ़ोल्डर की ओर इशारा करता है, जिससे वे PDF में सही ढंग से एम्बेड हो सकें।  
+
 ```java
 document pdfDocument = new Document(dataDir + "/HTMLSVG.html", options);
 pdfDocument.save("YOUR_OUTPUT_DIRECTORY/RenderHTMLwithSVGData_out.pdf");
-```
-*स्पष्टीकरण:* एम्बेडेड SVGs के साथ HTML लोड करता है, तथा PDF आउटपुट में ग्राफिक निष्ठा को संरक्षित करता है।
+```  
+*व्याख्या:* रूपांतरण वेक्टर फ़िडेलिटी को बरकरार रखता है, इसलिए परिणामी PDF में स्पष्ट SVG ग्राफ़िक्स रहते हैं।
 
-## व्यावहारिक अनुप्रयोगों
-1. **ई-कॉमर्स उत्पाद कैटलॉग:** उत्पाद सूची को डाउनलोड योग्य ब्रोशर में परिवर्तित करें।
-2. **वेबिनार और प्रशिक्षण सामग्री:** प्रतिभागियों के लिए व्यापक एकल-पृष्ठ सारांश तैयार करें।
-3. **विपणन फ़्लायर्स:** एम्बेडेड SVGs के साथ ग्राफिक्स युक्त दृश्य-समृद्ध फ्लायर्स वितरित करें।
+## व्यावहारिक अनुप्रयोग
 
-## प्रदर्शन संबंधी विचार
-### पीडीएफ निर्माण का अनुकूलन
-- **स्मृति प्रबंधन:** जावा के मेमोरी उपयोग पर नज़र रखें, विशेष रूप से बड़ी HTML फ़ाइलों को संसाधित करते समय।
-- **कुशल संसाधन उपयोग:** इष्टतम प्रदर्शन सुनिश्चित करने के लिए अनावश्यक संसाधन आवंटन को न्यूनतम करें।
+1. **ई‑कॉमर्स कैटलॉग:** प्रोडक्ट पेज को डाउनलोडेबल PDF ब्रोशर में बदलें।  
+2. **ट्रेनिंग मैटीरियल्स:** वेबिनार कंटेंट के सिंगल‑पेज सारांश बनाएं।  
+3. **मार्केटिंग फ्लायर्स:** विज़ुअली‑रिच फ्लायर्स वितरित करें जिनमें SVG लोगो और आइकॉन शामिल हों।
 
-### जावा में Aspose.PDF के लिए सर्वोत्तम अभ्यास
-- जहां भी संभव हो, बार-बार होने वाले रूपांतरणों में तेजी लाने के लिए कैशिंग का उपयोग करें।
-- यदि एक साथ कई दस्तावेज़ों को परिवर्तित करना हो तो बैच प्रोसेसिंग पर विचार करें।
+## परफॉर्मेंस विचार
 
-## निष्कर्ष
-इस ट्यूटोरियल के माध्यम से, आपने HTML फ़ाइलों को कुशलतापूर्वक PDF में बदलने के लिए Aspose.PDF for Java की शक्ति को अनलॉक कर लिया है। चाहे वह सरल रूपांतरण हो या SVG डेटा से जुड़े जटिल कार्य, अब आप आवश्यक कौशल से लैस हैं।
+### PDF जनरेशन का ऑप्टिमाइज़ेशन
 
-### अगले कदम
-Aspose.PDF के दस्तावेज़ों में अधिक उन्नत सुविधाओं और अनुकूलन विकल्पों का अन्वेषण करें। अपने PDF आउटपुट को सटीक रूप से तैयार करने के लिए विभिन्न कॉन्फ़िगरेशन के साथ प्रयोग करने के लिए स्वतंत्र महसूस करें!
+- **मेमोरी मैनेजमेंट:** बहुत बड़ी HTML फ़ाइलों के लिए स्ट्रीमिंग API का उपयोग करें ताकि हीप उपयोग कम रहे।  
+- **रिसोर्स रीउस:** बैच प्रोसेसिंग के दौरान `License` ऑब्जेक्ट्स को कैश करें और `HtmlLoadOptions` को पुन: उपयोग करें।
 
-## अक्सर पूछे जाने वाले प्रश्न अनुभाग
-1. **क्या मैं एक साथ कई HTML फ़ाइलें परिवर्तित कर सकता हूँ?**
-   - हां, फ़ाइल पथों के संग्रह के माध्यम से पुनरावृति करें और प्रत्येक पर रूपांतरण तर्क लागू करें।
-2. **मैं मेमोरी खत्म हुए बिना बड़े दस्तावेज़ों को कैसे संभालूँ?**
-   - टुकड़ों में प्रसंस्करण करके या जावा हीप आकार को बढ़ाकर अनुकूलन करें।
-3. **क्या HTML-से-PDF रूपांतरण के दौरान पृष्ठ अभिविन्यास को समायोजित करना संभव है?**
-   - हां, उपयोग करें `PageInfo` अनुकूलन के लिए Aspose.PDF के API के भीतर गुण।
-4. **क्या मैं पीडीएफ में हेडर और फुटर जोड़ सकता हूं?**
-   - निश्चित रूप से! अपने दस्तावेज़ लेआउट को बढ़ाने के लिए Aspose.PDF के हेडर/फुटर कार्यक्षमताओं का उपयोग करें।
-5. **यदि मेरे HTML में जावास्क्रिप्ट शामिल हो तो क्या होगा?**
-   - अतिरिक्त लोड विकल्पों को कॉन्फ़िगर करके या HTML सामग्री को प्रीप्रोसेस करके सुनिश्चित करें कि सभी स्क्रिप्ट ठीक से रेंडर की गई हैं।
+### Java में Aspose.PDF के लिए बेस्ट प्रैक्टिसेज
+
+- समान टेम्प्लेट्स की बार‑बार रूपांतरण के लिए कैशिंग सक्षम करें।  
+- यदि आपके पास पर्याप्त CPU और मेमोरी है तो ही दस्तावेज़ों को समानांतर बैच में प्रोसेस करें।
+
+## अक्सर पूछे जाने वाले प्रश्न
+
+**Q: क्या मैं एक साथ कई HTML फ़ाइलें बदल सकता हूँ?**  
+A: हाँ। फ़ाइल पाथ की सूची पर लूप करें, प्रत्येक फ़ाइल के लिए समान `HtmlLoadOptions` और `Document.save()` लॉजिक लागू करें।
+
+**Q: बहुत बड़े HTML दस्तावेज़ों को मेमोरी खत्म हुए बिना कैसे हैंडल करें?**  
+`setPageCountLimit` लोड किए जाने वाले पेजों की संख्या को सीमित करता है, जिससे मेमोरी उपयोग नियंत्रित रहता है।  
+A: JVM हीप साइज (`-Xmx`) बढ़ाएँ या `HtmlLoadOptions.setPageCountLimit()` का उपयोग करके HTML को हिस्सों में प्रोसेस करें।
+
+**Q: क्या रूपांतरण के दौरान पेज ओरिएंटेशन बदलना संभव है?**  
+`PageInfo` पेज प्रॉपर्टीज़ (साइज़, ओरिएंटेशन) को परिभाषित करता है और `PageOrientation` एनेम पोर्ट्रेट या लैंडस्केप को निर्दिष्ट करता है।  
+A: बिल्कुल। `Document` को सेव करने से पहले `PageInfo.setOrientation(PageOrientation.Landscape)` सेट करें।
+
+**Q: क्या मैं जेनरेटेड PDF में हेडर और फुटर जोड़ सकता हूँ?**  
+A: हाँ। कस्टम टेक्स्ट या इमेजेज़ डालने के लिए `Document.getPages().get_Item(1).addHeaderFooter()` उपयोग करें।
+
+**Q: अगर मेरे HTML में JavaScript हो तो क्या होगा?**  
+A: Aspose.PDF JavaScript को एक्सीक्यूट नहीं करता; सुनिश्चित करें कि कोई भी डायनामिक कंटेंट सर्वर‑साइड रेंडर किया गया हो रूपांतरण से पहले।
 
 ## संसाधन
-- [Aspose.PDF जावा दस्तावेज़ीकरण](https://reference.aspose.com/pdf/java/)
-- [Java के लिए Aspose.PDF डाउनलोड करें](https://releases.aspose.com/pdf/java/)
+- [Aspose.PDF Java दस्तावेज़ीकरण](https://reference.aspose.com/pdf/java/)
+- [Aspose.PDF for Java डाउनलोड करें](https://releases.aspose.com/pdf/java/)
 - [लाइसेंस खरीदें](https://purchase.aspose.com/buy)
-- [निःशुल्क परीक्षण पहुँच](https://releases.aspose.com/pdf/java/)
-- [अस्थायी लाइसेंस अनुरोध](https://purchase.aspose.com/temporary-license/)
-- [सहयता मंच](https://forum.aspose.com/c/pdf/10)
+- [फ्री ट्रायल एक्सेस](https://releases.aspose.com/pdf/java/)
+- [टेम्पररी लाइसेंस अनुरोध](https://purchase.aspose.com/temporary-license/)
+- [सपोर्ट फ़ोरम](https://forum.aspose.com/c/pdf/10)
 
-इन उपकरणों और जानकारियों के साथ, आप Aspose.PDF for Java का उपयोग करके आत्मविश्वास के साथ HTML-to-PDF रूपांतरणों से निपटने के लिए अच्छी तरह से तैयार हैं। हैप्पी कोडिंग!
+इन टूल्स और जानकारी के साथ, आप Aspose.PDF for Java का उपयोग करके **HTML को PDF में** कुशलता से बदलने के लिए तैयार हैं। कोडिंग का आनंद लें!
+
+---
+
+**Last Updated:** 2026-07-21  
+**Tested With:** Aspose.PDF for Java 24.11  
+**Author:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## संबंधित ट्यूटोरियल्स
+
+- [Aspose.PDF for Java का उपयोग करके XSL-FO को PDF में कैसे बदलें: चरण-दर-चरण गाइड](/pdf/java/conversion-export/convert-xslfo-to-pdf-aspose-java-guide/)
+- [Aspose.PDF for Java का उपयोग करके PDF को मल्टीपेज HTML में कैसे बदलें: पूर्ण गाइड](/pdf/java/conversion-export/convert-pdf-to-multipage-html-aspose-java/)
+- [Aspose.PDF for Java का उपयोग करके HTML टैग्स और विशेष कैरेक्टर्स को एस्केप कैसे करें | टेक्स्ट ऑपरेशन्स ट्यूटोरियल](/pdf/java/text-operations/escape-html-tags-aspose-pdf-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

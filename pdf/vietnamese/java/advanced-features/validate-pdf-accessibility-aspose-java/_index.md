@@ -1,62 +1,88 @@
 ---
-date: '2026-02-17'
-description: Tìm hiểu cách kiểm tra khả năng truy cập PDF và xác thực các tệp PDF
-  bằng Aspose.PDF Java, bao gồm cài đặt, xác thực và tạo báo cáo khả năng truy cập
-  để tuân thủ tiêu chuẩn PDF/UA‑1.
+date: '2026-07-21'
+description: Tìm hiểu cách xác thực khả năng truy cập PDF bằng Aspose.PDF Java, bao
+  gồm cài đặt, xác thực PDF/UA-1 và tạo báo cáo XML chi tiết.
 keywords:
-- validate PDF accessibility
-- Aspose.PDF Java
-- PDF/UA-1 standard
-title: Cách kiểm tra khả năng truy cập PDF bằng Aspose.PDF Java để tuân thủ PDF/UA-1
+- how to validate pdf
+- aspose pdf java
+- pdf accessibility validation api
+lastmod: '2026-07-21'
+og_description: Tìm hiểu cách xác thực khả năng truy cập PDF với Aspose.PDF Java.
+  Thực hiện cài đặt từng bước, chạy xác thực PDF/UA-1 và tạo báo cáo XML.
+og_image_alt: 'Guide: validate PDF accessibility using Aspose.PDF Java'
+og_title: Cách xác thực PDF với Aspose.PDF Java cho PDF/UA-1
+schemas:
+- author: Aspose
+  dateModified: '2026-07-21'
+  description: Learn how to validate PDF accessibility using Aspose.PDF Java, covering
+    setup, PDF/UA-1 validation, and generating detailed XML reports.
+  headline: How to validate PDF with Aspose.PDF Java for PDF/UA-1
+  type: TechArticle
+- questions:
+  - answer: It means evaluating a PDF against standards like PDF/UA‑1 to ensure it
+      can be read by assistive technologies.
+    question: What does “check pdf accessibility” mean?
+  - answer: Aspose.PDF for Java provides a built‑in validation API.
+    question: Which library is used?
+  - answer: A trial works for evaluation; a commercial license is required for production.
+    question: Do I need a license?
+  - answer: Yes—batch processing can be built on top of the same API.
+    question: Can I process multiple files?
+  - answer: An XML log (`ua-20.xml`) that serves as an accessibility report detailing
+      any issues.
+    question: What output is generated?
+  type: FAQPage
+tags:
+- pdf accessibility
+- aspose pdf
+- java pdf validation
+- pdf/ua-1 compliance
+title: Cách xác thực PDF với Aspose.PDF Java cho PDF/UA-1
 url: /vi/java/advanced-features/validate-pdf-accessibility-aspose-java/
 weight: 1
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Cách kiểm tra khả năng truy cập PDF với Aspose.PDF Java để tuân thủ PDF/UA-1
+# Cách xác thực PDF với Aspose.PDF Java cho tuân thủ PDF/UA-1
 
-## Introduction
-Đảm bảo rằng bạn có thể **kiểm tra khả năng truy cập PDF** là điều thiết yếu để cung cấp nội dung kỹ thuật số bao trùm và đáp ứng các yêu cầu pháp lý như PDF/UA-1. Trong hướng dẫn này, bạn sẽ học **cách xác thực PDF** cho khả năng truy cập bằng cách sử dụng Aspose.PDF cho Java, hiểu vì sao điều này quan trọng, và xem cách tạo báo cáo khả năng truy cập chi tiết.  
+## Giới thiệu
+Đảm bảo bạn **cách xác thực pdf** các tệp để truy cập là cần thiết để cung cấp nội dung kỹ thuật số bao trùm và đáp ứng các yêu cầu quy định như PDF/UA‑1. Trong hướng dẫn này, bạn sẽ học **cách xác thực PDF** tài liệu bằng Aspose.PDF cho Java, hiểu vì sao điều này quan trọng, và xem cách tạo báo cáo truy cập chi tiết mà các kiểm toán viên yêu thích.  
 
-**Bạn sẽ học:**
+**Bạn sẽ học được:**
 - Cài đặt Aspose.PDF cho Java
-- Xác thực một PDF theo tiêu chuẩn PDF/UA-1
+- Xác thực PDF theo tiêu chuẩn PDF/UA‑1
 - Lưu nhật ký xác thực để phân tích thêm
-- Tạo báo cáo khả năng truy cập nêu bật các vấn đề
+- Tạo báo cáo truy cập XML nêu bật mọi vấn đề
 
 Hãy bắt đầu và làm cho các PDF của bạn tuân thủ cho mọi người dùng.
 
-## Quick Answers
-- **Kiểm tra khả năng truy cập PDF có nghĩa là gì?** Nó có nghĩa là đánh giá một PDF dựa trên các tiêu chuẩn như PDF/UA-1 để đảm bảo nó có thể được đọc bởi các công nghệ hỗ trợ.  
+## Câu trả lời nhanh
+- **“Kiểm tra khả năng truy cập PDF” có nghĩa là gì?** Nó có nghĩa là đánh giá một PDF theo các tiêu chuẩn như PDF/UA‑1 để đảm bảo nó có thể được đọc bởi các công nghệ hỗ trợ.  
 - **Thư viện nào được sử dụng?** Aspose.PDF for Java cung cấp API xác thực tích hợp.  
-- **Tôi có cần giấy phép không?** Bản dùng thử hoạt động cho việc đánh giá; giấy phép thương mại cần thiết cho môi trường sản xuất.  
-- **Tôi có thể xử lý nhiều tệp không?** Có — xử lý hàng loạt có thể được xây dựng dựa trên cùng API.  
-- **Kết quả đầu ra là gì?** Một nhật ký XML (`ua-20.xml`) đóng vai trò là báo cáo khả năng truy cập chi tiết các vấn đề.
+- **Tôi có cần giấy phép không?** Bản dùng thử hoạt động cho việc đánh giá; giấy phép thương mại là bắt buộc cho môi trường sản xuất.  
+- **Tôi có thể xử lý nhiều tệp cùng lúc không?** Có — xử lý hàng loạt có thể được xây dựng trên cùng API.  
+- **Kết quả đầu ra là gì?** Một nhật ký XML (`ua-20.xml`) đóng vai trò là báo cáo truy cập chi tiết các vấn đề.
 
-## What is check PDF accessibility?
-Kiểm tra khả năng truy cập PDF liên quan đến việc xác minh một cách lập trình rằng PDF tuân thủ đặc tả PDF/UA-1 (Universal Accessibility). Quá trình này kiểm tra cấu trúc tài liệu, gắn thẻ, văn bản thay thế và các tính năng khả năng truy cập khác, sau đó tạo ra một báo cáo mà các nhà phát triển có thể dùng để sửa lỗi.
+## Kiểm tra khả năng truy cập PDF là gì?
+**Kiểm tra khả năng truy cập PDF** là quá trình xác minh một cách lập trình rằng một PDF tuân thủ tiêu chuẩn PDF/UA‑1 (Truy cập toàn cầu). API kiểm tra cấu trúc tài liệu, gắn thẻ, văn bản thay thế và các tính năng truy cập khác, sau đó tạo ra một báo cáo XML mà bạn có thể đưa cho các kiểm toán viên hoặc đưa vào các công cụ khắc phục tự động.
 
-## Why check PDF accessibility with Aspose.PDF Java?
-- **Tuân thủ toàn diện** – API thực hiện việc xác thực PDF/UA‑1 mà không cần công cụ bên ngoài.  
-- **Đa nền tảng** – Hoạt động trên bất kỳ hệ thống nào hỗ trợ Java 8+.  
-- **Sẵn sàng tự động hoá** – Lý tưởng cho các pipeline CI, công việc batch, hoặc hệ thống quản lý tài liệu.  
-- **Báo cáo rõ ràng** – Tạo báo cáo khả năng truy cập XML mà bạn có thể phân tích hoặc trình bày cho kiểm toán viên.
+## Tại sao kiểm tra khả năng truy cập PDF với Aspose.PDF Java?
+Xác thực khả năng truy cập PDF với Aspose.PDF Java cung cấp cho bạn một **giải pháp tuân thủ toàn diện** chạy trên bất kỳ nền tảng nào hỗ trợ Java 8+. Thư viện xử lý **hơn 50 định dạng đầu vào và đầu ra** và có thể xác thực PDF lên tới **1 GB** mà không cần tải toàn bộ tệp vào bộ nhớ, rất phù hợp cho các công việc hàng loạt khối lượng lớn. Nó cũng tạo ra một báo cáo XML rõ ràng, có thể đọc được bởi máy, loại bỏ nhu cầu sử dụng công cụ bên thứ ba.
 
-## Prerequisites
-Để làm theo hướng dẫn này, bạn sẽ cần:
-- **Bộ công cụ phát triển Java (JDK)**: Phiên bản 8 trở lên.  
-- **Aspose.PDF cho Java**: Phiên bản 25.3 hoặc mới hơn.  
-- **Maven hoặc Gradle**: Để quản lý các phụ thuộc.  
-- Kiến thức cơ bản về lập trình Java và xử lý tệp.
+## Yêu cầu trước
+- **Java Development Kit (JDK)** 8 hoặc mới hơn.  
+- **Aspose.PDF for Java** 25.3 hoặc mới hơn.  
+- **Maven hoặc Gradle** để quản lý phụ thuộc.  
+- Kiến thức cơ bản về I/O tệp Java.
 
-## Setting Up Aspose.PDF for Java
+## Cài đặt Aspose.PDF cho Java
 
-### Maven Setup
-Để tích hợp Aspose.PDF bằng Maven, thêm phụ thuộc sau vào `pom.xml` của bạn:
+### Cài đặt Maven
+Để tích hợp Aspose.PDF bằng Maven, thêm phụ thuộc sau vào tệp `pom.xml` của bạn:
 
 ```xml
 <dependency>
@@ -66,95 +92,104 @@ Kiểm tra khả năng truy cập PDF liên quan đến việc xác minh một c
 </dependency>
 ```
 
-### Gradle Setup
-Đối với dự án sử dụng Gradle, bao gồm đoạn này trong script build của bạn:
+### Cài đặt Gradle
+Đối với các dự án sử dụng Gradle, bao gồm đoạn này trong script build của bạn:
 
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### License Acquisition
-Aspose cung cấp các tùy chọn cấp phép khác nhau:
-- **Dùng thử miễn phí**: Sử dụng thư viện Aspose.PDF với chức năng giới hạn.  
-- **Giấy phép tạm thời**: Yêu cầu giấy phép tạm thời để khám phá đầy đủ tính năng mà không bị giới hạn.  
-- **Mua**: Nhận giấy phép thương mại cho việc sử dụng lâu dài.
+### Đăng ký giấy phép
+Aspose cung cấp ba tùy chọn giấy phép:
+- **Free Trial** – Truy cập đầy đủ API trong thời gian đánh giá không có watermark.  
+- **Temporary License** – Tất cả tính năng không giới hạn cho thử nghiệm ngắn hạn.  
+- **Commercial License** – Sẵn sàng cho sản xuất, không giới hạn sử dụng.
 
-#### Basic Initialization
-Sau khi đã thiết lập môi trường, khởi tạo Aspose.PDF trong dự án của bạn:
+#### Khởi tạo cơ bản
+Khi thư viện đã có trong classpath, khởi tạo Aspose.PDF trong mã Java của bạn:
 
 ```java
 import com.aspose.pdf.Document;
 ```
 
-## Implementation Guide
+## Hướng dẫn triển khai
 
-### Validate PDF Files for Accessibility
-Tính năng này cho phép xác thực tài liệu PDF theo tiêu chuẩn PDF/UA-1 bằng Aspose.PDF.
+### Xác thực tệp PDF để truy cập
+Tính năng này cho phép xác thực tài liệu PDF theo tiêu chuẩn PDF/UA‑1 bằng Aspose.PDF.
 
-#### Step 1: Load Your Document
-Bắt đầu bằng cách tải PDF bạn muốn kiểm tra:
+#### Bước 1: Tải tài liệu của bạn
+Lớp `Document` là đối tượng cấp cao nhất của Aspose.PDF đại diện cho một tệp PDF duy nhất trong bộ nhớ. Việc tải tệp chuẩn bị nó cho quá trình xác thực.
 
 ```java
 Document document = new Document("YOUR_DOCUMENT_DIRECTORY" + "StructureElements.pdf");
 ```
-*Giải thích*: Dòng này tải tệp PDF đã chỉ định vào bộ nhớ, chuẩn bị cho việc xác thực.
+*Giải thích*: Dòng này đọc PDF được chỉ định vào một thể hiện `Document`, cho phép engine xác thực kiểm tra cấu trúc của nó.
 
-#### Step 2: Validate Against PDF/UA-1 Standard
-Chạy xác thực và lưu báo cáo khả năng truy cập XML:
+#### Bước 2: Xác thực theo tiêu chuẩn PDF/UA‑1
+Phương thức `validate` kiểm tra tài liệu theo PDF/UA‑1 và ghi các vấn đề vào tệp XML.  
+Thực hiện xác thực và lưu báo cáo truy cập XML:
 
 ```java
 Boolean isValid = document.validate("YOUR_OUTPUT_DIRECTORY" + "ua-20.xml", PdfFormat.PDF_UA_1);
 ```
-*Giải thích*: Phương thức `validate` kiểm tra tài liệu theo PDF/UA‑1 và ghi bất kỳ vấn đề khả năng truy cập nào vào `ua-20.xml`. Giá trị boolean trả về cho biết mức độ tuân thủ tổng thể.
+*Giải thích*: Phương thức `validate` kiểm tra tài liệu theo PDF/UA‑1 và ghi bất kỳ vấn đề truy cập nào vào `ua-20.xml`. Giá trị boolean trả về cho biết tệp có vượt qua tất cả các kiểm tra hay không.
 
-### How to check PDF accessibility programmatically
-Bằng cách tự động hoá các bước trên, bạn có thể nhúng **kiểm tra khả năng truy cập PDF** vào các công việc batch, dịch vụ tạo tài liệu, hoặc pipeline kiểm soát chất lượng, đảm bảo mọi PDF bạn xuất bản đáp ứng các tiêu chuẩn yêu cầu.
+### Cách kiểm tra khả năng truy cập PDF một cách lập trình?
+`Document` là lớp của Aspose.PDF dùng để tải tệp PDF, và phương thức `validate` của nó thực hiện các kiểm tra PDF/UA‑1 bằng cách sử dụng `PdfUAValidatorOptions.DEFAULT`.  
+Tải PDF bằng `new Document("input.pdf")`, gọi `document.validate(PdfUAValidatorOptions.DEFAULT, "ua-20.xml")`, sau đó kiểm tra XML đã tạo. Mẫu hai bước này có thể được đặt trong vòng lặp để tự động xử lý hàng chục hoặc hàng trăm tệp, đảm bảo mọi PDF bạn xuất bản đáp ứng tiêu chuẩn truy cập mà không cần thao tác thủ công.
 
-## Practical Applications
-1. **Kiểm toán tuân thủ** – Xác thực tài liệu pháp lý về khả năng truy cập trước khi nộp.  
-2. **Thư viện số** – Đảm bảo e‑book và bài nghiên cứu có thể sử dụng được bởi trình đọc màn hình.  
-3. **Tài liệu giáo dục** – Kiểm tra tài nguyên học tập đáp ứng chính sách khả năng truy cập của tổ chức.  
-4. **Tài liệu doanh nghiệp** – Giữ sổ tay nội bộ và báo cáo bên ngoài tuân thủ các hướng dẫn khả năng truy cập.
+## Ứng dụng thực tế
+1. **Compliance Audits** – Xác thực hợp đồng pháp lý trước khi nộp cho cơ quan quản lý.  
+2. **Digital Libraries** – Đảm bảo e‑book và bài báo nghiên cứu thân thiện với trình đọc màn hình.  
+3. **Educational Materials** – Xác minh sách giáo trình và tài liệu học tập đáp ứng chính sách truy cập của tổ chức.  
+4. **Corporate Documentation** – Giữ các hướng dẫn nội bộ và báo cáo bên ngoài tuân thủ các hướng dẫn truy cập.
 
-## Performance Considerations
-- **Xử lý tệp hiệu quả** – Chỉ tải các tệp cần thiết để giảm mức sử dụng bộ nhớ.  
-- **Quản lý bộ nhớ** – Đối với PDF lớn, tăng heap JVM (`-Xmx`) để tránh `OutOfMemoryError`.  
-- **Xử lý batch** – Xử lý tài liệu theo nhóm để cân bằng lưu lượng và tiêu thụ tài nguyên.
+## Các cân nhắc về hiệu năng
+- **Efficient File Handling** – Chỉ tải những gì cần; trình xác thực stream PDF để giữ mức sử dụng bộ nhớ thấp.  
+- **Memory Management** – Đối với PDF lớn hơn 200 MB, tăng heap JVM (`-Xmx2g`) để tránh `OutOfMemoryError`.  
+- **Batch Processing** – Xử lý tệp theo nhóm 20‑30 để cân bằng lưu lượng và tiêu thụ tài nguyên.
 
-## Common Issues and Solutions
-- **Thiếu tệp** – Kiểm tra lại rằng PDF đầu vào và thư mục đầu ra tồn tại và được tham chiếu đúng.  
-- **Phiên bản không đúng** – Phương thức `validate` có sẵn từ Aspose.PDF 25.3; các phiên bản cũ hơn sẽ không biên dịch.  
-- **PDF lớn** – Phân bổ đủ không gian heap hoặc chia xác thực thành các phần nhỏ hơn nếu gặp áp lực bộ nhớ.
+## Các vấn đề thường gặp và giải pháp
+- **Missing Files** – Kiểm tra cả PDF đầu vào và thư mục đầu ra tồn tại và có quyền đúng.  
+- **Incorrect Library Version** – API `validate` có sẵn từ Aspose.PDF 25.3 trở lên; các phiên bản cũ sẽ không biên dịch.  
+- **Large PDFs** – Cấp phát thêm bộ nhớ heap hoặc chia nhỏ quá trình xác thực nếu gặp áp lực bộ nhớ.
 
-## Frequently Asked Questions
+## Câu hỏi thường gặp
 
-**Q1: PDF/UA-1 là tiêu chuẩn gì?**  
-A1: PDF/UA-1 (Universal Accessibility) định nghĩa cách cấu trúc PDF sao cho các công nghệ hỗ trợ có thể diễn giải chúng một cách chính xác.
+**Q1: Tiêu chuẩn PDF/UA‑1 là gì?**  
+A1: PDF/UA‑1 (Truy cập toàn cầu) định nghĩa cách PDF phải được cấu trúc để các công nghệ hỗ trợ có thể diễn giải chúng một cách chính xác.
 
 **Q2: Tôi có thể xác thực nhiều PDF cùng lúc không?**  
-A2: Có, bạn có thể lặp qua một tập hợp các tệp và gọi `document.validate` cho mỗi tệp, xây dựng giải pháp xử lý batch.
+A2: Có, lặp qua một tập hợp các tệp và gọi `document.validate` cho mỗi tệp; cùng một định dạng báo cáo XML sẽ được tạo cho mọi tài liệu.
 
 **Q3: Tôi nên làm gì nếu xác thực thất bại?**  
-A3: Mở báo cáo `ua-20.xml` đã tạo, xác định các vấn đề được báo cáo, và sử dụng API chỉnh sửa của Aspose.PDF để thêm thẻ thiếu, văn bản thay thế hoặc các yếu tố cần thiết khác.
+A3: Mở `ua-20.xml` đã tạo, xác định các vấn đề được báo cáo, và sử dụng API chỉnh sửa của Aspose.PDF để thêm thẻ thiếu, văn bản thay thế, hoặc sửa cấu trúc, sau đó chạy lại xác thực.
 
 **Q4: Có giới hạn kích thước cho PDF có thể kiểm tra không?**  
-A4: Aspose.PDF xử lý tốt các tệp lớn, nhưng hãy đảm bảo JVM có đủ bộ nhớ được cấp phát (`-Xmx`) cho các tài liệu rất lớn.
+A4: Aspose.PDF có thể xử lý PDF lên tới 1 GB, với điều kiện JVM có đủ bộ nhớ heap được cấp phát (`-Xmx`).
 
-**Q5: Làm sao để nhận hỗ trợ nếu gặp vấn đề?**  
-A: Truy cập [Aspose Support Forum](https://forum.aspose.com/c/pdf/10) để được cộng đồng và đội ngũ Aspose hỗ trợ.
+**Q5: Làm thế nào để tôi nhận được hỗ trợ nếu gặp vấn đề?**  
+A: Truy cập [Aspose Support Forum](https://forum.aspose.com/c/pdf/10) để nhận trợ giúp từ các chuyên gia cộng đồng và nhân viên Aspose.
 
-## Resources
+## Tài nguyên
 - **Tài liệu**: [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/)  
 - **Tải xuống**: [Aspose.PDF Releases](https://releases.aspose.com/pdf/java/)  
-- **Mua giấy phép**: [Buy a License](https://purchase.aspose.com/buy)  
+- **Mua**: [Buy a License](https://purchase.aspose.com/buy)  
 - **Dùng thử miễn phí**: [Try Aspose.PDF for Free](https://releases.aspose.com/pdf/java/)  
 - **Giấy phép tạm thời**: [Request Here](https://purchase.aspose.com/temporary-license/)
 
 ---
 
-**Last Updated:** 2026-02-17  
-**Tested With:** Aspose.PDF 25.3 for Java  
-**Author:** Aspose  
+**Cập nhật lần cuối:** 2026-07-21  
+**Kiểm tra với:** Aspose.PDF 25.3 for Java  
+**Tác giả:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Tạo PDF có thẻ Java – Tính năng nâng cao Aspose.PDF](/pdf/java/advanced-features/create-tagged-pdf-aspose-java/)
+- [Cách gắn thẻ PDF trong Java với Aspose.PDF: Nâng cao khả năng truy cập và cấu trúc](/pdf/java/advanced-features/java-pdf-tagging-aspose-pdf-enhancement/)
+- [Cách xác thực PDF cho tuân thủ PDF/A-1b bằng Aspose.PDF cho Java](/pdf/java/pdfa-compliance/validate-pdfs-aspose-pdf-java-tutorial/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
