@@ -306,10 +306,13 @@ Pelajari cara membagi file PDF menjadi beberapa halaman menggunakan Aspose.PDF u
 Pelajari cara membagi halaman PDF menjadi beberapa file terpisah menggunakan Aspose.PDF untuk .NET. Panduan lengkap ini mencakup kiat penyiapan, penerapan, dan pengoptimalan.
 
 ### [Membagi dan Membuat File PDF Menggunakan Aspose.PDF .NET | Panduan Manipulasi Dokumen](./split-create-pdf-aspose-pdf-net/)
-Pelajari cara membagi PDF multi-halaman dan membuat file PDF baru menggunakan Aspose.PDF untuk .NET. Ikuti panduan lengkap ini dengan contoh kode.
+Pelajari cara membagi PDF multi-halaman dan membuat file PDF baru menggunakan Aspose.PDF .NET. Ikuti panduan lengkap ini dengan contoh kode.
 
 ### [Panduan Lengkap untuk Manipulasi PDF dengan Aspose.PDF .NET: Memuat, Menyimpan & Mengganti Teks Secara Efisien](./master-pdf-manipulation-aspose-pdf-net/)
 Pelajari cara menguasai manipulasi PDF menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup pemuatan, penyimpanan, dan penggantian teks dalam PDF, ideal bagi pengembang yang menginginkan efisiensi.
+
+### [Simpan PDF yang Diperbarui – Edit Sumber Daya PDF dengan Aspose.Pdf](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+Pelajari cara menyimpan PDF yang telah diperbarui setelah mengedit sumber daya PDF menggunakan Aspose.Pdf.
 
 ## Sumber Daya Tambahan
 
