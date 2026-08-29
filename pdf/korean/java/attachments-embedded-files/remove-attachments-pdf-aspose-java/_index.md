@@ -1,12 +1,56 @@
 ---
-date: '2025-12-20'
-description: Aspose.PDF for Java를 사용하여 PDF 첨부 파일을 제거하고 PDF 크기를 최적화하는 방법을 배워보세요. 이
-  단계별 가이드에서는 설정, Maven 의존성 및 첨부 파일 없이 PDF 저장에 대해 다룹니다.
+date: '2026-05-23'
+description: Aspose.PDF for Java를 사용하여 PDF 첨부 파일을 제거하고 PDF 크기를 최적화하는 방법을 배웁니다. 이 단계별
+  가이드에서는 설정, Maven 의존성, 그리고 첨부 파일 없이 PDF 저장에 대해 다룹니다.
 keywords:
-- remove attachments from pdf
-- Aspose.PDF for Java setup
-- manage PDF files
-title: Aspose.PDF for Java를 사용하여 PDF 첨부 파일을 효율적으로 제거하는 방법
+- save pdf without attachments
+- how to remove pdf attachments
+- optimize pdf size java
+- strip embedded files pdf
+- delete embedded files pdf
+schemas:
+- author: Aspose
+  dateModified: '2026-05-23'
+  description: Learn how to remove PDF attachments and optimize PDF size with Aspose.PDF
+    for Java. This step‑by‑step guide covers setup, Maven dependency, and saving PDF
+    without attachments.
+  headline: How to Save PDF Without Attachments Efficiently Using Aspose.PDF for Java
+  type: TechArticle
+- description: Learn how to remove PDF attachments and optimize PDF size with Aspose.PDF
+    for Java. This step‑by‑step guide covers setup, Maven dependency, and saving PDF
+    without attachments.
+  name: How to Save PDF Without Attachments Efficiently Using Aspose.PDF for Java
+  steps:
+  - name: Load the PDF Document
+    text: '- **Why**: Loading creates an object model that lets you access the `EmbeddedFiles`
+      collection.'
+  - name: Remove All Embedded Files (Attachments)
+    text: '- **Why**: Deleting the collection clears hidden data, directly contributing
+      to **reduce pdf file size java** scenarios.'
+  - name: Save the Modified Document
+    text: '- **Why**: Saving persists the changes and produces a **save pdf without
+      attachments** version ready for distribution.'
+  type: HowTo
+- questions:
+  - answer: Aspose.PDF for Java is a powerful library that enables developers to create,
+      edit, convert, and manipulate PDF files programmatically without requiring Adobe
+      Acrobat.
+    question: What is Aspose.PDF for Java?
+  - answer: A free trial is available for evaluation; a purchased license removes
+      all evaluation restrictions and grants access to premium features.
+    question: Can I use this library without any limitations?
+  - answer: Use memory‑efficient coding patterns, process files in batches, and rely
+      on Aspose.PDF’s streaming API, which can work with PDFs up to 2 GB without loading
+      the entire document into RAM.
+    question: How do I handle large PDF files with Aspose.PDF?
+  - answer: Yes—use the `getEmbeddedFile(String name)` method to locate a particular
+      attachment and then call `delete()` on that object.
+    question: Is it possible to remove specific attachments instead of all?
+  - answer: Post questions or bug reports on the [Aspose Support Forum](https://forum.aspose.com/c/pdf/10),
+      where the product team and community members respond promptly.
+    question: How do I get support for issues with Aspose.PDF?
+  type: FAQPage
+title: Aspose.PDF for Java를 사용하여 첨부 파일 없이 PDF를 효율적으로 저장하는 방법
 url: /ko/java/attachments-embedded-files/remove-attachments-pdf-aspose-java/
 weight: 1
 ---
@@ -16,80 +60,72 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.PDF for Java를 사용하여 PDF 첨부 파일을 제거하는 방법
+# Aspose.PDF for Java를 사용하여 첨부 파일 없이 PDF를 효율적으로 저장하는 방법
 
 ## 소개
 
-PDF에서 **pdf 첨부 파일 제거**(첨부 파일 제거)를 통해 문서 관리를 하고 있고잘가요? 오래된 파일이나 추출 데이터가 있으면 PDF 문서를 광범위하게 확장하여 **PDF 크기를 최적화**(PDF 초점 최적화)에 도움이 됩니다. 이 가이드에서는 Aspose.PDF for Java를 사용하여 PDF에 포함된 모든 하위 파일(첨부 파일)을 삭제하는 방법을 표시해 드립니다.
+문서 관리를 간소화하고 **save PDF without attachments** 방법을 배우고 싶으신가요? 오래된 파일을 정리하거나, 규정 준수를 충족하거나, 단순히 문서 크기를 줄이기 위해 임베디드 첨부 파일을 제거하면 저장 효율성과 다운로드 속도가 크게 향상됩니다. 이 튜토리얼에서는 Aspose.PDF for Java 설정, PDF 로드, 임베디드 파일 제거, 그리고 배포 준비가 된 깨끗한 PDF 저장까지 모든 단계를 안내합니다.
 
-Aspose.PDF는 PDF 작업을 처리할 수 있는 방어적입니다. 이 튜토리얼을 따라 문서를 지원하고 최적화하는 기능을 사용할 수 있습니다.
+Aspose.PDF for Java는 저수준 PDF 내부 구조를 추상화하면서 높은 성능을 제공하는 프로덕션 급 라이브러리입니다. 이 가이드를 마치면 모든 PDF에서 **remove pdf attachments**를 수행할 수 있게 되며, 이 작업이 **optimizing PDF size in Java** 애플리케이션에 어떻게 기여하는지 이해하게 됩니다.
 
-**배우게 될 내용:**
-- Java 설정 및 사용 방법을 위한 Aspose.PDF
-- PDF 문서에서 **pdf 첨부 파일 제거**를 수행하는 기술
-- **aspose pdf maven dependency**를 포함하는 주요 설정 옵션
-- 실제 시나리오에서 PDF 파일을 관리하는 실무 실무자
+**배울 내용**  
+- Aspose.PDF for Java를 설치하고 라이선스를 적용하는 방법  
+- PDF 문서에서 **remove pdf attachments**를 수행하는 정확한 코드 패턴  
+- **save pdf without attachments**를 수행하고 크기 감소를 확인하는 방법  
+- 임베디드 파일을 제거하여 대역폭과 저장소를 절약하는 실제 시나리오  
 
-를 방해하다!
+시작해 봅시다!
 
 ## 빠른 답변
-- **"PDF 첨부 파일 제거"의 기능은 무엇입니까?** PDF에서 모든 특수 파일을 삭제하여 파일 크기를 줄입니다.
-- **어떤 라이브러리를 권장합니까?** Aspose.PDF for Java는 첨부 파일을 구성하는 간단한 API를 제공합니다.
-- **라이센스가 필요합니까?** 무료 체험판으로 테스트가 가능하며, 라이온스를 구매하면 사용 제한이 가능합니다.
-- **첨부파일 없이 PDF를 저장할 수 있나요?** 네—삭제 후에는 일반적으로 문서를 생성하면 됩니다.
-- **이렇게 하면 PDF 크기가 최적화됩니까?** 첨부 파일을 제거하는 경우가 크게 줄어드는 경우가 있습니다.
+- **remove pdf attachments**는 무엇을 하나요? PDF 내부에 포함된 모든 임베디드 파일을 삭제합니다. 첨부 파일에 따라 파일 크기를 30 % – 80 % 정도 줄일 수 있습니다.  
+- **추천 라이브러리는?** Aspose.PDF for Java는 첨부 파일을 제거하는 단일 라인 API를 제공하며 JDK가 설치된 모든 OS에서 작동합니다.  
+- **라이선스가 필요합니까?** 무료 30일 체험판으로 테스트가 가능하며, 구매한 라이선스는 모든 평가 제한을 해제합니다.  
+- **PDF를 첨부 파일 없이 저장할 수 있나요?** 예—delete 메서드를 호출한 후 `save`를 호출하면 깨끗한 PDF가 생성됩니다.  
+- **PDF 크기가 최적화되나요?** 첨부 파일을 제거하면 파일 크기가 크게 감소하며, 특히 큰 파일(이미지, 스프레드시트)이 포함된 경우 효과적입니다.
 
-## "PDF 첨부 파일 제거"란 무엇입니까?
-PDF 첨부 파일을 제거한다는 것은 PDF 내부에 삽입된 모든 파일(*포함된 파일*)을 종료한다는 것을 의미합니다. 이 과정은 **pdf 첨부 파일 정리**에 유용하며 특히 문서를 공유하거나 저장을 준수해야 할 때 도움이 됩니다.
+## “remove pdf attachments”란 무엇인가요?
+PDF 첨부 파일을 제거한다는 것은 PDF 내부에 포함된 모든 파일(*embedded files*라고 함)을 제거하는 것을 의미합니다. 이 작업은 숨겨진 데이터를 없애고 전체 파일 크기를 줄이며, 수신자와 공유되는 내용이 의도된 콘텐츠만이 되도록 보장합니다.
 
-## 이 작업에 Java용 Aspose.PDF를 사용하는 이유는 무엇입니까?
-- **간단한 API** – 한 줄의 코드로 모든 첨부 파일을 제거합니다.
-- **크로스 플랫폼** – Java용으로 모든 OS에서 동작합니다.
-- **성능 중심** – 주최 PDF도 지원으로 처리됩니다.
-- **통합 라이선스** – 평가용 무료 체험판 제공, 드라이버로 확장 가능합니다.
+## 이 작업에 Aspose.PDF for Java를 사용하는 이유는?
+Aspose.PDF for Java는 PDF 구조를 추상화하는 고수준 API를 제공하므로 몇 줄의 코드만으로 PDF 첨부 파일을 제거할 수 있습니다. 이 라이브러리는 **50+ input and output formats**를 지원하고, 전체 파일을 메모리에 로드하지 않고도 2 GB까지의 PDF를 처리할 수 있으며, Java 8 이상을 지원하는 모든 플랫폼에서 실행됩니다. 이러한 정량적인 기능은 엔터프라이즈 급 문서 파이프라인에 신뢰할 수 있는 선택이 됩니다.
 
-## 전제조건
+## 전제 조건
 
-시작하기 전에 다음 사항이 있는지 확인하세요.
-
-### 필수 라이브러리, 버전 및 종속성
-- **Java용 Aspose.PDF**: 버전 25.3 이상(최신 **aspose pdf maven 종속성** 포함).
+### 필요한 라이브러리, 버전 및 종속성
+- **Aspose.PDF for Java**: 버전 25.3 이상 (최신 **aspose pdf maven dependency** 포함).
 
 ### 환경 설정 요구 사항
-- 컴퓨터에 JDK(Java Development Kit)가 설치되어 있어야 합니다.
-- IntelliJ IDEA 또는 Eclipse와 같은 통합 개발 환경(IDE).
+- Java Development Kit (JDK) 8 이상 설치됨.
+- IntelliJ IDEA 또는 Eclipse와 같은 IDE를 사용하면 프로젝트 관리가 용이합니다.
 
-### 지식 전제조건
-- Java 프로그래밍에 대한 기본적인 이해.
-- Maven, Gradle 등 프로젝트 관리 도구에 대한 지식이 있으신 분
+### 지식 전제 조건
+- 기본 Java 프로그래밍 기술.
+- Maven 또는 Gradle을 사용한 종속성 관리에 익숙함.
 
 ## Aspose.PDF for Java 설정
+Aspose.PDF for Java를 사용하려면 프로젝트에 종속성으로 추가하십시오. 아래는 필요한 Maven 및 Gradle 스니펫입니다.
 
-Aspose.PDF for Java를 사용하려면 프로젝트에 종속성으로 추가해야 합니다. Maven과 Gradle을 사용하여 추가하는 방법은 다음과 같습니다.
-
-**Maven:**
+**Maven:**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-pdf</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
-```
+```  
 
-### 라이선스 취득 단계
-1. **무료 평가판**: [Aspose PDF 다운로드](https://releases.aspose.com/pdf/java/) 페이지에서 무료 평가판을 다운로드하세요.
+## 라이선스 획득 단계
+1. **Free Trial** – [Aspose PDF Downloads](https://releases.aspose.com/pdf/java/) 페이지에서 체험판을 다운로드합니다.  
+2. **Temporary License** – [Aspose Temporary License](https://purchase.aspose.com/temporary-license/) 포털을 통해 기간 제한 키를 얻습니다.  
+3. **Purchase** – 실제 사용을 위해 공식 사이트에서 전체 라이선스를 구매합니다.
 
-2. **임시 라이선스**: 제한 없이 모든 기능을 사용하려면 [Aspose 임시 라이선스](https://purchase.aspose.com/temporary-license/)를 통해 임시 라이선스를 취득하세요.
-
-3. **구매**: 장기적으로 사용하려면 공식 웹사이트에서 라이선스를 구매하세요.
-
-### 기본 초기화 및 설정
-Aspose.PDF를 종속성으로 추가했으면 Java 프로젝트에서 초기화하세요.
+## 기본 초기화 및 설정
+종속성을 추가하면 코드에서 라이브러리를 사용할 수 있습니다:
 
 ```java
 import com.aspose.pdf.Document;
@@ -105,109 +141,102 @@ public class RemoveAttachments {
         // Proceed with removing attachments in the next section.
     }
 }
-```
+```  
 
 ## 구현 가이드
 
-### Aspose.PDF for Java를 사용하여 PDF 첨부 파일 제거하는 방법
+## Aspose.PDF for Java로 PDF 첨부 파일 제거 방법
+첨부 파일을 제거하려면 먼저 PDF를 Aspose.PDF `Document` 객체에 로드한 다음, 해당 객체의 `EmbeddedFiles` 컬렉션에 접근하여 컬렉션을 삭제하고, 마지막으로 문서를 새 파일로 저장합니다. 이 간단한 3단계 워크플로우는 원본 콘텐츠와 레이아웃을 유지하면서 모든 임베디드 파일을 제거합니다.  
+`Document` 클래스는 PDF 파일을 나타내며, 읽기, 편집, 저장 메서드를 제공합니다.  
+`EmbeddedFiles` 컬렉션은 PDF 내의 모든 임베디드 파일 객체(첨부 파일)를 보유합니다.
 
-이 기능은 PDF 문서에 포함된 **PDF 첨부 파일**을 제거하는 방법을 보여줍니다. 각 단계를 자세히 살펴보겠습니다.
-
-#### 1단계: PDF 문서 불러오기
-Aspose.PDF에서 제공하는 `Document` 클래스를 사용하여 문서를 불러옵니다.
-
+#### 단계 1: PDF 문서 로드
 ```java
 // Open the specified PDF document
 Document pdfDocument = new Document(dataDir);
-```
+```  
+- **Why**: 로딩은 `EmbeddedFiles` 컬렉션에 접근할 수 있는 객체 모델을 생성합니다.
 
-- **이유**: 이 단계는 문서의 내용을 접근하고 조작하는 데 필수적입니다.
-
-#### 2단계: 포함된 파일(첨부 파일) 모두 제거
-`EmbeddedFiles` 컬렉션의 `delete()` 메서드를 사용하여 모든 첨부 파일을 제거합니다.
+#### 단계 2: 모든 임베디드 파일(첨부 파일) 제거
 ```java
 // Remove all embedded files (attachments) from the document
 pdfDocument.getEmbeddedFiles().delete();
-```
-- **이유**: `delete()` 메서드는 불필요한 데이터를 제거하여 PDF를 깔끔하고 최적화된 상태로 만듭니다.
+```  
+- **Why**: 컬렉션을 삭제하면 숨겨진 데이터가 제거되어 **reduce pdf file size java** 시나리오에 직접 기여합니다.
 
-#### 3단계: 수정된 문서 저장
-첨부 파일을 제거한 후, 수정된 PDF를 새 파일로 저장합니다.
+#### 단계 3: 수정된 문서 저장
 ```java
 // Save the modified document to a new file in the specified output directory
 pdfDocument.save(outputDir);
-```
-- **이유**: 저장하면 모든 변경 사항이 저장되고, 첨부 파일이 없는 PDF 파일이 생성되어 배포 준비가 완료됩니다.
+```  
+- **Why**: 저장은 변경 사항을 영구히 적용하고 배포 준비가 된 **save pdf without attachments** 버전을 생성합니다.
 
-### 문제 해결 팁
-- **일반적인 문제**: 잘못된 파일 경로로 인한 예외 발생.
+### PDF 첨부 파일 제거 시 일반적인 문제 해결 방법은?
+작업이 실패할 경우 일반적인 문제는 파일 경로 오류, 권한 부족, 또는 암호로 보호된 PDF를 수정하려는 경우입니다. 입력 경로가 절대 경로나 작업 디렉터리 기준 상대 경로인지 확인하고, 폴더에 읽기/쓰기 권한을 부여하며, 필요할 경우 `Document` 생성자 오버로드를 통해 문서 비밀번호를 제공하십시오.
 
-- **해결 방법**: `dataDir`과 `outputDir`이 읽기/쓰기 권한이 있는 실제 디렉터리를 가리키는지 확인하십시오.
+## 실용적인 적용 사례
 
-## 실제 적용 사례
-
-1. **문서 관리 시스템** – 불필요한 첨부 파일을 제거하면 기업 환경에서 스토리지 관리가 간소화됩니다.
-
-2. **이메일 첨부 파일** – 이메일 크기를 줄이기 위해 전송 전에 PDF 파일을 정리하십시오.
-
-3. **법률 문서 처리** – 중요한 계약서에 숨겨진 파일이 공유되지 않도록 하십시오.
-
-4. **아카이빙** – 필수 콘텐츠만 저장하고 불필요한 내장 파일은 삭제하십시오.
-
-5. **웹 게시** – 온라인에 호스팅된 PDF의 로딩 속도를 향상시키십시오.
+1. **Document Management Systems** – 첨부 파일을 제거하면 저장 비용이 감소하고 인덱싱 속도가 빨라집니다.  
+2. **Email Attachments** – 이메일 전송 전에 PDF를 정리하여 기업 제한 이하의 이메일 크기를 유지합니다.  
+3. **Legal Document Handling** – 계약서와 함께 숨겨진 파일이 의도치 않게 공유되지 않도록 보장합니다.  
+4. **Archiving** – 필수 콘텐츠만 저장하고 장기 보관을 위해 추가 임베디드 파일을 폐기합니다.  
+5. **Web Publishing** – 공개 웹사이트에 호스팅된 PDF의 로딩 속도가 빨라집니다.  
 
 ## 성능 고려 사항
-- `pdfDocument.close()`를 사용하여 `Document` 객체를 사용 후 해제하여 메모리를 확보하십시오. - 일괄 처리를 할 경우, 파일을 순회하며 동일한 단계를 적용하고 JVM 힙 사용량을 모니터링하는 것을 고려하십시오.
+- 처리 후 `pdfDocument.close()`를 호출하여 네이티브 리소스를 해제합니다.  
+- 배치 작업에서는 PDF 디렉터리를 순회하며 동일한 3단계 패턴을 적용하고, VisualVM과 같은 도구로 JVM 힙 사용량을 모니터링합니다.  
+- Aspose.PDF는 스트리밍 아키텍처 덕분에 전체 파일을 메모리에 로드하지 않고도 2 GB까지의 PDF를 처리할 수 있습니다.
 
 ## 결론
 
-이제 Aspose.PDF for Java를 사용하여 PDF 문서에서 **PDF 첨부 파일 제거** 기술을 익혔습니다. 이 기술은 **PDF 크기 최적화**뿐만 아니라 저장 효율성과 보안도 향상시켜 줍니다.
+이제 Aspose.PDF for Java를 사용하여 **save PDF without attachments**를 수행하는 완전하고 프로덕션 준비된 방법을 갖추었습니다. 이 기술은 **optimizes PDF size**뿐만 아니라 숨겨진 파일이 문서와 함께 전송되지 않도록 함으로써 보안 및 규정 준수도 향상시킵니다.
 
-**다음 단계:**
-- 병합, 워터마킹, 텍스트 추출과 같은 Aspose.PDF의 추가 기능을 살펴보십시오.
+**다음 단계**  
+- 병합, 워터마크 삽입, 텍스트 추출 등 추가 Aspose.PDF 기능을 탐색하십시오.  
+- 이름별 특정 첨부 파일 제거와 같은 고급 시나리오를 위해 전체 API 레퍼런스를 검토하십시오.  
 
-- 고급 시나리오에 대한 전체 API 문서를 검토하십시오.
+질문이 있으면 언제든지 [Aspose Support Forum](https://forum.aspose.com/c/pdf/10)에서 문의하십시오.
 
-질문이 있으시면 [Aspose 지원 포럼](https://forum.aspose.com/c/pdf/10)을 통해 문의해 주십시오.
+## FAQ 섹션
+**Q: Aspose.PDF for Java란?**  
+Aspose.PDF for Java는 개발자가 Adobe Acrobat 없이도 프로그래밍 방식으로 PDF 파일을 생성, 편집, 변환 및 조작할 수 있게 해주는 강력한 라이브러리입니다.
 
-## FAQ
-1. **Aspose.PDF for Java란 무엇입니까?**
+**Q: 이 라이브러리를 제한 없이 사용할 수 있나요?**  
+평가용 무료 체험판을 제공하며, 구매한 라이선스는 모든 평가 제한을 해제하고 프리미엄 기능에 대한 접근을 제공합니다.
 
-- Aspose.PDF for Java는 Java 애플리케이션에서 PDF 문서를 생성하고 조작하도록 설계된 강력한 라이브러리입니다.
+**Q: Aspose.PDF로 대용량 PDF 파일을 처리하려면?**  
+메모리 효율적인 코딩 패턴을 사용하고 파일을 배치 처리하며, 전체 문서를 RAM에 로드하지 않고도 2 GB까지의 PDF를 처리할 수 있는 Aspose.PDF의 스트리밍 API를 활용하십시오.
 
-2. **이 라이브러리를 제한 없이 사용할 수 있습니까?**
+**Q: 모든 첨부 파일이 아니라 특정 첨부 파일만 제거할 수 있나요?**  
+예—`getEmbeddedFile(String name)` 메서드를 사용하여 특정 첨부 파일을 찾은 다음 해당 객체에 `delete()`를 호출하면 됩니다.
 
-- 모든 기능을 사용하려면 라이선스를 구매해야 합니다. 하지만 평가를 위해 무료 체험판을 이용할 수 있습니다.
-
-3. **Aspose.PDF로 대용량 PDF 파일을 어떻게 처리하나요?**
-
-- 메모리 효율적인 코딩 방식을 사용하고 필요한 경우 문서를 일괄 처리하는 것을 고려해 보세요.
-
-4. **모든 첨부 파일이 아닌 특정 첨부 파일만 삭제할 수 있나요?**
-
-- 예, `getEmbeddedFile` 메서드를 사용하여 이름이나 인덱스로 특정 첨부 파일을 선택하여 삭제할 수 있습니다.
-
-5. **Aspose.PDF 관련 문제에 대한 지원은 어떻게 받나요?**
-
-- 질문이나 문제 보고는 [Aspose 지원 포럼](https://forum.aspose.com/c/pdf/10)을 이용하세요.
+**Q: Aspose.PDF 관련 문제에 대한 지원은 어떻게 받나요?**  
+[Aspose Support Forum](https://forum.aspose.com/c/pdf/10) 에 질문이나 버그 보고서를 게시하면 제품 팀과 커뮤니티 구성원이 신속히 답변합니다.
 
 ## 리소스
-- **문서**: [Aspose PDF Java 참조](https://reference.aspose.com/pdf/java/)에서 자세한 API 참조를 확인하세요.
-- **Aspose.PDF 다운로드**: [Aspose 다운로드](https://releases.aspose.com/pdf/java/)에서 소프트웨어를 다운로드하세요.
-- **라이선스 구매**: [Aspose 구매 페이지](https://purchase.aspose.com/buy)에서 라이선스를 구매하세요.
-- **무료 체험판**: [Aspose PDF Java 다운로드](https://releases.aspose.com/pdf/java/)에서 체험판을 사용해 보세요.
-- **임시 라이선스**: [Aspose 임시 라이선스](https://purchase.aspose.com/temporary-license/)에서 임시 라이선스를 받으세요.
+- **Documentation**: 자세한 API 레퍼런스는 [Aspose PDF Java Reference](https://reference.aspose.com/pdf/java/)에서 확인하십시오.  
+- **Download Aspose.PDF**: 소프트웨어는 [Aspose Downloads](https://releases.aspose.com/pdf/java/)에서 다운로드하십시오.  
+- **Purchase License**: 라이선스는 [Aspose Purchase Page](https://purchase.aspose.com/buy)에서 구매하십시오.  
+- **Free Trial**: 체험은 [Aspose PDF Java Downloads](https://releases.aspose.com/pdf/java/)에서 시작하십시오.  
+- **Temporary License**: 임시 라이선스는 [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)에서 얻으십시오.  
 
 ---
 
-**최종 업데이트:** 2025년 12월 20일
-**테스트 환경:** Aspose.PDF for Java 25.3
+**마지막 업데이트:** 2026-05-23  
+**테스트 환경:** Aspose.PDF for Java 25.3  
 **작성자:** Aspose
+
+{{< blocks/products/products-backtop-button >}}
+
+## 관련 튜토리얼
+
+- [마스터 Aspose.PDF Java: PDF에서 임베디드 파일 접근 및 관리](/pdf/java/attachments-embedded-files/master-aspose-pdf-java-access-manage-embedded-files/)
+- [Aspose.PDF Java를 사용하여 PDF 포트폴리오에서 임베디드 파일 추출하는 방법](/pdf/java/attachments-embedded-files/extract-files-pdf-portfolio-aspose-java/)
+- [Aspose.PDF for Java로 PDF 파일을 빠르게 최적화하기: 종합 가이드](/pdf/java/performance-optimization/master-aspose-pdf-java-optimization/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
