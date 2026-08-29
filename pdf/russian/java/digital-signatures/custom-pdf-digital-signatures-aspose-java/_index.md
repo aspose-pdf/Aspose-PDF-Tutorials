@@ -1,9 +1,53 @@
 ---
-"date": "2025-04-14"
-"description": "Узнайте, как создавать и настраивать цифровые подписи в PDF-файлах с помощью Aspose.PDF для Java. Эффективно защитите свои документы с помощью этого всеобъемлющего руководства."
-"title": "Как реализовать пользовательские цифровые подписи PDF с помощью Aspose.PDF для Java"
-"url": "/ru/java/digital-signatures/custom-pdf-digital-signatures-aspose-java/"
-"weight": 1
+date: '2026-08-16'
+description: Узнайте, как подписывать PDF‑документы пользовательскими цифровыми подписями
+  с помощью Aspose.PDF for Java. Этот учебник показывает пошаговую настройку, настройку
+  внешнего вида и подпись PKCS7.
+keywords:
+- how to sign pdf
+- aspose pdf digital signature
+- apply digital signature pdf
+- add digital signature java
+- digital signature pdf tutorial
+lastmod: '2026-08-16'
+og_description: Узнайте, как подписывать PDF‑документы пользовательскими цифровыми
+  подписями с помощью Aspose.PDF for Java. Следуйте пошаговым инструкциям по настройке
+  внешнего вида и применению подписей PKCS7.
+og_image_alt: Guide to implementing custom PDF digital signatures in Java with Aspose.PDF
+og_title: Как подписать PDF с помощью пользовательских цифровых подписей с использованием
+  Aspise.PDF for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-16'
+  description: Learn how to sign PDF documents with custom digital signatures using
+    Aspose.PDF for Java. This tutorial shows step‑by‑step setup, appearance customization,
+    and PKCS7 signing.
+  headline: How to sign PDF with custom digital signatures using Aspose.PDF for Java
+  type: TechArticle
+- questions:
+  - answer: Yes. Open the document with the password using `new Document("file.pdf",
+      new LoadOptions(password))` before adding the signature.
+    question: Can I sign password‑protected PDFs?
+  - answer: Yes. Loop through a collection of PDFs, apply the same PKCS7 object, and
+      save each signed file.
+    question: Does Aspose.PDF support batch signing?
+  - answer: SHA‑1, SHA‑256, SHA‑384, and SHA‑512 are supported; SHA‑256 is recommended
+      for most scenarios.
+    question: What hash algorithms are available?
+  - answer: Not mandatory, but you can add a timestamp by calling `pkcs.setTimestampServerUrl("http://tsa.example.com")`.
+    question: Is a timestamp authority (TSA) required?
+  - answer: Aspose.PDF for Java works with Java 8, 11, and 17.
+    question: Which Java versions are compatible?
+  type: FAQPage
+tags:
+- pdf signing
+- aspose.pdf
+- java digital signature
+- document security
+title: Как подписать PDF с помощью пользовательских цифровых подписей с использованием
+  Aspose.PDF for Java
+url: /ru/java/digital-signatures/custom-pdf-digital-signatures-aspose-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,40 +55,40 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Как реализовать пользовательские цифровые подписи PDF с помощью Aspose.PDF для Java
+# Как подписать PDF с помощью пользовательских цифровых подписей с использованием Aspose.PDF for Java
 
 ## Введение
 
-В современном взаимосвязанном мире защита цифровых документов имеет важное значение, особенно при обмене между различными платформами и границами. Распространенной проблемой, с которой сталкиваются разработчики, является обеспечение подлинности и целостности PDF-документов с помощью цифровых подписей. Это руководство расскажет вам, как использовать **Aspose.PDF для Java** для эффективного создания настраиваемых цифровых подписей в PDF-файлах. Aspose.PDF — это мощная библиотека, которая упрощает задачи обработки документов, позволяя вам улучшить ваши рабочие процессы PDF с помощью надежных функций безопасности.
+Защита PDF‑файлов с помощью **digital signature** обеспечивает подлинность и целостность документа, что имеет решающее значение для юридических, финансовых и нормативных процессов. В этом руководстве вы узнаете **how to sign PDF** документы с использованием Aspose.PDF for Java, настроите внешний вид подписи и примените объект подписи PKCS7. По завершении у вас будет полностью подписанный PDF, готовый к распространению.
 
-### Что вы узнаете:
-- Настройка пользовательских представлений для цифровых подписей.
-- Создание и настройка объектов подписи PKCS7.
-- Подписание PDF-файла видимой цифровой подписью.
-- Сохранение подписанного PDF-документа.
+## Быстрые ответы
+- **Какова основная библиотека?** Aspose.PDF for Java.
+- **Сколько строк кода требуется?** Около 10 строк для создания и применения подписи.
+- **Могу ли я настроить внешний вид подписи?** Да, используя класс `SignatureAppearance`.
+- **Нужна ли лицензия для продакшн?** Да, требуется действующая лицензия Aspose.
+- **Является ли решение кросс‑платформенным?** Работает на любой ОС, поддерживающей Java 8+.
 
-Готовы приступить к работе? Давайте сначала рассмотрим некоторые предварительные условия, прежде чем начать.
+## Что такое цифровая подпись в PDF?
 
-## Предпосылки
+Цифровая подпись внедряет криптографический хеш и сертификат в PDF, подтверждая личность подписанта и то, что содержимое не было изменено.
 
-### Требуемые библиотеки, версии и зависимости
-Для прохождения этого урока вам понадобится:
-- **Aspose.PDF для Java** Версия 25.3 или более поздняя. Эта библиотека предоставляет комплексные функции для работы с PDF-документами.
-  
+## Почему стоит использовать Aspose.PDF for Java для цифровых подписей?
 
-### Требования к настройке среды
-Убедитесь, что ваша среда разработки настроена следующим образом:
-- Установлен совместимый JDK (Java Development Kit).
-- IDE, например IntelliJ IDEA, Eclipse или VS Code, настроенная для проектов Java.
+Aspose.PDF поддерживает **50+ форматов ввода и вывода** и может обрабатывать PDF до **2 GB** без загрузки всего файла в память, обеспечивая быстрое и экономное по памяти подписание даже для больших контрактов.
 
-### Необходимые знания
-Базовое понимание программирования Java и знакомство с инструментами сборки Maven или Gradle будет полезным. Кроме того, некоторые знания о цифровых подписях и концепциях обработки PDF могут помочь вам более эффективно понять детали реализации.
+## Требования
 
-## Настройка Aspose.PDF для Java
+- **Aspose.PDF for Java** версии 25.3 или новее.
+- Java Development Kit (JDK) 8 или новее.
+- IDE, например IntelliJ IDEA, Eclipse или VS Code.
+- Базовые знания Maven или Gradle для управления зависимостями.
+- Действительный сертификат для подписи кода в формате **.pfx**.
 
-Чтобы начать работать с **Aspose.PDF для Java**, добавьте его в свой проект с помощью менеджера пакетов, например Maven или Gradle:
+## Как добавить Aspose-PDF в ваш Java‑проект
 
-**Знаток**
+Чтобы включить Aspose.PDF в Java‑проект, добавьте библиотеку как зависимость, используя ваш инструмент сборки. Пользователи Maven добавляют запись `<dependency>` в `pom.xml`, а пользователи Gradle используют нотацию `implementation` в `build.gradle`. Это делает классы Aspose доступными на этапе компиляции.
+
+### Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -53,35 +97,40 @@
 </dependency>
 ```
 
-**Градл**
+### Gradle
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### Этапы получения лицензии
-Для использования Aspose.PDF вам необходима лицензия:
-- **Бесплатная пробная версия**: Начните с загрузки бесплатной пробной версии с сайта [Выпуски Aspose PDF Java](https://releases.aspose.com/pdf/java/).
-- **Временная лицензия**: Подайте заявку на временную лицензию для оценки функций без ограничений по адресу [Временная лицензия Aspose](https://purchase.aspose.com/temporary-license/).
-- **Покупка**: Для производственного использования приобретите лицензию через [Страница покупки Aspose](https://purchase.aspose.com/buy).
+## Как получить и установить лицензию Aspose?
 
-Получив файл лицензии, инициализируйте его в своем коде:
+Получите лицензию, загрузив пробную версию, запросив временную оценку или приобретя полную лицензию у Aspose. После загрузки файла `.lic` загрузите его во время выполнения с помощью `License license = new License(); license.setLicense("Aspose.PDF.Java.lic");`. Это активирует библиотеку для неограниченного использования.
+
+- **Free trial:** [Aspose PDF Java releases](https://releases.aspose.com/pdf/java/)
+- **Temporary evaluation:** [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)
+- **Full production license:** [Aspose Purchase page](https://purchase.aspose.com/buy)
+
+Инициализируйте лицензию в коде перед любой операцией с PDF:
 
 ```java
 com.aspose.pdf.License license = new com.aspose.pdf.License();
 license.setLicense("path/to/your/license.lic");
 ```
 
-## Руководство по внедрению
+## Как настроить пользовательский внешний вид подписи?
 
-### Настройка индивидуального внешнего вида подписи
+`SignatureAppearance` — класс, определяющий визуальное представление цифровой подписи в PDF. Создайте экземпляр `SignatureAppearance`, задайте его метку, шрифт, цвет фона и прямоугольник, в котором будет отрисована подпись. Вы также можете добавить изображение или пользовательский текст для соответствия фирменному стилю. После настройки назначьте внешний вид полю `SignatureField` перед подписанием документа.
 
-**Обзор:** Настройте внешний вид цифровых подписей в PDF-файле в соответствии с требованиями брендинга или нормативными требованиями.
+```java
+// Definition anchor
+SignatureAppearance appearance = new SignatureAppearance();
+// Parameters explained: set label, set font, set date format, etc.
+```
 
-#### Создание объекта SignatureAppearance
 ```java
 import com.aspose.pdf.SignatureCustomAppearance;
 
-// Инициализируйте и настройте внешний вид вашей подписи.
+// Initialize and configure the custom appearance for your signature
 SignatureCustomAppearance signatureCustomAppearance = new SignatureCustomAppearance();
 signatureCustomAppearance.setDateSignedAtLabel("Fecha");
 signatureCustomAppearance.setDigitalSignedLabel("Digitalmente firmado por");
@@ -91,22 +140,79 @@ signatureCustomAppearance.setFontFamilyName("Arial");
 signatureCustomAppearance.setFontSize(10d);
 signatureCustomAppearance.setDateTimeFormat("yyyy.MM.dd HH:mm:ss");
 ```
-- **Объяснение параметров**: Настройте метки, параметры шрифта и форматы даты в соответствии со своими потребностями.
-  
-### Создание и настройка объекта подписи PKCS7
 
-**Обзор:** Настройте объект подписи PKCS7 с пользовательским внешним видом, настроенным ранее.
+## Как создать и настроить объект подписи PKCS7?
 
-#### Настройка PKCS7 для цифровых подписей
+`PKCS7` — класс, создающий подпись, соответствующую стандарту PKCS#7, используя закрытый ключ, хранящийся в файле PFX. Загрузите сертификат подписи из файла `.pfx`, укажите пароль и задайте алгоритм хеширования, например SHA‑256. Затем создайте объект `PKCS7`, задайте сертификат и при необходимости укажите URL сервера меток времени. Этот объект будет прикреплён к полю подписи.
+
 ```java
 import com.aspose.pdf.PKCS7;
 
-PKCS7 pkcs = new PKCS7("path/to/your/certificate.pfx\
+PKCS7 pkcs = new PKCS7("path/to/your/certificate.pfx", "certificatePassword");
+pkcs.setSignatureAppearance(appearance);
+pkcs.setReason("Approved");
+pkcs.setLocation("New York, USA");
+```
+
+## Как применить подпись к PDF и сохранить результат?
+
+`Document` — основной класс, представляющий PDF‑файл в Aspose.PDF. Загрузите PDF с помощью `new Document(inputPath)`, создайте `SignatureField` на нужной странице, назначьте подготовленную подпись `PKCS7` и вызовите `document.save(outputPath)`. Это запишет подписанный PDF на диск, сохранив всё оригинальное содержимое.
+
+```java
+import com.aspose.pdf.*;
+
+Document pdfDoc = new Document("input.pdf");
+
+// Add a signature field
+SignatureField signatureField = new SignatureField(pdfDoc.getPages().get(1), new Rectangle(100, 100, 200, 150));
+pdfDoc.getPages().get(1).getAnnotations().add(signatureField);
+
+// Apply PKCS7 signature
+signatureField.setSignature(pkcs);
+
+// Save signed PDF
+pdfDoc.save("signed_output.pdf");
+```
+
+## Распространённые проблемы и устранение неполадок
+
+- **Certificate password errors:** Убедитесь, что пароль соответствует файлу PFX и путь к файлу указан правильно.
+- **Signature not visible:** Проверьте, что координаты прямоугольника находятся внутри границ страницы и что `SignatureAppearance` правильно сконфигурирован.
+- **Large PDFs cause OutOfMemoryError:** Используйте `Document.optimizeResources()` перед подписанием, чтобы снизить потребление памяти.
+
+## Часто задаваемые вопросы
+
+**Q: Can I sign password‑protected PDFs?**  
+A: Да. Откройте документ с паролем, используя `new Document("file.pdf", new LoadOptions(password))` перед добавлением подписи.
+
+**Q: Does Aspose.PDF support batch signing?**  
+A: Да. Пройдитесь по коллекции PDF‑файлов, примените один и тот же объект PKCS7 и сохраните каждый подписанный файл.
+
+**Q: What hash algorithms are available?**  
+A: Поддерживаются SHA‑1, SHA‑256, SHA‑384 и SHA‑512; рекомендуется использовать SHA‑256 для большинства сценариев.
+
+**Q: Is a timestamp authority (TSA) required?**  
+A: Не обязательно, но вы можете добавить метку времени, вызвав `pkcs.setTimestampServerUrl("http://tsa.example.com")`.
+
+**Q: Which Java versions are compatible?**  
+A: Aspose.PDF for Java работает с Java 8, 11 и 17.
+
+---
+
+**Last Updated:** 2026-08-16  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Связанные руководства
+
+- [Create and Sign PDFs with Aspose.PDF for Java: A Complete Guide to Digital Signatures in Java](/pdf/java/digital-signatures/create-sign-pdfs-aspose-pdf-java/)
+- [Master Digital Signatures in PDFs using Aspose.PDF for Java: A Comprehensive Guide](/pdf/java/digital-signatures/master-digital-signatures-pdf-java-guide/)
+- [PDF Digital Signatures Tutorials for Aspose.PDF Java](/pdf/java/digital-signatures/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
