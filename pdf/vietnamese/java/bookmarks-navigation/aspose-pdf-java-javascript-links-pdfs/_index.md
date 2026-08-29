@@ -1,13 +1,56 @@
 ---
-date: '2025-12-18'
-description: Tìm hiểu cách tạo tài liệu PDF tương tác bằng cách thêm các liên kết
-  JavaScript với Aspose.PDF cho Java. Hãy làm theo hướng dẫn từng bước này để liên
-  kết PDF, thêm JavaScript và lưu PDF với JavaScript.
+date: '2026-05-28'
+description: Tìm hiểu cách tạo PDF tương tác và thêm JavaScript vào PDF bằng Aspose.PDF
+  cho Java. Hướng dẫn từng bước cho thấy cách ràng buộc, viết script và lưu PDF.
 keywords:
-- Add JavaScript Links to PDFs
-- Aspose.PDF for Java
-- Interactive PDF Documents
-title: 'Tạo PDF tương tác - Thêm liên kết JavaScript bằng Aspose.PDF cho Java'
+- create interactive pdf
+- add javascript to pdf
+- optimize pdf size
+- clickable pdf links
+- aspose pdf maven
+schemas:
+- author: Aspose
+  dateModified: '2026-05-28'
+  description: Learn how to create interactive pdf and add javascript to pdf with
+    Aspose.PDF for Java. Step‑by‑step guide shows binding, scripting and saving PDFs.
+  headline: Create Interactive PDF - Add JavaScript Links Using Aspose.PDF for Java
+  type: TechArticle
+- description: Learn how to create interactive pdf and add javascript to pdf with
+    Aspose.PDF for Java. Step‑by‑step guide shows binding, scripting and saving PDFs.
+  name: Create Interactive PDF - Add JavaScript Links Using Aspose.PDF for Java
+  steps:
+  - name: Create and Bind a PDF Document
+    text: 'The `PdfContentEditor` class is Aspose.PDF''s editor that lets you modify
+      existing PDFs. `PdfContentEditor` is Aspose.PDF''s top‑level object for editing
+      pages, annotations, and JavaScript actions. First, create an instance and bind
+      it to the file you want to enhance: **Explanation:** `bindPdf` attach'
+  - name: Define a JavaScript Link
+    text: 'The `Rectangle` class describes the clickable area on the page, while `Color`
+      sets its visual style. `Rectangle` defines the coordinates of a clickable region;
+      `Color` specifies its border and fill color. Next, create a rectangle, set its
+      appearance, and attach a JavaScript snippet: **Key Points:** '
+  - name: Save the Updated PDF
+    text: 'The `save` method writes the modified document back to disk, preserving
+      the embedded script. `save` finalizes all changes and writes a new PDF file
+      that contains the JavaScript link. Call it to generate the interactive output:
+      **Explanation:** The `save` method creates a new PDF that contains the Ja'
+  type: HowTo
+- questions:
+  - answer: It means adding elements such as JavaScript links that respond to user
+      clicks.
+    question: What does “create interactive pdf” mean?
+  - answer: Aspose.PDF for Java offers a straightforward API for JavaScript links.
+    question: Which library is best for this task?
+  - answer: A temporary or purchased license removes evaluation limits and enables
+      full functionality.
+    question: Do I need a license?
+  - answer: Yes—use `PdfContentEditor.bindPdf` to attach to any existing file.
+    question: Can I bind an existing PDF?
+  - answer: Keep JavaScript concise and avoid large embedded assets to **optimize
+      pdf size**.
+    question: Will the PDF size increase a lot?
+  type: FAQPage
+title: Tạo PDF tương tác - Thêm liên kết JavaScript bằng Aspose.PDF cho Java
 url: /vi/java/bookmarks-navigation/aspose-pdf-java-javascript-links-pdfs/
 weight: 1
 ---
@@ -17,30 +60,30 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Cách Thêm Liên Kết JavaScript Tương Tác trong PDF Sử Dụng Aspose.PDF cho Java
+# Cách Thêm Liên Kết JavaScript Tương Tác trong PDF bằng Aspose.PDF cho Java
 
 ## Giới thiệu
 
-Trong hướng dẫn này, bạn sẽ học cách **create interactive PDF** bằng cách nhúng các liên kết JavaScript với Aspose.PDF cho Java. Tăng cường tính tương tác của các tệp PDF có thể cải thiện đáng kể mức độ tương tác của người dùng, đặc biệt khi duyệt các báo cáo phức tạp hoặc sách điện tử. Bài hướng dẫn này sẽ trình bày cách sử dụng Aspose.PDF cho Java — một thư viện mạnh mẽ — để thêm các liên kết JavaScript có thể nhấp vào trong các tệp PDF của bạn, biến chúng thành các tài nguyên động và tương tác.
+Trong hướng dẫn này, bạn sẽ học cách **create interactive pdf** tài liệu bằng cách nhúng các liên kết JavaScript với Aspose.PDF cho Java. Thêm JavaScript cho phép bạn biến một PDF tĩnh thành trải nghiệm động, có thể nhấp chuột—hoàn hảo cho báo cáo, sách điện tử hoặc biểu mẫu kỹ thuật số cần tính toán hoặc điều hướng ngay lập tức. Chúng tôi sẽ hướng dẫn từng bước, từ cài đặt thư viện đến gắn PDF, định nghĩa hành động JavaScript và lưu tệp tương tác cuối cùng.
 
 ## Câu trả lời nhanh
-- **What does “create interactive PDF” mean?** Nó có nghĩa là thêm các yếu tố như liên kết JavaScript phản hồi các hành động của người dùng.  
-- **Which library is best for this task?** Aspose.PDF cho Java cung cấp một API đơn giản cho các liên kết JavaScript.  
-- **Do I need a license?** Một giấy phép tạm thời hoặc mua sẽ loại bỏ các giới hạn đánh giá.  
-- **Can I bind an existing PDF?** Có — sử dụng `PdfContentEditor.bindPdf` để gắn vào một tệp PDF hiện có.  
-- **Will the PDF size increase a lot?** Giữ JavaScript ngắn gọn và tránh các hình ảnh lớn để **optimize PDF size JavaScript**.
+- **“create interactive pdf” có nghĩa là gì?** Nó có nghĩa là thêm các yếu tố như liên kết JavaScript phản hồi khi người dùng nhấp chuột.  
+- **Thư viện nào là tốt nhất cho nhiệm vụ này?** Aspose.PDF cho Java cung cấp một API đơn giản cho các liên kết JavaScript.  
+- **Tôi có cần giấy phép không?** Giấy phép tạm thời hoặc mua sẽ loại bỏ giới hạn đánh giá và kích hoạt đầy đủ chức năng.  
+- **Tôi có thể gắn một PDF hiện có không?** Có—sử dụng `PdfContentEditor.bindPdf` để đính kèm vào bất kỳ tệp nào.  
+- **Kích thước PDF có tăng đáng kể không?** Giữ JavaScript ngắn gọn và tránh các tài nguyên nhúng lớn để **optimize pdf size**.
 
 ## Yêu cầu trước
 
-Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có:
+Trước khi bắt đầu, hãy chắc chắn rằng bạn có:
 
-- **Libraries & Dependencies:** Cần có Aspose.PDF cho Java. Thiết lập Maven hoặc Gradle để quản lý phụ thuộc.  
-- **Environment Setup:** Nên có hiểu biết cơ bản về Java và các khái niệm thao tác PDF.  
-- **Knowledge Prerequisites:** Quen thuộc với lập trình Java, chẳng hạn như các nguyên tắc hướng đối tượng, sẽ hữu ích nhưng không bắt buộc.
+- **Thư viện & Phụ thuộc:** Aspose.PDF cho Java (có sẵn qua Maven hoặc Gradle).  
+- **Cài đặt môi trường:** Java 8 hoặc cao hơn, một IDE hoặc công cụ xây dựng mà bạn chọn.  
+- **Kiến thức cơ bản:** Quen thuộc với cú pháp Java và các khái niệm PDF sẽ hữu ích, nhưng các bước được giải thích đầy đủ.
 
 ## Cài đặt Aspose.PDF cho Java
 
-Để sử dụng Aspose.PDF trong dự án của bạn, bao gồm thư viện qua Maven hoặc Gradle:
+Để đưa Aspose.PDF vào dự án của bạn, thêm phụ thuộc bằng Maven hoặc Gradle.
 
 ### Maven
 Thêm phụ thuộc này vào tệp `pom.xml` của bạn:
@@ -58,12 +101,12 @@ Bao gồm đoạn này trong tệp `build.gradle` của bạn:
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-**License Acquisition:** Để sử dụng đầy đủ Aspose.PDF, hãy cân nhắc mua giấy phép tạm thời hoặc mua bản đầy đủ để loại bỏ các hạn chế đánh giá.  
+**Mua giấy phép:** A temporary or purchased license removes evaluation restrictions.  
 - [Free Trial](https://releases.aspose.com/pdf/java/)  
 - [Temporary License](https://purchase.aspose.com/temporary-license/)  
 - [Purchase](https://purchase.aspose.com/buy)
 
-**Basic Initialization:** Sau khi cài đặt, khởi tạo Aspose.PDF trong môi trường Java của bạn:
+**Khởi tạo cơ bản:** Khi thư viện đã có trong classpath, bạn có thể bắt đầu sử dụng nó:  
 ```java
 import com.aspose.pdf.*;
 
@@ -72,13 +115,15 @@ License license = new License();
 license.setLicense("path/to/your/license/file.lic");
 ```
 
-## Cách tạo PDF tương tác với các liên kết JavaScript
+## Cách tạo PDF tương tác với liên kết JavaScript
 
-Sau khi cài đặt xong, chúng ta sẽ đi qua các bước chính xác cần thiết để **create interactive PDF** có chứa các hành động JavaScript.
+Tải PDF nguồn của bạn, xác định một hình chữ nhật hỗ trợ JavaScript, và lưu kết quả—ba bước đơn giản biến bất kỳ PDF nào thành tài liệu có thể nhấp, được điều khiển bằng script. Cách tiếp cận này hoạt động cho PDF một trang cũng như các báo cáo đa trang, và JavaScript được tạo ra sẽ chạy trong bất kỳ trình xem PDF nào hỗ trợ scripting.
 
 ### Bước 1: Tạo và Gắn một Tài liệu PDF
 
-Đầu tiên, tạo một thể hiện của `PdfContentEditor` và gắn nó vào PDF bạn muốn cải thiện:
+Class `PdfContentEditor` là trình chỉnh sửa của Aspose.PDF cho phép bạn sửa đổi các PDF hiện có.  
+`PdfContentEditor` là đối tượng cấp cao nhất của Aspose.PDF để chỉnh sửa trang, chú thích và hành động JavaScript.  
+Đầu tiên, tạo một thể hiện và gắn nó vào tệp bạn muốn nâng cấp:
 ```java
 import com.aspose.pdf.facades.PdfContentEditor;
 
@@ -88,11 +133,13 @@ PdfContentEditor editor = new PdfContentEditor();
 // Bind the editor to an existing PDF document
 editor.bindPdf("YOUR_DOCUMENT_DIRECTORY/input.pdf");
 ```
-**Explanation:** `bindPdf` gắn trình chỉnh sửa vào PDF nguồn của bạn, cho phép bạn chỉnh sửa các trang, thêm chú thích và **bind PDF Java** objects.
+**Giải thích:** `bindPdf` gắn trình chỉnh sửa vào PDF nguồn của bạn, cho phép sửa đổi trang, chèn chú thích và gắn JavaScript.
 
 ### Bước 2: Định nghĩa một Liên kết JavaScript
 
-Tiếp theo, định nghĩa một hình chữ nhật có thể nhấp và liên kết nó với một đoạn mã JavaScript. Đây là cốt lõi của **how to add JavaScript** vào PDF:
+Class `Rectangle` mô tả khu vực có thể nhấp trên trang, trong khi `Color` thiết lập kiểu dáng trực quan của nó.  
+`Rectangle` xác định tọa độ của vùng có thể nhấp; `Color` chỉ định màu viền và màu nền.  
+Tiếp theo, tạo một hình chữ nhật, đặt giao diện của nó, và gắn một đoạn mã JavaScript:
 ```java
 import java.awt.Rectangle;
 import java.awt.Color;
@@ -109,70 +156,92 @@ String code = "app.alert('Welcome to Aspose!');";
 // Add a JavaScript link to the first page of the PDF document
 editor.createJavaScriptLink(code, rect, 1, linkColor);
 ```
-**Key Points:**  
+**Các điểm chính:**  
 - `Rectangle` xác định khu vực có thể nhấp.  
-- `Color` định nghĩa giao diện hiển thị của liên kết.  
+- `Color` định nghĩa giao diện trực quan của liên kết.  
 - `createJavaScriptLink` gắn mã JavaScript vào hình chữ nhật đã định nghĩa trên trang đã chọn.
 
 ### Bước 3: Lưu PDF Đã Cập Nhật
 
-Cuối cùng, ghi các thay đổi trở lại đĩa. Bước này **saves PDF with JavaScript** để tính tương tác được duy trì:
+Phương thức `save` ghi tài liệu đã sửa đổi trở lại đĩa, bảo tồn script được nhúng.  
+`save` hoàn thiện mọi thay đổi và ghi một tệp PDF mới chứa liên kết JavaScript.  
+Gọi nó để tạo ra đầu ra tương tác:
 ```java
 // Save changes to a new PDF file
 editor.save("YOUR_OUTPUT_DIRECTORY/JavaScriptAdded_output.pdf");
 ```
-**Explanation:** Phương thức `save` tạo một PDF mới chứa liên kết JavaScript mà bạn vừa định nghĩa.
+**Giải thích:** Phương thức `save` tạo một PDF mới chứa liên kết JavaScript mà bạn vừa định nghĩa.
+
+## Tại sao thêm liên kết JavaScript vào PDF?
+
+Liên kết JavaScript biến một PDF tĩnh thành tài liệu tương tác, cho phép các hành động như điều hướng, tính toán hoặc cảnh báo mà không rời khỏi tệp. Bằng cách nhúng script, bạn có thể tạo báo cáo động, tài liệu e‑learning, hoặc biểu mẫu phản hồi khi người dùng nhấp, nâng cao khả năng sử dụng và tương tác trên các trình xem PDF hỗ trợ scripting.
+
+- Kích hoạt tính toán hoặc tra cứu dữ liệu mà không rời khỏi tài liệu.  
+- Điều hướng tới URL bên ngoài hoặc các phần nội bộ ngay lập tức.  
+- Hiển thị cảnh báo tùy chỉnh, pop‑up, hoặc xác thực biểu mẫu trực tiếp trong PDF.
 
 ## Ứng dụng Thực tế
 
-1. **Interactive Reports:** Nâng cao các báo cáo kinh doanh với các thông tin có thể nhấp để hiển thị tính toán hoặc dữ liệu chi tiết.  
-2. **E‑Learning Materials:** Xây dựng các PDF giáo dục nơi sinh viên có thể nhấp vào các chủ đề để có thêm giải thích hoặc tài nguyên bên ngoài.  
-3. **Digital Forms:** Nhúng các hành động như xác nhận gửi hoặc kiểm tra trường dữ liệu trực tiếp trong PDF.
+1. **Báo cáo tương tác:** Nhúng biểu đồ có thể nhấp cho phép hiển thị dữ liệu thô hoặc bảng chi tiết khi người dùng nhấp vào một cột.  
+2. **Tài liệu E‑Learning:** Cung cấp các liên kết “Tìm hiểu thêm” mở video bổ sung hoặc tài nguyên bên ngoài.  
+3. **Biểu mẫu kỹ thuật số:** Thêm nút gửi‑hoặc‑đặt lại chạy script xác thực trước khi gửi dữ liệu tới máy chủ.
 
-## Các cân nhắc về hiệu năng
+## Các lưu ý về hiệu năng
 
-- **Optimize PDF size JavaScript:** Giữ JavaScript ngắn gọn và tránh nhúng các tài nguyên lớn để duy trì kích thước tệp hợp lý.  
-- **Java Memory Management:** Giám sát việc sử dụng bộ nhớ, đặc biệt khi xử lý các PDF lớn, để tránh rò rỉ.
+- **Tối ưu kích thước PDF:** Giữ JavaScript ngắn gọn (dưới 1 KB) và tránh nhúng hình ảnh lớn trong script.  
+- **Quản lý bộ nhớ Java:** Đối với PDF lớn hơn 200 trang, cân nhắc gọi `PdfContentEditor.optimizeResources()` trước khi lưu để giải phóng bộ nhớ.  
+- **An toàn đa luồng:** Các thể hiện `PdfContentEditor` không an toàn với đa luồng; tạo một thể hiện mới cho mỗi luồng khi xử lý hàng loạt.
 
 ## Kết luận
 
-Bằng cách làm theo hướng dẫn này, bạn đã biết cách **create interactive PDF** bằng Aspose.PDF cho Java. Hãy thử nghiệm các hành động JavaScript khác nhau để tùy chỉnh trải nghiệm người dùng, và khám phá các tính năng bổ sung của Aspose.PDF như xử lý biểu mẫu, chèn watermark và hợp nhất tài liệu.  
-Sẵn sàng tiến một bước xa hơn? Hãy cân nhắc tích hợp các PDF tương tác này vào các ứng dụng web hoặc tự động xử lý nhiều tệp trong các công việc batch!
+Bằng cách làm theo hướng dẫn này, bạn đã biết cách **create interactive pdf** tài liệu bằng Aspose.PDF cho Java. Hãy thử nghiệm các hành động JavaScript khác nhau—cảnh báo, tính toán, hoặc điều hướng—to tùy chỉnh trải nghiệm người dùng. Tiếp theo, khám phá các tính năng liên quan như xử lý trường biểu mẫu, chèn watermark, hoặc xử lý hàng loạt để xây dựng một quy trình tự động PDF đầy đủ tính năng.
 
-## Phần Câu hỏi Thường gặp
+Sẵn sàng tiến một bước nữa? Tích hợp các PDF tương tác này vào cổng web, tự động tạo hàng nghìn báo cáo, hoặc kết hợp với khả năng hợp nhất tài liệu của Aspose.PDF để có giải pháp phong phú hơn.
 
-1. **What is Aspose.PDF for Java?**  
-   - Thư viện cho phép tạo, chỉnh sửa và tương tác với tài liệu PDF bằng Java.
+## Phần Câu hỏi thường gặp
 
-2. **Can I use Aspose.PDF without purchasing a license?**  
-   - Có, nhưng sẽ chạy ở chế độ đánh giá với một số hạn chế.
+1. **Aspose.PDF for Java là gì?**  
+   - Aspose.PDF for Java là một thư viện toàn diện cho phép tạo, sửa đổi và tương tác với tài liệu PDF bằng mã Java.
 
-3. **How do I add multiple JavaScript actions to a single PDF page?**  
-   - Tạo các đối tượng `Rectangle` riêng biệt và gọi `createJavaScriptLink` cho mỗi hành động.
+2. **Tôi có thể sử dụng Aspose.PDF mà không mua giấy phép không?**  
+   - Có, bản dùng thử miễn phí hoạt động ở chế độ đánh giá nhưng sẽ thêm watermark và giới hạn một số tính năng.
 
-4. **What are some common issues when using Aspose.PDF?**  
-   - Rò rỉ bộ nhớ hoặc vấn đề kích thước tệp có thể xảy ra nếu không quản lý đúng — hãy đảm bảo xử lý tài nguyên hiệu quả.
+3. **Làm thế nào để thêm nhiều hành động JavaScript vào một trang PDF duy nhất?**  
+   - Tạo các đối tượng `Rectangle` riêng biệt cho mỗi khu vực và gọi `createJavaScriptLink` cho mỗi hình chữ nhật.
 
-5. **Where can I find more advanced examples of Aspose.PDF usage?**  
-   - Tài liệu [Aspose Documentation](https://reference.aspose.com/pdf/java/) cung cấp các hướng dẫn chi tiết và mẫu mã.
+4. **Những vấn đề thường gặp khi sử dụng Aspose.PDF là gì?**  
+   - PDF lớn có thể tiêu tốn bộ nhớ; sử dụng `optimizeResources()` và giữ JavaScript ngắn để tránh tăng kích thước tệp.
+
+5. **Tôi có thể tìm các ví dụ nâng cao về Aspose.PDF ở đâu?**  
+   - Tài liệu chính thức và các mẫu mã cung cấp thông tin chi tiết hơn về xử lý biểu mẫu, chữ ký số, và chuyển đổi PDF/A.
 
 ## Tài nguyên
 
-- **Documentation:** [Aspose PDF Java Reference](https://reference.aspose.com/pdf/java/)  
-- **Download:** [Aspose PDF Releases](https://releases.aspose.com/pdf/java/)  
-- **Purchase:** [Buy Aspose License](https://purchase.aspose.com/buy)  
-- **Free Trial:** [Try Aspose Free](https://releases.aspose.com/pdf/java/)  
-- **Temporary License:** [Get a Temporary License](https://purchase.aspose.com/temporary-license/)  
-- **Support:** [Aspose Forum](https://forum.aspose.com/c/pdf/10)
+- **Tài liệu:** [Aspose Documentation](https://reference.aspose.com/pdf/java/)  
+- **Tham khảo:** [Aspose PDF Java Reference](https://reference.aspose.com/pdf/java/)  
+- **Tải xuống:** [Aspose PDF Releases](https://releases.aspose.com/pdf/java/)  
+- **Mua:** [Buy Aspose License](https://purchase.aspose.com/buy)  
+- **Dùng thử miễn phí:** [Try Aspose Free](https://releases.aspose.com/pdf/java/)  
+- **Giấy phép tạm thời:** [Get a Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Hỗ trợ:** [Aspose Forum](https://forum.aspose.com/c/pdf/10)
 
-**Cập nhật lần cuối:** 2025-12-18  
-**Kiểm tra với:** Aspose.PDF 25.3 cho Java  
-**Tác giả:** Aspose  
+---
+
+**Cập nhật lần cuối:** 2026-05-28  
+**Kiểm tra với:** Aspose.PDF 25.3 for Java  
+**Tác giả:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Hướng dẫn toàn diện tích hợp JavaScript trong PDF với Aspose.PDF cho Java](/pdf/java/forms-annotations/master-javascript-integration-aspose-pdf-java/)
+- [Hướng dẫn toàn diện tạo biểu mẫu PDF tương tác với Aspose.PDF Java](/pdf/java/forms-annotations/interactive-pdf-forms-asposepdf-java/)
+- [Cách tạo dấu trang PDF và quản lý điều hướng bằng Aspose.PDF cho Java](/pdf/java/bookmarks-navigation/create-manage-pdf-bookmarks-aspose-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}

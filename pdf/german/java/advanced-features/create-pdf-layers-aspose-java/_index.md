@@ -1,13 +1,74 @@
 ---
-date: '2025-12-02'
-description: Erfahren Sie, wie Sie PDF‑Ebenen mit Aspose.PDF für Java erstellen. Dieses
-  Aspose‑PDF‑Tutorial behandelt die Einrichtung, Lizenzierung und die Anpassung von
-  PDF‑Ebenen‑Farben.
+date: '2026-05-28'
+description: Erfahren Sie, wie Sie PDF-Ebenen mit Aspose.PDF für Java erstellen. Dieses
+  Tutorial behandelt die Einrichtung, Lizenzierung und die Anpassung von Farben der
+  PDF-Ebenen.
 keywords:
-- Aspose.PDF for Java
-- create PDF layers
-- layered PDF applications
-title: Wie man PDF‑Ebenen mit Aspose.PDF für Java erstellt – Schritt‑für‑Schritt‑Anleitung
+- create pdf layers
+- add pdf layer
+- asp pdf tutorial
+- create layered pdf
+- generate layered pdf
+schemas:
+- author: Aspose
+  dateModified: '2026-05-28'
+  description: Learn how to create pdf layers using Aspose.PDF for Java. This tutorial
+    covers setup, licensing, and customizing pdf layer colors.
+  headline: How to create pdf layers with Aspose.PDF for Java – Step-by-Step Guide
+  type: TechArticle
+- description: Learn how to create pdf layers using Aspose.PDF for Java. This tutorial
+    covers setup, licensing, and customizing pdf layer colors.
+  name: How to create pdf layers with Aspose.PDF for Java – Step-by-Step Guide
+  steps:
+  - name: '**Initialize the Document** – create a new `Document` object.'
+    text: '**Initialize the Document** – create a new `Document` object.'
+  - name: '**Add a Page** – use `doc.getPages().add()`.'
+    text: '**Add a Page** – use `doc.getPages().add()`.'
+  - name: '**Save the File** – call `doc.save()` with your desired output path.'
+    text: '**Save the File** – call `doc.save()` with your desired output path.'
+  - name: '**Initialize a Page** – start with a fresh page where layers will be placed.'
+    text: '**Initialize a Page** – start with a fresh page where layers will be placed.'
+  - name: '**Create Layers** – instantiate `Layer` objects, set a name, and add drawing
+      operators.'
+    text: '**Create Layers** – instantiate `Layer` objects, set a name, and add drawing
+      operators.'
+  - name: '**Add Drawing Operations** – use `SetRGBColorStroke`, `MoveTo`, `LineTo`,
+      and `Stroke` to draw colored lines.'
+    text: '**Add Drawing Operations** – use `SetRGBColorStroke`, `MoveTo`, `LineTo`,
+      and `Stroke` to draw colored lines.'
+  - name: '**Save the Document** – persist the PDF with layers attached.'
+    text: '**Save the Document** – persist the PDF with layers attached.'
+  - name: '**Architectural Plans:** Separate structural, electrical, and plumbing
+      schematics into distinct layers.'
+    text: '**Architectural Plans:** Separate structural, electrical, and plumbing
+      schematics into distinct layers.'
+  - name: '**Design Drafting:** Keep concept sketches, annotations, and final renderings
+      on separate layers for easy toggling.'
+    text: '**Design Drafting:** Keep concept sketches, annotations, and final renderings
+      on separate layers for easy toggling.'
+  - name: '**Educational Materials:** Divide chapters, exercises, and solutions into
+      layers so instructors can reveal answers on demand.'
+    text: '**Educational Materials:** Divide chapters, exercises, and solutions into
+      layers so instructors can reveal answers on demand.'
+  type: HowTo
+- questions:
+  - answer: A trial license lets you experiment, but a full **Aspose PDF licensing**
+      key removes evaluation restrictions and enables all layer features for production.
+    question: Do I need a paid license to create pdf layers?
+  - answer: Yes. Any PDF operator (text, image, form fields) can be added to a `Layer`’s
+      content collection.
+    question: Can I add text or images to a layer instead of just lines?
+  - answer: Use the `OptionalContentGroup` API to set the visibility state, or let
+      the end‑user toggle layers in a PDF viewer that supports OCGs.
+    question: How do I hide or show layers programmatically after the PDF is created?
+  - answer: Technically no, but extremely high layer counts can impact viewer performance.
+      Keep it reasonable (hundreds rather than thousands) for best results.
+    question: Is there a limit to the number of layers I can create?
+  - answer: Yes, you can set compliance flags on the `Document` before saving, and
+      layers will be preserved in the compliant output.
+    question: Does Aspose.PDF support PDF/A or PDF/UA compliance with layers?
+  type: FAQPage
+title: Wie man PDF-Ebenen mit Aspose.PDF für Java erstellt – Schritt-für-Schritt-Anleitung
 url: /de/java/advanced-features/create-pdf-layers-aspose-java/
 weight: 1
 ---
@@ -19,43 +80,29 @@ weight: 1
 {{< blocks/products/pf/tutorial-page-section >}}
 # Wie man PDF‑Layer mit Aspose.PDF für Java erstellt
 
-**Erstelle einen SEO‑reichen Titel:** Erfahren Sie, wie Sie PDFs mit Ebenen mithilfe von Aspose.PDF Java erstellen und anpassen
+**Erstelle einen SEO‑optimierten Titel:** Erfahren Sie, wie Sie PDFs mit Schichten mithilfe von Aspose.PDF Java erstellen und anpassen
 
-## Einleitung
+## Einführung
 
-Das programmatische Erstellen professionell aussehender PDF‑Dokumente kann herausfordernd sein, besonders wenn Sie **create pdf layers** benötigen, die ein- oder ausgeschaltet werden können. In diesem **aspose pdf tutorial** führen wir Sie durch alles, was Sie wissen müssen – von der Einrichtung Ihrer Entwicklungsumgebung bis hin zum Schreiben von Java‑Code, der ein PDF erstellt, mehrere Ebenen hinzufügt und die Farben jeder Ebene anpasst. Am Ende können Sie geschichtete PDFs für Architekturpläne, Designentwürfe oder jede Situation erzeugen, in der das Trennen visueller Elemente wertvoll ist.
-
-**Was Sie lernen werden**
-- Wie Sie **create a PDF document** mit Aspose.PDF für Java erstellen.  
-- Schritte zum **create pdf layers** und Zuweisen unterschiedlicher Farben.  
-- Techniken zum **customize pdf layer colors** für bessere visuelle Unterscheidung.  
-- Wie **aspose pdf licensing** funktioniert und warum es für den Produktionseinsatz wichtig ist.  
-- Praxisbeispiele und Performance‑Tipps für große, geschichtete PDFs.
-
-Jetzt stellen wir sicher, dass Sie alles haben, was Sie benötigen, bevor wir in den Code eintauchen.
+In diesem **Aspose PDF tutorial** zeigen wir Ihnen, wie Sie **create pdf layers** erstellen, die ein‑ oder ausgeschaltet werden können, die Farben jeder Schicht anpassen und die Lösung in jedes Java‑Projekt integrieren. Schicht‑PDFs eignen sich ideal für Architekturzeichnungen, Designentwürfe und jede Situation, in der Sie visuelle Elemente trennen möchten, ohne mehrere Dateien zu erzeugen. Am Ende dieses Leitfadens haben Sie ein funktionierendes Beispiel, das Sie an Ihre eigenen Anwendungsfälle anpassen können.
 
 ## Schnelle Antworten
 - **Was ist die primäre Bibliothek?** Aspose.PDF for Java.  
 - **Welches Schlüsselwort zielt dieser Leitfaden ab?** create pdf layers.  
-- **Benötige ich eine Lizenz?** Ja – siehe den Abschnitt **aspose pdf licensing**.  
-- **Kann ich Ebenenfarben ändern?** Absolut – wir zeigen Ihnen, wie Sie **customize pdf layer colors**.  
+- **Brauche ich eine Lizenz?** Ja – siehe den Abschnitt **Aspose PDF licensing**.  
+- **Kann ich die Schichtfarben ändern?** Absolut – wir zeigen, wie man **customize pdf layer colors**.  
 - **Wie lange dauert die Implementierung?** Etwa 10‑15 Minuten für ein einfaches Beispiel.
 
-## Was bedeutet „create pdf layers“?
-PDF‑Layer zu erstellen bedeutet, **optional content groups (OCGs)** zu einer PDF‑Datei hinzuzufügen. Jede Ebene kann eigene Zeichenbefehle, Text oder Bilder enthalten, und Benutzer können Ebenen in einem PDF‑Viewer ein- oder ausblenden. Diese Funktion ist ideal, um Designelemente, Anmerkungen oder versionierte Inhalte zu trennen.
+## Was bedeutet “create pdf layers”?
+Das Erstellen von PDF‑Layern fügt einem PDF optionale Inhaltsgruppen (OCGs) hinzu, sodass jede Schicht ihre eigenen Grafiken, Texte oder Bilder enthalten kann, die in einem Viewer ein‑ oder ausgeschaltet werden können. Diese Möglichkeit erlaubt es, Designelemente, Anmerkungen oder versionierte Inhalte innerhalb eines einzigen Dokuments zu trennen.
 
-## Warum Aspose.PDF für Java zum Erstellen von PDF‑Layern verwenden?
-- **Vollständige Kontrolle** über die PDF‑Struktur, ohne Adobe Acrobat zu benötigen.  
-- **Plattformübergreifend** – funktioniert unter Windows, Linux und macOS.  
-- **Robustes Lizenzmodell**, das Nutzungslimits entfernt, sobald Sie eine gültige Lizenz besitzen.  
-- **Umfangreiche API** für Zeichnen, Text und Ebenenmanipulation, die das **customize pdf layer colors** erleichtert.
+## Warum Aspose.PDF für Java zum Erstellen von pdf layers verwenden?
+Sie können mit Aspose.PDF für Java pdf layers erstellen, ohne Adobe Acrobat zu benötigen, und erhalten die vollständige programmgesteuerte Kontrolle über Sichtbarkeit, Farben und Reihenfolge der Schichten. Die Bibliothek funktioniert unter Windows, Linux und macOS, unterstützt mehr als 50 Eingabe‑ und Ausgabeformate und kann mehrseitige PDFs verarbeiten, ohne die gesamte Datei in den Speicher zu laden.
 
 ## Voraussetzungen
 
-Bevor wir beginnen, stellen Sie sicher, dass Sie Folgendes haben:
-
 ### Erforderliche Bibliotheken
-Sie benötigen **Aspose.PDF for Java** (das Tutorial wurde mit Version 25.3 geschrieben, aber jede aktuelle Version funktioniert). Die Bibliothek aktuell zu halten, stellt sicher, dass Sie die neuesten Fehlerbehebungen und Funktionsverbesserungen erhalten.
+Sie benötigen **Aspose.PDF for Java** (das Tutorial wurde mit Version 25.3 geschrieben, aber jede aktuelle Version funktioniert). Die Bibliothek auf dem neuesten Stand zu halten, gibt Ihnen Zugriff auf die neuesten 50+ Formatunterstützungen und Leistungsverbesserungen.
 
 ### Anforderungen an die Umgebungseinrichtung
 - **Java Development Kit (JDK):** Version 8 oder höher.  
@@ -85,9 +132,9 @@ implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
 #### Schritte zum Erwerb einer Lizenz
-- **Kostenlose Testversion:** Beginnen Sie mit einer Testversion, um die Funktionen der Bibliothek zu erkunden.  
-- **Temporäre Lizenz:** Fordern Sie einen temporären Schlüssel von der Aspose-Website für die Evaluierung an.  
-- **Kauf:** Für den Produktionseinsatz erwerben Sie eine Lizenz, um alle Funktionen freizuschalten und Evaluationswasserzeichen zu entfernen.
+- **Free Trial:** Beginnen Sie mit einer Testversion, um die Funktionen der Bibliothek zu erkunden.  
+- **Temporary License:** Fordern Sie einen temporären Schlüssel von der Aspose‑Website für die Evaluierung an.  
+- **Purchase:** Für den Produktionseinsatz kaufen Sie eine Lizenz, um alle Funktionen freizuschalten und Evaluierungswasserzeichen zu entfernen.
 
 Um Ihre Lizenz zu aktivieren, fügen Sie den folgenden Java‑Code zu Ihrem Projekt hinzu:
 
@@ -107,19 +154,23 @@ public class PDFSetup {
 }
 ```
 
-> **Profi‑Tipp:** Bewahren Sie die Lizenzdatei außerhalb Ihrer Versionskontrolle auf und referenzieren Sie sie mit einem absoluten Pfad oder einem Umgebungsvariablen‑Pfad.
+> **Pro‑Tipp:** Bewahren Sie die Lizenzdatei außerhalb Ihrer Versionskontrolle auf und verweisen Sie mit einem absoluten Pfad oder einer Umgebungsvariablen darauf.
 
-## Implementierungs‑Leitfaden
+## Wie fügt man die Sichtbarkeit von pdf layers hinzu?
+`OptionalContentGroup` repräsentiert eine optionale Inhaltsgruppe (Layer) in einem PDF und steuert deren Sichtbarkeit.  
+Sie steuern die Sichtbarkeit von Schichten, indem Sie die `OptionalContentGroup`‑API verwenden – setzen Sie die Eigenschaft `visibility` auf `true` oder `false` vor dem Speichern, und PDF‑Viewer respektieren diesen Zustand. So können Sie PDFs erstellen, bei denen bestimmte Schichten standardmäßig ausgeblendet sind und mit einem Klick sichtbar gemacht werden können.
 
-### Create a PDF Document
+## Erstellen eines PDF‑Dokuments
 
-#### Übersicht
-Der erste Baustein ist ein einfacher **create pdf document**‑Aufruf. Dieser Abschnitt zeigt, wie Sie ein `Document` instanziieren, eine Seite hinzufügen und das Dokument auf die Festplatte speichern.
+Die Klasse `Document` ist das Top‑Level‑Objekt von Aspose.PDF, das eine einzelne PDF‑Datei im Speicher repräsentiert. Nach der Instanziierung laufen alle Lese‑ und Schreibvorgänge über dieses Objekt.
+
+#### Überblick
+Der erste Baustein ist ein einfacher **create pdf document** Aufruf. Dieser Abschnitt zeigt, wie man ein `Document` instanziiert, eine Seite hinzufügt und es auf die Festplatte speichert.
 
 #### Schritte
-1. **Initialisieren des Dokuments** – erstellen Sie ein neues `Document`‑Objekt.  
-2. **Seite hinzufügen** – verwenden Sie `doc.getPages().add()`.  
-3. **Datei speichern** – rufen Sie `doc.save()` mit dem gewünschten Ausgabepfad auf.
+1. **Initialize the Document** – erstellen Sie ein neues `Document`‑Objekt.  
+2. **Add a Page** – verwenden Sie `doc.getPages().add()`.  
+3. **Save the File** – rufen Sie `doc.save()` mit dem gewünschten Ausgabepfad auf.
 
 ```java
 import com.aspose.pdf.Document;
@@ -140,16 +191,19 @@ public class CreatePDF {
 }
 ```
 
-### Create and Configure Layers for PDF
+## Erstellen und Konfigurieren von Schichten für PDF
 
-#### Übersicht
-Jetzt werden wir **create pdf layers** und **customize pdf layer colors**. Jede Ebene enthält eine farbige Linie, die zeigt, wie optionale Inhaltsgruppen funktionieren.
+Die Klasse `Layer` ist die Darstellung von Aspose.PDF für eine optionale Inhaltsgruppe, die ein‑ oder ausgeschaltet werden kann.  
+`SetRGBColorStroke` legt die Strichfarbe fest, `MoveTo` bewegt den Zeichencursor, `LineTo` definiert ein Liniensegment und `Stroke` rendert den Pfad. Jede Schicht enthält eine farbige Linie, die zeigt, wie optionale Inhaltsgruppen funktionieren.
+
+#### Überblick
+Jetzt werden wir **create pdf layers** und **customize pdf layer colors**. Jede Schicht enthält eine farbige Linie, die zeigt, wie optionale Inhaltsgruppen funktionieren.
 
 #### Schritte
-1. **Seite initialisieren** – beginnen Sie mit einer leeren Seite, auf der die Ebenen platziert werden.  
-2. **Ebenen erstellen** – instanziieren Sie `Layer`‑Objekte, setzen Sie einen Namen und fügen Sie Zeichenoperatoren hinzu.  
-3. **Zeichenoperationen hinzufügen** – verwenden Sie `SetRGBColorStroke`, `MoveTo`, `LineTo` und `Stroke`, um farbige Linien zu zeichnen.  
-4. **Dokument speichern** – speichern Sie das PDF mit angehängten Ebenen.
+1. **Initialize a Page** – beginnen Sie mit einer neuen Seite, auf der die Schichten platziert werden.  
+2. **Create Layers** – instanziieren Sie `Layer`‑Objekte, setzen Sie einen Namen und fügen Sie Zeichenoperatoren hinzu.  
+3. **Add Drawing Operations** – verwenden Sie `SetRGBColorStroke`, `MoveTo`, `LineTo` und `Stroke`, um farbige Linien zu zeichnen.  
+4. **Save the Document** – speichern Sie das PDF mit angehängten Schichten.
 
 ```java
 import com.aspose.pdf.*;
@@ -211,56 +265,61 @@ public class CreatePDFWithLayers {
 }
 ```
 
-### Fehlerbehebungstipps
-- **Ebenen nicht sichtbar?** Stellen Sie sicher, dass die Zeichenkoordinaten innerhalb der Seitenränder liegen und jede Ebene einen eindeutigen Namen hat.  
-- **Leistungsverlust bei großen PDFs?** Reduzieren Sie die Anzahl der Zeichenoperationen pro Ebene oder teilen Sie das Dokument in mehrere Dateien.  
-- **Lizenzwarnungen?** Stellen Sie sicher, dass der Aufruf `license.setLicense(...)` auf eine gültige `.lic`‑Datei verweist und dass die Datei zur Laufzeit zugänglich ist.
+## Tipps zur Fehlerbehebung
+- **Layers not visible?** Überprüfen Sie, ob die Zeichenkoordinaten innerhalb der Seitenränder liegen und jede Schicht einen eindeutigen Namen hat.  
+- **Performance slowdown on large PDFs?** Reduzieren Sie die Anzahl der Zeichenoperationen pro Schicht oder teilen Sie das Dokument in mehrere Dateien.  
+- **License warnings?** Stellen Sie sicher, dass der Aufruf `license.setLicense(...)` auf eine gültige `.lic`‑Datei verweist und dass die Datei zur Laufzeit zugänglich ist.
 
 ## Praktische Anwendungen
-Geschichtete PDFs glänzen in vielen Bereichen:
+Schicht‑PDFs glänzen in vielen Bereichen:
+1. **Architectural Plans:** Trennen Sie strukturelle, elektrische und sanitärtechnische Pläne in separate Schichten.  
+2. **Design Drafting:** Bewahren Sie Konzeptskizzen, Anmerkungen und endgültige Renderings in separaten Schichten für einfaches Ein‑ und Ausschalten auf.  
+3. **Educational Materials:** Teilen Sie Kapitel, Übungen und Lösungen in Schichten, sodass Lehrende Antworten bei Bedarf einblenden können.
 
-1. **Architektonische Pläne:** Trennen Sie strukturelle, elektrische und sanitäre Schemata in separate Ebenen.  
-2. **Designentwurf:** Halten Sie Konzeptskizzen, Anmerkungen und Endrenderings auf separaten Ebenen für einfaches Umschalten.  
-3. **Bildungsmaterialien:** Teilen Sie Kapitel, Übungen und Lösungen in Ebenen, sodass Lehrende Antworten bei Bedarf einblenden können.
-
-Sie können diese PDFs in Webportalen, mobilen Apps oder Desktop‑Viewern einbetten, die optionale Inhaltsgruppen unterstützen.
+Sie können diese PDFs in Webportale, mobile Apps oder Desktop‑Viewer einbetten, die optionale Inhaltsgruppen unterstützen.
 
 ## Leistungsüberlegungen
-Beim Erzeugen von PDFs mit vielen Ebenen sollten Sie diese bewährten Methoden beachten:
+Beim Erzeugen von PDFs mit vielen Schichten sollten Sie diese bewährten Methoden beachten:
+- **Batch Processing:** Verarbeiten Sie mehrere Dokumente in einem Durchlauf, um den JVM‑Aufwärm‑Overhead zu reduzieren.  
+- **Resource Management:** Schließen Sie Streams und geben Sie Dateihandles sofort frei (`doc.close()`, falls Sie Streams öffnen).  
+- **Profiling:** Verwenden Sie Werkzeuge wie VisualVM oder YourKit, um Speicher‑Hotspots zu erkennen, insbesondere wenn Sie Tausende von Schichten erstellen.
 
-- **Batch‑Verarbeitung:** Verarbeiten Sie mehrere Dokumente in einem Durchlauf, um den JVM‑Warm‑up‑Overhead zu reduzieren.  
-- **Ressourcenmanagement:** Schließen Sie Streams und geben Sie Dateihandles sofort frei (`doc.close()`, falls Sie Streams öffnen).  
-- **Profiling:** Verwenden Sie Werkzeuge wie VisualVM oder YourKit, um Speicher‑Hotspots zu erkennen, insbesondere wenn Sie Tausende von Ebenen erstellen.
-
-Wenn Sie diese Richtlinien befolgen, bleibt die PDF‑Erstellung schnell und reaktionsfähig, selbst bei großem Umfang.
+Wenn Sie diese Richtlinien befolgen, bleibt die PDF‑Erstellung auch bei großem Umfang schnell und reaktionsfähig.
 
 ## Häufig gestellte Fragen
 
 **Q: Benötige ich eine kostenpflichtige Lizenz, um pdf layers zu erstellen?**  
-A: Eine Testlizenz lässt Sie experimentieren, aber ein vollständiger **aspose pdf licensing**‑Schlüssel entfernt Evaluationsbeschränkungen und aktiviert alle Ebenen‑Funktionen für die Produktion.
+A: Eine Testlizenz ermöglicht Experimente, aber ein vollständiger **Aspose PDF licensing** Schlüssel entfernt Evaluierungsbeschränkungen und aktiviert alle Schicht‑Funktionen für die Produktion.
 
-**Q: Kann ich Text oder Bilder zu einer Ebene hinzufügen, anstatt nur Linien?**  
-A: Ja. Jeder PDF‑Operator (Text, Bild, Formularfelder) kann zur `Layer`‑Inhaltsammlung hinzugefügt werden.
+**Q: Kann ich Text oder Bilder zu einer Schicht hinzufügen, anstatt nur Linien?**  
+A: Ja. Jeder PDF‑Operator (Text, Bild, Formularfelder) kann zur Inhalts‑Sammlung einer `Layer`‑Instanz hinzugefügt werden.
 
-**Q: Wie kann ich Ebenen programmgesteuert ein- oder ausblenden, nachdem das PDF erstellt wurde?**  
-A: Verwenden Sie die `OptionalContentGroup`‑API, um den Sichtbarkeitsstatus zu setzen, oder lassen Sie den End‑User die Ebenen in einem PDF‑Viewer, der OCGs unterstützt, umschalten.
+**Q: Wie kann ich Schichten programmgesteuert ausblenden oder anzeigen, nachdem das PDF erstellt wurde?**  
+A: Verwenden Sie die `OptionalContentGroup`‑API, um den Sichtbarkeitszustand zu setzen, oder lassen Sie den Endbenutzer die Schichten in einem PDF‑Viewer, der OCGs unterstützt, umschalten.
 
-**Q: Gibt es ein Limit für die Anzahl der Ebenen, die ich erstellen kann?**  
-A: Technisch gibt es kein Limit, aber extrem hohe Ebenenzahlen können die Viewer‑Performance beeinträchtigen. Halten Sie es vernünftig (Hunderte statt Tausende) für optimale Ergebnisse.
+**Q: Gibt es ein Limit für die Anzahl der Schichten, die ich erstellen kann?**  
+A: Technisch gibt es kein Limit, aber sehr hohe Schichtzahlen können die Viewer‑Leistung beeinträchtigen. Halten Sie die Anzahl vernünftig (Hunderte statt Tausende) für optimale Ergebnisse.
 
-**Q: Unterstützt Aspose.PDF die PDF/A‑ oder PDF/UA‑Konformität mit Ebenen?**  
-A: Ja, Sie können Compliance‑Flags auf dem `Document` setzen, bevor Sie speichern, und die Ebenen werden im konformen Output erhalten bleiben.
+**Q: Unterstützt Aspose.PDF die PDF/A‑ oder PDF/UA‑Konformität mit Schichten?**  
+A: Ja, Sie können Compliance‑Flags auf dem `Document` vor dem Speichern setzen, und die Schichten werden im konformen Output erhalten bleiben.
 
 ---
 
-**Zuletzt aktualisiert:** 2025-12-02  
+**Zuletzt aktualisiert:** 2026-05-28  
 **Getestet mit:** Aspose.PDF for Java 25.3  
-**Autor:** Aspose  
+**Autor:** Aspose
+
+## Verwandte Tutorials
+
+- [PDF‑Layer in Java erstellen – Erweiterte Aspose.PDF‑Funktionen](/pdf/java/advanced-features/)
+- [Aspose PDF Java Tutorial: Wie man PDF‑Öffnungsaktionen steuert – Erweiterter Leitfaden](/pdf/java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/)
+- [Barrierefreies PDF in Java mit Aspose.PDF erstellen – Vollständige Anleitung](/pdf/java/advanced-features/accessible-pdfs-aspose-pdf-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
