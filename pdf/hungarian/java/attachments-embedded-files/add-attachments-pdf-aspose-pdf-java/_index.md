@@ -1,63 +1,99 @@
 ---
-date: '2025-12-15'
-description: Ismerje meg, hogyan hozhat létre beágyazott PDF‑mellékleteket az Aspose.PDF
-  for Java használatával. Ez az útmutató megmutatja, hogyan adhat hozzá PDF‑mellékletet
-  Java projektekhez, és hogyan állíthatja be az Aspose PDF Maven‑t.
+date: '2026-05-18'
+description: Ismerje meg, hogyan adjon hozzá beágyazott fájlt a PDF-hez az Aspose.PDF
+  for Java használatával. Ez a lépésről‑lépésre útmutató bemutatja a Maven beállítását,
+  a fájlok csatolását, valamint a legjobb gyakorlatokat.
 keywords:
-- add attachments to PDF with Java
-- Aspose.PDF for Java tutorial
-- attach files to PDF using Aspose
-title: 'PDF beágyazott mellékletek létrehozása az Aspose.PDF for Java segítségével - Fejlesztői útmutató'
+- add embedded file to pdf
+- how to embed files pdf
+- how to add attachment pdf java
+- aspose pdf maven setup
+schemas:
+- author: Aspose
+  dateModified: '2026-05-18'
+  description: Learn how to add embedded file to PDF using Aspose.PDF for Java. This
+    step‑by‑step tutorial covers Maven setup, attaching files, and best practices.
+  headline: How to Add Embedded File to PDF with Aspose.PDF for Java – A Developer’s
+    Guide
+  type: TechArticle
+- description: Learn how to add embedded file to PDF using Aspose.PDF for Java. This
+    step‑by‑step tutorial covers Maven setup, attaching files, and best practices.
+  name: How to Add Embedded File to PDF with Aspose.PDF for Java – A Developer’s Guide
+  steps:
+  - name: '**Software Documentation** – bundle sample data files or configuration
+      scripts.'
+    text: '**Software Documentation** – bundle sample data files or configuration
+      scripts.'
+  - name: '**Legal Agreements** – attach supporting contracts, exhibits, or evidence.'
+    text: '**Legal Agreements** – attach supporting contracts, exhibits, or evidence.'
+  - name: '**Educational Materials** – provide supplemental readings, datasets, or
+      code samples.'
+    text: '**Educational Materials** – provide supplemental readings, datasets, or
+      code samples.'
+  - name: '**Business Reports** – embed raw Excel sheets for analysts to drill down.'
+    text: '**Business Reports** – embed raw Excel sheets for analysts to drill down.'
+  type: HowTo
+- questions:
+  - answer: Aspose.PDF for Java
+    question: What is the primary library?
+  - answer: Maven (or Gradle) – see the *aspose pdf maven setup* section
+    question: Which build tool is recommended?
+  - answer: Yes, any file that can be represented as a byte array
+    question: Can I embed any file type?
+  - answer: A valid Aspose license is required for production use
+    question: Do I need a license for production?
+  - answer: Typically under 15 minutes for a basic attachment
+    question: How long does the implementation take?
+  type: FAQPage
+title: Hogyan adjon hozzá beágyazott fájlt a PDF-hez az Aspose.PDF for Java segítségével
+  – Fejlesztői útmutató
 url: /hu/java/attachments-embedded-files/add-attachments-pdf-aspose-pdf-java/
 weight: 1
 ---
 
+{{< blocks/products/products-backtop-button >}}
+
 {{< blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Hogyan hozzunk létre PDF beágyazott mellékleteket az Aspose.PDF for Java segítségével: Fejlesztői útmutató
+# Hogyan adjon hozzá beágyazott fájlt PDF-hez az Aspose.PDF for Java segítségével – Fejlesztői útmutató
 
 ## Bevezetés
 
-A PDF dokumentumok bővítése **create pdf embedded attachments** képek vagy szöveges fájlok formájában egyszerűsítheti a felhasználói élményt, megszüntetve a több fájl letöltésének szükségességét. Ez az útmutató segít az Aspose.PDF for Java, egy erőteljes könyvtár kihasználásában, hogy **add attachment pdf java** projekteket gyorsan és megbízhatóan hozzáadhassunk.
-
-**Mit fog megtanulni:**
-- Hogyan **create pdf embedded attachments** használjunk az Aspose.PDF for Java segítségével  
-- PDF dokumentumok betöltése és elérése  
-- Valós példák, ahol **attach text file pdf** csatolható egy jelentéshez vagy specifikációhoz  
-
-A útmutató végére képes lesz ezeket a funkciókat megvalósítani a projektjeiben. Kezdjük a követelményekkel.
+Ebben az útmutatóban megtudja, hogyan **adhat beágyazott fájlt PDF-hez** az Aspose.PDF for Java használatával, egy olyan könyvtárral, amely **50+ bemeneti és kimeneti formátumot** támogat, és képes több száz oldalas PDF-eket feldolgozni anélkül, hogy a teljes fájlt a memóriába töltené. A fájlok közvetlen beágyazása egy PDF-be megszünteti a külön letöltések szükségességét, egyszerűsíti a dokumentumok terjesztését, és javítja a felhasználói élményt jelentésekben, jogi szerződésekben és műszaki kézikönyvekben. Lépjünk végig a szükséges előfeltételeken, a Maven konfiguráción és a pontos kódon, amelyre bármilyen fájltípus beágyazásához szüksége van.
 
 ## Gyors válaszok
 - **Mi a fő könyvtár?** Aspose.PDF for Java  
-- **Melyik build eszköz ajánlott?** Maven (vagy Gradle) – lásd a **aspose pdf maven setup** részt  
-- **Csatolhatok bármilyen fájltípust?** Igen, bármely fájl, amely byte tömbként ábrázolható  
+- **Melyik építőeszköz ajánlott?** Maven (vagy Gradle) – lásd a *aspose pdf maven setup* részt  
+- **Bármilyen fájltípus beágyazható?** Igen, bármely fájl, amely bájt tömbként ábrázolható  
 - **Szükség van licencre a termeléshez?** Érvényes Aspose licenc szükséges a termelési használathoz  
-- **Mennyi időt vesz igénybe a megvalósítás?** Általában 15 percnél kevesebb egy alap melléklet esetén
+- **Mennyi időt vesz igénybe a megvalósítás?** Általában 15 percnél kevesebb egy alap csatolás esetén  
 
-## Mi az a “create pdf embedded attachments”?
-A PDF beágyazott mellékletek létrehozása azt jelenti, hogy további fájlokat – például képeket, táblázatokat vagy szöveges dokumentumokat – közvetlenül a PDF konténerbe illesztünk. A csatolt fájlok a PDF‑vel együtt utaznak, lehetővé téve a címzettek számára, hogy azokat külön letöltés nélkül nyissák meg.
+## Mi az a „add embedded file to PDF”?
+Beágyazott fájl PDF-hez adása azt jelenti, hogy egy másodlagos fájlt – például CSV-t, képet vagy Word dokumentumot – közvetlenül a PDF konténerébe helyezünk, így az együtt utazik a fő dokumentummal, és a csatolmányok panelből nyitható meg. Ez a képesség egyszerűsíti a terjesztést, és biztosítja, hogy minden szükséges erőforrás együtt legyen a fő dokumentummal.
 
-## Miért használjuk az Aspose.PDF for Java‑t mellékletek hozzáadásához?
-- **Teljes irányítás** a PDF struktúra és a beágyazott objektumok felett  
-- **Kereszt‑platform** támogatás (Windows, Linux, macOS)  
-- **Robusztus API**, amely nagy fájlokkal és összetett PDF‑ekkel hatékonyan dolgozik  
+## Miért használja az Aspose.PDF for Java-t a csatolmányok hozzáadásához?
+Az Aspose.PDF **teljes programozási kontrollt** biztosít a PDF struktúra felett, támogatja a **cross‑platform** végrehajtást (Windows, Linux, macOS), és memóriatakarékos API-val dolgozik **több száz oldalas PDF-ekkel**. Emellett beépített **titkosítást** és **digitális aláírás** támogatást nyújt, amelyet sok versenytárs könyvtár nem kínál. Továbbá a könyvtár kiterjedt PDF/A megfelelőségi funkciókat is biztosít, így alkalmas archiválási és szabályozási követelményekhez.
 
 ## Előfeltételek
 
+Mielőtt elkezdené, győződjön meg róla, hogy rendelkezik:
+
+- **Java Development Kit (JDK) 11+** telepítve.  
+- **IntelliJ IDEA, Eclipse vagy NetBeans** fejlesztőkörnyezetként.  
+- **Aspose.PDF for Java** könyvtárral (a legújabb verzió a cikk írásakor).  
+
 ### Szükséges könyvtárak és függőségek
-- **Aspose.PDF for Java** – a tutorialban használt fő könyvtár.  
-- **Java Development Kit (JDK)** – 11-es vagy újabb verzió.  
+- **Aspose.PDF for Java** – a fő PDF manipulációs könyvtár.  
+- **Maven** vagy **Gradle** a függőségkezeléshez.
 
 ### Környezet beállítási követelmények
-- Egy kompatibilis IDE, például IntelliJ IDEA, Eclipse vagy NetBeans.  
-- Alapvető Java programozási ismeretek és fájl‑I/O műveletek kezelése.  
+- Java‑kompatibilis IDE (IntelliJ, Eclipse, NetBeans).  
+- Alapvető Java I/O és kivételkezelési ismeretek.
 
 ## Az Aspose.PDF for Java beállítása
 
-Az Aspose.PDF beállítása egyszerű Maven vagy Gradle használatával. Az alábbi **aspose pdf maven setup** szükséges.
+Az Aspose.PDF-et a projektjébe Maven vagy Gradle segítségével adhatja hozzá. Az alábbi **aspose pdf maven setup** szükséges.
 
 ### Maven
 Adja hozzá a következő függőséget a `pom.xml` fájlhoz:
@@ -76,26 +112,38 @@ implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
 #### Licenc beszerzési lépések
-Az Aspose.PDF for Java különböző licencopciókat kínál, beleértve az ingyenes próbaverziót és az ideiglenes licenceket:
-- **Free Trial**: Töltse le és tesztelje a könyvtárat minden funkcióval engedélyezve.  
-- **Temporary License**: Szerezze be az Aspose‑tól, hogy meghosszabbítsa a tesztelési időszakot korlátozások nélkül.  
-- **Purchase**: Hosszú távú használathoz termelési környezetben.  
+Az Aspose.PDF for Java három licencelési lehetőséget kínál:
+
+- **Ingyenes próba** – teljes funkcionalitású értékelés 30 napig.  
+- **Ideiglenes licenc** – meghosszabbítja a próbaidőszakot korlátozások nélkül.  
+- **Kereskedelmi licenc** – szükséges a termelési környezetekhez.
+
+**License** betölti az Aspose PDF licencfájlt a teljes funkcionalitás feloldásához.
+```java
+License license = new License();
+license.setLicense("Aspose.Pdf.lic");
+```
 
 #### Alap inicializálás
-Miután hozzáadta az Aspose.PDF for Java‑t a projektjéhez, inicializálja egy `Document` objektum létrehozásával. Ez lesz a kiindulópont minden PDF‑manipulációhoz.
+A `Document` osztály egy PDF fájlt képvisel, és módszereket biztosít a fájl olvasásához, módosításához és mentéséhez. Egy `Document` példány létrehozása után minden olvasási és írási művelet ezen az objektumon keresztül folyik.
 
-## Megvalósítási útmutató
+## Hogyan adjon hozzá beágyazott fájlt PDF-hez?  
 
-Tördeljük a megvalósítást két fő funkcióra: fájlok csatolása és PDF dokumentumok betöltése.
+Töltse be a forrás PDF-et a `new Document("source.pdf")` segítségével, hozzon létre egy `FileSpecification` objektumot a beágyazni kívánt fájlhoz, adja hozzá a `document.getEmbeddedFiles()` gyűjteményhez, majd hívja meg a `document.save("output.pdf")` metódust. Ez a négylépéses minta bármilyen fájltípus beágyazását lehetővé teszi egy perc alatt, miközben megőrzi az eredeti PDF elrendezését.
 
-### 1. funkció: Fájl csatolása PDF dokumentumhoz
+### Implementációs útmutató
 
-#### Áttekintés
-Ez a funkció lehetővé teszi, hogy további fájlokat közvetlenül egy PDF dokumentumba ágyazzunk, ami kiegészítő információk biztosítását teszi lehetővé külön mellékletek nélkül.
+A megvalósítást két gyakorlati funkcióra bontjuk: fájl csatolása és PDF betöltése további feldolgozáshoz.
 
-#### Megvalósítási lépések
-**1. lépés: A környezet beállítása**  
-Definiálja a forrás‑PDF és a csatolni kívánt fájl útvonalait:
+## Funkció 1: Fájl csatolása PDF dokumentumhoz
+
+### Áttekintés
+Ez a funkció lehetővé teszi bármilyen segédfájl – például CSV adatállomány vagy tervezési specifikáció – közvetlen beágyazását egy PDF-be.
+
+### Implementációs lépések
+
+**1. lépés: Fájlútvonalak meghatározása**  
+Adja meg a forrás PDF és a beágyazni kívánt fájl helyét:
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY"; // Update this path
 String targetPdfPath = dataDir + "/input.pdf";
@@ -109,85 +157,96 @@ Hozzon létre egy `Document` objektumot a meglévő PDF betöltéséhez:
 Document document = new Document(targetPdfPath);
 ```
 
-**3. lépés: Fájl specifikáció létrehozása**  
-Használja a `FileSpecification`‑t a csatolni kívánt fájl leírásához, beleértve a leírását:
+**3. lépés: File Specification létrehozása**  
+A `FileSpecification` leír egy beágyazott fájlt, beleértve a nevét, leírását és MIME‑típusát.  
 ```java
 FileSpecification fileSpecification = new FileSpecification(attachmentFilePath, "Sample text file");
 ```
 
-**4. lépés: Melléklet hozzáadása a PDF‑hez**  
-Adja hozzá a fájlt a dokumentumhoz az embedded files gyűjteményhez:
+**4. lépés: Csatolmány hozzáadása a PDF-hez**  
+Adja hozzá a `FileSpecification`-t a dokumentum beágyazott fájlok gyűjteményéhez:
 ```java
 document.getEmbeddedFiles().add(fileSpecification);
 ```
 
 **5. lépés: Módosított dokumentum mentése**  
-Végül mentse a dokumentumot az új mellékletével:
+Mentse a változtatásokat egy új fájlba:
 ```java
 document.save(targetOutputPath);
 ```
 
-### 2. funkció: PDF dokumentum betöltése
+## Funkció 2: PDF dokumentum betöltése
 
-#### Áttekintés
-A PDF dokumentum betöltése és elérése minden manipuláció alapja. Ez a rész bemutatja, hogyan érhetők el a betöltött PDF különböző elemei.
+### Áttekintés
+A PDF betöltése az első lépés mindenféle manipulációhoz, például meglévő csatolmányok olvasásához vagy szöveg kinyeréséhez.
 
-#### Megvalósítási lépések
+### Implementációs lépések
+
 **1. lépés: PDF megnyitása**  
-Töltsön be egy meglévő PDF‑et az útvonalával:
+Hozzon létre egy `Document` objektumot a vizsgálandó PDF útvonalával:
 ```java
 Document document = new Document(targetPdfPath);
 ```
 
 **2. lépés: Dokumentumelemek elérése**  
-Most már hozzáférhet a dokumentum különböző részeihez, például szöveghez és mellékletekhez. Például a lapok számának lekérdezéséhez:
+Most már lekérdezheti a dokumentum oldalait, szövegét és beágyazott fájljait. Például az oldalszám lekéréséhez:
 ```java
 int numberOfPages = document.getPages().size();
 ```
 
 ## Gyakorlati alkalmazások
 
-1. **Szoftverdokumentáció** – Csatoljon mintadatfájlokat vagy konfigurációs szkripteket.  
-2. **Jogi dokumentumok** – Tartalmazzon kiegészítő megállapodásokat vagy hivatkozási anyagokat.  
-3. **Oktatási anyagok** – Biztosítson további olvasmányt vagy adatállományt egyetlen dokumentumban.  
-4. **Üzleti jelentések** – Ágyazzon be nyers adatfájlokat a további elemzéshez.  
+A fájlok PDF-be ágyazása számos valós helyzetben hasznos:
 
-Az integráció lehetőségei közé tartozik a funkció összekapcsolása tartalomkezelő rendszerekkel (CMS), hogy automatizálja a mellékletek hozzáadását digitális munkafolyamatokban.
+1. **Szoftverdokumentáció** – mintafájlok vagy konfigurációs szkriptek csomagolása.  
+2. **Jogi szerződések** – támogató szerződések, mellékletek vagy bizonyítékok csatolása.  
+3. **Oktatási anyagok** – kiegészítő olvasmányok, adatállományok vagy kódminták biztosítása.  
+4. **Üzleti jelentések** – nyers Excel táblázatok beágyazása az elemzők számára.
 
-## Teljesítménybeli megfontolások
+Ennek a képességnek a CMS‑ vagy dokumentum‑generáló csővezetékbe való integrálása teljesen automatizálhatja a csatolási folyamatot.
 
-- **Optimize Resource Usage** – Legyen óvatos a memóriafoglalással nagy PDF‑ek kezelésekor.  
-- **Java Memory Management** – Használjon hatékony adatstruktúrákat, és tisztítsa meg az erőforrásokat a használat után, hogy elkerülje a memória‑szivárgásokat.  
-- **Batch Processing** – Több dokumentum feldolgozása esetén fontolja meg a több szálas feldolgozást a teljesítmény növelése érdekében.
+## Teljesítménybeli szempontok
+
+Nagy PDF-ek kezelésekor vegye figyelembe a következő tippeket:
+
+- **Memóriaoptimalizálás** – használja a `Document.optimizeResources()` metódust a nem használt adatfolyamok felszabadításához.  
+- **Darabolt feldolgozás** – dolgozzon oldalanként vagy kötegekben, ha több száz oldalas fájlokkal dolgozik.  
+- **Többszálú feldolgozás** – párhuzamosítsa több PDF csatolását a többmagos szervereken a teljesítmény növelése érdekében.
 
 ## Gyakori problémák és megoldások
 
-- **Large Attachments** – Tömörítse a fájlokat a beágyazás előtt, hogy a PDF mérete kezelhető maradjon.  
-- **Unsupported File Types** – Győződjön meg róla, hogy a fájl byte‑tömbként olvasható; a legtöbb általános formátum támogatott.  
-- **License Errors** – Ellenőrizze, hogy a licencfájl helyesen be van‑töltve a dokumentum mentése előtt.
+- **Nagy csatolmányok** – tömörítse a fájlokat (ZIP) a PDF méretének mérséklése érdekében.  
+- **Nem támogatott formátumok** – győződjön meg róla, hogy a fájl bájt tömbként olvasható; a leggyakoribb formátumok (PDF, DOCX, XLSX, PNG, JPG) támogatottak.  
+- **Licenc hibák** – helyezze a `Aspose.Pdf.lic` fájlt az osztályútvonalra, és hívja meg a `License license = new License(); license.setLicense("Aspose.Pdf.lic");` kódot a mentés előtt.
+
+## Gyakran ismételt kérdések
+
+**K:** Csatolhatok több fájlt egyetlen PDF-hez?  
+**V:** Igen. Hozzon létre egy külön `FileSpecification` objektumot minden fájlhoz, és adja hozzá őket az `embeddedFiles` gyűjteményhez.
+
+**K:** Milyen fájltípusok támogatottak csatolmányként?  
+**V:** Bármely fájl, amely bájt tömbként ábrázolható – gyakran PDF, DOCX, XLSX, CSV, PNG, JPG és ZIP.
+
+**K:** Hogyan kezeljem a nagyon nagy PDF-eket hatékonyan?  
+**V:** Használja a `Document.optimizeResources()` metódust, és fontolja meg az oldalak streaming módú feldolgozását, hogy ne kelljen a teljes dokumentumot a memóriába tölteni.
+
+**K:** Van korlátozás a beágyazott fájlok számát illetően?  
+**V:** A gyakorlati korlátot a rendelkezésre álló rendszer memória és lemezkapacitás határozza meg; az Aspose.PDF több ezer csatolmányt is kezelhet egy tipikus szerveren.
+
+**K:** Hogyan távolíthatok el egy csatolmányt egy meglévő PDF-ből?  
+**V:** Szerezze be az `EmbeddedFiles` gyűjteményt a `document.getEmbeddedFiles()` segítségével, majd hívja meg a `remove(fileSpecification)` metódust a kívánt bejegyzésen.
 
 ## Összegzés
 
-Most már megtanulta, hogyan **create pdf embedded attachments** használjon az Aspose.PDF for Java‑val. Ez a képesség jelentősen javíthatja a dokumentumkezelési folyamatokat, mivel a releváns adatokat közvetlenül a PDF‑ekbe ágyazza. További felfedezéshez tekintse meg az Aspose.PDF kiterjedt funkciókészletét, vagy integrálja más könyvtárakkal és szolgáltatásokkal.
+Most már tudja, hogyan **adhat beágyazott fájlt PDF-hez** az Aspose.PDF for Java használatával. Ez a technika lehetővé teszi, hogy kiegészítő erőforrásokat közvetlenül egy PDF-be csomagoljon, ezáltal javítva a terjesztés hatékonyságát és a felhasználói élményt. Kísérletezzen különböző fájltípusokkal, fedezze fel az Aspose.PDF gazdag API-ját, és fontolja meg a munkafolyamat automatizálását dokumentumkezelő rendszerében.
 
-**Következő lépések:**
-- Kísérletezzen különböző fájltípusokkal mellékletként.  
-- Fedezze fel az Aspose.PDF for Java további funkcióit a PDF‑kezelés képességeinek bővítéséhez.
+**Következő lépések**
 
-## GYIK szekció
+- Próbáljon meg titkosított fájlokat beágyazni a megnövelt biztonság érdekében.  
+- Kombinálja a csatolmány beágyazását PDF digitális aláírásokkal a manipulációra nem alkalmas dokumentumok létrehozásához.  
+- Ismerje meg az Aspose.PDF tömörítési segédeszközeit a fájlméretek minimalizálása érdekében.
 
-1. **Csatolhatok több fájlt egyetlen PDF‑hez?**  
-   - Igen, több `FileSpecification` objektumot is hozzáadhat az embedded files gyűjteményhez.  
-2. **Milyen fájltípusok támogatottak mellékletként?**  
-   - Bármely fájltípus, amely byte‑tömbként ábrázolható, támogatott.  
-3. **Hogyan kezeljem hatékonyan a nagy PDF‑eket?**  
-   - Optimalizálja a kódot a memória‑kezelés és a feldolgozási hatékonyság érdekében, különösen nagy dokumentumok esetén.  
-4. **Van korlátozás a csatolható fájlok számában?**  
-   - A korlát a rendszer erőforrásaitól és az Aspose.PDF kapacitásától függ.  
-5. **Hogyan távolítsak el egy mellékletet egy PDF‑ből?**  
-   - Hozzáférhet az embedded files gyűjteményhez, és a megfelelő metódusokkal eltávolíthatja a kívánt bejegyzéseket.
-
-## Erőforrások
+## Források
 - [Documentation](https://reference.aspose.com/pdf/java/)
 - [Download Aspose.PDF for Java](https://releases.aspose.com/pdf/java/)
 - [Purchase License](https://purchase.aspose.com/buy)
@@ -195,16 +254,23 @@ Most már megtanulta, hogyan **create pdf embedded attachments** használjon az 
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/pdf/10)
 
-Fedezze fel ezeket az erőforrásokat a részletesebb információk és a közösségi támogatás érdekében. Boldog kódolást!
+---
 
-**Legutóbb frissítve:** 2025-12-15  
+**Utoljára frissítve:** 2026-05-18  
 **Tesztelve:** Aspose.PDF 25.3 for Java  
 **Szerző:** Aspose  
+
+{{< blocks/products/pf/main-container >}}
+
+## Kapcsolódó oktatóanyagok
+
+- [How to Extract Embedded Files from PDFs Using Aspose.PDF for Java: A Comprehensive Guide](/pdf/java/attachments-embedded-files/extract-embedded-files-pdf-aspose-java-guide/)
+- [Master Aspose.PDF Java: Access and Manage Embedded Files in PDFs](/pdf/java/attachments-embedded-files/master-aspose-pdf-java-access-manage-embedded-files/)
+- [How to Extract Embedded Files from a PDF Portfolio Using Aspose.PDF Java](/pdf/java/attachments-embedded-files/extract-files-pdf-portfolio-aspose-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

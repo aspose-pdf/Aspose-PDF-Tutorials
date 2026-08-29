@@ -1,65 +1,100 @@
 ---
-date: '2025-12-15'
-description: เรียนรู้วิธีสร้างไฟล์แนบ PDF ที่ฝังอยู่โดยใช้ Aspose.PDF สำหรับ Java
-  บทแนะนำนี้จะแสดงวิธีเพิ่มไฟล์แนบ PDF ในโครงการ Java และตั้งค่า Aspose PDF Maven.
+date: '2026-05-18'
+description: เรียนรู้วิธีเพิ่มไฟล์ฝังลงใน PDF ด้วย Aspose.PDF for Java บทแนะนำแบบ
+  step‑by‑step นี้ครอบคลุมการตั้งค่า Maven, การแนบไฟล์, และแนวปฏิบัติที่ดีที่สุด
 keywords:
-- add attachments to PDF with Java
-- Aspose.PDF for Java tutorial
-- attach files to PDF using Aspose
-title: 'วิธีสร้างไฟล์แนบฝังใน PDF ด้วย Aspose.PDF สำหรับ Java - คู่มือสำหรับนักพัฒนา'
+- add embedded file to pdf
+- how to embed files pdf
+- how to add attachment pdf java
+- aspose pdf maven setup
+schemas:
+- author: Aspose
+  dateModified: '2026-05-18'
+  description: Learn how to add embedded file to PDF using Aspose.PDF for Java. This
+    step‑by‑step tutorial covers Maven setup, attaching files, and best practices.
+  headline: How to Add Embedded File to PDF with Aspose.PDF for Java – A Developer’s
+    Guide
+  type: TechArticle
+- description: Learn how to add embedded file to PDF using Aspose.PDF for Java. This
+    step‑by‑step tutorial covers Maven setup, attaching files, and best practices.
+  name: How to Add Embedded File to PDF with Aspose.PDF for Java – A Developer’s Guide
+  steps:
+  - name: '**Software Documentation** – bundle sample data files or configuration
+      scripts.'
+    text: '**Software Documentation** – bundle sample data files or configuration
+      scripts.'
+  - name: '**Legal Agreements** – attach supporting contracts, exhibits, or evidence.'
+    text: '**Legal Agreements** – attach supporting contracts, exhibits, or evidence.'
+  - name: '**Educational Materials** – provide supplemental readings, datasets, or
+      code samples.'
+    text: '**Educational Materials** – provide supplemental readings, datasets, or
+      code samples.'
+  - name: '**Business Reports** – embed raw Excel sheets for analysts to drill down.'
+    text: '**Business Reports** – embed raw Excel sheets for analysts to drill down.'
+  type: HowTo
+- questions:
+  - answer: Aspose.PDF for Java
+    question: What is the primary library?
+  - answer: Maven (or Gradle) – see the *aspose pdf maven setup* section
+    question: Which build tool is recommended?
+  - answer: Yes, any file that can be represented as a byte array
+    question: Can I embed any file type?
+  - answer: A valid Aspose license is required for production use
+    question: Do I need a license for production?
+  - answer: Typically under 15 minutes for a basic attachment
+    question: How long does the implementation take?
+  type: FAQPage
+title: วิธีเพิ่มไฟล์ฝังลงใน PDF ด้วย Aspose.PDF for Java – คู่มือสำหรับนักพัฒนา
 url: /th/java/attachments-embedded-files/add-attachments-pdf-aspose-pdf-java/
 weight: 1
 ---
 
+{{< blocks/products/products-backtop-button >}}
+
 {{< blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# วิธีสร้างไฟล์แนบ PDF ฝังในเอกสารด้วย Aspose.PDF for Java: คู่มือสำหรับนักพัฒนา
+# วิธีเพิ่มไฟล์ฝังใน PDF ด้วย Aspose.PDF for Java – คำแนะนำสำหรับนักพัฒนา
 
 ## บทนำ
 
-การปรับปรุงเอกสาร PDF ด้วยการ **สร้างไฟล์แนบ PDF ฝังในเอกสาร** เช่น รูปภาพหรือไฟล์ข้อความ สามารถทำให้ประสบการณ์ผู้ใช้ราบรื่นขึ้นโดยไม่ต้องดาวน์โหลดหลายไฟล์ คู่มือนี้จะช่วยให้คุณใช้ Aspose.PDF for Java ซึ่งเป็นไลบรารีที่ทรงพลังสำหรับการทำงานกับ PDF เพื่อ **เพิ่มไฟล์แนบ pdf java** ในโครงการอย่างรวดเร็วและเชื่อถือได้
-
-**สิ่งที่คุณจะได้เรียนรู้:**
-- วิธี **สร้างไฟล์แนบ PDF ฝังในเอกสาร** ด้วย Aspose.PDF for Java  
-- การโหลดและเข้าถึงเอกสาร PDF ที่มีอยู่  
-- สถานการณ์จริงที่คุณอาจ **แนบไฟล์ข้อความ pdf** ไปยังรายงานหรือสเปค  
-
-โดยเมื่อจบคู่มือนี้ คุณจะพร้อมนำฟังก์ชันเหล่านี้ไปใช้ในโครงการของคุณ เริ่มต้นด้วยข้อกำหนดเบื้องต้นกันเลย
+ในคู่มือนี้คุณจะได้เรียนรู้วิธี **add embedded file to PDF** ด้วย Aspose.PDF for Java ซึ่งเป็นไลบรารีที่รองรับ **รูปแบบการนำเข้าและส่งออกกว่า 50 แบบ** และสามารถประมวลผล PDF ที่มีหลายร้อยหน้าโดยไม่ต้องโหลดไฟล์ทั้งหมดเข้าสู่หน่วยความจำ การฝังไฟล์โดยตรงภายใน PDF จะช่วยขจัดความจำเป็นในการดาวน์โหลดแยกต่างหาก ทำให้การแจกจ่ายเอกสารเป็นไปอย่างราบรื่น และปรับปรุงประสบการณ์ผู้ใช้ในรายงาน สัญญากฎหมาย และคู่มือเทคนิค เราจะเดินผ่านข้อกำหนดเบื้องต้น การตั้งค่า Maven และโค้ดที่จำเป็นสำหรับการฝังไฟล์ประเภทใดก็ได้
 
 ## คำตอบอย่างรวดเร็ว
 - **ไลบรารีหลักคืออะไร?** Aspose.PDF for Java  
-- **เครื่องมือสร้างที่แนะนำคืออะไร?** Maven (หรือ Gradle) – ดูส่วน **aspose pdf maven setup**  
-- **ฉันสามารถแนบไฟล์ประเภทใดก็ได้หรือไม่?** ใช่, ทุกไฟล์ที่สามารถแสดงเป็นอาเรย์ไบต์  
-- **ต้องการใบอนุญาตสำหรับการใช้งานจริงหรือไม่?** จำเป็นต้องมีใบอนุญาต Aspose ที่ถูกต้องสำหรับการใช้งานในผลิตภัณฑ์  
-- **การดำเนินการใช้เวลานานเท่าไหร่?** ปกติใช้เวลาน้อยกว่า 15 นาทีสำหรับการแนบพื้นฐาน
+- **เครื่องมือสร้างที่แนะนำคืออะไร?** Maven (or Gradle) – see the *aspose pdf maven setup* section  
+- **ฉันสามารถฝังไฟล์ประเภทใดก็ได้หรือไม่?** Yes, any file that can be represented as a byte array  
+- **ต้องการใบอนุญาตสำหรับการใช้งานจริงหรือไม่?** A valid Aspose license is required for production use  
+- **การดำเนินการใช้เวลานานเท่าไหร่?** Typically under 15 minutes for a basic attachment  
 
-## “สร้างไฟล์แนบ PDF ฝังในเอกสาร” คืออะไร?
-การสร้างไฟล์แนบ PDF ฝังในเอกสารหมายถึงการแทรกไฟล์เพิ่มเติม—เช่น รูปภาพ, สเปรดชีต หรือเอกสารข้อความ—โดยตรงเข้าไปในคอนเทนเนอร์ PDF ไฟล์ที่แนบจะเดินทางพร้อมกับ PDF ทำให้ผู้รับสามารถเปิดไฟล์เหล่านั้นได้โดยไม่ต้องดาวน์โหลดแยกต่างหาก
+## “add embedded file to PDF” คืออะไร?
+การเพิ่มไฟล์ฝังใน PDF หมายถึงการแทรกไฟล์รอง—เช่น CSV, รูปภาพ หรือเอกสาร Word—โดยตรงเข้าไปในคอนเทนเนอร์ PDF เพื่อให้ไฟล์นั้นเดินทางพร้อมกับเอกสารหลักและสามารถเปิดได้จากแผงแนบไฟล์ ความสามารถนี้ทำให้การแจกจ่ายง่ายขึ้นและรับประกันว่าทรัพยากรที่จำเป็นทั้งหมดจะเดินทางพร้อมกับเอกสารหลัก
 
 ## ทำไมต้องใช้ Aspose.PDF for Java เพื่อเพิ่มไฟล์แนบ?
-- **การควบคุมเต็มรูปแบบ** ของโครงสร้าง PDF และออบเจกต์ที่ฝังอยู่  
-- **รองรับหลายแพลตฟอร์ม** (Windows, Linux, macOS)  
-- **API ที่แข็งแรง** ที่จัดการไฟล์ขนาดใหญ่และ PDF ซับซ้อนได้อย่างมีประสิทธิภาพ  
+Aspose.PDF ให้คุณ **full programmatic control** บนโครงสร้าง PDF, รองรับการทำงาน **cross‑platform** (Windows, Linux, macOS) และประมวลผล **multi‑hundred‑page PDFs** ด้วย API ที่ใช้หน่วยความจำน้อย นอกจากนี้ยังมีการสนับสนุน **built‑in encryption** และ **digital signature** ซึ่งหลายไลบรารีแข่งขันไม่มี อีกทั้งไลบรารียังมีคุณสมบัติการปฏิบัติตาม PDF/A อย่างครอบคลุม ทำให้เหมาะสำหรับการเก็บถาวรและข้อกำหนดด้านกฎระเบียบ
 
 ## ข้อกำหนดเบื้องต้น
 
-### ไลบรารีและการพึ่งพาที่จำเป็น
-- **Aspose.PDF for Java** – ไลบรารีหลักที่ใช้ในบทเรียนนี้.  
-- **Java Development Kit (JDK)** – เวอร์ชัน 11 หรือใหม่กว่า.  
+ก่อนเริ่มต้น ตรวจสอบว่าคุณมี:
 
-### ความต้องการในการตั้งค่าสภาพแวดล้อม
-- IDE ที่รองรับ เช่น IntelliJ IDEA, Eclipse หรือ NetBeans.  
-- ความรู้พื้นฐานของการเขียนโปรแกรม Java และการจัดการการทำงานไฟล์ I/O.  
+- **Java Development Kit (JDK) 11+** ติดตั้งแล้ว.  
+- **IntelliJ IDEA, Eclipse, หรือ NetBeans** เป็น IDE ของคุณ.  
+- **Aspose.PDF for Java** library (เวอร์ชันล่าสุด ณ เวลาที่เขียน).  
+
+### ไลบรารีและการพึ่งพาที่จำเป็น
+- **Aspose.PDF for Java** – ไลบรารีหลักสำหรับการจัดการ PDF.  
+- **Maven** หรือ **Gradle** สำหรับการจัดการการพึ่งพา.  
+
+### ข้อกำหนดการตั้งค่าสภาพแวดล้อม
+- IDE ที่รองรับ Java (IntelliJ, Eclipse, NetBeans).  
+- ความรู้พื้นฐานเกี่ยวกับ Java I/O และการจัดการข้อยกเว้น.  
 
 ## การตั้งค่า Aspose.PDF for Java
 
-การตั้งค่า Aspose.PDF ทำได้ง่ายโดยใช้ Maven หรือ Gradle ด้านล่างเป็น **aspose pdf maven setup** ที่คุณต้องการ
+คุณสามารถเพิ่ม Aspose.PDF ไปยังโปรเจคของคุณได้ด้วย Maven หรือ Gradle ด้านล่างเป็น **aspose pdf maven setup** ที่คุณต้องการ.
 
 ### Maven
-Add the following dependency to your `pom.xml`:
+เพิ่ม dependency ต่อไปนี้ในไฟล์ `pom.xml` ของคุณ:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -69,32 +104,44 @@ Add the following dependency to your `pom.xml`:
 ```
 
 ### Gradle
-Include this in your `build.gradle` file:
+ใส่ส่วนนี้ในไฟล์ `build.gradle` ของคุณ:
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
 #### ขั้นตอนการรับใบอนุญาต
-Aspose.PDF for Java มีตัวเลือกใบอนุญาตหลายแบบ รวมถึงการทดลองใช้ฟรีและใบอนุญาตชั่วคราว:
-- **Free Trial**: ดาวน์โหลดและทดสอบไลบรารีพร้อมคุณสมบัติทั้งหมดที่เปิดใช้งาน.  
-- **Temporary License**: ขอรับจาก Aspose เพื่อขยายระยะเวลาการทดสอบโดยไม่มีข้อจำกัดการประเมิน.  
-- **Purchase**: สำหรับการใช้งานระยะยาวในสภาพแวดล้อมการผลิต.  
+Aspose.PDF for Java มีตัวเลือกใบอนุญาตสามแบบ:
+
+- **Free Trial** – การประเมินคุณสมบัติเต็มรูปแบบเป็นเวลา 30 วัน.  
+- **Temporary License** – ขยายการทดลองโดยไม่มีข้อจำกัดการประเมิน.  
+- **Commercial License** – จำเป็นสำหรับการใช้งานในสภาพแวดล้อมการผลิต.  
+
+**License** โหลดไฟล์ใบอนุญาต Aspose PDF เพื่อเปิดใช้งานฟังก์ชันเต็ม.
+```java
+License license = new License();
+license.setLicense("Aspose.Pdf.lic");
+```
 
 #### การเริ่มต้นพื้นฐาน
-เมื่อคุณเพิ่ม Aspose.PDF for Java ลงในโครงการแล้ว ให้เริ่มต้นโดยการสร้างอ็อบเจกต์ `Document` ซึ่งจะเป็นจุดเริ่มต้นสำหรับการจัดการ PDF ทั้งหมดของคุณ
+คลาส `Document` แทนไฟล์ PDF และให้เมธอดสำหรับอ่าน, แก้ไข, และบันทึกเอกสาร หลังจากสร้างอินสแตนซ์ของ `Document` แล้ว การดำเนินการอ่านและเขียนทั้งหมดจะผ่านอ็อบเจกต์นี้.
 
-## คู่มือการดำเนินการ
+## วิธีเพิ่มไฟล์ฝังใน PDF?  
 
-เราจะแบ่งการดำเนินการออกเป็นสองฟีเจอร์หลัก: การแนบไฟล์และการโหลดเอกสาร PDF
+โหลด PDF ต้นฉบับของคุณด้วย `new Document("source.pdf")`, สร้าง `FileSpecification` สำหรับไฟล์ที่ต้องการฝัง, เพิ่มลงใน `document.getEmbeddedFiles()`, และสุดท้ายเรียก `document.save("output.pdf")`. รูปแบบสี่ขั้นตอนนี้จะฝังไฟล์ประเภทใดก็ได้ภายในหนึ่งนาทีและคงรูปแบบ PDF ดั้งเดิม.
 
-### ฟีเจอร์ 1: แนบไฟล์ไปยังเอกสาร PDF
+### คู่มือการใช้งาน
 
-#### ภาพรวม
-ฟีเจอร์นี้ช่วยให้คุณฝังไฟล์เพิ่มเติมโดยตรงในเอกสาร PDF ซึ่งเป็นประโยชน์สำหรับการให้ข้อมูลเสริมโดยไม่ต้องมีไฟล์แนบแยกต่างหาก
+เราจะแบ่งการดำเนินการออกเป็นสองฟีเจอร์ที่ใช้งานได้จริง: การแนบไฟล์และการโหลด PDF เพื่อการประมวลผลต่อไป.
 
-#### ขั้นตอนการดำเนินการ
-**Step 1: Set Up Your Environment**  
-Define the paths for your source PDF and the file you want to attach:
+## ฟีเจอร์ 1: แนบไฟล์ไปยังเอกสาร PDF
+
+### ภาพรวม
+ฟีเจอร์นี้ช่วยให้คุณฝังไฟล์เสริมใดก็ได้—เช่นชุดข้อมูล CSV หรือสเปคการออกแบบ—โดยตรงภายใน PDF.
+
+### ขั้นตอนการดำเนินการ
+
+**ขั้นตอนที่ 1: กำหนดเส้นทางไฟล์**  
+ระบุตำแหน่งของ PDF ต้นฉบับและไฟล์ที่ต้องการฝัง:  
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY"; // Update this path
 String targetPdfPath = dataDir + "/input.pdf";
@@ -102,110 +149,126 @@ String attachmentFilePath = dataDir + "/test.txt";
 String targetOutputPath = "YOUR_OUTPUT_DIRECTORY/output.pdf";
 ```
 
-**Step 2: Open the PDF Document**  
-Create a `Document` object to load your existing PDF:
+**ขั้นตอนที่ 2: เปิดเอกสาร PDF**  
+สร้างอ็อบเจกต์ `Document` เพื่อโหลด PDF ที่มีอยู่ของคุณ:  
 ```java
 Document document = new Document(targetPdfPath);
 ```
 
-**Step 3: Create File Specification**  
-Use `FileSpecification` to describe the file you wish to attach, including its description:
+**ขั้นตอนที่ 3: สร้าง File Specification**  
+`FileSpecification` อธิบายไฟล์ฝัง รวมถึงชื่อ, คำอธิบาย, และ MIME type.  
 ```java
 FileSpecification fileSpecification = new FileSpecification(attachmentFilePath, "Sample text file");
 ```
 
-**Step 4: Add Attachment to PDF**  
-Attach the file to your document by adding it to the embedded files collection:
+**ขั้นตอนที่ 4: เพิ่มไฟล์แนบลงใน PDF**  
+เพิ่ม `FileSpecification` ลงในคอลเลกชันไฟล์ฝังของเอกสาร:  
 ```java
 document.getEmbeddedFiles().add(fileSpecification);
 ```
 
-**Step 5: Save the Modified Document**  
-Finally, save the document with its new attachment:
+**ขั้นตอนที่ 5: บันทึกเอกสารที่แก้ไข**  
+บันทึกการเปลี่ยนแปลงโดยบันทึกเอกสารเป็นไฟล์ใหม่:  
 ```java
 document.save(targetOutputPath);
 ```
 
-### ฟีเจอร์ 2: โหลดเอกสาร PDF
+## ฟีเจอร์ 2: โหลดเอกสาร PDF
 
-#### ภาพรวม
-การโหลดและเข้าถึงเอกสาร PDF เป็นขั้นตอนพื้นฐานสำหรับการปรับแต่งใด ๆ ขั้นตอนนี้จะแสดงวิธีเข้าถึงส่วนต่าง ๆ ของ PDF ที่โหลดแล้ว
+### ภาพรวม
+การโหลด PDF เป็นขั้นตอนแรกสำหรับการจัดการใด ๆ เช่นการอ่านไฟล์แนบที่มีอยู่หรือการสกัดข้อความ.
 
-#### ขั้นตอนการดำเนินการ
-**Step 1: Open the PDF**  
-Load an existing PDF using its path:
+### ขั้นตอนการดำเนินการ
+
+**ขั้นตอนที่ 1: เปิด PDF**  
+สร้างอ็อบเจกต์ `Document` ด้วยเส้นทางไปยัง PDF ที่ต้องการตรวจสอบ:  
 ```java
 Document document = new Document(targetPdfPath);
 ```
 
-**Step 2: Access Document Elements**  
-You can now access different parts of the document, such as text and attachments. For instance, to get the number of pages:
+**ขั้นตอนที่ 2: เข้าถึงองค์ประกอบของเอกสาร**  
+คุณสามารถสอบถามเอกสารเพื่อหาหน้า, ข้อความ, และไฟล์ฝังได้ ตัวอย่างเช่น เพื่อดึงจำนวนหน้าตามนี้:  
 ```java
 int numberOfPages = document.getPages().size();
 ```
 
 ## การประยุกต์ใช้งานจริง
 
-การเพิ่มไฟล์แนบลงใน PDF มีประโยชน์ในหลายสถานการณ์:
-1. **เอกสารซอฟต์แวร์** – แนบไฟล์ข้อมูลตัวอย่างหรือสคริปต์การกำหนดค่า.  
-2. **เอกสารทางกฎหมาย** – รวมข้อตกลงเสริมหรือเอกสารอ้างอิง.  
-3. **แหล่งการเรียนการสอน** – ให้ข้อมูลการอ่านเพิ่มเติมหรือชุดข้อมูลภายในเอกสารเดียว.  
-4. **รายงานธุรกิจ** – ฝังไฟล์ข้อมูลดิบเพื่อการวิเคราะห์ต่อไป.  
+การฝังไฟล์ภายใน PDF มีคุณค่าในหลายสถานการณ์จริง:
 
-คุณสามารถเชื่อมต่อฟีเจอร์นี้กับระบบจัดการเนื้อหา (CMS) เพื่อทำให้กระบวนการแนบไฟล์อัตโนมัติในเวิร์กโฟลว์ดิจิทัลได้
+1. **Software Documentation** – รวมไฟล์ข้อมูลตัวอย่างหรือสคริปต์การกำหนดค่า.  
+2. **Legal Agreements** – แนบสัญญาสนับสนุน, เอกสารแนบ, หรือหลักฐาน.  
+3. **Educational Materials** – ให้การอ่านเสริม, ชุดข้อมูล, หรือโค้ดตัวอย่าง.  
+4. **Business Reports** – ฝังไฟล์ Excel ดิบเพื่อให้ผู้วิเคราะห์ทำการเจาะลึก.  
+
+การรวมความสามารถนี้กับ CMS หรือ pipeline การสร้างเอกสารสามารถทำให้กระบวนการแนบไฟล์เป็นอัตโนมัติเต็มรูปแบบ.
 
 ## ข้อควรพิจารณาด้านประสิทธิภาพ
 
-เมื่อทำงานกับ Aspose.PDF for Java ควรคำนึงถึงเคล็ดลับต่อไปนี้:
-- **เพิ่มประสิทธิภาพการใช้ทรัพยากร** – ระวังการจัดสรรหน่วยความจำเมื่อจัดการไฟล์ PDF ขนาดใหญ่.  
-- **การจัดการหน่วยความจำของ Java** – ใช้โครงสร้างข้อมูลที่มีประสิทธิภาพและทำความสะอาดทรัพยากรหลังการใช้เพื่อป้องกันการรั่วไหลของหน่วยความจำ.  
-- **การประมวลผลแบบชุด** – หากประมวลผลหลายเอกสาร ให้พิจารณาใช้การทำงานหลายเธรดเพื่อเพิ่มประสิทธิภาพ.  
+เมื่อทำงานกับ PDF ขนาดใหญ่ ให้คำนึงถึงเคล็ดลับต่อไปนี้:
 
-## ปัญหาทั่วไปและวิธีแก้
+- **Memory Optimization** – ใช้ `Document.optimizeResources()` เพื่อปล่อยสตรีมที่ไม่ได้ใช้.  
+- **Chunked Processing** – ประมวลผลหน้าเป็นชุดเมื่อจัดการไฟล์หลายร้อยหน้า.  
+- **Multi‑Threading** – ทำการแนบ PDF หลายไฟล์พร้อมกันเพื่อเพิ่มอัตราการทำงานบนเซิร์ฟเวอร์หลายคอร์.  
 
-- **ไฟล์แนบขนาดใหญ่** – บีบอัดไฟล์ก่อนฝังเพื่อให้ขนาด PDF ควบคุมได้.  
-- **ประเภทไฟล์ที่ไม่รองรับ** – ตรวจสอบว่าไฟล์สามารถอ่านเป็นอาเรย์ไบต์; รูปแบบทั่วไปส่วนใหญ่รองรับ.  
-- **ข้อผิดพลาดใบอนุญาต** – ตรวจสอบว่าไฟล์ใบอนุญาตโหลดอย่างถูกต้องก่อนบันทึกเอกสาร.  
+## ปัญหาทั่วไปและวิธีแก้ไข
+
+- **Large Attachments** – บีบอัดไฟล์ (ZIP) ก่อนฝังเพื่อให้ขนาด PDF อยู่ในระดับที่เหมาะสม.  
+- **Unsupported Formats** – ตรวจสอบว่าไฟล์สามารถอ่านเป็น byte array; รูปแบบที่พบบ่อย (PDF, DOCX, XLSX, PNG, JPG) ได้รับการสนับสนุน.  
+- **License Errors** – วางไฟล์ `Aspose.Pdf.lic` ใน classpath ของคุณและเรียก `License license = new License(); license.setLicense("Aspose.Pdf.lic");` ก่อนบันทึก.  
+
+## คำถามที่พบบ่อย
+
+**Q:** ฉันสามารถแนบไฟล์หลายไฟล์ใน PDF เดียวได้หรือไม่?  
+**A:** Yes. Add a separate `FileSpecification` object for each file and insert them into the `embeddedFiles` collection.
+
+**Q:** ประเภทไฟล์ใดบ้างที่รองรับเป็นไฟล์แนบ?  
+**A:** Any file that can be represented as a byte array—commonly PDF, DOCX, XLSX, CSV, PNG, JPG, and ZIP.
+
+**Q:** ฉันจะจัดการกับ PDF ขนาดใหญ่อย่างมีประสิทธิภาพอย่างไร?  
+**A:** Use `Document.optimizeResources()` and consider processing pages in a streaming fashion to avoid loading the entire document into memory.
+
+**Q:** มีขีดจำกัดจำนวนไฟล์ฝังหรือไม่?  
+**A:** The practical limit is dictated by available system memory and disk space; Aspose.PDF can handle thousands of attachments on a typical server.
+
+**Q:** ฉันจะลบไฟล์แนบจาก PDF ที่มีอยู่ได้อย่างไร?  
+**A:** Retrieve the `EmbeddedFiles` collection via `document.getEmbeddedFiles()` and call `remove(fileSpecification)` on the desired entry.
 
 ## สรุป
 
-คุณได้เรียนรู้วิธี **สร้างไฟล์แนบ PDF ฝังในเอกสาร** ด้วย Aspose.PDF for Java แล้ว ความสามารถนี้สามารถเพิ่มประสิทธิภาพการจัดการเอกสารของคุณอย่างมากโดยการฝังข้อมูลที่เกี่ยวข้องโดยตรงลงใน PDF เพื่อการสำรวจต่อไป ให้พิจารณาเรียนรู้คุณลักษณะเพิ่มเติมของ Aspose.PDF หรือผสานรวมกับไลบรารีและบริการอื่น ๆ
+คุณตอนนี้รู้วิธี **add embedded file to PDF** ด้วย Aspose.PDF for Java แล้ว เทคนิคนี้ช่วยให้คุณรวมทรัพยากรเสริมโดยตรงใน PDF ทำให้การแจกจ่ายมีประสิทธิภาพและประสบการณ์ผู้ใช้ดีขึ้น ทดลองกับไฟล์ประเภทต่าง ๆ สำรวจ API ของ Aspose.PDF อย่างกว้างขวาง และพิจารณาอัตโนมัติกระบวนการทำงานในระบบจัดการเอกสารของคุณ.
 
-**ขั้นตอนต่อไป:**
-- ทดลองใช้ประเภทไฟล์ต่าง ๆ เป็นไฟล์แนบ.  
-- สำรวจคุณลักษณะเพิ่มเติมของ Aspose.PDF for Java เพื่อเพิ่มความสามารถในการจัดการ PDF ของคุณ.  
+**ขั้นตอนต่อไป**
 
-## ส่วนคำถามที่พบบ่อย
-
-1. **ฉันสามารถแนบหลายไฟล์ใน PDF เดียวได้หรือไม่?**  
-   - ใช่, คุณสามารถเพิ่มหลายอ็อบเจกต์ `FileSpecification` ไปยังคอลเลกชันไฟล์ที่ฝังได้.  
-2. **ประเภทไฟล์ใดบ้างที่รองรับเป็นไฟล์แนบ?**  
-   - ทุกประเภทไฟล์ที่สามารถแสดงเป็นอาเรย์ไบต์จะได้รับการสนับสนุน.  
-3. **ฉันจะจัดการ PDF ขนาดใหญ่อย่างมีประสิทธิภาพได้อย่างไร?**  
-   - พิจารณาเพิ่มประสิทธิภาพโค้ดของคุณสำหรับการจัดการหน่วยความจำและประสิทธิภาพการประมวลผล, โดยเฉพาะเมื่อทำงานกับเอกสารขนาดใหญ่.  
-4. **มีขีดจำกัดจำนวนไฟล์ที่ฉันสามารถแนบได้หรือไม่?**  
-   - ขีดจำกัดขึ้นอยู่กับทรัพยากรของระบบและความจุของ Aspose.PDF.  
-5. **ฉันจะลบไฟล์แนบออกจาก PDF ได้อย่างไร?**  
-   - เข้าถึงคอลเลกชันไฟล์ที่ฝังและใช้เมธอดของมันเพื่อลบรายการที่ต้องการ.  
+- ลองฝังไฟล์ที่เข้ารหัสเพื่อเพิ่มความปลอดภัย.  
+- รวมการฝังไฟล์แนบกับลายเซ็นดิจิทัลของ PDF เพื่อเอกสารที่ตรวจจับการดัดแปลงได้.  
+- สำรวจยูทิลิตี้การบีบอัดของ Aspose.PDF เพื่อให้ขนาดไฟล์เล็กที่สุด.  
 
 ## แหล่งข้อมูล
-- [Documentation](https://reference.aspose.com/pdf/java/)
-- [Download Aspose.PDF for Java](https://releases.aspose.com/pdf/java/)
-- [Purchase License](https://purchase.aspose.com/buy)
-- [Free Trial Download](https://releases.aspose.com/pdf/java/)
-- [Temporary License](https://purchase.aspose.com/temporary-license/)
-- [Support Forum](https://forum.aspose.com/c/pdf/10)
+- [เอกสารอ้างอิง](https://reference.aspose.com/pdf/java/)
+- [ดาวน์โหลด Aspose.PDF for Java](https://releases.aspose.com/pdf/java/)
+- [ซื้อใบอนุญาต](https://purchase.aspose.com/buy)
+- [ดาวน์โหลดเวอร์ชันทดลอง](https://releases.aspose.com/pdf/java/)
+- [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
+- [ฟอรั่มสนับสนุน](https://forum.aspose.com/c/pdf/10)
 
-สำรวจแหล่งข้อมูลเหล่านี้เพื่อข้อมูลรายละเอียดเพิ่มเติมและการสนับสนุนจากชุมชน ขอให้สนุกกับการเขียนโค้ด!
+---
 
-**อัปเดตล่าสุด:** 2025-12-15  
+**อัปเดตล่าสุด:** 2026-05-18  
 **ทดสอบกับ:** Aspose.PDF 25.3 for Java  
 **ผู้เขียน:** Aspose  
+
+{{< blocks/products/pf/main-container >}}
+
+## บทแนะนำที่เกี่ยวข้อง
+
+- [วิธีสกัดไฟล์ฝังจาก PDF ด้วย Aspose.PDF for Java: คู่มือฉบับสมบูรณ์](/pdf/java/attachments-embedded-files/extract-embedded-files-pdf-aspose-java-guide/)
+- [เชี่ยวชาญ Aspose.PDF Java: การเข้าถึงและจัดการไฟล์ฝังใน PDF](/pdf/java/attachments-embedded-files/master-aspose-pdf-java-access-manage-embedded-files/)
+- [วิธีสกัดไฟล์ฝังจาก PDF Portfolio ด้วย Aspose.PDF Java](/pdf/java/attachments-embedded-files/extract-files-pdf-portfolio-aspose-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
