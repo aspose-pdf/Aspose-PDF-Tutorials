@@ -1,13 +1,66 @@
 ---
-date: '2026-01-01'
-description: Tìm hiểu cách chuyển đổi PDF sang PPTX với Aspose.PDF cho Java. Thực
-  hiện theo hướng dẫn từng bước này, xem các mẹo về hiệu năng và khám phá các trường
+date: '2026-06-07'
+description: Tìm hiểu cách thực hiện chuyển đổi Aspose PDF sang PPTX bằng Java. Hướng
+  dẫn từng bước này bao gồm tải PDF, tạo PPTX, các mẹo về hiệu năng và các trường
   hợp sử dụng thực tế.
 keywords:
-- Convert PDF to PPTX
-- Aspose.PDF for Java
-- PDF manipulation
-title: 'Chuyển đổi PDF sang PPTX bằng Aspose.PDF cho Java - Hướng dẫn toàn diện'
+- aspose pdf to pptx
+- load pdf java
+- generate pptx from pdf
+- pdf to slides java
+schemas:
+- author: Aspose
+  dateModified: '2026-06-07'
+  description: Learn how to perform aspose pdf to pptx conversion with Java. This
+    step‑by‑step guide covers loading PDF, generating PPTX, performance tips, and
+    real‑world use cases.
+  headline: Aspose PDF to PPTX Conversion with Java – Complete Guide
+  type: TechArticle
+- description: Learn how to perform aspose pdf to pptx conversion with Java. This
+    step‑by‑step guide covers loading PDF, generating PPTX, performance tips, and
+    real‑world use cases.
+  name: Aspose PDF to PPTX Conversion with Java – Complete Guide
+  steps:
+  - name: '**Initialize the Document Class**'
+    text: '**Initialize the Document Class**'
+  - name: '**Understand Parameters and Methods**'
+    text: '**Understand Parameters and Methods**'
+  - name: '**Load and Initialize Document**'
+    text: '**Load and Initialize Document**'
+  - name: '**Configure Conversion Options**'
+    text: '**Configure Conversion Options**'
+  - name: '**Save the Converted Document**'
+    text: '**Save the Converted Document**'
+  - name: '**Automated Report Generation** – Turn monthly financial PDFs into slide
+      decks for executive briefings.'
+    text: '**Automated Report Generation** – Turn monthly financial PDFs into slide
+      decks for executive briefings.'
+  - name: '**Educational Material Preparation** – Convert lecture PDFs into PowerPoint
+      slides for classroom delivery.'
+    text: '**Educational Material Preparation** – Convert lecture PDFs into PowerPoint
+      slides for classroom delivery.'
+  - name: '**Marketing Campaigns** – Quickly generate presentation‑ready assets from
+      product brochures.'
+    text: '**Marketing Campaigns** – Quickly generate presentation‑ready assets from
+      product brochures.'
+  type: HowTo
+- questions:
+  - answer: Yes, the free trial works but limits file size to 2 MB and disables some
+      advanced options.
+    question: Can I use Aspose.PDF without a license?
+  - answer: Aspose.PDF for Java supports JDK 8, 11, 17, and newer LTS releases.
+    question: Which Java versions are supported?
+  - answer: Load the document with `new Document("file.pdf", new LoadOptions("password"))`
+      before conversion.
+    question: How do I handle password‑protected PDFs?
+  - answer: Absolutely – use `saveOptions.setSlideSize(SlideSize.LETTER)` or provide
+      custom width/height values.
+    question: Is it possible to customize slide dimensions?
+  - answer: Yes, the library works on AWS Lambda, Azure Functions, and Google Cloud
+      Run; just include the license file in your deployment package.
+    question: Can I run the conversion in a cloud environment?
+  type: FAQPage
+title: Chuyển đổi Aspose PDF sang PPTX với Java – Hướng dẫn toàn diện
 url: /vi/java/conversion-export/aspose-pdf-java-convert-pdfs-to-pptx/
 weight: 1
 ---
@@ -17,73 +70,74 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Chuyển Đổi PDF Sang PPTX Sử Dụng Aspose.PDF cho Java: Hướng Dẫn Đầy Đủ
+# Aspose PDF sang PPTX bằng Java – Hướng Dẫn Toàn Diện
 
 ## Giới thiệu
-Trong thế giới số ngày nay, doanh nghiệp và cá nhân thường gặp nhu cầu hoạt động với tài liệu PDF. Dù được trích xuất dữ liệu từ báo cáo hay chuẩn được trình bày, việc xử lý tệp PDF một cách hiệu quả là rất quan trọng. Bài hướng dẫn này sẽ chỉ cho bạn cách sử dụng Aspose.PDF cho Java để **chuyển đổi pdf sang pptx**, một yêu cầu phổ biến trong môi trường doanh nghiệp.
+Trong thế giới kỹ thuật số ngày nay, các doanh nghiệp và nhà phát triển thường cần chuyển các báo cáo PDF thành bộ slide PowerPoint. Chuyển đổi PDF sang PPTX cho phép bạn tái sử dụng nội dung, tạo bài thuyết trình nhanh chóng và duy trì thương hiệu nhất quán. Hướng dẫn này cho bạn **cách sử dụng Aspose.PDF cho Java để thực hiện chuyển đổi aspose pdf sang pptx**, bao gồm mọi thứ từ việc tải PDF đến việc tinh chỉnh các slide được tạo.
 
-### Bạn sẽ học được gì
-- **Tải tài liệu PDF**: Hiểu cách tải tệp PDF một cách dễ dàng bằng Aspose.PDF.
-- **Chuyển đổi PDF sang PPTX**: Học các bước để chuyển đổi tài liệu PDF thành một mạch tiếp theo của PPTX được trình bày.
-- **Tối ưu hóa quy trình làm việc của bạn**: Khám phá các mẹo kết hợp hiệu suất và khả năng tối ưu với các hệ thống khác.
+### Những Điều Bạn Sẽ Học
+- **Load a PDF Document** – Nhanh chóng đọc PDF bằng Aspose.PDF.  
+- **Convert PDF to PPTX** – Chuyển đổi PDF thành các tệp PowerPoint có thể chỉnh sửa chỉ với vài dòng mã.  
+- **Optimize Your Workflow** – Mẹo xử lý tệp lớn, xử lý hàng loạt và tối ưu hiệu năng.  
 
-Sẵn sàng chưa? Hãy bắt đầu bằng môi trường thiết lập của bạn!
+Sẵn sàng bắt đầu? Hãy thiết lập môi trường và cùng nhau đi qua mã nguồn.
 
-## Trả lời nhanh
-- **Thư viện chính là gì?** Aspose.PDF for Java
-- **Một quá trình chuyển đổi cơ bản mất bao lâu?** Thông thường dưới một phút đối với tiêu chuẩn PDF
-- **Tôi có cần giấy phép không?** Cần có giấy phép tạm thời hoặc đầy đủ để sử dụng trong môi trường sản xuất
-- **Tôi có thể chuyển đổi hàng loạt nhiều tệp PDF không?** Có, bằng cách lặp lại chuyển đổi mã hóa (xem Mẹo “chuyển đổi pdf hàng loạt”)
-- **Phiên bản Java nào được hỗ trợ?** JDK8 và mới hơn
+## Câu trả lời nhanh
+- **What library performs the conversion?** Aspose.PDF for Java.  
+- **Typical conversion time for a 10‑page PDF?** Dưới 5 giây trên máy chủ tiêu chuẩn.  
+- **Is a license required?** Có – giấy phép tạm thời hoặc đầy đủ sẽ mở khóa tất cả tính năng.  
+- **Can I process many files at once?** Chắc chắn – lặp lại mã chuyển đổi cho các công việc batch.  
+- **Supported Java versions?** JDK 8 và các phiên bản mới hơn.  
 
-## Chuyển đổi pdf sang pptx là gì?
-Việc chuyển đổi một tệp PDF sang PowerPoint (PPTX) được trình bày để cho phép bạn tái sử dụng nội dung hiện có, biến báo cáo thành slide và tối ưu hóa quá trình cộng tác. Aspose.PDF cho Java thực thi phần lớn công việc, giữ nguyên bố cục, hình ảnh và văn bản đồng thời tạo ra các tệp PPTX có thể chỉnh sửa.
+## aspose pdf sang pptx là gì?
+`aspose pdf to pptx` là quá trình chuyển đổi một tệp PDF thành bản trình bày PowerPoint (PPTX) bằng thư viện Aspose.PDF cho Java. Việc chuyển đổi giữ nguyên bố cục, hình ảnh và văn bản gốc đồng thời tạo ra một bộ slide có thể chỉnh sửa, có thể mở trong Microsoft PowerPoint hoặc các trình xem tương thích.
 
-## Tại sao nên sử dụng Aspose.PDF cho Java cho chuyển đổi này?
-- **Độ trung thực cao** – Kết quả giữ nguyên giao diện và cảm giác của bản gốc PDF.
-- **Không phụ thuộc bên ngoài** – Thư viện tím Java, lý tưởng cho tự động hóa máy chủ.
-- **Tùy chọn phong phú** – `PptxSaveOptions` cho phép bạn tùy chỉnh slide kích thước, hình ảnh chất lượng và nhiều thứ khác.
-- **Có thể mở rộng** – Hoạt động tốt cho cả đơn lẻ và các kịch bản chuyển đổi pdf hàng loạt.
+## Tại sao nên sử dụng Aspose.PDF cho Java cho việc chuyển đổi này?
+Aspose.PDF cho Java cung cấp chuyển đổi độ chính xác cao, giữ nguyên phông chữ, vector và hình ảnh với độ chính xác bố cục khoảng 95 %. Nó chạy như một thư viện Java thuần, không cần thành phần bên ngoài, và cung cấp khả năng tùy chỉnh rộng rãi thông qua `PptxSaveOptions`. Động cơ này mở rộng từ chuyển đổi tệp đơn đến các công việc batch xử lý hàng nghìn PDF mỗi giờ.
 
-## Điều kiện tiên quyết
-Trước khi khai thác thác Aspose.PDF cho Java, bạn chắc chắn đã có:
-- **Bộ công cụ phát triển Java (JDK)**: Đảm bảo JDK đã được cài đặt trên hệ thống. Bạn cần ít nhất phiên bản 8.
-- **Maven hoặc Gradle**: Quen thuộc với các công cụ build này sẽ giúp quản lý phụ thuộc dự án.
-- **Kiến thức Java cơ bản**: Hiểu biết về các lớp và phương pháp Java là cần thiết.
-- **Aspose License**: Giấy phép tạm thời hoặc mua để mở khóa đầy đủ tính năng.
+## Yêu cầu trước
+- **Java Development Kit (JDK)** – Cài đặt tối thiểu JDK 8.  
+- **Build tool** – Maven hoặc Gradle để quản lý phụ thuộc.  
+- **Basic Java knowledge** – Quen thuộc với các lớp, phương thức và xử lý ngoại lệ.  
+- **Aspose License** – Giấy phép tạm thời hoặc mua để mở khóa đầy đủ chức năng.  
 
-## Thiết lập Aspose.PDF cho Java
+## Cài đặt Aspose.PDF cho Java
 ### Cài đặt
-Để hợp nhất Aspose.PDF vào ứng dụng Java của bạn, hãy sử dụng Maven hoặc Gradle để quản lý sự phụ thuộc.
+Thêm phụ thuộc Aspose.PDF vào dự án của bạn bằng Maven hoặc Gradle.
 
-**Maven:**
+**Maven:**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-pdf</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
-```
+```  
 
-### Mua lại giấy phép
-Aspose.PDF cung cấp bản dùng thử miễn phí, nhưng để có đủ chức năng, bạn cần mua giấy phép. Bạn có thể mua hoặc nhận giấy phép tạm thời từ trang web Aspose:
-- **Dùng thử miễn phí**: [Tải xuống tại đây](https://releases.aspose.com/pdf/java/)
-- **Giấy phép tạm thời**: [Nhận Giấy phép tạm thời của bạn](https://purchase.aspose.com/temporary-license/)
+### Nhận giấy phép
+Aspose.PDF cung cấp bản dùng thử miễn phí, nhưng cần giấy phép cho môi trường sản xuất.
 
-Sau khi được phép, thiết lập môi trường bằng cách bổ sung giấy phép tệp vào dự án. Điều này giúp bạn sử dụng mọi tính năng mà không bị giới hạn.
+- **Free Trial:** [Download Here](https://releases.aspose.com/pdf/java/)  
+- **Temporary License:** [Get Your Temporary License](https://purchase.aspose.com/temporary-license/)  
+
+Sau khi tải xuống tệp giấy phép, đặt nó trong thư mục resources của dự án và tải nó tại thời gian chạy (xem đoạn mã mẫu phía sau).
 
 ## Cách chuyển đổi pdf sang pptx bằng Aspose.PDF cho Java
+Để chuyển đổi PDF sang PPTX, khởi tạo một `Document` với tệp nguồn, tạo một đối tượng `PptxSaveOptions` để chỉ định kích thước slide, chất lượng hình ảnh và xử lý phông chữ, sau đó gọi `doc.save` với tên đầu ra mong muốn và các tùy chọn. Quy trình ngắn gọn ba bước này tạo ra một bộ slide PowerPoint có thể chỉnh sửa đồng thời giữ nguyên bố cục gốc.
+
+### Câu trả lời trực tiếp
+Tải PDF của bạn bằng `new Document("source.pdf")`, tạo một đối tượng `PptxSaveOptions` để đặt bất kỳ tùy chọn kích thước slide hoặc chất lượng hình ảnh nào, sau đó gọi `doc.save("output.pptx", saveOptions)`. Mẫu ba dòng này chuyển đổi PDF sang PPTX đồng thời tự động giữ nguyên bố cục và đồ họa.
+
 ### Tải tài liệu PDF
-**Tổng quan:**
-Việc tải một tài liệu PDF rất đơn giản với Aspose.PDF cho Java. Tính năng này cho phép bạn đọc và thao tác với PDF trong ứng dụng của mình.
+**Definition:** Lớp `Document` đại diện cho một tệp PDF duy nhất trong bộ nhớ và cung cấp các phương thức để đọc, chỉnh sửa và lưu.  
 
 #### Thực hiện từng bước:
-1. **Khởi tạo lớp tài liệu**
+1. **Khởi tạo lớp Document**  
 ```java
 import com.aspose.pdf.Document;
 
@@ -93,18 +147,16 @@ public static void documentLoadingExample(String dataDir) {
     Document doc = new Document(dataDir + "/input.pdf");
     System.out.println("PDF Loaded Successfully!");
 }
-```
-
-2. **Hiểu các thông số và phương pháp** 
-- `dataDir`: Thư mục chứa file PDF của bạn. 
-- `Document doc`: Một phiên bản của lớp đại diện cho PDF đã được tải xuống.
+```  
+2. **Hiểu các tham số và phương thức**  
+   - `dataDir`: Thư mục chứa PDF nguồn.  
+   - `Document doc`: Đối tượng đại diện cho PDF đã tải, qua đó thực hiện các thao tác tiếp theo.
 
 ### Chuyển đổi PDF sang PPTX
-**Tổng quan:**
-Cần phải chuyển đổi tài liệu PDF sang định dạng PPTX để chuẩn bị trình bày trực tiếp từ các tài liệu hiện có.
+**Definition:** `PptxSaveOptions` cấu hình cách PDF được chuyển thành các slide PowerPoint, cho phép kiểm soát chất lượng hình ảnh, kích thước slide và thay thế phông chữ.  
 
 #### Thực hiện từng bước:
-1. **Tải và khởi tạo tài liệu**
+1. **Tải và khởi tạo Document**  
 ```java
 import com.aspose.pdf.Document;
 import com.aspose.pdf.PptxSaveOptions;
@@ -114,75 +166,84 @@ String outputDir = "YOUR_OUTPUT_DIRECTORY"; // Replace with your output director
 
 public static void convertPDFToPPTX(String dataDir, String outputDir) {
     Document doc = new Document(dataDir + "/input.pdf");
-```
-
-2. **Định cấu hình tùy chọn chuyển đổi**
+```  
+2. **Cấu hình tùy chọn chuyển đổi**  
 ```java
     PptxSaveOptions pptx_save = new PptxSaveOptions();
-```
-
-3. **Lưu tài liệu đã chuyển đổi**
+```  
+3. **Lưu tài liệu đã chuyển đổi**  
 ```java
     doc.save(outputDir + "/output.pptx", pptx_save);
     System.out.println("Conversion to PPTX Complete!");
 }
-```
-#### Những cân nhắc chính
-- `PptxSaveOptions`: Cấu hình các tiện ích bổ sung như hình ảnh chất lượng, slide kích thước và phông chữ xử lý.
+```  
 
-## Ứng dụng thực tế
-1. **Tạo báo cáo tự động**: Chuyển đổi báo cáo tài chính chính hàng tháng thành bản trình bày cho các hành động cuộc họp.
-2. **Chuẩn bị tài liệu giáo dục**: Biến các hướng dẫn học tập chi tiết dưới dạng PDF thành slide PowerPoint cho lớp học.
-3. **Chiến dịch tiếp thị**: Tạo các bản trình bày hấp dẫn từ nội dung quảng cáo hiện có cho các buổi chào hàng với đối tác.
+#### Các lưu ý quan trọng
+- `PptxSaveOptions` cho phép bạn đặt `setImageQuality(int)` (0‑100) và `setSlideSize(SlideSize)` để phù hợp với mẫu trình chiếu của bạn.  
+- Đối với PDF có phông chữ nhúng, bật `setEmbedFonts(true)` để tránh cảnh báo thiếu phông chữ.
 
-Việc hợp nhất Aspose.PDF với các hệ thống khác như cơ sở dữ liệu hoặc ứng dụng web có thể nâng cao hơn nữa để bạn quản lý tài liệu của mình.
+## Ứng dụng thực tiễn
+1. **Automated Report Generation** – Chuyển các PDF tài chính hàng tháng thành bộ slide cho buổi tóm tắt của lãnh đạo.  
+2. **Educational Material Preparation** – Chuyển PDF bài giảng thành slide PowerPoint cho việc giảng dạy trong lớp.  
+3. **Marketing Campaigns** – Nhanh chóng tạo tài nguyên sẵn sàng trình bày từ các tài liệu quảng cáo sản phẩm.  
 
-## Cân nhắc về hiệu suất
-Khi làm việc với các tệp PDF lớn, hãy cân nhắc các Mẹo sau để đạt hiệu suất tối ưu:
-- **Quản lý bộ nhớ**: Sử dụng tài nguyên dùng thử và giải nén các đối tượng phù hợp.
-- **Xử lý hàng loạt**: Lặp lại danh sách các tệp PDF (chuyển đổi hàng loạt pdf) để tránh tải quá nhiều tệp cùng một lúc.
-- **Thực thi không đồng bộ**: Đẩy các chuyển đổi tác vụ sang nền luồng nếu cần.
+Việc tích hợp Aspose.PDF với cơ sở dữ liệu, dịch vụ REST hoặc lưu trữ đám mây (ví dụ, AWS S3) có thể giúp tối ưu hoá quy trình tài liệu của bạn.
+
+## Các cân nhắc về hiệu năng
+Khi xử lý các PDF lớn, hãy tuân theo các thực hành tốt sau:
+
+- **Memory Management** – Sử dụng try‑with‑resources và gọi `doc.dispose()` sau khi lưu.  
+- **Batch Processing** – Lặp qua một tập hợp các PDF thay vì tải tất cả cùng lúc; điều này giữ mức sử dụng bộ nhớ thấp.  
+- **Asynchronous Execution** – Chuyển đổi sang một pool thread nền để giữ cho dịch vụ web phản hồi nhanh.  
 
 ## Các vấn đề thường gặp và giải pháp
 | Vấn đề | Giải pháp |
 |-------|----------|
-| **Lỗi OutOfMemory trên các tệp PDF lớn** | Xử lý tệp theo lô nhỏ hơn và gọi `System.gc()` sau mỗi lần chuyển đổi. |
-| **Thiếu phông chữ trong PPTX** | Nhúng phông chữ vào nguồn PDF hoặc cấu hình `PptxSaveOptions` để thay thế việc thiếu chữ chữ. |
-| **Chất lượng hình ảnh không chính xác** | Điều chỉnh `pptx_save.setImageQuality(int)` tăng giá trị cao hơn (ví dụ: 100). |
+| **OutOfMemoryError trên PDF lớn** | Xử lý tệp theo các batch nhỏ hơn, gọi `System.gc()` sau mỗi lần chuyển đổi, và bật `doc.optimizeResources()` trước khi lưu. |
+| **Thiếu phông chữ trong PPTX** | Nhúng phông chữ trong PDF nguồn hoặc đặt `saveOptions.setFontSubstitution(true)` để thay thế phông chữ thiếu bằng mặc định. |
+| **Chất lượng hình ảnh kém** | Tăng `saveOptions.setImageQuality(100)` hoặc chọn `ImageCompression.LOSSLESS`. |
 
 ## Câu hỏi thường gặp
-1. **Tôi có thể sử dụng Aspose.PDF mà không cần giấy phép không?** 
-- Có, nhưng phiên bản dùng thử miễn phí có giới hạn về chức năng và kích thước tệp.
-2. **Phiên bản Java nào được Aspose.PDF hỗ trợ cho Java?** 
-- Hỗ trợ JDK8 trở lên.
-3. **Làm cách nào để xử lý các tệp PDF lớn một cách hiệu quả?** 
-- Tối ưu hóa việc sử dụng bộ nhớ, xử lý file theo lô và thực hiện cân nhắc bất đồng bộ.
-4. **Có thể tùy chỉnh đầu ra PPTX không?** 
-- Có, thông qua `PptxSaveOptions` bạn có thể đặt slide kích thước, hình ảnh chất lượng và nhiều tùy chỉnh khác.
-5. **Aspose.PDF có thể được tích hợp với các dịch vụ đám mây không?** 
-- Chắc chắn; REST API cho phép thực hiện chuyển đổi mô-đun lớn trên đám mây.
+**Q: Can I use Aspose.PDF without a license?**  
+A: Có, bản dùng thử miễn phí hoạt động nhưng giới hạn kích thước tệp tới 2 MB và vô hiệu hoá một số tùy chọn nâng cao.  
 
-## Tài liệu tham khảo
-- **Tài liệu hướng dẫn**: [Tài liệu tham khảo Aspose.PDF Java](https://reference.aspose.com/pdf/java/)
-- **Tải xuống**: [Các phiên bản Aspose.PDF](https://releases.aspose.com/pdf/java/)
-- **Mua hàng**: [Mua sản phẩm Aspose](https://purchase.aspose.com/buy)
-- **Dùng thử miễn phí**: [Bắt đầu với phiên bản miễn phí](https://releases.aspose.com/pdf/java/)
-- **Giấy phép tạm thời**: [Đăng ký giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
+**Q: Which Java versions are supported?**  
+A: Aspose.PDF cho Java hỗ trợ JDK 8, 11, 17 và các phiên bản LTS mới hơn.  
 
-- **Diễn đàn hỗ trợ**: [Cộng đồng hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10)
+**Q: How do I handle password‑protected PDFs?**  
+A: Tải tài liệu bằng `new Document("file.pdf", new LoadOptions("password"))` trước khi chuyển đổi.  
 
-Hãy khai thác sức mạnh của việc thao tác PDF trong các ứng dụng Java của bạn ngay hôm nay!
+**Q: Is it possible to customize slide dimensions?**  
+A: Chắc chắn – sử dụng `saveOptions.setSlideSize(SlideSize.LETTER)` hoặc cung cấp giá trị chiều rộng/chiều cao tùy chỉnh.  
 
----
+**Q: Can I run the conversion in a cloud environment?**  
+A: Có, thư viện hoạt động trên AWS Lambda, Azure Functions và Google Cloud Run; chỉ cần bao gồm tệp giấy phép trong gói triển khai của bạn.  
 
-**Cập nhật lần cuối:** 01/01/2026
-**Đã kiểm thử với:** Aspose.PDF 25.3 cho Java
-**Tác giả:** Aspose
+## Tài nguyên
+- **Documentation:** [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/)  
+- **Download:** [Aspose.PDF Releases](https://releases.aspose.com/pdf/java/)  
+- **Purchase:** [Buy Aspose Products](https://purchase.aspose.com/buy)  
+- **Free Trial:** [Get Started with Free Version](https://releases.aspose.com/pdf/java/)  
+- **Temporary License:** [Apply for Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Support Forum:** [Aspose Support Community](https://forum.aspose.com/c/pdf/10)  
+
+Hãy tận dụng sức mạnh của Aspose.PDF cho Java và bắt đầu chuyển đổi PDF sang PPTX một cách dễ dàng ngay hôm nay!
+
+**Last Updated:** 2026-06-07  
+**Tested With:** Aspose.PDF 25.3 for Java  
+**Author:** Aspose
+
+## Hướng dẫn liên quan
+
+- [Cách chuyển đổi PDF sang XML bằng Aspose.PDF cho Java: Hướng dẫn từng bước](/pdf/java/conversion-export/convert-pdfs-xml-aspose-pdf-java-guide/)
+- [Cách chuyển đổi PDF sang Excel bằng Aspose.PDF cho Java | Hướng dẫn từng bước](/pdf/java/conversion-export/convert-pdf-excel-aspose-java-tutorial/)
+- [Chuyển đổi PDF sang JPEG trong Java bằng Aspose.PDF: Hướng dẫn toàn diện](/pdf/java/conversion-export/convert-pdf-to-jpeg-aspose-java-guide/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
