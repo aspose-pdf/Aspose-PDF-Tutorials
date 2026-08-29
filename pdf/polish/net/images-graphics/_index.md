@@ -164,6 +164,9 @@ Dowiedz się, jak przekształcać złożone skrypty LaTeX w dokumenty PDF za pom
 ### [Ustawianie tła obrazu w plikach PDF za pomocą Aspose.PDF dla .NET: kompleksowy przewodnik](./aspose-pdf-net-set-image-backgrounds/)
 Dowiedz się, jak ulepszyć swoje dokumenty PDF, ustawiając tła obrazów za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje wskazówki dotyczące konfiguracji, implementacji i optymalizacji.
 
+### [Dodaj ExtGState do PDF przy użyciu Aspose.PDF – kompletny przewodnik](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+Dowiedz się, jak dodać ExtGState do plików PDF przy użyciu Aspose.PDF dla .NET, aby kontrolować przezroczystość i inne efekty graficzne.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

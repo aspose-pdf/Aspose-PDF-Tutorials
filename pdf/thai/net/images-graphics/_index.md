@@ -164,6 +164,9 @@
 ### [ตั้งค่าพื้นหลังรูปภาพใน PDF โดยใช้ Aspose.PDF สำหรับ .NET: คู่มือฉบับสมบูรณ์](./aspose-pdf-net-set-image-backgrounds/)
 เรียนรู้วิธีปรับปรุงเอกสาร PDF ของคุณโดยการตั้งค่าพื้นหลังรูปภาพโดยใช้ Aspose.PDF สำหรับ .NET คู่มือนี้ครอบคลุมถึงเคล็ดลับการตั้งค่า การใช้งาน และการปรับแต่ง
 
+### [เพิ่ม ExtGState ไปยัง PDF ด้วย Aspose.PDF สำหรับ .NET – คู่มือฉบับสมบูรณ์](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+เรียนรู้วิธีการใช้ ExtGState เพื่อควบคุมความโปร่งใสและการเรนเดอร์ใน PDF ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียด
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)

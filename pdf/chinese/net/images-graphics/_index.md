@@ -44,6 +44,9 @@ Aspose.PDF Net 代码教程
 ### [使用 Aspose.PDF .NET 在 PDF 中绘制透明形状](./draw-transparent-shapes-aspose-pdf-net/)
 Aspose.PDF Net 代码教程
 
+### [使用 Aspose.PDF 向 PDF 添加 ExtGState：完整指南](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+了解如何使用 Aspose.PDF 在 PDF 中添加 ExtGState，以实现透明度和混合模式等高级图形效果。
+
 ### [使用 Aspose.PDF for .NET 实现高效的 PDF 图像识别](./master-image-identification-aspose-pdf-net/)
 学习如何使用 Aspose.PDF for .NET 识别 PDF 中的灰度和 RGB 图像。本教程涵盖安装、图像提取和性能技巧。
 

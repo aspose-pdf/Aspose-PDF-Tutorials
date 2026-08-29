@@ -44,6 +44,9 @@ Aprenda a criar documentos PDF visualmente atraentes extraindo e destacando par�
 ### [Desenhe formas transparentes em PDFs com Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 Um tutorial de código para Aspose.PDF Net
 
+### [Adicionar ExtGState a PDF com Aspose.Pdf – Guia completo](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+Aprenda a aplicar objetos ExtGState para controlar transparência e outras propriedades gráficas em PDFs usando Aspose.Pdf para .NET.
+
 ### [Identificação eficiente de imagens em PDF com Aspose.PDF para .NET](./master-image-identification-aspose-pdf-net/)
 Aprenda a identificar imagens em tons de cinza e RGB em PDFs usando o Aspose.PDF para .NET. Este tutorial aborda instalação, extração de imagens e dicas de desempenho.
 
