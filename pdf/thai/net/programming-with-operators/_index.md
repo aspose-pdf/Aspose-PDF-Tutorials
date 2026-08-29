@@ -23,6 +23,7 @@
 - [วาด XForm บนหน้า](./draw-xform-on-page/) | เรียนรู้วิธีการวาด XForms ใน PDF โดยใช้ Aspose.PDF สำหรับ .NET พร้อมคู่มือทีละขั้นตอนที่ครอบคลุมนี้  
 - [ตัวดำเนินการ PDF](./pdf-operators/) | คำแนะนำทีละขั้นตอนในการใช้ตัวดำเนินการ PDF กับ Aspose.PDF สำหรับ .NET เพิ่มรูปภาพลงในหน้า PDF และระบุตำแหน่งของรูปภาพ -  
 | [ลบวัตถุกราฟิกออกจากไฟล์ PDF](./remove-graphics-objects/) เรียนรู้วิธีการลบวัตถุกราฟิกออกจากไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนนี้ ทำให้ภารกิจการจัดการ PDF ของคุณง่ายขึ้น |  
+- [สร้างสถานะกราฟิกที่กำหนดเองใน PDF ด้วย Aspose.Pdf](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) | เรียนรู้วิธีสร้างและกำหนดสถานะกราฟิกที่กำหนดเองในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

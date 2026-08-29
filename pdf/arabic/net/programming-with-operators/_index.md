@@ -23,6 +23,7 @@
 | [ارسم XForm على الصفحة](./draw-xform-on-page/) | تعلم كيفية رسم XForms في PDF باستخدام Aspose.PDF لـ .NET مع هذا الدليل الشامل خطوة بخطوة. |  
 | [مشغلات PDF](./pdf-operators/) دليل خطوة بخطوة لاستخدام مُشغّلات PDF مع Aspose.PDF لـ .NET. أضف صورة إلى صفحة PDF وحدد موقعها.  
 | [إزالة الكائنات الرسومية في ملف PDF](./remove-graphics-objects/) تعرّف على كيفية إزالة الكائنات الرسومية من ملف PDF باستخدام Aspose.PDF لـ .NET في هذا الدليل التفصيلي. بسّط مهام معالجة ملفات PDF.  
+| [إنشاء حالة رسومية مخصصة في PDF باستخدام Aspose.Pdf](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) تعلم كيفية إنشاء حالة رسومية مخصصة في ملفات PDF باستخدام Aspose.PDF لـ .NET.  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

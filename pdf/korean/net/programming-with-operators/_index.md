@@ -23,6 +23,7 @@ Aspose.PDF for .NET의 "연산자를 사용한 프로그래밍" 튜토리얼은 
 | [페이지에 XForm 그리기](./draw-xform-on-page/) | 이 포괄적인 단계별 가이드를 통해 Aspose.PDF for .NET을 사용하여 PDF로 XForms를 그리는 방법을 알아보세요. |  
 | [PDF 연산자](./pdf-operators/) | Aspose.PDF for .NET에서 PDF 연산자를 사용하는 단계별 가이드입니다. PDF 페이지에 이미지를 추가하고 위치를 지정합니다. |  
 | [PDF 파일에서 그래픽 개체 제거](./remove-graphics-objects/) Aspose.PDF for .NET을 사용하여 PDF 파일에서 그래픽 객체를 제거하는 방법을 단계별 가이드에서 알아보세요. PDF 조작 작업을 간소화하세요. |  
+| [Aspose.Pdf를 사용하여 PDF에서 사용자 정의 그래픽 상태 만들기](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) |  |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
