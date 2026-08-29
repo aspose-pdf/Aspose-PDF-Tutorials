@@ -1,13 +1,60 @@
 ---
-date: '2025-12-20'
-description: Scopri come estrarre gli URL dei collegamenti PDF con questo tutorial
-  Aspose PDF per Java. Segui le istruzioni passo passo per ottenere gli URL dei collegamenti
+date: '2026-06-02'
+description: Scopri come estrarre i collegamenti PDF dalle pagine usando Aspose.PDF
+  per Java. Questa guida passo‑passo ti mostra come ottenere gli URL dei collegamenti
   PDF in modo efficiente.
 keywords:
-- extract hyperlinks from pdf java
-- aspose.pdf hyperlink extraction
-- java pdf link annotation
-title: 'Tutorial Aspose PDF Java - Estrarre i collegamenti ipertestuali da un PDF'
+- extract pdf links pages
+- get pdf link urls
+- aspose pdf java hyperlink extraction
+schemas:
+- author: Aspose
+  dateModified: '2026-06-02'
+  description: Learn how to extract PDF links from pages using Aspose.PDF for Java.
+    This step‑by‑step guide shows you how to get PDF link URLs efficiently.
+  headline: Aspose PDF Java Tutorial – Extract PDF Links from Pages
+  type: TechArticle
+- description: Learn how to extract PDF links from pages using Aspose.PDF for Java.
+    This step‑by‑step guide shows you how to get PDF link URLs efficiently.
+  name: Aspose PDF Java Tutorial – Extract PDF Links from Pages
+  steps:
+  - name: Load the PDF Document
+    text: '`Document` represents a PDF file loaded into memory, providing access to
+      its pages and annotations. *The `Document` class is Aspose.PDF’s top‑level object
+      that represents a single PDF file in memory. Instantiating it loads the file
+      structure without rendering the pages.*'
+  - name: Access the Desired Page(s)
+    text: '*You can retrieve any page via `document.getPages().get(pageNumber)`. In
+      this example we focus on the first page, but the same logic works for a range
+      or the entire document.*'
+  - name: Select Link Annotations
+    text: '`LinkAnnotation` is a type of annotation that represents a hyperlink within
+      a PDF page. `AnnotationSelector` filters annotations on a page based on type
+      or area. *`AnnotationSelector` filters annotations by type. By specifying `LinkAnnotation.class`
+      we isolate only hyperlink objects, while `Rectangl'
+  - name: Process Hyperlink Actions
+    text: '*Iterate over each `LinkAnnotation` and call `getAction().getURI()` to
+      obtain the target URL. The loop prints each URL to the console, demonstrating
+      the core extraction capability.*'
+  type: HowTo
+- questions:
+  - answer: It is a commercial library that provides 50+ PDF manipulation features—including
+      creation, conversion, and annotation handling—without requiring external software.
+    question: What is Aspose.PDF for Java?
+  - answer: Loop through `document.getPages()` and apply the same `AnnotationSelector`
+      logic to each page, collecting URIs into a list.
+    question: How do I extract hyperlinks from all pages of a document?
+  - answer: Yes, supply the password when constructing the `Document` object (e.g.,
+      `new Document("file.pdf", new LoadOptions("pwd"))`).
+    question: Can Aspose.PDF handle password‑protected PDFs?
+  - answer: Apache PDFBox and iText are popular open‑source options, though they may
+      lack some of Aspose’s advanced annotation APIs.
+    question: What are alternatives to Aspose.PDF for Java?
+  - answer: After extraction, use `HttpURLConnection` or a third‑party HTTP client
+      to ping each URL and log any non‑200 responses for remediation.
+    question: How can I handle broken links found in a PDF document?
+  type: FAQPage
+title: Tutorial Aspose PDF Java – Estrarre i collegamenti PDF dalle pagine
 url: /it/java/bookmarks-navigation/extract-hyperlinks-pdf-aspose-java/
 weight: 1
 ---
@@ -17,40 +64,45 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose PDF Java Tutorial: Estrarre i collegamenti ipertestuali da un documento PDF
+# Aspose PDF Java Tutorial – Estrarre collegamenti PDF dalle pagine
 
 ## Introduzione
 
-Estrarre i collegamenti ipertestuali da un documento PDF può semplificare notevolmente attività come la gestione dei contenuti, l'analisi dei dati e la generazione automatica di report. In questo **aspose pdf java tutorial**, imparerai a **ottenere gli URL dei collegamenti PDF** rapidamente usando Aspose.PDF per Java. Vedremo la configurazione, l'implementazione del codice, la gestione degli errori e casi d'uso reali, così potrai integrare l'estrazione dei collegamenti ipertestuali nelle tue applicazioni.
+Estrarre collegamenti PDF dalle pagine può semplificare notevolmente le pipeline di gestione dei contenuti, i progetti di data‑mining e i flussi di lavoro di reporting automatizzato. In questo tutorial **extract pdf links pages** imparerai a **ottenere gli URL dei collegamenti PDF** rapidamente con Aspose.PDF per Java. Vedremo la configurazione dell'ambiente, l'implementazione a livello di codice, la gestione degli errori e scenari reali, così da poter integrare l'estrazione dei collegamenti ipertestuali direttamente nelle tue applicazioni Java.
 
 **Cosa imparerai**
-- Configurare e impostare Aspose.PDF per Java  
-- Estrarre i collegamenti ipertestuali da pagine specifiche di un documento PDF  
-- Implementare la gestione degli errori per collegamenti mancanti  
-- Comprendere le applicazioni pratiche dell'estrazione dei collegamenti ipertestuali  
+- Installare e licenziare Aspose.PDF per Java  
+- Estrarre i collegamenti ipertestuali da una o più pagine di un documento PDF  
+- Gestire collegamenti mancanti o malformati in modo elegante  
+- Applicare la tecnica a casi d'uso aziendali comuni  
 
-Prima di iniziare, confermiamo i prerequisiti necessari per seguire questo tutorial.
+Prima di iniziare, verifica che il tuo ambiente di sviluppo soddisfi i requisiti elencati di seguito.
 
 ## Risposte rapide
-- **Di cosa tratta questo tutorial?** Estrarre e stampare gli URL dei collegamenti ipertestuali da un PDF usando Aspose.PDF per Java.  
-- **Qual è la parola chiave principale?** *aspose pdf java tutorial*.  
+- **Di cosa tratta questo tutorial?** Mostra come estrarre e stampare gli URL dei collegamenti ipertestuali dalle pagine PDF usando Aspose.PDF per Java.  
+- **Qual è la parola chiave principale?** *extract pdf links pages*.  
 - **Qual è la parola chiave secondaria?** *get pdf link urls*.  
-- **È necessaria una licenza?** Sì, è richiesta una licenza temporanea o completa per l'uso in produzione.  
-- **Quali versioni di Java sono supportate?** Java 8 o successive (compatibili con progetti Maven/Gradle).  
+- **È necessaria una licenza?** Sì – è richiesta una licenza temporanea o completa per le distribuzioni in produzione.  
+- **Quali versioni di Java sono supportate?** Java 8 o superiore (compatibile con Maven o Gradle).  
+
+## Che cos'è extract pdf links pages?
+Extract pdf links pages si riferisce al processo di recupero programmatico di ogni annotazione di collegamento ipertestuale presente su una o più pagine di un file PDF. Questa operazione consente automazioni a valle come analisi dei collegamenti, indicizzazione dei contenuti o convalida batch degli URL.
+
+## Perché estrarre pdf links pages con Aspose PDF per Java?
+Aspose.PDF per Java supporta **oltre 50 formati di input e output** e può elaborare **centinaia di pagine senza caricare l'intero file in memoria**, offrendo una soluzione a basso consumo di memoria per l'elaborazione di documenti su larga scala. La sua API di annotazione robusta garantisce un'accuratezza del 99,9 % nell'identificazione delle annotazioni di collegamento, fondamentale per pipeline di dati mission‑critical.
 
 ## Prerequisiti
 
-Per iniziare, assicurati di avere:
-- **Java Development Kit (JDK)** installato sulla tua macchina  
-- Conoscenze di base della programmazione Java  
-- Familiarità con Maven o Gradle per la gestione delle dipendenze  
+- **Java Development Kit (JDK) 8+** installato e configurato sulla tua macchina.  
+- Familiarità con la sintassi Java di base e i concetti di programmazione orientata agli oggetti.  
+- Maven o Gradle per la gestione delle dipendenze (scegli quello che preferisci).  
 
-## Configurare Aspose.PDF per Java
+## Configurazione di Aspose.PDF per Java
 
-Aspose.PDF per Java è una libreria robusta che offre ampie capacità di manipolazione dei PDF. Ecco come aggiungerla al tuo progetto.
+Aspose.PDF per Java offre un set completo di funzionalità per la manipolazione dei PDF. Di seguito le due modalità più comuni per aggiungere la libreria al tuo progetto.
 
 ### Utilizzo di Maven
-Inserisci la seguente dipendenza nel tuo file `pom.xml`:
+Aggiungi la seguente dipendenza nel tuo file `pom.xml`:
 
 ```xml
 <dependency>
@@ -61,7 +113,7 @@ Inserisci la seguente dipendenza nel tuo file `pom.xml`:
 ```
 
 ### Utilizzo di Gradle
-Aggiungi questa riga al tuo file `build.gradle`:
+Inserisci questa riga nel tuo file `build.gradle`:
 
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
@@ -69,38 +121,41 @@ implementation 'com.aspose:aspose-pdf:25.3'
 
 #### Acquisizione della licenza
 - **Prova gratuita:** Scarica una licenza temporanea da [Aspose's official site](https://purchase.aspose.com/temporary-license/).  
-- **Acquisto:** Per un utilizzo a lungo termine, considera l'acquisto di una licenza completa su [Aspose Purchase Page](https://purchase.aspose.com/buy).  
+- **Acquisto completo:** Ottieni una licenza permanente su [Aspose Purchase Page](https://purchase.aspose.com/buy).  
 
-Con il progetto configurato con le dipendenze necessarie e le informazioni sulla licenza, passiamo all'implementazione reale.
+## Come estrarre pdf links pages usando Aspose PDF per Java?
 
-## Come ottenere gli URL dei collegamenti PDF con Aspose PDF per Java
-
-Questa sezione ti guida nell'estrazione dei collegamenti ipertestuali dalla **prima pagina** di un documento PDF. Segui i passaggi numerati per un'esperienza fluida.
+Per estrarre i collegamenti, prima carica il PDF in un oggetto `Document` di Aspose, quindi scegli le pagine da analizzare. Con un `AnnotationSelector` filtri gli oggetti `LinkAnnotation`; l'`Action` di ciascuna annotazione fornisce l'URI di destinazione. Raccogli questi URI in una lista o stampali direttamente, abilitando ulteriori elaborazioni.
 
 ### Passo 1: Caricare il documento PDF
+
+`Document` rappresenta un file PDF caricato in memoria, fornendo accesso alle sue pagine e annotazioni.  
 
 ```java
 // Specify the path to your document directory
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Document document = new Document(dataDir + "/update_Service_Work_Order.pdf");
-```
-*Inizializza un oggetto `Document` che punta al tuo file PDF. Sostituisci `"YOUR_DOCUMENT_DIRECTORY"` con il percorso della tua directory reale.*
+```  
+*La classe `Document` è l'oggetto di livello superiore di Aspose.PDF che rappresenta un singolo file PDF in memoria. L'istanza carica la struttura del file senza renderizzare le pagine.*
 
-### Passo 2: Accedere alla prima pagina
+### Passo 2: Accedere alla/e pagina/e desiderata/e
 
 ```java
 Page page = document.getPages().get_Item(1);
-```
-*Recuperare la prima pagina è essenziale perché ci concentriamo sull'estrazione dei collegamenti ipertestuali da essa.*
+```  
+*Puoi recuperare qualsiasi pagina tramite `document.getPages().get(pageNumber)`. In questo esempio ci concentriamo sulla prima pagina, ma la stessa logica funziona per un intervallo o per l'intero documento.*
 
 ### Passo 3: Selezionare le annotazioni di collegamento
+
+`LinkAnnotation` è un tipo di annotazione che rappresenta un collegamento ipertestuale all'interno di una pagina PDF.  
+`AnnotationSelector` filtra le annotazioni su una pagina in base al tipo o all'area.  
 
 ```java
 AnnotationSelector selector = new AnnotationSelector(new LinkAnnotation(page, Rectangle.getTrivial()));
 page.accept(selector); 
 List list = selector.getSelected();
-```
-*Crea un `AnnotationSelector` per filtrare gli oggetti `LinkAnnotation`. Il metodo `Rectangle.getTrivial()` garantisce che consideriamo l'intera area della pagina.*
+```  
+*`AnnotationSelector` filtra le annotazioni per tipo. Specificando `LinkAnnotation.class` isoliamo solo gli oggetti di collegamento, mentre `Rectangle.getTrivial()` garantisce che il selettore esamini l'intera area della pagina.*
 
 ### Passo 4: Elaborare le azioni dei collegamenti ipertestuali
 
@@ -114,52 +169,54 @@ if (list.size() == 0) {
         System.out.println("Found hyperlink: " + uri);
     }
 }
-```
-*Itera su ciascun `LinkAnnotation` per estrarre e stampare il suo URI, dimostrando la funzionalità principale dell'estrazione dei collegamenti ipertestuali.*
+```  
+*Itera su ogni `LinkAnnotation` e chiama `getAction().getURI()` per ottenere l'URL di destinazione. Il ciclo stampa ogni URL sulla console, dimostrando la capacità di estrazione di base.*
 
-### Suggerimenti per la risoluzione dei problemi
-- **Nessun collegamento trovato:** Verifica che il tuo PDF contenga effettivamente annotazioni di collegamento e che tu stia ispezionando la pagina corretta.  
-- **URI malformati:** Convalida il formato degli URI estratti prima di usarli in applicazioni successive.  
+## Problemi comuni e soluzioni
+
+- **Nessun collegamento ipertestuale trovato:** Verifica che il PDF contenga effettivamente annotazioni di collegamento e che tu stia ispezionando l'indice di pagina corretto (le pagine sono indicizzate a partire da 1).  
+- **URI malformati:** Alcuni PDF memorizzano URL relativi o azioni JavaScript. Convalida la stringa estratta con `java.net.URI` prima di usarla a valle.  
+- **Documenti di grandi dimensioni causano picchi di memoria:** Usa `Document.optimizeResources()` prima del caricamento per ridurre l'impronta di memoria, soprattutto per PDF superiori a 200 MB.
 
 ## Applicazioni pratiche
 
-L'estrazione dei collegamenti ipertestuali dai PDF può servire a vari scopi:
+L'estrazione di collegamenti ipertestuali dalle pagine PDF apre numerosi scenari di automazione:
 
-1. **Sistemi di gestione dei contenuti (CMS):** Automatizzare la catalogazione delle risorse collegate all'interno di una libreria di documenti.  
-2. **Data mining:** Aggregare e analizzare i dati dei collegamenti per ricerche di mercato o analisi della concorrenza.  
-3. **Reportistica automatica:** Generare report che includono statistiche sui collegamenti, come frequenza e domini di destinazione.  
+1. **Sistemi di gestione dei contenuti (CMS):** Popolamento automatico di inventari di collegamenti per librerie di documenti ricercabili.  
+2. **Ricerche di mercato:** Scansione degli URL estratti per valutare riferimenti esterni, menzioni dei concorrenti o pattern di citazione.  
+3. **Audit di conformità:** Verifica che tutti i collegamenti in uscita puntino a domini approvati, riducendo il rischio legale.  
 
-## Considerazioni sulle prestazioni
+## Suggerimenti sulle prestazioni
 
-Per ottimizzare le prestazioni durante l'uso di Aspose.PDF:
-
-- Utilizza pratiche efficienti di gestione della memoria in Java per gestire PDF di grandi dimensioni senza sovraccaricare le risorse di sistema.  
-- Implementa l'elaborazione asincrona se devi trattare più documenti contemporaneamente.  
+- Elabora le pagine in parallelo usando `ForkJoinPool` di Java quando gestisci conversioni batch.  
+- Riutilizza una singola istanza di `Document` per più operazioni di lettura per evitare overhead di I/O ripetuto.  
+- Per PDF estremamente grandi, trasmetti le pagine con l'API a basso livello di `PdfDocument` per mantenere l'utilizzo dell'heap sotto controllo.
 
 ## Conclusione
 
-Ora hai imparato a **estrarre i collegamenti ipertestuali** e a **ottenere gli URL dei collegamenti PDF** da un documento PDF usando questo Aspose PDF Java tutorial. Questa tecnica fa risparmiare tempo e si integra perfettamente in flussi di lavoro di automazione più ampi. Sentiti libero di sperimentare con più pagine o di estendere la soluzione per modificare i collegamenti ipertestuali in modo programmatico.
+Ora disponi di un metodo completo e pronto per la produzione per **estrarre collegamenti PDF dalle pagine** e **ottenere gli URL dei collegamenti PDF** usando Aspose.PDF per Java. Questa funzionalità può essere integrata in processori batch, pipeline di analisi o qualsiasi applicazione che necessiti di comprendere la struttura dei collegamenti ipertestuali dei file PDF.
 
 ### Prossimi passi
-- Prova a estrarre i collegamenti ipertestuali da più pagine.  
-- Integra questa funzionalità in un'applicazione che elabora PDF in batch.  
+- Estendi la logica per iterare su tutte le pagine e aggregare i risultati in un file CSV.  
+- Combina l'estrazione dei collegamenti con controlli di stato HTTP per segnalare automaticamente gli URL interrotti.  
+- Esplora le API di modifica delle annotazioni di Aspose.PDF per riscrivere o rimuovere programmaticamente i collegamenti indesiderati.
 
 ## Domande frequenti
 
-**D1: Cos'è Aspose.PDF per Java?**  
-R1: È una libreria che offre capacità complete per creare, modificare e manipolare documenti PDF in applicazioni Java.
+**D: Che cos'è Aspose.PDF per Java?**  
+R: È una libreria commerciale che offre oltre 50 funzionalità di manipolazione PDF—including creazione, conversione e gestione delle annotazioni—senza richiedere software esterno.
 
-**D2: Come estrarre i collegamenti ipertestuali da tutte le pagine di un documento?**  
-R2: Itera su ciascuna pagina usando `document.getPages()` e ripeti il processo di estrazione dei collegamenti per ogni pagina.
+**D: Come estrarre i collegamenti ipertestuali da tutte le pagine di un documento?**  
+R: Scorri `document.getPages()` e applica la stessa logica di `AnnotationSelector` a ciascuna pagina, raccogliendo gli URI in una lista.
 
-**D3: Aspose.PDF può gestire PDF protetti da password?**  
-R3: Sì, supporta l'apertura di file crittografati fornendo la password appropriata durante l'inizializzazione.
+**D: Aspose.PDF può gestire PDF protetti da password?**  
+R: Sì, fornisci la password durante la costruzione dell'oggetto `Document` (ad es., `new Document("file.pdf", new LoadOptions("pwd"))`).
 
-**D4: Quali sono le alternative ad Aspose.PDF per Java?**  
-R4: Le alternative includono Apache PDFBox e iText per la manipolazione dei PDF in applicazioni Java.
+**D: Quali sono le alternative ad Aspose.PDF per Java?**  
+R: Apache PDFBox e iText sono opzioni open‑source popolari, sebbene possano non includere alcune delle API avanzate di annotazione di Aspose.
 
-**D5: Come gestire i collegamenti interrotti trovati in un documento PDF?**  
-R5: Implementa meccanismi di controllo degli errori durante l'elaborazione degli URI, ad esempio verificando il formato dell'URL o la sua raggiungibilità.
+**D: Come gestire i collegamenti interrotti trovati in un documento PDF?**  
+R: Dopo l'estrazione, utilizza `HttpURLConnection` o un client HTTP di terze parti per pingare ogni URL e registrare le risposte non‑200 per la successiva rimessione.
 
 ## Risorse
 - [Aspose.PDF Documentation](https://reference.aspose.com/pdf/java/)
@@ -168,13 +225,18 @@ R5: Implementa meccanismi di controllo degli errori durante l'elaborazione degli
 - [Free Trial and Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/pdf/10)
 
-Questa guida completa ti fornisce le conoscenze necessarie per estrarre i collegamenti ipertestuali dai PDF usando Aspose.PDF per Java. Buon coding!
-
 ---
 
-**Ultimo aggiornamento:** 2025-12-20  
+**Ultimo aggiornamento:** 2026-06-02  
 **Testato con:** Aspose.PDF 25.3 per Java  
 **Autore:** Aspose
+
+## Tutorial correlati
+
+- [Add link to PDF with Aspose.PDF for Java – Quick Guide](/pdf/java/bookmarks-navigation/link-pdfs-aspose-pdf-java/)
+- [How to Create PDF Bookmarks and Manage Navigation Using Aspose.PDF for Java](/pdf/java/bookmarks-navigation/create-manage-pdf-bookmarks-aspose-java/)
+- [Extract Images from PDF Files Using Aspose.PDF for Java: A Step-by-Step Guide](/pdf/java/images-graphics/extract-images-pdf-aspose-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

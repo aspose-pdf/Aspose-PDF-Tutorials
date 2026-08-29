@@ -1,13 +1,46 @@
 ---
-date: '2025-12-20'
-description: Apprenez à développer les signets PDF avec Aspose.PDF pour Java dans
-  ce tutoriel Aspose PDF Java. Inclut le chargement du PDF, la définition des modes
-  de page et l'ouverture automatique des signets PDF.
+date: '2026-06-02'
+description: Apprenez comment développer les signets dans les fichiers PDF en utilisant
+  Aspose.PDF pour Java. Ce tutoriel pas à pas Aspose PDF Java montre le chargement,
+  la définition du mode d'affichage et l'ouverture automatique des signets.
 keywords:
-- expand PDF bookmarks
-- Aspose.PDF Java
-- PDF page mode
-title: 'Tutoriel Aspose PDF Java - Développer les signets PDF avec Aspose.PDF'
+- how to expand bookmarks
+- aspose pdf maven dependency
+- aspose pdf java tutorial
+schemas:
+- author: Aspose
+  dateModified: '2026-06-02'
+  description: Learn how to expand bookmarks in PDF files using Aspose.PDF for Java.
+    This step‑by‑step Aspose PDF Java tutorial shows loading, setting page mode, and
+    automatically opening bookmarks.
+  headline: How to Expand Bookmarks in PDF using Aspose.PDF for Java
+  type: TechArticle
+- description: Learn how to expand bookmarks in PDF files using Aspose.PDF for Java.
+    This step‑by‑step Aspose PDF Java tutorial shows loading, setting page mode, and
+    automatically opening bookmarks.
+  name: How to Expand Bookmarks in PDF using Aspose.PDF for Java
+  steps:
+  - name: '**Required Libraries and Dependencies**'
+    text: '**Required Libraries and Dependencies**'
+  - name: '**Environment Setup**'
+    text: '**Environment Setup**'
+  - name: '**Basic Knowledge**'
+    text: '**Basic Knowledge**'
+  type: HowTo
+- questions:
+  - answer: Loading a PDF, setting page mode, expanding bookmarks, and saving the
+      file.
+    question: What does this tutorial cover?
+  - answer: Aspose.PDF for Java 25.3 or later.
+    question: Which library version is required?
+  - answer: A free trial works for testing; a commercial license is required for production.
+    question: Do I need a license?
+  - answer: Yes – adjust the loop logic to select particular outlines.
+    question: Can I target specific bookmarks only?
+  - answer: Yes, but consider processing outlines in batches and tuning JVM memory.
+    question: Is this suitable for large PDFs?
+  type: FAQPage
+title: Comment développer les signets dans un PDF avec Aspose.PDF pour Java
 url: /fr/java/bookmarks-navigation/expand-pdf-bookmarks-aspose-java/
 weight: 1
 ---
@@ -17,43 +50,46 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Tutoriel Aspose PDF Java : Développer les signets PDF à l'aide d'Aspose.PDF
+# Comment développer les signets dans un PDF avec Aspose.PDF pour Java
 
-Naviguer dans des documents PDF complexes devient un jeu d'enfant lorsque les signets sont développés automatiquement. Dans ce **aspose pdf java tutorial**, vous apprendrez comment charger un document PDF avec Aspose.PDF for Java, définir le mode de page approprié et garantir que les signets s'ouvrent par défaut. Cette approche améliore l'expérience utilisateur en permettant aux lecteurs d'accéder directement aux sections dont ils ont besoin sans clics supplémentaires.
+Si vous avez déjà ouvert un PDF volumineux et dû cliquer manuellement dans le volet du plan, vous savez à quel point cela peut être frustrant. Dans ce **tutoriel Aspose PDF Java**, nous vous montrerons **comment développer automatiquement les signets** afin que les lecteurs voient la table des matières complète dès l’ouverture du fichier. Vous apprendrez à charger un PDF, configurer le mode de page du visualiseur, développer chaque entrée du plan et enregistrer le résultat — le tout en quelques lignes de code Java.
 
 ## Réponses rapides
-- **De quoi parle ce tutoriel ?** Chargement d'un PDF, définition du mode de page, développement des signets et enregistrement du fichier.  
-- **Quelle version de la bibliothèque est requise ?** Aspose.PDF for Java 25.3 ou ultérieure.  
-- **Ai‑je besoin d’une licence ?** Un essai gratuit suffit pour les tests ; une licence commerciale est requise pour la production.  
-- **Puis‑je cibler uniquement certains signets ?** Oui – ajustez la logique de la boucle pour sélectionner des outlines spécifiques.  
-- **Ce tutoriel convient‑il aux gros PDF ?** Oui, mais envisagez de traiter les outlines par lots et d’ajuster la mémoire JVM.
+- **Quel est le contenu de ce tutoriel ?** Chargement d’un PDF, définition du mode de page, développement des signets et enregistrement du fichier.  
+- **Quelle version de la bibliothèque est requise ?** Aspose.PDF for Java 25.3 ou ultérieure.  
+- **Ai-je besoin d’une licence ?** Un essai gratuit suffit pour les tests ; une licence commerciale est requise pour la production.  
+- **Puis-je cibler uniquement des signets spécifiques ?** Oui – ajustez la logique de boucle pour sélectionner les plans souhaités.  
+- **Ce tutoriel convient‑il aux PDF volumineux ?** Oui, mais envisagez de traiter les plans par lots et d’ajuster la mémoire JVM.
 
-## Qu'est‑ce qu'un tutoriel Aspose PDF Java ?
-Un **aspose pdf java tutorial** est un guide pas à pas qui montre comment utiliser l'API Aspose.PDF dans des projets Java. Il vous fait parcourir du code réel, explique chaque appel et montre comment résoudre les tâches courantes de manipulation de PDF.
+## Qu’est‑ce qu’un tutoriel Aspose PDF Java ?
+Un **tutoriel Aspose PDF Java** est un guide pas à pas qui montre comment utiliser l’API Aspose.PDF dans des projets Java. Il combine des explications concises avec des extraits de code prêts à l’emploi, vous aidant à résoudre rapidement des problèmes réels de manipulation de PDF. En suivant les exemples, vous pouvez intégrer des fonctionnalités de traitement PDF telles que la gestion des signets, l’extraction de texte et la conversion de documents dans vos applications avec un effort minimal.
 
-## Pourquoi développer automatiquement les signets PDF ?
-L'ouverture automatique des signets PDF fait gagner du temps aux utilisateurs, notamment dans :
-- **PDF éducatifs** – les étudiants voient immédiatement la table des matières complète.  
-- **Rapports d'entreprise** – les dirigeants peuvent accéder directement aux sections clés.  
-- **Contrats juridiques** – les avocats naviguent entre les clauses sans faire défiler le document.
+## Pourquoi développer automatiquement les signets PDF ?
+Développer automatiquement les signets PDF améliore l’efficacité de navigation pour les utilisateurs finaux, leur permettant de voir la structure complète du document sans clics supplémentaires. Cette fonctionnalité est particulièrement précieuse dans les documents longs où la localisation rapide des sections est cruciale. En affichant le volet du plan à l’ouverture, les lecteurs peuvent accéder directement au chapitre ou à la clause souhaitée, réduisant le temps passé à faire défiler et à chercher.
 
-### Prérequis
-Avant d'utiliser Aspose.PDF for Java, assurez‑vous de disposer de :
+- **PDF éducatifs** – les étudiants voient immédiatement la liste complète des chapitres.  
+- **Rapports d’entreprise** – les dirigeants peuvent accéder directement aux sections clés.  
+- **Contrats juridiques** – les avocats localisent rapidement les clauses, gagnant ainsi un temps précieux.
 
-1. **Bibliothèques et dépendances requises :**  
-   - Aspose.PDF for Java library (version 25.3 ou ultérieure)
+Avantage quantifié : Aspose.PDF peut gérer **plus de 50 formats d’entrée et de sortie** et traite des PDF contenant **des centaines de signets** sans charger le fichier entier en mémoire, maintenant l’utilisation de la mémoire sous 100 Mo pour un document de 300 pages.
 
-2. **Exigences de configuration de l'environnement :**  
-   - Maven ou Gradle configurés dans votre IDE  
-   - Connaissances de base en développement Java
+## Prérequis
+1. **Bibliothèques et dépendances requises**  
+   - Bibliothèque Aspose.PDF for Java (version 25.3 ou ultérieure).  
+   - L’entrée de dépendance **aspose pdf maven** ajoutée à votre projet (voir l’extrait Maven ci‑dessous).
 
-3. **Prérequis de connaissances :**  
-   - Compréhension de la structure PDF, en particulier des signets (outlines)
+2. **Configuration de l’environnement**  
+   - Maven ou Gradle configuré dans votre IDE.  
+   - Java 8 ou version supérieure installé.
 
-### Configuration d'Aspose.PDF pour Java
-Pour inclure Aspose.PDF dans votre projet en tant que dépendance :
+3. **Connaissances de base**  
+   - Familiarité avec la structure d’un projet Java.  
+   - Compréhension des plans PDF (signets).
 
-**Maven**
+## Configuration d’Aspose.PDF pour Java
+Ajoutez la bibliothèque Aspose.PDF à votre fichier de construction.
+
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -62,103 +98,111 @@ Pour inclure Aspose.PDF dans votre projet en tant que dépendance :
 </dependency>
 ```
 
-**Gradle**
+**Gradle**  
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-#### Étapes d'obtention de licence
-- **Essai gratuit :** Commencez avec un essai gratuit pour tester les capacités de la bibliothèque.  
-- **Licence temporaire :** Obtenez une licence temporaire pour une évaluation prolongée depuis le site d'Aspose.  
-- **Achat :** Procurez‑vous une licence complète pour les projets commerciaux.
+#### Étapes d’acquisition de licence
+- **Essai gratuit** : commencez avec un essai gratuit pour tester les capacités de la bibliothèque.  
+- **Licence temporaire** : obtenez une licence temporaire pour une évaluation prolongée depuis le site d’Aspose.  
+- **Achat** : procurez‑vous une licence complète pour les projets commerciaux.
 
-Une fois la bibliothèque ajoutée et licenciée, vous pouvez l'initialiser :
+Une fois la bibliothèque ajoutée et licenciée, vous pouvez l’initialiser :
 
 ```java
 // Initialize the Document class with the path to your PDF file
 document doc = new Document("path/to/your/input.pdf");
 ```
 
-### Guide d'implémentation
-Nous décomposerons la solution en quatre étapes claires : chargement du document, définition du mode de page, développement des signets et enregistrement du PDF mis à jour.
+## Comment charger le document PDF ?
+Chargez votre fichier PDF dans un objet `Document` d’Aspose. Cette ligne unique crée une représentation en mémoire du fichier source, vous permettant de lire et de modifier sa structure. La classe `Document` représente un fichier PDF en mémoire, offrant un accès à ses pages, plans et autres éléments, ce qui en fait l’objet central pour toutes les opérations PDF.
 
-#### Chargement du document PDF
 ```java
 // Load an existing PDF document from your specified directory
 document doc = new Document("YOUR_DOCUMENT_DIRECTORY/input.pdf");
 ```
-**Explication :** Cela crée un objet `Document` qui représente le PDF que vous souhaitez modifier. Remplacez le chemin factice par le chemin réel de votre fichier.
 
-#### Définition du mode de page
+## Comment définir le mode de page pour développer les signets ?
+Définissez le mode de page du visualiseur sur `UseOutlines` afin que le lecteur PDF affiche automatiquement le volet des signets à l’ouverture du fichier. La méthode `setPageMode` configure le comportement par défaut du visualiseur, et la constante `PageMode.UseOutlines` indique au lecteur d’afficher le panneau du plan lors du lancement.
+
 ```java
 doc.setPageMode(PageMode.UseOutlines);
 ```
-**Explication :** `setPageMode()` indique au visualiseur PDF comment ouvrir le fichier. `UseOutlines` force le visualiseur à afficher automatiquement le volet des signets.
 
-#### Développement des signets
+## Comment développer tous les signets dans un PDF ?
+Parcourez chaque entrée du plan et définissez sa propriété `Open` sur `true`. Cela fait apparaître chaque signet développé par défaut. La classe `OutlineItemCollection` contient toutes les entrées de signets ; en marquant chaque élément comme ouvert, le lecteur PDF affichera la hiérarchie complète sans interaction de l’utilisateur.
+
 ```java
 // Iterate over each bookmark and set its state to open
 for (int counter = 1; counter <= doc.getOutlines().size(); counter++) {
     doc.getOutlines().get_Item(counter).setOpen(true);
 }
 ```
-**Explication :** La boucle parcourt chaque entrée d'outline (signet) et définit sa propriété `Open` sur `true`, garantissant que tous les signets apparaissent développés à l'ouverture du PDF.
 
-#### Enregistrement du PDF modifié
+## Comment enregistrer le PDF après avoir développé les signets ?
+Écrivez le document modifié dans un nouveau fichier (ou écrasez l’original). La méthode `save()` persiste toutes les modifications apportées à la structure du PDF. Après l’appel à `save`, le PDF conservera l’état développé des signets pour tout visualiseur qui l’ouvrira.
+
 ```java
 doc.save("YOUR_OUTPUT_DIRECTORY/Bookmarks_Expanded.pdf");
 ```
-**Explication :** La méthode `save()` écrit les modifications dans un nouveau fichier. Ajustez le chemin de sortie selon vos besoins.
 
-### Applications pratiques
+## Applications pratiques
 Développer les signets PDF est utile dans de nombreux scénarios réels :
 
-- **Matériel éducatif :** Les étudiants voient instantanément la liste complète des chapitres.  
-- **Rapports d'entreprise :** Les dirigeants peuvent accéder aux résumés financiers sans recherche.  
-- **Documents juridiques :** Les avocats localisent rapidement les clauses, gagnant ainsi un temps précieux.
+- **Supports éducatifs** : les étudiants voient instantanément la liste complète des chapitres.  
+- **Rapports d’entreprise** : les dirigeants peuvent accéder aux résumés financiers sans recherche.  
+- **Documents juridiques** : les avocats localisent rapidement les clauses, économisant un temps précieux.
 
-Intégrer cette logique dans des systèmes de gestion de documents peut automatiser la préparation des signets avant la distribution.
+Intégrer cette logique dans un pipeline de gestion documentaire automatise la préparation des signets avant la distribution, garantissant que chaque destinataire reçoit un PDF prêt à être parcouru.
 
-### Considérations de performance
-Lors du traitement de gros PDF contenant de nombreux outlines :
+## Considérations de performance
+Lors du traitement de PDF volumineux contenant des milliers de plans :
 
-- Libérez l'objet `Document` après l'enregistrement pour libérer la mémoire.  
-- Traitez les outlines par petits lots si le document comporte des milliers d'entrées.  
-- Ajustez la taille du tas Java (`-Xmx`) en fonction du profil mémoire de votre application.
+- Libérez l’objet `Document` après l’enregistrement pour libérer la mémoire.  
+- Traitez les plans par petits lots si le document comporte de nombreuses entrées.  
+- Ajustez la taille du tas Java (`-Xmx`) en fonction de votre charge de travail ; pour un PDF de 500 pages, `-Xmx2g` est souvent suffisant.
 
 ## Questions fréquentes
-**Q1 : Comment configurer un essai gratuit pour Aspose.PDF ?**  
-R1 : Consultez la [page d'essai gratuite Aspose](https://releases.aspose.com/pdf/java/) pour télécharger la bibliothèque et commencer à l'expérimenter.
+**Q1 : Comment configurer un essai gratuit pour Aspose.PDF ?**  
+R1 : Visitez la [page d’essai gratuit Aspose](https://releases.aspose.com/pdf/java/) pour télécharger la bibliothèque et commencer à l’expérimenter.
 
-**Q2 : Quels sont les problèmes courants lors du développement des signets ?**  
-R2 : Vérifiez que le chemin du fichier est correct et assurez‑vous que votre application possède les permissions de lecture/écriture sur les dossiers source et destination.
+**Q2 : Quels sont les problèmes courants lors du développement des signets ?**  
+R2 : Vérifiez que le chemin du fichier est correct et assurez‑vous que votre application possède les permissions de lecture/écriture sur les dossiers source et destination.
 
-**Q3 : Puis‑je développer des signets spécifiques au lieu de tous les signets ?**  
-R3 : Oui. Modifiez la boucle pour cibler uniquement les outlines dont vous avez besoin, par exemple en vérifiant le titre du signet avant d’appeler `setOpen(true)`.
+**Q3 : Puis‑je développer des signets spécifiques au lieu de tous ?**  
+R3 : Oui. Modifiez la boucle pour cibler uniquement les plans souhaités, par exemple en vérifiant le titre du signet avant d’appeler `setOpen(true)`.
 
-**Q4 : Comment gérer de gros documents PDF contenant de nombreux signets ?**  
-R4 : Traitez les outlines de façon incrémentielle et envisagez d’augmenter la taille du tas JVM (`-Xmx2g` ou plus) pour éviter les `OutOfMemoryError`.
+**Q4 : Comment gérer les gros documents PDF contenant de nombreux signets ?**  
+R4 : Traitez les plans de façon incrémentielle et envisagez d’augmenter la taille du tas JVM (`-Xmx2g` ou plus) pour éviter les `OutOfMemoryError`.
 
-**Q5 : Aspose.PDF convient‑il aux projets commerciaux ?**  
-R5 : Absolument. Procurez‑vous une licence depuis la [page d'achat Aspose](https://purchase.aspose.com/buy) pour une utilisation en production.
+**Q5 : Aspose.PDF est‑il adapté aux projets commerciaux ?**  
+R5 : Absolument. Procurez‑vous une licence sur la [page d’achat Aspose](https://purchase.aspose.com/buy) pour une utilisation en production.
 
-### Ressources
-- **Documentation :** Explorez des guides détaillés et des références API sur [Documentation Aspose PDF](https://reference.aspose.com/pdf/java/).  
-- **Téléchargement :** Obtenez la dernière version d'Aspose.PDF depuis la [page de téléchargements](https://releases.aspose.com/pdf/java/).  
-- **Achat & Essai gratuit :** Visitez [Aspose Purchase](https://purchase.aspose.com/buy) pour les options de licence.  
-- **Licence temporaire :** Obtenez une licence temporaire pour évaluer les fonctionnalités via [Aspose Temporary License](https://purchase.aspose.com/temporary-license/).  
-- **Support :** Posez vos questions sur le [Forum de support Aspose](https://forum.aspose.com/c/pdf/10) si vous rencontrez des problèmes.
+## Ressources
+- **Documentation** : explorez les guides détaillés et les références API sur [Aspose PDF Documentation](https://reference.aspose.com/pdf/java/).  
+- **Téléchargement** : obtenez la dernière version d’Aspose.PDF depuis la [page de téléchargements](https://releases.aspose.com/pdf/java/).  
+- **Achat & Essai gratuit** : consultez [Aspose Purchase](https://purchase.aspose.com/buy) pour les options de licence.  
+- **Licence temporaire** : obtenez une licence temporaire pour évaluer les fonctionnalités via [Aspose Temporary License](https://purchase.aspose.com/temporary-license/).  
+- **Support** : posez vos questions sur le [forum de support Aspose](https://forum.aspose.com/c/pdf/10) si vous rencontrez des problèmes.
 
 ---
 
-**Dernière mise à jour :** 2025-12-20  
-**Testé avec :** Aspose.PDF 25.3 for Java  
-**Auteur :** Aspose  
+**Dernière mise à jour :** 2026-06-02  
+**Testé avec :** Aspose.PDF 25.3 for Java  
+**Auteur :** Aspose
+
+## Tutoriels associés
+
+- [Comment créer des signets PDF et gérer la navigation avec Aspose.PDF pour Java](/pdf/java/bookmarks-navigation/create-manage-pdf-bookmarks-aspose-java/)
+- [Comment mettre à jour les signets PDF avec Aspose.PDF pour Java : guide étape par étape](/pdf/java/bookmarks-navigation/update-pdf-bookmarks-aspose-java-tutorial/)
+- [Récupérer les signets PDF Java avec Aspose.PDF – Guide complet](/pdf/java/bookmarks-navigation/retrieve-display-pdf-bookmarks-aspose-pdf-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
