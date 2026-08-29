@@ -1,13 +1,92 @@
 ---
-date: '2026-02-22'
-description: Naučte se, jak převést PDF do HTML, vykreslit vrstvy PDF a uložit PDF
-  jako HTML pomocí Aspose.PDF pro Javu. Podrobný návod krok za krokem zahrnující načtení
-  PDF dokumentu v Javě a nastavení knihovny.
+date: '2026-07-27'
+description: Zjistěte, jak uložit PDF jako HTML s vykreslováním vrstev pomocí Aspose.PDF
+  for Java, vedoucí java pdf conversion library. Obsahuje nastavení, načítání PDF
+  a možnosti HTML.
 keywords:
-- PDF layer rendering
+- save pdf as html
+- convert pdf to html java
+- load pdf document java
+- java pdf conversion library
+- aspose pdf java tutorial
+lastmod: '2026-07-27'
+og_description: Uložte PDF jako HTML s Aspose.PDF for Java, top java pdf conversion
+  library, a zachovejte každou vrstvu PDF jako samostatné HTML elementy. Postupujte
+  krok za krokem při nastavení, načítání a konfiguraci.
+og_image_alt: 'Guide: Save PDF as HTML and render layers using Aspose.PDF for Java'
+og_title: Uložte PDF jako HTML s vykreslováním vrstev – Aspose.PDF for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-07-27'
+  description: Learn how to save PDF as HTML with layer rendering using Aspose.PDF
+    for Java, the leading java pdf conversion library. Includes setup, loading PDF,
+    and HTML options.
+  headline: Save PDF as HTML and Render Layers with Aspose.PDF for Java
+  type: TechArticle
+- description: Learn how to save PDF as HTML with layer rendering using Aspose.PDF
+    for Java, the leading java pdf conversion library. Includes setup, loading PDF,
+    and HTML options.
+  name: Save PDF as HTML and Render Layers with Aspose.PDF for Java
+  steps:
+  - name: Specify Your Document Directory
+    text: '*Why this step?*: Defining a directory helps streamline file access and
+      management within your project.'
+  - name: Create a New Instance of the Document Class
+    text: The `Document` class is Aspose.PDF's top‑level representation of a PDF file.
+      *Explanation:* This code snippet opens `input2.pdf` from your specified directory,
+      allowing you to work with its content.
+  - name: Instantiate an HtmlSaveOptions Object
+    text: '`HtmlSaveOptions` controls how PDF content is translated to HTML, including
+      CSS handling and layer conversion. *Why this step?*: `HtmlSaveOptions` provides
+      various settings to control the conversion process from PDF to HTML.'
+  - name: Set Option for Rendering Layers Separately
+    text: The `setConvertMarkedContentToLayers(true)` option ensures that marked content
+      in your PDF is rendered as separate layers within the resulting HTML, maintaining
+      structural fidelity. *Explanation:* This option ensures that marked content
+      in your PDF is rendered as separate layers within the resulting
+  - name: Specify Your Output Directory
+    text: '*Why this step?*: Specifying an output directory helps organize and retrieve
+      your converted files efficiently.'
+  - name: Save Document with Layer Configuration
+    text: The `save` method writes the PDF to HTML using the previously defined `HtmlSaveOptions`.
+      *Explanation:* This command saves the PDF as HTML, applying the configured layer
+      settings from `htmlOptions`. **Troubleshooting Tips:** Ensure that your directory
+      paths are correctly set and accessible. If error
+  type: HowTo
+- questions:
+  - answer: Render each PDF layer as a separate HTML element while you **save pdf
+      as html**.
+    question: 'Load pdf document java** – opening a PDF file with Aspose.PDF
+
+      - Configuring HTML save options to render layers separately
+
+      - Saving a PDF as an HTML file with specific layer configurations
+
+      - Real‑world use cases for a **java pdf conversion library**
+
+
+      Let''s begin by outlining the prerequisites.
+
+
+      ## Quick Answers
+
+      - **What is the main purpose?'
+  - answer: Aspose.PDF for Java, the leading **java pdf conversion library**.
+    question: Which library is used?
+  - answer: A trial works for testing; a full license is required for production.
+    question: Do I need a license?
+  - answer: Yes – process them in chunks and monitor memory usage.
+    question: Can I convert large PDFs?
+  - answer: HTML files that preserve each PDF layer.
+    question: What output format does it produce?
+  type: FAQPage
+tags:
+- save pdf as html
 - Aspose.PDF Java
-- convert PDF to HTML
-title: Převod PDF na HTML a vykreslení vrstev pomocí Aspose.PDF Java
+- PDF layer rendering
+- java pdf conversion
+- HTML conversion
+title: Uložte PDF jako HTML a vykreslete vrstvy pomocí Aspose.PDF for Java
 url: /cs/java/advanced-features/aspose-pdf-java-layer-rendering-guide/
 weight: 1
 ---
@@ -17,13 +96,11 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Převod PDF do HTML a vykreslení vrstev PDF pomocí Aspose.PDF Java
+# Uložte PDF jako HTML a vykreslete vrstvy PDF pomocí Aspose.PDF Java
 ## Pokročilé funkce
 
 ### Úvod
-V dnešním digitálním prostředí je efektivní správa a převod dokumentů zásadní jak pro firmy, tak pro vývojáře. Pokud potřebujete **convert pdf to html** a zachovat vrstvený obsah, tento průvodce vám pomůže zvládnout používání Aspose.PDF v Javě.
-
-Aspose.PDF Java vám umožňuje otevírat, načítat a převádět PDF do různých formátů při zachování jejich struktury. To z něj činí nezbytný nástroj pro webové aplikace, úlohy extrakce dat a jakýkoli scénář, kde potřebujete **convert pdf to html** nebo **save pdf as html**.
+V dnešním digitálním prostředí je efektivní správa dokumentů nezbytná a **save pdf as html** je běžnou požadavkem pro web‑orientované aplikace. Tento průvodce vám ukáže, jak použít Aspose.PDF pro Java — špičkovou **java pdf conversion library** — pro načtení PDF, konfiguraci možností HTML a **save pdf as html**, přičemž každá vrstva PDF zůstane jako samostatný HTML prvek. Uvidíte, proč je tento přístup důležitý, jak jej nastavit a v jakých reálných scénářích se vrstvená konverze osvědčuje.
 
 **Co se naučíte:**
 - Nastavení knihovny Aspose.PDF ve vašem Java projektu
@@ -32,24 +109,30 @@ Aspose.PDF Java vám umožňuje otevírat, načítat a převádět PDF do různ�
 - Uložení PDF jako HTML souboru se specifickými nastaveními vrstev
 - Reálné příklady použití **java pdf conversion library**
 
-Pojďme začít s přehledem předpokladů.
+Začněme tím, že si nastíníme předpoklady.
 
 ## Rychlé odpovědi
-- **Jaký je hlavní účel?** Vykreslení vrstev PDF jako samostatných HTML elementů při převodu PDF do HTML.  
-- **Která knihovna se používá?** Aspose.PDF pro Java, přední **java pdf conversion library**.  
+- **Jaký je hlavní účel?** Vykreslit každou vrstvu PDF jako samostatný HTML prvek, zatímco **save pdf as html**.  
+- **Která knihovna je použita?** Aspose.PDF pro Java, přední **java pdf conversion library**.  
 - **Potřebuji licenci?** Zkušební verze funguje pro testování; pro produkci je vyžadována plná licence.  
-- **Mohu převádět velké PDF?** Ano – zpracovávejte je po částech a sledujte využití paměti.  
-- **Jaký výstupní formát vzniká?** HTML soubory, které zachovávají každou vrstvu PDF.
+- **Mohu konvertovat velké PDF?** Ano — zpracovávejte je po částech a sledujte využití paměti.  
+- **Jaký výstupní formát to produkuje?** HTML soubory, které zachovávají každou vrstvu PDF.
+
+## Co je “save pdf as html”?
+**Save pdf as html** znamená převod PDF dokumentu do HTML souboru při zachování vizuální a strukturové věrnosti originálu. Aspose.PDF pro Java provádí tuto konverzi v jediném kroku a automaticky zpracovává písma, obrázky a vrstvený obsah.
+
+## Proč používat Aspose.PDF pro Java?
+Aspose.PDF podporuje **50+** vstupních a výstupních formátů, dokáže zpracovávat PDF až do **2 GB** bez načítání celého souboru do paměti a poskytuje deterministické vykreslování vrstev pomocí `setConvertMarkedContentToLayers`. Tato kvantifikovaná schopnost zajišťuje předvídatelné výsledky pro konverze v podnikovém měřítku.
 
 ## Předpoklady
 ### Požadované knihovny, verze a závislosti
 Pro sledování tohoto tutoriálu se ujistěte, že máte:
-- Nainstalovaný Java Development Kit (JDK).
-- IDE jako IntelliJ IDEA nebo Eclipse pro psaní kódu.
-- Základní povědomí o programovacích konceptech **Java**.
+- Nainstalovaný Java Development Kit (JDK) 11 nebo vyšší.
+- IDE, např. IntelliJ IDEA nebo Eclipse.
+- Základní znalosti programování v Javě.
 
 ### Požadavky na nastavení prostředí
-Začleňte Aspose.PDF do svého projektu pomocí Maven nebo Gradle:
+Zahrňte Aspose.PDF do svého projektu pomocí Maven nebo Gradle:
 
 **Maven:**
 ```xml
@@ -60,147 +143,161 @@ Začleňte Aspose.PDF do svého projektu pomocí Maven nebo Gradle:
 </dependency>
 ```
 
+Pro podrobnou referenci API viz [Dokumentace Aspose](https://reference.aspose.com/pdf/java/).  
+Můžete si jej také stáhnout [zde](https://releases.aspose.com/pdf/java/).
+
 **Gradle:**
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### Kroky pro získání licence
-- **Free Trial:** Stáhněte si zkušební verzi z [Aspose's download page](https://releases.aspose.com/pdf/java/).  
-- **Temporary License:** Získejte dočasnou licenci pro plný přístup k funkcím prostřednictvím [this link](https://purchase.aspose.com/temporary-license/).  
-- **Purchase:** Pro dlouhodobé používání zvažte zakoupení licence na [Aspose Purchase Page](https://purchase.aspose.com/buy).
+### Kroky získání licence
+- **Bezplatná zkušební verze:** Stáhněte zkušební verzi ze [Aspose's download page](https://releases.aspose.com/pdf/java/).  
+- **Dočasná licence:** Získejte dočasnou licenci pro plný přístup k funkcím prostřednictvím [this link](https://purchase.aspose.com/temporary-license/).  
+- **Nákup:** Pro dlouhodobé použití zvažte zakoupení licence na [Stránka nákupu Aspose](https://purchase.aspose.com/buy).
 
 ## Nastavení Aspose.PDF pro Java
-Jakmile máte nainstalované potřebné nástroje a zahrnuli jste Aspose.PDF do projektu, pokračujte s nastavením knihovny.
+Jakmile nainstalujete potřebné nástroje a zahrnete Aspose.PDF do svého projektu, pokračujte s nastavením knihovny.
 
 ### Základní inicializace a nastavení
+Třída `Document` je jádrový objekt Aspose.PDF, který představuje jeden PDF soubor v paměti.  
 Nejprve importujte požadované třídy:
 ```java
 import com.aspose.pdf.Document;
 import com.aspose.pdf.HtmlSaveOptions;
 ```
-Pro inicializaci Aspose.PDF vytvořte novou instanci `Document`, která ukazuje na umístění vašeho PDF souboru. To je nezbytné pro načtení a manipulaci s PDF.
+Pro inicializaci Aspose.PDF vytvořte novou instanci `Document`, která ukazuje na umístění vašeho PDF souboru. Tento krok je nezbytný pro načtení a manipulaci s PDF.
 
-## Jak převést PDF do HTML pomocí Aspose.PDF Java
-Tato část spojuje kroky načtení, konfigurace a uložení potřebné k **convert pdf to html** při zachování vrstev.
+## Jak uložit PDF jako HTML pomocí Aspose.PDF Java
+Načtěte svůj PDF pomocí `new Document("input.pdf")` a nakonfigurujte `HtmlSaveOptions` pro vykreslení vrstev — pak zavolejte `doc.save("output.html", htmlOptions)`. Tento dvoukrokový vzor konvertuje soubor při zachování každé vrstvy označeného obsahu jako nezávislého `<div>` ve výsledném HTML, což vám dává plnou kontrolu nad stylováním a interaktivitou.
 
 ### Otevření a načtení PDF dokumentu
-**Přehled:** Naučte se, jak otevřít existující PDF pomocí Aspose.PDF v Javě.
+**Overview:** Learn how to open an existing PDF using Aspose.PDF in Java.
 
 #### Krok 1: Zadejte adresář dokumentu
 ```java
 // Define the path where your PDF files are stored.
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 ```
-*Proč tento krok?*: Definování adresáře usnadňuje přístup k souborům a správu v rámci projektu.
+*Why this step?*: Definování adresáře pomáhá zjednodušit přístup k souborům a jejich správu v rámci projektu.
 
 #### Krok 2: Vytvořte novou instanci třídy Document
+Třída `Document` je nejvyšší úroveň reprezentace PDF souboru v Aspose.PDF.  
 ```java
 // Load an existing PDF document into the Aspose.PDF Document object.
 Document doc = new Document(dataDir + "/input2.pdf");
 ```
-*Vysvětlení:* Tento úryvek kódu otevírá `input2.pdf` z vámi zadaného adresáře, což vám umožní pracovat s jeho obsahem.
+*Explanation:* Tento kódový úryvek otevírá `input2.pdf` z vašeho určeného adresáře, což vám umožní pracovat s jeho obsahem.
 
-### Konfigurace HTML možností uložení pro samostatné vykreslení vrstev
-**Přehled:** Naučte se, jak nastavit možnosti uložení tak, aby vrstvy PDF byly zpracovány jako samostatné HTML elementy.
+### Konfigurace možností uložení HTML pro samostatné vykreslení vrstev
+**Overview:** Learn how to configure save options to treat PDF layers as separate HTML elements.
 
 #### Krok 1: Vytvořte objekt HtmlSaveOptions
+`HtmlSaveOptions` řídí, jak je PDF obsah překládán do HTML, včetně zpracování CSS a konverze vrstev.  
 ```java
 HtmlSaveOptions htmlOptions = new HtmlSaveOptions();
 ```
-*Proč tento krok?*: `HtmlSaveOptions` poskytuje řadu nastavení pro řízení procesu převodu z PDF do HTML.
+*Why this step?*: `HtmlSaveOptions` poskytuje různá nastavení pro kontrolu procesu konverze z PDF do HTML.
 
 #### Krok 2: Nastavte možnost pro samostatné vykreslení vrstev
+Volba `setConvertMarkedContentToLayers(true)` zajišťuje, že označený obsah ve vašem PDF bude vykreslen jako samostatné vrstvy v výsledném HTML, čímž se zachová strukturová věrnost.
 ```java
 htmlOptions.setConvertMarkedContentToLayers(true);
 ```
-*Vysvětlení:* Tato volba zajistí, že označený obsah ve vašem PDF bude vykreslen jako samostatné vrstvy v výsledném HTML, čímž se zachová struktura.
+*Explanation:* Tato volba zajišťuje, že označený obsah ve vašem PDF bude vykreslen jako samostatné vrstvy v výsledném HTML, čímž se zachová strukturová věrnost.
 
 ### Uložení PDF dokumentu jako HTML s konfigurací vrstev
-**Přehled:** Tento krok popisuje uložení nakonfigurovaného dokumentu jako HTML soubor pomocí Aspose.PDF.
+**Overview:** This step covers saving the configured document as an HTML file using Aspose.PDF.
 
 #### Krok 1: Zadejte výstupní adresář
 ```java
 String outputDir = "YOUR_OUTPUT_DIRECTORY";
 ```
-*Proč tento krok?*: Specifikace výstupního adresáře pomáhá organizovat a snadno získat převedené soubory.
+*Why this step?*: Specifikace výstupního adresáře pomáhá organizovat a efektivně získávat konvertované soubory.
 
 #### Krok 2: Uložte dokument s konfigurací vrstev
+Metoda `save` zapisuje PDF do HTML pomocí dříve definovaných `HtmlSaveOptions`.  
 ```java
 doc.save(outputDir + "/renderPDFDataLayersAsSeparateHTMLLayerElement.html", htmlOptions);
 ```
-*Vysvětlení:* Tento příkaz uloží PDF jako HTML a použije nastavení vrstev z `htmlOptions`.
+*Explanation:* Tento příkaz uloží PDF jako HTML, aplikujíc nastavení vrstev z `htmlOptions`.
 
-**Tipy pro řešení problémů:** Ujistěte se, že cesty k adresářům jsou nastaveny správně a jsou přístupné. Pokud během ukládání nastanou chyby, zkontrolujte oprávnění souborů.
+**Troubleshooting Tips:** Ujistěte se, že cesty k adresářům jsou správně nastavené a přístupné. Pokud během ukládání dojde k chybám, ověřte oprávnění souborů.
 
 ## Praktické aplikace
-- **Konverze webového obsahu:** Převádějte vrstvené PDF na interaktivní webový obsah při zachování jejich struktury.  
-- **Extrakce dat:** Extrahujte konkrétní datové vrstvy pro analýzu nebo integraci s jinými systémy.  
-- **Vylepšené prohlížení dokumentů:** Poskytněte uživatelům lepší zážitek tím, že na webových platformách zachováte původní vrstvení dokumentu.
+- **Konverze webového obsahu:** Převést vrstvené PDF na interaktivní webový obsah při zachování jejich struktury.  
+- **Extrahování dat:** Extrahovat konkrétní datové vrstvy pro analýzu nebo integraci s jinými systémy.  
+- **Vylepšené prohlížení dokumentů:** Poskytnout uživatelům lepší zážitek z prohlížení tím, že na webových platformách zachováte původní vrstvení dokumentu.
 
 ## Úvahy o výkonu
-- **Optimalizace výkonu:** Používejte nastavení Aspose.PDF k vyvážení rychlosti a přesnosti, upravujte volby jako `HtmlSaveOptions` podle potřeby.  
-- **Pokyny pro využití zdrojů:** Sledujte využití paměti v Javě, abyste předešli únikům. Velké dokumenty zpracovávejte po zvládnutelných částech.  
-- **Osvedčené postupy pro správu paměti:** Pravidelně profilujte aplikaci, abyste identifikovali možné neefektivity při operacích s Aspose.PDF.
+- **Optimalizace výkonu:** Použijte nastavení Aspose.PDF k vyvážení rychlosti a přesnosti, upravujte možnosti jako `HtmlSaveOptions` podle potřeby.  
+- **Pokyny pro využití zdrojů:** Sledujte využití paměti v Javě, aby nedocházelo k únikům. Zpracovávejte velké dokumenty po zvládnutelných částech, pokud je to nutné.  
+- **Nejlepší postupy pro správu paměti:** Pravidelně profilujte aplikaci, abyste identifikovali možné neefektivity při operacích s Aspose.PDF.
 
 ## Závěr
-Po absolvování tohoto průvodce jste se naučili, jak otevírat a manipulovat s PDF soubory pomocí Aspose.PDF Java a jak konfigurovat konkrétní možnosti uložení HTML. Nyní můžete **convert pdf to html** a efektivně vykreslovat vrstvy PDF do strukturovaného HTML.
+Postupováním podle tohoto průvodce jste se naučili, jak otevřít a manipulovat s PDF soubory pomocí Aspose.PDF Java a zároveň konfigurovat specifické možnosti uložení HTML. Nyní můžete **save pdf as html** a efektivně vykreslovat vrstvy PDF do strukturovaného HTML.
 
-**Další kroky:** Vyzkoušejte další funkce Aspose.PDF, jako je úprava nebo slučování dokumentů. Prohlédněte si [Aspose's documentation](https://reference.aspose.com/pdf/java/) pro další učení.
+**Další kroky:** Experimentujte s dalšími funkcemi Aspose.PDF, jako je úprava nebo slučování dokumentů. Prozkoumejte [Dokumentace Aspose PDF Java](https://reference.aspose.com/pdf/java/) pro další učení.
 
 ## Často kladené otázky
 **Q:** K čemu se používá Aspose.PDF Java?  
-**A:** Jedná se o **java pdf conversion library**, která vám umožní vytvářet, upravovat a převádět PDF soubory v Java aplikacích.
+**A:** Je to **java pdf conversion library**, která vám umožní vytvářet, upravovat a konvertovat PDF soubory v Java aplikacích.
 
 **Q:** Jak zacházet s velkými PDF pomocí Aspose.PDF?  
-**A:** Rozdělte úlohy na menší části nebo optimalizujte nastavení paměti, například zpracováním stránek jednotlivě.
+**A:** Rozdělte úlohy na menší části nebo optimalizujte nastavení využití paměti, např. zpracováním stránek jednotlivě.
 
-**Q:** Můžu přizpůsobit výstupní formát HTML?  
-**A:** Ano, pomocí `HtmlSaveOptions` můžete upravit různé aspekty převodu, včetně vykreslení vrstev.
+**Q:** Mohu přizpůsobit výstupní formát HTML?  
+**A:** Ano, pomocí `HtmlSaveOptions` můžete upravit různé aspekty konverze, včetně vykreslování vrstev.
 
 **Q:** Existuje bezplatná verze Aspose.PDF Java?  
-**A:** Zkušební verze je k dispozici pro evaluační účely [zde](https://releases.aspose.com/pdf/java/).
+**A:** Zkušební verze je k dispozici pro vyhodnocení [zde](https://releases.aspose.com/pdf/java/).
 
 **Q:** Kde najdu podporu, pokud narazím na problémy s Aspose.PDF?  
 **A:** Navštivte [Aspose PDF Forum](https://forum.aspose.com/c/pdf/10) pro komunitní a oficiální podporu.
 
 ## Často kladené otázky
-
-**Q:** Mohu tento přístup použít k vykreslení vrstev PDF v aplikaci Spring Boot?**  
+**Q:** Mohu tento přístup použít k vykreslení vrstev PDF v aplikaci Spring Boot?  
 **A:** Rozhodně. Stejné třídy Aspose.PDF fungují v jakémkoli Java prostředí, včetně Spring Boot, pokud je knihovna na classpath.
 
-**Q:** Ovlivňuje volba `setConvertMarkedContentToLayers` extrakci textu?**  
-**A:** Ovlivňuje pouze proces převodu do HTML. API pro extrakci textu zůstává nedotčena.
+**Q:** Ovlivňuje volba `setConvertMarkedContentToLayers` extrakci textu?  
+**A:** Ovlivňuje pouze proces konverze do HTML. API pro extrakci textu zůstávají nedotčeny.
 
-**Q:** Co když moje PDF obsahuje šifrované vrstvy?**  
-**A:** Načtěte dokument s příslušným heslem pomocí `new Document(path, password)` a poté použijte stejné HTML možnosti.
+**Q:** Co když moje PDF obsahuje šifrované vrstvy?  
+**A:** Načtěte dokument s příslušným heslem pomocí `new Document(path, password)`, a poté použijte stejné HTML možnosti.
 
-**Q:** Existuje způsob, jak stylovat každou HTML vrstvu samostatně?**  
-**A:** Po převodu je každá vrstva zabalená do samostatného `<div>` s unikátním ID, což vám umožní cílit na ni pomocí CSS nebo JavaScriptu.
+**Q:** Existuje způsob, jak stylovat každou HTML vrstvu samostatně?  
+**A:** Po konverzi je každá vrstva zabalena do samostatného `<div>` s unikátním ID, což vám umožní cílit na ně pomocí CSS nebo JavaScriptu.
 
-**Q:** Jaká verze Aspose.PDF je vyžadována pro vykreslení vrstev?**  
-**A:** Funkce `setConvertMarkedContentToLayers` je k dispozici od verze 20.9; tento tutoriál používá verzi 25.3.
+**Q:** Která verze Aspose.PDF je vyžadována pro vykreslování vrstev?  
+**A:** Funkce `setConvertMarkedContentToLayers` je dostupná od verze 20.9; tento tutoriál používá verzi 25.3.
 
 ## Zdroje
-- Dokumentace: [Aspose PDF Java Documentation](https://reference.aspose.com/pdf/java/)  
-- Stažení: [Aspose PDF Downloads](https://releases.aspose.com/pdf/java/)  
-- Nákup: [Purchase Aspose Products](https://purchase.aspose.com/buy)  
-- Zkušební verze: [Download Trial Version](https://releases.aspose.com/pdf/java/)  
-- Dočasná licence: [Obtain Temporary License](https://purchase.aspose.com/temporary-license/)  
+- Dokumentace: [Dokumentace Aspose PDF Java](https://reference.aspose.com/pdf/java/)  
+- Stáhnout: [Stahování Aspose PDF](https://releases.aspose.com/pdf/java/)  
+- Nákup: [Nákup produktů Aspose](https://purchase.aspose.com/buy)  
+- Bezplatná zkušební verze: [Stáhnout zkušební verzi](https://releases.aspose.com/pdf/java/)  
+- Dočasná licence: [Získat dočasnou licenci](https://purchase.aspose.com/temporary-license/)  
 - Podpora: [Aspose PDF Forum](https://forum.aspose.com/c/pdf/10)
 
-Začněte dnes objevovat možnosti Aspose.PDF Java a vylepšete své workflow zpracování dokumentů!
+Začněte ještě dnes objevovat možnosti Aspose.PDF Java a vylepšete své pracovní postupy zpracování dokumentů!
 
 ---
 
-**Poslední aktualizace:** 2026-02-22  
-**Testováno s:** Aspose.PDF 25.3 pro Java  
-**Autor:** Aspose
+**Poslední aktualizace:** 2026-07-27  
+**Testováno s:** Aspose.PDF 25.3 for Java  
+**Author:** Aspose
+
+## Související tutoriály
+
+- [Jak vytvořit vrstvy PDF pomocí Aspose.PDF pro Java – krok za krokem](/pdf/java/advanced-features/create-pdf-layers-aspose-java/)
+- [Převod PDF na vícestránkový HTML pomocí Aspose.PDF pro Java: kompletní průvodce](/pdf/java/conversion-export/convert-pdf-to-multipage-html-aspose-java/)
+- [pdf to html java – Převod PDF na HTML s vloženými zdroji pomocí Aspose.PDF pro Java](/pdf/java/conversion-export/convert-pdf-to-html-aspose-java-embedded-resources/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

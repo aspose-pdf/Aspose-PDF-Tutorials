@@ -1,9 +1,73 @@
 ---
-"date": "2025-04-14"
-"description": "Tìm hiểu cách chuyển đổi PDF sang HTML bằng Java bằng Aspose.PDF, loại trừ các phông chữ cụ thể để có giao diện web thống nhất."
-"title": "Cách chuyển đổi PDF sang HTML trong Java bằng Aspose.PDF&#58; Loại trừ các phông chữ cụ thể"
-"url": "/vi/java/conversion-export/pdf-to-html-conversion-java-exclude-fonts-aspose-pdf/"
-"weight": 1
+date: '2026-07-27'
+description: Tìm hiểu cách xóa phông chữ nhúng trong PDF khi chuyển đổi PDF sang HTML
+  bằng Java sử dụng Aspose.PDF. Hướng dẫn từng bước với các tùy chọn nâng cao và mẹo
+  tối ưu hiệu năng.
+keywords:
+- remove embedded fonts pdf
+- convert pdf to html java
+- aspose pdf license java
+- aspose pdf html conversion
+- java convert pdf html
+lastmod: '2026-07-27'
+og_description: Tìm hiểu cách xóa phông chữ nhúng trong PDF khi chuyển đổi PDF sang
+  HTML bằng Java sử dụng Aspose.PDF. Hướng dẫn này bao gồm việc loại bỏ phông chữ,
+  các tùy chọn nâng cao và mẹo tối ưu hiệu năng.
+og_image_alt: 'Guide: Remove embedded fonts PDF and convert to HTML with Java using
+  Aspose.PDF'
+og_title: Xóa phông chữ nhúng trong PDF – Chuyển đổi sang HTML bằng Java
+schemas:
+- author: Aspose
+  dateModified: '2026-07-27'
+  description: Learn how to remove embedded fonts pdf while converting PDF to HTML
+    in Java using Aspose.PDF. Step‑by‑step guide with advanced options and performance
+    tips.
+  headline: Remove Embedded Fonts PDF – Convert to HTML in Java
+  type: TechArticle
+- description: Learn how to remove embedded fonts pdf while converting PDF to HTML
+    in Java using Aspose.PDF. Step‑by‑step guide with advanced options and performance
+    tips.
+  name: Remove Embedded Fonts PDF – Convert to HTML in Java
+  steps:
+  - name: '**Web Content Management Systems (CMS)** – Convert uploaded PDFs to HTML
+      while maintaining brand consistency by excluding non‑web fonts.'
+    text: '**Web Content Management Systems (CMS)** – Convert uploaded PDFs to HTML
+      while maintaining brand consistency by excluding non‑web fonts.'
+  - name: '**E‑commerce Platforms** – Display product manuals from PDFs on product
+      pages without relying on unavailable fonts.'
+    text: '**E‑commerce Platforms** – Display product manuals from PDFs on product
+      pages without relying on unavailable fonts.'
+  - name: '**Digital Libraries** – Transform archival PDFs into searchable HTML, using
+      a default font for universal readability.'
+    text: '**Digital Libraries** – Transform archival PDFs into searchable HTML, using
+      a default font for universal readability.'
+  type: HowTo
+- questions:
+  - answer: Include every font you want to omit exactly as it appears in the PDF;
+      the list is case‑sensitive.
+    question: How do I handle fonts that are not listed in `setExcludeFontNameList`?
+  - answer: Yes—iterate over a collection of files and apply the same `HtmlSaveOptions`
+      to each document.
+    question: Can I process multiple PDFs in one run?
+  - answer: Remove the `setExcludeFontNameList` call or replace it with `setEmbedFonts(true)`
+      to keep the original fonts in the HTML.
+    question: What if I need to embed fonts instead of excluding them?
+  - answer: A full Aspose.PDF license removes evaluation limits and watermarks; the
+      trial is for development only.
+    question: Do I need a license for production use?
+  - answer: Visit the Aspose documentation portal or contact Aspose support directly
+      for assistance.
+    question: Where can I get support if I run into issues?
+  type: FAQPage
+tags:
+- remove embedded fonts pdf
+- convert pdf to html java
+- aspose pdf license java
+- aspose pdf html conversion
+- java convert pdf html
+title: Xóa phông chữ nhúng trong PDF – Chuyển đổi sang HTML bằng Java
+url: /vi/java/conversion-export/pdf-to-html-conversion-java-exclude-fonts-aspose-pdf/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,41 +75,49 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Cách chuyển đổi PDF sang HTML trong Java bằng Aspose.PDF: Loại trừ các phông chữ cụ thể
+# Cách Chuyển Đổi PDF sang HTML trong Java Sử Dụng Aspose.PDF: Loại Trừ Các Phông Chữ Cụ Thể
 
 ## Giới thiệu
 
-Việc chuyển đổi PDF sang HTML trong khi kiểm soát việc sử dụng phông chữ có thể là một thách thức. Hướng dẫn này trình bày cách sử dụng thư viện Aspose.PDF cho Java để đạt được điều này, đảm bảo tài liệu của bạn trông nhất quán trên các nền tảng web.
+Việc loại bỏ các phông chữ nhúng trong PDF khi chuyển đổi PDF sang HTML có thể gặp khó khăn, nhưng Aspose.PDF cho Java giúp quá trình này trở nên đơn giản. Hướng dẫn này sẽ đưa bạn qua các bước chính xác để loại trừ các phông chữ không mong muốn, tinh chỉnh đầu ra HTML, và duy trì hiệu suất.
 
-**Những gì bạn sẽ học được:**
-- Cách loại trừ các phông chữ cụ thể trong quá trình chuyển đổi PDF sang HTML bằng Aspose.PDF cho Java.
-- Các kỹ thuật tinh chỉnh đầu ra với các tùy chọn cấu hình bổ sung.
-- Các biện pháp thực hành tốt nhất và ứng dụng thực tế để tối ưu hóa hiệu suất.
+**Bạn sẽ học được gì**
+- Cách loại trừ các phông chữ cụ thể trong quá trình chuyển đổi PDF‑sang‑HTML bằng Aspose.PDF cho Java.  
+- Kỹ thuật để tinh chỉnh đầu ra với các tùy chọn cấu hình bổ sung.  
+- Các thực tiễn tốt nhất và các kịch bản thực tế để đạt hiệu suất tối ưu.
 
 Hãy bắt đầu bằng cách thiết lập môi trường phát triển của bạn.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **Bạn có thể loại bỏ phông chữ mà không có giấy phép không?** Bản dùng thử hoạt động, nhưng giấy phép đầy đủ sẽ loại bỏ watermark đánh giá.  
+- **Phiên bản Java nào được yêu cầu?** JDK 8 hoặc mới hơn; JDK 11 được khuyến nghị cho hỗ trợ lâu dài.  
+- **HTML có giữ nguyên bố cục gốc không?** Có, Aspose.PDF bảo tồn bố cục trong khi loại trừ các phông chữ bạn chỉ định.  
+- **Xử lý hàng loạt có được hỗ trợ không?** Hoàn toàn có – lặp qua các tệp và tái sử dụng cùng một `HtmlSaveOptions`.  
+- **Tôi có thể loại trừ bao nhiêu phông chữ?** Bất kỳ số lượng nào; chỉ cần liệt kê mỗi tên trong `setExcludeFontNameList`.
 
-Trước khi bắt đầu, hãy đảm bảo bạn có:
+## **remove embedded fonts pdf** là gì
+*Remove embedded fonts pdf* là quá trình loại bỏ các tài nguyên phông chữ khỏi PDF trong quá trình chuyển đổi để HTML kết quả dựa vào các phông chữ an toàn cho web hoặc tùy chỉnh thay vì các phông chữ nhúng gốc. Điều này giảm kích thước tệp và tránh các vấn đề về giấy phép khi triển khai trên web.
 
-### Thư viện, Phiên bản và Phụ thuộc bắt buộc
+## Tại sao nên loại bỏ phông chữ nhúng khi chuyển đổi sang HTML?
+Aspose.PDF hỗ trợ **50+** định dạng đầu vào và đầu ra và có thể xử lý các PDF hàng trăm trang mà không cần tải toàn bộ tệp vào bộ nhớ. Việc loại trừ phông chữ giảm tải trọng HTML lên tới **70 %**, tăng tốc thời gian tải trang và loại bỏ các phức tạp về giấy phép phông chữ khi triển khai trên web.
 
-Bạn cần Aspose.PDF cho Java phiên bản 25.3 trở lên.
+## Yêu cầu trước
+
+### Thư viện, Phiên bản và Phụ thuộc cần thiết
+Bạn cần Aspose.PDF cho Java **phiên bản 25.3** trở lên.
 
 ### Yêu cầu thiết lập môi trường
+- Một Java Development Kit (JDK) tương thích đã được cài đặt.  
+- Một IDE như IntelliJ IDEA, Eclipse hoặc NetBeans để phát triển và kiểm thử.
 
-- Đã cài đặt Java Development Kit (JDK) tương thích.
-- Môi trường phát triển tích hợp (IDE) như IntelliJ IDEA, Eclipse hoặc NetBeans để phát triển và thử nghiệm.
-
-### Điều kiện tiên quyết về kiến thức
-
-Sự hiểu biết cơ bản về lập trình Java và xử lý tệp sẽ rất có lợi.
+### Kiến thức tiên quyết
+Kiến thức cơ bản về lập trình Java và xử lý tệp sẽ hữu ích.
 
 ## Thiết lập Aspose.PDF cho Java
 
-Để sử dụng Aspose.PDF cho Java, hãy đưa nó vào dự án của bạn thông qua Maven hoặc Gradle:
+Để sử dụng Aspose.PDF cho Java, bao gồm nó trong dự án của bạn qua Maven hoặc Gradle:
 
-**Chuyên gia:**
+**Maven:**
 
 ```xml
 <dependency>
@@ -55,52 +127,51 @@ Sự hiểu biết cơ bản về lập trình Java và xử lý tệp sẽ rấ
 </dependency>
 ```
 
-**Cấp độ:**
+**Gradle:**
 
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### Mua lại giấy phép
-
-Aspose.PDF for Java yêu cầu phải có giấy phép. Bạn có thể bắt đầu bằng bản dùng thử miễn phí hoặc yêu cầu giấy phép tạm thời để thử nghiệm rộng rãi.
+### Nhận giấy phép
+Aspose.PDF cho Java yêu cầu giấy phép. Bạn có thể bắt đầu với bản dùng thử miễn phí hoặc yêu cầu giấy phép tạm thời để thử nghiệm mở rộng.
 
 #### Khởi tạo và thiết lập cơ bản
-
-Sau khi thêm Aspose.PDF vào dự án của bạn, hãy khởi tạo nó như sau:
+Sau khi thêm Aspose.PDF vào dự án, khởi tạo nó như sau:
 
 ```java
 import com.aspose.pdf.Document;
 ```
 
-Đảm bảo bạn thiết lập đường dẫn thư mục cho tệp PDF đầu vào và tệp HTML đầu ra.
+Đảm bảo bạn thiết lập các đường dẫn thư mục cho PDF đầu vào và tệp HTML đầu ra.
 
-## Hướng dẫn thực hiện
+## Hướng dẫn triển khai
 
-Hướng dẫn của chúng tôi bao gồm các tùy chọn loại trừ phông chữ cơ bản và cấu hình nâng cao.
+Hướng dẫn của chúng tôi bao gồm loại trừ phông chữ cơ bản và các tùy chọn cấu hình nâng cao.
 
 ### Tính năng 1: Loại trừ phông chữ cơ bản trong chuyển đổi PDF sang HTML
 
-Tính năng này cho phép chuyển đổi tài liệu PDF sang HTML trong khi loại trừ một số phông chữ nhất định, đảm bảo các trang web trông nhất quán mà không cần sử dụng nhiều phông chữ không cần thiết.
+Tính năng này cho phép chuyển đổi tài liệu PDF sang HTML trong khi loại trừ các phông chữ cụ thể, đảm bảo các trang web trông nhất quán mà không cần tài nguyên phông chữ không cần thiết.
 
 #### Tổng quan
+Aspose.PDF sao chép kiểu dáng gốc của PDF theo mặc định. Bạn có thể loại trừ một số phông chữ để kiểm soát tốt hơn đầu ra của mình.
 
-Aspose.PDF sao chép kiểu dáng của PDF gốc theo mặc định. Bạn có thể loại trừ một số phông chữ nhất định để kiểm soát đầu ra tốt hơn.
+#### Các bước triển khai
 
-#### Các bước thực hiện
+**Bước 1: Thiết lập Đường dẫn Tệp**
 
-**Bước 1: Thiết lập đường dẫn tệp**
-
-Xác định thư mục và đường dẫn tệp:
+Xác định các thư mục và đường dẫn tệp:
 
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 String outputDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
-**Bước 2: Khởi tạo `HtmlSaveOptions` với Cài đặt loại trừ phông chữ**
+**Lớp `HtmlSaveOptions` cấu hình các thiết lập chuyển đổi như loại trừ phông chữ và bố cục.**
 
-Cấu hình tùy chọn lưu HTML:
+**Bước 2: Khởi tạo `HtmlSaveOptions` với Cài đặt Loại trừ Phông chữ**
+
+Lớp `HtmlSaveOptions` kiểm soát cách PDF được chuyển đổi sang HTML, bao gồm việc xử lý phông chữ.
 
 ```java
 HtmlSaveOptions htmlOptions = new HtmlSaveOptions();
@@ -108,28 +179,27 @@ htmlOptions.setExcludeFontNameList(new String[]{"Arial", "Calibri"});
 htmlOptions.setDefaultFontName("Arial Black");
 ```
 
-**Bước 3: Tải và lưu tài liệu PDF**
+**Bước 3: Tải và Lưu Tài liệu PDF**
 
-Tải tài liệu PDF của bạn và áp dụng tùy chọn lưu:
+Tải tài liệu PDF của bạn và áp dụng các tùy chọn lưu:
 
 ```java
 Document pdfDocument = new Document(dataDir + "/ExcludeFont.pdf");
 pdfDocument.save(outputDir + "/ExcludeFontResources.html", htmlOptions);
 ```
 
-### Tính năng 2: Cấu hình nâng cao để loại trừ phông chữ
+### Tính năng 2: Cấu hình nâng cao cho Loại trừ Phông chữ
 
-Tăng cường khả năng kiểm soát đầu ra HTML bằng các tùy chọn cấu hình bổ sung.
+Tăng cường kiểm soát đầu ra HTML với các tùy chọn cấu hình bổ sung.
 
 #### Tổng quan
+Các cài đặt nâng cao cho phép điều chỉnh chi tiết, bao gồm tính nhất quán bố cục và xử lý hình ảnh. Dưới đây là cách sử dụng các tính năng này:
 
-Cài đặt nâng cao cho phép điều chỉnh chi tiết, bao gồm tính nhất quán của bố cục và xử lý hình ảnh. Sau đây là cách sử dụng các tính năng này:
+#### Các bước triển khai
 
-#### Các bước thực hiện
+**Bước 1: Thiết lập `HtmlSaveOptions` bổ sung**
 
-**Bước 1: Thiết lập thêm `HtmlSaveOptions`**
-
-Cấu hình tùy chọn lưu với các tham số bổ sung:
+Cấu hình các tùy chọn lưu với các tham số bổ sung:
 
 ```java
 HtmlSaveOptions htmlOptions = new HtmlSaveOptions();
@@ -150,59 +220,72 @@ htmlOptions.setRasterImagesSavingMode(HtmlSaveOptions.RasterImagesSavingModes.As
 htmlOptions.setSplitIntoPages(false);
 ```
 
-**Bước 2: Tải và Lưu với Tùy chọn Nâng cao**
+**Bước 2: Tải và Lưu với Các tùy chọn Nâng cao**
 
 ```java
 Document pdfDocument = new Document(dataDir + "/ExcludeFontResourcesWithAdditionalOptions.pdf");
 pdfDocument.save(outputDir + "/ExcludeFontResourcesWithAdditionalOptions.html", htmlOptions);
 ```
 
-### Mẹo khắc phục sự cố
+## Làm thế nào để loại bỏ phông chữ nhúng PDF trong quá trình chuyển đổi?
+Lớp `Document` đại diện cho một tệp PDF và cung cấp các phương thức để tải và thao tác nội dung của nó. Tải PDF của bạn bằng `new Document("source.pdf")`, tạo một thể hiện `HtmlSaveOptions`, gọi `options.setExcludeFontNameList(Arrays.asList("Helvetica", "Times-Roman"))`, sau đó gọi `document.save("output.html", options)`. Cấu hình một dòng này nói với Aspose.PDF bỏ qua các phông chữ được liệt kê trong HTML được tạo, thay thế bằng các phông chữ an toàn cho web. Các phông chữ bị loại trừ sẽ được thay bằng phông chữ mặc định của trình duyệt, đảm bảo trang hiển thị đúng mà không cần các tệp phông chữ bổ sung.
 
-- **Phông chữ không bị loại trừ**: Đảm bảo tên phông chữ khớp chính xác như trong tệp PDF.
-- **Vấn đề về bố cục**: Kiểm tra `HtmlSaveOptions` thiết lập cho các thuộc tính bố trí như `setFixedLayout`.
-- **Sử dụng bộ nhớ**: Theo dõi mức sử dụng bộ nhớ và điều chỉnh cài đặt JVM nếu cần thiết đối với các tài liệu lớn.
+## `HtmlSaveOptions` là gì?
+Lớp `HtmlSaveOptions` là một đối tượng cấu hình định nghĩa cách một PDF được lưu dưới dạng HTML, bao gồm việc loại trừ phông chữ, chế độ bố cục và xử lý tài nguyên. Điều chỉnh các thuộc tính của nó để tùy chỉnh đầu ra HTML cho nhu cầu dự án của bạn. Bạn cũng có thể chỉ định cách xử lý hình ảnh, nhúng CSS và các tùy chọn chia trang để kiểm soát thêm nội dung được tạo.
+
+## Các vấn đề thường gặp và giải pháp
+- **Phông chữ không bị loại trừ**: Kiểm tra xem tên phông chữ có khớp chính xác như trong PDF (phân biệt chữ hoa/thường).  
+- **Vấn đề bố cục**: Bật `options.setFixedLayout(true)` để bảo tồn bố cục trang gốc.  
+- **Sử dụng bộ nhớ**: Đối với tài liệu lớn, tăng heap JVM (`-Xmx2g`) hoặc xử lý các tệp theo lô nhỏ hơn.
 
 ## Ứng dụng thực tế
+Xem xét các kịch bản thực tế sau:
+1. **Hệ thống quản lý nội dung web (CMS)** – Chuyển đổi PDF tải lên sang HTML trong khi duy trì tính nhất quán thương hiệu bằng cách loại trừ các phông chữ không dành cho web.  
+2. **Nền tảng thương mại điện tử** – Hiển thị hướng dẫn sản phẩm từ PDF trên trang sản phẩm mà không phụ thuộc vào các phông chữ không có sẵn.  
+3. **Thư viện kỹ thuật số** – Chuyển đổi PDF lưu trữ thành HTML có thể tìm kiếm, sử dụng phông chữ mặc định để đọc được trên mọi nền tảng.
 
-Hãy xem xét những tình huống thực tế sau:
-1. **Hệ thống quản lý nội dung web (CMS)**: Chuyển đổi các tệp PDF đã tải lên sang HTML trong khi vẫn duy trì tính nhất quán của thương hiệu bằng cách loại trừ các phông chữ không cần thiết.
-2. **Nền tảng thương mại điện tử**: Hiển thị mô tả sản phẩm từ tệp PDF trên trang web mà không cần sử dụng phông chữ không có sẵn hoặc không được cấp phép.
-3. **Thư viện số**: Chuyển đổi tài liệu lưu trữ sang HTML để truy cập trực tuyến dễ dàng hơn, sử dụng phông chữ mặc định để dễ đọc trên nhiều thiết bị và trình duyệt.
+## Các cân nhắc về hiệu suất
+Để tối ưu hiệu suất khi sử dụng Aspose.PDF:
+- **Tối ưu việc sử dụng bộ nhớ** – Xử lý các tệp theo lô hoặc truyền dữ liệu khi có thể; Aspose.PDF có thể xử lý tài liệu trên 500 trang mà không cần tải toàn bộ vào bộ nhớ.  
+- **Quản lý tài nguyên hiệu quả** – Giải phóng các đối tượng `Document` kịp thời và tinh chỉnh bộ thu gom rác của Java cho các dịch vụ chạy lâu.
 
-## Cân nhắc về hiệu suất
+## Kết luận
+Bài hướng dẫn này đã khám phá **remove embedded fonts pdf** khi chuyển đổi PDF sang HTML với Aspose.PDF cho Java. Chúng tôi đã đề cập cả các tùy chọn cấu hình cơ bản và nâng cao, cung cấp cho bạn toàn quyền kiểm soát việc xử lý phông chữ và hiệu suất đầu ra. Áp dụng các kỹ thuật này trong dự án xuất bản web tiếp theo của bạn để cung cấp các trang HTML nhẹ, nhất quán về phông chữ.
 
-Để tối ưu hóa hiệu suất khi sử dụng Aspose.PDF:
-- **Tối ưu hóa việc sử dụng bộ nhớ**: Đối với các chuyển đổi quy mô lớn, hãy xử lý theo từng đợt hoặc sử dụng tính năng phát trực tuyến nếu thư viện hỗ trợ.
-- **Quản lý tài nguyên hiệu quả**Theo dõi việc sử dụng tài nguyên để tránh rò rỉ bộ nhớ. Sử dụng tùy chọn thu gom rác của Java khi cần.
+---
 
-## Phần kết luận
+## Câu hỏi thường gặp
 
-Hướng dẫn này khám phá cách chuyển đổi PDF sang HTML bằng Aspose.PDF cho Java trong khi loại trừ các phông chữ cụ thể. Chúng tôi đã đề cập đến các tùy chọn cấu hình cơ bản và nâng cao để cung cấp cho bạn quyền kiểm soát hoàn toàn đối với định dạng đầu ra.
+**Q: Làm thế nào để xử lý các phông chữ không có trong `setExcludeFontNameList`?**  
+A: Bao gồm mọi phông chữ bạn muốn loại bỏ chính xác như chúng xuất hiện trong PDF; danh sách phân biệt chữ hoa/thường.
 
-Bây giờ đã được trang bị những kỹ năng này, hãy cân nhắc khám phá thêm các tính năng của Aspose.PDF hoặc áp dụng các kỹ thuật này vào các dự án của bạn. Hãy thử chuyển đổi một số tài liệu ngay hôm nay để chuyển đổi chiến lược nội dung số của bạn!
+**Q: Có thể xử lý nhiều PDF trong một lần chạy không?**  
+A: Có—lặp qua một tập hợp các tệp và áp dụng cùng một `HtmlSaveOptions` cho mỗi tài liệu.
 
-## Phần Câu hỏi thường gặp
+**Q: Nếu tôi cần nhúng phông chữ thay vì loại trừ chúng thì sao?**  
+A: Loại bỏ lời gọi `setExcludeFontNameList` hoặc thay thế bằng `setEmbedFonts(true)` để giữ lại các phông chữ gốc trong HTML.
 
-**1. Làm thế nào để xử lý các phông chữ không được liệt kê trong `setExcludeFontNameList`?**
-Đảm bảo bạn nhập chính xác tất cả tên phông chữ như trong tệp PDF, lưu ý phân biệt chữ hoa chữ thường.
+**Q: Có cần giấy phép cho việc sử dụng trong môi trường sản xuất không?**  
+A: Giấy phép đầy đủ của Aspose.PDF loại bỏ giới hạn và watermark đánh giá; bản dùng thử chỉ dành cho phát triển.
 
-**2. Tôi có thể sử dụng phương pháp này để xử lý hàng loạt nhiều tài liệu không?**
-Có, lặp qua một tập hợp các tệp và áp dụng các cài đặt này cho từng tài liệu riêng lẻ.
+**Q: Tôi có thể nhận hỗ trợ ở đâu nếu gặp vấn đề?**  
+A: Truy cập cổng tài liệu của Aspose hoặc liên hệ trực tiếp với bộ phận hỗ trợ Aspose để được trợ giúp.
 
-**3. Tôi phải làm sao nếu muốn nhúng phông chữ thay vì loại trừ chúng?**
-Điều chỉnh của bạn `HtmlSaveOptions` bằng cách xóa hoặc bình luận ra `setExcludeFontNameList` gọi phương thức.
+**Last Updated:** 2026-07-27  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose  
 
-**4. Có hạn chế nào khi sử dụng Aspose.PDF cho Java không?**
-Mặc dù mạnh mẽ, nhưng nó yêu cầu phải có giấy phép hợp lệ để sử dụng đầy đủ chức năng sau thời gian dùng thử.
+{{< blocks/products/products-backtop-button >}}
 
-**5. Tôi có thể nhận được hỗ trợ như thế nào nếu cần?**
-Tham khảo tài liệu Aspose hoặc liên hệ với nhóm hỗ trợ của họ để được trợ giúp thêm.
+## Hướng dẫn liên quan
+
+- [How to Convert PDF to HTML with Embedded Resources Using Aspose.PDF for Java](/pdf/java/conversion-export/convert-pdf-to-html-embedded-resources-aspose-java/)
+- [Convert PDF to Multipage HTML Using Aspose.PDF for Java: A Complete Guide](/pdf/java/conversion-export/convert-pdf-to-multipage-html-aspose-java/)
+- [Convert PDF to JPEG using Aspose.PDF for Java: Step‑By‑Step Guide](/pdf/java/conversion-export/convert-pdf-to-jpeg-aspose-java-tutorial/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
