@@ -65,6 +65,9 @@
 เรียนรู้วิธีส่งออก PDF เป็น HTML และตรวจสอบลายเซ็น PDF ด้วย Aspose.PDF สำหรับ .NET
 ### [วิธีตรวจสอบลายเซ็นใน PDF ด้วย Aspose.Pdf – คำแนะนำ C#](./how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/)
 เรียนรู้วิธีตรวจสอบลายเซ็นดิจิทัลในไฟล์ PDF ด้วย Aspose.Pdf สำหรับ .NET ด้วย C#
+### [บทช่วยสอนลายเซ็น PDF – ตรวจสอบลายเซ็น PDF ด้วย C# และ Aspose.Pdf](./pdf-signature-tutorial-verify-pdf-signatures-in-c-with-aspos/)
+เรียนรู้วิธีตรวจสอบลายเซ็น PDF ด้วย C# โดยใช้ Aspose.Pdf เพื่อความปลอดภัยและความสมบูรณ์ของเอกสาร
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)

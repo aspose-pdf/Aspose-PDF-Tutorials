@@ -34,6 +34,8 @@ Aspose.PDF Net için bir kod öğreticisi
 
 ### [Aspose Nasıl Kurulur – Belirli Sürümler İçin PowerShell Kılavuzu](./how-to-install-aspose-powershell-guide-for-specific-versions/)
 Belirli Aspose sürümlerini PowerShell kullanarak nasıl kuracağınızı adım adım öğrenin.
+### [PowerShell ile NuGet Paketlerini Adım Adım Nasıl Kurulur](./how-to-install-nuget-packages-via-powershell-step-by-step/)
+PowerShell komutlarıyla NuGet paketlerini indirip projelerinize eklemenin adım adım rehberi.
 
 ## Ek Kaynaklar
 

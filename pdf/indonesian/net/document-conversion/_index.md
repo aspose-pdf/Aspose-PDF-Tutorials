@@ -66,6 +66,9 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Konversi Aspose PDF ke HTML dalam C# – Panduan Lengkap](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | Pelajari cara mengonversi PDF ke HTML menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah lengkap. |
 
 | [Cara Mengonversi PDF dengan Aspose.Pdf – Panduan Lengkap C#](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | Pelajari cara mengonversi PDF menggunakan Aspose.Pdf dengan contoh kode C# lengkap dalam panduan langkah demi langkah ini. |  
+| [Tambahkan Penomoran Bates ke DOCX dan Konversi ke PDF – Panduan Lengkap C#](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | Pelajari cara menambahkan penomoran Bates pada file DOCX dan mengonversinya ke PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode C# lengkap. |  
+| [Simpan Dokumen PDF – Cara Menambahkan Elips & Mengonversi DOCX ke PDF](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | Pelajari cara menyimpan dokumen PDF, menambahkan bentuk elips, dan mengonversi file DOCX ke PDF menggunakan Aspose.PDF untuk .NET. |  
+| [Mengonversi docx ke pdf dalam C# – Panduan Lengkap Langkah demi Langkah](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Pelajari cara mengonversi file DOCX ke PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah lengkap ini. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

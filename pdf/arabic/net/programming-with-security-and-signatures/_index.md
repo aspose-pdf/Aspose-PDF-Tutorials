@@ -44,6 +44,7 @@
 | [التحقق من التوقيع الرقمي لملف PDF في C# – دليل كامل](./verify-pdf-digital-signature-in-c-complete-guide/) | تعلم كيفية التحقق من صحة التوقيع الرقمي لملفات PDF باستخدام C# و Aspose.PDF خطوة بخطوة. |  
 | [إنشاء معالج توقيع PDF – سرد التوقيعات في C#](./create-pdf-signature-handler-list-signatures-in-c/) | تعلم كيفية إنشاء معالج توقيع PDF لعرض قائمة التوقيعات باستخدام Aspose.PDF لـ .NET في C#. |
 | [التحقق من توقيع PDF في C# – دليل خطوة بخطوة](./validate-pdf-signature-in-c-step-by-step-guide/) | تعلم كيفية التحقق من صحة توقيع PDF باستخدام C# و Aspose.PDF خطوة بخطوة. |
+| [تحميل مستند PDF باستخدام C# – دليل كامل لقراءة وتعداد التوقيعات](./load-pdf-document-c-complete-guide-to-reading-and-listing-si/) | تعلم كيفية تحميل ملفات PDF باستخدام C#، قراءة التوقيعات وإدراج قائمة بها باستخدام Aspose.PDF لـ .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

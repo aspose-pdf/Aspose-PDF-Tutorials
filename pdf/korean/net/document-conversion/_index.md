@@ -65,6 +65,9 @@
 | [C#에서 Aspose PDF를 HTML로 변환하는 완전 가이드](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | 이 단계별 가이드를 통해 Aspose.PDF for .NET을 사용하여 C#에서 PDF를 HTML로 변환하는 방법을 배웁니다. |  
 | [Aspose.Pdf로 PDF 변환하기 – 완전한 C# 가이드](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | Aspose.PDF for .NET을 사용하여 C#으로 PDF를 변환하는 방법을 단계별로 안내합니다. |
 | [Aspose를 사용하여 PDF 저장하기 – 완전한 C# 변환 가이드](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 파일을 저장하고 변환하는 전체 단계별 가이드를 제공합니다. |  
+| [DOCX에 베이츠 번호 추가 및 PDF 변환 – 완전한 C# 가이드](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | Aspose.PDF for .NET을 사용하여 DOCX 파일에 베이츠 번호를 추가하고 C#으로 PDF로 변환하는 방법을 단계별로 안내합니다. |  
+| [문서 PDF 저장 – 타원 추가 및 DOCX를 PDF로 변환](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | Aspose.PDF for .NET을 사용해 DOCX에 타원을 추가하고 PDF로 저장하는 방법을 단계별로 안내합니다. |  
+| [C#에서 docx를 PDF로 변환 – 완전 단계별 가이드](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 DOCX 파일을 PDF로 변환하는 완전한 단계별 가이드를 제공합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

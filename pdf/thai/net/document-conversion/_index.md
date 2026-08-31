@@ -62,6 +62,9 @@
 | [XPS เป็น PDF](./xps-to-pdf/) เรียนรู้วิธีแปลงไฟล์ XPS เป็น PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยบทช่วยสอนแบบทีละขั้นตอนนี้ เหมาะสำหรับนักพัฒนาและผู้ที่ชื่นชอบเอกสาร |  
 - [เพิ่มโปรไฟล์ ICC และแปลง PDF เป็น PDF/X‑4 – คำแนะนำ C#](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) | เรียนรู้วิธีเพิ่มโปรไฟล์ ICC และแปลง PDF เป็น PDF/X‑4 ด้วย Aspose.PDF สำหรับ .NET ในคู่มือ C# ทีละขั้นตอน
 - [แปลง PDF เป็น PDF/X‑4 ด้วย C# – บทช่วยสอน ASP.NET PDF ทีละขั้นตอน](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/X‑4 ด้วย Aspose.PDF สำหรับ .NET ในบทช่วยสอนแบบทีละขั้นตอนนี้  
+- [บันทึกเอกสาร PDF – วิธีเพิ่มรูปวงรีและแปลง DOCX เป็น PDF](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | เรียนรู้วิธีบันทึกเอกสาร PDF, เพิ่มรูปวงรี และแปลงไฟล์ DOCX เป็น PDF ด้วย Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนนี้  
+- [เพิ่มหมายเลข Bates ให้กับ DOCX และแปลงเป็น PDF – คู่มือ C# ฉบับสมบูรณ์](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | เรียนรู้วิธีเพิ่มหมายเลข Batesให้กับไฟล์ DOCX และแปลงเป็น PDF ด้วย Aspose.PDF สำหรับ .NET ด้วยคู่มือ C# ขั้นตอนโดยละเอียด  
+- [แปลง docx เป็น pdf ใน C# – คู่มือขั้นตอนเต็ม](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET ในคู่มือขั้นตอนเต็มที่เข้าใจง่าย  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

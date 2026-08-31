@@ -65,6 +65,9 @@ Dowiedz się, jak wczytać podpisany plik PDF i wylistować wszystkie jego podpi
 Dowiedz się, jak zweryfikować podpis PDF i dodać prostokąt do dokumentu przy użyciu Aspose.PDF dla .NET.
 ### [Eksport PDF do HTML i weryfikacja podpisu PDF przy użyciu Aspose](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
 Dowiedz się, jak wyeksportować plik PDF do HTML i zweryfikować jego podpis cyfrowy przy użyciu Aspose.
+### [Samouczek podpisu PDF – Weryfikacja podpisów PDF w C# przy użyciu Aspose.Pdf](./pdf-signature-tutorial-verify-pdf-signatures-in-c-with-aspos/)
+Dowiedz się, jak weryfikować podpisy PDF w aplikacjach C# przy użyciu biblioteki Aspose.Pdf, zapewniając integralność dokumentów.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

@@ -61,6 +61,9 @@
 Μάθετε πώς να μετατρέψετε PDF σε HTML και να επαληθεύσετε την ψηφιακή υπογραφή του PDF χρησιμοποιώντας το Aspose.
 ### [Πώς να επαληθεύσετε την υπογραφή σε PDF με το Aspose.Pdf – Οδηγός C#](./how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/)
 Μάθετε πώς να επαληθεύετε ψηφιακές υπογραφές σε αρχεία PDF χρησιμοποιώντας το Aspose.Pdf με C#.
+### [Σεμινάριο υπογραφής PDF – Επαλήθευση υπογραφών PDF σε C# με το Aspose.Pdf](./pdf-signature-tutorial-verify-pdf-signatures-in-c-with-aspos/)
+Μάθετε πώς να επαληθεύετε υπογραφές PDF σε C# με το Aspose.Pdf, εξασφαλίζοντας την ακεραιότητα των εγγράφων σας.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.PDF για τεκμηρίωση δικτύου](https://docs.aspose.com/pdf/net/)

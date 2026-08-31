@@ -67,6 +67,9 @@
 | [加载 PDF 文档 C# – 转换为 PDF/X-4 步骤指南](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | 通过本分步指南学习使用 Aspose.PDF for .NET 在 C# 中加载 PDF 并将其转换为 PDF/X-4。|  
 
 | [使用 Aspose.Pdf 将 PDF 转换 – 完整 C# 指南](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | 通过本完整的 C# 指南学习使用 Aspose.Pdf 将 PDF 文件转换为其他格式的步骤和技巧。|  
+| [向 DOCX 添加 Bates 编号并转换为 PDF – 完整 C# 指南](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | 通过本完整的 C# 指南学习如何在 DOCX 文档中添加 Bates 编号并将其转换为 PDF。|  
+| [保存文档 PDF – 如何添加椭圆并将 DOCX 转换为 PDF](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | 通过本分步指南了解如何在 PDF 中添加椭圆形状并将 DOCX 文档转换为 PDF。|  
+| [在 C# 中将 docx 转换为 pdf – 完整分步指南](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | 通过本完整的分步指南学习如何使用 Aspose.PDF for .NET 将 DOCX 文档转换为 PDF，包括代码示例和常见问题解答，帮助开发者高效实现转换。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

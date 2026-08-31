@@ -38,6 +38,7 @@ pdf.Save("protected.pdf");
 | [Extracting Image](./extracting-image/) | Easily learn how to extract images from PDFs using Aspose.PDF for .NET. Follow our step-by-step guide for seamless image extraction. |  
 | [Extract Signature Info](./extract-signature-info/) | Learn how to extract digital signatures and certificate information from PDF documents using Aspose.PDF for .NET. A complete step-by-step guide for C# developers. |  
 | [How to Validate Signatures in PDF using Aspose – C# Tutorial](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) | Learn how to validate PDF signatures using Aspose.PDF for .NET in C#. Step-by-step guide to ensure document authenticity. |  
+| [Load PDF Document C# – Complete Guide to Reading and Listing Signatures](./load-pdf-document-c-complete-guide-to-reading-and-listing-si/) | Learn how to load a PDF, read its contents, and list all digital signatures using Aspose.PDF for .NET in C#. |
 | [Is Password Protected](./is-password-protected/) | Learn how to check if a PDF is password protected using Aspose.PDF for .NET in this comprehensive step-by-step guide. |  
 | [Set Privileges In PDF File](./set-privileges/) | Learn how to set PDF privileges using Aspose.PDF for .NET with this step-by-step guide. Secure your documents effectively. |  
 | [Sign With Smart Card Using Pdf File Signature](./sign-with-smart-card-using-pdf-file-signature/) | Learn how to sign PDF files using a smart card with Aspose.PDF for .NET. Follow this step-by-step guide for secure digital signatures. |  

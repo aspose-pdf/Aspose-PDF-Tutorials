@@ -43,6 +43,8 @@ C# 코드 예제로 PDF 파일에서 서명 이름을 추출하고 관리하는 
 
 ### [C#에서 PDF 서명 확인 방법 – 완전 단계별 튜토리얼](./how-to-verify-pdf-signature-in-c-complete-step-by-step-tutor/)
 C#을 사용해 PDF 파일의 디지털 서명을 확인하는 과정을 단계별로 상세히 설명합니다.
+### [pdf 서명 튜토리얼 – C#에서 Aspose.Pdf로 PDF 서명 검증](./pdf-signature-tutorial-verify-pdf-signatures-in-c-with-aspos/)
+C#와 Aspose.Pdf를 사용하여 PDF 서명을 검증하는 방법을 단계별로 안내합니다.
 
 ### [Aspose.PDF .NET을 사용한 PDF 서명 및 검증 마스터](./mastering-aspose-pdf-net-sign-verify-smart-card-certificates/)
 Aspose.PDF Net에 대한 코드 튜토리얼

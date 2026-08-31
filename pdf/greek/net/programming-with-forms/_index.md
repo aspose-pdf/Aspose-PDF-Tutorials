@@ -53,6 +53,7 @@
 | [Πώς να δημιουργήσετε PDF με Aspose – Προσθήκη πεδίου φόρμας και σελίδων](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Μάθετε πώς να δημιουργήσετε PDF, να προσθέσετε πεδία φόρμας και να διαχειριστείτε σελίδες χρησιμοποιώντας το Aspose.PDF για .NET. |
 | [Προσθήκη αριθμών Bates σε PDF – Οδηγός βήμα‑βήμα C#](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Μάθετε πώς να προσθέτετε αριθμούς Bates σε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET με οδηγό C# βήμα‑βήμα. |  
 | [Δημιουργία εγγράφου PDF με πολλαπλά πλαίσια κειμένου – Οδηγός βήμα‑βήμα](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Μάθετε πώς να δημιουργήσετε PDF με πολλαπλά πλαίσια κειμένου χρησιμοποιώντας το Aspose.PDF για .NET. |  
+| [Πώς να προσθέσετε πλαίσιο κειμένου PDF – Δημιουργία πεδίου φόρμας PDF & Αποθήκευση επεξεργασμένου εγγράφου PDF](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Μάθετε πώς να δημιουργείτε πλαίσιο κειμένου σε PDF, να προσθέτετε πεδία φόρμας και να αποθηκεύετε το επεξεργασμένο έγγραφο PDF. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

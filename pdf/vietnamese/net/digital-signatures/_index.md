@@ -65,6 +65,9 @@ Hướng dẫn cách xác minh chữ ký số trong PDF và vẽ hình chữ nh�
 Hướng dẫn cách xuất PDF sang HTML và xác thực chữ ký PDF bằng Aspose.
 ### [Cách xác minh chữ ký trong PDF với Aspose.Pdf – Hướng dẫn C#](./how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/)
 Hướng dẫn chi tiết cách xác minh chữ ký số trong tài liệu PDF bằng Aspose.Pdf sử dụng C#.
+### [Hướng dẫn chữ ký PDF – Xác minh chữ ký PDF trong C# với Aspose.Pdf](./pdf-signature-tutorial-verify-pdf-signatures-in-c-with-aspos/)
+Hướng dẫn cách xác minh chữ ký PDF trong C# bằng Aspose.Pdf, bao gồm cài đặt, triển khai và ví dụ mã mẫu.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)

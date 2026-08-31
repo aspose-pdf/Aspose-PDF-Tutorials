@@ -48,6 +48,12 @@ Tyto tutoriály také obsahují podrobné příklady kódu, jasná vysvětlení 
 | [Jak vytvořit PDF pomocí Aspose – Přidat formulářové pole a stránky](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Naučte se, jak pomocí Aspose.PDF pro .NET vytvořit PDF, přidat formulářová pole a stránky v jednom průvodci. |
 | [Vytvořit PDF dokument s více widgety textových polí – krok za krokem](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Naučte se, jak vytvořit PDF dokument s více textovými poli pomocí Aspose.PDF pro .NET v tomto podrobném návodu. |
 | [Přidat Batesová čísla do PDF – krok za krokem C# průvodce](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Naučte se, jak přidat Batesova čísla do PDF souborů pomocí Aspose.PDF pro .NET v tomto podrobném C# návodu. |  
+| [Vyplňte pole formuláře PDF](./fill-form-field/) Naučte se, jak vyplňovat pole formulářů PDF pomocí Aspose.PDF pro .NET v tomto podrobném návodu. Automatizujte své úlohy s PDF bez námahy. |  
+| [Získání polí z oblasti v souboru PDF](./get-fields-from-region/) V tomto komplexním průvodci se naučte, jak snadno extrahovat pole ze zadané oblasti v souborech PDF pomocí Aspose.PDF pro .NET. |  
+| [Přepínače horizontálně a vertikálně](./horizontally-and-vertically-radio-buttons/) Naučte se, jak v PDF pomocí Aspose.PDF pro .NET vytvářet vodorovně a svisle zarovnané přepínače. |  
+| [Přepínač s možnostmi](./radio-button-with-options/) Odemkněte potenciál interaktivních PDF souborů přidáním přepínačů pomocí Aspose.PDF pro .NET. Snadno vytvářejte poutavé formuláře a vylepšete uživatelský zážitek. |  
+| [Nastavit popisek přepínače](./set-radio-button-caption/) Naučte se, jak nastavit popisky přepínačů v PDF pomocí Aspose.PDF pro .NET. Tato podrobná příručka vás provede načítáním, úpravou a ukládáním formulářů PDF. |  
+| [Jak přidat textové pole PDF – Vytvořit pole formuláře PDF a uložit upravený PDF dokument](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Naučte se, jak vytvořit textové pole ve formuláři PDF a uložit upravený dokument pomocí Aspose.PDF pro .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

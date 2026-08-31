@@ -34,6 +34,8 @@ Aspose.PDF Net 程式碼教學
 
 ### [如何安裝 Aspose – 針對特定版本的 PowerShell 指南](./how-to-install-aspose-powershell-guide-for-specific-versions/)
 本指南說明如何使用 PowerShell 為不同版本的 Aspose 進行安裝與配置。
+### [如何使用 PowerShell 安裝 NuGet 套件 – 步驟說明](./how-to-install-nuget-packages-via-powershell-step-by-step/)
+本教學示範如何在 PowerShell 中使用指令安裝 NuGet 套件，逐步說明每個步驟。
 
 ## 其他資源
 

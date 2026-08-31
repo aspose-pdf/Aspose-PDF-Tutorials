@@ -61,6 +61,9 @@ Aspose.PDF for .NET を使用して、PDF のデジタル署名を検証し、�
 このチュートリアルでは、Aspose を使って PDF を HTML に変換し、同時に PDF のデジタル署名を検証する方法を学びます。
 ### [Aspose.Pdf で PDF の署名を検証する方法 – C# ガイド](./how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/)
 Aspose.Pdf を使用して PDF のデジタル署名を検証する手順とサンプルコードを解説します。
+### [PDF 署名チュートリアル – C# で Aspose.Pdf を使用して PDF 署名を検証する](./pdf-signature-tutorial-verify-pdf-signatures-in-c-with-aspos/)
+Aspose.Pdf を利用し、C# で PDF のデジタル署名を検証する手順とコード例を解説します。
+
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)

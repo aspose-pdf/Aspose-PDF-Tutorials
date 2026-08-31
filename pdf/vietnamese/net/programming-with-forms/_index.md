@@ -47,6 +47,7 @@ Các hướng dẫn này cũng cung cấp các ví dụ mã chi tiết, giải t
 | [Cách tạo PDF với Aspose – Thêm trường biểu mẫu và trang](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Hướng dẫn tạo PDF, thêm trường biểu mẫu và các trang bằng Aspose.PDF cho .NET trong các bước đơn giản. |
 | [Thêm số Bates vào PDF – Hướng dẫn C# từng bước](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Hướng dẫn chi tiết cách thêm số Bates vào tài liệu PDF bằng Aspose.PDF cho .NET với C# trong vài bước đơn giản. |
 | [Tạo tài liệu PDF với nhiều widget Hộp văn bản – Hướng dẫn từng bước](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Tìm hiểu cách tạo tài liệu PDF có nhiều hộp văn bản bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết này. |
+| [Cách Thêm Hộp Văn Bản PDF – Tạo Trường Biểu Mẫu PDF & Lưu Tài Liệu PDF Đã Chỉnh Sửa](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Hướng dẫn chi tiết cách thêm hộp văn bản vào biểu mẫu PDF, tạo trường biểu mẫu và lưu tài liệu PDF đã chỉnh sửa bằng Aspose.PDF cho .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

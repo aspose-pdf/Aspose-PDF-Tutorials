@@ -45,6 +45,7 @@ Samouczek zapewnia szczegółowy przegląd metod i technik zapewniających poufn
 | [Jak zweryfikować podpisy PDF za pomocą Aspose.PDF – Kompletny przewodnik](./how-to-verify-pdf-signatures-with-aspose-pdf-complete-guide/) | Dowiedz się, jak skutecznie weryfikować podpisy cyfrowe w dokumentach PDF przy użyciu Aspose.PDF w prostym przewodniku krok po kroku. |  
 | [Sprawdź cyfrowy podpis PDF w C# – Kompletny przewodnik](./verify-pdf-digital-signature-in-c-complete-guide/) | Dowiedz się, jak w C# zweryfikować cyfrowy podpis PDF, sprawdzając jego integralność i autentyczność przy użyciu Aspose.PDF dla .NET. |  
 | [Sprawdź podpis PDF w C# – Przewodnik krok po kroku](./validate-pdf-signature-in-c-step-by-step-guide/) | Poznaj, jak w C# zweryfikować podpis PDF, sprawdzając integralność i autentyczność dokumentu przy użyciu Aspose.PDF dla .NET. |  
+| [Ładowanie dokumentu PDF C# – Kompletny przewodnik po odczytywaniu i wymienianiu podpisów](./load-pdf-document-c-complete-guide-to-reading-and-listing-si/) | Dowiedz się, jak w C# wczytać dokument PDF i wyświetlić wszystkie podpisy cyfrowe w nim zawarte. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

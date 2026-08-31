@@ -31,7 +31,8 @@ Die Tutorial-Seite „Programmieren mit Links und Aktionen“ von Aspose.PDF fü
 | [Ziellink in PDF-Datei festlegen](./set-target-link/) | Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET effizient Ziellinks in PDF-Dateien setzen. Perfekt zur Verbesserung der Dokumentnavigation. |  
 | [Seite beim Anzeigen angeben](./specify-page-when-viewing/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET eine anzuzeigende Seite in einer PDF-Datei angeben. Verbessern Sie die Benutzernavigation mit dieser einfachen Anleitung. |  
 | [Links in PDF-Datei aktualisieren](./update-links/) Erfahren Sie, wie Sie die Linktextfarbe in einer PDF-Datei mit Aspose.PDF für .NET aktualisieren. Diese Schritt-für-Schritt-Anleitung führt Sie mit leicht verständlichen Beispielen durch jedes Detail. |  
-| [Linktextfarbe in PDF-Datei aktualisieren](./update-link-text-color/) | Aktualisieren Sie mühelos Links in Ihren PDF-Dateien mit Aspose.PDF für .NET mit dieser umfassenden Schritt-für-Schritt-Anleitung. Vereinfachen Sie Ihre PDF-Bearbeitung. |  
+| [Linktextfarbe in PDF-Datei aktualisieren](./update-link-text-color/) | Aktualisieren Sie mühelos Links in Ihren PDF-Dateien mit Aspose.PDF für .NET mit dieser umfassenden Schritt-für-Schritt-Anleitung. Vereinfachen Sie Ihre PDF-Bearbeitung. |
+| [PDF-Hyperlink in C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-pdf-hyperlink-in-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# PDF‑Hyperlinks erstellen – eine leicht verständliche Schritt‑für‑Schritt‑Anleitung. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -34,6 +34,8 @@ Naučte se, jak bezproblémově přepínat mezi zkušebním a licencovaným rež
 
 ### [Jak nainstalovat Aspose – PowerShell průvodce pro konkrétní verze](./how-to-install-aspose-powershell-guide-for-specific-versions/)
 Podrobný návod, jak pomocí PowerShell nainstalovat konkrétní verze Aspose a spravovat je v .NET projektech.
+### [Jak nainstalovat NuGet balíčky pomocí PowerShell – krok za krokem](./how-to-install-nuget-packages-via-powershell-step-by-step/)
+Podrobný návod, jak pomocí PowerShell nainstalovat NuGet balíčky do vašeho .NET projektu.
 
 ## Další zdroje
 

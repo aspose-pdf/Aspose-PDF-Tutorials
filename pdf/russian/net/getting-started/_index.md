@@ -34,6 +34,8 @@
 
 ### [Как установить Aspose – руководство PowerShell для конкретных версий](./how-to-install-aspose-powershell-guide-for-specific-versions/)
 Пошаговое руководство по установке Aspose через PowerShell для выбранных версий.
+### [Как установить пакеты NuGet через PowerShell – пошагово](./how-to-install-nuget-packages-via-powershell-step-by-step/)
+Пошаговое руководство по установке пакетов NuGet через PowerShell для проектов .NET.
 
 ## Дополнительные ресурсы
 

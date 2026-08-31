@@ -52,6 +52,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Cara Membuat PDF dengan Aspose – Tambahkan Bidang Formulir dan Halaman](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Pelajari cara membuat PDF, menambahkan bidang formulir, dan menambah halaman menggunakan Aspose.PDF for .NET. |
 | [Menambahkan Bates Numbers ke PDF – Panduan Langkah‑demi‑Langkah C#](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Pelajari cara menambahkan Bates Numbers ke file PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah dalam C#. |
 | [Buat Dokumen PDF dengan Beberapa Widget Kotak Teks – Panduan Langkah‑demi‑Langkah](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Pelajari cara membuat dokumen PDF dengan beberapa widget kotak teks menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah ini. |
+| [Mengatur Judul Tombol Radio](./set-radio-button-caption/) Pelajari cara mengatur teks tombol radio dalam PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini memandu Anda dalam memuat, memodifikasi, dan menyimpan formulir PDF. Bahasa Indonesia:  
+| [Cara Menambahkan Kotak Teks PDF – Membuat Kolom Formulir PDF & Menyimpan Dokumen PDF yang Diedit](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Pelajari cara menambahkan kotak teks ke formulir PDF, membuat bidang formulir, dan menyimpan dokumen PDF yang telah diedit menggunakan Aspose.PDF for .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

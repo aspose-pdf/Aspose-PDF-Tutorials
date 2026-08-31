@@ -34,6 +34,8 @@ Aspose.PDF の .NET 向けドキュメント変換チュートリアルでは、
 | [PCLからPDFへ](./pcl-to-pdf/) Aspose.PDF for .NET を使用してPCLファイルをPDFに変換する方法を、ステップバイステップで解説するガイドです。開発者にも企業にも最適です。 |  
 | [PDFAからPDFへ](./pdfa-to-pdf/) この包括的なステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF/A を PDF に変換する方法を学習します。 |  
 | [PDFからDOCへ](./pdf-to-doc/) Aspose.PDF for .NET を使用してPDFをDOCに変換する方法を、この包括的なガイドで学びましょう。ステップバイステップの説明とヒントも含まれています。 |  
+| [DOCXにベーツ番号を追加してPDFへ変換 – 完全C#ガイド](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) このステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して DOCX にベーツ番号を追加し、PDF に変換する方法を学習します。 |  
+| [ドキュメント PDF を保存 – 楕円を追加し DOCX を PDF に変換する方法](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) Aspose.PDF for .NET を使用して、DOCX ファイルを PDF に変換し、PDF に楕円形を追加して保存する手順を解説します。 |  
 | [PDFからEPUBへ](./pdf-to-epub/) Aspose.PDF for .NET を使用してPDFをEPUBに変換する方法をステップバイステップで解説するチュートリアルです。開発者やコンテンツ作成者に最適です。 |  
 | [PDFからHTMLへ](./pdf-to-html/) Aspose.PDF for .NET を使用してPDFをHTMLに変換する方法をステップバイステップで解説します。開発者やコンテンツ作成者に最適です。 |  
 | [PDFをHTMLとして保存 – ベクターを保持し、ラスター化を無効にする](./save-pdf-as-html-keep-vectors-disable-rasterization/) Aspose.PDF for .NET を使用して、PDF をベクターを保持したまま HTML に変換し、ラスター化を無効にする方法を学びます。 |  
@@ -67,6 +69,7 @@ Aspose.PDF の .NET 向けドキュメント変換チュートリアルでは、
 | [PDFドキュメントの読み込み（C#） – PDF/X-4 へ変換するステップバイステップ ガイド](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) Aspose.PDF for .NET を使用して C# で PDF を読み込み、PDF/X-4 形式に変換する方法をステップバイステップで解説します。 |  
 
 | [Aspose.PdfでPDFを変換する方法 – 完全C#ガイド](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) この包括的なステップバイステップ ガイドでは、Aspose.Pdf を使用して PDF を C# で変換する方法を学びます。 |  
+| [C#でdocxをPDFに変換 – 完全ステップバイステップガイド](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) Aspose.PDF for .NET を使用して、C# で docx ファイルを PDF に変換する完全な手順を解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

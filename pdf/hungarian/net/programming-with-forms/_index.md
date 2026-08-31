@@ -53,6 +53,7 @@ Ezek az oktatóanyagok részletes kódpéldákat, világos magyarázatokat és i
 | [PDF létrehozása Aspose-szal – Űrlapmező és oldalak hozzáadása](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Ismerje meg, hogyan hozhat létre PDF-et Aspose használatával, és adhat hozzá űrlapmezőket és oldalakat lépésről lépésre. |
 | [Bates-számok hozzáadása PDF-ekhez – Lépésről lépésre C# útmutató](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Tanulja meg, hogyan adhat hozzá Bates-számokat PDF dokumentumokhoz C#-ban az Aspose.PDF for .NET használatával. |
 | [PDF dokumentum létrehozása több szövegdoboz widgettel – Lépésről lépésre útmutató](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Lépésről lépésre bemutatja, hogyan hozhat létre PDF dokumentumot több szövegdoboz widgettel az Aspose.PDF for .NET segítségével. |
+| [Hogyan adjunk hozzá szövegdobozt PDF-hez – PDF űrlapmező létrehozása és szerkesztett PDF dokumentum mentése](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Tanulja meg, hogyan adhat szövegdobozt PDF űrlaphoz, és mentheti a módosított dokumentumot az Aspose.PDF for .NET használatával. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

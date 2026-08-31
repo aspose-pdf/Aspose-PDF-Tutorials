@@ -45,6 +45,7 @@ Das Tutorial gibt Ihnen einen detaillierten Überblick über Methoden und Techni
 | [PDF-Signatur-Handler erstellen – Signaturen in C# auflisten](./create-pdf-signature-handler-list-signatures-in-c/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET einen PDF-Signatur-Handler erstellen und alle Signaturen in einer PDF-Datei auflisten. |  
 | [PDF-Digitale Signatur in C# überprüfen – Vollständige Anleitung](./verify-pdf-digital-signature-in-c-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET digitale Signaturen in PDF-Dateien in C# prüfen und deren Gültigkeit sicherstellen. |
 | [PDF-Signatur in C# validieren – Schritt‑für‑Schritt‑Anleitung](./validate-pdf-signature-in-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF‑Signaturen in C# prüfen und deren Gültigkeit sicherstellen. |  
+| [PDF-Dokument laden C# – Vollständige Anleitung zum Lesen und Auflisten von Signaturen](./load-pdf-document-c-complete-guide-to-reading-and-listing-si/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Dokumente in C# laden, Signaturen auslesen und auflisten – Schritt für Schritt. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

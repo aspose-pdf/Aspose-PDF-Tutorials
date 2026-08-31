@@ -34,6 +34,8 @@ Scopri come passare senza problemi dalla modalità di prova a quella con licenza
 
 ### [Come installare Aspose – Guida PowerShell per versioni specifiche](./how-to-install-aspose-powershell-guide-for-specific-versions/)
 Scopri come installare Aspose usando PowerShell per versioni specifiche, con passaggi dettagliati e script pronti all'uso.
+### [Come installare pacchetti NuGet tramite PowerShell – passo passo](./how-to-install-nuget-packages-via-powershell-step-by-step/)
+Guida passo passo per installare pacchetti NuGet usando PowerShell.
 
 ## Risorse aggiuntive
 

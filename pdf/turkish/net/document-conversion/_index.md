@@ -23,7 +23,7 @@ Dönüştürme ayarlarını nasıl belirleyeceğinizi, metin ve görüntüleri n
 
 | Başlık | Açıklama |
 | --- | --- | 
-| [PDFA'ya Ek Ekle](./add-attachment-to-pdfa/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak bir PDF/A belgesine eklerin nasıl ekleneceğini öğrenin.  
+| [PDFA'ya Ek Ekle](./add-attachment-to-pdfa/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak bir PDF/A belgesine eklerin nasıl ekleneceğini öğrenin.  |
 | [CGM'den PDF Dosyalarına](./cgm-to-pdf/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak CGM dosyalarını PDF'ye nasıl dönüştüreceğinizi öğrenin. Hem geliştiriciler hem de tasarımcılar için mükemmel. |  
 | [EPUB'dan PDF'e](./epub-to-pdf/) Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak EPUB'ı PDF'ye nasıl dönüştüreceğinizi öğrenin. Kolay, etkili ve tüm kullanıcılar için mükemmel. |  
 | [SVG Boyutlarını Alın](./get-svg-dimensions/) | Bu adım adım kılavuzla SVG dosyalarını PDF'ye dönüştürmek için Aspose.PDF for .NET'i nasıl kullanacağınızı öğrenin. PDF'leri düzenlemek isteyen geliştiriciler için mükemmel. |  
@@ -60,6 +60,15 @@ Dönüştürme ayarlarını nasıl belirleyeceğinizi, metin ve görüntüleri n
 | [C#'ta Aspose PDF'ten HTML'ye Dönüşüm – Tam Kılavuz](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF dosyalarını C# ile HTML'ye nasıl dönüştüreceğinizi öğrenin. |
 | [Aspose.Pdf ile PDF Dönüştürme – Tam C# Kılavuzu](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | Aspose.Pdf kullanarak PDF dosyalarını C# ile nasıl dönüştüreceğinizi adım adım öğrenin. |
 | [Aspose ile PDF Kaydetme – Tam C# Dönüştürme Kılavuzu](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF dosyalarını kaydetmeyi ve dönüştürmeyi adım adım öğrenin. |  
+| [Görüntü Boyutlarına Göre Sayfa Yönlendirmesi](./page-orientation-according-image-dimensions/) Bu adım adım kılavuzda, Aspose.PDF for .NET ile PDF'lerin nasıl oluşturulacağını ve sayfa yönünün görüntü boyutlarına göre nasıl ayarlanacağını öğrenin. |
+| [PDF'den PDFA3b'ye](./pdf-to-pdfa3b/) | Bu adım adım kılavuzda Aspose.PDF for .NET ile PDF dosyalarını zahmetsizce PDF/A-3B formatına dönüştürmeyi öğrenin. |
+| [Html'den Dönüştürdükten Sonra Köprü Bağlantılarını Kaldır](./remove-hyperlinks-after-converting-from-html/) Aspose.PDF for .NET'i kullanarak HTML belgelerini PDF'ye dönüştürdükten sonra köprü metinlerinin nasıl kaldırılacağını bu adım adım kılavuzda öğrenin. |
+| [Eksik Yazı Tiplerini Değiştir](./replace-missing-fonts/) | Bu adım adım kılavuzla Aspose.PDF for .NET'i kullanarak PDF belgelerindeki eksik yazı tiplerini nasıl değiştireceğinizi öğrenin. |
+| [Web Sayfasını PDF'ye Dönüştür](./web-page-to-pdf/) | Bu detaylı, adım adım eğitimde Aspose.PDF for .NET kullanarak web sayfalarını PDF'ye nasıl dönüştüreceğinizi öğrenin. |
+| [XML'den PDF'e](./xml-to-pdf/) | Bu kapsamlı adım adım eğitimde, kod örnekleri ve detaylı açıklamalarla birlikte Aspose.PDF for .NET kullanarak XML'i PDF'ye nasıl dönüştüreceğinizi öğrenin. |
+| [DOCX'e Bates Numaralandırması Ekle ve PDF'ye Dönüştür – Tam C# Kılavuzu](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | Aspose.PDF for .NET ile DOCX dosyalarına Bates numarası ekleyip, ardından PDF'ye nasıl dönüştüreceğinizi adım adım öğrenin. |
+| [Belge PDF Kaydet – Elips Ekle ve DOCX'i PDF'ye Dönüştür](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | Bu adım adım kılavuzda Aspose.PDF for .NET kullanarak belgeyi PDF olarak kaydetmeyi, elips eklemeyi ve DOCX'i PDF'ye dönüştürmeyi öğrenin. |
+| [docx'i C#'ta PDF'ye Dönüştür – Tam Adım‑Adım Kılavuz](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Aspose.PDF for .NET kullanarak C# ile docx dosyalarını PDF'ye nasıl dönüştüreceğinizi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

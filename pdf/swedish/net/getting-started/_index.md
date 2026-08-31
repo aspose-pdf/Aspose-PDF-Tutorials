@@ -34,6 +34,8 @@ Lär dig hur du smidigt växlar mellan test- och licensläge för Aspose.PDF i .
 
 ### [Hur man installerar Aspose – PowerShell-guide för specifika versioner](./how-to-install-aspose-powershell-guide-for-specific-versions/)
 En PowerShell-guide för att installera specifika Aspose-versioner.
+### [Hur du installerar NuGet-paket via PowerShell – steg för steg](./how-to-install-nuget-packages-via-powershell-step-by-step/)
+En steg-för-steg-guide för att installera NuGet-paket med PowerShell i .NET-projekt.
 
 ## Ytterligare resurser
 

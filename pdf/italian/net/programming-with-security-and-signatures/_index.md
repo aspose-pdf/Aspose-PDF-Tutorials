@@ -45,6 +45,7 @@ Questo tutorial offre una panoramica dettagliata di metodi e tecniche per garant
 | [Verifica della firma digitale PDF in C# – Guida completa](./verify-pdf-digital-signature-in-c-complete-guide/) | Scopri come verificare le firme digitali dei PDF in C# con Aspose.PDF per .NET, passo passo. |  
 | [Convalida firma PDF in C# – Guida passo‑a‑passo](./validate-pdf-signature-in-c-step-by-step-guide/) | Scopri come convalidare le firme PDF in C# con Aspose.PDF per .NET, passo dopo passo. |
 | [Crea gestore di firme PDF – Elenca le firme in C#](./create-pdf-signature-handler-list-signatures-in-c/) | Scopri come creare un gestore di firme PDF in C# per elencare tutte le firme presenti in un documento. |  
+| [Carica documento PDF C# – Guida completa alla lettura e all'elenco delle firme](./load-pdf-document-c-complete-guide-to-reading-and-listing-si/) | Scopri come caricare un PDF in C#, leggere le firme e elencarle con Aspose.PDF per .NET in questa guida passo passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

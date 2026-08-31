@@ -34,6 +34,8 @@ Learn how to seamlessly switch between trial and licensed modes for Aspose.PDF i
 
 ### [How to Install Aspose – PowerShell Guide for Specific Versions](./how-to-install-aspose-powershell-guide-for-specific-versions/)
 Step-by-step PowerShell instructions to install specific versions of Aspose components on Windows.
+### [how to install nuget packages via PowerShell – step by step](./how-to-install-nuget-packages-via-powershell-step-by-step/)
+Step-by-step guide to installing Aspose.PDF NuGet packages using PowerShell commands.
 
 ## Additional Resources
 

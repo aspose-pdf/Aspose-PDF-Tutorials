@@ -61,6 +61,9 @@
 | [XML से PDFसेट छवि पथ](./xml-to-pdfset-image-path/) | जानें कि .NET के लिए Aspose.PDF का उपयोग करके XML को आसानी से PDF में कैसे परिवर्तित किया जाए। यह विस्तृत गाइड आपको सेटअप से लेकर पूरा होने तक की प्रक्रिया के बारे में चरण दर चरण बताता है। |  
 | [XPS से PDF में](./xps-to-pdf/) इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.PDF का उपयोग करके XPS फ़ाइलों को PDF में कनवर्ट करना सीखें। डेवलपर्स और दस्तावेज़ उत्साही लोगों के लिए बिल्कुल सही। |  
 | [ICC प्रोफ़ाइल जोड़ें और PDF को PDF/X‑4 में परिवर्तित करें – C# गाइड](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) | इस चरण-दर-चरण गाइड में .NET के लिए Aspose.PDF का उपयोग करके PDF में ICC प्रोफ़ाइल जोड़ना और उसे PDF/X‑4 में बदलना सीखें। |
+| [DOCX में Bates नंबरिंग जोड़ें और PDF में परिवर्तित करें – पूर्ण C# गाइड](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | इस चरण-दर-स्टेप गाइड में .NET के लिए Aspose.PDF का उपयोग करके DOCX में Bates नंबरिंग जोड़कर PDF में बदलना सीखें। |
+| [डॉक्यूमेंट PDF सहेजें – एलिप्स जोड़ें और DOCX को PDF में बदलें](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | इस चरण-दर-स्टेप मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके डॉक्यूमेंट PDF सहेजें, एलिप्स जोड़ें और DOCX को PDF में बदलें। |
+| [C# में docx को pdf में बदलें – पूर्ण चरण‑दर‑चरण गाइड](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | .NET के लिए Aspose.PDF का उपयोग करके C# में DOCX को PDF में बदलने की पूरी प्रक्रिया सीखें। |
 
 | [C# में PDF को PDF/X‑4 में परिवर्तित करें – चरण-दर-चरण ASP.NET PDF ट्यूटोरियल](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | इस ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X‑4 फ़ॉर्मेट में बदलना सीखें। |
 | [PDF दस्तावेज़ लोड करें C# – PDF/X-4 में परिवर्तित करने की चरण-दर-चरण गाइड](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | इस चरण-दर-चरण ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ को लोड करके PDF/X-4 फ़ॉर्मेट में बदलना सीखें। |  

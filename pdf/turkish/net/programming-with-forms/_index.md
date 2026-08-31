@@ -48,6 +48,8 @@ Bu eğitimler ayrıca anlamanızı ve öğrenmenizi kolaylaştırmak için ayrı
 | [Radyo Düğmesi](./radio-button/) | Bu adım adım eğitimle Aspose.PDF for .NET kullanarak PDF belgelerinde etkileşimli radyo düğmelerinin nasıl oluşturulacağını öğrenin. |
 | [PDF'lere Bates Numaraları Ekle – Adım Adım C# Kılavuzu](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Aspose.PDF for .NET ile PDF'lere Bates numaraları ekleyerek belge takibini otomatikleştirin. |
 | [Birden Çok Metin Kutusu Widget'ı Kullanarak PDF Belgesi Oluşturma – Adım Adım Kılavuz](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Aspose.PDF for .NET kullanarak PDF belgesine birden çok metin kutusu widget'ı eklemeyi ve doldurmayı öğrenin. |
+| [PDF'ye Metin Kutusu Ekleme – PDF Form Alanı Oluşturma ve Düzenlenmiş PDF Belgesini Kaydetme](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Aspose.PDF for .NET kullanarak PDF'ye metin kutusu ekleyin, form alanı oluşturun ve düzenlenmiş belgeyi kaydedin. |  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -64,6 +64,9 @@ Naučte se, jak načíst podepsaný PDF soubor a získat seznam všech digitáln
 Naučte se, jak ověřit podpis PDF a přidat obdélníkovou oblast pomocí Aspose.PDF pro .NET.
 ### [Export PDF do HTML a ověření podpisu PDF pomocí Aspose](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
 Naučte se exportovat PDF do HTML a ověřit digitální podpis PDF pomocí Aspose.PDF pro .NET.
+### [Výukový program o podpisu PDF – Ověření PDF podpisů v C# s Aspose.Pdf](./pdf-signature-tutorial-verify-pdf-signatures-in-c-with-aspos/)
+Naučte se, jak ověřovat PDF podpisy v C# pomocí Aspose.Pdf a zajistit integritu dokumentů.
+
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)

@@ -53,6 +53,7 @@ Aspose.PDF for .NET "Forms 프로그래밍" 튜토리얼은 대화형 PDF 양식
 | [Aspose를 사용하여 PDF 만들기 – 양식 필드 및 페이지 추가](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Aspose.PDF for .NET을 사용하여 PDF에 양식 필드와 페이지를 추가하는 방법을 단계별로 안내합니다. |  
 | [PDF에 Bates 번호 추가 – 단계별 C# 가이드](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF에 Bates 번호를 추가하는 단계별 가이드입니다. |  
 | [여러 텍스트 박스 위젯이 있는 PDF 문서 만들기 – 단계별 가이드](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Aspose.PDF for .NET을 사용하여 여러 텍스트 박스 위젯이 포함된 PDF 문서를 만드는 방법을 단계별로 안내합니다. |  
+| [텍스트 상자 PDF 추가 방법 – PDF 양식 필드 만들기 및 편집된 PDF 문서 저장](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Aspose.PDF for .NET을 사용하여 PDF에 텍스트 상자를 추가하고, 양식 필드를 만든 뒤 편집된 PDF 문서를 저장하는 방법을 단계별로 안내합니다. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

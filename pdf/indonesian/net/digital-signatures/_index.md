@@ -63,6 +63,12 @@ Pelajari cara memverifikasi tanda tangan PDF dan menambahkan bentuk persegi panj
 Pelajari cara mengekspor PDF ke HTML dan memvalidasi tanda tangan PDF menggunakan Aspose.PDF untuk .NET.
 ### [Cara Memverifikasi Tanda Tangan dalam PDF dengan Aspose.Pdf – Panduan C#](./how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/)
 Pelajari cara memverifikasi tanda tangan digital dalam file PDF menggunakan Aspose.Pdf dengan contoh kode C#.
+### [Tutorial Tanda Tangan PDF – Verifikasi Tanda Tangan PDF di C# dengan Aspose.Pdf](./pdf-signature-tutorial-verify-pdf-signatures-in-c-with-aspos/)
+Pelajari cara memverifikasi tanda tangan PDF menggunakan C# dan Aspose.Pdf, memastikan integritas dokumen dengan contoh kode lengkap.
+
+### [Cara Memvalidasi Tanda Tangan PDF dan Menambahkan Penomoran Bates ke PDF](./how-to-validate-pdf-signature-and-add-bates-numbering-to-pdf/)
+Panduan langkah demi langkah untuk memverifikasi tanda tangan PDF dan menambahkan penomoran Bates menggunakan Aspose.PDF untuk .NET.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

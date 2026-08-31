@@ -34,6 +34,7 @@ Dowiesz się, jak określać ustawienia konwersji, wyodrębniać tekst i obrazy,
 | [PCL do PDF](./pcl-to-pdf/) | Dowiedz się, jak konwertować pliki PCL do PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Idealne zarówno dla deweloperów, jak i firm. |  
 | [PDFA do PDF](./pdfa-to-pdf/) | Dowiedz się, jak przekonwertować format PDF/A na PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego kompleksowego przewodnika krok po kroku. |  
 | [PDF do DOC](./pdf-to-doc/) | Dowiedz się, jak przekonwertować PDF na DOC za pomocą Aspose.PDF dla .NET w tym kompleksowym przewodniku. Zawiera instrukcje krok po kroku i wskazówki. |  
+| [Konwertuj docx do pdf w C# – Kompletny przewodnik krok po kroku](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Dowiedz się, jak konwertować pliki DOCX do PDF w C# przy użyciu Aspose.PDF dla .NET w tym kompletnym przewodniku krok po kroku. |  
 | [PDF do EPUB](./pdf-to-epub/) | Dowiedz się, jak przekonwertować PDF na EPUB za pomocą Aspose.PDF dla .NET w tym samouczku krok po kroku. Idealne dla programistów i twórców treści. |  
 | [PDF do HTML](./pdf-to-html/) | Dowiedz się, jak konwertować PDF do HTML za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Idealne dla programistów i twórców treści. |  
 | [PDF do PDFA](./pdf-to-pdfa/) Dowiedz się, jak konwertować pliki PDF do formatu PDF/A za pomocą Aspose.PDF dla .NET, korzystając z tego samouczka krok po kroku. |  
@@ -66,6 +67,8 @@ Dowiesz się, jak określać ustawienia konwersji, wyodrębniać tekst i obrazy,
 | [Jak konwertować PDF przy użyciu Aspose.Pdf – Kompletny przewodnik C#](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | Dowiedz się, jak konwertować pliki PDF przy użyciu Aspose.Pdf w pełnym przewodniku C#, krok po kroku. |
 | [Zapisz PDF jako HTML – Zachowaj wektory i wyłącz rasteryzację](./save-pdf-as-html-keep-vectors-disable-rasterization/) | Dowiedz się, jak zapisać PDF jako HTML zachowując wektory i wyłączając rasteryzację przy użyciu Aspose.PDF dla .NET. |
 | [Jak zapisać PDF przy użyciu Aspose – Kompletny przewodnik konwersji C#](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) | Dowiedz się, jak zapisać PDF przy użyciu Aspose w pełnym przewodniku konwersji C#. |
+| [Zapisz dokument PDF – jak dodać elipsę i konwertować DOCX do PDF](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | Dowiedz się, jak dodać elipsę do dokumentu PDF i konwertować plik DOCX do PDF przy użyciu Aspose.PDF dla .NET. |  
+| [Dodaj numerację Bates do DOCX i konwertuj do PDF – Kompletny przewodnik C#](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | Dowiedz się, jak dodać numerację Bates do dokumentu DOCX i przekonwertować go na PDF przy użyciu Aspose.PDF dla .NET w pełnym przewodniku C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

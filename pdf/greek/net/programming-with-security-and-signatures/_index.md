@@ -45,6 +45,7 @@
 | [Επαλήθευση ψηφιακής υπογραφής PDF σε C# – Πλήρης οδηγός](./verify-pdf-digital-signature-in-c-complete-guide/) | Μάθετε πώς να επαληθεύετε ψηφιακές υπογραφές PDF σε C# χρησιμοποιώντας το Aspose.PDF για .NET με οδηγίες βήμα προς βήμα. |  
 | [Δημιουργία χειριστή υπογραφής PDF – Λίστα υπογραφών σε C#](./create-pdf-signature-handler-list-signatures-in-c/) | Μάθετε πώς να δημιουργήσετε έναν χειριστή υπογραφής PDF και να εμφανίσετε τη λίστα υπογραφών σε C# χρησιμοποιώντας το Aspose.PDF για .NET. |
 | [Επικύρωση υπογραφής PDF σε C# – Οδηγός βήμα προς βήμα](./validate-pdf-signature-in-c-step-by-step-guide/) | Μάθετε πώς να επικυρώνετε υπογραφές PDF σε C# με το Aspose.PDF για .NET, ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα. |
+| [Φόρτωση εγγράφου PDF C# – Πλήρης οδηγός ανάγνωσης και καταγραφής υπογραφών](./load-pdf-document-c-complete-guide-to-reading-and-listing-si/) | Μάθετε πώς να φορτώνετε PDF σε C# και να διαβάζετε και να καταγράφετε τις ψηφιακές υπογραφές. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

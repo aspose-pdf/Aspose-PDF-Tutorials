@@ -34,6 +34,8 @@ Aspose.PDF Net のコードチュートリアル
 
 ### [Aspose のインストール方法 – 特定バージョン向け PowerShell ガイド](./how-to-install-aspose-powershell-guide-for-specific-versions/)
 特定バージョンの Aspose を PowerShell でインストールする手順を解説します。
+### [PowerShell を使用して NuGet パッケージをインストールする方法 – ステップバイステップ](./how-to-install-nuget-packages-via-powershell-step-by-step/)
+PowerShell で NuGet パッケージをインストールする手順を詳しく解説します。
 
 ## 追加リソース
 

@@ -28,6 +28,10 @@ Aprenderá a especificar la configuración de conversión, extraer texto e imág
 | [Guardar PDF como HTML – Mantener Vectores y Desactivar la Rasterización](./save-pdf-as-html-keep-vectors-disable-rasterization/) | Aprenda a guardar PDF como HTML conservando los vectores y evitando la rasterización con Aspose.PDF para .NET. |
 | [Orientación de la página según las dimensiones de la imagen](./page-orientation-according-image-dimensions/) Aprenda a crear archivos PDF con Aspose.PDF para .NET, configurando la orientación de la página en función de las dimensiones de la imagen en esta guía paso a paso. |  
 | [PDFA a PDF](./pdfa-to-pdf/) | Aprenda a convertir PDF/A a PDF usando Aspose.PDF para .NET en esta guía completa paso a paso. |  
+| [PDF a DOC](./pdf-to-doc/) Aprenda a convertir PDF a DOC con Aspose.PDF para .NET en esta guía completa. Incluye instrucciones y consejos paso a paso.  
+| [Convertir docx a pdf en C# – Guía completa paso a paso](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) Aprenda a convertir archivos DOCX a PDF usando C# y Aspose.PDF para .NET con esta guía paso a paso.  
+| [PDF a EPUB](./pdf-to-epub/) Aprenda a convertir PDF a EPUB con Aspose.PDF para .NET en este tutorial paso a paso. Ideal para desarrolladores y creadores de contenido.  
+| [PDF a HTML](./pdf-to-html/) Aprenda a convertir PDF a HTML con Aspose.PDF para .NET con esta guía paso a paso. Ideal para desarrolladores y creadores de contenido.  
 | [PDF a PDFA](./pdf-to-pdfa/) Aprenda a convertir archivos PDF al formato PDF/A usando Aspose.PDF para .NET con este tutorial paso a paso. |  
 | [PDF a PDFA3b](./pdf-to-pdfa3b/) | Aprenda a convertir archivos PDF al formato PDF/A-3B sin esfuerzo con Aspose.PDF para .NET en esta guía paso a paso. |  
 | [Sugerencias de fuente de PDF a PNG](./pdf-to-png-font-hinting/) | Aprenda a convertir PDF a PNG con sugerencias de fuente usando Aspose.PDF para .NET en una sencilla guía paso a paso. |  
@@ -44,6 +48,8 @@ Aprenderá a especificar la configuración de conversión, extraer texto e imág
 | [Conversión de Aspose PDF a HTML en C# – Guía completa](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | Aprenda a convertir archivos PDF a HTML con Aspose.PDF para .NET usando C# en esta guía paso a paso. |
 | [Cómo convertir PDF con Aspose.Pdf – Guía completa en C#](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | Aprenda a convertir PDFs con Aspose.Pdf usando C# en esta guía completa paso a paso. |  
 | [Cómo guardar PDF con Aspose – Guía completa de conversión en C#](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) | Aprenda a guardar archivos PDF usando Aspose.PDF para .NET con esta guía completa paso a paso en C#. |  
+| [Agregar numeración Bates a DOCX y convertir a PDF – Guía completa en C#](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | Aprenda a añadir numeración Bates a documentos DOCX y convertirlos a PDF usando Aspose.PDF para .NET con C# paso a paso. |  
+| [Guardar documento PDF – Cómo agregar una elipse y convertir DOCX a PDF](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | Aprenda a guardar un PDF, añadir una elipse y convertir DOCX a PDF con Aspose.PDF para .NET paso a paso. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

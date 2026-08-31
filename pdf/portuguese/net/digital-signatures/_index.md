@@ -65,6 +65,9 @@ Aprenda a carregar um PDF assinado e enumerar todas as assinaturas presentes usa
 Aprenda a validar a assinatura de um PDF e a desenhar um retângulo sobre ele usando Aspose.PDF para .NET.
 ### [Exportar PDF para HTML e validar assinatura de PDF com Aspose](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
 Aprenda a converter PDFs para HTML e validar assinaturas digitais usando Aspose.PDF para .NET.
+### [Tutorial de assinatura PDF – Verificar assinaturas PDF em C# com Aspose.Pdf](./pdf-signature-tutorial-verify-pdf-signatures-in-c-with-aspos/)
+Aprenda a verificar assinaturas digitais em PDFs usando C# e Aspose.Pdf, garantindo a autenticidade e integridade dos documentos.
+
 ## Recursos adicionais
 
 - [Aspose.PDF para documentação da Net](https://docs.aspose.com/pdf/net/)

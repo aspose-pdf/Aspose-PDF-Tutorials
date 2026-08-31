@@ -40,6 +40,8 @@ Ismerje meg, hogyan ellenőrizheti a digitális aláírásokat PDF fájlokban az
 
 ### [PDF aláírás ellenőrzése C#-ban – Teljes lépésről lépésre útmutató](./how-to-verify-pdf-signature-in-c-complete-step-by-step-tutor/)
 Ismerje meg, hogyan ellenőrizheti a PDF aláírásokat C#-ban az Aspose.PDF for .NET segítségével, részletes lépésekkel.
+### [PDF aláírási oktatóanyag – PDF aláírások ellenőrzése C#-ban az Aspose.Pdf segítségével](./pdf-signature-tutorial-verify-pdf-signatures-in-c-with-aspos/)
+Ismerje meg, hogyan ellenőrizheti a PDF aláírásokat C#-ban az Aspose.Pdf segítségével.
 
 ### [PDF aláírás és ellenőrzés mesterfokon az Aspose.PDF .NET segítségével](./mastering-aspose-pdf-net-sign-verify-smart-card-certificates/)
 Kód oktatóanyag az Aspose.PDF Nethez

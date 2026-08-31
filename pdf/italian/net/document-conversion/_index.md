@@ -66,6 +66,9 @@ Imparerai come specificare le impostazioni di conversione, estrarre testo e imma
 | [Come convertire PDF con Aspose.Pdf – Guida completa C#](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | Scopri come convertire PDF in C# utilizzando Aspose.Pdf con questa guida completa passo passo. |
 | [Come salvare PDF con Aspose – Guida completa alla conversione C#](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) | Scopri come salvare PDF utilizzando Aspose.PDF per .NET con questa guida completa passo passo in C#. |
 | [Salva PDF come HTML – Mantieni i Vettori e Disabilita la Rasterizzazione](./save-pdf-as-html-keep-vectors-disable-rasterization/) | Scopri come salvare PDF in HTML mantenendo i vettori e disabilitando la rasterizzazione con Aspose.PDF per .NET. |
+| [Aggiungi numerazione Bates a DOCX e converti in PDF – Guida completa C#](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | Scopri come aggiungere la numerazione Bates a un documento DOCX e convertirlo in PDF utilizzando Aspose.PDF per .NET con questa guida completa. |
+| [Salva documento PDF – Come aggiungere un'ellisse e convertire DOCX in PDF](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | Scopri come aggiungere un'ellisse a un PDF e convertire un file DOCX in PDF usando Aspose.PDF per .NET. |
+| [Converti docx in pdf in C# – Guida completa passo‑passo](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Scopri come convertire file DOCX in PDF usando C# e Aspose.PDF per .NET con questa guida dettagliata passo dopo passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

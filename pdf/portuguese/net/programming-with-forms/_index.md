@@ -47,6 +47,13 @@ Estes tutoriais também fornecem exemplos de código detalhados, explicações c
 | [Como criar PDF com Aspose – Adicionar campo de formulário e páginas](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Aprenda a criar um PDF, adicionar campos de formulário e inserir páginas usando Aspose.PDF para .NET neste tutorial passo a passo. |  
 | [Criar documento PDF com vários widgets de caixa de texto – Guia passo a passo](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Aprenda a criar um PDF com múltiplas caixas de texto usando Aspose.PDF para .NET neste tutorial passo a passo. |
 | [Adicionar Números Bates a PDFs – Guia passo a passo em C#](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Aprenda a inserir números Bates em PDFs usando Aspose.PDF para .NET com este guia passo a passo em C#. |
+| [Caixa de combinação](./combo-box/) Aprenda a adicionar uma Caixa de Combinação a um PDF usando o Aspose.PDF para .NET. Siga nosso guia passo a passo para criar formulários PDF interativos facilmente. |
+| [Preencher campo do formulário PDF](./fill-form-field/) Aprenda a preencher campos de formulários PDF usando o Aspose.PDF para .NET com este tutorial passo a passo. Automatize suas tarefas de PDF sem esforço. |
+| [Obter campos da região em arquivo PDF](./get-fields-from-region/) Aprenda como extrair campos de uma região especificada em arquivos PDF sem esforço usando o Aspose.PDF para .NET neste guia abrangente. |
+| [Botões de opção horizontais e verticais](./horizontally-and-vertically-radio-buttons/) Aprenda a criar botões de opção alinhados horizontal e verticalmente em PDF usando o Aspose.PDF para .NET com este tutorial passo a passo. |
+| [Botão de rádio com opções](./radio-button-with-options/) Libere o potencial dos PDFs interativos adicionando botões de opção com o Aspose.PDF para .NET. Crie formulários envolventes com facilidade e melhore a experiência do usuário. |
+| [Definir legenda do botão de opção](./set-radio-button-caption/) Aprenda a definir legendas para botões de opção em PDFs usando o Aspose.PDF para .NET. Este guia passo a passo explica como carregar, modificar e salvar seus formulários PDF. |
+| [Como Adicionar Caixa de Texto PDF – Criar Campo de Formulário PDF e Salvar Documento PDF Editado](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Aprenda a adicionar caixa de texto, criar campo de formulário e salvar o PDF editado usando Aspose.PDF para .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

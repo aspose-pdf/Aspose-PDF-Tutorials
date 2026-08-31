@@ -66,6 +66,9 @@
 | [Πώς να μετατρέψετε PDF με το Aspose.Pdf – Πλήρης οδηγός C#](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | Μάθετε πώς να μετατρέψετε PDF χρησιμοποιώντας το Aspose.Pdf με πλήρη οδηγό C# βήμα προς βήμα. |
 | [Αποθήκευση PDF ως HTML – Διατήρηση Διανυσμάτων & Απενεργοποίηση Ραστεροποίησης](./save-pdf-as-html-keep-vectors-disable-rasterization/) | Μάθετε πώς να αποθηκεύετε PDF ως HTML διατηρώντας τα διανύσματα και απενεργοποιώντας τη ραστεροποίηση. |  
 | [Πώς να αποθηκεύσετε PDF με το Aspose – Πλήρης οδηγός μετατροπής C#](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) | Μάθετε πώς να αποθηκεύσετε PDF χρησιμοποιώντας το Aspose με πλήρη οδηγό C# βήμα προς βήμα. |  
+| [Μετατροπή docx σε pdf σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PDF χρησιμοποιώντας C# και Aspose.PDF για .NET σε αυτόν τον πλήρη οδηγό βήμα‑βήμα. |
+| [Προσθήκη αριθμού Bates σε DOCX και μετατροπή σε PDF – Πλήρης οδηγός C#](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | Μάθετε πώς να προσθέσετε αριθμό Bates σε έγγραφα DOCX και να τα μετατρέψετε σε PDF χρησιμοποιώντας C# με το Aspose.PDF για .NET. |
+| [Αποθήκευση εγγράφου PDF – Πώς να προσθέσετε έλλειψη & να μετατρέψετε DOCX σε PDF](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | Μάθετε πώς να αποθηκεύσετε ένα PDF, να προσθέσετε έλλειψη και να μετατρέψετε DOCX σε PDF χρησιμοποιώντας Aspose.PDF για .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

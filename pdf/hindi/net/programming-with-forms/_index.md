@@ -47,6 +47,8 @@
 | [Aspose के साथ PDF बनाना – फ़ॉर्म फ़ील्ड और पृष्ठ जोड़ें](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Aspose का उपयोग करके PDF बनाते समय फ़ॉर्म फ़ील्ड और पेज कैसे जोड़ें, इस चरण-दर-चरण गाइड में सीखें। |
 | [PDF में Bates नंबर जोड़ें – चरण‑दर‑चरण C# गाइड](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | इस चरण‑दर‑चरण गाइड में .NET के लिए Aspose.PDF का उपयोग करके PDF में Bates नंबर कैसे जोड़ें, सीखें। |
 | [एकाधिक टेक्स्टबॉक्स विजेट्स के साथ PDF दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | इस चरण‑दर‑चरण ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके कई टेक्स्टबॉक्स विजेट्स वाले PDF दस्तावेज़ बनाने का तरीका सीखें। |
+| [टेक्स्ट बॉक्स PDF कैसे जोड़ें – PDF फ़ॉर्म फ़ील्ड बनाएं और संपादित PDF दस्तावेज़ सहेजें](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | इस ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके टेक्स्ट बॉक्स जोड़ना, फ़ॉर्म फ़ील्ड बनाना और संपादित PDF सहेजना सीखें। |  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

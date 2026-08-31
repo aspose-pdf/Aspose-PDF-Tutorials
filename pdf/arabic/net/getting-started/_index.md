@@ -34,6 +34,8 @@
 
 ### [كيفية تثبيت Aspose – دليل PowerShell للإصدارات المحددة](./how-to-install-aspose-powershell-guide-for-specific-versions/)
 دليل PowerShell لتثبيت Aspose بإصدارات محددة.
+### [كيفية تثبيت حزم NuGet عبر PowerShell – خطوة بخطوة](./how-to-install-nuget-packages-via-powershell-step-by-step/)
+دليل خطوة بخطوة لتثبيت حزم NuGet باستخدام PowerShell في بيئة .NET
 
 ## موارد إضافية
 

@@ -65,6 +65,9 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Signaturen prüfen und ein Re
 Erfahren Sie, wie Sie PDFs mit Aspose in HTML konvertieren und anschließend die Signatur prüfen.
 ### [So überprüfen Sie die Signatur in PDF mit Aspose.PDF – C#‑Leitfaden](./how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET digitale Signaturen in PDFs verifizieren. Schritt‑für‑Schritt‑Anleitung mit C#‑Beispielen.
+### [PDF-Signatur-Tutorial – PDF-Signaturen in C# mit Aspose.PDF überprüfen](./pdf-signature-tutorial-verify-pdf-signatures-in-c-with-aspos/)
+Erfahren Sie, wie Sie PDF-Signaturen in C# mit Aspose.PDF überprüfen und die Integrität Ihrer Dokumente sicherstellen.
+
 ## Weitere Ressourcen
 
 - [Aspose.PDF für Net-Dokumentation](https://docs.aspose.com/pdf/net/)

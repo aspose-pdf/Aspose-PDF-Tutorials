@@ -34,6 +34,8 @@ Dowiedz się, jak płynnie przełączać się między trybem próbnym a licencjo
 
 ### [Jak zainstalować Aspose – przewodnik PowerShell dla konkretnych wersji](./how-to-install-aspose-powershell-guide-for-specific-versions/)
 Przewodnik PowerShell pokazujący, jak zainstalować Aspose dla wybranych wersji.
+### [Jak zainstalować pakiety NuGet za pomocą PowerShell – krok po kroku](./how-to-install-nuget-packages-via-powershell-step-by-step/)
+Instrukcja instalacji pakietów NuGet przy użyciu PowerShell, krok po kroku, dla projektów .NET.
 
 ## Dodatkowe zasoby
 

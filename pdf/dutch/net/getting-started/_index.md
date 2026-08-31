@@ -34,6 +34,8 @@ Ontdek hoe u naadloos kunt schakelen tussen de proefversie en de licentieversie 
 
 ### [Hoe Aspose te installeren – PowerShell-gids voor specifieke versies](./how-to-install-aspose-powershell-guide-for-specific-versions/)
 Een stapsgewijze PowerShell-gids om Aspose te installeren voor specifieke versies.
+### [Hoe NuGet-pakketten te installeren via PowerShell – stap voor stap](./how-to-install-nuget-packages-via-powershell-step-by-step/)
+Leer hoe u NuGet-pakketten via PowerShell kunt installeren met een stapsgewijze handleiding.
 
 ## Aanvullende bronnen
 

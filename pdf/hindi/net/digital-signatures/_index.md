@@ -55,6 +55,11 @@ Aspose का उपयोग करके PDF हस्ताक्षर क�
 Aspose का उपयोग करके PDF को HTML में बदलें और डिजिटल हस्ताक्षर को सत्यापित करें।
 ### [Aspose.Pdf के साथ PDF में हस्ताक्षर कैसे सत्यापित करें – C# गाइड](./how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/)
 Aspose.Pdf का उपयोग करके C# में PDF हस्ताक्षरों को सत्यापित करने के चरण-दर-चरण मार्गदर्शन।
+### [pdf हस्ताक्षर ट्यूटोरियल – C# में Aspose.Pdf के साथ PDF हस्ताक्षरों को सत्यापित करें](./pdf-signature-tutorial-verify-pdf-signatures-in-c-with-aspos/)
+
+### [PDF हस्ताक्षर को सत्यापित करने और PDF में Bates नंबरिंग जोड़ने की विधि](./how-to-validate-pdf-signature-and-add-bates-numbering-to-pdf/)
+PDF हस्ताक्षर की वैधता जांचें और Bates नंबरिंग जोड़ने के चरण-दर-चरण मार्गदर्शन।
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.PDF for Net दस्तावेज़ीकरण](https://docs.aspose.com/pdf/net/)

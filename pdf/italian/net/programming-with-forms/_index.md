@@ -47,6 +47,7 @@ Questi tutorial forniscono anche esempi di codice dettagliati, spiegazioni chiar
 | [Pulsante di scelta](./radio-button/) | Scopri come creare pulsanti di scelta interattivi nei documenti PDF utilizzando Aspose.PDF per .NET con questo tutorial passo dopo passo. |
 | [Aggiungi numeri Bates ai PDF – Guida passo‑passo C#](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Scopri come aggiungere numeri Bates ai PDF con Aspose.PDF per .NET in C#, passo dopo passo. |
 | [Crea documento PDF con più widget di casella di testo – Guida passo‑passo](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Scopri come creare un documento PDF con più widget di casella di testo usando Aspose.PDF per .NET in questa guida passo‑passo. |
+| [Come aggiungere una casella di testo PDF – Creare campo modulo PDF e salvare il documento PDF modificato](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Scopri come aggiungere una casella di testo a un PDF, creare il campo modulo e salvare il documento PDF modificato con Aspose.PDF per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

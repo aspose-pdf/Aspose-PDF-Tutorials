@@ -34,6 +34,8 @@ Erfahren Sie, wie Sie durch Laden einer Lizenzdatei nahtlos zwischen Test- und l
 
 ### [Wie Aspose installieren – PowerShell-Anleitung für bestimmte Versionen](./how-to-install-aspose-powershell-guide-for-specific-versions/)
 Ein Schritt-für-Schritt-Guide, um Aspose über PowerShell für ausgewählte Versionen zu installieren.
+### [Wie man NuGet-Pakete über PowerShell installiert – Schritt für Schritt](./how-to-install-nuget-packages-via-powershell-step-by-step/)
+Ein Leitfaden zur Installation von NuGet-Paketen über PowerShell in .NET-Projekten, Schritt für Schritt erklärt.
 
 ## Weitere Ressourcen
 

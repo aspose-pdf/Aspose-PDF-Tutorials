@@ -34,6 +34,8 @@ Tìm hiểu cách chuyển đổi liền mạch giữa chế độ dùng thử v
 
 ### [Cách cài đặt Aspose – Hướng dẫn PowerShell cho các phiên bản cụ thể](./how-to-install-aspose-powershell-guide-for-specific-versions/)
 Hướng dẫn chi tiết cách sử dụng PowerShell để cài đặt Aspose cho các phiên bản .NET cụ thể.
+### [Cách cài đặt gói NuGet qua PowerShell – từng bước](./how-to-install-nuget-packages-via-powershell-step-by-step/)
+Hướng dẫn chi tiết cách sử dụng PowerShell để cài đặt các gói NuGet trong dự án .NET.
 
 ## Tài nguyên bổ sung
 

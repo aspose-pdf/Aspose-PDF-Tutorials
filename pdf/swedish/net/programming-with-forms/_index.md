@@ -53,6 +53,7 @@ Dessa handledningar ger också detaljerade kodexempel, tydliga förklaringar och
 | [Hur man skapar PDF med Aspose – Lägg till formulärfält och sidor](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Lär dig hur du skapar en PDF, lägger till formulärfält och sidor med Aspose.PDF för .NET i en steg-för-steg-guide. |
 | [Lägg till Bates-nummer i PDF-filer – Steg‑för‑steg C#‑guide](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Lär dig hur du lägger till Bates-nummer i PDF-filer med Aspose.PDF för .NET i en steg‑för‑steg‑guide för C#. |
 | [Skapa PDF-dokument med flera TextBox‑widgets – steg‑för‑steg‑guide](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Lär dig hur du skapar ett PDF‑dokument med flera TextBox‑widgets med Aspose.PDF för .NET i den här steg‑för‑steg‑guiden. |
+| [Hur man lägger till textruta PDF – Skapa PDF-formulärfält och spara redigerat PDF-dokument](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Lär dig hur du lägger till en textruta i ett PDF-formulär, skapar fält och sparar det redigerade dokumentet med Aspose.PDF för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

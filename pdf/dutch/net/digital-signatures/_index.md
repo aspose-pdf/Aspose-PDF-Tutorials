@@ -63,6 +63,8 @@ Leer hoe u een PDF-handtekening verifieert en een rechthoek toevoegt met Aspose.
 Leer hoe u PDF-bestanden exporteert naar HTML en de digitale handtekening controleert met Aspose.PDF voor .NET.
 ### [Hoe handtekening in PDF te verifiëren met Aspose.Pdf – C#-gids](./how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/)
 Leer hoe u digitale handtekeningen in PDF's kunt verifiëren met Aspose.Pdf in C#.
+### [PDF-handtekening tutorial – PDF-handtekeningen verifiëren in C# met Aspose.Pdf](./pdf-signature-tutorial-verify-pdf-signatures-in-c-with-aspos/)
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

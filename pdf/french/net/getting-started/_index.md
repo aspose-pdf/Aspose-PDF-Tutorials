@@ -34,6 +34,8 @@ Découvrez comment basculer de manière transparente entre les modes d'essai et 
 
 ### [Comment installer Aspose – Guide PowerShell pour des versions spécifiques](./how-to-install-aspose-powershell-guide-for-specific-versions/)
 Un guide PowerShell détaillé pour installer Aspose sur des versions spécifiques.
+### [Comment installer des packages NuGet via PowerShell – étape par étape](./how-to-install-nuget-packages-via-powershell-step-by-step/)
+Guide détaillé pour installer des packages NuGet en utilisant PowerShell, avec des instructions pas à pas.
 
 ## Ressources supplémentaires
 
