@@ -1,0 +1,7 @@
+Title: Add rectangle to PDF with C# – step‑by‑step guide
+Slug: add-rectangle-to-pdf-with-c-step-by-step-guide
+Category: images-graphics
+ProcessedDate: 2026-08-05T07:42:11.608149
+SourceRepo: AI Search API
+Keywords: add rectangle to pdf, how to draw shape in pdf c#
+PRNumber: 114

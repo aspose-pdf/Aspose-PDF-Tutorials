@@ -37,8 +37,14 @@ I tutorial di Aspose.PDF "Programmazione con timbri e filigrane" per .NET ti gui
 | [Numero di pagina nell'intestazione e nel piè di pagina tramite casella mobile](./page-number-in-header-footer-using-floating-box/) | Aggiungi facilmente i numeri di pagina nell'intestazione e nel piè di pagina del tuo PDF utilizzando una casella mobile con Aspose.PDF per .NET in questa guida dettagliata. |  
 | [Timbri numerici di pagina nel file PDF](./page-number-stamps/) Scopri come aggiungere timbri con i numeri di pagina ai file PDF utilizzando Aspose.PDF per .NET attraverso la nostra guida semplice da seguire, completa di esempi di codice. |  
 | [Tabella nella sezione Intestazione Piè di pagina](./table-in-header-footer-section/) | Scopri come aggiungere facilmente testo al piè di pagina di un file PDF utilizzando Aspose.PDF per .NET. Guida passo passo inclusa per un'integrazione perfetta. |  
-| [Testo nel piè di pagina del file PDF](./text-in-footer/) | Scopri come aggiungere testo nel piè di pagina di un file PDF con Aspose.PDF per .NET. |  
+| [Testo nel piè di pagina del file PDF](./text-in-footer/) | Scopri come aggiungere testo nel piè di pagina di un PDF con Aspose.PDF per .NET. |  
 | [Testo nell'intestazione del file PDF](./text-in-header/) | Impara ad aggiungere intestazioni di testo ai PDF utilizzando Aspose.PDF per .NET con questo tutorial passo passo. Migliora i tuoi documenti in modo efficiente ed efficace. |  
+| [Aggiungi numeri Bates ai PDF con C#](./bates-numbering-tutorial-add-bates-numbers-to-pdfs-with-c/) | Scopri come aggiungere numeri Bates ai PDF utilizzando Aspose.PDF per .NET con C#, passo passo con esempi di codice. |
+| [Modifica l'opacità del PDF in C# – Guida completa Aspose](./change-pdf-opacity-in-c-complete-aspose-guide/) | Scopri come modificare l'opacità di un PDF usando Aspose.PDF per .NET con esempi di codice C# passo passo. |
+| [Aggiungi numerazione Bates al PDF – Guida completa C#](./add-bates-numbering-pdf-complete-c-guide/) | Scopri come aggiungere la numerazione Bates ai PDF usando Aspose.PDF per .NET con esempi di codice C# passo passo. |
+| [Aggiungi numerazione Bates PDF in C# – Guida completa](./add-bates-numbering-pdf-in-c-complete-guide/) | Scopri come aggiungere la numerazione Bates ai PDF usando Aspose.PDF per .NET con esempi di codice dettagliati. |  
+| [Come aggiungere Bates – Guida passo‑passo per PDF](./how-to-add-bates-step-by-step-guide-for-pdfs/) | Scopri come aggiungere numerazione Bates ai PDF con Aspose.PDF per .NET tramite una guida dettagliata passo passo. |
+| [Modifica l'opacità PDF con Aspose.PDF – Guida completa C#](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) | Scopri come modificare l'opacità di un PDF usando Aspose.PDF per .NET con esempi di codice C# passo passo. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -32,6 +32,8 @@ Samouczek dotyczący kodu dla Aspose.PDF Net
 ### [Ładowanie licencji Aspose.PDF z pliku w .NET: kompleksowy przewodnik](./load-aspose-pdf-license-file-net/)
 Dowiedz się, jak płynnie przełączać się między trybem próbnym a licencjonowanym aplikacji Aspose.PDF w środowisku .NET, ładując plik licencji i zapewniając tym samym płynne działanie aplikacji.
 
+### [Jak zainstalować Aspose – przewodnik PowerShell dla konkretnych wersji](./how-to-install-aspose-powershell-guide-for-specific-versions/)
+Przewodnik PowerShell pokazujący, jak zainstalować Aspose dla wybranych wersji.
 ### [Jak zainstalować pakiety NuGet za pomocą PowerShell – krok po kroku](./how-to-install-nuget-packages-via-powershell-step-by-step/)
 Instrukcja instalacji pakietów NuGet przy użyciu PowerShell, krok po kroku, dla projektów .NET.
 

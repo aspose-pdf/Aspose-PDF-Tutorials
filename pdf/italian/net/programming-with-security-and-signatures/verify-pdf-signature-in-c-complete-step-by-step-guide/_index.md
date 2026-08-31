@@ -1,21 +1,21 @@
 ---
 category: general
-date: 2026-02-20
-description: Impara a verificare rapidamente la firma PDF in C#. Questo tutorial copre
-  anche la convalida della firma digitale PDF, il controllo della validità della firma
-  e il caricamento di documenti PDF in C#.
+date: 2026-02-25
+description: Verifica la firma PDF in C# con Aspose.Pdf – scopri come convalidare
+  la firma PDF rispetto a un server CA, gestire la verifica della catena e evitare
+  gli errori più comuni.
 draft: false
 keywords:
 - verify pdf signature
-- validate pdf digital signature
-- check signature validity
-- load pdf document c#
+- validate pdf signature
 - how to verify pdf signature
+- pdf digital signature verification
+- c# pdf signature validation
 language: it
-og_description: Verifica la firma PDF in C# con un esempio reale. Segui questa guida
-  per convalidare la firma digitale PDF, controllare la validità della firma e caricare
-  il documento PDF in C#.
-og_title: Verifica della firma PDF in C# – Guida completa alla programmazione
+og_description: verifica la firma PDF in C# usando Aspose.Pdf. Questo tutorial mostra
+  come convalidare la firma PDF contro un server CA, con codice, suggerimenti e gestione
+  dei casi limite.
+og_title: Verifica della firma PDF in C# – Guida completa passo‑passo
 tags:
 - PDF
 - C#
@@ -24,173 +24,242 @@ title: Verifica della firma PDF in C# – Guida completa passo‑passo
 url: /it/net/programming-with-security-and-signatures/verify-pdf-signature-in-c-complete-step-by-step-guide/
 ---
 
-" etc.
-
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Verifica della firma PDF in C# – Guida completa passo‑paso
+# verifica della firma PDF in C# – Guida completa passo‑per‑passo
 
-Ti è mai capitato di dover **verificare la firma PDF** ma non sapevi da dove cominciare in C#? Non sei l’unico: molti sviluppatori si trovano di fronte a questo ostacolo al primo incontro con PDF firmati. La buona notizia è che, con poche righe di codice, puoi **validare la firma digitale PDF**, controllarne l’integrità e persino eseguire controlli di revoca online.  
+Hai mai dovuto **verificare la firma PDF** su un documento che i tuoi clienti ti inviano? Forse stai costruendo un flusso di approvazione fatture e non puoi permetterti di accettare un PDF contraffatto. In questo tutorial percorreremo un esempio pratico, end‑to‑end, che mostra esattamente come **validare la firma PDF** con C# e Aspose.Pdf, e risponderemo anche alla domanda “come verificare la firma PDF” che compare in molti forum.
 
-In questo tutorial vedremo come caricare un documento PDF, configurare il controllo di revoca e, infine, confermare se una firma specifica (ad esempio “Sig1”) è ancora affidabile. Alla fine sarai in grado di **controllare la validità della firma** su qualsiasi PDF in tuo possesso e comprenderai il perché di ogni passaggio.
+Concluderai questa guida con un’app console eseguibile che comunica con il tuo endpoint OCSP/CRL, controlla la catena di certificati e stampa un chiaro risultato true/false. Niente passaggi vaghi “vedi la documentazione” — tutto ciò di cui hai bisogno è qui.
 
-## Prerequisiti e cosa ti servirà
+---
 
-- **.NET 6.0 o successivo** – il codice utilizza la sintassi moderna di C#, ma versioni precedenti funzionano con piccole modifiche.  
-- **Aspose.PDF for .NET** (o qualsiasi libreria che esponga `PdfFileSignature`). Installa via NuGet:  
+## Cosa ti servirà
 
-  ```bash
-  dotnet add package Aspose.PDF
-  ```
+Prima di iniziare, assicurati di avere i seguenti prerequisiti:
 
-- Un file PDF firmato chiamato `input.pdf` posizionato in una cartella di tua scelta (lo chiameremo `YOUR_DIRECTORY`).  
-- Familiarità di base con le app console C#—se sai scrivere `Console.WriteLine`, sei pronto.
+| Prerequisito | Perché è importante |
+|--------------|---------------------|
+| **.NET 6.0 o successivo** | L’ultima runtime ti dà accesso a funzionalità linguistiche moderne e alle versioni più recenti delle librerie Aspose.Pdf. |
+| **Aspose.Pdf for .NET** (pacchetto NuGet `Aspose.PDF`) | Questa libreria fornisce le classi `Document`, `PdfFileSignature` e `ValidationOptions` usate nel codice. |
+| **Un PDF firmato** (`signed.pdf`) | Il file che vuoi verificare; deve contenere almeno una firma digitale. |
+| **Accesso all’endpoint OCSP della tua CA** (es. `https://ca.mycompany.com/ocsp`) | Necessario per il controllo in tempo reale della revoca e la validazione della catena. |
 
-> **Pro tip:** Se usi una libreria PDF diversa, cerca le classi equivalenti (`PdfDocument`, `SignatureValidator`, ecc.). I concetti rimangono gli stessi.
+Se qualcosa di tutto ciò ti è sconosciuto, non preoccuparti — installare il pacchetto NuGet è una singola riga (`dotnet add package Aspose.PDF`) e il resto è semplicemente un file su disco.
 
-## Passo 1: Carica il documento PDF in C#
+---
 
-Prima che possa avvenire qualsiasi verifica, il PDF deve essere caricato in memoria. Pensalo come aprire un libro prima di leggere la pagina della firma.
+## Passo 1: Apri il documento PDF firmato
 
-```csharp
-using Aspose.Pdf;          // Namespace for Document
-using Aspose.Pdf.Signatures; // Namespace for PdfFileSignature
-
-// Replace YOUR_DIRECTORY with the actual path on your machine
-string pdfPath = Path.Combine("YOUR_DIRECTORY", "input.pdf");
-
-// Load the PDF document you want to verify
-Document pdfDocument = new Document(pdfPath);
-```
-
-**Perché è importante:** Il caricamento del documento crea un modello di oggetti manipolabile. Senza di esso, la libreria non può ispezionare i campi firma incorporati.
-
-## Passo 2: Crea un’istanza di PdfFileSignature
-
-La classe `PdfFileSignature` è il punto di accesso a tutte le operazioni legate alle firme. Avvolge il `Document` che abbiamo appena caricato.
-
-```csharp
-// Create a PdfFileSignature object for the loaded document
-PdfFileSignature pdfSignature = new PdfFileSignature(pdfDocument);
-```
-
-**Spiegazione:** L’oggetto contiene sia i dati PDF sia i metodi necessari per verificare, aggiungere o rimuovere firme. Istanziare la classe subito mantiene il codice pulito e separa le responsabilità.
-
-## Passo 3: Abilita il controllo di revoca online (Opzionale ma consigliato)
-
-Il controllo di revoca online contatta le autorità di certificazione per confermare che il certificato di firma non sia stato revocato. Questo passaggio migliora notevolmente l’affidabilità.
-
-```csharp
-// Enable online revocation checking for more reliable validation
-pdfSignature.ValidationOptions = new ValidationOptions
-{
-    UseOnlineRevocationChecking = true
-};
-```
-
-> **Perché abilitarlo?** Una firma può essere tecnicamente corretta, ma il certificato potrebbe essere stato revocato dopo la firma. I controlli online rilevano questo scenario, fornendoti una risposta reale “valida/non valida”.
-
-## Passo 4: Verifica la firma per nome
-
-Ora chiediamo effettivamente alla libreria di verificare un campo firma specifico. La maggior parte dei PDF contiene un nome predefinito come “Signature1”, ma puoi sostituire `"Sig1"` con qualsiasi nome usato dal tuo PDF.
-
-```csharp
-// Verify the signature with the specified name
-bool isSignatureValid = pdfSignature.VerifySignature("Sig1");
-
-// Output the result to the console
-Console.WriteLine($"Signature \"Sig1\" valid: {isSignatureValid}");
-```
-
-**Cosa vedrai:** Se la firma è intatta e il certificato è ancora attendibile, la console stampa `Signature "Sig1" valid: True`. Altrimenti otterrai `False`, indicando un problema come manomissione o revoca.
-
-## Passo 5: Esempio completo (pronto per il copia‑incolla)
-
-Di seguito trovi l’intero programma, pronto per la compilazione. Salvalo come `Program.cs`, esegui `dotnet run` e osserva l’output.
+La prima cosa da fare è caricare il PDF che contiene la firma. Pensa a `Document` come all’oggetto “libro”; senza aprirlo, nient’altro ha senso.
 
 ```csharp
 using System;
-using System.IO;
+using System.Linq;
 using Aspose.Pdf;
-using Aspose.Pdf.Signatures;
+using Aspose.Pdf.Facades;
 
 class Program
 {
     static void Main()
     {
-        // 1️⃣ Load the PDF document you want to verify
-        string pdfPath = Path.Combine("YOUR_DIRECTORY", "input.pdf");
-        Document pdfDocument = new Document(pdfPath);
+        // Replace with the actual path to your signed PDF
+        const string pdfPath = @"YOUR_DIRECTORY\signed.pdf";
 
-        // 2️⃣ Create a PdfFileSignature object for the loaded document
-        PdfFileSignature pdfSignature = new PdfFileSignature(pdfDocument);
+        // Step 1 – Load the PDF file
+        using var document = new Document(pdfPath);
+```
 
-        // 3️⃣ Enable online revocation checking (optional but best practice)
+> **Perché questo passo?** L’apertura del file ci dà accesso alla collezione di firme, che dovremo enumerare in seguito. L’istruzione `using` garantisce che la maniglia del file venga rilasciata prontamente.
+
+---
+
+## Passo 2: Inizializza il gestore della firma PDF
+
+Ora creiamo un oggetto `PdfFileSignature`. Questa façade è il motore che ci permette di interrogare e verificare le firme.
+
+```csharp
+        // Step 2 – Create the signature handler
+        using var pdfSignature = new PdfFileSignature(document);
+```
+
+> **Pro tip:** Se lavori con PDF molto grandi, considera di caricarli con `LoadOptions` per ridurre l’uso di memoria. Non è obbligatorio nella maggior parte degli scenari, ma può farti risparmiare qualche gigabyte sul server.
+
+---
+
+## Passo 3: Imposta le opzioni di validazione – Punta al server CA e abilita la verifica della catena
+
+Qui diciamo ad Aspose come **validare la firma PDF** rispetto alla tua Certificate Authority. L’oggetto `ValidationOptions` ti permette di inserire un URL OCSP e attivare il controllo completo della catena.
+
+```csharp
+        // Step 3 – Configure validation (validate pdf signature)
         pdfSignature.ValidationOptions = new ValidationOptions
         {
-            UseOnlineRevocationChecking = true
+            // Your organization’s OCSP responder
+            CaServerUrl = "https://ca.mycompany.com/ocsp",
+            // Verify the whole certificate chain, not just the leaf cert
+            VerifyCertificateChain = true
         };
+```
 
-        // 4️⃣ Verify the signature named "Sig1"
-        bool isSignatureValid = pdfSignature.VerifySignature("Sig1");
+> **Perché è importante:** Senza un server CA, la libreria può eseguire solo controlli di integrità di base. Abilitare `VerifyCertificateChain` garantisce che ogni certificato nel percorso di firma sia attendibile, cosa fondamentale per settori con requisiti di conformità stringenti.
 
-        // 5️⃣ Display the verification result
-        Console.WriteLine($"Signature \"Sig1\" valid: {isSignatureValid}");
+---
+
+## Passo 4: Verifica la prima firma nel documento
+
+La maggior parte dei PDF ha una singola firma, ma alcuni possono averne diverse. Per semplicità prenderemo la prima. Puoi facilmente estendere il codice a un ciclo in seguito.
+
+```csharp
+        // Step 4 – Get the name of the first signature and verify it
+        string firstSignatureName = pdfSignature.GetSignNames().FirstOrDefault();
+
+        if (string.IsNullOrEmpty(firstSignatureName))
+        {
+            Console.WriteLine("No signatures found in the PDF.");
+            return;
+        }
+
+        bool isValid = pdfSignature.VerifySignature(firstSignatureName);
+```
+
+> **Domanda comune:** *E se il PDF ha più firme?*  
+> **Risposta:** Chiama `pdfSignature.GetSignNames()` per recuperare tutti i nomi, poi itera con `VerifySignature(name)` per ciascuno. Le stesse `ValidationOptions` si applicano a ogni chiamata.
+
+---
+
+## Passo 5: Visualizza il risultato della verifica
+
+Infine, stampiamo il risultato booleano. In un’app reale probabilmente lo registreresti o lo mostreresti in UI, ma `Console.WriteLine` mantiene l’esempio pulito.
+
+```csharp
+        // Step 5 – Show the outcome
+        Console.WriteLine($"Valid against CA: {isValid}");
     }
 }
 ```
 
-### Output atteso
+### Output previsto
 
 ```
-Signature "Sig1" valid: True
+Valid against CA: True
 ```
 
-Se la firma non supera la validazione, vedrai `False`. Potrai quindi approfondire l’indagine—magari il certificato del firmatario è scaduto o il PDF è stato modificato dopo la firma.
+Se la firma è corrotta, revocata o la catena non può essere costruita, vedrai `False`. Puoi anche ispezionare l’oggetto `SignatureInfo` per codici di errore dettagliati, ma questo va oltre lo scopo di questa breve guida.
 
-## Domande frequenti e casi particolari
+---
 
-### E se non conosco il nome della firma?
+## 📊 Diagramma – Come funziona il flusso di verifica
 
-Puoi elencare tutti i campi firma:
+![Diagram showing verify pdf signature process](https://example.com/verify-pdf-signature-diagram.png "Diagram showing verify pdf signature process")
+
+*Alt text:* Diagramma che mostra il processo di verifica della firma PDF – il PDF viene aperto, i dati della firma estratti, la richiesta OCSP inviata alla CA, la catena costruita e il valore booleano finale restituito.
+
+---
+
+## Passo 6: Gestione di firme multiple (estensione opzionale)
+
+Se il tuo flusso richiede di controllare **come verificare la firma PDF** per ogni firmatario, avvolgi la logica di verifica in un ciclo:
 
 ```csharp
-foreach (var field in pdfSignature.GetSignatureNames())
+        var signatureNames = pdfSignature.GetSignNames();
+
+        foreach (var name in signatureNames)
+        {
+            bool result = pdfSignature.VerifySignature(name);
+            Console.WriteLine($"Signature '{name}' valid: {result}");
+        }
+```
+
+Questa piccola aggiunta trasforma un controllo a firma singola in un audit completo, utile per contratti che necessitano di più parti firmatarie.
+
+---
+
+## Problemi comuni quando **Validate PDF Signature**  
+
+1. **Mancanza di accesso OCSP/CRL** – Se `CaServerUrl` non è raggiungibile, la libreria ricade su una validazione offline, che può restituire falsi negativi. Testa sempre la connettività di rete dal server di distribuzione.  
+2. **Certificati radice autofirmati** – `VerifyCertificateChain` fallirà a meno che non aggiungi la radice allo store di fiducia. Usa `pdfSignature.TrustedCertificates.Add(...)` se disponi di una PKI privata.  
+3. **Disallineamento del timestamp** – Alcune firme includono un token di timestamp. Se l’orologio di sistema è sfasato di più di qualche minuto, la validazione può apparire fallita. Mantieni l’orologio del server sincronizzato via NTP.  
+4. **PDF protetti da password** – Il costruttore `Document` lancia un’eccezione se il file è criptato. Sbloccalo prima con `document.Decrypt(password)` prima di creare il gestore della firma.
+
+---
+
+## Casi limite e variazioni
+
+| Scenario | Cosa modificare |
+|----------|-----------------|
+| **Validazione offline** (senza internet) | Ometti `CaServerUrl` e affidati ai CRL incorporati; imposta `ValidateRevocation = false`. |
+| **Autorità di firma multiple** | Aggiungi l’URL OCSP di ciascuna CA a un dizionario e cambia `CaServerUrl` per firma in base all’emittente. |
+| **PDF molto grandi (>100 MB)** | Carica con `LoadOptions` e abilita `DocumentInfo.IsCompressed = true` per ridurre la pressione sulla memoria. |
+| **Store di fiducia personalizzato** | Popola `pdfSignature.TrustedCertificates` con la tua collezione di `X509Certificate2`. |
+
+Queste regolazioni rendono la tua soluzione sufficientemente robusta per pipeline di produzione.
+
+---
+
+## Pro tip dal campo
+
+- **Cache le risposte OCSP** per qualche minuto; chiamate ripetute allo stesso endpoint possono rallentare l’elaborazione batch.  
+- **Logga l’intera eccezione** quando `VerifySignature` lancia; Aspose include un enum `SignatureInfo.Status` che indica se il fallimento è dovuto a revoca, scadenza o algoritmo sconosciuto.  
+- **Esegui test unitari con un PDF noto buono** (firma creata dalla tua CA) per garantire che la logica di validazione funzioni prima di puntare a documenti di terze parti.  
+- **Avvolgi la verifica in try/catch** e restituisci un oggetto risultato strutturato (`bool IsValid`, `string Message`) invece di limitarti a stampare a console. Questo rende il codice più API‑friendly.
+
+---
+
+## Esempio completo funzionante (pronto da copiare‑incollare)
+
+```csharp
+using System;
+using System.Linq;
+using Aspose.Pdf;
+using Aspose.Pdf.Facades;
+
+class VerifyPdfSignatureDemo
 {
-    Console.WriteLine($"Found signature field: {field}");
+    static void Main()
+    {
+        const string pdfPath = @"YOUR_DIRECTORY\signed.pdf";
+
+        // Open the PDF file
+        using var document = new Document(pdfPath);
+
+        // Initialize the signature handler
+        using var pdfSignature = new PdfFileSignature(document);
+
+        // Set validation options (validate pdf signature)
+        pdfSignature.ValidationOptions = new ValidationOptions
+        {
+            CaServerUrl = "https://ca.mycompany.com/ocsp",
+            VerifyCertificateChain = true
+        };
+
+        // Grab the first signature name
+        string sigName = pdfSignature.GetSignNames().FirstOrDefault();
+
+        if (string.IsNullOrEmpty(sigName))
+        {
+            Console.WriteLine("No signatures found in the PDF.");
+            return;
+        }
+
+        // Verify the signature (how to verify pdf signature)
+        bool isValid = pdfSignature.VerifySignature(sigName);
+
+        // Output the result
+        Console.WriteLine($"Valid against CA: {isValid}");
+    }
 }
 ```
 
-Poi scegli quello di cui hai bisogno.
+**Eseguilo:** `dotnet run` dalla cartella contenente il file sorgente. Se tutto è configurato correttamente vedrai `Valid against CA: True` (oppure `False` se qualcosa non va).
 
-### Come gestire un PDF con firme multiple?
-
-Chiama `VerifySignature` per ogni nome in un ciclo. Il metodo restituisce un `bool` per ciascuna firma, permettendoti di creare un report di tutti gli stati di validità.
-
-### E se il controllo di revoca online fallisce (ad es. nessuna connessione internet)?
-
-Imposta `UseOnlineRevocationChecking = false` e affidati ai dati CRL/OCSP incorporati nel PDF. La verifica verrà comunque eseguita, ma con una certezza minore.
-
-### Posso verificare una firma senza caricare l’intero documento in memoria?
-
-Alcune librerie supportano la verifica basata su stream. Con Aspose.PDF puoi aprire un `FileStream` e passarlo al costruttore di `Document`, riducendo il consumo di memoria per PDF di grandi dimensioni.
-
-## Pro tip per una verifica pronta per la produzione
-
-- **Cache delle risposte CRL/OCSP** – contattare ripetutamente la stessa CA può rallentare l’elaborazione batch.  
-- **Logga il thumbprint del certificato** – utile per le tracce di audit.  
-- **Avvolgi la verifica in try/catch** – PDF malformati possono generare eccezioni.  
-- **Valida l’orario di firma** – assicurati che la firma sia stata apposta entro una finestra temporale accettabile per la tua logica di business.  
+---
 
 ## Conclusione
 
-Abbiamo coperto tutto ciò che ti serve per **verificare la firma PDF** in C#. Dal caricamento del documento, alla configurazione del controllo di revoca online, fino alla conferma finale della validità della firma, il codice è breve, chiaro e pronto per la produzione.  
-
-Ora puoi **validare la firma digitale PDF**, **controllare la validità della firma** e persino **caricare un documento PDF C#** in modo robusto. I prossimi passi potrebbero includere la creazione di un servizio di verifica di massa, l’integrazione con un sistema di gestione documentale o l’estensione della logica per supportare la verifica dei timestamp.
-
-Hai altre domande? Lascia un commento, sperimenta con le varianti sopra e buona programmazione!
+In questa guida abbiamo **verificato la firma PDF** end‑to‑end usando Aspose.Pdf for .NET, spiegato il perché di ogni configurazione e esplorato variazioni per firmatari multipli, scenari offline e store di fiducia personalizzati. Ora disponi di una base solida,
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -19,6 +19,7 @@
 您將學習如何指定轉換設定、提取文字和圖像、保留原始文件結構和格式以及執行批次轉換。教學提供了詳細的程式碼範例和逐步解釋，以幫助您掌握 Aspose.PDF for .NET 的文件轉換功能。無論您需要轉換文件以進行存檔、電子分發或其他需求，這些教學課程都會為您提供使用強大的 .NET Aspose.PDF 庫高效執行所有文件轉換任務的知識。
 
 ## 教學
+
 |標題 |描述 |
 | --- | --- | 
 | [將附件新增至 PDFA](./add-attachment-to-pdfa/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將附件新增至 PDF/A 文件。 |  
@@ -37,13 +38,16 @@
 | [PDF 轉 HTML](./pdf-to-html/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 HTML。非常適合開發人員和內容創作者。 |  
 | [PDF 轉 PDFA](./pdf-to-pdfa/) |透過本逐步教學了解如何使用 Aspose.PDF for .NET 將 PDF 檔案轉換為 PDF/A 格式。 |  
 | [PDF 轉 PDFA3b](./pdf-to-pdfa3b/) |透過本逐步指南學習如何使用 Aspose.PDF for .NET 輕鬆地將 PDF 文件轉換為 PDF/A-3B 格式。 |  
+| [新增 ICC 配置檔並將 PDF 轉換為 PDF/X‑4 – C# 指南](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 新增 ICC 配置檔並將 PDF 轉換為 PDF/X‑4。 |  
 | [PDF 轉 PNG 字體提示](./pdf-to-png-font-hinting/) |透過簡單的逐步指南學習如何使用 Aspose.PDF for .NET 將 PDF 轉換為帶有字體提示的 PNG。 |  
+| [PDF 轉 PNG 教學 – 在 C# 中將 PDF 頁面轉換為 PNG](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) |了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 頁面轉換為 PNG 圖像。 |
 | [PDF轉PPT](./pdf-to-ppt/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 PPT。簡單、高效，非常適合演示。 |  
 | [PDF 轉 SVG](./pdf-to-svg/) |在本逐步教學中學習如何使用 Aspose.PDF for .NET 將 PDF 檔案轉換為 SVG 格式。非常適合開發人員和設計師。 |  
 | [PDF 轉 TeX](./pdf-to-tex/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 TeX。非常適合希望提高文件處理技能的開發人員。 |  
 | [PDF 轉 XLS](./pdf-to-xls/) |使用 Aspose.PDF for .NET 輕鬆將 PDF 檔案轉換為 XLS 格式。請按照我們的逐步指南進行無縫資料提取。 |  
 | [PDF 轉 XML](./pdf-to-xml/) |在本綜合教學課程中學習如何使用 Aspose.PDF for .NET 將 PDF 轉換為 XML。包含程式碼範例的分步指南。 |  
 | [PDF 轉 XPS](./pdf-to-xps/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 XPS。非常適合開發人員和文件處理愛好者。 |  
+| [如何使用 Aspose.Pdf 轉換 PDF – 完整 C# 指南](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) |透過本完整 C# 教學了解如何使用 Aspose.PDF 轉換 PDF 為其他格式，涵蓋程式碼範例與最佳實踐。 |  
 | [Postscript 轉 PDF](./postscript-to-pdf/) |在本逐步教學中學習如何使用 Aspose.PDF for .NET 將 Postscript 檔案轉換為 PDF。適合各個層級的開發人員。 |  
 | [在 HTML 轉 PDF 過程中提供憑證](./provide-credentials-during-html-to-pdf/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 HTML 轉換為 PDF。非常適合希望簡化文件產生的開發人員。 |  
 | [從 HTML 轉換後刪除超鏈接](./remove-hyperlinks-after-converting-from-html/) |在本逐步指南中了解如何使用 Aspose.PDF for .NET 將 HTML 文件轉換為 PDF 後從 HTML 文件中刪除超連結。 |  
@@ -57,6 +61,11 @@
 | [XML 轉 PDF](./xml-to-pdf/) |透過本全面的逐步教學學習如何使用 Aspose.PDF for .NET 將 XML 轉換為 PDF，其中包含程式碼範例和詳細解釋。 |  
 | [XML 轉 PDFSet 影像路徑](./xml-to-pdfset-image-path/) |了解如何使用 Aspose.PDF for .NET 輕鬆地將 XML 轉換為 PDF。本詳細指南將逐步引導您完成整個過程，從設定到完成。 |  
 | [XPS 轉 PDF](./xps-to-pdf/) |透過本逐步教學了解如何使用 Aspose.PDF for .NET 將 XPS 檔案轉換為 PDF。非常適合開發人員和文檔愛好者。 |  
+| [在 C# 中將 PDF 轉換為 PDF/X‑4 – ASP.NET PDF 分步教學](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 轉換為 PDF/X‑4 格式。 |
+| [載入 PDF 文件 C# – 轉換為 PDF/X-4 步驟指南](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) |了解如何使用 Aspose.PDF for .NET 載入 PDF 並將其轉換為 PDF/X-4 格式的完整步驟。 |  
+| [Aspose PDF 轉 HTML（C#）完整指南](./aspose-pdf-to-html-conversion-in-c-complete-guide/) |透過本完整指南了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 轉換為 HTML。 |  
+| [將 PDF 另存為 HTML – 保留向量並停用點陣化](./save-pdf-as-html-keep-vectors-disable-rasterization/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 PDF 另存為 HTML，保留向量圖形並停用點陣化。 |  
+| [如何使用 Aspose 儲存 PDF – 完整 C# 轉換指南](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) |透過本完整指南了解如何使用 Aspose.PDF for .NET 以 C# 將檔案儲存為 PDF，涵蓋步驟與最佳實踐。 |  
 | [將 Bates 編號新增至 DOCX 並轉換為 PDF – 完整 C# 指南](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 為 DOCX 添加 Bates 編號並轉換為 PDF。 |  
 | [儲存文件 PDF – 如何新增橢圓形並將 DOCX 轉換為 PDF](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) |透過本逐步指南了解如何在 PDF 中新增橢圓形，並將 DOCX 檔案轉換為 PDF。 |  
 

@@ -1,194 +1,244 @@
 ---
 category: general
-date: 2026-02-20
-description: Học cách xác minh chữ ký PDF trong C# nhanh chóng. Hướng dẫn này cũng
-  bao gồm việc xác thực chữ ký số PDF, kiểm tra tính hợp lệ của chữ ký và tải tài
-  liệu PDF bằng C#.
+date: 2026-02-25
+description: Xác minh chữ ký PDF trong C# bằng Aspose.Pdf – học cách xác thực chữ
+  ký PDF đối với máy chủ CA, xử lý việc xác minh chuỗi và tránh các lỗi thường gặp.
 draft: false
 keywords:
 - verify pdf signature
-- validate pdf digital signature
-- check signature validity
-- load pdf document c#
+- validate pdf signature
 - how to verify pdf signature
+- pdf digital signature verification
+- c# pdf signature validation
 language: vi
-og_description: Xác minh chữ ký PDF trong C# với ví dụ thực tế. Hãy làm theo hướng
-  dẫn này để xác thực chữ ký số PDF, kiểm tra tính hợp lệ của chữ ký và tải tài liệu
-  PDF bằng C#.
-og_title: Xác minh chữ ký PDF trong C# – Hướng dẫn lập trình chi tiết
+og_description: Xác minh chữ ký PDF trong C# bằng Aspose.Pdf. Hướng dẫn này cho thấy
+  cách xác thực chữ ký PDF đối với máy chủ CA, kèm mã nguồn, mẹo và xử lý các trường
+  hợp đặc biệt.
+og_title: Xác minh chữ ký PDF trong C# – Hướng dẫn chi tiết từng bước
 tags:
 - PDF
 - C#
 - Digital Signature
-title: Xác minh chữ ký PDF trong C# – Hướng dẫn chi tiết từng bước
+title: Xác thực chữ ký PDF trong C# – Hướng dẫn chi tiết từng bước
 url: /vi/net/programming-with-security-and-signatures/verify-pdf-signature-in-c-complete-step-by-step-guide/
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+"*Alt text:* ..." we translated. Also need to ensure we didn't translate code block placeholders.
+
+Make sure to keep markdown formatting.
+
+Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Xác minh Chữ ký PDF trong C# – Hướng dẫn chi tiết từng bước
+# Xác thực chữ ký PDF trong C# – Hướng dẫn chi tiết từng bước
 
-Bạn đã bao giờ cần **xác minh chữ ký PDF** nhưng không chắc bắt đầu từ đâu trong C#? Bạn không phải là người duy nhất—nhiều nhà phát triển gặp khó khăn khi lần đầu gặp PDF đã ký. Tin tốt là chỉ với vài dòng mã, bạn có thể **xác thực chữ ký số PDF**, kiểm tra tính toàn vẹn của nó, và thậm chí thực hiện kiểm tra thu hồi trực tuyến.  
+Bạn đã bao giờ cần **verify pdf signature** trên một tài liệu mà khách hàng gửi cho bạn chưa? Có thể bạn đang xây dựng quy trình phê duyệt hoá đơn và không thể chấp nhận một PDF giả mạo. Trong hướng dẫn này, chúng tôi sẽ đi qua một ví dụ thực tế, từ đầu đến cuối, cho thấy cách **validate pdf signature** bằng C# và Aspose.Pdf, và cũng sẽ trả lời câu hỏi “how to verify pdf signature” xuất hiện trong nhiều diễn đàn.
 
-Trong tutorial này chúng ta sẽ đi qua việc tải tài liệu PDF, cấu hình kiểm tra thu hồi, và cuối cùng xác nhận liệu một chữ ký cụ thể (ví dụ: “Sig1”) còn đáng tin cậy hay không. Khi kết thúc, bạn sẽ có thể **kiểm tra tính hợp lệ của chữ ký** trên bất kỳ PDF nào bạn sở hữu, và hiểu lý do đằng sau mỗi bước.
+Bạn sẽ hoàn thành hướng dẫn này với một ứng dụng console có thể chạy được, giao tiếp với endpoint OCSP/CRL của bạn, kiểm tra chuỗi chứng chỉ và in ra kết quả true/false rõ ràng. Không có những hướng dẫn mơ hồ “see the docs”—mọi thứ bạn cần đều có ở đây.
 
-## Yêu cầu trước & Những gì bạn cần
+---
 
-- **.NET 6.0 hoặc mới hơn** – mã sử dụng cú pháp C# hiện đại, nhưng các phiên bản cũ hơn vẫn hoạt động với một vài chỉnh sửa nhỏ.  
-- **Aspose.PDF for .NET** (hoặc bất kỳ thư viện nào cung cấp `PdfFileSignature`). Cài đặt qua NuGet:  
+## Những gì bạn cần
 
-  ```bash
-  dotnet add package Aspose.PDF
-  ```
+Trước khi chúng ta bắt đầu, hãy chắc chắn rằng bạn có các yêu cầu sau:
 
-- Một tệp PDF đã ký tên `input.pdf` đặt trong thư mục bạn kiểm soát (chúng tôi sẽ gọi là `YOUR_DIRECTORY`).  
-- Kiến thức cơ bản về ứng dụng console C#—nếu bạn có thể viết `Console.WriteLine`, bạn đã sẵn sàng.
+| Prerequisite | Why it matters |
+|--------------|----------------|
+| **.NET 6.0 or later** | Phiên bản runtime mới nhất cung cấp cho bạn các tính năng ngôn ngữ hiện đại và các binary Aspose.Pdf mới nhất. |
+| **Aspose.Pdf for .NET** (NuGet package `Aspose.PDF`) | Thư viện này cung cấp các lớp `Document`, `PdfFileSignature`, và `ValidationOptions` được sử dụng trong mã. |
+| **A signed PDF** (`signed.pdf`) | Tệp bạn muốn xác thực; nó phải chứa ít nhất một chữ ký số. |
+| **Access to your CA’s OCSP endpoint** (e.g., `https://ca.mycompany.com/ocsp`) | Cần thiết để kiểm tra thu hồi thời gian thực và xác thực chuỗi. |
 
-> **Mẹo chuyên nghiệp:** Nếu bạn đang sử dụng một thư viện PDF khác, hãy tìm các lớp tương đương (`PdfDocument`, `SignatureValidator`, v.v.). Các khái niệm vẫn giữ nguyên.
+Nếu bất kỳ mục nào trên nghe lạ, đừng lo—cài đặt gói NuGet chỉ cần một dòng (`dotnet add package Aspose.PDF`) và phần còn lại chỉ là một tệp trên đĩa.
 
-## Bước 1: Tải tài liệu PDF trong C#
+## Bước 1: Mở tài liệu PDF đã ký
 
-Trước khi bất kỳ quá trình xác minh nào có thể diễn ra, PDF phải được tải vào bộ nhớ. Hãy tưởng tượng đây là việc mở một cuốn sách trước khi bạn bắt đầu đọc trang chữ ký.
-
-```csharp
-using Aspose.Pdf;          // Namespace for Document
-using Aspose.Pdf.Signatures; // Namespace for PdfFileSignature
-
-// Replace YOUR_DIRECTORY with the actual path on your machine
-string pdfPath = Path.Combine("YOUR_DIRECTORY", "input.pdf");
-
-// Load the PDF document you want to verify
-Document pdfDocument = new Document(pdfPath);
-```
-
-**Tại sao điều này quan trọng:** Việc tải tài liệu tạo ra một mô hình đối tượng có thể thao tác. Nếu không có nó, thư viện không thể kiểm tra các trường chữ ký được nhúng.
-
-## Bước 2: Tạo một Instance của PdfFileSignature
-
-Lớp `PdfFileSignature` là cổng vào tất cả các thao tác liên quan đến chữ ký. Nó bao bọc `Document` mà chúng ta vừa tải.
-
-```csharp
-// Create a PdfFileSignature object for the loaded document
-PdfFileSignature pdfSignature = new PdfFileSignature(pdfDocument);
-```
-
-**Giải thích:** Đối tượng này chứa cả dữ liệu PDF và các phương thức cần thiết để xác minh, thêm hoặc xóa chữ ký. Khởi tạo nó sớm giúp mã sạch sẽ và tách biệt các quan tâm.
-
-## Bước 3: Bật Kiểm tra Thu hồi Trực tuyến (Tùy chọn nhưng Được khuyến nghị)
-
-Kiểm tra thu hồi trực tuyến liên hệ với các cơ quan chứng chỉ để xác nhận rằng chứng chỉ ký chưa bị thu hồi. Bước này cải thiện đáng kể độ tin cậy.
-
-```csharp
-// Enable online revocation checking for more reliable validation
-pdfSignature.ValidationOptions = new ValidationOptions
-{
-    UseOnlineRevocationChecking = true
-};
-```
-
-> **Tại sao nên bật?** Một chữ ký có thể về mặt kỹ thuật đúng nhưng chứng chỉ có thể đã bị thu hồi sau khi ký. Kiểm tra trực tuyến sẽ bắt gặp trường hợp này, cung cấp cho bạn câu trả lời “hợp lệ/không hợp lệ” thực sự.
-
-## Bước 4: Xác minh Chữ ký theo Tên
-
-Bây giờ chúng ta thực sự yêu cầu thư viện xác minh một trường chữ ký cụ thể. Hầu hết các PDF chứa một tên mặc định như “Signature1”, nhưng bạn có thể thay `"Sig1"` bằng bất kỳ tên nào PDF của bạn sử dụng.
-
-```csharp
-// Verify the signature with the specified name
-bool isSignatureValid = pdfSignature.VerifySignature("Sig1");
-
-// Output the result to the console
-Console.WriteLine($"Signature \"Sig1\" valid: {isSignatureValid}");
-```
-
-**Bạn sẽ thấy:** Nếu chữ ký còn nguyên vẹn và chứng chỉ vẫn được tin cậy, console sẽ in `Signature "Sig1" valid: True`. Ngược lại bạn sẽ nhận được `False`, cho thấy có vấn đề như bị giả mạo hoặc thu hồi.
-
-## Bước 5: Ví dụ Hoạt động Đầy đủ (Sẵn sàng Sao chép‑Dán)
-
-Dưới đây là toàn bộ chương trình, sẵn sàng biên dịch. Lưu dưới tên `Program.cs`, chạy `dotnet run`, và quan sát kết quả.
+Điều đầu tiên chúng ta làm là tải PDF chứa chữ ký. Hãy nghĩ `Document` như đối tượng “sách”; nếu không mở nó, mọi thứ khác đều không có ý nghĩa.
 
 ```csharp
 using System;
-using System.IO;
+using System.Linq;
 using Aspose.Pdf;
-using Aspose.Pdf.Signatures;
+using Aspose.Pdf.Facades;
 
 class Program
 {
     static void Main()
     {
-        // 1️⃣ Load the PDF document you want to verify
-        string pdfPath = Path.Combine("YOUR_DIRECTORY", "input.pdf");
-        Document pdfDocument = new Document(pdfPath);
+        // Replace with the actual path to your signed PDF
+        const string pdfPath = @"YOUR_DIRECTORY\signed.pdf";
 
-        // 2️⃣ Create a PdfFileSignature object for the loaded document
-        PdfFileSignature pdfSignature = new PdfFileSignature(pdfDocument);
+        // Step 1 – Load the PDF file
+        using var document = new Document(pdfPath);
+```
 
-        // 3️⃣ Enable online revocation checking (optional but best practice)
+> **Tại sao lại cần bước này?** Mở tệp cho phép chúng ta truy cập vào bộ sưu tập chữ ký, mà sau này chúng ta sẽ cần liệt kê. Câu lệnh `using` đảm bảo tay cầm tệp được giải phóng kịp thời.
+
+## Bước 2: Khởi tạo bộ xử lý chữ ký PDF
+
+Bây giờ chúng ta tạo một đối tượng `PdfFileSignature`. Giao diện này là công cụ chính cho phép chúng ta truy vấn và xác thực chữ ký.
+
+```csharp
+        // Step 2 – Create the signature handler
+        using var pdfSignature = new PdfFileSignature(document);
+```
+
+> **Mẹo chuyên nghiệp:** Nếu bạn đang xử lý các PDF rất lớn, hãy cân nhắc tải chúng bằng `LoadOptions` để giảm sử dụng bộ nhớ. Điều này không bắt buộc trong hầu hết các trường hợp, nhưng có thể tiết kiệm cho bạn vài gigabyte trên máy chủ.
+
+## Bước 3: Đặt tùy chọn xác thực – Chỉ định máy chủ CA và bật kiểm tra chuỗi
+
+Đây là nơi chúng ta chỉ cho Aspose cách **validate pdf signature** đối với Certificate Authority của bạn. Đối tượng `ValidationOptions` cho phép bạn nhập URL OCSP và bật kiểm tra toàn bộ chuỗi.
+
+```csharp
+        // Step 3 – Configure validation (validate pdf signature)
         pdfSignature.ValidationOptions = new ValidationOptions
         {
-            UseOnlineRevocationChecking = true
+            // Your organization’s OCSP responder
+            CaServerUrl = "https://ca.mycompany.com/ocsp",
+            // Verify the whole certificate chain, not just the leaf cert
+            VerifyCertificateChain = true
         };
+```
 
-        // 4️⃣ Verify the signature named "Sig1"
-        bool isSignatureValid = pdfSignature.VerifySignature("Sig1");
+> **Tại sao điều này quan trọng:** Nếu không có máy chủ CA, thư viện chỉ có thể thực hiện các kiểm tra tính toàn vẹn cơ bản. Bật `VerifyCertificateChain` đảm bảo mọi chứng chỉ trong đường ký đều được tin cậy, điều này thiết yếu cho các ngành công nghiệp có yêu cầu tuân thủ cao.
 
-        // 5️⃣ Display the verification result
-        Console.WriteLine($"Signature \"Sig1\" valid: {isSignatureValid}");
+## Bước 4: Xác thực chữ ký đầu tiên trong tài liệu
+
+Hầu hết các PDF chỉ có một chữ ký, nhưng một số có thể có nhiều. Để đơn giản, chúng ta sẽ lấy chữ ký đầu tiên. Bạn có thể dễ dàng mở rộng thành vòng lặp sau này.
+
+```csharp
+        // Step 4 – Get the name of the first signature and verify it
+        string firstSignatureName = pdfSignature.GetSignNames().FirstOrDefault();
+
+        if (string.IsNullOrEmpty(firstSignatureName))
+        {
+            Console.WriteLine("No signatures found in the PDF.");
+            return;
+        }
+
+        bool isValid = pdfSignature.VerifySignature(firstSignatureName);
+```
+
+> **Câu hỏi thường gặp:** *Nếu PDF có nhiều chữ ký thì sao?*  
+> **Trả lời:** Gọi `pdfSignature.GetSignNames()` để lấy tất cả tên, sau đó lặp lại với `VerifySignature(name)` cho mỗi chữ ký. Các `ValidationOptions` giống nhau sẽ được áp dụng cho mỗi lần gọi.
+
+## Bước 5: Hiển thị kết quả xác thực
+
+Cuối cùng, chúng ta xuất kết quả kiểu boolean. Trong một ứng dụng thực tế, bạn có thể ghi log hoặc trả về giao diện người dùng, nhưng `Console.WriteLine` giúp ví dụ gọn gàng.
+
+```csharp
+        // Step 5 – Show the outcome
+        Console.WriteLine($"Valid against CA: {isValid}");
     }
 }
 ```
 
-### Kết quả Dự kiến
+### Kết quả mong đợi
 
 ```
-Signature "Sig1" valid: True
+Valid against CA: True
 ```
 
-Nếu chữ ký không vượt qua kiểm tra, bạn sẽ thấy `False`. Bạn có thể tiếp tục điều tra—có thể chứng chỉ của người ký đã hết hạn hoặc PDF đã bị thay đổi sau khi ký.
+Nếu chữ ký bị hỏng, bị thu hồi, hoặc không thể xây dựng chuỗi, bạn sẽ thấy `False`. Bạn cũng có thể kiểm tra đối tượng `SignatureInfo` để biết mã lỗi chi tiết, nhưng điều đó nằm ngoài phạm vi của hướng dẫn nhanh này.
 
-## Các Câu hỏi Thường gặp & Trường hợp Đặc biệt
+## 📊 Sơ đồ – Quy trình xác thực hoạt động như thế nào
 
-### Nếu tôi không biết tên chữ ký thì sao?
+![Sơ đồ cho quy trình verify pdf signature – PDF được mở, dữ liệu chữ ký được trích xuất, yêu cầu OCSP được gửi tới CA, chuỗi được xây dựng, và giá trị boolean cuối cùng được trả về](https://example.com/verify-pdf-signature-diagram.png "Sơ đồ cho quy trình verify pdf signature")
 
-Bạn có thể liệt kê tất cả các trường chữ ký:
+*Alt text:* Sơ đồ cho quy trình verify pdf signature – PDF được mở, dữ liệu chữ ký được trích xuất, yêu cầu OCSP được gửi tới CA, chuỗi được xây dựng, và giá trị boolean cuối cùng được trả về.
+
+## Bước 6: Xử lý nhiều chữ ký (Mở rộng tùy chọn)
+
+Nếu quy trình của bạn yêu cầu kiểm tra **how to verify pdf signature** cho mỗi người ký, hãy bao bọc logic xác thực trong một vòng lặp:
 
 ```csharp
-foreach (var field in pdfSignature.GetSignatureNames())
+        var signatureNames = pdfSignature.GetSignNames();
+
+        foreach (var name in signatureNames)
+        {
+            bool result = pdfSignature.VerifySignature(name);
+            Console.WriteLine($"Signature '{name}' valid: {result}");
+        }
+```
+
+Sự bổ sung nhỏ này biến việc kiểm tra một chữ ký duy nhất thành một chuỗi kiểm toán đầy đủ, rất hữu ích cho các hợp đồng cần nhiều bên ký.
+
+## Các bẫy thường gặp khi **Validate PDF Signature**  
+
+1. **Missing OCSP/CRL Access** – Nếu `CaServerUrl` không thể truy cập, thư viện sẽ chuyển sang xác thực offline, có thể trả về kết quả âm tính sai. Luôn kiểm tra kết nối mạng từ máy chủ triển khai.  
+2. **Self‑Signed Root Certificates** – `VerifyCertificateChain` sẽ thất bại nếu bạn không thêm root vào kho tin cậy. Sử dụng `pdfSignature.TrustedCertificates.Add(...)` nếu bạn có PKI riêng.  
+3. **Time‑Stamp Mismatch** – Một số chữ ký bao gồm token thời gian. Nếu đồng hồ hệ thống lệch hơn vài phút, việc xác thực có thể bị coi là thất bại. Giữ đồng hồ máy chủ đồng bộ qua NTP.  
+4. **Password‑Protected PDFs** – Hàm khởi tạo `Document` sẽ ném lỗi nếu tệp được mã hoá. Hãy mở khóa trước bằng `document.Decrypt(password)` trước khi tạo bộ xử lý chữ ký.
+
+## Các trường hợp đặc biệt & Biến thể
+
+| Scenario | What to Adjust |
+|----------|----------------|
+| **Offline validation** (no internet) | Bỏ `CaServerUrl` và dựa vào CRL nhúng; đặt `ValidateRevocation = false`. |
+| **Multiple signing authorities** | Thêm URL OCSP của mỗi CA vào một dictionary và chuyển `CaServerUrl` cho mỗi chữ ký dựa trên nhà phát hành. |
+| **Large PDFs (>100 MB)** | Tải bằng `LoadOptions` và bật `DocumentInfo.IsCompressed = true` để giảm áp lực bộ nhớ. |
+| **Custom trust store** | Điền `pdfSignature.TrustedCertificates` bằng bộ sưu tập X509Certificate2 của bạn. |
+
+Những điều chỉnh này giúp giải pháp của bạn đủ mạnh mẽ cho các pipeline sản xuất.
+
+## Mẹo chuyên nghiệp từ thực tế
+
+- **Cache OCSP responses** trong vài phút; các lần gọi lặp lại tới cùng một endpoint có thể làm chậm xử lý batch.  
+- **Log the full exception** khi `VerifySignature` ném lỗi; Aspose bao gồm enum `SignatureInfo.Status` cho biết lỗi do thu hồi, hết hạn, hay thuật toán không xác định.  
+- **Unit‑test với một PDF đã biết là hợp lệ** (chữ ký được tạo bởi CA của bạn) để đảm bảo logic xác thực hoạt động trước khi áp dụng cho tài liệu của bên thứ ba.  
+- **Wrap the verification in a try/catch** và trả về một đối tượng kết quả có cấu trúc (`bool IsValid`, `string Message`) thay vì chỉ in ra console. Điều này làm cho mã thân thiện với API.
+
+## Ví dụ hoàn chỉnh (Sẵn sàng sao chép‑dán)
+
+```csharp
+using System;
+using System.Linq;
+using Aspose.Pdf;
+using Aspose.Pdf.Facades;
+
+class VerifyPdfSignatureDemo
 {
-    Console.WriteLine($"Found signature field: {field}");
+    static void Main()
+    {
+        const string pdfPath = @"YOUR_DIRECTORY\signed.pdf";
+
+        // Open the PDF file
+        using var document = new Document(pdfPath);
+
+        // Initialize the signature handler
+        using var pdfSignature = new PdfFileSignature(document);
+
+        // Set validation options (validate pdf signature)
+        pdfSignature.ValidationOptions = new ValidationOptions
+        {
+            CaServerUrl = "https://ca.mycompany.com/ocsp",
+            VerifyCertificateChain = true
+        };
+
+        // Grab the first signature name
+        string sigName = pdfSignature.GetSignNames().FirstOrDefault();
+
+        if (string.IsNullOrEmpty(sigName))
+        {
+            Console.WriteLine("No signatures found in the PDF.");
+            return;
+        }
+
+        // Verify the signature (how to verify pdf signature)
+        bool isValid = pdfSignature.VerifySignature(sigName);
+
+        // Output the result
+        Console.WriteLine($"Valid against CA: {isValid}");
+    }
 }
 ```
 
-Sau đó chọn trường bạn cần.
-
-### Làm thế nào để xử lý PDF có nhiều chữ ký?
-
-Gọi `VerifySignature` cho mỗi tên trong một vòng lặp. Phương thức trả về một `bool` cho mỗi chữ ký, cho phép bạn xây dựng báo cáo về trạng thái hợp lệ của tất cả.
-
-### Nếu kiểm tra thu hồi trực tuyến thất bại (ví dụ: không có internet) thì sao?
-
-Đặt `UseOnlineRevocationChecking = false` và dựa vào dữ liệu CRL/OCSP được nhúng trong PDF. Việc xác minh vẫn sẽ chạy nhưng có thể kém chắc chắn hơn.
-
-### Tôi có thể xác minh chữ ký mà không tải toàn bộ tài liệu vào bộ nhớ không?
-
-Một số thư viện hỗ trợ xác minh dựa trên luồng. Với Aspose.PDF bạn có thể mở một `FileStream` và truyền nó vào hàm khởi tạo `Document`, giảm tải bộ nhớ cho các PDF rất lớn.
-
-## Mẹo chuyên nghiệp cho việc Xác minh Sẵn sàng Sản xuất
-
-- **Lưu bộ nhớ đệm phản hồi CRL/OCSP** – việc liên tục truy cập cùng một CA có thể làm chậm quá trình xử lý hàng loạt.  
-- **Ghi lại dấu vân tay chứng chỉ** – hữu ích cho các bản ghi kiểm toán.  
-- **Bao bọc quá trình xác minh trong try/catch** – các PDF bị hỏng có thể ném ra ngoại lệ.  
-- **Xác thực thời gian ký** – đảm bảo chữ ký được áp dụng trong khoảng thời gian chấp nhận được cho logic kinh doanh của bạn.  
+**Chạy nó:** `dotnet run` từ thư mục chứa tệp nguồn. Nếu mọi thứ được cấu hình đúng, bạn sẽ thấy `Valid against CA: True` (hoặc `False` nếu có vấn đề).
 
 ## Kết luận
 
-Chúng ta đã bao phủ mọi thứ bạn cần để **xác minh chữ ký PDF** trong C#. Từ việc tải tài liệu, cấu hình kiểm tra thu hồi trực tuyến, đến cuối cùng xác nhận tính hợp lệ của chữ ký, mã ngắn gọn, rõ ràng và sẵn sàng cho môi trường sản xuất.  
-
-Bây giờ bạn có thể **xác thực chữ ký số PDF**, **kiểm tra tính hợp lệ của chữ ký**, và thậm chí **tải tài liệu PDF C#** một cách vững chắc. Các bước tiếp theo có thể bao gồm xây dựng dịch vụ xác minh hàng loạt, tích hợp với hệ thống quản lý tài liệu, hoặc mở rộng logic để hỗ trợ xác minh dấu thời gian.
-
-Có thêm câu hỏi? Để lại bình luận, thử nghiệm các biến thể ở trên, và chúc bạn lập trình vui vẻ!
+Trong hướng dẫn này, chúng tôi đã **verified pdf signature** từ đầu đến cuối bằng Aspose.Pdf cho .NET, giải thích lý do đằng sau mỗi cấu hình, và khám phá các biến thể cho nhiều người ký, các kịch bản offline, và kho tin cậy tùy chỉnh. Bạn giờ đã có một nền tảng vững chắc,
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

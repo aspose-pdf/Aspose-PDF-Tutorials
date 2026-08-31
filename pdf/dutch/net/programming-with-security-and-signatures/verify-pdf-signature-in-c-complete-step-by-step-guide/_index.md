@@ -1,196 +1,265 @@
 ---
 category: general
-date: 2026-02-20
-description: Leer hoe je snel een PDF-handtekening in C# kunt verifiëren. Deze tutorial
-  behandelt ook het valideren van een digitale PDF-handtekening, het controleren van
-  de geldigheid van de handtekening en het laden van een PDF-document in C#.
+date: 2026-02-25
+description: pdf-handtekening verifiëren in C# met Aspose.Pdf – leer hoe je een pdf-handtekening
+  valideert tegen een CA-server, ketenverificatie afhandelt en veelvoorkomende valkuilen
+  vermijdt.
 draft: false
 keywords:
 - verify pdf signature
-- validate pdf digital signature
-- check signature validity
-- load pdf document c#
+- validate pdf signature
 - how to verify pdf signature
+- pdf digital signature verification
+- c# pdf signature validation
 language: nl
-og_description: Verifieer PDF-handtekening in C# met een praktijkvoorbeeld. Volg deze
-  gids om de digitale PDF-handtekening te valideren, de geldigheid van de handtekening
-  te controleren en een PDF-document te laden in C#.
-og_title: PDF-handtekening verifiëren in C# – Volledige programmeerhandleiding
+og_description: verifieer pdf-handtekening in C# met Aspose.Pdf. Deze tutorial laat
+  zien hoe je een pdf-handtekening valideert tegen een CA-server, met code, tips en
+  afhandeling van randgevallen.
+og_title: PDF-handtekening verifiëren in C# – Volledige stap‑voor‑stap gids
 tags:
 - PDF
 - C#
 - Digital Signature
-title: PDF-handtekening verifiëren in C# – Volledige stap‑voor‑stap gids
+title: PDF-handtekening verifiëren in C# – Complete stap‑voor‑stap gids
 url: /nl/net/programming-with-security-and-signatures/verify-pdf-signature-in-c-complete-step-by-step-guide/
 ---
 
-for any other markdown like images none.
-
-Now produce final output with all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PDF-handtekening verifiëren in C# – Complete stapsgewijze handleiding
+# pdf-handtekening verifiëren in C# – Complete stapsgewijze gids
 
-Heb je ooit moeten **PDF-handtekening verifiëren** maar wist je niet waar te beginnen in C#? Je bent niet de enige—veel ontwikkelaars lopen tegen die muur aan wanneer ze voor het eerst ondertekende PDF's tegenkomen. Het goede nieuws is dat je met een paar regels code **PDF digitale handtekening kunt valideren**, de integriteit kunt controleren, en zelfs online intrekkingscontroles kunt uitvoeren.  
+Heb je ooit **pdf-handtekening moeten verifiëren** op een document dat je klanten je sturen? Misschien bouw je een factuur‑goedkeuringsworkflow en kun je het je niet veroorloven een vervalst PDF te accepteren. In deze tutorial lopen we een praktisch, end‑to‑end voorbeeld door dat precies laat zien hoe je **pdf-handtekening kunt valideren** met C# en Aspose.Pdf, en we beantwoorden ook de vraag “hoe pdf-handtekening te verifiëren” die in veel forums opduikt.
 
-In deze tutorial lopen we door het laden van een PDF-document, het configureren van intrekkingscontrole, en uiteindelijk het bevestigen of een specifieke handtekening (bijv. “Sig1”) nog betrouwbaar is. Aan het einde kun je **handtekeninggeldigheid controleren** op elke PDF die je bezit, en begrijp je de reden achter elke stap.
+Je eindigt deze gids met een uitvoerbare console‑app die communiceert met je eigen OCSP/CRL‑endpoint, de certificaatketen controleert en een duidelijk true/false‑resultaat afdrukt. Geen vage “zie de docs” overdrachten—alles wat je nodig hebt staat hier.
 
-## Vereisten & Wat je nodig hebt
+---
 
-- **.NET 6.0 of later** – de code gebruikt moderne C#-syntaxis, maar oudere versies werken met kleine aanpassingen.  
-- **Aspose.PDF for .NET** (of een andere bibliotheek die `PdfFileSignature` blootlegt). Installeer via NuGet:  
+## Wat je nodig hebt
 
-  ```bash
-  dotnet add package Aspose.PDF
-  ```
+Voordat we beginnen, zorg ervoor dat je de volgende vereisten hebt:
 
-- Een ondertekend PDF‑bestand met de naam `input.pdf` geplaatst in een map die je beheert (we noemen het `YOUR_DIRECTORY`).  
-- Basisvertrouwdheid met C# console‑apps—als je `Console.WriteLine` kunt schrijven, ben je klaar om te gaan.
+| Voorwaarde | Waarom het belangrijk is |
+|------------|--------------------------|
+| **.NET 6.0 or later** | De nieuwste runtime geeft je toegang tot moderne taalfeatures en de nieuwste Aspose.Pdf‑binaries. |
+| **Aspose.Pdf for .NET** (NuGet package `Aspose.PDF`) | Deze bibliotheek levert de `Document`, `PdfFileSignature` en `ValidationOptions` klassen die in de code worden gebruikt. |
+| **A signed PDF** (`signed.pdf`) | Het bestand dat je wilt verifiëren; het moet minstens één digitale handtekening bevatten. |
+| **Access to your CA’s OCSP endpoint** (e.g., `https://ca.mycompany.com/ocsp`) | Vereist voor realtime intrekkingcontrole en ketenvalidatie. |
 
-> **Pro tip:** Als je een andere PDF‑bibliotheek gebruikt, zoek dan naar equivalente klassen (`PdfDocument`, `SignatureValidator`, etc.). De concepten blijven hetzelfde.
+Als een van deze onbekend klinkt, geen zorgen—het installeren van het NuGet‑pakket is één regel (`dotnet add package Aspose.PDF`) en de rest is gewoon een bestand op schijf.
 
-## Stap 1: Laad het PDF‑document in C#
+---
 
-Voordat er verificatie kan plaatsvinden, moet de PDF in het geheugen worden geladen. Beschouw dit als het openen van een boek voordat je de handtekeningpagina gaat lezen.
+## Stap 1: Open het ondertekende PDF‑document
 
-```csharp
-using Aspose.Pdf;          // Namespace for Document
-using Aspose.Pdf.Signatures; // Namespace for PdfFileSignature
-
-// Replace YOUR_DIRECTORY with the actual path on your machine
-string pdfPath = Path.Combine("YOUR_DIRECTORY", "input.pdf");
-
-// Load the PDF document you want to verify
-Document pdfDocument = new Document(pdfPath);
-```
-
-**Waarom dit belangrijk is:** Het laden van het document creëert een manipuleerbaar objectmodel. Zonder dit kan de bibliotheek de ingebedde handtekeningvelden niet inspecteren.
-
-## Stap 2: Maak een PdfFileSignature‑instantie
-
-De `PdfFileSignature`‑klasse is de toegangspoort tot alle handtekeninggerelateerde bewerkingen. Het omsluit het `Document` dat we zojuist hebben geladen.
-
-```csharp
-// Create a PdfFileSignature object for the loaded document
-PdfFileSignature pdfSignature = new PdfFileSignature(pdfDocument);
-```
-
-**Uitleg:** Het object bevat zowel de PDF‑gegevens als de methoden die nodig zijn om handtekeningen te verifiëren, toe te voegen of te verwijderen. Het vroegtijdig instantieren houdt de code overzichtelijk en scheidt verantwoordelijkheden.
-
-## Stap 3: Schakel online intrekkingscontrole in (optioneel maar aanbevolen)
-
-Online intrekkingscontrole neemt contact op met certificaatautoriteiten om te bevestigen dat het ondertekeningscertificaat niet is ingetrokken. Deze stap verbetert de betrouwbaarheid aanzienlijk.
-
-```csharp
-// Enable online revocation checking for more reliable validation
-pdfSignature.ValidationOptions = new ValidationOptions
-{
-    UseOnlineRevocationChecking = true
-};
-```
-
-> **Waarom inschakelen?** Een handtekening kan technisch correct zijn, maar het certificaat kan na ondertekening zijn ingetrokken. Online controles vangen dat scenario op en geven je een echt “geldig/ongeldig” antwoord.
-
-## Stap 4: Verifieer de handtekening op naam
-
-Nu vragen we de bibliotheek daadwerkelijk om een specifiek handtekeningveld te verifiëren. De meeste PDF's bevatten een standaardnaam zoals “Signature1”, maar je kunt `"Sig1"` vervangen door wat jouw PDF ook gebruikt.
-
-```csharp
-// Verify the signature with the specified name
-bool isSignatureValid = pdfSignature.VerifySignature("Sig1");
-
-// Output the result to the console
-Console.WriteLine($"Signature \"Sig1\" valid: {isSignatureValid}");
-```
-
-**Wat je zult zien:** Als de handtekening intact is en het certificaat nog steeds vertrouwd wordt, print de console `Signature "Sig1" valid: True`. Anders krijg je `False`, wat wijst op een probleem zoals manipulatie of intrekking.
-
-## Stap 5: Volledig werkend voorbeeld (klaar om te kopiëren en plakken)
-
-Hieronder staat het volledige programma, klaar om te compileren. Sla het op als `Program.cs`, voer `dotnet run` uit, en bekijk de output.
+Het eerste wat we doen is de PDF laden die de handtekening bevat. Beschouw `Document` als het “boek” object; zonder het te openen, is niets anders van belang.
 
 ```csharp
 using System;
-using System.IO;
+using System.Linq;
 using Aspose.Pdf;
-using Aspose.Pdf.Signatures;
+using Aspose.Pdf.Facades;
 
 class Program
 {
     static void Main()
     {
-        // 1️⃣ Load the PDF document you want to verify
-        string pdfPath = Path.Combine("YOUR_DIRECTORY", "input.pdf");
-        Document pdfDocument = new Document(pdfPath);
+        // Replace with the actual path to your signed PDF
+        const string pdfPath = @"YOUR_DIRECTORY\signed.pdf";
 
-        // 2️⃣ Create a PdfFileSignature object for the loaded document
-        PdfFileSignature pdfSignature = new PdfFileSignature(pdfDocument);
+        // Step 1 – Load the PDF file
+        using var document = new Document(pdfPath);
+```
 
-        // 3️⃣ Enable online revocation checking (optional but best practice)
+> **Waarom deze stap?** Het openen van het bestand geeft ons toegang tot de handtekeningcollectie, die we later moeten enumereren. De `using`‑statement zorgt ervoor dat de bestandshandle snel wordt vrijgegeven.
+
+---
+
+## Stap 2: Initialiseert de PDF‑handtekeninghandler
+
+Nu maken we een `PdfFileSignature` object aan. Deze façade is de werkpaard die ons in staat stelt handtekeningen op te vragen en te verifiëren.
+
+```csharp
+        // Step 2 – Create the signature handler
+        using var pdfSignature = new PdfFileSignature(document);
+```
+
+> **Pro tip:** Als je met zeer grote PDF’s werkt, overweeg ze te laden met `LoadOptions` om het geheugenverbruik te verminderen. Het is niet vereist voor de meeste scenario’s, maar het kan je een paar gigabytes op de server besparen.
+
+---
+
+## Stap 3: Stel Validatie‑opties in – Verwijs naar de CA‑server en schakel ketenverificatie in
+
+Hier vertellen we Aspose hoe **pdf-handtekening te valideren** tegen je Certificate Authority. Het `ValidationOptions` object laat je een OCSP‑URL invoegen en volledige ketencontrole inschakelen.
+
+```csharp
+        // Step 3 – Configure validation (validate pdf signature)
         pdfSignature.ValidationOptions = new ValidationOptions
         {
-            UseOnlineRevocationChecking = true
+            // Your organization’s OCSP responder
+            CaServerUrl = "https://ca.mycompany.com/ocsp",
+            // Verify the whole certificate chain, not just the leaf cert
+            VerifyCertificateChain = true
         };
+```
 
-        // 4️⃣ Verify the signature named "Sig1"
-        bool isSignatureValid = pdfSignature.VerifySignature("Sig1");
+> **Waarom dit belangrijk is:** Zonder een CA‑server kan de bibliotheek alleen basis‑integriteitscontroles uitvoeren. Het inschakelen van `VerifyCertificateChain` zorgt ervoor dat elk certificaat in het ondertekeningspad vertrouwd wordt, wat essentieel is voor sterk gereguleerde sectoren.
 
-        // 5️⃣ Display the verification result
-        Console.WriteLine($"Signature \"Sig1\" valid: {isSignatureValid}");
+---
+
+## Stap 4: Verifieer de eerste handtekening in het document
+
+De meeste PDF’s hebben één handtekening, maar sommige kunnen er meerdere hebben. Voor de eenvoud pakken we de eerste. Je kunt dit later eenvoudig uitbreiden naar een lus.
+
+```csharp
+        // Step 4 – Get the name of the first signature and verify it
+        string firstSignatureName = pdfSignature.GetSignNames().FirstOrDefault();
+
+        if (string.IsNullOrEmpty(firstSignatureName))
+        {
+            Console.WriteLine("No signatures found in the PDF.");
+            return;
+        }
+
+        bool isValid = pdfSignature.VerifySignature(firstSignatureName);
+```
+
+> **Veelgestelde vraag:** *Wat als de PDF meerdere handtekeningen heeft?*  
+> **Antwoord:** Roep `pdfSignature.GetSignNames()` aan om alle namen op te halen, en itereren vervolgens met `VerifySignature(name)` voor elk. Dezelfde `ValidationOptions` gelden voor elke oproep.
+
+---
+
+## Stap 5: Toon het verificatieresultaat
+
+Tot slot geven we het booleaanse resultaat weer. In een echte app zou je dit waarschijnlijk loggen of teruggeven aan een UI, maar `Console.WriteLine` houdt het voorbeeld overzichtelijk.
+
+```csharp
+        // Step 5 – Show the outcome
+        Console.WriteLine($"Valid against CA: {isValid}");
     }
 }
 ```
 
-### Verwachte output
+### Verwacht resultaat
 
 ```
-Signature "Sig1" valid: True
+Valid against CA: True
 ```
 
-Als de handtekening niet slaagt voor validatie, zie je `False`. Je kunt dan verder onderzoeken—misschien is het certificaat van de ondertekenaar verlopen of is de PDF na ondertekening gewijzigd.
+Als de handtekening gebroken, ingetrokken of de keten niet kan worden opgebouwd is, zie je `False`. Je kunt ook het `SignatureInfo` object inspecteren voor gedetailleerde foutcodes, maar dat valt buiten de scope van deze korte gids.
 
-## Veelgestelde vragen & randgevallen
+---
 
-### Wat als ik de handtekeningnaam niet ken?
+## 📊 Diagram – Hoe de verificatiestroom werkt
 
-Je kunt alle handtekeningvelden opsommen:
+![Diagram dat het proces van pdf-handtekening verifiëren toont](https://example.com/verify-pdf-signature-diagram.png "Diagram dat het proces van pdf-handtekening verifiëren toont")
+
+*Alt‑tekst:* Diagram dat het proces van pdf-handtekening verifiëren toont – de PDF wordt geopend, handtekeninggegevens geëxtraheerd, OCSP‑verzoek naar de CA gestuurd, keten opgebouwd, en het uiteindelijke boolean‑resultaat geretourneerd.
+
+---
+
+## Stap 6: Meerdere handtekeningen verwerken (optionele uitbreiding)
+
+Als je workflow vereist dat **hoe pdf-handtekening te verifiëren** voor elke ondertekenaar wordt gecontroleerd, wikkel dan de verificatielogica in een lus:
 
 ```csharp
-foreach (var field in pdfSignature.GetSignatureNames())
+        var signatureNames = pdfSignature.GetSignNames();
+
+        foreach (var name in signatureNames)
+        {
+            bool result = pdfSignature.VerifySignature(name);
+            Console.WriteLine($"Signature '{name}' valid: {result}");
+        }
+```
+
+Die kleine toevoeging verandert een controle op één handtekening in een volledige audit‑trail, wat handig is voor contracten die door meerdere partijen moeten worden ondertekend.
+
+---
+
+## Veelvoorkomende valkuilen bij **PDF-handtekening valideren**  
+
+1. **Ontbrekende OCSP/CRL‑toegang** – Als `CaServerUrl` onbereikbaar is, valt de bibliotheek terug op offline validatie, wat valse negatieven kan opleveren. Test altijd de netwerkconnectiviteit vanaf de deployment‑server.  
+2. **Zelfondertekende root‑certificaten** – `VerifyCertificateChain` zal falen tenzij je de root toevoegt aan de vertrouwde store. Gebruik `pdfSignature.TrustedCertificates.Add(...)` als je een private PKI hebt.  
+3. **Tijdstempel‑mismatch** – Sommige handtekeningen bevatten een timestamp‑token. Als de systeemtijd meer dan enkele minuten afwijkt, kan de validatie lijken te falen. Houd de serverklok gesynchroniseerd via NTP.  
+4. **Wachtwoord‑beveiligde PDF’s** – De `Document`‑constructor gooit een uitzondering als het bestand versleuteld is. Ontgrendel het eerst met `document.Decrypt(password)` voordat je de handtekeninghandler maakt.
+
+---
+
+## Randgevallen & Variaties
+
+| Scenario | Wat aan te passen |
+|----------|-------------------|
+| **Offline validatie** (geen internet) | Laat `CaServerUrl` weg en vertrouw op ingebedde CRL’s; stel `ValidateRevocation = false` in. |
+| **Meerdere ondertekenende autoriteiten** | Voeg elke CA‑OCSP‑URL toe aan een dictionary en wissel `CaServerUrl` per handtekening op basis van de uitgever. |
+| **Grote PDF’s (>100 MB)** | Laad met `LoadOptions` en schakel `DocumentInfo.IsCompressed = true` in om de geheugenbelasting te verminderen. |
+| **Aangepaste truststore** | Vul `pdfSignature.TrustedCertificates` met je eigen X509Certificate2‑collectie. |
+
+Deze aanpassingen maken je oplossing robuust genoeg voor productiepijplijnen.
+
+---
+
+## Pro‑tips uit de praktijk
+
+- **Cache OCSP‑responsen** enkele minuten; herhaalde oproepen naar dezelfde endpoint kunnen batch‑verwerking vertragen.  
+- **Log de volledige exceptie** wanneer `VerifySignature` een fout gooit; Aspose bevat een `SignatureInfo.Status` enum die aangeeft of de fout te wijten is aan intrekking, expiratie, of een onbekend algoritme.  
+- **Unit‑test met een bekende‑goede PDF** (handtekening gemaakt door je eigen CA) om te garanderen dat je validatielogica werkt voordat je deze op documenten van derden toepast.  
+- **Wikkel de verificatie in een try/catch** en retourneer een gestructureerd result‑object (`bool IsValid`, `string Message`) in plaats van alleen naar de console te printen. Dit maakt de code API‑vriendelijk.
+
+---
+
+## Volledig werkend voorbeeld (klaar om te kopiëren‑plakken)
+
+```csharp
+using System;
+using System.Linq;
+using Aspose.Pdf;
+using Aspose.Pdf.Facades;
+
+class VerifyPdfSignatureDemo
 {
-    Console.WriteLine($"Found signature field: {field}");
+    static void Main()
+    {
+        const string pdfPath = @"YOUR_DIRECTORY\signed.pdf";
+
+        // Open the PDF file
+        using var document = new Document(pdfPath);
+
+        // Initialize the signature handler
+        using var pdfSignature = new PdfFileSignature(document);
+
+        // Set validation options (validate pdf signature)
+        pdfSignature.ValidationOptions = new ValidationOptions
+        {
+            CaServerUrl = "https://ca.mycompany.com/ocsp",
+            VerifyCertificateChain = true
+        };
+
+        // Grab the first signature name
+        string sigName = pdfSignature.GetSignNames().FirstOrDefault();
+
+        if (string.IsNullOrEmpty(sigName))
+        {
+            Console.WriteLine("No signatures found in the PDF.");
+            return;
+        }
+
+        // Verify the signature (how to verify pdf signature)
+        bool isValid = pdfSignature.VerifySignature(sigName);
+
+        // Output the result
+        Console.WriteLine($"Valid against CA: {isValid}");
+    }
 }
 ```
 
-Kies vervolgens degene die je nodig hebt.
+**Uitvoeren:** `dotnet run` vanuit de map die het bronbestand bevat. Als alles correct is ingesteld zie je `Valid against CA: True` (of `False` als er iets mis is).
 
-### Hoe ga je om met een PDF met meerdere handtekeningen?
-
-Roep `VerifySignature` aan voor elke naam in een lus. De methode retourneert een `bool` per handtekening, waardoor je een rapport kunt opstellen van alle geldigheidsstatussen.
-
-### Wat als online intrekkingscontrole faalt (bijv. geen internet)?
-
-Stel `UseOnlineRevocationChecking = false` in en vertrouw op CRL/OCSP-gegevens die in de PDF zijn ingebed. De verificatie zal nog steeds uitgevoerd worden, maar kan minder zeker zijn.
-
-### Kan ik een handtekening verifiëren zonder het hele document in het geheugen te laden?
-
-Sommige bibliotheken ondersteunen verificatie op basis van streams. Met Aspose.PDF kun je een `FileStream` openen en deze doorgeven aan de `Document`‑constructor, wat het geheugenverbruik voor enorme PDF's vermindert.
-
-## Pro‑tips voor productieklare verificatie
-
-- **Cache CRL/OCSP‑responses** – herhaaldelijk dezelfde CA benaderen kan batchverwerking vertragen.  
-- **Log de certificaat‑thumbprint** – nuttig voor audit‑trails.  
-- **Wrap verificatie in een try/catch** – slecht gevormde PDF's kunnen uitzonderingen werpen.  
-- **Valideer de ondertekeningtijd** – zorg ervoor dat de handtekening is toegepast binnen een acceptabel tijdsvenster voor jouw bedrijfslogica.  
+---
 
 ## Conclusie
 
-We hebben alles behandeld wat je nodig hebt om **PDF-handtekening te verifiëren** in C#. Van het laden van het document, het configureren van online intrekkingscontrole, tot het uiteindelijk bevestigen van de geldigheid van de handtekening, de code is kort, duidelijk en klaar voor productie.  
-
-Nu kun je **PDF digitale handtekening valideren**, **handtekeninggeldigheid controleren**, en zelfs **PDF-document laden C#** op een robuuste manier. Volgende stappen kunnen zijn het bouwen van een bulk‑verificatieservice, integratie met een documentbeheersysteem, of het uitbreiden van de logica om tijdstempelverificatie te ondersteunen.
-
-Heb je meer vragen? Laat een reactie achter, experimenteer met de bovenstaande variaties, en happy coding!
+In deze gids hebben we **pdf-handtekening geverifieerd** end‑to‑end met Aspose.Pdf voor .NET, de reden achter elke configuratie behandeld, en variaties onderzocht voor meerdere ondertekenaars, offline scenario’s, en aangepaste truststores. Je hebt nu een solide,
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

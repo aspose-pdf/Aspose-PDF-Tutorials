@@ -19,6 +19,7 @@
 이 튜토리얼은 PDF 파일의 기밀성과 신뢰성을 보장하는 방법과 기술을 자세히 설명합니다. 디지털 인증서 관리, 보안 권한 추가, 보안 정책 적용 방법 등을 배우게 됩니다. 이 튜토리얼을 통해 PDF 문서를 안정적이고 전문적으로 보호할 수 있습니다.
 
 ## 튜토리얼
+
 | 제목 | 설명 |
 | --- | --- | 
 | [PDF 파일에서 비밀번호 변경](./change-password/) | Aspose.PDF for .NET을 사용하여 PDF 비밀번호를 쉽게 변경하는 방법을 알아보세요. 단계별 가이드를 통해 안전하게 변경 과정을 안내해 드립니다. |  
@@ -26,7 +27,7 @@
 | [PDF 파일에서 올바른 비밀번호 확인](./determine-correct-password/) | Aspose.PDF for .NET을 사용하여 올바른 암호로 PDF 파일의 잠금을 해제하세요. 올바른 암호를 쉽게 식별하는 방법을 알아보세요. |  
 | [PDF 파일에 디지털로 로그인](./digitally-sign/) Aspose.PDF for .NET을 사용하여 PDF 파일에 디지털 서명하는 방법을 알아보세요. 문서의 보안과 진위 여부를 확인하는 단계별 가이드입니다. |  
 | [PDF 파일에 타임스탬프를 포함한 디지털 서명](./digitally-sign-with-time-stamp/) | Aspose.PDF for .NET을 사용하여 타임스탬프가 있는 PDF에 디지털 서명하는 방법을 알아보세요. 이 단계별 가이드에서는 필수 구성 요소, 인증서 설정, 타임스탬프 등에 대해 설명합니다. |  
-| [PDF 파일 암호화](./encrypt/) | Aspose.PDF for .NET을 사용하여 PDF 파일을 손쉽게 암호화하는 방법을 알아보세요. 간편한 단계별 가이드로 민감한 정보를 보호하세요. |  
+| [PDF 파일 암호화](./encrypt/) | Aspose.PDF for .NET을 사용하여 PDF 파일을 손쉽게 암호화하는 방법을 알아보세요. 간편한 단계별 가이드를 통해 민감한 정보를 보호하세요. |  
 | [이미지 추출](./extracting-image/) | Aspose.PDF for .NET을 사용하여 PDF에서 이미지를 추출하는 방법을 쉽게 알아보세요. 원활한 이미지 추출을 위한 단계별 가이드를 따라해 보세요. |  
 | [서명 정보 추출](./extract-signature-info/) | Aspose.PDF for .NET을 사용하여 PDF 문서에서 디지털 서명과 인증서 정보를 추출하는 방법을 알아보세요. C# 개발자를 위한 완벽한 단계별 가이드입니다. |  
 | [PDF 문서 로드 C# – 서명 읽기 및 목록화 완전 가이드](./load-pdf-document-c-complete-guide-to-reading-and-listing-si/) | Aspose.PDF for .NET을 사용하여 PDF 문서에서 서명을 읽고 목록화하는 방법을 단계별로 안내합니다. |
@@ -34,7 +35,17 @@
 | [PDF 파일에 권한 설정](./set-privileges/) | Aspose.PDF for .NET을 사용하여 PDF 권한을 설정하는 방법을 단계별 가이드를 통해 알아보세요. 문서를 효과적으로 보호하세요. |  
 | [PDF 파일 서명을 사용하여 스마트 카드로 서명](./sign-with-smart-card-using-pdf-file-signature/) | Aspose.PDF for .NET을 사용하여 스마트 카드를 사용하여 PDF 파일에 서명하는 방법을 알아보세요. 안전한 디지털 서명을 위한 단계별 가이드를 따르세요. |  
 | [서명 필드를 사용하여 스마트 카드로 서명](./sign-with-smart-card-using-signature-field/) | Aspose.PDF for .NET을 사용하여 스마트 카드를 사용하여 PDF에 안전하게 서명하는 방법을 알아보세요. 간편한 구현을 위한 단계별 가이드를 따르세요. |  
-| [C#에서 PDF 서명 검증 – 완전 단계별 가이드](./verify-pdf-signature-in-c-complete-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 서명의 유효성을 확인하고 검증하는 방법을 단계별로 안내합니다. |
+| [C#에서 PDF 서명 검증 – 완전 단계별 가이드](./verify-pdf-signature-in-c-complete-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 PDF 서명을 검증하는 방법을 단계별로 안내합니다. |  
+| [Aspose를 사용하여 PDF 서명 검증하기 – C# 튜토리얼](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) | Aspose.PDF for .NET을 사용해 PDF 서명의 유효성을 확인하고 검증하는 방법을 단계별로 안내합니다. |  
+| [C#에서 PDF 서명 확인 – 서명된 PDF 파일 읽는 방법](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Aspose.PDF for .NET을 사용하여 C#에서 서명된 PDF 파일의 서명을 확인하고 읽는 방법을 단계별로 안내합니다. |  
+| [PDF 파일 복구 방법 – Aspose.Pdf와 함께하는 완전한 C# 가이드](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Aspose.PDF for .NET을 사용하여 PDF 파일을 복구하는 방법을 단계별로 안내합니다. |  
+| [C#에서 PDF 서명 확인 – 완전한 프로그래밍 가이드](./verify-pdf-signature-in-c-complete-programming-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 서명을 검증하고 확인하는 방법을 단계별로 안내합니다. |  
+| [C#에서 PDF 서명을 검증하는 방법 – 완전한 단계별 가이드](./how-to-verify-pdf-signatures-in-c-complete-step-by-step-guid/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 서명을 검증하는 방법을 단계별로 안내합니다. |  
+| [Aspose를 사용하여 PDF 서명을 검증하는 방법 – 가이드](./how-to-verify-signature-in-pdf-using-aspose-guide/) | Aspose.PDF for .NET을 사용하여 PDF 서명을 검증하는 방법을 단계별로 안내합니다. |  
+| [Aspose.PDF를 사용하여 PDF 서명을 검증하는 방법 – 완전한 단계별 가이드](./how-to-verify-pdf-signatures-with-aspose-pdf-complete-guide/) | Aspose.PDF for .NET을 사용하여 PDF 서명을 검증하는 방법을 단계별로 안내합니다. |  
+| [C#을 사용한 PDF 디지털 서명 검증 – 완전 가이드](./verify-pdf-digital-signature-in-c-complete-guide/) | Aspose.PDF for .NET을 사용하여 PDF 디지털 서명을 검증하는 방법을 단계별로 안내합니다. |  
+| [C#에서 PDF 서명 검증 – 단계별 가이드](./validate-pdf-signature-in-c-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 서명을 검증하는 방법을 단계별로 안내합니다. |
+| [C#에서 PDF 서명 핸들러 만들기 – 서명 목록 가져오기](./create-pdf-signature-handler-list-signatures-in-c/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 서명 핸들러를 만들고, 문서에 포함된 모든 서명을 나열하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

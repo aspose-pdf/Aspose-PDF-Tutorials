@@ -62,6 +62,11 @@ Naučte se, jak používat Aspose.PDF pro .NET k ověřování a zpracování p�
 ### [Zvládnutí tvorby přístupných PDF souborů s Aspose.PDF .NET: Vytváření tagovaných PDF souborů se stylizovanými tabulkami](./aspose-pdf-net-tagged-pdfs-styled-tables/)
 Naučte se vytvářet přístupné, stylizované a tagované PDF dokumenty pomocí Aspose.PDF pro .NET. Zvládněte vytváření kompatibilních PDF souborů se strukturovanými tabulkami a vylepšenou přístupností.
 
+### [Jak porovnat PDF v C# – Kompletní průvodce generováním PDF rozdílů](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
+Naučte se, jak porovnat PDF soubory v C# a generovat rozdíly PDF pomocí Aspose.PDF.
+### [Úprava průhlednosti PDF v C# – krok za krokem](./edit-pdf-transparency-in-c-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.PDF pro .NET upravit průhlednost objektů v PDF pomocí C# krok za krokem.
+
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)

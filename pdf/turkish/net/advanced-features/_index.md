@@ -23,6 +23,9 @@ Aspose.PDF for .NET ile etiketli PDF'lerdeki alt öğelere nasıl erişeceğiniz
 ### [.NET için Aspose.PDF Kullanarak PDF'lere Renkli Çizgi Katmanları Ekleme: Kapsamlı Bir Kılavuz](./add-colored-lines-pdfs-using-aspose-pdf-net/)
 Aspose.PDF for .NET kullanarak renkli çizgi katmanları ekleyerek PDF belgelerinizi nasıl geliştireceğinizi öğrenin. Bu kılavuz adım adım talimatlar ve pratik uygulamalar sağlar.
 
+### [C#'ta PDF Şeffaflığını Düzenleme – Adım Adım Kılavuz](./edit-pdf-transparency-in-c-step-by-step-guide/)
+C# ve Aspose.PDF for .NET kullanarak PDF dosyalarındaki şeffaflık ayarlarını nasıl düzenleyeceğinizi adım adım öğrenin.
+
 ### [Aspose.PDF .NET: Etiketleme ile PDF Erişilebilirliğini Geliştirme](./aspose-pdf-net-accessible-tagging-guide/)
 PDF'lerde erişilebilir etiketleme için Aspose.PDF .NET'i nasıl kullanacağınızı öğrenin. Başlıkları, dilleri ve mantıksal yapıları kolayca ayarlayın.
 
@@ -61,6 +64,9 @@ PDF/UA-1 standardına göre erişilebilir PDF belgelerini doğrulamak ve işleme
 
 ### [Aspose.PDF .NET ile Erişilebilir PDF Oluşturmada Ustalaşma: Biçimlendirilmiş Tablolarla Etiketli PDF'ler Oluşturma](./aspose-pdf-net-tagged-pdfs-styled-tables/)
 Aspose.PDF for .NET kullanarak erişilebilir, biçimlendirilmiş etiketli PDF belgeleri oluşturmayı öğrenin. Yapılandırılmış tablolar ve gelişmiş erişilebilirlikle uyumlu PDF'ler oluşturmada ustalaşın.
+
+### [C# ile PDF'leri Karşılaştırma – PDF Diff Oluşturma İçin Tam Kılavuz](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
+C# ve Aspose.PDF kullanarak PDF dosyalarını karşılaştırmayı, farkları (diff) oluşturmayı ve raporlamayı öğrenin.
 
 ## Ek Kaynaklar
 

@@ -1,21 +1,21 @@
 ---
 category: general
-date: 2026-02-20
-description: Pelajari cara memverifikasi tanda tangan PDF di C# dengan cepat. Tutorial
-  ini juga mencakup cara memvalidasi tanda tangan digital PDF, memeriksa keabsahan
-  tanda tangan, dan memuat dokumen PDF di C#.
+date: 2026-02-25
+description: Verifikasi tanda tangan PDF di C# menggunakan Aspose.Pdf – pelajari cara
+  memvalidasi tanda tangan PDF terhadap server CA, menangani verifikasi rantai, dan
+  menghindari jebakan umum.
 draft: false
 keywords:
 - verify pdf signature
-- validate pdf digital signature
-- check signature validity
-- load pdf document c#
+- validate pdf signature
 - how to verify pdf signature
+- pdf digital signature verification
+- c# pdf signature validation
 language: id
-og_description: Verifikasi tanda tangan PDF di C# dengan contoh dunia nyata. Ikuti
-  panduan ini untuk memvalidasi tanda tangan digital PDF, memeriksa keabsahan tanda
-  tangan, dan memuat dokumen PDF di C#.
-og_title: Verifikasi Tanda Tangan PDF di C# – Panduan Pemrograman Lengkap
+og_description: verifikasi tanda tangan PDF di C# menggunakan Aspose.Pdf. Tutorial
+  ini menunjukkan cara memvalidasi tanda tangan PDF terhadap server CA, dengan kode,
+  tips, dan penanganan kasus khusus.
+og_title: Verifikasi Tanda Tangan PDF di C# – Panduan Lengkap Langkah demi Langkah
 tags:
 - PDF
 - C#
@@ -28,114 +28,115 @@ url: /id/net/programming-with-security-and-signatures/verify-pdf-signature-in-c-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Verifikasi Tanda Tangan PDF di C# – Panduan Lengkap Langkah‑per‑Langkah
+# verifikasi tanda tangan pdf di C# – Panduan Lengkap Langkah‑per‑Langkah
 
-Pernah perlu **verify PDF signature** tetapi tidak yakin harus mulai dari mana di C#? Anda tidak sendirian—banyak pengembang menemui kebuntuan ini saat pertama kali berhadapan dengan PDF yang ditandatangani. Kabar baiknya, dengan beberapa baris kode Anda dapat **validate PDF digital signature**, memeriksa integritasnya, dan bahkan melakukan pemeriksaan pencabutan secara online.  
+Pernah perlu **verifikasi tanda tangan pdf** pada dokumen yang dikirimkan pelanggan Anda? Mungkin Anda sedang membangun alur kerja persetujuan faktur dan tidak dapat menerima PDF yang dipalsukan. Dalam tutorial ini kami akan membahas contoh praktis end‑to‑end yang menunjukkan secara tepat cara **memvalidasi tanda tangan pdf** dengan C# dan Aspose.Pdf, serta menjawab pertanyaan “bagaimana cara memverifikasi tanda tangan pdf” yang sering muncul di banyak forum.
 
-Dalam tutorial ini kami akan menjelaskan cara memuat dokumen PDF, mengonfigurasi pemeriksaan pencabutan, dan akhirnya mengonfirmasi apakah tanda tangan tertentu (misalnya “Sig1”) masih dapat dipercaya. Pada akhir tutorial Anda akan dapat **check signature validity** pada PDF apa pun yang Anda miliki, dan Anda akan memahami alasan di balik setiap langkah.
+Anda akan menyelesaikan panduan ini dengan aplikasi konsol yang dapat dijalankan, yang berkomunikasi dengan endpoint OCSP/CRL Anda sendiri, memeriksa rantai sertifikat, dan mencetak hasil true/false yang jelas. Tidak ada serahan “lihat dokumentasinya” yang samar—semua yang Anda butuhkan ada di sini.
 
-## Prasyarat & Apa yang Anda Butuhkan
+---
 
-- **.NET 6.0 atau lebih baru** – kode menggunakan sintaks C# modern, tetapi versi lama dapat bekerja dengan sedikit penyesuaian.  
-- **Aspose.PDF for .NET** (atau perpustakaan apa pun yang menyediakan `PdfFileSignature`). Instal melalui NuGet:  
+## Apa yang Anda Butuhkan
 
-  ```bash
-  dotnet add package Aspose.PDF
-  ```
+Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 
-- File PDF yang ditandatangani bernama `input.pdf` ditempatkan di folder yang Anda kontrol (kami akan menyebutnya `YOUR_DIRECTORY`).  
-- Familiaritas dasar dengan aplikasi konsol C#—jika Anda dapat menulis `Console.WriteLine`, Anda siap.
+| Prasyarat | Mengapa penting |
+|--------------|----------------|
+| **.NET 6.0 atau lebih baru** | Runtime terbaru memberi Anda akses ke fitur bahasa modern dan binary Aspose.Pdf yang paling baru. |
+| **Aspose.Pdf for .NET** (paket NuGet `Aspose.PDF`) | Perpustakaan ini menyediakan kelas `Document`, `PdfFileSignature`, dan `ValidationOptions` yang digunakan dalam kode. |
+| **PDF yang ditandatangani** (`signed.pdf`) | File yang ingin Anda verifikasi; harus berisi setidaknya satu tanda tangan digital. |
+| **Akses ke endpoint OCSP CA Anda** (misalnya `https://ca.mycompany.com/ocsp`) | Diperlukan untuk pemeriksaan pencabutan secara real‑time dan validasi rantai. |
 
-> **Pro tip:** Jika Anda menggunakan perpustakaan PDF yang berbeda, cari kelas yang setara (`PdfDocument`, `SignatureValidator`, dll.). Konsepnya tetap sama.
+Jika ada yang belum familiar, jangan khawatir—menginstal paket NuGet cukup satu baris (`dotnet add package Aspose.PDF`) dan sisanya hanyalah file di disk.
 
-## Langkah 1: Muat Dokumen PDF di C#
+---
 
-Sebelum verifikasi apa pun dapat dilakukan, PDF harus dimuat ke dalam memori. Anggap ini seperti membuka buku sebelum Anda mulai membaca halaman tanda tangan.
+## Langkah 1: Buka Dokumen PDF yang Ditandatangani
 
-```csharp
-using Aspose.Pdf;          // Namespace for Document
-using Aspose.Pdf.Signatures; // Namespace for PdfFileSignature
-
-// Replace YOUR_DIRECTORY with the actual path on your machine
-string pdfPath = Path.Combine("YOUR_DIRECTORY", "input.pdf");
-
-// Load the PDF document you want to verify
-Document pdfDocument = new Document(pdfPath);
-```
-
-**Mengapa ini penting:** Memuat dokumen membuat model objek yang dapat dimanipulasi. Tanpa itu, perpustakaan tidak dapat memeriksa bidang tanda tangan yang tertanam.
-
-## Langkah 2: Buat Instance PdfFileSignature
-
-Kelas `PdfFileSignature` adalah gerbang ke semua operasi yang terkait dengan tanda tangan. Ia membungkus `Document` yang baru saja kita muat.
-
-```csharp
-// Create a PdfFileSignature object for the loaded document
-PdfFileSignature pdfSignature = new PdfFileSignature(pdfDocument);
-```
-
-**Penjelasan:** Objek ini menyimpan data PDF serta metode yang diperlukan untuk memverifikasi, menambah, atau menghapus tanda tangan. Membuatnya lebih awal menjaga kode tetap bersih dan memisahkan kepentingan.
-
-## Langkah 3: Aktifkan Pemeriksaan Pencabutan Online (Opsional tetapi Disarankan)
-
-Pemeriksaan pencabutan online menghubungi otoritas sertifikat untuk memastikan bahwa sertifikat penandatangan belum dicabut. Langkah ini secara dramatis meningkatkan keandalan.
-
-```csharp
-// Enable online revocation checking for more reliable validation
-pdfSignature.ValidationOptions = new ValidationOptions
-{
-    UseOnlineRevocationChecking = true
-};
-```
-
-> **Mengapa mengaktifkannya?** Sebuah tanda tangan mungkin secara teknis benar tetapi sertifikatnya dapat dicabut setelah penandatanganan. Pemeriksaan online menangkap skenario tersebut, memberi Anda jawaban “valid/tidak valid” yang sebenarnya.
-
-## Langkah 4: Verifikasi Tanda Tangan berdasarkan Nama
-
-Sekarang kita benar‑benar meminta perpustakaan untuk memverifikasi bidang tanda tangan tertentu. Kebanyakan PDF memiliki nama default seperti “Signature1”, tetapi Anda dapat mengganti `"Sig1"` dengan apa pun yang digunakan PDF Anda.
-
-```csharp
-// Verify the signature with the specified name
-bool isSignatureValid = pdfSignature.VerifySignature("Sig1");
-
-// Output the result to the console
-Console.WriteLine($"Signature \"Sig1\" valid: {isSignatureValid}");
-```
-
-**Apa yang akan Anda lihat:** Jika tanda tangan utuh dan sertifikat masih dipercaya, konsol akan mencetak `Signature "Sig1" valid: True`. Jika tidak, Anda akan mendapatkan `False`, yang menunjukkan masalah seperti manipulasi atau pencabutan.
-
-## Langkah 5: Contoh Kerja Lengkap (Siap Salin‑Tempel)
-
-Berikut adalah seluruh program, siap untuk dikompilasi. Simpan sebagai `Program.cs`, jalankan `dotnet run`, dan perhatikan outputnya.
+Hal pertama yang kita lakukan adalah memuat PDF yang berisi tanda tangan. Anggap `Document` sebagai objek “buku”; tanpa membukanya, tidak ada yang dapat diproses.
 
 ```csharp
 using System;
-using System.IO;
+using System.Linq;
 using Aspose.Pdf;
-using Aspose.Pdf.Signatures;
+using Aspose.Pdf.Facades;
 
 class Program
 {
     static void Main()
     {
-        // 1️⃣ Load the PDF document you want to verify
-        string pdfPath = Path.Combine("YOUR_DIRECTORY", "input.pdf");
-        Document pdfDocument = new Document(pdfPath);
+        // Replace with the actual path to your signed PDF
+        const string pdfPath = @"YOUR_DIRECTORY\signed.pdf";
 
-        // 2️⃣ Create a PdfFileSignature object for the loaded document
-        PdfFileSignature pdfSignature = new PdfFileSignature(pdfDocument);
+        // Step 1 – Load the PDF file
+        using var document = new Document(pdfPath);
+```
 
-        // 3️⃣ Enable online revocation checking (optional but best practice)
+> **Mengapa langkah ini?** Membuka file memberi kita akses ke koleksi tanda tangan, yang nanti akan kita iterasi. Pernyataan `using` memastikan pegangan file dilepaskan dengan cepat.
+
+---
+
+## Langkah 2: Inisialisasi Penangani Tanda Tangan PDF
+
+Sekarang kita membuat objek `PdfFileSignature`. Fasad ini adalah mesin utama yang memungkinkan kita menanyakan dan memverifikasi tanda tangan.
+
+```csharp
+        // Step 2 – Create the signature handler
+        using var pdfSignature = new PdfFileSignature(document);
+```
+
+> **Tips pro:** Jika Anda menangani PDF yang sangat besar, pertimbangkan memuatnya dengan `LoadOptions` untuk mengurangi penggunaan memori. Tidak wajib untuk kebanyakan skenario, tetapi dapat menghemat beberapa gigabyte di server.
+
+---
+
+## Langkah 3: Atur Opsi Validasi – Arahkan ke Server CA dan Aktifkan Verifikasi Rantai
+
+Di sinilah kita memberi tahu Aspose cara **memvalidasi tanda tangan pdf** terhadap Otoritas Sertifikat Anda. Objek `ValidationOptions` memungkinkan Anda menyisipkan URL OCSP dan mengaktifkan pemeriksaan rantai penuh.
+
+```csharp
+        // Step 3 – Configure validation (validate pdf signature)
         pdfSignature.ValidationOptions = new ValidationOptions
         {
-            UseOnlineRevocationChecking = true
+            // Your organization’s OCSP responder
+            CaServerUrl = "https://ca.mycompany.com/ocsp",
+            // Verify the whole certificate chain, not just the leaf cert
+            VerifyCertificateChain = true
         };
+```
 
-        // 4️⃣ Verify the signature named "Sig1"
-        bool isSignatureValid = pdfSignature.VerifySignature("Sig1");
+> **Mengapa ini penting:** Tanpa server CA, perpustakaan hanya dapat melakukan pemeriksaan integritas dasar. Mengaktifkan `VerifyCertificateChain` memastikan setiap sertifikat dalam jalur penandatangan dipercaya, yang esensial untuk industri dengan kepatuhan tinggi.
 
-        // 5️⃣ Display the verification result
-        Console.WriteLine($"Signature \"Sig1\" valid: {isSignatureValid}");
+---
+
+## Langkah 4: Verifikasi Tanda Tangan Pertama dalam Dokumen
+
+Sebagian besar PDF memiliki satu tanda tangan, tetapi ada yang memiliki beberapa. Untuk kesederhanaan kita ambil yang pertama. Anda dapat dengan mudah memperluas ini menjadi loop nanti.
+
+```csharp
+        // Step 4 – Get the name of the first signature and verify it
+        string firstSignatureName = pdfSignature.GetSignNames().FirstOrDefault();
+
+        if (string.IsNullOrEmpty(firstSignatureName))
+        {
+            Console.WriteLine("No signatures found in the PDF.");
+            return;
+        }
+
+        bool isValid = pdfSignature.VerifySignature(firstSignatureName);
+```
+
+> **Pertanyaan umum:** *Bagaimana jika PDF memiliki banyak tanda tangan?*  
+> **Jawaban:** Panggil `pdfSignature.GetSignNames()` untuk mengambil semua nama, lalu iterasi dengan `VerifySignature(name)` untuk masing‑masing. `ValidationOptions` yang sama berlaku untuk setiap pemanggilan.
+
+---
+
+## Langkah 5: Tampilkan Hasil Verifikasi
+
+Akhirnya, kita mencetak hasil boolean. Dalam aplikasi nyata Anda mungkin akan mencatatnya atau mengirim kembali ke UI, tetapi `Console.WriteLine` membuat contoh tetap rapi.
+
+```csharp
+        // Step 5 – Show the outcome
+        Console.WriteLine($"Valid against CA: {isValid}");
     }
 }
 ```
@@ -143,52 +144,122 @@ class Program
 ### Output yang Diharapkan
 
 ```
-Signature "Sig1" valid: True
+Valid against CA: True
 ```
 
-Jika tanda tangan gagal validasi, Anda akan melihat `False`. Anda kemudian dapat menyelidiki lebih lanjut—mungkin sertifikat penandatangan telah kedaluwarsa atau PDF telah diubah setelah penandatanganan.
+Jika tanda tangan rusak, dicabut, atau rantainya tidak dapat dibangun, Anda akan melihat `False`. Anda juga dapat memeriksa objek `SignatureInfo` untuk kode error detail, tetapi itu di luar cakupan panduan singkat ini.
 
-## Pertanyaan Umum & Kasus Tepi
+---
 
-### Bagaimana jika saya tidak tahu nama tanda tangan?
+## 📊 Diagram – Cara Kerja Alur Verifikasi
 
-Anda dapat mengenumerasi semua bidang tanda tangan:
+![Diagram showing verify pdf signature process](https://example.com/verify-pdf-signature-diagram.png "Diagram showing verify pdf signature process")
+
+*Alt text:* Diagram yang menunjukkan proses verifikasi tanda tangan pdf – PDF dibuka, data tanda tangan diekstrak, permintaan OCSP dikirim ke CA, rantai dibangun, dan boolean akhir dikembalikan.
+
+---
+
+## Langkah 6: Menangani Banyak Tanda Tangan (Ekstensi Opsional)
+
+Jika alur kerja Anda memerlukan memeriksa **bagaimana cara memverifikasi tanda tangan pdf** untuk setiap penandatangan, bungkus logika verifikasi dalam loop:
 
 ```csharp
-foreach (var field in pdfSignature.GetSignatureNames())
+        var signatureNames = pdfSignature.GetSignNames();
+
+        foreach (var name in signatureNames)
+        {
+            bool result = pdfSignature.VerifySignature(name);
+            Console.WriteLine($"Signature '{name}' valid: {result}");
+        }
+```
+
+Penambahan kecil ini mengubah pemeriksaan satu tanda tangan menjadi jejak audit lengkap, yang berguna untuk kontrak yang memerlukan beberapa pihak menandatangani.
+
+---
+
+## Kesalahan Umum Saat **Validasi Tanda Tangan PDF**  
+
+1. **Tidak Ada Akses OCSP/CRL** – Jika `CaServerUrl` tidak dapat dijangkau, perpustakaan beralih ke validasi offline, yang dapat menghasilkan false negative. Selalu uji konektivitas jaringan dari server tempat aplikasi dijalankan.  
+2. **Root Certificate Self‑Signed** – `VerifyCertificateChain` akan gagal kecuali Anda menambahkan root ke store tepercaya. Gunakan `pdfSignature.TrustedCertificates.Add(...)` jika Anda memiliki PKI privat.  
+3. **Ketidaksesuaian Time‑Stamp** – Beberapa tanda tangan menyertakan token timestamp. Jika jam sistem meleset lebih dari beberapa menit, validasi dapat tampak gagal. Jaga jam server tetap sinkron via NTP.  
+4. **PDF yang Dilindungi Password** – Konstruktor `Document` akan melempar jika file terenkripsi. Buka dulu dengan `document.Decrypt(password)` sebelum membuat penangani tanda tangan.
+
+---
+
+## Kasus Khusus & Variasi
+
+| Skenario | Apa yang Harus Disesuaikan |
+|----------|----------------------------|
+| **Validasi offline** (tanpa internet) | Hapus `CaServerUrl` dan bergantung pada CRL yang tersemat; set `ValidateRevocation = false`. |
+| **Beberapa otoritas penandatangan** | Tambahkan setiap URL OCSP CA ke dalam kamus dan ubah `CaServerUrl` per tanda tangan berdasarkan issuer. |
+| **PDF besar (>100 MB)** | Muat dengan `LoadOptions` dan aktifkan `DocumentInfo.IsCompressed = true` untuk mengurangi tekanan memori. |
+| **Store kepercayaan khusus** | Isi `pdfSignature.TrustedCertificates` dengan koleksi X509Certificate2 milik Anda sendiri. |
+
+Penyesuaian ini membuat solusi Anda cukup kuat untuk jalur produksi.
+
+---
+
+## Tips Pro Dari Lapangan
+
+- **Cache respons OCSP** selama beberapa menit; panggilan berulang ke endpoint yang sama dapat memperlambat pemrosesan batch.  
+- **Log seluruh exception** ketika `VerifySignature` melempar; Aspose menyertakan enum `SignatureInfo.Status` yang memberi tahu apakah kegagalan disebabkan oleh pencabutan, kedaluwarsa, atau algoritma tidak dikenal.  
+- **Uji unit dengan PDF yang diketahui baik** (tanda tangan dibuat oleh CA Anda sendiri) untuk memastikan logika validasi berfungsi sebelum mengarahkannya ke dokumen pihak ketiga.  
+- **Bungkus verifikasi dalam try/catch** dan kembalikan objek hasil terstruktur (`bool IsValid`, `string Message`) alih-alih hanya mencetak ke konsol. Ini membuat kode lebih ramah API.
+
+---
+
+## Contoh Lengkap yang Siap Pakai (Copy‑Paste)
+
+```csharp
+using System;
+using System.Linq;
+using Aspose.Pdf;
+using Aspose.Pdf.Facades;
+
+class VerifyPdfSignatureDemo
 {
-    Console.WriteLine($"Found signature field: {field}");
+    static void Main()
+    {
+        const string pdfPath = @"YOUR_DIRECTORY\signed.pdf";
+
+        // Open the PDF file
+        using var document = new Document(pdfPath);
+
+        // Initialize the signature handler
+        using var pdfSignature = new PdfFileSignature(document);
+
+        // Set validation options (validate pdf signature)
+        pdfSignature.ValidationOptions = new ValidationOptions
+        {
+            CaServerUrl = "https://ca.mycompany.com/ocsp",
+            VerifyCertificateChain = true
+        };
+
+        // Grab the first signature name
+        string sigName = pdfSignature.GetSignNames().FirstOrDefault();
+
+        if (string.IsNullOrEmpty(sigName))
+        {
+            Console.WriteLine("No signatures found in the PDF.");
+            return;
+        }
+
+        // Verify the signature (how to verify pdf signature)
+        bool isValid = pdfSignature.VerifySignature(sigName);
+
+        // Output the result
+        Console.WriteLine($"Valid against CA: {isValid}");
+    }
 }
 ```
 
-Kemudian pilih yang Anda butuhkan.
+**Jalankan:** `dotnet run` dari folder yang berisi file sumber. Jika semuanya sudah disiapkan dengan benar Anda akan melihat `Valid against CA: True` (atau `False` jika ada yang tidak beres).
 
-### Bagaimana menangani PDF dengan banyak tanda tangan?
-
-Panggil `VerifySignature` untuk setiap nama dalam sebuah loop. Metode ini mengembalikan `bool` per tanda tangan, memungkinkan Anda membuat laporan semua status keabsahan.
-
-### Bagaimana jika pemeriksaan pencabutan online gagal (mis., tidak ada internet)?
-
-Setel `UseOnlineRevocationChecking = false` dan bergantung pada data CRL/OCSP yang tertanam dalam PDF. Verifikasi tetap akan dijalankan tetapi mungkin kurang pasti.
-
-### Bisakah saya memverifikasi tanda tangan tanpa memuat seluruh dokumen ke memori?
-
-Beberapa perpustakaan mendukung verifikasi berbasis aliran. Dengan Aspose.PDF Anda dapat membuka `FileStream` dan melewatkannya ke konstruktor `Document`, yang mengurangi beban memori untuk PDF yang sangat besar.
-
-## Tips Pro untuk Verifikasi Siap Produksi
-
-- **Cache respons CRL/OCSP** – sering menghubungi CA yang sama dapat memperlambat pemrosesan batch.  
-- **Log sidik jari sertifikat** – berguna untuk jejak audit.  
-- **Bungkus verifikasi dalam try/catch** – PDF yang rusak dapat melemparkan pengecualian.  
-- **Validasi waktu penandatanganan** – pastikan tanda tangan diterapkan dalam jendela waktu yang dapat diterima untuk logika bisnis Anda.  
+---
 
 ## Kesimpulan
 
-Kami telah membahas semua yang Anda perlukan untuk **verify PDF signature** di C#. Dari memuat dokumen, mengonfigurasi pemeriksaan pencabutan online, hingga akhirnya mengonfirmasi keabsahan tanda tangan, kode singkat, jelas, dan siap untuk produksi.  
-
-Sekarang Anda dapat **validate PDF digital signature**, **check signature validity**, dan bahkan **load PDF document C#** dengan cara yang kuat. Langkah selanjutnya mungkin termasuk membangun layanan verifikasi massal, mengintegrasikan dengan sistem manajemen dokumen, atau memperluas logika untuk mendukung verifikasi cap waktu.
-
-Ada pertanyaan lebih lanjut? Tinggalkan komentar, bereksperimen dengan variasi di atas, dan selamat coding!
+Dalam panduan ini kami telah **memverifikasi tanda tangan pdf** secara end‑to‑end menggunakan Aspose.Pdf untuk .NET, menjelaskan alasan di balik setiap konfigurasi, serta mengeksplorasi variasi untuk banyak penandatangan, skenario offline, dan store kepercayaan khusus. Anda kini memiliki dasar yang kuat,
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

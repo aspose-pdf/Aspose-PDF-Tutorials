@@ -70,6 +70,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Teks Dan Gambar Sebagai Paragraf Dalam File PDF](./text-and-image-as-paragraph/) | Buat PDF dengan teks dan gambar menggunakan Aspose.PDF untuk .NET. Pelajari cara menambahkan teks dan gambar sebaris langkah demi langkah. Bahasa Indonesia:  
 | [Segmen Teks Dalam File PDF](./text-segments/) | Pelajari cara mencari segmen teks tertentu dalam berkas PDF menggunakan ekspresi reguler di Aspose.PDF untuk .NET. Bahasa Indonesia:  
 | [Gunakan Skrip Latex Dalam File PDF](./use-latex-script/) | Pelajari cara menggunakan skrip Latex untuk menambahkan ekspresi atau rumus matematika dalam berkas PDF menggunakan Aspose.PDF untuk .NET. |  
+| [Tambahkan Nomor Bates ke PDF – penomoran bates pdf](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Pelajari cara menambahkan nomor Bates ke dokumen PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode langkah demi langkah. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

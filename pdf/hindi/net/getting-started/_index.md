@@ -24,7 +24,7 @@ Aspose.PDF नेट के लिए एक कोड ट्यूटोरि�
 Aspose.PDF नेट के लिए एक कोड ट्यूटोरियल
 
 ### [.NET में एम्बेडेड संसाधन के माध्यम से Aspose.PDF लाइसेंस कैसे सेट करें](./setting-up-aspose-pdf-license-embedded-resource/)
-इस चरण-दर-चरण मार्गदर्शिका के साथ Aspose.PDF .NET के लिए एम्बेडेड संसाधन लाइसेंस सेट अप करना और उसका उपयोग करना सीखें। PDF कार्यक्षमताओं को सहजता से एकीकृत करने का तरीका जानें।
+इस चरण-दर-स्टेप मार्गदर्शिका के साथ Aspose.PDF .NET के लिए एम्बेडेड संसाधन लाइसेंस सेट अप करना और उसका उपयोग करना सीखें। PDF कार्यक्षमताओं को सहजता से एकीकृत करने का तरीका जानें।
 
 ### [FileStream के साथ Aspose.PDF .NET लाइसेंस लागू करें](./implement-aspose-pdf-net-license-filestream/)
 Aspose.PDF नेट के लिए एक कोड ट्यूटोरियल
@@ -32,6 +32,8 @@ Aspose.PDF नेट के लिए एक कोड ट्यूटोरि�
 ### [.NET में फ़ाइल से Aspose.PDF लाइसेंस लोड करना: एक व्यापक गाइड](./load-aspose-pdf-license-file-net/)
 लाइसेंस फ़ाइल लोड करके, सुचारू अनुप्रयोग कार्यक्षमता सुनिश्चित करते हुए, .NET में Aspose.PDF के लिए परीक्षण और लाइसेंस मोड के बीच सहजता से स्विच करना सीखें।
 
+### [Aspose को कैसे स्थापित करें – विशिष्ट संस्करणों के लिए PowerShell गाइड](./how-to-install-aspose-powershell-guide-for-specific-versions/)
+विशिष्ट संस्करणों के लिए PowerShell का उपयोग करके Aspose स्थापित करने की चरण-दर-चरण गाइड।
 ### [PowerShell के माध्यम से NuGet पैकेज कैसे स्थापित करें – चरण-दर-चरण](./how-to-install-nuget-packages-via-powershell-step-by-step/)
 PowerShell का उपयोग करके NuGet पैकेज इंस्टॉल करने की चरण-दर-चरण मार्गदर्शिका।
 

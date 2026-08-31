@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-14"
-"description": "Aspose.PDF for Java'yı kullanarak PDF belgelerini web dostu HTML formatına nasıl dönüştüreceğinizi öğrenin; yazı tipleri ve resimler gibi tüm kaynakların gömülü olduğundan emin olun."
-"title": "Aspose.PDF for Java Kullanarak Gömülü Kaynaklarla PDF'yi HTML'ye Dönüştürme"
-"url": "/tr/java/conversion-export/convert-pdf-to-html-aspose-java-embedded-resources/"
-"weight": 1
+date: '2026-03-23'
+description: Java ve Aspose.PDF kullanarak PDF'yi HTML'ye dönüştürmeyi, kaynakları
+  HTML içinde gömmeyi, PDF'den HTML'ye görüntüleri yönetmeyi ve tek dosyalı HTML çıktısı
+  oluşturmayı öğrenin.
+keywords:
+- convert PDF to HTML Java
+- embed resources in HTML
+- Aspose.PDF for Java tutorial
+title: pdf to html java – Aspose.PDF for Java kullanarak gömülü kaynaklarla PDF'yi
+  HTML'ye dönüştür
+url: /tr/java/conversion-export/convert-pdf-to-html-aspose-java-embedded-resources/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,8 +18,189 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.PDF for Java Kullanarak Tüm Kaynaklar Yerleştirilmiş PDF'yi HTML'ye Dönüştürün\n\n## Giriş\n\nPDF dosyalarını, yazı tipleri ve resimler gibi tüm gerekli kaynakları yerleştirerek web dostu bir HTML biçimine dönüştürmek zor olabilir. Ancak, Aspose.PDF for Java kullanmak bu süreci basitleştirir. Bu eğitim, PDF'leri web yayımcılığına uygun tam olarak yerleştirilmiş HTML belgelerine dönüştürme konusunda size rehberlik edecektir.\n\n**Ne Öğreneceksiniz:**\n- PDF dosyalarını HTML formatına dönüştürmek için Java için Aspose.PDF nasıl kullanılır.\n- Tüm kaynakları tek bir HTML dosyasına yerleştirmek için seçenekleri yapılandırma.\n- Java'da özel HTML kaydetme stratejileri uygulama.\n- Gömülü varlıklara sahip karmaşık belgelerin sorunsuz dönüştürülmesini sağlama.\n\nDönüştürme sürecine dalmadan önce ön koşulları gözden geçirerek başlayalım.\n\n## Ön Koşullar\n\nBaşlamadan önce şunlara sahip olduğunuzdan emin olun:\n\n### Gerekli Kitaplıklar ve Bağımlılıklar\n- **Java için Aspose.PDF**PDF düzenleme için gereken birincil kütüphane. 25.3 veya sonraki sürümü kullanın.\n  
-### Ortam Kurulum Gereksinimleri\n- Makinenize yüklenmiş bir Java Geliştirme Kiti (JDK).\n- IntelliJ IDEA, Eclipse veya NetBeans gibi bir IDE.\n\n### Bilgi Önkoşulları\n- Java programlamanın temel bilgisi.\n- Bağımlılık yönetimi için Maven veya Gradle'a aşinalık.\n\n## Java için Aspose.PDF Kurulumu\n\nİlk olarak, Aspose.PDF'yi geliştirme ortamınıza ekleyin. Maven veya Gradle'ı kullanarak bir bağımlılık olarak ekleyebilirsiniz:\n\n### Maven\n```xml\n<dependency>\n    <groupId>com.aspose</groupId>\n    <artifactId>aspose-pdf</artifactId>\n    <version>25.3</version>\n</dependency>\n```\n\n### Gradle\n```gradle\nimplementation 'com.aspose:aspose-pdf:25.3'\n```\n\n#### Lisans Edinme Adımları\n1. **Ücretsiz Deneme**: Özellikleri değerlendirmek için Aspose web sitesinden ücretsiz deneme sürümünü indirin.\n2. **Geçici Lisans**: Değerlendirme süreniz boyunca kısıtlama olmaksızın tam erişime ihtiyacınız varsa geçici lisans başvurusunda bulunun.\n3. **Satın almak**: Uzun vadeli kullanım için bir lisans satın almayı düşünün.\n\nProjenize dahil edildikten sonra, Aspose.PDF'yi aşağıdaki şekilde başlatın:\n```java\nimport com.aspose.pdf.Document;\n\npublic class PDFToHTMLConverter {\n    public static void main(String[] args) {\n        // Ensure the path to your license file is correct if using a licensed version\n        // License license = new License();\n        // license.setLicense(\"path/to/Aspose.Total.Java.lic\");\n        \n        System.out.println(\"Aspose.PDF for Java setup complete!\");\n    }\n}\n```\n\n## Uygulama Kılavuzu\n\nŞimdi, PDF'nizi tüm kaynakları gömülü olarak HTML'ye dönüştürelim.\n\n### PDF Belgesini Yükleme\nAspose.PDF kullanarak PDF belgenizi yükleyin:\n```java\nimport com.aspose.pdf.Document;\n\nString dataDir = \"YOUR_DOCUMENT_DIRECTORY\";\nDocument doc = new Document(dataDir + \"/input.pdf\");\n```\n\n### HTML Kaydetme Seçeneklerini Yapılandırma\nHTML çıktısı içindeki tüm kaynakları yerleştirmek için seçenekleri ayarlayın `HtmlSaveOptions`:\N```java\nimport com.aspose.pdf.HtmlSaveOptions;\nimport com.aspose.pdf.LettersPositioningMethods;\n\nHtmlSaveOptions newOptions = new HtmlSaveOptions();\nnewOptions.setRasterImagesSavingMode(HtmlSaveOptions.RasterImagesSavingModes.AsEmbeddedPartsOfPngPageBackground);\nnewOptions.setFontSavingMode(HtmlSaveOptions.FontSavingModes.SaveInAllFormats);\nnewOptions.setPartsEmbeddingMode(HtmlSaveOptions.PartsEmbeddingModes.EmbedAllIntoHtml);\nnewOptions.setLettersPositioningMethod(LettersPositioningMethods.UseEmUnitsAndCompensationOfRoundingErrorsInCss);\nnewOptions.setSplitIntoPages(false); // Combine all pages into a single HTML file\n```\n\n### Kaydetme Stratejisini Özelleştirme\nHTML içeriğinin nasıl kaydedileceğini kontrol etmek için özel bir strateji uygulayın:\n```java\nimport java.io.FileOutputStream;\n\nnewOptions.setCustomHtmlSavingStrategy(new HtmlSaveOptions.HtmlPageMarkupSavingStrategy() {\n    public void invoke(HtmlSaveOptions.HtmlPageMarkupSavingInfo htmlSavingInfo) {\n        try {\n            byte[] resultHtmlAsBytes = new byte[(int) htmlSavingInfo.getContentStream().available()];\n            htmlSavingInfo.getContentStream().read(resultHtmlAsBytes, 0, resultHtmlAsBytes.length);\n\n            FileOutputStream fos = new FileOutputStream(\"YOUR_OUTPUT_DIRECTORY/allResourceEmbeddedInSingleResultantStream.html\");\n            fos.write(resultHtmlAsBytes);\n            fos.close();\n        } catch (Exception e) {\n            e.printStackTrace(); // Handle exceptions such as IOException and FileNotFoundException\n        }\n    }\n});\n```\n\n### Belgeyi Kaydetme\nSon olarak, belgenizi yapılandırılan seçeneklerle kaydedin:\n```java\nString outHtmlFile = \"YOUR_OUTPUT_DIRECTORY/ThisFileWillNotAppearOnDisk.html\";\ndoc.save(outHtmlFile, newOptions);\n```\n\n## Pratik Uygulamalar\n\n- **Web Yayıncılığı**: Kolay web barındırma için tüm kaynakları tek bir HTML dosyasına gömün.\n- **Belge Arşivleme**: Belgeleri tüm varlıkları bozulmadan dönüştürün ve arşivleyin.\n- **Çevrimdışı Tarama**: Kaynakları gömerek PDF içeriğine çevrimdışı erişimi sağlayın.\n- **CMS ile Entegrasyon**: Gömülü varlıklar gerektiren içerik yönetim sistemlerine sorunsuz bir şekilde entegre edin.\n\n## Performans Hususları\n\n- **Kaynakların Optimize Edilmesi**: Kullanmak `setRasterImagesSavingMode` görüntüleri etkili bir şekilde yerleştirmek için.\n- **Bellek Yönetimi**: Özellikle büyük PDF'lerle uğraşırken Java bellek kullanımını izleyin.\n- **Eşzamansız İşleme**: Birden fazla belgeyi aynı anda dönüştürmek için eş zamanlı olmayan işlemeyi uygulayın.\n\n## Sonuç\n\nArtık Aspose.PDF for Java kullanarak tüm kaynaklarla PDF dosyalarını HTML formatına nasıl dönüştüreceğinizi öğrendiniz. Bu yöntem web yayıncılığı ve belge arşivleme için idealdir ve içeriğinizin görüntülendiği her yerde mükemmel görünmesini sağlar.\n\n**Sonraki Adımlar:**\n- Farklı deneyler yapın `HtmlSaveOptions` yapılandırmalar.\n- PDF işleme yeteneklerinizi geliştirmek için Aspose.PDF'nin diğer özelliklerini keşfedin.\n\nDenemeye hazır mısınız? PDF'lerinizi bugün dönüştürmeye başlayın!\n\n## SSS Bölümü\n\n1. **Aspose.PDF Java'yı kullanmak için sistem gereksinimleri nelerdir?**\n - JDK ve IntelliJ IDEA veya Eclipse gibi uyumlu bir IDE gerektirir.\n\n2. **Aspose.PDF Java için geçici lisansı nasıl alabilirim?**\n - Ziyaret edin [Aspose'un lisanslama sayfası](https://purchase.aspose.com/temporary-license/) bir tane talep etmek için.\n\n3. **Birden fazla PDF'yi aynı anda dönüştürebilir miyim?**\n - Evet, bir dizindeki dosyalar üzerinde yineleme yaparak toplu işlemeyi uygulayın.\n\n4. **Belirli sayfalar için dönüşüm başarısız olursa ne olur?**\n - Girdiğiniz PDF'de bozuk içerik veya desteklenmeyen özellikler olup olmadığını kontrol edin ve tekrar deneyin.\n\n5. **Oluşturulan HTML'nin dosya boyutunu nasıl küçültebilirim?**\n - Gömmeden önce mümkünse görüntüleri optimize edin ve CSS/JS'yi sıkıştırın.\n\n## Kaynaklar\n- [Belgeleme](https://reference.aspose.com/pdf/java/)\N- [Aspose.PDF'yi indirin](https://releases.aspose.com/pdf/java/)\N- [Lisans Satın Alın](https://purchase.aspose.com/buy)\N- [Ücretsiz Deneme](https://releases.aspose.com/pdf/java/)\N- [Geçici Lisans](https://purchase.aspose.com/temporary-license/)\N- [Destek Forumu](https://forum.aspose.com/c/pdf/10)\N
+# Aspose.PDF for Java Kullanarak Tüm Kaynaklar Gömülü PDF'yi HTML'ye Dönüştürme
+
+## Giriş
+
+PDF'yi HTML'ye dönüştürmek **pdf to html java** kullanarak, her bir font, görüntü ve stilin aynı kalmasını istediğinizde zorlayıcı olabilir. Neyse ki, Aspose.PDF for Java bu işi üstlenir ve tüm kaynakların gömülü olduğu tek bir HTML dosyası üretmenizi sağlar. Bu öğreticide tam bir **aspose pdf html conversion** nasıl yapılır, kaynakları html'ye nasıl gömülür ve **pdf to html images** çıktının içinde nasıl tutulur öğreneceksiniz.
+
+**Neler Öğreneceksiniz**
+
+- Aspose.PDF for Java'ı kullanarak PDF dosyalarını HTML formatına dönüştürmeyi öğrenin.  
+- Tek bir HTML dosyası içinde tüm kaynakları gömmek için seçenekleri yapılandırma.  
+- Java'da özel HTML kaydetme stratejileri uygulama.  
+- Gömülü varlıklarla karmaşık belgelerin sorunsuz dönüştürülmesini sağlama.
+
+### Hızlı Yanıtlar
+- **Aspose.PDF fontları ve görüntüleri gömebilir mi?** Evet – tüm fontları ve raster görüntüleri doğrudan HTML'ye gömebilir.  
+- **Tek bir HTML dosyası alır mıyım?** `PartsEmbeddingModes.EmbedAllIntoHtml` ayarı tek‑dosyalı bir çıktı oluşturur.  
+- **Hangi ana kütüphane gereklidir?** `aspose-pdf` Maven/Gradle paketi.  
+- **Bu özellik için lisans zorunlu mu?** Deneme sürümü çalışır, ancak kalıcı bir lisans değerlendirme sınırlamalarını kaldırır.  
+- **Bunu Java 11+ üzerinde çalıştırabilir miyim?** Kesinlikle – Aspose.PDF modern JDK sürümlerini destekler.
+
+## pdf to html java nedir?
+
+`pdf to html java`, bir PDF belgesini alıp Java kütüphaneleri kullanarak programlı bir şekilde HTML temsili üretme sürecine denir. Bu yaklaşım web yayıncılığı, belge arşivleme veya PDF'leri içerik‑yönetim iş akışlarına entegre etmek için idealdir.
+
+## Neden kaynakları html'ye gömülür?
+
+Kaynakları (fontlar, görüntüler, CSS) doğrudan HTML'ye gömmek, dış bağımlılıkları ortadan kaldırır ve sayfanın çevrim dışı ya da e-posta istemcileri veya statik site oluşturucular gibi izole ortamlarda doğru şekilde render edilmesini sağlar.
+
+## Ön Koşullar
+
+Başlamadan önce, aşağıdakilere sahip olduğunuzdan emin olun:
+
+### Gerekli Kütüphaneler ve Bağımlılıklar
+- **Aspose.PDF for Java** – sürüm 25.3 veya üzeri.  
+- **Java Development Kit (JDK)** – 8 veya daha yeni.  
+- **IDE** – IntelliJ IDEA, Eclipse veya NetBeans.
+
+### Bilgi Ön Koşulları
+- Temel Java programlama.  
+- Bağımlılık yönetimi için Maven veya Gradle konusunda aşinalık.
+
+## Aspose.PDF for Java'ı Kurma
+
+İlk olarak, Aspose.PDF'i projenize ekleyin.
+
+### Maven
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-pdf</artifactId>
+    <version>25.3</version>
+</dependency>
+```
+
+### Gradle
+```gradle
+implementation 'com.aspose:aspose-pdf:25.3'
+```
+
+#### Lisans Alım Adımları
+1. **Free Trial**: Aspose web sitesinden özellikleri değerlendirmek için ücretsiz bir deneme indirin.  
+2. **Temporary License**: Değerlendirme süreniz sırasında sınırlama olmadan tam erişim gerekiyorsa geçici bir lisans başvurun.  
+3. **Purchase**: Uzun vadeli kullanım için bir lisans satın almayı düşünün.  
+
+Projenize dahil ettikten sonra, Aspose.PDF'i başlatın:
+
+```java
+import com.aspose.pdf.Document;
+
+public class PDFToHTMLConverter {
+    public static void main(String[] args) {
+        // Ensure the path to your license file is correct if using a licensed version
+        // License license = new License();
+        // license.setLicense("path/to/Aspose.Total.Java.lic");
+        
+        System.out.println("Aspose.PDF for Java setup complete!");
+    }
+}
+```
+
+## Uygulama Kılavuzu
+
+Şimdi gerçek dönüşüm adımlarını inceleyelim.
+
+### PDF Belgesini Yükleme
+```java
+import com.aspose.pdf.Document;
+
+String dataDir = "YOUR_DOCUMENT_DIRECTORY";
+Document doc = new Document(dataDir + "/input.pdf");
+```
+
+### HTML Kaydetme Seçeneklerini Yapılandırma
+```java
+import com.aspose.pdf.HtmlSaveOptions;
+import com.aspose.pdf.LettersPositioningMethods;
+
+HtmlSaveOptions newOptions = new HtmlSaveOptions();
+newOptions.setRasterImagesSavingMode(HtmlSaveOptions.RasterImagesSavingModes.AsEmbeddedPartsOfPngPageBackground);
+newOptions.setFontSavingMode(HtmlSaveOptions.FontSavingModes.SaveInAllFormats);
+newOptions.setPartsEmbeddingMode(HtmlSaveOptions.PartsEmbeddingModes.EmbedAllIntoHtml);
+newOptions.setLettersPositioningMethod(LettersPositioningMethods.UseEmUnitsAndCompensationOfRoundingErrorsInCss);
+newOptions.setSplitIntoPages(false); // Combine all pages into a single HTML file
+```
+
+### Kaydetme Stratejisini Özelleştirme
+```java
+import java.io.FileOutputStream;
+
+newOptions.setCustomHtmlSavingStrategy(new HtmlSaveOptions.HtmlPageMarkupSavingStrategy() {
+    public void invoke(HtmlSaveOptions.HtmlPageMarkupSavingInfo htmlSavingInfo) {
+        try {
+            byte[] resultHtmlAsBytes = new byte[(int) htmlSavingInfo.getContentStream().available()];
+            htmlSavingInfo.getContentStream().read(resultHtmlAsBytes, 0, resultHtmlAsBytes.length);
+
+            FileOutputStream fos = new FileOutputStream("YOUR_OUTPUT_DIRECTORY/allResourceEmbeddedInSingleResultantStream.html");
+            fos.write(resultHtmlAsBytes);
+            fos.close();
+        } catch (Exception e) {
+            e.printStackTrace(); // Handle exceptions such as IOException and FileNotFoundException
+        }
+    }
+});
+```
+
+### Belgeyi Kaydetme
+```java
+String outHtmlFile = "YOUR_OUTPUT_DIRECTORY/ThisFileWillNotAppearOnDisk.html";
+doc.save(outHtmlFile, newOptions);
+```
+
+## Pratik Uygulamalar
+
+- **Web Publishing** – Tek bir HTML dosyasında tüm kaynakları gömerek sorunsuz barındırma.  
+- **Document Archiving** – PDF'leri tüm varlıklarıyla birlikte uzun vadeli depolama için koruma.  
+- **Offline Browsing** – Kullanıcılar internet bağlantısı olmadan dönüştürülmüş HTML'yi görüntüleyebilir.  
+- **CMS Integration** – Tek‑dosyalı çıktıyı doğrudan gömülü varlık gerektiren içerik‑yönetim sistemlerine besleyin.
+
+## Performans Düşünceleri
+
+- **Optimizing Resources** – `setRasterImagesSavingMode` dosyayı şişirmeden görüntüleri verimli bir şekilde gömer.  
+- **Memory Management** – Özellikle büyük PDF'lerde Java yığın kullanımını izleyerek `OutOfMemoryError` hatasından kaçının.  
+- **Asynchronous Processing** – Toplu dönüşümler için her dönüşümü ayrı bir iş parçacığında çalıştırın veya bir executor servisi kullanın.
+
+## Yaygın Sorunlar ve Çözümler
+
+| Sorun | Çözüm |
+|-------|----------|
+| **Büyük PDF yüksek bellek kullanımı oluşturur** | Artımlı işleme etkinleştirin veya dönüşümden önce PDF'yi bölün. |
+| **Çıktıda eksik fontlar** | Font dosyalarının JVM tarafından erişilebilir olduğundan emin olun veya `FontSavingModes.SaveInAllFormats` kullanın. |
+| **Görüntüler bozuk görünüyor** | `RasterImagesSavingMode`'un PNG arka planları gömmek için ayarlandığını doğrulayın. |
+| **Karmaşık sayfalarda dönüşüm takılıyor** | JVM yığınını artırın (`-Xmx2g`) ve kaynak PDF'yi basitleştirmeyi düşünün. |
+
+## Sıkça Sorulan Sorular
+
+**S: Aspose.PDF Java kullanmak için sistem gereksinimleri nelerdir?**  
+C: JDK (8 veya daha yeni) ve IntelliJ IDEA veya Eclipse gibi uyumlu bir IDE gerektirir.
+
+**S: Aspose.PDF Java için geçici bir lisans nasıl alınır?**  
+C: Bir lisans talep etmek için [Aspose'un lisans sayfasını](https://purchase.aspose.com/temporary-license/) ziyaret edin.
+
+**S: Birden fazla PDF'i aynı anda dönüştürebilir miyim?**  
+C: Evet, bir dizindeki dosyalar üzerinde döngü kurarak toplu işleme uygulayabilirsiniz.
+
+**S: Belirli sayfalar için dönüşüm başarısız olursa ne olur?**  
+C: Giriş PDF'nizi bozuk içerik veya desteklenmeyen özellikler için kontrol edin ve tekrar deneyin.
+
+**S: Oluşturulan HTML'nin dosya boyutunu nasıl küçültebilirim?**  
+C: Görüntüleri optimize edin ve gömmeden önce CSS/JS sıkıştırın, ya da daha agresif bir raster görüntü moduna geçin.
+
+## Kaynaklar
+- [Dokümantasyon](https://reference.aspose.com/pdf/java/)
+- [Aspose.PDF'i İndir](https://releases.aspose.com/pdf/java/)
+- [Lisans Satın Al](https://purchase.aspose.com/buy)
+- [Ücretsiz Deneme](https://releases.aspose.com/pdf/java/)
+- [Geçici Lisans](https://purchase.aspose.com/temporary-license/)
+- [Destek Forumu](https://forum.aspose.com/c/pdf/10)
+
+---
+
+**Son Güncelleme:** 2026-03-23  
+**Test Edilen Versiyon:** Aspose.PDF for Java 25.3  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
