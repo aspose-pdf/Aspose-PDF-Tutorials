@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-14"
-"description": "تعرّف على كيفية تعديل إشارات مرجعية PDF وتخصيص إعدادات العارض باستخدام Aspose.PDF لجافا. حسّن تجربة المستخدم بإتقان تفضيلات التنقل والتخطيط."
-"title": "إتقان Aspose.PDF Java وتحرير إشارات مرجعية PDF وتكوين إعدادات العارض"
-"url": "/ar/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/"
-"weight": 1
+date: '2025-12-19'
+description: تعرّف على كيفية تغيير تخطيط صفحات PDF، وتعديل إشارات PDF، وتخصيص إعدادات
+  العارض باستخدام Aspose.PDF للغة Java. احكم التحكم في التنقل وتفضيلات التخطيط لتجربة
+  مستخدم أكثر سلاسة.
+keywords:
+- edit PDF bookmarks Java
+- Aspose.PDF viewer settings
+- configure PDF navigation Java
+title: 'تغيير تخطيط صفحة PDF في جافا - تعديل العلامات المرجعية والإعدادات'
+url: /ar/java/bookmarks-navigation/edit-pdf-bookmarks-viewer-settings-aspose-pdf-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,27 +17,37 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# إتقان Aspose.PDF Java: تحرير إشارات مرجعية PDF وتكوين إعدادات العارض
+# تغيير تخطيط صفحة PDF في Java: تعديل العلامات المرجعية والإعدادات
 
-## مقدمة
-قد يكون تصفح مستندات PDF المعقدة مُرهقًا إذا كانت الإشارات المرجعية غير مُحاذاة أو إعدادات العرض غير صحيحة. يوضح هذا البرنامج التعليمي كيفية استخدام Aspose.PDF لـ Java لتحرير الإشارات المرجعية الحالية وتخصيص إعدادات العرض، مما يُحسّن تجربة المستخدم.
+## المقدمة
+قد يكون التنقل في مستندات PDF المعقدة مرهقًا، خاصة عندما لا يتم تكوين إعداد **change PDF page layout** بشكل صحيح أو تشير العلامات المرجعية إلى المواقع الخاطئة. في هذا البرنامج التعليمي ستتعلم كيفية **change PDF page layout**، **edit PDF bookmarks**، و **configure PDF viewer settings** باستخدام Aspose.PDF for Java. في النهاية، ستحصل على سيطرة كاملة على التنقل، وجهات العلامات المرجعية، وكيفية عرض المستند للقراء.
 
-**ما سوف تتعلمه:**
-- تعديل إشارات مرجعية PDF لتشير بشكل دقيق إلى بداية الصفحة.
-- إنشاء إشارات مرجعية دقيقة بوجهات محددة أثناء إنشاء ملف PDF.
-- ضبط تفضيلات المشاهد للحصول على عرض مثالي.
+**ما ستتعلمه**
+- كيفية تعديل العلامات المرجعية الموجودة في PDF لتشير إلى بداية الصفحة.  
+- كيفية تعيين وجهات العلامات المرجعية أثناء إنشاء PDF.  
+- كيفية تغيير تفضيلات العارض مثل تخطيط الصفحة.  
+- نصائح عملية لتحميل مستند PDF في Java وتحسين الأداء.
 
-مع Aspose.PDF لجافا، تحكم بشكل كامل في إعدادات التنقل والتخطيط لمستندك. لنبدأ بإعداد بيئتك وتطبيق هذه الميزات خطوة بخطوة.
+### إجابات سريعة
+- **ما هي الطريقة الأساسية لتغيير تخطيط صفحة PDF؟** استخدم `PdfContentEditor.changeViewerPreference()` مع `ViewerPreference.PAGE_LAYOUT_SINGLE_PAGE`.  
+- **هل يمكنني تعديل وجهات العلامات المرجعية بعد إنشاء PDF؟** نعم – قم بتحميل المستند، الوصول إلى المخطط، وتعيين `ExplicitDestination` جديد.  
+- **هل أحتاج إلى ترخيص لهذه الميزات؟** النسخة التجريبية المجانية تعمل للتقييم؛ الترخيص الكامل يزيل جميع القيود.  
+- **ما هي تبعية Maven المطلوبة؟** `com.aspose:aspose-pdf:25.3` (أو أحدث).  
+- **هل هذا متوافق مع Java 11 وما فوق؟** بالتأكيد – Aspose.PDF يدعم Java 8+.
 
-### المتطلبات الأساسية
-قبل البدء، تأكد من أن لديك:
-- **المكتبات والتبعيات**:استخدم Aspose.PDF لإصدار Java 25.3 أو أحدث.
-- **إعداد البيئة**:إعداد تطوير Java فعال مع تثبيت JDK.
-- **متطلبات المعرفة**:فهم أساسيات التعامل مع Java وPDF برمجيًا.
+## ما هو “change PDF page layout”؟
+تغيير تخطيط صفحة PDF يتحكم في كيفية عرض الصفحات في العارض—صفحة واحدة، مستمر، عرض صفحتين، إلخ. تعديل هذا الإعداد يحسن قابلية القراءة، خاصةً للتقارير أو الكتالوجات الطويلة.
 
-### إعداد Aspose.PDF لـ Java
-#### تثبيت Maven
-لتضمين Aspose.PDF في مشروعك، أضف هذه التبعية إلى `pom.xml`:
+## لماذا تعديل العلامات المرجعية في PDF وتعيين وجهات العلامات المرجعية؟
+تعمل العلامات المرجعية كجدول محتويات. تضمن الوجهات الدقيقة أن يقفز القراء مباشرة إلى القسم المقصود، مما يقلل الإحباط ويحسن تجربة المستخدم العامة.
+
+## المتطلبات المسبقة
+- **المكتبات والتبعيات**: Aspose.PDF for Java v25.3 أو أحدث.  
+- **البيئة**: JDK 8 أو أحدث، أداة بناء Maven أو Gradle.  
+- **المعرفة**: برمجة Java الأساسية ومعرفة بمفاهيم PDF.
+
+## إعداد Aspose.PDF for Java
+### تثبيت Maven
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -39,131 +55,142 @@
     <version>25.3</version>
 </dependency>
 ```
-#### تثبيت Gradle
-بالنسبة لمستخدمي Gradle، أضف هذا إلى `build.gradle`:
+### تثبيت Gradle
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
-**الحصول على الترخيص**ابدأ بفترة تجريبية مجانية أو اطلب ترخيصًا مؤقتًا للوصول إلى كامل الميزات دون قيود. فكّر في شراء ترخيص كامل للاستخدام طويل الأمد.
-#### التهيئة الأساسية
-لبدء استخدام Aspose.PDF:
+**الحصول على الترخيص**: ابدأ بنسخة تجريبية مجانية أو اطلب ترخيصًا مؤقتًا للوصول إلى جميع الميزات. فكر في شراء ترخيص دائم للاستخدام في الإنتاج.
+
+### التهيئة الأساسية
 ```java
 import com.aspose.pdf.Document;
 
 public class PDFSetup {
     public static void main(String[] args) {
-        // تهيئة كائن المستند
+        // Initialize document object
         Document pdfDocument = new Document("path/to/your/pdf");
         
         System.out.println("Aspose.PDF for Java initialized successfully.");
     }
 }
 ```
-### دليل التنفيذ
-يتناول هذا القسم تحرير الإشارات المرجعية، وتعيين الوجهات أثناء إنشاء ملف PDF، وتعديل تفضيلات المشاهد.
-#### تحرير الإشارات المرجعية الموجودة للإشارة إلى بداية الصفحة
-**ملخص**:ضبط الإشارات المرجعية بحيث تشير بدقة إلى بداية صفحة معينة في المستند الخاص بك.
-1. **الوصول إلى الإشارات المرجعية**
-   قم بتحميل ملف PDF الخاص بك والوصول إلى مخطط الإشارة المرجعية الخاص به:
-   ```java
-   import com.aspose.pdf.Document;
-   import com.aspose.pdf.ExplicitDestination;
-   import com.aspose.pdf.OutlineItemCollection;
 
-   Document pdfDocument = new Document("YOUR_DOCUMENT_DIRECTORY/input.pdf");
-   OutlineItemCollection pdfOutline = pdfDocument.getOutlines().get_Item(1);
-   ```
-2. **تحديد وجهة جديدة**
-   قم بتحديث الوجهة للتأكد من أنها تشير إلى بداية الصفحة:
-   ```java
-   pdfOutline.setDestination(
-       ExplicitDestination.createDestination(pdfDocument.getPages().get_Item(1),
-           ExplicitDestinationType.FitH,
-           pdfDocument.getPages().get_Item(1).getMediaBox().getHeight())
-   );
-   ```
-3. **حفظ التغييرات**
-   احفظ مستند PDF المحدث الخاص بك:
-   ```java
-   String outputDir = "YOUR_OUTPUT_DIRECTORY/bookmarkShouldPointToStartOfPage.pdf";
-   pdfDocument.save(outputDir);
-   ```
-#### إنشاء إشارات مرجعية جديدة بوجهات محددة
-**ملخص**:قم بإنشاء إشارات مرجعية تقود المستخدمين مباشرةً إلى المواقع المطلوبة في ملف PDF الذي تم إنشاؤه حديثًا.
-1. **إنشاء وتكوين الإشارة المرجعية**
-   إنشاء إشارة مرجعية جديدة وتعيين خصائصها:
-   ```java
-   import com.aspose.pdf.GoToAction;
-   import com.aspose.pdf.FitVExplicitDestination;
+## دليل التنفيذ
+### كيفية تغيير تخطيط صفحة PDF في Java
+**نظرة عامة**: تعديل تفضيلات العارض لعرض الصفحات بالطريقة التي تريدها.
 
-   OutlineItemCollection pdfOutline_new = new OutlineItemCollection(pdfDocument.getOutlines());
-   pdfOutline_new.setTitle("Test Bookmark");
-   pdfOutline_new.setItalic(true);
-   pdfOutline_new.setBold(true);
-   ```
-2. **تحديد وجهة الإشارة المرجعية**
-   حدد وجهة الإشارة المرجعية الخاصة بك:
-   ```java
-   pdfOutline_new.setAction(new GoToAction(
-       new FitVExplicitDestination(pdfDocument.getPages().get_Item(2), 0)));
-   ```
-3. **إضافة ملف PDF وحفظه**
-   أضف الإشارة المرجعية إلى مخطط المستند واحفظه:
-   ```java
-   pdfDocument.getOutlines().add(pdfOutline_new);
-   
-   String outputDir = "YOUR_OUTPUT_DIRECTORY/setDestinationWhileCreatingPDF.pdf";
-   pdfDocument.save(outputDir);
-   ```
-#### ضبط تفضيلات المشاهد
-**ملخص**:قم بتخصيص كيفية عرض ملف PDF الخاص بك عن طريق تعيين تفضيلات المشاهد المحددة مثل تخطيط الصفحة.
-1. **تهيئة محرر محتوى Pdf**
-   استخدم `PdfContentEditor` الفئة لتعديل إعدادات المستند:
-   ```java
-   import com.aspose.pdf.facades.PdfContentEditor;
-   import com.aspose.pdf.facades.ViewerPreference;
+#### تهيئة PdfContentEditor
+```java
+import com.aspose.pdf.facades.PdfContentEditor;
+import com.aspose.pdf.facades.ViewerPreference;
 
-   PdfContentEditor editor = new PdfContentEditor();
-   editor.bindPdf("YOUR_DOCUMENT_DIRECTORY/input.pdf");
-   ```
-2. **تغيير تفضيلات المشاهد**
-   تعيين تفضيلات المشاهد إلى تخطيط صفحة واحدة:
-   ```java
-   editor.changeViewerPreference(ViewerPreference.PAGE_LAYOUT_SINGLE_PAGE);
-   ```
-3. **حفظ المستند المحدث**
-   احفظ التغييرات في ملف PDF الخاص بك:
-   ```java
-   String outputDir = "YOUR_OUTPUT_DIRECTORY/settingViewerPreferences.pdf";
-   editor.save(outputDir);
-   ```
-### التطبيقات العملية
-1. **الكتب الرقمية**:قم بتعزيز الكتب الرقمية من خلال التأكد من أن الإشارات المرجعية تؤدي مباشرة إلى بداية الفصول.
-2. **التقارير والأدلة**:تحسين التنقل في المستندات الفنية باستخدام إعدادات الإشارات المرجعية والمشاهدة الدقيقة.
-3. **كتالوجات منتجات التجارة الإلكترونية**:تحسين كتالوجات المنتجات لعرضها على صفحة واحدة، مما يجعلها أكثر سهولة في الاستخدام.
-### اعتبارات الأداء
-- **تحسين الموارد**:استخدم هياكل بيانات فعالة عند التعامل مع ملفات PDF كبيرة الحجم لتقليل استخدام الذاكرة.
-- **إدارة ذاكرة جافا**:كن حريصًا على جمع القمامة والتخلص من الموارد باستخدام Aspose.PDF للحفاظ على الأداء.
-### خاتمة
-لديك الآن الأدوات اللازمة لتحرير الإشارات المرجعية بدقة، وإنشاء نقاط تنقل دقيقة أثناء إنشاء ملف PDF، وتخصيص تفضيلات المشاهدة لمستنداتك. استكشف الميزات الإضافية لـ Aspose.PDF ودمجها في مشاريع Java أكبر.
-**الخطوات التالية**:فكر في استكشاف تقنيات معالجة المستندات المتقدمة باستخدام Aspose.PDF ودمج هذه الوظائف في تطبيقات Java الأكبر حجمًا.
-### قسم الأسئلة الشائعة
-1. **ما هو Aspose.PDF؟**
-   - مكتبة قوية لإدارة ملفات PDF في Java، تقدم ميزات مثل تحرير وإنشاء وتحويل مستندات PDF.
-2. **كيف يمكنني تحرير الإشارات المرجعية في ملف PDF باستخدام Aspose.PDF؟**
-   - قم بتحميل المستند، والوصول إلى الإشارة المرجعية المطلوبة، وتعديل وجهتها، وحفظ التغييرات كما هو موضح في هذا البرنامج التعليمي.
-3. **هل يمكن لـ Aspose.PDF تعيين تفضيلات المشاهد لتخطيط الصفحة الفردية؟**
-   - نعم، باستخدام `PdfContentEditor`يمكنك بسهولة ضبط إعدادات العارض مثل تخطيط الصفحة لتحسين إمكانية القراءة.
-4. **هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.PDF؟**
-   - بالتأكيد! ابدأ بفترة تجريبية مجانية أو اطلب ترخيصًا مؤقتًا لاستكشاف جميع الميزات دون قيود.
-5. **ما هي أفضل الممارسات لإدارة ملفات PDF في Java باستخدام Aspose.PDF؟**
-   - استخدم إدارة الذاكرة الفعالة، واستفد من معالجة الدفعات عندما يكون ذلك ممكنًا، واحفظ التغييرات دائمًا لمنع فقدان البيانات.
-### موارد
-- **التوثيق**: [مرجع جافا لملف Aspose.PDF](https://reference.aspose.com/pdf/java/)
-- **تحميل**: [أحدث الإصدارات لجافا](https://releases.aspose.com/pdf/java/)
-- **شراء**: [شراء ترخيص Aspose.PDF](https://purchase.aspose.com/buy)
-- **نسخة تجريبية مجانية**: [جرب Aspose.PDF مجانًا](https://releases.aspose.com/pdf/java/)
-- **رخصة مؤقتة**: [طلب ترخيص مؤقت](https://purchase.aspose.com/temporary-license)
+PdfContentEditor editor = new PdfContentEditor();
+editor.bindPdf("YOUR_DOCUMENT_DIRECTORY/input.pdf");
+```
+#### تغيير تفضيلات العارض
+```java
+editor.changeViewerPreference(ViewerPreference.PAGE_LAYOUT_SINGLE_PAGE);
+```
+#### حفظ المستند المحدث
+```java
+String outputDir = "YOUR_OUTPUT_DIRECTORY/settingViewerPreferences.pdf";
+editor.save(outputDir);
+```
+
+### كيفية تعديل العلامات المرجعية في PDF
+**نظرة عامة**: تعديل العلامات المرجعية الحالية لتشير بدقة إلى بداية صفحة معينة.
+
+#### الوصول إلى العلامات المرجعية
+```java
+import com.aspose.pdf.Document;
+import com.aspose.pdf.ExplicitDestination;
+import com.aspose.pdf.OutlineItemCollection;
+
+Document pdfDocument = new Document("YOUR_DOCUMENT_DIRECTORY/input.pdf");
+OutlineItemCollection pdfOutline = pdfDocument.getOutlines().get_Item(1);
+```
+#### تعيين وجهة جديدة
+```java
+pdfOutline.setDestination(
+    ExplicitDestination.createDestination(pdfDocument.getPages().get_Item(1),
+        ExplicitDestinationType.FitH,
+        pdfDocument.getPages().get_Item(1).getMediaBox().getHeight())
+);
+```
+#### حفظ التغييرات
+```java
+String outputDir = "YOUR_OUTPUT_DIRECTORY/bookmarkShouldPointToStartOfPage.pdf";
+pdfDocument.save(outputDir);
+```
+
+### كيفية تعيين وجهة العلامة المرجعية أثناء إنشاء PDF
+**نظرة عامة**: إنشاء علامات مرجعية تقود المستخدمين مباشرة إلى المواقع المطلوبة في PDF تم إنشاؤه حديثًا.
+
+#### إنشاء وتكوين العلامة المرجعية
+```java
+import com.aspose.pdf.GoToAction;
+import com.aspose.pdf.FitVExplicitDestination;
+
+OutlineItemCollection pdfOutline_new = new OutlineItemCollection(pdfDocument.getOutlines());
+pdfOutline_new.setTitle("Test Bookmark");
+pdfOutline_new.setItalic(true);
+pdfOutline_new.setBold(true);
+```
+#### تعريف وجهة العلامة المرجعية
+```java
+pdfOutline_new.setAction(new GoToAction(
+    new FitVExplicitDestination(pdfDocument.getPages().get_Item(2), 0)));
+```
+#### إضافة وحفظ PDF
+```java
+pdfDocument.getOutlines().add(pdfOutline_new);
+
+String outputDir = "YOUR_OUTPUT_DIRECTORY/setDestinationWhileCreatingPDF.pdf";
+pdfDocument.save(outputDir);
+```
+
+## التطبيقات العملية
+1. **الكتب الرقمية** – تأكد من أن كل علامة مرجعية للفصل تصل إلى أعلى الصفحة لتجربة قراءة سلسة.  
+2. **الأدلة التقنية** – التنقل الدقيق يساعد المهندسين على العثور على الأقسام بسرعة، خاصةً في ملفات PDF الكبيرة.  
+3. **كتالوجات المنتجات** – تخطيط الصفحة الواحدة يجعل تصفح الكتالوجات على الأجهزة اللوحية أكثر بديهية.
+
+## اعتبارات الأداء
+- **تحسين الموارد**: عند التعامل مع ملفات PDF الكبيرة، استخدم `Document.optimizeResources()` لتقليل استهلاك الذاكرة.  
+- **إدارة ذاكرة Java**: أغلق التدفقات صراحةً ودع جامع القمامة يستعيد الكائنات بعد المعالجة.
+
+## المشكلات الشائعة والحلول
+- **عدم تحديث العلامات المرجعية**: تأكد من أنك تعدل الفهرس الصحيح للمخطط (`get_Item(1)` يشير إلى أول علامة مرجعية من المستوى الأعلى).  
+- **عدم تطبيق تفضيل العارض**: تأكد من استدعاء `editor.save()` بعد تغيير التفضيلات؛ وإلا ستبقى التغييرات في الذاكرة فقط.  
+- **استثناءات الترخيص**: قد تضيف نسخة الترخيص التجريبية علامات مائية؛ احصل على ترخيص كامل للإنتاج.
+
+## الأسئلة المتكررة
+**س: ما هي أسهل طريقة لتحميل مستند PDF في Java؟**  
+ج: استخدم `new Document("path/to/file.pdf")`؛ Aspose.PDF يكتشف تنسيق الملف تلقائيًا.
+
+**س: هل يمكنني تغيير تخطيط الصفحة دون استخدام PdfContentEditor؟**  
+ج: نعم، يمكنك تعيين تفضيلات العارض مباشرةً على كائن `Document` عبر `pdfDocument.getViewerPreferences().setPageLayout(...)`.
+
+**س: هل يؤثر تغيير تخطيط العارض على الطباعة؟**  
+ج: تخطيط العارض يؤثر فقط على العرض على الشاشة؛ ولا يغير مخرجات الطباعة.
+
+**س: هل هناك حدود لعدد العلامات المرجعية التي يمكنني إنشاؤها؟**  
+ج: لا يوجد حد صريح، لكن الأشجار المخططة الكبيرة جدًا قد تؤثر على الأداء؛ حافظ على تنظيمها.
+
+**س: كيف أضمن دقة وجهات العلامات المرجعية بعد إضافة أو إزالة صفحات؟**  
+ج: أعد حساب الوجهات باستخدام فهارس الصفحات الحالية بعد أي تغييرات هيكلية.
+
+## الموارد
+- **الوثائق**: [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/)
+- **التنزيل**: [Latest Releases for Java](https://releases.aspose.com/pdf/java/)
+- **الشراء**: [Buy Aspose.PDF License](https://purchase.aspose.com/buy)
+- **التجربة المجانية**: [Try Aspose.PDF Free](https://releases.aspose.com/pdf/java/)
+- **الترخيص المؤقت**: [Request Temporary License](https://purchase.aspose.com/temporary-license)
+
+---
+
+**آخر تحديث:** 2025-12-19  
+**تم الاختبار مع:** Aspose.PDF for Java v25.3  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

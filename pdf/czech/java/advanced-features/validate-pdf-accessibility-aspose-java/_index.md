@@ -1,51 +1,65 @@
 ---
-date: '2025-12-10'
-description: Naučte se, jak ověřovat PDF soubory z hlediska přístupnosti pomocí příkladu
-  Aspose PDF Java, který zahrnuje nastavení, validaci a protokolování pro shodu s
-  PDF/UA‑1.
+date: '2026-02-17'
+description: Naučte se, jak zkontrolovat přístupnost PDF a validovat PDF soubory pomocí
+  Aspose.PDF Java, zahrnující nastavení, validaci a generování zprávy o přístupnosti
+  pro shodu s PDF/UA‑1.
 keywords:
 - validate PDF accessibility
 - Aspose.PDF Java
 - PDF/UA-1 standard
-title: Jak ověřit přístupnost PDF pomocí Aspose.PDF Java pro shodu s PDF/UA‑1
+title: Jak zkontrolovat přístupnost PDF pomocí Aspose.PDF Java pro shodu s PDF/UA‑1
 url: /cs/java/advanced-features/validate-pdf-accessibility-aspose-java/
 weight: 1
 ---
+
+ Also keep shortcodes.
+
+Let's produce final markdown.
 
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Jak validovat přístupnost PDF pomocí Aspose.PDF Java pro soulad s PDF/UA-1
+# Jak zkontrolovat přístupnost PDF pomocí Aspose.PDF Java pro shodu s PDF/UA-1
 
 ## Úvod
-Zajištění přístupnosti vašich PDF souborů je klíčové, zejména při dodržování standardů jako PDF/UA-1. V tomto tutoriálu se naučíte **jak validovat PDF** dokumenty z hlediska přístupnosti pomocí Aspose.PDF pro Java a zjistíte, proč je to důležité pro inkluzivní tvorbu obsahu.
+Zajištění, že můžete **zkontrolovat přístupnost PDF**, je nezbytné pro poskytování inkluzivního digitálního obsahu a splnění regulatorních požadavků, jako je PDF/UA-1. V tomto tutoriálu se naučíte **jak validovat PDF** dokumenty pro přístupnost pomocí Aspose.PDF pro Java, pochopíte, proč je to důležité, a uvidíte, jak vytvořit podrobnou zprávu o přístupnosti.  
 
 **Co se naučíte:**
 - Nastavení Aspose.PDF pro Java
 - Validace PDF podle standardu PDF/UA-1
-- Ukládání validačních protokolů pro další analýzu
+- Ukládání validačních logů pro další analýzu
+- Generování zprávy o přístupnosti, která zvýrazní případné problémy
 
-Ponořme se do této výkonné funkce a zajistěme, aby vaše dokumenty byly inkluzivní a v souladu se standardy. Než začnete, ujistěte se, že splňujete předpoklady.
+Ponořme se do toho a zajistěme, aby vaše PDF byla v souladu pro všechny uživatele.
 
 ## Rychlé odpovědi
-- **Co znamená „jak validovat pdf“?** Jedná se o kontrolu PDF vůči standardům přístupnosti, jako je PDF/UA-1.  
-- **Která knihovna se používá?** Aspose.PDF pro Java poskytuje vestavěné validační API.  
-- **Potřebuji licenci?** Zkušební verze funguje pro hodnocení; pro produkční nasazení je vyžadována komerční licence.  
-- **Mohu zpracovávat více souborů?** Ano — dá se vytvořit dávkové zpracování na základě stejného API.  
-- **Jaký výstup se generuje?** XML protokol (`ua-20.xml`) obsahující podrobnosti o případných problémech s přístupností.
+- **Co znamená “check pdf accessibility”?** Znamená to vyhodnocení PDF podle standardů jako PDF/UA-1, aby bylo možné jej číst pomocí asistenčních technologií.  
+- **Která knihovna se používá?** Aspose.PDF for Java poskytuje vestavěné validační API.  
+- **Potřebuji licenci?** Zkušební verze funguje pro hodnocení; pro produkci je vyžadována komerční licence.  
+- **Mohu zpracovávat více souborů?** Ano – dávkové zpracování lze postavit na stejném API.  
+- **Jaký výstup je generován?** XML log (`ua-20.xml`), který slouží jako zpráva o přístupnosti podrobně popisující jakékoli problémy.
 
-## Předpoklady
+## Co je kontrola přístupnosti PDF?
+Kontrola přístupnosti PDF zahrnuje programové ověření, že PDF odpovídá specifikaci PDF/UA-1 (Universal Accessibility). Proces zkoumá strukturu dokumentu, tagování, alternativní text a další funkce přístupnosti a poté vytváří zprávu, kterou vývojáři mohou použít k opravě problémů.
+
+## Proč kontrolovat přístupnost PDF pomocí Aspose.PDF Java?
+- **Full‑stack compliance** – API provádí těžkou práci validace PDF/UA‑1 bez nutnosti externích nástrojů.  
+- **Cross‑platform** – Funguje na jakémkoli systému, který podporuje Java 8+.  
+- **Automation‑ready** – Ideální pro CI pipeline, dávkové úlohy nebo systémy správy dokumentů.  
+- **Clear reporting** – Generuje XML zprávu o přístupnosti, kterou můžete parsovat nebo předložit auditorům.
+
+## Požadavky
 Pro sledování tohoto tutoriálu budete potřebovat:
-- **Java Development Kit (JDK)**: Verze 8 nebo vyšší.
-- **Aspose.PDF pro Java**: Zajistěte přístup k verzi 25.3 nebo novější.
-- **Maven nebo Gradle**: Pro správu závislostí.
-- Základní znalosti programování v Javě a práce se soubory.
+- **Java Development Kit (JDK)**: Verze 8 nebo vyšší.  
+- **Aspose.PDF for Java**: Verze 25.3 nebo novější.  
+- **Maven nebo Gradle**: Pro správu závislostí.  
+- Základní znalost programování v Javě a práce se soubory.
 
 ## Nastavení Aspose.PDF pro Java
 
-### Maven nastavení
+### Maven Setup
 Pro integraci Aspose.PDF pomocí Maven přidejte následující závislost do souboru `pom.xml`:
 
 ```xml
@@ -56,20 +70,20 @@ Pro integraci Aspose.PDF pomocí Maven přidejte následující závislost do so
 </dependency>
 ```
 
-### Gradle nastavení
-Pro projekty používající Gradle zahrňte toto do vašeho build skriptu:
+### Gradle Setup
+Pro projekty používající Gradle zahrňte toto do svého build skriptu:
 
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### Získání licence
+### License Acquisition
 Aspose nabízí různé licenční možnosti:
-- **Bezplatná zkušební verze**: Použijte knihovnu Aspose.PDF s omezenou funkčností.
-- **Dočasná licence**: Požádejte o dočasnou licenci a vyzkoušejte plné funkce bez omezení.
-- **Koupě**: Získejte komerční licenci pro dlouhodobé používání.
+- **Free Trial**: Použijte knihovnu Aspose.PDF s omezenou funkčností.  
+- **Temporary License**: Požádejte o dočasnou licenci a prozkoumejte plné funkce bez omezení.  
+- **Purchase**: Získejte komerční licenci pro dlouhodobé používání.
 
-#### Základní inicializace
+#### Basic Initialization
 Jakmile máte prostředí nastavené, inicializujte Aspose.PDF ve svém projektu:
 
 ```java
@@ -81,78 +95,70 @@ import com.aspose.pdf.Document;
 ### Validace PDF souborů pro přístupnost
 Tato funkce umožňuje validaci PDF dokumentů podle standardu PDF/UA-1 pomocí Aspose.PDF.
 
-#### Krok 1: Načtěte svůj dokument
-Začněte načtením PDF dokumentu:
+#### Krok 1: Načtěte svůj dokument
+Začněte načtením PDF, které chcete zkontrolovat:
 
 ```java
 Document document = new Document("YOUR_DOCUMENT_DIRECTORY" + "StructureElements.pdf");
 ```
-*Vysvětlení*: Tím se načte zadaný PDF soubor do paměti a připraví se na validaci.
+*Vysvětlení*: Tento kód načte zadaný PDF soubor do paměti a připraví jej pro validaci.
 
-#### Krok 2: Validujte podle standardu PDF/UA-1
-Proveďte validaci a uložte protokol výsledků:
+#### Krok 2: Validujte podle standardu PDF/UA-1
+Spusťte validaci a uložte XML zprávu o přístupnosti:
 
 ```java
 Boolean isValid = document.validate("YOUR_OUTPUT_DIRECTORY" + "ua-20.xml", PdfFormat.PDF_UA_1);
 ```
-*Vysvětlení*: Tato metoda kontroluje, zda dokument splňuje standard přístupnosti, a výstupem jsou případné problémy v XML souboru.
+*Vysvětlení*: Metoda `validate` kontroluje dokument podle PDF/UA‑1 a zapisuje všechny problémy s přístupností do souboru `ua-20.xml`. Vrácená hodnota typu boolean indikuje celkovou shodu.
 
-### Aspose PDF Java příklad: Validace
-Ukázky kódu výše tvoří stručný **aspose pdf java example**, který můžete začlenit do větších pracovních postupů, jako je dávkové zpracování nebo automatizované CI pipeline.
-
-## Jak validovat PDF soubory pomocí Aspose.PDF Java
-Výše uvedené kroky demonstrují hlavní workflow pro **jak validovat pdf** soubory programově. Automatizací tohoto procesu můžete zajistit, že každý publikovaný dokument splňuje předpisy o přístupnosti, čímž snížíte čas na manuální revizi a minimalizujete riziko nesouladu.
+### Jak programově kontrolovat přístupnost PDF
+Automatizací výše uvedených kroků můžete vložit **check PDF accessibility** do dávkových úloh, služeb generování dokumentů nebo pipeline pro zajištění kvality, čímž zajistíte, že každý publikovaný PDF splňuje požadované standardy.
 
 ## Praktické aplikace
-1. **Audity souladu**: Validujte právní dokumenty vůči standardům přístupnosti.  
-2. **Digitální knihovny**: Zajistěte, aby digitální sbírky knih byly přístupné všem uživatelům, včetně osob se zdravotním postižením.  
-3. **Vzdělávací materiály**: Ujistěte se, že vzdělávací zdroje splňují požadované požadavky na přístupnost.  
-4. **Firemní dokumentace**: Ověřte, že interní i externí firemní dokumenty odpovídají směrnicím přístupnosti.
+1. **Compliance Audits** – Validujte právní dokumenty pro přístupnost před podáním.  
+2. **Digital Libraries** – Zajistěte, aby e‑knihy a výzkumné práce byly použitelné pro čtečky obrazovky.  
+3. **Educational Materials** – Ověřte, že výukové materiály splňují institucionální politiky přístupnosti.  
+4. **Corporate Documentation** – Udržujte interní manuály a externí zprávy v souladu s pokyny pro přístupnost.
 
 ## Úvahy o výkonu
-- **Efektivní práce se soubory**: Načítejte do paměti pouze nezbytné soubory, aby byl zdroj efektivně využit.  
-- **Správa paměti**: Rozumně využívejte garbage collection v Javě při práci s velkými PDF.  
-- **Dávkové zpracování**: Při práci s více dokumenty je vhodné je zpracovávat po dávkách pro optimalizaci výkonu.
+- **Efficient File Handling** – Načítejte jen nezbytné soubory, aby byl nízký odběr paměti.  
+- **Memory Management** – Pro velké PDF zvyšte heap JVM (`-Xmx`), aby nedošlo k `OutOfMemoryError`.  
+- **Batch Processing** – Zpracovávejte dokumenty po skupinách, aby byl vyvážen průtok a spotřeba zdrojů.
 
 ## Časté problémy a řešení
-- **Chybějící soubory**: Ověřte, že vstupní PDF a výstupní adresáře existují a jsou správně odkazovány.  
-- **Nesprávná verze**: Ujistěte se, že používáte Aspose.PDF verze 25.3 nebo novější; starší verze mohou postrádat metodu `validate`.  
-- **Velké PDF**: Přidělte dostatečnou velikost haldy (`-Xmx`), aby nedošlo k `OutOfMemoryError` během validace.
-
-## Závěr
-Nyní ovládáte **jak validovat PDF** soubory pro přístupnost pomocí Aspose.PDF Java. Tato schopnost je nezbytná pro tvorbu inkluzivního a standardy‑kompatibilního digitálního obsahu. Pro další průzkum zvažte další funkce Aspose.PDF, jako je editace, konverze nebo optimalizace PDF.
-
-Jste připraveni zlepšit své dovednosti v práci s dokumenty? Implementujte toto řešení ve svých projektech ještě dnes a zajistěte, aby každý PDF, který publikujete, byl přístupný všem.
+- **Missing Files** – Zkontrolujte, že vstupní PDF a výstupní adresáře existují a jsou správně odkazovány.  
+- **Incorrect Version** – Metoda `validate` je k dispozici od Aspose.PDF 25.3; starší verze se nekompilují.  
+- **Large PDFs** – Přidělte dostatečnou velikost haldy nebo rozdělte validaci na menší úseky, pokud narazíte na tlak na paměť.
 
 ## Často kladené otázky
 
 **Q1: Co je standard PDF/UA-1?**  
-A1: Standard PDF/UA-1 (Universal Accessibility) zajišťuje, že dokumenty jsou přístupné a použitelné pro všechny, včetně osob se zdravotním postižením.
+A1: PDF/UA-1 (Universal Accessibility) definuje, jak by měly být PDF strukturovány, aby je asistenční technologie dokázaly správně interpretovat.
 
 **Q2: Mohu validovat více PDF najednou?**  
-A2: Ano, lze nastavit dávkové zpracování pro validaci více PDF souborů najednou.
+A2: Ano, můžete iterovat přes kolekci souborů a pro každý zavolat `document.validate`, čímž vytvoříte řešení pro dávkové zpracování.
 
 **Q3: Co mám dělat, když validace selže?**  
-A3: Prohlédněte si vygenerovaný XML protokol a identifikujte a opravte problémy ve vašem PDF dokumentu.
+A3: Otevřete vygenerovanou zprávu `ua-20.xml`, najděte nahlášené problémy a použijte editační API Aspose.PDF k přidání chybějících tagů, alt textu nebo dalších požadovaných prvků.
 
-**Q4: Existuje limit velikosti PDF, které lze validovat?**  
-A4: Aspose.PDF dobře zvládá velké soubory, ale je vhodné zajistit dostatečnou alokaci paměti pro optimální výkon.
+**Q4: Existuje limit velikosti PDF, které lze zkontrolovat?**  
+A4: Aspose.PDF dobře pracuje s velkými soubory, ale ujistěte se, že JVM má přidělenou dostatečnou paměť (`-Xmx`) pro velmi velké dokumenty.
 
 **Q5: Jak získám podporu, pokud narazím na problémy?**  
 A: Navštivte [Aspose Support Forum](https://forum.aspose.com/c/pdf/10) pro pomoc od komunity i zaměstnanců Aspose.
 
 ## Zdroje
-- **Dokumentace**: [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/)
-- **Stáhnout**: [Aspose.PDF Releases](https://releases.aspose.com/pdf/java/)
-- **Koupit licenci**: [Buy a License](https://purchase.aspose.com/buy)
-- **Bezplatná zkušební verze**: [Try Aspose.PDF for Free](https://releases.aspose.com/pdf/java/)
-- **Dočasná licence**: [Request Here](https://purchase.aspose.com/temporary-license/)
+- **Documentation**: [Aspose.PDF Java Reference](https://reference.aspose.com/pdf/java/)  
+- **Download**: [Aspose.PDF Releases](https://releases.aspose.com/pdf/java/)  
+- **Purchase**: [Buy a License](https://purchase.aspose.com/buy)  
+- **Free Trial**: [Try Aspose.PDF for Free](https://releases.aspose.com/pdf/java/)  
+- **Temporary License**: [Request Here](https://purchase.aspose.com/temporary-license/)
 
 ---
 
-**Poslední aktualizace:** 2025-12-10  
-**Testováno s:** Aspose.PDF 25.3 pro Java  
-**Autor:** Aspose  
+**Last Updated:** 2026-02-17  
+**Tested With:** Aspose.PDF 25.3 for Java  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

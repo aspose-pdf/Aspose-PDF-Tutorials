@@ -38,6 +38,9 @@ Aspose.PDF for .NET을 사용하여 PDF/A-1a 준수 여부를 확인하는 방�
 ### [C#에서 Aspose.PDF for .NET을 사용하여 PDF/A 유효성 검사 마스터하기](./master-pdfa-validation-aspose-pdf-net/)
 Aspose.PDF .NET을 사용하여 PDF/A 표준에 따라 PDF 문서를 검증하는 방법을 알아보세요. 단계별 가이드를 통해 규정 준수를 보장하고 문서의 신뢰성을 높여 보세요.
 
+### [C#에서 PDF/A 파일 만들기 – 전체 변환 튜토리얼](./create-pdf-a-file-in-c-full-conversion-tutorial/)
+C#으로 PDF를 PDF/A 파일로 완전 변환하는 단계별 가이드를 제공합니다.
+
 ## 추가 자료
 
 - [Net 문서용 Aspose.PDF](https://docs.aspose.com/pdf/net/)

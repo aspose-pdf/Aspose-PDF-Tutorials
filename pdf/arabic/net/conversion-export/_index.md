@@ -83,6 +83,7 @@
 ### [تحويل PDF إلى PNG باستخدام Aspose.PDF .NET: تحسين تلميحات الخطوط لعرض نص واضح](./convert-pdf-png-aspose-net-font-hinting/)
 تعرف على كيفية تحويل مستندات PDF إلى صور PNG عالية الجودة باستخدام Aspose.PDF .NET، مما يضمن عرض نص حاد من خلال تلميحات الخط.
 
+### [حفظ PDF كـ PNG وتحويله إلى PDF/X‑1a باستخدام Aspose PDF](./save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf/)
 ### [تحويل PDF إلى PNG في C# – دليل شامل خطوة بخطوة](./convert-pdf-to-png-in-c-complete-step-by-step-guide/)
 دليل شامل يوضح كيفية تحويل ملفات PDF إلى صور PNG باستخدام C# و Aspose.PDF خطوة بخطوة.
 
@@ -126,7 +127,7 @@
 تعلّم كيفية تحويل ملفات XML بكفاءة إلى ملفات PDF احترافية باستخدام Aspose.PDF وC#. اتبع هذا الدليل المفصل، المُصمّم لمطوّري .NET.
 
 ### [تحويل XML إلى PDF باستخدام Aspose.PDF لـ .NET: دليل خطوة بخطوة](./convert-xml-pdf-aspose-dotnet/)
-تعرّف على كيفية تحويل بيانات XML إلى ملفات PDF مُصمّمة باستخدام Aspose.PDF وXSLT في .NET. يغطي هذا الدليل خطوات الإعداد والتحويل والتطبيقات العملية.
+تعرّف على كيفية تحويل بيانات XML إلى ملفات PDF مُصمّرة باستخدام Aspose.PDF وXSLT في .NET. يغطي هذا الدليل خطوات الإعداد والتحويل والتطبيقات العملية.
 
 ### [تحويل XML إلى PDF مع الصور الديناميكية باستخدام Aspose.PDF لـ .NET](./convert-xml-to-pdf-dynamic-images-aspose-net/)
 تعرف على كيفية تحويل بيانات XML إلى مستند PDF ذو مظهر احترافي باستخدام Aspose.PDF لـ .NET، بما في ذلك إدراج الصور الديناميكية.
@@ -224,11 +225,14 @@
 ### [تحويل PDF إلى HTML باستخدام Aspose.PDF .NET: دليل شامل](./aspose-pdf-net-pdf-to-html-conversion/)
 أتقن تحويل PDF إلى HTML باستخدام Aspose.PDF لـ .NET. حسّن إمكانية الوصول إلى المستندات وتفاعلها مع المستخدمين من خلال خيارات قابلة للتخصيص.
 
-### [تحويل PDF إلى HTML باستخدام Aspose.PDF لـ .NET](./pdf-to-html-conversion-aspose-dot-net/)
+### [تحويل PDF إلى HTML باستخدام Aspose.PDF .NET](./pdf-to-html-conversion-aspose-dot-net/)
 برنامج تعليمي لبرمجة Aspose.PDF Net
 
 ### [تحويل PDF إلى TIFF في .NET باستخدام Aspose.PDF: دليل خطوة بخطوة](./pdf-to-tiff-conversion-aspose-pdf-net/)
 تعلّم كيفية تحويل مستندات PDF إلى صور TIFF باستخدام Aspose.PDF لـ .NET. أتقن أعماق الألوان المخصصة وتقنيات معالجة الصور المتقدمة.
+
+### [كيفية حفظ ملف PDF باستخدام Aspose – دليل خطوة بخطوة](./how-to-save-pdf-with-aspose-step-by-step-guide/)
+دليل شامل يوضح كيفية حفظ ملفات PDF باستخدام Aspose خطوة بخطوة باستخدام C#.
 
 ## موارد إضافية
 

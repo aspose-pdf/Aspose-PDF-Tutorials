@@ -62,6 +62,11 @@ Dowiedz się, jak używać Aspose.PDF dla .NET do walidacji i przetwarzania dost
 ### [Opanowanie tworzenia dostępnych plików PDF za pomocą Aspose.PDF .NET: Tworzenie oznaczonych plików PDF za pomocą tabel ze stylami](./aspose-pdf-net-tagged-pdfs-styled-tables/)
 Naucz się tworzyć dostępne, stylizowane i oznaczone dokumenty PDF przy użyciu Aspose.PDF dla .NET. Opanuj tworzenie zgodnych plików PDF ze strukturalnymi tabelami i ulepszoną dostępnością.
 
+### [Jak porównywać pliki PDF w C# – Kompletny przewodnik po generowaniu różnic PDF](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
+Dowiedz się, jak porównać dwa pliki PDF i wygenerować ich różnice przy użyciu Aspose.PDF dla .NET w C#.
+### [Edycja przezroczystości PDF w C# – przewodnik krok po kroku](./edit-pdf-transparency-in-c-step-by-step-guide/)
+Dowiedz się, jak modyfikować przezroczystość elementów w plikach PDF przy użyciu Aspose.PDF dla .NET w języku C#.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

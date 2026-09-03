@@ -1,0 +1,7 @@
+Title: Verify PDF Signature with Aspose.PDF – Complete C# Guide
+Slug: verify-pdf-signature-with-aspose-pdf-complete-c-guide
+Category: programming-with-security-and-signatures
+ProcessedDate: 2026-06-18T11:51:14.774903
+SourceRepo: AI Search API
+Keywords: verify pdf signature, validate pdf digital signature, check pdf signature validity, verify digital signature pdf, how to verify pdf signature
+PRNumber: 92

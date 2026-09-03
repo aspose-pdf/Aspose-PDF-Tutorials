@@ -1,0 +1,7 @@
+Title: image overlay pdf tutorial – add mask & enable automatic tray selection
+Slug: image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se
+Category: images-graphics
+ProcessedDate: 2026-06-27T23:32:39.257778
+SourceRepo: AI Search API
+Keywords: image overlay pdf, how to add mask, automatic tray selection, apply image mask, load pdf aspose
+PRNumber: 96

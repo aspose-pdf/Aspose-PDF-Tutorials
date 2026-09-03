@@ -38,7 +38,11 @@ Az Aspose.PDF „Bélyegzők és vízjelek programozása” című .NET oktatóa
 | [Oldalszámbélyegzők PDF fájlban](./page-number-stamps/) Tanulja meg, hogyan adhat hozzá oldalszámbélyegzőket PDF fájlokhoz az Aspose.PDF for .NET segítségével könnyen követhető útmutatónkból, amely kódpéldákat is tartalmaz. |  
 | [Táblázat a fejlécben, láblécben](./table-in-header-footer-section/) | Ismerje meg, hogyan adhat hozzá egyszerűen szöveget egy PDF fájl láblécéhez az Aspose.PDF for .NET segítségével. Lépésről lépésre útmutató a zökkenőmentes integrációhoz. |  
 | [Szöveg a PDF fájl láblécében](./text-in-footer/) | Ismerje meg, hogyan adhat hozzá szöveget a PDF fájlok láblécéhez az Aspose.PDF for .NET segítségével. |  
-| [Szöveg a PDF fájl fejlécében](./text-in-header/) | Tanulja meg, hogyan adhat hozzá szöveges fejléceket PDF-ekhez az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Javítsa dokumentumai hatékonyságát és eredményességét. |  
+| [Szöveg a PDF fájl fejlécében](./text-in-header/) | Tanulja meg, hogyan adhat hozzá szöveges fejléceket PDF-ekhez az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Javítsa dokumentumai hatékonyságát és eredményességét. |
+| [Bates számozási útmutató: Bates számok hozzáadása PDF-ekhez C#-val](./bates-numbering-tutorial-add-bates-numbers-to-pdfs-with-c/) | Tanulja meg, hogyan adhat hozzá Bates számokat PDF fájlokhoz C#-ban az Aspose.PDF for .NET használatával lépésről lépésre útmutatóval. |
+| [Bates számozás hozzáadása PDF-hez – Teljes C# útmutató](./add-bates-numbering-pdf-complete-c-guide/) Tanulja meg, hogyan adhat hozzá Bates számozást PDF-fájlokhoz az Aspose.PDF for .NET használatával ebben a részletes C# útmutatóban. |
+| [PDF átlátszóság módosítása C#-ban – Teljes Aspose útmutató](./change-pdf-opacity-in-c-complete-aspose-guide/) | Tanulja meg, hogyan állíthatja be a PDF átlátszóságát C#-ban az Aspose.PDF for .NET segítségével. |
+| [Bates-számozás hozzáadása PDF-hez C#-ban – Teljes útmutató](./add-bates-numbering-pdf-in-c-complete-guide/) | Tanulja meg, hogyan adhat hozzá Bates-számozást PDF-fájlokhoz C#-ban az Aspose.PDF for .NET használatával lépésről lépésre útmutatóval. |
 | [Bizalmas vízjel PDF Aspose-szal: Szövegbélyegző hozzáadása az első oldalhoz](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) Tanulja meg, hogyan adhat hozzá szövegbélyegzőt az első oldalhoz, hogy bizalmas vízjelet helyezzen el PDF-ben az Aspose.PDF for .NET használatával. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

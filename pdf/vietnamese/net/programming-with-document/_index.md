@@ -56,8 +56,9 @@ Tài nguyên này bao gồm các hướng dẫn về tính năng lập trình v�
 | [Thu nhỏ tài liệu PDF](./shrinkdocuments/) | Tìm hiểu cách thu nhỏ tài liệu PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Tối ưu hóa tài nguyên PDF và giảm kích thước tệp mà không ảnh hưởng đến chất lượng. |  
 | [Bỏ nhúng phông chữ và tối ưu hóa tệp PDF](./unembedfonts/) | Tìm hiểu cách bỏ nhúng phông chữ và tối ưu hóa tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. |  
 | [Xác thực PDF AB Standard](./validatepdfabstandard/) Tìm hiểu cách xác thực PDF theo chuẩn PDF/A-1b bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Đảm bảo tuân thủ để lưu trữ lâu dài. |  
-| [Xác thực các tập tin PDF Một tiêu chuẩn](./validatepdfastandard/) | Tìm hiểu cách xác thực tệp PDF theo tiêu chuẩn PDF/A-1a bằng Aspose.PDF cho .NET trong hướng dẫn từng bước toàn diện này. |  
+| [Xác thực các tập tin PDF Một tiêu chuẩn](./validatepdfastandard/) | Tìm hiểu cách xác thực tệp PDF theo tiêu chuẩn PDF/A-1a bằng Aspose.PDF cho .NET trong hướng dẫn toàn diện này. |  
 | [Xác thực PDF UA Standard](./validatepdfuastandard/) | Tìm hiểu cách xác thực PDF cho tiêu chuẩn trợ năng PDF/UA bằng Aspose.PDF cho .NET với hướng dẫn từng bước và giải thích chi tiết của chúng tôi. |  
+| [Cách sửa tệp PDF – Hướng dẫn từng bước sử dụng Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Tìm hiểu cách khôi phục và sửa chữa các tệp PDF bị hỏng bằng Aspose.Pdf trong hướng dẫn chi tiết từng bước. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -53,6 +53,9 @@ Aspose.PDF Net 程式碼教學
 ### [使用 Aspose.PDF .NET 將 PDF 頁面轉換為 PNG：綜合指南](./convert-pdf-pages-to-png-aspose-net/)
 了解如何使用 Aspose.PDF for .NET 將 PDF 頁面轉換為高品質的 PNG 圖片。按照本逐步指南可以有效地自動化轉換過程。
 
+### [使用 Aspose PDF 將 PDF 儲存為 PNG 並轉換為 PDF/X‑1a](./save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf/)
+了解如何使用 Aspose.PDF 先將 PDF 另存為 PNG 圖像，然後轉換為符合 PDF/X‑1a 標準的 PDF 文件。
+
 ### [使用 Aspose.PDF for .NET 將 PDF 轉換為 BMP：逐步指南](./convert-pdf-to-bmp-aspose-pdf-net/)
 透過本綜合指南了解如何使用 Aspose.PDF for .NET 將 PDF 頁面轉換為高品質的 BMP 影像。
 
@@ -229,6 +232,9 @@ Aspose.PDF Net 程式碼教學
 
 ### [使用 Aspose.PDF 在 .NET 中將 PDF 轉換為 TIFF：逐步指南](./pdf-to-tiff-conversion-aspose-pdf-net/)
 了解如何使用 Aspose.PDF for .NET 將 PDF 文件轉換為 TIFF 影像。掌握自訂色彩深度和先進的影像處理技術。
+
+### [如何使用 Aspose 保存 PDF – 步驟指南](./how-to-save-pdf-with-aspose-step-by-step-guide/)
+了解如何使用 Aspose 保存 PDF 文件的完整步驟與程式碼範例。
 
 ## 其他資源
 

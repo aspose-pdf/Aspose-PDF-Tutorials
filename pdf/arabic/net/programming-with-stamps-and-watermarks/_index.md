@@ -39,6 +39,12 @@
 | [الجدول في قسم الرأس والتذييل](./table-in-header-footer-section/) | تعرّف على كيفية إضافة نص بسهولة إلى تذييل ملف PDF باستخدام Aspose.PDF لـ .NET. دليل خطوة بخطوة مُرفق لضمان التكامل السلس. |  
 | [النص في تذييل ملف PDF](./text-in-footer/) |تعرف على كيفية إضافة نص في تذييل ملف PDF باستخدام Aspose.PDF لـ .NET. |  
 | [النص في رأس ملف PDF](./text-in-header/) تعلم كيفية إضافة عناوين نصية إلى ملفات PDF باستخدام Aspose.PDF لـ .NET من خلال هذا البرنامج التعليمي خطوة بخطوة. حسّن مستنداتك بكفاءة وفعالية.  
+| [دروس ترقيم بايتس: إضافة أرقام بايتس إلى ملفات PDF باستخدام C#](./bates-numbering-tutorial-add-bates-numbers-to-pdfs-with-c/) | تعلم كيفية إضافة أرقام بايتس إلى ملفات PDF باستخدام C# و Aspose.PDF لتسهيل تتبع المستندات. |
+| [تغيير شفافية PDF في C# – دليل Aspose الكامل](./change-pdf-opacity-in-c-complete-aspose-guide/) | تعرف على كيفية تعديل شفافية ملفات PDF باستخدام Aspose.PDF لـ .NET في C# خطوة بخطوة. |
+| [إضافة ترقيم Bates إلى PDF – دليل C# كامل](./add-bates-numbering-pdf-complete-c-guide/) | تعرّف على كيفية إضافة ترقيم Bates إلى ملفات PDF باستخدام Aspose.PDF لـ .NET مع دليل كامل بلغة C#. |
+| [إضافة ترقيم بايتس إلى PDF في C# – دليل كامل](./add-bates-numbering-pdf-in-c-complete-guide/) | تعرف على كيفية إضافة ترقيم بايتس إلى ملفات PDF باستخدام Aspose.PDF لـ .NET في دليل شامل خطوة بخطوة. |
+| [كيفية إضافة Bates – دليل خطوة بخطوة لملفات PDF](./how-to-add-bates-step-by-step-guide-for-pdfs/) |تعرف على كيفية إضافة علامات Bates إلى ملفات PDF باستخدام Aspose.PDF لـ .NET من خلال دليل خطوة بخطوة. |
+| [تغيير شفافية PDF باستخدام Aspose.PDF – دليل C# كامل](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) |تعرف على كيفية تعديل شفافية ملفات PDF باستخدام Aspose.PDF في دليل شامل بلغة C# مع أمثلة عملية. |
 | [علامة مائية سرية لملف PDF باستخدام Aspose: إضافة طابع نصي إلى الصفحة الأولى](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) | تعلم كيفية إضافة طابع نصي كعلامة مائية سرية إلى الصفحة الأولى من ملف PDF باستخدام Aspose.PDF لـ .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
