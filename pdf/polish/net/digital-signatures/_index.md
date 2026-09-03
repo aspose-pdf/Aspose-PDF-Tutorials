@@ -68,6 +68,9 @@ Dowiedz się, jak wyeksportować plik PDF do HTML i zweryfikować jego podpis cy
 ### [Samouczek podpisu PDF – Weryfikacja podpisów PDF w C# przy użyciu Aspose.Pdf](./pdf-signature-tutorial-verify-pdf-signatures-in-c-with-aspos/)
 Dowiedz się, jak weryfikować podpisy PDF w aplikacjach C# przy użyciu biblioteki Aspose.Pdf, zapewniając integralność dokumentów.
 
+### [Wyodrębnij podpisy z PDF za pomocą Aspose.Pdf – Kompletny przewodnik](./extract-signatures-from-pdf-with-aspose-pdf-complete-guide/)
+Dowiedz się, jak wyodrębnić wszystkie podpisy z plików PDF przy użyciu Aspose.Pdf w pełnym przewodniku krok po kroku.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

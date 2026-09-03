@@ -27,6 +27,7 @@ Aspose.PDF's "Programming with Stamps and Watermarks" tutorials for .NET walk yo
 | [Add Text Stamp In PDF File](./add-text-stamp/) | Learn how to add a text stamp in a PDF file using Aspose.PDF for .NET with our step-by-step guide and elevate your document presentations. |  
 | [Counting Artifacts In PDF File](./counting-artifacts/) | Learn how to count watermarks in a PDF using Aspose.PDF for .NET. Step-by-step guide for beginners with no prior experience required. |  
 | [Change PDF Opacity in C# – Complete Aspose Guide](./change-pdf-opacity-in-c-complete-aspose-guide/) | Learn how to change PDF opacity using Aspose.PDF for .NET in C# with step-by-step instructions and code examples. |  
+| [Confidential watermark PDF with Aspose: Add a Text Stamp to First Page](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) | Learn how to add a confidential text watermark to the first page of a PDF using Aspose.PDF for .NET. |  
 | [Define Alignment In PDF File](./define-alignment/) | This guide covers how to define text alignment in PDF files using Aspose.PDF for .NET, complete with a step-by-step tutorial. |  
 | [Extract Text From Stamp Annotation](./extract-text-from-stamp-annotation/) | Learn how to extract text from a stamp annotation in PDF using Aspose.PDF for .NET with this step-by-step tutorial, complete with a detailed code example. |  
 | [Fill Stroke Text In PDF File](./fill-stroke-text/) | Learn how to fill stroke text in PDF files effortlessly using Aspose.PDF for .NET with a step-by-step guide packed with practical examples. |  

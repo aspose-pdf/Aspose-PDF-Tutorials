@@ -46,6 +46,7 @@ Os tutoriais "Programação com Carimbos e Marcas D'água" do Aspose.PDF para .N
 | [Adicionar numeração Bates em PDF em C# – Guia completo](./add-bates-numbering-pdf-in-c-complete-guide/) | Aprenda a aplicar numeração Bates em PDFs usando Aspose.PDF para .NET com este guia passo a passo. |  
 | [Como adicionar Bates – Guia passo a passo para PDFs](./how-to-add-bates-step-by-step-guide-for-pdfs/) | Aprenda a adicionar números de Bates a arquivos PDF usando o Aspose.PDF para .NET com este guia passo a passo. |
 | [Alterar Opacidade de PDF com Aspose.PDF – Guia Completo em C#](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) | Aprenda a alterar a opacidade de páginas PDF usando Aspose.PDF para .NET com este guia completo em C#. |  
+| [Marca d'água confidencial em PDF com Aspose: Adicionar um Carimbo de Texto à Primeira Página](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) | Aprenda a adicionar uma marca d'água confidencial de texto na primeira página de um PDF usando Aspose.PDF para .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

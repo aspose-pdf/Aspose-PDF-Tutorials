@@ -85,6 +85,8 @@ Lär dig hur du konverterar PDF-dokument till högkvalitativa PNG-bilder med Asp
 
 ### [Spara PDF som PNG och konvertera till PDF/X‑1a med Aspose PDF](./save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf/)
 Lär dig hur du sparar PDF som PNG och sedan konverterar till PDF/X‑1a med Aspose PDF i .NET.
+### [Konvertera PDF till PNG med Aspose.PDF .NET: En omfattande guide](./convert-pdf-to-png-aspose-net/)
+Lär dig hur du konverterar PDF-dokument till högkvalitativa PNG-bilder med Aspose.PDF för .NET. Följ den här steg-för-steg-guiden för att automatisera konverteringsprocessen effektivt.
 
 ### [Konvertera PDF till PPTX med Aspose.PDF för .NET: Steg-för-steg-guide](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 Lär dig hur du effektivt konverterar PDF-dokument till PowerPoint-presentationer med Aspose.PDF för .NET. Den här steg-för-steg-guiden täcker grundläggande konvertering, avancerade funktioner som bildbilder och förloppsspårning.
@@ -232,6 +234,8 @@ Lär dig hur du konverterar PDF-dokument till TIFF-bilder med Aspose.PDF för .N
 
 ### [Hur man sparar PDF med Aspose – Steg‑för‑steg‑guide](./how-to-save-pdf-with-aspose-step-by-step-guide/)
 Lär dig hur du sparar PDF-filer med Aspose i .NET med tydliga steg‑för‑steg‑instruktioner och kodexempel.
+### [Konvertera PDF till PNG i C# – Komplett steg‑för‑steg‑guide](./convert-pdf-to-png-in-c-complete-step-by-step-guide/)
+Lär dig hur du konverterar PDF-filer till PNG-bilder i C# med Aspose.PDF, steg för steg med kodexempel.
 
 ## Ytterligare resurser
 

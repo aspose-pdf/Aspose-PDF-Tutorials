@@ -43,6 +43,7 @@ Los tutoriales de Aspose.PDF "Programación con sellos y marcas de agua" para .N
 | [Cambiar la opacidad del PDF en C# – Guía completa de Aspose](./change-pdf-opacity-in-c-complete-aspose-guide/) | Aprenda a cambiar la opacidad de un PDF usando Aspose.PDF para .NET en C# con esta guía paso a paso. |
 | [Agregar numeración Bates a PDF – Guía completa en C#](./add-bates-numbering-pdf-complete-c-guide/) | Aprenda a agregar numeración Bates a sus archivos PDF usando Aspose.PDF para .NET con esta guía completa paso a paso en C#. |
 | [Cambiar la opacidad del PDF con Aspose.PDF – Guía completa en C#](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) | Aprenda a modificar la opacidad de un PDF usando Aspose.PDF en C# con esta guía paso a paso. |
+| [Marca de agua confidencial PDF con Aspose: Añadir un sello de texto a la primera página](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) Aprenda a agregar una marca de agua confidencial como sello de texto en la primera página de un PDF usando Aspose.PDF para .NET.  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

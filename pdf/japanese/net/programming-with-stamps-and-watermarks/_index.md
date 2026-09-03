@@ -43,6 +43,7 @@ Aspose.PDF の .NET 向けチュートリアル「スタンプと透かしを使
 | [Bates番号付け PDF – 完全な C# ガイド](./add-bates-numbering-pdf-complete-c-guide/) Aspose.PDF for .NET を使用して PDF に Bates 番号付けを追加する方法を、ステップバイステップで解説します。 |  
 | [C# で PDF の不透明度を変更する – 完全な Aspose ガイド](./change-pdf-opacity-in-c-complete-aspose-guide/) Aspose.PDF for .NET を使用して C# で PDF の不透明度を変更する方法をステップバイステップで解説します。 |  
 | [C#でBates番号付PDFを追加する – 完全ガイド](./add-bates-numbering-pdf-in-c-complete-guide/) Aspose.PDF for .NET を使用して C# で PDF に Bates 番号を付与する方法をステップバイステップで解説します。文書管理に最適です。 |  
+| [Aspose を使用した機密透かし PDF: 最初のページにテキストスタンプを追加](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) Aspose.PDF for .NET を使用して、PDF の最初のページに機密テキスト透かし（スタンプ）を追加する手順をステップバイステップで解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

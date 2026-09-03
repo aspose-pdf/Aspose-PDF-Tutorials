@@ -28,6 +28,7 @@ leert hoe u conversie-instellingen opgeeft, tekst en afbeeldingen extraheert, de
 | [EPUB naar PDF](./epub-to-pdf/) Leer hoe u EPUB naar PDF kunt converteren met Aspose.PDF voor .NET met deze stapsgewijze handleiding. Eenvoudig, efficiënt en perfect voor alle gebruikers. |  
 | [SVG-afmetingen ophalen](./get-svg-dimensions/) | Leer hoe je Aspose.PDF voor .NET gebruikt om SVG-bestanden naar PDF te converteren met deze stapsgewijze handleiding. Perfect voor ontwikkelaars die PDF's willen bewerken. |  
 | [HTML naar PDF](./html-to-pdf/) | Leer hoe u HTML naar PDF kunt converteren met Aspose.PDF voor .NET met deze uitgebreide stapsgewijze handleiding. |  
+| [HTML maken vanuit PDF in C# – Complete stapsgewijze handleiding](./create-html-from-pdf-in-c-complete-step-by-step-guide/) | Leer hoe u met Aspose.PDF voor .NET HTML genereert uit PDF-bestanden met een volledige stap‑voor‑stap handleiding in C#. |  
 | [Markdown naar PDF](./markdown-to-pdf/) | Leer in deze stapsgewijze tutorial hoe je Markdown naar PDF converteert met Aspose.PDF voor .NET. Perfect voor ontwikkelaars die documentconversie willen stroomlijnen. |  
 | [MHT naar PDF](./mht-to-pdf/) | Leer in deze stapsgewijze tutorial hoe u MHT-bestanden naar PDF converteert met Aspose.PDF voor .NET. Eenvoudige en efficiënte documentconversie. |  
 | [Pagina-oriëntatie volgens afbeeldingsafmetingen](./page-orientation-according-image-dimensions/) Leer in deze stapsgewijze handleiding hoe u PDF's maakt met Aspose.PDF voor .NET en hoe u de pagina-oriëntatie instelt op basis van de afmetingen van afbeeldingen. |  
@@ -68,6 +69,8 @@ leert hoe u conversie-instellingen opgeeft, tekst en afbeeldingen extraheert, de
 | [PDF opslaan als HTML – Vectoren behouden & rasterisatie uitschakelen](./save-pdf-as-html-keep-vectors-disable-rasterization/) | Leer hoe u PDF's opslaat als HTML, waarbij vectoren behouden blijven en rasterisatie wordt uitgeschakeld, met Aspose.PDF voor .NET. |  
 | [Bates-nummers toevoegen aan DOCX en converteren naar PDF – Complete C#-gids](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | Leer hoe u Bates-nummers toevoegt aan een DOCX en deze converteert naar PDF met Aspose.PDF voor .NET in deze volledige C#-handleiding. |  
 | [Document PDF opslaan – Hoe een ellips toe te voegen en DOCX naar PDF converteren](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | Leer hoe u een PDF-document opslaat, een ellips toevoegt en een DOCX-bestand converteert naar PDF met Aspose.PDF voor .NET. |
+| [Hoe ICC in te stellen bij Aspose PDF-conversie – Complete gids](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | Leer hoe u ICC-profielen instelt tijdens PDF-conversie met Aspose.PDF voor .NET in deze volledige stap‑voor‑stap gids. |  
+| [c# pdf-conversietutorial – converteer pdf naar pdf/x-4](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) | Leer hoe u PDF's converteert naar PDF/X‑4 met Aspose.PDF voor .NET in deze stapsgewijze tutorial. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

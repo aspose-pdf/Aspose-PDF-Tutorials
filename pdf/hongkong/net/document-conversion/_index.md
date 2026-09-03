@@ -68,6 +68,9 @@
 | [如何使用 Aspose 儲存 PDF – 完整 C# 轉換指南](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) |透過本完整指南了解如何使用 Aspose.PDF for .NET 以 C# 將檔案儲存為 PDF，涵蓋步驟與最佳實踐。 |  
 | [將 Bates 編號新增至 DOCX 並轉換為 PDF – 完整 C# 指南](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 為 DOCX 添加 Bates 編號並轉換為 PDF。 |  
 | [儲存文件 PDF – 如何新增橢圓形並將 DOCX 轉換為 PDF](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) |透過本逐步指南了解如何在 PDF 中新增橢圓形，並將 DOCX 檔案轉換為 PDF。 |  
+| [C# PDF 轉換教學 – 將 PDF 轉換為 PDF/X-4](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 PDF/X-4 格式。 |  
+| [在 C# 中從 PDF 建立 HTML – 完整逐步指南](./create-html-from-pdf-in-c-complete-step-by-step-guide/) |透過本完整逐步指南了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 轉換為 HTML。 |  
+| [如何在 Aspose PDF 轉換中設定 ICC – 完整指南](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) |透過本完整指南了解如何在 Aspose.PDF for .NET 轉換過程中設定 ICC 配置檔，以確保色彩準確性。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

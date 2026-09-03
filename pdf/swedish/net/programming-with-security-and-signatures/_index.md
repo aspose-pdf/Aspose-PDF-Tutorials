@@ -46,6 +46,7 @@ Handledningen ger dig en detaljerad översikt över metoder och tekniker för at
 | [Skapa PDF‑signaturhanterare – lista signaturer i C#](./create-pdf-signature-handler-list-signatures-in-c/) | Lär dig hur du skapar en PDF‑signaturhanterare och listar signaturer i C# med Aspose.PDF för .NET. |
 | [Validera PDF‑signatur i C# – Steg‑för‑steg‑guide](./validate-pdf-signature-in-c-step-by-step-guide/) | Lär dig hur du validerar PDF‑signaturer i C# med Aspose.PDF för .NET. En komplett steg‑för‑steg‑guide. |
 | [Läs PDF-dokument C# – Komplett guide för att läsa och lista signaturer](./load-pdf-document-c-complete-guide-to-reading-and-listing-si/) | Lär dig hur du läser ett PDF-dokument i C# och listar alla digitala signaturer med Aspose.PDF för .NET. |
+| [Skapa signerat PDF i C# – steg‑för‑steg‑guide](./create-signed-pdf-in-c-step-by-step-guide/) | Lär dig hur du skapar ett signerat PDF-dokument i C# med Aspose.PDF för .NET i en detaljerad steg‑för‑steg‑guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

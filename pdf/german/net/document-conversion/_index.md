@@ -69,6 +69,9 @@ Sie lernen, wie Sie Konvertierungseinstellungen festlegen, Text und Bilder extra
 | [Bates-Nummerierung zu DOCX hinzufügen und in PDF konvertieren – Vollständige C#-Anleitung](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET Bates-Nummerierung zu DOCX hinzufügen und in PDF konvertieren. |
 | [PDF-Dokument speichern – Ellipse hinzufügen & DOCX in PDF konvertieren](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF-Dokument speichern, eine Ellipse hinzufügen und ein DOCX in PDF konvertieren. |
 | [DOCX in PDF konvertieren in C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET DOCX-Dateien in PDF konvertieren – vollständige Schritt‑für‑Schritt‑Anleitung in C#. |
+| [HTML aus PDF in C# erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-html-from-pdf-in-c-complete-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET HTML aus einer PDF-Datei in C# generieren – detaillierte Schritt‑für‑Schritt‑Anleitung. |
+| [c# PDF-Konvertierungstutorial – PDF zu PDF/X-4 konvertieren](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET PDF-Dateien in das PDF/X-4-Format konvertieren. |
+| [Wie man ICC in Aspose PDF-Konvertierung festlegt – Vollständige Anleitung](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | Erfahren Sie, wie Sie ICC‑Profile in Aspose.PDF für .NET bei der PDF‑Konvertierung festlegen – Schritt‑für‑Schritt‑Anleitung. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

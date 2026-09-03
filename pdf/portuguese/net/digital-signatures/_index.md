@@ -31,6 +31,10 @@ Aprenda a personalizar o texto da assinatura digital em PDFs usando o Aspose.PDF
 Aprenda a criar, assinar e verificar assinaturas de PDF com segurança com o Aspose.PDF para .NET. Aprimore seus fluxos de trabalho com documentos com este guia completo.
 ### [Como extrair informações de assinatura de PDF usando Aspose.PDF .NET: um guia passo a passo](./extract-pdf-signature-info-aspose-pdf-net/)
 Aprenda a extrair informações de assinatura digital de PDFs usando o Aspose.PDF para .NET. Este guia passo a passo aborda instalação, implementação e aplicações práticas.
+
+### [Extrair assinaturas de PDF com Aspose.PDF – Guia completo](./extract-signatures-from-pdf-with-aspose-pdf-complete-guide/)
+Aprenda a extrair assinaturas digitais de arquivos PDF usando Aspose.PDF, com exemplos de código e instruções passo a passo.
+
 ### [Como implementar assinaturas digitais em .NET com Aspose.PDF: um guia completo](./implement-pdf-signatures-dotnet-aspose-pdf-guide/)
 Aprenda a implementar assinaturas digitais seguras em PDFs usando o Aspose.PDF para .NET, incluindo a supressão de campos opcionais.
 ### [Como remover assinaturas digitais de PDF usando o Aspose.PDF .NET | Guia completo](./remove-pdf-digital-signatures-aspose-pdf-net/)

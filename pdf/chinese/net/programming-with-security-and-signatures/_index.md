@@ -44,6 +44,7 @@
 | [如何使用 Aspose 验证 PDF 中的签名 – 指南](./how-to-verify-signature-in-pdf-using-aspose-guide/) 了解如何使用 Aspose.PDF for .NET 验证 PDF 签名，提供完整的分步指南。|  
 | [使用 Aspose.PDF 验证 PDF 签名 – 完整指南](./how-to-verify-pdf-signatures-with-aspose-pdf-complete-guide/) 了解如何使用 Aspose.PDF for .NET 完整验证 PDF 签名，提供详细的分步指南。|  
 | [加载 PDF 文档 C# – 阅读和列出签名的完整指南](./load-pdf-document-c-complete-guide-to-reading-and-listing-si/) 了解如何使用 Aspose.PDF for .NET 在 C# 中加载 PDF 并读取、列出数字签名。|  
+| [使用 C# 创建已签名 PDF – 步骤指南](./create-signed-pdf-in-c-step-by-step-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中创建并签署 PDF 文档，分步指南帮助您快速上手。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

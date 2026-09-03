@@ -85,6 +85,8 @@ Aspose-PDF Net 代码教程
 
 ### [使用 Aspose PDF 将 PDF 保存为 PNG 并转换为 PDF/X‑1a](./save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf/)
 了解如何使用 Aspose PDF 将 PDF 保存为 PNG 图像，然后转换为符合 PDF/X‑1a 标准的 PDF 文件。
+### [使用 C# 将 PDF 转换为 PNG：完整分步指南](./convert-pdf-to-png-in-c-complete-step-by-step-guide/)
+学习如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 文件高效转换为 PNG 图像，包含完整代码示例和最佳实践。
 
 ### [使用 Aspose.PDF for .NET 将 PDF 转换为 PPTX：分步指南](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 了解如何使用 Aspose.PDF for .NET 将 PDF 文档高效地转换为 PowerPoint 演示文稿。本分步指南涵盖基本转换、图像幻灯片等高级功能以及进度跟踪。

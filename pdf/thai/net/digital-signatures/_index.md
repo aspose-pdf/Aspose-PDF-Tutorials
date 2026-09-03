@@ -68,6 +68,9 @@
 ### [บทช่วยสอนลายเซ็น PDF – ตรวจสอบลายเซ็น PDF ด้วย C# และ Aspose.Pdf](./pdf-signature-tutorial-verify-pdf-signatures-in-c-with-aspos/)
 เรียนรู้วิธีตรวจสอบลายเซ็น PDF ด้วย C# โดยใช้ Aspose.Pdf เพื่อความปลอดภัยและความสมบูรณ์ของเอกสาร
 
+### [ดึงลายเซ็นจาก PDF ด้วย Aspose.Pdf – คู่มือฉบับสมบูรณ์](./extract-signatures-from-pdf-with-aspose-pdf-complete-guide/)
+เรียนรู้วิธีดึงลายเซ็นทั้งหมดจากไฟล์ PDF ด้วย Aspose.Pdf พร้อมขั้นตอนและตัวอย่างโค้ดที่ครบถ้วน
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)

@@ -27,9 +27,17 @@
 | [HTML إلى PDF](./html-to-pdf/) |تعرف على كيفية تحويل HTML إلى PDF باستخدام Aspose.PDF لـ .NET مع هذا الدليل الشامل خطوة بخطوة. |  
 | [اتجاه الصفحة حسب أبعاد الصورة](./page-orientation-according-image-dimensions/) |تعرف على كيفية إنشاء ملفات PDF باستخدام Aspose.PDF لـ .NET، وتعيين اتجاه الصفحة استنادًا إلى أبعاد الصورة في هذا الدليل خطوة بخطوة. |  
 | [PDFA إلى PDF](./pdfa-to-pdf/) |تعرف على كيفية تحويل PDF/A إلى PDF باستخدام Aspose.PDF لـ .NET في هذا الدليل الشامل خطوة بخطوة. |  
-| [PDF إلى PDFA](./pdf-to-pdfa/) |تعرف على كيفية تحويل ملفات PDF إلى تنسيق PDF/A باستخدام Aspose.PDF لـ .NET من خلال هذا البرنامج التعليمي خطوة بخطوة. |  
-| [PDF إلى PDFA3b](./pdf-to-pdfa3b/) |تعلم كيفية تحويل ملفات PDF إلى تنسيق PDF/A-3B بسهولة باستخدام Aspose.PDF لـ .NET في هذا الدليل خطوة بخطوة. |  
+| [PDF إلى PDFA3b](./pdf-to-pdfa3b/) |تعلم كيفية تحويل ملفات PDF إلى تنسيق PDF/A-3B بسهولة باستخدام Aspose.PDF لـ .NET في هذا الدليل خطوة بخطوة. |
+| [تحويل PDF إلى PDF/X-4](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) |تعرف على كيفية تحويل ملفات PDF إلى تنسيق PDF/X-4 باستخدام Aspose.PDF لـ .NET عبر دليل خطوة بخطوة. |
 | [تلميحات حول تحويل الخط من PDF إلى PNG](./pdf-to-png-font-hinting/) |تعلم كيفية تحويل PDF إلى PNG مع تلميحات الخط باستخدام Aspose.PDF لـ .NET في دليل سهل خطوة بخطوة. |  
+| [PDF إلى PPT](./pdf-to-ppt/) تعلّم كيفية تحويل ملفات PDF إلى PPT باستخدام Aspose.PDF لـ .NET عبر هذا الدليل المفصل. سهل وفعال ومثالي للعروض التقديمية.  
+| [تحويل PDF إلى SVG](./pdf-to-svg/) تعلّم كيفية تحويل ملفات PDF إلى صيغة SVG باستخدام Aspose.PDF لـ .NET في هذا البرنامج التعليمي خطوة بخطوة. مثالي للمطورين والمصممين.  
+| [PDF إلى TeX](./pdf-to-tex/) تعلّم كيفية تحويل ملفات PDF إلى TeX باستخدام Aspose.PDF لـ .NET من خلال هذا الدليل المفصل. مثالي للمطورين الذين يتطلعون إلى تحسين مهاراتهم في معالجة المستندات.  
+| [PDF إلى XLS](./pdf-to-xls/) حوّل ملفات PDF بسهولة إلى صيغة XLS باستخدام Aspose.PDF لـ .NET. اتبع دليلنا خطوة بخطوة لاستخراج البيانات بسلاسة.  
+| [PDF إلى XML](./pdf-to-xml/) تعلّم كيفية تحويل PDF إلى XML باستخدام Aspose.PDF لـ .NET في هذا البرنامج التعليمي الشامل. دليل خطوة بخطوة مع أمثلة برمجية.  
+| [PDF إلى XPS](./pdf-to-xps/) تعرّف على كيفية تحويل ملفات PDF إلى XPS باستخدام Aspose.PDF لـ .NET من خلال هذا الدليل المفصل. مثالي للمطورين وهواة معالجة المستندات.  
+| [بوستسكريبت إلى PDF](./postscript-to-pdf/) تعلّم كيفية تحويل ملفات Postscript إلى PDF باستخدام Aspose.PDF لـ .NET في هذا البرنامج التعليمي خطوة بخطوة. مثالي للمطورين من جميع المستويات.  
+| [توفير بيانات الاعتماد أثناء تحويل HTML إلى PDF](./provide-credentials-during-html-to-pdf/) تعلّم كيفية تحويل HTML إلى PDF باستخدام Aspose.PDF لـ .NET من خلال هذا الدليل المفصل. مثالي للمطورين الذين يرغبون في تبسيط عملية إنشاء المستندات.  
 | [إزالة الروابط التشعبية بعد التحويل من HTML](./remove-hyperlinks-after-converting-from-html/) |تعرف على كيفية إزالة الارتباطات التشعبية من مستندات HTML بعد تحويلها إلى PDF باستخدام Aspose.PDF لـ .NET في هذا الدليل خطوة بخطوة. |  
 | [استبدال الخطوط المفقودة](./replace-missing-fonts/) |تعرف على كيفية استبدال الخطوط المفقودة في مستندات PDF باستخدام Aspose.PDF لـ .NET من خلال هذا الدليل خطوة بخطوة. |  
 | [صفحة الويب إلى PDF](./web-page-to-pdf/) |تعرف على كيفية تحويل صفحات الويب إلى PDF باستخدام Aspose.PDF لـ .NET في هذا البرنامج التعليمي المفصل خطوة بخطوة. |  
@@ -47,6 +55,10 @@
 | [إضافة ترقيم Bates إلى DOCX وتحويله إلى PDF – دليل C# الكامل](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) |تعلم كيفية إضافة ترقيم Bates إلى ملفات DOCX ثم تحويلها إلى PDF باستخدام Aspose.PDF لـ .NET مع دليل C# خطوة بخطوة. |  
 | [حفظ مستند PDF – كيفية إضافة إهليلج وتحويل DOCX إلى PDF](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) |تعرّف على كيفية حفظ مستند PDF وإضافة إهليلج، ثم تحويل ملفات DOCX إلى PDF باستخدام Aspose.PDF لـ .NET. |  
 | [تحويل docx إلى pdf في C# – دليل كامل خطوة بخطوة](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) |تعرف على كيفية تحويل ملفات docx إلى pdf باستخدام Aspose.PDF لـ .NET مع دليل شامل خطوة بخطوة في C#. |  
+| [PDF إلى HTML](./pdf-to-html/) تعلّم كيفية تحويل ملفات PDF إلى HTML باستخدام Aspose.PDF لـ .NET من خلال هذا الدليل المفصل. مثالي للمطورين ومنشئي المحتوى.  
+| [إنشاء HTML من PDF باستخدام C# – دليل خطوة بخطوة كامل](./create-html-from-pdf-in-c-complete-step-by-step-guide/) |تعرف على كيفية إنشاء ملفات HTML من مستندات PDF باستخدام Aspose.PDF لـ .NET في دليل شامل خطوة بخطوة. |  
+| [PDF إلى PDFA](./pdf-to-pdfa/) |تعرف على كيفية تحويل ملفات PDF إلى تنسيق PDF/A باستخدام Aspose.PDF لـ .NET من خلال هذا البرنامج التعليمي خطوة بخطوة. |  
+| [كيفية تعيين ICC في تحويل Aspose PDF – دليل كامل](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | تعلم كيفية تعيين ملف ICC أثناء تحويل المستندات باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

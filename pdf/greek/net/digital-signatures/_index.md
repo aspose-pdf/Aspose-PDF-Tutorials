@@ -26,7 +26,6 @@
 ### [Εξαγωγή πληροφοριών ψηφιακής υπογραφής από PDF με το Aspose.PDF](./extract-digital-signature-info-from-pdfs-aspose-pdf/)
 Ένα σεμινάριο κώδικα για το Aspose.PDF Net
 ### [Πώς να αλλάξετε τη γλώσσα υπογραφής PDF με το Aspose.PDF για .NET](./change-pdf-signature-language-aspose-net/)
-Μάθετε πώς να προσαρμόζετε κείμενο ψηφιακής υπογραφής σε PDF χρησιμοποιώντας το Aspose.PDF για .NET. Ιδανικό για την προετοιμασία και την τοπική προσαρμογή πολυγλωσσικών εγγράφων.
 ### [Πώς να δημιουργήσετε και να επαληθεύσετε υπογραφές PDF χρησιμοποιώντας το Aspose.PDF για .NET](./create-verify-pdf-signatures-aspose-net/)
 Μάθετε πώς να δημιουργείτε, να υπογράφετε και να επαληθεύετε με ασφάλεια υπογραφές PDF με το Aspose.PDF για .NET. Βελτιώστε τις ροές εργασίας των εγγράφων σας με αυτόν τον ολοκληρωμένο οδηγό.
 ### [Πώς να εξαγάγετε πληροφορίες υπογραφής PDF χρησιμοποιώντας το Aspose.PDF .NET: Ένας οδηγός βήμα προς βήμα](./extract-pdf-signature-info-aspose-pdf-net/)
@@ -63,6 +62,7 @@
 Μάθετε πώς να επαληθεύετε ψηφιακές υπογραφές σε αρχεία PDF χρησιμοποιώντας το Aspose.Pdf με C#.
 ### [Σεμινάριο υπογραφής PDF – Επαλήθευση υπογραφών PDF σε C# με το Aspose.Pdf](./pdf-signature-tutorial-verify-pdf-signatures-in-c-with-aspos/)
 Μάθετε πώς να επαληθεύετε υπογραφές PDF σε C# με το Aspose.Pdf, εξασφαλίζοντας την ακεραιότητα των εγγράφων σας.
+### [Εξαγωγή υπογραφών από PDF με το Aspose.PDF – Πλήρης Οδηγός](./extract-signatures-from-pdf-with-aspose-pdf-complete-guide/)
 
 ## Πρόσθετοι Πόροι
 

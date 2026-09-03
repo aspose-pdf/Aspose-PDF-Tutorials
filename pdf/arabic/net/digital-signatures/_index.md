@@ -47,6 +47,9 @@
 ### [تصدير PDF إلى HTML والتحقق من توقيع PDF باستخدام Aspose](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
 تعلم كيفية تصدير ملفات PDF إلى HTML والتحقق من صحة توقيع PDF باستخدام مكتبة Aspose.
 ### [كيفية التحقق من التوقيع في PDF باستخدام Aspose.PDF – دليل C#](./how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/)
+### [استخراج التوقيعات من ملفات PDF باستخدام Aspose.Pdf – دليل شامل](./extract-signatures-from-pdf-with-aspose-pdf-complete-guide/)
+تعرف على كيفية استخراج جميع التوقيعات من ملفات PDF باستخدام Aspose.Pdf خطوة بخطوة في هذا الدليل الكامل.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

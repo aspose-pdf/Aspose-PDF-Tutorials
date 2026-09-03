@@ -38,6 +38,8 @@
 | [पीडीएफ से HTML](./pdf-to-html/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF को HTML में परिवर्तित करना सीखें। डेवलपर्स और सामग्री निर्माताओं के लिए बिल्कुल सही। |  
 | [PDF को HTML के रूप में सहेजें – वेक्टर रखें और रास्टराइज़ेशन निष्क्रिय करें](./save-pdf-as-html-keep-vectors-disable-rasterization/) | इस ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को HTML में वेक्टर बनाए रखते हुए और रास्टराइज़ेशन को बंद करके सहेजना सीखें। |
 | [पीडीएफ से पीडीएफए](./pdf-to-pdfa/) इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइलों को PDF/A प्रारूप में परिवर्तित करना सीखें। |  
+| [C# में PDF से HTML बनाएं – पूर्ण चरण‑दर‑चरण गाइड](./create-html-from-pdf-in-c-complete-step-by-step-guide/) | इस विस्तृत मार्गदर्शिका में .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइल से HTML उत्पन्न करने के चरण सीखें। |  
+| [c# पीडीएफ रूपांतरण ट्यूटोरियल – पीडीएफ को PDF/X-4 में बदलें](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X-4 प्रारूप में परिवर्तित करना सीखें। |
 | [पीडीएफ से PDFA3b](./pdf-to-pdfa3b/) | इस चरण-दर-चरण मार्गदर्शिका में .NET के लिए Aspose.PDF के साथ PDF फ़ाइलों को आसानी से PDF/A-3B प्रारूप में परिवर्तित करना सीखें। |  
 | [पीडीएफ से पीएनजी फ़ॉन्ट संकेत](./pdf-to-png-font-hinting/) | एक आसान चरण-दर-चरण मार्गदर्शिका में .NET के लिए Aspose.PDF का उपयोग करके फ़ॉन्ट हिंटिंग के साथ PDF को PNG में परिवर्तित करना सीखें। |  
 | [PDF को PNG में बदलें – C# में PDF पृष्ठों को PNG में परिवर्तित करें](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF पृष्ठों को PNG छवियों में बदलना सीखें। |
@@ -70,6 +72,7 @@
 | [Aspose PDF को HTML में C# – पूर्ण गाइड](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | इस विस्तृत मार्गदर्शिका में .NET के लिए Aspose.PDF का उपयोग करके PDF को HTML में बदलना सीखें। |
 | [Aspose.Pdf के साथ PDF को कैसे बदलें – पूर्ण C# गाइड](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | इस विस्तृत C# गाइड में Aspose.Pdf का उपयोग करके PDF को बदलना सीखें। |
 | [Aspose के साथ PDF कैसे सहेजें – पूर्ण C# रूपांतरण गाइड](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) | इस चरण-दर-स्तर गाइड में .NET के लिए Aspose का उपयोग करके PDF को सहेजने और C# में रूपांतरण करने के तरीके सीखें। |
+| [Aspose PDF रूपांतरण में ICC सेट करें – पूर्ण गाइड](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | इस चरण‑दर‑चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF रूपांतरण में ICC प्रोफ़ाइल सेट करना सीखें। |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -67,6 +67,9 @@ Naučte se exportovat PDF do HTML a ověřit digitální podpis PDF pomocí Aspo
 ### [Výukový program o podpisu PDF – Ověření PDF podpisů v C# s Aspose.Pdf](./pdf-signature-tutorial-verify-pdf-signatures-in-c-with-aspos/)
 Naučte se, jak ověřovat PDF podpisy v C# pomocí Aspose.Pdf a zajistit integritu dokumentů.
 
+### [Extrahování podpisů z PDF pomocí Aspose.PDF – kompletní průvodce](./extract-signatures-from-pdf-with-aspose-pdf-complete-guide/)
+Naučte se, jak pomocí Aspose.PDF extrahovat všechny digitální podpisy z PDF souborů a zpracovat jejich data.
+
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)

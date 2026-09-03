@@ -25,6 +25,7 @@ Výukové programy „Programování s razítky a vodoznaky“ pro .NET od Aspos
 | [Přidání různých záhlaví do souboru PDF](./adding-different-headers/) | Naučte se, jak přidat různé záhlaví do PDF souborů pomocí Aspose.PDF pro .NET. Podrobný návod pro přizpůsobení PDF souborů. |  
 | [Přidat razítko stránky PDF do souboru PDF](./add-pdf-page-stamp/) | Naučte se, jak přidat razítko stránky PDF pomocí Aspose.PDF pro .NET s tímto podrobným návodem. Zvyšte účinek svých PDF dokumentů. |  
 | [Přidat textové razítko do PDF souboru](./add-text-stamp/) | Naučte se, jak přidat textové razítko do PDF souboru pomocí Aspose.PDF pro .NET s naším podrobným návodem a vylepšete své prezentace dokumentů. |  
+| [Důvěrný vodoznak PDF s Aspose: Přidat textové razítko na první stránku](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) Naučte se, jak pomocí Aspose.PDF pro .NET přidat textové razítko na první stránku PDF jako důvěrný vodoznak. |  
 | [Počítání artefaktů v souboru PDF](./counting-artifacts/) Naučte se, jak počítat vodoznaky v PDF pomocí Aspose.PDF pro .NET. Podrobný návod pro začátečníky bez nutnosti předchozích zkušeností. |  
 | [Definovat zarovnání v souboru PDF](./define-alignment/) | Tato příručka popisuje, jak definovat zarovnání textu v souborech PDF pomocí Aspose.PDF pro .NET, a obsahuje podrobný návod. |  
 | [Extrahovat text z anotace razítka](./extract-text-from-stamp-annotation/) | Naučte se, jak extrahovat text z anotace razítka v PDF pomocí Aspose.PDF pro .NET v tomto podrobném tutoriálu s podrobným příkladem kódu. |  

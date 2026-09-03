@@ -53,6 +53,7 @@ pdf.Save("protected.pdf");
 | [Verify PDF Digital Signature in C# – Complete Guide](./verify-pdf-digital-signature-in-c-complete-guide/) | Learn how to verify digital signatures in PDF files using Aspose.PDF for .NET with C#. Step-by-step guide for validation and integrity checks. |
 | [Validate PDF Signature in C# – Step‑by‑Step Guide](./validate-pdf-signature-in-c-step-by-step-guide/) | Learn how to validate PDF signatures using Aspose.PDF for .NET in C#. Follow this step-by-step guide for verification and integrity checks. |
 | [Create PDF Signature Handler – List Signatures in C#](./create-pdf-signature-handler-list-signatures-in-c/) | Learn how to list PDF signatures using a signature handler in C# with Aspose.PDF for .NET. Step-by-step guide. |
+| [Create Signed PDF in C# – Step‑by‑Step Guide](./create-signed-pdf-in-c-step-by-step-guide/) | Learn how to create a signed PDF in C# using Aspose.PDF for .NET. Follow this step-by-step guide to add digital signatures. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -26,6 +26,12 @@ Aprenderá a especificar la configuración de conversión, extraer texto e imág
 | [Agregar archivo adjunto a PDFA](./add-attachment-to-pdfa/) | Aprenda a agregar archivos adjuntos a un documento PDF/A usando Aspose.PDF para .NET con esta guía paso a paso. |  
 | [HTML a PDF](./html-to-pdf/) | Aprenda a convertir HTML a PDF usando Aspose.PDF para .NET con esta completa guía paso a paso. |  
 | [Guardar PDF como HTML – Mantener Vectores y Desactivar la Rasterización](./save-pdf-as-html-keep-vectors-disable-rasterization/) | Aprenda a guardar PDF como HTML conservando los vectores y evitando la rasterización con Aspose.PDF para .NET. |
+| [CGM a archivos PDF](./cgm-to-pdf/) Aprenda a convertir archivos CGM a PDF con Aspose.PDF para .NET con esta guía paso a paso. Ideal tanto para desarrolladores como para diseñadores.  
+| [EPUB a PDF](./epub-to-pdf/) Aprenda a convertir EPUB a PDF con Aspose.PDF para .NET con esta guía paso a paso. Fácil, eficiente y perfecto para todos los usuarios.  
+| [Obtener dimensiones SVG](./get-svg-dimensions/) Aprenda a usar Aspose.PDF para .NET para convertir archivos SVG a PDF con esta guía paso a paso. Ideal para desarrolladores que desean manipular archivos PDF.  
+| [Crear HTML a partir de PDF en C# – Guía completa paso a paso](./create-html-from-pdf-in-c-complete-step-by-step-guide/) | Aprenda a crear HTML desde un PDF usando Aspose.PDF para .NET con esta guía paso a paso. |
+| [Markdown a PDF](./markdown-to-pdf/) Aprenda a convertir Markdown a PDF con Aspose.PDF para .NET en este tutorial paso a paso. Ideal para desarrolladores que buscan optimizar la conversión de documentos.  
+| [MHT a PDF](./mht-to-pdf/) Aprenda a convertir archivos MHT a PDF con Aspose.PDF para .NET en este tutorial paso a paso. Conversión de documentos sencilla y eficiente.  
 | [Orientación de la página según las dimensiones de la imagen](./page-orientation-according-image-dimensions/) Aprenda a crear archivos PDF con Aspose.PDF para .NET, configurando la orientación de la página en función de las dimensiones de la imagen en esta guía paso a paso. |  
 | [PDFA a PDF](./pdfa-to-pdf/) | Aprenda a convertir PDF/A a PDF usando Aspose.PDF para .NET en esta guía completa paso a paso. |  
 | [PDF a DOC](./pdf-to-doc/) Aprenda a convertir PDF a DOC con Aspose.PDF para .NET en esta guía completa. Incluye instrucciones y consejos paso a paso.  
@@ -34,6 +40,7 @@ Aprenderá a especificar la configuración de conversión, extraer texto e imág
 | [PDF a HTML](./pdf-to-html/) Aprenda a convertir PDF a HTML con Aspose.PDF para .NET con esta guía paso a paso. Ideal para desarrolladores y creadores de contenido.  
 | [PDF a PDFA](./pdf-to-pdfa/) Aprenda a convertir archivos PDF al formato PDF/A usando Aspose.PDF para .NET con este tutorial paso a paso. |  
 | [PDF a PDFA3b](./pdf-to-pdfa3b/) | Aprenda a convertir archivos PDF al formato PDF/A-3B sin esfuerzo con Aspose.PDF para .NET en esta guía paso a paso. |  
+| [Tutorial de conversión PDF en C# – convertir PDF a PDF/X-4](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) | Aprenda a convertir archivos PDF a PDF/X-4 usando Aspose.PDF para .NET con esta guía paso a paso. |
 | [Sugerencias de fuente de PDF a PNG](./pdf-to-png-font-hinting/) | Aprenda a convertir PDF a PNG con sugerencias de fuente usando Aspose.PDF para .NET en una sencilla guía paso a paso. |  
 | [Eliminar hipervínculos después de convertir desde HTML](./remove-hyperlinks-after-converting-from-html/) Aprenda a eliminar hipervínculos de documentos HTML después de convertirlos a PDF usando Aspose.PDF para .NET en esta guía paso a paso. |  
 | [Reemplazar fuentes faltantes](./replace-missing-fonts/) | Aprenda a reemplazar fuentes faltantes en documentos PDF usando Aspose.PDF para .NET con esta guía paso a paso. |  
@@ -50,6 +57,7 @@ Aprenderá a especificar la configuración de conversión, extraer texto e imág
 | [Cómo guardar PDF con Aspose – Guía completa de conversión en C#](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) | Aprenda a guardar archivos PDF usando Aspose.PDF para .NET con esta guía completa paso a paso en C#. |  
 | [Agregar numeración Bates a DOCX y convertir a PDF – Guía completa en C#](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | Aprenda a añadir numeración Bates a documentos DOCX y convertirlos a PDF usando Aspose.PDF para .NET con C# paso a paso. |  
 | [Guardar documento PDF – Cómo agregar una elipse y convertir DOCX a PDF](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | Aprenda a guardar un PDF, añadir una elipse y convertir DOCX a PDF con Aspose.PDF para .NET paso a paso. |  
+| [Cómo establecer ICC en la conversión de PDF de Aspose – Guía completa](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | Aprenda a establecer perfiles ICC al convertir PDFs con Aspose.PDF para .NET en esta guía paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -45,6 +45,7 @@
 | [Добавить нумерацию Бейтса в PDF – Полное руководство C#](./add-bates-numbering-pdf-complete-c-guide/) | Узнайте, как добавить нумерацию Бейтса в PDF с помощью Aspose.PDF для .NET в этом полном руководстве на C#. |
 | [Как добавить Bates – пошаговое руководство для PDF](./how-to-add-bates-step-by-step-guide-for-pdfs/) | Узнайте, как добавить метку Bates в PDF-файлы с помощью Aspose.PDF для .NET, следуя пошаговым инструкциям. |  
 | [Изменение непрозрачности PDF с Aspose.PDF – Полное руководство на C#](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) | Узнайте, как изменить прозрачность страниц PDF с помощью Aspose.PDF для .NET в полном руководстве на C#. |  
+| [Конфиденциальный водяной знак PDF с Aspose: Добавить текстовый штамп на первую страницу](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) Узнайте, как добавить текстовый штамп на первую страницу PDF для создания конфиденциального водяного знака с помощью Aspose.PDF для .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -68,6 +68,9 @@ Bạn sẽ học cách chỉ định cài đặt chuyển đổi, trích xuất 
 | [Tải tài liệu PDF C# – Hướng dẫn chuyển đổi sang PDF/X-4](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | Tìm hiểu cách tải tài liệu PDF và chuyển đổi sang định dạng PDF/X-4 bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết từng bước. |
 | [Cách lưu PDF với Aspose – Hướng dẫn chuyển đổi C# đầy đủ](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) | Tìm hiểu cách lưu tài liệu PDF bằng Aspose trong C# với hướng dẫn chi tiết từng bước. |  
 | [Chuyển đổi docx sang pdf trong C# – Hướng dẫn chi tiết từng bước](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Tìm hiểu cách chuyển đổi tệp docx sang pdf bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết từng bước. |  
+| [Tạo HTML từ PDF trong C# – Hướng dẫn chi tiết từng bước](./create-html-from-pdf-in-c-complete-step-by-step-guide/) | Tìm hiểu cách tạo tệp HTML từ PDF bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết từng bước này. |
+| [Hướng dẫn chuyển đổi PDF bằng C# – Chuyển PDF sang PDF/X-4](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) | Tìm hiểu cách chuyển đổi tệp PDF sang định dạng PDF/X-4 bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. |
+| [Cách thiết lập ICC trong chuyển đổi Aspose PDF – Hướng dẫn đầy đủ](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | Tìm hiểu cách thiết lập ICC trong quá trình chuyển đổi PDF bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết này. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -64,6 +64,9 @@ Aspose.PDF를 이용해 PDF 서명을 검증하고, 지정된 위치에 사각�
 Aspose.PDF를 활용해 PDF를 HTML로 변환하고 서명을 검증하는 단계별 가이드.
 ### [Aspose.Pdf를 사용한 PDF 서명 검증 방법 – C# 가이드](./how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/)
 Aspose.Pdf를 사용하여 PDF 파일의 디지털 서명을 검증하는 방법을 단계별로 안내합니다.
+### [Aspose.Pdf를 사용한 PDF 서명 추출 – 완전 가이드](./extract-signatures-from-pdf-with-aspose-pdf-complete-guide/)
+Aspose.Pdf를 활용해 PDF 파일에서 디지털 서명을 추출하는 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 
 - [Net 문서용 Aspose.PDF](https://docs.aspose.com/pdf/net/)

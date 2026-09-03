@@ -22,6 +22,11 @@
 ### [.NET के लिए Aspose.PDF के साथ PDF में डिजिटल हस्ताक्षर: एक व्यापक गाइड](./digital-signature-aspose-pdf-net-tutorial/)
 ### [.NET के लिए Aspose.PDF का उपयोग करके कस्टम अपीयरेंस के साथ PDF पर डिजिटल हस्ताक्षर करें: एक चरण-दर-चरण मार्गदर्शिका](./digitally-sign-pdf-custom-appearance-aspose-pdf-net/)
 ### [Aspose.PDF के साथ PDF से डिजिटल हस्ताक्षर जानकारी निकालें](./extract-digital-signature-info-from-pdfs-aspose-pdf/)
+Aspose.PDF नेट के लिए एक कोड ट्यूटोरियल
+
+### [Aspose.PDF के साथ PDF से हस्ताक्षर निकालें – पूर्ण गाइड](./extract-signatures-from-pdf-with-aspose-pdf-complete-guide/)
+Aspose.PDF का उपयोग करके PDF फ़ाइलों से सभी डिजिटल हस्ताक्षर निकालने की पूरी प्रक्रिया सीखें।
+
 ### [.NET के लिए Aspose.PDF के साथ PDF हस्ताक्षर भाषा कैसे बदलें](./change-pdf-signature-language-aspose-net/)
 ### [.NET के लिए Aspose.PDF का उपयोग करके PDF हस्ताक्षर कैसे बनाएं और सत्यापित करें](./create-verify-pdf-signatures-aspose-net/)
 ### [Aspose.PDF .NET का उपयोग करके PDF हस्ताक्षर जानकारी कैसे निकालें: एक चरण-दर-चरण मार्गदर्शिका](./extract-pdf-signature-info-aspose-pdf-net/)

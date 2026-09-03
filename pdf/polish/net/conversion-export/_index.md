@@ -85,6 +85,8 @@ Dowiedz się, jak konwertować dokumenty PDF na wysokiej jakości obrazy PNG za 
 
 ### [Zapisz PDF jako PNG i konwertuj do PDF/X‑1a przy użyciu Aspose PDF](./save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf/)
 Dowiedz się, jak zapisać PDF jako PNG, a następnie przekształcić go do standardu PDF/X‑1a przy użyciu Aspose.PDF w .NET.
+### [Konwertuj PDF do PNG w C# – Kompletny przewodnik krok po kroku](./convert-pdf-to-png-in-c-complete-step-by-step-guide/)
+Dowiedz się, jak konwertować pliki PDF na obrazy PNG w C# przy użyciu Aspose.PDF, krok po kroku z praktycznymi przykładami.
 
 ### [Konwertuj PDF do PPTX za pomocą Aspose.PDF dla .NET: Przewodnik krok po kroku](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 Dowiedz się, jak skutecznie konwertować dokumenty PDF na prezentacje PowerPoint za pomocą Aspose.PDF dla .NET. Ten przewodnik krok po kroku obejmuje podstawową konwersję, zaawansowane funkcje, takie jak slajdy z obrazami, i śledzenie postępów.

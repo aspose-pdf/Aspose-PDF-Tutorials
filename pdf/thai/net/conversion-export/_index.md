@@ -85,6 +85,8 @@
 
 ### [บันทึก PDF เป็น PNG และแปลงเป็น PDF/X‑1a ด้วย Aspose PDF](./save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf/)
 เรียนรู้วิธีบันทึกไฟล์ PDF เป็นภาพ PNG แล้วแปลงเป็น PDF/X‑1a ด้วย Aspose PDF ใน .NET
+### [แปลง PDF เป็น PNG ด้วย C# – คู่มือขั้นตอนเต็ม](./convert-pdf-to-png-in-c-complete-step-by-step-guide/)
+เรียนรู้วิธีแปลงไฟล์ PDF เป็นรูปภาพ PNG อย่างละเอียดด้วย C# และ Aspose.PDF .NET ในขั้นตอนที่ชัดเจน
 
 ### [แปลง PDF เป็น PPTX ด้วย Aspose.PDF สำหรับ .NET: คำแนะนำทีละขั้นตอน](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 เรียนรู้วิธีการแปลงเอกสาร PDF เป็นงานนำเสนอ PowerPoint อย่างมีประสิทธิภาพโดยใช้ Aspose.PDF สำหรับ .NET คำแนะนำทีละขั้นตอนนี้ครอบคลุมถึงการแปลงพื้นฐาน คุณสมบัติขั้นสูง เช่น สไลด์รูปภาพ และการติดตามความคืบหน้า
@@ -167,10 +169,10 @@
 ### [วิธีแปลง HTML เป็น PDF ด้วย Aspose.PDF .NET: คู่มือฉบับสมบูรณ์](./convert-html-pdf-aspose-dotnet-guide/)
 เรียนรู้วิธีการแปลงเอกสาร HTML เป็น PDF ที่ดูเป็นมืออาชีพอย่างมีประสิทธิภาพโดยใช้ Aspose.PDF .NET ค้นพบเทคนิคในการจัดการทรัพยากรภายนอกและการแสดงเนื้อหาที่ซับซ้อน
 
-### [วิธีแปลงรูปภาพ CGM ขนาดใหญ่เป็น PDF โดยใช้ Aspose.PDF .NET: คู่มือฉบับสมบูรณ์](./convert-large-cgm-images-to-pdf-aspose-pdf-net/)
+### [วิธีการแปลงรูปภาพ CGM ขนาดใหญ่เป็น PDF โดยใช้ Aspose.PDF .NET: คู่มือฉบับสมบูรณ์](./convert-large-cgm-images-to-pdf-aspose-pdf-net/)
 เรียนรู้วิธีแปลงภาพ Computer Graphics Metafile (CGM) ขนาดใหญ่เป็น PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF .NET คู่มือนี้ครอบคลุมถึงการตั้งค่า การใช้งาน และแนวทางปฏิบัติที่ดีที่สุด
 
-### [วิธีแปลงไฟล์ MHT เป็น PDF โดยใช้ Aspose.PDF สำหรับ .NET - คำแนะนำทีละขั้นตอน](./convert-mht-files-to-pdf-aspose-dotnet/)
+### [วิธีการแปลงไฟล์ MHT เป็น PDF โดยใช้ Aspose.PDF สำหรับ .NET - คำแนะนำทีละขั้นตอน](./convert-mht-files-to-pdf-aspose-dotnet/)
 เรียนรู้วิธีการแปลงไฟล์ MHT เป็น PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ .NET คู่มือนี้ครอบคลุมถึงการตั้งค่า ขั้นตอนการแปลง และแนวทางปฏิบัติที่ดีที่สุด
 
 ### [วิธีการแปลงไฟล์ภาพ TIFF หลายไฟล์เป็นไฟล์ PDF ไฟล์เดียวโดยใช้ Aspose.PDF สำหรับ .NET: คู่มือฉบับสมบูรณ์](./convert-tiff-to-pdf-aspose-dotnet-guide/)

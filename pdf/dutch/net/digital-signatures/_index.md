@@ -65,6 +65,9 @@ Leer hoe u PDF-bestanden exporteert naar HTML en de digitale handtekening contro
 Leer hoe u digitale handtekeningen in PDF's kunt verifiëren met Aspose.Pdf in C#.
 ### [PDF-handtekening tutorial – PDF-handtekeningen verifiëren in C# met Aspose.Pdf](./pdf-signature-tutorial-verify-pdf-signatures-in-c-with-aspos/)
 
+### [Handtekeningen uit PDF extraheren met Aspose.Pdf – Complete gids](./extract-signatures-from-pdf-with-aspose-pdf-complete-guide/)
+Leer hoe u alle handtekeningen uit een PDF-document kunt halen met Aspose.Pdf in een stapsgewijze handleiding.
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

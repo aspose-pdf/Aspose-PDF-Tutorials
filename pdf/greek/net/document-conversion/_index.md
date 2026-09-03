@@ -37,6 +37,8 @@
 | [PDF σε EPUB](./pdf-to-epub/) | Μάθετε πώς να μετατρέψετε PDF σε EPUB χρησιμοποιώντας το Aspose.PDF για .NET σε αυτό το βήμα προς βήμα σεμινάριο. Ιδανικό για προγραμματιστές και δημιουργούς περιεχομένου. |  
 | [PDF σε HTML](./pdf-to-html/) | Μάθετε πώς να μετατρέπετε PDF σε HTML χρησιμοποιώντας το Aspose.PDF για .NET με αυτόν τον οδηγό βήμα προς βήμα. Ιδανικό για προγραμματιστές και δημιουργούς περιεχομένου. |  
 | [PDF σε PDFA](./pdf-to-pdfa/) Μάθετε πώς να μετατρέψετε αρχεία PDF σε μορφή PDF/A χρησιμοποιώντας το Aspose.PDF για .NET με αυτό το βήμα προς βήμα εκπαιδευτικό βίντεο. |  
+| [Δημιουργία HTML από PDF σε C# – Πλήρης Οδηγός Βήμα προς Βήμα](./create-html-from-pdf-in-c-complete-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε HTML από PDF χρησιμοποιώντας C# με αυτόν τον πλήρη οδηγό βήμα προς βήμα. |
+| [c# pdf tutorial μετατροπής – μετατροπή pdf σε pdf/x-4](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) | Μάθετε πώς να μετατρέπετε PDF σε PDF/X-4 χρησιμοποιώντας το Aspose.PDF για .NET. |
 | [PDF σε PDFA3b](./pdf-to-pdfa3b/) | Μάθετε να μετατρέπετε αρχεία PDF σε μορφή PDF/A-3B χωρίς κόπο με το Aspose.PDF για .NET σε αυτόν τον οδηγό βήμα προς βήμα. |  
 | [Υπόδειξη γραμματοσειράς PDF σε PNG](./pdf-to-png-font-hinting/) | Μάθετε να μετατρέπετε PDF σε PNG με υπόδειξη γραμματοσειράς χρησιμοποιώντας το Aspose.PDF για .NET σε έναν εύκολο οδηγό βήμα προς βήμα. |
 | [PDF σε PNG](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Μάθετε πώς να μετατρέψετε σελίδες PDF σε PNG χρησιμοποιώντας το Aspose.PDF για .NET σε C# με οδηγίες βήμα‑βήμα. |
@@ -69,6 +71,7 @@
 | [Μετατροπή docx σε pdf σε C# – Πλήρης Οδηγός Βήμα‑βήμα](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Μάθετε πώς να μετατρέψετε αρχεία DOCX σε PDF χρησιμοποιώντας C# και Aspose.PDF για .NET σε αυτόν τον πλήρη οδηγό βήμα‑βήμα. |
 | [Προσθήκη αριθμού Bates σε DOCX και μετατροπή σε PDF – Πλήρης οδηγός C#](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | Μάθετε πώς να προσθέσετε αριθμό Bates σε έγγραφα DOCX και να τα μετατρέψετε σε PDF χρησιμοποιώντας C# με το Aspose.PDF για .NET. |
 | [Αποθήκευση εγγράφου PDF – Πώς να προσθέσετε έλλειψη & να μετατρέψετε DOCX σε PDF](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | Μάθετε πώς να αποθηκεύσετε ένα PDF, να προσθέσετε έλλειψη και να μετατρέψετε DOCX σε PDF χρησιμοποιώντας Aspose.PDF για .NET. |
+| [Πώς να ορίσετε ICC στη μετατροπή Aspose PDF – Πλήρης Οδηγός](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | Μάθετε πώς να ορίσετε το προφίλ χρωμάτων ICC κατά τη μετατροπή PDF με το Aspose.PDF για .NET σε αυτόν τον πλήρη οδηγό. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

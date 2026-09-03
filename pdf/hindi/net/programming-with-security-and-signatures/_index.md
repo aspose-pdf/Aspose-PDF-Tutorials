@@ -46,6 +46,7 @@
 | [PDF सिग्नेचर हैंडलर बनाएं – C# में हस्ताक्षर सूचीबद्ध करें](./create-pdf-signature-handler-list-signatures-in-c/) | C# में Aspose.PDF का उपयोग करके PDF हस्ताक्षर हैंडलर बनाकर सभी हस्ताक्षरों की सूची कैसे प्राप्त करें, सीखें। |
 | [C# में PDF हस्ताक्षर सत्यापित करें – चरण‑दर‑चरण गाइड](./validate-pdf-signature-in-c-step-by-step-guide/) | C# और Aspose.PDF का उपयोग करके PDF डिजिटल हस्ताक्षर को सत्यापित करने की पूरी चरण‑दर‑चरण मार्गदर्शिका। |
 | [PDF दस्तावेज़ लोड करें C# – हस्ताक्षरों को पढ़ने और सूचीबद्ध करने की पूर्ण गाइड](./load-pdf-document-c-complete-guide-to-reading-and-listing-si/) | .NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ लोड करना, हस्ताक्षर पढ़ना और सूचीबद्ध करना सीखें। |  
+| [C# में साइन किया गया PDF बनाएं – चरण-दर-चरण गाइड](./create-signed-pdf-in-c-step-by-step-guide/) | .NET के लिए Aspose.PDF का उपयोग करके C# में साइन किया गया PDF बनाने की प्रक्रिया सीखें। |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

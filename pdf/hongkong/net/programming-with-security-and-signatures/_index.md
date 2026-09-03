@@ -46,6 +46,7 @@
 | [在 C# 中建立 PDF 簽章處理程式 – 列出簽章](./create-pdf-signature-handler-list-signatures-in-c/) |了解如何使用 Aspose.PDF for .NET 在 C# 中建立簽章處理程式，並列出 PDF 中的所有簽章。 |  
 | [在 C# 中驗證 PDF 簽章 – 步驟說明指南](./validate-pdf-signature-in-c-step-by-step-guide/) |透過本逐步指南學習如何在 C# 中驗證 PDF 簽章，確保文件安全與真實性。 |  
 | [載入 PDF 文件 C# – 閱讀與列出簽章的完整指南](./load-pdf-document-c-complete-guide-to-reading-and-listing-si/) |了解如何使用 Aspose.PDF for .NET 在 C# 中載入 PDF，讀取並列出所有簽章資訊的完整步驟。 |  
+| [在 C# 中建立簽名 PDF – 步驟說明指南](./create-signed-pdf-in-c-step-by-step-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中建立簽署的 PDF 文件，提供完整的步驟說明與範例。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
