@@ -44,6 +44,9 @@ Learn how to create visually appealing PDF documents by extracting and highlight
 ### [Draw Transparent Shapes in PDFs with Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 A code tutorial for Aspose.PDF Net
 
+### [How to add graphics state pdf and control transparency with Aspose.PDF](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
+Learn how to use graphics state to control transparency in PDFs with Aspose.PDF for .NET.
+
 ### [Efficient PDF Image Identification with Aspose.PDF for .NET](./master-image-identification-aspose-pdf-net/)
 Learn how to identify grayscale and RGB images in PDFs using Aspose.PDF for .NET. This tutorial covers installation, image extraction, and performance tips.
 

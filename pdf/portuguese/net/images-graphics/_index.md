@@ -84,13 +84,16 @@ Aprenda a adicionar imagens aos seus PDFs com facilidade usando o Aspose.PDF par
 Aprenda como adicionar cabeçalhos de imagem aos seus documentos PDF usando o Aspose.PDF para .NET com este guia passo a passo abrangente.
 
 ### [Como adicionar um carimbo de imagem aos cabeçalhos de PDF usando Aspose.PDF para .NET](./add-image-stamp-pdf-header-aspose-pdf/)
-Aprenda a adicionar carimbos de imagem aos seus cabeçalhos de PDF com o Aspose.PDF para .NET, aprimorando a marca e o profissionalismo.
+Aprenda a adicionar carimbos de imagem aos cabeçalhos de PDF com o Aspose.PDF para .NET, aprimorando a marca e o profissionalismo.
 
 ### [Como adicionar um carimbo de imagem a páginas PDF usando Aspose.PDF para .NET](./add-image-stamp-pdf-pages-aspose-dotnet/)
 Aprenda a adicionar carimbos de imagem a páginas específicas dos seus PDFs usando o Aspose.PDF para .NET. Aprimore a identidade visual, a aplicação de marcas d'água ou personalize documentos com eficiência.
 
 ### [Como adicionar um carimbo de imagem a um PDF usando Aspose.PDF para .NET: um guia completo](./add-image-stamp-pdf-aspose-dotnet/)
 Aprenda a adicionar carimbos de imagem, como logotipos ou marcas d'água, aos seus PDFs usando o Aspose.PDF para .NET. Este guia aborda configuração, implementação e aplicações práticas.
+
+### [Como adicionar estado gráfico ao PDF e controlar transparência com Aspose.PDF](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
+Aprenda a usar o estado gráfico para aplicar transparência avançada em PDFs com Aspose.PDF para .NET.
 
 ### [Como converter páginas PDF em imagens PNG usando Aspose.PDF para .NET](./convert-pdf-page-to-png-aspose-dotnet/)
 Aprenda a converter páginas PDF em imagens PNG de alta qualidade usando o Aspose.PDF para .NET. Siga este guia passo a passo com exemplos de código e práticas recomendadas.

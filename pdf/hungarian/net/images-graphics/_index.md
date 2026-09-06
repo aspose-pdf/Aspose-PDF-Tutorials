@@ -146,7 +146,7 @@ Ismerje meg, hogyan távolíthat el hatékonyan grafikákat PDF-ekből az Aspose
 ### [Képek cseréje PDF-ekben az Aspose.PDF .NET használatával: Fejlesztői útmutató](./replace-images-pdf-aspose-net-guide/)
 Ismerje meg, hogyan cserélheti le hatékonyan a képeket a PDF dokumentumokban az Aspose.PDF for .NET segítségével. Egyszerűsítse dokumentumfrissítéseit ezzel az átfogó fejlesztői útmutatóval.
 
-### [Képek cseréje PDF-ekben az Aspose.PDF for .NET használatával: Teljes körű útmutató](./replace-images-aspose-pdf-net-tutorial/)
+### [Képek cseréje PDF-ekben az Aspose.PDF .NET használatával: Teljes körű útmutató](./replace-images-aspose-pdf-net-tutorial/)
 Ismerje meg, hogyan cserélhet hatékonyan képeket PDF dokumentumokban az Aspose.PDF for .NET segítségével. Ez az átfogó útmutató a beállítást, a megvalósítást és a gyakorlati alkalmazásokat ismerteti.
 
 ### [Képméret beállítása PDF-ben az Aspose.PDF for .NET használatával](./set-image-size-pdf-aspose-dotnet/)
@@ -163,6 +163,9 @@ Ismerje meg, hogyan renderelhet összetett LaTeX szkripteket PDF dokumentumokká
 
 ### [Képhátterek beállítása PDF-ekben az Aspose.PDF for .NET használatával: Átfogó útmutató](./aspose-pdf-net-set-image-backgrounds/)
 Ismerje meg, hogyan javíthatja PDF-dokumentumait képhátterek beállításával az Aspose.PDF for .NET segítségével. Ez az útmutató a beállítással, a megvalósítással és az optimalizálással kapcsolatos tippeket tartalmazza.
+
+### [Hogyan adjon hozzá grafikai állapotot PDF-hez és vezérelje az átlátszóságot az Aspose.PDF segítségével](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
+Ismerje meg, hogyan állíthat be grafikai állapotot és szabályozhatja az átlátszóságot PDF dokumentumokban az Aspose.PDF for .NET segítségével.
 
 ## További források
 

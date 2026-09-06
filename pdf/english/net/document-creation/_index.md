@@ -83,6 +83,9 @@ Learn how to generate PDF documents using Aspose.PDF for .NET with a detailed st
 Learn how to create PDF documents using Aspose in C# with a detailed step‑by‑step guide.
 ### [Create PDF Document C# – Add Blank Page & Draw Rectangle](./create-pdf-document-c-add-blank-page-draw-rectangle/)
 Learn how to add a blank page and draw a rectangle in a PDF using C# with Aspose.PDF for .NET.
+
+### [How to create PDF document with a blank page and rectangle](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
+
 ## Additional Resources
 
 - [Aspose.PDF for Net Documentation](https://docs.aspose.com/pdf/net/)

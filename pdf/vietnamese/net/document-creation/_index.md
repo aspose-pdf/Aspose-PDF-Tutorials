@@ -73,6 +73,9 @@ Hướng dẫn chi tiết cách tạo tài liệu PDF bằng Aspose.PDF trong .N
 Hướng dẫn chi tiết cách tạo tài liệu PDF bằng Aspose trong C#, bao gồm các bước thiết lập và ví dụ mã thực tế.
 ### [Tạo tài liệu PDF C# – Thêm trang trắng & Vẽ hình chữ nhật](./create-pdf-document-c-add-blank-page-draw-rectangle/)
 Hướng dẫn cách tạo PDF, thêm trang trắng và vẽ hình chữ nhật bằng Aspose.PDF cho .NET trong C#.
+### [Cách tạo tài liệu PDF với trang trắng và hình chữ nhật](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
+Hướng dẫn cách tạo tài liệu PDF với trang trắng và hình chữ nhật bằng Aspose.PDF cho .NET.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)

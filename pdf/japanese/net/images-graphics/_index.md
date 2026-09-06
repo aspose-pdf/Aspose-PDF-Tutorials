@@ -104,6 +104,9 @@ Aspose.PDF for .NET を使用して、画像が埋め込まれたアクセシブ
 ### [Aspose.PDF for .NET を使用して PDF に透明な四角形を作成する方法](./create-transparent-rectangles-aspose-pdf-dotnet/)
 Aspose.PDF for .NET を使って、アルファ透過の四角形を作成し、PDF ドキュメントの魅力を高める方法を学びましょう。このステップバイステップのガイドに従ってください。
 
+### [Aspose.PDF を使用してグラフィックスステートを追加し、透明度を制御する方法](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
+Aspose.PDF for .NET でグラフィックスステートを設定し、透明度やブレンドモードを制御する手順を学びます。
+
 ### [Aspose.PDF for .NET を使用して PDF ファイルから画像を削除する方法 - 完全ガイド](./delete-images-aspose-pdf-net/)
 Aspose.PDF for .NET を使用して、PDF ファイルから画像を効率的に削除する方法を学びましょう。このガイドでは、セットアップ、コード例、ベストプラクティスについて説明します。
 

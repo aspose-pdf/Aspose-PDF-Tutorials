@@ -164,6 +164,9 @@ Aspose.PDF for .NET kullanarak PDF belgelerindeki görüntüleri nasıl sıkış
 ### [.NET için Aspose.PDF Kullanarak PDF'lerde Görüntü Arka Planları Ayarlama: Kapsamlı Bir Kılavuz](./aspose-pdf-net-set-image-backgrounds/)
 Aspose.PDF for .NET kullanarak görüntü arka planları ayarlayarak PDF belgelerinizi nasıl geliştireceğinizi öğrenin. Bu kılavuz kurulum, uygulama ve optimizasyon ipuçlarını kapsar.
 
+### [.NET için Aspose.PDF ile Grafik Durumunu PDF'ye Ekleyin ve Şeffaflığı Kontrol Edin](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
+Aspose.PDF ile grafik durumunu ekleyerek PDF'de şeffaflık kontrolünü nasıl sağlayacağınızı öğrenin.
+
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)

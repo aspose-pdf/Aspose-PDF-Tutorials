@@ -104,6 +104,9 @@ Lär dig hur du skapar tillgängliga taggade PDF-filer inbäddade med bilder med
 ### [Hur man skapar transparenta rektanglar i PDF-filer med Aspose.PDF för .NET](./create-transparent-rectangles-aspose-pdf-dotnet/)
 Lär dig hur du förbättrar dina PDF-dokument genom att skapa rektanglar med alfatransparens med Aspose.PDF för .NET. Följ den här steg-för-steg-guiden.
 
+### [Hur man lägger till grafikstatus i PDF och kontrollerar transparens med Aspose.PDF](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
+Lär dig hur du använder grafikstatus för att hantera transparens i PDF-dokument med Aspose.PDF för .NET.
+
 ### [Hur man tar bort bilder från PDF-filer med Aspose.PDF för .NET - Komplett guide](./delete-images-aspose-pdf-net/)
 Lär dig hur du effektivt tar bort bilder från PDF-filer med Aspose.PDF för .NET. Den här guiden beskriver installation, kodexempel och bästa praxis.
 
@@ -126,7 +129,7 @@ Lär dig hur du effektivt extraherar bilder från PDF-filer med Aspose.PDF .NET 
 Lär dig hur du enkelt extraherar bilder från PDF-dokument med Aspose.PDF för .NET med den här omfattande utvecklarguiden. Förbättra ditt dokumenthanteringsarbetsflöde idag.
 
 ### [Hur man extraherar bilder från PDF-filer med Aspose.PDF för .NET: En steg-för-steg-guide](./extract-images-aspose-pdf-dot-net-guide/)
-Lär dig hur du effektivt extraherar bilder från PDF-filer med Aspose.PDF för .NET med den här omfattande guiden, med kodexempel och bästa praxis.
+Lär dig hur du effektivt extraherar bilder från PDF-filer med Aspose.PDF för .NET med den här omfattande guiden. Med kodexempel och bästa praxis.
 
 ### [Hur man extraherar bilder från PDF-filer med Aspose.PDF för .NET: En steg-för-steg-guide](./extract-images-aspose-pdf-net-guide/)
 Lär dig hur du extraherar bilder från PDF-dokument med Aspose.PDF för .NET med den här omfattande guiden. Perfekt för utvecklare som vill förbättra dokumentbehandlingsfunktionerna.

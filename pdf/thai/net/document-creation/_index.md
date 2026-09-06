@@ -84,6 +84,9 @@
 ### [สร้างเอกสาร PDF ด้วย C# – เพิ่มหน้าว่างและวาดสี่เหลี่ยม](./create-pdf-document-c-add-blank-page-draw-rectangle/)
 เรียนรู้วิธีเพิ่มหน้าว่างและวาดสี่เหลี่ยมในเอกสาร PDF ด้วย Aspose.PDF สำหรับ .NET
 
+### [วิธีสร้างเอกสาร PDF ด้วยหน้าเปล่าและสี่เหลี่ยม](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
+เรียนรู้วิธีสร้างเอกสาร PDF พร้อมหน้าเปล่าและวาดสี่เหลี่ยมโดยใช้ Aspose.PDF สำหรับ .NET
+
 ### [สร้างเอกสาร PDF ด้วย C# – เพิ่มหน้า, วาดสี่เหลี่ยมและบันทึก](./create-pdf-document-c-add-page-draw-rectangle-save/)
 เรียนรู้วิธีสร้าง PDF ด้วย C# เพิ่มหน้า วาดสี่เหลี่ยมและบันทึกไฟล์โดยใช้ Aspose.PDF สำหรับ .NET
 
