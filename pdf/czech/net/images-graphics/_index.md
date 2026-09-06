@@ -81,7 +81,7 @@ Naučte se, jak bez problémů přidávat obrázky do PDF dokumentů pomocí Asp
 Naučte se, jak bez problémů přidávat obrázky do PDF souborů pomocí Aspose.PDF pro .NET. Tato příručka se zabývá přidáváním obrázků do existujících PDF souborů a vytvářením nových ze souborů DICOM.
 
 ### [Jak přidat záhlaví obrázku do PDF pomocí Aspose.PDF pro .NET: Podrobný návod](./add-image-header-pdf-aspose-dotnet/)
-Naučte se, jak přidat záhlaví obrázků do dokumentů PDF pomocí Aspose.PDF pro .NET s tímto komplexním podrobným návodem.
+Naučte se, jak přidat záhlaví obrázků do PDF dokumentů pomocí Aspose.PDF pro .NET s tímto komplexním podrobným návodem.
 
 ### [Jak přidat obrazové razítko do záhlaví PDF pomocí Aspose.PDF pro .NET](./add-image-stamp-pdf-header-aspose-pdf/)
 Naučte se, jak přidávat obrázková razítka do záhlaví PDF pomocí Aspose.PDF pro .NET, a jak tak vylepšit značku a profesionalitu.
@@ -153,7 +153,7 @@ Naučte se, jak efektivně nahrazovat obrázky v PDF dokumentech pomocí Aspose.
 Naučte se, jak upravit velikost obrázků v PDF pomocí nástroje Aspose.PDF pro .NET, který je ideální pro vytváření profesionálních dokumentů a prezentací.
 
 ### [Zvládnutí umístění obrázků v PDF pomocí Aspose.PDF pro .NET](./optimize-image-placement-aspose-pdf-net/)
-Naučte se optimalizovat umístění obrázků v PDF dokumentech pomocí Aspose.PDF pro .NET. Zlepšete kvalitu a efektivitu dokumentů pomocí praktických návodů.
+Naučte se, jak optimalizovat umístění obrázků v PDF dokumentech pomocí Aspose.PDF pro .NET. Zlepšete kvalitu a efektivitu dokumentů pomocí praktických návodů.
 
 ### [Optimalizace obrázků PDF pomocí Aspose.PDF pro .NET: Komplexní průvodce](./optimize-pdf-images-aspose-pdf-dotnet/)
 Naučte se, jak komprimovat a optimalizovat obrázky v PDF dokumentech pomocí Aspose.PDF pro .NET, zmenšit velikost souboru a zároveň zachovat kvalitu. Ideální pro vývojáře a správce dokumentů.
@@ -163,6 +163,9 @@ Naučte se, jak vykreslit složité LaTeX skripty do PDF dokumentů pomocí Aspo
 
 ### [Nastavení pozadí obrázků v PDF pomocí Aspose.PDF pro .NET: Komplexní průvodce](./aspose-pdf-net-set-image-backgrounds/)
 Naučte se, jak vylepšit své PDF dokumenty nastavením pozadí obrázků pomocí Aspose.PDF pro .NET. Tato příručka obsahuje tipy pro nastavení, implementaci a optimalizaci.
+
+### [Jak přidat grafický stav PDF a řídit průhlednost pomocí Aspose.PDF](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
+Naučte se, jak nastavit stav grafiky a ovládat průhlednost v PDF pomocí Aspose.PDF.
 
 ## Další zdroje
 

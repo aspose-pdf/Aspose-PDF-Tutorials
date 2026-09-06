@@ -44,6 +44,9 @@
 ### [วาดรูปทรงโปร่งใสใน PDF ด้วย Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.PDF Net
 
+### [วิธีเพิ่มกราฟิกสเตตใน PDF และควบคุมความโปร่งใสด้วย Aspose.PDF](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
+เรียนรู้วิธีใช้กราฟิกสเตตใน PDF และจัดการความโปร่งใสด้วย Aspose.PDF สำหรับ .NET
+
 ### [การระบุรูปภาพ PDF ที่มีประสิทธิภาพด้วย Aspose.PDF สำหรับ .NET](./master-image-identification-aspose-pdf-net/)
 เรียนรู้วิธีระบุภาพโทนสีเทาและ RGB ใน PDF โดยใช้ Aspose.PDF สำหรับ .NET บทช่วยสอนนี้ครอบคลุมถึงการติดตั้ง การแยกภาพ และเคล็ดลับด้านประสิทธิภาพ
 

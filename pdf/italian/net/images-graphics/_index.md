@@ -83,6 +83,9 @@ Scopri come aggiungere immagini ai tuoi PDF in modo semplice utilizzando Aspose.
 ### [Come aggiungere un'intestazione immagine ai PDF utilizzando Aspose.PDF per .NET: una guida passo passo](./add-image-header-pdf-aspose-dotnet/)
 Scopri come aggiungere intestazioni di immagini ai tuoi documenti PDF utilizzando Aspose.PDF per .NET con questa guida completa passo dopo passo.
 
+### [Come aggiungere lo stato grafico PDF e controllare la trasparenza con Aspose.PDF](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
+Scopri come gestire lo stato grafico e impostare la trasparenza nei PDF usando Aspose.PDF per .NET.
+
 ### [Come aggiungere un timbro immagine alle intestazioni PDF utilizzando Aspose.PDF per .NET](./add-image-stamp-pdf-header-aspose-pdf/)
 Scopri come aggiungere timbri immagine alle intestazioni dei tuoi PDF con Aspose.PDF per .NET, migliorando il branding e la professionalità.
 
