@@ -1,99 +1,149 @@
 ---
-date: '2026-04-05'
-description: Dowiedz się, jak osadzać obrazy PNG podczas konwertowania PDF na HTML
-  w Javie przy użyciu Aspose.PDF. Ten przewodnik krok po kroku obejmuje konwersję
-  PDF do HTML i zapewnia wysokiej jakości wizualizacje.
+date: '2026-09-07'
+description: Dowiedz się, jak osadzić obrazy PNG podczas konwertowania PDF do HTML
+  przy użyciu Aspose.PDF for Java. Ten przewodnik obejmuje setup, opcje PNG rasterization
+  oraz performance tips dla high‑quality web output.
 keywords:
 - how to embed png
-- convert pdf to html
-- pdf to html java
+- pdf to html conversion
+- java pdf to html
+- extract images pdf
+- high quality pdf images
+lastmod: '2026-09-07'
+og_description: Dowiedz się, jak osadzić obrazy PNG podczas konwertowania PDF do HTML
+  przy użyciu Aspose.PDF for Java. Ten przewodnik obejmuje setup, opcje PNG rasterization
+  oraz performance tips dla high‑quality web output.
+og_image_alt: Guide showing PNG image embedding during PDF to HTML conversion using
+  Aspose.PDF for Java
+og_title: Jak osadzić obrazy PNG w HTML z PDF przy użyciu Aspose.PDF for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-09-07'
+  description: Learn how to embed PNG images when converting PDF to HTML using Aspose.PDF
+    for Java. This guide covers setup, PNG rasterization options, and performance
+    tips for high‑quality web output.
+  headline: How to embed PNG images in HTML from PDF with Aspose.PDF Java
+  type: TechArticle
+- description: Learn how to embed PNG images when converting PDF to HTML using Aspose.PDF
+    for Java. This guide covers setup, PNG rasterization options, and performance
+    tips for high‑quality web output.
+  name: How to embed PNG images in HTML from PDF with Aspose.PDF Java
+  steps:
+  - name: open the source PDF document
+    text: The `Document` class represents a PDF file loaded into memory. Make sure
+      the `dataDir` points to the actual location of your PDF.
+  - name: configure HTML save options for PNG rasterization
+    text: The `HtmlSaveOptions` class defines how a PDF is saved as HTML, including
+      image handling. The `setFixedLayout(true)` flag keeps the HTML page layout identical
+      to the PDF, while the raster‑image mode ensures PNG embedding.
+  - name: save the converted HTML file
+    text: The `save` method writes the HTML output to a file on disk. The resulting
+      HTML file contains PNG images embedded directly in the page source.
+  type: HowTo
+- questions:
+  - answer: Yes. Iterate over a collection of PDF file paths and apply the same conversion
+      logic for each document.
+    question: Can I convert multiple PDFs to HTML at once?
+  - answer: Double‑check that `setFixedLayout(true)` is enabled; it preserves the
+      original PDF layout.
+    question: What if the converted HTML doesn’t look right?
+  - answer: Use `Document.optimizeResources()` and consider splitting the PDF into
+      smaller chunks before conversion.
+    question: How do I handle very large documents efficiently?
+  - answer: Absolutely. After conversion you can modify the HTML with standard web
+      tools or libraries.
+    question: Can I further edit the generated HTML?
+  - answer: Yes – Aspose provides online conversion tools for quick, code‑free testing.
+    question: Is there a way to try Aspose.PDF without writing code?
+  type: FAQPage
+tags:
+- embed png
+- pdf to html
 - aspose pdf java
-- batch convert pdf html
-title: Jak osadzić obrazy PNG w HTML z PDF przy użyciu Aspose.PDF Java
+- java conversion
+- html images
+title: Jak osadzić obrazy PNG w HTML z PDF przy użyciu Aspose.PDF for Java
 url: /pl/java/conversion-export/convert-pdf-to-html-with-png-images-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Jak osadzić obrazy PNG w HTML z PDF Aspose.PDF Java
+
+# Jak osadzić obrazy PNG w HTML z PDF przy użyciu Aspose.PDF Java
 
 ### Wprowadzenie
 
-Konwersja dokumentów PDF do HTML może prowadzić do problemów z jakością obrazów, jeśli nie zostanie przeprowadzona prawidłowo. W tym samouczku dowiesz się **jak osadzić obrazy PNG** podczas konwersji PDF do HTML przy użyciu Aspose.PDF dla Javy, zapewniając wysoką jakość wizualną i szeroką kompatybilność przeglądarek.
+Osadzanie obrazów PNG podczas konwertowania PDF do HTML zapewnia, że wizualna wierność Twoich dokumentów pozostaje nienaruszona we wszystkich przeglądarkach. W tym samouczku dowiesz się **jak osadzić PNG** przy użyciu Aspose.PDF dla Javy, od konfiguracji środowiska po precyzyjne dostosowanie opcji zapisu HTML dla wysokiej jakości wyniku.
 
-W tym przewodniku dowiesz się:
+W tym przewodniku nauczysz się:
 - Jak skonfigurować środowisko z Aspose.PDF dla Javy  
-- Kroki konfiguracji **konwersji PDF do HTML** z rasteryzacją PNG  
+- Kroki konfigurowania **konwersji PDF do HTML** z rasteryzacją PNG  
 - Kluczowe funkcje opcji zapisu HTML w Aspose.PDF  
 - Praktyczne zastosowania, wskazówki dotyczące wydajności i typowe pułapki  
 
-Poznajmy, jak łatwo przekształcić swoje pliki PDF!
+Poznajmy, jak bez wysiłku przekształcać swoje PDF-y!
 
 ## Szybkie odpowiedzi
-- **Co oznacza „osadzenie PNG”?** Przechowuje dane obrazu PNG bezpośrednio w wygenerowanym pliku HTML.  
-- **Jakiej biblioteki potrzebujesz?** Aspose.PDF dla Javy (zalecana najnowsza wersja).  
-- **Czy potrzebna jest licencja?** Bezpłatna wersja próbna działa do testów; licencja komercyjna jest wymagana w środowisku produkcyjnym.  
-- **Czy mogę konwertować wiele plików PDF jednocześnie?** Tak – po prostu iteruj po plikach i używaj tego samego kodu konwersji.  
-- **Czy wynik jest responsywny?** Opcja stałego układu zachowuje oryginalny wygląd; później możesz dodać CSS, aby uzyskać responsywność.
+- **Co oznacza „osadzenie PNG”?** Przechowuje dane obrazu PNG bezpośrednio wewnątrz wygenerowanego pliku HTML.  
+- **Jakiej biblioteki wymaga?** Aspose.PDF dla Javy (zalecana najnowsza wersja).  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna działa do testów; licencja komercyjna jest wymagana w produkcji.  
+- **Czy mogę konwertować wiele PDF‑ów jednocześnie?** Tak – po prostu iteruj po plikach i użyj tego samego kodu konwersji.  
+- **Czy wynik jest responsywny?** Opcja stałego układu zachowuje oryginalny wygląd; później możesz zastosować CSS, aby uzyskać responsywność.
 
-### Wymagania wstępne
+### Prerequisites
 
 Przed rozpoczęciem upewnij się, że masz:
-- **Java Development Kit (JDK)**: Java 8 lub nowsza.  
+- **Java Development Kit (JDK)**: Java 8 lub nowszą.  
 - **Maven lub Gradle**: Do zarządzania zależnościami.  
 - **Aspose.PDF dla Javy**: Wersja 25.3 lub nowsza (lub najnowsze wydanie).  
-- Podstawowa znajomość programowania w Javie oraz konfiguracji XML.
+- Podstawową znajomość programowania w Javie i konfiguracji XML.
 
 ### Konfiguracja Aspose.PDF dla Javy
 
 Dodaj bibliotekę jako zależność w swoim projekcie.
 
-**Maven**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-pdf</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle**
+**Gradle**  
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
-```
+```  
 
 #### Uzyskanie licencji
 
-Możesz rozpocząć od wersji próbnej lub uzyskać tymczasową licencję ewaluacyjną. Do użytku produkcyjnego należy zakupić pełną licencję.
+Możesz rozpocząć od darmowej wersji próbnej lub uzyskać tymczasową licencję ewaluacyjną. Do użytku produkcyjnego zakup pełną licencję.
 
-- **Bezpłatna wersja próbna**: [Aspose PDF Bezpłatne pobranie](https://releases.aspose.com/pdf/java/)  
-- **Licencja tymczasowa**: [Uzyskaj licencję tymczasową](https://purchase.aspose.com/temporary-license/)
+- **Darmowa wersja próbna**: [Aspose PDF Free Download](https://releases.aspose.com/pdf/java/)  
+- **Tymczasowa licencja**: [Get Temporary License](https://purchase.aspose.com/temporary-license/)
 
 ### Przewodnik implementacji
 
-Po przygotowaniu środowiska, wykonaj następujące kroki, aby **konwertować PDF do HTML** z osadzaniem obrazów PNG.
+Po przygotowaniu środowiska, wykonaj te kroki, aby **konwertować PDF do HTML** przy jednoczesnym osadzaniu obrazów PNG.
 
-#### Krok 1: Otwórz źródłowy dokument PDF
+#### Krok 1: otwórz źródłowy dokument PDF
 
-Załaduj plik PDF do pamięci przy użyciu Aspose.PDF:
-
+Klasa `Document` reprezentuje plik PDF załadowany do pamięci.  
 ```java
 import com.aspose.pdf.Document;
 
 String dataDir = "YOUR_DOCUMENT_DIRECTORY/input.pdf";
 Document pdfDocument = new Document(dataDir);
-```
+```  
 
-Upewnij się, że `dataDir` wskazuje rzeczywistą lokalizację Twojego pliku PDF.
+Upewnij się, że `dataDir` wskazuje rzeczywistą lokalizację Twojego PDF-a.
 
-#### Krok 2: Skonfiguruj opcje zapisu HTML dla rasteryzacji PNG
+#### Krok 2: skonfiguruj opcje zapisu HTML dla rasteryzacji PNG
 
-Ustaw opcje konwersji, aby obrazy były zapisywane jako osadzone części PNG:
-
+Klasa `HtmlSaveOptions` definiuje, jak PDF jest zapisywany jako HTML, w tym obsługę obrazów.  
 ```java
 import com.aspose.pdf.HtmlSaveOptions;
 
@@ -103,89 +153,97 @@ saveOptions.setFixedLayout(true);
 // Embed images as PNG instead of SVG
 saveOptions.setRasterImagesSavingMode(
     HtmlSaveOptions.RasterImagesSavingModes.AsEmbeddedPartsOfPngPageBackground);
-```
+```  
 
 Flaga `setFixedLayout(true)` utrzymuje układ strony HTML identyczny z PDF, a tryb obrazu rastrowego zapewnia osadzanie PNG.
 
-#### Krok 3: Zapisz przekonwertowany plik HTML
+#### Krok 3: zapisz przekonwertowany plik HTML
 
-Zapisz wyjście HTML na dysku:
-
+Metoda `save` zapisuje wynikowy HTML do pliku na dysku.  
 ```java
 String outputDir = "YOUR_OUTPUT_DIRECTORY/converted_file.html";
 pdfDocument.save(outputDir, saveOptions);
-```
+```  
 
-Wynikowy plik HTML zawiera obrazy PNG osadzone bezpośrednio w źródle strony.
+Powstały plik HTML zawiera obrazy PNG osadzone bezpośrednio w źródle strony.
 
-### Dlaczego warto używać tego podejścia? (Jak konwertować PDF do HTML z wysokiej jakości obrazami)
+## Dlaczego warto używać tego podejścia? (Jak konwertować PDF do HTML z wysokiej jakości obrazami)
 
-Osadzanie obrazów PNG oferuje kilka zalet w porównaniu do SVG:
-- **Spójne renderowanie** we wszystkich przeglądarkach, w tym starszych wersjach.  
-- **Lepsza kontrola** nad kompresją obrazu i głębią kolorów.  
-- **Uproszczone wdrożenie** – nie są wymagane zewnętrzne pliki obrazów.
+Osadzanie obrazów PNG zapewnia renderowanie piksel‑idealne we wszystkich przeglądarkach, eliminuje zewnętrzne pliki graficzne i upraszcza wdrażanie. PNG zachowują jakość bezstratną, obsługują przezroczystość i są szeroko wspierane, co czyni je idealnymi dla dokumentów zawierających wykresy, loga lub szczegółową grafikę.
+
+## Co to jest osadzanie PNG?
+
+Osadzanie PNG oznacza, że dane obrazu są przechowywane jako ciąg zakodowany w Base64 wewnątrz atrybutu `src` znacznika `<img>`, dzięki czemu plik HTML jest w pełni samodzielny. To podejście eliminuje potrzebę oddzielnych plików graficznych i zapewnia, że układ wizualny pozostaje niezmieniony po przeniesieniu lub udostępnieniu HTML.
+
+## Jak Aspose.PDF radzi sobie z dużymi PDF‑ami?
+
+Aspose.PDF strumieniuje zawartość PDF i może opcjonalnie wywołać `Document.optimizeResources()`, aby zwolnić nieużywane obiekty, umożliwiając konwersję PDF‑ów o setkach stron bez ładowania całego pliku do pamięci. Dostosowanie sterty JVM (`-Xmx`) dodatkowo zapobiega błędom braku pamięci.
+
+## Jak konwertować PDF‑y wsadowo do HTML?
+
+Iteruj po kolekcji ścieżek PDF, ponownie używaj jednej instancji `HtmlSaveOptions` i wywołuj kod konwersji w pętli lub w puli wątków. To zmniejsza narzut tworzenia obiektów i przyspiesza przetwarzanie wsadowe. Przetwarzając pliki kolejno lub równolegle, możesz w pełni wykorzystać rdzenie CPU przy niskim zużyciu pamięci.
 
 ### Typowe przypadki użycia
 
-1. **Publikacja w sieci** – Wyświetlaj PDF jako przyjazne strony internetowe bez wymuszania pobrania.  
+1. **Publikacja w sieci** – Wyświetlaj PDF‑y jako przyjazne strony internetowe bez wymuszania pobrania.  
 2. **Podręczniki e‑commerce** – Osadzaj przewodniki produktów bezpośrednio na stronach produktów.  
-3. **Systemy zarządzania treścią** – Przechowuj dokumenty jako HTML, aby były przeszukiwalne.  
+3. **Systemy zarządzania treścią** – Przechowuj dokumenty jako przeszukiwalne HTML.  
 4. **Konwersja wsadowa** – Automatyzuj konwersję dużych bibliotek dokumentów.
 
-### Wskazówki dotyczące wydajności (PDF do HTML Java)
+### Uwagi dotyczące wydajności (PDF do HTML Java)
 
-Podczas pracy z dużymi plikami PDF, pamiętaj o następujących wskazówkach:
+Podczas obsługi dużych PDF‑ów pamiętaj o następujących wskazówkach:
 - Używaj API strumieniowych lub `Document.optimizeResources()`, aby zmniejszyć zużycie pamięci.  
 - Dostosuj rozmiar sterty JVM (`-Xmx`) w zależności od rozmiaru pliku.  
-- Jeśli potrzebujesz **wsadowo konwertować PDF do HTML**, przetwarzaj pliki kolejno lub użyj puli wątków, ponownie używając tego samego obiektu `HtmlSaveOptions`.
+- W konwersji wsadowej przetwarzaj pliki kolejno lub użyj puli wątków, ponownie używając tej samej instancji `HtmlSaveOptions`.
 
 ### Rozwiązywanie problemów i typowe pułapki
 
-- **Obrazy nie wyświetlają się** – Sprawdź, czy `setRasterImagesSavingMode` jest ustawione na `AsEmbeddedPartsOfPngPageBackground`.  
+- **Obrazy nie wyświetlają się** – Sprawdź, czy `setRasterImagesSavingMode` jest ustawiony na `AsEmbeddedPartsOfPngPageBackground`.  
 - **Układ jest zniekształcony** – Upewnij się, że `setFixedLayout(true)` jest włączone.  
-- **Błędy braku pamięci** – Włącz `pdfDocument.optimizeResources()` przed zapisem dużych plików.
-
-### Podsumowanie
-
-Teraz wiesz **jak osadzić obrazy PNG** przy konwersji PDF do HTML przy użyciu Aspose.PDF dla Javy. Ta metoda zapewnia niezawodną wierność wizualną i szerokie wsparcie przeglądarek, co czyni ją idealną do publikacji w sieci, portali dokumentacji i potoków konwersji wsadowej.
-
-Wypróbuj to w swoim następnym projekcie i ciesz się płynną konwersją PDF‑do‑HTML!
+- **Błędy braku pamięci** – Wywołaj `pdfDocument.optimizeResources()` przed zapisem dużych plików.  
 
 ## Najczęściej zadawane pytania
 
-**P: Czy mogę konwertować wiele plików PDF do HTML jednocześnie?**  
-O: Tak. Iteruj po kolekcji ścieżek do plików PDF i zastosuj tę samą logikę konwersji dla każdego dokumentu.
+**Q: Czy mogę konwertować wiele PDF‑ów do HTML jednocześnie?**  
+A: Tak. Iteruj po kolekcji ścieżek plików PDF i zastosuj tę samą logikę konwersji dla każdego dokumentu.
 
-**P: Co zrobić, jeśli przekonwertowany HTML nie wygląda prawidłowo?**  
-O: Sprawdź ponownie, czy `setFixedLayout(true)` jest włączone; zachowuje ono oryginalny układ PDF.
+**Q: Co zrobić, jeśli przekonwertowany HTML nie wygląda prawidłowo?**  
+A: Sprawdź ponownie, czy `setFixedLayout(true)` jest włączone; zachowuje ono oryginalny układ PDF.
 
-**P: Jak efektywnie obsługiwać bardzo duże dokumenty?**  
-O: Użyj `Document.optimizeResources()` i rozważ podzielenie PDF na mniejsze części przed konwersją.
+**Q: Jak efektywnie obsługiwać bardzo duże dokumenty?**  
+A: Użyj `Document.optimizeResources()` i rozważ podzielenie PDF‑a na mniejsze części przed konwersją.
 
-**P: Czy mogę dalej edytować wygenerowany HTML?**  
-O: Oczywiście. Po konwersji możesz modyfikować HTML przy użyciu standardowych narzędzi lub bibliotek webowych.
+**Q: Czy mogę dalej edytować wygenerowany HTML?**  
+A: Oczywiście. Po konwersji możesz modyfikować HTML przy użyciu standardowych narzędzi lub bibliotek webowych.
 
-**P: Czy istnieje sposób wypróbowania Aspose.PDF bez pisania kodu?**  
-O: Tak – Aspose udostępnia narzędzia online do konwersji, umożliwiające szybkie testy bez kodu.
+**Q: Czy istnieje sposób wypróbowania Aspose.PDF bez pisania kodu?**  
+A: Tak – Aspose udostępnia narzędzia konwersji online do szybkiego testowania bez kodu.
 
 ### Zasoby
-- **Documentation**: [Aspose PDF Java Reference](https://reference.aspose.com/pdf/java/)  
-- **Download**: [Aspose PDF Releases](https://releases.aspose.com/pdf/java/)  
-- **Purchase**: [Buy Aspose License](https://purchase.aspose.com/buy)  
-- **Free Trial**: [Aspose PDF Bezpłatne pobranie](https://releases.aspose.com/pdf/java/)  
-- **Temporary License**: [Uzyskaj licencję tymczasową](https://purchase.aspose.com/temporary-license/)  
-- **Support**: [Aspose Support Forum](https://forum.aspose.com/c/pdf/10)
+- **Dokumentacja**: [Aspose PDF Java Reference](https://reference.aspose.com/pdf/java/)  
+- **Pobieranie**: [Aspose PDF Releases](https://releases.aspose.com/pdf/java/)  
+- **Zakup**: [Buy Aspose License](https://purchase.aspose.com/buy)  
+- **Darmowa wersja próbna**: [Aspose PDF Free Download](https://releases.aspose.com/pdf/java/)  
+- **Tymczasowa licencja**: [Get Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Wsparcie**: [Aspose Support Forum](https://forum.aspose.com/c/pdf/10)
 
 ---
 
-**Ostatnia aktualizacja:** 2026-04-05  
+**Ostatnia aktualizacja:** 2026-09-07  
 **Testowano z:** Aspose.PDF for Java 25.3 (najnowsza w momencie pisania)  
-**Autor:** Aspose  
+**Autor:** Aspose
+
+## Powiązane samouczki
+
+- [Konwertuj PDF do PNG przy użyciu Aspose.PDF dla Javy – Kompletny przewodnik](/pdf/java/conversion-export/convert-pdf-pages-to-png-aspose-pdf-java/)
+- [Konwertuj PDF do wielostronicowego HTML przy użyciu Aspose.PDF dla Javy&#58; Kompletny przewodnik](/pdf/java/conversion-export/convert-pdf-to-multipage-html-aspose-java/)
+- [Wyodrębnij i wyświetl obrazy z PDF‑ów przy użyciu Aspose.PDF dla Javy&#58; Kompletny przewodnik](/pdf/java/images-graphics/aspose-pdf-java-extract-images/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
