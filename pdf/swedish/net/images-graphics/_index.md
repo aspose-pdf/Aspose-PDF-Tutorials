@@ -44,6 +44,9 @@ Lär dig hur du skapar visuellt tilltalande PDF-dokument genom att extrahera och
 ### [Rita genomskinliga former i PDF-filer med Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 En kodhandledning för Aspose.PDF Net
 
+### [Hur man lägger till transparens i PDF-filer med Aspose.PDF för .NET](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
+Lär dig hur du applicerar transparens på element i PDF-dokument med Aspose.PDF för .NET.
+
 ### [Effektiv PDF-bildidentifiering med Aspose.PDF för .NET](./master-image-identification-aspose-pdf-net/)
 Lär dig hur du identifierar gråskale- och RGB-bilder i PDF-filer med Aspose.PDF för .NET. Den här handledningen täcker installation, bildextrahering och prestandatips.
 

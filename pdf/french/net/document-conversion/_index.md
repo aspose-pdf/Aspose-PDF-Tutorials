@@ -66,6 +66,7 @@ Vous apprendrez à définir les paramètres de conversion, à extraire du texte 
 | [Ajouter un profil ICC et convertir PDF en PDF/X‑4 – guide C#](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) | Apprenez à ajouter un profil ICC à un PDF et à le convertir en PDF/X‑4 avec Aspose.PDF pour .NET en C#. |  
 | [Tutoriel de conversion PDF C# – convertir PDF en PDF/X-4](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) | Apprenez à convertir un PDF en PDF/X-4 avec Aspose.PDF pour .NET en suivant ce guide étape par étape. |
 | [Comment définir l'ICC dans la conversion PDF Aspose – Guide complet](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | Apprenez à configurer le profil ICC lors de la conversion PDF avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
+| [Comment utiliser Aspose pour convertir un PDF en PDF/X‑1A avec ICC](./how-to-use-aspose-to-convert-pdf-to-pdf-x-1a-with-icc/) | Apprenez à convertir un PDF en PDF/X‑1A en utilisant un profil ICC avec Aspose.PDF pour .NET. |
 
 | [Comment convertir un PDF avec Aspose.Pdf – Guide complet C#](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | Apprenez à convertir des fichiers PDF avec Aspose.Pdf en C# grâce à ce guide complet étape par étape. |  
 | [Charger un document PDF C# – Convertir en PDF/X‑4 – Guide étape par étape](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | Apprenez à charger un PDF en C# et à le convertir au format PDF/X‑4 avec Aspose.PDF pour .NET, étape par étape. |  

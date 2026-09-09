@@ -68,11 +68,13 @@
 | [C# में docx को pdf में बदलें – पूर्ण चरण‑दर‑चरण गाइड](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | .NET के लिए Aspose.PDF का उपयोग करके C# में DOCX को PDF में बदलने की पूरी प्रक्रिया सीखें। |
 
 | [C# में PDF को PDF/X‑4 में परिवर्तित करें – चरण-दर-चरण ASP.NET PDF ट्यूटोरियल](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | इस ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X‑4 फ़ॉर्मेट में बदलना सीखें। |
-| [PDF दस्तावेज़ लोड करें C# – PDF/X-4 में परिवर्तित करने की चरण-दर-चरण गाइड](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | इस चरण-दर-चरण ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ को लोड करके PDF/X-4 फ़ॉर्मेट में बदलना सीखें। |  
+| [PDF दस्तावेज़ लोड करें C# – PDF/X-4 में परिवर्तित करने की चरण-दर-स्तर गाइड](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | इस चरण-दर-चरण ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ को लोड करके PDF/X-4 फ़ॉर्मेट में बदलना सीखें। |  
 | [Aspose PDF को HTML में C# – पूर्ण गाइड](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | इस विस्तृत मार्गदर्शिका में .NET के लिए Aspose.PDF का उपयोग करके PDF को HTML में बदलना सीखें। |
 | [Aspose.Pdf के साथ PDF को कैसे बदलें – पूर्ण C# गाइड](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | इस विस्तृत C# गाइड में Aspose.Pdf का उपयोग करके PDF को बदलना सीखें। |
 | [Aspose के साथ PDF कैसे सहेजें – पूर्ण C# रूपांतरण गाइड](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) | इस चरण-दर-स्तर गाइड में .NET के लिए Aspose का उपयोग करके PDF को सहेजने और C# में रूपांतरण करने के तरीके सीखें। |
 | [Aspose PDF रूपांतरण में ICC सेट करें – पूर्ण गाइड](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | इस चरण‑दर‑चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF रूपांतरण में ICC प्रोफ़ाइल सेट करना सीखें। |
+| [Aspose का उपयोग करके PDF को PDF/X‑1A में ICC के साथ कैसे बदलें](./how-to-use-aspose-to-convert-pdf-to-pdf-x-1a-with-icc/) | Aspose का उपयोग करके PDF को ICC प्रोफ़ाइल के साथ PDF/X‑1A में परिवर्तित करने का तरीका सीखें। |
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

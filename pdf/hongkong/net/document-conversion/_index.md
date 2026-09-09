@@ -38,7 +38,8 @@
 | [PDF 轉 HTML](./pdf-to-html/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 HTML。非常適合開發人員和內容創作者。 |  
 | [PDF 轉 PDFA](./pdf-to-pdfa/) |透過本逐步教學了解如何使用 Aspose.PDF for .NET 將 PDF 檔案轉換為 PDF/A 格式。 |  
 | [PDF 轉 PDFA3b](./pdf-to-pdfa3b/) |透過本逐步指南學習如何使用 Aspose.PDF for .NET 輕鬆地將 PDF 文件轉換為 PDF/A-3B 格式。 |  
-| [新增 ICC 配置檔並將 PDF 轉換為 PDF/X‑4 – C# 指南](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 新增 ICC 配置檔並將 PDF 轉換為 PDF/X‑4。 |  
+| [新增 ICC 配置檔並將 PDF 轉換為 PDF/X‑4 – C# 指南](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 新增 ICC 配置檔並將 PDF 轉換為 PDF/X‑4。 |
+| [如何使用 Aspose 將 PDF 轉換為 PDF/X‑1A（含 ICC）](./how-to-use-aspose-to-convert-pdf-to-pdf-x-1a-with-icc/) |了解如何使用 Aspose PDF for .NET 在 C# 中將 PDF 轉換為 PDF/X‑1A 並設定 ICC 配置檔。 |
 | [PDF 轉 PNG 字體提示](./pdf-to-png-font-hinting/) |透過簡單的逐步指南學習如何使用 Aspose.PDF for .NET 將 PDF 轉換為帶有字體提示的 PNG。 |  
 | [PDF 轉 PNG 教學 – 在 C# 中將 PDF 頁面轉換為 PNG](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) |了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 頁面轉換為 PNG 圖像。 |
 | [PDF轉PPT](./pdf-to-ppt/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 PPT。簡單、高效，非常適合演示。 |  

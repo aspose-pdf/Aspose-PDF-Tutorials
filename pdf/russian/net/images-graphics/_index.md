@@ -44,6 +44,9 @@
 ### [Рисуйте прозрачные фигуры в PDF-файлах с помощью Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 Учебник по коду для Aspose.PDF Net
 
+### [Как добавить прозрачность в PDF-файлы с помощью Aspose.PDF для .NET](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
+Учебник по коду для Aspose.PDF Net
+
 ### [Эффективная идентификация изображений PDF с помощью Aspose.PDF для .NET](./master-image-identification-aspose-pdf-net/)
 Узнайте, как определить изображения в оттенках серого и RGB в PDF-файлах с помощью Aspose.PDF для .NET. В этом руководстве рассматриваются вопросы установки, извлечения изображений и советы по производительности.
 

@@ -44,6 +44,9 @@ Pelajari cara membuat dokumen PDF yang menarik secara visual dengan mengekstrak 
 ### [Menggambar Bentuk Transparan dalam PDF dengan Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 Tutorial kode untuk Aspose.PDF Net
 
+### [Cara Menambahkan Transparansi ke File PDF Menggunakan Aspose.PDF untuk .NET](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
+Pelajari cara menerapkan efek transparansi pada elemen PDF menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah.
+
 ### [Identifikasi Gambar PDF yang Efisien dengan Aspose.PDF untuk .NET](./master-image-identification-aspose-pdf-net/)
 Pelajari cara mengidentifikasi gambar skala abu-abu dan RGB dalam PDF menggunakan Aspose.PDF untuk .NET. Tutorial ini mencakup kiat penginstalan, ekstraksi gambar, dan performa.
 

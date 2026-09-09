@@ -51,14 +51,15 @@
 | [تحويل Aspose PDF إلى HTML باستخدام C# – دليل شامل](./aspose-pdf-to-html-conversion-in-c-complete-guide/) |تعرف على كيفية تحويل ملفات PDF إلى HTML باستخدام Aspose.PDF لـ .NET مع دليل خطوة بخطوة شامل. |
 | [كيفية تحويل PDF باستخدام Aspose.Pdf – دليل C# كامل](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) |تعرف على كيفية تحويل ملفات PDF باستخدام Aspose.Pdf في دليل شامل بلغة C# خطوة بخطوة. |
 | [كيفية حفظ PDF باستخدام Aspose – دليل C# الكامل](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) |تعرف على كيفية حفظ ملفات PDF باستخدام Aspose.PDF لـ .NET مع دليل شامل خطوة بخطوة بلغة C#. |  
-| [حفظ PDF كـ HTML – الحفاظ على المتجهات وتعطيل التحويل إلى نقطية](./save-pdf-as-html-keep-vectors-disable-rasterization/) |تعلم كيفية حفظ ملفات PDF كـ HTML مع الحفاظ على المتجهات وتعطيل التحويل إلى صور نقطية باستخدام Aspose.PDF لـ .NET. |  
-| [إضافة ترقيم Bates إلى DOCX وتحويله إلى PDF – دليل C# الكامل](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) |تعلم كيفية إضافة ترقيم Bates إلى ملفات DOCX ثم تحويلها إلى PDF باستخدام Aspose.PDF لـ .NET مع دليل C# خطوة بخطوة. |  
-| [حفظ مستند PDF – كيفية إضافة إهليلج وتحويل DOCX إلى PDF](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) |تعرّف على كيفية حفظ مستند PDF وإضافة إهليلج، ثم تحويل ملفات DOCX إلى PDF باستخدام Aspose.PDF لـ .NET. |  
-| [تحويل docx إلى pdf في C# – دليل كامل خطوة بخطوة](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) |تعرف على كيفية تحويل ملفات docx إلى pdf باستخدام Aspose.PDF لـ .NET مع دليل شامل خطوة بخطوة في C#. |  
-| [PDF إلى HTML](./pdf-to-html/) تعلّم كيفية تحويل ملفات PDF إلى HTML باستخدام Aspose.PDF لـ .NET من خلال هذا الدليل المفصل. مثالي للمطورين ومنشئي المحتوى.  
-| [إنشاء HTML من PDF باستخدام C# – دليل خطوة بخطوة كامل](./create-html-from-pdf-in-c-complete-step-by-step-guide/) |تعرف على كيفية إنشاء ملفات HTML من مستندات PDF باستخدام Aspose.PDF لـ .NET في دليل شامل خطوة بخطوة. |  
-| [PDF إلى PDFA](./pdf-to-pdfa/) |تعرف على كيفية تحويل ملفات PDF إلى تنسيق PDF/A باستخدام Aspose.PDF لـ .NET من خلال هذا البرنامج التعليمي خطوة بخطوة. |  
+| [حفظ PDF كـ HTML – الحفاظ على المتجهات وتعطيل التحويل إلى نقطية](./save-pdf-as-html-keep-vectors-disable-rasterization/) |تعلم كيفية حفظ ملفات PDF كـ HTML مع الحفاظ على المتجهات وتعطيل التحويل إلى صور نقطية باستخدام Aspose.PDF لـ .NET. |
+| [إضافة ترقيم Bates إلى DOCX وتحويله إلى PDF – دليل C# الكامل](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) |تعلم كيفية إضافة ترقيم Bates إلى ملفات DOCX ثم تحويلها إلى PDF باستخدام Aspose.PDF لـ .NET مع دليل C# خطوة بخطوة. |
+| [حفظ مستند PDF – كيفية إضافة إهليلج وتحويل DOCX إلى PDF](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) |تعرّف على كيفية حفظ مستند PDF وإضافة إهليلج، ثم تحويل ملفات DOCX إلى PDF باستخدام Aspose.PDF لـ .NET. |
+| [تحويل docx إلى pdf في C# – دليل كامل خطوة بخطوة](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) |تعرف على كيفية تحويل ملفات docx إلى pdf باستخدام Aspose.PDF لـ .NET مع دليل شامل خطوة بخطوة في C#. |
+| [PDF إلى HTML](./pdf-to-html/) تعلّم كيفية تحويل ملفات PDF إلى HTML باستخدام Aspose.PDF لـ .NET من خلال هذا الدليل المفصل. مثالي للمطورين ومنشئي المحتوى. |
+| [إنشاء HTML من PDF باستخدام C# – دليل خطوة بخطوة كامل](./create-html-from-pdf-in-c-complete-step-by-step-guide/) |تعرف على كيفية إنشاء ملفات HTML من مستندات PDF باستخدام Aspose.PDF لـ .NET في دليل شامل خطوة بخطوة. |
+| [PDF إلى PDFA](./pdf-to-pdfa/) |تعرف على كيفية تحويل ملفات PDF إلى تنسيق PDF/A باستخدام Aspose.PDF لـ .NET من خلال هذا البرنامج التعليمي خطوة بخطوة. |
 | [كيفية تعيين ICC في تحويل Aspose PDF – دليل كامل](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | تعلم كيفية تعيين ملف ICC أثناء تحويل المستندات باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |
+| [كيفية استخدام Aspose لتحويل PDF إلى PDF/X‑1A مع ICC](./how-to-use-aspose-to-convert-pdf-to-pdf-x-1a-with-icc/) | تعلم كيفية تحويل ملفات PDF إلى PDF/X‑1A مع تضمين ملف ICC باستخدام Aspose.PDF لـ .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
