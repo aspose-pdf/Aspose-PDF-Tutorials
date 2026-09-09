@@ -19,7 +19,6 @@ Tutorial "Pemrograman dengan Stempel dan Tanda Air" Aspose.PDF untuk .NET memand
 
 ## Tutorial
 | Judul | Deskripsi |
-Bahasa Indonesia: --- | Bahasa Indonesia: 
 | [Tambahkan Cap Tanggal Waktu Dalam File PDF](./add-date-time-stamp/) Pelajari cara menambahkan cap tanggal dan waktu ke berkas PDF Anda menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini. Sempurna untuk meningkatkan keaslian dokumen. Bahasa Indonesia:  
 | [Tambahkan Stempel Gambar Dalam File PDF](./add-image-stamp/) | Pelajari cara menambahkan stempel gambar ke file PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah dan contoh kode. Bahasa Indonesia:  
 | [Menambahkan Header Berbeda Dalam File PDF](./adding-different-headers/) | Pelajari cara menambahkan tajuk yang berbeda ke berkas PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah untuk menyesuaikan PDF Anda. Bahasa Indonesia:  
@@ -44,6 +43,7 @@ Bahasa Indonesia: --- | Bahasa Indonesia:
 | [Ubah Opasitas PDF di C# – Panduan Lengkap Aspose](./change-pdf-opacity-in-c-complete-aspose-guide/) | Pelajari cara mengubah opasitas halaman PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode C# lengkap. |
 | [Tambahkan Penomoran Bates PDF – Panduan Lengkap C#](./add-bates-numbering-pdf-complete-c-guide/) | Pelajari cara menambahkan penomoran Bates ke file PDF menggunakan Aspose.PDF untuk .NET dengan panduan lengkap dalam C#. |
 | [Tambahkan Penomoran Bates PDF di C# – Panduan Lengkap](./add-bates-numbering-pdf-in-c-complete-guide/) | Pelajari cara menambahkan penomoran Bates ke file PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode lengkap dalam C#. Bahasa Indonesia:  
+| [Cara Menyimpan PDF — Tambahkan Penomoran Bates dengan Aspose.Pdf](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) | Pelajari cara menambahkan penomoran Bates saat menyimpan PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

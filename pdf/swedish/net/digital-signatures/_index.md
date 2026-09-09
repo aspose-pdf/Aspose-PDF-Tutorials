@@ -68,6 +68,9 @@ Lär dig hur du verifierar en PDF-signatur och ritar en rektangel i PDF-dokument
 Lär dig hur du konverterar PDF till HTML och samtidigt validerar PDF-signaturer med Aspose.
 ### [Hur man verifierar signatur i PDF med Aspose.Pdf – C#-guide](./how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/)
 Lär dig hur du verifierar en digital signatur i PDF-filer med Aspose.Pdf i C#.
+### [Hur man extraherar signaturer från en PDF i C# – En steg‑för‑steg‑guide](./how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/)
+Lär dig hur du extraherar signaturer från en PDF med C# och Aspose.PDF. En detaljerad steg‑för‑steg‑guide för att hämta signaturdata.
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

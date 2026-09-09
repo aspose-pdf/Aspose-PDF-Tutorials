@@ -52,6 +52,11 @@ Aprenda a desincrustar fuentes de sus archivos PDF con Aspose.PDF para .NET. Opt
 
 ### [Optimizar imágenes PDF – Reducir el tamaño del archivo PDF con C#](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
 Aprenda a reducir el tamaño de PDFs optimizando imágenes mediante C#, mejorando la velocidad y el uso de memoria.
+### [Cómo comprimir PDF con Aspose – Guía rápida en C#](./how-to-compress-pdf-with-aspose-quick-c-guide/)
+Aprenda a comprimir archivos PDF rápidamente usando Aspose.PDF en C#, con ejemplos claros y pasos simples.
+
+### [Guardar PDF optimizado en C# – Reducir tamaño y limpiar páginas](./save-optimized-pdf-in-c-reduce-size-clean-pages/)
+Aprenda a guardar PDFs optimizados en C#, reduciendo su tamaño y eliminando páginas innecesarias para mejorar el rendimiento.
 
 ## Recursos adicionales
 

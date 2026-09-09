@@ -73,6 +73,12 @@ Tanulja meg, hogyan hozhat létre PDF dokumentumot az Aspose.PDF segítségével
 Tanuld meg, hogyan hozhatsz létre PDF dokumentumot C#‑ban az Aspose segítségével, beleértve az oldal, alakzat hozzáadását és a mentést.
 ### [PDF dokumentum létrehozása C# – Üres oldal hozzáadása és téglalap rajzolása](./create-pdf-document-c-add-blank-page-draw-rectangle/)
 Tanulja meg, hogyan adhat hozzá üres oldalt és rajzolhat téglalapot egy PDF dokumentumhoz C#-ban az Aspose.PDF for .NET segítségével.
+### [PDF dokumentum létrehozása C#-ban – Üres oldal, címkék és span hozzáadása](./create-pdf-document-in-c-add-blank-page-tags-and-span/)
+Tanulja meg, hogyan hozhat létre PDF dokumentumot C#-ban, üres oldalt, címkéket és span elemeket adva hozzá.
+
+### [PDF létrehozása C#-ban – Oldal hozzáadása, téglalap rajzolása és mentés](./how-to-create-pdf-in-c-add-page-draw-rectangle-save/)
+Tanulja meg, hogyan adjon hozzá új oldalt, rajzoljon téglalapot és mentse a PDF-et C#-ban az Aspose.PDF segítségével.
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)

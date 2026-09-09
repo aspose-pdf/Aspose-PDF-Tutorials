@@ -75,6 +75,12 @@ Lär dig hur du skapar ett PDF-dokument, lägger till en sida och former samt sp
 Lär dig hur du skapar PDF-dokument med Aspose.PDF i en steg‑för‑steg‑guide.
 ### [Skapa PDF-dokument med Aspose i C# – Steg‑för‑steg‑guide](./create-pdf-document-with-aspose-in-c-step-by-step-guide/)
 Lär dig hur du skapar PDF-dokument med Aspose i C# genom en detaljerad steg‑för‑steg‑guide.
+### [Skapa PDF-dokument i C# – Lägg till tom sida, taggar och span](./create-pdf-document-in-c-add-blank-page-tags-and-span/)
+Lär dig hur du skapar ett PDF-dokument i C#, lägger till en tom sida, använder taggar och span för avancerad layout.
+
+### [Hur man skapar PDF i C# – Lägg till sida, rita rektangel och spara](./how-to-create-pdf-in-c-add-page-draw-rectangle-save/)
+Lär dig hur du skapar en PDF i C#, lägger till en ny sida, ritar en rektangel och sparar dokumentet med Aspose.PDF.
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

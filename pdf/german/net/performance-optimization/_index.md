@@ -52,6 +52,11 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET Schriftarten aus Ihren PDF-Dateie
 
 ### [PDF-Bilder optimieren – PDF-Dateigröße mit C# reduzieren](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
 Erfahren Sie, wie Sie Bilder in PDFs mit C# reduzieren, um die Dateigröße zu verkleinern und die Leistung zu verbessern.
+### [PDF mit Aspose komprimieren – Schnellleitfaden in C#](./how-to-compress-pdf-with-aspose-quick-c-guide/)
+Erfahren Sie, wie Sie PDFs mit Aspose komprimieren und die Dateigröße reduzieren – ein kurzer C#‑Leitfaden.
+
+### [Optimiertes PDF in C# speichern – Größe reduzieren und Seiten bereinigen](./save-optimized-pdf-in-c-reduce-size-clean-pages/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET optimierte PDFs speichern, die Dateigröße verringern und nicht benötigte Seiten entfernen.
 
 ## Weitere Ressourcen
 

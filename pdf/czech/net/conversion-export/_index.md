@@ -26,6 +26,10 @@ Zvládněte Aspose.PDF pro .NET a bezproblémově převádějte XML data do PDF.
 Naučte se, jak převést XML data do profesionálních PDF dokumentů pomocí Aspose.PDF pro .NET. Tato příručka se zabývá instalací, procesy převodu a praktickými aplikacemi.
 ### [Komplexní průvodce: Převod PDF do HTML pomocí Aspose.PDF .NET s vlastními strategiemi](./convert-pdf-html-aspose-dotnet-custom-strategies/)
 Naučte se, jak převádět PDF do HTML pomocí vlastních strategií pomocí Aspose.PDF pro .NET. Zachovejte vysokou věrnost, efektivně zpracovávejte obrázky, fonty a CSS.
+
+### [Uložení PDF jako HTML pomocí Aspose.PDF – Rychlý průvodce C#](./save-pdf-as-html-with-aspose-pdf-quick-c-guide/)
+Rychlý návod, jak pomocí Aspose.PDF v C# převést PDF soubor do HTML formátu.
+
 ### [Komplexní průvodce: Převod PDF do TIFF pomocí Aspose.PDF .NET pro bezproblémovou konverzi dokumentů](./convert-pdf-to-tiff-aspose-dotnet-guide/)
 Naučte se, jak efektivně převádět soubory PDF do vysoce kvalitních obrázků TIFF pomocí Aspose.PDF pro .NET. Postupujte podle tohoto podrobného návodu a vylepšete si pracovní postup zpracování dokumentů.
 ### [Komplexní průvodce: Konverze PDF do HTML s aktualizacemi průběhu v reálném čase pomocí Aspose.PDF pro .NET](./pdf-to-html-conversion-progress-aspose-pdf-net/)

@@ -73,6 +73,12 @@ Scopri come generare un documento PDF da zero utilizzando Aspose.PDF per .NET co
 Scopri come generare un documento PDF da zero in C# con Aspose, seguendo istruzioni dettagliate passo‑passo.
 ### [Creare documento PDF C# – Aggiungere pagina vuota e disegnare un rettangolo](./create-pdf-document-c-add-blank-page-draw-rectangle/)
 Impara a creare un PDF in C#, aggiungere una pagina vuota e disegnare un rettangolo usando Aspose.PDF per .NET.
+### [Crea documento PDF in C# – Aggiungi pagina vuota, tag e span](./create-pdf-document-in-c-add-blank-page-tags-and-span/)
+Scopri come creare un documento PDF in C# aggiungendo una pagina vuota, tag e span per migliorare l'accessibilità e la formattazione.
+
+### [Come creare PDF in C# – Aggiungi pagina, disegna rettangolo e salva](./how-to-create-pdf-in-c-add-page-draw-rectangle-save/)
+Scopri come creare un PDF in C# aggiungendo una pagina, disegnando un rettangolo e salvando il documento.
+
 ## Risorse aggiuntive
 
 - [Aspose.PDF per la documentazione di rete](https://docs.aspose.com/pdf/net/)

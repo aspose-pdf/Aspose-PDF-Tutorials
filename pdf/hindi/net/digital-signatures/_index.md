@@ -30,6 +30,10 @@ Aspose.PDF का उपयोग करके PDF फ़ाइलों से 
 ### [.NET के लिए Aspose.PDF के साथ PDF हस्ताक्षर भाषा कैसे बदलें](./change-pdf-signature-language-aspose-net/)
 ### [.NET के लिए Aspose.PDF का उपयोग करके PDF हस्ताक्षर कैसे बनाएं और सत्यापित करें](./create-verify-pdf-signatures-aspose-net/)
 ### [Aspose.PDF .NET का उपयोग करके PDF हस्ताक्षर जानकारी कैसे निकालें: एक चरण-दर-चरण मार्गदर्शिका](./extract-pdf-signature-info-aspose-pdf-net/)
+
+### [C# में PDF से हस्ताक्षर निकालने का तरीका – चरण-दर-चरण गाइड](./how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/)
+C# और Aspose.PDF का उपयोग करके PDF फ़ाइलों से डिजिटल हस्ताक्षर जानकारी निकालने की विस्तृत प्रक्रिया सीखें।
+
 ### [Aspose.PDF के साथ .NET में डिजिटल हस्ताक्षर कैसे लागू करें: एक व्यापक गाइड](./implement-pdf-signatures-dotnet-aspose-pdf-guide/)
 ### [Aspose.PDF .NET का उपयोग करके PDF डिजिटल हस्ताक्षर कैसे हटाएँ | संपूर्ण गाइड](./remove-pdf-digital-signatures-aspose-pdf-net/)
 जानें कि Aspose.PDF .NET का उपयोग करके PDF से डिजिटल हस्ताक्षरों को कुशलतापूर्वक कैसे हटाया जाए। यह व्यापक गाइड चरण-दर-चरण निर्देशों के साथ एकल और एकाधिक हस्ताक्षर हटाने को कवर करता है।

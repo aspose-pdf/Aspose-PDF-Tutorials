@@ -40,6 +40,8 @@ Tìm hiểu cách xác thực tài liệu PDF theo tiêu chuẩn PDF/A bằng As
 
 ### [Tạo tệp PDF/A trong C# – Hướng dẫn chuyển đổi đầy đủ](./create-pdf-a-file-in-c-full-conversion-tutorial/)
 Hướng dẫn chi tiết cách tạo tệp PDF/A trong C# bằng Aspose.PDF, bao gồm các bước chuyển đổi đầy đủ.
+### [Cách tạo PDF/A trong C# – Hướng dẫn từng bước của Aspose](./how-to-create-pdf-a-in-c-step-by-step-aspose-guide/)
+Hướng dẫn chi tiết cách tạo tài liệu PDF/A trong C# bằng Aspose.PDF, bao gồm các bước thực hiện và mã mẫu.
 
 ## Tài nguyên bổ sung
 

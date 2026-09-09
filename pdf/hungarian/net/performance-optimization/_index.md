@@ -52,6 +52,11 @@ Ismerje meg, hogyan távolíthatja el a betűtípusok beágyazását PDF-fájlja
 
 ### [PDF képek optimalizálása – PDF fájlméret csökkentése C#-val](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
 Ismerje meg, hogyan csökkentheti a PDF-fájlok méretét a képek optimalizálásával C# és az Aspose.PDF for .NET segítségével.
+### [Hogyan tömörítsük a PDF-et az Aspose-szal – Gyors C# útmutató](./how-to-compress-pdf-with-aspose-quick-c-guide/)
+Ismerje meg, hogyan tömörítheti a PDF-fájlokat az Aspose.PDF for .NET segítségével egy gyors C# példán keresztül.
+
+### [Optimalizált PDF mentése C#-ban – Méret csökkentése és oldalak tisztítása](./save-optimized-pdf-in-c-reduce-size-clean-pages/)
+Ismerje meg, hogyan menthet optimalizált PDF-et C#-ban, csökkentve a fájlméretet és megtisztítva a felesleges oldalakat.
 
 ## További források
 

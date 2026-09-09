@@ -40,6 +40,8 @@ Lär dig hur du validerar PDF-dokument mot PDF/A-standarder med Aspose.PDF .NET.
 
 ### [Skapa PDF/A-fil i C# – Fullständig konverteringshandledning](./create-pdf-a-file-in-c-full-conversion-tutorial/)
 Lär dig steg för steg hur du skapar PDF/A-filer i C# med en komplett konverteringsprocess.
+### [Hur du skapar PDF/A i C# – Steg‑för‑steg Aspose‑guide](./how-to-create-pdf-a-in-c-step-by-step-aspose-guide/)
+Lär dig skapa PDF/A-dokument i C# med en detaljerad steg‑för‑steg‑guide från Aspose.
 
 ## Ytterligare resurser
 

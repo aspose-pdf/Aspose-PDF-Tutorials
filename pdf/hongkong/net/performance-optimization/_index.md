@@ -52,6 +52,11 @@
 
 ### [最佳化 PDF 圖像 – 使用 C# 縮小 PDF 檔案大小](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
 了解如何使用 C# 透過 Aspose.PDF 最佳化 PDF 圖像，減少檔案大小並提升效能。
+### [如何使用 Aspose 壓縮 PDF – 快速 C# 指南](./how-to-compress-pdf-with-aspose-quick-c-guide/)
+快速了解如何使用 Aspose.PDF 於 C# 中壓縮 PDF，提升檔案效能與減少大小。
+
+### [在 C# 中儲存最佳化 PDF – 減少大小與清理頁面](./save-optimized-pdf-in-c-reduce-size-clean-pages/)
+學習如何在 C# 中儲存已最佳化的 PDF，減少檔案大小並清除不必要的頁面，以提升效能。
 
 ## 其他資源
 

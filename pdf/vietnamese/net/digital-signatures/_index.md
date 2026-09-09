@@ -71,6 +71,9 @@ Hướng dẫn cách xác minh chữ ký PDF trong C# bằng Aspose.Pdf, bao g�
 ### [Trích xuất chữ ký từ PDF bằng Aspose.Pdf – Hướng dẫn toàn diện](./extract-signatures-from-pdf-with-aspose-pdf-complete-guide/)
 Hướng dẫn chi tiết cách trích xuất tất cả chữ ký từ tài liệu PDF bằng Aspose.Pdf, bao gồm cài đặt và ví dụ mã.
 
+### [Cách trích xuất chữ ký từ PDF bằng C# – Hướng dẫn từng bước](./how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách trích xuất chữ ký số từ tệp PDF bằng C# sử dụng Aspose.PDF, bao gồm cài đặt và ví dụ thực tế.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)

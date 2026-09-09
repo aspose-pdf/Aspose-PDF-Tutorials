@@ -23,6 +23,10 @@ Naše tutoriály o digitálním podpisu poskytují komplexní návod pro impleme
 ### [Digitální podepsání PDF s vlastním vzhledem pomocí Aspose.PDF pro .NET: Podrobný návod](./digitally-sign-pdf-custom-appearance-aspose-pdf-net/)
 ### [Extrahujte informace o digitálním podpisu z PDF souborů pomocí Aspose.PDF](./extract-digital-signature-info-from-pdfs-aspose-pdf/)
 Výukový program pro kódování Aspose.PDF Net
+
+### [Jak extrahovat podpisy z PDF v C# – krok za krokem průvodce](./how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/)
+Naučte se, jak pomocí C# získat digitální podpisy z PDF souborů pomocí Aspose.PDF krok za krokem.
+
 ### [Jak změnit jazyk podpisu PDF pomocí Aspose.PDF pro .NET](./change-pdf-signature-language-aspose-net/)
 Naučte se, jak přizpůsobit text digitálního podpisu v PDF souborech pomocí Aspose.PDF pro .NET. Ideální pro přípravu a lokalizaci vícejazyčných dokumentů.
 ### [Jak vytvářet a ověřovat podpisy PDF pomocí Aspose.PDF pro .NET](./create-verify-pdf-signatures-aspose-net/)

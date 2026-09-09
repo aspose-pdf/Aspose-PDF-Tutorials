@@ -311,6 +311,9 @@ Aprenda a dividir PDFs de várias páginas e criar novos arquivos PDF usando o A
 ### [Guia definitivo para manipulação de PDF com Aspose.PDF .NET: carregue, salve e substitua texto com eficiência](./master-pdf-manipulation-aspose-pdf-net/)
 Aprenda a dominar a manipulação de PDFs usando o Aspose.PDF para .NET. Este guia aborda como carregar, salvar e substituir texto em PDFs, ideal para desenvolvedores que buscam eficiência.
 
+### [Como reparar PDF em C# – Corrija arquivos PDF corrompidos rapidamente](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
+Aprenda a reparar arquivos PDF corrompidos usando C# e Aspose.PDF, restaurando documentos de forma rápida e confiável.
+
 ## Recursos adicionais
 
 - [Aspose.PDF para documentação da Net](https://docs.aspose.com/pdf/net/)

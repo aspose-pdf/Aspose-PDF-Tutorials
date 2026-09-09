@@ -77,6 +77,9 @@
 ### [Извлечение подписей из PDF с Aspose.Pdf – Полное руководство](./extract-signatures-from-pdf-with-aspose-pdf-complete-guide/)
 Подробное руководство по извлечению всех подписей из PDF‑документов с использованием Aspose.Pdf.
 
+### [Как извлечь подписи из PDF в C# – пошаговое руководство](./how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/)
+Узнайте, как извлекать подписи из PDF-файлов с помощью C# и Aspose.PDF, следуя пошаговым инструкциям.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.PDF для сети](https://docs.aspose.com/pdf/net/)

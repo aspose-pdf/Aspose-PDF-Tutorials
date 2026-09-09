@@ -52,6 +52,11 @@ Pelajari cara menghapus font dari file PDF Anda menggunakan Aspose.PDF for .NET.
 
 ### [Optimalkan Gambar PDF – Kurangi Ukuran File PDF dengan C#](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
 Pelajari cara mengoptimalkan gambar dalam PDF dan mengurangi ukuran file menggunakan C# dengan Aspose.PDF.
+### [Cara Mengompres PDF dengan Aspose – Panduan Cepat C#](./how-to-compress-pdf-with-aspose-quick-c-guide/)
+Panduan singkat C# untuk mengompres file PDF menggunakan Aspose.PDF, meningkatkan kecepatan dan mengurangi ukuran dokumen.
+
+### [Simpan PDF yang Dioptimalkan di C# – Kurangi Ukuran & Bersihkan Halaman](./save-optimized-pdf-in-c-reduce-size-clean-pages/)
+Pelajari cara menyimpan PDF yang dioptimalkan menggunakan C#, mengurangi ukuran file dan membersihkan halaman yang tidak diperlukan.
 
 ## Sumber Daya Tambahan
 

@@ -72,7 +72,6 @@ Leer hoe je afbeeldingen kunt genereren uit PDF‑bestanden met Aspose.PDF voor 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-<<<<<<< optimize/pdf/net/20260214124714
 ## Afbeeldingen extraheren PDF
 De tutorial “Extract Images” laat zien hoe je raster‑assets uit bestaande PDF’s kunt halen, een handige techniek voor hergebruik van inhoud of migratieprojecten.
 
@@ -82,8 +81,6 @@ Wanneer je kleinere bestanden of snellere weergave nodig hebt, legt de gids “R
 ## PDF‑afbeeldingen comprimeren
 Voor omgevingen met beperkte opslag toont de tutorial “Shrink Image” compressie‑instellingen die de PDF‑grootte drastisch verkleinen zonder merkbaar visueel verlies.
 
-=======
->>>>>>> main
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## [Uitgebreide tabel‑tutorials in Aspose.PDF voor .NET](./net/tables/)
@@ -102,12 +99,9 @@ Leer hoe je tabellen kunt maken, opmaken en manipuleren in PDF‑documenten met 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-<<<<<<< optimize/pdf/net/20260214124714
 ## Tabel toevoegen PDF
 Tabellen zijn essentieel voor rapporten en facturen. Deze sectie bundelt de tabelgerelateerde tutorials en biedt een alles‑in‑één referentie voor het toevoegen, stijlen en pagineren van tabellen in PDF’s.
 
-=======
->>>>>>> main
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## [Uitgebreide tutorials voor tekstverwerking in Aspose.PDF voor .NET](./net/text/)

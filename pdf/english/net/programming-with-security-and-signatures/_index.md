@@ -35,6 +35,7 @@ pdf.Save("protected.pdf");
 | [Digitally Sign In PDF File](./digitally-sign/) | Learn how to digitally sign PDF files with Aspose.PDF for .NET. Step-by-step guide to ensure your documents are secure and authentic. |  
 | [Digitally Sign With Time Stamp In PDF File](./digitally-sign-with-time-stamp/) | Learn how to digitally sign a PDF with a timestamp using Aspose.PDF for .NET. This step-by-step guide covers prerequisites, certificate setup, timestamping, and more. |  
 | [Encrypt PDF File](./encrypt/) | Learn how to encrypt your PDF files effortlessly using Aspose.PDF for .NET. Secure sensitive information with our easy step-by-step guide. |  
+| [How to Use OCSP to Validate PDF Digital Signature in C#](./how-to-use-ocsp-to-validate-pdf-digital-signature-in-c/) | Learn how to validate PDF digital signatures using OCSP in C# with Aspose.PDF for .NET. Step‑by‑step guide for secure verification. |
 | [Extracting Image](./extracting-image/) | Easily learn how to extract images from PDFs using Aspose.PDF for .NET. Follow our step-by-step guide for seamless image extraction. |  
 | [Extract Signature Info](./extract-signature-info/) | Learn how to extract digital signatures and certificate information from PDF documents using Aspose.PDF for .NET. A complete step-by-step guide for C# developers. |  
 | [How to Validate Signatures in PDF using Aspose – C# Tutorial](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) | Learn how to validate PDF signatures using Aspose.PDF for .NET in C#. Step-by-step guide to ensure document authenticity. |  
@@ -54,6 +55,7 @@ pdf.Save("protected.pdf");
 | [Validate PDF Signature in C# – Step‑by‑Step Guide](./validate-pdf-signature-in-c-step-by-step-guide/) | Learn how to validate PDF signatures using Aspose.PDF for .NET in C#. Follow this step-by-step guide for verification and integrity checks. |
 | [Create PDF Signature Handler – List Signatures in C#](./create-pdf-signature-handler-list-signatures-in-c/) | Learn how to list PDF signatures using a signature handler in C# with Aspose.PDF for .NET. Step-by-step guide. |
 | [Create Signed PDF in C# – Step‑by‑Step Guide](./create-signed-pdf-in-c-step-by-step-guide/) | Learn how to create a signed PDF in C# using Aspose.PDF for .NET. Follow this step-by-step guide to add digital signatures. |  
+| [Verify PDF signature in C# – Step‑by‑Step Guide](./verify-pdf-signature-in-c-step-by-step-guide/) | Learn how to verify PDF signatures in C# using Aspose.PDF for .NET. Step-by-step guide ensures accurate validation of digital signatures. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

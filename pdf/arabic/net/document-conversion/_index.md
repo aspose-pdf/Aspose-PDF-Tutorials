@@ -59,6 +59,7 @@
 | [إنشاء HTML من PDF باستخدام C# – دليل خطوة بخطوة كامل](./create-html-from-pdf-in-c-complete-step-by-step-guide/) |تعرف على كيفية إنشاء ملفات HTML من مستندات PDF باستخدام Aspose.PDF لـ .NET في دليل شامل خطوة بخطوة. |  
 | [PDF إلى PDFA](./pdf-to-pdfa/) |تعرف على كيفية تحويل ملفات PDF إلى تنسيق PDF/A باستخدام Aspose.PDF لـ .NET من خلال هذا البرنامج التعليمي خطوة بخطوة. |  
 | [كيفية تعيين ICC في تحويل Aspose PDF – دليل كامل](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | تعلم كيفية تعيين ملف ICC أثناء تحويل المستندات باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |
+| [تحويل Aspose PDF في C# – دليل خطوة بخطوة](./aspose-pdf-conversion-in-c-step-by-step-guide/) |تعلم كيفية تحويل ملفات PDF باستخدام Aspose.PDF في C# عبر دليل خطوة بخطوة. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

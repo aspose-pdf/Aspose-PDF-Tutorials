@@ -40,6 +40,8 @@ Ismerje meg, hogyan validálhatja a PDF dokumentumokat a PDF/A szabványoknak me
 
 ### [PDF/A fájl létrehozása C#-ban – Teljes konverziós útmutató](./create-pdf-a-file-in-c-full-conversion-tutorial/)
 Tanulja meg, hogyan hozhat létre PDF/A fájlokat C#-ban a teljes konverziós folyamat részletes lépéseivel.
+### [Hogyan készítsünk PDF/A-t C#-ban – Lépésről lépésre Aspose útmutató](./how-to-create-pdf-a-in-c-step-by-step-aspose-guide/)
+Tanulja meg, hogyan hozhat létre PDF/A kompatibilis dokumentumokat C#-ban az Aspose.PDF .NET segítségével, részletes kódpéldákkal.
 
 ## További források
 

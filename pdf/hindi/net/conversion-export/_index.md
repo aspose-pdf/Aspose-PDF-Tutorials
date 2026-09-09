@@ -235,6 +235,7 @@ Aspose.PDF नेट के लिए एक कोड ट्यूटोरि�
 
 ### [Aspose के साथ PDF को कैसे सहेजें – चरण‑दर‑चरण गाइड](./how-to-save-pdf-with-aspose-step-by-step-guide/)
 Aspose का उपयोग करके PDF को सुरक्षित रूप से सहेजने के लिए चरण‑दर‑चरण निर्देश।
+### [Aspose.PDF के साथ PDF को HTML के रूप में सहेजें – त्वरित C# गाइड](./save-pdf-as-html-with-aspose-pdf-quick-c-guide/)
 
 ## अतिरिक्त संसाधन
 

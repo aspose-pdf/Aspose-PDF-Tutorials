@@ -71,6 +71,9 @@
 ### [ดึงลายเซ็นจาก PDF ด้วย Aspose.Pdf – คู่มือฉบับสมบูรณ์](./extract-signatures-from-pdf-with-aspose-pdf-complete-guide/)
 เรียนรู้วิธีดึงลายเซ็นทั้งหมดจากไฟล์ PDF ด้วย Aspose.Pdf พร้อมขั้นตอนและตัวอย่างโค้ดที่ครบถ้วน
 
+### [วิธีดึงลายเซ็นจาก PDF ด้วย C# – คู่มือทีละขั้นตอน](./how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/)
+เรียนรู้วิธีดึงลายเซ็นดิจิทัลจากไฟล์ PDF ด้วย C# อย่างละเอียดด้วยขั้นตอนที่ชัดเจน
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)

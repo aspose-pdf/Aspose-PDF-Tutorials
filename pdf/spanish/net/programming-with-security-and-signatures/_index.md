@@ -41,6 +41,8 @@ Este tutorial le ofrece una descripción detallada de los métodos y técnicas p
 | [Cargar documento PDF C# – Guía completa para leer y enumerar firmas](./load-pdf-document-c-complete-guide-to-reading-and-listing-si/) Aprenda a cargar documentos PDF en C#, leer y enumerar firmas digitales con Aspose.PDF para .NET. Guía paso a paso.  
 | [Verificar firma PDF en C# – Guía completa paso a paso](./verify-pdf-signature-in-c-complete-step-by-step-guide/) Aprenda a verificar firmas digitales en documentos PDF usando C# con Aspose.PDF para .NET. Guía paso a paso.  
 | [Crear PDF firmado en C# – Guía paso a paso](./create-signed-pdf-in-c-step-by-step-guide/) Aprenda a crear un PDF firmado en C# con Aspose.PDF para .NET paso a paso.  
+| [Verificar firma PDF en C# – Guía paso a paso](./verify-pdf-signature-in-c-step-by-step-guide/) Aprenda a verificar firmas PDF en C# con Aspose.PDF paso a paso, asegurando la autenticidad de sus documentos.  
+| [Cómo usar OCSP para validar la firma digital de PDF en C#](./how-to-use-ocsp-to-validate-pdf-digital-signature-in-c/) Aprenda a validar firmas digitales de PDF usando OCSP en C# con Aspose.PDF para .NET.  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -47,6 +47,8 @@ Este tutorial oferece uma visão geral detalhada de métodos e técnicas para ga
 | [Validar assinatura PDF em C# – Guia passo a passo](./validate-pdf-signature-in-c-step-by-step-guide/) | Aprenda a validar assinaturas PDF usando C# e Aspose.PDF para .NET. Guia passo a passo completo. |  
 | [Carregar documento PDF C# – Guia completo para leitura e listagem de assinaturas](./load-pdf-document-c-complete-guide-to-reading-and-listing-si/) | Aprenda a carregar documentos PDF em C#, ler e listar assinaturas digitais passo a passo. |  
 | [Criar PDF Assinado em C# – Guia Passo a Passo](./create-signed-pdf-in-c-step-by-step-guide/) | Aprenda a criar PDFs assinados em C# usando Aspose.PDF, com instruções detalhadas passo a passo. |  
+| [Verificar assinatura PDF em C# – Guia passo a passo](./verify-pdf-signature-in-c-step-by-step-guide/) | Aprenda a verificar assinaturas digitais em PDFs usando C# e Aspose.PDF, com instruções detalhadas passo a passo. |
+| [Como usar OCSP para validar assinatura digital de PDF em C#](./how-to-use-ocsp-to-validate-pdf-digital-signature-in-c/) | Aprenda a usar OCSP para validar assinaturas digitais de PDFs em C# com Aspose.PDF, passo a passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

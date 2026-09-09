@@ -71,6 +71,9 @@ Erfahren Sie, wie Sie PDF-Signaturen in C# mit Aspose.PDF überprüfen und die I
 ### [Signaturen aus PDF mit Aspose.PDF extrahieren – Vollständiger Leitfaden](./extract-signatures-from-pdf-with-aspose-pdf-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF alle Signaturen aus PDF-Dokumenten extrahieren und analysieren – Schritt-für-Schritt-Anleitung.
 
+### [Wie man Signaturen aus einer PDF in C# extrahiert – Schritt‑für‑Schritt‑Anleitung](./how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET Signaturen aus PDF‑Dateien in C# extrahieren. Praktische Schritt‑für‑Schritt‑Anleitung.
+
 ## Weitere Ressourcen
 
 - [Aspose.PDF für Net-Dokumentation](https://docs.aspose.com/pdf/net/)

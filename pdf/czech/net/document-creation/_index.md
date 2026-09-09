@@ -73,6 +73,12 @@ Naučte se, jak pomocí Aspose.PDF vytvořit PDF dokument krok za krokem s prakt
 Naučte se, jak v C# pomocí Aspose vytvořit PDF dokument krok za krokem s praktickými ukázkami kódu.
 ### [Vytvoření PDF dokumentu v C# – Přidání prázdné stránky a kreslení obdélníku](./create-pdf-document-c-add-blank-page-draw-rectangle/)
 Naučte se, jak vytvořit PDF dokument v C#, přidat prázdnou stránku a nakreslit obdélník pomocí Aspose.PDF pro .NET.
+### [Vytvořte PDF dokument v C# – Přidejte prázdnou stránku, tagy a span](./create-pdf-document-in-c-add-blank-page-tags-and-span/)
+Naučte se, jak v C# vytvořit PDF dokument, přidat prázdnou stránku, tagy a span pro lepší strukturu a formátování.
+
+### [Jak vytvořit PDF v C# – Přidat stránku, nakreslit obdélník a uložit](./how-to-create-pdf-in-c-add-page-draw-rectangle-save/)
+Naučte se, jak v C# vytvořit PDF, přidat novou stránku, nakreslit obdélník a soubor uložit.
+
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)

@@ -72,6 +72,7 @@ Dönüştürme ayarlarını nasıl belirleyeceğinizi, metin ve görüntüleri n
 | [C# ile PDF'den HTML Oluşturma – Tam Adım Adım Kılavuz](./create-html-from-pdf-in-c-complete-step-by-step-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF dosyalarından HTML içeriği oluşturmayı adım adım öğrenin. |
 | [c# pdf dönüştürme öğreticisi – PDF'yi PDF/X-4'e dönüştür](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF'yi PDF/X-4 formatına nasıl dönüştüreceğinizi öğrenin. |
 | [Aspose PDF Dönüştürmede ICC Nasıl Ayarlanır – Tam Kılavuz](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | Bu adım adım kılavuzda Aspose.PDF for .NET ile PDF dönüştürürken ICC profillerini nasıl ayarlayacağınızı öğrenin. |
+| [Aspose PDF Dönüştürme C#'ta – Adım Adım Kılavuz](./aspose-pdf-conversion-in-c-step-by-step-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF dönüştürmeyi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

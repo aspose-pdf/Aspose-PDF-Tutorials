@@ -38,6 +38,8 @@ Aspose.PDF'nin .NET için "Pullar ve Filigranlarla Programlama" öğreticileri, 
 | [C#'ta PDF Şeffaflığını Değiştir – Tam Aspose Kılavuzu](./change-pdf-opacity-in-c-complete-aspose-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF sayfalarının şeffaflığını nasıl ayarlayacağınızı adım adım öğrenin. |  
 | [Bates Numaralandırması PDF Ekle – Tam C# Kılavuzu](./add-bates-numbering-pdf-complete-c-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF dosyalarına Bates numaralandırması eklemeyi adım adım öğrenin. |
 | [Gizli filigran PDF'i Aspose ile: İlk Sayfaya Metin Damgası Ekle](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) | Aspose.PDF for .NET kullanarak PDF'inizin ilk sayfasına gizli bir metin damgası ekleyin. |  
+| [PDF Dosyasında Sayfa Numarası Damgaları](./page-number-stamps/) Kolay takip edilebilir kılavuzumuz ve kod örneğimizle Aspose.PDF for .NET'i kullanarak PDF dosyalarına sayfa numarası damgalarının nasıl ekleneceğini öğrenin.  
+| [PDF'yi Kaydet — Aspose.Pdf ile Bates Numaralandırma Ekle](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) | Aspose.PDF for .NET kullanarak PDF dosyalarına Bates numaralandırması eklemeyi adım adım öğrenin. |  
 
 | [C# ile Bates Numaralandırma PDF Ekle – Tam Kılavuz](./add-bates-numbering-pdf-in-c-complete-guide/) | Aspose.PDF for .NET kullanarak PDF dosyalarına Bates numaralandırma eklemeyi adım adım öğrenin. |  
 | [PDF Dosyasında Hizalamayı Tanımla](./define-alignment/) | Bu kılavuz, .NET için Aspose.PDF'yi kullanarak PDF dosyalarında metin hizalamasının nasıl tanımlanacağını adım adım bir eğitimle birlikte ele almaktadır. |

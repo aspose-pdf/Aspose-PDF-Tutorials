@@ -52,6 +52,11 @@ Naučte se, jak odebrat vložené fonty ze souborů PDF pomocí Aspose.PDF pro .
 
 ### [Optimalizace obrázků PDF – Zmenšení velikosti PDF souboru pomocí C#](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
 Naučte se, jak optimalizovat obrázky v PDF a snížit velikost souboru pomocí C# a Aspose.PDF.
+### [Jak komprimovat PDF pomocí Aspose – Rychlý průvodce C#](./how-to-compress-pdf-with-aspose-quick-c-guide/)
+Rychlý návod, jak pomocí Aspose.PDF v C# komprimovat PDF soubory a snížit jejich velikost.
+
+### [Uložení optimalizovaného PDF v C# – Snížení velikosti a vyčištění stránek](./save-optimized-pdf-in-c-reduce-size-clean-pages/)
+Naučte se, jak uložit optimalizovaný PDF soubor v C#, snížit jeho velikost a vyčistit nepotřebné stránky.
 
 ## Další zdroje
 

@@ -42,6 +42,7 @@
 | [ข้อความในส่วนหัวของไฟล์ PDF](./text-in-header/) | เรียนรู้การเพิ่มส่วนหัวข้อความในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนนี้ ปรับปรุงเอกสารของคุณอย่างมีประสิทธิภาพและมีประสิทธิผล |  
 | [ลายน้ำความลับ PDF ด้วย Aspose: เพิ่มแสตมป์ข้อความในหน้าแรก](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) | เรียนรู้วิธีเพิ่มแสตมป์ข้อความลายน้ำความลับลงในหน้าแรกของไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET |
 - [บทช่วยสอนบาเตส: เพิ่มหมายเลขบาเตสลงใน PDF ด้วย C#](./bates-numbering-tutorial-add-bates-numbers-to-pdfs-with-c/) เรียนรู้วิธีเพิ่มหมายเลขบาเตสลงในไฟล์ PDF ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET ด้วยขั้นตอนที่ชัดเจน
+| [วิธีบันทึก PDF — เพิ่มหมายเลข Bates ด้วย Aspose.PDF](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) | เรียนรู้วิธีเพิ่มหมายเลข Bates ลงในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือขั้นตอนที่ชัดเจน |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

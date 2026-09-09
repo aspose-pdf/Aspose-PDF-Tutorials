@@ -66,8 +66,9 @@ Du lär dig hur du anger konverteringsinställningar, extraherar text och bilder
 | [Hur du konverterar PDF med Aspose.Pdf – Komplett C#-guide](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | Lär dig steg för steg hur du konverterar PDF-filer med Aspose.Pdf i C#. |
 | [Spara PDF som HTML – Behåll vektorer och inaktivera rasterisering](./save-pdf-as-html-keep-vectors-disable-rasterization/) | Lär dig hur du sparar PDF som HTML med vektorgrafik bevarad och utan rasterisering med Aspose.PDF för .NET. |  
 | [Hur du sparar PDF med Aspose – Komplett C#-konverteringsguide](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) | Lär dig hur du sparar PDF-filer med Aspose i en komplett C#-konverteringsguide. |  
+| [XPS till PDF](./xps-to-pdf/) Lär dig hur du konverterar XPS-filer till PDF med Aspose.PDF för .NET med den här steg-för-steg-handledningen. Perfekt för utvecklare och dokumententusiaster. |  
+| [Aspose PDF‑konvertering i C# – Steg‑för‑steg‑guide](./aspose-pdf-conversion-in-c-step-by-step-guide/) | Lär dig hur du konverterar PDF-filer med Aspose.PDF för .NET i C# i denna steg‑för‑steg‑guide. |  
 
-| [XPS till PDF](./xps-to-pdf/) Lär dig hur du konverterar XPS-filer till PDF med Aspose.PDF för .NET med den här steg-för-steg-handledningen. Perfekt för utvecklare och dokumententusiaster. |
 | [Konvertera docx till pdf i C# – Komplett steg‑för‑steg‑guide](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Lär dig hur du konverterar DOCX-filer till PDF med Aspose.PDF för .NET i en komplett steg‑för‑steg‑guide för C#. |
 | [Spara dokument PDF – Hur man lägger till ellips & konverterar DOCX till PDF](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | Lär dig spara ett PDF-dokument, lägga till en ellips och konvertera DOCX-filer till PDF med Aspose.PDF för .NET. |
 | [c# pdf-konverteringshandledning – konvertera pdf till pdf/x-4](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) | Lär dig hur du konverterar PDF-filer till PDF/X-4 med Aspose.PDF för .NET i en steg-för-steg-guide. |

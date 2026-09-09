@@ -50,6 +50,9 @@
 ### [استخراج التوقيعات من ملفات PDF باستخدام Aspose.Pdf – دليل شامل](./extract-signatures-from-pdf-with-aspose-pdf-complete-guide/)
 تعرف على كيفية استخراج جميع التوقيعات من ملفات PDF باستخدام Aspose.Pdf خطوة بخطوة في هذا الدليل الكامل.
 
+### [كيفية استخراج التوقيعات من ملف PDF باستخدام C# – دليل خطوة بخطوة](./how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/)
+تعلم استخراج التوقيعات الرقمية من ملفات PDF باستخدام C# خطوة بخطوة مع Aspose.PDF.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

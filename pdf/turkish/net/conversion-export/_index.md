@@ -158,6 +158,10 @@ Aspose.PDF for .NET kullanarak PDF'yi HTML'ye dönüştürmeyi nasıl optimize e
 Aspose.PDF for .NET kullanarak PDF belgelerini harici PNG görüntüleriyle HTML'ye nasıl dönüştüreceğinizi öğrenin. Bu kılavuz düzenin korunmasını ve web performansı optimizasyonunu sağlar.
 ### [Aspose.PDF .NET ile PDF'yi HTML'ye Dönüştürme: Kapsamlı Bir Kılavuz](./aspose-pdf-net-pdf-to-html-conversion/)
 Aspose.PDF for .NET kullanarak PDF'den HTML'e dönüştürmede ustalaşın. Özelleştirilebilir seçeneklerle belge erişilebilirliğini ve etkileşimini geliştirin.
+
+### [Aspose.PDF .NET Kullanarak PDF'yi HTML'ye Kaydet – Hızlı C# Kılavuzu](./save-pdf-as-html-with-aspose-pdf-quick-c-guide/)
+Aspose.PDF for .NET kullanarak PDF dosyalarını hızlı bir şekilde HTML'ye dönüştürmeyi ve C# kod örneklerini öğrenin.
+
 ### [Aspose.PDF for .NET ile PDF'yi HTML'ye Dönüştürme](./pdf-to-html-conversion-aspose-dot-net/)
 Aspose.PDF Net için bir kod öğreticisi
 ### [Aspose.PDF Kullanarak .NET'te PDF'yi TIFF'e Dönüştürme: Adım Adım Kılavuz](./pdf-to-tiff-conversion-aspose-pdf-net/)

@@ -46,6 +46,7 @@ Aspose.PDFs handledningar "Programmering med stämplar och vattenstämplar" för
 | [Hur man lägger till Bates – Steg‑för‑steg‑guide för PDF-filer](./how-to-add-bates-step-by-step-guide-for-pdfs/) | Lär dig hur du lägger till Bates‑nummer i PDF-filer med Aspose.PDF för .NET i en enkel steg‑för‑steg‑guide. |  
 | [Ändra PDF-opacitet med Aspose.PDF – Fullständig C#-guide](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) | Lär dig hur du ändrar genomskinligheten i PDF-filer med Aspose.PDF för .NET i en komplett C#-guide. |  
 | [Konfidentiell vattenstämpel PDF med Aspose: Lägg till en textstämpel på första sidan](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) | Lär dig hur du lägger till en textstämpel på första sidan för konfidentiell vattenstämpel med Aspose.PDF för .NET. |  
+| [Spara PDF — Lägg till Bates-nummerering med Aspose.Pdf](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) | Lär dig hur du sparar en PDF och lägger till Bates-nummerering med Aspose.PDF för .NET i en steg-för-steg-guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

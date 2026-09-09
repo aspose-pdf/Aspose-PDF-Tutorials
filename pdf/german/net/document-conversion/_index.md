@@ -72,6 +72,7 @@ Sie lernen, wie Sie Konvertierungseinstellungen festlegen, Text und Bilder extra
 | [HTML aus PDF in C# erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-html-from-pdf-in-c-complete-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET HTML aus einer PDF-Datei in C# generieren – detaillierte Schritt‑für‑Schritt‑Anleitung. |
 | [c# PDF-Konvertierungstutorial – PDF zu PDF/X-4 konvertieren](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET PDF-Dateien in das PDF/X-4-Format konvertieren. |
 | [Wie man ICC in Aspose PDF-Konvertierung festlegt – Vollständige Anleitung](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | Erfahren Sie, wie Sie ICC‑Profile in Aspose.PDF für .NET bei der PDF‑Konvertierung festlegen – Schritt‑für‑Schritt‑Anleitung. |
+| [Aspose PDF-Konvertierung in C# – Schritt‑für‑Schritt‑Anleitung](./aspose-pdf-conversion-in-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Dateien in C# Schritt für Schritt konvertieren. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

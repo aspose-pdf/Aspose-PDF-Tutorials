@@ -40,6 +40,8 @@ Erfahren Sie, wie Sie PDF-Dokumente mit Aspose.PDF .NET anhand von PDF/A-Standar
 
 ### [PDF/A-Datei in C# erstellen – Vollständiges Konvertierungstutorial](./create-pdf-a-file-in-c-full-conversion-tutorial/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET eine PDF/A-Datei in C# vollständig konvertieren und archivieren.
+### [Wie man PDF/A in C# erstellt – Schritt‑für‑Schritt Aspose‑Leitfaden](./how-to-create-pdf-a-in-c-step-by-step-aspose-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF in C# PDF/A‑konforme Dokumente Schritt für Schritt erstellen.
 
 ## Weitere Ressourcen
 

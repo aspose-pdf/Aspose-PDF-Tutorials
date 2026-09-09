@@ -52,6 +52,11 @@ Learn how to unembed fonts from your PDF files using Aspose.PDF for .NET. Optimi
 
 ### [Optimize PDF Images – Reduce PDF File Size with C#](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
 Learn how to reduce PDF file size by optimizing images using C# and Aspose.PDF for .NET.
+### [How to compress pdf with Aspose – Quick C# Guide](./how-to-compress-pdf-with-aspose-quick-c-guide/)
+Learn a quick C# method to compress PDFs using Aspose.PDF, improving file size and performance in just a few steps.
+
+### [Save Optimized PDF in C# – Reduce Size & Clean Pages](./save-optimized-pdf-in-c-reduce-size-clean-pages/)
+Learn how to save optimized PDFs in C#, reducing file size and removing unnecessary pages for better performance.
 
 ## Additional Resources
 

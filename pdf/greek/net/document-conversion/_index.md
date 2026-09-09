@@ -72,6 +72,7 @@
 | [Προσθήκη αριθμού Bates σε DOCX και μετατροπή σε PDF – Πλήρης οδηγός C#](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | Μάθετε πώς να προσθέσετε αριθμό Bates σε έγγραφα DOCX και να τα μετατρέψετε σε PDF χρησιμοποιώντας C# με το Aspose.PDF για .NET. |
 | [Αποθήκευση εγγράφου PDF – Πώς να προσθέσετε έλλειψη & να μετατρέψετε DOCX σε PDF](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | Μάθετε πώς να αποθηκεύσετε ένα PDF, να προσθέσετε έλλειψη και να μετατρέψετε DOCX σε PDF χρησιμοποιώντας Aspose.PDF για .NET. |
 | [Πώς να ορίσετε ICC στη μετατροπή Aspose PDF – Πλήρης Οδηγός](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | Μάθετε πώς να ορίσετε το προφίλ χρωμάτων ICC κατά τη μετατροπή PDF με το Aspose.PDF για .NET σε αυτόν τον πλήρη οδηγό. |
+| [Μετατροπή Aspose PDF σε C# – Οδηγός βήμα‑βήμα](./aspose-pdf-conversion-in-c-step-by-step-guide/) | Μάθετε πώς να μετατρέπετε έγγραφα PDF χρησιμοποιώντας Aspose.PDF για .NET σε C# με αυτόν τον αναλυτικό οδηγό βήμα‑βήμα. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -73,6 +73,12 @@ Aspose.PDF を使用して、.NET で PDF ドキュメントを最初から作�
 Aspose を使用し、C# で PDF ドキュメントを作成する手順をステップバイステップで解説します。
 ### [C# で PDF ドキュメントを作成 – 空白ページの追加と矩形の描画](./create-pdf-document-c-add-blank-page-draw-rectangle/)
 Aspose.PDF for .NET を使用して、C# で空白ページを追加し、矩形を描画する方法をステップバイステップで解説します。
+### [C# で PDF ドキュメントを作成 – 空白ページ、タグ、スパンの追加](./create-pdf-document-in-c-add-blank-page-tags-and-span/)
+C# を使用して空白ページやタグ、スパンを含む PDF ドキュメントを作成する方法を学びます。
+
+### [C# で PDF を作成する方法 – ページ追加、矩形描画、保存](./how-to-create-pdf-in-c-add-page-draw-rectangle-save/)
+C# を使用してページを追加し、矩形を描画して PDF を保存する手順を学びます。
+
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)

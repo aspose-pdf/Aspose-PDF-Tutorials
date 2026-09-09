@@ -72,6 +72,9 @@ Aprenda a cargar un PDF firmado y obtener una lista de sus firmas usando C# y As
 Aprenda a validar la firma de un PDF y a dibujar un rectángulo en él usando Aspose.PDF para .NET.
 ### [Exportar PDF a HTML y validar la firma del PDF con Aspose](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
 Aprenda a convertir PDFs a HTML y a validar sus firmas digitales usando Aspose.PDF para .NET.
+### [Cómo extraer firmas de un PDF en C# – Guía paso a paso](./how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/)
+Aprenda a extraer firmas digitales de PDFs con C# y Aspose.PDF paso a paso.
+
 ## Recursos adicionales
 
 - [Documentación de Aspose.PDF para la red](https://docs.aspose.com/pdf/net/)

@@ -52,6 +52,10 @@ Tìm hiểu cách bỏ nhúng phông chữ khỏi tệp PDF của bạn bằng A
 
 ### [Tối ưu hóa hình ảnh PDF – Giảm kích thước tệp PDF bằng C#](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
 Tìm hiểu cách giảm kích thước tệp PDF bằng cách tối ưu hóa hình ảnh sử dụng C# và Aspose.PDF.
+### [Cách nén PDF với Aspose – Hướng dẫn nhanh C#](./how-to-compress-pdf-with-aspose-quick-c-guide/)
+Hướng dẫn nhanh cách nén tệp PDF bằng Aspose.PDF trong C#, giảm kích thước và cải thiện hiệu suất.
+
+### [Lưu PDF đã tối ưu trong C# – Giảm kích thước & Dọn dẹp các trang](./save-optimized-pdf-in-c-reduce-size-clean-pages/)
 
 ## Tài nguyên bổ sung
 

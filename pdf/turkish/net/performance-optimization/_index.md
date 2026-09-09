@@ -52,6 +52,11 @@ Aspose.PDF for .NET kullanarak PDF dosyalarınızdaki yazı tiplerini nasıl kal
 
 ### [PDF Görsellerini Optimize Edin – C# ile PDF Dosya Boyutunu Küçültün](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
 C# kullanarak PDF içindeki görüntüleri sıkıştırarak dosya boyutunu nasıl küçülteceğinizi öğrenin.
+### [Aspose ile PDF sıkıştırma – Hızlı C# Kılavuzu](./how-to-compress-pdf-with-aspose-quick-c-guide/)
+Aspose.PDF kullanarak PDF dosyalarını hızlı ve etkili bir şekilde sıkıştırmayı gösteren adım adım C# rehberi.
+
+### [C# ile Optimize Edilmiş PDF Kaydet – Boyutu Küçült ve Sayfaları Temizle](./save-optimized-pdf-in-c-reduce-size-clean-pages/)
+C# kod örnekleriyle PDF dosyalarını sıkıştırın, gereksiz sayfaları kaldırın ve dosya boyutunu minimuma indirin.
 
 ## Ek Kaynaklar
 

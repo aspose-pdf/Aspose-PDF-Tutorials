@@ -40,6 +40,8 @@ Aspose.PDF .NET을 사용하여 PDF/A 표준에 따라 PDF 문서를 검증하�
 
 ### [C#에서 PDF/A 파일 만들기 – 전체 변환 튜토리얼](./create-pdf-a-file-in-c-full-conversion-tutorial/)
 C#으로 PDF를 PDF/A 파일로 완전 변환하는 단계별 가이드를 제공합니다.
+### [C#에서 PDF/A를 만드는 방법 – 단계별 Aspose 가이드](./how-to-create-pdf-a-in-c-step-by-step-aspose-guide/)
+C# 코드를 사용해 PDF/A 문서를 생성하는 방법을 단계별로 안내하는 Aspose 가이드
 
 ## 추가 자료
 

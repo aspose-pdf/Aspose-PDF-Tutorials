@@ -52,6 +52,11 @@ Découvrez comment désincorporer les polices de vos fichiers PDF avec Aspose.PD
 
 ### [Optimiser les images PDF – Réduire la taille du fichier PDF avec C#](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
 Apprenez à compresser et redimensionner les images dans les PDF en C# pour diminuer la taille du fichier tout en conservant la qualité.
+### [Comment compresser un PDF avec Aspose – Guide rapide C#](./how-to-compress-pdf-with-aspose-quick-c-guide/)
+Apprenez à compresser rapidement des fichiers PDF avec Aspose en utilisant C#, grâce à ce guide pratique.
+
+### [Enregistrer un PDF optimisé en C# – réduire la taille et nettoyer les pages](./save-optimized-pdf-in-c-reduce-size-clean-pages/)
+Apprenez à enregistrer un PDF optimisé en C#, réduire sa taille et supprimer les pages inutiles pour améliorer les performances.
 
 ## Ressources supplémentaires
 

@@ -40,6 +40,8 @@ Naučte se, jak ověřovat PDF dokumenty podle standardů PDF/A pomocí Aspose.P
 
 ### [Vytvoření souboru PDF/A v C# – Kompletní průvodce konverzí](./create-pdf-a-file-in-c-full-conversion-tutorial/)
 Naučte se, jak v C# pomocí Aspose.PDF vytvořit PDF/A soubor a provést kompletní konverzi od začátku až do konce.
+### [Jak vytvořit PDF/A v C# – krok za krokem průvodce Aspose](./how-to-create-pdf-a-in-c-step-by-step-aspose-guide/)
+Naučte se, jak pomocí Aspose.PDF pro .NET vytvořit PDF/A dokumenty v C# krok za krokem.
 
 ## Další zdroje
 

@@ -72,6 +72,7 @@ Imparerai come specificare le impostazioni di conversione, estrarre testo e imma
 | [c# tutorial di conversione PDF – converti PDF in PDF/X-4](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) | Scopri come convertire un file PDF in PDF/X-4 utilizzando Aspose.PDF per .NET con questo tutorial passo passo. |
 | [Crea HTML da PDF in C# – Guida completa passo‑passo](./create-html-from-pdf-in-c-complete-step-by-step-guide/) | Scopri come generare HTML da un PDF usando Aspose.PDF per .NET in C# con questa guida dettagliata passo passo. |
 | [Come impostare ICC nella conversione PDF di Aspose – Guida completa](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | Scopri come impostare il profilo ICC durante la conversione PDF con Aspose.PDF per .NET in questa guida completa passo passo. |
+| [Conversione PDF Aspose in C# – Guida passo passo](./aspose-pdf-conversion-in-c-step-by-step-guide/) | Scopri come convertire documenti PDF in C# utilizzando Aspose.PDF con questa guida dettagliata passo passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

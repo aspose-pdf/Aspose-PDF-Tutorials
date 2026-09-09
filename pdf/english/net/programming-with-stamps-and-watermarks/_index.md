@@ -46,6 +46,7 @@ Aspose.PDF's "Programming with Stamps and Watermarks" tutorials for .NET walk yo
 | [Add Bates Numbering PDF in C# – Complete Guide](./add-bates-numbering-pdf-in-c-complete-guide/) | Learn how to add Bates numbering to PDF files using Aspose.PDF for .NET with a comprehensive C# guide. |  
 | [How to Add Bates – Step‑by‑Step Guide for PDFs](./how-to-add-bates-step-by-step-guide-for-pdfs/) | Learn how to add Bates numbering to PDF files using Aspose.PDF for .NET with a step-by-step guide and sample code. |
 | [Change PDF Opacity with Aspose.PDF – Complete C# Guide](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) | Learn how to change PDF opacity using Aspose.PDF for .NET with a complete C# guide. |
+| [How to Save PDF — Add Bates Numbering with Aspose.Pdf](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) | Learn how to add Bates numbering when saving PDF files using Aspose.PDF for .NET with this step-by-step guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -47,6 +47,8 @@
 | [Επικύρωση υπογραφής PDF σε C# – Οδηγός βήμα προς βήμα](./validate-pdf-signature-in-c-step-by-step-guide/) | Μάθετε πώς να επικυρώνετε υπογραφές PDF σε C# με το Aspose.PDF για .NET, ακολουθώντας έναν πλήρη οδηγό βήμα‑βήμα. |
 | [Φόρτωση εγγράφου PDF C# – Πλήρης οδηγός ανάγνωσης και καταγραφής υπογραφών](./load-pdf-document-c-complete-guide-to-reading-and-listing-si/) | Μάθετε πώς να φορτώνετε PDF σε C# και να διαβάζετε και να καταγράφετε τις ψηφιακές υπογραφές. |  
 | [Δημιουργία υπογεγραμμένου PDF σε C# – Οδηγός βήμα προς βήμα](./create-signed-pdf-in-c-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε υπογεγραμμένα PDF με C# χρησιμοποιώντας το Aspose.PDF για .NET, βήμα προς βήμα. |  
+| [Επαλήθευση υπογραφής PDF σε C# – Οδηγός βήμα προς βήμα](./verify-pdf-signature-in-c-step-by-step-guide/) | Μάθετε πώς να επαληθεύετε ψηφιακές υπογραφές PDF σε C# χρησιμοποιώντας το Aspose.PDF για .NET, βήμα προς βήμα. |  
+| [Πώς να χρησιμοποιήσετε OCSP για την επαλήθευση ψηφιακής υπογραφής PDF σε C#](./how-to-use-ocsp-to-validate-pdf-digital-signature-in-c/) | Μάθετε πώς να χρησιμοποιείτε το OCSP για την επαλήθευση ψηφιακών υπογραφών PDF σε C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -46,6 +46,8 @@ Ce tutoriel vous offre un aperçu détaillé des méthodes et techniques permett
 | [Créer un gestionnaire de signature PDF – Lister les signatures en C#](./create-pdf-signature-handler-list-signatures-in-c/) | Apprenez à créer un gestionnaire de signatures PDF et à lister les signatures existantes en C# avec Aspose.PDF. |  
 | [Charger un document PDF C# – Guide complet pour lire et lister les signatures](./load-pdf-document-c-complete-guide-to-reading-and-listing-si/) | Apprenez à charger un PDF, lire ses signatures et les répertorier avec Aspose.PDF pour .NET en C#. |  
 | [Créer un PDF signé en C# – Guide étape par étape](./create-signed-pdf-in-c-step-by-step-guide/) | Apprenez à créer un PDF signé en C# avec Aspose.PDF, étape par étape, pour garantir l’authenticité de vos documents. |  
+| [Vérifier la signature PDF en C# – Guide étape par étape](./verify-pdf-signature-in-c-step-by-step-guide/) | Apprenez à vérifier les signatures PDF en C# avec Aspose.PDF pour .NET. Guide complet étape par étape. |
+| [Comment utiliser OCSP pour valider la signature numérique PDF en C#](./how-to-use-ocsp-to-validate-pdf-digital-signature-in-c/) | Apprenez à valider les signatures PDF en utilisant le protocole OCSP avec Aspose.PDF pour .NET en C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

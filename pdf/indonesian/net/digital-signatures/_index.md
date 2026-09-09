@@ -73,6 +73,9 @@ Pelajari cara memverifikasi tanda tangan PDF menggunakan C# dan Aspose.Pdf, mema
 ### [Cara Memvalidasi Tanda Tangan PDF dan Menambahkan Penomoran Bates ke PDF](./how-to-validate-pdf-signature-and-add-bates-numbering-to-pdf/)
 Panduan langkah demi langkah untuk memverifikasi tanda tangan PDF dan menambahkan penomoran Bates menggunakan Aspose.PDF untuk .NET.
 
+### [Cara Mengekstrak Tanda Tangan dari PDF dengan C# – Panduan Langkah demi Langkah](./how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/)
+Pelajari cara mengekstrak tanda tangan digital dari file PDF menggunakan C# dan Aspose.PDF dalam panduan langkah demi langkah.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

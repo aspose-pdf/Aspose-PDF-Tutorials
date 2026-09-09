@@ -236,6 +236,8 @@ Lär dig hur du konverterar PDF-dokument till TIFF-bilder med Aspose.PDF för .N
 Lär dig hur du sparar PDF-filer med Aspose i .NET med tydliga steg‑för‑steg‑instruktioner och kodexempel.
 ### [Konvertera PDF till PNG i C# – Komplett steg‑för‑steg‑guide](./convert-pdf-to-png-in-c-complete-step-by-step-guide/)
 Lär dig hur du konverterar PDF-filer till PNG-bilder i C# med Aspose.PDF, steg för steg med kodexempel.
+### [Spara PDF som HTML med Aspose.PDF – Snabb C#-guide](./save-pdf-as-html-with-aspose-pdf-quick-c-guide/)
+Lär dig snabbt hur du sparar PDF som HTML med Aspose.PDF i C#.
 
 ## Ytterligare resurser
 

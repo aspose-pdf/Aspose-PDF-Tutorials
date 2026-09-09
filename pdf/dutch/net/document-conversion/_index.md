@@ -71,6 +71,7 @@ leert hoe u conversie-instellingen opgeeft, tekst en afbeeldingen extraheert, de
 | [Document PDF opslaan – Hoe een ellips toe te voegen en DOCX naar PDF converteren](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | Leer hoe u een PDF-document opslaat, een ellips toevoegt en een DOCX-bestand converteert naar PDF met Aspose.PDF voor .NET. |
 | [Hoe ICC in te stellen bij Aspose PDF-conversie – Complete gids](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | Leer hoe u ICC-profielen instelt tijdens PDF-conversie met Aspose.PDF voor .NET in deze volledige stap‑voor‑stap gids. |  
 | [c# pdf-conversietutorial – converteer pdf naar pdf/x-4](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) | Leer hoe u PDF's converteert naar PDF/X‑4 met Aspose.PDF voor .NET in deze stapsgewijze tutorial. |  
+| [Aspose PDF-conversie in C# – Stapsgewijze handleiding](./aspose-pdf-conversion-in-c-step-by-step-guide/) | Leer hoe u PDF-bestanden converteert met Aspose.PDF voor .NET in C# met deze stapsgewijze handleiding. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

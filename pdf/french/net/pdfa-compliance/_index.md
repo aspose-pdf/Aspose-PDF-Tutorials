@@ -40,6 +40,8 @@ Apprenez à valider vos documents PDF selon les normes PDF/A avec Aspose.PDF .NE
 
 ### [Créer un fichier PDF/A en C# – Tutoriel complet de conversion](./create-pdf-a-file-in-c-full-conversion-tutorial/)
 Apprenez à créer et convertir des documents en PDF/A en C# avec un guide complet, incluant du code exemple et les meilleures pratiques.
+### [Comment créer un PDF/A en C# – Guide Aspose étape par étape](./how-to-create-pdf-a-in-c-step-by-step-aspose-guide/)
+Apprenez à générer des fichiers PDF/A conformes en C# grâce à ce guide détaillé d'Aspose, étape par étape.
 
 ## Ressources supplémentaires
 

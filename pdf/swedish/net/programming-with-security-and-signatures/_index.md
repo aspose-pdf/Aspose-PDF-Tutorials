@@ -47,6 +47,8 @@ Handledningen ger dig en detaljerad översikt över metoder och tekniker för at
 | [Validera PDF‑signatur i C# – Steg‑för‑steg‑guide](./validate-pdf-signature-in-c-step-by-step-guide/) | Lär dig hur du validerar PDF‑signaturer i C# med Aspose.PDF för .NET. En komplett steg‑för‑steg‑guide. |
 | [Läs PDF-dokument C# – Komplett guide för att läsa och lista signaturer](./load-pdf-document-c-complete-guide-to-reading-and-listing-si/) | Lär dig hur du läser ett PDF-dokument i C# och listar alla digitala signaturer med Aspose.PDF för .NET. |
 | [Skapa signerat PDF i C# – steg‑för‑steg‑guide](./create-signed-pdf-in-c-step-by-step-guide/) | Lär dig hur du skapar ett signerat PDF-dokument i C# med Aspose.PDF för .NET i en detaljerad steg‑för‑steg‑guide. |  
+| [Verifiera PDF-signatur i C# – Steg‑för‑steg‑guide](./verify-pdf-signature-in-c-step-by-step-guide/) | Lär dig hur du verifierar en PDF-signatur i C# med Aspose.PDF för .NET i en tydlig steg‑för‑steg‑guide. |  
+| [Hur du använder OCSP för att validera PDF-digital signatur i C#](./how-to-use-ocsp-to-validate-pdf-digital-signature-in-c/) | Lär dig hur du använder OCSP för att verifiera PDF-digitala signaturer i C# med Aspose.PDF för .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

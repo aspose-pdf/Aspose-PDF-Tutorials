@@ -52,6 +52,11 @@ Aspose.PDF for .NET을 사용하여 PDF 파일에서 글꼴을 제거하는 방�
 
 ### [PDF 이미지 최적화 – C#로 PDF 파일 크기 줄이기](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
 C# 코드를 사용하여 PDF 이미지 압축 및 최적화 방법을 배우고, 파일 크기를 효과적으로 감소시켜 성능을 향상시키세요.
+### [Aspose를 사용하여 PDF 압축하기 – 빠른 C# 가이드](./how-to-compress-pdf-with-aspose-quick-c-guide/)
+Aspose.PDF를 활용해 C#에서 PDF 파일을 빠르게 압축하는 방법을 단계별로 안내합니다.
+
+### [C#에서 최적화된 PDF 저장 – 크기 축소 및 페이지 정리](./save-optimized-pdf-in-c-reduce-size-clean-pages/)
+C# 코드로 PDF를 최적화하여 파일 크기를 줄이고, 사용되지 않는 페이지를 정리하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

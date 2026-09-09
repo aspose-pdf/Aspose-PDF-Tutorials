@@ -71,6 +71,9 @@ C# ve Aspose.PDF ile PDF imzalarını doğrulamak için adım adım kılavuz.
 ### [Aspose.Pdf ile PDF'den İmzaları Çıkarma – Tam Kılavuz](./extract-signatures-from-pdf-with-aspose-pdf-complete-guide/)
 Aspose.Pdf kullanarak PDF dosyalarından dijital imzaları nasıl çıkaracağınızı öğrenin. Bu kılavuz adım adım örnekler içerir.
 
+### [C# ile PDF'den İmzaları Çıkarma – Adım Adım Kılavuz](./how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/)
+C# kullanarak Aspose.PDF ile PDF dosyalarından dijital imzaları çıkarmayı adım adım öğrenin.
+
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)
