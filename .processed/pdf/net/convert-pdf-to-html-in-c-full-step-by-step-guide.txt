@@ -1,0 +1,7 @@
+Title: Convert PDF to HTML in C# – Full Step‑by‑Step Guide
+Slug: convert-pdf-to-html-in-c-full-step-by-step-guide
+Category: conversion-export
+ProcessedDate: 2026-06-18T11:51:10.766695
+SourceRepo: AI Search API
+Keywords: convert pdf to html, load pdf document in c#
+PRNumber: 92

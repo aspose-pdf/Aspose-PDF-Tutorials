@@ -28,6 +28,7 @@ Aspose.PDF 的“文本编程”.NET 教程提供了全面的 PDF 文档文本�
 | [在 PDF 文件中添加带有底纹颜色的文本](./add-text-with-shading-colors/) 通过本分步教程学习如何使用 Aspose.PDF for .NET 在 PDF 文件中添加文本阴影。使用彩色渐变自定义您的文档。|  
 | [向 PDF 文件中的文本添加工具提示](./add-tooltip-to-text/) 了解如何使用 Aspose.PDF for .NET 为 PDF 文件中的文本添加工具提示。轻松使用信息丰富的悬停文本增强您的 PDF 效果。|  
 | [在 PDF 文件中添加透明文本](./add-transparent-text/) 学习如何使用 Aspose.PDF for .NET 轻松向 PDF 添加透明文本，本指南包含实现完美透明度的分步说明。|  
+| [在 PDF 文件中添加 Bates 编号](./add-bates-numbers-to-pdf-bates-numbering-pdf/) 学习如何使用 Aspose.PDF for .NET 在 PDF 文档中添加 Bates 编号，以实现文档的唯一标识和追踪。|  
 | [创建多列 PDF](./create-multi-column-pdf/) | 学习如何使用 Aspose.PDF for .NET 创建多列 PDF。本指南包含代码示例和详细解释，适合专业人士使用。|  
 | [PDF 文件中的自定义制表位](./custom-tab-stops/) 学习如何使用 Aspose.PDF for .NET 在 PDF 中设置自定义制表位。本教程将逐步讲解如何专业地对齐文本。|  
 | [确定 PDF 文件中的换行符](./determine-line-break/) 了解如何使用 Aspose.PDF for .NET 确定 PDF 文档中的换行符。面向开发人员的分步教程。|  

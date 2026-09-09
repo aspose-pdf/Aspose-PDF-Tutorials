@@ -1,254 +1,255 @@
 ---
 category: general
-date: 2026-02-23
-description: Vytvořte PDF dokument v C# rychle. Naučte se, jak přidávat stránky do
-  PDF, vytvářet pole formuláře PDF, jak vytvořit formulář a jak přidat pole s přehlednými
-  ukázkami kódu.
+date: 2026-02-25
+description: Vytvořte PDF dokument v C# s podrobným návodem krok za krokem. Naučte
+  se, jak přidávat stránky do PDF, jak propojit pole a jak uložit PDF v C# bez problémů.
 draft: false
 keywords:
 - create pdf document
 - add pages to pdf
-- create pdf form fields
-- how to create form
-- how to add field
+- how to link fields
+- how to create pdf
+- save pdf c#
 language: cs
-og_description: Vytvořte PDF dokument v C# s praktickým tutoriálem. Objevte, jak přidávat
-  stránky do PDF, vytvářet pole formuláře PDF, jak vytvořit formulář a jak během několika
-  minut přidat pole.
-og_title: Vytvořte PDF dokument v C# – Kompletní programovací průvodce
+og_description: Vytvořte PDF dokument v C# okamžitě. Tento průvodce ukazuje, jak přidávat
+  stránky do PDF, propojit pole napříč stránkami a uložit PDF v C# s čistým kódem.
+og_title: Vytvoření PDF dokumentu v C# – Kompletní programovací tutoriál
 tags:
-- C#
-- PDF
-- Form Generation
-title: Vytvořte PDF dokument v C# – krok za krokem
+- pdf
+- csharp
+- aspnet
+- form-fields
+title: Vytvořte PDF dokument v C# – průvodce krok za krokem
 url: /cs/net/document-creation/create-pdf-document-in-c-step-by-step-guide/
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+top button.
+
+Now produce final content with translation.
+
+Check for any missed items: The blockquote lines have bullet list; we translated.
+
+Make sure to keep markdown formatting: headings, blockquote, lists.
+
+Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvoření PDF dokumentu v C# – Kompletní programový průvodce
+# Vytvoření PDF dokumentu v C# – krok za krokem průvodce
 
-Už jste někdy potřebovali **vytvořit PDF dokument** v C#, ale nevedeli ste, kde začít? Nejste v tom sami – většina vývojářů narazí na tuto překážku, když poprvé zkusí automatizovat zprávy, faktury nebo smlouvy. Dobrá zpráva? Za pár minut budete mít plně vybavený PDF s více stránkami a synchronizovanými formulářovými poli a pochopíte **jak přidat pole**, které funguje napříč stránkami.
+Už jste někdy potřebovali **vytvořit pdf dokument** v C#, ale nebyli jste si jisti, kde začít? Nejste v tom sami — vývojáři se neustále ptají, jak generovat PDF za běhu pro faktury, zprávy nebo interaktivní formuláře. V tomto tutoriálu projdeme kompletní, spustitelný příklad, který vám ukáže, jak přidat stránky do pdf, propojit pole napříč těmito stránkami a nakonec **uložit pdf c#** na disk.
 
-V tomto tutoriálu projdeme celý proces: od inicializace PDF, přes **add pages to PDF**, až po **create PDF form fields**, a nakonec odpovíme na **how to create form**, který sdílí jednu hodnotu. Nepotřebujete žádné externí odkazy, jen solidní ukázkový kód, který můžete zkopírovat a vložit do svého projektu. Na konci budete schopni vygenerovat PDF, které vypadá profesionálně a chová se jako reálný formulář.
+Probereme vše od inicializace objektu dokumentu až po propojení sdílených polí formuláře, takže můžete kód zkopírovat do svého projektu a okamžitě vidět, jak funguje. Žádné vágní odkazy, jen konkrétní kód a jasná vysvětlení.
+
+> **Co se naučíte**  
+> * Jak vytvořit PDF dokument pomocí knihovny Aspose.PDF pro .NET.  
+> * Jak přidat více stránek do pdf a přesně umístit widgety.  
+> * Jak propojit pole tak, aby se jediný vstup uživatele zobrazoval na každé stránce.  
+> * Jak bezpečně uložit pdf c# a řešit běžné úskalí.  
 
 ## Požadavky
 
-- .NET 6.0 nebo novější (kód funguje také s .NET Framework 4.6+)
-- Knihovna PDF, která poskytuje `Document`, `PdfForm`, `TextBoxField` a `Rectangle` (např. Spire.PDF, Aspose.PDF nebo jakoukoli kompatibilní komerční/OSS knihovnu)
-- Visual Studio 2022 nebo vaše oblíbené IDE
-- Základní znalost C# (uvidíte, proč jsou volání API důležitá)
+* .NET 6.0 nebo novější (příklad funguje také s .NET Framework 4.6+).  
+* Visual Studio 2022 (nebo jakékoli IDE, které preferujete).  
+* NuGet balíček **Aspose.PDF for .NET** (`Install-Package Aspose.PDF`).  
+* Základní znalost syntaxe C# — není potřeba pokročilé znalosti PDF.
 
-> **Tip:** Pokud používáte NuGet, nainstalujte balíček pomocí `Install-Package Spire.PDF` (nebo ekvivalent pro vámi zvolenou knihovnu).  
+Pokud vám některý z těchto bodů není známý, věnujte rychlou minutu instalaci NuGet balíčku; zbytek průvodce předpokládá, že knihovna je již odkazována.
 
-Teď se ponořme.
+## Vytvoření PDF dokumentu – počáteční nastavení
 
----
-
-## Krok 1 – Vytvoření PDF dokumentu a přidání stránek
-
-Prvním, co potřebujete, je prázdné plátno. V terminologii PDF je plátno objekt `Document`. Jakmile jej máte, můžete **add pages to PDF** stejně jako přidáváte listy do zápisníku.
+První věc, kterou potřebujeme, je prázdné plátno. V Aspose.PDF je to reprezentováno třídou `Document`.
 
 ```csharp
-using Spire.Pdf;                 // Adjust the namespace to match your library
-using Spire.Pdf.Graphics;        // For Rectangle definition
+using Aspose.Pdf;
+using Aspose.Pdf.Annotations;
+using Aspose.Pdf.Text;
 
-// Step 1: Initialize a new PDF document
-Document pdfDocument = new Document();
-
-// Add two pages – page indices start at 0 internally, but the library uses 1‑based indexing for convenience
-pdfDocument.Pages.Add(); // Page 1
-pdfDocument.Pages.Add(); // Page 2
-```
-
-*Proč je to důležité:* Objekt `Document` obsahuje metadata na úrovni souboru, zatímco každý objekt `Page` ukládá své vlastní obsahové proudy. Přidání stránek předem vám poskytne místa, kam později umístit formulářová pole, a zjednodušuje logiku rozvržení.
-
----
-
-## Krok 2 – Nastavení kontejneru PDF formuláře
-
-PDF formuláře jsou v podstatě sbírky interaktivních polí. Většina knihoven poskytuje třídu `PdfForm`, kterou připojíte k dokumentu. Představte si ji jako „správce formuláře“, který ví, která pole patří k sobě.
-
-```csharp
-// Step 2: Create a form container linked to the document
-PdfForm pdfForm = new PdfForm(pdfDocument);
-```
-
-*Proč je to důležité:* Bez objektu `PdfForm` by přidaná pole byla statický text – uživatelé by nemohli nic psát. Kontejner vám také umožní přiřadit stejný název pole více widgetům, což je klíč k **how to add field** napříč stránkami.
-
----
-
-## Krok 3 – Vytvoření textového pole na první stránce
-
-Nyní vytvoříme textové pole, které bude na stránce 1. Obdélník určuje jeho pozici (x, y) a velikost (šířka, výška) v bodech (1 pt ≈ 1/72 palce).
-
-```csharp
-// Step 3: Define a TextBoxField on page 1
-TextBoxField firstPageField = new TextBoxField(
-    pdfDocument.Pages[0],                     // Zero‑based index for the first page
-    new Rectangle(100, 100, 200, 20)          // Left, Bottom, Width, Height
-);
-```
-
-*Proč je to důležité:* Souřadnice obdélníku vám umožní zarovnat pole s ostatním obsahem (např. popisky). Typ `TextBoxField` automaticky zpracovává vstup uživatele, kurzor a základní validaci.
-
----
-
-## Krok 4 – Duplikace pole na druhé stránce
-
-Pokud chcete, aby se stejná hodnota objevila na více stránkách, **create PDF form fields** s identickými názvy. Zde umístíme druhé textové pole na stránku 2 se stejnými rozměry.
-
-```csharp
-// Step 4: Define a matching TextBoxField on page 2
-TextBoxField secondPageField = new TextBoxField(
-    pdfDocument.Pages[1],                     // Second page (zero‑based index)
-    new Rectangle(100, 100, 200, 20)
-);
-```
-
-*Proč je to důležité:* Zrcadlením obdélníku pole vypadá napříč stránkami konzistentně – malý UX úspěch. Základní název pole spojí oba vizuální widgety.
-
----
-
-## Krok 5 – Přidání obou widgetů do formuláře se stejným názvem
-
-Toto je jádro **how to create form**, který sdílí jednu hodnotu. Metoda `Add` přijímá objekt pole, řetězcový identifikátor a volitelně číslo stránky. Použití stejného identifikátoru (`"myField"`) říká PDF enginu, že oba widgety představují stejné logické pole.
-
-```csharp
-// Step 5: Register both fields under the same name
-pdfForm.Add(firstPageField, "myField", 1);   // Page number is 1‑based for the API
-pdfForm.Add(secondPageField, "myField", 2);
-```
-
-*Proč je to důležité:* Když uživatel napíše do prvního textového pole, druhé pole se automaticky aktualizuje (a naopak). To je ideální pro více‑stránkové smlouvy, kde chcete mít jedno pole „Customer Name“ na vrcholu každé stránky.
-
----
-
-## Krok 6 – Uložení PDF na disk
-
-Nakonec dokument zapíšete. Metoda `Save` přijímá úplnou cestu; ujistěte se, že složka existuje a vaše aplikace má oprávnění k zápisu.
-
-```csharp
-// Step 6: Persist the PDF file
-pdfDocument.Save(@"C:\Temp\output.pdf");
-
-// Optionally open the file automatically (Windows only)
-System.Diagnostics.Process.Start(@"C:\Temp\output.pdf");
-```
-
-*Proč je to důležité:* Uložení dokončí interní proudy, zploští strukturu formuláře a připraví soubor k distribuci. Otevřením jej okamžitě ověříte.
-
----
-
-## Kompletní funkční příklad
-
-Níže je kompletní, připravený k spuštění program. Zkopírujte jej do konzolové aplikace, upravte `using` direktivy tak, aby odpovídaly vaší knihovně, a stiskněte **F5**.
-
-```csharp
-using System;
-using Spire.Pdf;                 // Replace with your PDF library namespace
-using Spire.Pdf.Graphics;        // For Rectangle
-
-namespace PdfFormDemo
+namespace PdfDemo
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            // 1️⃣ Create a new PDF document and add two pages
-            Document pdfDocument = new Document();
-            pdfDocument.Pages.Add(); // First page
-            pdfDocument.Pages.Add(); // Second page
+            // Step 1: Create a new PDF document
+            Document document = new Document();
+```
 
-            // 2️⃣ Initialize a PdfForm container
-            PdfForm pdfForm = new PdfForm(pdfDocument);
+*Proč je to důležité*: Objekt `Document` obsahuje celou strukturu souboru — stránky, formuláře, zdroje, vše. Představte si ho jako sešit, do kterého později zapíšete veškerý obsah. Vytvořením předem připravíme podmínky pro přidání stránek, polí a nakonec uložení souboru.
 
-            // 3️⃣ Create a textbox on the first page
-            TextBoxField firstPageField = new TextBoxField(
-                pdfDocument.Pages[0],
-                new Rectangle(100, 100, 200, 20));
+## Přidání stránek do PDF – tvorba rozvržení
 
-            // 4️⃣ Create a matching textbox on the second page
-            TextBoxField secondPageField = new TextBoxField(
-                pdfDocument.Pages[1],
-                new Rectangle(100, 100, 200, 20));
+PDF bez stránek je jako kniha bez listů — docela zbytečná. Přidejme dvě stránky, abychom mohli demonstrovat propojení polí.
 
-            // 5️⃣ Add both fields to the form using the same name
-            pdfForm.Add(firstPageField, "myField", 1);
-            pdfForm.Add(secondPageField, "myField", 2);
+```csharp
+            // Step 2: Add two pages to the document
+            Page firstPage = document.Pages.Add();
+            Page secondPage = document.Pages.Add();
+```
 
-            // 6️⃣ Save the resulting PDF
-            string outputPath = @"C:\Temp\output.pdf";
-            pdfDocument.Save(outputPath);
-            Console.WriteLine($"PDF saved to {outputPath}");
+Všimněte si, že voláme `Add()` dvakrát a každou novou stránku ukládáme do vlastní proměnné. To nám později poskytuje přímý přístup ke kolekci anotací každé stránky. Můžete přidat tolik stránek, kolik potřebujete; API škáluje lineárně.
 
-            // Open the PDF for quick verification (optional)
-            System.Diagnostics.Process.Start(outputPath);
+### Umístění widgetů
+
+Když později umístíme textové pole, potřebujeme obdélník, který určuje jeho polohu. Souřadnice jsou vyjádřeny v bodech (1 bod = 1/72 palce). Níže uvedený obdélník umístí pole přibližně do středu stránky.
+
+```csharp
+            // Define a rectangle for the text box (left, bottom, right, top)
+            var fieldRect = new Rectangle(100, 600, 300, 650);
+```
+
+Klidně upravte tyto hodnoty — možná chcete pole níže nebo širší. Důležité je, že stejný obdélník je použit pro oba widgety, což zajišťuje jejich dokonalé zarovnání napříč stránkami.
+
+## Jak propojit pole napříč stránkami
+
+Nyní přichází zajímavá část: chceme jedno logické pole, které se objeví na obou stránkách. V terminologii PDF je to *sdílené pole* s více *widgety*. První widget je na první stránce; druhý widget je na druhé stránce, ale odkazuje na stejný podkladový název pole.
+
+```csharp
+            // Step 3: Create a text box field on the first page and set its initial value
+            TextBoxField sharedTextBox = new TextBoxField(firstPage, fieldRect)
+            {
+                Value = "Shared value"
+            };
+
+            // Step 4: Register the text box field in the form with a shared name
+            document.Form.Add(sharedTextBox, "SharedTB");
+```
+
+Volání `document.Form.Add` zaregistruje pole pod názvem "SharedTB". Každý widget, který použije stejný `PartialName`, automaticky odráží změny provedené v poli.
+
+```csharp
+            // Step 5: Add a second widget of the same field on the second page
+            TextBoxField secondWidget = new TextBoxField(secondPage, fieldRect);
+            secondWidget.PartialName = "SharedTB"; // links to the same field
+            secondPage.Annotations.Add(secondWidget);
+```
+
+*Proč to funguje*: PDF formuláře oddělují *definici pole* (datový kontejner) od *widgetu* (vizuální reprezentace). Když oběma widgetům přiřadíme stejný `PartialName`, řekneme prohlížeči, že patří ke stejnému logickému poli. Když uživatel napíše do pole na stránce 1, hodnota se okamžitě zobrazí na stránce 2 a naopak.
+
+## Uložení PDF C# – ukládání souboru
+
+Nakonec musíme dokument zapsat na disk. Metoda `Save` přijímá cestu k souboru; můžete také streamovat do paměti, pokud chcete.
+
+```csharp
+            // Step 6: Save the PDF document
+            string outputPath = @"C:\Temp\textbox_multi_widget.pdf";
+            document.Save(outputPath);
+
+            System.Console.WriteLine($"PDF saved to {outputPath}");
         }
     }
 }
 ```
 
-**Očekávaný výsledek:** Otevřete `output.pdf` a uvidíte dvě identická textová pole – jedno na každé stránce. Zadejte jméno do horního pole; spodní se okamžitě aktualizuje. To ukazuje, že **how to add field** funguje správně a potvrzuje, že formulář pracuje podle očekávání.
+Několik praktických poznámek:
 
----
+* **Oprávnění složky** — ujistěte se, že cílová složka existuje a váš proces má právo zápisu; jinak `Save` vyhodí výjimku.  
+* **Přepisování** — `Save` přepíše existující soubor bez varování. Pokud je to problém, nejprve zkontrolujte `File.Exists`.  
+* **Využití paměti** — u obrovských dokumentů můžete chtít použít `document.Save(Stream)`, abyste se vyhnuli držení celého souboru v paměti.
 
-## Časté otázky a okrajové případy
+Když spustíte program, otevřete vzniklý PDF. Uvidíte dvě identické textová pole. Napište něco do prvního, klikněte mimo, pak přejděte na stránku 2 — váš vstup se objeví okamžitě. To je síla propojených polí.
 
-### Co když potřebuji více než dvě stránky?
+![Vytvoření PDF dokumentu s propojenými textovými poli]( "Vytvoření PDF dokumentu s propojenými textovými poli")
 
-Jednoduše zavolejte `pdfDocument.Pages.Add()` tolikrát, kolik potřebujete, poté vytvořte `TextBoxField` pro každou novou stránku a zaregistrujte je se stejným názvem pole. Knihovna je udrží synchronizované.
+## Běžné varianty a okrajové případy
 
-### Můžu nastavit výchozí hodnotu?
+### Přidání více widgetů
 
-Ano. Po vytvoření pole přiřaďte `firstPageField.Text = "John Doe";`. Stejná výchozí hodnota se objeví na všech propojených widgetech.
-
-### Jak nastavit pole jako povinné?
-
-Většina knihoven poskytuje vlastnost `Required`:
+Pokud potřebujete stejné pole na třech nebo více stránkách, stačí opakovat blok vytváření widgetu pro každou další stránku a vždy nastavit `PartialName` na "SharedTB".
 
 ```csharp
-firstPageField.Required = true;
-secondPageField.Required = true;
+            // Example: third page widget
+            Page thirdPage = document.Pages.Add();
+            TextBoxField thirdWidget = new TextBoxField(thirdPage, fieldRect);
+            thirdWidget.PartialName = "SharedTB";
+            thirdPage.Annotations.Add(thirdWidget);
 ```
 
-Když je PDF otevřeno v Adobe Acrobat, uživatel bude vyzván, pokud se pokusí odeslat formulář bez vyplnění pole.
+### Změna vzhledu pole
 
-### Co stylování (písmo, barva, okraj)?
-
-Můžete přistoupit k objektu vzhledu pole:
+Můžete přizpůsobit písmo, okraj, barvu pozadí atd. pomocí vlastnosti `FieldAppearance`.
 
 ```csharp
-firstPageField.Font = new PdfFont(PdfFontFamily.Helvetica, 12f);
-firstPageField.BorderWidth = 1;
-firstPageField.BorderColor = Color.Black;
+            sharedTextBox.DefaultAppearance = new TextState
+            {
+                FontSize = 12,
+                Font = FontRepository.FindFont("Arial"),
+                ForegroundColor = Color.Black
+            };
+            sharedTextBox.Border = new Border(sharedTextBox) { Width = 1 };
 ```
 
-### Je formulář tisknutelný?
+Tyto úpravy jsou volitelné, ale dodají formuláři profesionálnější vzhled.
 
-Rozhodně. Protože pole jsou *interaktivní*, zachovávají svůj vzhled při tisku. Pokud potřebujete plochou verzi, zavolejte `pdfDocument.Flatten()` před uložením.
+### Pole jen pro čtení
 
----
+Pokud má pole pouze zobrazovat data (např. vypočtený součet), nastavte `IsReadOnly = true`.
+
+```csharp
+            sharedTextBox.IsReadOnly = true;
+```
+
+### Práce s velkými PDF
+
+Při práci s dokumenty, které přesahují několik stovek megabajtů, zvažte použití `document.Optimize()` před uložením, aby se snížila velikost souboru.
 
 ## Profesionální tipy a úskalí
 
-- **Vyhněte se překrývajícím se obdélníkům.** Překrytí může způsobit chyby při vykreslování v některých prohlížečích.
-- **Pamatujte na indexování od nuly** pro kolekci `Pages`; míchání 0‑ a 1‑ založených indexů je častým zdrojem chyb „field not found“.
-- **Uvolňujte objekty** pokud vaše knihovna implementuje `IDisposable`. Zabalte dokument do bloku `using`, aby se uvolnily nativní zdroje.
-- **Testujte v různých prohlížečích** (Adobe Reader, Foxit, Chrome). Některé prohlížeče interpretují příznaky polí mírně odlišně.
-- **Kompatibilita verzí:** Ukázkový kód funguje se Spire.PDF 7.x a novějšími. Pokud používáte starší verzi, přetížení `PdfForm.Add` může vyžadovat jinou signaturu.
+* **Pro tip**: Znovu použijte stejnou instanci `Rectangle` pro všechny widgety, pokud chcete dokonalé zarovnání. Ušetříte si tak drobné zaokrouhlovací chyby.  
+* **Dejte si pozor na**: Zapomenutí přidat druhý widget do `secondPage.Annotations`. Pole bude existovat, ale vizuální rámeček se nezobrazí.  
+* **Typická chyba**: Použití `new TextBoxField(secondPage, ...)` bez nastavení `PartialName` — druhý widget se stane zcela samostatným polem, čímž se přeruší propojení.  
+* **Poznámka k výkonu**: Přidávání stránek v cyklu (`for (int i = 0; i < n; i++)`) je v pořádku, ale vyhněte se těžkým operacím uvnitř smyčky (např. načítání velkých obrázků) bez uvolnění prostředků.
 
----
+## Kompletní funkční příklad – shrnutí
 
-## Závěr
+Zde je celý program znovu, připravený ke zkopírování:
 
-Nyní víte **how to create PDF document** v C# od začátku, jak **add pages to PDF**, a – co je nejdůležitější – jak **create PDF form fields**, které sdílejí jednu hodnotu, čímž odpovídáte na **how to create form** i **how to add field**. Kompletní příklad funguje hned po spuštění a vysvětlení vám poskytují *proč* za každým řádkem.
+```csharp
+using Aspose.Pdf;
+using Aspose.Pdf.Annotations;
+using Aspose.Pdf.Text;
+using System.Drawing;
 
-Jste připraveni na další výzvu? Zkuste přidat rozbalovací seznam, skupinu přepínačů nebo dokonce JavaScript akce, které počítají součty. Všechny tyto koncepty staví na stejných základech, které jsme zde probírali.
+namespace PdfDemo
+{
+    class Program
+    {
+        static void Main()
+        {
+            // Step 1: Create a new PDF document
+            Document document = new Document();
 
-Pokud se vám tento tutoriál hodil, zvažte jeho sdílení s kolegy nebo přidání hvězdičky do repozitáře, kde uchováváte své PDF utility. Šťastné kódování a ať jsou vaše PDF vždy krásná i funkční!
+            // Step 2: Add two pages to the document
+            Page firstPage = document.Pages.Add();
+            Page secondPage = document.Pages.Add();
+
+            // Define the rectangle for the text box
+            var fieldRect = new Rectangle(100, 600, 300, 650);
+
+            // Step 3: Create a text box field on the first page and set its initial value
+            TextBoxField sharedTextBox = new TextBoxField(firstPage, fieldRect)
+            {
+                Value = "Shared value"
+            };
+
+            // Optional: customize appearance
+            sharedTextBox.DefaultAppearance = new TextState
+            {
+                FontSize = 12,
+                Font = FontRepository.FindFont("Arial"),
+                ForegroundColor = Color.Black
+            };
+            sharedTextBox.Border = new Border(sharedTextBox) { Width = 1 };
+
+            // Step 4: Register the text box field in the form with a shared name
+            document.Form.Add(sharedTextBox, "SharedTB");
+
+            // Step 5: Add a second widget of the same field on the second page
+            TextBoxField secondWidget = new TextBoxField(secondPage, fieldRect);
+            secondWidget.PartialName = "SharedTB"; // links to the same field
+            secondPage.Annotations.Add(secondWidget);
+
+            // Step 6: Save the PDF document
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -38,6 +38,8 @@ Aspose.PDF नेट के लिए एक कोड ट्यूटोरि�
 ### [C# में .NET के लिए Aspose.PDF का उपयोग करके PDF/A सत्यापन में महारत हासिल करें](./master-pdfa-validation-aspose-pdf-net/)
 Aspose.PDF .NET का उपयोग करके PDF दस्तावेज़ों को PDF/A मानकों के विरुद्ध मान्य करना सीखें। हमारे चरण-दर-स्टेप मार्गदर्शिका के साथ अनुपालन सुनिश्चित करें और दस्तावेज़ विश्वसनीयता बढ़ाएँ।
 
+### [C# में PDF/A फ़ाइल बनाएं – पूर्ण रूपांतरण ट्यूटोरियल](./create-pdf-a-file-in-c-full-conversion-tutorial/)
+Aspose.PDF .NET का उपयोग करके C# में PDF को पूर्ण रूप से PDF/A फ़ाइल में बदलने की चरण-दर-चरण मार्गदर्शिका।
 ### [C# में PDF/A कैसे बनाएं – चरण‑दर‑चरण Aspose गाइड](./how-to-create-pdf-a-in-c-step-by-step-aspose-guide/)
 Aspose.PDF .NET का उपयोग करके C# में PDF/A दस्तावेज़ बनाने की पूरी चरण‑दर‑चरण मार्गदर्शिका।
 

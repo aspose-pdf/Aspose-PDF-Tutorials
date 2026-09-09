@@ -53,6 +53,8 @@ Leer de kunst van het nauwkeurig en efficiënt converteren van SVG-bestanden naa
 ### [Niet-ingebedde lettertypen in PDF's met Aspose.PDF voor .NET: verklein de bestandsgrootte en verbeter de prestaties](./optimize-pdfs-unembed-fonts-aspose-pdf-net/)
 Leer hoe u lettertypen uit uw PDF-bestanden verwijdert met Aspose.PDF voor .NET. Optimaliseer de PDF-prestaties, verklein de bestandsgrootte en verkort de laadtijden met deze stapsgewijze handleiding.
 
+### [PDF-afbeeldingen optimaliseren – PDF-bestandsgrootte verkleinen met C#](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
+Leer hoe u PDF-afbeeldingen kunt optimaliseren en de bestandsgrootte kunt verkleinen met C# en Aspose.PDF.
 ### [Geoptimaliseerde PDF opslaan in C# – grootte verkleinen en pagina's opschonen](./save-optimized-pdf-in-c-reduce-size-clean-pages/)
 Leer hoe u met Aspose.PDF in C# geoptimaliseerde PDF's opslaat, de bestandsgrootte verkleint en ongebruikte pagina's verwijdert.
 

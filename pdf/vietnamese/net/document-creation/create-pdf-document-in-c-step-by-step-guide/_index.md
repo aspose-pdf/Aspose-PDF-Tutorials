@@ -1,270 +1,247 @@
 ---
 category: general
-date: 2026-02-23
-description: Tạo tài liệu PDF bằng C# nhanh chóng. Học cách thêm trang vào PDF, tạo
-  các trường biểu mẫu PDF, cách tạo biểu mẫu và cách thêm trường với các ví dụ mã
-  rõ ràng.
+date: 2026-02-25
+description: Tạo tài liệu PDF trong C# với hướng dẫn từng bước. Học cách thêm trang
+  vào PDF, cách liên kết các trường, và lưu PDF bằng C# một cách dễ dàng.
 draft: false
 keywords:
 - create pdf document
 - add pages to pdf
-- create pdf form fields
-- how to create form
-- how to add field
+- how to link fields
+- how to create pdf
+- save pdf c#
 language: vi
-og_description: Tạo tài liệu PDF bằng C# với hướng dẫn thực tế. Khám phá cách thêm
-  trang vào PDF, tạo các trường biểu mẫu PDF, cách tạo biểu mẫu và cách thêm trường
-  chỉ trong vài phút.
+og_description: Tạo tài liệu PDF trong C# ngay lập tức. Hướng dẫn này chỉ cách thêm
+  trang vào PDF, liên kết các trường qua các trang, và lưu PDF trong C# với mã sạch.
 og_title: Tạo tài liệu PDF trong C# – Hướng dẫn lập trình đầy đủ
 tags:
-- C#
-- PDF
-- Form Generation
+- pdf
+- csharp
+- aspnet
+- form-fields
 title: Tạo tài liệu PDF trong C# – Hướng dẫn từng bước
 url: /vi/net/document-creation/create-pdf-document-in-c-step-by-step-guide/
 ---
 
-final output with all content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tạo Tài liệu PDF trong C# – Hướng dẫn lập trình toàn diện
+# Tạo tài liệu PDF trong C# – Hướng dẫn từng bước
 
-Bạn đã bao giờ cần **create PDF document** trong C# nhưng không chắc bắt đầu từ đâu chưa? Bạn không cô đơn—hầu hết các nhà phát triển gặp khó khăn này khi họ lần đầu tự động hoá báo cáo, hoá đơn, hoặc hợp đồng. Tin tốt? Chỉ trong vài phút bạn sẽ có một PDF đầy đủ tính năng với nhiều trang và các trường biểu mẫu đồng bộ, và bạn sẽ hiểu **how to add field** hoạt động trên nhiều trang.
+Bạn đã bao giờ cần **tạo tài liệu pdf** trong C# nhưng không chắc bắt đầu từ đâu chưa? Bạn không phải là người duy nhất—các nhà phát triển luôn hỏi cách tạo PDF nhanh chóng cho hoá đơn, báo cáo hoặc biểu mẫu tương tác. Trong hướng dẫn này, chúng tôi sẽ đi qua một ví dụ hoàn chỉnh, có thể chạy được, cho bạn thấy cách thêm trang vào pdf, liên kết các trường qua các trang, và cuối cùng **lưu pdf c#** vào đĩa.
 
-Trong hướng dẫn này, chúng tôi sẽ đi qua toàn bộ quá trình: từ khởi tạo PDF, tới **add pages to PDF**, tới **create PDF form fields**, và cuối cùng trả lời **how to create form** chia sẻ một giá trị duy nhất. Không cần tham chiếu bên ngoài, chỉ cần một ví dụ mã vững chắc mà bạn có thể sao chép‑dán vào dự án của mình. Khi kết thúc, bạn sẽ có thể tạo ra một PDF trông chuyên nghiệp và hoạt động như một biểu mẫu thực tế.
+Chúng tôi sẽ bao phủ mọi thứ từ khởi tạo đối tượng document đến việc kết nối các trường biểu mẫu chia sẻ, để bạn có thể sao chép‑dán mã vào dự án của mình và ngay lập tức thấy nó hoạt động. Không có tham chiếu mơ hồ, chỉ có mã cụ thể và giải thích rõ ràng.
+
+> **Bạn sẽ học được**  
+> * Cách tạo tài liệu PDF bằng thư viện Aspose.PDF for .NET.  
+> * Cách thêm nhiều trang vào pdf và định vị widget một cách chính xác.  
+> * Cách liên kết các trường để một lần nhập dữ liệu xuất hiện trên mọi trang.  
+> * Cách lưu pdf c# một cách an toàn, xử lý các lỗi thường gặp.  
 
 ## Yêu cầu trước
 
-- .NET 6.0 hoặc mới hơn (mã hoạt động với .NET Framework 4.6+ cũng được)
-- Thư viện PDF cung cấp `Document`, `PdfForm`, `TextBoxField`, và `Rectangle` (ví dụ, Spire.PDF, Aspose.PDF, hoặc bất kỳ thư viện thương mại/OSS tương thích nào)
-- Visual Studio 2022 hoặc IDE yêu thích của bạn
-- Kiến thức cơ bản về C# (bạn sẽ thấy tại sao các lời gọi API quan trọng)
+* .NET 6.0 trở lên (ví dụ này cũng hoạt động với .NET Framework 4.6+).  
+* Visual Studio 2022 (hoặc bất kỳ IDE nào bạn thích).  
+* Gói NuGet **Aspose.PDF for .NET** (`Install-Package Aspose.PDF`).  
+* Kiến thức cơ bản về cú pháp C#—không yêu cầu kiến thức nâng cao về PDF.
 
-> **Pro tip:** Nếu bạn đang sử dụng NuGet, cài đặt gói bằng `Install-Package Spire.PDF` (hoặc tương đương cho thư viện bạn chọn).  
+Nếu bất kỳ mục nào trên đây còn lạ, hãy dành một phút nhanh chóng để cài đặt gói NuGet; phần còn lại của hướng dẫn giả định rằng thư viện đã được tham chiếu.
 
-Bây giờ, chúng ta cùng bắt đầu.
+## Tạo tài liệu PDF – Cài đặt ban đầu
 
----
-
-## Bước 1 – Tạo Tài liệu PDF và Thêm Trang
-
-Điều đầu tiên bạn cần là một canvas trống. Trong thuật ngữ PDF, canvas là một đối tượng `Document`. Khi đã có, bạn có thể **add pages to PDF** giống như việc thêm các tờ giấy vào một cuốn sổ.
+Điều đầu tiên chúng ta cần là một canvas trống. Trong Aspose.PDF, điều này được biểu diễn bằng lớp `Document`.
 
 ```csharp
-using Spire.Pdf;                 // Adjust the namespace to match your library
-using Spire.Pdf.Graphics;        // For Rectangle definition
+using Aspose.Pdf;
+using Aspose.Pdf.Annotations;
+using Aspose.Pdf.Text;
 
-// Step 1: Initialize a new PDF document
-Document pdfDocument = new Document();
-
-// Add two pages – page indices start at 0 internally, but the library uses 1‑based indexing for convenience
-pdfDocument.Pages.Add(); // Page 1
-pdfDocument.Pages.Add(); // Page 2
-```
-
-*Why this matters:* A `Document` object holds the file‑level metadata, while each `Page` object stores its own content streams. Adding pages up front gives you places to drop form fields later, and it keeps the layout logic simple.
-
-*​Tại sao điều này quan trọng:* Một đối tượng `Document` chứa siêu dữ liệu ở mức file, trong khi mỗi đối tượng `Page` lưu trữ các luồng nội dung riêng. Thêm trang trước sẽ cung cấp vị trí để đặt các trường biểu mẫu sau này, và giúp logic bố cục đơn giản.
-
----
-
-## Bước 2 – Thiết lập Bộ chứa Biểu mẫu PDF
-
-Biểu mẫu PDF về cơ bản là tập hợp các trường tương tác. Hầu hết các thư viện cung cấp một lớp `PdfForm` mà bạn gắn vào tài liệu. Hãy nghĩ nó như một “trình quản lý biểu mẫu” biết các trường nào thuộc cùng một nhóm.
-
-```csharp
-// Step 2: Create a form container linked to the document
-PdfForm pdfForm = new PdfForm(pdfDocument);
-```
-
-*Why this matters:* Without a `PdfForm` object, the fields you add would be static text—users couldn’t type anything. The container also lets you assign the same field name to multiple widgets, which is the key to **how to add field** across pages.
-
-*​Tại sao điều này quan trọng:* Nếu không có đối tượng `PdfForm`, các trường bạn thêm sẽ là văn bản tĩnh—người dùng không thể nhập gì. Bộ chứa cũng cho phép bạn gán cùng một tên trường cho nhiều widget, đây là chìa khóa để **how to add field** trên các trang.
-
----
-
-## Bước 3 – Tạo Hộp Văn bản trên Trang Đầu Tiên
-
-Bây giờ chúng ta sẽ tạo một hộp văn bản nằm trên trang 1. Hình chữ nhật xác định vị trí (x, y) và kích thước (rộng, cao) bằng điểm (1 pt ≈ 1/72 in).
-
-```csharp
-// Step 3: Define a TextBoxField on page 1
-TextBoxField firstPageField = new TextBoxField(
-    pdfDocument.Pages[0],                     // Zero‑based index for the first page
-    new Rectangle(100, 100, 200, 20)          // Left, Bottom, Width, Height
-);
-```
-
-*Why this matters:* The rectangle coordinates let you align the field with other content (like labels). The `TextBoxField` type automatically handles user input, cursor, and basic validation.
-
-*​Tại sao điều này quan trọng:* Các tọa độ hình chữ nhật cho phép bạn căn chỉnh trường với nội dung khác (như nhãn). Kiểu `TextBoxField` tự động xử lý nhập liệu của người dùng, con trỏ và xác thực cơ bản.
-
----
-
-## Bước 4 – Nhân bản Trường trên Trang Thứ Hai
-
-Nếu bạn muốn cùng một giá trị xuất hiện trên nhiều trang, bạn **create PDF form fields** với tên giống hệt. Ở đây chúng tôi đặt một hộp văn bản thứ hai trên trang 2 sử dụng cùng kích thước.
-
-```csharp
-// Step 4: Define a matching TextBoxField on page 2
-TextBoxField secondPageField = new TextBoxField(
-    pdfDocument.Pages[1],                     // Second page (zero‑based index)
-    new Rectangle(100, 100, 200, 20)
-);
-```
-
-*Why this matters:* By mirroring the rectangle, the field looks consistent across pages—a small UX win. The underlying field name will tie the two visual widgets together.
-
-*​Tại sao điều này quan trọng:* Bằng cách sao chép hình chữ nhật, trường sẽ trông nhất quán trên các trang—một cải tiến UX nhỏ. Tên trường nền sẽ liên kết hai widget hiển thị lại với nhau.
-
----
-
-## Bước 5 – Thêm Cả Hai Widget vào Biểu mẫu bằng Cùng Tên
-
-Đây là phần cốt lõi của **how to create form** chia sẻ một giá trị duy nhất. Phương thức `Add` nhận đối tượng trường, một định danh kiểu chuỗi, và một số trang tùy chọn. Sử dụng cùng một định danh (`"myField"`) cho PDF engine biết rằng cả hai widget đại diện cho cùng một trường logic.
-
-```csharp
-// Step 5: Register both fields under the same name
-pdfForm.Add(firstPageField, "myField", 1);   // Page number is 1‑based for the API
-pdfForm.Add(secondPageField, "myField", 2);
-```
-
-*Why this matters:* When a user types into the first textbox, the second textbox updates automatically (and vice‑versa). This is perfect for multi‑page contracts where you want a single “Customer Name” field to appear at the top of each page.
-
-*​Tại sao điều này quan trọng:* Khi người dùng nhập vào hộp văn bản đầu tiên, hộp thứ hai sẽ tự động cập nhật (và ngược lại). Điều này hoàn hảo cho các hợp đồng đa trang, nơi bạn muốn một trường “Tên Khách hàng” duy nhất xuất hiện ở đầu mỗi trang.
-
----
-
-## Bước 6 – Lưu PDF vào Đĩa
-
-Cuối cùng, ghi tài liệu ra. Phương thức `Save` nhận một đường dẫn đầy đủ; hãy chắc chắn thư mục tồn tại và ứng dụng của bạn có quyền ghi.
-
-```csharp
-// Step 6: Persist the PDF file
-pdfDocument.Save(@"C:\Temp\output.pdf");
-
-// Optionally open the file automatically (Windows only)
-System.Diagnostics.Process.Start(@"C:\Temp\output.pdf");
-```
-
-*Why this matters:* Saving finalizes the internal streams, flattens the form structure, and makes the file ready for distribution. Opening it automatically lets you verify the result instantly.
-
-*​Tại sao điều này quan trọng:* Lưu sẽ hoàn thiện các luồng nội bộ, làm phẳng cấu trúc biểu mẫu, và chuẩn bị file để phân phối. Mở nó ngay lập tức cho phép bạn kiểm tra kết quả ngay.
-
----
-
-## Ví dụ Hoạt động Đầy đủ
-
-Dưới đây là chương trình hoàn chỉnh, sẵn sàng chạy. Sao chép nó vào một ứng dụng console, điều chỉnh các câu lệnh `using` cho phù hợp với thư viện của bạn, và nhấn **F5**.
-
-```csharp
-using System;
-using Spire.Pdf;                 // Replace with your PDF library namespace
-using Spire.Pdf.Graphics;        // For Rectangle
-
-namespace PdfFormDemo
+namespace PdfDemo
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            // 1️⃣ Create a new PDF document and add two pages
-            Document pdfDocument = new Document();
-            pdfDocument.Pages.Add(); // First page
-            pdfDocument.Pages.Add(); // Second page
+            // Step 1: Create a new PDF document
+            Document document = new Document();
+```
 
-            // 2️⃣ Initialize a PdfForm container
-            PdfForm pdfForm = new PdfForm(pdfDocument);
+*Tại sao điều này quan trọng*: Đối tượng `Document` chứa toàn bộ cấu trúc tệp—các trang, biểu mẫu, tài nguyên, mọi thứ. Hãy nghĩ nó như một cuốn sổ mà sau này bạn sẽ viết toàn bộ nội dung. Khi tạo nó ngay từ đầu, chúng ta đã chuẩn bị sẵn sàng cho việc thêm trang, trường và cuối cùng lưu tệp.
 
-            // 3️⃣ Create a textbox on the first page
-            TextBoxField firstPageField = new TextBoxField(
-                pdfDocument.Pages[0],
-                new Rectangle(100, 100, 200, 20));
+## Thêm trang vào PDF – Xây dựng bố cục
 
-            // 4️⃣ Create a matching textbox on the second page
-            TextBoxField secondPageField = new TextBoxField(
-                pdfDocument.Pages[1],
-                new Rectangle(100, 100, 200, 20));
+Một PDF không có trang giống như một cuốn sách không có trang—không có ích gì. Hãy thêm hai trang để chúng ta có thể minh họa việc liên kết trường.
 
-            // 5️⃣ Add both fields to the form using the same name
-            pdfForm.Add(firstPageField, "myField", 1);
-            pdfForm.Add(secondPageField, "myField", 2);
+```csharp
+            // Step 2: Add two pages to the document
+            Page firstPage = document.Pages.Add();
+            Page secondPage = document.Pages.Add();
+```
 
-            // 6️⃣ Save the resulting PDF
-            string outputPath = @"C:\Temp\output.pdf";
-            pdfDocument.Save(outputPath);
-            Console.WriteLine($"PDF saved to {outputPath}");
+Chú ý chúng ta gọi `Add()` hai lần, lưu mỗi trang mới vào một biến riêng. Điều này cho phép chúng ta truy cập trực tiếp vào bộ sưu tập annotation của mỗi trang sau này. Bạn có thể thêm bao nhiêu trang tùy ý; API mở rộng tuyến tính.
 
-            // Open the PDF for quick verification (optional)
-            System.Diagnostics.Process.Start(outputPath);
+### Định vị Widget
+
+Khi chúng ta sau này đặt một hộp văn bản, chúng ta cần một hình chữ nhật xác định vị trí của nó. Các tọa độ được biểu diễn bằng điểm (1 point = 1/72 inch). Hình chữ nhật dưới đây đặt trường gần giữa trang.
+
+```csharp
+            // Define a rectangle for the text box (left, bottom, right, top)
+            var fieldRect = new Rectangle(100, 600, 300, 650);
+```
+
+Bạn có thể tự do điều chỉnh các số này—có thể bạn muốn trường thấp hơn hoặc rộng hơn. Điều quan trọng là cùng một hình chữ nhật được tái sử dụng cho cả hai widget, đảm bảo chúng căn chỉnh hoàn hảo qua các trang.
+
+## Cách liên kết các trường qua các trang
+
+Bây giờ là phần thú vị: chúng ta muốn một trường logic duy nhất xuất hiện trên cả hai trang. Trong thuật ngữ PDF, đây là một *trường chia sẻ* với nhiều *widget*. Widget đầu tiên nằm trên trang đầu; widget thứ hai nằm trên trang thứ hai nhưng trỏ tới cùng một tên trường cơ bản.
+
+```csharp
+            // Step 3: Create a text box field on the first page and set its initial value
+            TextBoxField sharedTextBox = new TextBoxField(firstPage, fieldRect)
+            {
+                Value = "Shared value"
+            };
+
+            // Step 4: Register the text box field in the form with a shared name
+            document.Form.Add(sharedTextBox, "SharedTB");
+```
+
+Lệnh `document.Form.Add` đăng ký trường dưới tên `"SharedTB"`. Bất kỳ widget nào sử dụng cùng `PartialName` sẽ tự động phản ánh các thay đổi được thực hiện trên trường.
+
+```csharp
+            // Step 5: Add a second widget of the same field on the second page
+            TextBoxField secondWidget = new TextBoxField(secondPage, fieldRect);
+            secondWidget.PartialName = "SharedTB"; // links to the same field
+            secondPage.Annotations.Add(secondWidget);
+```
+
+*Tại sao cách này hoạt động*: Các biểu mẫu PDF tách biệt *định nghĩa trường* (bộ chứa dữ liệu) khỏi *widget* (đại diện trực quan). Bằng cách đặt cả hai widget cùng `PartialName`, chúng ta thông báo cho trình xem rằng chúng thuộc cùng một trường logic. Khi người dùng gõ vào hộp trên trang 1, giá trị sẽ ngay lập tức xuất hiện trên trang 2, và ngược lại.
+
+## Lưu PDF C# – Ghi lại tệp
+
+Cuối cùng, chúng ta cần ghi tài liệu ra đĩa. Phương thức `Save` nhận một đường dẫn tệp; bạn cũng có thể stream vào bộ nhớ nếu muốn.
+
+```csharp
+            // Step 6: Save the PDF document
+            string outputPath = @"C:\Temp\textbox_multi_widget.pdf";
+            document.Save(outputPath);
+
+            System.Console.WriteLine($"PDF saved to {outputPath}");
         }
     }
 }
 ```
 
-**Expected outcome:** Open `output.pdf` and you’ll see two identical text boxes—one on each page. Type a name into the top box; the bottom one updates instantly. This demonstrates that **how to add field** correctly and confirms the form works as intended.
+Một vài lưu ý thực tế:
 
-**Kết quả mong đợi:** Mở `output.pdf` và bạn sẽ thấy hai hộp văn bản giống hệt—một trên mỗi trang. Nhập một tên vào hộp trên; hộp dưới sẽ cập nhật ngay lập tức. Điều này chứng minh **how to add field** đúng cách và xác nhận biểu mẫu hoạt động như mong đợi.
+* **Quyền thư mục** – Đảm bảo thư mục đích tồn tại và tiến trình của bạn có quyền ghi; nếu không `Save` sẽ ném ngoại lệ.  
+* **Ghi đè** – `Save` sẽ ghi đè lên tệp đã tồn tại mà không cảnh báo. Nếu điều này là vấn đề, hãy kiểm tra `File.Exists` trước.  
+* **Sử dụng bộ nhớ** – Đối với tài liệu rất lớn, bạn có thể muốn sử dụng `document.Save(Stream)` để tránh giữ toàn bộ tệp trong bộ nhớ.
 
----
+Khi bạn chạy chương trình, mở PDF kết quả. Bạn sẽ thấy hai hộp văn bản giống hệt nhau. Gõ gì đó vào hộp đầu tiên, nhấp ra ngoài, sau đó chuyển sang trang 2—đầu vào của bạn xuất hiện ngay lập tức. Đó là sức mạnh của việc liên kết các trường.
 
-## Câu hỏi Thường gặp & Trường hợp Đặc biệt
+![Tạo tài liệu PDF với các trường văn bản liên kết]( "Tạo tài liệu PDF với các trường văn bản liên kết")
 
-### Nếu tôi cần hơn hai trang thì sao?
+## Các biến thể phổ biến & Trường hợp đặc biệt
 
-Chỉ cần gọi `pdfDocument.Pages.Add()` bao nhiêu lần tùy ý, sau đó tạo một `TextBoxField` cho mỗi trang mới và đăng ký chúng với cùng một tên trường. Thư viện sẽ giữ chúng đồng bộ.
+### Thêm nhiều Widget
 
-### Tôi có thể đặt giá trị mặc định không?
-
-Có. Sau khi tạo trường, gán `firstPageField.Text = "John Doe";`. Giá trị mặc định sẽ xuất hiện trên tất cả các widget liên kết.
-
-### Làm sao để làm trường bắt buộc?
-
-Most libraries expose a `Required` property:
+Nếu bạn cần cùng một trường trên ba trang trở lên, chỉ cần lặp lại khối tạo widget cho mỗi trang bổ sung, luôn đặt `PartialName` thành `"SharedTB"`.
 
 ```csharp
-firstPageField.Required = true;
-secondPageField.Required = true;
+            // Example: third page widget
+            Page thirdPage = document.Pages.Add();
+            TextBoxField thirdWidget = new TextBoxField(thirdPage, fieldRect);
+            thirdWidget.PartialName = "SharedTB";
+            thirdPage.Annotations.Add(thirdWidget);
 ```
 
-Khi PDF được mở trong Adobe Acrobat, người dùng sẽ nhận được thông báo nếu họ cố gắng gửi mà chưa điền trường.
+### Thay đổi giao diện trường
 
-### Còn về kiểu dáng (phông chữ, màu, viền) thì sao?
-
-You can access the field’s appearance object:
+Bạn có thể tùy chỉnh phông chữ, viền, màu nền, v.v., thông qua thuộc tính `FieldAppearance`.
 
 ```csharp
-firstPageField.Font = new PdfFont(PdfFontFamily.Helvetica, 12f);
-firstPageField.BorderWidth = 1;
-firstPageField.BorderColor = Color.Black;
+            sharedTextBox.DefaultAppearance = new TextState
+            {
+                FontSize = 12,
+                Font = FontRepository.FindFont("Arial"),
+                ForegroundColor = Color.Black
+            };
+            sharedTextBox.Border = new Border(sharedTextBox) { Width = 1 };
 ```
 
-Áp dụng cùng kiểu dáng cho trường thứ hai để đồng nhất về mặt hình ảnh.
+Những điều chỉnh này là tùy chọn nhưng giúp biểu mẫu trông chuyên nghiệp hơn.
 
-### Biểu mẫu có thể in được không?
+### Trường chỉ đọc
 
-Absolutely. Since the fields are *interactive*, they retain their appearance when printed. If you need a flat version, call `pdfDocument.Flatten()` before saving.
+Nếu trường chỉ cần hiển thị dữ liệu (ví dụ, tổng tính toán), đặt `IsReadOnly = true`.
 
----
+```csharp
+            sharedTextBox.IsReadOnly = true;
+```
 
-## Mẹo chuyên nghiệp & Cạm bẫy
+### Xử lý PDF lớn
 
-- **Tránh các hình chữ nhật chồng lấn.** Sự chồng lấn có thể gây lỗi hiển thị ở một số trình xem.
-- **Nhớ chỉ mục bắt đầu từ 0** cho bộ sưu tập `Pages`; việc trộn chỉ mục 0‑ và 1‑ là nguồn phổ biến gây lỗi “field not found”.
-- **Giải phóng đối tượng** nếu thư viện của bạn triển khai `IDisposable`. Đặt tài liệu trong khối `using` để giải phóng tài nguyên gốc.
-- **Kiểm tra trên nhiều trình xem** (Adobe Reader, Foxit, Chrome). Một số trình xem có thể diễn giải cờ trường hơi khác nhau.
-- **Tương thích phiên bản:** Mã mẫu hoạt động với Spire.PDF 7.x và các phiên bản sau. Nếu bạn dùng phiên bản cũ hơn, overload `PdfForm.Add` có thể yêu cầu chữ ký khác.
+Khi làm việc với tài liệu vượt quá vài trăm megabyte, hãy cân nhắc sử dụng `document.Optimize()` trước khi lưu để giảm kích thước tệp.
 
----
+## Mẹo chuyên nghiệp & Những cạm bẫy
 
-## Kết luận
+* **Mẹo chuyên nghiệp**: Tái sử dụng cùng một instance `Rectangle` cho tất cả widget nếu bạn muốn căn chỉnh hoàn hảo. Điều này giúp tránh các lỗi làm tròn tinh vi.  
+* **Cẩn thận với**: Quên thêm widget thứ hai vào `secondPage.Annotations`. Trường sẽ tồn tại, nhưng hộp hiển thị sẽ không xuất hiện.  
+* **Lỗi thường gặp**: Sử dụng `new TextBoxField(secondPage, ...)` mà không đặt `PartialName`—widget thứ hai sẽ trở thành một trường hoàn toàn riêng biệt, làm mất liên kết.  
+* **Ghi chú về hiệu năng**: Thêm trang trong vòng lặp (`for (int i = 0; i < n; i++)`) là ổn, nhưng tránh các thao tác nặng trong vòng lặp (như tải ảnh lớn) mà không giải phóng tài nguyên.
 
-Bây giờ bạn đã biết **how to create PDF document** trong C# từ đầu, cách **add pages to PDF**, và—quan trọng nhất—cách **create PDF form fields** chia sẻ một giá trị duy nhất, trả lời cả **how to create form** và **how to add field**. Ví dụ đầy đủ chạy ngay mà không cần cấu hình, và các giải thích cung cấp *lý do* cho mỗi dòng mã.
+## Tóm tắt ví dụ hoạt động đầy đủ
 
-Sẵn sàng cho thử thách tiếp theo? Hãy thử thêm danh sách thả xuống, nhóm nút radio, hoặc thậm chí các hành động JavaScript tính tổng. Tất cả các khái niệm này dựa trên những nền tảng chúng ta đã đề cập.
+Dưới đây là toàn bộ chương trình, sẵn sàng để sao chép‑dán:
 
-Nếu bạn thấy hướng dẫn này hữu ích, hãy chia sẻ với đồng nghiệp hoặc đánh dấu sao repository nơi bạn lưu các tiện ích PDF. Chúc lập trình vui vẻ, và mong các PDF của bạn luôn đẹp và chức năng!
+```csharp
+using Aspose.Pdf;
+using Aspose.Pdf.Annotations;
+using Aspose.Pdf.Text;
+using System.Drawing;
+
+namespace PdfDemo
+{
+    class Program
+    {
+        static void Main()
+        {
+            // Step 1: Create a new PDF document
+            Document document = new Document();
+
+            // Step 2: Add two pages to the document
+            Page firstPage = document.Pages.Add();
+            Page secondPage = document.Pages.Add();
+
+            // Define the rectangle for the text box
+            var fieldRect = new Rectangle(100, 600, 300, 650);
+
+            // Step 3: Create a text box field on the first page and set its initial value
+            TextBoxField sharedTextBox = new TextBoxField(firstPage, fieldRect)
+            {
+                Value = "Shared value"
+            };
+
+            // Optional: customize appearance
+            sharedTextBox.DefaultAppearance = new TextState
+            {
+                FontSize = 12,
+                Font = FontRepository.FindFont("Arial"),
+                ForegroundColor = Color.Black
+            };
+            sharedTextBox.Border = new Border(sharedTextBox) { Width = 1 };
+
+            // Step 4: Register the text box field in the form with a shared name
+            document.Form.Add(sharedTextBox, "SharedTB");
+
+            // Step 5: Add a second widget of the same field on the second page
+            TextBoxField secondWidget = new TextBoxField(secondPage, fieldRect);
+            secondWidget.PartialName = "SharedTB"; // links to the same field
+            secondPage.Annotations.Add(secondWidget);
+
+            // Step 6: Save the PDF document
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

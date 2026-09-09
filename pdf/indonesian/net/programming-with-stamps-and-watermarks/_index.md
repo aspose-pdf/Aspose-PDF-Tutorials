@@ -19,8 +19,7 @@ Tutorial "Pemrograman dengan Stempel dan Tanda Air" Aspose.PDF untuk .NET memand
 
 ## Tutorial
 | Judul | Deskripsi |
-Bahasa Indonesia: --- | --- Bahasa Indonesia: 
-| [Tambahkan Cap Tanggal Waktu Dalam File PDF](./add-date-time-stamp/) | Pelajari cara menambahkan cap tanggal dan waktu ke berkas PDF Anda menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini. Sempurna untuk meningkatkan keaslian dokumen. Bahasa Indonesia:  
+| [Tambahkan Cap Tanggal Waktu Dalam File PDF](./add-date-time-stamp/) Pelajari cara menambahkan cap tanggal dan waktu ke berkas PDF Anda menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini. Sempurna untuk meningkatkan keaslian dokumen. Bahasa Indonesia:  
 | [Tambahkan Stempel Gambar Dalam File PDF](./add-image-stamp/) | Pelajari cara menambahkan stempel gambar ke file PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah dan contoh kode. Bahasa Indonesia:  
 | [Menambahkan Header Berbeda Dalam File PDF](./adding-different-headers/) | Pelajari cara menambahkan tajuk yang berbeda ke berkas PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah untuk menyesuaikan PDF Anda. Bahasa Indonesia:  
 | [Tambahkan Stempel Halaman PDF Dalam File PDF](./add-pdf-page-stamp/) | Pelajari cara menambahkan stempel halaman PDF menggunakan Aspose.PDF untuk .NET dengan panduan terperinci ini. Tingkatkan dampak dokumen PDF Anda. Bahasa Indonesia:  
@@ -31,6 +30,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Isi Teks Goresan Dalam File PDF](./fill-stroke-text/) | Pelajari cara mengisi teks guratan dalam file PDF dengan mudah menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah yang dilengkapi dengan contoh-contoh praktis. Bahasa Indonesia:  
 | [Dapatkan Tanda Air Dari File PDF](./get-watermark/) | Pelajari cara mengekstrak tanda air dari berkas PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah. Tutorial terperinci untuk mengekstrak tanda air. Bahasa Indonesia:  
 | [Gambar dan Nomor Halaman di Bagian Header dan Footer](./image-and-page-number-in-header-footer-section/) | Pelajari cara menambahkan gambar dan nomor halaman ke header dan footer PDF Anda menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini. Bahasa Indonesia:  
+| [Tanda air rahasia PDF dengan Aspose: Tambahkan Stempel Teks ke Halaman Pertama](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) | Pelajari cara menambahkan stempel teks ke halaman pertama PDF sebagai tanda air rahasia menggunakan Aspose.PDF untuk .NET. Bahasa Indonesia:  
 | [Gambar dan Nomor Halaman di Bagian Header dan Footer Sebaris](./image-and-page-number-in-header-footer-section-inline/) | Pelajari cara menambahkan gambar dan nomor halaman sebaris di bagian header PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Bahasa Indonesia:  
 | [Gambar di Footer](./image-in-footer/) | Pelajari cara menambahkan gambar di bagian bawah PDF menggunakan Aspose.PDF for .NET dengan tutorial langkah demi langkah yang terperinci ini. Sempurna untuk menyempurnakan dokumen Anda. Bahasa Indonesia:  
 | [Gambar Di Header](./image-in-header/) | Pelajari cara menambahkan gambar ke header PDF menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini. Bahasa Indonesia:  
@@ -39,6 +39,10 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Tabel Di Bagian Header Footer](./table-in-header-footer-section/) | Pelajari cara mudah menambahkan teks ke bagian bawah berkas PDF menggunakan Aspose.PDF for .NET. Panduan langkah demi langkah disertakan untuk integrasi yang lancar. Bahasa Indonesia:  
 | [Teks Di Footer File PDF](./text-in-footer/) | Pelajari cara menambahkan teks di footer file PDF dengan Aspose.PDF for .NET. Bahasa Indonesia:  
 | [Teks Di Header File PDF](./text-in-header/) | Pelajari cara menambahkan tajuk teks ke PDF menggunakan Aspose.PDF for .NET dengan tutorial langkah demi langkah ini. Sempurnakan dokumen Anda secara efisien dan efektif. |  
+| [Tutorial Penomoran Bates: Tambahkan Nomor Bates ke PDF dengan C#](./bates-numbering-tutorial-add-bates-numbers-to-pdfs-with-c/) | Pelajari cara menambahkan nomor Bates ke file PDF menggunakan Aspose.PDF untuk .NET dengan C#. Tutorial langkah demi langkah. Bahasa Indonesia:  
+| [Ubah Opasitas PDF di C# – Panduan Lengkap Aspose](./change-pdf-opacity-in-c-complete-aspose-guide/) | Pelajari cara mengubah opasitas halaman PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode C# lengkap. |
+| [Tambahkan Penomoran Bates PDF – Panduan Lengkap C#](./add-bates-numbering-pdf-complete-c-guide/) | Pelajari cara menambahkan penomoran Bates ke file PDF menggunakan Aspose.PDF untuk .NET dengan panduan lengkap dalam C#. |
+| [Tambahkan Penomoran Bates PDF di C# – Panduan Lengkap](./add-bates-numbering-pdf-in-c-complete-guide/) | Pelajari cara menambahkan penomoran Bates ke file PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode lengkap dalam C#. Bahasa Indonesia:  
 | [Cara Menyimpan PDF — Tambahkan Penomoran Bates dengan Aspose.Pdf](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) | Pelajari cara menambahkan penomoran Bates saat menyimpan PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

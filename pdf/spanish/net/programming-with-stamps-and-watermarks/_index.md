@@ -39,6 +39,11 @@ Los tutoriales de Aspose.PDF "Programación con sellos y marcas de agua" para .N
 | [Tabla en la sección de encabezado y pie de página](./table-in-header-footer-section/) Aprenda a agregar texto fácilmente al pie de página de un archivo PDF con Aspose.PDF para .NET. Incluye una guía paso a paso para una integración perfecta.  
 | [Texto en el pie de página del archivo PDF](./text-in-footer/) | Aprenda a agregar texto en el pie de página de un archivo PDF con Aspose.PDF para .NET. |  
 | [Texto en el encabezado del archivo PDF](./text-in-header/) Aprenda a agregar encabezados de texto a archivos PDF con Aspose.PDF para .NET con este tutorial paso a paso. Mejore sus documentos de forma eficiente y eficaz.  
+| [Tutorial de numeración Bates: agregar números Bates a PDFs con C#](./bates-numbering-tutorial-add-bates-numbers-to-pdfs-with-c/) | Aprenda a añadir números Bates a sus PDFs usando Aspose.PDF para .NET con C# en esta guía paso a paso. |
+| [Cambiar la opacidad del PDF en C# – Guía completa de Aspose](./change-pdf-opacity-in-c-complete-aspose-guide/) | Aprenda a cambiar la opacidad de un PDF usando Aspose.PDF para .NET en C# con esta guía paso a paso. |
+| [Agregar numeración Bates a PDF – Guía completa en C#](./add-bates-numbering-pdf-complete-c-guide/) | Aprenda a agregar numeración Bates a sus archivos PDF usando Aspose.PDF para .NET con esta guía completa paso a paso en C#. |
+| [Cambiar la opacidad del PDF con Aspose.PDF – Guía completa en C#](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) | Aprenda a modificar la opacidad de un PDF usando Aspose.PDF en C# con esta guía paso a paso. |
+| [Marca de agua confidencial PDF con Aspose: Añadir un sello de texto a la primera página](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) Aprenda a agregar una marca de agua confidencial como sello de texto en la primera página de un PDF usando Aspose.PDF para .NET.  
 | [Cómo guardar PDF — Añadir numeración Bates con Aspose.Pdf](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) | Aprenda a guardar un PDF y agregar numeración Bates usando Aspose.Pdf para .NET en esta guía paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

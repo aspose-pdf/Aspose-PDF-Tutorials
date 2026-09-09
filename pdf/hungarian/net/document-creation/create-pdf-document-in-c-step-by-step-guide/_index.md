@@ -1,26 +1,27 @@
 ---
 category: general
-date: 2026-02-23
-description: PDF dokumentum gyors létrehozása C#-ban. Tanulja meg, hogyan adhat hozzá
-  oldalakat a PDF-hez, hogyan hozhat létre PDF űrlapmezőket, hogyan készíthet űrlapot,
-  és hogyan adhat hozzá mezőt, világos kódrészletekkel.
+date: 2026-02-25
+description: PDF dokumentum létrehozása C#-ban lépésről‑lépésre útmutatóval. Tanulja
+  meg, hogyan adjon hozzá oldalakat a PDF-hez, hogyan kapcsoljon össze mezőket, és
+  hogyan mentse a PDF-et C#-ban gond nélkül.
 draft: false
 keywords:
 - create pdf document
 - add pages to pdf
-- create pdf form fields
-- how to create form
-- how to add field
+- how to link fields
+- how to create pdf
+- save pdf c#
 language: hu
-og_description: PDF dokumentum létrehozása C#-ban gyakorlati útmutatóval. Fedezze
-  fel, hogyan adhat hozzá oldalakat a PDF-hez, hogyan hozhat létre PDF űrlapmezőket,
-  hogyan készíthet űrlapot, és hogyan adhat hozzá mezőt percek alatt.
-og_title: PDF-dokumentum létrehozása C#-ban – Teljes programozási útmutató
+og_description: Készíts pdf dokumentumot C#‑ban azonnal. Ez az útmutató megmutatja,
+  hogyan lehet oldalakat hozzáadni a pdf‑hez, mezőket összekapcsolni az oldalak között,
+  és tiszta kóddal menteni a pdf‑et C#‑ban.
+og_title: PDF dokumentum létrehozása C#-ban – Teljes programozási útmutató
 tags:
-- C#
-- PDF
-- Form Generation
-title: PDF-dokumentum létrehozása C#‑ban – Lépésről‑lépésre útmutató
+- pdf
+- csharp
+- aspnet
+- form-fields
+title: PDF-dokumentum létrehozása C#‑ban – Lépésről lépésre útmutató
 url: /hu/net/document-creation/create-pdf-document-in-c-step-by-step-guide/
 ---
 
@@ -28,229 +29,221 @@ url: /hu/net/document-creation/create-pdf-document-in-c-step-by-step-guide/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PDF dokumentum létrehozása C#‑ban – Teljes programozási útmutató
+# PDF dokumentum létrehozása C#‑ban – Lépésről‑lépésre útmutató
 
-Valaha szükséged volt **create PDF document** C#‑ban, de nem tudtad, hol kezdjed? Nem vagy egyedül – a legtöbb fejlesztő ugyanebben a helyzetben van, amikor először próbál jelentéseket, számlákat vagy szerződéseket automatizálni. A jó hír? Néhány perc alatt egy teljes funkcionalitású PDF-et kapsz több oldallal és szinkronizált űrlapmezőkkel, és megérted **how to add field**, amely az oldalak között működik.
+Valaha szükséged volt **PDF dokumentum létrehozására** C#‑ban, de nem tudtad, hol kezdjed? Nem vagy egyedül — a fejlesztők gyakran kérdezik, hogyan lehet PDF‑eket generálni helyben számlák, jelentések vagy interaktív űrlapok számára. Ebben az útmutatóban egy teljes, futtatható példán keresztül mutatjuk be, hogyan lehet oldalak hozzáadni a PDF‑hez, mezőket összekapcsolni az oldalak között, és végül **PDF‑t menteni C#‑ban** a lemezre.
 
-Ebben a tutorialban végigvezetünk a teljes folyamaton: a PDF inicializálásától, a **add pages to PDF** lépésén át a **create PDF form fields** létrehozásáig, végül pedig megválaszoljuk, **how to create form**, amely egyetlen értéket oszt meg. Nincs szükség külső hivatkozásokra, csak egy szilárd kódrészlet, amelyet egyszerűen beilleszthetsz a projektedbe. A végére képes leszel egy professzionális megjelenésű, valós űrlapként viselkedő PDF-et generálni.
+> **Mit fogsz megtanulni**  
+> * Hogyan hozhatsz létre PDF dokumentumot az Aspose.PDF for .NET könyvtárral.  
+> * Hogyan adhatsz hozzá több oldalt a PDF‑hez, és helyezheted el a widgeteket pontosan.  
+> * Hogyan kapcsolhatsz össze mezőket, hogy egy felhasználói bejegyzés minden oldalon megjelenjen.  
+> * Hogyan mentheted biztonságosan a PDF‑t C#‑ban, a gyakori buktatókat kezelve.  
 
-## Előkövetelmények
+## Előfeltételek
 
-- .NET 6.0 vagy újabb (a kód .NET Framework 4.6+‑vel is működik)
-- PDF könyvtár, amely elérhetővé teszi a `Document`, `PdfForm`, `TextBoxField` és `Rectangle` osztályokat (pl. Spire.PDF, Aspose.PDF, vagy bármely kompatibilis kereskedelmi/nyílt forráskódú könyvtár)
-- Visual Studio 2022 vagy a kedvenc IDE‑d
-- Alap C# ismeretek (látni fogod, miért fontosak az API hívások)
+Mielőtt belevágnál, győződj meg róla, hogy a következők rendelkezésre állnak:
 
-> **Pro tipp:** Ha NuGet‑et használsz, telepítsd a csomagot a `Install-Package Spire.PDF` paranccsal (vagy a választott könyvtárad megfelelőjével).  
+* .NET 6.0 vagy újabb (a példa .NET Framework 4.6+‑al is működik).  
+* Visual Studio 2022 (vagy bármelyik kedvenc IDE).  
+* Az **Aspose.PDF for .NET** NuGet csomag (`Install-Package Aspose.PDF`).  
+* Alapvető C# szintaxis ismeret – nem szükséges előzetes PDF tudás.
 
-Most merüljünk el.
+Ha valamelyik ismeretlennek tűnik, szánj egy percet a NuGet csomag telepítésére; a további útmutató feltételezi, hogy a könyvtár már hivatkozásként szerepel a projektben.
 
----
+## PDF dokumentum létrehozása – Kezdeti beállítás
 
-## 1. lépés – PDF dokumentum létrehozása és oldalak hozzáadása
-
-Az első dolog, amire szükséged van, egy üres vászon. A PDF terminológiában a vászon egy `Document` objektum. Miután megvan, **add pages to PDF**‑t használhatsz, mintha füzetlapokat adnál hozzá.
-
-```csharp
-using Spire.Pdf;                 // Adjust the namespace to match your library
-using Spire.Pdf.Graphics;        // For Rectangle definition
-
-// Step 1: Initialize a new PDF document
-Document pdfDocument = new Document();
-
-// Add two pages – page indices start at 0 internally, but the library uses 1‑based indexing for convenience
-pdfDocument.Pages.Add(); // Page 1
-pdfDocument.Pages.Add(); // Page 2
-```
-
-*Miért fontos:* A `Document` objektum a fájlszintű metaadatokat tárolja, míg minden `Page` objektum a saját tartalomfolyamát. Az oldalak előzetes hozzáadása helyet biztosít a későbbi űrlapmezők elhelyezéséhez, és egyszerűvé teszi a layout logikát.
-
----
-
-## 2. lépés – PDF űrlap konténer beállítása
-
-A PDF űrlapok lényegében interaktív mezők gyűjteményei. A legtöbb könyvtár egy `PdfForm` osztályt kínál, amelyet a dokumentumhoz csatolsz. Gondolj rá úgy, mint egy „űrlapkezelőre”, amely tudja, mely mezők tartoznak együtt.
+Az első dolog, amire szükségünk van, egy üres vászon. Az Aspose.PDF‑ben ezt a `Document` osztály képviseli.
 
 ```csharp
-// Step 2: Create a form container linked to the document
-PdfForm pdfForm = new PdfForm(pdfDocument);
-```
+using Aspose.Pdf;
+using Aspose.Pdf.Annotations;
+using Aspose.Pdf.Text;
 
-*Miért fontos:* `PdfForm` objektum nélkül a hozzáadott mezők statikus szövegként jelennek meg – a felhasználók nem tudnak semmit beírni. A konténer lehetővé teszi, hogy ugyanazt a mezőnevet több widgethez rendeld, ami a **how to add field** kulcsa az oldalak között.
-
----
-
-## 3. lépés – Szövegdoboz létrehozása az első oldalon
-
-Most létrehozunk egy szövegdobozt, amely az 1. oldalon helyezkedik el. A téglalap meghatározza a pozíciót (x, y) és a méretet (szélesség, magasság) pontokban (1 pt ≈ 1/72 in).
-
-```csharp
-// Step 3: Define a TextBoxField on page 1
-TextBoxField firstPageField = new TextBoxField(
-    pdfDocument.Pages[0],                     // Zero‑based index for the first page
-    new Rectangle(100, 100, 200, 20)          // Left, Bottom, Width, Height
-);
-```
-
-*Miért fontos:* A téglalap koordinátái lehetővé teszik a mező igazítását más tartalomhoz (például címkékhez). A `TextBoxField` típus automatikusan kezeli a felhasználói bevitelt, a kurzort és az alapvető validációt.
-
----
-
-## 4. lépés – Mező másolása a második oldalra
-
-Ha ugyanazt az értéket több oldalon is meg szeretnéd jeleníteni, **create PDF form fields**‑et kell használni azonos nevekkel. Itt egy második szövegdobozt helyezünk el a 2. oldalon ugyanazzal a mérettel.
-
-```csharp
-// Step 4: Define a matching TextBoxField on page 2
-TextBoxField secondPageField = new TextBoxField(
-    pdfDocument.Pages[1],                     // Second page (zero‑based index)
-    new Rectangle(100, 100, 200, 20)
-);
-```
-
-*Miért fontos:* A téglalap tükrözésével a mező minden oldalon konzisztensnek tűnik – ez egy kis UX nyeremény. Az alapszintű mezőnév összekapcsolja a két vizuális widgetet.
-
----
-
-## 5. lépés – Mindkét widget hozzáadása az űrlaphoz ugyanazzal a névvel
-
-Ez a **how to create form** lényege, amely egyetlen értéket oszt meg. Az `Add` metódus a mezőobjektumot, egy karakterlánc azonosítót és egy opcionális oldalszámot vár. Ugyanazzal az azonosítóval (`"myField"`) a PDF motor azt értelmezi, hogy mindkét widget ugyanahhoz a logikai mezőhöz tartozik.
-
-```csharp
-// Step 5: Register both fields under the same name
-pdfForm.Add(firstPageField, "myField", 1);   // Page number is 1‑based for the API
-pdfForm.Add(secondPageField, "myField", 2);
-```
-
-*Miért fontos:* Amikor a felhasználó beír valamit az első szövegdobozba, a második automatikusan frissül (és fordítva). Ez tökéletes többoldalas szerződésekhez, ahol egyetlen „Ügyfél neve” mezőt szeretnél minden oldal tetején megjeleníteni.
-
----
-
-## 6. lépés – PDF mentése lemezre
-
-Végül írjuk ki a dokumentumot. A `Save` metódus egy teljes elérési utat vár; győződj meg róla, hogy a mappa létezik, és az alkalmazásnak van írási joga.
-
-```csharp
-// Step 6: Persist the PDF file
-pdfDocument.Save(@"C:\Temp\output.pdf");
-
-// Optionally open the file automatically (Windows only)
-System.Diagnostics.Process.Start(@"C:\Temp\output.pdf");
-```
-
-*Miért fontos:* A mentés befejezi a belső adatfolyamokat, laposítja az űrlap struktúráját, és a fájlt készen áll a terjesztésre. Azonnal megnyithatod, hogy ellenőrizd az eredményt.
-
----
-
-## Teljes működő példa
-
-Az alábbiakban a teljes, futtatható program látható. Másold be egy konzolalkalmazásba, igazítsd a `using` direktívákat a könyvtáradhoz, és nyomd meg az **F5**‑öt.
-
-```csharp
-using System;
-using Spire.Pdf;                 // Replace with your PDF library namespace
-using Spire.Pdf.Graphics;        // For Rectangle
-
-namespace PdfFormDemo
+namespace PdfDemo
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            // 1️⃣ Create a new PDF document and add two pages
-            Document pdfDocument = new Document();
-            pdfDocument.Pages.Add(); // First page
-            pdfDocument.Pages.Add(); // Second page
+            // Step 1: Create a new PDF document
+            Document document = new Document();
+```
 
-            // 2️⃣ Initialize a PdfForm container
-            PdfForm pdfForm = new PdfForm(pdfDocument);
+*Miért fontos*: A `Document` objektum tartalmazza a teljes fájlszerkezetet — oldalak, űrlapok, erőforrások, minden. Olyan, mint egy jegyzetfüzet, ahová később beírhatod a tartalmat. Az objektum előzetes létrehozásával előkészíted a színpadot az oldalak, mezők hozzáadásához és a fájl mentéséhez.
 
-            // 3️⃣ Create a textbox on the first page
-            TextBoxField firstPageField = new TextBoxField(
-                pdfDocument.Pages[0],
-                new Rectangle(100, 100, 200, 20));
+## Oldalak hozzáadása a PDF‑hez – Az elrendezés felépítése
 
-            // 4️⃣ Create a matching textbox on the second page
-            TextBoxField secondPageField = new TextBoxField(
-                pdfDocument.Pages[1],
-                new Rectangle(100, 100, 200, 20));
+Egy PDF oldal nélkül olyan, mint egy könyv lapok nélkül — használhatatlan. Adjunk hozzá két oldalt, hogy bemutathassuk a mezőkapcsolást.
 
-            // 5️⃣ Add both fields to the form using the same name
-            pdfForm.Add(firstPageField, "myField", 1);
-            pdfForm.Add(secondPageField, "myField", 2);
+```csharp
+            // Step 2: Add two pages to the document
+            Page firstPage = document.Pages.Add();
+            Page secondPage = document.Pages.Add();
+```
 
-            // 6️⃣ Save the resulting PDF
-            string outputPath = @"C:\Temp\output.pdf";
-            pdfDocument.Save(outputPath);
-            Console.WriteLine($"PDF saved to {outputPath}");
+Észreveszed, hogy kétszer hívod a `Add()`‑t, és minden új oldalt egy saját változóba tárolod. Így később közvetlenül elérheted az egyes oldalak annotációgyűjteményét. Tetszőleges számú oldalt hozzáadhatsz; az API lineárisan skálázódik.
 
-            // Open the PDF for quick verification (optional)
-            System.Diagnostics.Process.Start(outputPath);
+### Widgetek elhelyezése
+
+Amikor később szövegdobozt helyezünk el, egy téglalapra van szükség, amely meghatározza a pozíciót. A koordinátákat pontban adjuk meg (1 pont = 1/72 hüvelyk). Az alábbi téglalap a mezőt nagyjából az oldal közepére helyezi.
+
+```csharp
+            // Define a rectangle for the text box (left, bottom, right, top)
+            var fieldRect = new Rectangle(100, 600, 300, 650);
+```
+
+Nyugodtan módosítsd ezeket a számokat — például alacsonyabbra vagy szélesebbre helyezheted a mezőt. A lényeg, hogy ugyanazt a téglalapot használjuk mindkét widgethez, így tökéletesen igazodnak egymáshoz az oldalak között.
+
+## Hogyan kapcsoljunk össze mezőket az oldalak között
+
+Most jön a lényeg: egyetlen logikai mező, amely mindkét oldalon megjelenik. PDF‑terminológiában ez egy *shared field* több *widget*‑tel. Az első widget az első oldalon, a második widget a második oldalon helyezkedik el, de ugyanarra a mezőnévre mutat.
+
+```csharp
+            // Step 3: Create a text box field on the first page and set its initial value
+            TextBoxField sharedTextBox = new TextBoxField(firstPage, fieldRect)
+            {
+                Value = "Shared value"
+            };
+
+            // Step 4: Register the text box field in the form with a shared name
+            document.Form.Add(sharedTextBox, "SharedTB");
+```
+
+A `document.Form.Add` hívás regisztrálja a mezőt a `"SharedTB"` név alatt. Bármely widget, amely ugyanazt a `PartialName`‑t használja, automatikusan tükrözi a mezőben történt változásokat.
+
+```csharp
+            // Step 5: Add a second widget of the same field on the second page
+            TextBoxField secondWidget = new TextBoxField(secondPage, fieldRect);
+            secondWidget.PartialName = "SharedTB"; // links to the same field
+            secondPage.Annotations.Add(secondWidget);
+```
+
+*Miért működik*: A PDF űrlapok szétválasztják a *meződefiníciót* (az adatkonténert) a *widget*‑től (a vizuális megjelenítést). Ha mindkét widget ugyanazt a `PartialName`‑t kapja, a megjelenítőnek jelezzük, hogy ugyanahhoz a logikai mezőhöz tartoznak. Amikor a felhasználó beír valamit az 1. oldal mezőjébe, az érték azonnal megjelenik a 2. oldalon is, és fordítva.
+
+## PDF mentése C#‑ban – A fájl tartós tárolása
+
+Végül le kell írni a dokumentumot a lemezre. A `Save` metódus egy fájlútvonalat vár; ha szeretnéd, memóriába is streamelhetsz.
+
+```csharp
+            // Step 6: Save the PDF document
+            string outputPath = @"C:\Temp\textbox_multi_widget.pdf";
+            document.Save(outputPath);
+
+            System.Console.WriteLine($"PDF saved to {outputPath}");
         }
     }
 }
 ```
 
-**Várható eredmény:** Nyisd meg a `output.pdf`‑t, és két azonos szövegdobozt látsz – egyiket minden oldalon. Írj be egy nevet a felső dobozba; az alsó azonnal frissül. Ez demonstrálja, hogy a **how to add field** helyesen működik, és megerősíti, hogy az űrlap a kívánt módon működik.
+Néhány gyakorlati megjegyzés:
 
----
+* **Mappa jogosultságok** – Győződj meg róla, hogy a célmappa létezik, és a folyamatnak van írási joga; különben a `Save` kivételt dob.  
+* **Felülírások** – A `Save` figyelmeztetés nélkül felülír egy már létező fájlt. Ha ez problémát jelent, ellenőrizd előbb a `File.Exists` értékét.  
+* **Memóriahasználat** – Nagy dokumentumok esetén érdemes a `document.Save(Stream)`‑t használni, hogy ne tartsd a teljes fájlt a memóriában.
 
-## Gyakori kérdések és speciális esetek
+Amikor futtatod a programot, nyisd meg a keletkezett PDF‑et. Két azonos szövegdobozt látsz. Írj valamit az elsőbe, kattints máshová, majd lépj a 2. oldalra — a beírt szöveg azonnal megjelenik. Ez a mezőkapcsolás ereje.
 
-### Mi van, ha több mint két oldalra van szükségem?
+![PDF dokumentum létrehozása összekapcsolt szövegmezőkkel]( "PDF dokumentum létrehozása összekapcsolt szövegmezőkkel")
 
-Csak hívd meg annyiszor a `pdfDocument.Pages.Add()`‑t, ahányra szükséged van, majd minden új oldalra hozz létre egy `TextBoxField`‑et, és regisztráld őket ugyanazzal a mezőnévvel. A könyvtár szinkronban tartja őket.
+## Gyakori variációk és szélhelyzetek
 
-### Beállíthatok alapértelmezett értéket?
+### További widgetek hozzáadása
 
-Igen. A mező létrehozása után rendeld hozzá: `firstPageField.Text = "John Doe";`. Az alapértelmezett érték minden összekapcsolt widgeten megjelenik.
-
-### Hogyan tehetem kötelezővé a mezőt?
-
-A legtöbb könyvtár egy `Required` tulajdonságot kínál:
+Ha ugyanazt a mezőt három vagy több oldalon szeretnéd, egyszerűen ismételd meg a widget‑létrehozó blokkot minden további oldalra, mindig a `PartialName`‑t `"SharedTB"`‑re állítva.
 
 ```csharp
-firstPageField.Required = true;
-secondPageField.Required = true;
+            // Example: third page widget
+            Page thirdPage = document.Pages.Add();
+            TextBoxField thirdWidget = new TextBoxField(thirdPage, fieldRect);
+            thirdWidget.PartialName = "SharedTB";
+            thirdPage.Annotations.Add(thirdWidget);
 ```
 
-Amikor a PDF‑et az Adobe Acrobat‑ban nyitják meg, a felhasználót figyelmezteti, ha a mező kitöltése nélkül próbálja elküldeni.
+### Mező megjelenésének módosítása
 
-### Mi a helyzet a stílussal (betűtípus, szín, keret)?
-
-Elérheted a mező megjelenési objektumát:
+A `FieldAppearance` tulajdonságon keresztül testre szabhatod a betűtípust, keretet, háttérszínt stb.
 
 ```csharp
-firstPageField.Font = new PdfFont(PdfFontFamily.Helvetica, 12f);
-firstPageField.BorderWidth = 1;
-firstPageField.BorderColor = Color.Black;
+            sharedTextBox.DefaultAppearance = new TextState
+            {
+                FontSize = 12,
+                Font = FontRepository.FindFont("Arial"),
+                ForegroundColor = Color.Black
+            };
+            sharedTextBox.Border = new Border(sharedTextBox) { Width = 1 };
 ```
 
-Alkalmazd ugyanazt a stílust a második mezőre a vizuális konzisztencia érdekében.
+Ezek a finomhangolások opcionálisak, de professzionálisabbá teszik az űrlapot.
 
-### Nyomtatható-e az űrlap?
+### Csak‑olvasásra szánt mezők
 
-Természetesen. Mivel a mezők *interaktívak*, megőrzik megjelenésüket nyomtatáskor is. Ha lapos (flattened) verzióra van szükséged, hívd meg a `pdfDocument.Flatten()`‑t a mentés előtt.
+Ha a mezőnek csak adatot kell megjelenítenie (például egy számított összeg), állítsd be `IsReadOnly = true`‑t.
 
----
+```csharp
+            sharedTextBox.IsReadOnly = true;
+```
 
-## Pro tippek és buktatók
+### Nagy PDF‑ek kezelése
 
-- **Kerüld a átfedő téglalapokat.** Az átfedés renderelési hibákat okozhat egyes nézőkben.
-- **Ne feledd a null‑alapú indexelést** a `Pages` gyűjteményben; a 0‑ és 1‑alapú indexek keverése gyakori oka a „field not found” hibáknak.
-- **Szabadítsd fel az objektumokat**, ha a könyvtárad implementálja az `IDisposable`‑t. Tedd a dokumentumot egy `using` blokkba a natív erőforrások felszabadításához.
-- **Teszteld több nézőben** (Adobe Reader, Foxit, Chrome). Egyes nézők kissé eltérően értelmezik a mezőflageket.
-- **Verziókompatibilitás:** A bemutatott kód a Spire.PDF 7.x‑től felfelé működik. Régebbi verzió esetén a `PdfForm.Add` overload más szignatúrát igényelhet.
+Ha a dokumentum néhány száz megabájtnál nagyobb, érdemes a `document.Optimize()`‑t meghívni a mentés előtt a fájlméret csökkentése érdekében.
 
----
+## Profi tippek és buktatók
 
-## Összegzés
+* **Pro tip**: Használd ugyanazt a `Rectangle` példányt minden widgethez, ha tökéletes igazodást szeretnél. Így elkerülöd a finom kerekítési hibákat.  
+* **Vigyázz**: Ne felejtsd el a második widgetet a `secondPage.Annotations`‑hoz adni. A mező létezik, de a vizuális doboz nem jelenik meg.  
+* **Gyakori hiba**: `new TextBoxField(secondPage, ...)` használata `PartialName` beállítása nélkül — a második widget teljesen külön mezővé válik, és a kapcsolat megszakad.  
+* **Teljesítmény**: Oldalak hozzáadása ciklusban (`for (int i = 0; i < n; i++)`) rendben van, de kerüld a nehéz műveleteket a cikluson belül (például nagy képek betöltése) anélkül, hogy felszabadítanád az erőforrásokat.
 
-Most már tudod, **how to create PDF document** C#‑ban a nulláról, hogyan **add pages to PDF**, és – ami a legfontosabb – hogyan **create PDF form fields** hozhatsz létre, amelyek egyetlen értéket osztanak meg, megválaszolva mind a **how to create form**, mind a **how to add field** kérdéseket. A teljes példa azonnal futtatható, a magyarázatok pedig elmagyarázzák a *miért*‑et minden sor mögött.
+## Teljes működő példa összefoglaló
 
-Készen állsz a következő kihívásra? Próbálj meg egy legördülő listát, egy rádiógombcsoportot vagy akár JavaScript‑akciókat hozzáadni, amelyek összegzéseket számolnak. Mindezek a koncepciók az itt bemutatott alapokra épülnek.
+Íme a teljes program, készen áll a másolás‑beillesztésre:
 
-Ha hasznosnak találtad ezt a tutorialt, oszd meg a csapattagokkal, vagy csillagozd meg azt a repót, ahol a PDF‑eszközeidet tárolod. Boldog kódolást, és legyenek a PDF‑eid mindig gyönyörűek és funkcionálisak!
+```csharp
+using Aspose.Pdf;
+using Aspose.Pdf.Annotations;
+using Aspose.Pdf.Text;
+using System.Drawing;
+
+namespace PdfDemo
+{
+    class Program
+    {
+        static void Main()
+        {
+            // Step 1: Create a new PDF document
+            Document document = new Document();
+
+            // Step 2: Add two pages to the document
+            Page firstPage = document.Pages.Add();
+            Page secondPage = document.Pages.Add();
+
+            // Define the rectangle for the text box
+            var fieldRect = new Rectangle(100, 600, 300, 650);
+
+            // Step 3: Create a text box field on the first page and set its initial value
+            TextBoxField sharedTextBox = new TextBoxField(firstPage, fieldRect)
+            {
+                Value = "Shared value"
+            };
+
+            // Optional: customize appearance
+            sharedTextBox.DefaultAppearance = new TextState
+            {
+                FontSize = 12,
+                Font = FontRepository.FindFont("Arial"),
+                ForegroundColor = Color.Black
+            };
+            sharedTextBox.Border = new Border(sharedTextBox) { Width = 1 };
+
+            // Step 4: Register the text box field in the form with a shared name
+            document.Form.Add(sharedTextBox, "SharedTB");
+
+            // Step 5: Add a second widget of the same field on the second page
+            TextBoxField secondWidget = new TextBoxField(secondPage, fieldRect);
+            secondWidget.PartialName = "SharedTB"; // links to the same field
+            secondPage.Annotations.Add(secondWidget);
+
+            // Step 6: Save the PDF document
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

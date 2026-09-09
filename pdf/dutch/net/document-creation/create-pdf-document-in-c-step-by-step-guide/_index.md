@@ -1,270 +1,251 @@
 ---
 category: general
-date: 2026-02-23
-description: Maak snel een PDF‑document in C#. Leer hoe je pagina’s aan een PDF toevoegt,
-  PDF‑formuliervelden maakt, hoe je een formulier maakt en hoe je een veld toevoegt
-  met duidelijke codevoorbeelden.
+date: 2026-02-25
+description: Maak een pdf‑document in C# met een stapsgewijze handleiding. Leer hoe
+  je pagina’s aan een pdf toevoegt, hoe je velden koppelt en hoe je een pdf in C#
+  zonder gedoe opslaat.
 draft: false
 keywords:
 - create pdf document
 - add pages to pdf
-- create pdf form fields
-- how to create form
-- how to add field
+- how to link fields
+- how to create pdf
+- save pdf c#
 language: nl
-og_description: Maak een PDF-document in C# met een praktische tutorial. Ontdek hoe
-  je pagina's aan een PDF kunt toevoegen, PDF-formuliervelden kunt maken, een formulier
-  kunt creëren en in enkele minuten velden kunt toevoegen.
-og_title: PDF-document maken in C# – Volledige programmeerhandleiding
+og_description: Maak direct een pdf‑document in C#. Deze gids laat zien hoe je pagina’s
+  aan een pdf toevoegt, velden over pagina’s heen koppelt en een pdf opslaat in C#
+  met nette code.
+og_title: PDF-document maken in C# – Complete programmeertutorial
 tags:
-- C#
-- PDF
-- Form Generation
+- pdf
+- csharp
+- aspnet
+- form-fields
 title: PDF-document maken in C# – Stapsgewijze handleiding
 url: /nl/net/document-creation/create-pdf-document-in-c-step-by-step-guide/
 ---
-
-=> "Volledig werkend voorbeeld".
-
-"Expected outcome:" => "**Verwacht resultaat:**" maybe keep bold.
-
-"Common Questions & Edge Cases" => "Veelgestelde vragen & randgevallen".
-
-"Pro Tips & Pitfalls" => "Pro‑tips & valkuilen".
-
-"Conclusion" => "Conclusie".
-
-Make sure to keep code block placeholders.
-
-Now produce final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PDF-document maken in C# – Complete programmeerhandleiding
+# PDF-document maken in C# – Stapsgewijze handleiding
 
-Heb je ooit een **PDF-document moeten maken** in C# maar wist je niet waar je moest beginnen? Je bent niet de enige—de meeste ontwikkelaars lopen tegen die muur aan wanneer ze voor het eerst rapporten, facturen of contracten willen automatiseren. Het goede nieuws? Na slechts een paar minuten heb je een volledig uitgeruste PDF met meerdere pagina’s en gesynchroniseerde formuliervelden, en begrijp je **hoe je een veld moet toevoegen** dat over pagina’s heen werkt.
+Heb je ooit een **pdf-document moeten maken** in C# maar wist je niet waar je moest beginnen? Je bent niet de enige—ontwikkelaars vragen constant hoe ze PDFs on‑the‑fly kunnen genereren voor facturen, rapporten of interactieve formulieren. In deze tutorial lopen we een volledig, uitvoerbaar voorbeeld door dat laat zien hoe je pagina’s toevoegt aan een pdf, velden over die pagina’s heen koppelt, en uiteindelijk **pdf c# opslaat** naar schijf.
 
-In deze tutorial lopen we het volledige proces door: van het initialiseren van de PDF, tot **pagina’s aan PDF toevoegen**, tot **PDF-formuliervelden maken**, en uiteindelijk tot het beantwoorden van **hoe je een formulier maakt** dat één enkele waarde deelt. Geen externe referenties nodig, alleen een solide code‑voorbeeld dat je kunt copy‑paste in je project. Aan het einde kun je een PDF genereren die er professioneel uitziet en zich gedraagt als een echt formulier.
+We behandelen alles, van het initialiseren van het documentobject tot het verbinden van gedeelde formuliervelden, zodat je de code kunt kopiëren‑plakken in je eigen project en direct kunt zien dat het werkt. Geen vage verwijzingen, alleen concrete code en duidelijke uitleg.
 
-## Prerequisites
+> **Wat je zult leren**  
+> * Hoe je een PDF-document maakt met de Aspose.PDF for .NET‑bibliotheek.  
+> * Hoe je meerdere pagina’s toevoegt aan pdf en widgets precies positioneert.  
+> * Hoe je velden koppelt zodat één invoer op elke pagina verschijnt.  
+> * Hoe je pdf c# veilig opslaat, met aandacht voor veelvoorkomende valkuilen.  
 
-- .NET 6.0 of later (de code werkt ook met .NET Framework 4.6+)
-- Een PDF‑bibliotheek die `Document`, `PdfForm`, `TextBoxField` en `Rectangle` exposeert (bijv. Spire.PDF, Aspose.PDF, of een andere compatibele commerciële/OSS‑bibliotheek)
-- Visual Studio 2022 of je favoriete IDE
-- Basiskennis van C# (je zult zien waarom de API‑calls belangrijk zijn)
+## Vereisten
 
-> **Pro tip:** Als je NuGet gebruikt, installeer dan het pakket met `Install-Package Spire.PDF` (of het equivalent voor de door jou gekozen bibliotheek).  
+Voordat je begint, zorg dat je het volgende hebt:
 
-Laten we nu duiken.
+* .NET 6.0 of later (het voorbeeld werkt ook met .NET Framework 4.6+).  
+* Visual Studio 2022 (of een andere IDE naar keuze).  
+* Het **Aspose.PDF for .NET** NuGet‑pakket (`Install-Package Aspose.PDF`).  
+* Een basisbegrip van C#‑syntaxis—geen geavanceerde PDF‑kennis vereist.
 
----
+Als een van deze onderdelen je onbekend is, neem dan even de tijd om het NuGet‑pakket te installeren; de rest van de gids gaat ervan uit dat de bibliotheek al is toegevoegd.
 
-## Stap 1 – PDF-document maken en pagina’s toevoegen
+## PDF-document maken – Initiële setup
 
-Het eerste wat je nodig hebt is een leeg canvas. In PDF‑terminologie is het canvas een `Document`‑object. Zodra je dat hebt, kun je **pagina’s aan PDF toevoegen** net zoals je bladzijden aan een notitieboek zou toevoegen.
-
-```csharp
-using Spire.Pdf;                 // Adjust the namespace to match your library
-using Spire.Pdf.Graphics;        // For Rectangle definition
-
-// Step 1: Initialize a new PDF document
-Document pdfDocument = new Document();
-
-// Add two pages – page indices start at 0 internally, but the library uses 1‑based indexing for convenience
-pdfDocument.Pages.Add(); // Page 1
-pdfDocument.Pages.Add(); // Page 2
-```
-
-*Waarom dit belangrijk is:* Een `Document`‑object bevat de metadata op bestandsniveau, terwijl elk `Page`‑object zijn eigen content‑streams opslaat. Pagina’s vooraf toevoegen geeft je plekken om later formuliervelden te plaatsen, en houdt de layout‑logica simpel.
-
----
-
-## Stap 2 – Het PDF‑formulierveldcontainer instellen
-
-PDF‑formulieren zijn in wezen collecties van interactieve velden. De meeste bibliotheken bieden een `PdfForm`‑klasse die je aan het document koppelt. Beschouw het als een “form manager” die weet welke velden bij elkaar horen.
+Het allereerste wat we nodig hebben is een leeg canvas. In Aspose.PDF wordt dit vertegenwoordigd door de `Document`‑klasse.
 
 ```csharp
-// Step 2: Create a form container linked to the document
-PdfForm pdfForm = new PdfForm(pdfDocument);
-```
+using Aspose.Pdf;
+using Aspose.Pdf.Annotations;
+using Aspose.Pdf.Text;
 
-*Waarom dit belangrijk is:* Zonder een `PdfForm`‑object zouden de velden die je toevoegt statische tekst zijn—gebruikers kunnen niets typen. De container laat je ook dezelfde veldnaam aan meerdere widgets toewijzen, wat de sleutel is tot **hoe je een veld moet toevoegen** over pagina’s heen.
-
----
-
-## Stap 3 – Een tekstvak op de eerste pagina maken
-
-Nu maken we een tekstvak dat zich op pagina 1 bevindt. Het rechthoek‑object definieert de positie (x, y) en de grootte (breedte, hoogte) in points (1 pt ≈ 1/72 in).
-
-```csharp
-// Step 3: Define a TextBoxField on page 1
-TextBoxField firstPageField = new TextBoxField(
-    pdfDocument.Pages[0],                     // Zero‑based index for the first page
-    new Rectangle(100, 100, 200, 20)          // Left, Bottom, Width, Height
-);
-```
-
-*Waarom dit belangrijk is:* De coördinaten van de rechthoek laten je het veld uitlijnen met andere inhoud (zoals labels). Het type `TextBoxField` behandelt automatisch gebruikersinvoer, cursor en basisvalidatie.
-
----
-
-## Stap 4 – Het veld dupliceren op de tweede pagina
-
-Als je dezelfde waarde op meerdere pagina’s wilt laten verschijnen, **maak je PDF‑formuliervelden** met identieke namen. Hier plaatsen we een tweede tekstvak op pagina 2 met dezelfde afmetingen.
-
-```csharp
-// Step 4: Define a matching TextBoxField on page 2
-TextBoxField secondPageField = new TextBoxField(
-    pdfDocument.Pages[1],                     // Second page (zero‑based index)
-    new Rectangle(100, 100, 200, 20)
-);
-```
-
-*Waarom dit belangrijk is:* Door de rechthoek te spiegelen, ziet het veld er consistent uit over pagina’s—a small UX win. De onderliggende veldnaam koppelt de twee visuele widgets aan elkaar.
-
----
-
-## Stap 5 – Beide widgets aan het formulier toevoegen met dezelfde naam
-
-Dit is de kern van **hoe je een formulier maakt** dat één enkele waarde deelt. De `Add`‑methode neemt het veldobject, een string‑identifier en een optioneel paginanummer. Door dezelfde identifier (`"myField"`) te gebruiken, vertelt je de PDF‑engine dat beide widgets hetzelfde logische veld vertegenwoordigen.
-
-```csharp
-// Step 5: Register both fields under the same name
-pdfForm.Add(firstPageField, "myField", 1);   // Page number is 1‑based for the API
-pdfForm.Add(secondPageField, "myField", 2);
-```
-
-*Waarom dit belangrijk is:* Wanneer een gebruiker in het eerste tekstvak typt, wordt het tweede tekstvak automatisch bijgewerkt (en vice‑versa). Dit is perfect voor meer‑pagina‑contracten waar je één “Customer Name”‑veld bovenaan elke pagina wilt hebben.
-
----
-
-## Stap 6 – De PDF opslaan naar schijf
-
-Tot slot schrijf je het document weg. De `Save`‑methode neemt een volledig pad; zorg ervoor dat de map bestaat en dat je app schrijfrechten heeft.
-
-```csharp
-// Step 6: Persist the PDF file
-pdfDocument.Save(@"C:\Temp\output.pdf");
-
-// Optionally open the file automatically (Windows only)
-System.Diagnostics.Process.Start(@"C:\Temp\output.pdf");
-```
-
-*Waarom dit belangrijk is:* Opslaan finaliseert de interne streams, flatten de formulierstructuur, en maakt het bestand klaar voor distributie. Direct openen laat je het resultaat meteen verifiëren.
-
----
-
-## Volledig werkend voorbeeld
-
-Hieronder staat het complete, kant‑klaar programma. Kopieer het in een console‑applicatie, pas de `using`‑statements aan op jouw bibliotheek, en druk op **F5**.
-
-```csharp
-using System;
-using Spire.Pdf;                 // Replace with your PDF library namespace
-using Spire.Pdf.Graphics;        // For Rectangle
-
-namespace PdfFormDemo
+namespace PdfDemo
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            // 1️⃣ Create a new PDF document and add two pages
-            Document pdfDocument = new Document();
-            pdfDocument.Pages.Add(); // First page
-            pdfDocument.Pages.Add(); // Second page
+            // Step 1: Create a new PDF document
+            Document document = new Document();
+```
 
-            // 2️⃣ Initialize a PdfForm container
-            PdfForm pdfForm = new PdfForm(pdfDocument);
+*Waarom dit belangrijk is*: Het `Document`‑object bevat de volledige bestandsstructuur—pagina’s, formulieren, resources, alles. Zie het als het notitieboek waarin je later al je inhoud schrijft. Door het meteen aan te maken, leg je de basis voor het toevoegen van pagina’s, velden en uiteindelijk het opslaan van het bestand.
 
-            // 3️⃣ Create a textbox on the first page
-            TextBoxField firstPageField = new TextBoxField(
-                pdfDocument.Pages[0],
-                new Rectangle(100, 100, 200, 20));
+## Pagina’s toevoegen aan PDF – Layout opbouwen
 
-            // 4️⃣ Create a matching textbox on the second page
-            TextBoxField secondPageField = new TextBoxField(
-                pdfDocument.Pages[1],
-                new Rectangle(100, 100, 200, 20));
+Een PDF zonder pagina’s is als een boek zonder bladzijden—nutteloos. Laten we twee pagina’s toevoegen zodat we veldkoppeling kunnen demonstreren.
 
-            // 5️⃣ Add both fields to the form using the same name
-            pdfForm.Add(firstPageField, "myField", 1);
-            pdfForm.Add(secondPageField, "myField", 2);
+```csharp
+            // Step 2: Add two pages to the document
+            Page firstPage = document.Pages.Add();
+            Page secondPage = document.Pages.Add();
+```
 
-            // 6️⃣ Save the resulting PDF
-            string outputPath = @"C:\Temp\output.pdf";
-            pdfDocument.Save(outputPath);
-            Console.WriteLine($"PDF saved to {outputPath}");
+Merk op dat we twee keer `Add()` aanroepen en elke nieuwe pagina in een eigen variabele opslaan. Zo hebben we later directe toegang tot de annotatie‑collectie van elke pagina. Je kunt zoveel pagina’s toevoegen als je nodig hebt; de API schaalt lineair.
 
-            // Open the PDF for quick verification (optional)
-            System.Diagnostics.Process.Start(outputPath);
+### Widgets positioneren
+
+Wanneer we later een tekstvak plaatsen, hebben we een rechthoek nodig die de locatie definieert. De coördinaten worden uitgedrukt in punten (1 punt = 1/72 inch). De onderstaande rechthoek plaatst het veld ongeveer in het midden van de pagina.
+
+```csharp
+            // Define a rectangle for the text box (left, bottom, right, top)
+            var fieldRect = new Rectangle(100, 600, 300, 650);
+```
+
+Voel je vrij om die getallen aan te passen—misschien wil je het veld lager of breder hebben. Het belangrijke is dat dezelfde rechthoek voor beide widgets wordt hergebruikt, zodat ze perfect op één lijn staan over de pagina’s.
+
+## Velden koppelen over pagina’s heen
+
+Nu komt het interessante deel: we willen één logisch veld dat op beide pagina’s verschijnt. In PDF‑terminologie is dit een *shared field* met meerdere *widgets*. De eerste widget bevindt zich op de eerste pagina; de tweede widget bevindt zich op de tweede pagina maar verwijst naar dezelfde onderliggende veldnaam.
+
+```csharp
+            // Step 3: Create a text box field on the first page and set its initial value
+            TextBoxField sharedTextBox = new TextBoxField(firstPage, fieldRect)
+            {
+                Value = "Shared value"
+            };
+
+            // Step 4: Register the text box field in the form with a shared name
+            document.Form.Add(sharedTextBox, "SharedTB");
+```
+
+De aanroep `document.Form.Add` registreert het veld onder de naam `"SharedTB"`. Elke widget die dezelfde `PartialName` gebruikt, zal automatisch de wijzigingen in het veld weergeven.
+
+```csharp
+            // Step 5: Add a second widget of the same field on the second page
+            TextBoxField secondWidget = new TextBoxField(secondPage, fieldRect);
+            secondWidget.PartialName = "SharedTB"; // links to the same field
+            secondPage.Annotations.Add(secondWidget);
+```
+
+*Waarom dit werkt*: PDF‑formulieren scheiden de *field definition* (de gegevenscontainer) van de *widget* (de visuele weergave). Door beide widgets dezelfde `PartialName` te geven, vertellen we de viewer dat ze tot hetzelfde logische veld behoren. Wanneer een gebruiker iets intypt in het vak op pagina 1, verschijnt de waarde direct op pagina 2, en vice‑versa.
+
+## PDF opslaan C# – Bestand persisteren
+
+Tot slot moeten we het document naar schijf schrijven. De `Save`‑methode neemt een bestandspad; je kunt ook naar een stream schrijven als je dat liever hebt.
+
+```csharp
+            // Step 6: Save the PDF document
+            string outputPath = @"C:\Temp\textbox_multi_widget.pdf";
+            document.Save(outputPath);
+
+            System.Console.WriteLine($"PDF saved to {outputPath}");
         }
     }
 }
 ```
 
-**Verwacht resultaat:** Open `output.pdf` en je ziet twee identieke tekstvakken—één op elke pagina. Typ een naam in het bovenste vak; het onderste vak wordt direct bijgewerkt. Dit toont aan dat **hoe je een veld moet toevoegen** correct werkt en bevestigt dat het formulier functioneert zoals bedoeld.
+Enkele praktische opmerkingen:
 
----
+* **Map‑rechten** – Zorg dat de doelmap bestaat en dat je proces schrijfrechten heeft; anders gooit `Save` een uitzondering.  
+* **Overschrijvingen** – `Save` zal een bestaand bestand zonder waarschuwing overschrijven. Als dat een zorg is, controleer dan eerst `File.Exists`.  
+* **Geheugengebruik** – Bij enorme documenten kun je beter `document.Save(Stream)` gebruiken om te voorkomen dat het volledige bestand in het geheugen blijft.
 
-## Veelgestelde vragen & randgevallen
+Wanneer je het programma uitvoert, open je de resulterende PDF. Je ziet twee identieke tekstvakken. Typ iets in het eerste vak, klik ergens anders, ga dan naar pagina 2—je invoer verschijnt direct. Dat is de kracht van veldkoppeling.
 
-### Wat als ik meer dan twee pagina’s nodig heb?
+![PDF-document maken met gekoppelde tekstvelden]( "PDF-document maken met gekoppelde tekstvelden")
 
-Roep simpelweg `pdfDocument.Pages.Add()` zo vaak aan als je wilt, maak dan een `TextBoxField` voor elke nieuwe pagina en registreer ze met dezelfde veldnaam. De bibliotheek houdt ze gesynchroniseerd.
+## Veelvoorkomende variaties & randgevallen
 
-### Kan ik een standaardwaarde instellen?
+### Meer widgets toevoegen
 
-Ja. Na het maken van een veld, wijs `firstPageField.Text = "John Doe";` toe. Dezelfde standaardwaarde verschijnt in alle gekoppelde widgets.
-
-### Hoe maak ik het veld verplicht?
-
-De meeste bibliotheken bieden een `Required`‑property:
+Als je hetzelfde veld op drie of meer pagina’s nodig hebt, herhaal dan het widget‑creatieblok voor elke extra pagina, en stel telkens `PartialName` in op `"SharedTB"`.
 
 ```csharp
-firstPageField.Required = true;
-secondPageField.Required = true;
+            // Example: third page widget
+            Page thirdPage = document.Pages.Add();
+            TextBoxField thirdWidget = new TextBoxField(thirdPage, fieldRect);
+            thirdWidget.PartialName = "SharedTB";
+            thirdPage.Annotations.Add(thirdWidget);
 ```
 
-Wanneer de PDF in Adobe Acrobat wordt geopend, krijgt de gebruiker een melding als hij probeert te verzenden zonder het veld in te vullen.
+### Veld‑uiterlijk aanpassen
 
-### Hoe zit het met styling (lettertype, kleur, rand)?
-
-Je kunt het appearance‑object van het veld benaderen:
+Je kunt lettertype, rand, achtergrondkleur, enz. aanpassen via de `FieldAppearance`‑eigenschap.
 
 ```csharp
-firstPageField.Font = new PdfFont(PdfFontFamily.Helvetica, 12f);
-firstPageField.BorderWidth = 1;
-firstPageField.BorderColor = Color.Black;
+            sharedTextBox.DefaultAppearance = new TextState
+            {
+                FontSize = 12,
+                Font = FontRepository.FindFont("Arial"),
+                ForegroundColor = Color.Black
+            };
+            sharedTextBox.Border = new Border(sharedTextBox) { Width = 1 };
 ```
 
-Pas dezelfde styling toe op het tweede veld voor visuele consistentie.
+Deze aanpassingen zijn optioneel maar geven het formulier een professionelere uitstraling.
 
-### Is het formulier afdrukbaar?
+### Alleen‑lezen velden
 
-Absoluut. Omdat de velden *interactief* zijn, behouden ze hun uiterlijk bij afdrukken. Als je een platte versie nodig hebt, roep `pdfDocument.Flatten()` aan vóór het opslaan.
+Als het veld alleen data moet weergeven (bijv. een berekende totalen), stel dan `IsReadOnly = true`.
 
----
+```csharp
+            sharedTextBox.IsReadOnly = true;
+```
+
+### Grote PDFs verwerken
+
+Werk je met documenten die enkele honderden megabytes overschrijden, overweeg dan `document.Optimize()` vóór het opslaan om de bestandsgrootte te verkleinen.
 
 ## Pro‑tips & valkuilen
 
-- **Vermijd overlappende rechthoeken.** Overlap kan render‑glitches veroorzaken in sommige viewers.
-- **Onthoud nul‑gebaseerde indexering** voor de `Pages`‑collectie; het mixen van 0‑ en 1‑gebaseerde indices is een veelvoorkomende bron van “field not found”‑fouten.
-- **Dispose objecten** als je bibliotheek `IDisposable` implementeert. Plaats het document in een `using`‑block om native resources vrij te geven.
-- **Test in meerdere viewers** (Adobe Reader, Foxit, Chrome). Sommige viewers interpreteren veld‑flags net iets anders.
-- **Versie‑compatibiliteit:** De getoonde code werkt met Spire.PDF 7.x en later. Als je een oudere versie gebruikt, kan de overload van `PdfForm.Add` een andere signatuur vereisen.
+* **Pro‑tip**: Hergebruik dezelfde `Rectangle`‑instantie voor alle widgets als je perfecte uitlijning wilt. Het voorkomt subtiele afrondingsfouten.  
+* **Let op**: Het vergeten om de tweede widget toe te voegen aan `secondPage.Annotations`. Het veld bestaat, maar het visuele vak verschijnt niet.  
+* **Typische fout**: `new TextBoxField(secondPage, ...)` gebruiken zonder `PartialName` in te stellen—de tweede widget wordt een volledig apart veld, waardoor de koppeling breekt.  
+* **Prestatie‑opmerking**: Pagina’s toevoegen in een lus (`for (int i = 0; i < n; i++)`) is prima, maar vermijd zware bewerkingen binnen de lus (zoals het laden van grote afbeeldingen) zonder resources vrij te geven.
 
----
+## Volledig werkend voorbeeld – Samenvatting
 
-## Conclusie
+Hier is het volledige programma nogmaals, klaar om te kopiëren‑plakken:
 
-Je weet nu **hoe je een PDF-document maakt** in C# vanaf nul, hoe je **pagina’s aan PDF toevoegt**, en—het belangrijkste—hoe je **PDF-formuliervelden maakt** die één enkele waarde delen, waarmee zowel **hoe je een formulier maakt** als **hoe je een veld moet toevoegen** beantwoord worden. Het volledige voorbeeld werkt direct, en de toelichtingen geven je het *waarom* achter elke regel.
+```csharp
+using Aspose.Pdf;
+using Aspose.Pdf.Annotations;
+using Aspose.Pdf.Text;
+using System.Drawing;
 
-Klaar voor de volgende uitdaging? Probeer een dropdown‑lijst, een radioknop‑groep, of zelfs JavaScript‑acties toe te voegen die totalen berekenen. Al die concepten bouwen voort op dezelfde basisprincipes die we hier hebben behandeld.
+namespace PdfDemo
+{
+    class Program
+    {
+        static void Main()
+        {
+            // Step 1: Create a new PDF document
+            Document document = new Document();
 
-Als je deze tutorial nuttig vond, deel hem dan met je teamgenoten of geef een ster aan de repository waar je je PDF‑hulpmiddelen bewaart. Happy coding, en moge je PDF’s altijd zowel mooi als functioneel zijn!
+            // Step 2: Add two pages to the document
+            Page firstPage = document.Pages.Add();
+            Page secondPage = document.Pages.Add();
+
+            // Define the rectangle for the text box
+            var fieldRect = new Rectangle(100, 600, 300, 650);
+
+            // Step 3: Create a text box field on the first page and set its initial value
+            TextBoxField sharedTextBox = new TextBoxField(firstPage, fieldRect)
+            {
+                Value = "Shared value"
+            };
+
+            // Optional: customize appearance
+            sharedTextBox.DefaultAppearance = new TextState
+            {
+                FontSize = 12,
+                Font = FontRepository.FindFont("Arial"),
+                ForegroundColor = Color.Black
+            };
+            sharedTextBox.Border = new Border(sharedTextBox) { Width = 1 };
+
+            // Step 4: Register the text box field in the form with a shared name
+            document.Form.Add(sharedTextBox, "SharedTB");
+
+            // Step 5: Add a second widget of the same field on the second page
+            TextBoxField secondWidget = new TextBoxField(secondPage, fieldRect);
+            secondWidget.PartialName = "SharedTB"; // links to the same field
+            secondPage.Annotations.Add(secondWidget);
+
+            // Step 6: Save the PDF document
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

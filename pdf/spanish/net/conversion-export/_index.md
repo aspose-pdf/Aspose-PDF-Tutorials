@@ -24,7 +24,7 @@ Aprenda técnicas avanzadas para convertir archivos PDF a Excel utilizando Aspos
 Domine Aspose.PDF para .NET y convierta datos XML a PDF sin problemas. Aprenda técnicas eficientes de carga, enlace y guardado con ejemplos prácticos.
 
 ### [Guía completa para convertir XML a PDF con Aspose.PDF .NET para desarrolladores](./convert-xml-pdf-aspose-net-guide/)
-Aprenda a convertir datos XML en documentos PDF profesionales con Aspose.PDF para .NET. Esta guía abarca la instalación, los procesos de conversión y sus aplicaciones prácticas.
+Aprenda a convertir datos XML en documentos PDF profesionales con Aspose.PDF .NET. Esta guía abarca la instalación, los procesos de conversión y sus aplicaciones prácticas.
 
 ### [Guía completa: Convertir PDF a HTML con Aspose.PDF .NET y estrategias personalizadas](./convert-pdf-html-aspose-dotnet-custom-strategies/)
 Aprenda a convertir archivos PDF a HTML con estrategias personalizadas usando Aspose.PDF para .NET. Mantenga una alta fidelidad y gestione imágenes, fuentes y CSS eficazmente.
@@ -82,6 +82,12 @@ Aprenda a convertir documentos PDF a formato HTML utilizando Aspose.PDF para .NE
 
 ### [Convierta PDF a PNG con Aspose.PDF .NET: mejore la representación nítida del texto](./convert-pdf-png-aspose-net-font-hinting/)
 Aprenda a convertir documentos PDF en imágenes PNG de alta calidad utilizando Aspose.PDF .NET, garantizando una representación nítida del texto mediante sugerencias de fuentes.
+
+### [Convertir PDF a PNG con Aspose.PDF .NET: una guía completa](./convert-pdf-to-png-aspose-net/)
+Aprenda a convertir páginas PDF en imágenes PNG de alta calidad con Aspose.PDF para .NET. Siga esta guía paso a paso para automatizar el proceso de conversión de forma eficiente.
+
+### [Convertir PDF a PNG en C# – Guía completa paso a paso](./convert-pdf-to-png-in-c-complete-step-by-step-guide/)
+Aprenda a convertir archivos PDF a imágenes PNG de alta calidad usando C# y Aspose.PDF con esta guía paso a paso.
 
 ### [Convertir PDF a PPTX con Aspose.PDF para .NET: guía paso a paso](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 Aprenda a convertir documentos PDF en presentaciones de PowerPoint de forma eficiente con Aspose.PDF para .NET. Esta guía paso a paso abarca la conversión básica, funciones avanzadas como diapositivas de imágenes y seguimiento del progreso.
@@ -186,7 +192,7 @@ Aprenda a convertir un documento PDF en una imagen TIFF binarizada con Aspose.PD
 Aprenda a convertir archivos PDF a formato EPUB con Aspose.PDF para .NET. Siga esta guía paso a paso para mejorar la publicación digital y la accesibilidad del contenido.
 
 ### [Cómo convertir un PDF a TIFF multipágina con Aspose.PDF .NET: guía paso a paso](./convert-pdf-to-multi-page-tiff-aspose-dotnet/)
-Aprenda a convertir archivos PDF en imágenes TIFF multipágina de alta calidad con Aspose.PDF para .NET. Siga esta guía paso a paso para una implementación sencilla en C#.
+Aprenda a convertir archivos PDF en imágenes TIFF multipágina de alta calidad con Aspose.PDF .NET. Siga esta guía paso a paso para una implementación sencilla en C#.
 
 ### [Cómo convertir PDF a PostScript en C# con Aspose.PDF: una guía completa](./convert-pdf-to-postscript-aspose-csharp/)
 Aprenda a convertir archivos PDF a formato PostScript con Aspose.PDF para .NET con esta guía paso a paso. Ideal para impresiones de alta calidad.
@@ -227,8 +233,11 @@ Domine la conversión de PDF a HTML con Aspose.PDF para .NET. Mejore la accesibi
 ### [Conversión de PDF a HTML con Aspose.PDF para .NET](./pdf-to-html-conversion-aspose-dot-net/)
 Un tutorial de código para Aspose.PDF Net
 
-### [Conversión de PDF a TIFF en .NET con Aspose.PDF: guía paso a paso](./pdf-to-tiff-conversion-aspose-pdf-net/)
-Aprenda a convertir documentos PDF a imágenes TIFF con Aspose.PDF para .NET. Domine las profundidades de color personalizadas y las técnicas avanzadas de procesamiento de imágenes.
+### [Guardar PDF como PNG y convertir a PDF/X‑1a con Aspose PDF](./save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf/)
+Aprenda a guardar un PDF como PNG y luego convertirlo a PDF/X‑1a utilizando Aspose.PDF en .NET.
+
+### [Cómo guardar PDF con Aspose – Guía paso a paso](./how-to-save-pdf-with-aspose-step-by-step-guide/)
+Aprenda a guardar documentos PDF con Aspose mediante una guía paso a paso que cubre configuración y opciones de guardado.
 
 ## Recursos adicionales
 

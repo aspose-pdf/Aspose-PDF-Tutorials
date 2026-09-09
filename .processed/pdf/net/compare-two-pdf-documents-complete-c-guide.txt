@@ -1,0 +1,7 @@
+Title: Compare Two PDF Documents – Complete C# Guide
+Slug: compare-two-pdf-documents-complete-c-guide
+Category: advanced-features
+ProcessedDate: 2026-06-27T23:32:27.741277
+SourceRepo: AI Search API
+Keywords: compare two pdf documents, how to compare pdf, generate pdf diff, side by side pdf comparison, create side by side pdf
+PRNumber: 96

@@ -1,258 +1,249 @@
 ---
 category: general
-date: 2026-02-23
-description: Créer rapidement un document PDF en C#. Apprenez comment ajouter des
-  pages à un PDF, créer des champs de formulaire PDF, comment créer un formulaire
-  et comment ajouter un champ avec des exemples de code clairs.
+date: 2026-02-25
+description: Créer un document PDF en C# avec un guide étape par étape. Apprenez comment
+  ajouter des pages au PDF, comment lier des champs et enregistrer le PDF en C# sans
+  tracas.
 draft: false
 keywords:
 - create pdf document
 - add pages to pdf
-- create pdf form fields
-- how to create form
-- how to add field
+- how to link fields
+- how to create pdf
+- save pdf c#
 language: fr
-og_description: Créez un document PDF en C# avec un tutoriel pratique. Découvrez comment
-  ajouter des pages à un PDF, créer des champs de formulaire PDF, comment créer un
-  formulaire et comment ajouter un champ en quelques minutes.
-og_title: Créer un document PDF en C# – Guide complet de programmation
+og_description: Créez un document PDF en C# instantanément. Ce guide montre comment
+  ajouter des pages au PDF, lier des champs entre les pages et enregistrer le PDF
+  en C# avec un code propre.
+og_title: Créer un document PDF en C# – Tutoriel complet de programmation
 tags:
-- C#
-- PDF
-- Form Generation
+- pdf
+- csharp
+- aspnet
+- form-fields
 title: Créer un document PDF en C# – Guide étape par étape
 url: /fr/net/document-creation/create-pdf-document-in-c-step-by-step-guide/
 ---
 
-.
-
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Créer un document PDF en C# – Guide complet de programmation
+# Créer un document PDF en C# – Guide étape par étape
 
-Vous avez déjà eu besoin de **create PDF document** en C# mais vous ne saviez pas par où commencer ? Vous n'êtes pas seul—la plupart des développeurs rencontrent ce problème lorsqu'ils essaient d'automatiser des rapports, des factures ou des contrats. La bonne nouvelle ? En quelques minutes seulement, vous disposerez d'un PDF complet avec plusieurs pages et des champs de formulaire synchronisés, et vous comprendrez **how to add field** qui fonctionne sur plusieurs pages.
+Vous avez déjà eu besoin de **créer un document pdf** en C# mais vous ne saviez pas par où commencer ? Vous n'êtes pas le seul – les développeurs demandent constamment comment générer des PDF à la volée pour des factures, des rapports ou des formulaires interactifs. Dans ce tutoriel, nous parcourrons un exemple complet et exécutable qui vous montre comment ajouter des pages à un pdf, lier des champs entre ces pages, et enfin **enregistrer le pdf c#** sur le disque.
 
-Dans ce tutoriel, nous parcourrons l'ensemble du processus : de l'initialisation du PDF, à **add pages to PDF**, à **create PDF form fields**, et enfin répondre à **how to create form** qui partage une seule valeur. Aucun référentiel externe n'est requis, juste un exemple de code solide que vous pouvez copier‑coller dans votre projet. À la fin, vous serez capable de générer un PDF qui a l'air professionnel et se comporte comme un formulaire réel.
+Nous couvrirons tout, de l'initialisation de l'objet document à la configuration des champs de formulaire partagés, afin que vous puissiez copier‑coller le code dans votre propre projet et le voir fonctionner immédiatement. Pas de références vagues, seulement du code concret et des explications claires.
+
+> **Ce que vous apprendrez**  
+> * Comment créer un document PDF en utilisant la bibliothèque Aspose.PDF for .NET.  
+> * Comment ajouter plusieurs pages à un pdf et positionner les widgets avec précision.  
+> * Comment lier des champs afin qu'une seule saisie utilisateur apparaisse sur chaque page.  
+> * Comment enregistrer le pdf c# en toute sécurité, en gérant les pièges courants.  
 
 ## Prérequis
 
-- .NET 6.0 ou ultérieur (le code fonctionne également avec .NET Framework 4.6+)
-- Une bibliothèque PDF qui expose `Document`, `PdfForm`, `TextBoxField` et `Rectangle` (par ex., Spire.PDF, Aspose.PDF, ou toute bibliothèque commerciale/OSS compatible)
-- Visual Studio 2022 ou votre IDE préféré
-- Connaissances de base en C# (vous verrez pourquoi les appels API sont importants)
+* .NET 6.0 ou ultérieur (l'exemple fonctionne également avec .NET Framework 4.6+).  
+* Visual Studio 2022 (ou tout IDE de votre choix).  
+* Le package NuGet **Aspose.PDF for .NET** (`Install-Package Aspose.PDF`).  
+* Une compréhension de base de la syntaxe C# – aucune connaissance avancée du PDF requise.
 
-> **Astuce pro :** Si vous utilisez NuGet, installez le package avec `Install-Package Spire.PDF` (ou l'équivalent pour la bibliothèque que vous avez choisie).  
+Si l'un de ces points vous est inconnu, prenez une minute pour installer le package NuGet ; le reste du guide suppose que la bibliothèque est déjà référencée.
 
-Maintenant, plongeons‑y.
+## Créer un document PDF – Configuration initiale
 
----
-
-## Étape 1 – Créer un document PDF et ajouter des pages
-
-La première chose dont vous avez besoin est une toile vierge. En terminologie PDF, la toile est un objet `Document`. Une fois que vous l'avez, vous pouvez **add pages to PDF** comme vous ajouteriez des feuilles à un cahier.
+La toute première chose dont nous avons besoin est une toile vierge. Dans Aspose.PDF, cela est représenté par la classe `Document`.
 
 ```csharp
-using Spire.Pdf;                 // Adjust the namespace to match your library
-using Spire.Pdf.Graphics;        // For Rectangle definition
+using Aspose.Pdf;
+using Aspose.Pdf.Annotations;
+using Aspose.Pdf.Text;
 
-// Step 1: Initialize a new PDF document
-Document pdfDocument = new Document();
-
-// Add two pages – page indices start at 0 internally, but the library uses 1‑based indexing for convenience
-pdfDocument.Pages.Add(); // Page 1
-pdfDocument.Pages.Add(); // Page 2
-```
-
-*Pourquoi c'est important :* Un objet `Document` contient les métadonnées au niveau du fichier, tandis que chaque objet `Page` stocke ses propres flux de contenu. Ajouter les pages dès le départ vous offre des emplacements où déposer les champs de formulaire plus tard, et cela simplifie la logique de mise en page.
-
----
-
-## Étape 2 – Configurer le conteneur de formulaire PDF
-
-Les formulaires PDF sont essentiellement des collections de champs interactifs. La plupart des bibliothèques exposent une classe `PdfForm` que vous attachez au document. Pensez-y comme à un « gestionnaire de formulaire » qui sait quels champs appartiennent ensemble.
-
-```csharp
-// Step 2: Create a form container linked to the document
-PdfForm pdfForm = new PdfForm(pdfDocument);
-```
-
-*Pourquoi c'est important :* Sans un objet `PdfForm`, les champs que vous ajoutez seraient du texte statique—les utilisateurs ne pourraient rien saisir. Le conteneur vous permet également d'assigner le même nom de champ à plusieurs widgets, ce qui est la clé de **how to add field** sur plusieurs pages.
-
----
-
-## Étape 3 – Créer une zone de texte sur la première page
-
-Nous allons maintenant créer une zone de texte qui se trouve sur la page 1. Le rectangle définit sa position (x, y) et sa taille (largeur, hauteur) en points (1 pt ≈ 1/72 in).
-
-```csharp
-// Step 3: Define a TextBoxField on page 1
-TextBoxField firstPageField = new TextBoxField(
-    pdfDocument.Pages[0],                     // Zero‑based index for the first page
-    new Rectangle(100, 100, 200, 20)          // Left, Bottom, Width, Height
-);
-```
-
-*Pourquoi c'est important :* Les coordonnées du rectangle vous permettent d'aligner le champ avec d'autres contenus (comme les libellés). Le type `TextBoxField` gère automatiquement la saisie utilisateur, le curseur et la validation de base.
-
----
-
-## Étape 4 – Dupliquer le champ sur la deuxième page
-
-Si vous voulez que la même valeur apparaisse sur plusieurs pages, vous **create PDF form fields** avec des noms identiques. Ici, nous plaçons une deuxième zone de texte sur la page 2 en utilisant les mêmes dimensions.
-
-```csharp
-// Step 4: Define a matching TextBoxField on page 2
-TextBoxField secondPageField = new TextBoxField(
-    pdfDocument.Pages[1],                     // Second page (zero‑based index)
-    new Rectangle(100, 100, 200, 20)
-);
-```
-
-*Pourquoi c'est important :* En reproduisant le rectangle, le champ apparaît de façon cohérente sur les pages—un petit gain UX. Le nom de champ sous‑jacent reliera les deux widgets visuels ensemble.
-
----
-
-## Étape 5 – Ajouter les deux widgets au formulaire en utilisant le même nom
-
-C'est le cœur de **how to create form** qui partage une seule valeur. La méthode `Add` prend l'objet champ, un identifiant de type chaîne, et un numéro de page optionnel. Utiliser le même identifiant (`"myField"`) indique au moteur PDF que les deux widgets représentent le même champ logique.
-
-```csharp
-// Step 5: Register both fields under the same name
-pdfForm.Add(firstPageField, "myField", 1);   // Page number is 1‑based for the API
-pdfForm.Add(secondPageField, "myField", 2);
-```
-
-*Pourquoi c'est important :* Lorsqu'un utilisateur saisit du texte dans la première zone, la deuxième zone se met à jour automatiquement (et vice‑versa). C’est parfait pour les contrats multi‑pages où vous souhaitez qu'un seul champ « Customer Name » apparaisse en haut de chaque page.
-
----
-
-## Étape 6 – Enregistrer le PDF sur le disque
-
-Enfin, écrivez le document. La méthode `Save` prend un chemin complet ; assurez‑vous que le dossier existe et que votre application possède les droits d'écriture.
-
-```csharp
-// Step 6: Persist the PDF file
-pdfDocument.Save(@"C:\Temp\output.pdf");
-
-// Optionally open the file automatically (Windows only)
-System.Diagnostics.Process.Start(@"C:\Temp\output.pdf");
-```
-
-*Pourquoi c'est important :* L'enregistrement finalise les flux internes, aplatit la structure du formulaire et rend le fichier prêt à être distribué. L'ouvrir automatiquement vous permet de vérifier le résultat immédiatement.
-
----
-
-## Exemple complet fonctionnel
-
-Ci‑dessous se trouve le programme complet, prêt à être exécuté. Copiez‑le dans une application console, ajustez les instructions `using` pour correspondre à votre bibliothèque, et appuyez sur **F5**.
-
-```csharp
-using System;
-using Spire.Pdf;                 // Replace with your PDF library namespace
-using Spire.Pdf.Graphics;        // For Rectangle
-
-namespace PdfFormDemo
+namespace PdfDemo
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            // 1️⃣ Create a new PDF document and add two pages
-            Document pdfDocument = new Document();
-            pdfDocument.Pages.Add(); // First page
-            pdfDocument.Pages.Add(); // Second page
+            // Step 1: Create a new PDF document
+            Document document = new Document();
+```
 
-            // 2️⃣ Initialize a PdfForm container
-            PdfForm pdfForm = new PdfForm(pdfDocument);
+*Pourquoi c'est important* : L'objet `Document` contient toute la structure du fichier – pages, formulaires, ressources, tout. Pensez‑y comme le cahier où vous écrirez plus tard tout votre contenu. En le créant dès le départ, nous préparons le terrain pour ajouter des pages, des champs, et enfin enregistrer le fichier.
 
-            // 3️⃣ Create a textbox on the first page
-            TextBoxField firstPageField = new TextBoxField(
-                pdfDocument.Pages[0],
-                new Rectangle(100, 100, 200, 20));
+## Ajouter des pages au PDF – Construction de la mise en page
 
-            // 4️⃣ Create a matching textbox on the second page
-            TextBoxField secondPageField = new TextBoxField(
-                pdfDocument.Pages[1],
-                new Rectangle(100, 100, 200, 20));
+Un PDF sans pages est comme un livre sans pages – assez inutile. Ajoutons deux pages afin de pouvoir démontrer le lien des champs.
 
-            // 5️⃣ Add both fields to the form using the same name
-            pdfForm.Add(firstPageField, "myField", 1);
-            pdfForm.Add(secondPageField, "myField", 2);
+```csharp
+            // Step 2: Add two pages to the document
+            Page firstPage = document.Pages.Add();
+            Page secondPage = document.Pages.Add();
+```
 
-            // 6️⃣ Save the resulting PDF
-            string outputPath = @"C:\Temp\output.pdf";
-            pdfDocument.Save(outputPath);
-            Console.WriteLine($"PDF saved to {outputPath}");
+Remarquez que nous appelons `Add()` deux fois, en stockant chaque nouvelle page dans sa propre variable. Cela nous donne un accès direct à la collection d'annotations de chaque page plus tard. Vous pouvez ajouter autant de pages que nécessaire ; l'API s'adapte linéairement.
 
-            // Open the PDF for quick verification (optional)
-            System.Diagnostics.Process.Start(outputPath);
+### Positionnement des widgets
+
+Lorsque nous placerons plus tard une zone de texte, nous avons besoin d'un rectangle qui définit son emplacement. Les coordonnées sont exprimées en points (1 point = 1/72 pouce). Le rectangle ci‑dessous place le champ approximativement au centre de la page.
+
+```csharp
+            // Define a rectangle for the text box (left, bottom, right, top)
+            var fieldRect = new Rectangle(100, 600, 300, 650);
+```
+
+N'hésitez pas à ajuster ces nombres – peut‑être voulez‑vous le champ plus bas ou plus large. L'important est que le même rectangle soit réutilisé pour les deux widgets, garantissant qu'ils s'alignent parfaitement d'une page à l'autre.
+
+## Comment lier des champs entre les pages
+
+Voici la partie intéressante : nous voulons un seul champ logique qui apparaît sur les deux pages. En terminologie PDF, il s'agit d'un *champ partagé* avec plusieurs *widgets*. Le premier widget se trouve sur la première page ; le second widget se trouve sur la deuxième page mais pointe vers le même nom de champ sous‑jacent.
+
+```csharp
+            // Step 3: Create a text box field on the first page and set its initial value
+            TextBoxField sharedTextBox = new TextBoxField(firstPage, fieldRect)
+            {
+                Value = "Shared value"
+            };
+
+            // Step 4: Register the text box field in the form with a shared name
+            document.Form.Add(sharedTextBox, "SharedTB");
+```
+
+L'appel à `document.Form.Add` enregistre le champ sous le nom `"SharedTB"`. Tout widget qui utilise le même `PartialName` reflétera automatiquement les modifications apportées au champ.
+
+```csharp
+            // Step 5: Add a second widget of the same field on the second page
+            TextBoxField secondWidget = new TextBoxField(secondPage, fieldRect);
+            secondWidget.PartialName = "SharedTB"; // links to the same field
+            secondPage.Annotations.Add(secondWidget);
+```
+
+*Pourquoi cela fonctionne* : Les formulaires PDF séparent la *définition du champ* (le conteneur de données) du *widget* (la représentation visuelle). En donnant aux deux widgets le même `PartialName`, nous indiquons au visualiseur qu'ils appartiennent au même champ logique. Lorsqu'un utilisateur saisit du texte dans la boîte de la page 1, la valeur apparaît instantanément sur la page 2, et vice‑versa.
+
+## Enregistrer le PDF C# – Persistance du fichier
+
+Enfin, nous devons écrire le document sur le disque. La méthode `Save` prend un chemin de fichier ; vous pouvez également diffuser en mémoire si vous le préférez.
+
+```csharp
+            // Step 6: Save the PDF document
+            string outputPath = @"C:\Temp\textbox_multi_widget.pdf";
+            document.Save(outputPath);
+
+            System.Console.WriteLine($"PDF saved to {outputPath}");
         }
     }
 }
 ```
 
-**Résultat attendu :** Ouvrez `output.pdf` et vous verrez deux zones de texte identiques—une sur chaque page. Saisissez un nom dans la zone supérieure ; la zone inférieure se met à jour instantanément. Cela montre que **how to add field** fonctionne correctement et confirme que le formulaire fonctionne comme prévu.
+Quelques notes pratiques :
 
----
+* **Permissions du dossier** – Assurez‑vous que le dossier cible existe et que votre processus a les droits d'écriture ; sinon `Save` lèvera une exception.  
+* **Écrasements** – `Save` écrasera un fichier existant sans avertissement. Si cela vous préoccupe, vérifiez d'abord `File.Exists`.  
+* **Utilisation de la mémoire** – Pour les documents volumineux, vous pouvez préférer `document.Save(Stream)` afin d'éviter de charger tout le fichier en mémoire.
 
-## Questions fréquentes & cas limites
+Lorsque vous exécutez le programme, ouvrez le PDF résultant. Vous verrez deux zones de texte identiques. Tapez quelque chose dans la première, cliquez ailleurs, puis passez à la page 2 — votre saisie apparaît instantanément. C’est la puissance du lien des champs.
 
-### Et si j’ai besoin de plus de deux pages ?
+![Créer un document PDF avec des champs texte liés]( "Créer un document PDF avec des champs texte liés")
 
-Il suffit d’appeler `pdfDocument.Pages.Add()` autant de fois que nécessaire, puis de créer un `TextBoxField` pour chaque nouvelle page et de les enregistrer avec le même nom de champ. La bibliothèque les gardera synchronisées.
+## Variations courantes et cas limites
 
-### Puis‑je définir une valeur par défaut ?
+### Ajouter plus de widgets
 
-Oui. Après avoir créé un champ, assignez `firstPageField.Text = "John Doe";`. La même valeur par défaut apparaîtra sur tous les widgets liés.
-
-### Comment rendre le champ obligatoire ?
-
-La plupart des bibliothèques exposent une propriété `Required` :
+Si vous avez besoin du même champ sur trois pages ou plus, répétez simplement le bloc de création de widget pour chaque page supplémentaire, en définissant toujours `PartialName` à `"SharedTB"`.
 
 ```csharp
-firstPageField.Required = true;
-secondPageField.Required = true;
+            // Example: third page widget
+            Page thirdPage = document.Pages.Add();
+            TextBoxField thirdWidget = new TextBoxField(thirdPage, fieldRect);
+            thirdWidget.PartialName = "SharedTB";
+            thirdPage.Annotations.Add(thirdWidget);
 ```
 
-Lorsque le PDF est ouvert dans Adobe Acrobat, l'utilisateur sera invité à remplir le champ s'il tente de soumettre sans le compléter.
+### Modifier l'apparence du champ
 
-### Qu’en est‑il du style (police, couleur, bordure) ?
-
-Vous pouvez accéder à l'objet d'apparence du champ :
+Vous pouvez personnaliser la police, la bordure, la couleur d'arrière‑plan, etc., via la propriété `FieldAppearance`.
 
 ```csharp
-firstPageField.Font = new PdfFont(PdfFontFamily.Helvetica, 12f);
-firstPageField.BorderWidth = 1;
-firstPageField.BorderColor = Color.Black;
+            sharedTextBox.DefaultAppearance = new TextState
+            {
+                FontSize = 12,
+                Font = FontRepository.FindFont("Arial"),
+                ForegroundColor = Color.Black
+            };
+            sharedTextBox.Border = new Border(sharedTextBox) { Width = 1 };
 ```
 
-Appliquez le même style au deuxième champ pour assurer la cohérence visuelle.
+Ces ajustements sont optionnels mais donnent au formulaire un aspect plus professionnel.
 
-### Le formulaire est‑il imprimable ?
+### Champs en lecture seule
 
-Absolument. Puisque les champs sont *interactifs*, ils conservent leur apparence lors de l'impression. Si vous avez besoin d'une version aplatie, appelez `pdfDocument.Flatten()` avant d'enregistrer.
+Si le champ doit uniquement afficher des données (par ex., un total calculé), définissez `IsReadOnly = true`.
 
----
+```csharp
+            sharedTextBox.IsReadOnly = true;
+```
 
-## Astuces pro & pièges
+### Gestion des PDF volumineux
 
-- **Évitez les rectangles qui se chevauchent.** Le chevauchement peut provoquer des artefacts d’affichage dans certains visionneurs.
-- **Rappelez‑vous que l’indexation commence à zéro** pour la collection `Pages` ; mélanger des indices 0‑ et 1‑based est une source fréquente d’erreurs « field not found ».
-- **Libérez les objets** si votre bibliothèque implémente `IDisposable`. Enveloppez le document dans un bloc `using` pour libérer les ressources natives.
-- **Testez dans plusieurs visionneurs** (Adobe Reader, Foxit, Chrome). Certains visionneurs interprètent les drapeaux de champ légèrement différemment.
-- **Compatibilité des versions :** Le code présenté fonctionne avec Spire.PDF 7.x et ultérieur. Si vous utilisez une version plus ancienne, la surcharge `PdfForm.Add` peut nécessiter une signature différente.
+Lorsque vous travaillez avec des documents dépassant quelques centaines de mégaoctets, envisagez d'utiliser `document.Optimize()` avant l'enregistrement afin de réduire la taille du fichier.
 
----
+## Astuces pro et pièges
 
-## Conclusion
+* **Astuce pro** : Réutilisez la même instance `Rectangle` pour tous les widgets si vous voulez un alignement parfait. Cela vous évite des erreurs d’arrondi subtiles.  
+* **Attention à** : Oublier d’ajouter le second widget à `secondPage.Annotations`. Le champ existera, mais la boîte visuelle n’apparaîtra pas.  
+* **Erreur typique** : Utiliser `new TextBoxField(secondPage, ...)` sans définir `PartialName` — le second widget devient un champ complètement séparé, rompant le lien.  
+* **Note de performance** : Ajouter des pages dans une boucle (`for (int i = 0; i < n; i++)`) est correct, mais évitez les opérations lourdes à l’intérieur de la boucle (comme le chargement d’images volumineuses) sans libérer les ressources.
 
-Vous savez maintenant **how to create PDF document** en C# depuis le départ, comment **add pages to PDF**, et—plus important encore—comment **create PDF form fields** qui partagent une seule valeur, répondant à la fois à **how to create form** et **how to add field**. L'exemple complet fonctionne immédiatement, et les explications vous donnent le *pourquoi* derrière chaque ligne.
+## Récapitulatif de l'exemple complet fonctionnel
 
-Prêt pour le prochain défi ? Essayez d’ajouter une liste déroulante, un groupe de boutons radio, ou même des actions JavaScript qui calculent des totaux. Tous ces concepts s’appuient sur les mêmes fondamentaux que nous avons abordés ici.
+Voici à nouveau le programme complet, prêt à être copié‑collé :
 
-Si vous avez trouvé ce tutoriel utile, pensez à le partager avec vos collègues ou à mettre une étoile sur le dépôt où vous conservez vos utilitaires PDF. Bon codage, et que vos PDFs soient toujours à la fois beaux et fonctionnels !
+```csharp
+using Aspose.Pdf;
+using Aspose.Pdf.Annotations;
+using Aspose.Pdf.Text;
+using System.Drawing;
+
+namespace PdfDemo
+{
+    class Program
+    {
+        static void Main()
+        {
+            // Étape 1 : Créer un nouveau document PDF
+            Document document = new Document();
+
+            // Étape 2 : Ajouter deux pages au document
+            Page firstPage = document.Pages.Add();
+            Page secondPage = document.Pages.Add();
+
+            // Définir le rectangle pour la zone de texte
+            var fieldRect = new Rectangle(100, 600, 300, 650);
+
+            // Étape 3 : Créer un champ de zone de texte sur la première page et définir sa valeur initiale
+            TextBoxField sharedTextBox = new TextBoxField(firstPage, fieldRect)
+            {
+                Value = "Shared value"
+            };
+
+            // Optionnel : personnaliser l'apparence
+            sharedTextBox.DefaultAppearance = new TextState
+            {
+                FontSize = 12,
+                Font = FontRepository.FindFont("Arial"),
+                ForegroundColor = Color.Black
+            };
+            sharedTextBox.Border = new Border(sharedTextBox) { Width = 1 };
+
+            // Étape 4 : Enregistrer le champ de zone de texte dans le formulaire avec un nom partagé
+            document.Form.Add(sharedTextBox, "SharedTB");
+
+            // Étape 5 : Ajouter un second widget du même champ sur la deuxième page
+            TextBoxField secondWidget = new TextBoxField(secondPage, fieldRect);
+            secondWidget.PartialName = "SharedTB"; // lie au même champ
+            secondPage.Annotations.Add(secondWidget);
+
+            // Étape 6 : Enregistrer le document PDF
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

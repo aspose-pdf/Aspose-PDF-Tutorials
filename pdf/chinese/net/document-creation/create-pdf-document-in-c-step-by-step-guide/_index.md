@@ -1,250 +1,257 @@
 ---
 category: general
-date: 2026-02-23
-description: 快速在 C# 中创建 PDF 文档。学习如何向 PDF 添加页面、创建 PDF 表单字段、如何创建表单以及如何添加字段，并提供清晰的代码示例。
+date: 2026-02-25
+description: 在 C# 中创建 PDF 文档的分步指南。学习如何向 PDF 添加页面、如何链接字段，以及如何轻松保存 PDF（C#）。
 draft: false
 keywords:
 - create pdf document
 - add pages to pdf
-- create pdf form fields
-- how to create form
-- how to add field
+- how to link fields
+- how to create pdf
+- save pdf c#
 language: zh
-og_description: 使用实用教程在 C# 中创建 PDF 文档。了解如何向 PDF 添加页面、创建 PDF 表单字段、如何创建表单以及如何在几分钟内添加字段。
-og_title: 在 C# 中创建 PDF 文档 – 完整编程演练
+og_description: 在 C# 中即时创建 PDF 文档。本指南展示了如何向 PDF 添加页面、跨页面链接字段，以及使用简洁代码保存 PDF（C#）。
+og_title: 在 C# 中创建 PDF 文档 – 完整编程教程
 tags:
-- C#
-- PDF
-- Form Generation
+- pdf
+- csharp
+- aspnet
+- form-fields
 title: 在 C# 中创建 PDF 文档 – 步骤指南
 url: /zh/net/document-creation/create-pdf-document-in-c-step-by-step-guide/
 ---
+
+-backtop-button >}}
+
+We keep them unchanged.
+
+Now produce final content with translations.
+
+Be careful with markdown formatting: keep blank lines.
+
+Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 C# 中创建 PDF 文档 – 完整编程演练
+# 在 C# 中创建 PDF 文档 – 步骤指南
 
-是否曾经需要在 C# 中 **create PDF document**，但不确定从何入手？你并不孤单——大多数开发者在首次尝试自动化报告、发票或合同时都会遇到这个难题。好消息是？只需几分钟，你就能拥有一个具备多页和同步表单字段的完整功能 PDF，并且你将了解 **how to add field** 在跨页工作的方法。
+是否曾经需要在 C# 中 **create pdf document**，但不确定从何入手？你并不是唯一的——开发者经常询问如何即时生成用于发票、报告或交互式表单的 PDF。在本教程中，我们将逐步演示一个完整、可运行的示例，展示如何向 pdf 添加页面、跨页面链接字段，最后 **save pdf c#** 到磁盘。
 
-在本教程中，我们将完整演示整个过程：从初始化 PDF，到 **add pages to PDF**，再到 **create PDF form fields**，最后解答 **how to create form** 如何共享单一值。无需外部参考，只需一个可以直接复制粘贴到项目中的完整代码示例。完成后，你将能够生成外观专业、行为如同真实表单的 PDF。
+我们将覆盖从初始化文档对象到连接共享表单字段的全部内容，这样你可以将代码复制粘贴到自己的项目中并立即看到效果。没有模糊的引用，只有具体的代码和清晰的解释。
 
-## Prerequisites
+> **你将学到**  
+> * 如何使用 Aspose.PDF for .NET 库创建 PDF 文档。  
+> * 如何向 pdf 添加多个页面并精确定位 widget。  
+> * 如何链接字段，使单个用户输入在每页都显示。  
+> * 如何安全地 **save pdf c#**，并处理常见的陷阱。  
 
-- .NET 6.0 或更高（代码同样适用于 .NET Framework 4.6 及以上）
-- 一个提供 `Document`、`PdfForm`、`TextBoxField` 和 `Rectangle` 的 PDF 库（例如 Spire.PDF、Aspose.PDF，或任何兼容的商业/开源库）
-- Visual Studio 2022 或你喜欢的 IDE
-- 基础的 C# 知识（你会了解 API 调用为何重要）
+## 前置条件
 
-> **Pro tip:** 如果你使用 NuGet，请使用 `Install-Package Spire.PDF`（或对应库的等价命令）安装包。  
+在开始之前，请确保你具备以下条件：
 
-现在，让我们开始吧。
+* .NET 6.0 或更高版本（该示例同样适用于 .NET Framework 4.6+）。  
+* Visual Studio 2022（或你喜欢的任何 IDE）。  
+* **Aspose.PDF for .NET** NuGet 包（`Install-Package Aspose.PDF`）。  
+* 对 C# 语法的基本了解——不需要高级的 PDF 知识。
 
----
+如果上述任意一点不熟悉，请先花一点时间安装 NuGet 包；本指南的其余部分假设库已经被引用。
 
-## 第一步 – 创建 PDF 文档并添加页面
+## 创建 PDF 文档 – 初始设置
 
-首先你需要一个空白画布。在 PDF 术语中，画布就是一个 `Document` 对象。拥有它后，你可以像向笔记本添加纸张一样 **add pages to PDF**。
-
-```csharp
-using Spire.Pdf;                 // Adjust the namespace to match your library
-using Spire.Pdf.Graphics;        // For Rectangle definition
-
-// Step 1: Initialize a new PDF document
-Document pdfDocument = new Document();
-
-// Add two pages – page indices start at 0 internally, but the library uses 1‑based indexing for convenience
-pdfDocument.Pages.Add(); // Page 1
-pdfDocument.Pages.Add(); // Page 2
-```
-
-*Why this matters:* `Document` 对象保存文件级元数据，而每个 `Page` 对象存储各自的内容流。提前添加页面为后续放置表单字段提供位置，并且使布局逻辑保持简洁。
-
----
-
-## 第二步 – 设置 PDF 表单容器
-
-PDF 表单本质上是交互式字段的集合。大多数库都会公开一个 `PdfForm` 类，你需要将其附加到文档上。可以把它看作一个了解哪些字段属于同一表单的“表单管理器”。
+我们首先需要的是一块空白画布。在 Aspose.PDF 中，这由 `Document` 类表示。
 
 ```csharp
-// Step 2: Create a form container linked to the document
-PdfForm pdfForm = new PdfForm(pdfDocument);
-```
+using Aspose.Pdf;
+using Aspose.Pdf.Annotations;
+using Aspose.Pdf.Text;
 
-*Why this matters:* 如果没有 `PdfForm` 对象，你添加的字段将只是静态文本——用户无法输入。容器还允许你将相同的字段名称分配给多个小部件，这正是实现跨页 **how to add field** 的关键。
-
----
-
-## 第三步 – 在第一页创建文本框
-
-现在我们将在第 1 页创建一个文本框。`Rectangle` 定义了它在点（pt）单位下的位置 (x, y) 和尺寸 (宽度, 高度)，其中 1 pt ≈ 1/72 英寸。
-
-```csharp
-// Step 3: Define a TextBoxField on page 1
-TextBoxField firstPageField = new TextBoxField(
-    pdfDocument.Pages[0],                     // Zero‑based index for the first page
-    new Rectangle(100, 100, 200, 20)          // Left, Bottom, Width, Height
-);
-```
-
-*Why this matters:* 矩形坐标让你能够将字段与其他内容（如标签）对齐。`TextBoxField` 类型会自动处理用户输入、光标以及基本的验证。
-
----
-
-## 第四步 – 在第二页复制字段
-
-如果希望相同的值出现在多页上，你需要 **create PDF form fields** 并使用相同的名称。这里我们在第 2 页使用相同的尺寸放置第二个文本框。
-
-```csharp
-// Step 4: Define a matching TextBoxField on page 2
-TextBoxField secondPageField = new TextBoxField(
-    pdfDocument.Pages[1],                     // Second page (zero‑based index)
-    new Rectangle(100, 100, 200, 20)
-);
-```
-
-*Why this matters:* 通过镜像矩形，字段在各页之间保持一致——这是一点小小的用户体验提升。底层的字段名称会将这两个可视小部件关联在一起。
-
----
-
-## 第五步 – 使用相同名称将两个小部件添加到表单
-
-这正是实现 **how to create form** 共享单一值的核心。`Add` 方法接受字段对象、字符串标识符以及可选的页码。使用相同的标识符（`"myField"`）告诉 PDF 引擎这两个小部件代表同一个逻辑字段。
-
-```csharp
-// Step 5: Register both fields under the same name
-pdfForm.Add(firstPageField, "myField", 1);   // Page number is 1‑based for the API
-pdfForm.Add(secondPageField, "myField", 2);
-```
-
-*Why this matters:* 当用户在第一个文本框中输入时，第二个文本框会自动更新（反之亦然）。这对于多页合同非常适用，你可以在每页顶部放置同一个“Customer Name”字段。
-
----
-
-## 第六步 – 将 PDF 保存到磁盘
-
-最后，将文档写出。`Save` 方法接受完整路径；请确保文件夹已存在且你的应用拥有写入权限。
-
-```csharp
-// Step 6: Persist the PDF file
-pdfDocument.Save(@"C:\Temp\output.pdf");
-
-// Optionally open the file automatically (Windows only)
-System.Diagnostics.Process.Start(@"C:\Temp\output.pdf");
-```
-
-*Why this matters:* 保存会完成内部流的最终化，扁平化表单结构，并使文件准备好分发。打开后即可立即验证结果。
-
----
-
-## 完整可运行示例
-
-下面是完整的可直接运行的程序。将其复制到控制台应用程序中，调整 `using` 语句以匹配你的库，然后按 **F5**。
-
-```csharp
-using System;
-using Spire.Pdf;                 // Replace with your PDF library namespace
-using Spire.Pdf.Graphics;        // For Rectangle
-
-namespace PdfFormDemo
+namespace PdfDemo
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            // 1️⃣ Create a new PDF document and add two pages
-            Document pdfDocument = new Document();
-            pdfDocument.Pages.Add(); // First page
-            pdfDocument.Pages.Add(); // Second page
+            // Step 1: Create a new PDF document
+            Document document = new Document();
+```
 
-            // 2️⃣ Initialize a PdfForm container
-            PdfForm pdfForm = new PdfForm(pdfDocument);
+*Why this matters*: `Document` 对象保存整个文件结构——页面、表单、资源等所有内容。可以把它想象成一本笔记本，稍后你将在其中写入所有内容。提前创建它可以为后续添加页面、字段以及最终保存文件奠定基础。
 
-            // 3️⃣ Create a textbox on the first page
-            TextBoxField firstPageField = new TextBoxField(
-                pdfDocument.Pages[0],
-                new Rectangle(100, 100, 200, 20));
+## 向 PDF 添加页面 – 构建布局
 
-            // 4️⃣ Create a matching textbox on the second page
-            TextBoxField secondPageField = new TextBoxField(
-                pdfDocument.Pages[1],
-                new Rectangle(100, 100, 200, 20));
+没有页面的 PDF 就像一本没有页码的书——毫无用处。我们先添加两页，以演示字段链接。
 
-            // 5️⃣ Add both fields to the form using the same name
-            pdfForm.Add(firstPageField, "myField", 1);
-            pdfForm.Add(secondPageField, "myField", 2);
+```csharp
+            // Step 2: Add two pages to the document
+            Page firstPage = document.Pages.Add();
+            Page secondPage = document.Pages.Add();
+```
 
-            // 6️⃣ Save the resulting PDF
-            string outputPath = @"C:\Temp\output.pdf";
-            pdfDocument.Save(outputPath);
-            Console.WriteLine($"PDF saved to {outputPath}");
+注意我们调用了两次 `Add()`，并将每个新页面分别存入变量中。这让我们后续能够直接访问每页的注释集合。你可以根据需要添加任意数量的页面，API 会线性扩展。
 
-            // Open the PDF for quick verification (optional)
-            System.Diagnostics.Process.Start(outputPath);
+### 定位 Widgets
+
+当我们稍后放置文本框时，需要一个矩形来定义其位置。坐标使用点（1 point = 1/72 英寸）表示。下面的矩形将字段大致放在页面的中间位置。
+
+```csharp
+            // Define a rectangle for the text box (left, bottom, right, top)
+            var fieldRect = new Rectangle(100, 600, 300, 650);
+```
+
+可以随意调整这些数值——比如把字段放得更低或更宽。关键是两个 widget 使用相同的矩形，这样它们在不同页面上能够完美对齐。
+
+## 跨页面链接字段
+
+现在进入有趣的部分：我们希望在两页上出现同一个逻辑字段。在 PDF 术语中，这称为具有多个 *widgets* 的 *shared field*。第一个 widget 位于第一页，第二个 widget 位于第二页，但指向相同的底层字段名称。
+
+```csharp
+            // Step 3: Create a text box field on the first page and set its initial value
+            TextBoxField sharedTextBox = new TextBoxField(firstPage, fieldRect)
+            {
+                Value = "Shared value"
+            };
+
+            // Step 4: Register the text box field in the form with a shared name
+            document.Form.Add(sharedTextBox, "SharedTB");
+```
+
+调用 `document.Form.Add` 会在表单中以名称 `"SharedTB"` 注册该字段。任何使用相同 `PartialName` 的 widget 都会自动反映对该字段所做的更改。
+
+```csharp
+            // Step 5: Add a second widget of the same field on the second page
+            TextBoxField secondWidget = new TextBoxField(secondPage, fieldRect);
+            secondWidget.PartialName = "SharedTB"; // links to the same field
+            secondPage.Annotations.Add(secondWidget);
+```
+
+*Why this works*: PDF 表单将 *字段定义*（数据容器）与 *widget*（可视表现）分离。通过为两个 widget 设置相同的 `PartialName`，我们告诉查看器它们属于同一个逻辑字段。当用户在第 1 页的框中输入内容时，值会立即出现在第 2 页，反之亦然。
+
+## 保存 PDF C# – 持久化文件
+
+最后，我们需要将文档写入磁盘。`Save` 方法接受文件路径；如果需要，也可以保存到内存流。
+
+```csharp
+            // Step 6: Save the PDF document
+            string outputPath = @"C:\Temp\textbox_multi_widget.pdf";
+            document.Save(outputPath);
+
+            System.Console.WriteLine($"PDF saved to {outputPath}");
         }
     }
 }
 ```
 
-**Expected outcome:** 打开 `output.pdf`，你会看到两个相同的文本框——各在一页。向顶部文本框输入姓名，底部文本框会即时更新。这演示了 **how to add field** 正确工作，并确认表单按预期运行。
+几个实用提示：
 
----
+* **文件夹权限** – 确保目标文件夹已存在且进程拥有写入权限，否则 `Save` 会抛出异常。  
+* **覆盖行为** – `Save` 会在不提示的情况下覆盖已有文件。如果这点让你担心，请先使用 `File.Exists` 检查。  
+* **内存使用** – 对于超大文档，建议使用 `document.Save(Stream)`，以避免一次性将整个文件加载到内存中。
 
-## 常见问题与边缘情况
+运行程序后，打开生成的 PDF。你会看到两个相同的文本框。先在第一个框中输入内容，点击其他位置，然后切换到第 2 页——你的输入会立即出现。这就是字段链接的威力。
 
-### 如果需要超过两页怎么办？
+![Create PDF document with linked text fields]( "Create PDF document with linked text fields")
 
-只需根据需要多次调用 `pdfDocument.Pages.Add()`，然后为每个新页面创建 `TextBoxField` 并使用相同的字段名称注册。库会保持它们同步。
+## 常见变体与边缘情况
 
-### 我可以设置默认值吗？
+### 添加更多 Widgets
 
-可以。创建字段后，赋值 `firstPageField.Text = "John Doe";`。相同的默认值会出现在所有关联的小部件上。
-
-### 如何将字段设为必填？
-
-大多数库都会公开一个 `Required` 属性：
+如果需要在三页或更多页面上使用同一字段，只需为每个额外页面重复 widget 创建块，并始终将 `PartialName` 设置为 `"SharedTB"`。
 
 ```csharp
-firstPageField.Required = true;
-secondPageField.Required = true;
+            // Example: third page widget
+            Page thirdPage = document.Pages.Add();
+            TextBoxField thirdWidget = new TextBoxField(thirdPage, fieldRect);
+            thirdWidget.PartialName = "SharedTB";
+            thirdPage.Annotations.Add(thirdWidget);
 ```
 
-当 PDF 在 Adobe Acrobat 中打开时，如果用户尝试在未填写该字段的情况下提交，系统会提示。
+### 更改字段外观
 
-### 样式（字体、颜色、边框）怎么办？
-
-你可以访问字段的外观对象：
+可以通过 `FieldAppearance` 属性自定义字体、边框、背景色等。
 
 ```csharp
-firstPageField.Font = new PdfFont(PdfFontFamily.Helvetica, 12f);
-firstPageField.BorderWidth = 1;
-firstPageField.BorderColor = Color.Black;
+            sharedTextBox.DefaultAppearance = new TextState
+            {
+                FontSize = 12,
+                Font = FontRepository.FindFont("Arial"),
+                ForegroundColor = Color.Black
+            };
+            sharedTextBox.Border = new Border(sharedTextBox) { Width = 1 };
 ```
 
-对第二个字段使用相同的样式，以保持视觉一致性。
+这些调整是可选的，但能让表单看起来更专业。
 
-### 表单可以打印吗？
+### 只读字段
 
-当然可以。由于字段是 *interactive* 的，打印时仍保留其外观。如果需要平面版，保存前调用 `pdfDocument.Flatten()`。
+如果字段只用于显示数据（例如计算后的总计），请设置 `IsReadOnly = true`。
 
----
+```csharp
+            sharedTextBox.IsReadOnly = true;
+```
 
-## 专业提示与常见坑
+### 处理大型 PDF
 
-- **避免矩形重叠。** 重叠可能导致某些阅读器出现渲染错误。
-- **记住 `Pages` 集合使用零基索引**；混用 0 基和 1 基索引是导致 “field not found” 错误的常见原因。
-- **释放对象**，如果你的库实现了 `IDisposable`。将文档放在 `using` 块中以释放本机资源。
-- **在多个阅读器中测试**（Adobe Reader、Foxit、Chrome）。某些阅读器对字段标志的解释略有差异。
-- **版本兼容性：** 示例代码适用于 Spire.PDF 7.x 及以上版本。如果使用旧版本，`PdfForm.Add` 的重载可能需要不同的签名。
+当处理几百兆以上的文档时，考虑在保存前调用 `document.Optimize()` 以减小文件体积。
 
-## 结论
+## 专业技巧与常见陷阱
 
-现在，你已经掌握了在 C# 中从头 **how to create PDF document**、如何 **add pages to PDF**，以及最重要的，如何 **create PDF form fields** 以共享单一值，回答了 **how to create form** 与 **how to add field**。完整示例可直接运行，解释则提供了每行代码背后的 *why*。
+* **Pro tip**: 如果想要完美对齐，所有 widget 使用同一个 `Rectangle` 实例。这样可以避免细微的四舍五入误差。  
+* **Watch out for**: 忘记将第二个 widget 添加到 `secondPage.Annotations`。字段仍然存在，但可视框不会出现。  
+* **Typical error**: 使用 `new TextBoxField(secondPage, ...)` 时未设置 `PartialName`——第二个 widget 会成为完全独立的字段，导致链接失效。  
+* **Performance note**: 在循环中添加页面（`for (int i = 0; i < n; i++)`）是可以的，但避免在循环内部执行耗资源的操作（如加载大图），并记得及时释放资源。
 
-准备好迎接下一个挑战了吗？尝试添加下拉列表、单选按钮组，甚至用于计算总额的 JavaScript 动作。这些概念都基于我们在此覆盖的相同基础。
+## 完整工作示例回顾
 
-如果你觉得本教程有帮助，请考虑与团队成员分享或为你保存 PDF 工具的仓库加星。祝编码愉快，愿你的 PDF 始终既美观又实用！
+下面是完整的程序代码，直接复制粘贴即可使用：
+
+```csharp
+using Aspose.Pdf;
+using Aspose.Pdf.Annotations;
+using Aspose.Pdf.Text;
+using System.Drawing;
+
+namespace PdfDemo
+{
+    class Program
+    {
+        static void Main()
+        {
+            // Step 1: Create a new PDF document
+            Document document = new Document();
+
+            // Step 2: Add two pages to the document
+            Page firstPage = document.Pages.Add();
+            Page secondPage = document.Pages.Add();
+
+            // Define the rectangle for the text box
+            var fieldRect = new Rectangle(100, 600, 300, 650);
+
+            // Step 3: Create a text box field on the first page and set its initial value
+            TextBoxField sharedTextBox = new TextBoxField(firstPage, fieldRect)
+            {
+                Value = "Shared value"
+            };
+
+            // Optional: customize appearance
+            sharedTextBox.DefaultAppearance = new TextState
+            {
+                FontSize = 12,
+                Font = FontRepository.FindFont("Arial"),
+                ForegroundColor = Color.Black
+            };
+            sharedTextBox.Border = new Border(sharedTextBox) { Width = 1 };
+
+            // Step 4: Register the text box field in the form with a shared name
+            document.Form.Add(sharedTextBox, "SharedTB");
+
+            // Step 5: Add a second widget of the same field on the second page
+            TextBoxField secondWidget = new TextBoxField(secondPage, fieldRect);
+            secondWidget.PartialName = "SharedTB"; // links to the same field
+            secondPage.Annotations.Add(secondWidget);
+
+            // Step 6: Save the PDF document
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

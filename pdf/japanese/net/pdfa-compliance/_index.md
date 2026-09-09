@@ -38,6 +38,8 @@ Aspose.PDF for .NET を使用して PDF/A-1a 準拠を検証する方法を学�
 ### [C# で Aspose.PDF for .NET を使用して PDF/A 検証をマスターする](./master-pdfa-validation-aspose-pdf-net/)
 Aspose.PDF .NET を使用して、PDF ドキュメントを PDF/A 標準に準拠して検証する方法を学びましょう。ステップバイステップのガイドでコンプライアンスを確保し、ドキュメントの信頼性を高めましょう。
 
+### [C# で PDF/A ファイルを作成 – 完全変換チュートリアル](./create-pdf-a-file-in-c-full-conversion-tutorial/)
+C# を使用して PDF を PDF/A に完全に変換し、アーカイブ品質のファイルを作成する手順を解説します。
 ### [C# で PDF/A を作成する方法 – ステップバイステップ Aspose ガイド](./how-to-create-pdf-a-in-c-step-by-step-aspose-guide/)
 Aspose.PDF .NET を使用して、C# で PDF/A 準拠ドキュメントを作成する手順を詳しく解説します。
 

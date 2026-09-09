@@ -1,263 +1,253 @@
 ---
 category: general
-date: 2026-02-23
-description: C#'ta PDF belgesi hızlıca oluşturun. PDF'ye sayfa eklemeyi, PDF form
-  alanları oluşturmayı, form oluşturmayı ve alan eklemeyi net kod örnekleriyle öğrenin.
+date: 2026-02-25
+description: C# ile adım adım kılavuzda PDF belgesi oluşturun. PDF'e sayfa eklemeyi,
+  alanları bağlamayı ve PDF'i sorunsuz bir şekilde C# ile kaydetmeyi öğrenin.
 draft: false
 keywords:
 - create pdf document
 - add pages to pdf
-- create pdf form fields
-- how to create form
-- how to add field
+- how to link fields
+- how to create pdf
+- save pdf c#
 language: tr
-og_description: Pratik bir öğretici ile C#’ta PDF belgesi oluşturun. PDF’ye sayfa
-  eklemeyi, PDF form alanları yaratmayı, form oluşturmayı ve dakikalar içinde alan
-  eklemeyi keşfedin.
-og_title: C# ile PDF Belgesi Oluştur – Tam Programlama Rehberi
+og_description: C#'de PDF belgesi anında oluşturun. Bu kılavuz, PDF'e sayfa eklemeyi,
+  sayfalar arasında alanları bağlamayı ve temiz kodla PDF'i C#'de kaydetmeyi gösterir.
+og_title: C# ile PDF Belgesi Oluşturma – Tam Programlama Öğreticisi
 tags:
-- C#
-- PDF
-- Form Generation
+- pdf
+- csharp
+- aspnet
+- form-fields
 title: C#'te PDF Belgesi Oluşturma – Adım Adım Rehber
 url: /tr/net/document-creation/create-pdf-document-in-c-step-by-step-guide/
 ---
 
-we kept all markdown formatting: headers, lists, blockquote, bold, italics, code block placeholders.
+we should not translate them because they are inside code block, which must be preserved exactly. So leave as is.
 
-We need to keep blockquote formatting: > **Pro tip:** ... Keep.
+Also the placeholder // Step 6: Save the PDF document is inside code block, keep unchanged.
 
-Also need to keep horizontal rules: --- lines.
+Now produce final answer with all content.
 
-Make sure we didn't miss any.
-
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# C#’ta PDF Belgesi Oluşturma – Tam Programlama Rehberi
+# C#'ta PDF Belgesi Oluşturma – Adım Adım Rehber
 
-C#’ta **PDF belgesi oluşturma** ihtiyacınız hiç oldu mu ama nereden başlayacağınızı bilmiyor muydunuz? Yalnız değilsiniz—çoğu geliştirici raporları, faturaları veya sözleşmeleri otomatikleştirmeye çalıştığında bu duvara çarpar. İyi haber? Sadece birkaç dakika içinde birden çok sayfa ve senkronize form alanlarıyla tam özellikli bir PDF elde edeceksiniz ve sayfalar arasında çalışan **how to add field** nasıl yapılacağını anlayacaksınız.
+C#'ta **pdf belgesi oluşturma** ihtiyacı hiç duydunuz mu ama nereden başlayacağınızı bilemediniz mi? Tek başınıza değilsiniz—geliştiriciler sürekli olarak faturalar, raporlar veya etkileşimli formlar için anında PDF oluşturmanın nasıl yapılacağını soruyor. Bu öğreticide, pdf'ye sayfalar eklemeyi, bu sayfalardaki alanları bağlamayı ve sonunda **pdf c# kaydetme** işlemini gösteren tam, çalıştırılabilir bir örnek üzerinden adım adım ilerleyeceğiz.
 
-Bu öğreticide tüm süreci adım adım inceleyeceğiz: PDF'yi başlatmaktan, **add pages to PDF**'ye, **create PDF form fields**'a ve sonunda tek bir değeri paylaşan **how to create form**'a kadar. Harici referanslara gerek yok, sadece projenize kopyalayıp‑yapıştırabileceğiniz sağlam bir kod örneği. Sonunda profesyonel görünen ve gerçek bir form gibi davranan bir PDF oluşturabileceksiniz.
+Belge nesnesini başlatmaktan ortak form alanlarını bağlamaya kadar her şeyi ele alacağız, böylece kodu kendi projenize kopyala‑yapıştırabilir ve hemen çalıştığını görebilirsiniz. Belirsiz referanslar yok, sadece somut kod ve net açıklamalar.
 
-## Önkoşullar
+> **Neler Öğreneceksiniz**  
+> * Aspose.PDF for .NET kütüphanesini kullanarak bir PDF belgesi oluşturma.  
+> * pdf'ye birden fazla sayfa ekleme ve widget'ları hassas bir şekilde konumlandırma.  
+> * Alanları bağlayarak tek bir kullanıcı girişinin her sayfada görünmesini sağlama.  
+> * pdf c# güvenli bir şekilde kaydetme, yaygın tuzakları ele alma.  
 
-- .NET 6.0 veya üzeri (kod .NET Framework 4.6+ ile de çalışır)
-- `Document`, `PdfForm`, `TextBoxField` ve `Rectangle` öğelerini sunan bir PDF kütüphanesi (ör. Spire.PDF, Aspose.PDF veya uyumlu herhangi bir ticari/OSS kütüphane)
-- Visual Studio 2022 veya tercih ettiğiniz IDE
-- Temel C# bilgisi (API çağrılarının neden önemli olduğunu göreceksiniz)
+## Ön Koşullar
 
-> **Pro tip:** NuGet kullanıyorsanız, paketi `Install-Package Spire.PDF` ile kurun (veya seçtiğiniz kütüphane için eşdeğeri).  
+* .NET 6.0 veya daha yeni (örnek .NET Framework 4.6+ ile de çalışır).  
+* Visual Studio 2022 (veya tercih ettiğiniz herhangi bir IDE).  
+* **Aspose.PDF for .NET** NuGet paketi (`Install-Package Aspose.PDF`).  
+* C# sözdizimi hakkında temel bir anlayış—gelişmiş PDF bilgisi gerekmez.
 
-Şimdi, başlayalım.
+Eğer bunlardan herhangi biri size yabancı geliyorsa, NuGet paketini kurmak için bir dakikanızı ayırın; rehberin geri kalan kısmı kütüphanenin zaten referans alındığını varsayar.
 
----
+## PDF Belgesi Oluşturma – İlk Kurulum
 
-## 1. Adım – PDF Belgesi Oluşturma ve Sayfa Ekleme
-
-İlk olarak ihtiyacınız olan boş bir tuval. PDF terminolojisinde tuval bir `Document` nesnesidir. Bunu elde ettikten sonra, bir deftere sayfa ekler gibi **add pages to PDF** yapabilirsiniz.
-
-```csharp
-using Spire.Pdf;                 // Adjust the namespace to match your library
-using Spire.Pdf.Graphics;        // For Rectangle definition
-
-// Step 1: Initialize a new PDF document
-Document pdfDocument = new Document();
-
-// Add two pages – page indices start at 0 internally, but the library uses 1‑based indexing for convenience
-pdfDocument.Pages.Add(); // Page 1
-pdfDocument.Pages.Add(); // Page 2
-```
-
-*Neden önemli:* `Document` nesnesi dosya‑seviyesi meta verileri tutar, her `Page` nesnesi ise kendi içerik akışlarını saklar. Sayfaları önceden eklemek, daha sonra form alanlarını yerleştirecek yerler sağlar ve düzen mantığını basit tutar.
-
----
-
-## 2. Adım – PDF Form Kapsayıcısını Ayarlama
-
-PDF formları temelde etkileşimli alanların koleksiyonlarıdır. Çoğu kütüphane, belgeye eklediğiniz bir `PdfForm` sınıfı sunar. Bunu, hangi alanların birlikte olduğunu bilen bir “form yöneticisi” olarak düşünün.
+İhtiyacımız olan ilk şey boş bir tuval. Aspose.PDF'de bu, `Document` sınıfı ile temsil edilir.
 
 ```csharp
-// Step 2: Create a form container linked to the document
-PdfForm pdfForm = new PdfForm(pdfDocument);
-```
+using Aspose.Pdf;
+using Aspose.Pdf.Annotations;
+using Aspose.Pdf.Text;
 
-*Neden önemli:* `PdfForm` nesnesi olmadan, eklediğiniz alanlar statik metin olur—kullanıcılar bir şey yazamaz. Kapsayıcı ayrıca aynı alan adını birden çok widget’a atamanıza izin verir; bu da sayfalar arasında **how to add field** yapmanın anahtarıdır.
-
----
-
-## 3. Adım – İlk Sayfada Metin Kutusu Oluşturma
-
-Şimdi sayfa 1’de yer alacak bir metin kutusu oluşturacağız. Dikdörtgen, konumunu (x, y) ve boyutunu (genişlik, yükseklik) puan cinsinden tanımlar (1 pt ≈ 1/72 in).
-
-```csharp
-// Step 3: Define a TextBoxField on page 1
-TextBoxField firstPageField = new TextBoxField(
-    pdfDocument.Pages[0],                     // Zero‑based index for the first page
-    new Rectangle(100, 100, 200, 20)          // Left, Bottom, Width, Height
-);
-```
-
-*Neden önemli:* Dikdörtgen koordinatları, alanı diğer içeriklerle (etiketler gibi) hizalamanızı sağlar. `TextBoxField` türü, kullanıcı girişi, imleç ve temel doğrulamayı otomatik olarak yönetir.
-
----
-
-## 4. Adım – Alanı İkinci Sayfada Çoğaltma
-
-Aynı değerin birden çok sayfada görünmesini istiyorsanız, aynı isimle **create PDF form fields** oluşturursunuz. Burada aynı boyutları kullanarak sayfa 2’ye ikinci bir metin kutusu yerleştiriyoruz.
-
-```csharp
-// Step 4: Define a matching TextBoxField on page 2
-TextBoxField secondPageField = new TextBoxField(
-    pdfDocument.Pages[1],                     // Second page (zero‑based index)
-    new Rectangle(100, 100, 200, 20)
-);
-```
-
-*Neden önemli:* Dikdörtgeni yansıtarak, alan sayfalar arasında tutarlı görünür—küçük bir UX kazanımı. Altındaki alan adı, iki görsel widget’ı bir araya bağlayacaktır.
-
----
-
-## 5. Adım – Aynı İsimle Her İki Widget’ı da Form’a Eklemek
-
-Bu, tek bir değeri paylaşan **how to create form**’un kalbidir. `Add` metodu, alan nesnesini, bir dize tanımlayıcısını ve isteğe bağlı bir sayfa numarasını alır. Aynı tanımlayıcıyı (`"myField"`) kullanmak, PDF motoruna her iki widget’ın aynı mantıksal alanı temsil ettiğini söyler.
-
-```csharp
-// Step 5: Register both fields under the same name
-pdfForm.Add(firstPageField, "myField", 1);   // Page number is 1‑based for the API
-pdfForm.Add(secondPageField, "myField", 2);
-```
-
-*Neden önemli:* Kullanıcı ilk metin kutusuna bir şey yazdığında, ikinci metin kutusu otomatik olarak güncellenir (ve tersine). Bu, her sayfanın üst kısmında tek bir “Müşteri Adı” alanının görünmesini istediğiniz çok sayfalı sözleşmeler için mükemmeldir.
-
----
-
-## 6. Adım – PDF’yi Disk’e Kaydetme
-
-Son olarak, belgeyi dışa yazın. `Save` metodu tam bir yol alır; klasörün var olduğundan ve uygulamanızın yazma iznine sahip olduğundan emin olun.
-
-```csharp
-// Step 6: Persist the PDF file
-pdfDocument.Save(@"C:\Temp\output.pdf");
-
-// Optionally open the file automatically (Windows only)
-System.Diagnostics.Process.Start(@"C:\Temp\output.pdf");
-```
-
-*Neden önemli:* Kaydetmek, iç akışları sonlandırır, form yapısını düzleştirir ve dosyayı dağıtıma hazır hâle getirir. Açmak, sonucu anında doğrulamanızı sağlar.
-
----
-
-## Tam Çalışan Örnek
-
-Aşağıda eksiksiz, çalıştırmaya hazır program bulunuyor. Bir konsol uygulamasına kopyalayın, `using` ifadelerini kütüphanenize göre ayarlayın ve **F5** tuşuna basın.
-
-```csharp
-using System;
-using Spire.Pdf;                 // Replace with your PDF library namespace
-using Spire.Pdf.Graphics;        // For Rectangle
-
-namespace PdfFormDemo
+namespace PdfDemo
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            // 1️⃣ Create a new PDF document and add two pages
-            Document pdfDocument = new Document();
-            pdfDocument.Pages.Add(); // First page
-            pdfDocument.Pages.Add(); // Second page
+            // Step 1: Create a new PDF document
+            Document document = new Document();
+```
 
-            // 2️⃣ Initialize a PdfForm container
-            PdfForm pdfForm = new PdfForm(pdfDocument);
+*Why this matters*: The `Document` object holds the entire file structure—pages, forms, resources, everything. Think of it as the notebook where you’ll later write all your content. By creating it up front we set the stage for adding pages, fields, and finally saving the file.
 
-            // 3️⃣ Create a textbox on the first page
-            TextBoxField firstPageField = new TextBoxField(
-                pdfDocument.Pages[0],
-                new Rectangle(100, 100, 200, 20));
+## PDF'ye Sayfa Ekleme – Düzeni Oluşturma
 
-            // 4️⃣ Create a matching textbox on the second page
-            TextBoxField secondPageField = new TextBoxField(
-                pdfDocument.Pages[1],
-                new Rectangle(100, 100, 200, 20));
+Sayfası olmayan bir PDF, sayfası olmayan bir kitap gibidir—çok işe yaramaz. Alan bağlamayı gösterebilmek için iki sayfa ekleyelim.
 
-            // 5️⃣ Add both fields to the form using the same name
-            pdfForm.Add(firstPageField, "myField", 1);
-            pdfForm.Add(secondPageField, "myField", 2);
+```csharp
+            // Step 2: Add two pages to the document
+            Page firstPage = document.Pages.Add();
+            Page secondPage = document.Pages.Add();
+```
 
-            // 6️⃣ Save the resulting PDF
-            string outputPath = @"C:\Temp\output.pdf";
-            pdfDocument.Save(outputPath);
-            Console.WriteLine($"PDF saved to {outputPath}");
+`Add()` metodunu iki kez çağırdığımıza ve her yeni sayfayı kendi değişkenine kaydettiğimize dikkat edin. Bu, daha sonra her sayfanın açıklama koleksiyonuna doğrudan erişim sağlar. İhtiyacınız kadar sayfa ekleyebilirsiniz; API doğrusal olarak ölçeklenir.
 
-            // Open the PDF for quick verification (optional)
-            System.Diagnostics.Process.Start(outputPath);
+### Widget'ları Konumlandırma
+
+Daha sonra bir metin kutusu yerleştirdiğimizde, konumunu tanımlayan bir dikdörtgene ihtiyacımız var. Koordinatlar point biriminde ifade edilir (1 point = 1/72 inç). Aşağıdaki dikdörtgen, alanı sayfanın ortasına yakın bir yere yerleştirir.
+
+```csharp
+            // Define a rectangle for the text box (left, bottom, right, top)
+            var fieldRect = new Rectangle(100, 600, 300, 650);
+```
+
+Bu sayıları istediğiniz gibi ayarlayabilirsiniz—belki alanı daha aşağıya ya da daha geniş istiyorsunuzdur. Önemli olan, aynı dikdörtgenin her iki widget için de yeniden kullanılmasıdır; bu, sayfalar arasında mükemmel hizalanmayı sağlar.
+
+## Sayfalar Arasında Alanları Bağlama
+
+Şimdi ilginç kısma geliyoruz: her iki sayfada da görünen tek bir mantıksal alan istiyoruz. PDF terminolojisinde bu, birden fazla *widget*'a sahip bir *shared field* (paylaşılan alan) olarak adlandırılır. İlk widget birinci sayfada, ikinci widget ise ikinci sayfada bulunur ancak aynı temel alan adına işaret eder.
+
+```csharp
+            // Step 3: Create a text box field on the first page and set its initial value
+            TextBoxField sharedTextBox = new TextBoxField(firstPage, fieldRect)
+            {
+                Value = "Shared value"
+            };
+
+            // Step 4: Register the text box field in the form with a shared name
+            document.Form.Add(sharedTextBox, "SharedTB");
+```
+
+`document.Form.Add` çağrısı, alanı `"SharedTB"` adıyla kaydeder. Aynı `PartialName`'i kullanan herhangi bir widget, alanda yapılan değişiklikleri otomatik olarak yansıtacaktır.
+
+```csharp
+            // Step 5: Add a second widget of the same field on the second page
+            TextBoxField secondWidget = new TextBoxField(secondPage, fieldRect);
+            secondWidget.PartialName = "SharedTB"; // links to the same field
+            secondPage.Annotations.Add(secondWidget);
+```
+
+*Why this works*: PDF forms separate the *field definition* (the data container) from the *widget* (the visual representation). By giving both widgets the same `PartialName`, we tell the viewer that they belong to the same logical field. When a user types into the box on page 1, the value instantly appears on page 2, and vice‑versa.
+
+## PDF C# Kaydetme – Dosyayı Kalıcı Hale Getirme
+
+Son olarak, belgeyi diske yazmamız gerekiyor. `Save` metodu bir dosya yolu alır; isterseniz belleğe akış da yapabilirsiniz.
+
+```csharp
+            // Step 6: Save the PDF document
+            string outputPath = @"C:\Temp\textbox_multi_widget.pdf";
+            document.Save(outputPath);
+
+            System.Console.WriteLine($"PDF saved to {outputPath}");
         }
     }
 }
 ```
 
-**Beklenen sonuç:** `output.pdf` dosyasını açın ve iki aynı metin kutusunu göreceksiniz—her sayfada bir tane. Üst kutuya bir isim yazın; alt kutu anında güncellenir. Bu, **how to add field**'ın doğru çalıştığını gösterir ve formun amacına uygun olduğunu doğrular.
+Birkaç pratik not:
 
----
+* **Klasör izinleri** – Hedef klasörün var olduğundan ve işleminizin yazma iznine sahip olduğundan emin olun; aksi takdirde `Save` bir istisna fırlatır.  
+* **Üzerine yazma** – `Save`, mevcut bir dosyanın üzerine uyarı vermeden yazar. Bu bir endişe ise, önce `File.Exists` kontrol edin.  
+* **Bellek kullanımı** – Çok büyük belgeler için, tüm dosyayı bellekte tutmaktan kaçınmak amacıyla `document.Save(Stream)` kullanmak isteyebilirsiniz.
 
-## Yaygın Sorular ve Kenar Durumları
+Programı çalıştırdığınızda, ortaya çıkan PDF'yi açın. İki aynı metin kutusu göreceksiniz. İlkine bir şeyler yazın, dışına tıklayın, ardından sayfa 2'ye geçin—girişiniz anında görünecek. İşte alanları bağlamanın gücü bu.
 
-### Daha fazla sayfaya ihtiyacım olursa ne olur?
+![Bağlantılı metin alanlarıyla PDF belgesi oluşturma]( "Bağlantılı metin alanlarıyla PDF belgesi oluşturma")
 
-İstediğiniz kadar `pdfDocument.Pages.Add()` çağırın, ardından her yeni sayfa için bir `TextBoxField` oluşturun ve aynı alan adıyla kaydedin. Kütüphane bunları senkronize tutar.
+## Yaygın Varyasyonlar ve Kenar Durumları
 
-### Varsayılan bir değer ayarlayabilir miyim?
+### Daha Fazla Widget Ekleme
 
-Evet. Bir alan oluşturduktan sonra `firstPageField.Text = "John Doe";` atayın. Aynı varsayılan, tüm bağlı widget’larda görünecek.
-
-### Alanı zorunlu nasıl yaparım?
-
-Çoğu kütüphane bir `Required` özelliği sunar:
+Aynı alanı üç veya daha fazla sayfada ihtiyacınız varsa, ek her sayfa için widget‑oluşturma bloğunu tekrarlayın ve her zaman `PartialName`i `"SharedTB"` olarak ayarlayın.
 
 ```csharp
-firstPageField.Required = true;
-secondPageField.Required = true;
+            // Example: third page widget
+            Page thirdPage = document.Pages.Add();
+            TextBoxField thirdWidget = new TextBoxField(thirdPage, fieldRect);
+            thirdWidget.PartialName = "SharedTB";
+            thirdPage.Annotations.Add(thirdWidget);
 ```
 
-PDF Adobe Acrobat’ta açıldığında, kullanıcı alanı doldurmadan göndermeye çalışırsa uyarı alır.
+### Alan Görünümünü Değiştirme
 
-### Stil (yazı tipi, renk, kenarlık) nasıl ayarlanır?
-
-Alanının görünüm nesnesine erişebilirsiniz:
+`FieldAppearance` özelliği aracılığıyla yazı tipi, kenarlık, arka plan rengi vb. özelleştirebilirsiniz.
 
 ```csharp
-firstPageField.Font = new PdfFont(PdfFontFamily.Helvetica, 12f);
-firstPageField.BorderWidth = 1;
-firstPageField.BorderColor = Color.Black;
+            sharedTextBox.DefaultAppearance = new TextState
+            {
+                FontSize = 12,
+                Font = FontRepository.FindFont("Arial"),
+                ForegroundColor = Color.Black
+            };
+            sharedTextBox.Border = new Border(sharedTextBox) { Width = 1 };
 ```
 
-İkinci alana aynı stili uygulayarak görsel tutarlılık sağlayın.
+Bu ayarlamalar isteğe bağlıdır ancak formun daha profesyonel görünmesini sağlar.
 
-### Form yazdırılabilir mi?
+### Salt Okunur Alanlar
 
-Kesinlikle. Alanlar *etkileşimli* olduğu için, yazdırıldıklarında görünümlerini korurlar. Düz bir versiyona ihtiyacınız varsa, kaydetmeden önce `pdfDocument.Flatten()` çağırın.
+Alan yalnızca veri göstermek için kullanılacaksa (ör. hesaplanmış bir toplam), `IsReadOnly = true` olarak ayarlayın.
 
----
+```csharp
+            sharedTextBox.IsReadOnly = true;
+```
 
-## Pro İpuçları ve Tuzaklar
+### Büyük PDF'leri İşleme
 
-- **Üst üste gelen dikdörtgenlerden kaçının.** Çakışma bazı görüntüleyicilerde render hatalarına yol açabilir.
-- **`Pages` koleksiyonu için sıfır‑tabanlı indekslemeyi hatırlayın;** 0‑ ve 1‑tabanlı indeksleri karıştırmak “alan bulunamadı” hatalarının yaygın kaynağıdır.
-- **Nesneleri serbest bırakın** kütüphaneniz `IDisposable` uygularsa. Yerel kaynakları serbest bırakmak için belgeyi bir `using` bloğu içinde tutun.
-- **Birden çok görüntüleyicide test edin** (Adobe Reader, Foxit, Chrome). Bazı görüntüleyiciler alan bayraklarını biraz farklı yorumlayabilir.
-- **Sürüm uyumluluğu:** Gösterilen kod Spire.PDF 7.x ve üzeriyle çalışır. Daha eski bir sürümde iseniz, `PdfForm.Add` aşırı yüklemesi farklı bir imza gerektirebilir.
+Birkaç yüz megabaytı aşan belgelerle çalışırken, dosya boyutunu azaltmak için kaydetmeden önce `document.Optimize()` kullanmayı düşünün.
 
----
+## Profesyonel İpuçları ve Tuzaklar
 
-## Sonuç
+* **Pro tip**: Tüm widget'lar için aynı `Rectangle` örneğini yeniden kullanın, mükemmel hizalama istiyorsanız. Bu, ince yuvarlama hatalarından sizi korur.  
+* **Watch out for**: İkinci widget'ı `secondPage.Annotations`'a eklemeyi unutmak. Alan var olur, ancak görsel kutu görünmez.  
+* **Typical error**: `new TextBoxField(secondPage, ...)` kullanırken `PartialName` ayarlamamak—ikinci widget tamamen ayrı bir alan haline gelir ve bağlantıyı bozar.  
+* **Performance note**: Bir döngüde sayfa eklemek (`for (int i = 0; i < n; i++)`) sorun değil, ancak döngü içinde (örneğin büyük resimler yüklemek gibi) ağır işlemler yapmaktan ve kaynakları serbest bırakmamaktan kaçının.
 
-Artık C#’ta sıfırdan **how to create PDF document** nasıl yapılır, **add pages to PDF** nasıl eklenir ve en önemlisi tek bir değeri paylaşan **create PDF form fields** nasıl oluşturulur, yani **how to create form** ve **how to add field** sorularına yanıt verirsiniz. Tam örnek kutudan çıkar çıkmaz çalışır ve açıklamalar her satırın *neden*ini verir.
+## Tam Çalışan Örnek Özeti
 
-Bir sonraki meydan okumaya hazır mısınız? Bir açılır liste, radyo düğme grubu eklemeyi ya da toplamları hesaplayan JavaScript eylemleri eklemeyi deneyin. Bu kavramların tümü burada ele aldığımız aynı temeller üzerine kuruludur.
+İşte tüm program tekrar, kopyala‑yapıştırmaya hazır:
 
-Bu öğreticiyi faydalı bulduysanız, ekip arkadaşlarınızla paylaşmayı veya PDF araçlarınızı tuttuğunuz depoyu yıldızlamayı düşünün. Mutlu kodlamalar, ve PDF’lerinizin her zaman güzel ve işlevsel olmasını dileriz!
+```csharp
+using Aspose.Pdf;
+using Aspose.Pdf.Annotations;
+using Aspose.Pdf.Text;
+using System.Drawing;
+
+namespace PdfDemo
+{
+    class Program
+    {
+        static void Main()
+        {
+            // Step 1: Create a new PDF document
+            Document document = new Document();
+
+            // Step 2: Add two pages to the document
+            Page firstPage = document.Pages.Add();
+            Page secondPage = document.Pages.Add();
+
+            // Define the rectangle for the text box
+            var fieldRect = new Rectangle(100, 600, 300, 650);
+
+            // Step 3: Create a text box field on the first page and set its initial value
+            TextBoxField sharedTextBox = new TextBoxField(firstPage, fieldRect)
+            {
+                Value = "Shared value"
+            };
+
+            // Optional: customize appearance
+            sharedTextBox.DefaultAppearance = new TextState
+            {
+                FontSize = 12,
+                Font = FontRepository.FindFont("Arial"),
+                ForegroundColor = Color.Black
+            };
+            sharedTextBox.Border = new Border(sharedTextBox) { Width = 1 };
+
+            // Step 4: Register the text box field in the form with a shared name
+            document.Form.Add(sharedTextBox, "SharedTB");
+
+            // Step 5: Add a second widget of the same field on the second page
+            TextBoxField secondWidget = new TextBoxField(secondPage, fieldRect);
+            secondWidget.PartialName = "SharedTB"; // links to the same field
+            secondPage.Annotations.Add(secondWidget);
+
+            // Step 6: Save the PDF document
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

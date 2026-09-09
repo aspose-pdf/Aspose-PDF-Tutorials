@@ -56,7 +56,7 @@ Aspose.PDF의 .NET용 "텍스트 프로그래밍" 튜토리얼은 PDF 문서에�
 | [PDF 파일의 텍스트 페이지 바꾸기](./replace-text-page/) | Aspose.PDF for .NET을 사용하여 PDF 파일의 텍스트를 바꾸는 방법을 단계별 가이드를 통해 알아보세요. 글꼴, 색상 및 텍스트 속성을 손쉽게 사용자 지정할 수 있습니다. |  
 | [PDF 파일에서 문단을 사용하여 텍스트 회전](./rotate-text-using-paragraph/) | Aspose.PDF for .NET을 사용하여 PDF에서 텍스트를 회전하는 방법을 알아보세요. 이 단계별 가이드를 따라 문서를 만들어 보세요. |  
 | [PDF 파일에서 텍스트 조각을 사용하여 텍스트 회전](./rotate-text-using-text-fragment/) | Aspose.PDF for .NET을 사용하여 PDF 파일의 텍스트를 회전하는 방법을 단계별 가이드와 함께 알아보세요. 위치 지정부터 회전까지 다양한 텍스트 조작 기법을 알아보세요. |  
-| [텍스트 조각과 단락을 사용하여 텍스트 회전](./rotate-text-using-text-fragment-and-paragraph/) | Aspose.PDF for .NET을 사용하여 PDF 문서의 텍스트 조각과 문단을 사용하여 텍스트를 회전하는 방법을 알아보세요. |  
+| [텍스트 조각과 단락을 사용하여 텍스트 회전](./rotate-text-using-text-fragment-and-paragraph/) | Aspose.PDF for .NET을 사용하여 PDF 문서의 텍스트 조각과 단락을 사용하여 텍스트를 회전하는 방법을 알아보세요. |  
 | [PDF 파일에서 텍스트 단락 및 빌더를 사용하여 텍스트 회전](./rotate-text-using-text-paragraph-and-builder/) | Aspose.PDF for .NET을 사용하여 PDF 파일의 텍스트 문단과 빌더를 사용하여 텍스트를 회전하는 방법을 알아보세요. |  
 | [모든 텍스트 검색 및 가져오기](./search-and-get-text-all/) | Aspose.PDF for .NET을 사용하여 PDF 문서의 모든 페이지에서 텍스트를 검색하고 가져오는 방법을 알아보세요. |  
 | [PDF 파일에서 텍스트 페이지 검색 및 가져오기](./search-and-get-text-page/) | Aspose.PDF for .NET을 사용하여 PDF 파일의 특정 페이지에서 텍스트를 검색하고 가져오는 방법을 알아보세요. |  
@@ -70,6 +70,7 @@ Aspose.PDF의 .NET용 "텍스트 프로그래밍" 튜토리얼은 PDF 문서에�
 | [PDF 파일의 문단으로 텍스트와 이미지 사용](./text-and-image-as-paragraph/) | Aspose.PDF for .NET을 사용하여 텍스트와 이미지가 포함된 PDF를 만드세요. 텍스트와 인라인 이미지를 추가하는 방법을 단계별로 알아보세요. |  
 | [PDF 파일의 텍스트 세그먼트](./text-segments/) | Aspose.PDF for .NET에서 정규 표현식을 사용하여 PDF 파일에서 특정 텍스트 세그먼트를 검색하는 방법을 알아보세요. |  
 | [PDF 파일에 Latex 스크립트 사용](./use-latex-script/) | Aspose.PDF for .NET을 사용하여 Latex 스크립트를 사용하여 PDF 파일에 수학 표현식이나 공식을 추가하는 방법을 알아보세요. |  
+| [PDF에 베이츠 번호 추가 – 베이츠 번호 매기기](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Aspose.PDF for .NET을 사용하여 PDF에 베이츠 번호를 추가하고 문서 추적을 구현하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
