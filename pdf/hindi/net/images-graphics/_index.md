@@ -17,6 +17,9 @@
 
 ## उपलब्ध ट्यूटोरियल
 
+### [How to add transparency to PDF files using Aspose.PDF for .NET](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
+
+
 ### [.NET के लिए Aspose.PDF का उपयोग करके PDF में इमेज स्टैम्प जोड़ें: एक चरण-दर-चरण मार्गदर्शिका](./add-image-stamp-to-pdf-aspose-dotnet/)
 .NET के लिए Aspose.PDF का उपयोग करके PDF के प्रत्येक पृष्ठ पर लोगो जैसे छवि स्टैम्प को सहजता से जोड़ना सीखें। पेशेवर ब्रांडिंग के साथ अपने दस्तावेज़ों को बेहतर बनाएँ।
 

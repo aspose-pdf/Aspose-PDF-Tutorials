@@ -54,10 +54,11 @@ Aprenderá a especificar la configuración de conversión, extraer texto e imág
 | [Cargar documento PDF C# – Convertir a PDF/X-4 Guía paso a paso](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | Aprenda a cargar un documento PDF y convertirlo a PDF/X‑4 usando Aspose.PDF para .NET en esta guía paso a paso. |
 | [Conversión de Aspose PDF a HTML en C# – Guía completa](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | Aprenda a convertir archivos PDF a HTML con Aspose.PDF para .NET usando C# en esta guía paso a paso. |
 | [Cómo convertir PDF con Aspose.Pdf – Guía completa en C#](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | Aprenda a convertir PDFs con Aspose.Pdf usando C# en esta guía completa paso a paso. |  
-| [Cómo guardar PDF con Aspose – Guía completa de conversión en C#](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) | Aprenda a guardar archivos PDF usando Aspose.PDF para .NET con esta guía completa paso a paso en C#. |  
-| [Agregar numeración Bates a DOCX y convertir a PDF – Guía completa en C#](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | Aprenda a añadir numeración Bates a documentos DOCX y convertirlos a PDF usando Aspose.PDF para .NET con C# paso a paso. |  
-| [Guardar documento PDF – Cómo agregar una elipse y convertir DOCX a PDF](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | Aprenda a guardar un PDF, añadir una elipse y convertir DOCX a PDF con Aspose.PDF para .NET paso a paso. |  
+| [Cómo guardar PDF con Aspose – Guía completa de conversión en C#](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) | Aprenda a guardar archivos PDF usando Aspose.PDF para .NET con esta guía completa paso a paso en C#. |
+| [Agregar numeración Bates a DOCX y convertir a PDF – Guía completa en C#](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | Aprenda a añadir numeración Bates a documentos DOCX y convertirlos a PDF usando Aspose.PDF para .NET con C# paso a paso. |
+| [Guardar documento PDF – Cómo agregar una elipse y convertir DOCX a PDF](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | Aprenda a guardar un PDF, añadir una elipse y convertir DOCX a PDF con Aspose.PDF para .NET paso a paso. |
 | [Cómo establecer ICC en la conversión de PDF de Aspose – Guía completa](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | Aprenda a establecer perfiles ICC al convertir PDFs con Aspose.PDF para .NET en esta guía paso a paso. |
+| [Cómo usar Aspose para convertir PDF a PDF/X‑1A con ICC](./how-to-use-aspose-to-convert-pdf-to-pdf-x-1a-with-icc/) | Aprenda a convertir PDF a PDF/X‑1A con perfil ICC usando Aspose.PDF para .NET en esta guía paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

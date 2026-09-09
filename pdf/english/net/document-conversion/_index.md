@@ -14,7 +14,7 @@ description: Check out document conversion tutorials with Aspose.PDF for .NET. E
 
 # Document Conversion
 
-In Aspose.PDF document conversion tutorials for .NET, you will learn how to convert different types of documents such as Word, Excel, HTML, images, etc. to PDF files. You'll learn how to convert an existing document using advanced conversion options such as layout, fonts, images, tables, and more. The tutorials will also guide you on converting PDF documents to other formats, such as Word, Excel, HTML, images, etc. 
+In Aspose.PDF document conversion tutorials for .NET, you will learn how to convert different types of documents such such as Word, Excel, HTML, images, etc. to PDF files. You'll learn how to convert an existing document using advanced conversion options such as layout, fonts, images, tables, and more. The tutorials will also guide you on converting PDF documents to other formats, such as Word, Excel, HTML, images, etc. 
 
 Below is a simple example that demonstrates how to convert a Word document to PDF using Aspose.PDF for .NET:
 
@@ -54,6 +54,7 @@ You'll learn how to specify conversion settings, extract text and images, retain
 | [Create HTML from PDF in C# – Complete Step‑by‑Step Guide](./create-html-from-pdf-in-c-complete-step-by-step-guide/) | Learn how to create HTML from a PDF using Aspose.PDF for .NET with this step‑by‑step guide. |
 | [c# pdf conversion tutorial – convert pdf to pdf/x-4](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) | Learn how to convert PDF to PDF/X-4 using Aspose.PDF for .NET in this step-by-step tutorial. |  
 | [How to set ICC in Aspose PDF conversion – Complete Guide](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | Learn how to set ICC profiles during PDF conversion using Aspose.PDF for .NET in this comprehensive step-by-step guide. |  
+| [How to use Aspose to convert PDF to PDF/X‑1A with ICC](./how-to-use-aspose-to-convert-pdf-to-pdf-x-1a-with-icc/) | Learn how to convert PDF to PDF/X‑1A with ICC profiles using Aspose.PDF for .NET in this step‑by‑step guide. |
 | [Markdown To PDF](./markdown-to-pdf/) | Learn how to convert Markdown to PDF using Aspose.PDF for .NET in this step-by-step tutorial. Perfect for developers looking to streamline document conversion. |  
 | [MHT To PDF](./mht-to-pdf/) | Learn how to convert MHT files to PDF using Aspose.PDF for .NET in this step-by-step tutorial. Easy and efficient document conversion. |  
 | [Page Orientation According Image Dimensions](./page-orientation-according-image-dimensions/) | Learn how to create PDFs with Aspose.PDF for .NET, setting page orientation based on image dimensions in this step-by-step guide. |  

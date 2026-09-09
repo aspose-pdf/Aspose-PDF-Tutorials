@@ -62,6 +62,7 @@
 | [XPS 转 PDF](./xps-to-pdf/) 学习如何使用 Aspose.PDF for .NET 将 XPS 文件转换为 PDF，本教程循序渐进，非常适合开发人员和文档爱好者。|  
 | [添加 ICC 配置文件并将 PDF 转换为 PDF/X‑4 – C# 指南](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) | 通过本分步指南了解如何使用 Aspose.PDF for .NET 添加 ICC 配置文件并将 PDF 转换为 PDF/X‑4（C#）。|  
 | [在 C# 中将 PDF 转换为 PDF/X‑4 – 步骤详解 ASP.NET PDF 教程](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) 通过本分步指南学习如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 转换为 PDF/X‑4，适用于 ASP.NET 项目。|  
+| [如何使用 Aspose 将 PDF 转换为 PDF/X‑1A 并使用 ICC](./how-to-use-aspose-to-convert-pdf-to-pdf-x-1a-with-icc/) | 通过本分步指南了解如何使用 Aspose.PDF for .NET 将 PDF 转换为符合 PDF/X‑1A 标准并嵌入 ICC 配置文件。|  
 | [PDF 转 PNG 教程 – 在 C# 中将 PDF 页面转换为 PNG](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | 在本分步教程中学习如何使用 Aspose.PDF for .NET 将 PDF 页面转换为 PNG 图像。|
 
 | [Aspose PDF 转 HTML 转换（C#）完整指南](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | 通过本完整分步指南，了解如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 转换为 HTML，实现高质量网页输出。|  

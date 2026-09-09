@@ -44,6 +44,9 @@ Aprenda a criar documentos PDF visualmente atraentes extraindo e destacando par�
 ### [Desenhe formas transparentes em PDFs com Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 Um tutorial de código para Aspose.PDF Net
 
+### [Como adicionar transparência a PDFs usando Aspose.PDF para .NET](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
+Aprenda a aplicar efeitos de transparência em PDFs com Aspose.PDF para .NET, melhorando a aparência e a sobreposição de elementos.
+
 ### [Identificação eficiente de imagens em PDF com Aspose.PDF para .NET](./master-image-identification-aspose-pdf-net/)
 Aprenda a identificar imagens em tons de cinza e RGB em PDFs usando o Aspose.PDF para .NET. Este tutorial aborda instalação, extração de imagens e dicas de desempenho.
 
@@ -141,7 +144,7 @@ Aprenda a extrair dimensões de páginas e renderizar imagens de PDFs usando o A
 Aprenda a redimensionar, compactar e ajustar a qualidade de imagens em PDFs com eficiência usando o Aspose.PDF para .NET. Melhore o desempenho dos documentos e a experiência do usuário.
 
 ### [Como remover gráficos de PDFs usando Aspose.PDF .NET: um guia completo](./remove-graphics-aspose-pdf-net/)
-Aprenda a remover gráficos de PDFs com eficiência usando o Aspose.PDF para .NET. Siga este guia passo a passo para organizar seus documentos e otimizar o tamanho dos arquivos.
+Aprenda a remover gráficos de PDFs com eficiência usando o Aspose.PDF .NET. Siga este guia passo a passo para organizar seus documentos e otimizar o tamanho dos arquivos.
 
 ### [Como substituir imagens em PDFs usando Aspose.PDF .NET: um guia para desenvolvedores](./replace-images-pdf-aspose-net-guide/)
 Aprenda a substituir imagens em documentos PDF com eficiência usando o Aspose.PDF para .NET. Simplifique as atualizações de seus documentos com este guia completo para desenvolvedores.

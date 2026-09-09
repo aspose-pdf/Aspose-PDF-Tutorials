@@ -44,6 +44,9 @@ Tanulja meg, hogyan hozhat létre vizuálisan vonzó PDF dokumentumokat bekezdé
 ### [Átlátszó alakzatok rajzolása PDF fájlokban az Aspose.PDF .NET segítségével](./draw-transparent-shapes-aspose-pdf-net/)
 Kód oktatóanyag az Aspose.PDF Nethez
 
+### [Átlátszóság hozzáadása PDF fájlokhoz az Aspose.PDF for .NET segítségével](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
+Tanuld meg, hogyan adhat hozzá átlátszóságot PDF fájlokhoz az Aspose.PDF for .NET segítségével.
+
 ### [Hatékony PDF képfelismerés az Aspose.PDF for .NET segítségével](./master-image-identification-aspose-pdf-net/)
 Tanuld meg, hogyan azonosíthatod a szürkeárnyalatos és RGB képeket PDF-ekben az Aspose.PDF for .NET segítségével. Ez az oktatóanyag a telepítést, a képkinyerést és a teljesítménnyel kapcsolatos tippeket ismerteti.
 

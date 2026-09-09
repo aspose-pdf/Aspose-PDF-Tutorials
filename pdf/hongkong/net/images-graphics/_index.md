@@ -44,6 +44,12 @@ Aspose.PDF Net 程式碼教學
 ### [使用 Aspose.PDF .NET 在 PDF 中繪製透明形狀](./draw-transparent-shapes-aspose-pdf-net/)
 Aspose.PDF Net 程式碼教學
 
+### [使用 Aspose.PDF for .NET 在 PDF 中建立透明矩形](./create-transparent-rectangles-aspose-pdf-dotnet/)
+了解如何使用 Aspose.PDF for .NET 建立具有 alpha 透明度的矩形來增強您的 PDF 文件。請按照本逐步指南進行操作。
+
+### [如何使用 Aspose.PDF for .NET 為 PDF 檔案新增透明度](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
+了解如何使用 Aspose.PDF for .NET 為 PDF 文件設定透明度，以提升視覺效果和層次感。
+
 ### [使用 Aspose.PDF for .NET 實現高效率的 PDF 影像識別](./master-image-identification-aspose-pdf-net/)
 了解如何使用 Aspose.PDF for .NET 識別 PDF 中的灰階和 RGB 影像。本教學涵蓋安裝、影像擷取和效能技巧。
 

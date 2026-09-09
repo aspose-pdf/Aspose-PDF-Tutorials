@@ -69,9 +69,10 @@ Dowiesz się, jak określać ustawienia konwersji, wyodrębniać tekst i obrazy,
 | [Zapisz PDF jako HTML – Zachowaj wektory i wyłącz rasteryzację](./save-pdf-as-html-keep-vectors-disable-rasterization/) | Dowiedz się, jak zapisać PDF jako HTML zachowując wektory i wyłączając rasteryzację przy użyciu Aspose.PDF dla .NET. |
 | [Jak zapisać PDF przy użyciu Aspose – Kompletny przewodnik konwersji C#](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) | Dowiedz się, jak zapisać PDF przy użyciu Aspose w pełnym przewodniku konwersji C#. |
 | [Zapisz dokument PDF – jak dodać elipsę i konwertować DOCX do PDF](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | Dowiedz się, jak dodać elipsę do dokumentu PDF i konwertować plik DOCX do PDF przy użyciu Aspose.PDF dla .NET. |  
-| [Dodaj numerację Bates do DOCX i konwertuj do PDF – Kompletny przewodnik C#](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | Dowiedz się, jak dodać numerację Bates do dokumentu DOCX i przekonwertować go na PDF przy użyciu Aspose.PDF dla .NET w pełnym przewodniku C#. |  
+| [Dodaj numerację Bates do DOCX i konwertuj do PDF – Kompletny przewodnik C#](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | Dowiedz się, jak dodać numerację Bates do dokumentu DOCX i przekonwertować go na PDF przy użyciu Aspose.PDF dla .NET w pełnym przewodniku C#. |
 | [c# samouczek konwersji PDF – konwersja PDF do PDF/X-4](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) | Dowiedz się, jak konwertować pliki PDF do formatu PDF/X-4 przy użyciu Aspose.PDF dla .NET w tym przewodniku krok po kroku. |
 | [Jak ustawić ICC w konwersji Aspose PDF – kompletny przewodnik](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | Dowiedz się, jak skonfigurować profil ICC podczas konwersji PDF przy użyciu Aspose.PDF dla .NET w tym szczegółowym przewodniku krok po kroku. |
+| [Jak używać Aspose do konwersji PDF do PDF/X‑1A z ICC](./how-to-use-aspose-to-convert-pdf-to-pdf-x-1a-with-icc/) | Dowiedz się, jak konwertować pliki PDF do formatu PDF/X‑1A z użyciem profilu ICC przy pomocy Aspose.PDF dla .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

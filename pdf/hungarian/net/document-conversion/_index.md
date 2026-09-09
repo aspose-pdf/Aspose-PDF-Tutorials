@@ -71,7 +71,8 @@ Megtanulod, hogyan adhatsz meg konvertálási beállításokat, hogyan kinyerhet
 | [DOCX konvertálása PDF-be C#‑ban – Teljes lépésről‑lépésre útmutató](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Tanulja meg, hogyan konvertálhat DOCX fájlokat PDF-be C#‑ban az Aspose.PDF for .NET segítségével lépésről‑lépésre. |
 | [Bates-számozás hozzáadása DOCX-hez és konvertálás PDF-be – Teljes C# útmutató](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | Tanulja meg, hogyan adhat hozzá Bates-számozást egy DOCX dokumentumhoz, majd konvertálja PDF-be az Aspose.PDF for .NET segítségével C#-ban. |
 | [Dokumentum PDF mentése – Hogyan adjon hozzá ellipszist és konvertáljon DOCX-et PDF-be](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | Tanulja meg, hogyan menthet PDF dokumentumot, ellipszist adhat hozzá, és konvertálhat DOCX fájlokat PDF-be az Aspose.PDF for .NET segítségével. |
-| [Hogyan állíts be ICC-t az Aspose PDF konverzióban – Teljes útmutató](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | Tanulja meg, hogyan állíthat be ICC színprofilokat az Aspose.PDF for .NET konverzió során ebben a részletes útmutatóban. |  
+| [Hogyan állíts be ICC-t az Aspose PDF konverzióban – Teljes útmutató](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | Tanulja meg, hogyan állíthat be ICC színprofilokat az Aspose.PDF for .NET konverzió során ebben a részletes útmutatóban. |
+| [Hogyan használja az Aspose-t PDF PDF/X‑1A‑ra ICC-vel konvertáláshoz](./how-to-use-aspose-to-convert-pdf-to-pdf-x-1a-with-icc/) | Tanulja meg, hogyan konvertálhat PDF fájlokat PDF/X‑1A formátumba ICC profilokkal az Aspose.PDF for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

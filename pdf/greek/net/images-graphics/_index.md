@@ -44,6 +44,9 @@
 ### [Σχεδιάστε διαφανή σχήματα σε PDF με το Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 Ένα σεμινάριο κώδικα για το Aspose.PDF Net
 
+### [Πώς να προσθέσετε διαφάνεια σε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
+Μάθετε πώς να εφαρμόζετε διαφάνεια σε PDF χρησιμοποιώντας το Aspose.PDF για .NET.
+
 ### [Αποτελεσματική αναγνώριση εικόνας PDF με το Aspose.PDF για .NET](./master-image-identification-aspose-pdf-net/)
 Μάθετε πώς να αναγνωρίζετε εικόνες σε κλίμακα του γκρι και RGB σε PDF χρησιμοποιώντας το Aspose.PDF για .NET. Αυτό το σεμινάριο καλύπτει την εγκατάσταση, την εξαγωγή εικόνων και συμβουλές απόδοσης.
 

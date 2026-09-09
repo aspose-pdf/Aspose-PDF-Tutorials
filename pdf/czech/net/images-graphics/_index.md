@@ -104,6 +104,9 @@ Naučte se, jak vytvářet přístupné tagované PDF soubory s vloženými obr�
 ### [Jak vytvořit průhledné obdélníky v PDF pomocí Aspose.PDF pro .NET](./create-transparent-rectangles-aspose-pdf-dotnet/)
 Naučte se, jak vylepšit své PDF dokumenty vytvořením obdélníků s alfa průhledností pomocí Aspose.PDF pro .NET. Postupujte podle tohoto podrobného návodu.
 
+### [Jak přidat průhlednost do PDF souborů pomocí Aspose.PDF pro .NET: Podrobný návod](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
+Naučte se, jak přidat průhlednost do PDF souborů pomocí Aspose.PDF pro .NET.
+
 ### [Jak odstranit obrázky ze souborů PDF pomocí Aspose.PDF pro .NET - Kompletní průvodce](./delete-images-aspose-pdf-net/)
 Naučte se, jak efektivně mazat obrázky ze souborů PDF pomocí Aspose.PDF pro .NET. Tato příručka se zabývá nastavením, příklady kódu a osvědčenými postupy.
 

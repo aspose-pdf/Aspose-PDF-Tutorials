@@ -68,11 +68,12 @@ Naučíte se, jak nastavit převod, extrahovat text a obrázky, zachovat původn
 | [Uložit dokument PDF – Jak přidat elipsu a převést DOCX do PDF](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | Naučte se, jak přidat elipsu do PDF a převést soubor DOCX do PDF pomocí Aspose.PDF pro .NET. |  
 | [c# PDF konverzní tutoriál – převod PDF na PDF/X-4](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) | Naučte se, jak převést PDF na PDF/X-4 pomocí Aspose.PDF pro .NET v tomto podrobném návodu. |
 | [Vytvořit HTML z PDF v C# – Kompletní krok‑za‑krokem průvodce](./create-html-from-pdf-in-c-complete-step-by-step-guide/) | Naučte se, jak pomocí Aspose.PDF pro .NET v C# převést PDF soubor do HTML pomocí podrobného krok‑za‑krokem návodu. |  
-| [Jak nastavit ICC v konverzi Aspose PDF – Kompletní průvodce](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | Naučte se, jak nastavit ICC při konverzi PDF pomocí Aspose.PDF pro .NET v tomto kompletním průvodci. |  
-
+| [Jak nastavit ICC v konverzi Aspose PDF – Kompletní průvodce](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | Naučte se, jak nastavit ICC při konverzi PDF pomocí Aspose.PDF pro .NET v tomto kompletním průvodci. |
+| [Jak použít Aspose k převodu PDF na PDF/X‑1A s ICC](./how-to-use-aspose-to-convert-pdf-to-pdf-x-1a-with-icc/) | Naučte se převádět PDF na PDF/X‑1A s ICC pomocí Aspose.PDF pro .NET. |
+| 
 | [Načíst PDF dokument C# – Převod na PDF/X-4 krok za krokem](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | Naučte se, jak načíst PDF a převést jej na PDF/X-4 pomocí Aspose.PDF pro .NET. Praktický průvodce krok za krokem. |
 | [Aspose PDF do HTML převod v C# – kompletní průvodce](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | Naučte se, jak převést PDF soubory do HTML pomocí Aspose.PDF pro .NET v C# s tímto podrobným návodem. |
-
+| 
 | [Jak převést PDF pomocí Aspose.Pdf – Kompletní průvodce v C#](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | Kompletní návod, jak převést PDF soubory pomocí Aspose.Pdf v jazyce C# s podrobnými ukázkami kódu. |  
 {{< /blocks/products/pf/tutorial-page-section >}}
 

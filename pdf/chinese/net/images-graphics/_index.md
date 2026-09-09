@@ -41,8 +41,11 @@ Aspose.PDF Net 代码教程
 ### [使用 Aspose.PDF .NET 创建带有边框高亮的 PDF：开发人员综合指南](./create-pdf-borders-highlight-aspose-pdf-net/)
 了解如何使用 Aspose.PDF .NET 提取和高亮段落，创建视觉上更具吸引力的 PDF 文档。使用自定义边框增强文档的可读性。
 
-### [使用 Aspose.PDF .NET 在 PDF 中绘制透明形状](./draw-transparent-shapes-aspose-pdf-net/)
+### [使用 Aspose.PDF for .NET 在 PDF 中绘制透明形状](./draw-transparent-shapes-aspose-pdf-net/)
 Aspose.PDF Net 代码教程
+
+### [使用 Aspose.PDF for .NET 为 PDF 添加透明度：分步指南](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
+了解如何使用 Aspose.PDF for .NET 在 PDF 文档中设置透明效果，提升视觉表现。
 
 ### [使用 Aspose.PDF for .NET 实现高效的 PDF 图像识别](./master-image-identification-aspose-pdf-net/)
 学习如何使用 Aspose.PDF for .NET 识别 PDF 中的灰度和 RGB 图像。本教程涵盖安装、图像提取和性能技巧。
