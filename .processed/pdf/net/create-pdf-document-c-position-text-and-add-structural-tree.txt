@@ -1,0 +1,7 @@
+Title: Create PDF Document C# – Position Text and Add Structural Tree
+Slug: create-pdf-document-c-position-text-and-add-structural-tree
+Category: programming-with-tagged-pdf
+ProcessedDate: 2026-07-20T14:49:07.236214
+SourceRepo: AI Search API
+Keywords: create pdf document c#, position text in pdf, add structural tree
+PRNumber: 106

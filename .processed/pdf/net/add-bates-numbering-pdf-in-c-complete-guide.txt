@@ -1,0 +1,7 @@
+Title: Add Bates Numbering PDF in C# – Complete Guide
+Slug: add-bates-numbering-pdf-in-c-complete-guide
+Category: programming-with-stamps-and-watermarks
+ProcessedDate: 2026-05-27T12:40:10.411084
+SourceRepo: AI Search API
+Keywords: add bates numbering pdf, how to add bates numbering
+PRNumber: 84

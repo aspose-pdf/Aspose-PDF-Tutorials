@@ -20,6 +20,7 @@ Výuková stránka „Programování s odkazy a akcemi“ na Aspose.PDF pro .NET
 | Název | Popis |
 | --- | --- | 
 | [Přidat hypertextový odkaz do PDF souboru](./add-hyperlink/) | Naučte se, jak snadno přidávat hypertextové odkazy do PDF souborů pomocí Aspose.PDF pro .NET. Zvyšte interaktivitu a zapojení uživatelů ve vašich dokumentech. |  
+| [Vytvořit PDF hypertextový odkaz v C# – krok za krokem](./create-pdf-hyperlink-in-c-step-by-step-guide/) | Naučte se, jak krok za krokem vytvořit hypertextový odkaz v PDF pomocí Aspose.PDF pro .NET v jazyce C#. |  
 | [Vytvořit odkaz na aplikaci v souboru PDF](./create-application-link/) Naučte se, jak vytvářet odkazy na aplikace v souborech PDF pomocí Aspose.PDF pro .NET. Podrobný návod pro vylepšení interaktivity ve vašich souborech PDF. |  
 | [Vytvořit odkaz na dokument](./create-document-link/) | Zjistěte, jak vytvářet odkazy na dokumenty v PDF pomocí Aspose.PDF pro .NET. Vylepšete navigaci a interaktivitu ve svých PDF dokumentech. |  
 | [Vytvořit lokální hypertextový odkaz v souboru PDF](./create-local-hyperlink/) | Naučte se, jak snadno a podrobně vytvářet lokální hypertextové odkazy v souborech PDF pomocí Aspose.PDF pro .NET. |  

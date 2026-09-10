@@ -1,0 +1,7 @@
+Title: Convert PDF to HTML in C# – Complete Guide with Aspose
+Slug: convert-pdf-to-html-in-c-complete-guide-with-aspose
+Category: document-conversion
+ProcessedDate: 2026-07-04T07:28:49.456736
+SourceRepo: AI Search API
+Keywords: convert pdf to html, save pdf as html file
+PRNumber: 100

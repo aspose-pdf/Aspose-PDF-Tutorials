@@ -1,0 +1,7 @@
+Title: Convert PDF to PDFX with Aspose.Pdf – Complete Guide
+Slug: convert-pdf-to-pdfx-with-aspose-pdf-complete-guide
+Category: document-conversion
+ProcessedDate: 2026-08-02T02:20:47.163760
+SourceRepo: AI Search API
+Keywords: convert pdf to pdfx, output intent pdf, pdf format conversion, create pdfx document
+PRNumber: 113

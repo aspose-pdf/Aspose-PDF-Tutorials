@@ -1,0 +1,7 @@
+Title: How to Sign PDF Using Certificate – Complete C# Guide
+Slug: how-to-sign-pdf-using-certificate-complete-c-guide
+Category: digital-signatures
+ProcessedDate: 2026-06-05T23:43:46.295735
+SourceRepo: AI Search API
+Keywords: how to sign pdf using certificate, add digital signature to pdf
+PRNumber: 87

@@ -64,6 +64,8 @@ Leer hoe u toegankelijke, gestileerde, getagde PDF-documenten maakt met Aspose.P
 
 ### [Hoe PDF's te vergelijken in C# – Complete gids voor het genereren van PDF-diff](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 Leer hoe u PDF-bestanden met C# kunt vergelijken en verschillen (diff) genereert met Aspose.PDF.
+### [PDF-transparantie bewerken in C# – Stapsgewijze handleiding](./edit-pdf-transparency-in-c-step-by-step-guide/)
+Stapsgewijze handleiding om PDF-transparantie te bewerken met Aspose.PDF voor .NET in C#.
 
 ## Aanvullende bronnen
 

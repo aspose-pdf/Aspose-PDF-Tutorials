@@ -1,0 +1,7 @@
+Title: Create Empty PDF Dictionary in C# – Complete Aspose.Pdf Guide
+Slug: create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide
+Category: programming-with-operators
+ProcessedDate: 2026-07-26T18:16:38.926897
+SourceRepo: AI Search API
+Keywords: create empty pdf dictionary
+PRNumber: 109

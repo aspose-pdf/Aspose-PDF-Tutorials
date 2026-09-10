@@ -68,6 +68,9 @@ Tìm hiểu cách mở khóa và giải mã các tệp PDF được bảo vệ b
 ### [Xác minh mật khẩu PDF với Aspose.PDF .NET: Hướng dẫn từng bước về bảo mật và quyền](./verify-pdf-passwords-aspose-dot-net-guide/)
 Tìm hiểu cách xác minh mật khẩu PDF bằng Aspose.PDF cho .NET trong C#. Hướng dẫn toàn diện này giúp đơn giản hóa bảo mật tài liệu và kiểm soát truy cập.
 
+### [Áp dụng biên tập PDF với Aspose Plugin Manager – Hướng dẫn toàn diện](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
+Hướng dẫn chi tiết cách sử dụng Aspose Plugin Manager để áp dụng biên tập nội dung nhạy cảm vào tài liệu PDF một cách hiệu quả.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)

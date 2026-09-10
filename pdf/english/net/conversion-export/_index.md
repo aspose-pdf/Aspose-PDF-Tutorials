@@ -80,9 +80,16 @@ A code tutorial for Aspose.PDF Net
 ### [Convert PDF to HTML with Custom Image URLs Using Aspose.PDF .NET&#58; A Comprehensive Guide](./convert-pdf-html-custom-image-urls-aspose-pdf-net/)
 Learn how to convert PDF documents to HTML format using Aspose.PDF for .NET, including customizing image URLs and implementing a tailored resource-saving strategy.
 
+### [Save PDF as HTML with Aspose.PDF – Quick C# Guide](./save-pdf-as-html-with-aspose-pdf-quick-c-guide/)
+Learn how to quickly save a PDF document as HTML using Aspose.PDF for .NET with concise C# code examples.
+
 ### [Convert PDF to PNG with Aspose.PDF .NET&#58; Enhance Font Hinting for Sharp Text Rendering](./convert-pdf-png-aspose-net-font-hinting/)
 Learn how to convert PDF documents into high-quality PNG images using Aspose.PDF .NET, ensuring sharp text rendering through font hinting.
 
+### [Save PDF as PNG and Convert to PDF/X‑1a with Aspose PDF](./save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf/)
+Learn how to save a PDF as PNG and then convert it to PDF/X‑1a format using Aspose.PDF for .NET.
+### [Convert PDF to PNG in C# – Complete Step‑by‑Step Guide](./convert-pdf-to-png-in-c-complete-step-by-step-guide/)
+Learn how to convert PDF documents to high-quality PNG images using Aspose.PDF for .NET with detailed C# code examples.
 ### [How to Render PDF to PNG in C# – Complete Guide](./how-to-render-pdf-to-png-in-c-complete-guide/)
 Learn how to render PDF pages to high-quality PNG images in C# using Aspose.PDF, with detailed code examples and performance tips.
 
@@ -232,6 +239,9 @@ Learn how to quickly convert PDF files to HTML using C# and Aspose.PDF with step
 
 ## PDF to TIFF Conversion in .NET Using Aspose.PDF&#58; A Step-by-Step Guide
 Learn how to convert PDF documents to TIFF images using Aspose.PDF for .NET. Master custom color depths and advanced image processing techniques.
+
+### [How to Save PDF with Aspose – Step‑by‑Step Guide](./how-to-save-pdf-with-aspose-step-by-step-guide/)
+Learn how to save PDF documents using Aspose.PDF for .NET with a detailed step‑by‑step guide and sample C# code.
 
 ## Additional Resources
 

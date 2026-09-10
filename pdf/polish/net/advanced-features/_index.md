@@ -64,6 +64,8 @@ Naucz się tworzyć dostępne, stylizowane i oznaczone dokumenty PDF przy użyci
 
 ### [Jak porównywać pliki PDF w C# – Kompletny przewodnik po generowaniu różnic PDF](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 Dowiedz się, jak porównać dwa pliki PDF i wygenerować ich różnice przy użyciu Aspose.PDF dla .NET w C#.
+### [Edycja przezroczystości PDF w C# – przewodnik krok po kroku](./edit-pdf-transparency-in-c-step-by-step-guide/)
+Dowiedz się, jak modyfikować przezroczystość elementów w plikach PDF przy użyciu Aspose.PDF dla .NET w języku C#.
 
 ## Dodatkowe zasoby
 

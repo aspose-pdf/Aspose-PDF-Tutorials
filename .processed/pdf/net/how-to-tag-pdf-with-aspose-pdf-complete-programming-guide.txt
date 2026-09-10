@@ -1,0 +1,7 @@
+Title: How to Tag PDF with Aspose.Pdf – Complete Programming Guide
+Slug: how-to-tag-pdf-with-aspose-pdf-complete-programming-guide
+Category: programming-with-tagged-pdf
+ProcessedDate: 2026-06-27T23:32:31.598297
+SourceRepo: AI Search API
+Keywords: how to tag pdf, add tags to pdf, generate accessible pdf, save accessible pdf, how to create tagged pdf
+PRNumber: 96

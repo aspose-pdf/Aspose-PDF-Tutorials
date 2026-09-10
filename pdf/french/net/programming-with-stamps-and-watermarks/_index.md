@@ -39,6 +39,14 @@ Les tutoriels « Programmation avec tampons et filigranes » d'Aspose.PDF pour
 | [Tableau dans la section En-tête/Pied de page](./table-in-header-footer-section/) | Apprenez à ajouter facilement du texte au pied de page d'un fichier PDF avec Aspose.PDF pour .NET. Guide étape par étape inclus pour une intégration transparente. |  
 | [Texte dans le pied de page du fichier PDF](./text-in-footer/) | Apprenez à ajouter du texte dans le pied de page d'un fichier PDF avec Aspose.PDF pour .NET. |  
 | [Texte dans l'en-tête du fichier PDF](./text-in-header/) | Apprenez à ajouter des en-têtes de texte à vos PDF avec Aspose.PDF pour .NET grâce à ce tutoriel étape par étape. Améliorez vos documents efficacement. |  
+| [Tutoriel de numérotation Bates : ajouter des numéros Bates aux PDF avec C#](./bates-numbering-tutorial-add-bates-numbers-to-pdfs-with-c/) | Apprenez à ajouter des numéros de référence Bates à vos documents PDF en C# avec Aspose.PDF pour .NET. |  
+| [Modifier l'opacité du PDF en C# – Guide complet Aspose](./change-pdf-opacity-in-c-complete-aspose-guide/) | Apprenez à modifier l'opacité des pages PDF en C# avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
+| [Ajouter une numérotation Bates PDF – Guide complet C#](./add-bates-numbering-pdf-complete-c-guide/) | Apprenez à ajouter une numérotation Bates à vos PDF avec Aspose.PDF pour .NET grâce à ce guide complet en C#. |
+| [Ajouter une numérotation Bates PDF en C# – Guide complet](./add-bates-numbering-pdf-in-c-complete-guide/) | Apprenez à ajouter une numérotation Bates à vos fichiers PDF avec Aspose.PDF pour .NET en suivant ce guide complet étape par étape. |  
+| [Comment ajouter un repère Bates – Guide étape par étape pour les PDF](./how-to-add-bates-step-by-step-guide-for-pdfs/) | Apprenez à ajouter des repères Bates à vos fichiers PDF avec Aspose.PDF pour .NET grâce à ce guide détaillé. |  
+| [Modifier l'opacité du PDF avec Aspose.PDF – Guide complet C#](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) | Apprenez à modifier l'opacité des pages PDF avec Aspose.PDF pour .NET grâce à ce guide complet en C#. |  
+| [Filigrane confidentiel PDF avec Aspose : ajouter un tampon de texte à la première page](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) | Apprenez à ajouter un tampon de texte confidentiel sur la première page d'un PDF avec Aspose.PDF pour .NET, étape par étape. |  
+| [Comment enregistrer un PDF — Ajouter une numérotation Bates avec Aspose.Pdf](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) | Apprenez à enregistrer un PDF tout en ajoutant une numérotation Bates avec Aspose.PDF pour .NET, étape par étape. |  
 | [Créer un filigrane PDF – Ajouter un tampon et convertir DOCX en PDF](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) | Apprenez à créer un filigrane PDF, ajouter un tampon et convertir un fichier DOCX en PDF avec Aspose.PDF pour .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
