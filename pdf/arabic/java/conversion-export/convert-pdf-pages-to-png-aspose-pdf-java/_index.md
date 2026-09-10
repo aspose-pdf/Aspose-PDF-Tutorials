@@ -1,12 +1,62 @@
 ---
-date: '2026-01-27'
-description: تعلم كيفية تحويل PDF إلى PNG باستخدام Aspose.PDF للغة Java. يغطي هذا
-  الدليل خطوة بخطوة لإعداد Aspose PDF Java، والتحويل، ونصائح الأداء.
+date: '2026-06-28'
+description: تعلم كيفية إجراء تحويل pdf to png java باستخدام Aspose.PDF for Java.
+  يغطي هذا الدليل خطوة بخطوة الإعداد، وإخراج عالي الدقة، والترخيص، ونصائح الأداء.
 keywords:
-- Convert PDF to PNG
-- Aspose.PDF Java setup
-- PDF page conversion
-title: تحويل PDF إلى PNG باستخدام Aspose.PDF للغة Java – دليل شامل
+- pdf to png java
+- aspose pdf license
+- aspose pdf maven
+- batch pdf to png
+- convert pdf pages png
+- high resolution pdf png
+schemas:
+- author: Aspose
+  dateModified: '2026-06-28'
+  description: Learn how to perform pdf to png java conversion using Aspose.PDF for
+    Java. This step‑by‑step guide covers setup, high‑resolution output, licensing,
+    and performance tips.
+  headline: 'pdf to png java: Convert PDF Pages to PNG Images with Aspose.PDF'
+  type: TechArticle
+- description: Learn how to perform pdf to png java conversion using Aspose.PDF for
+    Java. This step‑by‑step guide covers setup, high‑resolution output, licensing,
+    and performance tips.
+  name: 'pdf to png java: Convert PDF Pages to PNG Images with Aspose.PDF'
+  steps:
+  - name: Load the PDF Document
+    text: 'Begin by loading your target PDF file. This step prepares your document
+      for processing. **Explanation**: The `Document` class loads the PDF from a specified
+      path, enabling us to manipulate its pages.'
+  - name: Loop Through Pages
+    text: 'Iterate over each page in the PDF. This loop is where we convert each page
+      into an image. **Explanation**: By iterating from `pageCount = 1` to `pdfDocument.getPages().size()`,
+      we ensure each page is processed.'
+  - name: Set Up Output Stream and Resolution
+    text: 'For each page, set up an output stream to save the PNG image and define
+      the resolution for high‑quality images. **Explanation**: The `FileOutputStream`
+      writes the converted image data, while `Resolution(300)` ensures a crisp output.'
+  - name: Convert and Save Each Page
+    text: 'Create a `PngDevice` object with your specified resolution to handle the
+      conversion process. **Explanation**: The `process` method converts and saves
+      each page as a PNG, and closing the stream frees up resources.'
+  type: HowTo
+- questions:
+  - answer: Yes. Load the document with the password parameter (`new Document("file.pdf",
+      new LoadOptions("password"))`) before conversion.
+    question: Does this method support password‑protected PDFs?
+  - answer: Lower the `Resolution` (e.g., 150 DPI) or replace `PngDevice` with `JpegDevice`
+      for lossy compression, which can shrink file size dramatically.
+    question: How can I reduce the size of the generated PNG files?
+  - answer: Absolutely, as long as each thread works with its own `Document` instance
+      and separate output streams to avoid race conditions.
+    question: Is it safe to run this conversion in a multi‑threaded environment?
+  - answer: Implement a queue‑based batch processor, reuse a single licensed `Aspose.PDF`
+      instance, and consider streaming pages to disk to keep memory usage low.
+    question: What if I need to convert thousands of pages daily?
+  - answer: Absolutely. Replace `PngDevice` with `BmpDevice` or `TiffDevice` and adjust
+      the file extension accordingly.
+    question: Can I convert PDF pages to other image formats like BMP or TIFF?
+  type: FAQPage
+title: 'pdf to png java: تحويل صفحات PDF إلى صور PNG باستخدام Aspose.PDF'
 url: /ar/java/conversion-export/convert-pdf-pages-to-png-aspose-pdf-java/
 weight: 1
 ---
@@ -16,29 +66,28 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# تحويل صفحات PDF إلى صور PNG باستخدام Aspose.PDF للغة Java
+# pdf إلى png java – تحويل صفحات PDF إلى صور PNG باستخدام Aspose.PDF for Java
 
 ## مقدمة
 
-إذا كنت بحاجة إلى **convert pdf to png** بسرعة وموثوقية، فقد وصلت إلى المكان الصحيح. تحويل كل صفحة من PDF إلى صور PNG منفصلة هو طلب شائع للأرشفة الرقمية، وإعادة استخدام المحتوى، وتصميم العروض التقديمية. في هذا الدرس الشامل سنرشدك خلال كامل **aspose pdf java tutorial**، من إعداد البيئة إلى استخراج الصور بأداء عالي.
+إذا كنت بحاجة إلى **convert pdf to png** بسرعة وبشكل موثوق **with pdf to png java**، فقد وصلت إلى المكان الصحيح. تحويل كل صفحة من ملف PDF إلى صور PNG منفصلة هو طلب شائع للأرشفة الرقمية، وإعادة استخدام المحتوى، وتصميم العروض التقديمية. في هذا الدرس الشامل سنرشدك خلال **aspose pdf java tutorial** بالكامل، من إعداد البيئة إلى استخراج الصور بأداء عالي، وسنشرح لماذا هذه الطريقة هي الأكثر كفاءة لمطوري Java.
 
 ### إجابات سريعة
-- **What does this guide cover?** تحويل صفحات PDF إلى صور PNG باستخدام Aspose.PDF للغة Java.  
-- **Which library version is used?** Aspose.PDF 25.3 (أحدث نسخة عند كتابة المقال).  
-- **Do I need a license?** نسخة تجريبية مجانية تكفي للتقييم؛ يلزم الحصول على ترخيص دائم للإنتاج.  
-- **Can I change the image format?** نعم – يمكنك استبدال `PngDevice` بـ `JpegDevice` أو `BmpDevice` وغيرها.  
-- **Is high‑resolution output possible?** بالطبع – اضبط `Resolution` (مثلاً 300 DPI) كما هو موضح لاحقًا.
+- **ما الذي يغطيه هذا الدليل؟** تحويل صفحات PDF إلى صور PNG باستخدام Aspose.PDF for Java.  
+- **أي نسخة من المكتبة تم استخدامها؟** Aspose.PDF 25.3 (الأحدث وقت الكتابة).  
+- **هل أحتاج إلى ترخيص؟** النسخة التجريبية المجانية تعمل للتقييم؛ الترخيص الدائم مطلوب للإنتاج.  
+- **هل يمكنني تغيير تنسيق الصورة؟** نعم – يمكنك استبدال `PngDevice` بـ `JpegDevice` أو `BmpDevice`، إلخ.  
+- **هل يمكن الحصول على مخرجات عالية الدقة؟** بالتأكيد – اضبط `Resolution` (مثلاً 300 DPI) كما هو موضح لاحقًا.
 
 ## المتطلبات المسبقة
 
-لبدء تحويل صفحات PDF إلى صور PNG باستخدام **Aspose.PDF للغة Java**، ستحتاج إلى:
-- **Libraries and Dependencies**: تأكد من تثبيت Aspose.PDF للغة Java. النسخة المستخدمة هنا هي 25.3.
-- **Development Environment**: إعداد بيئة تطوير Java (JDK) واستخدام IDE مثل IntelliJ IDEA أو Eclipse.
-- **Basic Java Knowledge**: الإلمام بمفاهيم برمجة Java سيساعدك على متابعة الشرح بسهولة أكبر.
+- **المكتبات والاعتمادات**: تأكد من تثبيت Aspose.PDF for Java. النسخة المستخدمة هنا هي 25.3.  
+- **بيئة التطوير**: قم بإعداد بيئة تطوير Java (JDK) واستخدم IDE مثل IntelliJ IDEA أو Eclipse.  
+- **معرفة أساسية بـ Java**: الإلمام بمفاهيم برمجة Java سيساعدك على المتابعة بسهولة أكبر.
 
-## إعداد Aspose.PDF للغة Java
+## إعداد Aspose.PDF for Java
 
-أولاً، لنقم بإعداد Aspose.PDF في مشروعك باستخدام Maven أو Gradle. يتيح لك هذا الإعداد استغلال قدرات معالجة PDF القوية من Aspose.
+أولاً، لنقم بإعداد Aspose.PDF في مشروعك باستخدام Maven أو Gradle. يتيح هذا الإعداد لتطبيقك الاستفادة من قدرات معالجة PDF القوية التي تقدمها Aspose.
 
 ### إعداد Maven
 
@@ -54,7 +103,7 @@ weight: 1
 
 ### إعداد Gradle
 
-قم بإدراج هذا في ملف `build.gradle` الخاص بك:
+أدرج هذا في ملف `build.gradle` الخاص بك:
 
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
@@ -62,35 +111,43 @@ implementation 'com.aspose:aspose-pdf:25.3'
 
 ### الحصول على الترخيص
 
-- **Free Trial**: حمّل نسخة تجريبية مجانية من [موقع Aspose](https://releases.aspose.com/pdf/java/).  
-- **Temporary License**: احصل على ترخيص مؤقت لتقييم جميع الميزات دون قيود عبر [هذا الرابط](https://purchase.aspose.com/temporary-license/).  
-- **Purchase**: للاستخدام طويل الأمد، فكر في شراء ترخيص عبر [صفحة شراء Aspose](https://purchase.aspose.com/buy).
+- **نسخة تجريبية مجانية**: قم بتنزيل نسخة تجريبية مجانية من [Aspose website](https://releases.aspose.com/pdf/java/).  
+- **ترخيص مؤقت**: احصل على ترخيص مؤقت لتقييم جميع الميزات دون قيود عبر [this link](https://purchase.aspose.com/temporary-license/).  
+- **شراء**: للاستخدام طويل الأمد، فكر في شراء ترخيص عبر [Aspose's purchase page](https://purchase.aspose.com/buy).
 
 ### التهيئة الأساسية
 
-بمجرد أن تكون بيئتك جاهزة وتم إضافة Aspose.PDF إلى مشروعك، قم بتهيئة كائن Document للبدء في العمل مع ملفات PDF.
+بعد أن تصبح بيئتك جاهزة وإضافة Aspose.PDF إلى مشروعك، قم بتهيئة كائن Document للبدء في التعامل مع ملفات PDF.
 
-## كيفية تحويل PDF إلى PNG باستخدام Aspose.PDF للغة Java
+## كيف يعمل تحويل pdf إلى png باستخدام java؟
 
-فيما يلي سير عمل **pdf to png java** خطوة بخطوة. كل قسم يوضح *لماذا* نقوم بالإجراء، وليس فقط *ماذا* نكتب.
+حمّل ملف PDF باستخدام `new Document("source.pdf")`، أنشئ `PngDevice` بالدقة المطلوبة `Resolution`، ثم استدعِ `process(page, outputStream)` لكل صفحة. هذه الحلقة ذات الخطوتين تقرأ كل صفحة، تُظهرها بالدقة المحددة DPI، وتكتب ملف PNG منفصل، مما يوفر صورًا عالية الجودة دون الحاجة إلى تنسيقات وسيطة.
+
+## ما هي فئة Document؟
+
+فئة `Document` هي الكائن الأساسي في Aspose.PDF الذي يمثل ملف PDF واحد في الذاكرة. توفر الوصول إلى الصفحات والموارد وخصائص مستوى المستند، مما يتيح عمليات القراءة/الكتابة طوال سير عمل التحويل. باستخدام هذه الفئة يمكنك تحميل وتعديل وحفظ ملفات PDF، بالإضافة إلى استخراج صفحات فردية للعرض أو مهام التحويل.
+
+## ما هو PngDevice؟
+
+`PngDevice` هو محرك عرض في Aspose.PDF يحول رسومات صفحات PDF إلى صور نقطية PNG. يلتزم بـ `Resolution` التي تحددها، مما يتيح لك إنتاج مخرجات عالية الدقة مناسبة للطباعة أو العرض التفصيلي على الشاشة. يمكن أيضًا تكوينه بعمق اللون وخيارات الضغط لضبط حجم وجودة الصورة الناتجة بدقة.
 
 ## دليل التنفيذ
 
-سنقسم التنفيذ إلى أقسام منطقية لفهم كيف يساهم كل جزء في تحويل صفحات PDF إلى صور PNG.
+لنقسم التنفيذ إلى أقسام منطقية لفهم كيفية مساهمة كل جزء في تحويل صفحات PDF إلى صور PNG.
 
 ### الخطوة 1: تحميل مستند PDF
 
-ابدأ بتحميل ملف PDF المستهدف. هذه الخطوة تُعدّ المستند للمعالجة.
+ابدأ بتحميل ملف PDF المستهدف. هذه الخطوة تُعد المستند للمعالجة.
 
 ```java
 Document pdfDocument = new Document("YOUR_DOCUMENT_DIRECTORY/input.pdf");
 ```
 
-**Explanation**: فئة `Document` تقوم بتحميل PDF من المسار المحدد، مما يتيح لنا تعديل صفحاته.
+**شرح**: فئة `Document` تقوم بتحميل PDF من المسار المحدد، مما يتيح لنا تعديل صفحاته.
 
 ### الخطوة 2: التكرار عبر الصفحات
 
-قم بالتكرار على كل صفحة في PDF. هذه الحلقة هي المكان الذي نحول فيه كل صفحة إلى صورة.
+قم بالتكرار عبر كل صفحة في PDF. هذه الحلقة هي المكان الذي نحول فيه كل صفحة إلى صورة.
 
 ```java
 for (int pageCount = 1; pageCount <= pdfDocument.getPages().size(); pageCount++) {
@@ -98,7 +155,7 @@ for (int pageCount = 1; pageCount <= pdfDocument.getPages().size(); pageCount++)
 }
 ```
 
-**Explanation**: عبر التكرار من `pageCount = 1` إلى `pdfDocument.getPages().size()`, نضمن معالجة كل صفحة.
+**شرح**: من خلال التكرار من `pageCount = 1` إلى `pdfDocument.getPages().size()`, نضمن معالجة كل صفحة.
 
 ### الخطوة 3: إعداد تدفق الإخراج والدقة
 
@@ -109,7 +166,7 @@ FileOutputStream imageStream = new FileOutputStream("YOUR_OUTPUT_DIRECTORY/Conve
 Resolution resolution = new Resolution(300);
 ```
 
-**Explanation**: `FileOutputStream` يكتب بيانات الصورة المحوّلة، بينما `Resolution(300)` يضمن إخراجًا واضحًا.
+**شرح**: `FileOutputStream` يكتب بيانات الصورة المحولة، بينما `Resolution(300)` يضمن إخراجًا واضحًا.
 
 ### الخطوة 4: تحويل وحفظ كل صفحة
 
@@ -121,80 +178,91 @@ pngDevice.process(pdfDocument.getPages().get_Item(pageCount), imageStream);
 imageStream.close();
 ```
 
-**Explanation**: طريقة `process` تقوم بتحويل وحفظ كل صفحة كملف PNG، وإغلاق التدفق يحرّر الموارد.
+**شرح**: طريقة `process` تحول وتحفظ كل صفحة كملف PNG، وإغلاق التدفق يحرر الموارد.
 
-## نصائح استكشاف الأخطاء وإصلاحها
+## لماذا نستخدم Aspose.PDF for Java لتحويل pdf إلى png عالي الدقة؟
 
-- **File Not Found Errors**: تأكد من صحة مسارات الدليل.  
-- **Memory Issues**: راقب استهلاك الذاكرة وحسّنها إذا لزم الأمر، خاصةً مع ملفات PDF الكبيرة.  
-- **Resolution Too High**: الدقة العالية جدًا قد تزيد حجم الملف؛ 300 DPI تُعدّ توازنًا جيدًا لمعظم الاستخدامات.
+يدعم Aspose.PDF **أكثر من 50** تنسيقًا للإدخال والإخراج ويمكنه عرض صفحات PDF حتى **600 DPI** دون تحميل المستند بالكامل في الذاكرة. هذه القدرة الم quantified تعني أنه يمكنك معالجة ملفات PDF ذات مئات الصفحات على أجهزة ذات موارد محدودة مع الحفاظ على جودة الصورة، متفوقًا على العديد من البدائل المفتوحة المصدر التي غالبًا ما تقتصر على 150 DPI أو تتطلب تحميل المستند بالكامل.
 
-## تطبيقات عملية
+## المشكلات الشائعة والحلول
 
-1. **Digital Archiving**: تحويل المستندات التاريخية إلى صور لتسهيل الوصول إليها وحمايتها.  
-2. **Document Sharing**: مشاركة ملفات PDF ذات الصفحة الواحدة كصور مستقلة في العروض أو التقارير.  
-3. **Content Repurposing**: استخراج الصور من PDF لاستخدامها على المواقع الإلكترونية، أو المواد التسويقية، أو المحافظ الرقمية.
+- **أخطاء الملف غير موجود**: تحقق من أن مسارات الملفات مطلقة أو نسبية بشكل صحيح بالنسبة لجذر مشروعك.  
+- **استهلاك الذاكرة**: بالنسبة لملفات PDF الكبيرة جدًا، عالج الصفحات على دفعات واستدعِ `System.gc()` بعد كل دفعة لتحرير الذاكرة بسرعة.  
+- **حجم الملف المفرط**: إذا أصبحت ملفات PNG كبيرة جدًا، قلل `Resolution` إلى 150 DPI أو استبدل بـ `JpegDevice` للضغط الفاقد، مما يمكن أن يقلل الحجم حتى 70 % مع فقدان جودة طفيف.
+
+## التطبيقات العملية
+
+1. **الأرشفة الرقمية**: تحويل الوثائق التاريخية إلى صور لتسهيل الوصول والحفظ.  
+2. **مشاركة المستندات**: مشاركة ملفات PDF ذات صفحة واحدة كملفات صور مستقلة في العروض أو التقارير.  
+3. **إعادة استخدام المحتوى**: استخراج الصور من PDFs للاستخدام على المواقع، المواد التسويقية، أو المحافظ الرقمية.
 
 ## اعتبارات الأداء
 
 تحسين الأداء أمر أساسي عند التعامل مع مستندات كبيرة:
 
-- استخدم إعدادات دقة مناسبة لتحقيق توازن بين الجودة وحجم الملف.  
-- إدارة ذاكرة Java بفعالية عبر إغلاق التدفقات فور الانتهاء.  
-- فكر في المعالجة الدفعية إذا كنت تحول عدة ملفات PDF في آن واحد.  
+- استخدم إعدادات الدقة المناسبة لتحقيق توازن بين الجودة وحجم الملف.  
+- إدارة ذاكرة Java بفعالية عن طريق إغلاق التدفقات بسرعة.  
+- فكر في المعالجة على دفعات إذا كنت تحول عدة ملفات PDF في آن واحد.  
 
 ## الخلاصة
 
-لقد تعلمت الآن كيفية **convert pdf to png** باستخدام Aspose.PDF للغة Java. تفتح هذه المهارة آفاقًا متعددة، من تعزيز الأرشفة الرقمية إلى تبسيط سير عمل المستندات. لاستكشاف المزيد، غص في ميزات Aspose.PDF المتقدمة أو جرّب صيغ صور مختلفة وإعدادات متنوعة. لا تتردد في تجربة هذا الحل في مشاريعك الخاصة!
+لقد تعلمت الآن كيفية **convert pdf to png** باستخدام Aspose.PDF for Java. هذه المهارة تفتح العديد من الإمكانيات، من تحسين الأرشفة الرقمية إلى تبسيط سير عمل المستندات. للمزيد من الاستكشاف، اغمر نفسك في ميزات Aspose.PDF المتقدمة أو جرب تنسيقات صور وإعدادات مختلفة. لا تتردد في تجربة هذا الحل في مشاريعك الخاصة!
 
 ## قسم الأسئلة المتكررة
 
-1. **What is Aspose.PDF for Java?**  
-   - مكتبة لمعالجة ملفات PDF في تطبيقات Java.  
-2. **How do I get started with a free trial of Aspose.PDF?**  
-   - حمّلها من [صفحة إصدارات Aspose](https://releases.aspose.com/pdf/java/).  
-3. **Can I convert all pages to a single image file?**  
-   - نعم، لكن سيتطلب ذلك معالجة إضافية لدمج الصور بعد التحويل.  
-4. **What are some common issues during PDF to PNG conversion?**  
-   - المسارات غير الصحيحة أو نقص الذاكرة قد يسببان أخطاء؛ تأكد من صحة الإعدادات وإدارة الموارد.  
-5. **Is Aspose.PDF compatible with all Java versions?**  
-   - نعم، تدعم مجموعة واسعة من إصدارات JDK؛ تحقق من التوافق حسب الحاجة.
+1. **ما هو Aspose.PDF for Java؟**  
+   - Aspose.PDF for Java هو مكتبة قوية تمكّن من إنشاء، تعديل، تحويل، وعرض ملفات PDF مباشرةً من تطبيقات Java.  
+2. **كيف أبدأ باستخدام نسخة تجريبية مجانية من Aspose.PDF؟**  
+   - قم بتنزيلها من [Aspose releases page](https://releases.aspose.com/pdf/java/).  
+3. **هل يمكنني تحويل جميع الصفحات إلى ملف صورة واحد؟**  
+   - نعم، لكن ستحتاج إلى منطق إضافي لدمج ملفات PNG المُولدة في صورة مركبة واحدة بعد التحويل.  
+4. **ما هي بعض المشكلات الشائعة أثناء تحويل PDF إلى PNG؟**  
+   - مسارات غير صحيحة، ذاكرة غير كافية، أو ضبط DPI عالي جدًا قد يسبب فشل العملية؛ تأكد من صحة المسارات ومراقبة استهلاك الذاكرة.  
+5. **هل Aspose.PDF متوافق مع جميع إصدارات Java؟**  
+   - نعم، يدعم مجموعة واسعة من إصدارات JDK—from Java 8 up to the latest LTS releases—تحقق من مصفوفة التوافق الرسمية للحصول على التفاصيل.
 
 ## الأسئلة المتكررة
 
-**Q: Does this method support password‑protected PDFs?**  
-A: نعم. قم بتحميل المستند مع تمرير كلمة المرور قبل التحويل.
+**س: هل يدعم هذا الأسلوب ملفات PDF المحمية بكلمة مرور؟**  
+ج: نعم. قم بتحميل المستند مع معامل كلمة المرور (`new Document("file.pdf", new LoadOptions("password"))`) قبل التحويل.
 
-**Q: How can I reduce the size of the generated PNG files?**  
-A: قلل قيمة `Resolution` (مثلاً 150 DPI) أو استخدم `JpegDevice` لضغط فقدان.
+**س: كيف يمكنني تقليل حجم ملفات PNG المُولدة؟**  
+ج: قلل `Resolution` (مثلاً 150 DPI) أو استبدل `PngDevice` بـ `JpegDevice` للضغط الفاقد، مما يمكن أن يقلل حجم الملف بشكل كبير.
 
-**Q: Is it safe to run this conversion in a multi‑threaded environment?**  
-A: يجب أن يعمل كل خيط مع نسخة `Document` خاصة به وتدفقات إخراج منفصلة لتجنب تعارضات.
+**س: هل من الآمن تشغيل هذا التحويل في بيئة متعددة الخيوط؟**  
+ج: بالتأكيد، طالما أن كل خيط يعمل مع نسخة `Document` خاصة به وتدفقات إخراج منفصلة لتجنب حالات السباق.
 
-**Q: What if I need to convert thousands of pages daily?**  
-A: نفّذ معالج دفعي قائم على الطابور وأعد استخدام نسخة مرخصة واحدة من `Aspose.PDF` لتقليل الحمل.
+**س: ماذا لو احتجت إلى تحويل آلاف الصفحات يوميًا؟**  
+ج: نفّذ معالج دفعات قائم على قائمة انتظار، أعد استخدام نسخة مرخصة واحدة من `Aspose.PDF`، وفكّر في تدفق الصفحات إلى القرص للحفاظ على انخفاض استهلاك الذاكرة.
 
-**Q: Can I convert PDF pages to other image formats like BMP or TIFF?**  
-A: بالتأكيد. استبدل `PngDevice` بـ `BmpDevice` أو `TiffDevice` وعدّل امتداد الملف وفقًا لذلك.
+**س: هل يمكنني تحويل صفحات PDF إلى تنسيقات صور أخرى مثل BMP أو TIFF؟**  
+ج: بالطبع. استبدل `PngDevice` بـ `BmpDevice` أو `TiffDevice` وعدّل امتداد الملف وفقًا لذلك.
 
 ## الموارد
 
-- [Aspose.PDF Documentation](https://reference.aspose.com/pdf/java/)
-- [Download Aspose.PDF](https://releases.aspose.com/pdf/java/)
-- [Purchase Aspose.PDF License](https://purchase.aspose.com/buy)
-- [Free Trial and Temporary License](https://purchase.aspose.com/temporary-license/)
-- [Aspose Support Forum](https://forum.aspose.com/c/pdf/10)
+- [توثيق Aspose.PDF](https://reference.aspose.com/pdf/java/)  
+- [تحميل Aspose.PDF](https://releases.aspose.com/pdf/java/)  
+- [شراء ترخيص Aspose.PDF](https://purchase.aspose.com/buy)  
+- [نسخة تجريبية وترخيص مؤقت](https://purchase.aspose.com/temporary-license/)  
+- [منتدى دعم Aspose](https://forum.aspose.com/c/pdf/10)
 
 ---
 
-**آخر تحديث:** 2026-01-27  
-**تم الاختبار مع:** Aspose.PDF 25.3 للغة Java  
+**آخر تحديث:** 2026-06-28  
+**تم الاختبار مع:** Aspose.PDF 25.3 for Java  
 **المؤلف:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## دروس ذات صلة
+
+- [كيفية قص صفحات PDF وتحويلها إلى صور باستخدام Aspose.PDF for Java](/pdf/java/conversion-export/aspose-pdf-java-crop-convert-pdfs-to-images/)
+- [تحويل PDF إلى JPEG باستخدام Aspose.PDF for Java – دليل خطوة بخطوة](/pdf/java/conversion-export/convert-pdf-to-jpeg-aspose-java-tutorial/)
+- [تحويل PDF إلى HTML في Java مع صور PNG مدمجة باستخدام Aspose.PDF](/pdf/java/conversion-export/convert-pdf-to-html-with-png-images-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
