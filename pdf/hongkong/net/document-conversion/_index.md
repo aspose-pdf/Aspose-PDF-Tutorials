@@ -26,8 +26,10 @@
 | [CGM 轉 PDF 文件](./cgm-to-pdf/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 CGM 檔案轉換為 PDF。非常適合開發人員和設計師。 |  
 | [EPUB 轉 PDF](./epub-to-pdf/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 EPUB 轉換為 PDF。簡單、高效，適合所有使用者。 |  
 | [取得 SVG 尺寸](./get-svg-dimensions/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 SVG 檔案轉換為 PDF。非常適合希望操作 PDF 的開發人員。 |  
-| [HTML 轉 PDF](./html-to-pdf/) |透過本全面的逐步指南了解如何使用 Aspose.PDF for .NET 將 HTML 轉換為 PDF。 |  
-| [Markdown 轉 PDF](./markdown-to-pdf/) |在本逐步教學中了解如何使用 Aspose.PDF for .NET 將 Markdown 轉換為 PDF。非常適合希望簡化文件轉換的開發人員。 |  
+| [HTML 轉 PDF](./html-to-pdf/) |透過本全面的逐步指南了解如何使用 Aspose.PDF for .NET 將 HTML 轉換為 PDF。 |
+| [將文件另存為 HTML – 完整 C# 指南：將 Word 匯出為 HTML](./save-document-as-html-complete-c-guide-to-export-word-to-htm/) |透過本完整 C# 教學了解如何使用 Aspose.PDF for .NET 將 Word 文件匯出為 HTML 格式。 |
+| [將 ICC 配置檔設定於 Word 轉 PDF – 完整 C# 指南](./set-icc-profile-when-converting-word-to-pdf-complete-c-guide/) |透過本完整的 C# 教學了解如何在將 Word 轉換為 PDF 時設定 ICC 配置檔。 |  
+| [Markdown 轉 PDF](./markdown-to-pdf/) |透過本逐步教學了解如何使用 Aspose.PDF for .NET 將 Markdown 轉換為 PDF。非常適合希望簡化文件轉換的開發人員。 |  
 | [MHT 轉 PDF](./mht-to-pdf/) |在本逐步教學中了解如何使用 Aspose.PDF for .NET 將 MHT 檔案轉換為 PDF。輕鬆有效率的文檔轉換。 |  
 | [根據影像尺寸調整頁面方向](./page-orientation-according-image-dimensions/) |在本逐步指南中了解如何使用 Aspose.PDF for .NET 建立 PDF，並根據影像尺寸設定頁面方向。 |  
 | [PCL 轉 PDF](./pcl-to-pdf/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 PCL 檔案轉換為 PDF。非常適合開發人員和企業。 |  
@@ -49,6 +51,7 @@
 | [PDF 轉 XPS](./pdf-to-xps/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 XPS。非常適合開發人員和文件處理愛好者。 |  
 | [如何使用 Aspose.Pdf 轉換 PDF – 完整 C# 指南](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) |透過本完整 C# 教學了解如何使用 Aspose.PDF 轉換 PDF 為其他格式，涵蓋程式碼範例與最佳實踐。 |  
 | [Aspose PDF 轉換（C#）- 逐步指南](./aspose-pdf-conversion-in-c-step-by-step-guide/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 C# 中執行 PDF 轉換。 |  
+| [PDF 轉 PDF/X‑4](./how-to-convert-pdf-to-pdf-x-4-in-c-step-by-step-guide/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 PDF/X‑4。 |  
 | [Postscript 轉 PDF](./postscript-to-pdf/) |在本逐步教學中學習如何使用 Aspose.PDF for .NET 將 Postscript 檔案轉換為 PDF。適合各個層級的開發人員。 |  
 | [在 HTML 轉 PDF 過程中提供憑證](./provide-credentials-during-html-to-pdf/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 HTML 轉換為 PDF。非常適合希望簡化文件產生的開發人員。 |  
 | [從 HTML 轉換後刪除超鏈接](./remove-hyperlinks-after-converting-from-html/) |在本逐步指南中了解如何使用 Aspose.PDF for .NET 將 HTML 文件轉換為 PDF 後從 HTML 文件中刪除超連結。 |  

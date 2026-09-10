@@ -79,6 +79,9 @@ Naučte se, jak v C# vytvořit PDF dokument, přidat prázdnou stránku, tagy a 
 ### [Jak vytvořit PDF v C# – Přidat stránku, nakreslit obdélník a uložit](./how-to-create-pdf-in-c-add-page-draw-rectangle-save/)
 Naučte se, jak v C# vytvořit PDF, přidat novou stránku, nakreslit obdélník a soubor uložit.
 
+### [Vytvoření PDF dokumentu v C# – Průvodce přidáním Batesova číslování](./create-pdf-document-c-add-bates-numbering-guide/)
+Naučte se, jak přidat Batesovo číslování do PDF dokumentů v C# pomocí Aspose.PDF.
+
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)

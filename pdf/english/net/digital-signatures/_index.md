@@ -93,6 +93,12 @@ Learn how to export PDFs to HTML and validate PDF signatures using Aspose.PDF fo
 ### [pdf signature tutorial – Verify PDF signatures in C# with Aspose.Pdf](./pdf-signature-tutorial-verify-pdf-signatures-in-c-with-aspos/)
 Learn how to verify PDF signatures using C# and Aspose.PDF for .NET with step-by-step code examples.
 
+### [How to Extract Signer from PDF – Complete C# Guide](./how-to-extract-signer-from-pdf-complete-c-guide/)
+Learn how to extract the signer information from a PDF using Aspose.PDF for .NET with a complete C# example.
+
+### [Check PDF Signature in C# – Validate Digital Signature PDF](./check-pdf-signature-in-c-validate-digital-signature-pdf/)
+Learn how to verify PDF signatures in C# using Aspose.PDF for .NET, ensuring document authenticity.
+
 ## Additional Resources
 
 - [Aspose.PDF for Net Documentation](https://docs.aspose.com/pdf/net/)

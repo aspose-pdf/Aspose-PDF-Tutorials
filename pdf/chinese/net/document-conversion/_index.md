@@ -38,6 +38,7 @@
 | [PDF转EPUB](./pdf-to-epub/) | 在本分步教程中学习如何使用 Aspose.PDF for .NET 将 PDF 转换为 EPUB。非常适合开发人员和内容创建者。|  
 | [PDF 转 HTML](./pdf-to-html/) | 学习如何使用 Aspose.PDF for .NET 将 PDF 转换为 HTML，本指南一步步讲解。非常适合开发人员和内容创作者。|  
 | [在 C# 中从 PDF 创建 HTML – 完整分步指南](./create-html-from-pdf-in-c-complete-step-by-step-guide/) | 通过本完整分步指南学习如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 转换为 HTML。|  
+| [将文档保存为 HTML – 完整的 C# 指南将 Word 导出为 HTML](./save-document-as-html-complete-c-guide-to-export-word-to-htm/) | 通过本分步教程了解如何使用 Aspose.PDF for .NET 将 Word 文档导出为 HTML，提供完整的 C# 示例。|  
 | [PDF 转 PDFA](./pdf-to-pdfa/) 通过本分步教程了解如何使用 Aspose.PDF for .NET 将 PDF 文件转换为 PDF/A 格式。|  
 | [PDF 转 PDFA3b](./pdf-to-pdfa3b/) | 在本分步指南中学习如何使用 Aspose.PDF for .NET 轻松地将 PDF 文件转换为 PDF/A-3B 格式。|  
 | [PDF 转 PNG 字体提示](./pdf-to-png-font-hinting/) 通过简单的分步指南学习如何使用 Aspose.PDF for .NET 将 PDF 转换为带有字体提示的 PNG。|  
@@ -74,6 +75,8 @@
 | [c# PDF 转换教程 – 将 PDF 转换为 PDF/X-4](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) | 通过本分步指南了解如何使用 Aspose.PDF for .NET 将 PDF 转换为 PDF/X-4 格式。|
 | [如何在 Aspose PDF 转换中设置 ICC – 完整指南](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | 通过本完整分步指南了解如何在 Aspose.PDF for .NET 转换过程中设置 ICC 配置，以确保颜色准确性。|
 | [Aspose PDF 转换（C#）——分步指南](./aspose-pdf-conversion-in-c-step-by-step-guide/) | 通过本分步指南了解如何使用 Aspose.PDF for .NET 在 C# 中执行 PDF 转换。|  
+| [如何在 C# 中将 PDF 转换为 PDF/X‑4 – 步骤指南](./how-to-convert-pdf-to-pdf-x-4-in-c-step-by-step-guide/) | 通过本分步教程了解如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 转换为 PDF/X‑4，包含代码示例和关键设置。|  
+| [在将 Word 转换为 PDF 时设置 ICC 配置文件 – 完整 C# 指南](./set-icc-profile-when-converting-word-to-pdf-complete-c-guide/) | 通过本分步指南学习在使用 Aspose.PDF for .NET 将 Word 转换为 PDF 时设置 ICC 配置文件，确保颜色准确。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

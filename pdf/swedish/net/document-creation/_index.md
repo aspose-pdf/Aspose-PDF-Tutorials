@@ -81,6 +81,9 @@ Lär dig hur du skapar ett PDF-dokument i C#, lägger till en tom sida, använde
 ### [Hur man skapar PDF i C# – Lägg till sida, rita rektangel och spara](./how-to-create-pdf-in-c-add-page-draw-rectangle-save/)
 Lär dig hur du skapar en PDF i C#, lägger till en ny sida, ritar en rektangel och sparar dokumentet med Aspose.PDF.
 
+### [Skapa PDF-dokument i C# – Guide för att lägga till Bates-nummerering](./create-pdf-document-c-add-bates-numbering-guide/)
+Lär dig hur du lägger till Bates-nummer i PDF-dokument med Aspose.PDF för .NET i C#.
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

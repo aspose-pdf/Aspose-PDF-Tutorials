@@ -89,6 +89,9 @@ Learn how to add a blank page, set tags, and create a span in a PDF document usi
 ### [How to Create PDF in C# – Add Page, Draw Rectangle & Save](./how-to-create-pdf-in-c-add-page-draw-rectangle-save/)
 Learn how to add a new page, draw a rectangle, and save the PDF using Aspose.PDF for .NET in C#.
 
+### [Create PDF Document C# – Add Bates Numbering Guide](./create-pdf-document-c-add-bates-numbering-guide/)
+Learn how to add Bates numbering to PDF documents using Aspose.PDF for .NET in C#. Step-by-step implementation guide.
+
 ## Additional Resources
 
 - [Aspose.PDF for Net Documentation](https://docs.aspose.com/pdf/net/)

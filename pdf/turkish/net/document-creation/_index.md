@@ -78,6 +78,9 @@ C# kullanarak bir PDF belgesine boş sayfa ekleme, etiketleme ve span uygulama a
 ### [C# ile PDF Oluşturma – Sayfa Ekle, Dikdörtgen Çiz ve Kaydet](./how-to-create-pdf-in-c-add-page-draw-rectangle-save/)
 C# kullanarak yeni bir PDF oluşturun, sayfa ekleyin, dikdörtgen çizin ve dosyayı kaydedin.
 
+### [PDF Belgesi Oluşturma C# – Bates Numaralandırma Ekleme Kılavuzu](./create-pdf-document-c-add-bates-numbering-guide/)
+C# kullanarak PDF belgelerine Bates numaralandırması eklemeyi öğrenin. Adım adım örnek kod ve açıklamalar.
+
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)

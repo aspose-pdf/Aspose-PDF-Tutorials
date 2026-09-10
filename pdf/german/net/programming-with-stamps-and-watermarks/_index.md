@@ -47,6 +47,7 @@ Die Tutorials „Programmieren mit Stempeln und Wasserzeichen“ von Aspose.PDF 
 | [PDF-Deckkraft mit Aspose.PDF ändern – Vollständiger C#‑Leitfaden](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) | Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.PDF für .NET die Deckkraft von PDFs anpassen. |  
 | [Vertrauliches Wasserzeichen-PDF mit Aspose: Textstempel zur ersten Seite hinzufügen](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET einen Textstempel als vertrauliches Wasserzeichen nur auf die erste Seite eines PDFs anwenden. |  
 | [PDF speichern – Bates-Nummerierung hinzufügen mit Aspose.Pdf](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET beim Speichern einer PDF-Datei Bates-Nummern hinzufügen. |
+| [PDF-Wasserzeichen erstellen – Stempel hinzufügen & DOCX in PDF konvertieren](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein Wasserzeichen erstellen, einen Stempel hinzufügen und ein DOCX-Dokument in PDF konvertieren. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

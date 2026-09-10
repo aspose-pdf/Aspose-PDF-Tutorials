@@ -79,6 +79,9 @@
 ### [كيفية إنشاء ملف PDF في C# – إضافة صفحة، رسم مستطيل وحفظ](./how-to-create-pdf-in-c-add-page-draw-rectangle-save/)
 تعلم كيفية إنشاء ملف PDF في C#، إضافة صفحة جديدة، رسم مستطيل، وحفظ المستند باستخدام Aspose.PDF.
 
+### [إنشاء مستند PDF باستخدام C# – دليل إضافة ترقيم Bates](./create-pdf-document-c-add-bates-numbering-guide/)
+تعلم كيفية إضافة ترقيم Bates إلى مستندات PDF باستخدام Aspose.PDF لـ .NET في C# خطوة بخطوة.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

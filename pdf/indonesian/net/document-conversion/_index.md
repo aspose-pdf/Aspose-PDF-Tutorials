@@ -34,6 +34,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [PCL ke PDF](./pcl-to-pdf/) | Pelajari cara mengonversi file PCL ke PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Sempurna untuk pengembang dan pebisnis. Bahasa Indonesia:  
 | [PDFA ke PDF](./pdfa-to-pdf/) | Pelajari cara mengonversi PDF/A ke PDF menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah yang komprehensif ini. Bahasa Indonesia:  
 | [PDF ke DOC](./pdf-to-doc/) | Pelajari cara mengonversi PDF ke DOC menggunakan Aspose.PDF untuk .NET dalam tutorial lengkap ini. Petunjuk dan kiat langkah demi langkah disertakan. Bahasa Indonesia:  
+| [Atur Profil ICC Saat Mengonversi Word ke PDF – Panduan Lengkap C#](./set-icc-profile-when-converting-word-to-pdf-complete-c-guide/) | Pelajari cara mengatur profil ICC saat mengonversi dokumen Word ke PDF menggunakan Aspose.PDF untuk .NET dalam panduan lengkap C# ini. Bahasa Indonesia:  
 | [PDF ke EPUB](./pdf-to-epub/) | Pelajari cara mengonversi PDF ke EPUB menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini. Sempurna untuk pengembang dan pembuat konten. Bahasa Indonesia:  
 | [PDF ke HTML](./pdf-to-html/) | Pelajari cara mengonversi PDF ke HTML menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Sempurna untuk pengembang dan pembuat konten. Bahasa Indonesia:  
 | [PDF ke PDFA](./pdf-to-pdfa/) Pelajari cara mengonversi file PDF ke format PDF/A menggunakan Aspose.PDF untuk .NET dengan tutorial langkah demi langkah ini. Bahasa Indonesia:  
@@ -73,6 +74,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Buat HTML dari PDF dalam C# – Panduan Lengkap Langkah demi Langkah](./create-html-from-pdf-in-c-complete-step-by-step-guide/) | Pelajari cara mengekstrak konten HTML dari file PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah yang mudah diikuti. Bahasa Indonesia:  
 | [Cara Mengatur ICC dalam Konversi Aspose PDF – Panduan Lengkap](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | Pelajari cara mengatur profil ICC saat mengonversi PDF menggunakan Aspose.PDF untuk .NET dalam panduan lengkap ini. Bahasa Indonesia:  
 | [Konversi Aspose PDF di C# – Panduan Langkah‑per‑Langkah](./aspose-pdf-conversion-in-c-step-by-step-guide/) | Pelajari cara mengonversi PDF menggunakan Aspose.PDF di C# dengan panduan langkah demi langkah ini. |  
+| [Cara Mengonversi PDF ke PDF/X‑4 dalam C# – Panduan Langkah demi Langkah](./how-to-convert-pdf-to-pdf-x-4-in-c-step-by-step-guide/) | Pelajari cara mengonversi PDF ke PDF/X‑4 menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Bahasa Indonesia:  
+| [Save Document as HTML – Complete C# Guide to Export Word to HTML](./save-document-as-html-complete-c-guide-to-export-word-to-htm/) | Pelajari cara mengekspor dokumen Word ke HTML menggunakan Aspose.PDF untuk .NET dengan panduan lengkap C#. Bahasa Indonesia:  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

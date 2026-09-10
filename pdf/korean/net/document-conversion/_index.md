@@ -41,6 +41,7 @@
 | [C#에서 PDF를 HTML로 만들기 – 완전 단계별 가이드](./create-html-from-pdf-in-c-complete-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 PDF 파일을 HTML로 변환하는 방법을 단계별 가이드로 알아보세요. |  
 | [PDF에서 PDFA3b로](./pdf-to-pdfa3b/) | 이 단계별 가이드를 통해 Aspose.PDF for .NET을 사용하여 PDF 파일을 PDF/A-3B 형식으로 손쉽게 변환하는 방법을 알아보세요. |  
 | [PDF를 PDF/X‑4로 변환하기 – 단계별 ASP.NET PDF 튜토리얼](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Aspose.PDF for .NET을 사용하여 PDF를 PDF/X‑4 형식으로 변환하는 단계별 C# 가이드입니다. |  
+| [C#에서 PDF를 PDF/X‑4로 변환하는 방법 – 단계별 가이드](./how-to-convert-pdf-to-pdf-x-4-in-c-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF를 PDF/X‑4 형식으로 변환하는 단계별 가이드를 제공합니다. |  
 | [PDF를 PNG로 변환하는 글꼴 힌팅](./pdf-to-png-font-hinting/) | Aspose.PDF for .NET을 사용하여 간단한 단계별 가이드로 글꼴 힌팅을 적용하여 PDF를 PNG로 변환하는 방법을 알아보세요. |  
 | [ICC 프로파일 추가 및 PDF를 PDF/X‑4로 변환 – C# 가이드](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) | Aspose.PDF for .NET을 사용하여 PDF에 ICC 프로파일을 추가하고 PDF/X‑4 형식으로 변환하는 방법을 단계별 가이드로 알아보세요. |
 | [PDF를 PNG로 변환하는 튜토리얼 – C#에서 PDF 페이지를 PNG로 변환](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Aspose.PDF for .NET을 사용하여 PDF 페이지를 PNG 이미지로 변환하는 방법을 단계별로 안내합니다. |
@@ -54,7 +55,7 @@
 | [HTML을 PDF로 변환하는 동안 자격 증명 제공](./provide-credentials-during-html-to-pdf/) | Aspose.PDF for .NET을 사용하여 HTML를 PDF로 변환하는 방법을 단계별 가이드를 통해 알아보세요. 문서 생성을 간소화하려는 개발자에게 적합합니다. |  
 | [HTML에서 변환 후 하이퍼링크 제거](./remove-hyperlinks-after-converting-from-html/) 이 단계별 가이드에서는 Aspose.PDF for .NET을 사용하여 PDF로 변환한 후 HTML 문서에서 하이퍼링크를 제거하는 방법을 알아봅니다. |  
 | [누락된 글꼴 바꾸기](./replace-missing-fonts/) | 이 단계별 가이드를 통해 Aspose.PDF for .NET을 사용하여 PDF 문서에서 누락된 글꼴을 바꾸는 방법을 알아보세요. |  
-| [기본 글꼴 이름 설정](./set-default-font-name/) | Aspose.PDF for .NET을 사용하여 PDF를 이미지로 렌더링할 때 기본 글꼴 이름을 설정하는 방법을 알아보세요. 이 가이드에서는 필수 구성 요소, 단계별 지침 및 FAQ를 다룹니다. |  
+| [기본 글꼴 이름 설정](./set-default-font-name/) | Aspose.PDF for .NET을 사용하여 PDF를 이미지로 렌더링할때 기본 글꼴 이름을 설정하는 방법을 알아보세요. 이 가이드에서는 필수 구성 요소, 단계별 지침 및 FAQ를 ... |  
 | [SVG를 PDF로](./svg-to-pdf/) | Aspose.PDF for .NET을 사용하여 SVG를 PDF로 변환하는 방법을 단계별 튜토리얼에서 알아보세요. 개발자와 디자이너에게 적합합니다. |  
 | [TeX에서 PDF로](./tex-to-pdf/) | Aspose.PDF for .NET을 사용하여 TeX를 PDF로 변환하는 방법을 단계별로 자세히 알아보세요. 개발자와 문서 전문가에게 적합합니다. |  
 | [텍스트를 PDF로](./text-to-pdf/) Aspose.PDF for .NET을 사용하여 텍스트 파일을 PDF로 변환하는 방법을 단계별 가이드에서 알아보세요. 애플리케이션 개선을 원하는 개발자에게 적합합니다. |  
@@ -72,6 +73,8 @@
 | [C#에서 docx를 PDF로 변환 – 완전 단계별 가이드](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 DOCX 파일을 PDF로 변환하는 완전한 단계별 가이드를 제공합니다. |
 | [Aspose PDF 변환에서 ICC 설정 방법 – 완전 가이드](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | Aspose.PDF for .NET을 사용하여 PDF 변환 시 ICC 프로파일을 설정하는 방법을 단계별로 안내합니다. |  
 | [C#에서 Aspose PDF 변환 – 단계별 가이드](./aspose-pdf-conversion-in-c-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 변환을 단계별로 수행하는 방법을 안내합니다. |
+| [Word를 PDF로 변환할 때 ICC 프로파일 설정 – 완전한 C# 가이드](./set-icc-profile-when-converting-word-to-pdf-complete-c-guide/) | Aspose.PDF for .NET을 사용하여 Word 문서를 PDF로 변환할 때 ICC 프로파일을 지정하는 방법을 단계별로 안내합니다. |  
+| [문서를 HTML로 저장 – Word를 HTML로 내보내는 완전한 C# 가이드](./save-document-as-html-complete-c-guide-to-export-word-to-htm/) | Aspose.PDF for .NET을 사용하여 Word 문서를 HTML 파일로 저장하는 단계별 완전 가이드입니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

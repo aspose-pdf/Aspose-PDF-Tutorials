@@ -69,6 +69,11 @@ Aspose.Pdf का उपयोग करके C# में PDF हस्ता�
 ### [PDF हस्ताक्षर को सत्यापित करने और PDF में Bates नंबरिंग जोड़ने की विधि](./how-to-validate-pdf-signature-and-add-bates-numbering-to-pdf/)
 PDF हस्ताक्षर की वैधता जांचें और Bates नंबरिंग जोड़ने के चरण-दर-चरण मार्गदर्शन।
 
+### [PDF से साइनर निकालने का तरीका – पूर्ण C# गाइड](./how-to-extract-signer-from-pdf-complete-c-guide/)
+
+### [C# में PDF हस्ताक्षर जांचें – डिजिटल हस्ताक्षर PDF को मान्य करें](./check-pdf-signature-in-c-validate-digital-signature-pdf/)
+C# का उपयोग करके PDF हस्ताक्षर को सत्यापित करने और उसकी वैधता जांचने की प्रक्रिया सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.PDF for Net दस्तावेज़ीकरण](https://docs.aspose.com/pdf/net/)

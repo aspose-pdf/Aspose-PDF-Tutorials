@@ -47,6 +47,7 @@ De tutorials "Programmeren met stempels en watermerken" van Aspose.PDF voor .NET
 | [PDF-opaciteit wijzigen met Aspose.PDF – Complete C#-gids](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) | Leer hoe u de doorzichtigheid van PDF-pagina's aanpast met Aspose.PDF voor .NET in C# met deze stapsgewijze handleiding. |  
 | [Vertrouwelijk watermerk PDF met Aspose: Voeg een tekststempel toe aan de eerste pagina](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) | Leer hoe u een vertrouwelijk watermerk toevoegt door een tekststempel op de eerste pagina van een PDF te plaatsen met Aspose.PDF voor .NET. |  
 | [Hoe PDF op te slaan — Bates-nummering toevoegen met Aspose.Pdf](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) | Leer hoe u Bates-nummering toevoegt bij het opslaan van een PDF met Aspose.PDF voor .NET. |  
+| [PDF-watermerk maken - Stempel toevoegen en DOCX naar PDF converteren](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) | Leer hoe u een watermerk maakt, een stempel toevoegt en een DOCX-bestand converteert naar PDF met Aspose.PDF voor .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

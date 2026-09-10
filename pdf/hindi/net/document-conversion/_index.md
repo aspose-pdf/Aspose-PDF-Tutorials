@@ -67,6 +67,9 @@
 | [डॉक्यूमेंट PDF सहेजें – एलिप्स जोड़ें और DOCX को PDF में बदलें](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | इस चरण-दर-स्टेप मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके डॉक्यूमेंट PDF सहेजें, एलिप्स जोड़ें और DOCX को PDF में बदलें। |
 | [C# में docx को pdf में बदलें – पूर्ण चरण‑दर‑चरण गाइड](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | .NET के लिए Aspose.PDF का उपयोग करके C# में DOCX को PDF में बदलने की पूरी प्रक्रिया सीखें। |
 | [C# में Aspose PDF रूपांतरण – चरण‑दर‑चरण गाइड](./aspose-pdf-conversion-in-c-step-by-step-guide/) | इस चरण‑दर‑चरण गाइड में .NET के लिए Aspose.PDF का उपयोग करके C# में PDF रूपांतरण कैसे करें, सीखें। |  
+| [C# में PDF को PDF/X‑4 में कैसे बदलें – चरण‑दर‑चरण गाइड](./how-to-convert-pdf-to-pdf-x-4-in-c-step-by-step-guide/) | इस चरण-दर-स्टेप मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X‑4 में परिवर्तित करना सीखें। |
+| [Word को PDF में बदलते समय ICC प्रोफ़ाइल सेट करें – पूर्ण C# गाइड](./set-icc-profile-when-converting-word-to-pdf-complete-c-guide/) | इस चरण-दर-स्टेप गाइड में .NET के लिए Aspose.PDF का उपयोग करके Word को PDF में बदलते समय ICC प्रोफ़ाइल सेट करना सीखें। |
+| [दस्तावेज़ को HTML के रूप में सहेजें – Word को HTML में निर्यात करने के लिए पूर्ण C# गाइड](./save-document-as-html-complete-c-guide-to-export-word-to-htm/) | इस चरण-दर-स्टेप गाइड में .NET के लिए Aspose.PDF का उपयोग करके Word दस्तावेज़ को HTML में निर्यात करना सीखें। |
 
 | [C# में PDF को PDF/X‑4 में परिवर्तित करें – चरण-दर-चरण ASP.NET PDF ट्यूटोरियल](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | इस ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X‑4 फ़ॉर्मेट में बदलना सीखें। |
 | [PDF दस्तावेज़ लोड करें C# – PDF/X-4 में परिवर्तित करने की चरण-दर-चरण गाइड](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | इस चरण-दर-चरण ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ को लोड करके PDF/X-4 फ़ॉर्मेट में बदलना सीखें। |  

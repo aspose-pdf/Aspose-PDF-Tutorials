@@ -67,6 +67,12 @@
 ### [Πώς να εξαγάγετε υπογραφές από PDF σε C# – Οδηγός βήμα προς βήμα](./how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/)
 Μάθετε πώς να εξάγετε ψηφιακές υπογραφές από αρχεία PDF χρησιμοποιώντας C# και Aspose.PDF, με βήμα‑βήμα οδηγίες.
 
+### [Πώς να εξάγετε τον υπογράφοντα από PDF – Πλήρης οδηγός C#](./how-to-extract-signer-from-pdf-complete-c-guide/)
+Μάθετε πώς να εξάγετε τον υπογράφοντα από PDF με C# χρησιμοποιώντας το Aspose.PDF.
+
+### [Έλεγχος υπογραφής PDF σε C# – Επικύρωση ψηφιακής υπογραφής PDF](./check-pdf-signature-in-c-validate-digital-signature-pdf/)
+Μάθετε πώς να ελέγξετε και να επικυρώσετε ψηφιακές υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.PDF για τεκμηρίωση δικτύου](https://docs.aspose.com/pdf/net/)

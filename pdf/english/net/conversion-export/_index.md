@@ -90,6 +90,8 @@ Learn how to convert PDF documents into high-quality PNG images using Aspose.PDF
 Learn how to save a PDF as PNG and then convert it to PDF/X‑1a format using Aspose.PDF for .NET.
 ### [Convert PDF to PNG in C# – Complete Step‑by‑Step Guide](./convert-pdf-to-png-in-c-complete-step-by-step-guide/)
 Learn how to convert PDF documents to high-quality PNG images using Aspose.PDF for .NET with detailed C# code examples.
+### [How to Render PDF to PNG in C# – Complete Guide](./how-to-render-pdf-to-png-in-c-complete-guide/)
+Learn how to render PDF pages to high-quality PNG images in C# using Aspose.PDF, with detailed code examples and performance tips.
 
 ### [Convert PDF to PPTX with Aspose.PDF for .NET&#58; Step-by-Step Guide](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 Learn how to efficiently convert PDF documents into PowerPoint presentations using Aspose.PDF for .NET. This step-by-step guide covers basic conversion, advanced features like image slides, and progress tracking.
@@ -232,7 +234,10 @@ Master PDF-to-HTML conversion using Aspose.PDF for .NET. Enhance document access
 ### [PDF to HTML Conversion with Aspose.PDF for .NET](./pdf-to-html-conversion-aspose-dot-net/)
 A code tutorial for Aspose.PDF Net
 
-### [PDF to TIFF Conversion in .NET Using Aspose.PDF&#58; A Step-by-Step Guide](./pdf-to-tiff-conversion-aspose-pdf-net/)
+### [Convert PDF to HTML in C# – Quick Guide with Aspose.Pdf](./convert-pdf-to-html-in-c-quick-guide-with-aspose-pdf/)
+Learn how to quickly convert PDF files to HTML using C# and Aspose.PDF with step-by-step code examples.
+
+## PDF to TIFF Conversion in .NET Using Aspose.PDF&#58; A Step-by-Step Guide
 Learn how to convert PDF documents to TIFF images using Aspose.PDF for .NET. Master custom color depths and advanced image processing techniques.
 
 ### [How to Save PDF with Aspose – Step‑by‑Step Guide](./how-to-save-pdf-with-aspose-step-by-step-guide/)

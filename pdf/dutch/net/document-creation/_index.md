@@ -78,6 +78,9 @@ Leer hoe u een PDF-document maakt, een pagina toevoegt, kopteksten tagt en eleme
 Leer hoe u met Aspose.PDF een PDF maakt, een pagina en vorm toevoegt en het document opslaat.
 ### [PDF-document maken in C# – Lege pagina toevoegen en rechthoek tekenen](./create-pdf-document-c-add-blank-page-draw-rectangle/)
 Leer hoe u met Aspose.PDF voor .NET een PDF maakt, een lege pagina toevoegt en een rechthoek tekent in C#.
+### [PDF-document maken in C# – Gids voor het toevoegen van Bates-nummers](./create-pdf-document-c-add-bates-numbering-guide/)
+Leer hoe u met Aspose.PDF voor .NET en C# Bates-nummers toevoegt aan PDF-documenten.
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

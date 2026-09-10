@@ -79,6 +79,9 @@ C# を使用して空白ページやタグ、スパンを含む PDF ドキュメ
 ### [C# で PDF を作成する方法 – ページ追加、矩形描画、保存](./how-to-create-pdf-in-c-add-page-draw-rectangle-save/)
 C# を使用してページを追加し、矩形を描画して PDF を保存する手順を学びます。
 
+### [C# で PDF ドキュメントにベーツ番号を付与するガイド](./create-pdf-document-c-add-bates-numbering-guide/)
+Aspose.PDF for .NET を使用して、C# で PDF にベーツ番号を自動的に付与する方法を学びます。
+
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)

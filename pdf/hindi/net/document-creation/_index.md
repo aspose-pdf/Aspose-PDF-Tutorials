@@ -77,6 +77,9 @@ C# का उपयोग करके PDF में खाली पृष्�
 ### [C# में PDF दस्तावेज़ बनाएं: चरण‑दर‑चरण मार्गदर्शिका](./create-pdf-document-in-c-step-by-step-guide/)
 C# में चरण‑दर‑चरण PDF दस्तावेज़ बनाने की प्रक्रिया सीखें। कोड उदाहरण और सेटअप निर्देश शामिल हैं।
 
+### [C# में PDF दस्तावेज़ बनाना – Bates नंबरिंग जोड़ने का गाइड](./create-pdf-document-c-add-bates-numbering-guide/)
+Aspose.PDF के साथ C# में PDF में Bates नंबरिंग कैसे जोड़ें, सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.PDF for Net दस्तावेज़ीकरण](https://docs.aspose.com/pdf/net/)

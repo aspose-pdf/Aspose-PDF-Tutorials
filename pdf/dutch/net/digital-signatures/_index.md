@@ -42,6 +42,10 @@ Leer hoe u een PDF-handtekening in C# kunt verifiëren met een gedetailleerde, s
 
 ### [PDF-handtekening verifiëren in C# – een stapsgewijze handleiding](./verify-pdf-signature-in-c-step-by-step-guide/)
 Leer hoe u PDF-handtekeningen kunt verifiëren met C# en Aspose.PDF voor .NET in een duidelijke stap‑voor‑stap tutorial.
+
+### [PDF-handtekening controleren in C# – Digitale handtekening valideren](./check-pdf-signature-in-c-validate-digital-signature-pdf/)
+Leer hoe u PDF-handtekeningen valideert met C# en Aspose.PDF voor .NET in een stapsgewijze tutorial.
+
 ### [Beheers PDF-ondertekening en -verificatie met Aspose.PDF .NET](./mastering-aspose-pdf-net-sign-verify-smart-card-certificates/)
 Een codetutorial voor Aspose.PDF Net
 ### [Aspose.PDF .NET onder de knie krijgen: digitale handtekeningen in PDF-bestanden verifiëren](./aspose-pdf-net-verify-digital-signature/)

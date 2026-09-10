@@ -72,6 +72,9 @@ leert hoe u conversie-instellingen opgeeft, tekst en afbeeldingen extraheert, de
 | [Hoe ICC in te stellen bij Aspose PDF-conversie – Complete gids](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | Leer hoe u ICC-profielen instelt tijdens PDF-conversie met Aspose.PDF voor .NET in deze volledige stap‑voor‑stap gids. |  
 | [c# pdf-conversietutorial – converteer pdf naar pdf/x-4](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) | Leer hoe u PDF's converteert naar PDF/X‑4 met Aspose.PDF voor .NET in deze stapsgewijze tutorial. |  
 | [Aspose PDF-conversie in C# – Stapsgewijze handleiding](./aspose-pdf-conversion-in-c-step-by-step-guide/) | Leer hoe u PDF-bestanden converteert met Aspose.PDF voor .NET in C# met deze stapsgewijze handleiding. |  
+| [Hoe PDF naar PDF/X‑4 converteren in C# – Stapsgewijze handleiding](./how-to-convert-pdf-to-pdf-x-4-in-c-step-by-step-guide/) | Leer hoe u PDF-bestanden naar PDF/X‑4 converteert met Aspose.PDF voor .NET in C# met deze stapsgewijze handleiding. |  
+| [ICC-profiel instellen bij conversie van Word naar PDF – Complete C#-handleiding](./set-icc-profile-when-converting-word-to-pdf-complete-c-guide/) | Leer hoe u een ICC-profiel instelt bij het converteren van Word naar PDF met Aspose.PDF voor .NET in deze uitgebreide C#-handleiding. |
+| [Document opslaan als HTML – Complete C#-handleiding voor het exporteren van Word naar HTML](./save-document-as-html-complete-c-guide-to-export-word-to-htm/) | Leer hoe u een Word-document opslaat als HTML met Aspose.PDF voor .NET in deze complete C#-handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

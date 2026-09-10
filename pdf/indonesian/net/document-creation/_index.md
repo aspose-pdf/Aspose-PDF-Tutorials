@@ -79,6 +79,9 @@ Pelajari cara menambahkan halaman kosong, tag, dan span ke dokumen PDF menggunak
 ### [Cara Membuat PDF di C# – Tambahkan Halaman, Gambar Persegi Panjang & Simpan](./how-to-create-pdf-in-c-add-page-draw-rectangle-save/)
 Pelajari cara membuat file PDF di C# dengan menambahkan halaman baru, menggambar persegi panjang, dan menyimpan dokumen menggunakan Aspose.PDF.
 
+### [Buat Dokumen PDF C# – Panduan Penambahan Penomoran Bates](./create-pdf-document-c-add-bates-numbering-guide/)
+Pelajari cara menambahkan penomoran Bates ke dokumen PDF menggunakan Aspose.PDF untuk .NET dengan C# dalam panduan langkah demi langkah.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

@@ -49,6 +49,8 @@
 | [C# में साइन किया गया PDF बनाएं – चरण-दर-चरण गाइड](./create-signed-pdf-in-c-step-by-step-guide/) | .NET के लिए Aspose.PDF का उपयोग करके C# में साइन किया गया PDF बनाने की प्रक्रिया सीखें। |  
 | [C# में PDF हस्ताक्षर सत्यापित करें – चरण‑दर‑चरण गाइड](./verify-pdf-signature-in-c-step-by-step-guide/) | .NET के लिए Aspose.PDF का उपयोग करके C# में PDF हस्ताक्षर कैसे सत्यापित करें, सीखें। |  
 | [C# में PDF डिजिटल हस्ताक्षर को मान्य करने के लिए OCSP का उपयोग कैसे करें](./how-to-use-ocsp-to-validate-pdf-digital-signature-in-c/) | C# में Aspose.PDF के साथ OCSP का उपयोग करके PDF डिजिटल हस्ताक्षर की वैधता कैसे जांचें, सीखें। |  
+| [Aspose.Pdf के साथ PDF हस्ताक्षर सत्यापित करें – चरण‑दर‑चरण गाइड](./verify-pdf-signature-with-aspose-pdf-step-by-step-guide/) | .NET के लिए Aspose.PDF का उपयोग करके PDF हस्ताक्षर कैसे सत्यापित करें, इस चरण‑दर‑चरण मार्गदर्शिका में सीखें। |  
+| [PDF कैसे सत्यापित करें – डिजिटल हस्ताक्षर के लिए पूर्ण C# गाइड](./how-to-verify-pdf-complete-c-guide-for-digital-signatures/) | .NET के लिए Aspose.PDF का उपयोग करके PDF हस्ताक्षर सत्यापन की पूरी प्रक्रिया सीखें। |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

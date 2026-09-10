@@ -47,6 +47,7 @@ Samouczki „Programowanie ze stemplami i znakami wodnymi” dla .NET firmy Aspo
 | [Zmień przezroczystość PDF za pomocą Aspose.PDF – Kompletny przewodnik C#](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) | Dowiedz się, jak zmienić przezroczystość dokumentu PDF w C# przy użyciu Aspose.PDF w prostym przewodniku krok po kroku. |  
 | [Poufny znak wodny PDF z Aspose: Dodaj znacznik tekstowy do pierwszej strony](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) | Dowiedz się, jak dodać poufny znak wodny w postaci tekstu na pierwszej stronie dokumentu PDF przy użyciu Aspose.PDF dla .NET. |
 | [Jak zapisać PDF — Dodaj numerację Bates przy użyciu Aspose.Pdf](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) | Dowiedz się, jak dodać numerację Bates i zapisać plik PDF przy użyciu Aspose.Pdf dla .NET w kilku prostych krokach. |  
+| [Utwórz znak wodny PDF – Dodaj stempel i konwertuj DOCX do PDF](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) | Dowiedz się, jak dodać znak wodny i stempel do pliku PDF oraz konwertować dokumenty DOCX do PDF przy użyciu Aspose.PDF dla .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

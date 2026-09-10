@@ -96,6 +96,8 @@
 
 ### [สร้างเอกสาร PDF ใน C# – คู่มือทีละขั้นตอน](./create-pdf-document-in-c-step-by-step-guide/)
 เรียนรู้วิธีสร้างไฟล์ PDF ด้วย C# อย่างละเอียดด้วยขั้นตอนที่ชัดเจน
+### [สร้างเอกสาร PDF ด้วย C# – คู่มือการเพิ่มหมายเลข Bates](./create-pdf-document-c-add-bates-numbering-guide/)
+เรียนรู้วิธีเพิ่มหมายเลข Bates ให้กับไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ใน C#
 
 ## แหล่งข้อมูลเพิ่มเติม
 

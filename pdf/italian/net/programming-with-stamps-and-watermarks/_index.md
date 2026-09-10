@@ -47,6 +47,7 @@ I tutorial di Aspose.PDF "Programmazione con timbri e filigrane" per .NET ti gui
 | [Modifica l'opacità PDF con Aspose.PDF – Guida completa C#](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) | Scopri come modificare l'opacità di un PDF usando Aspose.PDF per .NET con esempi di codice C# passo passo. |  
 | [Filigrana riservata PDF con Aspose: aggiungi un timbro di testo alla prima pagina](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) | Scopri come aggiungere un timbro di testo riservato alla prima pagina di un PDF usando Aspose.PDF per .NET. |  
 | [Come salvare PDF — Aggiungi numerazione Bates con Aspose.Pdf](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) | Scopri come aggiungere la numerazione Bates ai PDF durante il salvataggio usando Aspose.PDF per .NET. |  
+| [Crea filigrana PDF – Aggiungi timbro e converti DOCX in PDF](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) | Scopri come creare una filigrana PDF, aggiungere un timbro e convertire un documento DOCX in PDF con Aspose.PDF per .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

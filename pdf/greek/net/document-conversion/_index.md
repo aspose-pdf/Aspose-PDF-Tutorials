@@ -73,6 +73,9 @@
 | [Αποθήκευση εγγράφου PDF – Πώς να προσθέσετε έλλειψη & να μετατρέψετε DOCX σε PDF](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | Μάθετε πώς να αποθηκεύσετε ένα PDF, να προσθέσετε έλλειψη και να μετατρέψετε DOCX σε PDF χρησιμοποιώντας Aspose.PDF για .NET. |
 | [Πώς να ορίσετε ICC στη μετατροπή Aspose PDF – Πλήρης Οδηγός](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | Μάθετε πώς να ορίσετε το προφίλ χρωμάτων ICC κατά τη μετατροπή PDF με το Aspose.PDF για .NET σε αυτόν τον πλήρη οδηγό. |
 | [Μετατροπή Aspose PDF σε C# – Οδηγός βήμα‑βήμα](./aspose-pdf-conversion-in-c-step-by-step-guide/) | Μάθετε πώς να μετατρέπετε έγγραφα PDF χρησιμοποιώντας Aspose.PDF για .NET σε C# με αυτόν τον αναλυτικό οδηγό βήμα‑βήμα. |  
+| [Πώς να μετατρέψετε PDF σε PDF/X‑4 σε C# – Οδηγός βήμα προς βήμα](./how-to-convert-pdf-to-pdf-x-4-in-c-step-by-step-guide/) | Μάθετε πώς να μετατρέψετε αρχεία PDF σε PDF/X‑4 χρησιμοποιώντας C# και το Aspose.PDF για .NET με αυτόν τον αναλυτικό οδηγό. |
+| [Ορισμός προφίλ ICC κατά τη μετατροπή Word σε PDF – Πλήρης οδηγός C#](./set-icc-profile-when-converting-word-to-pdf-complete-c-guide/) | Μάθετε πώς να ορίσετε προφίλ ICC κατά τη μετατροπή αρχείων Word σε PDF με το Aspose.PDF για .NET σε αυτόν τον πλήρη οδηγό C#. |
+| [Αποθήκευση εγγράφου ως HTML – Πλήρης οδηγός C# για εξαγωγή Word σε HTML](./save-document-as-html-complete-c-guide-to-export-word-to-htm/) | Μάθετε πώς να αποθηκεύσετε ένα έγγραφο Word ως HTML με το Aspose.PDF για .NET σε αυτόν τον πλήρη οδηγό C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -49,6 +49,8 @@ Hướng dẫn cung cấp cho bạn tổng quan chi tiết về các phương ph
 | [Tạo PDF đã ký trong C# – Hướng dẫn từng bước](./create-signed-pdf-in-c-step-by-step-guide/) | Tìm hiểu cách tạo PDF đã ký bằng C# sử dụng Aspose.PDF cho .NET. Hướng dẫn chi tiết từng bước để ký tài liệu một cách an toàn. |  
 | [Xác minh chữ ký PDF trong C# – Hướng dẫn từng bước](./verify-pdf-signature-in-c-step-by-step-guide/) | Tìm hiểu cách xác minh chữ ký PDF bằng C# sử dụng Aspose.PDF cho .NET. Hướng dẫn chi tiết từng bước. |
 | [Cách sử dụng OCSP để xác thực chữ ký số PDF trong C#](./how-to-use-ocsp-to-validate-pdf-digital-signature-in-c/) | Hướng dẫn sử dụng giao thức OCSP để kiểm tra tính hợp lệ của chữ ký số PDF trong C# với Aspose.PDF. |
+| [Xác minh chữ ký PDF với Aspose.Pdf – Hướng dẫn từng bước](./verify-pdf-signature-with-aspose-pdf-step-by-step-guide/) | Tìm hiểu cách xác minh chữ ký PDF bằng Aspose.PDF cho .NET. Hướng dẫn chi tiết từng bước để kiểm tra tính xác thực của tài liệu. |  
+| [Cách xác minh PDF – Hướng dẫn C# đầy đủ cho chữ ký số](./how-to-verify-pdf-complete-c-guide-for-digital-signatures/) | Học cách xác minh chữ ký số trên tài liệu PDF bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết từng bước. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

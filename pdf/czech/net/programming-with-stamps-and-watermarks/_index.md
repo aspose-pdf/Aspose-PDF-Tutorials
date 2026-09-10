@@ -45,6 +45,7 @@ Výukové programy „Programování s razítky a vodoznaky“ pro .NET od Aspos
 | [Přidat Batesovo číslování PDF – Kompletní průvodce C#](./add-bates-numbering-pdf-complete-c-guide/) | Naučte se, jak pomocí Aspose.PDF pro .NET přidat Batesovo číslování do PDF souborů v C# s podrobným příkladem kódu. |
 | [Přidat Batesovo číslování PDF v C# – Kompletní průvodce](./add-bates-numbering-pdf-in-c-complete-guide/) Naučte se, jak pomocí Aspose.PDF pro .NET přidat Batesovo číslování do PDF souborů v C# s podrobným příkladem kódu. |  
 | [Jak uložit PDF — Přidat Batesovo číslování pomocí Aspose.Pdf](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) | Naučte se, jak při ukládání PDF přidat Batesovo číslování pomocí Aspose.PDF pro .NET. |
+| [Vytvořit vodoznak PDF – Přidat razítko a převést DOCX na PDF](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) | Naučte se, jak vytvořit vodoznak PDF, přidat razítko a převést soubor DOCX na PDF pomocí Aspose.PDF pro .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

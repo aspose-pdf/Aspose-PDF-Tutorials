@@ -43,6 +43,10 @@ Aprenda a remover assinaturas digitais de PDFs com eficiência usando o Aspose.P
 Aprenda a verificar assinaturas digitais em arquivos PDF usando o Aspose.PDF para .NET. Este guia aborda configuração, implementação e aplicações práticas.
 ### [Verificar assinatura de PDF em C# – Guia passo a passo](./verify-pdf-signature-in-c-step-by-step-guide/)
 Aprenda a verificar assinaturas de PDF em C# usando Aspose.PDF para .NET, passo a passo.
+
+### [Verificar assinatura de PDF em C# – Validar assinatura digital de PDF](./check-pdf-signature-in-c-validate-digital-signature-pdf/)
+Aprenda a validar a assinatura digital de um PDF usando C# e Aspose.PDF para .NET, passo a passo.
+
 ### [Como Verificar PDF – Validar Assinatura de PDF com Aspose](./how-to-verify-pdf-validate-pdf-signature-with-aspose/)
 Aprenda a validar assinaturas digitais de PDFs usando Aspose, garantindo a integridade e autenticidade dos documentos.
 ### [Como verificar assinatura em PDF com Aspose.Pdf – Guia C#](./how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/)
@@ -74,6 +78,9 @@ Aprenda a verificar assinaturas digitais em PDFs usando C# e Aspose.Pdf, garanti
 
 ### [Como extrair assinaturas de um PDF em C# – Guia passo a passo](./how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/)
 Aprenda a extrair assinaturas digitais de arquivos PDF usando C# e Aspose.PDF, com exemplos de código claros e passo a passo.
+
+### [Como extrair o assinante de um PDF – Guia completo em C#](./how-to-extract-signer-from-pdf-complete-c-guide/)
+Aprenda a extrair o nome do assinante de um PDF usando C# e Aspose.PDF, com código passo a passo.
 
 ## Recursos adicionais
 

@@ -68,6 +68,9 @@ Du lär dig hur du anger konverteringsinställningar, extraherar text och bilder
 | [Hur du sparar PDF med Aspose – Komplett C#-konverteringsguide](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) | Lär dig hur du sparar PDF-filer med Aspose i en komplett C#-konverteringsguide. |  
 | [XPS till PDF](./xps-to-pdf/) Lär dig hur du konverterar XPS-filer till PDF med Aspose.PDF för .NET med den här steg-för-steg-handledningen. Perfekt för utvecklare och dokumententusiaster. |  
 | [Aspose PDF‑konvertering i C# – Steg‑för‑steg‑guide](./aspose-pdf-conversion-in-c-step-by-step-guide/) | Lär dig hur du konverterar PDF-filer med Aspose.PDF för .NET i C# i denna steg‑för‑steg‑guide. |  
+| [PDF till PDF/X‑4](./how-to-convert-pdf-to-pdf-x-4-in-c-step-by-step-guide/) | Lär dig hur du konverterar PDF till PDF/X‑4 med Aspose.PDF för .NET i denna steg-för-steg-guide. |  
+| [Ställ in ICC-profil vid konvertering från Word till PDF – Komplett C#-guide](./set-icc-profile-when-converting-word-to-pdf-complete-c-guide/) | Lär dig hur du anger ICC-profil när du konverterar Word-dokument till PDF med Aspose.PDF för .NET i en komplett C#‑guide. |
+| [Spara dokument som HTML – Komplett C#-guide för att exportera Word till HTML](./save-document-as-html-complete-c-guide-to-export-word-to-htm/) | Lär dig hur du sparar ett Word-dokument som HTML med Aspose.PDF för .NET i en komplett C#‑guide. |  
 
 | [Konvertera docx till pdf i C# – Komplett steg‑för‑steg‑guide](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Lär dig hur du konverterar DOCX-filer till PDF med Aspose.PDF för .NET i en komplett steg‑för‑steg‑guide för C#. |
 | [Spara dokument PDF – Hur man lägger till ellips & konverterar DOCX till PDF](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | Lär dig spara ett PDF-dokument, lägga till en ellips och konvertera DOCX-filer till PDF med Aspose.PDF för .NET. |

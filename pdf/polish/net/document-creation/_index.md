@@ -79,6 +79,9 @@ Dowiedz się, jak w C# dodać pustą stronę, tagi i element span do dokumentu P
 ### [Jak utworzyć PDF w C# – Dodaj stronę, narysuj prostokąt i zapisz](./how-to-create-pdf-in-c-add-page-draw-rectangle-save/)
 Dowiedz się, jak w C# utworzyć plik PDF, dodać nową stronę, narysować prostokąt i zapisać dokument przy użyciu Aspose.PDF.
 
+### [Tworzenie dokumentu PDF w C# – Przewodnik dodawania numeracji Batesa](./create-pdf-document-c-add-bates-numbering-guide/)
+Dowiedz się, jak dodać numerację Bates do dokumentu PDF w C# przy użyciu Aspose.PDF.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

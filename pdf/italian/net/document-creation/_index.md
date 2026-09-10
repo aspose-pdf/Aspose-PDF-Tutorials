@@ -79,6 +79,9 @@ Scopri come creare un documento PDF in C# aggiungendo una pagina vuota, tag e sp
 ### [Come creare PDF in C# – Aggiungi pagina, disegna rettangolo e salva](./how-to-create-pdf-in-c-add-page-draw-rectangle-save/)
 Scopri come creare un PDF in C# aggiungendo una pagina, disegnando un rettangolo e salvando il documento.
 
+### [Crea documento PDF C# – Guida all'aggiunta della numerazione Bates](./create-pdf-document-c-add-bates-numbering-guide/)
+Scopri come aggiungere la numerazione Bates ai PDF con Aspose.PDF per .NET usando C#.
+
 ## Risorse aggiuntive
 
 - [Aspose.PDF per la documentazione di rete](https://docs.aspose.com/pdf/net/)

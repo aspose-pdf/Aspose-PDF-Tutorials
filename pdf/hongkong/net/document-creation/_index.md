@@ -79,6 +79,9 @@ Aspose.PDF Net 程式碼教學
 ### [如何在 C# 中建立 PDF – 新增頁面、繪製矩形並儲存](./how-to-create-pdf-in-c-add-page-draw-rectangle-save/)
 了解如何在 C# 使用 Aspose.PDF for .NET 新增空白頁、繪製矩形並儲存 PDF 文件。
 
+### [建立 PDF 文件 C# – 添加 Bates 編號指南](./create-pdf-document-c-add-bates-numbering-guide/)
+了解如何在 C# 中使用 Aspose.PDF 為 PDF 文件添加 Bates 編號，以便於文件追蹤與管理。
+
 ## 其他資源
 
 - [Aspose.PDF 用於網頁文檔](https://docs.aspose.com/pdf/net/)

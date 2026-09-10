@@ -68,7 +68,7 @@
 ### [แปลง PDF เป็น HTML ใน .NET โดยใช้ Aspose.PDF โดยไม่ต้องบันทึกภาพ](./convert-pdf-html-net-asposepdf-no-images/)
 เรียนรู้วิธีการแปลงไฟล์ PDF เป็น HTML โดยใช้ Aspose.PDF สำหรับ .NET โดยไม่ต้องบันทึกรูปภาพแยกต่างหาก รักษาความสมบูรณ์ของเค้าโครงด้วยคู่มือโดยละเอียดของเรา
 
-### [แปลง PDF เป็น HTML ใน .NET ด้วยเส้นทางรูปภาพที่กำหนดเองโดยใช้ Aspose.PDF](./convert-pdf-html-custom-image-paths-dotnet/)
+### [แปลง PDF เป็น HTML ใน .NET ด้วย Aspose.PDF โดยใช้เส้นทางรูปภาพที่กำหนดเอง](./convert-pdf-html-custom-image-paths-dotnet/)
 เรียนรู้วิธีการแปลงไฟล์ PDF เป็นรูปแบบ HTML โดยใช้ Aspose.PDF สำหรับ .NET และกำหนดเส้นทางรูปภาพอย่างมีประสิทธิภาพ เหมาะอย่างยิ่งสำหรับการผสานรวมเว็บ
 
 ### [แปลง PDF เป็น HTML ด้วย Aspose.PDF สำหรับ .NET: รักษาแบบอักษรในรูปแบบ TTF และ WOFF](./convert-pdf-html-aspose-net-truetype-woff/)
@@ -80,6 +80,9 @@
 ### [แปลง PDF เป็น HTML ด้วย URL รูปภาพที่กำหนดเองโดยใช้ Aspose.PDF .NET: คู่มือที่ครอบคลุม](./convert-pdf-html-custom-image-urls-aspose-pdf-net/)
 เรียนรู้วิธีการแปลงเอกสาร PDF เป็นรูปแบบ HTML โดยใช้ Aspose.PDF สำหรับ .NET รวมถึงการปรับแต่ง URL ของรูปภาพและการใช้กลยุทธ์การประหยัดทรัพยากรที่เหมาะสม
 
+### [แปลง PDF เป็น HTML ด้วย C# – คู่มือด่วนกับ Aspose.Pdf](./convert-pdf-to-html-in-c-quick-guide-with-aspose-pdf/)
+เรียนรู้วิธีแปลง PDF เป็น HTML อย่างรวดเร็วด้วย C# และ Aspose.Pdf ด้วยขั้นตอนง่าย ๆ
+
 ### [แปลง PDF เป็น PNG ด้วย Aspose.PDF .NET: ปรับปรุงการแสดงข้อความให้คมชัดยิ่งขึ้น](./convert-pdf-png-aspose-net-font-hinting/)
 เรียนรู้วิธีการแปลงเอกสาร PDF เป็นภาพ PNG คุณภาพสูงโดยใช้ Aspose.PDF .NET รับประกันการแสดงผลข้อความคมชัดผ่านการบอกใบ้แบบอักษร
 
@@ -87,6 +90,8 @@
 เรียนรู้วิธีบันทึกไฟล์ PDF เป็นภาพ PNG แล้วแปลงเป็น PDF/X‑1a ด้วย Aspose PDF ใน .NET
 ### [แปลง PDF เป็น PNG ด้วย C# – คู่มือขั้นตอนเต็ม](./convert-pdf-to-png-in-c-complete-step-by-step-guide/)
 เรียนรู้วิธีแปลงไฟล์ PDF เป็นรูปภาพ PNG อย่างละเอียดด้วย C# และ Aspose.PDF .NET ในขั้นตอนที่ชัดเจน
+### [วิธีเรนเดอร์ PDF เป็น PNG ใน C# – คู่มือฉบับสมบูรณ์](./how-to-render-pdf-to-png-in-c-complete-guide/)
+เรียนรู้วิธีเรนเดอร์ไฟล์ PDF เป็นภาพ PNG ด้วย C# อย่างละเอียดโดยใช้ Aspose.PDF .NET
 
 ### [แปลง PDF เป็น PPTX ด้วย Aspose.PDF สำหรับ .NET: คำแนะนำทีละขั้นตอน](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 เรียนรู้วิธีการแปลงเอกสาร PDF เป็นงานนำเสนอ PowerPoint อย่างมีประสิทธิภาพโดยใช้ Aspose.PDF สำหรับ .NET คำแนะนำทีละขั้นตอนนี้ครอบคลุมถึงการแปลงพื้นฐาน คุณสมบัติขั้นสูง เช่น สไลด์รูปภาพ และการติดตามความคืบหน้า

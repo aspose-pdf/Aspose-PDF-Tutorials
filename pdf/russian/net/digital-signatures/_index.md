@@ -29,6 +29,9 @@
 
 ### [Как извлечь информацию из подписи PDF с помощью Aspose.PDF .NET: пошаговое руководство](./extract-pdf-signature-info-aspose-pdf-net/)
 
+### [Как извлечь подписанта из PDF – Полное руководство на C#](./how-to-extract-signer-from-pdf-complete-c-guide/)
+Подробный пример кода на C# для извлечения информации о подписанте из PDF‑документа с помощью Aspose.PDF.
+
 ### [Как реализовать цифровые подписи в .NET с помощью Aspose.PDF: подробное руководство](./implement-pdf-signatures-dotnet-aspose-pdf-guide/)
 
 ### [Как удалить цифровые подписи PDF с помощью Aspose.PDF .NET | Полное руководство](./remove-pdf-digital-signatures-aspose-pdf-net/)
@@ -43,6 +46,8 @@
 
 ### [Как проверить подпись PDF в C# – Полное пошаговое руководство](./how-to-verify-pdf-signature-in-c-complete-step-by-step-tutor/)
 Узнайте, как проверять подписи PDF в C# с помощью Aspose.PDF, следуя полному пошаговому руководству.
+### [Проверка подписи PDF в C# – Проверка цифровой подписи PDF](./check-pdf-signature-in-c-validate-digital-signature-pdf/)
+Узнайте, как проверять цифровую подпись PDF в C# с помощью Aspose.PDF, обеспечивая подлинность документа.
 
 ### [Мастер подписания и проверки PDF-файлов с помощью Aspose.PDF .NET](./mastering-aspose-pdf-net-sign-verify-smart-card-certificates/)
 

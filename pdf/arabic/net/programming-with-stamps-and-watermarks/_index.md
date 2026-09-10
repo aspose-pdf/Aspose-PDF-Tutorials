@@ -47,6 +47,7 @@
 | [تغيير شفافية PDF باستخدام Aspose.PDF – دليل C# كامل](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) |تعرف على كيفية تعديل شفافية ملفات PDF باستخدام Aspose.PDF في دليل شامل بلغة C# مع أمثلة عملية. |
 | [علامة مائية سرية لملف PDF باستخدام Aspose: إضافة طابع نصي إلى الصفحة الأولى](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) | تعلم كيفية إضافة طابع نصي كعلامة مائية سرية إلى الصفحة الأولى من ملف PDF باستخدام Aspose.PDF لـ .NET. |
 | [كيفية حفظ PDF — إضافة ترقيم Bates باستخدام Aspose.Pdf](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) | تعرف على طريقة حفظ ملفات PDF وإضافة ترقيم Bates باستخدام Aspose.PDF لـ .NET خطوة بخطوة مع أمثلة عملية. |
+| [إنشاء علامة مائية PDF – إضافة ختم وتحويل DOCX إلى PDF](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) | تعلم كيفية إنشاء علامة مائية PDF، إضافة ختم، وتحويل ملفات DOCX إلى PDF باستخدام Aspose.PDF لـ .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

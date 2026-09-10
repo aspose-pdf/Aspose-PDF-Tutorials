@@ -49,6 +49,8 @@
 | [تحميل مستند PDF باستخدام C# – دليل كامل لقراءة وتعداد التوقيعات](./load-pdf-document-c-complete-guide-to-reading-and-listing-si/) | تعلم كيفية تحميل ملفات PDF باستخدام C#، قراءة التوقيعات وإدراج قائمة بها باستخدام Aspose.PDF لـ .NET. |
 | [استخراج الصورة](./extracting-image/) تعلم بسهولة كيفية استخراج الصور من ملفات PDF باستخدام Aspose.PDF لـ .NET. اتبع دليلنا خطوة بخطوة لاستخراج الصور بسلاسة.  
 | [إنشاء ملف PDF موقع في C# – دليل خطوة بخطوة](./create-signed-pdf-in-c-step-by-step-guide/) | تعلم كيفية إنشاء ملف PDF موقع رقمياً باستخدام C# خطوة بخطوة مع Aspose.PDF لـ .NET. |
+| [تحقق من توقيع PDF باستخدام Aspose.Pdf – دليل خطوة بخطوة](./verify-pdf-signature-with-aspose-pdf-step-by-step-guide/) | تعلم كيفية التحقق من صحة توقيع ملفات PDF باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |  
+| [كيفية التحقق من ملف PDF – دليل C# كامل للتوقيعات الرقمية](./how-to-verify-pdf-complete-c-guide-for-digital-signatures/) | تعلم خطوة بخطوة كيفية التحقق من صحة توقيع ملفات PDF باستخدام Aspose.PDF لـ .NET ولغة C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

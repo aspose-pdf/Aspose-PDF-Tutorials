@@ -80,6 +80,9 @@ Aprenda a crear documentos PDF mediante Aspose.PDF con una guía paso a paso y e
 Aprenda a crear documentos PDF con Aspose en C# mediante una guía paso a paso y ejemplos de código.
 ### [Crear documento PDF en C# – Añadir página en blanco y dibujar rectángulo](./create-pdf-document-c-add-blank-page-draw-rectangle/)
 Aprenda a crear un documento PDF en C#, agregar una página en blanco y dibujar un rectángulo usando Aspose.PDF.
+### [Crear documento PDF en C# – Guía de numeración Bates](./create-pdf-document-c-add-bates-numbering-guide/)
+Aprenda a añadir numeración Bates a documentos PDF generados con Aspose.PDF para .NET usando C#.
+
 ## Recursos adicionales
 
 - [Documentación de Aspose.PDF para la red](https://docs.aspose.com/pdf/net/)
