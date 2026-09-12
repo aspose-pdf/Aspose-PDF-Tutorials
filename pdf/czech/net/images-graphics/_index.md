@@ -44,6 +44,9 @@ Naučte se, jak vytvářet vizuálně přitažlivé dokumenty PDF extrakcí a zv
 ### [Kreslení průhledných tvarů v PDF pomocí Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 Výukový program pro kódování Aspose.PDF Net
 
+### [Jak přidat průhlednost do PDF a nakreslit obdélník v PDF pomocí Aspose.PDF](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+Naučte se, jak nastavit průhlednost a kreslit obdélníky v PDF dokumentech pomocí Aspose.PDF pro .NET.
+
 ### [Efektivní identifikace obrázků PDF s Aspose.PDF pro .NET](./master-image-identification-aspose-pdf-net/)
 Naučte se, jak identifikovat obrázky ve stupních šedi a RGB v PDF pomocí Aspose.PDF pro .NET. Tento tutoriál se zabývá instalací, extrakcí obrázků a tipy pro výkon.
 

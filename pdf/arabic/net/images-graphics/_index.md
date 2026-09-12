@@ -104,6 +104,9 @@
 ### [كيفية إنشاء مستطيلات شفافة في ملفات PDF باستخدام Aspose.PDF لـ .NET](./create-transparent-rectangles-aspose-pdf-dotnet/)
 تعلّم كيفية تحسين مستندات PDF الخاصة بك بإنشاء مستطيلات ذات شفافية ألفا باستخدام Aspose.PDF لـ .NET. اتبع هذا الدليل خطوة بخطوة.
 
+### [كيفية إضافة الشفافية إلى PDF ورسم مستطيل على PDF باستخدام Aspose.PDF](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+تعرّف على كيفية إضافة شفافية إلى ملفات PDF ورسم مستطيل باستخدام Aspose.PDF في C# خطوة بخطوة.
+
 ### [كيفية حذف الصور من ملفات PDF باستخدام Aspose.PDF لـ .NET - دليل كامل](./delete-images-aspose-pdf-net/)
 تعرّف على كيفية حذف الصور بكفاءة من ملفات PDF باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل الإعداد، وأمثلة التعليمات البرمجية، وأفضل الممارسات.
 

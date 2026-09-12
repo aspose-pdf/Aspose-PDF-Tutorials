@@ -44,6 +44,9 @@ Apprenez à créer des documents PDF attrayants en extrayant et en surlignant de
 ### [Dessiner des formes transparentes dans des fichiers PDF avec Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 Un tutoriel de code pour Aspose.PDF Net
 
+### [Comment ajouter de la transparence à un PDF et dessiner un rectangle sur un PDF avec Aspose.PDF](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+Apprenez à ajouter de la transparence et à dessiner un rectangle dans un PDF avec Aspose.PDF.
+
 ### [Identification efficace des images PDF avec Aspose.PDF pour .NET](./master-image-identification-aspose-pdf-net/)
 Apprenez à identifier les images en niveaux de gris et RVB dans les PDF avec Aspose.PDF pour .NET. Ce tutoriel couvre l'installation, l'extraction d'images et des conseils de performance.
 

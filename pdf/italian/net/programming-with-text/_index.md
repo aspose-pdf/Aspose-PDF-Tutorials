@@ -71,6 +71,7 @@ tutorial "Programmazione con il testo" di Aspose.PDF per .NET offrono una gamma 
 | [Testo e immagine come paragrafo nel file PDF](./text-and-image-as-paragraph/) | Crea PDF con testo e immagini usando Aspose.PDF per .NET. Scopri come aggiungere testo e immagini in linea passo dopo passo. |  
 | [Segmenti di testo nel file PDF](./text-segments/) | Scopri come cercare specifici segmenti di testo in un file PDF utilizzando espressioni regolari in Aspose.PDF per .NET. |  
 | [Utilizzare lo script Latex nel file PDF](./use-latex-script/) | Scopri come usare lo script Latex per aggiungere espressioni matematiche o formule in un file PDF utilizzando Aspose.PDF per .NET. |  
+| [Genera riepilogo PDF con Aspose.Pdf.AI e OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Scopri come generare un riepilogo di un PDF usando Aspose.Pdf.AI e l'API di OpenAI in questo tutorial passo passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

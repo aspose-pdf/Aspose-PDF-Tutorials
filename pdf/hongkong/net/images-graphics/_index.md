@@ -78,7 +78,7 @@ Aspose.PDF Net 程式碼教學
 了解如何使用 Aspose.PDF for .NET 將影像無縫地新增至您的 PDF 文件。本逐步指南涵蓋設定、實施和實際應用。
 
 ### [如何使用 Aspose.PDF for .NET 將影像新增至 PDF：逐步指南](./add-images-to-pdfs-aspose-pdf-net/)
-了解如何使用 Aspose.PDF for .NET 將影像無縫地新增至您的 PDF。本指南介紹如何為現有 PDF 新增影像以及如何從 DICOM 檔案建立新影像。
+了解如何使用 Aspose.PDF for .NET 將影像無縫地新增至 PDF。本指南介紹如何為現有 PDF 新增影像以及如何從 DICOM 檔案建立新影像。
 
 ### [如何使用 Aspose.PDF for .NET 為 PDF 新增影像頁首：逐步指南](./add-image-header-pdf-aspose-dotnet/)
 透過本全面的逐步指南了解如何使用 Aspose.PDF for .NET 將影像標題新增至 PDF 文件。
@@ -103,6 +103,9 @@ Aspose.PDF Net 程式碼教學
 
 ### [如何使用 Aspose.PDF for .NET 在 PDF 中建立透明矩形](./create-transparent-rectangles-aspose-pdf-dotnet/)
 了解如何使用 Aspose.PDF for .NET 建立具有 alpha 透明度的矩形來增強您的 PDF 文件。請按照本逐步指南進行操作。
+
+### [如何在 PDF 中添加透明度並繪製矩形（使用 Aspose.PDF）](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+了解如何使用 Aspose.PDF 為 PDF 添加透明度並繪製矩形，以提升文件的視覺效果。
 
 ### [如何使用 Aspose.PDF for .NET 從 PDF 檔案中刪除影像 - 完整指南](./delete-images-aspose-pdf-net/)
 了解如何使用 Aspose.PDF for .NET 有效地從 PDF 檔案中刪除影像。本指南涵蓋設定、程式碼範例和最佳實踐。

@@ -81,6 +81,9 @@ Dowiedz się, jak wyodrębnić informacje o sygnatariuszu z plików PDF przy uż
 ### [Sprawdź podpis PDF w C# – Walidacja cyfrowego podpisu PDF](./check-pdf-signature-in-c-validate-digital-signature-pdf/)
 Dowiedz się, jak zweryfikować podpis cyfrowy w pliku PDF przy użyciu C# i Aspose.PDF.
 
+### [Jak zweryfikować podpisy PDF przy użyciu Aspose.PDF](./how-to-verify-pdf-signatures-with-aspose-pdf/)
+Dowiedz się, jak zweryfikować podpisy PDF przy użyciu Aspose.PDF.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

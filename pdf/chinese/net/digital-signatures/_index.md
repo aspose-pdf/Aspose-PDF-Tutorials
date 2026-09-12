@@ -83,6 +83,9 @@ Aspose.PDF Net 代码教程
 ### [如何从 PDF 中提取签署者 – 完整 C# 指南](./how-to-extract-signer-from-pdf-complete-c-guide/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中提取 PDF 的签署者信息，帮助验证文档来源。
 
+### [如何使用 Aspose.PDF 验证 PDF 签名](./how-to-verify-pdf-signatures-with-aspose-pdf/)
+本指南展示如何使用 Aspose.PDF 验证 PDF 文件中的数字签名，确保文档完整性和真实性。
+
 ## 其他资源
 
 - [Aspose.PDF 用于网络文档](https://docs.aspose.com/pdf/net/)

@@ -71,6 +71,7 @@ Az Aspose.PDF „Szöveggel programozás” című .NET-es oktatóanyagai átfog
 | [Szövegszegmensek PDF fájlban](./text-segments/) | Ismerje meg, hogyan kereshet meghatározott szövegrészeket PDF fájlokban reguláris kifejezések használatával az Aspose.PDF for .NET programban. |  
 | [Latex szkript használata PDF fájlban](./use-latex-script/) | Tanulja meg, hogyan használhat Latex szkripteket matematikai kifejezések vagy képletek PDF fájlokba való hozzáadásához az Aspose.PDF for .NET használatával. |  
 | [Bates-számok hozzáadása PDF-hez](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Tanulja meg, hogyan adhat hozzá Bates-számokat PDF-dokumentumokhoz az Aspose.PDF for .NET használatával, lépésről lépésre útmutatóval. |  
+| [PDF összegzés generálása Aspose.Pdf.AI és OpenAI segítségével](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Tanulja meg, hogyan generálhat PDF összegzést az Aspose.Pdf.AI és az OpenAI használatával az Aspose.PDF for .NET segítségével. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

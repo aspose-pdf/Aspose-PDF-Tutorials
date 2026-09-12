@@ -71,6 +71,7 @@ Os tutoriais "Programação com Texto" do Aspose.PDF para .NET oferecem uma gama
 | [Segmentos de texto em arquivo PDF](./text-segments/) | Aprenda a pesquisar segmentos de texto específicos em um arquivo PDF usando expressões regulares no Aspose.PDF para .NET. |  
 | [Usar script Latex em arquivo PDF](./use-latex-script/) | Aprenda a usar o script Latex para adicionar expressões matemáticas ou fórmulas em arquivos PDF usando o Aspose.PDF para .NET. |  
 | [Adicionar números Bates ao PDF – numeração Bates](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Aprenda a adicionar numeração Bates a documentos PDF usando o Aspose.PDF para .NET. Guia passo a passo com exemplos de código. |  
+| [Gerar resumo de PDF com Aspose.Pdf.AI e OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Aprenda a gerar um resumo de documentos PDF usando Aspose.Pdf.AI integrado ao OpenAI. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

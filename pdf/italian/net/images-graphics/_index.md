@@ -104,6 +104,9 @@ Scopri come creare PDF accessibili con tag e immagini incorporate utilizzando As
 ### [Come creare rettangoli trasparenti nei PDF utilizzando Aspose.PDF per .NET](./create-transparent-rectangles-aspose-pdf-dotnet/)
 Scopri come migliorare i tuoi documenti PDF creando rettangoli con trasparenza alfa utilizzando Aspose.PDF per .NET. Segui questa guida passo passo.
 
+### [Come aggiungere trasparenza a un PDF e disegnare un rettangolo su PDF con Aspose.PDF](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+Scopri come impostare la trasparenza e disegnare rettangoli trasparenti nei PDF usando Aspose.PDF per .NET.
+
 ### [Come eliminare le immagini dai file PDF utilizzando Aspose.PDF per .NET - Guida completa](./delete-images-aspose-pdf-net/)
 Scopri come eliminare in modo efficiente le immagini dai file PDF utilizzando Aspose.PDF per .NET. Questa guida illustra la configurazione, esempi di codice e le migliori pratiche.
 

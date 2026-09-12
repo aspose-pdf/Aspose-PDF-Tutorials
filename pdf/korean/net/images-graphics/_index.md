@@ -44,6 +44,9 @@ Aspose.PDF .NET을 사용하여 단락을 추출하고 강조 표시하여 시�
 ### [Aspose.PDF .NET을 사용하여 PDF에 투명한 모양 그리기](./draw-transparent-shapes-aspose-pdf-net/)
 Aspose.PDF Net에 대한 코드 튜토리얼
 
+### [Aspose.PDF를 사용하여 PDF에 투명도를 추가하고 사각형을 그리는 방법](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+PDF에 투명 사각형을 그리는 단계별 가이드
+
 ### [.NET용 Aspose.PDF를 사용한 효율적인 PDF 이미지 식별](./master-image-identification-aspose-pdf-net/)
 Aspose.PDF for .NET을 사용하여 PDF에서 회색조 및 RGB 이미지를 식별하는 방법을 알아보세요. 이 튜토리얼에서는 설치, 이미지 추출 및 성능 향상 팁을 다룹니다.
 

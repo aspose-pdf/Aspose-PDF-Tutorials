@@ -104,6 +104,8 @@ Ismerje meg, hogyan hozhat létre akadálymentesített, címkézett PDF-eket ké
 ### [Átlátszó téglalapok létrehozása PDF fájlokban az Aspose.PDF for .NET használatával](./create-transparent-rectangles-aspose-pdf-dotnet/)
 Ismerje meg, hogyan javíthatja PDF-dokumentumait alfa átlátszóságú téglalapok létrehozásával az Aspose.PDF for .NET segítségével. Kövesse ezt a lépésről lépésre szóló útmutatót.
 
+### [Átlátszóság hozzáadása PDF-hez és téglalap rajzolása PDF-ben az Aspose.PDF for .NET használatával](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+
 ### [Képek törlése PDF fájlokból az Aspose.PDF for .NET használatával - Teljes útmutató](./delete-images-aspose-pdf-net/)
 Ismerje meg, hogyan törölhet hatékonyan képeket PDF fájlokból az Aspose.PDF for .NET segítségével. Ez az útmutató bemutatja a beállítást, a kódpéldákat és a bevált gyakorlatokat.
 

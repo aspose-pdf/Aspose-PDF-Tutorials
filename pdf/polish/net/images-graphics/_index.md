@@ -78,7 +78,7 @@ Dowiedz się, jak bezproblemowo dodawać obrazy do dokumentów PDF za pomocą As
 Dowiedz się, jak bezproblemowo dodawać obrazy do dokumentów PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik krok po kroku obejmuje konfigurację, implementację i praktyczne zastosowania.
 
 ### [Jak dodawać obrazy do plików PDF za pomocą Aspose.PDF dla .NET: przewodnik krok po kroku](./add-images-to-pdfs-aspose-pdf-net/)
-Dowiedz się, jak bezproblemowo dodawać obrazy do plików PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje dodawanie obrazów do istniejących plików PDF i tworzenie nowych z plików DICOM.
+Dowiedz się, jak bezproblemowo dodawać obrazy do dokumentów PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje dodawanie obrazów do istniejących plików PDF i tworzenie nowych z plików DICOM.
 
 ### [Jak dodać nagłówek obrazu do plików PDF za pomocą Aspose.PDF dla .NET: przewodnik krok po kroku](./add-image-header-pdf-aspose-dotnet/)
 Dowiedz się, jak dodawać nagłówki obrazów do dokumentów PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego kompleksowego przewodnika krok po kroku.
@@ -103,6 +103,9 @@ Dowiedz się, jak tworzyć dostępne, oznaczone pliki PDF z osadzonymi obrazami 
 
 ### [Jak tworzyć przezroczyste prostokąty w plikach PDF za pomocą Aspose.PDF dla .NET](./create-transparent-rectangles-aspose-pdf-dotnet/)
 Dowiedz się, jak ulepszyć swoje dokumenty PDF, tworząc prostokąty z przezroczystością alfa za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku.
+
+### [Jak dodać przezroczystość do pliku PDF i narysować prostokąt w PDF przy użyciu Aspose.PDF](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+Dowiedz się, jak zastosować przezroczystość i narysować prostokąt w pliku PDF przy pomocy Aspose.PDF dla .NET.
 
 ### [Jak usunąć obrazy z plików PDF za pomocą Aspose.PDF dla .NET - kompletny przewodnik](./delete-images-aspose-pdf-net/)
 Dowiedz się, jak skutecznie usuwać obrazy z plików PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje konfigurację, przykłady kodu i najlepsze praktyki.

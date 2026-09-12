@@ -104,11 +104,14 @@ Pelajari cara membuat PDF berlabel yang mudah diakses dan disematkan gambar meng
 ### [Cara Membuat Persegi Panjang Transparan dalam PDF Menggunakan Aspose.PDF untuk .NET](./create-transparent-rectangles-aspose-pdf-dotnet/)
 Pelajari cara menyempurnakan dokumen PDF Anda dengan membuat persegi panjang dengan transparansi alfa menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah ini.
 
+### [Cara Menambahkan Transparansi ke PDF dan Menggambar Persegi Panjang pada PDF dengan Aspose.PDF](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+Pelajari cara menambahkan efek transparansi dan menggambar persegi panjang pada PDF menggunakan Aspose.PDF untuk .NET.
+
 ### [Cara Menghapus Gambar dari File PDF Menggunakan Aspose.PDF untuk .NET - Panduan Lengkap](./delete-images-aspose-pdf-net/)
 Pelajari cara menghapus gambar dari file PDF secara efisien menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup pengaturan, contoh kode, dan praktik terbaik.
 
 ### [Cara Menghapus Gambar dari PDF Menggunakan Aspose.PDF .NET: Panduan Langkah demi Langkah](./delete-images-aspose-pdf-net-guide/)
-Pelajari cara menghapus gambar dari file PDF menggunakan Aspose.PDF untuk .NET. Panduan lengkap ini mencakup pengaturan, penerapan, dan aplikasi praktis.
+Pelajari cara menghapus gambar dari PDF menggunakan Aspose.PDF untuk .NET. Panduan lengkap ini mencakup pengaturan, penerapan, dan aplikasi praktis.
 
 ### [Cara Menghapus Gambar dari PDF Menggunakan Aspose.PDF untuk .NET: Panduan Lengkap](./delete-images-from-pdf-aspose-dotnet/)
 Pelajari cara menghapus semua gambar dari PDF secara efisien menggunakan Aspose.PDF for .NET, meningkatkan privasi file dan mengurangi ukuran. Ikuti panduan langkah demi langkah ini.

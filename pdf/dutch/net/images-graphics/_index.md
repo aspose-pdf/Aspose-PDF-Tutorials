@@ -104,6 +104,9 @@ Leer hoe u toegankelijke, getagde PDF's met ingesloten afbeeldingen maakt met As
 ### [Transparante rechthoeken maken in PDF's met Aspose.PDF voor .NET](./create-transparent-rectangles-aspose-pdf-dotnet/)
 Leer hoe u uw PDF-documenten kunt verbeteren door rechthoeken met alfatransparantie te maken met Aspose.PDF voor .NET. Volg deze stapsgewijze handleiding.
 
+### [Hoe transparantie aan PDF toe te voegen en een rechthoek te tekenen met Aspose.PDF](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+Leer hoe u transparantie instelt en een rechthoek tekent in een PDF met Aspose.PDF voor .NET.
+
 ### [Afbeeldingen uit PDF-bestanden verwijderen met Aspose.PDF voor .NET - Complete handleiding](./delete-images-aspose-pdf-net/)
 Leer hoe u efficiënt afbeeldingen uit PDF-bestanden verwijdert met Aspose.PDF voor .NET. Deze handleiding behandelt de installatie, codevoorbeelden en aanbevolen procedures.
 
