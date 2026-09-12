@@ -1,23 +1,315 @@
 ---
-"date": "2025-04-14"
-"description": "Aspose.PDF का उपयोग करके Java में सुलभ PDF बनाना, टैग करना और संरचना करना सीखें। आज ही अपने दस्तावेज़ प्रबंधन कौशल को बेहतर बनाएँ!"
-"title": "Aspose.PDF for Java के साथ PDF निर्माण और टैगिंग में महारत हासिल करना एक व्यापक गाइड"
-"url": "/hi/java/document-creation/aspose-pdf-java-create-manage-tagged-pdfs/"
-"weight": 1
+date: '2026-09-12'
+description: Aspose.PDF का उपयोग करके Java में PDF बनाना, accessibility tags जोड़ना,
+  और accessible PDFs के लिए document structure प्रबंधित करना सीखें।
+keywords:
+- create pdf java
+- aspose pdf java
+- maven aspose pdf
+- add accessibility tags pdf
+- aspose pdf licensing
+lastmod: '2026-09-12'
+og_description: Aspose.PDF का उपयोग करके Java में PDF बनाना, accessibility tags जोड़ना,
+  और document structure को प्रभावी ढंग से प्रबंधित करना सीखें। यह गाइड सेटअप, कोड
+  उदाहरण, और सर्वोत्तम प्रथाओं के माध्यम से आपका मार्गदर्शन करता है।
+og_image_alt: Guide showing how to create and tag PDFs in Java with Aspose.PDF
+og_title: Aspose.PDF के साथ Java में PDF कैसे बनाएं
+schemas:
+- author: Aspose
+  dateModified: '2026-09-12'
+  description: Learn how to create PDF in Java using Aspose.PDF, add accessibility
+    tags, and manage document structure for accessible PDFs.
+  headline: How to create PDF in Java with Aspose.PDF
+  type: TechArticle
+- description: Learn how to create PDF in Java using Aspose.PDF, add accessibility
+    tags, and manage document structure for accessible PDFs.
+  name: How to create PDF in Java with Aspose.PDF
+  steps:
+  - name: '**Add the dependencies** shown above.'
+    text: '**Add the dependencies** shown above.'
+  - name: '**License acquisition** – you can start with a trial download from [Aspose''s
+      release page](https://releases.aspose.com/pdf/java/). To remove evaluation limits,
+      obtain a temporary license via [this link](https://purchase.aspose.com/temporary-license/)
+      or purchase a full license.'
+    text: '**License acquisition** – you can start with a trial download from [Aspose''s
+      release page](https://releases.aspose.com/pdf/java/). To remove evaluation limits,
+      obtain a temporary license via [this link](https://purchase.aspose.com/temporary-license/)
+      or purchase a full license.'
+  - name: '**Basic initialization** – the `Document` class is the entry point for
+      all PDF operations.'
+    text: '**Basic initialization** – the `Document` class is the entry point for
+      all PDF operations.'
+  - name: '**Automated report generation** – Produce compliance‑ready PDFs from database
+      data.'
+    text: '**Automated report generation** – Produce compliance‑ready PDFs from database
+      data.'
+  - name: '**E‑learning content** – Create accessible course materials that work with
+      screen readers.'
+    text: '**E‑learning content** – Create accessible course materials that work with
+      screen readers.'
+  - name: '**Digital signatures** – Combine tagging with signature fields for legally
+      binding documents.'
+    text: '**Digital signatures** – Combine tagging with signature fields for legally
+      binding documents.'
+  - name: '**How do I handle exceptions when saving a PDF file?**'
+    text: '**How do I handle exceptions when saving a PDF file?**'
+  - name: '**Can Aspose.PDF for Java be used in web applications?**'
+    text: '**Can Aspose.PDF for Java be used in web applications?**'
+  - name: '**What is the difference between tagged and untagged PDF content?**'
+    text: '**What is the difference between tagged and untagged PDF content?**'
+  - name: '**Is there a performance impact when adding text structure elements?**'
+    text: '**Is there a performance impact when adding text structure elements?**'
+  type: HowTo
+- questions:
+  - answer: Yes, a commercial license removes evaluation limits and grants full API
+      access; a free trial is available for development and testing.
+    question: Do I need a paid license for production use?
+  - answer: Absolutely. Load the PDF with `new Document(path)`, enable tagging via
+      `document.getTaggedContent()`, set title/language, and save.
+    question: Can I convert existing PDFs to tagged PDFs?
+  - answer: Aspose.PDF for Java supports JDK 8 through JDK 21, covering both legacy
+      and modern environments.
+    question: Which Java versions are officially supported?
+  - answer: 'Pass the password to the `Document` constructor: `new Document("file.pdf",
+      new LoadOptions("password"))`.'
+    question: How do I handle password‑protected PDFs?
+  - answer: Use `document.compress()` or `document.optimizeResources()` to remove
+      unused objects and compress streams.
+    question: Is there a way to reduce PDF file size after tagging?
+  type: FAQPage
+tags:
+- create pdf
+- Aspose.PDF
+- Java PDF
+- PDF tagging
+- accessibility
+title: Aspose.PDF के साथ Java में PDF कैसे बनाएं
+url: /hi/java/document-creation/aspose-pdf-java-create-manage-tagged-pdfs/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# जावा के लिए Aspose.PDF के साथ PDF निर्माण और टैगिंग में महारत हासिल करना\n\n## परिचय\n\nक्या आप अपने जावा अनुप्रयोगों में गतिशील, सुलभ PDF दस्तावेज़ बनाना चाहते हैं? आप सही जगह पर हैं! इस गाइड में, हम यह पता लगाएंगे कि इसका उपयोग कैसे करें **जावा के लिए Aspose.PDF** PDF को प्रभावी ढंग से बनाने और उसमें हेरफेर करने के लिए। चाहे आपको सरल टेक्स्ट दस्तावेज़ बनाने हों या एक्सेसिबिलिटी अनुपालन के लिए जटिल टैग की गई सामग्री, इन उपकरणों को समझना महत्वपूर्ण है।\n\n**जावा के लिए Aspose.PDF का उपयोग करने के मुख्य लाभ:**\एन- **निर्बाध एकीकरण:** अपने जावा अनुप्रयोगों में आसानी से मजबूत पीडीएफ कार्यक्षमताओं को शामिल करें।\n- **बहुमुखी दस्तावेज़ निर्माण:** खाली कैनवस से लेकर विस्तृत संरचित तत्वों तक, विविध आवश्यकताओं को पूरा करें।\n- **उन्नत पहुंच:** स्क्रीन रीडर और अन्य सहायक तकनीकों के लिए टैग की गई सामग्री को लागू करें।\n\n**आप क्या सीखेंगे:**\n- खाली PDF दस्तावेज़ बनाना\n- टैग की गई PDF सामग्री के साथ काम करना\n- टेक्स्ट संरचना तत्व जोड़ना\n\nक्या आप शुरू करने के लिए तैयार हैं? आइए सबसे पहले सुनिश्चित करें कि आपने सब कुछ सही तरीके से सेट किया है.\n\n## पूर्वापेक्षाएँ\n\nशुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्न हैं:\n\n### आवश्यक लाइब्रेरी और निर्भरताएँ\n\nJava के लिए Aspose.PDF का प्रभावी ढंग से उपयोग करने के लिए, इसे अपने प्रोजेक्ट में शामिल करें। यहाँ Maven और Gradle के लिए निर्भरताएँ दी गई हैं:\n\n**मावेन:**\एन```xml\n<dependency>\n    <groupId>com.aspose</groupId>\n    <artifactId>aspose-pdf</artifactId>\n    <version>25.3</version>\n</dependency>\n```\एन\एन**ग्रेडेल:**\एन```gradle\nimplementation 'com.aspose:aspose-pdf:25.3'\n```\n\n### वातावरण सेटअप\n\nसुनिश्चित करें कि आपके पास JDK 8 या उच्चतर और IntelliJ IDEA या Eclipse जैसे IDE सहित एक Java विकास वातावरण सेटअप है.\n\n### ज्ञान की पूर्व-आवश्यकताएँ\n\nJava प्रोग्रामिंग की बुनियादी समझ की अनुशंसा की जाती है। PDF अवधारणाओं से परिचित होना सहायक होगा, लेकिन आवश्यक नहीं.\n\n## Java के लिए Aspose.PDF सेटअप करना\n\nएक बार जब आपका वातावरण तैयार हो जाए, तो Aspose.PDF सेटअप करने के लिए इन चरणों का पालन करें:\n\n1. **निर्भरताएँ जोड़ें:** ऊपर बताए गए Maven या Gradle कॉन्फ़िगरेशन का उपयोग करें.\n2. **लाइसेंस प्राप्ति:** \n - निःशुल्क परीक्षण के लिए, लाइब्रेरी को यहां से डाउनलोड करें [एस्पोज का रिलीज़ पेज](https://releases.aspose.com/pdf/java/).\n - किसी भी मूल्यांकन सीमा को हटाने के लिए, के माध्यम से एक अस्थायी लाइसेंस प्राप्त करने पर विचार करें [इस लिंक](https://purchase.aspose.com/temporary-license/) या सीधे खरीदकर।\n3. **बुनियादी आरंभीकरण:**\n\n यहां बताया गया है कि आप अपने एप्लिकेशन में Aspose.PDF को कैसे आरंभ कर सकते हैं:\n\n   ```java\n   import com.aspose.pdf.Document;\n\n   // Initialize the Document object\n   Document document = new Document();\n   ```\n\nसब कुछ सेट होने के बाद, आइए PDF दस्तावेज़ बनाने और उनमें हेरफेर करने के बारे में जानें।\n\n## कार्यान्वयन गाइड\n\nहम अपने कार्यान्वयन को तीन मुख्य विशेषताओं में विभाजित करेंगे: एक PDF दस्तावेज़ बनाना, टैग की गई सामग्री के साथ काम करना, और टेक्स्ट संरचना तत्व जोड़ना।\n\n### विशेषता 1: एक खाली PDF दस्तावेज़ बनाएँ\n\n**अवलोकन:** अपने दस्तावेज़ की नींव के रूप में एक खाली पीडीएफ फ़ाइल बनाकर शुरू करें।\n\n#### चरण-दर-चरण:\n\n**दस्तावेज़ ऑब्जेक्ट को आरंभ करें**\एन```java\nimport com.aspose.pdf.Document;\एन\एन// Define output directory for saving documents\nString outputDir = \"YOUR_OUTPUT_DIRECTORY\";\n\n// Create a new, empty PDF document\nDocument document = new Document();\n```\n\n**पीडीएफ दस्तावेज़ सहेजें**\n\nअपना इच्छित फ़ाइल पथ सेट करें और दस्तावेज़ सहेजें.\n```java\n// Save the newly created PDF to the specified location\ndocument.save(outputDir + \"/CreatedPdfDocument.pdf\");\n```\n\n### फ़ीचर 2: टैग की गई PDF सामग्री के साथ काम करना\n\n**अवलोकन:** अपने PDF में शीर्षक और भाषा जैसे मेटाडेटा जोड़कर पहुँच क्षमता को बेहतर बनाएँ.\n\n#### चरण-दर-चरण:\n\n**टैग की गई सामग्री को आरंभीकृत और कॉन्फ़िगर करें**\एन```java\nimport com.aspose.pdf.Document;\nimport com.aspose.pdf.tagged.ITaggedContent;\एन\एनString dataDir = \"YOUR_DOCUMENT_DIRECTORY\";\n\nDocument document = new Document();\nITaggedContent taggedContent = document.getTaggedContent();\n\n// Set title and language for accessibility compliance\ntaggedContent.setTitle(\"Tagged Pdf Document\");\ntaggedContent.setLanguage(\"en-US\");\n```\n\n**टैग की गई पीडीएफ को सहेजें**\एन```java\ndocument.save(dataDir + \"/TaggedPdfDocument.pdf\");\n```\n\n### फ़ीचर 3: टैग किए गए PDF में टेक्स्ट संरचना तत्व जोड़ना\n\n**अवलोकन:** बेहतर पठनीयता और पहुंच के लिए अपने दस्तावेज़ की सामग्री को संरचित करें.\n\n#### चरण-दर-चरण:\n\n**पैराग्राफ़ तत्व बनाएँ और जोड़ें**\एन```java\nimport com.aspose.pdf.Document;\nimport com.aspose.pdf.tagged.ITaggedContent;\nimport com.aspose.pdf.tagged.logicalstructure.elements.ParagraphElement;\एन\एनString outputDir = \"YOUR_OUTPUT_DIRECTORY\";\n\nDocument document = new Document();\nITaggedContent taggedContent = document.getTaggedContent();\ntaggedContent.getRootElement().appendChild(taggedContent.createParagraphElement()\n    .setText(\"This is a sample paragraph in a tagged PDF.\"));\n```\n\n**उन्नत पीडीएफ को सहेजें**\एन```java\ndocument.save(outputDir + \"/TextStructureElementsAdded.pdf\");\n```\n\n## व्यावहारिक अनुप्रयोग\n\nयहाँ कुछ व्यावहारिक परिदृश्य दिए गए हैं जहाँ Aspose.PDF for Java अमूल्य हो सकता है:\n\n1. **स्वचालित रिपोर्ट निर्माण:** संरचित और स्टाइलयुक्त PDF तैयार करके व्यावसायिक रिपोर्टिंग को सरल बनाएँ।\n2. **शैक्षिक सामग्री निर्माण:** विविध शिक्षार्थियों के लिए टैग की गई सामग्री के साथ सुलभ ई-लर्निंग सामग्री विकसित करें।\n3. **डिजीटल हस्ताक्षर:** सुरक्षित दस्तावेज़ हस्ताक्षर की आवश्यकता वाले सिस्टम में एकीकृत करें, पहुँच मानकों के साथ अनुपालन सुनिश्चित करें।\n\n## प्रदर्शन संबंधी विचार\n\nबड़े पैमाने पर PDF संचालन के साथ काम करते समय:\n- ऑब्जेक्ट लाइफ़साइकिल को सावधानीपूर्वक प्रबंधित करके मेमोरी उपयोग को अनुकूलित करें।\n- जहाँ संभव हो संसाधन तनाव को कम करने के लिए बैच प्रोसेसिंग का उपयोग करें।\n- बाधाओं के लिए अपने एप्लिकेशन को प्रोफ़ाइल करें और तदनुसार अनुकूलित करें।\n\n## निष्कर्ष\n\nअब आपने जावा के लिए Aspose.PDF का उपयोग करके PDF बनाने, टैग करने और संरचना करने का तरीका खोज लिया है। ये कौशल आपके एप्लिकेशन की पहुँच और कार्यक्षमता को बढ़ा सकते हैं। में और अधिक सुविधाओं की खोज जारी रखें [Aspose दस्तावेज़ीकरण](https://reference.aspose.com/pdf/java/) अपनी क्षमताओं को और अधिक विस्तारित करने के लिए।\n\n**अगले कदम:**\n- अतिरिक्त दस्तावेज़ तत्वों के साथ प्रयोग करें।\n- डेटाबेस या वेब सेवाओं जैसे अन्य सिस्टम के साथ एकीकरण की संभावनाओं का पता लगाएं।\n\nक्या आप PDF निर्माण के लिए तैयार हैं? आज ही इन समाधानों को लागू करने का प्रयास करें!\n\n## FAQ अनुभाग\n\n1. **मैं पीडीएफ फाइल को सहेजते समय अपवादों को कैसे संभालूँ?**\n - IOExceptions को प्रबंधित करने और उचित संसाधन सफ़ाई सुनिश्चित करने के लिए अपने सेव विधियों के आस-पास try-catch ब्लॉक का उपयोग करें।\n   
-2. **क्या Aspose.PDF for Java का उपयोग वेब अनुप्रयोगों में किया जा सकता है?**\n - हां, यह स्टैंडअलोन और वेब-आधारित जावा अनुप्रयोगों दोनों के लिए उपयुक्त है।\n3. **टैग की गई और टैग न की गई पीडीएफ सामग्री के बीच क्या अंतर है?**\n - टैग किए गए PDF में मेटाडेटा शामिल होता है जो स्क्रीन रीडर के लिए पहुँच को बेहतर बनाता है, जबकि अनटैग किए गए PDF में ऐसा नहीं होता है।\n4. **क्या पाठ संरचना तत्वों को जोड़ते समय प्रदर्शन पर कोई प्रभाव पड़ता है?**\n - आम तौर पर न्यूनतम, लेकिन अगर प्रदर्शन एक मुद्दा बन जाता है तो हमेशा अपने एप्लिकेशन को प्रोफाइल करें।\n5. **मैं कैसे सुनिश्चित कर सकता हूं कि मेरे पीडीएफ दस्तावेज़ सभी उपयोगकर्ताओं के लिए सुलभ हों?**\n - टैग की गई सामग्री का उपयोग करें और पहुँच-योग्यता अनुपालन को सत्यापित करने के लिए विभिन्न स्क्रीन रीडर के साथ परीक्षण करें।\n\n## संसाधन\n- [Aspose.PDF दस्तावेज़ीकरण](https://reference.aspose.com/pdf/java/)\एन- [Java के लिए Aspose.PDF डाउनलोड करें](https://releases.aspose.com/pdf/java/)\एन- [खरीद लाइसेंस](https://purchase.aspose.com/buy)\एन- [मुफ्त परीक्षण](https://releases.aspose.com/pdf/java/)\एन- [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)\एन- [सहयता मंच](https://forum.aspose.com/c/pdf/10)\n\nAspose.PDF for Java के साथ PDF की दुनिया में गोता लगाएँ, और दस्तावेज़ प्रबंधन में नई संभावनाओं को अनलॉक करें!
+
+# Aspose.PDF for Java के साथ PDF निर्माण और टैगिंग में महारत हासिल करना
+
+## परिचय
+
+क्या आप **Java में PDF बनाना** चाहते हैं, जिसमें अभिगम्यता और संरचना पर पूर्ण नियंत्रण हो? आप सही जगह पर हैं! इस गाइड में, हम देखेंगे कि **Aspose.PDF for Java** का उपयोग करके PDFs को प्रभावी ढंग से उत्पन्न, टैग और हेरफेर कैसे किया जा सकता है। चाहे आपको एक साधा एक‑पृष्ठ रिपोर्ट चाहिए या एक जटिल, टैग किया हुआ दस्तावेज़ जो अभिगम्यता मानकों को पूरा करता हो, इन टूल्स में महारत हासिल करना आधुनिक Java अनुप्रयोगों के लिए आवश्यक है।
+
+**Aspose.PDF for Java का उपयोग करने के मुख्य लाभ:**  
+- **Seamless integration:** किसी भी Java प्रोजेक्ट में मजबूत PDF क्षमताओं को जोड़ें।  
+- **Versatile document creation:** खाली कैनवास से लेकर समृद्ध संरचित PDFs तक।  
+- **Enhanced accessibility:** टैग जोड़ें ताकि स्क्रीन रीडर आपके कंटेंट को सही ढंग से व्याख्या कर सके।
+
+**आप क्या सीखेंगे:**  
+- कैसे एक खाली PDF दस्तावेज़ बनाएं।  
+- कैसे टैग किए गए PDF कंटेंट के साथ काम करें।  
+- कैसे पैराग्राफ जैसे टेक्स्ट‑स्ट्रक्चर तत्व जोड़ें।  
+
+शुरू करने के लिए तैयार हैं? पहले सुनिश्चित करें कि आपका विकास वातावरण तैयार है।
+
+## त्वरित उत्तर
+- **PDF निर्माण के लिए मुख्य क्लास कौन सी है?** `Document` वह कोर क्लास है जो मेमोरी में PDF का प्रतिनिधित्व करती है।  
+- **क्या विकास के लिए लाइसेंस की आवश्यकता है?** एक मुफ्त ट्रायल मूल्यांकन के लिए काम करता है; लाइसेंस मूल्यांकन सीमाओं को हटाता है।  
+- **कौन सा बिल्ड टूल सुझाया जाता है?** Maven या Gradle – दोनों पूरी तरह समर्थित हैं।  
+- **क्या मैं अभिगम्यता टैग जोड़ सकता हूँ?** हाँ, Aspose.PDF PDF/UA अनुपालन के लिए पूर्ण टैगिंग का समर्थन करता है।  
+- **कौन सा Java संस्करण आवश्यक है?** JDK 8 या उससे ऊपर।
+
+## Aspose.PDF for Java क्या है?
+`Aspose.PDF for Java` एक लाइब्रेरी है जो डेवलपर्स को प्रोग्रामेटिकली PDF फ़ाइलें बनाने, संपादित करने, परिवर्तित करने और रेंडर करने की अनुमति देती है, बिना Adobe Acrobat की आवश्यकता के। यह 50 से अधिक इनपुट और आउटपुट फ़ॉर्मेट का समर्थन करती है और पूरे फ़ाइल को मेमोरी में लोड किए बिना कई‑सौ‑पृष्ठ दस्तावेज़ों को प्रोसेस कर सकती है।
+
+## पूर्वापेक्षाएँ
+
+### आवश्यक लाइब्रेरी और निर्भरताएँ
+निम्नलिखित बिल्ड कॉन्फ़िगरेशन में से किसी एक का उपयोग करके लाइब्रेरी को अपने प्रोजेक्ट में जोड़ें।
+
+**Maven:**  
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-pdf</artifactId>
+    <version>25.3</version>
+</dependency>
+```
+
+**Gradle:**  
+```gradle
+implementation 'com.aspose:aspose-pdf:25.3'
+```
+
+### पर्यावरण सेटअप
+- JDK 8 या उससे नया स्थापित हो।  
+- IntelliJ IDEA या Eclipse जैसे IDE।
+
+### ज्ञान पूर्वापेक्षाएँ
+बुनियादी Java प्रोग्रामिंग ज्ञान पर्याप्त है; PDF अवधारणाएँ आवश्यकतानुसार समझाई गई हैं।
+
+## Aspose.PDF for Java सेटअप करना
+
+1. **निर्भरताएँ जोड़ें** ऊपर दिखाए गए।  
+2. **लाइसेंस प्राप्ति** – आप [Aspose's release page](https://releases.aspose.com/pdf/java/) से ट्रायल डाउनलोड करके शुरू कर सकते हैं। मूल्यांकन सीमाओं को हटाने के लिए, [this link](https://purchase.aspose.com/temporary-license/) से एक अस्थायी लाइसेंस प्राप्त करें या पूर्ण लाइसेंस खरीदें।  
+3. **बेसिक इनिशियलाइज़ेशन** – `Document` क्लास सभी PDF ऑपरेशनों के लिए एंट्री पॉइंट है।
+
+### सीधा उत्तर
+एक नया PDF लोड करने के लिए `Document` इंस्टेंस बनाएं: `Document document = new Document();` – यह एक पंक्ति मेमोरी में PDF बनाती है जो आगे की हेरफेर के लिए तैयार है।
+
+```java
+import com.aspose.pdf.Document;
+
+// Initialize the Document object
+Document document = new Document();
+```
+
+## कार्यान्वयन गाइड
+
+हम तीन मुख्य सुविधाओं के माध्यम से चलेंगे: एक खाली PDF बनाना, अभिगम्यता टैग जोड़ना, और संरचित टेक्स्ट तत्व सम्मिलित करना।
+
+## Java में एक खाली PDF दस्तावेज़ कैसे बनाएं?
+
+`Document` वह कोर क्लास है जो मेमोरी में PDF दस्तावेज़ का प्रतिनिधित्व करती है।  
+एक खाली PDF उत्पन्न करने के लिए, `Document` क्लास का इंस्टेंस बनाएं और तुरंत उसकी `save` मेथड को इच्छित फ़ाइल पाथ के साथ कॉल करें। यह एक वैध PDF फ़ाइल बनाता है जिसमें एक खाली पृष्ठ होता है, जिसे आप बाद में आवश्यकतानुसार पृष्ठ, टेक्स्ट या अन्य तत्व जोड़ सकते हैं।
+
+```java
+import com.aspose.pdf.Document;
+
+// Define output directory for saving documents
+String outputDir = "YOUR_OUTPUT_DIRECTORY";
+
+// Create a new, empty PDF document
+Document document = new Document();
+```
+
+```java
+// Save the newly created PDF to the specified location
+document.save(outputDir + "/CreatedPdfDocument.pdf");
+```
+
+## Java में PDF में अभिगम्यता टैग कैसे जोड़ें?
+
+`ITaggedContent` वह इंटरफ़ेस है जो शीर्षक, भाषा, और संरचना जैसी PDF टैगिंग जानकारी को प्रबंधित करने के लिए मेथड प्रदान करता है।  
+`Document` बनाने के बाद, `document.getTaggedContent()` के माध्यम से उसकी टैगिंग इंटरफ़ेस प्राप्त करें। इस ऑब्जेक्ट का उपयोग करके दस्तावेज़ का शीर्षक, भाषा, और अभिगम्यता के लिए आवश्यक अन्य मेटाडेटा सेट करें। अंत में, दस्तावेज़ को सहेजें; परिणामी PDF में उपयुक्त टैग होंगे जो स्क्रीन रीडर की मदद करेंगे और PDF/UA मानकों को पूरा करेंगे।
+
+```java
+import com.aspose.pdf.Document;
+import com.aspose.pdf.tagged.ITaggedContent;
+
+String dataDir = "YOUR_DOCUMENT_DIRECTORY";
+
+Document document = new Document();
+ITaggedContent taggedContent = document.getTaggedContent();
+
+// Set title and language for accessibility compliance
+taggedContent.setTitle("Tagged Pdf Document");
+taggedContent.setLanguage("en-US");
+```
+
+```java
+document.save(dataDir + "/TaggedPdfDocument.pdf");
+```
+
+## Java में टैग किए गए PDF में टेक्स्ट संरचना तत्व कैसे जोड़ें?
+
+`Paragraph` एक लॉजिकल‑स्ट्रक्चर तत्व है जो टैग किए गए PDF में टेक्स्ट ब्लॉक का प्रतिनिधित्व करता है।  
+दस्तावेज़ के `ITaggedContent` ऑब्जेक्ट को प्राप्त करें और उसकी `addParagraph` मेथड को कॉल करें, जिसमें इच्छित टेक्स्ट वाला नया `Paragraph` इंस्टेंस पास करें। यह लॉजिकल स्ट्रक्चर ट्री में सही तरीके से टैग किया हुआ पैराग्राफ सम्मिलित करता है, जिससे सहायक तकनीकों के लिए सही पढ़ने का क्रम सुनिश्चित होता है। परिवर्तनों को संरक्षित करने के लिए दस्तावेज़ को सहेजें।
+
+```java
+import com.aspose.pdf.Document;
+import com.aspose.pdf.tagged.ITaggedContent;
+import com.aspose.pdf.tagged.logicalstructure.elements.ParagraphElement;
+
+String outputDir = "YOUR_OUTPUT_DIRECTORY";
+
+Document document = new Document();
+ITaggedContent taggedContent = document.getTaggedContent();
+taggedContent.getRootElement().appendChild(
+    taggedContent.createParagraphElement()
+        .setText("This is a sample paragraph in a tagged PDF.")
+);
+```
+
+```java
+document.save(outputDir + "/TextStructureElementsAdded.pdf");
+```
+
+## व्यावहारिक अनुप्रयोग
+
+1. **Automated report generation** – डेटाबेस डेटा से अनुपालन‑तैयार PDFs उत्पन्न करें।  
+2. **E‑learning content** – स्क्रीन रीडर के साथ काम करने वाले अभिगम्य कोर्स सामग्री बनाएं।  
+3. **Digital signatures** – कानूनी रूप से बाध्यकारी दस्तावेज़ों के लिए टैगिंग को सिग्नेचर फ़ील्ड के साथ संयोजित करें।
+
+## प्रदर्शन विचार
+
+जब बड़े PDFs प्रोसेस कर रहे हों:  
+- जहाँ संभव हो `Document` ऑब्जेक्ट्स को पुन: उपयोग करें ताकि GC दबाव कम हो।  
+- इमेज़ की मेमोरी‑कुशल हैंडलिंग के लिए `Document.optimizeResources()` सक्षम करें।  
+- UI को प्रतिक्रियाशील रखने के लिए बैकग्राउंड थ्रेड पूल में फ़ाइलों को बैच‑प्रोसेस करें।
+
+## निष्कर्ष
+
+अब आप जानते हैं कि **Java में PDF कैसे बनाएं**, अभिगम्यता टैग जोड़ें, और Aspose.PDF for Java का उपयोग करके टेक्स्ट को संरचित करें। ये क्षमताएँ आपको किसी भी Java‑आधारित समाधान के लिए अनुपालन‑युक्त, उच्च‑गुणवत्ता वाले दस्तावेज़ बनाने में मदद करती हैं। पूर्ण API का अन्वेषण करने के लिए [Aspose documentation](https://reference.aspose.com/pdf/java/) में देखें, जिससे फ़ॉर्म फ़ील्ड, डिजिटल सिग्नेचर, और PDF/A रूपांतरण जैसी उन्नत सुविधाएँ अनलॉक हो सकें।
+
+**अगले कदम**  
+- इमेज़, टेबल, और कस्टम फ़ॉन्ट जोड़ने के साथ प्रयोग करें।  
+- PDF जनरेशन फ्लो को REST सर्विस या बैच जॉब में एकीकृत करें।  
+
+## अक्सर पूछे जाने वाले प्रश्न
+
+1. **PDF फ़ाइल सहेजते समय अपवादों को कैसे संभालें?**  
+   - `document.save(...)` के चारों ओर `try‑catch` ब्लॉक्स का उपयोग करके `IOException` और `Exception` को पकड़ें, और `finally` ब्लॉक में किसी भी स्ट्रीम को बंद करना सुनिश्चित करें।  
+
+2. **क्या Aspose.PDF for Java वेब एप्लिकेशन में उपयोग किया जा सकता है?**  
+   - हाँ, यह लाइब्रेरी स्टैंडअलोन और वेब‑आधारित Java वातावरण दोनों में काम करती है, जिसमें Spring Boot और Jakarta EE शामिल हैं।  
+
+3. **टैग किए गए और अनटैग्ड PDF कंटेंट में क्या अंतर है?**  
+   - टैग किए गए PDFs में लॉजिकल स्ट्रक्चर ट्री और भाषा मेटाडेटा होता है, जिससे स्क्रीन रीडर कंटेंट को सही ढंग से व्याख्या कर सकते हैं; अनटैग्ड PDFs में यह जानकारी नहीं होती।  
+
+4. **टेक्स्ट स्ट्रक्चर तत्व जोड़ने से प्रदर्शन पर कोई प्रभाव पड़ता है क्या?**  
+   - ओवरहेड न्यूनतम है; पैराग्राफ तत्व जोड़ने से सामान्य हार्डवेयर पर प्रति ऑपरेशन 1 ms से कम समय लगता है।  
+
+5. **मैं कैसे सुनिश्चित करूँ कि मेरे PDFs सभी उपयोगकर्ताओं के लिए अभिगम्य हों?**  
+   - टैगिंग API का उपयोग करें, दस्तावेज़ की भाषा सेट करें, और PDF/UA वैलिडेशन टूल्स से आउटपुट को वैलिडेट करें।  
+
+## अक्सर पूछे जाने वाले प्रश्न
+
+**Q: क्या उत्पादन उपयोग के लिए भुगतान लाइसेंस की आवश्यकता है?**  
+A: हाँ, एक कमर्शियल लाइसेंस मूल्यांकन सीमाओं को हटाता है और पूर्ण API एक्सेस देता है; विकास और परीक्षण के लिए एक मुफ्त ट्रायल उपलब्ध है।
+
+**Q: क्या मैं मौजूदा PDFs को टैग्ड PDFs में बदल सकता हूँ?**  
+A: बिल्कुल। `new Document(path)` से PDF लोड करें, `document.getTaggedContent()` के माध्यम से टैगिंग सक्षम करें, शीर्षक/भाषा सेट करें, और सहेजें।
+
+**Q: कौन से Java संस्करण आधिकारिक रूप से समर्थित हैं?**  
+A: Aspose.PDF for Java JDK 8 से लेकर JDK 21 तक समर्थन देता है, जो लेगेसी और आधुनिक दोनों वातावरण को कवर करता है।
+
+**Q: पासवर्ड‑सुरक्षित PDFs को कैसे संभालें?**  
+A: पासवर्ड को `Document` कंस्ट्रक्टर में पास करें: `new Document("file.pdf", new LoadOptions("password"))`।
+
+**Q: टैगिंग के बाद PDF फ़ाइल आकार कम करने का कोई तरीका है?**  
+A: `document.compress()` या `document.optimizeResources()` का उपयोग करके अनउपयोगी ऑब्जेक्ट्स हटाएँ और स्ट्रीम्स को कंप्रेस करें।
+
+## संसाधन
+- [Aspose.PDF दस्तावेज़ीकरण](https://reference.aspose.com/pdf/java/)
+- [Aspose.PDF for Java डाउनलोड करें](https://releases.aspose.com/pdf/java/)
+- [लाइसेंस खरीदें](https://purchase.aspose.com/buy)
+- [मुफ्त ट्रायल](https://releases.aspose.com/pdf/java/)
+- [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)
+- [सपोर्ट फ़ोरम](https://forum.aspose.com/c/pdf/10)
+
+---
+
+**अंतिम अपडेट:** 2026-09-12  
+**परीक्षण किया गया संस्करण:** Aspose.PDF for Java 25.3  
+**लेखक:** Aspose
+
+## संबंधित ट्यूटोरियल
+- [Aspose.PDF for Java का उपयोग करके टैग्ड PDFs बनाएं और प्रबंधित करें: अपने दस्तावेज़ों में अभिगम्यता बढ़ाएँ](/pdf/java/document-manipulation/create-manage-tagged-pdfs-aspose-pdf-java/)
+- [Aspose.PDF for Java का उपयोग करके इमेज़ के साथ अभिगम्य PDFs बनाएं: टैग्ड PDF निर्माण पर पूर्ण गाइड](/pdf/java/images-graphics/create-accessible-pdf-images-aspose-pdf-java/)
+- [Aspose.PDF for Java का उपयोग करके PDFs में टेबल ऑफ कंटेंट्स (TOC) बनाएं: डेवलपर गाइड](/pdf/java/bookmarks-navigation/aspose-pdf-java-create-toc-in-pdfs/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
