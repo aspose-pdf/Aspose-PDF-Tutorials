@@ -81,6 +81,9 @@ Hướng dẫn chi tiết cách trích xuất chữ ký số từ tệp PDF bằ
 ### [Kiểm tra chữ ký PDF trong C# – Xác thực chữ ký số PDF](./check-pdf-signature-in-c-validate-digital-signature-pdf/)
 Hướng dẫn cách kiểm tra và xác thực chữ ký số trong PDF bằng C# và Aspose.PDF, đảm bảo tính toàn vẹn tài liệu.
 
+### [Cách xác minh chữ ký PDF với Aspose.PDF](./how-to-verify-pdf-signatures-with-aspose-pdf/)
+Hướng dẫn chi tiết cách xác minh chữ ký số trong tài liệu PDF bằng Aspose.PDF, bao gồm cài đặt và kiểm tra tính toàn vẹn.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)

@@ -71,6 +71,7 @@
 | [Τμήματα κειμένου σε αρχείο PDF](./text-segments/) | Μάθετε πώς να αναζητάτε συγκεκριμένα τμήματα κειμένου σε αρχείο PDF χρησιμοποιώντας κανονικές εκφράσεις στο Aspose.PDF για .NET. |  
 | [Χρήση Latex Script σε αρχείο PDF](./use-latex-script/) | Μάθετε πώς να χρησιμοποιείτε το σενάριο Latex για να προσθέσετε μαθηματικές εκφράσεις ή τύπους σε αρχείο PDF χρησιμοποιώντας το Aspose.PDF για .NET. |  
 | [Προσθήκη Bates Numbers σε PDF – αριθμοδότηση Bates](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Μάθετε πώς να προσθέτετε Bates Numbers σε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET. |  
+| [Δημιουργία περίληψης PDF με Aspose.Pdf.AI και OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Μάθετε πώς να δημιουργείτε περίληψη PDF χρησιμοποιώντας το Aspose.Pdf.AI σε συνδυασμό με το OpenAI. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

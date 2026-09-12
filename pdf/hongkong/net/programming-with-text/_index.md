@@ -71,6 +71,7 @@ Aspose.PDF 的 .NET「使用文字程式設計」教學課程提供了處理 PDF
 | [PDF檔案中的文字片段](./text-segments/) |了解如何在 Aspose.PDF for .NET 中使用正規表示式搜尋 PDF 檔案中的特定文字段。 |  
 | [在 PDF 檔案中使用 Latex 腳本](./use-latex-script/) |了解如何使用 Latex 腳本透過 Aspose.PDF for .NET 在 PDF 檔案中新增數學運算式或公式。 |  
 | [在 PDF 中添加 Bates 編號](./add-bates-numbers-to-pdf-bates-numbering-pdf/) |了解如何使用 Aspose.PDF for .NET 在 PDF 文件中添加 Bates 編號，以便於文件管理與追蹤。 |  
+| [使用 Aspose.Pdf.AI 與 OpenAI 產生 PDF 摘要](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) |了解如何結合 Aspose.Pdf.AI 與 OpenAI 生成 PDF 文件的摘要，提升文件分析效率。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

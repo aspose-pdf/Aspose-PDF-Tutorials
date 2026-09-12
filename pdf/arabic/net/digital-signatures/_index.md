@@ -61,6 +61,9 @@
 ### [كيفية استخراج الموقّع من ملف PDF – دليل C# كامل](./how-to-extract-signer-from-pdf-complete-c-guide/)
 تعلم خطوة بخطوة كيفية استخراج معلومات الموقّع من ملفات PDF باستخدام Aspose.PDF في C#.
 
+### [كيفية التحقق من توقيعات PDF باستخدام Aspose.PDF](./how-to-verify-pdf-signatures-with-aspose-pdf/)
+دليل شامل للتحقق من صحة توقيعات PDF باستخدام Aspose.PDF.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

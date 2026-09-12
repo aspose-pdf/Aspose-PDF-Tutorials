@@ -35,8 +35,10 @@ Découvrez comment extraire les informations de signature numérique de PDF avec
 Découvrez comment implémenter des signatures numériques sécurisées sur des fichiers PDF à l’aide d’Aspose.PDF pour .NET, notamment en supprimant les champs facultatifs.
 ### [Comment supprimer les signatures numériques d'un PDF avec Aspose.PDF .NET | Guide complet](./remove-pdf-digital-signatures-aspose-pdf-net/)
 Découvrez comment supprimer efficacement les signatures numériques des PDF avec Aspose.PDF .NET. Ce guide complet couvre la suppression de signatures uniques et multiples, avec des instructions étape par étape.
-### [Comment vérifier les signatures PDF avec Aspose.PDF pour .NET : guide complet](./verify-pdf-signatures-aspose-pdf-net/)
+### [Comment vérifier les signatures PDF avec Aspose.PDF pour .NET](./verify-pdf-signatures-aspose-pdf-net/)
 Découvrez comment vérifier les signatures numériques dans les fichiers PDF avec Aspose.PDF pour .NET. Ce guide couvre la configuration, la mise en œuvre et les applications pratiques.
+### [Comment vérifier les signatures PDF avec Aspose.PDF](./how-to-verify-pdf-signatures-with-aspose-pdf/)
+Apprenez à vérifier les signatures PDF avec Aspose.PDF en C#.
 ### [Maîtrisez la signature et la vérification PDF avec Aspose.PDF .NET](./mastering-aspose-pdf-net-sign-verify-smart-card-certificates/)
 Un tutoriel de code pour Aspose.PDF Net
 ### [Maîtriser Aspose.PDF .NET : Comment vérifier les signatures numériques dans les fichiers PDF](./aspose-pdf-net-verify-digital-signature/)
