@@ -1,0 +1,7 @@
+Title: How to verify PDF signatures with Aspose.PDF
+Slug: how-to-verify-pdf-signatures-with-aspose-pdf
+Category: digital-signatures
+ProcessedDate: 2026-09-12T10:30:33.228687
+SourceRepo: AI Search API
+Keywords: how to verify pdf, verify pdf digital signature, check pdf signature validity, read signatures from pdf, get pdf signatures
+PRNumber: 128
