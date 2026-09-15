@@ -19,7 +19,6 @@ Güvenlik ve İmzalarla Programlama öğreticisi, PDF belgeleri için güvenlik 
 Eğitim, PDF dosyalarınızın gizliliğini ve gerçekliğini sağlamak için yöntemler ve teknikler hakkında ayrıntılı bir genel bakış sunar. Dijital sertifikaları nasıl yöneteceğinizi, güvenlik izinleri nasıl ekleyeceğinizi, güvenlik politikalarını nasıl uygulayacağınızı ve daha fazlasını öğreneceksiniz. Bu eğitimleri kullanarak PDF belgelerinizi güvenilir ve profesyonel bir şekilde güvence altına alabileceksiniz.
 
 ## Eğitimler
-
 | Başlık | Açıklama |
 | --- | --- | 
 | [PDF Dosyasında Şifreyi Değiştir](./change-password/) | Aspose.PDF for .NET kullanarak PDF şifrelerini kolayca değiştirmeyi öğrenin. Adım adım kılavuzumuz sizi güvenli bir şekilde bu süreçte yönlendirir. |  
@@ -34,7 +33,16 @@ Eğitim, PDF dosyalarınızın gizliliğini ve gerçekliğini sağlamak için y�
 | [PDF Dosyasında Ayrıcalıkları Ayarla](./set-privileges/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF ayrıcalıklarının nasıl ayarlanacağını öğrenin. Belgelerinizi etkili bir şekilde güvenceye alın. |  
 | [Pdf Dosya İmzası Kullanarak Akıllı Kartla İmzalayın](./sign-with-smart-card-using-pdf-file-signature/) | Aspose.PDF for .NET ile akıllı kart kullanarak PDF dosyalarını nasıl imzalayacağınızı öğrenin. Güvenli dijital imzalar için bu adım adım kılavuzu izleyin. |  
 | [İmza Alanını Kullanarak Akıllı Kartla İmzalayın](./sign-with-smart-card-using-signature-field/) | Aspose.PDF for .NET ile akıllı kart kullanarak PDF'leri güvenli bir şekilde nasıl imzalayacağınızı öğrenin. Kolay uygulama için adım adım kılavuzumuzu izleyin. |  
-| [C# ile PDF İmzasını Doğrulama – Tam Adım Adım Kılavuz](./verify-pdf-signature-in-c-complete-step-by-step-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF imzalarını nasıl doğrulayacağınızı adım adım öğrenin. |  
+| [C#'ta PDF İmzasını Doğrulama – Tam Adım Adım Kılavuz](./verify-pdf-signature-in-c-complete-step-by-step-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF imzasını nasıl doğrulayacağınızı adım adım öğrenin. |  
+| [İmzalı PDF Aç – Dijital İmzalarını Nasıl Okursunuz](./open-signed-pdf-how-to-read-its-digital-signatures/) | Aspose.PDF for .NET kullanarak imzalı PDF dosyalarının dijital imzalarını nasıl okuyacağınızı adım adım öğrenin. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 | [PDF Dosyasında İmzaları Doğrulama](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) | Aspose.PDF for .NET kullanarak PDF dosyalarındaki dijital imzaları nasıl doğrulayacağınızı öğrenin. |  
 | [C# ile PDF İmzalarını Kontrol Et – İmzalı PDF Dosyalarını Okuma](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Aspose.PDF for .NET kullanarak C# ile PDF imzalarını kontrol etmeyi ve imzalı dosyaları okumayı öğrenin. |  
 | [PDF Dosyalarını Onarmak – Aspose.Pdf ile Tam C# Rehberi](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Aspose.PDF for .NET kullanarak PDF dosyalarını nasıl onaracağınızı adım adım öğrenin. |  

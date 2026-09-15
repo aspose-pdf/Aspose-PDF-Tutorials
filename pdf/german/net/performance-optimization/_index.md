@@ -16,7 +16,6 @@
 Erfahren Sie mit unseren Aspose.PDF-Optimierungs-Tutorials für .NET, wie Sie leistungsstarke PDF-Verarbeitungsanwendungen erstellen. Diese praktischen Anleitungen demonstrieren Techniken für effizientes Speichermanagement, Verbesserungen der Ausführungszeit und Strategien für die effektive Verarbeitung großer PDF-Dokumente. Jedes Tutorial enthält detaillierte C#-Codebeispiele und Best Practices zur Optimierung kritischer Leistungsaspekte. So bleiben Ihre Anwendungen auch bei umfangreichen PDF-Dokumenten reaktionsschnell und zuverlässig.
 
 ## Verfügbare Tutorials
-
 ### [Umfassender Leitfaden zur PDF-Optimierung in .NET mit Aspose.PDF](./aspose-pdf-dotnet-optimization-guide/)
 Erfahren Sie, wie Sie PDFs mit Aspose.PDF für .NET optimieren und so Ressourcen effizient nutzen und hochwertige Dokumente erstellen. Meistern Sie GSave/GRestore-Operationen und die XForm-Grafikverwaltung.
 
@@ -49,6 +48,12 @@ Meistern Sie die Kunst, SVG-Dateien präzise und effizient in PDFs zu konvertier
 
 ### [Einbetten von Schriftarten in PDFs mit Aspose.PDF für .NET: Reduzieren Sie die Dateigröße und verbessern Sie die Leistung](./optimize-pdfs-unembed-fonts-aspose-pdf-net/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET Schriftarten aus Ihren PDF-Dateien entfernen. Optimieren Sie die PDF-Leistung, reduzieren Sie die Dateigröße und verbessern Sie die Ladezeiten mit dieser Schritt-für-Schritt-Anleitung.
+
+### [Optimiertes PDF erstellen – PDF-Bilder mit verlustfreiem JPEG komprimieren](./create-optimized-pdf-compress-pdf-images-with-lossless-jpeg/)
+Erfahren Sie, wie Sie PDF-Bilder mit verlustfreiem JPEG komprimieren, um die Dateigröße zu reduzieren und die Qualität beizubehalten.
+
+### [Wie man PDF in C# optimiert: Leere Seite hinzufügen, HTML exportieren, signieren](./how-to-optimize-pdf-in-c-add-blank-page-export-html-sign/)
+Erfahren Sie, wie Sie PDFs in C# optimieren, indem Sie leere Seiten hinzufügen, HTML exportieren und digitale Signaturen anwenden.
 
 ### [PDF-Bilder optimieren – PDF-Dateigröße mit C# reduzieren](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
 Erfahren Sie, wie Sie Bilder in PDFs mit C# reduzieren, um die Dateigröße zu verkleinern und die Leistung zu verbessern.

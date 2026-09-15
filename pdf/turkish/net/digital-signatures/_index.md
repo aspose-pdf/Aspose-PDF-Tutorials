@@ -81,6 +81,9 @@ C# kullanarak Aspose.PDF ile PDF dosyalarından dijital imzaları çıkarmayı a
 ### [C# ile PDF İmzasını Kontrol Et – Dijital İmza PDF'sini Doğrula](./check-pdf-signature-in-c-validate-digital-signature-pdf/)
 C# kullanarak PDF dosyalarındaki dijital imzaları nasıl doğrulayacağınızı adım adım öğrenin.
 
+### [C# ile PDF İmzasını Doğrulama – Adım Adım Kılavuz](./validate-pdf-signature-in-c-step-by-step-guide/)
+C# kullanarak PDF dosyalarındaki dijital imzaları nasıl doğrulayacağınızı adım adım öğrenin.
+
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)

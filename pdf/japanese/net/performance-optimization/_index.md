@@ -16,7 +16,6 @@
 .NET向けAspose.PDF最適化チュートリアルで、高パフォーマンスなPDF処理アプリケーションの構築方法を学びましょう。これらの実践的なガイドでは、効率的なメモリ管理、実行時間の改善、そして大容量PDFドキュメントを効果的に処理するための戦略を解説します。各チュートリアルには、詳細なC#コード例と、重要なパフォーマンス側面を最適化するためのベストプラクティスが含まれており、大容量のPDFドキュメントを処理する場合でも、アプリケーションの応答性と信頼性を維持できます。
 
 ## 利用可能なチュートリアル
-
 ### [Aspose.PDF を使用した .NET での PDF 最適化の総合ガイド](./aspose-pdf-dotnet-optimization-guide/)
 Aspose.PDF for .NET を使ってPDFを最適化し、リソースの効率的な利用と高品質なドキュメントを実現する方法を学びましょう。GSave/GRestore 操作と XForm グラフィック管理を習得しましょう。
 
@@ -49,6 +48,12 @@ Aspose.PDF for .NET を使って、SVG ファイルを正確かつ効率的に P
 
 ### [Aspose.PDF for .NET を使用して PDF からフォントを埋め込み解除: ファイルサイズを縮小し、パフォーマンスを向上](./optimize-pdfs-unembed-fonts-aspose-pdf-net/)
 Aspose.PDF for .NET を使用して、PDF ファイルからフォントの埋め込みを解除する方法を学びましょう。このステップバイステップガイドで、PDF のパフォーマンスを最適化し、ファイルサイズを縮小し、読み込み時間を短縮しましょう。
+
+### [最適化 PDF を作成 – ロスレス JPEG で PDF 画像を圧縮](./create-optimized-pdf-compress-pdf-images-with-lossless-jpeg/)
+ロスレス JPEG 圧縮を使用して PDF 内の画像サイズを削減し、品質を保ったまま最適化された PDF を作成する方法を学びます。
+
+### [C#でPDFを最適化する方法：空白ページの追加、HTMLへのエクスポート、署名](./how-to-optimize-pdf-in-c-add-blank-page-export-html-sign/)
+C# を使用して PDF に空白ページを追加し、HTML にエクスポートし、デジタル署名を行う手順を解説します。
 
 ### [PDF 画像の最適化 – C# で PDF ファイルサイズを削減](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
 C# を使用して PDF 内の画像を圧縮・最適化し、ファイルサイズを効果的に削減する方法を学びます。

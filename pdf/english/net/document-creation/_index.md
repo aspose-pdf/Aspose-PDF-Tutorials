@@ -92,6 +92,12 @@ Learn how to add a new page, draw a rectangle, and save the PDF using Aspose.PDF
 ### [Create PDF Document C# – Add Bates Numbering Guide](./create-pdf-document-c-add-bates-numbering-guide/)
 Learn how to add Bates numbering to PDF documents using Aspose.PDF for .NET in C#. Step-by-step implementation guide.
 
+### [Create PDF Document with Aspose.Pdf – Step‑by‑Step Guide](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Learn how to generate PDF documents using Aspose.PDF for .NET with a detailed step-by-step guide.
+
+### [Create PDF Document – Add Blank Page, Draw Rectangle & Save](./create-pdf-document-add-blank-page-draw-rectangle-save/)
+Learn how to add a blank page, draw a rectangle, and save the PDF using Aspose.PDF for .NET.
+
 ## Additional Resources
 
 - [Aspose.PDF for Net Documentation](https://docs.aspose.com/pdf/net/)

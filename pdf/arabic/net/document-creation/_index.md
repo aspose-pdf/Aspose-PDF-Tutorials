@@ -82,6 +82,12 @@
 ### [إنشاء مستند PDF باستخدام C# – دليل إضافة ترقيم Bates](./create-pdf-document-c-add-bates-numbering-guide/)
 تعلم كيفية إضافة ترقيم Bates إلى مستندات PDF باستخدام Aspose.PDF لـ .NET في C# خطوة بخطوة.
 
+### [إنشاء مستند PDF – إضافة صفحة فارغة، رسم مستطيل وحفظ](./create-pdf-document-add-blank-page-draw-rectangle-save/)
+تعلم كيفية إنشاء مستند PDF، إضافة صفحة فارغة، رسم مستطيل، ثم حفظ الملف باستخدام Aspose.PDF لـ .NET.
+
+### [إنشاء مستند PDF باستخدام Aspose.Pdf – دليل خطوة بخطوة](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+تعرّف على كيفية إنشاء مستند PDF من الصفر باستخدام Aspose.Pdf خطوة بخطوة.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

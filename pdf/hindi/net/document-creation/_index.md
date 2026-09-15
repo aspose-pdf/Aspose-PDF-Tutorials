@@ -80,6 +80,12 @@ C# में चरण‑दर‑चरण PDF दस्तावेज़ ब�
 ### [C# में PDF दस्तावेज़ बनाना – Bates नंबरिंग जोड़ने का गाइड](./create-pdf-document-c-add-bates-numbering-guide/)
 Aspose.PDF के साथ C# में PDF में Bates नंबरिंग कैसे जोड़ें, सीखें।
 
+### [Aspose.Pdf के साथ PDF दस्तावेज़ बनाएं: एक चरण-दर-चरण मार्गदर्शिका](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Aspose.Pdf का उपयोग करके .NET में PDF दस्तावेज़ बनाने की प्रक्रिया सीखें। सेटअप, कोड उदाहरण और सर्वोत्तम प्रथाएँ शामिल हैं।
+
+### [PDF दस्तावेज़ बनाएं – खाली पृष्ठ जोड़ें, आयत बनाएं और सहेजें](./create-pdf-document-add-blank-page-draw-rectangle-save/)
+Aspose.PDF .NET का उपयोग करके नया PDF बनाएं, खाली पृष्ठ जोड़ें, आयत बनाएं और फ़ाइल सहेजें।
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.PDF for Net दस्तावेज़ीकरण](https://docs.aspose.com/pdf/net/)

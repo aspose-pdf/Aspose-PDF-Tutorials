@@ -19,24 +19,32 @@ De tutorial 'Programmeren met beveiliging en handtekeningen' leidt u door de bev
 De tutorial geeft u een gedetailleerd overzicht van methoden en technieken om de vertrouwelijkheid en authenticiteit van uw PDF-bestanden te waarborgen. U leert hoe u digitale certificaten beheert, beveiligingsmachtigingen toevoegt, beveiligingsbeleid toepast en meer. Met behulp van deze tutorials kunt u uw PDF-documenten betrouwbaar en professioneel beveiligen.
 
 ## Zelfstudies
-
 | Titel | Beschrijving |
 | --- | --- | 
 | [Wachtwoord wijzigen in PDF-bestand](./change-password/) | Leer hoe u PDF-wachtwoorden eenvoudig kunt wijzigen met Aspose.PDF voor .NET. Onze stapsgewijze handleiding leidt u veilig door het proces. |  
 | [PDF-bestand decoderen](./decrypt/) | Leer hoe u PDF-bestanden veilig kunt decoderen met Aspose.PDF voor .NET. Krijg stapsgewijze begeleiding om uw vaardigheden in documentbeheer te verbeteren. |  
 | [Bepaal het juiste wachtwoord in een PDF-bestand](./determine-correct-password/) | Ontgrendel PDF-bestanden met het juiste wachtwoord met Aspose.PDF voor .NET. Leer hoe u eenvoudig het juiste wachtwoord kunt vinden. |  
-| [Digitaal ondertekenen in PDF-bestand](./digitally-sign/) Leer hoe u PDF-bestanden digitaal ondertekt... |
+| [Digitaal ondertekenen in PDF-bestand](./digitally-sign/) Leer hoe u PDF-bestanden digitaal ondertekent met Aspose.PDF voor .NET. Stapsgewijze handleiding om ervoor te zorgen dat uw documenten veilig en authentiek zijn. |  
 | [Digitaal ondertekenen met tijdstempel in PDF-bestand](./digitally-sign-with-time-stamp/) | Leer hoe u een PDF digitaal ondertekent met een tijdstempel met Aspose.PDF voor .NET. Deze stapsgewijze handleiding behandelt de vereisten, certificaatinstellingen, tijdstempels en meer. |  
-| [Ondertekende PDF maken in C# – Stapsgewijze handleiding](./create-signed-pdf-in-c-step-by-step-guide/) | Leer hoe u een ondertekende PDF maakt in C# met Aspose.PDF voor .NET. Volg deze stapsgewijze handleiding voor veilige documenten. |
 | [PDF-bestand versleutelen](./encrypt/) | Leer hoe u uw PDF-bestanden moeiteloos kunt versleutelen met Aspose.PDF voor .NET. Beveilig gevoelige informatie met onze eenvoudige stapsgewijze handleiding. |  
 | [Afbeelding extraheren](./extracting-image/) | Leer eenvoudig hoe u afbeeldingen uit PDF's kunt extraheren met Aspose.PDF voor .NET. Volg onze stapsgewijze handleiding voor naadloze beeldextractie. |  
-| [Handtekeninginfo extraheren](./extract-signature-info/) | Leer hoe u digitale handtekeningen en certificaatgegevens uit PDF-documenten haalt met Aspose.PDF voor .NET. Een complete stapsgewijze handleiding voor C#-ontwikkelaars. |  
-| [PDF-handtekening verifiëren met Aspose.Pdf – Stapsgewijze handleiding](./verify-pdf-signature-with-aspose-pdf-step-by-step-guide/) | Leer hoe u PDF-handtekeningen kunt verifiëren met Aspose.PDF voor .NET in een duidelijke stap‑voor‑stap handleiding. |  
+| [Handtekeninginfo extraheren](./extract-signature-info/) | Leer hoe u digitale handtekeningen en certificaatgegevens uit PDF-documenten haalt met Aspose.PDF voor .NET. Een complete staptgewijze handleiding voor C#-ontwikkelaars. |  
+| [PDF-handtekening verifiëren in C# – Complete stapsgewijze handleiding](./verify-pdf-signature-in-c-complete-step-by-step-guide/) | Leer hoe u PDF-handtekeningen verifieert met Aspose.PDF voor .NET in C#. Volg deze stapsgewijze handleiding voor nauwkeurige validatie. |  
 | [Is wachtwoordbeveiligd](./is-password-protected/) Leer hoe u kunt controleren of een PDF met een wachtwoord is beveiligd met Aspose.PDF voor .NET in deze uitgebreide stapsgewijze handleiding. |  
 | [Rechten instellen in PDF-bestand](./set-privileges/) | Leer hoe u PDF-rechten instelt met Aspose.PDF voor .NET met deze stapsgewijze handleiding. Beveilig uw documenten effectief. |  
 | [Ondertekenen met smartcard met behulp van PDF-bestandshandtekening](./sign-with-smart-card-using-pdf-file-signature/) | Leer hoe u PDF-bestanden ondertekent met een smartcard met Aspose.PDF voor .NET. Volg deze stapsgewijze handleiding voor veilige digitale handtekeningen. |  
 | [Ondertekenen met smartcard met behulp van handtekeningveld](./sign-with-smart-card-using-signature-field/) | Leer hoe u PDF's veilig kunt ondertekenen met een smartcard met Aspose.PDF voor .NET. Volg onze stapsgewijze handleiding voor eenvoudige implementatie. |  
-| [PDF-handtekening verifiëren in C# – Complete stapsgewijze handleiding](./verify-pdf-signature-in-c-complete-step-by-step-guide/) | Leer hoe u PDF-handtekeningen kunt verifiëren met Aspose.PDF voor .NET in C# met een gedetailleerde stap‑voor‑stap handleiding. |
+| [Open ondertekende PDF – Hoe digitale handtekeningen te lezen](./open-signed-pdf-how-to-read-its-digital-signatures/) | Leer hoe u een ondertekende PDF opent en de digitale handtekeningen kunt uitlezen met Aspose.PDF voor .NET. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+| [Ondertekende PDF maken in C# – Stapsgewijze handleiding](./create-signed-pdf-in-c-step-by-step-guide/) | Leer hoe u een ondertekende PDF maakt in C# met Aspose.PDF voor .NET. Volg deze stapsgewijze handleiding voor veilige documenten. |
+| [PDF-handtekening verifiëren met Aspose.Pdf – Stapsgewijze handleiding](./verify-pdf-signature-with-aspose-pdf-step-by-step-guide/) | Leer hoe u PDF-handtekeningen kunt verifiëren met Aspose.PDF voor .NET in een duidelijke stap‑voor‑stap handleiding. |  
 | [Handtekeningen valideren in PDF-bestand](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) | Leer hoe u handtekeningen in PDF-bestanden valideert met Aspose.PDF voor .NET in C#. Volg de stapsgewijze handleiding voor veilige verificatie. |  
 | [PDF-handtekeningen controleren in C# – Hoe ondertekende PDF-bestanden te lezen](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Leer hoe u ondertekende PDF-bestanden kunt lezen en handtekeningen kunt verifiëren met Aspose.PDF voor .NET in C#. |  
 | [PDF-bestanden repareren – Complete C#-gids met Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Leer hoe u beschadigde PDF-bestanden kunt repareren met Aspose.PDF voor .NET in C#. Volg onze stapsgewijze handleiding. |

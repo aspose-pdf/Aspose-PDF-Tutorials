@@ -19,7 +19,6 @@
 このチュートリアルでは、PDFファイルの機密性と真正性を確保するための方法とテクニックを詳細に解説します。デジタル証明書の管理、セキュリティ権限の追加、セキュリティポリシーの適用方法などを学びます。これらのチュートリアルを活用することで、PDF文書を確実かつプロフェッショナルに保護できるようになります。
 
 ## チュートリアル
-
 タイトル | 説明 |
 | --- | --- | 
 | [PDFファイル内のパスワードを変更する](./change-password/) Aspose.PDF for .NET を使って PDF のパスワードを簡単に変更する方法を学びましょう。ステップバイステップのガイドで、安全に手順をご案内します。 |  
@@ -34,7 +33,16 @@
 | [PDF ファイルに権限を設定する](./set-privileges/) Aspose.PDF for .NET を使用してPDFの権限を設定する方法をステップバイステップで解説します。ドキュメントを効果的に保護しましょう。 |  
 | [PDFファイルの署名を使用してスマートカードで署名する](./sign-with-smart-card-using-pdf-file-signature/) Aspose.PDF for .NET を使ってスマートカードでPDFファイルに署名する方法を学びましょう。安全なデジタル署名を実現するには、このステップバイステップガイドに従ってください。 |  
 | [署名フィールドを使用してスマートカードで署名する](./sign-with-smart-card-using-signature-field/) Aspose.PDF for .NET を使ってスマートカードで安全に PDF に署名する方法を学びましょう。ステップバイステップのガイドに従って簡単に実装できます。 |  
-| [C# で PDF 署名を検証する – 完全ステップバイステップガイド](./verify-pdf-signature-in-c-complete-step-by-step-guide/) Aspose.PDF for .NET を使用して、C# で PDF のデジタル署名を検証する方法をステップバイステップで学びます。 |  
+| [C# で PDF 署名を検証する – 完全ステップバイステップガイド](./verify-pdf-signature-in-c-complete-step-by-step-guide/) Aspose.PDF for .NET を使用して、PDF のデジタル署名を検証し、整合性と真正性を確認する方法を学びます。ステップバイステップで解説します。 |  
+| [署名付きPDFを開く – デジタル署名の読み取り方法](./open-signed-pdf-how-to-read-its-digital-signatures/) Aspose.PDF for .NET を使用して、署名付きPDFのデジタル署名情報を取得し、検証する方法を学びます。 |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 | [Aspose を使用した PDF の署名を検証する方法 – C# チュートリアル](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) Aspose.PDF for .NET を使用して PDF のデジタル署名を検証する手順をステップバイステップで学びます。 |  
 | [C# で PDF 署名を確認する – 署名済み PDF ファイルの読み取り方法](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) Aspose.PDF for .NET を使用して、C# で署名済み PDF の署名情報を取得し、検証する方法を学びます。 |  
 | [PDF ファイルの修復方法 – Aspose.Pdf を使用した完全な C# ガイド](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) Aspose.PDF for .NET を使用して PDF ファイルを修復する方法を学びましょう。ステップバイステップのガイドで、破損した文書を復元できます。 |  

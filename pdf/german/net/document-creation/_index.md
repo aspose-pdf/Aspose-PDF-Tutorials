@@ -82,6 +82,12 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF in C# erstellen, eine Sei
 ### [Erstellen Sie ein PDF-Dokument in C# – Leitfaden zum Hinzufügen von Bates-Nummerierung](./create-pdf-document-c-add-bates-numbering-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# Bates-Nummerierung zu PDF-Dokumenten hinzufügen.
 
+### [Erstellen Sie ein PDF-Dokument mit Aspose.Pdf – Schritt-für-Schritt-Anleitung](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.Pdf ein PDF-Dokument Schritt für Schritt erstellen und anpassen.
+
+### [PDF-Dokument erstellen – Leere Seite hinzufügen, Rechteck zeichnen & speichern](./create-pdf-document-add-blank-page-draw-rectangle-save/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF-Dokument erstellen, eine leere Seite hinzufügen, ein Rechteck zeichnen und das Dokument speichern.
+
 ## Weitere Ressourcen
 
 - [Aspose.PDF für Net-Dokumentation](https://docs.aspose.com/pdf/net/)

@@ -82,6 +82,12 @@ Pelajari cara membuat file PDF di C# dengan menambahkan halaman baru, menggambar
 ### [Buat Dokumen PDF C# – Panduan Penambahan Penomoran Bates](./create-pdf-document-c-add-bates-numbering-guide/)
 Pelajari cara menambahkan penomoran Bates ke dokumen PDF menggunakan Aspose.PDF untuk .NET dengan C# dalam panduan langkah demi langkah.
 
+### [Buat Dokumen PDF dengan Aspose.Pdf – Panduan Langkah demi Langkah](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Pelajari cara membuat dokumen PDF secara terprogram menggunakan Aspose.Pdf dengan panduan langkah demi langkah.
+
+### [Buat Dokumen PDF – Tambahkan Halaman Kosong, Gambar Persegi Panjang & Simpan](./create-pdf-document-add-blank-page-draw-rectangle-save/)
+Pelajari cara membuat dokumen PDF, menambahkan halaman kosong, menggambar persegi panjang, dan menyimpannya menggunakan Aspose.PDF untuk .NET.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

@@ -16,7 +16,6 @@
 Tanulja meg, hogyan hozhat létre nagy teljesítményű PDF-feldolgozó alkalmazásokat Aspose.PDF optimalizálási oktatóanyagaink segítségével .NET-hez. Ezek a gyakorlati útmutatók bemutatják a hatékony memóriakezelés technikáit, a végrehajtási idő javítását és a nagyméretű PDF-dokumentumok hatékony kezelésének stratégiáit. Minden oktatóanyag részletes C# kódpéldákat és bevált gyakorlatokat tartalmaz a kritikus teljesítményszempontok optimalizálásához, biztosítva, hogy alkalmazásai továbbra is reszponzívak és megbízhatóak maradjanak akkor is, ha nagyméretű PDF-dokumentumokkal dolgoznak.
 
 ## Elérhető oktatóanyagok
-
 ### [Átfogó útmutató a PDF optimalizáláshoz .NET-ben az Aspose.PDF használatával](./aspose-pdf-dotnet-optimization-guide/)
 Tanulja meg, hogyan optimalizálhatja a PDF fájlokat az Aspose.PDF for .NET segítségével, biztosítva az erőforrások hatékony felhasználását és a kiváló minőségű dokumentumokat. Sajátítsa el a GSave/GRestore műveleteket és az XForm grafikakezelést.
 
@@ -49,6 +48,11 @@ Sajátítsa el az SVG fájlok PDF-be konvertálásának művészetét precíz é
 
 ### [Betűtípusok beágyazásának eltávolítása PDF-ekből az Aspose.PDF for .NET használatával: Fájlméret csökkentése és teljesítmény javítása](./optimize-pdfs-unembed-fonts-aspose-pdf-net/)
 Ismerje meg, hogyan távolíthatja el a betűtípusok beágyazását PDF-fájljaiból az Aspose.PDF for .NET segítségével. Optimalizálja a PDF-teljesítményt, csökkentse a fájlméretet és javítsa a betöltési időket ezzel a lépésről lépésre szóló útmutatóval.
+
+### [Optimalizált PDF létrehozása – PDF képek tömörítése veszteségmentes JPEG formátummal](./create-optimized-pdf-compress-pdf-images-with-lossless-jpeg/)
+Ismerje meg, hogyan tömörítheti a PDF-ben lévő képeket veszteségmentes JPEG formátummal az Aspose.PDF for .NET segítségével.
+
+### [Hogyan optimalizálja a PDF-et C#-ban: üres oldal hozzáadása, HTML exportálás, aláírás](./how-to-optimize-pdf-in-c-add-blank-page-export-html-sign/)
 
 ### [PDF képek optimalizálása – PDF fájlméret csökkentése C#-val](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
 Ismerje meg, hogyan csökkentheti a PDF-fájlok méretét a képek optimalizálásával C# és az Aspose.PDF for .NET segítségével.

@@ -82,6 +82,9 @@ Aprenda a criar um PDF em C#, adicionar uma página em branco, desenhar um retâ
 ### [Criar documento PDF C# – Guia de adição de numeração Bates](./create-pdf-document-c-add-bates-numbering-guide/)
 Aprenda a adicionar numeração Bates a documentos PDF usando Aspose.PDF para .NET em C#.
 
+### [Crie documento PDF – adicione página em branco, desenhe retângulo e salve](./create-pdf-document-add-blank-page-draw-rectangle-save/)
+Aprenda a criar um documento PDF, inserir uma página em branco, desenhar um retângulo e salvar o arquivo usando Aspose.PDF para .NET.
+
 ## Recursos adicionais
 
 - [Aspose.PDF para documentação da Net](https://docs.aspose.com/pdf/net/)

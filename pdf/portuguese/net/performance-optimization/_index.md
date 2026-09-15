@@ -16,7 +16,6 @@
 Aprenda a criar aplicativos de processamento de PDF de alto desempenho com nossos tutoriais de otimização do Aspose.PDF para .NET. Estes guias práticos demonstram técnicas para gerenciamento eficiente de memória, melhorias no tempo de execução e estratégias para lidar com documentos PDF grandes de forma eficaz. Cada tutorial inclui exemplos detalhados de código C# e práticas recomendadas para otimizar aspectos críticos de desempenho, garantindo que seus aplicativos permaneçam responsivos e confiáveis mesmo ao trabalhar com documentos PDF substanciais.
 
 ## Tutoriais disponíveis
-
 ### [Guia completo para otimização de PDF em .NET usando Aspose.PDF](./aspose-pdf-dotnet-optimization-guide/)
 Aprenda a otimizar PDFs com o Aspose.PDF para .NET, garantindo o uso eficiente de recursos e documentos de alta qualidade. Domine as operações GSave/GRestore e o gerenciamento de gráficos XForm.
 
@@ -49,6 +48,12 @@ Domine a arte de converter arquivos SVG em PDFs com precisão e eficiência usan
 
 ### [Desincorporar fontes em PDFs usando Aspose.PDF para .NET: reduza o tamanho do arquivo e melhore o desempenho](./optimize-pdfs-unembed-fonts-aspose-pdf-net/)
 Aprenda a desincorporar fontes de seus arquivos PDF usando o Aspose.PDF para .NET. Otimize o desempenho do PDF, reduza o tamanho do arquivo e melhore o tempo de carregamento com este guia passo a passo.
+
+### [Criar PDF otimizado – Compactar imagens PDF com JPEG sem perdas](./create-optimized-pdf-compress-pdf-images-with-lossless-jpeg/)
+Aprenda a criar PDFs otimizados comprimindo imagens usando JPEG sem perdas com Aspose.PDF para .NET.
+
+### [Como otimizar PDF em C# – adicionar página em branco, exportar HTML, assinar](./how-to-optimize-pdf-in-c-add-blank-page-export-html-sign/)
+Aprenda a otimizar PDFs em C# adicionando páginas em branco, exportando para HTML e aplicando assinaturas usando Aspose.PDF.
 
 ### [Otimizar imagens PDF – Reduzir o tamanho do arquivo PDF com C#](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
 Aprenda a otimizar imagens em PDFs e reduzir o tamanho do arquivo usando C# com Aspose.PDF.

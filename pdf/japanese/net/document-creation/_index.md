@@ -82,6 +82,12 @@ C# を使用してページを追加し、矩形を描画して PDF を保存す
 ### [C# で PDF ドキュメントにベーツ番号を付与するガイド](./create-pdf-document-c-add-bates-numbering-guide/)
 Aspose.PDF for .NET を使用して、C# で PDF にベーツ番号を自動的に付与する方法を学びます。
 
+### [Aspose.PDF を使用して PDF ドキュメントを作成する: ステップバイステップ ガイド](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Aspose.PDF を活用して、.NET アプリケーションで PDF ドキュメントを最初から作成する方法を段階的に学びます。
+
+### [PDF ドキュメントの作成 – 空白ページを追加し、矩形を描画して保存](./create-pdf-document-add-blank-page-draw-rectangle-save/)
+Aspose.PDF for .NET を使用して、空白ページを追加し、矩形を描画して PDF を保存する方法をステップバイステップで解説します。
+
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)

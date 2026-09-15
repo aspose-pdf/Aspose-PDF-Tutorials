@@ -49,8 +49,11 @@ Erfahren Sie, wie Sie digitale Signaturen in PDF-Dateien mit Aspose.PDF für .NE
 ### [PDF-Signaturnamen in C# abrufen – Vollständiger Programmierleitfaden](./retrieve-pdf-signature-names-in-c-complete-programming-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET alle Signaturnamen aus einer PDF-Datei auslesen.
 
-### [PDF-Signatur in C# überprüfen – Schritt‑für‑Schritt‑Anleitung](./verify-pdf-signature-in-c-step-by-step-guide/)
-Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Signaturen in C# überprüfen. Schritt‑für‑Schritt‑Anleitung zur Validierung digitaler Signaturen.
+### [PDF-Signatur in C# überprüfen – Schritt‑für‑Step‑Anleitung](./verify-pdf-signature-in-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF‑Signaturen in C# überprüfen. Schritt‑für‑Schritt‑Anleitung zur Validierung digitaler Signaturen.
+
+### [PDF-Signatur in C# validieren – Schritt‑für‑Schritt‑Anleitung](./validate-pdf-signature-in-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF‑Signaturen in C# validieren und deren Integrität prüfen.
 
 ### [PDF-Signatur in C# prüfen – Digitale Signatur im PDF validieren](./check-pdf-signature-in-c-validate-digital-signature-pdf/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Signaturen in C# prüfen und digitale Signaturen validieren.

@@ -19,9 +19,8 @@ Dokumentasi "Pemrograman dengan Halaman PDF" untuk Aspose.PDF untuk .NET menyedi
 Tutorial mencakup petunjuk langkah demi langkah, contoh kode terperinci, dan penjelasan yang jelas agar mudah dipahami. Baik Anda seorang pemula atau pengembang berpengalaman, sumber daya ini akan membantu Anda menguasai fitur manipulasi halaman PDF yang ditawarkan oleh Aspose.PDF untuk .NET, yang membuka kemungkinan baru untuk proyek pengembangan aplikasi Anda.
 
 ## Tutorial
-
 | Judul | Deskripsi |
-Bahasa Indonesia: --- | Bahasa Indonesia: 
+Bahasa Indonesia: --- | --- Bahasa Indonesia: 
 | [Ubah Orientasi](./change-orientation/) | Panduan langkah demi langkah untuk mengubah orientasi halaman PDF dengan Aspose.PDF untuk .NET. Mudah diikuti dan diterapkan dalam proyek Anda. Bahasa Indonesia:  
 | [Gabungkan File PDF](./concatenate-pdf-files/) | Gabungkan file PDF dengan mudah menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah yang komprehensif ini. Bahasa Indonesia:  
 | [Hapus Halaman Tertentu Dalam File PDF](./delete-particular-page/) | Pelajari cara menghapus halaman tertentu dari berkas PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Bahasa Indonesia:  
@@ -37,7 +36,16 @@ Bahasa Indonesia: --- | Bahasa Indonesia:
 | [Sisipkan Halaman Kosong Di Akhir](./insert-empty-page-at-end/) | Pelajari cara memasukkan halaman kosong ke dalam dokumen PDF dengan mudah menggunakan Aspose.PDF untuk .NET dalam panduan yang mudah dipahami bagi pemula ini. Sempurna untuk pengeditan cepat. Bahasa Indonesia:  
 | [Dibagi Menjadi Halaman](./split-to-pages/) Pisahkan PDF ke dalam halaman-halaman individual dengan mudah menggunakan Aspose.PDF for .NET dengan tutorial lengkap ini. Panduan langkah demi langkah disertakan. Bahasa Indonesia:  
 | [Perbarui Dimensi Halaman PDF](./update-dimensions/) | Temukan cara memperbarui dimensi halaman PDF dengan mudah dengan Aspose.PDF untuk .NET dalam panduan langkah demi langkah yang komprehensif ini. Bahasa Indonesia:  
-| [Perbesar Isi Halaman Dalam File PDF](./zoom-to-page-contents/) | Pelajari cara memperbesar konten halaman dalam file PDF menggunakan Aspose.PDF untuk .NET dalam panduan lengkap ini. Sempurnakan dokumen PDF Anda sesuai dengan kebutuhan spesifik Anda. |  
+| [Perbesar Isi Halaman Dalam File PDF](./zoom-to-page-contents/) | Pelajari cara memperbesar konten halaman dalam file PDF menggunakan Aspose.PDF untuk .NET dalam panduan lengkap ini. Sempurnakan dokumen PDF Anda sesuai dengan kebutuhan spesifik Anda.  
+| [Tutorial Aspose PDF – Menyisipkan Halaman Kosong dan Memperbarui Penomoran Bates](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Panduan langkah demi langkah untuk menyisipkan halaman kosong ke dalam PDF dan memperbarui penomoran Bates menggunakan Aspose.PDF untuk .NET.  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 | [Buat Halaman PDF Kosong – Tutorial Menggambar PDF Lengkap](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Panduan lengkap untuk membuat halaman PDF kosong menggunakan Aspose.PDF untuk .NET dengan teknik menggambar PDF penuh. |  
 | [Menambahkan nomor halaman PDF dengan C# – Panduan Langkah demi Langkah Lengkap](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Panduan langkah demi langkah untuk menambahkan nomor halaman pada file PDF menggunakan C# dengan Aspose.PDF untuk .NET. Mudah diikuti. |  
 | [Menambahkan Halaman ke PDF dengan Aspose – Panduan Lengkap C#](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Panduan langkah demi langkah menambahkan halaman ke PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode C# lengkap. |  

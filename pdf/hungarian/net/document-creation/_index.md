@@ -82,6 +82,12 @@ Tanulja meg, hogyan adjon hozzá új oldalt, rajzoljon téglalapot és mentse a 
 ### [PDF dokumentum létrehozása C# – Bates számozás hozzáadása útmutató](./create-pdf-document-c-add-bates-numbering-guide/)
 Tanulja meg, hogyan adhat hozzá Bates-számozást PDF dokumentumokhoz C#-ban az Aspose.PDF for .NET használatával.
 
+### [PDF dokumentum létrehozása Aspose.Pdf használatával – lépésről lépésre útmutató](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Ismerje meg, hogyan hozhat létre PDF dokumentumot az Aspose.Pdf könyvtárral .NET környezetben, részletes lépésről lépésre útmutatóval.
+
+### [PDF dokumentum létrehozása – Üres oldal hozzáadása, téglalap rajzolása és mentés](./create-pdf-document-add-blank-page-draw-rectangle-save/)
+Ismerje meg, hogyan hozhat létre PDF dokumentumot, adhat hozzá üres oldalt, rajzolhat téglalapot, majd mentheti azt az Aspose.PDF for .NET segítségével.
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)

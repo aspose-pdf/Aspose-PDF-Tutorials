@@ -77,6 +77,12 @@ C#을 사용하여 빈 페이지와 태그, 스팬을 포함한 PDF 문서를 �
 ### [C#에서 PDF 만들기 – 페이지 추가, 사각형 그리기 및 저장](./how-to-create-pdf-in-c-add-page-draw-rectangle-save/)
 C#와 Aspose.PDF를 사용해 새 페이지를 추가하고 사각형을 그린 뒤 PDF 파일을 저장하는 방법을 단계별로 안내합니다.
 
+### [Aspose.Pdf를 사용하여 PDF 문서 만들기 – 단계별 가이드](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Aspose.PDF for .NET을 사용해 PDF 문서를 처음부터 만드는 방법을 단계별로 안내합니다.
+
+### [PDF 문서 만들기 – 빈 페이지 추가, 사각형 그리기 및 저장](./create-pdf-document-add-blank-page-draw-rectangle-save/)
+Aspose.PDF for .NET을 사용하여 빈 페이지를 추가하고 사각형을 그린 뒤 PDF 파일을 저장하는 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 
 - [Net 문서용 Aspose.PDF](https://docs.aspose.com/pdf/net/)

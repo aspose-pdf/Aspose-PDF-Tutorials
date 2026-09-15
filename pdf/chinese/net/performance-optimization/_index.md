@@ -16,7 +16,6 @@
 使用我们的 Aspose.PDF .NET 优化教程，学习如何构建高性能 PDF 处理应用程序。这些实用指南演示了高效内存管理、执行时间改进以及有效处理大型 PDF 文档的策略。每个教程都包含详细的 C# 代码示例和优化关键性能方面的最佳实践，确保您的应用程序即使在处理大量 PDF 文档时也能保持响应速度和可靠性。
 
 ## 可用教程
-
 ### [使用 Aspose.PDF 在 .NET 中进行 PDF 优化的综合指南](./aspose-pdf-dotnet-optimization-guide/)
 学习如何使用 Aspose.PDF for .NET 优化 PDF，确保高效利用资源并生成高质量的文档。掌握 GSave/GRestore 操作和 XForm 图形管理。
 
@@ -49,6 +48,12 @@
 
 ### [使用 Aspose.PDF for .NET 在 PDF 中取消嵌入字体：减小文件大小并提高性能](./optimize-pdfs-unembed-fonts-aspose-pdf-net/)
 了解如何使用 Aspose.PDF for .NET 从 PDF 文件中取消嵌入字体。本分步指南将帮助您优化 PDF 性能、减小文件大小并缩短加载时间。
+
+### [创建优化 PDF – 使用无损 JPEG 压缩 PDF 图像](./create-optimized-pdf-compress-pdf-images-with-lossless-jpeg/)
+了解如何使用 Aspose.PDF for .NET 将 PDF 中的图像压缩为无损 JPEG，以减小文件大小并保持图像质量。
+
+### [如何在 C# 中优化 PDF：添加空白页、导出 HTML、签名](./how-to-optimize-pdf-in-c-add-blank-page-export-html-sign/)
+本指南演示在 C# 使用 Aspose.PDF 添加空白页、导出为 HTML 并对 PDF 进行签名的完整步骤。
 
 ### [使用 C# 优化 PDF 图像 – 减小 PDF 文件大小](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中优化 PDF 中的图像，以减小文件大小并提升加载性能。
