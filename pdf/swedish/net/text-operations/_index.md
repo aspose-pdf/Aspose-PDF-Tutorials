@@ -75,7 +75,7 @@ Lär dig hur du effektivt extraherar text från specifika sidor i en PDF med Asp
 Lär dig hur du effektivt extraherar text från stämpelanteckningar i PDF-dokument med hjälp av Aspose.PDF för .NET. Den här handledningen täcker installation, implementering och praktiska tillämpningar.
 
 ### [Extrahera text från PDF-kolumner med Aspose.PDF för .NET: En omfattande guide](./pdf-column-text-extraction-aspose-dotnet/)
-Lär dig hur du effektivt extraherar text från PDF-filer med flera kolumner i dina .NET-applikationer med Aspose.PDF. Följ den här omfattande guiden för att konfigurera, implementera och optimera extrahering av kolumntext.
+Lär dig hur du effektivt extraherar text från PDF-filer med flera kolumner i dina .NET-applikationer med Aspose.PDF. Följ den här omfattande guiden för att konfigurera, implementera och optimera extraher­ning av kolumntext.
 
 ### [Så här identifierar du text och bilder i PDF-filer med Aspose.PDF för .NET: En omfattande guide](./detect-text-images-pdf-aspose-pdf-net/)
 Lär dig hur du effektivt identifierar text och bilder i PDF-filer med Aspose.PDF för .NET. Den här guiden täcker installation, extraheringstekniker och praktiska tillämpningar.
@@ -97,6 +97,9 @@ Lär dig hur du effektivt markerar text i PDF-dokument med Aspose.PDF .NET, med 
 
 ### [Hur man mäter strängbredd i Aspose.PDF för .NET: En guide om användning av teckensnitt och texttillstånd](./measuring-string-width-aspose-pdf-net/)
 Lär dig hur du mäter strängbredder noggrant med hjälp av Aspose.PDF för .NET med Font- och TextState-objekt. Den här guiden täcker detaljerade implementeringssteg, praktiska tillämpningar och prestandatips.
+
+### [Hur man konverterar PDF till sammanfattning med Aspose.Pdf.AI i C#](./how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/)
+Lär dig hur du använder Aspose.Pdf.AI för att skapa en sammanfattning av en PDF-fil med C#.
 
 ### [Så här roterar du text i PDF-filer med Aspose.PDF för .NET: En steg-för-steg-guide](./rotate-text-aspose-pdf-net-guide/)
 Bemästra textrotation i PDF-filer med Aspose.PDF för .NET med hjälp av den här omfattande guiden. Lär dig hur du effektivt förbättrar dina dokumentlayouter med roterad text.

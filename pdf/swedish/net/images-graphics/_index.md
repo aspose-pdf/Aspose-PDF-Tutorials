@@ -164,6 +164,9 @@ Lär dig hur du renderar komplexa LaTeX-skript till PDF-dokument med Aspose.PDF 
 ### [Ställ in bildbakgrunder i PDF-filer med Aspose.PDF för .NET: En omfattande guide](./aspose-pdf-net-set-image-backgrounds/)
 Lär dig hur du förbättrar dina PDF-dokument genom att ställa in bildbakgrunder med Aspose.PDF för .NET. Den här guiden behandlar tips för installation, implementering och optimering.
 
+### [Hur du ändrar opacitet i en PDF med Aspose.PDF för .NET: En steg-för-steg-guide](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
+Lär dig hur du justerar genomskinligheten för objekt i PDF-dokument med Aspose.PDF för .NET.
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

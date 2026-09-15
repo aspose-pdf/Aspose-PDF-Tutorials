@@ -104,6 +104,9 @@ Aspose.PDF Net 代码教程
 ### [如何使用 Aspose.PDF for .NET 在 PDF 中创建透明矩形](./create-transparent-rectangles-aspose-pdf-dotnet/)
 了解如何使用 Aspose.PDF for .NET 创建具有 Alpha 透明度的矩形来增强 PDF 文档。请遵循本分步指南。
 
+### [使用 Aspose.PDF for .NET 更改 PDF 不透明度](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
+了解如何在 PDF 中调整元素的不透明度，以实现所需的视觉效果。
+
 ### [如何使用 Aspose.PDF for .NET 从 PDF 文件中删除图像 - 完整指南](./delete-images-aspose-pdf-net/)
 了解如何使用 Aspose.PDF for .NET 高效地从 PDF 文件中删除图像。本指南涵盖设置、代码示例和最佳实践。
 
@@ -150,7 +153,7 @@ Aspose.PDF Net 代码教程
 学习如何使用 Aspose.PDF for .NET 高效地替换 PDF 文档中的图像。本指南内容全面，涵盖设置、实施和实际应用。
 
 ### [如何使用 Aspose.PDF for .NET 设置 PDF 中的图像大小](./set-image-size-pdf-aspose-dotnet/)
-了解如何使用 Aspose.PDF for .NET 调整 PDF 中的图像大小，非常适合创建专业文档和演示文稿。
+了解如何使用 Aspose.PDF for .NET 调整 PDF 中的图像大小，非常适合创建专业文档和演示稿。
 
 ### [使用 Aspose.PDF for .NET 掌握 PDF 中的图像放置](./optimize-image-placement-aspose-pdf-net/)
 学习使用 Aspose.PDF for .NET 优化 PDF 文档中的图像布局。通过实用指南提升文档质量和效率。

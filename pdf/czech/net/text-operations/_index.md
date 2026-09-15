@@ -113,7 +113,7 @@ Naučte se, jak efektivně upravovat text PDF pomocí Aspose.PDF pro .NET. Tato 
 ### [Hlavní průvodce nahrazováním písem v PDF pomocí Aspose.PDF pro .NET](./mastering-font-substitution-aspose-pdf-net/)
 Naučte se bezproblémově zpracovávat nahrazování písem v dokumentech PDF pomocí Aspose.PDF pro .NET. Tento tutoriál poskytuje podrobné pokyny k nastavení a implementaci efektivních řešení.
 
-### [Zvládněte techniky extrakce PDF s Aspose.PDF pro .NET: Komplexní průvodce](./mastering-pdf-extraction-aspose-dotnet/)
+### [Zvládnutí techniky extrakce PDF s Aspose.PDF pro .NET: Komplexní průvodce](./mastering-pdf-extraction-aspose-dotnet/)
 Naučte se, jak efektivně extrahovat text a obrázky z PDF souborů pomocí Aspose.PDF pro .NET. Postupujte podle tohoto podrobného návodu a vylepšete své pracovní postupy pro zpracování dokumentů.
 
 ### [Správa písem Master PDF: Nastavení výchozích písem v dokumentech pomocí Aspose.PDF pro .NET](./master-pdf-font-management-aspose-pdf-net/)
@@ -163,6 +163,9 @@ Výukový program pro kódování Aspose.PDF Net
 
 ### [Stylizace textu v tagovaných PDF souborech pomocí Aspose.PDF pro .NET | Průvodce pro tvorbu přístupných a estetických PDF souborů](./style-text-tagged-pdfs-aspose-pdf-net/)
 Naučte se, jak upravovat styl textu v tagovaných PDF dokumentech pomocí Aspose.PDF pro .NET. Tato příručka se zabývá instalací, technikami a praktickými aplikacemi pro zlepšení přístupnosti.
+
+### [Jak převést PDF na souhrn pomocí Aspose.Pdf.AI v C#](./how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/)
+Naučte se, jak pomocí Aspose.Pdf.AI v C# převést PDF dokument na stručný souhrn s ukázkovým kódem.
 
 ## Další zdroje
 

@@ -44,6 +44,9 @@ Scopri come creare documenti PDF visivamente accattivanti estraendo ed evidenzia
 ### [Disegna forme trasparenti nei PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 Un tutorial sul codice per Aspose.PDF Net
 
+### [Come modificare l'opacità in un PDF con Aspose.PDF per .NET](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
+Scopri come impostare l'opacità di immagini, forme o testo nei PDF usando Aspose.PDF per .NET.
+
 ### [Identificazione efficiente delle immagini PDF con Aspose.PDF per .NET](./master-image-identification-aspose-pdf-net/)
 Scopri come identificare immagini in scala di grigi e RGB nei PDF utilizzando Aspose.PDF per .NET. Questo tutorial include suggerimenti su installazione, estrazione delle immagini e prestazioni.
 

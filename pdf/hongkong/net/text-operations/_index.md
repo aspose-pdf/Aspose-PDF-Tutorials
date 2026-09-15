@@ -161,8 +161,8 @@ Aspose.PDF Net 程式碼教學
 ### [使用 Aspose.PDF for .NET 取代 PDF 中的字體](./replace-fonts-pdf-aspose-dotnet-guide/)
 Aspose.PDF Net 程式碼教學
 
-### [使用 Aspose.PDF for .NET 設定標籤的 PDF 中的文字樣式 |無障礙美觀 PDF 建立指南](./style-text-tagged-pdfs-aspose-pdf-net/)
-了解如何使用 Aspose.PDF for .NET 設定標記 PDF 文件中的文字樣式。本指南涵蓋安裝、技術和實際應用，以增強可訪問性。
+### [如何使用 Aspose.PDF .NET 將 PDF 轉換為摘要](./how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/)
+了解如何使用 Aspose.Pdf.AI 在 C# 中將 PDF 文件自動生成摘要，提升資訊提取效率。
 
 ## 其他資源
 
