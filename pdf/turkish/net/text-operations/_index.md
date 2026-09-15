@@ -164,6 +164,9 @@ Aspose.PDF Net için bir kod öğreticisi
 ### [.NET için Aspose.PDF kullanarak Etiketli PDF'lerdeki Metni Şekillendirin | Erişilebilir ve Estetik PDF Oluşturma Kılavuzu](./style-text-tagged-pdfs-aspose-pdf-net/)
 .NET için Aspose.PDF ile etiketli PDF belgelerindeki metni nasıl biçimlendireceğinizi öğrenin. Bu kılavuz, erişilebilirliği artırmak için kurulum, teknikler ve pratik uygulamaları kapsar.
 
+### [C#'ta Aspose.Pdf.AI ile PDF'yi Özetleme](./how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/)
+Aspose.Pdf.AI kullanarak PDF dosyalarını özetleyip kısa bir metin elde etmeyi C# ile öğrenin.
+
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)

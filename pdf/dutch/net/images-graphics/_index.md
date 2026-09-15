@@ -152,6 +152,9 @@ Leer hoe u afbeeldingen in PDF-documenten efficiënt kunt vervangen met Aspose.P
 ### [Hoe u de afbeeldingsgrootte in een PDF instelt met Aspose.PDF voor .NET](./set-image-size-pdf-aspose-dotnet/)
 Leer hoe u de afbeeldingsgroottes in PDF's kunt aanpassen met Aspose.PDF voor .NET, ideaal voor het maken van professionele documenten en presentaties.
 
+### [Hoe de doorzichtigheid in een PDF te wijzigen met Aspose.PDF voor .NET](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
+Leer hoe u de doorzichtigheid van afbeeldingen of vormen in een PDF kunt aanpassen met Aspose.PDF voor .NET.
+
 ### [Het plaatsen van afbeeldingen in PDF's onder de knie krijgen met Aspose.PDF voor .NET](./optimize-image-placement-aspose-pdf-net/)
 Leer hoe u de plaatsing van afbeeldingen in PDF-documenten optimaliseert met Aspose.PDF voor .NET. Verbeter de documentkwaliteit en -efficiëntie met praktische handleidingen.
 

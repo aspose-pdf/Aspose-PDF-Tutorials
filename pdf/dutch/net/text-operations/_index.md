@@ -164,6 +164,9 @@ Een codetutorial voor Aspose.PDF Net
 ### [Stijltekst in gelabelde PDF's met Aspose.PDF voor .NET | Handleiding voor toegankelijke en esthetische PDF-creatie](./style-text-tagged-pdfs-aspose-pdf-net/)
 Leer hoe u tekst in gelabelde PDF-documenten kunt stylen met Aspose.PDF voor .NET. Deze handleiding behandelt de installatie, technieken en praktische toepassingen om de toegankelijkheid te verbeteren.
 
+### [Hoe PDF te converteren naar een samenvatting met Aspose.Pdf.AI in C#](./how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/)
+Leer hoe u met Aspose.Pdf.AI een PDF-bestand omzet naar een samenvatting met C#.
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

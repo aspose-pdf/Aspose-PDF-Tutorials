@@ -44,6 +44,9 @@ Tanulja meg, hogyan hozhat létre vizuálisan vonzó PDF dokumentumokat bekezdé
 ### [Átlátszó alakzatok rajzolása PDF fájlokban az Aspose.PDF .NET segítségével](./draw-transparent-shapes-aspose-pdf-net/)
 Kód oktatóanyag az Aspose.PDF Nethez
 
+### [Átlátszóság módosítása PDF-ben az Aspose.Pdf for .NET használatával](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
+Tanuld meg, hogyan állíthatod be a PDF elemek átlátszóságát az Aspose.Pdf for .NET segítségével C#-ban.
+
 ### [Hatékony PDF képfelismerés az Aspose.PDF for .NET segítségével](./master-image-identification-aspose-pdf-net/)
 Tanuld meg, hogyan azonosíthatod a szürkeárnyalatos és RGB képeket PDF-ekben az Aspose.PDF for .NET segítségével. Ez az oktatóanyag a telepítést, a képkinyerést és a teljesítménnyel kapcsolatos tippeket ismerteti.
 
@@ -135,7 +138,7 @@ Tanulja meg, hogyan kinyerhet képeket PDF dokumentumokból az Aspose.PDF for .N
 Ismerje meg, hogyan kinyerhet hatékonyan képeket adott oldalakról egy PDF-ben az Aspose.PDF for .NET segítségével. Ez az útmutató a beállítással, a megvalósítással és a teljesítménnyel kapcsolatos tippeket tartalmazza.
 
 ### [PDF oldalinformációk kinyerése és képek renderelése az Aspose.PDF for .NET segítségével (2023-as útmutató)](./extract-pdf-info-render-images-aspose-dotnet/)
-Ismerje meg, hogyan lehet oldalméreteket kinyerni és képeket renderelni PDF-ekből az Aspose.PDF for .NET használatával. Ez az útmutató a beállítást, a megvalósítást és a gyakorlati alkalmazásokat ismerteti.
+Ismerje meg, hogyan lehet oldalméreteket kinyerni és képeket renderelni PDF-ekből a Aspose.PDF for .NET használatával. Ez az útmutató a beállítást, a megvalósítást és a gyakorlati alkalmazásokat ismerteti.
 
 ### [PDF képek optimalizálása az Aspose.PDF for .NET használatával](./optimize-pdf-images-aspose-dotnet/)
 Ismerje meg, hogyan méretezheti át, tömörítheti és állíthatja be hatékonyan a PDF-fájlok képminőségét az Aspose.PDF for .NET segítségével. Javítsa a dokumentumok teljesítményét és a felhasználói élményt.

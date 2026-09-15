@@ -45,7 +45,7 @@ Découvrez comment intégrer facilement des polices personnalisées à vos docum
 Apprenez à intégrer des polices dans vos documents PDF avec Aspose.PDF pour .NET. Assurez une typographie cohérente sur toutes les plateformes grâce à ce tutoriel complet.
 
 ### [Intégrer des polices Type 1 dans des PDF avec Aspose.PDF .NET | Guide complet](./embed-type-1-fonts-aspose-pdf-net/)
-Apprenez à intégrer des polices Type 1 standard dans des documents PDF avec Aspose.PDF pour .NET. Assurez une typographie cohérente sur tous les appareils grâce à ce guide facile à suivre.
+Apprenez à intégrer des polices Type 1 standard dans des documents PDF avec Aspose.PDF .NET. Assurez une typographie cohérente sur tous les appareils grâce à ce guide facile à suivre.
 
 ### [Extraire les polices des fichiers PDF avec Aspose.PDF pour .NET : guide complet](./extract-fonts-aspose-pdf-net/)
 Apprenez à extraire efficacement les polices de vos documents PDF avec Aspose.PDF pour .NET. Idéal pour l'audit de documents et la préservation numérique.
@@ -113,7 +113,7 @@ Apprenez à modifier efficacement du texte PDF avec Aspose.PDF pour .NET. Ce gui
 ### [Maîtriser la substitution de polices dans les PDF avec Aspose.PDF pour .NET : un guide complet](./mastering-font-substitution-aspose-pdf-net/)
 Apprenez à gérer facilement les substitutions de polices dans vos documents PDF avec Aspose.PDF pour .NET. Ce tutoriel vous guide étape par étape pour configurer et mettre en œuvre des solutions efficaces.
 
-### [Maîtrisez les techniques d'extraction PDF avec Aspose.PDF pour .NET : un guide complet](./mastering-pdf-extraction-aspose-dotnet/)
+### [Maîtriser les techniques d'extraction PDF avec Aspose.PDF pour .NET : un guide complet](./mastering-pdf-extraction-aspose-dotnet/)
 Apprenez à extraire efficacement du texte et des images de vos PDF avec Aspose.PDF pour .NET. Suivez ce guide étape par étape pour optimiser vos flux de traitement de documents.
 
 ### [Maîtriser la gestion des polices PDF : définir les polices par défaut dans les documents avec Aspose.PDF pour .NET](./master-pdf-font-management-aspose-pdf-net/)
@@ -125,7 +125,7 @@ Apprenez à optimiser l'interligne dans vos PDF grâce aux polices TrueType avec
 ### [Maîtriser l'extraction de texte PDF dans .NET avec Aspose.PDF : un guide complet](./mastering-pdf-text-extraction-dotnet-asposepdf/)
 Apprenez à extraire et rechercher efficacement du texte dans des PDF avec Aspose.PDF pour .NET. Suivez ce guide pour des étapes de mise en œuvre pratiques.
 
-### [Maîtrisez l'extraction de texte PDF avec Aspose.PDF pour .NET : un guide complet](./mastering-pdf-extraction-aspose-pdf-net-guide/)
+### [Maîtriser l'extraction de texte PDF avec Aspose.PDF pour .NET : un guide complet](./mastering-pdf-extraction-aspose-pdf-net-guide/)
 Apprenez à extraire efficacement du texte de PDF avec Aspose.PDF pour .NET, même avec des mises en page complexes. Ce guide couvre le chargement, l'analyse et l'optimisation des processus d'extraction.
 
 ### [Maîtriser l'extraction de texte PDF avec Aspose.PDF pour .NET : Guide du développeur](./aspose-pdf-net-text-extraction-guide/)
@@ -163,6 +163,8 @@ Un tutoriel de code pour Aspose.PDF Net
 
 ### [Styliser le texte dans les PDF balisés avec Aspose.PDF pour .NET | Guide pour la création de PDF accessibles et esthétiques](./style-text-tagged-pdfs-aspose-pdf-net/)
 Apprenez à styliser le texte des documents PDF balisés avec Aspose.PDF pour .NET. Ce guide présente l'installation, les techniques et les applications pratiques pour améliorer l'accessibilité.
+
+### [Comment convertir un PDF en résumé avec Aspose.Pdf.AI en C#](./how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/)
 
 ## Ressources supplémentaires
 

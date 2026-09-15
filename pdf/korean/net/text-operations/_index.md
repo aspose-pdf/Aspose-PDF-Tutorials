@@ -95,7 +95,7 @@ Aspose.PDF for .NET을 사용하여 PDF 문서 내 특정 영역에서 텍스트
 ### [Aspose.PDF .NET을 사용하여 PDF에서 텍스트를 강조 표시하는 방법: 포괄적인 가이드](./highlight-text-aspose-pdf-net/)
 Aspose.PDF .NET을 사용하여 PDF 문서에서 텍스트를 효율적으로 강조 표시하는 방법을 단계별 지침과 코드 예제와 함께 알아보세요.
 
-### [.NET용 Aspose.PDF에서 문자열 너비를 측정하는 방법: 글꼴 및 TextState 사용 가이드](./measuring-string-width-aspose-pdf-net/)
+### [.NET용 Aspose.PDF를 사용하여 문자열 너비를 측정하는 방법: 글꼴 및 TextState 사용 가이드](./measuring-string-width-aspose-pdf-net/)
 Aspose.PDF for .NET을 사용하여 Font 및 TextState 객체를 사용하여 문자열 너비를 정확하게 측정하는 방법을 알아보세요. 이 가이드에서는 자세한 구현 단계, 실제 적용 사례, 그리고 성능 향상 팁을 다룹니다.
 
 ### [Aspose.PDF for .NET을 사용하여 PDF의 텍스트를 회전하는 방법: 단계별 가이드](./rotate-text-aspose-pdf-net-guide/)
@@ -163,6 +163,8 @@ Aspose.PDF Net에 대한 코드 튜토리얼
 
 ### [Aspose.PDF for .NET을 사용하여 태그가 지정된 PDF의 텍스트 스타일 지정 | 접근성 있고 미적인 PDF 생성 가이드](./style-text-tagged-pdfs-aspose-pdf-net/)
 Aspose.PDF for .NET을 사용하여 태그가 지정된 PDF 문서의 텍스트 스타일을 지정하는 방법을 알아보세요. 이 가이드에서는 접근성을 향상시키기 위한 설치, 기술 및 실제 적용 방법을 다룹니다.
+
+### [C#에서 Aspose.Pdf.AI를 사용하여 PDF를 요약으로 변환하는 방법](./how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/)
 
 ## 추가 자료
 

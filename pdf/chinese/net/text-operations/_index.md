@@ -164,6 +164,9 @@ Aspose.PDF Net 代码教程
 ### [使用 Aspose.PDF for .NET 为带标签的 PDF 文件添加文本样式 | 无障碍美观的 PDF 创建指南](./style-text-tagged-pdfs-aspose-pdf-net/)
 学习如何使用 Aspose.PDF for .NET 为带标签的 PDF 文档添加文本样式。本指南涵盖安装、技巧和实际应用，以增强可访问性。
 
+### [使用 Aspose.PDF .NET 将 PDF 转换为摘要（Aspose.Pdf.AI）](./how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/)
+了解如何使用 Aspose.Pdf.AI 在 C# 中将 PDF 文档转换为摘要，提升信息提取效率。
+
 ## 其他资源
 
 - [Aspose.PDF 用于网络文档](https://docs.aspose.com/pdf/net/)

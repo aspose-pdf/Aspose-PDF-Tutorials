@@ -161,8 +161,8 @@
 ### [عرض LaTeX في ملفات PDF باستخدام Aspose.PDF .NET: دليل خطوة بخطوة](./render-latex-aspose-pdf-net-guide/)
 تعرف على كيفية تحويل نصوص LaTeX المعقدة إلى مستندات PDF باستخدام Aspose.PDF لـ .NET، بما في ذلك نصائح الإعداد والتنفيذ والتحسين.
 
-### [تعيين خلفيات الصور في ملفات PDF باستخدام Aspose.PDF لـ .NET: دليل شامل](./aspose-pdf-net-set-image-backgrounds/)
-تعرّف على كيفية تحسين مستندات PDF الخاصة بك عن طريق تعيين خلفيات الصور باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل نصائح للإعداد والتنفيذ والتحسين.
+### [كيفية تغيير الشفافية في ملف PDF باستخدام Aspose.Pdf لـ .NET](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
+تعرّف على كيفية تعديل شفافية العناصر في ملفات PDF باستخدام Aspose.Pdf لـ .NET خطوة بخطوة.
 
 ## موارد إضافية
 

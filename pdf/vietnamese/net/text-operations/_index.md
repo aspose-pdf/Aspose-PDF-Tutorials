@@ -164,6 +164,9 @@ Hướng dẫn mã cho Aspose.PDF Net
 ### [Định dạng văn bản trong tệp PDF được gắn thẻ bằng Aspose.PDF cho .NET | Hướng dẫn tạo PDF dễ tiếp cận và thẩm mỹ](./style-text-tagged-pdfs-aspose-pdf-net/)
 Tìm hiểu cách định dạng văn bản trong các tài liệu PDF được gắn thẻ với Aspose.PDF cho .NET. Hướng dẫn này bao gồm cài đặt, kỹ thuật và ứng dụng thực tế để tăng cường khả năng truy cập.
 
+### [Cách chuyển PDF thành tóm tắt với Aspose.Pdf.AI trong C#](./how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/)
+Hướng dẫn từng bước để sử dụng Aspose.Pdf.AI chuyển đổi tài liệu PDF thành bản tóm tắt trong C#.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)

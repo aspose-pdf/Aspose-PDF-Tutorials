@@ -164,6 +164,9 @@ Aspose.PDF for .NET을 사용하여 복잡한 LaTeX 스크립트를 PDF 문서�
 ### [Aspose.PDF for .NET을 사용하여 PDF에 이미지 배경 설정: 포괄적인 가이드](./aspose-pdf-net-set-image-backgrounds/)
 Aspose.PDF for .NET을 사용하여 이미지 배경을 설정하여 PDF 문서를 개선하는 방법을 알아보세요. 이 가이드에서는 설정, 구현 및 최적화 팁을 다룹니다.
 
+### [Aspose.PDF for .NET을 사용하여 PDF에서 투명도 변경하는 방법](./how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net/)
+Aspose.PDF for .NET을 활용해 PDF 요소의 투명도를 조절하는 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 
 - [Net 문서용 Aspose.PDF](https://docs.aspose.com/pdf/net/)

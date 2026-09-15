@@ -27,7 +27,7 @@ Pelajari cara menambahkan nomor halaman menggunakan Aspose.PDF untuk .NET dengan
 Pelajari cara menghapus semua teks dari dokumen PDF secara efisien menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah ini dengan contoh kode dan kiat performa.
 
 ### [Membuat & Memutar Teks dalam PDF Menggunakan Aspose.PDF .NET: Panduan Lengkap untuk Pengembang](./create-rotate-text-aspose-pdf-net/)
-Pelajari cara membuat dan memutar teks dalam dokumen PDF menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup inisialisasi, konfigurasi teks, dan tata letak kreatif dengan C#.
+Pelajari cara membuat dan memutar teks dalam dokumen PDF menggunakan Aspose.PDF .NET. Panduan ini mencakup inisialisasi, konfigurasi teks, dan tata letak kreatif dengan C#.
 
 ### [Membuat PDF Teks Indentasi di .NET Menggunakan Aspose.PDF](./create-indented-text-pdfs-net-aspose-pdf/)
 Tutorial kode untuk Aspose.PDF Net
@@ -82,6 +82,8 @@ Pelajari cara mendeteksi teks dan gambar dalam file PDF secara efisien menggunak
 
 ### [Cara Mengedit PDF dengan Aspose.PDF untuk .NET: Menambahkan Teks Berformat Menjadi Mudah](./edit-pdfs-aspose-pdf-net-formatted-text/)
 Pelajari cara menambahkan teks berformat ke PDF Anda menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup cara membuka, mengedit, dan memformat file PDF dengan mudah.
+
+### [Cara Mengonversi PDF menjadi Ringkasan dengan Aspose.Pdf.AI di C#](./how-to-convert-pdf-to-summary-with-aspose-pdf-ai-in-c/)
 
 ### [Cara Menyematkan dan Membuat Subset Font dalam PDF Menggunakan Aspose.PDF untuk .NET - Panduan Lengkap](./embed-subset-fonts-aspose-pdf-net/)
 Pelajari cara menyematkan dan membuat subset font dalam PDF menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup instalasi, strategi penyematan font, dan pengoptimalan ukuran dokumen.
