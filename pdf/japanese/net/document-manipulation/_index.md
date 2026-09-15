@@ -207,7 +207,7 @@ Aspose.PDF for .NET を使って、PDF 内のリンクのテキスト色を簡�
 Aspose.PDF for .NET を使用してPDFにページを挿入する方法を学びましょう。このステップバイステップガイドでは、セットアップから実装まですべてを網羅しており、C#開発者に最適です。
 
 ### [Aspose.PDF for .NET を使用して PDF にページを挿入する: シームレスなドキュメント操作の総合ガイド](./aspose-pdf-net-insert-pages-between-numbers/)
-このステップバイステップガイドでは、Aspose.PDF for .NET を使用してPDFにページを挿入する方法を学習します。ドキュメントワークフローを効率的に合理化します。
+Aspose.PDF for .NET を使用してPDFにページを挿入する方法を学習します。ドキュメントワークフローを効率的に合理化します。
 
 ### [Aspose.PDF .NET を使用して PDF に空白ページを挿入する: 包括的なガイド](./aspose-pdf-net-insert-empty-page/)
 Aspose.PDF for .NET を使って、PDF ドキュメントに空白ページを簡単に挿入する方法を学びましょう。このステップバイステップガイドに従って、ドキュメント操作スキルを向上させましょう。
@@ -306,6 +306,9 @@ Aspose.PDF for .NET を使用して、複数ページのPDFを分割し、新し
 
 ### [Aspose.PDF for .NET を使用して C# で PDF をレダクト（テキスト非表示・コンテンツ削除）する方法](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
 Aspose.PDF for .NET を使用して、PDF の機密情報をテキストを非表示にし、不要なコンテンツを削除する方法を学びます。
+
+### [C# で PDF を修復する方法 – 壊れた PDF ファイルをすばやく修正する](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
+C# と Aspose.PDF for .NET を使用して、破損した PDF ファイルを迅速に修復する手順を学びます。
 
 ## 追加リソース
 

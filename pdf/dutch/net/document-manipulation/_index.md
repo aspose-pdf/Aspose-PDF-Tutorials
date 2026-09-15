@@ -16,7 +16,6 @@
 Leer PDF-documentmanipulatie onder de knie te krijgen met onze gedetailleerde Aspose.PDF .NET-tutorials. Deze stapsgewijze handleidingen laten zien hoe u met documentstructuren kunt werken, bestaande PDF's kunt wijzigen, documenten kunt splitsen en samenvoegen, pagina's kunt toevoegen en verwijderen en uw PDF-inhoud programmatisch kunt ordenen. Elke tutorial bevat werkende C#-codevoorbeelden, implementatienotities en best practices om u te helpen applicaties te bouwen die PDF-documenten efficiënt bewerken met overzichtelijke, onderhoudbare code.
 
 ## Beschikbare tutorials
-
 ### [Datum- en tijdstempels toevoegen aan PDF's met Aspose.PDF voor .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 Leer hoe u efficiënt datum- en tijdstempels of annotaties aan uw PDF-documenten toevoegt met Aspose.PDF voor .NET. Verbeter uw documentbeheer met deze eenvoudig te volgen stappen.
 
@@ -313,6 +312,9 @@ Leer hoe je PDF-bewerking onder de knie krijgt met Aspose.PDF voor .NET. Deze ha
 
 ### [Hoe PDF te redigeren in C# – Tekst verbergen en inhoud verwijderen uit PDF](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
 Leer hoe u gevoelige tekst kunt verbergen en ongewenste inhoud kunt verwijderen uit PDF's met Aspose.PDF voor .NET in C#.
+
+### [PDF repareren in C# – Corrupte PDF-bestanden snel herstellen](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
+Leer hoe u beschadigde PDF-bestanden snel kunt repareren met Aspose.PDF voor .NET in C#.
 
 ## Aanvullende bronnen
 

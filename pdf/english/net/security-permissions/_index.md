@@ -62,6 +62,9 @@ Learn how to implement secure digital signatures and verification for PDFs in .N
 ### [Mastering PDF Redaction with Aspose.PDF .NET&#58; A Comprehensive Guide for Secure Document Handling](./mastering-pdf-redaction-aspose-pdf-net-guide/)
 Learn how to securely redact PDFs using Aspose.PDF .NET. This guide covers annotation-based and facades approaches, ensuring your documents remain compliant.
 
+### [Apply Redaction to PDF with Aspose Plugin Manager – Complete Guide](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
+Learn how to apply redaction to PDF files using Aspose Plugin Manager with step-by-step code examples and best practices.
+
 ### [Unlock and Decrypt PDF Files with Aspose.PDF for .NET&#58; A Complete Guide](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 Learn how to unlock and decrypt protected PDF files using Aspose.PDF for .NET in C#. This guide covers setup, decryption steps, and best practices.
 

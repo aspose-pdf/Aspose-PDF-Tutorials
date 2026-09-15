@@ -16,7 +16,6 @@ url: "/net/performance-optimization/"
 Learn how to build high-performance PDF processing applications with our Aspose.PDF optimization tutorials for .NET. These practical guides demonstrate techniques for efficient memory management, execution time improvements, and strategies for handling large PDF documents effectively. Each tutorial includes detailed C# code examples and best practices for optimizing critical performance aspects, ensuring your applications remain responsive and reliable even when working with substantial PDF documents.
 
 ## Available Tutorials
-
 ### [Comprehensive Guide to PDF Optimization in .NET using Aspose.PDF](./aspose-pdf-dotnet-optimization-guide/)
 Learn how to optimize PDFs with Aspose.PDF for .NET, ensuring efficient resource use and high-quality documents. Master GSave/GRestore operations and XForm graphics management.
 
@@ -55,6 +54,14 @@ Learn how to compress PDF images using lossless JPEG with Aspose.PDF for .NET, r
 
 ### [How to Optimize PDF in C# Add Blank Page, Export HTML, Sign](./how-to-optimize-pdf-in-c-add-blank-page-export-html-sign/)
 Learn to add blank pages, export PDFs to HTML, and apply digital signatures using Aspose.PDF for .NET in C#.
+
+### [Optimize PDF Images – Reduce PDF File Size with C#](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
+Learn how to reduce PDF file size by optimizing images using C# and Aspose.PDF for .NET.
+### [How to compress pdf with Aspose – Quick C# Guide](./how-to-compress-pdf-with-aspose-quick-c-guide/)
+Learn a quick C# method to compress PDFs using Aspose.PDF, improving file size and performance in just a few steps.
+
+### [Save Optimized PDF in C# – Reduce Size & Clean Pages](./save-optimized-pdf-in-c-reduce-size-clean-pages/)
+Learn how to save optimized PDFs in C#, reducing file size and removing unnecessary pages for better performance.
 
 ## Additional Resources
 

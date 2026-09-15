@@ -43,3 +43,27 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Как проверить подписи в PDF с помощью Aspose – C#](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) | Узнайте, как проверять подписи в PDF-файлах с помощью Aspose.PDF для .NET на C#. Пошаговое руководство для обеспечения подлинности документов. |  
+| [Проверка подписей PDF в C# – Как читать подписанные PDF-файлы](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Узнайте, как проверять подписи PDF и читать подписанные файлы с помощью Aspose.PDF для .NET на C#. |  
+| [Проверка подписи PDF в C# – Полное руководство по программированию](./verify-pdf-signature-in-c-complete-programming-guide/) | Узнайте, как проверять подписи PDF в C# с помощью Aspose.PDF для .NET. Полное пошаговое руководство. |  
+| [Как восстановить PDF-файлы – Полное руководство на C# с Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Узнайте, как восстанавливать поврежденные PDF-файлы с помощью Aspose.PDF для .NET. Пошаговое руководство на C#. |  
+| [Как проверить подписи PDF в C# – Полное пошаговое руководство](./how-to-verify-pdf-signatures-in-c-complete-step-by-step-guid/) | Узнайте, как проверять подписи PDF в C# с помощью Aspose.PDF для .NET. Пошаговое руководство для обеспечения подлинности документов. |  
+| [Как проверить подпись в PDF с помощью Aspose – Руководство](./how-to-verify-signature-in-pdf-using-aspose-guide/) | Узнайте, как проверять подписи в PDF-файлах с помощью Aspose.PDF для .NET в этом пошаговом руководстве. |  
+| [Как проверить подписи PDF с помощью Aspose.PDF – Полное руководство](./how-to-verify-pdf-signatures-with-aspose-pdf-complete-guide/) | Подробное руководство по проверке цифровых подписей PDF с использованием Aspose.PDF для .NET. |  
+| [Проверка цифровой подписи PDF в C# – Полное руководство](./verify-pdf-digital-signature-in-c-complete-guide/) | Узнайте, как проверять цифровые подписи PDF в C# с помощью Aspose.PDF для .NET. Пошаговое руководство для разработчиков. |  
+| [Создать обработчик подписи PDF – Список подписей в C#](./create-pdf-signature-handler-list-signatures-in-c/) | Узнайте, как создать обработчик подписи PDF и получить список подписей в документе с помощью Aspose.PDF для .NET. |  
+| [Проверка подписи PDF в C# – Пошаговое руководство](./validate-pdf-signature-in-c-step-by-step-guide/) | Узнайте, как проверять подписи PDF в C# с помощью Aspose.PDF для .NET. Подробное пошаговое руководство. |  
+| [Загрузка PDF-документа C# – Полное руководство по чтению и перечислению подписей](./load-pdf-document-c-complete-guide-to-reading-and-listing-si/) | Узнайте, как загрузить PDF в C# с помощью Aspose.PDF, прочитать и перечислить цифровые подписи в документе. |
+| [Создать подписанный PDF в C# – пошаговое руководство](./create-signed-pdf-in-c-step-by-step-guide/) | Узнайте, как создать подписанный PDF в C# с помощью Aspose.PDF для .NET. Пошаговое руководство по добавлению цифровой подписи. |  
+| [Проверка подписи PDF в C# – пошаговое руководство](./verify-pdf-signature-in-c-step-by-step-guide/) | Узнайте, как проверять подписи PDF в C# с помощью Aspose.PDF для .NET. Пошаговое руководство для обеспечения подлинности документов. |  
+| [Как использовать OCSP для проверки цифровой подписи PDF в C#](./how-to-use-ocsp-to-validate-pdf-digital-signature-in-c/) | Узнайте, как использовать протокол OCSP для проверки цифровой подписи PDF в C# с помощью Aspose.PDF для .NET. |  
+| [Проверка подписи PDF с Aspose.Pdf – пошаговое руководство](./verify-pdf-signature-with-aspose-pdf-step-by-step-guide/) | Узнайте, как проверять цифровые подписи PDF-файлов с помощью Aspose.PDF для .NET в подробном пошаговом руководстве. |  
+| [Как проверить PDF – Полное руководство на C# по цифровым подписям](./how-to-verify-pdf-complete-c-guide-for-digital-signatures/) | Узнайте, как проверять цифровые подписи PDF-файлов с помощью Aspose.PDF для .NET в полном руководстве на C#. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

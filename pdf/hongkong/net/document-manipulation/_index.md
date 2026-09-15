@@ -16,7 +16,6 @@
 透過我們詳細的 Aspose.PDF .NET 教學掌握 PDF 文件操作。這些逐步指南示範如何處理文件結構、修改現有 PDF、分割和合併文件、新增和刪除頁面以及以程式設計方式組織 PDF 內容。每個教學課程都包含可用的 C# 程式碼範例、實施說明和最佳實踐，以幫助您建立使用乾淨、可維護的程式碼高效操作 PDF 文件的應用程式。
 
 ## 可用教程
-
 ### [使用 Aspose.PDF for .NET 為 PDF 新增日期和時間戳記註解](./aspose-pdf-net-date-time-stamps-annotations/)
 了解如何使用 Aspose.PDF for .NET 有效率地將日期和時間戳記或註解新增至 PDF 文件中。透過這些簡單易行的步驟來增強文件管理。
 
@@ -312,6 +311,9 @@ Aspose.PDF Net 程式碼教學
 了解如何使用 Aspose.PDF for .NET 掌握 PDF 操作。本指南涵蓋了 PDF 中的文字載入、保存和替換，非常適合追求效率的開發人員。
 
 ### [如何在 C# 中編輯 PDF – 隱藏文字 PDF 與移除內容 PDF](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
+
+### [如何在 C# 中修復 PDF – 快速修復損壞的 PDF 檔案](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中快速修復受損的 PDF 檔案，恢復其內容與結構。
 
 ## 其他資源
 

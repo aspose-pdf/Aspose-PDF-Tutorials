@@ -16,7 +16,6 @@
 Erfahren Sie mit unseren Aspose.PDF-Optimierungs-Tutorials für .NET, wie Sie leistungsstarke PDF-Verarbeitungsanwendungen erstellen. Diese praktischen Anleitungen demonstrieren Techniken für effizientes Speichermanagement, Verbesserungen der Ausführungszeit und Strategien für die effektive Verarbeitung großer PDF-Dokumente. Jedes Tutorial enthält detaillierte C#-Codebeispiele und Best Practices zur Optimierung kritischer Leistungsaspekte. So bleiben Ihre Anwendungen auch bei umfangreichen PDF-Dokumenten reaktionsschnell und zuverlässig.
 
 ## Verfügbare Tutorials
-
 ### [Umfassender Leitfaden zur PDF-Optimierung in .NET mit Aspose.PDF](./aspose-pdf-dotnet-optimization-guide/)
 Erfahren Sie, wie Sie PDFs mit Aspose.PDF für .NET optimieren und so Ressourcen effizient nutzen und hochwertige Dokumente erstellen. Meistern Sie GSave/GRestore-Operationen und die XForm-Grafikverwaltung.
 
@@ -55,6 +54,14 @@ Erfahren Sie, wie Sie PDF-Bilder mit verlustfreiem JPEG komprimieren, um die Dat
 
 ### [Wie man PDF in C# optimiert: Leere Seite hinzufügen, HTML exportieren, signieren](./how-to-optimize-pdf-in-c-add-blank-page-export-html-sign/)
 Erfahren Sie, wie Sie PDFs in C# optimieren, indem Sie leere Seiten hinzufügen, HTML exportieren und digitale Signaturen anwenden.
+
+### [PDF-Bilder optimieren – PDF-Dateigröße mit C# reduzieren](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
+Erfahren Sie, wie Sie Bilder in PDFs mit C# reduzieren, um die Dateigröße zu verkleinern und die Leistung zu verbessern.
+### [PDF mit Aspose komprimieren – Schnellleitfaden in C#](./how-to-compress-pdf-with-aspose-quick-c-guide/)
+Erfahren Sie, wie Sie PDFs mit Aspose komprimieren und die Dateigröße reduzieren – ein kurzer C#‑Leitfaden.
+
+### [Optimiertes PDF in C# speichern – Größe reduzieren und Seiten bereinigen](./save-optimized-pdf-in-c-reduce-size-clean-pages/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET optimierte PDFs speichern, die Dateigröße verringern und nicht benötigte Seiten entfernen.
 
 ## Weitere Ressourcen
 

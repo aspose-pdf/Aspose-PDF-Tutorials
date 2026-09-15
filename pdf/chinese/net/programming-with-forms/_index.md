@@ -59,3 +59,13 @@ Aspose.PDF for .NET“表单编程”教程是开发人员创建和操作交互�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [如何使用 Aspose 创建 PDF – 添加表单字段和页面](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) 通过本分步指南学习如何使用 Aspose.PDF for .NET 创建 PDF 并添加表单字段和页面。|
+| [如何添加文本框 PDF – 创建 PDF 表单字段并保存编辑后的 PDF 文档](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) 通过本分步指南学习如何使用 Aspose.PDF for .NET 在 PDF 中添加文本框、创建表单字段并保存编辑后的文档。|  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

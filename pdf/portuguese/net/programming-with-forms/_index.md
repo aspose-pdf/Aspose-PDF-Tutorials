@@ -59,3 +59,15 @@ Estes tutoriais também fornecem exemplos de código detalhados, explicações c
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Como criar PDF com Aspose – Adicionar campo de formulário e páginas](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Aprenda a criar um PDF, adicionar campos de formulário e inserir páginas usando Aspose.PDF para .NET neste tutorial passo a passo. |  
+| [Criar documento PDF com vários widgets de caixa de texto – Guia passo a passo](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Aprenda a criar um PDF com múltiplas caixas de texto usando Aspose.PDF para .NET neste tutorial passo a passo. |
+| [Adicionar Números Bates a PDFs – Guia passo a passo em C#](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Aprenda a inserir números Bates em PDFs usando Aspose.PDF para .NET com este guia passo a passo em C#. |
+| [Como Adicionar Caixa de Texto PDF – Criar Campo de Formulário PDF e Salvar Documento PDF Editado](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Aprenda a adicionar caixa de texto, criar campo de formulário e salvar o PDF editado usando Aspose.PDF para .NET. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

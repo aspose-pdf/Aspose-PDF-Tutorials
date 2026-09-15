@@ -59,3 +59,13 @@ Aspose.PDF for .NETの「フォームを使ったプログラミング」チュ�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [AsposeでPDFを作成 – フィールドとページを追加](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) Aspose.PDF for .NET を使用して、PDF にフォームフィールドとページを追加する手順をステップバイステップで解説します。 |  
+| [テキストボックス PDF の追加方法 – PDF フォームフィールドの作成と編集済み PDF ドキュメントの保存](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) Aspose.PDF for .NET を使用して PDF にテキストボックス フィールドを作成し、編集した PDF を保存する方法をステップバイステップで解説します。 |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

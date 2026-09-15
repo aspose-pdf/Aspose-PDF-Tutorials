@@ -16,7 +16,6 @@
 Scopri come creare applicazioni di elaborazione PDF ad alte prestazioni con i nostri tutorial di ottimizzazione di Aspose.PDF per .NET. Queste guide pratiche illustrano tecniche per una gestione efficiente della memoria, miglioramenti dei tempi di esecuzione e strategie per gestire efficacemente documenti PDF di grandi dimensioni. Ogni tutorial include esempi dettagliati di codice C# e best practice per ottimizzare gli aspetti critici delle prestazioni, garantendo che le tue applicazioni rimangano reattive e affidabili anche quando si lavora con documenti PDF di grandi dimensioni.
 
 ## Tutorial disponibili
-
 ### [Guida completa all'ottimizzazione PDF in .NET utilizzando Aspose.PDF](./aspose-pdf-dotnet-optimization-guide/)
 Scopri come ottimizzare i PDF con Aspose.PDF per .NET, garantendo un utilizzo efficiente delle risorse e documenti di alta qualità. Padroneggia le operazioni GSave/GRestore e la gestione della grafica XForm.
 
@@ -55,6 +54,14 @@ Scopri come ridurre le dimensioni delle immagini nei PDF usando la compressione 
 
 ### [Come ottimizzare PDF in C# aggiungendo una pagina vuota, esportando in HTML e firmando](./how-to-optimize-pdf-in-c-add-blank-page-export-html-sign/)
 Scopri come aggiungere pagine vuote, esportare PDF in HTML e firmare documenti PDF usando Aspose.PDF per .NET in C#.
+
+### [Ottimizza le immagini PDF – Riduci le dimensioni del file PDF con C#](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
+Scopri come comprimere e ridimensionare le immagini nei PDF usando C# e Aspose.PDF per ridurre drasticamente le dimensioni dei file.
+### [Come comprimere PDF con Aspose – Guida rapida C#](./how-to-compress-pdf-with-aspose-quick-c-guide/)
+Scopri come comprimere rapidamente i PDF usando Aspose.PDF in C#, con esempi pratici e consigli per ridurre le dimensioni dei file.
+
+### [Salva PDF ottimizzato in C# – Riduci le dimensioni e pulisci le pagine](./save-optimized-pdf-in-c-reduce-size-clean-pages/)
+Scopri come salvare PDF ottimizzati in C#, riducendo le dimensioni e rimuovendo le pagine inutili per migliorare le prestazioni.
 
 ## Risorse aggiuntive
 

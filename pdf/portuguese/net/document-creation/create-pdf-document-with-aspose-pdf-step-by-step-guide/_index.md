@@ -1,24 +1,24 @@
 ---
 category: general
-date: 2026-03-01
-description: Criar documento PDF usando Aspose.Pdf, adicionar página em branco ao
-  PDF, salvar o arquivo PDF e posicionar texto no PDF com um elemento marcado.
+date: 2026-01-10
+description: Crie documento PDF usando Aspose.PDF em C#. Aprenda como adicionar página
+  PDF, desenhar retângulo PDF e muito mais neste tutorial completo.
 draft: false
 keywords:
 - create pdf document
-- add blank page pdf
-- save pdf file
-- create tagged pdf
-- position text in pdf
+- add page pdf
+- draw rectangle pdf
+- how to create pdf
+- how to add rectangle
 language: pt
-og_description: Criar documento PDF com Aspose.Pdf, adicionar página em branco ao
-  PDF, salvar o arquivo PDF e posicionar texto no PDF usando um elemento span marcado.
-og_title: Criar Documento PDF – Tutorial Completo do Aspose.Pdf
+og_description: Criar documento PDF usando Aspose.PDF em C#. Siga este tutorial para
+  adicionar página PDF, desenhar retângulo PDF e dominar a criação de PDF.
+og_title: Criar documento PDF com Aspose.PDF – Guia completo
 tags:
-- Aspose.Pdf
+- Aspose.PDF
 - C#
 - PDF generation
-title: Criar documento PDF com Aspose.Pdf – Guia passo a passo
+title: Criar Documento PDF com Aspose.PDF – Guia Passo a Passo
 url: /pt/net/document-creation/create-pdf-document-with-aspose-pdf-step-by-step-guide/
 ---
 
@@ -26,209 +26,224 @@ url: /pt/net/document-creation/create-pdf-document-with-aspose-pdf-step-by-step-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Criar Documento PDF – Tutorial Completo do Aspose.Pdf
+# Criar Documento PDF com Aspose.PDF – Guia Passo a Passo
 
-Já se perguntou como **create pdf document** programaticamente sem lutar com especificações de PDF de baixo nível? Talvez você precise gerar faturas, certificados ou relatórios acessíveis em tempo real. Na minha experiência, a maneira mais fácil é deixar uma biblioteca robusta fazer o trabalho pesado enquanto você se concentra na lógica de negócios.
+Já precisou **create PDF document** programaticamente e não sabia por onde começar? Você não está sozinho — desenvolvedores ao redor do mundo encontram esse obstáculo quando tentam automatizar relatórios, faturas ou certificados. A boa notícia? Com Aspose.PDF for .NET você pode gerar um PDF em apenas algumas linhas de C#.
 
-Neste guia, vamos percorrer tudo o que você precisa para **create pdf document** com Aspose.Pdf para .NET: adicionar uma página em branco pdf, criar um elemento pdf marcado, posicionar texto em pdf e, finalmente, **save pdf file** no disco. Ao final, você terá um trecho de código executável que pode inserir em qualquer projeto C#.
+Neste tutorial vamos percorrer todo o processo: desde a inicialização do documento, até **add page PDF**, até **draw rectangle PDF**, e finalmente salvar o arquivo. Ao final você terá um exemplo sólido e executável e uma compreensão clara de **how to create pdf** com confiança.
 
-## O que você precisará
+## O que este guia cobre
 
-- .NET 6+ (ou .NET Framework 4.6 e superior)  
-- O pacote NuGet **Aspose.Pdf** (`Install-Package Aspose.Pdf`)  
-- Um entendimento básico da sintaxe C# (não é necessário conhecimento profundo de PDF)
+- Pré-requisitos que você precisa antes de escrever código  
+- Criação passo a passo de um documento PDF  
+- Adicionar uma nova página a esse documento (a clássica operação **add page pdf**)  
+- Desenhar uma forma retangular, verificar seus limites e inseri‑la (a parte “**draw rectangle pdf**”)  
+- Armadilhas comuns e dicas avançadas para geração robusta de PDF  
+- Um exemplo completo, pronto para copiar e colar, que você pode executar hoje  
 
-É isso — sem ferramentas extras, sem mexer com operadores PDF. Pronto? Vamos mergulhar.
+Sem referências externas, sem peças faltando — apenas uma solução autônoma que você pode citar ou compartilhar.
 
-![Exemplo de criação de documento PDF – um PDF simples com texto marcado](image.png "exemplo de criação de documento pdf")
+## Pré-requisitos
 
-## Etapa 1 – Inicializar o mecanismo PDF para **Create PDF Document**
+| Requisito | Por que é importante |
+|-------------|----------------|
+| .NET 6.0 ou posterior (ou .NET Framework 4.6+) | Aspose.PDF suporta ambos; runtimes mais recentes oferecem melhor desempenho. |
+| Pacote NuGet Aspose.PDF for .NET (`Aspose.Pdf`) | A biblioteca fornece as classes `Document`, `Page` e de desenho que usaremos. |
+| Um IDE C# (Visual Studio, Rider, VS Code) | Facilita a compilação e depuração. |
+| Permissão de escrita na pasta de saída | Necessária para a chamada final `Save`. |
 
-Antes de fazer qualquer coisa, você precisa de uma instância de `Aspose.Pdf.Document`. Pense nela como a tela vazia que se tornará seu arquivo final.
+Instale o pacote via NuGet:
+
+```bash
+dotnet add package Aspose.Pdf
+```
+
+É isso — uma vez que o pacote esteja instalado, você está pronto para **create pdf document**.
+
+## Etapa 1 – Criar Documento PDF (Inicializar)
+
+A primeira coisa que fazemos é instanciar um novo `Document`. Pense nisso como a tela em branco onde cada página, imagem ou forma viverá.
 
 ```csharp
 using Aspose.Pdf;
+using Aspose.Pdf.Drawing;
+
+// Step 1: Initialize a fresh PDF document
+var pdfDocument = new Document();
+```
+
+> **Por que isso importa:** `Document` é o objeto raiz. Sem ele você não pode adicionar páginas ou conteúdo, então esta etapa é essencial para **how to create pdf** do zero.
+
+## Etapa 2 – Add Page PDF
+
+Um PDF sem páginas não passa de um cabeçalho de arquivo. Vamos adicionar uma página, que é onde mais tarde desenharemos nosso retângulo.
+
+```csharp
+// Step 2: Add a new page to the document
+var pdfPage = pdfDocument.Pages.Add();
+```
+
+> **Dica profissional:** O método `Add()` retorna o objeto `Page` recém‑criado, então você pode encadear ações adicionais sem precisar procurar na coleção novamente.
+
+### Verificando as dimensões da página (Opcional)
+
+Se você planeja posicionar formas com precisão, pode querer saber o tamanho da página:
+
+```csharp
+float pageWidth = pdfPage.PageInfo.Width;   // default A4 width in points
+float pageHeight = pdfPage.PageInfo.Height; // default A4 height in points
+Console.WriteLine($"Page size: {pageWidth}×{pageHeight} points");
+```
+
+Este trecho não é necessário para o fluxo básico, mas ajuda quando você está **how to add rectangle** com coordenadas exatas.
+
+## Etapa 3 – Draw Rectangle PDF (Verificar limites e inserir)
+
+Agora vem a parte divertida: desenhar um retângulo. Vamos definir um retângulo, verificar se ele cabe dentro da página e então adicioná‑lo à coleção de parágrafos da página.
+
+```csharp
+// Step 3: Define a rectangle shape (LLX, LLY, URX, URY)
+// LLX = lower‑left X, LLY = lower‑left Y, URX = upper‑right X, URY = upper‑right Y
+var rectangleShape = new Rectangle(100, 500, 300, 700);
+
+// Step 4: Verify that the rectangle lies within the page bounds
+bool isInside = rectangleShape.LLX >= 0 &&
+                rectangleShape.URX <= pdfPage.PageInfo.Width &&
+                rectangleShape.LLY >= 0 &&
+                rectangleShape.URY <= pdfPage.PageInfo.Height;
+
+if (isInside)
+{
+    // Step 5: Add the rectangle to the page's paragraphs collection
+    pdfPage.Paragraphs.Add(rectangleShape);
+}
+else
+{
+    Console.WriteLine("Rectangle exceeds page bounds – adjust coordinates.");
+}
+```
+
+> **Por que verificamos os limites:** Tentar desenhar fora da página pode resultar em formas invisíveis ou avisos em tempo de execução. A condição garante que façamos **draw rectangle pdf** com segurança.
+
+### Personalizando a aparência
+
+Você pode estilizar o retângulo com bordas ou cores de preenchimento:
+
+```csharp
+rectangleShape.GraphInfo = new GraphInfo
+{
+    // Set a thin black border
+    LineWidth = 1,
+    StrokeColor = Color.Black,
+    // Optional fill (transparent by default)
+    FillColor = Color.LightGray
+};
+```
+
+Sinta‑se à vontade para experimentar — cores diferentes, larguras de linha ou até traços tracejados.
+
+## Etapa 4 – Salvar o Documento PDF
+
+A etapa final é persistir o documento no disco. Escolha uma pasta onde você tenha permissão de escrita e dê ao arquivo um nome claro.
+
+```csharp
+// Step 6: Save the PDF document to a file
+string outputPath = Path.Combine(Environment.CurrentDirectory, "ShapeChecked.pdf");
+pdfDocument.Save(outputPath);
+
+Console.WriteLine($"PDF saved successfully at: {outputPath}");
+```
+
+Ao abrir `ShapeChecked.pdf`, você deverá ver uma única página com um retângulo cinza‑claro posicionado entre (100, 500) e (300, 700). Esse é o resultado do nosso fluxo de **create pdf document**.
+
+![Create PDF Document example](image.png){alt="Exemplo de criação de documento PDF mostrando um retângulo em uma página"}
+
+## Exemplo completo em funcionamento (pronto para copiar e colar)
+
+Abaixo está o programa completo, pronto para compilar. Sem peças faltando, sem referências externas.
+
+```csharp
+using System;
+using System.IO;
+using Aspose.Pdf;
+using Aspose.Pdf.Drawing;
+using Aspose.Pdf.Color; // For color definitions
 
 class Program
 {
     static void Main()
     {
-        // Step 1: Create a new PDF document (this is where we will build everything)
-        using var pdfDocument = new Document();
-```
+        // 1️⃣ Create PDF document
+        var pdfDocument = new Document();
 
-Por que a instrução `using`? Ela garante que todos os recursos não gerenciados sejam liberados assim que terminarmos — importante para cenários de servidor onde muitos PDFs são gerados por minuto.
+        // 2️⃣ Add page PDF
+        var pdfPage = pdfDocument.Pages.Add();
 
-## Etapa 2 – **Add Blank Page PDF** ao Documento
+        // Optional: show page size
+        Console.WriteLine($"Page size: {pdfPage.PageInfo.Width}×{pdfPage.PageInfo.Height} points");
 
-Um PDF sem páginas é, bem, nada. Adicionar uma página em branco nos dá uma superfície para colocar conteúdo.
+        // 3️⃣ Define rectangle (draw rectangle PDF)
+        var rectangleShape = new Rectangle(100, 500, 300, 700);
 
-```csharp
-        // Step 2: Add a blank page pdf – this gives us a fresh page to work with
-        var page = pdfDocument.Pages.Add();
-```
+        // Style the rectangle (optional)
+        rectangleShape.GraphInfo = new GraphInfo
+        {
+            LineWidth = 1,
+            StrokeColor = Color.Black,
+            FillColor = Color.LightGray
+        };
 
-`Pages.Add()` cria uma página que corresponde ao tamanho padrão (A4). Se precisar de um tamanho diferente, você pode passar um enum `PageSize` ou dimensões personalizadas.
+        // 4️⃣ Verify bounds before adding
+        bool fits = rectangleShape.LLX >= 0 &&
+                    rectangleShape.URX <= pdfPage.PageInfo.Width &&
+                    rectangleShape.LLY >= 0 &&
+                    rectangleShape.URY <= pdfPage.PageInfo.Height;
 
-## Etapa 3 – Criar um elemento Span **Create Tagged PDF**
+        if (fits)
+        {
+            // 5️⃣ Add rectangle to the page
+            pdfPage.Paragraphs.Add(rectangleShape);
+            Console.WriteLine("Rectangle added successfully.");
+        }
+        else
+        {
+            Console.WriteLine("Rectangle is out of page bounds – adjust coordinates.");
+        }
 
-PDFs marcados são essenciais para acessibilidade; leitores de tela dependem de tags para descrever a ordem de leitura. Aqui criamos um elemento span que conterá nosso texto.
-
-```csharp
-        // Step 3: Create a tagged span element for accessible text
-        var taggedSpan = pdfDocument.TaggedContent.CreateSpanElement();
-```
-
-O método `CreateSpanElement()` retorna um objeto que pode ser posteriormente anexado à árvore de conteúdo da página. Isso é o que torna o PDF “marcado”.
-
-## Etapa 4 – **Position Text in PDF** usando coordenadas absolutas
-
-Se você precisar que o texto apareça em um ponto exato — por exemplo, uma linha de assinatura ou uma marca d'água — você usará `SetPosition`. As coordenadas são medidas em pontos (1 pt ≈ 1/72 pol).
-
-```csharp
-        // Step 4: Position the span at a fixed location (X = 100 pt, Y = 700 pt)
-        taggedSpan.SetPosition(100, 700);
-```
-
-Por que 100 pt × 700 pt? Isso coloca o texto aproximadamente uma polegada da borda esquerda e próximo ao topo de uma página A4. Ajuste esses números conforme seu layout.
-
-## Etapa 5 – Preencher o Span com o Texto Desejado
-
-Agora realmente damos ao span algo para exibir.
-
-```csharp
-        // Step 5: Set the text that will appear at the specified location
-        taggedSpan.Text = "Tagged text at a fixed location";
-```
-
-Você também pode definir fonte, tamanho e cor através da propriedade `TextState` se quiser mais estilo.
-
-## Etapa 6 – Anexar o Elemento Marcado à Página
-
-Um span marcado por si só não aparecerá até ser adicionado à coleção de conteúdo da página.
-
-```csharp
-        // Attach the tagged span to the page’s TaggedContent collection
-        page.TaggedContent.Add(taggedSpan);
-```
-
-Esta etapa é fácil de esquecer, e esquecê‑la resulta em um PDF vazio — mesmo que você ache que tenha colocado texto. Dica profissional: sempre verifique duas vezes se cada tag que você cria foi adicionada a uma página.
-
-## Etapa 7 – **Save PDF File** no Disco
-
-Finalmente, persistimos o documento. O método `Save` aceita um caminho, um stream ou um objeto `SaveOptions` para controle fino.
-
-```csharp
-        // Step 6: Save the PDF to a file (this is where we actually **save pdf file**)
-        pdfDocument.Save("tagged.pdf");
+        // 6️⃣ Save the PDF
+        string outputFile = Path.Combine(Environment.CurrentDirectory, "ShapeChecked.pdf");
+        pdfDocument.Save(outputFile);
+        Console.WriteLine($"PDF saved at: {outputFile}");
     }
 }
 ```
 
-Executar o programa gera `tagged.pdf` no diretório de trabalho do executável. Abra‑o com qualquer visualizador de PDF e você verá o texto posicionado exatamente onde o definimos.
+Executar este programa gera um arquivo `ShapeChecked.pdf` ao lado do executável. Abra‑o com qualquer visualizador de PDF; você verá o retângulo que desenhamos — prova de que você conseguiu **create pdf document**, **add page pdf**, e **draw rectangle pdf** tudo de uma vez.
 
-### Listagem completa para copiar‑colar rapidamente
+## Perguntas comuns e casos de borda
 
-```csharp
-using Aspose.Pdf;
+| Pergunta | Resposta |
+|----------|----------|
+| *E se eu precisar de um tamanho de página diferente?* | Defina `pdfPage.PageInfo.Width` e `Height` antes de desenhar, ou crie uma `Page` com um enum `PageSize` personalizado (por exemplo, `PageSize.Letter`). |
+| *Posso adicionar vários retângulos?* | Absolutamente — basta repetir o bloco de criação do retângulo e adicionar cada forma a `pdfPage.Paragraphs`. |
+| *O que acontece em PDFs muito pequenos?* | A verificação de limites impedirá coordenadas fora do intervalo, então o código falha graciosamente com uma mensagem no console. |
+| *Existe uma maneira de girar o retângulo?* | Use `rectangleShape.Rotation = 45;` (graus) antes de adicioná‑lo. |
+| *Preciso descartar o `Document`?* | `Document` implementa `IDisposable`. Em um aplicativo real, envolva‑o em um bloco `using` para limpeza determinística. |
 
-class Program
-{
-    static void Main()
-    {
-        // Step 1: Create a new PDF document
-        using var pdfDocument = new Document();
+## Dicas avançadas e boas práticas
 
-        // Step 2: Add a blank page pdf
-        var page = pdfDocument.Pages.Add();
+- **Adições em lote:** Se você estiver adicionando dezenas de formas, construa‑as primeiro em uma lista e depois adicione a lista inteira a `Paragraphs` — isso reduz a sobrecarga de processamento interno.  
+- **Sistema de coordenadas:** Aspose.PDF usa pontos (1 pt = 1/72 pol). Lembre‑se de converter de pixels ou milímetros se seus dados de origem usarem outra unidade.  
+- **Desempenho:** Para PDFs grandes, considere habilitar `pdfDocument.Optimize()` antes de salvar; ele comprime fluxos e reduz o tamanho do arquivo.  
+- **Tratamento de erros:** Envolva todo o fluxo em um `try/catch` e registre `PdfException` para diagnósticos melhores.  
 
-        // Step 3: Create a tagged span element for accessible text
-        var taggedSpan = pdfDocument.TaggedContent.CreateSpanElement();
+## Conclusão
 
-        // Step 4: Position the span at a fixed location (X = 100 pt, Y = 700 pt)
-        taggedSpan.SetPosition(100, 700);
+Agora você sabe exatamente **how to create pdf document** com Aspose.PDF, como **add page pdf**, e como **draw rectangle pdf** enquanto verifica os limites com segurança. O exemplo completo acima pode ser inserido em qualquer projeto .NET, proporcionando uma base sólida para tarefas PDF mais avançadas, como inserir imagens, tabelas ou assinaturas digitais.
 
-        // Step 5: Set the text that will appear at the specified location
-        taggedSpan.Text = "Tagged text at a fixed location";
+Pronto para o próximo passo? Experimente substituir o retângulo por um `Ellipse`, experimente gráficos em camadas ou gere um relatório de múltiplas páginas percorrendo linhas de dados. Os mesmos princípios — inicializar, adicionar páginas, desenhar formas, salvar — se aplicam a todos os cenários de geração de PDF.
 
-        // Attach the span to the page so it becomes part of the document
-        page.TaggedContent.Add(taggedSpan);
-
-        // Step 6: Save the PDF to a file
-        pdfDocument.Save("tagged.pdf");
-    }
-}
-```
-
-#### Resultado Esperado
-
-- Um PDF de uma página chamado **tagged.pdf**.  
-- A frase *“Tagged text at a fixed location”* aparece próximo ao canto superior esquerdo (100 pt da esquerda, 700 pt da parte inferior).  
-- O arquivo está **tagged**, o que significa que tecnologias assistivas podem ler a ordem do texto corretamente.
-
-## Perguntas Frequentes & Casos de Borda
-
-### Preciso de licença para Aspose.Pdf?
-
-A Aspose oferece uma licença de avaliação temporária gratuita. Sem licença, a biblioteca adiciona uma pequena marca d'água, mas o código ainda funciona. Para uso em produção, compre uma licença para desbloquear todos os recursos e remover a marca d'água.
-
-### E se eu quiser adicionar mais de um trecho de texto?
-
-Basta repetir as Etapas 3‑5 para cada trecho, atribuindo a cada span suas próprias coordenadas. Você também pode criar uma tag `Paragraph` e adicionar múltiplos spans a ela para um controle de layout mais rico.
-
-### Como mudar o sistema de coordenadas?
-
-Aspose usa a origem inferior‑esquerda (padrão PDF). Se preferir uma origem superior‑esquerda (como no WinForms), subtraia a coordenada Y da altura da página:
-
-```csharp
-float yFromTop = page.PageInfo.Height - 700; // for A4 this is 842 - 700 = 142
-taggedSpan.SetPosition(100, yFromTop);
-```
-
-### E quanto a tamanhos de página diferentes?
-
-Ao adicionar uma página você pode especificar dimensões:
-
-```csharp
-var customPage = pdfDocument.Pages.Add();
-customPage.PageInfo.Width = 595;   // 8.27 inches * 72
-customPage.PageInfo.Height = 842;  // 11.69 inches * 72 (A4)
-```
-
-### Posso definir estilos de fonte?
-
-Sim — modifique o `TextState`:
-
-```csharp
-taggedSpan.TextState.Font = FontRepository.FindFont("Arial");
-taggedSpan.TextState.FontSize = 14;
-taggedSpan.TextState.FontStyle = FontStyles.Bold;
-taggedSpan.TextState.ForegroundColor = Color.Blue;
-```
-
-## Dicas Profissionais & Armadilhas
-
-- **Dispose early**: A instrução `using` em torno de `Document` impede vazamentos de memória, especialmente ao gerar dezenas de PDFs em um loop.  
-- **Coordinate sanity**: Pontos PDF são pequenos; uma margem de 72 pt equivale a uma polegada. Digitar um zero a mais pode deslocar o texto para fora da página.  
-- **Tag hierarchy**: Para documentos complexos, construa uma árvore lógica de tags (Document → Part → Section → Paragraph → Span). Isso melhora a acessibilidade e a edição futura.  
-- **Performance**: Se você precisar apenas de texto simples, `TextFragment` é mais rápido que um elemento marcado completo. Use tags quando precisar de conformidade com PDF/UA ou conversão para EPUB.
-
-## Próximos Passos
-
-Agora que você sabe como **create pdf document**, **add blank page pdf**, **create tagged pdf**, **position text in pdf** e **save pdf file**, você pode querer explorar:
-
-- Adicionar imagens com objetos `Image` (`page.Resources.Images.Add(...)`).  
-- Construir tabelas usando as classes `Table` e `Row` para layouts estilo fatura.  
-- Criptografar o PDF para segurança (`pdfDocument.Encrypt(...)`).  
-- Converter outros formatos (HTML, DOCX) para PDF com as APIs de conversão da Aspose.
-
-Cada um desses tópicos se baseia nos mesmos conceitos centrais que abordamos, então você se sentirá em casa.
-
----
-
-**Isso é tudo!** Agora você tem um exemplo sólido, de ponta a ponta, de como **create pdf document** com Aspose.Pdf, completo com uma página em branco, um elemento marcado, posicionamento preciso e um passo final de **save pdf file**. Experimente diferentes coordenadas, fontes e tags — a geração de PDF é surpreendentemente flexível quando você tem a base correta.
-
-Se você encontrou algum problema ou tem ideias para extensões, deixe um comentário abaixo. Feliz codificação!
+Se você encontrar algum problema ou tiver ideias para melhorias, sinta‑se à vontade para deixar um comentário. Boa codificação e aproveite a criação de PDFs bonitos!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

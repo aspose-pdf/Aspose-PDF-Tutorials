@@ -16,7 +16,6 @@
 Dowiedz się, jak tworzyć wydajne aplikacje do przetwarzania plików PDF dzięki naszym samouczkom optymalizacji Aspose.PDF dla .NET. Te praktyczne przewodniki demonstrują techniki wydajnego zarządzania pamięcią, udoskonalenia czasu wykonywania i strategie efektywnego obsługiwania dużych dokumentów PDF. Każdy samouczek zawiera szczegółowe przykłady kodu C# i najlepsze praktyki optymalizacji krytycznych aspektów wydajności, zapewniając, że Twoje aplikacje pozostaną responsywne i niezawodne nawet podczas pracy z dużymi dokumentami PDF.
 
 ## Dostępne samouczki
-
 ### [Kompleksowy przewodnik po optymalizacji plików PDF w .NET przy użyciu Aspose.PDF](./aspose-pdf-dotnet-optimization-guide/)
 Dowiedz się, jak optymalizować pliki PDF za pomocą Aspose.PDF dla .NET, zapewniając wydajne wykorzystanie zasobów i wysokiej jakości dokumenty. Opanuj operacje GSave/GRestore i zarządzanie grafiką XForm.
 
@@ -52,6 +51,14 @@ Dowiedz się, jak usunąć osadzone czcionki z plików PDF za pomocą Aspose.PDF
 
 ### [Utwórz zoptymalizowany PDF – kompresja obrazów PDF bezstratnym JPEG](./create-optimized-pdf-compress-pdf-images-with-lossless-jpeg/)
 Dowiedz się, jak skompresować obrazy w plikach PDF przy użyciu bezstratnego formatu JPEG, aby zmniejszyć rozmiar i zachować jakość.
+
+### [Optymalizacja obrazów PDF – zmniejsz rozmiar pliku PDF przy użyciu C#](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
+Dowiedz się, jak zoptymalizować obrazy w plikach PDF i zmniejszyć ich rozmiar przy użyciu C# i Aspose.PDF.
+### [Jak skompresować PDF przy użyciu Aspose – szybki przewodnik C#](./how-to-compress-pdf-with-aspose-quick-c-guide/)
+Szybki przewodnik pokazujący, jak używać Aspose.PDF w C# do kompresji plików PDF, zwiększając wydajność i zmniejszając rozmiar.
+
+### [Zapisz zoptymalizowany PDF w C# – zmniejsz rozmiar i wyczyść strony](./save-optimized-pdf-in-c-reduce-size-clean-pages/)
+Dowiedz się, jak zapisać zoptymalizowany plik PDF w C#, redukując jego rozmiar i usuwając niepotrzebne strony.
 
 ## Dodatkowe zasoby
 

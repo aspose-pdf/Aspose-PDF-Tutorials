@@ -58,7 +58,7 @@ De bron bevat tutorials over de programmeerfunctie met documentfunctionaliteit v
 | [Valideer PDF AB-standaard](./validatepdfabstandard/) Leer in deze stapsgewijze tutorial hoe u een PDF kunt valideren voor de PDF/A-1b-standaard met Aspose.PDF voor .NET. Zorg voor compliance bij langetermijnarchivering. |  
 | [PDF-bestanden valideren Een standaard](./validatepdfastandard/) | Leer hoe u PDF-bestanden kunt valideren tegen de PDF/A-1a-standaard met behulp van Aspose.PDF voor .NET in deze uitgebreide stapsgewijze zelfstudie. |  
 | [Valideer PDF UA-standaard](./validatepdfuastandard/) | Leer hoe u een PDF kunt valideren voor de PDF/UA-toegankelijkheidsstandaard met Aspose.PDF voor .NET met onze stapsgewijze handleiding en gedetailleerde uitleg. |  
-
+| [PDF-bestanden repareren – Stapsgewijze handleiding met Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Leer hoe u beschadigde PDF-bestanden kunt repareren met Aspose.PDF voor .NET in deze stapsgewijze gids. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

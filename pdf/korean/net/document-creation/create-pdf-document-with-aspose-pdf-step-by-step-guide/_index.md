@@ -1,24 +1,24 @@
 ---
 category: general
-date: 2026-03-01
-description: Aspose.Pdf를 사용하여 PDF 문서를 생성하고, 빈 페이지를 추가한 뒤 PDF 파일을 저장하며, 태그된 요소를 사용해
-  PDF에 텍스트를 배치합니다.
+date: 2026-01-10
+description: C#에서 Aspose.PDF를 사용하여 PDF 문서를 생성합니다. 이 완전한 튜토리얼에서 PDF 페이지 추가, 사각형 그리기
+  등 다양한 방법을 배워보세요.
 draft: false
 keywords:
 - create pdf document
-- add blank page pdf
-- save pdf file
-- create tagged pdf
-- position text in pdf
+- add page pdf
+- draw rectangle pdf
+- how to create pdf
+- how to add rectangle
 language: ko
-og_description: Aspose.Pdf를 사용하여 PDF 문서를 생성하고, 빈 페이지를 추가한 뒤 PDF 파일을 저장하며, 태그된 span
-  요소를 사용하여 PDF 내 텍스트 위치를 지정합니다.
-og_title: PDF 문서 만들기 – 완전한 Aspose.Pdf 튜토리얼
+og_description: C#에서 Aspose.PDF를 사용해 PDF 문서를 생성합니다. 이 튜토리얼을 따라 페이지 추가, 사각형 그리기 및 마스터
+  PDF 생성 방법을 확인하세요.
+og_title: Aspose.PDF로 PDF 문서 만들기 – 완전 가이드
 tags:
-- Aspose.Pdf
+- Aspose.PDF
 - C#
 - PDF generation
-title: Aspose.Pdf로 PDF 문서 만들기 – 단계별 가이드
+title: Aspose.PDF로 PDF 문서 만들기 – 단계별 가이드
 url: /ko/net/document-creation/create-pdf-document-with-aspose-pdf-step-by-step-guide/
 ---
 
@@ -26,209 +26,224 @@ url: /ko/net/document-creation/create-pdf-document-with-aspose-pdf-step-by-step-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PDF 문서 만들기 – 완전 Aspose.Pdf 튜토리얼
+# Aspose.PDF로 PDF 문서 만들기 – 단계별 가이드
 
-낮은 수준의 PDF 사양을 다루지 않고도 프로그래밍 방식으로 **create pdf document** 하는 방법이 궁금하셨나요? 인보이스, 인증서, 혹은 접근성 친화적인 보고서를 즉시 생성해야 할 수도 있습니다. 제 경험상 가장 쉬운 방법은 견고한 라이브러리가 무거운 작업을 처리하도록 하고, 여러분은 비즈니스 로직에 집중하는 것입니다.
+프로그래밍으로 **PDF 문서 생성**이 필요했지만 어디서 시작해야 할지 몰랐던 적이 있나요? 여러분만 그런 것이 아닙니다—전 세계 개발자들이 보고서, 청구서, 증명서를 자동화하려 할 때 이 문제에 부딪힙니다. 좋은 소식은? Aspose.PDF for .NET을 사용하면 몇 줄의 C# 코드만으로 PDF를 손쉽게 만들 수 있다는 것입니다.
 
-이 가이드에서는 Aspose.Pdf for .NET을 사용해 **create pdf document** 하는 모든 과정을 단계별로 살펴보겠습니다: 빈 페이지 PDF 추가, 태그가 지정된 PDF 요소 생성, PDF 내 텍스트 위치 지정, 그리고 마지막으로 **save pdf file** 을 디스크에 저장합니다. 끝까지 진행하면 어떤 C# 프로젝트에도 바로 넣어 사용할 수 있는 실행 가능한 코드 조각을 얻게 됩니다.
+이 튜토리얼에서는 문서 초기화부터 **add page PDF**, **draw rectangle PDF**까지 전체 과정을 단계별로 살펴봅니다. 마지막에는 실행 가능한 예제와 **PDF 생성 방법**에 대한 명확한 이해를 얻을 수 있습니다.
 
-## 필요 사항
+## 이 가이드에서 다루는 내용
 
-- .NET 6+ (또는 .NET Framework 4.6 이상)  
-- **Aspose.Pdf** NuGet 패키지 (`Install-Package Aspose.Pdf`)  
-- C# 구문에 대한 기본적인 이해 (깊은 PDF 지식은 필요 없음)  
+- 코드를 작성하기 전에 필요한 사전 조건  
+- PDF 문서 생성 단계별 안내  
+- 문서에 새 페이지 추가(전형적인 **add page pdf** 작업)  
+- 사각형 그리기, 경계 확인 및 삽입(“**draw rectangle pdf**” 파트)  
+- 흔히 겪는 함정과 견고한 PDF 생성을 위한 전문가 팁  
+- 오늘 바로 실행할 수 있는 완전한 복사‑붙여넣기‑가능 코드 샘플  
 
-그게 전부입니다—추가 도구도 없고, PDF 연산자를 직접 다룰 필요도 없습니다. 준비되셨나요? 바로 시작해 보겠습니다.
+외부 참고 자료 없이, 누락된 부분 없이—그냥 바로 사용할 수 있는 솔루션만 제공합니다.
 
-![PDF 문서 생성 예시 – 태그가 지정된 간단한 PDF](image.png "PDF 문서 생성 예시")
+## 사전 조건
 
-## 1단계 – **Create PDF Document** 를 위한 PDF 엔진 초기화
+| Requirement | Why It Matters |
+|-------------|----------------|
+| .NET 6.0 이상 (또는 .NET Framework 4.6 이상) | Aspose.PDF는 두 환경을 모두 지원하며, 최신 런타임이 더 나은 성능을 제공합니다. |
+| Aspose.PDF for .NET NuGet 패키지 (`Aspose.Pdf`) | `Document`, `Page`, 그리고 그리기 클래스를 제공하는 라이브러리입니다. |
+| C# IDE (Visual Studio, Rider, VS Code) | 컴파일 및 디버깅을 쉽게 해줍니다. |
+| 출력 폴더에 대한 쓰기 권한 | 최종 `Save` 호출에 필요합니다. |
 
-무언가를 하기 전에 `Aspose.Pdf.Document` 인스턴스가 필요합니다. 이것은 최종 파일이 될 빈 캔버스로 생각하면 됩니다.
+NuGet을 통해 패키지를 설치합니다:
+
+```bash
+dotnet add package Aspose.Pdf
+```
+
+이제 패키지가 준비되었으니 **PDF 문서 생성**을 시작할 수 있습니다.
+
+## 1단계 – PDF 문서 생성 (초기화)
+
+먼저 새로운 `Document` 인스턴스를 생성합니다. 이는 모든 페이지, 이미지, 도형이 들어갈 빈 캔버스와 같습니다.
 
 ```csharp
 using Aspose.Pdf;
+using Aspose.Pdf.Drawing;
+
+// Step 1: Initialize a fresh PDF document
+var pdfDocument = new Document();
+```
+
+> **왜 중요한가:** `Document`는 루트 객체입니다. 이 없이는 페이지나 콘텐츠를 추가할 수 없으므로 **PDF 생성 방법**의 첫 단계라 할 수 있습니다.
+
+## 2단계 – Add Page PDF
+
+페이지가 없는 PDF는 파일 헤더에 불과합니다. 이제 페이지를 추가하고, 이후에 사각형을 그릴 준비를 합니다.
+
+```csharp
+// Step 2: Add a new page to the document
+var pdfPage = pdfDocument.Pages.Add();
+```
+
+> **전문가 팁:** `Add()` 메서드는 새로 만든 `Page` 객체를 반환하므로, 컬렉션을 다시 탐색하지 않고 바로 후속 작업을 연결할 수 있습니다.
+
+### 페이지 크기 확인 (선택 사항)
+
+정밀하게 도형을 배치하려면 페이지 크기를 알아두는 것이 좋습니다:
+
+```csharp
+float pageWidth = pdfPage.PageInfo.Width;   // default A4 width in points
+float pageHeight = pdfPage.PageInfo.Height; // default A4 height in points
+Console.WriteLine($"Page size: {pageWidth}×{pageHeight} points");
+```
+
+이 코드는 기본 흐름에 필수는 아니지만, **사각형 추가 방법**을 정확한 좌표로 지정할 때 도움이 됩니다.
+
+## 3단계 – Draw Rectangle PDF (경계 확인 및 삽입)
+
+이제 재미있는 부분, 사각형 그리기입니다. 사각형을 정의하고, 페이지 안에 들어가는지 확인한 뒤, 페이지의 `Paragraphs` 컬렉션에 추가합니다.
+
+```csharp
+// Step 3: Define a rectangle shape (LLX, LLY, URX, URY)
+// LLX = lower‑left X, LLY = lower‑left Y, URX = upper‑right X, URY = upper‑right Y
+var rectangleShape = new Rectangle(100, 500, 300, 700);
+
+// Step 4: Verify that the rectangle lies within the page bounds
+bool isInside = rectangleShape.LLX >= 0 &&
+                rectangleShape.URX <= pdfPage.PageInfo.Width &&
+                rectangleShape.LLY >= 0 &&
+                rectangleShape.URY <= pdfPage.PageInfo.Height;
+
+if (isInside)
+{
+    // Step 5: Add the rectangle to the page's paragraphs collection
+    pdfPage.Paragraphs.Add(rectangleShape);
+}
+else
+{
+    Console.WriteLine("Rectangle exceeds page bounds – adjust coordinates.");
+}
+```
+
+> **왜 경계를 확인하나요:** 페이지 밖에 그리면 도형이 보이지 않거나 런타임 경고가 발생할 수 있습니다. 조건문을 통해 **draw rectangle pdf**를 안전하게 수행합니다.
+
+### 외관 커스터마이징
+
+사각형에 테두리나 채우기 색을 적용할 수 있습니다:
+
+```csharp
+rectangleShape.GraphInfo = new GraphInfo
+{
+    // Set a thin black border
+    LineWidth = 1,
+    StrokeColor = Color.Black,
+    // Optional fill (transparent by default)
+    FillColor = Color.LightGray
+};
+```
+
+색상, 선 두께, 점선 등 다양한 스타일을 실험해 보세요.
+
+## 4단계 – PDF 문서 저장
+
+마지막 단계는 문서를 디스크에 저장하는 것입니다. 쓰기 권한이 있는 폴더를 선택하고 파일 이름을 명확히 지정합니다.
+
+```csharp
+// Step 6: Save the PDF document to a file
+string outputPath = Path.Combine(Environment.CurrentDirectory, "ShapeChecked.pdf");
+pdfDocument.Save(outputPath);
+
+Console.WriteLine($"PDF saved successfully at: {outputPath}");
+```
+
+`ShapeChecked.pdf`를 열면 (100, 500)과 (300, 700) 사이에 연회색 사각형이 하나 있는 단일 페이지가 표시됩니다. 이것이 **PDF 문서 생성** 워크플로우의 결과입니다.
+
+![Create PDF Document example](image.png){alt="페이지에 사각형이 표시된 PDF 문서 예시"}
+
+## 전체 작업 예제 (복사‑붙여넣기 가능)
+
+아래는 전체 프로그램 코드이며, 바로 컴파일할 수 있습니다. 누락된 부분이나 외부 참조가 없습니다.
+
+```csharp
+using System;
+using System.IO;
+using Aspose.Pdf;
+using Aspose.Pdf.Drawing;
+using Aspose.Pdf.Color; // For color definitions
 
 class Program
 {
     static void Main()
     {
-        // Step 1: Create a new PDF document (this is where we will build everything)
-        using var pdfDocument = new Document();
-```
+        // 1️⃣ Create PDF document
+        var pdfDocument = new Document();
 
-`using` 문은 왜 필요할까요? 작업이 끝난 후 모든 관리되지 않는 리소스를 해제하도록 보장해 줍니다—분당 수많은 PDF를 생성하는 서버‑사이드 시나리오에서 특히 중요합니다.
+        // 2️⃣ Add page PDF
+        var pdfPage = pdfDocument.Pages.Add();
 
-## 2단계 – 문서에 **Add Blank Page PDF** 추가
+        // Optional: show page size
+        Console.WriteLine($"Page size: {pdfPage.PageInfo.Width}×{pdfPage.PageInfo.Height} points");
 
-페이지가 없는 PDF는, 말 그대로 아무것도 없습니다. 빈 페이지를 추가하면 콘텐츠를 배치할 표면이 생깁니다.
+        // 3️⃣ Define rectangle (draw rectangle PDF)
+        var rectangleShape = new Rectangle(100, 500, 300, 700);
 
-```csharp
-        // Step 2: Add a blank page pdf – this gives us a fresh page to work with
-        var page = pdfDocument.Pages.Add();
-```
+        // Style the rectangle (optional)
+        rectangleShape.GraphInfo = new GraphInfo
+        {
+            LineWidth = 1,
+            StrokeColor = Color.Black,
+            FillColor = Color.LightGray
+        };
 
-`Pages.Add()` 는 기본 크기(A4)에 맞는 페이지를 생성합니다. 다른 크기가 필요하면 `PageSize` 열거형이나 사용자 지정 치수를 전달하면 됩니다.
+        // 4️⃣ Verify bounds before adding
+        bool fits = rectangleShape.LLX >= 0 &&
+                    rectangleShape.URX <= pdfPage.PageInfo.Width &&
+                    rectangleShape.LLY >= 0 &&
+                    rectangleShape.URY <= pdfPage.PageInfo.Height;
 
-## 3단계 – **Create Tagged PDF** 스팬 요소 만들기
+        if (fits)
+        {
+            // 5️⃣ Add rectangle to the page
+            pdfPage.Paragraphs.Add(rectangleShape);
+            Console.WriteLine("Rectangle added successfully.");
+        }
+        else
+        {
+            Console.WriteLine("Rectangle is out of page bounds – adjust coordinates.");
+        }
 
-태그가 지정된 PDF는 접근성에 필수적이며, 스크린 리더는 태그를 사용해 읽기 순서를 파악합니다. 여기서는 텍스트를 담을 스팬 요소를 생성합니다.
-
-```csharp
-        // Step 3: Create a tagged span element for accessible text
-        var taggedSpan = pdfDocument.TaggedContent.CreateSpanElement();
-```
-
-`CreateSpanElement()` 메서드는 나중에 페이지의 콘텐츠 트리에 연결할 수 있는 객체를 반환합니다. 이것이 PDF를 “태그가 지정된” 상태로 만드는 핵심입니다.
-
-## 4단계 – 절대 좌표를 사용해 **Position Text in PDF**
-
-텍스트를 정확한 위치에 배치해야 할 경우—예를 들어 서명란이나 워터마크—`SetPosition` 을 사용합니다. 좌표는 포인트 단위(1 pt ≈ 1/72 in)로 측정됩니다.
-
-```csharp
-        // Step 4: Position the span at a fixed location (X = 100 pt, Y = 700 pt)
-        taggedSpan.SetPosition(100, 700);
-```
-
-왜 100 pt × 700 pt일까요? 이는 왼쪽 가장자리에서 약 1인치, A4 페이지 상단 근처에 텍스트를 배치합니다. 레이아웃에 맞게 이 값을 조정하면 됩니다.
-
-## 5단계 – 스팬에 원하는 텍스트 채우기
-
-이제 스팬에 실제로 표시할 텍스트를 넣습니다.
-
-```csharp
-        // Step 5: Set the text that will appear at the specified location
-        taggedSpan.Text = "Tagged text at a fixed location";
-```
-
-`TextState` 속성을 통해 폰트, 크기, 색상을 설정할 수도 있어 스타일링이 가능합니다.
-
-## 6단계 – 태그가 지정된 요소를 페이지에 연결하기
-
-태그가 지정된 스팬만으로는 페이지의 콘텐츠 컬렉션에 추가되지 않으면 표시되지 않습니다.
-
-```csharp
-        // Attach the tagged span to the page’s TaggedContent collection
-        page.TaggedContent.Add(taggedSpan);
-```
-
-이 단계는 놓치기 쉬우며, 빼먹으면 텍스트를 배치했다고 생각했음에도 빈 PDF가 생성됩니다. 팁: 만든 모든 태그가 페이지에 추가됐는지 항상 두 번 확인하세요.
-
-## 7단계 – **Save PDF File** 을 디스크에 저장하기
-
-마지막으로 문서를 영구 저장합니다. `Save` 메서드는 경로, 스트림, 혹은 세밀한 제어를 위한 `SaveOptions` 객체를 인수로 받을 수 있습니다.
-
-```csharp
-        // Step 6: Save the PDF to a file (this is where we actually **save pdf file**)
-        pdfDocument.Save("tagged.pdf");
+        // 6️⃣ Save the PDF
+        string outputFile = Path.Combine(Environment.CurrentDirectory, "ShapeChecked.pdf");
+        pdfDocument.Save(outputFile);
+        Console.WriteLine($"PDF saved at: {outputFile}");
     }
 }
 ```
 
-프로그램을 실행하면 실행 파일의 작업 디렉터리에 `tagged.pdf` 가 생성됩니다. PDF 뷰어로 열면 텍스트가 정확히 지정한 위치에 배치된 것을 확인할 수 있습니다.
+이 프로그램을 실행하면 실행 파일 옆에 `ShapeChecked.pdf` 파일이 생성됩니다. PDF 뷰어로 열면 우리가 그린 사각형을 확인할 수 있습니다—즉, **PDF 문서 생성**, **add page pdf**, **draw rectangle pdf**를 모두 성공적으로 수행한 것입니다.
 
-### 빠른 복사‑붙여넣기를 위한 전체 코드 목록
+## 자주 묻는 질문 및 예외 상황
 
-```csharp
-using Aspose.Pdf;
+| Question | Answer |
+|----------|--------|
+| *다른 페이지 크기가 필요하면?* | `pdfPage.PageInfo.Width`와 `Height`를 설정하거나, `PageSize` 열거형(`PageSize.Letter` 등)으로 커스텀 페이지를 생성합니다. |
+| *사각형을 여러 개 추가할 수 있나요?* | 가능합니다—사각형 생성 블록을 반복하고 각각을 `pdfPage.Paragraphs`에 추가하면 됩니다. |
+| *아주 작은 PDF에서는 어떻게 되나요?* | 경계 검사 로직이 범위를 초과하는 좌표를 차단하므로, 콘솔 메시지와 함께 우아하게 실패합니다. |
+| *사각형을 회전시킬 방법이 있나요?* | `rectangleShape.Rotation = 45;` (도) 를 `Paragraphs`에 추가하기 전에 설정하면 됩니다. |
+| *`Document`를 직접 해제해야 하나요?* | `Document`는 `IDisposable`을 구현합니다. 실제 애플리케이션에서는 `using` 블록으로 감싸서 명시적으로 해제하는 것이 좋습니다. |
 
-class Program
-{
-    static void Main()
-    {
-        // Step 1: Create a new PDF document
-        using var pdfDocument = new Document();
+## 전문가 팁 & 모범 사례
 
-        // Step 2: Add a blank page pdf
-        var page = pdfDocument.Pages.Add();
+- **배치 추가:** 수십 개의 도형을 추가한다면 먼저 리스트에 모은 뒤 한 번에 `Paragraphs`에 추가하세요—내부 처리 오버헤드가 감소합니다.  
+- **좌표계:** Aspose.PDF는 포인트(1 pt = 1/72 in)를 사용합니다. 픽셀이나 밀리미터 단위 데이터를 사용할 경우 변환을 잊지 마세요.  
+- **성능:** 큰 PDF의 경우 저장 전에 `pdfDocument.Optimize()`를 호출하면 스트림을 압축해 파일 크기를 줄일 수 있습니다.  
+- **오류 처리:** 전체 흐름을 `try/catch`로 감싸고 `PdfException`을 로깅하면 진단이 쉬워집니다.  
 
-        // Step 3: Create a tagged span element for accessible text
-        var taggedSpan = pdfDocument.TaggedContent.CreateSpanElement();
+## 결론
 
-        // Step 4: Position the span at a fixed location (X = 100 pt, Y = 700 pt)
-        taggedSpan.SetPosition(100, 700);
+이제 Aspose.PDF를 사용해 **PDF 문서 생성**, **add page pdf**, **draw rectangle pdf**를 안전하게 수행하는 방법을 정확히 알게 되었습니다. 위의 완전한 예제는 어떤 .NET 프로젝트에도 바로 삽입할 수 있어, 이미지, 표, 디지털 서명 등 더 복잡한 PDF 작업을 위한 탄탄한 기반이 됩니다.
 
-        // Step 5: Set the text that will appear at the specified location
-        taggedSpan.Text = "Tagged text at a fixed location";
+다음 단계가 궁금하신가요? 사각형 대신 `Ellipse`를 사용해 보거나, 레이어드 그래픽을 실험하거나, 데이터 행을 순회하면서 다중 페이지 보고서를 생성해 보세요. 초기화 → 페이지 추가 → 도형 그리기 → 저장이라는 동일한 원칙이 모든 PDF 생성 시나리오에 적용됩니다.
 
-        // Attach the span to the page so it becomes part of the document
-        page.TaggedContent.Add(taggedSpan);
-
-        // Step 6: Save the PDF to a file
-        pdfDocument.Save("tagged.pdf");
-    }
-}
-```
-
-#### 기대 결과
-
-- **tagged.pdf** 라는 이름의 한 페이지 PDF.  
-- *“Tagged text at a fixed location”* 문구가 좌측 상단 근처(왼쪽에서 100 pt, 아래에서 700 pt) 에 표시됩니다.  
-- 파일이 **tagged** 되어 있어 보조 기술이 텍스트 순서를 올바르게 읽을 수 있습니다.
-
-## 일반적인 질문 및 엣지 케이스
-
-### Aspose.Pdf 라이선스가 필요할까요?
-
-Aspose는 무료 임시 평가 라이선스를 제공합니다. 라이선스가 없으면 라이브러리가 작은 워터마크를 추가하지만 코드는 정상적으로 동작합니다. 실제 서비스에서는 전체 기능을 사용하고 워터마크를 제거하려면 라이선스를 구매하세요.
-
-### 텍스트를 여러 개 추가하고 싶다면?
-
-각 텍스트마다 3‑5단계를 반복하고 각각의 스팬에 좌표를 지정하면 됩니다. 더 풍부한 레이아웃 제어가 필요하면 `Paragraph` 태그를 만들고 그 안에 여러 스팬을 추가할 수도 있습니다.
-
-### 좌표 시스템을 어떻게 바꾸나요?
-
-Aspose는 좌하단 원점을 사용합니다(표준 PDF). 윈폼처럼 좌상단 원점을 선호한다면 Y 좌표를 페이지 높이에서 빼면 됩니다:
-
-```csharp
-float yFromTop = page.PageInfo.Height - 700; // for A4 this is 842 - 700 = 142
-taggedSpan.SetPosition(100, yFromTop);
-```
-
-### 다른 페이지 크기는 어떻게 하나요?
-
-페이지를 추가할 때 치수를 지정할 수 있습니다:
-
-```csharp
-var customPage = pdfDocument.Pages.Add();
-customPage.PageInfo.Width = 595;   // 8.27 inches * 72
-customPage.PageInfo.Height = 842;  // 11.69 inches * 72 (A4)
-```
-
-### 폰트 스타일을 설정할 수 있나요?
-
-네—`TextState` 를 수정하면 됩니다:
-
-```csharp
-taggedSpan.TextState.Font = FontRepository.FindFont("Arial");
-taggedSpan.TextState.FontSize = 14;
-taggedSpan.TextState.FontStyle = FontStyles.Bold;
-taggedSpan.TextState.ForegroundColor = Color.Blue;
-```
-
-## 전문가 팁 및 함정
-
-- **Dispose early**: `Document` 주변의 `using` 문은 메모리 누수를 방지합니다, 특히 루프에서 수십 개의 PDF를 생성할 때 유용합니다.  
-- **Coordinate sanity**: PDF 포인트는 매우 작습니다; 72 pt 여백은 1인치와 같습니다. 숫자를 하나라도 잘못 입력하면 텍스트가 페이지 밖으로 밀려날 수 있습니다.  
-- **Tag hierarchy**: 복잡한 문서에서는 논리적인 태그 트리(Document → Part → Section → Paragraph → Span)를 구축하세요. 이는 접근성을 개선하고 향후 편집을 용이하게 합니다.  
-- **Performance**: 단순 텍스트만 필요하다면 `TextFragment` 가 전체 태그 요소보다 빠릅니다. PDF/UA 또는 EPUB 변환 호환성이 필요할 때만 태그를 사용하세요.
-
-## 다음 단계
-
-이제 **create pdf document**, **add blank page pdf**, **create tagged pdf**, **position text in pdf**, 그리고 **save pdf file** 하는 방법을 알았으니, 다음과 같은 주제도 살펴볼 수 있습니다:
-
-- `Image` 객체(`page.Resources.Images.Add(...)`) 로 이미지 추가하기.  
-- 인보이스 스타일 레이아웃을 위한 `Table` 및 `Row` 클래스를 사용해 표 만들기.  
-- `pdfDocument.Encrypt(...)` 로 PDF 보안 암호화하기.  
-- Aspose 변환 API를 이용해 다른 형식(HTML, DOCX)을 PDF 로 변환하기.
-
-이러한 주제들은 모두 앞서 다룬 핵심 개념을 기반으로 하므로 금방 익숙해질 것입니다.
-
----
-
-**이것으로 마무리합니다!** 이제 Aspose.Pdf를 사용해 **create pdf document** 하는 완전한 예제를 갖게 되었습니다. 빈 페이지, 태그가 지정된 요소, 정확한 위치 지정, 그리고 최종 **save pdf file** 단계까지 포함됩니다. 다양한 좌표, 폰트, 태그를 실험해 보세요—올바른 기반만 있으면 PDF 생성은 놀라울 정도로 유연합니다.
-
-작업 중 문제가 발생했거나 확장 아이디어가 있다면 아래에 댓글을 남겨 주세요. 즐거운 코딩 되세요!
+궁금한 점이나 개선 아이디어가 있으면 언제든 댓글로 남겨 주세요. 즐거운 코딩 되시고, 아름다운 PDF 만들기를 즐기세요!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

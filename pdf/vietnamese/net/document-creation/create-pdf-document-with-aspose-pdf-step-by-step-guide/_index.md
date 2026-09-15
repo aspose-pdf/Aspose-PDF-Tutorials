@@ -1,24 +1,24 @@
 ---
 category: general
-date: 2026-03-01
-description: Tạo tài liệu PDF bằng Aspose.Pdf, thêm trang PDF trống, lưu tệp PDF và
-  định vị văn bản trong PDF bằng một phần tử được gắn thẻ.
+date: 2026-01-10
+description: Tạo tài liệu PDF bằng Aspose.PDF trong C#. Tìm hiểu cách thêm trang PDF,
+  vẽ hình chữ nhật PDF và nhiều hơn nữa trong hướng dẫn đầy đủ này.
 draft: false
 keywords:
 - create pdf document
-- add blank page pdf
-- save pdf file
-- create tagged pdf
-- position text in pdf
+- add page pdf
+- draw rectangle pdf
+- how to create pdf
+- how to add rectangle
 language: vi
-og_description: Tạo tài liệu PDF bằng Aspose.Pdf, thêm trang PDF trống, lưu tệp PDF
-  và định vị văn bản trong PDF bằng cách sử dụng phần tử span được gắn thẻ.
-og_title: Tạo tài liệu PDF – Hướng dẫn đầy đủ Aspose.Pdf
+og_description: Tạo tài liệu PDF bằng Aspose.PDF trong C#. Tham khảo hướng dẫn này
+  để thêm trang PDF, vẽ hình chữ nhật PDF và tạo PDF chuyên nghiệp.
+og_title: Tạo tài liệu PDF với Aspose.PDF – Hướng dẫn toàn diện
 tags:
-- Aspose.Pdf
+- Aspose.PDF
 - C#
 - PDF generation
-title: Tạo tài liệu PDF với Aspose.Pdf – Hướng dẫn từng bước
+title: Tạo tài liệu PDF với Aspose.PDF – Hướng dẫn từng bước
 url: /vi/net/document-creation/create-pdf-document-with-aspose-pdf-step-by-step-guide/
 ---
 
@@ -26,209 +26,224 @@ url: /vi/net/document-creation/create-pdf-document-with-aspose-pdf-step-by-step-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tạo Tài Liệu PDF – Hướng Dẫn Đầy Đủ Aspose.Pdf
+# Tạo tài liệu PDF với Aspose.PDF – Hướng dẫn từng bước
 
-Bạn đã bao giờ tự hỏi làm sao **tạo tài liệu pdf** một cách lập trình mà không phải vật lộn với các thông số kỹ thuật PDF cấp thấp? Có thể bạn cần tạo hoá đơn, chứng chỉ, hoặc báo cáo thân thiện với khả năng truy cập ngay lập tức. Theo kinh nghiệm của tôi, cách dễ nhất là để một thư viện mạnh mẽ thực hiện phần nặng, trong khi bạn tập trung vào logic nghiệp vụ.
+Bạn đã bao giờ cần **create PDF document** một cách lập trình và không biết bắt đầu từ đâu chưa? Bạn không phải là người duy nhất—các nhà phát triển trên toàn thế giới gặp phải rào cản này khi họ cố gắng tự động hoá báo cáo, hoá đơn hoặc chứng chỉ. Tin tốt? Với Aspose.PDF cho .NET, bạn có thể tạo một PDF chỉ trong vài dòng C#.
 
-Trong hướng dẫn này, chúng ta sẽ đi qua mọi thứ bạn cần để **tạo tài liệu pdf** bằng Aspose.Pdf cho .NET: thêm một trang trống pdf, tạo một phần tử pdf có thẻ, định vị văn bản trong pdf, và cuối cùng **lưu file pdf** vào đĩa. Khi kết thúc, bạn sẽ có một đoạn mã có thể chạy được và chèn vào bất kỳ dự án C# nào.
+Trong hướng dẫn này, chúng tôi sẽ đi qua toàn bộ quy trình: từ khởi tạo tài liệu, đến **add page PDF**, đến **draw rectangle PDF**, và cuối cùng là lưu tệp. Khi kết thúc, bạn sẽ có một ví dụ chạy được vững chắc và hiểu rõ **how to create pdf** một cách tự tin.
 
-## Những Gì Bạn Cần Chuẩn Bị
+## Những gì hướng dẫn này bao gồm
 
-- .NET 6+ (hoặc .NET Framework 4.6 trở lên)  
-- Gói NuGet **Aspose.Pdf** (`Install-Package Aspose.Pdf`)  
-- Kiến thức cơ bản về cú pháp C# (không cần hiểu sâu về PDF)  
+- Các yêu cầu trước khi viết code  
+- Tạo PDF document từng bước  
+- Thêm một trang mới vào tài liệu đó (hoạt động **add page pdf** cổ điển)  
+- Vẽ hình chữ nhật, kiểm tra giới hạn và chèn nó (phần “**draw rectangle pdf**”)  
+- Những khó khăn thường gặp và mẹo chuyên nghiệp để tạo PDF mạnh mẽ  
+- Một mẫu mã hoàn chỉnh, sẵn sàng copy‑and‑paste mà bạn có thể chạy ngay hôm nay  
 
-Đó là tất cả—không cần công cụ phụ, không cần can thiệp vào các toán tử PDF. Sẵn sàng chưa? Hãy bắt đầu.
+Không có tham chiếu bên ngoài, không thiếu bất kỳ phần nào—chỉ một giải pháp tự chứa mà bạn có thể trích dẫn hoặc chia sẻ.
 
-![Ví dụ tạo tài liệu PDF – một PDF đơn giản với văn bản có thẻ](image.png "ví dụ tạo tài liệu pdf")
+## Yêu cầu trước
 
-## Bước 1 – Khởi Tạo Engine PDF để **Tạo Tài Liệu PDF**
+| Yêu cầu | Lý do quan trọng |
+|-------------|----------------|
+| .NET 6.0 or later (or .NET Framework 4.6+) | Aspose.PDF hỗ trợ cả hai; các runtime mới hơn mang lại hiệu năng tốt hơn. |
+| Aspose.PDF for .NET NuGet package (`Aspose.Pdf`) | Thư viện cung cấp các lớp `Document`, `Page`, và drawing mà chúng ta sẽ sử dụng. |
+| A C# IDE (Visual Studio, Rider, VS Code) | Giúp việc biên dịch và gỡ lỗi trở nên dễ dàng. |
+| Write permission to the output folder | Cần thiết cho lời gọi `Save` cuối cùng. |
 
-Trước khi làm bất cứ điều gì, bạn cần một thể hiện của `Aspose.Pdf.Document`. Hãy nghĩ nó như một canvas trống sẽ trở thành file cuối cùng của bạn.
+Cài đặt gói qua NuGet:
+
+```bash
+dotnet add package Aspose.Pdf
+```
+
+Xong—khi gói đã được cài đặt, bạn đã sẵn sàng **create pdf document**.
+
+## Bước 1 – Tạo PDF Document (Khởi tạo)
+
+Điều đầu tiên chúng ta làm là khởi tạo một `Document` mới. Hãy nghĩ đây là nền trắng nơi mọi trang, hình ảnh hoặc hình dạng sẽ tồn tại.
 
 ```csharp
 using Aspose.Pdf;
+using Aspose.Pdf.Drawing;
+
+// Step 1: Initialize a fresh PDF document
+var pdfDocument = new Document();
+```
+
+> **Why this matters:** `Document` là đối tượng gốc. Không có nó, bạn không thể thêm trang hoặc nội dung, vì vậy bước này là cần thiết cho **how to create pdf** từ đầu.
+
+## Bước 2 – Add Page PDF
+
+Một PDF không có trang chỉ là phần tiêu đề tệp. Hãy thêm một trang, nơi chúng ta sẽ vẽ hình chữ nhật sau này.
+
+```csharp
+// Step 2: Add a new page to the document
+var pdfPage = pdfDocument.Pages.Add();
+```
+
+> **Pro tip:** Phương thức `Add()` trả về đối tượng `Page` mới tạo, vì vậy bạn có thể nối các hành động tiếp theo mà không cần tìm lại trong bộ sưu tập.
+
+### Kiểm tra kích thước trang (Tùy chọn)
+
+Nếu bạn dự định đặt các hình dạng một cách chính xác, bạn có thể muốn biết kích thước trang:
+
+```csharp
+float pageWidth = pdfPage.PageInfo.Width;   // default A4 width in points
+float pageHeight = pdfPage.PageInfo.Height; // default A4 height in points
+Console.WriteLine($"Page size: {pageWidth}×{pageHeight} points");
+```
+
+Đoạn mã này không bắt buộc cho luồng cơ bản, nhưng nó hữu ích khi bạn **how to add rectangle** với tọa độ chính xác.
+
+## Bước 3 – Draw Rectangle PDF (Kiểm tra giới hạn & Chèn)
+
+Bây giờ là phần thú vị: vẽ một hình chữ nhật. Chúng ta sẽ định nghĩa một hình chữ nhật, kiểm tra xem nó có vừa trong trang không, và sau đó thêm nó vào bộ sưu tập paragraph của trang.
+
+```csharp
+// Step 3: Define a rectangle shape (LLX, LLY, URX, URY)
+// LLX = lower‑left X, LLY = lower‑left Y, URX = upper‑right X, URY = upper‑right Y
+var rectangleShape = new Rectangle(100, 500, 300, 700);
+
+// Step 4: Verify that the rectangle lies within the page bounds
+bool isInside = rectangleShape.LLX >= 0 &&
+                rectangleShape.URX <= pdfPage.PageInfo.Width &&
+                rectangleShape.LLY >= 0 &&
+                rectangleShape.URY <= pdfPage.PageInfo.Height;
+
+if (isInside)
+{
+    // Step 5: Add the rectangle to the page's paragraphs collection
+    pdfPage.Paragraphs.Add(rectangleShape);
+}
+else
+{
+    Console.WriteLine("Rectangle exceeds page bounds – adjust coordinates.");
+}
+```
+
+> **Why we check bounds:** Cố gắng vẽ ra ngoài trang có thể dẫn đến các hình không hiển thị hoặc cảnh báo thời gian chạy. Điều kiện này đảm bảo chúng ta **draw rectangle pdf** một cách an toàn.
+
+### Tùy chỉnh giao diện
+
+Bạn có thể tạo kiểu cho hình chữ nhật với viền hoặc màu nền:
+
+```csharp
+rectangleShape.GraphInfo = new GraphInfo
+{
+    // Set a thin black border
+    LineWidth = 1,
+    StrokeColor = Color.Black,
+    // Optional fill (transparent by default)
+    FillColor = Color.LightGray
+};
+```
+
+Hãy thoải mái thử nghiệm—các màu khác nhau, độ rộng đường, hoặc thậm chí các nét gạch đứt.
+
+## Bước 4 – Lưu PDF Document
+
+Bước cuối cùng là lưu tài liệu ra đĩa. Chọn một thư mục bạn có quyền ghi và đặt tên tệp rõ ràng.
+
+```csharp
+// Step 6: Save the PDF document to a file
+string outputPath = Path.Combine(Environment.CurrentDirectory, "ShapeChecked.pdf");
+pdfDocument.Save(outputPath);
+
+Console.WriteLine($"PDF saved successfully at: {outputPath}");
+```
+
+Khi bạn mở `ShapeChecked.pdf`, bạn sẽ thấy một trang duy nhất với một hình chữ nhật màu xám nhạt nằm giữa (100, 500) và (300, 700). Đó là kết quả của quy trình **create pdf document** của chúng ta.
+
+![Create PDF Document example](image.png){alt="Ví dụ tạo PDF document hiển thị một hình chữ nhật trên trang"}
+
+## Ví dụ làm việc đầy đủ (Sẵn sàng Copy‑Paste)
+
+Dưới đây là toàn bộ chương trình, sẵn sàng biên dịch. Không thiếu bất kỳ phần nào, không có tham chiếu bên ngoài.
+
+```csharp
+using System;
+using System.IO;
+using Aspose.Pdf;
+using Aspose.Pdf.Drawing;
+using Aspose.Pdf.Color; // For color definitions
 
 class Program
 {
     static void Main()
     {
-        // Step 1: Create a new PDF document (this is where we will build everything)
-        using var pdfDocument = new Document();
-```
+        // 1️⃣ Create PDF document
+        var pdfDocument = new Document();
 
-Tại sao lại dùng câu lệnh `using`? Nó đảm bảo mọi tài nguyên không quản lý được giải phóng ngay khi chúng ta xong—rất quan trọng trong các kịch bản phía server nơi tạo ra nhiều PDF mỗi phút.
+        // 2️⃣ Add page PDF
+        var pdfPage = pdfDocument.Pages.Add();
 
-## Bước 2 – **Thêm Trang Trống PDF** vào Tài Liệu
+        // Optional: show page size
+        Console.WriteLine($"Page size: {pdfPage.PageInfo.Width}×{pdfPage.PageInfo.Height} points");
 
-Một PDF không có trang, thực ra là không có gì. Thêm một trang trống sẽ cung cấp bề mặt để đặt nội dung.
+        // 3️⃣ Define rectangle (draw rectangle PDF)
+        var rectangleShape = new Rectangle(100, 500, 300, 700);
 
-```csharp
-        // Step 2: Add a blank page pdf – this gives us a fresh page to work with
-        var page = pdfDocument.Pages.Add();
-```
+        // Style the rectangle (optional)
+        rectangleShape.GraphInfo = new GraphInfo
+        {
+            LineWidth = 1,
+            StrokeColor = Color.Black,
+            FillColor = Color.LightGray
+        };
 
-`Pages.Add()` tạo một trang có kích thước mặc định (A4). Nếu bạn cần kích thước khác, có thể truyền vào enum `PageSize` hoặc kích thước tùy chỉnh.
+        // 4️⃣ Verify bounds before adding
+        bool fits = rectangleShape.LLX >= 0 &&
+                    rectangleShape.URX <= pdfPage.PageInfo.Width &&
+                    rectangleShape.LLY >= 0 &&
+                    rectangleShape.URY <= pdfPage.PageInfo.Height;
 
-## Bước 3 – Tạo Phần Tử **Create Tagged PDF** Span
+        if (fits)
+        {
+            // 5️⃣ Add rectangle to the page
+            pdfPage.Paragraphs.Add(rectangleShape);
+            Console.WriteLine("Rectangle added successfully.");
+        }
+        else
+        {
+            Console.WriteLine("Rectangle is out of page bounds – adjust coordinates.");
+        }
 
-PDF có thẻ (tagged PDF) rất quan trọng cho khả năng truy cập; các trình đọc màn hình dựa vào thẻ để mô tả thứ tự đọc. Ở đây chúng ta tạo một phần tử span sẽ chứa văn bản của chúng ta.
-
-```csharp
-        // Step 3: Create a tagged span element for accessible text
-        var taggedSpan = pdfDocument.TaggedContent.CreateSpanElement();
-```
-
-Phương thức `CreateSpanElement()` trả về một đối tượng có thể được gắn vào cây nội dung của trang sau này. Đây là điều làm cho PDF “có thẻ”.
-
-## Bước 4 – **Định Vị Văn Bản trong PDF** Bằng Tọa Độ Tuyệt Đối
-
-Nếu bạn muốn văn bản xuất hiện ở một vị trí chính xác—ví dụ như dòng ký tên hoặc watermark—bạn sẽ dùng `SetPosition`. Các tọa độ được đo bằng điểm (1 pt ≈ 1/72 in).
-
-```csharp
-        // Step 4: Position the span at a fixed location (X = 100 pt, Y = 700 pt)
-        taggedSpan.SetPosition(100, 700);
-```
-
-Tại sao lại là 100 pt × 700 pt? Nó đặt văn bản khoảng một inch từ lề trái và gần phía trên của một trang A4. Điều chỉnh các số này cho phù hợp với bố cục của bạn.
-
-## Bước 5 – Điền Văn Bản Mong Muốn Vào Span
-
-Bây giờ chúng ta thực sự cung cấp nội dung cho span để hiển thị.
-
-```csharp
-        // Step 5: Set the text that will appear at the specified location
-        taggedSpan.Text = "Tagged text at a fixed location";
-```
-
-Bạn cũng có thể đặt phông chữ, kích thước và màu sắc qua thuộc tính `TextState` nếu muốn tùy chỉnh thêm.
-
-## Bước 6 – Gắn Phần Tử Có Thẻ Vào Trang
-
-Một span có thẻ nếu không được thêm vào bộ sưu tập nội dung của trang sẽ không hiển thị.
-
-```csharp
-        // Attach the tagged span to the page’s TaggedContent collection
-        page.TaggedContent.Add(taggedSpan);
-```
-
-Bước này dễ bị bỏ qua, và nếu quên sẽ khiến PDF trống—mặc dù bạn nghĩ đã đặt văn bản. Mẹo: luôn kiểm tra lại rằng mọi thẻ bạn tạo đều đã được thêm vào một trang.
-
-## Bước 7 – **Lưu File PDF** vào Đĩa
-
-Cuối cùng, chúng ta ghi lại tài liệu. Phương thức `Save` chấp nhận đường dẫn, stream, hoặc một đối tượng `SaveOptions` để kiểm soát chi tiết.
-
-```csharp
-        // Step 6: Save the PDF to a file (this is where we actually **save pdf file**)
-        pdfDocument.Save("tagged.pdf");
+        // 6️⃣ Save the PDF
+        string outputFile = Path.Combine(Environment.CurrentDirectory, "ShapeChecked.pdf");
+        pdfDocument.Save(outputFile);
+        Console.WriteLine($"PDF saved at: {outputFile}");
     }
 }
 ```
 
-Chạy chương trình sẽ tạo ra file `tagged.pdf` trong thư mục làm việc của executable. Mở nó bằng bất kỳ trình xem PDF nào, bạn sẽ thấy văn bản được đặt chính xác ở vị trí đã thiết lập.
+Chạy chương trình này sẽ tạo ra một tệp `ShapeChecked.pdf` ngay bên cạnh tệp thực thi. Mở nó bằng bất kỳ trình xem PDF nào; bạn sẽ thấy hình chữ nhật mà chúng ta đã vẽ—chứng minh rằng bạn đã thành công **create pdf document**, **add page pdf**, và **draw rectangle pdf** trong một lần.
 
-### Danh Sách Đầy Đủ Để Sao Chép‑Dán Nhanh
+## Các câu hỏi thường gặp & Trường hợp đặc biệt
 
-```csharp
-using Aspose.Pdf;
+| Câu hỏi | Câu trả lời |
+|----------|--------|
+| *Nếu tôi cần kích thước trang khác thì sao?* | Đặt `pdfPage.PageInfo.Width` và `Height` trước khi vẽ, hoặc tạo một `Page` với enum `PageSize` tùy chỉnh (ví dụ, `PageSize.Letter`). |
+| *Tôi có thể thêm nhiều hình chữ nhật không?* | Chắc chắn—chỉ cần lặp lại khối tạo hình chữ nhật và thêm mỗi hình vào `pdfPage.Paragraphs`. |
+| *Điều gì xảy ra với các PDF rất nhỏ?* | Kiểm tra giới hạn sẽ ngăn các tọa độ vượt ra ngoài, vì vậy mã sẽ thất bại một nhẹ nhàng với thông báo trên console. |
+| *Có cách nào để xoay hình chữ nhật không?* | Sử dụng `rectangleShape.Rotation = 45;` (độ) trước khi thêm nó. |
+| *Tôi có cần giải phóng `Document` không?* | `Document` triển khai `IDisposable`. Trong ứng dụng thực tế, hãy bọc nó trong khối `using` để dọn dẹp một cách xác định. |
 
-class Program
-{
-    static void Main()
-    {
-        // Step 1: Create a new PDF document
-        using var pdfDocument = new Document();
+## Mẹo chuyên nghiệp & Thực hành tốt nhất
 
-        // Step 2: Add a blank page pdf
-        var page = pdfDocument.Pages.Add();
+- **Batch additions:** Nếu bạn đang thêm hàng chục hình dạng, hãy xây dựng chúng trong một danh sách trước, sau đó thêm toàn bộ danh sách vào `Paragraphs`—điều này giảm tải xử lý nội bộ.  
+- **Coordinate system:** Aspose.PDF sử dụng điểm (1 pt = 1/72 in). Hãy nhớ chuyển đổi từ pixel hoặc milimet nếu dữ liệu nguồn của bạn sử dụng đơn vị khác.  
+- **Performance:** Đối với PDF lớn, hãy cân nhắc bật `pdfDocument.Optimize()` trước khi lưu; nó nén các stream và giảm kích thước tệp.  
+- **Error handling:** Bọc toàn bộ luồng trong `try/catch` và ghi log `PdfException` để chẩn đoán tốt hơn.  
 
-        // Step 3: Create a tagged span element for accessible text
-        var taggedSpan = pdfDocument.TaggedContent.CreateSpanElement();
+## Kết luận
 
-        // Step 4: Position the span at a fixed location (X = 100 pt, Y = 700 pt)
-        taggedSpan.SetPosition(100, 700);
+Bạn đã biết chính xác **how to create pdf document** với Aspose.PDF, cách **add page pdf**, và cách **draw rectangle pdf** đồng thời kiểm tra giới hạn một cách an toàn. Ví dụ hoàn chỉnh ở trên có thể được chèn vào bất kỳ dự án .NET nào, cung cấp cho bạn nền tảng vững chắc cho các nhiệm vụ PDF nâng cao hơn như chèn hình ảnh, bảng, hoặc chữ ký số.
 
-        // Step 5: Set the text that will appear at the specified location
-        taggedSpan.Text = "Tagged text at a fixed location";
+Sẵn sàng cho bước tiếp theo? Hãy thử thay thế hình chữ nhật bằng một `Ellipse`, thử nghiệm với đồ họa lớp, hoặc tạo báo cáo đa trang bằng cách lặp qua các hàng dữ liệu. Các nguyên tắc giống nhau—khởi tạo, thêm trang, vẽ hình, lưu—áp dụng cho mọi kịch bản tạo PDF.
 
-        // Attach the span to the page so it becomes part of the document
-        page.TaggedContent.Add(taggedSpan);
-
-        // Step 6: Save the PDF to a file
-        pdfDocument.Save("tagged.pdf");
-    }
-}
-```
-
-#### Kết Quả Mong Đợi
-
-- Một file PDF một trang có tên **tagged.pdf**.  
-- Cụm từ *“Tagged text at a fixed location”* xuất hiện gần góc trên‑trái (100 pt từ trái, 700 pt từ dưới).  
-- File **có thẻ**, nghĩa là các công nghệ hỗ trợ có thể đọc đúng thứ tự văn bản.
-
-## Câu Hỏi Thường Gặp & Trường Hợp Cạnh
-
-### Tôi có cần giấy phép cho Aspose.Pdf không?
-
-Aspose cung cấp giấy phép đánh giá tạm thời miễn phí. Khi không có giấy phép, thư viện sẽ thêm một watermark nhỏ, nhưng mã vẫn hoạt động. Đối với môi trường production, hãy mua giấy phép để mở toàn bộ tính năng và loại bỏ watermark.
-
-### Nếu tôi muốn thêm hơn một đoạn văn bản thì sao?
-
-Chỉ cần lặp lại các Bước 3‑5 cho mỗi đoạn, đặt mỗi span ở tọa độ riêng. Bạn cũng có thể tạo một thẻ `Paragraph` và thêm nhiều span vào đó để kiểm soát bố cục phong phú hơn.
-
-### Làm sao thay đổi hệ tọa độ?
-
-Aspose sử dụng gốc tọa độ ở góc dưới‑trái (theo chuẩn PDF). Nếu bạn muốn gốc ở góc trên‑trái (giống WinForms), hãy trừ tọa độ Y từ chiều cao trang:
-
-```csharp
-float yFromTop = page.PageInfo.Height - 700; // for A4 this is 842 - 700 = 142
-taggedSpan.SetPosition(100, yFromTop);
-```
-
-### Còn các kích thước trang khác thì sao?
-
-Khi thêm một trang, bạn có thể chỉ định kích thước:
-
-```csharp
-var customPage = pdfDocument.Pages.Add();
-customPage.PageInfo.Width = 595;   // 8.27 inches * 72
-customPage.PageInfo.Height = 842;  // 11.69 inches * 72 (A4)
-```
-
-### Tôi có thể đặt kiểu phông chữ không?
-
-Có—chỉ cần sửa đổi `TextState`:
-
-```csharp
-taggedSpan.TextState.Font = FontRepository.FindFont("Arial");
-taggedSpan.TextState.FontSize = 14;
-taggedSpan.TextState.FontStyle = FontStyles.Bold;
-taggedSpan.TextState.ForegroundColor = Color.Blue;
-```
-
-## Mẹo Chuyên Gia & Những Sai Lầm Thường Gặp
-
-- **Giải phóng sớm**: Câu lệnh `using` quanh `Document` ngăn rò rỉ bộ nhớ, đặc biệt khi tạo hàng chục PDF trong một vòng lặp.  
-- **Kiểm tra tọa độ**: Điểm PDF rất nhỏ; lề 72 pt tương đương một inch. Nhập sai một số 0 có thể đẩy văn bản ra khỏi trang.  
-- **Cây thẻ**: Đối với tài liệu phức tạp, xây dựng cây thẻ logic (Document → Part → Section → Paragraph → Span). Điều này cải thiện khả năng truy cập và việc chỉnh sửa sau này.  
-- **Hiệu năng**: Nếu chỉ cần văn bản đơn giản, `TextFragment` nhanh hơn so với một phần tử có thẻ đầy đủ. Hãy dùng thẻ khi cần tuân thủ PDF/UA hoặc chuyển đổi sang EPUB.
-
-## Các Bước Tiếp Theo
-
-Bây giờ bạn đã biết cách **tạo tài liệu pdf**, **thêm trang trống pdf**, **tạo pdf có thẻ**, **định vị văn bản trong pdf**, và **lưu file pdf**, bạn có thể khám phá:
-
-- Thêm hình ảnh bằng đối tượng `Image` (`page.Resources.Images.Add(...)`).  
-- Xây dựng bảng bằng các lớp `Table` và `Row` cho bố cục kiểu hoá đơn.  
-- Mã hoá PDF để bảo mật (`pdfDocument.Encrypt(...)`).  
-- Chuyển đổi các định dạng khác (HTML, DOCX) sang PDF bằng API chuyển đổi của Aspose.
-
-Mỗi chủ đề trên đều dựa trên những khái niệm cốt lõi mà chúng ta đã đề cập, vì vậy bạn sẽ cảm thấy rất quen thuộc.
-
----
-
-**Vậy là xong!** Bạn giờ đã có một ví dụ hoàn chỉnh, từ đầu đến cuối, về cách **tạo tài liệu pdf** với Aspose.Pdf, bao gồm trang trống, phần tử có thẻ, định vị chính xác, và bước **lưu file pdf** cuối cùng. Hãy thử nghiệm với các tọa độ, phông chữ và thẻ khác nhau—việc tạo PDF thực sự linh hoạt khi bạn có nền tảng đúng.
-
-Nếu gặp khó khăn hoặc có ý tưởng mở rộng, hãy để lại bình luận bên dưới. Chúc bạn lập trình vui vẻ!
+Nếu bạn gặp khó khăn hoặc có ý tưởng cải tiến, hãy thoải mái để lại bình luận. Chúc lập trình vui vẻ, và tận hưởng việc tạo ra các PDF đẹp mắt!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -16,7 +16,6 @@
 Tanulja meg, hogyan hozhat létre nagy teljesítményű PDF-feldolgozó alkalmazásokat Aspose.PDF optimalizálási oktatóanyagaink segítségével .NET-hez. Ezek a gyakorlati útmutatók bemutatják a hatékony memóriakezelés technikáit, a végrehajtási idő javítását és a nagyméretű PDF-dokumentumok hatékony kezelésének stratégiáit. Minden oktatóanyag részletes C# kódpéldákat és bevált gyakorlatokat tartalmaz a kritikus teljesítményszempontok optimalizálásához, biztosítva, hogy alkalmazásai továbbra is reszponzívak és megbízhatóak maradjanak akkor is, ha nagyméretű PDF-dokumentumokkal dolgoznak.
 
 ## Elérhető oktatóanyagok
-
 ### [Átfogó útmutató a PDF optimalizáláshoz .NET-ben az Aspose.PDF használatával](./aspose-pdf-dotnet-optimization-guide/)
 Tanulja meg, hogyan optimalizálhatja a PDF fájlokat az Aspose.PDF for .NET segítségével, biztosítva az erőforrások hatékony felhasználását és a kiváló minőségű dokumentumokat. Sajátítsa el a GSave/GRestore műveleteket és az XForm grafikakezelést.
 
@@ -54,6 +53,14 @@ Ismerje meg, hogyan távolíthatja el a betűtípusok beágyazását PDF-fájlja
 Ismerje meg, hogyan tömörítheti a PDF-ben lévő képeket veszteségmentes JPEG formátummal az Aspose.PDF for .NET segítségével.
 
 ### [Hogyan optimalizálja a PDF-et C#-ban: üres oldal hozzáadása, HTML exportálás, aláírás](./how-to-optimize-pdf-in-c-add-blank-page-export-html-sign/)
+
+### [PDF képek optimalizálása – PDF fájlméret csökkentése C#-val](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
+Ismerje meg, hogyan csökkentheti a PDF-fájlok méretét a képek optimalizálásával C# és az Aspose.PDF for .NET segítségével.
+### [Hogyan tömörítsük a PDF-et az Aspose-szal – Gyors C# útmutató](./how-to-compress-pdf-with-aspose-quick-c-guide/)
+Ismerje meg, hogyan tömörítheti a PDF-fájlokat az Aspose.PDF for .NET segítségével egy gyors C# példán keresztül.
+
+### [Optimalizált PDF mentése C#-ban – Méret csökkentése és oldalak tisztítása](./save-optimized-pdf-in-c-reduce-size-clean-pages/)
+Ismerje meg, hogyan menthet optimalizált PDF-et C#-ban, csökkentve a fájlméretet és megtisztítva a felesleges oldalakat.
 
 ## További források
 

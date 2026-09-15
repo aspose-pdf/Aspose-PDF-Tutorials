@@ -16,7 +16,6 @@
 Kuasai manipulasi dokumen PDF dengan tutorial Aspose.PDF .NET kami yang terperinci. Panduan langkah demi langkah ini menunjukkan cara bekerja dengan struktur dokumen, memodifikasi PDF yang ada, membagi dan menggabungkan dokumen, menambah dan menghapus halaman, serta mengatur konten PDF Anda secara terprogram. Setiap tutorial mencakup contoh kode C# yang berfungsi, catatan implementasi, dan praktik terbaik untuk membantu Anda membangun aplikasi yang secara efisien memanipulasi dokumen PDF dengan kode yang bersih dan mudah dikelola.
 
 ## Tutorial yang Tersedia
-
 ### [Tambahkan Cap Tanggal & Waktu ke PDF Menggunakan Aspose.PDF untuk .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 Pelajari cara menambahkan cap tanggal dan waktu atau anotasi secara efisien ke dalam dokumen PDF Anda menggunakan Aspose.PDF for .NET. Tingkatkan pengelolaan dokumen dengan langkah-langkah yang mudah diikuti ini.
 
@@ -313,6 +312,9 @@ Pelajari cara menguasai manipulasi PDF menggunakan Aspose.PDF untuk .NET. Pandua
 
 ### [Cara Menyensor PDF di C# – Sembunyikan Teks PDF & Hapus Konten PDF](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
 Pelajari cara menyensor PDF dengan menyembunyikan teks dan menghapus konten secara programatis menggunakan Aspose.PDF untuk .NET.
+
+### [Cara Memperbaiki PDF di C# – Memperbaiki File PDF Rusak dengan Cepat](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
+Pelajari cara memperbaiki file PDF yang rusak secara cepat menggunakan C# dan Aspose.PDF.
 
 ## Sumber Daya Tambahan
 

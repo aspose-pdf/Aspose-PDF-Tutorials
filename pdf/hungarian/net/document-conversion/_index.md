@@ -65,3 +65,29 @@ Megtanulod, hogyan adhatsz meg konvertálási beállításokat, hogyan kinyerhet
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [HTML létrehozása PDF-ből C#‑ban – Teljes lépésről‑lépésre útmutató](./create-html-from-pdf-in-c-complete-step-by-step-guide/) | Tanulja meg, hogyan hozhat létre HTML-t PDF-ből az Aspose.PDF for .NET segítségével ezzel a lépésről lépésre szóló útmutatóval. |  
+| [ICC profil hozzáadása és PDF konvertálása PDF/X‑4‑re – C# útmutató](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) | Tanulja meg, hogyan adhat hozzá ICC profilt, és konvertálhat PDF-et PDF/X‑4 formátumba C#-ban az Aspose.PDF for .NET segítségével. |
+| [c# PDF konvertálás – PDF konvertálása PDF/X-4-be](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) | Tanulja meg, hogyan konvertálhat PDF fájlokat PDF/X-4 formátumba az Aspose.PDF for .NET segítségével ezzel a lépésről lépésre útmutatóval. |  
+| [PDF konvertálása PDF/X‑4-re C#‑ban – Lépésről‑lépésre ASP.NET PDF oktatóanyag](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Tanulja meg, hogyan konvertálhat PDF-fájlokat PDF/X‑4 formátumba C#‑ban az Aspose.PDF for .NET segítségével lépésről‑lépésre. |
+| [PDF PNG oktatóanyag – PDF oldalak PNG-be konvertálása C#-ban](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Tanulja meg, hogyan konvertálhat PDF oldalakat PNG képekké C#-ban az Aspose.PDF for .NET használatával. |
+| [PDF dokumentum betöltése C# – PDF/X-4 konvertálása lépésről lépésre útmutató](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | Tanulja meg, hogyan tölthet be PDF dokumentumot C#-ban és konvertálhatja PDF/X-4 formátumba az Aspose.PDF for .NET segítségével. |  
+| [Aspose PDF HTML konvertálás C#-ban – Teljes útmutató](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | Tanulja meg, hogyan konvertálhat PDF-et HTML-be C#-ban az Aspose.PDF for .NET segítségével ebben a részletes útmutatóban. |
+| [PDF konvertálása Aspose.Pdf segítségével – Teljes C# útmutató](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | Tanulja meg, hogyan konvertáljon PDF fájlokat C#-ban az Aspose.Pdf használatával ebben a részletes útmutatóban. |  
+| [PDF mentése HTML-ként – Vektorok megtartása és raszterizálás letiltása](./save-pdf-as-html-keep-vectors-disable-rasterization/) | Tanulja meg, hogyan menthet PDF-et HTML-be a vektorok megtartásával és a raszterizálás letiltásával az Aspose.PDF for .NET segítségével. |
+| [PDF mentése Aspose-szal – Teljes C# konverziós útmutató](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) | Tanulja meg, hogyan menthet PDF-et az Aspose segítségével egy teljes C# konverziós útmutatóban. |
+| [DOCX konvertálása PDF-be C#‑ban – Teljes lépésről‑lépésre útmutató](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Tanulja meg, hogyan konvertálhat DOCX fájlokat PDF-be C#‑ban az Aspose.PDF for .NET segítségével lépésről‑lépésre. |
+| [Bates-számozás hozzáadása DOCX-hez és konvertálás PDF-be – Teljes C# útmutató](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | Tanulja meg, hogyan adhat hozzá Bates-számozást egy DOCX dokumentumhoz, majd konvertálja PDF-be az Aspose.PDF for .NET segítségével C#-ban. |
+| [Dokumentum PDF mentése – Hogyan adjon hozzá ellipszist és konvertáljon DOCX-et PDF-be](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | Tanulja meg, hogyan menthet PDF dokumentumot, ellipszist adhat hozzá, és konvertálhat DOCX fájlokat PDF-be az Aspose.PDF for .NET segítségével. |
+| [Hogyan állíts be ICC-t az Aspose PDF konverzióban – Teljes útmutató](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | Tanulja meg, hogyan állíthat be ICC színprofilokat az Aspose.PDF for .NET konverzió során ebben a részletes útmutatóban. |  
+| [Aspose PDF konverzió C#-ban – Lépésről‑lépésre útmutató](./aspose-pdf-conversion-in-c-step-by-step-guide/) | Tanulja meg, hogyan konvertálhat PDF fájlokat C#‑ban az Aspose.PDF for .NET segítségével ebben a részletes lépésről‑lépésre útmutatóban. |  
+| [Dokumentum mentése HTML-ként – Teljes C# útmutató a Word HTML-be exportálásához](./save-document-as-html-complete-c-guide-to-export-word-to-htm/) | Tanulja meg, hogyan menthet Word dokumentumot HTML formátumba az Aspose.PDF for .NET segítségével ebben a részletes C# útmutatóban. |
+| [PDF konvertálása PDF/X‑4-re C#‑ban](./how-to-convert-pdf-to-pdf-x-4-in-c-step-by-step-guide/) | Tanulja meg, hogyan konvertálhat PDF fájlokat PDF/X‑4 formátumba C#‑ban az Aspose.PDF for .NET segítségével ezzel a lépésről lépésre útmutatóval. |
+| [ICC profil beállítása Word PDF-re konvertálásakor – Teljes C# útmutató](./set-icc-profile-when-converting-word-to-pdf-complete-c-guide/) | Tanulja meg, hogyan állíthat be ICC profilt a Word dokumentum PDF-re konvertálásakor az Aspose.PDF for .NET segítségével ebben a lépésről lépésre útmutatóban. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

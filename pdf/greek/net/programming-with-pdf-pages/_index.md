@@ -46,3 +46,15 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Δημιουργία Κενής Σελίδας PDF – Πλήρης Εκπαίδευση Σχεδίασης PDF](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Μάθετε πώς να δημιουργήσετε μια κενή σελίδα PDF χρησιμοποιώντας το Aspose.PDF για .NET σε αυτόν τον πλήρη οδηγό σχεδίασης. |
+| [Προσθήκη αριθμών σελίδας PDF με C# – Πλήρης οδηγός βήμα‑βήμα](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Μάθετε πώς να προσθέσετε αριθμούς σελίδων σε PDF χρησιμοποιώντας C# με αναλυτικές οδηγίες βήμα‑βήμα. |
+| [Προσθήκη Σελίδων σε PDF με Aspose – Πλήρης Οδηγός C#](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Οδηγός βήμα προς βήμα για την προσθήκη σελίδων σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με C#. |
+| [Δημιουργία εγγράφου PDF σε C# – Προσθήκη σελίδας & Ορθογώνιο](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) | Μάθετε πώς να δημιουργήσετε ένα PDF, να προσθέσετε σελίδα και να σχεδιάσετε ορθογώνιο σε C# με Aspose.PDF. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

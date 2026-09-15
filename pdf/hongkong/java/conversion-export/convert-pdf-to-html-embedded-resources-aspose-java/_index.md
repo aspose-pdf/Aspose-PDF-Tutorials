@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-14"
-"description": "了解如何使用 Aspose.PDF for Java 將 PDF 文件轉換為具有嵌入資源的自包含 HTML 文件，確保您的內容適合網路且視覺上一致。"
-"title": "使用 Aspose.PDF for Java 將 PDF 轉換為包含嵌入式資源的 HTML"
-"url": "/zh-hant/java/conversion-export/convert-pdf-to-html-embedded-resources-aspose-java/"
-"weight": 1
+date: '2026-04-02'
+description: 學習如何使用 Aspose.PDF for Java 將 PDF 轉換為內嵌資源的 HTML。包括針對受密碼保護的 PDF 以及 Java
+  專屬轉換設定的技巧。
+keywords:
+- how to convert pdf to html
+- convert password protected pdf
+- convert pdf to html java
+- aspose pdf html conversion
+title: 如何使用 Aspose.PDF for Java 將 PDF 轉換為含嵌入資源的 HTML
+url: /zh-hant/java/conversion-export/convert-pdf-to-html-embedded-resources-aspose-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,34 +17,44 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# 使用 Aspose.PDF for Java 將 PDF 轉換為 HTML 並嵌入所有資源
+# 使用 Aspose.PDF for Java 將 PDF 轉換為嵌入資源的 HTML
 
 ## 介紹
 
-在當今的數位環境中，以 HTML 等多種格式在線共享文件至關重要。本教學將指導您使用 Aspose.PDF for Java 將 PDF 轉換為 HTML 文件，並將所有資源（圖像、字體）直接嵌入其中。
+在本指南 **如何將 pdf 轉換為 html** 中，您將學會一種直接將 PDF 文件轉換為單一、完整的 HTML 檔案的方法，所有圖片、字型與樣式皆直接嵌入頁面內。無論是建置網站入口、準備電子郵件行銷，或是將內容匯入 CMS，擁有資源全部嵌入的 HTML 檔案都能避免斷裂連結，確保在各瀏覽器上的渲染一致。
 
-### 您將學到什麼：
-- 將 PDF 轉換為自包含的 HTML 檔案。
-- 將所有必要的資源嵌入 HTML 中。
-- 針對各種瀏覽器優化字母定位。
-- 將光柵影像儲存為背景的一部分。
-- 配置字體儲存模式。
+### 您將學到
+- 將 PDF 轉換為完整的 HTML 檔案。  
+- 直接在 HTML 中嵌入圖片、字型與 CSS。  
+- 為舊版瀏覽器優化字母定位。  
+- 將點陣圖儲存為頁面背景的一部份。  
+- 為最大相容性選擇合適的字型儲存模式。  
 
-在本指南結束時，您將對使用 Aspose.PDF for Java 將 PDF 文件轉換為獨立 HTML 文件有深入的了解。讓我們先設定您的環境和先決條件。
+完成本教學後，您將能自信地回答 **「how to convert pdf to html」** 這個問題，並使用 Aspose.PDF for Java 完成轉換。
 
-## 先決條件
+## 快速解答
+- **哪個函式庫負責轉換？** Aspose.PDF for Java。  
+- **能轉換受密碼保護的 PDF 嗎？** 可以，只要在開啟文件時提供密碼即可。（次要關鍵字：convert password protected pdf）  
+- **需要哪個 Java 版本？** Java 8 或以上；函式庫支援 Maven 或 Gradle 建置。  
+- **HTML 真的是完整自包含的嗎？** 絕對是——所有圖片、字型與 CSS 都已嵌入。  
+- **需要授權嗎？** 免費試用可用於評估，商業授權則移除所有限制。
 
-在繼續本教學之前，請確保您已：
-- **所需庫**：透過 Maven 或 Gradle 將 Aspose.PDF for Java 包含在您的專案中。
-- **環境設定**：需要安裝相容的 IDE（如 IntelliJ IDEA、Eclipse）和 JDK。
-- **知識前提**：假設您對 Java 程式設計有基本的了解，並且能夠使用 Maven 或 Gradle 等工具處理依賴關係。
+## 什麼是「how to convert pdf to html」？
+將 PDF 轉換為 HTML 意味著從 PDF 中擷取視覺佈局、文字、圖片與字型，並以網頁友好的標記重新呈現。若將資源嵌入，產生的 HTML 檔案即可在任何地方開啟，無需外部檔案。
 
-## 為 Java 設定 Aspose.PDF
+## 為何使用 Aspose.PDF for Java 進行 HTML 轉換？
+Aspose.PDF 提供對每個轉換細節的精細控制——嵌入模式、圖片處理、字型格式與 CSS 定位——讓您能針對特定瀏覽器或效能需求客製化輸出。它亦支援受密碼保護的 PDF 以及大規模批次處理等進階情境。
 
-請依照以下步驟將 Aspose.PDF for Java 合併到您的專案中：
+## 前置條件
+- 已安裝 **Java Development Kit (JDK) 8+**。  
+- **IDE**（IntelliJ IDEA、Eclipse 或類似工具）。  
+- **Maven 或 Gradle** 用於相依管理。  
+- **Aspose.PDF for Java** 函式庫（免費試用或授權版）。  
+
+## 設定 Aspose.PDF for Java
 
 ### Maven 設定
-在您的 `pom.xml` 文件：
+將以下相依加入您的 `pom.xml` 檔案：
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -48,115 +64,113 @@
 ```
 
 ### Gradle 設定
-將此行包含在您的 `build.gradle` 文件：
+在您的 `build.gradle` 檔案中加入此行：
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-**許可證獲取**：要使用 Aspose.PDF for Java，請取得許可證。從免費試用開始或申請臨時許可證以不受限制地探索全部功能。對於生產用途，需要購買訂閱。
+**取得授權**：從 Aspose 取得試用或正式授權。試用版可探索全部功能，購買授權則解除評估限制。
 
-**基本初始化**：環境準備就緒後，請在 Java 專案中匯入該程式庫：
+**基本初始化**：在 Java 程式碼中匯入核心類別：
 ```java
 import com.aspose.pdf.Document;
 ```
 
-## 實施指南
+## 步驟說明實作
 
-本節將指導您使用 Aspose.PDF for Java 將 PDF 轉換為具有嵌入資源的 HTML。
-
-### 載入來源 PDF 文件
-
-首先，透過指定輸入檔案路徑來載入來源 PDF 文件：
+### 步驟 1：載入來源 PDF
+先讓 Aspose.PDF 指向您的輸入檔案：
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY/input.pdf";
 Document doc = new Document(dataDir);
 ```
-這 `Document` 類別代表您正在處理的 PDF 檔案。
+若 PDF 受密碼保護，請在 `Document` 建構子中傳入密碼（參見次要關鍵字 *convert password protected pdf*）。
 
-### 實例化 HTML 保存選項
-
-建立一個實例 `HtmlSaveOptions` 自訂 PDF 的轉換方式：
+### 步驟 2：建立 HTML 儲存選項
+實例化 `HtmlSaveOptions` 以控制轉換行為：
 ```java
 HtmlSaveOptions options = new HtmlSaveOptions();
 ```
 
-### 將所有資源嵌入 HTML 中
-
-為了確保所有資源（如圖像和字體）都嵌入 HTML 檔案中，請設定嵌入模式：
+### 步驟 3：將所有資源嵌入 HTML
+告訴 Aspose 將每張圖片、字型與 CSS 片段直接嵌入 HTML 檔案：
 ```java
 options.setPartsEmbeddingMode(HtmlSaveOptions.PartsEmbeddingModes.EmbedAllIntoHtml);
 ```
-這使得您的 HTML 自包含。
 
-### 優化字母定位
-
-為了在 CSS 中精確定位字母，以便與 Internet Explorer 等瀏覽器相容，請如下設定：
+### 步驟 4：優化字母定位
+為了像素級的精確渲染——尤其在舊版瀏覽器如 Internet Explorer 中——使用帶有四捨五入誤差補償的 EM 單位：
 ```java
 options.setLettersPositioningMethod(LettersPositioningMethods.UseEmUnitsAndCompensationOfRoundingErrorsInCss);
 ```
 
-### 保存光柵圖像和字體
-
-若要將光柵圖像儲存為 PNG 頁面背景的嵌入部分，請使用以下設定：
+### 步驟 5：將點陣圖儲存為嵌入式 PNG 背景
+將點陣圖作為頁面背景的一部份嵌入，可保持 HTML 整潔：
 ```java
 options.setRasterImagesSavingMode(HtmlSaveOptions.RasterImagesSavingModes.AsEmbeddedPartsOfPngPageBackground);
 ```
-此外，請確保所有字體都以各種格式儲存在 HTML 中：
+
+### 步驟 6：以全部格式保留字型
+透過保存所有可用格式的字型，確保最大相容性：
 ```java
 options.setFontSavingMode(HtmlSaveOptions.FontSavingModes.SaveInAllFormats);
 ```
 
-### 將輸出儲存為單一 HTML 文件
-
-最後，將您的文件儲存為包含所有嵌入資源的單一 HTML 檔案：
+### 步驟 7：寫入單一 HTML 輸出
+最後，產生完整自包含的 HTML 檔案：
 ```java
 String outputDir = "YOUR_OUTPUT_DIRECTORY/Single_output.html";
 doc.save(outputDir, options);
 ```
-此步驟將 PDF 轉換為 HTML 文件，該文件可以獨立查看，無需外部依賴。
+結果是一個可直接上線的獨立 HTML 文件。
 
-## 實際應用
+## 實務應用
+1. **網站入口** – 發布手冊、年報或產品目錄，無需擔心資源遺失。  
+2. **電子郵件行銷** – 將整份文件嵌入郵件正文，提升閱讀體驗。  
+3. **內容管理系統** – 直接將 PDF 內容匯入頁面，省去額外的圖片／字型上傳。
 
-將 PDF 轉換為自包含的 HTML 檔案有幾個實際應用：
-1. **入口網站**：以使用者友善的格式展示公司宣傳冊或報告。
-2. **電子郵件行銷活動**：將文件直接嵌入電子郵件中，以增強觀看體驗。
-3. **內容管理系統（CMS）**：輕鬆將文件內容整合到網頁中，無需外部文件依賴。
+## 效能考量
+- **記憶體管理** – 轉換大型 PDF 時請配置足夠的堆積空間（`-Xmx`）。  
+- **批次處理** – 迭代資料夾內的 PDF，重複使用同一個 `HtmlSaveOptions` 實例以降低開銷。  
+- **效能分析** – 使用 Java 分析工具（VisualVM、YourKit）找出記憶體峰值並進行優化。
 
-## 性能考慮
+## 常見問題與解決方案
+| 問題 | 為何發生 | 解決方式 |
+|-------|----------------|-----|
+| **OutOfMemoryError** 在大型 PDF 上 | 堆積空間不足 | 增加 JVM 記憶體 (`-Xmx2g` 或更高) |
+| HTML 中缺少字型 | 受授權限制未嵌入字型 | 確認 `setFontSavingMode` 設為 `SaveInAllFormats` 且授權有效 |
+| 圖片顯示為斷裂連結 | 未設定正確的嵌入模式 | 確認 `setPartsEmbeddingMode` 為 `EmbedAllIntoHtml` |
 
-轉換大型 PDF 檔案時，請考慮以下效能提示：
-- **優化記憶體使用**：確保您的 Java 應用程式分配了足夠的記憶體來有效地處理大型文件。
-- **批次處理**：如果處理多個文件，請實施批次作業並實施資源管理實務。
-- **資源管理最佳實踐**：定期分析和監控應用程式的資源使用情況，以防止瓶頸。
+## 常見問答
 
-## 結論
+**Q: 可以使用此方法轉換受密碼保護的 PDF 檔案嗎？**  
+A: 可以。於建立 `Document` 物件時提供密碼，即符合次要關鍵字 *convert password protected pdf*。
 
-透過遵循本指南，您已經了解如何使用 Aspose.PDF for Java 將 PDF 文件轉換為嵌入所有資源的 HTML 檔案。此流程可確保您的輸出是獨立的，非常適合網頁顯示，無需依賴任何外部資源。
+**Q: 如何有效處理非常大的 PDF 檔案？**  
+A: 增加堆積記憶體、分批處理，並考慮在儲存前呼叫 `doc.optimizeResources()`。
 
-為了進一步探索 Aspose.PDF 的功能，請考慮深入了解其廣泛的文件並嘗試其他功能，例如在 PDF 中處理文字和圖形。
+**Q: 能否自訂字型在 HTML 輸出中的嵌入方式？**  
+A: 當然可以。使用不同的 `FontSavingModes`（例如 `SaveInWoff`、`SaveInTtf`）以符合目標瀏覽器。
 
-## 常見問題部分
+**Q: 哪些瀏覽器支援 Aspose.PDF 產生的嵌入式 HTML？**  
+A: 所有主流瀏覽器（Chrome、Edge、Firefox、Safari）皆能正確渲染。舊版 IE 可能需要我們在第 4 步使用的 EM 單位定位調整。
 
-1. **我可以使用此方法轉換受密碼保護的 PDF 檔案嗎？**
-   - 是的，如果您提供正確的密碼，Aspose.PDF 支援開啟和轉換受保護的文件。
-2. **如何有效率地處理大型 PDF 檔案？**
-   - 利用 Java 的記憶體管理最佳實踐，並考慮將轉換分解為更小的任務。
-3. **是否可以自訂字體在 HTML 輸出中的嵌入方式？**
-   - 當然，Aspose.PDF 提供了各種字體保存模式，您可以根據需要進行設定。
-4. **哪些瀏覽器支援這種類型的嵌入式 HTML 內容？**
-   - 大多數現代網頁瀏覽器都支援具有嵌入資源的自包含 HTML 文件。
-5. **我可以將包含表單的 PDF 轉換為 HTML 同時保留表單欄位嗎？**
-   - Aspose.PDF 對表單元素轉換的支援有限；但是，如果需要的話，可以在 HTML 中手動提取並重新建立它們。
+**Q: 轉換為 HTML 時能保留互動式表單欄位嗎？**  
+A: 表單轉換功能有限，您可能需要另行擷取表單資料，並手動在 HTML 中重新建立欄位。
 
 ## 資源
-- [文件](https://reference.aspose.com/pdf/java/)
-- [下載庫](https://releases.aspose.com/pdf/java/)
-- [購買許可證](https://purchase.aspose.com/buy)
+- [文件說明](https://reference.aspose.com/pdf/java/)
+- [下載函式庫](https://releases.aspose.com/pdf/java/)
+- [購買授權](https://purchase.aspose.com/buy)
 - [免費試用](https://releases.aspose.com/pdf/java/)
-- [臨時執照](https://purchase.aspose.com/temporary-license/)
+- [臨時授權](https://purchase.aspose.com/temporary-license/)
 - [支援論壇](https://forum.aspose.com/c/pdf/10)
 
-我們希望本教學能幫助您掌握使用 Aspose.PDF for Java 成功將 PDF 轉換為 HTML 的知識。編碼愉快！
+---
+
+**最後更新：** 2026-04-02  
+**測試版本：** Aspose.PDF for Java 25.3  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

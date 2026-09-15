@@ -1,0 +1,7 @@
+Title: How to create empty graphics state in a PDF with C#
+Slug: how-to-create-empty-graphics-state-in-a-pdf-with-c
+Category: programming-with-operators
+ProcessedDate: 2026-08-18T02:14:27.969772
+SourceRepo: AI Search API
+Keywords: create empty graphics state
+PRNumber: 121

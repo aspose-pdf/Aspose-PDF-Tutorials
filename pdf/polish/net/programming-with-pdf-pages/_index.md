@@ -46,3 +46,15 @@ Samouczki obejmują instrukcje krok po kroku, szczegółowe przykłady kodu i ja
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Utwórz pustą stronę PDF – Pełny samouczek rysowania PDF](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Krok po kroku pokażemy, jak utworzyć pustą stronę PDF i rysować na niej przy użyciu Aspose.PDF dla .NET. |  
+| [Dodaj numery stron PDF w C# – Pełny przewodnik krok po kroku](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Krok po kroku pokażemy, jak dodać numery stron do pliku PDF w C# przy użyciu Aspose.PDF dla .NET. |
+| [Dodaj strony do PDF za pomocą Aspose – Kompletny przewodnik C#](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Kompletny przewodnik krok po kroku, jak dodać strony do pliku PDF w C# przy użyciu Aspose.PDF dla .NET. |  
+| [Utwórz dokument PDF w C# – Dodaj stronę i prostokąt](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) | Krok po kroku pokażemy, jak utworzyć dokument PDF w C#, dodać stronę i rysować prostokąt przy użyciu Aspose.PDF dla .NET. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

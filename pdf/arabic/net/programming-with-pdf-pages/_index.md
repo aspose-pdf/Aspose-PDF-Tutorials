@@ -46,3 +46,15 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [إضافة صفحات إلى PDF باستخدام Aspose – دليل C# كامل](./add-pages-to-pdf-with-aspose-complete-c-guide/) | دليل خطوة بخطوة لإضافة صفحات إلى ملف PDF باستخدام Aspose.PDF لـ .NET بلغة C#. |
+| [إنشاء صفحة PDF فارغة – دليل كامل لرسم PDF](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | دليل خطوة بخطوة لإنشاء صفحة PDF فارغة باستخدام Aspose.PDF لـ .NET مع شرح كامل للرسم. |
+| [إضافة أرقام الصفحات إلى PDF باستخدام C# – دليل كامل خطوة بخطوة](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | دليل خطوة بخطوة لإضافة أرقام الصفحات إلى ملفات PDF باستخدام C# و Aspose.PDF لـ .NET. |  
+| [إنشاء مستند PDF في C# – إضافة صفحة إلى PDF ومربع](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) | دليل خطوة بخطوة لإنشاء مستند PDF وإضافة صفحة ومربع باستخدام Aspose.PDF لـ .NET. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

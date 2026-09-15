@@ -64,6 +64,8 @@
 
 ### [如何在 C# 中比較 PDF – 生成 PDF 差異的完整指南](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中比較兩個 PDF，生成差異報告並突出顯示變更。
+### [在 C# 中編輯 PDF 透明度 – 步驟指南](./edit-pdf-transparency-in-c-step-by-step-guide/)
+了解如何在 C# 使用 Aspose.PDF 編輯 PDF 透明度屬性，實現漸層與圖層效果的詳細步驟說明。
 
 ## 其他資源
 

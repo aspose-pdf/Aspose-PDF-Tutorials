@@ -1,26 +1,26 @@
 ---
 category: general
-date: 2026-03-01
-description: PDF-aláírás ellenőrzése C#-ban gyorsan – tanulja meg, hogyan töltsön
-  be egy PDF-et, ellenőrizze a digitális aláírásokat, és vizsgálja a manipulációt
-  az Aspose.Pdf segítségével.
+date: 2026-02-25
+description: pdf aláírás ellenőrzése C#-ban az Aspose.Pdf használatával – megtanulhatod,
+  hogyan validáld a pdf aláírást egy CA szerver ellen, hogyan kezeld a lánc ellenőrzését,
+  és hogyan kerüld el a gyakori hibákat.
 draft: false
 keywords:
 - verify pdf signature
-- validate pdf digital signature
-- how to load pdf
-- load pdf document c#
-- check pdf for tampering
+- validate pdf signature
+- how to verify pdf signature
+- pdf digital signature verification
+- c# pdf signature validation
 language: hu
-og_description: Ellenőrizze gyorsan a PDF aláírást C#-ban – tanulja meg, hogyan töltsön
-  be PDF-et, ellenőrizze a digitális aláírásokat, és ellenőrizze a manipulációt az
-  Aspose.Pdf segítségével.
-og_title: PDF aláírás ellenőrzése C#‑ban – Teljes útmutató
+og_description: Ellenőrizze a PDF aláírást C#-ban az Aspose.Pdf használatával. Ez
+  az útmutató bemutatja, hogyan validálja a PDF aláírást egy CA szerver ellen, kóddal,
+  tippekkel és szélhelyzetek kezelésével.
+og_title: PDF aláírás ellenőrzése C#‑ban – Teljes lépésről‑lépésre útmutató
 tags:
-- C#
 - PDF
+- C#
 - Digital Signature
-title: PDF aláírás ellenőrzése C#-ban – Teljes lépésről lépésre útmutató
+title: PDF aláírás ellenőrzése C#‑ban – Teljes lépésről‑lépésre útmutató
 url: /hu/net/programming-with-security-and-signatures/verify-pdf-signature-in-c-complete-step-by-step-guide/
 ---
 
@@ -28,167 +28,238 @@ url: /hu/net/programming-with-security-and-signatures/verify-pdf-signature-in-c-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PDF aláírás ellenőrzése C#‑ban – Teljes lépésről‑lépésre útmutató
+# pdf aláírás ellenőrzése C#‑ban – Teljes lépésről‑lépésre útmutató
 
-Szeretne **PDF aláírást ellenőrizni** egy .NET alkalmazásban? Ebben az útmutatóban megmutatjuk, hogyan **töltsön be PDF** fájlokat, **ellenőrizze a PDF digitális aláírás** objektumokat, és **ellenőrizze a PDF manipulációra** csak néhány kódsorral.  
+Valaha is szükséged volt **pdf aláírás ellenőrzésére** egy olyan dokumentumon, amelyet az ügyfeleid küldenek? Lehet, hogy egy számla‑jóváhagyási munkafolyamatot építesz, és nem engedheted meg, hogy hamis PDF-et fogadj el. Ebben az útmutatóban egy gyakorlati, vég‑től‑végig példán keresztül mutatjuk be, hogyan **validálhatod a pdf aláírást** C#‑ban és az Aspose.Pdf‑el, valamint megválaszoljuk a sok fórumon felmerülő „hogyan ellenőrizhető a pdf aláírás” kérdést.
 
-Ha valaha is azon tűnődött, hogy egy aláírt szerződés még megbízható‑e, jó helyen jár. A végére pontosan tudni fogja, hogyan töltsön be PDF dokumentumot C#‑ban, hogyan észlelje a kompromittált aláírásokat, és hogyan jelentse az eredményt egy tiszta konzol kimenetben.
-
-## Mit fog megtanulni
-
-Áttekintünk egy valós helyzetet: egy szolgáltatás aláírt PDF‑et kap, és meg kell határoznia, hogy az aláírás még érvényes‑e. Látni fogja:
-
-* A pontos kód, amelyre szükség van a **PDF dokumentum C#‑stílusú** betöltéséhez az Aspose.Pdf használatával.
-* Hogyan **ellenőrizze a PDF digitális aláírás** objektumokat, és hogyan találjon egy kompromittáltat.
-* Gyors mód a **PDF manipuláció ellenőrzésére** anélkül, hogy egyedi hash logikát írna.
-* Különleges esetek kezelése – több aláírás, jelszóval védett fájlok, és régebbi .NET futtatókörnyezetek.
-
-Nem szükséges külső dokumentáció; minden, amire szüksége van, itt van.
-
-> **Előfeltételek** – Szüksége van .NET 6‑ra vagy újabbra, Visual Studio‑ra (vagy bármely C# IDE‑re), és egy hivatkozásra az Aspose.Pdf könyvtárra (elérhető a NuGet‑en keresztül). Ha még nem telepítette, futtassa a `dotnet add package Aspose.Pdf` parancsot a projekt mappájában.
+A végére egy futtatható konzolalkalmazással zársz, amely a saját OCSP/CRL végpontoddal kommunikál, ellenőrzi a tanúsítványláncot, és egyértelmű true/false eredményt ír ki. Nincs homályos „lásd a dokumentációt” átadás – minden, amire szükséged van, itt található.
 
 ---
 
-## ## PDF aláírás ellenőrzése – Lépésről‑lépésre
+## Amire szükséged lesz
 
-Alább található a teljes, futtatható példa. Másolja be egy konzol projektbe, és nyomja meg a **F5**‑öt.
+Mielőtt belemerülnénk, győződj meg róla, hogy a következő előfeltételek rendelkezésedre állnak:
+
+| Előfeltétel | Miért fontos |
+|--------------|----------------|
+| **.NET 6.0 vagy újabb** | A legújabb futtatókörnyezet hozzáférést biztosít a modern nyelvi funkciókhoz és a legújabb Aspose.Pdf binárisokhoz. |
+| **Aspose.Pdf for .NET** (NuGet csomag `Aspose.PDF`) | Ez a könyvtár biztosítja a kódban használt `Document`, `PdfFileSignature` és `ValidationOptions` osztályokat. |
+| **Aláírt PDF** (`signed.pdf`) | A fájl, amelyet ellenőrizni szeretnél; legalább egy digitális aláírást kell tartalmaznia. |
+| **Hozzáférés a CA OCSP végpontjához** (pl. `https://ca.mycompany.com/ocsp`) | Szükséges a valós idejű visszavonás-ellenőrzéshez és a lánc validálásához. |
+
+Ha valamelyik ismeretlennek tűnik, ne aggódj – a NuGet csomag telepítése egyetlen sor (`dotnet add package Aspose.PDF`), a többi pedig csak egy fájl a lemezen.
+
+---
+
+## 1. lépés: Az aláírt PDF dokumentum megnyitása
+
+Az első dolog, amit teszünk, betöltjük a aláírást tartalmazó PDF‑et. Tekintsd a `Document`‑et egy “könyv” objektumnak; anélkül, hogy megnyitnád, semmi más nem számít.
 
 ```csharp
 using System;
-using Aspose.Pdf;               // NuGet package Aspose.Pdf
-using Aspose.Pdf.Signatures;   // Namespace for signature handling
+using System.Linq;
+using Aspose.Pdf;
+using Aspose.Pdf.Facades;
 
 class Program
 {
     static void Main()
     {
-        // Step 1: Load the PDF document (how to load PDF)
-        // ------------------------------------------------
-        // The Document constructor accepts a file path, a stream, or a byte array.
-        // Here we use a simple path; you could also pass a MemoryStream for in‑memory scenarios.
-        using var pdfDocument = new Document("YOUR_DIRECTORY/signed.pdf");
+        // Replace with the actual path to your signed PDF
+        const string pdfPath = @"YOUR_DIRECTORY\signed.pdf";
 
-        // Step 2: Determine if any signature is compromised
-        // -------------------------------------------------
-        // Aspose.Pdf exposes a Signatures collection. Each SignatureInfo
-        // has an IsCompromised property that tells you if the signature
-        // fails validation (e.g., the document was altered after signing).
-        bool hasCompromisedSignature = pdfDocument.Signatures.Any(sig => sig.IsCompromised);
+        // Step 1 – Load the PDF file
+        using var document = new Document(pdfPath);
+```
 
-        // Step 3: Report the verification result
-        // ---------------------------------------
-        // This is where we *validate PDF digital signature* status for the caller.
-        Console.WriteLine(hasCompromisedSignature ? "Compromised!" : "OK");
+> **Miért ez a lépés?** A fájl megnyitása hozzáférést biztosít az aláírásgyűjteményhez, amelyet később felsorolunk. A `using` utasítás biztosítja, hogy a fájlkezelő azonnal felszabaduljon.
+
+---
+
+## 2. lépés: A PDF aláírás kezelő inicializálása
+
+Most létrehozunk egy `PdfFileSignature` objektumot. Ez a felület a munkagépe, amely lehetővé teszi az aláírások lekérdezését és ellenőrzését.
+
+```csharp
+        // Step 2 – Create the signature handler
+        using var pdfSignature = new PdfFileSignature(document);
+```
+
+> **Pro tipp:** Ha nagyon nagy PDF‑ekkel dolgozol, fontold meg a `LoadOptions` használatát a betöltéshez, hogy csökkentsd a memóriahasználatot. A legtöbb esetben nem kötelező, de a szerveren néhány gigabájtot megtakaríthat.
+
+---
+
+## 3. lépés: Validációs beállítások megadása – a CA szerver megadása és a lánc ellenőrzés engedélyezése
+
+Itt mondjuk meg az Aspose-nak, hogyan **validálja a pdf aláírást** a Tanúsítvány Hatóságod ellen. A `ValidationOptions` objektum lehetővé teszi egy OCSP URL megadását és a teljes lánc ellenőrzés bekapcsolását.
+
+```csharp
+        // Step 3 – Configure validation (validate pdf signature)
+        pdfSignature.ValidationOptions = new ValidationOptions
+        {
+            // Your organization’s OCSP responder
+            CaServerUrl = "https://ca.mycompany.com/ocsp",
+            // Verify the whole certificate chain, not just the leaf cert
+            VerifyCertificateChain = true
+        };
+```
+
+> **Miért fontos:** CA szerver nélkül a könyvtár csak alapvető integritás‑ellenőrzéseket tud végezni. A `VerifyCertificateChain` engedélyezése biztosítja, hogy a aláírási út minden tanúsítványa megbízható legyen, ami elengedhetetlen a szigorú szabályozású iparágakban.
+
+---
+
+## 4. lépés: Az első aláírás ellenőrzése a dokumentumban
+
+A legtöbb PDF egyetlen aláírást tartalmaz, de néhány többet is. Egyszerűség kedvéért az elsőt vesszük. Később könnyen kiterjesztheted egy ciklusra.
+
+```csharp
+        // Step 4 – Get the name of the first signature and verify it
+        string firstSignatureName = pdfSignature.GetSignNames().FirstOrDefault();
+
+        if (string.IsNullOrEmpty(firstSignatureName))
+        {
+            Console.WriteLine("No signatures found in the PDF.");
+            return;
+        }
+
+        bool isValid = pdfSignature.VerifySignature(firstSignatureName);
+```
+
+> **Gyakori kérdés:** *Mi van, ha a PDF több aláírást tartalmaz?*  
+> **Válasz:** Hívd meg a `pdfSignature.GetSignNames()`‑t az összes név lekéréséhez, majd iterálj a `VerifySignature(name)`‑vel minden egyesre. Ugyanaz a `ValidationOptions` minden hívásra érvényes.
+
+---
+
+## 5. lépés: Az ellenőrzés eredményének megjelenítése
+
+Végül kiírjuk a logikai eredményt. Egy valódi alkalmazásban valószínűleg naplózod vagy UI‑ba továbbítod, de a `Console.WriteLine` tisztán tartja a példát.
+
+```csharp
+        // Step 5 – Show the outcome
+        Console.WriteLine($"Valid against CA: {isValid}");
     }
 }
 ```
 
-### Miért működik ez
+### Várható kimenet
 
-1. **PDF betöltése** – A `Document` osztály elrejti a fájl I/O részleteit, lehetővé téve, hogy **PDF dokumentumot C#‑stílusban** töltsön be anélkül, hogy a streamekkel kellene foglalkoznia. Automatikusan felismeri a fájlformátumot, így a PDF‑eket bájt tömbből is betöltheti, ha a fájlt hálózaton keresztül kapja.
-2. **Aláírás ellenőrzése** – A `pdfDocument.Signatures` visszaadja az összes beágyazott aláírás gyűjteményét. Az `IsCompromised` jelzőt az Aspose belső validációs algoritmusa állítja be, amely a kriptográfiai hash‑t ellenőrzi az aláírt adatokkal szemben. Ha a PDF bármely része megváltozott, a jelző `true`‑ra vált. Ez a **PDF manipuláció ellenőrzésének** lényege.
-3. **Egyszerű konzol kimenet** – Egy valódi szolgáltatásban az eredményt HTTP‑en keresztül küldheti vissza vagy naplózhatja, de a `Console.WriteLine` minimalizálja a példát, és könnyen futtatható helyben.
+```
+Valid against CA: True
+```
+
+Ha az aláírás hibás, visszavont, vagy a lánc nem építhető fel, `False`-t látsz. A `SignatureInfo` objektumot is megvizsgálhatod részletes hibakódokért, de ez meghaladja a gyors útmutató kereteit.
 
 ---
 
-## ## PDF dokumentum betöltése C#‑ban – A lehetőségek megértése
+## 📊 Diagram – Az ellenőrzési folyamat működése
 
-Miközben a fenti kódrészlet fájl útvonalat használ, előfordulhat, hogy **hogyan töltsön be PDF**‑et más forrásokból. Íme három gyakori minta:
+![Diagram a pdf aláírás ellenőrzési folyamatról](https://example.com/verify-pdf-signature-diagram.png "Diagram a pdf aláírás ellenőrzési folyamatról")
 
-| Forrás | Kód példa | Mikor használjuk |
-|--------|--------------|-------------|
-| **Fájl útvonal** | `new Document("path/to/file.pdf")` | Egyszerű asztali alkalmazások |
-| **Stream** | `using var stream = File.OpenRead("file.pdf"); new Document(stream);` | Ha már rendelkezik egy `Stream`‑mel (pl. webes feltöltésből) |
-| **Byte array** | `byte[] data = File.ReadAllBytes("file.pdf"); new Document(data);` | Memóriában történő feldolgozás, mikro‑szolgáltatások |
-
-Minden megközelítés ugyanúgy egy teljes funkcionalitású `Document` objektumot ad, így a **PDF digitális aláírás ellenőrzése** lépés változatlan marad.
-
-## ## PDF digitális aláírás ellenőrzése – Mélyebb elemzés
-
-Az `IsCompromised` tulajdonság egy gyorsmegoldás, de néha részletesebb információra van szükség:
-
-```csharp
-foreach (var sigInfo in pdfDocument.Signatures)
-{
-    Console.WriteLine($"Signature ID: {sigInfo.SignatureId}");
-    Console.WriteLine($"  Valid: {!sigInfo.IsCompromised}");
-    Console.WriteLine($"  Signer: {sigInfo.SignerName}");
-    Console.WriteLine($"  Signing Time: {sigInfo.SigningTime}");
-}
-```
-
-* **Miért ellenőrizze minden aláírást?**  
-  Egy PDF több aláírást is tartalmazhat (pl. egy szerződés, amelyet több fél írt alá). Egy kompromittált aláírás nem érvényteleníti automatikusan a többit, de úgy dönthet, hogy elutasítja az egész dokumentumot, ha *bármely* aláírás hibás. Ez a logika szerepel a `Any(sig => sig.IsCompromised)` egy soros kifejezésben.
-
-* **Mi van, ha az aláírás egy nem megbízható tanúsítványt használ?**  
-  Az Aspose.Pdf beállítható úgy, hogy a tanúsítványláncot egy megbízható gyökértárolóval ellenőrizze. Adjon hozzá egy `SignatureValidator`‑t, és adja meg a megbízható tanúsítványait egy szigorúbb **PDF digitális aláírás ellenőrzése** folyamat érdekében.
-
-## ## PDF manipuláció ellenőrzése – Különleges esetek
-
-### 1. Jelszóval védett PDF‑ek
-
-Ha a PDF titkosított, a jelszót meg kell adnia, mielőtt az aláírásokat olvasni tudná:
-
-```csharp
-var loadOptions = new PdfLoadOptions { Password = "mySecret" };
-using var pdfDocument = new Document("protected.pdf", loadOptions);
-```
-
-### 2. Több aláírás
-
-Ha egy dokumentumnak több aláírása van, előfordulhat, hogy felsorolni szeretné, **melyek** kompromittáltak:
-
-```csharp
-var compromised = pdfDocument.Signatures
-    .Where(sig => sig.IsCompromised)
-    .Select(sig => sig.SignatureId)
-    .ToList();
-
-if (compromised.Any())
-{
-    Console.WriteLine("Compromised signatures: " + string.Join(", ", compromised));
-}
-else
-{
-    Console.WriteLine("All signatures are intact.");
-}
-```
-
-### 3. Nagy PDF‑ek
-
-Nagyon nagy fájlok esetén a teljes dokumentum memóriába töltése költséges lehet. Az Aspose egy **lusta betöltés** módot kínál:
-
-```csharp
-var loadOptions = new PdfLoadOptions { LoadAllPages = false };
-using var pdfDocument = new Document("bigfile.pdf", loadOptions);
-```
-
-Ezután csak azokat az oldalakat érheti el, amelyek aláírásokat tartalmaznak, így a **PDF manipuláció ellenőrzése** lépés hatékony marad.
-
-## ## Pro tippek és gyakori buktatók
-
-* **Pro tip:** Mindig ellenőrizze az aláírás időbélyegét (`sigInfo.SigningTime`). Ha az időbélyeg a szabályzat által elfogadott időablaknál régebbi, tekintse a dokumentumot gyanúsnak.
-* **Figyeljen:** Azokra a PDF‑ekre, amelyek *tanúsító* aláírást tartalmaznak a *jóváhagyó* aláírások helyett. A tanúsító aláírások lezárják a dokumentum szerkezetét; a jóváhagyó aláírások csak bizonyos mezőket zárnak le.
-* **Tipikus hiba:** Feltételezni, hogy az `IsCompromised == false` azt jelenti, hogy az aláírás kriptográfiailag erős. Ez csak azt jelenti, hogy a dokumentum aláírás után nem változott. A teljes biztonság érdekében továbbra is ellenőrizni kell a tanúsítványláncot.
-* **Teljesítmény megjegyzés:** Ha csak azt kell tudni, hogy *bármely* aláírás kompromittált‑e, az `Any` LINQ hívás rögtön leáll, amint megtalálja az első hibás aláírást – ez egy egyszerű mód a **PDF manipuláció ellenőrzésére** tömeges feldolgozási csővezetékekben.
-
-![PDF aláírás ellenőrzése példa](https://example.com/verify-pdf-signature.png "PDF aláírás ellenőrzése")
-
-*Alt text: képernyőfotó, amely a PDF aláírás ellenőrzése után a konzol kimenetet mutatja*
+*Alt szöveg:* Diagram a pdf aláírás ellenőrzési folyamatról – a PDF megnyílik, az aláírási adatok kinyerésre kerülnek, OCSP kérés kerül elküldésre a CA‑nak, a lánc felépül, és a végső logikai érték visszatér.
 
 ---
 
-## ## Összegzés
+## 6. lépés: Több aláírás kezelése (Opcionális kiterjesztés)
 
-Most már egy stabil, termelés‑kész módszerrel rendelkezik a **PDF aláírás ellenőrzésére** C#‑ban. A PDF betöltésével, az aláírások iterálásával és az `IsCompromised` vizsgálatával azonnal megállapíthatja, hogy a dokumentum módosult‑e. Ugyanaz a minta lehetővé teszi a **PDF digitális aláírás ellenőrzését**, a jelszóval védett fájlok kezelését, és még a több aláírásos esetek kezelését – mindezt anélkül, hogy elhagyná az Aspose.Pdf kényelmét.
+Ha a munkafolyamatod megköveteli, hogy minden aláíróra **hogyan ellenőrizhető a pdf aláírás** kérdésre választ adj, csomagold a ellenőrzési logikát egy ciklusba:
 
-Ezután fontolja meg ennek a kiindulási pontnak a bővítését:
+```csharp
+        var signatureNames = pdfSignature.GetSignNames();
 
-* Integrálja a tanúsítványlánc ellenőrzését a szigorúbb **PDF digitális aláírás ellenőrzése** megfelelés érdekében.
-* Tárolja az ellenőrzési eredményeket egy adatbázisban audit nyomvonalakhoz.
-* Kombinálja ezt az ellenőrzést egy PDF megjelenítő könyvtárral, hogy az eredeti aláírt dokumentumot megjelenítse a végfelhasználóknak.
+        foreach (var name in signatureNames)
+        {
+            bool result = pdfSignature.VerifySignature(name);
+            Console.WriteLine($"Signature '{name}' valid: {result}");
+        }
+```
 
-Próbálja ki, finomítsa a különleges esetek kezelését a környezetéhez igazítva, és tudassa velünk, hogyan működik Önnek. Boldog kódolást!
+Ez a kis kiegészítés egy egyszeri aláírás ellenőrzést teljes audit nyomvonalá alakít, ami hasznos szerződések esetén, ahol több félnek kell aláírnia.
+
+---
+
+## Gyakori buktatók a **PDF aláírás validálásakor**
+
+1. **OCSP/CRL hozzáférés hiánya** – Ha a `CaServerUrl` nem érhető el, a könyvtár offline validációra vált, ami hamis negatív eredményeket adhat. Mindig teszteld a hálózati kapcsolatot a telepítési szerverről.  
+2. **Önaláírt gyökértanúsítványok** – a `VerifyCertificateChain` hibát jelez, hacsak nem adod hozzá a gyökeret a megbízható tárolóhoz. Használd a `pdfSignature.TrustedCertificates.Add(...)`‑t, ha privát PKI‑d van.  
+3. **Időbélyeg eltérés** – Néhány aláírás tartalmaz időbélyeg token-t. Ha a rendszeróra több mint néhány perccel el van térve, a validáció hibásnak tűnhet. Tartsd szinkronban a szerver óráját NTP‑vel.  
+4. **Jelszóval védett PDF‑ek** – A `Document` konstruktor kivételt dob, ha a fájl titkosított. Először oldd fel a `document.Decrypt(password)`‑vel, mielőtt létrehoznád az aláírás kezelőt.
+
+---
+
+## Szélsőséges esetek és változatok
+
+| Szituáció | Mit kell módosítani |
+|----------|----------------|
+| **Offline validáció** (nincs internet) | `CaServerUrl` kihagyása és a beágyazott CRL‑ekre támaszkodás; `ValidateRevocation = false` beállítása. |
+| **Több aláíró hatóság** | Minden CA OCSP URL‑jét adjuk hozzá egy szótárhoz, és a kiadó alapján váltogassuk a `CaServerUrl`‑t aláírásonként. |
+| **Nagy PDF‑ek (>100 MB)** | `LoadOptions` használatával töltsd be, és állítsd `DocumentInfo.IsCompressed = true`‑ra a memória terhelés csökkentése érdekében. |
+| **Egyedi megbízható tároló** | Töltsd fel a `pdfSignature.TrustedCertificates`‑t a saját X509Certificate2 gyűjteményeddel. |
+
+Ezek a finomhangolások a megoldásodat elég robusztusra teszik a termelési folyamatokhoz.
+
+---
+
+## Profi tippek a gyakorlatból
+
+- **Cache-eld az OCSP válaszokat** néhány percre; az ugyanarra a végpontra történő ismételt hívások lelassíthatják a kötegelt feldolgozást.  
+- **Naplózd a teljes kivételt** amikor a `VerifySignature` kivételt dob; az Aspose tartalmaz egy `SignatureInfo.Status` enumot, amely megmondja, hogy a hiba visszavonás, lejárat vagy ismeretlen algoritmus miatt történt-e.  
+- **Egységtesztelj egy ismert jó PDF‑kel** (aláírás a saját CA‑d által létrehozva), hogy biztosítsd, hogy a validációs logikád működik, mielőtt harmadik fél dokumentumait vizsgálnád.  
+- **Tedd az ellenőrzést try/catch‑be** és adj vissza egy strukturált eredményobjektumot (`bool IsValid`, `string Message`) a konzolra írás helyett. Ez API‑baráttá teszi a kódot.
+
+---
+
+## Teljes működő példa (másolás‑beillesztés kész)
+
+```csharp
+using System;
+using System.Linq;
+using Aspose.Pdf;
+using Aspose.Pdf.Facades;
+
+class VerifyPdfSignatureDemo
+{
+    static void Main()
+    {
+        const string pdfPath = @"YOUR_DIRECTORY\signed.pdf";
+
+        // Open the PDF file
+        using var document = new Document(pdfPath);
+
+        // Initialize the signature handler
+        using var pdfSignature = new PdfFileSignature(document);
+
+        // Set validation options (validate pdf signature)
+        pdfSignature.ValidationOptions = new ValidationOptions
+        {
+            CaServerUrl = "https://ca.mycompany.com/ocsp",
+            VerifyCertificateChain = true
+        };
+
+        // Grab the first signature name
+        string sigName = pdfSignature.GetSignNames().FirstOrDefault();
+
+        if (string.IsNullOrEmpty(sigName))
+        {
+            Console.WriteLine("No signatures found in the PDF.");
+            return;
+        }
+
+        // Verify the signature (how to verify pdf signature)
+        bool isValid = pdfSignature.VerifySignature(sigName);
+
+        // Output the result
+        Console.WriteLine($"Valid against CA: {isValid}");
+    }
+}
+```
+
+**Futtasd:** `dotnet run` a forrásfájlt tartalmazó mappából. Ha minden helyesen van beállítva, `Valid against CA: True`‑t látsz (vagy `False`‑t, ha valami nem stimmel).
+
+---
+
+## Összegzés
+
+Ebben az útmutatóban **ellenőriztük a pdf aláírást** vég‑től‑végig az Aspose.Pdf for .NET használatával, lefedtük minden konfiguráció mögötti okokat, és megvizsgáltuk a változatokat több aláíró, offline szcenáriók és egyedi megbízható tárolók esetén. Most már egy szilárd,
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

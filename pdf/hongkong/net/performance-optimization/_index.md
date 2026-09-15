@@ -16,7 +16,6 @@
 了解如何使用我們的 .NET Aspose.PDF 最佳化教學建立高效能 PDF 處理應用程式。這些實用指南展示了高效能記憶體管理、執行時間改進的技術以及有效處理大型 PDF 文件的策略。每個教學課程都包含詳細的 C# 程式碼範例和優化關鍵效能的最佳實踐，確保您的應用程式即使在處理大量 PDF 文件時也能保持回應和可靠。
 
 ## 可用教程
-
 ### [使用 Aspose.PDF 在 .NET 中進行 PDF 最佳化的綜合指南](./aspose-pdf-dotnet-optimization-guide/)
 了解如何使用 Aspose.PDF for .NET 優化 PDF，確保有效利用資源並獲得高品質的文件。掌握GSave/GRestore操作和XForm圖形管理。
 
@@ -55,6 +54,14 @@
 
 ### [如何在 C# 中最佳化 PDF：新增空白頁、匯出 HTML、簽名](./how-to-optimize-pdf-in-c-add-blank-page-export-html-sign/)
 本指南說明如何使用 Aspose.PDF for .NET 在 C# 中新增空白頁、將 PDF 匯出為 HTML，並加入簽章，以提升文件處理效能。
+
+### [最佳化 PDF 圖像 – 使用 C# 縮小 PDF 檔案大小](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
+了解如何使用 C# 透過 Aspose.PDF 最佳化 PDF 圖像，減少檔案大小並提升效能。
+### [如何使用 Aspose 壓縮 PDF – 快速 C# 指南](./how-to-compress-pdf-with-aspose-quick-c-guide/)
+快速了解如何使用 Aspose.PDF 於 C# 中壓縮 PDF，提升檔案效能與減少大小。
+
+### [在 C# 中儲存最佳化 PDF – 減少大小與清理頁面](./save-optimized-pdf-in-c-reduce-size-clean-pages/)
+學習如何在 C# 中儲存已最佳化的 PDF，減少檔案大小並清除不必要的頁面，以提升效能。
 
 ## 其他資源
 

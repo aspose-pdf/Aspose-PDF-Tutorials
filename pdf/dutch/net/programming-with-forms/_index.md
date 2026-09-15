@@ -59,3 +59,15 @@ Deze tutorials bieden ook gedetailleerde codevoorbeelden, duidelijke uitleg en i
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Hoe PDF maken met Aspose – Formulierveld en pagina's toevoegen](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Leer hoe u met Aspose.PDF voor .NET een PDF maakt, formuliervelden toevoegt en pagina's beheert in deze stapsgewijze tutorial. |  
+| [Bates-nummers toevoegen aan PDF's – Stapsgewijze C#-gids](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Leer hoe u Bates-nummers aan PDF-documenten toevoegt met Aspose.PDF voor .NET in een duidelijke C#-stapsgewijze handleiding. |
+| [PDF-document maken met meerdere tekstvak-widgets – Stapsgewijze handleiding](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Leer hoe u een PDF-document maakt met meerdere tekstvak-widgets met Aspose.PDF voor .NET in deze stapsgewijze tutorial. |
+| [Hoe een tekstvak toevoegen aan PDF – PDF-formulierveld maken en bewerkt PDF-document opslaan](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Leer hoe u een tekstvak toevoegt, een PDF-formulierveld maakt en het bewerkte PDF-document opslaat met Aspose.PDF voor .NET. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

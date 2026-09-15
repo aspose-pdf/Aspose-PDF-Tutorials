@@ -16,7 +16,6 @@
 Aprenda a crear aplicaciones de procesamiento de PDF de alto rendimiento con nuestros tutoriales de optimización de Aspose.PDF para .NET. Estas guías prácticas muestran técnicas para una gestión eficiente de la memoria, mejoras en el tiempo de ejecución y estrategias para gestionar eficazmente documentos PDF de gran tamaño. Cada tutorial incluye ejemplos detallados de código C# y las mejores prácticas para optimizar aspectos críticos del rendimiento, garantizando así que sus aplicaciones mantengan su capacidad de respuesta y fiabilidad incluso al trabajar con documentos PDF de gran tamaño.
 
 ## Tutoriales disponibles
-
 ### [Guía completa para optimizar PDF en .NET con Aspose.PDF](./aspose-pdf-dotnet-optimization-guide/)
 Aprenda a optimizar archivos PDF con Aspose.PDF para .NET, garantizando un uso eficiente de los recursos y documentos de alta calidad. Domine las operaciones GSave/GRestore y la gestión de gráficos XForm.
 
@@ -52,6 +51,14 @@ Aprenda a desincrustar fuentes de sus archivos PDF con Aspose.PDF para .NET. Opt
 
 ### [Crear PDF optimizado – Comprimir imágenes PDF con JPEG sin pérdida](./create-optimized-pdf-compress-pdf-images-with-lossless-jpeg/)
 Aprenda a crear PDFs optimizados comprimiendo imágenes con JPEG sin pérdida, manteniendo calidad y reduciendo el tamaño del archivo.
+
+### [Optimizar imágenes PDF – Reducir el tamaño del archivo PDF con C#](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
+Aprenda a reducir el tamaño de PDFs optimizando imágenes mediante C#, mejorando la velocidad y el uso de memoria.
+### [Cómo comprimir PDF con Aspose – Guía rápida en C#](./how-to-compress-pdf-with-aspose-quick-c-guide/)
+Aprenda a comprimir archivos PDF rápidamente usando Aspose.PDF en C#, con ejemplos claros y pasos simples.
+
+### [Guardar PDF optimizado en C# – Reducir tamaño y limpiar páginas](./save-optimized-pdf-in-c-reduce-size-clean-pages/)
+Aprenda a guardar PDFs optimizados en C#, reduciendo su tamaño y eliminando páginas innecesarias para mejorar el rendimiento.
 
 ## Recursos adicionales
 

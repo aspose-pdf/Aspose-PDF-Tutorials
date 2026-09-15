@@ -16,7 +16,6 @@
 Zvládněte manipulaci s PDF dokumenty s našimi podrobnými tutoriály Aspose.PDF .NET. Tyto podrobné návody ukazují, jak pracovat se strukturou dokumentů, upravovat existující PDF soubory, rozdělovat a slučovat dokumenty, přidávat a odebírat stránky a programově organizovat obsah PDF. Každý tutoriál obsahuje funkční příklady kódu C#, poznámky k implementaci a osvědčené postupy, které vám pomohou vytvářet aplikace, které efektivně manipulují s PDF dokumenty pomocí čistého a snadno udržovatelného kódu.
 
 ## Dostupné tutoriály
-
 ### [Přidání datových a časových razítek do PDF pomocí Aspose.PDF pro .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 Naučte se, jak efektivně přidávat datumová a časová razítka nebo anotace do dokumentů PDF pomocí Aspose.PDF pro .NET. Vylepšete správu dokumentů pomocí těchto snadno sledovatelných kroků.
 
@@ -313,6 +312,9 @@ Naučte se, jak v C# pomocí Aspose.PDF skrýt citlivý text a odstranit obsah z
 
 ### [Ultimátní průvodce manipulací s PDF pomocí Aspose.PDF .NET: Efektivní načítání, ukládání a nahrazování textu](./master-pdf-manipulation-aspose-pdf-net/)
 Naučte se, jak zvládnout manipulaci s PDF pomocí Aspose.PDF pro .NET. Tato příručka se zabývá načítáním, ukládáním a nahrazováním textu v PDF souborech, což je ideální pro vývojáře, kteří hledají efektivitu.
+
+### [Jak opravit PDF v C# – rychle opravit poškozené PDF soubory](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
+Naučte se, jak rychle opravit poškozené PDF soubory v C# pomocí Aspose.PDF .NET.
 
 ## Další zdroje
 

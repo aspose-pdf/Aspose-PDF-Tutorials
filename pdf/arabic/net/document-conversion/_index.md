@@ -65,3 +65,29 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [تحويل PDF إلى PDF/X-4](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) |تعرف على كيفية تحويل ملفات PDF إلى تنسيق PDF/X-4 باستخدام Aspose.PDF لـ .NET عبر دليل خطوة بخطوة. |
+| [إضافة ملف تعريف ICC وتحويل PDF إلى PDF/X‑4 – دليل C#](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) |تعرف على كيفية إضافة ملف تعريف ICC وتحويل ملفات PDF إلى PDF/X‑4 باستخدام Aspose.PDF لـ .NET في دليل C# خطوة بخطوة. |  
+| [تحويل PDF إلى PDF/X‑4 باستخدام C#](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) |تعرف على كيفية تحويل ملفات PDF إلى صيغة PDF/X‑4 باستخدام Aspose.PDF لـ .NET في دليل خطوة بخطوة. |  
+| [دليل pdf إلى png – تحويل صفحات PDF إلى PNG باستخدام C#](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) |تعلم كيفية تحويل صفحات ملفات PDF إلى صور PNG باستخدام Aspose.PDF لـ .NET مع C# خطوة بخطوة. |
+| [تحميل مستند PDF C# – التحويل إلى PDF/X-4 دليل خطوة بخطوة](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) |تعرف على كيفية تحميل مستند PDF باستخدام C# وتحويله إلى صيغة PDF/X-4 باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |
+| [تحويل Aspose PDF إلى HTML باستخدام C# – دليل شامل](./aspose-pdf-to-html-conversion-in-c-complete-guide/) |تعرف على كيفية تحويل ملفات PDF إلى HTML باستخدام Aspose.PDF لـ .NET مع دليل خطوة بخطوة شامل. |
+| [كيفية تحويل PDF باستخدام Aspose.Pdf – دليل C# كامل](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) |تعرف على كيفية تحويل ملفات PDF باستخدام Aspose.Pdf في دليل شامل بلغة C# خطوة بخطوة. |
+| [كيفية حفظ PDF باستخدام Aspose – دليل C# الكامل](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) |تعرف على كيفية حفظ ملفات PDF باستخدام Aspose.PDF لـ .NET مع دليل شامل خطوة بخطوة بلغة C#. |  
+| [حفظ PDF كـ HTML – الحفاظ على المتجهات وتعطيل التحويل إلى نقطية](./save-pdf-as-html-keep-vectors-disable-rasterization/) |تعلم كيفية حفظ ملفات PDF كـ HTML مع الحفاظ على المتجهات وتعطيل التحويل إلى صور نقطية باستخدام Aspose.PDF لـ .NET. |  
+| [إضافة ترقيم Bates إلى DOCX وتحويله إلى PDF – دليل C# الكامل](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) |تعلم كيفية إضافة ترقيم Bates إلى ملفات DOCX ثم تحويلها إلى PDF باستخدام Aspose.PDF لـ .NET مع دليل C# خطوة بخطوة. |  
+| [حفظ مستند PDF – كيفية إضافة إهليلج وتحويل DOCX إلى PDF](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) |تعرّف على كيفية حفظ مستند PDF وإضافة إهليلج، ثم تحويل ملفات DOCX إلى PDF باستخدام Aspose.PDF لـ .NET. |  
+| [تحويل docx إلى pdf في C# – دليل كامل خطوة بخطوة](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) |تعرف على كيفية تحويل ملفات docx إلى pdf باستخدام Aspose.PDF لـ .NET مع دليل شامل خطوة بخطوة في C#. |  
+| [إنشاء HTML من PDF باستخدام C# – دليل خطوة بخطوة كامل](./create-html-from-pdf-in-c-complete-step-by-step-guide/) |تعرف على كيفية إنشاء ملفات HTML من مستندات PDF باستخدام Aspose.PDF لـ .NET في دليل شامل خطوة بخطوة. |  
+| [كيفية تعيين ICC في تحويل Aspose PDF – دليل كامل](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | تعلم كيفية تعيين ملف ICC أثناء تحويل المستندات باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |
+| [تحويل Aspose PDF في C# – دليل خطوة بخطوة](./aspose-pdf-conversion-in-c-step-by-step-guide/) |تعلم كيفية تحويل ملفات PDF باستخدام Aspose.PDF في C# عبر دليل خطوة بخطوة. |  
+| [كيفية تحويل PDF إلى PDF/X‑4 باستخدام C# – دليل خطوة بخطوة](./how-to-convert-pdf-to-pdf-x-4-in-c-step-by-step-guide/) |تعرف على طريقة تحويل ملفات PDF إلى صيغة PDF/X‑4 باستخدام Aspose.PDF لـ .NET في دليل شامل خطوة بخطوة. |  
+| [تعيين ملف تعريف ICC عند تحويل Word إلى PDF – دليل C# كامل](./set-icc-profile-when-converting-word-to-pdf-complete-c-guide/) |تعرف على كيفية تعيين ملف تعريف ICC أثناء تحويل مستندات Word إلى PDF باستخدام Aspose.PDF لـ .NET في دليل C# خطوة بخطوة. |  
+| [حفظ المستند كـ HTML – دليل C# كامل لتصدير Word إلى HTML](./save-document-as-html-complete-c-guide-to-export-word-to-htm/) |تعرف على كيفية حفظ مستند Word كملف HTML باستخدام Aspose.PDF لـ .NET من خلال دليل خطوة بخطوة شامل. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

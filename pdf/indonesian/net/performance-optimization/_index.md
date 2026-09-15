@@ -55,6 +55,14 @@ Pelajari cara mengompresi gambar dalam PDF menggunakan JPEG lossless dengan Aspo
 ### [Cara Mengoptimalkan PDF di C# dengan Menambahkan Halaman Kosong, Mengekspor HTML, dan Menandatangani](./how-to-optimize-pdf-in-c-add-blank-page-export-html-sign/)
 Pelajari cara menambahkan halaman kosong, mengekspor ke HTML, dan menandatangani PDF menggunakan Aspose.PDF untuk .NET.
 
+### [Optimalkan Gambar PDF – Kurangi Ukuran File PDF dengan C#](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
+Pelajari cara mengoptimalkan gambar dalam PDF dan mengurangi ukuran file menggunakan C# dengan Aspose.PDF.
+### [Cara Mengompres PDF dengan Aspose – Panduan Cepat C#](./how-to-compress-pdf-with-aspose-quick-c-guide/)
+Panduan singkat C# untuk mengompres file PDF menggunakan Aspose.PDF, meningkatkan kecepatan dan mengurangi ukuran dokumen.
+
+### [Simpan PDF yang Dioptimalkan di C# – Kurangi Ukuran & Bersihkan Halaman](./save-optimized-pdf-in-c-reduce-size-clean-pages/)
+Pelajari cara menyimpan PDF yang dioptimalkan menggunakan C#, mengurangi ukuran file dan membersihkan halaman yang tidak diperlukan.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

@@ -32,6 +32,11 @@
 ### [تحميل ترخيص Aspose.PDF من ملف في .NET: دليل شامل](./load-aspose-pdf-license-file-net/)
 تعرف على كيفية التبديل بسلاسة بين الوضع التجريبي والوضع المرخص لـ Aspose.PDF في .NET عن طريق تحميل ملف الترخيص، مما يضمن وظائف التطبيق السلسة.
 
+### [كيفية تثبيت Aspose – دليل PowerShell للإصدارات المحددة](./how-to-install-aspose-powershell-guide-for-specific-versions/)
+دليل PowerShell لتثبيت Aspose بإصدارات محددة.
+### [كيفية تثبيت حزم NuGet عبر PowerShell – خطوة بخطوة](./how-to-install-nuget-packages-via-powershell-step-by-step/)
+دليل خطوة بخطوة لتثبيت حزم NuGet باستخدام PowerShell في بيئة .NET
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

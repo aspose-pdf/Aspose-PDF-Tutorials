@@ -314,6 +314,9 @@ Tìm hiểu cách chia nhỏ các tệp PDF nhiều trang và tạo tệp PDF m�
 ### [Hướng dẫn tối ưu về thao tác PDF với Aspose.PDF .NET: Tải, lưu và thay thế văn bản hiệu quả](./master-pdf-manipulation-aspose-pdf-net/)
 Tìm hiểu cách làm chủ thao tác PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm việc tải, lưu và thay thế văn bản trong PDF, lý tưởng cho các nhà phát triển tìm kiếm hiệu quả.
 
+### [Cách Sửa PDF trong C# – Sửa nhanh các tệp PDF bị hỏng](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
+Tìm hiểu cách sửa các tệp PDF bị hỏng nhanh chóng bằng C# và Aspose.PDF.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)

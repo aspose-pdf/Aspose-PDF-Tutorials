@@ -313,6 +313,9 @@
 
 ### [كيفية تعديل PDF في C# – إخفاء النص وإزالة المحتوى](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
 
+### [كيفية إصلاح ملفات PDF في C# – إصلاح ملفات PDF التالفة بسرعة](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
+تعرف على طريقة إصلاح ملفات PDF التالفة بسرعة باستخدام C# ومكتبة Aspose.PDF.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

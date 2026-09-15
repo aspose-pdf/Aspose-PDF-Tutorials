@@ -55,6 +55,14 @@ Aspose.PDF for .NET ile PDF içindeki görüntüleri kayıpsız JPEG sıkıştı
 ### [C#'ta PDF'yi Optimize Etme: Boş Sayfa Ekleme, HTML Dışa Aktarma, İmzalama](./how-to-optimize-pdf-in-c-add-blank-page-export-html-sign/)
 Aspose.PDF for .NET kullanarak C# içinde PDF'ye boş sayfa ekleme, HTML'ye dönüştürme ve imzalama adımlarını öğrenin.
 
+### [PDF Görsellerini Optimize Edin – C# ile PDF Dosya Boyutunu Küçültün](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
+C# kullanarak PDF içindeki görüntüleri sıkıştırarak dosya boyutunu nasıl küçülteceğinizi öğrenin.
+### [Aspose ile PDF sıkıştırma – Hızlı C# Kılavuzu](./how-to-compress-pdf-with-aspose-quick-c-guide/)
+Aspose.PDF kullanarak PDF dosyalarını hızlı ve etkili bir şekilde sıkıştırmayı gösteren adım adım C# rehberi.
+
+### [C# ile Optimize Edilmiş PDF Kaydet – Boyutu Küçült ve Sayfaları Temizle](./save-optimized-pdf-in-c-reduce-size-clean-pages/)
+C# kod örnekleriyle PDF dosyalarını sıkıştırın, gereksiz sayfaları kaldırın ve dosya boyutunu minimuma indirin.
+
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)

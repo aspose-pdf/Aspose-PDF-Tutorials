@@ -46,3 +46,15 @@ Tutorials include step-by-step instructions, detailed code examples, and clear e
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Add page numbers pdf with C# – Full Step‑by‑Step Guide](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Step-by-step guide to add page numbers to a PDF using C# and Aspose.PDF for .NET. |
+| [Create PDF Document in C# – Add Page to PDF & Rectangle](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) | Step-by-step guide to create a PDF, add a page and draw a rectangle using Aspose.PDF for .NET. |  
+| [Create Blank PDF Page – Full PDF Drawing Tutorial](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Step-by-step guide to create a blank PDF page using Aspose.PDF for .NET with full PDF drawing capabilities. |
+| [Add Pages to PDF with Aspose – Complete C# Guide](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Comprehensive C# guide to add pages to a PDF using Aspose.PDF for .NET. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

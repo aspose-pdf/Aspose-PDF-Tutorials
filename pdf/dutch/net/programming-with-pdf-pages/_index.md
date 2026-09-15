@@ -46,3 +46,15 @@ Tutorials bevatten stapsgewijze instructies, gedetailleerde codevoorbeelden en d
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Lege PDF-pagina maken – Volledige PDF-tekenhandleiding](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Leer hoe u een lege PDF-pagina maakt met volledige tekenfunctionaliteit in Aspose.PDF voor .NET. |
+| [Paginanummers toevoegen aan PDF met C# – Volledige stapsgewijze handleiding](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Leer hoe u paginanummers aan een PDF kunt toevoegen met C# en Aspose.PDF voor .NET in een gedetailleerde stap‑voor‑stap handleiding. |
+| [Pagina's toevoegen aan PDF met Aspose – Complete C#-gids](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Leer hoe u met Aspose PDF-pagina's kunt toevoegen in een uitgebreide C#-handleiding. |
+| [PDF-document maken in C# – Pagina toevoegen aan PDF & Rechthoek](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) | Leer hoe u met Aspose.PDF voor .NET een PDF-document maakt, een pagina toevoegt en een rechthoek tekent in C#. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
