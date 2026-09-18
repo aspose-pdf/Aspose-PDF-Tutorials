@@ -21,7 +21,7 @@ Samouczki „Programowanie z tekstem” dla .NET w Aspose.PDF oferują komplekso
 | --- | --- | 
 | [Dodaj i wyszukaj ukryty tekst w pliku PDF](./add-and-search-hidden-text/) | Dowiedz się, jak dodawać i wyszukiwać ukryty tekst w dokumentach PDF za pomocą Aspose.PDF dla .NET. Przewodnik krok po kroku z dołączonymi przykładami kodu. |  
 | [Dodaj uporządkowaną listę HTML do dokumentów](./add-html-ordered-list-into-documents/) | Dowiedz się, jak dodawać uporządkowane listy HTML w dokumentach PDF za pomocą Aspose.PDF dla .NET. Odkryj instrukcje krok po kroku w tym szczegółowym samouczku. |  
-| [Dodaj HTML za pomocą DOM](./add-html-using-dom/) Dowiedz się, jak dodawać zawartość HTML do dokumentów PDF za pomocą Aspose.PDF dla .NET w tym samouczku krok po kroku. Łatwo ulepsz swoje pliki PDF za pomocą dynamicznego formatowania HTML. |  
+| [Dodaj HTML za pomocą DOM](./add-html-using-dom/) Dowiedz się, jak dodawać zawartość HTML do dokumentów PDF za pomocą Aspose.PDF dla .NET w tym samouczku krok po kroku. Łatwo ulepsz swoje pliki PDF za pomocą dynamicznego formatowania HTML. |
 | [Dodaj HTML za pomocą DOM i nadpisywania PDF](./add-html-using-dom-and-overwrite/) | Dowiedz się, jak dodawać zawartość HTML do pliku PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik krok po kroku obejmuje wszystko, od konfiguracji do ostatecznego zapisu. |  
 | [Dodaj kolejne wcięcia linii w pliku PDF](./add-subsequent-lines-indent/) | Dowiedz się, jak dodawać wcięcia kolejnych wierszy do plików PDF za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z tym szczegółowym przewodnikiem krok po kroku dotyczącym profesjonalnego formatowania tekstu. |  
 | [Dodaj obramowanie tekstu w pliku PDF](./add-text-border/) | Dowiedz się, jak dodać obramowanie tekstu w pliku PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Ulepsz swoje dokumenty PDF. |  
@@ -70,8 +70,8 @@ Samouczki „Programowanie z tekstem” dla .NET w Aspose.PDF oferują komplekso
 | [Wyrównanie tekstu dla zawartości pływającego pola w pliku PDF](./text-alignment-for-floating-box-contents/) | Dowiedz się, jak wyrównywać zawartość pływających pól w plikach PDF za pomocą Aspose.PDF dla platformy .NET. Twórz oszałamiające dokumenty z profesjonalnymi układami. |  
 | [Tekst i obraz jako akapit w pliku PDF](./text-and-image-as-paragraph/) | Twórz pliki PDF z tekstem i obrazami za pomocą Aspose.PDF dla .NET. Dowiedz się, jak krok po kroku dodawać tekst i obrazy w tekście. |  
 | [Segmenty tekstu w pliku PDF](./text-segments/) | Dowiedz się, jak wyszukiwać określone segmenty tekstu w pliku PDF za pomocą wyrażeń regularnych w Aspose.PDF dla platformy .NET. |  
-| [Użyj skryptu Latex w pliku PDF](./use-latex-script/) | Dowiedz się, jak używać skryptu Latex do dodawania wyrażeń matematycznych lub wzorów do pliku PDF za pomocą Aspose.PDF dla platformy .NET. |  
-
+| [Użyj skryptu Latex w pliku PDF](./use-latex-script/) | Dowiedz się, jak używać skryptu Latex do dodawania wyrażeń matematycznych lub wzorów do pliku PDF za pomocą Aspose.PDF dla platformy .NET. |
+| [Jak utworzyć podsumowanie PDF przy użyciu Aspose.Pdf.AI w C#](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Dowiedz się, jak generować podsumowanie dokumentu PDF przy użyciu Aspose.Pdf.AI w C# w kilku prostych krokach. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

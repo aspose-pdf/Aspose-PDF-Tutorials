@@ -60,6 +60,7 @@
 - [แปลง PDF เป็น PDF/X‑4 ด้วย C# – บทช่วยสอน ASP.NET PDF ทีละขั้นตอน](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/X‑4 ด้วย Aspose.PDF สำหรับ .NET ในบทช่วยสอนแบบทีละขั้นตอนนี้  
 - [วิธีแปลง PDF เป็น PDF/X-4 ด้วย Aspose – คู่มือทีละขั้นตอน](./how-to-convert-pdf-to-pdf-x-4-with-aspose-step-by-step-guide/) | เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/X‑4 ด้วย Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนนี้  
 - [วิธีตั้งค่าตัวเลือกสำหรับการแปลง PDF ใน C# – คู่มือ Aspose](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | เรียนรู้วิธีตั้งค่าตัวเลือกการแปลง PDF ใน C# ด้วย Aspose.PDF อย่างละเอียดและง่ายต่อการทำตาม  
+- [วิธีฝังโปรไฟล์ ICC และแปลง PDF เป็น PDF/X-1 ด้วย Aspose.Pdf](./how-to-embed-icc-profile-and-convert-pdf-to-pdf-x-1-with-asp/) | เรียนรู้วิธีฝังโปรไฟล์ ICC และแปลง PDF เป็น PDF/X-1 ด้วย Aspose.Pdf สำหรับ .NET อย่างละเอียด  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -94,4 +95,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

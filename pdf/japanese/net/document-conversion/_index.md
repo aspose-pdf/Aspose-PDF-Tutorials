@@ -59,7 +59,8 @@ Aspose.PDF の .NET 向けドキュメント変換チュートリアルでは、
 | [C#でPDFをPDF/X‑4に変換 – ステップバイステップ ASP.NET PDF チュートリアル](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) PDF を PDF/X‑4 形式に変換する方法を、C# と Aspose.PDF for .NET で学びます。 |
 | [Aspose で PDF を PDF/X‑4 に変換する方法 – ステップバイステップ ガイド](./how-to-convert-pdf-to-pdf-x-4-with-aspose-step-by-step-guide/) Aspose.PDF for .NET を使用して、PDF を PDF/X‑4 形式に変換する手順を詳しく解説します。 |
 | [PDFからPNGへのチュートリアル – C#でPDFページをPNGに変換](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) Aspose.PDF for .NET を使用して、C#でPDFページをPNG画像に変換する方法をステップバイステップで解説します。 |
-| [C# で PDF 変換オプションを設定する方法 – Aspose ガイド](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) Aspose.PDF for .NET を使用して C# で PDF 変換時のオプション設定方法をステップバイステップで解説します。 |  
+| [C# で PDF 変換オプションを設定する方法 – Aspose ガイド](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) Aspose.PDF for .NET を使用して C# で PDF 変換時のオプション設定方法をステップバイステップで解説します。 |
+| [ICC プロファイルを埋め込み、PDF を PDF/X‑1 に変換する方法 – Aspose.Pdf](./how-to-embed-icc-profile-and-convert-pdf-to-pdf-x-1-with-asp/) Aspose.PDF for .NET を使用して ICC プロファイルを埋め込み、PDF を PDF/X‑1 に変換する手順を学びます。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -101,4 +102,3 @@ Aspose.PDF の .NET 向けドキュメント変換チュートリアルでは、
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

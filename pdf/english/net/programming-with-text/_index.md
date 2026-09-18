@@ -27,6 +27,9 @@ pdf.Save("output.pdf");
 ```
 
 ## Tutorials
+### [How to create summary PDF with Aspose.Pdf.AI in C#](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/)
+
+
 | Title | Description |
 | --- | --- | 
 | [Add And Search Hidden Text In PDF File]({{< relref "add-and-search-hidden-text" >}}) | Learn to add and search for hidden text in PDF documents using Aspose.PDF for .NET. Step-by-step guide with code examples included. |

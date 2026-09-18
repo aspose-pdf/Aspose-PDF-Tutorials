@@ -59,6 +59,7 @@
 | [PDFファイルの検証標準](./validatepdfastandard/) この包括的なステップバイステップのチュートリアルでは、Aspose.PDF for .NET を使用して PDF ファイルを PDF/A-1a 標準に準拠して検証する方法を説明します。 |  
 | [PDF UA標準の検証](./validatepdfuastandard/) ステップバイステップのガイドと詳細な説明に従って、Aspose.PDF for .NET を使用して PDF/UA アクセシビリティ標準に対して PDF を検証する方法を学びます。 |  
 | [PDF ファイルの修復方法 – Aspose.Pdf を使用したステップバイステップガイド](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) Aspose.PDF for .NET を使用して PDF ファイルの破損を検出し、修復する手順をステップバイステップで解説します。 |  
+| [C# で Aspose.PDF を使用して空の PDF 辞書を作成する方法](./how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c/) Aspose.PDF for .NET を使用して、C# で空の PDF 辞書オブジェクトを作成する手順をステップバイステップで解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -57,6 +57,7 @@ Naučíte se, jak nastavit převod, extrahovat text a obrázky, zachovat původn
 | [Cesta k obrázku z XML do PDF](./xml-to-pdfset-image-path/) | Naučte se, jak snadno převést XML do PDF pomocí Aspose.PDF pro .NET. Tato podrobná příručka vás krok za krokem provede celým procesem, od nastavení až po dokončení. |
 | [XPS do PDF](./xps-to-pdf/) Naučte se, jak převést soubory XPS do PDF pomocí Aspose.PDF pro .NET v tomto podrobném návodu. Ideální pro vývojáře a nadšence do dokumentů. |
 | [Jak nastavit možnosti převodu PDF v C# – průvodce Aspose](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | Naučte se, jak nastavit různé možnosti převodu PDF v C# pomocí Aspose.PDF pro .NET v tomto podrobném návodu. |
+| [Jak vložit ICC profil a převést PDF na PDF/X-1 pomocí Aspose.Pdf](./how-to-embed-icc-profile-and-convert-pdf-to-pdf-x-1-with-asp/) | Naučte se, jak vložit ICC profil a převést PDF do formátu PDF/X-1 pomocí Aspose.PDF pro .NET v tomto podrobném návodu. |
 | [Převod PDF na PDF/X‑4 v C# – krok krokem ASP.NET PDF tutoriál](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Naučte se … |
 | [Jak ... PDF/X‑4 ...] ... |
 | [PDF na PNG tutoriál – Převod stránek PDF do PNG v C#](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Naučte se, jak převést stránky PDF do formátu PNG pomocí Aspose.PDF pro .NET v C#. |

@@ -71,6 +71,7 @@ Aspose.PDF'nin .NET için "Metinle Programlama" eğitimleri, PDF belgelerinizdek
 | [PDF Dosyasındaki Metin Bölümleri](./text-segments/) | Aspose.PDF for .NET'te düzenli ifadeler kullanarak PDF dosyasındaki belirli metin parçalarını nasıl arayacağınızı öğrenin. |  
 | [PDF Dosyasında Latex Komut Dosyasını Kullan](./use-latex-script/) | Aspose.PDF for .NET kullanarak PDF dosyasına matematiksel ifadeler veya formüller eklemek için Latex betiğinin nasıl kullanılacağını öğrenin. |  
 | [PDF'ye Bates Numaraları Ekle – bates numbering pdf](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Aspose.PDF for .NET kullanarak PDF dosyalarına Bates numaraları eklemeyi öğrenin. |
+| [C#'ta Aspose.Pdf.AI ile Özet PDF Oluşturma](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Aspose.Pdf.AI kullanarak C# ile PDF özetleri oluşturmayı adım adım öğrenin. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

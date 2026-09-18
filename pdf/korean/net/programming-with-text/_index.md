@@ -71,6 +71,7 @@ Aspose.PDF의 .NET용 "텍스트 프로그래밍" 튜토리얼은 PDF 문서에�
 | [PDF 파일의 텍스트 세그먼트](./text-segments/) | Aspose.PDF for .NET에서 정규 표현식을 사용하여 PDF 파일에서 특정 텍스트 세그먼트를 검색하는 방법을 알아보세요. |  
 | [PDF 파일에 Latex 스크립트 사용](./use-latex-script/) | Aspose.PDF for .NET을 사용하여 Latex 스크립트를 사용하여 PDF 파일에 수학 표현식이나 공식을 추가하는 방법을 알아보세요. |  
 | [PDF에 베이츠 번호 추가 – 베이츠 번호 매기기](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Aspose.PDF for .NET을 사용하여 PDF에 베이츠 번호를 추가하고 문서 추적을 구현하는 방법을 단계별로 안내합니다. |
+| [C#에서 Aspose.Pdf.AI를 사용하여 요약 PDF 만들기](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Aspose.Pdf.AI를 활용해 PDF 요약을 생성하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

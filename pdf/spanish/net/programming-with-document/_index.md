@@ -59,6 +59,7 @@ Este recurso incluye tutoriales sobre la programación con la función de docume
 | [Validar archivos PDF Un estándar](./validatepdfastandard/) | Aprenda a validar archivos PDF según el estándar PDF/A-1a usando Aspose.PDF para .NET en este completo tutorial paso a paso. |  
 | [Validar PDF UA Standard](./validatepdfuastandard/) | Aprenda a validar un PDF para el estándar de accesibilidad PDF/UA usando Aspose.PDF para .NET con nuestra guía paso a paso y explicaciones detalladas. |  
 | [Cómo reparar archivos PDF – Guía paso a paso usando Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Aprenda a reparar archivos PDF dañados con Aspose.Pdf para .NET mediante una guía paso a paso con ejemplos de código. |  
+| [Crear diccionario PDF vacío con Aspose.PDF en C#](./how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c/) | Aprenda a crear un diccionario PDF vacío con Aspose.PDF para .NET en C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

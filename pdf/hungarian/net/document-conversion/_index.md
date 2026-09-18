@@ -42,7 +42,7 @@ Megtanulod, hogyan adhatsz meg konvertálási beállításokat, hogyan kinyerhet
 | [PDF-ből TeX-be](./pdf-to-tex/) | Tanulja meg, hogyan konvertálhat PDF-fájlokat TeX-fájlokká az Aspose.PDF for .NET segítségével ezzel a lépésről lépésre szóló útmutatóval. Tökéletes azoknak a fejlesztőknek, akik szeretnék fejleszteni dokumentumfeldolgozási készségeiket. |
 | [PDF-ből XLS-be](./pdf-to-xls/) Könnyedén konvertálhat PDF fájlokat XLS formátumba az Aspose.PDF for .NET segítségével. Kövesse lépésről lépésre szóló útmutatónkat a zökkenőmentes adatkinyeréshez. |
 | [PDF-ből XML-be](./pdf-to-xml/) | Tanulja meg, hogyan konvertálhat PDF-fájlokat XML-fájlokká az Aspose.PDF for .NET segítségével ebben az átfogó oktatóanyagban. Lépésről lépésre útmutató kódpéldákkal. |
-| [PDF-ből XPS-be](./pdf-to-xps/) | Tanulja meg, hogyan konvertálhat PDF-fájlokat XPS-fájlokká az Aspose.PDF for .NET segítségével ezzel a lépésről lépésre szóló útmutatóval. Tökéletes fejlesztők és dokumentumfeldolgozás szerelmesei számára. |
+| [PDF-ből XPS-be](./pdf-to-xps/) | Tanulja meg, hogyan konvertálhat PDF-fájlokat XPS-fájlokká az Aspose.PDF for .NET segítségével ezzel a lépésről lépésre szóló útmutatóval. Tökéletes fejlesztők és dokumentumrajongók számára. |
 | [Utóirat PDF-be](./postscript-to-pdf/) | Tanuld meg, hogyan konvertálhatsz Postscript fájlokat PDF-be az Aspose.PDF for .NET segítségével ebben a lépésről lépésre szóló útmutatóban. Tökéletes minden szintű fejlesztő számára. |
 | [Hitelesítő adatok megadása HTML PDF-be konvertálása során](./provide-credentials-during-html-to-pdf/) | Tanulja meg, hogyan konvertálhat HTML-t PDF-be az Aspose.PDF for .NET segítségével ezzel a lépésről lépésre szóló útmutatóval. Tökéletes azoknak a fejlesztőknek, akik egyszerűsíteni szeretnék a dokumentumgenerálást. |
 | [Hiperhivatkozások eltávolítása HTML-ből konvertálás után](./remove-hyperlinks-after-converting-from-html/) Ebben a lépésről lépésre szóló útmutatóban megtudhatja, hogyan távolíthat el hiperhivatkozásokat a HTML dokumentumokból, miután az Aspose.PDF for .NET segítségével PDF-be konvertálta azokat. |
@@ -58,6 +58,7 @@ Megtanulod, hogyan adhatsz meg konvertálási beállításokat, hogyan kinyerhet
 | [XPS-ből PDF-be](./xps-to-pdf/) Tanulja meg, hogyan konvertálhat XPS fájlokat PDF-be az Aspose.PDF for .NET segítségével ezzel a lépésről lépésre szóló útmutatóval. Tökéletes fejlesztők és dokumentumrajongók számára. |
 | [PDF konvertálása PDF/X‑4-re C#‑ban – Lépésről‑lépésre ASP.NET PDF oktatóanyag](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Tanulja meg, hogyan konvertálhat PDF-fájlokat PDF/X‑4 formátumba C#‑ban az Aspose.PDF for .NET segítségével lépésről‑lépésre. |
 | [PDF konvertálása PDF/X‑4-re Aspose‑szal – Lépésről‑lépésre útmutató](./how-to-convert-pdf-to-pdf-x-4-with-aspose-step-by-step-guide/) | Tanulja meg, hogyan konvertálhat PDF-fájlokat PDF/X‑4 formátumba az Aspose.PDF for .NET segítségével lépésről‑lépésre. |
+| [ICC profil beágyazása és PDF konvertálása PDF/X-1-re az Aspose.Pdf segítségével](./how-to-embed-icc-profile-and-convert-pdf-to-pdf-x-1-with-asp/) | Tanulja meg, hogyan ágyazhat be ICC profilt és konvertálhat PDF-et PDF/X-1 formátumba az Aspose.Pdf használatával. |
 | [PDF PNG oktatóanyag – PDF oldalak PNG-be konvertálása C#-ban](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Tanulja meg, hogyan konvertálhat PDF oldalakat PNG képekké C#-ban az Aspose.PDF for .NET használatával. |
 | [PDF konvertálás beállításainak megadása C#-ban – Aspose útmutató](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | Tanulja meg, hogyan állíthat be különböző opciókat a PDF konvertáláshoz C#-ban az Aspose.PDF for .NET segítségével. |
 
@@ -68,7 +69,7 @@ Megtanulod, hogyan adhatsz meg konvertálási beállításokat, hogyan kinyerhet
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-| [Aspose PDF konverzió: PDF konvertálása PDF/X‑4-re C#-ban](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) | Tanulja meg, hogyan konvertálhat PDF fájlokat PDF/X‑4 formátumba C#-ban az Aspose.PDF for .NET segítségével. |  
+| [Aspose PDF konverzió: PDF konvertálása PDF/X‑4-re C#-ban](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) | Tanulja meg, hogyan konvertálhat PDF fájlokat PDF/X‑4 formátumba C#‑ban az Aspose.PDF for .NET segítségével. |  
 | [HTML létrehozása PDF-ből C#‑ban – Teljes lépésről‑lépésre útmutató](./create-html-from-pdf-in-c-complete-step-by-step-guide/) | Tanulja meg, hogyan hozhat létre HTML-t PDF-ből az Aspose.PDF for .NET segítségével ezzel a lépésről lépésre szóló útmutatóval. |  
 | [ICC profil hozzáadása és PDF konvertálása PDF/X‑4‑re – C# útmutató](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) | Tanulja meg, hogyan adhat hozzá ICC profilt, és konvertálhat PDF-et PDF/X‑4 formátumba C#-ban az Aspose.PDF for .NET segítségével. |
 | [c# PDF konvertálás – PDF konvertálása PDF/X-4-be](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) | Tanulja meg, hogyan konvertálhat PDF fájlokat PDF/X-4 formátumba az Aspose.PDF for .NET segítségével ezzel a lépésről lépésre útmutatóval. |  
@@ -81,10 +82,10 @@ Megtanulod, hogyan adhatsz meg konvertálási beállításokat, hogyan kinyerhet
 | [Bates-számozás hozzáadása DOCX-hez és konvertálás PDF-be – Teljes C# útmutató](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | Tanulja meg, hogyan adhat hozzá Bates-számozást egy DOCX dokumentumhoz, majd konvertálja PDF-be az Aspose.PDF for .NET segítségével C#-ban. |
 | [Dokumentum PDF mentése – Hogyan adjon hozzá ellipszist és konvertáljon DOCX-et PDF-be](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | Tanulja meg, hogyan menthet PDF dokumentumot, ellipszist adhat hozzá, és konvertálhat DOCX fájlokat PDF-be az Aspose.PDF for .NET segítségével. |
 | [Hogyan állíts be ICC-t az Aspose PDF konverzióban – Teljes útmutató](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | Tanulja meg, hogyan állíthat be ICC színprofilokat az Aspose.PDF for .NET konverzió során ebben a részletes útmutatóban. |  
-| [Aspose PDF konverzió C#-ban – Lépésről‑lépésre útmutató](./aspose-pdf-conversion-in-c-step-by-step-guide/) | Tanulja meg, hogyan konvertálhat PDF fájlokat C#‑ban az Aspose.PDF for .NET segítségével ebben a részletes lépésről‑lépésre útmutatóban. |  
+| [Aspose PDF konverzió C#-ban – Lépésről‑lépésre útmutató](./aspose-pdf-conversion-in-c-step-by-step-guide/) | Tanulja meg, hogyan konvertálhat PDF fájlokat C#‑ban az Aspose.PDF for .NET segítségével ebben a részletes lépésről‑lépésre útmutatóban. |
 | [Dokumentum mentése HTML-ként – Teljes C# útmutató a Word HTML-be exportálásához](./save-document-as-html-complete-c-guide-to-export-word-to-htm/) | Tanulja meg, hogyan menthet Word dokumentumot HTML formátumba az Aspose.PDF for .NET segítségével ebben a részletes C# útmutatóban. |
-| [PDF konvertálása PDF/X‑4-re C#‑ban](./how-to-convert-pdf-to-pdf-x-4-in-c-step-by-step-guide/) | Tanulja meg, hogyan konvertálhat PDF fájlokat PDF/X‑4 formátumba C#‑ban az Aspose.PDF for .NET segítségével ezzel a lépésről lépésre útmutatóval. |
-| [ICC profil beállítása Word PDF-re konvertálásakor – Teljes C# útmutató](./set-icc-profile-when-converting-word-to-pdf-complete-c-guide/) | Tanulja meg, hogyan állíthat be ICC profilt a Word dokumentum PDF-re konvertálásakor az Aspose.PDF for .NET segítségével ebben a lépésről lépésre útmutatóban. |
+| [PDF konvertálása PDF/X‑4-re C#‑ban](./how-to-convert-pdf-to-pdf-x-4-in-c-step-by-step-guide/) | Tanulja meg, hogyan konvertálhat PDF fájlokat PDF/X‑4 formátumba C#‑ban az Aspose.PDF for .NET segítségével ezzel a lépésről‑lépésre útmutatóval. |
+| [ICC profil beállítása Word PDF-re konvertálásakor – Teljes C# útmutató](./set-icc-profile-when-converting-word-to-pdf-complete-c-guide/) | Tanulja meg, hogyan állíthat be ICC profilt a Word dokumentum PDF-re konvertálásakor az Aspose.PDF for .NET segítségével ebben a lépésről‑lépésre útmutatóban. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -93,4 +94,3 @@ Megtanulod, hogyan adhatsz meg konvertálási beállításokat, hogyan kinyerhet
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

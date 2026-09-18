@@ -71,6 +71,7 @@ Aspose.PDFs handledningar "Programmering med text" för .NET erbjuder ett omfatt
 | [Text och bild som stycke i PDF-fil](./text-and-image-as-paragraph/) | Skapa PDF-filer med text och bilder med Aspose.PDF för .NET. Lär dig hur du lägger till text och infogade bilder steg för steg. |
 | [Textsegment i PDF-fil](./text-segments/) | Lär dig hur du söker efter specifika textsegment i PDF-filer med hjälp av reguljära uttryck i Aspose.PDF för .NET. |
 | [Använd Latex-skript i PDF-fil](./use-latex-script/) | Lär dig hur du använder Latex-skript för att lägga till matematiska uttryck eller formler i PDF-filer med Aspose.PDF för .NET. |
+| [Skapa sammanfattnings-PDF med Aspose.Pdf.AI i C#](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Lär dig skapa en sammanfattnings-PDF med Aspose.Pdf.AI i C# med steg-för-steg-instruktioner. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

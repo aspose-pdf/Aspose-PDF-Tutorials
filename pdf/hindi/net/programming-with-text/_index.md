@@ -70,7 +70,8 @@ Aspose.PDF के "टेक्स्ट के साथ प्रोग्र�
 | [पीडीएफ फाइल में पैराग्राफ के रूप में पाठ और छवि](./text-and-image-as-paragraph/) | .NET के लिए Aspose.PDF का उपयोग करके टेक्स्ट और छवियों के साथ PDF बनाएँ। चरण-दर-चरण टेक्स्ट और इनलाइन छवियाँ जोड़ना सीखें। |  
 | [पीडीएफ फाइल में पाठ खंड](./text-segments/) | .NET के लिए Aspose.PDF में नियमित अभिव्यक्तियों का उपयोग करके PDF फ़ाइल में विशिष्ट पाठ खंडों की खोज करना सीखें। |  
 | [पीडीएफ फाइल में लेटेक्स स्क्रिप्ट का उपयोग करें](./use-latex-script/) | .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइल में गणितीय अभिव्यक्तियाँ या सूत्र जोड़ने के लिए Latex स्क्रिप्ट का उपयोग करना सीखें। |  
-| [PDF में Bates नंबर जोड़ें – bates numbering pdf](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | .NET के लिए Aspose.PDF का उपयोग करके PDF में Bates नंबर जोड़ना सीखें। कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका। |  
+| [PDF में Bates नंबर जोड़ें – bates numbering pdf](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | .NET के लिए Aspose.PDF का उपयोग करके PDF में Bates नंबर जोड़ना सीखें। कोड उदाहरणों के साथ चरण-दर-स्टेप मार्गदर्शिका। |  
+| [C# में Aspose.Pdf.AI के साथ सारांश PDF कैसे बनाएं](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | C# में Aspose.Pdf.AI का उपयोग करके PDF सारांश बनाने की चरण-दर-चरण गाइड। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

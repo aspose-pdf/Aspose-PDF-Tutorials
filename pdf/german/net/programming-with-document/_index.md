@@ -59,6 +59,7 @@ Die Ressource enthält Tutorials zur Programmierung mit Dokumentfunktion der Asp
 | [Validieren von PDF-Dateien Ein Standard](./validatepdfastandard/) | Erfahren Sie in diesem umfassenden Schritt-für-Schritt-Tutorial, wie Sie PDF-Dateien mit Aspose.PDF für .NET anhand des PDF/A-1a-Standards validieren. |  
 | [Validieren Sie den PDF UA-Standard](./validatepdfuastandard/) | Erfahren Sie mit unserer Schritt-für-Schritt-Anleitung und ausführlichen Erklärungen, wie Sie mit Aspose.PDF für .NET ein PDF für den PDF/UA-Zugänglichkeitsstandard validieren. |  
 | [Wie man PDF-Dateien repariert – Schritt‑für‑Schritt‑Anleitung mit Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Erfahren Sie, wie Sie beschädigte PDF-Dateien mit Aspose.Pdf reparieren – eine detaillierte Schritt‑für‑Schritt‑Anleitung. |
+| [Wie man ein leeres PDF‑Wörterbuch mit Aspose.PDF in C# erstellt](./how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein leeres PDF‑Wörterbuch in C# erstellen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

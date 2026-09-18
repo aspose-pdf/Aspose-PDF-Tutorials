@@ -60,6 +60,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Cara Mengonversi PDF ke PDF/X-4 dengan Aspose – Panduan Langkah demi Langkah](./how-to-convert-pdf-to-pdf-x-4-with-aspose-step-by-step-guide/) | Pelajari cara mengonversi PDF ke PDF/X‑4 menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah. |
 | [Tutorial PDF ke PNG – Mengonversi Halaman PDF ke PNG dalam C#](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Pelajari cara mengonversi halaman PDF menjadi gambar PNG menggunakan Aspose.PDF untuk .NET dengan contoh kode C# langkah demi langkah. |
 | [Cara Mengatur Opsi Konversi PDF di C# – Panduan Aspose](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | Pelajari cara mengatur opsi konversi PDF menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini. |
+| [Cara menyematkan profil ICC dan mengonversi PDF ke PDF/X-1 dengan Aspose.Pdf](./how-to-embed-icc-profile-and-convert-pdf-to-pdf-x-1-with-asp/) | Pelajari cara menyematkan profil ICC ke PDF dan mengonversinya ke PDF/X-1 menggunakan Aspose.Pdf untuk .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -72,9 +73,9 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
+{{< blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
 | [Atur Profil ICC Saat Mengonversi Word ke PDF – Panduan Lengkap C#](./set-icc-profile-when-converting-word-to-pdf-complete-c-guide/) | Pelajari cara mengatur profil ICC saat mengonversi dokumen Word ke PDF menggunakan Aspose.PDF untuk .NET dalam panduan lengkap C# ini. Bahasa Indonesia:  
@@ -100,4 +101,3 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

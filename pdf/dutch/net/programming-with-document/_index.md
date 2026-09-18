@@ -59,6 +59,7 @@ De bron bevat tutorials over de programmeerfunctie met documentfunctionaliteit v
 | [PDF-bestanden valideren Een standaard](./validatepdfastandard/) | Leer hoe u PDF-bestanden kunt valideren tegen de PDF/A-1a-standaard met behulp van Aspose.PDF voor .NET in deze uitgebreide stapsgewijze zelfstudie. |  
 | [Valideer PDF UA-standaard](./validatepdfuastandard/) | Leer hoe u een PDF kunt valideren voor de PDF/UA-toegankelijkheidsstandaard met Aspose.PDF voor .NET met onze stapsgewijze handleiding en gedetailleerde uitleg. |  
 | [PDF-bestanden repareren – Stapsgewijze handleiding met Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Leer hoe u beschadigde PDF-bestanden kunt repareren met Aspose.PDF voor .NET in deze stapsgewijze gids. |
+| [Leeg PDF-woordenboek maken met Aspose.PDF in C#](./how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c/) | Leer hoe u een leeg PDF-woordenboek maakt met Aspose.PDF in C#. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

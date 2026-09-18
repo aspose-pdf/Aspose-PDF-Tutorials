@@ -71,6 +71,7 @@
 | [أجزاء النص في ملف PDF](./text-segments/) |تعرف على كيفية البحث عن أجزاء نصية محددة في ملف PDF باستخدام التعبيرات العادية في Aspose.PDF لـ .NET. |  
 | [استخدام نص لاتكس في ملف PDF](./use-latex-script/) |تعرف على كيفية استخدام البرنامج النصي Latex لإضافة التعبيرات أو الصيغ الرياضية في ملف PDF باستخدام Aspose.PDF لـ .NET. |  
 | [إضافة أرقام بياتس إلى PDF – ترقيم بياتس PDF](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | تعلم كيفية إضافة أرقام بياتس إلى ملفات PDF باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |
+| [كيفية إنشاء ملخص PDF باستخدام Aspose.Pdf.AI في C#](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | تعلم كيفية إنشاء ملف PDF ملخص باستخدام Aspose.Pdf.AI في C# خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
