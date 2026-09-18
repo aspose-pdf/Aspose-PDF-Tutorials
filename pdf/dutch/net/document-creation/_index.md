@@ -87,6 +87,9 @@ Leer hoe u met Aspose.Pdf een PDF-document maakt via een stapsgewijze handleidin
 ### [PDF-document maken – lege pagina toevoegen, rechthoek tekenen en opslaan](./create-pdf-document-add-blank-page-draw-rectangle-save/)
 Leer hoe u een PDF-document maakt, een lege pagina toevoegt, een rechthoek tekent en het bestand opslaat met Aspose.PDF voor .NET.
 
+### [PDF-document maken met Aspose.PDF: een stapsgewijze handleiding](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Leer hoe u met Aspose.PDF een PDF-document maakt, pagina's toevoegt en opslaat in een stapsgewijze handleiding.
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

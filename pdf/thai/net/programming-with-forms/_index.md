@@ -26,7 +26,7 @@
 | [กล่องคอมโบ](./combo-box/) เรียนรู้วิธีการเพิ่ม Combo Box ลงใน PDF โดยใช้ Aspose.PDF สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อสร้างแบบฟอร์ม PDF แบบโต้ตอบได้อย่างง่ายดาย -  
 | [สร้างเอกสาร](./create-doc/) | เรียนรู้การสร้างเอกสาร PDF แบบโต้ตอบพร้อมปุ่มตัวเลือกโดยใช้ Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนที่ครอบคลุมนี้  
 - [ลบฟิลด์ฟอร์มในเอกสาร PDF](./delete-form-field/) | เรียนรู้วิธีการลบฟิลด์ฟอร์มในเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ เหมาะสำหรับนักพัฒนาและผู้ที่ชื่นชอบ PDF -  
-| [กำหนดฟิลด์ที่จำเป็นในแบบฟอร์ม PDF](./determine-required-field/) | เรียนรู้วิธีการกำหนดฟิลด์ที่จำเป็นในแบบฟอร์ม PDF โดยใช้ Aspose.PDF สำหรับ .NET คำแนะนำทีละขั้นตอนของเราช่วยลดความซับซ้อนในการจัดการแบบฟอร์มและปรับปรุงเวิร์กโฟลว์การทำงานอัตโนมัติของ PDF ของคุณ -  
+| [กำหนดฟิลด์ที่จำเป็นในแบบฟอร์ม PDF](./determine-required-field/) | เรียนรู้วิธีการกำหนดฟิลด์ที่จำเป็นในแบบฟอร์ม PDF โดยใช้ Aspose.PDF สำหรับ .NET คำแนะนำทีละขั้นตอนของเราช่วยลดความซับซ้อนในการจัดการแบบฟอร์มและปรับปรุงเวิร์กโฟว์การทำงานอัตโนมัติของ PDF ของคุณ -  
 | [การแปลง XFA แบบไดนามิกเป็น Acro](./dynamic-xfa-to-acro-form/) | เรียนรู้วิธีการแปลงฟอร์ม XFA แบบไดนามิกเป็น AcroForms มาตรฐานโดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนทีละขั้นตอนนี้  
 - [กรอกช่องฟอร์ม PDF](./fill-form-field/) เรียนรู้วิธีการกรอกช่องฟอร์ม PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยบทช่วยสอนแบบทีละขั้นตอนนี้ ทำให้กระบวนการทำงาน PDF ของคุณเป็นแบบอัตโนมัติได้อย่างง่ายดาย -  
 | [กรอก XFAField](./fill-xfafields/) | เรียนรู้วิธีการกรอกฟิลด์ XFA ใน PDF โดยใช้โปรแกรม Aspose.PDF สำหรับ .NET ด้วยบทช่วยสอนแบบทีละขั้นตอนนี้ ค้นพบเครื่องมือจัดการ PDF ที่เรียบง่ายและทรงพลัง -  
@@ -50,6 +50,17 @@
 | [ตั้งค่า Java Script](./set-java-script/) | ปลดล็อกพลังของ Aspose.PDF สำหรับ .NET เรียนรู้วิธีการตั้งค่า JavaScript บนฟิลด์ฟอร์มด้วยคู่มือทีละขั้นตอนของเรา -  
 | [ตั้งค่าคำอธิบายปุ่มตัวเลือก](./set-radio-button-caption/) เรียนรู้วิธีตั้งค่าคำอธิบายปุ่มตัวเลือกใน PDF โดยใช้ Aspose.PDF สำหรับ .NET คำแนะนำทีละขั้นตอนนี้จะแนะนำคุณตลอดการโหลด แก้ไข และบันทึกแบบฟอร์ม PDF ของคุณ -  
 | [กล่องข้อความ](./text-box/) | ค้นพบวิธีการเพิ่มกล่องข้อความลงใน PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ ปรับปรุงการโต้ตอบของผู้ใช้ |  
+| [วิธีสร้าง PDF ด้วย Aspose – เพิ่มฟิลด์ฟอร์มและหน้า](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | เรียนรู้วิธีสร้าง PDF พร้อมเพิ่มฟิลด์ฟอร์มและหน้าต่างๆ ด้วย Aspose.NET ในบทช่วยสอนนี้ |  
+| [สร้างเอกสาร PDF พร้อมหลายวิดเจ็ต – คู่มือทีละขั้นตอน](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) | เรียนรู้วิธีสร้างเอกสาร PDF ที่มีหลายวิดเจ็ตแบบโต้ตอบโดยใช้ Aspose.PDF สำหรับ .NET ผ่านคู่มือทีละขั้นตอนนี้ |  
+| [สร้าง PDF พร้อมหน้าและฟิลด์กล่องข้อความ – คู่มือ C# เต็มรูปแบบ](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | เรียนรู้วิธีสร้าง PDF พร้อมหน้าและฟิลด์กล่องข้อความโดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือ C# ขั้นตอนเต็ม -  |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 - [วิธีสร้าง PDF ด้วย Aspose – เพิ่มฟิลด์ลงในคอลเลกชัน](./how-to-create-pdf-with-aspose-add-field-to-collection/) | เรียนรู้วิธีเพิ่มฟิลด์ลงในคอลเลกชันของ PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านขั้นตอนที่เข้าใจง่าย |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -59,7 +70,6 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-| [วิธีสร้าง PDF ด้วย Aspose – เพิ่มฟิลด์ฟอร์มและหน้า](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | เรียนรู้วิธีสร้าง PDF พร้อมเพิ่มฟิลด์ฟอร์มและหน้าต่างๆ ด้วย Aspose.NET ในบทช่วยสอนนี้ |  
 | [สร้างเอกสาร PDF พร้อมหลายวิดเจ็ต TextBox – คู่มือทีละขั้นตอน](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | เรียนรู้วิธีสร้าง PDF ที่มีหลาย TextBox widget ด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือทีละขั้นตอนนี้ |  
 | [เพิ่มหมายเลข Bates ให้กับ PDF – คู่มือขั้นตอนโดยขั้นตอน C#](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | เรียนรู้วิธีเพิ่มหมายเลข Bates ลงในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือขั้นตอนโดยขั้นตอนนี้ |  
 | [วิธีเพิ่มกล่องข้อความใน PDF – สร้างฟิลด์ฟอร์ม PDF และบันทึกเอกสาร PDF ที่แก้ไข](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | เรียนรู้วิธีเพิ่มกล่องข้อความในฟอร์ม PDF สร้างฟิลด์และบันทึกไฟล์ PDF ที่แก้ไขด้วย Aspose.PDF สำหรับ .NET |  
@@ -71,3 +81,4 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+

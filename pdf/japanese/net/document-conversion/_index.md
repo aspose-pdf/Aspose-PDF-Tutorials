@@ -56,6 +56,18 @@ Aspose.PDF の .NET 向けドキュメント変換チュートリアルでは、
 | [XMLからPDFへ](./xml-to-pdf/) コード例と詳細な説明を含む包括的なステップバイステップのチュートリアルで、Aspose.PDF for .NET を使用して XML を PDF に変換する方法を学習します。 |  
 | [XMLからPDFへの画像パスの設定](./xml-to-pdfset-image-path/) Aspose.PDF for .NET を使って、XML を PDF に簡単に変換する方法を学びましょう。この詳細なガイドでは、セットアップから完了まで、プロセスをステップごとに詳しく説明します。 |  
 | [XPSからPDFへ](./xps-to-pdf/) Aspose.PDF for .NET を使用してXPSファイルをPDFに変換する方法を、ステップバイステップのチュートリアルで学びましょう。開発者やドキュメント作成に興味のある方に最適です。 |  
+| [C#でPDFをPDF/X‑4に変換 – ステップバイステップ ASP.NET PDF チュートリアル](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) PDF を PDF/X‑4 形式に変換する方法を、C# と Aspose.PDF for .NET で学びます。 |
+| [Aspose で PDF を PDF/X‑4 に変換する方法 – ステップバイステップ ガイド](./how-to-convert-pdf-to-pdf-x-4-with-aspose-step-by-step-guide/) Aspose.PDF for .NET を使用して、PDF を PDF/X‑4 形式に変換する手順を詳しく解説します。 |
+| [PDFからPNGへのチュートリアル – C#でPDFページをPNGに変換](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) Aspose.PDF for .NET を使用して、C#でPDFページをPNG画像に変換する方法をステップバイステップで解説します。 |
+| [C# で PDF 変換オプションを設定する方法 – Aspose ガイド](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) Aspose.PDF for .NET を使用して C# で PDF 変換時のオプション設定方法をステップバイステップで解説します。 |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 | [Aspose PDF 変換: C# で PDF を PDF/X‑4 に変換](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) Aspose.PDF for .NET を使用して、PDF を PDF/X‑4 形式に変換する手順をステップバイステップで学びます。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -71,9 +83,6 @@ Aspose.PDF の .NET 向けドキュメント変換チュートリアルでは、
 | [C# で PDF から HTML を作成 – 完全ステップバイステップ ガイド](./create-html-from-pdf-in-c-complete-step-by-step-guide/) Aspose.PDF for .NET を使用して、C# で PDF から HTML を生成する方法をステップバイステップで解説します。 |  
 | [C# で PDF を PDF/X‑4 に変換する方法 – ステップバイステップ ガイド](./how-to-convert-pdf-to-pdf-x-4-in-c-step-by-step-guide/) Aspose.PDF for .NET を使用して、C# で PDF を PDF/X‑4 形式に変換する手順を解説します。 |  
 | [ICCプロファイルを追加し、PDFをPDF/X‑4に変換する – C# ガイド](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) Aspose.PDF for .NET を使用して、PDFにICCプロファイルを追加し、PDF/X‑4 形式に変換する方法をステップバイステップで解説します。 |  
-| [C#でPDFをPDF/X‑4に変換 – ステップバイステップ ASP.NET PDF チュートリアル](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) PDF を PDF/X‑4 形式に変換する方法を、C# と Aspose.PDF for .NET で学びます。 |  
-| [PDFからPNGへのチュートリアル – C#でPDFページをPNGに変換](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) Aspose.PDF for .NET を使用して、C#でPDFページをPNG画像に変換する方法をステップバイステップで解説します。 |  
-
 | [C# での Aspose PDF から HTML への変換 – 完全ガイド](./aspose-pdf-to-html-conversion-in-c-complete-guide/) Aspose.PDF for .NET を使用して C# で PDF を HTML に変換する方法をステップバイステップで解説します。 |  
 | [PDFドキュメントの読み込み（C#） – PDF/X-4 へ変換するステップバイステップ ガイド](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) Aspose.PDF for .NET を使用して C# で PDF を読み込み、PDF/X-4 形式に変換する方法をステップバイステップで解説します。 |  
 
@@ -92,3 +101,4 @@ Aspose.PDF の .NET 向けドキュメント変換チュートリアルでは、
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+

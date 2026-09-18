@@ -85,6 +85,9 @@ Aprenda a adicionar numeração Bates a documentos PDF usando Aspose.PDF para .N
 ### [Crie documento PDF – adicione página em branco, desenhe retângulo e salve](./create-pdf-document-add-blank-page-draw-rectangle-save/)
 Aprenda a criar um documento PDF, inserir uma página em branco, desenhar um retângulo e salvar o arquivo usando Aspose.PDF para .NET.
 
+### [Criar documento PDF com Aspose.PDF – Guia passo a passo](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Aprenda a criar documentos PDF passo a passo com Aspose.PDF para .NET, cobrindo configuração, adição de conteúdo e salvamento.
+
 ## Recursos adicionais
 
 - [Aspose.PDF para documentação da Net](https://docs.aspose.com/pdf/net/)

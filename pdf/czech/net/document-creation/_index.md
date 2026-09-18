@@ -88,6 +88,9 @@ Naučte se, jak vytvořit PDF dokument pomocí Aspose.Pdf pomocí podrobného kr
 ### [Vytvořte PDF dokument – přidejte prázdnou stránku, nakreslete obdélník a uložte](./create-pdf-document-add-blank-page-draw-rectangle-save/)
 Naučte se, jak pomocí Aspose.PDF pro .NET přidat prázdnou stránku, nakreslit obdélník a uložit PDF dokument.
 
+### [Vytvořte PDF dokument s Aspose.PDF – krok za krokem průvodce](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Naučte se, jak krok po kroku vytvořit PDF dokument, přidat stránku, tvar a uložit soubor pomocí Aspose.PDF.
+
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)

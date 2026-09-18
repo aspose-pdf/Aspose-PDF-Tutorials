@@ -49,6 +49,15 @@ Un tutoriel de code pour Aspose.PDF Net
 ### [Maîtriser Aspose.PDF .NET : Comment vérifier les signatures numériques dans les fichiers PDF](./aspose-pdf-net-verify-digital-signature/)
 Découvrez comment vérifier les signatures numériques des fichiers PDF avec Aspose.PDF pour .NET. Assurez l'intégrité et l'authenticité de vos documents grâce à notre guide étape par étape.
 
+### [Vérifier la signature PDF en C# – Guide complet pour valider la signature numérique PDF](./verify-pdf-signature-in-c-complete-guide-to-validate-digital/)
+Apprenez à valider les signatures numériques des fichiers PDF en C# avec Aspose.PDF, étape par étape.
+
+### [Vérifier la signature PDF en C# avec Aspose.PDF – Guide complet](./check-pdf-signature-in-c-with-aspose-pdf-full-guide/)
+Apprenez à vérifier les signatures PDF en C# à l'aide d'Aspose.PDF grâce à ce guide complet et détaillé.
+
+### [Comment vérifier la signature PDF en C# – Guide complet étape par étape](./how-to-verify-pdf-signature-in-c-complete-step-by-step-guide/)
+Apprenez à vérifier la signature d'un PDF en C# avec Aspose.PDF grâce à un guide complet et détaillé.
+
 ### [Vérifier la signature PDF en C# – Guide étape par étape](./verify-pdf-signature-in-c-step-by-step-guide/)
 Apprenez à vérifier les signatures PDF en C# avec un guide détaillé étape par étape.
 
@@ -64,8 +73,6 @@ Apprenez à extraire les noms des signatures PDF à l'aide de C# avec Aspose.PDF
 ### [Comment vérifier la signature PDF en C# – Tutoriel complet étape par étape](./how-to-verify-pdf-signature-in-c-complete-step-by-step-tutor/)
 Apprenez à vérifier les signatures PDF en C# avec un guide détaillé, incluant du code complet et des explications pas à pas.
 
-### [Vérifier la signature PDF en C# – Guide complet pour valider la signature numérique PDF](./verify-pdf-signature-in-c-complete-guide-to-validate-digital/)
-Apprenez à valider les signatures numériques des fichiers PDF en C# avec Aspose.PDF, étape par étape.
 ### [Charger un document PDF C# – Convertir en PDF/X‑4 et lister les signatures](./load-pdf-document-c-convert-to-pdf-x-4-list-signatures/)
 Apprenez à charger un PDF, le convertir au format PDF/X‑4 et à répertorier les signatures numériques à l'aide d'Aspose.PDF pour .NET.
 ### [Valider la signature PDF avec Aspose – Convertir le PDF en HTML](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)

@@ -49,6 +49,15 @@
 ### [Mastering Aspose.PDF .NET: Πώς να επαληθεύσετε ψηφιακές υπογραφές σε αρχεία PDF](./aspose-pdf-net-verify-digital-signature/)
 Μάθετε πώς να επαληθεύετε τις ψηφιακές υπογραφές σε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET. Διασφαλίστε την ακεραιότητα και την αυθεντικότητα του εγγράφου με τον αναλυτικό μας οδηγό.
 
+### [Επαλήθευση υπογραφής PDF σε C# – Πλήρης Οδηγός για την Επικύρωση Ψηφιακής Υπογραφής PDF](./verify-pdf-signature-in-c-complete-guide-to-validate-digital/)
+Μάθετε πώς να επαληθεύετε υπογραφές PDF σε C# με το Aspose.PDF για .NET.
+
+### [Έλεγχος υπογραφής PDF σε C# με το Aspose.PDF – Πλήρης Οδηγός](./check-pdf-signature-in-c-with-aspose-pdf-full-guide/)
+Μάθετε πώς να ελέγξετε υπογραφές PDF σε C# χρησιμοποιώντας το Aspose.PDF, με βήμα-βήμα οδηγίες και παραδείγματα κώδικα.
+
+### [Πώς να επαληθεύσετε την υπογραφή PDF σε C# – Πλήρης Οδηγός βήμα‑βήμα](./how-to-verify-pdf-signature-in-c-complete-step-by-step-guide/)
+Μάθετε πώς να επαληθεύσετε την υπογραφή PDF σε C# με οδηγίες βήμα‑βήμα χρησιμοποιώντας το Aspose.PDF για .NET.
+
 ### [Επαλήθευση υπογραφής PDF σε C# – Οδηγός βήμα προς βήμα](./verify-pdf-signature-in-c-step-by-step-guide/)
 Μάθετε πώς να επαληθεύετε υπογραφές PDF σε C# με βήμα‑βήμα οδηγίες.
 
@@ -64,8 +73,6 @@
 ### [Πώς να επαληθεύσετε υπογραφή PDF σε C# – Πλήρης οδηγός βήμα‑βήμα](./how-to-verify-pdf-signature-in-c-complete-step-by-step-tutor/)
 Μάθετε πώς να επαληθεύσετε υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF, με πλήρη βήματα και παραδείγματα κώδικα.
 
-### [Επαλήθευση υπογραφής PDF σε C# – Πλήρης Οδηγός για την Επικύρωση Ψηφιακής Υπογραφής PDF](./verify-pdf-signature-in-c-complete-guide-to-validate-digital/)
-Μάθετε πώς να επαληθεύετε υπογραφές PDF σε C# με το Aspose.PDF για .NET.
 ### [Φόρτωση εγγράφου PDF C# – Μετατροπή σε PDF/X‑4 & Λίστα υπογραφών](./load-pdf-document-c-convert-to-pdf-x-4-list-signatures/)
 Μάθετε πώς να φορτώνετε ένα PDF, να το μετατρέπετε σε PDF/X‑4 και να εμφανίζετε τις υπογραφές του με C#.
 ### [Επικύρωση υπογραφής PDF με το Aspose – Μετατροπή PDF σε HTML](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)

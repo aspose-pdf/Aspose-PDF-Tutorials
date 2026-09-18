@@ -88,6 +88,9 @@ Aspose.PDF を活用して、.NET アプリケーションで PDF ドキュメ�
 ### [PDF ドキュメントの作成 – 空白ページを追加し、矩形を描画して保存](./create-pdf-document-add-blank-page-draw-rectangle-save/)
 Aspose.PDF for .NET を使用して、空白ページを追加し、矩形を描画して PDF を保存する方法をステップバイステップで解説します。
 
+### [Aspose.PDF を使用して PDF ドキュメントを作成 – ステップバイステップ ガイド](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Aspose.PDF を使い、テキストや画像を含む PDF ドキュメントをステップバイステップで作成する方法を解説します。
+
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)

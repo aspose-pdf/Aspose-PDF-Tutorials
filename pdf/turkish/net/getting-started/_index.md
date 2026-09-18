@@ -16,7 +16,6 @@
 Yolculuğunuza, kurulum, lisans yapılandırması ve .NET'te ilk PDF belgelerinizi oluşturma konusunda size yol gösterecek bu temel Aspose.PDF eğitimleriyle başlayın. Başlangıç seviyesindekilere uygun kılavuzlarımız, geliştirme ortamınızı nasıl kuracağınızı, Aspose.PDF kitaplığını nasıl başlatacağınızı ve temel PDF işlemlerini nasıl gerçekleştireceğinizi gösterir. Temel konularda hızla ustalaşmak ve .NET uygulamalarınızda daha gelişmiş PDF düzenleme görevlerine hazırlanmak için bu eğitimleri izleyin.
 
 ## Mevcut Eğitimler
-
 ### [Aspose.PDF ile Ölçülü Lisans ve PDF Sayfa Sayısını Uygulama](./aspose-pdf-net-metered-license-page-count/)
 Aspose.PDF Net için bir kod öğreticisi
 
@@ -31,6 +30,9 @@ Aspose.PDF Net için bir kod öğreticisi
 
 ### [.NET'te Dosyadan Aspose.PDF Lisansını Yükleme: Kapsamlı Bir Kılavuz](./load-aspose-pdf-license-file-net/)
 .NET'te Aspose.PDF için deneme ve lisanslı modlar arasında sorunsuz bir şekilde geçiş yapmayı öğrenmek için bir lisans dosyası yükleyin ve uygulamanın sorunsuz çalışmasını sağlayın.
+
+### [PowerShell ile NuGet Paketi Kurulumunu Doğrulama](./how-to-verify-installation-of-a-nuget-package-with-powershel/)
+PowerShell kullanarak bir NuGet paketinin doğru kurulduğunu nasıl kontrol edeceğinizi adım adım öğrenin.
 
 ### [Aspose Nasıl Kurulur – Belirli Sürümler İçin PowerShell Kılavuzu](./how-to-install-aspose-powershell-guide-for-specific-versions/)
 Belirli Aspose sürümlerini PowerShell kullanarak nasıl kuracağınızı adım adım öğrenin.

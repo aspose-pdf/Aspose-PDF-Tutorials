@@ -86,6 +86,9 @@ Aspose.Pdf का उपयोग करके .NET में PDF दस्त�
 ### [PDF दस्तावेज़ बनाएं – खाली पृष्ठ जोड़ें, आयत बनाएं और सहेजें](./create-pdf-document-add-blank-page-draw-rectangle-save/)
 Aspose.PDF .NET का उपयोग करके नया PDF बनाएं, खाली पृष्ठ जोड़ें, आयत बनाएं और फ़ाइल सहेजें।
 
+### [Aspose.PDF के साथ PDF दस्तावेज़ बनाएं – चरण‑दर‑चरण मार्गदर्शिका](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Aspose.PDF का उपयोग करके PDF दस्तावेज़ बनाने के चरण‑दर‑चरण निर्देश।
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.PDF for Net दस्तावेज़ीकरण](https://docs.aspose.com/pdf/net/)

@@ -102,6 +102,9 @@
 ### [Δημιουργία εγγράφου PDF C# – Οδηγός προσθήκης αριθμησης Bates](./create-pdf-document-c-add-bates-numbering-guide/)
 Μάθετε πώς να προσθέσετε αριθμητική Bates σε PDF με το Aspose.PDF για .NET σε C#.
 
+### [Δημιουργία εγγράφου PDF με Aspose.PDF – Οδηγός βήμα προς βήμα](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε ένα έγγραφο PDF, προσθέτοντας σελίδες, σχήματα και αποθηκεύοντάς το με το Aspose.PDF.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.PDF για τεκμηρίωση δικτύου](https://docs.aspose.com/pdf/net/)

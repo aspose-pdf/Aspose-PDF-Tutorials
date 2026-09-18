@@ -164,6 +164,9 @@ Aspose.PDF Net 代码教程
 ### [使用 Aspose.PDF for .NET 为带标签的 PDF 文件添加文本样式 | 无障碍美观的 PDF 创建指南](./style-text-tagged-pdfs-aspose-pdf-net/)
 学习如何使用 Aspose.PDF for .NET 为带标签的 PDF 文档添加文本样式。本指南涵盖安装、技巧和实际应用，以增强可访问性。
 
+### [使用 Aspose.PDF 对 PDF 进行编辑（遮蔽）——分步指南](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
+了解如何使用 Aspose.PDF for .NET 对 PDF 文档进行敏感信息遮蔽，包括文本和图像的删除与隐藏，确保文档安全合规。
+
 ## 其他资源
 
 - [Aspose.PDF 用于网络文档](https://docs.aspose.com/pdf/net/)

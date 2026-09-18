@@ -16,7 +16,6 @@
 Lär dig skapa PDF-dokument med arkivkvalitet med våra omfattande Aspose.PDF-handledningar för PDF/A-efterlevnad i .NET. Dessa detaljerade guider visar hur du skapar PDF/A-1b-, PDF/A-2b- och PDF/A-3b-kompatibla dokument, validerar befintliga PDF-filer mot efterlevnadsstandarder, konverterar standard-PDF-filer till arkivformat och felsöker vanliga efterlevnadsproblem. Varje handledning ger fungerande C#-kodexempel för arkivdokumentscenarier, vilket hjälper dig att bygga applikationer som producerar långsiktigt bevarande av dokument som uppfyller internationella standarder.
 
 ## Tillgängliga handledningar
-
 ### [Aspose.PDF .NET: Lägg till bilagor och konvertera till PDF/A](./aspose-pdf-net-add-attachments-convert-pdfa/)
 En kodhandledning för Aspose.PDF Net
 
@@ -37,6 +36,9 @@ Lär dig hur du validerar PDF/A-1a-efterlevnad med Aspose.PDF för .NET. Den hä
 
 ### [Behärska PDF/A-validering med Aspose.PDF för .NET i C#](./master-pdfa-validation-aspose-pdf-net/)
 Lär dig hur du validerar PDF-dokument mot PDF/A-standarder med Aspose.PDF .NET. Säkerställ efterlevnad och förbättra dokumentens tillförlitlighet med vår steg-för-steg-guide.
+
+### [Konvertera PDF till PDF/A i C# – Steg‑för‑steg‑guide](./convert-pdf-to-pdf-a-in-c-step-by-step-guide/)
+Lär dig hur du konverterar PDF-filer till PDF/A-format med C# och Aspose.PDF .NET i en detaljerad steg-för-steg-guide.
 
 ### [Skapa PDF/A-fil i C# – Fullständig konverteringshandledning](./create-pdf-a-file-in-c-full-conversion-tutorial/)
 Lär dig steg för steg hur du skapar PDF/A-filer i C# med en komplett konverteringsprocess.

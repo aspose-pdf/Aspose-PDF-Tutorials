@@ -29,11 +29,21 @@ Az oktatóanyag részletes áttekintést nyújt a PDF-fájlok titkosságának é
 | [PDF fájl titkosítása](./encrypt/) | Tanulja meg, hogyan titkosíthatja könnyedén PDF-fájljait az Aspose.PDF for .NET segítségével. Védje bizalmas adatait egyszerű, lépésről lépésre szóló útmutatónkkal. |  
 | [Kép kibontása](./extracting-image/) | Tanulja meg egyszerűen, hogyan kinyerhet képeket PDF-ekből az Aspose.PDF for .NET segítségével. Kövesse lépésről lépésre szóló útmutatónkat a zökkenőmentes képkinyeréshez. |  
 | [Aláírási információk kinyerése](./extract-signature-info/) | Ismerje meg, hogyan kinyerhet digitális aláírásokat és tanúsítványinformációkat PDF dokumentumokból az Aspose.PDF for .NET segítségével. Teljes körű, lépésről lépésre útmutató C# fejlesztőknek. |  
-| [PDF aláírás ellenőrzése C#‑ban – Teljes lépésről‑lépésre útmutató](./verify-pdf-signature-in-c-complete-step-by-step-guide/) | Ismerje meg, hogyan ellenőrizheti a PDF aláírásokat C#‑ban az Aspose.PDF for .NET segítségével, lépésről‑lépésre útmutató. |  
 | [Jelszóval védett](./is-password-protected/) Ebben az átfogó, lépésről lépésre szóló útmutatóban megtudhatja, hogyan ellenőrizheti, hogy egy PDF jelszóval védett-e az Aspose.PDF for .NET segítségével. |  
 | [Jogosultságok beállítása PDF fájlban](./set-privileges/) | Tanulja meg, hogyan állíthat be PDF-jogosultságokat az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Biztosítsa dokumentumai hatékony védelmét. |  
 | [Aláírás intelligens kártyával PDF fájl aláírásával](./sign-with-smart-card-using-pdf-file-signature/) | Ismerje meg, hogyan írhat alá PDF-fájlokat intelligens kártyával az Aspose.PDF for .NET segítségével. Kövesse ezt a lépésről lépésre szóló útmutatót a biztonságos digitális aláírásokhoz. |  
 | [Aláírás intelligens kártyával az aláírásmező használatával](./sign-with-smart-card-using-signature-field/) | Ismerje meg, hogyan írhat alá biztonságosan PDF-fájlokat intelligens kártya használatával az Aspose.PDF for .NET segítségével. Kövesse lépésről lépésre szóló útmutatónkat az egyszerű megvalósítás érdekében. |  
+| [PDF aláírások ellenőrzése C#-ban – Hogyan olvassuk be az aláírt PDF fájlokat](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Ismerje meg, hogyan ellenőrizheti és olvashatja a PDF dokumentumok digitális aláírásait C#-ban az Aspose.PDF for .NET segítségével. |
+| [PDF ellenőrzése aláírásokért – Hogyan listázzuk az aláírásokat C#-ban az Aspose.PDF használatával](./check-pdf-for-signatures-how-to-list-signatures-in-c-with-as/) | Ismerje meg, hogyan listázhatja a PDF aláírásait C#-ban az Aspose.PDF for .NET segítségével. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+| [PDF aláírás ellenőrzése C#‑ban – Teljes lépésről‑lépésre útmutató](./verify-pdf-signature-in-c-complete-step-by-step-guide/) | Ismerje meg, hogyan ellenőrizheti a PDF aláírásokat C#‑ban az Aspose.PDF for .NET segítségével, lépésről‑lépésre útmutató. |  
 | [Aláírt PDF megnyitása – Digitális aláírások olvasása](./open-signed-pdf-how-to-read-its-digital-signatures/) | Ismerje meg, hogyan nyithat meg aláírt PDF fájlokat és olvashatja ki digitális aláírásaikat az Aspose.PDF for .NET segítségével. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -45,7 +55,6 @@ Az oktatóanyag részletes áttekintést nyújt a PDF-fájlok titkosságának é
 {{< blocks/products/products-backtop-button >}}
 | [PDF aláírás ellenőrzése az Aspose.Pdf segítségével – Lépésről lépésre útmutató](./verify-pdf-signature-with-aspose-pdf-step-by-step-guide/) | Ismerje meg, hogyan ellenőrizheti a PDF aláírások hitelességét az Aspose.PDF for .NET használatával, részletes lépésről lépésre útmutató. |  
 | [Aláírások ellenőrzése PDF-ben az Aspose segítségével – C# oktatóanyag](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) | Ismerje meg, hogyan ellenőrizheti a PDF aláírásokat az Aspose.PDF for .NET segítségével. Lépésről lépésre útmutató C# fejlesztőknek. |  
-| [PDF aláírások ellenőrzése C#-ban – Hogyan olvassuk be az aláírt PDF fájlokat](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Ismerje meg, hogyan ellenőrizheti és olvashatja a PDF dokumentumok digitális aláírásait C#-ban az Aspose.PDF for .NET segítségével. |
 | [PDF fájlok javítása – Teljes C# útmutató az Aspose.Pdf segítségével](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Ismerje meg, hogyan javíthatja meg a hibás PDF fájlokat C#-ban az Aspose.PDF segítségével. |
 | [PDF aláírás ellenőrzése C#-ban – Teljes programozási útmutató](./verify-pdf-signature-in-c-complete-programming-guide/) | Ismerje meg, hogyan ellenőrizheti a PDF aláírásokat C#-ban az Aspose.PDF for .NET segítségével, lépésről lépésre útmutató. |
 | [Hogyan ellenőrizze a PDF aláírásokat C#‑ban – Teljes lépésről‑lépésre útmutató](./how-to-verify-pdf-signatures-in-c-complete-step-by-step-guid/) | Ismerje meg, hogyan ellenőrizheti a PDF aláírásokat C#‑ban az Aspose.PDF for .NET segítségével, lépésről‑lépésre útmutató. |
@@ -67,3 +76,4 @@ Az oktatóanyag részletes áttekintést nyújt a PDF-fájlok titkosságának é
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+

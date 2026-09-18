@@ -16,7 +16,6 @@
 설치, 라이선스 구성, 그리고 .NET에서 첫 PDF 문서 생성까지 안내하는 필수 Aspose.PDF 튜토리얼로 여정을 시작하세요. 초보자를 위한 가이드는 개발 환경 설정, Aspose.PDF 라이브러리 초기화, 그리고 기본적인 PDF 작업 수행 방법을 보여줍니다. 이 튜토리얼을 따라 .NET 애플리케이션에서 기본 사항을 빠르게 익히고 고급 PDF 조작 작업을 준비하세요.
 
 ## 사용 가능한 튜토리얼
-
 ### [Aspose.PDF를 사용하여 미터드 라이선스 및 PDF 페이지 수 적용](./aspose-pdf-net-metered-license-page-count/)
 Aspose.PDF Net에 대한 코드 튜토리얼
 
@@ -31,6 +30,9 @@ Aspose.PDF Net에 대한 코드 튜토리얼
 
 ### [.NET에서 파일에서 Aspose.PDF 라이선스 로드: 포괄적인 가이드](./load-aspose-pdf-license-file-net/)
 라이선스 파일을 로드하여 .NET에서 Aspose.PDF의 평가판과 라이선스 모드 사이를 원활하게 전환하는 방법을 알아보고, 원활한 애플리케이션 기능을 보장합니다.
+
+### [PowerShell을 사용하여 NuGet 패키지 설치 확인 방법](./how-to-verify-installation-of-a-nuget-package-with-powershel/)
+PowerShell 명령을 사용해 NuGet 패키지가 올바르게 설치되었는지 확인하는 단계별 가이드입니다.
 
 ### [Aspose 설치 방법 – 특정 버전을 위한 PowerShell 가이드](./how-to-install-aspose-powershell-guide-for-specific-versions/)
 특정 Aspose 버전을 PowerShell로 설치하는 단계별 가이드

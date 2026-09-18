@@ -88,6 +88,9 @@ Ismerje meg, hogyan hozhat létre PDF dokumentumot az Aspose.Pdf könyvtárral .
 ### [PDF dokumentum létrehozása – Üres oldal hozzáadása, téglalap rajzolása és mentés](./create-pdf-document-add-blank-page-draw-rectangle-save/)
 Ismerje meg, hogyan hozhat létre PDF dokumentumot, adhat hozzá üres oldalt, rajzolhat téglalapot, majd mentheti azt az Aspose.PDF for .NET segítségével.
 
+### [PDF dokumentum létrehozása az Aspose.PDF segítségével – Lépésről‑lépésre útmutató](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Tanulja meg, hogyan hozhat létre PDF dokumentumot az Aspose.PDF segítségével lépésről‑lépésre.
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)

@@ -48,6 +48,7 @@ Aspose.PDF for .NET 的“使用标签 PDF 进行编程”教程将指导您如�
 | [验证 PDF 文件](./validate-pdf/) 了解如何使用 Aspose.PDF for .NET 验证 PDF 文件。检查其是否符合标准并生成验证报告。|  
 | [如何使用 Aspose 标记 PDF – PDF 可访问性标签完整指南](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) 本完整指南教您使用 Aspose.PDF for .NET 为 PDF 添加可访问性标签，提升文档可访问性。|  
 | [在 C# 中创建带标签的 PDF – 完整分步指南](./create-tagged-pdf-in-c-complete-step-by-step-guide/) 通过本完整的分步指南，学习如何使用 Aspose.PDF for .NET 在 C# 中创建符合 PDF/UA 标准的带标签 PDF 文档。|  
+| [在 C# 中创建带标签 PDF – Aspose PDF 完整指南](./create-tagged-pdf-in-c-aspose-pdf-complete-guide/) 本完整指南详细说明了如何使用 Aspose.PDF for .NET 在 C# 中创建符合 PDF/UA 标准的带标签 PDF。|  
 
 | [在 C# 中创建带标签的 PDF – 添加标题和可访问文本](./create-tagged-pdf-in-c-add-heading-accessible-text/) 通过本分步教程学习如何在 C# 中为 PDF 添加标题和可访问文本，以提升可访问性。|  
 

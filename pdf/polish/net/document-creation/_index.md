@@ -88,6 +88,9 @@ Dowiedz się, jak tworzyć dokumenty PDF przy użyciu Aspose.Pdf, krok po kroku,
 ### [Utwórz dokument PDF – dodaj pustą stronę, narysuj prostokąt i zapisz](./create-pdf-document-add-blank-page-draw-rectangle-save/)
 Dowiedz się, jak w Aspose.PDF dla .NET utworzyć dokument PDF, dodać pustą stronę, narysować prostokąt i zapisać plik.
 
+### [Utwórz dokument PDF przy użyciu Aspose.PDF – przewodnik krok po kroku](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Dowiedz się, jak krok po kroku utworzyć dokument PDF przy użyciu Aspose.PDF w .NET.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

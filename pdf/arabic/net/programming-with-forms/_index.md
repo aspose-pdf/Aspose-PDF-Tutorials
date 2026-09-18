@@ -50,6 +50,17 @@
 | [تعيين جافا سكريبت](./set-java-script/) | استغل قوة Aspose.PDF لـ .NET. تعلّم كيفية إعداد JavaScript في حقول النماذج من خلال دليلنا المفصل. |  
 | [تعيين تسمية توضيحية لأزرار الراديو](./set-radio-button-caption/) تعرّف على كيفية ضبط تسميات أزرار الاختيار في ملفات PDF باستخدام Aspose.PDF لـ .NET. يرشدك هذا الدليل خطوة بخطوة خلال تحميل نماذج PDF وتعديلها وحفظها.  
 | [مربع النص](./text-box/) اكتشف كيفية إضافة مربعات نصية بسهولة إلى ملفات PDF باستخدام Aspose.PDF لـ .NET من خلال هذا الدليل المفصل. حسّن تفاعل المستخدم.  
+| [كيفية إنشاء PDF باستخدام Aspose – إضافة حقل نموذج وصفحات](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) تعلم كيفية إنشاء مستند PDF وإضافة حقول نموذجية وصفحات باستخدام Aspose.PDF لـ .NET خطوة بخطوة.  
+| [إنشاء مستند PDF مع عدة أدوات – دليل خطوة بخطوة](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) تعلم كيفية إنشاء مستند PDF يحتوي على عدة أدوات تفاعلية خطوة بخطوة باستخدام Aspose.PDF لـ .NET.  
+| [إنشاء PDF مع صفحات وحقول مربعات النص – دليل C# كامل](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) تعلم كيفية إنشاء مستند PDF يحتوي على صفحات وحقول مربعات نصية باستخدام C# ومكتبة Aspose.PDF خطوة بخطوة.  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 | [كيفية إنشاء PDF باستخدام Aspose – إضافة حقل إلى مجموعة](./how-to-create-pdf-with-aspose-add-field-to-collection/) تعرّف على كيفية إضافة حقل إلى مجموعة في مستند PDF باستخدام Aspose.PDF لـ .NET خطوة بخطوة.  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -59,7 +70,6 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-| [كيفية إنشاء PDF باستخدام Aspose – إضافة حقل نموذج وصفحات](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) تعلم كيفية إنشاء مستند PDF وإضافة حقول نموذجية وصفحات باستخدام Aspose.PDF لـ .NET خطوة بخطوة.  
 | [كيفية إضافة مربع نص إلى PDF – إنشاء حقل نموذج PDF وحفظ المستند المُعدل](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) تعلم كيفية إضافة مربع نص إلى نموذج PDF وحفظ المستند بعد التعديل باستخدام Aspose.PDF لـ .NET خطوة بخطوة.  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -69,3 +79,4 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+

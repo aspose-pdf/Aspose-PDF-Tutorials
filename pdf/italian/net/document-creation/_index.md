@@ -88,6 +88,9 @@ Scopri come creare documenti PDF da zero utilizzando Aspose.Pdf con una guida pa
 ### [Creare documento PDF – Aggiungere pagina vuota, disegnare rettangolo e salvare](./create-pdf-document-add-blank-page-draw-rectangle-save/)
 Impara a creare un PDF, aggiungere una pagina vuota, disegnare un rettangolo e salvare il documento usando Aspose.PDF per .NET.
 
+### [Crea documento PDF con Aspose.PDF – Guida passo passo](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Scopri come creare un documento PDF da zero utilizzando Aspose.PDF per .NET con questa guida dettagliata passo passo.
+
 ## Risorse aggiuntive
 
 - [Aspose.PDF per la documentazione di rete](https://docs.aspose.com/pdf/net/)

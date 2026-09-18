@@ -33,6 +33,16 @@
 - [ตั้งค่าสิทธิ์ในไฟล์ PDF](./set-privileges/) | เรียนรู้วิธีตั้งค่าสิทธิ์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ รักษาความปลอดภัยเอกสารของคุณอย่างมีประสิทธิภาพ -  
 | [ลงนามด้วยสมาร์ทการ์ดโดยใช้ลายเซ็นไฟล์ PDF](./sign-with-smart-card-using-pdf-file-signature/) | เรียนรู้วิธีลงนามไฟล์ PDF โดยใช้สมาร์ทการ์ดด้วย Aspose.PDF สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อลายเซ็นดิจิทัลที่ปลอดภัย -  
 | [ลงนามด้วยสมาร์ทการ์ดโดยใช้ช่องลายเซ็น](./sign-with-smart-card-using-signature-field/) | เรียนรู้วิธีการลงนาม PDF อย่างปลอดภัยโดยใช้สมาร์ทการ์ดด้วย Aspose.PDF สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการใช้งานที่ง่ายดาย |  
+- [ตรวจสอบลายเซ็น PDF ใน C# – วิธีอ่านไฟล์ PDF ที่ลงนาม](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | เรียนรู้วิธีตรวจสอบและอ่านลายเซ็นดิจิทัลในไฟล์ PDF ด้วย C# และ Aspose.PDF สำหรับ .NET -  
+- [ตรวจสอบ PDF สำหรับลายเซ็น – วิธีแสดงรายการลายเซ็นใน C# ด้วย Aspose.PDF](./check-pdf-for-signatures-how-to-list-signatures-in-c-with-as/) | เรียนรู้วิธีตรวจสอบและแสดงรายการลายเซ็นในไฟล์ PDF ด้วย C# และ Aspose.PDF อย่างละเอียด -  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
 - [ตรวจสอบลายเซ็น PDF ใน C# – คู่มือขั้นตอนเต็ม](./verify-pdf-signature-in-c-complete-step-by-step-guide/) | เรียนรู้วิธีตรวจสอบลายเซ็นดิจิทัลของไฟล์ PDF ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET อย่างละเอียด
 - [เปิดไฟล์ PDF ที่ลงลายเซ็น – วิธีอ่านลายเซ็นดิจิทัล](./open-signed-pdf-how-to-read-its-digital-signatures/) | เรียนรู้วิธีเปิดไฟล์ PDF ที่ลงลายเซ็นและอ่านลายเซ็นดิจิทัลด้วย Aspose.PDF สำหรับ .NET อย่างละเอียด
 
@@ -50,3 +60,4 @@
 | [ตรวจสอบลายเซ็นดิจิทัล PDF ด้วย C# – คู่มือเต็ม](./verify-pdf-digital-signature-in-c-complete-guide/) | เรียนรู้วิธีตรวจสอบลายเซ็นดิจิทัลของไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านขั้นตอนที่ชัดเจนและละเอียด |  
 | [ตรวจสอบลายเซ็น PDF ด้วย C# – คู่มือขั้นตอนโดยขั้นตอน](./validate-pdf-signature-in-c-step-by-step-guide/) | เรียนรู้วิธีตรวจสอบความถูกต้องของลายเซ็น PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านขั้นตอนที่ชัดเจนและเป็นระบบ |  
 | [โหลดเอกสาร PDF ด้วย C# – คู่มือฉบับสมบูรณ์สำหรับการอ่านและแสดงลายเซ็น](./load-pdf-document-c-complete-guide-to-reading-and-listing-si/) | เรียนรู้วิธีโหลดไฟล์ PDF ด้วย C# และอ่านรายการลายเซ็นทั้งหมดในเอกสารอย่างละเอียด |  
+

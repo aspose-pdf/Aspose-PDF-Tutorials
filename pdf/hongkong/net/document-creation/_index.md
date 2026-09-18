@@ -88,6 +88,9 @@ Aspose.PDF Net 程式碼教學
 ### [建立 PDF 文件 – 新增空白頁面、繪製矩形並儲存](./create-pdf-document-add-blank-page-draw-rectangle-save/)
 了解如何使用 Aspose.PDF for .NET 建立 PDF，新增空白頁面、繪製矩形，最後儲存檔案。
 
+### [使用 Aspose.PDF 建立 PDF 文件：逐步指南](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+了解如何使用 Aspose.PDF 逐步建立 PDF 文件，涵蓋設定、內容加入與儲存技巧。
+
 ## 其他資源
 
 - [Aspose.PDF 用於網頁文檔](https://docs.aspose.com/pdf/net/)

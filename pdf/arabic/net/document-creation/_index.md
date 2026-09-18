@@ -88,6 +88,9 @@
 ### [إنشاء مستند PDF باستخدام Aspose.Pdf – دليل خطوة بخطوة](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 تعرّف على كيفية إنشاء مستند PDF من الصفر باستخدام Aspose.Pdf خطوة بخطوة.
 
+### [إنشاء مستند PDF باستخدام Aspose.PDF – دليل خطوة بخطوة](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+تعلم كيفية إنشاء مستند PDF من الصفر باستخدام Aspose.PDF خطوة بخطوة مع أمثلة برمجية واضحة.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

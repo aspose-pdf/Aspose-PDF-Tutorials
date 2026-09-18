@@ -34,10 +34,12 @@ Les tutoriels incluent des instructions étape par étape, des exemples de code 
 | [Définir l'image comme arrière-plan de la page dans un fichier PDF](./image-as-background/) | Découvrez comment définir une image comme arrière-plan d'un PDF avec Aspose.PDF pour .NET grâce à ce guide étape par étape. Créez des documents professionnels et attrayants. |  
 | [Insérer une page vide dans un fichier PDF](./insert-empty-page/) | Apprenez à insérer une page vide dans un document PDF avec Aspose.PDF pour .NET. Tutoriel étape par étape avec exemples de code pour une manipulation PDF fluide. |  
 | [Insérer une page vide à la fin](./insert-empty-page-at-end/) | Apprenez à insérer facilement une page vierge dans un document PDF avec Aspose.PDF pour .NET grâce à ce guide pour débutants. Idéal pour des modifications rapides. |  
-| [Aspose PDF Tutoriel – Insérer une page vierge et mettre à jour la numérotation Bates](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Apprenez à insérer une page blanche dans un PDF et à mettre à jour la numérotation Bates avec Aspose.PDF pour .NET, étape par étape. |  
 | [Diviser en pages](./split-to-pages/) Divisez facilement vos PDF en pages individuelles avec Aspose.PDF pour .NET grâce à ce tutoriel complet. Guide étape par étape inclus.  
 | [Mettre à jour les dimensions de la page PDF](./update-dimensions/) | Découvrez comment mettre à jour les dimensions des pages PDF sans effort avec Aspose.PDF pour .NET dans ce guide complet, étape par étape. |  
 | [Zoom sur le contenu de la page dans le fichier PDF](./zoom-to-page-contents/) | Découvrez comment zoomer sur le contenu des pages de vos fichiers PDF avec Aspose.PDF pour .NET dans ce guide complet. Améliorez vos documents PDF selon vos besoins spécifiques. |  
+| [Ajouter des numéros de page PDF avec C# – Guide complet étape par étape](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Apprenez à ajouter des numéros de page à un PDF en C# avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
+| [Créer un document PDF C# – Ajouter la numérotation Bates](./create-pdf-document-c-add-bates-numbering/) | Guide étape par étape pour ajouter une numérotation Bates à un document PDF en C# avec Aspose.PDF pour .NET. |
+| [Ajouter une numérotation Bates PDF – Guide étape par étape pour numéroter les pages PDF](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Guide étape par étape pour ajouter une numérotation Bates à un PDF avec Aspose.PDF pour .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -46,8 +48,8 @@ Les tutoriels incluent des instructions étape par étape, des exemples de code 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Aspose PDF Tutoriel – Insérer une page vierge et mettre à jour la numérotation Bates](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Apprenez à insérer une page blanche dans un PDF et à mettre à jour la numérotation Bates avec Aspose.PDF pour .NET, étape par étape. |  
 | [Créer une page PDF vierge – Tutoriel complet de dessin PDF](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Apprenez à créer une page PDF vierge et à la dessiner entièrement avec Aspose.PDF pour .NET, étape par étape. |  
-| [Ajouter des numéros de page PDF avec C# – Guide complet étape par étape](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Apprenez à ajouter des numéros de page à un PDF en C# avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
 | [Ajouter des pages à un PDF avec Aspose – Guide complet C#](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Guide étape par étape pour ajouter des pages à un PDF avec Aspose.PDF pour .NET en C#. Simple à suivre et à implémenter. |  
 | [Créer un document PDF en C# – Ajouter une page au PDF et un rectangle](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) | Apprenez à créer un PDF, ajouter une page et dessiner un rectangle avec Aspose.PDF pour .NET en C#. |  
 
@@ -58,3 +60,4 @@ Les tutoriels incluent des instructions étape par étape, des exemples de code 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+

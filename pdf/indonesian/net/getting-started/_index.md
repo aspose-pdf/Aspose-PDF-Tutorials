@@ -16,7 +16,6 @@
 Mulailah perjalanan Anda dengan tutorial Aspose.PDF penting ini yang memandu Anda melalui penginstalan, konfigurasi lisensi, dan pembuatan dokumen PDF pertama Anda dalam .NET. Panduan yang mudah dipahami bagi pemula kami menunjukkan cara menyiapkan lingkungan pengembangan Anda, menginisialisasi pustaka Aspose.PDF, dan melakukan operasi PDF mendasar. Ikuti tutorial ini untuk menguasai dasar-dasar dengan cepat dan mempersiapkan diri untuk tugas manipulasi PDF yang lebih canggih dalam aplikasi .NET Anda.
 
 ## Tutorial yang Tersedia
-
 ### [Menerapkan Lisensi Terukur & Jumlah Halaman PDF dengan Aspose.PDF](./aspose-pdf-net-metered-license-page-count/)
 Tutorial kode untuk Aspose.PDF Net
 
@@ -31,6 +30,9 @@ Tutorial kode untuk Aspose.PDF Net
 
 ### [Memuat Lisensi Aspose.PDF dari File dalam .NET: Panduan Lengkap](./load-aspose-pdf-license-file-net/)
 Pelajari cara beralih dengan mudah antara mode uji coba dan mode berlisensi untuk Aspose.PDF di .NET dengan memuat berkas lisensi, yang memastikan fungsionalitas aplikasi yang lancar.
+
+### [Cara Memverifikasi Instalasi Paket NuGet dengan PowerShell](./how-to-verify-installation-of-a-nuget-package-with-powershel/)
+Panduan langkah demi langkah untuk memeriksa apakah paket NuGet telah terpasang dengan benar menggunakan PowerShell.
 
 ### [Cara Menginstal Aspose – Panduan PowerShell untuk Versi Tertentu](./how-to-install-aspose-powershell-guide-for-specific-versions/)
 Panduan langkah demi langkah menginstal Aspose menggunakan PowerShell untuk versi tertentu.

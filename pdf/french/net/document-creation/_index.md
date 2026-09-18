@@ -87,6 +87,9 @@ Apprenez à créer un document PDF avec Aspose.Pdf grâce à un guide complet é
 ### [Créer un document PDF – Ajouter une page vierge, dessiner un rectangle et enregistrer](./create-pdf-document-add-blank-page-draw-rectangle-save/)
 Apprenez à créer un PDF, ajouter une page blanche, dessiner un rectangle et enregistrer le fichier avec Aspose.PDF pour .NET.
 
+### [Créer un document PDF avec Aspose.PDF – guide étape par étape](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Apprenez à créer un document PDF complet avec Aspose.PDF en suivant un guide détaillé étape par étape.
+
 ## Ressources supplémentaires
 
 - [Aspose.PDF pour la documentation réseau](https://docs.aspose.com/pdf/net/)

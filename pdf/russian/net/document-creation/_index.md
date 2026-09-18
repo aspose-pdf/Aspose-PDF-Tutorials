@@ -99,6 +99,9 @@
 ### [Создание PDF-документа C# – руководство по добавлению нумерации Бейтса](./create-pdf-document-c-add-bates-numbering-guide/)
 Узнайте, как добавить нумерацию Бейтса в PDF-документ с помощью Aspose.PDF для .NET на C#.
 
+### [Создание PDF‑документа с Aspose.PDF – пошаговое руководство](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Узнайте, как создать PDF‑документ с помощью Aspose.PDF, следуя пошаговым инструкциям.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.PDF для сети](https://docs.aspose.com/pdf/net/)
