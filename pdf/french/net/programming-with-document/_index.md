@@ -59,6 +59,7 @@ Cette ressource comprend des tutoriels sur la fonctionnalité de programmation a
 | [Valider les fichiers PDF Une norme](./validatepdfastandard/) | Apprenez à valider les fichiers PDF par rapport à la norme PDF/A-1a à l'aide d'Aspose.PDF pour .NET dans ce didacticiel complet étape par étape. |  
 | [Valider la norme PDF UA](./validatepdfuastandard/) | Apprenez à valider un PDF pour la norme d'accessibilité PDF/UA à l'aide d'Aspose.PDF pour .NET avec notre guide étape par étape et nos explications détaillées. |  
 | [Comment réparer des fichiers PDF – Guide étape par étape avec Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Apprenez à réparer des fichiers PDF corrompus avec Aspose.Pdf grâce à ce guide détaillé étape par étape. |  
+| [Comment créer un dictionnaire PDF vide avec Aspose.PDF en C#](./how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c/) | Apprenez à créer un dictionnaire PDF vide avec Aspose.PDF en C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

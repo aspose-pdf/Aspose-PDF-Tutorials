@@ -59,6 +59,7 @@
 | [驗證 PDF 文件標準](./validatepdfastandard/) |在本全面的逐步教學中，了解如何使用 Aspose.PDF for .NET 根據 PDF/A-1a 標準驗證 PDF 檔案。 |  
 | [驗證 PDF UA 標準](./validatepdfuastandard/) |透過我們的逐步指南和詳細說明，了解如何使用 Aspose.PDF for .NET 驗證 PDF 是否符合 PDF/UA 可訪問性標準。 |  
 | [如何修復 PDF 檔案 – 使用 Aspose.Pdf 的逐步指南](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) |了解如何使用 Aspose.PDF 修復受損的 PDF 檔案，提供逐步程式碼示例。 |  
+| [如何使用 Aspose.PDF 在 C# 中建立空的 PDF 字典](./how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c/) |了解如何使用 Aspose.PDF for .NET 在 C# 中建立空的 PDF 字典，以便自訂 PDF 結構。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

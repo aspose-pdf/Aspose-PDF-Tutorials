@@ -59,6 +59,7 @@
 | [Проверка PDF-файлов Стандарт](./validatepdfastandard/) | Узнайте, как проверять файлы PDF на соответствие стандарту PDF/A-1a с помощью Aspose.PDF для .NET в этом подробном пошаговом руководстве. |  
 | [Проверить стандарт PDF UA](./validatepdfuastandard/) | Узнайте, как проверить PDF-файл на соответствие стандарту доступности PDF/UA с помощью Aspose.PDF для .NET, воспользовавшись нашим пошаговым руководством и подробными объяснениями. |  
 | [Как восстановить PDF‑файлы – пошаговое руководство с использованием Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Узнайте, как восстанавливать поврежденные PDF‑файлы с помощью Aspose.Pdf в этом пошаговом руководстве. |
+| [Как создать пустой PDF-словарь с Aspose.PDF на C#](./how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c/) | Узнайте, как создать пустой словарь PDF с помощью Aspose.PDF для .NET на C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

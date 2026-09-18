@@ -59,6 +59,7 @@ Zdroj obsahuje návody k programování s funkcí dokumentů v knihovně Aspose.
 | [Ověřování PDF souborů – standard](./validatepdfastandard/) | V tomto komplexním návodu se naučte, jak ověřit soubory PDF podle standardu PDF/A-1a pomocí nástroje Aspose.PDF pro .NET. |  
 | [Ověření standardu PDF UA](./validatepdfuastandard/) | Naučte se, jak ověřit PDF pro standard přístupnosti PDF/UA pomocí Aspose.PDF pro .NET s naším podrobným návodem a podrobným vysvětlením. |  
 | [Jak opravit PDF soubory – krok za krokem pomocí Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Naučte se opravit poškozené PDF soubory pomocí Aspose.Pdf v podrobném průvodci krok za krokem. |
+| [Jak vytvořit prázdný PDF slovník pomocí Aspose.PDF v C#](./how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c/) | Naučte se, jak vytvořit prázdný PDF slovník pomocí Aspose.PDF pro .NET v jazyce C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

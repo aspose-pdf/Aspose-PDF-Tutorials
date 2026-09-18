@@ -31,7 +31,7 @@ La risorsa include tutorial sulla programmazione con funzionalità di gestione d
 | [Personalizza i numeri di pagina durante l'aggiunta del sommario](./customizepagenumbeswhileaddingtoc/) | Scopri come personalizzare i numeri di pagina aggiungendo un indice ai tuoi documenti PDF utilizzando Aspose.PDF per .NET in questo tutorial completo.  
 | [Determinare i progressi nel file PDF](./determineprogress/) | Scopri come determinare l'avanzamento delle conversioni PDF utilizzando Aspose.PDF per .NET in questa guida completa.  
 | [Incorpora il font nel file PDF](./embedfont/) Scopri come incorporare i font in un file PDF utilizzando Aspose.PDF per .NET con questa guida passo passo. Assicurati che i tuoi documenti vengano visualizzati correttamente su qualsiasi dispositivo. |  
-| [Incorpora i font nel file PDF con la strategia del sottoinsieme](./embedfontsusingsubsetstrategy/) | Scopri come incorporare i font in un file PDF con la strategia Subset utilizzando Aspose.PDF per .NET. Ottimizza le dimensioni del tuo PDF incorporando solo i caratteri necessari. |  
+| [Incorpora i font nel file PDF con la strategia del sottoinsieme](./embedfontsusingsubsetstrategy/) | Scopri come incorporare i font in un PDF con la strategia Subset utilizzando Aspose.PDF per .NET. Ottimizza le dimensioni del tuo PDF incorporando solo i caratteri necessari. |  
 | [Incorpora il font durante la creazione del documento PDF](./embedfontwhiledoccreation/) | Scopri come incorporare i font nei documenti PDF utilizzando Aspose.PDF per .NET con questa guida passo passo. Migliora l'aspetto del tuo PDF. |  
 | [Appiattisci annotazioni nel file PDF](./flattenannotation/) | Scopri come appiattire le annotazioni in un file PDF utilizzando Aspose.PDF per .NET in questa guida. Semplifica il tuo processo di gestione dei PDF con il nostro tutorial dettagliato. |  
 | [Ottieni tutti i font in file PDF](./getallfonts/) | Scopri come estrarre tutti i font da un file PDF utilizzando Aspose.PDF per .NET in questo tutorial passo passo. Perfetto per sviluppatori e appassionati di PDF. |  
@@ -59,6 +59,7 @@ La risorsa include tutorial sulla programmazione con funzionalità di gestione d
 | [Convalida file PDF Uno standard](./validatepdfastandard/) | Scopri come convalidare i file PDF rispetto allo standard PDF/A-1a utilizzando Aspose.PDF per .NET in questo tutorial completo passo dopo passo.  
 | [Convalida PDF UA Standard](./validatepdfuastandard/) | Scopri come convalidare un PDF per lo standard di accessibilità PDF/UA utilizzando Aspose.PDF per .NET con la nostra guida dettagliata e le spiegazioni dettagliate. |
 | [Come riparare i file PDF – Guida passo‑passo usando Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Scopri come riparare i file PDF danneggiati con Aspose.Pdf in questa guida passo‑passo. |
+| [Come creare un dizionario PDF vuoto con Aspose.PDF in C#](./how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c/) | Scopri come creare un dizionario PDF vuoto utilizzando Aspose.PDF per .NET in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

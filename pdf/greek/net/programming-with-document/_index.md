@@ -59,6 +59,7 @@
 | [Επικύρωση αρχείων PDF σε τυπικό επίπεδο](./validatepdfastandard/) | Μάθετε πώς να επικυρώνετε αρχεία PDF σε σχέση με το πρότυπο PDF/A-1a χρησιμοποιώντας το Aspose.PDF για .NET σε αυτό το ολοκληρωμένο βήμα προς βήμα εκπαιδευτικό βίντεο. |  
 | [Επικύρωση προτύπου PDF UA](./validatepdfuastandard/) | Μάθετε πώς να επικυρώσετε ένα PDF για το πρότυπο προσβασιμότητας PDF/UA χρησιμοποιώντας το Aspose.PDF για .NET με τον αναλυτικό οδηγό μας και λεπτομερείς εξηγήσεις. |  
 | [Πώς να επισκευάσετε αρχεία PDF – Οδηγός βήμα προς βήμα με χρήση Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Μάθετε πώς να επισκευάσετε κατεστραμμένα αρχεία PDF χρησιμοποιώντας το Aspose.Pdf σε αναλυτικό βήμα‑βήμα οδηγό. |
+| [Πώς να δημιουργήσετε κενό λεξικό PDF με Aspose.PDF σε C#](./how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c/) | Μάθετε πώς να δημιουργήσετε ένα κενό λεξικό PDF χρησιμοποιώντας το Aspose.PDF για .NET σε C#. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

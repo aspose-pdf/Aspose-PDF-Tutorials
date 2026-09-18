@@ -58,7 +58,8 @@ Az anyag oktatóanyagokat tartalmaz az Aspose.PDF for .NET könyvtár dokumentum
 | [PDF AB szabvány érvényesítése](./validatepdfabstandard/) Ebben a lépésről lépésre szóló útmutatóban megtudhatja, hogyan validálhatja a PDF-fájlokat PDF/A-1b szabványnak megfelelően az Aspose.PDF for .NET használatával. Biztosítsa a megfelelőséget a hosszú távú archiváláshoz. |  
 | [PDF fájlok validálása szabványként](./validatepdfastandard/) | Ebben az átfogó, lépésről lépésre bemutató útmutatóban megtudhatja, hogyan validálhatja a PDF-fájlokat a PDF/A-1a szabvány alapján az Aspose.PDF for .NET használatával. |  
 | [PDF UA szabvány validálása](./validatepdfuastandard/) | Tanulja meg, hogyan validálhatja a PDF-fájlokat a PDF/UA akadálymentesítési szabványnak megfelelően az Aspose.PDF for .NET használatával lépésről lépésre bemutatott útmutatónkkal és részletes magyarázatainkkal. |  
-| [PDF fájlok javítása – lépésről‑lépésre útmutató az Aspose.Pdf használatával](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Ismerje meg, hogyan javíthatja meg a hibás PDF fájlokat az Aspose.Pdf segítségével lépésről‑lépésre útmutatóval. |
+| [PDF fájlok javítása – lépésről‑lépésre útmutató az Aspose.Pdf használatával](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Ismerje meg, hogyan javíthatja meg a hibás PDF fájlokat az Aspose.Pdf segítségével lépésről‑lépésre útmutatóval. |  
+| [Üres PDF szótár létrehozása Aspose.PDF segítségével C#-ban](./how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c/) | Ismerje meg, hogyan hozhat létre üres PDF szótárat az Aspose.PDF for .NET C#-os példájával. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

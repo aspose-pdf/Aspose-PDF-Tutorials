@@ -59,6 +59,7 @@ Resursen innehåller handledningar om Aspose.PDF för .NET-bibliotekets programm
 | [Validera PDF-filer som standard](./validatepdfastandard/) | Lär dig hur du validerar PDF-filer mot PDF/A-1a-standarden med hjälp av Aspose.PDF för .NET i den här omfattande steg-för-steg-handledningen. |  
 | [Validera PDF UA-standard](./validatepdfuastandard/) | Lär dig hur du validerar en PDF för PDF/UA-tillgänglighetsstandarden med Aspose.PDF för .NET med vår steg-för-steg-guide och detaljerade förklaringar. |  
 | [Hur man reparerar PDF-filer – Steg‑för‑steg‑guide med Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Lär dig hur du reparerar skadade PDF-filer med Aspose.Pdf i en steg‑för‑steg‑guide. |  
+| [Skapa tom PDF-dictionary med Aspose.PDF i C#](./how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c/) | Lär dig hur du skapar en tom PDF-dictionary med Aspose.PDF i C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -27,7 +27,7 @@ recurso inclui tutoriais sobre o recurso de programação com documento da bibli
 | [Converter de RGB para escala de cinza](./convertfromrgbtograyscale/) | Aprenda a converter um PDF de RGB para tons de cinza usando o Aspose.PDF para .NET. Um guia passo a passo para simplificar a conversão de cores em PDF e economizar espaço no arquivo. |  
 | [Crie um arquivo PDF multicamadas - Primeira abordagem](./createmultilayerpdffirstapproach/) | Aprenda a criar um arquivo PDF multicamadas usando a Primeira Abordagem com Aspose.PDF para .NET. Adicione texto, imagens e muito mais para aprimorar seus PDFs. |  
 | [Criar PDF Multicamadas Segunda Abordagem](./createmultilayerpdfsecondapproach/) | Aprenda a criar um PDF multicamadas usando o Aspose.PDF para .NET. Siga nosso guia passo a passo para adicionar texto, imagens e camadas ao seu arquivo PDF sem esforço. |  
-| [Crie PDF A1 com Aspose PDF](./createpdfa1withasposepdf/) | Aprenda a criar arquivos PDF/A-1 com o Aspose.PDF para .NET neste tutorial detalhado. Guia passo a passo com exemplos de código e explicações. |  
+| [Crie PDF A1 com Aspose PDF](./createpdfa1withasposepdf/) | Aprenda a criar arquivos PDF/A-1a com o Aspose.PDF para .NET neste tutorial detalhado. Guia passo a passo com exemplos de código e explicações. |  
 | [Personalize os números das páginas ao adicionar o TOC](./customizepagenumbeswhileaddingtoc/) | Aprenda a personalizar números de página ao adicionar um Índice aos seus documentos PDF usando o Aspose.PDF para .NET neste tutorial abrangente. |  
 | [Determinar o progresso para o arquivo PDF](./determineprogress/) | Aprenda como determinar o progresso das conversões de PDF usando o Aspose.PDF para .NET neste guia abrangente. |  
 | [Incorporar fonte em arquivo PDF](./embedfont/) Aprenda a incorporar fontes em um arquivo PDF usando o Aspose.PDF para .NET com este guia passo a passo. Garanta que seus documentos sejam exibidos corretamente em qualquer dispositivo. |  
@@ -59,6 +59,7 @@ recurso inclui tutoriais sobre o recurso de programação com documento da bibli
 | [Validar arquivos PDF Um padrão](./validatepdfastandard/) | Aprenda como validar arquivos PDF de acordo com o padrão PDF/A-1a usando o Aspose.PDF para .NET neste tutorial abrangente passo a passo. |  
 | [Validar PDF UA Padrão](./validatepdfuastandard/) | Aprenda como validar um PDF para o padrão de acessibilidade PDF/UA usando o Aspose.PDF para .NET com nosso guia passo a passo e explicações detalhadas. |  
 | [Como reparar arquivos PDF – Guia passo a passo usando Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Aprenda a reparar arquivos PDF corrompidos usando Aspose.Pdf com este guia passo a passo. |  
+| [Como criar dicionário PDF vazio com Aspose.PDF em C#](./how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c/) | Aprenda a criar um dicionário PDF vazio usando Aspose.PDF para .NET em C#. Guia passo a passo com exemplos de código. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

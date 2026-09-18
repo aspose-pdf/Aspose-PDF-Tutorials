@@ -28,7 +28,8 @@
 | [HTML 轉 PDF](./html-to-pdf/) |透過本全面的逐步指南了解如何使用 Aspose.PDF for .NET 將 HTML 轉換為 PDF。 |  
 | [Markdown 轉 PDF](./markdown-to-pdf/) |在本逐步教學中了解如何使用 Aspose.PDF for .NET 將 Markdown 轉換為 PDF。非常適合希望簡化文件轉換的開發人員。 |  
 | [MHT 轉 PDF](./mht-to-pdf/) |在本逐步教學中了解如何使用 Aspose.PDF for .NET 將 MHT 檔案轉換為 PDF。輕鬆有效率的文檔轉換。 |  
-| [根據影像尺寸調整頁面方向](./page-orientation-according-image-dimensions/) |在本逐步指南中了解如何使用 Aspose.PDF for .NET 建立 PDF，並根據影像尺寸設定頁面方向。 |  
+| [根據影像尺寸調整頁面方向](./page-orientation-according-image-dimensions/) |在本逐步指南中了解如何使用 Aspose.PDF for .NET 建立 PDF，並根據影像尺寸設定頁面方向。 |
+| [如何嵌入 ICC 配置檔並將 PDF 轉換為 PDF/X-1（使用 Aspose.Pdf）](./how-to-embed-icc-profile-and-convert-pdf-to-pdf-x-1-with-asp/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 嵌入 ICC 配置檔並將 PDF 轉換為 PDF/X-1。 |
 | [PCL 轉 PDF](./pcl-to-pdf/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 PCL 檔案轉換為 PDF。非常適合開發人員和企業。 |  
 | [PDFA 轉 PDF](./pdfa-to-pdf/) |透過本全面的逐步指南了解如何使用 Aspose.PDF for .NET 將 PDF/A 轉換為 PDF。 |  
 | [PDF 轉 DOC](./pdf-to-doc/) |在本綜合指南中了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 DOC。包含逐步說明和提示。 |  
@@ -93,4 +94,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

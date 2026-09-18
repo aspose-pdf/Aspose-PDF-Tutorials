@@ -59,6 +59,7 @@
 | [التحقق من صحة ملفات PDF كمعيار](./validatepdfastandard/) |تعرف على كيفية التحقق من صحة ملفات PDF وفقًا لمعيار PDF/A-1a باستخدام Aspose.PDF لـ .NET في هذا البرنامج التعليمي الشامل خطوة بخطوة. |  
 | [التحقق من صحة معيار PDF UA](./validatepdfuastandard/) |تعرف على كيفية التحقق من صحة ملف PDF لمعيار إمكانية الوصول PDF/UA باستخدام Aspose.PDF لـ .NET من خلال دليلنا خطوة بخطوة وشروحاتنا التفصيلية. |  
 | [كيفية إصلاح ملفات PDF – دليل خطوة بخطوة باستخدام Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | تعرّف على كيفية إصلاح ملفات PDF المتضررة باستخدام Aspose.Pdf لـ .NET في دليل شامل خطوة بخطوة. |
+| [كيفية إنشاء قاموس PDF فارغ باستخدام Aspose.PDF في C#](./how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c/) | تعلّم كيفية إنشاء قاموس PDF فارغ باستخدام Aspose.PDF في C#. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

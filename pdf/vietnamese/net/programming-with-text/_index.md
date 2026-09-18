@@ -56,7 +56,7 @@ Các hướng dẫn "Lập trình với Văn bản" của Aspose.PDF dành cho .
 | [Thay thế văn bản trên biểu thức chính quy trong tệp PDF](./replace-text-on-regular-expression/) Tìm hiểu cách thay thế văn bản dựa trên biểu thức chính quy trong tệp PDF bằng Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để tự động thay đổi văn bản một cách hiệu quả. |  
 | [Thay thế trang văn bản trong tệp PDF](./replace-text-page/) | Tìm hiểu cách thay thế văn bản trong tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Tùy chỉnh phông chữ, màu sắc và thuộc tính văn bản một cách dễ dàng. |  
 | [Xoay văn bản bằng cách sử dụng đoạn văn trong tệp PDF](./rotate-text-using-paragraph/) | Tìm hiểu cách xoay văn bản trong PDF bằng Aspose.PDF cho .NET. Thực hiện theo hướng dẫn từng bước này để tạo tài liệu của bạn. |  
-| [Xoay văn bản bằng cách sử dụng đoạn văn bản trong tệp PDF](./rotate-text-using-text-fragment/) | Tìm hiểu cách xoay văn bản trong tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước. Khám phá các kỹ thuật thao tác văn bản, từ định vị đến xoay. |  
+| [Xoay văn bản bằng cách sử dụng đoạn văn bản trong tệp PDF](./rotate-text-using-text-fragment/) | Tìm hiểu cách xoay văn bản trong PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước. Khám phá các kỹ thuật thao tác văn bản, từ định vị đến xoay. |  
 | [Xoay văn bản bằng cách sử dụng đoạn văn bản và đoạn văn](./rotate-text-using-text-fragment-and-paragraph/) | Tìm hiểu cách xoay văn bản bằng cách sử dụng đoạn văn bản và đoạn văn trong tài liệu PDF bằng Aspose.PDF cho .NET. |  
 | [Xoay văn bản bằng cách sử dụng đoạn văn bản và trình tạo trong tệp PDF](./rotate-text-using-text-paragraph-and-builder/) | Tìm hiểu cách xoay văn bản bằng đoạn văn bản và trình tạo trong tệp PDF bằng Aspose.PDF cho .NET. |  
 | [Tìm kiếm và lấy tất cả văn bản](./search-and-get-text-all/) | Tìm hiểu cách tìm kiếm và lấy văn bản từ tất cả các trang của tài liệu PDF bằng Aspose.PDF cho .NET. |  
@@ -71,6 +71,7 @@ Các hướng dẫn "Lập trình với Văn bản" của Aspose.PDF dành cho .
 | [Văn bản và hình ảnh như đoạn văn trong tệp PDF](./text-and-image-as-paragraph/) | Tạo PDF có văn bản và hình ảnh bằng Aspose.PDF cho .NET. Tìm hiểu cách thêm văn bản và hình ảnh nội tuyến từng bước. |  
 | [Các đoạn văn bản trong tệp PDF](./text-segments/) | Tìm hiểu cách tìm kiếm các đoạn văn bản cụ thể trong tệp PDF bằng cách sử dụng biểu thức chính quy trong Aspose.PDF cho .NET. |  
 | [Sử dụng Latex Script trong tệp PDF](./use-latex-script/) | Tìm hiểu cách sử dụng tập lệnh Latex để thêm biểu thức toán học hoặc công thức vào tệp PDF bằng Aspose.PDF cho .NET. |  
+| [Cách tạo PDF tóm tắt với Aspose.Pdf.AI trong C#](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Học cách tạo PDF tóm tắt bằng Aspose.Pdf.AI trong C# với hướng dẫn chi tiết. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
