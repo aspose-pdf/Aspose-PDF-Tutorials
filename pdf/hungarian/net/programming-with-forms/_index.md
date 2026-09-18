@@ -61,3 +61,24 @@ Ezek az oktatóanyagok részletes kódpéldákat, világos magyarázatokat és i
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [PDF létrehozása az Aspose-szal – Mező hozzáadása a gyűjteményhez](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Tanulja meg, hogyan adhat hozzá mezőt egy gyűjteményhez PDF létrehozásakor az Aspose.PDF for .NET használatával. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+| [Bates-számok hozzáadása PDF-ekhez – Lépésről lépésre C# útmutató](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Tanulja meg, hogyan adhat hozzá Bates-számokat PDF dokumentumokhoz C#-ban az Aspose.PDF for .NET használatával. |
+| [PDF dokumentum létrehozása több szövegdoboz widgettel – Lépésről lépésre útmutató](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Lépésről lépésre bemutatja, hogyan hozhat létre PDF dokumentumot több szövegdoboz widgettel az Aspose.PDF for .NET segítségével. |
+| [Hogyan adjunk hozzá szövegdobozt PDF-hez – PDF űrlapmező létrehozása és szerkesztett PDF dokumentum mentése](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Tanulja meg, hogyan adhat szövegdobozt PDF űrlaphoz, és mentheti a módosított dokumentumot az Aspose.PDF for .NET használatával. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

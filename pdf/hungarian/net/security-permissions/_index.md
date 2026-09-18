@@ -51,7 +51,7 @@ Ismerje meg, hogyan távolíthatja el hatékonyan a használati jogokat egy PDF-
 Ismerje meg, hogyan állíthatja be és kezelheti a PDF-engedélyeket az Aspose.PDF for .NET segítségével, biztosítva a biztonságos dokumentummegosztást. Kövesse lépésről lépésre szóló útmutatónkat a hatékony megvalósítás érdekében.
 
 ### [Lejárati dátum beállítása PDF fájlokban az Aspose.PDF for .NET használatával (C# oktatóanyag)](./set-pdf-expiry-date-aspose-dotnet/)
-Tanuld meg, hogyan állíthatsz be lejárati dátumot egy PDF-ben az Aspose.PDF for .NET használatával C#-ban. Ez az oktatóanyag részletes kódpéldákkal ismerteti a telepítést, a konfigurációt és a megvalósítást.
+Tanuld meg, hogyan állíthatsz be lejárati dátumot egy PDF-ben az Aspose.PDF for .NET segítségével C#-ban. Ez az oktatóanyag részletes kódpéldákkal ismerteti a telepítést, a konfigurációt és a megvalósítást.
 
 ### [.NET felhasználó-megszemélyesítés implementálása az Aspose.PDF segítségével: Lépésről lépésre útmutató](./implement-net-user-impersonation-aspose-pdf-guide/)
 Ismerje meg, hogyan valósíthatja meg a felhasználók megszemélyesítését .NET alkalmazásokban az Aspose.PDF segítségével. Ez az útmutató mindent lefed a könyvtár beállításától kezdve a feladatok különböző felhasználói környezetekben történő végrehajtásáig.
@@ -61,6 +61,9 @@ Ismerje meg, hogyan valósíthat meg biztonságos digitális aláírásokat és 
 
 ### [PDF-szerkesztés elsajátítása az Aspose.PDF .NET segítségével: Átfogó útmutató a biztonságos dokumentumkezeléshez](./mastering-pdf-redaction-aspose-pdf-net-guide/)
 Ismerje meg, hogyan szerkesztheti biztonságosan a PDF-fájlokat az Aspose.PDF .NET használatával. Ez az útmutató annotációalapú és előnézeti megközelítéseket ismertet, biztosítva, hogy dokumentumai továbbra is megfelelőek maradjanak.
+
+### [Redakció alkalmazása PDF-re az Aspose Plugin Managerrel – Teljes útmutató](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
+Ismerje meg, hogyan alkalmazhat redakciót PDF-fájlokra az Aspose Plugin Manager segítségével, lépésről lépésre útmutatóval.
 
 ### [PDF fájlok feloldása és visszafejtése az Aspose.PDF for .NET segítségével: Teljes körű útmutató](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 Ismerje meg, hogyan oldhatja fel és dekódolhatja vissza a védett PDF-fájlokat az Aspose.PDF for .NET segítségével C#-ban. Ez az útmutató a beállítást, a dekódolás lépéseit és a bevált gyakorlatokat ismerteti.

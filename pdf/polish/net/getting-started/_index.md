@@ -16,7 +16,6 @@
 Rozpocznij swoją podróż od tych niezbędnych samouczków Aspose.PDF, które przeprowadzą Cię przez instalację, konfigurację licencjonowania i tworzenie pierwszych dokumentów PDF w .NET. Nasze przyjazne dla początkujących przewodniki pokazują, jak skonfigurować środowisko programistyczne, zainicjować bibliotekę Aspose.PDF i wykonać podstawowe operacje PDF. Skorzystaj z tych samouczków, aby szybko opanować podstawy i przygotować się do bardziej zaawansowanych zadań związanych z manipulacją PDF w aplikacjach .NET.
 
 ## Dostępne samouczki
-
 ### [Stosowanie licencji licznikowej i liczby stron PDF z Aspose.PDF](./aspose-pdf-net-metered-license-page-count/)
 Samouczek dotyczący kodu dla Aspose.PDF Net
 
@@ -34,6 +33,11 @@ Dowiedz się, jak płynnie przełączać się między trybem próbnym a licencjo
 
 ### [Jak zweryfikować instalację pakietu NuGet przy użyciu PowerShell](./how-to-verify-installation-of-a-nuget-package-with-powershel/)
 Sprawdź, czy pakiet NuGet został poprawnie zainstalowany, używając poleceń PowerShell.
+
+### [Jak zainstalować Aspose – przewodnik PowerShell dla konkretnych wersji](./how-to-install-aspose-powershell-guide-for-specific-versions/)
+Przewodnik PowerShell pokazujący, jak zainstalować Aspose dla wybranych wersji.
+### [Jak zainstalować pakiety NuGet za pomocą PowerShell – krok po kroku](./how-to-install-nuget-packages-via-powershell-step-by-step/)
+Instrukcja instalacji pakietów NuGet przy użyciu PowerShell, krok po kroku, dla projektów .NET.
 
 ## Dodatkowe zasoby
 

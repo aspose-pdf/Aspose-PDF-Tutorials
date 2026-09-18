@@ -54,3 +54,16 @@ Os tutoriais "Programação com PDFs Marcados" do Aspose.PDF para .NET orientam 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Como marcar PDF com Aspose – Guia completo de tags de acessibilidade PDF](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) | Aprenda a marcar PDFs com Aspose e garantir acessibilidade completa usando tags de PDF, passo a passo. |  
+| [Tornar PDF acessível com Aspose: Inserir parágrafo PDF passo a passo](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Aprenda a inserir parágrafos em PDFs para melhorar a acessibilidade usando Aspose.PDF para .NET, passo a passo. |
+| [Criar PDF Marcado em C# – Adicionar Cabeçalho e Texto Acessível](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Aprenda a criar um PDF marcado em C# adicionando cabeçalhos e texto acessível usando Aspose.PDF para .NET. |  
+| [Criar PDF acessível com Aspose.Pdf – Guia passo a passo](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Aprenda a criar PDFs acessíveis usando Aspose.Pdf em um guia passo a passo detalhado. |  
+| [Criar PDF Marcado em C# – Guia Passo a Passo](./create-tagged-pdf-in-c-step-by-step-guide/) | Aprenda a criar um PDF marcado em C# usando Aspose.PDF para .NET com este guia passo a passo. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -54,3 +54,16 @@ tutorial "Programmazione con PDF con tag" di Aspose.PDF per .NET ti guideranno n
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Crea PDF accessibile con Aspose.Pdf – Guida passo‑passo](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Scopri come creare PDF accessibili passo passo con Aspose.Pdf per .NET. |  
+| [Come Taggare PDF con Aspose – Guida Completa ai Tag di Accessibilità PDF](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) | Scopri come aggiungere tag di accessibilità ai PDF usando Aspose.PDF per .NET in questa guida completa passo passo. |  
+| [Rendi PDF accessibile con Aspose: Inserisci paragrafo PDF passo‑passo](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Scopri come inserire un paragrafo in un PDF accessibile usando Aspose.PDF per .NET, con istruzioni dettagliate passo passo. |
+| [Crea PDF taggato in C# – Aggiungi intestazione e testo accessibile](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Scopri come creare un PDF taggato in C# aggiungendo intestazioni e testo accessibile con Aspose.PDF per .NET. |  
+| [Crea PDF con tag in C# – Guida passo passo](./create-tagged-pdf-in-c-step-by-step-guide/) | Impara a creare PDF con tag in C# usando Aspose.PDF per .NET con istruzioni dettagliate passo passo. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

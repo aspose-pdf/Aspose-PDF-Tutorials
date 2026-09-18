@@ -54,3 +54,16 @@ Los tutoriales "Programación con PDF etiquetados" de Aspose.PDF para .NET le gu
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Cómo etiquetar PDF con Aspose – Guía completa de etiquetas de accesibilidad PDF](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) | Aprenda a aplicar etiquetas de accesibilidad a PDFs con Aspose.PDF para .NET en esta guía completa paso a paso. |
+| [Crear PDF accesible con Aspose: Insertar párrafo paso a paso](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Aprenda a insertar un párrafo en un PDF accesible usando Aspose.PDF paso a paso. |
+| [Crear PDF etiquetado en C# – Agregar encabezado y texto accesible](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Aprenda a crear un PDF etiquetado en C# agregando encabezados y texto accesible con Aspose.PDF para .NET. |  
+| [Crear PDF accesible con Aspose.Pdf – Guía paso a paso](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Aprenda a crear PDFs accesibles con Aspose.Pdf mediante una guía paso a paso. |
+| [Crear PDF etiquetado en C# – Guía paso a paso](./create-tagged-pdf-in-c-step-by-step-guide/) | Aprenda a crear un PDF etiquetado en C# con Aspose.PDF para .NET siguiendo esta guía paso a paso. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

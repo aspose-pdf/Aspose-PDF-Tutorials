@@ -16,7 +16,6 @@
 Naučte se, jak vytvářet vysoce výkonné aplikace pro zpracování PDF s našimi optimalizačními tutoriály Aspose.PDF pro .NET. Tyto praktické průvodce demonstrují techniky pro efektivní správu paměti, zkrácení doby provádění a strategie pro efektivní zpracování velkých PDF dokumentů. Každý tutoriál obsahuje podrobné příklady kódu C# a osvědčené postupy pro optimalizaci kritických aspektů výkonu, které zajistí, že vaše aplikace zůstanou responzivní a spolehlivé i při práci s rozsáhlými PDF dokumenty.
 
 ## Dostupné tutoriály
-
 ### [Komplexní průvodce optimalizací PDF v .NET pomocí Aspose.PDF](./aspose-pdf-dotnet-optimization-guide/)
 Naučte se, jak optimalizovat PDF soubory pomocí Aspose.PDF pro .NET a zajistit efektivní využití zdrojů a vysoce kvalitní dokumenty. Zvládněte operace GSave/GRestore a správu grafiky v XForm.
 
@@ -49,6 +48,20 @@ Zvládněte umění převodu souborů SVG do PDF s přesností a efektivitou pom
 
 ### [Odebrání vložených písem z PDF pomocí Aspose.PDF pro .NET: Zmenšení velikosti souboru a zlepšení výkonu](./optimize-pdfs-unembed-fonts-aspose-pdf-net/)
 Naučte se, jak odebrat vložené fonty ze souborů PDF pomocí Aspose.PDF pro .NET. Optimalizujte výkon PDF, zmenšete velikost souboru a zlepšete dobu načítání s tímto podrobným návodem.
+
+### [Vytvořte optimalizovaný PDF – Komprimujte obrázky PDF bezztrátovým JPEG](./create-optimized-pdf-compress-pdf-images-with-lossless-jpeg/)
+Naučte se, jak komprimovat obrázky v PDF pomocí bezztrátového JPEG pro menší velikost souboru a zachování kvality.
+
+### [Jak optimalizovat PDF v C# – přidání prázdné stránky, export do HTML, podepsání](./how-to-optimize-pdf-in-c-add-blank-page-export-html-sign/)
+Naučte se, jak optimalizovat PDF v C#, přidat prázdnou stránku, exportovat do HTML a podepsat dokument pomocí Aspose.PDF.
+
+### [Optimalizace obrázků PDF – Zmenšení velikosti PDF souboru pomocí C#](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
+Naučte se, jak optimalizovat obrázky v PDF a snížit velikost souboru pomocí C# a Aspose.PDF.
+### [Jak komprimovat PDF pomocí Aspose – Rychlý průvodce C#](./how-to-compress-pdf-with-aspose-quick-c-guide/)
+Rychlý návod, jak pomocí Aspose.PDF v C# komprimovat PDF soubory a snížit jejich velikost.
+
+### [Uložení optimalizovaného PDF v C# – Snížení velikosti a vyčištění stránek](./save-optimized-pdf-in-c-reduce-size-clean-pages/)
+Naučte se, jak uložit optimalizovaný PDF soubor v C#, snížit jeho velikost a vyčistit nepotřebné stránky.
 
 ## Další zdroje
 

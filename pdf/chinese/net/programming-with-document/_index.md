@@ -58,6 +58,7 @@
 | [验证 PDF AB 标准](./validatepdfabstandard/) 在本分步教程中学习如何使用 Aspose.PDF for .NET 验证 PDF 是否符合 PDF/A-1b 标准。确保符合长期存档的要求。|  
 | [验证 PDF 文件标准](./validatepdfastandard/) 在本全面的分步教程中了解如何使用 Aspose.PDF for .NET 根据 PDF/A-1a 标准验证 PDF 文件。|  
 | [验证 PDF UA 标准](./validatepdfuastandard/) 通过我们的分步指南和详细解释，了解如何使用 Aspose.PDF for .NET 验证 PDF 是否符合 PDF/UA 可访问性标准。|  
+| [如何修复 PDF 文件 – 使用 Aspose.Pdf 的分步指南](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) 学习使用 Aspose.Pdf 修复损坏的 PDF 文件的完整步骤，包括代码示例和最佳实践。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

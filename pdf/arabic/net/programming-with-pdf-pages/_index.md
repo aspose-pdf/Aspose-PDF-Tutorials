@@ -48,3 +48,24 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [إدراج صفحة فارغة وتحديث ترقيم Bates](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | دليل خطوة بخطوة لإدراج صفحة فارغة في ملف PDF وتحديث ترقيم Bates باستخدام Aspose.PDF لـ .NET. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+| [إضافة صفحات إلى PDF باستخدام Aspose – دليل C# كامل](./add-pages-to-pdf-with-aspose-complete-c-guide/) | دليل خطوة بخطوة لإضافة صفحات إلى ملف PDF باستخدام Aspose.PDF لـ .NET بلغة C#. |
+| [إنشاء صفحة PDF فارغة – دليل كامل لرسم PDF](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | دليل خطوة بخطوة لإنشاء صفحة PDF فارغة باستخدام Aspose.PDF لـ .NET مع شرح كامل للرسم. |
+| [إنشاء مستند PDF في C# – إضافة صفحة إلى PDF ومربع](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) | دليل خطوة بخطوة لإنشاء مستند PDF وإضافة صفحة ومربع باستخدام Aspose.PDF لـ .NET. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

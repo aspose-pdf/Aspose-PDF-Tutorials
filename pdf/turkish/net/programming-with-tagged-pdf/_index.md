@@ -54,3 +54,16 @@ Aspose.PDF for .NET'in "Etiketli PDF'lerle Programlama" öğreticileri, bu kitap
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Aspose ile PDF Etiketleme – PDF Erişilebilirlik Etiketlerine Tam Kılavuz](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) | Aspose.PDF for .NET kullanarak PDF'lere erişilebilirlik etiketleri eklemeyi adım adım öğrenin. |
+| [Aspose ile PDF'yi Erişilebilir Hale Getirin: Paragraf PDF Ekleme Adım Adım](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Aspose.PDF for .NET kullanarak PDF'ye paragraf ekleyerek erişilebilirliği nasıl artıracağınızı adım adım öğrenin. |
+| [C# ile Etiketli PDF Oluştur – Başlık ve Erişilebilir Metin Ekle](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Bu adım adım eğitimde C# kullanarak etiketli PDF'ye başlık ekleyip erişilebilir metin oluşturmayı öğrenin. |  
+| [Aspose.Pdf ile Erişilebilir PDF Oluştur – Adım Adım Kılavuz](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Aspose.PDF for .NET kullanarak erişilebilir PDF oluşturmayı adım adım öğrenin. |  
+| [C# ile Etiketli PDF Oluştur – Adım Adım Kılavuz](./create-tagged-pdf-in-c-step-by-step-guide/) | Bu adım adım rehberde, C# kullanarak Aspose.PDF for .NET ile etiketli PDF oluşturmayı öğrenin. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

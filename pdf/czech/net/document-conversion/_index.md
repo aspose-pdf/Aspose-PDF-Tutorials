@@ -68,3 +68,29 @@ Naučíte se, jak nastavit převod, extrahovat text a obrázky, zachovat původn
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Aspose PDF konverze: Převod PDF do PDF/X‑4 v C#](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) | Naučte se, jak převést PDF do PDF/X‑4 pomocí Aspose.PDF pro .NET v C# v tomto podrobném návodu. |
+| [Přidat ICC profil a převést PDF na PDF/X‑4 – průvodce v C#](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) | Naučte se, jak přidat ICC profil a převést PDF na PDF/X‑4 pomocí Aspose.PDF pro .NET v C#. |  
+| [Jak uložit PDF pomocí Aspose – Kompletní průvodce konverzí v C#](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) | Naučte se, jak uložit PDF soubor pomocí Aspose.PDF v C# s podrobným krok za krokem návodem. |  
+| [Uložit PDF jako HTML – Zachovat vektory a zakázat rasterizaci](./save-pdf-as-html-keep-vectors-disable-rasterization/) | Naučte se, jak uložit PDF jako HTML se zachováním vektorových prvků a bez rasterizace pomocí Aspose.PDF pro .NET. |  
+| [Převod docx do pdf v C# – Kompletní průvodce krok za krokem](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Naučte se, jak převést soubory DOCX do PDF pomocí Aspose.PDF pro .NET v tomto kompletním průvodci krok za krokem. |
+| [Přidat Batesovo číslování do DOCX a převést do PDF – Kompletní průvodce C#](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | Naučte se, jak přidat Batesovo číslování do souboru DOCX a převést jej do PDF pomocí Aspose.PDF pro .NET v tomto podrobném průvodci. |
+| [Uložit dokument PDF – Jak přidat elipsu a převést DOCX do PDF](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | Naučte se, jak přidat elipsu do PDF a převést soubor DOCX do PDF pomocí Aspose.PDF pro .NET. |  
+| [c# PDF konverzní tutoriál – převod PDF na PDF/X-4](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) | Naučte se, jak převést PDF na PDF/X-4 pomocí Aspose.PDF pro .NET v tomto podrobném návodu. |
+| [Vytvořit HTML z PDF v C# – Kompletní krok‑za‑krokem průvodce](./create-html-from-pdf-in-c-complete-step-by-step-guide/) | Naučte se, jak pomocí Aspose.PDF pro .NET v C# převést PDF soubor do HTML pomocí podrobného krok‑za‑krokem návodu. |  
+| [Jak nastavit ICC v konverzi Aspose PDF – Kompletní průvodce](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | Naučte se, jak nastavit ICC při konverzi PDF pomocí Aspose.PDF pro .NET v tomto kompletním průvodci. |  
+| [Aspose PDF konverze v C# – krok za krokem](./aspose-pdf-conversion-in-c-step-by-step-guide/) | Naučte se, jak provést konverzi PDF v C# pomocí Aspose.PDF krok za krokem. |
+| [Jak převést PDF na PDF/X‑4 v C# – krok za krokem](./how-to-convert-pdf-to-pdf-x-4-in-c-step-by-step-guide/) | Naučte se, jak převést PDF do formátu PDF/X‑4 pomocí Aspose.PDF pro .NET v tomto podrobném návodu krok za krokem. |  
+| [Nastavení ICC profilu při převodu Wordu do PDF – Kompletní průvodce C#](./set-icc-profile-when-converting-word-to-pdf-complete-c-guide/) | Naučte se, jak nastavit ICC profil při převodu dokumentů Word do PDF pomocí Aspose.PDF pro .NET v tomto podrobném průvodci C#. |  
+| [Uložit dokument jako HTML – Kompletní průvodce C# pro export Word do HTML](./save-document-as-html-complete-c-guide-to-export-word-to-htm/) | Naučte se, jak pomocí Aspose.PDF pro .NET uložit dokument Word jako HTML v podrobném průvodci pro C#. |  
+
+| [Načíst PDF dokument C# – Převod na PDF/X-4 krok za krokem](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | Naučte se, jak načíst PDF a převést jej na PDF/X-4 pomocí Aspose.PDF pro .NET. Praktický průvodce krok za krokem. |
+| [Aspose PDF do HTML převod v C# – kompletní průvodce](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | Naučte se, jak převést PDF soubory do HTML pomocí Aspose.PDF pro .NET v C# s tímto podrobným návodem. |
+
+| [Jak převést PDF pomocí Aspose.Pdf – Kompletní průvodce v C#](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | Kompletní návod, jak převést PDF soubory pomocí Aspose.Pdf v jazyce C# s podrobnými ukázkami kódu. |  
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,26 +1,26 @@
 ---
 category: general
-date: 2026-03-03
+date: 2026-01-10
 description: Buat dokumen PDF menggunakan Aspose.PDF di C#. Pelajari cara menambahkan
-  halaman PDF kosong, menambahkan persegi panjang PDF, menambahkan bentuk PDF, dan
-  mengatur ukuran halaman PDF dalam tutorial singkat.
+  halaman PDF, menggambar persegi panjang PDF, dan lainnya dalam tutorial lengkap
+  ini.
 draft: false
 keywords:
 - create pdf document
-- add blank pdf page
-- add rectangle pdf
-- add shape pdf
-- set pdf page size
+- add page pdf
+- draw rectangle pdf
+- how to create pdf
+- how to add rectangle
 language: id
-og_description: Buat dokumen PDF di C# dengan Aspose.PDF. Panduan ini menunjukkan
-  cara menambahkan halaman PDF kosong, menggambar persegi panjang, menambahkan bentuk,
-  dan mengatur ukuran halaman.
+og_description: Buat dokumen PDF menggunakan Aspose.PDF di C#. Ikuti tutorial ini
+  untuk menambahkan halaman PDF, menggambar persegi panjang PDF, dan pembuatan PDF
+  master.
 og_title: Buat Dokumen PDF dengan Aspose.PDF – Panduan Lengkap
 tags:
 - Aspose.PDF
 - C#
-- PDF Generation
-title: Buat Dokumen PDF dengan Aspose.PDF – Panduan Langkah demi Langkah
+- PDF generation
+title: Buat Dokumen PDF dengan Aspose.PDF – Panduan Langkah-demi-Langkah
 url: /id/net/document-creation/create-pdf-document-with-aspose-pdf-step-by-step-guide/
 ---
 
@@ -28,225 +28,224 @@ url: /id/net/document-creation/create-pdf-document-with-aspose-pdf-step-by-step-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Membuat Dokumen PDF – Panduan Pemrograman Lengkap
+# Buat Dokumen PDF dengan Aspose.PDF – Panduan Langkah‑demi‑Langkah
 
-Pernahkah Anda perlu **create pdf document** dari awal dalam aplikasi .NET dan tidak yakin harus mulai dari mana? Anda bukan satu-satunya—para pengembang terus bertanya, “Bagaimana cara menghasilkan PDF secara langsung tanpa UI yang berat?” Kabar baiknya, Aspose.PDF membuatnya sangat mudah. Dalam tutorial ini kami tidak hanya akan **create pdf document**, kami juga akan **add blank pdf page**, menggambar **add rectangle pdf**, mengeksplorasi teknik **add shape pdf**, dan bahkan **set pdf page size** ketika sesuatu menjadi terlalu besar.
+Pernah perlu **create PDF document** secara programatis dan tidak yakin harus mulai dari mana? Anda bukan satu-satunya—pengembang di seluruh dunia menghadapi kendala ini ketika mereka mencoba mengotomatisasi laporan, faktur, atau sertifikat. Kabar baik? Dengan Aspose.PDF untuk .NET Anda dapat membuat PDF hanya dengan beberapa baris C#.
 
-Bayangkan Anda sedang membangun mesin faktur yang menghasilkan PDF receipt untuk setiap transaksi. Anda menginginkan kanvas bersih dan kosong, sebuah persegi panjang border, mungkin logo nanti. Pada akhir panduan ini Anda akan memiliki aplikasi konsol C# yang siap dijalankan yang melakukan hal tersebut, dan Anda akan memahami mengapa setiap baris kode penting.
+Dalam tutorial ini kami akan membahas seluruh proses: mulai dari menginisialisasi dokumen, ke **add page PDF**, ke **draw rectangle PDF**, dan akhirnya menyimpan file. Pada akhir tutorial Anda akan memiliki contoh yang solid dan dapat dijalankan serta pemahaman yang jelas tentang **how to create pdf** dengan percaya diri.
 
-## Prasyarat – Apa yang Anda Butuhkan
+## Apa yang Dibahas dalam Panduan Ini
 
-- **.NET 6.0** atau yang lebih baru (kode ini juga bekerja dengan .NET Framework 4.6+)
-- **Aspose.PDF for .NET** paket NuGet (`Aspose.Pdf`) – versi percobaan gratis atau berlisensi
-- IDE C# dasar (Visual Studio, VS Code, Rider—semua dapat)
-- Opsional: editor gambar jika Anda nanti ingin menyisipkan logo
+- Prasyarat yang Anda perlukan sebelum menulis kode  
+- Pembuatan PDF dokumen langkah‑demi‑langkah  
+- Menambahkan halaman baru ke dokumen tersebut (operasi klasik **add page pdf**)  
+- Menggambar bentuk persegi panjang, memverifikasi batasnya, dan menyisipkannya (bagian “**draw rectangle pdf**”)  
+- Kesulitan umum dan tip profesional untuk generasi PDF yang kuat  
+- Contoh kode lengkap, siap salin‑tempel yang dapat Anda jalankan hari ini  
 
-> Pro tip: pastikan paket NuGet Anda selalu terbaru; Aspose merilis perbaikan bug yang memengaruhi rendering shape.
+Tanpa referensi eksternal, tanpa bagian yang hilang—hanya solusi mandiri yang dapat Anda kutip atau bagikan.
 
----
+## Prasyarat
 
-## Langkah 1: Membuat Dokumen PDF – Inisialisasi
+| Persyaratan | Mengapa Penting |
+|-------------|----------------|
+| .NET 6.0 atau lebih baru (atau .NET Framework 4.6+) | Aspose.PDF mendukung keduanya; runtime yang lebih baru memberikan kinerja yang lebih baik. |
+| Paket NuGet Aspose.PDF untuk .NET (`Aspose.Pdf`) | Perpustakaan menyediakan kelas `Document`, `Page`, dan drawing yang akan kita gunakan. |
+| IDE C# (Visual Studio, Rider, VS Code) | Memudahkan proses kompilasi dan debug. |
+| Izin menulis ke folder output | Diperlukan untuk pemanggilan `Save` akhir. |
 
-Hal pertama yang Anda lakukan ketika ingin **create pdf document** adalah menginstansiasi kelas `Document`. Anggaplah itu seperti membuka buku catatan baru di mana setiap halaman akan menampung konten Anda.
+Instal paket melalui NuGet:
+
+```bash
+dotnet add package Aspose.Pdf
+```
+
+Itu saja—setelah paket terpasang Anda siap untuk **create pdf document**.
+
+## Langkah 1 – Membuat Dokumen PDF (Inisialisasi)
+
+Hal pertama yang kita lakukan adalah menginstansiasi `Document` baru. Anggap ini sebagai kanvas kosong tempat setiap halaman, gambar, atau bentuk akan berada.
+
+```csharp
+using Aspose.Pdf;
+using Aspose.Pdf.Drawing;
+
+// Step 1: Initialize a fresh PDF document
+var pdfDocument = new Document();
+```
+
+> **Mengapa ini penting:** `Document` adalah objek root. Tanpa itu Anda tidak dapat menambahkan halaman atau konten, jadi langkah ini penting untuk **how to create pdf** dari awal.
+
+## Langkah 2 – Tambahkan Halaman PDF
+
+PDF tanpa halaman hanyalah header file. Mari tambahkan sebuah halaman, tempat kami nanti akan menggambar persegi panjang.
+
+```csharp
+// Step 2: Add a new page to the document
+var pdfPage = pdfDocument.Pages.Add();
+```
+
+> **Tip pro:** Metode `Add()` mengembalikan objek `Page` yang baru dibuat, sehingga Anda dapat menambahkan aksi selanjutnya tanpa mencari koleksi lagi.
+
+### Memverifikasi Dimensi Halaman (Opsional)
+
+Jika Anda berencana menempatkan bentuk secara tepat, Anda mungkin ingin mengetahui ukuran halaman:
+
+```csharp
+float pageWidth = pdfPage.PageInfo.Width;   // default A4 width in points
+float pageHeight = pdfPage.PageInfo.Height; // default A4 height in points
+Console.WriteLine($"Page size: {pageWidth}×{pageHeight} points");
+```
+
+Potongan kode ini tidak diperlukan untuk alur dasar, tetapi membantu ketika Anda **how to add rectangle** dengan koordinat yang tepat.
+
+## Langkah 3 – Gambar Persegi Panjang PDF (Periksa Batas & Sisipkan)
+
+Sekarang bagian yang menyenangkan: menggambar persegi panjang. Kami akan mendefinisikan sebuah persegi panjang, memverifikasi bahwa ia muat di dalam halaman, dan kemudian menambahkannya ke koleksi paragraf halaman.
+
+```csharp
+// Step 3: Define a rectangle shape (LLX, LLY, URX, URY)
+// LLX = lower‑left X, LLY = lower‑left Y, URX = upper‑right X, URY = upper‑right Y
+var rectangleShape = new Rectangle(100, 500, 300, 700);
+
+// Step 4: Verify that the rectangle lies within the page bounds
+bool isInside = rectangleShape.LLX >= 0 &&
+                rectangleShape.URX <= pdfPage.PageInfo.Width &&
+                rectangleShape.LLY >= 0 &&
+                rectangleShape.URY <= pdfPage.PageInfo.Height;
+
+if (isInside)
+{
+    // Step 5: Add the rectangle to the page's paragraphs collection
+    pdfPage.Paragraphs.Add(rectangleShape);
+}
+else
+{
+    Console.WriteLine("Rectangle exceeds page bounds – adjust coordinates.");
+}
+```
+
+> **Mengapa kami memeriksa batas:** Mencoba menggambar di luar halaman dapat menghasilkan bentuk yang tidak terlihat atau peringatan runtime. Kondisional memastikan kami **draw rectangle pdf** dengan aman.
+
+### Menyesuaikan Penampilan
+
+Anda dapat memberi gaya pada persegi panjang dengan batas atau warna isi:
+
+```csharp
+rectangleShape.GraphInfo = new GraphInfo
+{
+    // Set a thin black border
+    LineWidth = 1,
+    StrokeColor = Color.Black,
+    // Optional fill (transparent by default)
+    FillColor = Color.LightGray
+};
+```
+
+Silakan bereksperimen—warna berbeda, lebar garis, atau bahkan goresan putus‑putus.
+
+## Langkah 4 – Simpan Dokumen PDF
+
+Langkah terakhir adalah menyimpan dokumen ke disk. Pilih folder yang Anda miliki akses menulis dan beri file nama yang jelas.
+
+```csharp
+// Step 6: Save the PDF document to a file
+string outputPath = Path.Combine(Environment.CurrentDirectory, "ShapeChecked.pdf");
+pdfDocument.Save(outputPath);
+
+Console.WriteLine($"PDF saved successfully at: {outputPath}");
+```
+
+Saat Anda membuka `ShapeChecked.pdf`, Anda akan melihat satu halaman dengan persegi panjang abu‑abu muda yang diposisikan antara (100, 500) dan (300, 700). Itu adalah hasil dari alur kerja **create pdf document** kami.
+
+![Create PDF Document example](image.png){alt="Contoh dokumen PDF yang dibuat menampilkan persegi panjang pada halaman"}
+
+## Contoh Lengkap yang Berfungsi (Siap Salin‑Tempel)
+
+Berikut adalah seluruh program, siap untuk dikompilasi. Tanpa bagian yang hilang, tanpa referensi eksternal.
 
 ```csharp
 using System;
+using System.IO;
 using Aspose.Pdf;
+using Aspose.Pdf.Drawing;
+using Aspose.Pdf.Color; // For color definitions
 
-namespace PdfDemo
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main()
-        {
-            // Step 1: Create a new PDF document (the blank canvas)
-            using var pdfDocument = new Document();
+        // 1️⃣ Create PDF document
+        var pdfDocument = new Document();
 
-            // The rest of the code follows...
+        // 2️⃣ Add page PDF
+        var pdfPage = pdfDocument.Pages.Add();
+
+        // Optional: show page size
+        Console.WriteLine($"Page size: {pdfPage.PageInfo.Width}×{pdfPage.PageInfo.Height} points");
+
+        // 3️⃣ Define rectangle (draw rectangle PDF)
+        var rectangleShape = new Rectangle(100, 500, 300, 700);
+
+        // Style the rectangle (optional)
+        rectangleShape.GraphInfo = new GraphInfo
+        {
+            LineWidth = 1,
+            StrokeColor = Color.Black,
+            FillColor = Color.LightGray
+        };
+
+        // 4️⃣ Verify bounds before adding
+        bool fits = rectangleShape.LLX >= 0 &&
+                    rectangleShape.URX <= pdfPage.PageInfo.Width &&
+                    rectangleShape.LLY >= 0 &&
+                    rectangleShape.URY <= pdfPage.PageInfo.Height;
+
+        if (fits)
+        {
+            // 5️⃣ Add rectangle to the page
+            pdfPage.Paragraphs.Add(rectangleShape);
+            Console.WriteLine("Rectangle added successfully.");
         }
+        else
+        {
+            Console.WriteLine("Rectangle is out of page bounds – adjust coordinates.");
+        }
+
+        // 6️⃣ Save the PDF
+        string outputFile = Path.Combine(Environment.CurrentDirectory, "ShapeChecked.pdf");
+        pdfDocument.Save(outputFile);
+        Console.WriteLine($"PDF saved at: {outputFile}");
     }
 }
 ```
 
-> Mengapa `using var`? Itu menjamin handle file dilepaskan secara otomatis, mencegah masalah file‑lock di kemudian hari.
+Menjalankan program ini menghasilkan file `ShapeChecked.pdf` tepat di sebelah executable. Buka dengan penampil PDF apa pun; Anda akan melihat persegi panjang yang kami gambar—bukti bahwa Anda berhasil **create pdf document**, **add page pdf**, dan **draw rectangle pdf** sekaligus.
 
-Objek `Document` mewakili seluruh file PDF, sehingga semua yang Anda tambahkan—halaman, shape, teks—akan terikat pada satu instance ini.
+## Pertanyaan Umum & Kasus Tepi
 
-## Langkah 2: Menambahkan Halaman PDF Kosong
+| Pertanyaan | Jawaban |
+|----------|--------|
+| *Bagaimana jika saya membutuhkan ukuran halaman yang berbeda?* | Atur `pdfPage.PageInfo.Width` dan `Height` sebelum menggambar, atau buat `Page` dengan enum `PageSize` khusus (mis., `PageSize.Letter`). |
+| *Bisakah saya menambahkan beberapa persegi panjang?* | Tentu—cukup ulangi blok pembuatan persegi panjang dan tambahkan setiap bentuk ke `pdfPage.Paragraphs`. |
+| *Apa yang terjadi pada PDF yang sangat kecil?* | Pemeriksaan batas akan mencegah koordinat di luar jangkauan, sehingga kode gagal dengan elegan dan menampilkan pesan di konsol. |
+| *Apakah ada cara memutar persegi panjang?* | Gunakan `rectangleShape.Rotation = 45;` (derajat) sebelum menambahkannya. |
+| *Apakah saya perlu membuang (`dispose`) `Document`?* | `Document` mengimplementasikan `IDisposable`. Pada aplikasi dunia nyata, bungkus dalam blok `using` untuk pembersihan deterministik. |
 
-PDF tanpa halaman sama bergunanya dengan buku tanpa halaman. Menambahkan **add blank pdf page** sesederhana memanggil `Pages.Add()`.
+## Tips Pro & Praktik Terbaik
 
-```csharp
-// Step 2: Add a blank page to the document
-Page page = pdfDocument.Pages.Add();
-```
-
-Di balik layar Aspose membuat halaman dengan ukuran default A4 (595 × 842 poin). Jika Anda memerlukan ukuran lain, Anda akan melihat cara **set pdf page size** pada langkah berikutnya.
-
-## Langkah 3: Menambahkan Persegi Panjang ke PDF – Menggunakan Add Shape PDF
-
-Sekarang bagian yang menyenangkan: menggambar shape. Dalam terminologi Aspose, persegi panjang adalah jenis **add shape pdf** dan Anda melakukannya dengan `AddRectangle`. Mari coba menggambar persegi panjang yang sengaja lebih besar dari halaman untuk melihat apa yang terjadi.
-
-```csharp
-// Step 3: Define a rectangle larger than the page bounds
-// Coordinates are (lower‑left X, lower‑left Y, upper‑right X, upper‑right Y)
-var oversizedRectangle = new Rectangle(0, 0, 1000, 2000);
-
-// Step 4: Attempt to add the rectangle – this triggers an exception
-try
-{
-    page.AddRectangle(oversizedRectangle);
-}
-catch (InvalidOperationException ex)
-{
-    Console.WriteLine($"[Warning] {ex.Message}");
-}
-```
-
-### Apa yang Salah?
-
-Aspose melempar `InvalidOperationException` karena persegi panjang melebihi dimensi halaman. Ini adalah kasus tepi klasik **add rectangle pdf**: Anda tidak dapat menempatkan geometri di luar area yang dapat dicetak kecuali Anda memperbesar halaman terlebih dahulu.
-
-## Langkah 4: Mengatur Ukuran Halaman PDF agar Menampung Shape
-
-Agar persegi panjang yang terlalu besar muat, kita perlu **set pdf page size** sebelum menambahkan shape. Objek `Page` menyediakan `SetPageSize` yang menerima lebar dan tinggi dalam poin.
-
-```csharp
-// Step 5: Resize the page to fit the oversized rectangle
-page.SetPageSize(1000, 2000);   // Width = 1000 pt, Height = 2000 pt
-
-// Now the rectangle can be added without an exception
-page.AddRectangle(oversizedRectangle);
-Console.WriteLine("Rectangle added successfully after resizing the page.");
-```
-
-> Catatan: Mengubah ukuran halaman setelah shape ditambahkan akan memindahkan konten yang ada, sehingga lebih aman untuk mengatur ukuran **sebelum** Anda menggambar apa pun.
-
-## Contoh Lengkap yang Berfungsi
-
-Menggabungkan semua bagian memberikan Anda program yang ringkas dan dapat dijalankan. Salin‑tempel ini ke proyek konsol baru dan tekan **F5**.
-
-```csharp
-using System;
-using Aspose.Pdf;
-
-namespace PdfDemo
-{
-    class Program
-    {
-        static void Main()
-        {
-            // Create a new PDF document
-            using var pdfDocument = new Document();
-
-            // Add a blank page (add blank pdf page)
-            Page page = pdfDocument.Pages.Add();
-
-            // Define a rectangle larger than the default page
-            var oversizedRectangle = new Rectangle(0, 0, 1000, 2000);
-
-            // Try adding it – will fail on default size
-            try
-            {
-                page.AddRectangle(oversizedRectangle);
-            }
-            catch (InvalidOperationException ex)
-            {
-                Console.WriteLine($"[Info] Default page too small: {ex.Message}");
-            }
-
-            // Resize the page (set pdf page size) so the rectangle fits
-            page.SetPageSize(1000, 2000);
-
-            // Add the rectangle again – this time it works (add shape pdf)
-            page.AddRectangle(oversizedRectangle);
-            Console.WriteLine("Rectangle added after resizing the page.");
-
-            // Save the document to disk
-            const string outputPath = "OversizedRectangle.pdf";
-            pdfDocument.Save(outputPath);
-            Console.WriteLine($"PDF saved to {outputPath}");
-        }
-    }
-}
-```
-
-**Output yang diharapkan di konsol**
-
-```
-[Info] Default page too small: The rectangle exceeds page bounds.
-Rectangle added after resizing the page.
-PDF saved to OversizedRectangle.pdf
-```
-
-Buka `OversizedRectangle.pdf` dan Anda akan melihat satu halaman yang persis sesuai dengan dimensi persegi panjang, dengan persegi panjang mengisi halaman. Tidak ada pemotongan, tidak ada konten tersembunyi.
-
-## Variasi & Kasus Tepi
-
-### Menambahkan Beberapa Shape
-
-Jika Anda perlu **add shape pdf** beberapa kali (mis., border plus logo), cukup ulangi `AddRectangle` atau gunakan `AddEllipse`, `AddPolygon`, dll., setelah Anda mengatur ukuran halaman yang sesuai.
-
-```csharp
-var logoRect = new Rectangle(50, 1800, 250, 2000);
-page.AddRectangle(logoRect); // places a smaller rectangle for a logo
-```
-
-### Menjaga Ukuran Halaman Asli
-
-Terkadang Anda *tidak* ingin mengubah ukuran halaman. Dalam skenario itu Anda dapat **add rectangle pdf** yang muat di dalam batas yang ada, atau Anda dapat memotong persegi panjang secara manual:
-
-```csharp
-var clippedRect = new Rectangle(0, 0, page.PageInfo.Width, page.PageInfo.Height);
-page.AddRectangle(clippedRect);
-```
-
-### Menyimpan ke Stream
-
-Untuk API web Anda mungkin lebih suka menulis PDF ke memory stream alih-alih ke file:
-
-```csharp
-using var ms = new MemoryStream();
-pdfDocument.Save(ms, SaveFormat.Pdf);
-// Return ms.ToArray() as a file download response
-```
-
-### Menangani Unit Berbeda
-
-Aspose bekerja dalam poin (1 pt = 1/72 inci). Jika Anda berpikir dalam milimeter atau sentimeter, konversikan terlebih dahulu:
-
-```csharp
-float mmToPt = 72f / 25.4f;
-float widthPt = 210 * mmToPt;   // A4 width in points
-float heightPt = 297 * mmToPt;  // A4 height in points
-page.SetPageSize(widthPt, heightPt);
-```
-
----
-
-## Pertanyaan Umum Terjawab
-
-**Q: Apakah saya memerlukan lisensi untuk menggunakan Aspose.PDF?**  
-A: Anda dapat memulai dengan lisensi sementara gratis untuk evaluasi. Penggunaan produksi memerlukan lisensi berbayar, jika tidak akan muncul watermark.
-
-**Q: Bisakah saya menambahkan teks di dalam persegi panjang?**  
-A: Tentu saja. Gunakan `TextFragment` dan posisikan dengan `TextFragment.Position`.
-
-**Q: Bagaimana jika saya menginginkan orientasi lanskap?**  
-A: Tukar lebar dan tinggi saat memanggil `SetPageSize`.
-
-**Q: Apakah ada cara untuk memusatkan persegi panjang secara otomatis?**  
-A: Hitung offset sebagai `(pageWidth - rectWidth) / 2` dan sesuaikan koordinat X/Y persegi panjang sesuai.
+- **Penambahan batch:** Jika Anda menambahkan puluhan bentuk, buat dulu dalam daftar, lalu tambahkan seluruh daftar ke `Paragraphs`—ini mengurangi beban pemrosesan internal.
+- **Sistem koordinat:** Aspose.PDF menggunakan poin (1 pt = 1/72 in). Ingat untuk mengonversi dari piksel atau milimeter jika data sumber Anda menggunakan satuan lain.
+- **Kinerja:** Untuk PDF besar, pertimbangkan mengaktifkan `pdfDocument.Optimize()` sebelum menyimpan; ini mengompresi aliran dan mengurangi ukuran file.
+- **Penanganan error:** Bungkus seluruh alur dalam `try/catch` dan catat `PdfException` untuk diagnostik yang lebih baik.
 
 ## Kesimpulan
 
-Anda sekarang tahu cara **create pdf document** dengan Aspose.PDF, **add blank pdf page**, menggambar **add rectangle pdf**, menggunakan metode **add shape pdf**, dan **set pdf page size** untuk menghindari kesalahan batas. Contoh lengkap di atas siap dijalankan, dan Anda dapat menyesuaikannya untuk menghasilkan faktur, sertifikat, atau laporan khusus apa pun yang Anda inginkan.
+Anda kini tahu persis **how to create pdf document** dengan Aspose.PDF, cara **add page pdf**, dan cara **draw rectangle pdf** sambil memeriksa batas dengan aman. Contoh lengkap di atas dapat dimasukkan ke dalam proyek .NET apa pun, memberi Anda fondasi yang kuat untuk tugas PDF yang lebih maju seperti menyisipkan gambar, tabel, atau tanda tangan digital.
 
-Langkah selanjutnya? Coba sisipkan gambar, beri gaya pada persegi panjang dengan lebar garis atau warna, atau hasilkan beberapa halaman dalam loop. Setiap topik tersebut membangun pada dasar yang baru saja Anda kuasai, dan akan membuat otomatisasi PDF Anda benar‑benar siap produksi.
+Siap untuk langkah selanjutnya? Coba ganti persegi panjang dengan `Ellipse`, bereksperimen dengan grafik berlapis, atau hasilkan laporan multi‑halaman dengan mengulang baris data. Prinsip yang sama—inisialisasi, tambahkan halaman, gambar bentuk, simpan—berlaku di semua skenario pembuatan PDF.
 
-Ada pertanyaan lebih lanjut atau kasus penggunaan menarik yang ingin Anda bagikan? Tinggalkan komentar, dan selamat coding!  
-
-![Contoh Membuat Dokumen PDF](create-pdf-document.png "Contoh Membuat Dokumen PDF")
+Jika Anda mengalami kendala atau memiliki ide untuk peningkatan lebih lanjut, silakan tinggalkan komentar. Selamat coding, dan nikmati membangun PDF yang indah!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

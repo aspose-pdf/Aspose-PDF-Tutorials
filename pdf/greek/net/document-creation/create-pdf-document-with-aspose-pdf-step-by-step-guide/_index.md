@@ -1,25 +1,25 @@
 ---
 category: general
-date: 2026-03-03
+date: 2026-01-10
 description: Δημιουργήστε έγγραφο PDF χρησιμοποιώντας το Aspose.PDF σε C#. Μάθετε
-  πώς να προσθέσετε κενή σελίδα PDF, να προσθέσετε ορθογώνιο PDF, να προσθέσετε σχήμα
-  PDF και να ορίσετε το μέγεθος της σελίδας PDF σε ένα σύντομο οδηγό.
+  πώς να προσθέτετε σελίδα PDF, να σχεδιάζετε ορθογώνιο PDF και πολλά άλλα σε αυτό
+  το πλήρες σεμινάριο.
 draft: false
 keywords:
 - create pdf document
-- add blank pdf page
-- add rectangle pdf
-- add shape pdf
-- set pdf page size
+- add page pdf
+- draw rectangle pdf
+- how to create pdf
+- how to add rectangle
 language: el
-og_description: Δημιουργήστε έγγραφο PDF σε C# με το Aspose.PDF. Αυτός ο οδηγός δείχνει
-  πώς να προσθέσετε μια κενή σελίδα PDF, να σχεδιάσετε ένα ορθογώνιο, να προσθέσετε
-  σχήματα και να ορίσετε το μέγεθος της σελίδας.
+og_description: Δημιουργήστε έγγραφο PDF χρησιμοποιώντας το Aspose.PDF σε C#. Ακολουθήστε
+  αυτόν τον οδηγό για να προσθέσετε σελίδα PDF, να σχεδιάσετε ορθογώνιο PDF και να
+  δημιουργήσετε κύριο PDF.
 og_title: Δημιουργία εγγράφου PDF με το Aspose.PDF – Πλήρης οδηγός
 tags:
 - Aspose.PDF
 - C#
-- PDF Generation
+- PDF generation
 title: Δημιουργία εγγράφου PDF με το Aspose.PDF – Οδηγός βήμα‑προς‑βήμα
 url: /el/net/document-creation/create-pdf-document-with-aspose-pdf-step-by-step-guide/
 ---
@@ -28,225 +28,224 @@ url: /el/net/document-creation/create-pdf-document-with-aspose-pdf-step-by-step-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Δημιουργία Εγγράφου PDF – Πλήρης Οδηγός Προγραμματισμού
+# Δημιουργία εγγράφου PDF με Aspose.PDF – Οδηγός βήμα‑βήμα
 
-Ποτέ χρειάστηκε να **create pdf document** από το μηδέν σε μια εφαρμογή .NET και δεν ήξερες από πού να ξεκινήσεις; Δεν είσαι ο μόνος—οι προγραμματιστές ρωτούν συνεχώς, “Πώς μπορώ να δημιουργήσω ένα PDF άμεσα χωρίς βαριά UI;” Τα καλά νέα είναι ότι το Aspose.PDF το κάνει παιχνιδάκι. Σε αυτό το tutorial δεν θα **create pdf document** μόνο, θα **add blank pdf page**, θα σχεδιάσουμε ένα **add rectangle pdf**, θα εξερευνήσουμε τεχνικές **add shape pdf**, και ακόμη θα **set pdf page size** όταν τα πράγματα γίνουν λίγο πολύ μεγάλα.
+Έχετε ποτέ χρειαστεί να **create PDF document** προγραμματιστικά και δεν ήξερες από πού να ξεκινήσεις; Δεν είστε μόνοι—προγραμματιστές σε όλο τον κόσμο αντιμετωπίζουν αυτό το εμπόδιο όταν προσπαθούν να αυτοματοποιήσουν αναφορές, τιμολόγια ή πιστοποιητικά. Τα καλά νέα; Με το Aspose.PDF για .NET μπορείτε να δημιουργήσετε ένα PDF με λίγες μόνο γραμμές C#.
 
-Φαντάσου ότι χτίζεις μια μηχανή τιμολόγησης που παράγει μια απόδειξη PDF για κάθε συναλλαγή. Θέλεις έναν καθαρό, κενό καμβά, ένα ορθογώνιο περίγραμμα, ίσως ένα λογότυπο αργότερα. Στο τέλος αυτού του οδηγού θα έχεις μια έτοιμη‑για‑εκτέλεση εφαρμογή κονσόλας C# που κάνει ακριβώς αυτό, και θα καταλάβεις γιατί κάθε γραμμή κώδικα έχει σημασία.
+Σε αυτό το tutorial θα περάσουμε από όλη τη διαδικασία: από την αρχικοποίηση του εγγράφου, μέχρι το **add page PDF**, το **draw rectangle PDF**, και τέλος την αποθήκευση του αρχείου. Στο τέλος θα έχετε ένα σταθερό, εκτελέσιμο παράδειγμα και μια σαφή κατανόηση του **how to create pdf** με σιγουριά.
 
-## Απαιτούμενα – Τι Θα Χρειαστείτε
+## Τι καλύπτει αυτός ο οδηγός
 
-- **.NET 6.0** ή νεότερο (ο κώδικας λειτουργεί επίσης με .NET Framework 4.6+)
-- **Aspose.PDF for .NET** πακέτο NuGet (`Aspose.Pdf`) – δωρεάν δοκιμή ή έκδοση με άδεια
-- Ένα βασικό IDE για C# (Visual Studio, VS Code, Rider—οποιοδήποτε είναι εντάξει)
-- Προαιρετικά: ένας επεξεργαστής εικόνας αν θέλεις αργότερα να ενσωματώσεις λογότυπα
+- Προαπαιτούμενα που χρειάζεστε πριν γράψετε κώδικα  
+- Δημιουργία PDF εγγράφου βήμα‑βήμα  
+- Προσθήκη νέας σελίδας στο έγγραφο (η κλασική λειτουργία **add page pdf**)  
+- Σχεδίαση σχήματος ορθογωνίου, επαλήθευση των διαστάσεων του και εισαγωγή του (το τμήμα “**draw rectangle pdf**”)  
+- Συνηθισμένα προβλήματα και επαγγελματικές συμβουλές για αξιόπιστη δημιουργία PDF  
+- Ένα πλήρες, έτοιμο για αντιγραφή‑και‑επικόλληση δείγμα κώδικα που μπορείτε να εκτελέσετε σήμερα  
 
-> Συμβουλή επαγγελματία: διατήρησε τα πακέτα NuGet ενημερωμένα· το Aspose κυκλοφορεί διορθώσεις σφαλμάτων που επηρεάζουν την απόδοση των σχημάτων.
+Καμία εξωτερική αναφορά, κανένα ελλιπές κομμάτι—απλώς μια αυτόνομη λύση που μπορείτε να αναφέρετε ή να μοιραστείτε.
 
----
+## Προαπαιτούμενα
 
-## Βήμα 1: Δημιουργία Εγγράφου PDF – Αρχικοποίηση
+| Απαίτηση | Γιατί είναι σημαντικό |
+|----------|-----------------------|
+| .NET 6.0 ή νεότερο (ή .NET Framework 4.6+) | Το Aspose.PDF υποστηρίζει και τα δύο· τα νεότερα runtime προσφέρουν καλύτερη απόδοση. |
+| Πακέτο NuGet Aspose.PDF for .NET (`Aspose.Pdf`) | Η βιβλιοθήκη παρέχει τις κλάσεις `Document`, `Page` και drawing που θα χρησιμοποιήσουμε. |
+| IDE C# (Visual Studio, Rider, VS Code) | Κάνει εύκολη τη μεταγλώττιση και τον εντοπισμό σφαλμάτων. |
+| Δικαίωμα εγγραφής στον φάκελο εξόδου | Απαιτείται για την τελική κλήση `Save`. |
 
-Το πρώτο πράγμα που κάνεις όταν θέλεις να **create pdf document** είναι να δημιουργήσεις ένα αντικείμενο της κλάσης `Document`. Σκέψου το σαν το άνοιγμα ενός νέου σημειωματάριου όπου κάθε σελίδα θα κρατά το περιεχόμενό σου.
+Εγκαταστήστε το πακέτο μέσω NuGet:
+
+```bash
+dotnet add package Aspose.Pdf
+```
+
+Αυτό είναι—μόλις το πακέτο είναι στη θέση του, είστε έτοιμοι να **create pdf document**.
+
+## Βήμα 1 – Δημιουργία PDF Εγγράφου (Αρχικοποίηση)
+
+Το πρώτο που κάνουμε είναι να δημιουργήσουμε ένα νέο `Document`. Σκεφτείτε το ως το κενό καμβά όπου θα ζουν όλες οι σελίδες, εικόνες ή σχήματα.
+
+```csharp
+using Aspose.Pdf;
+using Aspose.Pdf.Drawing;
+
+// Step 1: Initialize a fresh PDF document
+var pdfDocument = new Document();
+```
+
+> **Γιατί είναι σημαντικό:** `Document` είναι το αντικείμενο ρίζας. Χωρίς αυτό δεν μπορείτε να προσθέσετε σελίδες ή περιεχόμενο, έτσι αυτό το βήμα είναι απαραίτητο για **how to create pdf** από την αρχή.
+
+## Βήμα 2 – Προσθήκη σελίδας PDF
+
+Ένα PDF χωρίς σελίδες είναι μόνο μια κεφαλίδα αρχείου. Ας προσθέσουμε μια σελίδα, όπου αργότερα θα σχεδιάσουμε το ορθογώνιο μας.
+
+```csharp
+// Step 2: Add a new page to the document
+var pdfPage = pdfDocument.Pages.Add();
+```
+
+> **Συμβουλή:** Η μέθοδος `Add()` επιστρέφει το νεοδημιουργημένο αντικείμενο `Page`, ώστε να μπορείτε να αλυσίδετε περαιτέρω ενέργειες χωρίς να ψάχνετε ξανά στη συλλογή.
+
+### Επαλήθευση διαστάσεων σελίδας (Προαιρετικό)
+
+Αν σκοπεύετε να τοποθετήσετε σχήματα με ακρίβεια, ίσως θέλετε να γνωρίζετε το μέγεθος της σελίδας:
+
+```csharp
+float pageWidth = pdfPage.PageInfo.Width;   // default A4 width in points
+float pageHeight = pdfPage.PageInfo.Height; // default A4 height in points
+Console.WriteLine($"Page size: {pageWidth}×{pageHeight} points");
+```
+
+Αυτό το απόσπασμα δεν απαιτείται για τη βασική ροή, αλλά βοηθά όταν κάνετε **how to add rectangle** με ακριβείς συντεταγμένες.
+
+## Βήμα 3 – Σχεδίαση ορθογωνίου PDF (Έλεγχος ορίων & Εισαγωγή)
+
+Τώρα έρχεται το διασκεδαστικό μέρος: η σχεδίαση ενός ορθογωνίου. Θα ορίσουμε ένα ορθογώνιο, θα επαληθεύσουμε ότι χωράει μέσα στη σελίδα και στη συνέχεια θα το προσθέσουμε στη συλλογή παραγράφων της σελίδας.
+
+```csharp
+// Step 3: Define a rectangle shape (LLX, LLY, URX, URY)
+// LLX = lower‑left X, LLY = lower‑left Y, URX = upper‑right X, URY = upper‑right Y
+var rectangleShape = new Rectangle(100, 500, 300, 700);
+
+// Step 4: Verify that the rectangle lies within the page bounds
+bool isInside = rectangleShape.LLX >= 0 &&
+                rectangleShape.URX <= pdfPage.PageInfo.Width &&
+                rectangleShape.LLY >= 0 &&
+                rectangleShape.URY <= pdfPage.PageInfo.Height;
+
+if (isInside)
+{
+    // Step 5: Add the rectangle to the page's paragraphs collection
+    pdfPage.Paragraphs.Add(rectangleShape);
+}
+else
+{
+    Console.WriteLine("Rectangle exceeds page bounds – adjust coordinates.");
+}
+```
+
+> **Γιατί ελέγχουμε τα όρια:** Η προσπάθεια σχεδίασης εκτός της σελίδας μπορεί να οδηγήσει σε αόρατα σχήματα ή προειδοποιήσεις χρόνου εκτέλεσης. Η συνθήκη εξασφαλίζει ότι κάνουμε **draw rectangle pdf** με ασφάλεια.
+
+### Προσαρμογή εμφάνισης
+
+Μπορείτε να διαμορφώσετε το ορθογώνιο με περιγράμματα ή χρώματα γεμίσματος:
+
+```csharp
+rectangleShape.GraphInfo = new GraphInfo
+{
+    // Set a thin black border
+    LineWidth = 1,
+    StrokeColor = Color.Black,
+    // Optional fill (transparent by default)
+    FillColor = Color.LightGray
+};
+```
+
+Νιώστε ελεύθεροι να πειραματιστείτε—διαφορετικά χρώματα, πάχη γραμμής ή ακόμη και διακεκομμένες γραμμές.
+
+## Βήμα 4 – Αποθήκευση του PDF Εγγράφου
+
+Το τελικό βήμα είναι η αποθήκευση του εγγράφου στο δίσκο. Επιλέξτε έναν φάκελο στον οποίο έχετε δικαίωμα εγγραφής και δώστε στο αρχείο ένα σαφές όνομα.
+
+```csharp
+// Step 6: Save the PDF document to a file
+string outputPath = Path.Combine(Environment.CurrentDirectory, "ShapeChecked.pdf");
+pdfDocument.Save(outputPath);
+
+Console.WriteLine($"PDF saved successfully at: {outputPath}");
+```
+
+Όταν ανοίξετε το `ShapeChecked.pdf`, θα πρέπει να δείτε μια μόνο σελίδα με ένα ανοιχτό-γκρι ορθογώνιο τοποθετημένο μεταξύ (100, 500) και (300, 700). Αυτό είναι το αποτέλεσμα της ροής εργασίας **create pdf document**.
+
+![Create PDF Document example](image.png){alt="Παράδειγμα δημιουργίας PDF εγγράφου που δείχνει ένα ορθογώνιο σε μια σελίδα"}
+
+## Πλήρες λειτουργικό παράδειγμα (Έτοιμο για αντιγραφή‑και‑επικόλληση)
+
+Παρακάτω βρίσκεται ολόκληρο το πρόγραμμα, έτοιμο για μεταγλώττιση. Χωρίς ελλιπή κομμάτια, χωρίς εξωτερικές αναφορές.
 
 ```csharp
 using System;
+using System.IO;
 using Aspose.Pdf;
+using Aspose.Pdf.Drawing;
+using Aspose.Pdf.Color; // For color definitions
 
-namespace PdfDemo
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main()
-        {
-            // Step 1: Create a new PDF document (the blank canvas)
-            using var pdfDocument = new Document();
+        // 1️⃣ Create PDF document
+        var pdfDocument = new Document();
 
-            // The rest of the code follows...
+        // 2️⃣ Add page PDF
+        var pdfPage = pdfDocument.Pages.Add();
+
+        // Optional: show page size
+        Console.WriteLine($"Page size: {pdfPage.PageInfo.Width}×{pdfPage.PageInfo.Height} points");
+
+        // 3️⃣ Define rectangle (draw rectangle PDF)
+        var rectangleShape = new Rectangle(100, 500, 300, 700);
+
+        // Style the rectangle (optional)
+        rectangleShape.GraphInfo = new GraphInfo
+        {
+            LineWidth = 1,
+            StrokeColor = Color.Black,
+            FillColor = Color.LightGray
+        };
+
+        // 4️⃣ Verify bounds before adding
+        bool fits = rectangleShape.LLX >= 0 &&
+                    rectangleShape.URX <= pdfPage.PageInfo.Width &&
+                    rectangleShape.LLY >= 0 &&
+                    rectangleShape.URY <= pdfPage.PageInfo.Height;
+
+        if (fits)
+        {
+            // 5️⃣ Add rectangle to the page
+            pdfPage.Paragraphs.Add(rectangleShape);
+            Console.WriteLine("Rectangle added successfully.");
         }
+        else
+        {
+            Console.WriteLine("Rectangle is out of page bounds – adjust coordinates.");
+        }
+
+        // 6️⃣ Save the PDF
+        string outputFile = Path.Combine(Environment.CurrentDirectory, "ShapeChecked.pdf");
+        pdfDocument.Save(outputFile);
+        Console.WriteLine($"PDF saved at: {outputFile}");
     }
 }
 ```
 
-> Γιατί `using var`; Εξασφαλίζει ότι η διαχείριση του αρχείου απελευθερώνεται αυτόματα, αποτρέποντας προβλήματα κλειδώματος αρχείου αργότερα.
+Η εκτέλεση αυτού του προγράμματος παράγει ένα αρχείο `ShapeChecked.pdf` ακριβώς δίπλα στο εκτελέσιμο. Ανοίξτε το με οποιονδήποτε προβολέα PDF· θα δείτε το ορθογώνιο που σχεδιάσαμε—απόδειξη ότι έχετε δημιουργήσει με επιτυχία **create pdf document**, **add page pdf**, και **draw rectangle pdf** όλα σε μία ενέργεια.
 
-Το αντικείμενο `Document` αντιπροσωπεύει ολόκληρο το αρχείο PDF, έτσι ό,τι προσθέτεις—σελίδες, σχήματα, κείμενο—συνδέεται με αυτή τη μοναδική παρουσία.
+## Συχνές ερωτήσεις & ειδικές περιπτώσεις
 
-## Βήμα 2: Προσθήκη Κενής Σελίδας PDF
+| Ερώτηση | Απάντηση |
+|----------|----------|
+| *Τι γίνεται αν χρειάζομαι διαφορετικό μέγεθος σελίδας;* | Ορίστε `pdfPage.PageInfo.Width` και `Height` πριν το σχεδιάσετε, ή δημιουργήστε μια `Page` με προσαρμοσμένο enum `PageSize` (π.χ., `PageSize.Letter`). |
+| *Μπορώ να προσθέσω πολλά ορθογώνια;* | Απόλυτα—απλώς επαναλάβετε το μπλοκ δημιουργίας ορθογωνίου και προσθέστε κάθε σχήμα στο `pdfPage.Paragraphs`. |
+| *Τι συμβαίνει σε πολύ μικρά PDFs;* | Ο έλεγχος ορίων θα αποτρέψει συντεταγμένες εκτός εύρους, έτσι ο κώδικας αποτυγχάνει ήρεμα με μήνυμα στην κονσόλα. |
+| *Υπάρχει τρόπος να περιστρέψω το ορθογώνιο;* | Χρησιμοποιήστε `rectangleShape.Rotation = 45;` (μοίρες) πριν το προσθέσετε. |
+| *Πρέπει να απελευθερώσω το `Document`;* | `Document` υλοποιεί το `IDisposable`. Σε μια πραγματική εφαρμογή τυλίξτε το σε μπλοκ `using` για καθορισμένο καθαρισμό. |
 
-Ένα PDF χωρίς σελίδες είναι τόσο χρήσιμο όσο ένα βιβλίο χωρίς σελίδες. Η προσθήκη μιας **add blank pdf page** είναι τόσο απλή όσο η κλήση του `Pages.Add()`.
+## Συμβουλές & βέλτιστες πρακτικές
 
-```csharp
-// Step 2: Add a blank page to the document
-Page page = pdfDocument.Pages.Add();
-```
-
-Στο παρασκήνιο το Aspose δημιουργεί μια σελίδα με προεπιλεγμένο μέγεθος A4 (595 × 842 points). Αν χρειάζεσαι διαφορετικό μέγεθος, θα δεις πώς να **set pdf page size** σε επόμενο βήμα.
-
-## Βήμα 3: Προσθήκη Ορθογωνίου στο PDF – Χρήση Add Shape PDF
-
-Τώρα έρχεται το διασκεδαστικό μέρος: η σχεδίαση ενός σχήματος. Στην ορολογία του Aspose, ένα ορθογώνιο είναι τύπος **add shape pdf** και το δημιουργείς με `AddRectangle`. Ας προσπαθήσουμε να σχεδιάσουμε ένα ορθογώνιο που είναι σκόπιμα μεγαλύτερο από τη σελίδα για να δούμε τι συμβαίνει.
-
-```csharp
-// Step 3: Define a rectangle larger than the page bounds
-// Coordinates are (lower‑left X, lower‑left Y, upper‑right X, upper‑right Y)
-var oversizedRectangle = new Rectangle(0, 0, 1000, 2000);
-
-// Step 4: Attempt to add the rectangle – this triggers an exception
-try
-{
-    page.AddRectangle(oversizedRectangle);
-}
-catch (InvalidOperationException ex)
-{
-    Console.WriteLine($"[Warning] {ex.Message}");
-}
-```
-
-### Τι Πήγε Λάθος;
-
-Το Aspose ρίχνει ένα `InvalidOperationException` επειδή το ορθογώνιο υπερβαίνει τις διαστάσεις της σελίδας. Αυτό είναι ένα κλασικό σενάριο **add rectangle pdf**: δεν μπορείς να τοποθετήσεις γεωμετρία εκτός της εκτυπώσιμης περιοχής εκτός αν πρώτα μεγαλώσεις τη σελίδα.
-
-## Βήμα 4: Ορισμός Μεγέθους Σελίδας PDF για να Φιλοξενηθεί το Σχήμα
-
-Για να χωρέσει το υπερμεγέθες ορθογώνιο, πρέπει να **set pdf page size** πριν προσθέσουμε το σχήμα. Το αντικείμενο `Page` εκθέτει τη μέθοδο `SetPageSize` που δέχεται πλάτος και ύψος σε points.
-
-```csharp
-// Step 5: Resize the page to fit the oversized rectangle
-page.SetPageSize(1000, 2000);   // Width = 1000 pt, Height = 2000 pt
-
-// Now the rectangle can be added without an exception
-page.AddRectangle(oversizedRectangle);
-Console.WriteLine("Rectangle added successfully after resizing the page.");
-```
-
-> Σημείωση: Η αλλαγή του μεγέθους της σελίδας μετά την προσθήκη ενός σχήματος θα μετατοπίσει το υπάρχον περιεχόμενο, γι' αυτό είναι πιο ασφαλές να ορίσεις το μέγεθος **before** σχεδιάσεις οτιδήποτε.
-
-## Πλήρες Παράδειγμα Λειτουργίας
-
-Συνδυάζοντας όλα τα κομμάτια παίρνεις ένα συμπαγές, εκτελέσιμο πρόγραμμα. Αντέγραψε‑επικόλλησε αυτό σε ένα νέο έργο κονσόλας και πάτα **F5**.
-
-```csharp
-using System;
-using Aspose.Pdf;
-
-namespace PdfDemo
-{
-    class Program
-    {
-        static void Main()
-        {
-            // Create a new PDF document
-            using var pdfDocument = new Document();
-
-            // Add a blank page (add blank pdf page)
-            Page page = pdfDocument.Pages.Add();
-
-            // Define a rectangle larger than the default page
-            var oversizedRectangle = new Rectangle(0, 0, 1000, 2000);
-
-            // Try adding it – will fail on default size
-            try
-            {
-                page.AddRectangle(oversizedRectangle);
-            }
-            catch (InvalidOperationException ex)
-            {
-                Console.WriteLine($"[Info] Default page too small: {ex.Message}");
-            }
-
-            // Resize the page (set pdf page size) so the rectangle fits
-            page.SetPageSize(1000, 2000);
-
-            // Add the rectangle again – this time it works (add shape pdf)
-            page.AddRectangle(oversizedRectangle);
-            Console.WriteLine("Rectangle added after resizing the page.");
-
-            // Save the document to disk
-            const string outputPath = "OversizedRectangle.pdf";
-            pdfDocument.Save(outputPath);
-            Console.WriteLine($"PDF saved to {outputPath}");
-        }
-    }
-}
-```
-
-**Αναμενόμενη έξοδος στην κονσόλα**
-
-```
-[Info] Default page too small: The rectangle exceeds page bounds.
-Rectangle added after resizing the page.
-PDF saved to OversizedRectangle.pdf
-```
-
-Άνοιξε το `OversizedRectangle.pdf` και θα δεις μια μοναδική σελίδα που ταιριάζει ακριβώς με τις διαστάσεις του ορθογωνίου, με το ορθογώνιο να γεμίζει τη σελίδα. Χωρίς αποκοπή, χωρίς κρυφό περιεχόμενο.
-
-## Παραλλαγές & Ακραίες Περιπτώσεις
-
-### Προσθήκη Πολλαπλών Σχημάτων
-
-Αν χρειάζεται να **add shape pdf** πολλές φορές (π.χ. ένα περίγραμμα συν λογότυπο), απλώς επανάλαβε το `AddRectangle` ή χρησιμοποίησε `AddEllipse`, `AddPolygon`, κ.λπ., αφού έχεις ορίσει το κατάλληλο μέγεθος σελίδας.
-
-```csharp
-var logoRect = new Rectangle(50, 1800, 250, 2000);
-page.AddRectangle(logoRect); // places a smaller rectangle for a logo
-```
-
-### Διατήρηση του Αρχικού Μεγέθους Σελίδας
-
-Μερικές φορές *δεν* θέλεις να αλλάξεις το μέγεθος της σελίδας. Σε αυτή την περίπτωση μπορείς να **add rectangle pdf** που ταιριάζει μέσα στα υπάρχοντα όρια, ή να αποκόψεις το ορθογώνιο χειροκίνητα:
-
-```csharp
-var clippedRect = new Rectangle(0, 0, page.PageInfo.Width, page.PageInfo.Height);
-page.AddRectangle(clippedRect);
-```
-
-### Αποθήκευση σε Stream
-
-Για web APIs μπορεί να προτιμάς να γράψεις το PDF σε ένα memory stream αντί για αρχείο:
-
-```csharp
-using var ms = new MemoryStream();
-pdfDocument.Save(ms, SaveFormat.Pdf);
-// Return ms.ToArray() as a file download response
-```
-
-### Διαχείριση Διαφορετικών Μονάδων
-
-Το Aspose λειτουργεί σε points (1 pt = 1/72 inch). Αν σκέφτεσαι σε χιλιοστά ή εκατοστά, κάνε πρώτα τη μετατροπή:
-
-```csharp
-float mmToPt = 72f / 25.4f;
-float widthPt = 210 * mmToPt;   // A4 width in points
-float heightPt = 297 * mmToPt;  // A4 height in points
-page.SetPageSize(widthPt, heightPt);
-```
-
----
-
-## Συχνές Ερωτήσεις Απαντημένες
-
-**Q: Χρειάζομαι άδεια για να χρησιμοποιήσω το Aspose.PDF;**  
-A: Μπορείς να ξεκινήσεις με δωρεάν προσωρινή άδεια για αξιολόγηση. Η παραγωγική χρήση απαιτεί αγορασμένη άδεια, διαφορετικά εμφανίζεται υδατογράφημα.
-
-**Q: Μπορώ να προσθέσω κείμενο μέσα στο ορθογώνιο;**  
-A: Απόλυτα. Χρησιμοποίησε `TextFragment` και τοποθέτησέ το με `TextFragment.Position`.
-
-**Q: Τι γίνεται αν θέλω προσανατολισμό τοπίου;**  
-A: Αντάλλαξε το πλάτος και το ύψος όταν καλείς τη `SetPageSize`.
-
-**Q: Υπάρχει τρόπος να κεντράρω το ορθογώνιο αυτόματα;**  
-A: Υπολόγισε την απόσταση ως `(pageWidth - rectWidth) / 2` και προσαρμόσε τις συντεταγμένες X/Y του ορθογωνίου αναλόγως.
+- **Batch additions:** Εάν προσθέτετε δεκάδες σχήματα, δημιουργήστε τα πρώτα σε μια λίστα, στη συνέχεια προσθέστε ολόκληρη τη λίστα στο `Paragraphs`—αυτό μειώνει το εσωτερικό κόστος επεξεργασίας.  
+- **Coordinate system:** Το Aspose.PDF χρησιμοποιεί μονάδες σημείου (1 pt = 1/72 in). Θυμηθείτε να μετατρέψετε από pixels ή χιλιοστά αν τα δεδομένα προέλευσης χρησιμοποιούν διαφορετική μονάδα.  
+- **Performance:** Για μεγάλα PDFs, σκεφτείτε να ενεργοποιήσετε το `pdfDocument.Optimize()` πριν την αποθήκευση· συμπιέζει τα ρεύματα και μειώνει το μέγεθος του αρχείου.  
+- **Error handling:** Τυλίξτε όλη τη ροή σε `try/catch` και καταγράψτε το `PdfException` για καλύτερη διάγνωση.  
 
 ## Συμπέρασμα
 
-Τώρα ξέρεις πώς να **create pdf document** με Aspose.PDF, **add blank pdf page**, να σχεδιάσεις ένα **add rectangle pdf**, να χρησιμοποιήσεις μεθόδους **add shape pdf**, και να **set pdf page size** για να αποφύγεις σφάλματα ορίων. Το πλήρες παράδειγμα παραπάνω είναι έτοιμο για εκτέλεση, και μπορείς να το προσαρμόσεις για τη δημιουργία τιμολογίων, πιστοποιητικών ή οποιασδήποτε προσαρμοσμένης αναφοράς.
+Τώρα γνωρίζετε ακριβώς **how to create pdf document** με το Aspose.PDF, πώς να **add page pdf**, και πώς να **draw rectangle pdf** ελέγχοντας με ασφάλεια τα όρια. Το πλήρες παράδειγμα παραπάνω μπορεί να ενσωματωθεί σε οποιοδήποτε .NET project, παρέχοντάς σας μια σταθερή βάση για πιο προχωρημένες εργασίες PDF όπως η εισαγωγή εικόνων, πινάκων ή ψηφιακών υπογραφών.
 
-Τι θα κάνεις στη συνέχεια; Δοκίμασε την ενσωμάτωση εικόνων, το στυλ του ορθογωνίου με πάχος γραμμής ή χρώμα, ή τη δημιουργία πολλαπλών σελίδων σε βρόχο. Κάθε ένα από αυτά τα θέματα βασίζεται στα θεμέλια που μόλις έμαθες, και θα κάνει την αυτοματοποίηση PDF σου πραγματικά έτοιμη για παραγωγή.
+Έτοιμοι για το επόμενο βήμα; Δοκιμάστε να αντικαταστήσετε το ορθογώνιο με ένα `Ellipse`, πειραματιστείτε με γραφικά σε στρώσεις, ή δημιουργήστε μια αναφορά πολλαπλών σελίδων επαναλαμβάνοντας τις γραμμές δεδομένων. Οι ίδιες αρχές—αρχικοποίηση, προσθήκη σελίδων, σχεδίαση σχημάτων, αποθήκευση—εφαρμόζονται σε όλα τα σενάρια δημιουργίας PDF.
 
-Έχεις περισσότερες ερωτήσεις ή ένα ενδιαφέρον use‑case που θέλεις να μοιραστείς; Άφησε ένα σχόλιο, και καλή προγραμματιστική διασκέδαση!  
-
-![Παράδειγμα Δημιουργίας Εγγράφου PDF](create-pdf-document.png "Παράδειγμα Δημιουργίας Εγγράφου PDF")
+Αν αντιμετωπίσετε κάποιο πρόβλημα ή έχετε ιδέες για περαιτέρω βελτιώσεις, αφήστε ένα σχόλιο. Καλή προγραμματιστική και απολαύστε τη δημιουργία όμορφων PDF!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

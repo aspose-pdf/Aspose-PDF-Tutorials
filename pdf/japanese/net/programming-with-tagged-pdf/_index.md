@@ -54,3 +54,15 @@ Aspose.PDF for .NET の「タグ付き PDF を使ったプログラミング」�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [AsposeでPDFにタグ付けする方法 – PDFアクセシビリティタグ完全ガイド](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) Aspose.PDF を使用して PDF にアクセシビリティタグを付与し、PDF/UA 準拠のドキュメントを作成する手順を詳しく解説します。 |  
+| [Aspose で PDF をアクセシブルにする：段落を挿入するステップバイステップ](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) Aspose.PDF for .NET を使用して、PDF に段落を挿入し、アクセシビリティを向上させる方法を学びます。 |  
+
+| [C# でタグ付き PDF を作成 – 見出しとアクセシブルテキストの追加](./create-tagged-pdf-in-c-add-heading-accessible-text/) Aspose.PDF for .NET を使用して、C# で見出しとアクセシブルなテキストを含むタグ付き PDF を作成する方法を学びます。 |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,23 +1,23 @@
 ---
 category: general
-date: 2026-03-03
-description: إنشاء مستند PDF باستخدام Aspose.PDF في C#. تعلم كيفية إضافة صفحة PDF
-  فارغة، وإضافة مستطيل PDF، وإضافة شكل PDF، وتعيين حجم صفحة PDF في دليل مختصر.
+date: 2026-01-10
+description: إنشاء مستند PDF باستخدام Aspose.PDF في C#. تعلّم كيفية إضافة صفحة PDF،
+  ورسم مستطيل PDF، والمزيد في هذا الدرس الكامل.
 draft: false
 keywords:
 - create pdf document
-- add blank pdf page
-- add rectangle pdf
-- add shape pdf
-- set pdf page size
+- add page pdf
+- draw rectangle pdf
+- how to create pdf
+- how to add rectangle
 language: ar
-og_description: إنشاء مستند PDF في C# باستخدام Aspose.PDF. يوضح هذا الدليل كيفية إضافة
-  صفحة PDF فارغة، ورسم مستطيل، وإضافة أشكال، وتحديد حجم الصفحة.
-og_title: إنشاء مستند PDF باستخدام Aspose.PDF – دليل كامل
+og_description: إنشاء مستند PDF باستخدام Aspose.PDF في C#. اتبع هذا البرنامج التعليمي
+  لإضافة صفحة PDF، ورسم مستطيل PDF، وإنشاء PDF متقن.
+og_title: إنشاء مستند PDF باستخدام Aspose.PDF – دليل شامل
 tags:
 - Aspose.PDF
 - C#
-- PDF Generation
+- PDF generation
 title: إنشاء مستند PDF باستخدام Aspose.PDF – دليل خطوة بخطوة
 url: /ar/net/document-creation/create-pdf-document-with-aspose-pdf-step-by-step-guide/
 ---
@@ -26,227 +26,224 @@ url: /ar/net/document-creation/create-pdf-document-with-aspose-pdf-step-by-step-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إنشاء مستند PDF – دليل برمجة كامل
+# إنشاء مستند PDF باستخدام Aspose.PDF – دليل خطوة بخطوة
 
-هل احتجت يوماً إلى **create pdf document** من الصفر في تطبيق .NET ولم تكن متأكدًا من أين تبدأ؟ لست وحدك—المطورون يسألون باستمرار: “كيف يمكنني توليد PDF في الوقت الفعلي دون واجهة مستخدم ثقيلة؟” الخبر السار هو أن Aspose.PDF يجعل الأمر سهلًا للغاية. في هذا الدرس لن نقوم فقط بـ **create pdf document**، بل سنضيف أيضًا **add blank pdf page**، ونرسم **add rectangle pdf**، نستكشف تقنيات **add shape pdf**، وحتى نضبط **set pdf page size** عندما يصبح الحجم كبيرًا جدًا.
+هل احتجت يوماً إلى **create PDF document** برمجياً ولم تعرف من أين تبدأ؟ لست وحدك—المطورون حول العالم يواجهون هذه العقبة عندما يحاولون أتمتة التقارير، الفواتير، أو الشهادات. الخبر السار؟ باستخدام Aspose.PDF for .NET يمكنك إنشاء PDF ببضع أسطر من C# فقط.
 
-تخيل أنك تبني محرك فواتير ينتج إيصال PDF لكل عملية. تريد لوحة نظيفة فارغة، مستطيل حد، وربما شعارًا لاحقًا. بنهاية هذا الدليل ستحصل على تطبيق C# Console جاهز للتنفيذ يقوم بذلك تمامًا، وستفهم لماذا كل سطر مهم.
+في هذا الدرس سنستعرض العملية بالكامل: من تهيئة المستند، إلى **add page PDF**، إلى **draw rectangle PDF**، وأخيراً حفظ الملف. في النهاية ستحصل على مثال جاهز للتنفيذ وفهم واضح لـ **how to create pdf** بثقة.
 
-## المتطلبات المسبقة – ما ستحتاجه
+## ما يغطيه هذا الدليل
 
-- **.NET 6.0** أو أحدث (الكود يعمل أيضًا مع .NET Framework 4.6+)
-- حزمة NuGet **Aspose.PDF for .NET** (`Aspose.Pdf`) – نسخة تجريبية مجانية أو نسخة مرخصة
-- بيئة تطوير C# أساسية (Visual Studio، VS Code، Rider—أي منها)
-- اختياريًا: محرر صور إذا رغبت لاحقًا في تضمين شعارات
+- المتطلبات المسبقة التي تحتاجها قبل كتابة الكود  
+- إنشاء مستند PDF خطوة بخطوة  
+- إضافة صفحة جديدة إلى المستند (عملية **add page pdf** الكلاسيكية)  
+- رسم شكل مستطيل، التحقق من أبعاده، وإدراجه (جزء “**draw rectangle pdf**”)  
+- الأخطاء الشائعة ونصائح احترافية لتوليد PDF موثوق  
+- عينة كود كاملة جاهزة للنسخ واللصق يمكنك تشغيلها اليوم  
 
-> نصيحة احترافية: حافظ على تحديث حزم NuGet الخاصة بك؛ Aspose تصدر تصحيحات أخطاء تؤثر على رسم الأشكال.
+بدون مراجع خارجية، بدون قطع مفقودة—فقط حل متكامل يمكنك الاستشهاد به أو مشاركته.
 
----
+## المتطلبات المسبقة
 
-## الخطوة 1: إنشاء مستند PDF – التهيئة
+| المتطلب | لماذا هو مهم |
+|-------------|----------------|
+| .NET 6.0 أو أحدث (أو .NET Framework 4.6+) | يدعم Aspose.PDF كلاهما؛ الإصدارات الأحدث توفر أداءً أفضل. |
+| حزمة NuGet Aspose.PDF for .NET (`Aspose.Pdf`) | المكتبة توفر الفئات `Document`، `Page`، وفئات الرسم التي سنستخدمها. |
+| بيئة تطوير C# (Visual Studio، Rider، VS Code) | تسهل التجميع وتصحيح الأخطاء. |
+| صلاحية كتابة على مجلد الإخراج | ضرورية لاستدعاء `Save` النهائي. |
 
-أول شيء تقوم به عندما تريد **create pdf document** هو إنشاء كائن من الفئة `Document`. فكر فيها كفتح دفتر جديد حيث ستحمل كل صفحة محتواك.
+قم بتثبيت الحزمة عبر NuGet:
+
+```bash
+dotnet add package Aspose.Pdf
+```
+
+هذا كل شيء—بمجرد وجود الحزمة يمكنك **create pdf document**.
+
+## الخطوة 1 – إنشاء مستند PDF (التهيئة)
+
+أول شيء نقوم به هو إنشاء كائن `Document` جديد. فكر فيه كقماش فارغ سيحتوي كل صفحة، صورة، أو شكل.
+
+```csharp
+using Aspose.Pdf;
+using Aspose.Pdf.Drawing;
+
+// Step 1: Initialize a fresh PDF document
+var pdfDocument = new Document();
+```
+
+> **لماذا هذا مهم:** `Document` هو الكائن الجذري. بدون هذا لا يمكنك إضافة صفحات أو محتوى، لذا هذه الخطوة أساسية لـ **how to create pdf** من الصفر.
+
+## الخطوة 2 – Add Page PDF
+
+PDF بدون صفحات لا شيء سوى رأس ملف. لنضيف صفحة، وهي المكان الذي سنرسم فيه المستطيل لاحقاً.
+
+```csharp
+// Step 2: Add a new page to the document
+var pdfPage = pdfDocument.Pages.Add();
+```
+
+> **نصيحة احترافية:** طريقة `Add()` تُعيد كائن `Page` الذي تم إنشاؤه حديثاً، لذا يمكنك ربط إجراءات أخرى دون الحاجة للبحث في المجموعة مرة أخرى.
+
+### التحقق من أبعاد الصفحة (اختياري)
+
+إذا كنت تخطط لوضع الأشكال بدقة، قد ترغب في معرفة حجم الصفحة:
+
+```csharp
+float pageWidth = pdfPage.PageInfo.Width;   // default A4 width in points
+float pageHeight = pdfPage.PageInfo.Height; // default A4 height in points
+Console.WriteLine($"Page size: {pageWidth}×{pageHeight} points");
+```
+
+هذه الشريحة ليست ضرورية للتدفق الأساسي، لكنها تساعد عندما تريد **how to add rectangle** بإحداثيات دقيقة.
+
+## الخطوة 3 – Draw Rectangle PDF (التحقق من الحدود والإدراج)
+
+الآن يأتي الجزء الممتع: رسم مستطيل. سنعرّف مستطيلاً، نتأكد من أنه يتناسب داخل الصفحة، ثم نضيفه إلى مجموعة الفقرات في الصفحة.
+
+```csharp
+// Step 3: Define a rectangle shape (LLX, LLY, URX, URY)
+// LLX = lower‑left X, LLY = lower‑left Y, URX = upper‑right X, URY = upper‑right Y
+var rectangleShape = new Rectangle(100, 500, 300, 700);
+
+// Step 4: Verify that the rectangle lies within the page bounds
+bool isInside = rectangleShape.LLX >= 0 &&
+                rectangleShape.URX <= pdfPage.PageInfo.Width &&
+                rectangleShape.LLY >= 0 &&
+                rectangleShape.URY <= pdfPage.PageInfo.Height;
+
+if (isInside)
+{
+    // Step 5: Add the rectangle to the page's paragraphs collection
+    pdfPage.Paragraphs.Add(rectangleShape);
+}
+else
+{
+    Console.WriteLine("Rectangle exceeds page bounds – adjust coordinates.");
+}
+```
+
+> **لماذا نتحقق من الحدود:** محاولة الرسم خارج الصفحة قد تؤدي إلى أشكال غير مرئية أو تحذيرات وقت التشغيل. الشرط يضمن أننا **draw rectangle pdf** بأمان.
+
+### تخصيص المظهر
+
+يمكنك تنسيق المستطيل بحدود أو ألوان تعبئة:
+
+```csharp
+rectangleShape.GraphInfo = new GraphInfo
+{
+    // Set a thin black border
+    LineWidth = 1,
+    StrokeColor = Color.Black,
+    // Optional fill (transparent by default)
+    FillColor = Color.LightGray
+};
+```
+
+لا تتردد في التجربة—ألوان مختلفة، سماكات خطوط، أو حتى خطوط منقطة.
+
+## الخطوة 4 – حفظ مستند PDF
+
+الخطوة الأخيرة هي حفظ المستند على القرص. اختر مجلداً لديك صلاحية كتابة فيه وأعطِ الملف اسماً واضحاً.
+
+```csharp
+// Step 6: Save the PDF document to a file
+string outputPath = Path.Combine(Environment.CurrentDirectory, "ShapeChecked.pdf");
+pdfDocument.Save(outputPath);
+
+Console.WriteLine($"PDF saved successfully at: {outputPath}");
+```
+
+عند فتح `ShapeChecked.pdf`، يجب أن ترى صفحة واحدة تحتوي على مستطيل رمادي فاتح موضعه بين (100، 500) و (300، 700). هذا هو ناتج سير عمل **create pdf document** الخاص بنا.
+
+![Create PDF Document example](image.png){alt="مثال على إنشاء مستند PDF يظهر مستطيلًا على الصفحة"}
+
+## مثال كامل يعمل (جاهز للنسخ واللصق)
+
+فيما يلي البرنامج بالكامل، جاهز للتجميع. لا قطع مفقودة، لا مراجع خارجية.
 
 ```csharp
 using System;
+using System.IO;
 using Aspose.Pdf;
+using Aspose.Pdf.Drawing;
+using Aspose.Pdf.Color; // For color definitions
 
-namespace PdfDemo
+class Program
 {
-    class Program
+    static void Main()
     {
-        static void Main()
-        {
-            // Step 1: Create a new PDF document (the blank canvas)
-            using var pdfDocument = new Document();
+        // 1️⃣ Create PDF document
+        var pdfDocument = new Document();
 
-            // The rest of the code follows...
+        // 2️⃣ Add page PDF
+        var pdfPage = pdfDocument.Pages.Add();
+
+        // Optional: show page size
+        Console.WriteLine($"Page size: {pdfPage.PageInfo.Width}×{pdfPage.PageInfo.Height} points");
+
+        // 3️⃣ Define rectangle (draw rectangle PDF)
+        var rectangleShape = new Rectangle(100, 500, 300, 700);
+
+        // Style the rectangle (optional)
+        rectangleShape.GraphInfo = new GraphInfo
+        {
+            LineWidth = 1,
+            StrokeColor = Color.Black,
+            FillColor = Color.LightGray
+        };
+
+        // 4️⃣ Verify bounds before adding
+        bool fits = rectangleShape.LLX >= 0 &&
+                    rectangleShape.URX <= pdfPage.PageInfo.Width &&
+                    rectangleShape.LLY >= 0 &&
+                    rectangleShape.URY <= pdfPage.PageInfo.Height;
+
+        if (fits)
+        {
+            // 5️⃣ Add rectangle to the page
+            pdfPage.Paragraphs.Add(rectangleShape);
+            Console.WriteLine("Rectangle added successfully.");
         }
+        else
+        {
+            Console.WriteLine("Rectangle is out of page bounds – adjust coordinates.");
+        }
+
+        // 6️⃣ Save the PDF
+        string outputFile = Path.Combine(Environment.CurrentDirectory, "ShapeChecked.pdf");
+        pdfDocument.Save(outputFile);
+        Console.WriteLine($"PDF saved at: {outputFile}");
     }
 }
 ```
 
-> لماذا نستخدم `using var`؟ لأنه يضمن تحرير مقبض الملف تلقائيًا، مما يمنع مشاكل قفل الملف لاحقًا.
+تشغيل هذا البرنامج ينتج ملف `ShapeChecked.pdf` بجوار الملف التنفيذي. افتحه بأي عارض PDF؛ سترى المستطيل الذي رسمناه—دليل على أنك نجحت في **create pdf document**، **add page pdf**، و **draw rectangle pdf** جميعاً في خطوة واحدة.
 
-كائن `Document` يمثل ملف PDF بالكامل، لذا كل ما تضيفه—صفحات، أشكال، نصوص—يُرفق بهذه النسخة الوحيدة.
+## أسئلة شائعة وحالات خاصة
 
-## الخطوة 2: إضافة صفحة PDF فارغة
+| السؤال | الجواب |
+|----------|--------|
+| *ماذا لو احتجت حجم صفحة مختلف؟* | اضبط `pdfPage.PageInfo.Width` و `Height` قبل الرسم، أو أنشئ `Page` باستخدام تعداد `PageSize` مخصص (مثل `PageSize.Letter`). |
+| *هل يمكنني إضافة مستطيلات متعددة؟* | بالتأكيد—ما عليك سوى تكرار كتلة إنشاء المستطيل وإضافة كل شكل إلى `pdfPage.Paragraphs`. |
+| *ماذا يحدث مع ملفات PDF صغيرة جداً؟* | فحص الحدود سيمنع الإحداثيات خارج النطاق، لذا سيفشل الكود بشكل لطيف مع رسالة في وحدة التحكم. |
+| *هل هناك طريقة لتدوير المستطيل؟* | استخدم `rectangleShape.Rotation = 45;` (درجة) قبل إضافته. |
+| *هل يجب إغلاق `Document`؟* | `Document` يطبق `IDisposable`. في تطبيق حقيقي ضعها داخل كتلة `using` لضمان تنظيف الموارد. |
 
-PDF بدون صفحات لا فائدة منه مثل كتاب بلا صفحات. إضافة **add blank pdf page** بسيطة كاستدعاء `Pages.Add()`.
+## نصائح احترافية وأفضل الممارسات
 
-```csharp
-// Step 2: Add a blank page to the document
-Page page = pdfDocument.Pages.Add();
-```
-
-في الخلفية، تقوم Aspose بإنشاء صفحة بحجم A4 الافتراضي (595 × 842 نقطة). إذا كنت بحاجة إلى حجم مختلف، ستتعرف لاحقًا على كيفية **set pdf page size**.
-
-## الخطوة 3: إضافة مستطيل إلى PDF – باستخدام Add Shape PDF
-
-الآن يأتي الجزء الممتع: رسم شكل. في مصطلحات Aspose، المستطيل هو نوع من **add shape pdf** وتقوم بإنشائه باستخدام `AddRectangle`. لنحاول رسم مستطيل أكبر عمدًا من حجم الصفحة لنرى ما سيحدث.
-
-```csharp
-// Step 3: Define a rectangle larger than the page bounds
-// Coordinates are (lower‑left X, lower‑left Y, upper‑right X, upper‑right Y)
-var oversizedRectangle = new Rectangle(0, 0, 1000, 2000);
-
-// Step 4: Attempt to add the rectangle – this triggers an exception
-try
-{
-    page.AddRectangle(oversizedRectangle);
-}
-catch (InvalidOperationException ex)
-{
-    Console.WriteLine($"[Warning] {ex.Message}");
-}
-```
-
-### ما الخطأ الذي حدث؟
-
-تُطلق Aspose استثناء `InvalidOperationException` لأن المستطيل يتجاوز أبعاد الصفحة. هذه حالة حافة كلاسيكية لـ **add rectangle pdf**: لا يمكنك وضع هندسة خارج المنطقة القابلة للطباعة ما لم تكبر الصفحة أولًا.
-
-## الخطوة 4: ضبط حجم صفحة PDF لاستيعاب الشكل
-
-لجعل المستطيل الضخم يتناسب، نحتاج إلى **set pdf page size** قبل إضافة الشكل. كائن `Page` يوفر الدالة `SetPageSize` التي تقبل العرض والارتفاع بالنقاط.
-
-```csharp
-// Step 5: Resize the page to fit the oversized rectangle
-page.SetPageSize(1000, 2000);   // Width = 1000 pt, Height = 2000 pt
-
-// Now the rectangle can be added without an exception
-page.AddRectangle(oversizedRectangle);
-Console.WriteLine("Rectangle added successfully after resizing the page.");
-```
-
-> ملاحظة: تغيير حجم الصفحة بعد إضافة شكل سيعيد تموضع المحتوى الموجود، لذا من الأفضل ضبط الحجم **قبل** رسم أي شيء.
-
-## مثال كامل يعمل
-
-جمع كل الأجزاء معًا يمنحك برنامجًا صغيرًا قابلاً للتنفيذ. انسخ‑الصق هذا في مشروع Console جديد واضغط **F5**.
-
-```csharp
-using System;
-using Aspose.Pdf;
-
-namespace PdfDemo
-{
-    class Program
-    {
-        static void Main()
-        {
-            // Create a new PDF document
-            using var pdfDocument = new Document();
-
-            // Add a blank page (add blank pdf page)
-            Page page = pdfDocument.Pages.Add();
-
-            // Define a rectangle larger than the default page
-            var oversizedRectangle = new Rectangle(0, 0, 1000, 2000);
-
-            // Try adding it – will fail on default size
-            try
-            {
-                page.AddRectangle(oversizedRectangle);
-            }
-            catch (InvalidOperationException ex)
-            {
-                Console.WriteLine($"[Info] Default page too small: {ex.Message}");
-            }
-
-            // Resize the page (set pdf page size) so the rectangle fits
-            page.SetPageSize(1000, 2000);
-
-            // Add the rectangle again – this time it works (add shape pdf)
-            page.AddRectangle(oversizedRectangle);
-            Console.WriteLine("Rectangle added after resizing the page.");
-
-            // Save the document to disk
-            const string outputPath = "OversizedRectangle.pdf";
-            pdfDocument.Save(outputPath);
-            Console.WriteLine($"PDF saved to {outputPath}");
-        }
-    }
-}
-```
-
-**الناتج المتوقع على وحدة التحكم**
-
-```
-[Info] Default page too small: The rectangle exceeds page bounds.
-Rectangle added after resizing the page.
-PDF saved to OversizedRectangle.pdf
-```
-
-افتح `OversizedRectangle.pdf` وسترى صفحة واحدة تتطابق تمامًا مع أبعاد المستطيل، مع ملء المستطيل للصفحة. لا قص، ولا محتوى مخفي.
-
-## التنويعات وحالات الحافة
-
-### إضافة أشكال متعددة
-
-إذا احتجت إلى **add shape pdf** عدة مرات (مثلاً حد بالإضافة إلى شعار)، فقط كرر `AddRectangle` أو استخدم `AddEllipse`، `AddPolygon`، إلخ، بعد ضبط حجم الصفحة المناسب.
-
-```csharp
-var logoRect = new Rectangle(50, 1800, 250, 2000);
-page.AddRectangle(logoRect); // places a smaller rectangle for a logo
-```
-
-### الحفاظ على حجم الصفحة الأصلي
-
-أحيانًا لا تريد تغيير حجم الصفحة. في هذه الحالة يمكنك **add rectangle pdf** بحيث يتناسب داخل الحدود الحالية، أو تقص المستطيل يدويًا:
-
-```csharp
-var clippedRect = new Rectangle(0, 0, page.PageInfo.Width, page.PageInfo.Height);
-page.AddRectangle(clippedRect);
-```
-
-### الحفظ إلى تدفق (Stream)
-
-لواجهات برمجة التطبيقات (Web APIs) قد تفضّل كتابة PDF إلى تدفق ذاكرة بدلاً من ملف:
-
-```csharp
-using var ms = new MemoryStream();
-pdfDocument.Save(ms, SaveFormat.Pdf);
-// Return ms.ToArray() as a file download response
-```
-
-### التعامل مع وحدات مختلفة
-
-تعمل Aspose بالنقاط (1 pt = 1/72 inch). إذا كنت تفكر بالمليمترات أو السنتيمترات، قم بالتحويل أولًا:
-
-```csharp
-float mmToPt = 72f / 25.4f;
-float widthPt = 210 * mmToPt;   // A4 width in points
-float heightPt = 297 * mmToPt;  // A4 height in points
-page.SetPageSize(widthPt, heightPt);
-```
-
----
-
-## أسئلة شائعة
-
-**س: هل أحتاج إلى ترخيص لاستخدام Aspose.PDF؟**  
-ج: يمكنك البدء برخصة تجريبية مجانية للتقييم. الاستخدام في الإنتاج يتطلب ترخيصًا مدفوعًا، وإلا سيظهر علامة مائية.
-
-**س: هل يمكنني إضافة نص داخل المستطيل؟**  
-ج: بالتأكيد. استخدم `TextFragment` وضعه باستخدام `TextFragment.Position`.
-
-**س: ماذا لو أردت توجيه أفقي (Landscape)؟**  
-ج: قم بتبديل العرض والارتفاع عند استدعاء `SetPageSize`.
-
-**س: هل هناك طريقة لتوسيط المستطيل تلقائيًا؟**  
-ج: احسب الإزاحة كـ `(pageWidth - rectWidth) / 2` واضبط إحداثيات X/Y للمستطيل وفقًا لذلك.
-
----
+- **الإضافات الجماعية:** إذا كنت تضيف عشرات الأشكال، قم بتجميعها في قائمة أولاً، ثم أضف القائمة بالكامل إلى `Paragraphs`—هذا يقلل من عبء المعالجة الداخلي.  
+- **نظام الإحداثيات:** Aspose.PDF يستخدم النقاط (1 pt = 1/72 in). تذكر تحويل القيم من بكسل أو مليمتر إذا كانت بيانات المصدر تستخدم وحدة مختلفة.  
+- **الأداء:** للملفات الكبيرة، فكر في تفعيل `pdfDocument.Optimize()` قبل الحفظ؛ فهو يضغط التدفقات ويقلل حجم الملف.  
+- **معالجة الأخطاء:** غلف كامل التدفق بـ `try/catch` وسجل `PdfException` للحصول على تشخيص أفضل.  
 
 ## الخلاصة
 
-الآن تعرف كيف **create pdf document** باستخدام Aspose.PDF، **add blank pdf page**، رسم **add rectangle pdf**، استخدام طرق **add shape pdf**، و**set pdf page size** لتجنب أخطاء الحدود. المثال الكامل أعلاه جاهز للتنفيذ، ويمكنك تكييفه لإنشاء فواتير، شهادات، أو أي تقرير مخصص ترغب به.
+أنت الآن تعرف بالضبط **how to create pdf document** باستخدام Aspose.PDF، وكيفية **add page pdf**، وكيفية **draw rectangle pdf** مع فحص الحدود بأمان. المثال الكامل أعلاه يمكن إدراجه في أي مشروع .NET، مما يمنحك أساساً صلباً لمهام PDF أكثر تقدماً مثل إدراج الصور، الجداول، أو التوقيعات الرقمية.
 
-ما الخطوة التالية؟ جرّب تضمين الصور، تنسيق المستطيل بسمك الخط أو اللون، أو توليد صفحات متعددة داخل حلقة. كل هذه المواضيع تبنى على الأساسيات التي تعلمتها الآن، وستجعل أتمتة PDF جاهزة للإنتاج.
+هل أنت مستعد للخطوة التالية؟ جرّب استبدال المستطيل بـ `Ellipse`، جرب رسومات متعددة الطبقات، أو أنشئ تقريرًا متعدد الصفحات عبر حلقة على صفوف البيانات. المبادئ نفسها—التهيئة، إضافة الصفحات، رسم الأشكال، الحفظ—تنطبق على جميع سيناريوهات توليد PDF.
 
-هل لديك أسئلة إضافية أو حالة استخدام مميزة تريد مشاركتها؟ اترك تعليقًا، وتمنياتنا لك ببرمجة سعيدة!  
-
-![مثال إنشاء مستند PDF](create-pdf-document.png "مثال إنشاء مستند PDF")
+إذا واجهت أي صعوبة أو لديك أفكار لتحسينات إضافية، لا تتردد بترك تعليق. برمجة سعيدة، واستمتع بإنشاء ملفات PDF جميلة!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

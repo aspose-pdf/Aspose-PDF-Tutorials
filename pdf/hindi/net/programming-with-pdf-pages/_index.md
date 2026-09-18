@@ -48,3 +48,24 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Aspose PDF ट्यूटोरियल – खाली पृष्ठ डालें और Bates नंबरिंग अपडेट करें](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | .NET के लिए Aspose.PDF का उपयोग करके PDF में खाली पृष्ठ डालें और Bates नंबरिंग अपडेट करने की चरण-दर-चरण मार्गदर्शिका। |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+| [खाली PDF पेज बनाएं – पूर्ण PDF ड्राइंग ट्यूटोरियल](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | .NET के लिए Aspose.PDF का उपयोग करके एक खाली PDF पेज बनाना और पूर्ण ड्राइंग क्षमताओं को सीखें। |  
+| [Aspose के साथ PDF में पृष्ठ जोड़ें – पूर्ण C# गाइड](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Aspose.PDF का उपयोग करके C# में PDF में पृष्ठ जोड़ने की पूरी गाइड। चरण-दर-स्टेप कोड उदाहरण और व्याख्याएँ। |  
+| [C# में PDF दस्तावेज़ बनाएं – PDF में पेज जोड़ें और आयत बनाएं](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) | C# के साथ Aspose.PDF का उपयोग करके PDF बनाना, पेज जोड़ना और आयत बनाना सीखें। |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

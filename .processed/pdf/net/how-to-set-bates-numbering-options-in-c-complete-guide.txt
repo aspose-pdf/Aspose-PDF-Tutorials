@@ -1,0 +1,7 @@
+Title: How to set bates numbering options in C# – complete guide
+Slug: how-to-set-bates-numbering-options-in-c-complete-guide
+Category: programming-with-stamps-and-watermarks
+ProcessedDate: 2026-08-14T18:46:23.308680
+SourceRepo: AI Search API
+Keywords: how to set bates numbering options
+PRNumber: 119

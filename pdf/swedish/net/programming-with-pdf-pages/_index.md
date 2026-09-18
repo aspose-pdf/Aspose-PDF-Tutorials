@@ -48,3 +48,24 @@ Handledningarna innehåller steg-för-steg-instruktioner, detaljerade kodexempel
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Aspose PDF-handledning – Infoga en tom sida och uppdatera Bates-numrering](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Steg-för-steg-guide för att infoga en tom sida i en PDF och uppdatera Bates-numrering med Aspose.PDF för .NET. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+| [Skapa tom PDF-sida – Fullständig PDF-ritningshandledning](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Steg-för-steg-guide för att skapa en tom PDF-sida med fullständig PDF-ritning i Aspose.PDF för .NET. |  
+| [Lägg till sidor i PDF med Aspose – Komplett C#-guide](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Steg-för-steg-guide för att lägga till sidor i en PDF med Aspose.PDF för .NET i C#. |  
+| [Skapa PDF-dokument i C# – Lägg till sida i PDF & rektangel](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) | Steg-för-steg-guide för att skapa ett PDF-dokument i C#, lägga till en sida och rita en rektangel med Aspose.PDF för .NET. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

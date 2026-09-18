@@ -48,3 +48,24 @@ Az oktatóanyagok lépésről lépésre bemutatják az utasításokat, részlete
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Aspose PDF oktatóanyag – Üres oldal beszúrása és Bates-számozás frissítése](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Útmutató üres oldal beszúrásához és a Bates-számozás frissítéséhez PDF-ben az Aspose.PDF for .NET segítségével. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+| [Üres PDF oldal létrehozása – Teljes PDF rajzolási útmutató](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Lépésről lépésre útmutató üres PDF oldal létrehozásához és teljes PDF rajzoláshoz az Aspose.PDF for .NET használatával. |
+| [Oldalak hozzáadása PDF-hez Aspose-szal – Teljes C# útmutató](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Lépésről lépésre bemutatja, hogyan adhat hozzá oldalakat egy PDF-hez az Aspose.PDF for .NET használatával C#-ban. |
+| [PDF dokumentum létrehozása C#-ban – Oldal hozzáadása PDF-hez és téglalap](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) | Lépésről lépésre bemutatja, hogyan hozhat létre PDF dokumentumot C#-ban, adhat hozzá oldalt és rajzolhat téglalapot az Aspose.PDF for .NET segítségével. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

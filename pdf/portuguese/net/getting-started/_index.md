@@ -16,7 +16,6 @@
 Comece sua jornada com estes tutoriais essenciais do Aspose.PDF que o guiarão pela instalação, configuração de licenciamento e criação dos seus primeiros documentos PDF em .NET. Nossos guias para iniciantes demonstram como configurar seu ambiente de desenvolvimento, inicializar a biblioteca Aspose.PDF e executar operações básicas em PDF. Siga estes tutoriais para dominar rapidamente o básico e se preparar para tarefas mais avançadas de manipulação de PDF em seus aplicativos .NET.
 
 ## Tutoriais disponíveis
-
 ### [Aplicação de licença medida e contagem de páginas em PDF com Aspose.PDF](./aspose-pdf-net-metered-license-page-count/)
 Um tutorial de código para Aspose.PDF Net
 
@@ -34,6 +33,11 @@ Aprenda como alternar facilmente entre os modos de teste e licenciado do Aspose.
 
 ### [Como Verificar a Instalação de um Pacote NuGet com PowerShell](./how-to-verify-installation-of-a-nuget-package-with-powershel/)
 Um tutorial passo a passo para confirmar a instalação de um pacote NuGet usando PowerShell.
+
+### [Como instalar Aspose – Guia PowerShell para versões específicas](./how-to-install-aspose-powershell-guide-for-specific-versions/)
+Um tutorial passo a passo para instalar Aspose usando PowerShell em versões específicas.
+### [Como instalar pacotes NuGet via PowerShell – passo a passo](./how-to-install-nuget-packages-via-powershell-step-by-step/)
+Um tutorial passo a passo para instalar pacotes NuGet usando PowerShell, facilitando a configuração de dependências em projetos .NET.
 
 ## Recursos adicionais
 

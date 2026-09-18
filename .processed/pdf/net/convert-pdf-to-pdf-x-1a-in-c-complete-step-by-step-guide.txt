@@ -1,0 +1,7 @@
+Title: Convert PDF to PDF/X‑1A in C# – Complete Step‑by‑Step Guide
+Slug: convert-pdf-to-pdf-x-1a-in-c-complete-step-by-step-guide
+Category: document-conversion
+ProcessedDate: 2026-07-04T07:28:42.642366
+SourceRepo: AI Search API
+Keywords: convert pdf to pdf/x-1a, save pdf as pdf/x-1a, load pdf document in c#
+PRNumber: 100

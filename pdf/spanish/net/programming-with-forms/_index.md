@@ -61,3 +61,24 @@ Estos tutoriales también ofrecen ejemplos de código detallados, explicaciones 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Cómo crear PDF con Aspose – Agregar campo a la colección](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Aprenda a agregar un campo a una colección en un PDF usando Aspose.PDF para .NET con esta guía paso a paso. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+| [Crear documento PDF con varios widgets de cuadro de texto](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Aprenda a crear un documento PDF con múltiples widgets de cuadro de texto usando Aspose.PDF para .NET en esta guía paso a paso. |
+| [Agregar números Bates a PDFs](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Aprenda a añadir números Bates a documentos PDF usando Aspose.PDF para .NET con este tutorial paso a paso en C#. |  
+| [Cómo agregar un cuadro de texto PDF – Crear campo de formulario PDF y guardar documento PDF editado](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) Aprenda a crear y guardar campos de texto en formularios PDF usando Aspose.PDF para .NET. Guía paso a paso.  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

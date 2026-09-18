@@ -54,3 +54,16 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [كيفية وضع علامة على ملف PDF باستخدام Aspose – دليل كامل لعلامات إمكانية الوصول إلى PDF](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) | دليل شامل حول وضع علامات إمكانية الوصول على ملفات PDF باستخدام Aspose. |
+| [اجعل ملف PDF قابلاً للوصول باستخدام Aspose: إدراج فقرة PDF خطوة بخطوة](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) |تعلم كيفية جعل ملفات PDF قابلة للوصول بإضافة فقرات باستخدام Aspose.PDF لـ .NET خطوة بخطوة.|  
+| [إنشاء ملف PDF مُعلَّم في C# – إضافة عنوان ونص قابل للوصول](./create-tagged-pdf-in-c-add-heading-accessible-text/) | تعلم كيفية إنشاء ملف PDF مُعلَّم وإضافة عنوان ونص يمكن الوصول إليه باستخدام Aspose.PDF لـ .NET في C#. |  
+| [إنشاء PDF قابل للوصول باستخدام Aspose.Pdf – دليل خطوة بخطوة](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | تعلم كيفية إنشاء ملفات PDF قابلة للوصول وفق معايير PDF/UA باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |
+| [إنشاء ملف PDF مُعلَّم في C# – دليل خطوة بخطوة](./create-tagged-pdf-in-c-step-by-step-guide/) |تعلم كيفية إنشاء ملف PDF مُعلَّم باستخدام C# و Aspose.PDF خطوة بخطوة. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

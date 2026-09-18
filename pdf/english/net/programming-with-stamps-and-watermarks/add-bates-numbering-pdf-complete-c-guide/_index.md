@@ -1,22 +1,22 @@
 ---
 category: general
-date: 2026-03-03
-description: Learn how to add bates numbering PDF and also discover how to add bates,
-  create PDF form field, and how to convert PDFX4 in one clear tutorial.
+date: 2026-02-14
+description: Add Bates numbering PDF to your documents effortlessly. Learn how to
+  add footer page numbers and add sequential numbers PDF with Aspose.Pdf in minutes.
 draft: false
 keywords:
 - add bates numbering pdf
-- how to add bates
-- create pdf form field
-- how to convert pdfx4
+- add footer page numbers
+- how to add bates numbers
+- add sequential numbers pdf
 language: en
-og_description: Add Bates numbering PDF, learn how to add bates, create PDF form field,
-  and how to convert PDFX4 with practical C# code.
-og_title: Add Bates Numbering PDF – Complete C# Guide
+og_description: Add Bates numbering PDF quickly. This guide shows how to add footer
+  page numbers and sequential numbers PDF using Aspose.Pdf, with full code and tips.
+og_title: Add Bates Numbering PDF – Step‑by‑Step C# Tutorial
 tags:
-- PDF
-- CSharp
-- DocumentAutomation
+- Aspose.Pdf
+- C#
+- PDF automation
 title: Add Bates Numbering PDF – Complete C# Guide
 url: /net/programming-with-stamps-and-watermarks/add-bates-numbering-pdf-complete-c-guide/
 ---
@@ -27,217 +27,187 @@ url: /net/programming-with-stamps-and-watermarks/add-bates-numbering-pdf-complet
 
 # Add Bates Numbering PDF – Complete C# Guide
 
-Ever wondered **how to add bates** to a PDF without pulling your hair out? You’re not alone. In many legal or archival projects, **add bates numbering pdf** is the first line on the to‑do list, and if you miss a step the whole filing system can fall apart.  
+Ever needed to **add Bates numbering PDF** files but weren’t sure where to start? You're not alone. Legal teams, auditors, and any folks handling large document sets constantly ask, “How do I add Bates numbers without breaking the layout?” The good news is that with Aspose.Pdf for .NET you can inject those numbers as a simple footer—no manual editing required.
 
-In this tutorial we’ll walk through four real‑world tasks: detecting a compromised signature, **add bates numbering pdf**, converting a file **how to convert pdfx4**, and finally **create PDF form field** with two widget annotations. By the end you’ll have a single, runnable C# program that does all of this, plus tips on pitfalls you might hit along the way.
+In this tutorial we’ll walk through a practical, end‑to‑end solution that not only **adds footer page numbers** but also lets you **add sequential numbers PDF** files with a custom prefix, font size, and alignment. By the end you’ll have a ready‑to‑run C# program, a clear understanding of why each setting matters, and a few pro tips to avoid the most common pitfalls.
 
-## Prerequisites
+## What You’ll Learn
 
-- .NET 6 SDK or later (the code uses the latest language features, but .NET 5 works too)
-- A PDF processing library that exposes `Document`, `BatesNumberingOptions`, `PdfFormatConversionOptions`, `TextBoxField`, etc. (the examples are based on a typical commercial SDK; replace the namespaces if you use a different one)
-- A folder called `YOUR_DIRECTORY` with a few sample PDFs (`signed.pdf`, `input.pdf`, `source.pdf`) so you can see the output files appear next to them
-- Visual Studio 2022 or any IDE you prefer
+- How to load an existing PDF and prepare it for Bates numbering.  
+- Which **BatesNumberingOptions** properties control appearance and placement.  
+- How to apply numbering to every page in one call.  
+- Ways to customize the prefix, start number, and margins for different legal formats.  
+- Edge‑case handling—what to do with encrypted PDFs or documents that already contain footers.
 
-Now that we’ve set the stage, let’s dive in.
+**Prerequisites**: .NET 6+ (or .NET Framework 4.7+), a recent version of Aspose.Pdf (the example uses 23.10), and an input PDF you own the rights to modify. No other third‑party libraries are needed.
 
-## Step 1 – Detect if a PDF Signature Is Compromised
+---
 
-Before you start stamping or converting, it’s good practice to verify that any existing digital signatures are still valid. A compromised signature could mean the document was altered after signing, and blindly adding Bates numbers would invalidate legal compliance.
+## Step 1 – Load the PDF You Want to Number
+
+The first thing we do is create a `Document` instance that points to the source file. Using the `using var` pattern ensures the file handle is released automatically.
 
 ```csharp
-using System;
-using YourPdfLibrary;   // replace with the actual namespace of your PDF SDK
+using Aspose.Pdf;
 
-// Load the signed PDF
-Document signedDoc = new Document("YOUR_DIRECTORY/signed.pdf");
-
-// Check the signature status
-bool isCompromised = signedDoc.IsSignatureCompromised();
-
-// Output the result – true means the signature is no longer trustworthy
-Console.WriteLine($"Signature compromised? {isCompromised}");
+// Replace with the path to your source PDF
+using var doc = new Document("YOUR_DIRECTORY/input.pdf");
 ```
 
-**Why this matters:**  
-If `isCompromised` returns `true`, you should either reject the file or request a fresh signature before proceeding. Adding Bates numbers to a tampered document could be considered fraud in a courtroom.
+> **Why this matters:** Aspose.Pdf reads the entire PDF structure into memory, allowing us to manipulate pages, annotations, and metadata without touching the original file on disk. If the PDF is password‑protected, you can pass the password to the constructor—see the “Encrypted PDFs” note at the end.
 
-**Pro tip:** Some SDKs let you retrieve *why* the signature failed (e.g., altered content, expired certificate). Log that information for audit trails.
+---
 
-## Step 2 – Add Bates Numbering PDF
+## Step 2 – Define Your Bates Numbering Options
 
-Now for the star of the show: **add bates numbering pdf**. Bates numbers are sequential identifiers that usually appear in the header or footer of each page. The SDK’s `AddBatesNumbering` method does the heavy lifting, but you still need to decide on a prefix, start number, and placement.
+Bates numbers are essentially page footers with a configurable prefix and a sequential counter. The `BatesNumberingOptions` class lets you fine‑tune every visual aspect.
 
 ```csharp
-// Load the source PDF you want to number
-Document batesSource = new Document("YOUR_DIRECTORY/input.pdf");
-
-// Configure Bates numbering options
 var batesOptions = new BatesNumberingOptions
 {
-    Prefix = "2025-",    // optional text before the numeric part
-    Start = 1000,        // first number in the sequence
-    // You can also set Font, FontSize, Color, Position, etc.
+    // The text that will appear before the numeric part
+    Prefix = "ABC-",
+
+    // Starting number; the library will increment this automatically
+    StartNumber = 1000,
+
+    // Font size of the footer text (points)
+    FontSize = 12,
+
+    // Align the number to the right side of the page
+    HorizontalAlignment = HorizontalAlignment.Right,
+
+    // Place the number at the bottom of the page
+    VerticalAlignment = VerticalAlignment.Bottom,
+
+    // Margins: left, top, right, bottom (in points)
+    Margin = new MarginInfo(0, 20, 0, 0)
 };
-
-// Apply the numbering to every page
-batesSource.AddBatesNumbering(batesOptions);
-
-// Save the newly numbered PDF
-batesSource.Save("YOUR_DIRECTORY/bates.pdf");
-
-// Verify quickly – the console will show the file path
-Console.WriteLine("Bates‑numbered PDF saved as bates.pdf");
 ```
 
-**How to add bates** correctly:  
+### Quick tip
 
-- **Placement:** Most lawyers want the number in the bottom‑right corner. If the SDK defaults elsewhere, set `batesOptions.Position = BatesNumberPosition.BottomRight;`.
-- **Zero‑padding:** To keep sorting easy, use `batesOptions.NumberFormat = "D6";` (produces `001000`, `001001`, …).
-- **Multiple prefixes:** If you have several document batches, concatenate a batch code to the prefix (`"2025-AB-"`).
+- **Prefix**: Use a short, unique identifier (e.g., case number) to keep the footer readable.  
+- **StartNumber**: Legal firms often start at `1` or a custom offset; pick whatever matches your filing system.  
+- **Margins**: The bottom margin of `20` points keeps the text clear of footnotes or signatures that might already sit near the page edge.
 
-**Edge case:** If the source PDF already contains a footer, the new number might overlap. Test on a sample page and adjust `Margin` or `Offset` values accordingly.
+---
 
-![Screenshot of a PDF with Bates numbers added – demonstrating add bates numbering pdf](add-bates-numbering-pdf.png "add bates numbering pdf")
+## Step 3 – Apply the Numbering to All Pages
 
-*Image alt text: “Screenshot showing add bates numbering pdf in C# with visible sequential numbers.”*
-
-## Step 3 – How to Convert PDFX4
-
-The PDF/X‑4 format is a subset of PDF designed for reliable printing and archiving. Converting to PDF/X‑4 strips out unsupported features and enforces color‑profile consistency. Here’s **how to convert pdfx4** using the same `Document` class.
+With the options configured, the actual injection is a one‑liner. Aspose.Pdf handles pagination, updates existing content streams, and respects the page rotation automatically.
 
 ```csharp
-// Load the original PDF you wish to convert
-Document pdfSource = new Document("YOUR_DIRECTORY/source.pdf");
-
-// Set up conversion options – we want PDF/X‑4 and we’ll delete any pages that cause errors
-var conversionOptions = new PdfFormatConversionOptions(
-    PdfFormat.PDF_X_4,               // target format
-    ConvertErrorAction.Delete);     // action on conversion errors
-
-// Perform the conversion
-pdfSource.Convert(conversionOptions);
-
-// Persist the new PDF/X‑4 file
-pdfSource.Save("YOUR_DIRECTORY/pdfx4.pdf");
-
-// Quick confirmation
-Console.WriteLine("Converted to PDF/X‑4 and saved as pdfx4.pdf");
+doc.Pages.AddBatesNumbering(batesOptions);
 ```
 
-**Why PDF/X‑4?**  
-- Guarantees that all fonts are embedded.  
-- Preserves transparency, unlike older PDF/X‑1a.  
-- Ideal for high‑end presses that demand a strict workflow.
+> **What’s happening under the hood?** The library iterates over each `Page` object, creates a `TextFragment` that incorporates the prefix and current counter, then draws it using the page’s coordinate system. Because we set `HorizontalAlignment.Right` and `VerticalAlignment.Bottom`, the text snaps to the lower‑right corner regardless of page size.
 
-**Common pitfalls when you ask “how to convert pdfx4”:**  
+---
 
-- **Unsupported color spaces:** If the source uses DeviceCMYK, the conversion may fail unless you embed an ICC profile.  
-- **Large images:** The conversion process can inflate file size; consider down‑sampling (`conversionOptions.ImageResolution = 300;`).  
-- **Form fields:** Some PDF/X flavors strip interactive elements. If you need to keep them, double‑check the SDK’s compliance level.
+## Step 4 – Save the Modified PDF
 
-## Step 4 – Create PDF Form Field (Two Widget Annotations)
-
-Finally, let’s **create PDF form field** that appears on two different pages. A single logical field can have multiple visual representations (widgets). This is perfect for “Notes” sections that need to be accessible throughout the document.
+Finally, write the result to a new file. Overwriting the original is possible, but keeping a copy helps with version control.
 
 ```csharp
-// Start with a fresh document
-Document formDoc = new Document();
-
-// Add the first page and place the field there
-Page firstPage = formDoc.Pages.Add();
-var notesField = new TextBoxField(firstPage,
-    new Rectangle(50, 700, 300, 750))   // left, bottom, right, top
-{
-    Name = "Notes",
-    Value = "Enter your comments here..."
-};
-
-// Add a second page and attach a second widget to the same field
-Page secondPage = formDoc.Pages.Add();
-notesField.AddWidgetAnnotation(secondPage, new Rectangle(50, 500, 300, 550));
-
-// Register the field with the document’s form collection
-formDoc.Form.Add(notesField, notesField.Name);
-
-// Save the result
-formDoc.Save("YOUR_DIRECTORY/twoWidgets.pdf");
-Console.WriteLine("PDF with two widget annotations saved as twoWidgets.pdf");
+doc.Save("YOUR_DIRECTORY/output.pdf");
 ```
 
-**What’s happening under the hood:**  
+If you need to preserve the original metadata (author, creation date), Aspose.Pdf copies it by default. You can also specify a `SaveOptions` object for PDF/A compliance or compression.
 
-- The `TextBoxField` object holds the *data* (the actual text) and a *default appearance* (font, size).  
-- `AddWidgetAnnotation` creates a visual representation on another page but points back to the same underlying field, so whatever the user types on page 1 appears on page 2 automatically.  
-- By adding the field to `formDoc.Form`, the PDF becomes **interactive** and can be filled in any PDF viewer.
-
-**Tips for reliable form fields:**  
-
-- **Set a proper font** (`notesField.Font = FontTimesRoman;`) to avoid substitution warnings.  
-- **Enable JavaScript validation** if your workflow demands it (`notesField.Actions.OnBlur = "if (this.value.length > 200) app.alert('Too long');"`).  
-- **Flatten the form** (`formDoc.Form.Flatten();`) when you finally need a read‑only version for archiving.
+---
 
 ## Full Working Example
 
-Putting everything together, here’s a single program you can copy‑paste, compile, and run. It demonstrates **add bates numbering pdf**, **how to convert pdfx4**, and **create PDF form field** in one cohesive flow.
+Below is the complete, ready‑to‑run program. Paste it into a console app project, adjust the file paths, and hit **F5**.
 
 ```csharp
-using System;
-using YourPdfLibrary;   // Replace with your actual PDF SDK namespace
+using Aspose.Pdf;
 
 class Program
 {
     static void Main()
     {
-        // 1️⃣ Detect compromised signature
-        Document signedDoc = new Document("YOUR_DIRECTORY/signed.pdf");
-        bool compromised = signedDoc.IsSignatureCompromised();
-        Console.WriteLine($"Signature compromised? {compromised}");
+        // 1️⃣ Load the source PDF
+        using var doc = new Document("YOUR_DIRECTORY/input.pdf");
 
-        // 2️⃣ Add Bates numbering – this is the core “add bates numbering pdf” step
-        Document batesSource = new Document("YOUR_DIRECTORY/input.pdf");
-        var batesOpts = new BatesNumberingOptions
+        // 2️⃣ Configure Bates numbering options
+        var batesOptions = new BatesNumberingOptions
         {
-            Prefix = "2025-",
-            Start = 1000,
-            NumberFormat = "D6",
-            Position = BatesNumberPosition.BottomRight,
-            Margin = 20
+            Prefix = "ABC-",
+            StartNumber = 1000,
+            FontSize = 12,
+            HorizontalAlignment = HorizontalAlignment.Right,
+            VerticalAlignment = VerticalAlignment.Bottom,
+            Margin = new MarginInfo(0, 20, 0, 0)
         };
-        batesSource.AddBatesNumbering(batesOpts);
-        batesSource.Save("YOUR_DIRECTORY/bates.pdf");
-        Console.WriteLine("Bates‑numbered PDF saved.");
 
-        // 3️⃣ Convert to PDF/X‑4 – “how to convert pdfx4”
-        Document pdfSource = new Document("YOUR_DIRECTORY/source.pdf");
-        var convOpts = new PdfFormatConversionOptions(
-            PdfFormat.PDF_X_4,
-            ConvertErrorAction.Delete);
-        pdfSource.Convert(convOpts);
-        pdfSource.Save("YOUR_DIRECTORY/pdfx4.pdf");
-        Console.WriteLine("Converted to PDF/X‑4.");
+        // 3️⃣ Apply numbering to every page
+        doc.Pages.AddBatesNumbering(batesOptions);
 
-        // 4️⃣ Create a form field with two widgets – “create PDF form field”
-        Document formDoc = new Document();
-        Page p1 = formDoc.Pages.Add();
-        var notes = new TextBoxField(p1,
-            new Rectangle(50, 700, 300, 750))
-        {
-            Name = "Notes",
-            Value = "Enter your comments here..."
-        };
-        Page p2 = formDoc.Pages.Add();
-        notes.AddWidgetAnnotation(p2, new Rectangle(50, 500, 300, 550));
-        formDoc.Form.Add(notes, notes.Name);
-        formDoc.Save("YOUR_DIRECTORY/twoWidgets.pdf");
-        Console.WriteLine("Form PDF with two widgets saved.");
+        // 4️⃣ Save the output PDF
+        doc.Save("YOUR_DIRECTORY/output.pdf");
+
+        System.Console.WriteLine("Bates numbering added successfully!");
     }
 }
 ```
 
-**Expected output:**  
+**Expected result:** Each page of `output.pdf` now displays a footer like `ABC-1000`, `ABC-1001`, … anchored to the lower‑right corner. Open the file in any PDF reader to verify.
 
+---
+
+## Handling Common Variations
+
+### Adding Footer Page Numbers Only
+
+If you only need simple page numbers without a prefix, set `Prefix = ""` and perhaps adjust the margin to avoid colliding with existing footers.
+
+```csharp
+batesOptions.Prefix = "";
+batesOptions.StartNumber = 1; // classic page numbering
 ```
-Signature compromised? False
+
+### Using a Different Alignment
+
+Legal documents sometimes require the number centered at the bottom. Switch the alignment:
+
+```csharp
+batesOptions.HorizontalAlignment = HorizontalAlignment.Center;
+```
+
+### Dealing with Encrypted PDFs
+
+When the source PDF is password‑protected, supply the password like this:
+
+```csharp
+using var doc = new Document("secure.pdf", new LoadOptions { Password = "mySecret" });
+```
+
+The rest of the workflow stays identical.
+
+### Skipping Existing Footers
+
+If a document already contains a footer that you don’t want to overwrite, you can prepend a custom string that makes the new number distinct, or you could iterate pages manually and add a `TextFragment` only where the footer is absent. The library’s `Page` class exposes `Annotations` and `Contents` collections for fine‑grained control.
+
+---
+
+## Pro Tips & Pitfalls
+
+- **Avoid clipping**: Very small bottom margins can cause the text to be cut off on printers. Test with a physical print if you’ll be distributing hard copies.  
+- **Performance**: Adding Bates numbers to a 500‑page PDF takes under a second on a modern laptop, but large batches benefit from parallel processing—just remember that `Document` isn’t thread‑safe, so each thread needs its own instance.  
+- **Version compatibility**: The code works with Aspose.Pdf 23.10 and newer. If you’re on an older version, the property names are the same but the `MarginInfo` constructor might require `float` arguments.  
+- **Legal compliance**: Some jurisdictions require the Bates number to be placed in a specific location (e.g., bottom‑left). Adjust the `HorizontalAlignment` accordingly.  
+
+---
+
+## Conclusion
+
+We’ve just demonstrated how to **add Bates numbering PDF** files using Aspose.Pdf for .NET, covering everything from loading the document to saving the final version with a clean footer. By tweaking a handful of properties you can also **add footer page numbers**, **add sequential numbers PDF**, or customize the appearance to meet any legal standard.
+
+Ready for the next step? Try combining this technique with OCR text extraction to embed searchable keywords alongside your Bates numbers, or automate the process for entire folders using `Directory.GetFiles`. The possibilities are endless, and the foundation you now have will make those extensions painless.
+
+Happy coding, and may your PDFs always be perfectly numbered!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

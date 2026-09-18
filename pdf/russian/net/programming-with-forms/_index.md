@@ -61,3 +61,24 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Как создать PDF с Aspose – Добавить поле в коллекцию](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Узнайте, как добавить поле в коллекцию при создании PDF с помощью Aspose.PDF для .NET. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+| [Создать PDF‑документ с несколькими виджетами TextBox – пошаговое руководство](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Узнайте, как создавать PDF‑документы с несколькими виджетами TextBox, используя Aspose.PDF для .NET в этом пошаговом руководстве. |
+| [Добавить номера Бейтса в PDF – пошаговое руководство C#](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Узнайте, как добавить номера Бейтса в PDF‑файлы с помощью Aspose.PDF для .NET на C# в этом пошаговом руководстве. |
+| [Как добавить текстовое поле в PDF – создать поле формы PDF и сохранить отредактированный документ](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Узнайте, как добавить текстовое поле в PDF, создать поле формы и сохранить изменённый документ с помощью Aspose.PDF для .NET. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

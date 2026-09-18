@@ -61,3 +61,24 @@ Aspose.PDF for .NET「使用表單程式設計」教學課程是希望建立和�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [如何使用 Aspose 建立 PDF – 新增欄位至集合](./how-to-create-pdf-with-aspose-add-field-to-collection/) |透過本逐步教學了解如何使用 Aspose.PDF for .NET 在 PDF 中將欄位新增至集合，以提升表單功能。 |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+| [建立多個文字方塊小部件的 PDF 文件 – 步驟指南](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) |本逐步教學說明如何使用 Aspose.PDF for .NET 在 PDF 中建立包含多個文字方塊的小部件。 |  
+| [在 PDF 中添加 Bates 編號 – C# 步驟指南](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) |透過本逐步教學了解如何使用 Aspose.PDF for .NET 在 PDF 中以 C# 添加 Bates 編號，以便文件管理與追蹤。 |  
+| [如何新增文字方塊 PDF – 建立 PDF 表單欄位並儲存編輯後的 PDF 文件](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 新增文字方塊、建立表單欄位並儲存編輯後的 PDF。 |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

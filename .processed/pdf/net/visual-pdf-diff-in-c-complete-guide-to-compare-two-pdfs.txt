@@ -1,0 +1,7 @@
+Title: Visual PDF Diff in C# – Complete Guide to Compare Two PDFs
+Slug: visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs
+Category: document-manipulation
+ProcessedDate: 2026-06-09T04:17:31.798966
+SourceRepo: AI Search API
+Keywords: visual pdf diff, compare two pdfs, how to compare pdf documents, highlight pdf differences, aspose pdf compare documents
+PRNumber: 89

@@ -48,3 +48,16 @@ Eğitimler, adım adım talimatlar, ayrıntılı kod örnekleri ve anlaşılmas�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Aspose PDF Eğitimi – Boş Sayfa Ekle ve Bates Numaralandırmasını Güncelle](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Aspose.PDF for .NET kullanarak bir PDF'e boş sayfa ekleyin ve Bates numaralandırmasını güncelleyin. |
+| [Boş PDF Sayfası Oluştur – Tam PDF Çizim Eğitimi](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Aspose.PDF for .NET kullanarak tam PDF çizim teknikleriyle boş bir PDF sayfası oluşturmayı adım adım öğrenin. |  
+| [Aspose ile PDF'ye Sayfa Ekleme – Tam C# Kılavuzu](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Aspose.PDF for .NET ile PDF dosyasına sayfa eklemeyi adım adım öğrenin. C# örnekleriyle tam kılavuz. |
+| [C# ile PDF Belgesi Oluştur – PDF'ye Sayfa Ekle ve Dikdörtgen](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) | Aspose.PDF for .NET kullanarak C# ile yeni bir PDF oluşturun, sayfa ekleyin ve dikdörtgen şekli çizin. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

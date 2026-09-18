@@ -111,7 +111,7 @@ Lär dig hur du lägger till linjeobjekt i PDF-filer med Aspose.PDF för .NET. D
 Lär dig hur du lägger till sidfot med textstämplar på varje sida i dina PDF-dokument med Aspose.PDF för .NET med vår steg-för-steg-guide. Effektivisera dokumenthanteringen.
 
 ### [Hur man lägger till en textstämpel till PDF-filer med Aspose.PDF för .NET](./add-text-stamp-pdf-aspose-dotnet/)
-Lär dig hur du effektivt lägger till textstämplar i PDF-dokument med Aspose.PDF för .NET. Förbättra din dokumenthantering med den här steg-för-steg-guiden.
+Lär dig hur du effektivt lägger till textstämpel i PDF-dokument med Aspose.PDF för .NET. Förbättra din dokumenthantering med den här steg-för-steg-guiden.
 
 ### [Så här lägger du till en tom sida i slutet av en PDF med Aspose.PDF för .NET | Steg-för-steg-guide](./add-empty-page-end-pdf-aspose-pdf-net/)
 Lär dig hur du smidigt lägger till en tom sida i slutet av din PDF med Aspose.PDF för .NET. Den här omfattande handledningen täcker installation, implementering och bästa praxis.
@@ -187,6 +187,9 @@ Lär dig hur du effektivt tar bort alla bokmärken från dina PDF-dokument med A
 
 ### [Så här tar du bort all text från PDF-filer med Aspose.PDF .NET för dokumentmanipulation](./remove-text-aspose-pdf-net-tutorial/)
 Lär dig hur du effektivt tar bort all text från en PDF med Aspose.PDF .NET. Perfekt för att skydda känsliga data eller rensa dokument.
+
+### [Maskera PDF i C# – Dölj text och ta bort innehåll](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
+Lär dig hur du maskar känslig information i PDF-filer genom att dölja text och ta bort innehåll med Aspose.PDF för .NET i C#.
 
 ### [Så här tar du bort PDF-öppningsåtgärder med Aspose.PDF för .NET: En komplett guide](./remove-pdf-open-action-aspose-dotnet-guide/)
 Lär dig hur du eliminerar oönskade öppnande åtgärder från PDF-filer med Aspose.PDF för .NET. Den här guiden ger steg-för-steg-instruktioner och bästa praxis.
@@ -310,6 +313,9 @@ Lär dig hur du delar upp flersidiga PDF-filer och skapar nya PDF-filer med Aspo
 
 ### [Ultimat guide till PDF-manipulation med Aspose.PDF .NET: Ladda, spara och ersätt text effektivt](./master-pdf-manipulation-aspose-pdf-net/)
 Lär dig hur du bemästrar PDF-manipulation med Aspose.PDF för .NET. Den här guiden behandlar hur man laddar, sparar och ersätter text i PDF-filer, perfekt för utvecklare som söker effektivitet.
+
+### [Hur man reparerar PDF i C# – Åtgärda korrumperade PDF-filer snabbt](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
+Lär dig hur du reparerar skadade PDF-filer i C# med Aspose.PDF för .NET snabbt och enkelt.
 
 ## Ytterligare resurser
 

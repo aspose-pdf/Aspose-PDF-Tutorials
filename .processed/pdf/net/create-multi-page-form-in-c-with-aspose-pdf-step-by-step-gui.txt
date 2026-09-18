@@ -1,0 +1,7 @@
+Title: Create Multi Page Form in C# with Aspose.Pdf – Step‑by‑Step Guide
+Slug: create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui
+Category: programming-with-forms
+ProcessedDate: 2026-06-09T04:16:47.497708
+SourceRepo: AI Search API
+Keywords: create multi page form, add textbox to pdf, create pdf form field, how to save pdf, save updated pdf
+PRNumber: 89

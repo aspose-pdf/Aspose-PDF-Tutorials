@@ -1,0 +1,7 @@
+Title: how to compress pdf with Aspose.Pdf in C# – Complete Step‑by‑Step Guide
+Slug: how-to-compress-pdf-with-aspose-pdf-in-c-complete-step-by-st
+Category: performance-optimization
+ProcessedDate: 2026-05-27T12:40:02.114005
+SourceRepo: AI Search API
+Keywords: how to compress pdf, validate pdf signatures, compress pdf images, how to validate pdf, load pdf document c#
+PRNumber: 84

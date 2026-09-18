@@ -16,7 +16,6 @@
 Zvládněte manipulaci s PDF dokumenty s našimi podrobnými tutoriály Aspose.PDF .NET. Tyto podrobné návody ukazují, jak pracovat se strukturou dokumentů, upravovat existující PDF soubory, rozdělovat a slučovat dokumenty, přidávat a odebírat stránky a programově organizovat obsah PDF. Každý tutoriál obsahuje funkční příklady kódu C#, poznámky k implementaci a osvědčené postupy, které vám pomohou vytvářet aplikace, které efektivně manipulují s PDF dokumenty pomocí čistého a snadno udržovatelného kódu.
 
 ## Dostupné tutoriály
-
 ### [Přidání datových a časových razítek do PDF pomocí Aspose.PDF pro .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 Naučte se, jak efektivně přidávat datumová a časová razítka nebo anotace do dokumentů PDF pomocí Aspose.PDF pro .NET. Vylepšete správu dokumentů pomocí těchto snadno sledovatelných kroků.
 
@@ -60,7 +59,7 @@ Naučte se, jak rozdělovat PDF soubory v .NET pomocí Aspose.PDF. Tato příru�
 Naučte se, jak efektivně kopírovat pole v PDF souborech pomocí Aspose.PDF v jazyce C#. Tato příručka se zabývá nastavením, implementací kódu a praktickými aplikacemi.
 
 ### [Efektivní vytváření N-up PDF souborů pomocí Aspose.PDF pro .NET: Podrobný návod](./create-n-up-pdfs-aspose-pdf-net-guide/)
-Naučte se, jak sloučit více PDF souborů do jednoho pomocí funkce N-Up v Aspose.PDF pro .NET. Postupujte podle tohoto komplexního průvodce a zefektivníte zpracování dokumentů.
+Naučte se, jak sloučit více PDF souborů do jednoho pomocí funkce N-Up v Aspose.PDF pro .NET. Postupujte podle tohoto komplexního průvodce a zefektivněte zpracování dokumentů.
 
 ### [Vytvořte N-up stránek v .NET pomocí Aspose.PDF: Komplexní průvodce](./create-n-up-pages-aspose-pdf-dotnet/)
 Naučte se, jak vytvářet vícestránkové (N-Up) PDF dokumenty z jednotlivých stránek pomocí Aspose.PDF pro .NET. Zefektivněte své pracovní postupy zpracování dokumentů.
@@ -294,7 +293,7 @@ Výukový program pro kódování Aspose.PDF Net
 Naučte se, jak efektivně otáčet stránky PDF a načítat jejich rozměry pomocí Aspose.PDF pro .NET. Vylepšete si své dovednosti v manipulaci s dokumenty s tímto komplexním průvodcem.
 
 ### [Otáčení stránek PDF pomocí Aspose.PDF v .NET: Průvodce pro vývojáře](./rotate-pdf-pages-aspose-pdf-dotnet/)
-Naučte se, jak otáčet stránky PDF pomocí Aspose.PDF pro .NET. Tato příručka se zabývá otáčením konkrétních stránek o stupně a obsahuje příklady kódu pro efektivní manipulaci s dokumenty.
+Naučte se, jak otáčet stránky PDF pomocí Aspose.PDF pro .NET. Tato příručka se zabývá otáčením konkrétních stránk o stupně a obsahuje příklady kódu pro efektivní manipulaci s dokumenty.
 
 ### [Rozdělení stránek PDF z konkrétní stránky pomocí .NET streamů a Aspose.PDF](./split-pdf-pages-with-net-streams-aspose-pdf/)
 Naučte se, jak efektivně rozdělit PDF soubory z konkrétní stránky pomocí .NET streamů s Aspose.PDF a vylepšit tak správu dokumentů ve vašich aplikacích.
@@ -308,8 +307,14 @@ Naučte se, jak rozdělit stránky PDF do samostatných souborů pomocí Aspose.
 ### [Rozdělení a vytváření PDF souborů pomocí Aspose.PDF .NET | Průvodce manipulací s dokumenty](./split-create-pdf-aspose-pdf-net/)
 Naučte se, jak rozdělovat vícestránkové PDF soubory a vytvářet nové PDF soubory pomocí Aspose.PDF pro .NET. Postupujte podle tohoto komplexního průvodce s příklady kódu.
 
+### [Jak redigovat PDF v C# – Skrytí textu PDF a odstranění obsahu PDF](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
+Naučte se, jak v C# pomocí Aspose.PDF skrýt citlivý text a odstranit obsah z PDF dokumentů.
+
 ### [Ultimátní průvodce manipulací s PDF pomocí Aspose.PDF .NET: Efektivní načítání, ukládání a nahrazování textu](./master-pdf-manipulation-aspose-pdf-net/)
 Naučte se, jak zvládnout manipulaci s PDF pomocí Aspose.PDF pro .NET. Tato příručka se zabývá načítáním, ukládáním a nahrazováním textu v PDF souborech, což je ideální pro vývojáře, kteří hledají efektivitu.
+
+### [Jak opravit PDF v C# – rychle opravit poškozené PDF soubory](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
+Naučte se, jak rychle opravit poškozené PDF soubory v C# pomocí Aspose.PDF .NET.
 
 ## Další zdroje
 

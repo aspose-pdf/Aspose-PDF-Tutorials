@@ -16,7 +16,6 @@
 Začněte svou cestu s těmito základními tutoriály k Aspose.PDF, které vás provedou instalací, konfigurací licencování a vytvořením vašich prvních PDF dokumentů v .NET. Naše průvodce pro začátečníky ukazují, jak nastavit vývojové prostředí, inicializovat knihovnu Aspose.PDF a provádět základní operace s PDF. Postupujte podle těchto tutoriálů, abyste si rychle osvojili základy a připravili se na pokročilejší úlohy manipulace s PDF ve vašich .NET aplikacích.
 
 ## Dostupné tutoriály
-
 ### [Použití měřené licence a počtu stránek PDF s Aspose.PDF](./aspose-pdf-net-metered-license-page-count/)
 Výukový program pro kódování Aspose.PDF Net
 
@@ -34,6 +33,11 @@ Naučte se, jak bezproblémově přepínat mezi zkušebním a licencovaným rež
 
 ### [Jak ověřit instalaci NuGet balíčku pomocí PowerShellu](./how-to-verify-installation-of-a-nuget-package-with-powershel/)
 Naučte se, jak pomocí PowerShellu ověřit, že byl NuGet balíček úspěšně nainstalován.
+
+### [Jak nainstalovat Aspose – PowerShell průvodce pro konkrétní verze](./how-to-install-aspose-powershell-guide-for-specific-versions/)
+Podrobný návod, jak pomocí PowerShell nainstalovat konkrétní verze Aspose a spravovat je v .NET projektech.
+### [Jak nainstalovat NuGet balíčky pomocí PowerShell – krok za krokem](./how-to-install-nuget-packages-via-powershell-step-by-step/)
+Podrobný návod, jak pomocí PowerShell nainstalovat NuGet balíčky do vašeho .NET projektu.
 
 ## Další zdroje
 

@@ -48,3 +48,24 @@ Návody obsahují podrobné pokyny, podrobné příklady kódu a jasná vysvětl
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Aspose PDF tutoriál – Vložení prázdné stránky a aktualizace Batesova číslování](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Naučte se, jak vložit prázdnou stránku a aktualizovat Batesovo číslování v PDF pomocí Aspose.PDF pro .NET. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+| [Vytvořit prázdnou stránku PDF – Kompletní tutoriál kreslení PDF](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Kompletní průvodce vytvořením prázdné stránky PDF a kreslením obsahu pomocí Aspose.PDF pro .NET. |
+| [Přidání stránek do PDF pomocí Aspose – Kompletní průvodce C#](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Kompletní návod, jak pomocí Aspose.PDF pro .NET přidat nové stránky do PDF souboru v jazyce C#. |  
+| [Vytvořit PDF dokument v C# – Přidat stránku do PDF a obdélník](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) | Naučte se, jak vytvořit PDF, přidat novou stránku a kreslit obdélník pomocí Aspose.PDF pro .NET. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

@@ -43,3 +43,35 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [在 C# 中验证 PDF 签名 – 完整分步指南](./verify-pdf-signature-in-c-complete-step-by-step-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名，分步指导确保文档完整性和真实性。|  
+| [打开已签名的 PDF – 如何读取其数字签名](./open-signed-pdf-how-to-read-its-digital-signatures/) 了解如何使用 Aspose.PDF for .NET 打开已签名的 PDF 并读取其数字签名。分步指南帮助您检查签名信息。|  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+| [如何使用 Aspose 验证 PDF 中的签名 – C# 教程](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 文档的数字签名，确保签名完整性和真实性。|  
+| [如何修复 PDF 文件 – 使用 Aspose.Pdf 的完整 C# 指南](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) 了解如何使用 Aspose.Pdf for .NET 在 C# 中修复受损的 PDF 文件，分步指南帮助您恢复文档完整性。|  
+| [在 C# 中检查 PDF 签名 – 完整编程指南](./verify-pdf-signature-in-c-complete-programming-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名并检查其完整性。分步指南帮助您确保文档安全。|  
+
+| [如何在 C# 中验证 PDF 签名 – 完整分步指南](./how-to-verify-pdf-signatures-in-c-complete-step-by-step-guid/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名，分步指南帮助您确保文档完整性。|  
+| [如何使用 Aspose 验证 PDF 中的签名 – 指南](./how-to-verify-signature-in-pdf-using-aspose-guide/) 了解如何使用 Aspose.PDF for .NET 验证 PDF 签名，提供完整的分步指南。|  
+| [使用 Aspose.PDF 验证 PDF 签名 – 完整指南](./how-to-verify-pdf-signatures-with-aspose-pdf-complete-guide/) 了解如何使用 Aspose.PDF for .NET 完整验证 PDF 签名，提供详细的分步指南。|  
+| [加载 PDF 文档 C# – 阅读和列出签名的完整指南](./load-pdf-document-c-complete-guide-to-reading-and-listing-si/) 了解如何使用 Aspose.PDF for .NET 在 C# 中加载 PDF 并读取、列出数字签名。|  
+| [使用 C# 创建已签名 PDF – 步骤指南](./create-signed-pdf-in-c-step-by-step-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中创建并签署 PDF 文档，分步指南帮助您快速上手。|  
+| [在 C# 中验证 PDF 签名 – 步骤指南](./verify-pdf-signature-in-c-step-by-step-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名。分步指南，确保文档完整性。|  
+| [如何在 C# 中使用 OCSP 验证 PDF 数字签名](./how-to-use-ocsp-to-validate-pdf-digital-signature-in-c/) 了解如何使用 Aspose.PDF for .NET 在 C# 中通过 OCSP 验证 PDF 数字签名。分步指南，确保签名真实性。|  
+| [使用 Aspose.Pdf 验证 PDF 签名 – 分步指南](./verify-pdf-signature-with-aspose-pdf-step-by-step-guide/) 了解如何使用 Aspose.PDF for .NET 验证 PDF 签名，确保文档完整性和真实性。|  
+| [如何验证 PDF – 完整的 C# 数字签名指南](./how-to-verify-pdf-complete-c-guide-for-digital-signatures/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 的数字签名，确保文档完整性和真实性的完整分步指南。|  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+
