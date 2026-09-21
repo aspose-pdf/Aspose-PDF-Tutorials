@@ -62,7 +62,7 @@ Ein Code-Tutorial für Aspose.PDF Net
 ### [Extrahieren Sie Bilder aus PDF-Signaturen mit Aspose.PDF .NET: Ein umfassender Leitfaden](./extract-images-pdf-signatures-aspose-pdf-dotnet/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET in PDF-Signaturen eingebettete Bilder extrahieren. Diese Anleitung bietet Schritt-für-Schritt-Anleitungen und praktische Anwendungen.
 
-### [Extrahieren Sie Bilder aus PDF mit Aspose.PDF .NET](./extract-images-pdfs-aspose-pdf-net/)
+### [Extrahieren Sie Bilder aus PDF mit Aspose.PDF für .NET](./extract-images-pdfs-aspose-pdf-net/)
 Ein Code-Tutorial für Aspose.PDF Net
 
 ### [Schnelle Bildverkleinerung in PDFs mit Aspose.PDF .NET: Bilder effizient optimieren und komprimieren](./optimize-pdf-images-aspose-net-fast-compression/)

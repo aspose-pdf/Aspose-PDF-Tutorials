@@ -228,13 +228,17 @@
 ### [Преобразование PDF в HTML с помощью Aspose.PDF .NET: подробное руководство](./aspose-pdf-net-pdf-to-html-conversion/)
 Мастер преобразования PDF в HTML с помощью Aspose.PDF для .NET. Улучшите доступность и вовлеченность документов с помощью настраиваемых параметров.
 
-### [Сохранить PDF как HTML с помощью Aspose.PDF – Быстрое руководство C#](./save-pdf-as-html-with-aspose-pdf-quick-c-guide/)
-Краткое руководство по сохранению PDF в HTML с использованием Aspose.PDF и C#.
 ### [Сохранить PDF как HTML с помощью Aspose.PDF – Полное руководство на C#](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
 Узнайте, как преобразовать PDF в HTML в C# с помощью Aspose.PDF, используя полные примеры кода и настройки.
 
+### [Сохранить PDF как HTML с помощью Aspose.PDF – Быстрое руководство C#](./save-pdf-as-html-with-aspose-pdf-quick-c-guide/)
+Краткое руководство по сохранению PDF в HTML с использованием Aspose.PDF и C#.
+
 ### [Преобразование PDF в HTML с помощью Aspose.PDF для .NET](./pdf-to-html-conversion-aspose-dot-net/)
 Учебник по коду для Aspose.PDF Net
+
+### [Преобразование PDF в TIFF в .NET с использованием Aspose.PDF: пошаговое руководство](./pdf-to-tiff-conversion-aspose-pdf-net/)
+Узнайте, как преобразовывать документы PDF в изображения TIFF с помощью Aspose.PDF для .NET. Освойте пользовательские глубины цвета и передовые методы обработки изображений.
 
 ### [Преобразование PDF в HTML на C# – Быстрое руководство с Aspose.Pdf](./convert-pdf-to-html-in-c-quick-guide-with-aspose-pdf/)
 Краткое руководство по конвертации PDF в HTML с помощью Aspose.Pdf на C#, включая примеры кода и настройку параметров.

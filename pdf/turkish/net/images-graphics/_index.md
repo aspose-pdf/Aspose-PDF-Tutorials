@@ -95,7 +95,7 @@ Aspose.PDF for .NET kullanarak PDF'lerinizdeki belirli sayfalara resim damgalar�
 ### [Aspose.PDF for .NET Kullanarak PDF'ye Resim Damgası Nasıl Eklenir: Kapsamlı Bir Kılavuz](./add-image-stamp-pdf-aspose-dotnet/)
 Aspose.PDF for .NET kullanarak PDF'lerinize logolar veya filigranlar gibi resim damgaları eklemeyi öğrenin. Bu kılavuz kurulum, uygulama ve pratik uygulamaları kapsar.
 
-### [Aspose.PDF for .NET Kullanarak PDF Sayfalarını PNG Görüntülerine Nasıl Dönüştürürsünüz](./convert-pdf-page-to-png-aspose-dotnet/)
+### [Aspose.PDF for .NET Kullanarak PDF Sayfalarını PNG Görüntülerine Nasıl Dönüştürebilirsiniz](./convert-pdf-page-to-png-aspose-dotnet/)
 Aspose.PDF for .NET kullanarak PDF sayfalarını yüksek kaliteli PNG görüntülerine nasıl dönüştüreceğinizi öğrenin. Kod örnekleri ve en iyi uygulamalarla bu adım adım kılavuzu izleyin.
 
 ### [.NET için Aspose.PDF Kullanarak PDF'lerde Kesikli Çizgiler Nasıl Oluşturulur: Adım Adım Kılavuz](./create-dashed-lines-aspose-pdf-net/)

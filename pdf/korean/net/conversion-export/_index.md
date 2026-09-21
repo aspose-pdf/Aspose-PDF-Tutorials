@@ -144,7 +144,7 @@ Aspose.PDF와 C#을 사용하여 XML 파일을 전문적인 PDF로 효율적으�
 Aspose.PDF for .NET을 사용하여 동적 이미지 삽입을 포함하여 XML 데이터를 전문적인 PDF 문서로 변환하는 방법을 알아보세요.
 
 ### [Aspose.PDF .NET을 사용하여 XPS를 PDF로 변환: 단계별 가이드](./convert-xps-to-pdf-aspose-net/)
-Aspose.PDF for .NET을 사용하여 XPS 파일을 PDF로 변환하는 방법을 알아보세요. 이 단계별 가이드는 설정, 변환 과정 및 문제 해결 팁을 다룹니다.
+Aspose.PDF for .NET을 사용하여 XPS 파일을 PDF로 변환하는 방법을 알아보세요. 이 단계별 가이드에서는 설정, 변환 과정 및 문제 해결 팁을 다룹니다.
 
 ### [Aspose.PDF for .NET을 사용하여 PDF 변환 및 주석 달기: 포괄적인 가이드](./convert-annotate-pdfs-aspose-pdf-net-guide/)
 Aspose.PDF for .NET을 사용하여 PDF를 이미지로 변환하고 텍스트를 강조 표시하는 방법을 알아보세요. 이 가이드는 설치, 코드 예제, 그리고 모범 사례를 다룹니다.
@@ -242,12 +242,13 @@ Aspose.PDF Net에 대한 코드 튜토리얼
 ### [Aspose.PDF를 사용하여 .NET에서 PDF를 TIFF로 변환: 단계별 가이드](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Aspose.PDF for .NET을 사용하여 PDF 문서를 TIFF 이미지로 변환하는 방법을 알아보세요. 사용자 정의 색상 심도와 고급 이미지 처리 기술을 익혀보세요.
 
+### [Aspose.PDF를 사용하여 PDF를 HTML로 저장하기 – 완전 C# 가이드](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
+Aspose.PDF for .NET을 활용해 PDF를 HTML로 변환하고 저장하는 방법을 단계별 C# 예제로 안내합니다.
+
 ### [Aspose로 PDF 저장하기 – 단계별 가이드](./how-to-save-pdf-with-aspose-step-by-step-guide/)
 Aspose를 사용하여 PDF 파일을 저장하는 방법을 단계별로 안내합니다.
 ### [Aspose.PDF를 사용하여 PDF를 HTML로 저장하기 – 빠른 C# 가이드](./save-pdf-as-html-with-aspose-pdf-quick-c-guide/)
 Aspose.PDF for .NET을 사용해 C#으로 PDF를 HTML로 저장하는 간단한 단계별 가이드입니다.
-### [Aspose.PDF를 사용하여 PDF를 HTML로 저장하기 – 완전 C# 가이드](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
-Aspose.PDF for .NET을 활용해 PDF를 HTML로 변환하고 저장하는 방법을 단계별 C# 예제로 안내합니다.
 
 ## 추가 자료
 

@@ -212,7 +212,19 @@ Aspose-PDF Net 代码教程
 通过本分步教程学习如何使用 Aspose.PDF for .NET 将网页转换为 PDF。非常适合文档管理和离线访问。
 
 ### [如何使用 Aspose.PDF for .NET 跟踪 PDF 转换进度：分步指南](./track-pdf-conversion-progress-aspose-dotnet/)
-了解如何使用 Aspose.PDF for .NET 高效地跟踪 PDF 转换进度。遵循本分步指南，增强文档工作流程并提升用户反馈。
+了解如何使用 Aspose.PDF for .NET 高效跟踪 PDF 转换进度。遵循本分步指南，增强文档工作流程并提升用户反馈。
+
+### [掌握 Aspose.PDF .NET：使用自定义 CSS 将 PDF 转换为 HTML](./aspose-pdf-net-license-html-conversion-custom-css/)
+了解如何应用 Aspose.PDF 许可证，并使用 C# 将 PDF 转换为带有自定义 CSS 的 HTML。立即解锁完整的文档处理功能。
+
+### [使用 Aspose.PDF .NET 掌握字体替换和 PDF 转换，确保合规性和品牌一致性](./mastering-font-substitution-pdf-conversion-asposepdf-net/)
+了解如何通过替换字体来管理缺失字体，并使用 Aspose.PDF .NET 将 PDF 转换为标准格式。确保所有平台的合规性和品牌一致性。
+
+### [使用 Aspose.PDF for .NET 中的字体处理功能，掌握 PDF 到 HTML 的转换](./optimize-pdf-to-html-font-handling-aspose-net/)
+了解如何使用 Aspose.PDF for .NET 优化 PDF 到 HTML 的转换，重点关注高效的字体资源处理和无缝集成。
+
+### [使用 Aspose.PDF .NET 将 PDF 转换为 HTML：将图像保存为外部 PNG](./pdf-to-html-conversion-external-png-aspose-pdf-net/)
+学习如何使用 Aspose.PDF for .NET 将 PDF 文档转换为包含外部 PNG 图像的 HTML 文档。本指南可确保布局保留并优化 Web 性能。
 
 ### [使用 Aspose.PDF .NET 将 PDF 转换为 HTML：综合指南](./aspose-pdf-net-pdf-to-html-conversion/)
 使用 Aspose.PDF for .NET 掌握 PDF 到 HTML 的转换。通过可自定义的选项增强文档的可访问性和参与度。
@@ -226,12 +238,13 @@ Aspose-PDF Net 代码教程
 ### [使用 Aspose.PDF 在 .NET 中将 PDF 转换为 TIFF：分步指南](./pdf-to-tiff-conversion-aspose-pdf-net/)
 学习如何使用 Aspose.PDF for .NET 将 PDF 文档转换为 TIFF 图像。掌握自定义色深和高级图像处理技术。
 
+### [使用 Aspose.PDF 将 PDF 保存为 HTML – 完整 C# 指南](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
+学习如何使用 Aspose.PDF for .NET 将 PDF 保存为 HTML，提供完整的 C# 示例代码和步骤说明。
+
 ### [如何使用 Aspose 保存 PDF – 步骤指南](./how-to-save-pdf-with-aspose-step-by-step-guide/)
 本指南详细演示如何使用 Aspose 在 .NET 中保存 PDF 文件的完整步骤。
 ### [使用 Aspose.PDF 将 PDF 保存为 HTML – 快速 C# 指南](./save-pdf-as-html-with-aspose-pdf-quick-c-guide/)
 学习使用 Aspose.PDF for .NET 将 PDF 保存为 HTML，提供快速的 C# 示例代码，帮助您高效完成转换。
-### [使用 Aspose.PDF 将 PDF 保存为 HTML – 完整 C# 指南](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
-学习如何使用 Aspose.PDF for .NET 将 PDF 保存为 HTML，提供完整的 C# 示例代码和步骤说明。
 
 ## 其他资源
 
