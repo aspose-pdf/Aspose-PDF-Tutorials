@@ -1,24 +1,26 @@
 ---
 category: general
-date: 2026-03-06
-description: Buat PDF ber-tag dengan Aspose.Pdf di C#. Pelajari cara menambahkan gambar
-  ke PDF, mengatur posisi gambar, dan menandai PDF untuk aksesibilitas.
+date: 2026-02-12
+description: Buat PDF ber-tag dengan Aspose.Pdf di C#. Pelajari cara menambahkan paragraf
+  ke PDF, menambahkan tag paragraf, menambahkan teks ke paragraf, dan membuat PDF
+  yang dapat diakses.
 draft: false
 keywords:
 - create tagged pdf
-- add image to pdf
-- set figure position
-- how to tag pdf
-- how to add image
+- add paragraph to pdf
+- add paragraph tag
+- add text to paragraph
+- create accessible pdf
 language: id
-og_description: Buat PDF ber‑tag dengan Aspose.Pdf. Panduan ini menunjukkan cara menambahkan
-  gambar ke PDF, mengatur posisi gambar, dan menandai PDF untuk aksesibilitas.
-og_title: Buat PDF Berlabel di C# – Tutorial Lengkap
+og_description: Buat PDF ber-tag di C# dengan Aspose.Pdf. Tutorial ini menunjukkan
+  cara menambahkan paragraf ke PDF, mengatur tag, dan menghasilkan PDF yang dapat
+  diakses.
+og_title: Buat PDF Berlabel di C# – Panduan Pemrograman Lengkap
 tags:
 - Aspose.Pdf
 - C#
-- PDF Accessibility
-title: Buat PDF Ber‑tag di C# – Panduan Langkah demi Langkah
+- PDF accessibility
+title: Buat PDF Berlabel di C# – Panduan Langkah demi Langkah
 url: /id/net/programming-with-tagged-pdf/create-tagged-pdf-in-c-step-by-step-guide/
 ---
 
@@ -26,144 +28,36 @@ url: /id/net/programming-with-tagged-pdf/create-tagged-pdf-in-c-step-by-step-gui
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Buat PDF Ber‑tag di C# – Tutorial Lengkap
+# Membuat PDF Ber-tag di C# – Panduan Langkah‑per‑Langkah
 
-Pernah perlu **membuat PDF ber‑tag** di C# tapi tidak yakin harus mulai dari mana? Anda tidak sendirian; aksesibilitas kini menjadi keharusan, dan PDF ber‑tag adalah tulang punggung dokumen yang patuh. Dalam tutorial ini kita akan menelusuri contoh dunia nyata yang **menambahkan gambar ke PDF**, mengatur posisi gambar, dan menunjukkan **cara menandai PDF** menggunakan Aspose.Pdf. Pada akhir tutorial Anda akan memiliki PDF ber‑tag lengkap yang dapat Anda kirim ke siapa saja.
+Jika Anda perlu **create tagged PDF** dengan cepat, panduan ini menunjukkan secara tepat cara melakukannya. Kesulitan menambahkan paragraf ke PDF sambil menjaga dokumen tetap dapat diakses? Kami akan membahas setiap baris kode, menjelaskan mengapa setiap bagian penting, dan mengakhiri dengan contoh siap‑jalankan yang dapat Anda masukkan ke dalam proyek Anda.
 
-Kami akan membahas semuanya mulai dari memuat file yang ada hingga menyimpan output akhir, sehingga Anda tidak perlu mencari “cara menambahkan gambar” di tempat lain. Tanpa basa‑basi—hanya solusi yang jelas, dapat dijalankan, dan bekerja dengan Aspose.Pdf 23.8 (versi terbaru saat penulisan). Siapkan IDE Anda, dan mari mulai.
-
----
+Dalam tutorial ini Anda akan belajar cara **add paragraph to PDF**, melampirkan **paragraph tag** yang tepat, menyisipkan **text to paragraph**, dan pada akhirnya **create accessible PDF** yang lolos pemeriksaan pembaca layar. Tidak diperlukan alat PDF tambahan—hanya Aspose.Pdf untuk .NET dan beberapa baris C#.
 
 ## Apa yang Anda Butuhkan
 
-- **Aspose.Pdf untuk .NET** (paket NuGet `Aspose.Pdf`).  
-- .NET 6+ (atau .NET Framework 4.7.2+).  
-- PDF input yang sudah memiliki struktur logis (misalnya, sudah ber‑tag) – jika belum, Anda dapat mengaktifkan tagging via `pdfDocument.TaggedContent = true`.  
-- File gambar (`image.png`) yang ingin Anda sematkan.  
+- .NET 6.0 atau lebih baru (API bekerja sama pada .NET Framework 4.6+)
+- Aspose.Pdf untuk .NET (paket NuGet `Aspose.Pdf`)
+- IDE C# dasar (Visual Studio, Rider, atau VS Code)
 
-Itu saja. Tanpa pustaka tambahan, tanpa file konfigurasi yang rumit.
+Itu saja. Tidak ada utilitas eksternal, tidak ada file konfigurasi yang rumit. Mari kita mulai.
 
----
+![Tangkapan layar dokumen PDF ber-tag yang menampilkan teks paragraf](/images/create-tagged-pdf.png "create tagged pdf example")
 
-## Langkah 1: Muat Dokumen PDF yang Ada (Buat Dasar PDF Ber‑tag)
+*(Teks alt gambar: “contoh pdf ber-tag yang menunjukkan paragraf dengan tag yang tepat”)*
 
-Hal pertama yang kami lakukan adalah membuka PDF yang ingin kami tingkatkan. Memuat file memberi kami akses ke struktur logisnya, yang penting untuk alur kerja **create tagged pdf**.
+## Cara Membuat PDF Ber-tag – Konsep Inti
 
-```csharp
-using System;
-using System.IO;
-using Aspose.Pdf;
-using Aspose.Pdf.LogicalStructure;
+Sebelum kita mulai menulis kode, penting untuk memahami *mengapa* penandaan penting. PDF/UA (Universal Accessibility) memerlukan pohon struktur logis agar teknologi bantu dapat membaca dokumen dalam urutan yang tepat. Dengan membuat **paragraph tag** dan menempatkan **text to paragraph**, Anda memberi pembaca layar petunjuk jelas bahwa konten tersebut adalah paragraf, bukan sekadar rangkaian karakter acak.
 
-// Load the source PDF – make sure the path points to a real file.
-Document pdfDocument = new Document("YOUR_DIRECTORY/input.pdf");
+### Langkah 1: Siapkan Proyek dan Impor Namespace
 
-// Verify that the document has a tag tree; if not, enable it.
-if (!pdfDocument.TaggedContent.IsTagged)
-{
-    pdfDocument.TaggedContent.IsTagged = true;
-    Console.WriteLine("Tagging enabled on the document.");
-}
-```
-
-*Mengapa ini penting:* Tanpa pohon tag, PDF tidak akan menyampaikan informasi struktural ke pembaca layar. Mengaktifkan tagging memastikan bahwa elemen baru yang kami tambahkan (seperti gambar) mewarisi hierarki yang tepat.
-
----
-
-## Langkah 2: Akses Root Struktur Logis (Cara Menandai PDF)
-
-Sekarang kami masuk ke struktur logis PDF. Elemen root adalah wadah untuk semua tag—bayangkan sebagai outline dokumen.
-
-```csharp
-// Grab the root of the logical structure.
-var logicalRoot = pdfDocument.TaggedContent.RootElement;
-
-// Optional: print existing children count for debugging.
-Console.WriteLine($"Root has {logicalRoot.ChildElements.Count} child elements.");
-```
-
-*Penjelasan:* `logicalRoot` memungkinkan kami menambahkan tag baru seperti `<Figure>` atau `<Table>`. Inilah inti dari **how to tag PDF** secara programatik.
-
----
-
-## Langkah 3: Buat Tag Figure dan Atur Posisinya (Set Figure Position)
-
-Tag *Figure* mengelompokkan konten visual dengan caption opsional. Kami akan membuat satu, menempatkannya, dan menempelkan ke root.
-
-```csharp
-// Create a new Figure element.
-var figureTag = logicalRoot.CreateFigureElement();
-
-// Define where the figure appears on the page.
-figureTag.Position = new Position
-{
-    // X/Y are measured from the bottom‑left corner (points).
-    X = 100,   // 100 points from the left edge
-    Y = 150,   // 150 points from the bottom edge
-    Width = 300,
-    Height = 200
-};
-
-// Append the Figure to the logical structure.
-logicalRoot.AppendChild(figureTag);
-
-Console.WriteLine("Figure tag created and positioned.");
-```
-
-*Mengapa kami mengatur posisi:* Langkah **set figure position** menentukan di mana elemen visual akan muncul di halaman. Jika Anda melewatkannya, gambar dapat muncul di lokasi tak terduga atau tidak terlihat oleh teknologi bantu.
-
----
-
-## Langkah 4: Tambahkan Representasi Visual – Sisipkan Gambar (Add Image to PDF)
-
-Setelah tag ada, kami memerlukan gambar sebenarnya. Inilah bagian yang menjawab **add image to pdf**.
-
-```csharp
-// Grab the first page (pages are 1‑based in Aspose.Pdf).
-var firstPage = pdfDocument.Pages[1];
-
-// Create an Image object that points to the file stream.
-var image = new Image
-{
-    ImageStream = File.OpenRead("YOUR_DIRECTORY/image.png"),
-    // The rectangle defines the same area we set for the Figure.
-    Rect = new Rectangle(100, 150, 400, 350) // X, Y, Width, Height
-};
-
-// Add the image to the page's paragraph collection.
-firstPage.Paragraphs.Add(image);
-
-Console.WriteLine("Image added to the first page.");
-```
-
-*Poin penting:* Koordinat persegi panjang harus cocok dengan `figureTag.Position` yang kami definisikan sebelumnya; jika tidak, figure dan konten visualnya akan tidak sinkron, merusak aksesibilitas.
-
----
-
-## Langkah 5: Simpan PDF yang Diperbarui (Selesaikan Membuat PDF Ber‑tag)
-
-Akhirnya, kami menyimpan perubahan ke file baru. Menjaga file asli tetap tidak tersentuh adalah praktik yang baik.
-
-```csharp
-// Save the modified document.
-pdfDocument.Save("YOUR_DIRECTORY/output.pdf");
-
-Console.WriteLine("Tagged PDF saved as output.pdf");
-```
-
-Pada tahap ini Anda memiliki file **create tagged pdf** yang berisi gambar yang diposisikan dengan benar dan dibungkus dalam tag `<Figure>`. Buka `output.pdf` di Adobe Acrobat dan periksa panel *Tags* – Anda harus melihat node `Figure` di bawah root.
-
----
-
-## Contoh Lengkap yang Siap Dijalan­kan
-
-Berikut adalah program lengkap yang dapat Anda salin‑tempel ke aplikasi konsol. Semua langkah sudah berada dalam urutan yang benar.
+Buat aplikasi console baru (atau integrasikan ke dalam yang sudah ada) dan tambahkan referensi Aspose.Pdf.
 
 ```csharp
 using System;
-using System.IO;
 using Aspose.Pdf;
-using Aspose.Pdf.LogicalStructure;
+using Aspose.Pdf.Text;
 
 namespace TaggedPdfDemo
 {
@@ -171,109 +65,183 @@ namespace TaggedPdfDemo
     {
         static void Main(string[] args)
         {
-            // 1️⃣ Load the PDF.
-            Document pdfDocument = new Document("YOUR_DIRECTORY/input.pdf");
-            if (!pdfDocument.TaggedContent.IsTagged)
-            {
-                pdfDocument.TaggedContent.IsTagged = true;
-                Console.WriteLine("Tagging enabled.");
-            }
-
-            // 2️⃣ Access the logical structure root.
-            var logicalRoot = pdfDocument.TaggedContent.RootElement;
-
-            // 3️⃣ Create a Figure tag and set its position.
-            var figureTag = logicalRoot.CreateFigureElement();
-            figureTag.Position = new Position
-            {
-                X = 100,
-                Y = 150,
-                Width = 300,
-                Height = 200
-            };
-            logicalRoot.AppendChild(figureTag);
-            Console.WriteLine("Figure tag added.");
-
-            // 4️⃣ Add the image to the first page.
-            var firstPage = pdfDocument.Pages[1];
-            var image = new Image
-            {
-                ImageStream = File.OpenRead("YOUR_DIRECTORY/image.png"),
-                Rect = new Rectangle(100, 150, 400, 350)
-            };
-            firstPage.Paragraphs.Add(image);
-            Console.WriteLine("Image inserted.");
-
-            // 5️⃣ Save the result.
-            pdfDocument.Save("YOUR_DIRECTORY/output.pdf");
-            Console.WriteLine("PDF saved – tagging complete.");
+            // The rest of the code lives here
         }
     }
 }
 ```
 
-### Hasil yang Diharapkan
+> **Pro tip:** Jika Anda menggunakan pernyataan top‑level .NET 6, Anda dapat menghilangkan kelas `Program` sepenuhnya—cukup letakkan kode langsung di file. Logikanya tetap sama.
 
-- `output.pdf` terbuka dengan gambar ditampilkan pada titik (100, 150), berukuran 300 × 200 poin.  
-- Panel *Tags* menampilkan elemen `Figure` yang membungkus gambar.  
-- Alat pembaca layar mengumumkan “Figure” sebelum mendeskripsikan gambar, memenuhi standar aksesibilitas dasar.
+### Langkah 2: Buat Dokumen PDF Baru
 
----
-
-## Pertanyaan Umum & Kasus Tepi
-
-### Bagaimana jika PDF sumber belum ber‑tag?
-
-Aspose.Pdf memungkinkan Anda mengaktifkan tagging dengan mengatur `pdfDocument.TaggedContent.IsTagged = true;`. Perpustakaan akan menghasilkan pohon tag default, setelah itu Anda dapat menambahkan tag khusus seperti yang ditunjukkan.
-
-### Bisakah saya menambahkan caption ke figure?
-
-Ya. Setelah membuat `figureTag`, Anda dapat melampirkan `Paragraph` dengan `TextFragment` dan mengatur `Tag`‑nya menjadi `Caption`. Contoh:
+Kita mulai dengan `Document` kosong. Objek ini mewakili seluruh file PDF, termasuk pohon struktur internalnya.
 
 ```csharp
-var caption = new Paragraph(new TextFragment("Figure 1: Sample diagram"));
-caption.Tag = figureTag.CreateCaptionElement();
-logicalRoot.AppendChild(caption);
+// Step 2: Create a new PDF document (the canvas)
+using (var pdfDocument = new Document())
+{
+    // All subsequent operations happen inside this block
+}
 ```
 
-### Bagaimana cara menempatkan figure pada halaman yang berbeda?
+Pernyataan `using` menjamin bahwa handle file dilepaskan secara otomatis, yang sangat berguna saat Anda menjalankan demo berkali‑kali.
 
-Ganti `var firstPage = pdfDocument.Pages[1];` dengan indeks halaman yang diinginkan, misalnya `pdfDocument.Pages[3]`. Ingat untuk menyesuaikan koordinat `Position` jika ukuran halaman berbeda.
+### Langkah 3: Akses Struktur Konten Ber-tag
 
-### Bagaimana jika saya perlu menandai banyak gambar?
-
-Buat `Figure` baru untuk setiap gambar, berikan masing‑masing `Position` unik, dan tambahkan objek `Image` yang bersesuaian ke halaman yang tepat. Melakukan looping atas koleksi gambar bekerja dengan baik.
-
-### Apakah ini bekerja dengan kepatuhan PDF/A?
-
-Aspose.Pdf mendukung PDF/A‑1b, PDF/A‑2b, dan PDF/A‑3b. Saat menghasilkan dokumen PDF/A, pastikan untuk mengatur mode kepatuhan sebelum menyimpan:
+PDF ber-tag memiliki *structure tree* yang berada di bawah `TaggedContent`. Dengan mengambilnya kita dapat mulai membangun elemen logis seperti paragraf.
 
 ```csharp
-pdfDocument.Convert(ConvertFormat.PdfA1b);
+// Step 3: Get the tagged content object
+var taggedContent = pdfDocument.TaggedContent;
 ```
 
-Logika tagging tetap sama.
+Jika Anda melewatkan langkah ini, teks apa pun yang Anda tambahkan nanti akan menjadi **unstructured**, artinya teknologi bantu akan membacanya sebagai string datar.
 
----
+### Langkah 4: Buat Elemen Paragraf dan Tentukan Posisinya
 
-## Tips Pro & Jebakan
+Sekarang kita benar‑benarnya **add paragraph to PDF**. Elemen paragraf adalah wadah yang dapat menampung satu atau lebih fragmen teks.
 
-- **Tip pro:** Selalu gunakan path absolut atau `Path.Combine` untuk menghindari error file‑not‑found saat runtime.  
-- **Waspada:** Koordinat yang tidak cocok antara tag `Figure` dan persegi panjang `Image`—teknologi bantu bergantung pada penyelarasan tersebut.  
-- **Catatan performa:** Jika Anda memproses banyak halaman, bungkus stream gambar dalam blok `using` untuk membebaskan sumber daya dengan cepat.  
-- **Pemeriksaan versi:** API yang ditunjukkan bekerja dengan Aspose.Pdf 23.8+. Versi lebih lama mungkin memiliki nama kelas yang sedikit berbeda (misalnya `LogicalStructureElement` alih‑alih `FigureElement`).
+```csharp
+// Step 4: Create a paragraph element
+var paragraph = taggedContent.CreateParagraphElement();
 
----
+// Define where the paragraph appears on the page (in points)
+paragraph.Bounds = new Rectangle(0, 700, 500, 720);
+```
+
+`Rectangle` menggunakan sistem koordinat PDF di mana (0,0) berada di sudut kiri‑bawah. Sesuaikan koordinat Y jika Anda membutuhkan paragraf lebih tinggi atau lebih rendah pada halaman.
+
+### Langkah 5: Sisipkan Teks ke dalam Paragraf
+
+Berikut bagian di mana kita **add text to paragraph**. Properti `Text` adalah pembungkus praktis yang membuat satu `TextFragment` secara internal.
+
+```csharp
+// Step 5: Set the visible text of the paragraph
+paragraph.Text = "Chapter 1 – Introduction";
+```
+
+Jika Anda memerlukan pemformatan yang lebih kaya (font, warna, tautan), Anda dapat membuat `TextFragment` secara manual dan menambahkannya ke `paragraph.Segments`.
+
+### Langkah 6: Lampirkan Paragraf ke Pohon Struktur
+
+Pohon struktur memerlukan *root element* untuk menampung elemen anak. Dengan menambahkan paragraf, kita secara efektif **add paragraph tag** ke PDF.
+
+```csharp
+// Step 6: Append the paragraph to the root element of the structure tree
+taggedContent.RootElement.AppendChild(paragraph);
+```
+
+Pada titik ini PDF memiliki node paragraf logis yang mengarah ke teks visual yang baru saja kami tempatkan.
+
+### Langkah 7: Simpan Dokumen sebagai PDF yang Dapat Diakses
+
+Akhirnya, kami menulis file ke disk. Outputnya akan menjadi **create accessible pdf** lengkap yang siap untuk pengujian pembaca layar.
+
+```csharp
+// Step 7: Save the tagged PDF to a file
+pdfDocument.Save("tagged.pdf");
+```
+
+Anda dapat membuka `tagged.pdf` di Adobe Acrobat dan memeriksa *File → Properties → Tags* untuk memverifikasi struktur.
+
+### Contoh Kerja Lengkap
+
+Menggabungkan semuanya, berikut program lengkap yang siap disalin‑dan‑tempel:
+
+```csharp
+using System;
+using Aspose.Pdf;
+using Aspose.Pdf.Text;
+
+namespace TaggedPdfDemo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Step 1‑7: Create a tagged PDF with a single paragraph
+            using (var pdfDocument = new Document())
+            {
+                // Access tagged content
+                var taggedContent = pdfDocument.TaggedContent;
+
+                // Create paragraph element
+                var paragraph = taggedContent.CreateParagraphElement();
+
+                // Position the paragraph on the first page
+                paragraph.Bounds = new Rectangle(0, 700, 500, 720);
+
+                // Add visible text
+                paragraph.Text = "Chapter 1 – Introduction";
+
+                // Append paragraph to the root of the structure tree
+                taggedContent.RootElement.AppendChild(paragraph);
+
+                // Save the result
+                pdfDocument.Save("tagged.pdf");
+            }
+
+            Console.WriteLine("Tagged PDF created successfully at: tagged.pdf");
+        }
+    }
+}
+```
+
+**Output yang diharapkan:** Setelah menjalankan program, file bernama `tagged.pdf` muncul di direktori kerja executable. Membukanya di Adobe Acrobat menampilkan teks “Chapter 1 – Introduction” yang berada di dekat bagian atas halaman, dan panel *Tags* menampilkan satu elemen `<P>` (paragraf) yang terhubung ke teks tersebut.
+
+## Menambahkan Lebih Banyak Konten – Variasi Umum
+
+### Beberapa Paragraf
+
+Jika Anda perlu **add paragraph to PDF** lebih dari sekali, cukup ulangi Langkah 4‑6 dengan batas dan teks baru. Ingat untuk menjaga koordinat Y menurun agar paragraf tidak tumpang tindih.
+
+```csharp
+var secondParagraph = taggedContent.CreateParagraphElement();
+secondParagraph.Bounds = new Rectangle(0, 660, 500, 680);
+secondParagraph.Text = "This is the second paragraph.";
+taggedContent.RootElement.AppendChild(secondParagraph);
+```
+
+### Memformat Teks
+
+Untuk pemformatan yang lebih kaya, buat `TextFragment` dan tambahkan ke koleksi `Segments` paragraf:
+
+```csharp
+var tf = new TextFragment("Bold heading")
+{
+    TextState = { FontSize = 14, FontStyle = FontStyles.Bold }
+};
+paragraph.Segments.Add(tf);
+```
+
+### Menangani Halaman
+
+Contoh ini secara otomatis membuat PDF satu halaman. Jika Anda memerlukan lebih banyak halaman, tambahkan mereka melalui `pdfDocument.Pages.Add()` dan atur `paragraph.Bounds` ke halaman yang sesuai menggunakan `paragraph.PageNumber = 2;`.
+
+## Menguji Aksesibilitas
+
+Cara cepat untuk memverifikasi bahwa Anda benar‑benar **create accessible pdf** adalah:
+
+1. Buka file di Adobe Acrobat Pro.
+2. Pilih *View → Tools → Accessibility → Full Check*.
+3. Tinjau pohon *Tags*; setiap paragraf harus muncul sebagai node `<P>`.
+
+Jika pemeriksaan menandai tag yang hilang, periksa kembali bahwa Anda memanggil `taggedContent.RootElement.AppendChild(paragraph);` untuk setiap elemen yang Anda buat.
+
+## Kesalahan Umum & Cara Menghindarinya
+
+- **Lupa mengaktifkan tagging:** Hanya membuat `Document` **tidak** menambahkan pohon struktur. Selalu akses `TaggedContent` sebelum menambahkan elemen.
+- **Batas di luar ukuran halaman:** Rectangle harus muat dalam ukuran halaman (default A4 ≈ 595 × 842 poin). Rectangle yang di luar batas akan diabaikan secara diam‑diam.
+- **Menyimpan sebelum menambahkan:** Jika Anda memanggil `Save` sebelum `AppendChild`, PDF akan menjadi tidak ber-tag.
 
 ## Kesimpulan
 
-Kami baru saja **create tagged pdf** dari awal hingga akhir, mendemonstrasikan **add image to pdf**, dan menunjukkan cara **set figure position** sambil menjawab **how to tag pdf** serta **how to add image** dalam satu contoh yang kohesif. Kode siap dijalankan, penjelasan mencakup “mengapa” di balik setiap langkah, dan Anda kini memiliki fondasi yang kuat untuk membangun PDF yang dapat diakses di C#.
+Anda sekarang tahu cara **create tagged PDF** menggunakan Aspose.Pdf untuk .NET, cara **add paragraph to PDF**, melampirkan **paragraph tag** yang tepat, dan menyisipkan **text to paragraph** sehingga file akhir menjadi **create accessible pdf** siap untuk pengujian kepatuhan. Contoh kode lengkap di atas dapat disalin ke proyek C# mana pun dan dijalankan tanpa modifikasi.
 
-Siap untuk tantangan berikutnya? Coba tambahkan tabel dengan tag `<Table>`, atau sematkan lapisan kepatuhan PDF/A‑2b untuk keperluan arsip. Pola yang sama—load, akses struktur logis, buat tag, lampirkan konten visual, simpan—berlaku pada kebanyakan tugas aksesibilitas PDF.
+Siap untuk langkah selanjutnya? Cobalah menggabungkan pendekatan ini dengan tabel, gambar, atau tag heading khusus untuk membangun laporan yang sepenuhnya terstruktur. Atau jelajahi *PdfConverter* Aspose untuk mengubah PDF yang ada menjadi versi ber-tag secara otomatis.
 
-Jika Anda menemukan kendala atau memiliki kasus penggunaan yang belum tercakup di sini, tinggalkan komentar di bawah. Selamat menandai, dan nikmati membangun PDF yang dapat dibaca semua orang! 
-
-![Diagram yang menunjukkan PDF dengan tag Figure dan gambar – menggambarkan cara membuat PDF ber‑tag](placeholder-image.png "contoh create tagged pdf")
+Selamat coding, semoga PDF Anda menjadi indah **dan** dapat diakses!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

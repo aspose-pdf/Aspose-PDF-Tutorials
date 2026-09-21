@@ -45,7 +45,18 @@
 - [องค์ประกอบโครงสร้างข้อความในไฟล์ PDF](./text-structure-elements/) เรียนรู้การจัดการองค์ประกอบโครงสร้างข้อความใน PDF ด้วย Aspose.PDF สำหรับ .NET คำแนะนำทีละขั้นตอนนี้ครอบคลุมทุกสิ่งที่คุณต้องการเพื่อสร้าง PDF ที่มีโครงสร้าง -  
 | [ตรวจสอบไฟล์ PDF](./validate-pdf/) | เรียนรู้วิธีการตรวจสอบไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ตรวจสอบความสอดคล้องตามมาตรฐานและสร้างรายงานการตรวจสอบ |  
 - [สร้าง PDF ที่มีแท็กใน C# – คู่มือขั้นตอนเต็ม](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | เรียนรู้วิธีสร้าง PDF ที่มีแท็กด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET ผ่านขั้นตอนที่ละเอียดและครบถ้วน  
+- [สร้าง PDF ที่มีแท็กใน C# – คู่มือฉบับสมบูรณ์ Aspose PDF](./create-tagged-pdf-in-c-aspose-pdf-complete-guide/) | เรียนรู้วิธีสร้าง PDF ที่มีแท็กด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET ผ่านขั้นตอนที่ละเอียดและครบถ้วน  
 - [สร้าง PDF ที่มีแท็กใน C# – คู่มือขั้นตอนทีละขั้นตอน](./create-tagged-pdf-in-c-step-by-step-guide/) | เรียนรู้วิธีสร้าง PDF ที่มีแท็กด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET ผ่านขั้นตอนที่ชัดเจนและครบถ้วน  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+- [วิธีการแท็ก PDF ด้วย Aspose – คู่มือฉบับสมบูรณ์สำหรับแท็กการเข้าถึง PDF](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) | เรียนรู้ขั้นตอนการแท็ก PDF เพื่อเพิ่มการเข้าถึงด้วย Aspose.PDF สำหรับ .NET อย่างละเอียด  
+- [ทำให้ PDF เข้าถึงได้ด้วย Aspose: แทรกย่อหน้าลงใน PDF ทีละขั้นตอน](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | เรียนรู้วิธีแทรกย่อหน้าใน PDF ที่เข้าถึงได้โดยใช้ Aspose.PDF สำหรับ .NET ผ่านขั้นตอนทีละขั้นตอน  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

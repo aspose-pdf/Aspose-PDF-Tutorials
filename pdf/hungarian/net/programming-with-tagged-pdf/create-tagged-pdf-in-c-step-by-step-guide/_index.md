@@ -1,25 +1,25 @@
 ---
 category: general
-date: 2026-03-06
-description: Készítsen címkézett PDF-et az Aspose.Pdf segítségével C#-ban. Tanulja
-  meg, hogyan adjon képet a PDF-hez, állítsa be a figura pozícióját, és címkézze a
-  PDF-et a hozzáférhetőség érdekében.
+date: 2026-02-12
+description: Készíts címkézett PDF-et az Aspose.Pdf segítségével C#-ban. Tanulja meg,
+  hogyan adjon bekezdést a PDF-hez, hogyan adjon bekezdéscímkét, hogyan illesszen
+  szöveget a bekezdésbe, és hogyan készítsen hozzáférhető PDF-et.
 draft: false
 keywords:
 - create tagged pdf
-- add image to pdf
-- set figure position
-- how to tag pdf
-- how to add image
+- add paragraph to pdf
+- add paragraph tag
+- add text to paragraph
+- create accessible pdf
 language: hu
-og_description: Készítsen címkézett PDF-et az Aspose.Pdf segítségével. Ez az útmutató
-  bemutatja, hogyan adjon képet a PDF-hez, állítsa be a kép pozícióját, és címkézze
-  a PDF-et a hozzáférhetőség érdekében.
-og_title: Címkézett PDF létrehozása C#-ban – Teljes útmutató
+og_description: Készíts címkézett PDF-et C#-ban az Aspose.Pdf segítségével. Ez az
+  útmutató bemutatja, hogyan lehet bekezdést hozzáadni a PDF-hez, címkéket beállítani,
+  és hozzáférhető PDF-et létrehozni.
+og_title: Címkézett PDF létrehozása C#-ban – Teljes programozási útmutató
 tags:
 - Aspose.Pdf
 - C#
-- PDF Accessibility
+- PDF accessibility
 title: Címkézett PDF létrehozása C#‑ban – Lépésről lépésre útmutató
 url: /hu/net/programming-with-tagged-pdf/create-tagged-pdf-in-c-step-by-step-guide/
 ---
@@ -28,144 +28,35 @@ url: /hu/net/programming-with-tagged-pdf/create-tagged-pdf-in-c-step-by-step-gui
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# C#‑ban címkézett PDF létrehozása – Teljes útmutató
+# C#‑ban címkézett PDF létrehozása – lépésről‑lépésre útmutató
 
-Valaha szükséged volt **címkézett PDF létrehozására** C#‑ban, de nem tudtad, hol kezdjed? Nem vagy egyedül; a hozzáférhetőség ma elengedhetetlen, és egy címkézett PDF a megfelelõ dokumentum gerince. Ebben az útmutatóban egy valós példán keresztül mutatjuk be, hogyan **képet adunk hozzá a PDF‑hez**, hogyan állítjuk be a figura pozícióját, és hogyan **címkézzük a PDF‑et** az Aspose.Pdf segítségével. A végére egy teljesen címkézett PDF‑et kapsz, amelyet bárkinek elküldhetsz.
+Ha gyorsan **címkézett PDF‑et** szeretnél **létrehozni**, ez az útmutató pontosan megmutatja, hogyan. Nehezen tudsz bekezdést hozzáadni a PDF‑hez, miközben a dokumentum hozzáférhető marad? Végigvezetünk minden kódsoron, elmagyarázzuk, miért fontos minden részlet, és egy kész, futtatható példával zárunk, amelyet egyszerűen beilleszthetsz a projektedbe.
 
-Mindent lefedünk az existing fájl betöltésétől a végső kimenet mentéséig, így nem kell máshol a “hogyan adjunk képet” témát keresned. Nincs felesleges szöveg – csak egy tiszta, futtatható megoldás, amely az Aspose.Pdf 23.8 (a cikk írásakor legújabb) verzióval működik. Vedd elő az IDE‑det, és kezdjünk bele.
-
----
+Ebben a tutorialban megtanulod, hogyan **adj bekezdést a PDF‑hez**, hogyan csatolj megfelelő **bekezdéscímkét**, hogyan **illessz be szöveget a bekezdésbe**, és végül hogyan **hozz létre hozzáférhető PDF‑et**, amely átmegy a képernyőolvasó ellenőrzésein. Nincs szükség extra PDF‑eszközökre – csak az Aspose.Pdf for .NET és néhány C# sor.
 
 ## Amire szükséged lesz
 
-- **Aspose.Pdf for .NET** (NuGet csomag `Aspose.Pdf`).  
-- .NET 6+ (vagy .NET Framework 4.7.2+).  
-- Egy bemeneti PDF, amely már rendelkezik logikai struktúrával (azaz már címkézett) – ha nem, a címkézést engedélyezheted a `pdfDocument.TaggedContent = true` beállítással.  
-- Egy kép fájl (`image.png`), amelyet be szeretnél ágyazni.  
+- .NET 6.0 vagy újabb (az API ugyanúgy működik .NET Framework 4.6+ alatt is)
+- Aspose.Pdf for .NET (NuGet csomag `Aspose.Pdf`)
+- Alap C# IDE (Visual Studio, Rider vagy VS Code)
 
-Ennyi. Nincs extra könyvtár, nincs rejtélyes konfigurációs fájl.
+Ennyi. Nincs külső segédprogram, nincs bonyolult konfigurációs fájl. Merüljünk bele.
 
----
+![Screenshot of a tagged PDF document showing the paragraph text](/images/create-tagged-pdf.png "create tagged pdf example")
+*(Kép alt szövege: „címkézett pdf példa, amely egy megfelelő címkével ellátott bekezdést mutat”)*
 
-## 1. lépés: A meglévő PDF dokumentum betöltése (Címkézett PDF alap létrehozása)
+## Hogyan hozzunk létre címkézett PDF‑et – alapvető koncepciók
 
-Az első dolog, amit teszünk, hogy megnyitjuk a fejleszteni kívánt PDF‑et. A fájl betöltése hozzáférést biztosít a logikai struktúrájához, ami elengedhetetlen a **címkézett PDF létrehozásához**.
+Mielőtt kódolnánk, érdemes megérteni, *miért* fontos a címkézés. A PDF/UA (Universal Accessibility) logikai struktúrafát igényel, hogy a segítő technológiák a dokumentumot a megfelelő sorrendben olvashassák. Egy **bekezdéscímke** létrehozásával és **szöveg beillesztésével a bekezdésbe** egyértelmű jelzést adsz a képernyőolvasónak, hogy a tartalom egy bekezdés, nem pedig egy véletlenszerű karakterlánc.
 
-```csharp
-using System;
-using System.IO;
-using Aspose.Pdf;
-using Aspose.Pdf.LogicalStructure;
+### 1. lépés: A projekt beállítása és a névterek importálása
 
-// Load the source PDF – make sure the path points to a real file.
-Document pdfDocument = new Document("YOUR_DIRECTORY/input.pdf");
-
-// Verify that the document has a tag tree; if not, enable it.
-if (!pdfDocument.TaggedContent.IsTagged)
-{
-    pdfDocument.TaggedContent.IsTagged = true;
-    Console.WriteLine("Tagging enabled on the document.");
-}
-```
-
-*Miért fontos:* Címkefák nélkül a PDF nem közvetít strukturális információt a képernyőolvasóknak. A címkézés engedélyezése biztosítja, hogy a hozzáadott új elemek (például egy figura) a megfelelő hierarchiát örököljék.
-
----
-
-## 2. lépés: A logikai struktúra gyökér elérése (Hogyan címkézzük a PDF‑et)
-
-Most a PDF logikai struktúrájába nyúlunk. A gyökérelem az összes címke tárolója – tekintsd úgy, mint a dokumentum vázlatát.
-
-```csharp
-// Grab the root of the logical structure.
-var logicalRoot = pdfDocument.TaggedContent.RootElement;
-
-// Optional: print existing children count for debugging.
-Console.WriteLine($"Root has {logicalRoot.ChildElements.Count} child elements.");
-```
-
-*Magyarázat:* A `logicalRoot` lehetővé teszi új címkék, például `<Figure>` vagy `<Table>` hozzáfűzését. Ez a **PDF programozott címkézésének** központja.
-
----
-
-## 3. lépés: Figure címke létrehozása és pozíció beállítása (Figure pozíció beállítása)
-
-A *Figure* címke a vizuális tartalmat opcionális felirattal csoportosítja. Létrehozunk egyet, beállítjuk a pozícióját, és a gyökérhez csatoljuk.
-
-```csharp
-// Create a new Figure element.
-var figureTag = logicalRoot.CreateFigureElement();
-
-// Define where the figure appears on the page.
-figureTag.Position = new Position
-{
-    // X/Y are measured from the bottom‑left corner (points).
-    X = 100,   // 100 points from the left edge
-    Y = 150,   // 150 points from the bottom edge
-    Width = 300,
-    Height = 200
-};
-
-// Append the Figure to the logical structure.
-logicalRoot.AppendChild(figureTag);
-
-Console.WriteLine("Figure tag created and positioned.");
-```
-
-*Miért állítunk be pozíciót:* A **figure pozíció beállítása** meghatározza, hogy a vizuális elem hol jelenik meg az oldalon. Ha kihagyod, a figura váratlan helyen jelenhet meg, vagy láthatatlan lehet a segédeszközök számára.
-
----
-
-## 4. lépés: Vizuális ábrázolás hozzáadása – Kép beszúrása (Kép hozzáadása a PDF‑hez)
-
-A címke meglétével szükségünk van egy tényleges képre. Ez a rész válaszol a **kép hozzáadása a PDF‑hez** kérdésre.
-
-```csharp
-// Grab the first page (pages are 1‑based in Aspose.Pdf).
-var firstPage = pdfDocument.Pages[1];
-
-// Create an Image object that points to the file stream.
-var image = new Image
-{
-    ImageStream = File.OpenRead("YOUR_DIRECTORY/image.png"),
-    // The rectangle defines the same area we set for the Figure.
-    Rect = new Rectangle(100, 150, 400, 350) // X, Y, Width, Height
-};
-
-// Add the image to the page's paragraph collection.
-firstPage.Paragraphs.Add(image);
-
-Console.WriteLine("Image added to the first page.");
-```
-
-*Fontos pont:* A téglalap koordinátáinak meg kell egyezniük a korábban definiált `figureTag.Position` értékkel; ellenkező esetben a figura és a vizuális tartalma nincs szinkronban, ami a hozzáférhetőséget megsérti.
-
----
-
-## 5. lépés: A frissített PDF mentése (Címkézett PDF befejezése)
-
-Végül a változtatásokat egy új fájlba mentjük. Az eredeti érintetlenül hagyása jó gyakorlat.
-
-```csharp
-// Save the modified document.
-pdfDocument.Save("YOUR_DIRECTORY/output.pdf");
-
-Console.WriteLine("Tagged PDF saved as output.pdf");
-```
-
-Ezen a ponton már van egy **címkézett PDF** fájlod, amely megfelelően elhelyezett képet tartalmaz egy `<Figure>` címkébe ágyazva. Nyisd meg az `output.pdf`‑t az Adobe Acrobatban, és ellenőrizd a *Tags* panelt – a gyökér alatt egy `Figure` csomópontot kell látnod.
-
----
-
-## Teljes, futtatható példa
-
-Az alábbiakban a teljes programot találod, amelyet beilleszthetsz egy konzolos alkalmazásba. Minden lépés már a helyes sorrendben van.
+Hozz létre egy új konzolos alkalmazást (vagy integráld egy meglévőbe), és add hozzá az Aspose.Pdf hivatkozást.
 
 ```csharp
 using System;
-using System.IO;
 using Aspose.Pdf;
-using Aspose.Pdf.LogicalStructure;
+using Aspose.Pdf.Text;
 
 namespace TaggedPdfDemo
 {
@@ -173,109 +64,183 @@ namespace TaggedPdfDemo
     {
         static void Main(string[] args)
         {
-            // 1️⃣ Load the PDF.
-            Document pdfDocument = new Document("YOUR_DIRECTORY/input.pdf");
-            if (!pdfDocument.TaggedContent.IsTagged)
-            {
-                pdfDocument.TaggedContent.IsTagged = true;
-                Console.WriteLine("Tagging enabled.");
-            }
-
-            // 2️⃣ Access the logical structure root.
-            var logicalRoot = pdfDocument.TaggedContent.RootElement;
-
-            // 3️⃣ Create a Figure tag and set its position.
-            var figureTag = logicalRoot.CreateFigureElement();
-            figureTag.Position = new Position
-            {
-                X = 100,
-                Y = 150,
-                Width = 300,
-                Height = 200
-            };
-            logicalRoot.AppendChild(figureTag);
-            Console.WriteLine("Figure tag added.");
-
-            // 4️⃣ Add the image to the first page.
-            var firstPage = pdfDocument.Pages[1];
-            var image = new Image
-            {
-                ImageStream = File.OpenRead("YOUR_DIRECTORY/image.png"),
-                Rect = new Rectangle(100, 150, 400, 350)
-            };
-            firstPage.Paragraphs.Add(image);
-            Console.WriteLine("Image inserted.");
-
-            // 5️⃣ Save the result.
-            pdfDocument.Save("YOUR_DIRECTORY/output.pdf");
-            Console.WriteLine("PDF saved – tagging complete.");
+            // The rest of the code lives here
         }
     }
 }
 ```
 
-### Várt eredmény
+> **Pro tipp:** Ha .NET 6‑os top‑level szintaxist használsz, elhagyhatod a `Program` osztályt – egyszerűen helyezd a kódot a fájlba. A logika változatlan marad.
 
-- `output.pdf` megnyílik a (100, 150) pontban megjelenő képpel, mérete 300 × 200 pont.  
-- A *Tags* panel egy `Figure` elemet mutat, amely körülveszi a képet.  
-- A képernyőolvasó eszközök a „Figure” szót mondják ki a kép leírása előtt, ezzel megfelelve az alapvető hozzáférhetőségi szabványoknak.
+### 2. lépés: Üres PDF dokumentum létrehozása
 
----
-
-## Gyakori kérdések és széljegyek
-
-### Mi van, ha a forrás PDF nincs már címkézve?
-
-Az Aspose.Pdf lehetővé teszi a címkézés bekapcsolását a `pdfDocument.TaggedContent.IsTagged = true;` beállítással. A könyvtár egy alapértelmezett címkefát generál, majd ahogy látható, egyedi címkéket adhatsz hozzá.
-
-### Hozzáadhatok feliratot a figurához?
-
-Igen. A `figureTag` létrehozása után csatolhatsz egy `Paragraph`‑t egy `TextFragment`‑kel, és beállíthatod a `Tag`‑jét `Caption`‑re. Példa:
+Kezdjünk egy üres `Document` objektummal. Ez az objektum képviseli a teljes PDF‑fájlt, beleértve a belső struktúrafát is.
 
 ```csharp
-var caption = new Paragraph(new TextFragment("Figure 1: Sample diagram"));
-caption.Tag = figureTag.CreateCaptionElement();
-logicalRoot.AppendChild(caption);
+// Step 2: Create a new PDF document (the canvas)
+using (var pdfDocument = new Document())
+{
+    // All subsequent operations happen inside this block
+}
 ```
 
-### Hogyan helyezzük el a figurát egy másik oldalon?
+A `using` utasítás garantálja, hogy a fájlkezelő automatikusan felszabadul, ami különösen hasznos, ha többször futtatod a demót.
 
-Cseréld le a `var firstPage = pdfDocument.Pages[1];` sort a kívánt oldal indexére, például `pdfDocument.Pages[3]`. Ne felejtsd el a `Position` koordinátákat módosítani, ha az oldal mérete eltér.
+### 3. lépés: A címkézett tartalmi struktúra elérése
 
-### Mi van, ha több képet kell címkézni?
-
-Hozz létre egy új `Figure`‑t minden képhez, adj mindegyiknek egyedi `Position`‑t, és add hozzá a megfelelő `Image` objektumot a megfelelő oldalhoz. A képek gyűjteményén való iterálás jól működik.
-
-### Működik ez PDF/A megfelelőséggel?
-
-Az Aspose.Pdf támogatja a PDF/A‑1b, PDF/A‑2b és PDF/A‑3b szabványokat. PDF/A dokumentum generálásakor győződj meg róla, hogy a mentés előtt beállítod a megfelelőségi módot:
+Egy címkézett PDF‑nek van egy *struktúrafája*, amely a `TaggedContent` alatt él. Ennek lekérésével elkezdhetünk logikai elemeket építeni, például bekezdéseket.
 
 ```csharp
-pdfDocument.Convert(ConvertFormat.PdfA1b);
+// Step 3: Get the tagged content object
+var taggedContent = pdfDocument.TaggedContent;
 ```
 
-A címkézési logika változatlan marad.
+Ha kihagyod ezt a lépést, a később hozzáadott szöveg **strukturálatlan** lesz, ami azt jelenti, hogy a segítő technológiák egy lapos karakterláncként olvassák.
 
----
+### 4. lépés: Bekezdés elem létrehozása és pozíciójának meghatározása
 
-## Profi tippek és buktatók
+Most ténylegesen **hozzáadunk bekezdést a PDF‑hez**. A bekezdés elem egy tároló, amely egy vagy több szövegrészt tartalmazhat.
 
-- **Pro tip:** Mindig használj abszolút útvonalakat vagy a `Path.Combine`‑t, hogy elkerüld a futásidejű fájl‑nem‑található hibákat.  
-- **Watch out for:** A `Figure` címke és az `Image` téglalap koordinátái közötti eltérés – a segédeszközök erre az igazításra támaszkodnak.  
-- **Performance note:** Ha sok oldalt dolgozol fel, csomagold be a kép streamet egy `using` blokkba, hogy a erőforrások gyorsan felszabaduljanak.  
-- **Version check:** A bemutatott API az Aspose.Pdf 23.8+ verzióval működik. Régebbi verziókban kissé eltérő osztálynevek lehetnek (pl. `LogicalStructureElement` a `FigureElement` helyett).
+```csharp
+// Step 4: Create a paragraph element
+var paragraph = taggedContent.CreateParagraphElement();
 
----
+// Define where the paragraph appears on the page (in points)
+paragraph.Bounds = new Rectangle(0, 700, 500, 720);
+```
+
+A `Rectangle` a PDF koordináta‑rendszert használja, ahol a (0,0) a bal‑alsó sarok. Igazítsd a Y‑koordinátákat, ha a bekezdést magasabbra vagy alacsonyabbra szeretnéd helyezni az oldalon.
+
+### 5. lépés: Szöveg beillesztése a bekezdésbe
+
+Itt jön a rész, ahol **szöveget adunk a bekezdéshez**. A `Text` tulajdonság egy kényelmi csomagoló, amely belsőleg egy `TextFragment`‑et hoz létre.
+
+```csharp
+// Step 5: Set the visible text of the paragraph
+paragraph.Text = "Chapter 1 – Introduction";
+```
+
+Ha gazdagabb formázásra (betűtípusok, színek, hivatkozások) van szükséged, manuálisan is létrehozhatsz egy `TextFragment`‑et, és hozzáadhatod a `paragraph.Segments` gyűjteményhez.
+
+### 6. lépés: A bekezdés csatolása a struktúrafához
+
+A struktúrafának szüksége van egy *gyökérelemre*, amelyhez a gyermekelemek kapcsolódnak. A bekezdés hozzáfűzésével **bekezdéscímkét adunk a PDF‑hez**.
+
+```csharp
+// Step 6: Append the paragraph to the root element of the structure tree
+taggedContent.RootElement.AppendChild(paragraph);
+```
+
+E ponton a PDF‑nek már van egy logikai bekezdés‑csomópontja, amely a vizuálisan elhelyezett szöveghez mutat.
+
+### 7. lépés: Dokumentum mentése hozzáférhető PDF‑ként
+
+Végül a fájlt leírjuk a lemezre. Az eredmény egy teljesen **hozzáférhető PDF**, amely készen áll a képernyőolvasó tesztelésére.
+
+```csharp
+// Step 7: Save the tagged PDF to a file
+pdfDocument.Save("tagged.pdf");
+```
+
+Megnyithatod a `tagged.pdf`‑t az Adobe Acrobat‑ban, és ellenőrizheted a *File → Properties → Tags* menüpont alatt a struktúrát.
+
+### Teljes működő példa
+
+Mindent összevonva, itt a komplett, másolás‑beillesztés‑kész program:
+
+```csharp
+using System;
+using Aspose.Pdf;
+using Aspose.Pdf.Text;
+
+namespace TaggedPdfDemo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Step 1‑7: Create a tagged PDF with a single paragraph
+            using (var pdfDocument = new Document())
+            {
+                // Access tagged content
+                var taggedContent = pdfDocument.TaggedContent;
+
+                // Create paragraph element
+                var paragraph = taggedContent.CreateParagraphElement();
+
+                // Position the paragraph on the first page
+                paragraph.Bounds = new Rectangle(0, 700, 500, 720);
+
+                // Add visible text
+                paragraph.Text = "Chapter 1 – Introduction";
+
+                // Append paragraph to the root of the structure tree
+                taggedContent.RootElement.AppendChild(paragraph);
+
+                // Save the result
+                pdfDocument.Save("tagged.pdf");
+            }
+
+            Console.WriteLine("Tagged PDF created successfully at: tagged.pdf");
+        }
+    }
+}
+```
+
+**Várt eredmény:** A program futtatása után egy `tagged.pdf` nevű fájl jelenik meg a futtatható program munkakönyvtárában. Az Adobe Acrobat‑ban a „Chapter 1 – Introduction” szöveg a lap teteje közelében látható, és a *Tags* panel egyetlen `<P>` elemet (bekezdés) listáz, amely ehhez a szöveghez kapcsolódik.
+
+## További tartalom hozzáadása – gyakori variációk
+
+### Több bekezdés
+
+Ha **több bekezdést szeretnél a PDF‑hez** hozzáadni, egyszerűen ismételd meg a 4‑6. lépéseket új határolókkal és szöveggel. Ügyelj arra, hogy a Y‑koordináta csökkenjen, hogy a bekezdések ne fedjék egymást.
+
+```csharp
+var secondParagraph = taggedContent.CreateParagraphElement();
+secondParagraph.Bounds = new Rectangle(0, 660, 500, 680);
+secondParagraph.Text = "This is the second paragraph.";
+taggedContent.RootElement.AppendChild(secondParagraph);
+```
+
+### Szöveg formázása
+
+Gazdagabb formázáshoz hozz létre egy `TextFragment`‑et, és add hozzá a bekezdés `Segments` gyűjteményéhez:
+
+```csharp
+var tf = new TextFragment("Bold heading")
+{
+    TextState = { FontSize = 14, FontStyle = FontStyles.Bold }
+};
+paragraph.Segments.Add(tf);
+```
+
+### Oldalak kezelése
+
+A példa automatikusan egyoldalas PDF‑et hoz létre. Ha több oldalra van szükséged, add őket a `pdfDocument.Pages.Add()`‑val, és állítsd be a `paragraph.Bounds`‑t a megfelelő oldalra a `paragraph.PageNumber = 2;` segítségével.
+
+## Hozzáférhetőség tesztelése
+
+Gyors módja annak, hogy ellenőrizd, valóban **hozzáférhető PDF‑et hozol‑e létre**:
+
+1. Nyisd meg a fájlt az Adobe Acrobat Pro‑ban.  
+2. Válaszd a *View → Tools → Accessibility → Full Check* menüpontot.  
+3. Tekintsd át a *Tags* fát; minden bekezdésnek `<P>` csomópontként kell megjelennie.
+
+Ha a ellenőrzés hiányzó címkéket jelez, ellenőrizd, hogy minden létrehozott elemhez meghívtad-e a `taggedContent.RootElement.AppendChild(paragraph);` hívást.
+
+## Gyakori hibák és elkerülésük módja
+
+- **Elfelejtetted engedélyezni a címkézést:** Egy `Document` létrehozása **nem** ad hozzá struktúrafát. Mindig férj hozzá a `TaggedContent`‑hez, mielőtt elemeket adnál hozzá.
+- **Határolók az oldalhatárokon kívül:** A téglalapnak bele kell férnie az oldal méretébe (alapértelmezett A4 ≈ 595 × 842 pont). A határolókon kívüli téglalapok csendben figyelmen kívül maradnak.
+- **Mentés a csatolás előtt:** Ha a `Save`‑ot a `AppendChild` előtt hívod, a PDF nem lesz címkézett.
 
 ## Összegzés
 
-Mostantól **címkézett PDF‑et hoztunk létre** a kezdetektől a végéig, bemutattuk a **kép hozzáadását a PDF‑hez**, és megmutattuk, hogyan **állítsuk be a figure pozícióját**, miközben válaszoltunk a **PDF címkézésének** és a **kép hozzáadásának** kérdésére egyetlen, koherens példában. A kód készen áll a futtatásra, a magyarázatok lefedik az egyes lépések „miértjét”, és most már szilárd alapod van a hozzáférhető PDF‑ek C#‑ban történő építéséhez.
+Most már tudod, hogyan **hozz létre címkézett PDF‑et** az Aspose.Pdf for .NET‑tel, hogyan **adj bekezdést a PDF‑hez**, hogyan csatolj megfelelő **bekezdéscímkét**, és hogyan **illessz be szöveget a bekezdésbe**, hogy a végső fájl egy **hozzáférhető PDF** legyen, amely megfelel a szabványos ellenőrzéseknek. A fenti teljes kódrészlet bármely C# projektbe beilleszthető és módosítás nélkül futtatható.
 
-Készen állsz a következő kihívásra? Próbálj meg táblázatokat hozzáadni `<Table>` címkékkel, vagy ágyazz be egy PDF/A‑2b megfelelőségi réteget archiválási célokra. Ugyanaz a minta – betöltés, a logikai struktúra elérése, címke létrehozása, vizuális tartalom csatolása, mentés – a legtöbb PDF hozzáférhetőségi feladatra alkalmazható.
+Készen állsz a következő lépésre? Próbáld ki ezt a megközelítést táblázatokkal, képekkel vagy egyedi címsor‑címkékkel, hogy teljesen strukturált jelentést építs. Vagy fedezd fel az Aspose *PdfConverter* funkcióját, amely meglévő PDF‑eket automatikusan címkézett változatokká alakítja.
 
-Ha elakadsz, vagy olyan felhasználási eseted van, amelyet itt nem fedtünk le, hagyj egy megjegyzést alább. Boldog címkézést, és élvezd a PDF‑ek építését, amelyet mindenki olvashat!
-
-![Diagram, amely egy PDF-et mutat Figure címkével és képpel – bemutatja, hogyan hozható létre címkézett PDF](placeholder-image.png "címkézett PDF példa")
+Boldog kódolást, és legyenek a PDF‑jeid egyszerre **szép** **és** hozzáférhető!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

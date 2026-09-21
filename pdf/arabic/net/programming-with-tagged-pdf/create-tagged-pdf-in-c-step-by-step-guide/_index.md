@@ -1,24 +1,24 @@
 ---
 category: general
-date: 2026-03-06
-description: إنشاء ملف PDF مع علامات باستخدام Aspose.Pdf في C#. تعلم كيفية إضافة صورة
-  إلى PDF، وتحديد موضع الشكل، ووضع علامات على PDF لتحسين إمكانية الوصول.
+date: 2026-02-12
+description: إنشاء ملف PDF مُوسوم باستخدام Aspose.Pdf في C#. تعلّم كيفية إضافة فقرة
+  إلى PDF، إضافة علامة الفقرة، إضافة نص إلى الفقرة، وإنشاء PDF يمكن الوصول إليه.
 draft: false
 keywords:
 - create tagged pdf
-- add image to pdf
-- set figure position
-- how to tag pdf
-- how to add image
+- add paragraph to pdf
+- add paragraph tag
+- add text to paragraph
+- create accessible pdf
 language: ar
-og_description: إنشاء ملف PDF مع علامات باستخدام Aspose.Pdf. يوضح هذا الدليل كيفية
-  إضافة صورة إلى PDF، وتحديد موضع الشكل، ووضع علامات على PDF لتحسين إمكانية الوصول.
-og_title: إنشاء PDF مع علامات في C# – دليل كامل
+og_description: إنشاء ملف PDF مع علامات في C# باستخدام Aspose.Pdf. يوضح هذا الدرس
+  كيفية إضافة فقرة إلى PDF، وتعيين العلامات، وإنتاج PDF يمكن الوصول إليه.
+og_title: إنشاء PDF مُوسَّم في C# – دليل برمجة شامل
 tags:
 - Aspose.Pdf
 - C#
-- PDF Accessibility
-title: إنشاء ملف PDF معلم في C# – دليل خطوة بخطوة
+- PDF accessibility
+title: إنشاء PDF معلم في C# – دليل خطوة بخطوة
 url: /ar/net/programming-with-tagged-pdf/create-tagged-pdf-in-c-step-by-step-guide/
 ---
 
@@ -26,144 +26,36 @@ url: /ar/net/programming-with-tagged-pdf/create-tagged-pdf-in-c-step-by-step-gui
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إنشاء PDF مع علامات في C# – دليل كامل
+# إنشاء PDF مع علامات في C# – دليل خطوة بخطوة
 
-هل احتجت يوماً إلى **إنشاء PDF مع علامات** في C# لكن لم تعرف من أين تبدأ؟ لست وحدك؛ فإمكانية الوصول أصبحت ضرورية في هذه الأيام، وPDF مع علامات هو العمود الفقري للوثيقة المتوافقة. في هذا الدليل سنستعرض مثالاً عملياً يضيف **صورة إلى PDF**، يحدد موضع الشكل، ويظهر **كيفية وضع علامات على PDF** باستخدام Aspose.Pdf. في النهاية ستحصل على PDF مع علامات جاهز لتوزيعه على أي شخص.
+إذا كنت بحاجة إلى **إنشاء PDF مع علامات** بسرعة، فإن هذا الدليل يوضح لك بالضبط كيف. هل تواجه صعوبة في إضافة فقرة إلى PDF مع الحفاظ على إمكانية الوصول إلى المستند؟ سنستعرض كل سطر من الشيفرة، نشرح لماذا كل جزء مهم، ونختتم بمثال جاهز للتنفيذ يمكنك إدراجه في مشروعك.
 
-سنغطي كل شيء من تحميل ملف موجود إلى حفظ النتيجة النهائية، لذا لن تحتاج للبحث عن “كيفية إضافة صورة” في مكان آخر. لا إطالة—حل واضح وقابل للتنفيذ يعمل مع Aspose.Pdf 23.8 (الأحدث وقت كتابة هذا الدليل). افتح بيئة التطوير الخاصة بك، ولنبدأ.
-
----
+في هذا البرنامج التعليمي ستتعلم كيفية **add paragraph to PDF**، إرفاق **paragraph tag** المناسب، إدراج **text to paragraph**، وفي النهاية **create accessible PDF** ملفات تمرّ فحص قارئات الشاشة. لا حاجة لأدوات PDF إضافية—فقط Aspose.Pdf for .NET وبعض أسطر C#.
 
 ## ما ستحتاجه
 
-- **Aspose.Pdf for .NET** (حزمة NuGet `Aspose.Pdf`).  
-- .NET 6+ (أو .NET Framework 4.7.2+).  
-- ملف PDF إدخال يحتوي بالفعل على بنية منطقية (أي أنه مُعلَّم مسبقاً) – إذا لم يكن كذلك، يمكنك تفعيل العلامات عبر `pdfDocument.TaggedContent = true`.  
-- ملف صورة (`image.png`) تريد تضمينه.  
+- .NET 6.0 أو أحدث (تعمل الواجهة البرمجية بنفس الطريقة على .NET Framework 4.6+)
+- Aspose.Pdf for .NET (حزمة NuGet `Aspose.Pdf`)
+- بيئة تطوير C# أساسية (Visual Studio، Rider، أو VS Code)
 
-هذا كل ما تحتاجه. لا مكتبات إضافية، ولا ملفات إعدادات غامضة.
+هذا كل شيء. لا أدوات خارجية، ولا ملفات إعدادات غامضة. هيا نبدأ.
 
----
+![لقطة شاشة لمستند PDF مع علامات تُظهر نص الفقرة](/images/create-tagged-pdf.png "مثال إنشاء PDF مع علامات")
 
-## الخطوة 1: تحميل مستند PDF الموجود (إنشاء قاعدة PDF مع علامات)
+*(نص بديل للصورة: “مثال إنشاء PDF مع علامات يُظهر فقرة مع علامة صحيحة”)*
 
-أول ما نقوم به هو فتح PDF الذي نريد تحسينه. تحميل الملف يمنحنا الوصول إلى بنيته المنطقية، وهو أمر أساسي لتدفقات **إنشاء PDF مع علامات**.
+## كيفية إنشاء PDF مع علامات – المفاهيم الأساسية
 
-```csharp
-using System;
-using System.IO;
-using Aspose.Pdf;
-using Aspose.Pdf.LogicalStructure;
+قبل أن نبدأ في كتابة الشيفرة، من المفيد فهم *لماذا* تُعد العلامات مهمة. يتطلب PDF/UA (إمكانية الوصول العالمية) شجرة هيكل منطقية حتى تتمكن التقنيات المساعدة من قراءة المستند بالترتيب الصحيح. من خلال إنشاء **paragraph tag** ووضع **text to paragraph**، تزود قارئات الشاشة بإشارة واضحة أن المحتوى هو فقرة، وليس مجرد سلسلة عشوائية من الأحرف.
 
-// Load the source PDF – make sure the path points to a real file.
-Document pdfDocument = new Document("YOUR_DIRECTORY/input.pdf");
+### الخطوة 1: إعداد المشروع واستيراد المساحات الاسمية
 
-// Verify that the document has a tag tree; if not, enable it.
-if (!pdfDocument.TaggedContent.IsTagged)
-{
-    pdfDocument.TaggedContent.IsTagged = true;
-    Console.WriteLine("Tagging enabled on the document.");
-}
-```
-
-*لماذا هذا مهم:* بدون شجرة علامات، لن ينقل PDF المعلومات الهيكلية إلى قارئات الشاشة. تمكين العلامات يضمن أن أي عناصر جديدة نضيفها (مثل الشكل) ترث التسلسل الهرمي الصحيح.
-
----
-
-## الخطوة 2: الوصول إلى جذر البنية المنطقية (كيفية وضع علامات على PDF)
-
-الآن نتعمق في البنية المنطقية للـ PDF. العنصر الجذري هو الحاوية لجميع العلامات—فكر فيه كخريطة محتويات المستند.
-
-```csharp
-// Grab the root of the logical structure.
-var logicalRoot = pdfDocument.TaggedContent.RootElement;
-
-// Optional: print existing children count for debugging.
-Console.WriteLine($"Root has {logicalRoot.ChildElements.Count} child elements.");
-```
-
-*شرح:* `logicalRoot` يتيح لنا إلحاق علامات جديدة مثل `<Figure>` أو `<Table>`. هذا هو جوهر **كيفية وضع علامات على PDF** برمجياً.
-
----
-
-## الخطوة 3: إنشاء علامة Figure وتحديد موضعها (تحديد موضع الشكل)
-
-علامة *Figure* تجمع المحتوى البصري مع تسمية اختيارية. سننشئ واحدة، نحدد موضعها، ونرفقها بالجذر.
-
-```csharp
-// Create a new Figure element.
-var figureTag = logicalRoot.CreateFigureElement();
-
-// Define where the figure appears on the page.
-figureTag.Position = new Position
-{
-    // X/Y are measured from the bottom‑left corner (points).
-    X = 100,   // 100 points from the left edge
-    Y = 150,   // 150 points from the bottom edge
-    Width = 300,
-    Height = 200
-};
-
-// Append the Figure to the logical structure.
-logicalRoot.AppendChild(figureTag);
-
-Console.WriteLine("Figure tag created and positioned.");
-```
-
-*لماذا نحدد موضعاً:* خطوة **تحديد موضع الشكل** تحدد أين سيظهر العنصر البصري على الصفحة. إذا تخطيت ذلك، قد يظهر الشكل في موقع غير متوقع أو يكون غير مرئي لتقنيات المساعدة.
-
----
-
-## الخطوة 4: إضافة تمثيل بصري – إدراج صورة (إضافة صورة إلى PDF)
-
-مع وجود العلامة، نحتاج إلى صورة فعلية. هذه هي الخطوة التي تجيب على **إضافة صورة إلى PDF**.
-
-```csharp
-// Grab the first page (pages are 1‑based in Aspose.Pdf).
-var firstPage = pdfDocument.Pages[1];
-
-// Create an Image object that points to the file stream.
-var image = new Image
-{
-    ImageStream = File.OpenRead("YOUR_DIRECTORY/image.png"),
-    // The rectangle defines the same area we set for the Figure.
-    Rect = new Rectangle(100, 150, 400, 350) // X, Y, Width, Height
-};
-
-// Add the image to the page's paragraph collection.
-firstPage.Paragraphs.Add(image);
-
-Console.WriteLine("Image added to the first page.");
-```
-
-*نقطة أساسية:* يجب أن تتطابق إحداثيات المستطيل مع `figureTag.Position` التي حددناها سابقاً؛ وإلا سيتعارض الشكل مع محتواه البصري، مما يفسد إمكانية الوصول.
-
----
-
-## الخطوة 5: حفظ PDF المحدث (إنهاء إنشاء PDF مع علامات)
-
-أخيراً، نقوم بحفظ التغييرات في ملف جديد. الحفاظ على الأصل دون تعديل يُعد ممارسة جيدة.
-
-```csharp
-// Save the modified document.
-pdfDocument.Save("YOUR_DIRECTORY/output.pdf");
-
-Console.WriteLine("Tagged PDF saved as output.pdf");
-```
-
-في هذه المرحلة لديك ملف **إنشاء PDF مع علامات** يحتوي على صورة موضوعة بشكل صحيح داخل علامة `<Figure>`. افتح `output.pdf` في Adobe Acrobat وتفقد لوحة *Tags* – يجب أن ترى عقدة `Figure` تحت الجذر.
-
----
-
-## مثال كامل وجاهز للتنفيذ
-
-فيما يلي البرنامج الكامل الذي يمكنك نسخه ولصقه في تطبيق Console. جميع الخطوات مرتبة بالترتيب الصحيح.
+أنشئ تطبيق console جديد (أو دمجه في مشروع موجود) وأضف مرجع Aspose.Pdf.
 
 ```csharp
 using System;
-using System.IO;
 using Aspose.Pdf;
-using Aspose.Pdf.LogicalStructure;
+using Aspose.Pdf.Text;
 
 namespace TaggedPdfDemo
 {
@@ -171,109 +63,183 @@ namespace TaggedPdfDemo
     {
         static void Main(string[] args)
         {
-            // 1️⃣ Load the PDF.
-            Document pdfDocument = new Document("YOUR_DIRECTORY/input.pdf");
-            if (!pdfDocument.TaggedContent.IsTagged)
-            {
-                pdfDocument.TaggedContent.IsTagged = true;
-                Console.WriteLine("Tagging enabled.");
-            }
-
-            // 2️⃣ Access the logical structure root.
-            var logicalRoot = pdfDocument.TaggedContent.RootElement;
-
-            // 3️⃣ Create a Figure tag and set its position.
-            var figureTag = logicalRoot.CreateFigureElement();
-            figureTag.Position = new Position
-            {
-                X = 100,
-                Y = 150,
-                Width = 300,
-                Height = 200
-            };
-            logicalRoot.AppendChild(figureTag);
-            Console.WriteLine("Figure tag added.");
-
-            // 4️⃣ Add the image to the first page.
-            var firstPage = pdfDocument.Pages[1];
-            var image = new Image
-            {
-                ImageStream = File.OpenRead("YOUR_DIRECTORY/image.png"),
-                Rect = new Rectangle(100, 150, 400, 350)
-            };
-            firstPage.Paragraphs.Add(image);
-            Console.WriteLine("Image inserted.");
-
-            // 5️⃣ Save the result.
-            pdfDocument.Save("YOUR_DIRECTORY/output.pdf");
-            Console.WriteLine("PDF saved – tagging complete.");
+            // The rest of the code lives here
         }
     }
 }
 ```
 
-### النتيجة المتوقعة
+> **نصيحة احترافية:** إذا كنت تستخدم عبارات المستوى الأعلى في .NET 6، يمكنك حذف فئة `Program` تمامًا—فقط ضع الشيفرة مباشرة في الملف. المنطق يبقى كما هو.
 
-- يفتح `output.pdf` مع عرض الصورة عند النقاط (100, 150) وبحجم 300 × 200 نقطة.  
-- تُظهر لوحة *Tags* عنصر `Figure` يحيط بالصورة.  
-- أدوات قارئ الشاشة تُعلن “Figure” قبل وصف الصورة، مما يفي بمعايير إمكانية الوصول الأساسية.
+### الخطوة 2: إنشاء مستند PDF جديد
 
----
-
-## أسئلة شائعة وحالات خاصة
-
-### ماذا لو لم يكن PDF المصدر مُعلَّمًا مسبقًا؟
-
-يتيح لك Aspose.Pdf تفعيل العلامات عبر ضبط `pdfDocument.TaggedContent.IsTagged = true;`. ستُنشئ المكتبة شجرة علامات افتراضية، وبعد ذلك يمكنك إضافة علامات مخصصة كما هو موضح.
-
-### هل يمكنني إضافة تسمية توضيحية إلى الشكل؟
-
-نعم. بعد إنشاء `figureTag`، يمكنك إرفاق `Paragraph` يحتوي على `TextFragment` وتعيين `Tag` الخاص به إلى `Caption`. مثال:
+نبدأ بـ `Document` فارغ. هذا الكائن يمثل ملف PDF بالكامل، بما في ذلك شجرة الهيكل الداخلية.
 
 ```csharp
-var caption = new Paragraph(new TextFragment("Figure 1: Sample diagram"));
-caption.Tag = figureTag.CreateCaptionElement();
-logicalRoot.AppendChild(caption);
+// Step 2: Create a new PDF document (the canvas)
+using (var pdfDocument = new Document())
+{
+    // All subsequent operations happen inside this block
+}
 ```
 
-### كيف أضع الشكل في صفحة مختلفة؟
+يضمن بيان `using` تحرير مقبض الملف تلقائيًا، وهو مفيد بشكل خاص عند تشغيل العرض التوضيحي عدة مرات.
 
-استبدل `var firstPage = pdfDocument.Pages[1];` بالفهرس المطلوب للصفحة، مثل `pdfDocument.Pages[3]`. تذكر تعديل إحداثيات `Position` إذا كان حجم الصفحة مختلفًا.
+### الخطوة 3: الوصول إلى بنية المحتوى المعلم
 
-### ماذا لو احتجت إلى وضع علامات على عدة صور؟
-
-أنشئ `Figure` جديد لكل صورة، أعط كل منها `Position` فريدة، وأضف كائن `Image` المناسب إلى الصفحة المعنية. يمكن تنفيذ ذلك عبر حلقة تمر على مجموعة من الصور.
-
-### هل يعمل هذا مع توافق PDF/A؟
-
-يدعم Aspose.Pdf معايير PDF/A‑1b و PDF/A‑2b و PDF/A‑3b. عند إنشاء مستند PDF/A، تأكد من ضبط وضع التوافق قبل الحفظ:
+يحتوي PDF المعلم على *شجرة هيكل* تقع تحت `TaggedContent`. من خلال الحصول عليها يمكننا بدء بناء عناصر منطقية مثل الفقرات.
 
 ```csharp
-pdfDocument.Convert(ConvertFormat.PdfA1b);
+// Step 3: Get the tagged content object
+var taggedContent = pdfDocument.TaggedContent;
 ```
 
-منطق العلامات يبقى كما هو.
+إذا تخطيت هذه الخطوة، أي نص تضيفه لاحقًا سيكون **غير منظم**، مما يعني أن التقنيات المساعدة ستقرأه كسلسلة مسطحة.
 
----
+### الخطوة 4: إنشاء عنصر فقرة وتحديد موقعه
 
-## نصائح احترافية ومخاطر محتملة
+الآن نضيف فعليًا **add paragraph to PDF**. عنصر الفقرة هو حاوية يمكنها احتواء مقطع نصي واحد أو أكثر.
 
-- **نصيحة احترافية:** استخدم دائمًا مسارات مطلقة أو `Path.Combine` لتجنب أخطاء “الملف غير موجود” أثناء التشغيل.  
-- **احذر من:** إحداثيات غير متطابقة بين علامة `Figure` ومستطيل `Image`—تقنيات المساعدة تعتمد على هذا التوافق.  
-- **ملاحظة أداء:** إذا كنت تعالج عدة صفحات، احزم تدفق الصورة داخل كتلة `using` لتحرير الموارد بسرعة.  
-- **تحقق من الإصدار:** الـ API المعروض يعمل مع Aspose.Pdf 23.8+. الإصدارات القديمة قد تحمل أسماء فئات مختلفة (مثل `LogicalStructureElement` بدلاً من `FigureElement`).
+```csharp
+// Step 4: Create a paragraph element
+var paragraph = taggedContent.CreateParagraphElement();
 
----
+// Define where the paragraph appears on the page (in points)
+paragraph.Bounds = new Rectangle(0, 700, 500, 720);
+```
+
+يستخدم `Rectangle` نظام إحداثيات PDF حيث (0,0) هو الزاوية السفلية اليسرى. عدّل إحداثيات Y إذا كنت بحاجة إلى رفع الفقرة أو خفضها على الصفحة.
+
+### الخطوة 5: إدراج نص داخل الفقرة
+
+هنا الجزء الذي نُـ**add text to paragraph**. خاصية `Text` هي غلاف مريح ينشئ `TextFragment` واحد داخليًا.
+
+```csharp
+// Step 5: Set the visible text of the paragraph
+paragraph.Text = "Chapter 1 – Introduction";
+```
+
+إذا كنت بحاجة إلى تنسيق أغنى (خطوط، ألوان، روابط)، يمكنك إنشاء `TextFragment` يدويًا وإضافته إلى `paragraph.Segments`.
+
+### الخطوة 6: إرفاق الفقرة بشجرة الهيكل
+
+تحتاج شجرة الهيكل إلى *عنصر جذر* لتعلق العناصر الفرعية به. من خلال إلحاق الفقرة، نضيف فعليًا **add paragraph tag** إلى PDF.
+
+```csharp
+// Step 6: Append the paragraph to the root element of the structure tree
+taggedContent.RootElement.AppendChild(paragraph);
+```
+
+في هذه المرحلة، يحتوي PDF على عقدة فقرة منطقية تشير إلى النص المرئي الذي وضعناه للتو.
+
+### الخطوة 7: حفظ المستند كـ PDF قابل للوصول
+
+أخيرًا، نكتب الملف إلى القرص. سيكون الناتج PDF **create accessible pdf** كامل جاهز لاختبار قارئ الشاشة.
+
+```csharp
+// Step 7: Save the tagged PDF to a file
+pdfDocument.Save("tagged.pdf");
+```
+
+يمكنك فتح `tagged.pdf` في Adobe Acrobat والتحقق من *File → Properties → Tags* لتأكيد الهيكل.
+
+### مثال كامل يعمل
+
+بجمع كل شيء معًا، إليك البرنامج الكامل الجاهز للنسخ واللصق:
+
+```csharp
+using System;
+using Aspose.Pdf;
+using Aspose.Pdf.Text;
+
+namespace TaggedPdfDemo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Step 1‑7: Create a tagged PDF with a single paragraph
+            using (var pdfDocument = new Document())
+            {
+                // Access tagged content
+                var taggedContent = pdfDocument.TaggedContent;
+
+                // Create paragraph element
+                var paragraph = taggedContent.CreateParagraphElement();
+
+                // Position the paragraph on the first page
+                paragraph.Bounds = new Rectangle(0, 700, 500, 720);
+
+                // Add visible text
+                paragraph.Text = "Chapter 1 – Introduction";
+
+                // Append paragraph to the root of the structure tree
+                taggedContent.RootElement.AppendChild(paragraph);
+
+                // Save the result
+                pdfDocument.Save("tagged.pdf");
+            }
+
+            Console.WriteLine("Tagged PDF created successfully at: tagged.pdf");
+        }
+    }
+}
+```
+
+**الناتج المتوقع:** بعد تشغيل البرنامج، يظهر ملف باسم `tagged.pdf` في دليل عمل الملف التنفيذي. عند فتحه في Adobe Acrobat يظهر النص “Chapter 1 – Introduction” موضعًا بالقرب من أعلى الصفحة، وتظهر لوحة *Tags* عنصر `<P>` واحد (فقرة) مرتبط بذلك النص.
+
+## إضافة محتوى إضافي – تنويعات شائعة
+
+### فقرات متعددة
+
+إذا كنت بحاجة إلى **add paragraph to PDF** أكثر من مرة، ببساطة كرّر الخطوات 4‑6 بحدود ونص جديد. تذكر أن تجعل إحداثيات Y تتناقص حتى لا تتداخل الفقرات.
+
+```csharp
+var secondParagraph = taggedContent.CreateParagraphElement();
+secondParagraph.Bounds = new Rectangle(0, 660, 500, 680);
+secondParagraph.Text = "This is the second paragraph.";
+taggedContent.RootElement.AppendChild(secondParagraph);
+```
+
+### تنسيق النص
+
+للتنسيق الأغنى، أنشئ `TextFragment` وأضفه إلى مجموعة `Segments` الخاصة بالفقرة:
+
+```csharp
+var tf = new TextFragment("Bold heading")
+{
+    TextState = { FontSize = 14, FontStyle = FontStyles.Bold }
+};
+paragraph.Segments.Add(tf);
+```
+
+### معالجة الصفحات
+
+يقوم المثال بإنشاء PDF صفحة واحدة تلقائيًا. إذا كنت بحاجة إلى صفحات إضافية، أضفها عبر `pdfDocument.Pages.Add()` واضبط `paragraph.Bounds` للصفحة المناسبة باستخدام `paragraph.PageNumber = 2;`.
+
+## اختبار إمكانية الوصول
+
+طريقة سريعة للتحقق من أنك فعلاً **create accessible pdf** هي:
+
+1. افتح الملف في Adobe Acrobat Pro.
+2. اختر *View → Tools → Accessibility → Full Check*.
+3. راجع شجرة *Tags*؛ يجب أن تظهر كل فقرة كعقدة `<P>`.
+
+إذا أشار الفحص إلى وجود علامات مفقودة، تحقق مرة أخرى من أنك استدعيت `taggedContent.RootElement.AppendChild(paragraph);` لكل عنصر تنشئه.
+
+## الأخطاء الشائعة وكيفية تجنبها
+
+- **نسيت تمكين العلامات:** مجرد إنشاء `Document` لا يضيف شجرة هيكل. احرص دائمًا على الوصول إلى `TaggedContent` قبل إضافة العناصر.
+- **الحدود خارج حدود الصفحة:** يجب أن يتناسب المستطيل مع حجم الصفحة (A4 الافتراضي ≈ 595 × 842 نقطة). المستطيلات الخارجة تُهمل صامتًا.
+- **الحفظ قبل الإلحاق:** إذا استدعيت `Save` قبل `AppendChild`، سيكون الـ PDF بدون علامات.
 
 ## الخلاصة
 
-لقد أنشأنا **PDF مع علامات** من البداية إلى النهاية، وعرضنا **إضافة صورة إلى PDF**، وأظهرنا **كيفية تحديد موضع الشكل** بينما أجبنا على **كيفية وضع علامات على PDF** و**كيفية إضافة صورة** في مثال موحد. الكود جاهز للتنفيذ، والشروحات تغطي “السبب” وراء كل خطوة، والآن لديك أساس قوي لبناء ملفات PDF قابلة للوصول في C#.
+أنت الآن تعرف كيف **create tagged PDF** باستخدام Aspose.Pdf for .NET، وكيف **add paragraph to PDF**، وإرفاق **paragraph tag** المناسب، وإدراج **text to paragraph** بحيث يكون الملف النهائي **create accessible pdf** جاهزًا لاختبار الامتثال. يمكن نسخ عينة الشيفرة الكاملة أعلاه إلى أي مشروع C# وتشغيلها دون تعديل.
 
-هل أنت مستعد للتحدي التالي؟ جرّب إضافة جداول باستخدام علامات `<Table>`، أو دمج طبقة توافق PDF/A‑2b لأغراض الأرشفة. النمط نفسه—التحميل، الوصول إلى البنية المنطقية، إنشاء علامة، إرفاق محتوى بصري، الحفظ—ينطبق على معظم مهام إمكانية الوصول في PDF.
+هل أنت مستعد للخطوة التالية؟ جرّب دمج هذا النهج مع الجداول، الصور، أو علامات العناوين المخصصة لبناء تقرير مُهيكل بالكامل. أو استكشف *PdfConverter* من Aspose لتحويل ملفات PDF الحالية إلى إصدارات معلمة تلقائيًا.
 
-إذا واجهت أي صعوبة أو لديك حالة استخدام غير مغطاة هنا، اترك تعليقًا أدناه. نتمنى لك تجربة وضع علامات ممتعة، واستمتع بإنشاء PDFs يمكن للجميع قراءتها!
-
-![مخطط يوضح PDF مع علامة Figure وصورة – يوضح كيفية إنشاء PDF مع علامات](placeholder-image.png "مثال إنشاء PDF مع علامات")
+برمجة سعيدة، ولتكن ملفات PDF الخاصة بك جميلة **وم** قابلة للوصول!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

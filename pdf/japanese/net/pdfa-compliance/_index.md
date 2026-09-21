@@ -16,7 +16,6 @@
 .NETでPDF/A準拠を実現する包括的なAspose.PDFチュートリアルで、アーカイブ品質のPDFドキュメントを作成する方法を学びましょう。これらの詳細なガイドでは、PDF/A-1b、PDF/A-2b、PDF/A-3b準拠ドキュメントの作成方法、既存のPDFをコンプライアンス標準に照らして検証する方法、標準PDFをアーカイブ形式に変換する方法、そして一般的なコンプライアンス問題のトラブルシューティング方法を説明します。各チュートリアルでは、アーカイブドキュメントのシナリオに対応した実用的なC#コード例が提供されており、国際標準に準拠した長期保存ドキュメントを作成するアプリケーションの構築に役立ちます。
 
 ## 利用可能なチュートリアル
-
 ### [Aspose.PDF .NET: 添付ファイルを追加して PDF/A に変換する](./aspose-pdf-net-add-attachments-convert-pdfa/)
 Aspose.PDF Net のコードチュートリアル
 
@@ -37,6 +36,14 @@ Aspose.PDF for .NET を使用して PDF/A-1a 準拠を検証する方法を学�
 
 ### [C# で Aspose.PDF for .NET を使用して PDF/A 検証をマスターする](./master-pdfa-validation-aspose-pdf-net/)
 Aspose.PDF .NET を使用して、PDF ドキュメントを PDF/A 標準に準拠して検証する方法を学びましょう。ステップバイステップのガイドでコンプライアンスを確保し、ドキュメントの信頼性を高めましょう。
+
+### [C# で PDF を PDF/A に変換する – ステップバイステップ ガイド](./convert-pdf-to-pdf-a-in-c-step-by-step-guide/)
+Aspose.PDF .NET を使用して、C# で PDF を PDF/A に変換する方法をステップバイステップで学びましょう。
+
+### [C# で PDF/A ファイルを作成 – 完全変換チュートリアル](./create-pdf-a-file-in-c-full-conversion-tutorial/)
+C# を使用して PDF を PDF/A に完全に変換し、アーカイブ品質のファイルを作成する手順を解説します。
+### [C# で PDF/A を作成する方法 – ステップバイステップ Aspose ガイド](./how-to-create-pdf-a-in-c-step-by-step-aspose-guide/)
+Aspose.PDF .NET を使用して、C# で PDF/A 準拠ドキュメントを作成する手順を詳しく解説します。
 
 ## 追加リソース
 

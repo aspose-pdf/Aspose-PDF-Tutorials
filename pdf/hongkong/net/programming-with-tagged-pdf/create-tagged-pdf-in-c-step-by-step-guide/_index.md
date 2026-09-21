@@ -1,22 +1,23 @@
 ---
 category: general
-date: 2026-03-06
-description: 使用 C# 的 Aspose.Pdf 建立標記 PDF。了解如何將圖像加入 PDF、設定圖形位置，並為可及性標記 PDF。
+date: 2026-02-12
+description: 使用 Aspose.Pdf 在 C# 中建立帶標籤的 PDF。了解如何向 PDF 添加段落、加入段落標籤、在段落中加入文字，以及製作可存取的
+  PDF。
 draft: false
 keywords:
 - create tagged pdf
-- add image to pdf
-- set figure position
-- how to tag pdf
-- how to add image
+- add paragraph to pdf
+- add paragraph tag
+- add text to paragraph
+- create accessible pdf
 language: zh-hant
-og_description: 使用 Aspose.Pdf 建立標記 PDF。本指南說明如何將圖像加入 PDF、設定圖形位置，以及為可及性標記 PDF。
-og_title: 在 C# 中建立標籤 PDF – 完整教學
+og_description: 使用 Aspose.Pdf 在 C# 中建立標記 PDF。本教學示範如何向 PDF 添加段落、設定標記，並產生可存取的 PDF。
+og_title: 使用 C# 建立標記 PDF – 完整程式教學
 tags:
 - Aspose.Pdf
 - C#
-- PDF Accessibility
-title: 在 C# 中建立標記 PDF – 步驟說明指南
+- PDF accessibility
+title: 在 C# 中建立標記 PDF – 步驟指南
 url: /zh-hant/net/programming-with-tagged-pdf/create-tagged-pdf-in-c-step-by-step-guide/
 ---
 
@@ -24,144 +25,36 @@ url: /zh-hant/net/programming-with-tagged-pdf/create-tagged-pdf-in-c-step-by-ste
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 C# 中建立標記 PDF – 完整教學
+# 使用 C# 建立標記 PDF – 步驟指南
 
-曾經需要在 C# 中 **create tagged PDF**，卻不知從何下手嗎？你並不孤單；如今無障礙是必須，而標記 PDF 是符合規範文件的基礎。在本教學中，我們將示範一個真實案例，說明如何 **adds image to PDF**、設定圖形位置，並展示使用 Aspose.Pdf **how to tag PDF**。完成後，你將擁有一個完整標記的 PDF，隨時可以發送給任何人。
+如果你需要快速 **create tagged PDF**，本指南會一步一步告訴你如何操作。對於在 PDF 中加入段落同時保持文件可存取性而感到困擾嗎？我們會逐行說明程式碼，解釋每個部分的意義，最後提供一個可直接放入專案的即用範例。
 
-我們會從載入既有檔案一直講到儲存最終輸出，讓你不必再四處搜尋「how to add image」的解法。內容精簡、可直接執行，適用於 Aspose.Pdf 23.8（撰寫時的最新版本）。打開你的 IDE，讓我們開始吧。
+在本教學中，你將學會如何 **add paragraph to PDF**、附加正確的 **paragraph tag**、插入 **text to paragraph**，最終 **create accessible PDF** 檔案，使其通過螢幕閱讀器檢查。無需額外的 PDF 工具——只需 Aspose.Pdf for .NET 以及少量 C# 程式碼。
 
----
+## 需要的條件
 
-## 需要的環境
+- .NET 6.0 或更新版本（API 在 .NET Framework 4.6+ 上的行為相同）
+- Aspose.Pdf for .NET（NuGet 套件 `Aspose.Pdf`）
+- 基本的 C# IDE（Visual Studio、Rider 或 VS Code）
 
-- **Aspose.Pdf for .NET**（NuGet 套件 `Aspose.Pdf`）。  
-- .NET 6+（或 .NET Framework 4.7.2+）。  
-- 一個已具備邏輯結構（即已標記）的輸入 PDF——若尚未標記，可透過 `pdfDocument.TaggedContent = true` 來啟用。  
-- 你想嵌入的圖像檔案（`image.png`）。  
+就這樣。無需外部工具，亦無需複雜的設定檔。讓我們開始吧。
 
-就這些。無需額外函式庫，亦不需複雜的設定檔。
+![標記 PDF 文件的螢幕截圖，顯示段落文字](/images/create-tagged-pdf.png "建立標記 PDF 範例")
 
----
+*（圖片替代文字：“建立標記 PDF 範例，顯示帶有正確標記的段落”）*
 
-## 步驟 1：載入既有 PDF 文件（建立標記 PDF 基礎）
+## 如何建立標記 PDF – 核心概念
 
-首先，我們打開要進行增強的 PDF。載入檔案後即可取得其邏輯結構，這對 **create tagged pdf** 流程至關重要。
+在開始編寫程式碼之前，先了解 *為何* 標記很重要是值得的。PDF/UA（通用可存取性）需要一個邏輯結構樹，讓輔助技術能按正確順序讀取文件。透過建立 **paragraph tag** 並放置 **text to paragraph**，你可以讓螢幕閱讀器清楚知道內容是一個段落，而不是隨機的字元串。
 
-```csharp
-using System;
-using System.IO;
-using Aspose.Pdf;
-using Aspose.Pdf.LogicalStructure;
+### 步驟 1：設定專案並匯入命名空間
 
-// Load the source PDF – make sure the path points to a real file.
-Document pdfDocument = new Document("YOUR_DIRECTORY/input.pdf");
-
-// Verify that the document has a tag tree; if not, enable it.
-if (!pdfDocument.TaggedContent.IsTagged)
-{
-    pdfDocument.TaggedContent.IsTagged = true;
-    Console.WriteLine("Tagging enabled on the document.");
-}
-```
-
-*為什麼重要：* 若沒有標記樹，PDF 無法向螢幕閱讀器傳遞結構資訊。啟用標記可確保我們新增的任何元素（例如圖形）都會繼承正確的階層。
-
----
-
-## 步驟 2：存取邏輯結構根節點（How to Tag PDF）
-
-接著，我們深入 PDF 的邏輯結構。根元素是所有標記的容器——可視為文件的大綱。
-
-```csharp
-// Grab the root of the logical structure.
-var logicalRoot = pdfDocument.TaggedContent.RootElement;
-
-// Optional: print existing children count for debugging.
-Console.WriteLine($"Root has {logicalRoot.ChildElements.Count} child elements.");
-```
-
-*說明：* `logicalRoot` 讓我們可以附加新標記，如 `<Figure>` 或 `<Table>`。這就是 **how to tag PDF** 程式化操作的核心。
-
----
-
-## 步驟 3：建立 Figure 標記並設定位置（Set Figure Position）
-
-*Figure* 標記會將視覺內容與可選的說明文字結合。我們將建立此標記、設定位置，並將其附加到根節點。
-
-```csharp
-// Create a new Figure element.
-var figureTag = logicalRoot.CreateFigureElement();
-
-// Define where the figure appears on the page.
-figureTag.Position = new Position
-{
-    // X/Y are measured from the bottom‑left corner (points).
-    X = 100,   // 100 points from the left edge
-    Y = 150,   // 150 points from the bottom edge
-    Width = 300,
-    Height = 200
-};
-
-// Append the Figure to the logical structure.
-logicalRoot.AppendChild(figureTag);
-
-Console.WriteLine("Figure tag created and positioned.");
-```
-
-*為什麼要設定位置：* **set figure position** 步驟決定視覺元素在頁面上的落點。若省略此步，圖形可能出現在意外位置，或對輔助技術不可見。
-
----
-
-## 步驟 4：加入視覺呈現 – 插入圖像（Add Image to PDF）
-
-標記已就緒，接下來需要實際的圖像。這正是回應 **add image to pdf** 的部分。
-
-```csharp
-// Grab the first page (pages are 1‑based in Aspose.Pdf).
-var firstPage = pdfDocument.Pages[1];
-
-// Create an Image object that points to the file stream.
-var image = new Image
-{
-    ImageStream = File.OpenRead("YOUR_DIRECTORY/image.png"),
-    // The rectangle defines the same area we set for the Figure.
-    Rect = new Rectangle(100, 150, 400, 350) // X, Y, Width, Height
-};
-
-// Add the image to the page's paragraph collection.
-firstPage.Paragraphs.Add(image);
-
-Console.WriteLine("Image added to the first page.");
-```
-
-*重點：* 矩形座標必須與先前定義的 `figureTag.Position` 相符；否則圖形與其視覺內容會不同步，破壞無障礙性。
-
----
-
-## 步驟 5：儲存更新後的 PDF（Finish Creating Tagged PDF）
-
-最後，我們將變更寫入新檔案。保留原始檔案不變是良好做法。
-
-```csharp
-// Save the modified document.
-pdfDocument.Save("YOUR_DIRECTORY/output.pdf");
-
-Console.WriteLine("Tagged PDF saved as output.pdf");
-```
-
-此時，你已擁有一個 **create tagged pdf** 檔案，內含正確定位且被 `<Figure>` 標記包裹的圖像。於 Adobe Acrobat 開啟 `output.pdf`，檢查 *Tags* 面板——應可在根節點下看到 `Figure` 節點。
-
----
-
-## 完整、可直接執行的範例
-
-以下程式碼可直接貼到 Console 應用程式中。所有步驟已依正確順序排列。
+建立一個新的主控台應用程式（或整合到現有專案），並加入 Aspose.Pdf 參考。
 
 ```csharp
 using System;
-using System.IO;
 using Aspose.Pdf;
-using Aspose.Pdf.LogicalStructure;
+using Aspose.Pdf.Text;
 
 namespace TaggedPdfDemo
 {
@@ -169,109 +62,183 @@ namespace TaggedPdfDemo
     {
         static void Main(string[] args)
         {
-            // 1️⃣ Load the PDF.
-            Document pdfDocument = new Document("YOUR_DIRECTORY/input.pdf");
-            if (!pdfDocument.TaggedContent.IsTagged)
-            {
-                pdfDocument.TaggedContent.IsTagged = true;
-                Console.WriteLine("Tagging enabled.");
-            }
-
-            // 2️⃣ Access the logical structure root.
-            var logicalRoot = pdfDocument.TaggedContent.RootElement;
-
-            // 3️⃣ Create a Figure tag and set its position.
-            var figureTag = logicalRoot.CreateFigureElement();
-            figureTag.Position = new Position
-            {
-                X = 100,
-                Y = 150,
-                Width = 300,
-                Height = 200
-            };
-            logicalRoot.AppendChild(figureTag);
-            Console.WriteLine("Figure tag added.");
-
-            // 4️⃣ Add the image to the first page.
-            var firstPage = pdfDocument.Pages[1];
-            var image = new Image
-            {
-                ImageStream = File.OpenRead("YOUR_DIRECTORY/image.png"),
-                Rect = new Rectangle(100, 150, 400, 350)
-            };
-            firstPage.Paragraphs.Add(image);
-            Console.WriteLine("Image inserted.");
-
-            // 5️⃣ Save the result.
-            pdfDocument.Save("YOUR_DIRECTORY/output.pdf");
-            Console.WriteLine("PDF saved – tagging complete.");
+            // The rest of the code lives here
         }
     }
 }
 ```
 
-### 預期結果
+> **Pro tip:** 若你使用 .NET 6 的頂層語句，可完全省略 `Program` 類別——直接將程式碼寫在檔案中。邏輯保持不變。
 
-- `output.pdf` 會在 (100, 150) 點的位置顯示圖像，尺寸為 300 × 200 點。  
-- *Tags* 面板會顯示一個包住圖像的 `Figure` 元素。  
-- 螢幕閱讀器會在描述圖片前先朗讀「Figure」，滿足基本的無障礙標準。
+### 步驟 2：建立全新的 PDF 文件
 
----
-
-## 常見問題與特殊情況
-
-### 若來源 PDF 尚未標記該怎麼辦？
-
-Aspose.Pdf 允許透過設定 `pdfDocument.TaggedContent.IsTagged = true;` 來開啟標記。函式庫會產生預設的標記樹，之後即可如前所示加入自訂標記。
-
-### 可以為 Figure 加上說明文字嗎？
-
-可以。建立 `figureTag` 後，你可以附加一個 `Paragraph`，內含 `TextFragment`，並將其 `Tag` 設為 `Caption`。範例：
+我們從一個空的 `Document` 開始。此物件代表整個 PDF 檔案，包含其內部結構樹。
 
 ```csharp
-var caption = new Paragraph(new TextFragment("Figure 1: Sample diagram"));
-caption.Tag = figureTag.CreateCaptionElement();
-logicalRoot.AppendChild(caption);
+// Step 2: Create a new PDF document (the canvas)
+using (var pdfDocument = new Document())
+{
+    // All subsequent operations happen inside this block
+}
 ```
 
-### 要如何把圖形放到其他頁面？
+`using` 陳述式可確保檔案句柄自動釋放，當你多次執行示範時特別方便。
 
-將 `var firstPage = pdfDocument.Pages[1];` 替換為目標頁面的索引，例如 `pdfDocument.Pages[3]`。若頁面尺寸不同，請同時調整 `Position` 座標。
+### 步驟 3：存取標記內容結構
 
-### 若需要標記多張圖像該怎麼做？
-
-為每張圖像建立新的 `Figure`，給予唯一的 `Position`，並將相對應的 `Image` 物件加入對應頁面。使用迴圈處理圖像集合相當方便。
-
-### 這樣做能符合 PDF/A 標準嗎？
-
-Aspose.Pdf 支援 PDF/A‑1b、PDF/A‑2b 與 PDF/A‑3b。若要產生 PDF/A 文件，請在儲存前設定相容模式：
+標記 PDF 具有位於 `TaggedContent` 下的 *structure tree*。取得它後，我們即可開始建立如段落等邏輯元素。
 
 ```csharp
-pdfDocument.Convert(ConvertFormat.PdfA1b);
+// Step 3: Get the tagged content object
+var taggedContent = pdfDocument.TaggedContent;
 ```
 
-標記邏輯保持不變。
+若跳過此步驟，之後加入的任何文字都會是 **unstructured**，也就是說輔助技術會將其視為平面字串來讀取。
 
----
+### 步驟 4：建立段落元素並定義其位置
 
-## 專業技巧與常見陷阱
+現在我們真正 **add paragraph to PDF**。段落元素是一個容器，可容納一個或多個文字片段。
 
-- **專業技巧：** 永遠使用絕對路徑或 `Path.Combine`，避免執行時找不到檔案的錯誤。  
-- **注意事項：** `Figure` 標記與 `Image` 矩形的座標必須一致——輔助技術依賴此對齊。  
-- **效能提醒：** 若處理大量頁面，請將圖像串流包在 `using` 區塊中，以即時釋放資源。  
-- **版本檢查：** 此 API 於 Aspose.Pdf 23.8+ 可正常運作。較舊版本的類別名稱可能略有不同（例如 `LogicalStructureElement` 取代 `FigureElement`）。
+```csharp
+// Step 4: Create a paragraph element
+var paragraph = taggedContent.CreateParagraphElement();
 
----
+// Define where the paragraph appears on the page (in points)
+paragraph.Bounds = new Rectangle(0, 700, 500, 720);
+```
+
+`Rectangle` 使用 PDF 座標系統，(0,0) 為左下角。如需將段落置於頁面較高或較低位置，請調整 Y 座標。
+
+### 步驟 5：將文字插入段落
+
+這裡是 **add text to paragraph** 的部分。`Text` 屬性是一個便利的封裝，會在內部建立單一的 `TextFragment`。
+
+```csharp
+// Step 5: Set the visible text of the paragraph
+paragraph.Text = "Chapter 1 – Introduction";
+```
+
+若需要更豐富的格式（字型、顏色、連結），可手動建立 `TextFragment`，再加入至 `paragraph.Segments`。
+
+### 步驟 6：將段落附加至結構樹
+
+結構樹需要一個 *root element* 來掛載子元素。透過將段落加入，我們實際上 **add paragraph tag** 到 PDF。
+
+```csharp
+// Step 6: Append the paragraph to the root element of the structure tree
+taggedContent.RootElement.AppendChild(paragraph);
+```
+
+此時 PDF 已擁有指向剛才放置之視覺文字的邏輯段落節點。
+
+### 步驟 7：將文件儲存為可存取的 PDF
+
+最後，我們將檔案寫入磁碟。輸出將是一個完整的 **create accessible pdf**，可供螢幕閱讀器測試。
+
+```csharp
+// Step 7: Save the tagged PDF to a file
+pdfDocument.Save("tagged.pdf");
+```
+
+你可以在 Adobe Acrobat 中開啟 `tagged.pdf`，並檢查 *File → Properties → Tags* 以驗證結構。
+
+### 完整範例
+
+將所有步驟整合起來，以下是完整、可直接複製貼上的程式範例：
+
+```csharp
+using System;
+using Aspose.Pdf;
+using Aspose.Pdf.Text;
+
+namespace TaggedPdfDemo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Step 1‑7: Create a tagged PDF with a single paragraph
+            using (var pdfDocument = new Document())
+            {
+                // Access tagged content
+                var taggedContent = pdfDocument.TaggedContent;
+
+                // Create paragraph element
+                var paragraph = taggedContent.CreateParagraphElement();
+
+                // Position the paragraph on the first page
+                paragraph.Bounds = new Rectangle(0, 700, 500, 720);
+
+                // Add visible text
+                paragraph.Text = "Chapter 1 – Introduction";
+
+                // Append paragraph to the root of the structure tree
+                taggedContent.RootElement.AppendChild(paragraph);
+
+                // Save the result
+                pdfDocument.Save("tagged.pdf");
+            }
+
+            Console.WriteLine("Tagged PDF created successfully at: tagged.pdf");
+        }
+    }
+}
+```
+
+**預期輸出：** 執行程式後，會在執行檔的工作目錄產生名為 `tagged.pdf` 的檔案。於 Adobe Acrobat 開啟時，可見文字 “Chapter 1 – Introduction” 位於頁面上方，且 *Tags* 面板列出單一 `<P>` 元素（段落），與該文字相連。
+
+## 新增更多內容 – 常見變化
+
+### 多段落
+
+如果需要多次 **add paragraph to PDF**，只要以新的範圍與文字重複步驟 4‑6 即可。請確保 Y 座標遞減，以免段落重疊。
+
+```csharp
+var secondParagraph = taggedContent.CreateParagraphElement();
+secondParagraph.Bounds = new Rectangle(0, 660, 500, 680);
+secondParagraph.Text = "This is the second paragraph.";
+taggedContent.RootElement.AppendChild(secondParagraph);
+```
+
+### 文字樣式
+
+若需更豐富的格式，可建立 `TextFragment` 並加入段落的 `Segments` 集合：
+
+```csharp
+var tf = new TextFragment("Bold heading")
+{
+    TextState = { FontSize = 14, FontStyle = FontStyles.Bold }
+};
+paragraph.Segments.Add(tf);
+```
+
+### 處理頁面
+
+此範例會自動建立單頁 PDF。若需更多頁面，可透過 `pdfDocument.Pages.Add()` 新增，並使用 `paragraph.PageNumber = 2;` 設定 `paragraph.Bounds` 至相應頁面。
+
+## 測試可存取性
+
+快速驗證你確實 **create accessible pdf** 的方法如下：
+
+1. 在 Adobe Acrobat Pro 中開啟檔案。
+2. 選取 *View → Tools → Accessibility → Full Check*。
+3. 檢查 *Tags* 樹；每個段落應顯示為 `<P>` 節點。
+
+若檢查結果顯示缺少標記，請再次確認對每個建立的元素都有呼叫 `taggedContent.RootElement.AppendChild(paragraph);`。
+
+## 常見陷阱與避免方法
+
+- **忘記啟用標記：** 僅建立 `Document` 並不會加入結構樹。必須在加入元素前先存取 `TaggedContent`。
+- **範圍超出頁面限制：** 矩形必須位於頁面尺寸內（預設 A4 約 595 × 842 點）。超出範圍的矩形會被靜默忽略。
+- **在附加前儲存：** 若在呼叫 `AppendChild` 前執行 `Save`，PDF 將不會被標記。
 
 ## 結論
 
-我們已從頭到尾 **create tagged pdf**，示範了 **add image to pdf**，並說明了 **set figure position**，同時回答了 **how to tag pdf** 與 **how to add image** 的需求。程式碼已可直接執行，說明涵蓋每一步的「為什麼」，讓你在 C# 中建立可存取的 PDF 有了堅實基礎。
+現在你已了解如何使用 Aspose.Pdf for .NET **create tagged PDF**、**add paragraph to PDF**、附加正確的 **paragraph tag**，以及插入 **text to paragraph**，使最終檔案成為可供合規測試的 **create accessible pdf**。上方完整的程式碼範例可直接複製到任何 C# 專案中執行，無需修改。
 
-想挑戰下一步嗎？試著加入 `<Table>` 標記，或為存檔加入 PDF/A‑2b 相容層以作長期保存。相同的流程——載入、存取邏輯結構、建立標記、附加視覺內容、儲存——適用於大多數 PDF 無障礙任務。
+準備好進一步嗎？可嘗試將此方法與表格、圖片或自訂標題標記結合，打造完整結構的報告。亦可探索 Aspose 的 *PdfConverter*，自動將現有 PDF 轉換為標記版本。
 
-如果遇到問題或有未涵蓋的使用情境，歡迎在下方留言。祝標記順利，打造每個人都能閱讀的 PDF！
-
-![Diagram showing a PDF with a Figure tag and image – illustrates how to create tagged pdf](placeholder-image.png "create tagged pdf example")
+祝程式開發順利，願你的 PDF 同時兼具美觀 **與** 可存取性！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

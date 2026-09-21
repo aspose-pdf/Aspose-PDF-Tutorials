@@ -1,19 +1,19 @@
 ---
 category: general
-date: 2026-03-06
-description: สร้างเอกสาร PDF ด้วย Aspose.PDF ใน C#. เรียนรู้วิธีเพิ่มหน้า PDF, วาดสี่เหลี่ยมใน
-  PDF, เพิ่มรูปทรงใน PDF, และควบคุมความหนาของเส้นขอบสี่เหลี่ยม—ทั้งหมดในบทเรียนเดียว
+date: 2026-01-10
+description: สร้างเอกสาร PDF ด้วย Aspose.PDF ใน C# เรียนรู้วิธีเพิ่มหน้า PDF, วาดสี่เหลี่ยมใน
+  PDF, และอื่น ๆ อีกมากในบทเรียนฉบับสมบูรณ์นี้.
 draft: false
 keywords:
 - create pdf document
 - add page pdf
 - draw rectangle pdf
-- add shape pdf
-- rectangle border thickness
+- how to create pdf
+- how to add rectangle
 language: th
-og_description: สร้างเอกสาร PDF ด้วย C# และ Aspose.PDF บทเรียนนี้แสดงวิธีเพิ่มหน้า
-  PDF, วาดสี่เหลี่ยมใน PDF, เพิ่มรูปทรงใน PDF, และตั้งความหนาของเส้นขอบสี่เหลี่ยม.
-og_title: สร้างเอกสาร PDF ด้วย Aspose.PDF – คู่มือฉบับสมบูรณ์
+og_description: สร้างเอกสาร PDF ด้วย Aspose.PDF ใน C# ทำตามบทแนะนำนี้เพื่อเพิ่มหน้า
+  PDF, วาดสี่เหลี่ยมใน PDF, และการสร้าง PDF อย่างมืออาชีพ.
+og_title: สร้างเอกสาร PDF ด้วย Aspose.PDF – คู่มือเต็ม
 tags:
 - Aspose.PDF
 - C#
@@ -26,194 +26,229 @@ url: /th/net/document-creation/create-pdf-document-with-aspose-pdf-step-by-step-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# สร้างเอกสาร PDF ด้วย Aspose.PDF – คู่มือขั้นตอนต่อขั้นตอน
+# สร้างเอกสาร PDF ด้วย Aspose.PDF – คู่มือขั้นตอนโดยละเอียด
 
-เคยต้องการ **สร้างเอกสาร PDF** ด้วยโปรแกรมและไม่แน่ใจว่าจะเริ่มต้นอย่างไรหรือไม่? คุณไม่ได้อยู่คนเดียว—นักพัฒนาหลายคนเจออุปสรรคเดียวกันเมื่อแอปของพวกเขาต้องสร้างใบแจ้งหนี้ รายงาน หรือใบรับรองแบบอัตโนมัติ  
+เคยต้องการ **create PDF document** อย่างอัตโนมัติและไม่แน่ใจว่าจะเริ่มต้นอย่างไรหรือไม่? คุณไม่ได้เป็นคนเดียว—นักพัฒนาทั่วโลกต่างเผชิญกับอุปสรรคนี้เมื่อพยายามทำอัตโนมัติรายงาน ใบแจ้งหนี้ หรือใบรับรอง ข่าวดีคือ? ด้วย Aspose.PDF สำหรับ .NET คุณสามารถสร้าง PDF ได้เพียงไม่กี่บรรทัดของ C#.
 
-ข่าวดีคือด้วย Aspose.PDF for .NET คุณสามารถทำได้ในไม่กี่บรรทัดเดียว และคุณจะได้เรียนรู้วิธี **add page PDF**, **draw rectangle PDF**, **add shape PDF**, และปรับ **rectangle border thickness** พร้อมกันไปด้วย ลุยกันเลย
+ในบทแนะนำนี้เราจะเดินผ่านกระบวนการทั้งหมด: ตั้งแต่การเริ่มต้นเอกสาร ไปจนถึง **add page PDF**, **draw rectangle PDF**, และสุดท้ายการบันทึกไฟล์ เมื่อจบคุณจะได้ตัวอย่างที่ทำงานได้เต็มรูปแบบและความเข้าใจที่ชัดเจนเกี่ยวกับ **how to create pdf** อย่างมั่นใจ.
 
-## สิ่งที่คุณจะสร้าง
+## สิ่งที่คู่มือนี้ครอบคลุม
 
-เมื่อจบคู่มือนี้ คุณจะมีแอปคอนโซล C# ที่ทำงานเต็มรูปแบบที่:
+- ข้อกำหนดเบื้องต้นที่คุณต้องมีก่อนเขียนโค้ด  
+- การสร้างเอกสาร PDF อย่างเป็นขั้นตอน  
+- การเพิ่มหน้าใหม่ในเอกสารนั้น (การดำเนินการ **add page pdf** คลาสสิก)  
+- การวาดรูปสี่เหลี่ยม ตรวจสอบขอบเขต และแทรกลง (ส่วน “**draw rectangle pdf**” )  
+- ข้อผิดพลาดทั่วไปและเคล็ดลับมืออาชีพสำหรับการสร้าง PDF ที่มั่นคง  
+- ตัวอย่างโค้ดที่สมบูรณ์พร้อมคัดลอก‑วางที่คุณสามารถรันได้ทันที  
 
-1. **Creates a PDF document** จากศูนย์.  
-2. **Adds a page PDF** ไปยังเอกสาร.  
-3. **Draws a rectangle PDF** บนหน้าดังกล่าว.  
-4. **Validates** ว่า rectangle อยู่ภายในขอบของหน้า (**add shape PDF** ขั้นตอน).  
-5. ตั้งค่า **rectangle border thickness** ที่กำหนดเอง.  
-6. บันทึกผลลัพธ์เป็น `ShapeValidated.pdf`.
+ไม่มีการอ้างอิงภายนอก ไม่มีส่วนที่ขาดหาย—เพียงโซลูชันที่สมบูรณ์แบบที่คุณสามารถอ้างอิงหรือแชร์ได้
 
-ไม่มีบริการภายนอก ไม่มีการกำหนดค่าที่ซับซ้อน—เพียง C# ธรรมดาและ Aspose.PDF.
+## ข้อกำหนดเบื้องต้น
 
-### ข้อกำหนดเบื้องต้น
+| ข้อกำหนด | เหตุผลที่สำคัญ |
+|-------------|----------------|
+| .NET 6.0 or later (or .NET Framework 4.6+) | Aspose.PDF รองรับทั้งสอง; runtime ที่ใหม่กว่าจะให้ประสิทธิภาพที่ดีกว่า. |
+| Aspose.PDF for .NET NuGet package (`Aspose.Pdf`) | ไลบรารีนี้ให้ `Document`, `Page` และคลาสการวาดที่เราจะใช้. |
+| A C# IDE (Visual Studio, Rider, VS Code) | ทำให้การคอมไพล์และดีบักเป็นเรื่องง่าย. |
+| Write permission to the output folder | จำเป็นสำหรับการเรียก `Save` สุดท้าย. |
 
-- .NET 6.0 หรือใหม่กว่า (โค้ดนี้ทำงานได้กับ .NET Framework 4.6+ ด้วย)  
-- การอ้างอิงไปยังแพ็กเกจ NuGet `Aspose.Pdf` คุณสามารถเพิ่มได้ผ่าน:
+ติดตั้งแพ็กเกจผ่าน NuGet:
 
 ```bash
 dotnet add package Aspose.Pdf
 ```
 
-- เครื่องมือแก้ไขข้อความหรือ IDE—Visual Studio, VS Code, Rider, หรืออะไรก็ตามที่คุณชอบ
+เท่านี้—เมื่อแพ็กเกจพร้อมคุณก็พร้อมที่จะ **create pdf document**.
 
-> **Pro tip:** หากคุณใช้เครื่องของบริษัท ตรวจสอบให้แน่ใจว่า NuGet feed ไม่ถูกบล็อก; มิฉะนั้นคุณจะได้รับข้อผิดพลาด “Package not found”
+## ขั้นตอนที่ 1 – สร้างเอกสาร PDF (Initialize)
 
-## สร้างเอกสาร PDF – เริ่มต้น Document
-
-ขั้นตอนแรกคือการสร้างอ็อบเจ็กต์ `Document` คิดว่าเป็นผืนผ้าใบเปล่าที่ทุกหน้าและรูปทรงจะอยู่บนมัน
+สิ่งแรกที่เราทำคือสร้างอินสแตนซ์ของ `Document` ใหม่ คิดว่าเป็นผ้าใบเปล่าที่ทุกหน้า ภาพ หรือรูปทรงจะอยู่.
 
 ```csharp
 using Aspose.Pdf;
 using Aspose.Pdf.Drawing;
 
-// Step 1: Create a new PDF document
-Document pdfDocument = new Document();
+// Step 1: Initialize a fresh PDF document
+var pdfDocument = new Document();
 ```
 
-ทำไมเราต้องการอ็อบเจ็กต์นี้? มันเป็นตัวแทนของไฟล์ PDF ทั้งหมดในหน่วยความจำ ให้เราเข้าถึงคอลเลกชัน `Pages` เมตาดาต้า และการตั้งค่าความปลอดภัย เมื่อคุณมี Document แล้ว คุณสามารถเริ่มเพิ่มหน้า, ข้อความ, รูปภาพ, และกราฟิกเวกเตอร์ได้
+> **ทำไมเรื่องนี้สำคัญ:** `Document` คืออ็อบเจ็กต์ราก หากไม่มีคุณไม่สามารถเพิ่มหน้า หรือเนื้อหาได้ ดังนั้นขั้นตอนนี้จึงจำเป็นสำหรับ **how to create pdf** ตั้งแต่เริ่มต้น.
 
-## เพิ่มหน้าใน PDF (add page pdf)
+## ขั้นตอนที่ 2 – เพิ่มหน้า PDF
 
-PDF ที่ไม่มีหน้าเป็นไฟล์ว่างเปล่า—ไม่มีประโยชน์ การเพิ่มหน้าเป็นเรื่องง่าย และคุณสามารถปรับขนาดได้หากต้องการ ที่นี่เราใช้ขนาด A4 เริ่มต้น
+PDF ที่ไม่มีหน้าเป็นเพียงส่วนหัวของไฟล์เท่านั้น ให้เพิ่มหน้าที่เราจะวาดสี่เหลี่ยมต่อไป.
 
 ```csharp
 // Step 2: Add a new page to the document
-Page pdfPage = pdfDocument.Pages.Add();
+var pdfPage = pdfDocument.Pages.Add();
 ```
 
-เมธอด `Add()` จะคืนค่าอินสแตนซ์ `Page` ใหม่ที่เป็นส่วนหนึ่งของคอลเลกชัน `Pages` อยู่แล้ว ทำให้คุณสามารถเริ่มวาดบนมันได้ทันที ในสถานการณ์จริงคุณอาจวนลูปข้อมูลและเพิ่มหลายสิบหน้าต่อกัน; การเรียกเดียวนี้ทำงานได้ในทุกการวนลูป
+> **เคล็ดลับ:** เมธอด `Add()` จะคืนค่าอ็อบเจ็กต์ `Page` ที่สร้างใหม่ ทำให้คุณสามารถต่อเนื่องการทำงานต่อได้โดยไม่ต้องค้นหาคอลเลกชันอีกครั้ง.
 
-## วาดรูปสี่เหลี่ยม (draw rectangle pdf)
+### ตรวจสอบขนาดหน้า (ไม่บังคับ)
 
-ต่อไปเป็นส่วนของภาพ: สี่เหลี่ยมที่มีเส้นขอบมองเห็นได้ นี่คือจุดที่ **draw rectangle pdf** เข้ามาใช้งาน
+หากคุณต้องการวางรูปทรงอย่างแม่นยำ คุณอาจต้องการทราบขนาดหน้ากระดาษ:
 
 ```csharp
-// Step 3: Define a rectangle shape with a border
-RectangleShape rectangleShape = new RectangleShape
-{
-    // Rectangle coordinates: lower‑left (50,50), upper‑right (600,800)
-    Rect = new Rectangle(50, 50, 600, 800),
-    // Set the border thickness – this is the rectangle border thickness
-    Border = new BorderInfo(BorderSide.All, 2) // 2 points thick
-};
+float pageWidth = pdfPage.PageInfo.Width;   // default A4 width in points
+float pageHeight = pdfPage.PageInfo.Height; // default A4 height in points
+Console.WriteLine($"Page size: {pageWidth}×{pageHeight} points");
 ```
 
-A couple of things to note:
+โค้ดนี้ไม่จำเป็นสำหรับกระบวนการพื้นฐาน แต่จะช่วยเมื่อคุณต้อง **how to add rectangle** ด้วยพิกัดที่แม่นยำ.
 
-- `Rect` ใช้หน่วย point (1 pt ≈ 1/72 inch). พิกัดกำหนดมุมล่างซ้ายและมุมบนขวา ทำให้คุณควบคุมความกว้างและความสูงได้อย่างแม่นยำ.  
-- `BorderInfo` ให้คุณระบุว่าด้านใดบ้างที่ต้องมีเส้นและความหนาของเส้นเป็นเท่าไหร่ ที่นี่เราตั้งค่าเส้น 2 point ให้กับ **all** ด้าน ทำให้สี่เหลี่ยมดูเรียบและสม่ำเสมอ
+## ขั้นตอนที่ 3 – วาดสี่เหลี่ยม PDF (ตรวจสอบขอบเขต & แทรก)
 
-## ตรวจสอบการวางรูปทรง (add shape pdf)
-
-ก่อนที่เราจะใส่สี่เหลี่ยมลงในหน้า ควรตรวจสอบว่ามันอยู่ภายในพื้นที่พิมพ์ของหน้า Aspose.PDF มีเมธอดช่วยเหลือที่สะดวกสำหรับเรื่องนี้
+ต่อไปคือส่วนที่สนุก: การวาดสี่เหลี่ยม เราจะกำหนดสี่เหลี่ยมตรวจสอบว่ามันพอดีในหน้า แล้วเพิ่มลงในคอลเลกชัน paragraph ของหน้า.
 
 ```csharp
-// Step 4: Verify that the shape fits within the page boundaries
-if (pdfPage.IsShapeWithinBounds(rectangleShape.Rect))
+// Step 3: Define a rectangle shape (LLX, LLY, URX, URY)
+// LLX = lower‑left X, LLY = lower‑left Y, URX = upper‑right X, URY = upper‑right Y
+var rectangleShape = new Rectangle(100, 500, 300, 700);
+
+// Step 4: Verify that the rectangle lies within the page bounds
+bool isInside = rectangleShape.LLX >= 0 &&
+                rectangleShape.URX <= pdfPage.PageInfo.Width &&
+                rectangleShape.LLY >= 0 &&
+                rectangleShape.URY <= pdfPage.PageInfo.Height;
+
+if (isInside)
 {
-    // Shape is inside the page – add it
-    pdfPage.Add(rectangleShape);
+    // Step 5: Add the rectangle to the page's paragraphs collection
+    pdfPage.Paragraphs.Add(rectangleShape);
 }
 else
 {
-    Console.WriteLine("Shape exceeds page boundaries.");
+    Console.WriteLine("Rectangle exceeds page bounds – adjust coordinates.");
 }
 ```
 
-ทำไมต้องทำ? หากคุณวางรูปทรงออกมานอกหน้าจอบางส่วน ตัวดู PDF อาจตัดส่วนนั้น ทำให้ผู้ใช้สับสน เงื่อนไขป้องกัน **add shape pdf** นี้ทำให้คุณเพิ่มเนื้อหาเฉพาะที่มองเห็นได้เต็มที่
+> **ทำไมต้องตรวจสอบขอบเขต:** การพยายามวาดนอกหน้ากระดาษอาจทำให้รูปทรงไม่ปรากฏหรือเกิดคำเตือนระหว่างรัน คำสั่งเงื่อนไขทำให้เราสามารถ **draw rectangle pdf** อย่างปลอดภัย.
 
-## บันทึก PDF (add page pdf)
+### ปรับแต่งลักษณะ
 
-สุดท้าย เราจะบันทึกเอกสารในหน่วยความจำลงดิสก์ คุณสามารถเลือกตำแหน่งใดก็ได้ที่คุณมีสิทธิ์เขียน
-
-```csharp
-// Step 5: Save the PDF to a file
-pdfDocument.Save("YOUR_DIRECTORY/ShapeValidated.pdf");
-Console.WriteLine("PDF created successfully!");
-```
-
-หลังจากรันโปรแกรม เปิดไฟล์ `ShapeValidated.pdf`—คุณควรเห็นหน้าหนึ่งหน้าที่มีสี่เหลี่ยมขอบเรียบอยู่ตรงกลางโดยประมาณ
-
-## ผลลัพธ์ที่คาดหวัง
-
-เมื่อคุณเปิด PDF ที่สร้างขึ้น คุณจะเห็น:
-
-- หน้าขนาด A4 หนึ่งหน้า.  
-- สี่เหลี่ยมที่มุมล่างซ้ายเริ่มที่ (50 pt, 50 pt) และมุมบนขวาจบที่ (600 pt, 800 pt).  
-- เส้นขอบ **2‑point thick** รอบสี่เหลี่ยม
-
-หากคอนโซลแสดงข้อความ “PDF created successfully!” คุณจะรู้ว่าโค้ดทำงานสำเร็จโดยไม่ผ่านการตรวจสอบขอบเขต
-
-![แผนภาพแสดงวิธีสร้างเอกสาร PDF ด้วย Aspose.PDF](https://example.com/diagram-create-pdf.png "สร้างเอกสาร PDF – ภาพรวมเชิงภาพ")
-
-*ข้อความ alt ของรูปภาพรวมถึงคีย์เวิร์ดหลักเพื่อให้เป็นไปตามข้อกำหนด SEO*
-
-## คำถามทั่วไปและกรณีขอบ
-
-### ถ้าต้องการขนาดหน้าต่างอื่น?
-
-แทนที่หน้าดีฟอลต์ด้วยขนาดที่กำหนดเอง:
+คุณสามารถกำหนดสไตล์สี่เหลี่ยมด้วยเส้นขอบหรือสีเติม:
 
 ```csharp
-Page customPage = pdfDocument.Pages.Add();
-customPage.SetPageSize(PageSize.A5);
-```
-
-### จะเปลี่ยนสีขอบอย่างไร?
-
-```csharp
-rectangleShape.Border = new BorderInfo(BorderSide.All, 2)
+rectangleShape.GraphInfo = new GraphInfo
 {
-    Color = Color.Red
+    // Set a thin black border
+    LineWidth = 1,
+    StrokeColor = Color.Black,
+    // Optional fill (transparent by default)
+    FillColor = Color.LightGray
 };
 ```
 
-### สามารถเพิ่มหลายรูปบนหน้าเดียวได้หรือไม่?
+ลองทดลองได้เลย—สีต่าง ๆ ความกว้างของเส้น หรือแม้กระทั่งเส้นประ.
 
-ได้เลย เพียงทำซ้ำบล็อก **add shape pdf** ด้วย `RectangleShape` ใหม่ (หรือคลาสย่อย `Shape` อื่น) และปรับพิกัด `Rect` ตามต้องการ
+## ขั้นตอนที่ 4 – บันทึกเอกสาร PDF
 
-### ถ้าสี่เหลี่ยมเกินขอบหน้า จะทำอย่างไร?
-
-`IsShapeWithinBounds` จะคืนค่า `false`. ในโค้ดจริงคุณอาจต้องการปรับขนาดรูปอัตโนมัติ:
+ขั้นตอนสุดท้ายคือการบันทึกเอกสารลงดิสก์ เลือกโฟลเดอร์ที่คุณมีสิทธิ์เขียนและตั้งชื่อไฟล์ให้ชัดเจน.
 
 ```csharp
-if (!pdfPage.IsShapeWithinBounds(rectangleShape.Rect))
-{
-    // Shrink to fit
-    rectangleShape.Rect = pdfPage.PageInfo.TrimBox;
-}
-pdfPage.Add(rectangleShape);
+// Step 6: Save the PDF document to a file
+string outputPath = Path.Combine(Environment.CurrentDirectory, "ShapeChecked.pdf");
+pdfDocument.Save(outputPath);
+
+Console.WriteLine($"PDF saved successfully at: {outputPath}");
 ```
+
+เมื่อคุณเปิด `ShapeChecked.pdf` คุณควรเห็นหน้าเดียวที่มีสี่เหลี่ยมสีเทาอ่อนวางระหว่าง (100, 500) และ (300, 700) นั่นคือผลลัพธ์ของกระบวนการ **create pdf document** ของเรา.
+
+![Create PDF Document example](image.png){alt="ตัวอย่างการสร้างเอกสาร PDF แสดงสี่เหลี่ยมบนหน้า"}
+
+## ตัวอย่างทำงานเต็มรูปแบบ (พร้อมคัดลอก‑วาง)
+
+ด้านล่างเป็นโปรแกรมทั้งหมดพร้อมคอมไพล์ ไม่ขาดส่วน ไม่อ้างอิงภายนอก.
+
+```csharp
+using System;
+using System.IO;
+using Aspose.Pdf;
+using Aspose.Pdf.Drawing;
+using Aspose.Pdf.Color; // For color definitions
+
+class Program
+{
+    static void Main()
+    {
+        // 1️⃣ Create PDF document
+        var pdfDocument = new Document();
+
+        // 2️⃣ Add page PDF
+        var pdfPage = pdfDocument.Pages.Add();
+
+        // Optional: show page size
+        Console.WriteLine($"Page size: {pdfPage.PageInfo.Width}×{pdfPage.PageInfo.Height} points");
+
+        // 3️⃣ Define rectangle (draw rectangle PDF)
+        var rectangleShape = new Rectangle(100, 500, 300, 700);
+
+        // Style the rectangle (optional)
+        rectangleShape.GraphInfo = new GraphInfo
+        {
+            LineWidth = 1,
+            StrokeColor = Color.Black,
+            FillColor = Color.LightGray
+        };
+
+        // 4️⃣ Verify bounds before adding
+        bool fits = rectangleShape.LLX >= 0 &&
+                    rectangleShape.URX <= pdfPage.PageInfo.Width &&
+                    rectangleShape.LLY >= 0 &&
+                    rectangleShape.URY <= pdfPage.PageInfo.Height;
+
+        if (fits)
+        {
+            // 5️⃣ Add rectangle to the page
+            pdfPage.Paragraphs.Add(rectangleShape);
+            Console.WriteLine("Rectangle added successfully.");
+        }
+        else
+        {
+            Console.WriteLine("Rectangle is out of page bounds – adjust coordinates.");
+        }
+
+        // 6️⃣ Save the PDF
+        string outputFile = Path.Combine(Environment.CurrentDirectory, "ShapeChecked.pdf");
+        pdfDocument.Save(outputFile);
+        Console.WriteLine($"PDF saved at: {outputFile}");
+    }
+}
+```
+
+การรันโปรแกรมนี้จะสร้างไฟล์ `ShapeChecked.pdf` อยู่ใกล้กับไฟล์ executable เปิดด้วยโปรแกรมดู PDF ใดก็ได้; คุณจะเห็นสี่เหลี่ยมที่เราวาด—เป็นหลักฐานว่าคุณได้ **create pdf document**, **add page pdf**, และ **draw rectangle pdf** สำเร็จในขั้นตอนเดียว.
+
+## คำถามทั่วไป & กรณีขอบ
+
+| คำถาม | คำตอบ |
+|----------|--------|
+| *ถ้าฉันต้องการขนาดหน้าที่ต่างออกไป?* | ตั้งค่า `pdfPage.PageInfo.Width` และ `Height` ก่อนวาด, หรือสร้าง `Page` ด้วย enum `PageSize` ที่กำหนดเอง (เช่น `PageSize.Letter`). |
+| *ฉันสามารถเพิ่มสี่เหลี่ยมหลายรูปได้หรือไม่?* | แน่นอน—เพียงทำซ้ำบล็อกการสร้างสี่เหลี่ยมและเพิ่มแต่ละรูปทรงลงใน `pdfPage.Paragraphs`. |
+| *เกิดอะไรขึ้นกับ PDF ที่มีขนาดเล็กมาก?* | การตรวจสอบขอบเขตจะป้องกันพิกัดที่อยู่นอกช่วง, ดังนั้นโค้ดจะล้มเหลวอย่างสุภาพพร้อมข้อความในคอนโซล. |
+| *มีวิธีหมุนสี่เหลี่ยมหรือไม่?* | ใช้ `rectangleShape.Rotation = 45;` (องศา) ก่อนเพิ่ม. |
+| *ฉันต้องทำการ dispose `Document` หรือไม่?* | `Document` implements `IDisposable`. ในแอปจริงควรห่อไว้ในบล็อก `using` เพื่อทำความสะอาดอย่างกำหนด. |
+
+## เคล็ดลับระดับมืออาชีพ & แนวทางปฏิบัติที่ดีที่สุด
+
+- **Batch additions:** หากคุณกำลังเพิ่มรูปทรงหลายสิบรูป ให้สร้างเป็นรายการก่อน แล้วเพิ่มรายการทั้งหมดลงใน `Paragraphs`—จะลดภาระการประมวลผลภายใน.  
+- **Coordinate system:** Aspose.PDF ใช้หน่วยจุด (1 pt = 1/72 in). จำไว้ว่าให้แปลงจากพิกเซลหรือมิลลิเมตรหากข้อมูลต้นทางของคุณใช้หน่วยอื่น.  
+- **Performance:** สำหรับ PDF ขนาดใหญ่ พิจารณาเปิดใช้ `pdfDocument.Optimize()` ก่อนบันทึก; จะบีบอัดสตรีมและลดขนาดไฟล์.  
+- **Error handling:** ห่อกระบวนการทั้งหมดใน `try/catch` และบันทึก `PdfException` เพื่อการวินิจฉัยที่ดียิ่งขึ้น.  
 
 ## สรุป
 
-เราได้เดินผ่านวงจรทั้งหมดของ **creating a PDF document** ด้วย Aspose.PDF:
+ตอนนี้คุณรู้แล้วอย่างชัดเจนว่า **how to create pdf document** ด้วย Aspose.PDF, วิธี **add page pdf**, และวิธี **draw rectangle pdf** พร้อมการตรวจสอบขอบเขตอย่างปลอดภัย ตัวอย่างเต็มที่ให้ไว้ข้างต้นสามารถใส่ลงในโปรเจค .NET ใดก็ได้ ให้พื้นฐานที่มั่นคงสำหรับงาน PDF ขั้นสูงเช่นการแทรกรูปภาพ ตาราง หรือลายเซ็นดิจิทัล.
 
-1. เริ่มต้น `Document`.  
-2. **Add a page PDF** ด้วย `Pages.Add()`.  
-3. **Draw a rectangle PDF** ผ่าน `RectangleShape`.  
-4. **Add shape PDF** หลังจากยืนยันว่ามันอยู่ภายในหน้า.  
-5. ควบคุม **rectangle border thickness** ด้วย `BorderInfo`.  
-6. บันทึกไฟล์.
+พร้อมสำหรับขั้นตอนต่อไปหรือยัง? ลองเปลี่ยนสี่เหลี่ยมเป็น `Ellipse`, ทดลองกราฟิกหลายชั้น, หรือสร้างรายงานหลายหน้าด้วยการวนลูปข้อมูล หลักการเดียวกัน—initialize, add pages, draw shapes, save—ใช้ได้กับทุกสถานการณ์การสร้าง PDF.
 
-นี่คือกระบวนการทั้งหมดในโค้ดไม่เกิน 60 บรรทัด
+หากคุณเจอปัญหาหรือมีไอเดียสำหรับการปรับปรุงเพิ่มเติม อย่าลังเลที่จะคอมเมนต์ ขอให้สนุกกับการเขียนโค้ดและสร้าง PDF ที่สวยงาม!
 
-## ขั้นตอนต่อไป?
-
-- **Add text**: ใช้ `TextFragment` เพื่อวางหัวข้อหรือป้ายกำกับภายในสี่เหลี่ยม.  
-- **Insert images**: คลาส `Image` ช่วยฝังโลโก้หรือแผนภูมิ.  
-- **Create tables**: เหมาะสำหรับใบแจ้งหนี้หรือรายงานข้อมูล.  
-- **Apply security**: ป้องกัน PDF ด้วยรหัสผ่านหากมีข้อมูลที่สำคัญ.
-
-แต่ละหัวข้อเหล่านี้ต่อยอดจากพื้นฐานที่อธิบายไว้ที่นี่ ทำให้คุณพร้อมสำรวจสถานการณ์การสร้าง PDF ขั้นสูงต่อไป
-
-### อย่าหยุดทดลอง
-
-อย่าจบที่สี่เหลี่ยมเดียว—ลองเล่นกับรูปทรง สี และสไตล์เส้นที่ต่างกัน Aspose.PDF API มีความหลากหลาย ยิ่งคุณทดลองยิ่งรู้สึกสบายใจ หากเจอปัญหา เอกสารอย่างเป็นทางการของ Aspose เป็นคู่มือที่ดี แต่จำไว้ว่าโค้ดด้านบนเป็นโซลูชันที่สมบูรณ์พร้อมคัดลอก‑วางและสามารถรันได้ทันที
-
-ขอให้เขียนโค้ดอย่างสนุกสนานและ PDF ของคุณแสดงผลตรงตามที่คุณจินตนาการ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -21,7 +21,7 @@ De tutorials "Programmeren met tekst" van Aspose.PDF voor .NET bieden een uitgeb
 | --- | --- | 
 | [Verborgen tekst toevoegen en zoeken in een PDF-bestand](./add-and-search-hidden-text/) | Leer hoe u verborgen tekst in PDF-documenten kunt toevoegen en zoeken met Aspose.PDF voor .NET. Stapsgewijze handleiding met codevoorbeelden. |  
 | [Voeg een geordende HTML-lijst toe aan documenten](./add-html-ordered-list-into-documents/) | Leer hoe u geordende HTML-lijsten kunt toevoegen aan PDF-documenten met Aspose.PDF voor .NET. Ontdek stapsgewijze instructies in deze gedetailleerde tutorial. |  
-| [HTML toevoegen met behulp van DOM](./add-html-using-dom/) Leer in deze stapsgewijze tutorial hoe u HTML-inhoud toevoegt aan PDF-documenten met Aspose.PDF voor .NET. Verbeter uw PDF-bestanden eenvoudig met dynamische HTML-opmaak. |  
+| [HTML toevoegen met behulp van DOM](./add-html-using-dom/) Leer in deze stapsgewijze tutorial hoe u HTML-inhoud toevoegt aan PDF-documenten met Aspose.PDF voor .NET. Verbeter uw PDF-bestanden eenvoudig met dynamische HTML-opmaak. |
 | [HTML toevoegen met DOM en PDF Overwrite](./add-html-using-dom-and-overwrite/) | Leer hoe u HTML-inhoud aan een PDF toevoegt met Aspose.PDF voor .NET. Deze stapsgewijze handleiding behandelt alles, van de installatie tot de uiteindelijke opslag. |  
 | [Volgende regels inspringen in PDF-bestand](./add-subsequent-lines-indent/) | Leer hoe u inspringing voor volgende regels toevoegt aan PDF-bestanden met Aspose.PDF voor .NET. Volg deze gedetailleerde stapsgewijze handleiding voor professionele tekstopmaak. |  
 | [Tekstrand toevoegen in PDF-bestand](./add-text-border/) | Leer hoe u een tekstrand toevoegt aan een PDF-bestand met Aspose.PDF voor .NET met deze stapsgewijze handleiding. Verbeter uw PDF-documenten. |  
@@ -70,6 +70,7 @@ De tutorials "Programmeren met tekst" van Aspose.PDF voor .NET bieden een uitgeb
 | [Tekst en afbeelding als alinea in PDF-bestand](./text-and-image-as-paragraph/) | Maak PDF's met tekst en afbeeldingen met Aspose.PDF voor .NET. Leer stap voor stap hoe u tekst en inline afbeeldingen toevoegt. |  
 | [Tekstsegmenten in PDF-bestand](./text-segments/) | Leer hoe u met behulp van reguliere expressies in Aspose.PDF voor .NET naar specifieke tekstsegmenten in een PDF-bestand kunt zoeken. |  
 | [Latex-script gebruiken in PDF-bestand](./use-latex-script/) | Leer hoe u Latex-script kunt gebruiken om wiskundige uitdrukkingen of formules toe te voegen aan een PDF-bestand met behulp van Aspose.PDF voor .NET. |  
+| [Bates-nummers toevoegen aan PDF – Bates-nummering pdf](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Leer hoe u Bates-nummers aan PDF-documenten kunt toevoegen met Aspose.PDF voor .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

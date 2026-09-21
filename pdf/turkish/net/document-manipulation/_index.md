@@ -16,7 +16,6 @@
 Ayrıntılı Aspose.PDF .NET eğitimlerimizle PDF belge düzenlemede ustalaşın. Bu adım adım kılavuzlar, belge yapısıyla nasıl çalışılacağını, mevcut PDF'leri nasıl değiştireceğinizi, belgeleri nasıl böleceğinizi ve birleştireceğinizi, sayfalar nasıl ekleyeceğinizi ve kaldıracağınızı ve PDF içeriğinizi programatik olarak nasıl düzenleyeceğinizi gösterir. Her eğitim, temiz, sürdürülebilir kodla PDF belgelerini etkili bir şekilde düzenleyen uygulamalar oluşturmanıza yardımcı olmak için çalışan C# kod örnekleri, uygulama notları ve en iyi uygulamaları içerir.
 
 ## Mevcut Eğitimler
-
 ### [Aspose.PDF for .NET Kullanarak PDF'lere Tarih ve Saat Damgaları Ekleyin](./aspose-pdf-net-date-time-stamps-annotations/)
 Aspose.PDF for .NET kullanarak PDF belgelerinize tarih ve saat damgalarını veya açıklamaları nasıl etkili bir şekilde ekleyeceğinizi öğrenin. Bu kolay takip edilebilir adımlarla belge yönetimini geliştirin.
 
@@ -62,7 +61,7 @@ C# dilinde Aspose.PDF kullanarak PDF'lerdeki alanları verimli bir şekilde nas�
 ### [Aspose.PDF for .NET Kullanarak N-Up PDF'leri Verimli Şekilde Oluşturun: Adım Adım Kılavuz](./create-n-up-pdfs-aspose-pdf-net-guide/)
 Aspose.PDF for .NET'in N-Up özelliğiyle birden fazla PDF dosyasını nasıl birleştireceğinizi öğrenin. Belge işlemenizi kolaylaştırmak için bu kapsamlı kılavuzu izleyin.
 
-### [Aspose.PDF kullanarak .NET'te N-Up Sayfaları Oluşturma: Kapsamlı Bir Kılavuz](./create-n-up-pages-aspose-pdf-dotnet/)
+### [Aspose.PDF for .NET ile N-Up Sayfaları Oluşturma: Kapsamlı Bir Kılavuz](./create-n-up-pages-aspose-pdf-dotnet/)
 Aspose.PDF for .NET ile tek sayfalardan çok sayfalı (N-Up) PDF belgelerinin nasıl oluşturulacağını öğrenin. Belge işleme iş akışlarınızı verimli bir şekilde kolaylaştırın.
 
 ### [Aspose.PDF .NET ile N-up PDF Düzeni Oluşturun](./create-nup-pdf-layout-aspose-pdf-net/)
@@ -124,108 +123,6 @@ Aspose.PDF for .NET kullanarak PDF belgelerinize JavaScript işlevlerinin nasıl
 
 ### [.NET için Aspose.PDF Kullanarak Birden Fazla PDF Dosyasını Nasıl Eklersiniz: Adım Adım Kılavuz](./append-multiple-pdf-files-aspose-net/)
 Ayrıntılı adımlar ve kod örnekleriyle Aspose.PDF for .NET kullanarak birden fazla PDF dosyasını tek bir belgeye nasıl etkili bir şekilde ekleyeceğinizi öğrenin.
-
-### [.NET için Aspose.PDF Kullanarak PDF Dosyalarına Nasıl Eklenir: Kapsamlı Bir Kılavuz](./append-pdf-files-aspose-pdf-net-guide/)
-Bu ayrıntılı kılavuzla, C# dilinde belge iş akışlarını kolaylaştırmak için mükemmel olan Aspose.PDF for .NET'i kullanarak PDF dosyalarını etkili bir şekilde nasıl ekleyeceğinizi öğrenin.
-
-### [.NET'te Aspose.PDF Kullanarak PDF'leri Nasıl Eklersiniz: Kapsamlı Bir Kılavuz](./mastering-pdf-append-aspose-pdf-net/)
-Bu ayrıntılı kılavuzla Aspose.PDF for .NET kullanarak PDF dosyalarını nasıl verimli bir şekilde ekleyeceğinizi öğrenin. Sorunsuz iş akışları için belge düzenlemede ustalaşın.
-
-### [Aspose.PDF for .NET Kullanarak PDF Sayfa Boyutları Nasıl Değiştirilir (Adım Adım Kılavuz)](./change-pdf-page-sizes-aspose-dotnet/)
-.NET için Aspose.PDF kullanarak bir PDF'deki sayfa boyutlarını nasıl etkili bir şekilde değiştireceğinizi öğrenin. Bu adım adım kılavuz, kurulum, kullanım ve pratik uygulamaları kapsar.
-
-### [.NET için Aspose.PDF Kullanarak PDF Akışlarını Birleştirme: Eksiksiz Bir Kılavuz](./aspose-pdf-net-stream-concatenation-guide/)
-Bu kapsamlı kılavuzla Aspose.PDF for .NET kullanarak PDF akışlarını nasıl birleştireceğinizi öğrenin. Adım adım talimatları, ön koşulları ve pratik uygulamaları keşfedin.
-
-### [.NET için Aspose.PDF ile PDF'leri Birleştirme: Eksiksiz Bir Kılavuz](./concatenate-pdfs-aspose-pdf-dotnet-guide/)
-Aspose.PDF for .NET kullanarak birden fazla PDF dosyasını birleştirmeyi öğrenin. Bu kapsamlı kılavuz kurulum, uygulama ve pratik uygulamaları kapsar.
-
-### [.NET için Aspose.PDF Kullanarak Boş Sayfalı PDF'leri Birleştirme: Eksiksiz Bir Kılavuz](./concatenate-pdfs-blank-pages-aspose-pdf-net/)
-Aspose.PDF for .NET kullanarak PDF dosyalarını birleştirmeyi ve boş sayfalar eklemeyi öğrenin. Belge yönetimi iş akışınızı verimli bir şekilde kolaylaştırın.
-
-### [.NET ve Aspose.PDF Kullanarak PDF'lere Boş Sayfalar Nasıl Birleştirilir ve Eklenir](./master-net-pdf-manipulation-concatenate-insert-blank-pages-asposepdf/)
-Aspose.PDF ile C# kullanarak PDF belgelerini birleştirmeyi ve boş sayfalar eklemeyi öğrenin. Belge yönetimi iş akışlarınızı zahmetsizce kolaylaştırın.
-
-### [Aspose.PDF .NET Kullanarak PDF Sayfa Boyutunu A4'e Nasıl Dönüştürebilirsiniz | Belge İşleme Kılavuzu](./update-pdf-page-dimensions-aspose-net/)
-Aspose.PDF for .NET kullanarak PDF sayfa boyutlarını A4'e nasıl güncelleyeceğinizi öğrenin. Belgelerinizi etkili bir şekilde standartlaştırmak için bu adım adım kılavuzu izleyin.
-
-### [.NET için Aspose.PDF Kullanarak PDF'deki Sayfaları Nasıl Sayabilirsiniz (C# Eğitimi)](./mastering-aspose-pdf-net-get-page-count/)
-Bu adım adım C# eğitimiyle .NET için Aspose.PDF kullanarak bir PDF'deki sayfaların nasıl sayılacağını öğrenin. Belge düzenlemede kolayca ustalaşın.
-
-### [.NET için Aspose.PDF ile PDF'leri Özelleştirme: Sayfa Kenar Boşluklarını Ayarlama ve Çizgiler Çizme](./customize-pdfs-aspose-pdf-set-margins-draw-lines/)
-Sayfa kenar boşluklarını ayarlayarak ve çizgiler çizerek Aspose.PDF for .NET kullanarak PDF'leri nasıl özelleştireceğinizi öğrenin. Belge biçimlendirmesini geliştirmek isteyen geliştiriciler için mükemmeldir.
-
-### [Aspose.PDF .NET kullanarak PDF'den Sayfalar Nasıl Silinir: Kapsamlı Bir Kılavuz](./delete-pdf-pages-aspose-net/)
-Aspose.PDF for .NET kullanarak bir PDF belgesinden belirli sayfaları kolayca nasıl sileceğinizi öğrenin. Bu adım adım kılavuz, kurulumu, uygulamayı ve en iyi uygulamaları kapsar.
-
-### [Aspose.PDF for .NET'te Dosya Sıkıştırma Nasıl Devre Dışı Bırakılır: Adım Adım Kılavuz](./disable-file-compression-aspose-pdf-net-guide/)
-Bu kapsamlı kılavuzla Aspose.PDF for .NET kullanarak PDF'lerde dosya sıkıştırmayı nasıl devre dışı bırakacağınızı öğrenin. Belge işleme becerilerinizi bugün geliştirin.
-
-### [Aspose.PDF for .NET Kullanarak Belirli PDF Sayfalarını Nasıl Çıkarır ve Kaydedersiniz - Kapsamlı Bir Kılavuz](./extract-save-pdf-pages-aspose-net/)
-C# uygulamalarınızda Aspose.PDF for .NET kullanarak PDF'lerden belirli sayfaları verimli bir şekilde nasıl çıkaracağınızı ve kaydedeceğinizi öğrenin. Belge düzenlemede kolaylıkla ustalaşın.
-
-### [Aspose.PDF ile .NET'te Akışları Kullanarak PDF'den Sayfalar Nasıl Çıkarılır](./extract-pages-pdf-aspose-net-streams/)
-.NET'te C# ve Aspose.PDF kullanarak bir PDF dosyasından belirli sayfaları etkili bir şekilde nasıl çıkaracağınızı öğrenin. En iyi belge düzenlemesi için bu adım adım kılavuzu izleyin.
-
-### [Aspose.PDF for .NET Kullanarak PDF'lerde Gizli ve Aranabilir Metin Nasıl Uygulanır](./aspose-pdf-dotnet-hidden-text-pdfs/)
-Aspose.PDF for .NET kullanarak PDF belgelerindeki gizli metinleri nasıl yöneteceğinizi öğrenin. Bu kılavuz, metin ekleme, arama ve metin görünürlüğünü iyileştirmeyi kapsar.
-
-### [.NET için Aspose.PDF Kullanarak PDF'ye Sayfalar Nasıl Eklenir: Adım Adım Kılavuz](./insert-pages-into-pdf-aspose-net/)
-Aspose.PDF for .NET kullanarak bir PDF'den diğerine belirli sayfaları nasıl ekleyeceğinizi öğrenin. Belge düzenleme becerilerinizi geliştirmek için bu adım adım kılavuzu izleyin.
-
-### [.NET için Aspose.PDF Kullanarak Birden Fazla PDF'yi Verimli Şekilde Nasıl Birleştirirsiniz | Belge İşleme Kılavuzu](./append-multiple-pdfs-aspose-pdf-dotnet/)
-Aspose.PDF for .NET kullanarak birden fazla PDF belgesini tek bir dosyada nasıl etkili bir şekilde birleştireceğinizi öğrenin. Bu kılavuz, belge yönetimi sürecinizi kolaylaştırmak için adım adım talimatlar, kod örnekleri ve ipuçları sunar.
-
-### [.NET için Aspose.PDF Kullanarak PDF Dosyalarına Nasıl Eklenir: Kapsamlı Bir Kılavuz](./append-pdf-files-aspose-pdf-net-guide/)
-Bu ayrıntılı kılavuzla, C# dilinde belge iş akışlarını kolaylaştırmak için mükemmel olan Aspose.PDF for .NET'i kullanarak PDF dosyalarını etkili bir şekilde nasıl ekleyeceğinizi öğrenin.
-
-### [.NET'te Aspose.PDF Kullanarak PDF'leri Nasıl Eklersiniz: Kapsamlı Bir Kılavuz](./mastering-pdf-append-aspose-pdf-net/)
-Bu ayrıntılı kılavuzla Aspose.PDF for .NET kullanarak PDF dosyalarını nasıl verimli bir şekilde ekleyeceğinizi öğrenin. Sorunsuz iş akışları için belge düzenlemede ustalaşın.
-
-### [Aspose.PDF for .NET Kullanarak PDF Sayfa Boyutları Nasıl Değiştirilir (Adım Adım Kılavuz)](./change-pdf-page-sizes-aspose-dotnet/)
-.NET için Aspose.PDF kullanarak bir PDF'deki sayfa boyutlarını nasıl etkili bir şekilde değiştireceğinizi öğrenin. Bu adım adım kılavuz, kurulum, kullanım ve pratik uygulamaları kapsar.
-
-### [.NET için Aspose.PDF Kullanarak PDF Akışlarını Birleştirme: Eksiksiz Bir Kılavuz](./aspose-pdf-net-stream-concatenation-guide/)
-Bu kapsamlı kılavuzla Aspose.PDF for .NET kullanarak PDF akışlarını nasıl birleştireceğinizi öğrenin. Adım adım talimatları, ön koşulları ve pratik uygulamaları keşfedin.
-
-### [.NET için Aspose.PDF ile PDF'leri Birleştirme: Eksiksiz Bir Kılavuz](./concatenate-pdfs-aspose-pdf-dotnet-guide/)
-Aspose.PDF for .NET kullanarak birden fazla PDF dosyasını birleştirmeyi öğrenin. Bu kapsamlı kılavuz kurulum, uygulama ve pratik uygulamaları kapsar.
-
-### [.NET için Aspose.PDF Kullanarak Boş Sayfalı PDF'leri Birleştirme: Eksiksiz Bir Kılavuz](./concatenate-pdfs-blank-pages-aspose-pdf-net/)
-Aspose.PDF for .NET kullanarak PDF dosyalarını birleştirmeyi ve boş sayfalar eklemeyi öğrenin. Belge yönetimi iş akışınızı verimli bir şekilde kolaylaştırın.
-
-### [.NET ve Aspose.PDF Kullanarak PDF'lere Boş Sayfalar Nasıl Birleştirilir ve Eklenir](./master-net-pdf-manipulation-concatenate-insert-blank-pages-asposepdf/)
-Aspose.PDF ile C# kullanarak PDF belgelerini birleştirmeyi ve boş sayfalar eklemeyi öğrenin. Belge yönetimi iş akışlarınızı zahmetsizce kolaylaştırın.
-
-### [Aspose.PDF .NET Kullanarak PDF Sayfa Boyutunu A4'e Nasıl Dönüştürebilirsiniz | Belge İşleme Kılavuzu](./update-pdf-page-dimensions-aspose-net/)
-Aspose.PDF for .NET kullanarak PDF sayfa boyutlarını A4'e nasıl güncelleyeceğinizi öğrenin. Belgelerinizi etkili bir şekilde standartlaştırmak için bu adım adım kılavuzu izleyin.
-
-### [.NET için Aspose.PDF Kullanarak PDF'deki Sayfaları Nasıl Sayabilirsiniz (C# Eğitimi)](./mastering-aspose-pdf-net-get-page-count/)
-Bu adım adım C# eğitimiyle .NET için Aspose.PDF kullanarak bir PDF'deki sayfaların nasıl sayılacağını öğrenin. Belge düzenlemede kolayca ustalaşın.
-
-### [.NET için Aspose.PDF ile PDF'leri Özelleştirme: Sayfa Kenar Boşluklarını Ayarlama ve Çizgiler Çizme](./customize-pdfs-aspose-pdf-set-margins-draw-lines/)
-Sayfa kenar boşluklarını ayarlayarak ve çizgiler çizerek Aspose.PDF for .NET kullanarak PDF'leri nasıl özelleştireceğinizi öğrenin. Belge biçimlendirmesini geliştirmek isteyen geliştiriciler için mükemmeldir.
-
-### [Aspose.PDF .NET kullanarak PDF'den Sayfalar Nasıl Silinir: Kapsamlı Bir Kılavuz](./delete-pdf-pages-aspose-net/)
-Aspose.PDF for .NET kullanarak bir PDF belgesinden belirli sayfaları kolayca nasıl sileceğinizi öğrenin. Bu adım adım kılavuz, kurulumu, uygulamayı ve en iyi uygulamaları kapsar.
-
-### [Aspose.PDF for .NET'te Dosya Sıkıştırma Nasıl Devre Dışı Bırakılır: Adım Adım Kılavuz](./disable-file-compression-aspose-pdf-net-guide/)
-Bu kapsamlı kılavuzla Aspose.PDF for .NET kullanarak PDF'lerde dosya sıkıştırmayı nasıl devre dışı bırakacağınızı öğrenin. Belge işleme becerilerinizi bugün geliştirin.
-
-### [Aspose.PDF for .NET Kullanarak Belirli PDF Sayfalarını Nasıl Çıkarır ve Kaydedersiniz - Kapsamlı Bir Kılavuz](./extract-save-pdf-pages-aspose-net/)
-C# uygulamalarınızda Aspose.PDF for .NET kullanarak PDF'lerden belirli sayfaları verimli bir şekilde nasıl çıkaracağınızı ve kaydedeceğinizi öğrenin. Belge düzenlemede kolaylıkla ustalaşın.
-
-### [Aspose.PDF ile .NET'te Akışları Kullanarak PDF'den Sayfalar Nasıl Çıkarılır](./extract-pages-pdf-aspose-net-streams/)
-.NET'te C# ve Aspose.PDF kullanarak bir PDF dosyasından belirli sayfaları etkili bir şekilde nasıl çıkaracağınızı öğrenin. En iyi belge düzenlemesi için bu adım adım kılavuzu izleyin.
-
-### [Aspose.PDF for .NET Kullanarak PDF'lerde Gizli ve Aranabilir Metin Nasıl Uygulanır](./aspose-pdf-dotnet-hidden-text-pdfs/)
-Aspose.PDF for .NET kullanarak PDF belgelerindeki gizli metinleri nasıl yöneteceğinizi öğrenin. Bu kılavuz, metin ekleme, arama ve metin görünürlüğünü iyileştirmeyi kapsar.
-
-### [.NET için Aspose.PDF Kullanarak PDF'ye Sayfalar Nasıl Eklenir: Adım Adım Kılavuz](./insert-pages-into-pdf-aspose-net/)
-Aspose.PDF for .NET kullanarak bir PDF'den diğerine belirli sayfaları nasıl ekleyeceğinizi öğrenin. Belge düzenleme becerilerinizi geliştirmek için bu adım adım kılavuzu izleyin.
-
-### [.NET için Aspose.PDF Kullanarak Birden Fazla PDF'yi Verimli Şekilde Nasıl Birleştirirsiniz | Belge İşleme Kılavuzu](./append-multiple-pdfs-aspose-pdf-dotnet/)
-Aspose.PDF for .NET kullanarak birden fazla PDF belgesini tek bir dosyada nasıl etkili bir şekilde birleştireceğinizi öğrenin. Bu kılavuz, belge yönetimi sürecinizi kolaylaştırmak için adım adım talimatlar, kod örnekleri ve ipuçları sunar.
 
 ### [.NET için Aspose.PDF Kullanarak PDF Dosyalarına Nasıl Eklenir: Kapsamlı Bir Kılavuz](./append-pdf-files-aspose-pdf-net-guide/)
 Bu ayrıntılı kılavuzla, C# dilinde belge iş akışlarını kolaylaştırmak için mükemmel olan Aspose.PDF for .NET'i kullanarak PDF dosyalarını etkili bir şekilde nasıl ekleyeceğinizi öğrenin.
@@ -414,6 +311,12 @@ Aspose.PDF for .NET kullanarak PDF sayfalarını ayrı dosyalara nasıl bölece�
 
 ### [C# ile Aspose PDF Kullanarak PDF Kırpma – Tam Kılavuz](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
 Aspose PDF for .NET ile C# kullanarak PDF belgelerindeki hassas bilgileri güvenli bir şekilde kırpmayı adım adım öğrenin.
+
+### [C# ile PDF Kırpma – Metin Gizleme ve İçerik Kaldırma](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
+C# ve Aspose.PDF for .NET kullanarak PDF belgelerindeki hassas metinleri gizlemeyi ve istenmeyen içerikleri kaldırmayı öğrenin.
+
+### [C# ile PDF Onarma – Bozuk PDF Dosyalarını Hızlıca Düzeltin](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
+Aspose.PDF for .NET kullanarak bozuk PDF dosyalarını hızlı ve güvenli bir şekilde onarmayı öğrenin.
 
 ## Ek Kaynaklar
 

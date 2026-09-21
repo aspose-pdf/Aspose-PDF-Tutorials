@@ -1,22 +1,22 @@
 ---
 category: general
-date: 2026-03-06
-description: 使用 C# 及 Aspose.PDF 建立 PDF 文件。學習如何新增 PDF 頁面、繪製 PDF 矩形、加入 PDF 形狀，以及控制矩形邊框粗細——一次完整教學。
+date: 2026-01-10
+description: 使用 C# 及 Aspose.PDF 建立 PDF 文件。於本完整教學中學習如何新增 PDF 頁面、繪製矩形 PDF 以及更多技巧。
 draft: false
 keywords:
 - create pdf document
 - add page pdf
 - draw rectangle pdf
-- add shape pdf
-- rectangle border thickness
+- how to create pdf
+- how to add rectangle
 language: zh-hant
-og_description: 使用 C# 與 Aspose.PDF 建立 PDF 文件。本教學示範如何新增 PDF 頁面、繪製 PDF 矩形、加入 PDF 形狀，以及設定矩形邊框粗細。
+og_description: 使用 Aspose.PDF 在 C# 中建立 PDF 文件。請參考本教學以新增 PDF 頁面、繪製矩形 PDF，並完成 PDF 的完整建立。
 og_title: 使用 Aspose.PDF 建立 PDF 文件 – 完整指南
 tags:
 - Aspose.PDF
 - C#
 - PDF generation
-title: 使用 Aspose.PDF 建立 PDF 文件 – 步驟教學
+title: 使用 Aspose.PDF 建立 PDF 文件 – 步驟指南
 url: /zh-hant/net/document-creation/create-pdf-document-with-aspose-pdf-step-by-step-guide/
 ---
 
@@ -24,212 +24,224 @@ url: /zh-hant/net/document-creation/create-pdf-document-with-aspose-pdf-step-by-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 使用 Aspose.PDF 建立 PDF 文件 – 步驟教學指南
+# 使用 Aspose.PDF 建立 PDF 文件 – 步驟說明指南
 
-是否曾需要以程式方式 **建立 PDF 文件**，卻不知從何著手？您並不孤單——許多開發人員在應用程式需要即時產生發票、報告或證書時，都會碰到同樣的難題。
+曾經需要以程式方式 **create PDF document**，卻不知從何開始嗎？您並非唯一遇到此問題的開發者——全球的開發者在自動化報告、發票或證書時都會碰到這個障礙。好消息是？使用 Aspose.PDF for .NET，您只需幾行 C# 程式碼即可產生 PDF。
 
-好消息是，使用 Aspose.PDF for .NET 您只需幾行程式碼即可完成，同時還能學會如何 **add page PDF**、**draw rectangle PDF**、**add shape PDF**，以及調整 **rectangle border thickness**。現在就讓我們開始吧。
+在本教學中，我們將逐步說明整個流程：從初始化文件、**add page PDF**、**draw rectangle PDF**，最後儲存檔案。完成後，您將擁有一個可執行的完整範例，並能自信地了解 **how to create pdf** 的方法。
 
-## 您將建立的內容
+## 本指南涵蓋內容
 
-完成本指南後，您將擁有一個完整功能的 C# 主控台應用程式，能夠：
+- 撰寫程式碼前所需的前置條件  
+- 步驟式建立 PDF 文件  
+- 為文件新增頁面（經典的 **add page pdf** 操作）  
+- 繪製矩形形狀、驗證其邊界並插入（即 “**draw rectangle pdf**” 部分）  
+- 常見陷阱與提升 PDF 產生穩定性的專業技巧  
+- 完整、可直接複製貼上的程式碼範例，您可立即執行  
 
-1. **Creates a PDF document** 從頭開始建立。  
-2. **Adds a page PDF** 加入文件中。  
-3. **Draws a rectangle PDF** 在該頁面上繪製。  
-4. **Validates** 確認矩形保持在頁面範圍內（**add shape PDF** 步驟）。  
-5. 設定自訂的 **rectangle border thickness**。  
-6. 將結果儲存為 `ShapeValidated.pdf`。
+沒有外部參考、沒有遺漏的部份——僅提供一個自足的解決方案，您可以引用或分享。
 
-不需要外部服務，也不需神祕的設定——只要純粹的 C# 與 Aspose.PDF 即可。
+## 前置條件
 
-### 前置條件
+| 需求 | 重要原因 |
+|------|----------|
+| .NET 6.0 或更新版本（或 .NET Framework 4.6+） | Aspose.PDF 同時支援兩者；較新的執行環境可提供更佳效能。 |
+| Aspose.PDF for .NET NuGet 套件 (`Aspose.Pdf`) | 此函式庫提供我們將使用的 `Document`、`Page` 與繪圖類別。 |
+| C# IDE（Visual Studio、Rider、VS Code） | 讓編譯與除錯變得更簡單。 |
+| 對輸出資料夾的寫入權限 | 於最後的 `Save` 呼叫時必須。 |
 
-- .NET 6.0 或更新版本（此程式碼亦相容於 .NET Framework 4.6+）。  
-- `Aspose.Pdf` NuGet 套件的參考。您可以透過以下方式加入：
+安裝套件透過 NuGet：
 
 ```bash
 dotnet add package Aspose.Pdf
 ```
 
-- 文字編輯器或 IDE——Visual Studio、VS Code、Rider，或您偏好的其他工具。
+就這樣——套件安裝完成後，您即可開始 **create pdf document**。
 
-> **Pro tip:** 若您使用公司電腦，請確認 NuGet feed 未被封鎖；否則會出現 “Package not found” 錯誤。
+## 步驟 1 – 建立 PDF 文件（初始化）
 
----
-
-## 建立 PDF 文件 – 初始化 Document
-
-第一步是建立一個 `Document` 物件。可將其視為所有頁面與圖形的空白畫布。
+我們首先要做的是實例化一個新的 `Document`。可將其視為空白畫布，所有頁面、影像或形狀都會在此上呈現。
 
 ```csharp
 using Aspose.Pdf;
 using Aspose.Pdf.Drawing;
 
-// Step 1: Create a new PDF document
-Document pdfDocument = new Document();
+// Step 1: Initialize a fresh PDF document
+var pdfDocument = new Document();
 ```
 
-為什麼需要這個物件？它在記憶體中代表整個 PDF 檔案，讓我們可以存取 `Pages` 集合、metadata 與安全設定。取得 Document 後，即可開始堆疊頁面、文字、影像與向量圖形。
+> **為何重要：** `Document` 為根物件。若沒有它，就無法新增頁面或內容，因此此步驟對於從頭 **how to create pdf** 至關重要。
 
----
+## 步驟 2 – 新增 PDF 頁面
 
-## 為 PDF 新增頁面 (add page pdf)
-
-沒有頁面的 PDF 基本上就是空檔——毫無意義。新增頁面相當簡單，且可自行調整尺寸。此處我們使用預設的 A4 大小。
+沒有頁面的 PDF 只不過是檔案標頭。讓我們新增一個頁面，之後將在此頁面上繪製矩形。
 
 ```csharp
 // Step 2: Add a new page to the document
-Page pdfPage = pdfDocument.Pages.Add();
+var pdfPage = pdfDocument.Pages.Add();
 ```
 
-`Add()` 方法會回傳一個全新的 `Page` 實例，已自動加入 `Pages` 集合，您即可立即在其上繪圖。在實務上，您可能會對資料集迴圈，新增數十頁；同樣的單行呼叫即可於每次迭代使用。
+> **專業提示：** `Add()` 方法會回傳新建立的 `Page` 物件，您可以直接串接後續操作，而無需再次搜尋集合。
 
----
+### 驗證頁面尺寸（可選）
 
-## 繪製矩形圖形 (draw rectangle pdf)
-
-現在進入視覺部分：繪製帶有可見邊框的矩形。這正是 **draw rectangle pdf** 發揮作用的地方。
+如果您需要精確放置形狀，可能需要了解頁面的尺寸：
 
 ```csharp
-// Step 3: Define a rectangle shape with a border
-RectangleShape rectangleShape = new RectangleShape
-{
-    // Rectangle coordinates: lower‑left (50,50), upper‑right (600,800)
-    Rect = new Rectangle(50, 50, 600, 800),
-    // Set the border thickness – this is the rectangle border thickness
-    Border = new BorderInfo(BorderSide.All, 2) // 2 points thick
-};
+float pageWidth = pdfPage.PageInfo.Width;   // default A4 width in points
+float pageHeight = pdfPage.PageInfo.Height; // default A4 height in points
+Console.WriteLine($"Page size: {pageWidth}×{pageHeight} points");
 ```
 
-需要注意的幾點：
+此程式碼片段對於基本流程不是必須的，但在您以精確座標 **how to add rectangle** 時會很有幫助。
 
-- `Rect` 使用點 (1 pt ≈ 1/72 英吋)。座標定義左下角與右上角，可精確控制寬度與高度。  
-- `BorderInfo` 允許指定哪些邊要畫線以及線條粗細。此處我們對 **all** 邊套用 2 點的線寬，使矩形呈現乾淨且一致的外觀。
+## 步驟 3 – 繪製矩形 PDF（檢查邊界並插入）
 
----
-
-## 驗證圖形位置 (add shape pdf)
-
-在將矩形寫入頁面之前，先確認它位於頁面的可列印區域內是明智的做法。Aspose.PDF 提供了便利的輔助方法來完成此檢查。
+現在進入有趣的部分：繪製矩形。我們將定義一個矩形，驗證其是否適合頁面內，然後將其加入頁面的段落集合中。
 
 ```csharp
-// Step 4: Verify that the shape fits within the page boundaries
-if (pdfPage.IsShapeWithinBounds(rectangleShape.Rect))
+// Step 3: Define a rectangle shape (LLX, LLY, URX, URY)
+// LLX = lower‑left X, LLY = lower‑left Y, URX = upper‑right X, URY = upper‑right Y
+var rectangleShape = new Rectangle(100, 500, 300, 700);
+
+// Step 4: Verify that the rectangle lies within the page bounds
+bool isInside = rectangleShape.LLX >= 0 &&
+                rectangleShape.URX <= pdfPage.PageInfo.Width &&
+                rectangleShape.LLY >= 0 &&
+                rectangleShape.URY <= pdfPage.PageInfo.Height;
+
+if (isInside)
 {
-    // Shape is inside the page – add it
-    pdfPage.Add(rectangleShape);
+    // Step 5: Add the rectangle to the page's paragraphs collection
+    pdfPage.Paragraphs.Add(rectangleShape);
 }
 else
 {
-    Console.WriteLine("Shape exceeds page boundaries.");
+    Console.WriteLine("Rectangle exceeds page bounds – adjust coordinates.");
 }
 ```
 
-為什麼要這樣做？若不小心將圖形部分放在畫面外，PDF 閱讀器可能會裁切，造成使用者困惑。此 **add shape pdf** 防護條件確保僅加入完整可見的內容。
+> **為何檢查邊界：** 嘗試在頁面外繪製會導致形狀不可見或產生執行時警告。此條件式確保我們安全地 **draw rectangle pdf**。
 
----
+### 自訂外觀
 
-## 儲存 PDF (add page pdf)
-
-最後，我們將記憶體中的文件寫入磁碟。您可以選擇任何具有寫入權限的路徑。
+您可以為矩形設定邊框或填色：
 
 ```csharp
-// Step 5: Save the PDF to a file
-pdfDocument.Save("YOUR_DIRECTORY/ShapeValidated.pdf");
-Console.WriteLine("PDF created successfully!");
-```
-
-執行程式後，開啟 `ShapeValidated.pdf`——您應該會看到單一頁面，中央大致置中的矩形擁有整齊的邊框。
-
----
-
-## 預期結果
-
-當您開啟產生的 PDF 時，會看到：
-
-- 一頁 A4 大小的頁面。  
-- 一個矩形，其左下角座標為 (50 pt, 50 pt)，右上角座標為 (600 pt, 800 pt)。  
-- 一條 **2‑point thick** 的邊框圍繞矩形。
-
-若主控台顯示 “PDF created successfully!” 訊息，即代表程式碼順利執行且未觸發邊界檢查。
-
-![說明如何使用 Aspose.PDF 建立 PDF 文件的圖示](https://example.com/diagram-create-pdf.png "建立 PDF 文件 – 視覺概覽")
-
-*圖片的 alt 文字包含主要關鍵字，以符合 SEO 要求。*
-
----
-
-## 常見問題與邊緣情況
-
-### 如果需要不同的頁面尺寸？
-
-將預設頁面替換為自訂尺寸：
-
-```csharp
-Page customPage = pdfDocument.Pages.Add();
-customPage.SetPageSize(PageSize.A5);
-```
-
-### 如何變更邊框顏色？
-
-```csharp
-rectangleShape.Border = new BorderInfo(BorderSide.All, 2)
+rectangleShape.GraphInfo = new GraphInfo
 {
-    Color = Color.Red
+    // Set a thin black border
+    LineWidth = 1,
+    StrokeColor = Color.Black,
+    // Optional fill (transparent by default)
+    FillColor = Color.LightGray
 };
 ```
 
-### 可以在同一頁面上加入多個圖形嗎？
+盡情嘗試——不同的顏色、線寬，甚至虛線樣式。
 
-當然可以。只要使用新的 `RectangleShape`（或其他 `Shape` 子類別）重複 **add shape pdf** 區塊，並相應調整 `Rect` 座標即可。
+## 步驟 4 – 儲存 PDF 文件
 
-### 如果矩形超出頁面範圍會怎樣？
-
-`IsShapeWithinBounds` 呼叫會回傳 `false`。在正式環境的程式碼中，您可能想自動調整圖形大小：
+最後一步是將文件寫入磁碟。選擇您具有寫入權限的資料夾，並為檔案命名清晰。
 
 ```csharp
-if (!pdfPage.IsShapeWithinBounds(rectangleShape.Rect))
-{
-    // Shrink to fit
-    rectangleShape.Rect = pdfPage.PageInfo.TrimBox;
-}
-pdfPage.Add(rectangleShape);
+// Step 6: Save the PDF document to a file
+string outputPath = Path.Combine(Environment.CurrentDirectory, "ShapeChecked.pdf");
+pdfDocument.Save(outputPath);
+
+Console.WriteLine($"PDF saved successfully at: {outputPath}");
 ```
 
----
+當您開啟 `ShapeChecked.pdf` 時，應會看到單一頁面，內有一個淡灰色矩形，位置介於 (100, 500) 與 (300, 700) 之間。這就是我們的 **create pdf document** 工作流程的結果。
 
-## 重點回顧
+![Create PDF Document example](image.png){alt="顯示頁面上矩形的建立 PDF 文件範例"}
 
-我們已完整說明使用 Aspose.PDF **creating a PDF document** 的全流程：
+## 完整可執行範例（直接複製貼上）
 
-1. 初始化 `Document`。  
-2. **Add a page PDF** 使用 `Pages.Add()`。  
-3. **Draw a rectangle PDF** 透過 `RectangleShape`。  
-4. **Add shape PDF** 僅在確認圖形位於頁面內部後執行。  
-5. 使用 `BorderInfo` 控制 **rectangle border thickness**。  
-6. 儲存檔案。
+以下為完整程式碼，可直接編譯。沒有遺漏的部份，也沒有外部參考。
 
-整個工作流程不到 60 行程式碼即可完成。
+```csharp
+using System;
+using System.IO;
+using Aspose.Pdf;
+using Aspose.Pdf.Drawing;
+using Aspose.Pdf.Color; // For color definitions
 
----
+class Program
+{
+    static void Main()
+    {
+        // 1️⃣ Create PDF document
+        var pdfDocument = new Document();
 
-## 接下來可以做什麼？
+        // 2️⃣ Add page PDF
+        var pdfPage = pdfDocument.Pages.Add();
 
-- **Add text**：使用 `TextFragment` 在矩形內放置標題或標籤。  
-- **Insert images**：`Image` 類別可嵌入商標或圖表。  
-- **Create tables**：適用於發票或資料報告。  
-- **Apply security**：若 PDF 含有機密資料，可設定密碼保護。
+        // Optional: show page size
+        Console.WriteLine($"Page size: {pdfPage.PageInfo.Width}×{pdfPage.PageInfo.Height} points");
 
-上述主題皆以本章所述基礎為出發點，讓您能順利探索更進階的 PDF 產生情境。
+        // 3️⃣ Define rectangle (draw rectangle PDF)
+        var rectangleShape = new Rectangle(100, 500, 300, 700);
 
----
+        // Style the rectangle (optional)
+        rectangleShape.GraphInfo = new GraphInfo
+        {
+            LineWidth = 1,
+            StrokeColor = Color.Black,
+            FillColor = Color.LightGray
+        };
 
-### 持續實驗
+        // 4️⃣ Verify bounds before adding
+        bool fits = rectangleShape.LLX >= 0 &&
+                    rectangleShape.URX <= pdfPage.PageInfo.Width &&
+                    rectangleShape.LLY >= 0 &&
+                    rectangleShape.URY <= pdfPage.PageInfo.Height;
 
-不要只停留在單一矩形——嘗試不同的圖形、顏色與線條樣式。Aspose.PDF API 功能豐富，您玩得越多就會越得心應手。若遇到問題，官方 Aspose 文件是可靠的參考，但請記得上方的程式碼已完整、可直接複製貼上執行。
+        if (fits)
+        {
+            // 5️⃣ Add rectangle to the page
+            pdfPage.Paragraphs.Add(rectangleShape);
+            Console.WriteLine("Rectangle added successfully.");
+        }
+        else
+        {
+            Console.WriteLine("Rectangle is out of page bounds – adjust coordinates.");
+        }
 
-祝開發順利，願您的 PDF 總是如您所想完美呈現！
+        // 6️⃣ Save the PDF
+        string outputFile = Path.Combine(Environment.CurrentDirectory, "ShapeChecked.pdf");
+        pdfDocument.Save(outputFile);
+        Console.WriteLine($"PDF saved at: {outputFile}");
+    }
+}
+```
+
+執行此程式會在可執行檔旁產生 `ShapeChecked.pdf` 檔案。使用任何 PDF 檢視器開啟，即可看到我們繪製的矩形——證明您已成功 **create pdf document**、**add page pdf** 與 **draw rectangle pdf**，一次完成。
+
+## 常見問題與邊緣情況
+
+| 問題 | 答案 |
+|------|------|
+| *如果需要不同的頁面尺寸？* | 在繪製之前設定 `pdfPage.PageInfo.Width` 與 `Height`，或使用自訂的 `PageSize` 列舉建立 `Page`（例如 `PageSize.Letter`）。 |
+| *可以新增多個矩形嗎？* | 當然可以——只要重複矩形建立區塊，並將每個形狀加入 `pdfPage.Paragraphs`。 |
+| *在非常小的 PDF 會發生什麼？* | 邊界檢查會防止超出範圍的座標，因此程式會以控制台訊息優雅失敗。 |
+| *有辦法旋轉矩形嗎？* | 在加入之前使用 `rectangleShape.Rotation = 45;`（度數）設定。 |
+| *需要釋放 `Document` 嗎？* | `Document` 實作 `IDisposable`。在實務應用中，建議以 `using` 區塊包住以確保即時清理。 |
+
+## 專業技巧與最佳實踐
+
+- **批次新增：** 若一次要加入數十個形狀，先將它們建立於清單中，然後一次將整個清單加入 `Paragraphs`——可減少內部處理開銷。  
+- **座標系統：** Aspose.PDF 使用點 (1 pt = 1/72 in)。若來源資料使用像素或毫米，請記得先轉換單位。  
+- **效能：** 對於大型 PDF，考慮在儲存前啟用 `pdfDocument.Optimize()`；它會壓縮串流並減少檔案大小。  
+- **錯誤處理：** 將整個流程包在 `try/catch` 中，並記錄 `PdfException` 以利診斷。  
+
+## 結論
+
+您現在已完全了解如何使用 Aspose.PDF **how to create pdf document**、**add page pdf**，以及在安全檢查邊界的前提下 **draw rectangle pdf**。上述完整範例可直接嵌入任何 .NET 專案，為插入影像、表格或數位簽章等進階 PDF 任務奠定堅實基礎。
+
+準備好進一步了嗎？嘗試將矩形換成 `Ellipse`、實驗圖層圖形，或透過迴圈資料列產生多頁報告。相同的原則——初始化、加入頁面、繪製圖形、儲存——適用於所有 PDF 產生情境。
+
+如果您遇到問題或有進一步的改進想法，歡迎留下評論。祝開發愉快，盡情打造精美的 PDF！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

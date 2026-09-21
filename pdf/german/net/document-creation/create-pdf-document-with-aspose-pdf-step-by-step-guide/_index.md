@@ -1,21 +1,21 @@
 ---
 category: general
-date: 2026-03-06
+date: 2026-01-10
 description: Erstellen Sie ein PDF-Dokument mit Aspose.PDF in C#. Erfahren Sie, wie
-  Sie einer PDF-Seite hinzufügen, ein Rechteck zeichnen, eine Form einfügen und die
-  Rahmenstärke des Rechtecks steuern – alles in einem Tutorial.
+  Sie einer PDF-Seite hinzufügen, ein Rechteck in einer PDF zeichnen und vieles mehr
+  in diesem umfassenden Tutorial.
 draft: false
 keywords:
 - create pdf document
 - add page pdf
 - draw rectangle pdf
-- add shape pdf
-- rectangle border thickness
+- how to create pdf
+- how to add rectangle
 language: de
-og_description: PDF-Dokument in C# mit Aspose.PDF erstellen. Dieses Tutorial zeigt,
-  wie man eine PDF‑Seite hinzufügt, ein Rechteck zeichnet, eine Form einfügt und die
-  Rahmenstärke des Rechtecks festlegt.
-og_title: PDF-Dokument mit Aspose.PDF erstellen – Vollständige Anleitung
+og_description: Erstellen Sie ein PDF-Dokument mit Aspose.PDF in C#. Folgen Sie diesem
+  Tutorial, um eine PDF-Seite hinzuzufügen, ein Rechteck zu zeichnen und die PDF-Erstellung
+  zu meistern.
+og_title: PDF-Dokument mit Aspose.PDF erstellen – Komplettanleitung
 tags:
 - Aspose.PDF
 - C#
@@ -28,210 +28,224 @@ url: /de/net/document-creation/create-pdf-document-with-aspose-pdf-step-by-step-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# PDF-Dokument mit Aspose.PDF erstellen – Schritt‑für‑Schritt-Anleitung
+# PDF-Dokument mit Aspose.PDF – Schritt‑für‑Schritt‑Anleitung
 
-Haben Sie jemals **PDF-Dokument** programmgesteuert erstellen müssen und wussten nicht, wo Sie anfangen sollten? Sie sind nicht allein – viele Entwickler stoßen auf dasselbe Problem, wenn ihre Apps Rechnungen, Berichte oder Zertifikate on‑the‑fly ausgeben müssen.  
+Haben Sie jemals **create PDF document** programmatisch benötigt und wussten nicht, wo Sie anfangen sollen? Sie sind nicht allein – Entwickler weltweit stoßen auf dieses Hindernis, wenn sie Berichte, Rechnungen oder Zertifikate automatisieren wollen. Die gute Nachricht? Mit Aspose.PDF für .NET können Sie ein PDF mit nur wenigen Zeilen C# erzeugen.
 
-Die gute Nachricht ist, dass Sie mit Aspose.PDF für .NET das in wenigen Zeilen erledigen können und Sie außerdem lernen, wie man **add page PDF**, **draw rectangle PDF**, **add shape PDF** verwendet und die **rectangle border thickness** anpasst. Lassen Sie uns loslegen.
+In diesem Tutorial führen wir Sie durch den gesamten Prozess: von der Initialisierung des Dokuments über **add page PDF**, bis zum **draw rectangle PDF**, und schließlich dem Speichern der Datei. Am Ende haben Sie ein solides, ausführbares Beispiel und ein klares Verständnis dafür, **how to create pdf** mit Zuversicht.
 
-## Was Sie bauen werden
+## Was dieser Leitfaden abdeckt
 
-Am Ende dieser Anleitung haben Sie eine voll funktionsfähige C#‑Konsolenanwendung, die:
+- Voraussetzungen, die Sie benötigen, bevor Sie Code schreiben  
+- Schritt‑für‑Schritt‑Erstellung eines PDF-Dokuments  
+- Hinzufügen einer neuen Seite zu diesem Dokument (die klassische **add page pdf**-Operation)  
+- Zeichnen einer Rechteckform, Überprüfen ihrer Grenzen und Einfügen (der „**draw rectangle pdf**“-Teil)  
+- Häufige Fallstricke und Profi‑Tipps für robuste PDF-Erstellung  
+- Ein vollständiges, copy‑and‑paste‑bereites Code‑Beispiel, das Sie heute ausführen können  
 
-1. **Erstellt ein PDF‑Dokument** von Grund auf.  
-2. **Fügt ein page PDF** zum Dokument hinzu.  
-3. **Zeichnet ein rectangle PDF** auf dieser Seite.  
-4. **Validiert**, dass das Rechteck innerhalb der Seitenränder bleibt (**add shape PDF**‑Schritt).  
-5. Setzt eine benutzerdefinierte **rectangle border thickness**.  
-6. Speichert das Ergebnis als `ShapeValidated.pdf`.
+Keine externen Referenzen, keine fehlenden Teile – nur eine eigenständige Lösung, die Sie zitieren oder teilen können.
 
-Keine externen Dienste, keine mysteriöse Konfiguration – nur reines C# und Aspose.PDF.
+## Voraussetzungen
 
-### Voraussetzungen
+| Anforderung | Warum es wichtig ist |
+|-------------|----------------------|
+| .NET 6.0 oder höher (oder .NET Framework 4.6+) | Aspose.PDF unterstützt beides; neuere Laufzeiten bieten bessere Leistung. |
+| Aspose.PDF für .NET NuGet-Paket (`Aspose.Pdf`) | Die Bibliothek stellt die Klassen `Document`, `Page` und Zeichenklassen bereit, die wir verwenden werden. |
+| Eine C# IDE (Visual Studio, Rider, VS Code) | Erleichtert das Kompilieren und Debuggen. |
+| Schreibberechtigung für den Ausgabordner | Wird für den abschließenden `Save`-Aufruf benötigt. |
 
-- .NET 6.0 oder höher (der Code funktioniert auch mit .NET Framework 4.6+).  
-- Ein Verweis auf das NuGet‑Paket `Aspose.Pdf`. Sie können es hinzufügen via:
+Installieren Sie das Paket über NuGet:
 
 ```bash
 dotnet add package Aspose.Pdf
 ```
 
-- Ein Texteditor oder eine IDE – Visual Studio, VS Code, Rider, was immer Sie bevorzugen.
+Das war's – sobald das Paket installiert ist, können Sie **create pdf document**.
 
-> **Pro‑Tipp:** Wenn Sie an einem Firmencomputer arbeiten, stellen Sie sicher, dass der NuGet‑Feed nicht blockiert ist; andernfalls erhalten Sie einen „Package not found“-Fehler.
+## Schritt 1 – PDF-Dokument erstellen (Initialisieren)
 
----
-
-## PDF-Dokument erstellen – Dokument initialisieren
-
-Der allererste Schritt besteht darin, ein `Document`‑Objekt zu erzeugen. Denken Sie daran als leere Leinwand, auf der jede Seite und jede Form leben wird.
+Das Erste, was wir tun, ist ein neues `Document` zu instanziieren. Betrachten Sie dies als die leere Leinwand, auf der jede Seite, jedes Bild oder jede Form lebt.
 
 ```csharp
 using Aspose.Pdf;
 using Aspose.Pdf.Drawing;
 
-// Step 1: Create a new PDF document
-Document pdfDocument = new Document();
+// Step 1: Initialize a fresh PDF document
+var pdfDocument = new Document();
 ```
 
-Warum benötigen wir dieses Objekt? Es repräsentiert die gesamte PDF‑Datei im Speicher und gibt uns Zugriff auf die `Pages`‑Sammlung, Metadaten und Sicherheitseinstellungen. Sobald Sie das Dokument haben, können Sie beginnen, Seiten, Text, Bilder und Vektorgrafiken zu stapeln.
+> **Warum das wichtig ist:** `Document` ist das Root‑Objekt. Ohne es können Sie keine Seiten oder Inhalte hinzufügen, daher ist dieser Schritt essentiell für **how to create pdf** von Grund auf.
 
----
+## Schritt 2 – Seite zum PDF hinzufügen
 
-## Eine Seite zum PDF hinzufügen (add page pdf)
-
-Ein PDF ohne Seiten ist im Grunde eine leere Datei – sinnlos. Das Hinzufügen einer Seite ist unkompliziert, und Sie können die Größe bei Bedarf anpassen. Hier verwenden wir die Standardgröße A4.
+Ein PDF ohne Seiten ist nichts weiter als ein Dateikopf. Lassen Sie uns eine Seite hinzufügen, auf der wir später unser Rechteck zeichnen werden.
 
 ```csharp
 // Step 2: Add a new page to the document
-Page pdfPage = pdfDocument.Pages.Add();
+var pdfPage = pdfDocument.Pages.Add();
 ```
 
-Die Methode `Add()` gibt eine neue `Page`‑Instanz zurück, die bereits Teil der `Pages`‑Sammlung ist, sodass Sie sofort mit dem Zeichnen beginnen können. In realen Szenarien könnten Sie über einen Datensatz iterieren und Dutzende von Seiten hinzufügen; derselbe einzeilige Aufruf funktioniert für jede Iteration.
+> **Pro‑Tipp:** Die Methode `Add()` gibt das neu erstellte `Page`‑Objekt zurück, sodass Sie weitere Aktionen anketten können, ohne die Sammlung erneut durchsuchen zu müssen.
 
----
+### Überprüfen der Seitenabmessungen (Optional)
 
-## Ein Rechteck zeichnen (draw rectangle pdf)
-
-Jetzt zum visuellen Teil: ein Rechteck mit sichtbarem Rand. Hier kommt **draw rectangle pdf** zum Einsatz.
+Wenn Sie Formen präzise platzieren möchten, sollten Sie die Seitengröße kennen:
 
 ```csharp
-// Step 3: Define a rectangle shape with a border
-RectangleShape rectangleShape = new RectangleShape
-{
-    // Rectangle coordinates: lower‑left (50,50), upper‑right (600,800)
-    Rect = new Rectangle(50, 50, 600, 800),
-    // Set the border thickness – this is the rectangle border thickness
-    Border = new BorderInfo(BorderSide.All, 2) // 2 points thick
-};
+float pageWidth = pdfPage.PageInfo.Width;   // default A4 width in points
+float pageHeight = pdfPage.PageInfo.Height; // default A4 height in points
+Console.WriteLine($"Page size: {pageWidth}×{pageHeight} points");
 ```
 
-Ein paar Dinge sind zu beachten:
+Dieses Snippet ist für den grundlegenden Ablauf nicht erforderlich, hilft aber, wenn Sie **how to add rectangle** mit genauen Koordinaten verwenden.
 
-- `Rect` verwendet Punkte (1 pt ≈ 1/72 Zoll). Die Koordinaten definieren die linke untere und rechte obere Ecke, sodass Sie Breite und Höhe präzise steuern können.  
-- `BorderInfo` ermöglicht es, festzulegen, welche Seiten eine Linie erhalten und wie dick die Linie ist. Hier wenden wir eine 2‑Punkt‑Linie auf **alle** Seiten an, was dem Rechteck ein sauberes, einheitliches Aussehen verleiht.
+## Schritt 3 – Rechteck im PDF zeichnen (Grenzen prüfen & einfügen)
 
----
-
-## Platzierung der Form validieren (add shape pdf)
-
-Bevor wir das Rechteck auf der Seite festlegen, ist es ratsam zu prüfen, ob es in den druckbaren Bereich der Seite passt. Aspose.PDF stellt dafür eine praktische Hilfsmethode bereit.
+Jetzt kommt der spaßige Teil: das Zeichnen eines Rechtecks. Wir definieren ein Rechteck, prüfen, ob es innerhalb der Seite passt, und fügen es dann der Paragraph‑Sammlung der Seite hinzu.
 
 ```csharp
-// Step 4: Verify that the shape fits within the page boundaries
-if (pdfPage.IsShapeWithinBounds(rectangleShape.Rect))
+// Step 3: Define a rectangle shape (LLX, LLY, URX, URY)
+// LLX = lower‑left X, LLY = lower‑left Y, URX = upper‑right X, URY = upper‑right Y
+var rectangleShape = new Rectangle(100, 500, 300, 700);
+
+// Step 4: Verify that the rectangle lies within the page bounds
+bool isInside = rectangleShape.LLX >= 0 &&
+                rectangleShape.URX <= pdfPage.PageInfo.Width &&
+                rectangleShape.LLY >= 0 &&
+                rectangleShape.URY <= pdfPage.PageInfo.Height;
+
+if (isInside)
 {
-    // Shape is inside the page – add it
-    pdfPage.Add(rectangleShape);
+    // Step 5: Add the rectangle to the page's paragraphs collection
+    pdfPage.Paragraphs.Add(rectangleShape);
 }
 else
 {
-    Console.WriteLine("Shape exceeds page boundaries.");
+    Console.WriteLine("Rectangle exceeds page bounds – adjust coordinates.");
 }
 ```
 
-Warum das? Wenn Sie versehentlich eine Form teilweise außerhalb des Bildschirms platzieren, könnte der PDF‑Viewer sie abschneiden, was zu einer verwirrenden Benutzererfahrung führt. Diese **add shape pdf**‑Schutzklausel stellt sicher, dass Sie nur Inhalte hinzufügen, die vollständig sichtbar sind.
+> **Warum wir die Grenzen prüfen:** Der Versuch, außerhalb der Seite zu zeichnen, kann zu unsichtbaren Formen oder Laufzeitwarnungen führen. Die Bedingung stellt sicher, dass wir **draw rectangle pdf** sicher ausführen.
 
----
+### Erscheinungsbild anpassen
 
-## PDF speichern (add page pdf)
-
-Abschließend speichern wir das im Speicher befindliche Dokument auf die Festplatte. Sie können jeden Ort wählen, für den Sie Schreibrechte haben.
+Sie können das Rechteck mit Rändern oder Füllfarben gestalten:
 
 ```csharp
-// Step 5: Save the PDF to a file
-pdfDocument.Save("YOUR_DIRECTORY/ShapeValidated.pdf");
-Console.WriteLine("PDF created successfully!");
-```
-
-Nach dem Ausführen des Programms öffnen Sie `ShapeValidated.pdf` – Sie sollten eine einzelne Seite mit einem sauber umrandeten Rechteck sehen, das ungefähr in der Mitte zentriert ist.
-
----
-
-## Erwartetes Ergebnis
-
-Wenn Sie das erzeugte PDF öffnen, sehen Sie:
-
-- Eine A4‑große Seite.  
-- Ein Rechteck, dessen linke untere Ecke bei (50 pt, 50 pt) beginnt und dessen rechte obere Ecke bei (600 pt, 800 pt) endet.  
-- Ein **2‑Punkt‑dicker** Rand, der das Rechteck umgibt.
-
-Wenn die Konsole „PDF created successfully!“ ausgibt, wissen Sie, dass der Code ohne Probleme die Grenzprüfung durchlaufen hat.
-
-![Diagramm, das zeigt, wie man ein PDF-Dokument mit Aspose.PDF erstellt](https://example.com/diagram-create-pdf.png "PDF-Dokument erstellen – visuelle Übersicht")
-
-*Der Alt‑Text des Bildes enthält das Haupt‑Keyword, um SEO‑Anforderungen zu erfüllen.*
-
----
-
-## Häufige Fragen & Sonderfälle
-
-### Was ist, wenn ich eine andere Seitengröße benötige?
-
-Ersetzen Sie die Standardseite durch eine benutzerdefinierte Größe:
-
-```csharp
-Page customPage = pdfDocument.Pages.Add();
-customPage.SetPageSize(PageSize.A5);
-```
-
-### Wie ändere ich die Randfarbe?
-
-```csharp
-rectangleShape.Border = new BorderInfo(BorderSide.All, 2)
+rectangleShape.GraphInfo = new GraphInfo
 {
-    Color = Color.Red
+    // Set a thin black border
+    LineWidth = 1,
+    StrokeColor = Color.Black,
+    // Optional fill (transparent by default)
+    FillColor = Color.LightGray
 };
 ```
 
-### Kann ich mehrere Formen auf derselben Seite hinzufügen?
+Fühlen Sie sich frei zu experimentieren – verschiedene Farben, Linienstärken oder sogar gestrichelte Striche.
 
-Absolut. Wiederholen Sie einfach den **add shape pdf**‑Block mit einem neuen `RectangleShape` (oder anderen `Shape`‑Unterklassen) und passen Sie die `Rect`‑Koordinaten entsprechend an.
+## Schritt 4 – PDF-Dokument speichern
 
-### Was ist, wenn das Rechteck die Seitenränder überschreitet?
-
-Der Aufruf `IsShapeWithinBounds` gibt `false` zurück. Im Produktionscode möchten Sie die Form möglicherweise automatisch skalieren:
+Der letzte Schritt besteht darin, das Dokument auf die Festplatte zu schreiben. Wählen Sie einen Ordner, für den Sie Schreibzugriff haben, und geben Sie der Datei einen eindeutigen Namen.
 
 ```csharp
-if (!pdfPage.IsShapeWithinBounds(rectangleShape.Rect))
-{
-    // Shrink to fit
-    rectangleShape.Rect = pdfPage.PageInfo.TrimBox;
-}
-pdfPage.Add(rectangleShape);
+// Step 6: Save the PDF document to a file
+string outputPath = Path.Combine(Environment.CurrentDirectory, "ShapeChecked.pdf");
+pdfDocument.Save(outputPath);
+
+Console.WriteLine($"PDF saved successfully at: {outputPath}");
 ```
 
----
+Wenn Sie `ShapeChecked.pdf` öffnen, sollten Sie eine einzelne Seite mit einem hellgrauen Rechteck sehen, das zwischen (100, 500) und (300, 700) positioniert ist. Das ist das Ergebnis unseres **create pdf document**‑Workflows.
 
-## Zusammenfassung
+![Create PDF Document example](image.png){alt="Beispiel für ein erstelltes PDF-Dokument, das ein Rechteck auf einer Seite zeigt"}
 
-Wir haben den gesamten Lebenszyklus des **Erstellens eines PDF-Dokuments** mit Aspose.PDF durchlaufen:
+## Vollständiges funktionierendes Beispiel (Copy‑Paste‑bereit)
 
-1. Initialisieren Sie das `Document`.  
-2. **Add a page PDF** mit `Pages.Add()`.  
-3. **Draw a rectangle PDF** über `RectangleShape`.  
-4. **Add shape PDF** nur, nachdem bestätigt wurde, dass es innerhalb der Seite bleibt.  
-5. Steuern Sie die **rectangle border thickness** mit `BorderInfo`.  
-6. Speichern Sie die Datei.
+Unten finden Sie das komplette Programm, bereit zum Kompilieren. Keine fehlenden Teile, keine externen Referenzen.
 
-Das ist der gesamte Workflow in weniger als 60 Codezeilen.
+```csharp
+using System;
+using System.IO;
+using Aspose.Pdf;
+using Aspose.Pdf.Drawing;
+using Aspose.Pdf.Color; // For color definitions
 
----
+class Program
+{
+    static void Main()
+    {
+        // 1️⃣ Create PDF document
+        var pdfDocument = new Document();
 
-## Was kommt als Nächstes?
+        // 2️⃣ Add page PDF
+        var pdfPage = pdfDocument.Pages.Add();
 
-- **Add text**: Verwenden Sie `TextFragment`, um Titel oder Beschriftungen innerhalb des Rechtecks zu platzieren.  
-- **Insert images**: Die Klasse `Image` ermöglicht das Einbetten von Logos oder Diagrammen.  
-- **Create tables**: Perfekt für Rechnungen oder Datenberichte.  
-- **Apply security**: Passwortschützen Sie das PDF, wenn es sensible Daten enthält.  
+        // Optional: show page size
+        Console.WriteLine($"Page size: {pdfPage.PageInfo.Width}×{pdfPage.PageInfo.Height} points");
 
-Jedes dieser Themen baut auf den hier behandelten Grundlagen auf, sodass Sie gut positioniert sind, um weiterführende PDF‑Generierungsszenarien zu erkunden.
+        // 3️⃣ Define rectangle (draw rectangle PDF)
+        var rectangleShape = new Rectangle(100, 500, 300, 700);
 
-### Weiter experimentieren
+        // Style the rectangle (optional)
+        rectangleShape.GraphInfo = new GraphInfo
+        {
+            LineWidth = 1,
+            StrokeColor = Color.Black,
+            FillColor = Color.LightGray
+        };
 
-Hören Sie nicht bei einem einzigen Rechteck auf – experimentieren Sie mit verschiedenen Formen, Farben und Linienstilen. Die Aspose.PDF‑API ist umfangreich, und je mehr Sie herumprobieren, desto sicherer werden Sie. Wenn Sie auf ein Problem stoßen, ist die offizielle Aspose‑Dokumentation ein guter Begleiter, aber denken Sie daran, dass der oben gezeigte Code eine vollständige, copy‑and‑paste‑bereite Lösung ist, die Sie noch heute ausführen können.
+        // 4️⃣ Verify bounds before adding
+        bool fits = rectangleShape.LLX >= 0 &&
+                    rectangleShape.URX <= pdfPage.PageInfo.Width &&
+                    rectangleShape.LLY >= 0 &&
+                    rectangleShape.URY <= pdfPage.PageInfo.Height;
 
-Viel Spaß beim Programmieren, und möge Ihr PDF immer genau so rendern, wie Sie es sich vorgestellt haben!
+        if (fits)
+        {
+            // 5️⃣ Add rectangle to the page
+            pdfPage.Paragraphs.Add(rectangleShape);
+            Console.WriteLine("Rectangle added successfully.");
+        }
+        else
+        {
+            Console.WriteLine("Rectangle is out of page bounds – adjust coordinates.");
+        }
+
+        // 6️⃣ Save the PDF
+        string outputFile = Path.Combine(Environment.CurrentDirectory, "ShapeChecked.pdf");
+        pdfDocument.Save(outputFile);
+        Console.WriteLine($"PDF saved at: {outputFile}");
+    }
+}
+```
+
+Wenn Sie dieses Programm ausführen, entsteht eine `ShapeChecked.pdf`‑Datei direkt neben der ausführbaren Datei. Öffnen Sie sie mit einem beliebigen PDF‑Betrachter; Sie sehen das von uns gezeichnete Rechteck – der Beweis, dass Sie erfolgreich **create pdf document**, **add page pdf** und **draw rectangle pdf** in einem Schritt durchgeführt haben.
+
+## Häufige Fragen & Randfälle
+
+| Frage | Antwort |
+|----------|--------|
+| *Was ist, wenn ich eine andere Seitengröße benötige?* | Setzen Sie `pdfPage.PageInfo.Width` und `Height` vor dem Zeichnen, oder erstellen Sie eine `Page` mit einem benutzerdefinierten `PageSize`‑Enum (z. B. `PageSize.Letter`). |
+| *Kann ich mehrere Rechtecke hinzufügen?* | Absolut – wiederholen Sie einfach den Rechteck‑Erstellungsblock und fügen Sie jede Form zu `pdfPage.Paragraphs` hinzu. |
+| *Was passiert bei sehr kleinen PDFs?* | Die Grenzprüfung verhindert Koordinaten außerhalb des Bereichs, sodass der Code mit einer Konsolennachricht elegant fehlschlägt. |
+| *Gibt es eine Möglichkeit, das Rechteck zu drehen?* | Verwenden Sie `rectangleShape.Rotation = 45;` (Grad) bevor Sie es hinzufügen. |
+| *Muss ich das `Document` freigeben?* | `Document` implementiert `IDisposable`. In einer realen Anwendung sollten Sie es in einem `using`‑Block einbetten, um eine deterministische Bereinigung zu gewährleisten. |
+
+## Profi‑Tipps & bewährte Vorgehensweisen
+
+- **Stapel‑Additionen:** Wenn Sie Dutzende von Formen hinzufügen, erstellen Sie diese zunächst in einer Liste und fügen Sie dann die gesamte Liste zu `Paragraphs` hinzu – das reduziert den internen Verarbeitungsaufwand.
+- **Koordinatensystem:** Aspose.PDF verwendet Punkte (1 pt = 1/72 in). Denken Sie daran, von Pixeln oder Millimetern zu konvertieren, falls Ihre Quelldaten eine andere Einheit nutzen.
+- **Performance:** Bei großen PDFs sollten Sie vor dem Speichern `pdfDocument.Optimize()` aktivieren; es komprimiert Streams und reduziert die Dateigröße.
+- **Fehlerbehandlung:** Wickeln Sie den gesamten Ablauf in ein `try/catch` und protokollieren Sie `PdfException` für bessere Diagnose.
+
+## Fazit
+
+Sie wissen jetzt genau, **how to create pdf document** mit Aspose.PDF, wie man **add page pdf** und **draw rectangle pdf** ausführt, während man die Grenzen sicher prüft. Das obige vollständige Beispiel kann in jedes .NET‑Projekt eingefügt werden und bietet Ihnen eine solide Grundlage für weiterführende PDF‑Aufgaben wie das Einfügen von Bildern, Tabellen oder digitalen Signaturen.
+
+Bereit für den nächsten Schritt? Versuchen Sie, das Rechteck durch eine `Ellipse` zu ersetzen, experimentieren Sie mit geschichteten Grafiken oder erzeugen Sie einen mehrseitigen Bericht, indem Sie über Datenzeilen iterieren. Die gleichen Prinzipien – initialisieren, Seiten hinzufügen, Formen zeichnen, speichern – gelten für alle PDF‑Erzeugungsszenarien.
+
+Wenn Sie auf ein Problem stoßen oder Ideen für weitere Verbesserungen haben, hinterlassen Sie gerne einen Kommentar. Viel Spaß beim Programmieren und beim Erstellen schöner PDFs!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

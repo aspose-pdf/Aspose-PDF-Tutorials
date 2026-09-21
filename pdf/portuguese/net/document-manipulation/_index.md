@@ -16,7 +16,6 @@
 Domine a manipulação de documentos PDF com nossos tutoriais detalhados do Aspose.PDF .NET. Estes guias passo a passo demonstram como trabalhar com a estrutura de documentos, modificar PDFs existentes, dividir e mesclar documentos, adicionar e remover páginas e organizar seu conteúdo PDF programaticamente. Cada tutorial inclui exemplos práticos de código C#, notas de implementação e práticas recomendadas para ajudar você a criar aplicativos que manipulam documentos PDF de forma eficiente com código limpo e de fácil manutenção.
 
 ## Tutoriais disponíveis
-
 ### [Adicionar carimbos de data e hora a PDFs usando Aspose.PDF para .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 Aprenda a adicionar carimbos de data e hora ou anotações aos seus documentos PDF com eficiência usando o Aspose.PDF para .NET. Aprimore o gerenciamento de documentos com estas etapas fáceis de seguir.
 
@@ -314,13 +313,11 @@ Aprenda a dividir PDFs de várias páginas e criar novos arquivos PDF usando o A
 ### [Guia definitivo para manipulação de PDF com Aspose.PDF .NET: carregue, salve e substitua texto com eficiência](./master-pdf-manipulation-aspose-pdf-net/)
 Aprenda a dominar a manipulação de PDFs usando o Aspose.PDF para .NET. Este guia aborda como carregar, salvar e substituir texto em PDFs, ideal para desenvolvedores que buscam eficiência.
 
-## Recursos adicionais
+### [Como remover todo o texto de PDFs usando Aspose.PDF .NET para manipulação de documentos](./remove-text-aspose-pdf-net-tutorial/)
+Aprenda a remover todo o texto de um PDF com eficiência usando o Aspose.PDF .NET. Perfeito para proteger dados confidenciais ou organizar documentos.
 
-- [Aspose.PDF para documentação da Net](https://docs.aspose.com/pdf/net/)
-- [Referência da API Aspose.PDF para Net](https://reference.aspose.com/pdf/net/)
-- [Baixe Aspose.PDF para a rede](https://releases.aspose.com/pdf/net/)
-- [Suporte gratuito](https://forum.aspose.com/)
-- [Licença Temporária](https://purchase.aspose.com/temporary-license/)
+### [Como censurar PDF em C# – Ocultar texto e remover conteúdo PDF](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
+Aprenda a censurar PDFs, ocultando texto e removendo conteúdo usando Aspose.PDF para .NET em C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -329,3 +326,6 @@ Aprenda a dominar a manipulação de PDFs usando o Aspose.PDF para .NET. Este gu
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+### [Como reparar PDF em C# – Corrija arquivos PDF corrompidos rapidamente](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
+Aprenda a reparar arquivos PDF corrompidos usando C# e Aspose.PDF, restaurando documentos de forma rápida e confiável.
+

@@ -1,26 +1,24 @@
 ---
 category: general
-date: 2026-03-06
-description: Aspose.PDF का उपयोग करके C# में PDF दस्तावेज़ बनाएं। जानें कैसे PDF पेज
-  जोड़ें, PDF में आयत बनाएं, PDF में आकार जोड़ें, और आयत की सीमा की मोटाई को नियंत्रित
-  करें—सभी एक ही ट्यूटोरियल में।
+date: 2026-01-10
+description: C# में Aspose.PDF का उपयोग करके PDF दस्तावेज़ बनाएं। इस पूर्ण ट्यूटोरियल
+  में पेज PDF जोड़ना, रेक्टैंगल PDF बनाना और अधिक सीखें।
 draft: false
 keywords:
 - create pdf document
 - add page pdf
 - draw rectangle pdf
-- add shape pdf
-- rectangle border thickness
+- how to create pdf
+- how to add rectangle
 language: hi
-og_description: Aspose.PDF के साथ C# में PDF दस्तावेज़ बनाएं। यह ट्यूटोरियल दिखाता
-  है कि कैसे PDF पेज जोड़ें, PDF में आयत बनाएं, PDF में आकार जोड़ें, और आयत की बॉर्डर
-  मोटाई सेट करें।
-og_title: Aspose.PDF के साथ PDF दस्तावेज़ बनाएं – पूर्ण गाइड
+og_description: C# में Aspose.PDF का उपयोग करके PDF दस्तावेज़ बनाएं। इस ट्यूटोरियल
+  का पालन करके पेज PDF जोड़ें, आयत PDF बनाएं, और मास्टर PDF निर्माण करें।
+og_title: Aspose.PDF के साथ PDF दस्तावेज़ बनाएं – पूर्ण मार्गदर्शिका
 tags:
 - Aspose.PDF
 - C#
 - PDF generation
-title: Aspose.PDF के साथ PDF दस्तावेज़ बनाएं – चरण‑दर‑चरण मार्गदर्शिका
+title: Aspose.PDF के साथ PDF दस्तावेज़ बनाएं – चरण-दर-चरण गाइड
 url: /hi/net/document-creation/create-pdf-document-with-aspose-pdf-step-by-step-guide/
 ---
 
@@ -30,192 +28,222 @@ url: /hi/net/document-creation/create-pdf-document-with-aspose-pdf-step-by-step-
 
 # Aspose.PDF के साथ PDF दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड
 
-क्या आपको कभी प्रोग्रामेटिकली **PDF दस्तावेज़ बनाना** पड़ा है और आप नहीं जानते थे कि कहाँ से शुरू करें? आप अकेले नहीं हैं—कई डेवलपर्स को वही समस्या आती है जब उनके ऐप्स को रीयल‑टाइम में इनवॉइस, रिपोर्ट या प्रमाणपत्र बनाना पड़ता है।  
+क्या आपको कभी प्रोग्रामेटिकली **create PDF document** बनाना पड़ा और आप नहीं जानते थे कि कहाँ से शुरू करें? आप अकेले नहीं हैं—दुनिया भर के डेवलपर्स को रिपोर्ट, इनवॉइस या प्रमाणपत्रों को स्वचालित करने की कोशिश में यही समस्या आती है। अच्छी खबर? Aspose.PDF for .NET के साथ आप केवल कुछ ही C# लाइनों में PDF बना सकते हैं।
 
-अच्छी खबर यह है कि Aspose.PDF for .NET के साथ आप इसे कुछ ही लाइनों में कर सकते हैं, और आप सीखेंगे कि कैसे **add page PDF**, **draw rectangle PDF**, **add shape PDF** किया जाता है, और साथ ही **rectangle border thickness** को कैसे समायोजित किया जाए। चलिए शुरू करते हैं।
+इस ट्यूटोरियल में हम पूरी प्रक्रिया को चरण‑दर‑चरण देखेंगे: दस्तावेज़ को इनिशियलाइज़ करने से लेकर **add page PDF**, **draw rectangle PDF** तक, और अंत में फ़ाइल को सेव करने तक। अंत तक आपके पास एक ठोस, चलाने योग्य उदाहरण होगा और **how to create pdf** को आत्मविश्वास के साथ समझ पाएँगे।
 
-## आप क्या बनाएँगे
+## इस गाइड में क्या कवर किया गया है
 
-इस गाइड के अंत तक आपके पास एक पूरी तरह से कार्यशील C# कंसोल ऐप होगा जो:
+- कोड लिखने से पहले आवश्यक प्री‑रिक्विज़िट्स  
+- PDF दस्तावेज़ का चरण‑दर‑चरण निर्माण  
+- उस दस्तावेज़ में नया पेज जोड़ना (क्लासिक **add page pdf** ऑपरेशन)  
+- एक आयताकार आकार बनाना, उसके बाउंड्स की जाँच करना, और उसे इन्सर्ट करना (“**draw rectangle pdf**” भाग)  
+- मजबूत PDF जनरेशन के लिए सामान्य पिटफ़ॉल्स और प्रो टिप्स  
+- एक पूर्ण, कॉपी‑एंड‑पेस्ट‑रेडी कोड सैंपल जिसे आप आज ही चला सकते हैं  
 
-1. **Creates a PDF document** को शून्य से बनाता है।  
-2. **Adds a page PDF** को दस्तावेज़ में जोड़ता है।  
-3. **Draws a rectangle PDF** को उस पेज पर बनाता है।  
-4. **Validates** कि आयत पेज की सीमाओं के भीतर रहती है (**add shape PDF** चरण)।  
-5. कस्टम **rectangle border thickness** सेट करता है।  
-6. परिणाम को `ShapeValidated.pdf` के रूप में सहेजता है।
+कोई बाहरी रेफ़रेंस नहीं, कोई भाग नहीं छूटा—बस एक सेल्फ‑कंटेन्ड समाधान जिसे आप उद्धृत या शेयर कर सकते हैं।
 
-कोई बाहरी सेवा नहीं, कोई रहस्यमयी कॉन्फ़िगरेशन नहीं—सिर्फ साधारण C# और Aspose.PDF।
+## आवश्यकताएँ
 
-### आवश्यकताएँ
+| आवश्यकता | क्यों महत्वपूर्ण है |
+|-------------|----------------|
+| .NET 6.0 or later (or .NET Framework 4.6+) | Aspose.PDF दोनों को सपोर्ट करता है; नए रनटाइम्स बेहतर प्रदर्शन देते हैं। |
+| Aspose.PDF for .NET NuGet package (`Aspose.Pdf`) | यह लाइब्रेरी `Document`, `Page`, और ड्रॉइंग क्लासेज़ प्रदान करती है जिन्हें हम उपयोग करेंगे। |
+| A C# IDE (Visual Studio, Rider, VS Code) | कोड को कंपाइल और डिबग करना आसान बनाता है। |
+| Write permission to the output folder | अंतिम `Save` कॉल के लिए आवश्यक है। |
 
-- .NET 6.0 या बाद का संस्करण (कोड .NET Framework 4.6+ के साथ भी काम करता है)।  
-- `Aspose.Pdf` NuGet पैकेज का रेफ़रेंस। आप इसे इस प्रकार जोड़ सकते हैं:
+NuGet के माध्यम से पैकेज इंस्टॉल करें:
 
 ```bash
 dotnet add package Aspose.Pdf
 ```
 
-- एक टेक्स्ट एडिटर या IDE—Visual Studio, VS Code, Rider, जो भी आपको पसंद हो।
+बस इतना ही—एक बार पैकेज इंस्टॉल हो जाने पर आप **create pdf document** करने के लिए तैयार हैं।
 
-> **Pro tip:** यदि आप कॉर्पोरेट मशीन पर हैं, तो सुनिश्चित करें कि NuGet फ़ीड ब्लॉक नहीं है; अन्यथा आपको “Package not found” त्रुटि मिलेगी।
+## चरण 1 – PDF दस्तावेज़ बनाएं (इनिशियलाइज़ेशन)
 
----
-
-## PDF दस्तावेज़ बनाएं – दस्तावेज़ को इनिशियलाइज़ करें
-
-पहला कदम `Document` ऑब्जेक्ट बनाना है। इसे एक खाली कैनवास की तरह समझें जहाँ हर पेज और आकार स्थित होंगे।
+पहला काम हम एक नया `Document` इंस्टैंशिएट करना है। इसे एक खाली कैनवास की तरह समझें जहाँ हर पेज, इमेज या शेप रहेगा।
 
 ```csharp
 using Aspose.Pdf;
 using Aspose.Pdf.Drawing;
 
-// Step 1: Create a new PDF document
-Document pdfDocument = new Document();
+// Step 1: Initialize a fresh PDF document
+var pdfDocument = new Document();
 ```
 
-हमें इस ऑब्जेक्ट की क्यों जरूरत है? यह मेमोरी में पूरे PDF फ़ाइल का प्रतिनिधित्व करता है, जिससे हमें `Pages` कलेक्शन, मेटाडेटा और सुरक्षा सेटिंग्स तक पहुँच मिलती है। एक बार दस्तावेज़ मिल जाने पर आप पेज, टेक्स्ट, इमेज और वेक्टर ग्राफ़िक्स जोड़ना शुरू कर सकते हैं।
+> **क्यों महत्वपूर्ण है:** `Document` रूट ऑब्जेक्ट है। इसके बिना आप पेज या कंटेंट नहीं जोड़ सकते, इसलिए यह स्टेप **how to create pdf** को शुरू से करने के लिए आवश्यक है।
 
-## PDF में एक पेज जोड़ें (add page pdf)
+## चरण 2 – PDF पेज जोड़ें
 
-पेजों के बिना PDF मूलतः एक खाली फ़ाइल है—बिना मतलब। पेज जोड़ना सरल है, और आप चाहें तो उसका आकार कस्टमाइज़ कर सकते हैं। यहाँ हम डिफ़ॉल्ट A4 आकार का उपयोग कर रहे हैं।
+पेज़ के बिना PDF सिर्फ एक फ़ाइल हेडर है। चलिए एक पेज जोड़ते हैं, जहाँ बाद में हम अपना आयत (rectangle) बनाएँगे।
 
 ```csharp
 // Step 2: Add a new page to the document
-Page pdfPage = pdfDocument.Pages.Add();
+var pdfPage = pdfDocument.Pages.Add();
 ```
 
-`Add()` मेथड एक नया `Page` इंस्टेंस लौटाता है जो पहले से ही `Pages` कलेक्शन का हिस्सा है, इसलिए आप तुरंत उस पर ड्रॉ करना शुरू कर सकते हैं। वास्तविक परिदृश्यों में आप डेटा सेट पर लूप करके कई पेज जोड़ सकते हैं; वही एक‑लाइन कॉल प्रत्येक इटरशन में काम करता है।
+> **प्रो टिप:** `Add()` मेथड नया बनाया गया `Page` ऑब्जेक्ट रिटर्न करता है, इसलिए आप बिना कलेक्शन खोजे आगे के एक्शन चेन कर सकते हैं।
 
-## आयत आकार बनाएं (draw rectangle pdf)
+### पेज डाइमेंशन की जाँच (वैकल्पिक)
 
-अब दृश्य भाग: एक आयत जिसमें स्पष्ट बॉर्डर हो। यहाँ **draw rectangle pdf** काम आता है।
+यदि आप शैप्स को सटीक रूप से रखना चाहते हैं, तो पेज साइज जानना उपयोगी होगा:
 
 ```csharp
-// Step 3: Define a rectangle shape with a border
-RectangleShape rectangleShape = new RectangleShape
-{
-    // Rectangle coordinates: lower‑left (50,50), upper‑right (600,800)
-    Rect = new Rectangle(50, 50, 600, 800),
-    // Set the border thickness – this is the rectangle border thickness
-    Border = new BorderInfo(BorderSide.All, 2) // 2 points thick
-};
+float pageWidth = pdfPage.PageInfo.Width;   // default A4 width in points
+float pageHeight = pdfPage.PageInfo.Height; // default A4 height in points
+Console.WriteLine($"Page size: {pageWidth}×{pageHeight} points");
 ```
 
-ध्यान देने योग्य कुछ बातें:
+यह स्निपेट बेसिक फ्लो के लिए आवश्यक नहीं है, लेकिन जब आप **how to add rectangle** को सटीक कोऑर्डिनेट्स के साथ उपयोग करते हैं तो मदद करता है।
 
-- `Rect` पॉइंट्स (1 pt ≈ 1/72 इंच) का उपयोग करता है। कॉर्डिनेट्स निचले‑बाएँ और ऊपरी‑दाएँ कोने को परिभाषित करते हैं, जिससे आप चौड़ाई और ऊँचाई को सटीक रूप से नियंत्रित कर सकते हैं।  
-- `BorderInfo` आपको यह निर्धारित करने देता है कि किन किनारों पर लाइन हो और उसकी मोटाई कितनी हो। यहाँ हम **all** किनारों पर 2‑पॉइंट लाइन लागू करते हैं, जिससे आयत को साफ़, समान रूप मिलता है।
+## चरण 3 – PDF में आयत बनाएं (बाउंड्स चेक और इन्सर्ट)
 
-## आकार की स्थिति सत्यापित करें (add shape pdf)
-
-आयत को पेज पर जोड़ने से पहले, यह सुनिश्चित करना समझदारी है कि वह पेज के प्रिंटेबल एरिया के भीतर फिट हो। Aspose.PDF इसके लिए एक उपयोगी हेल्पर मेथड प्रदान करता है।
+अब आता है मज़ेदार हिस्सा: आयत बनाना। हम एक आयत परिभाषित करेंगे, जाँचेंगे कि वह पेज के भीतर फिट बैठती है या नहीं, और फिर उसे पेज की पैराग्राफ कलेक्शन में जोड़ेंगे।
 
 ```csharp
-// Step 4: Verify that the shape fits within the page boundaries
-if (pdfPage.IsShapeWithinBounds(rectangleShape.Rect))
+// Step 3: Define a rectangle shape (LLX, LLY, URX, URY)
+// LLX = lower‑left X, LLY = lower‑left Y, URX = upper‑right X, URY = upper‑right Y
+var rectangleShape = new Rectangle(100, 500, 300, 700);
+
+// Step 4: Verify that the rectangle lies within the page bounds
+bool isInside = rectangleShape.LLX >= 0 &&
+                rectangleShape.URX <= pdfPage.PageInfo.Width &&
+                rectangleShape.LLY >= 0 &&
+                rectangleShape.URY <= pdfPage.PageInfo.Height;
+
+if (isInside)
 {
-    // Shape is inside the page – add it
-    pdfPage.Add(rectangleShape);
+    // Step 5: Add the rectangle to the page's paragraphs collection
+    pdfPage.Paragraphs.Add(rectangleShape);
 }
 else
 {
-    Console.WriteLine("Shape exceeds page boundaries.");
+    Console.WriteLine("Rectangle exceeds page bounds – adjust coordinates.");
 }
 ```
 
-क्यों परेशान हों? यदि आप गलती से आकार को आंशिक रूप से स्क्रीन के बाहर रख देते हैं, तो PDF व्यूअर उसे काट सकता है, जिससे उपयोगकर्ता अनुभव भ्रमित हो जाता है। यह **add shape pdf** गार्ड क्लॉज़ सुनिश्चित करता है कि आप केवल वही सामग्री जोड़ें जो पूरी तरह दिखाई दे।
+> **बाउंड्स क्यों चेक करते हैं:** पेज के बाहर ड्रॉ करने की कोशिश करने से शैप्स अदृश्य या रनटाइम वार्निंग्स हो सकती हैं। यह कंडीशन सुनिश्चित करती है कि हम **draw rectangle pdf** सुरक्षित रूप से करें।
 
-## PDF सहेजें (add page pdf)
+### दिखावट को कस्टमाइज़ करना
 
-अंत में, हम मेमोरी में मौजूद दस्तावेज़ को डिस्क पर सहेजते हैं। आप कोई भी स्थान चुन सकते हैं जहाँ आपके पास लिखने की अनुमति हो।
-
-```csharp
-// Step 5: Save the PDF to a file
-pdfDocument.Save("YOUR_DIRECTORY/ShapeValidated.pdf");
-Console.WriteLine("PDF created successfully!");
-```
-
-प्रोग्राम चलाने के बाद, `ShapeValidated.pdf` खोलें—आपको एकल पेज पर मध्य में लगभग केंद्रित एक साफ़ बॉर्डर वाली आयत दिखनी चाहिए।
-
-## अपेक्षित परिणाम
-
-जब आप उत्पन्न PDF खोलेंगे, तो आप देखेंगे:
-
-- एक A4‑आकार का पेज।  
-- एक आयत जिसका निचला‑बायाँ कोना (50 pt, 50 pt) पर शुरू होता है और ऊपरी‑दायाँ कोना (600 pt, 800 pt) पर समाप्त होता है।  
-- आयत के चारों ओर **2‑point thick** बॉर्डर।
-
-यदि कंसोल में “PDF created successfully!” प्रिंट हुआ, तो आप जानते हैं कि कोड ने बाउंडरी चेक को पार किए बिना चलाया।
-
-![Aspose.PDF के साथ PDF दस्तावेज़ बनाने का आरेख](https://example.com/diagram-create-pdf.png "PDF दस्तावेज़ बनाएं – दृश्य अवलोकन")
-
-*इमेज का alt टेक्स्ट मुख्य कीवर्ड शामिल करता है ताकि SEO आवश्यकताओं को पूरा किया जा सके।*
-
-## सामान्य प्रश्न और किनारे के केस
-
-### यदि मुझे अलग पेज आकार चाहिए तो क्या करें?
-
-डिफ़ॉल्ट पेज को कस्टम आकार से बदलें:
+आप आयत को बॉर्डर या फ़िल कलर के साथ स्टाइल कर सकते हैं:
 
 ```csharp
-Page customPage = pdfDocument.Pages.Add();
-customPage.SetPageSize(PageSize.A5);
-```
-
-### बॉर्डर का रंग कैसे बदलें?
-
-```csharp
-rectangleShape.Border = new BorderInfo(BorderSide.All, 2)
+rectangleShape.GraphInfo = new GraphInfo
 {
-    Color = Color.Red
+    // Set a thin black border
+    LineWidth = 1,
+    StrokeColor = Color.Black,
+    // Optional fill (transparent by default)
+    FillColor = Color.LightGray
 };
 ```
 
-### क्या मैं एक ही पेज पर कई आकार जोड़ सकता हूँ?
+बिना हिचकिचाए प्रयोग करें—विभिन्न रंग, लाइन की चौड़ाई, या यहाँ तक कि डैश्ड स्ट्रोक्स।
 
-बिल्कुल। बस **add shape pdf** ब्लॉक को नए `RectangleShape` (या अन्य `Shape` सबक्लास) के साथ दोहराएँ और `Rect` कॉर्डिनेट्स को उसी अनुसार समायोजित करें।
+## चरण 4 – PDF दस्तावेज़ को सेव करें
 
-### यदि आयत पेज की सीमाओं से बाहर हो तो क्या करें?
-
-`IsShapeWithinBounds` कॉल `false` लौटाएगा। प्रोडक्शन कोड में आप आकार को स्वचालित रूप से री‑साइज़ करना चाह सकते हैं:
+अंतिम कदम दस्तावेज़ को डिस्क पर सेव करना है। ऐसा फ़ोल्डर चुनें जहाँ आपके पास लिखने की अनुमति हो और फ़ाइल को स्पष्ट नाम दें।
 
 ```csharp
-if (!pdfPage.IsShapeWithinBounds(rectangleShape.Rect))
-{
-    // Shrink to fit
-    rectangleShape.Rect = pdfPage.PageInfo.TrimBox;
-}
-pdfPage.Add(rectangleShape);
+// Step 6: Save the PDF document to a file
+string outputPath = Path.Combine(Environment.CurrentDirectory, "ShapeChecked.pdf");
+pdfDocument.Save(outputPath);
+
+Console.WriteLine($"PDF saved successfully at: {outputPath}");
 ```
 
-## पुनरावलोकन
+जब आप `ShapeChecked.pdf` खोलेंगे, तो आपको एक सिंगल पेज दिखेगा जिसमें (100, 500) और (300, 700) के बीच एक हल्के‑ग्रे रंग की आयत होगी। यह हमारे **create pdf document** वर्कफ़्लो का परिणाम है।
 
-हमने Aspose.PDF के साथ **creating a PDF document** का पूरा जीवनचक्र देखा:
+![Create PDF Document example](image.png){alt="Create PDF document उदाहरण जिसमें पेज पर एक आयत दिखाया गया है"}
 
-1. `Document` को इनिशियलाइज़ करें।  
-2. `Pages.Add()` का उपयोग करके **Add a page PDF** करें।  
-3. `RectangleShape` के माध्यम से **Draw a rectangle PDF** बनाएं।  
-4. पेज के भीतर रहने की पुष्टि करने के बाद ही **Add shape PDF** करें।  
-5. `BorderInfo` के साथ **rectangle border thickness** को नियंत्रित करें।  
-6. फ़ाइल को सहेजें।
+## पूर्ण कार्यशील उदाहरण (कॉपी‑पेस्ट तैयार)
 
-यह पूरा वर्कफ़्लो 60 लाइनों से कम कोड में है।
+नीचे पूरा प्रोग्राम दिया गया है, जिसे कंपाइल करने के लिए तैयार है। कोई हिस्सा नहीं छूटा, कोई बाहरी रेफ़रेंस नहीं।
 
-## आगे क्या?
+```csharp
+using System;
+using System.IO;
+using Aspose.Pdf;
+using Aspose.Pdf.Drawing;
+using Aspose.Pdf.Color; // For color definitions
 
-- **Add text**: `TextFragment` का उपयोग करके आयत के भीतर शीर्षक या लेबल रखें।  
-- **Insert images**: `Image` क्लास आपको लोगो या चार्ट एम्बेड करने देता है।  
-- **Create tables**: इनवॉइस या डेटा रिपोर्ट के लिए उपयुक्त।  
-- **Apply security**: यदि PDF में संवेदनशील डेटा है तो पासवर्ड‑प्रोटेक्ट करें।  
+class Program
+{
+    static void Main()
+    {
+        // 1️⃣ Create PDF document
+        var pdfDocument = new Document();
 
-इनमें से प्रत्येक विषय यहाँ कवर किए गए मूल सिद्धांतों पर आधारित है, इसलिए आप अधिक उन्नत PDF जनरेशन परिदृश्यों का अन्वेषण करने के लिए तैयार हैं।
+        // 2️⃣ Add page PDF
+        var pdfPage = pdfDocument.Pages.Add();
 
-### प्रयोग जारी रखें
+        // Optional: show page size
+        Console.WriteLine($"Page size: {pdfPage.PageInfo.Width}×{pdfPage.PageInfo.Height} points");
 
-सिर्फ एक आयत पर रुकें नहीं—विभिन्न आकार, रंग और लाइन स्टाइल के साथ प्रयोग करें। Aspose.PDF API समृद्ध है, और जितना आप टिंकर करेंगे, उतना ही आप सहज महसूस करेंगे। यदि आपको कोई समस्या आती है, तो आधिकारिक Aspose दस्तावेज़ एक अच्छा साथी है, लेकिन याद रखें कि ऊपर दिया गया कोड एक पूर्ण, कॉपी‑एंड‑पेस्ट‑तैयार समाधान है जिसे आप आज ही चला सकते हैं।
+        // 3️⃣ Define rectangle (draw rectangle PDF)
+        var rectangleShape = new Rectangle(100, 500, 300, 700);
 
-कोडिंग का आनंद लें, और आपके PDFs हमेशा वैसा ही रेंडर हों जैसा आप कल्पना करते हैं!
+        // Style the rectangle (optional)
+        rectangleShape.GraphInfo = new GraphInfo
+        {
+            LineWidth = 1,
+            StrokeColor = Color.Black,
+            FillColor = Color.LightGray
+        };
+
+        // 4️⃣ Verify bounds before adding
+        bool fits = rectangleShape.LLX >= 0 &&
+                    rectangleShape.URX <= pdfPage.PageInfo.Width &&
+                    rectangleShape.LLY >= 0 &&
+                    rectangleShape.URY <= pdfPage.PageInfo.Height;
+
+        if (fits)
+        {
+            // 5️⃣ Add rectangle to the page
+            pdfPage.Paragraphs.Add(rectangleShape);
+            Console.WriteLine("Rectangle added successfully.");
+        }
+        else
+        {
+            Console.WriteLine("Rectangle is out of page bounds – adjust coordinates.");
+        }
+
+        // 6️⃣ Save the PDF
+        string outputFile = Path.Combine(Environment.CurrentDirectory, "ShapeChecked.pdf");
+        pdfDocument.Save(outputFile);
+        Console.WriteLine($"PDF saved at: {outputFile}");
+    }
+}
+```
+
+इस प्रोग्राम को चलाने से एक `ShapeChecked.pdf` फ़ाइल एक्सीक्यूटेबल के बगल में बनती है। इसे किसी भी PDF व्यूअर से खोलें; आपको वह आयत दिखेगी जो हमने बनाई थी—यह प्रमाण है कि आपने सफलतापूर्वक **create pdf document**, **add page pdf**, और **draw rectangle pdf** एक साथ किया।
+
+## सामान्य प्रश्न और किनारे के मामलों
+
+| प्रश्न | उत्तर |
+|----------|--------|
+| *यदि मुझे अलग पेज साइज चाहिए तो क्या करें?* | ड्रॉ करने से पहले `pdfPage.PageInfo.Width` और `Height` सेट करें, या एक कस्टम `PageSize` एन्नुम (जैसे, `PageSize.Letter`) के साथ `Page` बनाएं। |
+| *क्या मैं कई आयतें जोड़ सकता हूँ?* | बिल्कुल—सिर्फ rectangle‑creation ब्लॉक को दोहराएँ और प्रत्येक शेप को `pdfPage.Paragraphs` में जोड़ें। |
+| *बहुत छोटे PDFs पर क्या होता है?* | बाउंड्स चेक आउट‑ऑफ़‑रेंज कोऑर्डिनेट्स को रोक देगा, इसलिए कोड कंसोल संदेश के साथ सुगमता से फेल हो जाएगा। |
+| *क्या आयत को घुमाने का कोई तरीका है?* | इसे जोड़ने से पहले `rectangleShape.Rotation = 45;` (डिग्री) उपयोग करें। |
+| *क्या मुझे `Document` को डिस्पोज़ करना चाहिए?* | `Document` `IDisposable` को इम्प्लीमेंट करता है। वास्तविक एप्लिकेशन में इसे deterministic क्लीनअप के लिए `using` ब्लॉक में रैप करें। |
+
+## प्रो टिप्स और बेस्ट प्रैक्टिसेज
+
+- **बैच ऐडिशन्स:** यदि आप दर्जनों शैप्स जोड़ रहे हैं, तो पहले उन्हें एक लिस्ट में बनाएं, फिर पूरी लिस्ट को `Paragraphs` में जोड़ें—यह आंतरिक प्रोसेसिंग ओवरहेड को कम करता है।
+- **कोऑर्डिनेट सिस्टम:** Aspose.PDF पॉइंट्स (1 pt = 1/72 in) का उपयोग करता है। यदि आपका स्रोत डेटा अलग यूनिट (पिक्सेल या मिलीमीटर) में है तो उसे बदलना याद रखें।
+- **परफ़ॉर्मेंस:** बड़े PDFs के लिए, सेव करने से पहले `pdfDocument.Optimize()` एनेबल करने पर विचार करें; यह स्ट्रीम्स को कम्प्रेस करता है और फ़ाइल साइज घटाता है।
+- **एरर हैंडलिंग:** पूरे फ्लो को `try/catch` में रैप करें और बेहतर डायग्नॉस्टिक्स के लिए `PdfException` को लॉग करें।
+
+## निष्कर्ष
+
+अब आप बिल्कुल जानते हैं कि Aspose.PDF के साथ **how to create pdf document** कैसे किया जाता है, **add page pdf** कैसे किया जाता है, और **draw rectangle pdf** कैसे किया जाता है जबकि बाउंड्स की सुरक्षित जाँच की जाती है। ऊपर दिया गया पूर्ण उदाहरण किसी भी .NET प्रोजेक्ट में डाला जा सकता है, जिससे आपको इमेज, टेबल या डिजिटल सिग्नेचर जैसी उन्नत PDF कार्यों के लिए एक ठोस आधार मिलता है।
+
+अगले कदम के लिए तैयार हैं? आयत को `Ellipse` से बदलें, लेयर्ड ग्राफ़िक्स के साथ प्रयोग करें, या डेटा रोज़ पर लूप करके मल्टी‑पेज रिपोर्ट जनरेट करें। वही सिद्धांत—इनिशियलाइज़, पेज जोड़ें, शैप्स ड्रॉ करें, सेव करें—सभी PDF जनरेशन सीनारियो में लागू होते हैं।
+
+यदि आपको कोई समस्या आती है या आगे के सुधारों के लिए आपके पास विचार हैं, तो बेझिझक कमेंट छोड़ें। कोडिंग का आनंद लें, और सुंदर PDFs बनाने का मज़ा उठाएँ!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

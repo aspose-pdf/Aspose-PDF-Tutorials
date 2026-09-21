@@ -46,6 +46,19 @@ Az Aspose.PDF for .NET „Címkézett PDF-ekkel való programozás” című okt
 | [PDF fájl érvényesítése](./validate-pdf/) | Ismerje meg, hogyan validálhat egy PDF fájlt az Aspose.PDF for .NET segítségével. Ellenőrizze a szabványoknak való megfelelését, és készítsen érvényesítési jelentést. |  
 | [Címkézett PDF létrehozása C#‑ban – Lépésről‑lépésre útmutató](./create-tagged-pdf-in-c-step-by-step-guide/) | Ismerje meg, hogyan hozhat létre címkézett PDF-et C#‑ban az Aspose.PDF for .NET segítségével, részletes lépésről‑lépésre útmutatóval. |  
 | [Címkézett PDF létrehozása C#‑ban – Teljes lépésről‑lépésre útmutató](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Ismerje meg, hogyan hozhat létre teljesen címkézett PDF-et C#‑ban az Aspose.PDF for .NET segítségével, részletes lépésről‑lépésre útmutatóval. |  
+| [Címkézett PDF létrehozása C#‑ban – Aspose PDF teljes útmutató](./create-tagged-pdf-in-c-aspose-pdf-complete-guide/) | Ismerje meg, hogyan hozhat létre teljesen címkézett PDF-et C#‑ban az Aspose.PDF for .NET segítségével, részletes lépésről‑lépésre útmutatóval. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+| [Hogyan címkézzük a PDF-et az Aspose-szal – Teljes útmutató a PDF hozzáférhetőségi címkékhez](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) | Lépésről lépésre útmutató a PDF-ek hozzáférhetőségi címkéinek létrehozásához az Aspose.PDF for .NET segítségével. |
+| [PDF hozzáférhetővé tétele Aspose-szal: Bekezdés beszúrása PDF-be lépésről‑lépésre](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Ismerje meg, hogyan szúrhat be bekezdést egy PDF-be az Aspose.PDF for .NET segítségével, hogy javítsa a hozzáférhetőséget. |
+| [Címkézett PDF létrehozása C#-ban – Fejléc és akadálymentes szöveg hozzáadása](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Tanulja meg, hogyan hozhat létre címkézett PDF-et C#-ban, fejléccel és akadálymentes szöveggel az Aspose.PDF for .NET segítségével. |
+| [Akadálymentes PDF létrehozása Aspose.Pdf‑vel – Lépésről‑lépésre útmutató](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Ismerje meg, hogyan hozhat létre akadálymentes PDF-et az Aspose.Pdf segítségével lépésről‑lépésre útmutatóval. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

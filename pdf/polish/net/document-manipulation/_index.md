@@ -89,7 +89,7 @@ Dowiedz się, jak skutecznie usuwać strony z dokumentów PDF za pomocą Aspose.
 ### [Wyodrębnij strony za pomocą Aspose.PDF dla .NET: kompleksowy przewodnik](./extract-pages-aspose-pdf-net/)
 Dowiedz się, jak wydajnie wyodrębniać określone strony z plików PDF w aplikacjach .NET przy użyciu Aspose.PDF. Ten przewodnik obejmuje konfigurację, implementację i praktyczne przypadki użycia.
 
-### [Wyodrębnij określone strony z pliku PDF za pomocą Aspose.PDF dla .NET](./extract-pdf-pages-aspose-dotnet/)
+### [Wyodrębnić określone strony z pliku PDF za pomocą Aspose.PDF dla .NET](./extract-pdf-pages-aspose-dotnet/)
 Samouczek dotyczący kodu dla Aspose.PDF Net
 
 ### [Ukryj numery stron spisu treści w plikach PDF za pomocą Aspose.PDF dla .NET: przewodnik krok po kroku](./hide-toc-page-numbers-aspose-pdf-dotnet/)
@@ -191,6 +191,9 @@ Dowiedz się, jak skutecznie usunąć cały tekst z pliku PDF za pomocą Aspose.
 ### [Jak usunąć akcje otwierania plików PDF za pomocą Aspose.PDF dla .NET: kompletny przewodnik](./remove-pdf-open-action-aspose-dotnet-guide/)
 Dowiedz się, jak wyeliminować niechciane otwarte akcje z plików PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik zawiera instrukcje krok po kroku i najlepsze praktyki.
 
+### [Jak redagować PDF w C# – Ukryj tekst PDF i usuń zawartość PDF](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
+Dowiedz się, jak ukrywać tekst i usuwać zawartość w plikach PDF przy użyciu Aspose.PDF dla .NET w języku C#.
+
 ### [Jak dzielić strony PDF za pomocą Aspose.PDF dla .NET: kompletny przewodnik](./mastering-pdf-page-splitting-aspose-pdf-net/)
 Dowiedz się, jak efektywnie dzielić strony PDF na pojedyncze pliki za pomocą Aspose.PDF dla .NET dzięki temu kompleksowemu przewodnikowi. Popraw swoje umiejętności manipulowania dokumentami już dziś.
 
@@ -236,7 +239,7 @@ Dowiedz się, jak skutecznie zarządzać plikami PDF za pomocą Aspose.PDF dla .
 ### [Opanuj manipulację plikami PDF w .NET za pomocą Aspose.PDF: kompleksowy przewodnik](./aspose-pdf-net-tutorial/)
 Dowiedz się, jak programowo zarządzać plikami PDF w .NET za pomocą Aspose.PDF. Ten przewodnik obejmuje ładowanie dokumentów, dostęp do pól formularzy i iterowanie opcji.
 
-### [Opanuj manipulację plikami PDF za pomocą Aspose.PDF .NET: kompleksowy przewodnik po automatyzacji dokumentów](./master-pdf-manipulation-aspose-dotnet-guide/)
+### [Opanuj manipulację plikami PDF w .NET za pomocą Aspose.PDF: kompleksowy przewodnik](./master-pdf-manipulation-aspose-pdf-net-guide/)
 Dowiedz się, jak automatyzować zadania związane z plikami PDF za pomocą Aspose.PDF dla platformy .NET, w tym łączenie plików, dodawanie stron, wstawianie znaczników tekstowych i tworzenie łączy.
 
 ### [Opanuj manipulację plikami PDF za pomocą Aspose.PDF .NET: Łatwe ładowanie i modyfikowanie dokumentów](./mastering-pdf-manipulation-aspose-dotnet/)
@@ -309,7 +312,9 @@ Dowiedz się, jak podzielić strony PDF na osobne pliki przy użyciu Aspose.PDF 
 Dowiedz się, jak dzielić wielostronicowe pliki PDF i tworzyć nowe pliki PDF za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z tym kompleksowym przewodnikiem z przykładami kodu.
 
 ### [Najlepszy przewodnik po manipulacji plikami PDF za pomocą Aspose.PDF .NET: Ładowanie, zapisywanie i zamiana tekstu w sposób wydajny](./master-pdf-manipulation-aspose-pdf-net/)
-Dowiedz się, jak opanować manipulację PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje ładowanie, zapisywanie i zastępowanie tekstu w plikach PDF, co jest idealne dla programistów poszukujących wydajności.
+
+### [Jak naprawić PDF w C# – Szybko napraw uszkodzone pliki PDF](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
+Dowiedz się, jak w C# szybko naprawić uszkodzone pliki PDF przy użyciu Aspose.PDF.
 
 ### [Jak redagować plik PDF w C# przy użyciu Aspose PDF – Kompletny przewodnik](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
 Dowiedz się, jak usuwać wrażliwe informacje z dokumentów PDF przy użyciu Aspose PDF w C# w tym kompletnym przewodniku.

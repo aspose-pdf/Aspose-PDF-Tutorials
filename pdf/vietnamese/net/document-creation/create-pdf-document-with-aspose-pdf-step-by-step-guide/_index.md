@@ -1,21 +1,19 @@
 ---
 category: general
-date: 2026-03-06
+date: 2026-01-10
 description: Tạo tài liệu PDF bằng Aspose.PDF trong C#. Tìm hiểu cách thêm trang PDF,
-  vẽ hình chữ nhật PDF, thêm hình dạng PDF và điều chỉnh độ dày viền của hình chữ
-  nhật — tất cả trong một hướng dẫn.
+  vẽ hình chữ nhật PDF và nhiều hơn nữa trong hướng dẫn đầy đủ này.
 draft: false
 keywords:
 - create pdf document
 - add page pdf
 - draw rectangle pdf
-- add shape pdf
-- rectangle border thickness
+- how to create pdf
+- how to add rectangle
 language: vi
-og_description: Tạo tài liệu PDF trong C# với Aspose.PDF. Hướng dẫn này cho thấy cách
-  thêm trang PDF, vẽ hình chữ nhật PDF, thêm hình dạng PDF và thiết lập độ dày viền
-  của hình chữ nhật.
-og_title: Tạo tài liệu PDF với Aspose.PDF – Hướng dẫn đầy đủ
+og_description: Tạo tài liệu PDF bằng Aspose.PDF trong C#. Tham khảo hướng dẫn này
+  để thêm trang PDF, vẽ hình chữ nhật PDF và tạo PDF chuyên nghiệp.
+og_title: Tạo tài liệu PDF với Aspose.PDF – Hướng dẫn toàn diện
 tags:
 - Aspose.PDF
 - C#
@@ -30,208 +28,222 @@ url: /vi/net/document-creation/create-pdf-document-with-aspose-pdf-step-by-step-
 
 # Tạo tài liệu PDF với Aspose.PDF – Hướng dẫn từng bước
 
-Bạn đã bao giờ cần **tạo tài liệu PDF** một cách lập trình và không chắc bắt đầu từ đâu chưa? Bạn không đơn độc—nhiều nhà phát triển gặp cùng một khó khăn khi ứng dụng của họ cần tạo ra hoá đơn, báo cáo hoặc chứng chỉ một cách nhanh chóng.  
+Bạn đã bao giờ cần **create PDF document** một cách lập trình và không biết bắt đầu từ đâu chưa? Bạn không phải là người duy nhất—các nhà phát triển trên toàn thế giới gặp phải rào cản này khi họ cố gắng tự động hoá báo cáo, hoá đơn hoặc chứng chỉ. Tin tốt? Với Aspose.PDF cho .NET, bạn có thể tạo một PDF chỉ trong vài dòng C#.
 
-Tin tốt là với Aspose.PDF cho .NET, bạn có thể thực hiện điều này chỉ trong vài dòng code, và bạn cũng sẽ học cách **add page PDF**, **draw rectangle PDF**, **add shape PDF**, và điều chỉnh **rectangle border thickness** trong quá trình. Hãy cùng bắt đầu.
+Trong hướng dẫn này, chúng tôi sẽ đi qua toàn bộ quy trình: từ khởi tạo tài liệu, đến **add page PDF**, đến **draw rectangle PDF**, và cuối cùng là lưu tệp. Khi kết thúc, bạn sẽ có một ví dụ chạy được vững chắc và hiểu rõ **how to create pdf** một cách tự tin.
 
-## Những gì bạn sẽ xây dựng
+## Những gì hướng dẫn này bao gồm
 
-Khi kết thúc hướng dẫn này, bạn sẽ có một ứng dụng console C# hoạt động đầy đủ mà:
+- Các yêu cầu trước khi viết code  
+- Tạo PDF document từng bước  
+- Thêm một trang mới vào tài liệu đó (hoạt động **add page pdf** cổ điển)  
+- Vẽ hình chữ nhật, kiểm tra giới hạn và chèn nó (phần “**draw rectangle pdf**”)  
+- Những khó khăn thường gặp và mẹo chuyên nghiệp để tạo PDF mạnh mẽ  
+- Một mẫu mã hoàn chỉnh, sẵn sàng copy‑and‑paste mà bạn có thể chạy ngay hôm nay  
 
-1. **Tạo một tài liệu PDF** từ đầu.  
-2. **Thêm một trang PDF** vào tài liệu.  
-3. **Vẽ một hình chữ nhật PDF** trên trang đó.  
-4. **Xác thực** rằng hình chữ nhật nằm trong giới hạn trang (**add shape PDF** step).  
-5. Đặt độ dày **border rectangle** tùy chỉnh.  
-6. Lưu kết quả dưới tên `ShapeValidated.pdf`.
+Không có tham chiếu bên ngoài, không thiếu bất kỳ phần nào—chỉ một giải pháp tự chứa mà bạn có thể trích dẫn hoặc chia sẻ.
 
-Không có dịch vụ bên ngoài, không có cấu hình bí ẩn—chỉ cần C# thuần và Aspose.PDF.
+## Yêu cầu trước
 
-### Yêu cầu trước
+| Yêu cầu | Lý do quan trọng |
+|-------------|----------------|
+| .NET 6.0 or later (or .NET Framework 4.6+) | Aspose.PDF hỗ trợ cả hai; các runtime mới hơn mang lại hiệu năng tốt hơn. |
+| Aspose.PDF for .NET NuGet package (`Aspose.Pdf`) | Thư viện cung cấp các lớp `Document`, `Page`, và drawing mà chúng ta sẽ sử dụng. |
+| A C# IDE (Visual Studio, Rider, VS Code) | Giúp việc biên dịch và gỡ lỗi trở nên dễ dàng. |
+| Write permission to the output folder | Cần thiết cho lời gọi `Save` cuối cùng. |
 
-- .NET 6.0 hoặc mới hơn (code cũng hoạt động với .NET Framework 4.6+).  
-- Tham chiếu tới gói NuGet `Aspose.Pdf`. Bạn có thể thêm nó qua:
+Cài đặt gói qua NuGet:
 
 ```bash
 dotnet add package Aspose.Pdf
 ```
 
-- Một trình soạn thảo văn bản hoặc IDE—Visual Studio, VS Code, Rider, bất kỳ công cụ nào bạn thích.
+Xong—khi gói đã được cài đặt, bạn đã sẵn sàng **create pdf document**.
 
-> **Mẹo chuyên nghiệp:** Nếu bạn đang làm việc trên máy công ty, hãy chắc chắn nguồn NuGet không bị chặn; nếu không bạn sẽ nhận được lỗi “Package not found”.
+## Bước 1 – Tạo PDF Document (Khởi tạo)
 
----
-
-## Tạo tài liệu PDF – Khởi tạo Document
-
-Bước đầu tiên là tạo một đối tượng `Document`. Hãy nghĩ nó như một bảng vẽ trống, nơi mọi trang và hình dạng sẽ được đặt.
+Điều đầu tiên chúng ta làm là khởi tạo một `Document` mới. Hãy nghĩ đây là nền trắng nơi mọi trang, hình ảnh hoặc hình dạng sẽ tồn tại.
 
 ```csharp
 using Aspose.Pdf;
 using Aspose.Pdf.Drawing;
 
-// Step 1: Create a new PDF document
-Document pdfDocument = new Document();
+// Step 1: Initialize a fresh PDF document
+var pdfDocument = new Document();
 ```
 
-Tại sao chúng ta cần đối tượng này? Nó đại diện cho toàn bộ tệp PDF trong bộ nhớ, cho phép chúng ta truy cập vào bộ sưu tập `Pages`, siêu dữ liệu và cài đặt bảo mật. Khi đã có document, bạn có thể bắt đầu thêm các trang, văn bản, hình ảnh và đồ họa vector.
+> **Why this matters:** `Document` là đối tượng gốc. Không có nó, bạn không thể thêm trang hoặc nội dung, vì vậy bước này là cần thiết cho **how to create pdf** từ đầu.
 
----
+## Bước 2 – Add Page PDF
 
-## Thêm một trang vào PDF (add page pdf)
-
-Một PDF không có trang thực chất là một tệp rỗng—vô nghĩa. Thêm một trang rất đơn giản, và bạn có thể tùy chỉnh kích thước nếu muốn. Ở đây chúng ta dùng kích thước A4 mặc định.
+Một PDF không có trang chỉ là phần tiêu đề tệp. Hãy thêm một trang, nơi chúng ta sẽ vẽ hình chữ nhật sau này.
 
 ```csharp
 // Step 2: Add a new page to the document
-Page pdfPage = pdfDocument.Pages.Add();
+var pdfPage = pdfDocument.Pages.Add();
 ```
 
-Phương thức `Add()` trả về một thể hiện `Page` mới đã nằm trong bộ sưu tập `Pages`, vì vậy bạn có thể ngay lập tức bắt đầu vẽ trên nó. Trong các trường hợp thực tế, bạn có thể lặp qua một tập dữ liệu và thêm hàng chục trang; cùng một lời gọi một dòng sẽ hoạt động cho mỗi vòng lặp.
+> **Pro tip:** Phương thức `Add()` trả về đối tượng `Page` mới tạo, vì vậy bạn có thể nối các hành động tiếp theo mà không cần tìm lại trong bộ sưu tập.
 
----
+### Kiểm tra kích thước trang (Tùy chọn)
 
-## Vẽ hình chữ nhật (draw rectangle pdf)
-
-Bây giờ là phần trực quan: một hình chữ nhật với viền rõ ràng. Đây là nơi **draw rectangle pdf** được sử dụng.
+Nếu bạn dự định đặt các hình dạng một cách chính xác, bạn có thể muốn biết kích thước trang:
 
 ```csharp
-// Step 3: Define a rectangle shape with a border
-RectangleShape rectangleShape = new RectangleShape
-{
-    // Rectangle coordinates: lower‑left (50,50), upper‑right (600,800)
-    Rect = new Rectangle(50, 50, 600, 800),
-    // Set the border thickness – this is the rectangle border thickness
-    Border = new BorderInfo(BorderSide.All, 2) // 2 points thick
-};
+float pageWidth = pdfPage.PageInfo.Width;   // default A4 width in points
+float pageHeight = pdfPage.PageInfo.Height; // default A4 height in points
+Console.WriteLine($"Page size: {pageWidth}×{pageHeight} points");
 ```
 
-Một vài điểm cần lưu ý:
+Đoạn mã này không bắt buộc cho luồng cơ bản, nhưng nó hữu ích khi bạn **how to add rectangle** với tọa độ chính xác.
 
-- `Rect` sử dụng đơn vị point (1 pt ≈ 1/72 inch). Các tọa độ xác định góc dưới‑trái và góc trên‑phải, cho phép bạn kiểm soát độ rộng và chiều cao một cách chính xác.  
-- `BorderInfo` cho phép bạn chỉ định các cạnh nào có đường viền và độ dày của đường. Ở đây chúng ta áp dụng đường 2 point cho **tất cả** các cạnh, tạo cho hình chữ nhật một vẻ ngoài sạch sẽ, đồng nhất.
+## Bước 3 – Draw Rectangle PDF (Kiểm tra giới hạn & Chèn)
 
----
-
-## Xác thực vị trí hình (add shape pdf)
-
-Trước khi chúng ta ghi hình chữ nhật vào trang, nên kiểm tra xem nó có nằm trong khu vực có thể in của trang hay không. Aspose.PDF cung cấp một phương thức trợ giúp tiện lợi cho việc này.
+Bây giờ là phần thú vị: vẽ một hình chữ nhật. Chúng ta sẽ định nghĩa một hình chữ nhật, kiểm tra xem nó có vừa trong trang không, và sau đó thêm nó vào bộ sưu tập paragraph của trang.
 
 ```csharp
-// Step 4: Verify that the shape fits within the page boundaries
-if (pdfPage.IsShapeWithinBounds(rectangleShape.Rect))
+// Step 3: Define a rectangle shape (LLX, LLY, URX, URY)
+// LLX = lower‑left X, LLY = lower‑left Y, URX = upper‑right X, URY = upper‑right Y
+var rectangleShape = new Rectangle(100, 500, 300, 700);
+
+// Step 4: Verify that the rectangle lies within the page bounds
+bool isInside = rectangleShape.LLX >= 0 &&
+                rectangleShape.URX <= pdfPage.PageInfo.Width &&
+                rectangleShape.LLY >= 0 &&
+                rectangleShape.URY <= pdfPage.PageInfo.Height;
+
+if (isInside)
 {
-    // Shape is inside the page – add it
-    pdfPage.Add(rectangleShape);
+    // Step 5: Add the rectangle to the page's paragraphs collection
+    pdfPage.Paragraphs.Add(rectangleShape);
 }
 else
 {
-    Console.WriteLine("Shape exceeds page boundaries.");
+    Console.WriteLine("Rectangle exceeds page bounds – adjust coordinates.");
 }
 ```
 
-Tại sao lại quan tâm? Nếu bạn vô tình đặt một hình phần nào đó ra ngoài màn hình, trình xem PDF có thể cắt bớt, gây ra trải nghiệm người dùng khó hiểu. Điều kiện bảo vệ **add shape pdf** này đảm bảo bạn chỉ thêm nội dung sẽ hiển thị đầy đủ.
+> **Why we check bounds:** Cố gắng vẽ ra ngoài trang có thể dẫn đến các hình không hiển thị hoặc cảnh báo thời gian chạy. Điều kiện này đảm bảo chúng ta **draw rectangle pdf** một cách an toàn.
 
----
+### Tùy chỉnh giao diện
 
-## Lưu PDF (add page pdf)
-
-Cuối cùng, chúng ta ghi tài liệu trong bộ nhớ ra đĩa. Bạn có thể chọn bất kỳ vị trí nào mà bạn có quyền ghi.
+Bạn có thể tạo kiểu cho hình chữ nhật với viền hoặc màu nền:
 
 ```csharp
-// Step 5: Save the PDF to a file
-pdfDocument.Save("YOUR_DIRECTORY/ShapeValidated.pdf");
-Console.WriteLine("PDF created successfully!");
-```
-
-Sau khi chạy chương trình, mở `ShapeValidated.pdf`—bạn sẽ thấy một trang duy nhất với một hình chữ nhật có viền gọn gàng, nằm gần trung tâm.
-
----
-
-## Kết quả mong đợi
-
-Khi bạn mở PDF đã tạo, bạn sẽ thấy:
-
-- Một trang kích thước A4.  
-- Một hình chữ nhật có góc dưới‑trái bắt đầu tại (50 pt, 50 pt) và góc trên‑phải kết thúc tại (600 pt, 800 pt).  
-- Một viền **dày 2 point** bao quanh hình chữ nhật.
-
-Nếu console in ra “PDF created successfully!”, bạn biết rằng mã đã chạy thành công mà không gặp lỗi kiểm tra giới hạn.
-
-![Sơ đồ minh họa cách tạo tài liệu PDF với Aspose.PDF](https://example.com/diagram-create-pdf.png "Tạo tài liệu PDF – tổng quan trực quan")
-
-*Văn bản thay thế của hình ảnh bao gồm từ khóa chính để đáp ứng yêu cầu SEO.*
-
----
-
-## Câu hỏi thường gặp & Trường hợp đặc biệt
-
-### Nếu tôi cần kích thước trang khác thì sao?
-
-Thay thế trang mặc định bằng kích thước tùy chỉnh:
-
-```csharp
-Page customPage = pdfDocument.Pages.Add();
-customPage.SetPageSize(PageSize.A5);
-```
-
-### Làm thế nào để thay đổi màu viền?
-
-```csharp
-rectangleShape.Border = new BorderInfo(BorderSide.All, 2)
+rectangleShape.GraphInfo = new GraphInfo
 {
-    Color = Color.Red
+    // Set a thin black border
+    LineWidth = 1,
+    StrokeColor = Color.Black,
+    // Optional fill (transparent by default)
+    FillColor = Color.LightGray
 };
 ```
 
-### Tôi có thể thêm nhiều hình trên cùng một trang không?
+Hãy thoải mái thử nghiệm—các màu khác nhau, độ rộng đường, hoặc thậm chí các nét gạch đứt.
 
-Chắc chắn. Chỉ cần lặp lại khối **add shape pdf** với `RectangleShape` mới (hoặc các lớp con `Shape` khác) và điều chỉnh tọa độ `Rect` cho phù hợp.
+## Bước 4 – Lưu PDF Document
 
-### Nếu hình chữ nhật vượt quá giới hạn trang thì sao?
-
-Lệnh gọi `IsShapeWithinBounds` sẽ trả về `false`. Trong mã sản xuất bạn có thể muốn tự động thay đổi kích thước hình:
+Bước cuối cùng là lưu tài liệu ra đĩa. Chọn một thư mục bạn có quyền ghi và đặt tên tệp rõ ràng.
 
 ```csharp
-if (!pdfPage.IsShapeWithinBounds(rectangleShape.Rect))
-{
-    // Shrink to fit
-    rectangleShape.Rect = pdfPage.PageInfo.TrimBox;
-}
-pdfPage.Add(rectangleShape);
+// Step 6: Save the PDF document to a file
+string outputPath = Path.Combine(Environment.CurrentDirectory, "ShapeChecked.pdf");
+pdfDocument.Save(outputPath);
+
+Console.WriteLine($"PDF saved successfully at: {outputPath}");
 ```
 
----
+Khi bạn mở `ShapeChecked.pdf`, bạn sẽ thấy một trang duy nhất với một hình chữ nhật màu xám nhạt nằm giữa (100, 500) và (300, 700). Đó là kết quả của quy trình **create pdf document** của chúng ta.
 
-## Tóm tắt
+![Create PDF Document example](image.png){alt="Ví dụ tạo PDF document hiển thị một hình chữ nhật trên trang"}
 
-Chúng ta đã đi qua toàn bộ vòng đời của **tạo tài liệu PDF** với Aspose.PDF:
+## Ví dụ làm việc đầy đủ (Sẵn sàng Copy‑Paste)
 
-1. Khởi tạo `Document`.  
-2. **Thêm một trang PDF** bằng `Pages.Add()`.  
-3. **Vẽ một hình chữ nhật PDF** qua `RectangleShape`.  
-4. **Thêm hình PDF** chỉ sau khi xác nhận nó nằm trong trang.  
-5. Kiểm soát **độ dày viền hình chữ nhật** bằng `BorderInfo`.  
-6. Lưu tệp.
+Dưới đây là toàn bộ chương trình, sẵn sàng biên dịch. Không thiếu bất kỳ phần nào, không có tham chiếu bên ngoài.
 
-Đó là toàn bộ quy trình trong chưa tới 60 dòng code.
+```csharp
+using System;
+using System.IO;
+using Aspose.Pdf;
+using Aspose.Pdf.Drawing;
+using Aspose.Pdf.Color; // For color definitions
 
----
+class Program
+{
+    static void Main()
+    {
+        // 1️⃣ Create PDF document
+        var pdfDocument = new Document();
 
-## Tiếp theo là gì?
+        // 2️⃣ Add page PDF
+        var pdfPage = pdfDocument.Pages.Add();
 
-- **Thêm văn bản**: Sử dụng `TextFragment` để đặt tiêu đề hoặc nhãn bên trong hình chữ nhật.  
-- **Chèn hình ảnh**: Lớp `Image` cho phép bạn nhúng logo hoặc biểu đồ.  
-- **Tạo bảng**: Lý tưởng cho hoá đơn hoặc báo cáo dữ liệu.  
-- **Áp dụng bảo mật**: Bảo vệ PDF bằng mật khẩu nếu nó chứa dữ liệu nhạy cảm.  
+        // Optional: show page size
+        Console.WriteLine($"Page size: {pdfPage.PageInfo.Width}×{pdfPage.PageInfo.Height} points");
 
-Mỗi chủ đề trên dựa trên những kiến thức cơ bản ở đây, vì vậy bạn đã sẵn sàng để khám phá các kịch bản tạo PDF nâng cao hơn.
+        // 3️⃣ Define rectangle (draw rectangle PDF)
+        var rectangleShape = new Rectangle(100, 500, 300, 700);
 
-### Tiếp tục thử nghiệm
+        // Style the rectangle (optional)
+        rectangleShape.GraphInfo = new GraphInfo
+        {
+            LineWidth = 1,
+            StrokeColor = Color.Black,
+            FillColor = Color.LightGray
+        };
 
-Đừng dừng lại ở một hình chữ nhật duy nhất—hãy thử nghiệm với các hình dạng, màu sắc và kiểu đường khác nhau. API của Aspose.PDF rất phong phú, và càng thử nghiệm bạn sẽ càng thoải mái. Nếu gặp khó khăn, tài liệu chính thức của Aspose là người bạn đồng hành tốt, nhưng hãy nhớ rằng đoạn code ở trên là một giải pháp hoàn chỉnh, sẵn sàng sao chép‑dán và có thể chạy ngay hôm nay.
+        // 4️⃣ Verify bounds before adding
+        bool fits = rectangleShape.LLX >= 0 &&
+                    rectangleShape.URX <= pdfPage.PageInfo.Width &&
+                    rectangleShape.LLY >= 0 &&
+                    rectangleShape.URY <= pdfPage.PageInfo.Height;
 
-Chúc lập trình vui vẻ, và hy vọng các PDF của bạn luôn hiển thị đúng như mong muốn!
+        if (fits)
+        {
+            // 5️⃣ Add rectangle to the page
+            pdfPage.Paragraphs.Add(rectangleShape);
+            Console.WriteLine("Rectangle added successfully.");
+        }
+        else
+        {
+            Console.WriteLine("Rectangle is out of page bounds – adjust coordinates.");
+        }
+
+        // 6️⃣ Save the PDF
+        string outputFile = Path.Combine(Environment.CurrentDirectory, "ShapeChecked.pdf");
+        pdfDocument.Save(outputFile);
+        Console.WriteLine($"PDF saved at: {outputFile}");
+    }
+}
+```
+
+Chạy chương trình này sẽ tạo ra một tệp `ShapeChecked.pdf` ngay bên cạnh tệp thực thi. Mở nó bằng bất kỳ trình xem PDF nào; bạn sẽ thấy hình chữ nhật mà chúng ta đã vẽ—chứng minh rằng bạn đã thành công **create pdf document**, **add page pdf**, và **draw rectangle pdf** trong một lần.
+
+## Các câu hỏi thường gặp & Trường hợp đặc biệt
+
+| Câu hỏi | Câu trả lời |
+|----------|--------|
+| *Nếu tôi cần kích thước trang khác thì sao?* | Đặt `pdfPage.PageInfo.Width` và `Height` trước khi vẽ, hoặc tạo một `Page` với enum `PageSize` tùy chỉnh (ví dụ, `PageSize.Letter`). |
+| *Tôi có thể thêm nhiều hình chữ nhật không?* | Chắc chắn—chỉ cần lặp lại khối tạo hình chữ nhật và thêm mỗi hình vào `pdfPage.Paragraphs`. |
+| *Điều gì xảy ra với các PDF rất nhỏ?* | Kiểm tra giới hạn sẽ ngăn các tọa độ vượt ra ngoài, vì vậy mã sẽ thất bại một nhẹ nhàng với thông báo trên console. |
+| *Có cách nào để xoay hình chữ nhật không?* | Sử dụng `rectangleShape.Rotation = 45;` (độ) trước khi thêm nó. |
+| *Tôi có cần giải phóng `Document` không?* | `Document` triển khai `IDisposable`. Trong ứng dụng thực tế, hãy bọc nó trong khối `using` để dọn dẹp một cách xác định. |
+
+## Mẹo chuyên nghiệp & Thực hành tốt nhất
+
+- **Batch additions:** Nếu bạn đang thêm hàng chục hình dạng, hãy xây dựng chúng trong một danh sách trước, sau đó thêm toàn bộ danh sách vào `Paragraphs`—điều này giảm tải xử lý nội bộ.  
+- **Coordinate system:** Aspose.PDF sử dụng điểm (1 pt = 1/72 in). Hãy nhớ chuyển đổi từ pixel hoặc milimet nếu dữ liệu nguồn của bạn sử dụng đơn vị khác.  
+- **Performance:** Đối với PDF lớn, hãy cân nhắc bật `pdfDocument.Optimize()` trước khi lưu; nó nén các stream và giảm kích thước tệp.  
+- **Error handling:** Bọc toàn bộ luồng trong `try/catch` và ghi log `PdfException` để chẩn đoán tốt hơn.  
+
+## Kết luận
+
+Bạn đã biết chính xác **how to create pdf document** với Aspose.PDF, cách **add page pdf**, và cách **draw rectangle pdf** đồng thời kiểm tra giới hạn một cách an toàn. Ví dụ hoàn chỉnh ở trên có thể được chèn vào bất kỳ dự án .NET nào, cung cấp cho bạn nền tảng vững chắc cho các nhiệm vụ PDF nâng cao hơn như chèn hình ảnh, bảng, hoặc chữ ký số.
+
+Sẵn sàng cho bước tiếp theo? Hãy thử thay thế hình chữ nhật bằng một `Ellipse`, thử nghiệm với đồ họa lớp, hoặc tạo báo cáo đa trang bằng cách lặp qua các hàng dữ liệu. Các nguyên tắc giống nhau—khởi tạo, thêm trang, vẽ hình, lưu—áp dụng cho mọi kịch bản tạo PDF.
+
+Nếu bạn gặp khó khăn hoặc có ý tưởng cải tiến, hãy thoải mái để lại bình luận. Chúc lập trình vui vẻ, và tận hưởng việc tạo ra các PDF đẹp mắt!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

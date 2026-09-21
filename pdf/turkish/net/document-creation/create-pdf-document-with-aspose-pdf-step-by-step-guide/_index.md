@@ -1,21 +1,19 @@
 ---
 category: general
-date: 2026-03-06
-description: C#'ta Aspose.PDF kullanarak PDF belgesi oluşturun. PDF sayfası eklemeyi,
-  PDF'de dikdörtgen çizmeyi, PDF'ye şekil eklemeyi ve dikdörtgen kenar kalınlığını
-  kontrol etmeyi tek bir öğreticide öğrenin.
+date: 2026-01-10
+description: Aspose.PDF kullanarak C# ile PDF belgesi oluşturun. Bu kapsamlı öğreticide
+  sayfa PDF eklemeyi, dikdörtgen PDF çizmeyi ve daha fazlasını öğrenin.
 draft: false
 keywords:
 - create pdf document
 - add page pdf
 - draw rectangle pdf
-- add shape pdf
-- rectangle border thickness
+- how to create pdf
+- how to add rectangle
 language: tr
-og_description: Aspose.PDF ile C#’ta PDF belgesi oluşturun. Bu öğreticide sayfa PDF
-  ekleme, dikdörtgen PDF çizme, şekil PDF ekleme ve dikdörtgen kenar kalınlığını ayarlama
-  gösterilmektedir.
-og_title: Aspose.PDF ile PDF Belgesi Oluşturma – Tam Kılavuz
+og_description: C#'ta Aspose.PDF kullanarak PDF belgesi oluşturun. Sayfa ekleme, dikdörtgen
+  çizme ve PDF oluşturma konularında uzmanlaşmak için bu öğreticiyi izleyin.
+og_title: Aspose.PDF ile PDF Belgesi Oluşturma – Tam Rehber
 tags:
 - Aspose.PDF
 - C#
@@ -30,208 +28,220 @@ url: /tr/net/document-creation/create-pdf-document-with-aspose-pdf-step-by-step-
 
 # Aspose.PDF ile PDF Belgesi Oluşturma – Adım Adım Kılavuz
 
-Programatik olarak **PDF belgesi oluşturma** ihtiyacı hiç duydunuz mu ve nereden başlayacağınızı bilemediniz mi? Yalnız değilsiniz—birçok geliştirici, uygulamalarının anında faturalar, raporlar veya sertifikalar üretmesi gerektiğinde aynı sorunla karşılaşıyor.
+Programlı olarak **PDF belgesi oluşturma** ihtiyacı hiç duydunuz mu ve nereden başlayacağınızı bilemediniz mi? Tek başınıza değilsiniz—dünya çapındaki geliştiriciler raporları, faturaları veya sertifikaları otomatikleştirmeye çalışırken bu engelle karşılaşıyor. İyi haber? Aspose.PDF for .NET ile sadece birkaç C# satırıyla bir PDF oluşturabilirsiniz.
 
-İyi haber şu ki, Aspose.PDF for .NET ile bunu sadece birkaç satırda yapabilirsiniz ve ayrıca **add page PDF**, **draw rectangle PDF**, **add shape PDF** nasıl yapılır ve **rectangle border thickness** nasıl ayarlanır öğrenirsiniz. Hadi başlayalım.
+Bu öğreticide tüm süreci adım adım inceleyeceğiz: belgeyi başlatmaktan, **add page PDF** işlemine, **draw rectangle PDF** işlemine ve son olarak dosyayı kaydetmeye. Sonunda sağlam, çalıştırılabilir bir örnek ve **how to create pdf** konusunda net bir anlayışa sahip olacaksınız.
 
-## Oluşturacağınız Şey
+## Bu Kılavuzda Neler Kapsanıyor
 
-Bu kılavuzun sonunda tamamen işlevsel bir C# konsol uygulamanız olacak:
+- Kod yazmadan önce ihtiyacınız olan önkoşullar
+- PDF belgesinin adım adım oluşturulması
+- Belgeye yeni bir sayfa ekleme (klasik **add page pdf** işlemi)
+- Bir dikdörtgen şekli çizme, sınırlarını doğrulama ve ekleme (“**draw rectangle pdf**” bölümü)
+- Sağlam PDF oluşturma için yaygın tuzaklar ve profesyonel ipuçları
+- Bugün çalıştırabileceğiniz eksiksiz, kopyala‑yapıştır hazır kod örneği
 
-1. **Creates a PDF document**'i sıfırdan oluşturur.  
-2. **Adds a page PDF**'yi belgeye ekler.  
-3. **Draws a rectangle PDF**'yi o sayfada çizer.  
-4. **Validates**'ı, dikdörtgenin sayfa sınırları içinde kalıp kalmadığını kontrol eder (**add shape PDF** adımı).  
-5. Özel bir **rectangle border thickness** ayarlar.  
-6. Sonucu `ShapeValidated.pdf` olarak kaydeder.
+## Önkoşullar
 
-Harici hizmetler yok, gizemli yapılandırma yok—sadece saf C# ve Aspose.PDF.
+| Gereksinim | Neden Önemli |
+|------------|--------------|
+| .NET 6.0 or later (or .NET Framework 4.6+) | Aspose.PDF her ikisini de destekler; daha yeni çalışma zamanları daha iyi performans sağlar. |
+| Aspose.PDF for .NET NuGet package (`Aspose.Pdf`) | Kütüphane, kullanacağımız `Document`, `Page` ve çizim sınıflarını sağlar. |
+| A C# IDE (Visual Studio, Rider, VS Code) | Derleme ve hata ayıklamayı kolaylaştırır. |
+| Write permission to the output folder | Son `Save` çağrısı için gereklidir. |
 
-### Önkoşullar
-
-- .NET 6.0 veya daha yeni (kod .NET Framework 4.6+ ile de çalışır).  
-- `Aspose.Pdf` NuGet paketine referans. Şu şekilde ekleyebilirsiniz:
+Install the package via NuGet:
 
 ```bash
 dotnet add package Aspose.Pdf
 ```
 
-- Bir metin editörü veya IDE—Visual Studio, VS Code, Rider, neyi tercih ederseniz.
+Hepsi bu—paket yüklendikten sonra **create pdf document** işlemine hazırsınız.
 
-> **Pro ipucu:** Kurumsal bir makinede çalışıyorsanız, NuGet kaynağının engellenmediğinden emin olun; aksi takdirde “Package not found” hatası alırsınız.
+## Adım 1 – PDF Belgesi Oluşturma (Başlatma)
 
----
-
-## PDF Belgesi Oluşturma – Belgeyi Başlatma
-
-İlk adım bir `Document` nesnesi oluşturmaktır. Bunu, her sayfa ve şeklin yer alacağı boş bir tuval olarak düşünün.
+İlk yaptığımız şey yeni bir `Document` nesnesi oluşturmaktır. Bunu, her sayfanın, görüntünün veya şeklin yer alacağı boş bir tuval olarak düşünün.
 
 ```csharp
 using Aspose.Pdf;
 using Aspose.Pdf.Drawing;
 
-// Step 1: Create a new PDF document
-Document pdfDocument = new Document();
+// Step 1: Initialize a fresh PDF document
+var pdfDocument = new Document();
 ```
 
-Bu nesneye neden ihtiyacımız var? PDF dosyasının tamamını bellekte temsil eder, `Pages` koleksiyonuna, meta verilere ve güvenlik ayarlarına erişim sağlar. Belgeyi elde ettikten sonra sayfalar, metin, görüntüler ve vektör grafikler eklemeye başlayabilirsiniz.
+> **Neden önemli:** `Document` kök nesnedir. Onsuz sayfa veya içerik ekleyemezsiniz, bu yüzden bu adım **how to create pdf** için temeldir.
 
----
+## Adım 2 – Sayfa Ekleme PDF
 
-## PDF'ye Sayfa Ekleme (add page pdf)
-
-Sayfası olmayan bir PDF temelde boş bir dosyadır—anlamsız. Sayfa eklemek basittir ve isterseniz boyutunu özelleştirebilirsiniz. Burada varsayılan A4 boyutunu kullanıyoruz.
+Sayfası olmayan bir PDF sadece bir dosya başlığıdır. Daha sonra dikdörtgenimizi çizeceğimiz bir sayfa ekleyelim.
 
 ```csharp
 // Step 2: Add a new page to the document
-Page pdfPage = pdfDocument.Pages.Add();
+var pdfPage = pdfDocument.Pages.Add();
 ```
 
-`Add()` metodu, `Pages` koleksiyonunun bir parçası olan yeni bir `Page` örneği döndürür, böylece hemen üzerine çizmeye başlayabilirsiniz. Gerçek dünyada bir veri kümesi üzerinde döngü yapıp onlarca sayfa ekleyebilirsiniz; aynı tek satırlık çağrı her yineleme için çalışır.
+> **Pro ipucu:** `Add()` metodu yeni oluşturulan `Page` nesnesini döndürür, böylece koleksiyonu tekrar aramadan sonraki işlemleri zincirleyebilirsiniz.
 
----
+### Sayfa Boyutlarını Doğrulama (İsteğe Bağlı)
 
-## Dikdörtgen Şekli Çizme (draw rectangle pdf)
-
-Şimdi görsel kısma: görünür bir kenarlığa sahip bir dikdörtgen. İşte **draw rectangle pdf** burada devreye giriyor.
+Şekilleri hassas bir şekilde yerleştirmeyi planlıyorsanız, sayfa boyutunu bilmek isteyebilirsiniz:
 
 ```csharp
-// Step 3: Define a rectangle shape with a border
-RectangleShape rectangleShape = new RectangleShape
-{
-    // Rectangle coordinates: lower‑left (50,50), upper‑right (600,800)
-    Rect = new Rectangle(50, 50, 600, 800),
-    // Set the border thickness – this is the rectangle border thickness
-    Border = new BorderInfo(BorderSide.All, 2) // 2 points thick
-};
+float pageWidth = pdfPage.PageInfo.Width;   // default A4 width in points
+float pageHeight = pdfPage.PageInfo.Height; // default A4 height in points
+Console.WriteLine($"Page size: {pageWidth}×{pageHeight} points");
 ```
 
-Dikkat etmeniz gereken birkaç nokta:
+Bu kod parçası temel akış için gerekli değildir, ancak tam koordinatlarla **how to add rectangle** yaparken yardımcı olur.
 
-- `Rect` puan (point) birimini kullanır (1 pt ≈ 1/72 inç). Koordinatlar alt‑sol ve üst‑sağ köşeleri tanımlar, böylece genişlik ve yüksekliği hassas bir şekilde kontrol edebilirsiniz.  
-- `BorderInfo` hangi kenarlara çizgi ekleneceğini ve çizginin kalınlığını belirlemenizi sağlar. Burada **tüm** kenarlara 2 point kalınlığında bir çizgi uygulayarak dikdörtgene temiz, tekdüze bir görünüm kazandırıyoruz.
+## Adım 3 – Dikdörtgen Çizme PDF (Sınırları Kontrol Et & Ekle)
 
----
-
-## Şekil Yerleşimini Doğrulama (add shape pdf)
-
-Dikdörtgeni sayfaya eklemeden önce, sayfanın yazdırılabilir alanına sığıp sığmadığını doğrulamak akıllıca olur. Aspose.PDF bunun için kullanışlı bir yardımcı metot sunar.
+Şimdi eğlenceli kısım: bir dikdörtgen çizmek. Bir dikdörtgen tanımlayacağız, sayfanın içinde yer aldığını doğrulayacağız ve ardından sayfanın paragraf koleksiyonuna ekleyeceğiz.
 
 ```csharp
-// Step 4: Verify that the shape fits within the page boundaries
-if (pdfPage.IsShapeWithinBounds(rectangleShape.Rect))
+// Step 3: Define a rectangle shape (LLX, LLY, URX, URY)
+// LLX = lower‑left X, LLY = lower‑left Y, URX = upper‑right X, URY = upper‑right Y
+var rectangleShape = new Rectangle(100, 500, 300, 700);
+
+// Step 4: Verify that the rectangle lies within the page bounds
+bool isInside = rectangleShape.LLX >= 0 &&
+                rectangleShape.URX <= pdfPage.PageInfo.Width &&
+                rectangleShape.LLY >= 0 &&
+                rectangleShape.URY <= pdfPage.PageInfo.Height;
+
+if (isInside)
 {
-    // Shape is inside the page – add it
-    pdfPage.Add(rectangleShape);
+    // Step 5: Add the rectangle to the page's paragraphs collection
+    pdfPage.Paragraphs.Add(rectangleShape);
 }
 else
 {
-    Console.WriteLine("Shape exceeds page boundaries.");
+    Console.WriteLine("Rectangle exceeds page bounds – adjust coordinates.");
 }
 ```
 
-Neden zahmet? Bir şekli yanlışlıkla ekran dışına kısmen yerleştirirseniz, PDF görüntüleyici onu kırpabilir ve kullanıcı deneyimi karışık olur. Bu **add shape pdf** koruma koşulu, yalnızca tamamen görünür olacak içeriği eklemenizi sağlar.
+> **Neden sınırları kontrol ediyoruz:** Sayfanın dışına çizmeye çalışmak görünmez şekillere veya çalışma zamanı uyarılarına yol açabilir. Koşul, **draw rectangle pdf** işlemini güvenli bir şekilde yapmamızı sağlar.
 
----
+### Görünümü Özelleştirme
 
-## PDF'yi Kaydetme (add page pdf)
-
-Son olarak, bellek içindeki belgeyi diske kaydediyoruz. Yazma izniniz olan herhangi bir konumu seçebilirsiniz.
+Dikdörtgeni kenarlıklar veya dolgu renkleriyle stilize edebilirsiniz:
 
 ```csharp
-// Step 5: Save the PDF to a file
-pdfDocument.Save("YOUR_DIRECTORY/ShapeValidated.pdf");
-Console.WriteLine("PDF created successfully!");
-```
-
-Programı çalıştırdıktan sonra `ShapeValidated.pdf` dosyasını açın—ortada yaklaşık olarak merkezlenmiş, düzgün kenarlıklı bir dikdörtgen içeren tek bir sayfa görmelisiniz.
-
----
-
-## Beklenen Sonuç
-
-PDF'yi açtığınızda şunları göreceksiniz:
-
-- Bir A4‑boyutunda sayfa.  
-- Alt‑sol köşesi (50 pt, 50 pt) ve üst‑sağ köşesi (600 pt, 800 pt) olan bir dikdörtgen.  
-- Dikdörtgeni çevreleyen **2‑point kalınlığında** bir kenarlık.
-
-Konsolda “PDF created successfully!” mesajı görürseniz, kodun sınır kontrolüne takılmadan çalıştığını bilirsiniz.
-
-![Aspose.PDF ile PDF belgesi oluşturmayı gösteren diyagram](https://example.com/diagram-create-pdf.png "PDF Belgesi Oluşturma – görsel genel bakış")
-
-*Görsel alt metni, SEO gereksinimlerini karşılamak için birincil anahtar kelimeyi içerir.*
-
----
-
-## Yaygın Sorular ve Kenar Durumları
-
-### Farklı bir sayfa boyutuna ihtiyacım olsaydı?
-
-Varsayılan sayfayı özel bir boyutla değiştirin:
-
-```csharp
-Page customPage = pdfDocument.Pages.Add();
-customPage.SetPageSize(PageSize.A5);
-```
-
-### Kenarlık rengini nasıl değiştiririm?
-
-```csharp
-rectangleShape.Border = new BorderInfo(BorderSide.All, 2)
+rectangleShape.GraphInfo = new GraphInfo
 {
-    Color = Color.Red
+    // Set a thin black border
+    LineWidth = 1,
+    StrokeColor = Color.Black,
+    // Optional fill (transparent by default)
+    FillColor = Color.LightGray
 };
 ```
 
-### Aynı sayfada birden fazla şekil ekleyebilir miyim?
+Denemekten çekinmeyin—farklı renkler, çizgi kalınlıkları veya hatta kesikli çizgiler.
 
-Kesinlikle. Yeni bir `RectangleShape` (veya diğer `Shape` alt sınıfları) ile **add shape pdf** bloğunu tekrarlayın ve `Rect` koordinatlarını buna göre ayarlayın.
+## Adım 4 – PDF Belgesini Kaydetme
 
-### Dikdörtgen sayfa sınırlarını aşarsa ne olur?
-
-`IsShapeWithinBounds` çağrısı `false` dönecektir. Üretim kodunda şekli otomatik olarak yeniden boyutlandırmak isteyebilirsiniz:
+Son adım belgeyi diske kaydetmektir. Yazma izniniz olan bir klasör seçin ve dosyaya net bir ad verin.
 
 ```csharp
-if (!pdfPage.IsShapeWithinBounds(rectangleShape.Rect))
-{
-    // Shrink to fit
-    rectangleShape.Rect = pdfPage.PageInfo.TrimBox;
-}
-pdfPage.Add(rectangleShape);
+// Step 6: Save the PDF document to a file
+string outputPath = Path.Combine(Environment.CurrentDirectory, "ShapeChecked.pdf");
+pdfDocument.Save(outputPath);
+
+Console.WriteLine($"PDF saved successfully at: {outputPath}");
 ```
 
----
+`ShapeChecked.pdf` dosyasını açtığınızda, (100, 500) ile (300, 700) arasında konumlandırılmış açık gri bir dikdörtgen içeren tek bir sayfa görmelisiniz. Bu, **create pdf document** iş akışımızın sonucudur.
 
-## Özet
+![Create PDF Document example](image.png){alt="Sayfada bir dikdörtgen gösteren PDF belgesi oluşturma örneği"}
 
-Aspose.PDF ile **PDF belgesi oluşturma** sürecinin tamamını adım adım inceledik:
+## Tam Çalışan Örnek (Kopyala‑Yapıştır Hazır)
 
-1. `Document`'i başlatın.  
-2. `Pages.Add()` kullanarak **Add a page PDF**.  
-3. `RectangleShape` aracılığıyla **Draw a rectangle PDF**.  
-4. Sayfa içinde kaldığını doğruladıktan sonra **Add shape PDF**.  
-5. `BorderInfo` ile **rectangle border thickness** kontrol edin.  
-6. Dosyayı kaydedin.
+Aşağıda, derlemeye hazır tam program yer alıyor. Eksik parça yok, harici referans yok.
 
-Bu, 60 satırdan az kodla tüm iş akışı.
+```csharp
+using System;
+using System.IO;
+using Aspose.Pdf;
+using Aspose.Pdf.Drawing;
+using Aspose.Pdf.Color; // For color definitions
 
----
+class Program
+{
+    static void Main()
+    {
+        // 1️⃣ Create PDF document
+        var pdfDocument = new Document();
 
-## Sıradaki Adımlar
+        // 2️⃣ Add page PDF
+        var pdfPage = pdfDocument.Pages.Add();
 
-- **Add text**: `TextFragment` kullanarak dikdörtgen içinde başlık veya etiket yerleştirin.  
-- **Insert images**: `Image` sınıfı, logo veya grafik eklemenizi sağlar.  
-- **Create tables**: Faturalar veya veri raporları için mükemmeldir.  
-- **Apply security**: PDF'yi şifreyle koruyun, eğer hassas veri içeriyorsa.  
+        // Optional: show page size
+        Console.WriteLine($"Page size: {pdfPage.PageInfo.Width}×{pdfPage.PageInfo.Height} points");
 
-Bu konuların her biri burada ele alınan temellere dayanır, böylece daha gelişmiş PDF oluşturma senaryolarını keşfetmeye hazır olursunuz.
+        // 3️⃣ Define rectangle (draw rectangle PDF)
+        var rectangleShape = new Rectangle(100, 500, 300, 700);
 
-### Denemeye Devam Edin
+        // Style the rectangle (optional)
+        rectangleShape.GraphInfo = new GraphInfo
+        {
+            LineWidth = 1,
+            StrokeColor = Color.Black,
+            FillColor = Color.LightGray
+        };
 
-Tek bir dikdörtgenle yetinmeyin—farklı şekiller, renkler ve çizgi stilleriyle oynayın. Aspose.PDF API'si zengindir ve ne kadar çok denerseniz o kadar rahat hâle gelirsiniz. Bir sorunla karşılaşırsanız, resmi Aspose dokümantasyonu sağlam bir kaynak olur, ancak yukarıdaki kodun eksiksiz, kopyala‑yapıştır‑hazır bir çözüm olduğunu unutmayın; bugün çalıştırabilirsiniz.
+        // 4️⃣ Verify bounds before adding
+        bool fits = rectangleShape.LLX >= 0 &&
+                    rectangleShape.URX <= pdfPage.PageInfo.Width &&
+                    rectangleShape.LLY >= 0 &&
+                    rectangleShape.URY <= pdfPage.PageInfo.Height;
 
-Kodlamaktan keyif alın, ve PDF'leriniz her zaman hayal ettiğiniz gibi render olsun!
+        if (fits)
+        {
+            // 5️⃣ Add rectangle to the page
+            pdfPage.Paragraphs.Add(rectangleShape);
+            Console.WriteLine("Rectangle added successfully.");
+        }
+        else
+        {
+            Console.WriteLine("Rectangle is out of page bounds – adjust coordinates.");
+        }
+
+        // 6️⃣ Save the PDF
+        string outputFile = Path.Combine(Environment.CurrentDirectory, "ShapeChecked.pdf");
+        pdfDocument.Save(outputFile);
+        Console.WriteLine($"PDF saved at: {outputFile}");
+    }
+}
+```
+
+Bu programı çalıştırdığınızda, çalıştırılabilir dosyanın hemen yanında bir `ShapeChecked.pdf` dosyası oluşturulur. Herhangi bir PDF görüntüleyiciyle açın; çizdiğimiz dikdörtgeni göreceksiniz—başarıyla **create pdf document**, **add page pdf**, ve **draw rectangle pdf** işlemlerini tek seferde yaptığınızın kanıtı.
+
+## Yaygın Sorular & Kenar Durumları
+
+| Soru | Cevap |
+|------|-------|
+| *Farklı bir sayfa boyutuna ihtiyacım olursa ne olur?* | `pdfPage.PageInfo.Width` ve `Height` değerlerini çizmeden önce ayarlayın, ya da özel bir `PageSize` enumu (ör. `PageSize.Letter`) ile bir `Page` oluşturun. |
+| *Birden fazla dikdörtgen ekleyebilir miyim?* | Kesinlikle—sadece dikdörtgen‑oluşturma bloğunu tekrarlayın ve her şekli `pdfPage.Paragraphs` koleksiyonuna ekleyin. |
+| *Çok küçük PDF'lerde ne olur?* | Sınır kontrolü, aralık dışı koordinatları engeller, bu yüzden kod bir konsol mesajı ile sorunsuz bir şekilde başarısız olur. |
+| *Dikdörtgeni döndürmenin bir yolu var mı?* | Eklemeye başlamadan önce `rectangleShape.Rotation = 45;` (derece) kullanın. |
+| *`Document` nesnesini dispose etmeli miyim?* | `Document` `IDisposable` arayüzünü uygular. Gerçek bir uygulamada, belirli bir temizlik için `using` bloğu içinde kullanın. |
+
+## Pro İpuçları & En İyi Uygulamalar
+
+- **Toplu eklemeler:** Eğer onlarca şekil ekliyorsanız, önce bir listede oluşturun, ardından tüm listeyi `Paragraphs` içine ekleyin—bu, iç işlem yükünü azaltır.
+- **Koordinat sistemi:** Aspose.PDF puan (point) birimini kullanır (1 pt = 1/72 in). Kaynak verileriniz farklı bir birim kullanıyorsa piksel veya milimetreden dönüştürmeyi unutmayın.
+- **Performans:** Büyük PDF'lerde, kaydetmeden önce `pdfDocument.Optimize()` özelliğini etkinleştirmeyi düşünün; akışları sıkıştırır ve dosya boyutunu azaltır.
+- **Hata yönetimi:** Tüm akışı bir `try/catch` bloğuna alın ve daha iyi tanılamalar için `PdfException` kaydedin.
+
+## Sonuç
+
+Artık Aspose.PDF ile **how to create pdf document**, **add page pdf** ve **draw rectangle pdf** işlemlerini sınırları güvenli bir şekilde kontrol ederek nasıl yapacağınızı tam olarak biliyorsunuz. Yukarıdaki tam örnek, herhangi bir .NET projesine eklenebilir ve görüntü, tablo veya dijital imza ekleme gibi daha gelişmiş PDF görevleri için sağlam bir temel sağlar.
+
+Bir sonraki adıma hazır mısınız? Dikdörtgeni bir `Ellipse` ile değiştirin, katmanlı grafiklerle deney yapın veya veri satırları üzerinde döngü kurarak çok sayfalı bir rapor oluşturun. Aynı prensipler—başlatma, sayfa ekleme, şekil çizme, kaydetme—tüm PDF oluşturma senaryolarında geçerlidir.
+
+Bir sorunla karşılaşırsanız veya ek geliştirme fikirleriniz varsa, yorum bırakmaktan çekinmeyin. Kodlamaktan keyif alın ve güzel PDF'ler oluşturmaktan zevk alın!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

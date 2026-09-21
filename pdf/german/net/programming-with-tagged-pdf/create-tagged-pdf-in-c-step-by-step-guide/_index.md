@@ -1,171 +1,75 @@
 ---
 category: general
-date: 2026-03-06
+date: 2026-02-12
 description: Erstellen Sie ein getaggtes PDF mit Aspose.Pdf in C#. Erfahren Sie, wie
-  Sie ein Bild zum PDF hinzufügen, die Position der Abbildung festlegen und das PDF
-  für Barrierefreiheit taggen.
+  Sie einen Absatz zum PDF hinzufügen, einen Absatz‑Tag hinzufügen, Text zu einem
+  Absatz hinzufügen und ein barrierefreies PDF erstellen.
 draft: false
 keywords:
 - create tagged pdf
-- add image to pdf
-- set figure position
-- how to tag pdf
-- how to add image
+- add paragraph to pdf
+- add paragraph tag
+- add text to paragraph
+- create accessible pdf
 language: de
-og_description: Erstellen Sie ein getaggtes PDF mit Aspose.Pdf. Dieser Leitfaden zeigt,
-  wie man ein Bild zu einem PDF hinzufügt, die Position der Abbildung festlegt und
-  das PDF für Barrierefreiheit taggt.
-og_title: Erstelle ein Tagged PDF in C# – Komplettes Tutorial
+og_description: Erstellen Sie ein getagtes PDF in C# mit Aspose.Pdf. Dieses Tutorial
+  zeigt, wie man einen Absatz zum PDF hinzufügt, Tags setzt und ein barrierefreies
+  PDF erstellt.
+og_title: Tagged PDF in C# erstellen – vollständige Programmieranleitung
 tags:
 - Aspose.Pdf
 - C#
-- PDF Accessibility
-title: Erstelle ein getagtes PDF in C# – Schritt‑für‑Schritt‑Anleitung
+- PDF accessibility
+title: Tagged PDF in C# erstellen – Schritt‑für‑Schritt‑Anleitung
 url: /de/net/programming-with-tagged-pdf/create-tagged-pdf-in-c-step-by-step-guide/
 ---
+
+"Happy coding, and may your PDFs be both beautiful **and** accessible!"
+
+Translate.
+
+Then closing shortcodes.
+
+Now produce final content.
+
+Be careful to keep markdown formatting.
+
+Let's write translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tagged PDF in C# erstellen – Komplettes Tutorial
+# Tagged PDF in C# erstellen – Schritt‑für‑Schritt‑Anleitung
 
-Haben Sie schon einmal **ein tagged PDF** in C# erstellen wollen, wussten aber nicht, wo Sie anfangen sollen? Sie sind nicht allein; Barrierefreiheit ist heutzutage ein Muss, und ein tagged PDF ist das Rückgrat eines konformen Dokuments. In diesem Tutorial gehen wir Schritt für Schritt durch ein Praxisbeispiel, das **ein Bild zum PDF hinzufügt**, die Position der Figur festlegt und **zeigt, wie man ein PDF taggt** mit Aspose.Pdf. Am Ende haben Sie ein vollständig getaggtes PDF, das Sie an jeden weitergeben können.
+Wenn Sie **tagged PDF** schnell **erstellen** müssen, zeigt Ihnen dieser Leitfaden genau, wie es geht. Haben Sie Schwierigkeiten, einen Absatz zu einem PDF hinzuzufügen und dabei das Dokument barrierefrei zu halten? Wir gehen jede Codezeile durch, erklären, warum jedes Stück wichtig ist, und schließen mit einem einsatzbereiten Beispiel ab, das Sie in Ihr Projekt übernehmen können.
 
-Wir decken alles ab – vom Laden einer bestehenden Datei bis zum Speichern der finalen Ausgabe – sodass Sie nicht nach „how to add image“ an anderer Stelle suchen müssen. Kein Schnickschnack – nur eine klare, ausführbare Lösung, die mit Aspose.Pdf 23.8 (der zum Zeitpunkt des Schreibens neuesten Version) funktioniert. Öffnen Sie Ihre IDE und los geht's.
-
----
+In diesem Tutorial lernen Sie, wie Sie **add paragraph to PDF** durchführen, einen korrekten **paragraph tag** anhängen, **text to paragraph** einfügen und letztlich **create accessible PDF**‑Dateien erzeugen, die Screen‑Reader‑Prüfungen bestehen. Keine zusätzlichen PDF‑Tools nötig – nur Aspose.Pdf für .NET und ein paar Zeilen C#.
 
 ## Was Sie benötigen
 
-- **Aspose.Pdf for .NET** (NuGet‑Paket `Aspose.Pdf`).  
-- .NET 6+ (oder .NET Framework 4.7.2+).  
-- Eine Eingabe‑PDF, die bereits eine logische Struktur besitzt (also bereits getaggt ist) – falls nicht, können Sie das Tagging über `pdfDocument.TaggedContent = true` aktivieren.  
-- Eine Bilddatei (`image.png`), die Sie einbetten möchten.  
+- .NET 6.0 oder höher (die API funktioniert identisch unter .NET Framework 4.6+)
+- Aspose.Pdf für .NET (NuGet‑Paket `Aspose.Pdf`)
+- Eine einfache C#‑IDE (Visual Studio, Rider oder VS Code)
 
-Das war’s. Keine zusätzlichen Bibliotheken, keine obskuren Konfigurationsdateien.
+Das ist alles. Keine externen Hilfsprogramme, keine obskuren Konfigurationsdateien. Lassen Sie uns loslegen.
 
----
+![Screenshot eines getaggten PDF-Dokuments, das den Absatztext zeigt](/images/create-tagged-pdf.png "Beispiel für ein getaggtes PDF")
 
-## Schritt 1: Das vorhandene PDF‑Dokument laden (Basis für Tagged PDF erstellen)
+*(Bildbeschreibung: „Beispiel für ein getaggtes PDF, das einen Absatz mit korrektem Tag zeigt“)*
 
-Als erstes öffnen wir das PDF, das wir erweitern wollen. Das Laden der Datei gibt uns Zugriff auf ihre logische Struktur, was für **create tagged pdf**‑Workflows unerlässlich ist.
+## Wie man ein Tagged PDF erstellt – Kernkonzepte
 
-```csharp
-using System;
-using System.IO;
-using Aspose.Pdf;
-using Aspose.Pdf.LogicalStructure;
+Bevor wir mit dem Coden beginnen, sollten wir verstehen, *warum* Tagging wichtig ist. PDF/UA (Universal Accessibility) verlangt einen logischen Strukturbaum, damit Hilfstechnologien das Dokument in der richtigen Reihenfolge lesen können. Durch das Erstellen eines **paragraph tag** und das Platzieren von **text to paragraph** geben Sie Screen‑Readern ein klares Signal, dass der Inhalt ein Absatz ist und kein zufälliger Zeichenstring.
 
-// Load the source PDF – make sure the path points to a real file.
-Document pdfDocument = new Document("YOUR_DIRECTORY/input.pdf");
+### Schritt 1: Projekt einrichten und Namespaces importieren
 
-// Verify that the document has a tag tree; if not, enable it.
-if (!pdfDocument.TaggedContent.IsTagged)
-{
-    pdfDocument.TaggedContent.IsTagged = true;
-    Console.WriteLine("Tagging enabled on the document.");
-}
-```
-
-*Warum das wichtig ist:* Ohne einen Tag‑Baum vermittelt das PDF keine strukturellen Informationen an Screen‑Reader. Das Aktivieren des Taggings stellt sicher, dass alle neuen Elemente, die wir hinzufügen (wie eine Figur), die richtige Hierarchie erben.
-
----
-
-## Schritt 2: Auf die Wurzel der logischen Struktur zugreifen (Wie man PDF taggt)
-
-Jetzt greifen wir auf die logische Struktur des PDFs zu. Das Root‑Element ist der Container für alle Tags – denken Sie an das Inhaltsverzeichnis des Dokuments.
-
-```csharp
-// Grab the root of the logical structure.
-var logicalRoot = pdfDocument.TaggedContent.RootElement;
-
-// Optional: print existing children count for debugging.
-Console.WriteLine($"Root has {logicalRoot.ChildElements.Count} child elements.");
-```
-
-*Erklärung:* `logicalRoot` ermöglicht es uns, neue Tags wie `<Figure>` oder `<Table>` anzuhängen. Das ist das Kernstück von **how to tag PDF** programmgesteuert.
-
----
-
-## Schritt 3: Einen Figure‑Tag erstellen und seine Position festlegen (Figure‑Position setzen)
-
-Ein *Figure*‑Tag gruppiert visuelle Inhalte mit einer optionalen Beschriftung. Wir erstellen einen, positionieren ihn und hängen ihn an die Wurzel.
-
-```csharp
-// Create a new Figure element.
-var figureTag = logicalRoot.CreateFigureElement();
-
-// Define where the figure appears on the page.
-figureTag.Position = new Position
-{
-    // X/Y are measured from the bottom‑left corner (points).
-    X = 100,   // 100 points from the left edge
-    Y = 150,   // 150 points from the bottom edge
-    Width = 300,
-    Height = 200
-};
-
-// Append the Figure to the logical structure.
-logicalRoot.AppendChild(figureTag);
-
-Console.WriteLine("Figure tag created and positioned.");
-```
-
-*Warum wir eine Position setzen:* Der Schritt **set figure position** bestimmt, wo das visuelle Element auf der Seite erscheint. Wenn Sie das überspringen, kann die Figur an einer unerwarteten Stelle landen oder für Hilfstechnologien unsichtbar sein.
-
----
-
-## Schritt 4: Visuelle Darstellung hinzufügen – Bild einfügen (Bild zum PDF hinzufügen)
-
-Mit dem Tag an Ort und Stelle benötigen wir nun ein tatsächliches Bild. Das ist der Teil, der **add image to pdf** beantwortet.
-
-```csharp
-// Grab the first page (pages are 1‑based in Aspose.Pdf).
-var firstPage = pdfDocument.Pages[1];
-
-// Create an Image object that points to the file stream.
-var image = new Image
-{
-    ImageStream = File.OpenRead("YOUR_DIRECTORY/image.png"),
-    // The rectangle defines the same area we set for the Figure.
-    Rect = new Rectangle(100, 150, 400, 350) // X, Y, Width, Height
-};
-
-// Add the image to the page's paragraph collection.
-firstPage.Paragraphs.Add(image);
-
-Console.WriteLine("Image added to the first page.");
-```
-
-*Wichtiger Hinweis:* Die Rechteck‑Koordinaten müssen mit `figureTag.Position` übereinstimmen, das wir zuvor definiert haben; andernfalls sind Figur und visuelle Inhalte nicht synchron, was die Barrierefreiheit zerstört.
-
----
-
-## Schritt 5: Das aktualisierte PDF speichern (Tagged PDF fertigstellen)
-
-Abschließend schreiben wir die Änderungen in eine neue Datei. Das Original unverändert zu lassen, ist eine gute Praxis.
-
-```csharp
-// Save the modified document.
-pdfDocument.Save("YOUR_DIRECTORY/output.pdf");
-
-Console.WriteLine("Tagged PDF saved as output.pdf");
-```
-
-In diesem Stadium besitzen Sie eine **create tagged pdf**‑Datei, die ein korrekt positioniertes Bild in einem `<Figure>`‑Tag enthält. Öffnen Sie `output.pdf` in Adobe Acrobat und prüfen Sie das *Tags*-Panel – Sie sollten einen `Figure`‑Knoten unter der Wurzel sehen.
-
----
-
-## Vollständiges, lauffähiges Beispiel
-
-Unten finden Sie das komplette Programm, das Sie in eine Konsolen‑App kopieren können. Alle Schritte sind bereits in der richtigen Reihenfolge.
+Erstellen Sie eine neue Konsolen‑App (oder integrieren Sie den Code in ein bestehendes Projekt) und fügen Sie die Aspose.Pdf‑Referenz hinzu.
 
 ```csharp
 using System;
-using System.IO;
 using Aspose.Pdf;
-using Aspose.Pdf.LogicalStructure;
+using Aspose.Pdf.Text;
 
 namespace TaggedPdfDemo
 {
@@ -173,109 +77,183 @@ namespace TaggedPdfDemo
     {
         static void Main(string[] args)
         {
-            // 1️⃣ Load the PDF.
-            Document pdfDocument = new Document("YOUR_DIRECTORY/input.pdf");
-            if (!pdfDocument.TaggedContent.IsTagged)
-            {
-                pdfDocument.TaggedContent.IsTagged = true;
-                Console.WriteLine("Tagging enabled.");
-            }
-
-            // 2️⃣ Access the logical structure root.
-            var logicalRoot = pdfDocument.TaggedContent.RootElement;
-
-            // 3️⃣ Create a Figure tag and set its position.
-            var figureTag = logicalRoot.CreateFigureElement();
-            figureTag.Position = new Position
-            {
-                X = 100,
-                Y = 150,
-                Width = 300,
-                Height = 200
-            };
-            logicalRoot.AppendChild(figureTag);
-            Console.WriteLine("Figure tag added.");
-
-            // 4️⃣ Add the image to the first page.
-            var firstPage = pdfDocument.Pages[1];
-            var image = new Image
-            {
-                ImageStream = File.OpenRead("YOUR_DIRECTORY/image.png"),
-                Rect = new Rectangle(100, 150, 400, 350)
-            };
-            firstPage.Paragraphs.Add(image);
-            Console.WriteLine("Image inserted.");
-
-            // 5️⃣ Save the result.
-            pdfDocument.Save("YOUR_DIRECTORY/output.pdf");
-            Console.WriteLine("PDF saved – tagging complete.");
+            // The rest of the code lives here
         }
     }
 }
 ```
 
-### Erwartetes Ergebnis
+> **Pro‑Tipp:** Wenn Sie .NET 6‑Top‑Level‑Statements verwenden, können Sie die `Program`‑Klasse komplett weglassen – setzen Sie den Code einfach direkt in die Datei. Die Logik bleibt unverändert.
 
-- `output.pdf` öffnet sich mit dem Bild bei (100, 150) Punkten, Größe 300 × 200 Punkte.  
-- Das *Tags*-Fenster zeigt ein `Figure`‑Element, das das Bild umschließt.  
-- Screen‑Reader geben „Figure“ aus, bevor sie das Bild beschreiben, und erfüllen damit grundlegende Barrierefreiheits‑Standards.
+### Schritt 2: Ein frisches PDF‑Dokument erstellen
 
----
-
-## Häufige Fragen & Sonderfälle
-
-### Was, wenn das Quell‑PDF noch nicht getaggt ist?
-
-Aspose.Pdf ermöglicht das Einschalten des Taggings über `pdfDocument.TaggedContent.IsTagged = true;`. Die Bibliothek erzeugt dann einen Standard‑Tag‑Baum, nach dem Sie benutzerdefinierte Tags wie gezeigt hinzufügen können.
-
-### Kann ich der Figur eine Beschriftung hinzufügen?
-
-Ja. Nachdem Sie `figureTag` erstellt haben, können Sie einen `Paragraph` mit einem `TextFragment` anhängen und dessen `Tag` auf `Caption` setzen. Beispiel:
+Wir beginnen mit einem leeren `Document`. Dieses Objekt repräsentiert die gesamte PDF‑Datei, inklusive ihres internen Strukturbaums.
 
 ```csharp
-var caption = new Paragraph(new TextFragment("Figure 1: Sample diagram"));
-caption.Tag = figureTag.CreateCaptionElement();
-logicalRoot.AppendChild(caption);
+// Step 2: Create a new PDF document (the canvas)
+using (var pdfDocument = new Document())
+{
+    // All subsequent operations happen inside this block
+}
 ```
 
-### Wie platziere ich die Figur auf einer anderen Seite?
+Die `using`‑Anweisung sorgt dafür, dass der Dateihandle automatisch freigegeben wird – besonders praktisch, wenn Sie die Demo mehrmals ausführen.
 
-Ersetzen Sie `var firstPage = pdfDocument.Pages[1];` durch den gewünschten Seitenindex, z. B. `pdfDocument.Pages[3]`. Denken Sie daran, die `Position`‑Koordinaten anzupassen, falls die Seitengröße abweicht.
+### Schritt 3: Auf die Tagged‑Content‑Struktur zugreifen
 
-### Was, wenn ich mehrere Bilder taggen muss?
-
-Erstellen Sie für jedes Bild ein neues `Figure`, geben Sie jedem eine eindeutige `Position` und fügen Sie das entsprechende `Image`‑Objekt der passenden Seite hinzu. Eine Schleife über eine Bild‑Kollektion funktioniert hier hervorragend.
-
-### Funktioniert das mit PDF/A‑Konformität?
-
-Aspose.Pdf unterstützt PDF/A‑1b, PDF/A‑2b und PDF/A‑3b. Beim Erzeugen eines PDF/A‑Dokuments sollten Sie den Compliance‑Modus vor dem Speichern setzen:
+Ein getaggtes PDF besitzt einen *Strukturbaum*, der unter `TaggedContent` liegt. Indem wir ihn holen, können wir logische Elemente wie Absätze aufbauen.
 
 ```csharp
-pdfDocument.Convert(ConvertFormat.PdfA1b);
+// Step 3: Get the tagged content object
+var taggedContent = pdfDocument.TaggedContent;
 ```
 
-Die Tag‑Logik bleibt unverändert.
+Wenn Sie diesen Schritt überspringen, wird jeder später hinzugefügte Text **unstrukturiert** sein, d. h. Hilfstechnologien lesen ihn als flachen String.
 
----
+### Schritt 4: Ein Paragraph‑Element erstellen und seine Position festlegen
 
-## Pro‑Tipps & Fallstricke
+Jetzt **add paragraph to PDF** wir tatsächlich. Ein Paragraph‑Element ist ein Container, der ein oder mehrere Text‑Fragmente aufnehmen kann.
 
-- **Pro‑Tipp:** Verwenden Sie immer absolute Pfade oder `Path.Combine`, um Laufzeit‑Fehler wegen fehlender Dateien zu vermeiden.  
-- **Achten Sie auf:** Nicht übereinstimmende Koordinaten zwischen dem `Figure`‑Tag und dem `Image`‑Rechteck – Hilfstechnologien verlassen sich auf diese Ausrichtung.  
-- **Performance‑Hinweis:** Wenn Sie viele Seiten verarbeiten, packen Sie den Bild‑Stream in einen `using`‑Block, um Ressourcen zeitnah freizugeben.  
-- **Versions‑Check:** Die gezeigte API funktioniert mit Aspose.Pdf 23.8+. Ältere Versionen können leicht abweichende Klassennamen haben (z. B. `LogicalStructureElement` statt `FigureElement`).
+```csharp
+// Step 4: Create a paragraph element
+var paragraph = taggedContent.CreateParagraphElement();
 
----
+// Define where the paragraph appears on the page (in points)
+paragraph.Bounds = new Rectangle(0, 700, 500, 720);
+```
+
+Das `Rectangle` verwendet das PDF‑Koordinatensystem, bei dem (0,0) die linke untere Ecke ist. Passen Sie die Y‑Koordinaten an, wenn Sie den Absatz höher oder tiefer auf der Seite benötigen.
+
+### Schritt 5: Text in den Paragraph einfügen
+
+Hier kommt der Teil, an dem wir **add text to paragraph** durchführen. Die `Text`‑Eigenschaft ist ein Komfort‑Wrapper, der intern ein einzelnes `TextFragment` erzeugt.
+
+```csharp
+// Step 5: Set the visible text of the paragraph
+paragraph.Text = "Chapter 1 – Introduction";
+```
+
+Falls Sie umfangreichere Formatierungen (Schriften, Farben, Links) benötigen, können Sie ein `TextFragment` manuell erstellen und zu `paragraph.Segments` hinzufügen.
+
+### Schritt 6: Den Paragraphen an den Strukturbaum anhängen
+
+Der Strukturbaum benötigt ein *Root‑Element*, an dem Kind‑Elemente hängen können. Durch das Anhängen des Paragraphen fügen wir effektiv **add paragraph tag** zum PDF hinzu.
+
+```csharp
+// Step 6: Append the paragraph to the root element of the structure tree
+taggedContent.RootElement.AppendChild(paragraph);
+```
+
+Zu diesem Zeitpunkt besitzt das PDF einen logischen Paragraph‑Knoten, der auf den visuellen Text verweist, den wir gerade platziert haben.
+
+### Schritt 7: Das Dokument als barrierefreies PDF speichern
+
+Abschließend schreiben wir die Datei auf die Festplatte. Das Ergebnis ist ein vollständig **create accessible pdf**, das bereit für Screen‑Reader‑Tests ist.
+
+```csharp
+// Step 7: Save the tagged PDF to a file
+pdfDocument.Save("tagged.pdf");
+```
+
+Sie können `tagged.pdf` in Adobe Acrobat öffnen und *Datei → Eigenschaften → Tags* prüfen, um die Struktur zu verifizieren.
+
+### Vollständiges Beispiel
+
+Alles zusammengeführt, hier das komplette, copy‑and‑paste‑bereite Programm:
+
+```csharp
+using System;
+using Aspose.Pdf;
+using Aspose.Pdf.Text;
+
+namespace TaggedPdfDemo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Step 1‑7: Create a tagged PDF with a single paragraph
+            using (var pdfDocument = new Document())
+            {
+                // Access tagged content
+                var taggedContent = pdfDocument.TaggedContent;
+
+                // Create paragraph element
+                var paragraph = taggedContent.CreateParagraphElement();
+
+                // Position the paragraph on the first page
+                paragraph.Bounds = new Rectangle(0, 700, 500, 720);
+
+                // Add visible text
+                paragraph.Text = "Chapter 1 – Introduction";
+
+                // Append paragraph to the root of the structure tree
+                taggedContent.RootElement.AppendChild(paragraph);
+
+                // Save the result
+                pdfDocument.Save("tagged.pdf");
+            }
+
+            Console.WriteLine("Tagged PDF created successfully at: tagged.pdf");
+        }
+    }
+}
+```
+
+**Erwartete Ausgabe:** Nach dem Ausführen des Programms erscheint im Arbeitsverzeichnis der ausführbaren Datei eine Datei namens `tagged.pdf`. Öffnet man sie in Adobe Acrobat, wird der Text „Chapter 1 – Introduction“ nahe dem oberen Seitenrand angezeigt, und das *Tags*‑Panel listet ein einzelnes `<P>`‑Element (Paragraph) auf, das mit diesem Text verknüpft ist.
+
+## Mehr Inhalt hinzufügen – Häufige Variationen
+
+### Mehrere Absätze
+
+Wenn Sie **add paragraph to PDF** mehrmals benötigen, wiederholen Sie einfach die Schritte 4‑6 mit neuen Grenzen und Texten. Achten Sie darauf, dass die Y‑Koordinate abnimmt, damit sich die Absätze nicht überlappen.
+
+```csharp
+var secondParagraph = taggedContent.CreateParagraphElement();
+secondParagraph.Bounds = new Rectangle(0, 660, 500, 680);
+secondParagraph.Text = "This is the second paragraph.";
+taggedContent.RootElement.AppendChild(secondParagraph);
+```
+
+### Text formatieren
+
+Für umfangreichere Formatierungen erstellen Sie ein `TextFragment` und fügen es der `Segments`‑Sammlung des Paragraphen hinzu:
+
+```csharp
+var tf = new TextFragment("Bold heading")
+{
+    TextState = { FontSize = 14, FontStyle = FontStyles.Bold }
+};
+paragraph.Segments.Add(tf);
+```
+
+### Seiten handhaben
+
+Das Beispiel erzeugt automatisch ein einseitiges PDF. Wenn Sie weitere Seiten benötigen, fügen Sie sie über `pdfDocument.Pages.Add()` hinzu und setzen Sie `paragraph.Bounds` auf die entsprechende Seite, indem Sie `paragraph.PageNumber = 2;` verwenden.
+
+## Barrierefreiheit testen
+
+Ein schneller Weg, um zu prüfen, ob Sie wirklich **create accessible pdf** erzeugt haben, ist:
+
+1. Öffnen Sie die Datei in Adobe Acrobat Pro.  
+2. Wählen Sie *Ansicht → Werkzeuge → Barrierefreiheit → Vollständige Prüfung*.  
+3. Überprüfen Sie den *Tags*‑Baum; jeder Absatz sollte als `<P>`‑Knoten erscheinen.
+
+Wenn die Prüfung fehlende Tags meldet, prüfen Sie nochmals, ob Sie `taggedContent.RootElement.AppendChild(paragraph);` für jedes erstellte Element aufgerufen haben.
+
+## Häufige Stolperfallen & wie man sie vermeidet
+
+- **Vergessen, Tagging zu aktivieren:** Allein das Erstellen eines `Document` fügt **keinen** Strukturbaum hinzu. Greifen Sie immer zuerst auf `TaggedContent` zu, bevor Sie Elemente hinzufügen.  
+- **Grenzen außerhalb der Seitenränder:** Das Rechteck muss innerhalb der Seitengröße liegen (Standard‑A4 ≈ 595 × 842 Punkte). Rechtecke außerhalb werden stillschweigend ignoriert.  
+- **Speichern vor dem Anhängen:** Rufen Sie `Save` nicht auf, bevor Sie `AppendChild` ausgeführt haben, sonst bleibt das PDF ungetaggt.
 
 ## Fazit
 
-Wir haben gerade **create tagged pdf** von Anfang bis Ende umgesetzt, **add image to pdf** demonstriert und gezeigt, wie man **set figure position** ausführt, während wir **how to tag pdf** und **how to add image** in einem einzigen, zusammenhängenden Beispiel beantwortet haben. Der Code ist sofort ausführbar, die Erklärungen decken das „Warum“ jedes Schrittes ab, und Sie haben nun eine solide Grundlage, um barrierefreie PDFs in C# zu erstellen.
+Sie wissen jetzt, wie Sie **create tagged PDF** mit Aspose.Pdf für .NET **add paragraph to PDF**, den passenden **paragraph tag** anhängen und **text to paragraph** einfügen, sodass die resultierende Datei ein **create accessible pdf** ist, das die Compliance‑Tests besteht. Das vollständige Code‑Beispiel oben lässt sich in jedes C#‑Projekt kopieren und ohne Änderungen ausführen.
 
-Bereit für die nächste Herausforderung? Versuchen Sie, Tabellen mit `<Table>`‑Tags hinzuzufügen oder eine PDF/A‑2b‑Compliance‑Schicht für Archivierungszwecke einzubetten. Das gleiche Muster – laden, logische Struktur zugreifen, Tag erstellen, visuelle Inhalte anhängen, speichern – gilt für die meisten PDF‑Barrierefreiheits‑Aufgaben.
+Bereit für den nächsten Schritt? Kombinieren Sie diesen Ansatz mit Tabellen, Bildern oder benutzerdefinierten Überschriften‑Tags, um einen vollständig strukturierten Bericht zu erstellen. Oder erkunden Sie Asposes *PdfConverter*, um vorhandene PDFs automatisch in getaggte Versionen zu verwandeln.
 
-Wenn Sie auf ein Problem stoßen oder einen Anwendungsfall haben, der hier nicht abgedeckt ist, hinterlassen Sie einen Kommentar unten. Viel Spaß beim Taggen und beim Erstellen von PDFs, die jeder lesen kann! 
-
-![Diagramm, das ein PDF mit einem Figure‑Tag und Bild zeigt – veranschaulicht, wie man ein tagged pdf erstellt](placeholder-image.png "create tagged pdf example")
+Viel Spaß beim Coden, und mögen Ihre PDFs sowohl schön **als auch** barrierefrei sein!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
