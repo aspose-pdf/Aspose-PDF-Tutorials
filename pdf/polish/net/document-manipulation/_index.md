@@ -239,6 +239,9 @@ Dowiedz się, jak skutecznie zarządzać plikami PDF za pomocą Aspose.PDF dla .
 ### [Opanuj manipulację plikami PDF w .NET za pomocą Aspose.PDF: kompleksowy przewodnik](./aspose-pdf-net-tutorial/)
 Dowiedz się, jak programowo zarządzać plikami PDF w .NET za pomocą Aspose.PDF. Ten przewodnik obejmuje ładowanie dokumentów, dostęp do pól formularzy i iterowanie opcji.
 
+### [Opanuj manipulację plikami PDF za pomocą Aspose.PDF .NET: kompleksowy przewodnik po automatyzacji dokumentów](./master-pdf-manipulation-aspose-dotnet-guide/)
+Dowiedz się, jak automatyzować zadania związane z plikami PDF za pomocą Aspose.PDF dla platformy .NET, w tym łączenie plików, dodawanie stron, wstawianie znaczników tekstowych i tworzenie łączy.
+
 ### [Opanuj manipulację plikami PDF w .NET za pomocą Aspose.PDF: kompleksowy przewodnik](./master-pdf-manipulation-aspose-pdf-net-guide/)
 Dowiedz się, jak automatyzować zadania związane z plikami PDF za pomocą Aspose.PDF dla platformy .NET, w tym łączenie plików, dodawanie stron, wstawianie znaczników tekstowych i tworzenie łączy.
 
