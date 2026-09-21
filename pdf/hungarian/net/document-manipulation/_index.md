@@ -317,6 +317,9 @@ Ismerje meg, hogyan távolíthatja el vagy takarhatja el a PDF dokumentumok érz
 
 ### [PDF javítása C#-ban – Sérült PDF-fájlok gyors javítása](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
 
+### [Hogyan mentse el a módosított PDF-et az Aspose.PDF segítségével és adjon hozzá átlátszóságot](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
+Ismerje meg, hogyan menthet el módosított PDF-et és adhat hozzá átlátszóságot az Aspose.PDF for .NET használatával.
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)

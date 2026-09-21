@@ -318,6 +318,9 @@ Aprenda a reparar archivos PDF dañados rápidamente usando Aspose.PDF para .NET
 ### [Cómo redactar PDF en C# con Aspose PDF – Guía completa](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
 Aprenda a redactar información confidencial de archivos PDF usando Aspose PDF para .NET con C#. Guía paso a paso.
 
+### [Cómo guardar un PDF modificado con Aspose.PDF y agregar transparencia](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
+Aprenda a guardar PDFs modificados y aplicar transparencia usando Aspose.PDF para .NET.
+
 ## Recursos adicionales
 
 - [Documentación de Aspose.PDF para la red](https://docs.aspose.com/pdf/net/)

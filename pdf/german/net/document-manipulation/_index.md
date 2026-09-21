@@ -318,6 +318,9 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET beschädigte PDF-Dateien in C# sc
 ### [Wie Sie PDF in C# mit Aspose PDF redigieren – Vollständige Anleitung](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose PDF für .NET vertrauliche Informationen in PDFs redigieren und dauerhaft entfernen.
 
+### [Wie Sie ein modifiziertes PDF mit Aspose.PDF speichern und Transparenz hinzufügen](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
+Erfahren Sie, wie Sie ein bearbeitetes PDF speichern und Transparenz hinzufügen.
+
 ## Weitere Ressourcen
 
 - [Aspose.PDF für Net-Dokumentation](https://docs.aspose.com/pdf/net/)

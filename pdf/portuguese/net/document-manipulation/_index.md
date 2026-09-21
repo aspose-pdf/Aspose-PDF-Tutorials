@@ -286,6 +286,9 @@ Aprenda a mover e reposicionar campos de formulários PDF sem esforço com o Asp
 ### [Manipulação de PDF simplificada: Guia Aspose.PDF .NET para carregar, salvar e ampliar configuração](./master-pdf-manipulation-aspose-dotnet-load-save-configure-page-zoom/)
 Domine a manipulação de PDF com o Aspose.PDF para .NET. Aprenda a carregar, salvar, extrair dimensões e configurar o zoom com eficiência.
 
+### [Como salvar PDF modificado com Aspose.Pdf e adicionar transparência](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
+Aprenda a salvar PDFs modificados e aplicar transparência a objetos usando Aspose.PDF para .NET.
+
 ### [Substituir a primeira ocorrência de texto em PDF usando Aspose.PDF para .NET - Um guia completo](./replace-first-text-occurrence-aspose-pdf-net/)
 Aprenda a substituir a primeira ocorrência de texto em um PDF usando o Aspose.PDF para .NET. Este guia aborda configuração, exemplos de código e aplicações práticas.
 
@@ -328,4 +331,3 @@ Aprenda a censurar PDFs, ocultando texto e removendo conteúdo usando Aspose.PDF
 {{< blocks/products/products-backtop-button >}}
 ### [Como reparar PDF em C# – Corrija arquivos PDF corrompidos rapidamente](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
 Aprenda a reparar arquivos PDF corrompidos usando C# e Aspose.PDF, restaurando documentos de forma rápida e confiável.
-

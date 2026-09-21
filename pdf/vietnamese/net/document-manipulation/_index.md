@@ -319,6 +319,9 @@ Tìm hiểu cách sửa các tệp PDF bị hỏng nhanh chóng bằng C# và As
 ### [Cách xóa nhạy cảm PDF trong C# với Aspose PDF – Hướng dẫn đầy đủ](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
 Tìm hiểu cách xóa thông tin nhạy cảm khỏi tài liệu PDF bằng Aspose PDF cho .NET trong C# qua hướng dẫn chi tiết từng bước.
 
+### [Cách lưu PDF đã chỉnh sửa với Aspose.PDF và thêm độ trong suốt](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
+Tìm hiểu cách lưu PDF đã chỉnh sửa và áp dụng hiệu ứng trong suốt bằng Aspose.PDF cho .NET.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)

@@ -315,8 +315,12 @@ Aspose.PDF for .NET을 사용하여 C#에서 PDF의 민감한 텍스트를 숨�
 
 ### [C#에서 PDF 복구 방법 – 손상된 PDF 파일을 빠르게 수정](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
 C#과 Aspose.PDF를 사용하여 손상된 PDF 파일을 빠르게 복구하는 방법을 단계별로 안내합니다.
+
 ### [C#와 Aspose PDF를 사용하여 PDF를 레드랙트하는 방법 – 완전 가이드](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
 Aspose PDF for .NET을 활용해 C#에서 PDF 문서의 민감한 정보를 레드랙트(가리기)하는 방법을 단계별로 안내합니다.
+
+### [Aspose.Pdf를 사용하여 수정된 PDF를 저장하고 투명도 추가하는 방법](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
+Aspose.PDF를 이용해 수정된 PDF를 저장하고 투명도 효과를 적용하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 
