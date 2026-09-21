@@ -16,7 +16,6 @@
 Tìm hiểu cách xây dựng các ứng dụng xử lý PDF hiệu suất cao với hướng dẫn tối ưu hóa Aspose.PDF của chúng tôi dành cho .NET. Các hướng dẫn thực tế này trình bày các kỹ thuật quản lý bộ nhớ hiệu quả, cải thiện thời gian thực thi và các chiến lược xử lý hiệu quả các tài liệu PDF lớn. Mỗi hướng dẫn bao gồm các ví dụ mã C# chi tiết và các biện pháp thực hành tốt nhất để tối ưu hóa các khía cạnh hiệu suất quan trọng, đảm bảo các ứng dụng của bạn vẫn phản hồi và đáng tin cậy ngay cả khi làm việc với các tài liệu PDF lớn.
 
 ## Hướng dẫn có sẵn
-
 ### [Hướng dẫn toàn diện về tối ưu hóa PDF trong .NET bằng Aspose.PDF](./aspose-pdf-dotnet-optimization-guide/)
 Tìm hiểu cách tối ưu hóa PDF bằng Aspose.PDF cho .NET, đảm bảo sử dụng tài nguyên hiệu quả và tài liệu chất lượng cao. Nắm vững các hoạt động GSave/GRestore và quản lý đồ họa XForm.
 
@@ -49,6 +48,21 @@ Làm chủ nghệ thuật chuyển đổi tệp SVG sang PDF một cách chính 
 
 ### [Gỡ bỏ phông chữ trong PDF bằng Aspose.PDF cho .NET: Giảm kích thước tệp và cải thiện hiệu suất](./optimize-pdfs-unembed-fonts-aspose-pdf-net/)
 Tìm hiểu cách bỏ nhúng phông chữ khỏi tệp PDF của bạn bằng Aspose.PDF cho .NET. Tối ưu hóa hiệu suất PDF, giảm kích thước tệp và cải thiện thời gian tải với hướng dẫn từng bước này.
+
+### [Tạo PDF Tối ưu – Nén Hình ảnh PDF bằng JPEG Không mất dữ liệu](./create-optimized-pdf-compress-pdf-images-with-lossless-jpeg/)
+Hướng dẫn tạo PDF tối ưu bằng cách nén các hình ảnh trong PDF sử dụng định dạng JPEG không mất dữ liệu, giảm kích thước mà vẫn giữ chất lượng.
+
+### [Cách tối ưu hóa PDF trong C# Thêm trang trắng, Xuất HTML, Ký](./how-to-optimize-pdf-in-c-add-blank-page-export-html-sign/)
+Hướng dẫn thêm trang trắng, xuất PDF sang HTML và ký tài liệu PDF bằng Aspose.PDF cho .NET trong C#.
+
+### [Tối ưu hóa hình ảnh PDF – Giảm kích thước tệp PDF bằng C#](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
+Tìm hiểu cách giảm kích thước tệp PDF bằng cách tối ưu hóa hình ảnh sử dụng C# và Aspose.PDF.
+### [Cách nén PDF với Aspose – Hướng dẫn nhanh C#](./how-to-compress-pdf-with-aspose-quick-c-guide/)
+Hướng dẫn nhanh cách nén tệp PDF bằng Aspose.PDF trong C#, giảm kích thước và cải thiện hiệu suất.
+
+### [Lưu PDF đã tối ưu trong C# – Giảm kích thước & Dọn dẹp các trang](./save-optimized-pdf-in-c-reduce-size-clean-pages/)
+### [Cách nén PDF với Aspose.PDF – Hướng dẫn nhanh](./how-to-compress-pdf-with-aspose-pdf-quick-guide/)
+Hướng dẫn nhanh cách nén tệp PDF bằng Aspose.PDF cho .NET, giảm kích thước mà vẫn giữ chất lượng.
 
 ## Tài nguyên bổ sung
 

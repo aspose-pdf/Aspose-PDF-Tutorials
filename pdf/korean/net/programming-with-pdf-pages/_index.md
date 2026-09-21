@@ -26,7 +26,7 @@ Aspose.PDF for .NET의 "PDF 페이지 프로그래밍" 설명서는 PDF 파일�
 | [PDF 파일에서 특정 페이지 삭제](./delete-particular-page/) | 이 단계별 가이드를 통해 Aspose.PDF for .NET을 사용하여 PDF 파일에서 특정 페이지를 삭제하는 방법을 알아보세요. |  
 | [페이지 색상 결정](./determine-page-color/) Aspose.PDF for .NET을 사용하여 PDF 파일의 페이지 색상을 결정하는 방법을 단계별 가이드를 통해 알아보세요. 모든 기술 수준에 맞춰 쉽게 구현할 수 있습니다. |  
 | [PDF 파일에 페이지 내용 맞춤](./fit-page-contents/) | Aspose.PDF for .NET을 사용하여 PDF 콘텐츠를 손쉽게 배치하세요. 이 가이드는 최적의 페이지 레이아웃을 구현하기 위한 자세하고 단계별 접근 방식을 제공합니다. |  
-| [PDF 페이지 크기 가져오기](./get-dimensions/) | 이 튜토리얼에서는 Aspose.PDF for .NET을 사용하여 PDF 페이지 크기를 가져오고 조작하는 방법을 설명합니다. 자세한 단계를 통해 과정을 안내해 드립니다. |  
+| [PDF 페이지 크기 가져오기](./get-dimensions/) | 이 튜토리얼에서는 Aspose.PDF for .NET을 사용하여 PDF 페이지 크기를 가져고 조작하는 방법을 설명합니다. 자세한 단계를 통해 과정을 안내해 드립니다. |  
 | [PDF 파일의 페이지 수 가져오기](./get-number-of-pages/) | Aspose.PDF for .NET을 사용하여 PDF 파일의 페이지 수를 계산하는 단계별 가이드입니다. 구현이 간편하여 프로젝트에 이상적입니다. |  
 | [PDF 파일에서 페이지 수 가져오기](./get-page-count/) | Aspose.PDF for .NET을 사용하여 PDF 파일의 페이지 수를 가져오는 방법을 알아보세요. 간단하고 효과적인 솔루션을 위한 단계별 가이드를 따라해 보세요. |  
 | [특정 페이지 가져오기](./get-particular-page/) 이 단계별 가이드에서는 Aspose.PDF for .NET을 사용하여 PDF에서 특정 페이지를 추출하고 새 문서로 저장하는 방법을 알아봅니다. |  
@@ -38,6 +38,8 @@ Aspose.PDF for .NET의 "PDF 페이지 프로그래밍" 설명서는 PDF 파일�
 | [PDF 페이지 크기 업데이트](./update-dimensions/) | 이 포괄적인 단계별 가이드를 통해 Aspose.PDF for .NET을 사용하여 PDF 페이지 크기를 손쉽게 업데이트하는 방법을 알아보세요. |  
 | [PDF 파일의 페이지 내용 확대](./zoom-to-page-contents/) | 이 포괄적인 가이드에서 Aspose.PDF for .NET을 사용하여 PDF 파일의 페이지 내용을 확대/축소하는 방법을 알아보세요. 특정 요구 사항에 맞게 PDF 문서를 향상시키세요. |  
 | [C#로 PDF에 페이지 번호 추가 – 전체 단계별 가이드](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 C#로 PDF에 페이지 번호를 추가하는 단계별 가이드입니다. |  
+| [C#로 PDF 문서 만들기 – 베이츠 번호 추가](./create-pdf-document-c-add-bates-numbering/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 문서에 베이츠 번호를 추가하는 단계별 가이드입니다. |  
+| [Bates 번호 매기기 PDF – PDF 페이지에 번호를 매기는 단계별 가이드](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF에 Bates 번호를 추가하는 단계별 가이드입니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -46,3 +48,23 @@ Aspose.PDF for .NET의 "PDF 페이지 프로그래밍" 설명서는 PDF 파일�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Aspose PDF 튜토리얼 – 빈 페이지 삽입 및 베이츠 번호 업데이트](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Aspose.PDF for .NET을 사용하여 빈 페이지를 삽입하고 베이츠 번호를 업데이트하는 방법을 단계별로 안내합니다. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+| [Aspose를 사용하여 PDF에 페이지 추가 – 완전 C# 가이드](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF에 페이지를 추가하는 방법을 단계별로 안내합니다. |  
+| [C#에서 PDF 문서 만들기 – PDF에 페이지 및 사각형 추가](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 문서를 생성하고 페이지와 사각형을 추가하는 단계별 가이드입니다. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

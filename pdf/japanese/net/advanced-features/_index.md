@@ -64,6 +64,8 @@ Aspose.PDF for .NET を使用して、アクセシビリティ対応でスタイ
 
 ### [C#でPDFを比較する方法 – PDF差分生成の完全ガイド](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 C# と Aspose.PDF を使用して、PDF の差分を生成し、比較する方法を学びます。
+### [C#でPDFの透過性を編集する – ステップバイステップ ガイド](./edit-pdf-transparency-in-c-step-by-step-guide/)
+C# と Aspose.PDF を使用して、PDF の透過属性を編集し、透明効果をカスタマイズする方法を学びます。
 
 ## 追加リソース
 

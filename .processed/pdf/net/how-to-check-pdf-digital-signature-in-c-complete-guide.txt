@@ -1,0 +1,7 @@
+Title: How to Check PDF Digital Signature in C# – Complete Guide
+Slug: how-to-check-pdf-digital-signature-in-c-complete-guide
+Category: programming-with-security-and-signatures
+ProcessedDate: 2026-07-04T07:28:28.188224
+SourceRepo: AI Search API
+Keywords: how to check pdf digital signature
+PRNumber: 100

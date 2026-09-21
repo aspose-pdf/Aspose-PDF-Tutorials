@@ -16,7 +16,6 @@
 Naucz się tworzyć dokumenty PDF o jakości archiwalnej dzięki naszym kompleksowym samouczkom Aspose.PDF dotyczącym zgodności z PDF/A w .NET. Te szczegółowe przewodniki pokazują, jak tworzyć dokumenty zgodne ze standardami PDF/A-1b, PDF/A-2b i PDF/A-3b, weryfikować istniejące pliki PDF pod kątem standardów zgodności, konwertować standardowe pliki PDF do formatu archiwalnego i rozwiązywać typowe problemy ze zgodnością. Każdy samouczek zawiera działające przykłady kodu C# dla scenariuszy dokumentów archiwalnych, pomagając w tworzeniu aplikacji, które generują długoterminowe dokumenty do przechowywania zgodne z międzynarodowymi standardami.
 
 ## Dostępne samouczki
-
 ### [Aspose.PDF .NET: Dodaj załączniki i konwertuj do PDF/A](./aspose-pdf-net-add-attachments-convert-pdfa/)
 Samouczek dotyczący kodu dla Aspose.PDF Net
 
@@ -37,6 +36,14 @@ Dowiedz się, jak sprawdzić zgodność PDF/A-1a przy użyciu Aspose.PDF dla .NE
 
 ### [Walidacja PDF/A przy użyciu Aspose.PDF dla .NET w C#](./master-pdfa-validation-aspose-pdf-net/)
 Dowiedz się, jak weryfikować dokumenty PDF pod kątem standardów PDF/A przy użyciu Aspose.PDF .NET. Zapewnij zgodność i zwiększ niezawodność dokumentów dzięki naszemu przewodnikowi krok po kroku.
+
+### [Konwersja PDF do PDF/A w C# – przewodnik krok po kroku](./convert-pdf-to-pdf-a-in-c-step-by-step-guide/)
+Dowiedz się, jak w prosty sposób konwertować pliki PDF do formatu PDF/A przy użyciu C# i Aspose.PDF .NET.
+
+### [Utwórz plik PDF/A w C# – Pełny samouczek konwersji](./create-pdf-a-file-in-c-full-conversion-tutorial/)
+Kompletny przewodnik, jak w C# stworzyć plik PDF/A, konwertując istniejące PDF przy użyciu Aspose.PDF .NET.
+### [Jak utworzyć PDF/A w C# – Przewodnik Aspose krok po kroku](./how-to-create-pdf-a-in-c-step-by-step-aspose-guide/)
+Dowiedz się, jak w C# utworzyć dokument PDF/A, korzystając z Aspose.PDF .NET w prostym przewodniku krok po kroku.
 
 ## Dodatkowe zasoby
 

@@ -1,0 +1,7 @@
+Title: How to Redact PDF with Aspose.Pdf – Complete Step‑by‑Step Guide
+Slug: how-to-redact-pdf-with-aspose-pdf-complete-step-by-step-guid
+Category: security-permissions
+ProcessedDate: 2026-07-01T02:50:37.709291
+SourceRepo: AI Search API
+Keywords: how to redact pdf, save redacted pdf, aspose pdf redaction, remove sensitive data pdf
+PRNumber: 98

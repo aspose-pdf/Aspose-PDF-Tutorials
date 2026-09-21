@@ -1,0 +1,7 @@
+Title: Save Updated PDF – Edit PDF Resources with Aspose.Pdf
+Slug: save-updated-pdf-edit-pdf-resources-with-aspose-pdf
+Category: document-manipulation
+ProcessedDate: 2026-07-23T18:15:16.617623
+SourceRepo: AI Search API
+Keywords: save updated pdf, edit pdf resources
+PRNumber: 108

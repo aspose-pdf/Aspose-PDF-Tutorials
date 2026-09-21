@@ -1,0 +1,7 @@
+Title: How to create summary PDF with Aspose.Pdf.AI in C#
+Slug: how-to-create-summary-pdf-with-aspose-pdf-ai-in-c
+Category: programming-with-text
+ProcessedDate: 2026-09-18T18:34:27.857155
+SourceRepo: AI Search API
+Keywords: create summary pdf, how to summarize pdf, how to create client, how to set options, how to generate summary
+PRNumber: 131
