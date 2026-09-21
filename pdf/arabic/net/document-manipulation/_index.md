@@ -316,6 +316,8 @@
 ### [كيفية إصلاح ملفات PDF في C# – إصلاح ملفات PDF التالفة بسرعة](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
 تعرف على طريقة إصلاح ملفات PDF التالفة بسرعة باستخدام C# ومكتبة Aspose.PDF.
 
+### [كيفية إخفاء محتوى PDF في C# باستخدام Aspose PDF – دليل شامل](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

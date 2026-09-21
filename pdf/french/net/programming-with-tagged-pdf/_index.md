@@ -46,6 +46,7 @@ Les tutoriels « Programmation avec des PDF balisés » d'Aspose.PDF pour .NET
 | [Valider le fichier PDF](./validate-pdf/) | Apprenez à valider un fichier PDF avec Aspose.PDF pour .NET. Vérifiez sa conformité aux normes et générez un rapport de validation. |
 | [Créer un PDF balisé en C# – Guide complet étape par étape](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Apprenez à créer un PDF balisé en C# avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
 | [Créer un PDF balisé en C# – Guide complet Aspose PDF](./create-tagged-pdf-in-c-aspose-pdf-complete-guide/) | Apprenez à créer un PDF balisé en C# avec Aspose.PDF grâce à ce guide complet étape par étape. |
+| [Créer un PDF balisé en C# – Guide étape par étape](./create-tagged-pdf-in-c-step-by-step-guide/) | Apprenez à créer un PDF balisé en C# avec Aspose.PDF pour .NET grâce à ce guide étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -54,7 +55,6 @@ Les tutoriels « Programmation avec des PDF balisés » d'Aspose.PDF pour .NET
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-| [Créer un PDF balisé en C# – Guide étape par étape](./create-tagged-pdf-in-c-step-by-step-guide/) | Apprenez à créer un PDF balisé en C# avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
 | [Comment baliser un PDF avec Aspose – Guide complet des balises d'accessibilité PDF](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) | Apprenez à baliser vos PDF pour l'accessibilité avec Aspose grâce à ce guide complet étape par étape. |  
 | [Rendre le PDF accessible avec Aspose : insérer un paragraphe PDF étape par étape](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Apprenez à insérer un paragraphe dans un PDF accessible avec Aspose.PDF pour .NET, étape par étape. |
 | [Créer un PDF balisé en C# – Ajouter un titre et du texte accessible](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Apprenez à créer un PDF balisé en C# avec un titre et du texte accessible à l'aide d'Aspose.PDF pour .NET. |

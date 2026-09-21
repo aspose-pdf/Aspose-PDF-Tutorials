@@ -51,6 +51,8 @@ Aspose.PDF का उपयोग करके C# में PDF को तेज
 ### [C# में अनुकूलित PDF सहेजें – आकार घटाएँ और पृष्ठ साफ़ करें](./save-optimized-pdf-in-c-reduce-size-clean-pages/)
 C# में Aspose.PDF का उपयोग करके अनुकूलित PDF को सहेजने, फ़ाइल आकार घटाने और अनावश्यक पृष्ठ हटाने की प्रक्रिया सीखें।
 
+### [Aspose.PDF के साथ PDF को संपीड़ित करने का त्वरित गाइड](./how-to-compress-pdf-with-aspose-pdf-quick-guide/)
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.PDF for Net दस्तावेज़ीकरण](https://docs.aspose.com/pdf/net/)

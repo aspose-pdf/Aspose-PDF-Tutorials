@@ -70,6 +70,9 @@
 ### [Мастер создания PDF-файлов с тегами с помощью Aspose.PDF для .NET: полное руководство по доступности и SEO](./master-tagged-pdf-creation-aspose-pdf-dotnet/)
 Узнайте, как создавать доступные, хорошо структурированные тегированные PDF-файлы с помощью Aspose.PDF для .NET. В этом руководстве рассматривается настройка свойств документа, добавление ссылок и встраивание изображений.
 
+### [Освоение создания PDF-буклетов с помощью Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
+Учебник по коду для Aspose.PDF Net
+
 ### [Создание PDF-документа с Aspose.Pdf – пошаговое руководство](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 Узнайте, как создавать PDF-документы с помощью Aspose.Pdf, следуя подробному пошаговому руководству.
 
@@ -99,8 +102,8 @@
 ### [Создание PDF-документа C# – руководство по добавлению нумерации Бейтса](./create-pdf-document-c-add-bates-numbering-guide/)
 Узнайте, как добавить нумерацию Бейтса в PDF-документ с помощью Aspose.PDF для .NET на C#.
 
-### [Создание PDF‑документа с Aspose.PDF – пошаговое руководство](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
-Узнайте, как создать PDF‑документ с помощью Aspose.PDF, следуя пошаговым инструкциям.
+### [Создание PDF-документа с Aspose.PDF – Полное руководство на C#](./create-pdf-document-with-aspose-pdf-full-c-guide/)
+Узнайте, как создать PDF-документ с помощью Aspose.PDF, следуя полному руководству на C#.
 
 ## Дополнительные ресурсы
 

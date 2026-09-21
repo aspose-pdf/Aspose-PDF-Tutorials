@@ -58,6 +58,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [XPS Ke PDF](./xps-to-pdf/) Pelajari cara mengonversi file XPS ke PDF menggunakan Aspose.PDF untuk .NET dengan tutorial langkah demi langkah ini. Sempurna untuk pengembang dan penggemar dokumen. |  
 | [Konversi PDF ke PDF/X‑4 dalam C#](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Pelajari cara mengonversi PDF ke PDF/X‑4 menggunakan Aspose.PDF untuk .NET dengan contoh kode C# langkah demi langkah. |
 | [Cara Mengonversi PDF ke PDF/X-4 dengan Aspose – Panduan Langkah demi Langkah](./how-to-convert-pdf-to-pdf-x-4-with-aspose-step-by-step-guide/) | Pelajari cara mengonversi PDF ke PDF/X‑4 menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah. |
+| [Tutorial Aspose PDF: Mengonversi PDF ke PDF/X‑4 dalam C#](./aspose-pdf-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Pelajari cara mengonversi PDF ke PDF/X‑4 menggunakan Aspose.PDF untuk .NET dengan contoh kode C# langkah demi langkah. |
 | [Tutorial PDF ke PNG – Mengonversi Halaman PDF ke PNG dalam C#](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Pelajari cara mengonversi halaman PDF menjadi gambar PNG menggunakan Aspose.PDF untuk .NET dengan contoh kode C# langkah demi langkah. |
 | [Cara Mengatur Opsi Konversi PDF di C# – Panduan Aspose](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | Pelajari cara mengatur opsi konversi PDF menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini. |
 

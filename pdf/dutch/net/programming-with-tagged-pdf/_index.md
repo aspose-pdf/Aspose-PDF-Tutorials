@@ -46,6 +46,7 @@ De tutorials "Programmeren met getagde PDF's" van Aspose.PDF voor .NET begeleide
 | [PDF-bestand valideren](./validate-pdf/) | Leer hoe u een PDF-bestand valideert met Aspose.PDF voor .NET. Controleer de naleving van de standaarden en genereer een validatierapport. |  
 | [Maak getagde PDF in C# – Complete stapsgewijze handleiding](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Leer hoe u met Aspose.PDF voor .NET een getagde PDF in C# maakt, stap voor stap met volledige voorbeelden. |
 | [Maak getagde PDF in C# – Aspose PDF Complete gids](./create-tagged-pdf-in-c-aspose-pdf-complete-guide/) | Leer hoe u met Aspose.PDF voor .NET een getagde PDF in C# maakt met een volledige, stapsgewijze handleiding. |
+| [Maak getagde PDF in C# – Stapsgewijze handleiding](./create-tagged-pdf-in-c-step-by-step-guide/) | Leer hoe u met Aspose.PDF voor .NET een getagde PDF in C# maakt, stap voor stap met voorbeeldcode. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -58,12 +59,3 @@ De tutorials "Programmeren met getagde PDF's" van Aspose.PDF voor .NET begeleide
 | [Maak PDF toegankelijk met Aspose: Paragraaf PDF invoegen stap‑voor‑stap](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Leer hoe u met Aspose.PDF voor .NET een paragraaf toevoegt aan een PDF om de toegankelijkheid te verbeteren, stap voor stap. |
 | [Maak getagde PDF in C# – Voeg koptekst en toegankelijke tekst toe](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Leer hoe u een getagde PDF maakt in C# met een koptekst en toegankelijke tekst met Aspose.PDF voor .NET. |  
 | [Maak een toegankelijke PDF met Aspose.Pdf – Stapsgewijze handleiding](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Leer hoe u een toegankelijke PDF maakt met Aspose.Pdf via een stapsgewijze handleiding. |  
-| [Maak een getagde PDF in C# – Stapsgewijze handleiding](./create-tagged-pdf-in-c-step-by-step-guide/) | Leer hoe u met Aspose.PDF voor .NET een getagde PDF in C# maakt, stap voor stap. |
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

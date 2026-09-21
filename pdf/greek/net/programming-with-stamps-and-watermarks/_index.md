@@ -46,6 +46,7 @@
 | [Προσθήκη αρίθμησης Bates σε PDF με C# – Πλήρης οδηγός](./add-bates-numbering-pdf-in-c-complete-guide/) Μάθετε πώς να προσθέσετε αρίθμηση Bates σε PDF με C# χρησιμοποιώντας το Aspose.PDF για .NET. |  
 | [Μυστικό υδατογράφημα PDF με Aspose: Προσθήκη σφραγίδας κειμένου στην πρώτη σελίδα](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) | Μάθετε πώς να προσθέσετε μια σφραγίδα κειμένου στην πρώτη σελίδα ενός PDF ως μυστικό υδατογράφημα χρησιμοποιώντας το Aspose.PDF για .NET. |  
 | [Πώς να αποθηκεύσετε PDF — Προσθήκη αριθμησης Bates με Aspose.Pdf](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) | Μάθετε πώς να αποθηκεύσετε ένα PDF προσθέτοντας αριθμητική Bates με το Aspose.PDF για .NET. |  
+| [Δημιουργία εγγράφου PDF με αρίθμηση Bates σε C# – Πλήρης Οδηγός](./create-pdf-document-with-bates-numbering-in-c-full-guide/) | Μάθετε πώς να δημιουργήσετε PDF με αρίθμηση Bates χρησιμοποιώντας το Aspose.PDF για .NET σε C# με πλήρη οδηγό βήμα-βήμα. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

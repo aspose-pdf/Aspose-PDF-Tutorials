@@ -29,6 +29,7 @@ Aspose.PDF'nin .NET için "Pullar ve Filigranlarla Programlama" öğreticileri, 
 | [Damga Açıklamasından Metin Çıkar](./extract-text-from-stamp-annotation/) | Bu adım adım eğitimle, .NET için Aspose.PDF'yi kullanarak bir damga açıklamasından metnin nasıl çıkarılacağını öğrenin, ayrıntılı bir kod örneği de var.  
 | [PDF Dosyasında Vuruş Metnini Doldur](./fill-stroke-text/) | Bu pratik örneklerle dolu adım adım kılavuzla, Aspose.PDF for .NET kullanarak PDF dosyalarındaki kontur metnini zahmetsizce nasıl dolduracağınızı öğrenin.  
 | [PDF Dosyasından Filigran Al](./get-watermark/) | Aspose.PDF for .NET kullanarak PDF dosyalarından filigranların nasıl çıkarılacağını adım adım bir kılavuzla öğrenin. Filigran çıkarma için ayrıntılı eğitim. |  
+| [Üstbilgi Altbilgi Bölümündeki Resim ve Sayfa Numarası](./image-and-page-number-in-header-footer-section/) Bu adım adım eğitimde Aspose.PDF for .NET kullanarak PDF'nizin üst bilgi ve alt bilgisine nasıl resim ve sayfa numarası ekleyeceğinizi öğrenin.  
 | [Altbilgideki Resim](./image-in-footer/) | Bu detaylı adım adım eğitimle .NET için Aspose.PDF kullanarak bir PDF'nin altbilgisine resim eklemeyi öğrenin. Belgelerinizi geliştirmek için mükemmel. |  
 | [Üstbilgi Altbilgide Yüzen Kutu Kullanarak Sayfa Numarası](./page-number-in-header-footer-using-floating-box/) | Bu adım adım eğitimde Aspose.PDF for .NET ile Yüzen Kutu kullanarak PDF üst bilgi ve alt bilginize kolayca sayfa numaraları ekleyin. |  
 | [Üstbilgi Altbilgi Bölümündeki Tablo](./table-in-header-footer-section/) | Aspose.PDF for .NET kullanarak bir PDF dosyasının altbilgisine kolayca metin eklemeyi öğrenin. Sorunsuz entegrasyon için adım adım kılavuz dahildir. |  
@@ -41,6 +42,7 @@ Aspose.PDF'nin .NET için "Pullar ve Filigranlarla Programlama" öğreticileri, 
 | [PDF Dosyasında Sayfa Numarası Damgaları](./page-number-stamps/) Kolay takip edilebilir kılavuzumuz ve kod örneğimizle Aspose.PDF for .NET'i kullanarak PDF dosyalarına sayfa numarası damgalarının nasıl ekleneceğini öğrenin.  
 | [PDF'yi Kaydet — Aspose.Pdf ile Bates Numaralandırma Ekle](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) | Aspose.PDF for .NET kullanarak PDF dosyalarına Bates numaralandırması eklemeyi adım adım öğrenin. |  
 | [PDF Filigranı Oluştur – Damga Ekle ve DOCX'i PDF'e Dönüştür](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) | Aspose.PDF for .NET kullanarak PDF'e filigran ekleyin, damga oluşturun ve DOCX dosyasını PDF'e dönüştürün. |  
+| [C# ile Bates Numaralandırmalı PDF Belgesi Oluşturma – Tam Kılavuz](./create-pdf-document-with-bates-numbering-in-c-full-guide/) | Aspose.PDF for .NET kullanarak C# dilinde Bates numaralandırmasıyla PDF belgeleri oluşturmayı adım adım öğrenin. |  
 
 | [C# ile Bates Numaralandırma PDF Ekle – Tam Kılavuz](./add-bates-numbering-pdf-in-c-complete-guide/) | Aspose.PDF for .NET kullanarak PDF dosyalarına Bates numaralandırma eklemeyi adım adım öğrenin. |  
 | [PDF Dosyasında Hizalamayı Tanımla](./define-alignment/) | Bu kılavuz, .NET için Aspose.PDF'yi kullanarak PDF dosyalarında metin hizalamasının nasıl tanımlanacağını adım adım bir eğitimle birlikte ele almaktadır. |

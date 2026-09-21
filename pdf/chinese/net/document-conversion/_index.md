@@ -80,6 +80,7 @@
 | [Aspose PDF 转换（C#）——分步指南](./aspose-pdf-conversion-in-c-step-by-step-guide/) | 通过本分步指南了解如何使用 Aspose.PDF for .NET 在 C# 中执行 PDF 转换。|  
 | [如何在 C# 中将 PDF 转换为 PDF/X‑4 – 步骤指南](./how-to-convert-pdf-to-pdf-x-4-in-c-step-by-step-guide/) | 通过本分步教程了解如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 转换为 PDF/X‑4，包含代码示例和关键设置。|  
 | [在将 Word 转换为 PDF 时设置 ICC 配置文件 – 完整 C# 指南](./set-icc-profile-when-converting-word-to-pdf-complete-c-guide/) | 通过本分步指南学习在使用 Aspose.PDF for .NET 将 Word 转换为 PDF 时设置 ICC 配置文件，确保颜色准确。|  
+| [Aspose PDF 教程：在 C# 中将 PDF 转换为 PDF/X‑4](./aspose-pdf-tutorial-convert-pdf-to-pdf-x-4-in-c/) | 通过本分步指南了解如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 转换为 PDF/X‑4。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

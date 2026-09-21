@@ -206,7 +206,7 @@ Aprenda a recortar eficientemente los espacios en blanco de documentos PDF con A
 Aprenda a actualizar enlaces en archivos PDF mediante programación con Aspose.PDF para .NET. Automatice las actualizaciones de enlaces de forma eficiente con esta guía paso a paso.
 
 ### [Cómo actualizar el color del texto del enlace PDF con Aspose.PDF .NET: una guía completa](./update-pdf-link-text-color-aspose-net/)
-Aprenda a cambiar fácilmente el color del texto de los enlaces en archivos PDF con Aspose.PDF para .NET. Esta guía completa incluye consejos de instalación, implementación y optimización.
+Aprenda a cambiar fácilmente el color del texto de los enlaces en archivos PDF con Aspose.PDF .NET. Esta guía completa incluye consejos de instalación, implementación y optimización.
 
 ### [Insertar páginas en PDF con Aspose.PDF para .NET: una guía completa para la manipulación de documentos](./insert-pages-pdf-aspose-dotnet-guide/)
 Aprenda a insertar páginas en un PDF con Aspose.PDF para .NET. Esta guía paso a paso abarca todo, desde la configuración hasta la implementación, ideal para desarrolladores de C#.
@@ -215,7 +215,7 @@ Aprenda a insertar páginas en un PDF con Aspose.PDF para .NET. Esta guía paso 
 Aprenda a insertar páginas en un PDF con Aspose.PDF para .NET con esta guía paso a paso. Optimice su flujo de trabajo documental.
 
 ### [Insertar una página vacía en un PDF con Aspose.PDF .NET: una guía completa](./aspose-pdf-net-insert-empty-page/)
-Aprenda a insertar páginas vacías en documentos PDF fácilmente con Aspose.PDF para .NET. Siga esta guía paso a paso para mejorar sus habilidades de manipulación de documentos.
+Aprenda a insertar páginas vacías en documentos PDF fácilmente con Aspose.PDF .NET. Siga esta guía paso a paso para mejorar sus habilidades de manipulación de documentos.
 
 ### [Domine el método MakeNUp de Aspose.PDF .NET para diseños PDF eficientes](./aspose-pdf-net-make-nup-method-pdf-layout/)
 Aprenda a reorganizar eficientemente varias páginas PDF en nuevos diseños con el método MakeNUp de Aspose.PDF .NET. Ideal para boletines, folletos e informes.
@@ -315,6 +315,8 @@ Aprenda a redactar PDFs en C#, ocultando texto y eliminando contenido confidenci
 
 ### [Cómo reparar PDF en C# – Reparar archivos PDF corruptos rápidamente](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
 Aprenda a reparar archivos PDF dañados rápidamente usando Aspose.PDF para .NET con código C#.
+### [Cómo redactar PDF en C# con Aspose PDF – Guía completa](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
+Aprenda a redactar información confidencial de archivos PDF usando Aspose PDF para .NET con C#. Guía paso a paso.
 
 ## Recursos adicionales
 

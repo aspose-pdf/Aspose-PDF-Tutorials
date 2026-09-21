@@ -60,6 +60,7 @@
 | [Как установить параметры преобразования PDF в C# – Руководство Aspose](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | Узнайте, как задать параметры конвертации PDF в C# с помощью Aspose.PDF для .NET в этом пошаговом руководстве. |
 | [Конвертировать PDF в PDF/X‑4 на C# – пошаговое руководство ASP.NET PDF](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Узнайте, как конвертировать PDF в PDF/X‑4 с помощью Aspose.PDF для .NET в этом пошаговом руководстве. |
 | [Как конвертировать PDF в PDF/X‑4 с Aspose – пошаговое руководство](./how-to-convert-pdf-to-pdf-x-4-with-aspose-step-by-step-guide/) | Узнайте, как преобразовать PDF в PDF/X‑4 с помощью Aspose.PDF для .NET в этом пошаговом руководстве. |
+| [Aspose PDF Tutorial: Конвертировать PDF в PDF/X‑4 на C#](./aspose-pdf-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Узнайте, как конвертировать PDF в PDF/X‑4 с помощью Aspose.PDF для .NET в этом пошаговом руководстве. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

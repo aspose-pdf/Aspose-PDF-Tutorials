@@ -97,6 +97,8 @@ Ismerje meg, hogyan ellenőrizheti a PDF aláírást C#‑ban az Aspose.PDF for 
 
 ### [Hogyan nyerhet ki aláírót PDF-ből – Teljes C# útmutató](./how-to-extract-signer-from-pdf-complete-c-guide/)
 Ismerje meg, hogyan nyerhet ki aláíró információkat PDF-dokumentumból C#-ban az Aspose.PDF for .NET segítségével.
+### [Hogyan olvassuk ki az aláírásokat PDF-ben C#-ban – Lépésről lépésre útmutató](./how-to-read-signatures-in-pdf-with-c-step-by-step-guide/)
+Ismerje meg, hogyan olvashatja ki a digitális aláírásokat PDF-fájlokból C#-ban az Aspose.PDF for .NET segítségével.
 
 ## További források
 

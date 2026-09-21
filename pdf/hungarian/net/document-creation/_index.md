@@ -67,8 +67,6 @@ Tanulja meg, hogyan adhat hozzá oldalt PDF-hez, címkézheti a fejléceket, és
 
 ### [PDF dokumentum létrehozása Aspose.PDF segítségével – Oldal, alakzat hozzáadása és mentés](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Tanulja meg, hogyan hozhat létre PDF dokumentumot, adhat hozzá oldalt, alakzatot, majd mentheti azt az Aspose.PDF .NET használatával.
-### [PDF dokumentum létrehozása Aspose.PDF‑vel – Lépésről‑lépésre útmutató](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
-Tanulja meg, hogyan hozhat létre PDF dokumentumot az Aspose.PDF segítségével lépésről‑lépésre.
 ### [PDF dokumentum létrehozása Aspose‑val C#‑ban – Lépésről‑lépésre útmutató](./create-pdf-document-with-aspose-in-c-step-by-step-guide/)
 Tanuld meg, hogyan hozhatsz létre PDF dokumentumot C#‑ban az Aspose segítségével, beleértve az oldal, alakzat hozzáadását és a mentést.
 ### [PDF dokumentum létrehozása C# – Üres oldal hozzáadása és téglalap rajzolása](./create-pdf-document-c-add-blank-page-draw-rectangle/)
@@ -88,8 +86,8 @@ Ismerje meg, hogyan hozhat létre PDF dokumentumot az Aspose.Pdf könyvtárral .
 ### [PDF dokumentum létrehozása – Üres oldal hozzáadása, téglalap rajzolása és mentés](./create-pdf-document-add-blank-page-draw-rectangle-save/)
 Ismerje meg, hogyan hozhat létre PDF dokumentumot, adhat hozzá üres oldalt, rajzolhat téglalapot, majd mentheti azt az Aspose.PDF for .NET segítségével.
 
-### [PDF dokumentum létrehozása az Aspose.PDF segítségével – Lépésről‑lépésre útmutató](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
-Tanulja meg, hogyan hozhat létre PDF dokumentumot az Aspose.PDF segítségével lépésről‑lépésre.
+### [PDF dokumentum létrehozása Aspose.PDF – Teljes C# útmutató](./create-pdf-document-with-aspose-pdf-full-c-guide/)
+Tanulja meg, hogyan hozhat létre PDF dokumentumot teljes körű C# példakóddal az Aspose.PDF használatával.
 
 ## További források
 

@@ -35,6 +35,8 @@ Tento tutoriál vám poskytne podrobný přehled metod a technik pro zajištěn�
 | [Podepisujte pomocí čipové karty s použitím pole pro podpis](./sign-with-smart-card-using-signature-field/) | Naučte se, jak bezpečně podepisovat PDF soubory pomocí čipové karty s Aspose.PDF pro .NET. Pro snadnou implementaci postupujte podle našeho podrobného návodu. |  
 | [Kontrola podpisů PDF v C# – Jak číst podepsané PDF soubory](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Naučte se, jak v C# číst a ověřovat digitální podpisy v PDF souborech pomocí Aspose.PDF pro .NET. |  
 | [Kontrola PDF na podpisy – Jak vypsat podpisy v C# s Aspose.PDF](./check-pdf-for-signatures-how-to-list-signatures-in-c-with-as/) | Naučte se, jak v C# získat seznam digitálních podpisů v PDF souboru pomocí Aspose.PDF. |  
+| [Jak ověřit podpis v PDF pomocí C# – Kompletní průvodce Aspose](./how-to-verify-signature-in-pdf-using-c-complete-aspose-guide/) | Naučte se, jak ověřit digitální podpisy v PDF pomocí C# s kompletním návodem Aspose. |  
+| [Přidat digitální podpis PDF v C# – Kompletní průvodce krok za krokem](./add-digital-signature-pdf-in-c-complete-step-by-step-guide/) | Naučte se, jak v C# přidat digitální podpis do PDF souboru pomocí Aspose.PDF krok za krokem. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

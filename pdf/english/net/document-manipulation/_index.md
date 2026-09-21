@@ -215,7 +215,7 @@ Learn how to insert pages into a PDF using Aspose.PDF for .NET. This step-by-ste
 Learn how to insert pages into a PDF using Aspose.PDF for .NET with this step-by-step guide. Streamline your document workflow efficiently.
 
 ### [Insert an Empty Page in PDF using Aspose.PDF .NET&#58; A Comprehensive Guide](./aspose-pdf-net-insert-empty-page/)
-Learn how to insert empty pages into PDF documents with ease using Aspose.PDF for .NET. Follow this step-by-step guide to enhance your document manipulation skills.
+Learn how to insert empty pages into PDF documents with ease using Aspose.PDF .NET. Follow this step-by-step guide to enhance your document manipulation skills.
 
 ### [Master Aspose.PDF .NET's MakeNUp Method for Efficient PDF Layouts](./aspose-pdf-net-make-nup-method-pdf-layout/)
 Learn how to efficiently rearrange multiple PDF pages into new layouts using Aspose.PDF .NET's MakeNUp method. Ideal for newsletters, brochures, and reports.
@@ -315,6 +315,8 @@ Learn how to redact sensitive information in PDFs using Aspose.PDF for .NET, hid
 
 ### [How to Repair PDF in C# – Fix Corrupted PDF Files Quickly](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
 Learn how to repair corrupted PDF files quickly using Aspose.PDF for .NET in C#.
+### [How to Redact PDF in C# with Aspose PDF – Complete Guide](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
+Learn how to permanently remove sensitive content from PDFs using Aspose.PDF for .NET with C# in this comprehensive step-by-step guide.
 
 ## Additional Resources
 

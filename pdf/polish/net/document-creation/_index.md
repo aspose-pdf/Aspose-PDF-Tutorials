@@ -67,8 +67,6 @@ Dowiedz się, jak w prosty sposób tworzyć dokumenty PDF w C# przy użyciu Aspo
 
 ### [Utwórz dokument PDF przy użyciu Aspose.PDF – Dodaj stronę, kształt i zapisz](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Dowiedz się, jak w Aspose.PDF dodać nową stronę, rysować kształty i zapisać dokument PDF w aplikacji .NET.
-### [Tworzenie dokumentu PDF przy użyciu Aspose.PDF – przewodnik krok po kroku](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
-Dowiedz się, jak krok po kroku tworzyć dokumenty PDF przy użyciu Aspose.PDF w .NET.
 ### [Tworzenie dokumentu PDF przy użyciu Aspose w C# – przewodnik krok po kroku](./create-pdf-document-with-aspose-in-c-step-by-step-guide/)
 Dowiedz się, jak krok po kroku utworzyć dokument PDF w C# przy użyciu Aspose, dodając strony i zapisując plik.
 ### [Tworzenie dokumentu PDF w C# – Dodaj pustą stronę i narysuj prostokąt](./create-pdf-document-c-add-blank-page-draw-rectangle/)
@@ -82,14 +80,14 @@ Dowiedz się, jak w C# utworzyć plik PDF, dodać nową stronę, narysować pros
 ### [Tworzenie dokumentu PDF w C# – Przewodnik dodawania numeracji Batesa](./create-pdf-document-c-add-bates-numbering-guide/)
 Dowiedz się, jak dodać numerację Bates do dokumentu PDF w C# przy użyciu Aspose.PDF.
 
-### [Tworzenie dokumentu PDF przy użyciu Aspose.Pdf – przewodnik krok po kroku](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
-Dowiedz się, jak tworzyć dokumenty PDF przy użyciu Aspose.Pdf, krok po kroku, z przykładami kodu.
-
 ### [Utwórz dokument PDF – dodaj pustą stronę, narysuj prostokąt i zapisz](./create-pdf-document-add-blank-page-draw-rectangle-save/)
 Dowiedz się, jak w Aspose.PDF dla .NET utworzyć dokument PDF, dodać pustą stronę, narysować prostokąt i zapisać plik.
 
 ### [Utwórz dokument PDF przy użyciu Aspose.PDF – przewodnik krok po kroku](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
-Dowiedz się, jak krok po kroku utworzyć dokument PDF przy użyciu Aspose.PDF w .NET.
+Dowiedz się, jak krok po kroku utworzyć dokument PDF w Aspose.PDF, dodając elementy i zapisując go w .NET.
+
+### [Utwórz dokument PDF przy użyciu Aspose.PDF – Pełny przewodnik C#](./create-pdf-document-with-aspose-pdf-full-c-guide/)
+Kompletny przewodnik C# pokazujący, jak tworzyć dokumenty PDF, dodawać elementy i zapisywać je przy użyciu Aspose.PDF.
 
 ## Dodatkowe zasoby
 

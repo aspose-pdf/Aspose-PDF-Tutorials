@@ -316,6 +316,8 @@ Tìm hiểu cách làm chủ thao tác PDF bằng Aspose.PDF cho .NET. Hướng 
 
 ### [Cách Sửa PDF trong C# – Sửa nhanh các tệp PDF bị hỏng](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
 Tìm hiểu cách sửa các tệp PDF bị hỏng nhanh chóng bằng C# và Aspose.PDF.
+### [Cách xóa nhạy cảm PDF trong C# với Aspose PDF – Hướng dẫn đầy đủ](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
+Tìm hiểu cách xóa thông tin nhạy cảm khỏi tài liệu PDF bằng Aspose PDF cho .NET trong C# qua hướng dẫn chi tiết từng bước.
 
 ## Tài nguyên bổ sung
 

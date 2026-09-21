@@ -60,6 +60,7 @@ Você aprenderá a especificar configurações de conversão, extrair texto e im
 | [Como converter PDF para PDF/X-4 com Aspose – Guia passo a passo](./how-to-convert-pdf-to-pdf-x-4-with-aspose-step-by-step-guide/) | Aprenda a converter PDF para PDF/X‑4 usando Aspose.PDF para .NET neste guia passo a passo. |
 | [PDF para PNG tutorial – Converter páginas PDF para PNG em C#](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Aprenda a converter páginas de PDF em imagens PNG usando Aspose.PDF para .NET em C# com este tutorial passo a passo. |
 | [Como definir opções para conversão de PDF em C# – Guia Aspose](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | Aprenda a definir opções de conversão de PDF em C# usando Aspose.PDF para .NET com este guia passo a passo. |
+| [Tutorial Aspose PDF: Converter PDF para PDF/X‑4 em C#](./aspose-pdf-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Aprenda a converter PDFs para o padrão PDF/X‑4 usando Aspose.PDF para .NET em C# com este tutorial passo a passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

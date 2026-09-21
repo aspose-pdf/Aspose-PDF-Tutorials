@@ -71,8 +71,6 @@ Lär dig hur du skapar PDF-dokument i C# med en tydlig steg‑för‑steg‑guid
 
 ### [Skapa PDF-dokument med Aspose.PDF – Lägg till sida, form och spara](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Lär dig hur du skapar ett PDF-dokument, lägger till en sida och former samt sparar det med Aspose.PDF för .NET.
-### [Skapa PDF-dokument med Aspose.PDF – Steg‑för‑steg‑guide](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
-Lär dig hur du skapar PDF-dokument med Aspose.PDF i en steg‑för‑steg‑guide.
 ### [Skapa PDF-dokument med Aspose i C# – Steg‑för‑steg‑guide](./create-pdf-document-with-aspose-in-c-step-by-step-guide/)
 Lär dig hur du skapar PDF-dokument med Aspose i C# genom en detaljerad steg‑för‑steg‑guide.
 ### [Skapa PDF-dokument i C# – Lägg till tom sida, taggar och span](./create-pdf-document-in-c-add-blank-page-tags-and-span/)
@@ -84,14 +82,14 @@ Lär dig hur du skapar en PDF i C#, lägger till en ny sida, ritar en rektangel 
 ### [Skapa PDF-dokument i C# – Guide för att lägga till Bates-nummerering](./create-pdf-document-c-add-bates-numbering-guide/)
 Lär dig hur du lägger till Bates-nummer i PDF-dokument med Aspose.PDF för .NET i C#.
 
-### [Skapa PDF-dokument med Aspose.Pdf – En steg‑för‑steg‑guide](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
-Lär dig hur du skapar PDF-dokument med Aspose.Pdf genom en tydlig steg‑för‑steg‑guide.
-
 ### [Skapa PDF-dokument – Lägg till tom sida, rita rektangel och spara](./create-pdf-document-add-blank-page-draw-rectangle-save/)
 Lär dig hur du skapar ett PDF-dokument, lägger till en tom sida, ritar en rektangel och sparar filen med Aspose.PDF för .NET.
 
 ### [Skapa PDF-dokument med Aspose.PDF – Steg‑för‑steg‑guide](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 Lär dig hur du skapar ett PDF-dokument med Aspose.PDF genom en detaljerad steg‑för‑steg‑guide.
+
+### [Skapa PDF-dokument med Aspose.PDF – Fullständig C#‑guide](./create-pdf-document-with-aspose-pdf-full-c-guide/)
+Lär dig steg‑för‑steg hur du skapar PDF‑dokument med Aspose.PDF i C# med fullständiga kodexempel.
 
 ## Ytterligare resurser
 

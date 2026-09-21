@@ -315,6 +315,8 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET vertrauliche Informationen in PDF
 
 ### [Wie man PDF in C# repariert – Beschädigte PDF-Dateien schnell beheben](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET beschädigte PDF-Dateien in C# schnell reparieren und wiederherstellen.
+### [Wie Sie PDF in C# mit Aspose PDF redigieren – Vollständige Anleitung](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose PDF für .NET vertrauliche Informationen in PDFs redigieren und dauerhaft entfernen.
 
 ## Weitere Ressourcen
 

@@ -1,70 +1,169 @@
 ---
 category: general
-date: 2026-02-12
-description: Aspose.Pdf ile C#'ta etiketli PDF oluşturun. PDF'ye paragraf eklemeyi,
-  paragraf etiketi eklemeyi, paragrafa metin eklemeyi ve erişilebilir bir PDF oluşturmayı
-  öğrenin.
+date: 2026-03-06
+description: Aspose.Pdf ile C#'ta etiketli PDF oluşturun. PDF'ye resim eklemeyi, şekil
+  konumunu ayarlamayı ve erişilebilirlik için PDF'yi etiketlemeyi öğrenin.
 draft: false
 keywords:
 - create tagged pdf
-- add paragraph to pdf
-- add paragraph tag
-- add text to paragraph
-- create accessible pdf
+- add image to pdf
+- set figure position
+- how to tag pdf
+- how to add image
 language: tr
-og_description: C# ile Aspose.Pdf kullanarak etiketli PDF oluşturun. Bu öğreticide
-  PDF'ye paragraf ekleme, etiketleri ayarlama ve erişilebilir bir PDF üretme gösterilmektedir.
-og_title: C#'ta Etiketli PDF Oluşturma – Tam Programlama Rehberi
+og_description: Aspose.Pdf ile etiketli PDF oluşturun. Bu kılavuz, PDF'ye resim eklemeyi,
+  şekil konumunu ayarlamayı ve erişilebilirlik için PDF'yi etiketlemeyi gösterir.
+og_title: C#'ta Etiketli PDF Oluşturma – Tam Kılavuz
 tags:
 - Aspose.Pdf
 - C#
-- PDF accessibility
-title: C#'te Etiketli PDF Oluşturma – Adım Adım Rehber
+- PDF Accessibility
+title: C#'ta Etiketli PDF Oluşturma – Adım Adım Rehber
 url: /tr/net/programming-with-tagged-pdf/create-tagged-pdf-in-c-step-by-step-guide/
 ---
 
-adding a paragraph to PDF while keeping the document accessible? We’ll walk through every line of code, explain why each piece matters, and end with a ready‑to‑run example that you can drop into your project."
-
-Translate.
-
-Continue.
-
-Ok.
-
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# C#’ta Etiketli PDF Oluşturma – Adım Adım Kılavuz
+# C#’ta Etiketli PDF Oluşturma – Tam Kılavuz
 
-Eğer **etiketli PDF** oluşturmanız gerekiyorsa ve bunu hızlıca yapmak istiyorsanız, bu kılavuz tam olarak nasıl yapılacağını gösterir. PDF’ye bir paragraf eklerken belgenin erişilebilirliğini korumakta zorlanıyor musunuz? Kodun her satırını adım adım inceleyecek, her parçanın neden önemli olduğunu açıklayacak ve projenize doğrudan ekleyebileceğiniz çalıştırmaya hazır bir örnekle sonlandıracağız.
+Ever needed to **create tagged PDF** in C# but weren’t sure where to start? You’re not alone; accessibility is a must these days, and a tagged PDF is the backbone of a compliant document. In this tutorial we’ll walk through a real‑world example that **adds image to PDF**, sets the figure’s position, and shows **how to tag PDF** using Aspose.Pdf. By the end you’ll have a fully‑tagged PDF you can ship to anyone.
 
-Bu öğreticide **PDF’ye paragraf ekleme**, uygun **paragraf etiketi** ekleme, **paragrafa metin ekleme** ve nihayetinde **erişilebilir PDF** dosyaları oluşturma konularını öğreneceksiniz; ekran okuyucu kontrollerini geçecek. Ek bir PDF aracı gerekmez—sadece Aspose.Pdf for .NET ve birkaç satır C# yeterli.
+We’ll cover everything from loading an existing file to saving the final output, so you won’t have to hunt for “how to add image” elsewhere. No fluff—just a clear, runnable solution that works with Aspose.Pdf 23.8 (the latest at time of writing). Grab your IDE, and let’s get started.
 
-## Gereksinimler
+---
 
-- .NET 6.0 veya üzeri (API, .NET Framework 4.6+ üzerinde aynı şekilde çalışır)
-- Aspose.Pdf for .NET (NuGet paketi `Aspose.Pdf`)
-- Temel bir C# IDE (Visual Studio, Rider veya VS Code)
+## Gerekenler
 
-Hepsi bu. Harici bir araç, karmaşık yapılandırma dosyası yok. Hadi başlayalım.
+- **Aspose.Pdf for .NET** (NuGet paketi `Aspose.Pdf`).  
+- .NET 6+ (veya .NET Framework 4.7.2+).  
+- Zaten mantıksal bir yapıya sahip bir giriş PDF’i (yani zaten etiketli) – eğer değilse, `pdfDocument.TaggedContent = true` ile etiketlemeyi etkinleştirebilirsiniz.  
+- Gömmek istediğiniz bir görüntü dosyası (`image.png`).  
 
-![Screenshot of a tagged PDF document showing the paragraph text](/images/create-tagged-pdf.png "create tagged pdf example")
+Hepsi bu. Başka kütüphane yok, gizli yapılandırma dosyaları yok.
 
-*(Görsel alt metni: “etiketli pdf örneği, uygun etiketli bir paragrafı gösteriyor”)*
+---
 
-## Etiketli PDF Oluşturma – Temel Kavramlar
+## Adım 1: Mevcut PDF Belgesini Yükleyin (Etiketli PDF Temelini Oluşturma)
 
-Kodlamaya başlamadan önce **etiketlemenin** neden önemli olduğunu anlamak faydalı. PDF/UA (Evrensel Erişilebilirlik) doğru sırada okunabilmesi için mantıksal bir yapı ağacına ihtiyaç duyar. Bir **paragraf etiketi** oluşturup **paragrafa metin ekleyerek**, ekran okuyuculara içeriğin bir paragraf olduğu, rastgele bir karakter dizisi olmadığı açıkça belirtilir.
-
-### Adım 1: Projeyi Kurun ve Namespace’leri İçe Aktarın
-
-Yeni bir console uygulaması oluşturun (veya mevcut bir projeye entegre edin) ve Aspose.Pdf referansını ekleyin.
+İlk olarak geliştirmek istediğimiz PDF’i açıyoruz. Dosyayı yüklemek, onun mantıksal yapısına erişmemizi sağlar; bu, **create tagged pdf** iş akışları için çok önemlidir.
 
 ```csharp
 using System;
+using System.IO;
 using Aspose.Pdf;
-using Aspose.Pdf.Text;
+using Aspose.Pdf.LogicalStructure;
+
+// Load the source PDF – make sure the path points to a real file.
+Document pdfDocument = new Document("YOUR_DIRECTORY/input.pdf");
+
+// Verify that the document has a tag tree; if not, enable it.
+if (!pdfDocument.TaggedContent.IsTagged)
+{
+    pdfDocument.TaggedContent.IsTagged = true;
+    Console.WriteLine("Tagging enabled on the document.");
+}
+```
+
+*Neden önemli:* Etiket ağacı olmadan PDF, ekran okuyuculara yapısal bilgi iletemez. Etiketlemeyi etkinleştirmek, eklediğimiz yeni öğelerin (örneğin bir şekil) doğru hiyerarşiyi miras almasını sağlar.
+
+---
+
+## Adım 2: Mantıksal Yapı Köküne Erişin (How to Tag PDF)
+
+Şimdi PDF’in mantıksal yapısına giriyoruz. Kök öğe, tüm etiketlerin konteyneridir—belgenin taslağı gibi düşünün.
+
+```csharp
+// Grab the root of the logical structure.
+var logicalRoot = pdfDocument.TaggedContent.RootElement;
+
+// Optional: print existing children count for debugging.
+Console.WriteLine($"Root has {logicalRoot.ChildElements.Count} child elements.");
+```
+
+*Açıklama:* `logicalRoot`, `<Figure>` veya `<Table>` gibi yeni etiketler eklememizi sağlar. Bu, **how to tag PDF** programatik olarak yapmanın çekirdeğidir.
+
+---
+
+## Adım 3: Bir Figure Etiketi Oluşturun ve Konumunu Ayarlayın (Set Figure Position)
+
+Bir *Figure* etiketi, görsel içeriği isteğe bağlı bir başlıkla gruplar. Bir tane oluşturacağız, konumlandıracağız ve köke ekleyeceğiz.
+
+```csharp
+// Create a new Figure element.
+var figureTag = logicalRoot.CreateFigureElement();
+
+// Define where the figure appears on the page.
+figureTag.Position = new Position
+{
+    // X/Y are measured from the bottom‑left corner (points).
+    X = 100,   // 100 points from the left edge
+    Y = 150,   // 150 points from the bottom edge
+    Width = 300,
+    Height = 200
+};
+
+// Append the Figure to the logical structure.
+logicalRoot.AppendChild(figureTag);
+
+Console.WriteLine("Figure tag created and positioned.");
+```
+
+*Neden konum ayarlıyoruz:* **set figure position** adımı, görsel öğenin sayfada nerede görüneceğini belirler. Bunu atlayırsanız, şekil beklenmedik bir konumda görünebilir veya yardımcı teknolojiler tarafından görünmez olabilir.
+
+---
+
+## Adım 4: Görsel Temsil Ekleyin – Bir Görüntü Ekleyin (Add Image to PDF)
+
+Etiket yerinde olduğunda, gerçek bir görüntüye ihtiyacımız var. Bu, **add image to pdf** sorusunun cevabıdır.
+
+```csharp
+// Grab the first page (pages are 1‑based in Aspose.Pdf).
+var firstPage = pdfDocument.Pages[1];
+
+// Create an Image object that points to the file stream.
+var image = new Image
+{
+    ImageStream = File.OpenRead("YOUR_DIRECTORY/image.png"),
+    // The rectangle defines the same area we set for the Figure.
+    Rect = new Rectangle(100, 150, 400, 350) // X, Y, Width, Height
+};
+
+// Add the image to the page's paragraph collection.
+firstPage.Paragraphs.Add(image);
+
+Console.WriteLine("Image added to the first page.");
+```
+
+*Önemli nokta:* Dikdörtgen koordinatları, daha önce tanımladığımız `figureTag.Position` ile eşleşmelidir; aksi takdirde şekil ve görsel içeriği senkron dışı olur ve erişilebilirlik bozulur.
+
+---
+
+## Adım 5: Güncellenen PDF’i Kaydedin (Etiketli PDF Oluşturmayı Tamamlayın)
+
+Son olarak, değişiklikleri yeni bir dosyaya kaydediyoruz. Orijinali dokunulmaz bırakmak iyi bir uygulamadır.
+
+```csharp
+// Save the modified document.
+pdfDocument.Save("YOUR_DIRECTORY/output.pdf");
+
+Console.WriteLine("Tagged PDF saved as output.pdf");
+```
+
+Bu aşamada, `<Figure>` etiketi içinde düzgün konumlandırılmış bir görüntü içeren bir **create tagged pdf** dosyanız var. `output.pdf` dosyasını Adobe Acrobat’ta açın ve *Tags* panelini kontrol edin – kök altında bir `Figure` düğümü görmelisiniz.
+
+---
+
+## Tam, Çalıştırmaya Hazır Örnek
+
+Aşağıda, bir konsol uygulamasına kopyalayıp yapıştırabileceğiniz tam program yer alıyor. Tüm adımlar zaten doğru sırada.
+
+```csharp
+using System;
+using System.IO;
+using Aspose.Pdf;
+using Aspose.Pdf.LogicalStructure;
 
 namespace TaggedPdfDemo
 {
@@ -72,183 +171,109 @@ namespace TaggedPdfDemo
     {
         static void Main(string[] args)
         {
-            // The rest of the code lives here
-        }
-    }
-}
-```
-
-> **İpucu:** .NET 6 üst‑seviye ifadeler (top‑level statements) kullanıyorsanız, `Program` sınıfını tamamen atlayabilir—kodunuzu doğrudan dosyaya yerleştirin. Mantık aynı kalır.
-
-### Adım 2: Boş Bir PDF Belgesi Oluşturun
-
-İlk olarak boş bir `Document` oluştururuz. Bu nesne, PDF dosyasının tamamını, iç yapı ağacını da kapsar.
-
-```csharp
-// Step 2: Create a new PDF document (the canvas)
-using (var pdfDocument = new Document())
-{
-    // All subsequent operations happen inside this block
-}
-```
-
-`using` ifadesi, dosya tutamacının otomatik olarak serbest bırakılmasını garantiler; bu, demoyu birden çok kez çalıştırdığınızda özellikle kullanışlıdır.
-
-### Adım 3: Etiketli İçerik Yapısına Erişin
-
-Etiketli bir PDF, `TaggedContent` altında bir *yapı ağacı* barındırır. Bunu alarak mantıksal öğeler (paragraflar gibi) oluşturmaya başlayabiliriz.
-
-```csharp
-// Step 3: Get the tagged content object
-var taggedContent = pdfDocument.TaggedContent;
-```
-
-Bu adımı atlamazsanız, daha sonra ekleyeceğiniz metin **yapısız** olur; yani yardımcı teknolojiler bunu düz bir metin olarak okur.
-
-### Adım 4: Paragraf Öğesini Oluşturun ve Konumunu Tanımlayın
-
-Şimdi **PDF’ye paragraf ekleme** işlemini gerçekleştiriyoruz. Paragraf öğesi, bir veya daha fazla metin parçasını tutabilen bir kapsayıcıdır.
-
-```csharp
-// Step 4: Create a paragraph element
-var paragraph = taggedContent.CreateParagraphElement();
-
-// Define where the paragraph appears on the page (in points)
-paragraph.Bounds = new Rectangle(0, 700, 500, 720);
-```
-
-`Rectangle`, (0,0) noktasının sol‑alt köşe olduğu PDF koordinat sistemini kullanır. Paragrafı sayfanın daha üst ya da alt kısmına yerleştirmeniz gerekiyorsa Y‑koordinatlarını ayarlayın.
-
-### Adım 5: Paragrafa Metin Ekleyin
-
-İşte **paragrafa metin ekleme** kısmı. `Text` özelliği, dahili olarak tek bir `TextFragment` oluşturan bir yardımcı sarmalayıcıdır.
-
-```csharp
-// Step 5: Set the visible text of the paragraph
-paragraph.Text = "Chapter 1 – Introduction";
-```
-
-Daha zengin biçimlendirme (yazı tipleri, renkler, bağlantılar) istiyorsanız, bir `TextFragment` oluşturup `paragraph.Segments` koleksiyonuna manuel olarak ekleyebilirsiniz.
-
-### Adım 6: Paragrafı Yapı Ağacına Bağlayın
-
-Yapı ağacının, alt öğeleri asabileceği bir *kök öğeye* ihtiyacı vardır. Paragrafı ekleyerek PDF’ye etkili bir şekilde **paragraf etiketi** eklemiş oluruz.
-
-```csharp
-// Step 6: Append the paragraph to the root element of the structure tree
-taggedContent.RootElement.AppendChild(paragraph);
-```
-
-Bu noktada PDF, görsel olarak yerleştirdiğimiz metne işaret eden mantıksal bir paragraf düğümüne sahiptir.
-
-### Adım 7: Belgeyi Erişilebilir PDF Olarak Kaydedin
-
-Son olarak dosyayı diske yazdırıyoruz. Çıktı, ekran okuyucu testlerine hazır **erişilebilir pdf** olacaktır.
-
-```csharp
-// Step 7: Save the tagged PDF to a file
-pdfDocument.Save("tagged.pdf");
-```
-
-`tagged.pdf` dosyasını Adobe Acrobat’ta açıp *File → Properties → Tags* bölümüne bakarak yapıyı doğrulayabilirsiniz.
-
-### Tam Çalışan Örnek
-
-Her şeyi bir araya getirdiğimizde, kopyala‑yapıştır‑hazır program aşağıdaki gibidir:
-
-```csharp
-using System;
-using Aspose.Pdf;
-using Aspose.Pdf.Text;
-
-namespace TaggedPdfDemo
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // Step 1‑7: Create a tagged PDF with a single paragraph
-            using (var pdfDocument = new Document())
+            // 1️⃣ Load the PDF.
+            Document pdfDocument = new Document("YOUR_DIRECTORY/input.pdf");
+            if (!pdfDocument.TaggedContent.IsTagged)
             {
-                // Access tagged content
-                var taggedContent = pdfDocument.TaggedContent;
-
-                // Create paragraph element
-                var paragraph = taggedContent.CreateParagraphElement();
-
-                // Position the paragraph on the first page
-                paragraph.Bounds = new Rectangle(0, 700, 500, 720);
-
-                // Add visible text
-                paragraph.Text = "Chapter 1 – Introduction";
-
-                // Append paragraph to the root of the structure tree
-                taggedContent.RootElement.AppendChild(paragraph);
-
-                // Save the result
-                pdfDocument.Save("tagged.pdf");
+                pdfDocument.TaggedContent.IsTagged = true;
+                Console.WriteLine("Tagging enabled.");
             }
 
-            Console.WriteLine("Tagged PDF created successfully at: tagged.pdf");
+            // 2️⃣ Access the logical structure root.
+            var logicalRoot = pdfDocument.TaggedContent.RootElement;
+
+            // 3️⃣ Create a Figure tag and set its position.
+            var figureTag = logicalRoot.CreateFigureElement();
+            figureTag.Position = new Position
+            {
+                X = 100,
+                Y = 150,
+                Width = 300,
+                Height = 200
+            };
+            logicalRoot.AppendChild(figureTag);
+            Console.WriteLine("Figure tag added.");
+
+            // 4️⃣ Add the image to the first page.
+            var firstPage = pdfDocument.Pages[1];
+            var image = new Image
+            {
+                ImageStream = File.OpenRead("YOUR_DIRECTORY/image.png"),
+                Rect = new Rectangle(100, 150, 400, 350)
+            };
+            firstPage.Paragraphs.Add(image);
+            Console.WriteLine("Image inserted.");
+
+            // 5️⃣ Save the result.
+            pdfDocument.Save("YOUR_DIRECTORY/output.pdf");
+            Console.WriteLine("PDF saved – tagging complete.");
         }
     }
 }
 ```
 
-**Beklenen çıktı:** Programı çalıştırdıktan sonra, çalıştırılabilir dosyanın çalışma dizininde `tagged.pdf` adlı bir dosya oluşur. Adobe Acrobat’ta açtığınızda “Chapter 1 – Introduction” metninin sayfanın üst kısmına yerleştirildiğini ve *Tags* panelinde bu metne bağlı tek bir `<P>` (paragraf) öğesi listelendiğini görürsünüz.
+### Beklenen Sonuç
 
-## Daha Fazla İçerik Eklemek – Yaygın Varyasyonlar
+- `output.pdf`, (100, 150) noktalarında görüntüyü göstererek, 300 × 200 nokta boyutunda açılır.  
+- *Tags* bölmesi, görüntüyü kapsayan bir `Figure` öğesi gösterir.  
+- Ekran okuyucu araçları, resmi tanımlamadan önce “Figure” duyurur, temel erişilebilirlik standartlarını karşılar.
 
-### Birden Çok Paragraf
+---
 
-**PDF’ye paragraf ekleme** işlemini birden fazla kez yapmanız gerekiyorsa, adım 4‑6’yı yeni sınır ve metinlerle tekrarlayın. Paragrafların çakışmaması için Y‑koordinatının azaldığından emin olun.
+## Yaygın Sorular ve Kenar Durumları
+
+### Kaynak PDF zaten etiketli değilse ne olur?
+
+Aspose.Pdf, `pdfDocument.TaggedContent.IsTagged = true;` ayarını yaparak etiketlemeyi açmanıza izin verir. Kütüphane varsayılan bir etiket ağacı oluşturur; ardından örnekte gösterildiği gibi özel etiketler ekleyebilirsiniz.
+
+### Şekle bir başlık ekleyebilir miyim?
+
+Evet. `figureTag` oluşturduktan sonra, bir `Paragraph` içine `TextFragment` ekleyebilir ve `Tag` değerini `Caption` olarak ayarlayabilirsiniz. Örnek:
 
 ```csharp
-var secondParagraph = taggedContent.CreateParagraphElement();
-secondParagraph.Bounds = new Rectangle(0, 660, 500, 680);
-secondParagraph.Text = "This is the second paragraph.";
-taggedContent.RootElement.AppendChild(secondParagraph);
+var caption = new Paragraph(new TextFragment("Figure 1: Sample diagram"));
+caption.Tag = figureTag.CreateCaptionElement();
+logicalRoot.AppendChild(caption);
 ```
 
-### Metin Stili
+### Şekli farklı bir sayfaya nasıl yerleştiririm?
 
-Daha zengin biçimlendirme için bir `TextFragment` oluşturup paragrafın `Segments` koleksiyonuna ekleyin:
+`var firstPage = pdfDocument.Pages[1];` satırını istediğiniz sayfa indeksiyle, örneğin `pdfDocument.Pages[3]` ile değiştirin. Sayfa boyutu farklıysa `Position` koordinatlarını ayarlamayı unutmayın.
+
+### Birden fazla görüntüyü etiketlemem gerekirse ne yapmalıyım?
+
+Her görüntü için yeni bir `Figure` oluşturun, her birine benzersiz bir `Position` verin ve ilgili `Image` nesnesini uygun sayfaya ekleyin. Görüntü koleksiyonları üzerinde döngü kullanmak güzel çalışır.
+
+### Bu PDF/A uyumluluğu ile çalışır mı?
+
+Aspose.Pdf, PDF/A‑1b, PDF/A‑2b ve PDF/A‑3b destekler. PDF/A belgesi oluştururken, kaydetmeden önce uyumluluk modunu ayarladığınızdan emin olun:
 
 ```csharp
-var tf = new TextFragment("Bold heading")
-{
-    TextState = { FontSize = 14, FontStyle = FontStyles.Bold }
-};
-paragraph.Segments.Add(tf);
+pdfDocument.Convert(ConvertFormat.PdfA1b);
 ```
 
-### Sayfalarla Çalışma
+Etiketleme mantığı aynı kalır.
 
-Örnek otomatik olarak tek sayfalı bir PDF oluşturur. Daha fazla sayfa eklemeniz gerekiyorsa `pdfDocument.Pages.Add()` ile yeni sayfalar ekleyin ve `paragraph.Bounds` değerini uygun sayfaya göre ayarlayın; örneğin `paragraph.PageNumber = 2;`.
+---
 
-## Erişilebilirliği Test Etme
+## Profesyonel İpuçları ve Tuzaklar
 
-Gerçekten **erişilebilir pdf** oluşturduğunuzu doğrulamanın hızlı yolu:
+- **Pro tip:** Her zaman mutlak yollar veya `Path.Combine` kullanın; böylece çalışma zamanı dosya‑bulunamadı hatalarından kaçınırsınız.  
+- **Dikkat:** `Figure` etiketi ile `Image` dikdörtgeni arasındaki uyumsuz koordinatlar—yardımcı teknolojiler bu hizalamaya dayanır.  
+- **Performans notu:** Birçok sayfa işliyorsanız, görüntü akışını bir `using` bloğu içinde sararak kaynakları hızlıca serbest bırakın.  
+- **Sürüm kontrolü:** Gösterilen API, Aspose.Pdf 23.8+ ile çalışır. Eski sürümler, sınıf adlarında hafif farklılıklar içerebilir (ör. `FigureElement` yerine `LogicalStructureElement`).
 
-1. Dosyayı Adobe Acrobat Pro’da açın.
-2. *View → Tools → Accessibility → Full Check* seçeneğini seçin.
-3. *Tags* ağacını inceleyin; her paragraf bir `<P>` düğümü olarak görünmelidir.
-
-Eğer kontrol eksik etiketler bildiriyorsa, oluşturduğunuz her öğe için `taggedContent.RootElement.AppendChild(paragraph);` çağrısını yaptığınızdan emin olun.
-
-## Yaygın Tuzaklar ve Önleme Yöntemleri
-
-- **Etiketlemeyi unuttunuz:** Sadece bir `Document` oluşturmak **yapı ağacını** eklemez. Öğeler eklemeden önce her zaman `TaggedContent`’e erişin.
-- **Sınırlar sayfa dışı:** Dikdörtgen, sayfa boyutları (varsayılan A4 ≈ 595 × 842 point) içinde kalmalıdır. Sayfa dışı dikdörtgenler sessizce yok sayılır.
-- **Eklemeyi yapmadan kaydetmek:** `Save` metodunu `AppendChild` çağrısından önce çalıştırırsanız PDF etiketlenmemiş olur.
+---
 
 ## Sonuç
 
-Artık Aspose.Pdf for .NET kullanarak **etiketli PDF** oluşturmayı, **PDF’ye paragraf eklemeyi**, uygun **paragraf etiketini** eklemeyi ve **paragrafa metin eklemeyi** biliyorsunuz; böylece nihai dosya **erişilebilir pdf** olarak uyumluluk testlerine hazır. Yukarıdaki tam kod örneği herhangi bir C# projesine kopyalanıp değişiklik yapmadan çalıştırılabilir.
+Başlangıçtan sona kadar **create tagged pdf** yaptık, **add image to pdf** gösterdik ve **set figure position** nasıl yapılır gösterirken **how to tag pdf** ve **how to add image** sorularına tek, bütünleşik bir örnekle yanıt verdik. Kod çalıştırmaya hazır, açıklamalar her adımın “neden”ini kapsıyor ve artık C#’ta erişilebilir PDF’ler oluşturmak için sağlam bir temele sahipsiniz.
 
-Bir sonraki adıma hazır mısınız? Bu yaklaşımı tablolar, görseller veya özel başlık etiketleriyle birleştirerek tamamen yapılandırılmış raporlar oluşturabilirsiniz. Ya da mevcut PDF’leri otomatik olarak etiketli sürümlere dönüştürmek için Aspose’un *PdfConverter* özelliğini keşfedin.
+Bir sonraki meydan okumaya hazır mısınız? `<Table>` etiketleriyle tablolar eklemeyi deneyin veya arşivleme amaçlı bir PDF/A‑2b uyumluluk katmanı ekleyin. Aynı desen—yükle, mantıksal yapıya eriş, bir etiket oluştur, görsel içeriği ekle, kaydet—çoğu PDF erişilebilirlik görevinde geçerlidir.
 
-Kodlamanın tadını çıkarın ve PDF’lerinizin hem güzel **hem** erişilebilir olmasını dileyin!
+Bir sorunla karşılaşırsanız veya burada ele alınmayan bir kullanım senaryonuz varsa, aşağıya yorum bırakın. Etiketlemeye iyi çalışmalar ve herkesin okuyabileceği PDF’ler oluşturmaktan keyif alın! 
+
+![Figure etiketi ve görüntüsü olan bir PDF gösteren diyagram – etiketli pdf oluşturmayı açıklar](placeholder-image.png "etiketli pdf örneği")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

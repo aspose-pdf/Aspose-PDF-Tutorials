@@ -83,14 +83,11 @@ Aspose.PDF Net 代码教程
 ### [使用 C# 创建 PDF 文档 – 添加 Bates 编号指南](./create-pdf-document-c-add-bates-numbering-guide/)
 学习如何在 C# 中使用 Aspose.PDF 为 PDF 文档添加 Bates 编号，实现批量文档标识。
 
-### [使用 Aspose.PDF 创建 PDF 文档 – 分步指南](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
-学习如何使用 Aspose.PDF 逐步创建 PDF 文档，涵盖设置、代码示例和最佳实践。
-
 ### [使用 Aspose.PDF for .NET 创建 PDF 文档 – 添加空白页、绘制矩形并保存](./create-pdf-document-add-blank-page-draw-rectangle-save/)
 学习如何使用 Aspose.PDF for .NET 在 PDF 中添加空白页、绘制矩形并保存文档的完整步骤。
 
-### [使用 Aspose.PDF 创建 PDF 文档：分步指南](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
-学习如何使用 Aspose.PDF 在 .NET 环境下创建 PDF 文档并进行保存和基本操作。
+### [使用 Aspose.PDF 创建 PDF 文档 – 完整 C# 指南](./create-pdf-document-with-aspose-pdf-full-c-guide/)
+学习如何使用 Aspose.PDF 通过完整的 C# 指南创建 PDF 文档。
 
 ## 其他资源
 

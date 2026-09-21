@@ -99,6 +99,8 @@ Apprenez à extraire le signataire d'un PDF en C# grâce à ce guide complet.
 
 ### [Vérifier la signature PDF en C# – Valider la signature numérique du PDF](./check-pdf-signature-in-c-validate-digital-signature-pdf/)
 Apprenez à vérifier et valider les signatures numériques d'un PDF en C# avec Aspose.PDF, étape par étape.
+### [Comment lire les signatures dans un PDF avec C# – Guide étape par étape](./how-to-read-signatures-in-pdf-with-c-step-by-step-guide/)
+Apprenez à lire les signatures numériques d'un PDF en C# avec Aspose.PDF, étape par étape.
 
 ## Ressources supplémentaires
 

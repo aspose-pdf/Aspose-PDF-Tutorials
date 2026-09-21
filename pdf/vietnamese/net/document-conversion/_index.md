@@ -60,6 +60,7 @@ Bạn sẽ học cách chỉ định cài đặt chuyển đổi, trích xuất 
 | [Chuyển đổi PDF sang PDF/X‑4 trong C# – Hướng dẫn ASP.NET PDF từng bước](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Tìm hiểu cách chuyển đổi tệp PDF sang định dạng PDF/X‑4 bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. |  
 | [Cách chuyển đổi PDF sang PDF/X-4 với Aspose – Hướng dẫn từng bước](./how-to-convert-pdf-to-pdf-x-4-with-aspose-step-by-step-guide/) | Tìm hiểu cách chuyển đổi tệp PDF sang định dạng PDF/X-4 bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết từng bước này. |  
 | [Cách thiết lập tùy chọn chuyển đổi PDF trong C# – Hướng dẫn Aspose](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | Học cách cấu hình các tùy chọn chuyển đổi PDF trong C# bằng Aspose.PDF cho .NET qua hướng dẫn chi tiết. |
+| [Hướng dẫn Aspose PDF: Chuyển đổi PDF sang PDF/X‑4 trong C#](./aspose-pdf-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Tìm hiểu cách chuyển đổi PDF sang PDF/X‑4 bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

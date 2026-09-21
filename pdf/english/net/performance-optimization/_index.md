@@ -62,6 +62,8 @@ Learn a quick C# method to compress PDFs using Aspose.PDF, improving file size a
 
 ### [Save Optimized PDF in C# – Reduce Size & Clean Pages](./save-optimized-pdf-in-c-reduce-size-clean-pages/)
 Learn how to save optimized PDFs in C#, reducing file size and removing unnecessary pages for better performance.
+### [how to compress pdf with Aspose.Pdf – quick guide](./how-to-compress-pdf-with-aspose-pdf-quick-guide/)
+Learn a fast method to compress PDF files using Aspose.PDF for .NET, reducing size while preserving quality in just a few steps.
 
 ## Additional Resources
 

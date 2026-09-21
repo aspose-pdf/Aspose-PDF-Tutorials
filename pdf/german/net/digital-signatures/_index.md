@@ -90,6 +90,9 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Signaturen in C# vollständig
 ### [PDF-Signatur in C# prüfen – Vollständiger Schritt‑für‑Schritt‑Leitfaden](./how-to-verify-pdf-signature-in-c-complete-step-by-step-guide/)
 Lernen Sie, wie Sie PDF‑Signaturen in C# Schritt für Schritt mit Aspose.PDF prüfen und deren Authentizität sicherstellen.
 
+### [Wie man Signaturen in PDF mit C# liest – Schritt‑für‑Schritt‑Anleitung](./how-to-read-signatures-in-pdf-with-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF‑Signaturen in C# auslesen und analysieren.
+
 ## Weitere Ressourcen
 
 - [Aspose.PDF für Net-Dokumentation](https://docs.aspose.com/pdf/net/)

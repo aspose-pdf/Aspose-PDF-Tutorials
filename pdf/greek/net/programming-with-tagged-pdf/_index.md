@@ -46,14 +46,6 @@
 | [Επικύρωση αρχείου PDF](./validate-pdf/) | Μάθετε πώς να επικυρώνετε ένα αρχείο PDF με το Aspose.PDF για .NET. Ελέγξτε τη συμμόρφωσή του με τα πρότυπα και δημιουργήστε μια αναφορά επικύρωσης. |
 | [Δημιουργία PDF με ετικέτες σε C# – Πλήρης οδηγός βήμα προς βήμα](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε PDF με ετικέτες χρησιμοποιώντας C# και Aspose.PDF για .NET σε αυτόν τον πλήρη οδηγό βήμα‑βήμα. |
 | [Δημιουργία PDF με ετικέτες σε C# – Πλήρης οδηγός Aspose PDF](./create-tagged-pdf-in-c-aspose-pdf-complete-guide/) | Μάθετε πώς να δημιουργήσετε PDF με ετικέτες σε C# χρησιμοποιώντας Aspose.PDF για .NET σε αυτόν τον πλήρη οδηγό. |
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 | [Πώς να ετικετοποιήσετε PDF με το Aspose – Πλήρης οδηγός για ετικέτες προσβασιμότητας PDF](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) | Μάθετε πώς να προσθέσετε ετικέτες προσβασιμότητας σε PDF χρησιμοποιώντας το Aspose σε έναν ολοκληρωμένο οδηγό βήμα προς βήμα. |  
 | [Κάντε το PDF προσβάσιμο με το Aspose: Εισαγωγή παραγράφου PDF βήμα‑βήμα](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Μάθετε πώς να προσθέσετε μια παράγραφο σε PDF με το Aspose.PDF για .NET, βήμα‑βήμα, ώστε το έγγραφο να είναι προσβάσιμο. |
 | [Δημιουργία PDF με ετικέτες σε C# – Προσθήκη επικεφαλίδας & προσβάσιμο κείμενο](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Μάθετε πώς να δημιουργήσετε PDF με ετικέτες σε C# προσθέτοντας επικεφαλίδα και προσβάσιμο κείμενο. |  

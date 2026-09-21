@@ -239,6 +239,9 @@ Dowiedz się, jak skutecznie zarządzać plikami PDF za pomocą Aspose.PDF dla .
 ### [Opanuj manipulację plikami PDF w .NET za pomocą Aspose.PDF: kompleksowy przewodnik](./aspose-pdf-net-tutorial/)
 Dowiedz się, jak programowo zarządzać plikami PDF w .NET za pomocą Aspose.PDF. Ten przewodnik obejmuje ładowanie dokumentów, dostęp do pól formularzy i iterowanie opcji.
 
+### [Opanuj manipulację plikami PDF za pomocą Aspose.PDF .NET: kompleksowy przewodnik po automatyzacji dokumentów](./master-pdf-manipulation-aspose-dotnet-guide/)
+Dowiedz się, jak automatyzować zadania związane z plikami PDF za pomocą Aspose.PDF dla platformy .NET, w tym łączenie plików, dodawanie stron, wstawianie znaczników tekstowych i tworzenie łączy.
+
 ### [Opanuj manipulację plikami PDF w .NET za pomocą Aspose.PDF: kompleksowy przewodnik](./master-pdf-manipulation-aspose-pdf-net-guide/)
 Dowiedz się, jak automatyzować zadania związane z plikami PDF za pomocą Aspose.PDF dla platformy .NET, w tym łączenie plików, dodawanie stron, wstawianie znaczników tekstowych i tworzenie łączy.
 
@@ -303,10 +306,10 @@ Dowiedz się, jak obracać strony PDF za pomocą Aspose.PDF dla .NET. Ten przewo
 Dowiedz się, jak efektywnie dzielić pliki PDF z określonej strony za pomocą strumieni .NET w Aspose.PDF, usprawniając zarządzanie dokumentami w aplikacjach.
 
 ### [Podziel strony PDF na pojedyncze pliki za pomocą Aspose.PDF .NET (samouczek C#)](./split-pdf-pages-aspose-net-csharp/)
-Dowiedz się, jak podzielić plik PDF na pojedyncze strony za pomocą Aspose.PDF dla .NET i C#. Ten przewodnik obejmuje konfigurację, implementację i praktyczne zastosowania.
+Dowiedz się, jak podzielić plik PDF na pojedyncze strony przy użyciu Aspose.PDF dla .NET i C#. Ten przewodnik obejmuje konfigurację, implementację i praktyczne zastosowania.
 
 ### [Podziel strony PDF na oddzielne pliki za pomocą Aspose.PDF dla .NET: kompleksowy przewodnik](./aspose-pdf-split-pdf-pages-net/)
-Dowiedz się, jak podzielić strony PDF na osobne pliki za pomocą Aspose.PDF dla .NET. Ten kompleksowy przewodnik obejmuje wskazówki dotyczące konfiguracji, implementacji i optymalizacji.
+Dowiedz się, jak podzielić strony PDF na osobne pliki przy użyciu Aspose.PDF dla .NET. Ten kompleksowy przewodnik obejmuje wskazówki dotyczące konfiguracji, implementacji i optymalizacji.
 
 ### [Dzielenie i tworzenie plików PDF za pomocą Aspose.PDF .NET | Przewodnik po manipulacji dokumentami](./split-create-pdf-aspose-pdf-net/)
 Dowiedz się, jak dzielić wielostronicowe pliki PDF i tworzyć nowe pliki PDF za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z tym kompleksowym przewodnikiem z przykładami kodu.
@@ -315,6 +318,9 @@ Dowiedz się, jak dzielić wielostronicowe pliki PDF i tworzyć nowe pliki PDF z
 
 ### [Jak naprawić PDF w C# – Szybko napraw uszkodzone pliki PDF](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
 Dowiedz się, jak w C# szybko naprawić uszkodzone pliki PDF przy użyciu Aspose.PDF.
+
+### [Jak redagować plik PDF w C# przy użyciu Aspose PDF – Kompletny przewodnik](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
+Dowiedz się, jak usuwać wrażliwe informacje z dokumentów PDF przy użyciu Aspose PDF w C# w tym kompletnym przewodniku.
 
 ## Dodatkowe zasoby
 

@@ -99,6 +99,8 @@ C# kullanarak PDF dosyalarındaki dijital imzaları nasıl doğrulayacağınız�
 
 ### [C# ile PDF İmzasını Doğrulama – Adım Adım Kılavuz](./validate-pdf-signature-in-c-step-by-step-guide/)
 C# kullanarak PDF dosyalarındaki dijital imzaları nasıl doğrulayacağınızı adım adım öğrenin.
+### [C# ile PDF'deki İmzaları Okuma – Adım Adım Kılavuz](./how-to-read-signatures-in-pdf-with-c-step-by-step-guide/)
+C# kullanarak PDF dosyalarındaki dijital imzaları nasıl okuyacağınızı adım adım öğrenin.
 
 ## Ek Kaynaklar
 

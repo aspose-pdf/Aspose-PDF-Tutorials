@@ -48,6 +48,7 @@
 | [علامة مائية سرية لملف PDF باستخدام Aspose: إضافة طابع نصي إلى الصفحة الأولى](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) | تعلم كيفية إضافة طابع نصي كعلامة مائية سرية إلى الصفحة الأولى من ملف PDF باستخدام Aspose.PDF لـ .NET. |
 | [كيفية حفظ PDF — إضافة ترقيم Bates باستخدام Aspose.Pdf](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) | تعرف على طريقة حفظ ملفات PDF وإضافة ترقيم Bates باستخدام Aspose.PDF لـ .NET خطوة بخطوة مع أمثلة عملية. |
 | [إنشاء علامة مائية PDF – إضافة ختم وتحويل DOCX إلى PDF](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) | تعلم كيفية إنشاء علامة مائية PDF، إضافة ختم، وتحويل ملفات DOCX إلى PDF باستخدام Aspose.PDF لـ .NET. |
+| [إنشاء مستند PDF مع ترقيم بيثس في C# – دليل كامل](./create-pdf-document-with-bates-numbering-in-c-full-guide/) تعرّف على كيفية إضافة ترقيم بيثس إلى ملفات PDF باستخدام Aspose.PDF لـ .NET عبر دليل خطوة بخطوة مع أمثلة كود.  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -316,6 +316,8 @@ Lär dig hur du bemästrar PDF-manipulation med Aspose.PDF för .NET. Den här g
 
 ### [Hur man reparerar PDF i C# – Åtgärda korrumperade PDF-filer snabbt](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
 Lär dig hur du reparerar skadade PDF-filer i C# med Aspose.PDF för .NET snabbt och enkelt.
+### [Hur man maskerar PDF i C# med Aspose PDF – Komplett guide](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
+Lär dig hur du maskerar känslig information i PDF-filer med Aspose PDF för .NET och C# i denna kompletta steg-för-steg-guide.
 
 ## Ytterligare resurser
 

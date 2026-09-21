@@ -63,6 +63,8 @@ Aspose.PDF kullanarak PDF dosyalarını hızlı ve etkili bir şekilde sıkışt
 ### [C# ile Optimize Edilmiş PDF Kaydet – Boyutu Küçült ve Sayfaları Temizle](./save-optimized-pdf-in-c-reduce-size-clean-pages/)
 C# kod örnekleriyle PDF dosyalarını sıkıştırın, gereksiz sayfaları kaldırın ve dosya boyutunu minimuma indirin.
 
+### [Aspose.PDF ile PDF sıkıştırma – hızlı rehber](./how-to-compress-pdf-with-aspose-pdf-quick-guide/)
+
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)

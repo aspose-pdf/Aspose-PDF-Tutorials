@@ -35,6 +35,8 @@ The tutorial gives you a detailed overview of methods and techniques to ensure t
 | [Sign With Smart Card Using Signature Field](./sign-with-smart-card-using-signature-field/) | Learn how to securely sign PDFs using a smart card with Aspose.PDF for .NET. Follow our step-by-step guide for easy implementation. |  
 | [Check PDF Signatures in C# – How to Read Signed PDF Files](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Learn how to read and verify PDF signatures using Aspose.PDF for .NET in C#. Step-by-step guide for developers. |  
 | [Check PDF for Signatures – How to List Signatures in C# with Aspose.PDF](./check-pdf-for-signatures-how-to-list-signatures-in-c-with-as/) | Learn how to list all signatures in a PDF using Aspose.PDF for .NET in C#. Step-by-step guide for developers. |
+| [How to Verify Signature in PDF using C# – Complete Aspose Guide](./how-to-verify-signature-in-pdf-using-c-complete-aspose-guide/) | Learn how to verify PDF signatures using Aspose.PDF for .NET in C#. Follow our step-by-step guide for developers. |
+| [Add Digital Signature PDF in C# – Complete Step‑by‑Step Guide](./add-digital-signature-pdf-in-c-complete-step-by-step-guide/) | Learn how to add a digital signature to PDF files using Aspose.PDF for .NET in C#. Step-by-step guide for developers. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -46,14 +46,6 @@ Os tutoriais "Programação com PDFs Marcados" do Aspose.PDF para .NET orientam 
 | [Validar arquivo PDF](./validate-pdf/) | Aprenda a validar um arquivo PDF com o Aspose.PDF para .NET. Verifique sua conformidade com os padrões e gere um relatório de validação. |  
 | [Criar PDF Marcado em C# – Guia Completo Passo a Passo](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Aprenda a criar um PDF marcado em C# usando Aspose.PDF para .NET com este guia passo a passo completo. |  
 | [Criar PDF Marcado em C# – Guia Completo Aspose PDF](./create-tagged-pdf-in-c-aspose-pdf-complete-guide/) | Aprenda a criar um PDF marcado em C# usando Aspose.PDF para .NET com este guia passo a passo completo. |  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
 | [Como marcar PDF com Aspose – Guia completo de tags de acessibilidade PDF](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) | Aprenda a marcar PDFs com Aspose e garantir acessibilidade completa usando tags de PDF, passo a passo. |  
 | [Tornar PDF acessível com Aspose: Inserir parágrafo PDF passo a passo](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Aprenda a inserir parágrafos em PDFs para melhorar a acessibilidade usando Aspose.PDF para .NET, passo a passo. |
 | [Criar PDF Marcado em C# – Adicionar Cabeçalho e Texto Acessível](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Aprenda a criar um PDF marcado em C# adicionando cabeçalhos e texto acessível usando Aspose.PDF para .NET. |  

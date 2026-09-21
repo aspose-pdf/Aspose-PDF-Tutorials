@@ -48,6 +48,7 @@ Les tutoriels « Programmation avec tampons et filigranes » d'Aspose.PDF pour
 | [Filigrane confidentiel PDF avec Aspose : ajouter un tampon de texte à la première page](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) | Apprenez à ajouter un tampon de texte confidentiel sur la première page d'un PDF avec Aspose.PDF pour .NET, étape par étape. |  
 | [Comment enregistrer un PDF — Ajouter une numérotation Bates avec Aspose.Pdf](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) | Apprenez à enregistrer un PDF tout en ajoutant une numérotation Bates avec Aspose.PDF pour .NET, étape par étape. |  
 | [Créer un filigrane PDF – Ajouter un tampon et convertir DOCX en PDF](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) | Apprenez à créer un filigrane PDF, ajouter un tampon et convertir un fichier DOCX en PDF avec Aspose.PDF pour .NET. |  
+| [Créer un document PDF avec numérotation Bates en C# – Guide complet](./create-pdf-document-with-bates-numbering-in-c-full-guide/) | Apprenez à générer des PDF avec numérotation Bates en C# grâce à ce guide complet pas à pas. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

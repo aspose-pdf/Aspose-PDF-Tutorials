@@ -62,6 +62,8 @@ Leer in een paar stappen hoe u PDF-bestanden comprimeert met Aspose.PDF in C# vo
 Leer hoe u PDF-afbeeldingen kunt optimaliseren en de bestandsgrootte kunt verkleinen met C# en Aspose.PDF.
 ### [Geoptimaliseerde PDF opslaan in C# – grootte verkleinen en pagina's opschonen](./save-optimized-pdf-in-c-reduce-size-clean-pages/)
 Leer hoe u met Aspose.PDF in C# geoptimaliseerde PDF's opslaat, de bestandsgrootte verkleint en ongebruikte pagina's verwijdert.
+### [Snelle handleiding: PDF comprimeren met Aspose.PDF](./how-to-compress-pdf-with-aspose-pdf-quick-guide/)
+Leer hoe u PDF-bestanden snel kunt comprimeren met Aspose.PDF voor .NET, inclusief codevoorbeelden en prestatie‑tips.
 
 ## Aanvullende bronnen
 

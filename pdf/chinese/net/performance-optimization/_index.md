@@ -62,6 +62,8 @@
 
 ### [在 C# 中保存优化的 PDF – 减小文件大小并清理页面](./save-optimized-pdf-in-c-reduce-size-clean-pages/)
 本指南演示如何使用 Aspose.PDF for .NET 在 C# 中保存已优化的 PDF，删除未使用的流并减小文件体积。
+### [使用 Aspose.PDF 压缩 PDF – 快速指南](./how-to-compress-pdf-with-aspose-pdf-quick-guide/)
+了解如何使用 Aspose.PDF 快速压缩 PDF 文件，以减小文件大小并提升加载速度。
 
 ## 其他资源
 

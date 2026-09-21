@@ -77,8 +77,6 @@ Learn how to create PDF documents in C# using Aspose.PDF for .NET with step-by-s
 
 ### [Create PDF Document with Aspose.PDF – Add Page, Shape & Save](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Learn how to add a new page, draw shapes, and save the PDF using Aspose.PDF for .NET.
-### [Create PDF Document with Aspose.PDF – Step‑by‑Step Guide](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
-Learn how to generate PDF documents using Aspose.PDF for .NET with a detailed step‑by‑step tutorial.
 ### [Create PDF Document with Aspose in C# – Step‑by‑Step Guide](./create-pdf-document-with-aspose-in-c-step-by-step-guide/)
 Learn how to create PDF documents using Aspose in C# with a detailed step‑by‑step guide.
 ### [Create PDF Document C# – Add Blank Page & Draw Rectangle](./create-pdf-document-c-add-blank-page-draw-rectangle/)
@@ -92,14 +90,14 @@ Learn how to add a new page, draw a rectangle, and save the PDF using Aspose.PDF
 ### [Create PDF Document C# – Add Bates Numbering Guide](./create-pdf-document-c-add-bates-numbering-guide/)
 Learn how to add Bates numbering to PDF documents using Aspose.PDF for .NET in C#. Step-by-step implementation guide.
 
-### [Create PDF Document with Aspose.Pdf – Step‑by‑Step Guide](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
-Learn how to generate PDF documents using Aspose.PDF for .NET with a detailed step-by-step guide.
-
 ### [Create PDF Document – Add Blank Page, Draw Rectangle & Save](./create-pdf-document-add-blank-page-draw-rectangle-save/)
 Learn how to add a blank page, draw a rectangle, and save the PDF using Aspose.PDF for .NET.
 
 ### [Create PDF Document with Aspose.PDF – Step‑by‑Step Guide](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 Learn how to create a PDF document from scratch using Aspose.PDF for .NET with a detailed step‑by‑step guide.
+
+### [Create PDF Document with Aspose.PDF – Full C# Guide](./create-pdf-document-with-aspose-pdf-full-c-guide/)
+Learn how to create PDF documents using Aspose.PDF for .NET with a comprehensive C# guide covering all essential features.
 
 ## Additional Resources
 

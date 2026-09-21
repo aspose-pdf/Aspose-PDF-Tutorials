@@ -311,7 +311,9 @@ Tanuld meg, hogyan oszthatod fel a PDF oldalakat különálló fájlokra az Aspo
 Tanuld meg, hogyan oszthatsz fel többoldalas PDF fájlokat és hogyan hozhatsz létre új PDF fájlokat az Aspose.PDF for .NET segítségével. Kövesd ezt az átfogó útmutatót kódpéldákkal.
 
 ### [Végső útmutató a PDF-manipulációhoz az Aspose.PDF .NET segítségével: Szöveg hatékony betöltése, mentése és cseréje](./master-pdf-manipulation-aspose-pdf-net/)
-Tanuld meg, hogyan mesterien manipulálhatod a PDF-eket az Aspose.PDF for .NET segítségével. Ez az útmutató a PDF-ekben lévő szöveg betöltését, mentését és cseréjét ismerteti, ideális a hatékonyságra törekvő fejlesztők számára.
+
+### [PDF kitakarása C#-ban az Aspose PDF segítségével – Teljes útmutató](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
+Ismerje meg, hogyan távolíthatja el vagy takarhatja el a PDF dokumentumok érzékeny részeit C#-ban az Aspose PDF használatával.
 
 ### [PDF javítása C#-ban – Sérült PDF-fájlok gyors javítása](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
 

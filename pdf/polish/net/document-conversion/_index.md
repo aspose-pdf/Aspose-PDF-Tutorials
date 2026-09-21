@@ -61,6 +61,7 @@ Dowiesz się, jak określać ustawienia konwersji, wyodrębniać tekst i obrazy,
 | [Konwertuj PDF do PDF/X‑4 w C# – Samouczek ASP.NET PDF krok po kroku](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Dowiedz się, jak w C# konwertować pliki PDF do formatu PDF/X‑4 przy użyciu Aspose.PDF dla .NET w prostym przewodniku krok po kroku. |
 | [Jak konwertować PDF do PDF/X-4 przy użyciu Aspose – przewodnik krok po kroku](./how-to-convert-pdf-to-pdf-x-4-with-aspose-step-by-step-guide/) | Dowiedz się, jak w C# konwertować pliki PDF do formatu PDF/X-4 przy użyciu Aspose.PDF dla .NET, krok po kroku. |
 | [Jak ustawić opcje konwersji PDF w C# – przewodnik Aspose](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | Dowiedz się, jak ustawiać opcje konwersji PDF w C# przy użyciu Aspose.PDF dla .NET w tym przewodniku krok po kroku. |
+| [Samouczek Aspose PDF: konwersja PDF do PDF/X‑4 w C#](./aspose-pdf-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Dowiedz się, jak w C# konwertować pliki PDF do formatu PDF/X‑4 przy użyciu Aspose.PDF dla .NET w prostym przewodniku krok po kroku. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

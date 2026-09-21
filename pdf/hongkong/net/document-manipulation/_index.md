@@ -308,7 +308,9 @@ Aspose.PDF Net 程式碼教學
 了解如何使用 Aspose.PDF for .NET 分割多頁 PDF 並建立新的 PDF 檔案。遵循本指南並提供程式碼範例。
 
 ### [使用 Aspose.PDF .NET 進行 PDF 操作的終極指南：高效能載入、儲存和取代文本](./master-pdf-manipulation-aspose-pdf-net/)
-了解如何使用 Aspose.PDF for .NET 掌握 PDF 操作。本指南涵蓋了 PDF 中的文字載入、保存和替換，非常適合追求效率的開發人員。
+
+### [如何在 C# 中使用 Aspose PDF 進行 PDF 敏感資訊遮蔽 – 完整指南](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中對 PDF 文件執行敏感資訊遮蔽，保護隱私並符合合規要求。
 
 ### [如何在 C# 中編輯 PDF – 隱藏文字 PDF 與移除內容 PDF](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
 

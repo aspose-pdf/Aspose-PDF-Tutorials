@@ -98,6 +98,8 @@ Aspose.PDF Net 程式碼教學
 
 ### [在 C# 中檢查 PDF 簽章：驗證數位簽名 PDF](./check-pdf-signature-in-c-validate-digital-signature-pdf/)
 了解如何在 C# 中使用 Aspose.PDF 檢查並驗證 PDF 數位簽章，確保文件完整性與真實性。
+### [如何使用 C# 讀取 PDF 簽章 – 逐步指南](./how-to-read-signatures-in-pdf-with-c-step-by-step-guide/)
+了解如何使用 C# 讀取 PDF 中的數位簽章，提供完整步驟與範例程式碼。
 
 ## 其他資源
 

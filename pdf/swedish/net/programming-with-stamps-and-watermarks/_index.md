@@ -48,6 +48,7 @@ Aspose.PDFs handledningar "Programmering med stämplar och vattenstämplar" för
 | [Konfidentiell vattenstämpel PDF med Aspose: Lägg till en textstämpel på första sidan](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) | Lär dig hur du lägger till en textstämpel på första sidan för konfidentiell vattenstämpel med Aspose.PDF för .NET. |  
 | [Spara PDF — Lägg till Bates-nummerering med Aspose.Pdf](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) | Lär dig hur du sparar en PDF och lägger till Bates-nummerering med Aspose.PDF för .NET i en steg-för-steg-guide. |  
 | [Skapa PDF-vattenstämpel – Lägg till stämpel & konvertera DOCX till PDF](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) | Lär dig hur du skapar en vattenstämpel, lägger till en stämpel och konverterar DOCX-filer till PDF med Aspose.PDF för .NET. |  
+| [Skapa PDF-dokument med Bates-nummerering i C# – Fullständig guide](./create-pdf-document-with-bates-numbering-in-c-full-guide/) | Lär dig hur du skapar PDF-dokument med Bates-nummerering i C# med Aspose.PDF för .NET i en detaljerad steg-för-steg-guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

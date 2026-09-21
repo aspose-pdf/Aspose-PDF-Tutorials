@@ -308,7 +308,9 @@ Aspose.PDF for .NET kullanarak PDF sayfalarını ayrı dosyalara nasıl bölece�
 Çok sayfalı PDF'leri nasıl böleceğinizi ve .NET için Aspose.PDF kullanarak yeni PDF dosyaları nasıl oluşturacağınızı öğrenin. Kod örnekleriyle bu kapsamlı kılavuzu izleyin.
 
 ### [Aspose.PDF .NET ile PDF Düzenlemeye İlişkin Nihai Kılavuz: Metni Verimli Şekilde Yükleyin, Kaydedin ve Değiştirin](./master-pdf-manipulation-aspose-pdf-net/)
-Aspose.PDF for .NET kullanarak PDF düzenlemede ustalaşmayı öğrenin. Bu kılavuz, PDF'lerde metin yükleme, kaydetme ve değiştirmeyi kapsar ve verimlilik arayan geliştiriciler için idealdir.
+
+### [C# ile Aspose PDF Kullanarak PDF Kırpma – Tam Kılavuz](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
+Aspose PDF for .NET ile C# kullanarak PDF belgelerindeki hassas bilgileri güvenli bir şekilde kırpmayı adım adım öğrenin.
 
 ### [C# ile PDF Kırpma – Metin Gizleme ve İçerik Kaldırma](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
 C# ve Aspose.PDF for .NET kullanarak PDF belgelerindeki hassas metinleri gizlemeyi ve istenmeyen içerikleri kaldırmayı öğrenin.

@@ -119,7 +119,7 @@ Aprenda a adicionar facilmente uma página em branco ao final do seu PDF usando 
 Aprenda a adicionar e personalizar facilmente a numeração de páginas em documentos PDF usando o Aspose.PDF para .NET. Este guia completo aborda instalação, opções de personalização e dicas de desempenho.
 
 ### [Como adicionar e remover JavaScript em PDFs usando Aspose.PDF .NET: um guia completo](./aspose-pdf-net-add-remove-javascript-pdfs/)
-Aprenda a adicionar e remover funções JavaScript em seus documentos PDF usando o Aspose.PDF para .NET. Aprimore a interatividade e a funcionalidade dos seus documentos com nosso guia passo a passo.
+Aprenda a adicionar e remover funções JavaScript em seus documentos PDF usando o Aspose.PDF .NET. Aprimore a interatividade e a funcionalidade dos seus documentos com nosso guia passo a passo.
 
 ### [Como anexar vários arquivos PDF usando Aspose.PDF para .NET: um guia passo a passo](./append-multiple-pdf-files-aspose-net/)
 Aprenda como anexar eficientemente vários arquivos PDF em um único documento usando o Aspose.PDF para .NET, com etapas detalhadas e exemplos de código.
@@ -155,7 +155,7 @@ Aprenda a contar páginas em um PDF usando o Aspose.PDF para .NET com este tutor
 Aprenda a personalizar PDFs usando o Aspose.PDF para .NET, definindo margens de página e desenhando linhas. Perfeito para desenvolvedores que buscam aprimorar a formatação de documentos.
 
 ### [Como excluir páginas de um PDF usando Aspose.PDF .NET: um guia completo](./delete-pdf-pages-aspose-net/)
-Aprenda a excluir facilmente páginas específicas de um documento PDF usando o Aspose.PDF para .NET. Este guia passo a passo aborda configuração, implementação e práticas recomendadas.
+Aprenda a excluir facilmente páginas específicas de um documento PDF usando o Aspose.PDF .NET. Este guia passo a passo aborda configuração, implementação e práticas recomendadas.
 
 ### [Como desabilitar a compactação de arquivos no Aspose.PDF para .NET: um guia passo a passo](./disable-file-compression-aspose-pdf-net-guide/)
 Aprenda a desabilitar a compactação de arquivos em PDFs usando o Aspose.PDF para .NET com este guia completo. Aprimore suas habilidades de manuseio de documentos hoje mesmo.
@@ -187,6 +187,9 @@ Aprenda como remover com eficiência todos os marcadores dos seus documentos PDF
 ### [Como remover todo o texto de PDFs usando Aspose.PDF .NET para manipulação de documentos](./remove-text-aspose-pdf-net-tutorial/)
 Aprenda a remover todo o texto de um PDF com eficiência usando o Aspose.PDF .NET. Perfeito para proteger dados confidenciais ou organizar documentos.
 
+### [Como censurar PDF em C# com Aspose PDF – Guia completo](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
+Aprenda a remover ou ocultar informações confidenciais de PDFs usando Aspose PDF para .NET em C# com este guia passo a passo.
+
 ### [Como remover ações de abertura de PDF usando Aspose.PDF para .NET: um guia completo](./remove-pdf-open-action-aspose-dotnet-guide/)
 Aprenda a eliminar ações de abertura indesejadas de arquivos PDF usando o Aspose.PDF para .NET. Este guia fornece instruções passo a passo e práticas recomendadas.
 
@@ -206,7 +209,7 @@ Aprenda a reduzir com eficiência os espaços em branco de documentos PDF usando
 Aprenda a atualizar links em arquivos PDF programaticamente usando o Aspose.PDF para .NET. Automatize atualizações de links de forma eficiente com este guia passo a passo.
 
 ### [Como atualizar a cor do texto do link PDF usando Aspose.PDF .NET: um guia completo](./update-pdf-link-text-color-aspose-net/)
-Aprenda a alterar a cor do texto dos links em PDFs facilmente usando o Aspose.PDF para .NET. Este guia completo aborda dicas de instalação, implementação e otimização.
+Aprenda a alterar a cor do texto dos links em PDFs facilmente usando o Aspose.PDF .NET. Este guia completo aborda dicas de instalação, implementação e otimização.
 
 ### [Inserir páginas em PDF usando Aspose.PDF para .NET: um guia completo para manipulação de documentos](./insert-pages-pdf-aspose-dotnet-guide/)
 Aprenda a inserir páginas em um PDF usando o Aspose.PDF para .NET. Este guia passo a passo abrange tudo, da configuração à implementação, perfeito para desenvolvedores em C#.
@@ -215,7 +218,7 @@ Aprenda a inserir páginas em um PDF usando o Aspose.PDF para .NET. Este guia pa
 Aprenda a inserir páginas em um PDF usando o Aspose.PDF para .NET com este guia passo a passo. Simplifique seu fluxo de trabalho com documentos com eficiência.
 
 ### [Inserir uma página em branco em PDF usando Aspose.PDF .NET: um guia completo](./aspose-pdf-net-insert-empty-page/)
-Aprenda a inserir páginas vazias em documentos PDF com facilidade usando o Aspose.PDF para .NET. Siga este guia passo a passo para aprimorar suas habilidades de manipulação de documentos.
+Aprenda a inserir páginas vazias em documentos PDF com facilidade usando o Aspose.PDF .NET. Siga este guia passo a passo para aprimorar suas habilidades de manipulação de documentos.
 
 ### [Domine o método MakeNUp do Aspose.PDF .NET para layouts de PDF eficientes](./aspose-pdf-net-make-nup-method-pdf-layout/)
 Aprenda a reorganizar com eficiência várias páginas de PDF em novos layouts usando o método MakeNUp do Aspose.PDF .NET. Ideal para boletins informativos, folhetos e relatórios.

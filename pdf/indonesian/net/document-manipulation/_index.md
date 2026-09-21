@@ -315,6 +315,8 @@ Pelajari cara menyensor PDF dengan menyembunyikan teks dan menghapus konten seca
 
 ### [Cara Memperbaiki PDF di C# – Memperbaiki File PDF Rusak dengan Cepat](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
 Pelajari cara memperbaiki file PDF yang rusak secara cepat menggunakan C# dan Aspose.PDF.
+### [Cara Menyensor PDF di C# dengan Aspose PDF – Panduan Lengkap](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
+Pelajari cara menyensor konten sensitif dalam file PDF menggunakan Aspose PDF untuk .NET dengan contoh kode C# lengkap.
 
 ## Sumber Daya Tambahan
 

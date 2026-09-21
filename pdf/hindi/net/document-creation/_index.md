@@ -65,8 +65,6 @@ C# कोड का उपयोग करके PDF बनाएं, नया 
 
 ### [Aspose.PDF के साथ PDF दस्तावेज़ बनाएं – पृष्ठ जोड़ें, आकार बनाएं और सहेजें](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Aspose.PDF का उपयोग करके पृष्ठ, आकार जोड़कर PDF बनाना और सहेजना सीखें।
-### [Aspose.PDF के साथ PDF दस्तावेज़ बनाएं – चरण‑दर‑चरण मार्गदर्शिका](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
-Aspose.PDF के साथ PDF दस्तावेज़ बनाने के चरण‑दर‑चरण निर्देश, सेटअप और कोड उदाहरण सहित।
 ### [Aspose के साथ C# में PDF दस्तावेज़ बनाएं – चरण‑दर‑चरण मार्गदर्शिका](./create-pdf-document-with-aspose-in-c-step-by-step-guide/)
 Aspose के साथ C# में PDF दस्तावेज़ बनाने के चरण‑दर‑चरण निर्देश, सेटअप और कोड उदाहरण।
 ### [PDF दस्तावेज़ C# बनाना – खाली पृष्ठ जोड़ें और आयत बनाएं](./create-pdf-document-c-add-blank-page-draw-rectangle/)
@@ -86,8 +84,8 @@ Aspose.Pdf का उपयोग करके .NET में PDF दस्त�
 ### [PDF दस्तावेज़ बनाएं – खाली पृष्ठ जोड़ें, आयत बनाएं और सहेजें](./create-pdf-document-add-blank-page-draw-rectangle-save/)
 Aspose.PDF .NET का उपयोग करके नया PDF बनाएं, खाली पृष्ठ जोड़ें, आयत बनाएं और फ़ाइल सहेजें।
 
-### [Aspose.PDF के साथ PDF दस्तावेज़ बनाएं – चरण‑दर‑चरण मार्गदर्शिका](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
-Aspose.PDF का उपयोग करके PDF दस्तावेज़ बनाने के चरण‑दर‑चरण निर्देश।
+### [Aspose.PDF के साथ PDF दस्तावेज़ बनाएं – पूर्ण C# गाइड](./create-pdf-document-with-aspose-pdf-full-c-guide/)
+Aspose.PDF के साथ C# में PDF दस्तावेज़ बनाने के लिए विस्तृत कोड उदाहरण और चरण‑दर‑चरण निर्देश।
 
 ## अतिरिक्त संसाधन
 

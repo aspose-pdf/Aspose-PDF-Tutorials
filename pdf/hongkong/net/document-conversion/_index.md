@@ -60,6 +60,7 @@
 | [在 C# 中將 PDF 轉換為 PDF/X‑4 – ASP.NET PDF 分步教學](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 轉換為 PDF/X‑4 格式。 |
 | [PDF 轉 PDF/X‑4 – Aspose 步驟指南](./how-to-convert-pdf-to-pdf-x-4-with-aspose-step-by-step-guide/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 PDF/X‑4 格式。 |
 | [在 C# 中設定 PDF 轉換選項 – Aspose 指南](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) |了解如何在 C# 中使用 Aspose.PDF for .NET 設定 PDF 轉換選項，以取得最佳輸出效果。 |
+| [Aspose PDF 教學：在 C# 中將 PDF 轉換為 PDF/X‑4](./aspose-pdf-tutorial-convert-pdf-to-pdf-x-4-in-c/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 轉換為 PDF/X‑4 格式。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

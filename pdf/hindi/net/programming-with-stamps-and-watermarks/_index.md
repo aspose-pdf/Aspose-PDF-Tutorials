@@ -46,6 +46,7 @@ Aspose.PDF के "स्टैम्प और वॉटरमार्क क�
 | [C# में बेयट्स नंबरिंग PDF जोड़ें – पूर्ण गाइड](./add-bates-numbering-pdf-in-c-complete-guide/) | .NET के लिए Aspose.PDF का उपयोग करके PDF में बेयट्स नंबरिंग जोड़ने की पूरी मार्गदर्शिका। चरण-दर-चरण उदाहरण और कोड। |  
 | [PDF को सहेजने का तरीका — Aspose.Pdf के साथ Bates नंबरिंग जोड़ें](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) | Aspose.PDF का उपयोग करके PDF फ़ाइल को सहेजते समय Bates नंबरिंग कैसे जोड़ें, इस चरण-दर-चरण गाइड में सीखें। |  
 | [PDF वॉटरमार्क बनाएं – स्टैम्प जोड़ें और DOCX को PDF में बदलें](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) | .NET के लिए Aspose.PDF का उपयोग करके PDF में वॉटरमार्क बनाना, स्टैम्प जोड़ना और DOCX को PDF में परिवर्तित करना सीखें। |
+| [C# में Bates नंबरिंग के साथ PDF दस्तावेज़ बनाएं – पूर्ण गाइड](./create-pdf-document-with-bates-numbering-in-c-full-guide/) | C# में Aspose.PDF का उपयोग करके PDF फ़ाइल में Bates नंबरिंग जोड़ने की पूरी प्रक्रिया सीखें। |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -46,6 +46,7 @@ Výukové programy „Programování s tagovanými PDF“ v knihovně Aspose.PDF
 | [Ověřit PDF soubor](./validate-pdf/) | Naučte se, jak ověřit soubor PDF pomocí Aspose.PDF pro .NET. Zkontrolujte jeho soulad se standardy a vygenerujte ověřovací zprávu. |  
 | [Vytvořit tagovaný PDF v C# – Kompletní průvodce krok za krokem](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Naučte se, jak pomocí Aspose.PDF pro .NET vytvořit tagovaný PDF soubor v C# pomocí podrobného krok‑za‑krokem návodu. |  
 | [Vytvořit tagovaný PDF v C# – Kompletní průvodce Aspose PDF](./create-tagged-pdf-in-c-aspose-pdf-complete-guide/) | Naučte se, jak pomocí Aspose.PDF pro .NET vytvořit tagovaný PDF v C# podle podrobného průvodce. |  
+| [Vytvořit tagovaný PDF v C# – Průvodce krok za krokem](./create-tagged-pdf-in-c-step-by-step-guide/) | Naučte se vytvořit tagovaný PDF v C# pomocí Aspose.PDF pro .NET v podrobném průvodci krok za krokem. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -58,12 +59,3 @@ Výukové programy „Programování s tagovanými PDF“ v knihovně Aspose.PDF
 | [Zpřístupněte PDF pomocí Aspose: Vložení odstavce PDF krok za krokem](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Naučte se, jak pomocí Aspose.PDF pro .NET vložit odstavce do PDF a zlepšit přístupnost dokumentu. |  
 | [Vytvořit tagovaný PDF v C# – Přidat nadpis a přístupný text](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Naučte se vytvořit tagovaný PDF v C# s nadpisem a přístupným textem pomocí Aspose.PDF pro .NET. |  
 | [Vytvořit přístupný PDF s Aspose.Pdf – krok za krokem](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Naučte se, jak pomocí Aspose.PDF pro .NET vytvořit plně přístupný PDF dokument podle standardů PDF/UA. |  
-| [Vytvořit tagovaný PDF v C# – krok za krokem](./create-tagged-pdf-in-c-step-by-step-guide/) | Naučte se vytvořit tagovaný PDF v C# pomocí Aspose.PDF pro .NET v podrobném průvodci krok za krokem. |  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

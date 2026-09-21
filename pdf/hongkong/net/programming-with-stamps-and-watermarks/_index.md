@@ -48,6 +48,7 @@ Aspose.PDF 的「使用圖章和浮水印進行程式設計」.NET 教學課程�
 | [使用 Aspose 為 PDF 添加機密浮水印：在首頁新增文字印章](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) |透過本教學了解如何使用 Aspose.PDF for .NET 在 PDF 首頁加入文字印章，以實作機密浮水印。 |  
 | [如何儲存 PDF — 使用 Aspose.Pdf 添加 Bates 編號](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 為 PDF 添加 Bates 編號並儲存文件，提升文件管理與追蹤。 |  
 | [建立 PDF 浮水印 – 新增圖章並將 DOCX 轉換為 PDF](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) |本教學示範如何在 PDF 中加入浮水印與圖章，並將 DOCX 檔案轉換為 PDF。 |  
+| [使用 C# 建立帶 Bates 編號的 PDF 文件（完整指南）](./create-pdf-document-with-bates-numbering-in-c-full-guide/) |透過本完整指南，學習在 C# 中使用 Aspose.PDF for .NET 為 PDF 文件添加 Bates 編號，提升文件管理與追蹤效率。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

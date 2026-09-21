@@ -35,6 +35,8 @@
 | [Υπογραφή με έξυπνη κάρτα χρησιμοποιώντας το πεδίο υπογραφής](./sign-with-smart-card-using-signature-field/) | Μάθετε πώς να υπογράφετε με ασφάλεια PDF χρησιμοποιώντας μια έξυπνη κάρτα με το Aspose.PDF για .NET. Ακολουθήστε τον αναλυτικό οδηγό μας για εύκολη εφαρμογή. |  
 | [Έλεγχος υπογραφών PDF σε C# – Πώς να διαβάσετε υπογεγραμμένα αρχεία PDF](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Μάθετε πώς να ελέγχετε και να διαβάζετε υπογεγραμμένα αρχεία PDF χρησιμοποιώντας C# και Aspose.PDF. |  
 | [Έλεγχος PDF για υπογραφές – Πώς να καταγράψετε τις υπογραφές σε C# με το Aspose.PDF](./check-pdf-for-signatures-how-to-list-signatures-in-c-with-as/) | Μάθετε πώς να εντοπίζετε και να καταγράφετε όλες τις υπογραφές ενός PDF χρησιμοποιώντας C# και Aspose.PDF. |  
+| [Πώς να επαληθεύσετε την υπογραφή σε PDF χρησιμοποιώντας C# – Πλήρης οδηγός Aspose](./how-to-verify-signature-in-pdf-using-c-complete-aspose-guide/) | Μάθετε πώς να ελέγχετε ψηφιακές υπογραφές PDF με C# χρησιμοποιώντας το Aspose.PDF σε πλήρη οδηγό βήμα προς βήμα. |  
+| [Προσθήκη ψηφιακής υπογραφής PDF σε C# – Πλήρης οδηγός βήμα προς βήμα](./add-digital-signature-pdf-in-c-complete-step-by-step-guide/) | Μάθετε πώς να προσθέσετε ψηφιακή υπογραφή σε PDF χρησιμοποιώντας C# και Aspose.PDF με πλήρη οδηγό βήμα προς βήμα. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

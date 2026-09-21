@@ -46,6 +46,7 @@ Hướng dẫn "Lập trình với PDF được gắn thẻ" của Aspose.PDF ch
 | [Xác thực tệp PDF](./validate-pdf/) | Tìm hiểu cách xác thực tệp PDF bằng Aspose.PDF cho .NET. Kiểm tra xem tệp có tuân thủ các tiêu chuẩn hay không và tạo báo cáo xác thực. |  
 | [Tạo PDF được gắn thẻ trong C# – Hướng dẫn chi tiết từng bước](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Học cách tạo PDF được gắn thẻ trong C# bằng Aspose.PDF cho .NET qua hướng dẫn chi tiết từng bước. |  
 | [Tạo PDF được gắn thẻ trong C# – Hướng dẫn toàn diện Aspose PDF](./create-tagged-pdf-in-c-aspose-pdf-complete-guide/) | Học cách tạo PDF được gắn thẻ trong C# bằng Aspose.PDF cho .NET qua hướng dẫn toàn diện. |  
+| [Tạo PDF được gắn thẻ trong C# – Hướng dẫn chi tiết từng bước](./create-tagged-pdf-in-c-step-by-step-guide/) | Học cách tạo PDF được gắn thẻ trong C# bằng Aspose.PDF cho .NET qua hướng dẫn chi tiết từng bước. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -58,12 +59,3 @@ Hướng dẫn "Lập trình với PDF được gắn thẻ" của Aspose.PDF ch
 | [Làm cho PDF có thể truy cập với Aspose: Chèn đoạn văn PDF từng bước](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Học cách chèn đoạn văn vào PDF để cải thiện khả năng truy cập bằng Aspose.PDF cho .NET qua hướng dẫn chi tiết từng bước. |  
 | [Tạo PDF được gắn thẻ trong C# – Thêm tiêu đề và văn bản truy cập được](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Hướng dẫn tạo PDF gắn thẻ trong C# với tiêu đề và văn bản truy cập được, cải thiện khả năng tiếp cận tài liệu. |
 | [Tạo PDF có khả năng truy cập với Aspose.Pdf – Hướng dẫn từng bước](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Học cách tạo PDF có khả năng truy cập bằng Aspose.Pdf cho .NET qua hướng dẫn chi tiết từng bước. |
-| [Tạo PDF được gắn thẻ trong C# – Hướng dẫn từng bước](./create-tagged-pdf-in-c-step-by-step-guide/) | Hướng dẫn chi tiết cách tạo PDF được gắn thẻ bằng C# và Aspose.PDF cho .NET, từng bước một. |  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

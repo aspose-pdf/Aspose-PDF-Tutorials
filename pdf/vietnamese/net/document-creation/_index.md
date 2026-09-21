@@ -83,14 +83,11 @@ Hướng dẫn cách tạo PDF, thêm trang trắng và vẽ hình chữ nhật 
 ### [Tạo tài liệu PDF C# – Hướng dẫn thêm số Bates](./create-pdf-document-c-add-bates-numbering-guide/)
 Tìm hiểu cách thêm số Bates vào tài liệu PDF bằng Aspose.PDF cho .NET trong C#.
 
-### [Tạo tài liệu PDF với Aspose.Pdf – Hướng dẫn từng bước](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
-Tìm hiểu cách tạo tài liệu PDF bằng Aspose.Pdf thông qua hướng dẫn chi tiết từng bước.
-
 ### [Tạo tài liệu PDF – Thêm trang trắng, vẽ hình chữ nhật và lưu](./create-pdf-document-add-blank-page-draw-rectangle-save/)
 Hướng dẫn cách tạo PDF, chèn trang trắng, vẽ hình chữ nhật và lưu lại bằng Aspose.PDF cho .NET.
 
-### [Tạo tài liệu PDF với Aspose.PDF – Hướng dẫn từng bước](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
-Hướng dẫn chi tiết cách tạo tài liệu PDF bằng Aspose.PDF trong .NET, bao gồm các bước thiết lập và ví dụ mã.
+### [Tạo tài liệu PDF với Aspose.PDF – Hướng dẫn đầy đủ C#](./create-pdf-document-with-aspose-pdf-full-c-guide/)
+Hướng dẫn chi tiết cách tạo tài liệu PDF bằng Aspose.PDF trong C#, bao gồm thêm trang, hình dạng và lưu tệp.
 
 ## Tài nguyên bổ sung
 

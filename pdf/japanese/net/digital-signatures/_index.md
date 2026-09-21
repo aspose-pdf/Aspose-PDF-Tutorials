@@ -94,6 +94,8 @@ Aspose を使用して PDF のデジタル署名を検証し、文書の真正�
 
 ### [C# で PDF 署名を検証する: ステップバイステップ ガイド](./validate-pdf-signature-in-c-step-by-step-guide/)
 C# を使用して PDF のデジタル署名を検証する手順を詳しく解説します。実装例とベストプラクティスを紹介。
+### [C# で PDF の署名を読み取る方法 – ステップバイステップ ガイド](./how-to-read-signatures-in-pdf-with-c-step-by-step-guide/)
+C# を使用して PDF ファイル内のデジタル署名情報を取得し、検証する手順をステップバイステップで解説します。
 
 ## 追加リソース
 
