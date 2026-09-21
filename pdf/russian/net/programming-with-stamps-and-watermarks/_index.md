@@ -49,6 +49,7 @@
 | [Конфиденциальный водяной знак PDF с Aspose: Добавить текстовый штамп на первую страницу](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) Узнайте, как добавить текстовый штамп на первую страницу PDF для создания конфиденциального водяного знака с помощью Aspose.PDF для .NET. |  
 | [Как сохранить PDF — добавить нумерацию Бейтса с Aspose.PDF](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) | Узнайте, как добавить нумерацию Бейтса при сохранении PDF с помощью Aspose.PDF для .NET. |  
 | [Создать водяной знак PDF – добавить штамп и преобразовать DOCX в PDF](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) | Узнайте, как создать водяной знак, добавить штамп и конвертировать DOCX в PDF с помощью Aspose.PDF для .NET. |  
+| [Добавить штамп в PDF – Применить водяной знак на первой странице](./add-stamp-to-pdf-apply-watermark-pdf-on-first-page/) Узнайте, как добавить штамп и применить водяной знак только на первой странице PDF с помощью Aspose.PDF для .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

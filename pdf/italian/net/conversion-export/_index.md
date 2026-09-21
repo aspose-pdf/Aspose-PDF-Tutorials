@@ -29,6 +29,9 @@ Scopri come convertire i dati XML in documenti PDF professionali utilizzando Asp
 ### [Guida completa: convertire PDF in HTML utilizzando Aspose.PDF .NET con strategie personalizzate](./convert-pdf-html-aspose-dotnet-custom-strategies/)
 Scopri come convertire i PDF in HTML con strategie personalizzate utilizzando Aspose.PDF per .NET. Mantieni un'alta fedeltà e gestisci immagini, font e CSS in modo efficace.
 
+### [Salva PDF come HTML usando Aspose.PDF – Guida completa C#](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
+Scopri come salvare PDF come HTML con Aspose.PDF in C#, con esempi di codice e consigli per una conversione di alta qualità.
+
 ### [Guida completa: convertire PDF in TIFF utilizzando Aspose.PDF .NET per una conversione di documenti senza interruzioni](./convert-pdf-to-tiff-aspose-dotnet-guide/)
 Scopri come convertire in modo efficiente i file PDF in immagini TIFF di alta qualità utilizzando Aspose.PDF per .NET. Segui questa guida passo passo per migliorare il flusso di lavoro di elaborazione dei documenti.
 

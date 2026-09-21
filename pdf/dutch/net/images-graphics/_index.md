@@ -44,6 +44,9 @@ Leer hoe u visueel aantrekkelijke PDF-documenten maakt door alinea's te extraher
 ### [Teken transparante vormen in PDF's met Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 Een codetutorial voor Aspose.PDF Net
 
+### [Transparantie toevoegen aan PDF met Aspose PDF in C# – Stapsgewijze handleiding](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Leer hoe u transparantie-effecten op PDF‑pagina's toepast met Aspose PDF voor .NET in C#.
+
 ### [Efficiënte PDF-afbeeldingsidentificatie met Aspose.PDF voor .NET](./master-image-identification-aspose-pdf-net/)
 Leer hoe u grijswaarden- en RGB-afbeeldingen in PDF's kunt identificeren met Aspose.PDF voor .NET. Deze tutorial behandelt installatie, beeldextractie en prestatietips.
 

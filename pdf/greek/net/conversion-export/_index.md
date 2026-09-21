@@ -161,6 +161,9 @@ Master Aspose.PDF για .NET για απρόσκοπτη μετατροπή δ�
 ### [Αποθήκευση PDF σε HTML με Aspose.PDF – Γρήγορος οδηγός C#](./save-pdf-as-html-with-aspose-pdf-quick-c-guide/)
 Μάθετε πώς να αποθηκεύετε PDF ως HTML με το Aspose.PDF σε C# γρήγορα και εύκολα.
 
+### [Αποθήκευση PDF ως HTML χρησιμοποιώντας το Aspose.PDF – Πλήρης οδηγός C#](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
+Μάθετε πώς να αποθηκεύετε PDF ως HTML με το Aspose.PDF σε C#, βήμα-βήμα οδηγίες.
+
 ### [Μετατροπή PDF σε HTML με το Aspose.PDF για .NET](./pdf-to-html-conversion-aspose-dot-net/)
 Ένα σεμινάριο κώδικα για το Aspose.PDF Net
 

@@ -241,6 +241,8 @@ Aspose का उपयोग करके PDF को सुरक्षित �
 ### [Aspose.PDF के साथ PDF को HTML के रूप में सहेजें – त्वरित C# गाइड](./save-pdf-as-html-with-aspose-pdf-quick-c-guide/)
 ### [C# में PDF को HTML में बदलें – Aspose.Pdf के साथ त्वरित गाइड](./convert-pdf-to-html-in-c-quick-guide-with-aspose-pdf/)
 C# में Aspose.PDF का उपयोग करके PDF को तेज़ी से HTML में बदलने की चरण-दर-चरण गाइड।
+### [Aspose.PDF का उपयोग करके PDF को HTML के रूप में सहेजें – पूर्ण C# गाइड](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
+Aspose.PDF का उपयोग करके C# में PDF को उच्च-गुणवत्ता वाले HTML में सहेजने की पूरी प्रक्रिया सीखें।
 
 ## अतिरिक्त संसाधन
 

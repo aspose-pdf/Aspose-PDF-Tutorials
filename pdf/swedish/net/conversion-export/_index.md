@@ -230,6 +230,8 @@ Bemästra PDF-till-HTML-konvertering med Aspose.PDF för .NET. Förbättra dokum
 
 ### [Konvertera PDF till HTML i C# – Snabbguide med Aspose.Pdf](./convert-pdf-to-html-in-c-quick-guide-with-aspose-pdf/)
 Lär dig hur du snabbt konverterar PDF till HTML i C# med Aspose.Pdf.
+### [Spara PDF som HTML med Aspose.PDF – Komplett C#-guide](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
+Lär dig hur du konverterar PDF till HTML med Aspose.PDF i C#, steg-för-steg med kodexempel.
 
 ### [PDF till HTML-konvertering med Aspose.PDF för .NET](./pdf-to-html-conversion-aspose-dot-net/)
 En kodhandledning för Aspose.PDF Net

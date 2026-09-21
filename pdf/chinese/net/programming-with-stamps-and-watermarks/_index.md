@@ -47,6 +47,7 @@ Aspose.PDF 的“使用图章和水印进行编程”.NET 教程将指导您逐�
 | [如何保存 PDF — 使用 Aspose.Pdf 添加 Bates 编号](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) 学习如何使用 Aspose.PDF for .NET 保存 PDF 并添加 Bates 编号，实现文档唯一标识和追踪。|  
 | [创建 PDF 水印 – 添加印章并将 DOCX 转换为 PDF](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) 学习如何使用 Aspose.PDF for .NET 为 PDF 添加水印和印章，并将 DOCX 转换为 PDF。|  
 | [使用 C# 创建带 Bates 编号的 PDF 文档（完整指南）](./create-pdf-document-with-bates-numbering-in-c-full-guide/) 通过本完整指南学习如何在 C# 中使用 Aspose.PDF 为 PDF 添加 Bates 编号，实现文档追踪和管理。|  
+| [在 PDF 中添加印章 – 将水印应用于首页](./add-stamp-to-pdf-apply-watermark-pdf-on-first-page/) 学习如何使用 Aspose.PDF for .NET 在 PDF 首页添加印章并应用水印，实现文档的安全与个性化。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

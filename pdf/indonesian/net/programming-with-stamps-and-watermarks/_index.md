@@ -46,6 +46,7 @@ Tutorial "Pemrograman dengan Stempel dan Tanda Air" Aspose.PDF untuk .NET memand
 | [Cara Menyimpan PDF — Tambahkan Penomoran Bates dengan Aspose.Pdf](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) | Pelajari cara menambahkan penomoran Bates saat menyimpan PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah. |  
 | [Buat Tanda Air PDF – Tambahkan Stempel & Konversi DOCX ke PDF](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) | Pelajari cara membuat tanda air PDF, menambahkan stempel, dan mengonversi dokumen DOCX ke PDF menggunakan Aspose.PDF untuk .NET. Bahasa Indonesia:  
 | [Buat Dokumen PDF dengan Penomoran Bates di C# – Panduan Lengkap](./create-pdf-document-with-bates-numbering-in-c-full-guide/) | Pelajari cara membuat dokumen PDF dengan penomoran Bates menggunakan Aspose.PDF for .NET dalam bahasa C# melalui panduan lengkap ini. |  
+| [Tambahkan Stempel ke PDF – Terapkan Tanda Air PDF pada Halaman Pertama](./add-stamp-to-pdf-apply-watermark-pdf-on-first-page/) | Pelajari cara menambahkan stempel ke PDF dan menerapkan tanda air pada halaman pertama menggunakan Aspose.PDF for .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

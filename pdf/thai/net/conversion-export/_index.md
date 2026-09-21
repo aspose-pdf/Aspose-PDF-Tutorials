@@ -242,6 +242,9 @@
 ### [วิธีบันทึก PDF ด้วย Aspose – คู่มือขั้นตอนโดยขั้นตอน](./how-to-save-pdf-with-aspose-step-by-step-guide/)
 เรียนรู้วิธีบันทึกไฟล์ PDF ด้วย Aspose อย่างละเอียดด้วยขั้นตอนที่ชัดเจน
 
+### [บันทึก PDF เป็น HTML ด้วย Aspose.PDF – คู่มือ C# ฉบับสมบูรณ์](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
+เรียนรู้วิธีบันทึกไฟล์ PDF เป็น HTML อย่างครบถ้วนด้วย Aspose.PDF สำหรับ .NET และ C#
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)

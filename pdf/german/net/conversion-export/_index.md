@@ -241,6 +241,8 @@ Erfahren Sie, wie Sie PDF-Dokumente mit Aspose.PDF für .NET in TIFF-Bilder konv
 Erfahren Sie, wie Sie PDFs mithilfe von Aspose in .NET speichern, inklusive Codebeispielen und bewährten Methoden.
 ### [PDF als HTML speichern mit Aspose.PDF – Schnellleitfaden für C#](./save-pdf-as-html-with-aspose-pdf-quick-c-guide/)
 Erfahren Sie, wie Sie PDFs schnell in HTML konvertieren und dabei C#-Beispiele nutzen.
+### [PDF als HTML speichern mit Aspose.PDF – Vollständige C#-Anleitung](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
+Erfahren Sie, wie Sie PDFs mit Aspose.PDF in HTML konvertieren und dabei vollständige C#-Beispiele für die Implementierung nutzen.
 
 ## Weitere Ressourcen
 

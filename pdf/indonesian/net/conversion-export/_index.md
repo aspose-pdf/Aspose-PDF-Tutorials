@@ -160,6 +160,10 @@ Pelajari cara mengoptimalkan konversi PDF ke HTML menggunakan Aspose.PDF untuk .
 Pelajari cara mengonversi dokumen PDF ke HTML dengan gambar PNG eksternal menggunakan Aspose.PDF untuk .NET. Panduan ini memastikan pelestarian tata letak dan pengoptimalan kinerja web.
 ### [Konversi PDF ke HTML dengan Aspose.PDF .NET: Panduan Lengkap](./aspose-pdf-net-pdf-to-html-conversion/)
 Kuasai konversi PDF ke HTML menggunakan Aspose.PDF untuk .NET. Tingkatkan aksesibilitas dan keterlibatan dokumen dengan opsi yang dapat disesuaikan.
+
+### [Simpan PDF sebagai HTML menggunakan Aspose.PDF – Panduan Lengkap C#](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
+Panduan langkah demi langkah untuk menyimpan PDF sebagai HTML dengan Aspose.PDF menggunakan C#.
+
 ### [Konversi PDF ke HTML dengan Aspose.PDF untuk .NET](./pdf-to-html-conversion-aspose-dot-net/)
 Tutorial kode untuk Aspose.PDF Net
 

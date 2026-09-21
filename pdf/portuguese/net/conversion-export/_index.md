@@ -243,6 +243,9 @@ Aprenda a converter documentos PDF em imagens TIFF usando o Aspose.PDF para .NET
 ### [Como salvar PDF com Aspose – Guia passo a passo](./how-to-save-pdf-with-aspose-step-by-step-guide/)
 Aprenda a salvar documentos PDF usando Aspose, com exemplos de código C# e dicas de melhores práticas.
 
+### [Salvar PDF como HTML usando Aspose.PDF – Guia Completo em C#](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
+Aprenda a salvar PDFs como HTML usando Aspose.PDF em C# com este guia completo.
+
 ## Recursos adicionais
 
 - [Aspose.PDF para documentação da Net](https://docs.aspose.com/pdf/net/)

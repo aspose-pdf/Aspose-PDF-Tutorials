@@ -236,6 +236,9 @@ Szybki przewodnik pokazujący, jak w C# konwertować pliki PDF do HTML przy uży
 ### [Konwersja PDF do HTML w .NET przy użyciu Aspose.PDF: ...]
 ...
 
+### [Zapisz PDF jako HTML przy użyciu Aspose.PDF – Kompletny przewodnik C#](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
+Dowiedz się, jak zapisać plik PDF jako HTML przy użyciu Aspose.PDF w C#, krok po kroku, z przykładami kodu.
+
 ### [Konwersja PDF do TIFF w .NET przy użyciu Aspose.PDF: przewodnik krok po kroku](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Dowiedz się, jak konwertować dokumenty PDF na obrazy TIFF za pomocą Aspose.PDF dla .NET. Opanuj niestandardowe głębie kolorów i zaawansowane techniki przetwarzania obrazu.
 

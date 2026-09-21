@@ -164,6 +164,9 @@ Naučte se, jak vykreslit složité LaTeX skripty do PDF dokumentů pomocí Aspo
 ### [Nastavení pozadí obrázků v PDF pomocí Aspose.PDF pro .NET: Komplexní průvodce](./aspose-pdf-net-set-image-backgrounds/)
 Naučte se, jak vylepšit své PDF dokumenty nastavením pozadí obrázků pomocí Aspose.PDF pro .NET. Tato příručka obsahuje tipy pro nastavení, implementaci a optimalizaci.
 
+### [Přidání průhlednosti do PDF pomocí Aspose PDF v C# – krok za krokem průvodce](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Naučte se, jak přidat průhlednost do PDF dokumentů pomocí Aspose.PDF v C# krok za krokem.
+
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)
