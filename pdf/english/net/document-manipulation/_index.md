@@ -190,6 +190,9 @@ Learn how to efficiently remove all text from a PDF using Aspose.PDF .NET. Perfe
 ### [How to Remove PDF Open Actions Using Aspose.PDF for .NET&#58; A Complete Guide](./remove-pdf-open-action-aspose-dotnet-guide/)
 Learn how to eliminate unwanted open actions from PDF files using Aspose.PDF for .NET. This guide provides step-by-step instructions and best practices.
 
+### [How to save modified PDF with Aspose.Pdf and add transparency](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
+Learn how to save a modified PDF and apply transparency using Aspose.PDF for .NET.
+
 ### [How to Split PDF Pages Using Aspose.PDF for .NET&#58; A Complete Guide](./mastering-pdf-page-splitting-aspose-pdf-net/)
 Learn how to efficiently split PDF pages into individual files using Aspose.PDF for .NET with this comprehensive guide. Boost your document manipulation skills today.
 

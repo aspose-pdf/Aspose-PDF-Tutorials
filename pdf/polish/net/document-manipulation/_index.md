@@ -212,6 +212,9 @@ Dowiedz się, jak programowo aktualizować łącza w plikach PDF za pomocą Aspo
 ### [Jak zaktualizować kolor tekstu łącza PDF za pomocą Aspose.PDF .NET: kompletny przewodnik](./update-pdf-link-text-color-aspose-net/)
 Dowiedz się, jak łatwo zmienić kolor tekstu linków w plikach PDF za pomocą Aspose.PDF dla .NET. Ten kompleksowy przewodnik obejmuje wskazówki dotyczące instalacji, implementacji i optymalizacji.
 
+### [Jak zapisać zmodyfikowany PDF przy użyciu Aspose.Pdf i dodać przezroczystość](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
+Dowiedz się, jak zapisać zmodyfikowany plik PDF i zastosować przezroczystość przy użyciu Aspose.PDF.
+
 ### [Wstawianie stron do PDF za pomocą Aspose.PDF dla .NET: Kompletny przewodnik po manipulacji dokumentami](./insert-pages-pdf-aspose-dotnet-guide/)
 Dowiedz się, jak wstawiać strony do pliku PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik krok po kroku obejmuje wszystko, od konfiguracji po implementację, idealny dla programistów C#.
 

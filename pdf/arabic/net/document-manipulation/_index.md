@@ -311,12 +311,15 @@
 ### [الدليل الشامل لمعالجة ملفات PDF باستخدام Aspose.PDF .NET: تحميل وحفظ واستبدال النص بكفاءة](./master-pdf-manipulation-aspose-pdf-net/)
 تعلّم كيفية إتقان معالجة ملفات PDF باستخدام Aspose.PDF .NET. يغطي هذا الدليل تحميل النصوص وحفظها واستبدالها في ملفات PDF، وهو مثالي للمطورين الباحثين عن الكفاءة.
 
-### [كيفية تعديل PDF في C# – إخفاء النص وإزالة المحتوى](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
+### [كيفية تعديل PDF في C# – إخفاء النص وإزالة المحتوى](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content/)
 
 ### [كيفية إصلاح ملفات PDF في C# – إصلاح ملفات PDF التالفة بسرعة](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
 تعرف على طريقة إصلاح ملفات PDF التالفة بسرعة باستخدام C# ومكتبة Aspose.PDF.
 
 ### [كيفية إخفاء محتوى PDF في C# باستخدام Aspose PDF – دليل شامل](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
+
+### [كيفية حفظ ملف PDF معدل باستخدام Aspose.Pdf وإضافة الشفافية](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
+تعرف على طريقة حفظ ملفات PDF المعدلة وإضافة تأثير الشفافية باستخدام Aspose.Pdf في .NET.
 
 ## موارد إضافية
 

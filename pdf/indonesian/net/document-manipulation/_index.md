@@ -318,6 +318,8 @@ Pelajari cara memperbaiki file PDF yang rusak secara cepat menggunakan C# dan As
 ### [Cara Menyensor PDF di C# dengan Aspose PDF – Panduan Lengkap](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
 Pelajari cara menyensor konten sensitif dalam file PDF menggunakan Aspose PDF untuk .NET dengan contoh kode C# lengkap.
 
+### [Cara menyimpan PDF yang dimodifikasi dengan Aspose.PDF dan menambahkan transparansi](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

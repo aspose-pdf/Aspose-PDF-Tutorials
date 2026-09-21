@@ -317,6 +317,8 @@ Aspose.PDF Net 程式碼教學
 ### [如何在 C# 中修復 PDF – 快速修復損壞的 PDF 檔案](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中快速修復受損的 PDF 檔案，恢復其內容與結構。
 
+### [如何使用 Aspose.PDF 保存已修改的 PDF 並新增透明度](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
+
 ## 其他資源
 
 - [Aspose.PDF 用於網頁文檔](https://docs.aspose.com/pdf/net/)

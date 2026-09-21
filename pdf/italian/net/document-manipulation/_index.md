@@ -318,6 +318,8 @@ Scopri come riparare rapidamente file PDF corrotti con Aspose.PDF per .NET in C#
 ### [Come redigere PDF in C# con Aspose PDF – Guida completa](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
 Scopri come rimuovere o nascondere informazioni sensibili da PDF usando Aspose PDF per .NET con C# in questa guida completa.
 
+### [Come salvare PDF modificati con Aspose.PDF e aggiungere trasparenza](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
+
 ## Risorse aggiuntive
 
 - [Aspose.PDF per la documentazione di rete](https://docs.aspose.com/pdf/net/)

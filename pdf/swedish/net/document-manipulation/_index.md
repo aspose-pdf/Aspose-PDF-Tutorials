@@ -319,6 +319,8 @@ Lär dig hur du reparerar skadade PDF-filer i C# med Aspose.PDF för .NET snabbt
 ### [Hur man maskerar PDF i C# med Aspose PDF – Komplett guide](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
 Lär dig hur du maskerar känslig information i PDF-filer med Aspose PDF för .NET och C# i denna kompletta steg-för-steg-guide.
 
+### [Hur man sparar modifierad PDF med Aspose.Pdf och lägger till transparens](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

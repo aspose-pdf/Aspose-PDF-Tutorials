@@ -169,7 +169,7 @@ Naučte se, jak rozdělit stránky PDF pomocí Aspose.PDF pro .NET s tímto komp
 ### [Jak oříznout bílé místo z PDF pomocí Aspose.PDF pro .NET: Komplexní průvodce](./trim-white-space-aspose-pdf-net/)
 Naučte se, jak efektivně ořezávat bílé prostory z PDF dokumentů pomocí Aspose.PDF pro .NET. Tato příručka se zabývá nastavením, technikami a tipy pro optimalizaci.
 
-### [Jak aktualizovat odkazy v PDF souborech pomocí Aspose.PDF pro .NET: Komplexní průvodce](./update-links-pdfs-aspose-pdf-dotnet/)
+### [Jak aktualizovat odkazy v PDF souborech pomocí Aspose.PDF pro .NET: Kompletní průvodce](./update-links-pdfs-aspose-pdf-dotnet/)
 Naučte se, jak programově aktualizovat odkazy v souborech PDF pomocí Aspose.PDF pro .NET. Automatizujte aktualizace odkazů efektivně s tímto podrobným návodem.
 
 ### [Jak aktualizovat barvu textu odkazu PDF pomocí Aspose.PDF .NET: Kompletní průvodce](./update-pdf-link-text-color-aspose-net/)
@@ -282,6 +282,9 @@ Naučte se, jak zvládnout manipulaci s PDF pomocí Aspose.PDF pro .NET. Tato p�
 
 ### [Jak opravit PDF v C# – rychle opravit poškozené PDF soubory](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
 Naučte se, jak rychle opravit poškozené PDF soubory v C# pomocí Aspose.PDF .NET.
+
+### [Jak uložit upravený PDF pomocí Aspose.Pdf a přidat průhlednost](./how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc/)
+Naučte se, jak uložit upravený PDF soubor a aplikovat průhlednost pomocí Aspose.PDF pro .NET.
 
 ## Další zdroje
 ### [Jak odstranit stránky z PDF pomocí Aspose.PDF .NET: Komplexní průvodce](./delete-pdf-pages-aspose-net/)
