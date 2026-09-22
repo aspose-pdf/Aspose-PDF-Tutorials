@@ -67,6 +67,9 @@ Scopri come confrontare PDF in C# e generare un file di differenza PDF usando As
 ### [Modifica della trasparenza PDF in C# – Guida passo‑passo](./edit-pdf-transparency-in-c-step-by-step-guide/)
 Scopri come modificare la trasparenza dei PDF usando C# e Aspose.PDF, con esempi pratici passo‑passo.
 
+### [Come eseguire OCR su PDF con Aspose.Pdf – Guida completa C#](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
+Scopri come utilizzare la funzionalità OCR di Aspose.Pdf in C# per estrarre testo da PDF scansionati.
+
 ## Risorse aggiuntive
 
 - [Aspose.PDF per la documentazione di rete](https://docs.aspose.com/pdf/net/)

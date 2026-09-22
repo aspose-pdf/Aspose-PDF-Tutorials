@@ -57,6 +57,9 @@ Aspose-PDF Net 代码教程
 学习使用 Aspose.PDF for .NET 在 C# 中将 PDF 渲染为高质量 PNG 图像的完整步骤和代码示例。
 
 ### [使用 Aspose.PDF for .NET 将 PDF 转换为 BMP：分步指南](./convert-pdf-to-bmp-aspose-pdf-net/)
+### [Aspose PDF 转 PNG – 导出首页（300 DPI）](./aspose-pdf-to-png-export-first-page-at-300-dpi/)
+了解如何使用 Aspose.PDF for .NET 将 PDF 的第一页导出为 300 DPI 的 PNG 图像，确保高分辨率输出。
+
 通过本综合指南了解如何使用 Aspose.PDF for .NET 将 PDF 页面转换为高质量的 BMP 图像。
 
 ### [使用 Aspose.PDF for .NET 将 PDF 转换为 EMF：完整指南](./convert-pdf-emf-aspose-net-guide/)

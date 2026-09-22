@@ -42,6 +42,10 @@ Tutorial kode untuk Aspose.PDF Net
 Tutorial kode untuk Aspose.PDF Net
 ### [Konversi Halaman PDF ke PNG dengan Aspose.PDF .NET: Panduan Lengkap](./convert-pdf-pages-to-png-aspose-net/)
 Pelajari cara mengonversi halaman PDF menjadi gambar PNG berkualitas tinggi menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah ini untuk mengotomatiskan proses konversi secara efisien.
+
+### [Aspose PDF ke PNG – Ekspor Halaman Pertama pada 300 DPI](./aspose-pdf-to-png-export-first-page-at-300-dpi/)
+Pelajari cara mengekspor halaman pertama PDF menjadi gambar PNG dengan resolusi 300 DPI menggunakan Aspose.PDF untuk .NET.
+
 ### [Konversi PDF ke BMP Menggunakan Aspose.PDF untuk .NET: Panduan Langkah demi Langkah](./convert-pdf-to-bmp-aspose-pdf-net/)
 Pelajari cara mengonversi halaman PDF menjadi gambar BMP berkualitas tinggi menggunakan Aspose.PDF untuk .NET dengan panduan komprehensif ini.
 ### [Konversi PDF ke EMF Menggunakan Aspose.PDF untuk .NET: Panduan Lengkap](./convert-pdf-emf-aspose-net-guide/)

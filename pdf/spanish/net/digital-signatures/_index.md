@@ -100,6 +100,9 @@ Aprenda a convertir PDFs a HTML y a validar sus firmas digitales usando Aspose.P
 ### [Cómo extraer firmas de un PDF en C# – Guía paso a paso](./how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/)
 Aprenda a extraer firmas digitales de PDFs con C# y Aspose.PDF paso a paso.
 
+### [Validar firma digital de PDF en C# – Guía completa de Aspose.Pdf](./validate-pdf-digital-signature-in-c-complete-aspose-pdf-guid/)
+Aprenda a validar firmas digitales en PDFs usando C# y Aspose.PDF con una guía paso a paso.
+
 ## Recursos adicionales
 
 - [Documentación de Aspose.PDF para la red](https://docs.aspose.com/pdf/net/)

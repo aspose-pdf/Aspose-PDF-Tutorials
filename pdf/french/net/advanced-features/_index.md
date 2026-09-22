@@ -67,6 +67,9 @@ Apprenez à comparer deux documents PDF en C# et à générer un fichier de diff
 ### [Modifier la transparence d'un PDF en C# – Guide étape par étape](./edit-pdf-transparency-in-c-step-by-step-guide/)
 Apprenez à modifier la transparence des objets PDF en C# avec Aspose.PDF, grâce à un guide détaillé pas à pas.
 
+### [Comment exécuter l'OCR sur un PDF avec Aspose.PDF – Guide complet C#](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
+Apprenez à appliquer la reconnaissance optique de caractères (OCR) aux fichiers PDF en C# avec Aspose.PDF, étape par étape.
+
 ## Ressources supplémentaires
 
 - [Aspose.PDF pour la documentation réseau](https://docs.aspose.com/pdf/net/)

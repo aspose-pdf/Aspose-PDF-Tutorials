@@ -77,6 +77,8 @@ Leer hoe u PDF-handtekeningen valideert met C# en Aspose.PDF voor .NET in een st
 
 ### [PDF-handtekeningnamen ophalen in C# – Complete programmeergids](./retrieve-pdf-signature-names-in-c-complete-programming-guide/)
 Leer hoe u met C# alle handtekeningnamen uit een PDF kunt ophalen en verwerken.
+### [PDF digitale handtekening valideren in C# – Complete Aspose.Pdf-gids](./validate-pdf-digital-signature-in-c-complete-aspose-pdf-guid/)
+Leer hoe u digitale handtekeningen in PDF's valideert met C# en Aspose.PDF voor .NET in een uitgebreide stap‑voor‑stap gids.
 
 ### [PDF-document laden C# – Converteren naar PDF/X‑4 en handtekeningen weergeven](./load-pdf-document-c-convert-to-pdf-x-4-list-signatures/)
 Leer hoe u een PDF-document laadt, converteert naar PDF/X‑4 en de aanwezige handtekeningen opsomt met Aspose.PDF voor .NET.

@@ -98,6 +98,9 @@ Scopri come estrarre le firme da un PDF utilizzando C# con Aspose.PDF. Questa gu
 ### [Come estrarre il firmatario da PDF – Guida completa C#](./how-to-extract-signer-from-pdf-complete-c-guide/)
 Scopri come estrarre il nome del firmatario da un PDF usando Aspose.PDF per .NET con esempi di codice C#.
 
+### [Verifica della firma PDF in C# – Guida completa Aspose.PDF](./validate-pdf-digital-signature-in-c-complete-aspose-pdf-guid/)
+Scopri come convalidare le firme digitali dei PDF in C# con una guida completa Aspose.PDF, garantendo l'integrità dei documenti.
+
 ## Risorse aggiuntive
 
 - [Aspose.PDF per la documentazione di rete](https://docs.aspose.com/pdf/net/)

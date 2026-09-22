@@ -89,6 +89,8 @@ Lär dig hur du sparar PDF som PNG och sedan konverterar till PDF/X‑1a med Asp
 Lär dig hur du konverterar PDF-dokument till högkvalitativa PNG-bilder med Aspose.PDF för .NET. Följ den här steg-för-steg-guiden för att automatisera konverteringsprocessen effektivt.
 ### [Hur man renderar PDF till PNG i C# – Komplett guide](./how-to-render-pdf-to-png-in-c-complete-guide/)
 Lär dig hur du renderar PDF-filer till PNG-bilder i C# med en komplett steg-för-steg-guide.
+### [Aspose PDF till PNG – Exportera första sidan med 300 DPI](./aspose-pdf-to-png-export-first-page-at-300-dpi/)
+Lär dig hur du exporterar den första sidan i en PDF till PNG med 300 DPI med Aspose.PDF för .NET.
 
 ### [Konvertera PDF till PPTX med Aspose.PDF för .NET: Steg-för-steg-guide](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 Lär dig hur du effektivt konverterar PDF-dokument till PowerPoint-presentationer med Aspose.PDF för .NET. Den här steg-för-steg-guiden täcker grundläggande konvertering, avancerade funktioner som bildbilder och förloppsspårning.

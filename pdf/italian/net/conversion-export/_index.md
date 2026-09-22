@@ -245,6 +245,8 @@ Scopri come convertire documenti PDF in immagini TIFF utilizzando Aspose.PDF per
 Scopri come salvare correttamente i file PDF con Aspose.PDF usando esempi di codice C# passo passo.
 ### [Converti PDF in HTML in C# – Guida rapida con Aspose.Pdf](./convert-pdf-to-html-in-c-quick-guide-with-aspose-pdf/)
 Scopri come convertire rapidamente i PDF in HTML usando C# e Aspose.Pdf con questa guida passo passo.
+### [Aspose PDF in PNG – Esporta la prima pagina a 300 DPI](./aspose-pdf-to-png-export-first-page-at-300-dpi/)
+Scopri come esportare la prima pagina di un PDF in PNG a 300 DPI utilizzando Aspose.PDF per .NET.
 
 ## Risorse aggiuntive
 

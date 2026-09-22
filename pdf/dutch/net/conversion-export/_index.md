@@ -55,6 +55,8 @@ Leer hoe u PDF-pagina's kunt converteren naar hoogwaardige PNG-afbeeldingen met 
 
 ### [PDF naar PNG converteren in C# – Complete stapsgewijze handleiding](./convert-pdf-to-png-in-c-complete-step-by-step-guide/)
 Leer hoe u PDF-bestanden naar PNG-afbeeldingen converteert met C# en Aspose.PDF, met stapsgewijze instructies en codevoorbeelden.
+### [Aspose PDF naar PNG – Eerste pagina exporteren met 300 DPI](./aspose-pdf-to-png-export-first-page-at-300-dpi/)
+Leer hoe u met Aspose.PDF de eerste pagina van een PDF exporteert naar PNG met 300 DPI in .NET.
 
 ### [PDF naar BMP converteren met Aspose.PDF voor .NET: een stapsgewijze handleiding](./convert-pdf-to-bmp-aspose-pdf-net/)
 Leer hoe u PDF-pagina's kunt converteren naar hoogwaardige BMP-afbeeldingen met Aspose.PDF voor .NET met deze uitgebreide handleiding.

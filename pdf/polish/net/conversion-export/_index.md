@@ -246,6 +246,8 @@ Dowiedz się, jak konwertować dokumenty PDF na obrazy TIFF za pomocą Aspose.PD
 Dowiedz się, jak zapisać dokument PDF przy użyciu Aspose w prostych krokach, wykorzystując C# i .NET.
 ### [Zapisz PDF jako HTML przy użyciu Aspose.PDF – szybki przewodnik C#](./save-pdf-as-html-with-aspose-pdf-quick-c-guide/)
 Dowiedz się, jak szybko zapisać plik PDF jako HTML przy użyciu Aspose.PDF w C#.
+### [Aspose PDF do PNG – Eksportuj pierwszą stronę w 300 DPI](./aspose-pdf-to-png-export-first-page-at-300-dpi/)
+Dowiedz się, jak wyeksportować pierwszą stronę pliku PDF jako obraz PNG w rozdzielczości 300 DPI przy użyciu Aspose.PDF dla .NET.
 
 ## Dodatkowe zasoby
 

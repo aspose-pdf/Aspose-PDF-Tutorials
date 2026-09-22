@@ -40,6 +40,7 @@ Az oktatóanyagok lépésről lépésre bemutatják az utasításokat, részlete
 | [Oldalszámok hozzáadása PDF-hez C#‑vel – Teljes lépésről‑lépésre útmutató](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Lépésről lépésre útmutató a PDF oldalszámok hozzáadásához C#‑ben az Aspose.PDF for .NET használatával. |
 | [PDF dokumentum létrehozása C# – Bates-számozás hozzáadása](./create-pdf-document-c-add-bates-numbering/) | Lépésről lépésre útmutató a Bates-számozás hozzáadásához PDF dokumentumokhoz C#-ban az Aspose.PDF for .NET segítségével. |
 | [Bates-számozás hozzáadása PDF-hez – Lépésről‑lépésre útmutató a PDF oldalak számozásához](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Lépésről lépésre útmutató a PDF oldalak Bates-számozásához C#‑ben az Aspose.PDF for .NET használatával. |
+| [PDF dokumentum létrehozása C# – Alakzatok és üres oldalak hozzáadása útmutató](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Lépésről lépésre bemutatja, hogyan adhat hozzá alakzatokat és üres oldalakat egy PDF-hez C#‑ben az Aspose.PDF for .NET használatával. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

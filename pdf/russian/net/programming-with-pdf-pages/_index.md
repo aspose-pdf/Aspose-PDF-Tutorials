@@ -40,6 +40,7 @@
 | [Добавить номера страниц в PDF с C# – Полное пошаговое руководство](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Пошаговое руководство по добавлению номеров страниц в PDF-файлы с помощью C# и Aspose.PDF для .NET. |  
 | [Создать PDF документ C# – Добавить нумерацию Бейтса](./create-pdf-document-c-add-bates-numbering/) | Пошаговое руководство по добавлению нумерации Бейтса в PDF с помощью C# и Aspose.PDF для .NET. |  
 | [Добавить нумерацию Бейтса в PDF – Пошаговое руководство по нумерации страниц PDF](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Подробное пошаговое руководство по добавлению нумерации Бейтса в PDF‑документы с помощью Aspose.PDF для .NET. |  
+| [Создать PDF-документ C# – Руководство по добавлению фигур и пустых страниц](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Пошаговое руководство по добавлению фигур и пустых страниц в PDF-документ с помощью C# и Aspose.PDF для .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -93,6 +93,9 @@ Dowiedz się, jak zweryfikować podpis PDF w C# przy użyciu Aspose.PDF .NET, kr
 ### [Jak odczytać podpisy w PDF za pomocą C# – przewodnik krok po kroku](./how-to-read-signatures-in-pdf-with-c-step-by-step-guide/)
 Dowiedz się, jak odczytać podpisy w plikach PDF przy użyciu C# i Aspose.PDF .NET.
 
+### [Walidacja cyfrowego podpisu PDF w C# – Kompletny przewodnik Aspose.PDF](./validate-pdf-digital-signature-in-c-complete-aspose-pdf-guid/)
+Dowiedz się, jak zweryfikować cyfrowy podpis PDF w C# przy użyciu Aspose.PDF – kompletny przewodnik krok po kroku.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

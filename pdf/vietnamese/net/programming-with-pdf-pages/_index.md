@@ -40,6 +40,7 @@ Hướng dẫn bao gồm hướng dẫn từng bước, ví dụ mã chi tiết 
 | [Thêm số trang PDF bằng C# – Hướng dẫn chi tiết từng bước](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Hướng dẫn chi tiết cách thêm số trang vào tài liệu PDF bằng C# với Aspose.PDF cho .NET. |  
 | [Tạo tài liệu PDF C# – Thêm số Bates](./create-pdf-document-c-add-bates-numbering/) | Hướng dẫn chi tiết cách thêm số Bates vào tài liệu PDF bằng C# với Aspose.PDF cho .NET. |  
 | [Thêm số Bates vào PDF – Hướng dẫn chi tiết từng bước để đánh số các trang PDF](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Hướng dẫn chi tiết các bước để thêm số Bates vào các trang PDF bằng Aspose.PDF cho .NET. |  
+| [Tạo tài liệu PDF C# – Thêm hình dạng & Trang trống](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Hướng dẫn chi tiết cách tạo tài liệu PDF, thêm các hình dạng và chèn trang trống bằng Aspose.PDF cho .NET trong C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

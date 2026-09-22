@@ -71,6 +71,9 @@ Aspose.PDF .NET kullanarak PDF belgelerini yüksek kaliteli PNG görüntülerine
 Aspose.PDF for .NET kullanarak PDF dosyalarını yüksek kaliteli PNG görüntülerine nasıl dönüştüreceğinizi adım adım öğrenin.
 
 ### [PDF'yi Aspose.PDF for .NET ile PPTX'e Dönüştürme: Adım Adım Kılavuz](./convert-pdf-to-pptx-aspose-dotnet-guide/)
+### [Aspose PDF'ten PNG'ye – İlk Sayfayı 300 DPI'de Dışa Aktarın](./aspose-pdf-to-png-export-first-page-at-300-dpi/)
+Aspose.PDF for .NET kullanarak PDF'in ilk sayfasını 300 DPI çözünürlükte PNG olarak dışa aktarmayı öğrenin.
+
 Aspose.PDF for .NET kullanarak PDF belgelerini PowerPoint sunumlarına nasıl verimli bir şekilde dönüştüreceğinizi öğrenin. Bu adım adım kılavuz, temel dönüştürmeyi, resim slaytları gibi gelişmiş özellikleri ve ilerleme takibini kapsar.
 ### [PDF'yi Aspose.PDF for .NET ile SVG'ye Dönüştürme: Adım Adım Kılavuz](./aspose-pdf-net-pdf-to-svg-conversion/)
 Aspose.PDF for .NET kullanarak PDF'leri SVG'ye nasıl dönüştüreceğinizi öğrenin. Bu kapsamlı kılavuz kurulum, dönüştürme adımları ve optimizasyon ipuçlarını kapsar.

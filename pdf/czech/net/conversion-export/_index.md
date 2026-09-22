@@ -77,6 +77,8 @@ Naučte se, jak převádět PDF dokumenty do vysoce kvalitních obrázků PNG po
 Naučte se, jak v C# pomocí Aspose.PDF převést PDF soubory do formátu PNG pomocí podrobného krok‑za‑krokem návodu.
 ### [Jak renderovat PDF do PNG v C# – Kompletní průvodce](./how-to-render-pdf-to-png-in-c-complete-guide/)
 Naučte se, jak pomocí Aspose.PDF v C# převést PDF soubory na obrázky PNG s podrobnými ukázkami kódu.
+### [Aspose PDF do PNG – Export první stránky při 300 DPI](./aspose-pdf-to-png-export-first-page-at-300-dpi/)
+Naučte se, jak exportovat první stránku PDF do PNG s rozlišením 300 DPI pomocí Aspose.PDF pro .NET.
 
 ### [Převod PDF do PPTX pomocí Aspose.PDF pro .NET: Podrobný návod](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 Naučte se, jak efektivně převádět dokumenty PDF do prezentací v PowerPointu pomocí nástroje Aspose.PDF pro .NET. Tato podrobná příručka zahrnuje základní převod, pokročilé funkce, jako jsou obrázkové slajdy, a sledování průběhu.

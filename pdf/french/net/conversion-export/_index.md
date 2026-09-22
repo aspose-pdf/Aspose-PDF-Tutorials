@@ -86,6 +86,9 @@ Apprenez à convertir des PDF en HTML avec Aspose.PDF en C#, incluant des astuce
 ### [Convertissez un PDF en PNG avec Aspose.PDF .NET : Améliorez l'affichage des polices pour un rendu de texte net.](./convert-pdf-png-aspose-net-font-hinting/)
 Apprenez à convertir des documents PDF en images PNG de haute qualité à l'aide d'Aspose.PDF .NET, garantissant un rendu de texte net grâce à l'indication des polices.
 
+### [Aspose PDF vers PNG – Exporter la première page à 300 DPI](./aspose-pdf-to-png-export-first-page-at-300-dpi/)
+Apprenez à exporter la première page d’un PDF en image PNG à 300 DPI avec Aspose.PDF pour .NET.
+
 ### [Enregistrer un PDF en PNG et le convertir en PDF/X‑1a avec Aspose PDF](./save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf/)
 Apprenez à enregistrer un PDF au format PNG puis à le convertir en PDF/X‑1a à l’aide d’Aspose PDF.
 ### [Convertir un PDF en PNG en C# – Guide complet étape par étape](./convert-pdf-to-png-in-c-complete-step-by-step-guide/)

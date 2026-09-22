@@ -67,6 +67,9 @@
 ### [Редактирование прозрачности PDF в C# – пошаговое руководство](./edit-pdf-transparency-in-c-step-by-step-guide/)
 Узнайте, как изменить прозрачность объектов в PDF с помощью Aspose.PDF для .NET и C#.
 
+### [Как выполнить OCR в PDF с помощью Aspose.Pdf – Полное руководство на C#](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
+Узнайте, как выполнять OCR в PDF‑файлах с помощью Aspose.Pdf в C#, включая настройку, извлечение текста и обработку изображений.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.PDF для сети](https://docs.aspose.com/pdf/net/)

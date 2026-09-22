@@ -67,6 +67,9 @@
 ### [แก้ไขความโปร่งใสของ PDF ด้วย C# – คู่มือขั้นตอนต่อขั้นตอน](./edit-pdf-transparency-in-c-step-by-step-guide/)
 เรียนรู้วิธีแก้ไขความโปร่งใสของไฟล์ PDF ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET อย่างละเอียด
 
+### [วิธีรัน OCR บน PDF ด้วย Aspose.Pdf – คู่มือ C# ฉบับสมบูรณ์](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
+เรียนรู้วิธีใช้ Aspose.Pdf เพื่อทำ OCR บนไฟล์ PDF ด้วย C# อย่างละเอียดและครบถ้วน
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)

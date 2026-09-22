@@ -68,6 +68,9 @@ Aspose.PDF for .NET kullanarak erişilebilir, biçimlendirilmiş etiketli PDF be
 ### [C# ile PDF'leri Karşılaştırma – PDF Diff Oluşturma İçin Tam Kılavuz](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 C# ve Aspose.PDF kullanarak PDF dosyalarını karşılaştırmayı, farkları (diff) oluşturmayı ve raporlamayı öğrenin.
 
+### [Aspose.Pdf ile PDF'de OCR Çalıştırma – Tam C# Kılavuzu](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
+Aspose.Pdf kullanarak PDF belgelerinde OCR uygulamayı ve metin çıkarımını C# ile adım adım öğrenin.
+
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)

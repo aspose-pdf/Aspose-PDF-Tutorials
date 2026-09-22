@@ -40,6 +40,7 @@ Samouczki obejmują instrukcje krok po kroku, szczegółowe przykłady kodu i ja
 | [Dodaj numery stron PDF w C# – Pełny przewodnik krok po kroku](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Krok po kroku pokażemy, jak dodać numery stron do pliku PDF w C# przy użyciu Aspose.PDF dla .NET. |
 | [Utwórz dokument PDF w C# – Dodaj numerację Batesa](./create-pdf-document-c-add-bates-numbering/) | Krok po kroku pokażemy, jak dodać numerację Batesa do dokumentu PDF w C# przy użyciu Aspose.PDF dla .NET. |
 | [Dodaj numerację Batesa do PDF – Przewodnik krok po kroku numerowania stron PDF](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Krok po kroku pokażemy, jak dodać numerację Batesa do pliku PDF przy użyciu Aspose.PDF dla .NET. |
+| [Utwórz dokument PDF w C# – Dodawanie kształtów i pustych stron](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Krok po kroku pokażemy, jak dodać kształty i puste strony do dokumentu PDF w C# przy użyciu Aspose.PDF dla .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

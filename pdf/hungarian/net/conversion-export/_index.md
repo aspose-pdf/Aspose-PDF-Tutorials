@@ -83,6 +83,9 @@ Ismerje meg, hogyan konvertálhat PDF dokumentumokat HTML formátumba az Aspose.
 ### [PDF konvertálása PNG-vé az Aspose.PDF .NET segítségével: Betűtípus‑utalás javítása az éles szövegmegjelenítés érdekében](./convert-pdf-png-aspose-net-font-hinting/)
 Tanulja meg, hogyan konvertálhat PDF dokumentumokat kiváló minőségű PNG képekké az Aspose.PDF .NET segítségével, biztosítva az éles szövegmegjelenítést a betűtípus‑hivatkozások segítségével.
 
+### [Aspose PDF PNG-be – Az első oldal exportálása 300 DPI-n](./aspose-pdf-to-png-export-first-page-at-300-dpi/)
+Tanulja meg, hogyan exportálhatja egy PDF első oldalát PNG formátumba 300 DPI felbontással az Aspose.PDF for .NET segítségével.
+
 ### [PDF konvertálása PNG-re C#-ban – Teljes lépésről‑lépésre útmutató](./convert-pdf-to-png-in-c-complete-step-by-step-guide/)
 Ismerje meg, hogyan konvertálhat PDF fájlokat PNG képekké C#-ban az Aspose.PDF for .NET használatával, részletes lépésekkel.
 

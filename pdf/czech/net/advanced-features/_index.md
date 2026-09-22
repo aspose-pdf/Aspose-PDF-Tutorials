@@ -67,6 +67,8 @@ Naučte se, jak porovnat PDF soubory v C# a generovat rozdíly PDF pomocí Aspos
 ### [Úprava průhlednosti PDF v C# – krok za krokem](./edit-pdf-transparency-in-c-step-by-step-guide/)
 Naučte se, jak pomocí Aspose.PDF pro .NET upravit průhlednost objektů v PDF pomocí C# krok za krokem.
 
+### [Jak spustit OCR v PDF pomocí Aspose.PDF – Kompletní průvodce v C#](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
+
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)

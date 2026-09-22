@@ -91,6 +91,8 @@ Aspose.PDF नेट के लिए एक कोड ट्यूटोरि�
 
 ### [Aspose PDF के साथ PDF को PNG के रूप में सहेजें और PDF/X‑1a में बदलें](./save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf/)
 Aspose PDF का उपयोग करके PDF को PNG छवि के रूप में सहेजें और फिर PDF/X‑1a मानक में परिवर्तित करने की चरण‑दर‑चरण गाइड।
+### [Aspose PDF को PNG में बदलें – 300 DPI पर पहला पृष्ठ निर्यात करें](./aspose-pdf-to-png-export-first-page-at-300-dpi/)
+Aspose.PDF .NET का उपयोग करके PDF के पहले पृष्ठ को 300 DPI पर PNG छवि के रूप में निर्यात करने का चरण-दर-चरण गाइड।
 
 ### [.NET के लिए Aspose.PDF के साथ PDF को PPTX में बदलें: चरण-दर-चरण मार्गदर्शिका](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 जानें कि .NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ों को PowerPoint प्रस्तुतियों में कुशलतापूर्वक कैसे परिवर्तित किया जाए। यह चरण-दर-चरण मार्गदर्शिका बुनियादी रूपांतरण, छवि स्लाइड जैसी उन्नत सुविधाओं और प्रगति ट्रैकिंग को कवर करती है।

@@ -73,6 +73,8 @@
 
 ### [تحويل PDF إلى HTML في C# – دليل سريع باستخدام Aspose.Pdf](./convert-pdf-to-html-in-c-quick-guide-with-aspose-pdf/)
 دليل مختصر يوضح كيفية تحويل ملفات PDF إلى HTML باستخدام Aspose.Pdf في C# خطوة بخطوة.
+### [Aspose PDF إلى PNG – تصدير الصفحة الأولى بدقة 300 DPI](./aspose-pdf-to-png-export-first-page-at-300-dpi/)
+دليل يوضح كيفية تصدير الصفحة الأولى من مستند PDF إلى صورة PNG بدقة 300 DPI باستخدام Aspose.PDF لـ .NET.
 
 ### [تحويل PDF إلى PPTX باستخدام Aspose.PDF لـ .NET: دليل خطوة بخطوة](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 تعرّف على كيفية تحويل مستندات PDF بكفاءة إلى عروض تقديمية بتنسيق PowerPoint باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل خطوة بخطوة أساسيات التحويل، وميزات متقدمة مثل شرائح الصور، وتتبع التقدم.

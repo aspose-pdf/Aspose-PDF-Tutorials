@@ -67,6 +67,9 @@ Ismerje meg, hogyan hozhat létre PDF-összehasonlító megoldást C#-ban az Asp
 ### [PDF átlátszóság szerkesztése C#-ban – Lépésről lépésre útmutató](./edit-pdf-transparency-in-c-step-by-step-guide/)
 Tanulja meg, hogyan módosíthatja a PDF átlátszósági beállításait C#-ban az Aspose.PDF for .NET segítségével.
 
+### [OCR futtatása PDF-en az Aspose.Pdf használatával – Teljes C# útmutató](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
+Ismerje meg, hogyan alkalmazhat OCR-t PDF-fájlokon az Aspose.Pdf segítségével C#-ban, a teljes folyamatot bemutatva.
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)

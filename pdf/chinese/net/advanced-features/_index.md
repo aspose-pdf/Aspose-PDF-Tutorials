@@ -67,6 +67,9 @@
 ### [使用 C# 编辑 PDF 透明度 – 步骤指南](./edit-pdf-transparency-in-c-step-by-step-guide/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中编辑 PDF 的透明度属性，实现渐变和层效果。
 
+### [如何使用 Aspose.Pdf 在 PDF 上运行 OCR – 完整 C# 指南](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
+了解如何使用 Aspose.Pdf 在 C# 中对 PDF 执行光学字符识别（OCR），实现文本提取和搜索功能的完整指南。
+
 ## 其他资源
 
 - [Aspose.PDF 用于网络文档](https://docs.aspose.com/pdf/net/)

@@ -67,6 +67,9 @@ Pelajari cara membandingkan dua file PDF menggunakan C# dan menghasilkan perbeda
 ### [Edit Transparansi PDF di C# – Panduan Langkah demi Langkah](./edit-pdf-transparency-in-c-step-by-step-guide/)
 Pelajari cara mengedit tingkat transparansi elemen PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode C# langkah demi langkah.
 
+### [Cara Menjalankan OCR pada PDF dengan Aspose.Pdf – Panduan Lengkap C#](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
+Pelajari cara menggunakan Aspose.Pdf untuk melakukan OCR pada file PDF dengan contoh kode C# lengkap.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

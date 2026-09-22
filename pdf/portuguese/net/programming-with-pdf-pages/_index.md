@@ -40,6 +40,7 @@ Os tutoriais incluem instruções passo a passo, exemplos de código detalhados 
 | [Adicionar números de página PDF com C# – Guia completo passo a passo](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Aprenda a inserir números de página em PDFs usando C# com o Aspose.PDF, passo a passo. |
 | [Criar documento PDF C# – Adicionar numeração Bates](./create-pdf-document-c-add-bates-numbering/) | Aprenda a adicionar numeração Bates a documentos PDF usando C# e Aspose.PDF em um guia passo a passo. |
 | [Adicionar numeração Bates ao PDF – Guia passo a passo para numerar páginas PDF](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Aprenda a adicionar numeração Bates a PDFs usando Aspose.PDF para .NET com este guia passo a passo. |
+| [Criar documento PDF C# – Guia de adição de formas e páginas em branco](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Aprenda a criar documentos PDF em C# adicionando formas e páginas em branco usando Aspose.PDF para .NET, passo a passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
