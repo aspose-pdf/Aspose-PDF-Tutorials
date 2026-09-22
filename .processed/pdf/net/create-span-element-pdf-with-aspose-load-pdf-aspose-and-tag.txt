@@ -1,0 +1,7 @@
+Title: Create Span Element PDF with Aspose – Load PDF aspose and Tag Content
+Slug: create-span-element-pdf-with-aspose-load-pdf-aspose-and-tag
+Category: programming-with-tagged-pdf
+ProcessedDate: 2026-07-04T07:28:32.276397
+SourceRepo: AI Search API
+Keywords: create span element pdf, load pdf aspose
+PRNumber: 100

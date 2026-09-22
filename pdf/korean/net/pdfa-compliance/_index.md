@@ -23,6 +23,9 @@ Aspose.PDF Net에 대한 코드 튜토리얼
 ### [Aspose.PDF .NET을 사용하여 PDF를 PDF/A로 변환: 규정 준수를 위한 단계별 가이드](./convert-pdf-to-pdfa-aspose-dotnet-guide/)
 Aspose.PDF .NET을 사용하여 일반 PDF를 PDF/A-1b 호환 문서로 변환하는 방법을 알아보세요. 이 상세하고 단계별 가이드를 통해 보관 품질과 규정 준수를 보장하세요.
 
+### [C#에서 PDF를 PDF/A로 변환 – 단계별 가이드](./convert-pdf-to-pdf-a-in-c-step-by-step-guide/)
+C#을 사용해 PDF를 PDF/A로 변환하는 방법을 단계별로 안내합니다.
+
 ### [Aspose.PDF for .NET을 사용하여 PDF를 PDF/A-3B로 변환](./convert-pdf-to-pdfa-3b-aspose-net/)
 Aspose.PDF Net에 대한 코드 튜토리얼
 
@@ -37,6 +40,11 @@ Aspose.PDF for .NET을 사용하여 PDF/A-1a 준수 여부를 확인하는 방�
 
 ### [C#에서 Aspose.PDF for .NET을 사용하여 PDF/A 유효성 검사 마스터하기](./master-pdfa-validation-aspose-pdf-net/)
 Aspose.PDF .NET을 사용하여 PDF/A 표준에 따라 PDF 문서를 검증하는 방법을 알아보세요. 단계별 가이드를 통해 규정 준수를 보장하고 문서의 신뢰성을 높여 보세요.
+
+### [C#에서 PDF/A 파일 만들기 – 전체 변환 튜토리얼](./create-pdf-a-file-in-c-full-conversion-tutorial/)
+C#으로 PDF를 PDF/A 파일로 완전 변환하는 단계별 가이드를 제공합니다.
+### [C#에서 PDF/A를 만드는 방법 – 단계별 Aspose 가이드](./how-to-create-pdf-a-in-c-step-by-step-aspose-guide/)
+C# 코드를 사용해 PDF/A 문서를 생성하는 방법을 단계별로 안내하는 Aspose 가이드
 
 ## 추가 자료
 

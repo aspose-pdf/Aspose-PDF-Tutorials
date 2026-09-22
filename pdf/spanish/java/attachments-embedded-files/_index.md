@@ -1,9 +1,9 @@
 ---
-date: 2025-12-14
-description: 'Aprenda cómo extraer archivos adjuntos PDF, incrustar archivos y agregar
-  archivos adjuntos PDF en documentos PDF usando Aspose.PDF para Java: el tutorial
-  completo de adjuntos PDF.'
-title: Tutorial de extracción de archivos adjuntos PDF para Aspose.PDF Java
+date: 2026-02-17
+description: 'Aprende a extraer archivos incrustados en PDF, incrustar archivos y
+  agregar adjuntos PDF en Java usando Aspose.PDF para Java: el tutorial completo de
+  adjuntos PDF.'
+title: Tutorial de extracción de archivos incrustados en PDF para Aspose.PDF Java
 url: /es/java/attachments-embedded-files/
 weight: 11
 ---
@@ -13,76 +13,69 @@ weight: 11
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Tutorial para extraer archivos adjuntos PDF con Aspose.PDF Java
+# Tutorial de extracción de archivos incrustados PDF para Aspose.PDF Java
 
-In this comprehensive guide you’ll discover **cómo extraer archivos adjuntos PDF** and work with embedded resources using Aspose.PDF for Java. Whether you need to pull out supplemental files, embed custom fonts, or manage linked content, this tutorial walks you through every step with clear, conversational explanations. By the end, you’ll be able to automate the extraction of attachments, embed files, and even add PDF attachments Java‑style to create richer, more interactive PDFs.
+En esta guía completa descubrirás **cómo extraer archivos incrustados pdf** y trabajar con recursos incrustados usando Aspose.PDF para Java. Ya sea que necesites extraer documentos suplementarios, incrustar fuentes personalizadas o gestionar contenido enlazado, te acompañaremos paso a paso con explicaciones claras y conversacionales. Al final, podrás automatizar la extracción, incrustar nuevos archivos e incluso añadir adjuntos PDF al estilo java para crear PDFs más ricos e interactivos.
 
 ## Respuestas rápidas
-- **¿Qué significa “extract PDF attachments”?** Se refiere a extraer programáticamente los archivos que se han adjuntado a un documento PDF.  
-- **¿Qué biblioteca soporta esto?** Aspose.PDF for Java proporciona una API completa para el manejo de adjuntos.  
+- **¿Qué significa “extract embedded files pdf”?** Se refiere a extraer programáticamente los archivos que se han adjuntado a un documento PDF.  
+- **¿Qué biblioteca lo soporta?** Aspose.PDF para Java proporciona una API completa para el manejo de adjuntos.  
 - **¿Necesito una licencia?** Se requiere una licencia temporal o completa para uso en producción; una prueba gratuita funciona para pruebas.  
-- **¿Puedo incrustar archivos mientras extraigo?** Sí, puede tanto incrustar como extraer archivos en el mismo flujo de trabajo.  
-- **¿Es este enfoque compatible con carteras PDF?** Absolutamente; también puede extraer archivos de carteras PDF usando la misma API.
+- **¿Puedo incrustar archivos mientras extraigo?** Sí, puedes tanto incrustar como extraer archivos en el mismo flujo de trabajo.  
+- **¿Este enfoque es compatible con carteras PDF?** Absolutamente; también puedes extraer archivos de carteras PDF usando la misma API.
 
-## ¿Qué es la extracción de archivos adjuntos PDF?
-Extracting PDF attachments means retrieving any files—such as images, spreadsheets, or text documents—that have been embedded inside a PDF. These attachments are stored as embedded file streams and can be accessed programmatically through the Aspose.PDF API.
+## ¿Qué es extract embedded files pdf?
+Extraer archivos incrustados pdf significa recuperar cualquier archivo—imágenes, hojas de cálculo, documentos de texto o incluso otros PDFs—que haya sido incrustado dentro de un PDF. Estos archivos se almacenan como flujos de archivo incrustado y pueden accederse programáticamente a través de la API de Aspose.PDF.
 
-## ¿Por qué usar Aspose.PDF for Java para gestionar adjuntos?
-- **Control total** sobre el ciclo de vida de los adjuntos (añadir, eliminar, extraer).  
-- **Compatibilidad multiplataforma**, funciona en cualquier entorno con Java.  
-- **Soporte para carteras PDF**, que permite la extracción masiva de archivos incrustados.  
-- **Documentación robusta** y ejemplos que aceleran el desarrollo.
+## ¿Por qué extraer archivos incrustados pdf?
+- **Control total** sobre el ciclo de vida del adjunto (añadir, eliminar, extraer).  
+- **Compatibilidad multiplataforma**, funcionando en cualquier entorno con Java.  
+- **Manejo de carteras PDF**, permitiendo la extracción masiva de muchos elementos incrustados a la vez.  
+- **Desarrollo rápido** gracias a una documentación robusta y ejemplos de código listos para usar.
 
 ## Requisitos previos
-- Java Development Kit (JDK) 8 o superior.  
-- Biblioteca Aspose.PDF for Java (descargable desde los enlaces a continuación).  
+- Java Development Kit (JDK) 8 o superior.  
+- Biblioteca Aspose.PDF para Java (descargable desde los enlaces a continuación).  
 - Un archivo PDF que contenga uno o más adjuntos.
 
-## Cómo extraer archivos adjuntos PDF usando Aspose.PDF for Java
-Below is a step‑by‑step walkthrough of the extraction process. The code itself is provided in the linked tutorial pages; here we focus on the conceptual flow.
+## Cómo extraer archivos incrustados pdf usando Aspose.PDF para Java
+A continuación se muestra un recorrido paso a paso del proceso de extracción. El código real se encuentra en las páginas de tutorial vinculadas; aquí nos centramos en el flujo conceptual.
 
 ### Paso 1: Cargar el documento PDF
-Open the target PDF with the `Document` class. If the file is password‑protected, supply the password during loading.
+Abre el PDF objetivo con la clase `Document`. Si el archivo está protegido con contraseña, proporciona la contraseña al cargarlo.
 
 ### Paso 2: Enumerar los archivos adjuntos
-Use the `Document.getEmbeddedFiles()` collection to list all attached files. Each entry gives you the file name, size, and MIME type.
+Utiliza la colección `Document.getEmbeddedFiles()` para listar todos los archivos adjuntos. Cada entrada proporciona el nombre del archivo, el tamaño y el tipo MIME.
 
 ### Paso 3: Guardar cada adjunto en disco
-Iterate through the collection and write each file stream to a location of your choice. This extracts the original attachment content unchanged.
+Itera sobre la colección y escribe cada flujo de archivo en la ubicación que elijas. Esto extrae el contenido original del adjunto sin cambios.
 
 ### Paso 4: (Opcional) Eliminar los adjuntos extraídos
-If you need a clean PDF without the original attachments, call `Document.getEmbeddedFiles().clear()` and save the document.
+Si necesitas un PDF limpio sin los adjuntos originales, llama a `Document.getEmbeddedFiles().clear()` y guarda el documento.
 
 ## Cómo incrustar archivos al estilo PDF
-Embedding files follows a similar pattern but works in reverse: you create a `FileSpecification` object, set its properties, and add it to the document’s embedded files collection. This is useful when you want to bundle supplemental resources directly inside the PDF.
+Incrustar archivos sigue el mismo patrón en sentido inverso: crea un objeto `FileSpecification`, establece sus propiedades y añádelo a la colección de archivos incrustados del documento. Esto es útil cuando deseas empaquetar recursos suplementarios directamente dentro del PDF.
 
-## Cómo añadir adjuntos PDF en Java
-Adding attachments is straightforward with Aspose.PDF. Create a `FileSpecification` for each file you want to attach, then add it to the document. This technique is covered in the “add pdf attachments java” tutorial linked below.
+## Cómo añadir adjuntos PDF al estilo java
+Añadir adjuntos es sencillo con Aspose.PDF. Crea un `FileSpecification` para cada archivo que quieras adjuntar y luego añádelo al documento. Esta técnica se cubre en el tutorial “add pdf attachments java” enlazado a continuación.
 
 ## Cómo extraer archivos de una cartera PDF
-PDF portfolios are containers that can hold multiple PDFs and other file types. Use the same `EmbeddedFiles` collection to iterate through portfolio items, then extract each one individually. The “extract pdf portfolio files” tutorial provides a detailed code sample.
+Las carteras PDF son contenedores que pueden albergar múltiples PDFs y otros tipos de archivo. Usa la misma colección `EmbeddedFiles` para iterar a través de los elementos de la cartera y extraer cada uno individualmente. El tutorial “extract pdf portfolio files” ofrece un ejemplo de código detallado.
 
-## Problemas comunes y solución de errores
-- **Permisos faltantes:** Asegúrese de que el proceso en ejecución tenga acceso de escritura a la carpeta de salida.  
-- **PDFs encriptados:** Proporcione la contraseña correcta; de lo contrario, la extracción de adjuntos fallará.  
-- **Adjuntos grandes:** Para archivos muy grandes, considere transmitir la salida para evitar un alto consumo de memoria.  
+## Problemas comunes y solución de problemas
+- **Permisos faltantes:** Asegúrate de que el proceso en ejecución tenga acceso de escritura a la carpeta de salida.  
+- **PDFs cifrados:** Proporciona la contraseña correcta; de lo contrario, la extracción fallará.  
+- **Adjuntos grandes:** Para archivos muy grandes, considera transmitir la salida para evitar un alto consumo de memoria.  
 
-## Tutoriales disponibles
+## Tutorial de adjuntos PDF java – Guías relacionadas
 
-### [Eliminar eficientemente todos los adjuntos de un PDF usando Aspose.PDF for Java](./remove-attachments-pdf-aspose-java/)
-Learn how to efficiently remove all attachments from your PDF documents using Aspose.PDF for Java. This guide covers setup, code implementation, and practical applications.
+### Tutoriales disponibles
 
-### [Cómo añadir adjuntos a PDFs usando Aspose.PDF for Java&#58; Guía para desarrolladores](./add-attachments-pdf-aspose-pdf-java/)
-Learn how to add attachments like images or text files to your PDF documents using Aspose.PDF for Java. This guide covers everything from setup to implementation.
-
-### [Cómo extraer archivos incrustados de PDFs usando Aspose.PDF for Java&#58; Guía completa](./extract-embedded-files-pdf-aspose-java-guide/)
-Master the extraction of embedded files from PDF documents with Aspose.PDF for Java. This guide covers setup, step-by-step implementation, and performance tips.
-
-### [Cómo extraer archivos incrustados de una cartera PDF usando Aspose.PDF Java](./extract-files-pdf-portfolio-aspose-java/)
-Learn how to efficiently extract embedded files from PDF portfolios using Aspose.PDF for Java. Streamline your data management with this step-by-step guide.
-
-### [Domina Aspose.PDF Java&#58; Accede y gestiona archivos incrustados en PDFs](./master-aspose-pdf-java-access-manage-embedded-files/)
-Learn how to use Aspose.PDF for Java to efficiently access, manage, and extract properties from embedded files within PDF documents.
+- [Efficiently Remove All Attachments from a PDF Using Aspose.PDF for Java](./remove-attachments-pdf-aspose-java/)
+- [How to Add Attachments to PDFs using Aspose.PDF for Java&#58; A Developer’s Guide](./add-attachments-pdf-aspose-pdf-java/)
+- [How to Extract Embedded Files from PDFs Using Aspose.PDF for Java&#58; A Comprehensive Guide](./extract-embedded-files-pdf-aspose-java-guide/)
+- [How to Extract Embedded Files from a PDF Portfolio Using Aspose.PDF Java](./extract-files-pdf-portfolio-aspose-java/)
+- [Master Aspose.PDF Java&#58; Access and Manage Embedded Files in PDFs](./master-aspose-pdf-java-access-manage-embedded-files/)
 
 ## Recursos adicionales
 
@@ -94,26 +87,26 @@ Learn how to use Aspose.PDF for Java to efficiently access, manage, and extract 
 
 ## Preguntas frecuentes
 
-**Q:** *¿Puedo extraer adjuntos de un PDF protegido con contraseña?*  
-**A:** Yes. Provide the password when opening the `Document` object, then proceed with the extraction steps.
+**P:** *¿Puedo extraer adjuntos de un PDF protegido con contraseña?*  
+**R:** Sí. Proporciona la contraseña al abrir el objeto `Document`, luego continúa con los pasos de extracción.
 
-**Q:** *¿Existe un límite en la cantidad de adjuntos que puedo incrustar?*  
-**A:** Aspose.PDF does not impose a strict limit; the practical limit is the PDF specification and available memory.
+**P:** *¿Existe un límite en la cantidad de adjuntos que puedo incrustar?*  
+**R:** Aspose.PDF no impone un límite estricto; el límite práctico está determinado por la especificación PDF y la memoria disponible.
 
-**Q:** *¿Cómo extraigo adjuntos de una cartera PDF?*  
-**A:** Use the same `EmbeddedFiles` collection; each portfolio item appears as an embedded file that can be saved individually.
+**P:** *¿Cómo extraigo adjuntos de una cartera PDF?*  
+**R:** Usa la misma colección `EmbeddedFiles`; cada elemento de la cartera aparece como un archivo incrustado que puede guardarse individualmente.
 
-**Q:** *¿Necesito una licencia separada para incrustar versus extraer?*  
-**A:** No. A single Aspose.PDF for Java license covers all attachment‑related features.
+**P:** *¿Necesito una licencia separada para incrustar versus extraer?*  
+**R:** No. Una única licencia de Aspose.PDF para Java cubre todas las funciones relacionadas con adjuntos.
 
-**Q:** *¿Puedo automatizar este proceso para lotes de PDFs?*  
-**A:** Absolutely. Wrap the extraction logic in a loop that processes each file in a directory.
+**P:** *¿Puedo automatizar este proceso para lotes de PDFs?*  
+**R:** Absolutamente. Envuelve la lógica de extracción en un bucle que procese cada archivo en un directorio.
 
 ---
 
-**Last Updated:** 2025-12-14  
-**Tested With:** Aspose.PDF for Java 24.12  
-**Author:** Aspose  
+**Última actualización:** 2026-02-17  
+**Probado con:** Aspose.PDF for Java 24.12  
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

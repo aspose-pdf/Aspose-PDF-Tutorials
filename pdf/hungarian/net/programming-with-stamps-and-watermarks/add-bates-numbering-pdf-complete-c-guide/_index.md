@@ -1,21 +1,20 @@
 ---
 category: general
-date: 2026-03-22
-description: Adjon hozzá Bates-számozást a PDF-hez gyorsan az Aspose.Pdf segítségével.
-  Tanulja meg, hogyan adhat hozzá Bates-számozást, sorozatos oldalszámokat, egyedi
-  láblécet a PDF-hez, és hogyan adhat hozzá artefaktumot a PDF-hez percek alatt.
+date: 2026-02-14
+description: Adjon hozzá Bates-számozást PDF-hez dokumentumaihoz könnyedén. Tanulja
+  meg, hogyan lehet lábléc oldalszámokat és sorozatszámokat hozzáadni PDF-hez az Aspose.Pdf
+  segítségével percek alatt.
 draft: false
 keywords:
 - add bates numbering pdf
-- how to add bates
-- add sequential page numbers
-- add custom footer pdf
-- add artifact to pdf
+- add footer page numbers
+- how to add bates numbers
+- add sequential numbers pdf
 language: hu
-og_description: Bates-számozás hozzáadása PDF-hez az Aspose.Pdf segítségével. Ez az
-  útmutató bemutatja, hogyan adhat hozzá Bates-számozást, sorozatos oldalszámokat,
-  egyedi láblécet a PDF-hez, és hogyan adhat hozzá artefaktot a PDF-hez.
-og_title: Bates-számozás hozzáadása PDF-hez – Lépésről lépésre C# oktató
+og_description: Adjon hozzá Bates-számozást a PDF-hez gyorsan. Ez az útmutató bemutatja,
+  hogyan lehet lábléc oldalszámokat és sorozatszámokat hozzáadni a PDF-hez az Aspose.Pdf
+  használatával, teljes kóddal és tippekkel.
+og_title: Bates-számozás hozzáadása PDF-hez – Lépésről lépésre C# útmutató
 tags:
 - Aspose.Pdf
 - C#
@@ -28,204 +27,175 @@ url: /hu/net/programming-with-stamps-and-watermarks/add-bates-numbering-pdf-comp
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Bates-számozás PDF hozzáadása – Teljes C# útmutató
+# Bates-számozás PDF-hez – Teljes C# útmutató
 
-Valaha szükséged volt **add bates numbering pdf**-re egy köteg jogi dokumentumhoz, de nem tudtad, hol kezdjed? Nem vagy az első – sok fejlesztő szembesült ezzel a problémával az ügykezelő eszközök építésekor. A jó hír? Az Aspose.Pdf segítségével **add bates**, **add sequential page numbers**, és még **add custom footer pdf** elemeket is hozzáadhatsz néhány kódsorral.  
+Valaha szükséged volt **add Bates numbering PDF** fájlok hozzáadására, de nem tudtad, hol kezdj? Nem vagy egyedül. Jogcsapatok, auditorok és mindenki, aki nagy dokumentumkészletekkel dolgozik, folyamatosan kérdezi: „Hogyan adhatok hozzá Bates-számokat anélkül, hogy tönkretenném az elrendezést?” A jó hír, hogy az Aspose.Pdf for .NET segítségével ezeket a számokat egyszerű láblécként illesztheted be – manuális szerkesztés nélkül.
 
-Ebben az útmutatóban végigvezetünk a teljes folyamaton, a könyvtár telepítésétől a végleges fájl mentéséig, és megosztunk tippeket arról, hogyan **add artifact to pdf** fájlokhoz anélkül, hogy a meglévő tartalmat tönkretennéd. A végére egy kész‑használatra készen álló kódrészletet kapsz, amelyet bármely .NET projektbe beilleszthetsz.
+Ebben az útmutatóban egy gyakorlati, vég‑től‑végig megoldáson vezetünk végig, amely nem csak **adds footer page numbers**-t ad hozzá, hanem lehetővé teszi **add sequential numbers PDF** fájlok hozzáadását egy egyedi előtaggal, betűmérettel és igazítással. A végére egy azonnal futtatható C# programmal, a beállítások jelentőségének világos megértésével és néhány profi tippel fogsz rendelkezni, hogy elkerüld a leggyakoribb buktatókat.
 
-## Amire szükséged lesz
+## Amit megtanulhatsz
 
-- .NET 6+ (a kód működik .NET Core és .NET Framework környezetben is)  
-- Érvényes Aspose.Pdf for .NET licenc (elindíthatod egy ingyenes értékeléssel)  
-- Egy bemeneti PDF (`input.pdf`), amelyet egy hivatkozható mappában helyezel el  
-- Visual Studio, Rider vagy bármely kedvenc C# szerkesztő  
+- Hogyan töltsünk be egy meglévő PDF-et, és készítsük elő Bates-számozáshoz.  
+- Mely **BatesNumberingOptions** tulajdonságok szabályozzák a megjelenést és elhelyezést.  
+- Hogyan alkalmazzuk a számozást minden oldalra egy hívással.  
+- Módszerek az előtag, kezdő szám és margók testreszabására különböző jogi formátumokhoz.  
+- Régió‑eset kezelése – mit tegyünk titkosított PDF-ekkel vagy olyan dokumentumokkal, amelyek már tartalmaznak láblécet.
 
-Ennyi—nem szükséges további NuGet csomag az Aspose.Pdf mellett.
+**Prerequisites**: .NET 6+ (vagy .NET Framework 4.7+), egy friss Aspose.Pdf verzió (a példában a 23.10 van használva), és egy bemeneti PDF, amelynek módosításához jogod van. Más harmadik‑fél könyvtárra nincs szükség.
 
-## 1. lépés: Aspose.Pdf telepítése NuGet-en keresztül
+---
 
-Először is—szerezzük be a könyvtárat a gépedre. Nyiss egy terminált a projekt mappádban és futtasd:
+## 1. lépés – Töltsd be a számozandó PDF-et
 
-```bash
-dotnet add package Aspose.Pdf
-```
-
-Vagy ha a Visual Studio Package Manager Console-ját használod:
-
-```powershell
-Install-Package Aspose.Pdf
-```
-
-*Pro tipp:* A telepítés után ellenőrizd, hogy a `Aspose.Pdf` mappa megjelenik-e a `Dependencies → Packages` alatt a solution explorerben.
-
-## 2. lépés: A forrás PDF dokumentum betöltése
-
-Most létrehozunk egy `Document` objektumot, amely a bélyegzőzni kívánt PDF-et képviseli. A `using` utasítás használata biztosítja, hogy a fájlkezelő automatikusan felszabaduljon.
+Az első dolog, amit teszünk, egy `Document` példány létrehozása, amely a forrásfájlra mutat. A `using var` minta használata biztosítja, hogy a fájlkezelő automatikusan felszabaduljon.
 
 ```csharp
 using Aspose.Pdf;
-using Aspose.Pdf.Annotations;
-using System.Drawing; // For Color
 
-// Step 2: Load the source PDF
-using var pdfDocument = new Document("YOUR_DIRECTORY/input.pdf");
+// Replace with the path to your source PDF
+using var doc = new Document("YOUR_DIRECTORY/input.pdf");
 ```
 
-Miért használjuk a `using var`-t? Garantálja a felszabadítást még akkor is, ha kivétel keletkezik, így elkerülve a fájl‑zárolási problémákat, amikor később megpróbálod felülírni ugyanazt a fájlt.
+> **Why this matters:** Az Aspose.Pdf beolvassa a teljes PDF struktúrát a memóriába, lehetővé téve, hogy oldalakat, annotációkat és metaadatokat manipuláljunk anélkül, hogy az eredeti fájlt a lemezen érintenénk. Ha a PDF jelszóval védett, a jelszót átadhatod a konstruktorba – lásd a „Encrypted PDFs” megjegyzést a végén.
 
-## 3. lépés: Bates-számozási artefaktum létrehozása és konfigurálása
+## 2. lépés – Határozd meg a Bates-számozási beállításokat
 
-A Bates-szám lényegében egy szöveges artefaktum, amely a PDF logikai struktúrájában él. Kezelheted úgy, mint egy **custom footer pdf**-et, mivel minden oldalon megjelenik, anélkül, hogy a lap tartalomfolyamának része lenne.
+A Bates-számok lényegében oldal láblécek, amelyek konfigurálható előtaggal és sorozatszámlálóval rendelkeznek. A `BatesNumberingOptions` osztály lehetővé teszi minden vizuális aspektus finomhangolását.
 
 ```csharp
-// Step 3: Define the Bates numbering artifact
-var batesArtifact = new BatesNumberingArtifact
+var batesOptions = new BatesNumberingOptions
 {
-    Prefix = "INV-",          // Optional prefix – change as needed
-    Start = 1000,             // Starting number
-    Format = "0000",          // Zero‑padded format (e.g., 1000 → 1000)
-    X = 500,                  // Horizontal position (points from left)
-    Y = 20,                   // Vertical position (points from bottom)
-    FontSize = 10,
-    FontColor = Color.Black
+    // The text that will appear before the numeric part
+    Prefix = "ABC-",
+
+    // Starting number; the library will increment this automatically
+    StartNumber = 1000,
+
+    // Font size of the footer text (points)
+    FontSize = 12,
+
+    // Align the number to the right side of the page
+    HorizontalAlignment = HorizontalAlignment.Right,
+
+    // Place the number at the bottom of the page
+    VerticalAlignment = VerticalAlignment.Bottom,
+
+    // Margins: left, top, right, bottom (in points)
+    Margin = new MarginInfo(0, 20, 0, 0)
 };
 ```
 
-### Miért fontosak ezek a beállítások
+### Gyors tipp
 
-- **Prefix**: Hasznos a dokumentumtípusok megkülönböztetéséhez (pl. „INV‑” számlákhoz).  
-- **Start**: Beállítja az első számot; adatbázisból is betáplálhatod, ha a fájlok között folyamatos számozásra van szükség.  
-- **Format**: `"0000"` négyjegyű megjelenítést kényszerít, biztosítva az igazítást, amikor a számok növekednek.  
-- **X/Y**: A koordinátákat a bal‑alsó saroktól mérik, így a `Y = 20` a szöveget közvetlenül a lap margója fölé helyezi. Állítsd az `X`-et, ha balra igazított vagy középre helyezett számot szeretnél.
+- **Prefix**: Használj egy rövid, egyedi azonosítót (pl. ügyszám), hogy a lábléc olvasható maradjon.  
+- **StartNumber**: Jogirodák gyakran a `1`‑től vagy egy egyedi eltolástól kezdik; válaszd azt, ami a nyilvántartási rendszeredhez illeszkedik.  
+- **Margins**: A `20` pont alsó margó biztosítja, hogy a szöveg ne érjen a lábjegyzetekhez vagy aláírásokhoz, amelyek már az oldal szélén lehetnek.
 
-Ha **add sequential page numbers**-t szeretnél Bates-számok helyett, egyszerűen hagyd ki a `Prefix`-et, és állítsd a `Format`-ot `"###"`-ra vagy bármilyen általad preferált mintára.
+## 3. lépés – Alkalmazd a számozást az összes oldalra
 
-## 4. lépés: Artefaktum alkalmazása az összes oldalra
-
-Az Aspose.Pdf lehetővé teszi, hogy egyetlen hívással egy artefaktumot csatolj a teljes dokumentumhoz. Ez a leghatékonyabb módja a **add artifact to pdf**-nek anélkül, hogy manuálisan végig kellene iterálni az egyes oldalakon.
+A beállítások konfigurálása után a tényleges beillesztés egyetlen soros kóddal megoldható. Az Aspose.Pdf kezeli az oldalszámozást, frissíti a meglévő tartalomszámokat, és automatikusan figyelembe veszi az oldal forgását.
 
 ```csharp
-// Step 4: Apply the artifact to the whole document
-pdfDocument.Pages.AddArtifact(batesArtifact);
+doc.Pages.AddBatesNumbering(batesOptions);
 ```
 
-A háttérben az Aspose az artefaktumot minden oldal szótárához adja, ami azt jelenti, hogy a számozás a PDF logikai struktúrájának részévé válik – tökéletes későbbi kinyeréshez vagy kereséshez.
+> **What’s happening under the hood?** A könyvtár végigiterál minden `Page` objektumon, létrehoz egy `TextFragment`‑et, amely tartalmazza az előtagot és az aktuális számlálót, majd a oldal koordináta‑rendszerét használva rajzolja ki. Mivel a `HorizontalAlignment.Right` és a `VerticalAlignment.Bottom` értékeket állítottuk be, a szöveg az oldal jobb‑alsó sarkába helyezkedik el, függetlenül az oldal méretétől.
 
-## 5. lépés: A frissített PDF mentése
+## 4. lépés – Mentsd el a módosított PDF-et
 
-Végül írd vissza a változtatásokat a lemezre. Felülírhatod az eredetit, vagy menthetsz egy új fájlba; az utóbbi fejlesztés közben biztonságosabb.
+Végül írd az eredményt egy új fájlba. Az eredeti felülírása lehetséges, de egy másolat megtartása segít a verziókezelésben.
 
 ```csharp
-// Step 5: Save the PDF with Bates numbers
-pdfDocument.Save("YOUR_DIRECTORY/output.pdf");
+doc.Save("YOUR_DIRECTORY/output.pdf");
 ```
 
-Amikor megnyitod a `output.pdf`-et egy megjelenítőben, a „INV‑1000”, „INV‑1001”, … szöveget fogod látni minden oldal jobb alsó sarkában.
-
-### Az eredmény ellenőrzése
-
-Nyisd meg a PDF-et Adobe Acrobatban vagy bármely megjelenítőben, és keresd a számokat. Ha programozottan szeretnéd megerősíteni, visszaolvashatod az artefaktumot:
-
-```csharp
-foreach (var page in pdfDocument.Pages)
-{
-    foreach (var artifact in page.Artifacts)
-    {
-        Console.WriteLine($"Page {page.Number}: {artifact.Text}");
-    }
-}
-```
-
-Ez a kódrészlet kiírja minden oldal Bates-címkéjét – hasznos automatizált tesztekhez.
-
-## Szélsőséges esetek és gyakori kérdések
-
-### Mi van, ha a PDF-nek már van lábléce?
-
-Az artefaktum hozzáadása nem írja felül a meglévő lábléceket, mivel az artefaktumok külön rétegben helyezkednek el. Ha azonban a vizuális átfedés problémát jelent, állítsd a `Y` koordinátát, vagy növeld az `X` eltolást, hogy a Bates-számot elmozdítsd.
-
-### Használhatok másik betűtípust vagy színt?
-
-Természetesen. A `BatesNumberingArtifact` a `Artifact`-ből örököl, így beállíthatod a `Font`, `FontColor` és akár az `Opacity` értékeket is. Példa:
-
-```csharp
-batesArtifact.Font = FontRepository.FindFont("Arial");
-batesArtifact.FontColor = Color.FromArgb(255, 0, 0); // Red
-```
-
-### Hogyan állíthatom vissza a számlálót egy új dokumentumhoz?
-
-Egyszerűen módosítsd a `Start` értékét az `AddArtifact` hívása előtt. Ha egy ciklusban sok PDF-et generálsz, tarts egy folyamatos számlálót az alkalmazás logikájában.
-
-### Ez a megközelítés kompatibilis a titkosított PDF-ekkel?
-
-Az Aspose.Pdf képes megnyitni a titkosított PDF-eket, ha megadod a jelszót:
-
-```csharp
-var loadOptions = new LoadOptions { Password = "mySecret" };
-using var pdfDocument = new Document("encrypted.pdf", loadOptions);
-```
-
-A dekódolás után ugyanazok a artefaktum‑hozzáadási lépések hibátlanul működnek.
+Ha meg kell őrizned az eredeti metaadatokat (szerző, létrehozás dátuma), az Aspose.Pdf alapértelmezés szerint másolja azokat. Emellett megadhatsz egy `SaveOptions` objektumot PDF/A kompatibilitáshoz vagy tömörítéshez.
 
 ## Teljes működő példa
 
-Az alábbiakban a teljes, kész‑használatra készen álló program látható. Illeszd be egy konzolos alkalmazásba, állítsd be az elérési útvonalakat, és nyomd meg a **F5**-öt.
+Az alábbiakban a teljes, azonnal futtatható program található. Illeszd be egy konzolos alkalmazás projektbe, állítsd be a fájlutakat, és nyomd meg a **F5**‑öt.
 
 ```csharp
-using System;
-using System.Drawing;               // For Color
 using Aspose.Pdf;
-using Aspose.Pdf.Annotations;
 
 class Program
 {
     static void Main()
     {
-        // Load the source PDF
-        using var pdfDocument = new Document("YOUR_DIRECTORY/input.pdf");
+        // 1️⃣ Load the source PDF
+        using var doc = new Document("YOUR_DIRECTORY/input.pdf");
 
-        // Create the Bates numbering artifact
-        var batesArtifact = new BatesNumberingArtifact
+        // 2️⃣ Configure Bates numbering options
+        var batesOptions = new BatesNumberingOptions
         {
-            Prefix = "INV-",
-            Start = 1000,
-            Format = "0000",
-            X = 500,
-            Y = 20,
-            FontSize = 10,
-            FontColor = Color.Black
+            Prefix = "ABC-",
+            StartNumber = 1000,
+            FontSize = 12,
+            HorizontalAlignment = HorizontalAlignment.Right,
+            VerticalAlignment = VerticalAlignment.Bottom,
+            Margin = new MarginInfo(0, 20, 0, 0)
         };
 
-        // Apply the artifact to every page
-        pdfDocument.Pages.AddArtifact(batesArtifact);
+        // 3️⃣ Apply numbering to every page
+        doc.Pages.AddBatesNumbering(batesOptions);
 
-        // Save the result
-        pdfDocument.Save("YOUR_DIRECTORY/output.pdf");
+        // 4️⃣ Save the output PDF
+        doc.Save("YOUR_DIRECTORY/output.pdf");
 
-        Console.WriteLine("Bates numbering added successfully!");
+        System.Console.WriteLine("Bates numbering added successfully!");
     }
 }
 ```
 
-**Várható kimenet:** A konzol kiírja, hogy „Bates numbering added successfully!” és a `output.pdf` sorozatos címkéket tartalmaz, mint például `INV‑1000`, `INV‑1001`, stb., a lapok jobb alsó sarkában elhelyezve.
+**Expected result:** A `output.pdf` minden oldala most egy `ABC-1000`, `ABC-1001`, … formátumú láblécet jelenít meg, amely a jobb‑alsó sarokba van rögzítve. Nyisd meg a fájlt bármely PDF-olvasóval a ellenőrzéshez.
 
-## Gyors összefoglaló
+## Gyakori változatok kezelése
 
-- **Elsődleges cél:** **add bates numbering pdf** használata az Aspose.Pdf segítségével.  
-- Áttekintettük, hogyan **add bates**, **add sequential page numbers**, és **add custom footer pdf** elemeket egyetlen artefaktummal.  
-- Az útmutató bemutatta, hogyan **add artifact to pdf**, kezeljük a szélsőséges eseteket, és ellenőrizzük az eredményt.  
+### Csak lábléc oldalszámok hozzáadása
 
-## Mi a következő lépés?
+Ha csak egyszerű oldalszámokra van szükséged előtag nélkül, állítsd be a `Prefix = ""` értéket, és esetleg módosítsd a margót, hogy elkerüld az ütközést a meglévő láblécekkel.
 
-- **Dinamikus előtagok:** Értékek lekérése adatbázisból a “CASE‑2023‑001”, “CASE‑2023‑002”, … generálásához.  
-- **Feltételes elhelyezés:** Használd a lapméret detektálását (`page.MediaBox`) a számok középre helyezéséhez fekvő (landscape) oldalakon.  
-- **Vízjelek kombinálása:** Adj hozzá egy félig átlátszó logót a Bates-szám mellé a márkaépítéshez.  
+```csharp
+batesOptions.Prefix = "";
+batesOptions.StartNumber = 1; // classic page numbering
+```
 
-Nyugodtan kísérletezz—talán egy okosabb módszert találsz a több ezer fájl kötegelt feldolgozására. Ha problémába ütközöl, hagyj megjegyzést vagy nézd meg az Aspose hivatalos dokumentációját (meglepően érthető). Boldog kódolást!  
+### Másik igazítás használata
 
-![add bates numbering pdf example](https://example.com/bates-numbering-screenshot.png "Screenshot showing add bates numbering pdf in a PDF viewer")
+Jogos dokumentumok esetén előfordulhat, hogy a számot középre kell helyezni az alján. Váltsd meg az igazítást:
+
+```csharp
+batesOptions.HorizontalAlignment = HorizontalAlignment.Center;
+```
+
+### Titkosított PDF-ek kezelése
+
+Ha a forrás PDF jelszóval védett, add meg a jelszót a következő módon:
+
+```csharp
+using var doc = new Document("secure.pdf", new LoadOptions { Password = "mySecret" });
+```
+
+A munkafolyamat többi része változatlan marad.
+
+### Létező láblécek kihagyása
+
+Ha egy dokumentum már tartalmaz láblécet, amelyet nem akarsz felülírni, előtoldalhatod egy egyedi karakterlánccal, amely megkülönbözteti az új számot, vagy manuálisan iterálhatsz az oldalakon, és csak ott adsz hozzá egy `TextFragment`‑et, ahol a lábléc hiányzik. A könyvtár `Page` osztálya elérhetővé teszi a `Annotations` és `Contents` gyűjteményeket a finomhangolt vezérléshez.
+
+## Profi tippek és buktatók
+
+- **Avoid clipping**: Nagyon kis alsó margók esetén a szöveg levágódhat a nyomtatón. Teszteld fizikai nyomtatással, ha nyomtatott példányt terjesztesz.  
+- **Performance**: Bates-számok hozzáadása egy 500 oldalas PDF-hez kevesebb, mint egy másodperc egy modern laptopon, de nagy kötegek esetén előnyös a párhuzamos feldolgozás – csak ne feledd, hogy a `Document` nem szálbiztos, ezért minden szálnak saját példányra van szüksége.  
+- **Version compatibility**: A kód az Aspose.Pdf 23.10 és újabb verziókkal működik. Régebbi verzió esetén a tulajdonságnevek ugyanazok, de a `MarginInfo` konstruktor `float` argumentumokat igényelhet.  
+- **Legal compliance**: Egyes joghatóságok megkövetelik, hogy a Bates-szám egy meghatározott helyen legyen elhelyezve (pl. bal‑alsó). Ennek megfelelően állítsd be a `HorizontalAlignment`‑t.
+
+## Összegzés
+
+Most bemutattuk, hogyan **add Bates numbering PDF** fájlokhoz használhatod az Aspose.Pdf for .NET-et, lefedve mindent a dokumentum betöltésétől a tiszta lábléccel ellátott végső verzió mentéséig. Néhány tulajdonság finomhangolásával képes vagy **add footer page numbers**, **add sequential numbers PDF** funkciókat is megvalósítani, vagy a megjelenést testre szabni bármely jogi szabványnak megfelelően.
+
+Készen állsz a következő lépésre? Próbáld meg kombinálni ezt a technikát OCR szövegkivonással, hogy kereshető kulcsszavakat ágyazz a Bates-számok mellé, vagy automatizáld a folyamatot teljes mappákra a `Directory.GetFiles` használatával. A lehetőségek végtelenek, és az alap, amelyet most szereztél, könnyűvé teszi ezeket a bővítéseket.
+
+Boldog kódolást, és legyenek a PDF-jeid mindig tökéletesen számozva!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

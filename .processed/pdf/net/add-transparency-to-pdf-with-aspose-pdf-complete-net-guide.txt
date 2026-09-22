@@ -1,0 +1,7 @@
+Title: Add Transparency to PDF with Aspose.Pdf – Complete .NET Guide
+Slug: add-transparency-to-pdf-with-aspose-pdf-complete-net-guide
+Category: advanced-features
+ProcessedDate: 2026-07-29T22:28:19.574343
+SourceRepo: AI Search API
+Keywords: add transparency to pdf
+PRNumber: 111

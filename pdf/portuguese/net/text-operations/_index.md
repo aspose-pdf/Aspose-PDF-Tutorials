@@ -54,7 +54,7 @@ Aprenda a extrair fontes de documentos PDF com eficiência usando o Aspose.PDF p
 Aprenda a extrair valores de campos de PDFs usando o Aspose.PDF para .NET em C#. Este guia aborda instalação, implementação e práticas recomendadas.
 
 ### [Extrair parágrafos de PDF usando Aspose.PDF .NET: um guia completo para operações de texto](./extract-paragraphs-from-pdf-aspose-pdf-net/)
-Aprenda a extrair parágrafos de documentos PDF com eficiência usando o Aspose.PDF para .NET. Este guia aborda configuração, implementação e aplicações práticas.
+Aprenda a extrair parágrafos de documentos PDF com eficiência usando o Aspose.PDF .NET. Este guia aborda configuração, implementação e aplicações práticas.
 
 ### [Extraia texto de cada página usando Aspose.PDF para .NET: um guia completo](./aspose-pdf-net-extract-text-by-page/)
 Aprenda como extrair texto de cada página de um documento PDF com eficiência usando o Aspose.PDF para .NET com este tutorial passo a passo.
@@ -163,6 +163,9 @@ Um tutorial de código para Aspose.PDF Net
 
 ### [Estilizar texto em PDFs marcados usando Aspose.PDF para .NET | Guia para criação de PDFs acessíveis e estéticos](./style-text-tagged-pdfs-aspose-pdf-net/)
 Aprenda a estilizar texto em documentos PDF marcados com o Aspose.PDF para .NET. Este guia aborda instalação, técnicas e aplicações práticas para aprimorar a acessibilidade.
+
+### [Como censurar PDF com Aspose – Guia passo a passo](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
+Aprenda a remover informações confidenciais de PDFs usando Aspose.PDF para .NET com este tutorial detalhado passo a passo.
 
 ## Recursos adicionais
 

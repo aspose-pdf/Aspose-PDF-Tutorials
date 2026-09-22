@@ -38,6 +38,8 @@
 | [تحديث أبعاد صفحة PDF](./update-dimensions/) |اكتشف كيفية تحديث أبعاد صفحات PDF بسهولة باستخدام Aspose.PDF لـ .NET في هذا الدليل الشامل خطوة بخطوة. |  
 | [تكبير محتويات الصفحة في ملف PDF](./zoom-to-page-contents/) تعرّف على كيفية تكبير محتوى صفحات ملفات PDF باستخدام Aspose.PDF لـ .NET في هذا الدليل الشامل. حسّن مستندات PDF الخاصة بك وفقًا لاحتياجاتك الخاصة.  
 | [إضافة أرقام الصفحات إلى PDF باستخدام C# – دليل كامل خطوة بخطوة](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | دليل خطوة بخطوة لإضافة أرقام الصفحات إلى ملفات PDF باستخدام C# و Aspose.PDF لـ .NET. |  
+| [إنشاء مستند PDF C# – إضافة ترقيم Bates](./create-pdf-document-c-add-bates-numbering/) | دليل خطوة بخطوة لإضافة ترقيم Bates إلى مستند PDF باستخدام Aspose.PDF لـ .NET و C#. |
+| [إضافة ترقيم Bates إلى PDF – دليل خطوة بخطوة لترقيم صفحات PDF](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | دليل شامل يوضح كيفية إضافة ترقيم Bates إلى ملفات PDF باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |
 | [إنشاء مستند PDF C# – دليل إضافة الأشكال والصفحات الفارغة](./create-pdf-document-c-add-shapes-blank-pages-guide/) |دليل خطوة بخطوة لإنشاء مستند PDF وإضافة أشكال وصفحات فارغة باستخدام Aspose.PDF لـ .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -47,3 +49,24 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [إدراج صفحة فارغة وتحديث ترقيم Bates](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | دليل خطوة بخطوة لإدراج صفحة فارغة في ملف PDF وتحديث ترقيم Bates باستخدام Aspose.PDF لـ .NET. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+| [إضافة صفحات إلى PDF باستخدام Aspose – دليل C# كامل](./add-pages-to-pdf-with-aspose-complete-c-guide/) | دليل خطوة بخطوة لإضافة صفحات إلى ملف PDF باستخدام Aspose.PDF لـ .NET بلغة C#. |
+| [إنشاء صفحة PDF فارغة – دليل كامل لرسم PDF](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | دليل خطوة بخطوة لإنشاء صفحة PDF فارغة باستخدام Aspose.PDF لـ .NET مع شرح كامل للرسم. |
+| [إنشاء مستند PDF في C# – إضافة صفحة إلى PDF ومربع](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) | دليل خطوة بخطوة لإنشاء مستند PDF وإضافة صفحة ومربع باستخدام Aspose.PDF لـ .NET. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

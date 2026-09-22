@@ -45,6 +45,20 @@ Aspose.PDF for .NET 的「使用標記 PDF 進行程式設計」教學課程將�
 | [PDF檔案中的文字結構元素](./text-structure-elements/) |學習使用 Aspose.PDF for .NET 操作 PDF 中的文字結構元素。本逐步指南涵蓋了創建結構化 PDF 所需的所有內容。 |  
 | [驗證 PDF 文件](./validate-pdf/) |了解如何使用 Aspose.PDF for .NET 驗證 PDF 檔案。檢查其是否符合標準並產生驗證報告。 |  
 | [在 C# 中建立標記 PDF – 完整步驟指南](./create-tagged-pdf-in-c-complete-step-by-step-guide/) |透過完整步驟指南，使用 C# 建立標記 PDF，提升文件可存取性與結構。 |  
+| [在 C# 中建立標記 PDF – Aspose PDF 完整指南](./create-tagged-pdf-in-c-aspose-pdf-complete-guide/) |透過完整步驟指南，使用 C# 建立符合 PDF/UA 標準的標記 PDF，提升文件可存取性。 |  
+| [在 C# 中建立標記 PDF – 步驟指南](./create-tagged-pdf-in-c-step-by-step-guide/) |透過步驟指南，使用 C# 建立標記 PDF，提升文件可存取性與結構。 |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+| [如何使用 Aspose 標記 PDF – PDF 可存取性標籤完整指南](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) |本完整指南說明如何使用 Aspose.PDF 為 PDF 添加可存取性標籤，提升文件的可讀性與合規性。 |  
+| [使用 Aspose 使 PDF 可存取：插入段落 PDF 步驟說明](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) |本教學說明如何使用 Aspose.PDF for .NET 在 PDF 中插入段落，以提升文件的可存取性。 |  
+| [在 C# 中建立標記 PDF – 新增標題與可存取文字](./create-tagged-pdf-in-c-add-heading-accessible-text/) |學習如何使用 Aspose.PDF for .NET 在 C# 中建立標記 PDF，並加入標題與可存取的文字內容。 |  
+| [使用 Aspose.Pdf 建立可存取 PDF – 步驟指南](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) |本逐步指南說明如何使用 Aspose.Pdf 為 PDF 添加可存取性功能，符合 PDF/UA 標準。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

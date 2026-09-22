@@ -1,21 +1,20 @@
 ---
 category: general
-date: 2026-03-22
-description: Ajoutez rapidement une numérotation Bates à un PDF avec Aspose.Pdf. Apprenez
-  comment ajouter une numérotation Bates, des numéros de page séquentiels, un pied
-  de page personnalisé au PDF, et un artefact au PDF en quelques minutes.
+date: 2026-02-14
+description: Ajoutez une numérotation Bates à vos PDF en toute simplicité. Apprenez
+  à ajouter des numéros de page en pied de page et à insérer des numéros séquentiels
+  dans les PDF avec Aspose.Pdf en quelques minutes.
 draft: false
 keywords:
 - add bates numbering pdf
-- how to add bates
-- add sequential page numbers
-- add custom footer pdf
-- add artifact to pdf
+- add footer page numbers
+- how to add bates numbers
+- add sequential numbers pdf
 language: fr
-og_description: Ajouter une numérotation Bates à un PDF avec Aspose.Pdf. Ce guide
-  montre comment ajouter la numérotation Bates, ajouter des numéros de page séquentiels,
-  ajouter un pied de page personnalisé au PDF et ajouter un artefact au PDF.
-og_title: Ajouter la numérotation Bates à un PDF – Tutoriel C# étape par étape
+og_description: Ajoutez rapidement une numérotation Bates aux PDF. Ce guide montre
+  comment ajouter des numéros de page en pied de page et des numéros séquentiels aux
+  PDF en utilisant Aspose.Pdf, avec le code complet et des astuces.
+og_title: Ajouter une numérotation Bates à un PDF – Tutoriel C# étape par étape
 tags:
 - Aspose.Pdf
 - C#
@@ -28,204 +27,189 @@ url: /fr/net/programming-with-stamps-and-watermarks/add-bates-numbering-pdf-comp
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Ajouter une numérotation Bates PDF – Guide complet C#  
+# Ajouter la numérotation Bates aux PDF – Guide complet C#
 
-Vous avez déjà eu besoin d'**add bates numbering pdf** à un lot de documents juridiques mais vous ne saviez pas par où commencer ? Vous n'êtes pas le premier—de nombreux développeurs rencontrent ce problème lorsqu'ils construisent des outils de gestion de dossiers. La bonne nouvelle ? Avec Aspose.Pdf vous pouvez **add bates**, **add sequential page numbers**, et même **add custom footer pdf** personnalisés en quelques lignes de code.  
+Vous avez déjà eu besoin d'**ajouter une numérotation Bates aux fichiers PDF** mais vous ne saviez pas par où commencer ? Vous n'êtes pas seul. Les équipes juridiques, les auditeurs et toute personne manipulant de grands ensembles de documents demandent constamment : « Comment ajouter des numéros Bates sans casser la mise en page ? » La bonne nouvelle, c’est qu’avec Aspose.Pdf pour .NET, vous pouvez injecter ces numéros sous forme de simple pied de page — aucune édition manuelle requise.
 
-Dans ce tutoriel, nous parcourrons l'ensemble du processus, de l'installation de la bibliothèque à l'enregistrement du fichier final, en ajoutant des astuces sur la façon d'**add artifact to pdf** sans casser le contenu existant. À la fin, vous disposerez d'un extrait prêt à l'emploi que vous pourrez insérer dans n'importe quel projet .NET.
+Dans ce tutoriel, nous allons parcourir une solution pratique, de bout en bout, qui non seulement **ajoute des numéros de page en pied de page**, mais vous permet également d'**ajouter des numéros séquentiels aux PDF** avec un préfixe personnalisé, une taille de police et un alignement. À la fin, vous disposerez d’un programme C# prêt à l’emploi, d’une compréhension claire de l’importance de chaque paramètre, et de quelques astuces professionnelles pour éviter les pièges les plus courants.
 
-## Ce dont vous avez besoin
+## Ce que vous apprendrez
 
-- .NET 6+ (le code fonctionne aussi bien sur .NET Core que sur .NET Framework)  
-- Une licence valide d'Aspose.Pdf pour .NET (vous pouvez commencer avec une évaluation gratuite)  
-- Un PDF d'entrée (`input.pdf`) placé dans un dossier que vous pouvez référencer  
-- Visual Studio, Rider ou tout éditeur C# de votre choix  
+- Comment charger un PDF existant et le préparer pour la numérotation Bates.  
+- Quelles propriétés de **BatesNumberingOptions** contrôlent l’apparence et le placement.  
+- Comment appliquer la numérotation à chaque page en un seul appel.  
+- Comment personnaliser le préfixe, le numéro de départ et les marges pour différents formats juridiques.  
+- Gestion des cas limites — que faire avec les PDF chiffrés ou les documents contenant déjà des pieds de page.
 
-C’est tout—aucun paquet NuGet supplémentaire en dehors d'Aspose.Pdf.
+**Prérequis** : .NET 6+ (ou .NET Framework 4.7+), une version récente d’Aspose.Pdf (l’exemple utilise la 23.10), et un PDF d’entrée dont vous possédez les droits de modification. Aucune autre bibliothèque tierce n’est nécessaire.
 
-## Étape 1 : Installer Aspose.Pdf via NuGet
+---
 
-Tout d'abord, installons la bibliothèque sur votre machine. Ouvrez un terminal dans le dossier de votre projet et exécutez :
+## Étape 1 – Charger le PDF que vous souhaitez numéroter
 
-```bash
-dotnet add package Aspose.Pdf
-```
-
-Ou, si vous utilisez la console du gestionnaire de packages de Visual Studio :
-
-```powershell
-Install-Package Aspose.Pdf
-```
-
-*Astuce :* Après l'installation, vérifiez que le dossier `Aspose.Pdf` apparaît sous `Dependencies → Packages` dans l'explorateur de solution.
-
-## Étape 2 : Charger le document PDF source
-
-Nous créons maintenant un objet `Document` qui représente le PDF que nous voulons marquer. L'utilisation de l'instruction `using` garantit que le handle du fichier est libéré automatiquement.
+La première chose que nous faisons est de créer une instance `Document` qui pointe vers le fichier source. Le modèle `using var` garantit que le handle du fichier est libéré automatiquement.
 
 ```csharp
 using Aspose.Pdf;
-using Aspose.Pdf.Annotations;
-using System.Drawing; // For Color
 
-// Step 2: Load the source PDF
-using var pdfDocument = new Document("YOUR_DIRECTORY/input.pdf");
+// Replace with the path to your source PDF
+using var doc = new Document("YOUR_DIRECTORY/input.pdf");
 ```
 
-Pourquoi utiliser `using var` ? Cela garantit la libération même en cas d'exception, évitant les problèmes de verrouillage du fichier lorsque vous essayez d'écraser le même fichier plus tard.
+> **Pourquoi c’est important :** Aspose.Pdf lit toute la structure du PDF en mémoire, ce qui nous permet de manipuler les pages, les annotations et les métadonnées sans toucher au fichier original sur le disque. Si le PDF est protégé par mot de passe, vous pouvez transmettre le mot de passe au constructeur — voir la note « PDF chiffrés » à la fin.
 
-## Étape 3 : Créer et configurer un artefact de numérotation Bates
+---
 
-Un numéro Bates est essentiellement un artefact texte qui vit dans la structure logique du PDF. Vous pouvez le considérer comme un **custom footer pdf** car il apparaît sur chaque page sans faire partie du flux de contenu de la page.
+## Étape 2 – Définir vos options de numérotation Bates
+
+Les numéros Bates sont essentiellement des pieds de page avec un préfixe configurable et un compteur séquentiel. La classe `BatesNumberingOptions` vous permet d’ajuster chaque aspect visuel.
 
 ```csharp
-// Step 3: Define the Bates numbering artifact
-var batesArtifact = new BatesNumberingArtifact
+var batesOptions = new BatesNumberingOptions
 {
-    Prefix = "INV-",          // Optional prefix – change as needed
-    Start = 1000,             // Starting number
-    Format = "0000",          // Zero‑padded format (e.g., 1000 → 1000)
-    X = 500,                  // Horizontal position (points from left)
-    Y = 20,                   // Vertical position (points from bottom)
-    FontSize = 10,
-    FontColor = Color.Black
+    // The text that will appear before the numeric part
+    Prefix = "ABC-",
+
+    // Starting number; the library will increment this automatically
+    StartNumber = 1000,
+
+    // Font size of the footer text (points)
+    FontSize = 12,
+
+    // Align the number to the right side of the page
+    HorizontalAlignment = HorizontalAlignment.Right,
+
+    // Place the number at the bottom of the page
+    VerticalAlignment = VerticalAlignment.Bottom,
+
+    // Margins: left, top, right, bottom (in points)
+    Margin = new MarginInfo(0, 20, 0, 0)
 };
 ```
 
-### Pourquoi ces paramètres sont importants
+### Astuce rapide
 
-- **Prefix** : Utile pour distinguer les types de documents (par ex., “INV‑” pour les factures).  
-- **Start** : Définit le premier numéro ; vous pouvez le récupérer depuis une base de données si vous avez besoin de continuité entre les fichiers.  
-- **Format** : `"0000"` force un affichage à quatre chiffres, assurant l'alignement lorsque les nombres augmentent.  
-- **X/Y** : Les coordonnées sont mesurées depuis le coin inférieur gauche, donc `Y = 20` place le texte juste au-dessus de la marge de la page. Ajustez `X` si vous voulez que le numéro soit aligné à gauche ou centré.
+- **Prefix** : Utilisez un identifiant court et unique (par ex., le numéro de dossier) pour garder le pied de page lisible.  
+- **StartNumber** : Les cabinets juridiques commencent souvent à `1` ou à un décalage personnalisé ; choisissez ce qui correspond à votre système de classement.  
+- **Margins** : La marge inférieure de `20` points garde le texte à l’écart des notes de bas de page ou des signatures qui pourraient déjà se trouver près du bord de la page.
 
-Si vous devez **add sequential page numbers** au lieu de numéros Bates, il suffit d'omettre `Prefix` et d'ajuster `Format` à `"###"` ou tout autre modèle que vous préférez.
+---
 
-## Étape 4 : Appliquer l'artefact à toutes les pages
+## Étape 3 – Appliquer la numérotation à toutes les pages
 
-Aspose.Pdf vous permet d'attacher un artefact à l'ensemble du document en un seul appel. C'est la façon la plus efficace d'**add artifact to pdf** sans parcourir chaque page manuellement.
-
-```csharp
-// Step 4: Apply the artifact to the whole document
-pdfDocument.Pages.AddArtifact(batesArtifact);
-```
-
-En coulisses, Aspose ajoute l'artefact au dictionnaire de chaque page, ce qui signifie que la numérotation fait partie de la structure logique du PDF—parfait pour une extraction ou une recherche ultérieure.
-
-## Étape 5 : Enregistrer le PDF mis à jour
-
-Enfin, écrivez les modifications sur le disque. Vous pouvez écraser le fichier original ou enregistrer dans un nouveau fichier ; ce dernier est plus sûr pendant le développement.
+Une fois les options configurées, l’injection réelle se résume à une seule ligne. Aspose.Pdf gère la pagination, met à jour les flux de contenu existants et respecte automatiquement la rotation des pages.
 
 ```csharp
-// Step 5: Save the PDF with Bates numbers
-pdfDocument.Save("YOUR_DIRECTORY/output.pdf");
+doc.Pages.AddBatesNumbering(batesOptions);
 ```
 
-Lorsque vous ouvrez `output.pdf` dans un visualiseur, vous verrez “INV‑1000”, “INV‑1001”, … en bas à droite de chaque page.
+> **Que se passe-t-il en coulisses ?** La bibliothèque itère sur chaque objet `Page`, crée un `TextFragment` qui intègre le préfixe et le compteur actuel, puis le dessine en utilisant le système de coordonnées de la page. Comme nous avons défini `HorizontalAlignment.Right` et `VerticalAlignment.Bottom`, le texte se place dans le coin inférieur droit quel que soit le format de la page.
 
-### Vérifier le résultat
+---
 
-Ouvrez le PDF dans Adobe Acrobat ou tout autre visualiseur et cherchez les numéros. Si vous devez confirmer programmétiquement, vous pouvez relire l'artefact :
+## Étape 4 – Enregistrer le PDF modifié
+
+Enfin, écrivez le résultat dans un nouveau fichier. Il est possible d’écraser l’original, mais conserver une copie aide à la gestion des versions.
 
 ```csharp
-foreach (var page in pdfDocument.Pages)
-{
-    foreach (var artifact in page.Artifacts)
-    {
-        Console.WriteLine($"Page {page.Number}: {artifact.Text}");
-    }
-}
+doc.Save("YOUR_DIRECTORY/output.pdf");
 ```
 
-Ce fragment affiche l'étiquette Bates de chaque page—pratique pour les tests automatisés.
+Si vous devez préserver les métadonnées originales (auteur, date de création), Aspose.Pdf les copie par défaut. Vous pouvez également spécifier un objet `SaveOptions` pour la conformité PDF/A ou la compression.
 
-## Cas limites & Questions fréquentes
-
-### Que faire si mon PDF possède déjà un pied de page ?
-
-L'ajout d'un artefact n'écrasera pas les pieds de page existants car les artefacts résident dans une couche séparée. Cependant, si le chevauchement visuel pose problème, ajustez la coordonnée `Y` ou augmentez le décalage `X` pour déplacer le numéro Bates.
-
-### Puis-je utiliser une police ou une couleur différente ?
-
-Absolument. Le `BatesNumberingArtifact` hérite de `Artifact`, vous pouvez donc définir `Font`, `FontColor` et même `Opacity`. Exemple :
-
-```csharp
-batesArtifact.Font = FontRepository.FindFont("Arial");
-batesArtifact.FontColor = Color.FromArgb(255, 0, 0); // Red
-```
-
-### Comment réinitialiser le compteur pour un nouveau document ?
-
-Il suffit de modifier `Start` avant d'appeler `AddArtifact`. Si vous générez de nombreux PDF dans une boucle, conservez un compteur dans votre logique d'application.
-
-### Cette approche est‑elle compatible avec les PDF chiffrés ?
-
-Aspose.Pdf peut ouvrir des PDF chiffrés si vous fournissez le mot de passe :
-
-```csharp
-var loadOptions = new LoadOptions { Password = "mySecret" };
-using var pdfDocument = new Document("encrypted.pdf", loadOptions);
-```
-
-Après déchiffrement, les mêmes étapes d'ajout d'artefact fonctionnent parfaitement.
+---
 
 ## Exemple complet fonctionnel
 
-Voici le programme complet, prêt à l'exécution. Copiez‑le dans une application console, ajustez les chemins, et appuyez sur **F5**.
+Voici le programme complet, prêt à être exécuté. Collez‑le dans un projet d’application console, ajustez les chemins de fichiers, et appuyez sur **F5**.
 
 ```csharp
-using System;
-using System.Drawing;               // For Color
 using Aspose.Pdf;
-using Aspose.Pdf.Annotations;
 
 class Program
 {
     static void Main()
     {
-        // Load the source PDF
-        using var pdfDocument = new Document("YOUR_DIRECTORY/input.pdf");
+        // 1️⃣ Load the source PDF
+        using var doc = new Document("YOUR_DIRECTORY/input.pdf");
 
-        // Create the Bates numbering artifact
-        var batesArtifact = new BatesNumberingArtifact
+        // 2️⃣ Configure Bates numbering options
+        var batesOptions = new BatesNumberingOptions
         {
-            Prefix = "INV-",
-            Start = 1000,
-            Format = "0000",
-            X = 500,
-            Y = 20,
-            FontSize = 10,
-            FontColor = Color.Black
+            Prefix = "ABC-",
+            StartNumber = 1000,
+            FontSize = 12,
+            HorizontalAlignment = HorizontalAlignment.Right,
+            VerticalAlignment = VerticalAlignment.Bottom,
+            Margin = new MarginInfo(0, 20, 0, 0)
         };
 
-        // Apply the artifact to every page
-        pdfDocument.Pages.AddArtifact(batesArtifact);
+        // 3️⃣ Apply numbering to every page
+        doc.Pages.AddBatesNumbering(batesOptions);
 
-        // Save the result
-        pdfDocument.Save("YOUR_DIRECTORY/output.pdf");
+        // 4️⃣ Save the output PDF
+        doc.Save("YOUR_DIRECTORY/output.pdf");
 
-        Console.WriteLine("Bates numbering added successfully!");
+        System.Console.WriteLine("Bates numbering added successfully!");
     }
 }
 ```
 
-**Sortie attendue :** La console affiche “Bates numbering added successfully!” et `output.pdf` contient des libellés séquentiels comme `INV‑1000`, `INV‑1001`, etc., positionnés en bas à droite de chaque page.
+**Résultat attendu** : chaque page de `output.pdf` affiche désormais un pied de page tel que `ABC-1000`, `ABC-1001`, … ancré dans le coin inférieur droit. Ouvrez le fichier avec n’importe quel lecteur PDF pour vérifier.
 
-## Récapitulatif rapide
+---
 
-- **Objectif principal :** **add bates numbering pdf** avec Aspose.Pdf.  
-- Nous avons couvert **how to add bates**, **add sequential page numbers**, et **add custom footer pdf** via un seul artefact.  
-- Le tutoriel a montré comment **add artifact to pdf**, gérer les cas limites et vérifier le résultat.  
+## Gestion des variations courantes
 
-## Et après ?
+### Ajouter uniquement des numéros de page en pied de page
 
-- **Préfixes dynamiques :** Récupérez les valeurs depuis une base de données pour générer “CASE‑2023‑001”, “CASE‑2023‑002”, …  
-- **Placement conditionnel :** Utilisez la détection de la taille de page (`page.MediaBox`) pour centrer les numéros sur les pages en mode paysage.  
-- **Combiner avec des filigranes :** Ajoutez un logo semi‑transparent à côté du numéro Bates pour le branding.  
+Si vous avez seulement besoin de numéros de page simples sans préfixe, définissez `Prefix = ""` et ajustez éventuellement la marge pour éviter les collisions avec les pieds de page existants.
 
-Amusez‑vous à expérimenter—peut‑être découvrirez‑vous une façon plus intelligente de traiter par lots des milliers de fichiers. Si vous rencontrez des problèmes, laissez un commentaire ou consultez la documentation officielle d'Aspose (elle est étonnamment claire). Bon codage !  
+```csharp
+batesOptions.Prefix = "";
+batesOptions.StartNumber = 1; // classic page numbering
+```
 
-![exemple d'ajout de numérotation bates pdf](https://example.com/bates-numbering-screenshot.png "Capture d'écran montrant l'ajout de numérotation bates pdf dans un visualiseur PDF")
+### Utiliser un alignement différent
+
+Les documents juridiques exigent parfois que le numéro soit centré en bas. Changez simplement l’alignement :
+
+```csharp
+batesOptions.HorizontalAlignment = HorizontalAlignment.Center;
+```
+
+### Gérer les PDF chiffrés
+
+Lorsque le PDF source est protégé par mot de passe, fournissez le mot de passe comme suit :
+
+```csharp
+using var doc = new Document("secure.pdf", new LoadOptions { Password = "mySecret" });
+```
+
+Le reste du flux de travail reste identique.
+
+### Ignorer les pieds de page existants
+
+Si un document contient déjà un pied de page que vous ne voulez pas écraser, vous pouvez préfixer une chaîne personnalisée qui rend le nouveau numéro distinct, ou parcourir les pages manuellement et ajouter un `TextFragment` uniquement là où le pied de page est absent. La classe `Page` de la bibliothèque expose les collections `Annotations` et `Contents` pour un contrôle granulaire.
+
+---
+
+## Astuces pro & pièges
+
+- **Éviter la coupe** : des marges inférieures très petites peuvent entraîner la coupure du texte à l’impression. Testez avec une impression physique si vous devez distribuer des copies papier.  
+- **Performance** : ajouter des numéros Bates à un PDF de 500 pages prend moins d’une seconde sur un ordinateur portable moderne, mais les gros lots bénéficient d’un traitement parallèle — rappelez‑vous simplement que `Document` n’est pas thread‑safe, chaque thread doit donc disposer de sa propre instance.  
+- **Compatibilité de version** : le code fonctionne avec Aspose.Pdf 23.10 et versions ultérieures. Si vous utilisez une version antérieure, les noms de propriétés sont les mêmes mais le constructeur `MarginInfo` peut nécessiter des arguments `float`.  
+- **Conformité légale** : certaines juridictions exigent que le numéro Bates soit placé à un emplacement précis (par ex., en bas à gauche). Ajustez le `HorizontalAlignment` en conséquence.
+
+---
+
+## Conclusion
+
+Nous venons de démontrer comment **ajouter une numérotation Bates aux fichiers PDF** en utilisant Aspose.Pdf pour .NET, couvrant tout, du chargement du document à l’enregistrement de la version finale avec un pied de page propre. En ajustant quelques propriétés, vous pouvez également **ajouter des numéros de page en pied de page**, **ajouter des numéros séquentiels aux PDF**, ou personnaliser l’apparence pour répondre à n’importe quelle norme juridique.
+
+Prêt pour l’étape suivante ? Essayez de combiner cette technique avec l’extraction OCR de texte pour intégrer des mots‑clés recherchables à côté de vos numéros Bates, ou automatisez le processus pour des dossiers entiers en utilisant `Directory.GetFiles`. Les possibilités sont infinies, et la base que vous avez maintenant rendra ces extensions sans effort.
+
+Bon codage, et que vos PDF soient toujours parfaitement numérotés !
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

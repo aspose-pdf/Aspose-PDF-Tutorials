@@ -1,0 +1,7 @@
+Title: How to Add Watermark PDF – Add Text Overlay PDF with Aspose
+Slug: how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose
+Category: programming-with-stamps-and-watermarks
+ProcessedDate: 2026-07-04T07:28:46.150492
+SourceRepo: AI Search API
+Keywords: how to add watermark pdf, add text overlay pdf, how to use aspose pdf, add custom text pdf
+PRNumber: 100

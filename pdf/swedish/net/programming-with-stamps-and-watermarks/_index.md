@@ -22,6 +22,7 @@ Aspose.PDFs handledningar "Programmering med stämplar och vattenstämplar" för
 | --- | --- | 
 | [Lägg till datum- och tidsstämpel i PDF-fil](./add-date-time-stamp/) Lär dig hur du lägger till en datum- och tidsstämpel i dina PDF-filer med Aspose.PDF för .NET med den här steg-för-steg-guiden. Perfekt för att förbättra dokumentäktheten. |  
 | [Lägg till bildstämpel i PDF-fil](./add-image-stamp/) | Lär dig hur du lägger till en bildstämpel i PDF-filer med Aspose.PDF för .NET med steg-för-steg-vägledning och exempelkod. |  
+| [Lägg till stämpel i PDF – Applicera vattenstämpel på första sidan](./add-stamp-to-pdf-apply-watermark-pdf-on-first-page/) | Lär dig hur du lägger till en stämpel och applicerar en vattenstämpel på den första sidan i en PDF med Aspose.PDF för .NET. |
 | [Lägga till olika rubriker i PDF-fil](./adding-different-headers/) | Lär dig hur du lägger till olika rubriker i PDF-filer med Aspose.PDF för .NET. Steg-för-steg-guide för att anpassa dina PDF-filer. |  
 | [Lägg till PDF-sidstämpel i PDF-fil](./add-pdf-page-stamp/) | Lär dig hur du lägger till en PDF-sidstämpel med Aspose.PDF för .NET med den här detaljerade guiden. Öka dina PDF-dokuments effekt. |  
 | [Lägg till textstämpel i PDF-fil](./add-text-stamp/) | Lär dig hur du lägger till en textstämpel i en PDF-fil med Aspose.PDF för .NET med vår steg-för-steg-guide och höjer dina dokumentpresentationer. |  
@@ -36,10 +37,19 @@ Aspose.PDFs handledningar "Programmering med stämplar och vattenstämplar" för
 | [Bild i sidhuvud](./image-in-header/) | Lär dig hur du lägger till en bild i sidhuvudet på en PDF med Aspose.PDF för .NET i den här steg-för-steg-handledningen. |  
 | [Sidnummer i sidhuvudsfot med flytande ruta](./page-number-in-header-footer-using-floating-box/) | Lägg enkelt till sidnummer i ditt PDF-sidhuvud och -sidfot med hjälp av en flytande ruta med Aspose.PDF för .NET i den här steg-för-steg-handledningen. |  
 | [Sidnummerstämplar i PDF-fil](./page-number-stamps/) Lär dig hur du lägger till sidnummerstämplar i PDF-filer med Aspose.PDF för .NET genom vår lättförståeliga guide, komplett med kodexempel. |  
-| [Lägg till Bates-numrering i PDF – Komplett C#-guide](./add-bates-numbering-pdf-complete-c-guide/) | Lär dig hur du lägger till Bates-numrering i PDF-filer med Aspose.PDF för .NET i en komplett C#-guide. |
 | [Tabell i sidhuvuds- och sidfotssektionen](./table-in-header-footer-section/) | Lär dig hur du enkelt lägger till text i sidfoten på en PDF-fil med Aspose.PDF för .NET. Steg-för-steg-guide ingår för sömlös integration. |  
 | [Text i sidfoten på PDF-filen](./text-in-footer/) | Lär dig hur du lägger till text i sidfoten på en PDF-fil med Aspose.PDF för .NET. |  
 | [Text i sidhuvudet på PDF-filen](./text-in-header/) | Lär dig lägga till textrubriker i PDF-filer med Aspose.PDF för .NET med den här steg-för-steg-handledningen. Förbättra dina dokument effektivt och ändamålsenligt. |  
+| [Bates-numreringshandledning: Lägg till Bates-nummer i PDF-filer med C#](./bates-numbering-tutorial-add-bates-numbers-to-pdfs-with-c/) Lär dig hur du lägger till Bates-nummer i PDF-filer med C# och Aspose.PDF för .NET. |  
+| [Ändra PDF-opacitet i C# – Komplett Aspose-guide](./change-pdf-opacity-in-c-complete-aspose-guide/) | Lär dig hur du ändrar genomskinligheten i PDF-dokument med Aspose.PDF för .NET i C# i denna kompletta guide. |  
+| [Lägg till Bates-nummerering i PDF – Komplett C#-guide](./add-bates-numbering-pdf-complete-c-guide/) | Lär dig hur du lägger till Bates-nummerering i PDF-filer med Aspose.PDF för .NET i C# med en steg-för-steg-guide. |
+| [Lägg till Bates-nummerering i PDF i C# – Komplett guide](./add-bates-numbering-pdf-in-c-complete-guide/) | Lär dig hur du lägger till Bates-nummerering i PDF-filer med Aspose.PDF för .NET i C# med en steg-för-steg-guide. |
+| [Hur man lägger till Bates – Steg‑för‑steg‑guide för PDF-filer](./how-to-add-bates-step-by-step-guide-for-pdfs/) | Lär dig hur du lägger till Bates‑nummer i PDF-filer med Aspose.PDF för .NET i en enkel steg‑för‑steg‑guide. |  
+| [Ändra PDF-opacitet med Aspose.PDF – Fullständig C#-guide](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) | Lär dig hur du ändrar genomskinligheten i PDF-filer med Aspose.PDF för .NET i en komplett C#-guide. |  
+| [Konfidentiell vattenstämpel PDF med Aspose: Lägg till en textstämpel på första sidan](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) | Lär dig hur du lägger till en textstämpel på första sidan för konfidentiell vattenstämpel med Aspose.PDF för .NET. |  
+| [Spara PDF — Lägg till Bates-nummerering med Aspose.Pdf](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) | Lär dig hur du sparar en PDF och lägger till Bates-nummerering med Aspose.PDF för .NET i en steg-för-steg-guide. |  
+| [Skapa PDF-vattenstämpel – Lägg till stämpel & konvertera DOCX till PDF](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) | Lär dig hur du skapar en vattenstämpel, lägger till en stämpel och konverterar DOCX-filer till PDF med Aspose.PDF för .NET. |  
+| [Skapa PDF-dokument med Bates-nummerering i C# – Fullständig guide](./create-pdf-document-with-bates-numbering-in-c-full-guide/) | Lär dig hur du skapar PDF-dokument med Bates-nummerering i C# med Aspose.PDF för .NET i en detaljerad steg-för-steg-guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

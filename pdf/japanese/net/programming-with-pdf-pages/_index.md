@@ -37,7 +37,9 @@ Aspose.PDF for .NET の「PDF ページを使ったプログラミング」ド�
 | [ページに分割](./split-to-pages/) この包括的なチュートリアルでは、Aspose.PDF for .NET を使用して PDF を簡単に個別のページに分割できます。ステップバイステップのガイドも含まれています。 |  
 | [PDFページサイズの更新](./update-dimensions/) この包括的なステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF ページのサイズを簡単に更新する方法を説明します。 |  
 | [PDFファイルのページコンテンツにズーム](./zoom-to-page-contents/) この包括的なガイドでは、Aspose.PDF for .NET を使用して PDF ファイルのページコンテンツを拡大する方法を学習します。特定のニーズに合わせて PDF ドキュメントを強化しましょう。 |  
-| [C# で PDF にページ番号を追加 – 完全ステップバイステップガイド](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) Aspose.PDF for .NET を使用して、C# で PDF にページ番号を追加する手順をステップバイステップで解説します。 |  
+| [C# で PDF にページ番号を追加 – 完全ステップバイステップガイド](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) Aspose.PDF for .NET を使用して、C# で PDF にページ番号を追加する手順をステップバイステップで解説します。 |
+| [C# で PDF ドキュメントを作成 – ベーツ番号を追加](./create-pdf-document-c-add-bates-numbering/) Aspose.PDF for .NET を使用して、PDF ドキュメントにベーツ番号を追加する手順をステップバイステップで解説します。 |
+| [Bates番号付与PDF – PDFページに番号を付けるステップバイステップガイド](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) Aspose.PDF for .NET を使用して、PDF に Bates 番号を追加し、ページにシリアル番号を付与する手順をステップバイステップで解説します。 |  
 | [C# で PDF ドキュメントを作成 – シェイプと空白ページの追加ガイド](./create-pdf-document-c-add-shapes-blank-pages-guide/) Aspose.PDF for .NET を使用して、C# で PDF にシェイプや空白ページを追加する方法をステップバイステップで解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -47,3 +49,23 @@ Aspose.PDF for .NET の「PDF ページを使ったプログラミング」ド�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [空白ページを挿入してベーツ番号を更新する](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) Aspose.PDF for .NET を使用して、PDF に空白ページを挿入し、ベーツ番号を更新する手順をステップバイステップで解説します。 |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+| [空白 PDF ページの作成 – 完全 PDF 描画チュートリアル](./create-blank-pdf-page-full-pdf-drawing-tutorial/) Aspose.PDF for .NET を使用して、空白の PDF ページを作成し、フル描画機能を活用する手順をステップバイステップで解説します。 |  
+| [Aspose を使用して PDF にページを追加 – 完全な C# ガイド](./add-pages-to-pdf-with-aspose-complete-c-guide/) Aspose.PDF for .NET を使い、C# で PDF に新しいページを追加する手順をステップバイステップで解説します。 |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+
