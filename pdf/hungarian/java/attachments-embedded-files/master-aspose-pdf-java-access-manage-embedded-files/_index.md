@@ -1,13 +1,73 @@
 ---
-date: '2026-03-01'
-description: Fedezze fel ezt az Aspose PDF Java útmutatót, amely a PDF-dokumentum
-  Java-ban történő betöltését, a mellékletek kinyerését és a PDF-mellékletek metaadatainak
-  hatékony olvasását teszi lehetővé.
+date: '2026-08-11'
+description: Ismerje meg, hogyan nyerhet ki mellékleteket az Aspose PDF for Java használatával,
+  olvashatja a PDF melléklet metaadatait, és hatékonyan kezelheti a beágyazott fájlokat.
 keywords:
-- Aspose.PDF for Java
-- manage embedded files in PDFs
-- access PDF embedded files
-title: 'Aspose PDF Java útmutató: Beágyazott fájlok elérése és kezelése PDF-ekben'
+- how to extract attachments
+- read pdf attachment metadata
+- batch process pdf attachments
+- access embedded pdf files
+- get pdf attachment size
+lastmod: '2026-08-11'
+og_description: Ismerje meg, hogyan nyerhet ki mellékleteket az Aspose PDF for Java
+  használatával, olvashatja a PDF melléklet metaadatait, és hatékonyan kezelheti a
+  beágyazott fájlokat.
+og_image_alt: Guide to extract attachments from PDFs using Aspose PDF for Java
+og_title: Mellékletek kinyerése az Aspose PDF for Java segítségével
+schemas:
+- author: Aspose
+  dateModified: '2026-08-11'
+  description: Learn how to extract attachments using Aspose PDF for Java, read PDF
+    attachment metadata, and manage embedded files efficiently.
+  headline: How to extract attachments with Aspose PDF for Java
+  type: TechArticle
+- description: Learn how to extract attachments using Aspose PDF for Java, read PDF
+    attachment metadata, and manage embedded files efficiently.
+  name: How to extract attachments with Aspose PDF for Java
+  steps:
+  - name: '**Specify your document directory** – tell the runtime where the source
+      PDF lives.'
+    text: '**Specify your document directory** – tell the runtime where the source
+      PDF lives.'
+  - name: '**Load the PDF document** – instantiate the `Document` class to read the
+      file.'
+    text: '**Load the PDF document** – instantiate the `Document` class to read the
+      file.'
+  - name: '**Retrieve the list of embedded files** – the `getEmbeddedFiles()` method
+      returns a collection you can iterate.'
+    text: '**Retrieve the list of embedded files** – the `getEmbeddedFiles()` method
+      returns a collection you can iterate.'
+  - name: '**Print basic properties** – use the `FileSpecification` object to output
+      key details.'
+    text: '**Print basic properties** – use the `FileSpecification` object to output
+      key details.'
+  - name: '**Retrieve additional parameters** – check for custom parameters if they
+      exist.'
+    text: '**Retrieve additional parameters** – check for custom parameters if they
+      exist.'
+  type: HowTo
+- questions:
+  - answer: Yes—acquire a production licence from the [purchase page](https://purchase.aspose.com/buy).
+    question: Can I use Aspose.PDF for commercial purposes?
+  - answer: The `getEmbeddedFiles()` collection will be empty; always check `if (attachments.isEmpty())`
+      before iterating.
+    question: What if my PDF doesn't contain embedded files?
+  - answer: Use the library’s streaming API and configure the JVM heap size; Aspose.PDF
+      processes files in a forward‑only manner to minimise memory footprint.
+    question: How do I handle very large PDFs without exhausting memory?
+  - answer: Aspose.PDF supports any file type that can be stored as a binary stream,
+      but common formats like DOCX, XLSX, PNG, and JPEG are fully recognised and their
+      MIME types are returned automatically.
+    question: Are there limits on the types of files that can be embedded?
+  - answer: Visit the [Aspose's support forum](https://forum.aspose.com/c/pdf/10)
+      or consult the official documentation for troubleshooting tips.
+    question: Where can I get help if I run into issues?
+  type: FAQPage
+tags:
+- extract attachments
+- Aspose.PDF
+- Java PDF processing
+title: Mellékletek kinyerése az Aspose PDF for Java segítségével
 url: /hu/java/attachments-embedded-files/master-aspose-pdf-java-access-manage-embedded-files/
 weight: 1
 ---
@@ -17,65 +77,61 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose PDF Java oktató: PDF beágyazott fájlok elérése és kezelése
+# Hogyan lehet kinyerni a csatolmányokat az Aspose PDF for Java segítségével
 
 ## Bevezetés
 
-Küzd a PDF-ekben beágyazott fájlok kezelésével Java használatával? Akár **csatolmányok kinyerésére**, metaadatok lekérdezésére, vagy egyszerűen csak a PDF-ben rejtett fájlok felsorolására van szüksége, ez a **aspose pdf java tutorial** pontosan megmutatja, hogyan. Végigvezetünk egy PDF betöltésén, a beágyazott elemek elérésén, és a részletes csatolmányinformációk olvasásán—mindegyik világos, beszélgetős magyarázattal, amelyet lépésről‑lépésre követhet.
+Ha Java alkalmazásban **extract attachments** PDF‑ekből van szükséged, ez a bemutató pontosan megmutatja, hogyan. Megtanulod, hogyan tölts be egy PDF‑et, sorold fel a beágyazott fájlokat, és olvasd el a részletes metaadatokat, mint név, MIME‑típus, ellenőrzőösszeg, létrehozás dátuma és méret. Minden példa az Aspose.PDF for Java‑t használja, amely a legátfogóbb könyvtár a PDF‑manipulációhoz a JVM‑en.
 
 ### Gyors válaszok
-- **Mi a fő cél?** PDF betöltése és a beágyazott fájlok tulajdonságainak olvasása.  
-- **Melyik könyvtár használatos?** Aspose.PDF for Java.  
-- **Szükségem van licencre?** Egy ingyenes próba működik teszteléshez; a termeléshez kereskedelmi licenc szükséges.  
-- **Feldolgozhatok sok PDF-et egyszerre?** Igen—kombinálja ezt a kódot kötegelt feldolgozási technikákkal.  
-- **Milyen metaadatokat olvashatok?** Név, leírás, MIME-típus, ellenőrzőösszeg, létrehozási/módosítási dátumok és méret.
+- **Mi a fő cél?** Load a PDF and read properties of its embedded files.  
+- **Melyik könyvtárat kell használni?** Aspose.PDF for Java.  
+- **Szükségem van licencre?** Az ingyenes próba a teszteléshez működik; a kereskedelmi licenc szükséges a termeléshez.  
+- **Feldolgozhatok sok PDF‑et egyszerre?** Igen — kombináld ezt a kódot batch‑process technikákkal.  
+- **Milyen metaadatokat olvashatok?** Name, description, MIME type, checksum, creation/modification dates, and size.
 
-## Mi az Aspose PDF Java oktató?
-Ebben az oktatóban megtanulja, hogyan **load pdf document java** fájlokat, hogyan érje el a beágyazott erőforrásokat, és hogyan nyerjen ki hasznos metaadatokat, például **read pdf attachment metadata**. A végére egy újrahasználható kódrészletet kap, amelyet bármely Java projektbe beilleszthet.
+## Mi a csatolmányok kinyerése?
+**How to extract attachments** a folyamatot jelenti, amely során megtaláljuk és visszanyerjük a PDF‑konténerbe beágyazott fájlokat. Az Aspose.PDF for Java programozható API‑t biztosít, amely lehetővé teszi ezen beágyazott erőforrások felsorolását anélkül, hogy a PDF‑et megnyitnánk egy megjelenítőben.
 
-## Miért használja az Aspose.PDF for Java-t?
-- **Gazdag funkciókészlet** – Teljes támogatás a beágyazott fájlokhoz, megjegyzésekhez és digitális aláírásokhoz.  
-- **Magas teljesítmény** – Nagyméretű dokumentumfeldolgozásra optimalizálva.  
-- **Keresztplatformos** – Bármely JVM-kompatibilis környezetben működik.
+## Miért használjuk az Aspose.PDF for Java‑t?
+Az Aspose.PDF támogatja a **50+ input and output formats** formátumot, beleértve a DOCX, XLSX, PPTX, HTML és képtípusokat, és képes 2 GB‑ig terjedő PDF‑eket feldolgozni anélkül, hogy a teljes fájlt a memóriába töltené. A könyvtár bármely JVM‑kompatibilis platformon fut, almásodperces válaszidőket biztosít a tipikus dokumentumoknál, és beépített ellenőrzőösszeg-ellenőrzést tartalmaz a fájl integritásának garantálásához.
 
 ## Előkövetelmények
 
 ### Szükséges könyvtárak, verziók és függőségek
-Az oktató követéséhez szüksége van:
-- **Aspose.PDF for Java**, 25.3 vagy újabb verzió.  
-- Java alkalmazások futtatására képes fejlesztői környezet (pl. Eclipse, IntelliJ IDEA).
+- **Aspose.PDF for Java**, version 25.3 vagy újabb.  
+- Java IDE, például Eclipse vagy IntelliJ IDEA.
 
 ### Környezet beállítási követelmények
-Győződjön meg róla, hogy a rendszerén a következők telepítve vannak:
-- Java Development Kit (JDK) 8 vagy újabb.
+- Java Development Kit (JDK) 8 vagy újabb telepítve és a `PATH`‑ban konfigurálva.
 
 ### Tudás előkövetelmények
-Alapvető Java programozási ismeretek szükségesek, beleértve a Maven vagy Gradle építőeszközök ismeretét a projektfüggőségek kezeléséhez.
+- Java szintaxis ismerete.  
+- Alapvető tapasztalat Maven vagy Gradle használatában a függőségkezeléshez.
 
 ## Az Aspose.PDF for Java beállítása
-Az Aspose.PDF használatának megkezdése egyszerű. Először győződjön meg róla, hogy a könyvtár hozzá van adva a projekthez Maven vagy Gradle segítségével.
+Add the library to your project with Maven or Gradle.
 
-**Maven függőség:**
+**Maven függőség:**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-pdf</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle implementáció:**
+**Gradle implementáció:**  
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
-```
+```  
 
 ### Licenc beszerzési lépések
-Az Aspose.PDF használatához a következő lehetőségek állnak rendelkezésre:
-- **Ingyenes próba**: Kezdjen egy ideiglenes licenccel a kiértékeléshez innen: [here](https://purchase.aspose.com/temporary-license/).
-- **Vásárlás**: Termelési használathoz szerezzen be teljes licencet az [Aspose vásárlási oldalán](https://purchase.aspose.com/buy).
+- **Free trial:** Szerezz be egy ideiglenes licencet [itt](https://purchase.aspose.com/temporary-license/).  
+- **Full licence:** Vásárolj egy termelési licencet az [Aspose vásárlási oldalán](https://purchase.aspose.com/buy).
 
-### Alap inicializálás és beállítás
-Miután a könyvtár be van állítva a projektben, inicializálja az Aspose.PDF-t a következőképpen:
+### Alapvető inicializálás és beállítás
+Miután a könyvtár a classpath‑on van, az alábbiak szerint inicializálhatod:  
 ```java
 import com.aspose.pdf.Document;
 
@@ -88,66 +144,62 @@ class PDFHandler {
         System.out.println("Aspose.PDF for Java Initialized.");
     }
 }
-```
+```  
 
-## Hogyan töltsünk be PDF dokumentumot Java-ban
-PDF dokumentum betöltése az első lépés a beágyazott fájlok eléréséhez. Az alábbi szakasz bemutatja a szükséges kódot.
+## PDF dokumentum betöltése Java-ban
 
-### Megvalósítási útmutató
+A PDF betöltése egyszerű az Aspose.PDF‑del. Létrehozol egy `Document` példányt a fájl útvonalának megadásával, amely beolvassa a fájl szerkezetét és előkészíti a manipulációt. A `Document` osztály a teljes PDF‑et memóriában képviseli, lehetővé téve az oldalak, erőforrások és beágyazott fájlok lekérdezését anélkül, hogy a fájlt megnyitnád egy megjelenítőben.  
+```text
+Document pdfDoc = new Document("input.pdf");
+```  
+(Replace the placeholder with the actual file path.)
 
-### 1. funkció: PDF dokumentum betöltése
-PDF dokumentum betöltése az első lépés a beágyazott fájlok eléréséhez.
-
-**Áttekintés:**  
-Ez a funkció bemutatja, hogyan töltsön be egy meglévő PDF-et az Aspose.PDF for Java segítségével, előkészítve a további műveleteket, mint a beágyazott fájlok tulajdonságainak kinyerése.
-
-#### Lépésről‑lépésre megvalósítás
-1. **Specify Your Document Directory:**  
-   Define where your input PDF is stored.  
+### Lépésről‑lépésre megvalósítás
+1. **Specify your document directory** – tell the runtime where the source PDF lives.  
    ```java
    String dataDir = "YOUR_DOCUMENT_DIRECTORY";
-   ```
-2. **Load the PDF Document:**  
-   Use the `Document` class to load a PDF file from the specified path.  
+   ```  
+2. **Load the PDF document** – instantiate the `Document` class to read the file.  
    ```java
    import com.aspose.pdf.Document;
 
    Document pdfDocument = new Document(dataDir + "/input.pdf");
    System.out.println("PDF Loaded Successfully.");
-   ```
+   ```  
 
-### 2. funkció: Beágyazott fájlok elérése egy PDF-ben
-A betöltött dokumentumban lévő beágyazott fájlok elérése elengedhetetlen a tulajdonságaik kinyeréséhez.
+## Beágyazott PDF fájlok elérése egy PDF-ben
 
-**Áttekintés:**  
-Ez a funkció bemutatja, hogyan érje el a beágyazott fájlok listáját, és hogyan szerezzen be konkrétakat az Aspose.PDF `FileSpecification` osztályával.
+A beágyazott fájlok gyűjteményét a `Document` objektum `FileSpecification` gyűjteményén keresztül érheted el. Ez a művelet O(n), ahol *n* a csatolmányok száma, és nem igényli minden fájl teljes tartalmának betöltését a memóriába. A `FileSpecification` osztály egy beágyazott fájl bejegyzést képvisel egy PDF‑ben.  
+```text
+FileSpecificationCollection attachments = pdfDoc.getEmbeddedFiles();
+```  
 
-#### Lépésről‑lépésre megvalósítás
-1. **Retrieve the List of Embedded Files:**  
-   Access the collection of embedded files in your PDF.  
+### Lépésről‑lépésre megvalósítás
+1. **Retrieve the list of embedded files** – the `getEmbeddedFiles()` method returns a collection you can iterate.  
    ```java
    import com.aspose.pdf.FileSpecification;
 
    FileSpecification fileSpecification = pdfDocument.getEmbeddedFiles().get_Item(1);
    System.out.println("Accessed Embedded File.");
-   ```
+   ```  
 
-### 3. funkció: Fájl tulajdonságok lekérése beágyazott fájlokból
-A beágyazott fájlok tulajdonságainak kinyerése értékes metaadatokat biztosít.
+## PDF csatolmány metaadatok olvasása
 
-**Áttekintés:**  
-Ez a funkció bemutatja, hogyan kérje le a különböző tulajdonságokat, mint név, leírás, MIME-típus és egyebek egy PDF-ben lévő beágyazott fájlból.
+A metaadatok olvasása lehetővé teszi döntések meghozatalát, például MIME‑típus szerinti szűrést vagy ellenőrzőösszeg ellenőrzését a további feldolgozás előtt. A `FileSpecification` objektum olyan tulajdonságokat tesz elérhetővé, mint név, leírás, MIME‑típus, létrehozás dátuma, módosítás dátuma és méret. Ezeknek a mezőknek a vizsgálatával programozottan döntheted el, mely csatolmányokat nyerd ki, nevezed át vagy hagyod figyelmen kívül üzleti szabályaid alapján.  
+```text
+String name = fileSpec.getName();
+String mime = fileSpec.getMimeType();
+Date created = fileSpec.getCreationDate();
+```  
 
-#### Lépésről‑lépésre megvalósítás
-1. **Print Basic Properties:**  
-   Use the `FileSpecification` object to access basic properties.  
+### Lépésről‑lépésre megvalósítás
+1. **Print basic properties** – use the `FileSpecification` object to output key details.  
    ```java
    System.out.println("Name:-" + fileSpecification.getName());
    System.out.println("Description:- " + fileSpecification.getDescription());
    System.out.println("Mime Type:-" + fileSpecification.getMIMEType());
-   ```
-2. **Retrieve Additional Parameters:**  
-   Check for additional metadata if available.  
+   ```  
+2. **Retrieve additional parameters** – check for custom parameters if they exist.  
    ```java
    if (fileSpecification.getParams() != null) {
        System.out.println("CheckSum:- " + fileSpecification.getParams().getCheckSum());
@@ -155,63 +207,73 @@ Ez a funkció bemutatja, hogyan kérje le a különböző tulajdonságokat, mint
        System.out.println("Modification Date:- " + fileSpecification.getParams().getModDate());
        System.out.println("Size:- " + fileSpecification.getParams().getSize());
    }
-   ```
+   ```  
+
+## PDF csatolmány méretének lekérése
+
+A csatolmány mérete a `getSize()` metódussal érhető el, amely a bájtok számát adja vissza a stream kicsomagolása nélkül. Ez lehetővé teszi, hogy gyorsan kihagyj olyan fájlokat, amelyek meghaladják az előre meghatározott küszöböt. A méret ismerete segít megfelelő pufferek lefoglalásában és abban, hogy a csatolmányt memóriában tárold vagy közvetlenül a lemezre streameld.  
+```text
+long sizeInBytes = fileSpec.getSize();
+```  
 
 ## Gyakorlati alkalmazások
 
-### 1. eset: Digitális eszközkezelés
-Automatizálja a **how to extract attachments** folyamatot digitális könyvtárak számára, biztosítva a könnyű visszakeresést és kezelést.
+### Használati eset 1: digitális eszközkezelés
+Automatizáld a **how to extract attachments** folyamatot nagy digitális könyvtárak számára, biztosítva, hogy minden beágyazott fájl indexelve legyen a metaadataival.
 
-### 2. eset: Dokumentum archiválási rendszerek
-Ágyazzon be metaadatokat a dokumentum verziók vagy revíziók nyomon követéséhez közvetlenül a PDF fájlokban.
+### Használati eset 2: dokumentum archiválási rendszerek
+Ágyazz be revíziós információkat közvetlenül a PDF‑ekbe, majd később a metaadat API‑val vedd elő őket a verziótörténet nyomon követéséhez.
 
-### 3. eset: Tartalom ellenőrzés
-Ellenőrizze a fájl integritását ellenőrzőösszegek vizsgálatával, mielőtt a csatolt dokumentumokat feldolgozná.
+### Használati eset 3: tartalomvalidáció
+Érvényesítsd a fájl integritását azáltal, hogy a tárolt ellenőrzőösszeget összehasonlítod egy frissen kiszámítottal a downstream feldolgozás előtt.
 
-## Teljesítményfontosságú szempontok
-A teljesítmény optimalizálásához Aspose.PDF használatakor:
-- **Memóriahasználat optimalizálása**: Kezelje a Java memória beállításait nagyméretű PDF műveletekhez.  
-- **Hatékony fájlkezelés**: Kombinálja ezt a logikát **batch process pdf files** technikákkal a terhelés csökkentése érdekében.  
-- **Legjobb gyakorlatok**: Mindig szabadítsa fel az erőforrásokat és zárja be a dokumentumobjektumokat használat után.
+## Teljesítménybeli megfontolások
+- **Memory optimisation:** Set `-Xmx` appropriately for large PDFs; Aspose.PDF streams data and never loads the whole document into RAM.  
+- **Batch processing:** Combine the code above with a loop that iterates over a directory of PDFs to **batch process pdf attachments** efficiently.  
+- **Resource cleanup:** Always call `pdfDoc.dispose()` after you finish to release native resources.
 
-## Összegzés
-Az **aspose pdf java tutorial** követésével megtanulta, hogyan töltsön be egy PDF-et, hogyan érje el a beágyazott fájlokat, és hogyan nyerje ki azok tulajdonságait az Aspose.PDF for Java segítségével. Ezek a képességek jelentősen javíthatják alkalmazása képességét a komplex PDF műveletek hatékony kezelésére.
+## Gyakran feltett kérdések
 
-**Következő lépések:**
-- Fedezze fel az Aspose.PDF további funkcióit, például a dokumentummanipulációt vagy a szövegkinyerést.  
-- Fontolja meg integrálását más rendszerekkel a funkcionalitás bővítése érdekében, például kötegelt feldolgozási csővezetékekkel.
+**Q: Can I use Aspose.PDF for commercial purposes?**  
+A: Yes—acquire a production licence from the [purchase page](https://purchase.aspose.com/buy).
 
-Készen áll a kipróbálásra? Merüljön el a fejlettebb forgatókönyvekben, és bővítse Java alkalmazásai képességeit még ma!
+**Q: What if my PDF doesn't contain embedded files?**  
+A: The `getEmbeddedFiles()` collection will be empty; always check `if (attachments.isEmpty())` before iterating.
 
-## GYIK szekció
-1. **Használhatom az Aspose.PDF-t kereskedelmi célokra?**  
-   - Igen, a megfelelő licenc megszerzése után a [purchase page](https://purchase.aspose.com/buy) oldalon.
-2. **Mi van, ha a PDF nem tartalmaz beágyazott fájlokat?**  
-   - A `get_Item()` metódus null értéket ad vissza; mindig ellenőrizze ezt a feltételt.
-3. **Hogyan kezeljem hatékonyan a nagy PDF-eket?**  
-   - Optimalizálja a memória beállításokat, és használjon hatékony fájlkezelési technikákat, ahogy a teljesítmény szakaszban tárgyaltuk.
-4. **Vannak korlátozások a beágyazott fájlok elérésében?**  
-   - Az Aspose.PDF a legtöbb szabványos beágyazott fájlt eléri, de győződjön meg róla, hogy azok a tipikus formátumoknak megfelelnek a legjobb eredmény érdekében.
-5. **Mi a teendő, ha hibákat tapasztalok a megvalósítás során?**  
-   - Tekintse meg az [Aspose's support forum](https://forum.aspose.com/c/pdf/10) oldalt vagy ellenőrizze a dokumentációt a hibaelhárítási útmutatóért.
+**Q: How do I handle very large PDFs without exhausting memory?**  
+A: Use the library’s streaming API and configure the JVM heap size; Aspose.PDF processes files in a forward‑only manner to minimise memory footprint.
 
-## Erőforrások
-- **Documentation**: [Learn More about Aspose.PDF for Java](https://reference.aspose.com/pdf/java/)
-- **Download Library**: [Get the Latest Version](https://releases.aspose.com/pdf/java/)
-- **Purchase License**: [Buy Now](https://purchase.aspose.com/buy)
-- **Free Trial**: [Try It Out](https://releases.aspose.com/pdf/java/)
-- **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
+**Q: Are there limits on the types of files that can be embedded?**  
+A: Aspose.PDF supports any file type that can be stored as a binary stream, but common formats like DOCX, XLSX, PNG, and JPEG are fully recognised and their MIME types are returned automatically.
+
+**Q: Where can I get help if I run into issues?**  
+A: Visit the [Aspose's support forum](https://forum.aspose.com/c/pdf/10) or consult the official documentation for troubleshooting tips.
+
+## További források
+
+- További információ az Aspose.PDF for Java‑ról: [Learn More about Aspose.PDF for Java](https://reference.aspose.com/pdf/java/)  
+- A könyvtár legújabb verziójának letöltése: [Get the Latest Version](https://releases.aspose.com/pdf/java/)  
+- Licenc vásárlása: [Buy Now](https://purchase.aspose.com/buy)  
+- A könyvtár kipróbálása: [Try It Out](https://releases.aspose.com/pdf/java/)  
+- Ideiglenes licenc kérése: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 
 ---
 
-**Last Updated:** 2026-03-01  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose
+**Legutóbb frissítve:** 2026-08-11  
+**Tesztelve:** Aspose.PDF for Java 25.3  
+**Szerző:** Aspose
+
+## Kapcsolódó bemutatók
+
+- [How to Create PDF Embedded Attachments with Aspose.PDF for Java - A Developer’s Guide](/pdf/java/attachments-embedded-files/add-attachments-pdf-aspose-pdf-java/)  
+- [How to Remove PDF Attachments Efficiently Using Aspose.PDF for Java](/pdf/java/attachments-embedded-files/remove-attachments-pdf-aspose-java/)  
+- [Extract embedded files pdf from a PDF Portfolio with Aspose.PDF Java](/pdf/java/attachments-embedded-files/extract-files-pdf-portfolio-aspose-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}

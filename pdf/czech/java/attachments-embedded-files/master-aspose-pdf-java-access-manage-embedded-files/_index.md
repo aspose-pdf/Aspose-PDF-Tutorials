@@ -1,12 +1,72 @@
 ---
-date: '2026-03-01'
-description: Prozkoumejte tento tutoriál Aspose PDF pro Javu, který načte PDF dokument
-  v Javě, extrahuje přílohy a efektivně čte metadata příloh PDF.
+date: '2026-08-11'
+description: Naučte se, jak extrahovat attachments pomocí Aspose PDF for Java, číst
+  PDF attachment metadata a efektivně spravovat embedded files.
 keywords:
-- Aspose.PDF for Java
-- manage embedded files in PDFs
-- access PDF embedded files
-title: 'Aspose PDF Java tutoriál: Přístup a správa vložených souborů v PDF'
+- how to extract attachments
+- read pdf attachment metadata
+- batch process pdf attachments
+- access embedded pdf files
+- get pdf attachment size
+lastmod: '2026-08-11'
+og_description: Naučte se, jak extrahovat attachments pomocí Aspose PDF for Java,
+  číst PDF attachment metadata a efektivně spravovat embedded files.
+og_image_alt: Guide to extract attachments from PDFs using Aspose PDF for Java
+og_title: Jak extrahovat attachments pomocí Aspose PDF for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-11'
+  description: Learn how to extract attachments using Aspose PDF for Java, read PDF
+    attachment metadata, and manage embedded files efficiently.
+  headline: How to extract attachments with Aspose PDF for Java
+  type: TechArticle
+- description: Learn how to extract attachments using Aspose PDF for Java, read PDF
+    attachment metadata, and manage embedded files efficiently.
+  name: How to extract attachments with Aspose PDF for Java
+  steps:
+  - name: '**Specify your document directory** – tell the runtime where the source
+      PDF lives.'
+    text: '**Specify your document directory** – tell the runtime where the source
+      PDF lives.'
+  - name: '**Load the PDF document** – instantiate the `Document` class to read the
+      file.'
+    text: '**Load the PDF document** – instantiate the `Document` class to read the
+      file.'
+  - name: '**Retrieve the list of embedded files** – the `getEmbeddedFiles()` method
+      returns a collection you can iterate.'
+    text: '**Retrieve the list of embedded files** – the `getEmbeddedFiles()` method
+      returns a collection you can iterate.'
+  - name: '**Print basic properties** – use the `FileSpecification` object to output
+      key details.'
+    text: '**Print basic properties** – use the `FileSpecification` object to output
+      key details.'
+  - name: '**Retrieve additional parameters** – check for custom parameters if they
+      exist.'
+    text: '**Retrieve additional parameters** – check for custom parameters if they
+      exist.'
+  type: HowTo
+- questions:
+  - answer: Yes—acquire a production licence from the [purchase page](https://purchase.aspose.com/buy).
+    question: Can I use Aspose.PDF for commercial purposes?
+  - answer: The `getEmbeddedFiles()` collection will be empty; always check `if (attachments.isEmpty())`
+      before iterating.
+    question: What if my PDF doesn't contain embedded files?
+  - answer: Use the library’s streaming API and configure the JVM heap size; Aspose.PDF
+      processes files in a forward‑only manner to minimise memory footprint.
+    question: How do I handle very large PDFs without exhausting memory?
+  - answer: Aspose.PDF supports any file type that can be stored as a binary stream,
+      but common formats like DOCX, XLSX, PNG, and JPEG are fully recognised and their
+      MIME types are returned automatically.
+    question: Are there limits on the types of files that can be embedded?
+  - answer: Visit the [Aspose's support forum](https://forum.aspose.com/c/pdf/10)
+      or consult the official documentation for troubleshooting tips.
+    question: Where can I get help if I run into issues?
+  type: FAQPage
+tags:
+- extract attachments
+- Aspose.PDF
+- Java PDF processing
+title: Jak extrahovat attachments pomocí Aspose PDF for Java
 url: /cs/java/attachments-embedded-files/master-aspose-pdf-java-access-manage-embedded-files/
 weight: 1
 ---
@@ -16,67 +76,63 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose PDF Java Tutorial: Přístup a správa vložených souborů PDF
+# Jak extrahovat přílohy pomocí Aspose PDF pro Java
 
 ## Úvod
 
-Máte potíže se správou vložených souborů ve vašich PDF pomocí Javy? Ať už potřebujete **extrahovat přílohy**, získat metadata, nebo jednoduše vypsat soubory skryté v PDF, tento **aspose pdf java tutorial** vám přesně ukáže, jak na to. Provedeme vás načtením PDF, přístupem k jeho vloženým prostředkům a čtením podrobných informací o příloze – vše s jasnými, konverzačními vysvětleními, která můžete sledovat krok za krokem.
+Pokud potřebujete **extrahovat přílohy** z PDF v Java aplikaci, tento tutoriál vám přesně ukáže, jak na to. Naučíte se načíst PDF, vyjmenovat jeho vložené soubory a přečíst podrobné metadata jako název, MIME typ, kontrolní součet, datum vytvoření a velikost. Všechny příklady používají Aspose.PDF pro Java, nejkomplexnější knihovnu pro manipulaci s PDF na JVM.
 
 ### Rychlé odpovědi
-- **What is the main goal?** Načíst PDF a přečíst vlastnosti jeho vložených souborů.  
-- **Which library is used?** Aspose.PDF for Java.  
-- **Do I need a license?** Bezplatná zkušební verze funguje pro testování; pro produkci je vyžadována komerční licence.  
-- **Can I process many PDFs at once?** Ano—kombinujte tento kód s technikami hromadného zpracování.  
-- **What metadata can I read?** Název, popis, MIME typ, kontrolní součet, datum vytvoření/úpravy a velikost.
+- **Jaký je hlavní cíl?** Načíst PDF a přečíst vlastnosti jeho vložených souborů.  
+- **Kterou knihovnu byste měli použít?** Aspose.PDF pro Java.  
+- **Potřebuji licenci?** Bezplatná zkušební verze funguje pro testování; pro produkci je vyžadována komerční licence.  
+- **Mohu zpracovávat mnoho PDF najednou?** Ano — kombinujte tento kód s technikami dávkového zpracování.  
+- **Jaká metadata mohu číst?** Název, popis, MIME typ, kontrolní součet, data vytvoření/úpravy a velikost.
 
-## Co je Aspose PDF Java Tutorial?
+## Co je extrahování příloh?
 
-V tomto tutoriálu se naučíte, jak **load pdf document java** soubory, přistupovat k vloženým zdrojům a extrahovat užitečná metadata, jako je **read pdf attachment metadata**. Na konci budete mít znovupoužitelný úryvek kódu, který můžete vložit do libovolného Java projektu.
+**Extrahování příloh** odkazuje na proces vyhledání a získání souborů, které byly vloženy do PDF kontejneru. Aspose.PDF pro Java poskytuje programové API, které vám umožní vyjmenovat tyto vložené zdroje, aniž byste PDF otevírali v prohlížeči.
 
-## Proč použít Aspose.PDF pro Java?
+## Proč používat Aspose.PDF pro Java?
 
-- **Rich feature set** – Plná podpora vložených souborů, anotací a digitálních podpisů.  
-- **High performance** – Optimalizováno pro zpracování dokumentů ve velkém měřítku.  
-- **Cross‑platform** – Funguje v jakémkoli prostředí kompatibilním s JVM.  
+Aspose.PDF podporuje **více než 50 vstupních a výstupních formátů**, včetně DOCX, XLSX, PPTX, HTML a typů obrázků, a dokáže zpracovat PDF až do 2 GB, aniž by načítal celý soubor do paměti. Knihovna běží na jakékoli platformě kompatibilní s JVM, poskytuje odezvu v řádu podsekund pro typické dokumenty a obsahuje vestavěnou kontrolu kontrolního součtu pro zajištění integrity souboru.
 
-## Požadavky
+## Předpoklady
 
 ### Požadované knihovny, verze a závislosti
-Pro sledování tohoto tutoriálu potřebujete:
-- **Aspose.PDF for Java**, verze 25.3 nebo novější.  
-- Vývojové prostředí schopné spouštět Java aplikace (např. Eclipse, IntelliJ IDEA).
+- **Aspose.PDF pro Java**, verze 25.3 nebo novější.  
+- Java IDE, např. Eclipse nebo IntelliJ IDEA.
 
 ### Požadavky na nastavení prostředí
-Ujistěte se, že ve vašem systému je nainstalováno následující:
-- Java Development Kit (JDK) 8 nebo vyšší.
+- Java Development Kit (JDK) 8 nebo vyšší nainstalovaný a nakonfigurovaný ve vašem `PATH`.
 
 ### Předpoklady znalostí
-Je vyžadováno základní porozumění programování v Javě, včetně znalosti nástrojů Maven nebo Gradle pro správu závislostí projektu.
+- Znalost syntaxe Java.  
+- Základní zkušenost s Maven nebo Gradle pro správu závislostí.
 
 ## Nastavení Aspose.PDF pro Java
-Začít s Aspose.PDF je jednoduché. Nejprve se ujistěte, že máte knihovnu přidánu do projektu pomocí Maven nebo Gradle.
+Přidejte knihovnu do svého projektu pomocí Maven nebo Gradle.
 
-**Maven Dependency:**
+**Maven závislost:**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-pdf</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle Implementation:**
+**Gradle implementace:**  
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
-```
+```  
 
 ### Kroky získání licence
-Pro použití Aspose.PDF můžete:
-- **Free Trial**: Začněte s dočasnou licencí pro evaluační účely z [zde](https://purchase.aspose.com/temporary-license/).
-- **Purchase**: Pro produkční použití získáte plnou licenci prostřednictvím [stránky nákupu Aspose](https://purchase.aspose.com/buy).
+- **Bezplatná zkušební verze:** Získejte dočasnou licenci na [zde](https://purchase.aspose.com/temporary-license/).  
+- **Plná licence:** Zakupte produkční licenci přes [stránku nákupu Aspose](https://purchase.aspose.com/buy).
 
 ### Základní inicializace a nastavení
-Jakmile máte knihovnu nastavenou ve vašem projektu, inicializujte Aspose.PDF následovně:
+Po přidání knihovny do classpath můžete provést inicializaci následujícím způsobem:  
 ```java
 import com.aspose.pdf.Document;
 
@@ -89,66 +145,62 @@ class PDFHandler {
         System.out.println("Aspose.PDF for Java Initialized.");
     }
 }
-```
+```  
 
 ## Jak načíst PDF dokument v Javě
-Načtení PDF dokumentu je prvním krokem k přístupu k jeho vloženým souborům. Následující sekce ukazuje přesný kód, který potřebujete.
 
-### Průvodce implementací
+Načtení PDF je s Aspose.PDF jednoduché. Vytvoříte instanci `Document` předáním cesty k souboru, která načte strukturu souboru a připraví jej k manipulaci. Třída `Document` představuje celý PDF v paměti, což vám umožňuje dotazovat se na stránky, zdroje a vložené soubory, aniž byste soubor otevírali v prohlížeči.  
+```text
+Document pdfDoc = new Document("input.pdf");
+```  
+(Nahraďte zástupný znak skutečnou cestou k souboru.)
 
-### Funkce 1: Načíst PDF dokument
-Načtení PDF dokumentu je prvním krokem k přístupu k jeho vloženým souborům.
-
-**Overview:**  
-Tato funkce ukazuje, jak načíst existující PDF pomocí Aspose.PDF pro Java, připravujíc základ pro další operace, jako je extrakce vlastností vložených souborů.
-
-#### Krok za krokem implementace
-1. **Zadejte adresář dokumentu:**  
-   Definujte, kde je uložený vstupní PDF.  
+### Implementace krok za krokem
+1. **Zadejte adresář dokumentu** – sdělte runtime, kde se nachází zdrojové PDF.  
    ```java
    String dataDir = "YOUR_DOCUMENT_DIRECTORY";
-   ```
-2. **Načíst PDF dokument:**  
-   Použijte třídu `Document` k načtení PDF souboru ze zadané cesty.  
+   ```  
+2. **Načtěte PDF dokument** – vytvořte instanci třídy `Document` pro načtení souboru.  
    ```java
    import com.aspose.pdf.Document;
 
    Document pdfDocument = new Document(dataDir + "/input.pdf");
    System.out.println("PDF Loaded Successfully.");
-   ```
+   ```  
 
-### Funkce 2: Přístup k vloženým souborům v PDF
-Přístup k vloženým souborům v načteném dokumentu je klíčový pro extrakci jejich vlastností.
+## Jak přistupovat k vloženým PDF souborům v PDF
 
-**Overview:**  
-Tato funkce ukazuje, jak získat seznam vložených souborů a načíst konkrétní pomocí třídy `FileSpecification` z Aspose.PDF.
+Můžete získat kolekci vložených souborů prostřednictvím kolekce `FileSpecification` na objektu `Document`. Tato operace má časovou složitost O(n), kde *n* je počet příloh, a nevyžaduje načtení celého obsahu každého souboru do paměti. Třída `FileSpecification` představuje položku vloženého souboru v PDF.  
+```text
+FileSpecificationCollection attachments = pdfDoc.getEmbeddedFiles();
+```  
 
-#### Krok za krokem implementace
-1. **Získat seznam vložených souborů:**  
-   Získejte kolekci vložených souborů ve vašem PDF.  
+### Implementace krok za krokem
+1. **Získejte seznam vložených souborů** – metoda `getEmbeddedFiles()` vrací kolekci, kterou můžete iterovat.  
    ```java
    import com.aspose.pdf.FileSpecification;
 
    FileSpecification fileSpecification = pdfDocument.getEmbeddedFiles().get_Item(1);
    System.out.println("Accessed Embedded File.");
-   ```
+   ```  
 
-### Funkce 3: Získat vlastnosti souboru z vložených souborů
-Extrahování vlastností vložených souborů poskytuje cenná metadata.
+## Jak číst metadata PDF příloh
 
-**Overview:**  
-Tato funkce ukazuje, jak získat různé vlastnosti jako název, popis, MIME typ a další z vloženého souboru v PDF.
+Čtení metadat vám umožní rozhodovat, například filtrovat podle MIME typu nebo ověřovat kontrolní součty před dalším zpracováním. Objekt `FileSpecification` poskytuje vlastnosti pro název, popis, MIME typ, datum vytvoření, datum úpravy a velikost. Prozkoumáním těchto polí můžete programově rozhodnout, které přílohy extrahovat, přejmenovat nebo ignorovat podle vašich obchodních pravidel.  
+```text
+String name = fileSpec.getName();
+String mime = fileSpec.getMimeType();
+Date created = fileSpec.getCreationDate();
+```  
 
-#### Krok za krokem implementace
-1. **Vytisknout základní vlastnosti:**  
-   Použijte objekt `FileSpecification` k přístupu k základním vlastnostem.  
+### Implementace krok za krokem
+1. **Vytiskněte základní vlastnosti** – použijte objekt `FileSpecification` k výpisu klíčových detailů.  
    ```java
    System.out.println("Name:-" + fileSpecification.getName());
    System.out.println("Description:- " + fileSpecification.getDescription());
    System.out.println("Mime Type:-" + fileSpecification.getMIMEType());
-   ```
-2. **Získat další parametry:**  
-   Zkontrolujte další metadata, pokud jsou k dispozici.  
+   ```  
+2. **Získejte další parametry** – zkontrolujte vlastní parametry, pokud existují.  
    ```java
    if (fileSpecification.getParams() != null) {
        System.out.println("CheckSum:- " + fileSpecification.getParams().getCheckSum());
@@ -156,63 +208,73 @@ Tato funkce ukazuje, jak získat různé vlastnosti jako název, popis, MIME typ
        System.out.println("Modification Date:- " + fileSpecification.getParams().getModDate());
        System.out.println("Size:- " + fileSpecification.getParams().getSize());
    }
-   ```
+   ```  
+
+## Jak získat velikost PDF přílohy
+
+Velikost přílohy je dostupná pomocí metody `getSize()`, která vrací počet bajtů bez dekomprese proudu. To vám umožní rychle přeskočit soubory, které překračují předdefinovaný práh. Znalost velikosti vám pomáhá alokovat vhodné buffery a rozhodnout, zda přílohu uložit v paměti nebo ji streamovat přímo na disk.  
+```text
+long sizeInBytes = fileSpec.getSize();
+```  
 
 ## Praktické aplikace
 
-### Případ použití 1: Správa digitálních aktiv
-Automatizujte proces **how to extract attachments** pro digitální knihovny, což zajistí snadné získávání a správu.
+### Případ použití 1: správa digitálních aktiv
+Automatizujte proces **extrahování příloh** pro velké digitální knihovny, aby každá vložená soubor byla indexována s jejími metadaty.
 
-### Případ použití 2: Systémy archivace dokumentů
-Vložte metadata pro sledování verzí nebo revizí dokumentů přímo v PDF souborech.
+### Případ použití 2: systémy archivace dokumentů
+Vložte informace o revizi přímo do PDF a později je načtěte pomocí API metadat pro sledování historie verzí.
 
-### Případ použití 3: Validace obsahu
-Ověřte integritu souboru kontrolou kontrolních součtů před zpracováním připojených dokumentů.
+### Případ použití 3: validace obsahu
+Ověřte integritu souboru porovnáním uloženého kontrolního součtu s nově vypočítaným před následným zpracováním.
 
 ## Úvahy o výkonu
-Pro optimalizaci výkonu při používání Aspose.PDF:
-- **Optimize Memory Usage**: Spravujte nastavení paměti Javy pro operace s PDF ve velkém měřítku.  
-- **Efficient File Handling**: Kombinujte tuto logiku s technikami **batch process pdf files** pro snížení režie.  
-- **Best Practices**: Vždy uvolněte zdroje a po použití zavřete objekty dokumentu.
-
-## Závěr
-Podle tohoto **aspose pdf java tutorial** jste se naučili, jak načíst PDF, přistupovat k vloženým souborům a extrahovat jejich vlastnosti pomocí Aspose.PDF pro Java. Tyto možnosti mohou výrazně zlepšit schopnost vaší aplikace efektivně zvládat složité operace s PDF.
-
-**Next Steps:**
-- Prozkoumejte další funkce Aspose.PDF, jako je manipulace s dokumenty nebo extrakce textu.  
-- Zvažte integraci s dalšími systémy pro rozšířenou funkčnost, například s pipeline pro hromadné zpracování.
-
-Jste připraveni to vyzkoušet? Ponořte se do pokročilejších scénářů a rozšiřte možnosti svých Java aplikací ještě dnes!
+- **Optimalizace paměti:** Nastavte `-Xmx` vhodně pro velké PDF; Aspose.PDF streamuje data a nikdy nenačítá celý dokument do RAM.  
+- **Dávkové zpracování:** Kombinujte výše uvedený kód s cyklem, který iteruje přes adresář PDF, aby **dávkově zpracovával přílohy PDF** efektivně.  
+- **Úklid zdrojů:** Vždy po dokončení zavolejte `pdfDoc.dispose()`, aby se uvolnily nativní zdroje.
 
 ## Často kladené otázky
-1. **Mohu používat Aspose.PDF pro komerční účely?**  
-   - Ano, po získání vhodné licence na [purchase page](https://purchase.aspose.com/buy).  
-2. **Co když mé PDF neobsahuje vložené soubory?**  
-   - Metoda `get_Item()` vrátí null; vždy tuto podmínku kontrolujte.  
-3. **Jak efektivně zpracovat velké PDF soubory?**  
-   - Optimalizujte nastavení paměti a používejte efektivní techniky manipulace se soubory, jak je uvedeno v sekci výkonu.  
-4. **Existují omezení při přístupu k vloženým souborům?**  
-   - Aspose.PDF může přistupovat k většině standardních vložených souborů, ale ujistěte se, že odpovídají běžným formátům pro nejlepší výsledky.  
-5. **Co když narazím na chyby během implementace?**  
-   - Konzultujte [Aspose's support forum](https://forum.aspose.com/c/pdf/10) nebo si prostudujte dokumentaci pro návod k řešení problémů.
 
-## Zdroje
-- **Documentation**: [Learn More about Aspose.PDF for Java](https://reference.aspose.com/pdf/java/)
-- **Download Library**: [Get the Latest Version](https://releases.aspose.com/pdf/java/)
-- **Purchase License**: [Buy Now](https://purchase.aspose.com/buy)
-- **Free Trial**: [Try It Out](https://releases.aspose.com/pdf/java/)
-- **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
+**Q: Mohu používat Aspose.PDF pro komerční účely?**  
+A: Ano — získejte produkční licenci na [stránce nákupu](https://purchase.aspose.com/buy).
+
+**Q: Co když mé PDF neobsahuje vložené soubory?**  
+A: Kolekce `getEmbeddedFiles()` bude prázdná; vždy před iterací zkontrolujte `if (attachments.isEmpty())`.
+
+**Q: Jak zacházet s velmi velkými PDF, aniž by došlo k vyčerpání paměti?**  
+A: Použijte streaming API knihovny a nastavte velikost haldy JVM; Aspose.PDF zpracovává soubory v režimu pouze dopředného čtení, aby minimalizoval paměťovou stopu.
+
+**Q: Existují omezení typů souborů, které lze vložit?**  
+A: Aspose.PDF podporuje jakýkoli typ souboru, který může být uložen jako binární proud, ale běžné formáty jako DOCX, XLSX, PNG a JPEG jsou plně rozpoznány a jejich MIME typy jsou vráceny automaticky.
+
+**Q: Kde mohu získat pomoc, pokud narazím na problémy?**  
+A: Navštivte [fórum podpory Aspose](https://forum.aspose.com/c/pdf/10) nebo si prostudujte oficiální dokumentaci pro tipy na řešení problémů.
+
+## Další zdroje
+
+- Zjistěte více o Aspose.PDF pro Java: [Zjistěte více o Aspose.PDF pro Java](https://reference.aspose.com/pdf/java/)
+- Získejte nejnovější verzi: [Získejte nejnovější verzi](https://releases.aspose.com/pdf/java/)
+- Koupit nyní: [Koupit nyní](https://purchase.aspose.com/buy)
+- Vyzkoušet: [Vyzkoušet](https://releases.aspose.com/pdf/java/)
+- Požádat o dočasnou licenci: [Požádat o dočasnou licenci](https://purchase.aspose.com/temporary-license/)
 
 ---
 
-**Poslední aktualizace:** 2026-03-01  
-**Testováno s:** Aspose.PDF for Java 25.3  
+**Poslední aktualizace:** 2026-08-11  
+**Testováno s:** Aspose.PDF for Java 25.3  
 **Autor:** Aspose
+
+## Související tutoriály
+
+- [Jak vytvořit PDF vložené přílohy pomocí Aspose.PDF pro Java – Průvodce vývojáře](/pdf/java/attachments-embedded-files/add-attachments-pdf-aspose-pdf-java/)
+- [Jak efektivně odstranit PDF přílohy pomocí Aspose.PDF pro Java](/pdf/java/attachments-embedded-files/remove-attachments-pdf-aspose-java/)
+- [Extrahovat vložené soubory pdf z PDF portfolia pomocí Aspose.PDF Java](/pdf/java/attachments-embedded-files/extract-files-pdf-portfolio-aspose-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}

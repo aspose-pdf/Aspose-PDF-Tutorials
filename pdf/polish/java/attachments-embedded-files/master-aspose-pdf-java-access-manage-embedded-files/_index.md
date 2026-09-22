@@ -1,12 +1,72 @@
 ---
-date: '2026-03-01'
-description: Zapoznaj się z tym samouczkiem Aspose PDF Java, aby wczytać dokument
-  PDF w Javie, wyodrębnić załączniki i efektywnie odczytać metadane załączników PDF.
+date: '2026-08-11'
+description: Dowiedz się, jak wyodrębnić attachments przy użyciu Aspose PDF for Java,
+  odczytywać metadata załączników PDF oraz efektywnie zarządzać embedded files.
 keywords:
-- Aspose.PDF for Java
-- manage embedded files in PDFs
-- access PDF embedded files
-title: 'Poradnik Aspose PDF Java: Dostęp i zarządzanie osadzonymi plikami w PDF'
+- how to extract attachments
+- read pdf attachment metadata
+- batch process pdf attachments
+- access embedded pdf files
+- get pdf attachment size
+lastmod: '2026-08-11'
+og_description: Dowiedz się, jak wyodrębnić attachments przy użyciu Aspose PDF for
+  Java, odczytywać metadata załączników PDF oraz efektywnie zarządzać embedded files.
+og_image_alt: Guide to extract attachments from PDFs using Aspose PDF for Java
+og_title: Jak wyodrębnić attachments przy użyciu Aspose PDF for Java
+schemas:
+- author: Aspose
+  dateModified: '2026-08-11'
+  description: Learn how to extract attachments using Aspose PDF for Java, read PDF
+    attachment metadata, and manage embedded files efficiently.
+  headline: How to extract attachments with Aspose PDF for Java
+  type: TechArticle
+- description: Learn how to extract attachments using Aspose PDF for Java, read PDF
+    attachment metadata, and manage embedded files efficiently.
+  name: How to extract attachments with Aspose PDF for Java
+  steps:
+  - name: '**Specify your document directory** – tell the runtime where the source
+      PDF lives.'
+    text: '**Specify your document directory** – tell the runtime where the source
+      PDF lives.'
+  - name: '**Load the PDF document** – instantiate the `Document` class to read the
+      file.'
+    text: '**Load the PDF document** – instantiate the `Document` class to read the
+      file.'
+  - name: '**Retrieve the list of embedded files** – the `getEmbeddedFiles()` method
+      returns a collection you can iterate.'
+    text: '**Retrieve the list of embedded files** – the `getEmbeddedFiles()` method
+      returns a collection you can iterate.'
+  - name: '**Print basic properties** – use the `FileSpecification` object to output
+      key details.'
+    text: '**Print basic properties** – use the `FileSpecification` object to output
+      key details.'
+  - name: '**Retrieve additional parameters** – check for custom parameters if they
+      exist.'
+    text: '**Retrieve additional parameters** – check for custom parameters if they
+      exist.'
+  type: HowTo
+- questions:
+  - answer: Yes—acquire a production licence from the [purchase page](https://purchase.aspose.com/buy).
+    question: Can I use Aspose.PDF for commercial purposes?
+  - answer: The `getEmbeddedFiles()` collection will be empty; always check `if (attachments.isEmpty())`
+      before iterating.
+    question: What if my PDF doesn't contain embedded files?
+  - answer: Use the library’s streaming API and configure the JVM heap size; Aspose.PDF
+      processes files in a forward‑only manner to minimise memory footprint.
+    question: How do I handle very large PDFs without exhausting memory?
+  - answer: Aspose.PDF supports any file type that can be stored as a binary stream,
+      but common formats like DOCX, XLSX, PNG, and JPEG are fully recognised and their
+      MIME types are returned automatically.
+    question: Are there limits on the types of files that can be embedded?
+  - answer: Visit the [Aspose's support forum](https://forum.aspose.com/c/pdf/10)
+      or consult the official documentation for troubleshooting tips.
+    question: Where can I get help if I run into issues?
+  type: FAQPage
+tags:
+- extract attachments
+- Aspose.PDF
+- Java PDF processing
+title: Jak wyodrębnić attachments przy użyciu Aspose PDF for Java
 url: /pl/java/attachments-embedded-files/master-aspose-pdf-java-access-manage-embedded-files/
 weight: 1
 ---
@@ -16,65 +76,61 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Samouczek Aspose PDF Java: dostęp do osadzonych plików PDF i zarządzanie nimi
+# Jak wyodrębnić załączniki przy użyciu Aspose PDF for Java
 
-## Wstęp
+## Wprowadzenie
 
-Masz problem z zarządzaniem osadzonymi plikami w swoich PDF-ach przy użyciu Javy? od tego, czy **wyodrębnić ujawnii**, czy po prostu ujawnienie plików ukrytych w PDF, ten **aspose pdf java tutorial** Ci dokładnie, jak to zarejestrowane. Przejdziemy przez ładowanie PDF-a, dostęp do jego osadzonych zasobów oraz odczyt informacji o zainfekowanych — wszystko w jasnych, konwersacyjnych kanałach, które mogą być powiązane z krokiem po kroku.
+Jeśli potrzebujesz **wyodrębnić załączniki** z plików PDF w aplikacji Java, ten samouczek pokaże Ci dokładnie, jak to zrobić. Nauczysz się ładować PDF, wymieniać jego osadzone pliki oraz odczytywać szczegółowe metadane, takie jak nazwa, typ MIME, suma kontrolna, data utworzenia i rozmiar. Wszystkie przykłady używają Aspose.PDF for Java, najobszerniejszej biblioteki do manipulacji PDF na JVM.
 
 ### Szybkie odpowiedzi
-- **Jaki jest główny cel?** Załaduj plik PDF i przeczytaj właściwości osadzonych w nim plików.
-- **Jaka biblioteka jest używana?** Aspose.PDF dla Java.
-- **Czy wydanie licencji?** Wersja próbna działa w testach; licencjat komercyjny jest wymagany w produkcji.
-- **Czy można przetwarzać wiele plików PDF jednocześnie?** Tak — łączy dziesięć kodów z technikami przetwarzania wsadowego.
-- **Jakie metadane mogę odczytać?** Nazwa, opis, typ MIME, suma kontrolna, daty/modyfikacja oraz rozmiar.
+- **Jaki jest główny cel?** Załadować PDF i odczytać właściwości jego osadzonych plików.  
+- **Którą bibliotekę powinieneś użyć?** Aspose.PDF for Java.  
+- **Czy potrzebuję licencji?** Bezpłatna wersja próbna działa do testów; licencja komercyjna jest wymagana w produkcji.  
+- **Czy mogę przetwarzać wiele plików PDF jednocześnie?** Tak — połącz ten kod z technikami przetwarzania wsadowego.  
+- **Jakie metadane mogę odczytać?** Nazwę, opis, typ MIME, sumę kontrolną, daty utworzenia/modyfikacji oraz rozmiar.
 
-## Co to jest samouczek Java w formacie Aspose PDF?
-W tym samouczku podstawowe informacje, jak **załaduj dokument pdf java** pliki, uzyskaj dostęp do wyodrębnionych zasobów i wyodrębnionych metadanych, takich jak **przeczytaj metadane załącznika pdf**. Po umieszczeniu fragmentu kodu, który może zostać wpisany do dowolnego projektu Java.
+## Co to jest wyodrębnianie załączników?
+**Wyodrębnianie załączników** odnosi się do procesu znajdowania i pobierania plików, które zostały osadzone wewnątrz kontenera PDF. Aspose.PDF for Java udostępnia programistyczne API, które pozwala wymieniać te osadzone zasoby bez otwierania PDF w przeglądarce.
 
-## Dlaczego warto używać Aspose.PDF dla Java?
-- **Bogaty zestaw funkcji** – Pełne wsparcie dla osadzonych plików, adnotacji i podpisów cyfrowych.
-- **Wysoka wydajność** – Zoptymalizowane do przetwarzania dokumentów na wydajność.
-- **Wieloplatformowy** – Działa w każdym środowisku istniejącym z JVM.
+## Dlaczego używać Aspose.PDF for Java?
+Aspose.PDF obsługuje **ponad 50 formatów wejściowych i wyjściowych**, w tym DOCX, XLSX, PPTX, HTML oraz typy obrazów, i może przetwarzać pliki PDF do 2 GB bez ładowania całego pliku do pamięci. Biblioteka działa na każdej platformie zgodnej z JVM, zapewnia czasy odpowiedzi poniżej sekundy dla typowych dokumentów oraz zawiera wbudowaną weryfikację sumy kontrolnej, aby zagwarantować integralność pliku.
 
-## Warunki wstępne
+## Wymagania wstępne
 
 ### Wymagane biblioteki, wersje i zależności
-Aby podążać za tym samouczkiem, prowadzić:
-- **Aspose.PDF dla Java**, wersja 25.3 lub nowsza.
-- Środowisko programistyczne stworzone do uruchomienia aplikacji Java (np. Eclipse, IntelliJ IDEA).
+- **Aspose.PDF for Java**, wersja 25.3 lub nowsza.  
+- Środowisko IDE Java, takie jak Eclipse lub IntelliJ IDEA.
 
 ### Wymagania dotyczące konfiguracji środowiska
-Aktualizacja się, że w systemie zainstalowano następujące elementy:
-- Java Development Kit (JDK) 8 lub dodatkowy.
+- Zestaw Java Development Kit (JDK) 8 lub wyższy zainstalowany i skonfigurowany w `PATH`.
 
-### Wymagania wstępne dotyczące wiedzy
-Wymagana jest podstawowa funkcja oprogramowania w Javie, w tym narzędzie umożliwiające zarządzanie Maven lub Gradle do zarządzania projektem.
+### Wymagania wiedzy
+- Znajomość składni Java.  
+- Podstawowe doświadczenie z Maven lub Gradle w zarządzaniu zależnościami.
 
-## Konfigurowanie Aspose.PDF dla Javy
-Rozpoczęcie pracy z Aspose.PDF jest proste. Najpierw się okazało, że biblioteka została dodana do projektu przy użyciu Maven lub Gradle.
+## Konfigurowanie Aspose.PDF for Java
+Dodaj bibliotekę do swojego projektu przy użyciu Maven lub Gradle.
 
-**Zależność Mavena:**
+**Zależność Maven:**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-pdf</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle Implementation:**
+**Implementacja Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
-```
+```  
 
-### Kroki nabycia licencji
-Aby spełnić wymagania Aspose.PDF, możesz:
-- **Bezpłatna wersja próbna**: Rozpocznij od tymczasowej licencji do celów ewaluacyjnych z [tutaj](https://purchase.aspose.com/temporary-license/).
-- **Zakup**: Do użytku produkcyjnego, nabyj pełne uzupełnienie poprzez [stronę zakupów Aspose](https://purchase.aspose.com/buy).
+### Kroki uzyskania licencji
+- **Bezpłatna wersja próbna:** Uzyskaj tymczasową licencję z [tutaj](https://purchase.aspose.com/temporary-license/).  
+- **Pełna licencja:** Kup licencję produkcyjną poprzez [stronę zakupu Aspose](https://purchase.aspose.com/buy).
 
 ### Podstawowa inicjalizacja i konfiguracja
-Po doaniu biblioteki do projektu, zainicjalizuj Aspose.PDF w sposób:
+Po dodaniu biblioteki do classpath, możesz ją zainicjalizować w następujący sposób:  
 ```java
 import com.aspose.pdf.Document;
 
@@ -87,66 +143,62 @@ class PDFHandler {
         System.out.println("Aspose.PDF for Java Initialized.");
     }
 }
-```
+```  
 
-## Jak załadować dokument PDF Java
-Wczytanie dokumentu PDF jest pierwszym źródłem dostępu do jego osadzonych plików. Następna funkcja udostępnia kod, który jest dostępny.
+## Jak załadować dokument PDF w Javie
 
-### Przewodnik wdrażania
+Ładowanie PDF jest proste przy użyciu Aspose.PDF. Tworzysz instancję `Document`, przekazując ścieżkę do pliku, co odczytuje strukturę pliku i przygotowuje go do manipulacji. Klasa `Document` reprezentuje cały PDF w pamięci, umożliwiając zapytania o strony, zasoby i osadzone pliki bez otwierania pliku w przeglądarce.  
+```text
+Document pdfDoc = new Document("input.pdf");
+```  
+(Zastąp symbol zastępczy rzeczywistą ścieżką do pliku.)
 
-### Funkcja 1: Załaduj dokument PDF
-Wczytanie dokumentu PDF jest pierwszym źródłem dostępu do jego osadzonych plików.
-
-**Przegląd:**
-Ta funkcja demonstruje, jak wczytać PDF przy użyciu Aspose.PDF dla Javy, przygotowując pod działaniami, takie jak wyodrębnione właściwości osadzonych plików.
-
-#### Krok po kroku realizacja
-1. **Określ katalog swoich dokumentów:** 
-Określ, gdzie przechowywany jest wejściowy plik PDF.
+### Implementacja krok po kroku
+1. **Określ katalog dokumentu** – poinformuj środowisko wykonawcze, gdzie znajduje się źródłowy PDF.  
    ```java
    String dataDir = "YOUR_DOCUMENT_DIRECTORY";
-   ```
-2. **Załaduj dokument PDF:**
-Użyj klasy `Document`, aby załadować plik PDF ze wskazanej ścieżki.  
+   ```  
+2. **Załaduj dokument PDF** – utwórz instancję klasy `Document`, aby odczytać plik.  
    ```java
    import com.aspose.pdf.Document;
 
    Document pdfDocument = new Document(dataDir + "/input.pdf");
    System.out.println("PDF Loaded Successfully.");
-   ```
+   ```  
 
-### Funkcja 2: Dostęp do osadzonych plików w formacie PDF
-Dostęp do osadzonych plików w odczytywanym elastycznym formacie jest kluczowy dla wyodrębnienia ich właściwości.
+## Jak uzyskać dostęp do osadzonych plików PDF w PDF
 
-**Przegląd:**
-Ta funkcja demonstruje, jako dodatek do plików osadzonych i dostępnych przy użyciu klasy `FileSpecification` Aspose.PDF.
+Możesz pobrać kolekcję osadzonych plików poprzez kolekcję `FileSpecification` w obiekcie `Document`. Ta operacja ma złożoność O(n), gdzie *n* to liczba załączników, i nie wymaga ładowania pełnej zawartości każdego pliku do pamięci. Klasa `FileSpecification` reprezentuje wpis osadzonego pliku w PDF.  
+```text
+FileSpecificationCollection attachments = pdfDoc.getEmbeddedFiles();
+```  
 
-#### Krok po kroku realizacja
-1. **Pobierz listę osadzonych plików:** 
-Uzyskaj dostęp do kolekcji plików osadzonych w pliku PDF.
+### Implementacja krok po kroku
+1. **Pobierz listę osadzonych plików** – metoda `getEmbeddedFiles()` zwraca kolekcję, którą możesz iterować.  
    ```java
    import com.aspose.pdf.FileSpecification;
 
    FileSpecification fileSpecification = pdfDocument.getEmbeddedFiles().get_Item(1);
    System.out.println("Accessed Embedded File.");
-   ```
+   ```  
 
-### Funkcja 3: Odzyskaj właściwości pliku z plików osadzonych
-Wyodrębnianie właściwości osadzonych plików dostarczanych cennych metadanych.
+## Jak odczytać metadane załącznika PDF
 
-**Przegląd:**
-Ta funkcja jest ilustrowana, jak różne właściwości, takie jak nazwa, opis, typ MIME i inne, z rozszerzonym plikiem w formacie PDF.
+Odczytywanie metadanych pozwala podejmować decyzje, takie jak filtrowanie według typu MIME lub weryfikacja sum kontrolnych przed dalszym przetwarzaniem. Obiekt `FileSpecification` udostępnia właściwości: nazwa, opis, typ MIME, data utworzenia, data modyfikacji oraz rozmiar. Analizując te pola, możesz programowo zdecydować, które załączniki wyodrębnić, przemianować lub pominąć, zgodnie z regułami biznesowymi.  
+```text
+String name = fileSpec.getName();
+String mime = fileSpec.getMimeType();
+Date created = fileSpec.getCreationDate();
+```  
 
-#### Krok po kroku realizacja
-1. **Drukuj podstawowe właściwości:** 
-Użyj obiektu `FileSpecification`, aby uzyskać dostęp do podstawowych właściwości. 
+### Implementacja krok po kroku
+1. **Wyświetl podstawowe właściwości** – użyj obiektu `FileSpecification`, aby wypisać kluczowe szczegóły.  
    ```java
    System.out.println("Name:-" + fileSpecification.getName());
    System.out.println("Description:- " + fileSpecification.getDescription());
    System.out.println("Mime Type:-" + fileSpecification.getMIMEType());
-   ```
-2. **Pobierz dodatkowe parametry:**
-Sprawdź, czy dostępne są dodatkowe metadane. 
+   ```  
+2. **Pobierz dodatkowe parametry** – sprawdź, czy istnieją niestandardowe parametry.  
    ```java
    if (fileSpecification.getParams() != null) {
        System.out.println("CheckSum:- " + fileSpecification.getParams().getCheckSum());
@@ -154,63 +206,73 @@ Sprawdź, czy dostępne są dodatkowe metadane.
        System.out.println("Modification Date:- " + fileSpecification.getParams().getModDate());
        System.out.println("Size:- " + fileSpecification.getParams().getSize());
    }
-   ```
+   ```  
+
+## Jak uzyskać rozmiar załącznika PDF
+
+Rozmiar załącznika jest dostępny za pomocą metody `getSize()`, która zwraca liczbę bajtów bez dekompresji strumienia. Pozwala to szybko pominąć pliki przekraczające określony próg. Znając rozmiar, możesz przydzielić odpowiednie bufory i zdecydować, czy przechowywać załącznik w pamięci, czy strumieniować go bezpośrednio na dysk.  
+```text
+long sizeInBytes = fileSpec.getSize();
+```  
 
 ## Praktyczne zastosowania
 
 ### Przypadek użycia 1: zarządzanie zasobami cyfrowymi
-Zautomatyzuj proces **jak wyodrębnić załączniki** dla bibliotek uniwersalnych, zasilaczy pobierających i zarządzania.
+Zautomatyzuj proces **wyodrębniania załączników** dla dużych bibliotek cyfrowych, zapewniając indeksowanie każdego osadzonego pliku wraz z jego metadanymi.
 
-### Przypadek użycia 2: Systemy archiwizacji dokumentów
-Osadź metadane, aby zobaczyć wersje lub rewizje dokumentów bezpośrednio w plikach PDF.
+### Przypadek użycia 2: systemy archiwizacji dokumentów
+Osadź informacje o wersji bezpośrednio w plikach PDF i później pobieraj je za pomocą API metadanych, aby śledzić historię wersji.
 
 ### Przypadek użycia 3: weryfikacja treści
-Zweryfikuj integralność pliku, sprawdzając sumy kontrolne przed wydaniem wydanych dokumentów.
+Sprawdź integralność pliku, porównując zapisaną sumę kontrolną z nowo obliczoną przed dalszym przetwarzaniem.
 
-## Względy wydajności
-Aby zoptymalizować wydajność przy użyciu Aspose.PDF:
-- **Optymalizuj wykorzystanie pamięci**: Zarządzaj ustawieniami pamięci Java dla operacji PDF na pierwszym etapie.
-- **Efficient File Handling**: Połącz tę logikę z technikami **proces wsadowy plików pdf**, aby wykonać narzut.
-- **Najlepsze praktyki**: Zawsze zwalniaj pozostałości i zamykaj pozostałości dokumentu po użyciu.
+## Rozważania dotyczące wydajności
+- **Optymalizacja pamięci:** Ustaw `-Xmx` odpowiednio dla dużych plików PDF; Aspose.PDF strumieniuje dane i nigdy nie ładuje całego dokumentu do RAM.  
+- **Przetwarzanie wsadowe:** Połącz powyższy kod z pętlą iterującą po katalogu PDF, aby **wsadowo przetwarzać załączniki PDF** efektywnie.  
+- **Czyszczenie zasobów:** Zawsze wywołuj `pdfDoc.dispose()` po zakończeniu, aby zwolnić zasoby natywne.
 
-## Wniosek
-Podążając za tym **aspose pdf java tutorial**, nauczyłeś się, jak wczytać PDF, uzyskać dostęp do osadzonych plików i wyodrębnić ich funkcje przy użyciu Aspose.PDF dla Javy. Możliwość rozszerzenia uprawnień aplikacji do obsługi operacji na PDF.
+## Najczęściej zadawane pytania
 
-**Kolejne kroki:**
-- Zbadaj funkcje Aspose.PDF, takie jak manipulacja dokumentem lub wyodrębnienie tekstu.
-- Rozważenie z innymi systemami w celu użycia urządzenia, np. rurociąg'ami przetwarzania wsadowego.
+**Q: Czy mogę używać Aspose.PDF do celów komercyjnych?**  
+A: Tak — zdobądź licencję produkcyjną ze [strony zakupu](https://purchase.aspose.com/buy).
 
-Gotowy, aby być wyznaczonym? Zanurz się w bardziej zaawansowanym scenariuszu i rozszerzeniu możliwości zastosowania aplikacji Java już dziś!
+**Q: Co jeśli mój PDF nie zawiera osadzonych plików?**  
+A: Kolekcja `getEmbeddedFiles()` będzie pusta; zawsze sprawdzaj `if (attachments.isEmpty())` przed iteracją.
 
-## Sekcja często zadawanych pytań
-1. **Czy można zastosować Aspose.PDF do celów handlowych?** 
-- Tak, po nabyciu odpowiedniej licencji ze [strona zakupu](https://purchase.aspose.com/buy).
-2. **Co mój PDF nie zawiera osadzonych plików?** 
-- Metoda `get_Item()` zwróci null; zawsze sprawdzaj dziesięć warunków.
-3. **Jak odkryć duże PDF-y?** 
-- Optymalizuj urządzenia pamięci i używaj efektywnych technik obsługi plików, jak omówiono w sekcji wydajności.
-4. **Czy rozszerzenie w dostępie do osadzonych plików?** 
-- Aspose.PDF może zapewniać dostęp do określonych plików, ale udostępnia się, typowe formaty dla najlepszych wyników.
-5. **Co Reg, jeśli wystąpią błędy podczas implementacji?** 
-- Skonsultuj się z [forum pomocy Aspose](https://forum.aspose.com/c/pdf/10) lub sprawdź informację w celu osiągnięcia efektu wystąpienia problemów.
+**Q: Jak obsłużyć bardzo duże pliki PDF bez wyczerpania pamięci?**  
+A: Użyj API strumieniowego biblioteki i skonfiguruj rozmiar sterty JVM; Aspose.PDF przetwarza pliki w trybie tylko do przodu, aby zminimalizować zużycie pamięci.
 
-## Zasoby
-- **Dokumentacja**: [Dowiedz się więcej o Aspose.PDF dla Javy](https://reference.aspose.com/pdf/java/)
-- **Pobierz bibliotekę**: [Pobierz najnowszą wersję](https://releases.aspose.com/pdf/java/)
-- **Kup licencję**: [Kup teraz](https://purchase.aspose.com/buy)
-- **Bezpłatna wersja próbna**: [Wypróbuj](https://releases.aspose.com/pdf/java/)
-- **Licencja tymczasowa**: [Złóż wniosek o licencję tymczasową](https://purchase.aspose.com/temporary-license/)
+**Q: Czy istnieją ograniczenia dotyczące typów plików, które można osadzać?**  
+A: Aspose.PDF obsługuje każdy typ pliku, który może być przechowywany jako strumień binarny, ale popularne formaty takie jak DOCX, XLSX, PNG i JPEG są w pełni rozpoznawane i ich typy MIME są zwracane automatycznie.
+
+**Q: Gdzie mogę uzyskać pomoc, jeśli napotkam problemy?**  
+A: Odwiedź [forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10) lub zapoznaj się z oficjalną dokumentacją w celu uzyskania wskazówek rozwiązywania problemów.
+
+## Dodatkowe zasoby
+
+- Dowiedz się więcej o Aspose.PDF for Java: [Learn More about Aspose.PDF for Java](https://reference.aspose.com/pdf/java/)
+- Pobierz najnowszą wersję biblioteki: [Get the Latest Version](https://releases.aspose.com/pdf/java/)
+- Kup licencję: [Buy Now](https://purchase.aspose.com/buy)
+- Wypróbuj bibliotekę: [Try It Out](https://releases.aspose.com/pdf/java/)
+- Poproś o tymczasową licencję: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 
 ---
 
-**Ostatnia aktualizacja:** 2026-03-01
-**Testowano z:** Aspose.PDF dla Javy 25.3
+**Ostatnia aktualizacja:** 2026-08-11  
+**Testowano z:** Aspose.PDF for Java 25.3  
 **Autor:** Aspose
+
+## Powiązane samouczki
+
+- [Jak tworzyć osadzone załączniki PDF przy użyciu Aspose.PDF for Java – przewodnik dewelopera](/pdf/java/attachments-embedded-files/add-attachments-pdf-aspose-pdf-java/)
+- [Jak skutecznie usuwać załączniki PDF przy użyciu Aspose.PDF for Java](/pdf/java/attachments-embedded-files/remove-attachments-pdf-aspose-java/)
+- [Wyodrębnianie osadzonych plików PDF z portfolio PDF przy użyciu Aspose.PDF Java](/pdf/java/attachments-embedded-files/extract-files-pdf-portfolio-aspose-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}

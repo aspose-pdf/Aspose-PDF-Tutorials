@@ -1,12 +1,72 @@
 ---
-date: '2026-03-01'
-description: Aspose PDF Java 튜토리얼을 탐색하여 PDF 문서를 로드하고, 첨부 파일을 추출하며, PDF 첨부 파일 메타데이터를
-  효율적으로 읽어보세요.
+date: '2026-08-11'
+description: Aspose PDF for Java를 사용하여 attachments를 추출하고, PDF attachment metadata를
+  읽으며, embedded files를 효율적으로 관리하는 방법을 배워보세요.
 keywords:
-- Aspose.PDF for Java
-- manage embedded files in PDFs
-- access PDF embedded files
-title: 'Aspose PDF Java 튜토리얼: PDF에 포함된 파일에 접근하고 관리하기'
+- how to extract attachments
+- read pdf attachment metadata
+- batch process pdf attachments
+- access embedded pdf files
+- get pdf attachment size
+lastmod: '2026-08-11'
+og_description: Aspose PDF for Java를 사용하여 attachments를 추출하고, PDF attachment metadata를
+  읽으며, embedded files를 효율적으로 관리하는 방법을 배워보세요.
+og_image_alt: Guide to extract attachments from PDFs using Aspose PDF for Java
+og_title: Aspose PDF for Java를 사용하여 attachments 추출하는 방법
+schemas:
+- author: Aspose
+  dateModified: '2026-08-11'
+  description: Learn how to extract attachments using Aspose PDF for Java, read PDF
+    attachment metadata, and manage embedded files efficiently.
+  headline: How to extract attachments with Aspose PDF for Java
+  type: TechArticle
+- description: Learn how to extract attachments using Aspose PDF for Java, read PDF
+    attachment metadata, and manage embedded files efficiently.
+  name: How to extract attachments with Aspose PDF for Java
+  steps:
+  - name: '**Specify your document directory** – tell the runtime where the source
+      PDF lives.'
+    text: '**Specify your document directory** – tell the runtime where the source
+      PDF lives.'
+  - name: '**Load the PDF document** – instantiate the `Document` class to read the
+      file.'
+    text: '**Load the PDF document** – instantiate the `Document` class to read the
+      file.'
+  - name: '**Retrieve the list of embedded files** – the `getEmbeddedFiles()` method
+      returns a collection you can iterate.'
+    text: '**Retrieve the list of embedded files** – the `getEmbeddedFiles()` method
+      returns a collection you can iterate.'
+  - name: '**Print basic properties** – use the `FileSpecification` object to output
+      key details.'
+    text: '**Print basic properties** – use the `FileSpecification` object to output
+      key details.'
+  - name: '**Retrieve additional parameters** – check for custom parameters if they
+      exist.'
+    text: '**Retrieve additional parameters** – check for custom parameters if they
+      exist.'
+  type: HowTo
+- questions:
+  - answer: Yes—acquire a production licence from the [purchase page](https://purchase.aspose.com/buy).
+    question: Can I use Aspose.PDF for commercial purposes?
+  - answer: The `getEmbeddedFiles()` collection will be empty; always check `if (attachments.isEmpty())`
+      before iterating.
+    question: What if my PDF doesn't contain embedded files?
+  - answer: Use the library’s streaming API and configure the JVM heap size; Aspose.PDF
+      processes files in a forward‑only manner to minimise memory footprint.
+    question: How do I handle very large PDFs without exhausting memory?
+  - answer: Aspose.PDF supports any file type that can be stored as a binary stream,
+      but common formats like DOCX, XLSX, PNG, and JPEG are fully recognised and their
+      MIME types are returned automatically.
+    question: Are there limits on the types of files that can be embedded?
+  - answer: Visit the [Aspose's support forum](https://forum.aspose.com/c/pdf/10)
+      or consult the official documentation for troubleshooting tips.
+    question: Where can I get help if I run into issues?
+  type: FAQPage
+tags:
+- extract attachments
+- Aspose.PDF
+- Java PDF processing
+title: Aspose PDF for Java를 사용하여 attachments 추출하는 방법
 url: /ko/java/attachments-embedded-files/master-aspose-pdf-java-access-manage-embedded-files/
 weight: 1
 ---
@@ -16,67 +76,61 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose PDF Java 튜토리얼: PDF에 포함된 파일 액세스 및 관리
+# Aspose PDF for Java를 사용한 첨부 파일 추출 방법
 
 ## 소개
 
-Java를 사용하여 PDF에 포함된 파일을 관리하는 데 어려움이 있나요? **첨부 파일 추출**, 메타데이터 검색 또는 PDF 내부에 숨겨진 파일을 단순히 나열하고 싶다면, 이 **aspose pdf java tutorial**이 정확한 방법을 보여줍니다. PDF를 로드하고, 포함된 자산에 접근하며, 자세한 첨부 파일 정보를 읽는 과정을 단계별로 따라 할 수 있는 명확하고 대화형 설명과 함께 안내합니다.
+Java 애플리케이션에서 PDF의 **첨부 파일을 추출**해야 한다면, 이 튜토리얼이 정확히 어떻게 하는지 보여줍니다. PDF를 로드하고, 포함된 파일들을 열거하며, 이름, MIME 유형, 체크섬, 생성 날짜 및 크기와 같은 상세 메타데이터를 읽는 방법을 배웁니다. 모든 예제는 JVM에서 PDF 조작을 위한 가장 포괄적인 라이브러리인 Aspose.PDF for Java를 사용합니다.
 
 ### 빠른 답변
-- **주된 목표는 무엇인가요?** PDF를 로드하고 포함된 파일의 속성을 읽는 것입니다.  
-- **사용된 라이브러리는?** Aspose.PDF for Java.  
-- **라이선스가 필요한가요?** 테스트용으로는 무료 체험판으로 충분하지만, 운영 환경에서는 상용 라이선스가 필요합니다.  
-- **여러 PDF를 한 번에 처리할 수 있나요?** 예, 이 코드를 배치 처리 기법과 결합하면 가능합니다.  
-- **읽을 수 있는 메타데이터는?** 이름, 설명, MIME 타입, 체크섬, 생성/수정 날짜, 크기 등입니다.
+- **주요 목표는 무엇인가요?** PDF를 로드하고 포함된 파일의 속성을 읽습니다.  
+- **어떤 라이브러리를 사용해야 하나요?** Aspose.PDF for Java.  
+- **라이선스가 필요합니까?** 테스트용으로는 무료 체험판을 사용할 수 있으며, 프로덕션에서는 상업용 라이선스가 필요합니다.  
+- **여러 PDF를 한 번에 처리할 수 있나요?** 예, 이 코드를 배치 처리 기술과 결합하면 됩니다.  
+- **어떤 메타데이터를 읽을 수 있나요?** 이름, 설명, MIME 유형, 체크섬, 생성/수정 날짜 및 크기.
 
-## Aspose PDF Java 튜토리얼이란?
-
-이 튜토리얼에서는 **load pdf document java** 파일을 로드하고, 포함된 리소스에 접근하며, **read pdf attachment metadata**와 같은 유용한 메타데이터를 추출하는 방법을 배웁니다. 마지막에는 Java 프로젝트 어디에든 삽입할 수 있는 재사용 가능한 코드 스니펫을 얻게 됩니다.
+## 첨부 파일 추출이란 무엇인가요?
+**첨부 파일 추출**은 PDF 컨테이너 안에 포함된 파일을 찾아서 가져오는 과정을 의미합니다. Aspose.PDF for Java는 PDF 뷰어를 열지 않고도 이러한 포함된 리소스를 열거할 수 있는 프로그래밍 API를 제공합니다.
 
 ## 왜 Aspose.PDF for Java를 사용하나요?
+Aspose.PDF는 DOCX, XLSX, PPTX, HTML 및 이미지 형식을 포함한 **50개 이상의 입력 및 출력 형식**을 지원하며, 전체 파일을 메모리에 로드하지 않고도 최대 2 GB 크기의 PDF를 처리할 수 있습니다. 이 라이브러리는 모든 JVM 호환 플랫폼에서 실행되며, 일반 문서에 대해 서브초 수준의 응답 시간을 제공하고, 파일 무결성을 보장하기 위한 내장 체크섬 검증을 포함합니다.
 
-- **풍부한 기능 세트** – 포함된 파일, 주석, 디지털 서명을 완벽히 지원합니다.  
-- **고성능** – 대규모 문서 처리에 최적화되었습니다.  
-- **크로스 플랫폼** – 모든 JVM 호환 환경에서 작동합니다.  
+## 사전 요구 사항
 
-## 전제 조건
-
-### 필요한 라이브러리, 버전 및 종속성
-이 튜토리얼을 따라하려면 다음이 필요합니다:
-- **Aspose.PDF for Java**, 버전 25.3 이상.  
-- Java 애플리케이션을 실행할 수 있는 개발 환경(예: Eclipse, IntelliJ IDEA).
+### 필요 라이브러리, 버전 및 종속성
+- **Aspose.PDF for Java**, version 25.3 or later.  
+- Eclipse 또는 IntelliJ IDEA와 같은 Java IDE.
 
 ### 환경 설정 요구 사항
-시스템에 다음이 설치되어 있는지 확인하십시오:
-- Java Development Kit (JDK) 8 이상.
+- Java Development Kit (JDK) 8 이상 설치 및 `PATH`에 설정.
 
-### 지식 전제 조건
-Java 프로그래밍에 대한 기본 이해가 필요하며, 프로젝트 종속성 관리를 위해 Maven 또는 Gradle 빌드 도구에 익숙해야 합니다.
+### 지식 사전 요구 사항
+- Java 구문에 대한 친숙함.  
+- 의존성 관리를 위한 Maven 또는 Gradle 사용 경험.
 
 ## Aspose.PDF for Java 설정
-Aspose.PDF를 시작하는 것은 간단합니다. 먼저 Maven이나 Gradle을 사용하여 라이브러리를 프로젝트에 추가했는지 확인하십시오.
+Maven 또는 Gradle을 사용하여 프로젝트에 라이브러리를 추가합니다.
 
-**Maven Dependency:**
+**Maven dependency:**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-pdf</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle Implementation:**
+**Gradle implementation:**  
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
-```
+```  
 
 ### 라이선스 획득 단계
-Aspose.PDF를 사용하려면 다음 중 하나를 선택하십시오:
-- **Free Trial**: 평가용 임시 라이선스를 [here](https://purchase.aspose.com/temporary-license/)에서 시작하십시오.  
-- **Purchase**: 운영용으로는 [Aspose's purchasing page](https://purchase.aspose.com/buy)를 통해 정식 라이선스를 구매하십시오.
+- **무료 체험:** [여기](https://purchase.aspose.com/temporary-license/)에서 임시 라이선스를 얻으세요.  
+- **정식 라이선스:** [Aspose 구매 페이지](https://purchase.aspose.com/buy)에서 프로덕션 라이선스를 구매하세요.
 
 ### 기본 초기화 및 설정
-프로젝트에 라이브러리를 설정한 후에는 다음과 같이 Aspose.PDF를 초기화합니다:
+라이브러리가 클래스패스에 추가되면 다음과 같이 초기화할 수 있습니다:  
 ```java
 import com.aspose.pdf.Document;
 
@@ -89,66 +143,62 @@ class PDFHandler {
         System.out.println("Aspose.PDF for Java Initialized.");
     }
 }
-```
+```  
 
-## PDF 문서 Java 로드 방법
-PDF 문서를 로드하는 것이 포함된 파일에 접근하기 위한 첫 번째 단계입니다. 아래 섹션에서는 필요한 정확한 코드를 보여줍니다.
+## Java에서 PDF 문서 로드 방법
 
-### 구현 가이드
+Aspose.PDF를 사용하면 PDF 로드가 간단합니다. 파일 경로를 전달하여 `Document` 인스턴스를 생성하면 파일 구조를 읽고 조작을 위해 준비합니다. `Document` 클래스는 메모리 내 전체 PDF를 나타내며, 뷰어를 열지 않고도 페이지, 리소스 및 포함된 파일을 조회할 수 있습니다.  
+```text
+Document pdfDoc = new Document("input.pdf");
+```  
+(플레이스홀더를 실제 파일 경로로 교체하십시오.)
 
-### 기능 1: PDF 문서 로드
-PDF 문서를 로드하는 것이 포함된 파일에 접근하기 위한 첫 번째 단계입니다.
-
-**개요:**  
-이 기능은 Aspose.PDF for Java를 사용하여 기존 PDF를 로드하는 방법을 보여주며, 포함된 파일 속성을 추출하는 등 이후 작업을 위한 기반을 마련합니다.
-
-#### 단계별 구현
-1. **문서 디렉터리 지정:**  
-   입력 PDF가 저장된 위치를 정의합니다.  
+### 단계별 구현
+1. **문서 디렉터리 지정** – 런타임에 원본 PDF가 위치한 경로를 알려줍니다.  
    ```java
    String dataDir = "YOUR_DOCUMENT_DIRECTORY";
-   ```
-2. **PDF 문서 로드:**  
-   `Document` 클래스를 사용하여 지정된 경로에서 PDF 파일을 로드합니다.  
+   ```  
+2. **PDF 문서 로드** – 파일을 읽기 위해 `Document` 클래스를 인스턴스화합니다.  
    ```java
    import com.aspose.pdf.Document;
 
    Document pdfDocument = new Document(dataDir + "/input.pdf");
    System.out.println("PDF Loaded Successfully.");
-   ```
+   ```  
 
-### 기능 2: PDF 내 포함된 파일 접근
-로드된 문서 내 포함된 파일에 접근하는 것은 해당 속성을 추출하는 데 필수적입니다.
+## PDF 내에 포함된 PDF 파일에 접근하는 방법
 
-**개요:**  
-이 기능은 Aspose.PDF의 `FileSpecification` 클래스를 사용하여 포함된 파일 목록에 접근하고 특정 파일을 가져오는 방법을 보여줍니다.
+`Document` 객체의 `FileSpecification` 컬렉션을 통해 포함된 파일 컬렉션을 가져올 수 있습니다. 이 연산은 첨부 파일 수 *n*에 대해 O(n)이며, 각 파일의 전체 내용을 메모리에 로드할 필요가 없습니다. `FileSpecification` 클래스는 PDF 내 포함된 파일 항목을 나타냅니다.  
+```text
+FileSpecificationCollection attachments = pdfDoc.getEmbeddedFiles();
+```  
 
-#### 단계별 구현
-1. **포함된 파일 목록 가져오기:**  
-   PDF 내 포함된 파일 컬렉션에 접근합니다.  
+### 단계별 구현
+1. **포함된 파일 목록 가져오기** – `getEmbeddedFiles()` 메서드는 반복 가능한 컬렉션을 반환합니다.  
    ```java
    import com.aspose.pdf.FileSpecification;
 
    FileSpecification fileSpecification = pdfDocument.getEmbeddedFiles().get_Item(1);
    System.out.println("Accessed Embedded File.");
-   ```
+   ```  
 
-### 기능 3: 포함된 파일의 파일 속성 가져오기
-포함된 파일의 속성을 추출하면 유용한 메타데이터를 얻을 수 있습니다.
+## PDF 첨부 파일 메타데이터 읽는 방법
 
-**개요:**  
-이 기능은 PDF 내 포함된 파일에서 이름, 설명, MIME 타입 등 다양한 속성을 가져오는 방법을 설명합니다.
+메타데이터를 읽으면 MIME 유형별 필터링이나 체크섬 검증 등 추가 처리 전에 결정을 내릴 수 있습니다. `FileSpecification` 객체는 이름, 설명, MIME 유형, 생성 날짜, 수정 날짜 및 크기 속성을 제공합니다. 이러한 필드를 검사함으로써 비즈니스 규칙에 따라 어떤 첨부 파일을 추출, 이름 변경 또는 무시할지 프로그래밍적으로 결정할 수 있습니다.  
+```text
+String name = fileSpec.getName();
+String mime = fileSpec.getMimeType();
+Date created = fileSpec.getCreationDate();
+```  
 
-#### 단계별 구현
-1. **기본 속성 출력:**  
-   `FileSpecification` 객체를 사용하여 기본 속성에 접근합니다.  
+### 단계별 구현
+1. **기본 속성 출력** – `FileSpecification` 객체를 사용하여 주요 세부 정보를 출력합니다.  
    ```java
    System.out.println("Name:-" + fileSpecification.getName());
    System.out.println("Description:- " + fileSpecification.getDescription());
    System.out.println("Mime Type:-" + fileSpecification.getMIMEType());
-   ```
-2. **추가 매개변수 가져오기:**  
-   가능한 경우 추가 메타데이터를 확인합니다.  
+   ```  
+2. **추가 매개변수 가져오기** – 존재한다면 사용자 정의 매개변수를 확인합니다.  
    ```java
    if (fileSpecification.getParams() != null) {
        System.out.println("CheckSum:- " + fileSpecification.getParams().getCheckSum());
@@ -156,63 +206,73 @@ PDF 문서를 로드하는 것이 포함된 파일에 접근하기 위한 첫 �
        System.out.println("Modification Date:- " + fileSpecification.getParams().getModDate());
        System.out.println("Size:- " + fileSpecification.getParams().getSize());
    }
-   ```
+   ```  
+
+## PDF 첨부 파일 크기 가져오기
+
+첨부 파일의 크기는 `getSize()` 메서드를 통해 얻을 수 있으며, 스트림을 압축 해제하지 않고 바이트 수를 반환합니다. 이를 통해 미리 정의된 임계값을 초과하는 파일을 빠르게 건너뛸 수 있습니다. 크기를 알면 적절한 버퍼를 할당하고 첨부 파일을 메모리에 저장할지 디스크로 직접 스트리밍할지 결정하는 데 도움이 됩니다.  
+```text
+long sizeInBytes = fileSpec.getSize();
+```  
 
 ## 실용적인 적용 사례
 
 ### 사용 사례 1: 디지털 자산 관리
-디지털 라이브러리를 위해 **how to extract attachments** 프로세스를 자동화하여 손쉬운 검색 및 관리를 보장합니다.
+대규모 디지털 라이브러리를 위해 **첨부 파일 추출** 프로세스를 자동화하고, 각 포함된 파일이 메타데이터와 함께 인덱싱되도록 보장합니다.
 
 ### 사용 사례 2: 문서 보관 시스템
-PDF 파일에 메타데이터를 삽입하여 문서 버전 또는 개정 사항을 직접 추적합니다.
+PDF에 직접 개정 정보를 삽입하고, 이후 메타데이터 API를 사용해 이를 검색하여 버전 기록을 추적합니다.
 
 ### 사용 사례 3: 콘텐츠 검증
-첨부 문서를 처리하기 전에 체크섬을 확인하여 파일 무결성을 검증합니다.
+다운스트림 처리 전에 저장된 체크섬을 새로 계산한 체크섬과 비교하여 파일 무결성을 검증합니다.
 
 ## 성능 고려 사항
-Aspose.PDF를 사용할 때 성능을 최적화하려면:
-- **메모리 사용 최적화**: 대규모 PDF 작업을 위한 Java 메모리 설정을 관리합니다.  
-- **효율적인 파일 처리**: 이 로직을 **batch process pdf files** 기법과 결합하여 오버헤드를 줄입니다.  
-- **모범 사례**: 사용 후 항상 리소스를 해제하고 문서 객체를 닫습니다.
+- **메모리 최적화:** 대용량 PDF에 맞게 `-Xmx`를 적절히 설정합니다; Aspose.PDF는 데이터를 스트리밍하고 전체 문서를 RAM에 로드하지 않습니다.  
+- **배치 처리:** 위 코드를 PDF 디렉터리를 순회하는 루프와 결합하여 **PDF 첨부 파일을 배치 처리**합니다.  
+- **리소스 정리:** 작업이 끝난 후 항상 `pdfDoc.dispose()`를 호출하여 네이티브 리소스를 해제합니다.
 
-## 결론
-이 **aspose pdf java tutorial**을 따라 하면 Aspose.PDF for Java를 사용해 PDF를 로드하고, 포함된 파일에 접근하며, 해당 속성을 추출하는 방법을 배웠습니다. 이러한 기능은 복잡한 PDF 작업을 효율적으로 처리하는 애플리케이션의 역량을 크게 향상시킬 수 있습니다.
+## 자주 묻는 질문
 
-**다음 단계:**
-- 문서 조작 또는 텍스트 추출과 같은 Aspose.PDF의 추가 기능을 탐색합니다.  
-- 배치 처리 파이프라인 등 다른 시스템과 통합하여 기능을 강화하는 것을 고려합니다.
+**Q: Aspose.PDF를 상업적으로 사용할 수 있나요?**  
+A: 예—[구매 페이지](https://purchase.aspose.com/buy)에서 프로덕션 라이선스를 획득하세요.
 
-시도해 볼 준비가 되셨나요? 더 고급 시나리오에 뛰어들어 Java 애플리케이션의 역량을 오늘 바로 확장하십시오!
+**Q: PDF에 포함된 파일이 없으면 어떻게 되나요?**  
+A: `getEmbeddedFiles()` 컬렉션은 비어 있을 것이며, 반복하기 전에 항상 `if (attachments.isEmpty())`를 확인하세요.
 
-## FAQ 섹션
-1. **Can I use Aspose.PDF for commercial purposes?**  
-   - 예, [purchase page](https://purchase.aspose.com/buy)에서 적절한 라이선스를 획득하면 상업적으로 사용할 수 있습니다.  
-2. **What if my PDF doesn't contain embedded files?**  
-   - `get_Item()` 메서드는 null을 반환하므로 항상 이 조건을 확인해야 합니다.  
-3. **How do I handle large PDFs efficiently?**  
-   - 성능 섹션에서 논의한 대로 메모리 설정을 최적화하고 효율적인 파일 처리 기법을 사용하십시오.  
-4. **Are there any limitations to accessing embedded files?**  
-   - Aspose.PDF는 대부분의 표준 포함 파일에 접근할 수 있지만, 최상의 결과를 위해 일반적인 형식에 맞는지 확인하십시오.  
-5. **What if I encounter errors during implementation?**  
-   - [Aspose's support forum](https://forum.aspose.com/c/pdf/10)에서 문의하거나 문서를 확인하여 문제 해결 가이드를 참고하십시오.
+**Q: 메모리를 고갈시키지 않고 매우 큰 PDF를 처리하려면 어떻게 해야 하나요?**  
+A: 라이브러리의 스트리밍 API를 사용하고 JVM 힙 크기를 설정하세요; Aspose.PDF는 메모리 사용량을 최소화하기 위해 파일을 순방향 방식으로 처리합니다.
 
-## 리소스
-- **Documentation**: [Learn More about Aspose.PDF for Java](https://reference.aspose.com/pdf/java/)  
-- **Download Library**: [Get the Latest Version](https://releases.aspose.com/pdf/java/)  
-- **Purchase License**: [Buy Now](https://purchase.aspose.com/buy)  
-- **Free Trial**: [Try It Out](https://releases.aspose.com/pdf/java/)  
-- **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
+**Q: 포함될 수 있는 파일 유형에 제한이 있나요?**  
+A: Aspose.PDF는 바이너리 스트림으로 저장 가능한 모든 파일 유형을 지원하지만, DOCX, XLSX, PNG, JPEG와 같은 일반 형식은 완전히 인식되며 MIME 유형이 자동으로 반환됩니다.
+
+**Q: 문제가 발생하면 어디서 도움을 받을 수 있나요?**  
+A: [Aspose 지원 포럼](https://forum.aspose.com/c/pdf/10)을 방문하거나 공식 문서를 참고하여 문제 해결 팁을 확인하세요.
+
+## 추가 리소스
+
+- Aspose.PDF for Java에 대해 자세히 알아보기: [Aspose.PDF for Java에 대해 자세히 알아보기](https://reference.aspose.com/pdf/java/)
+- 라이브러리 최신 버전 받기: [최신 버전 받기](https://releases.aspose.com/pdf/java/)
+- 라이선스 구매: [지금 구매](https://purchase.aspose.com/buy)
+- 라이브러리 체험: [체험하기](https://releases.aspose.com/pdf/java/)
+- 임시 라이선스 요청: [임시 라이선스 요청](https://purchase.aspose.com/temporary-license/)
 
 ---
 
-**마지막 업데이트:** 2026-03-01  
-**테스트 환경:** Aspose.PDF for Java 25.3  
+**마지막 업데이트:** 2026-08-11  
+**테스트 환경:** Aspose.PDF for Java 25.3  
 **작성자:** Aspose
+
+## 관련 튜토리얼
+
+- [Aspose.PDF for Java를 사용한 PDF 내장 첨부 파일 생성 방법 - 개발자 가이드](/pdf/java/attachments-embedded-files/add-attachments-pdf-aspose-pdf-java/)
+- [Aspose.PDF for Java를 사용한 PDF 첨부 파일 효율적 제거 방법](/pdf/java/attachments-embedded-files/remove-attachments-pdf-aspose-java/)
+- [Aspose.PDF Java로 PDF 포트폴리오에서 포함된 파일 추출](/pdf/java/attachments-embedded-files/extract-files-pdf-portfolio-aspose-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
