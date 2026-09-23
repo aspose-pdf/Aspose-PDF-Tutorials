@@ -85,6 +85,8 @@ Dowiedz się, jak konwertować dokumenty PDF na wysokiej jakości obrazy PNG za 
 
 ### [Zapisz PDF jako PNG i konwertuj do PDF/X‑1a przy użyciu Aspose PDF](./save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf/)
 Dowiedz się, jak zapisać PDF jako PNG, a następnie przekształcić go do standardu PDF/X‑1a przy użyciu Aspose.PDF w .NET.
+### [Konwertuj PDF do PNG w C# – Kompletny przewodnik krok po kroku](./convert-pdf-to-png-in-c-complete-step-by-step-guide/)
+Dowiedz się, jak konwertować pliki PDF na obrazy PNG w C# przy użyciu Aspose.PDF, krok po kroku z praktycznymi przykładami.
 ### [Jak renderować PDF do PNG w C# – Kompletny przewodnik](./how-to-render-pdf-to-png-in-c-complete-guide/)
 Dowiedz się, jak renderować pliki PDF do obrazów PNG w C# przy użyciu Aspose.PDF, krok po kroku.
 
@@ -246,8 +248,6 @@ Dowiedz się, jak zapisać dokument PDF przy użyciu Aspose w prostych krokach, 
 Dowiedz się, jak szybko zapisać plik PDF jako HTML przy użyciu Aspose.PDF w C#.
 ### [Aspose PDF do PNG – Eksportuj pierwszą stronę w 300 DPI](./aspose-pdf-to-png-export-first-page-at-300-dpi/)
 Dowiedz się, jak wyeksportować pierwszą stronę pliku PDF jako obraz PNG w rozdzielczości 300 DPI przy użyciu Aspose.PDF dla .NET.
-### [Konwertuj PDF do PNG w C# – Kompletny przewodnik krok po kroku](./convert-pdf-to-png-in-c-complete-step-by-step-guide/)
-Dowiedz się, jak konwertować pliki PDF na obrazy PNG w C# przy użyciu Aspose.PDF, krok po kroku, z praktycznymi przykładami kodu.
 
 ## Dodatkowe zasoby
 

@@ -95,8 +95,8 @@ Aspose.PDF for .NET을 사용하여 PDF 문서를 고품질 PNG 이미지로 변
 ### [Aspose.PDF .NET을 사용하여 PDF를 PNG로 변환: 포괄적인 가이드](./convert-pdf-to-png-aspose-net/)
 Aspose.PDF for .NET을 사용하여 PDF 페이지를 고품질 PNG 이미지로 변환하는 방법을 알아보세요. 이 단계별 가이드를 따라 변환 과정을 효율적으로 자동화하세요.
 
-### [C#에서 PDF를 PNG로 변환하기 – 완전 단계별 가이드](./convert-pdf-to-png-in-c-complete-step-by-step-guide/)
-Aspose.PDF for .NET을 사용하여 C#에서 PDF 파일을 고품질 PNG 이미지로 변환하는 방법을 단계별로 안내합니다.
+### [C#에서 PDF를 PNG로 변환 – 완전 단계별 가이드](./convert-pdf-to-png-in-c-complete-step-by-step-guide/)
+Aspose.PDF for .NET을 사용하여 C#에서 PDF를 고품질 PNG 이미지로 변환하는 방법을 단계별로 안내합니다.
 
 ### [Aspose.PDF for .NET을 사용하여 PDF를 PPTX로 변환: 단계별 가이드](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 Aspose.PDF for .NET을 사용하여 PDF 문서를 PowerPoint 프레젠테이션으로 효율적으로 변환하는 방법을 알아보세요. 이 단계별 가이드는 기본 변환, 이미지 슬라이드와 같은 고급 기능, 진행률 추적 등을 다룹니다.
@@ -171,7 +171,7 @@ Aspose.PDF for .NET을 사용하여 PDF에서 주석을 효율적으로 내보�
 Aspose.PDF .NET을 사용하여 PDF 문서에 HTML 콘텐츠를 원활하게 추가하는 방법을 알아보세요. 이 가이드에서는 동적 문서 생성을 위한 설정, 구현 및 실제 적용 방법을 다룹니다.
 
 ### [Aspose.PDF for .NET을 사용하여 CGM 파일을 PDF로 변환하는 방법](./aspose-pdf-net-cgm-to-pdf-conversion/)
-Aspose.PDF for .NET을 사용하여 컴퓨터 그래픽 메타파일(CGM) 파일을 PDF로 원활하게 변환하는 방법을 알아보세요. 이 가이드는 .NET 애플리케이션의 설정, 변환 및 통합에 대해 다룹니다.
+Aspose.PDF for .NET을 사용하여 컴퓨터 그래픽 메타파일(CGM) 파일을 PDF로 원활하게 변환하는 방법을 알아보세요. 이 가이드에서는 .NET 애플리케이션의 설정, 변환 및 통합에 대해 다룹니다.
 
 ### [.NET용 Aspose.PDF를 사용하여 CGM 파일을 PDF로 변환하는 방법: 개발자 가이드](./convert-cgm-to-pdf-aspose-dotnet-guide/)
 Aspose.PDF for .NET을 사용하여 컴퓨터 그래픽 메타파일(CGM) 이미지를 PDF 형식으로 변환하는 방법을 알아보세요. 이 가이드에서는 설정, 변환 단계 및 문제 해결 팁을 다룹니다.

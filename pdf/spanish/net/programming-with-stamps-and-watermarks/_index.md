@@ -15,7 +15,7 @@
 # Programación con sellos y marcas de agua
 
 
-Los tutoriales de Aspose.PDF "Programación con sellos y marcas de agua" para .NET te guían paso a paso para añadir sellos y marcas de agua a tus documentos PDF. Aprenderás a personalizar sellos, aplicar marcas de agua de texto y gráficos, y gestionar su posición y apariencia. Estos tutoriales te ayudarán a añadir una capa de seguridad e identificación a sus archivos PDF de forma sencilla y eficaz.
+Los tutoriales de Aspose.PDF "Programación con sellos y marcas de agua" para .NET te guían paso a paso para añadir sellos y marcas de agua a tus documentos PDF. Aprenderás a personalizar sellos, aplicar marcas de agua de texto y gráficos, y gestionar su posición y apariencia. Estos tutoriales te ayudarán a añadir una capa de seguridad e identificación a tus archivos PDF de forma sencilla y eficaz.
 
 ## Tutoriales
 | Título | Descripción |
@@ -39,6 +39,8 @@ Los tutoriales de Aspose.PDF "Programación con sellos y marcas de agua" para .N
 | [Tabla en la sección de encabezado y pie de página](./table-in-header-footer-section/) Aprenda a agregar texto fácilmente al pie de página de un archivo PDF con Aspose.PDF para .NET. Incluye una guía paso a paso para una integración perfecta.  
 | [Texto en el pie de página del archivo PDF](./text-in-footer/) | Aprenda a agregar texto en el pie de página de un PDF con Aspose.PDF para .NET. |  
 | [Texto en el encabezado del archivo PDF](./text-in-header/) Aprenda a agregar encabezados de texto a archivos PDF con Aspose.PDF para .NET con este tutorial paso a paso. Mejore sus documentos de forma eficiente y eficaz.  
+| [Cómo agregar un sello a PDF con Aspose.Pdf – Guía paso a paso](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) | Aprenda a añadir un sello a un documento PDF usando Aspose.Pdf con esta guía paso a paso y ejemplos de código. |
+| [Crear aviso de página completa en PDF – Guía rápida en C#](./create-pdf-full-page-notice-quick-c-guide/) | Aprenda a crear un aviso de página completa en un PDF usando Aspose.PDF para .NET con una guía rápida en C#. |
 | [Tutorial de numeración Bates: agregar números Bates a PDFs con C#](./bates-numbering-tutorial-add-bates-numbers-to-pdfs-with-c/) | Aprenda a añadir números Bates a sus PDFs usando Aspose.PDF para .NET con C# en esta guía paso a paso. |
 | [Cambiar la opacidad del PDF en C# – Guía completa de Aspose](./change-pdf-opacity-in-c-complete-aspose-guide/) | Aprenda a cambiar la opacidad de un PDF usando Aspose.PDF para .NET en C# con esta guía paso a paso. |
 | [Agregar numeración Bates a PDF – Guía completa en C#](./add-bates-numbering-pdf-complete-c-guide/) | Aprenda a agregar numeración Bates a sus archivos PDF usando Aspose.PDF para .NET con esta guía completa paso a paso en C#. |
@@ -48,8 +50,6 @@ Los tutoriales de Aspose.PDF "Programación con sellos y marcas de agua" para .N
 | [Crear marca de agua PDF – Añadir sello y convertir DOCX a PDF](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) Aprenda a crear una marca de agua en PDF, agregar un sello y convertir DOCX a PDF con Aspose.PDF para .NET.  
 | [Crear documento PDF con numeración Bates en C# – Guía completa](./create-pdf-document-with-bates-numbering-in-c-full-guide/) | Aprenda a crear documentos PDF con numeración Bates usando Aspose.PDF para .NET en C# con esta guía paso a paso. |
 | [Agregar sello a PDF – Aplicar marca de agua en la primera página](./add-stamp-to-pdf-apply-watermark-pdf-on-first-page/) | Aprenda a agregar un sello y aplicar una marca de agua en la primera página de un PDF usando Aspose.PDF para .NET con esta guía paso a paso. |
-| [Cómo agregar un sello a PDF con Aspose.Pdf – Guía paso a paso](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) | Aprenda a añadir un sello a un documento PDF usando Aspose.Pdf con esta guía paso a paso y ejemplos de código. |
-| [Crear aviso de página completa en PDF – Guía rápida en C#](./create-pdf-full-page-notice-quick-c-guide/) | Aprenda a crear un aviso de página completa en un PDF usando Aspose.PDF para .NET con una guía rápida en C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

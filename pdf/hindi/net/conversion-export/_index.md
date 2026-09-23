@@ -54,6 +54,8 @@ Aspose.PDF नेट के लिए एक कोड ट्यूटोरि�
 जानें कि .NET के लिए Aspose.PDF का उपयोग करके PDF पृष्ठों को उच्च-गुणवत्ता वाली PNG छवियों में कैसे परिवर्तित किया जाए। रूपांतरण प्रक्रिया को कुशलतापूर्वक स्वचालित करने के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें।
 
 ### [C# में PDF को PNG में बदलें – पूर्ण चरण‑दर‑चरण गाइड](./convert-pdf-to-png-in-c-complete-step-by-step-guide/)
+C# और Aspose.PDF का उपयोग करके PDF फ़ाइलों को उच्च गुणवत्ता वाले PNG छवियों में बदलने के लिए विस्तृत चरण-दर-चरण मार्गदर्शिका।
+
 ### [.NET के लिए Aspose.PDF के साथ PDF को BMP में बदलें: एक चरण-दर-चरण मार्गदर्शिका](./convert-pdf-to-bmp-aspose-pdf-net/)
 ### [C# में PDF को PNG में रेंडर करने की पूरी गाइड](./how-to-render-pdf-to-png-in-c-complete-guide/)
 Aspose.PDF .NET का उपयोग करके C# में PDF फ़ाइलों को उच्च-गुणवत्ता वाले PNG छवियों में बदलने के चरण-दर-चरण निर्देश।
@@ -250,7 +252,7 @@ Aspose.PDF का उपयोग करके C# में PDF को उच्
 - [Aspose.PDF for Net API संदर्भ](https://reference.aspose.com/pdf/net/)
 - [नेट के लिए Aspose.PDF डाउनलोड करें](https://releases.aspose.com/pdf/net/)
 - [निःशुल्क सहायता](https://forum.aspose.com/)
-- [अस्थायी लाइसेंस](httpshttps://purchase.aspose.com/temporary-license/)
+- [अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
