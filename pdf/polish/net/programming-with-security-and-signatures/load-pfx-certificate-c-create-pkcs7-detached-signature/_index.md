@@ -287,6 +287,11 @@ class Program
         // 5️⃣ Generate detached signature
         byte[] signature = pkcs7Signer.Sign(data);
         File.WriteAllBytes
+        File.WriteAllBytes(dataFile + ".sig", signature);
+        Console.WriteLine("Detached PKCS7 signature created successfully.");
+    }
+}
+```
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

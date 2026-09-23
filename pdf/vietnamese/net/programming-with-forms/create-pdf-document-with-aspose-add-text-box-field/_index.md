@@ -190,6 +190,16 @@ class Program
         };
 
         // 5️⃣ Thêm widget thứ hai trên trang
+        var secondWidget = textBoxField.CreateWidget(new Rectangle(100, 400, 300, 420));
+
+        // Step 6: Register the field (with both widgets) in the document's form collection
+        document.Form.Add(textBoxField, "MultiWidget");
+
+        // Step 7: Save the PDF to disk
+        document.Save("MultiWidgetExample.pdf");
+    }
+}
+```
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

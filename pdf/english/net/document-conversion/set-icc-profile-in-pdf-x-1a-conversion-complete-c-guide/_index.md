@@ -247,7 +247,8 @@ class PdfX1aConverter
 **Expected output** when you run the program (assuming all files exist):
 
 ```
-✅ Conversion complete. PDF/X‑1A saved to YOUR_DIRECTORY/output_pdfx1a
+✅ Conversion complete. PDF/X‑1A saved to YOUR_DIRECTORY/output_pdfx1a.pdf
+```
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
