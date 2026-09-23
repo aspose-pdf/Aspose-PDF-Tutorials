@@ -53,7 +53,7 @@ Aspose.PDF for .NET を使用して、アクセシビリティが高く、構造
 ### [Aspose.Pdf で各 PDF レイヤーを保存する – ステップバイステップ ガイド](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
 Aspose.Pdf を使用して、PDF の各レイヤーを個別に保存する方法をステップバイステップで学びます。
 
-### [Aspose.PDF for .NET を使用してタグ付き PDF を作成する方法: 上級ガイド](./creating-tagged-pdfs-aspose-pdf-dotnet/)
+### [Aspose.PDF for .NET でタグ付き PDF を作成する方法: 上級ガイド](./creating-tagged-pdfs-aspose-pdf-dotnet/)
 Aspose.PDF for .NET を使用して、アクセシブルなタグ付きPDFドキュメントを作成する方法を学びましょう。この包括的なガイドで、ドキュメントの構造とアクセシビリティを強化しましょう。
 
 ### [Aspose.PDF for .NET を使用して PDF/UA 標準に準拠した PDF を検証する方法: 包括的なガイド](./validate-pdf-ua-standard-aspose-dotnet/)

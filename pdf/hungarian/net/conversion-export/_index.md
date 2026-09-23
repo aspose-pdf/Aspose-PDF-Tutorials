@@ -111,7 +111,7 @@ Tanuld meg, hogyan konvertálhatsz PDF oldalakat kiváló minőségű TIFF képe
 Ismerje meg, hogyan konvertálhat összetett PDF dokumentumokat szerkeszthető TeX formátumba az Aspose.PDF for .NET segítségével. Ez az útmutató a telepítést, a konvertálás lépéseit és a teljesítményoptimalizálást ismerteti.
 
 ### [PDF konvertálása Word-be az Aspose.PDF .NET használatával: Átfogó útmutató](./convert-pdf-word-aspose-net/)
-Tanuld meg, hogyan konvertálhatsz zökkenőmentesen PDF fájlokat DOC és DOCX formátumba az Aspose.PDF for .NET segítségével. Sajátítsd el a haladó konvertálási technikákat lépésről lépésre bemutató útmutatóval.
+Tanuld meg, hogyan konvertálhatsz zökkenőmentesen PDF fájlokat DOC és DOCX formátumba az Aspose.PDF for .NET segítségével. Sajátítsd el a haladó konvertálási technikákat lépésről lépésre bemutató útmutatónkkal.
 
 ### [DOCX exportálása – Lépésről lépésre útmutató C# fejlesztőknek](./how-to-export-docx-step-by-step-guide-for-c-developers/)
 Tanulja meg, hogyan exportálhat DOCX fájlokat C#-ban az Aspose.PDF for .NET segítségével, részletes lépésekkel.

@@ -236,7 +236,7 @@ Naucz się otwierać, pobierać i wyświetlać właściwości dokumentów PDF za
 ### [Opanuj manipulację plikami PDF w .NET przy użyciu Aspose.PDF: kompleksowy przewodnik](./master-pdf-manipulation-net-asposepdf/)
 Dowiedz się, jak skutecznie zarządzać plikami PDF za pomocą Aspose.PDF dla .NET. Bezproblemowo dołączaj, wyodrębniaj i dziel pliki PDF dzięki temu szczegółowemu przewodnikowi.
 
-### [Opanuj manipulację plikami PDF w .NET za pomocą Aspose.PDF: kompleksny przewodnik](./aspose-pdf-net-tutorial/)
+### [Opanuj manipulację plikami PDF w .NET za pomocą Aspose.PDF: kompleksowy przewodnik](./aspose-pdf-net-tutorial/)
 Dowiedz się, jak programowo zarządzać plikami PDF w .NET za pomocą Aspose.PDF. Ten przewodnik obejmuje ładowanie dokumentów, dostęp do pól formularzy i iterowanie opcji.
 
 ### [Opanuj manipulację plikami PDF za pomocą Aspose.PDF .NET: kompleksowy przewodnik po automatyzacji dokumentów](./master-pdf-manipulation-aspose-dotnet-guide/)
@@ -316,17 +316,17 @@ Dowiedz się, jak dzielić wielostronicowe pliki PDF i tworzyć nowe pliki PDF z
 
 ### [Najlepszy przewodnik po manipulacji plikami PDF za pomocą Aspose.PDF .NET: Ładowanie, zapisywanie i zamiana tekstu w sposób wydajny](./master-pdf-manipulation-aspose-pdf-net/)
 
-### [Jak naprawić PDF w C# – Szybko napraw uszkodzone pliki PDF](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
-Dowiedz się, jak w C# szybko naprawić uszkodzone pliki PDF przy użyciu Aspose.PDF.
-
-### [Jak redagować plik PDF w C# przy użyciu Aspose PDF – Kompletny przewodnik](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
-Dowiedz się, jak usuwać wrażliwe informacje z dokumentów PDF przy użyciu Aspose PDF w C# w tym kompletnym przewodniku.
-
 ### [Jak spłaszczyć plik PDF za pomocą Aspose.PDF – Kompletny przewodnik](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
 Dowiedz się, jak spłaszczyć plik PDF, usuwając interaktywne elementy, przy użyciu Aspose.PDF w .NET.
 
 ### [Jak porównać pliki PDF za pomocą Aspose – przewodnik krok po kroku](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
 Dowiedz się, jak porównać dwa pliki PDF, wykrywać różnice i generować raporty przy użyciu Aspose.PDF dla .NET.
+
+### [Jak naprawić PDF w C# – Szybko napraw uszkodzone pliki PDF](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
+Dowiedz się, jak w C# szybko naprawić uszkodzone pliki PDF przy użyciu Aspose.PDF.
+
+### [Jak redagować plik PDF w C# przy użyciu Aspose PDF – Kompletny przewodnik](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
+Dowiedz się, jak usuwać wrażliwe informacje z dokumentów PDF przy użyciu Aspose PDF w C# w tym kompletnym przewodniku.
 
 ## Dodatkowe zasoby
 

@@ -32,8 +32,8 @@
 ### [綜合指南：使用 Aspose.PDF .NET 將 PDF 轉換為 TIFF，實現無縫文件轉換](./convert-pdf-to-tiff-aspose-dotnet-guide/)
 了解如何使用 Aspose.PDF for .NET 將 PDF 文件有效率地轉換為高品質的 TIFF 影像。請按照本逐步指南來增強您的文件處理工作流程。
 
-### [綜合指南：使用 Aspose.PDF .NET 將 PDF 轉換為 HTML 並即時更新進度](./pdf-to-html-conversion-progress-aspose-pdf-net/)
-了解如何使用 Aspose.PDF .NET 將 PDF 轉換為互動式 HTML 格式，並具有即時進度更新功能。非常適合數位行銷人員和電子學習平台。
+### [綜合指南：使用 Aspose.PDF for .NET 將 PDF 轉換為 HTML 並即時更新進度](./pdf-to-html-conversion-progress-aspose-pdf-net/)
+了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為互動式 HTML 格式，並具有即時進度更新功能。非常適合數位行銷人員和電子學習平台。
 
 ### [使用 Aspose.PDF for .NET 將 Excel 轉換為 PDF 表格：逐步指南](./convert-excel-to-pdf-aspose-dotnet/)
 了解如何使用 Aspose.PDF for .NET 有效率地將 Excel 工作表轉換為 PDF 表。本指南提供了逐步說明和重要提示。
@@ -113,7 +113,7 @@ Aspose.PDF Net 程式碼教學
 ### [使用 Aspose.PDF .NET 匯出 DOCX – C# 開發人員逐步指南](./how-to-export-docx-step-by-step-guide-for-c-developers/)
 了解如何使用 Aspose.PDF for .NET 將 PDF 匯出為 DOCX，提供 C# 開發人員的完整步驟說明。
 
-### [使用 Aspose.PDF .NET 將 PDF 轉換為 XML：逐步指南](./convert-pdf-to-xml-aspose-pdf-net/)
+### [使用 Aspose.PDF for .NET 將 PDF 轉換為 XML：逐步指南](./convert-pdf-to-xml-aspose-pdf-net/)
 了解如何使用 Aspose.PDF for .NET 將 PDF 檔案轉換為 XML 格式。增強資料整合和處理能力。
 
 ### [使用 Aspose.PDF .NET 將 PDF/A 轉換為標準 PDF：綜合指南](./convert-pdf-a-standard-pdf-aspose-net/)

@@ -136,7 +136,7 @@
 ### [วิธีเชื่อมโยงสตรีม PDF โดยใช้ Aspose.PDF สำหรับ .NET: คู่มือฉบับสมบูรณ์](./aspose-pdf-net-stream-concatenation-guide/)
 เรียนรู้วิธีเชื่อมโยงสตรีม PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือที่ครอบคลุมนี้ สำรวจคำแนะนำทีละขั้นตอน ข้อกำหนดเบื้องต้น และการใช้งานจริง
 
-### [วิธีเชื่อมโยงไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET: คู่มือฉบับสมบูรณ์](./concatenate-pdfs-aspose-pdf-dotnet-guide/)
+### [วิธีเชื่อมโยงไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET: คู่มือฉบับสมบูรณ์](./concatenate-pdfs-aspose-pdf-dotnet-guide/)
 เรียนรู้วิธีการรวมไฟล์ PDF หลายไฟล์โดยใช้ Aspose.PDF สำหรับ .NET คู่มือฉบับสมบูรณ์นี้ครอบคลุมถึงการตั้งค่า การใช้งาน และแอปพลิเคชันในทางปฏิบัติ
 
 ### [วิธีเชื่อมโยงไฟล์ PDF กับหน้าว่างโดยใช้ Aspose.PDF สำหรับ .NET: คู่มือฉบับสมบูรณ์](./concatenate-pdfs-blank-pages-aspose-pdf-net/)
@@ -211,13 +211,13 @@
 ### [วิธีการทำให้ PDF แฟลตเทนด้วย Aspose.PDF – คู่มือฉบับสมบูรณ์](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
 เรียนรู้วิธีทำให้ PDF แฟลตเทนเพื่อป้องกันการแก้ไขโดยใช้ Aspose.PDF สำหรับ .NET อย่างละเอียด
 
-### [วิธีการแทรกหน้าลงใน PDF โดยใช้ Aspose.PDF สำหรับ .NET: คำแนะนำทีละขั้นตอน](./insert-pages-pdf-aspose-dotnet-guide/)
+### [แทรกหน้าใน PDF โดยใช้ Aspose.PDF สำหรับ .NET: คู่มือฉบับสมบูรณ์สำหรับการจัดการเอกสาร](./insert-pages-pdf-aspose-dotnet-guide/)
 เรียนรู้วิธีแทรกหน้าใน PDF โดยใช้ Aspose.PDF สำหรับ .NET คำแนะนำทีละขั้นตอนนี้ครอบคลุมทุกอย่างตั้งแต่การตั้งค่าจนถึงการใช้งาน เหมาะสำหรับนักพัฒนา C#
 
-### [วิธีการแทรกหน้าใน PDF โดยใช้ Aspose.PDF สำหรับ .NET: คู่มือครอบคลุมสำหรับการจัดการเอกสารอย่างราบรื่น](./aspose-pdf-net-insert-pages-between-numbers/)
+### [แทรกหน้าใน PDF โดยใช้ Aspose.PDF สำหรับ .NET: คู่มือครอบคลุมสำหรับการจัดการเอกสารอย่างราบรื่น](./aspose-pdf-net-insert-pages-between-numbers/)
 เรียนรู้วิธีการแทรกหน้าลงใน PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนนี้ ปรับปรุงเวิร์กโฟลว์เอกสารของคุณอย่างมีประสิทธิภาพ
 
-### [วิธีแทรกหน้าว่างใน PDF โดยใช้ Aspose.PDF .NET: คู่มือฉบับสมบูรณ์](./aspose-pdf-net-insert-empty-page/)
+### [แทรกหน้าว่างใน PDF โดยใช้ Aspose.PDF .NET: คู่มือฉบับสมบูรณ์](./aspose-pdf-net-insert-empty-page/)
 เรียนรู้วิธีแทรกหน้าว่างในเอกสาร PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อพัฒนาทักษะการจัดการเอกสารของคุณ
 
 ### [เรียนรู้วิธี MakeNUp ของ Aspose.PDF .NET เพื่อการจัดวาง PDF ที่มีประสิทธิภาพ](./aspose-pdf-net-make-nup-method-pdf-layout/)
@@ -313,6 +313,9 @@
 ### [คู่มือฉบับสมบูรณ์สำหรับการจัดการ PDF ด้วย Aspose.PDF .NET: โหลด บันทึก และแทนที่ข้อความอย่างมีประสิทธิภาพ](./master-pdf-manipulation-aspose-pdf-net/)
 เรียนรู้วิธีการจัดการ PDF อย่างเชี่ยวชาญโดยใช้ Aspose.PDF สำหรับ .NET คู่มือนี้ครอบคลุมถึงการโหลด การบันทึก และการแทนที่ข้อความใน PDF ซึ่งเหมาะสำหรับนักพัฒนาที่ต้องการประสิทธิภาพ
 
+### [วิธีเปรียบเทียบ PDF ด้วย Aspose – คู่มือทีละขั้นตอน](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
+เรียนรู้วิธีเปรียบเทียบไฟล์ PDF อย่างมีประสิทธิภาพโดยใช้ Aspose ด้วยขั้นตอนทีละขั้นตอน
+
 ### [วิธีลบข้อมูล PDF ใน C# – ซ่อนข้อความ PDF และลบเนื้อหา PDF](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
 เรียนรู้วิธีลบข้อมูลที่เป็นความลับจากไฟล์ PDF ด้วย C# โดยซ่อนข้อความและลบเนื้อหาอย่างปลอดภัย
 
@@ -328,8 +331,6 @@
 - [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
 ### [วิธีทำการลบข้อมูลลับ PDF ใน C# ด้วย Aspose PDF – คู่มือฉบับสมบูรณ์](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
 เรียนรู้วิธีลบข้อมูลลับจากไฟล์ PDF อย่างมีประสิทธิภาพโดยใช้ Aspose PDF ใน C# ด้วยคู่มือขั้นตอนเต็มรูปแบบนี้
-### [วิธีเปรียบเทียบ PDF ด้วย Aspose – คู่มือทีละขั้นตอน](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
-เรียนรู้วิธีเปรียบเทียบไฟล์ PDF อย่างมีประสิทธิภาพโดยใช้ Aspose ด้วยขั้นตอนทีละขั้นตอน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -113,7 +113,7 @@ Aspose.PDF for .NET을 사용하여 알파 투명도가 적용된 사각형을 �
 Aspose.PDF for .NET을 사용하여 PDF 파일에서 이미지를 효율적으로 삭제하는 방법을 알아보세요. 이 가이드에서는 설정, 코드 예제, 그리고 모범 사례를 다룹니다.
 
 ### [Aspose.PDF .NET을 사용하여 PDF에서 이미지를 삭제하는 방법: 단계별 가이드](./delete-images-aspose-pdf-net-guide/)
-Aspose.PDF for .NET을 사용하여 PDF 파일에서 이미지를 삭제하는 방법을 알아보세요. 이 포괄적인 가이드는 설정, 구현 및 실제 적용 사례를 다룹니다.
+Aspose.PDF for .NET을 사용하여 PDF 파일에서 이미지를 삭제하는 방법을 알아보세요. 이 포괄적인 가이드에서는 설정, 구현 및 실제 적용 사례를 다룹니다.
 
 ### [Aspose.PDF for .NET을 사용하여 PDF에서 이미지를 삭제하는 방법: 포괄적인 가이드](./delete-images-from-pdf-aspose-dotnet/)
 Aspose.PDF for .NET을 사용하여 PDF에서 모든 이미지를 효율적으로 삭제하고 파일 개인 정보 보호를 강화하며 파일 크기를 줄이는 방법을 알아보세요. 이 단계별 가이드를 따라 해 보세요.

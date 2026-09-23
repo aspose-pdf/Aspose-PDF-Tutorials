@@ -107,7 +107,7 @@ Learn how to seamlessly add text headers to your PDF files using Aspose.PDF for 
 Learn how to add line objects in PDFs using Aspose.PDF for .NET. This guide covers setup, coding examples, and practical applications.
 
 ### [How to Add a Text Stamp Footer in PDFs Using Aspose.PDF for .NET&#58; A Step-by-Step Guide](./add-text-stamp-footer-aspose-pdf-net/)
-Learn how to add text stamp footers to every page of your PDF documents using Aspose.PDF for .NET. Streamline document processing efficiently.
+Learn how to add text stamp footers to every page of your PDF documents using Aspose.PDF for .NET with our step-by-step guide. Streamline document processing efficiently.
 
 ### [How to Add a Text Stamp to PDFs Using Aspose.PDF for .NET](./add-text-stamp-pdf-aspose-dotnet/)
 Learn how to efficiently add text stamps to PDF documents using Aspose.PDF for .NET. Enhance your document management with this step-by-step guide.
@@ -192,6 +192,9 @@ Learn how to eliminate unwanted open actions from PDF files using Aspose.PDF for
 
 ### [How to flatten PDF with Aspose.PDF – Complete guide](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
 Learn how to flatten PDF documents using Aspose.PDF for .NET, removing interactive elements and preserving appearance.
+
+### [How to Split PDF Pages Using Aspose.PDF for .NET&#58; A Complete Guide](./mastering-pdf-page-splitting-aspose-pdf-net/)
+Learn how to efficiently split PDF pages into individual files using Aspose.PDF for .NET with this comprehensive guide. Boost your document manipulation skills today.
 
 ### [How to Split PDF Pages Using Aspose.PDF for .NET&#58; A Comprehensive Guide](./split-pdf-pages-aspose-pdf-net/)
 Learn how to split specific pages from a PDF into separate files using Aspose.PDF for .NET. This guide covers stream handling and setup.
@@ -310,6 +313,9 @@ Learn how to split multi-page PDFs and create new PDF files using Aspose.PDF .NE
 ### [Ultimate Guide to PDF Manipulation with Aspose.PDF .NET&#58; Load, Save & Replace Text Efficiently](./master-pdf-manipulation-aspose-pdf-net/)
 Learn how to master PDF manipulation using Aspose.PDF for .NET. This guide covers loading, saving, and replacing text in PDFs, ideal for developers seeking efficiency.
 
+### [how to compare pdfs with Aspose – step‑by‑step guide](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
+Learn how to compare PDF files using Aspose.PDF for .NET in a step‑by‑step tutorial.
+
 ### [How to Redact PDF in C# – Hide Text PDF & Remove Content PDF](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
 Learn how to redact sensitive information in PDFs using Aspose.PDF for .NET, hide text and permanently remove content with C#.
 
@@ -317,8 +323,6 @@ Learn how to redact sensitive information in PDFs using Aspose.PDF for .NET, hid
 Learn how to repair corrupted PDF files quickly using Aspose.PDF for .NET in C#.
 ### [How to Redact PDF in C# with Aspose PDF – Complete Guide](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
 Learn how to permanently remove sensitive content from PDFs using Aspose.PDF for .NET with C# in this comprehensive step-by-step guide.
-### [how to compare pdfs with Aspose – step‑by‑step guide](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
-Learn how to compare PDF files using Aspose.PDF for .NET in a step‑by‑step tutorial.
 
 ## Additional Resources
 

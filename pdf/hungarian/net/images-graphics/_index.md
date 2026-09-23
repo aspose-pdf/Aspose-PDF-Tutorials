@@ -111,7 +111,7 @@ Ismerje meg, hogyan javíthatja PDF-dokumentumait alfa átlátszóságú téglal
 Ismerje meg, hogyan törölhet hatékonyan képeket PDF fájlokból az Aspose.PDF for .NET segítségével. Ez az útmutató bemutatja a beállítást, a kódpéldákat és a bevált gyakorlatokat.
 
 ### [Képek törlése PDF-ből az Aspose.PDF .NET használatával: Lépésről lépésre útmutató](./delete-images-aspose-pdf-net-guide/)
-Tanulja meg, hogyan törölhet képeket PDF fájlból az Aspose.PDF for .NET segítségével. Ez az átfogó útmutató a beállítást, a megvalósítást és a gyakorlati alkalmazásokat ismerteti.
+Tanulja meg, hogyan törölhet képeket PDF fájlokból az Aspose.PDF for .NET segítségével. Ez az átfogó útmutató a beállítást, a megvalósítást és a gyakorlati alkalmazásokat ismerteti.
 
 ### [Képek törlése PDF-ből az Aspose.PDF for .NET használatával: Átfogó útmutató](./delete-images-from-pdf-aspose-dotnet/)
 Ismerje meg, hogyan törölheti hatékonyan az összes képet egy PDF fájlból az Aspose.PDF for .NET segítségével, hogyan növelheti a fájlok adatvédelmét és csökkentheti a méretét. Kövesse ezt a lépésről lépésre szóló útmutatót.
@@ -149,7 +149,7 @@ Ismerje meg, hogyan távolíthat el hatékonyan grafikákat PDF-ekből az Aspose
 ### [Képek cseréje PDF-ekben az Aspose.PDF .NET használatával: Fejlesztői útmutató](./replace-images-pdf-aspose-net-guide/)
 Ismerje meg, hogyan cserélheti le hatékonyan a képeket a PDF dokumentumokban az Aspose.PDF for .NET segítségével. Egyszerűsítse dokumentumfrissítéseit ezzel az átfogó fejlesztői útmutatóval.
 
-### [Képek cseréje PDF-ekben az Aspose.PDF .NET használatával: Teljes körű útmutató](./replace-images-aspose-pdf-net-tutorial/)
+### [Képek cseréje PDF-ekben az Aspose.PDF for .NET használatával: Teljes körű útmutató](./replace-images-aspose-pdf-net-tutorial/)
 Ismerje meg, hogyan cserélhet hatékonyan képeket PDF dokumentumokban az Aspose.PDF for .NET segítségével. Ez az átfogó útmutató a beállítást, a megvalósítást és a gyakorlati alkalmazásokat ismerteti.
 
 ### [Képméret beállítása PDF-ben az Aspose.PDF for .NET használatával](./set-image-size-pdf-aspose-dotnet/)

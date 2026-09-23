@@ -241,6 +241,12 @@ Aspose.PDF Net 代码教程
 ### [使用 Aspose.PDF .NET 掌握 PDF 操作：文档自动化综合指南](./master-pdf-manipulation-aspose-pdf-net-guide/)
 了解如何使用 Aspose.PDF for .NET 自动执行 PDF 任务，包括连接文件、添加页面、插入文本戳和创建链接。
 
+### [使用 Aspose.PDF .NET 掌握 PDF 操作：文档自动化综合指南](./master-pdf-manipulation-aspose-dotnet-guide/)
+了解如何使用 Aspose.PDF for .NET 自动执行 PDF 任务，包括连接文件、添加页面、插入文本戳和创建链接。
+
+### [使用 Aspose.PDF .NET 掌握 PDF 操作：轻松加载和修改文档](./mastering-pdf-manipulation-aspose-dotnet/)
+学习如何使用强大的 Aspose.PDF .NET 库来掌握 PDF 文档的加载、导航和修改。立即增强您的应用程序！
+
 ### [使用 Aspose.PDF .NET 掌握 PDF 操作：加载、搜索、注释指南](./aspose-pdf-dotnet-mastering-pdfs-manipulation-guide/)
 学习使用 Aspose.PDF for .NET 掌握 PDF 操作。本指南涵盖加载文档、搜索文本以及应用删除线等注释。
 
@@ -310,15 +316,16 @@ Aspose.PDF Net 代码教程
 ### [使用 Aspose.PDF .NET 进行 PDF 操作的终极指南：高效加载、保存和替换文本](./master-pdf-manipulation-aspose-pdf-net/)
 学习如何使用 Aspose.PDF for .NET 掌握 PDF 操作。本指南涵盖 PDF 中的文本加载、保存和替换，非常适合追求效率的开发人员。
 
+### [如何使用 Aspose.PDF 扁平化 PDF – 完整指南](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+
+### [如何使用 Aspose.PDF 比较 PDF – 分步指南](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
+了解如何使用 Aspose.PDF for .NET 对 PDF 文档进行比较，检测差异并生成报告的完整步骤。
+
 ### [如何在 C# 中编辑 PDF – 隐藏文本并删除内容](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中隐藏 PDF 文本并删除不需要的内容，实现安全编辑。
 
 ### [如何在 C# 中修复 PDF – 快速修复损坏的 PDF 文件](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中快速修复损坏的 PDF 文件，步骤简明易懂。
-### [如何使用 Aspose.PDF 扁平化 PDF – 完整指南](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
-
-### [如何使用 Aspose.PDF 比较 PDF – 分步指南](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
-了解如何使用 Aspose.PDF for .NET 对 PDF 文档进行比较，检测差异并生成报告的完整步骤。
 
 ## 其他资源
 

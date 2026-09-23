@@ -310,6 +310,12 @@
 ### [Полное руководство по работе с PDF-файлами с помощью Aspose.PDF .NET: эффективная загрузка, сохранение и замена текста](./master-pdf-manipulation-aspose-pdf-net/)
 Узнайте, как освоить манипуляции PDF с помощью Aspose.PDF .NET. Это руководство охватывает загрузку, сохранение и замену текста в PDF-файлах, идеально подходит для разработчиков, стремящихся к эффективности.
 
+### [Как уплощать PDF с помощью Aspose.PDF – Полное руководство](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+Узнайте, как преобразовать интерактивные элементы PDF в статический документ, используя Aspose.PDF для .NET.
+
+### [Как сравнить PDF-файлы с Aspose – пошаговое руководство](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
+Узнайте, как сравнивать PDF-документы с помощью Aspose.PDF для .NET, следуя пошаговым инструкциям.
+
 ### [Как редактировать PDF в C# – скрыть текст PDF и удалить содержимое PDF](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
 Узнайте, как скрыть текст и удалить содержимое из PDF-файлов с помощью Aspose.PDF для .NET в C#.
 
@@ -321,11 +327,13 @@
 ### [Как замаскировать PDF в C# с помощью Aspose PDF – Полное руководство](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
 Узнайте, как с помощью Aspose PDF в C# удалять или скрывать конфиденциальную информацию в PDF-файлах, следуя пошаговому полному руководству.
 
-### [Как уплощать PDF с помощью Aspose.PDF – Полное руководство](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
-Узнайте, как преобразовать интерактивные элементы PDF в статический документ, используя Aspose.PDF для .NET.
+## Дополнительные ресурсы
 
-### [Как сравнить PDF-файлы с Aspose – пошаговое руководство](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
-Узнайте, как сравнивать PDF-документы с помощью Aspose.PDF для .NET, следуя пошаговым инструкциям.
+- [Документация Aspose.PDF для сети](https://docs.aspose.com/pdf/net/)
+- [Справочник по API Aspose.PDF для Net](https://reference.aspose.com/pdf/net/)
+- [Загрузить Aspose.PDF для Net](https://releases.aspose.com/pdf/net/)
+- [Бесплатная поддержка](https://forum.aspose.com/)
+- [Временная лицензия](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
