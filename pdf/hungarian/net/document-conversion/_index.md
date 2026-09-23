@@ -62,6 +62,8 @@ Megtanulod, hogyan adhatsz meg konvertálási beállításokat, hogyan kinyerhet
 | [PDF PNG oktatóanyag – PDF oldalak PNG-be konvertálása C#-ban](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Tanulja meg, hogyan konvertálhat PDF oldalakat PNG képekké C#-ban az Aspose.PDF for .NET használatával. |
 | [PDF konvertálás beállításainak megadása C#-ban – Aspose útmutató](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | Tanulja meg, hogyan állíthat be különböző opciókat a PDF konvertáláshoz C#-ban az Aspose.PDF for .NET segítségével. |
 | [PDF dokumentum betöltése C# – PDF/X‑4-re konvertálás Aspose használatával](./load-pdf-document-c-convert-to-pdf-x-4-with-aspose/) | Tanulja meg, hogyan konvertálhat PDF dokumentumot PDF/X‑4 formátumba C#‑ban az Aspose.PDF for .NET segítségével. |
+| [Span elem létrehozása és hozzáadása az oldalhoz – DOCX konvertálása PDF-be](./create-span-element-and-add-to-page-convert-docx-to-pdf/) | Tanulja meg, hogyan hozhat létre span elemet, és adja hozzá az oldalhoz a DOCX PDF-be konvertálásához az Aspose.PDF for .NET használatával. |
+| [Aspose PDF konvertálás C#-ban: betöltés, konvertálás PDF/X-4-re, mentés](./aspose-pdf-conversion-in-c-load-convert-to-pdf-x-4-save/) | Tanulja meg, hogyan tölthet be PDF-et, konvertálhatja PDF/X‑4 formátumba, és mentheti C#‑ban az Aspose.PDF for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

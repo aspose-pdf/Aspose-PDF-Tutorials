@@ -42,6 +42,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Muat Sertifikat PFX C# – Buat Tanda Tangan PKCS7 Terpisah](./load-pfx-certificate-c-create-pkcs7-detached-signature/) | Pelajari cara memuat sertifikat PFX di C# dan membuat tanda tangan PKCS7 terpisah menggunakan Aspose.PDF untuk .NET.  
 | [Periksa Tanda Tangan PDF di C# – Panduan Cepat Memverifikasi Tanda Tangan Digital](./check-pdf-signatures-in-c-quick-guide-to-verify-digital-sign/) | Pelajari cara memeriksa tanda tangan PDF dan memverifikasi tanda tangan digital dengan cepat menggunakan Aspose.PDF untuk .NET di C#. Bahasa Indonesia:  
 | [Tutorial Tanda Tangan PDF: Verifikasi Tanda Tangan Digital PDF di C#](./pdf-signature-tutorial-verify-a-pdf-s-digital-signature-in-c/) | Pelajari cara memverifikasi tanda tangan digital pada file PDF menggunakan Aspose.PDF untuk .NET di C#. Bahasa Indonesia:  
+| [Validasi Tanda Tangan Digital PDF di C# – Panduan Lengkap Aspose.PDF](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) | Pelajari cara memvalidasi tanda tangan digital PDF menggunakan Aspose.PDF untuk .NET dalam panduan lengkap C#. Bahasa Indonesia:  
+| [Konfigurasi Server CA di C# – Panduan Lengkap untuk Memvalidasi Tanda Tangan Dokumen Word](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) | Pelajari cara mengkonfigurasi server CA menggunakan C# untuk memvalidasi tanda tangan pada dokumen Word secara lengkap. Bahasa Indonesia:  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

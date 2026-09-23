@@ -317,6 +317,12 @@ Ismerje meg, hogyan távolíthatja el vagy takarhatja el a PDF dokumentumok érz
 
 ### [PDF javítása C#-ban – Sérült PDF-fájlok gyors javítása](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
 
+### [PDF laposítása az Aspose.PDF használatával – Teljes útmutató](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+Ismerje meg, hogyan laposíthatja a PDF fájlokat az Aspose.PDF segítségével, hogy a tartalom ne legyen szerkeszthető.
+
+### [PDF-ek összehasonlítása az Aspose segítségével – lépésről lépésre útmutató](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
+Ismerje meg, hogyan hasonlíthatja össze két PDF fájlt az Aspose.PDF for .NET segítségével, részletes kódpéldákkal és tippekkel.
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)

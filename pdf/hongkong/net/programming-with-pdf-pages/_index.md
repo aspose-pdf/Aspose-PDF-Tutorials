@@ -22,6 +22,7 @@ Aspose.PDF for .NET 的「使用 PDF 頁面進行編程」文件提供了逐步�
 |標題 |描述 |
 | --- | --- | 
 | [使用 C# 為 PDF 添加頁碼 – 完整逐步指南](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) |使用 Aspose.PDF for .NET 透過 C# 為 PDF 添加頁碼的完整逐步指南，簡單易於實作。 |  
+| [為 PDF 添加頁面 – C# 開發人員完整逐步指南](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) |使用 Aspose.PDF for .NET 在 C# 中為 PDF 添加頁面的完整逐步指南，簡單易於實作。 |  
 | [改變方向](./change-orientation/) |使用 Aspose.PDF for .NET 變更 PDF 頁面方向的逐步指南。易於在您的專案中遵循和實施。 |  
 | [連接 PDF 文件](./concatenate-pdf-files/) |依照這份全面的逐步指南，使用 Aspose.PDF for .NET 輕鬆連接 PDF 檔案。 |  
 | [刪除 PDF 檔案中的特定頁面](./delete-particular-page/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 從 PDF 檔案中刪除特定頁面。 |  
@@ -42,6 +43,8 @@ Aspose.PDF for .NET 的「使用 PDF 頁面進行編程」文件提供了逐步�
 | [新增 Bates 編號 PDF – 為 PDF 頁面編號的逐步指南](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) |使用 Aspose.PDF for .NET 透過 C# 為 PDF 添加 Bates 編號的完整逐步指南，簡單易於實作。 |  
 | [建立 PDF 文件（C#）– 添加形狀與空白頁面指南](./create-pdf-document-c-add-shapes-blank-pages-guide/) |本指南說明如何使用 Aspose.PDF for .NET 在 C# 中建立 PDF、加入形狀與插入空白頁面的步驟。 |  
 | [使用 Aspose 為 PDF 添加 Bates 編號 – 完整指南](./add-bates-numbering-pdf-with-aspose-complete-guide/) |使用 Aspose.PDF for .NET 為 PDF 添加 Bates 編號的完整逐步指南，簡單易於實作。 |  
+| [在 C# 中添加 Bates 編號 – 完整逐步指南](./add-bates-numbering-in-c-step-by-step-guide/) |使用 Aspose.PDF for .NET 在 C# 中添加 Bates 編號的完整逐步指南，簡單易於實作。 |  
+| [在 C# 中重新排序 PDF 頁面 – 完整逐步指南](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) |使用 Aspose.PDF for .NET 在 C# 中重新排序 PDF 頁面的完整逐步指南，簡單易於實作。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

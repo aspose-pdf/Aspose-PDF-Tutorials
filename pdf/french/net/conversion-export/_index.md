@@ -246,6 +246,8 @@ Apprenez à enregistrer un fichier PDF en utilisant Aspose avec un guide détail
 Apprenez à enregistrer rapidement un PDF au format HTML en C# avec Aspose.PDF grâce à ce guide concis.
 ### [Convertir un PDF en HTML en C# – Guide rapide avec Aspose.Pdf](./convert-pdf-to-html-in-c-quick-guide-with-aspose-pdf/)
 Apprenez à convertir rapidement des fichiers PDF en HTML en C# à l'aide d'Aspose.Pdf grâce à ce guide étape par étape.
+### [Comment exporter DOCX – Guide étape par étape pour les développeurs C#](./how-to-export-docx-step-by-step-guide-for-c-developers/)
+Apprenez à exporter des documents DOCX à partir de PDF en C# avec Aspose.PDF, étape par étape, incluant le code et les meilleures pratiques.
 
 ## Ressources supplémentaires
 

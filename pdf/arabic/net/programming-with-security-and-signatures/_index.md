@@ -61,6 +61,8 @@
 | [كيفية التحقق من التوقيعات في PDF باستخدام Aspose – C#](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) | تعلّم كيفية التحقق من صحة التوقيعات الرقمية في ملفات PDF باستخدام Aspose.PDF لـ .NET. دليل خطوة بخطوة لضمان سلامة المستندات. |  
 | [التحقق من توقيع PDF في C# – دليل برمجة كامل](./verify-pdf-signature-in-c-complete-programming-guide/) | تعلم كيفية التحقق من صحة توقيع PDF باستخدام C# و Aspose.PDF في دليل شامل خطوة بخطوة. |
 | [كيفية إصلاح ملفات PDF – دليل C# كامل باستخدام Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | تعلم كيفية إصلاح ملفات PDF المتضررة باستخدام Aspose.PDF لـ .NET في دليل شامل خطوة بخطوة بلغة C#. |  
+| [التحقق من التوقيع الرقمي PDF في C# – دليل Aspose.PDF كامل](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) | تعلم كيفية التحقق من صحة التوقيع الرقمي في ملفات PDF باستخدام C# و Aspose.PDF خطوة بخطوة. |
+| [تكوين خادم CA في C# – دليل كامل للتحقق من توقيعات مستندات Word](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) | تعلم كيفية تكوين خادم CA باستخدام C# للتحقق من توقيعات مستندات Word خطوة بخطوة باستخدام Aspose.Words. |
 | [التحقق من التوقيع الرقمي لملف PDF في C# باستخدام Aspose.Pdf](./verify-pdf-digital-signature-in-c-with-aspose-pdf/) | تعلم كيفية التحقق من صحة التوقيع الرقمي لملفات PDF باستخدام Aspose.PDF لـ .NET مع C# خطوة بخطوة. |
 | [دليل توقيع PDF: التحقق من التوقيع الرقمي لملف PDF في C#](./pdf-signature-tutorial-verify-a-pdf-s-digital-signature-in-c/) | تعلم كيفية التحقق من صحة التوقيع الرقمي لملف PDF باستخدام C# و Aspose.PDF خطوة بخطوة. |
 | [تحميل شهادة PFX C# – إنشاء توقيع PKCS7 منفصل](./load-pfx-certificate-c-create-pkcs7-detached-signature/) | تعلم كيفية تحميل شهادة PFX وإنشاء توقيع PKCS7 منفصل باستخدام Aspose.PDF لـ .NET. |

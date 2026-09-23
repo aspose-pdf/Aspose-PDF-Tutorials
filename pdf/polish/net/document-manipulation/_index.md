@@ -316,6 +316,12 @@ Dowiedz się, jak dzielić wielostronicowe pliki PDF i tworzyć nowe pliki PDF z
 
 ### [Najlepszy przewodnik po manipulacji plikami PDF za pomocą Aspose.PDF .NET: Ładowanie, zapisywanie i zamiana tekstu w sposób wydajny](./master-pdf-manipulation-aspose-pdf-net/)
 
+### [Jak spłaszczyć plik PDF za pomocą Aspose.PDF – Kompletny przewodnik](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+Dowiedz się, jak spłaszczyć plik PDF, usuwając interaktywne elementy, przy użyciu Aspose.PDF w .NET.
+
+### [Jak porównać pliki PDF za pomocą Aspose – przewodnik krok po kroku](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
+Dowiedz się, jak porównać dwa pliki PDF, wykrywać różnice i generować raporty przy użyciu Aspose.PDF dla .NET.
+
 ### [Jak naprawić PDF w C# – Szybko napraw uszkodzone pliki PDF](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
 Dowiedz się, jak w C# szybko naprawić uszkodzone pliki PDF przy użyciu Aspose.PDF.
 

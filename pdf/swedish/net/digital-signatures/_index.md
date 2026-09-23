@@ -103,6 +103,9 @@ Lär dig hur du validerar en digital PDF‑signatur i C# med en tydlig steg‑f�
 ### [Hur man läser signaturer i PDF med C# – Steg‑för‑steg‑guide](./how-to-read-signatures-in-pdf-with-c-step-by-step-guide/)
 Lär dig hur du läser digitala signaturer i PDF-filer med C#. Den här guiden visar steg-för-steg hur du extraherar och analyserar signaturdata.
 
+### [Lägg till digital signatur i PDF med C# – Komplett guide](./add-digital-signature-pdf-in-c-complete-guide/)
+Lär dig steg-för-steg hur du lägger till en digital signatur i PDF-filer med C# i en komplett guide.
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

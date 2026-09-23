@@ -42,6 +42,9 @@ Aspose.PDF for .NET의 "PDF 페이지 프로그래밍" 설명서는 PDF 파일�
 | [Bates 번호 매기기 PDF – PDF 페이지에 번호를 매기는 단계별 가이드](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF에 Bates 번호를 추가하는 단계별 가이드입니다. |
 | [C#로 PDF 문서 만들기 – 도형 및 빈 페이지 추가 가이드](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 문서에 도형을 삽입하고 빈 페이지를 추가하는 방법을 단계별로 안내합니다. |  
 | [Aspose로 베이츠 번호 매기기 PDF 추가 – 전체 가이드](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Aspose.PDF for .NET을 사용하여 PDF에 베이츠 번호를 추가하는 단계별 가이드입니다. |  
+| [C#에서 베이츠 번호 매기기 추가 – 단계별 가이드](./add-bates-numbering-in-c-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 베이츠 번호 매기기를 추가하는 단계별 가이드입니다. |  
+| [PDF에 페이지 추가 – C# 개발자를 위한 단계별 가이드](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF에 페이지를 추가하는 방법을 단계별로 안내합니다. |  
+| [C#에서 PDF 페이지 재정렬 – 전체 단계별 가이드](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 페이지를 재정렬하는 전체 단계별 가이드입니다. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

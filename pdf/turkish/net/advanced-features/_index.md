@@ -70,6 +70,8 @@ C# ve Aspose.PDF kullanarak PDF dosyalarını karşılaştırmayı, farkları (d
 
 ### [Aspose.Pdf ile PDF'de OCR Çalıştırma – Tam C# Kılavuzu](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
 Aspose.Pdf kullanarak PDF belgelerinde OCR uygulamayı ve metin çıkarımını C# ile adım adım öğrenin.
+### [Aspose.Pdf ile Her PDF Katmanını Kaydet – Adım Adım Kılavuz](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
+Aspose.Pdf for .NET kullanarak PDF dosyalarındaki her katmanı ayrı ayrı kaydetmeyi öğrenin.
 
 ## Ek Kaynaklar
 

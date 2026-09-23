@@ -70,6 +70,9 @@ Stapsgewijze handleiding om PDF-transparantie te bewerken met Aspose.PDF voor .N
 ### [Hoe OCR op PDF uit te voeren met Aspose.Pdf – Complete C#-gids](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
 Leer hoe u met Aspose.Pdf OCR op PDF-bestanden uitvoert in C#, inclusief voorbeeldcode en stapsgewijze instructies.
 
+### [Elke PDF-laag opslaan met Aspose.Pdf – Stapsgewijze handleiding](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
+Leer hoe u elke laag van een PDF afzonderlijk opslaat met Aspose.Pdf in een stapsgewijze .NET‑handleiding.
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

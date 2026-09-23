@@ -42,6 +42,9 @@ Návody obsahují podrobné pokyny, podrobné příklady kódu a jasná vysvětl
 | [Přidat Batesovo číslování PDF – Průvodce krok za krokem pro číslování stránek PDF](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Kompletní krok‑za‑krokem průvodce přidáním Batesova číslování do PDF pomocí Aspose.PDF pro .NET. |
 | [Vytvořit PDF dokument C# – Přidat tvary a prázdné stránky – Průvodce](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Naučte se, jak pomocí Aspose.PDF pro .NET v C# přidávat tvary a prázdné stránky do PDF dokumentu. |
 | [Přidat Batesovo číslování PDF pomocí Aspose – Kompletní průvodce](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Kompletní průvodce přidáním Batesova číslování do PDF souborů pomocí Aspose.PDF pro .NET. |  
+| [Přidat Batesovo číslování v C# – krok za krokem průvodce](./add-bates-numbering-in-c-step-by-step-guide/) | Kompletní krok‑za‑krokem průvodce přidáním Batesova číslování do PDF pomocí C# a Aspose.PDF pro .NET. |
+| [Přidat stránky do PDF – krok‑za‑krokem průvodce pro vývojáře C#](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) | Kompletní krok‑za‑krokem průvodce přidáním stránek do PDF pomocí C# a Aspose.PDF pro .NET. |
+| [Přeskupit stránky PDF v C# – Kompletní krok‑za‑krokem průvodce](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | Kompletní krok‑za‑krokem průvodce přeskupením stránek PDF pomocí C# a Aspose.PDF pro .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

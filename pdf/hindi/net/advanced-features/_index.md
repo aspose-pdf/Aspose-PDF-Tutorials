@@ -67,6 +67,9 @@ PDF/UA-1 मानक के अनुसार सुलभ PDF दस्ता
 ### [C# में PDFs की तुलना कैसे करें – PDF डिफ़ जेनरेट करने का पूर्ण गाइड](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 C# में Aspose.PDF का उपयोग करके दो PDF फ़ाइलों की तुलना करने और अंतर (डिफ) उत्पन्न करने की पूरी प्रक्रिया सीखें।
 
+### [Aspose.Pdf के साथ प्रत्येक PDF लेयर को सहेजें – चरण-दर-चरण गाइड](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
+Aspose.Pdf का उपयोग करके प्रत्येक PDF लेयर को अलग-अलग सहेजने की प्रक्रिया सीखें।
+
 ### [Aspose.Pdf के साथ PDF पर OCR चलाने की पूरी C# गाइड](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
 Aspose.Pdf का उपयोग करके PDF में OCR लागू करने और पाठ निकालने के लिए चरण-दर-चरण C# कोड देखें।
 

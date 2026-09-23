@@ -38,6 +38,8 @@
 | [PDF 서명 확인 – C#에서 Aspose.PDF로 서명 목록 가져오기](./check-pdf-for-signatures-how-to-list-signatures-in-c-with-as/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 파일의 서명을 확인하고 목록을 가져오는 방법을 단계별로 안내합니다. |
 | [C#을 이용한 PDF 서명 확인 – 완전 Aspose 가이드](./how-to-verify-signature-in-pdf-using-c-complete-aspose-guide/) | Aspose.PDF for .NET을 활용하여 C#에서 PDF 서명을 검증하고 읽는 방법을 단계별로 안내합니다. |  
 | [C#에서 디지털 서명 PDF 추가 – 완전 단계별 가이드](./add-digital-signature-pdf-in-c-complete-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF에 디지털 서명을 추가하는 방법을 단계별로 안내합니다. |  
+| [C#에서 디지털 서명 PDF 검증 – Aspose.PDF 완전 가이드](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) | Aspose.PDF for .NET을 사용하여 C#에서 디지털 서명된 PDF를 검증하는 방법을 단계별로 안내합니다. |  
+| [C#에서 CA 서버 구성 – 워드 문서 서명 검증 완전 가이드](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) | Aspose.PDF for .NET을 사용하여 C#에서 CA 서버를 구성하고 워드 문서 서명을 검증하는 방법을 단계별로 안내합니다. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -41,6 +41,8 @@
 | [PFX 証明書の読み込み C# – PKCS7 デタッチド署名の作成](./load-pfx-certificate-c-create-pkcs7-detached-signature/) Aspose.PDF for .NET を使用して、PFX 証明書を読み込み、PKCS7 デタッチド署名を作成する方法をステップバイステップで解説します。 |  
 | [C# で PDF 署名を確認する – デジタル署名を検証するクイックガイド](./check-pdf-signatures-in-c-quick-guide-to-verify-digital-sign/) Aspose.PDF for .NET を使用して、C# で PDF のデジタル署名を素早く検証する手順を解説します。 |  
 | [PDF のデジタル署名を C# で検証する](./pdf-signature-tutorial-verify-a-pdf-s-digital-signature-in-c/) Aspose.PDF for .NET を使用して、C# で PDF のデジタル署名を検証する方法を学びます。ステップバイステップガイド。 |  
+| [C# でデジタル署名 PDF を検証する – 完全な Aspose.PDF ガイド](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) Aspose.PDF for .NET を使用して、C# でデジタル署名 PDF の検証手順を完全に解説します。 |  
+| [C# で CA サーバーを構成 – Word 文書署名検証の完全ガイド](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) Aspose.Words for .NET を使って C# で CA サーバーを構成し、Word 文書の署名を検証する方法を学びます。ステップバイステップのガイドです。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

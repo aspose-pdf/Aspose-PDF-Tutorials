@@ -182,6 +182,9 @@ Pelajari cara menyimpan dokumen PDF menggunakan Aspose dengan contoh kode C# lan
 ### [Mengonversi PDF ke HTML dalam C# – Panduan Cepat dengan Aspose.Pdf](./convert-pdf-to-html-in-c-quick-guide-with-aspose-pdf/)
 Pelajari cara mengonversi PDF ke HTML dengan cepat menggunakan Aspose.Pdf dalam C#.
 
+### [Cara Mengekspor DOCX – Panduan Langkah demi Langkah untuk Pengembang C#](./how-to-export-docx-step-by-step-guide-for-c-developers/)
+Pelajari cara mengekspor dokumen DOCX menggunakan Aspose.PDF untuk .NET dengan contoh kode C# lengkap.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

@@ -318,6 +318,11 @@ Leer hoe u gevoelige tekst kunt verbergen en ongewenste inhoud kunt verwijderen 
 
 ### [PDF repareren in C# – Corrupte PDF-bestanden snel herstellen](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
 Leer hoe u beschadigde PDF-bestanden snel kunt repareren met Aspose.PDF voor .NET in C#.
+### [PDF flattenen met Aspose.PDF – Complete handleiding](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+Leer hoe u PDF's kunt flattenen om bewerkingen te vergrendelen met Aspose.PDF voor .NET.
+
+### [PDF's vergelijken met Aspose – stap‑voor‑stap handleiding](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
+Leer hoe u twee PDF-bestanden kunt vergelijken met Aspose.PDF voor .NET, inclusief codevoorbeelden en tips voor nauwkeurige resultaten.
 
 ## Aanvullende bronnen
 

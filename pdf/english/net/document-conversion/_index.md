@@ -22,6 +22,7 @@ You'll learn how to specify conversion settings, extract text and images, retain
 | Title | Description |
 | --- | --- | 
 | [Add Attachment to PDFA](./add-attachment-to-pdfa/) | Learn how to add attachments to a PDF/A document using Aspose.PDF for .NET with this step-by-step guide. |  
+| [Aspose PDF Conversion in C#: Load, Convert to PDF/X-4, Save](./aspose-pdf-conversion-in-c-load-convert-to-pdf-x-4-save/) | Learn how to load a document, convert it to PDF/X‑4, and save using Aspose.PDF for .NET in C#. |  
 | [CGM To PDF Files](./cgm-to-pdf/) | Learn how to convert CGM files to PDF using Aspose.PDF for .NET with this step-by-step guide. Perfect for developers and designers alike. |  
 | [Convert PDF to PDF/X‑4 in C# – Step‑by‑Step ASP.NET PDF Tutorial](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Learn how to convert PDF to PDF/X‑4 using Aspose.PDF for .NET in this step‑by‑step ASP.NET tutorial. |
 | [Aspose PDF Tutorial: Convert PDF to PDF/X‑4 in C#](./aspose-pdf-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Learn how to convert PDF to PDF/X‑4 using Aspose.PDF for .NET in this step‑by‑step C# tutorial. |
@@ -61,6 +62,7 @@ You'll learn how to specify conversion settings, extract text and images, retain
 | [Web Page To PDF](./web-page-to-pdf/) | Learn how to convert web pages to PDF using Aspose.PDF for .NET in this detailed, step‑by‑step tutorial. |  
 | [XML To PDF](./xml-to-pdf/) | Learn how to convert XML to PDF using Aspose.PDF for .NET in this comprehensive step‑by‑step tutorial, complete with code examples and detailed explanations. |  
 | [Set ICC Profile in PDF/X‑1A Conversion – Complete C# Guide](./set-icc-profile-in-pdf-x-1a-conversion-complete-c-guide/) | Learn how to set an ICC profile during PDF/X‑1A conversion using Aspose.PDF for .NET in this comprehensive C# guide. |
+| [Create span element and add to page – Convert DOCX to PDF](./create-span-element-and-add-to-page-convert-docx-to-pdf/) | Learn how to create a span element and convert a DOCX file to PDF using Aspose.PDF for .NET in this step‑by‑step tutorial. |
 | [XML To PDFSet Image Path](./xml-to-pdfset-image-path/) | Learn how to effortlessly convert XML to PDF using Aspose.PDF for .NET. This detailed guide walks you through the process step by step, from setup to completion. |  
 | [XPS To PDF](./xps-to-pdf/) | Learn how to convert XPS files to PDF using Aspose.PDF for .NET with this step‑by‑step tutorial. Perfect for developers and document enthusiasts. |  
 

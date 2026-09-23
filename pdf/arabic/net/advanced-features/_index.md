@@ -70,6 +70,9 @@
 ### [تحرير شفافية PDF في C# – دليل خطوة بخطوة](./edit-pdf-transparency-in-c-step-by-step-guide/)
 تعلم كيفية تعديل شفافية ملفات PDF باستخدام Aspose.PDF لـ .NET مع أمثلة عملية بلغة C#.
 
+### [حفظ كل طبقة PDF باستخدام Aspose.Pdf – دليل خطوة بخطوة](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
+تعلم كيفية حفظ كل طبقة من ملفات PDF بشكل منفصل باستخدام Aspose.Pdf عبر خطوات واضحة وعملية.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

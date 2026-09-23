@@ -113,6 +113,9 @@ Ismerje meg, hogyan konvertálhat összetett PDF dokumentumokat szerkeszthető T
 ### [PDF konvertálása Word-be az Aspose.PDF .NET használatával: Átfogó útmutató](./convert-pdf-word-aspose-net/)
 Tanuld meg, hogyan konvertálhatsz zökkenőmentesen PDF fájlokat DOC és DOCX formátumba az Aspose.PDF for .NET segítségével. Sajátítsd el a haladó konvertálási technikákat lépésről lépésre bemutató útmutatónkkal.
 
+### [DOCX exportálása – Lépésről lépésre útmutató C# fejlesztőknek](./how-to-export-docx-step-by-step-guide-for-c-developers/)
+Tanulja meg, hogyan exportálhat DOCX fájlokat C#-ban az Aspose.PDF for .NET segítségével, részletes lépésekkel.
+
 ### [PDF konvertálása XML-lé az Aspose.PDF for .NET használatával: lépésről lépésre útmutató](./convert-pdf-to-xml-aspose-pdf-net/)
 Tanulja meg, hogyan konvertálhat PDF fájlokat XML formátumba az Aspose.PDF for .NET segítségével. Fejlessze az adatintegrációs és -feldolgozási képességeket.
 

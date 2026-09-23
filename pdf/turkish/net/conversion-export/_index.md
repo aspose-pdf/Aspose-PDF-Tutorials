@@ -164,6 +164,9 @@ Aspose.PDF lisansını nasıl uygulayacağınızı ve C# kullanarak özel CSS il
 Eksik yazı tiplerini değiştirerek nasıl yöneteceğinizi öğrenin ve Aspose.PDF .NET kullanarak PDF'leri standart biçimlere dönüştürün. Tüm platformlarda uyumluluğu ve marka tutarlılığını sağlayın.
 ### [Aspose.PDF for .NET'te Font İşleme ile PDF'yi HTML'ye Dönüştürmede Ustalaşın](./optimize-pdf-to-html-font-handling-aspose-net/)
 Aspose.PDF for .NET kullanarak PDF'yi HTML'ye dönüştürmeyi nasıl optimize edeceğinizi öğrenin; verimli yazı tipi kaynak kullanımı ve sorunsuz entegrasyona odaklanın.
+### [DOCX'i Dışa Aktarma – C# Geliştiricileri için Adım‑Adım Kılavuz](./how-to-export-docx-step-by-step-guide-for-c-developers/)
+Aspose.PDF for .NET kullanarak PDF belgelerini DOCX formatına nasıl dışa aktaracağınızı C# örnekleriyle öğrenin.
+
 ### [Aspose.PDF .NET Kullanarak PDF'yi HTML'ye Dönüştürme: Görüntüleri Harici PNG'ler Olarak Kaydetme](./pdf-to-html-conversion-external-png-aspose-pdf-net/)
 Aspose.PDF for .NET kullanarak PDF belgelerini harici PNG görüntüleriyle HTML'ye nasıl dönüştüreceğinizi öğrenin. Bu kılavuz düzenin korunmasını ve web performansı optimizasyonunu sağlar.
 ### [Aspose.PDF .NET ile PDF'yi HTML'ye Dönüştürme: Kapsamlı Bir Kılavuz](./aspose-pdf-net-pdf-to-html-conversion/)

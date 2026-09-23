@@ -112,6 +112,9 @@ Aprenda a convertir documentos PDF complejos a formato TeX editable con Aspose.P
 ### [Convertir PDF a Word con Aspose.PDF .NET: una guía completa](./convert-pdf-word-aspose-net/)
 Aprenda a convertir archivos PDF a formatos DOC y DOCX sin problemas con Aspose.PDF para .NET. Domine las técnicas avanzadas de conversión con nuestra guía paso a paso.
 
+### [Cómo exportar DOCX – Guía paso a paso para desarrolladores C#](./how-to-export-docx-step-by-step-guide-for-c-developers/)
+Aprenda a exportar documentos DOCX desde C# con Aspose.PDF mediante una guía paso a paso.
+
 ### [Convertir PDF a XML con Aspose.PDF para .NET: guía paso a paso](./convert-pdf-to-xml-aspose-pdf-net/)
 Aprenda a convertir archivos PDF a formato XML con Aspose.PDF para .NET. Mejore la integración y el procesamiento de datos.
 

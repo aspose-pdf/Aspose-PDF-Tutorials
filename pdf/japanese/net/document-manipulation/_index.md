@@ -319,6 +319,12 @@ C# と Aspose.PDF for .NET を使用して、破損した PDF ファイルを迅
 ### [Aspose.PDF for .NET を使用して C# で PDF を編集（情報隠蔽）する完全ガイド](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
 Aspose.PDF for .NET を使い、C# で PDF の機密情報をマスク（編集）する手順とベストプラクティスをステップバイステップで解説します。
 
+### [Aspose.PDF を使用して PDF をフラット化する方法 – 完全ガイド](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+Aspose.PDF for .NET を使用して、PDF をフラット化し、編集不可にする方法を学びましょう。この完全ガイドで手順を確認してください。
+
+### [Aspose.PDF for .NET を使用して PDF を比較する方法 – ステップバイステップ ガイド](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
+Aspose.PDF for .NET を使用して、2つの PDF ドキュメントを比較し、差分を検出する方法をステップバイステップで学びましょう。
+
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)

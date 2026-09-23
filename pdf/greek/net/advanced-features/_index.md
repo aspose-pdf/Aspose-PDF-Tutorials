@@ -70,6 +70,9 @@
 ### [Επεξεργασία διαφάνειας PDF σε C# – Οδηγός βήμα προς βήμα](./edit-pdf-transparency-in-c-step-by-step-guide/)
 Μάθετε πώς να τροποποιείτε τη διαφάνεια των PDF χρησιμοποιώντας το Aspose.PDF για .NET σε C# με βήμα‑βήμα οδηγίες.
 
+### [Αποθήκευση κάθε επιπέδου PDF με το Aspose.Pdf – Οδηγός βήμα προς βήμα](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
+Μάθετε πώς να αποθηκεύετε κάθε επίπεδο PDF χρησιμοποιώντας το Aspose.Pdf με αναλυτικές οδηγίες βήμα προς βήμα.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.PDF για τεκμηρίωση δικτύου](https://docs.aspose.com/pdf/net/)

@@ -240,6 +240,9 @@
 ### [Преобразование PDF в TIFF в .NET с использованием Aspose.PDF: пошаговое руководство](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Узнайте, как преобразовывать документы PDF в изображения TIFF с помощью Aspose.PDF для .NET. Освойте пользовательские глубины цвета и передовые методы обработки изображений.
 
+### [Как экспортировать DOCX – пошаговое руководство для разработчиков C#](./how-to-export-docx-step-by-step-guide-for-c-developers/)
+Подробное руководство по экспорту файлов DOCX с использованием Aspose.PDF для .NET в C#.
+
 ### [Aspose PDF в PNG – экспорт первой страницы с разрешением 300 DPI](./aspose-pdf-to-png-export-first-page-at-300-dpi/)
 Экспортируйте первую страницу PDF в PNG с разрешением 300 DPI с помощью Aspose.PDF для .NET.
 

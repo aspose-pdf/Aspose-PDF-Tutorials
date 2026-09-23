@@ -317,6 +317,11 @@ C# में Aspose.PDF का उपयोग करके PDF से संव
 
 ### [C# में PDF को कैसे मरम्मत करें – क्षतिग्रस्त PDF फ़ाइलों को जल्दी ठीक करें](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
 C# में Aspose.PDF का उपयोग करके क्षतिग्रस्त PDF फ़ाइलों को जल्दी और आसानी से ठीक करने की चरण-दर-चरण गाइड।
+### [Aspose.PDF .NET का उपयोग करके PDF को फ्लैट करने का तरीका – पूर्ण गाइड](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+Aspose.PDF का उपयोग करके PDF को फ्लैट करने और इंटरैक्टिव तत्वों को स्थायी रूप से हटाने की पूरी प्रक्रिया सीखें।
+
+### [Aspose के साथ PDF की तुलना कैसे करें – चरण‑दर‑चरण गाइड](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
+Aspose का उपयोग करके PDF फ़ाइलों की तुलना करने के लिए विस्तृत चरण‑दर‑चरण निर्देश।
 
 ## अतिरिक्त संसाधन
 

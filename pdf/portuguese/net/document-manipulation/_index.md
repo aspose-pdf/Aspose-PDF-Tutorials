@@ -313,6 +313,12 @@ Aprenda a dividir PDFs de várias páginas e criar novos arquivos PDF usando o A
 ### [Guia definitivo para manipulação de PDF com Aspose.PDF .NET: carregue, salve e substitua texto com eficiência](./master-pdf-manipulation-aspose-pdf-net/)
 Aprenda a dominar a manipulação de PDFs usando o Aspose.PDF para .NET. Este guia aborda como carregar, salvar e substituir texto em PDFs, ideal para desenvolvedores que buscam eficiência.
 
+### [Como achatar PDF com Aspose.PDF – Guia completo](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+Aprenda a achatar PDFs, removendo interatividade e reduzindo tamanho, usando Aspose.PDF em um guia passo a passo.
+
+### [Como comparar PDFs com Aspose – guia passo a passo](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
+Aprenda a comparar PDFs usando Aspose passo a passo, com exemplos de código C# e dicas de melhores práticas.
+
 ### [Como remover todo o texto de PDFs usando Aspose.PDF .NET para manipulação de documentos](./remove-text-aspose-pdf-net-tutorial/)
 Aprenda a remover todo o texto de um PDF com eficiência usando o Aspose.PDF .NET. Perfeito para proteger dados confidenciais ou organizar documentos.
 

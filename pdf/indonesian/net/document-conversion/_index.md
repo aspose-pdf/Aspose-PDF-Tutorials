@@ -56,12 +56,14 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [XML ke PDF](./xml-to-pdf/) | Pelajari cara mengonversi XML ke PDF menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah yang komprehensif ini, lengkap dengan contoh kode dan penjelasan terperinci. Bahasa Indonesia:  
 | [XML Ke PDFTetapkan Jalur Gambar](./xml-to-pdfset-image-path/) | Pelajari cara mengonversi XML ke PDF dengan mudah menggunakan Aspose.PDF untuk .NET. Panduan terperinci ini memandu Anda melalui proses langkah demi langkah, dari penyiapan hingga penyelesaian. Bahasa Indonesia:  
 | [XPS Ke PDF](./xps-to-pdf/) Pelajari cara mengonversi file XPS ke PDF menggunakan Aspose.PDF untuk .NET dengan tutorial langkah demi langkah ini. Sempurna untuk pengembang dan penggemar dokumen. |  
+| [Buat elemen span dan tambahkan ke halaman – Konversi DOCX ke PDF](./create-span-element-and-add-to-page-convert-docx-to-pdf/) | Pelajari cara membuat elemen span, menambahkannya ke halaman, dan mengonversi file DOCX menjadi PDF menggunakan Aspose.PDF untuk .NET. |
 | [Konversi PDF ke PDF/X‑4 dalam C#](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Pelajari cara mengonversi PDF ke PDF/X‑4 menggunakan Aspose.PDF untuk .NET dengan contoh kode C# langkah demi langkah. |
 | [Muat Dokumen PDF C# – Konversi ke PDF/X‑4 dengan Aspose](./load-pdf-document-c-convert-to-pdf-x-4-with-aspose/) | Pelajari cara memuat dokumen PDF dan mengonversinya ke PDF/X‑4 menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini. |
 | [Cara Mengonversi PDF ke PDF/X-4 dengan Aspose – Panduan Langkah demi Langkah](./how-to-convert-pdf-to-pdf-x-4-with-aspose-step-by-step-guide/) | Pelajari cara mengonversi PDF ke PDF/X‑4 menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah. |
 | [Tutorial Aspose PDF: Mengonversi PDF ke PDF/X‑4 dalam C#](./aspose-pdf-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Pelajari cara mengonversi PDF ke PDF/X‑4 menggunakan Aspose.PDF untuk .NET dengan contoh kode C# langkah demi langkah. |
 | [Tutorial PDF ke PNG – Mengonversi Halaman PDF ke PNG dalam C#](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Pelajari cara mengonversi halaman PDF menjadi gambar PNG menggunakan Aspose.PDF untuk .NET dengan contoh kode C# langkah demi langkah. |
 | [Cara Mengatur Opsi Konversi PDF di C# – Panduan Aspose](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | Pelajari cara mengatur opsi konversi PDF menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini. |
+| [Konversi Aspose PDF di C#: Muat, Konversi ke PDF/X‑4, Simpan](./aspose-pdf-conversion-in-c-load-convert-to-pdf-x-4-save/) | Pelajari cara memuat file, mengonversinya ke PDF/X‑4, dan menyimpannya menggunakan Aspose.PDF untuk .NET dalam C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

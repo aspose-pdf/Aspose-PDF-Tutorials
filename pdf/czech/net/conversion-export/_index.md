@@ -119,6 +119,10 @@ Naučte se, jak oříznout určité oblasti stránky PDF a převést je na obrá
 Naučte se, jak efektivně exportovat data z aplikací do PDF pomocí Aspose.PDF pro .NET. Tato příručka se zabývá nastavením, příklady kódu v C# a klíčovými funkcemi.
 ### [Export anotací PDF pomocí Aspose.PDF .NET: Komplexní průvodce](./export-annotations-aspose-pdf-net/)
 Naučte se, jak efektivně exportovat anotace z PDF souborů pomocí Aspose.PDF pro .NET. Tato příručka se zabývá nastavením, implementací a osvědčenými postupy.
+
+### [Jak exportovat DOCX – krok za krokem průvodce pro vývojáře C#](./how-to-export-docx-step-by-step-guide-for-c-developers/)
+Naučte se exportovat soubory DOCX pomocí Aspose.PDF pro .NET s podrobnými příklady v C#.
+
 ### [Export PDF dat do XML pomocí Aspose.PDF pro .NET: Podrobný návod](./export-pdf-data-to-xml-aspose-dotnet-guide/)
 Naučte se, jak efektivně exportovat data z PDF formulářů do strukturovaného XML pomocí Aspose.PDF pro .NET, výkonné knihovny určené pro manipulaci s PDF.
 ### [Formátování HTML do PDF pomocí Aspose.PDF pro .NET: Podrobný návod](./format-html-pdf-aspose-dotnet-guide/)

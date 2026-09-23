@@ -19,6 +19,9 @@
 ### [使用 Aspose.PDF for .NET 在 PDF 中进行数字签名：综合指南](./digital-signature-aspose-pdf-net-tutorial/)
 了解如何使用 Aspose.PDF for .NET 在 PDF 中实现数字签名。本指南涵盖设置、签名流程以及签名外观管理。
 
+### [在 C# 中添加数字签名 PDF – 完整指南](./add-digital-signature-pdf-in-c-complete-guide/)
+本完整指南展示如何在 C# 使用 Aspose.PDF 为 PDF 添加数字签名，包括代码示例和最佳实践。
+
 ### [使用 Aspose.PDF for .NET 对 PDF 进行自定义外观数字签名：分步指南](./digitally-sign-pdf-custom-appearance-aspose-pdf-net/)
 学习如何使用 Aspose.PDF for .NET 对 PDF 进行自定义外观的数字签名。本指南涵盖了文档中数字签名的设置、自定义和实际应用。
 

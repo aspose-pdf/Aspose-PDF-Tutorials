@@ -41,6 +41,8 @@ Handledningen ger dig en detaljerad översikt över metoder och tekniker för at
 | [Ladda PFX-certifikat C# – Skapa PKCS7-fristående signatur](./load-pfx-certificate-c-create-pkcs7-detached-signature/) | Lär dig hur du laddar ett PFX‑certifikat i C# och skapar en PKCS7‑fristående signatur med Aspose.PDF för .NET. |
 | [Kontrollera PDF-signaturer i C# – Snabbguide för att verifiera digitala signaturer](./check-pdf-signatures-in-c-quick-guide-to-verify-digital-sign/) | Lär dig hur du snabbt verifierar PDF-signaturer i C# med Aspose.PDF för .NET. |
 | [PDF-signaturhandledning: Verifiera en PDF:s digitala signatur i C#](./pdf-signature-tutorial-verify-a-pdf-s-digital-signature-in-c/) | Lär dig hur du verifierar en PDF:s digitala signatur i C# med Aspose.PDF för .NET i en kort guide. |
+| [Validera digital signatur PDF i C# – Komplett Aspose.PDF-guide](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) | Lär dig hur du validerar digitala signaturer i PDF-filer med Aspose.PDF för .NET i C#. |
+| [Konfigurera CA-server i C# – Komplett guide för att validera Word-dokumentsignaturer](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) | Lär dig hur du konfigurerar en CA‑server i C# för att validera signaturer i Word‑dokument. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

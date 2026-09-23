@@ -41,6 +41,8 @@ Samouczek zapewnia szczegółowy przegląd metod i technik zapewniających poufn
 | [Weryfikacja cyfrowego podpisu PDF w C#](./pdf-signature-tutorial-verify-a-pdf-s-digital-signature-in-c/) | Dowiedz się, jak zweryfikować cyfrowy podpis w plikach PDF przy użyciu Aspose.PDF dla .NET w języku C#. |  
 | [Załaduj certyfikat PFX w C# – Utwórz odłączony podpis PKCS7](./load-pfx-certificate-c-create-pkcs7-detached-signature/) | Dowiedz się, jak załadować certyfikat PFX i utworzyć odłączony podpis PKCS7 przy użyciu Aspose.PDF dla .NET. |  
 | [Sprawdź podpisy PDF w C# – Szybki przewodnik weryfikacji podpisów cyfrowych](./check-pdf-signatures-in-c-quick-guide-to-verify-digital-sign/) | Dowiedz się, jak szybko sprawdzić i zweryfikować podpisy cyfrowe w plikach PDF przy użyciu Aspose.PDF dla .NET w C#. |  
+| [Walidacja cyfrowego podpisu PDF w C# – Kompletny przewodnik Aspose.PDF](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) | Dowiedz się, jak weryfikować cyfrowe podpisy PDF w C# przy użyciu Aspose.PDF – kompletny przewodnik krok po kroku. |  
+| [Skonfiguruj serwer CA w C# – Kompletny przewodnik weryfikacji podpisów dokumentów Word](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) | Dowiedz się, jak skonfigurować serwer CA w C# i zweryfikować podpisy dokumentów Word przy użyciu Aspose.Words. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

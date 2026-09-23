@@ -35,6 +35,8 @@ Aspose.PDF for .NET을 사용하여 SVG 파일을 고품질 PDF로 원활하게 
 ### [Aspose.PDF for .NET을 사용하여 PDF에서 사각형 만들기 및 채우기: 단계별 가이드](./create-fill-rectangle-aspose-pdf-net/)
 Aspose.PDF for .NET을 사용하여 PDF 문서에 사각형을 만들고 채우는 방법을 알아보세요. 이 단계별 가이드에서는 C#을 사용하여 설정부터 구현까지 모든 것을 다룹니다.
 
+### [C#로 PDF에 사각형 그리기 – 단계별 가이드](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
+
 ### [.NET에서 Aspose.PDF를 사용하여 사용자 정의 PDF 스탬프 만들기](./create-custom-pdf-stamps-aspose-pdf-net/)
 Aspose.PDF Net에 대한 코드 튜토리얼
 

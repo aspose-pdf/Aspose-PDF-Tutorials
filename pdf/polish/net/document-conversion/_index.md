@@ -63,6 +63,8 @@ Dowiesz się, jak określać ustawienia konwersji, wyodrębniać tekst i obrazy,
 | [Jak ustawić opcje konwersji PDF w C# – przewodnik Aspose](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | Dowiedz się, jak ustawiać opcje konwersji PDF w C# przy użyciu Aspose.PDF dla .NET w tym przewodniku krok po kroku. |
 | [Samouczek Aspose PDF: konwersja PDF do PDF/X‑4 w C#](./aspose-pdf-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Dowiedz się, jak w C# konwertować pliki PDF do formatu PDF/X‑4 przy użyciu Aspose.PDF dla .NET w prostym przewodniku krok po kroku. |
 | [Ładuj dokument PDF C# – konwertuj do PDF/X‑4 przy użyciu Aspose](./load-pdf-document-c-convert-to-pdf-x-4-with-aspose/) | Dowiedz się, jak wczytać dokument PDF w C# i przekonwertować go do formatu PDF/X‑4 przy użyciu Aspose.PDF dla .NET. |
+| [Utwórz element span i dodaj go do strony – konwersja DOCX do PDF](./create-span-element-and-add-to-page-convert-docx-to-pdf/) | Dowiedz się, jak utworzyć element span i dodać go do strony podczas konwersji dokumentu DOCX do PDF przy użyciu Aspose.PDF dla .NET. |
+| [Konwersja Aspose PDF w C#: Ładowanie, konwersja do PDF/X‑4, zapis](./aspose-pdf-conversion-in-c-load-convert-to-pdf-x-4-save/) | Dowiedz się, jak w C# załadować dokument, przekonwertować go do PDF/X‑4 i zapisać przy użyciu Aspose.PDF. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

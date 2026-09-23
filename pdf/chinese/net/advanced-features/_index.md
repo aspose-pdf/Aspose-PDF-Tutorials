@@ -70,6 +70,9 @@
 ### [如何使用 Aspose.Pdf 在 PDF 上运行 OCR – 完整 C# 指南](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
 了解如何使用 Aspose.Pdf 在 C# 中对 PDF 执行光学字符识别（OCR），实现文本提取和搜索功能的完整指南。
 
+### [使用 Aspose.Pdf 保存每个 PDF 图层：分步指南](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
+了解如何使用 Aspose.Pdf 将 PDF 中的每个图层单独保存，以实现更细粒度的内容管理。
+
 ## 其他资源
 
 - [Aspose.PDF 用于网络文档](https://docs.aspose.com/pdf/net/)

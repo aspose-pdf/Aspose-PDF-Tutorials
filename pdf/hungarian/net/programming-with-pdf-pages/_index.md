@@ -42,6 +42,9 @@ Az oktatóanyagok lépésről lépésre bemutatják az utasításokat, részlete
 | [Bates-számozás hozzáadása PDF-hez – Lépésről‑lépésre útmutató a PDF oldalak számozásához](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Lépésről lépésre útmutató a PDF oldalak Bates-számozásához C#‑ben az Aspose.PDF for .NET használatával. |
 | [PDF dokumentum létrehozása C# – Alakzatok és üres oldalak hozzáadása útmutató](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Lépésről lépésre bemutatja, hogyan adhat hozzá alakzatokat és üres oldalakat egy PDF-hez C#‑ben az Aspose.PDF for .NET használatával. |
 | [Bates számozás hozzáadása PDF-hez Aspose-szal – Teljes útmutató](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Lépésről lépésre útmutató a Bates-számozás hozzáadásához PDF dokumentumokhoz az Aspose.PDF for .NET segítségével. |
+| [Bates-számozás hozzáadása C#‑ban – Lépésről‑lépésre útmutató](./add-bates-numbering-in-c-step-by-step-guide/) | Lépésről lépésre útmutató a Bates-számozás hozzáadásához C#‑ban az Aspose.PDF for .NET használatával, egyszerűen beépíthető projektjeibe. |
+| [Oldalak hozzáadása PDF-hez – Lépésről‑lépésre útmutató C# fejlesztőknek](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) | Lépésről‑lépésre bemutatja, hogyan adhat hozzá új oldalakat egy PDF-hez C#‑ban az Aspose.PDF for .NET használatával. |
+| [PDF oldalak újrarendezése C#‑ban – Teljes lépésről‑lépésre útmutató](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | Tanulja meg, hogyan rendezheti újra a PDF oldalak sorrendjét C#‑ban az Aspose.PDF for .NET segítségével, részletes lépésről‑lépésre útmutatóval. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

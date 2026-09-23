@@ -61,7 +61,9 @@ Naučíte se, jak nastavit převod, extrahovat text a obrázky, zachovat původn
 | [Převod PDF na PDF/X‑4 v C# – krok krokem ASP.NET PDF tutoriál](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Naučte se … |
 | [Jak ... PDF/X‑4 ...] ... |
 | [Načíst PDF dokument C# – Převést na PDF/X‑4 pomocí Aspose](./load-pdf-document-c-convert-to-pdf-x-4-with-aspose/) | Naučte se, jak načíst PDF dokument v C# a převést jej na PDF/X‑4 pomocí Aspose.PDF pro .NET. |
+| [Aspose PDF konverze v C#: načtení, převod na PDF/X-4, uložení](./aspose-pdf-conversion-in-c-load-convert-to-pdf-x-4-save/) | Naučte se, jak načíst soubor, převést jej na PDF/X‑4 a uložit pomocí Aspose.PDF pro .NET v C#. |
 | [PDF na PNG tutoriál – Převod stránek PDF do PNG v C#](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Naučte se, jak převést stránky PDF do formátu PNG pomocí Aspose.PDF pro .NET v C#. |
+| [Vytvořit element span a přidat na stránku – převod DOCX do PDF](./create-span-element-and-add-to-page-convert-docx-to-pdf/) | Naučte se, jak vytvořit element span a přidat jej na stránku při převodu DOCX do PDF pomocí Aspose.PDF pro .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

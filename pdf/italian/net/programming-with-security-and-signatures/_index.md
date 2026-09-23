@@ -41,6 +41,8 @@ Questo tutorial offre una panoramica dettagliata di metodi e tecniche per garant
 | [Verifica firma digitale PDF in C# con Aspose.Pdf](./verify-pdf-digital-signature-in-c-with-aspose-pdf/) | Scopri come verificare le firme digitali dei PDF usando C# e Aspose.Pdf. Guida passo passo per leggere e convalidare le firme. |
 | [Carica certificato PFX C# – Crea firma PKCS7 separata](./load-pfx-certificate-c-create-pkcs7-detached-signature/) | Scopri come caricare un certificato PFX in C# e generare una firma digitale PKCS7 separata per i PDF usando Aspose.PDF per .NET. |
 | [Tutorial firma PDF: Verifica la firma digitale di un PDF in C#](./pdf-signature-tutorial-verify-a-pdf-s-digital-signature-in-c/) | Scopri come verificare la firma digitale di un PDF usando C# e Aspose.PDF per .NET. |
+| [Convalida firma digitale PDF in C# – Guida completa Aspose.PDF](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) | Scopri come convalidare firme digitali nei PDF usando C# e Aspose.PDF per .NET. |
+| [Configura server CA in C# – Guida completa per convalidare le firme dei documenti Word](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) | Scopri come configurare un server CA in C# per convalidare le firme dei documenti Word con Aspose.Words. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

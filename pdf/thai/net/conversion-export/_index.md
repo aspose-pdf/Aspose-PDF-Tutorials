@@ -247,6 +247,8 @@
 ### [บันทึก PDF เป็น HTML ด้วย Aspose.PDF – คู่มือ C# ฉบับสมบูรณ์](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
 เรียนรู้วิธีบันทึกไฟล์ PDF เป็น HTML อย่างครบถ้วนด้วย Aspose.PDF สำหรับ .NET และ C#
 
+### [วิธีส่งออก DOCX – คู่มือขั้นตอนสำหรับนักพัฒนา C#](./how-to-export-docx-step-by-step-guide-for-c-developers/)
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)

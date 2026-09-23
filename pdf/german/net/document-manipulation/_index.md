@@ -307,6 +307,12 @@ Erfahren Sie, wie Sie PDF-Seiten mit Aspose.PDF für .NET in separate Dateien au
 ### [PDF-Dateien mit Aspose.PDF .NET teilen und erstellen | Handbuch zur Dokumentbearbeitung](./split-create-pdf-aspose-pdf-net/)
 Erfahren Sie, wie Sie mehrseitige PDFs mit Aspose.PDF für .NET aufteilen und neue PDF-Dateien erstellen. Folgen Sie dieser umfassenden Anleitung mit Codebeispielen.
 
+### [Wie man PDF mit Aspose.PDF flachlegt – Vollständige Anleitung](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+Erfahren Sie, wie Sie PDFs mit Aspose.PDF flachlegen, um interaktive Elemente zu entfernen und die Datei zu sichern.
+
+### [PDFs mit Aspose vergleichen – Schritt‑für‑Schritt‑Anleitung](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
+Erfahren Sie, wie Sie PDFs mit Aspose vergleichen, um Unterschiede zu erkennen, mithilfe von C#‑Beispielen Schritt für Schritt.
+
 ### [Ultimativer Leitfaden zur PDF-Manipulation mit Aspose.PDF .NET: Text effizient laden, speichern und ersetzen](./master-pdf-manipulation-aspose-pdf-net/)
 Erfahren Sie, wie Sie PDFs mit Aspose.PDF für .NET bearbeiten. Diese Anleitung behandelt das Laden, Speichern und Ersetzen von Text in PDFs – ideal für Entwickler, die Wert auf Effizienz legen.
 

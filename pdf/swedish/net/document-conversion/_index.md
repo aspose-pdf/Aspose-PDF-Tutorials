@@ -62,6 +62,8 @@ Du lär dig hur du anger konverteringsinställningar, extraherar text och bilder
 | [XML till PDFSet-bildsökväg](./xml-to-pdfset-image-path/) | Lär dig hur du enkelt konverterar XML till PDF med Aspose.PDF för .NET. Den här detaljerade guiden guidar dig genom processen steg för steg, från installation till slutförande. |
 | [XPS till PDF](./xps-to-pdf/) Lär dig hur du konverterar XPS-filer till PDF med Aspose.PDF för .NET med den här steg-för-steg-handledningen. Perfekt för utvecklare och dokumententusiaster. |
 | [Hur man ställer in alternativ för PDF‑konvertering i C# – Aspose‑guide](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | Lär dig hur du ställer in konverteringsalternativ för PDF i C# med Aspose.PDF för .NET i denna steg‑för‑steg‑guide. |
+| [Skapa span-element och lägg till på sidan – Konvertera DOCX till PDF](./create-span-element-and-add-to-page-convert-docx-to-pdf/) | Lär dig hur du skapar ett span-element och lägger till det på en sida när du konverterar DOCX till PDF med Aspose.PDF för .NET. |
+| [Aspose PDF-konvertering i C#: Ladda, konvertera till PDF/X-4, spara](./aspose-pdf-conversion-in-c-load-convert-to-pdf-x-4-save/) | Lär dig hur du laddar en PDF, konverterar till PDF/X‑4 och sparar med Aspose.PDF för .NET i C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

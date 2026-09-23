@@ -33,6 +33,7 @@ Eğitimler, adım adım talimatlar, ayrıntılı kod örnekleri ve anlaşılmas�
 | [PDF Özelliklerini Alın](./get-properties/) | Aspose.PDF for .NET kullanarak PDF özelliklerinin nasıl verimli bir şekilde çıkarılacağını öğrenin. Kod örnekleri ve en iyi uygulamalarla adım adım kılavuz. |
 | [PDF Dosyasında Resmi Sayfa Arka Planı Olarak Ayarla](./image-as-background/) | Bu adım adım kılavuzla .NET için Aspose.PDF'yi kullanarak bir PDF'de sayfa arka planı olarak bir resmin nasıl ayarlanacağını öğrenin. Profesyonel, görsel olarak çekici belgeler oluşturun. |
 | [PDF Dosyasına Boş Sayfa Ekle](./insert-empty-page/) | Aspose.PDF for .NET kullanarak bir PDF belgesine boş bir sayfanın nasıl ekleneceğini öğrenin. Sorunsuz PDF düzenleme için kod örnekleri içeren adım adım eğitim. |
+| [PDF'e Sayfa Ekle – C# Geliştiricileri için Adım‑Adım Kılavuz](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) | Aspose.PDF for .NET kullanarak C# ile PDF dosyalarına sayfa eklemeyi adım adım öğrenin. |
 | [Sonuna Boş Sayfa Ekle](./insert-empty-page-at-end/) | Bu başlangıç seviyesindeki kullanıcı dostu kılavuzda Aspose.PDF for .NET ile PDF belgesine zahmetsizce boş bir sayfa eklemeyi öğrenin. Hızlı düzenlemeler için mükemmel. |
 | [Sayfalara Böl](./split-to-pages/) Bu kapsamlı eğitimle Aspose.PDF for .NET'i kullanarak PDF'leri kolayca tek tek sayfalara bölün. Adım adım kılavuz dahildir. |
 | [PDF Sayfa Boyutlarını Güncelle](./update-dimensions/) | Bu kapsamlı, adım adım kılavuzda, Aspose.PDF for .NET ile PDF sayfa boyutlarını zahmetsizce nasıl güncelleyeceğinizi keşfedin. |
@@ -42,6 +43,8 @@ Eğitimler, adım adım talimatlar, ayrıntılı kod örnekleri ve anlaşılmas�
 | [PDF'e Bates Numaralandırması Ekle – Sayfaları Numaralandırma Adım‑Adım Kılavuzu](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Aspose.PDF for .NET kullanarak C# ile PDF dosyalarına Bates numaralandırması eklemeyi adım adım öğrenin. |
 | [C# ile PDF Belgesi Oluştur – Şekiller ve Boş Sayfalar Ekleme Kılavuzu](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Aspose.PDF for .NET ile C# kullanarak PDF oluşturun, şekiller ekleyin ve boş sayfalar ekleyerek belgeyi özelleştirin. |
 | [Aspose ile Bates Numaralandırması PDF'ye Ekle – Tam Kılavuz](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Aspose.PDF for .NET kullanarak PDF dosyalarına Bates numaralandırması eklemeyi adım adım öğrenin. |
+| [C# ile Bates Numaralandırması Ekle – Tam Adım‑Adım Kılavuz](./add-bates-numbering-in-c-step-by-step-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF dosyalarına Bates numaralandırması eklemeyi adım adım öğrenin. |
+| [C# ile PDF Sayfalarını Yeniden Sırala – Tam Adım‑Adım Kılavuz](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF sayfalarını yeniden sıralamayı adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

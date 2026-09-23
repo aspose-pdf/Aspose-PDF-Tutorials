@@ -70,6 +70,9 @@ Pelajari cara mengedit tingkat transparansi elemen PDF menggunakan Aspose.PDF un
 ### [Cara Menjalankan OCR pada PDF dengan Aspose.Pdf – Panduan Lengkap C#](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
 Pelajari cara menggunakan Aspose.Pdf untuk melakukan OCR pada file PDF dengan contoh kode C# lengkap.
 
+### [Simpan Setiap Lapisan PDF dengan Aspose.Pdf – Panduan Langkah demi Langkah](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
+Pelajari cara menyimpan setiap lapisan PDF secara terpisah menggunakan Aspose.Pdf dalam panduan langkah demi langkah.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

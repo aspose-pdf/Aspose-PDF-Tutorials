@@ -70,6 +70,9 @@ Tanulja meg, hogyan módosíthatja a PDF átlátszósági beállításait C#-ban
 ### [OCR futtatása PDF-en az Aspose.Pdf használatával – Teljes C# útmutató](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
 Ismerje meg, hogyan alkalmazhat OCR-t PDF-fájlokon az Aspose.Pdf segítségével C#-ban, a teljes folyamatot bemutatva.
 
+### [Minden PDF réteg mentése az Aspose.Pdf segítségével – Lépésről‑lépésre útmutató](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
+Ismerje meg, hogyan menthet különálló PDF rétegeket az Aspose.Pdf .NET könyvtárral, részletes lépésekkel és kódrészletekkel.
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)

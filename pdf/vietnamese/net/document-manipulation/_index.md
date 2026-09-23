@@ -248,6 +248,12 @@ Tìm hiểu cách làm chủ việc tải, điều hướng và sửa đổi tà
 ### [Làm chủ thao tác PDF với Aspose.PDF .NET: Hướng dẫn tải, tìm kiếm, chú thích](./aspose-pdf-dotnet-mastering-pdfs-manipulation-guide/)
 Học cách thành thạo thao tác PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm tải tài liệu, tìm kiếm văn bản và áp dụng chú thích như gạch bỏ.
 
+### [Cách làm phẳng PDF với Aspose.PDF – Hướng dẫn đầy đủ](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+Tìm hiểu cách làm phẳng tài liệu PDF, loại bỏ các lớp tương tác và chú thích, để tạo tệp PDF tĩnh bằng Aspose.PDF cho .NET.
+
+### [Cách so sánh PDF với Aspose – Hướng dẫn từng bước](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
+Tìm hiểu cách so sánh các tệp PDF bằng Aspose trong .NET qua các bước chi tiết.
+
 ### [Làm chủ thao tác PDF với Aspose.PDF cho .NET: Hướng dẫn toàn diện](./mastering-pdf-manipulation-aspose-pdf-net-guide/)
 Tìm hiểu cách tạo, sửa đổi, hợp nhất và trích xuất dữ liệu hiệu quả từ PDF bằng Aspose.PDF cho .NET. Cải thiện quy trình làm việc tài liệu của bạn và nâng cao năng suất.
 

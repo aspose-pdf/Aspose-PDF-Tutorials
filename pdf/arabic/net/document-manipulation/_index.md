@@ -318,6 +318,10 @@
 
 ### [كيفية إخفاء محتوى PDF في C# باستخدام Aspose PDF – دليل شامل](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
 
+### [كيفية تسوية ملف PDF باستخدام Aspose.PDF – دليل شامل](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+
+### [كيفية مقارنة ملفات PDF باستخدام Aspose – دليل خطوة بخطوة](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

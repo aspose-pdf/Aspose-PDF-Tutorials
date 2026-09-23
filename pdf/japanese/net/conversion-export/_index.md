@@ -252,6 +252,8 @@ Aspose を使って PDF を保存する手順を詳しく解説し、コード�
 ### [C# で PDF を PNG に変換する: 完全ステップバイステップガイド](./convert-pdf-to-png-in-c-complete-step-by-step-guide/)
 ### [Aspose.PDF を使用して C# で PDF を HTML に保存する – クイック C# ガイド](./save-pdf-as-html-with-aspose-pdf-quick-c-guide/)
 Aspose.PDF for .NET を使用し、C# で PDF を高速に HTML に変換する手順を紹介します。
+### [DOCX のエクスポート方法 – C# 開発者向けステップバイステップガイド](./how-to-export-docx-step-by-step-guide-for-c-developers/)
+Aspose.PDF for .NET を使用して C# で DOCX ファイルをエクスポートする方法をステップバイステップで解説します。
 
 ## 追加リソース
 

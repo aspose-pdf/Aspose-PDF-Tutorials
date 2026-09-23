@@ -100,6 +100,9 @@ Leer hoe u alle handtekeningen uit een PDF-document kunt halen met Aspose.Pdf in
 ### [Hoe handtekeningen uit een PDF te extraheren in C# – Stapsgewijze handleiding](./how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/)
 Leer hoe u handtekeningen uit een PDF haalt met C# en Aspose.PDF. Deze gids behandelt installatie, implementatie en praktische voorbeelden.
 
+### [Digitale handtekening aan PDF toevoegen in C# – Complete gids](./add-digital-signature-pdf-in-c-complete-guide/)
+Leer hoe u een digitale handtekening aan een PDF toevoegt met C# en Aspose.PDF voor .NET in een volledige stap‑voor‑stap gids.
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

@@ -92,6 +92,9 @@ PDF हस्ताक्षर की वैधता जांचें और
 ### [C# में PDF हस्ताक्षर जांचें – डिजिटल हस्ताक्षर PDF को मान्य करें](./check-pdf-signature-in-c-validate-digital-signature-pdf/)
 C# का उपयोग करके PDF हस्ताक्षर को सत्यापित करने और उसकी वैधता जांचने की प्रक्रिया सीखें।
 
+### [C# में डिजिटल हस्ताक्षर PDF जोड़ें – पूर्ण गाइड](./add-digital-signature-pdf-in-c-complete-guide/)
+C# का उपयोग करके PDF में डिजिटल हस्ताक्षर जोड़ने की पूरी प्रक्रिया सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.PDF for Net दस्तावेज़ीकरण](https://docs.aspose.com/pdf/net/)

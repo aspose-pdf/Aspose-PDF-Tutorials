@@ -41,6 +41,8 @@
 | [Επαλήθευση ψηφιακής υπογραφής PDF σε C# με Aspose.Pdf](./verify-pdf-digital-signature-in-c-with-aspose-pdf/) | Μάθετε πώς να επαληθεύετε ψηφιακές υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF. |  
 | [Φόρτωση Πιστοποιητικού PFX C# – Δημιουργία Αποσπασμένης Υπογραφής PKCS7](./load-pfx-certificate-c-create-pkcs7-detached-signature/) | Μάθετε πώς να φορτώνετε πιστοποιητικό PFX σε C# και να δημιουργείτε αποσπασμένη υπογραφή PKCS7. |  
 | [Οδηγός υπογραφής PDF: Επαλήθευση ψηφιακής υπογραφής PDF σε C#](./pdf-signature-tutorial-verify-a-pdf-s-digital-signature-in-c/) | Μάθετε πώς να επαληθεύετε ψηφιακές υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF. |  
+| [Επικύρωση ψηφιακής υπογραφής PDF σε C# – Πλήρης οδηγός Aspose.PDF](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) | Μάθετε πώς να επικυρώνετε ψηφιακές υπογραφές σε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET με C#. Οδηγός βήμα‑βήμα. |  
+| [Διαμόρφωση διακομιστή CA σε C# – Πλήρης οδηγός για την επικύρωση υπογραφών εγγράφων Word](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) | Μάθετε πώς να ρυθμίσετε έναν διακομιστή CA σε C# για την επικύρωση ψηφιακών υπογραφών εγγράφων Word. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -41,6 +41,8 @@
 | [在 C# 中使用 Aspose.Pdf 验证 PDF 数字签名](./verify-pdf-digital-signature-in-c-with-aspose-pdf/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 数字签名，分步指南帮助您确保文档的完整性和真实性。|  
 | [加载 PFX 证书 C# – 创建 PKCS7 分离签名](./load-pfx-certificate-c-create-pkcs7-detached-signature/) 了解如何使用 Aspose.PDF for .NET 在 C# 中加载 PFX 证书并创建 PKCS7 分离签名。分步指南，确保安全签名。|  
 | [PDF 签名教程：在 C# 中验证 PDF 的数字签名](./pdf-signature-tutorial-verify-a-pdf-s-digital-signature-in-c/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 的数字签名，确保文档完整性和真实性。|  
+| [在 C# 中验证 PDF 数字签名 – Aspose.PDF 完整指南](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 的数字签名，确保文档完整性。|  
+| [在 C# 中配置 CA 服务器 – 验证 Word 文档签名的完整指南](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) 了解如何使用 Aspose.Words for .NET 在 C# 中配置 CA 服务器并验证 Word 文档的数字签名，分步指南帮助您实现安全签名验证。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

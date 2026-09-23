@@ -70,6 +70,9 @@ Aprenda a modificar a transparência de objetos em PDFs usando Aspose.PDF para .
 ### [Como executar OCR em PDF com Aspose.Pdf – Guia completo em C#](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
 Aprenda a executar OCR em PDFs usando Aspose.Pdf com C#, passo a passo, para extrair texto de documentos digitalizados.
 
+### [Salvar Cada Camada de PDF com Aspose.Pdf – Guia Passo a Passo](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
+Aprenda a salvar individualmente cada camada de um documento PDF usando Aspose.Pdf em .NET, com exemplos de código passo a passo.
+
 ## Recursos adicionais
 
 - [Aspose.PDF para documentação da Net](https://docs.aspose.com/pdf/net/)

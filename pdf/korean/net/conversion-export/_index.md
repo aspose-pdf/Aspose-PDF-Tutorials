@@ -164,6 +164,9 @@ Aspose.PDF for .NET을 사용하여 PDF에서 주석을 효율적으로 내보�
 ### [Aspose.PDF for .NET을 사용하여 PDF 데이터를 XML로 내보내기: 단계별 가이드](./export-pdf-data-to-xml-aspose-dotnet-guide/)
 강력한 PDF 조작 라이브러리인 Aspose.PDF for .NET을 사용하여 PDF 양식 데이터를 구조화된 XML로 효율적으로 내보내는 방법을 알아보세요.
 
+### [DOCX 내보내기 방법 – C# 개발자를 위한 단계별 가이드](./how-to-export-docx-step-by-step-guide-for-c-developers/)
+Aspose.PDF for .NET을 활용해 C#에서 DOCX 파일을 내보내는 방법을 단계별로 안내합니다.
+
 ### [.NET용 Aspose.PDF를 사용하여 HTML을 PDF로 포맷하기: 단계별 가이드](./format-html-pdf-aspose-dotnet-guide/)
 이 종합 가이드를 통해 Aspose.PDF for .NET을 사용하여 PDF의 HTML 콘텐츠를 쉽게 포맷하는 방법을 알아보세요. 간소화된 변환 프로세스를 원하는 개발자에게 적합합니다.
 

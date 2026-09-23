@@ -104,6 +104,9 @@ Apprenez à vérifier et valider les signatures numériques d'un PDF en C# avec 
 ### [Comment lire les signatures dans un PDF avec C# – Guide étape par étape](./how-to-read-signatures-in-pdf-with-c-step-by-step-guide/)
 Apprenez à lire les signatures numériques d'un PDF en C# avec Aspose.PDF, étape par étape.
 
+### [Ajouter une signature numérique PDF en C# – Guide complet](./add-digital-signature-pdf-in-c-complete-guide/)
+Apprenez à ajouter une signature numérique à un PDF en C# avec Aspose.PDF, étape par étape.
+
 ## Ressources supplémentaires
 
 - [Aspose.PDF pour la documentation réseau](https://docs.aspose.com/pdf/net/)
