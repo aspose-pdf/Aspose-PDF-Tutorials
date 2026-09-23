@@ -89,6 +89,12 @@ Pelajari cara membuat dokumen PDF secara terprogram menggunakan Aspose.PDF denga
 ### [Buat Dokumen PDF dengan Aspose.PDF – Panduan Lengkap C#](./create-pdf-document-with-aspose-pdf-full-c-guide/)
 Pelajari cara membuat dokumen PDF secara lengkap menggunakan Aspose.PDF dengan contoh kode C# yang jelas.
 
+### [Buat Dokumen PDF di C# – Tambahkan Halaman ke PDF & Gambar Persegi Panjang](./create-pdf-document-in-c-add-page-to-pdf-draw-rectangle/)
+Pelajari cara menambahkan halaman baru ke dokumen PDF dan menggambar persegi panjang menggunakan Aspose.PDF untuk .NET dalam C#.
+
+### [Buat Dokumen PDF di C# – Panduan Lengkap Pembuatan In‑Memory](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
+Pelajari cara membuat dokumen PDF secara langsung di memori menggunakan Aspose.PDF untuk .NET dengan C#, tanpa menyimpan file sementara.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

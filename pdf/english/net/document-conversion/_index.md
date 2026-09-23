@@ -34,6 +34,7 @@ You'll learn how to specify conversion settings, extract text and images, retain
 | [MHT To PDF](./mht-to-pdf/) | Learn how to convert MHT files to PDF using Aspose.PDF for .NET in this step‑by‑step tutorial. Easy and efficient document conversion. |  
 | [Page Orientation According Image Dimensions](./page-orientation-according-image-dimensions/) | Learn how to create PDFs with Aspose.PDF for .NET, setting page orientation based on image dimensions in this step‑by‑step guide. |  
 | [PCL To PDF](./pcl-to-pdf/) | Learn how to convert PCL files to PDF using Aspose.PDF for .NET with this step‑by‑step guide. Perfect for developers and businesses alike. |  
+| [Load PDF Document C# – Convert to PDF/X‑4 with Aspose](./load-pdf-document-c-convert-to-pdf-x-4-with-aspose/) | Learn how to load a PDF in C# and convert it to PDF/X‑4 using Aspose.PDF for .NET. |
 | [PDFA To PDF](./pdfa-to-pdf/) | Learn how to convert PDF/A to PDF using Aspose.PDF for .NET in this comprehensive, step-by-step guide. |  
 | [PDF To DOC](./pdf-to-doc/) | Learn how to convert PDF to DOC using Aspose.PDF for .NET in this comprehensive guide. Step-by-step instructions and tips included.  |  
 | [PDF To EPUB](./pdf-to-epub/) | Learn how to convert PDF to EPUB using Aspose.PDF for .NET in this step‑by‑step tutorial. Perfect for developers and content creators. |  
@@ -59,6 +60,7 @@ You'll learn how to specify conversion settings, extract text and images, retain
 | [TIFF To PDF Performance Improvement](./tiff-to-pdf-performance-improvement/) | Efficiently convert TIFF images to a PDF using Aspose.PDF for .NET. Learn step‑by‑step with performance optimization tips to handle large image files smoothly. |  
 | [Web Page To PDF](./web-page-to-pdf/) | Learn how to convert web pages to PDF using Aspose.PDF for .NET in this detailed, step‑by‑step tutorial. |  
 | [XML To PDF](./xml-to-pdf/) | Learn how to convert XML to PDF using Aspose.PDF for .NET in this comprehensive step‑by‑step tutorial, complete with code examples and detailed explanations. |  
+| [Set ICC Profile in PDF/X‑1A Conversion – Complete C# Guide](./set-icc-profile-in-pdf-x-1a-conversion-complete-c-guide/) | Learn how to set an ICC profile during PDF/X‑1A conversion using Aspose.PDF for .NET in this comprehensive C# guide. |
 | [XML To PDFSet Image Path](./xml-to-pdfset-image-path/) | Learn how to effortlessly convert XML to PDF using Aspose.PDF for .NET. This detailed guide walks you through the process step by step, from setup to completion. |  
 | [XPS To PDF](./xps-to-pdf/) | Learn how to convert XPS files to PDF using Aspose.PDF for .NET with this step‑by‑step tutorial. Perfect for developers and document enthusiasts. |  
 

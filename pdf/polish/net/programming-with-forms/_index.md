@@ -61,6 +61,7 @@ Te samouczki zawierają również szczegółowe przykłady kodu, jasne wyjaśnie
 
 {{< blocks/products/products-backtop-button >}}
 | [Jak utworzyć PDF przy użyciu Aspose – Dodaj pole do kolekcji](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Dowiedz się, jak dodać pole do kolekcji w dokumencie PDF przy użyciu Aspose.PDF dla .NET w tym przewodniku krok po kroku. |  
+| [Utwórz dokument PDF z Aspose – Dodaj pole tekstowe](./create-pdf-document-with-aspose-add-text-box-field/) | Dowiedz się, jak dodać pole tekstowe do dokumentu PDF przy użyciu Aspose.PDF dla .NET w tym przewodniku krok po kroku. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

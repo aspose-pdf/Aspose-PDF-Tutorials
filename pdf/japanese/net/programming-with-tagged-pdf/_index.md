@@ -47,6 +47,7 @@ Aspose.PDF for .NET の「タグ付き PDF を使ったプログラミング」�
 | [C# でタグ付き PDF を作成 – Aspose PDF 完全ガイド](./create-tagged-pdf-in-c-aspose-pdf-complete-guide/) Aspose.PDF for .NET を使用して、C# でタグ付き PDF を最初から作成する手順をステップバイステップで解説します。 |  
 | [C# でタグ付き PDF を作成する – 完全ステップバイステップガイド](./create-tagged-pdf-in-c-complete-step-by-step-guide/) Aspose.PDF for .NET を使用して、C# でタグ付き PDF を最初から作成する方法をステップバイステップで解説します。 |  
 | [C# でタグ付き PDF を作成する – ステップバイステップガイド](./create-tagged-pdf-in-c-step-by-step-guide/) Aspose.PDF for .NET を使用して、C# でタグ付き PDF を作成する方法をステップバイステップで解説します。 |  
+| [PDF ドキュメントを作成 – タグ付きテキストの絶対位置を設定](./create-pdf-document-set-absolute-position-for-tagged-text/) Aspose.PDF for .NET を使用して、タグ付きテキストの絶対位置を設定した PDF ドキュメントを作成する方法を学びます。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

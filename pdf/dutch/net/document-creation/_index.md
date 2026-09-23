@@ -88,6 +88,12 @@ Leer hoe u met Aspose.PDF een PDF-document maakt, pagina's toevoegt en opslaat i
 ### [PDF-document maken met Aspose.PDF – volledige C#-handleiding](./create-pdf-document-with-aspose-pdf-full-c-guide/)
 Leer stap voor stap hoe u een PDF-document maakt met Aspose.PDF in C#, inclusief codevoorbeelden en best practices.
 
+### [PDF-document maken in C# – Pagina toevoegen aan PDF & Rechthoek tekenen](./create-pdf-document-in-c-add-page-to-pdf-draw-rectangle/)
+Leer hoe u een pagina toevoegt en een rechthoek tekent in een PDF met Aspose.PDF voor .NET in C#.
+
+### [PDF-document maken in C# – Volledige gids voor in‑memory generatie](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
+Leer hoe u een PDF-document volledig in het geheugen genereert met C# en Aspose.PDF, zonder tijdelijke bestanden.
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

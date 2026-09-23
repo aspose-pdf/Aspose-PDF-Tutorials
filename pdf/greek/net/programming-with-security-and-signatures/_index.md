@@ -37,6 +37,10 @@
 | [Έλεγχος PDF για υπογραφές – Πώς να καταγράψετε τις υπογραφές σε C# με το Aspose.PDF](./check-pdf-for-signatures-how-to-list-signatures-in-c-with-as/) | Μάθετε πώς να εντοπίζετε και να καταγράφετε όλες τις υπογραφές ενός PDF χρησιμοποιώντας C# και Aspose.PDF. |  
 | [Πώς να επαληθεύσετε την υπογραφή σε PDF χρησιμοποιώντας C# – Πλήρης οδηγός Aspose](./how-to-verify-signature-in-pdf-using-c-complete-aspose-guide/) | Μάθετε πώς να ελέγχετε ψηφιακές υπογραφές PDF με C# χρησιμοποιώντας το Aspose.PDF σε πλήρη οδηγό βήμα προς βήμα. |  
 | [Προσθήκη ψηφιακής υπογραφής PDF σε C# – Πλήρης οδηγός βήμα προς βήμα](./add-digital-signature-pdf-in-c-complete-step-by-step-guide/) | Μάθετε πώς να προσθέσετε ψηφιακή υπογραφή σε PDF χρησιμοποιώντας C# και Aspose.PDF με πλήρη οδηγό βήμα προς βήμα. |  
+| [Έλεγχος υπογραφών PDF σε C# – Σύντομος οδηγός για την επαλήθευση ψηφιακών υπογραφών](./check-pdf-signatures-in-c-quick-guide-to-verify-digital-sign/) | Μάθετε πώς να ελέγχετε και να επαληθεύετε ψηφιακές υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF. |  
+| [Επαλήθευση ψηφιακής υπογραφής PDF σε C# με Aspose.Pdf](./verify-pdf-digital-signature-in-c-with-aspose-pdf/) | Μάθετε πώς να επαληθεύετε ψηφιακές υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF. |  
+| [Φόρτωση Πιστοποιητικού PFX C# – Δημιουργία Αποσπασμένης Υπογραφής PKCS7](./load-pfx-certificate-c-create-pkcs7-detached-signature/) | Μάθετε πώς να φορτώνετε πιστοποιητικό PFX σε C# και να δημιουργείτε αποσπασμένη υπογραφή PKCS7. |  
+| [Οδηγός υπογραφής PDF: Επαλήθευση ψηφιακής υπογραφής PDF σε C#](./pdf-signature-tutorial-verify-a-pdf-s-digital-signature-in-c/) | Μάθετε πώς να επαληθεύετε ψηφιακές υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

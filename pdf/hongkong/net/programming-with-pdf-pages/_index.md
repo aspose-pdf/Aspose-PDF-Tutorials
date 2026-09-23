@@ -41,6 +41,7 @@ Aspose.PDF for .NET 的「使用 PDF 頁面進行編程」文件提供了逐步�
 | [使用 C# 建立 PDF 文件 – 添加 Bates 編號](./create-pdf-document-c-add-bates-numbering/) |使用 Aspose.PDF for .NET 透過 C# 為 PDF 添加 Bates 編號的完整逐步指南，簡單易於實作。 |  
 | [新增 Bates 編號 PDF – 為 PDF 頁面編號的逐步指南](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) |使用 Aspose.PDF for .NET 透過 C# 為 PDF 添加 Bates 編號的完整逐步指南，簡單易於實作。 |  
 | [建立 PDF 文件（C#）– 添加形狀與空白頁面指南](./create-pdf-document-c-add-shapes-blank-pages-guide/) |本指南說明如何使用 Aspose.PDF for .NET 在 C# 中建立 PDF、加入形狀與插入空白頁面的步驟。 |  
+| [使用 Aspose 為 PDF 添加 Bates 編號 – 完整指南](./add-bates-numbering-pdf-with-aspose-complete-guide/) |使用 Aspose.PDF for .NET 為 PDF 添加 Bates 編號的完整逐步指南，簡單易於實作。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

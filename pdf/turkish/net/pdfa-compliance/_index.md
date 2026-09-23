@@ -44,6 +44,8 @@ C# ve Aspose.PDF kullanarak PDF dosyalarını PDF/A standartlarına uygun şekil
 C# kullanarak PDF/A dosyası oluşturmayı ve tam dönüşüm sürecini adım adım öğrenin.
 ### [C# ile PDF/A Nasıl Oluşturulur – Adım Adım Aspose Kılavuzu](./how-to-create-pdf-a-in-c-step-by-step-aspose-guide/)
 Aspose.PDF for .NET kullanarak C# ile PDF/A uyumlu belgeler oluşturmayı adım adım öğrenin.
+### [C# ile PDF'yi PDF/A'ya Dönüştür – Tam Adım Adım Kılavuz](./convert-pdf-to-pdf-a-in-c-complete-step-by-step-guide/)
+C# ve Aspose.PDF for .NET kullanarak PDF dosyalarını PDF/A uyumlu belgelere nasıl dönüştüreceğinizi adım adım öğrenin.
 
 ## Ek Kaynaklar
 

@@ -92,7 +92,6 @@ Leer hoe u PDF-documenten kunt converteren naar PNG-afbeeldingen van hoge kwalit
 Leer hoe u een PDF opslaat als PNG en vervolgens converteert naar PDF/X‑1a met Aspose.PDF in .NET.
 ### [Hoe PDF naar PNG te renderen in C# – Complete gids](./how-to-render-pdf-to-png-in-c-complete-guide/)
 Leer stap voor stap hoe u PDF-bestanden rendert naar PNG-afbeeldingen met C# en Aspose.PDF.
-
 ### [PDF naar PPTX converteren met Aspose.PDF voor .NET: Stapsgewijze handleiding](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 Leer hoe u PDF-documenten efficiënt kunt converteren naar PowerPoint-presentaties met Aspose.PDF voor .NET. Deze stapsgewijze handleiding behandelt de basisconversie, geavanceerde functies zoals dia's met afbeeldingen en het bijhouden van de voortgang.
 

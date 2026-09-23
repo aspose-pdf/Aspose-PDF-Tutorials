@@ -47,6 +47,7 @@ Výukové programy „Programování s tagovanými PDF“ v knihovně Aspose.PDF
 | [Vytvořit tagovaný PDF v C# – Kompletní průvodce krok za krokem](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Naučte se, jak pomocí Aspose.PDF pro .NET vytvořit tagovaný PDF soubor v C# pomocí podrobného krok‑za‑krokem návodu. |  
 | [Vytvořit tagovaný PDF v C# – Kompletní průvodce Aspose PDF](./create-tagged-pdf-in-c-aspose-pdf-complete-guide/) | Naučte se, jak pomocí Aspose.PDF pro .NET vytvořit tagovaný PDF v C# podle podrobného průvodce. |  
 | [Vytvořit tagovaný PDF v C# – Průvodce krok za krokem](./create-tagged-pdf-in-c-step-by-step-guide/) | Naučte se vytvořit tagovaný PDF v C# pomocí Aspose.PDF pro .NET v podrobném průvodci krok za krokem. |  
+| [Vytvořit PDF dokument – Nastavit absolutní pozici pro tagovaný text](./create-pdf-document-set-absolute-position-for-tagged-text/) | Naučte se, jak nastavit absolutní pozici pro tagovaný text v PDF dokumentu pomocí Aspose.PDF pro .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

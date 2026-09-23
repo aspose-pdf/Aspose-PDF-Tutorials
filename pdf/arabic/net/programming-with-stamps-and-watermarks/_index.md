@@ -50,6 +50,8 @@
 | [كيفية حفظ PDF — إضافة ترقيم Bates باستخدام Aspose.Pdf](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) | تعرف على طريقة حفظ ملفات PDF وإضافة ترقيم Bates باستخدام Aspose.PDF لـ .NET خطوة بخطوة مع أمثلة عملية. |
 | [إنشاء علامة مائية PDF – إضافة ختم وتحويل DOCX إلى PDF](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) | تعلم كيفية إنشاء علامة مائية PDF، إضافة ختم، وتحويل ملفات DOCX إلى PDF باستخدام Aspose.PDF لـ .NET. |
 | [إنشاء مستند PDF مع ترقيم بيثس في C# – دليل كامل](./create-pdf-document-with-bates-numbering-in-c-full-guide/) تعرّف على كيفية إضافة ترقيم بيثس إلى ملفات PDF باستخدام Aspose.PDF لـ .NET عبر دليل خطوة بخطوة مع أمثلة كود.  
+| [كيفية إضافة طابع إلى PDF باستخدام Aspose.Pdf – دليل خطوة بخطوة](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) |تعرف على طريقة إضافة طابع إلى ملفات PDF باستخدام Aspose.Pdf عبر دليل شامل خطوة بخطوة. |
+| [إنشاء إشعار صفحة كاملة في PDF – دليل سريع C#](./create-pdf-full-page-notice-quick-c-guide/) |تعلم كيفية إنشاء إشعار يغطي صفحة كاملة في ملف PDF باستخدام C# و Aspose.PDF خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

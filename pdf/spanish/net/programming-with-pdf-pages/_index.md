@@ -41,6 +41,7 @@ Los tutoriales incluyen instrucciones paso a paso, ejemplos de código detallado
 | [Crear documento PDF C# – Guía para agregar formas y páginas en blanco](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Aprenda a crear documentos PDF en C#, añadiendo formas y páginas en blanco con Aspose.PDF para .NET paso a paso. |  
 | [Crear documento PDF C# – Agregar numeración Bates](./create-pdf-document-c-add-bates-numbering/) | Aprenda a agregar numeración Bates a un PDF usando C# y Aspose.PDF para .NET. Guía paso a paso. |  
 | [Agregar numeración Bates a PDF – Guía paso a paso para numerar páginas de PDF](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Aprenda a agregar numeración Bates a sus documentos PDF con Aspose.PDF para .NET mediante esta guía paso a paso. |
+| [Agregar numeración Bates a PDF con Aspose – Guía completa](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Aprenda a aplicar numeración Bates a documentos PDF usando Aspose.PDF para .NET con esta guía paso a paso. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

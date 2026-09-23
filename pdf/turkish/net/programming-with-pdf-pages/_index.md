@@ -41,6 +41,7 @@ Eğitimler, adım adım talimatlar, ayrıntılı kod örnekleri ve anlaşılmas�
 | [C# ile PDF Belgesi Oluştur – Bates Numaralandırması Ekle](./create-pdf-document-c-add-bates-numbering/) | Aspose.PDF for .NET kullanarak C# ile PDF belgelerine Bates numaralandırması eklemeyi adım adım öğrenin. |
 | [PDF'e Bates Numaralandırması Ekle – Sayfaları Numaralandırma Adım‑Adım Kılavuzu](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Aspose.PDF for .NET kullanarak C# ile PDF dosyalarına Bates numaralandırması eklemeyi adım adım öğrenin. |
 | [C# ile PDF Belgesi Oluştur – Şekiller ve Boş Sayfalar Ekleme Kılavuzu](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Aspose.PDF for .NET ile C# kullanarak PDF oluşturun, şekiller ekleyin ve boş sayfalar ekleyerek belgeyi özelleştirin. |
+| [Aspose ile Bates Numaralandırması PDF'ye Ekle – Tam Kılavuz](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Aspose.PDF for .NET kullanarak PDF dosyalarına Bates numaralandırması eklemeyi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

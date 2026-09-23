@@ -48,6 +48,8 @@
 | [Πώς να αποθηκεύσετε PDF — Προσθήκη αριθμησης Bates με Aspose.Pdf](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) | Μάθετε πώς να αποθηκεύσετε ένα PDF προσθέτοντας αριθμητική Bates με το Aspose.PDF για .NET. |  
 | [Δημιουργία εγγράφου PDF με αρίθμηση Bates σε C# – Πλήρης Οδηγός](./create-pdf-document-with-bates-numbering-in-c-full-guide/) | Μάθετε πώς να δημιουργήσετε PDF με αρίθμηση Bates χρησιμοποιώντας το Aspose.PDF για .NET σε C# με πλήρη οδηγό βήμα-βήμα. |  
 | [Προσθήκη σφραγίδας σε PDF – Εφαρμογή υδατογραφήματος PDF στην πρώτη σελίδα](./add-stamp-to-pdf-apply-watermark-pdf-on-first-page/) | Μάθετε πώς να προσθέσετε σφραγίδα σε PDF και να εφαρμόσετε υδατογράφημα μόνο στην πρώτη σελίδα χρησιμοποιώντας το Aspose.PDF για .NET. |  
+| [Πώς να προσθέσετε σφραγίδα σε PDF με το Aspose.Pdf – Οδηγός βήμα προς βήμα](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) | Μάθετε πώς να προσθέσετε σφραγίδα σε αρχείο PDF χρησιμοποιώντας το Aspose.Pdf με αναλυτικές οδηγίες και παραδείγματα κώδικα. |  
+| [Δημιουργία πλήρους σελίδας ειδοποίησης PDF – Γρήγορος οδηγός C#](./create-pdf-full-page-notice-quick-c-guide/) | Μάθετε πώς να δημιουργήσετε μια πλήρης σελίδα ειδοποίησης σε PDF χρησιμοποιώντας C# με το Aspose.PDF για .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

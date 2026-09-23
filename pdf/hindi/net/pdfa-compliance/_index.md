@@ -46,6 +46,9 @@ Aspose.PDF .NET का उपयोग करके C# में PDF को प�
 ### [C# में PDF/A कैसे बनाएं – चरण‑दर‑चरण Aspose गाइड](./how-to-create-pdf-a-in-c-step-by-step-aspose-guide/)
 Aspose.PDF .NET का उपयोग करके C# में PDF/A दस्तावेज़ बनाने की पूरी चरण‑दर‑चरण मार्गदर्शिका।
 
+### [C# में PDF को PDF/A में परिवर्तित करें – पूर्ण चरण‑दर‑चरण गाइड](./convert-pdf-to-pdf-a-in-c-complete-step-by-step-guide/)
+Aspose.PDF .NET के साथ C# में PDF को PDF/A में बदलने की पूरी प्रक्रिया सीखें, जिसमें कोड उदाहरण और सर्वोत्तम प्रथाएँ शामिल हैं।
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.PDF for Net दस्तावेज़ीकरण](https://docs.aspose.com/pdf/net/)

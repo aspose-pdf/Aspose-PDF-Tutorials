@@ -37,6 +37,10 @@ Eğitim, PDF dosyalarınızın gizliliğini ve gerçekliğini sağlamak için y�
 | [PDF'de İmzaları Kontrol Et – C# ile Aspose.PDF Kullanarak İmzaları Listeleme](./check-pdf-for-signatures-how-to-list-signatures-in-c-with-as/) | Aspose.PDF for .NET kullanarak C# ile PDF'deki imzaları nasıl listeleyeceğinizi öğrenin. |  
 | [C# ile PDF'de İmzayı Doğrulama – Tam Aspose Kılavuzu](./how-to-verify-signature-in-pdf-using-c-complete-aspose-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF imzalarını nasıl doğrulayacağınızı adım adım öğrenin. |  
 | [C# ile PDF'e Dijital İmza Ekle – Tam Adım‑Adım Kılavuz](./add-digital-signature-pdf-in-c-complete-step-by-step-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF dosyalarına dijital imza eklemeyi adım adım öğrenin. |  
+| [C# ile PDF İmzalarını Kontrol Et – Dijital İmzaları Doğrulamak İçin Hızlı Rehber](./check-pdf-signatures-in-c-quick-guide-to-verify-digital-sign/) | Aspose.PDF for .NET kullanarak C# ile PDF imzalarını hızlıca doğrulama adımlarını öğrenin. |
+| [Aspose.Pdf ile C#'ta PDF Dijital İmzasını Doğrulama](./verify-pdf-digital-signature-in-c-with-aspose-pdf/) | Aspose.PDF for .NET kullanarak C# ile PDF dijital imzalarını nasıl doğrulayacağınızı öğrenin. |
+| [PFX Sertifikasını Yükle C# – PKCS7 Ayrık İmza Oluştur](./load-pfx-certificate-c-create-pkcs7-detached-signature/) | Aspose.PDF for .NET kullanarak C# ile PFX sertifikasını yükleyip PKCS7 ayrık imza oluşturmayı öğrenin. |
+| [PDF İmza Öğreticisi: C# ile PDF'nin Dijital İmzasını Doğrulama](./pdf-signature-tutorial-verify-a-pdf-s-digital-signature-in-c/) | Aspose.PDF for .NET kullanarak C# ile PDF dijital imzasını nasıl doğrulayacağınızı öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

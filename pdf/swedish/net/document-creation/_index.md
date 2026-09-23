@@ -84,12 +84,17 @@ Lär dig hur du lägger till Bates-nummer i PDF-dokument med Aspose.PDF för .NE
 
 ### [Skapa PDF-dokument – Lägg till tom sida, rita rektangel och spara](./create-pdf-document-add-blank-page-draw-rectangle-save/)
 Lär dig hur du skapar ett PDF-dokument, lägger till en tom sida, ritar en rektangel och sparar filen med Aspose.PDF för .NET.
+### [Skapa PDF-dokument i C# – Lägg till sida till PDF och rita rektangel](./create-pdf-document-in-c-add-page-to-pdf-draw-rectangle/)
+Lär dig hur du i C# skapar ett PDF-dokument, lägger till en sida och ritar en rektangel med Aspose.PDF för .NET.
 
 ### [Skapa PDF-dokument med Aspose.PDF – Steg‑för‑steg‑guide](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 Lär dig hur du skapar ett PDF-dokument med Aspose.PDF genom en detaljerad steg‑för‑steg‑guide.
 
 ### [Skapa PDF-dokument med Aspose.PDF – Fullständig C#‑guide](./create-pdf-document-with-aspose-pdf-full-c-guide/)
 Lär dig steg‑för‑steg hur du skapar PDF‑dokument med Aspose.PDF i C# med fullständiga kodexempel.
+
+### [Skapa PDF-dokument i C# – Fullständig guide för generering i minnet](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
+Lär dig hur du skapar PDF-dokument helt i minnet med C# och Aspose.PDF utan att skriva till disk.
 
 ## Ytterligare resurser
 

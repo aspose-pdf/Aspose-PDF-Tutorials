@@ -65,6 +65,8 @@ Learn how to validate PDF documents against PDF/A standards using Aspose.PDF .NE
 Step-by-step guide to create a PDF/A file in C# using Aspose.PDF .NET, covering full conversion process for archival compliance.
 ### [How to Create PDF/A in C# – Step‑by‑Step Aspose Guide](./how-to-create-pdf-a-in-c-step-by-step-aspose-guide/)
 Step-by-step guide to creating PDF/A compliant documents in C# using Aspose.PDF.
+### [Convert PDF to PDF/A in C# – Complete Step‑by‑Step Guide](./convert-pdf-to-pdf-a-in-c-complete-step-by-step-guide/)
+A comprehensive step-by-step guide to convert PDFs to PDF/A using C# and Aspose.PDF .NET, ensuring archival quality and compliance.
 
 ## Additional Resources
 

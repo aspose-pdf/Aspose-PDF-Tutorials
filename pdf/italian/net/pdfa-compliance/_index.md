@@ -45,6 +45,8 @@ Scopri come convalidare i documenti PDF secondo gli standard PDF/A utilizzando A
 Scopri come creare e convertire file PDF/A in C# con Aspose.PDF .NET, passo dopo passo.
 ### [Come creare PDF/A in C# – Guida passo passo Aspose](./how-to-create-pdf-a-in-c-step-by-step-aspose-guide/)
 Scopri come generare file PDF/A conformi in C# con Aspose.PDF, seguendo una guida dettagliata passo dopo passo.
+### [Converti PDF in PDF/A in C# – Guida completa passo passo](./convert-pdf-to-pdf-a-in-c-complete-step-by-step-guide/)
+Scopri come convertire PDF in PDF/A con C# grazie a una guida completa passo passo.
 
 ## Risorse aggiuntive
 

@@ -22,6 +22,7 @@ Aspose.PDF 的「使用圖章和浮水印進行程式設計」.NET 教學課程�
 | --- | --- | 
 | [在 PDF 檔案中新增日期時間戳](./add-date-time-stamp/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 PDF 檔案中新增日期和時間戳記。非常適合增強文件的真實性。 |  
 | [在 PDF 檔案中新增圖像印章](./add-image-stamp/) |透過逐步指導和範例程式碼了解如何使用 Aspose.PDF for .NET 在 PDF 檔案中新增圖像印章。 |  
+| [如何使用 Aspose.Pdf 為 PDF 添加印章 – 步驟指南](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) |透過本分步指南了解如何使用 Aspose.PDF for .NET 在 PDF 文件中新增印章，提升文件的安全性與辨識度。 |  
 | [在 PDF 檔案中新增不同的頁眉](./adding-different-headers/) |了解如何使用 Aspose.PDF for .NET 在 PDF 檔案中新增不同的標題。自訂 PDF 的逐步指南。 |  
 | [在 PDF 檔案中新增 PDF 頁面戳](./add-pdf-page-stamp/) |透過本詳細指南了解如何使用 Aspose.PDF for .NET 新增 PDF 頁面戳記。增強 PDF 文件的影響力。 |  
 | [在 PDF 檔案中加入文字印章](./add-text-stamp/) |透過我們的逐步指南學習如何使用 Aspose.PDF for .NET 在 PDF 文件中新增文字標記並提升您的文件簡報效果。 |  
@@ -50,6 +51,7 @@ Aspose.PDF 的「使用圖章和浮水印進行程式設計」.NET 教學課程�
 | [建立 PDF 浮水印 – 新增圖章並將 DOCX 轉換為 PDF](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) |本教學示範如何在 PDF 中加入浮水印與圖章，並將 DOCX 檔案轉換為 PDF。 |  
 | [使用 C# 建立帶 Bates 編號的 PDF 文件（完整指南）](./create-pdf-document-with-bates-numbering-in-c-full-guide/) |透過本完整指南，學習在 C# 中使用 Aspose.PDF for .NET 為 PDF 文件添加 Bates 編號，提升文件管理與追蹤效率。 |  
 | [在 PDF 檔案中新增圖章 – 在首頁套用浮水印](./add-stamp-to-pdf-apply-watermark-pdf-on-first-page/) |透過本教學了解如何使用 Aspose.PDF for .NET 在 PDF 首頁新增圖章並套用浮水印。 |  
+| [在 PDF 檔案中建立全頁通知 – 快速 C# 教學](./create-pdf-full-page-notice-quick-c-guide/) |透過本快速 C# 教學了解如何在 PDF 中新增全頁通知，提升文件的可見性與提示功能。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

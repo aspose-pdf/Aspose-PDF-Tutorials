@@ -88,6 +88,12 @@ Aspose.PDF for .NET を使用して、空白ページを追加し、矩形を描
 
 ### [Aspose.PDF を使用して PDF ドキュメントを作成する – 完全 C# ガイド](./create-pdf-document-with-aspose-pdf-full-c-guide/)
 Aspose.PDF と C# を使って、PDF ドキュメントを最初から作成する方法を包括的に解説します。
+### [C# で PDF ドキュメントを作成 – PDF にページを追加し矩形を描画](./create-pdf-document-in-c-add-page-to-pdf-draw-rectangle/)
+C# と Aspose.PDF for .NET を使用して、PDF に新しいページを追加し矩形を描画する方法を学びます。
+
+
+### [C# で PDF ドキュメントを作成 – メモリ内生成の完全ガイド](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
+Aspose.PDF for .NET を使用して、メモリ上で PDF を生成し、保存せずに操作する方法をステップバイステップで解説します。
 
 ## 追加リソース
 

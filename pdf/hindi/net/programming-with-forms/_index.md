@@ -53,6 +53,7 @@
 | [Aspose के साथ PDF बनाना – फ़ॉर्म फ़ील्ड और पृष्ठ जोड़ें](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Aspose का उपयोग करके PDF बनाते समय फ़ॉर्म फ़ील्ड और पेज कैसे जोड़ें, इस चरण-दर-चरण गाइड में सीखें। |
 | [एकाधिक विजेट्स के साथ PDF दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) | इस चरण‑दर‑चरण गाइड में .NET के लिए Aspose.PDF का उपयोग करके कई विजेट्स वाले PDF दस्तावेज़ बनाने का तरीका सीखें। |
 | [पृष्ठों और टेक्स्ट बॉक्स फ़ील्ड के साथ PDF बनाना – पूर्ण C# गाइड](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | इस चरण‑दर‑चरण गाइड में .NET के लिए Aspose.PDF का उपयोग करके पृष्ठों और टेक्स्ट बॉक्स फ़ील्ड के साथ PDF बनाने का पूरा C# उदाहरण देखें। |
+| [Aspose के साथ PDF बनाना – टेक्स्ट बॉक्स फ़ील्ड जोड़ें](./create-pdf-document-with-aspose-add-text-box-field/) | इस चरण-दर-चरण गाइड में .NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ में टेक्स्ट बॉक्स फ़ील्ड जोड़ना सीखें। |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

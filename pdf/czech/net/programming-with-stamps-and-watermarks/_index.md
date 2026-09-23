@@ -37,6 +37,7 @@ Výukové programy „Programování s razítky a vodoznaky“ pro .NET od Aspos
 | [Obrázek v záhlaví](./image-in-header/) | V tomto podrobném návodu se naučte, jak přidat obrázek do záhlaví PDF souboru pomocí Aspose.PDF pro .NET. |  
 | [Číslo stránky v záhlaví a zápatí pomocí plovoucího rámečku](./page-number-in-header-footer-using-floating-box/) | V tomto podrobném tutoriálu snadno přidáte čísla stránek do záhlaví a zápatí PDF pomocí plovoucího rámečku s Aspose.PDF pro .NET. |  
 | [Razítka s čísly stránek v souboru PDF](./page-number-stamps/) Naučte se, jak přidat razítka s čísly stránek do PDF souborů pomocí Aspose.PDF pro .NET, a to v našem snadno srozumitelném návodu s ukázkovým kódem. |  
+| [Jak přidat razítko do PDF pomocí Aspose.Pdf – krok za krokem](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) | Naučte se, jak pomocí Aspose.PDF pro .NET přidat razítko do PDF souboru krok po kroku. |  
 | [Tabulka v sekci záhlaví a zápatí](./table-in-header-footer-section/) | Naučte se, jak snadno přidat text do zápatí PDF souboru pomocí Aspose.PDF pro .NET. Součástí je podrobný návod pro bezproblémovou integraci. |  
 | [Text v zápatí PDF souboru](./text-in-footer/) | Naučte se, jak přidat text do zápatí PDF souboru pomocí Aspose.PDF pro .NET. |  
 | [Text v záhlaví PDF souboru](./text-in-header/) | Naučte se přidávat textové záhlaví do PDF souborů pomocí Aspose.PDF pro .NET s tímto podrobným návodem. Vylepšete své dokumenty efektivně a účinně. |  
@@ -48,6 +49,7 @@ Výukové programy „Programování s razítky a vodoznaky“ pro .NET od Aspos
 | [Vytvořit vodoznak PDF – Přidat razítko a převést DOCX na PDF](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) | Naučte se, jak vytvořit vodoznak PDF, přidat razítko a převést soubor DOCX na PDF pomocí Aspose.PDF pro .NET. |
 | [Vytvořit PDF dokument s Batesovým číslováním v C# – Kompletní průvodce](./create-pdf-document-with-bates-numbering-in-c-full-guide/) Naučte se, jak vytvořit PDF dokument s Batesovým číslováním pomocí Aspose.PDF pro .NET v C# s podrobným návodem. |  
 | [Přidat razítko do PDF – Aplikovat vodoznak PDF na první stránku](./add-stamp-to-pdf-apply-watermark-pdf-on-first-page/) | Naučte se, jak přidat razítko a aplikovat vodoznak pouze na první stránku PDF pomocí Aspose.PDF pro .NET. |  
+| [Vytvořit PDF oznámení na celou stránku – Rychlý průvodce C#](./create-pdf-full-page-notice-quick-c-guide/) Naučte se, jak pomocí Aspose.PDF pro .NET vytvořit oznámení na celou stránku PDF pomocí C# v rychlém průvodci. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

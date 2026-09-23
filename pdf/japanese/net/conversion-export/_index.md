@@ -54,6 +54,7 @@ Aspose.PDF for .NET を使用して、PDF ページを高品質の PNG 画像に
 Aspose.PDF for .NET を使用して PDF を PNG 画像として保存し、PDF/X‑1a 標準に変換する方法を学びます。
 ### [Aspose PDF を PNG に変換 – 300 DPI で最初のページをエクスポート](./aspose-pdf-to-png-export-first-page-at-300-dpi/)
 Aspose.PDF for .NET を使用して、PDF の最初のページを 300 DPI の PNG 画像としてエクスポートする方法を学びます。
+C# と Aspose.PDF for .NET を使用して、PDF を高品質な PNG 画像に変換する手順を詳しく解説します。
 
 ### [Aspose.PDF for .NET を使用して PDF を BMP に変換する: ステップバイステップガイド](./convert-pdf-to-bmp-aspose-pdf-net/)
 この包括的なガイドでは、Aspose.PDF for .NET を使用して PDF ページを高品質の BMP 画像に変換する方法を学習します。

@@ -41,6 +41,7 @@
 | [PDF दस्तावेज़ बनाएं C# – बेट्स नंबरिंग जोड़ें](./create-pdf-document-c-add-bates-numbering/) | C# में Aspose.PDF का उपयोग करके PDF दस्तावेज़ में बेट्स नंबरिंग जोड़ने की चरण-दर-चरण मार्गदर्शिका। |
 | [PDF में बेट्स नंबरिंग जोड़ें – पृष्ठों को क्रमांकित करने के लिए चरण‑दर‑चरण गाइड](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Aspose.PDF के साथ .NET में PDF पृष्ठों को बेट्स नंबरिंग से क्रमांकित करने की पूर्ण चरण‑दर‑चरण मार्गदर्शिका। |
 | [C# के साथ PDF दस्तावेज़ बनाएं – आकार और खाली पृष्ठ जोड़ें गाइड](./create-pdf-document-c-add-shapes-blank-pages-guide/) | C# में Aspose.PDF का उपयोग करके PDF दस्तावेज़ बनाएं, आकार जोड़ें और खाली पृष्ठ सम्मिलित करने की चरण‑दर‑चरण गाइड। |
+| [Aspose के साथ बेट्स नंबरिंग PDF जोड़ें – पूर्ण गाइड](./add-bates-numbering-pdf-with-aspose-complete-guide/) | .NET के लिए Aspose.PDF का उपयोग करके PDF में बेट्स नंबरिंग जोड़ने की पूरी चरण‑दर‑चरण मार्गदर्शिका। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

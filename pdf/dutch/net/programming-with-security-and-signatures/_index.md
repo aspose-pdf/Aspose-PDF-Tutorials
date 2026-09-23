@@ -37,6 +37,10 @@ De tutorial geeft u een gedetailleerd overzicht van methoden en technieken om de
 | [PDF controleren op handtekeningen – Handtekeningen weergeven in C# met Aspose.PDF](./check-pdf-for-signatures-how-to-list-signatures-in-c-with-as/) | Leer hoe u PDF-bestanden op handtekeningen controleert en een lijst van handtekeningen ophaalt met Aspose.PDF voor .NET in C#. |  
 | [Hoe handtekening te verifiëren in PDF met C# – Complete Aspose-gids](./how-to-verify-signature-in-pdf-using-c-complete-aspose-guide/) | Leer hoe u PDF-handtekeningen kunt verifiëren met C# en Aspose.PDF. Stapsgewijze handleiding voor authenticiteit van documenten. |  
 | [Digitale handtekening toevoegen aan PDF in C# – Complete stap‑voor‑stap gids](./add-digital-signature-pdf-in-c-complete-step-by-step-guide/) | Leer hoe u een digitale handtekening toevoegt aan een PDF in C# met Aspose.PDF voor .NET. Volg de volledige stap‑voor‑stap gids. |  
+| [PDF-handtekeningen controleren in C# – Snelle gids om digitale handtekeningen te verifiëren](./check-pdf-signatures-in-c-quick-guide-to-verify-digital-sign/) | Leer hoe u PDF-handtekeningen snel kunt verifiëren met Aspose.PDF voor .NET in C#. |
+| [PDF digitale handtekening verifiëren in C# met Aspose.Pdf](./verify-pdf-digital-signature-in-c-with-aspose-pdf/) | Leer hoe u digitale handtekeningen in PDF's kunt verifiëren met Aspose.PDF voor .NET in C#. |
+| [PFX-certificaat laden C# – PKCS7 detached-handtekening maken](./load-pfx-certificate-c-create-pkcs7-detached-signature/) | Leer hoe u een PFX-certificaat laadt en een PKCS7 detached-handtekening maakt met Aspose.PDF voor .NET in C#. |
+| [PDF-handtekening tutorial: een digitale handtekening in een PDF verifiëren in C#](./pdf-signature-tutorial-verify-a-pdf-s-digital-signature-in-c/) | Leer hoe u een digitale handtekening in een PDF kunt verifiëren met Aspose.PDF voor .NET in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

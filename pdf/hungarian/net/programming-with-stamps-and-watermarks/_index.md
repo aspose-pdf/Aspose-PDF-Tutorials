@@ -48,6 +48,8 @@ Az Aspose.PDF „Bélyegzők és vízjelek programozása” című .NET oktatóa
 | [PDF mentése — Bates-számozás hozzáadása az Aspose.Pdf segítségével](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) Tanulja meg, hogyan adhat hozzá Bates-számozást PDF-fájlokhoz az Aspose.PDF for .NET használatával ebben a lépésről lépésre útmutatóban. |  
 | [PDF vízjel létrehozása – Bélyegző hozzáadása és DOCX konvertálása PDF-be](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) | Tanulja meg, hogyan hozhat létre vízjelet, adhat hozzá bélyegzőt, és konvertálhat DOCX fájlt PDF-be az Aspose.PDF for .NET segítségével. |  
 | [PDF dokumentum létrehozása Bates számolással C#-ban – Teljes útmutató](./create-pdf-document-with-bates-numbering-in-c-full-guide/) | Tanulja meg, hogyan adhat hozzá Bates számolást PDF dokumentumokhoz C#-ban az Aspose.PDF for .NET segítségével, részletes lépésekkel és példakóddal. |
+| [Hogyan adjon hozzá bélyegzőt PDF-hez az Aspose.Pdf‑vel – Lépésről‑lépésre útmutató](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) | Ismerje meg, hogyan adhat hozzá bélyegzőt PDF-fájlokhoz az Aspose.PDF for .NET segítségével ebben a részletes útmutatóban. |
+| [PDF teljesoldalas értesítés létrehozása – Gyors C# útmutató](./create-pdf-full-page-notice-quick-c-guide/) | Tanulja meg, hogyan hozhat létre teljes oldalra kiterjedő értesítést PDF-ben C#-ban az Aspose.PDF for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

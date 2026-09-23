@@ -41,6 +41,7 @@
 | [إنشاء مستند PDF C# – إضافة ترقيم Bates](./create-pdf-document-c-add-bates-numbering/) | دليل خطوة بخطوة لإضافة ترقيم Bates إلى مستند PDF باستخدام Aspose.PDF لـ .NET و C#. |
 | [إضافة ترقيم Bates إلى PDF – دليل خطوة بخطوة لترقيم صفحات PDF](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | دليل شامل يوضح كيفية إضافة ترقيم Bates إلى ملفات PDF باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |
 | [إنشاء مستند PDF C# – دليل إضافة الأشكال والصفحات الفارغة](./create-pdf-document-c-add-shapes-blank-pages-guide/) |دليل خطوة بخطوة لإنشاء مستند PDF وإضافة أشكال وصفحات فارغة باستخدام Aspose.PDF لـ .NET. |
+| [إضافة ترقيم Bates إلى PDF باستخدام Aspose – دليل كامل](./add-bates-numbering-pdf-with-aspose-complete-guide/) | دليل خطوة بخطوة لإضافة ترقيم Bates إلى ملفات PDF باستخدام Aspose.PDF لـ .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

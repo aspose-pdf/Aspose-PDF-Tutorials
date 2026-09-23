@@ -37,6 +37,11 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Periksa PDF untuk Tanda Tangan – Cara Menampilkan Tanda Tangan di C# dengan Aspose.PDF](./check-pdf-for-signatures-how-to-list-signatures-in-c-with-as/) | Pelajari cara memeriksa dan menampilkan daftar tanda tangan dalam file PDF menggunakan Aspose.PDF untuk .NET dengan C#. |  
 | [Cara Memverifikasi Tanda Tangan di PDF menggunakan C# – Panduan Lengkap Aspose](./how-to-verify-signature-in-pdf-using-c-complete-aspose-guide/) | Pelajari cara memverifikasi tanda tangan PDF menggunakan C# dengan panduan lengkap Aspose. |
 | [Tambahkan Tanda Tangan Digital PDF di C# – Panduan Lengkap Langkah demi Langkah](./add-digital-signature-pdf-in-c-complete-step-by-step-guide/) | Pelajari cara menambahkan tanda tangan digital ke PDF menggunakan C# dengan panduan lengkap langkah demi langkah dari Aspose.PDF. |
+| [Cara Memperbaiki File PDF – Panduan Lengkap C# dengan Aspose.PDF](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Pelajari cara memperbaiki file PDF yang rusak menggunakan Aspose.PDF untuk .NET dengan panduan lengkap C#. Bahasa Indonesia:  
+| [Verifikasi Tanda Tangan Digital PDF di C# dengan Aspose.Pdf](./verify-pdf-digital-signature-in-c-with-aspose-pdf/) | Pelajari cara memverifikasi tanda tangan digital pada file PDF menggunakan Aspose.PDF untuk .NET di C#. Bahasa Indonesia:  
+| [Muat Sertifikat PFX C# – Buat Tanda Tangan PKCS7 Terpisah](./load-pfx-certificate-c-create-pkcs7-detached-signature/) | Pelajari cara memuat sertifikat PFX di C# dan membuat tanda tangan PKCS7 terpisah menggunakan Aspose.PDF untuk .NET.  
+| [Periksa Tanda Tangan PDF di C# – Panduan Cepat Memverifikasi Tanda Tangan Digital](./check-pdf-signatures-in-c-quick-guide-to-verify-digital-sign/) | Pelajari cara memeriksa tanda tangan PDF dan memverifikasi tanda tangan digital dengan cepat menggunakan Aspose.PDF untuk .NET di C#. Bahasa Indonesia:  
+| [Tutorial Tanda Tangan PDF: Verifikasi Tanda Tangan Digital PDF di C#](./pdf-signature-tutorial-verify-a-pdf-s-digital-signature-in-c/) | Pelajari cara memverifikasi tanda tangan digital pada file PDF menggunakan Aspose.PDF untuk .NET di C#. Bahasa Indonesia:  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

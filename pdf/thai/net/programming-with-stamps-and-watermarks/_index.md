@@ -45,6 +45,8 @@
 | [วิธีบันทึก PDF — เพิ่มหมายเลข Bates ด้วย Aspose.PDF](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) | เรียนรู้วิธีเพิ่มหมายเลข Bates ลงในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือขั้นตอนที่ชัดเจน |
 | [เพิ่มแสตมป์ลงใน PDF – ใช้ลายน้ำ PDF บนหน้าแรก](./add-stamp-to-pdf-apply-watermark-pdf-on-first-page/) | เรียนรู้วิธีเพิ่มแสตมป์และลายน้ำบนหน้าแรกของไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET อย่างง่ายดาย |  
 | [เพิ่มหมายเลขบาเตสในไฟล์ PDF – คู่มือ C# ฉบับสมบูรณ์](./add-bates-numbering-pdf-complete-c-guide/) | เรียนรู้วิธีเพิ่มหมายเลขบาเตสใน PDF ด้วย Aspose.PDF สำหรับ .NET ด้วยคู่มือขั้นตอนเต็มรูปแบบสำหรับ C# |
+| [วิธีเพิ่มแสตมป์ลงใน PDF ด้วย Aspose.Pdf – คู่มือทีละขั้นตอน](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) | เรียนรู้วิธีเพิ่มแสตมป์ลงในไฟล์ PDF ด้วย Aspote.Pdf สำหรับ .NET
+- [สร้าง PDF ประกาศเต็มหน้า – คู่มือเร็ว C#](./create-pdf-full-page-notice-quick-c-guide/) เรียนรู้วิธีสร้างประกาศเต็มหน้าในไฟล์ PDF ด้วย C# อย่างรวดเร็วโดยใช้ Aspose.PDF สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

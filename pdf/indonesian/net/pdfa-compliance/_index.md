@@ -45,6 +45,8 @@ Pelajari cara memvalidasi dokumen PDF terhadap standar PDF/A menggunakan Aspose.
 Pelajari cara membuat file PDF/A lengkap dari awal hingga akhir menggunakan Aspose.PDF untuk .NET dalam C#.
 ### [Cara Membuat PDF/A di C# – Panduan Langkah demi Langkah Aspose](./how-to-create-pdf-a-in-c-step-by-step-aspose-guide/)
 Pelajari cara membuat PDF/A menggunakan C# dengan panduan langkah demi langkah dari Aspose, termasuk contoh kode lengkap.
+### [Konversi PDF ke PDF/A dalam C# – Panduan Lengkap Langkah demi Langkah](./convert-pdf-to-pdf-a-in-c-complete-step-by-step-guide/)
+Pelajari cara mengonversi PDF ke PDF/A menggunakan C# dengan contoh kode lengkap dan langkah-langkah detail.
 
 ## Sumber Daya Tambahan
 

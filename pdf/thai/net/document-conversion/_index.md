@@ -61,6 +61,7 @@
 - [วิธีแปลง PDF เป็น PDF/X-4 ด้วย Aspose – คู่มือทีละขั้นตอน](./how-to-convert-pdf-to-pdf-x-4-with-aspose-step-by-step-guide/) | เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/X‑4 ด้วย Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนนี้  
 - [วิธีตั้งค่าตัวเลือกสำหรับการแปลง PDF ใน C# – คู่มือ Aspose](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | เรียนรู้วิธีตั้งค่าตัวเลือกการแปลง PDF ใน C# ด้วย Aspose.PDF อย่างละเอียดและง่ายต่อการทำตาม  
 - [บทช่วยสอน Aspose PDF: แปลง PDF เป็น PDF/X‑4 ด้วย C#](./aspose-pdf-tutorial-convert-pdf-to-pdf-x-4-in-c/) | เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/X‑4 ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนขั้นตอนโดยละเอียด
+- [โหลดเอกสาร PDF C# – แปลงเป็น PDF/X‑4 ด้วย Aspose](./load-pdf-document-c-convert-to-pdf-x-4-with-aspose/) | เรียนรู้วิธีโหลดไฟล์ PDF ด้วย C# แล้วแปลงเป็น PDF/X‑4 ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียด  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

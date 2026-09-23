@@ -25,6 +25,7 @@ Hướng dẫn "Lập trình với PDF được gắn thẻ" của Aspose.PDF ch
 | [Tạo phần tử cấu trúc ghi chú](./create-note-structure-element/) Học cách tạo các thành phần cấu trúc ghi chú trong tệp PDF bằng Aspose.PDF cho .NET thông qua hướng dẫn chi tiết từng bước này. |  
 | [Tạo PDF với hình ảnh được gắn thẻ](./create-pdf-with-tagged-image/) | Học cách tạo PDF có gắn thẻ với hình ảnh bằng Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để tạo tài liệu dễ truy cập và chuyên nghiệp. |  
 | [Tạo PDF với văn bản được gắn thẻ](./create-pdf-with-tagged-text/) | Tìm hiểu cách tạo tệp PDF có gắn thẻ với nội dung có thể truy cập được bằng Aspose.PDF cho .NET trong hướng dẫn từng bước toàn diện này. |  
+| [Tạo tài liệu PDF – Đặt vị trí tuyệt đối cho văn bản được gắn thẻ](./create-pdf-document-set-absolute-position-for-tagged-text/) | Hướng dẫn cách tạo tài liệu PDF và đặt vị trí tuyệt đối cho văn bản được gắn thẻ bằng Aspose.PDF cho .NET. |  
 | [Tạo các thành phần cấu trúc](./create-structure-elements/) | Tìm hiểu cách tạo các thành phần cấu trúc trong PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước để tăng cường khả năng truy cập và tổ chức PDF. |  
 | [Tạo cây thành phần cấu trúc](./create-structure-elements-tree/) | Tìm hiểu cách tạo cây thành phần cấu trúc trong tài liệu PDF bằng Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước này. |  
 | [Tạo phần tử bảng](./create-table-element/) Hướng dẫn từng bước để tạo phần tử mảng bằng Aspose.PDF cho .NET. Tạo PDF động với bảng dễ dàng. |  

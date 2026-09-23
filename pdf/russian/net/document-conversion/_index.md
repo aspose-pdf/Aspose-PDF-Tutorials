@@ -61,6 +61,7 @@
 | [Конвертировать PDF в PDF/X‑4 на C# – пошаговое руководство ASP.NET PDF](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Узнайте, как конвертировать PDF в PDF/X‑4 с помощью Aspose.PDF для .NET в этом пошаговом руководстве. |
 | [Как конвертировать PDF в PDF/X‑4 с Aspose – пошаговое руководство](./how-to-convert-pdf-to-pdf-x-4-with-aspose-step-by-step-guide/) | Узнайте, как преобразовать PDF в PDF/X‑4 с помощью Aspose.PDF для .NET в этом пошаговом руководстве. |
 | [Aspose PDF Tutorial: Конвертировать PDF в PDF/X‑4 на C#](./aspose-pdf-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Узнайте, как конвертировать PDF в PDF/X‑4 с помощью Aspose.PDF для .NET в этом пошаговом руководстве. |
+| [Загрузить PDF‑документ C# – Конвертировать в PDF/X‑4 с помощью Aspose](./load-pdf-document-c-convert-to-pdf-x-4-with-aspose/) | Узнайте, как загрузить PDF‑документ и конвертировать его в формат PDF/X‑4 с помощью Aspose.PDF для .NET на C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

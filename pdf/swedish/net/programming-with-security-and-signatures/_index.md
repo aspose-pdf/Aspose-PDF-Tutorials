@@ -37,6 +37,10 @@ Handledningen ger dig en detaljerad översikt över metoder och tekniker för at
 | [Kontrollera PDF för signaturer – Så listar du signaturer i C# med Aspose.PDF](./check-pdf-for-signatures-how-to-list-signatures-in-c-with-as/) | Lär dig hur du hittar och listar alla digitala signaturer i en PDF med Aspose.PDF för .NET i C#. |
 | [Hur du verifierar signatur i PDF med C# – Komplett Aspose-guide](./how-to-verify-signature-in-pdf-using-c-complete-aspose-guide/) | Lär dig steg-för-steg hur du verifierar PDF‑signaturer i C# med Aspose.PDF för .NET. |
 | [Lägg till digital signatur i PDF med C# – Komplett steg‑för‑steg‑guide](./add-digital-signature-pdf-in-c-complete-step-by-step-guide/) | Lär dig hur du lägger till en digital signatur i PDF med C# och Aspose.PDF för .NET. En komplett steg‑för‑steg‑guide. |
+| [Verifiera PDF-digital signatur i C# med Aspose.Pdf](./verify-pdf-digital-signature-in-c-with-aspose-pdf/) | Lär dig hur du verifierar digitala PDF-signaturer i C# med Aspose.PDF i en steg-för-steg-guide. |
+| [Ladda PFX-certifikat C# – Skapa PKCS7-fristående signatur](./load-pfx-certificate-c-create-pkcs7-detached-signature/) | Lär dig hur du laddar ett PFX‑certifikat i C# och skapar en PKCS7‑fristående signatur med Aspose.PDF för .NET. |
+| [Kontrollera PDF-signaturer i C# – Snabbguide för att verifiera digitala signaturer](./check-pdf-signatures-in-c-quick-guide-to-verify-digital-sign/) | Lär dig hur du snabbt verifierar PDF-signaturer i C# med Aspose.PDF för .NET. |
+| [PDF-signaturhandledning: Verifiera en PDF:s digitala signatur i C#](./pdf-signature-tutorial-verify-a-pdf-s-digital-signature-in-c/) | Lär dig hur du verifierar en PDF:s digitala signatur i C# med Aspose.PDF för .NET i en kort guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

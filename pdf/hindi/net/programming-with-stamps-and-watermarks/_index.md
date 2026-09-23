@@ -48,6 +48,8 @@ Aspose.PDF के "स्टैम्प और वॉटरमार्क क�
 | [PDF वॉटरमार्क बनाएं – स्टैम्प जोड़ें और DOCX को PDF में बदलें](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) | .NET के लिए Aspose.PDF का उपयोग करके PDF में वॉटरमार्क बनाना, स्टैम्प जोड़ना और DOCX को PDF में परिवर्तित करना सीखें। |
 | [C# में Bates नंबरिंग के साथ PDF दस्तावेज़ बनाएं – पूर्ण गाइड](./create-pdf-document-with-bates-numbering-in-c-full-guide/) | C# में Aspose.PDF का उपयोग करके PDF फ़ाइल में Bates नंबरिंग जोड़ने की पूरी प्रक्रिया सीखें। |  
 | [PDF में स्टैम्प जोड़ें – पहले पृष्ठ पर वॉटरमार्क लागू करें](./add-stamp-to-pdf-apply-watermark-pdf-on-first-page/) | पहले पृष्ठ पर वॉटरमार्क लागू करके PDF में स्टैम्प जोड़ने की चरण-दर-चरण मार्गदर्शिका। .NET के लिए Aspose.PDF का उपयोग। |  
+| [Aspose.Pdf के साथ PDF में स्टैम्प कैसे जोड़ें – चरण‑दर‑चरण गाइड](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) | Aspose.PDF का उपयोग करके .NET में PDF फ़ाइल में स्टैम्प जोड़ने की पूरी प्रक्रिया सीखें। |
+| [PDF पूर्ण‑पृष्ठ नोटिस बनाएं – तेज़ C# गाइड](./create-pdf-full-page-notice-quick-c-guide/) | Aspose.PDF के साथ .NET में C# का उपयोग करके PDF में पूर्ण‑पृष्ठ नोटिस बनाने की तेज़ गाइड। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -89,6 +89,11 @@
 ### [إنشاء مستند PDF باستخدام Aspose.PDF – دليل C# كامل](./create-pdf-document-with-aspose-pdf-full-c-guide/)
 دليل شامل لإنشاء مستند PDF باستخدام Aspose.PDF في C#، يغطي إضافة الصفحات، الأشكال، وحفظ الملف.
 
+### [إنشاء مستند PDF في C# – إضافة صفحة إلى PDF ورسم مستطيل](./create-pdf-document-in-c-add-page-to-pdf-draw-rectangle/)
+تعلم كيفية إنشاء مستند PDF وإضافة صفحة ورسم مستطيل باستخدام Aspose.PDF في C#.
+
+### [إنشاء مستند PDF في C# – دليل كامل للإنشاء في الذاكرة](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

@@ -37,6 +37,10 @@
 | [Проверка PDF на подписи – Как перечислить подписи в C# с помощью Aspose.PDF](./check-pdf-for-signatures-how-to-list-signatures-in-c-with-as/) | Узнайте, как перечислить подписи в PDF с помощью Aspose.PDF для .NET на C#. |
 | [Как проверить подпись в PDF с помощью C# – Полное руководство Aspose](./how-to-verify-signature-in-pdf-using-c-complete-aspose-guide/) | Узнайте, как проверять подписи PDF в C# с помощью Aspose.PDF для .NET. Пошаговое руководство для разработчиков. |  
 | [Добавить цифровую подпись PDF в C# – Полное пошаговое руководство](./add-digital-signature-pdf-in-c-complete-step-by-step-guide/) | Узнайте, как добавить цифровую подпись в PDF с помощью Aspose.PDF для .NET на C#. Полное пошаговое руководство. |  
+| [Проверка подписей PDF в C# – Быстрое руководство по проверке цифровых подписей](./check-pdf-signatures-in-c-quick-guide-to-verify-digital-sign/) | Узнайте, как быстро проверять цифровые подписи PDF в C# с помощью Aspose.PDF. |  
+| [Проверка цифровой подписи PDF в C# с Aspose.Pdf](./verify-pdf-digital-signature-in-c-with-aspose-pdf/) | Узнайте, как проверять цифровую подпись PDF в C# с помощью Aspose.PDF для .NET. Пошаговое руководство для разработчиков. |  
+| [Загрузка сертификата PFX C# – Создание отделенной подписи PKCS7](./load-pfx-certificate-c-create-pkcs7-detached-signature/) | Узнайте, как загрузить сертификат PFX в C# и создать отделенную подпись PKCS7 с помощью Aspose.PDF. |  
+| [Учебник по подписи PDF: проверка цифровой подписи PDF в C#](./pdf-signature-tutorial-verify-a-pdf-s-digital-signature-in-c/) | Узнайте, как проверять цифровую подпись PDF в C# с помощью Aspose.PDF для .NET. Пошаговое руководство для разработчиков. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

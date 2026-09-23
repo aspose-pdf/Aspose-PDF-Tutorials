@@ -66,7 +66,6 @@ Naučte se, jak převádět PDF soubory do HTML pomocí Aspose.PDF pro .NET se z
 Výukový program pro kódování Aspose.PDF Net
 ### [Převod PDF do HTML s vlastními URL adresami obrázků pomocí Aspose.PDF .NET: Komplexní průvodce](./convert-pdf-html-custom-image-urls-aspose-pdf-net/)
 Naučte se, jak převádět dokumenty PDF do formátu HTML pomocí nástroje Aspose.PDF pro .NET, včetně úpravy URL adres obrázků a implementace přizpůsobené strategie úspory zdrojů.
-
 ### [Uložení PDF jako HTML pomocí Aspose.PDF – Kompletní průvodce C#](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
 Naučte se, jak uložit PDF jako HTML pomocí Aspose.PDF v C# s podrobnými ukázkami kódu a tipy pro zachování formátování.
 

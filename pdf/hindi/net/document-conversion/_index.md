@@ -61,6 +61,8 @@
 | [Aspose के साथ PDF को PDF/X-4 में कैसे परिवर्तित करें – चरण‑दर‑चरण गाइड](./how-to-convert-pdf-to-pdf-x-4-with-aspose-step-by-step-guide/) | इस चरण-दर-चरण ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X-4 फ़ॉर्मेट में बदलना सीखें। |
 | [C# में PDF रूपांतरण के लिए विकल्प सेट करने का तरीका – Aspose गाइड](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | इस चरण-दर-चरण गाइड में .NET के लिए Aspose.PDF का उपयोग करके C# में PDF रूपांतरण विकल्प कैसे सेट करें, सीखें। |
 | [Aspose PDF ट्यूटोरियल: C# में PDF को PDF/X‑4 में परिवर्तित करें](./aspose-pdf-tutorial-convert-pdf-to-pdf-x-4-in-c/) | इस ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X‑4 फ़ॉर्मेट में बदलना सीखें। |
+| [PDF दस्तावेज़ लोड करें C# – Aspose के साथ PDF/X‑4 में परिवर्तित करें](./load-pdf-document-c-convert-to-pdf-x-4-with-aspose/) | इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ लोड करके उसे PDF/X‑4 फ़ॉर्मेट में बदलना सीखें। |  
+| [PDF/X‑1A रूपांतरण में ICC प्रोफ़ाइल सेट करें – पूर्ण C# गाइड](./set-icc-profile-in-pdf-x-1a-conversion-complete-c-guide/) | इस विस्तृत चरण-दर-चरण गाइड में .NET के लिए Aspose.PDF का उपयोग करके PDF/X‑1A रूपांतरण में ICC प्रोफ़ाइल सेट करना सीखें। |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

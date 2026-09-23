@@ -53,6 +53,7 @@ Questi tutorial forniscono anche esempi di codice dettagliati, spiegazioni chiar
 | [Imposta la didascalia del pulsante di scelta](./set-radio-button-caption/) Scopri come impostare le didascalie dei pulsanti di opzione nei PDF utilizzando Aspose.PDF per .NET. Questa guida dettagliata ti guiderà passo passo nel caricamento, nella modifica e nel salvataggio dei tuoi moduli PDF. |  
 | [Casella di testo](./text-box/) | Scopri come aggiungere facilmente caselle di testo ai PDF utilizzando Aspose.PDF per .NET con questa guida passo passo. Migliora l'interazione con l'utente. |  
 | [Come creare PDF con Aspose – Aggiungi campo a una raccolta](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Scopri come aggiungere un campo a una raccolta in un PDF usando Aspose.PDF per .NET in questa guida passo passo. |
+| [Crea documento PDF con Aspose – Aggiungi campo casella di testo](./create-pdf-document-with-aspose-add-text-box-field/) | Scopri come aggiungere un campo casella di testo a un documento PDF usando Aspose.PDF per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

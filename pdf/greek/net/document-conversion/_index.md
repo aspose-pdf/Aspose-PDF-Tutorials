@@ -61,6 +61,7 @@
 | [Πώς να μετατρέψετε PDF σε PDF/X-4 με το Aspose – Οδηγός βήμα‑βήμα](./how-to-convert-pdf-to-pdf-x-4-with-aspose-step-by-step-guide/) | Μάθετε πώς να μετατρέψετε PDF σε PDF/X‑4 χρησιμοποιώντας το Aspose.PDF για .NET σε αυτόν τον βήμα‑βήμα οδηγό. |  
 | [Πώς να ορίσετε επιλογές μετατροπής PDF σε C# – Οδηγός Aspose](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | Μάθετε πώς να ορίσετε επιλογές μετατροπής PDF χρησιμοποιώντας το Aspose.PDF για .NET σε C# με αυτόν τον οδηγό βήμα‑βήμα. |
 | [Aspose PDF Tutorial: Μετατροπή PDF σε PDF/X‑4 με C#](./aspose-pdf-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Μάθετε πώς να μετατρέψετε PDF σε PDF/X‑4 με C# χρησιμοποιώντας το Aspose.PDF για .NET σε αυτόν τον βήμα‑βήμα οδηγό. |
+| [Φόρτωση εγγράφου PDF C# – Μετατροπή σε PDF/X‑4 με Aspose](./load-pdf-document-c-convert-to-pdf-x-4-with-aspose/) | Μάθετε πώς να φορτώνετε ένα έγγραφο PDF σε C# και να το μετατρέπετε σε PDF/X‑4 χρησιμοποιώντας το Aspose.PDF για .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

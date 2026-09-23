@@ -102,6 +102,12 @@ C# kullanarak PDF belgelerine Bates numaralandırması eklemeyi öğrenin. Adım
 ### [Aspose.PDF ile PDF Belgesi Oluşturma – Adım Adım Kılavuz](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 Aspose.PDF for .NET kullanarak PDF belgesi oluşturmayı adım adım öğrenin. Kurulum, kod örnekleri ve uygulama ipuçları içerir.
 
+### [C#'ta PDF Belgesi Oluşturma – PDF'e Sayfa Ekle ve Dikdörtgen Çiz](./create-pdf-document-in-c-add-page-to-pdf-draw-rectangle/)
+C# kullanarak Aspose.PDF ile PDF belgesine sayfa ekleyip dikdörtgen çizmeyi öğrenin.
+
+### [C#'ta PDF Belgesi Oluşturma – Bellek İçinde Tam Kılavuz](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
+C# ve Aspose.PDF ile bellek içinde PDF belgeleri oluşturmayı adım adım öğrenin.
+
 ### [Aspose.PDF ile PDF Belgesi Oluşturma – Tam C# Kılavuzu](./create-pdf-document-with-aspose-pdf-full-c-guide/)
 Aspose.PDF for .NET kullanarak C# ile tam kapsamlı PDF belgesi oluşturma adımlarını öğrenin.
 

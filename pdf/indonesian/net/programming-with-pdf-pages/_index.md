@@ -41,6 +41,7 @@ Bahasa Indonesia: --- | Bahasa Indonesia:
 | [Buat Dokumen PDF C# – Tambahkan Penomoran Bates](./create-pdf-document-c-add-bates-numbering/) | Panduan langkah demi langkah untuk menambahkan penomoran Bates pada dokumen PDF menggunakan C# dengan Aspose.PDF untuk .NET. |  
 | [Menambahkan Penomoran Bates pada PDF – Panduan Langkah demi Langkah untuk Menomori Halaman PDF](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Panduan langkah demi langkah untuk menambahkan penomoran Bates pada file PDF menggunakan Aspose.PDF untuk .NET. |
 | [Buat Dokumen PDF C# – Panduan Menambahkan Bentuk & Halaman Kosong](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Panduan langkah demi langkah untuk membuat dokumen PDF, menambahkan bentuk dan halaman kosong menggunakan Aspose.PDF untuk .NET. |  
+| [Menambahkan penomoran Bates pada PDF dengan Aspose – Panduan Lengkap](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Panduan langkah demi langkah untuk menambahkan penomoran Bates pada file PDF menggunakan Aspose.PDF untuk .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

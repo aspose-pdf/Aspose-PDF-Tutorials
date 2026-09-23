@@ -52,6 +52,7 @@ Aspose.PDF for .NET 的“使用标签 PDF 进行编程”教程将指导您如�
 
 | [在 C# 中创建带标签的 PDF – 添加标题和可访问文本](./create-tagged-pdf-in-c-add-heading-accessible-text/) 通过本分步教程学习如何在 C# 中为 PDF 添加标题和可访问文本，以提升可访问性。|  
 | [在 C# 中创建带标签的 PDF – 分步指南](./create-tagged-pdf-in-c-step-by-step-guide/) 通过本分步指南，学习如何使用 Aspose.PDF for .NET 在 C# 中创建符合 PDF/UA 标准的带标签 PDF 文档。|  
+| [创建 PDF 文档 – 为标记文本设置绝对位置](./create-pdf-document-set-absolute-position-for-tagged-text/) 通过本分步教程，学习如何使用 Aspose.PDF for .NET 在 PDF 中为标记文本设置绝对位置。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

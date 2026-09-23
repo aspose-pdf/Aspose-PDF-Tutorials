@@ -41,6 +41,7 @@ Aspose.PDF for .NET の「PDF ページを使ったプログラミング」ド�
 | [C# で PDF ドキュメントを作成 – ベーツ番号を追加](./create-pdf-document-c-add-bates-numbering/) Aspose.PDF for .NET を使用して、PDF ドキュメントにベーツ番号を追加する手順をステップバイステップで解説します。 |
 | [Bates番号付与PDF – PDFページに番号を付けるステップバイステップガイド](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) Aspose.PDF for .NET を使用して、PDF に Bates 番号を追加し、ページにシリアル番号を付与する手順をステップバイステップで解説します。 |  
 | [C# で PDF ドキュメントを作成 – シェイプと空白ページの追加ガイド](./create-pdf-document-c-add-shapes-blank-pages-guide/) Aspose.PDF for .NET を使用して、C# で PDF にシェイプや空白ページを追加する方法をステップバイステップで解説します。 |  
+| [Aspose を使用したベーツ番号付け PDF の追加 – 完全ガイド](./add-bates-numbering-pdf-with-aspose-complete-guide/) Aspose.PDF for .NET を使用して、PDF にベーツ番号を付与する方法をステップバイステップで解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

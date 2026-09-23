@@ -60,6 +60,7 @@ Naučíte se, jak nastavit převod, extrahovat text a obrázky, zachovat původn
 | [Jak nastavit možnosti převodu PDF v C# – průvodce Aspose](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | Naučte se, jak nastavit různé možnosti převodu PDF v C# pomocí Aspose.PDF pro .NET v tomto podrobném návodu. |
 | [Převod PDF na PDF/X‑4 v C# – krok krokem ASP.NET PDF tutoriál](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Naučte se … |
 | [Jak ... PDF/X‑4 ...] ... |
+| [Načíst PDF dokument C# – Převést na PDF/X‑4 pomocí Aspose](./load-pdf-document-c-convert-to-pdf-x-4-with-aspose/) | Naučte se, jak načíst PDF dokument v C# a převést jej na PDF/X‑4 pomocí Aspose.PDF pro .NET. |
 | [PDF na PNG tutoriál – Převod stránek PDF do PNG v C#](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Naučte se, jak převést stránky PDF do formátu PNG pomocí Aspose.PDF pro .NET v C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

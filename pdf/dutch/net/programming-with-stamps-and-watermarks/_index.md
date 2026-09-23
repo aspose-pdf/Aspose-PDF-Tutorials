@@ -25,6 +25,7 @@ De tutorials "Programmeren met stempels en watermerken" van Aspose.PDF voor .NET
 | [Verschillende kopteksten toevoegen aan een PDF-bestand](./adding-different-headers/) | Leer hoe u verschillende kopteksten aan PDF-bestanden toevoegt met Aspose.PDF voor .NET. Stapsgewijze handleiding voor het aanpassen van uw PDF's. |  
 | [PDF-paginastempel toevoegen in PDF-bestand](./add-pdf-page-stamp/) | Leer hoe u een PDF-paginastempel toevoegt met Aspose.PDF voor .NET met deze gedetailleerde handleiding. Vergroot de impact van uw PDF-documenten. |  
 | [Tekststempel toevoegen in PDF-bestand](./add-text-stamp/) | Leer hoe u met behulp van Aspose.PDF voor .NET een tekststempel toevoegt aan een PDF-bestand en verbeter de presentatie van uw documenten met onze stapsgewijze zelfstudie. |  
+| [Hoe een stempel aan een PDF toevoegen met Aspose.Pdf – Stapsgewijze handleiding](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) | Leer stap voor stap hoe u een stempel toevoegt aan een PDF-bestand met Aspose.Pdf voor .NET. |
 | [Artefacten tellen in PDF-bestand](./counting-artifacts/) Leer hoe u watermerken in een PDF kunt tellen met Aspose.PDF voor .NET. Stapsgewijze handleiding voor beginners, geen voorkennis vereist. |  
 | [Uitlijning in PDF-bestand definiëren](./define-alignment/) | Deze handleiding beschrijft hoe u tekstuitlijning in PDF-bestanden definieert met behulp van Aspose.PDF voor .NET, compleet met een stapsgewijze zelfstudie. |  
 | [Tekst uit stempelannotatie halen](./extract-text-from-stamp-annotation/) | Leer hoe u tekst uit een stempelannotatie in PDF kunt extraheren met Aspose.PDF voor .NET met deze stapsgewijze zelfstudie, compleet met een gedetailleerd codevoorbeeld. |  
@@ -50,6 +51,7 @@ De tutorials "Programmeren met stempels en watermerken" van Aspose.PDF voor .NET
 | [PDF-watermerk maken - Stempel toevoegen en DOCX naar PDF converteren](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) | Leer hoe u een watermerk maakt, een stempel toevoegt en een DOCX-bestand converteert naar PDF met Aspose.PDF voor .NET. |  
 | [PDF-document maken met Bates-nummering in C# – Volledige gids](./create-pdf-document-with-bates-numbering-in-c-full-guide/) | Leer hoe u met Aspose.PDF voor .NET een PDF-document maakt en Bates-nummering toevoegt via een stapsgewijze handleiding. |  
 | [Stempel toevoegen aan PDF – Watermerk op eerste pagina toepassen](./add-stamp-to-pdf-apply-watermark-pdf-on-first-page/) | Leer hoe u een stempel toevoegt aan een PDF en een watermerk alleen op de eerste pagina toepast met Aspose.PDF voor .NET. |  
+| [PDF volledige pagina‑melding maken – Snelle C#‑gids](./create-pdf-full-page-notice-quick-c-guide/) | Leer hoe u met Aspose.PDF voor .NET een volledige pagina‑melding in een PDF maakt met een beknopte C#‑handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

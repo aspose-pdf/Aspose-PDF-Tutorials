@@ -41,6 +41,7 @@
 | [Δημιουργία PDF Εγγράφου C# – Προσθήκη Αρίθμησης Bates](./create-pdf-document-c-add-bates-numbering/) | Μάθετε πώς να προσθέσετε αρίθμηση Bates σε PDF με C# και Aspose.PDF. |
 | [Προσθήκη Αρίθμησης Bates σε PDF – Οδηγός βήμα‑βήμα για την αρίθμηση σελίδων PDF](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Μάθετε πώς να προσθέσετε αρίθμηση Bates σε PDF χρησιμοποιώντας C# και Aspose.PDF, με αναλυτικές οδηγίες βήμα‑βήμα. |
 | [Δημιουργία PDF Εγγράφου C# – Οδηγός Προσθήκης Σχημάτων & Κενών Σελίδων](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Μάθετε πώς να δημιουργήσετε PDF με C#, προσθέτοντας σχήματα και κενές σελίδες, βήμα‑βήμα οδηγός. |
+| [Προσθήκη αρίθμησης Bates σε PDF με Aspose – Πλήρης οδηγός](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Μάθετε πώς να προσθέσετε αρίθμηση Bates σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με αυτόν τον πλήρη οδηγό βήμα‑βήμα. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

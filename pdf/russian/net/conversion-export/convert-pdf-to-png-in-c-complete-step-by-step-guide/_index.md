@@ -1,259 +1,220 @@
 ---
 category: general
-date: 2026-02-22
-description: Конвертировать PDF в PNG на C# с помощью Aspose.Pdf. Узнайте, как экспортировать
-  страницу PDF в PNG, отобразить страницу PDF как изображение и работать со сценариями
-  преобразования страниц PDF в изображения на C#.
+date: 2026-03-24
+description: Конвертировать PDF в PNG на C# быстро, с поддержкой извлечения шрифтов
+  PDF и рендерингом PDF в изображение с помощью Aspose.Pdf. Следуйте этому практическому
+  руководству.
 draft: false
 keywords:
 - convert pdf to png
-- export pdf page as png
-- render pdf page as image
-- pdf page to image c#
-- convert pdf page to png
+- extract fonts pdf
+- pdf to image c#
+- render pdf as image
+- load pdf c#
 language: ru
-og_description: Конвертируйте PDF в PNG на C# с помощью Aspose.Pdf. Узнайте, как экспортировать
-  страницу PDF в PNG и отобразить страницу PDF как изображение за несколько минут.
-og_title: Конвертировать PDF в PNG на C# – Полное пошаговое руководство
+og_description: Конвертировать PDF в PNG на C# с полным примером кода. Узнайте, как
+  извлекать шрифты из PDF, рендерить PDF в изображение и эффективно загружать PDF
+  в C#.
+og_title: Конвертировать PDF в PNG в C# — Полное руководство
 tags:
 - Aspose.Pdf
 - C#
-- Image Conversion
-title: Конвертировать PDF в PNG на C# – Полное пошаговое руководство
+- PDF conversion
+title: Convert PDF to PNG in C# – Complete Step‑by‑Step Guide
 url: /ru/net/conversion-export/convert-pdf-to-png-in-c-complete-step-by-step-guide/
 ---
 
-produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Конвертировать PDF в PNG на C# – Полное пошаговое руководство
+# Convert PDF to PNG in C# – Complete Step‑by‑Step Guide
 
-Когда‑нибудь вам нужно было **convert PDF to PNG**, но вы не были уверены, какая библиотека даст вам пиксель‑идеальные результаты? Вы не одиноки. Многие разработчики сталкиваются с проблемой при попытке **export pdf page as png**, потому что стандартные растеризаторы либо теряют точность шрифтов, либо сильно расходуют память.  
+Когда‑нибудь вам нужно было **convert PDF to PNG**, но вы не знали, какая библиотека сохранит шрифты? Вы не одиноки. Многие разработчики сталкиваются с тем, что полученное изображение выглядит размытым или в нём отсутствуют глифы, особенно когда исходный PDF содержит пользовательские шрифты.  
 
-Хорошие новости? С Aspose.Pdf вы можете отрисовать страницу PDF как изображение в одной, читаемой строке кода. В этом руководстве мы пройдем всё, что вам нужно знать — от установки пакета до обработки граничных случаев — чтобы вы могли уверенно **convert PDF to PNG** в любом проекте .NET.
+В этом руководстве мы рассмотрим практическое решение, которое **converts PDF to PNG**, извлекает встроенные шрифты и показывает, как **render PDF as image** с помощью популярной библиотеки Aspose.Pdf. К концу вы получите готовый фрагмент кода, который можно вставить в любой .NET‑проект.
 
-## Что вы узнаете
+## What You’ll Learn
 
-Мы рассмотрим весь процесс: установку пакета NuGet, загрузку исходного PDF, настройку PNG‑устройства для высококачественного рендеринга и, наконец, сохранение каждой страницы в виде PNG‑файла. К концу вы сможете **export pdf page as png**, **render pdf page as image**, а также перебрать все страницы, если потребуется конвертация всего документа. Никаких внешних скриптов, никаких расплывчатых ссылок — только полноценный, готовый к запуску пример, который вы можете сразу добавить в своё решение.
+- Как **load PDF C#** файлы безопасно с помощью `Document`.
+- Настройка **extract fonts pdf** во время конвертации.
+- Преобразование страницы PDF в PNG высокого качества с помощью техник **pdf to image c#**.
+- Советы по работе с многостраничными документами и типичными подводными камнями.
+- Полный, готовый к запуску пример, который можно скопировать и вставить.
 
-### Требования
+> **Prerequisite checklist**  
+> - .NET 6+ (или .NET Framework 4.6+) установлен  
+> - Visual Studio 2022 или любой IDE, поддерживающий C#  
+> - NuGet‑пакет Aspose.Pdf for .NET (`Aspose.Pdf`)  
 
-- .NET 6.0 или новее (код также работает с .NET Framework 4.6+)  
-- Visual Studio 2022 или любой совместимый с C# IDE  
-- Действующая лицензия Aspose.Pdf (можно начать с бесплатной оценки)  
+Если всё готово, приступаем.
 
-Если у вас есть всё это, давайте начнём.
+---
 
-## Шаг 1: Установите Aspose.Pdf через NuGet
+## Convert PDF to PNG – Core Steps
 
-Для начала добавьте библиотеку в ваш проект. Откройте **Package Manager Console** и выполните:
+Ниже процесс разбит на четыре логических блока. Каждый шаг объясняет **почему** он важен, а не только **что** вводить.
 
-```powershell
-Install-Package Aspose.Pdf
-```
+### Step 1 – Load PDF C# Document
 
-Или, если вам удобнее UI, щёлкните правой кнопкой по проекту → **Manage NuGet Packages…** → найдите *Aspose.Pdf* и нажмите **Install**. Это загрузит все необходимые сборки, включая пространство имён `Aspose.Pdf.Devices`, которое мы будем использовать для конвертации в изображение.
-
-> **Pro tip:** Держите пакеты в актуальном состоянии. По состоянию на февраль 2026 последняя стабильная версия — **23.10**, в которой улучшена производительность `PngDevice`.
-
-## Шаг 2: Загрузите исходный PDF‑документ
-
-Теперь, когда библиотека подключена, нам нужно открыть PDF, который мы хотим конвертировать. Класс `Document` представляет весь файл и реализует `IDisposable`, поэтому мы используем оператор `using`, чтобы ресурсы освобождались сразу же.
+Первое, что нужно сделать — открыть исходный PDF. Класс `Document` представляет весь файл и даёт доступ к страницам, шрифтам и метаданным.
 
 ```csharp
 using Aspose.Pdf;
 using Aspose.Pdf.Devices;
 
-// Path to the PDF you want to convert
-string inputPdfPath = @"C:\Temp\ConvertAllPagesToBmp.pdf";
-
-// Load the PDF into memory
-using var pdfDocument = new Document(inputPdfPath);
+// Load the PDF from disk (replace with your actual path)
+using var pdfDocument = new Document(@"C:\MyFiles\input.pdf");
 ```
 
-Почему синтаксис `using var`? Он гарантирует, что файловый дескриптор будет закрыт сразу после выхода из блока, предотвращая блокировку файла, когда вы позже попытаетесь удалить или перезаписать исходный документ.
+> **Why this matters:** Загрузка PDF проверяет структуру файла сразу, поэтому любые повреждения обнаруживаются до того, как вы начнёте тратить время на рендеринг изображений. Оператор `using` также автоматически освобождает объект, предотвращая утечки памяти в длительно работающих сервисах.
 
-## Шаг 3: Настройте PNG‑устройство для точного рендеринга
+### Step 2 – Enable Font Extraction While Rendering
 
-Aspose.Pdf рендерит страницы через *устройства* — представьте их как виртуальные принтеры. `PngDevice` выдаёт PNG‑вывод, и мы включим **font analysis**, чтобы текст оставался чётким, особенно если PDF содержит пользовательские шрифты.
+При конвертации PDF в изображение Aspose может либо растеризовать глифы как они есть, либо попытаться сохранить оригинальные контуры шрифтов. Включение `AnalyzeFonts` заставляет рендерер учитывать встроенные шрифты, что даёт более чёткие PNG, особенно для языков со сложными скриптами.
 
 ```csharp
-// Create a PNG device with high‑quality settings
-var pngDevice = new PngDevice
+var renderingOptions = new RenderingOptions
 {
-    // RenderingOptions lets us fine‑tune the output
-    RenderingOptions = new RenderingOptions
-    {
-        // Analyzes embedded fonts for better glyph rendering
-        AnalyzeFonts = true,
-        // Optional: increase DPI for higher resolution (default is 96)
-        // Resolution = new Resolution(300)
-    }
+    // This flag tells the engine to analyze and embed fonts during conversion
+    AnalyzeFonts = true
 };
 ```
 
-Включение `AnalyzeFonts` — ключ к чистой конвертации **render pdf page as image**. Без этого вы можете увидеть размытые или отсутствующие символы, особенно в PDF, использующих функции OpenType.
+> **Pro tip:** Если вы работаете с PDF, которые *не* содержат встроенные шрифты, стоит установить `RenderTextAsPath = true`, чтобы избежать пропущенных символов.
 
-## Шаг 4: Конвертируйте одну страницу в PNG
+### Step 3 – Create a PNG Device with the Configured Options
 
-Начнём с простого — конвертируем только первую страницу. Метод `Process` принимает объект `Page` и путь к файлу вывода.
+Aspose использует «devices» для вывода растровых форматов. `PngDevice` учитывает `RenderingOptions`, которые мы только что задали.
 
 ```csharp
-// Output path for the first page image
-string outputImagePath = @"C:\Temp\page1.png";
+var pngRenderer = new PngDevice(renderingOptions);
+```
 
+> **Why use a device?** Устройства абстрагируют низкоуровневую работу с пикселями, предоставляя чистый API для конвертации страниц, установки DPI и управления сжатием.
+
+### Step 4 – Render the First Page (or All Pages)
+
+Теперь мы действительно создаём PNG. Пример ниже сохраняет первую страницу в `page1.png`. При необходимости можно пройтись по `pdfDocument.Pages` в цикле.
+
+```csharp
 // Convert page 1 to PNG
-pngDevice.Process(pdfDocument.Pages[1], outputImagePath);
+pngRenderer.Process(pdfDocument.Pages[1], @"C:\MyFiles\page1.png");
 ```
 
-После выполнения кода вы найдёте `page1.png` в `C:\Temp`. Откройте его в любом просмотрщике изображений; вы увидите точную визуальную копию первой страницы PDF, включая векторную графику, текст и цвета.
+Полученный файл — это lossless PNG, сохраняющий визуальную точность оригинального PDF, включая любые пользовательские шрифты, извлечённые на Шаге 2.
 
-### Быстрая проверка
+---
+
+## Extract Fonts PDF While Converting (Advanced)
+
+Иногда требуется получить исходные файлы шрифтов для дальнейшей обработки (например, встроить их в веб‑просмотрщик). Aspose позволяет извлечь их с помощью тех же `RenderingOptions`.
 
 ```csharp
-Console.WriteLine($"Page 1 saved as PNG: {File.Exists(outputImagePath)}");
+renderingOptions.ExtractEmbeddedFonts = true;   // extracts .ttf/.otf files
+renderingOptions.FontExtractionMode = FontExtractionMode.ExtractAll; // grabs all fonts
 ```
 
-Если консоль выводит `True`, конвертация прошла успешно.
+После конвертации шрифты сохраняются рядом с PNG в той же выходной директории. Это удобно для сценариев **extract fonts pdf**, когда необходимо архивировать оригинальные гарнитуры.
 
-## Шаг 5: Конвертировать все страницы (Опционально – цикл «PDF page to image C#»)
+---
 
-В большинстве реальных сценариев требуется конвертировать каждую страницу, а не только первую. Ниже представлен компактный цикл, сохраняющий оригинальный порядок страниц и именующий каждый файл как `page{n}.png`.
+## Render PDF as Image Using Different DPI Settings
+
+DPI по умолчанию — 96, что подходит для экранных превью, но может выглядеть размыто при печати. Измените DPI, передав нужное значение в конструктор `PngDevice`.
 
 ```csharp
-// Folder where all PNGs will be stored
-string outputFolder = @"C:\Temp\ConvertedPages";
+int desiredDpi = 300;               // high‑resolution for print
+var highResPng = new PngDevice(desiredDpi, renderingOptions);
+highResPng.Process(pdfDocument.Pages[1], @"C:\MyFiles\page1_300dpi.png");
+```
 
-// Ensure the folder exists
-Directory.CreateDirectory(outputFolder);
+Большее DPI приводит к большим файлам, поэтому находите баланс между качеством и объёмом хранения.
 
-// Loop through each page in the document
-for (int pageNumber = 1; pageNumber <= pdfDocument.Pages.Count; pageNumber++)
+---
+
+## Convert Multiple Pages – A Small Loop
+
+Если ваш PDF содержит более одной страницы, оберните вызов рендеринга в простой `for`‑цикл. Это демонстрирует **pdf to image c#** в пакетном режиме.
+
+```csharp
+for (int i = 1; i <= pdfDocument.Pages.Count; i++)
 {
-    string pageOutputPath = Path.Combine(outputFolder, $"page{pageNumber}.png");
-    pngDevice.Process(pdfDocument.Pages[pageNumber], pageOutputPath);
-    Console.WriteLine($"Saved page {pageNumber} as PNG.");
+    string outPath = $@"C:\MyFiles\page{i}.png";
+    pngRenderer.Process(pdfDocument.Pages[i], outPath);
 }
 ```
 
-Этот фрагмент демонстрирует чистый шаблон **pdf page to image c#**: перебор, обработка и логирование. Если нужен другой формат изображения (например, JPEG), просто замените `PngDevice` на `JpegDevice` и измените расширение файла соответственно.
+Каждая итерация создаёт `page1.png`, `page2.png` и т.д., сохраняя оригинальный порядок страниц.
 
-## Шаг 6: Обработка граничных случаев и распространённых подводных камней
+---
 
-### 1. Большие PDF‑файлы и использование памяти  
-При работе с PDF, содержащими сотни страниц, загрузка всего файла в память может быть тяжёлой. Aspose.Pdf поддерживает **partial loading**:
+## Common Pitfalls & How to Avoid Them
 
-```csharp
-var loadOptions = new LoadOptions { LoadAllPages = false };
-using var largeDoc = new Document(inputPdfPath, loadOptions);
-```
+| Symptom | Likely Cause | Fix |
+|---------|--------------|-----|
+| Blank PNG output | `AnalyzeFonts` disabled on a PDF that uses only embedded fonts | Enable `AnalyzeFonts = true` |
+| Garbled Asian characters | Fonts not embedded in source PDF | Set `RenderTextAsPath = true` or supply a fallback font collection |
+| Out‑of‑memory exception on large PDFs | Rendering all pages at once without disposing | Process pages one‑by‑one inside a `using` block or increase process memory limit |
+| PNG appears blurry | DPI too low | Increase DPI in `PngDevice` constructor |
 
-Затем страницы можно загружать по требованию, используя `largeDoc.Pages[pageNumber]`.
+---
 
-### 2. Прозрачный фон  
-Если ваш PDF содержит прозрачные элементы и вам нужен белый фон, задайте `BackgroundColor`:
-
-```csharp
-pngDevice.RenderingOptions.BackgroundColor = Color.White;
-```
-
-### 3. DPI и размер изображения  
-Большее DPI даёт более чёткие изображения, но увеличивает размер файлов. Отрегулируйте `Resolution` внутри `RenderingOptions`:
-
-```csharp
-pngDevice.RenderingOptions.Resolution = new Resolution(200); // 200 DPI
-```
-
-### 4. Лицензирование  
-Без лицензии вы получите изображение с водяным знаком. Зарегистрируйте лицензию заранее:
-
-```csharp
-var license = new License();
-license.SetLicense(@"C:\Path\Aspose.Pdf.lic");
-```
-
-Разместите этот код перед созданием экземпляра `Document`.
-
-## Полный рабочий пример
-
-Собрав всё вместе, получаем автономную программу, которую можно скопировать и вставить в новое консольное приложение:
+## Full Working Example (Copy‑Paste Ready)
 
 ```csharp
 using System;
-using System.IO;
 using Aspose.Pdf;
 using Aspose.Pdf.Devices;
-using Aspose.Pdf.Drawing; // For Color
 
-class Program
+class PdfToPngDemo
 {
     static void Main()
     {
-        // -------------------------------------------------
-        // 1️⃣  Register license (optional, removes watermarks)
-        // -------------------------------------------------
-        // var license = new License();
-        // license.SetLicense(@"C:\Licenses\Aspose.Pdf.lic");
+        // 1️⃣ Load the PDF – replace with your actual file path
+        using var pdfDocument = new Document(@"C:\MyFiles\input.pdf");
 
-        // -------------------------------------------------
-        // 2️⃣  Define paths
-        // -------------------------------------------------
-        string inputPdfPath = @"C:\Temp\ConvertAllPagesToBmp.pdf";
-        string outputFolder = @"C:\Temp\ConvertedPages";
-
-        // -------------------------------------------------
-        // 3️⃣  Load PDF (partial loading for huge files)
-        // -------------------------------------------------
-        var loadOptions = new LoadOptions { LoadAllPages = false };
-        using var pdfDocument = new Document(inputPdfPath, loadOptions);
-
-        // -------------------------------------------------
-        // 4️⃣  Configure PNG device
-        // -------------------------------------------------
-        var pngDevice = new PngDevice
+        // 2️⃣ Set up rendering options – we want font analysis and optional extraction
+        var renderingOptions = new RenderingOptions
         {
-            RenderingOptions = new RenderingOptions
-            {
-                AnalyzeFonts = true,
-                BackgroundColor = Color.White,
-                Resolution = new Resolution(150) // 150 DPI for decent quality
-            }
+            AnalyzeFonts = true,
+            // Uncomment the next two lines if you also need the raw font files
+            // ExtractEmbeddedFonts = true,
+            // FontExtractionMode = FontExtractionMode.ExtractAll
         };
 
-        // -------------------------------------------------
-        // 5️⃣  Ensure output directory exists
-        // -------------------------------------------------
-        Directory.CreateDirectory(outputFolder);
+        // 3️⃣ Create a PNG device (300 DPI for high quality)
+        int dpi = 300;
+        var pngRenderer = new PngDevice(dpi, renderingOptions);
 
-        // -------------------------------------------------
-        // 6️⃣  Convert each page (pdf page to image c#)
-        // -------------------------------------------------
+        // 4️⃣ Render every page to a separate PNG file
         for (int i = 1; i <= pdfDocument.Pages.Count; i++)
         {
-            string outputPath = Path.Combine(outputFolder, $"page{i}.png");
-            pngDevice.Process(pdfDocument.Pages[i], outputPath);
-            Console.WriteLine($"✅ Page {i} saved as PNG → {outputPath}");
+            string outPath = $@"C:\MyFiles\page{i}_{dpi}dpi.png";
+            pngRenderer.Process(pdfDocument.Pages[i], outPath);
+            Console.WriteLine($"Page {i} saved as {outPath}");
         }
 
-        Console.WriteLine("🎉 All pages have been exported successfully!");
+        Console.WriteLine("Conversion complete!");
     }
 }
 ```
 
-**Ожидаемый вывод:** Консоль выводит галочку для каждой страницы, а папка `ConvertedPages` содержит `page1.png`, `page2.png`, …, точно воспроизводя визуальное качество оригинального PDF.
+**Expected result:** Для трёхстраничного исходного PDF вы найдёте `page1_300dpi.png`, `page2_300dpi.png` и `page3_300dpi.png` в `C:\MyFiles`. Откройте любой из них — вы увидите чёткий текст, сохранённые пользовательские шрифты и цвета, идентичные оригинальному PDF.
 
-## Заключение
+![convert pdf to png example output](https://example.com/placeholder.png "convert pdf to png example output")
 
-Теперь у вас есть надёжный, готовый к продакшну рецепт для **convert pdf to png** с использованием Aspose.Pdf в C#. Независимо от того, экспортируете ли вы одну страницу, перебираете весь документ или настраиваете DPI и цвет фона, вышеописанные шаги покрывают самые распространённые сценарии.  
-
-Далее вы можете исследовать **export pdf page as png** для конкретных страниц по запросу пользователя или интегрировать эту логику в ASP.NET API, который будет возвращать PNG‑потоки «на лету». Для тех, кто интересуется другими растровыми форматами, тот же шаблон работает с `JpegDevice`, `BmpDevice` или даже `TiffDevice`.  
-
-Экспериментируйте, добавляйте обработку ошибок или комбинируйте с OCR‑библиотеками для полноценного конвейера обработки документов. Если возникнут сложности, оставляйте комментарий — happy coding!  
-
-![convert pdf to png example](/images/convert-pdf-to-png.png){alt="convert pdf to png example"}
+*Alt text: “convert pdf to png example output showing a rendered page with embedded fonts.”*
 
 ---
+
+## Conclusion
+
+Мы рассмотрели всё, что нужно для **convert PDF to PNG** в C# с сохранением встроенных шрифтов, настройкой DPI и обработкой многостраничных документов. Основные шаги — **load pdf c#**, настройка **extract fonts pdf** и **render pdf as image** — теперь у вас под рукой.  
+
+Дальше вы можете изучить **pdf to image c#** для других форматов, таких как JPEG или TIFF, либо углубиться в возможности Aspose по работе с PDF, например, добавление водяных знаков или извлечение текста. В любом случае у вас теперь прочная база для любого PDF‑to‑image рабочего процесса.
+
+Есть вопросы о крайних случаях или хотите увидеть, как пакетно обрабатывать папку PDF? Оставляйте комментарий ниже, и happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -41,6 +41,7 @@ Handledningarna innehåller steg-för-steg-instruktioner, detaljerade kodexempel
 | [Skapa PDF-dokument C# – Lägg till Bates-nummerering](./create-pdf-document-c-add-bates-numbering/) | Steg-för-steg-guide för att lägga till Bates-nummerering i PDF-dokument med C# och Aspose.PDF för .NET. |
 | [Lägg till Bates-nummerering i PDF – Steg‑för‑steg‑guide för att numrera PDF‑sidor](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Lär dig hur du lägger till Bates‑nummerering i PDF‑dokument med Aspose.PDF för .NET i en detaljerad steg‑för‑steg‑guide. |
 | [Skapa PDF-dokument C# – Lägg till former & tomma sidor – Guide](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Steg-för-steg-guide för att skapa PDF-dokument i C# och lägga till former samt tomma sidor med Aspose.PDF för .NET. |
+| [Lägg till Bates‑numrering i PDF med Aspose – Komplett guide](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Steg‑för‑steg‑guide för att lägga till Bates‑numrering i PDF‑dokument med Aspose.PDF för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

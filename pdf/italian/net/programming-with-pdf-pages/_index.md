@@ -41,6 +41,7 @@ tutorial includono istruzioni dettagliate, esempi di codice dettagliati e spiega
 | [Crea documento PDF C# – Aggiungi numerazione Bates](./create-pdf-document-c-add-bates-numbering/) | Guida passo passo per aggiungere la numerazione Bates a un PDF con C# e Aspose.PDF per .NET. |
 | [Aggiungi numerazione Bates al PDF – Guida passo‑passo per numerare le pagine PDF](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Scopri come aggiungere la numerazione Bates a un PDF con Aspose.PDF per .NET, passo dopo passo, con esempi di codice chiari. |
 | [Crea documento PDF C# – Guida all'aggiunta di forme e pagine vuote](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Impara a creare PDF, aggiungere forme e inserire pagine vuote con Aspose.PDF per .NET in questa guida passo passo. |
+| [Aggiungi numerazione Bates al PDF con Aspose – Guida completa](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Guida passo passo per aggiungere la numerazione Bates ai documenti PDF usando Aspose.PDF per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

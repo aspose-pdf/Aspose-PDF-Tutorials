@@ -51,6 +51,7 @@
 | [Δημιουργία PDF με ετικέτες σε C# – Προσθήκη επικεφαλίδας & προσβάσιμο κείμενο](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Μάθετε πώς να δημιουργήσετε PDF με ετικέτες σε C# προσθέτοντας επικεφαλίδα και προσβάσιμο κείμενο. |  
 | [Δημιουργία προσβάσιμου PDF με Aspose.Pdf – Βήμα‑βήμα οδηγός](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε ένα προσβάσιμο PDF χρησιμοποιώντας το Aspose.Pdf σε αυτόν τον βήμα‑βήμα οδηγό. |
 | [Δημιουργία PDF με ετικέτες σε C# – Οδηγός βήμα προς βήμα](./create-tagged-pdf-in-c-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε PDF με ετικέτες χρησιμοποιώντας C# και το Aspose.PDF για .NET σε αυτόν τον αναλυτικό οδηγό βήμα προς βήμα. |
+| [Δημιουργία εγγράφου PDF – Ορισμός απόλυτης θέσης για κείμενο με ετικέτα](./create-pdf-document-set-absolute-position-for-tagged-text/) | Μάθετε πώς να ορίσετε απόλυτη θέση για κείμενο με ετικέτες σε έγγραφο PDF χρησιμοποιώντας Aspose.PDF για .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

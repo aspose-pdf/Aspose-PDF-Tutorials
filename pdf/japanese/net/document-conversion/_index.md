@@ -61,6 +61,7 @@ Aspose.PDF の .NET 向けドキュメント変換チュートリアルでは、
 | [PDFからPNGへのチュートリアル – C#でPDFページをPNGに変換](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) Aspose.PDF for .NET を使用して、C#でPDFページをPNG画像に変換する方法をステップバイステップで解説します。 |
 | [C# で PDF 変換オプションを設定する方法 – Aspose ガイド](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) Aspose.PDF for .NET を使用して C# で PDF 変換時のオプション設定方法をステップバイステップで解説します。 |  
 | [Aspose PDF チュートリアル: C#で PDF を PDF/X‑4 に変換](./aspose-pdf-tutorial-convert-pdf-to-pdf-x-4-in-c/) C# と Aspose.PDF for .NET を使用して、PDF を PDF/X‑4 形式に変換する方法を学びます。 |  
+| [C#でPDFドキュメントを読み込み – AsposeでPDF/X‑4に変換](./load-pdf-document-c-convert-to-pdf-x-4-with-aspose/) Aspose.PDF for .NET を使用して、PDF ドキュメントを読み込み、PDF/X‑4 形式に変換する方法を学びます。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

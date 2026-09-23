@@ -50,6 +50,8 @@ I tutorial di Aspose.PDF "Programmazione con timbri e filigrane" per .NET ti gui
 | [Come salvare PDF — Aggiungi numerazione Bates con Aspose.Pdf](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) | Scopri come aggiungere la numerazione Bates ai PDF durante il salvataggio usando Aspose.PDF per .NET. |  
 | [Crea filigrana PDF – Aggiungi timbro e converti DOCX in PDF](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) | Scopri come creare una filigrana PDF, aggiungere un timbro e convertire un documento DOCX in PDF con Aspose.PDF per .NET. |  
 | [Crea documento PDF con numerazione Bates in C# – Guida completa](./create-pdf-document-with-bates-numbering-in-c-full-guide/) | Scopri come aggiungere la numerazione Bates ai PDF con Aspose.PDF per .NET, con esempi di codice dettagliati. |
+| [Come aggiungere un timbro a PDF con Aspose.Pdf – Guida passo‑passo](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) Scopri come aggiungere un timbro a un PDF utilizzando Aspose.Pdf con questa guida passo passo. |  
+| [Crea avviso a pagina intera PDF – Guida rapida C#](./create-pdf-full-page-notice-quick-c-guide/) | Scopri come creare un avviso a pagina intera in un PDF usando Aspose.PDF per .NET con una semplice guida passo‑passo in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

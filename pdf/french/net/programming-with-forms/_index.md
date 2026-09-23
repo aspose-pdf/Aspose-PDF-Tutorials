@@ -53,6 +53,7 @@ Ces tutoriels proposent également des exemples de code détaillés, des explica
 | [Comment créer un PDF avec Aspose – Ajouter un champ de formulaire et des pages](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Apprenez à créer un PDF, ajouter des champs de formulaire et gérer les pages avec Aspose.PDF pour .NET dans ce guide étape par étape. |
 | [Créer un document PDF avec plusieurs widgets – Guide étape par étape](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) | Apprenez à créer un document PDF contenant plusieurs widgets à l'aide d'Aspose.PDF pour .NET grâce à ce guide étape par étape. |
 | [Créer un PDF avec des pages et des champs de zone de texte – Guide complet C#](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Apprenez à créer un PDF contenant plusieurs pages et des champs de zone de texte avec Aspose.PDF pour .NET dans ce guide complet C#. |
+| [Créer un document PDF avec Aspose – Ajouter un champ de zone de texte](./create-pdf-document-with-aspose-add-text-box-field/) | Apprenez à ajouter un champ de zone de texte à un PDF avec Aspose.PDF pour .NET grâce à ce guide étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

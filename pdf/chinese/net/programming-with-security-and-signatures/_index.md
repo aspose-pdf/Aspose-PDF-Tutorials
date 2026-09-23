@@ -37,6 +37,10 @@
 | [检查 PDF 签名 – 如何在 C# 中列出签名](./check-pdf-for-signatures-how-to-list-signatures-in-c-with-as/) 了解如何使用 Aspose.PDF for .NET 在 C# 中列出 PDF 文件的所有签名并进行分析。|  
 | [如何在 PDF 中使用 C# 验证签名 – 完整 Aspose 指南](./how-to-verify-signature-in-pdf-using-c-complete-aspose-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名的完整指南。|  
 | [在 C# 中添加数字签名 PDF – 完整分步指南](./add-digital-signature-pdf-in-c-complete-step-by-step-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中为 PDF 添加数字签名。分步指南，确保文档安全可靠。|  
+| [在 C# 中检查 PDF 签名 – 快速指南验证数字签名](./check-pdf-signatures-in-c-quick-guide-to-verify-digital-sign/) 了解如何使用 Aspose.PDF for .NET 在 C# 中快速验证 PDF 数字签名。|  
+| [在 C# 中使用 Aspose.Pdf 验证 PDF 数字签名](./verify-pdf-digital-signature-in-c-with-aspose-pdf/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 数字签名，分步指南帮助您确保文档的完整性和真实性。|  
+| [加载 PFX 证书 C# – 创建 PKCS7 分离签名](./load-pfx-certificate-c-create-pkcs7-detached-signature/) 了解如何使用 Aspose.PDF for .NET 在 C# 中加载 PFX 证书并创建 PKCS7 分离签名。分步指南，确保安全签名。|  
+| [PDF 签名教程：在 C# 中验证 PDF 的数字签名](./pdf-signature-tutorial-verify-a-pdf-s-digital-signature-in-c/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 的数字签名，确保文档完整性和真实性。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

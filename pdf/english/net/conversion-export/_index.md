@@ -89,6 +89,9 @@ Learn how to quickly save a PDF document as HTML using Aspose.PDF for .NET with 
 ### [Convert PDF to PNG with Aspose.PDF .NET&#58; Enhance Font Hinting for Sharp Text Rendering](./convert-pdf-png-aspose-net-font-hinting/)
 Learn how to convert PDF documents into high-quality PNG images using Aspose.PDF .NET, ensuring sharp text rendering through font hinting.
 
+### [Convert PDF to PNG with Aspose.PDF .NET&#58; A Comprehensive Guide](./convert-pdf-to-png-aspose-net/)
+Learn how to convert PDF documents into high-quality PNG images using Aspose.PDF .NET, ensuring sharp text rendering through font hinting.
+
 ### [Save PDF as PNG and Convert to PDF/X‑1a with Aspose PDF](./save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf/)
 Learn how to save a PDF as PNG and then convert it to PDF/X‑1a format using Aspose.PDF for .NET.
 ### [Convert PDF to PNG in C# – Complete Step‑by‑Step Guide](./convert-pdf-to-png-in-c-complete-step-by-step-guide/)

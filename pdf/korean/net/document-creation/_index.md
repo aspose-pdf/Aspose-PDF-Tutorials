@@ -64,6 +64,12 @@ C# 코드 예제로 페이지를 추가하고 사각형을 그린 뒤 PDF 파일
 ### [C#에서 PDF 문서 만들기 – 단계별 가이드](./create-pdf-document-in-c-step-by-step-guide/)
 C#를 사용해 처음부터 PDF 문서를 만들고, 다양한 기능을 구현하는 방법을 단계별로 안내합니다.
 
+### [C#에서 PDF 문서 만들기 – PDF에 페이지 추가 및 사각형 그리기](./create-pdf-document-in-c-add-page-to-pdf-draw-rectangle/)
+C# 코드를 사용해 PDF에 새 페이지를 삽입하고 사각형을 그리는 방법을 단계별로 안내합니다.
+
+### [C#에서 PDF 문서 만들기 – 인‑메모리 생성 전체 가이드](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
+C#을 사용해 메모리 내에서 PDF 문서를 생성하는 전체 단계별 가이드를 제공합니다.
+
 ### [Aspose.PDF로 PDF 문서 만들기 – 페이지 추가, 도형 삽입 및 저장](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 ### [C#에서 Aspose를 사용하여 PDF 문서 만들기 – 단계별 가이드](./create-pdf-document-with-aspose-in-c-step-by-step-guide/)
 Aspose를 활용해 C#에서 PDF 문서를 처음부터 생성하고 저장하는 방법을 단계별로 안내합니다.

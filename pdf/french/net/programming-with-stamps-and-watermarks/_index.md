@@ -25,6 +25,7 @@ Les tutoriels « Programmation avec tampons et filigranes » d'Aspose.PDF pour
 | [Ajout de différents en-têtes dans un fichier PDF](./adding-different-headers/) | Apprenez à ajouter différents en-têtes à vos fichiers PDF avec Aspose.PDF pour .NET. Guide étape par étape pour personnaliser vos PDF. |  
 | [Ajouter un tampon de page PDF dans un fichier PDF](./add-pdf-page-stamp/) | Découvrez comment ajouter un tampon de page PDF avec Aspose.PDF pour .NET grâce à ce guide détaillé. Boostez l'impact de vos documents PDF. |  
 | [Ajouter un tampon de texte dans un fichier PDF](./add-text-stamp/) | Apprenez à ajouter un tampon de texte dans un fichier PDF à l'aide d'Aspose.PDF pour .NET avec notre guide étape par étape et améliorez vos présentations de documents. |  
+| [Comment ajouter un tampon à un PDF avec Aspose.Pdf – Guide étape par étape](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) | Apprenez à ajouter un tampon à un PDF en utilisant Aspose.Pdf grâce à ce guide détaillé étape par étape. |  
 | [Comptage des artefacts dans un fichier PDF](./counting-artifacts/) Apprenez à compter les filigranes dans un PDF avec Aspose.PDF pour .NET. Guide étape par étape pour les débutants sans expérience préalable. |  
 | [Définir l'alignement dans le fichier PDF](./define-alignment/) | Ce guide explique comment définir l'alignement du texte dans les fichiers PDF à l'aide d'Aspose.PDF pour .NET, avec un didacticiel étape par étape. |  
 | [Extraire le texte de l'annotation du tampon](./extract-text-from-stamp-annotation/) | Apprenez à extraire du texte d'une annotation de tampon dans un PDF à l'aide d'Aspose.PDF pour .NET avec ce didacticiel étape par étape, accompagné d'un exemple de code détaillé. |  
@@ -50,6 +51,7 @@ Les tutoriels « Programmation avec tampons et filigranes » d'Aspose.PDF pour
 | [Créer un filigrane PDF – Ajouter un tampon et convertir DOCX en PDF](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) | Apprenez à créer un filigrane PDF, ajouter un tampon et convertir un fichier DOCX en PDF avec Aspose.PDF pour .NET. |  
 | [Créer un document PDF avec numérotation Bates en C# – Guide complet](./create-pdf-document-with-bates-numbering-in-c-full-guide/) | Apprenez à générer des PDF avec numérotation Bates en C# grâce à ce guide complet pas à pas. |  
 | [Ajouter un tampon au PDF – Appliquer un filigrane PDF sur la première page](./add-stamp-to-pdf-apply-watermark-pdf-on-first-page/) | Apprenez à ajouter un tampon qui agit comme filigrane uniquement sur la première page d'un PDF avec Aspose.PDF pour .NET. |
+| [Créer un avis plein page PDF – Guide rapide C#](./create-pdf-full-page-notice-quick-c-guide/) | Apprenez à créer un avis plein page dans un PDF avec Aspose.PDF pour .NET grâce à ce guide rapide en C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

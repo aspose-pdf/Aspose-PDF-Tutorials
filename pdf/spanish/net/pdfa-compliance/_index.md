@@ -25,6 +25,8 @@ Aprenda a convertir archivos PDF estándar en documentos compatibles con PDF/A-1
 
 ### [Convertir PDF a PDF/A en C# – Guía paso a paso](./convert-pdf-to-pdf-a-in-c-step-by-step-guide/)
 Aprenda a convertir PDFs a PDF/A usando C# con instrucciones detalladas paso a paso.
+### [Convertir PDF a PDF/A en C# – Guía completa paso a paso](./convert-pdf-to-pdf-a-in-c-complete-step-by-step-guide/)
+Aprenda a convertir archivos PDF a PDF/A en C# con una guía paso a paso completa, garantizando cumplimiento y calidad de archivo.
 
 ### [Convierta PDF a PDF/A-3B con Aspose.PDF para .NET](./convert-pdf-to-pdfa-3b-aspose-net/)
 Un tutorial de código para Aspose.PDF Net

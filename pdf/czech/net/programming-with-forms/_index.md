@@ -54,6 +54,7 @@ Tyto tutoriály také obsahují podrobné příklady kódu, jasná vysvětlení 
 | [Vytvořit PDF dokument s více widgety – krok za krokem](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) | Naučte se, jak pomocí Aspose.PDF pro .NET vytvořit PDF dokument obsahující více widgetů, krok za krokem s ukázkovým kódem. |
 | [Vytvořit PDF s stránkami a textovými poli – kompletní průvodce v C#](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Naučte se, jak vytvořit PDF s více stránkami a textovými poli pomocí Aspose.PDF pro .NET v kompletním C# průvodci. |
 
+| [Vytvořit PDF dokument s Aspose – Přidat textové pole](./create-pdf-document-with-aspose-add-text-box-field/) | Naučte se, jak pomocí Aspose.PDF pro .NET přidat textové pole do PDF dokumentu v tomto podrobném návodu. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

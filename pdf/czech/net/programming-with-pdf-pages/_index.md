@@ -41,6 +41,7 @@ Návody obsahují podrobné pokyny, podrobné příklady kódu a jasná vysvětl
 | [Vytvořit PDF dokument C# – Přidat Batesovo číslování](./create-pdf-document-c-add-bates-numbering/) | Naučte se, jak přidat Batesovo číslování do PDF dokumentu pomocí Aspose.PDF pro .NET a C#. |
 | [Přidat Batesovo číslování PDF – Průvodce krok za krokem pro číslování stránek PDF](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Kompletní krok‑za‑krokem průvodce přidáním Batesova číslování do PDF pomocí Aspose.PDF pro .NET. |
 | [Vytvořit PDF dokument C# – Přidat tvary a prázdné stránky – Průvodce](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Naučte se, jak pomocí Aspose.PDF pro .NET v C# přidávat tvary a prázdné stránky do PDF dokumentu. |
+| [Přidat Batesovo číslování PDF pomocí Aspose – Kompletní průvodce](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Kompletní průvodce přidáním Batesova číslování do PDF souborů pomocí Aspose.PDF pro .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

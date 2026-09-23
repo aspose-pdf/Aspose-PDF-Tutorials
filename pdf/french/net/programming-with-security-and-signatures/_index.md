@@ -37,6 +37,10 @@ Ce tutoriel vous offre un aperçu détaillé des méthodes et techniques permett
 | [Vérifier les signatures PDF – Comment lister les signatures en C# avec Aspose.PDF](./check-pdf-for-signatures-how-to-list-signatures-in-c-with-as/) | Apprenez à répertorier toutes les signatures d'un PDF en C# avec Aspose.PDF, étape par étape. |
 | [Comment vérifier la signature dans un PDF avec C# – Guide complet Aspose](./how-to-verify-signature-in-pdf-using-c-complete-aspose-guide/) | Apprenez à vérifier les signatures PDF en C# avec Aspose.PDF – guide complet étape par étape. |
 | [Ajouter une signature numérique PDF en C# – Guide complet étape par étape](./add-digital-signature-pdf-in-c-complete-step-by-step-guide/) | Apprenez à ajouter une signature numérique à un PDF en C# avec Aspose.PDF, guide complet étape par étape. |
+| [Vérifier les signatures PDF en C# – Guide rapide pour vérifier les signatures numériques](./check-pdf-signatures-in-c-quick-guide-to-verify-digital-sign/) | Apprenez à vérifier rapidement les signatures numériques d’un PDF en C# avec Aspose.PDF pour .NET. |
+| [Vérifier la signature numérique PDF en C# avec Aspose.Pdf](./verify-pdf-digital-signature-in-c-with-aspose-pdf/) | Apprenez à vérifier les signatures numériques d'un PDF en C# avec Aspose.PDF pour .NET, étape par étape. |
+| [Charger le certificat PFX C# – Créer une signature détachée PKCS7](./load-pfx-certificate-c-create-pkcs7-detached-signature/) | Apprenez à charger un certificat PFX en C# et à générer une signature PKCS7 détachée avec Aspose.PDF pour .NET. |
+| [Vérifier la signature numérique d'un PDF en C#](./pdf-signature-tutorial-verify-a-pdf-s-digital-signature-in-c/) | Apprenez à vérifier la signature numérique d'un PDF en C# avec Aspose.PDF pour .NET, étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

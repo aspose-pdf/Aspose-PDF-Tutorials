@@ -49,6 +49,8 @@ Aspose.PDF의 .NET용 "스탬프 및 워터마크 프로그래밍" 튜토리얼�
 | [PDF 저장 방법 — Aspose.Pdf로 베이츠 번호 매기기 추가](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) | Aspose.PDF for .NET을 사용하여 PDF 파일에 베이츠 번호를 추가하고 저장하는 방법을 단계별로 안내합니다. |  
 | [PDF 워터마크 만들기 – 스탬프 추가 및 DOCX를 PDF로 변환](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) | Aspose.PDF for .NET을 사용해 DOCX를 PDF로 변환하고, PDF에 워터마크와 스탬프를 추가하는 방법을 단계별로 안내합니다. |
 | [C#에서 베이츠 번호 매기기로 PDF 문서 만들기 – 전체 가이드](./create-pdf-document-with-bates-numbering-in-c-full-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 베이츠 번호 매기기를 적용해 PDF 문서를 만드는 방법을 단계별 가이드로 확인하세요. |  
+| [Aspose.Pdf를 사용하여 PDF에 스탬프 추가하는 방법 – 단계별 가이드](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) | Aspose.Pdf for .NET을 이용해 PDF 파일에 스탬프를 삽입하는 과정을 단계별로 안내합니다. |  
+| [PDF 전체 페이지 공지 만들기 – 빠른 C# 가이드](./create-pdf-full-page-notice-quick-c-guide/) | Aspose.PDF for .NET을 사용하여 전체 페이지에 공지를 추가하는 간단한 C# 예제와 단계별 가이드를 제공합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
