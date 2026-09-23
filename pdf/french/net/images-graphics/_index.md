@@ -44,6 +44,8 @@ Apprenez à créer des documents PDF attrayants en extrayant et en surlignant de
 ### [Dessiner des formes transparentes dans des fichiers PDF avec Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 Un tutoriel de code pour Aspose.PDF Net
 
+### [Ajouter de la transparence à un PDF avec Aspose PDF en C# : guide étape par étape](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Apprenez à appliquer la transparence aux éléments PDF en C# avec Aspose PDF grâce à ce guide détaillé.
 ### [Comment dessiner un rectangle dans un PDF avec C# – Guide étape par étape](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
 Apprenez à dessiner un rectangle dans un PDF en C# avec Aspose.PDF .NET grâce à ce guide détaillé étape par étape.
 

@@ -45,6 +45,13 @@ Aspose.PDF for .NET의 "태그가 지정된 PDF 프로그래밍" 튜토리얼은
 | [PDF 파일의 텍스트 구조 요소](./text-structure-elements/) Aspose.PDF for .NET을 사용하여 PDF의 텍스트 구조 요소를 조작하는 방법을 알아보세요. 이 단계별 가이드에서는 구조화된 PDF를 만드는 데 필요한 모든 것을 다룹니다. |  
 | [PDF 파일 검증](./validate-pdf/) | Aspose.PDF for .NET을 사용하여 PDF 파일의 유효성을 검사하는 방법을 알아보세요. 표준 준수 여부를 확인하고 유효성 검사 보고서를 생성하세요. |  
 | [C#로 태그가 지정된 PDF 만들기 – 완전 단계별 가이드](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 태그가 지정된 PDF를 처음부터 완전하게 만드는 단계별 가이드입니다. |  
+| [C#에서 태그가 지정된 PDF 만들기 – Aspose PDF 완전 가이드](./create-tagged-pdf-in-c-aspose-pdf-complete-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 태그가 지정된 PDF를 완전하게 만드는 단계별 가이드입니다. |  
+| [Aspose로 PDF에 태그 지정하기 – PDF 접근성 태그 완전 가이드](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) | Aspose.PDF for .NET을 활용해 PDF에 접근성 태그를 적용하고 검증하는 전체 과정을 단계별로 안내합니다. |
+| [Aspose로 PDF 접근성 향상: 단락 삽입 단계별 가이드](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Aspose.PDF for .NET을 사용하여 PDF에 단락을 삽입하고 접근성을 높이는 방법을 단계별로 안내합니다. |
+| [C#에서 태그가 지정된 PDF 만들기 – 제목 및 접근 가능한 텍스트 추가](./create-tagged-pdf-in-c-add-heading-accessible-text/) | C#을 사용하여 제목과 접근 가능한 텍스트가 포함된 태그가 지정된 PDF를 만드는 방법을 단계별로 안내합니다. |  
+| [Aspose.Pdf로 접근 가능한 PDF 만들기 – 단계별 가이드](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Aspose.PDF for .NET을 활용해 접근성 기준을 충족하는 PDF를 단계별로 만드는 방법을 안내합니다. |  
+| [C#에서 태그가 지정된 PDF 만들기 – 단계별 가이드](./create-tagged-pdf-in-c-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 태그가 지정된 PDF를 만드는 단계별 가이드를 확인하세요. |  
+| [PDF 문서 만들기 – 태그가 지정된 텍스트에 절대 위치 설정](./create-pdf-document-set-absolute-position-for-tagged-text/) | Aspose.PDF for .NET을 사용하여 태그가 지정된 텍스트의 절대 위치를 설정하여 PDF 문서를 만드는 방법을 단계별로 안내합니다. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

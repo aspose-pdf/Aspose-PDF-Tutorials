@@ -22,6 +22,7 @@ Aspose.PDF for .NET eğitimleri, PDF belgelerinizdeki başlıklarla programlamad
 | Başlık | Açıklama |
 | --- | --- | 
 | [PDF Dosyasına Sayı Stili Uygula](./apply-number-style/) | Bu adım adım kılavuzla Aspose.PDF for .NET'i kullanarak bir PDF'deki başlıklara farklı sayı stilleri (Romen rakamları, alfabetik) uygulamayı öğrenin.   
+| [Aspose ile PDF'ye Başlık Ekle – Tam C# Rehberi](./add-heading-to-pdf-with-aspose-complete-c-guide/) | Bu kapsamlı C# rehberi, Aspose.PDF kullanarak PDF belgelerinize başlık eklemeyi adım adım gösterir.   
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

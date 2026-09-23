@@ -26,11 +26,11 @@ Tutorials bevatten stapsgewijze instructies, gedetailleerde codevoorbeelden en d
 | [Een bepaalde pagina in een PDF-bestand verwijderen](./delete-particular-page/) | Leer hoe u een specifieke pagina uit een PDF-bestand verwijdert met Aspose.PDF voor .NET met deze stapsgewijze handleiding. |  
 | [Paginakleur bepalen](./determine-page-color/) Leer hoe u de paginakleur van PDF-bestanden kunt bepalen met Aspose.PDF voor .NET met onze stapsgewijze handleiding. Eenvoudige implementatie voor alle niveaus. |  
 | [Pagina-inhoud in PDF-bestand aanpassen](./fit-page-contents/) | Pas uw PDF-inhoud moeiteloos aan met Aspose.PDF voor .NET. Deze handleiding biedt een gedetailleerde, stapsgewijze aanpak voor het bereiken van een optimale pagina-indeling. |  
-| [PDF-pagina-afmetingen ophalen](./get-dimensions/) In deze tutorial leggen we uit hoe u PDF-pagina-afmetingen kunt bepalen en bewerken met Aspose.PDF voor .NET. Gedetailleerde stappen leiden u door het proces.  
+| [PDF-pagina-afmetingen ophalen](./get-dimensions/) In deze tutorial leggen we uit hoe u PDF-pagina-afmetingen kunt bepalen en bewerken met Aspose.PDF voor .NET. Gedetailleerde stappen leiden u door het proces. |  
 | [Aantal pagina's in PDF-bestand ophalen](./get-number-of-pages/) | Stapsgewijze handleiding voor het berekenen van het aantal pagina's in een PDF-bestand met Aspose.PDF voor .NET. Eenvoudig te implementeren, ideaal voor uw projecten. |  
 | [Paginatelling in PDF-bestand ophalen](./get-page-count/) | Leer hoe u het aantal pagina's in een PDF-bestand kunt berekenen met Aspose.PDF voor .NET. Volg onze stapsgewijze handleiding voor een eenvoudige en effectieve oplossing. |  
-| [Specifieke pagina ophalen](./get-particular-page/) Leer hoe u een bepaalde pagina uit een PDF kunt extraheren en deze als een nieuw document kunt opslaan met Aspose.PDF voor .NET in deze stapsgewijze handleiding.  
-| [PDF-eigenschappen ophalen](./get-properties/) | Leer hoe u PDF-eigenschappen efficiënt kunt extraheren met Aspose.PDF voor .NET. Stapsgewijze handleiding met codevoorbeelden en aanbevolen procedures. |  
+| [Specifieke pagina ophalen](./get-particular-page/) Leer hoe u een bepaalde pagina uit een PDF kunt extraheren en deze als een nieuw document kunt opslaan met Aspose.PDF voor .NET in deze stapsgewijze handleiding. |  
+| [PDF-eigenschappen ophalen](./get-properties/) | Leer hoe u PDF-eigenschappen efficiënt kunt extraheren met Aspose.PDF voor .NET. Stapsgewijze handleleiding met codevoorbeelden en aanbevolen procedures. |  
 | [Afbeelding instellen als pagina-achtergrond in PDF-bestand](./image-as-background/) | Leer hoe u een afbeelding als pagina-achtergrond in een PDF instelt met Aspose.PDF voor .NET met deze stapsgewijze handleiding. Maak professionele, visueel aantrekkelijke documenten. |  
 | [Lege pagina invoegen in PDF-bestand](./insert-empty-page/) | Leer hoe u een lege pagina in een PDF-document invoegt met Aspose.PDF voor .NET. Stapsgewijze tutorial met codevoorbeelden voor naadloze PDF-bewerking. |  
 | [Lege pagina aan het einde invoegen](./insert-empty-page-at-end/) | Leer hoe je moeiteloos een lege pagina in een PDF-document invoegt met Aspose.PDF voor .NET in deze beginnersvriendelijke handleiding. Perfect voor snelle bewerkingen. |  
@@ -39,6 +39,10 @@ Tutorials bevatten stapsgewijze instructies, gedetailleerde codevoorbeelden en d
 | [Zoom naar pagina-inhoud in PDF-bestand](./zoom-to-page-contents/) | Leer in deze uitgebreide handleiding hoe u kunt inzoomen op pagina-inhoud in PDF-bestanden met Aspose.PDF voor .NET. Verbeter uw PDF-documenten naar uw specifieke behoeften. |  
 | [Pagina's toevoegen aan PDF – Stapsgewijze handleiding voor C#‑ontwikkelaars](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) | Leer hoe u pagina's aan een PDF toevoegt met Aspose.PDF voor .NET in deze stapsgewijze handleiding voor C#‑ontwikkelaars. |
 | [Paginanummers toevoegen aan PDF met C# – Volledige stapsgewijze handleiding](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Leer hoe u paginanummers aan een PDF kunt toevoegen met C# en Aspose.PDF voor .NET in een gedetailleerde stap‑voor‑stap handleiding. |
+| [PDF-document maken C# – Bates-nummering toevoegen](./create-pdf-document-c-add-bates-numbering/) | Leer hoe u Bates-nummers aan een PDF-document toevoegt met Aspose.PDF voor .NET en C# in een stapsgewijze handleiding. |
+| [Bates-nummering toevoegen aan PDF – Stapsgewijze handleiding voor het nummeren van PDF-pagina's](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Leer hoe u Bates-nummering toevoegt aan PDF-pagina's met Aspose.PDF voor .NET in een gedetailleerde stap‑voor‑stap handleiding. |
+| [PDF-document maken C# – Vormen en lege pagina's toevoegen](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Leer hoe u met Aspose.PDF voor .NET een PDF-document maakt in C#, vormen toevoegt en lege pagina's invoegt. |
+| [Bates-nummering toevoegen aan PDF met Aspose – Complete gids](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Leer hoe u Bates-nummering aan PDF-bestanden kunt toevoegen met Aspose.PDF voor .NET in deze volledige stap‑voor‑stap handleiding. |
 | [Bates-nummers toevoegen in C# – Stapsgewijze handleiding](./add-bates-numbering-in-c-step-by-step-guide/) | Leer hoe u Bates‑nummers toevoegt aan een PDF met C# en Aspose.PDF voor .NET in deze stap‑voor‑stap handleiding. |
 | [PDF-pagina's herschikken in C# – Complete stap‑voor‑stap handleiding](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | Leer hoe u PDF-pagina's in de gewenste volgorde kunt plaatsen met Aspose.PDF voor .NET in C# via een gedetailleerde stap‑voor‑stap handleiding. |
 
@@ -49,3 +53,24 @@ Tutorials bevatten stapsgewijze instructies, gedetailleerde codevoorbeelden en d
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Aspose PDF-tutorial – Een lege pagina invoegen en Bates-nummering bijwerken](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Leer hoe u een lege pagina toevoegt en de Bates-nummering bijwerkt in een PDF met Aspose.PDF voor .NET. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+| [Lege PDF-pagina maken – Volledige PDF-tekenhandleiding](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Leer hoe u een lege PDF-pagina maakt met volledige tekenfunctionaliteit in Aspose.PDF voor .NET. |
+| [Pagina's toevoegen aan PDF met Aspose – Complete C#-gids](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Leer hoe u met Aspose PDF-pagina's kunt toevoegen in een uitgebreide C#-handleiding. |
+| [PDF-document maken in C# – Pagina toevoegen aan PDF & Rechthoek](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) | Leer hoe u met Aspose.PDF voor .NET een PDF-document maakt, een pagina toevoegt en een rechthoek tekent in C#. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

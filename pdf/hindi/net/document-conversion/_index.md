@@ -40,7 +40,7 @@
 | [PDF को PNG में बदलें – C# में PDF पृष्ठों को PNG में परिवर्तित करें](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF पृष्ठों को PNG छवियों में बदलना सीखें। |
 | [पीडीएफ से पीपीटी](./pdf-to-ppt/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF को PPT में परिवर्तित करना सीखें। आसान, कुशल और प्रस्तुतियों के लिए एकदम सही। |  
 | [पीडीएफ से एसवीजी](./pdf-to-svg/) | इस चरण-दर-चरण ट्यूटोरियल में जानें कि .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइलों को SVG प्रारूप में कैसे परिवर्तित किया जाए। डेवलपर्स और डिज़ाइनरों के लिए बिल्कुल सही। |  
-| [पीडीएफ से टीईएक्स](./pdf-to-tex/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF को TeX में परिवर्तित करना सीखें। दस्तावेज़ प्रसंस्करण कौशल को बढ़ाने की इच्छा रखने वाले डेवलपर्स के लिए बिल्कुल सही। |  
+| [पीडीएफ से टीईएक्स](./pdf-to-tex/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF को TeX में परिवर्तित करना सीखें। दस्तावेज़ प्रसंस्करण कौशल को बढ़ाने की इच्छुक डेवलपर्स के लिए बिल्कुल सही। |  
 | [पीडीएफ से एक्सएलएस](./pdf-to-xls/) .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइलों को आसानी से XLS प्रारूप में बदलें। सहज डेटा निष्कर्षण के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें। |  
 | [पीडीएफ से XML](./pdf-to-xml/) | इस व्यापक ट्यूटोरियल में जानें कि .NET के लिए Aspose.PDF का उपयोग करके PDF को XML में कैसे परिवर्तित किया जाए। कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका शामिल है। |  
 | [पीडीएफ से एक्सपीएस](./pdf-to-xps/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF को XPS में परिवर्तित करना सीखें। डेवलपर्स और दस्तावेज़ प्रसंस्करण के प्रति उत्साही लोगों के लिए बिल्कुल सही। |  
@@ -59,7 +59,38 @@
 | [XPS से PDF में](./xps-to-pdf/) इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.PDF का उपयोग करके XPS फ़ाइलों को PDF में कनवर्ट करना सीखें। डेवलपर्स और दस्तावेज़ उत्साही लोगों के लिए बिल्कुल सही। |  
 | [C# में Aspose PDF रूपांतरण: लोड, PDF/X-4 में परिवर्तित करें, सहेजें](./aspose-pdf-conversion-in-c-load-convert-to-pdf-x-4-save/) | इस चरण-दर-चरण ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को लोड, PDF/X‑4 में बदलना और सहेजना सीखें। |
 | [C# में PDF को PDF/X‑4 में परिवर्तित करें – चरण-दर-चरण ASP.NET PDF ट्यूटोरियल](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | इस ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X‑4 फ़ॉर्मेट में बदलना सीखें। |
+| [Aspose के साथ PDF को PDF/X-4 में कैसे परिवर्तित करें – चरण‑दर‑चरण गाइड](./how-to-convert-pdf-to-pdf-x-4-with-aspose-step-by-step-guide/) | इस चरण-दर-चरण ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X-4 फ़ॉर्मेट में बदलना सीखें। |
+| [C# में PDF रूपांतरण के लिए विकल्प सेट करने का तरीका – Aspose गाइड](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | इस चरण-दर-चरण गाइड में .NET के लिए Aspose.PDF का उपयोग करके C# में PDF रूपांतरण विकल्प कैसे सेट करें, सीखें। |
+| [Aspose PDF ट्यूटोरियल: C# में PDF को PDF/X‑4 में परिवर्तित करें](./aspose-pdf-tutorial-convert-pdf-to-pdf-x-4-in-c/) | इस ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X‑4 फ़ॉर्मेट में बदलना सीखें। |
+| [PDF दस्तावेज़ लोड करें C# – Aspose के साथ PDF/X‑4 में परिवर्तित करें](./load-pdf-document-c-convert-to-pdf-x-4-with-aspose/) | इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ लोड करके उसे PDF/X‑4 फ़ॉर्मेट में बदलना सीखें। |  
+| [PDF/X‑1A रूपांतरण में ICC प्रोफ़ाइल सेट करें – पूर्ण C# गाइड](./set-icc-profile-in-pdf-x-1a-conversion-complete-c-guide/) | इस विस्तृत चरण-दर-चरण गाइड में .NET के लिए Aspose.PDF का उपयोग करके PDF/X‑1A रूपांतरण में ICC प्रोफ़ाइल सेट करना सीखें। |  
+
 | [स्पैन तत्व बनाएं और पेज में जोड़ें – DOCX को PDF में बदलें](./create-span-element-and-add-to-page-convert-docx-to-pdf/) | इस चरण-दर-चरण ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके DOCX को PDF में बदलते समय पेज में स्पैन तत्व जोड़ना सीखें। |
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+| [PDF को HTML के रूप में सहेजें – वेक्टर रखें और रास्टराइज़ेशन निष्क्रिय करें](./save-pdf-as-html-keep-vectors-disable-rasterization/) | इस ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को HTML में वेक्टर बनाए रखते हुए और रास्टराइज़ेशन को बंद करके सहेजना सीखें। |
+| [C# में PDF से HTML बनाएं – पूर्ण चरण‑दर‑चरण गाइड](./create-html-from-pdf-in-c-complete-step-by-step-guide/) | इस विस्तृत मार्गदर्शिका में .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइल से HTML उत्पन्न करने के चरण सीखें। |  
+| [c# पीडीएफ रूपांतरण ट्यूटोरियल – पीडीएफ को PDF/X-4 में बदलें](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X-4 प्रारूप में परिवर्तित करना सीखें। |
+| [Aspose PDF रूपांतरण: C# में PDF को PDF/X‑4 में बदलें](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X‑4 में बदलना सीखें। |  
+| [ICC प्रोफ़ाइल जोड़ें और PDF को PDF/X‑4 में परिवर्तित करें – C# गाइड](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) | इस चरण-दर-चरण गाइड में .NET के लिए Aspose.PDF का उपयोग करके PDF में ICC प्रोफ़ाइल जोड़ना और उसे PDF/X‑4 में बदलना सीखें। |
+| [DOCX में Bates नंबरिंग जोड़ें और PDF में परिवर्तित करें – पूर्ण C# गाइड](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | इस चरण-दर-स्टेप गाइड में .NET के लिए Aspose.PDF का उपयोग करके DOCX में Bates नंबरिंग जोड़कर PDF में बदलना सीखें। |
+| [डॉक्यूमेंट PDF सहेजें – एलिप्स जोड़ें और DOCX को PDF में बदलें](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | इस चरण-दर-स्टेप मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके डॉक्यूमेंट PDF सहेजें, एलिप्स जोड़ें और DOCX को PDF में बदलें। |
+| [C# में docx को pdf में बदलें – पूर्ण चरण‑दर‑चरण गाइड](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | .NET के लिए Aspose.PDF का उपयोग करके C# में DOCX को PDF में बदलने की पूरी प्रक्रिया सीखें। |
+| [C# में Aspose PDF रूपांतरण – चरण‑दर‑चरण गाइड](./aspose-pdf-conversion-in-c-step-by-step-guide/) | इस चरण‑दर‑चरण गाइड में .NET के लिए Aspose.PDF का उपयोग करके C# में PDF रूपांतरण कैसे करें, सीखें। |  
+| [C# में PDF को PDF/X‑4 में कैसे बदलें – चरण‑दर‑चरण गाइड](./how-to-convert-pdf-to-pdf-x-4-in-c-step-by-step-guide/) | इस चरण-दर-स्टेप मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X‑4 में परिवर्तित करना सीखें। |
+| [Word को PDF में बदलते समय ICC प्रोफ़ाइल सेट करें – पूर्ण C# गाइड](./set-icc-profile-when-converting-word-to-pdf-complete-c-guide/) | इस चरण-दर-स्टेप गाइड में .NET के लिए Aspose.PDF का उपयोग करके Word को PDF में बदलते समय ICC प्रोफ़ाइल सेट करना सीखें। |
+| [दस्तावेज़ को HTML के रूप में सहेजें – Word को HTML में निर्यात करने के लिए पूर्ण C# गाइड](./save-document-as-html-complete-c-guide-to-export-word-to-htm/) | इस चरण-दर-स्टेप गाइड में .NET के लिए Aspose.PDF का उपयोग करके Word दस्तावेज़ को HTML में निर्यात करना सीखें। |
+
+| [PDF दस्तावेज़ लोड करें C# – PDF/X-4 में परिवर्तित करने की चरण-दर-चरण गाइड](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | इस चरण-दर-चरण ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ को लोड करके PDF/X-4 फ़ॉर्मेट में बदलना सीखें। |  
+| [Aspose PDF को HTML में C# – पूर्ण गाइड](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | इस विस्तृत मार्गदर्शिका में .NET के लिए Aspose.PDF का उपयोग करके PDF को HTML में बदलना सीखें। |
+| [Aspose.Pdf के साथ PDF को कैसे बदलें – पूर्ण C# गाइड](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | इस विस्तृत C# गाइड में Aspose.Pdf का उपयोग करके PDF को बदलना सीखें। |
+| [Aspose के साथ PDF कैसे सहेजें – पूर्ण C# रूपांतरण गाइड](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) | इस चरण-दर-स्तर गाइड में .NET के लिए Aspose का उपयोग करके PDF को सहेजने और C# में रूपांतरण करने के तरीके सीखें। |
+| [Aspose PDF रूपांतरण में ICC सेट करें – पूर्ण गाइड](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | इस चरण‑दर‑चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF रूपांतरण में ICC प्रोफ़ाइल सेट करना सीखें। |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

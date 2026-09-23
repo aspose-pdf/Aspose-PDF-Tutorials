@@ -46,7 +46,7 @@
 | [PDF เป็น XPS](./pdf-to-xps/) | เรียนรู้วิธีแปลง PDF เป็น XPS โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ เหมาะสำหรับนักพัฒนาและผู้ที่ชื่นชอบการประมวลผลเอกสาร -  
 | [บทส่งท้ายสำหรับ PDF](./postscript-to-pdf/) | เรียนรู้วิธีแปลงไฟล์ Postscript เป็น PDF โดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนแบบทีละขั้นตอนนี้ เหมาะสำหรับนักพัฒนาในทุกระดับ -  
 | [ระบุข้อมูลประจำตัวระหว่างการแปลง HTML เป็น PDF](./provide-credentials-during-html-to-pdf/) | เรียนรู้วิธีแปลง HTML เป็น PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ เหมาะอย่างยิ่งสำหรับนักพัฒนาที่ต้องการปรับปรุงกระบวนการสร้างเอกสาร -  
-| [ลบไฮเปอร์ลิงก์หลังจากการแปลงจาก HTML](./remove-hyperlinks-after-converting-from-html/) เรียนรู้วิธีลบไฮเปอร์ลิงก์ออกจากเอกสาร HTML หลังจากแปลงเป็น PDF โดยใช้ Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนนี้  
+| [ลบไฮเปอร์ลิงก์หลังจากการแปลงจาก HTML](./remove-hyperlinks-after-converting-from-html/) เรียนรู้วิธีลบไฮเปอร์ลิงก์ออกจากเ็บสาร HTML หลังจากแปลงเป็น PDF โดยใช้ Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนนี้  
 - [แทนที่แบบอักษรที่หายไป](./replace-missing-fonts/) | เรียนรู้วิธีการแทนที่แบบอักษรที่หายไปในเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้  
 - [ตั้งค่าชื่อฟอนต์เริ่มต้น](./set-default-font-name/) | เรียนรู้วิธีตั้งชื่อแบบอักษรเริ่มต้นเมื่อเรนเดอร์ PDF ลงในรูปภาพโดยใช้ Aspose.PDF สำหรับ .NET คู่มือนี้ครอบคลุมข้อกำหนดเบื้องต้น คำแนะนำทีละขั้นตอน และคำถามที่พบบ่อย -  
 | [แปลง SVG เป็น PDF](./svg-to-pdf/) | เรียนรู้วิธีแปลง SVG เป็น PDF โดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนแบบทีละขั้นตอนนี้ เหมาะสำหรับนักพัฒนาและนักออกแบบ -  
@@ -58,8 +58,10 @@
 | [XML เป็น PDF ตั้งค่าเส้นทางของรูปภาพ](./xml-to-pdfset-image-path/) | เรียนรู้วิธีการแปลง XML เป็น PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ .NET คำแนะนำโดยละเอียดนี้จะแนะนำคุณทีละขั้นตอนตั้งแต่การตั้งค่าจนถึงการเสร็จสมบูรณ์ -  
 | [XPS เป็น PDF](./xps-to-pdf/) เรียนรู้วิธีแปลงไฟล์ XPS เป็น PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยบทช่วยสอนแบบทีละขั้นตอนนี้ เหมาะสำหรับนักพัฒนาและผู้ที่ชื่นชอบเอกสาร |  
 - [แปลง PDF เป็น PDF/X‑4 ด้วย C# – บทช่วยสอน ASP.NET PDF ทีละขั้นตอน](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/X‑4 ด้วย Aspose.PDF สำหรับ .NET ในบทช่วยสอนแบบทีละขั้นตอนนี้  
-- [การแปลง Aspose PDF ด้วย C#: โหลด, แปลงเป็น PDF/X‑4, บันทึก](./aspose-pdf-conversion-in-c-load-convert-to-pdf-x-4-save/) | เรียนรู้วิธีโหลดไฟล์และแปลงเป็น PDF/X‑4 ด้วย Aspose.PDF สำหรับ .NET ในบทช่วยสอนนี้  
-| [สร้างองค์ประกอบ span และเพิ่มลงในหน้า – แปลง DOCX เป็น PDF](./create-span-element-and-add-to-page-convert-docx-to-pdf/) | เรียนรู้วิธีสร้าง span ใน DOCX และแปลงเป็น PDF ด้วย Aspose.PDF สำหรับ .NET  
+- [วิธีแปลง PDF เป็น PDF/X-4 ด้วย Aspose – คู่มือทีละขั้นตอน](./how-to-convert-pdf-to-pdf-x-4-with-aspose-step-by-step-guide/) | เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/X‑4 ด้วย Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนนี้  
+- [วิธีตั้งค่าตัวเลือกสำหรับการแปลง PDF ใน C# – คู่มือ Aspose](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | เรียนรู้วิธีตั้งค่าตัวเลือกการแปลง PDF ใน C# ด้วย Aspose.PDF อย่างละเอียดและง่ายต่อการทำตาม  
+- [บทช่วยสอน Aspose PDF: แปลง PDF เป็น PDF/X‑4 ด้วย C#](./aspose-pdf-tutorial-convert-pdf-to-pdf-x-4-in-c/) | เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/X‑4 ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนขั้นตอนโดยละเอียด
+- [โหลดเอกสาร PDF C# – แปลงเป็น PDF/X‑4 ด้วย Aspose](./load-pdf-document-c-convert-to-pdf-x-4-with-aspose/) | เรียนรู้วิธีโหลดไฟล์ PDF ด้วย C# แล้วแปลงเป็น PDF/X‑4 ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียด  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -68,3 +70,30 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+- [Aspose PDF conversion: แปลง PDF เป็น PDF/X‑4 ด้วย C#](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) | เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/X‑4 ด้วย Aspose.PDF สำหรับ .NET ใน C# ด้วยคู่มือทีละขั้นตอนนี้  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+- [บันทึก PDF เป็น HTML – รักษาเวกเตอร์และปิดการแรสเตอร์ไลซ์](./save-pdf-as-html-keep-vectors-disable-rasterization/) | เรียนรู้วิธีบันทึกไฟล์ PDF เป็น HTML โดยคงเวกเตอร์ไว้และปิดการแรสเตอร์ไลซ์ด้วย Aspose.PDF สำหรับ .NET  
+- [เพิ่มโปรไฟล์ ICC และแปลง PDF เป็น PDF/X‑4 – คำแนะนำ C#](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) | เรียนรู้วิธีเพิ่มโปรไฟล์ ICC และแปลง PDF เป็น PDF/X‑4 ด้วย Aspose.PDF สำหรับ .NET ในคู่มือ C# ทีละขั้นตอน
+- [บันทึกเอกสาร PDF – วิธีเพิ่มรูปวงรีและแปลง DOCX เป็น PDF](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | เรียนรู้วิธีบันทึกเอกสาร PDF, เพิ่มรูปวงรี และแปลงไฟล์ DOCX เป็น PDF ด้วย Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนนี้  
+- [เพิ่มหมายเลข Bates ให้กับ DOCX และแปลงเป็น PDF – คู่มือ C# ฉบับสมบูรณ์](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | เรียนรู้วิธีเพิ่มหมายเลข Batesให้กับไฟล์ DOCX และแปลงเป็น PDF ด้วย Aspose.PDF สำหรับ .NET ด้วยคู่มือ C# ขั้นตอนโดยละเอียด  
+- [แปลง docx เป็น pdf ใน C# – คู่มือขั้นตอนเต็ม](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET ในคู่มือขั้นตอนเต็มที่เข้าใจง่าย  
+- [สร้าง HTML จาก PDF ด้วย C# – คู่มือขั้นตอนเต็ม](./create-html-from-pdf-in-c-complete-step-by-step-guide/) | เรียนรู้วิธีสร้าง HTML จากไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้  
+- [บทช่วยสอนการแปลง PDF ด้วย C# – แปลง PDF เป็น PDF/X-4](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) | เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/X-4 ด้วย Aspose.PDF สำหรับ .NET ในบทช่วยสอนขั้นตอนเดียวนี้  
+- [วิธีตั้งค่า ICC ในการแปลง PDF ด้วย Aspose – คู่มือครบถ้วน](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | เรียนรู้วิธีตั้งค่า ICC ในการแปลง PDF ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียดในคู่มือขั้นตอนเต็ม  
+- [การแปลง PDF ด้วย Aspose ใน C# – คู่มือทีละขั้นตอน](./aspose-pdf-conversion-in-c-step-by-step-guide/) | เรียนรู้วิธีแปลงไฟล์ PDF ด้วย Aspose PDF ใน C# ผ่านขั้นตอนละเอียดและตัวอย่างโค้ด  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

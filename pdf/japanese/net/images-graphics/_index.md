@@ -47,6 +47,9 @@ Aspose.PDF .NET を使用して段落を抽出し、ハイライト表示する�
 ### [Aspose.PDF .NET で PDF に透明な図形を描く](./draw-transparent-shapes-aspose-pdf-net/)
 Aspose.PDF Net のコードチュートリアル
 
+### [C# で Aspose.PDF .NET を使用して PDF に透明度を追加する: ステップバイステップ ガイド](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Aspose.PDF .NET を使い、C# で PDF の要素に透明効果を適用する方法を段階的に解説します。
+
 ### [Aspose.PDF for .NET による効率的な PDF 画像識別](./master-image-identification-aspose-pdf-net/)
 Aspose.PDF for .NET を使用して、PDF 内のグレースケール画像と RGB 画像を識別する方法を学びます。このチュートリアルでは、インストール、画像の抽出、パフォーマンスに関するヒントを紹介します。
 

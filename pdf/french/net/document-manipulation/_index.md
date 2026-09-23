@@ -16,7 +16,6 @@
 Maîtrisez la manipulation de documents PDF grâce à nos tutoriels détaillés Aspose.PDF .NET. Ces guides pas à pas expliquent comment gérer la structure des documents, modifier des PDF existants, fractionner et fusionner des documents, ajouter et supprimer des pages, et organiser votre contenu PDF par programmation. Chaque tutoriel comprend des exemples de code C# fonctionnels, des notes d'implémentation et des bonnes pratiques pour vous aider à créer des applications manipulant efficacement des documents PDF avec un code propre et maintenable.
 
 ## Tutoriels disponibles
-
 ### [Ajouter des horodatages aux fichiers PDF à l'aide d'Aspose.PDF pour .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 Découvrez comment ajouter efficacement des horodatages et des annotations à vos documents PDF avec Aspose.PDF pour .NET. Améliorez la gestion de vos documents grâce à ces étapes faciles à suivre.
 
@@ -315,6 +314,12 @@ Apprenez à aplatir les PDF pour les rendre non modifiables en utilisant Aspose.
 
 ### [Comment comparer des PDF avec Aspose – guide étape par étape](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
 Apprenez à comparer deux fichiers PDF en .NET avec Aspose.PDF grâce à ce guide détaillé pas à pas.
+
+### [Comment censurer un PDF en C# – Masquer le texte PDF et supprimer le contenu PDF](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
+Apprenez à masquer du texte et à supprimer du contenu dans un PDF en C# avec Aspose.PDF pour .NET.
+
+### [Comment réparer un PDF en C# – Réparer rapidement les fichiers PDF corrompus](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
+Apprenez à réparer rapidement les fichiers PDF corrompus en C# à l'aide d'Aspose.PDF.
 
 ## Ressources supplémentaires
 

@@ -1,0 +1,7 @@
+Title: How to create PDF document with a blank page and rectangle
+Slug: how-to-create-pdf-document-with-a-blank-page-and-rectangle
+Category: document-creation
+ProcessedDate: 2026-09-06T02:29:20.477132
+SourceRepo: AI Search API
+Keywords: create pdf document, add blank page pdf, draw rectangle pdf, save pdf file, how to add rectangle
+PRNumber: 125

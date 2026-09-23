@@ -1,0 +1,7 @@
+Title: Create PDF Textbox Field – Step‑by‑Step Guide
+Slug: create-pdf-textbox-field-step-by-step-guide
+Category: programming-with-forms
+ProcessedDate: 2026-06-21T15:11:24.039301
+SourceRepo: AI Search API
+Keywords: create pdf textbox field, duplicate pdf form field, add textbox to pdf form
+PRNumber: 93

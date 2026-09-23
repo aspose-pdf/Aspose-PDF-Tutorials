@@ -67,6 +67,12 @@ Tìm hiểu cách sử dụng Aspose.PDF cho .NET để xác thực và xử lý
 ### [Cách so sánh PDF trong C# – Hướng dẫn toàn diện tạo PDF Diff](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 Tìm hiểu cách so sánh các tệp PDF trong C# và tạo báo cáo sự khác biệt PDF một cách chi tiết.
 
+### [Cách chạy OCR trên PDF với Aspose.Pdf – Hướng dẫn C# đầy đủ](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose.Pdf để thực hiện OCR trên tài liệu PDF bằng C#, bao gồm các ví dụ thực tế.
+
+### [Chỉnh sửa độ trong suốt PDF bằng C# – Hướng dẫn từng bước](./edit-pdf-transparency-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách chỉnh sửa độ trong suốt của tài liệu PDF bằng C# với Aspose.PDF, bao gồm các ví dụ thực tế.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)

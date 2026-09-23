@@ -16,7 +16,6 @@
 Meistern Sie die PDF-Dokumentenbearbeitung mit unseren ausführlichen Aspose.PDF .NET-Tutorials. Diese Schritt-für-Schritt-Anleitungen zeigen Ihnen, wie Sie mit der Dokumentstruktur arbeiten, vorhandene PDFs ändern, Dokumente teilen und zusammenführen, Seiten hinzufügen und entfernen sowie Ihre PDF-Inhalte programmgesteuert organisieren. Jedes Tutorial enthält funktionierende C#-Codebeispiele, Implementierungshinweise und Best Practices, die Ihnen helfen, Anwendungen zu erstellen, die PDF-Dokumente effizient mit sauberem, wartungsfreundlichem Code bearbeiten.
 
 ## Verfügbare Tutorials
-
 ### [Fügen Sie mit Aspose.PDF für .NET Datums- und Zeitstempel zu PDFs hinzu](./aspose-pdf-net-date-time-stamps-annotations/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET effizient Datums- und Zeitstempel sowie Anmerkungen in Ihre PDF-Dokumente einfügen. Optimieren Sie Ihr Dokumentenmanagement mit diesen leicht verständlichen Schritten.
 
@@ -98,7 +97,7 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET Seitenzahlen aus dem Inhaltsverze
 ### [So fügen Sie mit Aspose.PDF für .NET verschiedene Kopfzeilen in PDF-Dateien hinzu: Eine Schritt-für-Schritt-Anleitung](./add-different-headers-aspose-pdf-net/)
 Erfahren Sie in diesem ausführlichen C#-Tutorial, wie Sie mit Aspose.PDF für .NET auf jeder Seite eines PDF-Dokuments unterschiedliche Kopfzeilen hinzufügen und anpassen.
 
-### [So fügen Sie mit Aspose.PDF für .NET Kopfzeilen zu PDFs hinzu: Eine umfassende Anleitung](./add-header-pdf-aspose-dotnet-guide/)
+### [So fügen Sie mit Aspose.PDF für .NET Kopfzeilen zu PDFs hinzufügen: Eine umfassende Anleitung](./add-header-pdf-aspose-dotnet-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET nahtlos Kopfzeilen, einschließlich Text und Bilder, zu Ihren PDF-Dokumenten hinzufügen. Perfekt für die Verbesserung des Dokumenten-Brandings.
 
 ### [So fügen Sie mit Aspose.PDF für .NET Kopfzeilen zu PDFs hinzufügen: Eine umfassende Anleitung](./add-headers-aspose-pdf-dotnet-guide/)
@@ -313,6 +312,14 @@ Erfahren Sie, wie Sie PDFs mit Aspose.PDF flachlegen, um interaktive Elemente zu
 
 ### [PDFs mit Aspose vergleichen – Schritt‑für‑Schritt‑Anleitung](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
 Erfahren Sie, wie Sie PDFs mit Aspose vergleichen, um Unterschiede zu erkennen, mithilfe von C#‑Beispielen Schritt für Schritt.
+
+### [Wie man PDFs in C# redigiert – Text in PDFs ausblenden & Inhalte entfernen](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET vertrauliche Informationen in PDFs ausblenden und Inhalte sicher entfernen.
+
+### [Wie man PDF in C# repariert – Beschädigte PDF-Dateien schnell beheben](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET beschädigte PDF-Dateien in C# schnell reparieren und wiederherstellen.
+### [Wie Sie PDF in C# mit Aspose PDF redigieren – Vollständige Anleitung](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose PDF für .NET vertrauliche Informationen in PDFs redigieren und dauerhaft entfernen.
 
 ## Weitere Ressourcen
 

@@ -38,6 +38,10 @@ Az oktatóanyagok lépésről lépésre bemutatják az utasításokat, részlete
 | [PDF oldalméretek frissítése](./update-dimensions/) | Fedezze fel, hogyan frissítheti könnyedén a PDF oldalak méreteit az Aspose.PDF for .NET segítségével ebben az átfogó, lépésről lépésre szóló útmutatóban. |  
 | [PDF fájl tartalmának nagyítása](./zoom-to-page-contents/) | Ebben az átfogó útmutatóban megtudhatja, hogyan nagyíthatja az oldalak tartalmát PDF fájlokban az Aspose.PDF for .NET segítségével. Javítsa PDF dokumentumait az Ön igényei szerint. |
 | [Oldalszámok hozzáadása PDF-hez C#‑vel – Teljes lépésről‑lépésre útmutató](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Lépésről lépésre útmutató a PDF oldalszámok hozzáadásához C#‑ben az Aspose.PDF for .NET használatával. |
+| [PDF dokumentum létrehozása C# – Bates-számozás hozzáadása](./create-pdf-document-c-add-bates-numbering/) | Lépésről lépésre útmutató a Bates-számozás hozzáadásához PDF dokumentumokhoz C#-ban az Aspose.PDF for .NET segítségével. |
+| [Bates-számozás hozzáadása PDF-hez – Lépésről‑lépésre útmutató a PDF oldalak számozásához](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Lépésről lépésre útmutató a PDF oldalak Bates-számozásához C#‑ben az Aspose.PDF for .NET használatával. |
+| [PDF dokumentum létrehozása C# – Alakzatok és üres oldalak hozzáadása útmutató](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Lépésről lépésre bemutatja, hogyan adhat hozzá alakzatokat és üres oldalakat egy PDF-hez C#‑ben az Aspose.PDF for .NET használatával. |
+| [Bates számozás hozzáadása PDF-hez Aspose-szal – Teljes útmutató](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Lépésről lépésre útmutató a Bates-számozás hozzáadásához PDF dokumentumokhoz az Aspose.PDF for .NET segítségével. |
 | [Bates-számozás hozzáadása C#‑ban – Lépésről‑lépésre útmutató](./add-bates-numbering-in-c-step-by-step-guide/) | Lépésről lépésre útmutató a Bates-számozás hozzáadásához C#‑ban az Aspose.PDF for .NET használatával, egyszerűen beépíthető projektjeibe. |
 | [Oldalak hozzáadása PDF-hez – Lépésről‑lépésre útmutató C# fejlesztőknek](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) | Lépésről‑lépésre bemutatja, hogyan adhat hozzá új oldalakat egy PDF-hez C#‑ban az Aspose.PDF for .NET használatával. |
 | [PDF oldalak újrarendezése C#‑ban – Teljes lépésről‑lépésre útmutató](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | Tanulja meg, hogyan rendezheti újra a PDF oldalak sorrendjét C#‑ban az Aspose.PDF for .NET segítségével, részletes lépésről‑lépésre útmutatóval. |
@@ -49,3 +53,24 @@ Az oktatóanyagok lépésről lépésre bemutatják az utasításokat, részlete
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Aspose PDF oktatóanyag – Üres oldal beszúrása és Bates-számozás frissítése](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Útmutató üres oldal beszúrásához és a Bates-számozás frissítéséhez PDF-ben az Aspose.PDF for .NET segítségével. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+| [Üres PDF oldal létrehozása – Teljes PDF rajzolási útmutató](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Lépésről lépésre útmutató üres PDF oldal létrehozásához és teljes PDF rajzoláshoz az Aspose.PDF for .NET használatával. |
+| [Oldalak hozzáadása PDF-hez Aspose-szal – Teljes C# útmutató](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Lépésről lépésre bemutatja, hogyan adhat hozzá oldalakat egy PDF-hez az Aspose.PDF for .NET használatával C#-ban. |
+| [PDF dokumentum létrehozása C#-ban – Oldal hozzáadása PDF-hez és téglalap](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) | Lépésről lépésre bemutatja, hogyan hozhat létre PDF dokumentumot C#-ban, adhat hozzá oldalt és rajzolhat téglalapot az Aspose.PDF for .NET segítségével. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

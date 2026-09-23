@@ -1,0 +1,7 @@
+Title: Save Modified PDF with Aspose.PDF – Complete C# Guide
+Slug: save-modified-pdf-with-aspose-pdf-complete-c-guide
+Category: document-manipulation
+ProcessedDate: 2026-08-02T02:20:44.979600
+SourceRepo: AI Search API
+Keywords: save modified pdf, edit pdf resources, add pdf transparency
+PRNumber: 113

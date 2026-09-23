@@ -67,6 +67,11 @@ Aspose.PDF for .NET을 사용하여 접근성이 뛰어나고 스타일이 적�
 
 ### [C#에서 PDF 비교 방법 – PDF 차이 생성 완전 가이드](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 Aspose.PDF for .NET을 사용하여 PDF를 비교하고 차이를 생성하는 방법을 단계별로 안내합니다.
+### [Aspose.Pdf를 사용하여 PDF에서 OCR 실행하기 – 완전 C# 가이드](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
+Aspose.PDF를 사용하여 PDF에 OCR을 적용하고 텍스트를 추출하는 방법을 단계별로 안내합니다.
+
+### [C#에서 PDF 투명도 편집 – 단계별 가이드](./edit-pdf-transparency-in-c-step-by-step-guide/)
+C#와 Aspose.PDF를 사용하여 PDF 투명도를 편집하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

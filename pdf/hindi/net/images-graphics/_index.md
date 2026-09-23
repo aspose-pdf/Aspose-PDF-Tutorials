@@ -47,6 +47,9 @@ Aspose.PDF .NET का उपयोग करके पैराग्राफ�
 ### [Aspose.PDF .NET के साथ PDF में पारदर्शी आकृतियाँ बनाएँ](./draw-transparent-shapes-aspose-pdf-net/)
 Aspose.PDF नेट के लिए एक कोड ट्यूटोरियल
 
+### [C# में Aspose PDF के साथ PDF में पारदर्शिता जोड़ें – चरण‑दर‑चरण गाइड](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+C# में Aspose PDF का उपयोग करके PDF दस्तावेज़ों में पारदर्शिता लागू करने का चरण‑दर‑चरण तरीका सीखें।
+
 ### [.NET के लिए Aspose.PDF के साथ कुशल PDF छवि पहचान](./master-image-identification-aspose-pdf-net/)
 .NET के लिए Aspose.PDF का उपयोग करके PDF में ग्रेस्केल और RGB छवियों की पहचान करना सीखें। यह ट्यूटोरियल इंस्टॉलेशन, इमेज एक्सट्रैक्शन और प्रदर्शन युक्तियों को कवर करता है।
 

@@ -53,6 +53,11 @@ Een codetutorial voor Aspose.PDF Net
 ### [PDF-pagina's naar PNG converteren met Aspose.PDF .NET: een uitgebreide handleiding](./convert-pdf-pages-to-png-aspose-net/)
 Leer hoe u PDF-pagina's kunt converteren naar hoogwaardige PNG-afbeeldingen met Aspose.PDF voor .NET. Volg deze stapsgewijze handleiding om het conversieproces efficiënt te automatiseren.
 
+### [PDF naar PNG converteren in C# – Complete stapsgewijze handleiding](./convert-pdf-to-png-in-c-complete-step-by-step-guide/)
+Leer hoe u PDF-bestanden naar PNG-afbeeldingen converteert met C# en Aspose.PDF, met stapsgewijze instructies en codevoorbeelden.
+### [Aspose PDF naar PNG – Eerste pagina exporteren met 300 DPI](./aspose-pdf-to-png-export-first-page-at-300-dpi/)
+Leer hoe u met Aspose.PDF de eerste pagina van een PDF exporteert naar PNG met 300 DPI in .NET.
+
 ### [PDF naar BMP converteren met Aspose.PDF voor .NET: een stapsgewijze handleiding](./convert-pdf-to-bmp-aspose-pdf-net/)
 Leer hoe u PDF-pagina's kunt converteren naar hoogwaardige BMP-afbeeldingen met Aspose.PDF voor .NET met deze uitgebreide handleiding.
 
@@ -80,9 +85,13 @@ Een codetutorial voor Aspose.PDF Net
 ### [PDF naar HTML converteren met aangepaste afbeeldings-URL's met Aspose.PDF .NET: een uitgebreide handleiding](./convert-pdf-html-custom-image-urls-aspose-pdf-net/)
 Leer hoe u PDF-documenten kunt converteren naar HTML-formaat met Aspose.PDF voor .NET, inclusief het aanpassen van afbeeldings-URL's en het implementeren van een op maat gemaakte strategie voor besparing van bronnen.
 
-### [Converteer PDF naar PNG met Aspose.PDF .NET: Verbeter lettertype-aanwijzingen voor scherpe tekstweergave](./convert-pdf-png-aspose-net-font-hinting/)
+### [Converteer PDF naar PNG met Aspose.PDF .NET: Verbeter lettertype‑aanwijzingen voor scherpe tekstweergave](./convert-pdf-png-aspose-net-font-hinting/)
 Leer hoe u PDF-documenten kunt converteren naar PNG-afbeeldingen van hoge kwaliteit met behulp van Aspose.PDF .NET, waarbij u verzekerd bent van een scherpe tekstweergave dankzij lettertypehints.
 
+### [PDF opslaan als PNG en converteren naar PDF/X‑1a met Aspose PDF](./save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf/)
+Leer hoe u een PDF opslaat als PNG en vervolgens converteert naar PDF/X‑1a met Aspose.PDF in .NET.
+### [Hoe PDF naar PNG te renderen in C# – Complete gids](./how-to-render-pdf-to-png-in-c-complete-guide/)
+Leer stap voor stap hoe u PDF-bestanden rendert naar PNG-afbeeldingen met C# en Aspose.PDF.
 ### [PDF naar PPTX converteren met Aspose.PDF voor .NET: Stapsgewijze handleiding](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 Leer hoe u PDF-documenten efficiënt kunt converteren naar PowerPoint-presentaties met Aspose.PDF voor .NET. Deze stapsgewijze handleiding behandelt de basisconversie, geavanceerde functies zoals dia's met afbeeldingen en het bijhouden van de voortgang.
 
@@ -224,11 +233,21 @@ Leer hoe u PDF-documenten naar HTML converteert met externe PNG-afbeeldingen met
 ### [PDF naar HTML-conversie met Aspose.PDF .NET: een uitgebreide handleiding](./aspose-pdf-net-pdf-to-html-conversion/)
 Beheers PDF-naar-HTML-conversie met Aspose.PDF voor .NET. Verbeter de toegankelijkheid en interactie van uw documenten met aanpasbare opties.
 
+### [PDF naar HTML converteren in C# – Snelle gids met Aspose.Pdf](./convert-pdf-to-html-in-c-quick-guide-with-aspose-pdf/)
+Leer hoe u PDF's snel naar HTML converteert in C# met Aspose.Pdf, inclusief voorbeeldcode en stapsgewijze instructies.
+
 ### [PDF naar HTML-conversie met Aspose.PDF voor .NET](./pdf-to-html-conversion-aspose-dot-net/)
 Een codetutorial voor Aspose.PDF Net
 
 ### [PDF naar TIFF-conversie in .NET met Aspose.PDF: een stapsgewijze handleiding](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Leer hoe u PDF-documenten naar TIFF-afbeeldingen converteert met Aspose.PDF voor .NET. Beheers aangepaste kleurdiepten en geavanceerde beeldverwerkingstechnieken.
+
+### [Hoe PDF opslaan met Aspose – Stapsgewijze handleiding](./how-to-save-pdf-with-aspose-step-by-step-guide/)
+Leer hoe u PDF-bestanden opslaat met Aspose in .NET met een duidelijke stap‑voor‑stap uitleg en voorbeeldcode.
+### [PDF opslaan als HTML met Aspose.PDF – Snelle C#-gids](./save-pdf-as-html-with-aspose-pdf-quick-c-guide/)
+Leer hoe u PDF's snel naar HTML converteert met Aspose.PDF in C#.
+### [PDF opslaan als HTML met Aspose.PDF – Complete C#-gids](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
+Leer hoe u PDF's opslaat als HTML met Aspose.PDF in C#, inclusief codevoorbeelden en configuratieopties.
 
 ## Aanvullende bronnen
 

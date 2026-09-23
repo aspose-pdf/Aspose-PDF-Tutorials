@@ -1,0 +1,7 @@
+Title: Create PKCS7 Detached Signer in C# – Complete Guide
+Slug: create-pkcs7-detached-signer-in-c-complete-guide
+Category: programming-with-security-and-signatures
+ProcessedDate: 2026-05-27T12:40:18.985564
+SourceRepo: AI Search API
+Keywords: create pkcs7 detached signer
+PRNumber: 84

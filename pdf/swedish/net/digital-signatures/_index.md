@@ -16,7 +16,6 @@
 Våra handledningar för digitala signaturer ger omfattande vägledning för implementering av dokumentsigneringsfunktioner med Aspose.PDF i .NET. Dessa steg-för-steg-guider täcker tillämpning av digitala signaturer, arbete med certifikat, implementering av signaturvisualisering, validering av signerade dokument och implementering av tidsstämpelfunktioner. Varje handledning innehåller detaljerade C#-kodexempel för säkra signeringsarbetsflöden, vilket hjälper dig att bygga applikationer som kan autentisera dokumentursprung och garantera innehållsintegritet med kryptografiskt säkra metoder.
 
 ## Tillgängliga handledningar
-
 ### [Digitala signaturer i PDF-filer med Aspose.PDF för .NET: En omfattande guide](./digital-signature-aspose-pdf-net-tutorial/)
 Lär dig hur du implementerar digitala signaturer i PDF-filer med Aspose.PDF för .NET. Den här guiden behandlar installation, signeringsprocesser och hantering av signaturers utseende.
 
@@ -53,11 +52,56 @@ Lär dig hur du verifierar digitala signaturer i PDF-filer med Aspose.PDF för .
 ### [Verifiera PDF-signatur i C# – Komplett guide för att validera digital signatur i PDF](./verify-pdf-signature-in-c-complete-guide-to-validate-digital/)
 Lär dig hur du verifierar PDF-signaturer i C# med en komplett guide för att validera digitala signaturer i PDF.
 
+### [Kontrollera PDF-signatur i C# med Aspose.PDF – Komplett guide](./check-pdf-signature-in-c-with-aspose-pdf-full-guide/)
+Lär dig hur du kontrollerar PDF-signatur i C# med Aspose.PDF i en komplett steg-för-steg-guide.
+
+### [Hur man verifierar PDF-signatur i C# – Komplett steg‑för‑steg‑guide](./how-to-verify-pdf-signature-in-c-complete-step-by-step-guide/)
+Lär dig hur du verifierar PDF-signaturer i C# med en komplett steg‑för‑steg‑guide.
+
+### [Verifiera PDF-signatur i C# – Steg‑för‑steg‑guide](./verify-pdf-signature-in-c-step-by-step-guide/)
+Lär dig hur du verifierar PDF‑signaturer i C# med en steg‑för‑steg‑guide.
+
+### [Validera PDF-signatur i C# – Steg‑för‑steg‑guide](./validate-pdf-signature-in-c-step-by-step-guide/)
+Lär dig hur du validerar PDF‑signaturer i C# med en tydlig steg‑för‑steg‑guide.
+
+### [Hur man verifierar PDF – Validera PDF-signatur med Aspose](./how-to-verify-pdf-validate-pdf-signature-with-aspose/)
+Lär dig hur du verifierar PDF‑signaturer med Aspose i en steg‑för‑steg‑guide.
+
+### [Extrahera signaturer från PDF med Aspose.Pdf – Komplett guide](./extract-signatures-from-pdf-with-aspose-pdf-complete-guide/)
+Lär dig hur du extraherar alla digitala signaturer från PDF-dokument med Aspose.Pdf i .NET, inklusive kodexempel och steg-för-steg-instruktioner.
+
+### [Hur man extraherar signatär från PDF – Komplett C#‑guide](./how-to-extract-signer-from-pdf-complete-c-guide/)
+Lär dig hur du extraherar signatärens information från en PDF med en komplett C#‑guide.
+
+### [Hur man verifierar PDF-signatur i C# – Komplett steg‑för‑steg‑handledning](./how-to-verify-pdf-signature-in-c-complete-step-by-step-tutor/)
+Lär dig hur du verifierar PDF-signaturer i C# med Aspose.PDF för .NET. En komplett steg-för-steg-guide.
+### [PDF signaturhandledning – Verifiera PDF-signaturer i C# med Aspose.PDF](./pdf-signature-tutorial-verify-pdf-signatures-in-c-with-aspos/)
+Lär dig hur du verifierar PDF-signaturer i C# med Aspose.PDF, inklusive kodexempel och steg-för-steg-instruktioner.
+
+### [Hämta PDF-signaturnamn i C# – Komplett programmeringsguide](./retrieve-pdf-signature-names-in-c-complete-programming-guide/)
+Lär dig hur du hämtar signaturnamn från PDF-filer med C# och Aspose.PDF för .NET.
+### [Validera PDF-digital signatur i C# – Komplett Aspose.PDF-guide](./validate-pdf-digital-signature-in-c-complete-aspose-pdf-guid/)
+Lär dig hur du validerar digitala PDF-signaturer i C# med en komplett Aspose.PDF-guide.
+
 ### [Läs in PDF-dokument C# – Konvertera till PDF/X‑4 och lista signaturer](./load-pdf-document-c-convert-to-pdf-x-4-list-signatures/)
 Lär dig hur du laddar en PDF, konverterar den till PDF/X‑4 och listar befintliga signaturer med Aspose.PDF för .NET i C#.
-
 ### [Validera PDF-signatur med Aspose – Konvertera PDF till HTML](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
 Lär dig hur du validerar PDF-signaturer och konverterar PDF till HTML med Aspose.PDF för .NET.
+### [Läs in signerat PDF-dokument och lista dess signaturer – C#-guide](./load-signed-pdf-document-and-list-its-signatures-c-guide/)
+Lär dig hur du laddar ett signerat PDF-dokument och listar alla dess signaturer med C# och Aspose.PDF för .NET.
+### [Verifiera PDF-signatur och lägg till rektangel i PDF med Aspose](./verify-pdf-signature-and-add-rectangle-pdf-with-aspose/)
+Lär dig hur du verifierar en PDF-signatur och ritar en rektangel i PDF-dokumentet med Aspose.
+### [Exportera PDF till HTML och validera PDF-signatur med Aspose](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
+Lär dig hur du konverterar PDF till HTML och samtidigt validerar PDF-signaturer med Aspose.
+### [Hur man verifierar signatur i PDF med Aspose.Pdf – C#-guide](./how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/)
+Lär dig hur du verifierar en digital signatur i PDF-filer med Aspose.Pdf i C#.
+### [Hur man extraherar signaturer från en PDF i C# – En steg‑för‑steg‑guide](./how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/)
+Lär dig hur du extraherar signaturer från en PDF med C# och Aspose.PDF. En detaljerad steg‑för‑steg‑guide för att hämta signaturdata.
+
+### [Kontrollera PDF-signatur i C# – Validera digital PDF‑signatur](./check-pdf-signature-in-c-validate-digital-signature-pdf/)
+Lär dig hur du validerar en digital PDF‑signatur i C# med en tydlig steg‑för‑steg‑guide.
+### [Hur man läser signaturer i PDF med C# – Steg‑för‑steg‑guide](./how-to-read-signatures-in-pdf-with-c-step-by-step-guide/)
+Lär dig hur du läser digitala signaturer i PDF-filer med C#. Den här guiden visar steg-för-steg hur du extraherar och analyserar signaturdata.
 
 ### [Lägg till digital signatur i PDF med C# – Komplett guide](./add-digital-signature-pdf-in-c-complete-guide/)
 Lär dig steg-för-steg hur du lägger till en digital signatur i PDF-filer med C# i en komplett guide.
