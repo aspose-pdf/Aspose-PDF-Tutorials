@@ -16,7 +16,6 @@
 Lär dig hur du bygger högpresterande PDF-behandlingsprogram med våra Aspose.PDF-optimeringshandledningar för .NET. Dessa praktiska guider demonstrerar tekniker för effektiv minneshantering, förbättringar av exekveringstider och strategier för att hantera stora PDF-dokument effektivt. Varje handledning innehåller detaljerade C#-kodexempel och bästa praxis för att optimera kritiska prestandaaspekter, vilket säkerställer att dina applikationer förblir responsiva och tillförlitliga även när du arbetar med stora PDF-dokument.
 
 ## Tillgängliga handledningar
-
 ### [Omfattande guide till PDF-optimering i .NET med Aspose.PDF](./aspose-pdf-dotnet-optimization-guide/)
 Lär dig hur du optimerar PDF-filer med Aspose.PDF för .NET, vilket säkerställer effektiv resursanvändning och dokument av hög kvalitet. Bemästra GSave/GRestore-operationer och XForm-grafikhantering.
 
@@ -49,6 +48,22 @@ Bemästra konsten att konvertera SVG-filer till PDF-filer med precision och effe
 
 ### [Avbädda teckensnitt i PDF-filer med Aspose.PDF för .NET: Minska filstorleken och förbättra prestandan](./optimize-pdfs-unembed-fonts-aspose-pdf-net/)
 Lär dig hur du tar bort inbäddade teckensnitt från dina PDF-filer med Aspose.PDF för .NET. Optimera PDF-prestanda, minska filstorleken och förbättra laddningstiderna med den här steg-för-steg-guiden.
+
+### [Skapa optimerad PDF – komprimera PDF-bilder med förlustfri JPEG](./create-optimized-pdf-compress-pdf-images-with-lossless-jpeg/)
+Lär dig hur du skapar optimerade PDF-filer genom att komprimera bilder med förlustfri JPEG för minskad filstorlek utan kvalitetsförlust.
+
+### [Hur man optimerar PDF i C# – Lägg till tom sida, exportera HTML, signera](./how-to-optimize-pdf-in-c-add-blank-page-export-html-sign/)
+Lär dig hur du optimerar PDF-filer i C# genom att lägga till tomma sidor, exportera till HTML och signera dokument med Aspose.PDF.
+
+### [Optimera PDF-bilder – minska PDF-filstorlek med C#](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
+Lär dig hur du optimerar bilder i PDF-filer och minskar filstorleken med C# och Aspose.PDF.
+### [Hur du komprimerar PDF med Aspose – Snabb C#-guide](./how-to-compress-pdf-with-aspose-quick-c-guide/)
+Lär dig snabbt att komprimera PDF-filer med Aspose i C#, förbättra filstorlek och prestanda med enkla steg.
+
+### [Spara optimerad PDF i C# – Minska storlek och rensa sidor](./save-optimized-pdf-in-c-reduce-size-clean-pages/)
+Lär dig hur du sparar en optimerad PDF i C#, minskar filstorleken och tar bort onödiga sidor för bättre prestanda.
+### [Hur du komprimerar PDF med Aspose.PDF – snabbguide](./how-to-compress-pdf-with-aspose-pdf-quick-guide/)
+Lär dig snabbt hur du komprimerar PDF-filer med Aspose.PDF för .NET för att minska filstorlek och förbättra prestanda.
 
 ## Ytterligare resurser
 

@@ -44,6 +44,8 @@
 ### [ارسم أشكالًا شفافة في ملفات PDF باستخدام Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 برنامج تعليمي لبرمجة Aspose.PDF Net
 
+### [إضافة الشفافية إلى ملفات PDF باستخدام Aspose PDF في C# – دليل خطوة بخطوة](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+
 ### [التعرف على صور PDF بكفاءة باستخدام Aspose.PDF لـ .NET](./master-image-identification-aspose-pdf-net/)
 تعرّف على كيفية تحديد صور تدرجات الرمادي وألوان RGB في ملفات PDF باستخدام Aspose.PDF لـ .NET. يغطي هذا البرنامج التعليمي التثبيت، واستخراج الصور، ونصائح الأداء.
 

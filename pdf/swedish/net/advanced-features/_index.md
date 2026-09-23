@@ -23,6 +23,9 @@ Lär dig hur du kommer åt och ändrar underordnade element i taggade PDF-filer 
 ### [Lägg till färgade linjelager till PDF-filer med Aspose.PDF för .NET: En omfattande guide](./add-colored-lines-pdfs-using-aspose-pdf-net/)
 Lär dig hur du förbättrar dina PDF-dokument genom att lägga till färgade linjelager med Aspose.PDF för .NET. Den här guiden ger steg-för-steg-instruktioner och praktiska tillämpningar.
 
+### [Redigera PDF-transparens i C# – Steg‑för‑steg‑guide](./edit-pdf-transparency-in-c-step-by-step-guide/)
+Lär dig hur du redigerar transparens i PDF-filer med C# och Aspose.PDF i en tydlig steg‑för‑steg‑guide.
+
 ### [Aspose.PDF .NET: Förbättra PDF-tillgängligheten genom taggning](./aspose-pdf-net-accessible-tagging-guide/)
 Lär dig hur du använder Aspose.PDF .NET för tillgänglig taggning i PDF-filer. Ställ enkelt in titlar, språk och logiska strukturer.
 
@@ -64,6 +67,9 @@ Lär dig skapa tillgängliga, formaterade taggade PDF-dokument med Aspose.PDF f�
 
 ### [Hur man jämför PDF-filer i C# – En komplett guide för att generera PDF-diff](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 Lär dig att jämföra PDF-dokument i C# och generera diff-filer med Aspose.PDF för .NET.
+
+### [Hur du kör OCR på PDF med Aspose.Pdf – Komplett C#-guide](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
+Lär dig hur du använder Aspose.Pdf för att köra OCR på PDF-filer med C#, inklusive steg-för-steg-instruktioner och kodexempel.
 
 ## Ytterligare resurser
 

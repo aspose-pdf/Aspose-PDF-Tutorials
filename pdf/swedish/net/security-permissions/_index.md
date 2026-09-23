@@ -68,6 +68,9 @@ Lär dig hur du låser upp och dekrypterar skyddade PDF-filer med Aspose.PDF fö
 ### [Verifiera PDF-lösenord med Aspose.PDF .NET: En steg-för-steg-guide för säkerhet och behörigheter](./verify-pdf-passwords-aspose-dot-net-guide/)
 Lär dig hur du verifierar PDF-lösenord med Aspose.PDF för .NET i C#. Den här omfattande guiden förenklar dokumentsäkerhet och åtkomstkontroll.
 
+### [Applicera redigering på PDF med Aspose Plugin Manager – En komplett guide](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
+Lär dig hur du använder Aspose Plugin Manager för att applicera redigering på PDF-dokument med steg-för-steg‑kodexempel.
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

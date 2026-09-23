@@ -16,7 +16,6 @@
 .NET'te PDF/A uyumluluğu için kapsamlı Aspose.PDF eğitimlerimizle arşiv kalitesinde PDF belgeleri oluşturmayı öğrenin. Bu ayrıntılı kılavuzlar PDF/A-1b, PDF/A-2b ve PDF/A-3b uyumlu belgelerin nasıl oluşturulacağını, mevcut PDF'lerin uyumluluk standartlarına göre nasıl doğrulanacağını, standart PDF'lerin arşiv formatına nasıl dönüştürüleceğini ve yaygın uyumluluk sorunlarının nasıl giderileceğini gösterir. Her eğitim, uluslararası standartları karşılayan uzun vadeli koruma belgeleri üreten uygulamalar oluşturmanıza yardımcı olarak arşiv belge senaryoları için çalışan C# kod örnekleri sağlar.
 
 ## Mevcut Eğitimler
-
 ### [Aspose.PDF .NET: Ekler Ekle ve PDF/A'ya Dönüştür](./aspose-pdf-net-add-attachments-convert-pdfa/)
 Aspose.PDF Net için bir kod öğreticisi
 
@@ -38,6 +37,13 @@ Aspose.PDF for .NET kullanarak standart PDF belgelerini sağlam PDF/X-4 formatı
 ### [C# ile .NET için Aspose.PDF kullanarak PDF/A Doğrulamada Ustalaşın](./master-pdfa-validation-aspose-pdf-net/)
 Aspose.PDF .NET kullanarak PDF belgelerini PDF/A standartlarına göre nasıl doğrulayacağınızı öğrenin. Adım adım kılavuzumuzla uyumluluğu sağlayın ve belge güvenilirliğini artırın.
 
+### [C# ile PDF'yi PDF/A'ya Dönüştür – Adım Adım Kılavuz](./convert-pdf-to-pdf-a-in-c-step-by-step-guide/)
+C# ve Aspose.PDF kullanarak PDF dosyalarını PDF/A standartlarına uygun şekilde dönüştürmeyi adım adım öğrenin.
+
+### [C# ile PDF/A Dosyası Oluşturma – Tam Dönüşüm Öğreticisi](./create-pdf-a-file-in-c-full-conversion-tutorial/)
+C# kullanarak PDF/A dosyası oluşturmayı ve tam dönüşüm sürecini adım adım öğrenin.
+### [C# ile PDF/A Nasıl Oluşturulur – Adım Adım Aspose Kılavuzu](./how-to-create-pdf-a-in-c-step-by-step-aspose-guide/)
+Aspose.PDF for .NET kullanarak C# ile PDF/A uyumlu belgeler oluşturmayı adım adım öğrenin.
 ### [C# ile PDF'yi PDF/A'ya Dönüştür – Tam Adım Adım Kılavuz](./convert-pdf-to-pdf-a-in-c-complete-step-by-step-guide/)
 C# ve Aspose.PDF for .NET kullanarak PDF dosyalarını PDF/A uyumlu belgelere nasıl dönüştüreceğinizi adım adım öğrenin.
 

@@ -1,0 +1,7 @@
+Title: How to Sign PDF in C# – Complete Guide with Aspose
+Slug: how-to-sign-pdf-in-c-complete-guide-with-aspose
+Category: digital-signatures
+ProcessedDate: 2026-06-09T04:16:55.478061
+SourceRepo: AI Search API
+Keywords: how to sign pdf, add digital signature pdf, sign pdf with certificate, create pkcs7 detached signature, load pdf document c#
+PRNumber: 89

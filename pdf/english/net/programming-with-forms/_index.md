@@ -24,7 +24,8 @@ These tutorials also provide detailed code examples, clear explanations, and ill
 | [Add Tooltip To Field](./add-tooltip-to-field/) | Learn how to add tooltips to form fields in PDF documents using Aspose.PDF for .NET in this step-by-step guide. Improve usability and user experience. |  
 | [Arabic Text Filling](./arabic-text-filling/) | Learn how to fill Arabic text in PDF forms using Aspose.PDF for .NET with this step-by-step tutorial. Enhance your PDF manipulation skills. |  
 | [Combo Box](./combo-box/) | Learn how to add a Combo Box to a PDF using Aspose.PDF for .NET. Follow our step-by-step guide to create interactive PDF forms easily. |  
-| [Create Document](./create-doc/) | Learn to create interactive PDF documents with radio buttons using Aspose.PDF for .NET in this comprehensive step-by-step guide. |  
+| [Create Document](./create-doc/) | Learn to create interactive PDF documents with radio buttons using Aspose.PDF for .NET in this comprehensive step-by-step guide. |
+| [Create PDF Document with Multiple Widgets – Step‑by‑Step Guide](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) | Learn how to create a PDF with multiple form widgets using Aspose.PDF for .NET in this step‑by‑step guide. |
 | [Create PDF Document with Aspose – Add Text Box Field](./create-pdf-document-with-aspose-add-text-box-field/) | Learn how to create a PDF document and add a text box field using Aspose.PDF for .NET in this step-by-step guide. |  
 | [Delete Form Field In PDF Document](./delete-form-field/) | Learn how to delete form fields in PDF documents using Aspose.PDF for .NET with this step-by-step guide. Perfect for developers and PDF enthusiasts. |  
 | [Determine Required Field In PDF Form](./determine-required-field/) | Learn how to determine required fields in a PDF form using Aspose.PDF for .NET. Our step-by-step guide simplifies form management and enhances your PDF automation workflow. |  
@@ -40,7 +41,7 @@ These tutorials also provide detailed code examples, clear explanations, and ill
 | [Get XFAProperties](./get-xfaproperties/) | Learn how to retrieve XFA properties using Aspose.PDF for .NET in this comprehensive tutorial. Step-by-step guide included. |  
 | [Grouped Check Boxes In PDF Document](./grouped-check-boxes/) | Learn how to create grouped checkboxes (radio buttons) in a PDF document using Aspose.PDF for .NET with this step-by-step tutorial. |  
 | [Horizontally And Vertically Radio Buttons](./horizontally-and-vertically-radio-buttons/) | Learn how to create horizontally and vertically aligned radio buttons in PDF using Aspose.PDF for .NET with this step-by-step tutorial. |  
-| [How to Create PDF with Aspose – Add Form Field and Pages](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Learn how to create a PDF, add form fields, and insert pages using Aspose.PDF for .NET in this step-by-step tutorial. |
+| [How to Create PDF with Aspose – Add Field to Collection](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Learn how to add a field to a collection in a PDF using Aspose.PDF for .NET in this step-by-step guide. |
 | [Modify Form Field In PDF Document](./modify-form-field/) | Learn how to modify form fields in PDF documents using Aspose.PDF for .NET with this step-by-step guide. Perfect for developers looking to enhance PDF functionality. |  
 | [Move Form Field](./move-form-field/) | Learn how to move form fields in PDF documents using Aspose.PDF for .NET with this guide. Follow this detailed tutorial to modify text box locations easily. |  
 | [Preserve Rights](./preserve-rights/) | Preserve form rights in your PDF documents with Aspose.PDF for .NET. |  
@@ -52,6 +53,7 @@ These tutorials also provide detailed code examples, clear explanations, and ill
 | [Set Java Script](./set-java-script/) | Unlock the power of Aspose.PDF for .NET. Learn how to set up JavaScript on form fields with our step-by-step guide. |  
 | [Set Radio Button Caption](./set-radio-button-caption/) | Learn how to set radio button captions in PDFs using Aspose.PDF for .NET. This step-by-step guide walks you through loading, modifying, and saving your PDF forms. |  
 | [Text Box](./text-box/) | Discover how to effortlessly add text boxes to PDFs using Aspose.PDF for .NET with this step-by-step guide. Enhance user interaction. |  
+| [Create PDF with Pages and Text Box Fields – Full C# Guide](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Learn how to create a PDF with multiple pages and add text box fields using Aspose.PDF for .NET in this comprehensive C# guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -60,3 +62,7 @@ These tutorials also provide detailed code examples, clear explanations, and ill
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Add Bates Numbers to PDFs – Step‑by‑Step C# Guide](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Learn how to add Bates numbers to PDFs using Aspose.PDF for .NET in this step‑by‑step C# guide. |
+| [Create PDF Document with Multiple TextBox Widgets – Step‑by‑Step Guide](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Learn how to create a PDF with multiple TextBox widgets using Aspose.PDF for .NET in this step‑by‑step guide. |
+| [How to Create PDF with Aspose – Add Form Field and Pages](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Learn how to create a PDF, add form fields, and insert pages using Aspose.PDF for .NET in this step-by-step tutorial. |
+| [How to Add Text Box PDF – Create PDF Form Field & Save Edited PDF Document](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Learn how to add a text box to a PDF form and save the edited document using Aspose.PDF for .NET in this step-by-step guide. |  

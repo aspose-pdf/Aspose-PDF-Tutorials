@@ -23,6 +23,9 @@ Tutorial kode untuk Aspose.PDF Net
 ### [Konversi PDF ke PDF/A Menggunakan Aspose.PDF .NET: Panduan Langkah demi Langkah untuk Kepatuhan](./convert-pdf-to-pdfa-aspose-dotnet-guide/)
 Pelajari cara mengonversi PDF biasa menjadi dokumen yang sesuai dengan PDF/A-1b dengan Aspose.PDF .NET. Pastikan kualitas dan kepatuhan arsip melalui panduan terperinci dan langkah demi langkah ini.
 
+### [Mengonversi PDF ke PDF/A dalam C# – Panduan Langkah demi Langkah](./convert-pdf-to-pdf-a-in-c-step-by-step-guide/)
+Pelajari cara mengonversi file PDF menjadi PDF/A menggunakan C# dengan Aspose.PDF, lengkap dengan contoh kode dan langkah-langkah praktis.
+
 ### [Konversi PDF ke PDF/A-3B dengan Aspose.PDF untuk .NET](./convert-pdf-to-pdfa-3b-aspose-net/)
 Tutorial kode untuk Aspose.PDF Net
 
@@ -38,6 +41,10 @@ Pelajari cara memvalidasi kepatuhan PDF/A-1a menggunakan Aspose.PDF untuk .NET. 
 ### [Validasi Master PDF/A Menggunakan Aspose.PDF untuk .NET di C#](./master-pdfa-validation-aspose-pdf-net/)
 Pelajari cara memvalidasi dokumen PDF terhadap standar PDF/A menggunakan Aspose.PDF .NET. Pastikan kepatuhan dan tingkatkan keandalan dokumen dengan panduan langkah demi langkah kami.
 
+### [Buat File PDF/A di C# – Tutorial Konversi Lengkap](./create-pdf-a-file-in-c-full-conversion-tutorial/)
+Pelajari cara membuat file PDF/A lengkap dari awal hingga akhir menggunakan Aspose.PDF untuk .NET dalam C#.
+### [Cara Membuat PDF/A di C# – Panduan Langkah demi Langkah Aspose](./how-to-create-pdf-a-in-c-step-by-step-aspose-guide/)
+Pelajari cara membuat PDF/A menggunakan C# dengan panduan langkah demi langkah dari Aspose, termasuk contoh kode lengkap.
 ### [Konversi PDF ke PDF/A dalam C# – Panduan Lengkap Langkah demi Langkah](./convert-pdf-to-pdf-a-in-c-complete-step-by-step-guide/)
 Pelajari cara mengonversi PDF ke PDF/A menggunakan C# dengan contoh kode lengkap dan langkah-langkah detail.
 

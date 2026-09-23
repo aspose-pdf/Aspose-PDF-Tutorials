@@ -51,6 +51,16 @@ Te samouczki zawierają również szczegółowe przykłady kodu, jasne wyjaśnie
 | [Ustaw podpis przycisku radiowego](./set-radio-button-caption/) Dowiedz się, jak ustawić podpisy przycisków radiowych w plikach PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik krok po kroku przeprowadzi Cię przez ładowanie, modyfikowanie i zapisywanie formularzy PDF. |
 | [Pole tekstowe](./text-box/) | Dowiedz się, jak bez wysiłku dodawać pola tekstowe do plików PDF za pomocą Aspose.PDF dla .NET dzięki temu przewodnikowi krok po kroku. Ulepsz interakcję użytkownika. |
 | [Jak utworzyć PDF przy użyciu Aspose – Dodaj pole formularza i strony](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Dowiedz się, jak tworzyć pliki PDF, dodawać pola formularzy i zarządzać stronami przy użyciu Aspose.PDF dla .NET w tym przewodniku krok po kroku. |
+| [Utwórz dokument PDF z wieloma widżetami – przewodnik krok po kroku](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) | Dowiedz się, jak tworzyć dokumenty PDF z wieloma widżetami przy użyciu Aspose.PDF dla .NET w tym przewodniku krok po kroku. |
+| [Utwórz PDF z stronami i polami tekstowymi – Pełny przewodnik C#](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Dowiedz się, jak tworzyć pliki PDF z wieloma stronami i polami tekstowymi przy użyciu Aspose.PDF dla .NET w pełnym przewodniku C#. |
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+| [Jak utworzyć PDF przy użyciu Aspose – Dodaj pole do kolekcji](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Dowiedz się, jak dodać pole do kolekcji w dokumencie PDF przy użyciu Aspose.PDF dla .NET w tym przewodniku krok po kroku. |  
 | [Utwórz dokument PDF z Aspose – Dodaj pole tekstowe](./create-pdf-document-with-aspose-add-text-box-field/) | Dowiedz się, jak dodać pole tekstowe do dokumentu PDF przy użyciu Aspose.PDF dla .NET w tym przewodniku krok po kroku. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -60,3 +70,15 @@ Te samouczki zawierają również szczegółowe przykłady kodu, jasne wyjaśnie
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Utwórz dokument PDF z wieloma widżetami pola tekstowego – przewodnik krok po kroku](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Dowiedz się, jak w C# przy użyciu Aspose.PDF dla .NET tworzyć dokument PDF zawierający wiele pól tekstowych, krok po kroku. |
+| [Dodaj numery Bates do plików PDF – przewodnik krok po kroku w C#](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Dowiedz się, jak dodać numery Bates do dokumentów PDF przy użyciu Aspose.PDF dla .NET w języku C# – kompletny przewodnik krok po kroku. |
+| [Jak dodać pole tekstowe PDF – Utwórz pole formularza PDF i zapisz edytowany dokument PDF](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Dowiedz się, jak dodać pole tekstowe do formularza PDF i zapisać zmodyfikowany dokument przy użyciu Aspose.PDF dla .NET. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

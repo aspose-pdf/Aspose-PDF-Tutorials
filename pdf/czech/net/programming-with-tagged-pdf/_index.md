@@ -45,6 +45,8 @@ Výukové programy „Programování s tagovanými PDF“ v knihovně Aspose.PDF
 | [Prvky textové struktury v souboru PDF](./text-structure-elements/) Naučte se manipulovat s prvky textové struktury v PDF pomocí Aspose.PDF pro .NET. Tato podrobná příručka zahrnuje vše, co potřebujete k vytvoření strukturovaných PDF. |  
 | [Ověřit PDF soubor](./validate-pdf/) | Naučte se, jak ověřit soubor PDF pomocí Aspose.PDF pro .NET. Zkontrolujte jeho soulad se standardy a vygenerujte ověřovací zprávu. |  
 | [Vytvořit tagovaný PDF v C# – Kompletní průvodce krok za krokem](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Naučte se, jak pomocí Aspose.PDF pro .NET vytvořit tagovaný PDF soubor v C# pomocí podrobného krok‑za‑krokem návodu. |  
+| [Vytvořit tagovaný PDF v C# – Kompletní průvodce Aspose PDF](./create-tagged-pdf-in-c-aspose-pdf-complete-guide/) | Naučte se, jak pomocí Aspose.PDF pro .NET vytvořit tagovaný PDF v C# podle podrobného průvodce. |  
+| [Vytvořit tagovaný PDF v C# – Průvodce krok za krokem](./create-tagged-pdf-in-c-step-by-step-guide/) | Naučte se vytvořit tagovaný PDF v C# pomocí Aspose.PDF pro .NET v podrobném průvodci krok za krokem. |  
 | [Vytvořit PDF dokument – Nastavit absolutní pozici pro tagovaný text](./create-pdf-document-set-absolute-position-for-tagged-text/) | Naučte se, jak nastavit absolutní pozici pro tagovaný text v PDF dokumentu pomocí Aspose.PDF pro .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -54,3 +56,7 @@ Výukové programy „Programování s tagovanými PDF“ v knihovně Aspose.PDF
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Jak označit PDF pomocí Aspose – Kompletní průvodce tagy přístupnosti PDF](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) | Kompletní průvodce, jak pomocí Aspose.PDF pro .NET označit PDF soubory tagy pro zajištění přístupnosti. |  
+| [Zpřístupněte PDF pomocí Aspose: Vložení odstavce PDF krok za krokem](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Naučte se, jak pomocí Aspose.PDF pro .NET vložit odstavce do PDF a zlepšit přístupnost dokumentu. |  
+| [Vytvořit tagovaný PDF v C# – Přidat nadpis a přístupný text](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Naučte se vytvořit tagovaný PDF v C# s nadpisem a přístupným textem pomocí Aspose.PDF pro .NET. |  
+| [Vytvořit přístupný PDF s Aspose.Pdf – krok za krokem](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Naučte se, jak pomocí Aspose.PDF pro .NET vytvořit plně přístupný PDF dokument podle standardů PDF/UA. |  

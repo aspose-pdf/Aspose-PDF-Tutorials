@@ -16,7 +16,6 @@
 Naučte se vytvářet dokumenty PDF v archivní kvalitě s našimi komplexními tutoriály Aspose.PDF pro shodu s PDF/A v .NET. Tyto podrobné průvodce ukazují, jak vytvářet dokumenty kompatibilní s PDF/A-1b, PDF/A-2b a PDF/A-3b, ověřit stávající PDF soubory podle standardů shody, převést standardní PDF soubory do archivního formátu a řešit běžné problémy s dodržováním předpisů. Každý tutoriál poskytuje funkční příklady kódu C# pro scénáře archivních dokumentů, které vám pomohou vytvářet aplikace, které produkují dokumenty pro dlouhodobé uchování splňující mezinárodní standardy.
 
 ## Dostupné tutoriály
-
 ### [Aspose.PDF .NET: Přidání příloh a převod do PDF/A](./aspose-pdf-net-add-attachments-convert-pdfa/)
 Výukový program pro kódování Aspose.PDF Net
 
@@ -38,6 +37,13 @@ Naučte se, jak ověřit shodu s PDF/A-1a pomocí Aspose.PDF pro .NET. Tato př�
 ### [Validace PDF/A pomocí Aspose.PDF pro .NET v C#](./master-pdfa-validation-aspose-pdf-net/)
 Naučte se, jak ověřovat PDF dokumenty podle standardů PDF/A pomocí Aspose.PDF .NET. Zajistěte shodu s předpisy a zvyšte spolehlivost dokumentů s naším podrobným návodem.
 
+### [Převod PDF na PDF/A v C# – krok za krokem](./convert-pdf-to-pdf-a-in-c-step-by-step-guide/)
+Naučte se, jak v C# pomocí Aspose.PDF převést PDF soubory do formátu PDF/A pomocí podrobného průvodce krok za krokem.
+
+### [Vytvoření souboru PDF/A v C# – Kompletní průvodce konverzí](./create-pdf-a-file-in-c-full-conversion-tutorial/)
+Naučte se, jak v C# pomocí Aspose.PDF vytvořit PDF/A soubor a provést kompletní konverzi od začátku až do konce.
+### [Jak vytvořit PDF/A v C# – krok za krokem průvodce Aspose](./how-to-create-pdf-a-in-c-step-by-step-aspose-guide/)
+Naučte se, jak pomocí Aspose.PDF pro .NET vytvořit PDF/A dokumenty v C# krok za krokem.
 ### [Převod PDF na PDF/A v C# – Kompletní průvodce krok za krokem](./convert-pdf-to-pdf-a-in-c-complete-step-by-step-guide/)
 Naučte se, jak v C# převést PDF soubory na PDF/A pomocí Aspose.PDF .NET pomocí podrobného krok‑za‑krokem návodu.
 

@@ -64,6 +64,11 @@ Apprenez à créer des documents PDF balisés, accessibles et stylisés avec Asp
 
 ### [Comment comparer des PDF en C# – Guide complet pour générer un diff PDF](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 Apprenez à comparer deux documents PDF en C# et à générer un fichier de différences PDF avec Aspose.PDF.
+### [Modifier la transparence d'un PDF en C# – Guide étape par étape](./edit-pdf-transparency-in-c-step-by-step-guide/)
+Apprenez à modifier la transparence des objets PDF en C# avec Aspose.PDF, grâce à un guide détaillé pas à pas.
+
+### [Comment exécuter l'OCR sur un PDF avec Aspose.PDF – Guide complet C#](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
+Apprenez à appliquer la reconnaissance optique de caractères (OCR) aux fichiers PDF en C# avec Aspose.PDF, étape par étape.
 
 ## Ressources supplémentaires
 

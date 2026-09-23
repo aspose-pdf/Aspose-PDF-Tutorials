@@ -1,0 +1,7 @@
+Title: Convert PDF to PDF/X-1A – How to Create PDF/X-1A Document
+Slug: convert-pdf-to-pdf-x-1a-how-to-create-pdf-x-1a-document
+Category: pdfa-compliance
+ProcessedDate: 2026-07-01T02:50:41.187976
+SourceRepo: AI Search API
+Keywords: convert pdf to pdf/x-1a, create pdf/x-1a document
+PRNumber: 98
