@@ -34,7 +34,15 @@
 | [Подпишите с помощью смарт-карты, используя подпись в файле PDF](./sign-with-smart-card-using-pdf-file-signature/) | Узнайте, как подписывать файлы PDF с помощью смарт-карты с Aspose.PDF для .NET. Следуйте этому пошаговому руководству для безопасных цифровых подписей. |  
 | [Подпишите с помощью смарт-карты, используя поле подписи](./sign-with-smart-card-using-signature-field/) | Узнайте, как безопасно подписывать PDF-файлы с помощью смарт-карты с помощью Aspose.PDF для .NET. Следуйте нашему пошаговому руководству для легкой реализации. |  
 | [Проверка подписей PDF в C# – Как читать подписанные PDF-файлы](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Узнайте, как проверять подписи PDF и читать подписанные файлы с помощью Aspose.PDF для .NET на C#. |  
-| [Как восстановить PDF-файлы – Полное руководство на C# с Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Узнайте, как восстанавливать поврежденные PDF-файлы с помощью Aspose.PDF для .NET. Пошаговое руководство на C#. |  
+| [Проверка PDF на подписи – Как перечислить подписи в C# с помощью Aspose.PDF](./check-pdf-for-signatures-how-to-list-signatures-in-c-with-as/) | Узнайте, как перечислить подписи в PDF с помощью Aspose.PDF для .NET на C#. |
+| [Как проверить подпись в PDF с помощью C# – Полное руководство Aspose](./how-to-verify-signature-in-pdf-using-c-complete-aspose-guide/) | Узнайте, как проверять подписи PDF в C# с помощью Aspose.PDF для .NET. Пошаговое руководство для разработчиков. |  
+| [Добавить цифровую подпись PDF в C# – Полное пошаговое руководство](./add-digital-signature-pdf-in-c-complete-step-by-step-guide/) | Узнайте, как добавить цифровую подпись в PDF с помощью Aspose.PDF для .NET на C#. Полное пошаговое руководство. |  
+| [Проверка подписей PDF в C# – Быстрое руководство по проверке цифровых подписей](./check-pdf-signatures-in-c-quick-guide-to-verify-digital-sign/) | Узнайте, как быстро проверять цифровые подписи PDF в C# с помощью Aspose.PDF. |  
+| [Проверка цифровой подписи PDF в C# с Aspose.Pdf](./verify-pdf-digital-signature-in-c-with-aspose-pdf/) | Узнайте, как проверять цифровую подпись PDF в C# с помощью Aspose.PDF для .NET. Пошаговое руководство для разработчиков. |  
+| [Загрузка сертификата PFX C# – Создание отделенной подписи PKCS7](./load-pfx-certificate-c-create-pkcs7-detached-signature/) | Узнайте, как загрузить сертификат PFX в C# и создать отделенную подпись PKCS7 с помощью Aspose.PDF. |  
+| [Учебник по подписи PDF: проверка цифровой подписи PDF в C#](./pdf-signature-tutorial-verify-a-pdf-s-digital-signature-in-c/) | Узнайте, как проверять цифровую подпись PDF в C# с помощью Aspose.PDF для .NET. Пошаговое руководство для разработчиков. |  
+| [Проверка цифровой подписи PDF в C# – Полное руководство Aspose.PDF](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) | Узнайте, как проверять цифровые подписи PDF в C# с помощью Aspose.PDF, пошаговое руководство. |  
+| [Настройка сервера CA в C# – Полное руководство по проверке подписей Word‑документов](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) | Узнайте, как настроить сервер CA в C# и проверять подписи Word‑документов с помощью Aspose.Words для .NET. |
 | [Проверка цифровой подписи PDF – Полное руководство на C#](./validate-pdf-digital-signature-complete-c-guide/) | Узнайте, как проверять цифровые подписи PDF с помощью Aspose.PDF для .NET на C#. Пошаговое руководство. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -44,3 +52,37 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Проверка подписи PDF в C# – Полное пошаговое руководство](./verify-pdf-signature-in-c-complete-step-by-step-guide/) | Узнайте, как проверять цифровые подписи PDF в C# с помощью Aspose.PDF для .NET, следуя подробному пошаговому руководству. |  
+| [Открыть подписанный PDF – как прочитать его цифровые подписи](./open-signed-pdf-how-to-read-its-digital-signatures/) | Узнайте, как открыть подписанный PDF и прочитать его цифровые подписи с помощью Aspose.PDF для .NET. Пошаговое руководство. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+| [Как проверить подписи в PDF с помощью Aspose – C#](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) | Узнайте, как проверять подписи в PDF-файлах с помощью Aspose.PDF для .NET на C#. Пошаговое руководство для обеспечения подлинности документов. |  
+| [Проверка подписи PDF в C# – Полное руководство по программированию](./verify-pdf-signature-in-c-complete-programming-guide/) | Узнайте, как проверять подписи PDF в C# с помощью Aspose.PDF для .NET. Полное пошаговое руководство. |  
+| [Как восстановить PDF-файлы – Полное руководство на C# с Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Узнайте, как восстанавливать поврежденные PDF-файлы с помощью Aspose.PDF для .NET. Пошаговое руководство на C#. |  
+| [Как проверить подписи PDF в C# – Полное пошаговое руководство](./how-to-verify-pdf-signatures-in-c-complete-step-by-step-guid/) | Узнайте, как проверять подписи PDF в C# с помощью Aspose.PDF для .NET. Пошаговое руководство для обеспечения подлинности документов. |  
+| [Как проверить подпись в PDF с помощью Aspose – Руководство](./how-to-verify-signature-in-pdf-using-aspose-guide/) | Узнайте, как проверять подписи в PDF-файлах с помощью Aspose.PDF для .NET в этом пошаговом руководстве. |  
+| [Как проверить подписи PDF с помощью Aspose.PDF – Полное руководство](./how-to-verify-pdf-signatures-with-aspose-pdf-complete-guide/) | Подробное руководство по проверке цифровых подписей PDF с использованием Aspose.PDF для .NET. |  
+| [Проверка цифровой подписи PDF в C# – Полное руководство](./verify-pdf-digital-signature-in-c-complete-guide/) | Узнайте, как проверять цифровые подписи PDF в C# с помощью Aspose.PDF для .NET. Пошаговое руководство для разработчиков. |  
+| [Создать обработчик подписи PDF – Список подписей в C#](./create-pdf-signature-handler-list-signatures-in-c/) | Узнайте, как создать обработчик подписи PDF и получить список подписей в документе с помощью Aspose.PDF для .NET. |  
+| [Проверка подписи PDF в C# – Пошаговое руководство](./validate-pdf-signature-in-c-step-by-step-guide/) | Узнайте, как проверять подписи PDF в C# с помощью Aspose.PDF для .NET. Подробное пошаговое руководство. |  
+| [Загрузка PDF-документа C# – Полное руководство по чтению и перечислению подписей](./load-pdf-document-c-complete-guide-to-reading-and-listing-si/) | Узнайте, как загрузить PDF в C# с помощью Aspose.PDF, прочитать и перечислить цифровые подписи в документе. |
+| [Создать подписанный PDF в C# – пошаговое руководство](./create-signed-pdf-in-c-step-by-step-guide/) | Узнайте, как создать подписанный PDF в C# с помощью Aspose.PDF для .NET. Пошаговое руководство по добавлению цифровой подписи. |  
+| [Проверка подписи PDF в C# – пошаговое руководство](./verify-pdf-signature-in-c-step-by-step-guide/) | Узнайте, как проверять подписи PDF в C# с помощью Aspose.PDF для .NET. Пошаговое руководство для обеспечения подлинности документов. |  
+| [Как использовать OCSP для проверки цифровой подписи PDF в C#](./how-to-use-ocsp-to-validate-pdf-digital-signature-in-c/) | Узнайте, как использовать протокол OCSP для проверки цифровой подписи PDF в C# с помощью Aspose.PDF для .NET. |  
+| [Проверка подписи PDF с Aspose.Pdf – пошаговое руководство](./verify-pdf-signature-with-aspose-pdf-step-by-step-guide/) | Узнайте, как проверять цифровые подписи PDF-файлов с помощью Aspose.PDF для .NET в подробном пошаговом руководстве. |  
+| [Как проверить PDF – Полное руководство на C# по цифровым подписям](./how-to-verify-pdf-complete-c-guide-for-digital-signatures/) | Узнайте, как проверять цифровые подписи PDF-файлов с помощью Aspose.PDF для .NET в полном руководстве на C#. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

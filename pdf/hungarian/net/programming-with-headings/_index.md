@@ -21,7 +21,8 @@ Fedezze fel az Aspose.PDF for .NET funkcióit dedikált oktatóanyagok segítsé
 ## Oktatóanyagok
 | Cím | Leírás |
 | --- | --- | 
-| [Számstílus alkalmazása PDF fájlban](./apply-number-style/) | Tanulja meg, hogyan alkalmazhat különböző számstílusokat (római számok, betűrend) a PDF-címsorokra az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. |   
+| [Számstílus alkalmazása PDF fájlban](./apply-number-style/) | Tanulja meg, hogyan alkalmazhat különböző számstílusokat (római számok, betűrend) a PDF-címsorokra az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. |
+| [Címsor hozzáadása PDF-hez az Aspose segítségével – Teljes C# útmutató](./add-heading-to-pdf-with-aspose-complete-c-guide/) | Ismerje meg, hogyan adhat hozzá címsort PDF-hez C#-ban az Aspose.PDF for .NET segítségével ebben a részletes útmutatóban. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,0 +1,7 @@
+Title: How to add stamp pdf – Complete guide with auto‑fit text
+Slug: how-to-add-stamp-pdf-complete-guide-with-auto-fit-text
+Category: programming-with-stamps-and-watermarks
+ProcessedDate: 2026-07-01T02:50:44.644760
+SourceRepo: AI Search API
+Keywords: how to add stamp pdf, adjust font size to fit, auto‑fit text in pdf
+PRNumber: 98

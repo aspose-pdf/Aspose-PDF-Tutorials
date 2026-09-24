@@ -1,0 +1,7 @@
+Title: Add Rectangle to PDF with C# – Complete Programming Guide
+Slug: add-rectangle-to-pdf-with-c-complete-programming-guide
+Category: document-manipulation
+ProcessedDate: 2026-06-05T23:43:42.886199
+SourceRepo: AI Search API
+Keywords: add rectangle to pdf, draw rectangle on pdf, load existing pdf, edit pdf page, insert shape into pdf
+PRNumber: 87

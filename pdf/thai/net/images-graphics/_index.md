@@ -35,6 +35,9 @@
 ### [สร้างและเติมสี่เหลี่ยมในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET: คำแนะนำทีละขั้นตอน](./create-fill-rectangle-aspose-pdf-net/)
 เรียนรู้วิธีการสร้างและเติมสี่เหลี่ยมในเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ .NET คำแนะนำทีละขั้นตอนนี้ครอบคลุมทุกอย่างตั้งแต่การตั้งค่าจนถึงการใช้งานด้วย C#
 
+### [วิธีวาดสี่เหลี่ยมใน PDF ด้วย C# – คู่มือทีละขั้นตอน](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
+เรียนรู้วิธีวาดสี่เหลี่ยมในไฟล์ PDF ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET ผ่านคู่มือทีละขั้นตอนนี้
+
 ### [สร้างแสตมป์ PDF แบบกำหนดเองด้วย Aspose.PDF ใน .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.PDF Net
 
@@ -43,6 +46,9 @@
 
 ### [วาดรูปทรงโปร่งใสใน PDF ด้วย Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.PDF Net
+
+### [เพิ่มความโปร่งใสให้กับ PDF ด้วย Aspose PDF ใน C# – คู่มือทีละขั้นตอน](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+เรียนรู้วิธีเพิ่มความโปร่งใสให้กับไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนใน C#
 
 ### [การระบุรูปภาพ PDF ที่มีประสิทธิภาพด้วย Aspose.PDF สำหรับ .NET](./master-image-identification-aspose-pdf-net/)
 เรียนรู้วิธีระบุภาพโทนสีเทาและ RGB ใน PDF โดยใช้ Aspose.PDF สำหรับ .NET บทช่วยสอนนี้ครอบคลุมถึงการติดตั้ง การแยกภาพ และเคล็ดลับด้านประสิทธิภาพ

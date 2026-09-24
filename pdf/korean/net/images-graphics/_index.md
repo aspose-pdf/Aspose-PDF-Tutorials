@@ -35,6 +35,8 @@ Aspose.PDF for .NET을 사용하여 SVG 파일을 고품질 PDF로 원활하게 
 ### [Aspose.PDF for .NET을 사용하여 PDF에서 사각형 만들기 및 채우기: 단계별 가이드](./create-fill-rectangle-aspose-pdf-net/)
 Aspose.PDF for .NET을 사용하여 PDF 문서에 사각형을 만들고 채우는 방법을 알아보세요. 이 단계별 가이드에서는 C#을 사용하여 설정부터 구현까지 모든 것을 다룹니다.
 
+### [C#로 PDF에 사각형 그리기 – 단계별 가이드](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
+
 ### [.NET에서 Aspose.PDF를 사용하여 사용자 정의 PDF 스탬프 만들기](./create-custom-pdf-stamps-aspose-pdf-net/)
 Aspose.PDF Net에 대한 코드 튜토리얼
 
@@ -43,6 +45,9 @@ Aspose.PDF .NET을 사용하여 단락을 추출하고 강조 표시하여 시�
 
 ### [Aspose.PDF .NET을 사용하여 PDF에 투명한 모양 그리기](./draw-transparent-shapes-aspose-pdf-net/)
 Aspose.PDF Net에 대한 코드 튜토리얼
+
+### [C#에서 Aspose PDF를 사용하여 PDF에 투명도 추가: 단계별 가이드](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Aspose.PDF for .NET을 사용해 PDF에 투명 효과를 적용하는 방법을 단계별로 안내합니다.
 
 ### [.NET용 Aspose.PDF를 사용한 효율적인 PDF 이미지 식별](./master-image-identification-aspose-pdf-net/)
 Aspose.PDF for .NET을 사용하여 PDF에서 회색조 및 RGB 이미지를 식별하는 방법을 알아보세요. 이 튜토리얼에서는 설치, 이미지 추출 및 성능 향상 팁을 다룹니다.

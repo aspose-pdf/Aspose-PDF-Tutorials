@@ -51,6 +51,9 @@
 | [Ορισμός υπότιτλου κουμπιού ραδιοφώνου](./set-radio-button-caption/) Μάθετε πώς να ορίζετε λεζάντες για κουμπιά επιλογής σε PDF χρησιμοποιώντας το Aspose.PDF για .NET. Αυτός ο οδηγός βήμα προς βήμα σας καθοδηγεί στη φόρτωση, την τροποποίηση και την αποθήκευση των φορμών PDF. |  
 | [Πλαίσιο κειμένου](./text-box/) | Ανακαλύψτε πώς να προσθέτετε εύκολα πλαίσια κειμένου σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με αυτόν τον οδηγό βήμα προς βήμα. Βελτιώστε την αλληλεπίδραση του χρήστη. |  
 | [Πώς να δημιουργήσετε PDF με Aspose – Προσθήκη πεδίου φόρμας και σελίδων](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Μάθετε πώς να δημιουργήσετε PDF, να προσθέσετε πεδία φόρμας και να διαχειριστείτε σελίδες χρησιμοποιώντας το Aspose.PDF για .NET. |
+| [Δημιουργία εγγράφου PDF με πολλαπλά widgets – Οδηγός βήμα‑βήμα](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε ένα έγγραφο PDF με πολλαπλά widgets, προσθέτοντας και διαχειριζόμενοι στοιχεία φόρμας βήμα‑βήμα. |
+| [Δημιουργία PDF με σελίδες και πεδία κειμένου – Πλήρης οδηγός C#](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Μάθετε πώς να δημιουργήσετε PDF με πολλαπλές σελίδες και πεδία κειμένου χρησιμοποιώντας C# και Aspose.PDF για .NET. |
+| [Δημιουργία PDF εγγράφου με Aspose – Προσθήκη πεδίου κειμένου](./create-pdf-document-with-aspose-add-text-box-field/) | Μάθετε πώς να δημιουργήσετε PDF και να προσθέσετε πεδίο κειμένου χρησιμοποιώντας το Aspose.PDF για .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -59,3 +62,24 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Πώς να δημιουργήσετε PDF με το Aspose – Προσθήκη πεδίου σε συλλογή](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Μάθετε πώς να προσθέσετε ένα πεδίο σε μια συλλογή PDF χρησιμοποιώντας το Aspose.PDF για .NET σε αυτόν τον βήμα-βήμα οδηγό. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+| [Προσθήκη αριθμών Bates σε PDF – Οδηγός βήμα‑βήμα C#](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Μάθετε πώς να προσθέτετε αριθμούς Bates σε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET με οδηγό C# βήμα‑βήμα. |  
+| [Δημιουργία εγγράφου PDF με πολλαπλά πλαίσια κειμένου – Οδηγός βήμα‑βήμα](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Μάθετε πώς να δημιουργήσετε PDF με πολλαπλά πλαίσια κειμένου χρησιμοποιώντας το Aspose.PDF για .NET. |  
+| [Πώς να προσθέσετε πλαίσιο κειμένου PDF – Δημιουργία πεδίου φόρμας PDF & Αποθήκευση επεξεργασμένου εγγράφου PDF](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Μάθετε πώς να δημιουργείτε πλαίσιο κειμένου σε PDF, να προσθέτετε πεδία φόρμας και να αποθηκεύετε το επεξεργασμένο έγγραφο PDF. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

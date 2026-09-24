@@ -22,6 +22,7 @@
 | ชื่อเรื่อง | คำอธิบาย |
 - 
 - [นำรูปแบบตัวเลขมาใช้ในไฟล์ PDF](./apply-number-style/) | เรียนรู้วิธีการใช้รูปแบบตัวเลขต่างๆ (ตัวเลขโรมัน ตัวอักษร) กับหัวเรื่องใน PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้   
+- [เพิ่มหัวข้อใน PDF ด้วย Aspose – คู่มือ C# ฉบับสมบูรณ์](./add-heading-to-pdf-with-aspose-complete-c-guide/) | เรียนรู้วิธีเพิ่มหัวข้อในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ด้วยคู่มือ C# ฉบับสมบูรณ์
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

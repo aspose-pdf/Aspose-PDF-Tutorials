@@ -22,7 +22,7 @@ Deze tutorials bieden ook gedetailleerde codevoorbeelden, duidelijke uitleg en i
 | Titel | Beschrijving |
 | --- | --- | 
 | [Tooltip toevoegen aan veld](./add-tooltip-to-field/) | Leer in deze stapsgewijze handleiding hoe u tooltips toevoegt aan formuliervelden in PDF-documenten met Aspose.PDF voor .NET. Verbeter de bruikbaarheid en gebruikerservaring. |  
-| [Arabische tekst invullen](./arabic-text-filling/) | Leer hoe u Arabische tekst in PDF-formulieren kunt invullen met Aspose.PDF voor .NET met deze stapsgewijze tutorial. Verbeter uw vaardigheden in PDF-bewerking. |  
+| [Arabische tekst invullen](./arabic-text-filling/) | Leer hoe u Arabische tekst in PDF-formulieren kunt invullen met Aspose.PDF voor .NET met deze stap‑voor‑stap tutorial. Verbeter uw vaardigheden in PDF-bewerking. |  
 | [Keuzelijst](./combo-box/) Leer hoe u een keuzelijst met invoervak aan een PDF toevoegt met Aspose.PDF voor .NET. Volg onze stapsgewijze handleiding om eenvoudig interactieve PDF-formulieren te maken. |  
 | [Document maken](./create-doc/) | Leer hoe u interactieve PDF-documenten met keuzerondjes maakt met Aspose.PDF voor .NET in deze uitgebreide stapsgewijze handleiding. |  
 | [Formulierveld verwijderen in PDF-document](./delete-form-field/) | Leer hoe u formuliervelden uit PDF-documenten verwijdert met Aspose.PDF voor .NET met deze stapsgewijze handleiding. Perfect voor ontwikkelaars en PDF-liefhebbers. |  
@@ -50,7 +50,10 @@ Deze tutorials bieden ook gedetailleerde codevoorbeelden, duidelijke uitleg en i
 | [Java Script instellen](./set-java-script/) | Ontgrendel de kracht van Aspose.PDF voor .NET. Leer hoe u JavaScript instelt op formuliervelden met onze stapsgewijze handleiding. |  
 | [Bijschrift voor keuzerondje instellen](./set-radio-button-caption/) Leer hoe u keuzerondjes in PDF's instelt met Aspose.PDF voor .NET. Deze stapsgewijze handleiding begeleidt u bij het laden, wijzigen en opslaan van uw PDF-formulieren. |  
 | [Tekstvak](./text-box/) | Ontdek hoe u moeiteloos tekstvakken aan PDF's toevoegt met Aspose.PDF voor .NET met deze stapsgewijze handleiding. Verbeter de gebruikersinteractie. |  
+| [PDF-document maken met Aspose – Tekstvakveld toevoegen](./create-pdf-document-with-aspose-add-text-box-field/) | Leer hoe u een tekstvakveld toevoegt aan een PDF-document met Aspose.PDF voor .NET in deze stapsgewijze tutorial. |  
 | [Hoe PDF maken met Aspose – Formulierveld en pagina's toevoegen](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Leer hoe u met Aspose.PDF voor .NET een PDF maakt, formuliervelden toevoegt en pagina's beheert in deze stapsgewijze tutorial. |  
+| [PDF-document maken met meerdere widgets – stap‑voor‑stap gids](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) | Leer hoe u een PDF-document met meerdere widgets maakt met Aspose.PDF voor .NET in deze stapsgewijze tutorial. |  
+| [PDF maken met pagina's en tekstvakvelden – volledige C#-handleiding](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Leer hoe u met Aspose.PDF voor .NET een PDF maakt met meerdere pagina's en tekstvakvelden in een volledige C#-stapsgewijze tutorial. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -59,3 +62,24 @@ Deze tutorials bieden ook gedetailleerde codevoorbeelden, duidelijke uitleg en i
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Veld aan collectie toevoegen](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Leer hoe u een veld toevoegt aan een collectie in een PDF met Aspose.PDF voor .NET in deze stapsgewijze tutorial. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+| [Bates-nummers toevoegen aan PDF's – Stapsgewijze C#-gids](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Leer hoe u Bates-nummers aan PDF-documenten toevoegt met Aspose.PDF voor .NET in een duidelijke C#-stapsgewijze handleiding. |
+| [PDF-document maken met meerdere tekstvak-widgets – Stapsgewijze handleiding](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Leer hoe u een PDF-document maakt met meerdere tekstvak-widgets met Aspose.PDF voor .NET in deze stapsgewijze tutorial. |
+| [Hoe een tekstvak toevoegen aan PDF – PDF-formulierveld maken en bewerkt PDF-document opslaan](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Leer hoe u een tekstvak toevoegt, een PDF-formulierveld maakt en het bewerkte PDF-document opslaat met Aspose.PDF voor .NET. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

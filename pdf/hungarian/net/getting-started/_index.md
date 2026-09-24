@@ -16,7 +16,6 @@
 Kezdje el utazását ezekkel a nélkülözhetetlen Aspose.PDF oktatóanyagokkal, amelyek végigvezetik Önt a telepítésen, a licencelési konfiguráción és az első PDF-dokumentumok létrehozásán .NET-ben. Kezdőbarát útmutatóink bemutatják, hogyan állíthatja be fejlesztői környezetét, hogyan inicializálhatja az Aspose.PDF könyvtárat, és hogyan hajthatja végre az alapvető PDF-műveleteket. Kövesse ezeket az oktatóanyagokat, hogy gyorsan elsajátítsa az alapokat, és felkészüljön a .NET-alkalmazásokban a haladóbb PDF-manipulációs feladatokra.
 
 ## Elérhető oktatóanyagok
-
 ### [Mért licenc és PDF oldalszám alkalmazása az Aspose.PDF segítségével](./aspose-pdf-net-metered-license-page-count/)
 Kód oktatóanyag az Aspose.PDF Nethez
 
@@ -31,6 +30,14 @@ Kód oktatóanyag az Aspose.PDF Nethez
 
 ### [Aspose.PDF licenc betöltése fájlból .NET-ben: Átfogó útmutató](./load-aspose-pdf-license-file-net/)
 Ismerje meg, hogyan válthat zökkenőmentesen az Aspose.PDF próba- és licencelt módja között .NET-ben egy licencfájl betöltésével, biztosítva az alkalmazás zökkenőmentes működését.
+
+### [Hogyan ellenőrizze egy NuGet csomag telepítését PowerShell segítségével](./how-to-verify-installation-of-a-nuget-package-with-powershel/)
+Ellenőrizze a NuGet csomag telepítését PowerShell parancsokkal, biztosítva a helyes integrációt.
+
+### [Aspose telepítése – PowerShell útmutató specifikus verziókhoz](./how-to-install-aspose-powershell-guide-for-specific-versions/)
+Lépésről lépésre útmutató az Aspose telepítéséhez PowerShell segítségével különböző verziók esetén.
+### [NuGet csomagok telepítése PowerShell segítségével – lépésről lépésre](./how-to-install-nuget-packages-via-powershell-step-by-step/)
+Ismerje meg, hogyan telepíthet NuGet csomagokat PowerShell parancsokkal, részletes, lépésről lépésre útmutatóval.
 
 ## További források
 

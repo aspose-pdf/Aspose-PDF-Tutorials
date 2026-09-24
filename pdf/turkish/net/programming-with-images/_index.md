@@ -49,6 +49,7 @@ Aspose.PDF for .NET'in "Resimlerle Programlama" eğitimleri, PDF belgelerinizdek
 | [PDF Dosyasında Görüntü Boyutunu Ayarla](./set-image-size/) | .NET için Aspose.PDF kullanarak bir PDF'deki görüntü boyutunun nasıl ayarlanacağını öğrenin. Bu adım adım kılavuz, görüntüleri yeniden boyutlandırmanıza, sayfa özelliklerini ayarlamanıza ve PDF'leri kaydetmenize yardımcı olacaktır. |  
 | [PDF Dosyasındaki Görüntüleri Küçült](./shrink-images/) | Bu adım adım kılavuzla Aspose.PDF for .NET'i kullanarak PDF dosyalarındaki resimleri kolayca küçültün, kaliteyi korurken daha küçük dosya boyutları elde edin. |  
 | [Resmi XImage Koleksiyonunda Sakla](./store-image-in-ximage-collection/) | Bu kapsamlı adım adım kılavuzda, .NET için Aspose.PDF'yi kullanarak XImage koleksiyonunda görüntülerin nasıl depolanacağını öğrenin. |  
+| [Boş PDF Sayfası Oluştur – Görüntü Ekleme, Kırpma ve Yeniden Boyutlandırma Tam Kılavuzu](./create-blank-pdf-page-full-guide-to-adding-cropping-resizing/) | Aspose.PDF for .NET kullanarak boş bir PDF sayfası oluşturun ve görüntü ekleme, kırpma ve yeniden boyutlandırma işlemlerini öğrenin. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
