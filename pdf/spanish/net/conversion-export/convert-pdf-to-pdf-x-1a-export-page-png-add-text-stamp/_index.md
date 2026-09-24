@@ -235,7 +235,15 @@ class PdfX1aWorkflow
             Height = 200,
             HorizontalAlignment = HorizontalAlignment.Center,
             VerticalAlignment = VerticalAlignment.Center,
-            Background = new BackgroundInfo(Color.From
+            Background = new BackgroundInfo(Color.FromRgb(255, 255, 0), 0.3f)
+        };
+        pdfDoc.Pages[1].AddStamp(stamp);
+
+        // 6️⃣ Save the updated PDF
+        pdfDoc.Save(finalPdf);
+    }
+}
+```
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
