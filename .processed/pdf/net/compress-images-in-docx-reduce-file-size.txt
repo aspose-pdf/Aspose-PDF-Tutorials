@@ -1,0 +1,7 @@
+Title: Compress Images in DOCX – Reduce File Size
+Slug: compress-images-in-docx-reduce-file-size
+Category: programming-with-images
+ProcessedDate: 2026-06-05T23:43:48.026727
+SourceRepo: AI Search API
+Keywords: compress images in docx, optimize word document, reduce docx file size
+PRNumber: 87

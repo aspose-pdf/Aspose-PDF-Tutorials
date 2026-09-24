@@ -38,9 +38,6 @@ Aspose.PDF for .NET を使用して、PDF をインタラクティブな HTML �
 ### [Aspose.PDF for .NET で Excel の表を PDF に変換する: ステップバイステップ ガイド](./convert-excel-to-pdf-aspose-dotnet/)
 Aspose.PDF for .NET を使用して、Excel ワークシートを PDF テーブルに効率的に変換する方法を学びましょう。このガイドでは、ステップバイステップの手順と重要なヒントを紹介します。
 
-### [Aspose.PDF を使用して C# で HTML を PDF に変換する: 完全ガイド](./convert-html-pdf-aspose-pdf-net-csharp/)
-Aspose.PDF for .NET および C# を使用して、HTML コンテンツをプロフェッショナルな PDF に変換する方法を学びます。このガイドでは、認証された HTTP リクエスト、変換プロセス、資格情報の設定について説明します。
-
 ### [Aspose.PDF を使って .NET で Markdown を PDF に変換する: 包括的なガイド](./convert-markdown-pdf-aspose-net-tutorial/)
 Aspose.PDF for .NET を使用して Markdown ファイルを PDF に変換する方法を学びましょう。このステップバイステップガイドに従って、シームレスなドキュメント変換機能をアプリケーションに統合しましょう。
 
@@ -52,6 +49,12 @@ Aspose.PDF Net のコードチュートリアル
 
 ### [Aspose.PDF .NET で PDF ページを PNG に変換する: 包括的なガイド](./convert-pdf-pages-to-png-aspose-net/)
 Aspose.PDF for .NET を使用して、PDF ページを高品質の PNG 画像に変換する方法を学びましょう。このステップバイステップガイドに従って、変換プロセスを効率的に自動化しましょう。
+
+### [Aspose PDF を使用して PDF を PNG として保存し、PDF/X‑1a に変換する](./save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf/)
+Aspose.PDF for .NET を使用して PDF を PNG 画像として保存し、PDF/X‑1a 標準に変換する方法を学びます。
+### [Aspose PDF を PNG に変換 – 300 DPI で最初のページをエクスポート](./aspose-pdf-to-png-export-first-page-at-300-dpi/)
+Aspose.PDF for .NET を使用して、PDF の最初のページを 300 DPI の PNG 画像としてエクスポートする方法を学びます。
+C# と Aspose.PDF for .NET を使用して、PDF を高品質な PNG 画像に変換する手順を詳しく解説します。
 
 ### [Aspose.PDF for .NET を使用して PDF を BMP に変換する: ステップバイステップガイド](./convert-pdf-to-bmp-aspose-pdf-net/)
 この包括的なガイドでは、Aspose.PDF for .NET を使用して PDF ページを高品質の BMP 画像に変換する方法を学習します。
@@ -65,6 +68,9 @@ Aspose.PDF Net のコードチュートリアル
 ### [Aspose.PDF for .NET を使用して PDF を HTML に変換する: ストリーム出力ガイド](./convert-pdf-html-aspose-dotnet-guide/)
 Aspose.PDF for .NET のストリーム出力を使用して PDF ファイルを HTML に変換する方法を学びましょう。Web 統合とアクセシビリティを強化します。
 
+### [Aspose.PDF を使用して PDF を HTML に変換する: 完全 C# ガイド](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
+Aspose.PDF for .NET を使い、PDF を HTML に変換して保存する方法を C# で詳しく解説します。
+
 ### [Aspose.PDF を使用して画像を保存せずに .NET で PDF を HTML に変換する](./convert-pdf-html-net-asposepdf-no-images/)
 Aspose.PDF for .NET を使用して、画像を個別に保存することなく PDF ファイルを HTML に変換する方法を学びましょう。詳細なガイドでレイアウトの整合性を維持できます。
 
@@ -74,13 +80,18 @@ Aspose.PDF for .NET を使用してPDFファイルをHTML形式に変換し、�
 ### [Aspose.PDF for .NET で PDF を HTML に変換: TTF および WOFF 形式でフォントを保持](./convert-pdf-html-aspose-net-truetype-woff/)
 Aspose.PDF for .NET を使用して、TrueType (TTF) および Web Open Font Format (WOFF) フォントを維持しながら PDF を HTML に変換する方法を学びます。コード例を交えたステップバイステップのガイドです。
 
+### [AsposeでPDFをHTMLとして保存する – 完全C#ガイド](./save-pdf-as-html-with-aspose-complete-c-guide/)
+Aspose.PDF for .NET と C# を使用して、PDF を HTML に変換し保存する方法をステップバイステップで学びます。
+
+### [C# で PDF を HTML として保存する – 完全ステップバイステップガイド](./save-pdf-as-html-with-c-complete-step-by-step-guide/)
+
 ### [Aspose.PDF を使用して PDF をカスタムディメンションで HTML に変換する](./convert-pdf-html-custom-dimensions-asposepdf-net/)
 Aspose.PDF Net のコードチュートリアル
 
-### [Aspose.PDF .NET を使用してカスタム画像 URL で PDF を HTML に変換する: 包括的なガイド](./convert-pdf-html-custom-image-urls-aspose-pdf-net/)
-画像の URL をカスタマイズし、カスタマイズされたリソース節約戦略を実装するなど、Aspose.PDF for .NET を使用して PDF ドキュメントを HTML 形式に変換する方法を学習します。
+### [Aspose.PDF を使用して C# で HTML を PDF に変換する: 完全ガイド](./convert-html-pdf-aspose-pdf-net-csharp/)
+Aspose.PDF for .NET および C# を使用して、HTML コンテンツをプロフェッショナルな PDF に変換する方法を学びます。このガイドでは、認証された HTTP リクエスト、変換プロセス、資格情報の設定について説明します。
 
-### [Aspose.PDF .NET で PDF を PNG に変換: フォントヒントを強化して鮮明なテキスト レンダリングを実現](./convert-pdf-png-aspose-net-font-hinting/)
+### [Aspose.PDF .NET を使用して PDF を PNG に変換: フォントヒントを強化して鮮明なテキスト レンダリングを実現](./convert-pdf-png-aspose-net-font-hinting/)
 Aspose.PDF .NET を使用して PDF ドキュメントを高品質の PNG 画像に変換し、フォントヒントを通じて鮮明なテキスト レンダリングを実現する方法を学習します。
 
 ### [Aspose.PDF for .NET で PDF を PPTX に変換する: ステップバイステップガイド](./convert-pdf-to-pptx-aspose-dotnet-guide/)
@@ -103,6 +114,8 @@ Aspose.PDF for .NET を使用して PDF ファイルを XML 形式に変換す�
 
 ### [Aspose.PDF .NET を使用して PDF/A を標準 PDF に変換する: 包括的なガイド](./convert-pdf-a-standard-pdf-aspose-net/)
 このステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF/A ドキュメントを標準の PDF にシームレスに変換する方法を学習します。
+
+### [PDF を PDF/X-1A に変換し、ページを PNG としてエクスポート、テキストスタンプを追加](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
 
 ### [Aspose.PDF .NET を使用して PDF をカスタム CSS 付きのインタラクティブ HTML に変換する](./convert-pdfs-to-html-custom-css-aspose-pdf-net/)
 Aspose.PDF .NET を使用して、カスタム CSS スタイルを備えたインタラクティブな Web 対応 HTML 形式に PDF ドキュメントを変換する方法を学習します。
@@ -218,6 +231,12 @@ Aspose.PDF .NET を使用して、不足しているフォントを代替フォ�
 ### [Aspose.PDF .NET を使用した PDF から HTML への変換: 画像を外部 PNG として保存する](./pdf-to-html-conversion-external-png-aspose-pdf-net/)
 Aspose.PDF for .NET を使用して、PDFドキュメントを外部PNG画像を含むHTMLに変換する方法を学びます。このガイドでは、レイアウトの保持とWebパフォーマンスの最適化を実現します。
 
+### [Aspose.PDF for .NET で PDF を PPTX に変換する: ステップバイステップガイド](./pdf-to-pptx-conversion-aspose-pdf-net/)
+Aspose.PDF for .NET を使用して、PDF ドキュメントを PowerPoint プレゼンテーションに効率的に変換する方法を学びましょう。このステップバイステップガイドでは、基本的な変換機能、画像スライドなどの高度な機能、進捗状況の追跡について説明します。
+
+### [Aspose.PDF .NET を使用してカスタム画像 URL で PDF を HTML に変換する: 包括的なガイド](./convert-pdf-html-custom-image-urls-aspose-pdf-net/)
+画像の URL をカスタマイズし、カスタマイズされたリソース節約戦略を実装するなど、Aspose.PDF for .NET を使用して PDF ドキュメントを HTML 形式に変換する方法を学習します。
+
 ### [Aspose.PDF .NET による PDF から HTML への変換: 包括的なガイド](./aspose-pdf-net-pdf-to-html-conversion/)
 Aspose.PDF for .NET で PDF から HTML への変換をマスターしましょう。カスタマイズ可能なオプションで、ドキュメントのアクセシビリティとエンゲージメントを向上させます。
 
@@ -226,6 +245,23 @@ Aspose.PDF Net のコードチュートリアル
 
 ### [Aspose.PDF を使用した .NET での PDF から TIFF への変換: ステップバイステップ ガイド](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Aspose.PDF for .NET を使用して PDF ドキュメントを TIFF 画像に変換する方法を学びます。カスタム色深度と高度な画像処理テクニックを習得します。
+
+### [C# で PDF を HTML に変換する – Aspose.Pdf を使用したクイックガイド](./convert-pdf-to-html-in-c-quick-guide-with-aspose-pdf/)
+Aspose.Pdf を利用して C# で PDF を HTML に迅速に変換する方法をステップバイステップで解説します。
+
+### [Aspose.PDF .NET を使用して PDF を TIFF に変換する方法 (ステップバイステップ ガイド)](./convert-pdf-to-tiff-aspose-pdf-net/)
+Aspose.PDF for .NET を使用して PDF ファイルを高品質の TIFF 画像に変換する方法を学びましょう。コード例と設定のヒントを含むステップバイステップのガイドをご覧ください。
+
+### [C# で PDF を PNG にレンダリングする – 完全ガイド](./how-to-render-pdf-to-png-in-c-complete-guide/)
+
+### [Aspose を使用して PDF を保存する方法 – ステップバイステップ ガイド](./how-to-save-pdf-with-aspose-step-by-step-guide/)
+Aspose を使って PDF を保存する手順を詳しく解説し、コード例とベストプラクティスを紹介します。
+### [C# で PDF を PNG に変換する: 完全ステップバイステップガイド](./convert-pdf-to-png-in-c-complete-step-by-step-guide/)
+### [Aspose.PDF を使用して C# で PDF を HTML に保存する – クイック C# ガイド](./save-pdf-as-html-with-aspose-pdf-quick-c-guide/)
+Aspose.PDF for .NET を使用し、C# で PDF を高速に HTML に変換する手順を紹介します。
+### [DOCX のエクスポート方法 – C# 開発者向けステップバイステップガイド](./how-to-export-docx-step-by-step-guide-for-c-developers/)
+Aspose.PDF for .NET を使用して C# で DOCX ファイルをエクスポートする方法をステップバイステップで解説します。
+### [PDF を HTML に変換し、PDF 署名を検証する – 完全 Aspose .NET ガイド](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
 
 ## 追加リソース
 

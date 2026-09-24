@@ -1,128 +1,153 @@
 ---
 category: general
-date: 2026-04-06
-description: 使用 Aspose.Pdf 在 C# 中快速建立已簽署的 PDF。學習如何使用憑證簽署 PDF、加入數位簽章，以及在數分鐘內產生 PKCS7
+date: 2026-02-22
+description: 使用 Aspose.Pdf 快速建立已簽署的 PDF。了解如何使用憑證簽署 PDF、載入 PDF 文件，以及在 C# 中建立 PKCS7
   簽章。
 draft: false
 keywords:
 - create signed pdf
 - how to sign pdf
-- add digital signature
 - sign pdf with certificate
+- load pdf document
 - create pkcs7 signature
 language: zh-hant
-og_description: 使用 Aspose.Pdf 在 C# 中建立已簽署的 PDF。本指南說明如何使用憑證簽署 PDF、加入數位簽署，以及產生 PKCS7
-  簽名。
-og_title: 在 C# 中建立已簽署的 PDF – 完整程式設計指南
+og_description: 使用 Aspose.Pdf 在 C# 中建立已簽署的 PDF。本指南說明如何使用憑證簽署 PDF、載入 PDF 文件以及建立 PKCS7
+  簽章。
+og_title: 在 C# 中建立簽名 PDF – 完整程式設計指南
 tags:
+- Aspose.Pdf
 - C#
-- PDF
 - Digital Signature
-title: 在 C# 中建立簽署 PDF – 步驟指南
+title: 在 C# 中建立已簽署的 PDF – 逐步指南
 url: /zh-hant/net/programming-with-security-and-signatures/create-signed-pdf-in-c-step-by-step-guide/
 ---
+
+_BLOCK_0}} etc.
+
+Also keep the blockquote formatting.
+
+Let's assemble.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 C# 中建立已簽署的 PDF – 完整程式指南
+# 在 C# 中建立已簽署的 PDF – 步驟指南
 
-是否曾需要從 .NET 應用程式 **建立已簽署的 PDF** 檔案，但不知從何下手？你並不孤單。在許多企業工作流程中，已簽署的 PDF 是最後一步，用來蓋章合約、驗證發票或符合規範。好消息是，只要幾行 C# 程式碼加上 Aspose.Pdf，就能 **加入數位簽章** 到任何 PDF，快速又簡單。
+是否曾需要在 .NET 應用程式中**建立已簽署的 PDF**檔案？您並非唯一需求者——公司常常要求合約、發票或法規報告的防篡改 PDF。好消息是，使用 Aspose.Pdf 您只需幾行程式碼，即可產生具法律效力的簽章，且可在任何 PDF 閱讀器中驗證。
 
-在本教學中，我們將逐步說明 **如何使用 PFX 憑證簽署 PDF**、為何 **PKCS#7 分離簽章** 通常是最安全的選擇，以及 **使用憑證簽署 PDF** 時如何不破壞原始文件。完成後，你將擁有一個可直接執行的範例，能產生已簽署的 PDF，並提供常見邊緣情況的技巧。
+在本教學中，我們將逐步說明如何使用數位憑證**簽署 PDF**，涵蓋從載入 PDF 文件到建立 PKCS#7 分離簽章的全部流程。完成後，您將擁有一段可直接嵌入任何 C# 專案的即用程式碼片段。
 
-## 需要的環境
+> **快速概覽：** 您將學會**載入 PDF 文件**、建立**PKCS7 簽章**，最後**使用憑證簽署 PDF**，從而產生可安全分發的**已簽署 PDF**檔案。
 
-- **Aspose.Pdf for .NET**（v23.9 或更新版）。NuGet 套件名稱為 `Aspose.Pdf`。
-- 一個 **PKCS#12 (.pfx) 憑證**，內含可用於簽署的私鑰。
-- .NET 6+ 執行環境（此程式碼亦可在 .NET Framework 4.7+ 上執行）。
-- 一個簡單的 PDF（`toSign.pdf`），即你想要保護的檔案。
+---
 
-不需要額外的函式庫或外部服務——只要上述幾樣即可。
+## 您需要的條件
 
-![建立已簽署 PDF 範例](image.png "顯示建立已簽署 PDF 流程的螢幕截圖")
+- **Aspose.Pdf for .NET**（v23.9 或更新版本）。透過 NuGet 安裝：`Install-Package Aspose.Pdf`。
+- **PKCS#12（.pfx）憑證**，內含您的私鑰。
+- 您欲簽署的 PDF（例如 `input.pdf`）。
+- .NET 6 以上（任何近期的執行環境皆可）。
 
-*圖片替代文字：「逐步說明如何使用 C# 與 Aspose.Pdf 建立已簽署的 PDF」*
+不需額外函式庫，也不需 COM interop——純粹使用 C#。
 
-## 步驟 1 – 載入要簽署的 PDF
+---
 
-在套用任何簽章之前，你需要一個代表來源檔案的 `Document` 物件。
+## 步驟 1 – 載入 PDF 文件（how to sign pdf）
+
+在套用數位印章之前，必須先將來源檔案載入記憶體。此處自然會出現次要關鍵字 *load pdf document*。
 
 ```csharp
 using Aspose.Pdf;
 
-// Load the PDF that will be signed
-using var pdfDocument = new Document(@"C:\PDFs\toSign.pdf");
+// Step 1: Load the PDF you want to sign
+string inputPath = @"C:\MyPdfs\input.pdf";
+
+Document pdfDocument = new Document(inputPath);
 ```
 
-*為什麼這很重要：* `Document` 是 Aspose 所有 PDF 操作的入口點。使用 `using` 陳述式可確保檔案句柄及時釋放，避免在稍後儲存已簽署版本時出現「檔案被使用中」的錯誤。
+**為何這很重要：** `Document` 代表整個 PDF 結構。先載入它即可提供 Aspose 一個可變的物件，讓後續步驟在不觸及磁碟上原始檔案的情況下進行修改。
 
-## 步驟 2 – 設定簽章處理器
+> **專業提示：** 若來源 PDF 受密碼保護，請將密碼傳入 `Document` 建構子：`new Document(inputPath, "pdfPassword")`。
 
-Aspose 提供了一個名為 `PdfFileSignature` 的專用介面，負責在不損壞檔案其餘部分的情況下嵌入簽章。
+---
+
+## 步驟 2 – 準備 PKCS#7 分離簽章（create pkcs7 signature）
+
+PKCS#7 分離簽章會將文件的雜湊值與您的私鑰結合，但**不會嵌入已簽署的內容**。這樣可保持原始 PDF 大小不變，亦是大多數 PDF 閱讀器所期待的格式。
 
 ```csharp
 using Aspose.Pdf.Facades;
-
-// Create a signature handler for the loaded document
-using var pdfSigner = new PdfFileSignature(pdfDocument);
-```
-
-*小技巧：* 若你之後打算追加多個簽章，請將 `isAppendMode` 保持為 `true`（我們會在下一步這麼做）。這會告訴函式庫新增增量更新，而不是重新寫入整個檔案。
-
-## 步驟 3 – 準備 PKCS#7 分離簽章
-
-**PKCS#7 分離簽章** 會將文件的雜湊值與憑證資料分開儲存，讓驗證更簡單且保持原始 PDF 完整。以下示範如何使用 SHA‑512（比預設的 SHA‑256 更強）進行設定。
-
-```csharp
 using Aspose.Pdf.Forms;
 
-// Prepare a PKCS#7 detached signature using SHA‑512 as the digest algorithm
-var pkcsSignature = new PKCS7Detached(
-    @"C:\Certificates\mycert.pfx",   // certificate file
-    "pwd",                           // certificate password
-    DigestHashAlgorithm.Sha512);     // explicit digest algorithm
+// Step 2: Build a PKCS#7 detached signature object
+string certPath = @"C:\MyCerts\certificate.pfx";
+string certPassword = "yourPassword";
+
+PKCS7Detached pkcsSignature = new PKCS7Detached(
+    certPath,                 // Path to the .pfx file
+    certPassword,            // Password for the certificate
+    DigestHashAlgorithm.Sha3_256); // Strong hash algorithm
 ```
 
-*為什麼選 SHA‑512？* 許多合規標準（例如 EU eIDAS）建議至少使用 256 位元雜湊，而 SHA‑512 在不顯著影響效能的前提下提供更大的安全餘裕。
+**為何使用 SHA‑3‑256？** 目前它被認為在抗碰撞性上較 SHA‑2 更強，且許多合規規範（例如 EU eIDAS）建議在新實作中使用它。
 
-## 步驟 4 – 在特定頁面套用數位簽章
+**邊緣情況：** 若您的憑證使用不同的演算法（RSA‑2048、ECDSA‑P256 等），只需將 `DigestHashAlgorithm` 列舉改為相應的值。Aspose 會自行處理底層加密。
 
-現在我們真正 **加入數位簽章** 到 PDF。你可以自行決定頁碼與矩形區域；矩形決定了可見簽章外觀的放置位置。
+---
+
+## 步驟 3 – 使用憑證簽署 PDF（create signed pdf）
+
+現在進入有趣的部分：將簽章附加至特定頁面。我們會將其設為可見，但您亦可將 `isVisible` 設為 `false`，以產生不可見的簽章。
 
 ```csharp
-using System.Drawing;
+// Step 3: Create a PdfFileSignature object – this is the engine that writes the signature
+using var pdfSignature = new PdfFileSignature(pdfDocument);
 
-// Apply the digital signature to page 1 at the desired rectangle
-pdfSigner.Sign(
-    pageNumber: 1,                     // page index starts at 1
-    isAppendMode: true,                // keep existing signatures intact
-    signatureRectangle: new Rectangle(100, 100, 200, 150),
-    pkcsSignature);
+// Define where the signature will appear (x1, y1, x2, y2) in points.
+// Here we place it near the bottom‑right of page 1.
+Rectangle signatureRect = new Rectangle(100, 100, 200, 150);
+
+// Apply the signature
+pdfSignature.Sign(
+    pageNumber: 1,          // 1‑based page index
+    isVisible: true,        // Show signature appearance
+    signatureRectangle: signatureRect,
+    signature: pkcsSignature);
 ```
 
-*常見問題：*「如果我不想要可見的簽章怎麼辦？」  
-只要將 `signatureRectangle` 傳入 `null`，函式庫就會建立一個不可見（無註解）的簽章，這在後端處理時相當實用。
+**為何使用矩形？** PDF 座標以左下角為原點。調整矩形可精確控制位置——非常適合在法律表單上蓋上簽名欄位。
 
-## 步驟 5 – 儲存已簽署的 PDF
+**如果需要多個簽章該怎麼辦？** 只要使用不同的 `pageNumber` 與矩形再次呼叫 `Sign` 即可。每次呼叫都會新增一個增量更新，保留先前的簽章。
 
-最後，將已簽署的文件寫入磁碟。你可以保留原始檔案不變，並輸出一個新檔案。
+---
+
+## 步驟 4 – 儲存與驗證已簽署的 PDF
+
+最後，將已簽署的檔案寫入磁碟。您亦可程式化驗證簽章，但大多數使用者會在 Adobe Acrobat 或任何顯示綠色勾選標記的閱讀器中開啟 PDF。
 
 ```csharp
-// Save the signed PDF to a new file
-pdfSigner.Save(@"C:\PDFs\signed_sha512.pdf");
+// Step 4: Persist the signed PDF
+string outputPath = @"C:\MyPdfs\signed_output.pdf";
+pdfSignature.Save(outputPath);
+
+// Optional: Quick verification (throws if invalid)
+bool isValid = pdfSignature.VerifySignature();
+Console.WriteLine(isValid
+    ? "Signature applied successfully."
+    : "Signature verification failed.");
 ```
 
-當你在 Adobe Acrobat 或任何支援簽章的 PDF 閱讀器中開啟 `signed_sha512.pdf` 時，會看到綠色勾選（或你自訂的視覺效果）以及憑證詳細資訊。
+**結果：** `signed_output.pdf` 現在在第 1 頁包含一個可見的數位簽章。於 Acrobat 開啟時會顯示簽署者姓名、憑證資訊，以及「已簽署且所有簽章皆有效」的橫幅。
 
-## 完整可執行範例
+---
 
-將上述所有步驟整合，以下是一個可直接複製貼上的完整程式：
+## 完整範例（結合所有步驟）
+
+以下是完整、可直接執行的程式。將其貼入新的主控台專案，並依需求調整檔案路徑。
 
 ```csharp
 using System;
-using System.Drawing;
 using Aspose.Pdf;
 using Aspose.Pdf.Facades;
 using Aspose.Pdf.Forms;
@@ -132,93 +157,80 @@ class Program
     static void Main()
     {
         // 1️⃣ Load the PDF you want to sign
-        using var pdfDocument = new Document(@"C:\PDFs\toSign.pdf");
+        string inputPath = @"C:\MyPdfs\input.pdf";
+        Document pdfDocument = new Document(inputPath);
 
-        // 2️⃣ Create the signature handler
-        using var pdfSigner = new PdfFileSignature(pdfDocument);
+        // 2️⃣ Prepare a PKCS#7 detached signature
+        string certPath = @"C:\MyCerts\certificate.pfx";
+        string certPassword = "yourPassword";
+        PKCS7Detached pkcsSignature = new PKCS7Detached(
+            certPath,
+            certPassword,
+            DigestHashAlgorithm.Sha3_256);
 
-        // 3️⃣ Build a PKCS#7 detached signature (SHA‑512)
-        var pkcsSignature = new PKCS7Detached(
-            @"C:\Certificates\mycert.pfx",
-            "pwd",
-            DigestHashAlgorithm.Sha512);
-
-        // 4️⃣ Sign page 1 – you can change pageNumber or rectangle as needed
-        pdfSigner.Sign(
+        // 3️⃣ Sign the PDF (visible signature on page 1)
+        using var pdfSignature = new PdfFileSignature(pdfDocument);
+        Rectangle rect = new Rectangle(100, 100, 200, 150);
+        pdfSignature.Sign(
             pageNumber: 1,
-            isAppendMode: true,
-            signatureRectangle: new Rectangle(100, 100, 200, 150),
-            pkcsSignature);
+            isVisible: true,
+            signatureRectangle: rect,
+            signature: pkcsSignature);
 
-        // 5️⃣ Save the result
-        pdfSigner.Save(@"C:\PDFs\signed_sha512.pdf");
+        // 4️⃣ Save the signed document
+        string outputPath = @"C:\MyPdfs\signed_output.pdf";
+        pdfSignature.Save(outputPath);
 
-        Console.WriteLine("✅ PDF signed successfully!");
+        // Quick verification (optional)
+        bool ok = pdfSignature.VerifySignature();
+        Console.WriteLine(ok
+            ? "✅ create signed pdf succeeded."
+            : "❌ Signature verification failed.");
     }
 }
 ```
 
-執行程式後，會在主控台看到成功訊息。打開輸出檔案，檢查簽章面板，即可看到你提供的憑證資訊。
+**預期輸出**  
+執行程式時的輸出如下：
 
-## 常見變化情境 – 如何簽署 PDF
-
-### 簽署多頁
-
-若需在多個頁面 **加入數位簽章**，只要對不同的 `pageNumber` 重複呼叫 `pdfSigner.Sign` 即可。因為我們使用了 `isAppendMode: true`，每次呼叫都會產生新的增量更新，保留先前的簽章。
-
-### 使用不同的雜湊演算法
-
-某些舊系統僅支援 SHA‑256。只要在 `PKCS7Detached` 建構子中將 `DigestHashAlgorithm.Sha512` 換成 `DigestHashAlgorithm.Sha256`，其餘程式碼保持不變。
-
-### 建立不可見簽章
-
-```csharp
-pdfSigner.Sign(
-    pageNumber: 1,
-    isAppendMode: true,
-    signatureRectangle: null,   // no visible appearance
-    pkcsSignature);
+```
+✅ create signed pdf succeeded.
 ```
 
-不可見簽章非常適合自動化批次處理，因為不需要視覺提示。
+開啟 `signed_output.pdf` → 您會看到一個顯示您憑證名稱的簽章欄位。
 
-### 程式化驗證簽章
+---
 
-Aspose 也提供驗證簽章的功能：
+## 常見問題與邊緣情況
 
-```csharp
-using Aspose.Pdf.Facades;
+| Question | Answer |
+|----------|--------|
+| *我可以簽署已經有簽章的 PDF 嗎？* | 可以。Aspose 會加入增量更新，保留現有簽章。只需再次以新矩形呼叫 `Sign`。 |
+| *如果憑證使用不同的雜湊演算法該怎麼辦？* | 將 `DigestHashAlgorithm.Sha3_256` 替換為 `Sha256`、`Sha384` 等。API 會自動選擇正確的加密提供者。 |
+| *合規性是否必須使用可見簽章？* | 不一定。有些法規接受不可見（分離）簽章。將 `isVisible: false` 並省略矩形即可。 |
+| *如何一次簽署多個頁面？* | 迭代需要的頁面，例如：`for (int i = 1; i <= pdfDocument.Pages.Count; i++) { pdfSignature.Sign(i, true, rect, pkcsSignature); }` |
+| *如果 PDF 很大（數百 MB）怎麼辦？* | 使用 `PdfFileSignature` 搭配 `SignatureAppearance` 以串流方式處理檔案，而非一次載入全部至記憶體，從而降低 RAM 使用量。 |
 
-var verifier = new PdfFileSignature(@"C:\PDFs\signed_sha512.pdf");
-bool isValid = verifier.VerifySignature(pageNumber: 1);
-Console.WriteLine(isValid ? "Signature valid" : "Signature invalid");
-```
+---
 
-### 處理受密碼保護的 PDF
+## 生產環境的專業提示
 
-如果來源 PDF 已加密，請先使用密碼開啟：
+- **快取憑證**：若連續簽署多個 PDF，重複載入 `.pfx` 會增加開銷。
+- **設定自訂外觀**（如標誌、簽署者名稱），只需向 `PdfFileSignature` 提供 `Image`。
+- **記錄簽章中繼資料**（簽署時間、雜湊演算法），以供稽核追蹤。
+- **驗證憑證鏈**於簽署前，避免嵌入已過期或撤銷的憑證。
 
-```csharp
-var pdfDoc = new Document(@"C:\PDFs\protected.pdf", "pdfPassword");
-```
-
-之後照常執行後續步驟。簽章會直接加在已加密的內容之上。
-
-## 專業提示與常見陷阱
-
-- **千萬不要在正式程式碼中硬編碼密碼。** 請使用安全保管庫或環境變數。
-- **務必保護憑證私鑰。** 若 `.pfx` 檔案外洩，任何人都能偽造文件。
-- **在不同的 PDF 閱讀器上測試。** 部分舊版閱讀器若缺少外觀串流，可能無法正確顯示簽章。
-- **增量儲存很重要。** 若將 `isAppendMode` 設為 `false`，整個檔案會被重新寫入，既有簽章將失效。
-- **留意頁面旋轉。** 矩形座標是相對於頁面的原始方向；旋轉過的頁面可能需要調整座標。
+---
 
 ## 結論
 
-我們已示範如何在 C# 中使用 Aspose.Pdf **建立已簽署的 PDF**，涵蓋從載入文件、**使用憑證簽署 PDF**、建立 **PKCS#7 簽章** 到儲存結果的完整流程。範例程式碼可直接執行，說明亦解釋了每一步背後的原因，讓你能輕鬆套用到自己的專案。
+您現在已了解如何使用 Aspose.Pdf 在 C# 中**建立已簽署的 PDF**檔案，從載入文件、產生 **PKCS7 分離簽章**，到最終**使用憑證簽署**。此模式適用於單頁合約、多頁報告，甚至批次處理流程。
 
-準備好迎接下一個挑戰了嗎？試著將此方法與 **加入數位簽章** 結合，批次處理數百張發票，或探索時間戳記服務以提升不可否認性。現在，你已具備任何 .NET 數位簽署工作流程的堅實基礎。
+接下來，您可以進一步探討**使用時間戳記機構簽署 PDF**或**嵌入自訂簽章外觀**。這兩個主題能深化您對數位簽章的認識，並讓您在合規需求上保持領先。
 
-*祝程式開發順利，願你的 PDF 永遠安全簽署！*
+試試看——簽署一份測試合約，在 Adobe Acrobat 中驗證，然後將程式碼整合至您的工作流程。若遇到任何問題，歡迎在下方留言或參考 Aspose 官方文件取得更多範例。
+
+祝程式開發順利，願您的 PDF 永遠防篡改！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

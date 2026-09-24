@@ -1,22 +1,22 @@
 ---
 category: general
-date: 2026-04-06
-description: Crie PDF assinado em C# rapidamente usando Aspose.Pdf. Aprenda como assinar
-  PDF com certificado, adicionar assinatura digital e criar assinatura PKCS7 em minutos.
+date: 2026-02-22
+description: Crie PDFs assinados rapidamente com Aspose.Pdf. Aprenda como assinar
+  PDF com certificado, carregar documento PDF e criar assinatura PKCS7 em C#.
 draft: false
 keywords:
 - create signed pdf
 - how to sign pdf
-- add digital signature
 - sign pdf with certificate
+- load pdf document
 - create pkcs7 signature
 language: pt
-og_description: Crie PDF assinado em C# com Aspose.Pdf. Este guia mostra como assinar
-  PDF com certificado, adicionar assinatura digital e criar assinatura PKCS7.
+og_description: Criar PDF assinado em C# usando Aspose.Pdf. Este guia mostra como
+  assinar PDF com certificado, carregar documento PDF e criar assinatura PKCS7.
 og_title: Criar PDF Assinado em C# – Guia Completo de Programação
 tags:
+- Aspose.Pdf
 - C#
-- PDF
 - Digital Signature
 title: Criar PDF Assinado em C# – Guia Passo a Passo
 url: /pt/net/programming-with-security-and-signatures/create-signed-pdf-in-c-step-by-step-guide/
@@ -26,103 +26,122 @@ url: /pt/net/programming-with-security-and-signatures/create-signed-pdf-in-c-ste
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Criar PDF Assinado em C# – Guia Completo de Programação
+# Criar PDF Assinado em C# – Guia Passo a Passo
 
-Já precisou **criar arquivos PDF assinados** a partir de uma aplicação .NET, mas não sabia por onde começar? Você não está sozinho. Em muitos fluxos de trabalho corporativos, um PDF assinado é a peça final que sela um contrato, valida uma nota fiscal ou cumpre regulamentações. A boa notícia? Com algumas linhas de C# e Aspose.Pdf você pode **adicionar assinatura digital** a qualquer PDF em um instante.
+Já precisou **criar PDF assinado** a partir de uma aplicação .NET? Você não está sozinho — empresas pedem constantemente PDFs à prova de adulteração para contratos, notas fiscais ou relatórios regulatórios. A boa notícia é que, com Aspose.Pdf, você pode fazer isso em poucas linhas e obter uma assinatura juridicamente vinculativa que pode ser verificada em qualquer visualizador de PDF.
 
-Neste tutorial vamos percorrer passo a passo **como assinar PDF** usando um certificado PFX, por que uma assinatura PKCS#7 destacada costuma ser a escolha mais segura, e como **assinar PDF com certificado** sem quebrar o documento original. Ao final, você terá um exemplo pronto‑para‑executar que cria um PDF assinado, além de dicas para casos de borda comuns.
+Neste tutorial vamos percorrer **como assinar PDF** usando um certificado digital, cobrindo tudo, desde o carregamento do documento PDF até a criação de uma assinatura PKCS#7 destacada. Ao final, você terá um trecho pronto para uso que pode ser inserido em qualquer projeto C#.
 
-## O Que Você Precisa
+> **Visão rápida:** Você aprenderá a **carregar documento PDF**, construir uma **assinatura PKCS7**, e finalmente **assinar PDF com certificado** para que o resultado seja um **arquivo PDF assinado** que pode ser distribuído com segurança.
 
-- **Aspose.Pdf for .NET** (v23.9 ou superior). O pacote NuGet se chama `Aspose.Pdf`.
-- Um **certificado PKCS#12 (.pfx)** que contenha uma chave privada que você tem permissão para usar na assinatura.
-- Runtime .NET 6+ (o código também funciona no .NET Framework 4.7+).
-- Um PDF simples (`toSign.pdf`) que você deseja proteger.
+---
 
-Nenhuma biblioteca extra, nenhum serviço externo — apenas os itens mencionados acima.
+## O que Você Precisa
 
-![Exemplo de criação de PDF assinado](image.png "Captura de tela mostrando o processo de criação de PDF assinado")
+- **Aspose.Pdf for .NET** (v23.9 ou superior). Instale via NuGet: `Install-Package Aspose.Pdf`.
+- Um **certificado PKCS#12 (.pfx)** que contenha sua chave privada.
+- O PDF que você deseja assinar (por exemplo, `input.pdf`).
+- .NET 6+ (qualquer runtime recente funciona).
 
-*Texto alternativo da imagem: “Ilustração passo a passo de como criar PDF assinado usando C# e Aspose.Pdf”*
+Sem bibliotecas extras, sem interop COM — apenas C# puro.
 
-## Etapa 1 – Carregar o PDF que Você Quer Assinar
+---
 
-Antes de aplicar qualquer assinatura, você precisa de um objeto `Document` que represente o arquivo fonte.
+## Passo 1 – Carregar o Documento PDF (como assinar pdf)
+
+Antes de aplicar um selo digital, você deve trazer o arquivo fonte para a memória. É aqui que a palavra‑chave secundária *load pdf document* aparece naturalmente.
 
 ```csharp
 using Aspose.Pdf;
 
-// Load the PDF that will be signed
-using var pdfDocument = new Document(@"C:\PDFs\toSign.pdf");
+// Step 1: Load the PDF you want to sign
+string inputPath = @"C:\MyPdfs\input.pdf";
+
+Document pdfDocument = new Document(inputPath);
 ```
 
-*Por que isso importa:* `Document` é o ponto de entrada para todas as operações de PDF no Aspose. Ao usar uma instrução `using` garantimos que o manipulador de arquivo seja liberado rapidamente, evitando erros de “arquivo em uso” mais tarde, quando tentarmos salvar a versão assinada.
+**Por que isso importa:** `Document` representa toda a estrutura do PDF. Ao carregá‑lo primeiro, você fornece ao Aspose um objeto mutável que as etapas posteriores podem modificar sem tocar no arquivo original no disco.
 
-## Etapa 2 – Configurar o Manipulador de Assinatura
+> **Dica de especialista:** Se o PDF de origem estiver protegido por senha, passe a senha ao construtor `Document`: `new Document(inputPath, "pdfPassword")`.
 
-Aspose fornece uma fachada dedicada chamada `PdfFileSignature` que sabe como incorporar assinaturas sem corromper o restante do arquivo.
+---
+
+## Passo 2 – Preparar uma Assinatura PKCS#7 Destacada (create pkcs7 signature)
+
+Uma assinatura PKCS#7 destacada agrupa o hash do documento com sua chave privada, mas **não incorpora o conteúdo assinado**. Isso mantém o tamanho original do PDF inalterado e é o formato que a maioria dos visualizadores de PDF espera.
 
 ```csharp
 using Aspose.Pdf.Facades;
-
-// Create a signature handler for the loaded document
-using var pdfSigner = new PdfFileSignature(pdfDocument);
-```
-
-*Dica de especialista:* Se você planeja acrescentar várias assinaturas posteriormente, mantenha `isAppendMode` definido como `true` (faremos isso na próxima etapa). Isso indica à biblioteca que deve adicionar uma nova atualização incremental em vez de reescrever todo o arquivo.
-
-## Etapa 3 – Preparar uma Assinatura PKCS#7 Destacada
-
-Uma **assinatura PKCS#7 destacada** armazena o hash do documento separadamente dos dados do certificado, facilitando a verificação e mantendo o PDF original intacto. Veja como configurá‑la com SHA‑512, que é mais forte que o SHA‑256 padrão.
-
-```csharp
 using Aspose.Pdf.Forms;
 
-// Prepare a PKCS#7 detached signature using SHA‑512 as the digest algorithm
-var pkcsSignature = new PKCS7Detached(
-    @"C:\Certificates\mycert.pfx",   // certificate file
-    "pwd",                           // certificate password
-    DigestHashAlgorithm.Sha512);     // explicit digest algorithm
+// Step 2: Build a PKCS#7 detached signature object
+string certPath = @"C:\MyCerts\certificate.pfx";
+string certPassword = "yourPassword";
+
+PKCS7Detached pkcsSignature = new PKCS7Detached(
+    certPath,                 // Path to the .pfx file
+    certPassword,            // Password for the certificate
+    DigestHashAlgorithm.Sha3_256); // Strong hash algorithm
 ```
 
-*Por que SHA‑512?* Muitos padrões de conformidade (por exemplo, EU eIDAS) recomendam hashes de pelo menos 256 bits, e o SHA‑512 oferece uma margem confortável sem impacto perceptível de desempenho.
+**Por que SHA‑3‑256?** Atualmente é considerado mais forte que SHA‑2 em resistência a colisões, e muitos regimes de conformidade (por exemplo, EU eIDAS) recomendam seu uso em novas implementações.
 
-## Etapa 4 – Aplicar a Assinatura Digital em uma Página Específica
+**Caso extremo:** Se seu certificado usar um algoritmo diferente (RSA‑2048, ECDSA‑P256, etc.), basta mudar o enum `DigestHashAlgorithm` para o correspondente. O Aspose cuidará da criptografia subjacente.
 
-Agora realmente **adicionamos a assinatura digital** ao PDF. Você pode escolher qualquer página e qualquer retângulo; o retângulo define onde a aparência visível da assinatura será posicionada.
+---
+
+## Passo 3 – Assinar o PDF com Certificado (create signed pdf)
+
+Agora a parte divertida: anexar a assinatura a uma página específica. Vamos torná‑la visível, mas você pode definir `isVisible` como `false` para uma assinatura invisível.
 
 ```csharp
-using System.Drawing;
+// Step 3: Create a PdfFileSignature object – this is the engine that writes the signature
+using var pdfSignature = new PdfFileSignature(pdfDocument);
 
-// Apply the digital signature to page 1 at the desired rectangle
-pdfSigner.Sign(
-    pageNumber: 1,                     // page index starts at 1
-    isAppendMode: true,                // keep existing signatures intact
-    signatureRectangle: new Rectangle(100, 100, 200, 150),
-    pkcsSignature);
+// Define where the signature will appear (x1, y1, x2, y2) in points.
+// Here we place it near the bottom‑right of page 1.
+Rectangle signatureRect = new Rectangle(100, 100, 200, 150);
+
+// Apply the signature
+pdfSignature.Sign(
+    pageNumber: 1,          // 1‑based page index
+    isVisible: true,        // Show signature appearance
+    signatureRectangle: signatureRect,
+    signature: pkcsSignature);
 ```
 
-*Pergunta comum:* “E se eu não quiser uma assinatura visível?”  
-Basta passar `null` para `signatureRectangle` que a biblioteca criará uma assinatura invisível (sem anotação), útil para processos de back‑end.
+**Por que um retângulo?** As coordenadas PDF são medidas a partir do canto inferior esquerdo. Ajustar o retângulo permite controlar a posição exata — perfeito para carimbar uma linha de assinatura em formulários legais.
 
-## Etapa 5 – Salvar o PDF Assinado
+**E se precisar de várias assinaturas?** Repita a chamada `Sign` com um `pageNumber` e retângulo diferentes. Cada chamada adiciona uma nova atualização incremental, preservando assinaturas anteriores.
 
-Por fim, grave o documento assinado no disco. Você pode manter o arquivo original intacto e gerar um novo.
+---
+
+## Passo 4 – Salvar e Verificar o PDF Assinado
+
+Por fim, grave o arquivo assinado no disco. Você também pode verificar a assinatura programaticamente, mas a maioria dos usuários abrirá o PDF no Adobe Acrobat ou em qualquer visualizador que mostre um selo verde.
 
 ```csharp
-// Save the signed PDF to a new file
-pdfSigner.Save(@"C:\PDFs\signed_sha512.pdf");
+// Step 4: Persist the signed PDF
+string outputPath = @"C:\MyPdfs\signed_output.pdf";
+pdfSignature.Save(outputPath);
+
+// Optional: Quick verification (throws if invalid)
+bool isValid = pdfSignature.VerifySignature();
+Console.WriteLine(isValid
+    ? "Signature applied successfully."
+    : "Signature verification failed.");
 ```
 
-Ao abrir `signed_sha512.pdf` no Adobe Acrobat ou em qualquer visualizador de PDF que suporte assinaturas, você verá um ícone de marca verde (ou a aparência visual que definiu) e os detalhes do certificado.
+**Resultado:** `signed_output.pdf` agora contém uma assinatura digital visível na página 1. Ao abri‑lo no Acrobat, será exibido o nome do assinante, detalhes do certificado e um banner “Signed and all signatures are valid”.
 
-## Exemplo Completo Funcional
+---
 
-Juntando tudo, aqui está um programa pronto‑para‑copiar‑e‑colar:
+## Exemplo Completo Funcional (Todas as Etapas Combinadas)
+
+Abaixo está o programa completo, pronto para ser executado. Cole-o em um novo projeto de console e ajuste os caminhos dos arquivos.
 
 ```csharp
 using System;
-using System.Drawing;
 using Aspose.Pdf;
 using Aspose.Pdf.Facades;
 using Aspose.Pdf.Forms;
@@ -132,93 +151,79 @@ class Program
     static void Main()
     {
         // 1️⃣ Load the PDF you want to sign
-        using var pdfDocument = new Document(@"C:\PDFs\toSign.pdf");
+        string inputPath = @"C:\MyPdfs\input.pdf";
+        Document pdfDocument = new Document(inputPath);
 
-        // 2️⃣ Create the signature handler
-        using var pdfSigner = new PdfFileSignature(pdfDocument);
+        // 2️⃣ Prepare a PKCS#7 detached signature
+        string certPath = @"C:\MyCerts\certificate.pfx";
+        string certPassword = "yourPassword";
+        PKCS7Detached pkcsSignature = new PKCS7Detached(
+            certPath,
+            certPassword,
+            DigestHashAlgorithm.Sha3_256);
 
-        // 3️⃣ Build a PKCS#7 detached signature (SHA‑512)
-        var pkcsSignature = new PKCS7Detached(
-            @"C:\Certificates\mycert.pfx",
-            "pwd",
-            DigestHashAlgorithm.Sha512);
-
-        // 4️⃣ Sign page 1 – you can change pageNumber or rectangle as needed
-        pdfSigner.Sign(
+        // 3️⃣ Sign the PDF (visible signature on page 1)
+        using var pdfSignature = new PdfFileSignature(pdfDocument);
+        Rectangle rect = new Rectangle(100, 100, 200, 150);
+        pdfSignature.Sign(
             pageNumber: 1,
-            isAppendMode: true,
-            signatureRectangle: new Rectangle(100, 100, 200, 150),
-            pkcsSignature);
+            isVisible: true,
+            signatureRectangle: rect,
+            signature: pkcsSignature);
 
-        // 5️⃣ Save the result
-        pdfSigner.Save(@"C:\PDFs\signed_sha512.pdf");
+        // 4️⃣ Save the signed document
+        string outputPath = @"C:\MyPdfs\signed_output.pdf";
+        pdfSignature.Save(outputPath);
 
-        Console.WriteLine("✅ PDF signed successfully!");
+        // Quick verification (optional)
+        bool ok = pdfSignature.VerifySignature();
+        Console.WriteLine(ok
+            ? "✅ create signed pdf succeeded."
+            : "❌ Signature verification failed.");
     }
 }
 ```
 
-Execute o programa e verá a mensagem no console confirmando o sucesso. Abra o arquivo de saída, verifique o painel de assinaturas e você verá as informações do certificado que forneceu.
+**Saída esperada** ao executar o programa:
 
-## Como Assinar PDF – Variações Frequentes
-
-### Assinando Múltiplas Páginas
-
-Se precisar **adicionar assinatura digital** em mais de uma página, chame `pdfSigner.Sign` repetidamente com valores diferentes para `pageNumber`. Como usamos `isAppendMode: true`, cada chamada cria uma nova atualização incremental, preservando assinaturas anteriores.
-
-### Usando um Algoritmo de Digest Diferente
-
-Alguns sistemas legados só entendem SHA‑256. Troque `DigestHashAlgorithm.Sha512` por `DigestHashAlgorithm.Sha256` no construtor `PKCS7Detached`. O resto do código permanece igual.
-
-### Criando uma Assinatura Invisível
-
-```csharp
-pdfSigner.Sign(
-    pageNumber: 1,
-    isAppendMode: true,
-    signatureRectangle: null,   // no visible appearance
-    pkcsSignature);
+```
+✅ create signed pdf succeeded.
 ```
 
-Assinaturas invisíveis são perfeitas para processos automatizados em lote onde o indicativo visual não é necessário.
+Abra `signed_output.pdf` → você verá um campo de assinatura com o nome do seu certificado.
 
-### Verificando a Assinatura Programaticamente
+---
 
-Aspose também permite validar assinaturas:
+## Perguntas Frequentes & Casos de Borda
 
-```csharp
-using Aspose.Pdf.Facades;
+| Pergunta | Resposta |
+|----------|----------|
+| *Posso assinar um PDF que já possui uma assinatura?* | Sim. O Aspose adiciona uma atualização incremental, preservando assinaturas existentes. Basta chamar `Sign` novamente com um novo retângulo. |
+| *E se o certificado usar um algoritmo de hash diferente?* | Substitua `DigestHashAlgorithm.Sha3_256` por `Sha256`, `Sha384`, etc. A API selecionará automaticamente o provedor criptográfico correto. |
+| *É necessária uma assinatura visível para conformidade?* | Nem sempre. Algumas regulamentações aceitam assinaturas invisíveis (destacadas). Defina `isVisible: false` e omita o retângulo. |
+| *Como assinar várias páginas de uma vez?* | Percorra as páginas necessárias: `for (int i = 1; i <= pdfDocument.Pages.Count; i++) { pdfSignature.Sign(i, true, rect, pkcsSignature); }` |
+| *E se o PDF for muito grande (centenas de MB)?* | Use `PdfFileSignature` com `SignatureAppearance` para fazer streaming do arquivo em vez de carregá‑lo totalmente na memória. Isso reduz o uso de RAM. |
 
-var verifier = new PdfFileSignature(@"C:\PDFs\signed_sha512.pdf");
-bool isValid = verifier.VerifySignature(pageNumber: 1);
-Console.WriteLine(isValid ? "Signature valid" : "Signature invalid");
-```
+---
 
-### Lidando com PDFs Protegidos por Senha
+## Dicas Profissionais para Uso em Produção
 
-Se o PDF fonte estiver criptografado, abra‑o primeiro com a senha:
+- **Cache o certificado** se você assinar muitos PDFs consecutivamente; carregar o `.pfx` repetidamente gera sobrecarga.
+- **Defina uma aparência personalizada** (logotipo, nome do assinante) fornecendo uma `Image` para `PdfFileSignature`.
+- **Registre os metadados da assinatura** (hora da assinatura, algoritmo de hash) para trilhas de auditoria.
+- **Valide a cadeia de certificados** antes de assinar para evitar incorporar um certificado expirado ou revogado.
 
-```csharp
-var pdfDoc = new Document(@"C:\PDFs\protected.pdf", "pdfPassword");
-```
-
-Em seguida, continue com os mesmos passos. A assinatura será aplicada sobre o conteúdo criptografado.
-
-## Dicas de Profissional & Armadilhas Comuns
-
-- **Nunca codifique senhas** diretamente no código de produção. Use cofres seguros ou variáveis de ambiente.
-- **Mantenha a chave privada do seu certificado protegida.** Se o arquivo `.pfx` for exposto, qualquer pessoa pode falsificar documentos.
-- **Teste em diferentes visualizadores de PDF.** Alguns leitores antigos podem não exibir a assinatura corretamente se o fluxo de aparência estiver ausente.
-- **Salvamentos incrementais são importantes.** Se definir `isAppendMode` como `false`, assinaturas existentes serão invalidadas porque todo o arquivo será reescrito.
-- **Fique atento à rotação de página.** As coordenadas do retângulo são relativas à orientação original da página; páginas rotacionadas podem precisar de ajustes nas coordenadas.
+---
 
 ## Conclusão
 
-Acabamos de demonstrar como **criar PDFs assinados** em C# usando Aspose.Pdf, cobrindo tudo, desde o carregamento do documento até **assinar PDF com certificado**, criação de uma **assinatura PKCS#7** e salvamento do resultado. O código de exemplo está totalmente funcional, e as explicações respondem ao “por quê” de cada passo, facilitando a adaptação ao seu próprio projeto.
+Agora você sabe como **criar PDFs assinados** em C# usando Aspose.Pdf, desde o carregamento do documento até a geração de uma **assinatura PKCS7 destacada** e, finalmente, a aplicação de uma **assinatura com certificado**. O padrão apresentado funciona para contratos de uma página, relatórios de múltiplas páginas e até pipelines de processamento em lote.
 
-Pronto para o próximo desafio? Experimente combinar esta abordagem com **adicionar assinatura digital** para processar em lote centenas de notas fiscais, ou explore serviços de timestamp para uma não‑repúdio ainda mais robusta. Agora você tem uma base sólida para qualquer fluxo de assinatura digital baseado em .NET.
+Em seguida, considere explorar **como assinar PDF com autoridades de timestamp** ou **incorporar aparências de assinatura personalizadas**. Ambos os tópicos aprofundam seu entendimento sobre assinaturas digitais e mantêm você à frente dos requisitos de conformidade.
 
-*Feliz codificação, e que seus PDFs estejam sempre assinados com segurança!*
+Experimente — assine um contrato de teste, verifique-o no Adobe Acrobat e, então, integre o código ao seu próprio fluxo de trabalho. Se encontrar algum obstáculo, deixe um comentário abaixo ou consulte a documentação oficial da Aspose para exemplos adicionais.
+
+Happy coding, and may your PDFs stay tamper‑proof!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

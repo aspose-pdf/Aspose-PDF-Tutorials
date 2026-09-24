@@ -1,23 +1,22 @@
 ---
 category: general
-date: 2026-04-06
-description: Rychle vytvořte podepsaný PDF v C# pomocí Aspose.Pdf. Naučte se, jak
-  podepsat PDF certifikátem, přidat digitální podpis a vytvořit PKCS7 podpis během
-  několika minut.
+date: 2026-02-22
+description: Rychle vytvořte podepsaný PDF pomocí Aspose.Pdf. Naučte se, jak podepsat
+  PDF certifikátem, načíst PDF dokument a vytvořit PKCS7 podpis v C#.
 draft: false
 keywords:
 - create signed pdf
 - how to sign pdf
-- add digital signature
 - sign pdf with certificate
+- load pdf document
 - create pkcs7 signature
 language: cs
 og_description: Vytvořte podepsaný PDF v C# pomocí Aspose.Pdf. Tento průvodce ukazuje,
-  jak podepsat PDF certifikátem, přidat digitální podpis a vytvořit PKCS7 podpis.
-og_title: Vytvoření podepsaného PDF v C# – Kompletní programovací průvodce
+  jak podepsat PDF certifikátem, načíst PDF dokument a vytvořit PKCS7 podpis.
+og_title: Vytvořte podepsaný PDF v C# – Kompletní programovací průvodce
 tags:
+- Aspose.Pdf
 - C#
-- PDF
 - Digital Signature
 title: Vytvořte podepsaný PDF v C# – krok za krokem
 url: /cs/net/programming-with-security-and-signatures/create-signed-pdf-in-c-step-by-step-guide/
@@ -27,103 +26,122 @@ url: /cs/net/programming-with-security-and-signatures/create-signed-pdf-in-c-ste
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Vytvoření podepsaného PDF v C# – Kompletní programovací průvodce
+# Vytvoření podepsaného PDF v C# – krok za krokem průvodce
 
-Už jste někdy potřebovali **vytvořit podepsané PDF** soubory z .NET aplikace, ale nebyli jste si jisti, kde začít? Nejste v tom sami. V mnoha podnikových pracovních postupech je podepsané PDF posledním prvkem, který uzavře smlouvu, ověří fakturu nebo splní předpisy. Dobrá zpráva? Několika řádky C# a Aspose.Pdf můžete **přidat digitální podpis** do libovolného PDF během chvilky.
+Už jste někdy potřebovali **vytvořit podepsané PDF** soubory z .NET aplikace? Nejste jediní — firmy neustále požadují nefalšovatelné PDF pro smlouvy, faktury nebo regulační zprávy. Dobrou zprávou je, že s Aspose.Pdf to zvládnete v několika řádcích a získáte právně závazný podpis, který lze ověřit v libovolném PDF prohlížeči.
 
-V tomto tutoriálu projdeme přesně kroky **jak podepsat PDF** pomocí PFX certifikátu, proč je PKCS#7 oddělený podpis často nejbezpečnější volbou, a jak **podepsat PDF pomocí certifikátu** aniž byste poškodili původní dokument. Na konci budete mít připravený ukázkový program, který vytvoří podepsané PDF, plus tipy pro běžné okrajové případy.
+V tomto tutoriálu projdeme **jak podepsat PDF** pomocí digitálního certifikátu, od načtení PDF dokumentu až po vytvoření PKCS#7 odděleného podpisu. Na konci budete mít připravený úryvek kódu, který můžete vložit do libovolného C# projektu.
+
+> **Rychlý přehled:** Naučíte se **načíst PDF dokument**, vytvořit **PKCS7 podpis** a nakonec **podepsat PDF certifikátem**, takže výsledek bude **vytvořený podepsaný pdf** soubor, který můžete bezpečně distribuovat.
+
+---
 
 ## Co budete potřebovat
 
-- **Aspose.Pdf for .NET** (v23.9 nebo novější). NuGet balíček se jmenuje `Aspose.Pdf`.
-- **PKCS#12 (.pfx) certifikát**, který obsahuje soukromý klíč, který můžete použít k podepisování.
-- .NET 6+ runtime (kód funguje také na .NET Framework 4.7+).
-- Jednoduché PDF (`toSign.pdf`), které chcete chránit.
+- **Aspose.Pdf for .NET** (v23.9 nebo novější). Instalace přes NuGet: `Install-Package Aspose.Pdf`.
+- **PKCS#12 (.pfx) certifikát**, který obsahuje váš soukromý klíč.
+- PDF, které chcete podepsat (např. `input.pdf`).
+- .NET 6+ (jakékoli aktuální runtime).
 
-Žádné další knihovny, žádné externí služby – pouze výše zmíněné součásti.
+Žádné další knihovny, žádný COM interop — pouze čistý C#.
 
-![Vytvoření podepsaného PDF příklad](image.png "Snímek obrazovky ukazující proces vytváření podepsaného PDF")
+---
 
-*Text alternativy obrázku: “Postupná ilustrace, jak vytvořit podepsané pdf pomocí C# a Aspose.Pdf”*
+## Krok 1 – Načtení PDF dokumentu (how to sign pdf)
 
-## Krok 1 – Načtení PDF, které chcete podepsat
-
-Než můžete aplikovat jakýkoli podpis, potřebujete objekt `Document`, který představuje zdrojový soubor.
+Než můžete aplikovat digitální pečeť, musíte načíst zdrojový soubor do paměti. Zde se přirozeně objeví sekundární klíčové slovo *load pdf document*.
 
 ```csharp
 using Aspose.Pdf;
 
-// Load the PDF that will be signed
-using var pdfDocument = new Document(@"C:\PDFs\toSign.pdf");
+// Step 1: Load the PDF you want to sign
+string inputPath = @"C:\MyPdfs\input.pdf";
+
+Document pdfDocument = new Document(inputPath);
 ```
 
-*Proč je to důležité:* `Document` je vstupním bodem pro všechny operace s PDF v Aspose. Použitím `using` bloku zajistíme, že souborový handle bude rychle uvolněn, což později zabraňuje chybám typu „soubor je používán“, když se pokusíme uložit podepsanou verzi.
+**Proč je to důležité:** `Document` představuje celou strukturu PDF. Načtením nejprve poskytnete Aspose mutabilní objekt, který mohou pozdější kroky upravovat, aniž by se dotýkaly původního souboru na disku.
 
-## Krok 2 – Nastavení obsluhy podpisu
+> **Tip:** Pokud je zdrojové PDF chráněno heslem, předávejte heslo konstruktoru `Document`: `new Document(inputPath, "pdfPassword")`.
 
-Aspose poskytuje dedikovanou fasádu nazvanou `PdfFileSignature`, která ví, jak vložit podpisy, aniž by poškozovala zbytek souboru.
+---
+
+## Krok 2 – Příprava PKCS#7 odděleného podpisu (create pkcs7 signature)
+
+PKCS#7 oddělený podpis spojuje hash dokumentu s vaším soukromým klíčem, ale **nevloží podepsaný obsah**. Tím zůstane původní velikost PDF nezměněna a jedná se o formát, který očekává většina PDF prohlížečů.
 
 ```csharp
 using Aspose.Pdf.Facades;
-
-// Create a signature handler for the loaded document
-using var pdfSigner = new PdfFileSignature(pdfDocument);
-```
-
-*Pro tip:* Pokud plánujete později přidávat více podpisů, nechte `isAppendMode` nastavené na `true` (uděláme to v dalším kroku). To knihovně říká, aby přidala nový inkrementální update místo přepsání celého souboru.
-
-## Krok 3 – Připravte PKCS#7 oddělený podpis
-
-**PKCS#7 oddělený podpis** ukládá hash dokumentu odděleně od dat certifikátu, což usnadňuje ověření a zachovává původní PDF nedotčené. Zde je, jak jej nakonfigurovat s SHA‑512, který je silnější než výchozí SHA‑256.
-
-```csharp
 using Aspose.Pdf.Forms;
 
-// Prepare a PKCS#7 detached signature using SHA‑512 as the digest algorithm
-var pkcsSignature = new PKCS7Detached(
-    @"C:\Certificates\mycert.pfx",   // certificate file
-    "pwd",                           // certificate password
-    DigestHashAlgorithm.Sha512);     // explicit digest algorithm
+// Step 2: Build a PKCS#7 detached signature object
+string certPath = @"C:\MyCerts\certificate.pfx";
+string certPassword = "yourPassword";
+
+PKCS7Detached pkcsSignature = new PKCS7Detached(
+    certPath,                 // Path to the .pfx file
+    certPassword,            // Password for the certificate
+    DigestHashAlgorithm.Sha3_256); // Strong hash algorithm
 ```
 
-*Proč SHA‑512?* Mnoho standardů souladu (např. EU eIDAS) doporučuje alespoň 256‑bitové hashe a SHA‑512 vám poskytne pohodlnou rezervu bez znatelného dopadu na výkon.
+**Proč SHA‑3‑256?** V současnosti se považuje za silnější než SHA‑2 z hlediska odolnosti vůči kolizím a mnoho regulačních režimů (např. EU eIDAS) ho doporučuje pro nové implementace.
 
-## Krok 4 – Aplikace digitálního podpisu na konkrétní stránku
+**Hraniční případ:** Pokud váš certifikát používá jiný algoritmus (RSA‑2048, ECDSA‑P256 atd.), jednoduše změňte výčtový typ `DigestHashAlgorithm` na odpovídající. Aspose se postará o podkladovou kryptografii.
 
-Nyní skutečně **přidáme digitální podpis** do PDF. Můžete zvolit libovolnou stránku a libovolný obdélník; obdélník určuje, kde bude umístěna viditelná podoba podpisu.
+---
+
+## Krok 3 – Podepsání PDF certifikátem (create signed pdf)
+
+Teď ta zábavná část: připojení podpisu ke konkrétní stránce. Uděláme jej viditelný, ale můžete nastavit `isVisible` na `false` pro neviditelný podpis.
 
 ```csharp
-using System.Drawing;
+// Step 3: Create a PdfFileSignature object – this is the engine that writes the signature
+using var pdfSignature = new PdfFileSignature(pdfDocument);
 
-// Apply the digital signature to page 1 at the desired rectangle
-pdfSigner.Sign(
-    pageNumber: 1,                     // page index starts at 1
-    isAppendMode: true,                // keep existing signatures intact
-    signatureRectangle: new Rectangle(100, 100, 200, 150),
-    pkcsSignature);
+// Define where the signature will appear (x1, y1, x2, y2) in points.
+// Here we place it near the bottom‑right of page 1.
+Rectangle signatureRect = new Rectangle(100, 100, 200, 150);
+
+// Apply the signature
+pdfSignature.Sign(
+    pageNumber: 1,          // 1‑based page index
+    isVisible: true,        // Show signature appearance
+    signatureRectangle: signatureRect,
+    signature: pkcsSignature);
 ```
 
-*Častá otázka:* “Co když nechci viditelný podpis?”  
-Jednoduše předáte `null` pro `signatureRectangle` a knihovna vytvoří neviditelný (bez anotací) podpis, což je užitečné pro backendové procesy.
+**Proč obdélník?** Souřadnice PDF se měří od levého dolního rohu. Úprava obdélníku vám umožní přesně určit umístění — ideální pro umístění podpisové čáry na právních formulářích.
 
-## Krok 5 – Uložení podepsaného PDF
+**Co když potřebujete více podpisů?** Opakujte volání `Sign` s jiným `pageNumber` a obdélníkem. Každé volání přidá novou inkrementální aktualizaci a zachová předchozí podpisy.
 
-Nakonec zapíšeme podepsaný dokument na disk. Původní soubor můžete nechat nedotčený a vytvořit nový výstupní soubor.
+---
+
+## Krok 4 – Uložení a ověření podepsaného PDF
+
+Nakonec zapíšeme podepsaný soubor na disk. Můžete také programově ověřit podpis, ale většina uživatelů otevře PDF v Adobe Acrobat nebo v jiném prohlížeči, který zobrazí zelenou fajfku.
 
 ```csharp
-// Save the signed PDF to a new file
-pdfSigner.Save(@"C:\PDFs\signed_sha512.pdf");
+// Step 4: Persist the signed PDF
+string outputPath = @"C:\MyPdfs\signed_output.pdf";
+pdfSignature.Save(outputPath);
+
+// Optional: Quick verification (throws if invalid)
+bool isValid = pdfSignature.VerifySignature();
+Console.WriteLine(isValid
+    ? "Signature applied successfully."
+    : "Signature verification failed.");
 ```
 
-Když otevřete `signed_sha512.pdf` v Adobe Acrobat nebo jakémkoli PDF prohlížeči, který podporuje podpisy, uvidíte zelenou fajfku (nebo vizuál, který jste definovali) a podrobnosti o certifikátu.
+**Výsledek:** `signed_output.pdf` nyní obsahuje viditelný digitální podpis na stránce 1. Otevřením v Acrobat se zobrazí jméno podepisujícího, podrobnosti certifikátu a banner „Signed and all signatures are valid“.
 
-## Kompletní funkční příklad
+---
 
-Sestavte vše dohromady, zde je připravený program ke zkopírování a vložení:
+## Kompletní funkční příklad (všechny kroky dohromady)
+
+Níže je kompletní, připravený k spuštění program. Vložte jej do nového konzolového projektu a upravte cesty k souborům.
 
 ```csharp
 using System;
-using System.Drawing;
 using Aspose.Pdf;
 using Aspose.Pdf.Facades;
 using Aspose.Pdf.Forms;
@@ -133,93 +151,79 @@ class Program
     static void Main()
     {
         // 1️⃣ Load the PDF you want to sign
-        using var pdfDocument = new Document(@"C:\PDFs\toSign.pdf");
+        string inputPath = @"C:\MyPdfs\input.pdf";
+        Document pdfDocument = new Document(inputPath);
 
-        // 2️⃣ Create the signature handler
-        using var pdfSigner = new PdfFileSignature(pdfDocument);
+        // 2️⃣ Prepare a PKCS#7 detached signature
+        string certPath = @"C:\MyCerts\certificate.pfx";
+        string certPassword = "yourPassword";
+        PKCS7Detached pkcsSignature = new PKCS7Detached(
+            certPath,
+            certPassword,
+            DigestHashAlgorithm.Sha3_256);
 
-        // 3️⃣ Build a PKCS#7 detached signature (SHA‑512)
-        var pkcsSignature = new PKCS7Detached(
-            @"C:\Certificates\mycert.pfx",
-            "pwd",
-            DigestHashAlgorithm.Sha512);
-
-        // 4️⃣ Sign page 1 – you can change pageNumber or rectangle as needed
-        pdfSigner.Sign(
+        // 3️⃣ Sign the PDF (visible signature on page 1)
+        using var pdfSignature = new PdfFileSignature(pdfDocument);
+        Rectangle rect = new Rectangle(100, 100, 200, 150);
+        pdfSignature.Sign(
             pageNumber: 1,
-            isAppendMode: true,
-            signatureRectangle: new Rectangle(100, 100, 200, 150),
-            pkcsSignature);
+            isVisible: true,
+            signatureRectangle: rect,
+            signature: pkcsSignature);
 
-        // 5️⃣ Save the result
-        pdfSigner.Save(@"C:\PDFs\signed_sha512.pdf");
+        // 4️⃣ Save the signed document
+        string outputPath = @"C:\MyPdfs\signed_output.pdf";
+        pdfSignature.Save(outputPath);
 
-        Console.WriteLine("✅ PDF signed successfully!");
+        // Quick verification (optional)
+        bool ok = pdfSignature.VerifySignature();
+        Console.WriteLine(ok
+            ? "✅ create signed pdf succeeded."
+            : "❌ Signature verification failed.");
     }
 }
 ```
 
-Spusťte program a uvidíte zprávu v konzoli potvrzující úspěch. Otevřete výstupní soubor, podívejte se na panel podpisů a uvidíte informace o certifikátu, který jste zadali.
+**Očekávaný výstup** po spuštění programu:
 
-## Jak podepsat PDF – Často kladené varianty
-
-### Podepisování více stránek
-
-Pokud potřebujete **přidat digitální podpis** na více než jednu stránku, volajte `pdfSigner.Sign` opakovaně s různými hodnotami `pageNumber`. Protože jsme použili `isAppendMode: true`, každý volání vytvoří nový inkrementální update a zachová předchozí podpisy.
-
-### Použití jiného hashovacího algoritmu
-
-Některé starší systémy rozumí jen SHA‑256. Vyměňte `DigestHashAlgorithm.Sha512` za `DigestHashAlgorithm.Sha256` v konstruktoru `PKCS7Detached`. Zbytek kódu zůstane stejný.
-
-### Vytvoření neviditelného podpisu
-
-```csharp
-pdfSigner.Sign(
-    pageNumber: 1,
-    isAppendMode: true,
-    signatureRectangle: null,   // no visible appearance
-    pkcsSignature);
+```
+✅ create signed pdf succeeded.
 ```
 
-Neviditelné podpisy jsou ideální pro automatizované dávkové procesy, kde vizuální indikátor není potřeba.
+Otevřete `signed_output.pdf` → uvidíte pole podpisu s názvem vašeho certifikátu.
 
-### Programové ověření podpisu
+---
 
-Aspose také umožňuje validovat podpisy:
+## Často kladené otázky a hraniční případy
 
-```csharp
-using Aspose.Pdf.Facades;
+| Otázka | Odpověď |
+|----------|--------|
+| *Mohu podepsat PDF, které již obsahuje podpis?* | Ano. Aspose přidá inkrementální aktualizaci a zachová existující podpisy. Stačí znovu zavolat `Sign` s novým obdélníkem. |
+| *Co když certifikát používá jiný hash algoritmus?* | Nahraďte `DigestHashAlgorithm.Sha3_256` za `Sha256`, `Sha384` apod. API automaticky vybere správného poskytovatele kryptografie. |
+| *Je viditelný podpis vyžadován pro soulad s předpisy?* | Ne vždy. Některé regulace akceptují neviditelné (oddělené) podpisy. Nastavte `isVisible: false` a vynechte obdélník. |
+| *Jak podepíšu více stránek najednou?* | Projděte stránky, které potřebujete: `for (int i = 1; i <= pdfDocument.Pages.Count; i++) { pdfSignature.Sign(i, true, rect, pkcsSignature); }` |
+| *Co když je PDF obrovské (stovky MB)?* | Použijte `PdfFileSignature` s `SignatureAppearance` pro streamování souboru místo načítání celého do paměti. Tím snížíte využití RAM. |
 
-var verifier = new PdfFileSignature(@"C:\PDFs\signed_sha512.pdf");
-bool isValid = verifier.VerifySignature(pageNumber: 1);
-Console.WriteLine(isValid ? "Signature valid" : "Signature invalid");
-```
+---
 
-### Práce s PDF chráněnými heslem
+## Profesionální tipy pro produkční nasazení
 
-Pokud je zdrojové PDF šifrované, otevřete jej nejprve s heslem:
+- **Ukládejte certifikát do cache**, pokud podepisujete mnoho PDF po sobě; opakované načítání `.pfx` přidává režii.
+- **Nastavte vlastní vzhled** (logo, jméno podepisujícího) předáním `Image` do `PdfFileSignature`.
+- **Logujte metadata podpisu** (čas podpisu, hash algoritmus) pro auditní stopy.
+- **Ověřte řetězec certifikátů** před podpisem, aby nedošlo k vložení prošlého nebo odvolaného certifikátu.
 
-```csharp
-var pdfDoc = new Document(@"C:\PDFs\protected.pdf", "pdfPassword");
-```
-
-Pak pokračujte stejnými kroky. Podpis bude aplikován na šifrovaný obsah.
-
-## Profesionální tipy a běžné úskalí
-
-- **Nikdy nezakódujte hesla** přímo v produkčním kódu. Používejte zabezpečené trezory nebo proměnné prostředí.
-- **Uchovávejte soukromý klíč certifikátu v bezpečí.** Pokud je soubor `.pfx` vystaven, kdokoli může falšovat dokumenty.
-- **Testujte s různými PDF prohlížeči.** Některé starší čtečky nemusí zobrazit podpis správně, pokud chybí stream vzhledu.
-- **Inkrementální ukládání má význam.** Pokud nastavíte `isAppendMode` na `false`, existující podpisy budou neplatné, protože se přepíše celý soubor.
-- **Dejte pozor na otočení stránky.** Souřadnice obdélníku jsou relativní k původní orientaci stránky; otočené stránky mohou vyžadovat upravené souřadnice.
+---
 
 ## Závěr
 
-Právě jsme ukázali, jak **vytvořit podepsané PDF** soubory v C# pomocí Aspose.Pdf, pokrývající vše od načtení dokumentu po **podepsání PDF pomocí certifikátu**, vytvoření **PKCS#7 podpisu** a uložení výsledku. Ukázkový kód je plně funkční a vysvětlení odpovídají na otázku „proč“ u každého kroku, což usnadňuje přizpůsobení vašim projektům.
+Nyní víte, jak **vytvořit podepsané PDF** soubory v C# pomocí Aspose.Pdf, od načtení dokumentu po generování **PKCS7 odděleného podpisu** a nakonec aplikaci **podpisu s certifikátem**. Tento vzor funguje pro jednostránkové smlouvy, vícestránkové zprávy i pro dávkové zpracování.
 
-Jste připraveni na další výzvu? Zkuste kombinovat tento přístup s **add digital signature** pro dávkové zpracování stovek faktur, nebo prozkoumejte služby časových razítek pro ještě silnější neodmítnutelnost. Nyní máte solidní základ pro jakýkoli .NET‑based digitální podepisovací workflow.
+Dále můžete zkoumat **jak podepsat PDF s časovým razítkem** nebo **vkládání vlastních vzhledů podpisu**. Obě témata prohloubí vaše znalosti o digitálních podpisech a udrží vás napřed před požadavky na shodu.
 
-*Šťastné kódování a ať jsou vaše PDF vždy bezpečně podepsaná!*
+Vyzkoušejte to — podepište testovací smlouvu, ověřte ji v Adobe Acrobat a poté integrujte kód do vlastního workflow. Pokud narazíte na problémy, zanechte komentář níže nebo si prohlédněte oficiální dokumentaci Aspose pro další příklady.
+
+Šťastné kódování a ať jsou vaše PDF nefalšovatelné!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

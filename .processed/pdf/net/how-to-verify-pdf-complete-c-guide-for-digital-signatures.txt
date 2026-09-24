@@ -1,0 +1,7 @@
+Title: How to Verify PDF – Complete C# Guide for Digital Signatures
+Slug: how-to-verify-pdf-complete-c-guide-for-digital-signatures
+Category: programming-with-security-and-signatures
+ProcessedDate: 2026-06-21T15:11:18.936567
+SourceRepo: AI Search API
+Keywords: how to verify pdf, check pdf signature, load pdf document, validate pdf signature, verify pdf signature
+PRNumber: 93

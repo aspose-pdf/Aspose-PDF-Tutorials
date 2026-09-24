@@ -1,22 +1,22 @@
 ---
 category: general
-date: 2026-04-06
-description: Tạo PDF có chữ ký trong C# nhanh chóng bằng Aspose.Pdf. Tìm hiểu cách
-  ký PDF bằng chứng chỉ, thêm chữ ký số và tạo chữ ký PKCS7 trong vài phút.
+date: 2026-02-22
+description: Tạo PDF đã ký nhanh chóng với Aspose.Pdf. Tìm hiểu cách ký PDF bằng chứng
+  chỉ, tải tài liệu PDF và tạo chữ ký PKCS7 trong C#.
 draft: false
 keywords:
 - create signed pdf
 - how to sign pdf
-- add digital signature
 - sign pdf with certificate
+- load pdf document
 - create pkcs7 signature
 language: vi
-og_description: Tạo PDF có chữ ký trong C# với Aspose.Pdf. Hướng dẫn này chỉ cách
-  ký PDF bằng chứng chỉ, thêm chữ ký số và tạo chữ ký PKCS7.
+og_description: Tạo PDF có chữ ký trong C# bằng Aspose.Pdf. Hướng dẫn này chỉ cách
+  ký PDF bằng chứng chỉ, tải tài liệu PDF và tạo chữ ký PKCS7.
 og_title: Tạo PDF có chữ ký trong C# – Hướng dẫn lập trình toàn diện
 tags:
+- Aspose.Pdf
 - C#
-- PDF
 - Digital Signature
 title: Tạo PDF có chữ ký trong C# – Hướng dẫn từng bước
 url: /vi/net/programming-with-security-and-signatures/create-signed-pdf-in-c-step-by-step-guide/
@@ -26,103 +26,122 @@ url: /vi/net/programming-with-security-and-signatures/create-signed-pdf-in-c-ste
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Tạo PDF đã ký trong C# – Hướng dẫn lập trình đầy đủ
+# Tạo PDF có Chữ ký trong C# – Hướng dẫn Từng bước
 
-Bạn đã bao giờ cần **create signed PDF** từ một ứng dụng .NET nhưng không biết bắt đầu từ đâu chưa? Bạn không phải là người duy nhất. Trong nhiều quy trình doanh nghiệp, một PDF đã ký là mảnh cuối cùng để hoàn thiện hợp đồng, xác thực hoá đơn, hoặc tuân thủ các quy định. Tin tốt là gì? Chỉ với vài dòng C# và Aspose.Pdf, bạn có thể **add digital signature** vào bất kỳ PDF nào trong chớp mắt.
+Bạn đã bao giờ cần **tạo PDF có chữ ký** từ một ứng dụng .NET chưa? Bạn không phải là người duy nhất—các công ty liên tục yêu cầu PDF không thể bị thay đổi cho hợp đồng, hoá đơn hoặc báo cáo pháp lý. Tin tốt là với Aspose.Pdf, bạn có thể thực hiện chỉ trong vài dòng code, và sẽ nhận được một chữ ký pháp lý có thể xác minh trong bất kỳ trình xem PDF nào.
 
-Trong tutorial này, chúng ta sẽ đi qua các bước **how to sign PDF** bằng chứng chỉ PFX, tại sao chữ ký PKCS#7 detached thường là lựa chọn an toàn nhất, và cách **sign PDF with certificate** mà không làm hỏng tài liệu gốc. Khi hoàn thành, bạn sẽ có một mẫu sẵn sàng chạy để tạo PDF đã ký, cùng với các mẹo cho những trường hợp đặc biệt thường gặp.
+Trong tutorial này, chúng ta sẽ đi qua **cách ký PDF** bằng chứng chỉ số, bao gồm mọi bước từ tải tài liệu PDF đến tạo chữ ký PKCS#7 tách rời. Khi hoàn thành, bạn sẽ có một đoạn mã sẵn sàng dùng mà có thể chèn vào bất kỳ dự án C# nào.
+
+> **Nhìn nhanh:** Bạn sẽ học cách **tải tài liệu PDF**, xây dựng **chữ ký PKCS7**, và cuối cùng **ký PDF bằng chứng chỉ** để kết quả là một **tệp PDF có chữ ký** mà bạn có thể phân phối an toàn.
+
+---
 
 ## Những gì bạn cần
 
-- **Aspose.Pdf for .NET** (v23.9 trở lên). Gói NuGet có tên `Aspose.Pdf`.
-- Một chứng chỉ **PKCS#12 (.pfx)** chứa private key mà bạn được phép sử dụng để ký.
-- Runtime .NET 6+ (mã cũng hoạt động trên .NET Framework 4.7+).
-- Một file PDF đơn giản (`toSign.pdf`) mà bạn muốn bảo vệ.
+- **Aspose.Pdf for .NET** (v23.9 trở lên). Cài đặt qua NuGet: `Install-Package Aspose.Pdf`.
+- Một **chứng chỉ PKCS#12 (.pfx)** chứa khóa riêng của bạn.
+- Tệp PDF bạn muốn ký (ví dụ, `input.pdf`).
+- .NET 6+ (bất kỳ runtime hiện đại nào cũng được).
 
-Không cần thư viện phụ, không cần dịch vụ bên ngoài—chỉ những thành phần đã nêu ở trên.
+Không cần thư viện phụ trợ, không cần COM interop—chỉ C# thuần.
 
-![Create signed PDF example](image.png "Screenshot showing create signed pdf process")
+---
 
-*Văn bản thay thế ảnh: “Minh hoạ từng bước cách tạo PDF đã ký bằng C# và Aspose.Pdf”*
+## Bước 1 – Tải tài liệu PDF (how to sign pdf)
 
-## Bước 1 – Tải PDF bạn muốn ký
-
-Trước khi có thể áp dụng bất kỳ chữ ký nào, bạn cần một đối tượng `Document` đại diện cho file nguồn.
+Trước khi bạn có thể áp dụng dấu số, bạn phải đưa tệp nguồn vào bộ nhớ. Đây là nơi từ khóa phụ *load pdf document* xuất hiện một cách tự nhiên.
 
 ```csharp
 using Aspose.Pdf;
 
-// Load the PDF that will be signed
-using var pdfDocument = new Document(@"C:\PDFs\toSign.pdf");
+// Step 1: Load the PDF you want to sign
+string inputPath = @"C:\MyPdfs\input.pdf";
+
+Document pdfDocument = new Document(inputPath);
 ```
 
-*Lý do quan trọng:* `Document` là điểm khởi đầu cho mọi thao tác PDF trong Aspose. Bằng cách dùng câu lệnh `using` chúng ta đảm bảo handle file được giải phóng kịp thời, tránh lỗi “file in use” khi sau này lưu phiên bản đã ký.
+**Tại sao lại quan trọng:** `Document` đại diện cho toàn bộ cấu trúc PDF. Khi tải nó trước, bạn cung cấp cho Aspose một đối tượng có thể thay đổi, cho phép các bước sau chỉnh sửa mà không làm ảnh hưởng tới tệp gốc trên đĩa.
 
-## Bước 2 – Thiết lập Signature Handler
+> **Mẹo chuyên nghiệp:** Nếu PDF nguồn được bảo vệ bằng mật khẩu, truyền mật khẩu vào hàm khởi tạo `Document`: `new Document(inputPath, "pdfPassword")`.
 
-Aspose cung cấp một façade chuyên dụng gọi là `PdfFileSignature` để nhúng chữ ký mà không làm hỏng phần còn lại của file.
+---
+
+## Bước 2 – Chuẩn bị chữ ký PKCS#7 tách rời (create pkcs7 signature)
+
+Một chữ ký PKCS#7 tách rời gói hàm băm của tài liệu cùng với khóa riêng của bạn, nhưng **không nhúng nội dung đã ký**. Điều này giữ nguyên kích thước PDF gốc và là định dạng mà hầu hết trình xem PDF mong đợi.
 
 ```csharp
 using Aspose.Pdf.Facades;
-
-// Create a signature handler for the loaded document
-using var pdfSigner = new PdfFileSignature(pdfDocument);
-```
-
-*Mẹo chuyên nghiệp:* Nếu bạn dự định thêm nhiều chữ ký sau này, giữ `isAppendMode` ở giá trị `true` (chúng ta sẽ làm điều này ở bước tiếp theo). Điều này báo cho thư viện thêm một bản cập nhật tăng dần mới thay vì ghi lại toàn bộ file.
-
-## Bước 3 – Chuẩn bị PKCS#7 Detached Signature
-
-Một **PKCS#7 detached signature** lưu trữ hash của tài liệu riêng biệt khỏi dữ liệu chứng chỉ, giúp việc xác thực dễ dàng hơn và giữ nguyên PDF gốc. Dưới đây là cách cấu hình với SHA‑512, mạnh hơn so với SHA‑256 mặc định.
-
-```csharp
 using Aspose.Pdf.Forms;
 
-// Prepare a PKCS#7 detached signature using SHA‑512 as the digest algorithm
-var pkcsSignature = new PKCS7Detached(
-    @"C:\Certificates\mycert.pfx",   // certificate file
-    "pwd",                           // certificate password
-    DigestHashAlgorithm.Sha512);     // explicit digest algorithm
+// Step 2: Build a PKCS#7 detached signature object
+string certPath = @"C:\MyCerts\certificate.pfx";
+string certPassword = "yourPassword";
+
+PKCS7Detached pkcsSignature = new PKCS7Detached(
+    certPath,                 // Path to the .pfx file
+    certPassword,            // Password for the certificate
+    DigestHashAlgorithm.Sha3_256); // Strong hash algorithm
 ```
 
-*Tại sao lại dùng SHA‑512?* Nhiều tiêu chuẩn tuân thủ (ví dụ, EU eIDAS) khuyến nghị ít nhất hash 256‑bit, và SHA‑512 cung cấp một khoảng an toàn mà không gây ảnh hưởng đáng kể tới hiệu năng.
+**Tại sao lại dùng SHA‑3‑256?** Hiện tại nó được coi mạnh hơn SHA‑2 về khả năng chống va chạm, và nhiều quy định tuân thủ (ví dụ, EU eIDAS) khuyến nghị sử dụng cho các triển khai mới.
 
-## Bước 4 – Áp dụng Digital Signature vào một trang cụ thể
+**Trường hợp đặc biệt:** Nếu chứng chỉ của bạn dùng thuật toán khác (RSA‑2048, ECDSA‑P256, …), chỉ cần thay đổi enum `DigestHashAlgorithm` cho phù hợp. Aspose sẽ tự xử lý phần mã hoá.
 
-Bây giờ chúng ta thực sự **add digital signature** vào PDF. Bạn có thể chọn bất kỳ trang nào và bất kỳ hình chữ nhật nào; hình chữ nhật xác định vị trí hiển thị chữ ký sẽ được đặt.
+---
+
+## Bước 3 – Ký PDF bằng chứng chỉ (create signed pdf)
+
+Bây giờ là phần thú vị: gắn chữ ký vào một trang cụ thể. Chúng ta sẽ làm cho nó hiển thị, nhưng bạn có thể đặt `isVisible` thành `false` để có chữ ký ẩn.
 
 ```csharp
-using System.Drawing;
+// Step 3: Create a PdfFileSignature object – this is the engine that writes the signature
+using var pdfSignature = new PdfFileSignature(pdfDocument);
 
-// Apply the digital signature to page 1 at the desired rectangle
-pdfSigner.Sign(
-    pageNumber: 1,                     // page index starts at 1
-    isAppendMode: true,                // keep existing signatures intact
-    signatureRectangle: new Rectangle(100, 100, 200, 150),
-    pkcsSignature);
+// Define where the signature will appear (x1, y1, x2, y2) in points.
+// Here we place it near the bottom‑right of page 1.
+Rectangle signatureRect = new Rectangle(100, 100, 200, 150);
+
+// Apply the signature
+pdfSignature.Sign(
+    pageNumber: 1,          // 1‑based page index
+    isVisible: true,        // Show signature appearance
+    signatureRectangle: signatureRect,
+    signature: pkcsSignature);
 ```
 
-*Câu hỏi thường gặp:* “Nếu tôi không muốn chữ ký hiển thị thì sao?”  
-Chỉ cần truyền `null` cho `signatureRectangle` và thư viện sẽ tạo một chữ ký ẩn (không có annotation), rất hữu ích cho các quy trình backend.
+**Tại sao lại dùng hình chữ nhật?** Tọa độ PDF được đo từ góc dưới‑trái. Điều chỉnh hình chữ nhật cho phép bạn kiểm soát vị trí chính xác—rất thích hợp để dán một dòng chữ ký trên các mẫu pháp lý.
 
-## Bước 5 – Lưu PDF đã ký
+**Cần nhiều chữ ký?** Lặp lại lệnh `Sign` với `pageNumber` và hình chữ nhật khác nhau. Mỗi lần gọi sẽ tạo một bản cập nhật tăng dần, giữ nguyên các chữ ký trước đó.
 
-Cuối cùng, ghi tài liệu đã ký ra đĩa. Bạn có thể giữ file gốc nguyên vẹn và xuất ra một file mới.
+---
+
+## Bước 4 – Lưu và Xác minh PDF đã ký
+
+Cuối cùng, ghi tệp đã ký ra đĩa. Bạn cũng có thể xác minh chữ ký bằng chương trình, nhưng hầu hết người dùng sẽ mở PDF trong Adobe Acrobat hoặc bất kỳ trình xem nào hiển thị dấu kiểm màu xanh lá.
 
 ```csharp
-// Save the signed PDF to a new file
-pdfSigner.Save(@"C:\PDFs\signed_sha512.pdf");
+// Step 4: Persist the signed PDF
+string outputPath = @"C:\MyPdfs\signed_output.pdf";
+pdfSignature.Save(outputPath);
+
+// Optional: Quick verification (throws if invalid)
+bool isValid = pdfSignature.VerifySignature();
+Console.WriteLine(isValid
+    ? "Signature applied successfully."
+    : "Signature verification failed.");
 ```
 
-Khi mở `signed_sha512.pdf` trong Adobe Acrobat hoặc bất kỳ trình xem PDF nào hỗ trợ chữ ký, bạn sẽ thấy một dấu kiểm màu xanh lá (hoặc hình ảnh bạn đã định nghĩa) và thông tin chi tiết của chứng chỉ.
+**Kết quả:** `signed_output.pdf` hiện chứa một chữ ký số hiển thị trên trang 1. Mở nó trong Acrobat sẽ hiển thị tên người ký, chi tiết chứng chỉ, và biểu ngữ “Signed and all signatures are valid”.
 
-## Ví dụ làm việc đầy đủ
+---
 
-Kết hợp tất cả lại, đây là một chương trình sẵn sàng copy‑paste:
+## Ví dụ Hoạt động Đầy đủ (Tất cả các Bước Kết hợp)
+
+Dưới đây là chương trình hoàn chỉnh, sẵn sàng chạy. Dán vào một dự án console mới và điều chỉnh đường dẫn tệp.
 
 ```csharp
 using System;
-using System.Drawing;
 using Aspose.Pdf;
 using Aspose.Pdf.Facades;
 using Aspose.Pdf.Forms;
@@ -132,93 +151,79 @@ class Program
     static void Main()
     {
         // 1️⃣ Load the PDF you want to sign
-        using var pdfDocument = new Document(@"C:\PDFs\toSign.pdf");
+        string inputPath = @"C:\MyPdfs\input.pdf";
+        Document pdfDocument = new Document(inputPath);
 
-        // 2️⃣ Create the signature handler
-        using var pdfSigner = new PdfFileSignature(pdfDocument);
+        // 2️⃣ Prepare a PKCS#7 detached signature
+        string certPath = @"C:\MyCerts\certificate.pfx";
+        string certPassword = "yourPassword";
+        PKCS7Detached pkcsSignature = new PKCS7Detached(
+            certPath,
+            certPassword,
+            DigestHashAlgorithm.Sha3_256);
 
-        // 3️⃣ Build a PKCS#7 detached signature (SHA‑512)
-        var pkcsSignature = new PKCS7Detached(
-            @"C:\Certificates\mycert.pfx",
-            "pwd",
-            DigestHashAlgorithm.Sha512);
-
-        // 4️⃣ Sign page 1 – you can change pageNumber or rectangle as needed
-        pdfSigner.Sign(
+        // 3️⃣ Sign the PDF (visible signature on page 1)
+        using var pdfSignature = new PdfFileSignature(pdfDocument);
+        Rectangle rect = new Rectangle(100, 100, 200, 150);
+        pdfSignature.Sign(
             pageNumber: 1,
-            isAppendMode: true,
-            signatureRectangle: new Rectangle(100, 100, 200, 150),
-            pkcsSignature);
+            isVisible: true,
+            signatureRectangle: rect,
+            signature: pkcsSignature);
 
-        // 5️⃣ Save the result
-        pdfSigner.Save(@"C:\PDFs\signed_sha512.pdf");
+        // 4️⃣ Save the signed document
+        string outputPath = @"C:\MyPdfs\signed_output.pdf";
+        pdfSignature.Save(outputPath);
 
-        Console.WriteLine("✅ PDF signed successfully!");
+        // Quick verification (optional)
+        bool ok = pdfSignature.VerifySignature();
+        Console.WriteLine(ok
+            ? "✅ create signed pdf succeeded."
+            : "❌ Signature verification failed.");
     }
 }
 ```
 
-Chạy chương trình, bạn sẽ thấy thông báo console xác nhận thành công. Mở file đầu ra, kiểm tra bảng chữ ký, và bạn sẽ thấy thông tin chứng chỉ mà bạn đã cung cấp.
+**Kết quả mong đợi** khi bạn chạy chương trình:
 
-## Cách ký PDF – Các biến thể thường gặp
-
-### Ký nhiều trang
-
-Nếu bạn cần **add digital signature** trên hơn một trang, hãy gọi `pdfSigner.Sign` nhiều lần với các giá trị `pageNumber` khác nhau. Vì chúng ta đã dùng `isAppendMode: true`, mỗi lần gọi sẽ tạo một bản cập nhật tăng dần mới, giữ nguyên các chữ ký trước đó.
-
-### Thay đổi thuật toán băm
-
-Một số hệ thống legacy chỉ hỗ trợ SHA‑256. Thay `DigestHashAlgorithm.Sha512` bằng `DigestHashAlgorithm.Sha256` trong hàm khởi tạo `PKCS7Detached`. Phần còn lại của mã không thay đổi.
-
-### Tạo chữ ký ẩn
-
-```csharp
-pdfSigner.Sign(
-    pageNumber: 1,
-    isAppendMode: true,
-    signatureRectangle: null,   // no visible appearance
-    pkcsSignature);
+```
+✅ create signed pdf succeeded.
 ```
 
-Chữ ký ẩn là lựa chọn hoàn hảo cho các quy trình batch tự động nơi không cần hiển thị hình ảnh chữ ký.
+Mở `signed_output.pdf` → bạn sẽ thấy một trường chữ ký với tên chứng chỉ của mình.
 
-### Xác thực chữ ký bằng chương trình
+---
 
-Aspose cũng cho phép bạn validate signatures:
+## Câu hỏi Thường gặp & Trường hợp Đặc biệt
 
-```csharp
-using Aspose.Pdf.Facades;
+| Câu hỏi | Trả lời |
+|----------|--------|
+| *Tôi có thể ký một PDF đã có chữ ký chưa?* | Có. Aspose sẽ thêm một bản cập nhật tăng dần, giữ nguyên các chữ ký hiện có. Chỉ cần gọi `Sign` lại với một hình chữ nhật mới. |
+| *Nếu chứng chỉ dùng thuật toán băm khác thì sao?* | Thay `DigestHashAlgorithm.Sha3_256` bằng `Sha256`, `Sha384`, … API sẽ tự động chọn nhà cung cấp mã hoá phù hợp. |
+| *Có bắt buộc phải có chữ ký hiển thị để tuân thủ không?* | Không phải luôn luôn. Một số quy định chấp nhận chữ ký ẩn (detached). Đặt `isVisible: false` và bỏ qua hình chữ nhật. |
+| *Làm sao ký nhiều trang cùng lúc?* | Dùng vòng lặp qua các trang cần ký: `for (int i = 1; i <= pdfDocument.Pages.Count; i++) { pdfSignature.Sign(i, true, rect, pkcsSignature); }` |
+| *Nếu PDF rất lớn (hàng trăm MB) thì sao?* | Sử dụng `PdfFileSignature` cùng `SignatureAppearance` để stream tệp thay vì tải toàn bộ vào bộ nhớ. Điều này giảm tiêu thụ RAM. |
 
-var verifier = new PdfFileSignature(@"C:\PDFs\signed_sha512.pdf");
-bool isValid = verifier.VerifySignature(pageNumber: 1);
-Console.WriteLine(isValid ? "Signature valid" : "Signature invalid");
-```
+---
 
-### Xử lý PDF có mật khẩu
+## Mẹo Chuyên nghiệp cho Môi trường Sản xuất
 
-Nếu PDF nguồn được mã hoá, hãy mở nó bằng mật khẩu trước:
+- **Cache chứng chỉ** nếu bạn ký nhiều PDF liên tiếp; việc tải `.pfx` liên tục sẽ gây tốn thời gian.
+- **Đặt giao diện tùy chỉnh** (logo, tên người ký) bằng cách cung cấp một `Image` cho `PdfFileSignature`.
+- **Ghi log siêu dữ liệu chữ ký** (thời gian ký, thuật toán băm) để tạo chuỗi kiểm toán.
+- **Xác thực chuỗi chứng chỉ** trước khi ký để tránh nhúng chứng chỉ đã hết hạn hoặc bị thu hồi.
 
-```csharp
-var pdfDoc = new Document(@"C:\PDFs\protected.pdf", "pdfPassword");
-```
-
-Sau đó tiếp tục các bước như bình thường. Chữ ký sẽ được áp dụng lên nội dung đã mã hoá.
-
-## Mẹo chuyên nghiệp & Những cạm bẫy thường gặp
-
-- **Không bao giờ hard‑code mật khẩu** trong code production. Sử dụng vault bảo mật hoặc biến môi trường.
-- **Giữ private key của chứng chỉ được bảo vệ.** Nếu file `.pfx` bị lộ, bất kỳ ai cũng có thể giả mạo tài liệu.
-- **Kiểm tra trên các trình xem PDF khác nhau.** Một số reader cũ có thể không hiển thị chữ ký đúng nếu stream hiển thị bị thiếu.
-- **Lưu incremental quan trọng.** Nếu bạn đặt `isAppendMode` thành `false`, các chữ ký hiện có sẽ bị vô hiệu vì toàn bộ file được ghi lại.
-- **Cẩn thận với việc xoay trang.** Tọa độ hình chữ nhật dựa trên hướng ban đầu của trang; các trang đã xoay có thể cần điều chỉnh tọa độ.
+---
 
 ## Kết luận
 
-Chúng ta vừa minh họa cách **create signed PDF** trong C# bằng Aspose.Pdf, bao gồm mọi bước từ tải tài liệu đến **sign PDF with certificate**, tạo **PKCS#7 signature**, và lưu kết quả. Mã mẫu hoàn toàn hoạt động, và các giải thích cung cấp “tại sao” cho mỗi bước, giúp bạn dễ dàng tùy chỉnh cho dự án của mình.
+Bạn đã biết cách **tạo PDF có chữ ký** trong C# bằng Aspose.Pdf, từ việc tải tài liệu, tạo **chữ ký PKCS7 tách rời** cho tới việc áp dụng **chữ ký bằng chứng chỉ**. Mô hình này hoạt động cho hợp đồng một trang, báo cáo đa trang, và thậm chí các pipeline xử lý hàng loạt.
 
-Sẵn sàng cho thử thách tiếp theo? Hãy kết hợp cách này với **add digital signature** để batch‑process hàng trăm hoá đơn, hoặc khám phá dịch vụ timestamp để tăng cường non‑repudiation. Giờ đây bạn đã có nền tảng vững chắc cho bất kỳ quy trình ký số dựa trên .NET nào.
+Tiếp theo, hãy khám phá **cách ký PDF với cơ quan thời gian** hoặc **nhúng giao diện chữ ký tùy chỉnh**. Cả hai chủ đề đều giúp bạn hiểu sâu hơn về chữ ký số và duy trì lợi thế tuân thủ.
 
-*Chúc lập trình vui vẻ, và chúc các PDF của bạn luôn được ký một cách an toàn!*
+Hãy thử—ký một hợp đồng mẫu, xác minh trong Adobe Acrobat, rồi tích hợp mã vào quy trình của bạn. Nếu gặp khó khăn, hãy để lại bình luận bên dưới hoặc tham khảo tài liệu chính thức của Aspose để biết thêm ví dụ.
+
+Chúc lập trình vui vẻ, và chúc PDF của bạn luôn không thể bị thay đổi!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

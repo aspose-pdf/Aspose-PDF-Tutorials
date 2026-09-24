@@ -38,6 +38,13 @@
 | [Ενημέρωση διαστάσεων σελίδας PDF](./update-dimensions/) | Ανακαλύψτε πώς να ενημερώνετε τις διαστάσεις σελίδας PDF χωρίς κόπο με το Aspose.PDF για .NET σε αυτόν τον ολοκληρωμένο, βήμα προς βήμα οδηγό. |  
 | [Μεγέθυνση στα περιεχόμενα της σελίδας σε αρχείο PDF](./zoom-to-page-contents/) | Μάθετε πώς να κάνετε ζουμ στα περιεχόμενα σελίδας σε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET σε αυτόν τον ολοκληρωμένο οδηγό. Βελτιώστε τα έγγραφα PDF σας σύμφωνα με τις συγκεκριμένες ανάγκες σας. |
 | [Προσθήκη αριθμών σελίδας PDF με C# – Πλήρης οδηγός βήμα‑βήμα](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Μάθετε πώς να προσθέσετε αριθμούς σελίδων σε PDF χρησιμοποιώντας C# με αναλυτικές οδηγίες βήμα‑βήμα. |
+| [Αναδιάταξη σελίδων PDF σε C# – Πλήρης οδηγός βήμα‑βήμα](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | Μάθετε πώς να αναδιατάξετε τις σελίδες ενός PDF χρησιμοποιώντας C# και Aspose.PDF για .NET με αυτόν τον πλήρη οδηγό βήμα‑βήμα. |
+| [Προσθήκη αριθμού Bates σε C# – Οδηγός βήμα‑βήμα](./add-bates-numbering-in-c-step-by-step-guide/) | Μάθετε πώς να προσθέσετε αριθμητική Bates σε έγγραφα PDF χρησιμοποιώντας C# με οδηγίες βήμα‑βήμα. |
+| [Προσθήκη σελίδων σε PDF – Οδηγός βήμα‑βήμα για προγραμματιστές C#](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) | Μάθετε πώς να προσθέσετε νέες σελίδες σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με C# σε αυτόν τον οδηγό βήμα‑βήμα. |
+| [Δημιουργία PDF Εγγράφου C# – Προσθήκη Αρίθμησης Bates](./create-pdf-document-c-add-bates-numbering/) | Μάθετε πώς να προσθέσετε αρίθμηση Bates σε PDF με C# και Aspose.PDF. |
+| [Προσθήκη Αρίθμησης Bates σε PDF – Οδηγός βήμα‑βήμα για την αρίθμηση σελίδων PDF](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Μάθετε πώς να προσθέσετε αρίθμηση Bates σε PDF χρησιμοποιώντας C# και Aspose.PDF, με αναλυτικές οδηγίες βήμα‑βήμα. |
+| [Δημιουργία PDF Εγγράφου C# – Οδηγός Προσθήκης Σχημάτων & Κενών Σελίδων](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Μάθετε πώς να δημιουργήσετε PDF με C#, προσθέτοντας σχήματα και κενές σελίδες, βήμα‑βήμα οδηγός. |
+| [Προσθήκη αρίθμησης Bates σε PDF με Aspose – Πλήρης οδηγός](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Μάθετε πώς να προσθέσετε αρίθμηση Bates σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με αυτόν τον πλήρη οδηγό βήμα‑βήμα. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -46,3 +53,24 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Aspose PDF Tutorial – Εισαγωγή κενής σελίδας και ενημέρωση αριθμού Bates](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Μάθετε πώς να εισάγετε μια κενή σελίδα σε PDF και να ενημερώσετε τη αρίθμηση Bates χρησιμοποιώντας το Aspose.PDF για .NET. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+| [Δημιουργία Κενής Σελίδας PDF – Πλήρης Εκπαίδευση Σχεδίασης PDF](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Μάθετε πώς να δημιουργήσετε μια κενή σελίδα PDF χρησιμοποιώντας το Aspose.PDF για .NET σε αυτόν τον πλήρη οδηγό σχεδίασης. |
+| [Προσθήκη Σελίδων σε PDF με Aspose – Πλήρης Οδηγός C#](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Οδηγός βήμα προς βήμα για την προσθήκη σελίδων σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με C#. |
+| [Δημιουργία εγγράφου PDF σε C# – Προσθήκη σελίδας & Ορθογώνιο](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) | Μάθετε πώς να δημιουργήσετε ένα PDF, να προσθέσετε σελίδα και να σχεδιάσετε ορθογώνιο σε C# με Aspose.PDF. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

@@ -1,129 +1,151 @@
 ---
 category: general
-date: 2026-04-06
-description: Készíts aláírt PDF-et C#-ban gyorsan az Aspose.Pdf segítségével. Tanulja
-  meg, hogyan lehet PDF-et tanúsítvánnyal aláírni, digitális aláírást hozzáadni, és
-  percek alatt PKCS7 aláírást létrehozni.
+date: 2026-02-22
+description: Készítsen gyorsan aláírt PDF-et az Aspose.Pdf segítségével. Tanulja meg,
+  hogyan lehet tanúsítvánnyal aláírni a PDF-et, betölteni a PDF-dokumentumot, és PKCS7
+  aláírást létrehozni C#-ban.
 draft: false
 keywords:
 - create signed pdf
 - how to sign pdf
-- add digital signature
 - sign pdf with certificate
+- load pdf document
 - create pkcs7 signature
 language: hu
-og_description: Aláírt PDF létrehozása C#-ban az Aspose.Pdf segítségével. Ez az útmutató
-  bemutatja, hogyan lehet tanúsítvánnyal aláírni a PDF-et, digitális aláírást hozzáadni,
+og_description: Aláírt PDF létrehozása C#-ban az Aspose.Pdf használatával. Ez az útmutató
+  bemutatja, hogyan lehet tanúsítvánnyal aláírni a PDF-et, betölteni a PDF-dokumentumot,
   és PKCS7 aláírást létrehozni.
 og_title: Aláírt PDF létrehozása C#-ban – Teljes programozási útmutató
 tags:
+- Aspose.Pdf
 - C#
-- PDF
 - Digital Signature
-title: Aláírt PDF létrehozása C#‑ban – Lépésről‑lépésre útmutató
+title: Aláírt PDF létrehozása C#‑ban – Lépésről lépésre útmutató
 url: /hu/net/programming-with-security-and-signatures/create-signed-pdf-in-c-step-by-step-guide/
 ---
 
-{{< blocks/products/pf/main-wrap-class >}}
+with Hungarian characters.
+
+Proceed.{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# C#‑ban aláírt PDF létrehozása – Teljes programozási útmutató
+# Aláírt PDF létrehozása C#‑ban – Lépésről‑lépésre útmutató
 
-Valaha is szükséged volt **aláírt PDF** fájlok létrehozására egy .NET alkalmazásból, de nem tudtad, hol kezdjed? Nem vagy egyedül. Sok vállalati munkafolyamatban egy aláírt PDF a végső elem, amely lezár egy szerződést, érvényesíti a számlát, vagy megfelel a szabályozásoknak. A jó hír? Néhány C#‑sorral és az Aspose.Pdf‑vel **digitális aláírást** adhatsz bármely PDF‑hez villámgyorsan.
+Volt már szükséged **aláírt PDF** fájlok létrehozására egy .NET alkalmazásból? Nem vagy egyedül — a vállalatok folyamatosan kérnek manipulációálló PDF‑eket szerződésekhez, számlákhoz vagy szabályozási jelentésekhez. A jó hír, hogy az Aspose.Pdf‑vel néhány sor kóddal megteheted, és egy jogilag kötelező érvényű aláírást kapsz, amely bármely PDF‑megjelenítőben ellenőrizhető.
 
-Ebben az útmutatóban lépésről‑lépésre végigvezetünk, **hogyan írjuk alá a PDF‑et** egy PFX tanúsítvánnyal, miért gyakran a PKCS#7 detached aláírás a legbiztonságosabb választás, és hogyan **aláírjuk a PDF‑et tanúsítvánnyal** anélkül, hogy a dokumentumot megsértenénk. A végére egy kész, futtatható példát kapsz, amely aláírt PDF‑et hoz létre, valamint tippeket a gyakori edge‑case‑ekhez.
+Ebben a bemutatóban végigvezetünk a **PDF aláírásának** folyamatán digitális tanúsítvány használatával, a PDF dokumentum betöltésétől a PKCS#7 detached aláírás létrehozásáig. A végére egy kész kódrészletet kapsz, amelyet bármely C# projektbe beilleszthetsz.
+
+> **Gyors áttekintés:** Megtanulod, hogyan **tölts be PDF dokumentumot**, építs **PKCS7 aláírást**, és végül **aláírd a PDF‑et tanúsítvánnyal**, így a végeredmény egy **aláírt PDF** fájl lesz, amelyet biztonságosan terjeszthetsz.
+
+---
 
 ## Amire szükséged lesz
 
-- **Aspose.Pdf for .NET** (v23.9 vagy újabb). A NuGet csomag neve `Aspose.Pdf`.
-- **PKCS#12 (.pfx) tanúsítvány**, amely tartalmaz egy privát kulcsot, amelyet aláíráshoz használhatsz.
-- .NET 6+ futtatókörnyezet (a kód .NET Framework 4.7+ alatt is működik).
-- Egy egyszerű PDF (`toSign.pdf`), amelyet védeni szeretnél.
+- **Aspose.Pdf for .NET** (v23.9 vagy újabb). Telepítés NuGet‑en keresztül: `Install-Package Aspose.Pdf`.
+- Egy **PKCS#12 (.pfx) tanúsítvány**, amely tartalmazza a privát kulcsodat.
+- A PDF, amelyet alá szeretnél írni (pl. `input.pdf`).
+- .NET 6+ (bármely friss futtatókörnyezet megfelelő).
 
-Nincs szükség extra könyvtárakra, külső szolgáltatásokra – csak a fentiekre.
+Nincs szükség extra könyvtárakra, COM interopra — csak tiszta C#.
 
-![Create signed PDF example](image.png "Screenshot showing create signed pdf process")
-*Image alt text: “Step-by-step illustration of how to create signed pdf using C# and Aspose.Pdf”* → *Képaláírás: “Lépésről‑lépésre illusztráció arról, hogyan hozható létre aláírt PDF C#‑val és Aspose.Pdf‑vel”*
+---
 
-## 1. lépés – A PDF betöltése, amelyet alá szeretnél írni
+## 1. lépés – PDF dokumentum betöltése (how to sign pdf)
 
-Mielőtt bármilyen aláírást alkalmaznál, szükséged van egy `Document` objektumra, amely a forrásfájlt képviseli.
+Mielőtt digitális pecsétet helyeznél el, be kell olvasnod a forrásfájlt a memóriába. Itt jelenik meg természetesen a másodlagos kulcsszó *load pdf document*.
 
 ```csharp
 using Aspose.Pdf;
 
-// Load the PDF that will be signed
-using var pdfDocument = new Document(@"C:\PDFs\toSign.pdf");
+// Step 1: Load the PDF you want to sign
+string inputPath = @"C:\MyPdfs\input.pdf";
+
+Document pdfDocument = new Document(inputPath);
 ```
 
-*Miért fontos:* A `Document` az Aspose összes PDF‑műveletének belépési pontja. A `using` utasítás használatával biztosítjuk, hogy a fájlkezelő időben felszabadul, elkerülve a későbbi “fájl használatban” hibákat a mentéskor.
+**Miért fontos:** A `Document` az egész PDF struktúrát képviseli. Ha először betöltöd, az Aspose egy módosítható objektumot kap, amelyet a későbbi lépések a lemezről való közvetlen módosítás nélkül módosíthatnak.
 
-## 2. lépés – Az aláíráskezelő beállítása
+> **Pro tipp:** Ha a forrás‑PDF jelszóval védett, add meg a jelszót a `Document` konstruktorában: `new Document(inputPath, "pdfPassword")`.
 
-Az Aspose egy dedikált felületet biztosít, a `PdfFileSignature`‑t, amely tudja, hogyan ágyazza be az aláírásokat a fájl többi részének sérülése nélkül.
+---
+
+## 2. lépés – PKCS#7 detached aláírás előkészítése (create pkcs7 signature)
+
+A PKCS#7 detached aláírás a dokumentum hash‑ét köti össze a privát kulcsoddal, de **nem ágyazza be a aláírt tartalmat**. Így az eredeti PDF mérete változatlan marad, és ez a formátum a legtöbb PDF‑megjelenítő elvárása.
 
 ```csharp
 using Aspose.Pdf.Facades;
-
-// Create a signature handler for the loaded document
-using var pdfSigner = new PdfFileSignature(pdfDocument);
-```
-
-*Pro tipp:* Ha később több aláírást szeretnél hozzáfűzni, tartsd meg az `isAppendMode` értékét `true`‑ra (ezt a következő lépésben is megteszünk). Ez azt mondja a könyvtárnak, hogy inkrementális frissítést adjon hozzá a teljes fájl újraírása helyett.
-
-## 3. lépés – PKCS#7 detached aláírás előkészítése
-
-Egy **PKCS#7 detached aláírás** a dokumentum hash‑ét külön tárolja a tanúsítvány adataitól, megkönnyítve a verifikációt és érintetlenül hagyva az eredeti PDF‑et. Így állíthatod be SHA‑512‑vel, amely erősebb, mint az alapértelmezett SHA‑256.
-
-```csharp
 using Aspose.Pdf.Forms;
 
-// Prepare a PKCS#7 detached signature using SHA‑512 as the digest algorithm
-var pkcsSignature = new PKCS7Detached(
-    @"C:\Certificates\mycert.pfx",   // certificate file
-    "pwd",                           // certificate password
-    DigestHashAlgorithm.Sha512);     // explicit digest algorithm
+// Step 2: Build a PKCS#7 detached signature object
+string certPath = @"C:\MyCerts\certificate.pfx";
+string certPassword = "yourPassword";
+
+PKCS7Detached pkcsSignature = new PKCS7Detached(
+    certPath,                 // Path to the .pfx file
+    certPassword,            // Password for the certificate
+    DigestHashAlgorithm.Sha3_256); // Strong hash algorithm
 ```
 
-*Miért SHA‑512?* Sok megfelelőségi szabvány (pl. EU eIDAS) legalább 256‑bit hash‑et javasol, és a SHA‑512 kényelmes tartalékot biztosít anélkül, hogy jelentős teljesítménycsökkenést okozna.
+**Miért SHA‑3‑256?** Jelenleg erősebbnek tekintik a SHA‑2‑nél a kollízió‑ellenállás szempontjából, és számos megfelelőségi szabályozás (pl. EU eIDAS) új implementációkhoz ezt ajánlja.
 
-## 4. lépés – Digitális aláírás alkalmazása egy adott oldalra
+**Különleges eset:** Ha a tanúsítványod más algoritmust használ (RSA‑2048, ECDSA‑P256 stb.), egyszerűen állítsd át a `DigestHashAlgorithm` enum értékét a megfelelőre. Az Aspose kezeli a mögöttes kriptográfiát.
 
-Most ténylegesen **digitális aláírást adunk** a PDF‑hez. Bármelyik oldalt és bármelyik téglalapot választhatod; a téglalap határozza meg, hogy hol jelenjen meg a látható aláírás.
+---
+
+## 3. lépés – PDF aláírása tanúsítvánnyal (create signed pdf)
+
+Most jön a szórakoztató rész: az aláírás csatolása egy konkrét oldalra. Látható aláírást készítünk, de beállíthatod az `isVisible` értékét `false`‑ra, ha láthatatlan aláírást szeretnél.
 
 ```csharp
-using System.Drawing;
+// Step 3: Create a PdfFileSignature object – this is the engine that writes the signature
+using var pdfSignature = new PdfFileSignature(pdfDocument);
 
-// Apply the digital signature to page 1 at the desired rectangle
-pdfSigner.Sign(
-    pageNumber: 1,                     // page index starts at 1
-    isAppendMode: true,                // keep existing signatures intact
-    signatureRectangle: new Rectangle(100, 100, 200, 150),
-    pkcsSignature);
+// Define where the signature will appear (x1, y1, x2, y2) in points.
+// Here we place it near the bottom‑right of page 1.
+Rectangle signatureRect = new Rectangle(100, 100, 200, 150);
+
+// Apply the signature
+pdfSignature.Sign(
+    pageNumber: 1,          // 1‑based page index
+    isVisible: true,        // Show signature appearance
+    signatureRectangle: signatureRect,
+    signature: pkcsSignature);
 ```
 
-*Gyakori kérdés:* “Mi van, ha nem akarok látható aláírást?”  
-Egyszerűen add meg a `signatureRectangle`‑nek a `null` értéket, ekkor a könyvtár egy láthatatlan (annotáció‑nélküli) aláírást hoz létre, ami a háttérfolyamatokhoz hasznos.
+**Miért téglalap?** A PDF koordináták a bal‑alsó saroktól indulnak. A téglalap méretének módosításával pontosan szabályozhatod a helyzetet — ideális például egy aláírási sor pecsételéséhez jogi űrlapokon.
 
-## 5. lépés – Az aláírt PDF mentése
+**Mi van, ha több aláírásra van szükség?** Hívjuk meg újra a `Sign` metódust egy másik `pageNumber` és téglalap értékkel. Minden hívás egy új inkrementális frissítést ad hozzá, megőrizve a korábbi aláírásokat.
 
-Végül írjuk a aláírt dokumentumot a lemezre. Az eredeti fájlt érintetlenül hagyhatod, és egy új fájlt hozhatsz létre.
+---
+
+## 4. lépés – Aláírt PDF mentése és ellenőrzése
+
+Végül írjuk a kész aláírt fájlt a lemezre. Programból is ellenőrizheted az aláírást, de a legtöbb felhasználó egyszerűen megnyitja a PDF‑et az Adobe Acrobat‑ban vagy bármelyik nézőben, amely zöld pipa‑ikont jelenít meg.
 
 ```csharp
-// Save the signed PDF to a new file
-pdfSigner.Save(@"C:\PDFs\signed_sha512.pdf");
+// Step 4: Persist the signed PDF
+string outputPath = @"C:\MyPdfs\signed_output.pdf";
+pdfSignature.Save(outputPath);
+
+// Optional: Quick verification (throws if invalid)
+bool isValid = pdfSignature.VerifySignature();
+Console.WriteLine(isValid
+    ? "Signature applied successfully."
+    : "Signature verification failed.");
 ```
 
-Amikor megnyitod a `signed_sha512.pdf`‑t az Adobe Acrobat‑ban vagy bármely aláírást támogató PDF‑olvasóban, egy zöld pipa (vagy a te általad definiált vizuális elem) és a tanúsítvány részletei jelennek meg.
+**Eredmény:** A `signed_output.pdf` most már egy látható digitális aláírást tartalmaz az 1. oldalon. Acrobat‑ban megjelenik az aláíró neve, a tanúsítvány adatai, valamint egy „Signed and all signatures are valid” felirat.
 
-## Teljes működő példa
+---
 
-Az összes lépést egyetlen, másolás‑beillesztésre kész programba foglalva:
+## Teljes működő példa (az összes lépés egyben)
+
+Az alábbi kódrészlet egy komplett, futtatható program. Másold be egy új konzolos projektbe, és állítsd be a fájlútvonalakat.
 
 ```csharp
 using System;
-using System.Drawing;
 using Aspose.Pdf;
 using Aspose.Pdf.Facades;
 using Aspose.Pdf.Forms;
@@ -133,93 +155,79 @@ class Program
     static void Main()
     {
         // 1️⃣ Load the PDF you want to sign
-        using var pdfDocument = new Document(@"C:\PDFs\toSign.pdf");
+        string inputPath = @"C:\MyPdfs\input.pdf";
+        Document pdfDocument = new Document(inputPath);
 
-        // 2️⃣ Create the signature handler
-        using var pdfSigner = new PdfFileSignature(pdfDocument);
+        // 2️⃣ Prepare a PKCS#7 detached signature
+        string certPath = @"C:\MyCerts\certificate.pfx";
+        string certPassword = "yourPassword";
+        PKCS7Detached pkcsSignature = new PKCS7Detached(
+            certPath,
+            certPassword,
+            DigestHashAlgorithm.Sha3_256);
 
-        // 3️⃣ Build a PKCS#7 detached signature (SHA‑512)
-        var pkcsSignature = new PKCS7Detached(
-            @"C:\Certificates\mycert.pfx",
-            "pwd",
-            DigestHashAlgorithm.Sha512);
-
-        // 4️⃣ Sign page 1 – you can change pageNumber or rectangle as needed
-        pdfSigner.Sign(
+        // 3️⃣ Sign the PDF (visible signature on page 1)
+        using var pdfSignature = new PdfFileSignature(pdfDocument);
+        Rectangle rect = new Rectangle(100, 100, 200, 150);
+        pdfSignature.Sign(
             pageNumber: 1,
-            isAppendMode: true,
-            signatureRectangle: new Rectangle(100, 100, 200, 150),
-            pkcsSignature);
+            isVisible: true,
+            signatureRectangle: rect,
+            signature: pkcsSignature);
 
-        // 5️⃣ Save the result
-        pdfSigner.Save(@"C:\PDFs\signed_sha512.pdf");
+        // 4️⃣ Save the signed document
+        string outputPath = @"C:\MyPdfs\signed_output.pdf";
+        pdfSignature.Save(outputPath);
 
-        Console.WriteLine("✅ PDF signed successfully!");
+        // Quick verification (optional)
+        bool ok = pdfSignature.VerifySignature();
+        Console.WriteLine(ok
+            ? "✅ create signed pdf succeeded."
+            : "❌ Signature verification failed.");
     }
 }
 ```
 
-Futtasd a programot, és a konzol üzenet megerősíti a sikeres végrehajtást. Nyisd meg a kimeneti fájlt, ellenőrizd az aláírás panelt, és láthatod a megadott tanúsítvány információkat.
+**Várható kimenet** a program futtatásakor:
 
-## Hogyan írjunk alá PDF‑et – Gyakran feltett változatok
-
-### Több oldal aláírása
-
-Ha **digitális aláírást** szeretnél **több oldalra** is felvinni, hívd meg többször a `pdfSigner.Sign`‑t különböző `pageNumber` értékekkel. Mivel `isAppendMode: true`‑t használtunk, minden hívás új inkrementális frissítést hoz létre, megőrizve a korábbi aláírásokat.
-
-### Másik hash‑algoritmus használata
-
-Néhány régi rendszer csak a SHA‑256‑ot érti. Cseréld le a `DigestHashAlgorithm.Sha512`‑et `DigestHashAlgorithm.Sha256`‑ra a `PKCS7Detached` konstruktorában. A kód többi része változatlan marad.
-
-### Láthatatlan aláírás létrehozása
-
-```csharp
-pdfSigner.Sign(
-    pageNumber: 1,
-    isAppendMode: true,
-    signatureRectangle: null,   // no visible appearance
-    pkcsSignature);
+```
+✅ create signed pdf succeeded.
 ```
 
-A láthatatlan aláírások tökéletesek automatizált kötegelt folyamatokhoz, ahol a vizuális jelzés nem szükséges.
+Nyisd meg a `signed_output.pdf`‑t → egy aláírási mezőt látsz a tanúsítványod nevével.
 
-### Aláírás programozott ellenőrzése
+---
 
-Az Aspose lehetővé teszi az aláírások validálását is:
+## Gyakori kérdések és speciális esetek
 
-```csharp
-using Aspose.Pdf.Facades;
+| Kérdés | Válasz |
+|----------|--------|
+| *Aláírhatok-e olyan PDF‑et, amely már tartalmaz aláírást?* | Igen. Az Aspose inkrementális frissítést ad hozzá, megőrizve a meglévő aláírásokat. Csak hívd újra a `Sign`‑t egy új téglalappal. |
+| *Mi van, ha a tanúsítvány más hash algoritmust használ?* | Cseréld le a `DigestHashAlgorithm.Sha3_256`‑t `Sha256`, `Sha384` stb. értékre. Az API automatikusan a megfelelő kriptográfiai szolgáltatót választja. |
+| *Kötelező-e látható aláírás a megfelelőséghez?* | Nem mindig. Egyes szabályozások elfogadják a láthatatlan (detached) aláírásokat. Állítsd `isVisible: false`‑ra, és hagyd ki a téglalapot. |
+| *Hogyan írhatok alá több oldalt egyszerre?* | Iterálj a szükséges oldalakon: `for (int i = 1; i <= pdfDocument.Pages.Count; i++) { pdfSignature.Sign(i, true, rect, pkcsSignature); }` |
+| *Mi a teendő, ha a PDF hatalmas (százak MB)?* | Használd a `PdfFileSignature`‑t `SignatureAppearance`‑val, hogy a fájlt stream‑ként kezeld a teljes betöltés helyett. Ez csökkenti a RAM‑használatot. |
 
-var verifier = new PdfFileSignature(@"C:\PDFs\signed_sha512.pdf");
-bool isValid = verifier.VerifySignature(pageNumber: 1);
-Console.WriteLine(isValid ? "Signature valid" : "Signature invalid");
-```
+---
 
-### Jelszóval védett PDF‑ek kezelése
+## Pro tippek éles környezetben
 
-Ha a forrás‑PDF titkosított, először nyisd meg a jelszóval:
+- **Cache‑eld a tanúsítványt**, ha egymás után sok PDF‑et írsz alá; a `.pfx` többszöri betöltése felesleges overhead‑et jelent.
+- **Állíts be egyedi megjelenést** (logó, aláíró neve) egy `Image`‑t átadva a `PdfFileSignature`‑nek.
+- **Logold a aláírás metaadatait** (aláírási idő, hash algoritmus) audit‑célokra.
+- **Ellenőrizd a tanúsítványláncot** aláírás előtt, hogy ne ágyazz be lejárt vagy visszavont tanúsítványt.
 
-```csharp
-var pdfDoc = new Document(@"C:\PDFs\protected.pdf", "pdfPassword");
-```
-
-Ezután folytasd a korábbi lépésekkel. Az aláírás a titkosított tartalom tetejére kerül.
-
-## Pro tippek és gyakori buktatók
-
-- **Soha ne hard‑code-olj jelszavakat** éles kódban. Használj biztonságos vault‑okat vagy környezeti változókat.
-- **Tartsd védve a tanúsítvány privát kulcsát.** Ha a `.pfx` fájl nyilvánossá válik, bárki hamisíthat dokumentumokat.
-- **Tesztelj különböző PDF‑olvasókkal.** Egyes régebbi olvasók nem jelenítik meg helyesen az aláírást, ha a megjelenítési stream hiányzik.
-- **Az inkrementális mentés számít.** Ha `isAppendMode`‑t `false`‑ra állítod, a meglévő aláírások érvénytelenek lesznek, mivel a teljes fájl újraíródik.
-- **Figyelj a laprotációra.** A téglalap koordinátái a lap eredeti orientációjához viszonyulnak; a forgatott oldalakhoz módosított koordinátákra lehet szükség.
+---
 
 ## Összegzés
 
-Most bemutattuk, hogyan **hozhatsz létre aláírt PDF‑et** C#‑ban az Aspose.Pdf segítségével, a dokumentum betöltésétől a **PDF aláírása tanúsítvánnyal**, a **PKCS#7 aláírás** létrehozásáig, és a mentésig. A minta kód teljesen működőképes, a magyarázatok pedig a „miért” kérdésre adnak választ, így könnyen adaptálható a saját projektjeidhez.
+Most már tudod, hogyan **hozz létre aláírt PDF‑et** C#‑ban az Aspose.Pdf segítségével, a dokumentum betöltésétől a **PKCS7 detached aláírás** generálásáig, majd a **tanúsítvánnyal történő aláírás** végrehajtásáig. A bemutatott minta egyoldalas szerződésekhez, többoldalas jelentésekhez és akár kötegelt feldolgozási csővezetékekhez is alkalmazható.
 
-Készen állsz a következő kihívásra? Próbáld meg kombinálni ezt a megközelítést **digitális aláírás hozzáadásával** kötegesen több száz számla feldolgozásához, vagy fedezd fel az időbélyegző szolgáltatásokat a még erősebb nem‑tagadhatóság érdekében. Most már szilárd alapod van bármely .NET‑alapú digitális aláírási munkafolyamathoz.
+Ezután érdemes megismerned a **PDF aláírás időbélyegző hatóságokkal** vagy a **testreszabott aláírási megjelenés beágyazása** témákat. Mindkettő mélyíti a digitális aláírások megértését és segít a megfelelőségi követelmények előtt járni.
 
-*Boldog kódolást, és legyenek a PDF‑eid mindig biztonságosan aláírva!*
+Próbáld ki — aláírj egy teszt szerződést, ellenőrizd az Adobe Acrobat‑ban, majd integráld a kódot a saját munkafolyamatodba. Ha bármilyen problémába ütközöl, írj egy megjegyzést lent, vagy nézd meg az Aspose hivatalos dokumentációját további példákért.
+
+Boldog kódolást, és maradjanak a PDF‑jeid manipulációállóak!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

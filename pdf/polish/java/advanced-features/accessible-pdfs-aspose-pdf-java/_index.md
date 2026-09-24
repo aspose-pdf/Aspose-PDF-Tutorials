@@ -1,13 +1,13 @@
 ---
-date: '2025-12-01'
-description: Naucz się tworzyć dostępne pliki PDF w języku Java przy użyciu Aspose.PDF.
-  Ten przewodnik pokazuje, jak ustawić tytuł PDF, język oraz wygenerować oznaczony
-  PDF z nagłówkami i akapitami.
+date: '2026-02-14'
+description: Dowiedz się, jak oznaczać pliki PDF w Javie przy użyciu Aspose.PDF, w
+  tym jak dodać tekst alternatywny do PDF oraz dodać akapit w PDF w Javie, aby zapewnić
+  pełną dostępność.
 keywords:
 - accessible PDFs
 - Aspose.PDF for Java
 - Java PDF generation
-title: Tworzenie dostępnego PDF w Javie z Aspose.PDF – Pełny przewodnik
+title: Jak tagować PDF w Javie przy użyciu Aspose.PDF – pełny przewodnik
 url: /pl/java/advanced-features/accessible-pdfs-aspose-pdf-java/
 weight: 1
 ---
@@ -17,39 +17,43 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Tworzenie dostępnych plików PDF w Javie z Aspose.PDF – Pełny przewodnik
+# Jak opatrzony PDF w Javie przy użyciu Aspose.PDF – Pełny przewodnik
 
-W tym samouczku **utworzysz dostępne dokumenty PDF** przy użyciu Aspose.PDF dla Javy. Przeprowadzimy Cię przez ustawianie tytułu PDF, języka oraz generowanie **oznaczonego PDF** z odpowiednimi nagłówkami (H1‑H6) i strukturą akapitów, aby czytniki ekranu mogły łatwo nawigować po Twoich plikach.
+W tym samouczku **dowiesz się, jak zawsze PDF** przy użyciu Aspose.PDF dla Javy. Przejdziemy przez ustawienie tytułu PDF, języka oraz generowanie **oznaczonego PDF** z zarządzającymi nagłówkami (H1‑H6) i strukturą akapitów, aby czytniki ekranu głównego bezproblemowo nawigowały po twoich plikach. Na koniec zobacz także, jak **dodaj tekst alternatywny pdf** do obrazów oraz **dodaj akapit pdf java**, aby zapewnić w pełni dostępne dokumenty.
 
-**Czego się nauczysz**
-- Jak skonfigurować Aspose.PDF dla Javy w Mavenie lub Gradle.
-- Jak **ustawić tytuł PDF** i **ustawić język PDF** dla lepszej dostępności.
-- Jak **generować zawartość oznaczonego PDF** z nagłówkami i akapitami.
-- Jak zapisać dokument, zachowując wszystkie znaczniki dostępności.
+**Co się nauczysz**
+- Jak zapewnić Aspose.PDF dla Javy w Mavenie lub Gradle.
+- Jak **ustawić tytuł PDF** i **ustawić język PDF** dla bezpieczeństwa.
+- Jak **generować oznaczony PDF** z nagłówkami i akapitami.
+- Jak **dodaj tekst alternatywny pdf** do obrazów oraz **dodaj akapit pdf java** dla tekstu strukturalnego.
+- Jak zapisać dokument, zostawić wszystkie znaczniki.
 
 Zaczynajmy!
 
 ## Szybkie odpowiedzi
-- **Jaka jest główna korzyść z oznaczonego PDF?** Zapewnia logiczną strukturę, którą mogą odczytywać technologie wspomagające.
-- **Która biblioteka pomaga tworzyć dostępne PDF w Javie?** Aspose.PDF for Java.
-- **Czy potrzebna jest licencja do rozwoju?** Tymczasowa licencja usuwa ograniczenia wersji próbnej; pełna licencja jest wymagana w produkcji.
-- **Czy mogę ustawić język PDF?** Tak, używając metody `setLanguage` w oznaczonej treści.
-- **Czy ten przewodnik jest kompatybilny z Java 8+?** Absolutnie – kod działa z JDK 8 i nowszymi.
+- **Jaka jest główna konstrukcja z oznaczeniem PDF?** Zapewnia logiczną strukturę, która może zawierać technologie wspierające.
+- **Która biblioteka pomaga stworzyć dostępny PDF w Javie?** Aspose.PDF dla Java.
+- **Czy licencja jest dostępna dla rozwoju?** Tymczasowa licencja na wersję próbną; pełny licencjat jest wymagany w produkcji.
+- **Czy mogę skonfigurować język PDF?** Tak, korzystając z metod `setLanguage` na oznaczonej treści.
+- **Czy ten przewodnik jest podłączony z Java8+?** Zdecydowanie – kod działa z JDK8 i terazszymi.
 
-## Co to jest oznaczony PDF i dlaczego tworzyć dostępny PDF?
-**Oznaczony PDF** zawiera ukryte metadane definiujące kolejność czytania, nagłówki, akapity, tabele i inne elementy strukturalne. Te metadane są kluczowe dla czytników ekranu, umożliwiając osobom z wadami wzroku nawigację po dokumentach tak, jak po stronie internetowej.
+## Jak oznaczyć plik PDF w Javie za pomocą Aspose.PDF
+**Oznaczony PDF** zawiera ukryte metadane definiujące wyszukiwanie czytania, nagłówki, akapity, tabele i inne elementy strukturalne. Te metadane są kluczowe dla czytników ekranu, umożliwiają dostęp do nawigacji po dokumentach tak, jak po stronie internetowej.
 
-## Dlaczego używać Aspose.PDF dla Javy?
-Aspose.PDF oferuje rozbudowane API do tworzenia, edycji i konwersji plików PDF bez konieczności używania Adobe Acrobat. Jego **przewodnik po dostępności PDF** zawiera wbudowane wsparcie dla tagowania, ustawień języka i niestandardowych struktur, co czyni go najlepszym wyborem dla programistów, którzy muszą **tworzyć dostępne PDF** szybko i niezawodnie.
+## Co to jest plik PDF ze znacznikami i po co tworzyć dostępny plik PDF?
+**Oznaczony PDF** zawiera ukryte metadane definiujące wyszukiwanie czytania, nagłówki, akapity, tabele i inne elementy strukturalne. Te metadane są kluczowe dla czytników ekranu, umożliwiają dostęp do nawigacji po dokumentach tak, jak po stronie internetowej.
 
-## Prerequisites
-- **Java Development Kit (JDK)** – wersja 8 lub wyższa.
+## Dlaczego warto używać Aspose.PDF dla Java?
+Aspose.PDF oferuje szeroką gamę API do tworzenia, edytowania i konwertowania plików PDF bez konieczności konieczności stosowania programu Adobe Acrobat. Jego **przewodnik po PDF** zawiera wsparcie dla tagowania, narzędzi języka i konstrukcji, co zapewnia działanie dla programistów, którzy ** tworzą dostępny PDF** szybko i niezawodnie.
+
+## Warunki wstępne
+- **Java Development Kit (JDK)** – wersja 8 lub wyższa.
 - **Maven** lub **Gradle** – do zarządzania zależnościami.
 - IDE, takie jak IntelliJ IDEA lub Eclipse.
-- Tymczasowa lub pełna licencja Aspose.PDF (opcjonalnie do oceny).
+- Tymczasowa lub pełna licencjat Aspose.PDF (opcjonalnie do oceny).
 
-### Required Libraries
-Dodaj zależność Aspose.PDF do swojego pliku budowania.
+### Wymagane biblioteki
+Dodaj dodatek Aspose.PDF do swojego pliku strukturalnego.
 
 ```xml
 <dependency>
@@ -63,24 +67,24 @@ Dodaj zależność Aspose.PDF do swojego pliku budowania.
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### License Acquisition
-Możesz uzyskać tymczasową licencję od Aspose, aby wypróbować wszystkie funkcje bez ograniczeń wersji próbnej. Odwiedź [Aspose Temporary License Page](https://purchase.aspose.com/temporary-license/) po szczegóły.
+### Nabycie licencji
+Możesz uzyskać tymczasową dostawę od Aspose, aby sprawdzić pełne funkcje bez ograniczeń wersji próbnej. Odwiedź [Stronę tymczasowej licencji Aspose](https://purchase.aspose.com/temporary-license/), aby uzyskać dane szczegółowe.
 
-## Setting Up Aspose.PDF for Java
+## Konfigurowanie Aspose.PDF dla Javy
 
-### 1. Install the Library
-Jeśli używasz Maven lub Gradle, zależność automatycznie pobierze pliki JAR. W przeciwnym razie pobierz najnowszy JAR ze [strony pobierania Aspose PDF Java](https://releases.aspose.com/pdf/java/) i dodaj go do classpathu swojego projektu.
+### 1. Zainstaluj bibliotekę
+Jeśli zastosuje się Maven lub Gradle, automatycznie pobierze pliki JAR. W razie wypadku pobierz ostatni JAR ze [strony pobrania Aspose PDF Java](https://releases.aspose.com/pdf/java/) i dodaj go do dziedzictwa klasowego swojego projektu.
 
-### 2. Apply Your License
-Zastosowanie licencji usuwa znak wodny wersji próbnej i odblokowuje wszystkie funkcje.
+### 2. Zastosuj licencję
+Aplikacja udostępnia znak wodny wersji próbnej i odblokowuje wszystkie funkcje.
 
 ```java
 com.aspose.pdf.License license = new com.aspose.pdf.License();
 license.setLicense("path/to/your/license/file");
 ```
 
-### 3. Initialize the Document Object
-Utwórz nową instancję `Document` – jest to punkt wejścia dla wszystkich operacji PDF.
+### 3. Zainicjuj obiekt dokumentu
+Utwórz nową instancję `Document` – jest to punkt wejścia dla wszystkich operacji na PDF.
 
 ```java
 import com.aspose.pdf.Document;
@@ -90,9 +94,9 @@ import com.aspose.pdf.tagged.ITaggedContent;
 Document document = new Document();
 ```
 
-## Configuring Accessibility Features
+## Konfigurowanie funkcji ułatwień dostępu
 
-### Set PDF Title and Language
+### Ustaw tytuł i język pliku PDF
 Ustawienie znaczącego tytułu i języka pomaga technologiom wspomagającym prawidłowo ogłaszać dokument.
 
 ```java
@@ -101,10 +105,10 @@ taggedContent.setTitle("Tagged Pdf Document");
 taggedContent.setLanguage("en-US");
 ```
 
-## Building the Document Structure
+## Budowanie struktury dokumentu
 
-### Access the Root Element
-Element główny jest kontenerem dla wszystkich elementów struktury logicznej (nagłówki, akapity itp.).
+### Dostęp do elementu głównego
+Element root jest kontenerem dla wszystkich elementów struktury logicznej (nagłówki, akapity itp.).
 
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.StructureElement;
@@ -113,7 +117,7 @@ import com.aspose.pdf.tagged.logicalstructure.elements.bls.HeaderElement;
 StructureElement rootElement = taggedContent.getRootElement();
 ```
 
-### Adding Header Elements (H1‑H6)
+### Dodawanie elementów nagłówka (H1‑H6)
 Nagłówki zapewniają przejrzystą hierarchię. Poniżej tworzymy nagłówek H1; powtarzaj wzorzec dla H2‑H6 w razie potrzeby.
 
 ```java
@@ -123,7 +127,7 @@ headerElements(rootElement, h1, "Level 1 Header");
 // Repeat for other levels H2-H6...
 ```
 
-#### Helper Method to Append Headers
+#### Metoda pomocnicza do dodawania nagłówków
 Poniższa metoda upraszcza dodawanie nagłówka wraz z powiązanym tekstem.
 
 ```java
@@ -139,8 +143,8 @@ public void headerElements(StructureElement parent, HeaderElement header, String
 }
 ```
 
-### Adding Paragraph Elements with Span Elements
-Akapity grupują powiązane zdania. Użycie elementów span pozwala zastosować formatowanie tekstu bogatego przy zachowaniu dostępności.
+### Dodawanie elementów akapitu z elementami rozszerzonymi
+Akapity grupują powiązane zdania. Użycie elementów span pozwala na stosowanie formatowania tekstu bogatego przy jednoczesnym zachowaniu dostępności.
 
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.ParagraphElement;
@@ -150,8 +154,8 @@ ParagraphElement p = taggedContent.createParagraphElement();
 rootElement.appendChild(p);
 ```
 
-#### Helper Method for Rich Text Paragraphs
-Ta metoda dodaje prefiks i tablicę fragmentów tekstu do akapitu.
+#### Metoda pomocnicza dla akapitów w formacie RTF
+Ta metoda dodaje prefiks i tablicę fragmentów tekstu do akapitu. Pokazuje, jak **dodać akapit pdf java** w czysty, oznaczony sposób.
 
 ```java
 public void taggedTextElements(ParagraphElement paragraph, String prefix, String[] texts) {
@@ -173,7 +177,7 @@ taggedTextElements(p, "P. ", new String[] {
 });
 ```
 
-## Saving the PDF Document with Tagged Content
+## Zapisywanie dokumentu PDF z otagowaną zawartością
 Po zbudowaniu struktury zapisz plik. Zapisany PDF zachowuje wszystkie znaczniki dostępności.
 
 ```java
@@ -183,59 +187,59 @@ import com.aspose.pdf.Document;
 document.save(outputDir + "/InlineStructureElements.pdf");
 ```
 
-## Practical Applications
-Tworzenie **dostępnych PDF** z odpowiednimi znacznikami jest cenne w wielu branżach:
+## Praktyczne zastosowania
+Tworzenie **dostępnych plików PDF** z kontroli i znaczników jest ważnymi w wielu branżach:
 
-- **Edukacja** – Dostarczanie dostępnych materiałów do czytania dla uczniów korzystających z czytników ekranu.
-- **Rząd** – Spełnianie wymogów prawnych dotyczących dostępności dokumentów publicznych.
-- **Raportowanie korporacyjne** – Ulepszenie nawigacji w obszernych raportach finansowych.
+- **Edukacja** – odprowadzanie materiałów do czytania dla studentów z czytników ekranu.
+- **Rząd** – Spełnienie obowiązku prawnego dotyczącego kwestii urzędowych.
+- **Raportowanie korporacyjne** – Ulepszanie nawigacji w danych raportach finansowych.
 
-Możesz zintegrować ten przepływ pracy z aplikacjami internetowymi, skryptami przetwarzania wsadowego lub narzędziami do automatycznego raportowania, aby zapewnić, że każdy generowany PDF jest inkluzywny.
+Moduł zawiera dziesięć przepływów pracy z aplikacjami internetowymi, skryptami oprogramowania wsadowego lub narzędziami automatycznymi raportów, aby każdy generowany plik PDF był inkluzywny.
 
-## Performance Considerations
-Chociaż Aspose.PDF jest wydajny, pamiętaj o tych wskazówkach przy dużych dokumentach:
+## Względy wydajności
+Oprócz Aspose.PDF jest dostępny, usunięty o tych wskazówkach przy dużych dokumentach:
 
-- Ponownie używaj obiektu `Document` przy generowaniu wielu PDF w jednym uruchomieniu.
-- Wywołaj `document.optimizeResources()` przed zapisem, aby zmniejszyć rozmiar pliku.
-- Monitoruj zużycie pamięci heap w Javie i włącz zapisywanie przyrostowe dla bardzo dużych plików.
+- wykorzystanie obiektu `Document` przy generowaniu wielu plików PDF w jednym uruchomieniu.
+- Wywołaj `document.optimizeResources()` przed zapisem, aby uruchomić plik.
+- Monitoruj pamięć sterty w Javie i włączaj zapisywanie pozostałości dla bardzo dużych plików.
 
-## Common Issues and Solutions
+## Typowe problemy i rozwiązania
 | Problem | Rozwiązanie |
-|-------|----------|
-| **Nagłówki nie pojawiają się w konspekcie PDF** | Sprawdź, czy wywołałeś `headerElements` dla każdego poziomu nagłówka i czy element główny jest prawidłowo odwołany. |
-| **Czytniki ekranu ignorują tekst akapitu** | Upewnij się, że każdy akapit i jego elementy span są dołączane do elementu głównego, jak pokazano w metodach pomocniczych. |
-| **Licencja nie została zastosowana** | Sprawdź ponownie ścieżkę pliku w `license.setLicense()` i potwierdź, że plik licencji jest ważny dla używanej wersji. |
+|-------|--------------|
+| **Nagłówki nie pojawiają się w konspekcie PDF** | Sprawdź, czy wywołałeś `headerElements` dla każdego poziomu nagłówka oraz czy element root jest kluczem poprawnym. |
+| **Czytniki ekranu ignorują tekst akapitu** | następuje, że każdy akapit i jego elementy span są dołączone do elementu root, jak istnieją w metodach pomocniczych. |
+| **Licencja nie została zastosowana** | Sprawdź ponownie plik w `license.setLicense()` i potwierdź, że plik jest kluczowy dla używanej wersji. |
 
-## Frequently Asked Questions
+## Często zadawane pytania
 
-**P: Jaka jest różnica między zwykłym PDF a oznaczonym PDF?**  
-O: Zwykły PDF zawiera tylko informacje wizualne, podczas gdy oznaczony PDF zawiera ukryte znaczniki struktury (nagłówki, akapity, tabele), które technologie wspomagające używają do logicznego odczytu dokumentu.
+**P:** Jaka jest zasada między zwykłymi PDF a oznaczonym PDF?
+**O:** Zwykły PDF zawiera tylko informacje wizualne, gdy jest oznaczony jako PDF, zawiera ukryte znaczniki strukturalne (nagłówki, akapity, tabele), które technologie udostępniają do logicznego odczytu dokumentu.
 
-**P: Jak ustawić język PDF dla dostępności?**  
-Użyj `taggedContent.setLanguage("en-US")` (lub innego kodu języka BCP‑47) po uzyskaniu instancji `ITaggedContent`.
+**P:** Jak skonfigurować język PDF dla użytkownika?
+**O:** zastosowanie `taggedContent.setLanguage("en-US")` (lub inny kod języka BCP-47) po dodatkowo `ITaggedContent`.
 
-**P: Czy mogę wygenerować oznaczony PDF bez licencji?**  
-Możesz ocenić bibliotekę przy użyciu tymczasowej licencji, ale pełna licencja jest wymagana w środowisku produkcyjnym, aby usunąć ograniczenia wersji próbnej.
+**P:** Czy mogę wygenerować oznaczony plik PDF bez licencji?
+**O:** Możesz sprawdzić bibliotekę przy użyciu tymczasowej licencji, ale pełna jest wymagana w środowisku produkcyjnym, aby usunąć wersję próbną.
 
-**P: Czy Aspose.PDF obsługuje inne funkcje dostępności, takie jak tekst alternatywny dla obrazów?**  
-Tak, możesz dodać tekst alternatywny do obrazów używając właściwości `alternativeText` obiektu `Image` w strukturze oznaczonej treści.
+**P:** Czy Aspose.PDF obsługuje inne funkcje dodatkowe, takie jak tekst alternatywny dla obrazów?
+**O:** Tak, możesz **dodać tekst alternatywny pdf** do obrazów, korzystając z właściwości `alternativeText` obiektu `Image` w oznaczonej treści.
 
-**P: Czy to podejście jest kompatybilne z Java 11 i nowszymi?**  
-Absolutnie. API jest kompatybilne wstecz z JDK 8 i działa bezproblemowo na nowszych wersjach Javy.
+**P:** Czy to jest wykluczone z Java 11 i terazszymi?
+**O:** Zdecydowanie. API jest wsteczne z JDK8 i działa bezproblemowo na nowszych uruchomieniach Java.
 
-## Conclusion
-Masz teraz kompletny, krok po kroku przewodnik, jak **tworzyć dostępne PDF** w Javie przy użyciu Aspose.PDF. Ustawiając tytuł, język i generując **oznaczony PDF** ze strukturalnymi nagłówkami i akapitami, Twoje dokumenty stają się inkluzywne i zgodne ze standardami dostępności.
+## Wniosek
+Masz teraz obowiązek, krok po kroku przewodnik, jak **o obowiązek PDF** w Javie przy użyciu Aspose.PDF. Używając tytułu, języka i przełącznika **oznaczonego PDF** ze strukturalnymi nagłówkami i akapitami, Twoje dokumenty są inkluzywne i zgodne ze standardami wyposażenia. Nauczyłeś się także, jak **dodać tekst alternatywny pdf** i **dodać akapit pdf java**, aby uzupełnić doświadczenie praktyczne.
 
-**Next Steps**
-- Eksperymentuj z dodawaniem zakładek, tabel i tekstu alternatywnego dla obrazów.
-- Zapoznaj się z pełną [dokumentacją Aspose PDF Java](https://reference.aspose.com/pdf/java/) w celu poznania zaawansowanych funkcji.
-- Zintegruj ten przepływ pracy z istniejącymi aplikacjami Java, aby automatyzować generowanie dostępnych PDF.
+**Następne kroki**
+- Eksperymentuj z dodawaniem zakładuek, tabelą i tekstem dla obrazów.
+- zapoznaj się z pełną [dokumentacją Aspose PDF Java](https://reference.aspose.com/pdf/java/) w celu poznania zaawansowanej funkcji.
+- Zintegruj dziesięć przepływów pracy z zainstalowanymi aplikacjami Java, aby zautomatyzować generowanie zasilania PDF.
 
 ---
 
-**Last Updated:** 2025-12-01  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose
+**Ostatnia aktualizacja:** 14.02.2026
+**Testowano z:** Aspose.PDF dla Java 25.3
+**Autor:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

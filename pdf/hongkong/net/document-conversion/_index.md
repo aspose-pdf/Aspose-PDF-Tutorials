@@ -60,6 +60,12 @@
 | [XML 轉 PDFSet 影像路徑](./xml-to-pdfset-image-path/) |了解如何使用 Aspose.PDF for .NET 輕鬆地將 XML 轉換為 PDF。本詳細指南將逐步引導您完成整個過程，從設定到完成。 |  
 | [XPS 轉 PDF](./xps-to-pdf/) |透過本逐步教學了解如何使用 Aspose.PDF for .NET 將 XPS 檔案轉換為 PDF。非常適合開發人員和文檔愛好者。 |  
 | [在 C# 中將 PDF 轉換為 PDF/X‑4 – ASP.NET PDF 分步教學](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 轉換為 PDF/X‑4 格式。 |
+| [PDF 轉 PDF/X‑4 – Aspose 步驟指南](./how-to-convert-pdf-to-pdf-x-4-with-aspose-step-by-step-guide/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 PDF/X‑4 格式。 |
+| [在 C# 中設定 PDF 轉換選項 – Aspose 指南](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) |了解如何在 C# 中使用 Aspose.PDF for .NET 設定 PDF 轉換選項，以取得最佳輸出效果。 |
+| [Aspose PDF 教學：在 C# 中將 PDF 轉換為 PDF/X‑4](./aspose-pdf-tutorial-convert-pdf-to-pdf-x-4-in-c/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 轉換為 PDF/X‑4 格式。 |
+| [載入 PDF 文件 C# – 使用 Aspose 轉換為 PDF/X‑4](./load-pdf-document-c-convert-to-pdf-x-4-with-aspose/) |了解如何在 C# 中載入 PDF 並使用 Aspose.PDF for .NET 轉換為 PDF/X‑4 格式。 |
+| [Aspose PDF 轉換於 C#：載入、轉換為 PDF/X-4、儲存](./aspose-pdf-conversion-in-c-load-convert-to-pdf-x-4-save/) |了解如何使用 Aspose.PDF for .NET 在 C# 中載入文件、轉換為 PDF/X‑4 並儲存。 |
+| [建立 span 元素並新增至頁面 – 將 DOCX 轉換為 PDF](./create-span-element-and-add-to-page-convert-docx-to-pdf/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 PDF 中建立 span 元素並將 DOCX 轉換為 PDF。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -68,3 +74,29 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [PDF 轉 PDF/X‑4](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 PDF/X‑4 格式。 |  
+| [將文件另存為 HTML – 完整 C# 指南：將 Word 匯出為 HTML](./save-document-as-html-complete-c-guide-to-export-word-to-htm/) |透過本完整 C# 教學了解如何使用 Aspose.PDF for .NET 將 Word 文件匯出為 HTML 格式。 |
+| [將 ICC 配置檔設定於 Word 轉 PDF – 完整 C# 指南](./set-icc-profile-when-converting-word-to-pdf-complete-c-guide/) |透過本完整的 C# 教學了解如何在將 Word 轉換為 PDF 時設定 ICC 配置檔。 |  
+| [將 docx 轉換為 pdf（C#）– 完整分步指南](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) |在本完整分步指南中了解如何使用 Aspose.PDF for .NET 將 DOCX 轉換為 PDF（C#）。適合需要精確控制轉換流程的開發者。 |  
+| [新增 ICC 配置檔並將 PDF 轉換為 PDF/X‑4 – C# 指南](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 新增 ICC 配置檔並將 PDF 轉換為 PDF/X‑4。 |  
+| [如何使用 Aspose.Pdf 轉換 PDF – 完整 C# 指南](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) |透過本完整 C# 教學了解如何使用 Aspose.PDF 轉換 PDF 為其他格式，涵蓋程式碼範例與最佳實踐。 |  
+| [Aspose PDF 轉換（C#）- 逐步指南](./aspose-pdf-conversion-in-c-step-by-step-guide/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 C# 中執行 PDF 轉換。 |  
+| [PDF 轉 PDF/X‑4](./how-to-convert-pdf-to-pdf-x-4-in-c-step-by-step-guide/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 PDF/X‑4。 |  
+| [載入 PDF 文件 C# – 轉換為 PDF/X-4 步驟指南](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) |了解如何使用 Aspose.PDF for .NET 載入 PDF 並將其轉換為 PDF/X-4 格式的完整步驟。 |  
+| [Aspose PDF 轉 HTML（C#）完整指南](./aspose-pdf-to-html-conversion-in-c-complete-guide/) |透過本完整指南了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 轉換為 HTML。 |  
+| [將 PDF 另存為 HTML – 保留向量並停用點陣化](./save-pdf-as-html-keep-vectors-disable-rasterization/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 PDF 另存為 HTML，保留向量圖形並停用點陣化。 |  
+| [如何使用 Aspose 儲存 PDF – 完整 C# 轉換指南](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) |透過本完整指南了解如何使用 Aspose.PDF for .NET 以 C# 將檔案儲存為 PDF，涵蓋步驟與最佳實踐。 |  
+| [將 Bates 編號新增至 DOCX 並轉換為 PDF – 完整 C# 指南](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 為 DOCX 添加 Bates 編號並轉換為 PDF。 |  
+| [儲存文件 PDF – 如何新增橢圓形並將 DOCX 轉換為 PDF](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) |透過本逐步指南了解如何在 PDF 中新增橢圓形，並將 DOCX 檔案轉換為 PDF。 |  
+| [C# PDF 轉換教學 – 將 PDF 轉換為 PDF/X-4](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 PDF/X-4 格式。 |  
+| [在 C# 中從 PDF 建立 HTML – 完整逐步指南](./create-html-from-pdf-in-c-complete-step-by-step-guide/) |透過本完整逐步指南了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 轉換為 HTML。 |  
+| [如何在 Aspose PDF 轉換中設定 ICC – 完整指南](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) |透過本完整指南了解如何在 Aspose.PDF for .NET 轉換過程中設定 ICC 配置檔，以確保色彩準確性。 |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

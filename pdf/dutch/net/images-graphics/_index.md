@@ -35,6 +35,8 @@ Leer hoe je SVG-bestanden naadloos kunt converteren naar hoogwaardige PDF's met 
 ### [Rechthoeken maken en vullen in PDF's met Aspose.PDF voor .NET: een stapsgewijze handleiding](./create-fill-rectangle-aspose-pdf-net/)
 Leer hoe u rechthoeken in PDF-documenten kunt maken en vullen met Aspose.PDF voor .NET. Deze stapsgewijze handleiding behandelt alles van installatie tot implementatie met C#.
 
+### [Rechthoek tekenen in PDF met C#: een stapsgewijze handleiding](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
+Leer hoe u met C# een rechthoek in een PDF-document tekent met Aspose.PDF, inclusief positionering, grootte en opvulling.
 ### [Rechthoek toevoegen aan PDF met C# – volledige Aspose PDF-gids](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
 Leer hoe u met C# een rechthoek aan een PDF toevoegt met behulp van Aspose.PDF, inclusief codevoorbeelden en stapsgewijze instructies.
 
@@ -46,6 +48,9 @@ Leer hoe u visueel aantrekkelijke PDF-documenten maakt door alinea's te extraher
 
 ### [Teken transparante vormen in PDF's met Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 Een codetutorial voor Aspose.PDF Net
+
+### [Transparantie toevoegen aan PDF met Aspose PDF in C# – Stapsgewijze handleiding](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Leer hoe u transparantie-effecten op PDF‑pagina's toepast met Aspose PDF voor .NET in C#.
 
 ### [Efficiënte PDF-afbeeldingsidentificatie met Aspose.PDF voor .NET](./master-image-identification-aspose-pdf-net/)
 Leer hoe u grijswaarden- en RGB-afbeeldingen in PDF's kunt identificeren met Aspose.PDF voor .NET. Deze tutorial behandelt installatie, beeldextractie en prestatietips.

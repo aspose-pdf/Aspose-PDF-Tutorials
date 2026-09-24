@@ -1,130 +1,153 @@
 ---
 category: general
-date: 2026-04-06
-description: Aspose.Pdf का उपयोग करके C# में शीघ्रता से साइन किया गया PDF बनाएं। सीखें
-  कि प्रमाणपत्र के साथ PDF को कैसे साइन करें, डिजिटल सिग्नेचर जोड़ें, और मिनटों में
-  PKCS7 सिग्नेचर बनाएं।
+date: 2026-02-22
+description: Aspose.Pdf के साथ जल्दी से साइन किया हुआ PDF बनाएं। सीखें कि प्रमाणपत्र
+  के साथ PDF को कैसे साइन करें, PDF दस्तावेज़ को लोड करें, और C# में PKCS7 सिग्नेचर
+  कैसे बनाएं।
 draft: false
 keywords:
 - create signed pdf
 - how to sign pdf
-- add digital signature
 - sign pdf with certificate
+- load pdf document
 - create pkcs7 signature
 language: hi
-og_description: C# में Aspose.Pdf के साथ साइन किया गया PDF बनाएं। यह गाइड दिखाता है
-  कि प्रमाणपत्र के साथ PDF को कैसे साइन करें, डिजिटल सिग्नेचर जोड़ें, और PKCS7 सिग्नेचर
-  बनाएं।
+og_description: Aspose.Pdf का उपयोग करके C# में साइन किया गया PDF बनाएं। यह गाइड दिखाता
+  है कि प्रमाणपत्र के साथ PDF को कैसे साइन करें, PDF दस्तावेज़ को कैसे लोड करें, और
+  PKCS7 सिग्नेचर कैसे बनाएं।
 og_title: C# में साइन किया गया PDF बनाएं – पूर्ण प्रोग्रामिंग गाइड
 tags:
+- Aspose.Pdf
 - C#
-- PDF
 - Digital Signature
-title: C# में साइन किया गया PDF बनाएं – चरण‑दर‑चरण गाइड
+title: C# में साइन किया गया PDF बनाएं – चरण-दर-चरण गाइड
 url: /hi/net/programming-with-security-and-signatures/create-signed-pdf-in-c-step-by-step-guide/
 ---
+
+markdown tables.
+
+Let's produce final translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# C# में Signed PDF बनाएं – पूर्ण प्रोग्रामिंग गाइड
+# Create Signed PDF in C# – Step‑by‑Step Guide
 
-क्या आपको कभी **signed PDF** फ़ाइलें .NET एप्लिकेशन से बनानी पड़ी हों लेकिन शुरुआत नहीं पता थी? आप अकेले नहीं हैं। कई एंटरप्राइज़ वर्कफ़्लो में, एक signed PDF वह अंतिम टुकड़ा है जो अनुबंध को सील करता है, इनवॉइस को वैध बनाता है, या नियमों का पालन करता है। अच्छी खबर? कुछ ही लाइनों के C# कोड और Aspose.Pdf के साथ आप किसी भी PDF में **digital signature** तुरंत जोड़ सकते हैं।
+क्या आपको कभी **create signed PDF** फ़ाइलें .NET एप्लिकेशन से बनानी पड़ी हैं? आप अकेले नहीं हैं—कंपनियां लगातार अनुबंध, इनवॉइस या नियामक रिपोर्टों के लिए टेम्पर‑प्रूफ़ PDFs की मांग करती हैं। अच्छी खबर यह है कि Aspose.Pdf के साथ आप इसे कुछ ही लाइनों में कर सकते हैं, और आपको एक कानूनी रूप से बाध्यकारी सिग्नेचर मिलेगा जिसे कोई भी PDF व्यूअर में वेरिफ़ाई कर सकता है।
 
-इस ट्यूटोरियल में हम ठीक‑ठीक बताएँगे **PDF को कैसे साइन करें** PFX प्रमाणपत्र का उपयोग करके, क्यों PKCS#7 डिटैच्ड सिग्नेचर अक्सर सबसे सुरक्षित विकल्प है, और **certificate के साथ PDF साइन** कैसे करें बिना मूल दस्तावेज़ को बदले। अंत तक आपके पास एक तैयार‑चलाने‑योग्य नमूना होगा जो signed PDF बनाता है, साथ ही सामान्य किनारी मामलों के लिए टिप्स भी।
+इस ट्यूटोरियल में हम **how to sign PDF** को एक डिजिटल सर्टिफ़िकेट की मदद से कैसे किया जाता है, यह दिखाएंगे, जिसमें PDF डॉक्यूमेंट को लोड करने से लेकर PKCS#7 डिटैच्ड सिग्नेचर बनाने तक सब कुछ शामिल है। अंत तक आपके पास एक तैयार‑टू‑यूज़ स्निपेट होगा जिसे आप किसी भी C# प्रोजेक्ट में डाल सकते हैं।
 
-## आपको क्या चाहिए
+> **Quick glance:** आप सीखेंगे **load PDF document**, **PKCS7 signature** बनाना, और अंत में **sign PDF with certificate** ताकि परिणामस्वरूप एक **create signed pdf** फ़ाइल सुरक्षित रूप से वितरित की जा सके।
 
-- **Aspose.Pdf for .NET** (v23.9 या बाद का)। NuGet पैकेज का नाम `Aspose.Pdf` है।
-- एक **PKCS#12 (.pfx) certificate** जिसमें वह प्राइवेट की हो जिसे आप साइनिंग के लिए उपयोग करने की अनुमति रखते हैं।
-- .NET 6+ रनटाइम (कोड .NET Framework 4.7+ पर भी काम करता है)।
-- एक साधारण PDF (`toSign.pdf`) जिसे आप सुरक्षित करना चाहते हैं।
+---
 
-कोई अतिरिक्त लाइब्रेरी नहीं, कोई बाहरी सेवा नहीं—सिर्फ ऊपर बताए गए घटक।
+## What You’ll Need
 
-![Signed PDF बनाने का उदाहरण](image.png "Signed PDF बनाने की प्रक्रिया का स्क्रीनशॉट")
+- **Aspose.Pdf for .NET** (v23.9 या बाद का)। NuGet के माध्यम से इंस्टॉल करें: `Install-Package Aspose.Pdf`।
+- एक **PKCS#12 (.pfx) certificate** जिसमें आपका प्राइवेट की हो।
+- वह PDF जिसे आप साइन करना चाहते हैं (उदा., `input.pdf`)।
+- .NET 6+ (कोई भी हालिया रनटाइम चलेगा)।
 
-*Image alt text: “C# और Aspose.Pdf का उपयोग करके signed pdf बनाने की चरण-दर-चरण चित्रण”*
+कोई अतिरिक्त लाइब्रेरी नहीं, कोई COM इंटरऑप नहीं—सिर्फ़ सीधा C#।
 
-## चरण 1 – वह PDF लोड करें जिसे आप साइन करना चाहते हैं
+---
 
-किसी भी सिग्नेचर को लागू करने से पहले, आपको एक `Document` ऑब्जेक्ट चाहिए जो स्रोत फ़ाइल का प्रतिनिधित्व करता हो।
+## Step 1 – Load the PDF Document (how to sign pdf)
+
+डिजिटल सील लगाने से पहले, आपको स्रोत फ़ाइल को मेमोरी में लाना होगा। यहीं पर द्वितीयक कीवर्ड *load pdf document* स्वाभाविक रूप से आता है।
 
 ```csharp
 using Aspose.Pdf;
 
-// Load the PDF that will be signed
-using var pdfDocument = new Document(@"C:\PDFs\toSign.pdf");
+// Step 1: Load the PDF you want to sign
+string inputPath = @"C:\MyPdfs\input.pdf";
+
+Document pdfDocument = new Document(inputPath);
 ```
 
-*Why this matters:* `Document` Aspose में सभी PDF ऑपरेशन्स का एंट्री पॉइंट है। `using` स्टेटमेंट का उपयोग करके हम फ़ाइल हैंडल को तुरंत रिलीज़ कर देते हैं, जिससे बाद में साइन किया हुआ संस्करण सहेजते समय “file in use” त्रुटियों से बचा जा सके।
+**Why this matters:** `Document` पूरे PDF स्ट्रक्चर का प्रतिनिधित्व करता है। इसे पहले लोड करके, आप Aspose को एक mutable ऑब्जेक्ट देते हैं जिसे बाद के चरण बिना डिस्क पर मूल फ़ाइल को छुए बदल सकते हैं।
 
-## चरण 2 – सिग्नेचर हैंडलर सेट अप करें
+> **Pro tip:** यदि स्रोत PDF पासवर्ड‑प्रोटेक्टेड है, तो `Document` कन्स्ट्रक्टर में पासवर्ड पास करें: `new Document(inputPath, "pdfPassword")`।
 
-Aspose एक समर्पित फ़ेसाड `PdfFileSignature` प्रदान करता है जो फ़ाइल को खराब किए बिना सिग्नेचर एम्बेड करना जानता है।
+---
+
+## Step 2 – Prepare a PKCS#7 Detached Signature (create pkcs7 signature)
+
+PKCS#7 डिटैच्ड सिग्नेचर दस्तावेज़ के हैश को आपके प्राइवेट की के साथ बंडल करता है, लेकिन **साइन किया गया कंटेंट एम्बेड नहीं करता**। इससे मूल PDF का आकार अपरिवर्तित रहता है और यह अधिकांश PDF व्यूअर्स द्वारा अपेक्षित फॉर्मेट है।
 
 ```csharp
 using Aspose.Pdf.Facades;
-
-// Create a signature handler for the loaded document
-using var pdfSigner = new PdfFileSignature(pdfDocument);
-```
-
-*Pro tip:* यदि आप बाद में कई सिग्नेचर जोड़ने की योजना बना रहे हैं, तो `isAppendMode` को `true` रखें (हम इसे अगले चरण में करेंगे)। यह लाइब्रेरी को पूरी फ़ाइल को पुनः लिखने के बजाय एक नया इन्क्रिमेंटल अपडेट जोड़ने को कहता है।
-
-## चरण 3 – PKCS#7 डिटैच्ड सिग्नेचर तैयार करें
-
-एक **PKCS#7 डिटैच्ड सिग्नेचर** दस्तावेज़ का हैश प्रमाणपत्र डेटा से अलग रखता है, जिससे वेरिफिकेशन आसान हो जाता है और मूल PDF अपरिवर्तित रहता है। यहाँ SHA‑512 के साथ इसे कैसे कॉन्फ़िगर करें, जो डिफ़ॉल्ट SHA‑256 से अधिक मजबूत है।
-
-```csharp
 using Aspose.Pdf.Forms;
 
-// Prepare a PKCS#7 detached signature using SHA‑512 as the digest algorithm
-var pkcsSignature = new PKCS7Detached(
-    @"C:\Certificates\mycert.pfx",   // certificate file
-    "pwd",                           // certificate password
-    DigestHashAlgorithm.Sha512);     // explicit digest algorithm
+// Step 2: Build a PKCS#7 detached signature object
+string certPath = @"C:\MyCerts\certificate.pfx";
+string certPassword = "yourPassword";
+
+PKCS7Detached pkcsSignature = new PKCS7Detached(
+    certPath,                 // Path to the .pfx file
+    certPassword,            // Password for the certificate
+    DigestHashAlgorithm.Sha3_256); // Strong hash algorithm
 ```
 
-*Why SHA‑512?* कई अनुपालन मानक (जैसे EU eIDAS) कम से कम 256‑बिट हैश की सलाह देते हैं, और SHA‑512 बिना उल्लेखनीय प्रदर्शन हिट के एक आरामदायक मार्जिन देता है।
+**Why SHA‑3‑256?** यह वर्तमान में SHA‑2 की तुलना में कोलेशन रेजिस्टेंस के लिए अधिक मजबूत माना जाता है, और कई कंप्लायंस रेगिमेन (जैसे EU eIDAS) नई इम्प्लीमेंटेशन्स के लिए इसे सुझाते हैं।
 
-## चरण 4 – एक विशिष्ट पेज पर डिजिटल सिग्नेचर लागू करें
+**Edge case:** यदि आपका सर्टिफ़िकेट अलग एल्गोरिद्म (RSA‑2048, ECDSA‑P256, आदि) उपयोग करता है, तो बस `DigestHashAlgorithm` एनेम को उसी के अनुसार बदल दें। Aspose अंतर्निहित क्रिप्टोग्राफी को संभाल लेगा।
 
-अब हम वास्तव में **डिजिटल सिग्नेचर** PDF में जोड़ते हैं। आप कोई भी पेज और कोई भी आयत चुन सकते हैं; आयत निर्धारित करती है कि दृश्य सिग्नेचर अपीयरेंस कहाँ रखी जाएगी।
+---
+
+## Step 3 – Sign the PDF with Certificate (create signed pdf)
+
+अब मज़ेदार हिस्सा: सिग्नेचर को एक विशिष्ट पेज पर अटैच करना। हम इसे विज़िबल बनाएंगे, लेकिन आप `isVisible` को `false` सेट करके इनविज़िबल सिग्नेचर भी बना सकते हैं।
 
 ```csharp
-using System.Drawing;
+// Step 3: Create a PdfFileSignature object – this is the engine that writes the signature
+using var pdfSignature = new PdfFileSignature(pdfDocument);
 
-// Apply the digital signature to page 1 at the desired rectangle
-pdfSigner.Sign(
-    pageNumber: 1,                     // page index starts at 1
-    isAppendMode: true,                // keep existing signatures intact
-    signatureRectangle: new Rectangle(100, 100, 200, 150),
-    pkcsSignature);
+// Define where the signature will appear (x1, y1, x2, y2) in points.
+// Here we place it near the bottom‑right of page 1.
+Rectangle signatureRect = new Rectangle(100, 100, 200, 150);
+
+// Apply the signature
+pdfSignature.Sign(
+    pageNumber: 1,          // 1‑based page index
+    isVisible: true,        // Show signature appearance
+    signatureRectangle: signatureRect,
+    signature: pkcsSignature);
 ```
 
-*Common question:* “यदि मैं दृश्य सिग्नेचर नहीं चाहता तो क्या करें?”  
-`signatureRectangle` के लिए `null` पास करें और लाइब्रेरी एक अदृश्य (annotation‑less) सिग्नेचर बनाएगी, जो बैकएंड प्रोसेस के लिए उपयोगी है।
+**Why a rectangle?** PDF कॉर्डिनेट्स बॉटम‑लेफ़्ट कॉर्नर से मापे जाते हैं। रेक्टैंगल को एडजस्ट करके आप सटीक प्लेसमेंट कंट्रोल कर सकते हैं—क़ानूनी फॉर्म्स पर सिग्नेचर लाइन स्टैम्प करने के लिए एकदम सही।
 
-## चरण 5 – साइन किया गया PDF सहेजें
+**What if you need multiple signatures?** `Sign` कॉल को अलग `pageNumber` और रेक्टैंगल के साथ दोहराएँ। प्रत्येक कॉल एक नया इन्क्रिमेंटल अपडेट जोड़ता है, जिससे पहले के सिग्नेचर बरकरार रहते हैं।
 
-अंत में, साइन किए हुए दस्तावेज़ को डिस्क पर लिखें। आप मूल फ़ाइल को अपरिवर्तित रख सकते हैं और एक नई फ़ाइल आउटपुट कर सकते हैं।
+---
+
+## Step 4 – Save and Verify the Signed PDF
+
+अंत में, साइन की गई फ़ाइल को डिस्क पर लिखें। आप प्रोग्रामेटिकली सिग्नेचर को वेरिफ़ाई भी कर सकते हैं, लेकिन अधिकांश उपयोगकर्ता PDF को Adobe Acrobat या किसी भी व्यूअर में खोलेंगे जो हरे चेक‑मार्क को दिखाता है।
 
 ```csharp
-// Save the signed PDF to a new file
-pdfSigner.Save(@"C:\PDFs\signed_sha512.pdf");
+// Step 4: Persist the signed PDF
+string outputPath = @"C:\MyPdfs\signed_output.pdf";
+pdfSignature.Save(outputPath);
+
+// Optional: Quick verification (throws if invalid)
+bool isValid = pdfSignature.VerifySignature();
+Console.WriteLine(isValid
+    ? "Signature applied successfully."
+    : "Signature verification failed.");
 ```
 
-जब आप `signed_sha512.pdf` को Adobe Acrobat या किसी भी PDF व्यूअर में खोलते हैं जो सिग्नेचर को सपोर्ट करता है, तो आपको एक हरा चेकमार्क (या आपने जो विज़ुअल परिभाषित किया है) और प्रमाणपत्र विवरण दिखाई देगा।
+**Result:** `signed_output.pdf` अब पेज 1 पर एक विज़िबल डिजिटल सिग्नेचर रखता है। इसे Acrobat में खोलने पर साइनर का नाम, सर्टिफ़िकेट विवरण, और “Signed and all signatures are valid” बैनर दिखेगा।
 
-## पूर्ण कार्यशील उदाहरण
+---
 
-सब कुछ एक साथ मिलाकर, यहाँ एक एकल, कॉपी‑पेस्ट‑रेडी प्रोग्राम है:
+## Full Working Example (All Steps Combined)
+
+नीचे पूरा, रन‑टू‑डेड प्रोग्राम दिया गया है। इसे एक नए कंसोल प्रोजेक्ट में पेस्ट करें और फ़ाइल पाथ्स को अपनी अनुसार बदलें।
 
 ```csharp
 using System;
-using System.Drawing;
 using Aspose.Pdf;
 using Aspose.Pdf.Facades;
 using Aspose.Pdf.Forms;
@@ -134,98 +157,79 @@ class Program
     static void Main()
     {
         // 1️⃣ Load the PDF you want to sign
-        using var pdfDocument = new Document(@"C:\PDFs\toSign.pdf");
+        string inputPath = @"C:\MyPdfs\input.pdf";
+        Document pdfDocument = new Document(inputPath);
 
-        // 2️⃣ Create the signature handler
-        using var pdfSigner = new PdfFileSignature(pdfDocument);
+        // 2️⃣ Prepare a PKCS#7 detached signature
+        string certPath = @"C:\MyCerts\certificate.pfx";
+        string certPassword = "yourPassword";
+        PKCS7Detached pkcsSignature = new PKCS7Detached(
+            certPath,
+            certPassword,
+            DigestHashAlgorithm.Sha3_256);
 
-        // 3️⃣ Build a PKCS#7 detached signature (SHA‑512)
-        var pkcsSignature = new PKCS7Detached(
-            @"C:\Certificates\mycert.pfx",
-            "pwd",
-            DigestHashAlgorithm.Sha512);
-
-        // 4️⃣ Sign page 1 – you can change pageNumber or rectangle as needed
-        pdfSigner.Sign(
+        // 3️⃣ Sign the PDF (visible signature on page 1)
+        using var pdfSignature = new PdfFileSignature(pdfDocument);
+        Rectangle rect = new Rectangle(100, 100, 200, 150);
+        pdfSignature.Sign(
             pageNumber: 1,
-            isAppendMode: true,
-            signatureRectangle: new Rectangle(100, 100, 200, 150),
-            pkcsSignature);
+            isVisible: true,
+            signatureRectangle: rect,
+            signature: pkcsSignature);
 
-        // 5️⃣ Save the result
-        pdfSigner.Save(@"C:\PDFs\signed_sha512.pdf");
+        // 4️⃣ Save the signed document
+        string outputPath = @"C:\MyPdfs\signed_output.pdf";
+        pdfSignature.Save(outputPath);
 
-        Console.WriteLine("✅ PDF signed successfully!");
+        // Quick verification (optional)
+        bool ok = pdfSignature.VerifySignature();
+        Console.WriteLine(ok
+            ? "✅ create signed pdf succeeded."
+            : "❌ Signature verification failed.");
     }
 }
 ```
 
-प्रोग्राम चलाएँ, और आपको कंसोल पर सफलता का संदेश दिखेगा। आउटपुट फ़ाइल खोलें, सिग्नेचर पेन देखें, और आप वह प्रमाणपत्र जानकारी देखेंगे जो आपने प्रदान की थी।
+**Expected output** जब आप प्रोग्राम चलाएँगे:
 
-## PDF साइन करने के तरीके – अक्सर पूछे जाने वाले विविधताएँ
-
-### कई पेजों पर साइन करना
-
-यदि आपको **digital signature** एक से अधिक पेज़ पर जोड़नी है, तो `pdfSigner.Sign` को विभिन्न `pageNumber` मानों के साथ बार‑बार कॉल करें। क्योंकि हमने `isAppendMode: true` इस्तेमाल किया है, प्रत्येक कॉल एक नया इन्क्रिमेंटल अपडेट बनाता है, जिससे पहले के सिग्नेचर संरक्षित रहते हैं।
-
-### अलग डाइजेस्ट एल्गोरिदम का उपयोग
-
-कुछ लेगेसी सिस्टम केवल SHA‑256 समझते हैं। `PKCS7Detached` कंस्ट्रक्टर में `DigestHashAlgorithm.Sha512` को `DigestHashAlgorithm.Sha256` से बदल दें। बाकी कोड वही रहता है।
-
-### एक अदृश्य सिग्नेचर बनाना
-
-```csharp
-pdfSigner.Sign(
-    pageNumber: 1,
-    isAppendMode: true,
-    signatureRectangle: null,   // no visible appearance
-    pkcsSignature);
+```
+✅ create signed pdf succeeded.
 ```
 
-अदृश्य सिग्नेचर स्वचालित बैच प्रोसेस के लिए आदर्श हैं जहाँ विज़ुअल संकेत की आवश्यकता नहीं होती।
+`signed_output.pdf` खोलें → आपको सर्टिफ़िकेट के नाम के साथ एक सिग्नेचर फ़ील्ड दिखेगा।
 
-### प्रोग्रामेटिकली सिग्नेचर वेरिफाई करना
+---
 
-Aspose आपको सिग्नेचर वैलिडेट करने की भी सुविधा देता है:
+## Common Questions & Edge Cases
 
-```csharp
-using Aspose.Pdf.Facades;
+| Question | Answer |
+|----------|--------|
+| *Can I sign a PDF that already has a signature?* | हाँ। Aspose एक इन्क्रिमेंटल अपडेट जोड़ता है, मौजूदा सिग्नेचर को बरकरार रखता है। बस `Sign` को फिर से अलग रेक्टैंगल के साथ कॉल करें। |
+| *What if the certificate uses a different hash algorithm?* | `DigestHashAlgorithm.Sha3_256` को `Sha256`, `Sha384` आदि में बदल दें। API स्वचालित रूप से सही क्रिप्टोग्राफ़िक प्रोवाइडर चुन लेगा। |
+| *Is a visible signature required for compliance?* | हमेशा नहीं। कुछ रेगुलेशन इनविज़िबल (डिटैच्ड) सिग्नेचर को स्वीकार करते हैं। `isVisible: false` सेट करें और रेक्टैंगल को छोड़ दें। |
+| *How do I sign multiple pages at once?* | आवश्यक पेजों पर लूप करें: `for (int i = 1; i <= pdfDocument.Pages.Count; i++) { pdfSignature.Sign(i, true, rect, pkcsSignature); }` |
+| *What if the PDF is huge (hundreds of MB)?* | `PdfFileSignature` के साथ `SignatureAppearance` उपयोग करके फ़ाइल को स्ट्रीम करें बजाय पूरी मेमोरी में लोड किए। इससे RAM उपयोग कम होगा। |
 
-var verifier = new PdfFileSignature(@"C:\PDFs\signed_sha512.pdf");
-bool isValid = verifier.VerifySignature(pageNumber: 1);
-Console.WriteLine(isValid ? "Signature valid" : "Signature invalid");
-```
+---
 
-### पासवर्ड‑सुरक्षित PDFs को संभालना
+## Pro Tips for Production Use
 
-यदि स्रोत PDF एन्क्रिप्टेड है, तो पहले पासवर्ड के साथ इसे खोलें:
+- **Cache the certificate** यदि आप कई PDFs को लगातार साइन कर रहे हैं; `.pfx` को बार‑बार लोड करने से ओवरहेड बढ़ता है।
+- **Set a custom appearance** (logo, signer name) `PdfFileSignature` में एक `Image` प्रदान करके।
+- **Log the signature metadata** (signing time, hash algorithm) ऑडिट ट्रेल के लिए।
+- **Validate the certificate chain** साइन करने से पहले ताकि समाप्त या रिवोक्ड सर्टिफ़िकेट एम्बेड न हो।
 
-```csharp
-var pdfDoc = new Document(@"C:\PDFs\protected.pdf", "pdfPassword");
-```
+---
 
-फिर वही चरण जारी रखें। सिग्नेचर एन्क्रिप्टेड कंटेंट के ऊपर लागू होगा।
+## Conclusion
 
-## प्रो टिप्स और सामान्य समस्याएँ
+अब आप जानते हैं कि Aspose.Pdf का उपयोग करके C# में **create signed PDF** फ़ाइलें कैसे बनाते हैं, डॉक्यूमेंट लोड करने से लेकर **PKCS7 detached signature** जेनरेट करने और अंत में **signature with certificate** लागू करने तक। यह पैटर्न सिंगल‑पेज कॉन्ट्रैक्ट, मल्टी‑पेज रिपोर्ट, और बैच प्रोसेसिंग पाइपलाइन सभी के लिए काम करता है।
 
-- **Never hard‑code passwords** in production code. Use secure vaults or environment variables.  
-  उत्पादन कोड में पासवर्ड कभी हार्ड‑कोड न करें। सुरक्षित वॉल्ट या एनवायरनमेंट वेरिएबल्स का उपयोग करें।
-- **Keep your certificate private key protected.** If the `.pfx` file is exposed, anyone can forge documents.  
-  अपने प्रमाणपत्र की प्राइवेट की को सुरक्षित रखें। यदि `.pfx` फ़ाइल उजागर हो जाती है, तो कोई भी दस्तावेज़ बनावट कर सकता है।
-- **Test with different PDF viewers.** Some older readers may not display the signature correctly if the appearance stream is missing.  
-  विभिन्न PDF व्यूअर्स के साथ परीक्षण करें। कुछ पुराने रीडर सिग्नेचर को सही ढंग से नहीं दिखा सकते यदि अपीयरेंस स्ट्रीम गायब हो।
-- **Incremental saves matter.** If you set `isAppendMode` to `false`, existing signatures will be invalidated because the entire file is rewritten.  
-  इन्क्रिमेंटल सेव्स महत्वपूर्ण हैं। यदि `isAppendMode` को `false` सेट किया जाता है, तो मौजूदा सिग्नेचर अमान्य हो जाएंगे क्योंकि पूरी फ़ाइल पुनः लिखी जाती है।
-- **Watch out for page rotation.** The rectangle coordinates are relative to the page’s original orientation; rotated pages may need adjusted coordinates.  
-  पेज रोटेशन का ध्यान रखें। आयत के निर्देशांक पेज की मूल अभिविन्यास के सापेक्ष होते हैं; घुमा हुए पेजों को समायोजित निर्देशांक चाहिए हो सकते हैं।
+अगला कदम: **how to sign PDF with timestamp authorities** या **embedding custom signature appearances** को एक्सप्लोर करें। दोनों विषय डिजिटल सिग्नेचर की समझ को गहरा करेंगे और आपको कंप्लायंस आवश्यकताओं से आगे रखेंगे।
 
-## निष्कर्ष
+एक टेस्ट कॉन्ट्रैक्ट साइन करके देखें, Adobe Acrobat में वेरिफ़ाई करें, और फिर इस कोड को अपने वर्कफ़्लो में इंटीग्रेट करें। यदि कोई समस्या आती है, तो नीचे कमेंट करें या Aspose की आधिकारिक डॉक्यूमेंटेशन में अतिरिक्त उदाहरण देखें।
 
-हमने अभी दिखाया कि कैसे **signed PDF** फ़ाइलें C# में Aspose.Pdf का उपयोग करके बनाई जा सकती हैं, जिसमें दस्तावेज़ लोड करने से लेकर **certificate के साथ PDF साइन** करने, **PKCS#7 सिग्नेचर** बनाने, और परिणाम सहेजने तक सब कुछ शामिल है। नमूना कोड पूरी तरह कार्यशील है, और व्याख्याएँ प्रत्येक चरण के “क्यों” को स्पष्ट करती हैं, जिससे आप इसे अपने प्रोजेक्ट में आसानी से अनुकूलित कर सकते हैं।
-
-अगली चुनौती के लिए तैयार हैं? इस दृष्टिकोण को **digital signature** के साथ मिलाकर सैकड़ों इनवॉइस को बैच‑प्रोसेस करें, या टाइम‑स्टैम्पिंग सेवाओं का अन्वेषण करें ताकि नॉन‑रेपुडीएशन और भी मजबूत हो। अब आपके पास किसी भी .NET‑आधारित डिजिटल साइनिंग वर्कफ़्लो के लिए एक ठोस आधार है।
-
-*हैप्पी कोडिंग, और आपके PDFs हमेशा सुरक्षित रूप से साइन रहें!*
+Happy coding, and may your PDFs stay tamper‑proof!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -1,0 +1,7 @@
+Title: Convert PDF to PDF/X-1A with Color Management in C#
+Slug: convert-pdf-to-pdf-x-1a-with-color-management-in-c
+Category: document-conversion
+ProcessedDate: 2026-06-21T15:11:29.238663
+SourceRepo: AI Search API
+Keywords: convert pdf to pdf/x-1a, apply color management pdf
+PRNumber: 93

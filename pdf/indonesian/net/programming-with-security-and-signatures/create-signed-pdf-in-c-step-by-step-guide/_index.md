@@ -1,26 +1,26 @@
 ---
 category: general
-date: 2026-04-06
-description: Buat PDF yang ditandatangani dalam C# dengan cepat menggunakan Aspose.Pdf.
-  Pelajari cara menandatangani PDF dengan sertifikat, menambahkan tanda tangan digital,
-  dan membuat tanda tangan PKCS7 dalam hitungan menit.
+date: 2026-02-22
+description: Buat PDF yang ditandatangani dengan cepat menggunakan Aspose.Pdf. Pelajari
+  cara menandatangani PDF dengan sertifikat, memuat dokumen PDF, dan membuat tanda
+  tangan PKCS7 dalam C#.
 draft: false
 keywords:
 - create signed pdf
 - how to sign pdf
-- add digital signature
 - sign pdf with certificate
+- load pdf document
 - create pkcs7 signature
 language: id
-og_description: Buat PDF yang ditandatangani di C# dengan Aspose.Pdf. Panduan ini
-  menunjukkan cara menandatangani PDF dengan sertifikat, menambahkan tanda tangan
-  digital, dan membuat tanda tangan PKCS7.
+og_description: Buat PDF yang ditandatangani di C# menggunakan Aspose.Pdf. Panduan
+  ini menunjukkan cara menandatangani PDF dengan sertifikat, memuat dokumen PDF, dan
+  membuat tanda tangan PKCS7.
 og_title: Buat PDF yang Ditandatangani di C# – Panduan Pemrograman Lengkap
 tags:
+- Aspose.Pdf
 - C#
-- PDF
 - Digital Signature
-title: Membuat PDF yang Ditandatangani di C# – Panduan Langkah demi Langkah
+title: Buat PDF yang Ditandatangani di C# – Panduan Langkah demi Langkah
 url: /id/net/programming-with-security-and-signatures/create-signed-pdf-in-c-step-by-step-guide/
 ---
 
@@ -28,103 +28,122 @@ url: /id/net/programming-with-security-and-signatures/create-signed-pdf-in-c-ste
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Membuat PDF yang Ditandatangani di C# – Panduan Pemrograman Lengkap
+# Buat PDF yang Ditandatangani di C# – Panduan Langkah‑per‑Langkah
 
-Pernah membutuhkan **membuat PDF yang ditandatangani** dari aplikasi .NET tetapi tidak yakin harus mulai dari mana? Anda tidak sendirian. Dalam banyak alur kerja perusahaan, PDF yang ditandatangani adalah bagian akhir yang menutup kontrak, memvalidasi faktur, atau mematuhi regulasi. Kabar baiknya? Dengan beberapa baris C# dan Aspose.Pdf Anda dapat **menambahkan tanda tangan digital** ke PDF mana pun dalam sekejap.
+Pernah perlu **membuat file PDF yang ditandatangani** dari aplikasi .NET? Anda bukan satu‑satunya—perusahaan terus‑menerus meminta PDF yang tidak dapat diubah untuk kontrak, faktur, atau laporan regulasi. Kabar baiknya, dengan Aspose.Pdf Anda dapat melakukannya dalam beberapa baris kode, dan Anda akan mendapatkan tanda tangan yang sah secara hukum yang dapat diverifikasi di semua penampil PDF.
 
-Dalam tutorial ini kami akan membahas langkah‑langkah **cara menandatangani PDF** menggunakan sertifikat PFX, mengapa tanda tangan PKCS#7 terpisah sering menjadi pilihan paling aman, dan bagaimana **menandatangani PDF dengan sertifikat** tanpa merusak dokumen asli. Pada akhir tutorial Anda akan memiliki contoh yang siap dijalankan yang membuat PDF yang ditandatangani, serta tips untuk kasus pinggiran umum.
+Dalam tutorial ini kita akan membahas **cara menandatangani PDF** menggunakan sertifikat digital, mencakup semua mulai dari memuat dokumen PDF hingga membuat tanda tangan PKCS#7 terpisah. Pada akhir tutorial Anda akan memiliki potongan kode siap pakai yang dapat ditempelkan ke proyek C# mana pun.
+
+> **Intisari:** Anda akan belajar **memuat dokumen PDF**, membangun **tanda tangan PKCS7**, dan akhirnya **menandatangani PDF dengan sertifikat** sehingga hasilnya adalah file **create signed pdf** yang dapat didistribusikan dengan aman.
+
+---
 
 ## Apa yang Anda Butuhkan
 
-- **Aspose.Pdf untuk .NET** (v23.9 atau lebih baru). Paket NuGet bernama `Aspose.Pdf`.
-- Sebuah **sertifikat PKCS#12 (.pfx)** yang berisi kunci pribadi yang Anda izinkan untuk menandatangani.
-- Runtime .NET 6+ (kode ini juga bekerja pada .NET Framework 4.7+).
-- Sebuah PDF sederhana (`toSign.pdf`) yang ingin Anda lindungi.
+- **Aspose.Pdf untuk .NET** (v23.9 atau lebih baru). Instal via NuGet: `Install-Package Aspose.Pdf`.
+- Sebuah **sertifikat PKCS#12 (.pfx)** yang berisi kunci pribadi Anda.
+- PDF yang ingin Anda tandatangani (misalnya `input.pdf`).
+- .NET 6+ (semua runtime terbaru dapat digunakan).
 
-Tidak ada pustaka tambahan, tidak ada layanan eksternal—hanya komponen yang disebutkan di atas.
+Tanpa pustaka tambahan, tanpa COM interop—hanya C# murni.
 
-![Contoh PDF yang Ditandatangani](image.png "Tangkapan layar yang menunjukkan proses membuat PDF yang ditandatangani")
+---
 
-*Teks alt gambar: “Ilustrasi langkah‑demi‑langkah cara membuat PDF yang ditandatangani menggunakan C# dan Aspose.Pdf”*
+## Langkah 1 – Memuat Dokumen PDF (how to sign pdf)
 
-## Langkah 1 – Muat PDF yang Ingin Anda Tanda Tangani
-
-Sebelum Anda dapat menerapkan tanda tangan apa pun, Anda memerlukan objek `Document` yang mewakili file sumber.
+Sebelum Anda dapat menerapkan segel digital, Anda harus membawa file sumber ke memori. Di sinilah kata kunci sekunder *load pdf document* muncul secara alami.
 
 ```csharp
 using Aspose.Pdf;
 
-// Load the PDF that will be signed
-using var pdfDocument = new Document(@"C:\PDFs\toSign.pdf");
+// Step 1: Load the PDF you want to sign
+string inputPath = @"C:\MyPdfs\input.pdf";
+
+Document pdfDocument = new Document(inputPath);
 ```
 
-*Mengapa ini penting:* `Document` adalah titik masuk untuk semua operasi PDF di Aspose. Dengan menggunakan pernyataan `using` kita memastikan handle file dilepaskan segera, sehingga menghindari kesalahan “file in use” saat menyimpan versi yang ditandatangani.
+**Mengapa ini penting:** `Document` mewakili seluruh struktur PDF. Dengan memuatnya terlebih dahulu, Anda memberi Aspose objek yang dapat diubah yang kemudian dapat dimodifikasi tanpa menyentuh file asli di disk.
 
-## Langkah 2 – Siapkan Penangan Tanda Tangan
+> **Tip profesional:** Jika PDF sumber dilindungi kata sandi, berikan kata sandi ke konstruktor `Document`: `new Document(inputPath, "pdfPassword")`.
 
-Aspose menyediakan façade khusus bernama `PdfFileSignature` yang tahu cara menyematkan tanda tangan tanpa merusak bagian lain dari file.
+---
+
+## Langkah 2 – Menyiapkan Tanda Tangan PKCS#7 Terpisah (create pkcs7 signature)
+
+Tanda tangan PKCS#7 terpisah menggabungkan hash dokumen dengan kunci pribadi Anda, tetapi **tidak menyematkan konten yang ditandatangani**. Ini menjaga ukuran PDF asli tetap tidak berubah dan merupakan format yang paling banyak diharapkan oleh penampil PDF.
 
 ```csharp
 using Aspose.Pdf.Facades;
-
-// Create a signature handler for the loaded document
-using var pdfSigner = new PdfFileSignature(pdfDocument);
-```
-
-*Tips pro:* Jika Anda berencana menambahkan beberapa tanda tangan kemudian, biarkan `isAppendMode` tetap `true` (kami akan melakukannya pada langkah berikutnya). Ini memberi tahu pustaka untuk menambahkan pembaruan inkremental baru alih‑alih menulis ulang seluruh file.
-
-## Langkah 3 – Siapkan Tanda Tangan PKCS#7 Terpisah
-
-Sebuah **tanda tangan PKCS#7 terpisah** menyimpan hash dokumen secara terpisah dari data sertifikat, memudahkan verifikasi dan menjaga PDF asli tetap utuh. Berikut cara mengkonfigurasinya dengan SHA‑512, yang lebih kuat daripada SHA‑256 default.
-
-```csharp
 using Aspose.Pdf.Forms;
 
-// Prepare a PKCS#7 detached signature using SHA‑512 as the digest algorithm
-var pkcsSignature = new PKCS7Detached(
-    @"C:\Certificates\mycert.pfx",   // certificate file
-    "pwd",                           // certificate password
-    DigestHashAlgorithm.Sha512);     // explicit digest algorithm
+// Step 2: Build a PKCS#7 detached signature object
+string certPath = @"C:\MyCerts\certificate.pfx";
+string certPassword = "yourPassword";
+
+PKCS7Detached pkcsSignature = new PKCS7Detached(
+    certPath,                 // Path to the .pfx file
+    certPassword,            // Password for the certificate
+    DigestHashAlgorithm.Sha3_256); // Strong hash algorithm
 ```
 
-*Mengapa SHA‑512?* Banyak standar kepatuhan (misalnya EU eIDAS) merekomendasikan setidaknya hash 256‑bit, dan SHA‑512 memberi Anda margin yang nyaman tanpa penurunan kinerja yang signifikan.
+**Mengapa SHA‑3‑256?** Saat ini dianggap lebih kuat daripada SHA‑2 untuk ketahanan tabrakan, dan banyak rezim kepatuhan (misalnya EU eIDAS) merekomendasikannya untuk implementasi baru.
 
-## Langkah 4 – Terapkan Tanda Tangan Digital pada Halaman Tertentu
+**Kasus tepi:** Jika sertifikat Anda menggunakan algoritma berbeda (RSA‑2048, ECDSA‑P256, dll.), cukup ubah enum `DigestHashAlgorithm` agar sesuai. Aspose akan menangani kriptografi di bawahnya.
 
-Sekarang kita benar‑benar **menambahkan tanda tangan digital** ke PDF. Anda dapat memilih halaman mana saja dan persegi panjang mana saja; persegi panjang menentukan di mana tampilan tanda tangan yang terlihat akan ditempatkan.
+---
+
+## Langkah 3 – Menandatangani PDF dengan Sertifikat (create signed pdf)
+
+Sekarang bagian yang menyenangkan: menempelkan tanda tangan ke halaman tertentu. Kita akan membuatnya terlihat, tetapi Anda dapat mengatur `isVisible` menjadi `false` untuk tanda tangan yang tidak terlihat.
 
 ```csharp
-using System.Drawing;
+// Step 3: Create a PdfFileSignature object – this is the engine that writes the signature
+using var pdfSignature = new PdfFileSignature(pdfDocument);
 
-// Apply the digital signature to page 1 at the desired rectangle
-pdfSigner.Sign(
-    pageNumber: 1,                     // page index starts at 1
-    isAppendMode: true,                // keep existing signatures intact
-    signatureRectangle: new Rectangle(100, 100, 200, 150),
-    pkcsSignature);
+// Define where the signature will appear (x1, y1, x2, y2) in points.
+// Here we place it near the bottom‑right of page 1.
+Rectangle signatureRect = new Rectangle(100, 100, 200, 150);
+
+// Apply the signature
+pdfSignature.Sign(
+    pageNumber: 1,          // 1‑based page index
+    isVisible: true,        // Show signature appearance
+    signatureRectangle: signatureRect,
+    signature: pkcsSignature);
 ```
 
-*Pertanyaan umum:* “Bagaimana jika saya tidak menginginkan tanda tangan yang terlihat?”  
-Cukup berikan `null` untuk `signatureRectangle` dan pustaka akan membuat tanda tangan tak terlihat (tanpa anotasi), yang berguna untuk proses backend.
+**Mengapa persegi panjang?** Koordinat PDF diukur dari sudut kiri‑bawah. Menyesuaikan persegi panjang memungkinkan Anda mengontrol penempatan tepat—sempurna untuk menstempel baris tanda tangan pada formulir hukum.
 
-## Langkah 5 – Simpan PDF yang Ditandatangani
+**Bagaimana jika Anda memerlukan beberapa tanda tangan?** Ulangi pemanggilan `Sign` dengan `pageNumber` dan persegi panjang yang berbeda. Setiap pemanggilan menambahkan pembaruan inkremental baru, mempertahankan tanda tangan sebelumnya.
 
-Akhirnya, tulis dokumen yang ditandatangani ke disk. Anda dapat membiarkan file asli tidak tersentuh dan menghasilkan file baru.
+---
+
+## Langkah 4 – Menyimpan dan Memverifikasi PDF yang Ditandatangani
+
+Akhirnya, tuliskan file yang telah ditandatangani ke disk. Anda juga dapat memverifikasi tanda tangan secara programatik, tetapi kebanyakan pengguna akan membuka PDF di Adobe Acrobat atau penampil lain yang menampilkan tanda centang hijau.
 
 ```csharp
-// Save the signed PDF to a new file
-pdfSigner.Save(@"C:\PDFs\signed_sha512.pdf");
+// Step 4: Persist the signed PDF
+string outputPath = @"C:\MyPdfs\signed_output.pdf";
+pdfSignature.Save(outputPath);
+
+// Optional: Quick verification (throws if invalid)
+bool isValid = pdfSignature.VerifySignature();
+Console.WriteLine(isValid
+    ? "Signature applied successfully."
+    : "Signature verification failed.");
 ```
 
-Saat Anda membuka `signed_sha512.pdf` di Adobe Acrobat atau penampil PDF apa pun yang mendukung tanda tangan, Anda akan melihat tanda centang hijau (atau visual yang Anda definisikan) serta detail sertifikat.
+**Hasil:** `signed_output.pdf` kini berisi tanda tangan digital yang terlihat pada halaman 1. Membukanya di Acrobat akan menampilkan nama penandatangan, detail sertifikat, dan banner “Signed and all signatures are valid”.
 
-## Contoh Kerja Lengkap
+---
 
-Menggabungkan semuanya, berikut program siap salin‑tempel:
+## Contoh Lengkap yang Berfungsi (Semua Langkah Digabung)
+
+Berikut adalah program lengkap yang siap dijalankan. Tempelkan ke proyek konsol baru dan sesuaikan jalur file.
 
 ```csharp
 using System;
-using System.Drawing;
 using Aspose.Pdf;
 using Aspose.Pdf.Facades;
 using Aspose.Pdf.Forms;
@@ -134,93 +153,79 @@ class Program
     static void Main()
     {
         // 1️⃣ Load the PDF you want to sign
-        using var pdfDocument = new Document(@"C:\PDFs\toSign.pdf");
+        string inputPath = @"C:\MyPdfs\input.pdf";
+        Document pdfDocument = new Document(inputPath);
 
-        // 2️⃣ Create the signature handler
-        using var pdfSigner = new PdfFileSignature(pdfDocument);
+        // 2️⃣ Prepare a PKCS#7 detached signature
+        string certPath = @"C:\MyCerts\certificate.pfx";
+        string certPassword = "yourPassword";
+        PKCS7Detached pkcsSignature = new PKCS7Detached(
+            certPath,
+            certPassword,
+            DigestHashAlgorithm.Sha3_256);
 
-        // 3️⃣ Build a PKCS#7 detached signature (SHA‑512)
-        var pkcsSignature = new PKCS7Detached(
-            @"C:\Certificates\mycert.pfx",
-            "pwd",
-            DigestHashAlgorithm.Sha512);
-
-        // 4️⃣ Sign page 1 – you can change pageNumber or rectangle as needed
-        pdfSigner.Sign(
+        // 3️⃣ Sign the PDF (visible signature on page 1)
+        using var pdfSignature = new PdfFileSignature(pdfDocument);
+        Rectangle rect = new Rectangle(100, 100, 200, 150);
+        pdfSignature.Sign(
             pageNumber: 1,
-            isAppendMode: true,
-            signatureRectangle: new Rectangle(100, 100, 200, 150),
-            pkcsSignature);
+            isVisible: true,
+            signatureRectangle: rect,
+            signature: pkcsSignature);
 
-        // 5️⃣ Save the result
-        pdfSigner.Save(@"C:\PDFs\signed_sha512.pdf");
+        // 4️⃣ Save the signed document
+        string outputPath = @"C:\MyPdfs\signed_output.pdf";
+        pdfSignature.Save(outputPath);
 
-        Console.WriteLine("✅ PDF signed successfully!");
+        // Quick verification (optional)
+        bool ok = pdfSignature.VerifySignature();
+        Console.WriteLine(ok
+            ? "✅ create signed pdf succeeded."
+            : "❌ Signature verification failed.");
     }
 }
 ```
 
-Jalankan program, dan Anda akan melihat pesan konsol yang mengonfirmasi keberhasilan. Buka file output, periksa panel tanda tangan, dan Anda akan melihat informasi sertifikat yang Anda berikan.
+**Output yang diharapkan** saat Anda menjalankan program:
 
-## Cara Menandatangani PDF – Variasi Pertanyaan yang Sering Diajukan
-
-### Menandatangani Beberapa Halaman
-
-Jika Anda perlu **menambahkan tanda tangan digital** pada lebih dari satu halaman, panggil `pdfSigner.Sign` berulang kali dengan nilai `pageNumber` yang berbeda. Karena kami menggunakan `isAppendMode: true`, setiap pemanggilan membuat pembaruan inkremental baru, mempertahankan tanda tangan sebelumnya.
-
-### Menggunakan Algoritma Digest yang Berbeda
-
-Beberapa sistem lama hanya memahami SHA‑256. Ganti `DigestHashAlgorithm.Sha512` dengan `DigestHashAlgorithm.Sha256` pada konstruktor `PKCS7Detached`. Sisanya tetap sama.
-
-### Membuat Tanda Tangan Tak Terlihat
-
-```csharp
-pdfSigner.Sign(
-    pageNumber: 1,
-    isAppendMode: true,
-    signatureRectangle: null,   // no visible appearance
-    pkcsSignature);
+```
+✅ create signed pdf succeeded.
 ```
 
-Tanda tangan tak terlihat sangat cocok untuk proses batch otomatis di mana petunjuk visual tidak diperlukan.
+Buka `signed_output.pdf` → Anda akan melihat bidang tanda tangan dengan nama sertifikat Anda.
 
-### Memverifikasi Tanda Tangan secara Programatik
+---
 
-Aspose juga memungkinkan Anda memvalidasi tanda tangan:
+## Pertanyaan Umum & Kasus Tepi
 
-```csharp
-using Aspose.Pdf.Facades;
+| Pertanyaan | Jawaban |
+|------------|---------|
+| *Bisakah saya menandatangani PDF yang sudah memiliki tanda tangan?* | Ya. Aspose menambahkan pembaruan inkremental, mempertahankan tanda tangan yang ada. Cukup panggil `Sign` lagi dengan persegi panjang baru. |
+| *Bagaimana jika sertifikat menggunakan algoritma hash yang berbeda?* | Ganti `DigestHashAlgorithm.Sha3_256` dengan `Sha256`, `Sha384`, dll. API akan otomatis memilih penyedia kriptografi yang tepat. |
+| *Apakah tanda tangan yang terlihat wajib untuk kepatuhan?* | Tidak selalu. Beberapa regulasi menerima tanda tangan tidak terlihat (detached). Atur `isVisible: false` dan hilangkan persegi panjang. |
+| *Bagaimana cara menandatangani beberapa halaman sekaligus?* | Lakukan loop pada halaman yang diperlukan: `for (int i = 1; i <= pdfDocument.Pages.Count; i++) { pdfSignature.Sign(i, true, rect, pkcsSignature); }` |
+| *Bagaimana jika PDF berukuran sangat besar (ratusan MB)?* | Gunakan `PdfFileSignature` dengan `SignatureAppearance` untuk men-stream file alih‑alih memuat seluruhnya ke memori. Ini mengurangi penggunaan RAM. |
 
-var verifier = new PdfFileSignature(@"C:\PDFs\signed_sha512.pdf");
-bool isValid = verifier.VerifySignature(pageNumber: 1);
-Console.WriteLine(isValid ? "Signature valid" : "Signature invalid");
-```
+---
 
-### Menangani PDF yang Dilindungi Kata Sandi
+## Tips Pro untuk Penggunaan Produksi
 
-Jika PDF sumber terenkripsi, buka terlebih dahulu dengan kata sandi:
+- **Cache sertifikat** jika Anda menandatangani banyak PDF secara berurutan; memuat `.pfx` berulang kali menambah beban.
+- **Atur tampilan khusus** (logo, nama penandatangan) dengan menyertakan `Image` ke `PdfFileSignature`.
+- **Catat metadata tanda tangan** (waktu penandatangan, algoritma hash) untuk jejak audit.
+- **Validasi rantai sertifikat** sebelum menandatangani untuk menghindari menyematkan sertifikat yang kedaluwarsa atau dicabut.
 
-```csharp
-var pdfDoc = new Document(@"C:\PDFs\protected.pdf", "pdfPassword");
-```
-
-Lalu lanjutkan dengan langkah‑langkah yang sama. Tanda tangan akan diterapkan di atas konten yang terenkripsi.
-
-## Tips Pro & Kesalahan Umum
-
-- **Jangan pernah menuliskan kata sandi secara hard‑code** dalam kode produksi. Gunakan vault aman atau variabel lingkungan.
-- **Jaga kunci pribadi sertifikat Anda tetap terlindungi.** Jika file `.pfx` terekspos, siapa pun dapat memalsukan dokumen.
-- **Uji dengan berbagai penampil PDF.** Beberapa pembaca lama mungkin tidak menampilkan tanda tangan dengan benar jika aliran tampilan (appearance stream) hilang.
-- **Penyimpanan inkremental penting.** Jika Anda mengatur `isAppendMode` ke `false`, tanda tangan yang ada akan menjadi tidak valid karena seluruh file ditulis ulang.
-- **Waspadai rotasi halaman.** Koordinat persegi panjang relatif terhadap orientasi asli halaman; halaman yang diputar mungkin memerlukan penyesuaian koordinat.
+---
 
 ## Kesimpulan
 
-Kami baru saja mendemonstrasikan cara **membuat PDF yang ditandatangani** di C# menggunakan Aspose.Pdf, mencakup semua mulai dari memuat dokumen hingga **menandatangani PDF dengan sertifikat**, membuat **tanda tangan PKCS#7**, dan menyimpan hasilnya. Kode contoh berfungsi penuh, dan penjelasannya menjawab “mengapa” di balik setiap langkah, memudahkan adaptasi ke proyek Anda sendiri.
+Anda kini tahu cara **membuat PDF yang ditandatangani** di C# menggunakan Aspose.Pdf, mulai dari memuat dokumen hingga menghasilkan **tanda tangan PKCS7 terpisah** dan akhirnya menerapkan **tanda tangan dengan sertifikat**. Pola yang ditunjukkan di sini bekerja untuk kontrak satu halaman, laporan multi‑halaman, bahkan pipeline pemrosesan batch.
 
-Siap untuk tantangan berikutnya? Cobalah menggabungkan pendekatan ini dengan **menambahkan tanda tangan digital** untuk memproses ratusan faktur secara batch, atau jelajahi layanan timestamp untuk non‑repudiation yang lebih kuat. Anda kini memiliki fondasi yang solid untuk alur kerja penandatanganan digital berbasis .NET apa pun.
+Selanjutnya, pertimbangkan untuk mengeksplorasi **cara menandatangani PDF dengan otoritas timestamp** atau **menyematkan tampilan tanda tangan khusus**. Kedua topik tersebut memperdalam pemahaman Anda tentang tanda tangan digital dan menjaga Anda selangkah lebih maju dalam memenuhi persyaratan kepatuhan.
 
-*Selamat coding, semoga PDF Anda selalu tetap ditandatangani dengan aman!*
+Cobalah—tandatangani kontrak percobaan, verifikasi di Adobe Acrobat, lalu integrasikan kode ke alur kerja Anda sendiri. Jika menemukan kendala, tinggalkan komentar di bawah atau periksa dokumentasi resmi Aspose untuk contoh tambahan.
+
+Selamat coding, semoga PDF Anda tetap tidak dapat diubah!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

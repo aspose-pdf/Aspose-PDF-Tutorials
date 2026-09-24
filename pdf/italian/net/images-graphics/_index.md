@@ -35,6 +35,8 @@ Scopri come convertire file SVG in PDF di alta qualità senza problemi utilizzan
 ### [Creare e riempire rettangoli nei PDF utilizzando Aspose.PDF per .NET: una guida passo passo](./create-fill-rectangle-aspose-pdf-net/)
 Scopri come creare e riempire rettangoli nei documenti PDF utilizzando Aspose.PDF per .NET. Questa guida passo passo copre tutto, dalla configurazione all'implementazione con C#.
 
+### [Come disegnare un rettangolo in PDF con C# – Guida passo passo](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
+Scopri come disegnare rettangoli nei PDF utilizzando Aspose.PDF per .NET con C#. Segui questa guida passo passo con esempi di codice.
 ### [Aggiungere un rettangolo a PDF con C# – Guida completa Aspose PDF](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
 Scopri come inserire un rettangolo in un PDF usando C# e Aspose.PDF con esempi pratici passo passo.
 
@@ -46,6 +48,9 @@ Scopri come creare documenti PDF visivamente accattivanti estraendo ed evidenzia
 
 ### [Disegna forme trasparenti nei PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 Un tutorial sul codice per Aspose.PDF Net
+
+### [Aggiungere trasparenza a PDF con Aspose PDF in C# – Guida passo passo](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Scopri come applicare effetti di trasparenza ai PDF usando Aspose.PDF per .NET con esempi C# dettagliati.
 
 ### [Identificazione efficiente delle immagini PDF con Aspose.PDF per .NET](./master-image-identification-aspose-pdf-net/)
 Scopri come identificare immagini in scala di grigi e RGB nei PDF utilizzando Aspose.PDF per .NET. Questo tutorial include suggerimenti su installazione, estrazione delle immagini e prestazioni.
