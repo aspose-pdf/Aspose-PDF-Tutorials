@@ -50,6 +50,7 @@ Los tutoriales de Aspose.PDF "Programación con sellos y marcas de agua" para .N
 | [Crear marca de agua PDF – Añadir sello y convertir DOCX a PDF](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) Aprenda a crear una marca de agua en PDF, agregar un sello y convertir DOCX a PDF con Aspose.PDF para .NET.  
 | [Crear documento PDF con numeración Bates en C# – Guía completa](./create-pdf-document-with-bates-numbering-in-c-full-guide/) | Aprenda a crear documentos PDF con numeración Bates usando Aspose.PDF para .NET en C# con esta guía paso a paso. |
 | [Agregar sello a PDF – Aplicar marca de agua en la primera página](./add-stamp-to-pdf-apply-watermark-pdf-on-first-page/) | Aprenda a agregar un sello y aplicar una marca de agua en la primera página de un PDF usando Aspose.PDF para .NET con esta guía paso a paso. |
+| [Agregar marca de agua PDF en C# – Guía completa con Aspose](./add-watermark-pdf-in-c-complete-guide-with-aspose/) | Aprenda a agregar una marca de agua a un PDF usando Aspose.PDF para .NET con esta guía paso a paso. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

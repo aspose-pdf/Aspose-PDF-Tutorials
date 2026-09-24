@@ -64,6 +64,8 @@ Imparerai come specificare le impostazioni di conversione, estrarre testo e imma
 | [Da XPS a PDF](./xps-to-pdf/) Scopri come convertire i file XPS in PDF utilizzando Aspose.PDF per .NET con questo tutorial passo passo. Perfetto per sviluppatori e appassionati di documenti. |
 | [pdf to png tutorial – Converti pagine PDF in PNG in C#](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Scopri come convertire le pagine di un PDF in immagini PNG usando Aspose.PDF per .NET con C#. |
 | [Conversione di PDF Aspose in C#: Carica, Converti in PDF/X-4, Salva](./aspose-pdf-conversion-in-c-load-convert-to-pdf-x-4-save/) | Scopri come caricare un documento, convertirlo in PDF/X‑4 e salvarlo usando Aspose.PDF per .NET in C#. |
+| [Salva PDF come HTML con Aspose.PDF – Guida passo‑passo C#](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) | Scopri come convertire un PDF in HTML usando Aspose.PDF per .NET con un esempio dettagliato in C#. |
+| [Crea PDF da JPG in C# – Guida completa con ritaglio e nuove pagine](./create-pdf-from-jpg-in-c-full-guide-with-cropping-and-new-pa/) | Scopri come creare un PDF da immagini JPG in C#, includendo ritaglio e aggiunta di nuove pagine, passo passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

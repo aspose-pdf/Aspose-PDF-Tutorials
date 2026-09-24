@@ -52,6 +52,7 @@
 | [إنشاء مستند PDF مع ترقيم بيثس في C# – دليل كامل](./create-pdf-document-with-bates-numbering-in-c-full-guide/) تعرّف على كيفية إضافة ترقيم بيثس إلى ملفات PDF باستخدام Aspose.PDF لـ .NET عبر دليل خطوة بخطوة مع أمثلة كود.  
 | [كيفية إضافة طابع إلى PDF باستخدام Aspose.Pdf – دليل خطوة بخطوة](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) |تعرف على طريقة إضافة طابع إلى ملفات PDF باستخدام Aspose.Pdf عبر دليل شامل خطوة بخطوة. |
 | [إنشاء إشعار صفحة كاملة في PDF – دليل سريع C#](./create-pdf-full-page-notice-quick-c-guide/) |تعلم كيفية إنشاء إشعار يغطي صفحة كاملة في ملف PDF باستخدام C# و Aspose.PDF خطوة بخطوة. |
+| [إضافة علامة مائية PDF في C# – دليل كامل مع Aspose](./add-watermark-pdf-in-c-complete-guide-with-aspose/) تعرّف على كيفية إضافة علامة مائية إلى ملفات PDF باستخدام Aspose.PDF لـ .NET في C# من خلال دليل شامل خطوة بخطوة.  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

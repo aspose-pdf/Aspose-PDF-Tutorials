@@ -29,13 +29,15 @@
 | [Markdown 轉 PDF](./markdown-to-pdf/) |在本逐步教學中了解如何使用 Aspose.PDF for .NET 將 Markdown 轉換為 PDF。非常適合希望簡化文件轉換的開發人員。 |  
 | [MHT 轉 PDF](./mht-to-pdf/) |在本逐步教學中了解如何使用 Aspose.PDF for .NET 將 MHT 檔案轉換為 PDF。輕鬆有效率的文檔轉換。 |  
 | [根據影像尺寸調整頁面方向](./page-orientation-according-image-dimensions/) |在本逐步指南中了解如何使用 Aspose.PDF for .NET 建立 PDF，並根據影像尺寸設定頁面方向。 |  
+| [在 C# 中從 JPG 建立 PDF – 完整指南，包含裁剪與新增頁面](./create-pdf-from-jpg-in-c-full-guide-with-cropping-and-new-pa/) |透過本完整教學了解如何使用 Aspose.PDF for .NET 在 C# 中將 JPG 圖片轉換為 PDF，並執行裁剪與新增頁面操作。 |  
 | [PCL 轉 PDF](./pcl-to-pdf/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 PCL 檔案轉換為 PDF。非常適合開發人員和企業。 |  
 | [PDFA 轉 PDF](./pdfa-to-pdf/) |透過本全面的逐步指南了解如何使用 Aspose.PDF for .NET 將 PDF/A 轉換為 PDF。 |  
 | [PDF 轉 DOC](./pdf-to-doc/) |在本綜合指南中了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 DOC。包含逐步說明和提示。 |  
 | [PDF轉EPUB](./pdf-to-epub/) |在本分步教學中了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 EPUB。非常適合開發人員和內容創作者。 |  
-| [PDF 轉 HTML](./pdf-to-html/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 HTML。非常適合開發人員和內容創作者。 |  
-| [PDF 轉 PDFA](./pdf-to-pdfa/) |透過本逐步教學了解如何使用 Aspose.PDF for .NET 將 PDF 檔案轉換為 PDF/A 格式。 |  
-| [PDF 轉 PDFA3b](./pdf-to-pdfa3b/) |透過本逐步指南學習如何使用 Aspose.PDF for .NET 輕鬆地將 PDF 文件轉換為 PDF/A-3B 格式。 |  
+| [PDF 轉 HTML](./pdf-to-html/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 HTML。非常適合開發人員和內容創作者。 |
+| [將 PDF 另存為 HTML（使用 Aspose.PDF） – C# 步驟指南](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) |透過本逐步教學了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 轉換並另存為 HTML 檔案。 |
+| [PDF 轉 PDFA](./pdf-to-pdfa/) |透過本逐步教學了解如何使用 Aspose.PDF for .NET 將 PDF 檔案轉換為 PDF/A 格式。 |
+| [PDF 轉 PDFA3b](./pdf-to-pdfa3b/) |透過本逐步指南學習如何使用 Aspose.PDF for .NET 輕鬆地將 PDF 文件轉換為 PDF/A-3B 格式。 |
 | [PDF 轉 PNG 字體提示](./pdf-to-png-font-hinting/) |透過簡單的逐步指南學習如何使用 Aspose.PDF for .NET 將 PDF 轉換為帶有字體提示的 PNG。 |
 | [PDF 轉 PNG 教學 – 在 C# 中將 PDF 頁面轉換為 PNG](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) |了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 頁面轉換為 PNG 圖像。 |
 | [PDF轉PPT](./pdf-to-ppt/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 PPT。簡單、高效，非常適合演示。 |  

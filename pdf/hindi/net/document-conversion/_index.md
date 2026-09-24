@@ -66,6 +66,8 @@
 | [PDF/X‑1A रूपांतरण में ICC प्रोफ़ाइल सेट करें – पूर्ण C# गाइड](./set-icc-profile-in-pdf-x-1a-conversion-complete-c-guide/) | इस विस्तृत चरण-दर-चरण गाइड में .NET के लिए Aspose.PDF का उपयोग करके PDF/X‑1A रूपांतरण में ICC प्रोफ़ाइल सेट करना सीखें। |  
 
 | [स्पैन तत्व बनाएं और पेज में जोड़ें – DOCX को PDF में बदलें](./create-span-element-and-add-to-page-convert-docx-to-pdf/) | इस चरण-दर-चरण ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके DOCX को PDF में बदलते समय पेज में स्पैन तत्व जोड़ना सीखें। |
+| [Aspose.PDF के साथ PDF को HTML के रूप में सहेजें – चरण‑दर‑चरण C# गाइड](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) | इस चरण‑दर‑चरण ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को HTML में सहेजना सीखें। |
+| [C# में JPG से PDF बनाएं – क्रॉपिंग और नई पृष्ठों के साथ पूर्ण गाइड](./create-pdf-from-jpg-in-c-full-guide-with-cropping-and-new-pa/) | इस विस्तृत गाइड में C# के साथ JPG छवियों को क्रॉप करके नई पृष्ठों के साथ PDF बनाने के चरण सीखें। |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

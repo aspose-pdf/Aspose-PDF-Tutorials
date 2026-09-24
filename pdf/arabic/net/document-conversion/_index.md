@@ -64,6 +64,8 @@
 | [كيفية تعيين خيارات تحويل PDF في C# – دليل Aspose](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) |تعلم كيفية ضبط خيارات التحويل لإنشاء ملفات PDF مخصصة باستخدام Aspose.PDF لـ .NET في C#. |
 | [إنشاء عنصر span وإضافته إلى الصفحة – تحويل DOCX إلى PDF](./create-span-element-and-add-to-page-convert-docx-to-pdf/) |تعلم كيفية إنشاء عنصر span وإضافته إلى صفحة PDF أثناء تحويل مستند DOCX إلى PDF باستخدام Aspose.PDF لـ .NET. |
 | [تحويل PDF باستخدام Aspose في C#: التحميل، التحويل إلى PDF/X-4، الحفظ](./aspose-pdf-conversion-in-c-load-convert-to-pdf-x-4-save/) تعلم كيفية تحميل ملف وتحويله إلى صيغة PDF/X‑4 وحفظه باستخدام Aspose.PDF في C# خطوة بخطوة. |
+| [حفظ PDF كـ HTML باستخدام Aspose.PDF – دليل خطوة بخطوة بلغة C#](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) |تعرف على كيفية تحويل ملفات PDF إلى HTML باستخدام Aspose.PDF لـ .NET عبر دليل شامل خطوة بخطوة بلغة C#. |
+| [إنشاء PDF من JPG في C# – دليل كامل مع القص وإضافة صفحات جديدة](./create-pdf-from-jpg-in-c-full-guide-with-cropping-and-new-pa/) |تعلم كيفية تحويل صور JPG إلى ملفات PDF باستخدام C# مع قص الصور وإنشاء صفحات جديدة في دليل خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

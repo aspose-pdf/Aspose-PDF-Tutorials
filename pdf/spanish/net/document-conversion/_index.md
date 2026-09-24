@@ -34,6 +34,7 @@ Aprenderá a especificar la configuración de conversión, extraer texto e imág
 | [PDF a DOC](./pdf-to-doc/) Aprenda a convertir PDF a DOC con Aspose.PDF para .NET en esta guía completa. Incluye instrucciones y consejos paso a paso.  
 | [PDF a EPUB](./pdf-to-epub/) Aprenda a convertir PDF a EPUB con Aspose.PDF para .NET en este tutorial paso a paso. Ideal para desarrolladores y creadores de contenido.  
 | [PDF a HTML](./pdf-to-html/) Aprenda a convertir PDF a HTML con Aspose.PDF para .NET con esta guía paso a paso. Ideal para desarrolladores y creadores de contenido.  
+| [Guardar PDF como HTML con Aspose.PDF – Guía paso a paso en C#](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) Aprenda a guardar archivos PDF como HTML usando Aspose.PDF para .NET con esta guía paso a paso en C#.  
 | [PDF a PDFA](./pdf-to-pdfa/) Aprenda a convertir archivos PDF al formato PDF/A usando Aspose.PDF para .NET con este tutorial paso a paso. |  
 | [PDF a PDFA3b](./pdf-to-pdfa3b/) | Aprenda a convertir archivos PDF al formato PDF/A-3B sin esfuerzo con Aspose.PDF para .NET en esta guía paso a paso. |  
 | [Sugerencias de fuente de PDF a PNG](./pdf-to-png-font-hinting/) | Aprenda a convertir PDF a PNG con sugerencias de fuente usando Aspose.PDF para .NET en una sencilla guía paso a paso. |  
@@ -60,6 +61,7 @@ Aprenderá a especificar la configuración de conversión, extraer texto e imág
 | [Cómo convertir PDF a PDF/X-4 con Aspose – Guía paso a paso](./how-to-convert-pdf-to-pdf-x-4-with-aspose-step-by-step-guide/) | Aprenda a convertir PDF a PDF/X‑4 con Aspose.PDF para .NET siguiendo esta guía paso a paso. |
 | [Tutorial de Aspose PDF: Convertir PDF a PDF/X‑4 en C#](./aspose-pdf-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Aprenda a convertir PDF a PDF/X‑4 usando Aspose.PDF para .NET con esta guía paso a paso. |
 | [pdf a png tutorial – Convertir páginas PDF a PNG en C#](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Aprenda a convertir páginas PDF a PNG usando Aspose.PDF para .NET con esta guía paso a paso. |
+| [Crear PDF a partir de JPG en C# – Guía completa con recorte y nuevas páginas](./create-pdf-from-jpg-in-c-full-guide-with-cropping-and-new-pa/) | Aprenda a generar un PDF a partir de imágenes JPG en C#, incluyendo recorte de imágenes y creación de nuevas páginas, paso a paso. |
 | [Cómo establecer opciones para la conversión de PDF en C# – Guía Aspose](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | Aprenda a configurar opciones de conversión PDF en C# usando Aspose.PDF para .NET paso a paso. |
 | [Cargar documento PDF C# – Convertir a PDF/X‑4 con Aspose](./load-pdf-document-c-convert-to-pdf-x-4-with-aspose/) | Aprenda a cargar un documento PDF y convertirlo a PDF/X‑4 usando Aspose.PDF para .NET en C#. |
 | [Crear elemento span y agregar a la página – Convertir DOCX a PDF](./create-span-element-and-add-to-page-convert-docx-to-pdf/) | Aprenda a crear un elemento span y añadirlo a la página al convertir DOCX a PDF con Aspose.PDF para .NET. |

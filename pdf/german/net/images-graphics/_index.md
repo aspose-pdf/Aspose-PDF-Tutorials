@@ -110,6 +110,9 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET barrierefreie PDF-Dateien mit ein
 ### [So erstellen Sie transparente Rechtecke in PDFs mit Aspose.PDF für .NET](./create-transparent-rectangles-aspose-pdf-dotnet/)
 Erfahren Sie, wie Sie Ihre PDF-Dokumente verbessern, indem Sie mit Aspose.PDF für .NET Rechtecke mit Alpha-Transparenz erstellen. Folgen Sie dieser Schritt-für-Schritt-Anleitung.
 
+### [Rechteck zu PDF mit C# hinzufügen – Vollständiger Aspose PDF Leitfaden](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# ein Rechteck zu einem PDF hinzufügen und anpassen.
+
 ### [So löschen Sie Bilder aus PDF-Dateien mit Aspose.PDF für .NET – Vollständige Anleitung](./delete-images-aspose-pdf-net/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET effizient Bilder aus PDF-Dateien löschen. Diese Anleitung behandelt die Einrichtung, Codebeispiele und bewährte Methoden.
 

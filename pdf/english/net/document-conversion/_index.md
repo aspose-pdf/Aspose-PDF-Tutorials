@@ -65,6 +65,8 @@ You'll learn how to specify conversion settings, extract text and images, retain
 | [Create span element and add to page – Convert DOCX to PDF](./create-span-element-and-add-to-page-convert-docx-to-pdf/) | Learn how to create a span element and convert a DOCX file to PDF using Aspose.PDF for .NET in this step‑by‑step tutorial. |
 | [XML To PDFSet Image Path](./xml-to-pdfset-image-path/) | Learn how to effortlessly convert XML to PDF using Aspose.PDF for .NET. This detailed guide walks you through the process step by step, from setup to completion. |  
 | [XPS To PDF](./xps-to-pdf/) | Learn how to convert XPS files to PDF using Aspose.PDF for .NET with this step‑by‑step tutorial. Perfect for developers and document enthusiasts. |  
+| [Save PDF as HTML with Aspose.PDF – Step‑by‑Step C# Guide](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) | Learn how to save PDF as HTML using Aspose.PDF for .NET in this step‑by‑step C# guide. |
+| [Create PDF from JPG in C# – Full Guide with Cropping and New Pages](./create-pdf-from-jpg-in-c-full-guide-with-cropping-and-new-pa/) | Learn how to generate a PDF from JPG images in C#, including cropping images and adding new pages, using Aspose.PDF for .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

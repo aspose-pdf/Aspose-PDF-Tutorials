@@ -37,6 +37,8 @@ Lär dig hur du skapar och fyller rektanglar i PDF-dokument med Aspose.PDF för 
 
 ### [Hur man ritar en rektangel i PDF med C# – En steg‑för‑steg‑guide](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
 Lär dig hur du ritar en enkel rektangel i en PDF med C# och Aspose.PDF för .NET i denna steg‑för‑steg‑guide.
+### [Lägg till rektangel i PDF med C# – Fullständig Aspose PDF-guide](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+Lär dig hur du skapar och lägger till rektanglar i PDF-dokument med Aspose.PDF för .NET och C# i en komplett steg-för-steg-guide.
 
 ### [Skapa anpassade PDF-stämplar med Aspose.PDF i .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 En kodhandledning för Aspose.PDF Net

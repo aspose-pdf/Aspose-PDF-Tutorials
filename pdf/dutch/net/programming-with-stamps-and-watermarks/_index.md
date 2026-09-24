@@ -52,6 +52,7 @@ De tutorials "Programmeren met stempels en watermerken" van Aspose.PDF voor .NET
 | [PDF-document maken met Bates-nummering in C# – Volledige gids](./create-pdf-document-with-bates-numbering-in-c-full-guide/) | Leer hoe u met Aspose.PDF voor .NET een PDF-document maakt en Bates-nummering toevoegt via een stapsgewijze handleiding. |  
 | [Stempel toevoegen aan PDF – Watermerk op eerste pagina toepassen](./add-stamp-to-pdf-apply-watermark-pdf-on-first-page/) | Leer hoe u een stempel toevoegt aan een PDF en een watermerk alleen op de eerste pagina toepast met Aspose.PDF voor .NET. |  
 | [PDF volledige pagina‑melding maken – Snelle C#‑gids](./create-pdf-full-page-notice-quick-c-guide/) | Leer hoe u met Aspose.PDF voor .NET een volledige pagina‑melding in een PDF maakt met een beknopte C#‑handleiding. |
+| [Watermerk toevoegen aan PDF in C# – Complete gids met Aspose](./add-watermark-pdf-in-c-complete-guide-with-aspose/) Leer hoe u met Aspose.PDF voor .NET een watermerk aan een PDF-bestand toevoegt in C# met deze stapsgewijze handleiding. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

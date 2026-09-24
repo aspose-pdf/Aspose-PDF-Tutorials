@@ -64,6 +64,8 @@ leert hoe u conversie-instellingen opgeeft, tekst en afbeeldingen extraheert, de
 | [pdf naar png-tutorial – PDF-pagina's converteren naar PNG in C#](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Leer hoe u PDF-pagina's naar PNG converteert met Aspose.PDF voor .NET in C#. |
 | [Opties instellen voor PDF-conversie in C# – Aspose-gids](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | Leer hoe u conversie‑opties instelt bij PDF-conversie met Aspose.PDF voor .NET in C#. |
 | [Span-element maken en toevoegen aan pagina – DOCX naar PDF converteren](./create-span-element-and-add-to-page-convert-docx-to-pdf/) | Leer hoe u een span-element maakt en toevoegt aan een pagina terwijl u een DOCX-bestand naar PDF converteert met Aspose.PDF voor .NET. |
+| [PDF opslaan als HTML met Aspose.PDF – Stapsgewijze C#-handleiding](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) | Leer hoe u PDF opslaat als HTML met Aspose.PDF voor .NET in deze stapsgewijze C#-handleiding. |
+| [PDF maken van JPG in C# – Volledige gids met bijsnijden en nieuwe pagina's](./create-pdf-from-jpg-in-c-full-guide-with-cropping-and-new-pa/) | Leer hoe u JPG-afbeeldingen naar PDF converteert, bijsnijdt en op nieuwe pagina's plaatst met Aspose.PDF voor .NET in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

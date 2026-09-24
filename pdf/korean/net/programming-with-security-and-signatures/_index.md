@@ -41,6 +41,7 @@
 | [C#에서 디지털 서명 PDF 검증 – Aspose.PDF 완전 가이드](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) | Aspose.PDF for .NET을 사용하여 C#에서 디지털 서명된 PDF를 검증하는 방법을 단계별로 안내합니다. |  
 | [C#에서 CA 서버 구성 – 워드 문서 서명 검증 완전 가이드](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) | Aspose.PDF for .NET을 사용하여 C#에서 CA 서버를 구성하고 워드 문서 서명을 검증하는 방법을 단계별로 안내합니다. |  
 | [PDF 디지털 서명 검증 – 완전한 C# 가이드](./validate-pdf-digital-signature-complete-c-guide/) | Aspose.PDF for .NET을 사용하여 PDF 디지털 서명을 검증하는 방법을 단계별로 안내합니다. C# 개발자를 위한 완전 가이드. |
+| [PDF 서명 추출 튜토리얼 – C#에서 PDF 서명 목록 확인](./pdf-signature-extraction-tutorial-how-to-list-pdf-signatures/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 파일의 서명을 나열하고 확인하는 방법을 단계별로 안내합니다. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

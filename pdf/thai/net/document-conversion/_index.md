@@ -26,6 +26,7 @@
 - [EPUB เป็น PDF](./epub-to-pdf/) เรียนรู้วิธีแปลง EPUB เป็น PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ ง่าย มีประสิทธิภาพ และสมบูรณ์แบบสำหรับผู้ใช้ทุกคน -  
 | [รับมิติ SVG](./get-svg-dimensions/) | เรียนรู้วิธีใช้ Aspose.PDF สำหรับ .NET เพื่อแปลงไฟล์ SVG เป็น PDF ด้วยคู่มือทีละขั้นตอนนี้ เหมาะอย่างยิ่งสำหรับนักพัฒนาที่ต้องการจัดการ PDF -  
 | [HTML เป็น PDF](./html-to-pdf/) | เรียนรู้วิธีแปลง HTML เป็น PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนที่ครอบคลุมนี้ -  
+- [บันทึก PDF เป็น HTML ด้วย Aspose.PDF – คู่มือขั้นตอน C#](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) | เรียนรู้วิธีบันทึกไฟล์ PDF เป็น HTML ด้วย Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้  
 | [มาร์กดาวน์เป็น PDF](./markdown-to-pdf/) | เรียนรู้วิธีการแปลง Markdown เป็น PDF โดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนแบบทีละขั้นตอนนี้ เหมาะอย่างยิ่งสำหรับนักพัฒนาที่ต้องการปรับปรุงกระบวนการแปลงเอกสาร -  
 | [MHT เป็น PDF](./mht-to-pdf/) | เรียนรู้วิธีแปลงไฟล์ MHT เป็น PDF โดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนทีละขั้นตอนนี้ การแปลงเอกสารที่ง่ายดายและมีประสิทธิภาพ -  
 | [การวางแนวหน้าตามขนาดรูปภาพ](./page-orientation-according-image-dimensions/) เรียนรู้วิธีการสร้าง PDF ด้วย Aspose.PDF สำหรับ .NET พร้อมตั้งค่าการวางแนวหน้าตามขนาดของภาพในคู่มือทีละขั้นตอนนี้  
@@ -62,6 +63,7 @@
 - [วิธีตั้งค่าตัวเลือกสำหรับการแปลง PDF ใน C# – คู่มือ Aspose](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | เรียนรู้วิธีตั้งค่าตัวเลือกการแปลง PDF ใน C# ด้วย Aspose.PDF อย่างละเอียดและง่ายต่อการทำตาม  
 - [บทช่วยสอน Aspose PDF: แปลง PDF เป็น PDF/X‑4 ด้วย C#](./aspose-pdf-tutorial-convert-pdf-to-pdf-x-4-in-c/) | เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/X‑4 ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนขั้นตอนโดยละเอียด
 - [โหลดเอกสาร PDF C# – แปลงเป็น PDF/X‑4 ด้วย Aspose](./load-pdf-document-c-convert-to-pdf-x-4-with-aspose/) | เรียนรู้วิธีโหลดไฟล์ PDF ด้วย C# แล้วแปลงเป็น PDF/X‑4 ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียด  
+- [สร้าง PDF จาก JPG ด้วย C# – คู่มือเต็มพร้อมการครอปและการเพิ่มหน้าใหม่](./create-pdf-from-jpg-in-c-full-guide-with-cropping-and-new-pa/) | เรียนรู้วิธีสร้างไฟล์ PDF จากรูป JPG ด้วย C# พร้อมการครอปภาพและการเพิ่มหน้าใหม่ในขั้นตอนละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -52,6 +52,7 @@ Die Tutorials „Programmieren mit Stempeln und Wasserzeichen“ von Aspose.PDF 
 | [Stempel zu PDF hinzufügen – Wasserzeichen auf der ersten Seite anwenden](./add-stamp-to-pdf-apply-watermark-pdf-on-first-page/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET einen Stempel hinzufügen und ein Wasserzeichen nur auf der ersten Seite anwenden. |  
 | [Wie man einen Stempel zu PDF mit Aspose.Pdf hinzufügt – Schritt‑für‑Schritt‑Anleitung](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) | Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.PDF für .NET Stempel zu PDF-Dateien hinzufügen. |
 | [PDF-Vollseitenhinweis erstellen – Schnell‑C#‑Leitfaden](./create-pdf-full-page-notice-quick-c-guide/) | Erfahren Sie in dieser kurzen Anleitung, wie Sie mit Aspose.PDF für .NET in C# einen vollseitigen Hinweis in ein PDF einfügen. |
+| [PDF-Wasserzeichen in C# hinzufügen – Vollständige Anleitung mit Aspose](./add-watermark-pdf-in-c-complete-guide-with-aspose/) | Erfahren Sie in dieser umfassenden Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.PDF für .NET ein Wasserzeichen zu PDF‑Dateien in C# hinzufügen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

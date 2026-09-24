@@ -37,6 +37,8 @@
 
 ### [Как нарисовать прямоугольник в PDF с помощью C# – пошаговое руководство](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
 Узнайте, как рисовать прямоугольники в PDF с помощью Aspose.PDF для .NET и C#. Пошаговое руководство с примерами кода.
+### [Добавление прямоугольника в PDF с помощью C# – Полное руководство Aspose PDF](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+Узнайте, как добавить прямоугольник в PDF‑документ с помощью Aspose.PDF для .NET и C# в полном пошаговом руководстве.
 
 ### [Создание пользовательских PDF-штампов с помощью Aspose.PDF в .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Учебник по коду для Aspose.PDF Net

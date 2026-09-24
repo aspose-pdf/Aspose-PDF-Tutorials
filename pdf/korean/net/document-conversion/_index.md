@@ -29,6 +29,7 @@
 | [마크다운을 PDF로](./markdown-to-pdf/) | 이 단계별 튜토리얼에서는 Aspose.PDF for .NET을 사용하여 마크다운을 PDF로 변환하는 방법을 알아봅니다. 문서 변환을 간소화하려는 개발자에게 적합합니다. |  
 | [MHT를 PDF로](./mht-to-pdf/) | Aspose.PDF for .NET을 사용하여 MHT 파일을 PDF로 변환하는 방법을 단계별 튜토리얼에서 알아보세요. 쉽고 효율적인 문서 변환. |  
 | [이미지 크기에 따른 페이지 방향](./page-orientation-according-image-dimensions/) Aspose.PDF for .NET을 사용하여 PDF를 만드는 방법과 이 단계별 가이드에서 이미지 크기에 따라 페이지 방향을 설정하는 방법을 알아보세요. |  
+| [C#에서 JPG로 PDF 만들기 – 자르기 및 새 페이지 포함 전체 가이드](./create-pdf-from-jpg-in-c-full-guide-with-cropping-and-new-pa/) | Aspose.PDF for .NET을 사용하여 C#에서 JPG 이미지를 PDF로 변환하고, 이미지 자르기와 새 페이지 추가 방법을 단계별로 안내합니다. |
 | [PCL에서 PDF로](./pcl-to-pdf/) | Aspose.PDF for .NET을 사용하여 PCL 파일을 PDF로 변환하는 방법을 단계별 가이드를 통해 알아보세요. 개발자와 기업 모두에게 적합합니다. |  
 | [PDFA에서 PDF로](./pdfa-to-pdf/) | 이 포괄적인 단계별 가이드를 통해 Aspose.PDF for .NET을 사용하여 PDF/A를 PDF로 변환하는 방법을 알아보세요. |  
 | [PDF에서 DOC로](./pdf-to-doc/) | 이 포괄적인 가이드에서 Aspose.PDF for .NET을 사용하여 PDF를 DOC로 변환하는 방법을 알아보세요. 단계별 지침과 팁이 포함되어 있습니다. |  
@@ -64,6 +65,7 @@
 | [XPS에서 PDF로](./xps-to-pdf/) Aspose.PDF for .NET 사용하여 XPS 파일을 PDF로 변환하는 방법을 단계별 튜토리얼을 통해 알아보세요. 개발자와 문서 작성자에게 안성맞춤입니다. |
 | [span 요소 만들기 및 페이지에 추가 – DOCX를 PDF로 변환](./create-span-element-and-add-to-page-convert-docx-to-pdf/) | Aspose.PDF for .NET을 사용하여 DOCX 파일을 PDF로 변환하면서 페이지에 span 요소를 추가하는 방법을 단계별 가이드로 알아보세요. |
 | [C#에서 PDF 변환 옵션 설정 방법 – Aspose 가이드](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 변환 옵션을 설정하는 단계별 가이드입니다. |
+| [Aspose.PDF로 PDF를 HTML로 저장 – 단계별 C# 가이드](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) | Aspose.PDF for .NET을 사용하여 PDF를 HTML 파일로 저장하는 방법을 단계별 C# 예제로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

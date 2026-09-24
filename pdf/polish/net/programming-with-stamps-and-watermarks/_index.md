@@ -52,6 +52,7 @@ Samouczki „Programowanie ze stemplami i znakami wodnymi” dla .NET firmy Aspo
 | [Dodaj stempel do PDF – Zastosuj znak wodny na pierwszej stronie](./add-stamp-to-pdf-apply-watermark-pdf-on-first-page/) Dowiedz się, jak dodać stempel i zastosować znak wodny na pierwszej stronie dokumentu PDF przy użyciu Aspose.PDF dla .NET. |  
 | [Jak dodać stempel do PDF za pomocą Aspose.Pdf – Przewodnik krok po kroku](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) | Dowiedz się, jak dodać stempel do pliku PDF przy użyciu Aspose.PDF dla .NET w tym szczegółowym przewodniku krok po kroku. |  
 | [Utwórz pełnostronicowe powiadomienie PDF – szybki przewodnik C#](./create-pdf-full-page-notice-quick-c-guide/) | Dowiedz się, jak w kilku krokach dodać pełnostronicowe powiadomienie do pliku PDF przy użyciu Aspose.PDF w C#. |  
+| [Dodaj znak wodny PDF w C# – Kompletny przewodnik z Aspose](./add-watermark-pdf-in-c-complete-guide-with-aspose/) | Dowiedz się, jak dodać znak wodny do pliku PDF w C# przy użyciu Aspose.PDF, krok po kroku z przykładami kodu. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
