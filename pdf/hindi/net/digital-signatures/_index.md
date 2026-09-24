@@ -24,6 +24,7 @@
 
 ### [C# के साथ PDF में हस्ताक्षर पढ़ें – चरण‑दर‑चरण गाइड](./how-to-read-signatures-in-pdf-with-c-step-by-step-guide/)
 C# का उपयोग करके PDF फ़ाइलों में डिजिटल हस्ताक्षर पढ़ने की विस्तृत प्रक्रिया सीखें।
+### [PDF से हस्ताक्षर निकालें – Aspose C# गाइड](./how-to-extract-signatures-from-pdf-aspose-c-guide/)
 
 ### [.NET के लिए Aspose.PDF के साथ PDF हस्ताक्षर भाषा कैसे बदलें](./change-pdf-signature-language-aspose-net/)
 
@@ -97,6 +98,9 @@ C# का उपयोग करके PDF में डिजिटल हस�
 
 ### [PDF पर हस्ताक्षर कैसे करें और छवियाँ जोड़ें – पूर्ण C# गाइड](./how-to-sign-pdf-and-add-images-complete-c-guide/)
 C# में PDF पर डिजिटल हस्ताक्षर जोड़ने और छवियों को सम्मिलित करने की पूरी प्रक्रिया सीखें।
+
+### [PDF हस्ताक्षर सत्यापित करें और Bates नंबरिंग जोड़ें – पूर्ण C# गाइड](./verify-pdf-signature-and-add-bates-numbering-complete-c-guid/)
+C# में PDF हस्ताक्षर की जाँच और Bates नंबरिंग जोड़ने की पूरी प्रक्रिया सीखें।
 
 ## अतिरिक्त संसाधन
 

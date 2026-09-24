@@ -238,6 +238,9 @@ Aspose.PDF .NET का उपयोग करके HTML दस्तावे�
 ### [Aspose.PDF .NET के साथ PDF से HTML रूपांतरण: एक व्यापक गाइड](./aspose-pdf-net-pdf-to-html-conversion/)
 .NET के लिए Aspose.PDF का उपयोग करके PDF-से-HTML रूपांतरण में महारत हासिल करें। अनुकूलन योग्य विकल्पों के साथ दस्तावेज़ की पहुँच और सहभागिता को बढ़ाएँ।
 
+### [PDF को HTML में बदलें और PDF हस्ताक्षर सत्यापित करें – पूर्ण Aspose .NET गाइड](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
+PDF को HTML में परिवर्तित करने और PDF हस्ताक्षर की जाँच करने के लिए पूर्ण Aspose .NET गाइड।
+
 ### [.NET के लिए Aspose.PDF के साथ PDF से HTML रूपांतरण](./pdf-to-html-conversion-aspose-dot-net/)
 Aspose.PDF नेट के लिए एक कोड ट्यूटोरियल
 

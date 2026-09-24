@@ -107,6 +107,12 @@ Scopri come aggiungere una firma digitale a un PDF usando C#, con esempi di codi
 ### [Come firmare PDF e aggiungere immagini – Guida completa C#](./how-to-sign-pdf-and-add-images-complete-c-guide/)
 Scopri come firmare PDF e inserire immagini con Aspose.PDF per .NET usando C# in questa guida completa.
 
+### [Verifica la firma PDF e aggiungi la numerazione Bates – Guida completa C#](./verify-pdf-signature-and-add-bates-numbering-complete-c-guid/)
+Scopri come verificare la firma PDF e aggiungere la numerazione Bates usando C# con Aspose.PDF.
+
+### [Come estrarre le firme da PDF – Guida Aspose C#](./how-to-extract-signatures-from-pdf-aspose-c-guide/)
+Scopri come estrarre le firme digitali dai PDF con Aspose.PDF per .NET usando C#, con esempi di codice chiari e pratici.
+
 ## Risorse aggiuntive
 
 - [Aspose.PDF per la documentazione di rete](https://docs.aspose.com/pdf/net/)

@@ -173,6 +173,9 @@ Master Aspose.PDF για .NET για απρόσκοπτη μετατροπή δ�
 ### [Μετατροπή PDF σε HTML με το Aspose.PDF για .NET](./pdf-to-html-conversion-aspose-dot-net/)
 Ένα σεμινάριο κώδικα για το Aspose.PDF Net
 
+### [Μετατροπή PDF σε HTML και Επαλήθευση Υπογραφής PDF – Πλήρης Οδηγός Aspose .NET](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
+Μάθετε πώς να μετατρέψετε PDF σε HTML και να επαληθεύσετε την υπογραφή PDF με το Aspose.PDF για .NET.
+
 ### [Αποθήκευση PDF ως HTML με το Aspose – Πλήρης οδηγός C#](./save-pdf-as-html-with-aspose-complete-c-guide/)
 Μάθετε πώς να αποθηκεύετε PDF ως HTML με το Aspose, ακολουθώντας έναν ολοκληρωμένο οδηγό C#.
 

@@ -25,6 +25,9 @@ Pelajari cara menandatangani PDF secara digital dengan tampilan khusus menggunak
 ### [Ekstrak Info Tanda Tangan Digital dari PDF dengan Aspose.PDF](./extract-digital-signature-info-from-pdfs-aspose-pdf/)
 Tutorial kode untuk Aspose.PDF Net
 
+### [Cara Mengekstrak Tanda Tangan dari PDF – Panduan Aspose C#](./how-to-extract-signatures-from-pdf-aspose-c-guide/)
+Panduan langkah demi langkah untuk mengekstrak tanda tangan digital dari file PDF menggunakan Aspose.PDF dengan C#.
+
 ### [Cara Mengubah Bahasa Tanda Tangan PDF dengan Aspose.PDF untuk .NET](./change-pdf-signature-language-aspose-net/)
 Pelajari cara menyesuaikan teks tanda tangan digital dalam PDF menggunakan Aspose.PDF untuk .NET. Sempurna untuk persiapan dan pelokalan dokumen multibahasa.
 
@@ -79,6 +82,8 @@ Pelajari cara mengekstrak nama tanda tangan dari file PDF menggunakan C# dengan 
 
 ### [Cara Memverifikasi Tanda Tangan PDF di C# – Tutorial Lengkap Langkah demi Langkah](./how-to-verify-pdf-signature-in-c-complete-step-by-step-tutor/)
 Panduan lengkap untuk memverifikasi tanda tangan PDF menggunakan C# dengan Aspose.PDF, mencakup instalasi, kode contoh, dan verifikasi keamanan.
+### [Verifikasi Tanda Tangan PDF dan Tambahkan Penomoran Bates – Panduan Lengkap C#](./verify-pdf-signature-and-add-bates-numbering-complete-c-guid/)
+Panduan langkah demi langkah untuk memverifikasi tanda tangan PDF dan menambahkan penomoran Bates menggunakan C# dan Aspose.PDF.
 
 ### [Muat Dokumen PDF C# – Konversi ke PDF/X‑4 & Daftar Tanda Tangan](./load-pdf-document-c-convert-to-pdf-x-4-list-signatures/)
 Pelajari cara memuat dokumen PDF, mengonversinya ke format PDF/X‑4, dan menampilkan daftar tanda tangan menggunakan C# dan Aspose.PDF.

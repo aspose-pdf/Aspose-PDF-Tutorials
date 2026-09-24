@@ -262,6 +262,8 @@ Scopri come salvare correttamente i file PDF con Aspose.PDF usando esempi di cod
 Scopri come convertire rapidamente i PDF in HTML usando C# e Aspose.Pdf con questa guida passo passo.
 ### [Aspose PDF in PNG – Esporta la prima pagina a 300 DPI](./aspose-pdf-to-png-export-first-page-at-300-dpi/)
 Scopri come esportare la prima pagina di un PDF in PNG a 300 DPI utilizzando Aspose.PDF per .NET.
+### [Converti PDF in HTML e verifica la firma PDF – Guida completa Aspose .NET](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
+Scopri come convertire PDF in HTML e verificare le firme PDF con Aspose.PDF per .NET, con esempi di codice dettagliati.
 
 ## Risorse aggiuntive
 

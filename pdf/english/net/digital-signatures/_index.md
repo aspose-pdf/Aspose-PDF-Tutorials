@@ -56,6 +56,8 @@ Learn how to extract digital signature information from PDFs using Aspose.PDF fo
 Learn how to extract all digital signatures from a PDF using Aspose.PDF for .NET with step-by-step code examples.
 ### [How to Extract Signatures from a PDF in C# – Step‑by‑Step Guide](./how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/)
 Step-by-step guide to extract digital signatures from PDF files using C# and Aspose.PDF for .NET.
+### [How to Extract Signatures from PDF – Aspose C# Guide](./how-to-extract-signatures-from-pdf-aspose-c-guide/)
+Learn how to extract signatures from PDF files using Aspose.PDF for .NET with C#. This step‑by‑step guide covers implementation and code examples.
 
 ### [How to Implement Digital Signatures in .NET with Aspose.PDF&#58; A Comprehensive Guide](./implement-pdf-signatures-dotnet-aspose-pdf-guide/)
 Learn how to implement secure digital signatures on PDFs using Aspose.PDF for .NET, including suppressing optional fields.
@@ -119,6 +121,9 @@ Step-by-step guide to adding a digital signature to PDF files using Aspose.PDF f
 
 ### [How to Sign PDF and Add Images – Complete C# Guide](./how-to-sign-pdf-and-add-images-complete-c-guide/)
 Learn how to sign PDFs and embed images using Aspose.PDF for .NET with a complete C# guide.
+
+### [Verify PDF Signature and Add Bates Numbering – Complete C# Guide](./verify-pdf-signature-and-add-bates-numbering-complete-c-guid/)
+Learn how to verify a PDF signature and add Bates numbering using Aspose.PDF for .NET in C# with step‑by‑step code examples.
 
 ## Additional Resources
 

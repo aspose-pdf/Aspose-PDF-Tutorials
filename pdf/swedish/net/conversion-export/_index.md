@@ -259,6 +259,8 @@ Lär dig hur du sparar PDF-filer med Aspose i .NET med tydliga steg‑för‑ste
 Lär dig hur du konverterar PDF-filer till PNG-bilder i C# med Aspose.PDF, steg för steg med kodexempel.
 ### [Spara PDF som HTML med Aspose.PDF – Snabb C#-guide](./save-pdf-as-html-with-aspose-pdf-quick-c-guide/)
 Lär dig snabbt hur du sparar PDF som HTML med Aspose.PDF i C#.
+### [Konvertera PDF till HTML och verifiera PDF-signatur – Fullständig Aspose .NET-guide](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
+Lär dig hur du konverterar PDF till HTML och verifierar PDF-signaturer med Aspose.PDF för .NET i en komplett guide.
 
 ## Ytterligare resurser
 

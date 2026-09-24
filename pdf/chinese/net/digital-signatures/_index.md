@@ -28,6 +28,9 @@
 ### [使用 Aspose.PDF 从 PDF 中提取数字签名信息](./extract-digital-signature-info-from-pdfs-aspose-pdf/)
 Aspose.PDF Net 代码教程
 
+### [如何从 PDF 中提取签名 – Aspose C# 指南](./how-to-extract-signatures-from-pdf-aspose-c-guide/)
+学习使用 Aspose.PDF for .NET 在 C# 中提取 PDF 文件的数字签名信息，帮助您分析和验证签名。
+
 ### [如何使用 Aspose.PDF for .NET 更改 PDF 签名语言](./change-pdf-signature-language-aspose-net/)
 了解如何使用 Aspose.PDF for .NET 自定义 PDF 中的数字签名文本。非常适合多语言文档的准备和本地化。
 
@@ -108,6 +111,9 @@ Aspose.PDF .NET 代码教程
 
 ### [如何对 PDF 进行签名并添加图像 – 完整 C# 指南](./how-to-sign-pdf-and-add-images-complete-c-guide/)
 提供在 C# 中使用 Aspose.PDF 对 PDF 进行签名并嵌入图像的完整步骤和代码示例。
+
+### [验证 PDF 签名并添加 Bates 编号 – 完整 C# 指南](./verify-pdf-signature-and-add-bates-numbering-complete-c-guid/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名并添加 Bates 编号，实现文档追踪与完整性保障的完整步骤。
 
 ## 其他资源
 

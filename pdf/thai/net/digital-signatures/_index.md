@@ -25,6 +25,9 @@
 ### [ดึงข้อมูลลายเซ็นดิจิทัลจากไฟล์ PDF ด้วย Aspose.PDF](./extract-digital-signature-info-from-pdfs-aspose-pdf/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.PDF Net
 
+### [วิธีดึงลายเซ็นจาก PDF – คู่มือ Aspose C#](./how-to-extract-signatures-from-pdf-aspose-c-guide/)
+เรียนรู้วิธีดึงลายเซ็นจากไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ด้วย C#
+
 ### [วิธีการเปลี่ยนภาษาลายเซ็น PDF ด้วย Aspose.PDF สำหรับ .NET](./change-pdf-signature-language-aspose-net/)
 เรียนรู้วิธีปรับแต่งข้อความลายเซ็นดิจิทัลใน PDF โดยใช้ Aspose.PDF สำหรับ .NET เหมาะอย่างยิ่งสำหรับการเตรียมเอกสารและการแปลหลายภาษา
 
@@ -111,6 +114,9 @@
 
 ### [วิธีลงนาม PDF และเพิ่มรูปภาพ – คู่มือ C# ฉบับสมบูรณ์](./how-to-sign-pdf-and-add-images-complete-c-guide/)
 เรียนรู้วิธีลงนามไฟล์ PDF พร้อมแทรกรูปภาพโดยใช้ C# และ Aspose.PDF อย่างละเอียด
+
+### [ตรวจสอบลายเซ็น PDF และเพิ่มหมายเลข Bates – คู่มือ C# ฉบับสมบูรณ์](./verify-pdf-signature-and-add-bates-numbering-complete-c-guid/)
+เรียนรู้วิธีตรวจสอบลายเซ็น PDF พร้อมเพิ่มหมายเลข Bates ด้วย C# อย่างละเอียดและครบถ้วน
 
 ## แหล่งข้อมูลเพิ่มเติม
 

@@ -260,6 +260,8 @@ Dowiedz się, jak zapisać dokument PDF przy użyciu Aspose w prostych krokach, 
 Dowiedz się, jak szybko zapisać plik PDF jako HTML przy użyciu Aspose.PDF w C#.
 ### [Aspose PDF do PNG – Eksportuj pierwszą stronę w 300 DPI](./aspose-pdf-to-png-export-first-page-at-300-dpi/)
 Dowiedz się, jak wyeksportować pierwszą stronę pliku PDF jako obraz PNG w rozdzielczości 300 DPI przy użyciu Aspose.PDF dla .NET.
+### [Konwertuj PDF do HTML i zweryfikuj podpis PDF – Pełny przewodnik Aspose .NET](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
+Dowiedz się, jak konwertować PDF do HTML i weryfikować podpisy PDF przy użyciu Aspose.PDF w .NET.
 
 ## Dodatkowe zasoby
 

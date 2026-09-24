@@ -25,6 +25,9 @@ Lär dig hur du digitalt signerar en PDF med anpassat utseende med Aspose.PDF f�
 ### [Extrahera information om digital signatur från PDF-filer med Aspose.PDF](./extract-digital-signature-info-from-pdfs-aspose-pdf/)
 En kodhandledning för Aspose.PDF Net
 
+### [Hur man extraherar signaturer från PDF – Aspose C#-guide](./how-to-extract-signatures-from-pdf-aspose-c-guide/)
+Lär dig hur du med Aspose i C# extraherar signaturer från PDF-dokument på ett enkelt sätt.
+
 ### [Hur man ändrar PDF-signaturspråk med Aspose.PDF för .NET](./change-pdf-signature-language-aspose-net/)
 Lär dig hur du anpassar text för digital signatur i PDF-filer med Aspose.PDF för .NET. Perfekt för flerspråkig dokumentförberedelse och lokalisering.
 
@@ -108,6 +111,9 @@ Lär dig steg-för-steg hur du lägger till en digital signatur i PDF-filer med 
 
 ### [Hur man signerar PDF och lägger till bilder – Komplett C#-guide](./how-to-sign-pdf-and-add-images-complete-c-guide/)
 Lär dig hur du signerar PDF-filer och infogar bilder med en komplett C#-guide i Aspose.PDF.
+
+### [Verifiera PDF-signatur och lägg till Bates-nummerering – Komplett C#-guide](./verify-pdf-signature-and-add-bates-numbering-complete-c-guid/)
+Lär dig hur du verifierar PDF-signaturer och lägger till Bates-nummerering med Aspose.PDF för .NET i C#.
 
 ## Ytterligare resurser
 

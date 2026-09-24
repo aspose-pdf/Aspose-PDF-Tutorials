@@ -109,6 +109,12 @@ Ismerje meg, hogyan adhat hozzá digitális aláírást PDF-hez C#-ban az Aspose
 ### [PDF aláírása és képek hozzáadása – Teljes C# útmutató](./how-to-sign-pdf-and-add-images-complete-c-guide/)
 Ismerje meg, hogyan írhat alá PDF-et és adhat hozzá képeket C#-ban az Aspose.PDF for .NET használatával.
 
+### [PDF aláírás ellenőrzése és Bates-számozás hozzáadása – Teljes C# útmutató](./verify-pdf-signature-and-add-bates-numbering-complete-c-guid/)
+Ismerje meg, hogyan ellenőrizheti a PDF aláírását és adhat hozzá Bates-számozást C#-ban az Aspose.PDF for .NET segítségével.
+
+### [PDF aláírások kinyerése – Aspose C# útmutató](./how-to-extract-signatures-from-pdf-aspose-c-guide/)
+Ismerje meg, hogyan nyerhet ki aláírásokat PDF-fájlokból C#-ban az Aspose.PDF segítségével.
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)

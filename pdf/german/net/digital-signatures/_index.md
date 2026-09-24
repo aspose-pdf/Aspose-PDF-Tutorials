@@ -103,6 +103,12 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET digitale Signaturen in PDFs per C
 ### [Wie man PDFs signiert und Bilder hinzufügt – Vollständiger C#‑Leitfaden](./how-to-sign-pdf-and-add-images-complete-c-guide/)
 Erfahren Sie, wie Sie PDFs signieren und Bilder in die Signatur einbetten – Schritt‑für‑Schritt in C#.
 
+### [PDF-Signatur überprüfen und Bates-Nummerierung hinzufügen – Vollständiger C#‑Leitfaden](./verify-pdf-signature-and-add-bates-numbering-complete-c-guid/)
+Erfahren Sie, wie Sie PDF‑Signaturen prüfen und gleichzeitig Bates‑Nummerierung in C# hinzufügen.
+
+### [So extrahieren Sie Signaturen aus PDF – Aspose C#‑Leitfaden](./how-to-extract-signatures-from-pdf-aspose-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET Signaturen aus PDF-Dateien extrahieren.
+
 ## Weitere Ressourcen
 
 - [Aspose.PDF für Net-Dokumentation](https://docs.aspose.com/pdf/net/)

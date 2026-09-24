@@ -23,6 +23,11 @@
 ### [كيفية تغيير لغة توقيع PDF باستخدام Aspose.PDF لـ .NET](./change-pdf-signature-language-aspose-net/)
 ### [كيفية إنشاء توقيعات PDF والتحقق منها باستخدام Aspose.PDF لـ .NET](./create-verify-pdf-signatures-aspose-net/)
 ### [كيفية استخراج معلومات توقيع PDF باستخدام Aspose.PDF .NET: دليل خطوة بخطوة](./extract-pdf-signature-info-aspose-pdf-net/)
+تعرّف على كيفية استخراج معلومات التوقيع الرقمي من ملفات PDF باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل خطوة بخطوة التثبيت والتنفيذ والتطبيقات العملية.
+
+### [كيفية استخراج التوقيعات من ملفات PDF باستخدام Aspose C#](./how-to-extract-signatures-from-pdf-aspose-c-guide/)
+تعلم كيفية استخراج التوقيعات الرقمية من ملفات PDF باستخدام مكتبة Aspose.PDF في C# خطوة بخطوة.
+
 ### [كيفية تنفيذ التوقيعات الرقمية في .NET باستخدام Aspose.PDF: دليل شامل](./implement-pdf-signatures-dotnet-aspose-pdf-guide/)
 ### [كيفية إزالة التوقيعات الرقمية من ملفات PDF باستخدام Aspose.PDF .NET | دليل شامل](./remove-pdf-digital-signatures-aspose-pdf-net/)
 ### [كيفية التحقق من توقيعات PDF باستخدام Aspose.PDF لـ .NET: دليل شامل](./verify-pdf-signatures-aspose-pdf-net/)
@@ -72,6 +77,9 @@
 
 ### [كيفية توقيع ملف PDF وإضافة صور – دليل C# كامل](./how-to-sign-pdf-and-add-images-complete-c-guide/)
 دليل شامل يوضح كيفية توقيع ملفات PDF وإدراج صور باستخدام C# ومكتبة Aspose.PDF.
+
+### [تحقق من توقيع PDF وإضافة ترقيم Bates – دليل C# كامل](./verify-pdf-signature-and-add-bates-numbering-complete-c-guid/)
+دليل شامل يوضح كيفية التحقق من توقيع PDF وإضافة ترقيم Bates باستخدام C# و Aspose.PDF.
 
 ## موارد إضافية
 

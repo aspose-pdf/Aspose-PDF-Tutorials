@@ -251,6 +251,9 @@ Aspose.PDF for .NET을 사용하여 PDF-HTML 변환을 완벽하게 구현하세
 ### [Aspose.PDF for .NET을 이용한 PDF-HTML 변환](./pdf-to-html-conversion-aspose-dot-net/)
 Aspose.PDF Net에 대한 코드 튜토리얼
 
+### [PDF를 HTML로 변환하고 PDF 서명을 검증하기 – 전체 Aspose .NET 가이드](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
+Aspose.PDF for .NET을 사용하여 PDF를 HTML로 변환하고 서명을 검증하는 방법을 단계별로 안내합니다.
+
 ### [Aspose.PDF를 사용하여 .NET에서 PDF를 TIFF로 변환: 단계별 가이드](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Aspose.PDF for .NET을 사용하여 PDF 문서를 TIFF 이미지로 변환하는 방법을 알아보세요. 사용자 정의 색상 심도와 고급 이미지 처리 기술을 익혀보세요.
 

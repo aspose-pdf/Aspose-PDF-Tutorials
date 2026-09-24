@@ -243,6 +243,9 @@ Leer hoe u PDF's opslaat als HTML met C# en Aspose.PDF, inclusief stap‑voor‑
 Leer hoe u PDF's snel naar HTML converteert in C# met Aspose.Pdf, inclusief voorbeeldcode en stapsgewijze instructies.
 
 ### [PDF naar HTML-conversie met Aspose.PDF voor .NET](./pdf-to-html-conversion-aspose-dot-net/)
+### [PDF naar HTML converteren en PDF-handtekening verifiëren – volledige Aspose .NET-gids](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
+Leer hoe u PDF's naar HTML converteert en de digitale handtekening controleert met Aspose.PDF voor .NET.
+
 Een codetutorial voor Aspose.PDF Net
 
 ### [PDF naar TIFF-conversie in .NET met Aspose.PDF: een stapsgewijze handleiding](./pdf-to-tiff-conversion-aspose-pdf-net/)

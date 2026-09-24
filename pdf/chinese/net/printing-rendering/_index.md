@@ -50,6 +50,9 @@
 ### [使用 Aspose.PDF for .NET 在 PDF 中设置自定义缩放比例 - 完整指南](./aspose-pdf-net-set-zoom-factor-pdfs/)
 了解如何使用 Aspose.PDF for .NET 在 PDF 文档中设置自定义缩放比例。本指南涵盖安装、实施步骤和实际应用。
 
+### [如何在 C# 中渲染 PDF – PNG、HTML 与水印完整指南](./how-to-render-pdf-in-c-complete-guide-to-png-html-stamping/)
+学习使用 Aspose.PDF for .NET 在 C# 中将 PDF 渲染为 PNG、HTML，并添加水印的完整步骤。
+
 ## 其他资源
 
 - [Aspose.PDF 用于网络文档](https://docs.aspose.com/pdf/net/)

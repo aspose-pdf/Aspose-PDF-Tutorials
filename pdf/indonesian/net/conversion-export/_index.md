@@ -179,6 +179,8 @@ Tutorial kode untuk Aspose.PDF Net
 
 ### [Simpan PDF sebagai HTML dengan Aspose.PDF – Panduan Cepat C#](./save-pdf-as-html-with-aspose-pdf-quick-c-guide/)
 Pelajari cara menyimpan PDF menjadi HTML secara cepat menggunakan Aspose.PDF dengan contoh kode C#.
+### [Mengonversi PDF ke HTML dan Memverifikasi Tanda Tangan PDF – Panduan Lengkap Aspose .NET](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
+Panduan lengkap untuk mengonversi PDF ke HTML dan memverifikasi tanda tangan PDF menggunakan Aspose.PDF untuk .NET.
 
 ### [Konversi PDF ke TIFF dalam .NET Menggunakan Aspose.PDF: Panduan Langkah demi Langkah](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Pelajari cara mengonversi dokumen PDF ke gambar TIFF menggunakan Aspose.PDF untuk .NET. Kuasai kedalaman warna khusus dan teknik pemrosesan gambar tingkat lanjut.

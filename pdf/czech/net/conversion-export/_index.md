@@ -31,6 +31,8 @@ Naučte se, jak převádět PDF do HTML pomocí vlastních strategií pomocí As
 Rychlý návod, jak pomocí Aspose.PDF v C# převést PDF soubor do HTML formátu.
 ### [Převod PDF do HTML v C# – Rychlý průvodce s Aspose.Pdf](./convert-pdf-to-html-in-c-quick-guide-with-aspose-pdf/)
 Rychlý návod, jak převést PDF soubory do HTML pomocí Aspose.PDF v C# s praktickými ukázkami kódu.
+### [Převod PDF do HTML a ověření podpisu PDF – Kompletní průvodce Aspose .NET](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
+Naučte se převádět PDF do HTML a ověřovat digitální podpisy pomocí Aspose.PDF pro .NET s podrobnými ukázkami kódu.
 
 ### [Komplexní průvodce: Převod PDF do TIFF pomocí Aspose.PDF .NET pro bezproblémovou konverzi dokumentů](./convert-pdf-to-tiff-aspose-dotnet-guide/)
 Naučte se, jak efektivně převádět soubory PDF do vysoce kvalitních obrázků TIFF pomocí Aspose.PDF pro .NET. Postupujte podle tohoto podrobného návodu a vylepšete si pracovní postup zpracování dokumentů.

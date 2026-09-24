@@ -261,6 +261,7 @@ Aspose を使って PDF を保存する手順を詳しく解説し、コード�
 Aspose.PDF for .NET を使用し、C# で PDF を高速に HTML に変換する手順を紹介します。
 ### [DOCX のエクスポート方法 – C# 開発者向けステップバイステップガイド](./how-to-export-docx-step-by-step-guide-for-c-developers/)
 Aspose.PDF for .NET を使用して C# で DOCX ファイルをエクスポートする方法をステップバイステップで解説します。
+### [PDF を HTML に変換し、PDF 署名を検証する – 完全 Aspose .NET ガイド](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
 
 ## 追加リソース
 

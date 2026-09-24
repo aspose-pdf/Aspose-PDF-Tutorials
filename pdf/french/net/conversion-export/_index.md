@@ -240,6 +240,9 @@ Apprenez à convertir des documents PDF en HTML avec des images PNG externes gr�
 ### [Conversion PDF en HTML avec Aspose.PDF .NET : guide complet](./aspose-pdf-net-pdf-to-html-conversion/)
 Maîtrisez la conversion PDF en HTML avec Aspose.PDF pour .NET. Améliorez l'accessibilité et l'engagement de vos documents grâce à des options personnalisables.
 
+### [Convertir un PDF en HTML et vérifier la signature PDF – Guide complet Aspose .NET](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
+Apprenez à convertir des PDF en HTML et à valider leurs signatures numériques avec Aspose.PDF pour .NET.
+
 ### [Conversion PDF en HTML avec Aspose.PDF pour .NET](./pdf-to-html-conversion-aspose-dot-net/)
 Un tutoriel de code pour Aspose.PDF Net
 

@@ -77,6 +77,12 @@
 Μάθετε πώς να φορτώνετε ένα PDF, να το μετατρέπετε σε PDF/X‑4 και να εμφανίζετε τις υπογραφές του με C#.
 ### [Επικύρωση υπογραφής PDF με το Aspose – Μετατροπή PDF σε HTML](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
 Μάθετε πώς να επικυρώνετε υπογραφές PDF και να μετατρέπετε PDF σε HTML με το Aspose.PDF για .NET.
+### [Επαλήθευση υπογραφής PDF και προσθήκη αριθμού Bates – Πλήρης οδηγός C#](./verify-pdf-signature-and-add-bates-numbering-complete-c-guid/)
+Μάθετε πώς να επαληθεύετε υπογραφές PDF και να προσθέτετε αριθμό Bates χρησιμοποιώντας το Aspose.PDF σε C#.
+
+### [Πώς να εξάγετε υπογραφές από PDF – Οδηγός Aspose C#](./how-to-extract-signatures-from-pdf-aspose-c-guide/)
+Μάθετε πώς να εξάγετε υπογραφές από αρχεία PDF με το Aspose.PDF για .NET χρησιμοποιώντας C#.
+
 ### [Πώς να υπογράψετε PDF και να προσθέσετε εικόνες – Πλήρης οδηγός C#](./how-to-sign-pdf-and-add-images-complete-c-guide/)
 Μάθετε πώς να υπογράψετε PDF και να ενσωματώσετε εικόνες χρησιμοποιώντας C# και Aspose.PDF.
 

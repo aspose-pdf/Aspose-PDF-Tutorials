@@ -25,6 +25,9 @@ Aspose.PDF for .NET を使用して、PDF にカスタムの外観でデジタ�
 ### [Aspose.PDF を使用して PDF からデジタル署名情報を抽出する](./extract-digital-signature-info-from-pdfs-aspose-pdf/)
 Aspose.PDF Net のコードチュートリアル
 
+### [PDF から署名を抽出する方法 – Aspose C# ガイド](./how-to-extract-signatures-from-pdf-aspose-c-guide/)
+Aspose.PDF を使用して PDF からデジタル署名を抽出する手順を解説します。
+
 ### [Aspose.PDF for .NET で PDF 署名言語を変更する方法](./change-pdf-signature-language-aspose-net/)
 Aspose.PDF for .NET を使用して、PDF のデジタル署名テキストをカスタマイズする方法を学びましょう。多言語ドキュメントの作成とローカリゼーションに最適です。
 
@@ -70,6 +73,8 @@ C# を使用して PDF の署名名を取得する方法を学びます。コー
 C# を使用して PDF 署名の検証手順を詳細に解説し、コード例とベストプラクティスを提供します。
 ### [C# で PDF デジタル署名を検証する – 完全 Aspose.Pdf ガイド](./validate-pdf-digital-signature-in-c-complete-aspose-pdf-guid/)
 C# を使用して PDF のデジタル署名を検証する手順を詳しく解説します。
+### [PDF 署名を検証しベーツ番号を追加する – 完全 C# ガイド](./verify-pdf-signature-and-add-bates-numbering-complete-c-guid/)
+C# で PDF の署名を検証し、ベーツ番号を付与する手順をステップバイステップで解説します。
 
 ### [PDF ドキュメントの読み込み C# – PDF/X‑4 へ変換 & 署名の一覧表示](./load-pdf-document-c-convert-to-pdf-x-4-list-signatures/)
 PDF ドキュメントを読み込み、PDF/X‑4 に変換し、署名情報を一覧表示する方法を学びます。
