@@ -92,6 +92,9 @@ Scopri come salvare PDF come HTML usando Aspose in C#, con esempi pratici e impo
 ### [Salva PDF come HTML con C# – Guida completa passo‑passo](./save-pdf-as-html-with-c-complete-step-by-step-guide/)
 Scopri come salvare PDF in HTML usando C# con Aspose.PDF, seguendo una guida dettagliata passo dopo passo.
 
+### [Convertire PDF in HTML con URL di immagini personalizzate utilizzando Aspose.PDF .NET: una guida completa](./convert-pdf-html-custom-image-urls-aspose-pdf-net/)
+Scopri come convertire i documenti PDF in formato HTML utilizzando Aspose.PDF per .NET, inclusa la personalizzazione degli URL delle immagini e l'implementazione di una strategia su misura per il risparmio delle risorse.
+
 ### [Converti PDF in PNG con Aspose.PDF .NET: migliora i suggerimenti sui font per una resa nitida del testo](./convert-pdf-png-aspose-net-font-hinting/)
 Scopri come convertire i documenti PDF in immagini PNG di alta qualità utilizzando Aspose.PDF .NET, garantendo una resa nitida del testo tramite suggerimenti sui font.
 
@@ -247,6 +250,9 @@ Un tutorial sul codice per Aspose.PDF Net
 ### [Conversione da PDF a TIFF in .NET con Aspose.PDF: una guida passo passo](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Scopri come convertire documenti PDF in immagini TIFF utilizzando Aspose.PDF per .NET. Padroneggia profondità di colore personalizzate e tecniche avanzate di elaborazione delle immagini.
 
+### [Convertire PDF in PDF/X-1a, esportare pagina PNG e aggiungere timbro di testo](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
+Scopri come convertire un PDF in PDF/X‑1a, esportare le pagine come PNG e aggiungere timbri di testo usando Aspose.PDF per .NET.
+
 ### [Converti PDF in PNG con Aspose.PDF .NET: una guida completa](./convert-pdf-to-png-aspose-net/)
 Scopri come convertire i documenti PDF in immagini PNG di alta qualità utilizzando Aspose.PDF per .NET. Segui questa guida passo passo per automatizzare il processo di conversione in modo efficiente.
 
@@ -256,8 +262,6 @@ Scopri come salvare correttamente i file PDF con Aspose.PDF usando esempi di cod
 Scopri come convertire rapidamente i PDF in HTML usando C# e Aspose.Pdf con questa guida passo passo.
 ### [Aspose PDF in PNG – Esporta la prima pagina a 300 DPI](./aspose-pdf-to-png-export-first-page-at-300-dpi/)
 Scopri come esportare la prima pagina di un PDF in PNG a 300 DPI utilizzando Aspose.PDF per .NET.
-### [Convertire PDF in PDF/X-1a, esportare pagina PNG e aggiungere timbro di testo](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
-Scopri come convertire un PDF in PDF/X‑1a, esportare le pagine come PNG e aggiungere timbri di testo usando Aspose.PDF per .NET.
 
 ## Risorse aggiuntive
 

@@ -261,7 +261,6 @@ Aspose.PDF for .NET을 활용해 PDF를 HTML로 변환하고 저장하는 방법
 Aspose를 사용하여 PDF 파일을 저장하는 방법을 단계별로 안내합니다.
 ### [Aspose.PDF를 사용하여 PDF를 HTML로 저장하기 – 빠른 C# 가이드](./save-pdf-as-html-with-aspose-pdf-quick-c-guide/)
 Aspose.PDF for .NET을 사용해 C#으로 PDF를 HTML로 저장하는 간단한 단계별 가이드입니다.
-### [Aspose.PDF를 사용하여 PDF를 HTML로 저장하기: 완전 C# 가이드](./save-pdf-as-html-with-c-complete-step-by-step-guide/)
 
 ## 추가 자료
 

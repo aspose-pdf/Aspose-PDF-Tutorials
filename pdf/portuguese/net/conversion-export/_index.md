@@ -57,7 +57,7 @@ Aprenda a converter páginas PDF em imagens PNG de alta qualidade usando o Aspos
 Aprenda como converter páginas PDF em imagens BMP de alta qualidade usando o Aspose.PDF para .NET com este guia abrangente.
 
 ### [Converter PDF para EMF usando Aspose.PDF para .NET: um guia completo](./convert-pdf-emf-aspose-net-guide/)
-Aprenda a converter páginas PDF para o formato EMF usando o Aspose.PDF para .NET. Este guia aborda a configuração, instruções passo a passo e prácticas recomendadas.
+Aprenda a converter páginas PDF para o formato EMF usando o Aspose.PDF para .NET. Este guia aborda a configuração, instruções passo a passo e práticas recomendadas.
 
 ### [Converter PDF para EMF com Aspose.PDF para .NET](./convert-pdf-to-emf-aspose-dotnet/)
 Um tutorial de código para Aspose.PDF Net
@@ -251,13 +251,14 @@ Aprenda a converter PDFs em HTML usando C# com Aspose.PDF, seguindo um guia deta
 ### [Conversão de PDF para TIFF no .NET usando Aspose.PDF: um guia passo a passo](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Aprenda a converter documentos PDF em imagens TIFF usando o Aspose.PDF para .NET. Domine profundidades de cores personalizadas e técnicas avançadas de processamento de imagens.
 
+### [Converter PDF para PDF/X-1a, exportar página PNG e adicionar selo de texto](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
+Aprenda a converter PDFs para o padrão PDF/X-1a, exportar páginas como PNG e adicionar marcas de texto usando Aspose.PDF para .NET.
+
 ### [Como salvar PDF com Aspose – Guia passo a passo](./how-to-save-pdf-with-aspose-step-by-step-guide/)
 Aprenda a salvar documentos PDF usando Aspose, com exemplos de código C# e dicas de melhores práticas.
 
 ### [Salvar PDF como HTML usando Aspose.PDF – Guia Completo em C#](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
 Aprenda a salvar PDFs como HTML usando Aspose.PDF em C# com este guia completo.
-### [Converter PDF para PDF/X-1a, exportar página PNG e adicionar selo de texto](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
-Aprenda a converter PDFs para o padrão PDF/X-1a, exportar páginas como PNG e adicionar marcas de texto usando Aspose.PDF para .NET.
 
 ## Recursos adicionais
 
