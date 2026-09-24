@@ -22,6 +22,7 @@ Aspose.PDF 的「使用圖章和浮水印進行程式設計」.NET 教學課程�
 | --- | --- | 
 | [在 PDF 檔案中新增日期時間戳](./add-date-time-stamp/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 PDF 檔案中新增日期和時間戳記。非常適合增強文件的真實性。 |  
 | [在 PDF 檔案中新增圖像印章](./add-image-stamp/) |透過逐步指導和範例程式碼了解如何使用 Aspose.PDF for .NET 在 PDF 檔案中新增圖像印章。 |  
+| [如何使用 Aspose.Pdf 為 PDF 添加印章 – 步驟指南](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) |透過本分步指南了解如何使用 Aspose.PDF for .NET 在 PDF 文件中新增印章，提升文件的安全性與辨識度。 |  
 | [在 PDF 檔案中新增不同的頁眉](./adding-different-headers/) |了解如何使用 Aspose.PDF for .NET 在 PDF 檔案中新增不同的標題。自訂 PDF 的逐步指南。 |  
 | [在 PDF 檔案中新增 PDF 頁面戳](./add-pdf-page-stamp/) |透過本詳細指南了解如何使用 Aspose.PDF for .NET 新增 PDF 頁面戳記。增強 PDF 文件的影響力。 |  
 | [在 PDF 檔案中加入文字印章](./add-text-stamp/) |透過我們的逐步指南學習如何使用 Aspose.PDF for .NET 在 PDF 文件中新增文字標記並提升您的文件簡報效果。 |  
@@ -39,6 +40,18 @@ Aspose.PDF 的「使用圖章和浮水印進行程式設計」.NET 教學課程�
 | [頁首頁尾部分中的表格](./table-in-header-footer-section/) |了解如何使用 Aspose.PDF for .NET 輕鬆地將文字新增至 PDF 檔案的頁尾。包含逐步指南，可實現無縫整合。 |  
 | [PDF 檔案頁尾中的文字](./text-in-footer/) |了解如何使用 Aspose.PDF for .NET 在 PDF 檔案的頁尾中新增文字。 |  
 | [PDF 檔案標題中的文本](./text-in-header/) |透過本逐步教學學習如何使用 Aspose.PDF for .NET 在 PDF 中新增文字標題。有效率且有效地增強您的文件。 |  
+| [Bates 編號教學：使用 C# 為 PDF 添加 Bates 編號](./bates-numbering-tutorial-add-bates-numbers-to-pdfs-with-c/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 PDF 中添加 Bates 編號，以提升文件的追蹤與管理。 |  
+| [在 C# 中更改 PDF 透明度 – 完整 Aspose 指南](./change-pdf-opacity-in-c-complete-aspose-guide/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 C# 中調整 PDF 的透明度，提升文件視覺效果。 |  
+| [在 PDF 中添加 Bates 編號 – 完整 C# 指南](./add-bates-numbering-pdf-complete-c-guide/) |透過本完整指南了解如何使用 Aspose.PDF for .NET 在 C# 中為 PDF 添加 Bates 編號，提升文件的追蹤與管理。 |  
+| [在 C# 中為 PDF 添加 Bates 編號 – 完整指南](./add-bates-numbering-pdf-in-c-complete-guide/) |透過本完整指南了解如何使用 Aspose.PDF for .NET 在 PDF 中添加 Bates 編號，以提升文件的追蹤與管理。 |  
+| [在 PDF 檔案中新增 Bates 編號](./how-to-add-bates-step-by-step-guide-for-pdfs/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 PDF 中新增 Bates 編號，提升文件追蹤與管理。 |  
+| [使用 Aspose.PDF 更改 PDF 不透明度 – 完整 C# 指南](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) |本完整 C# 教學說明如何使用 Aspose.PDF 調整 PDF 文件的不透明度，以實現視覺效果的自訂。 |  
+| [使用 Aspose 為 PDF 添加機密浮水印：在首頁新增文字印章](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) |透過本教學了解如何使用 Aspose.PDF for .NET 在 PDF 首頁加入文字印章，以實作機密浮水印。 |  
+| [如何儲存 PDF — 使用 Aspose.Pdf 添加 Bates 編號](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 為 PDF 添加 Bates 編號並儲存文件，提升文件管理與追蹤。 |  
+| [建立 PDF 浮水印 – 新增圖章並將 DOCX 轉換為 PDF](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) |本教學示範如何在 PDF 中加入浮水印與圖章，並將 DOCX 檔案轉換為 PDF。 |  
+| [使用 C# 建立帶 Bates 編號的 PDF 文件（完整指南）](./create-pdf-document-with-bates-numbering-in-c-full-guide/) |透過本完整指南，學習在 C# 中使用 Aspose.PDF for .NET 為 PDF 文件添加 Bates 編號，提升文件管理與追蹤效率。 |  
+| [在 PDF 檔案中新增圖章 – 在首頁套用浮水印](./add-stamp-to-pdf-apply-watermark-pdf-on-first-page/) |透過本教學了解如何使用 Aspose.PDF for .NET 在 PDF 首頁新增圖章並套用浮水印。 |  
+| [在 PDF 檔案中建立全頁通知 – 快速 C# 教學](./create-pdf-full-page-notice-quick-c-guide/) |透過本快速 C# 教學了解如何在 PDF 中新增全頁通知，提升文件的可見性與提示功能。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

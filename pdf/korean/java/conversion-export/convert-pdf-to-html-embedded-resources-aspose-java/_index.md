@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-14"
-"description": "Aspose.PDF for Java를 사용하여 PDF 문서를 리소스가 내장된 독립형 HTML 파일로 변환하는 방법을 알아보고, 콘텐츠가 웹에 적합하고 시각적으로 일관성을 유지하도록 하세요."
-"title": "Java용 Aspose.PDF를 사용하여 내장 리소스가 있는 PDF를 HTML로 변환"
-"url": "/ko/java/conversion-export/convert-pdf-to-html-embedded-resources-aspose-java/"
-"weight": 1
+date: '2026-04-02'
+description: Aspose.PDF for Java를 사용하여 PDF를 HTML로 변환하고 리소스를 포함시키는 방법을 배워보세요. 비밀번호로
+  보호된 PDF와 Java 전용 변환 설정에 대한 팁도 포함됩니다.
+keywords:
+- how to convert pdf to html
+- convert password protected pdf
+- convert pdf to html java
+- aspose pdf html conversion
+title: Aspose.PDF for Java를 사용하여 PDF를 HTML(임베디드 리소스 포함)으로 변환하는 방법
+url: /ko/java/conversion-export/convert-pdf-to-html-embedded-resources-aspose-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,34 +17,44 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Java용 Aspose.PDF를 사용하여 모든 리소스가 포함된 PDF를 HTML로 변환
+# Aspose.PDF for Java를 사용하여 임베디드 리소스로 PDF를 HTML로 변환하는 방법
 
 ## 소개
 
-오늘날의 디지털 환경에서는 HTML과 같은 다양한 형식으로 문서를 온라인으로 공유하는 것이 필수적입니다. 이 튜토리얼에서는 Aspose.PDF for Java를 사용하여 PDF 파일을 모든 리소스(이미지, 글꼴)가 직접 포함된 HTML 파일로 변환하는 방법을 안내합니다.
+이 **PDF를 HTML로 변환하는 방법** 가이드에서는 PDF 문서를 하나의 자체 포함 HTML 파일로 변환하여 모든 이미지, 폰트 및 스타일을 페이지 내부에 직접 포함하는 간단한 방법을 소개합니다. 웹 포털을 구축하거나 이메일 캠페인을 준비하거나 CMS에 콘텐츠를 제공할 때, 모든 리소스가 포함된 HTML 파일은 깨진 링크를 방지하고 브라우저 간 일관된 렌더링을 보장합니다.
 
-### 배울 내용:
-- PDF를 독립형 HTML 파일로 변환합니다.
-- 필요한 모든 리소스를 HTML에 포함합니다.
-- 다양한 브라우저에 맞게 문자 위치를 최적화합니다.
-- 래스터 이미지를 배경의 일부로 저장합니다.
-- 글꼴 저장 모드를 구성합니다.
+### 배울 내용
+- PDF를 자체 포함 HTML 파일로 변환합니다.  
+- 이미지, 폰트 및 CSS를 HTML에 직접 포함합니다.  
+- 구형 브라우저용 문자 위치를 최적화합니다.  
+- 래스터 이미지를 페이지 배경의 일부로 저장합니다.  
+- 최대 호환성을 위해 적절한 폰트 저장 모드를 선택합니다.  
 
-이 가이드를 마치면 Aspose.PDF for Java를 사용하여 PDF 문서를 독립형 HTML 파일로 변환하는 방법을 확실히 이해하게 될 것입니다. 먼저 환경과 필수 구성 요소를 설정해 보겠습니다.
+이 튜토리얼을 마치면 Aspose.PDF for Java를 사용하여 **“PDF를 HTML로 변환하는 방법”**에 대한 질문에 자신 있게 답할 수 있게 됩니다.
 
-## 필수 조건
+## 빠른 답변
+- **변환을 담당하는 라이브러리는?** Aspose.PDF for Java.  
+- **암호로 보호된 PDF를 변환할 수 있나요?** 예 – 문서를 열 때 비밀번호를 제공하면 됩니다. *(보조 키워드: convert password protected pdf)*  
+- **필요한 Java 버전은?** Java 8 이상; 라이브러리는 Maven 또는 Gradle 빌드와 함께 작동합니다.  
+- **HTML이 정말 자체 포함인가요?** 네 – 모든 이미지, 폰트 및 CSS가 포함됩니다.  
+- **라이선스가 필요합니까?** 무료 체험으로 평가할 수 있으며, 상용 라이선스를 구매하면 모든 제한이 해제됩니다.
 
-이 튜토리얼을 진행하기 전에 다음 사항을 확인하세요.
-- **필수 라이브러리**Maven이나 Gradle을 통해 프로젝트에 Java용 Aspose.PDF를 포함합니다.
-- **환경 설정**: 호환 가능한 IDE(IntelliJ IDEA, Eclipse 등)와 JDK가 설치되어 있어야 합니다.
-- **지식 전제 조건**: Java 프로그래밍에 대한 기본적인 이해와 Maven이나 Gradle과 같은 도구를 사용한 종속성 처리에 대한 이해가 있다고 가정합니다.
+## “PDF를 HTML로 변환하는 방법”이란?
+PDF를 HTML로 변환한다는 것은 PDF에서 시각적 레이아웃, 텍스트, 이미지 및 폰트를 추출하여 웹 친화적인 마크업으로 재구성하는 것을 의미합니다. 리소스가 임베드되면 결과 HTML 파일은 외부 파일 없이 어디서든 열 수 있습니다.
 
-## Java용 Aspose.PDF 설정
+## HTML 변환에 Aspose.PDF for Java를 사용하는 이유
+Aspose.PDF는 임베드 모드, 이미지 처리, 폰트 형식 및 CSS 위치 지정 등 변환의 모든 측면을 세밀하게 제어할 수 있어 특정 브라우저나 성능 요구 사항에 맞게 출력을 맞춤 설정할 수 있습니다. 또한 암호로 보호된 PDF 및 대규모 배치 처리와 같은 고급 시나리오도 지원합니다.
 
-다음 단계에 따라 Java용 Aspose.PDF를 프로젝트에 통합하세요.
+## 사전 요구 사항
+- **Java Development Kit (JDK) 8+** 설치.  
+- **IDE** (IntelliJ IDEA, Eclipse 등).  
+- **Maven 또는 Gradle**을 사용한 의존성 관리.  
+- **Aspose.PDF for Java** 라이브러리(무료 체험 또는 라이선스 버전).  
+
+## Aspose.PDF for Java 설정
 
 ### Maven 설정
-다음 종속성을 추가하세요. `pom.xml` 파일:
+다음 의존성을 `pom.xml` 파일에 추가합니다:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -48,115 +64,113 @@
 ```
 
 ### Gradle 설정
-이 줄을 포함하세요 `build.gradle` 파일:
+`build.gradle` 파일에 다음 줄을 포함합니다:
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-**라이센스 취득**: Aspose.PDF for Java를 사용하려면 라이선스를 구매하세요. 무료 평가판을 사용하거나 임시 라이선스를 신청하여 제한 없이 모든 기능을 사용해 보세요. 프로덕션 환경에서 사용하려면 구독을 구매해야 합니다.
+**라이선스 획득**: Aspose에서 체험판 또는 정식 라이선스를 받으세요. 체험판은 모든 기능을 체험할 수 있게 해 주며, 구매한 라이선스는 평가 제한을 해제합니다.
 
-**기본 초기화**: 환경이 준비되면 Java 프로젝트로 라이브러리를 가져옵니다.
+**기본 초기화**: Java 코드에 핵심 클래스를 임포트합니다:
 ```java
 import com.aspose.pdf.Document;
 ```
 
-## 구현 가이드
+## 단계별 구현
 
-이 섹션에서는 Aspose.PDF for Java를 사용하여 PDF를 내장 리소스가 있는 HTML로 변환하는 방법을 안내합니다.
-
-### 소스 PDF 파일 로드
-
-먼저 입력 파일 경로를 지정하여 소스 PDF 문서를 로드합니다.
+### 단계 1: 원본 PDF 로드
+먼저, Aspose.PDF에 입력 파일을 지정합니다:
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY/input.pdf";
 Document doc = new Document(dataDir);
 ```
-그만큼 `Document` class는 작업 중인 PDF 파일을 나타냅니다.
+PDF가 암호로 보호된 경우, `Document` 생성자에 비밀번호를 전달합니다 (보조 키워드 *convert password protected pdf* 참고).
 
-### HTML 저장 옵션 인스턴스화
-
-인스턴스를 생성합니다 `HtmlSaveOptions` PDF 변환 방식을 사용자 지정하려면:
+### 단계 2: HTML 저장 옵션 생성
+변환을 제어하기 위해 `HtmlSaveOptions`를 인스턴스화합니다:
 ```java
 HtmlSaveOptions options = new HtmlSaveOptions();
 ```
 
-### HTML 내부에 모든 리소스 삽입
-
-이미지와 글꼴과 같은 모든 리소스가 HTML 파일에 포함되도록 하려면 포함 모드를 다음과 같이 설정하세요.
+### 단계 3: 모든 리소스를 HTML에 포함
+Aspose에 모든 이미지, 폰트 및 CSS 조각을 HTML 파일에 직접 포함하도록 지시합니다:
 ```java
 options.setPartsEmbeddingMode(HtmlSaveOptions.PartsEmbeddingModes.EmbedAllIntoHtml);
 ```
-이렇게 하면 HTML이 독립적으로 작성됩니다.
 
-### 문자 위치 최적화
-
-Internet Explorer와 같은 브라우저와의 호환성을 위해 CSS에서 정확한 문자 위치를 지정하려면 다음과 같이 구성하세요.
+### 단계 4: 문자 위치 최적화
+픽셀 단위 정확한 렌더링을 위해, 특히 Internet Explorer와 같은 구형 브라우저에서 EM 단위와 반올림 오류 보정을 사용합니다:
 ```java
 options.setLettersPositioningMethod(LettersPositioningMethods.UseEmUnitsAndCompensationOfRoundingErrorsInCss);
 ```
 
-### 래스터 이미지 및 글꼴 저장
-
-PNG 페이지 배경의 내장된 부분으로 래스터 이미지를 저장하려면 다음 설정을 사용하세요.
+### 단계 5: 래스터 이미지를 임베디드 PNG 배경으로 저장
+래스터 이미지를 페이지 배경의 일부로 임베드하면 HTML이 깔끔해집니다:
 ```java
 options.setRasterImagesSavingMode(HtmlSaveOptions.RasterImagesSavingModes.AsEmbeddedPartsOfPngPageBackground);
 ```
-또한, 모든 글꼴이 HTML 내에서 다양한 형식으로 저장되었는지 확인하세요.
+
+### 단계 6: 모든 형식으로 폰트 보존
+가능한 모든 형식으로 폰트를 저장하여 최대 호환성을 보장합니다:
 ```java
 options.setFontSavingMode(HtmlSaveOptions.FontSavingModes.SaveInAllFormats);
 ```
 
-### 출력을 단일 HTML 파일로 저장
-
-마지막으로, 모든 내장 리소스가 포함된 단일 HTML 파일로 문서를 저장합니다.
+### 단계 7: 단일 HTML 출력 작성
+마지막으로 자체 포함 HTML 파일을 생성합니다:
 ```java
 String outputDir = "YOUR_OUTPUT_DIRECTORY/Single_output.html";
 doc.save(outputDir, options);
 ```
-이 단계에서는 PDF를 외부 종속성 없이 독립적으로 볼 수 있는 HTML 파일로 변환합니다.
+결과는 즉시 웹에 게시할 수 있는 독립형 HTML 문서입니다.
 
-## 실제 응용 프로그램
-
-PDF를 독립형 HTML 파일로 변환하는 데는 여러 가지 실용적인 용도가 있습니다.
-1. **웹 포털**: 사용자 친화적인 형식으로 회사 브로셔나 보고서를 표시합니다.
-2. **이메일 캠페인**: 향상된 보기 환경을 위해 이메일에 문서를 직접 포함합니다.
-3. **콘텐츠 관리 시스템(CMS)**: 외부 파일 종속성 없이 문서 콘텐츠를 웹 페이지에 쉽게 통합합니다.
+## 실용적인 적용 사례
+1. **웹 포털** – 브로셔, 연례 보고서 또는 제품 카탈로그를 자산 누락에 대한 걱정 없이 게시합니다.  
+2. **이메일 캠페인** – 전체 문서를 이메일 본문에 임베드하여 독자 경험을 향상시킵니다.  
+3. **콘텐츠 관리 시스템** – PDF 콘텐츠를 페이지에 직접 가져와 별도의 이미지/폰트 업로드가 필요 없게 합니다.
 
 ## 성능 고려 사항
+- **메모리 관리** – 대용량 PDF 변환 시 충분한 힙 공간(`-Xmx`)을 할당합니다.  
+- **배치 처리** – PDF 폴더를 순회하면서 단일 `HtmlSaveOptions` 인스턴스를 재사용해 오버헤드를 줄입니다.  
+- **프로파일링** – Java 프로파일러(VisualVM, YourKit)를 사용해 메모리 급증을 감지하고 최적화합니다.
 
-대용량 PDF 파일을 변환할 때 다음과 같은 성능 팁을 고려하세요.
-- **메모리 사용 최적화**: Java 애플리케이션에 대용량 문서를 효율적으로 처리할 수 있는 충분한 메모리가 할당되어 있는지 확인하세요.
-- **일괄 처리**: 여러 파일을 처리하는 경우 리소스 관리 관행을 적용하여 일괄 작업을 구현합니다.
-- **리소스 관리 모범 사례**: 병목 현상을 방지하기 위해 애플리케이션의 리소스 사용을 정기적으로 프로파일링하고 모니터링합니다.
+## 일반적인 문제 및 해결책
+| Issue | Why It Happens | Fix |
+|-------|----------------|-----|
+| **OutOfMemoryError** (대용량 PDF) | 힙 크기 부족 | JVM 메모리(`-Xmx2g` 이상) 증가 |
+| HTML에서 폰트 누락 | 라이선스 문제로 폰트가 포함되지 않음 | `setFontSavingMode`를 `SaveInAllFormats`로 설정하고 라이선스가 유효한지 확인 |
+| 이미지가 깨진 링크로 표시 | 임베드 모드가 설정되지 않음 | `setPartsEmbeddingMode`가 `EmbedAllIntoHtml`인지 확인 |
 
-## 결론
+## 자주 묻는 질문
 
-이 가이드를 따라 하면 Aspose.PDF for Java를 사용하여 PDF 문서를 모든 리소스가 포함된 HTML 파일로 변환하는 방법을 배우게 됩니다. 이 과정을 통해 출력물이 외부 종속성 없이 웹에 표시될 수 있도록 완벽하게 독립형으로 제작됩니다.
+**Q: 이 방법으로 암호로 보호된 PDF 파일을 변환할 수 있나요?**  
+A: 예. `Document` 객체를 생성할 때 비밀번호를 제공하면 됩니다. 이는 보조 키워드 *convert password protected pdf*와 일치합니다.
 
-Aspose.PDF의 기능을 더욱 자세히 알아보려면 광범위한 설명서를 자세히 살펴보고 PDF 내에서 텍스트와 그래픽을 조작하는 등의 추가 기능을 실험해 보세요.
+**Q: 대용량 PDF 파일을 효율적으로 처리하려면 어떻게 해야 하나요?**  
+A: 더 많은 힙 메모리를 할당하고, 파일을 배치 처리하며, 저장 전에 `doc.optimizeResources()` 호출을 고려하세요.
 
-## FAQ 섹션
+**Q: HTML 출력에서 폰트가 임베드되는 방식을 사용자 지정할 수 있나요?**  
+A: 물론 가능합니다. 대상 브라우저에 맞게 다양한 `FontSavingModes`(예: `SaveInWoff`, `SaveInTtf`)를 사용하세요.
 
-1. **이 방법을 사용하여 암호로 보호된 PDF 파일을 변환할 수 있나요?**
-   - 네, 올바른 비밀번호를 입력하면 Aspose.PDF에서 보호된 문서를 열고 변환할 수 있습니다.
-2. **대용량 PDF 파일을 효율적으로 처리하려면 어떻게 해야 하나요?**
-   - Java의 메모리 관리 모범 사례를 활용하고 변환을 더 작은 작업으로 나누는 것을 고려하세요.
-3. **HTML 출력에 글꼴이 포함되는 방식을 사용자 정의할 수 있나요?**
-   - 물론입니다. Aspose.PDF는 사용자의 필요에 맞게 구성할 수 있는 다양한 글꼴 저장 모드를 제공합니다.
-4. **어떤 브라우저가 이러한 유형의 내장 HTML 콘텐츠를 지원합니까?**
-   - 대부분의 최신 웹 브라우저는 내장된 리소스가 있는 자체 포함 HTML 문서를 지원합니다.
-5. **양식 필드를 보존하면서 양식이 포함된 PDF를 HTML로 변환할 수 있나요?**
-   - Aspose.PDF는 양식 요소 변환에 대한 지원이 제한적입니다. 그러나 필요한 경우 HTML로 수동으로 추출하여 다시 만들 수 있습니다.
+**Q: Aspose.PDF가 생성한 임베드 HTML을 지원하는 브라우저는?**  
+A: 모든 최신 브라우저(Chrome, Edge, Firefox, Safari)에서 자체 포함 HTML을 올바르게 렌더링합니다. 구형 IE 버전은 적용한 EM 단위 위치 조정이 필요할 수 있습니다.
 
-## 자원
-- [선적 서류 비치](https://reference.aspose.com/pdf/java/)
-- [라이브러리 다운로드](https://releases.aspose.com/pdf/java/)
-- [라이센스 구매](https://purchase.aspose.com/buy)
-- [무료 체험](https://releases.aspose.com/pdf/java/)
-- [임시 면허](https://purchase.aspose.com/temporary-license/)
-- [지원 포럼](https://forum.aspose.com/c/pdf/10)
+**Q: HTML로 변환할 때 인터랙티브 폼 필드를 보존할 수 있나요?**  
+A: 폼 변환은 제한적이며, 폼 데이터를 별도로 추출하고 HTML에서 수동으로 필드를 재구성해야 할 수 있습니다.
 
-이 튜토리얼이 Aspose.PDF for Java를 사용하여 PDF를 HTML로 성공적으로 변환하는 방법을 알려드렸기를 바랍니다. 즐거운 코딩 되세요!
+## 리소스
+- [Documentation](https://reference.aspose.com/pdf/java/)
+- [Download Library](https://releases.aspose.com/pdf/java/)
+- [Purchase License](https://purchase.aspose.com/buy)
+- [Free Trial](https://releases.aspose.com/pdf/java/)
+- [Temporary License](https://purchase.aspose.com/temporary-license/)
+- [Support Forum](https://forum.aspose.com/c/pdf/10)
+
+---
+
+**마지막 업데이트:** 2026-04-02  
+**테스트 환경:** Aspose.PDF for Java 25.3  
+**작성자:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -16,7 +16,6 @@
 Học cách tạo tài liệu PDF chất lượng lưu trữ với hướng dẫn Aspose.PDF toàn diện của chúng tôi để tuân thủ PDF/A trong .NET. Các hướng dẫn chi tiết này trình bày cách tạo tài liệu tuân thủ PDF/A-1b, PDF/A-2b và PDF/A-3b, xác thực PDF hiện có theo các tiêu chuẩn tuân thủ, chuyển đổi PDF chuẩn sang định dạng lưu trữ và khắc phục sự cố tuân thủ phổ biến. Mỗi hướng dẫn cung cấp các ví dụ mã C# hoạt động cho các tình huống tài liệu lưu trữ, giúp bạn xây dựng các ứng dụng tạo ra các tài liệu bảo quản lâu dài đáp ứng các tiêu chuẩn quốc tế.
 
 ## Hướng dẫn có sẵn
-
 ### [Aspose.PDF .NET: Thêm tệp đính kèm & chuyển đổi sang PDF/A](./aspose-pdf-net-add-attachments-convert-pdfa/)
 Hướng dẫn mã cho Aspose.PDF Net
 
@@ -37,6 +36,16 @@ Tìm hiểu cách xác thực sự tuân thủ PDF/A-1a bằng Aspose.PDF cho .N
 
 ### [Xác thực PDF/A bằng Aspose.PDF cho .NET trong C#](./master-pdfa-validation-aspose-pdf-net/)
 Tìm hiểu cách xác thực tài liệu PDF theo tiêu chuẩn PDF/A bằng Aspose.PDF .NET. Đảm bảo tuân thủ và nâng cao độ tin cậy của tài liệu với hướng dẫn từng bước của chúng tôi.
+
+### [Chuyển đổi PDF sang PDF/A trong C# – Hướng dẫn từng bước](./convert-pdf-to-pdf-a-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu PDF sang PDF/A trong C# bằng Aspose.PDF, đảm bảo tuân thủ tiêu chuẩn lưu trữ.
+
+### [Tạo tệp PDF/A trong C# – Hướng dẫn chuyển đổi đầy đủ](./create-pdf-a-file-in-c-full-conversion-tutorial/)
+Hướng dẫn chi tiết cách tạo tệp PDF/A trong C# bằng Aspose.PDF, bao gồm các bước chuyển đổi đầy đủ.
+### [Cách tạo PDF/A trong C# – Hướng dẫn từng bước của Aspose](./how-to-create-pdf-a-in-c-step-by-step-aspose-guide/)
+Hướng dẫn chi tiết cách tạo tài liệu PDF/A trong C# bằng Aspose.PDF, bao gồm các bước thực hiện và mã mẫu.
+### [Chuyển đổi PDF sang PDF/A trong C# – Hướng dẫn chi tiết từng bước](./convert-pdf-to-pdf-a-in-c-complete-step-by-step-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu PDF sang định dạng PDF/A trong C# bằng Aspose.PDF, bao gồm các bước thực hiện và ví dụ mã.
 
 ## Tài nguyên bổ sung
 

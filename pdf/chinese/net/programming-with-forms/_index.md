@@ -25,6 +25,7 @@ Aspose.PDF for .NET“表单编程”教程是开发人员创建和操作交互�
 | [阿拉伯语文本填充](./arabic-text-filling/) 通过本分步教程学习如何使用 Aspose.PDF for .NET 在 PDF 表单中填充阿拉伯语文本。提升您的 PDF 操作技能。|  
 | [组合框](./combo-box/) 了解如何使用 Aspose.PDF for .NET 将组合框添加到 PDF。按照我们的分步指南，轻松创建交互式 PDF 表单。|  
 | [创建文档](./create-doc/) 通过本全面的分步指南学习如何使用 Aspose.PDF for .NET 创建带有单选按钮的交互式 PDF 文档。|  
+| [创建带有多个小部件的 PDF 文档 – 分步指南](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) 通过本分步指南学习如何使用 Aspose.PDF for .NET 创建包含多个小部件的 PDF 文档，实现复杂表单功能。|  
 | [删除 PDF 文档中的表单字段](./delete-form-field/) 本分步指南将指导您如何使用 Aspose.PDF for .NET 删除 PDF 文档中的表单字段。非常适合开发人员和 PDF 爱好者。|  
 | [确定 PDF 表单中的必填字段](./determine-required-field/) 了解如何使用 Aspose.PDF for .NET 确定 PDF 表单中的必填字段。我们的分步指南可简化表单管理并增强您的 PDF 自动化工作流程。|  
 | [动态 XFA 到 Acro 表单](./dynamic-xfa-to-acro-form/) 在本分步教程中了解如何使用 Aspose.PDF for .NET 将动态 XFA 表单转换为标准 AcroForms。|  
@@ -50,7 +51,8 @@ Aspose.PDF for .NET“表单编程”教程是开发人员创建和操作交互�
 | [设置 Java 脚本](./set-java-script/) 解锁 Aspose.PDF for .NET 的强大功能。通过我们的分步指南学习如何在表单字段上设置 JavaScript。|  
 | [设置单选按钮标题](./set-radio-button-caption/) 了解如何使用 Aspose.PDF for .NET 在 PDF 中设置单选按钮标题。本分步指南将引导您完成 PDF 表单的加载、修改和保存。|  
 | [文本框](./text-box/) 通过本分步指南，了解如何使用 Aspose.PDF for .NET 轻松地将文本框添加到 PDF。增强用户交互。|  
-| [如何使用 Aspose 创建 PDF – 添加表单字段和页面](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) 通过本分步指南学习如何使用 Aspose.PDF for .NET 创建 PDF 并添加表单字段和页面。|
+| [如何使用 Aspose 创建 PDF – 添加表单字段和页面](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) 通过本分步指南学习如何使用 Aspose.PDF for .NET 创建 PDF 并添加表单字段和页面。|  
+| [使用 C# 完整指南创建带页面和文本框字段的 PDF](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) 通过本分步教程学习如何使用 Aspose.PDF for .NET 在 PDF 中添加页面并创建文本框字段，提供完整的 C# 示例代码。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -59,3 +61,22 @@ Aspose.PDF for .NET“表单编程”教程是开发人员创建和操作交互�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [使用 Aspose 创建 PDF – 将字段添加到集合](./how-to-create-pdf-with-aspose-add-field-to-collection/) 通过本分步指南学习如何使用 Aspose.PDF for .NET 将字段添加到 PDF 集合，实现动态表单构建。|
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+| [如何添加文本框 PDF – 创建 PDF 表单字段并保存编辑后的 PDF 文档](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) 通过本分步指南学习如何使用 Aspose.PDF for .NET 在 PDF 中添加文本框、创建表单字段并保存编辑后的文档。|  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

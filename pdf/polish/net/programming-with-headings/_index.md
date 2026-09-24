@@ -22,6 +22,7 @@ Poznaj funkcje Aspose.PDF dla .NET dzięki dedykowanym samouczkom. Dowiedz się,
 | Tytuł | Opis |
 | --- | --- | 
 | [Zastosuj styl numeracji w pliku PDF](./apply-number-style/) | Dowiedz się, jak stosować różne style liczb (cyfry rzymskie, alfabetyczne) w nagłówkach w pliku PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego przewodnika krok po kroku. |   
+| [Dodaj nagłówek do PDF za pomocą Aspose – Kompletny przewodnik C#](./add-heading-to-pdf-with-aspose-complete-c-guide/) | Dowiedz się, jak dodać nagłówek do pliku PDF w C# przy użyciu Aspose.PDF dla .NET, krok po kroku. |   
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
