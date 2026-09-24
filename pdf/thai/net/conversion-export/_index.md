@@ -65,6 +65,9 @@
 ### [แปลง PDF เป็น HTML โดยใช้ Aspose.PDF สำหรับ .NET: คำแนะนำเกี่ยวกับเอาต์พุตสตรีม](./convert-pdf-html-asposedotnet-guide/)
 เรียนรู้วิธีการแปลงไฟล์ PDF เป็น HTML ด้วย Aspose.PDF สำหรับ .NET โดยใช้เอาต์พุตสตรีม ปรับปรุงการบูรณาการและการเข้าถึงเว็บของคุณ
 
+### [แปลง PDF เป็น HTML โดยใช้ Aspose.PDF สำหรับ .NET: คำแนะนำเกี่ยวกับเอาต์พุตสตรีม](./convert-pdf-html-aspose-dotnet-guide/)
+เรียนรู้วิธีการแปลงไฟล์ PDF เป็น HTML ด้วย Aspose.PDF สำหรับ .NET โดยใช้เอาต์พุตสตรีม ปรับปรุงการบูรณาการและการเข้าถึงเว็บของคุณ
+
 ### [แปลง PDF เป็น HTML ใน .NET โดยใช้ Aspose.PDF โดยไม่ต้องบันทึกภาพ](./convert-pdf-html-net-asposepdf-no-images/)
 เรียนรู้วิธีการแปลงไฟล์ PDF เป็น HTML โดยใช้ Aspose.PDF สำหรับ .NET โดยไม่ต้องบันทึกรูปภาพแยกต่างหาก รักษาความสมบูรณ์ของเค้าโครงด้วยคู่มือโดยละเอียดของเรา
 
@@ -236,6 +239,9 @@
 ### [การแปลง PDFเป็น HTMLด้วย Aspose.PDF สำหรับ .NET](./pdf-to-html-conversion-aspose-dot-net/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.PDF Net
 
+### [แปลง PDF เป็น HTML และตรวจสอบลายเซ็น PDF – คู่มือเต็ม Aspose .NET](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
+เรียนรู้วิธีแปลง PDF เป็น HTML และตรวจสอบลายเซ็น PDF อย่างละเอียดด้วย Aspose.PDF สำหรับ .NET
+
 ### [การแปลง PDFเป็น TIFFใน .NETโดยใช้ Aspose.PDF: คำแนะนำทีละขั้นตอน](./pdf-to-tiff-conversion-aspose-pdf-net/)
 เรียนรู้วิธีการแปลงเอกสาร PDFเป็นภาพ TIFFโดยใช้ Aspose.PDF สำหรับ .NET เชี่ยวชาญความลึกสีที่กำหนดเองและเทคนิคการประมวลผลภาพขั้นสูง
 
@@ -257,9 +263,6 @@
 
 ### [แปลง PDF เป็น PDF/X-1a, ส่งออกหน้าเป็น PNG และเพิ่มตราข้อความ](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
 เรียนรู้วิธีแปลง PDF เป็น PDF/X‑1a ส่งออกหน้าเป็น PNG และเพิ่มตราข้อความด้วย Aspose.PDF สำหรับ .NET
-### [แปลง PDF เป็น HTML และตรวจสอบลายเซ็น PDF – คู่มือเต็ม Aspose .NET](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
-เรียนรู้วิธีแปลง PDF เป็น HTML และตรวจสอบลายเซ็น PDF อย่างละเอียดด้วย Aspose.PDF สำหรับ .NET
-
 
 ## แหล่งข้อมูลเพิ่มเติม
 

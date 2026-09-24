@@ -234,7 +234,7 @@ Aspose.PDF Net 程式碼教學
 了解如何使用 Aspose.PDF for .NET 將 PDF 文件轉換為具有外部 PNG 圖像的 HTML。本指南確保佈局保存和網路效能優化。
 
 ### [使用 Aspose.PDF .NET 將 PDF 轉換為 HTML：綜合指南](./aspose-pdf-net-pdf-to-html-conversion/)
-掌握使用 Aspose.PDF .NET 進行 PDF 到 HTML 的轉換。透過可自訂的選項增強文件的可存取性和參與度。
+掌握使用 Aspose.PDF for .NET 進行 PDF 到 HTML 的轉換。透過可自訂的選項增強文件的可存取性和參與度。
 
 ### [使用 Aspose.PDF .NET 將 PDF 轉換為 HTML：完整指南](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
 了解如何使用 Aspose.PDF for .NET 及 C# 將 PDF 轉換並儲存為高品質的 HTML 文件，包含完整程式碼範例與設定說明。
@@ -248,6 +248,9 @@ Aspose.PDF Net 程式碼教學
 ### [使用 Aspose.PDF 在 .NET 中將 PDF 轉換為 TIFF：逐步指南](./pdf-to-tiff-conversion-aspose-pdf-net/)
 了解如何使用 Aspose.PDF for .NET 將 PDF 文件轉換為 TIFF 影像。掌握自訂色彩深度和先進的影像處理技術。
 
+### [將 PDF 轉換為 HTML 並驗證 PDF 簽章 – 完整 Aspose .NET 指南](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
+了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 HTML，並驗證 PDF 簽章的完整步驟與程式碼範例。
+
 ### [如何使用 Aspose 保存 PDF – 步驟指南](./how-to-save-pdf-with-aspose-step-by-step-guide/)
 了解如何使用 Aspose 保存 PDF 文件的完整步驟與程式碼範例。
 ### [使用 Aspose.PDF .NET 將 PDF 轉換為 HTML：完整 C# 指南](./save-pdf-as-html-with-csharp-guide/)
@@ -258,8 +261,6 @@ Aspose.PDF Net 程式碼教學
 
 ### [將 PDF 轉換為 PDF/X-1a、匯出頁面 PNG 並新增文字印章](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
 學習使用 Aspose.PDF for .NET 將 PDF 轉換為 PDF/X-1a 標準，同時匯出頁面為 PNG 並在 PDF 上添加文字印章。
-### [將 PDF 轉換為 HTML 並驗證 PDF 簽章 – 完整 Aspose .NET 指南](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
-了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 HTML，並驗證 PDF 簽章的完整步驟與程式碼範例。
 
 ## 其他資源
 
