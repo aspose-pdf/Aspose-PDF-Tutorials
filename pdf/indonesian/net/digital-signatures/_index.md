@@ -109,6 +109,9 @@ Panduan langkah demi langkah untuk memeriksa dan memvalidasi tanda tangan digita
 ### [Cara Membaca Tanda Tangan di PDF dengan C# – Panduan Langkah demi Langkah](./how-to-read-signatures-in-pdf-with-c-step-by-step-guide/)
 Pelajari cara membaca tanda tangan digital dalam file PDF menggunakan C# dan Aspose.PDF dengan contoh kode langkah demi langkah.
 
+### [Cara Menandatangani PDF dan Menambahkan Gambar – Panduan Lengkap C#](./how-to-sign-pdf-and-add-images-complete-c-guide/)
+Panduan langkah demi langkah untuk menandatangani PDF dan menambahkan gambar menggunakan Aspose.PDF untuk .NET dengan C#.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

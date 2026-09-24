@@ -80,6 +80,11 @@ Aspose.PDF for .NET を使用してPDFファイルをHTML形式に変換し、�
 ### [Aspose.PDF for .NET で PDF を HTML に変換: TTF および WOFF 形式でフォントを保持](./convert-pdf-html-aspose-net-truetype-woff/)
 Aspose.PDF for .NET を使用して、TrueType (TTF) および Web Open Font Format (WOFF) フォントを維持しながら PDF を HTML に変換する方法を学びます。コード例を交えたステップバイステップのガイドです。
 
+### [AsposeでPDFをHTMLとして保存する – 完全C#ガイド](./save-pdf-as-html-with-aspose-complete-c-guide/)
+Aspose.PDF for .NET と C# を使用して、PDF を HTML に変換し保存する方法をステップバイステップで学びます。
+
+### [C# で PDF を HTML として保存する – 完全ステップバイステップガイド](./save-pdf-as-html-with-c-complete-step-by-step-guide/)
+
 ### [Aspose.PDF を使用して PDF をカスタムディメンションで HTML に変換する](./convert-pdf-html-custom-dimensions-asposepdf-net/)
 Aspose.PDF Net のコードチュートリアル
 
@@ -109,6 +114,8 @@ Aspose.PDF for .NET を使用して PDF ファイルを XML 形式に変換す�
 
 ### [Aspose.PDF .NET を使用して PDF/A を標準 PDF に変換する: 包括的なガイド](./convert-pdf-a-standard-pdf-aspose-net/)
 このステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF/A ドキュメントを標準の PDF にシームレスに変換する方法を学習します。
+
+### [PDF を PDF/X-1A に変換し、ページを PNG としてエクスポート、テキストスタンプを追加](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
 
 ### [Aspose.PDF .NET を使用して PDF をカスタム CSS 付きのインタラクティブ HTML に変換する](./convert-pdfs-to-html-custom-css-aspose-pdf-net/)
 Aspose.PDF .NET を使用して、カスタム CSS スタイルを備えたインタラクティブな Web 対応 HTML 形式に PDF ドキュメントを変換する方法を学習します。

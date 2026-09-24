@@ -107,6 +107,9 @@ Apprenez à lire les signatures numériques d'un PDF en C# avec Aspose.PDF, éta
 ### [Ajouter une signature numérique PDF en C# – Guide complet](./add-digital-signature-pdf-in-c-complete-guide/)
 Apprenez à ajouter une signature numérique à un PDF en C# avec Aspose.PDF, étape par étape.
 
+### [Comment signer un PDF et ajouter des images – Guide complet C#](./how-to-sign-pdf-and-add-images-complete-c-guide/)
+Apprenez à signer un PDF et à y insérer des images en C# avec Aspose.PDF, étape par étape.
+
 ## Ressources supplémentaires
 
 - [Aspose.PDF pour la documentation réseau](https://docs.aspose.com/pdf/net/)

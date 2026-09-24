@@ -167,6 +167,12 @@ Kuasai konversi PDF ke HTML menggunakan Aspose.PDF untuk .NET. Tingkatkan aksesi
 
 ### [Simpan PDF sebagai HTML menggunakan Aspose.PDF – Panduan Lengkap C#](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
 Panduan langkah demi langkah untuk menyimpan PDF sebagai HTML dengan Aspose.PDF menggunakan C#.
+### [Simpan PDF sebagai HTML dengan Aspose – Panduan Lengkap C#](./save-pdf-as-html-with-aspose-complete-c-guide/)
+Panduan lengkap C# untuk menyimpan PDF sebagai file HTML menggunakan Aspose.PDF .NET, mencakup contoh kode dan opsi konfigurasi.
+
+### [Simpan PDF sebagai HTML dengan C# – Panduan Lengkap Langkah demi Langkah](./save-pdf-as-html-with-c-complete-step-by-step-guide/)
+Pelajari cara menyimpan PDF sebagai file HTML menggunakan C# dengan panduan langkah demi langkah lengkap.
+
 
 ### [Konversi PDF ke HTML dengan Aspose.PDF untuk .NET](./pdf-to-html-conversion-aspose-dot-net/)
 Tutorial kode untuk Aspose.PDF Net
@@ -184,6 +190,9 @@ Pelajari cara mengonversi PDF ke HTML dengan cepat menggunakan Aspose.Pdf dalam 
 
 ### [Cara Mengekspor DOCX – Panduan Langkah demi Langkah untuk Pengembang C#](./how-to-export-docx-step-by-step-guide-for-c-developers/)
 Pelajari cara mengekspor dokumen DOCX menggunakan Aspose.PDF untuk .NET dengan contoh kode C# lengkap.
+
+### [Konversi PDF ke PDF/X-1a, Ekspor Halaman PNG & Tambahkan Stempel Teks](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
+Pelajari cara mengonversi PDF ke standar PDF/X-1a, mengekspor halaman sebagai PNG, dan menambahkan stempel teks menggunakan Aspose.PDF untuk .NET.
 
 ## Sumber Daya Tambahan
 

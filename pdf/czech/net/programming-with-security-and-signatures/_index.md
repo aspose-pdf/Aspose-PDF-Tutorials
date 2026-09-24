@@ -43,6 +43,7 @@ Tento tutoriál vám poskytne podrobný přehled metod a technik pro zajištěn�
 | [Načíst PFX certifikát C# – Vytvořit oddělený podpis PKCS7](./load-pfx-certificate-c-create-pkcs7-detached-signature/) | Naučte se načíst PFX certifikát v C# a vytvořit oddělený podpis PKCS7 pomocí Aspise.PDF pro .NET. |  
 | [Ověření digitálního podpisu PDF v C# – Kompletní průvodce Aspose.PDF](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) | Naučte se, jak v C# ověřit digitální podpisy PDF pomocí Aspose.PDF, včetně kroků pro kontrolu platnosti a integritu dokumentu. |  
 | [Konfigurace serveru CA v C# – Kompletní průvodce ověřením podpisů dokumentů Word](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) | Naučte se, jak v C# nakonfigurovat server certifikační autority a ověřovat digitální podpisy v dokumentech Word pomocí Aspose.Words. |  
+| [Ověření digitálního podpisu PDF – Kompletní průvodce v C#](./validate-pdf-digital-signature-complete-c-guide/) | Naučte se, jak ověřit digitální podpisy PDF souborů pomocí Aspose.PDF pro .NET v C#. Kompletní podrobný návod. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

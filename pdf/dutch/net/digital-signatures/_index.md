@@ -103,6 +103,9 @@ Leer hoe u handtekeningen uit een PDF haalt met C# en Aspose.PDF. Deze gids beha
 ### [Digitale handtekening aan PDF toevoegen in C# – Complete gids](./add-digital-signature-pdf-in-c-complete-guide/)
 Leer hoe u een digitale handtekening aan een PDF toevoegt met C# en Aspose.PDF voor .NET in een volledige stap‑voor‑stap gids.
 
+### [Hoe PDF te ondertekenen en afbeeldingen toe te voegen – Complete C#‑handleiding](./how-to-sign-pdf-and-add-images-complete-c-guide/)
+Leer stap‑voor‑stap hoe u PDF‑bestanden ondertekent en afbeeldingen toevoegt met C# en Aspose.PDF.
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

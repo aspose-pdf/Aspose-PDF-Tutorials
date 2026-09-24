@@ -102,6 +102,9 @@ C# を使用して PDF ファイル内のデジタル署名情報を取得し、
 ### [C# で PDF にデジタル署名を追加する – 完全ガイド](./add-digital-signature-pdf-in-c-complete-guide/)
 C# を使用して PDF にデジタル署名を追加する手順をステップバイステップで解説します。
 
+### [PDF に署名して画像を追加する方法 – 完全 C# ガイド](./how-to-sign-pdf-and-add-images-complete-c-guide/)
+C# を使用して PDF にデジタル署名を行い、画像を埋め込む手順をステップバイステップで解説します。
+
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)

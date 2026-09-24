@@ -43,6 +43,7 @@ Handledningen ger dig en detaljerad översikt över metoder och tekniker för at
 | [PDF-signaturhandledning: Verifiera en PDF:s digitala signatur i C#](./pdf-signature-tutorial-verify-a-pdf-s-digital-signature-in-c/) | Lär dig hur du verifierar en PDF:s digitala signatur i C# med Aspose.PDF för .NET i en kort guide. |
 | [Validera digital signatur PDF i C# – Komplett Aspose.PDF-guide](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) | Lär dig hur du validerar digitala signaturer i PDF-filer med Aspose.PDF för .NET i C#. |
 | [Konfigurera CA-server i C# – Komplett guide för att validera Word-dokumentsignaturer](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) | Lär dig hur du konfigurerar en CA‑server i C# för att validera signaturer i Word‑dokument. |
+| [Validera PDF-digital signatur – Komplett C#-guide](./validate-pdf-digital-signature-complete-c-guide/) | Lär dig hur du validerar digitala signaturer i PDF-filer med Aspose.PDF för .NET i en komplett C#-guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

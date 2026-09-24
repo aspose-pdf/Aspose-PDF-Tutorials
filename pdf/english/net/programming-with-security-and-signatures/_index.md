@@ -44,6 +44,7 @@ The tutorial gives you a detailed overview of methods and techniques to ensure t
 | [How to Repair PDF Files – Complete C# Guide with Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Learn how to repair corrupted PDF files using Aspose.PDF for .NET in a comprehensive C# guide. |  
 | [Validate Digital Signature PDF in C# – Complete Aspose.PDF Guide](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) | Learn how to validate digital signatures in PDF files using Aspose.PDF for .NET in C#. Step-by-step guide for developers. |  
 | [Configure CA Server in C# – Complete Guide to Validate Word Document Signatures](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) | Learn how to configure a CA server in C# to validate Word document signatures using Aspose.PDF for .NET. Step-by-step guide. |
+| [Validate PDF Digital Signature – Complete C# Guide](./validate-pdf-digital-signature-complete-c-guide/) | Learn how to validate PDF digital signatures using Aspose.PDF for .NET in a comprehensive C# guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

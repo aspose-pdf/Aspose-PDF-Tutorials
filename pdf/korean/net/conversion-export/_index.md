@@ -41,6 +41,9 @@ Aspose.PDF for .NET을 사용하여 Excel 워크시트를 PDF 표로 효율적�
 ### [Aspose.PDF를 사용하여 C#에서 HTML을 PDF로 변환: 완벽한 가이드](./convert-html-pdf-aspose-pdf-net-csharp/)
 Aspose.PDF for .NET 및 C#을 사용하여 HTML 콘텐츠를 전문적인 PDF로 변환하는 방법을 알아보세요. 이 가이드에서는 인증된 HTTP 요청, 변환 프로세스 및 자격 증명 설정에 대해 다룹니다.
 
+### [C#를 사용하여 PDF를 HTML로 저장하기 – 완전 단계별 가이드](./save-pdf-as-html-with-c-complete-step-by-step-guide/)
+Aspose.PDF for .NET을 사용하여 C#에서 PDF를 HTML로 저장하는 방법을 단계별로 안내합니다.
+
 ### [Aspose.PDF를 사용하여 .NET에서 Markdown을 PDF로 변환: 포괄적인 가이드](./convert-markdown-pdf-aspose-net-tutorial/)
 Aspose.PDF for .NET을 사용하여 마크다운 파일을 PDF로 변환하는 방법을 알아보세요. 이 단계별 가이드를 따라 애플리케이션에 원활한 문서 변환 기능을 통합해 보세요.
 
@@ -121,6 +124,9 @@ Aspose.PDF for .NET을 사용하여 PDF 파일을 XML 형식으로 변환하는 
 
 ### [Aspose.PDF .NET을 사용하여 PDF/A를 표준 PDF로 변환: 종합 가이드](./convert-pdf-a-standard-pdf-aspose-net/)
 이 단계별 가이드를 통해 Aspose.PDF for .NET을 사용하여 PDF/A 문서를 표준 PDF로 원활하게 변환하는 방법을 알아보세요.
+
+### [PDF를 PDF/X-1a로 변환하고, 페이지 PNG 내보내기 및 텍스트 스탬프 추가](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
+Aspose.PDF for .NET을 사용해 PDF를 PDF/X-1a 형식으로 변환하고, 페이지를 PNG 이미지로 내보내며 텍스트 스탬프를 추가하는 방법을 단계별로 안내합니다.
 
 ### [Aspose.PDF .NET을 사용하여 사용자 정의 CSS로 PDF를 대화형 HTML로 변환](./convert-pdfs-to-html-custom-css-aspose-pdf-net/)
 Aspose.PDF .NET을 사용하여 사용자 정의 CSS 스타일을 적용하여 PDF 문서를 대화형 웹 친화적 HTML 형식으로 변환하는 방법을 알아보세요.

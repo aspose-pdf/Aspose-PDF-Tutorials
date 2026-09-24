@@ -109,6 +109,9 @@ Hướng dẫn chi tiết cách kiểm tra chữ ký PDF trong C# bằng Aspose.
 ### [Thêm chữ ký số PDF bằng C# – Hướng dẫn toàn diện](./add-digital-signature-pdf-in-c-complete-guide/)
 Hướng dẫn chi tiết cách thêm chữ ký số vào tài liệu PDF bằng C#, bao gồm cài đặt, triển khai và ví dụ mã đầy đủ.
 
+### [Cách ký PDF và Thêm Hình ảnh – Hướng dẫn C# đầy đủ](./how-to-sign-pdf-and-add-images-complete-c-guide/)
+Hướng dẫn chi tiết cách ký tài liệu PDF và chèn hình ảnh vào chữ ký bằng C# với Aspose.PDF.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)

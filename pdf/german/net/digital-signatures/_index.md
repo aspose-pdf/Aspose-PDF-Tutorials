@@ -100,6 +100,9 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET digitale Signaturen in PDFs in C#
 ### [Digitale Signatur zu PDF in C# hinzufügen – Vollständiger Leitfaden](./add-digital-signature-pdf-in-c-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET digitale Signaturen in PDFs per C# hinzufügen und verifizieren.
 
+### [Wie man PDFs signiert und Bilder hinzufügt – Vollständiger C#‑Leitfaden](./how-to-sign-pdf-and-add-images-complete-c-guide/)
+Erfahren Sie, wie Sie PDFs signieren und Bilder in die Signatur einbetten – Schritt‑für‑Schritt in C#.
+
 ## Weitere Ressourcen
 
 - [Aspose.PDF für Net-Dokumentation](https://docs.aspose.com/pdf/net/)

@@ -108,6 +108,9 @@ C# kullanarak PDF dosyalarındaki dijital imzaları nasıl okuyacağınızı ad�
 ### [C# ile PDF'e Dijital İmza Ekleme – Tam Kılavuz](./add-digital-signature-pdf-in-c-complete-guide/)
 C# kullanarak PDF dosyalarına dijital imza eklemeyi adım adım öğrenin. Güvenli imzalama tekniklerini keşfedin.
 
+### [PDF'i İmzalama ve Görüntü Ekleme – Tam C# Kılavuzu](./how-to-sign-pdf-and-add-images-complete-c-guide/)
+C# kullanarak PDF'ye nasıl imza ekleyip, görüntü yerleştireceğinizi adım adım öğrenin.
+
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)

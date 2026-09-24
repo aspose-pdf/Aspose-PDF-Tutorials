@@ -42,6 +42,7 @@ Este tutorial le ofrece una descripción detallada de los métodos y técnicas p
 | [Tutorial de firma PDF: Verificar la firma digital de un PDF en C#](./pdf-signature-tutorial-verify-a-pdf-s-digital-signature-in-c/) Aprenda a verificar la firma digital de un PDF usando Aspose.PDF para .NET en C#. Guía paso a paso.  
 | [Validar firma digital PDF en C# – Guía completa de Aspose.PDF](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) Aprenda a validar firmas digitales en archivos PDF usando Aspose.PDF para .NET en C#. Guía paso a paso completa.  
 | [Configurar servidor CA en C# – Guía completa para validar firmas de documentos Word](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) Aprenda a configurar un servidor CA en C# y validar firmas en documentos Word con Aspose.PDF para .NET. Guía paso a paso.  
+| [Validar firma digital PDF – Guía completa en C#](./validate-pdf-digital-signature-complete-c-guide/) Aprenda a validar firmas digitales en archivos PDF usando Aspose.PDF para .NET con C#. Guía paso a paso completa.  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

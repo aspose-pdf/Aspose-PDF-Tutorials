@@ -254,6 +254,14 @@ Kód oktatóanyag az Aspose.PDF Nethez
 ### [PDF-ből TIFF-be konvertálás .NET-ben az Aspose.PDF használatával: lépésről lépésre útmutató](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Tanuld meg, hogyan konvertálhatsz PDF dokumentumokat TIFF képekké az Aspose.PDF for .NET segítségével. Sajátítsd el az egyéni színmélységeket és a fejlett képfeldolgozási technikákat.
 
+### [PDF mentése HTML-ként az Aspose segítségével – Teljes C# útmutató](./save-pdf-as-html-with-aspose-csharp/)
+
+### [PDF mentése HTML-ként C#-ban – Teljes lépésről‑lépésre útmutató](./save-pdf-as-html-with-c-complete-step-by-step-guide/)
+Ismerje meg, hogyan menthet PDF fájlokat HTML formátumba C#-ban az Aspose.PDF segítségével, részletes lépésekkel és kódpéldákkal.
+
+### [PDF konvertálása PDF/X-1A formátumba, oldal PNG exportálása és szövegbélyegző hozzáadása](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
+Tanulja meg, hogyan konvertálhat PDF-et PDF/X-1A formátumba, exportálhat oldalakat PNG‑ként, és adhat hozzá szöveges bélyegzőt C#‑ban az Aspose.PDF .NET segítségével.
+
 ### [PDF mentése Aspose segítségével – Lépésről lépésre útmutató](./how-to-save-pdf-with-aspose-step-by-step-guide/)
 Ismerje meg, hogyan menthet PDF fájlokat az Aspose könyvtár segítségével részletes, lépésről lépésre útmutatóval.
 

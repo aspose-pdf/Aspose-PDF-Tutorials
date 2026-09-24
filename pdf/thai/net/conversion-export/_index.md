@@ -248,6 +248,15 @@
 เรียนรู้วิธีบันทึกไฟล์ PDF เป็น HTML อย่างครบถ้วนด้วย Aspose.PDF สำหรับ .NET และ C#
 
 ### [วิธีส่งออก DOCX – คู่มือขั้นตอนสำหรับนักพัฒนา C#](./how-to-export-docx-step-by-step-guide-for-c-developers/)
+### [บันทึก PDF เป็น HTML ด้วย Aspose – คู่มือ C# ฉบับสมบูรณ์](./save-pdf-as-html-with-aspose-c-guide/)
+เรียนรู้วิธีบันทึกไฟล์ PDF เป็น HTML ด้วย Aspose.NET ด้วยคู่มือ C# ครบถ้วน
+
+### [บันทึก PDF เป็น HTML ด้วย C# – คู่มือขั้นตอนเต็ม](./save-pdf-as-html-with-c-complete-step-by-step-guide/)
+เรียนรู้วิธีบันทึกไฟล์ PDF เป็น HTML ด้วย C# ผ่านคู่มือขั้นตอนเต็มที่ครอบคลุม
+
+
+### [แปลง PDF เป็น PDF/X-1a, ส่งออกหน้าเป็น PNG และเพิ่มตราข้อความ](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
+เรียนรู้วิธีแปลง PDF เป็น PDF/X‑1a ส่งออกหน้าเป็น PNG และเพิ่มตราข้อความด้วย Aspose.PDF สำหรับ .NET
 
 ## แหล่งข้อมูลเพิ่มเติม
 

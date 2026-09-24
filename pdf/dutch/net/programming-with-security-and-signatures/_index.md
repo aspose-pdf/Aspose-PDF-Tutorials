@@ -43,6 +43,7 @@ De tutorial geeft u een gedetailleerd overzicht van methoden en technieken om de
 | [PDF-handtekening tutorial: een digitale handtekening in een PDF verifiëren in C#](./pdf-signature-tutorial-verify-a-pdf-s-digital-signature-in-c/) | Leer hoe u een digitale handtekening in een PDF kunt verifiëren met Aspose.PDF voor .NET in C#. |
 | [Digitale handtekening PDF valideren in C# – Complete Aspose.PDF-gids](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) | Leer hoe u digitale handtekeningen in PDF's kunt valideren met Aspose.PDF voor .NET in C#. |
 | [Configureer CA-server in C# – Complete gids om handtekeningen van Word-documenten te valideren](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) | Leer hoe u een CA-server configureert in C# om handtekeningen van Word-documenten te valideren met Aspose.Words. |
+| [PDF digitale handtekening valideren – Complete C#-gids](./validate-pdf-digital-signature-complete-c-guide/) | Leer hoe u digitale handtekeningen in PDF's valideert met Aspose.PDF voor .NET in C#. Volg onze stapsgewijze handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

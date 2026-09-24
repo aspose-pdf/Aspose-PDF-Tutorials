@@ -70,6 +70,9 @@
 ### [إضافة توقيع رقمي PDF في C# – دليل شامل](./add-digital-signature-pdf-in-c-complete-guide/)
 دليل خطوة بخطوة لإضافة توقيع رقمي إلى ملفات PDF باستخدام C# و Aspose.PDF
 
+### [كيفية توقيع ملف PDF وإضافة صور – دليل C# كامل](./how-to-sign-pdf-and-add-images-complete-c-guide/)
+دليل شامل يوضح كيفية توقيع ملفات PDF وإدراج صور باستخدام C# ومكتبة Aspose.PDF.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

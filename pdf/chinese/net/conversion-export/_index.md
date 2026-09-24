@@ -111,6 +111,8 @@ Aspose-PDF Net 代码教程
 
 ### [如何导出 DOCX – C# 开发者分步指南](./how-to-export-docx-step-by-step-guide-for-c-developers/)
 学习使用 Aspose.PDF for .NET 在 C# 中将文档导出为 DOCX 格式的完整步骤和代码示例。
+### [将 PDF 转换为 PDF/X-1a，导出页面 PNG 并添加文字水印](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
+学习使用 Aspose.PDF for .NET 将 PDF 转换为 PDF/X-1a 标准，导出页面为 PNG 并添加文本水印的完整步骤。
 
 ### [使用 Aspose.PDF for .NET 将 PDF 转换为 XML：分步指南](./convert-pdf-to-xml-aspose-pdf-net/)
 了解如何使用 Aspose.PDF for .NET 将 PDF 文件转换为 XML 格式。增强数据集成和处理能力。
@@ -251,6 +253,11 @@ Aspose-PDF Net 代码教程
 本指南详细演示如何使用 Aspose 在 .NET 中保存 PDF 文件的完整步骤。
 ### [使用 Aspose.PDF 将 PDF 保存为 HTML – 快速 C# 指南](./save-pdf-as-html-with-aspose-pdf-quick-c-guide/)
 学习使用 Aspose.PDF for .NET 将 PDF 保存为 HTML，提供快速的 C# 示例代码，帮助您高效完成转换。
+### [使用 Aspose.PDF .NET 将 PDF 保存为 HTML – 完整 C# 指南](./save-pdf-as-html-with-aspose-complete-c-guide/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 保存为 HTML，保持布局和样式的完整性。
+
+### [使用 C# 将 PDF 保存为 HTML – 完整分步指南](./save-pdf-as-html-with-c-complete-step-by-step-guide/)
+学习如何使用 C# 将 PDF 文档转换并保存为 HTML，保持布局、样式和交互性，提供完整代码示例和最佳实践。
 
 ## 其他资源
 

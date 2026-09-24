@@ -106,6 +106,9 @@ C#를 사용해 PDF 파일에서 디지털 서명을 추출하고 검증하는 �
 ### [C#에서 PDF 디지털 서명 추가 – 완전 가이드](./add-digital-signature-pdf-in-c-complete-guide/)
 C#를 사용해 PDF에 디지털 서명을 적용하는 방법을 단계별로 안내합니다.
 
+### [PDF에 서명하고 이미지를 추가하는 방법 – 완전 C# 가이드](./how-to-sign-pdf-and-add-images-complete-c-guide/)
+C#을 사용해 PDF에 디지털 서명을 적용하고 이미지를 삽입하는 단계별 완전 가이드입니다.
+
 ## 추가 자료
 
 - [Net 문서용 Aspose.PDF](https://docs.aspose.com/pdf/net/)

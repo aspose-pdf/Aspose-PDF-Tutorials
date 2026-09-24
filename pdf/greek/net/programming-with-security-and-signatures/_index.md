@@ -43,6 +43,7 @@
 | [Οδηγός υπογραφής PDF: Επαλήθευση ψηφιακής υπογραφής PDF σε C#](./pdf-signature-tutorial-verify-a-pdf-s-digital-signature-in-c/) | Μάθετε πώς να επαληθεύετε ψηφιακές υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF. |  
 | [Επικύρωση ψηφιακής υπογραφής PDF σε C# – Πλήρης οδηγός Aspose.PDF](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) | Μάθετε πώς να επικυρώνετε ψηφιακές υπογραφές σε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET με C#. Οδηγός βήμα‑βήμα. |  
 | [Διαμόρφωση διακομιστή CA σε C# – Πλήρης οδηγός για την επικύρωση υπογραφών εγγράφων Word](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) | Μάθετε πώς να ρυθμίσετε έναν διακομιστή CA σε C# για την επικύρωση ψηφιακών υπογραφών εγγράφων Word. |
+| [Επικύρωση ψηφιακής υπογραφής PDF – Πλήρης οδηγός C#](./validate-pdf-digital-signature-complete-c-guide/) | Μάθετε πώς να επικυρώνετε ψηφιακές υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF, βήμα προς βήμα οδηγός. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

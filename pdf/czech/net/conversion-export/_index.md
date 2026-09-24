@@ -48,6 +48,10 @@ Výukový program pro kódování Aspose.PDF Net
 Výukový program pro kódování Aspose.PDF Net
 ### [Převod PDF stránek do PNG pomocí Aspose.PDF .NET: Komplexní průvodce](./convert-pdf-pages-to-png-aspose-net/)
 Naučte se, jak převést stránky PDF do vysoce kvalitních obrázků PNG pomocí Aspose.PDF pro .NET. Postupujte podle tohoto podrobného návodu a efektivně automatizujte proces převodu.
+
+### [Převod PDF na PDF/X-1a, export stránky PNG a přidání textové razítka](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
+Naučte se převést PDF do formátu PDF/X-1a, exportovat stránky jako PNG a přidat textové razítko pomocí Aspose.PDF pro .NET.
+
 ### [Převod PDF do BMP pomocí Aspose.PDF pro .NET: Podrobný návod](./convert-pdf-to-bmp-aspose-pdf-net/)
 Naučte se, jak převést stránky PDF do vysoce kvalitních obrázků BMP pomocí Aspose.PDF pro .NET s tímto komplexním průvodcem.
 ### [Převod PDF do EMF pomocí Aspose.PDF pro .NET: Kompletní průvodce](./convert-pdf-emf-aspose-net-guide/)
@@ -183,6 +187,12 @@ Naučte se, jak převádět dokumenty PDF do obrázků TIFF pomocí Aspose.PDF p
 Naučte se, jak pomocí Aspose.PDF v .NET uložit PDF soubory s různými možnostmi nastavení a optimalizace.
 ### [Uložení PDF jako PNG a konverze na PDF/X‑1a pomocí Aspose PDF](./save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf/)
 Naučte se uložit PDF jako PNG a následně převést do formátu PDF/X‑1a pomocí Aspose.PDF v .NET.
+### [Uložení PDF jako HTML pomocí Aspose – Kompletní průvodce C#](./save-pdf-as-html-with-aspose-complete-c-guide/)
+Naučte se, jak pomocí Aspose.PDF v C# převést PDF soubor na HTML s kompletním krok za krokem návodem.
+
+### [Uložení PDF jako HTML v C# – Kompletní průvodce krok za krokem](./save-pdf-as-html-with-c-complete-step-by-step-guide/)
+Naučte se, jak pomocí C# a Aspose.PDF převést PDF soubor na HTML s podrobným krok za krokem návodem.
+
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)

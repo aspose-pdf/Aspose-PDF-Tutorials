@@ -106,6 +106,9 @@ Ismerje meg, hogyan ellenőrizheti a PDF digitális aláírását C#-ban az Aspo
 ### [PDF digitális aláírás hozzáadása C#-ban – Teljes útmutató](./add-digital-signature-pdf-in-c-complete-guide/)
 Ismerje meg, hogyan adhat hozzá digitális aláírást PDF-hez C#-ban az Aspose.PDF for .NET segítségével, lépésről lépésre útmutatóval.
 
+### [PDF aláírása és képek hozzáadása – Teljes C# útmutató](./how-to-sign-pdf-and-add-images-complete-c-guide/)
+Ismerje meg, hogyan írhat alá PDF-et és adhat hozzá képeket C#-ban az Aspose.PDF for .NET használatával.
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)

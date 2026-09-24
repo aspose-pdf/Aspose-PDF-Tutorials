@@ -227,9 +227,6 @@ Erfahren Sie, wie Sie fehlende Schriftarten durch Ersetzen verwalten und PDFs mi
 ### [Meistern Sie die PDF-zu-HTML-Konvertierung mit Schriftartenverwaltung in Aspose.PDF für .NET](./optimize-pdf-to-html-font-handling-aspose-net/)
 Erfahren Sie, wie Sie die Konvertierung von PDF in HTML mit Aspose.PDF für .NET optimieren, wobei der Schwerpunkt auf der effizienten Handhabung von Schriftartressourcen und der nahtlosen Integration liegt.
 
-### [PDF-zu-HTML-Konvertierung mit Aspose.PDF .NET: Bilder als externe PNGs speichern](./pdf-to-html-conversion-external-png-aspose-pdf-net/)
-Erfahren Sie, wie Sie PDF-Dokumente mit externen PNG-Bildern mit Aspose.PDF für .NET in HTML konvertieren. Diese Anleitung gewährleistet Layouterhaltung und optimierte Web-Performance.
-
 ### [PDF-zu-HTML-Konvertierung mit Aspose.PDF .NET: Ein umfassender Leitfaden](./aspose-pdf-net-pdf-to-html-conversion/)
 Meistern Sie die PDF-zu-HTML-Konvertierung mit Aspose.PDF für .NET. Verbessern Sie die Zugänglichkeit und Interaktion von Dokumenten mit anpassbaren Optionen.
 
@@ -241,6 +238,14 @@ Erfahren Sie, wie Sie PDFs schnell und einfach mit Aspose.PDF in C# in HTML konv
 
 ### [PDF-zu-TIFF-Konvertierung in .NET mit Aspose.PDF: Eine Schritt-für-Schritt-Anleitung](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Erfahren Sie, wie Sie PDF-Dokumente mit Aspose.PDF für .NET in TIFF-Bilder konvertieren. Beherrschen Sie benutzerdefinierte Farbtiefen und erweiterte Bildverarbeitungstechniken.
+### [PDF als HTML speichern mit Aspose – Vollständige C#-Anleitung](./save-pdf-as-html-with-aspose-complete-c-guide/)
+Erfahren Sie, wie Sie PDFs mit Aspose in HTML konvertieren und dabei eine vollständige C#-Implementierung Schritt für Schritt umsetzen.
+
+### [PDF als HTML speichern mit C# – Vollständige Schritt‑für‑Schritt-Anleitung](./save-pdf-as-html-with-c-complete-step-by-step-guide/)
+Erfahren Sie, wie Sie PDFs mit Aspose in HTML konvertieren, inklusive C#‑Codebeispielen und einer vollständigen Schritt‑für‑Schritt‑Anleitung.
+
+### [PDF-zu-HTML-Konvertierung mit Aspose.PDF .NET: Bilder als externe PNGs speichern](./pdf-to-html-conversion-external-png-aspose-pdf-net/)
+Erfahren Sie, wie Sie PDF-Dokumente mit externen PNG-Bildern mit Aspose.PDF für .NET in HTML konvertieren. Diese Anleitung gewährleistet Layouterhaltung und optimierte Web-Performance.
 
 ### [Wie man PDF mit Aspose speichert – Schritt‑für‑Schritt‑Anleitung](./how-to-save-pdf-with-aspose-step-by-step-guide/)
 Erfahren Sie, wie Sie PDFs mithilfe von Aspose in .NET speichern, inklusive Codebeispielen und bewährten Methoden.

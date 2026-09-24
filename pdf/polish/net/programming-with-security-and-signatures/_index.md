@@ -43,6 +43,7 @@ Samouczek zapewnia szczegółowy przegląd metod i technik zapewniających poufn
 | [Sprawdź podpisy PDF w C# – Szybki przewodnik weryfikacji podpisów cyfrowych](./check-pdf-signatures-in-c-quick-guide-to-verify-digital-sign/) | Dowiedz się, jak szybko sprawdzić i zweryfikować podpisy cyfrowe w plikach PDF przy użyciu Aspose.PDF dla .NET w C#. |  
 | [Walidacja cyfrowego podpisu PDF w C# – Kompletny przewodnik Aspose.PDF](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) | Dowiedz się, jak weryfikować cyfrowe podpisy PDF w C# przy użyciu Aspose.PDF – kompletny przewodnik krok po kroku. |  
 | [Skonfiguruj serwer CA w C# – Kompletny przewodnik weryfikacji podpisów dokumentów Word](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) | Dowiedz się, jak skonfigurować serwer CA w C# i zweryfikować podpisy dokumentów Word przy użyciu Aspose.Words. |  
+| [Walidacja cyfrowego podpisu PDF – Kompletny przewodnik C#](./validate-pdf-digital-signature-complete-c-guide/) | Dowiedz się, jak weryfikować cyfrowe podpisy PDF w C# przy użyciu Aspose.PDF – krok po kroku. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

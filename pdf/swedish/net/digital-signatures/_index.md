@@ -106,6 +106,9 @@ Lär dig hur du läser digitala signaturer i PDF-filer med C#. Den här guiden v
 ### [Lägg till digital signatur i PDF med C# – Komplett guide](./add-digital-signature-pdf-in-c-complete-guide/)
 Lär dig steg-för-steg hur du lägger till en digital signatur i PDF-filer med C# i en komplett guide.
 
+### [Hur man signerar PDF och lägger till bilder – Komplett C#-guide](./how-to-sign-pdf-and-add-images-complete-c-guide/)
+Lär dig hur du signerar PDF-filer och infogar bilder med en komplett C#-guide i Aspose.PDF.
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

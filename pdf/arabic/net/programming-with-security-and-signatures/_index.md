@@ -38,6 +38,7 @@
 | [التحقق من وجود توقيعات PDF – كيفية سرد التوقيعات في C# باستخدام Aspose.PDF](./check-pdf-for-signatures-how-to-list-signatures-in-c-with-as/) | تعلّم كيفية استخراج قائمة التوقيعات من ملفات PDF باستخدام C# و Aspose.PDF. |
 | [كيفية التحقق من التوقيع في ملف PDF باستخدام C# – دليل Aspose الكامل](./how-to-verify-signature-in-pdf-using-c-complete-aspose-guide/) | تعلم خطوة بخطوة كيفية التحقق من التوقيعات الرقمية في ملفات PDF باستخدام C# و Aspose.PDF. |
 | [إضافة توقيع رقمي PDF في C# – دليل خطوة بخطوة كامل](./add-digital-signature-pdf-in-c-complete-step-by-step-guide/) | تعلم كيفية إضافة توقيع رقمي إلى ملفات PDF باستخدام C# و Aspose.PDF خطوة بخطوة. |
+| [التحقق من صحة توقيع PDF الرقمي – دليل C# كامل](./validate-pdf-digital-signature-complete-c-guide/) | تعرّف على كيفية التحقق من صحة التوقيعات الرقمية لملفات PDF باستخدام C# و Aspose.PDF في دليل شامل خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

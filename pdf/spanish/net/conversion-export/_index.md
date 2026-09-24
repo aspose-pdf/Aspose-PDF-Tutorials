@@ -71,6 +71,12 @@ Aprenda a convertir archivos PDF a HTML con Aspose.PDF para .NET mediante la sal
 ### [Convertir PDF a HTML en .NET usando Aspose.PDF sin guardar imágenes](./convert-pdf-html-net-asposepdf-no-images/)
 Aprenda a convertir archivos PDF a HTML con Aspose.PDF para .NET sin guardar las imágenes por separado. Mantenga la integridad del diseño con nuestra guía detallada.
 
+### [Guardar PDF como HTML con Aspose – Guía completa en C#](./save-pdf-as-html-with-aspose-complete-c-guide/)
+Aprenda a guardar archivos PDF como HTML usando Aspose.PDF en C#, con ejemplos paso a paso y opciones de personalización.
+
+### [Guardar PDF como HTML con C# – Guía completa paso a paso](./save-pdf-as-html-with-c-complete-step-by-step-guide/)
+Aprenda a guardar archivos PDF como HTML usando C# y Aspose.PDF con ejemplos detallados paso a paso.
+
 ### [Convierta PDF a HTML en .NET con rutas de imagen personalizadas usando Aspose.PDF](./convert-pdf-html-custom-image-paths-dotnet/)
 Aprenda a convertir archivos PDF a formato HTML con Aspose.PDF para .NET y personalice las rutas de las imágenes de forma eficiente. Ideal para la integración web.
 
@@ -120,6 +126,9 @@ Aprenda a convertir archivos PDF a formato XML con Aspose.PDF para .NET. Mejore 
 
 ### [Convertir PDF/A a PDF estándar con Aspose.PDF .NET: una guía completa](./convert-pdf-a-standard-pdf-aspose-net/)
 Aprenda a convertir sin problemas documentos PDF/A en PDF estándar utilizando Aspose.PDF para .NET con esta guía paso a paso.
+
+### [Convertir PDF a PDF/X-1a, exportar página PNG y agregar sello de texto](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
+Aprenda a convertir documentos PDF a PDF/X-1a, exportar páginas como PNG y añadir marcas de texto con Aspose.PDF para .NET.
 
 ### [Convierta archivos PDF a HTML interactivo con CSS personalizado usando Aspose.PDF .NET](./convert-pdfs-to-html-custom-css-aspose-pdf-net/)
 Aprenda a transformar documentos PDF en formatos HTML interactivos y compatibles con la Web utilizando Aspose.PDF .NET, completo con estilo CSS personalizado.

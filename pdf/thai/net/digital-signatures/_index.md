@@ -109,6 +109,9 @@
 ### [เพิ่มลายเซ็นดิจิทัล PDF ใน C# – คู่มือฉบับสมบูรณ์](./add-digital-signature-pdf-in-c-complete-guide/)
 เรียนรู้วิธีเพิ่มลายเซ็นดิจิทัลในไฟล์ PDF ด้วย C# อย่างละเอียดและครบถ้วน
 
+### [วิธีลงนาม PDF และเพิ่มรูปภาพ – คู่มือ C# ฉบับสมบูรณ์](./how-to-sign-pdf-and-add-images-complete-c-guide/)
+เรียนรู้วิธีลงนามไฟล์ PDF พร้อมแทรกรูปภาพโดยใช้ C# และ Aspose.PDF อย่างละเอียด
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)

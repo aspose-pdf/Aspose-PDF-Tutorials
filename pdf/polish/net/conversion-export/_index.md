@@ -77,6 +77,12 @@ Dowiedz się, jak konwertować pliki PDF do HTML za pomocą Aspose.PDF dla .NET,
 ### [Konwertuj PDF do HTML z niestandardowymi wymiarami za pomocą Aspose.PDF](./convert-pdf-html-custom-dimensions-asposepdf-net/)
 Samouczek dotyczący kodu dla Aspose.PDF Net
 
+### [Zapisz PDF jako HTML przy użyciem Aspose – Kompletny przewodnik C#](./save-pdf-as-html-with-aspose-complete-c-guide/)
+Kompletny przewodnik w C# pokazujący, jak zapisać plik PDF jako HTML przy użyciu biblioteki Aspose.PDF.
+
+### [Zapisz PDF jako HTML przy użyciu C# – Kompletny przewodnik krok po kroku](./save-pdf-as-html-with-c-complete-step-by-step-guide/)
+Dowiedz się, jak zapisać plik PDF jako HTML w C#, korzystając z Aspose.PDF, krok po kroku z przykładami kodu.
+
 ### [Konwertuj PDF do HTML z niestandardowymi adresami URL obrazów za pomocą Aspose.PDF .NET: kompleksowy przewodnik](./convert-pdf-html-custom-image-urls-aspose-pdf-net/)
 Dowiedz się, jak konwertować dokumenty PDF do formatu HTML za pomocą Aspose.PDF dla platformy .NET, m.in. jak dostosowywać adresy URL obrazów i wdrażać dostosowaną strategię oszczędzania zasobów.
 
@@ -244,6 +250,9 @@ Dowiedz się, jak zapisać plik PDF jako HTML przy użyciu Aspose.PDF w C#, krok
 
 ### [Konwersja PDF do TIFF w .NET przy użyciu Aspose.PDF: przewodnik krok po kroku](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Dowiedz się, jak konwertować dokumenty PDF na obrazy TIFF za pomocą Aspose.PDF dla .NET. Opanuj niestandardowe głębie kolorów i zaawansowane techniki przetwarzania obrazu.
+
+### [Konwertuj PDF do PDF/X-1a, wyeksportuj stronę PNG i dodaj znak tekstowy](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
+Dowiedz się, jak konwertować dokument PDF do formatu PDF/X-1a, zapisywać wybraną stronę jako PNG oraz dodawać znak tekstowy przy użyciu Aspose.PDF dla .NET.
 
 ### [Jak zapisać PDF przy użyciu Aspose – przewodnik krok po kroku](./how-to-save-pdf-with-aspose-step-by-step-guide/)
 Dowiedz się, jak zapisać dokument PDF przy użyciu Aspose w prostych krokach, wykorzystując C# i .NET.
