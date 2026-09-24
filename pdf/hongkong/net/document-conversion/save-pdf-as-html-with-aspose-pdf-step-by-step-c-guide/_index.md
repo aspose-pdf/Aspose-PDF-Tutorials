@@ -200,7 +200,7 @@ class Program
 
 > **注意：** 若遇到 `LicenseException`，請確保在建立 `Document` 物件前先載入 Aspose 授權：  
 
-```csharp
+> ```csharp
 > var license = new Aspose.Pdf.License();
 > license.SetLicense("Aspose.PDF.lic");
 > ```
