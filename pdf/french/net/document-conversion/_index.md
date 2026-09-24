@@ -43,7 +43,7 @@ Vous apprendrez à définir les paramètres de conversion, à extraire du texte 
 | [Conversion Aspose PDF en C# : charger, convertir en PDF/X‑4, enregistrer](./aspose-pdf-conversion-in-c-load-convert-to-pdf-x-4-save/) | Apprenez à charger un document, le convertir au format PDF/X‑4 et l’enregistrer avec Aspose.PDF pour .NET en C#. |
 | [Conversion de polices PDF en PNG](./pdf-to-png-font-hinting/) | Apprenez à convertir un PDF en PNG avec indication de police à l'aide d'Aspose.PDF pour .NET dans un guide étape par étape simple. |  
 | [Tutoriel PDF vers PNG – Convertir des pages PDF en PNG en C#](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Apprenez à convertir chaque page d'un PDF en images PNG avec Aspose.PDF pour .NET en C#. |
-| [PDF en PPT](./pdf-to-ppt/) | Apprenez à convertir un PDF en PowerPoint avec Aspose.PDF pour .NET grâce à ce guide étape par étape. Simple, efficace et idéal pour présentations. |  
+| [PDF en PPT](./pdf-to-ppt/) | Apprenez à convertir un PDF en PowerPoint avec Aspose.PDF pour .NET grâce à ce guide étape par étape. Simple, efficace et idéal pour les présentations. |  
 | [PDF en SVG](./pdf-to-svg/) | Découvrez comment convertir des fichiers PDF au format SVG avec Aspose.PDF pour .NET grâce à ce tutoriel étape par étape. Idéal pour les développeurs et les designers. |  
 | [PDF vers TeX](./pdf-to-tex/) | Apprenez à convertir des PDF en TeX avec Aspose.PDF pour .NET grâce à un guide étape par étape. Idéal pour les développeurs souhaitant améliorer leurs compétences en traitement de documents. |  
 | [PDF vers XLS](./pdf-to-xls/) Convertissez facilement des fichiers PDF au format XLS avec Aspose.PDF pour .NET. Suivez notre guide étape par étape pour une extraction de données fluide. |  
@@ -62,10 +62,10 @@ Vous apprendrez à définir les paramètres de conversion, à extraire du texte 
 | [XML vers PDF](./xml-to-pdf/) | Apprenez à convertir XML en PDF à l'aide d'Aspose.PDF pour .NET dans ce didacticiel complet étape par étape, avec des exemples de code et des explications détaillées. |  
 | [XML vers PDFDéfinir le chemin de l'image](./xml-to-pdfset-image-path/) | Apprenez à convertir facilement du XML en PDF avec Aspose.PDF pour .NET. Ce guide détaillé vous guide pas à pas, de la configuration à la finalisation. |  
 | [XPS en PDF](./xps-to-pdf/) Apprenez à convertir des fichiers XPS en PDF avec Aspose.PDF pour .NET grâce à ce tutoriel étape par étape. Idéal pour les développeurs et les passionnés de documentation. |  
-| [Comment définir les options de conversion PDF en C# – Guide Aspose](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | Apprenez à configurer les options de conversion PDF en C# avec Aspose.PDF pour .NET grâce à ce guide étape par étape. |
-| [Créer un élément span et l'ajouter à la page – Convertir DOCX en PDF](./create-span-element-and-add-to-page-convert-docx-to-pdf/) | Apprenez à créer un élément span et l'ajouter à une page lors de la conversion d'un fichier DOCX en PDF avec Aspose.PDF pour .NET. |
 | [Créer un PDF à partir de JPG en C# – Guide complet avec recadrage et nouvelles pages](./create-pdf-from-jpg-in-c-full-guide-with-cropping-and-new-pa/) | Apprenez à générer un PDF à partir d'images JPG en C#, avec options de recadrage et création de nouvelles pages, grâce à Aspose.PDF pour .NET. |
 | [Enregistrer un PDF en HTML avec Aspose.PDF – Guide étape par étape C#](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) | Apprenez à convertir un PDF en HTML avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape en C#. |
+| [Comment définir les options de conversion PDF en C# – Guide Aspose](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | Apprenez à configurer les options de conversion PDF en C# avec Aspose.PDF pour .NET grâce à ce guide étape par étape. |
+| [Créer un élément span et l'ajouter à la page – Convertir DOCX en PDF](./create-span-element-and-add-to-page-convert-docx-to-pdf/) | Apprenez à créer un élément span et l'ajouter à une page lors de la conversion d'un fichier DOCX en PDF avec Aspose.PDF pour .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

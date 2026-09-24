@@ -43,8 +43,6 @@ Hướng dẫn cung cấp cho bạn tổng quan chi tiết về các phương ph
 | [Xác thực chữ ký số PDF trong C# – Hướng dẫn đầy đủ Aspose.PDF](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) | Học cách xác thực chữ ký số PDF bằng C# và Aspose.PDF trong hướng dẫn chi tiết này. |  
 | [Cấu hình máy chủ CA trong C# – Hướng dẫn đầy đủ để xác thực chữ ký tài liệu Word](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) | Học cách cấu hình máy chủ CA trong C# để xác thực chữ ký trên tài liệu Word bằng Aspose.Words cho .NET. |
 | [Xác thực chữ ký số PDF – Hướng dẫn C# đầy đủ](./validate-pdf-digital-signature-complete-c-guide/) | Học cách xác thực chữ ký số trong PDF bằng Aspose.PDF cho .NET với hướng dẫn chi tiết từng bước. |  
-| [Hướng dẫn trích xuất chữ ký PDF – Cách liệt kê chữ ký PDF trong C#](./pdf-signature-extraction-tutorial-how-to-list-pdf-signatures/) | Học cách liệt kê các chữ ký PDF trong tài liệu bằng C# với Aspose.PDF. |  
-| [Tạo PDF đã ký trong C# – Hướng dẫn từng bước](./create-signed-pdf-in-c-step-by-step-guide/) | Hướng dẫn chi tiết cách tạo PDF đã ký bằng C# sử dụng Aspose.PDF cho .NET, từng bước một. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -65,6 +63,7 @@ Hướng dẫn cung cấp cho bạn tổng quan chi tiết về các phương ph
 {{< blocks/products/products-backtop-button >}}
 | [Cách xác thực chữ ký trong PDF bằng Aspose – Hướng dẫn C#](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) | Học cách xác thực chữ ký số trong tài liệu PDF bằng Aspose.PDF cho .NET với C#. Hướng dẫn chi tiết từng bước. |  
 | [Cách sửa tệp PDF – Hướng dẫn C# đầy đủ với Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Học cách sửa chữa các tệp PDF bị hỏng bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết bằng C#. |  
+| [Hướng dẫn trích xuất chữ ký PDF – Cách liệt kê chữ ký PDF trong C#](./pdf-signature-extraction-tutorial-how-to-list-pdf-signatures/) | Học cách liệt kê các chữ ký PDF trong tài liệu bằng C# với Aspose.PDF. |  
 | [Xác minh chữ ký PDF trong C# – Hướng dẫn lập trình đầy đủ](./verify-pdf-signature-in-c-complete-programming-guide/) | Học cách xác minh chữ ký PDF bằng C# với Aspose.PDF cho .NET trong hướng dẫn lập trình chi tiết và toàn diện. |  
 | [Cách xác minh chữ ký PDF trong C# – Hướng dẫn chi tiết từng bước](./how-to-verify-pdf-signatures-in-c-complete-step-by-step-guid/) | Tìm hiểu cách xác minh chữ ký PDF trong C# bằng Aspose.PDF cho .NET. Hướng dẫn từng bước để kiểm tra tính toàn vẹn và xác thực tài liệu. |  
 | [Cách xác minh chữ ký trong PDF bằng Aspose – Hướng dẫn](./how-to-verify-signature-in-pdf-using-aspose-guide/) | Tìm hiểu cách xác minh chữ ký trong PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước để kiểm tra tính toàn vẹn và xác thực tài liệu. |  
@@ -73,6 +72,7 @@ Hướng dẫn cung cấp cho bạn tổng quan chi tiết về các phương ph
 | [Tạo Trình Xử Lý Chữ Ký PDF – Liệt kê các chữ ký trong C#](./create-pdf-signature-handler-list-signatures-in-c/) | Hướng dẫn cách tạo trình xử lý chữ ký PDF và liệt kê các chữ ký trong tài liệu bằng C# và Aspose.PDF. |  
 | [Xác thực chữ ký PDF trong C# – Hướng dẫn từng bước](./validate-pdf-signature-in-c-step-by-step-guide/) | Học cách xác thực chữ ký PDF trong C# một cách chi tiết, bao gồm kiểm tra tính toàn vẹn và chứng chỉ, với Aspose.PDF. |  
 | [Tải tài liệu PDF C# – Hướng dẫn toàn diện để đọc và liệt kê chữ ký](./load-pdf-document-c-complete-guide-to-reading-and-listing-si/) | Học cách tải tài liệu PDF, đọc và liệt kê các chữ ký số bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết. |  
+| [Tạo PDF đã ký trong C# – Hướng dẫn từng bước](./create-signed-pdf-in-c-step-by-step-guide/) | Tìm hiểu cách tạo PDF đã ký bằng C# sử dụng Aspose.PDF cho .NET. Hướng dẫn chi tiết từng bước để ký tài liệu một cách an toàn. |  
 | [Xác minh chữ ký PDF trong C# – Hướng dẫn từng bước](./verify-pdf-signature-in-c-step-by-step-guide/) | Tìm hiểu cách xác minh chữ ký PDF bằng C# sử dụng Aspose.PDF cho .NET. Hướng dẫn chi tiết từng bước. |
 | [Cách sử dụng OCSP để xác thực chữ ký số PDF trong C#](./how-to-use-ocsp-to-validate-pdf-digital-signature-in-c/) | Hướng dẫn sử dụng giao thức OCSP để kiểm tra tính hợp lệ của chữ ký số PDF trong C# với Aspose.PDF. |
 | [Xác minh chữ ký PDF với Aspose.Pdf – Hướng dẫn từng bước](./verify-pdf-signature-with-aspose-pdf-step-by-step-guide/) | Tìm hiểu cách xác minh chữ ký PDF bằng Aspose.PDF cho .NET. Hướng dẫn chi tiết từng bước để kiểm tra tính xác thực của tài liệu. |  

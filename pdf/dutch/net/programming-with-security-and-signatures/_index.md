@@ -45,7 +45,6 @@ De tutorial geeft u een gedetailleerd overzicht van methoden en technieken om de
 | [Digitale handtekening PDF valideren in C# – Complete Aspose.PDF-gids](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) | Leer hoe u digitale handtekeningen in PDF's kunt valideren met Aspose.PDF voor .NET in C#. |
 | [Configureer CA-server in C# – Complete gids om handtekeningen van Word-documenten te valideren](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) | Leer hoe u een CA-server configureert in C# om handtekeningen van Word-documenten te valideren met Aspose.Words. |
 | [PDF digitale handtekening valideren – Complete C#-gids](./validate-pdf-digital-signature-complete-c-guide/) | Leer hoe u digitale handtekeningen in PDF's valideert met Aspose.PDF voor .NET in C#. Volg onze stapsgewijze handleiding. |
-| [Maak ondertekende PDF in C# – Stapsgewijze handleiding](./create-signed-pdf-in-c-step-by-step-guide/) | Leer hoe u met Aspose.PDF voor .NET een ondertekende PDF maakt in C# met een stapsgewijze handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -64,6 +63,7 @@ De tutorial geeft u een gedetailleerd overzicht van methoden en technieken om de
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Ondertekende PDF maken in C# – Stapsgewijze handleiding](./create-signed-pdf-in-c-step-by-step-guide/) | Leer hoe u een ondertekende PDF maakt in C# met Aspose.PDF voor .NET. Volg deze stapsgewijze handleiding voor veilige documenten. |
 | [PDF-handtekening verifiëren met Aspose.Pdf – Stapsgewijze handleiding](./verify-pdf-signature-with-aspose-pdf-step-by-step-guide/) | Leer hoe u PDF-handtekeningen kunt verifiëren met Aspose.PDF voor .NET in een duidelijke stap‑voor‑stap handleiding. |  
 | [Handtekeningen valideren in PDF-bestand](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) | Leer hoe u handtekeningen in PDF-bestanden valideert met Aspose.PDF voor .NET in C#. Volg de stapsgewijze handleiding voor veilige verificatie. |  
 | [PDF-bestanden repareren – Complete C#-gids met Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Leer hoe u beschadigde PDF-bestanden kunt repareren met Aspose.PDF voor .NET in C#. Volg onze stapsgewijze handleiding. |

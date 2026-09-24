@@ -36,7 +36,7 @@ Du lär dig hur du anger konverteringsinställningar, extraherar text och bilder
 | [PDF till HTML](./pdf-to-html/) | Lär dig hur du konverterar PDF till HTML med Aspose.PDF för .NET med den här steg-för-steg-guiden. Perfekt för utvecklare och innehållsskapare. |
 | [Spara PDF som HTML med Aspose.PDF – Steg‑för‑steg C#‑guide](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) | Lär dig hur du sparar PDF som HTML med Aspose.PDF för .NET i en detaljerad steg‑för‑steg‑guide. |
 | [PDF till PDFA](./pdf-to-pdfa/) Lär dig hur du konverterar PDF-filer till PDF/A-format med Aspose.PDF för .NET med den här steg-för-steg-handledningen. |
-| [PDF till PDFA3b](./pdf-to-pdfa3b/) | Lär dig att konvertera PDF-filer till PDF/A-3B-format utan problem med Aspose.PDF för .NET i den här steg-för‑steg-guiden. |
+| [PDF till PDFA3b](./pdf-to-pdfa3b/) | Lär dig att konvertera PDF-filer till PDF/A-3B-format utan problem med Aspose.PDF för .NET i den här steg-för-steg-guiden. |
 | [Konvertera PDF till PDF/X‑4 i C# – Steg‑för‑steg ASP.NET PDF‑handledning](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Lär dig hur du konverterar PDF till PDF/X‑4 med Aspose.PDF för .NET i en detaljerad steg‑för‑steg‑guide. |
 | [Hur man konverterar PDF till PDF/X-4 med Aspose – Steg‑för‑steg‑guide](./how-to-convert-pdf-to-pdf-x-4-with-aspose-step-by-step-guide/) | Lär dig hur du konverterar PDF till PDF/X‑4 med Aspose.PDF för .NET i en detaljerad steg‑för‑steg‑guide. |
 | [Aspose PDF-handledning: Konvertera PDF till PDF/X‑4 i C#](./aspose-pdf-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Lär dig hur du konverterar PDF-filer till PDF/X‑4-format med Aspose.PDF för .NET i en detaljerad steg‑för‑steg‑guide. |
