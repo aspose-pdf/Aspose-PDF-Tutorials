@@ -23,6 +23,7 @@ Aspose.PDF for .NET の「演算子を使ったプログラミング」チュー
 | [ページにXFormを描く](./draw-xform-on-page/) この包括的なステップバイステップ ガイドで、Aspose.PDF for .NET を使用して PDF に XForms を描画する方法を学びます。 |  
 | [PDF演算子](./pdf-operators/) Aspose.PDF for .NET で PDF 演算子を使用するためのステップバイステップガイド。PDF ページに画像を追加し、その位置を指定します。 |  
 | [PDFファイル内のグラフィックオブジェクトを削除する](./remove-graphics-objects/) このステップバイステップガイドでは、Aspose.PDF for .NET を使用してPDFファイルからグラフィックオブジェクトを削除する方法を学びます。PDF操作タスクを簡素化します。 |  
+| [C# で Aspose.Pdf を使用して PDF の透明度を変更する方法](./how-to-change-pdf-transparency-in-c-using-aspose-pdf/) Aspose.PDF for .NET を使用して、C# で PDF の透明度を設定・変更する手順を解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

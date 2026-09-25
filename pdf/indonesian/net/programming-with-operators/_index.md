@@ -23,6 +23,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Menggambar XForm Di Halaman](./draw-xform-on-page/) | pelajari cara menggambar XForms dalam PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah yang komprehensif ini. Bahasa Indonesia:  
 | [Operator PDF](./pdf-operators/) | Panduan langkah demi langkah untuk menggunakan operator PDF dengan Aspose.PDF untuk .NET. Tambahkan gambar ke halaman PDF dan tentukan posisinya. Bahasa Indonesia:  
 | [Hapus Objek Grafik Dalam File PDF](./remove-graphics-objects/) Pelajari cara menghapus objek grafik dari berkas PDF menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah ini. Sederhanakan tugas manipulasi PDF Anda. |  
+| [Cara mengubah transparansi PDF di C# menggunakan Aspose.Pdf](./how-to-change-pdf-transparency-in-c-using-aspose-pdf/) | Panduan langkah demi langkah untuk mengubah transparansi PDF menggunakan Aspose.Pdf di C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
