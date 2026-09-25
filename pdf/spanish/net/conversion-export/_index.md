@@ -258,6 +258,9 @@ Un tutorial de código para Aspose.PDF Net
 ### [Cómo guardar HTML desde PDF – Guía paso a paso](./how-to-save-html-from-pdf-step-by-step-guide/)
 Aprenda a extraer y guardar contenido HTML de un archivo PDF usando Aspose.PDF para .NET con ejemplos paso a paso.
 
+### [Conversión de PDF a TIFF en .NET con Aspose.PDF: guía paso a paso](./pdf-to-tiff-conversion-aspose-pdf-net/)
+Aprenda a convertir documentos PDF a imágenes TIFF con Aspose.PDF para .NET. Domine las profundidades de color personalizadas y las técnicas avanzadas de procesamiento de imágenes.
+
 ### [Guardar PDF como PNG y convertir a PDF/X‑1a con Aspose PDF](./save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf/)
 Aprenda a guardar un PDF como PNG y luego convertirlo a PDF/X‑1a utilizando Aspose.PDF en .NET.
 

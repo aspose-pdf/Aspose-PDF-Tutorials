@@ -160,7 +160,7 @@ Apprenez à recadrer des zones spécifiques d'une page PDF et à les convertir e
 Découvrez comment exporter efficacement des données d'applications au format PDF avec Aspose.PDF pour .NET. Ce guide présente la configuration, des exemples de code en C# et les fonctionnalités clés.
 
 ### [Exporter des annotations PDF avec Aspose.PDF .NET : un guide complet](./export-annotations-aspose-pdf-net/)
-Découvrez comment exporter efficacement des annotations à partir de PDF avec Aspose.PDF .NET. Ce guide couvre la configuration, la mise en œuvre et les bonnes pratiques.
+Découvrez comment exporter efficacement des annotations à partir de PDF avec Aspose.PDF pour .NET. Ce guide couvre la configuration, la mise en œuvre et les bonnes pratiques.
 
 ### [Exporter des données PDF au format XML avec Aspose.PDF pour .NET : guide étape par étape](./export-pdf-data-to-xml-aspose-dotnet-guide/)
 Découvrez comment exporter efficacement les données de formulaire PDF en XML structuré à l'aide d'Aspose.PDF pour .NET, une bibliothèque puissante conçue pour la manipulation de PDF.
