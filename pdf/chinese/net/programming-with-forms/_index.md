@@ -53,6 +53,7 @@ Aspose.PDF for .NET“表单编程”教程是开发人员创建和操作交互�
 | [文本框](./text-box/) 通过本分步指南，了解如何使用 Aspose.PDF for .NET 轻松地将文本框添加到 PDF。增强用户交互。|  
 | [如何使用 Aspose 创建 PDF – 添加表单字段和页面](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) 通过本分步指南学习如何使用 Aspose.PDF for .NET 创建 PDF 并添加表单字段和页面。|  
 | [使用 C# 完整指南创建带页面和文本框字段的 PDF](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) 通过本分步教程学习如何使用 Aspose.PDF for .NET 在 PDF 中添加页面并创建文本框字段，提供完整的 C# 示例代码。|  
+| [创建 PDF 文档 C# – 多页表单分步指南](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) 通过本分步指南学习如何使用 Aspose.PDF for .NET 在 C# 中创建包含多页的交互式 PDF 表单。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

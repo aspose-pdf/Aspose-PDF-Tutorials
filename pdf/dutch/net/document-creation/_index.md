@@ -94,6 +94,9 @@ Leer hoe u een pagina toevoegt en een rechthoek tekent in een PDF met Aspose.PDF
 ### [PDF-document maken in C# – Volledige gids voor in‑memory generatie](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
 Leer hoe u een PDF-document volledig in het geheugen genereert met C# en Aspose.PDF, zonder tijdelijke bestanden.
 
+### [PDF-document maken C# – een stapsgewijze handleiding om een lege pagina toe te voegen en een rechthoek te tekenen](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
+Leer hoe u met Aspose.PDF voor .NET een lege pagina toevoegt en een rechthoek tekent in een PDF-document met C#.
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

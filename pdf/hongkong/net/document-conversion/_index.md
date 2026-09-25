@@ -66,6 +66,7 @@
 | [載入 PDF 文件 C# – 使用 Aspose 轉換為 PDF/X‑4](./load-pdf-document-c-convert-to-pdf-x-4-with-aspose/) |了解如何在 C# 中載入 PDF 並使用 Aspose.PDF for .NET 轉換為 PDF/X‑4 格式。 |
 | [Aspose PDF 轉換於 C#：載入、轉換為 PDF/X-4、儲存](./aspose-pdf-conversion-in-c-load-convert-to-pdf-x-4-save/) |了解如何使用 Aspose.PDF for .NET 在 C# 中載入文件、轉換為 PDF/X‑4 並儲存。 |
 | [建立 span 元素並新增至頁面 – 將 DOCX 轉換為 PDF](./create-span-element-and-add-to-page-convert-docx-to-pdf/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 PDF 中建立 span 元素並將 DOCX 轉換為 PDF。 |
+| [在 C# 中開啟 PDF 文件 – 轉換為 PDF/X‑4 以列印](./open-pdf-document-c-convert-to-pdf-x-4-for-printing/) |透過本逐步指南了解如何在 C# 中開啟 PDF 並將其轉換為適合列印的 PDF/X‑4 格式。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

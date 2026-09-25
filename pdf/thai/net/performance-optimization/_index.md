@@ -67,6 +67,9 @@
 ### [วิธีบีบอัด PDF ด้วย Aspose.Pdf – คู่มือด่วน](./how-to-compress-pdf-with-aspose-pdf-quick-guide/)
 เรียนรู้ขั้นตอนการบีบอัดไฟล์ PDF อย่างรวดเร็วด้วย Aspose.Pdf เพื่อประหยัดพื้นที่และเพิ่มประสิทธิภาพ
 
+### [วิธีเพิ่มประสิทธิภาพ PDF ใน C# – ลดขนาดไฟล์อย่างรวดเร็ว](./how-to-optimize-pdf-in-c-reduce-file-size-quickly/)
+เรียนรู้วิธีลดขนาดไฟล์ PDF อย่างรวดเร็วด้วย C# และ Aspose.PDF ด้วยขั้นตอนง่ายๆ และเทคนิคการบีบอัดที่มีประสิทธิภาพ
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)

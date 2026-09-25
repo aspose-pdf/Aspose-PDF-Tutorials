@@ -54,6 +54,7 @@ Aspose.PDF for .NET "Forms 프로그래밍" 튜토리얼은 대화형 PDF 양식
 | [Aspose를 사용하여 PDF 문서 만들기 – 텍스트 상자 필드 추가](./create-pdf-document-with-aspose-add-text-box-field/) | Aspose.PDF for .NET을 사용하여 PDF 문서에 텍스트 상자 필드를 추가하는 방법을 단계별로 안내합니다. |  
 | [Aspose를 사용하여 PDF 만들기 – 양식 필드 및 페이지 추가](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Aspose.PDF for .NET을 사용하여 PDF에 양식 필드와 페이지를 추가하는 방법을 단계별로 안내합니다. |  
 | [페이지와 텍스트 상자 필드가 포함된 PDF 만들기 – 전체 C# 가이드](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Aspose.PDF for .NET을 사용하여 페이지와 텍스트 상자 필드를 포함한 PDF를 C#으로 만드는 전체 단계별 가이드입니다. |
+| [PDF 문서 만들기 C# – 다중 페이지 양식 단계별 가이드](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Aspose.PDF for .NET을 사용하여 C#으로 다중 페이지 양식이 포함된 PDF 문서를 만드는 방법을 단계별로 안내합니다. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

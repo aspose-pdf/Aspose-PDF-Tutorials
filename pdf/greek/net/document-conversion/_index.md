@@ -66,6 +66,7 @@
 | [Μετατροπή Aspose PDF σε C#: Φόρτωση, Μετατροπή σε PDF/X‑4, Αποθήκευση](./aspose-pdf-conversion-in-c-load-convert-to-pdf-x-4-save/) | Μάθετε πώς να φορτώνετε ένα αρχείο PDF, να το μετατρέπετε σε PDF/X‑4 και να το αποθηκεύετε χρησιμοποιώντας Aspose.PDF για .NET σε C#. |
 | [Δημιουργία στοιχείου span και προσθήκη στη σελίδα – Μετατροπή DOCX σε PDF](./create-span-element-and-add-to-page-convert-docx-to-pdf/) | Μάθετε πώς να δημιουργήσετε ένα στοιχείο span και να το προσθέσετε σε μια σελίδα κατά τη μετατροπή DOCX σε PDF χρησιμοποιώντας το Aspose.PDF για .NET. |
 | [Δημιουργία PDF από JPG σε C# – Πλήρης Οδηγός με Κοπή και Νέες Σελίδες](./create-pdf-from-jpg-in-c-full-guide-with-cropping-and-new-pa/) | Μάθετε πώς να δημιουργήσετε PDF από αρχεία JPG σε C# με δυνατότητα κοπής εικόνων και προσθήκης νέων σελίδων, βήμα προς βήμα. |
+| [Άνοιγμα εγγράφου PDF C# – Μετατροπή σε PDF/X‑4 για εκτύπωση](./open-pdf-document-c-convert-to-pdf-x-4-for-printing/) | Μάθετε πώς να ανοίξετε ένα PDF σε C# και να το μετατρέψετε σε PDF/X‑4 για εκτύπωση με το Aspose.PDF για .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

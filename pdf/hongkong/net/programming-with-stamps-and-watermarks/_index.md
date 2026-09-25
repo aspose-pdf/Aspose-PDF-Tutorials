@@ -53,6 +53,7 @@ Aspose.PDF 的「使用圖章和浮水印進行程式設計」.NET 教學課程�
 | [在 PDF 檔案中新增圖章 – 在首頁套用浮水印](./add-stamp-to-pdf-apply-watermark-pdf-on-first-page/) |透過本教學了解如何使用 Aspose.PDF for .NET 在 PDF 首頁新增圖章並套用浮水印。 |  
 | [在 PDF 檔案中建立全頁通知 – 快速 C# 教學](./create-pdf-full-page-notice-quick-c-guide/) |透過本快速 C# 教學了解如何在 PDF 中新增全頁通知，提升文件的可見性與提示功能。 |  
 | [在 C# 中添加 PDF 水印 – 使用 Aspose 的完整指南](./add-watermark-pdf-in-c-complete-guide-with-aspose/) |本完整指南說明如何使用 Aspose.PDF for .NET 在 C# 中為 PDF 添加水印，涵蓋設定方法與範例程式碼。 |  
+| [使用 C# 為 PDF 添加 Bates 編號 – 完整指南](./add-bates-numbering-to-pdfs-with-c-complete-guide/) |透過本完整指南了解如何使用 Aspose.PDF for .NET 及 C# 為 PDF 文件新增 Bates 編號，提升文件管理與追蹤能力。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

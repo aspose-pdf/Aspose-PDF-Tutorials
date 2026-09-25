@@ -95,6 +95,9 @@ Kompletny przewodnik C# pokazujący, jak tworzyć dokumenty PDF, dodawać elemen
 ### [Utwórz dokument PDF w C# – Pełny przewodnik po generowaniu w pamięci](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
 Dowiedz się, jak w Aspose.PDF dla .NET wygenerować dokument PDF w pamięci przy użyciu C#.
 
+### [Utwórz dokument PDF w C# – przewodnik krok po kroku, jak dodać pustą stronę i narysować prostokąt](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
+Krok po kroku pokażemy, jak dodać pustą stronę i narysować prostokąt w dokumencie PDF przy użyciu Aspose.PDF w C#.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

@@ -93,6 +93,9 @@ C# और Aspose.PDF का उपयोग करके PDF में नया
 ### [C# में PDF दस्तावेज़ बनाएं – इन‑मेरी जनरेशन के लिए पूर्ण गाइड](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
 C# में मेमोरी में PDF बनाना, कोड उदाहरण और चरण‑दर‑चरण निर्देश।
 
+### [C# में PDF दस्तावेज़ बनाना – खाली पृष्ठ जोड़ें और आयत बनाते हुए चरण‑दर‑चरण मार्गदर्शिका](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
+C# कोड के साथ एक खाली पृष्ठ जोड़ें और आयत बनाकर PDF दस्तावेज़ बनाने की प्रक्रिया सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.PDF for Net दस्तावेज़ीकरण](https://docs.aspose.com/pdf/net/)

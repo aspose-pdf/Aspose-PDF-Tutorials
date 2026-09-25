@@ -239,6 +239,8 @@
 
 ### [Сохранить PDF как HTML с помощью Aspose.PDF – Быстрое руководство C#](./save-pdf-as-html-with-aspose-pdf-quick-c-guide/)
 Краткое руководство по сохранению PDF в HTML с использованием Aspose.PDF и C#.
+### [Как сохранить HTML из PDF – пошаговое руководство](./how-to-save-html-from-pdf-step-by-step-guide/)
+Узнайте, как извлечь HTML из PDF-файла с помощью Aspose.PDF для .NET, следуя пошаговым инструкциям.
 
 ### [Преобразование PDF в HTML с помощью Aspose.PDF для .NET](./pdf-to-html-conversion-aspose-dot-net/)
 Учебник по коду для Aspose.PDF Net

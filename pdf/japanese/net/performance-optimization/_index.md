@@ -64,6 +64,8 @@ Aspose.PDF for .NET を使用して、C# で PDF を高速に圧縮する手順�
 C# を使用して PDF を最適化し、不要なページを削除してサイズを縮小する手順を解説します。
 ### [Aspose.Pdf を使用した PDF 圧縮クイックガイド](./how-to-compress-pdf-with-aspose-pdf-quick-guide/)
 Aspose.Pdf を使って PDF を高速に圧縮する手順をステップバイステップで解説します。
+### [C# で PDF を最適化する方法 – ファイルサイズをすばやく縮小](./how-to-optimize-pdf-in-c-reduce-file-size-quickly/)
+C# と Aspose.PDF を使用して、PDF のファイルサイズを素早く縮小する手順とベストプラクティスを解説します。
 
 ## 追加リソース
 

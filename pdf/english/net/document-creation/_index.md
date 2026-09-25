@@ -103,6 +103,9 @@ Learn how to create PDF documents using Aspose.PDF for .NET with a comprehensive
 ### [Create PDF Document in C# – Full Guide to In‑Memory Generation](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
 Learn how to generate PDF documents entirely in memory using C# and Aspose.PDF for .NET, without writing temporary files.
 
+### [Create PDF Document C# – Step‑by‑Step Guide to Add a Blank Page and Draw a Rectangle](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
+Learn how to add a blank page and draw a rectangle in a PDF using Aspose.PDF for .NET with C# step‑by‑step.
+
 ## Additional Resources
 
 - [Aspose.PDF for Net Documentation](https://docs.aspose.com/pdf/net/)

@@ -86,6 +86,7 @@
 | [创建 span 元素并添加到页面 – 将 DOCX 转换为 PDF](./create-span-element-and-add-to-page-convert-docx-to-pdf/) | 通过本分步指南了解如何使用 Aspose.PDF for .NET 将 DOCX 文档转换为 PDF，并在页面上创建 span 元素。|
 | [使用 Aspose.PDF 将 PDF 保存为 HTML – C# 分步指南](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) | 通过本分步指南了解如何使用 Aspose.PDF for .NET 将 PDF 保存为 HTML，并提供完整代码示例。|
 | [在 C# 中从 JPG 创建 PDF – 完整指南，包含裁剪和新页面](./create-pdf-from-jpg-in-c-full-guide-with-cropping-and-new-pa/) | 通过本分步指南了解如何使用 Aspose.PDF for .NET 在 C# 中将 JPG 图像转换为 PDF，并实现裁剪和添加新页面。|
+| [打开 PDF 文档 C# – 转换为 PDF/X‑4 以进行打印](./open-pdf-document-c-convert-to-pdf-x-4-for-printing/) | 通过本分步指南了解如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 文档转换为 PDF/X‑4，以满足打印需求。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -194,6 +194,9 @@ Master Aspose.PDF για .NET για απρόσκοπτη μετατροπή δ�
 Μάθετε πώς να αποθηκεύετε αρχεία PDF χρησιμοποιώντας το Aspose με αναλυτικές οδηγίες βήμα‑βήμα.
 ### [Αποθήκευση PDF ως PNG και μετατροπή σε PDF/X‑1a με το Aspose PDF](./save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf/)
 Μάθετε πώς να αποθηκεύσετε ένα PDF ως PNG και στη συνέχεια να το μετατρέψετε σε συμβατό PDF/X‑1a χρησιμοποιώντας το Aspose PDF.
+### [πώς να αποθηκεύσετε HTML από PDF – Οδηγός βήμα προς βήμα](./how-to-save-html-from-pdf-step-by-step-guide/)
+Μάθετε πώς να εξάγετε HTML από αρχεία PDF με αναλυτικές οδηγίες βήμα προς βήμα.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.PDF για τεκμηρίωση δικτύου](https://docs.aspose.com/pdf/net/)

@@ -63,6 +63,7 @@ Te samouczki zawierają również szczegółowe przykłady kodu, jasne wyjaśnie
 | [Jak utworzyć PDF przy użyciu Aspose – Dodaj pole do kolekcji](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Dowiedz się, jak dodać pole do kolekcji w dokumencie PDF przy użyciu Aspose.PDF dla .NET w tym przewodniku krok po kroku. |  
 | [Utwórz dokument PDF z Aspose – Dodaj pole tekstowe](./create-pdf-document-with-aspose-add-text-box-field/) | Dowiedz się, jak dodać pole tekstowe do dokumentu PDF przy użyciu Aspose.PDF dla .NET w tym przewodniku krok po kroku. |
 
+| [Utwórz dokument PDF C# – Przewodnik krok po kroku po formularzach wielostronicowych](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Dowiedz się, jak w C# tworzyć dokumenty PDF z wieloma stronami i formularzami przy użyciu Aspose.PDF dla .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -95,6 +95,9 @@ C# と Aspose.PDF for .NET を使用して、PDF に新しいページを追加�
 ### [C# で PDF ドキュメントを作成 – メモリ内生成の完全ガイド](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
 Aspose.PDF for .NET を使用して、メモリ上で PDF を生成し、保存せずに操作する方法をステップバイステップで解説します。
 
+### [PDF ドキュメントを作成する C# – 空白ページの追加と矩形の描画 ステップバイステップ ガイド](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
+C# で Aspose.PDF を使用し、空白ページを追加し矩形を描画する方法をステップバイステップで解説します。
+
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)

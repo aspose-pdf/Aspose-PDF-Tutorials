@@ -37,6 +37,7 @@ Vous apprendrez à définir les paramètres de conversion, à extraire du texte 
 | [PDF vers PDFA](./pdf-to-pdfa/) Apprenez à convertir des fichiers PDF au format PDF/A à l'aide d'Aspose.PDF pour .NET avec ce didacticiel étape par étape. |  
 | [PDF vers PDFA3b](./pdf-to-pdfa3b/) | Apprenez à convertir des fichiers PDF au format PDF/A-3B sans effort avec Aspose.PDF pour .NET dans ce guide étape par étape. |
 | [Convertir PDF en PDF/X‑4 en C#](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Apprenez à convertir un PDF en PDF/X‑4 en C# avec Aspose.PDF pour .NET grâce à ce tutoriel ASP.NET étape par étape. |
+| [Ouvrir un document PDF C# – Convertir en PDF/X‑4 pour l'impression](./open-pdf-document-c-convert-to-pdf-x-4-for-printing/) | Apprenez à ouvrir un document PDF et le convertir en PDF/X‑4 pour l'impression avec Aspose.PDF pour .NET. |
 | [Comment convertir un PDF en PDF/X‑4 avec Aspose – Guide étape par étape](./how-to-convert-pdf-to-pdf-x-4-with-aspose-step-by-step-guide/) | Apprenez à convertir un PDF en PDF/X‑4 avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
 | [Tutoriel Aspose PDF : Convertir PDF en PDF/X‑4 en C#](./aspose-pdf-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Apprenez à convertir un PDF en PDF/X‑4 en C# avec Aspose.PDF pour .NET grâce à ce guide étape par étape. |
 | [Charger un document PDF C# – Convertir en PDF/X‑4 avec Aspose](./load-pdf-document-c-convert-to-pdf-x-4-with-aspose/) | Apprenez à charger un document PDF en C# et à le convertir en PDF/X‑4 avec Aspose.PDF pour .NET, étape par étape. |

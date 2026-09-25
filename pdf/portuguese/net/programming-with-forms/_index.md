@@ -54,6 +54,7 @@ Estes tutoriais também fornecem exemplos de código detalhados, explicações c
 | [Criar documento PDF com vários widgets – Guia passo a passo](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) | Aprenda a criar um documento PDF contendo múltiplos widgets usando Aspose.PDF para .NET neste tutorial passo a passo. |  
 | [Criar PDF com Páginas e Campos de Caixa de Texto – Guia Completo em C#](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Aprenda a criar PDFs com várias páginas e campos de caixa de texto usando Aspose.PDF para .NET em C# neste guia completo passo a passo. |
 | [Criar documento PDF com Aspose – Adicionar campo de caixa de texto](./create-pdf-document-with-aspose-add-text-box-field/) | Aprenda a adicionar um campo de caixa de texto a um documento PDF usando Aspose.PDF para .NET neste tutorial passo a passo. |
+| [Criar documento PDF C# – Guia passo a passo para formulários de várias páginas](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Aprenda a criar documentos PDF com múltiplas páginas e formulários usando Aspose.PDF para .NET em C# neste guia passo a passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

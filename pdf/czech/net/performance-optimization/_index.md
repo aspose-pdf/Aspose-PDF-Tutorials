@@ -64,6 +64,8 @@ Rychlý návod, jak pomocí Aspose.PDF v C# komprimovat PDF soubory a snížit j
 Naučte se, jak uložit optimalizovaný PDF soubor v C#, snížit jeho velikost a vyčistit nepotřebné stránky.
 ### [Jak komprimovat PDF pomocí Aspose.PDF – rychlý průvodce](./how-to-compress-pdf-with-aspose-pdf-quick-guide/)
 Rychlý návod, jak pomocí Aspose.PDF komprimovat PDF soubory a snížit jejich velikost.
+### [Jak optimalizovat PDF v C# – Rychle zmenšit velikost souboru](./how-to-optimize-pdf-in-c-reduce-file-size-quickly/)
+Naučte se, jak rychle zmenšit velikost PDF souboru pomocí Aspose.PDF pro .NET v C#.
 
 ## Další zdroje
 

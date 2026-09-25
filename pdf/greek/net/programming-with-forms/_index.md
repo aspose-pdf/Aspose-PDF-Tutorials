@@ -54,6 +54,7 @@
 | [Δημιουργία εγγράφου PDF με πολλαπλά widgets – Οδηγός βήμα‑βήμα](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε ένα έγγραφο PDF με πολλαπλά widgets, προσθέτοντας και διαχειριζόμενοι στοιχεία φόρμας βήμα‑βήμα. |
 | [Δημιουργία PDF με σελίδες και πεδία κειμένου – Πλήρης οδηγός C#](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Μάθετε πώς να δημιουργήσετε PDF με πολλαπλές σελίδες και πεδία κειμένου χρησιμοποιώντας C# και Aspose.PDF για .NET. |
 | [Δημιουργία PDF εγγράφου με Aspose – Προσθήκη πεδίου κειμένου](./create-pdf-document-with-aspose-add-text-box-field/) | Μάθετε πώς να δημιουργήσετε PDF και να προσθέσετε πεδίο κειμένου χρησιμοποιώντας το Aspose.PDF για .NET. |
+| [Δημιουργία εγγράφου PDF C# – Οδηγός βήμα προς βήμα για πολυ-σελίδες φόρμες](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Μάθετε πώς να δημιουργήσετε PDF με πολλαπλές σελίδες και φόρμες χρησιμοποιώντας C# και Aspose.PDF για .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -82,6 +82,8 @@
 
 ### [إنشاء مستند PDF – إضافة صفحة فارغة، رسم مستطيل وحفظ](./create-pdf-document-add-blank-page-draw-rectangle-save/)
 تعلم كيفية إنشاء مستند PDF، إضافة صفحة فارغة، رسم مستطيل، ثم حفظ الملف باستخدام Aspose.PDF لـ .NET.
+### [إنشاء مستند PDF باستخدام C# – دليل خطوة بخطوة لإضافة صفحة فارغة ورسم مستطيل](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
+تعلم كيفية إنشاء مستند PDF وإضافة صفحة فارغة ورسم مستطيل باستخدام Aspose.PDF لـ .NET في C#.
 
 ### [إنشاء مستند PDF باستخدام Aspose.PDF – دليل خطوة بخطوة](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 دليل خطوة بخطوة لإنشاء مستند PDF باستخدام Aspose.PDF في .NET، يشمل إضافة صفحات وحفظ الملف.

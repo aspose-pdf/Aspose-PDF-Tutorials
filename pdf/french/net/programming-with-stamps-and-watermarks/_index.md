@@ -53,6 +53,7 @@ Les tutoriels « Programmation avec tampons et filigranes » d'Aspose.PDF pour
 | [Ajouter un tampon au PDF – Appliquer un filigrane PDF sur la première page](./add-stamp-to-pdf-apply-watermark-pdf-on-first-page/) | Apprenez à ajouter un tampon qui agit comme filigrane uniquement sur la première page d'un PDF avec Aspose.PDF pour .NET. |
 | [Créer un avis plein page PDF – Guide rapide C#](./create-pdf-full-page-notice-quick-c-guide/) | Apprenez à créer un avis plein page dans un PDF avec Aspose.PDF pour .NET grâce à ce guide rapide en C#. |  
 | [Ajouter un filigrane PDF en C# – Guide complet avec Aspose](./add-watermark-pdf-in-c-complete-guide-with-aspose/) | Apprenez à ajouter un filigrane à un PDF en C# avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
+| [Ajouter une numérotation Bates aux PDF avec C# – Guide complet](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Apprenez à ajouter une numérotation Bates à vos fichiers PDF en C# avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

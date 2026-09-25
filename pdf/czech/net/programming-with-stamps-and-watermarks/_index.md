@@ -51,6 +51,7 @@ Výukové programy „Programování s razítky a vodoznaky“ pro .NET od Aspos
 | [Přidat razítko do PDF – Aplikovat vodoznak PDF na první stránku](./add-stamp-to-pdf-apply-watermark-pdf-on-first-page/) | Naučte se, jak přidat razítko a aplikovat vodoznak pouze na první stránku PDF pomocí Aspose.PDF pro .NET. |  
 | [Vytvořit PDF oznámení na celou stránku – Rychlý průvodce C#](./create-pdf-full-page-notice-quick-c-guide/) Naučte se, jak pomocí Aspose.PDF pro .NET vytvořit oznámení na celou stránku PDF pomocí C# v rychlém průvodci. |  
 | [Přidat vodoznak do PDF v C# – Kompletní průvodce s Aspose](./add-watermark-pdf-in-c-complete-guide-with-aspose/) | Naučte se, jak pomocí Aspose.PDF pro .NET přidat vodoznak do PDF souborů v jazyce C# krok za krokem. |
+| [Přidat Batesovo číslování do PDF pomocí C# – Kompletní průvodce](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Naučte se, jak pomocí Aspose.PDF pro .NET a C# přidat Batesovo číslování do PDF souborů v podrobném průvodci. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -44,6 +44,9 @@
 | [在 C# 中验证 PDF 数字签名 – Aspose.PDF 完整指南](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 的数字签名，确保文档完整性。|  
 | [在 C# 中配置 CA 服务器 – 验证 Word 文档签名的完整指南](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) 了解如何使用 Aspose.Words for .NET 在 C# 中配置 CA 服务器并验证 Word 文档的数字签名，分步指南帮助您实现安全签名验证。|  
 | [验证 PDF 数字签名 – 完整 C# 指南](./validate-pdf-digital-signature-complete-c-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 数字签名并检查其完整性。分步指南帮助您确保文档安全。|  
+| [在 C# 中读取 PDF 签名 – 完整指南](./how-to-read-signatures-in-a-pdf-complete-c-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中读取 PDF 签名并提取签名详情。|  
+| [在 C# 中验证 PDF 签名 – 完整指南](./how-to-verify-pdf-signatures-in-c-full-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名并检查其完整性，确保文档安全可靠。|  
+| [PDF 签名教程 – 在 C# 中验证和确认 PDF 签名](./pdf-signature-tutorial-verify-and-validate-pdf-signatures-in/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名并检查其完整性，确保文档安全可靠。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

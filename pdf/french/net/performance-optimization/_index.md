@@ -64,6 +64,8 @@ Apprenez à compresser rapidement des fichiers PDF avec Aspose en utilisant C#, 
 Apprenez à enregistrer un PDF optimisé en C#, réduire sa taille et supprimer les pages inutiles pour améliorer les performances.
 ### [Comment compresser un PDF avec Aspose.PDF – guide rapide](./how-to-compress-pdf-with-aspose-pdf-quick-guide/)
 Apprenez à compresser rapidement vos fichiers PDF avec Aspose.PDF grâce à ce guide pratique, incluant des exemples de code C# simples.
+### [Comment optimiser un PDF en C# – Réduire rapidement la taille du fichier](./how-to-optimize-pdf-in-c-reduce-file-size-quickly/)
+Apprenez à réduire rapidement la taille d'un PDF en C# avec Aspose.PDF grâce à des techniques de compression efficaces.
 
 ## Ressources supplémentaires
 

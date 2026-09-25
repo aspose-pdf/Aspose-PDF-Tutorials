@@ -47,6 +47,7 @@ Aspose.PDF'nin .NET için "Pullar ve Filigranlarla Programlama" öğreticileri, 
 | [C# ile Bates Numaralandırmalı PDF Belgesi Oluşturma – Tam Kılavuz](./create-pdf-document-with-bates-numbering-in-c-full-guide/) | Aspose.PDF for .NET kullanarak C# dilinde Bates numaralandırmasıyla PDF belgeleri oluşturmayı adım adım öğrenin. |  
 | [Aspose.Pdf ile PDF'ye Damga Ekleme – Adım Adım Kılavuz](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) | Aspose.PDF for .NET kullanarak PDF dosyasına damga eklemeyi adım adım öğrenin. |  
 | [PDF Tam Sayfa Bildirimi Oluştur – Hızlı C# Kılavuzu](./create-pdf-full-page-notice-quick-c-guide/) Aspose.PDF for .NET kullanarak C# ile tam sayfa bir bildirim eklemeyi adım adım öğrenin. |  
+| [C# ile PDF'lere Bates Numaralandırması Ekle – Tam Kılavuz](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF dosyalarına Bates numaralandırması eklemeyi adım adım öğrenin. |
 
 | [C# ile Bates Numaralandırma PDF Ekle – Tam Kılavuz](./add-bates-numbering-pdf-in-c-complete-guide/) | Aspose.PDF for .NET kullanarak PDF dosyalarına Bates numaralandırma eklemeyi adım adım öğrenin. |  
 | [PDF Dosyasında Hizalamayı Tanımla](./define-alignment/) | Bu kılavuz, .NET için Aspose.PDF'yi kullanarak PDF dosyalarında metin hizalamasının nasıl tanımlanacağını adım adım bir eğitimle birlikte ele almaktadır. |

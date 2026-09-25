@@ -45,6 +45,9 @@
 | [C# でデジタル署名 PDF を検証する – 完全な Aspose.PDF ガイド](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) Aspose.PDF for .NET を使用して、C# でデジタル署名 PDF の検証手順を完全に解説します。 |  
 | [C# で CA サーバーを構成 – Word 文書署名検証の完全ガイド](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) Aspose.Words for .NET を使って C# で CA サーバーを構成し、Word 文書の署名を検証する方法を学びます。ステップバイステップのガイドです。 |  
 | [PDF デジタル署名の検証 – 完全な C# ガイド](./validate-pdf-digital-signature-complete-c-guide/) Aspose.PDF for .NET を使用して、C# で PDF のデジタル署名を検証し、信頼性を確認する方法をステップバイステップで解説します。 |  
+| [C# で PDF 署名を検証する – 完全ガイド](./how-to-verify-pdf-signatures-in-c-full-guide/) Aspose.PDF for .NET を使用して、C# で PDF 署名を検証する完全な手順をご紹介します。 |  
+| [PDF の署名を読み取る方法 – 完全 C# ガイド](./how-to-read-signatures-in-a-pdf-complete-c-guide/) Aspose.PDF for .NET を使い、C# で PDF の署名情報を完全に読み取る手順をステップバイステップで解説します。 |  
+| [PDF 署名チュートリアル – C# で PDF 署名を検証および検証する](./pdf-signature-tutorial-verify-and-validate-pdf-signatures-in/) Aspose.PDF for .NET を使用して、C# で PDF 署名の検証と有効性確認を行う手順をステップバイステップで解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

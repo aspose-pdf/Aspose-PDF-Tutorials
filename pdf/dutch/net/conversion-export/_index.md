@@ -260,6 +260,8 @@ Leer hoe u PDF-bestanden opslaat met Aspose in .NET met een duidelijke stap‑vo
 Leer hoe u PDF's snel naar HTML converteert met Aspose.PDF in C#.
 ### [PDF opslaan als HTML met Aspose.PDF – Complete C#-gids](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
 Leer hoe u PDF's opslaat als HTML met Aspose.PDF in C#, inclusief codevoorbeelden en configuratieopties.
+### [Hoe HTML van PDF opslaan – Stapsgewijze handleiding](./how-to-save-html-from-pdf-step-by-step-guide/)
+Leer hoe u HTML-inhoud uit een PDF-document kunt extraheren en opslaan met Aspose.PDF voor .NET.
 
 ## Aanvullende bronnen
 

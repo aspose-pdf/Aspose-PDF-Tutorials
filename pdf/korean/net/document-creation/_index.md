@@ -90,6 +90,9 @@ Aspose.PDF for .NET을 사용하여 빈 페이지를 추가하고 사각형을 �
 ### [Aspose.PDF로 PDF 문서 만들기 – 전체 C# 가이드](./create-pdf-document-with-aspose-pdf-full-c-guide/)
 Aspose.PDF와 C#을 사용해 처음부터 PDF 문서를 생성하는 전체 단계별 가이드를 제공합니다.
 
+### [Aspose.PDF를 사용하여 PDF 문서 만들기 C# – 빈 페이지 추가 및 사각형 그리기 단계별 가이드](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
+Aspose.PDF for .NET을 사용하여 빈 페이지를 추가하고 사각형을 그리는 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 
 - [Net 문서용 Aspose.PDF](https://docs.aspose.com/pdf/net/)

@@ -58,6 +58,7 @@ Kaynak, Aspose.PDF for .NET kütüphanesinin belge özelliğiyle programlaması 
 | [PDF AB Standardını doğrulayın](./validatepdfabstandard/) Bu adım adım eğitimde Aspose.PDF for .NET kullanarak PDF/A-1b standardı için bir PDF'yi nasıl doğrulayacağınızı öğrenin. Uzun vadeli arşivleme için uyumluluğu sağlayın. |  
 | [PDF Dosyalarını Doğrula A Standardı](./validatepdfastandard/) | Bu kapsamlı adım adım eğitimde, Aspose.PDF for .NET kullanarak PDF dosyalarının PDF/A-1a standardına göre nasıl doğrulanacağını öğrenin. |  
 | [PDF UA Standardını doğrulayın](./validatepdfuastandard/) | Aspose.PDF for .NET'i kullanarak adım adım kılavuzumuz ve detaylı açıklamalarımızla PDF/UA erişilebilirlik standardı için bir PDF'nin nasıl doğrulanacağını öğrenin. |  
+| [PDF Dosyasını Aç C# – Bozuk PDF'yi Dakikalar İçinde Onarma](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | Aspose.PDF for .NET kullanarak bozuk bir PDF dosyasını hızlıca onarmayı öğrenin. |
 | [PDF Dosyalarını Onarma – Aspose.PDF ile Adım Adım Kılavuz](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Aspose.PDF kullanarak PDF dosyalarını adım adım onarma yöntemlerini öğrenin. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

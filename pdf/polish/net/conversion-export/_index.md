@@ -262,6 +262,8 @@ Dowiedz się, jak szybko zapisać plik PDF jako HTML przy użyciu Aspose.PDF w C
 Dowiedz się, jak wyeksportować pierwszą stronę pliku PDF jako obraz PNG w rozdzielczości 300 DPI przy użyciu Aspose.PDF dla .NET.
 ### [Konwertuj PDF do HTML i zweryfikuj podpis PDF – Pełny przewodnik Aspose .NET](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
 Dowiedz się, jak konwertować PDF do HTML i weryfikować podpisy PDF przy użyciu Aspose.PDF w .NET.
+### [Jak zapisać HTML z PDF – przewodnik krok po kroku](./how-to-save-html-from-pdf-step-by-step-guide/)
+Dowiedz się, jak wyodrębnić i zapisać zawartość HTML z pliku PDF przy użyciu Aspose.PDF dla .NET w kilku prostych krokach.
 
 ## Dodatkowe zasoby
 

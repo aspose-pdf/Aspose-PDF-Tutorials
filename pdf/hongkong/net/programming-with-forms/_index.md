@@ -54,6 +54,7 @@ Aspose.PDF for .NET「使用表單程式設計」教學課程是希望建立和�
 | [建立具有多個小部件的 PDF 文件 – 步驟說明指南](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) |本逐步指南說明如何使用 Aspose.PDF for .NET 在 PDF 中建立包含多個小部件的文件。 |  
 | [使用 C# 完整指南建立包含頁面與文字方塊欄位的 PDF](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) |本逐步教學說明如何使用 Aspose.PDF for .NET 以 C# 建立 PDF，並新增頁面與文字方塊欄位。 |  
 | [使用 Aspose 建立 PDF 文件 – 新增文字方塊欄位](./create-pdf-document-with-aspose-add-text-box-field/) |透過本逐步教學了解如何使用 Aspose.PDF for .NET 在 PDF 中新增文字方塊欄位，提升表單互動性。 |  
+| [建立 PDF 文件（C#）– 多頁表單逐步指南](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) |本逐步指南說明如何使用 Aspose.PDF for .NET 以 C# 建立包含多頁表單的 PDF 文件。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

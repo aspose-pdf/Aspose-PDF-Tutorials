@@ -66,6 +66,7 @@ Dönüştürme ayarlarını nasıl belirleyeceğinizi, metin ve görüntüleri n
 | [PDF Belgesini Yükleme C# – Aspose ile PDF/X‑4'e Dönüştürme](./load-pdf-document-c-convert-to-pdf-x-4-with-aspose/) | Bu adım adım kılavuzda Aspose.PDF for .NET kullanarak PDF belgesini C# ile yükleyip PDF/X‑4 formatına nasıl dönüştüreceğinizi öğrenin. |
 | [Aspose PDF Dönüştürme C#'ta: Yükle, PDF/X-4'e Dönüştür, Kaydet](./aspose-pdf-conversion-in-c-load-convert-to-pdf-x-4-save/) | Bu adım adım kılavuzda Aspose.PDF for .NET kullanarak C# ile PDF dosyasını yükleyip PDF/X‑4 formatına dönüştürüp kaydetmeyi öğrenin. |
 | [Span öğesi oluştur ve sayfaya ekle – DOCX'i PDF'ye dönüştür](./create-span-element-and-add-to-page-convert-docx-to-pdf/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak DOCX dosyasını PDF'ye dönüştürürken span öğesi eklemeyi öğrenin. |
+| [PDF Belgesini Aç C# – Baskı İçin PDF/X‑4'e Dönüştür](./open-pdf-document-c-convert-to-pdf-x-4-for-printing/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak bir PDF belgesini açıp, baskı için PDF/X‑4 formatına nasıl dönüştüreceğinizi öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

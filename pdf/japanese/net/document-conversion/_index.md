@@ -66,6 +66,7 @@ Aspose.PDF の .NET 向けドキュメント変換チュートリアルでは、
 | [Aspose PDF チュートリアル: C#で PDF を PDF/X‑4 に変換](./aspose-pdf-tutorial-convert-pdf-to-pdf-x-4-in-c/) C# と Aspose.PDF for .NET を使用して、PDF を PDF/X‑4 形式に変換する方法を学びます。 |  
 | [C#でPDFドキュメントを読み込み – AsposeでPDF/X‑4に変換](./load-pdf-document-c-convert-to-pdf-x-4-with-aspose/) Aspose.PDF for .NET を使用して、PDF ドキュメントを読み込み、PDF/X‑4 形式に変換する方法を学びます。 |  
 | [C#でAspose PDF変換 – ロード、PDF/X-4へ変換、保存](./aspose-pdf-conversion-in-c-load-convert-to-pdf-x-4-save/) C#でAspose.PDFを使用し、PDFをロードしPDF/X‑4に変換して保存する手順を解説します。 |  
+| [PDFドキュメントを開く C# – 印刷用にPDF/X‑4へ変換](./open-pdf-document-c-convert-to-pdf-x-4-for-printing/) Aspose.PDF for .NET を使用して、C# で PDF を開き、印刷向けに PDF/X‑4 形式へ変換する手順を解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

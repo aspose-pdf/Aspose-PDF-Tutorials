@@ -54,6 +54,7 @@
 | [วิธีสร้าง PDF ด้วย Aspose – เพิ่มฟิลด์ฟอร์มและหน้า](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | เรียนรู้วิธีสร้าง PDF พร้อมเพิ่มฟิลด์ฟอร์มและหน้าต่างๆ ด้วย Aspose.NET ในบทช่วยสอนนี้ |  
 | [สร้างเอกสาร PDF พร้อมหลายวิดเจ็ต – คู่มือทีละขั้นตอน](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) | เรียนรู้วิธีสร้างเอกสาร PDF ที่มีหลายวิดเจ็ตแบบโต้ตอบโดยใช้ Aspose.PDF สำหรับ .NET ผ่านคู่มือทีละขั้นตอนนี้ |  
 | [สร้าง PDF พร้อมหน้าและฟิลด์กล่องข้อความ – คู่มือ C# เต็มรูปแบบ](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | เรียนรู้วิธีสร้าง PDF พร้อมหน้าและฟิลด์กล่องข้อความโดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือ C# ขั้นตอนเต็ม -  |
+| [สร้างเอกสาร PDF ด้วย C# – คู่มือขั้นตอนการสร้างแบบฟอร์มหลายหน้า](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | เรียนรู้วิธีสร้าง PDF หลายหน้าและเพิ่มฟิลด์ฟอร์มด้วย Aspose.PDF สำหรับ .NET อย่างง่ายดาย |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

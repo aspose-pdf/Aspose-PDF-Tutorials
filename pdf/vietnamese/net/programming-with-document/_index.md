@@ -59,6 +59,7 @@ Tài nguyên này bao gồm các hướng dẫn về tính năng lập trình v�
 | [Xác thực các tập tin PDF Một tiêu chuẩn](./validatepdfastandard/) | Tìm hiểu cách xác thực tệp PDF theo tiêu chuẩn PDF/A-1a bằng Aspose.PDF cho .NET trong hướng dẫn toàn diện này. |  
 | [Xác thực PDF UA Standard](./validatepdfuastandard/) | Tìm hiểu cách xác thực PDF cho tiêu chuẩn trợ năng PDF/UA bằng Aspose.PDF cho .NET với hướng dẫn từng bước và giải thích chi tiết của chúng tôi. |  
 | [Cách sửa tệp PDF – Hướng dẫn từng bước sử dụng Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Tìm hiểu cách khôi phục và sửa chữa các tệp PDF bị hỏng bằng Aspose.Pdf trong hướng dẫn chi tiết từng bước. |  
+| [Mở tệp PDF C# – Cách sửa tệp PDF bị hỏng trong vài phút](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | Tìm hiểu cách mở và sửa chữa tệp PDF bị hỏng bằng Aspose.PDF cho .NET trong vài phút. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

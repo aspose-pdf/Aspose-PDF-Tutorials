@@ -59,6 +59,7 @@ Az anyag oktatóanyagokat tartalmaz az Aspose.PDF for .NET könyvtár dokumentum
 | [PDF fájlok validálása szabványként](./validatepdfastandard/) | Ebben az átfogó, lépésről lépésre bemutató útmutatóban megtudhatja, hogyan validálhatja a PDF-fájlokat a PDF/A-1a szabvány alapján az Aspose.PDF for .NET használatával. |  
 | [PDF UA szabvány validálása](./validatepdfuastandard/) | Tanulja meg, hogyan validálhatja a PDF-fájlokat a PDF/UA akadálymentesítési szabványnak megfelelően az Aspose.PDF for .NET használatával lépésről lépésre bemutatott útmutatónkkal és részletes magyarázatainkkal. |  
 | [PDF fájlok javítása – lépésről‑lépésre útmutató az Aspose.Pdf használatával](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Ismerje meg, hogyan javíthatja meg a hibás PDF fájlokat az Aspose.Pdf segítségével lépésről‑lépésre útmutatóval. |
+| [PDF fájl megnyitása C# – Hogyan javítsunk meg egy sérült PDF-et percek alatt](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | Ismerje meg, hogyan javíthatja meg a sérült PDF fájlokat C#-ban az Aspose.PDF for .NET segítségével percek alatt. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

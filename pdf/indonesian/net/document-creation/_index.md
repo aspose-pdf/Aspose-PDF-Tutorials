@@ -95,6 +95,9 @@ Pelajari cara menambahkan halaman baru ke dokumen PDF dan menggambar persegi pan
 ### [Buat Dokumen PDF di C# – Panduan Lengkap Pembuatan In‑Memory](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
 Pelajari cara membuat dokumen PDF secara langsung di memori menggunakan Aspose.PDF untuk .NET dengan C#, tanpa menyimpan file sementara.
 
+### [Buat Dokumen PDF C# – Panduan Langkah demi Langkah untuk Menambahkan Halaman Kosong dan Menggambar Persegi Panjang](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
+Pelajari cara menambahkan halaman kosong dan menggambar persegi panjang dalam dokumen PDF menggunakan Aspose.PDF untuk .NET.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

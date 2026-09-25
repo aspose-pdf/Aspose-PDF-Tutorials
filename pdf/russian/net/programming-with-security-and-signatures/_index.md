@@ -44,6 +44,9 @@
 | [Проверка цифровой подписи PDF в C# – Полное руководство Aspose.PDF](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) | Узнайте, как проверять цифровые подписи PDF в C# с помощью Aspose.PDF, пошаговое руководство. |  
 | [Настройка сервера CA в C# – Полное руководство по проверке подписей Word‑документов](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) | Узнайте, как настроить сервер CA в C# и проверять подписи Word‑документов с помощью Aspose.Words для .NET. |
 | [Проверка цифровой подписи PDF – Полное руководство на C#](./validate-pdf-digital-signature-complete-c-guide/) | Узнайте, как проверять цифровые подписи PDF с помощью Aspose.PDF для .NET на C#. Пошаговое руководство. |  
+| [Как читать подписи в PDF – Полное руководство на C#](./how-to-read-signatures-in-a-pdf-complete-c-guide/) | Узнайте, как читать подписи в PDF‑файлах с помощью Aspose.PDF для .NET на C#. Пошаговое полное руководство. |  
+| [Проверка подписей PDF в C# – Полное руководство](./how-to-verify-pdf-signatures-in-c-full-guide/) | Подробное руководство по проверке подписей PDF в C# с использованием Aspose.PDF для .NET. |  
+| [Учебник по подписи PDF – проверка и валидация подписей PDF в C#](./pdf-signature-tutorial-verify-and-validate-pdf-signatures-in/) | Узнайте, как проверять и валидировать цифровые подписи PDF в C# с помощью Aspose.PDF для .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

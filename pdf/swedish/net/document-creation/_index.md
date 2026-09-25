@@ -96,6 +96,9 @@ Lär dig steg‑för‑steg hur du skapar PDF‑dokument med Aspose.PDF i C# med
 ### [Skapa PDF-dokument i C# – Fullständig guide för generering i minnet](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
 Lär dig hur du skapar PDF-dokument helt i minnet med C# och Aspose.PDF utan att skriva till disk.
 
+### [Skapa PDF-dokument C# – Steg‑för‑steg‑guide för att lägga till en tom sida och rita en rektangel](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
+Lär dig hur du skapar ett PDF-dokument i C#, lägger till en tom sida och ritar en rektangel med Aspose.PDF för .NET.
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

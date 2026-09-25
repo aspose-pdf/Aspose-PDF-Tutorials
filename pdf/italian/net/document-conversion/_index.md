@@ -42,6 +42,7 @@ Imparerai come specificare le impostazioni di conversione, estrarre testo e imma
 | [Come impostare le opzioni per la conversione PDF in C# – Guida Aspose](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | Scopri come impostare le opzioni di conversione PDF in C# con Aspose.PDF per .NET in questa guida passo passo. |
 | [Tutorial Aspose PDF: Converti PDF in PDF/X‑4 in C#](./aspose-pdf-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Scopri come convertire un PDF in PDF/X‑4 usando Aspose.PDF per .NET con un esempio completo in C#. |
 | [Carica documento PDF C# – Converti in PDF/X‑4 con Aspose](./load-pdf-document-c-convert-to-pdf-x-4-with-aspose/) | Scopri come caricare un documento PDF in C# e convertirlo in PDF/X‑4 utilizzando Aspose.PDF per .NET. |
+| [Apri documento PDF C# – Converti in PDF/X‑4 per la stampa](./open-pdf-document-c-convert-to-pdf-x-4-for-printing/) | Scopri come aprire un documento PDF in C# e convertirlo in PDF/X‑4 ottimizzato per la stampa con Aspose.PDF per .NET. |
 | [Suggerimenti per il font da PDF a PNG](./pdf-to-png-font-hinting/) | Impara a convertire PDF in PNG con suggerimenti sui font utilizzando Aspose.PDF per .NET in una semplice guida passo passo. |
 | [PDF in PPT](./pdf-to-ppt/) | Scopri come convertire PDF in PPT utilizzando Aspose.PDF per .NET con questa guida passo passo. Facile, efficiente e perfetto per le presentazioni. |
 | [PDF in SVG](./pdf-to-svg/) | Scopri come convertire i file PDF in formato SVG utilizzando Aspose.PDF per .NET in questo tutorial passo passo. Perfetto per sviluppatori e designer. |

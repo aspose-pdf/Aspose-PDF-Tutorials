@@ -62,6 +62,7 @@ Naučíte se, jak nastavit převod, extrahovat text a obrázky, zachovat původn
 | [Jak ... PDF/X‑4 ...] ... |
 | [Načíst PDF dokument C# – Převést na PDF/X‑4 pomocí Aspose](./load-pdf-document-c-convert-to-pdf-x-4-with-aspose/) | Naučte se, jak načíst PDF dokument v C# a převést jej na PDF/X‑4 pomocí Aspose.PDF pro .NET. |
 | [Aspose PDF konverze v C#: načtení, převod na PDF/X-4, uložení](./aspose-pdf-conversion-in-c-load-convert-to-pdf-x-4-save/) | Naučte se, jak načíst soubor, převést jej na PDF/X‑4 a uložit pomocí Aspose.PDF pro .NET v C#. |
+| [Otevřít PDF dokument C# – Převod na PDF/X‑4 pro tisk](./open-pdf-document-c-convert-to-pdf-x-4-for-printing/) | Naučte se, jak otevřít PDF dokument v C# a převést jej do PDF/X‑4 pro tisk pomocí Aspose.PDF pro .NET. |
 | [PDF na PNG tutoriál – Převod stránek PDF do PNG v C#](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Naučte se, jak převést stránky PDF do formátu PNG pomocí Aspose.PDF pro .NET v C#. |
 | [Uložení PDF jako HTML pomocí Aspose.PDF – krok za krokem průvodce v C#](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) | Naučte se, jak pomocí Aspose.PDF pro .NET převést PDF do HTML v C# pomocí podrobného krok‑za‑krokem návodu. |
 | [Vytvořit PDF z JPG v C# – Kompletní průvodce ořezáváním a novými stránkami](./create-pdf-from-jpg-in-c-full-guide-with-cropping-and-new-pa/) | Naučte se, jak pomocí Aspose.PDF pro .NET vytvořit PDF z JPG, ořezávat obrázky a přidávat nové stránky v podrobném návodu. |

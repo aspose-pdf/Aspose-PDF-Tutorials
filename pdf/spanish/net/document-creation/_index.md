@@ -96,6 +96,9 @@ Aprenda a crear un documento PDF en C#, agregar una página y dibujar un rectán
 ### [Crear documento PDF en C# – Guía completa de generación en memoria](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
 Aprenda a generar documentos PDF completamente en memoria usando C# y Aspose.PDF, con ejemplos de código paso a paso.
 
+### [Crear documento PDF C# – Guía paso a paso para añadir una página en blanco y dibujar un rectángulo](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
+Aprenda a crear un PDF en C#, agregar una página en blanco y dibujar un rectángulo mediante Aspose.PDF paso a paso.
+
 ## Recursos adicionales
 
 - [Documentación de Aspose.PDF para la red](https://docs.aspose.com/pdf/net/)

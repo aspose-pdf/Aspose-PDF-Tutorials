@@ -263,6 +263,9 @@
 
 ### [แปลง PDF เป็น PDF/X-1a, ส่งออกหน้าเป็น PNG และเพิ่มตราข้อความ](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
 เรียนรู้วิธีแปลง PDF เป็น PDF/X‑1a ส่งออกหน้าเป็น PNG และเพิ่มตราข้อความด้วย Aspose.PDF สำหรับ .NET
+### [วิธีบันทึก HTML จาก PDF – คู่มือแบบทีละขั้นตอน](./how-to-save-html-from-pdf-step-by-step-guide/)
+เรียนรู้วิธีบันทึกไฟล์ HTML จาก PDF อย่างละเอียดด้วยขั้นตอนที่ชัดเจน
+
 
 ## แหล่งข้อมูลเพิ่มเติม
 

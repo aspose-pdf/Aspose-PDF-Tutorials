@@ -255,6 +255,9 @@ Domine la conversión de PDF a HTML con Aspose.PDF para .NET. Mejore la accesibi
 ### [Conversión de PDF a HTML con Aspose.PDF .NET](./pdf-to-html-conversion-aspose-dot-net/)
 Un tutorial de código para Aspose.PDF Net
 
+### [Cómo guardar HTML desde PDF – Guía paso a paso](./how-to-save-html-from-pdf-step-by-step-guide/)
+Aprenda a extraer y guardar contenido HTML de un archivo PDF usando Aspose.PDF para .NET con ejemplos paso a paso.
+
 ### [Conversión de PDF a TIFF en .NET con Aspose.PDF: guía paso a paso](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Aprenda a convertir documentos PDF a imágenes TIFF con Aspose.PDF para .NET. Domine las profundidades de color personalizadas y las técnicas avanzadas de procesamiento de imágenes.
 

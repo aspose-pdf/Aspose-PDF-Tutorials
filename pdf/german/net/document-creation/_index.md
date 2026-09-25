@@ -95,6 +95,9 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF-Dokument in C# erstellen,
 ### [PDF-Dokument in C# erstellen – Vollständiger Leitfaden zur In‑Memory-Generierung](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# PDFs vollständig im Speicher erzeugen und speichern.
 
+### [PDF-Dokument erstellen in C# – Schritt‑für‑Schritt‑Anleitung zum Hinzufügen einer leeren Seite und Zeichnen eines Rechtecks](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# ein PDF erstellen, eine leere Seite hinzufügen und ein Rechteck zeichnen.
+
 ## Weitere Ressourcen
 
 - [Aspose.PDF für Net-Dokumentation](https://docs.aspose.com/pdf/net/)

@@ -54,6 +54,7 @@ Bu eğitimler ayrıca anlamanızı ve öğrenmenizi kolaylaştırmak için ayrı
 | [Çoklu Widget'lı PDF Belgesi Oluşturma – Adım Adım Kılavuz](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) | Aspose.PDF for .NET ile bir PDF belgesine birden fazla widget eklemeyi adım adım öğrenin. |  
 | [Sayfalar ve Metin Kutusu Alanlarıyla PDF Oluşturma – Tam C# Kılavuzu](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Bu adım adım kılavuzda Aspose.PDF for .NET kullanarak sayfalar ve metin kutusu alanları içeren PDF oluşturmayı öğrenin. |
 | [Aspose ile PDF Belgesi Oluştur – Metin Kutusu Alanı Ekle](./create-pdf-document-with-aspose-add-text-box-field/) | Aspose.PDF for .NET kullanarak PDF belgesine metin kutusu alanı eklemeyi adım adım öğrenin. |
+| [PDF Belgesi Oluşturma C# – Çok Sayfalı Formlar İçin Adım Adım Kılavuz](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Aspose.PDF for .NET kullanarak C# ile çok sayfalı PDF formları oluşturmayı adım adım öğrenin. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

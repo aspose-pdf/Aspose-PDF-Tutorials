@@ -63,6 +63,7 @@
 | [XML을 PDF로](./xml-to-pdf/) | 이 포괄적인 단계별 튜토리얼에서는 Aspose.PDF for .NET을 사용하여 XML을 PDF로 변환하는 방법을 알아봅니다. 코드 예제와 자세한 설명이 수록되어 있습니다. |  
 | [XML에서 PDFSet 이미지 경로로](./xml-to-pdfset-image-path/) | Aspose.PDF for .NET을 사용하여 XML을 PDF로 손쉽게 변환하는 방법을 알아보세요. 이 자세한 가이드는 설정부터 완료까지 단계별 과정을 안내합니다. |  
 | [XPS에서 PDF로](./xps-to-pdf/) Aspose.PDF for .NET 사용하여 XPS 파일을 PDF로 변환하는 방법을 단계별 튜토리얼을 통해 알아보세요. 개발자와 문서 작성자에게 안성맞춤입니다. |
+| [PDF 문서 열기 C# – 인쇄용 PDF/X‑4 로 변환](./open-pdf-document-c-convert-to-pdf-x-4-for-printing/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 문서를 열고 인쇄용 PDF/X‑4 형식으로 변환하는 단계별 가이드입니다. |
 | [span 요소 만들기 및 페이지에 추가 – DOCX를 PDF로 변환](./create-span-element-and-add-to-page-convert-docx-to-pdf/) | Aspose.PDF for .NET을 사용하여 DOCX 파일을 PDF로 변환하면서 페이지에 span 요소를 추가하는 방법을 단계별 가이드로 알아보세요. |
 | [C#에서 PDF 변환 옵션 설정 방법 – Aspose 가이드](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 변환 옵션을 설정하는 단계별 가이드입니다. |
 | [Aspose.PDF로 PDF를 HTML로 저장 – 단계별 C# 가이드](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) | Aspose.PDF for .NET을 사용하여 PDF를 HTML 파일로 저장하는 방법을 단계별 C# 예제로 안내합니다. |

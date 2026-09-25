@@ -54,6 +54,7 @@ Deze tutorials bieden ook gedetailleerde codevoorbeelden, duidelijke uitleg en i
 | [Hoe PDF maken met Aspose – Formulierveld en pagina's toevoegen](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Leer hoe u met Aspose.PDF voor .NET een PDF maakt, formuliervelden toevoegt en pagina's beheert in deze stapsgewijze tutorial. |  
 | [PDF-document maken met meerdere widgets – stap‑voor‑stap gids](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) | Leer hoe u een PDF-document met meerdere widgets maakt met Aspose.PDF voor .NET in deze stapsgewijze tutorial. |  
 | [PDF maken met pagina's en tekstvakvelden – volledige C#-handleiding](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Leer hoe u met Aspose.PDF voor .NET een PDF maakt met meerdere pagina's en tekstvakvelden in een volledige C#-stapsgewijze tutorial. |  
+| [PDF-document maken C# – Stapsgewijze handleiding voor meerpaginaformulieren](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Leer hoe u met Aspose.PDF voor .NET een meerpagina PDF-formulier maakt in C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

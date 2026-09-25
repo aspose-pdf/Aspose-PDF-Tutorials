@@ -24,7 +24,7 @@ De tutorial geeft u een gedetailleerd overzicht van methoden en technieken om de
 | [Wachtwoord wijzigen in PDF-bestand](./change-password/) | Leer hoe u PDF-wachtwoorden eenvoudig kunt wijzigen met Aspose.PDF voor .NET. Onze stapsgewijze handleiding leidt u veilig door het proces. |  
 | [PDF-bestand decoderen](./decrypt/) | Leer hoe u PDF-bestanden veilig kunt decoderen met Aspose.PDF voor .NET. Krijg stapsgewijze begeleiding om uw vaardigheden in documentbeheer te verbeteren. |  
 | [Bepaal het juiste wachtwoord in een PDF-bestand](./determine-correct-password/) | Ontgrendel PDF-bestanden met het juiste wachtwoord met Aspose.PDF voor .NET. Leer hoe u eenvoudig het juiste wachtwoord kunt vinden. |  
-| [Digitaal ondertekenen in PDF-bestand](./digitally-sign/) Leer hoe u PDF-bestanden digitaal ondertekent met Aspose.PDF voor .NET. Stapsgewijze handleiding om ervoor te zorgen dat uw documenten veilig en authentiek zijn. |  
+| [Digitaal ondertekenen in PDF-bestand](./digitally-sign/) Leer hoe u PDF-bestanden digitaal ondertekent met Aspose.PDF voor .NET. Stapsgewijze handleiding om ervoor te zorgen dat uw documenten veilig en authentiek zijn. |
 | [Digitaal ondertekenen met tijdstempel in PDF-bestand](./digitally-sign-with-time-stamp/) | Leer hoe u een PDF digitaal ondertekent met een tijdstempel met Aspose.PDF voor .NET. Deze stapsgewijze handleiding behandelt de vereisten, certificaatinstellingen, tijdstempels en meer. |  
 | [PDF-bestand versleutelen](./encrypt/) | Leer hoe u uw PDF-bestanden moeiteloos kunt versleutelen met Aspose.PDF voor .NET. Beveilig gevoelige informatie met onze eenvoudige stapsgewijze handleiding. |  
 | [Afbeelding extraheren](./extracting-image/) | Leer eenvoudig hoe u afbeeldingen uit PDF's kunt extraheren met Aspose.PDF voor .NET. Volg onze stapsgewijze handleiding voor naadloze beeldextractie. |  
@@ -45,6 +45,9 @@ De tutorial geeft u een gedetailleerd overzicht van methoden en technieken om de
 | [Digitale handtekening PDF valideren in C# – Complete Aspose.PDF-gids](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) | Leer hoe u digitale handtekeningen in PDF's kunt valideren met Aspose.PDF voor .NET in C#. |
 | [Configureer CA-server in C# – Complete gids om handtekeningen van Word-documenten te valideren](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) | Leer hoe u een CA-server configureert in C# om handtekeningen van Word-documenten te valideren met Aspose.Words. |
 | [PDF digitale handtekening valideren – Complete C#-gids](./validate-pdf-digital-signature-complete-c-guide/) | Leer hoe u digitale handtekeningen in PDF's valideert met Aspose.PDF voor .NET in C#. Volg onze stapsgewijze handleiding. |
+| [Hoe PDF-handtekeningen te verifiëren in C# – Volledige gids](./how-to-verify-pdf-signatures-in-c-full-guide/) | Leer hoe u PDF-handtekeningen kunt verifiëren met Aspose.PDF voor .NET in C# met deze uitgebreide gids. |
+| [Hoe handtekeningen in een PDF te lezen – Complete C#-gids](./how-to-read-signatures-in-a-pdf-complete-c-guide/) | Leer hoe u handtekeningen in een PDF kunt lezen met een volledige C#-gids. |
+| [PDF-handtekening tutorial – Verifiëren en valideren van PDF-handtekeningen in C#](./pdf-signature-tutorial-verify-and-validate-pdf-signatures-in/) | Leer hoe u PDF-handtekeningen kunt verifiëren en valideren met Aspose.PDF voor .NET in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

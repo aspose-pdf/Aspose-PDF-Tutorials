@@ -64,6 +64,7 @@
 - [บทช่วยสอน Aspose PDF: แปลง PDF เป็น PDF/X‑4 ด้วย C#](./aspose-pdf-tutorial-convert-pdf-to-pdf-x-4-in-c/) | เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/X‑4 ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนขั้นตอนโดยละเอียด
 - [โหลดเอกสาร PDF C# – แปลงเป็น PDF/X‑4 ด้วย Aspose](./load-pdf-document-c-convert-to-pdf-x-4-with-aspose/) | เรียนรู้วิธีโหลดไฟล์ PDF ด้วย C# แล้วแปลงเป็น PDF/X‑4 ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียด  
 - [สร้าง PDF จาก JPG ด้วย C# – คู่มือเต็มพร้อมการครอปและการเพิ่มหน้าใหม่](./create-pdf-from-jpg-in-c-full-guide-with-cropping-and-new-pa/) | เรียนรู้วิธีสร้างไฟล์ PDF จากรูป JPG ด้วย C# พร้อมการครอปภาพและการเพิ่มหน้าใหม่ในขั้นตอนละเอียด
+- [เปิดเอกสาร PDF C# – แปลงเป็น PDF/X‑4 สำหรับการพิมพ์](./open-pdf-document-c-convert-to-pdf-x-4-for-printing/) | เรียนรู้วิธีเปิดไฟล์ PDF และแปลงเป็น PDF/X‑4 สำหรับการพิมพ์โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

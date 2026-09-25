@@ -58,6 +58,7 @@ La risorsa include tutorial sulla programmazione con funzionalità di gestione d
 | [Convalida PDF AB Standard](./validatepdfabstandard/) Scopri come convalidare un PDF per lo standard PDF/A-1b utilizzando Aspose.PDF per .NET in questo tutorial passo passo. Garantisci la conformità per l'archiviazione a lungo termine. |  
 | [Convalida file PDF Uno standard](./validatepdfastandard/) | Scopri come convalidare i file PDF rispetto allo standard PDF/A-1a utilizzando Aspose.PDF per .NET in questo tutorial completo passo dopo passo.  
 | [Convalida PDF UA Standard](./validatepdfuastandard/) | Scopri come convalidare un PDF per lo standard di accessibilità PDF/UA utilizzando Aspose.PDF per .NET con la nostra guida dettagliata e le spiegazioni dettagliate. |
+| [Apri file PDF C# – Come riparare un PDF corrotto in pochi minuti](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | Scopri come aprire e riparare rapidamente un PDF corrotto con Aspose.PDF per .NET in C#. |  
 | [Come riparare i file PDF – Guida passo‑passo usando Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Scopri come riparare i file PDF danneggiati con Aspose.Pdf in questa guida passo‑passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

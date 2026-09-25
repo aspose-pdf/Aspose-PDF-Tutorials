@@ -94,6 +94,9 @@ Apprenez à ajouter une page à un PDF et à dessiner un rectangle en C# avec As
 ### [Créer un document PDF en C# – Guide complet de génération en mémoire](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
 Apprenez à générer des PDF entièrement en mémoire avec C#, sans écrire de fichiers temporaires, grâce à Aspose.PDF.
 
+### [Créer un document PDF C# – Guide étape par étape pour ajouter une page vierge et dessiner un rectangle](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
+Apprenez à ajouter une page blanche et dessiner un rectangle dans un PDF avec Aspose.PDF pour .NET en C#.
+
 ## Ressources supplémentaires
 
 - [Aspose.PDF pour la documentation réseau](https://docs.aspose.com/pdf/net/)

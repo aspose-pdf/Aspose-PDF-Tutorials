@@ -96,6 +96,9 @@ Aspose.PDF Net 代码教程
 ### [在 C# 中创建 PDF 文档 – 完整的内存生成指南](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
 学习如何在 C# 中使用 Aspose.PDF 进行内存中生成 PDF 文档的完整步骤。
 
+### [使用 Aspose.PDF for .NET 创建 PDF 文档（C#）——添加空白页并绘制矩形的分步指南](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
+学习如何使用 Aspose.PDF for .NET 在 C# 中创建 PDF 文档，添加空白页并绘制矩形形状的完整步骤。
+
 ## 其他资源
 
 - [Aspose.PDF 用于网络文档](https://docs.aspose.com/pdf/net/)
