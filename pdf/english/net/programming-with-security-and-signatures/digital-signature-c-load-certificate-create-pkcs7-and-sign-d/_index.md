@@ -271,15 +271,6 @@ If everything is wired correctly you’ll see a green check‑mark confirming th
 
 ---
 
-## Frequently Asked Questions (FAQ)
-
-### Can I use an ECDSA certificate instead of RSA?
-
-Absolutely. Replace the RSA‑specific code in `MySigner.Sign` with `ECDsa` calls:
-
-```csharp
-using ECDsa? ecdsa = cert.GetECDsa
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
