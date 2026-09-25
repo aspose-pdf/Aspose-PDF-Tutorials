@@ -35,6 +35,11 @@ Tanuld meg, hogyan konvertálhatsz SVG fájlokat zökkenőmentesen kiváló min�
 ### [Téglalapok létrehozása és kitöltése PDF-ekben az Aspose.PDF for .NET használatával: lépésről lépésre útmutató](./create-fill-rectangle-aspose-pdf-net/)
 Tanuld meg, hogyan hozhatsz létre és tölthetsz ki téglalapokat PDF dokumentumokban az Aspose.PDF for .NET segítségével. Ez a lépésről lépésre szóló útmutató mindent lefed a beállítástól a megvalósításig C#-ban.
 
+### [Hogyan rajzoljunk téglalapot PDF-ben C#‑ban – Lépésről lépésre útmutató](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
+Tanuld meg, hogyan rajzolj téglalapokat PDF dokumentumokba C#‑ban az Aspose.PDF for .NET segítségével.
+### [Téglalap hozzáadása PDF-hez C#-ban – Teljes Aspose PDF útmutató](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+Tanuld meg, hogyan adhatsz hozzá téglalapot PDF dokumentumokhoz C#-ban az Aspose.PDF segítségével.
+
 ### [Egyéni PDF-bélyegzők létrehozása az Aspose.PDF segítségével .NET-ben](./create-custom-pdf-stamps-aspose-pdf-net/)
 Kód oktatóanyag az Aspose.PDF Nethez
 
@@ -163,6 +168,9 @@ Ismerje meg, hogyan renderelhet összetett LaTeX szkripteket PDF dokumentumokká
 
 ### [Képhátterek beállítása PDF-ekben az Aspose.PDF for .NET használatával: Átfogó útmutató](./aspose-pdf-net-set-image-backgrounds/)
 Ismerje meg, hogyan javíthatja PDF-dokumentumait képhátterek beállításával az Aspose.PDF for .NET segítségével. Ez az útmutató a beállítással, a megvalósítással és az optimalizálással kapcsolatos tippeket tartalmazza.
+
+### [Átlátszóság hozzáadása PDF-hez Aspose PDF használatával C#-ban – Lépésről lépésre útmutató](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Tanuld meg, hogyan adhat hozzá átlátszó elemeket PDF-dokumentumokhoz az Aspose.PDF for .NET segítségével C#-ban.
 
 ## További források
 

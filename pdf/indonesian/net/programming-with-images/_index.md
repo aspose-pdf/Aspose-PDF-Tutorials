@@ -49,6 +49,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Mengatur Ukuran Gambar Dalam File PDF](./set-image-size/) | Pelajari cara mengatur ukuran gambar dalam PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini akan membantu Anda mengubah ukuran gambar, menyesuaikan properti halaman, dan menyimpan PDF. Bahasa Indonesia:  
 | [Mengecilkan Gambar Dalam File PDF](./shrink-images/) | Kecilkan gambar dalam file PDF dengan mudah menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini, memastikan ukuran file lebih kecil dengan tetap menjaga kualitas. Bahasa Indonesia:  
 | [Simpan Gambar Dalam Koleksi XImage](./store-image-in-ximage-collection/) | Pelajari cara menyimpan gambar dalam koleksi XImage menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah lengkap ini. |  
+| [Buat Halaman PDF Kosong – Panduan Lengkap Menambahkan, Memotong & Mengubah Ukuran Gambar](./create-blank-pdf-page-full-guide-to-adding-cropping-resizing/) | Pelajari cara membuat halaman PDF kosong dan menambahkan, memotong, serta mengubah ukuran gambar secara terprogram dengan Aspose.PDF untuk .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

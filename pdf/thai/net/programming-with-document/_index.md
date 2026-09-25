@@ -58,6 +58,7 @@
 - [ตรวจสอบมาตรฐาน PDF AB](./validatepdfabstandard/) เรียนรู้วิธีการตรวจสอบ PDF สำหรับมาตรฐาน PDF/A-1b โดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนแบบทีละขั้นตอนนี้ รับรองว่าเป็นไปตามข้อกำหนดสำหรับการเก็บถาวรในระยะยาว -  
 | [ตรวจสอบไฟล์ PDF เป็นมาตรฐาน](./validatepdfastandard/) | เรียนรู้วิธีการตรวจสอบไฟล์ PDF ตามมาตรฐาน PDF/A-1a โดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนทีละขั้นตอนที่ครอบคลุมนี้  
 - [ตรวจสอบมาตรฐาน PDF UA](./validatepdfuastandard/) | เรียนรู้วิธีการตรวจสอบ PDF สำหรับมาตรฐานการเข้าถึง PDF/UA โดยใช้ Aspose.PDF สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนและคำอธิบายโดยละเอียดของเรา  
+- [วิธีซ่อมไฟล์ PDF – คู่มือขั้นตอนโดยใช้ Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | เรียนรู้วิธีซ่อมแซมไฟล์ PDF ด้วย Aspose.Pdf สำหรับ .NET อย่างละเอียดในขั้นตอนง่าย ๆ  
 - [เปิดไฟล์ PDF ด้วย C# – วิธีซ่อมแซม PDF ที่เสียหายในไม่กี่นาที](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | เรียนรู้วิธีเปิดไฟล์ PDF ด้วย C# และซ่อมแซมไฟล์ PDF ที่เสียหายในไม่กี่นาทีด้วย Aspose.PDF สำหรับ .NET  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

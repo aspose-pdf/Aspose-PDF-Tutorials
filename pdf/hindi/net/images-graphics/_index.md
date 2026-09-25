@@ -35,6 +35,12 @@
 ### [.NET के लिए Aspose.PDF का उपयोग करके PDF में आयत बनाएं और भरें: एक चरण-दर-चरण मार्गदर्शिका](./create-fill-rectangle-aspose-pdf-net/)
 जानें कि .NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ों में आयत कैसे बनाएँ और भरें। यह चरण-दर-चरण मार्गदर्शिका C# के साथ सेटअप से लेकर कार्यान्वयन तक सब कुछ कवर करती है।
 
+### [C# के साथ PDF में आयत जोड़ें – पूर्ण Aspose PDF गाइड](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+C# में Aspose.PDF का उपयोग करके PDF में आयत जोड़ने की पूरी गाइड।
+
+### [C# के साथ PDF में आयत कैसे बनाएं – चरण‑दर‑चरण मार्गदर्शिका](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
+C# का उपयोग करके Aspose.PDF के साथ PDF में आयत बनाना और अनुकूलित करना सीखें।
+
 ### [.NET में Aspose.PDF के साथ कस्टम पीडीएफ स्टैम्प बनाएं](./create-custom-pdf-stamps-aspose-pdf-net/)
 Aspose.PDF नेट के लिए एक कोड ट्यूटोरियल
 
@@ -43,6 +49,9 @@ Aspose.PDF .NET का उपयोग करके पैराग्राफ�
 
 ### [Aspose.PDF .NET के साथ PDF में पारदर्शी आकृतियाँ बनाएँ](./draw-transparent-shapes-aspose-pdf-net/)
 Aspose.PDF नेट के लिए एक कोड ट्यूटोरियल
+
+### [C# में Aspose PDF के साथ PDF में पारदर्शिता जोड़ें – चरण‑दर‑चरण गाइड](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+C# में Aspose PDF का उपयोग करके PDF दस्तावेज़ों में पारदर्शिता लागू करने का चरण‑दर‑चरण तरीका सीखें।
 
 ### [.NET के लिए Aspose.PDF के साथ कुशल PDF छवि पहचान](./master-image-identification-aspose-pdf-net/)
 .NET के लिए Aspose.PDF का उपयोग करके PDF में ग्रेस्केल और RGB छवियों की पहचान करना सीखें। यह ट्यूटोरियल इंस्टॉलेशन, इमेज एक्सट्रैक्शन और प्रदर्शन युक्तियों को कवर करता है।

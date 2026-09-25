@@ -1,0 +1,7 @@
+Title: Get Embedded Signatures PDF in C# – Complete Guide
+Slug: get-embedded-signatures-pdf-in-c-complete-guide
+Category: programming-with-security-and-signatures
+ProcessedDate: 2026-07-20T14:49:13.995282
+SourceRepo: AI Search API
+Keywords: get embedded signatures pdf, list all signatures pdf, load pdf document c#
+PRNumber: 106

@@ -23,6 +23,9 @@ Un tutorial sul codice per Aspose.PDF Net
 ### [Convertire PDF in PDF/A utilizzando Aspose.PDF .NET: una guida passo passo per la conformità](./convert-pdf-to-pdfa-aspose-dotnet-guide/)
 Scopri come convertire i normali PDF in documenti conformi allo standard PDF/A-1b con Aspose.PDF .NET. Garantisci la qualità di archiviazione e la conformità con questa guida dettagliata e passo dopo passo.
 
+### [Converti PDF in PDF/A con C# – Guida passo passo](./convert-pdf-to-pdf-a-in-c-step-by-step-guide/)
+Scopri come convertire PDF in PDF/A usando C# con Aspose.PDF, seguendo una guida dettagliata passo passo.
+
 ### [Converti PDF in PDF/A-3B con Aspose.PDF per .NET](./convert-pdf-to-pdfa-3b-aspose-net/)
 Un tutorial sul codice per Aspose.PDF Net
 
@@ -37,6 +40,13 @@ Scopri come convalidare la conformità PDF/A-1a utilizzando Aspose.PDF per .NET.
 
 ### [Padroneggiare la convalida PDF/A utilizzando Aspose.PDF per .NET in C#](./master-pdfa-validation-aspose-pdf-net/)
 Scopri come convalidare i documenti PDF secondo gli standard PDF/A utilizzando Aspose.PDF .NET. Garantisci la conformità e migliora l'affidabilità dei documenti con la nostra guida passo passo.
+
+### [Crea file PDF/A in C# – Tutorial completo di conversione](./create-pdf-a-file-in-c-full-conversion-tutorial/)
+Scopri come creare e convertire file PDF/A in C# con Aspose.PDF .NET, passo dopo passo.
+### [Come creare PDF/A in C# – Guida passo passo Aspose](./how-to-create-pdf-a-in-c-step-by-step-aspose-guide/)
+Scopri come generare file PDF/A conformi in C# con Aspose.PDF, seguendo una guida dettagliata passo dopo passo.
+### [Converti PDF in PDF/A in C# – Guida completa passo passo](./convert-pdf-to-pdf-a-in-c-complete-step-by-step-guide/)
+Scopri come convertire PDF in PDF/A con C# grazie a una guida completa passo passo.
 
 ## Risorse aggiuntive
 

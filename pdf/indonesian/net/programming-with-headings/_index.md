@@ -22,6 +22,7 @@ Jelajahi fitur-fitur Aspose.PDF untuk .NET dengan tutorial khusus. Pelajari cara
 | Judul | Deskripsi |
 Bahasa Indonesia: --- | --- Bahasa Indonesia: 
 | [Terapkan Gaya Angka Dalam File PDF](./apply-number-style/) | Pelajari cara menerapkan gaya angka yang berbeda (angka Romawi, alfabet) ke judul dalam PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. |   
+| [Menambahkan Heading ke PDF dengan Aspose – Panduan Lengkap C#](./add-heading-to-pdf-with-aspose-complete-c-guide/) | Pelajari cara menambahkan heading ke PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode C# lengkap. |   
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

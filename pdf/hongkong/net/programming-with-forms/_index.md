@@ -51,6 +51,9 @@ Aspose.PDF for .NET「使用表單程式設計」教學課程是希望建立和�
 | [設定單選按鈕標題](./set-radio-button-caption/) |了解如何使用 Aspose.PDF for .NET 在 PDF 中設定單選按鈕標題。本逐步指南將引導您載入、修改和儲存 PDF 表單。 |  
 | [文字方塊](./text-box/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 輕鬆地將文字方塊新增至 PDF。增強用戶互動。 |  
 | [如何使用 Aspose 建立 PDF – 新增表單欄位與頁面](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 建立 PDF，並新增表單欄位與頁面。 |  
+| [建立具有多個小部件的 PDF 文件 – 步驟說明指南](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) |本逐步指南說明如何使用 Aspose.PDF for .NET 在 PDF 中建立包含多個小部件的文件。 |  
+| [使用 C# 完整指南建立包含頁面與文字方塊欄位的 PDF](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) |本逐步教學說明如何使用 Aspose.PDF for .NET 以 C# 建立 PDF，並新增頁面與文字方塊欄位。 |  
+| [使用 Aspose 建立 PDF 文件 – 新增文字方塊欄位](./create-pdf-document-with-aspose-add-text-box-field/) |透過本逐步教學了解如何使用 Aspose.PDF for .NET 在 PDF 中新增文字方塊欄位，提升表單互動性。 |  
 | [建立 PDF 文件（C#）– 多頁表單逐步指南](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) |本逐步指南說明如何使用 Aspose.PDF for .NET 以 C# 建立包含多頁表單的 PDF 文件。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -60,3 +63,24 @@ Aspose.PDF for .NET「使用表單程式設計」教學課程是希望建立和�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [如何使用 Aspose 建立 PDF – 新增欄位至集合](./how-to-create-pdf-with-aspose-add-field-to-collection/) |透過本逐步教學了解如何使用 Aspose.PDF for .NET 在 PDF 中將欄位新增至集合，以提升表單功能。 |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+| [建立多個文字方塊小部件的 PDF 文件 – 步驟指南](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) |本逐步教學說明如何使用 Aspose.PDF for .NET 在 PDF 中建立包含多個文字方塊的小部件。 |  
+| [在 PDF 中添加 Bates 編號 – C# 步驟指南](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) |透過本逐步教學了解如何使用 Aspose.PDF for .NET 在 PDF 中以 C# 添加 Bates 編號，以便文件管理與追蹤。 |  
+| [如何新增文字方塊 PDF – 建立 PDF 表單欄位並儲存編輯後的 PDF 文件](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 新增文字方塊、建立表單欄位並儲存編輯後的 PDF。 |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

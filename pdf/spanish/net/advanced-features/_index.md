@@ -50,6 +50,9 @@ Aprenda a crear documentos PDF accesibles y etiquetados con Aspose.PDF en .NET. 
 ### [Cómo crear archivos PDF multicapa con Aspose.PDF para .NET: una guía completa](./create-multi-layer-pdfs-aspose-pdf-dotnet/)
 Aprenda a crear documentos PDF multicapa dinámicos e interactivos utilizando Aspose.PDF para .NET con esta guía paso a paso.
 
+### [Guardar cada capa PDF con Aspose.Pdf – Guía paso a paso](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
+Aprenda a guardar cada capa de un PDF usando Aspose.Pdf con esta guía paso a paso en C#.
+
 ### [Cómo crear archivos PDF etiquetados con Aspose.PDF para .NET: una guía avanzada](./creating-tagged-pdfs-aspose-pdf-dotnet/)
 Aprenda a crear documentos PDF etiquetados y accesibles con Aspose.PDF para .NET. Mejore la estructura y la accesibilidad de sus documentos con esta guía completa.
 
@@ -64,6 +67,11 @@ Aprenda a crear documentos PDF accesibles, con estilo y etiquetas usando Aspose.
 
 ### [Cómo comparar PDFs en C# – Guía completa para generar diferencias de PDF](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 Aprenda a comparar documentos PDF en C# y generar diffs de PDF de forma eficiente con Aspose.PDF.
+### [Editar la transparencia de PDF en C# – Guía paso a paso](./edit-pdf-transparency-in-c-step-by-step-guide/)
+Aprenda a editar la transparencia de archivos PDF usando C# y Aspose.PDF .NET, con ejemplos claros y paso a paso.
+
+### [Cómo ejecutar OCR en PDF con Aspose.Pdf – Guía completa en C#](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
+Aprenda a aplicar OCR a documentos PDF usando Aspose.Pdf en C#, paso a paso y con ejemplos completos.
 
 ## Recursos adicionales
 

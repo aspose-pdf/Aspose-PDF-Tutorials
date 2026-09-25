@@ -1,0 +1,7 @@
+Title: Add rectangle PDF with Aspose.Pdf – Complete C# Guide
+Slug: add-rectangle-pdf-with-aspose-pdf-complete-c-guide
+Category: programming-with-operators
+ProcessedDate: 2026-07-20T14:49:09.830924
+SourceRepo: AI Search API
+Keywords: add rectangle pdf, load existing pdf, save modified pdf, how to add shape pdf, create colored rectangle
+PRNumber: 106

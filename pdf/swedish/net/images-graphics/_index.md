@@ -35,6 +35,11 @@ Lär dig hur du konverterar SVG-filer till högkvalitativa PDF-filer smidigt med
 ### [Skapa och fyll rektanglar i PDF-filer med Aspose.PDF för .NET: En steg-för-steg-guide](./create-fill-rectangle-aspose-pdf-net/)
 Lär dig hur du skapar och fyller rektanglar i PDF-dokument med Aspose.PDF för .NET. Den här steg-för-steg-guiden täcker allt från installation till implementering med C#.
 
+### [Hur man ritar en rektangel i PDF med C# – En steg‑för‑steg‑guide](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
+Lär dig hur du ritar en enkel rektangel i en PDF med C# och Aspose.PDF för .NET i denna steg‑för‑steg‑guide.
+### [Lägg till rektangel i PDF med C# – Fullständig Aspose PDF-guide](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+Lär dig hur du skapar och lägger till rektanglar i PDF-dokument med Aspose.PDF för .NET och C# i en komplett steg-för-steg-guide.
+
 ### [Skapa anpassade PDF-stämplar med Aspose.PDF i .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 En kodhandledning för Aspose.PDF Net
 
@@ -103,6 +108,9 @@ Lär dig hur du skapar tillgängliga taggade PDF-filer inbäddade med bilder med
 
 ### [Hur man skapar transparenta rektanglar i PDF-filer med Aspose.PDF för .NET](./create-transparent-rectangles-aspose-pdf-dotnet/)
 Lär dig hur du förbättrar dina PDF-dokument genom att skapa rektanglar med alfatransparens med Aspose.PDF för .NET. Följ den här steg-för-steg-guiden.
+
+### [Lägg till transparens i PDF med Aspose PDF i C# – En steg‑för‑steg‑guide](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Lär dig hur du lägger till transparens i PDF-dokument med Aspose PDF för .NET i C#. Följ den här guiden för att skapa genomskinliga element.
 
 ### [Hur man tar bort bilder från PDF-filer med Aspose.PDF för .NET - Komplett guide](./delete-images-aspose-pdf-net/)
 Lär dig hur du effektivt tar bort bilder från PDF-filer med Aspose.PDF för .NET. Den här guiden beskriver installation, kodexempel och bästa praxis.

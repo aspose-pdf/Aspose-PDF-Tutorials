@@ -16,7 +16,6 @@
 Onze tutorials over digitale handtekeningen bieden uitgebreide begeleiding bij het implementeren van documentondertekeningsmogelijkheden met Aspose.PDF in .NET. Deze stapsgewijze handleidingen behandelen het toepassen van digitale handtekeningen, het werken met certificaten, het implementeren van handtekeningvisualisatie, het valideren van ondertekende documenten en het implementeren van tijdstempelfunctionaliteit. Elke tutorial bevat gedetailleerde C#-codevoorbeelden voor veilige ondertekeningsworkflows, waarmee u applicaties kunt bouwen die de oorsprong van documenten kunnen verifiëren en de integriteit van de inhoud kunnen garanderen met cryptografisch veilige methoden.
 
 ## Beschikbare tutorials
-
 ### [Digitale handtekeningen in PDF's met Aspose.PDF voor .NET: een uitgebreide handleiding](./digital-signature-aspose-pdf-net-tutorial/)
 Leer hoe u digitale handtekeningen in PDF's implementeert met Aspose.PDF voor .NET. Deze handleiding behandelt de installatie, ondertekeningsprocessen en het beheer van de weergave van handtekeningen.
 
@@ -25,6 +24,12 @@ Leer hoe u een PDF digitaal ondertekent met een aangepaste vormgeving met Aspose
 
 ### [Digitale handtekeninginformatie uit PDF's extraheren met Aspose.PDF](./extract-digital-signature-info-from-pdfs-aspose-pdf/)
 Een codetutorial voor Aspose.PDF Net
+
+### [Hoe u handtekeningen uit PDF's extraheert – Aspose C# gids](./how-to-extract-signatures-from-pdf-aspose-c-guide/)
+Leer hoe u handtekeningen uit PDF's extraheert met Aspose en C# in een duidelijke stap‑voor‑stap tutorial.
+
+### [Hoe handtekeningen lezen in PDF met C# – Stapsgewijze handleiding](./how-to-read-signatures-in-pdf-with-c-step-by-step-guide/)
+Leer hoe u digitale handtekeningen uit PDF‑bestanden kunt uitlezen met C# en Aspose.PDF voor .NET in een duidelijke stap‑voor‑stap gids.
 
 ### [Hoe u de PDF-handtekeningtaal kunt wijzigen met Aspose.PDF voor .NET](./change-pdf-signature-language-aspose-net/)
 Leer hoe u de tekst van digitale handtekeningen in PDF's kunt aanpassen met Aspose.PDF voor .NET. Perfect voor het voorbereiden en lokaliseren van meertalige documenten.
@@ -56,11 +61,56 @@ Leer hoe u digitale handtekeningen in PDF-bestanden kunt verifiëren met Aspose.
 ### [PDF-handtekening verifiëren in C# – Complete gids voor het valideren van digitale handtekening in PDF](./verify-pdf-signature-in-c-complete-guide-to-validate-digital/)
 Leer hoe u digitale handtekeningen in PDF's kunt valideren met C# en Aspose.PDF voor .NET in deze uitgebreide stap‑voor‑stap gids.
 
+### [PDF-handtekening controleren in C# – volledige gids](./check-pdf-signature-in-c-with-aspose-pdf-full-guide/)
+Leer hoe u PDF-handtekeningen kunt controleren met C# en Aspose.PDF in een uitgebreide stap‑voor‑stap gids.
+
+### [PDF-handtekening verifiëren in C# – Complete stap‑voor‑stap gids](./how-to-verify-pdf-signature-in-c-complete-step-by-step-guide/)
+Leer hoe u digitale handtekeningen in PDF's kunt valideren met C# en Aspose.PDF voor .NET in deze uitgebreide stap‑voor‑stap gids.
+
+### [PDF-handtekening valideren in C# – een stapsgewijze handleiding](./validate-pdf-signature-in-c-step-by-step-guide/)
+
+### [Hoe PDF te verifiëren – PDF-handtekening valideren met Aspose](./how-to-verify-pdf-validate-pdf-signature-with-aspose/)
+Leer hoe u een PDF-handtekening kunt verifiëren met Aspose.
+
+### [Hoe PDF-handtekening te verifiëren in C# – Complete stapsgewijze tutorial](./how-to-verify-pdf-signature-in-c-complete-step-by-step-tutor/)
+Leer hoe u een PDF-handtekening in C# kunt verifiëren met een gedetailleerde, stap‑voor‑stap gids.
+
+### [PDF-handtekening controleren in C# – Digitale handtekening valideren](./check-pdf-signature-in-c-validate-digital-signature-pdf/)
+Leer hoe u PDF-handtekeningen valideert met C# en Aspose.PDF voor .NET in een stapsgewijze tutorial.
+
+### [PDF-handtekeningnamen ophalen in C# – Complete programmeergids](./retrieve-pdf-signature-names-in-c-complete-programming-guide/)
+Leer hoe u met C# alle handtekeningnamen uit een PDF kunt ophalen en verwerken.
+### [PDF digitale handtekening valideren in C# – Complete Aspose.Pdf-gids](./validate-pdf-digital-signature-in-c-complete-aspose-pdf-guid/)
+Leer hoe u digitale handtekeningen in PDF's valideert met C# en Aspose.PDF voor .NET in een uitgebreide stap‑voor‑stap gids.
+
 ### [PDF-document laden C# – Converteren naar PDF/X‑4 en handtekeningen weergeven](./load-pdf-document-c-convert-to-pdf-x-4-list-signatures/)
 Leer hoe u een PDF-document laadt, converteert naar PDF/X‑4 en de aanwezige handtekeningen opsomt met Aspose.PDF voor .NET.
-
 ### [PDF-handtekening valideren met Aspose – PDF naar HTML converteren](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
 Leer hoe u een PDF-handtekening valideert en het document naar HTML converteert met Aspose.PDF voor .NET.
+### [PDF-handtekening verifiëren en Bates‑nummering toevoegen – Complete C#‑gids](./verify-pdf-signature-and-add-bates-numbering-complete-c-guid/)
+Leer hoe u PDF-handtekeningen valideert en Bates‑nummering toevoegt met Aspose.PDF voor .NET in een volledige C#‑stap‑voor‑stap gids.
+
+### [Ondertekend PDF-document laden en de handtekeningen weergeven – C#-gids](./load-signed-pdf-document-and-list-its-signatures-c-guide/)
+Leer hoe u een ondertekend PDF-document laadt en alle bijbehorende handtekeningen opsomt met Aspose.PDF voor .NET in C#.
+### [PDF-handtekening verifiëren en rechthoek toevoegen met Aspose.PDF voor .NET](./verify-pdf-signature-and-add-rectangle-pdf-with-aspose/)
+Leer hoe u een PDF-handtekening verifieert en een rechthoek toevoegt met Aspose.PDF in .NET.
+### [PDF exporteren naar HTML en PDF-handtekening valideren met Aspose](./export-pdf-to-html-validate-pdf-signature-with-aspose/)
+Leer hoe u PDF-bestanden exporteert naar HTML en de digitale handtekening controleert met Aspose.PDF voor .NET.
+### [Hoe handtekening in PDF te verifiëren met Aspose.Pdf – C#-gids](./how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/)
+Leer hoe u digitale handtekeningen in PDF's kunt verifiëren met Aspose.Pdf in C#.
+### [PDF-handtekening tutorial – PDF-handtekeningen verifiëren in C# met Aspose.Pdf](./pdf-signature-tutorial-verify-pdf-signatures-in-c-with-aspos/)
+
+### [Handtekeningen uit PDF extraheren met Aspose.Pdf – Complete gids](./extract-signatures-from-pdf-with-aspose-pdf-complete-guide/)
+Leer hoe u alle handtekeningen uit een PDF-document kunt halen met Aspose.Pdf in een stapsgewijze handleiding.
+
+### [Hoe handtekeningen uit een PDF te extraheren in C# – Stapsgewijze handleiding](./how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/)
+Leer hoe u handtekeningen uit een PDF haalt met C# en Aspose.PDF. Deze gids behandelt installatie, implementatie en praktische voorbeelden.
+
+### [Digitale handtekening aan PDF toevoegen in C# – Complete gids](./add-digital-signature-pdf-in-c-complete-guide/)
+Leer hoe u een digitale handtekening aan een PDF toevoegt met C# en Aspose.PDF voor .NET in een volledige stap‑voor‑stap gids.
+
+### [Hoe PDF te ondertekenen en afbeeldingen toe te voegen – Complete C#‑handleiding](./how-to-sign-pdf-and-add-images-complete-c-guide/)
+Leer stap‑voor‑stap hoe u PDF‑bestanden ondertekent en afbeeldingen toevoegt met C# en Aspose.PDF.
 
 ## Aanvullende bronnen
 

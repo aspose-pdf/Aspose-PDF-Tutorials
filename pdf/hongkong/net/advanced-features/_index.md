@@ -50,6 +50,9 @@
 ### [如何使用 Aspose.PDF for .NET 建立多層 PDF：綜合指南](./create-multi-layer-pdfs-aspose-pdf-dotnet/)
 透過本逐步指南了解如何使用 Aspose.PDF for .NET 建立動態和互動式多層 PDF 文件。
 
+### [使用 Aspose.Pdf 逐步保存每個 PDF 圖層 – 完整指南](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
+了解如何使用 Aspose.Pdf 逐步提取並保存 PDF 中的每個圖層，以便進行更細緻的內容管理。
+
 ### [如何使用 Aspose.PDF for .NET 建立標籤的 PDF：進階指南](./creating-tagged-pdfs-aspose-pdf-dotnet/)
 了解如何使用 Aspose.PDF for .NET 建立可存取的標記 PDF 文件。透過本綜合指南增強文件結構和可訪問性。
 
@@ -64,6 +67,11 @@
 
 ### [如何在 C# 中比較 PDF – 生成 PDF 差異的完整指南](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中比較兩個 PDF，生成差異報告並突出顯示變更。
+### [在 C# 中編輯 PDF 透明度 – 步驟指南](./edit-pdf-transparency-in-c-step-by-step-guide/)
+了解如何在 C# 使用 Aspose.PDF 編輯 PDF 透明度屬性，實現漸層與圖層效果的詳細步驟說明。
+
+### [如何使用 Aspose.Pdf 在 PDF 上執行 OCR – 完整 C# 指南](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
+了解如何使用 Aspose.Pdf 在 C# 中對 PDF 進行光學字符識別 (OCR)，完整步驟與範例代碼。
 
 ## 其他資源
 

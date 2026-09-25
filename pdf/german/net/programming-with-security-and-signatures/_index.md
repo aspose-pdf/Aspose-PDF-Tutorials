@@ -33,10 +33,21 @@ Das Tutorial gibt Ihnen einen detaillierten Überblick über Methoden und Techni
 | [Berechtigungen in PDF-Datei festlegen](./set-privileges/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET PDF-Berechtigungen festlegen. Schützen Sie Ihre Dokumente effektiv. |  
 | [Mit Smartcard unterschreiben und PDF-Dateisignatur verwenden](./sign-with-smart-card-using-pdf-file-signature/) | Erfahren Sie, wie Sie PDF-Dateien mit einer Smartcard mit Aspose.PDF für .NET signieren. Folgen Sie dieser Schritt-für-Schritt-Anleitung für sichere digitale Signaturen. |  
 | [Mit Smartcard unterschreiben und dabei das Signaturfeld verwenden](./sign-with-smart-card-using-signature-field/) | Erfahren Sie, wie Sie PDFs mit Aspose.PDF für .NET sicher per Smartcard signieren. Folgen Sie unserer Schritt-für-Schritt-Anleitung für eine einfache Implementierung. |  
-| [PDF-Signaturen in C# prüfen – So lesen Sie signierte PDF-Dateien](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Signaturen auslesen und signierte PDF-Dateien analysieren. |
+| [PDF-Signaturen in C# prüfen – So lesen Sie signierte PDF-Dateien](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Signaturen auslesen und signierte PDF-Dateien analysieren. |  
+| [PDF auf Signaturen prüfen – So listen Sie Signaturen in C# mit Aspose.PDF auf](./check-pdf-for-signatures-how-to-list-signatures-in-c-with-as/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET Signaturen in PDF-Dateien auflisten und analysieren. |
+| [So prüfen Sie die Signatur in PDF mit C# – Vollständige Aspose-Anleitung](./how-to-verify-signature-in-pdf-using-c-complete-aspose-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Signaturen in C# überprüfen. Schritt-für-Schritt-Anleitung für sichere Validierung. |
+| [Digitale Signatur zu PDF in C# hinzufügen – Vollständige Schritt‑für‑Schritt‑Anleitung](./add-digital-signature-pdf-in-c-complete-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# digitale Signaturen zu PDF-Dateien hinzufügen – komplette Schritt‑für‑Schritt‑Anleitung. |
+| [PDF-Digitale Signatur in C# mit Aspose.Pdf überprüfen](./verify-pdf-digital-signature-in-c-with-aspose-pdf/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET digitale Signaturen in PDF-Dateien in C# prüfen und deren Gültigkeit verifizieren. |
+| [PFX-Zertifikat laden C# – PKCS7 Detached-Signatur erstellen](./load-pfx-certificate-c-create-pkcs7-detached-signature/) | Lernen Sie, wie Sie mit Aspose.PDF für .NET ein PFX-Zertifikat laden und eine PKCS7 Detached-Signatur in C# erstellen. |
+| [PDF-Signaturen in C# prüfen – Schnellleitfaden zur Überprüfung digitaler Signaturen](./check-pdf-signatures-in-c-quick-guide-to-verify-digital-sign/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Signaturen schnell prüfen und digitale Signaturen verifizieren. |
+| [PDF-Signatur-Tutorial: Digitale Signatur einer PDF-Datei in C# prüfen](./pdf-signature-tutorial-verify-a-pdf-s-digital-signature-in-c/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET die digitale Signatur einer PDF-Datei in C# prüfen. |
+| [PDF-Dateien reparieren – Vollständiger C#-Leitfaden mit Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Erfahren Sie, wie Sie beschädigte PDF-Dateien mit Aspose.PDF für .NET in C# reparieren und wiederherstellen. |  
+| [PDF-Signatur-Extraktion – Auflisten von PDF-Signaturen in C#](./pdf-signature-extraction-tutorial-how-to-list-pdf-signatures/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET alle PDF‑Signaturen in C# auslesen und auflisten. |  
+| [Digitale Signatur in PDF in C# validieren – Vollständiger Aspose.PDF Leitfaden](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) | Erfahren Sie, wie Sie digitale Signaturen in PDF-Dateien mit Aspose.PDF für .NET in C# validieren. Schritt‑für‑Schritt‑Anleitung. |  
+| [CA-Server in C# konfigurieren – Vollständiger Leitfaden zur Validierung von Word-Dokumenten-Signaturen](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET einen CA-Server in C# einrichten und Word-Dokumenten-Signaturen validieren. |  
+| [PDF-Digitale Signatur validieren – Vollständiger C#-Leitfaden](./validate-pdf-digital-signature-complete-c-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET digitale Signaturen in PDF-Dateien prüfen und validieren – vollständiger C#-Leitfaden. |  
 | [Wie man Signaturen in einem PDF liest – Vollständiger C#‑Leitfaden](./how-to-read-signatures-in-a-pdf-complete-c-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET Signaturen in PDFs auslesen – vollständige Schritt‑für‑Schritt‑Anleitung in C#. |
 | [PDF-Signaturen in C# überprüfen – Vollständiger Leitfaden](./how-to-verify-pdf-signatures-in-c-full-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Signaturen in C# prüfen und verifizieren – umfassende Schritt‑für‑Schritt‑Anleitung. |
-| [PDF-Dateien reparieren – Vollständiger C#-Leitfaden mit Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Erfahren Sie, wie Sie beschädigte PDF-Dateien mit Aspose.PDF für .NET in C# reparieren und wiederherstellen. |
 | [PDF-Signatur-Tutorial – PDF-Signaturen in C# prüfen und validieren](./pdf-signature-tutorial-verify-and-validate-pdf-signatures-in/) | Erfahren Sie, wie Sie PDF-Signaturen in C# überprüfen und validieren. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -46,3 +57,36 @@ Das Tutorial gibt Ihnen einen detaillierten Überblick über Methoden und Techni
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [PDF-Signatur in C# überprüfen – Vollständige Schritt‑für‑Schritt‑Anleitung](./verify-pdf-signature-in-c-complete-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF‑Signaturen in C# verifizieren und die Integrität Ihrer Dokumente prüfen. |
+| [Signiertes PDF öffnen – So lesen Sie digitale Signaturen](./open-signed-pdf-how-to-read-its-digital-signatures/) | Erfahren Sie, wie Sie ein signiertes PDF mit Aspose.PDF für .NET öffnen und die digitalen Signaturen auslesen. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+| [Signaturen in PDF mit Aspose validieren – C#-Tutorial](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET digitale Signaturen in PDF-Dateien validieren. Schritt-für-Schritt-Anleitung für C#-Entwickler. |  
+| [PDF-Signatur in C# überprüfen – Vollständiger Programmierleitfaden](./verify-pdf-signature-in-c-complete-programming-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Signaturen in C# vollständig prüfen und verifizieren. |
+| [So überprüfen Sie PDF-Signaturen in C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-verify-pdf-signatures-in-c-complete-step-by-step-guid/) | Erfahren Sie, wie Sie PDF-Signaturen in C# verifizieren. Eine detaillierte Schritt‑für‑Schritt‑Anleitung mit Aspose.PDF für .NET. |  
+| [Wie man die Signatur in PDF mit Aspose überprüft – Leitfaden](./how-to-verify-signature-in-pdf-using-aspose-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF‑Signaturen überprüfen. Schritt‑für‑Schritt‑Anleitung für C#‑Entwickler. |  
+| [Wie man PDF‑Signaturen mit Aspose.PDF überprüft – Vollständiger Leitfaden](./how-to-verify-pdf-signatures-with-aspose-pdf-complete-guide/) | Erfahren Sie, wie Sie PDF‑Signaturen mit Aspose.PDF für .NET vollständig verifizieren. Eine detaillierte Schritt‑für‑Schritt‑Anleitung für C#‑Entwickler. |
+| [PDF-Signatur-Handler erstellen – Signaturen in C# auflisten](./create-pdf-signature-handler-list-signatures-in-c/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET einen PDF-Signatur-Handler erstellen und alle Signaturen in einer PDF-Datei auflisten. |  
+| [PDF-Digitale Signatur in C# überprüfen – Vollständige Anleitung](./verify-pdf-digital-signature-in-c-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET digitale Signaturen in PDF-Dateien in C# prüfen und deren Gültigkeit sicherstellen. |
+| [PDF-Signatur in C# validieren – Schritt‑für‑Schritt‑Anleitung](./validate-pdf-signature-in-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF‑Signaturen in C# prüfen und deren Gültigkeit sicherstellen. |  
+| [PDF-Dokument laden C# – Vollständige Anleitung zum Lesen und Auflisten von Signaturen](./load-pdf-document-c-complete-guide-to-reading-and-listing-si/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Dokumente in C# laden, Signaturen auslesen und auflisten – Schritt für Schritt. |  
+| [Erstellen eines signierten PDFs in C# – Schritt‑für‑Schritt‑Anleitung](./create-signed-pdf-in-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein signiertes PDF in C# erstellen. Schritt‑für‑Schritt‑Anleitung für sichere Dokumente. |  
+| [PDF-Signatur in C# überprüfen – Schritt‑für‑Schritt‑Anleitung](./verify-pdf-signature-in-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET die PDF‑Signatur in C# prüfen. Eine klare Schritt‑für‑Schritt‑Anleitung. |  
+| [OCSP zur Validierung von PDF-Digitalunterschriften in C# verwenden](./how-to-use-ocsp-to-validate-pdf-digital-signature-in-c/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET OCSP nutzen, um digitale PDF‑Signaturen in C# zu überprüfen. |  
+| [PDF-Signatur mit Aspose.Pdf überprüfen – Schritt‑für‑Schritt‑Anleitung](./verify-pdf-signature-with-aspose-pdf-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET die Signatur einer PDF-Datei überprüfen. |  
+| [Wie man PDF überprüft – Vollständiger C#‑Leitfaden für digitale Signaturen](./how-to-verify-pdf-complete-c-guide-for-digital-signatures/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Dateien vollständig prüfen und digitale Signaturen validieren – Schritt‑für‑Schritt‑Anleitung. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

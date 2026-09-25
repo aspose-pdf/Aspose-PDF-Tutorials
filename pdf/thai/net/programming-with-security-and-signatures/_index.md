@@ -29,15 +29,23 @@
 | [เข้ารหัสไฟล์ PDF](./encrypt/) | เรียนรู้วิธีเข้ารหัสไฟล์ PDF ของคุณอย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ .NET ปกป้องข้อมูลที่ละเอียดอ่อนด้วยคู่มือทีละขั้นตอนง่ายๆ ของเรา -  
 | [การดึงภาพออกมา](./extracting-image/) | เรียนรู้วิธีการแยกภาพจาก PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการแยกภาพอย่างราบรื่น -  
 | [ดึงข้อมูลลายเซ็น](./extract-signature-info/) | เรียนรู้วิธีแยกลายเซ็นดิจิทัลและข้อมูลใบรับรองจากเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ .NET คำแนะนำทีละขั้นตอนแบบครบถ้วนสำหรับนักพัฒนา C# -  
+- [บทแนะนำการดึงลายเซ็น PDF – วิธีแสดงรายการลายเซ็น PDF ใน C#](./pdf-signature-extraction-tutorial-how-to-list-pdf-signatures/) | เรียนรู้วิธีดึงรายการลายเซ็นจากไฟล์ PDF ด้วย C# และ Aspose.PDF สำหรับ .NET ผ่านคำแนะนำทีละขั้นตอน  
 | [มีการป้องกันด้วยรหัสผ่าน](./is-password-protected/) เรียนรู้วิธีตรวจสอบว่า PDF ได้รับการปกป้องด้วยรหัสผ่านหรือไม่โดยใช้ Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนที่ครอบคลุมนี้  
 - [ตั้งค่าสิทธิ์ในไฟล์ PDF](./set-privileges/) | เรียนรู้วิธีตั้งค่าสิทธิ์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ รักษาความปลอดภัยเอกสารของคุณอย่างมีประสิทธิภาพ -  
 | [ลงนามด้วยสมาร์ทการ์ดโดยใช้ลายเซ็นไฟล์ PDF](./sign-with-smart-card-using-pdf-file-signature/) | เรียนรู้วิธีลงนามไฟล์ PDF โดยใช้สมาร์ทการ์ดด้วย Aspose.PDF สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนนี้เพื่อลายเซ็นดิจิทัลที่ปลอดภัย -  
 | [ลงนามด้วยสมาร์ทการ์ดโดยใช้ช่องลายเซ็น](./sign-with-smart-card-using-signature-field/) | เรียนรู้วิธีการลงนาม PDF อย่างปลอดภัยโดยใช้สมาร์ทการ์ดด้วย Aspose.PDF สำหรับ .NET ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการใช้งานที่ง่ายดาย |  
+| [สร้าง PDF ที่ลงลายเซ็นใน C# – คำแนะนำทีละขั้นตอน](./create-signed-pdf-in-c-step-by-step-guide/) | เรียนรู้วิธีสร้าง PDF ที่ลงลายเซ็นด้วย Aspose.PDF สำหรับ .NET ผ่านคำแนะนำทีละขั้นตอน |  
 - [ตรวจสอบลายเซ็น PDF ใน C# – วิธีอ่านไฟล์ PDF ที่ลงนาม](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | เรียนรู้วิธีตรวจสอบและอ่านลายเซ็นดิจิทัลในไฟล์ PDF ด้วย C# และ Aspose.PDF สำหรับ .NET -  
-- [ตรวจสอบลายเซ็น PDF ใน C# – คู่มือเต็ม](./how-to-verify-pdf-signatures-in-c-full-guide/) | เรียนรู้วิธีตรวจสอบลายเซ็น PDF อย่างละเอียดด้วย C# และ Aspose.PDF สำหรับ .NET – คู่มือเต็มขั้นตอน -  
-- [วิธีซ่อมไฟล์ PDF – คู่มือ C# ฉบับสมบูรณ์กับ Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | เรียนรู้วิธีซ่อมไฟล์ PDF ที่เสียหายด้วย Aspose.PDF สำหรับ .NET ผ่านขั้นตอนการเขียนโปรแกรม C# อย่างละเอียด
-| [วิธีอ่านลายเซ็นใน PDF – คู่มือ C# ฉบับสมบูรณ์](./how-to-read-signatures-in-a-pdf-complete-c-guide/) | เรียนรู้วิธีอ่านลายเซ็นดิจิทัลในไฟล์ PDF ด้วย C# และ Aspose.PDF สำหรับ .NET อย่างละเอียดครบทุกขั้นตอน -  
-| [บทช่วยสอนลายเซ็น PDF – ตรวจสอบและยืนยันลายเซ็น PDF ใน C#](./pdf-signature-tutorial-verify-and-validate-pdf-signatures-in/) | เรียนรู้วิธีตรวจสอบและยืนยันลายเซ็น PDF ด้วย C# และ Aspose.PDF สำหรับ .NET คำแนะนำทีละขั้นตอน |
+- [ตรวจสอบลายเซ็นดิจิทัล PDF ใน C# – คู่มือ Aspose.PDF ฉบับสมบูรณ์](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) | เรียนรู้วิธีตรวจสอบความถูกต้องของลายเซ็นดิจิทัลในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ด้วยคู่มือขั้นตอนเต็มใน C#  
+- [ตรวจสอบลายเซ็น PDF ใน C# – คู่มือด่วนสำหรับการตรวจสอบลายเซ็นดิจิทัล](./check-pdf-signatures-in-c-quick-guide-to-verify-digital-sign/) | เรียนรู้วิธีตรวจสอบและยืนยันลายเซ็นดิจิทัลของไฟล์ PDF ด้วย C# และ Aspose.PDF อย่างรวดเร็วและง่ายดาย  
+- [ตรวจสอบลายเซ็นดิจิทัล PDF ใน C# ด้วย Aspose.Pdf](./verify-pdf-digital-signature-in-c-with-aspose-pdf/) | เรียนรู้วิธีตรวจสอบลายเซ็นดิจิทัลของไฟล์ PDF ด้วย C# และ Aspose.PDF สำหรับ .NET  
+- [วิธีซ่อมไฟล์ PDF – คู่มือ C# ฉบับสมบูรณ์กับ Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | เรียนรู้วิธีซ่อมไฟล์ PDF ที่เสียหายด้วย Aspose.PDF สำหรับ .NET ผ่านขั้นตอนการเขียนโปรแกรม C# อย่างละเอียด  
+- [กำหนดค่าเซิร์ฟเวอร์ CA ด้วย C# – คู่มือฉบับสมบูรณ์เพื่อยืนยันลายเซ็นเอกสาร Word](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) | เรียนรู้วิธีกำหนดค่าเซิร์ฟเวอร์ CA ด้วย C# เพื่อยืนยันลายเซ็นในเอกสาร Word อย่างครบถ้วน
+- [บทช่วยสอนลายเซ็น PDF: ตรวจสอบลายเซ็นดิจิทัลของ PDF ใน C#](./pdf-signature-tutorial-verify-a-pdf-s-digital-signature-in-c/) | เรียนรู้วิธีตรวจสอบลายเซ็นดิจิทัลของไฟล์ PDF ด้วย C# และ Aspose.PDF สำหรับ .NET - คำแนะนำทีละขั้นตอน
+- [ตรวจสอบ PDF สำหรับลายเซ็น – วิธีแสดงรายการลายเซ็นใน C# ด้วย Aspose.PDF](./check-pdf-for-signatures-how-to-list-signatures-in-c-with-as/) | เรียนรู้วิธีตรวจสอบและแสดงรายการลายเซ็นในไฟล์ PDF ด้วย C# และ Aspose.PDF อย่างละเอียด -  
+- [วิธีตรวจสอบลายเซ็นใน PDF ด้วย C# – คู่มือ Aspose ฉบับสมบูรณ์](./how-to-verify-signature-in-pdf-using-c-complete-aspose-guide/) | เรียนรู้ขั้นตอนการตรวจสอบลายเซ็นดิจิทัลในไฟล์ PDF ด้วย C# อย่างละเอียดด้วย Aspose.PDF สำหรับ .NET -  
+- [เพิ่มลายเซ็นดิจิทัล PDF ใน C# – คู่มือขั้นตอนเต็ม](./add-digital-signature-pdf-in-c-complete-step-by-step-guide/) | เรียนรู้วิธีเพิ่มลายเซ็นดิจิทัลในไฟล์ PDF ด้วย C# อย่างละเอียดโดยใช้ Aspose.PDF สำหรับ .NET พร้อมขั้นตอนครบถ้วน  
+- [ตรวจสอบลายเซ็นดิจิทัล PDF – คู่มือ C# ฉบับสมบูรณ์](./validate-pdf-digital-signature-complete-c-guide/) | เรียนรู้วิธีตรวจสอบลายเซ็นดิจิทัลของไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือ C# อย่างละเอียด  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -46,3 +54,21 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+- [ตรวจสอบลายเซ็น PDF ใน C# – คู่มือขั้นตอนเต็ม](./verify-pdf-signature-in-c-complete-step-by-step-guide/) | เรียนรู้วิธีตรวจสอบลายเซ็นดิจิทัลของไฟล์ PDF ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET อย่างละเอียด
+- [เปิดไฟล์ PDF ที่ลงลายเซ็น – วิธีอ่านลายเซ็นดิจิทัล](./open-signed-pdf-how-to-read-its-digital-signatures/) | เรียนรู้วิธีเปิดไฟล์ PDF ที่ลงลายเซ็นและอ่านลายเซ็นดิจิทัลด้วย Aspose.PDF สำหรับ .NET อย่างละเอียด
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+- [วิธีตรวจสอบลายเซ็นใน PDF ด้วย Aspose – C# Tutorial](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) | เรียนรู้วิธีตรวจสอบความถูกต้องของลายเซ็นดิจิทัลในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านขั้นตอนที่ชัดเจน -  
+| [วิธีตรวจสอบลายเซ็น PDF ใน C# – คู่มือขั้นตอนครบถ้วน](./how-to-verify-pdf-signatures-in-c-complete-step-by-step-guid/) | เรียนรู้วิธีตรวจสอบลายเซ็น PDF อย่างละเอียดด้วย Aspose.PDF สำหรับ .NET คำแนะนำทีละขั้นตอนเพื่อความมั่นใจในความถูกต้องของเอกสาร |  
+| [วิธีตรวจสอบลายเซ็นใน PDF ด้วย Aspose – คู่มือ](./how-to-verify-signature-in-pdf-using-aspose-guide/) | เรียนรู้วิธีตรวจสอบลายเซ็นใน PDF ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียด พร้อมคำแนะนำทีละขั้นตอน |  
+| [วิธีตรวจสอบลายเซ็น PDF ด้วย Aspose.PDF – คู่มือครบถ้วน](./how-to-verify-pdf-signatures-with-aspose-pdf-complete-guide/) | เรียนรู้วิธีตรวจสอบลายเซ็น PDF อย่างละเอียดด้วย Aspose.PDF สำหรับ .NET พร้อมขั้นตอนครบถ้วนเพื่อความมั่นใจในความถูกต้องของเอกสาร |
+| [ตรวจสอบลายเซ็นดิจิทัล PDF ด้วย C# – คู่มือเต็ม](./verify-pdf-digital-signature-in-c-complete-guide/) | เรียนรู้วิธีตรวจสอบลายเซ็นดิจิทัลของไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านขั้นตอนที่ชัดเจนและละเอียด |  
+| [ตรวจสอบลายเซ็น PDF ด้วย C# – คู่มือขั้นตอนโดยขั้นตอน](./validate-pdf-signature-in-c-step-by-step-guide/) | เรียนรู้วิธีตรวจสอบความถูกต้องของลายเซ็น PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านขั้นตอนที่ชัดเจนและเป็นระบบ |  
+| [โหลดเอกสาร PDF ด้วย C# – คู่มือฉบับสมบูรณ์สำหรับการอ่านและแสดงลายเซ็น](./load-pdf-document-c-complete-guide-to-reading-and-listing-si/) | เรียนรู้วิธีโหลดไฟล์ PDF ด้วย C# และอ่านรายการลายเซ็นทั้งหมดในเอกสารอย่างละเอียด |  
+

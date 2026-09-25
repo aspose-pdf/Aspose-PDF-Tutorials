@@ -16,12 +16,14 @@
 透過我們全面的 Aspose.PDF 教學如何在 .NET 中建立符合 PDF/A 標準的檔案品質 PDF 文件。這些詳細的指南示範如何建立符合 PDF/A-1b、PDF/A-2b 和 PDF/A-3b 的文件、如何根據合規標準驗證現有 PDF、如何將標準 PDF 轉換為檔案格式以及如何解決常見的合規性問題。每個教學課程都提供了適用於檔案文件場景的 C# 程式碼範例，幫助您建立可產生符合國際標準的長期保存文件的應用程式。
 
 ## 可用教程
-
 ### [Aspose.PDF .NET：新增附件並轉換為 PDF/A](./aspose-pdf-net-add-attachments-convert-pdfa/)
 Aspose.PDF Net 程式碼教學
 
 ### [使用 Aspose.PDF .NET 將 PDF 轉換為 PDF/A：合規性逐步指南](./convert-pdf-to-pdfa-aspose-dotnet-guide/)
 了解如何使用 Aspose.PDF .NET 將常規 PDF 轉換為符合 PDF/A-1b 標準的文件。透過這個詳細的分步指南確保檔案品質和合規性。
+
+### [使用 C# 將 PDF 轉換為 PDF/A：完整步驟指南](./convert-pdf-to-pdf-a-in-c-complete-step-by-step-guide/)
+了解如何使用 C# 與 Aspose.PDF for .NET 將普通 PDF 轉換為符合 PDF/A 標準的文件，提供完整的步驟與程式碼範例。
 
 ### [使用 Aspose.PDF for .NET 將 PDF 轉換為 PDF/A-3B](./convert-pdf-to-pdfa-3b-aspose-net/)
 Aspose.PDF Net 程式碼教學
@@ -37,6 +39,14 @@ Aspose.PDF Net 程式碼教學
 
 ### [使用 C# 中的 Aspose.PDF for .NET 掌握 PDF/A 驗證](./master-pdfa-validation-aspose-pdf-net/)
 了解如何使用 Aspose.PDF .NET 驗證 PDF 文件是否符合 PDF/A 標準。透過我們的逐步指南確保合規性並提高文件可靠性。
+
+### [使用 C# 將 PDF 轉換為 PDF/A：逐步指南](./convert-pdf-to-pdf-a-in-c-step-by-step-guide/)
+了解如何使用 C# 與 Aspose.PDF 將 PDF 轉換為符合 PDF/A 標準的文件，提供詳細的步驟與程式碼示例。
+
+### [在 C# 中建立 PDF/A 檔案 – 完整轉換教學](./create-pdf-a-file-in-c-full-conversion-tutorial/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中完整轉換並建立符合 PDF/A 標準的檔案。
+### [如何在 C# 中建立 PDF/A – Aspose 分步指南](./how-to-create-pdf-a-in-c-step-by-step-aspose-guide/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中逐步建立符合 PDF/A 標準的文件。
 
 ## 其他資源
 

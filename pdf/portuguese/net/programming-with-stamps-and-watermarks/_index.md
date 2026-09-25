@@ -36,11 +36,26 @@ Os tutoriais "Programação com Carimbos e Marcas D'água" do Aspose.PDF para .N
 | [Imagem no cabeçalho](./image-in-header/) | Aprenda como adicionar uma imagem ao cabeçalho de um PDF usando o Aspose.PDF para .NET neste tutorial passo a passo. |  
 | [Número de página no cabeçalho e rodapé usando caixa flutuante](./page-number-in-header-footer-using-floating-box/) | Adicione facilmente números de página no cabeçalho e rodapé do seu PDF usando uma caixa flutuante com Aspose.PDF para .NET neste tutorial passo a passo. |  
 | [Carimbos de número de página em arquivo PDF](./page-number-stamps/) Aprenda como adicionar carimbos de numeração de página a arquivos PDF usando o Aspose.PDF para .NET por meio de nosso guia fácil de seguir, completo com exemplo de código. |  
+| [Adicionar numeração Bates ao PDF – Guia completo em C#](./add-bates-numbering-pdf-complete-c-guide/) | Aprenda a adicionar numeração Bates a documentos PDF usando Aspose.PDF para .NET com este guia passo a passo em C#. |  
 | [Tabela na seção Cabeçalho e Rodapé](./table-in-header-footer-section/) | Aprenda a adicionar texto facilmente ao rodapé de um arquivo PDF usando o Aspose.PDF para .NET. Guia passo a passo incluído para integração perfeita. |  
 | [Texto no rodapé do arquivo PDF](./text-in-footer/) | Aprenda como adicionar texto no rodapé do arquivo PDF com o Aspose.PDF para .NET. |  
 | [Texto no cabeçalho do arquivo PDF](./text-in-header/) | Aprenda a adicionar cabeçalhos de texto a PDFs usando o Aspose.PDF para .NET com este tutorial passo a passo. Aprimore seus documentos com eficiência e eficácia. |  
+| [Adicionar numeração Bates a PDFs com C#](./bates-numbering-tutorial-add-bates-numbers-to-pdfs-with-c/) | Aprenda a inserir numeração Bates em documentos PDF usando Aspose.PDF para .NET com C# em um guia passo a passo. |  
+| [Alterar Opacidade do PDF em C# – Guia Completo da Aspose](./change-pdf-opacity-in-c-complete-aspose-guide/) | Aprenda a alterar a opacidade de páginas PDF usando Aspose.PDF para .NET em C# com este guia passo a passo. |
+| [Adicionar numeração Bates ao PDF – Guia completo em C#](./add-bates-numbering-pdf-complete-c-guide/) | Aprenda a aplicar numeração Bates em documentos PDF usando Aspose.PDF para .NET com este guia passo a passo em C#. |
+| [Como salvar PDF — Adicionar numeração Bates com Aspose.Pdf](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) | Aprenda a salvar PDFs e adicionar numeração Bates usando Aspose.PDF para .NET com este tutorial passo a passo. |  
+| [Criar marca d'água em PDF – Adicionar carimbo e converter DOCX para PDF](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) | Aprenda a criar marca d'água em PDF, adicionar carimbos e converter DOCX para PDF usando Aspose.PDF para .NET. |  
+| [Criar documento PDF com numeração Bates em C# – Guia completo](./create-pdf-document-with-bates-numbering-in-c-full-guide/) | Aprenda a gerar documentos PDF com numeração Bates usando Aspose.PDF para .NET em C# passo a passo. |  
+| [Adicionar carimbo ao PDF – Aplicar marca d'água na primeira página](./add-stamp-to-pdf-apply-watermark-pdf-on-first-page/) | Aprenda a aplicar uma marca d'água somente na primeira página de um PDF usando Aspose.PDF para .NET. |  
+| [Como adicionar carimbo a PDF com Aspose.Pdf – Guia passo a passo](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) | Aprenda a inserir carimbos em arquivos PDF usando Aspose.PDF para .NET com este guia detalhado passo a passo. |
+| [Criar aviso de página inteira em PDF – Guia rápido em C#](./create-pdf-full-page-notice-quick-c-guide/) | Aprenda a criar um aviso de página inteira em PDF usando Aspose.PDF para .NET com este guia rápido em C#. |
+| [Adicionar marca d'água PDF em C# – Guia completo com Aspose](./add-watermark-pdf-in-c-complete-guide-with-aspose/) | Aprenda a adicionar marcas d'água a PDFs usando C# e Aspose.PDF com este guia passo a passo. |  
 | [Adicionar numeração Bates a PDFs com C# – Guia Completo](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Aprenda a aplicar numeração Bates a documentos PDF usando C# e Aspose.PDF para .NET com este guia passo a passo. |
 
+| [Adicionar numeração Bates em PDF em C# – Guia completo](./add-bates-numbering-pdf-in-c-complete-guide/) | Aprenda a aplicar numeração Bates em PDFs usando Aspose.PDF para .NET com este guia passo a passo. |  
+| [Como adicionar Bates – Guia passo a passo para PDFs](./how-to-add-bates-step-by-step-guide-for-pdfs/) | Aprenda a adicionar números de Bates a arquivos PDF usando o Aspose.PDF para .NET com este guia passo a passo. |
+| [Alterar Opacidade de PDF com Aspose.PDF – Guia Completo em C#](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) | Aprenda a alterar a opacidade de páginas PDF usando Aspose.PDF para .NET com este guia completo em C#. |  
+| [Marca d'água confidencial em PDF com Aspose: Adicionar um Carimbo de Texto à Primeira Página](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) | Aprenda a adicionar uma marca d'água confidencial de texto na primeira página de um PDF usando Aspose.PDF para .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
