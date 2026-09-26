@@ -23,6 +23,7 @@
 - [วาด XForm บนหน้า](./draw-xform-on-page/) | เรียนรู้วิธีการวาด XForms ใน PDF โดยใช้ Aspose.PDF สำหรับ .NET พร้อมคู่มือทีละขั้นตอนที่ครอบคลุมนี้  
 - [ตัวดำเนินการ PDF](./pdf-operators/) | คำแนะนำทีละขั้นตอนในการใช้ตัวดำเนินการ PDF กับ Aspose.PDF สำหรับ .NET เพิ่มรูปภาพลงในหน้า PDF และระบุตำแหน่งของรูปภาพ -  
 | [ลบวัตถุกราฟิกออกจากไฟล์ PDF](./remove-graphics-objects/) เรียนรู้วิธีการลบวัตถุกราฟิกออกจากไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนนี้ ทำให้ภารกิจการจัดการ PDF ของคุณง่ายขึ้น |  
+- [วิธีเปลี่ยนความโปร่งใสของ PDF ใน C# ด้วย Aspose.Pdf](./how-to-change-pdf-transparency-in-c-using-aspose-pdf/) | เรียนรู้วิธีปรับความโปร่งใสของ PDF ด้วย Aspose.Pdf ใน C# อย่างละเอียด
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -23,6 +23,7 @@ De tutorials "Programmeren met operatoren" van Aspose.PDF voor .NET begeleiden u
 | [XForm op pagina tekenen](./draw-xform-on-page/) | Leer hoe u XForms in PDF kunt tekenen met Aspose.PDF voor .NET met deze uitgebreide stapsgewijze handleiding. |  
 | [PDF-operatoren](./pdf-operators/) | Stapsgewijze handleiding voor het gebruik van PDF-operatoren met Aspose.PDF voor .NET. Voeg een afbeelding toe aan een PDF-pagina en geef de positie ervan op. |  
 | [Grafische objecten uit een PDF-bestand verwijderen](./remove-graphics-objects/) Leer in deze stapsgewijze handleiding hoe u grafische objecten uit een PDF-bestand verwijdert met Aspose.PDF voor .NET. Vereenvoudig uw PDF-bewerkingstaken. |  
+| [Hoe PDF-transparantie te wijzigen in C# met Aspose.Pdf](./how-to-change-pdf-transparency-in-c-using-aspose-pdf/) | Leer hoe u de transparantie van PDF-elementen kunt aanpassen in C# met Aspose.Pdf. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
