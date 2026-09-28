@@ -1,0 +1,7 @@
+Title: How to verify PDF signatures and detect tampering in C#
+Slug: how-to-verify-pdf-signatures-and-detect-tampering-in-c
+Category: programming-with-security-and-signatures
+ProcessedDate: 2026-09-28T08:00:01.853029
+SourceRepo: AI Search API
+Keywords: how to verify pdf, validate pdf signature, check pdf signature, check pdf tampering, check pdf for changes
+PRNumber: 136
