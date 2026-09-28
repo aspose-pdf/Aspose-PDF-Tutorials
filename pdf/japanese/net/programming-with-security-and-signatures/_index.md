@@ -48,6 +48,7 @@
 | [C# で PDF 署名を検証する – 完全ガイド](./how-to-verify-pdf-signatures-in-c-full-guide/) Aspose.PDF for .NET を使用して、C# で PDF 署名を検証する完全な手順をご紹介します。 |  
 | [PDF の署名を読み取る方法 – 完全 C# ガイド](./how-to-read-signatures-in-a-pdf-complete-c-guide/) Aspose.PDF for .NET を使い、C# で PDF の署名情報を完全に読み取る手順をステップバイステップで解説します。 |  
 | [PDF 署名チュートリアル – C# で PDF 署名を検証および検証する](./pdf-signature-tutorial-verify-and-validate-pdf-signatures-in/) Aspose.PDF for .NET を使用して、C# で PDF 署名の検証と有効性確認を行う手順をステップバイステップで解説します。 |  
+| [C# で PDF 署名を検証する – 完全ガイド](./how-to-verify-pdf-signature-in-c-complete-guide/) Aspose.PDF for .NET を使用して、C# で PDF のデジタル署名を検証し、信頼性を確認する方法をステップバイステップで解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

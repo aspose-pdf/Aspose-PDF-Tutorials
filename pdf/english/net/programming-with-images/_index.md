@@ -50,6 +50,7 @@ Aspose.PDF for .NET's "Programming with Images" tutorials walk you through the s
 | [Shrink Images In PDF File](./shrink-images/) | Easily shrink images in PDF files using Aspose.PDF for .NET with this step-by-step guide, ensuring smaller file sizes while maintaining quality. |  
 | [Store Image In XImage Collection](./store-image-in-ximage-collection/) |  Learn how to store images in XImage collection using Aspose.PDF for .NET in this complete step-by-step guide. |  
 | [Create Blank PDF Page – Full Guide to Adding, Cropping & Resizing Images](./create-blank-pdf-page-full-guide-to-adding-cropping-resizing/) | Learn how to create a blank PDF page and add, crop, and resize images using Aspose.PDF for .NET in this comprehensive guide. |  
+| [Add Figure to Word – Complete C# Programming Guide](./add-figure-to-word-complete-c-programming-guide/) | Learn how to add figures to Word documents using C# with Aspose.Words for .NET. Detailed guide with code examples and FAQs. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

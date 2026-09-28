@@ -35,6 +35,7 @@ Dönüştürme ayarlarını nasıl belirleyeceğinizi, metin ve görüntüleri n
 | [PDF'den EPUB'a](./pdf-to-epub/) | Bu adım adım eğitimde Aspose.PDF for .NET kullanarak PDF'yi EPUB'a nasıl dönüştüreceğinizi öğrenin. Geliştiriciler ve içerik oluşturucular için mükemmel. |  
 | [PDF'den HTML'ye](./pdf-to-html/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF'yi HTML'ye nasıl dönüştüreceğinizi öğrenin. Geliştiriciler ve içerik oluşturucular için mükemmel. |  
 | [PDF'yi HTML olarak kaydetme – Aspose.PDF ile Adım Adım C# Rehberi](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) | Bu adım adım kılavuzda Aspose.PDF for .NET kullanarak PDF dosyalarını HTML'ye nasıl dönüştüreceğinizi öğrenin. |
+| [Aspose.PDF ile PDF'den HTML Oluşturma – Adım Adım Kılavuz](./create-html-from-pdf-with-aspose-pdf-step-by-step-guide/) | Bu adım adım kılavuzda Aspose.PDF for .NET kullanarak PDF dosyalarından HTML oluşturmayı öğrenin. |
 | [PDF'den PDFA'ya](./pdf-to-pdfa/) Bu adım adım eğitimle Aspose.PDF for .NET kullanarak PDF dosyalarını PDF/A formatına nasıl dönüştüreceğinizi öğrenin. |  
 | [PDF'den PDFA3b'ye](./pdf-to-pdfa3b/) | Bu adım adım kılavuzda Aspose.PDF for .NET ile PDF dosyalarını zahmetsizce PDF/A-3B formatına dönüştürmeyi öğrenin.  
 | [PDF'den PNG'ye Yazı Tipi İpucu](./pdf-to-png-font-hinting/) | Aspose.PDF for .NET'i kullanarak PDF'yi font ipuçlarıyla PNG'ye dönüştürmeyi kolay adım adım bir kılavuzda öğrenin. |
@@ -67,6 +68,7 @@ Dönüştürme ayarlarını nasıl belirleyeceğinizi, metin ve görüntüleri n
 | [Aspose PDF Dönüştürme C#'ta: Yükle, PDF/X-4'e Dönüştür, Kaydet](./aspose-pdf-conversion-in-c-load-convert-to-pdf-x-4-save/) | Bu adım adım kılavuzda Aspose.PDF for .NET kullanarak C# ile PDF dosyasını yükleyip PDF/X‑4 formatına dönüştürüp kaydetmeyi öğrenin. |
 | [Span öğesi oluştur ve sayfaya ekle – DOCX'i PDF'ye dönüştür](./create-span-element-and-add-to-page-convert-docx-to-pdf/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak DOCX dosyasını PDF'ye dönüştürürken span öğesi eklemeyi öğrenin. |
 | [PDF Belgesini Aç C# – Baskı İçin PDF/X‑4'e Dönüştür](./open-pdf-document-c-convert-to-pdf-x-4-for-printing/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak bir PDF belgesini açıp, baskı için PDF/X‑4 formatına nasıl dönüştüreceğinizi öğrenin. |
+| [PDF'yi C#'ta PDF/X‑4'e Dönüştür – Aspose PDF](./how-to-convert-pdf-to-pdf-x-4-in-c-with-aspose-pdf/) | Aspose.PDF for .NET kullanarak PDF dosyalarını PDF/X‑4 formatına C# ile nasıl dönüştüreceğinizi öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

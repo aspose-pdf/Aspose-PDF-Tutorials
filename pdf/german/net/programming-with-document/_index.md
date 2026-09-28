@@ -59,6 +59,7 @@ Die Ressource enthält Tutorials zur Programmierung mit Dokumentfunktion der Asp
 | [Validieren von PDF-Dateien Ein Standard](./validatepdfastandard/) | Erfahren Sie in diesem umfassenden Schritt-für-Schritt-Tutorial, wie Sie PDF-Dateien mit Aspose.PDF für .NET anhand des PDF/A-1a-Standards validieren. |  
 | [Validieren Sie den PDF UA-Standard](./validatepdfuastandard/) | Erfahren Sie mit unserer Schritt-für-Schritt-Anleitung und ausführlichen Erklärungen, wie Sie mit Aspose.PDF für .NET ein PDF für den PDF/UA-Zugänglichkeitsstandard validieren. |  
 | [Wie man PDF-Dateien repariert – Schritt‑für‑Schritt‑Anleitung mit Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Erfahren Sie, wie Sie beschädigte PDF-Dateien mit Aspose.Pdf reparieren – eine detaillierte Schritt‑für‑Schritt‑Anleitung. |
+| [Wie man ein Word-Dokument liest und eine bestimmte Seite aus Word extrahiert – C#-Leitfaden](./how-to-read-word-document-and-extract-specific-page-from-wor/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET ein Word-Dokument öffnen und eine bestimmte Seite extrahieren – Schritt-für-Schritt in C#. |
 
 | [PDF-Datei öffnen C# – So reparieren Sie ein beschädigtes PDF in Minuten](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein beschädigtes PDF in wenigen Minuten reparieren. |
 {{< /blocks/products/pf/tutorial-page-section >}}

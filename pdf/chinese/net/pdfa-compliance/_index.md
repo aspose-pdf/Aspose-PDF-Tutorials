@@ -47,6 +47,8 @@ Aspose.PDF Net 代码教程
 本教程详细演示如何使用 Aspose.PDF for .NET 在 C# 中将文档完整转换为符合 PDF/A 标准的文件。
 ### [如何在 C# 中创建 PDF/A – Aspose 分步指南](./how-to-create-pdf-a-in-c-step-by-step-aspose-guide/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中创建符合 PDF/A 标准的文档，提供详细的代码示例和步骤说明。
+### [如何在 C# 中创建 PDF/A – 轻松将 PDF 转换为 PDF/A](./how-to-create-pdf-a-in-c-convert-pdf-to-pdf-a-easily/)
+本教程演示如何使用 Aspose.PDF for .NET 在 C# 中将普通 PDF 转换为符合 PDF/A 标准的文档，步骤简明易懂。
 
 ## 其他资源
 

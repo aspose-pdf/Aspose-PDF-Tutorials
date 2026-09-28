@@ -47,6 +47,7 @@ Handledningen ger dig en detaljerad översikt över metoder och tekniker för at
 | [Hur man verifierar PDF-signaturer i C# – Fullständig guide](./how-to-verify-pdf-signatures-in-c-full-guide/) | Lär dig steg för steg hur du verifierar PDF-signaturer i C# med Aspose.PDF för .NET. |
 | [Hur man läser signaturer i en PDF – Komplett C#-guide](./how-to-read-signatures-in-a-pdf-complete-c-guide/) | Lär dig steg för steg hur du läser signaturer i PDF-filer med Aspose.PDF för .NET i C#. |
 | [PDF-signaturhandledning – Verifiera och validera PDF-signaturer i C#](./pdf-signature-tutorial-verify-and-validate-pdf-signatures-in/) | Lär dig hur du verifierar och validerar PDF-signaturer i C# med Aspose.PDF för .NET. |
+| [Hur man verifierar PDF-signatur i C# – Komplett guide](./how-to-verify-pdf-signature-in-c-complete-guide/) | Lär dig steg för steg hur du verifierar PDF-signaturer i C# med Aspose.PDF för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

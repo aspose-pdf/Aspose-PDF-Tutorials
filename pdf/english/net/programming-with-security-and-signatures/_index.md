@@ -50,6 +50,7 @@ The tutorial gives you a detailed overview of methods and techniques to ensure t
 | [How to Read Signatures in a PDF – Complete C# Guide](./how-to-read-signatures-in-a-pdf-complete-c-guide/) | Learn how to read PDF signatures using Aspose.PDF for .NET in C#. Follow this step-by-step guide for developers. |
 | [Digital signature c# – Load Certificate, Create PKCS7, and Sign Data](./digital-signature-c-load-certificate-create-pkcs7-and-sign-d/) | Learn how to load a certificate, create a PKCS7 signature, and sign data using Aspose.PDF for .NET in C#. |
 | [pdf signature tutorial – Verify and Validate PDF Signatures in C#](./pdf-signature-tutorial-verify-and-validate-pdf-signatures-in/) | Learn how to verify and validate PDF signatures using Aspose.PDF for .NET in C#. Step-by-step guide for developers. |
+| [How to Verify PDF Signature in C# – Complete Guide](./how-to-verify-pdf-signature-in-c-complete-guide/) | Learn how to verify PDF signatures using Aspose.PDF for .NET in C#. Follow this step-by-step guide for developers. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

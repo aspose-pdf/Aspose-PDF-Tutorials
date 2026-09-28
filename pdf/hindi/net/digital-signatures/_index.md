@@ -102,6 +102,12 @@ C# में PDF पर डिजिटल हस्ताक्षर जोड
 ### [PDF हस्ताक्षर सत्यापित करें और Bates नंबरिंग जोड़ें – पूर्ण C# गाइड](./verify-pdf-signature-and-add-bates-numbering-complete-c-guid/)
 C# में PDF हस्ताक्षर की जाँच और Bates नंबरिंग जोड़ने की पूरी प्रक्रिया सीखें।
 
+### [C# में PDF पर हस्ताक्षर कैसे करें – डिजिटल हस्ताक्षर जोड़ने के लिए पूर्ण गाइड](./how-to-sign-pdf-in-c-complete-guide-for-adding-digital-signa/)
+C# का उपयोग करके PDF में डिजिटल हस्ताक्षर जोड़ने की पूरी प्रक्रिया सीखें।
+
+### [C# में PDF हस्ताक्षर सत्यापित करें – पूर्ण गाइड](./validate-pdf-signature-in-c-complete-guide/)
+C# का उपयोग करके PDF हस्ताक्षर को सत्यापित करने की पूरी प्रक्रिया सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.PDF for Net दस्तावेज़ीकरण](https://docs.aspose.com/pdf/net/)

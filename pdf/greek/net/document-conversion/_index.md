@@ -67,6 +67,8 @@
 | [Δημιουργία στοιχείου span και προσθήκη στη σελίδα – Μετατροπή DOCX σε PDF](./create-span-element-and-add-to-page-convert-docx-to-pdf/) | Μάθετε πώς να δημιουργήσετε ένα στοιχείο span και να το προσθέσετε σε μια σελίδα κατά τη μετατροπή DOCX σε PDF χρησιμοποιώντας το Aspose.PDF για .NET. |
 | [Δημιουργία PDF από JPG σε C# – Πλήρης Οδηγός με Κοπή και Νέες Σελίδες](./create-pdf-from-jpg-in-c-full-guide-with-cropping-and-new-pa/) | Μάθετε πώς να δημιουργήσετε PDF από αρχεία JPG σε C# με δυνατότητα κοπής εικόνων και προσθήκης νέων σελίδων, βήμα προς βήμα. |
 | [Άνοιγμα εγγράφου PDF C# – Μετατροπή σε PDF/X‑4 για εκτύπωση](./open-pdf-document-c-convert-to-pdf-x-4-for-printing/) | Μάθετε πώς να ανοίξετε ένα PDF σε C# και να το μετατρέψετε σε PDF/X‑4 για εκτύπωση με το Aspose.PDF για .NET. |
+| [Πώς να μετατρέψετε PDF σε PDF/X‑4 σε C# με το Aspose PDF](./how-to-convert-pdf-to-pdf-x-4-in-c-with-aspose-pdf/) | Μάθετε πώς να μετατρέψετε PDF σε PDF/X‑4 σε C# χρησιμοποιώντας το Aspose.PDF για .NET σε αυτόν τον βήμα‑βήμα οδηγό. |
+| [Δημιουργία HTML από PDF με Aspose.PDF – Οδηγός βήμα‑βήμα](./create-html-from-pdf-with-aspose-pdf-step-by-step-guide/) | Μάθετε πώς να δημιουργείτε HTML από PDF χρησιμοποιώντας το Aspose.PDF για .NET με αυτόν τον οδηγό βήμα προς βήμα. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

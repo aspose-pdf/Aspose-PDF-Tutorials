@@ -52,6 +52,12 @@
 ### [Επαλήθευση υπογραφής PDF σε C# – Πλήρης Οδηγός για την Επικύρωση Ψηφιακής Υπογραφής PDF](./verify-pdf-signature-in-c-complete-guide-to-validate-digital/)
 Μάθετε πώς να επαληθεύετε υπογραφές PDF σε C# με το Aspose.PDF για .NET.
 
+### [Επικύρωση υπογραφής PDF σε C# – Πλήρης Οδηγός](./validate-pdf-signature-in-c-complete-guide/)
+Μάθετε πώς να επαληθεύετε υπογραφές PDF σε C# με το Aspose.PDF για .NET.
+
+### [Πώς να υπογράψετε PDF σε C# – Πλήρης οδηγός για την προσθήκη ψηφιακών υπογραφών](./how-to-sign-pdf-in-c-complete-guide-for-adding-digital-signa/)
+Μάθετε πώς να προσθέσετε ψηφιακές υπογραφές σε PDF χρησιμοποιώντας C# και Aspose.PDF για .NET.
+
 ### [Έλεγχος υπογραφής PDF σε C# με το Aspose.PDF – Πλήρης Οδηγός](./check-pdf-signature-in-c-with-aspose-pdf-full-guide/)
 Μάθετε πώς να ελέγξετε υπογραφές PDF σε C# χρησιμοποιώντας το Aspose.PDF, με βήμα-βήμα οδηγίες και παραδείγματα κώδικα.
 

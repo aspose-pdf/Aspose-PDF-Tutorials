@@ -46,6 +46,8 @@ C# を使用して PDF を PDF/A に完全に変換し、アーカイブ品質�
 Aspose.PDF .NET を使用して、C# で PDF/A 準拠ドキュメントを作成する手順を詳しく解説します。
 ### [C# で PDF を PDF/A に変換する – 完全ステップバイステップガイド](./convert-pdf-to-pdf-a-in-c-complete-step-by-step-guide/)
 C# と Aspose.PDF を使用して、PDF を PDF/A 準拠に変換する方法を詳細に解説します。
+### [C# で PDF/A を作成する方法 – PDF を簡単に PDF/A に変換](./how-to-create-pdf-a-in-c-convert-pdf-to-pdf-a-easily/)
+C# のコード例を使って、PDF をシンプルに PDF/A 形式に変換し、アーカイブ品質を確保する手順を解説します。
 
 ## 追加リソース
 

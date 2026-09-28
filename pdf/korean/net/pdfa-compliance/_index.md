@@ -47,6 +47,8 @@ C#으로 PDF를 PDF/A 파일로 완전 변환하는 단계별 가이드를 제�
 C# 코드를 사용해 PDF/A 문서를 생성하는 방법을 단계별로 안내하는 Aspose 가이드
 ### [C#에서 PDF를 PDF/A로 변환하는 완전한 단계별 가이드](./convert-pdf-to-pdf-a-in-c-complete-step-by-step-guide/)
 Aspose.PDF for .NET을 사용하여 C#에서 일반 PDF를 PDF/A 표준으로 변환하는 방법을 단계별로 안내합니다.
+### [C#에서 PDF/A 만들기 – PDF를 PDF/A로 쉽게 변환하는 방법](./how-to-create-pdf-a-in-c-convert-pdf-to-pdf-a-easily/)
+C# 코드를 사용해 PDF를 PDF/A 형식으로 변환하는 간단한 단계별 가이드입니다.
 
 ## 추가 자료
 

@@ -60,6 +60,7 @@ Cette ressource comprend des tutoriels sur la fonctionnalité de programmation a
 | [Valider la norme PDF UA](./validatepdfuastandard/) | Apprenez à valider un PDF pour la norme d'accessibilité PDF/UA à l'aide d'Aspose.PDF pour .NET avec notre guide étape par étape et nos explications détaillées. |  
 | [Ouvrir un fichier PDF C# – Comment réparer un PDF corrompu en quelques minutes](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | Apprenez à ouvrir et réparer rapidement un PDF corrompu avec Aspose.PDF pour .NET en C#. |
 | [Comment réparer des fichiers PDF – Guide étape par étape avec Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Apprenez à réparer des fichiers PDF corrompus avec Aspose.Pdf grâce à ce guide détaillé étape par étape. |  
+| [Comment lire un document Word et extraire une page spécifique – Guide C#](./how-to-read-word-document-and-extract-specific-page-from-wor/) | Apprenez à lire un document Word et à extraire une page précise à l'aide d'Aspose.Words pour .NET en C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

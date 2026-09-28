@@ -115,6 +115,12 @@ Aspose.PDF .NET 代码教程
 ### [验证 PDF 签名并添加 Bates 编号 – 完整 C# 指南](./verify-pdf-signature-and-add-bates-numbering-complete-c-guid/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名并添加 Bates 编号，实现文档追踪与完整性保障的完整步骤。
 
+### [如何在 C# 中签署 PDF – 添加数字签名的完整指南](./how-to-sign-pdf-in-c-complete-guide-for-adding-digital-signa/)
+了解在 C# 中使用 Aspose.PDF 添加数字签名的完整步骤和示例代码。
+
+### [在 C# 中验证 PDF 签名 – 完整指南](./validate-pdf-signature-in-c-complete-guide/)
+提供在 C# 环境下使用 Aspose.PDF 完整验证 PDF 签名的步骤和代码示例。
+
 ## 其他资源
 
 - [Aspose.PDF 用于网络文档](https://docs.aspose.com/pdf/net/)

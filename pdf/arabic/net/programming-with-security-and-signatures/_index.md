@@ -44,6 +44,7 @@
 | [التحقق من توقيعات PDF في C# – دليل كامل](./how-to-verify-pdf-signatures-in-c-full-guide/) | دليل شامل للتحقق من توقيعات PDF باستخدام C# و Aspose.PDF خطوة بخطوة لضمان صحة المستندات. |
 | [دليل توقيع PDF – التحقق من صحة توقيعات PDF في C#](./pdf-signature-tutorial-verify-and-validate-pdf-signatures-in/) | تعلم كيفية التحقق من صحة توقيعات PDF وتأكيد سلامتها باستخدام C# و Aspose.PDF. |
 | [كيفية إصلاح ملفات PDF – دليل C# كامل باستخدام Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | تعلم كيفية إصلاح ملفات PDF المتضررة باستخدام Aspose.PDF لـ .NET في دليل شامل خطوة بخطوة بلغة C#. |
+| [كيفية التحقق من توقيع PDF في C# – دليل كامل](./how-to-verify-pdf-signature-in-c-complete-guide/) | تعلم كيفية التحقق من توقيع PDF باستخدام C# و Aspose.PDF في دليل شامل خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

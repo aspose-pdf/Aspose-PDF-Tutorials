@@ -86,6 +86,12 @@ C# kullanarak PDF dosyalarındaki dijital imzaları nasıl doğrulayacağınız�
 C# kullanarak PDF belgesini yükleyin, PDF/X‑4 formatına dönüştürün ve imzaları listeleyin.
 ### [Aspose ile PDF İmzasını Doğrulama – PDF'yi HTML'ye Dönüştür](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
 Aspose kullanarak PDF imzasını doğrularken aynı zamanda PDF'yi HTML formatına dönüştürmeyi öğrenin.
+### [C# ile PDF İmzalama – Dijital İmzalar Eklemek İçin Tam Kılavuz](./how-to-sign-pdf-in-c-complete-guide-for-adding-digital-signa/)
+C# kullanarak PDF dosyalarına dijital imza eklemenin adım adım rehberi, kod örnekleri ve en iyi uygulamalar.
+
+### [C# ile PDF İmzasını Doğrulama – Tam Kılavuz](./validate-pdf-signature-in-c-complete-guide/)
+C# kullanarak PDF dosyalarındaki dijital imzaları doğrulamanın adım adım rehberi, kod örnekleri ve güvenli yöntemler.
+
 ### [İmzalı PDF Belgesini Yükleyin ve İmzalarını Listeleyin – C# Kılavuzu](./load-signed-pdf-document-and-list-its-signatures-c-guide/)
 C# kullanarak imzalı PDF dosyasını nasıl yükleyeceğinizi ve içindeki tüm dijital imzaları nasıl listeleyeceğinizi öğrenin.
 ### [Aspose ile PDF imzasını doğrulama ve PDF'ye dikdörtgen ekleme](./verify-pdf-signature-and-add-rectangle-pdf-with-aspose/)

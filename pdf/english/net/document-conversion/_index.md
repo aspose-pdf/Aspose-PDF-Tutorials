@@ -27,6 +27,7 @@ You'll learn how to specify conversion settings, extract text and images, retain
 | [Convert PDF to PDF/X‑4 in C# – Step‑by‑Step ASP.NET PDF Tutorial](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Learn how to convert PDF to PDF/X‑4 using Aspose.PDF for .NET in this step‑by‑step ASP.NET tutorial. |
 | [Aspose PDF Tutorial: Convert PDF to PDF/X‑4 in C#](./aspose-pdf-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Learn how to convert PDF to PDF/X‑4 using Aspose.PDF for .NET in this step‑by‑step C# tutorial. |
 | [Open PDF Document C# – Convert to PDF/X‑4 for Printing](./open-pdf-document-c-convert-to-pdf-x-4-for-printing/) | Learn how to open a PDF in C# and convert it to PDF/X‑4 for printing using Aspose.PDF for .NET. |
+| [How to Convert PDF to PDF/X‑4 in C# with Aspose PDF](./how-to-convert-pdf-to-pdf-x-4-in-c-with-aspose-pdf/) | Learn how to convert PDF to PDF/X‑4 in C# using Aspose.PDF for .NET with this step‑by‑step guide. |
 | [EPUB To PDF](./epub-to-pdf/) | Learn how to convert EPUB to PDF using Aspose.PDF for .NET with this step-by-step guide. Easy, efficient, and perfect for all users. |  
 | [Get SVG Dimensions](./get-svg-dimensions/) | Learn how to use Aspose.PDF for .NET to convert SVG files to PDF with this step-by-step guide. Perfect for developers looking to manipulate PDFs. |  
 | [HTML To PDF](./html-to-pdf/) | Learn how to convert HTML to PDF using Aspose.PDF for .NET with this comprehensive step‑by‑step guide. |
@@ -44,6 +45,7 @@ You'll learn how to specify conversion settings, extract text and images, retain
 | [PDF To PDFA](./pdf-to-pdfa/) | Learn how to convert PDF files to PDF/A format using Aspose.PDF for .NET with this step‑by‑step tutorial. |  
 | [PDF To PDFA3b](./pdf-to-pdfa3b/) | Learn to convert PDF files to PDF/A-3B format effortlessly with Aspose.PDF for .NET in this step‑by‑step guide. |  
 | [PDF To PNG Font Hinting](./pdf-to-png-font-hinting/) | Learn to convert PDF to PNG with font hinting using Aspose.PDF for .NET in an easy step‑by‑step guide. |
+| [Create HTML from PDF with Aspose.PDF – Step‑by‑Step Guide](./create-html-from-pdf-with-aspose-pdf-step-by-step-guide/) | Learn how to create HTML from a PDF using Aspose.PDF for .NET in this step‑by‑step guide. |
 | [pdf to png tutorial – Convert PDF pages to PNG in C#](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Learn how to convert PDF pages to PNG images using Aspose.PDF for .NET in C# with this step‑by‑step guide. |
 | [PDF To PPT](./pdf-to-ppt/) | Learn how to convert PDF to PPT using Aspose.PDF for .NET with this step‑by‑step guide. Easy, efficient, and perfect for presentations. |  
 | [PDF To SVG](./pdf-to-svg/) | Learn how to convert PDF files to SVG format using Aspose.PDF for .NET in this step‑by‑step tutorial. Perfect for developers and designers. |  

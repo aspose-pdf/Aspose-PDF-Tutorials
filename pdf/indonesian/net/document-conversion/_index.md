@@ -67,6 +67,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Konversi Aspose PDF di C#: Muat, Konversi ke PDF/X‑4, Simpan](./aspose-pdf-conversion-in-c-load-convert-to-pdf-x-4-save/) | Pelajari cara memuat file, mengonversinya ke PDF/X‑4, dan menyimpannya menggunakan Aspose.PDF untuk .NET dalam C#. |
 | [Simpan PDF sebagai HTML dengan Aspose.PDF – Panduan Langkah‑per‑Langkah C#](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) | Pelajari cara menyimpan file PDF menjadi HTML menggunakan Aspose.PDF untuk .NET dengan contoh kode C# langkah demi langkah. |
 | [Buat PDF dari JPG di C# – Panduan Lengkap dengan Pemotongan dan Halaman Baru](./create-pdf-from-jpg-in-c-full-guide-with-cropping-and-new-pa/) | Pelajari cara membuat PDF dari gambar JPG menggunakan Aspose.PDF untuk .NET di C#, termasuk pemotongan gambar dan penambahan halaman baru. |
+| [How to Convert PDF to PDF/X‑4 in C# with Aspose PDF](./how-to-convert-pdf-to-pdf-x-4-in-c-with-aspose-pdf/) | Pelajari cara mengonversi PDF ke PDF/X‑4 dalam C# menggunakan Aspose.PDF untuk .NET dengan contoh kode lengkap. |
+| [Buat HTML dari PDF dengan Aspose.PDF – Panduan Langkah‑ demi‑Langkah](./create-html-from-pdf-with-aspose-pdf-step-by-step-guide/) | Pelajari cara membuat file HTML dari PDF menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah ini. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -125,6 +125,12 @@ Learn how to sign PDFs and embed images using Aspose.PDF for .NET with a complet
 ### [Verify PDF Signature and Add Bates Numbering – Complete C# Guide](./verify-pdf-signature-and-add-bates-numbering-complete-c-guid/)
 Learn how to verify a PDF signature and add Bates numbering using Aspose.PDF for .NET in C# with step‑by‑step code examples.
 
+### [Validate PDF Signature in C# – Complete Guide](./validate-pdf-signature-in-c-complete-guide/)
+Learn how to validate PDF signatures in C# using Aspose.PDF for .NET. This guide covers verification steps and best practices.
+
+### [How to Sign PDF in C# – Complete Guide for Adding Digital Signatures](./how-to-sign-pdf-in-c-complete-guide-for-adding-digital-signa/)
+Learn how to add digital signatures to PDF files using C# and Aspose.PDF for .NET with step‑by‑step instructions.
+
 ## Additional Resources
 
 - [Aspose.PDF for Net Documentation](https://docs.aspose.com/pdf/net/)

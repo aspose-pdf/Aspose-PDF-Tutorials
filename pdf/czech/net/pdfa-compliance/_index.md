@@ -46,6 +46,8 @@ Naučte se, jak v C# pomocí Aspose.PDF vytvořit PDF/A soubor a provést komple
 Naučte se, jak pomocí Aspose.PDF pro .NET vytvořit PDF/A dokumenty v C# krok za krokem.
 ### [Převod PDF na PDF/A v C# – Kompletní průvodce krok za krokem](./convert-pdf-to-pdf-a-in-c-complete-step-by-step-guide/)
 Naučte se, jak v C# převést PDF soubory na PDF/A pomocí Aspose.PDF .NET pomocí podrobného krok‑za‑krokem návodu.
+### [Jak vytvořit PDF/A v C# – Jednoduše převést PDF na PDF/A](./how-to-create-pdf-a-in-c-convert-pdf-to-pdf-a-easily/)
+Naučte se, jak v C# jednoduše převést PDF soubor na PDF/A pomocí Aspose.PDF .NET.
 
 ## Další zdroje
 

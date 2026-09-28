@@ -117,6 +117,11 @@ Hướng dẫn chi tiết cách ký tài liệu PDF và chèn hình ảnh vào c
 ### [Xác thực chữ ký PDF và Thêm số Bates – Hướng dẫn C# đầy đủ](./verify-pdf-signature-and-add-bates-numbering-complete-c-guid/)
 Hướng dẫn chi tiết cách xác thực chữ ký PDF và thêm số Bates vào tài liệu bằng C# với Aspose.PDF.
 
+### [Cách ký PDF trong C# – Hướng dẫn toàn diện để thêm chữ ký số](./how-to-sign-pdf-in-c-complete-guide-for-adding-digital-signa/)
+
+### [Xác thực chữ ký PDF trong C# – Hướng dẫn toàn diện](./validate-pdf-signature-in-c-complete-guide/)
+Hướng dẫn chi tiết cách xác thực chữ ký số PDF bằng C# với Aspose.PDF, bao gồm các bước triển khai và kiểm tra tính toàn vẹn.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)

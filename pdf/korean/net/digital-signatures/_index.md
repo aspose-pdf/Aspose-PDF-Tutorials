@@ -77,6 +77,9 @@ C#와 Aspose.Pdf를 사용하여 PDF 서명을 검증하는 방법을 단계별�
 ### [C#에서 PDF 디지털 서명 검증 – Aspose.Pdf 완전 가이드](./validate-pdf-digital-signature-in-c-complete-aspose-pdf-guid/)
 C#를 사용해 PDF 디지털 서명을 검증하는 전체 가이드를 제공합니다.
 
+### [C#에서 PDF 서명하기 – 디지털 서명 추가를 위한 완전 가이드](./how-to-sign-pdf-in-c-complete-guide-for-adding-digital-signa/)
+C#를 사용해 PDF에 디지털 서명을 추가하는 방법을 단계별로 안내합니다.
+
 ### [PDF 문서 로드 C# – PDF/X‑4로 변환 및 서명 목록 보기](./load-pdf-document-c-convert-to-pdf-x-4-list-signatures/)
 C#을 사용해 PDF 문서를 로드하고 PDF/X‑4 형식으로 변환한 뒤, 서명 목록을 추출하는 방법을 단계별로 안내합니다.
 ### [Aspose를 사용하여 PDF 서명 검증 – PDF를 HTML로 변환](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
@@ -114,6 +117,9 @@ C#을 사용해 PDF 서명을 검증하고 베이츠 번호를 추가하는 단�
 
 ### [PDF에서 서명을 추출하는 방법 – Aspose C# 가이드](./how-to-extract-signatures-from-pdf-aspose-c-guide/)
 Aspose.PDF를 사용하여 C#에서 PDF 파일의 디지털 서명을 추출하는 단계별 방법을 안내합니다.
+
+### [C#에서 PDF 서명 검증 – 완전 가이드](./validate-pdf-signature-in-c-complete-guide/)
+C#을 사용해 PDF 파일의 디지털 서명을 검증하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

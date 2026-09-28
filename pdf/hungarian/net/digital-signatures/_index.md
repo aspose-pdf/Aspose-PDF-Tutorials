@@ -115,6 +115,12 @@ Ismerje meg, hogyan ellenőrizheti a PDF aláírását és adhat hozzá Bates-sz
 ### [PDF aláírások kinyerése – Aspose C# útmutató](./how-to-extract-signatures-from-pdf-aspose-c-guide/)
 Ismerje meg, hogyan nyerhet ki aláírásokat PDF-fájlokból C#-ban az Aspose.PDF segítségével.
 
+### [PDF aláírás C#-ban – Teljes útmutató a digitális aláírások hozzáadásához](./how-to-sign-pdf-in-c-complete-guide-for-adding-digital-signa/)
+Ismerje meg, hogyan adhat hozzá digitális aláírásokat PDF-fájlokhoz C#-ban az Aspose.PDF for .NET segítségével, lépésről lépésre útmutatóval.
+
+### [PDF aláírás ellenőrzése C#‑ban – Teljes útmutató](./validate-pdf-signature-in-c-complete-guide/)
+Ismerje meg, hogyan ellenőrizheti a PDF digitális aláírását C#-ban az Aspose.PDF for .NET segítségével, lépésről lépésre útmutatóval.
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)

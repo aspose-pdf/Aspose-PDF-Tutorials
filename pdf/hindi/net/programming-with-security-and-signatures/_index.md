@@ -46,6 +46,7 @@
 | [PDF में हस्ताक्षर पढ़ें – पूर्ण C# गाइड](./how-to-read-signatures-in-a-pdf-complete-c-guide/) | .NET के लिए Aspose.PDF का उपयोग करके PDF हस्ताक्षर कैसे पढ़ें, इस पूर्ण गाइड में जानें। |  
 | [C# में PDF हस्ताक्षर सत्यापित करें – पूर्ण गाइड](./how-to-verify-pdf-signatures-in-c-full-guide/) | .NET के लिए Aspose.PDF का उपयोग करके PDF हस्ताक्षर कैसे सत्यापित करें, इस पूर्ण गाइड में जानें। |  
 | [PDF हस्ताक्षर ट्यूटोरियल – C# में PDF हस्ताक्षर सत्यापित और मान्य करें](./pdf-signature-tutorial-verify-and-validate-pdf-signatures-in/) | C# के लिए Aspose.PDF का उपयोग करके PDF हस्ताक्षर कैसे सत्यापित और वैध करें, इस चरण-दर-चरण मार्गदर्शिका को सीखें। |  
+| [C# में PDF हस्ताक्षर कैसे सत्यापित करें – पूर्ण गाइड](./how-to-verify-pdf-signature-in-c-complete-guide/) | .NET के लिए Aspose.PDF का उपयोग करके PDF हस्ताक्षर कैसे सत्यापित करें, इस पूर्ण गाइड में चरण-दर-चरण सीखें। |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

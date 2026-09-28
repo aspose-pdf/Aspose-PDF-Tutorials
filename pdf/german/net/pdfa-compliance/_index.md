@@ -48,6 +48,8 @@ Erfahren Sie, wie Sie PDFs mit C# und Aspose.PDF in PDF/A konvertieren, inklusiv
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET eine PDF/A-Datei in C# vollständig konvertieren und archivieren.
 ### [Wie man PDF/A in C# erstellt – Schritt‑für‑Schritt Aspose‑Leitfaden](./how-to-create-pdf-a-in-c-step-by-step-aspose-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF in C# PDF/A‑konforme Dokumente Schritt für Schritt erstellen.
+### [Wie man PDF/A in C# erstellt – PDF einfach in PDF/A konvertieren](./how-to-create-pdf-a-in-c-convert-pdf-to-pdf-a-easily/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDFs schnell und unkompliziert in PDF/A konvertieren und archivieren.
 
 ## Weitere Ressourcen
 

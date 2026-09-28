@@ -44,6 +44,7 @@
 | [如何在 PDF 中讀取簽章 – 完整的 C# 指南](./how-to-read-signatures-in-a-pdf-complete-c-guide/) |深入了解如何使用 Aspose.PDF for .NET 在 C# 中完整讀取 PDF 簽章，提供詳細步驟與範例。 |
 | [如何在 C# 中驗證 PDF 簽章 – 完整指南](./how-to-verify-pdf-signatures-in-c-full-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中驗證 PDF 簽章的完整指南。 |  
 | [PDF 簽章教學 – 在 C# 中驗證 PDF 簽章](./pdf-signature-tutorial-verify-and-validate-pdf-signatures-in/) |了解如何使用 Aspose.PDF for .NET 在 C# 中驗證 PDF 簽章的完整步驟與範例。 |  
+| [如何在 C# 中驗證 PDF 簽章 – 完整指南](./how-to-verify-pdf-signature-in-c-complete-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中驗證 PDF 簽章的完整步驟與技巧。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

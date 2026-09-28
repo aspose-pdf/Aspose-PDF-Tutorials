@@ -67,6 +67,8 @@
 | [تحويل PDF باستخدام Aspose في C#: التحميل، التحويل إلى PDF/X-4، الحفظ](./aspose-pdf-conversion-in-c-load-convert-to-pdf-x-4-save/) تعلم كيفية تحميل ملف وتحويله إلى صيغة PDF/X‑4 وحفظه باستخدام Aspose.PDF في C# خطوة بخطوة. |
 | [حفظ PDF كـ HTML باستخدام Aspose.PDF – دليل خطوة بخطوة بلغة C#](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) |تعرف على كيفية تحويل ملفات PDF إلى HTML باستخدام Aspose.PDF لـ .NET عبر دليل شامل خطوة بخطوة بلغة C#. |
 | [إنشاء PDF من JPG في C# – دليل كامل مع القص وإضافة صفحات جديدة](./create-pdf-from-jpg-in-c-full-guide-with-cropping-and-new-pa/) |تعلم كيفية تحويل صور JPG إلى ملفات PDF باستخدام C# مع قص الصور وإنشاء صفحات جديدة في دليل خطوة بخطوة. |
+| [كيفية تحويل PDF إلى PDF/X‑4 باستخدام C# و Aspose PDF](./how-to-convert-pdf-to-pdf-x-4-in-c-with-aspose-pdf/) |تعرف على كيفية تحويل ملفات PDF إلى صيغة PDF/X‑4 باستخدام Aspose.PDF لـ .NET مع C# خطوة بخطوة. |  
+| [إنشاء HTML من PDF باستخدام Aspose.PDF – دليل خطوة بخطوة](./create-html-from-pdf-with-aspose-pdf-step-by-step-guide/) |تعرّف على كيفية استخراج HTML من ملف PDF باستخدام Aspose.PDF لـ .NET من خلال هذا الدليل خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

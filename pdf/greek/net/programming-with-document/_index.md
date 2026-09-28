@@ -60,6 +60,7 @@
 | [Επικύρωση προτύπου PDF UA](./validatepdfuastandard/) | Μάθετε πώς να επικυρώσετε ένα PDF για το πρότυπο προσβασιμότητας PDF/UA χρησιμοποιώντας το Aspose.PDF για .NET με τον αναλυτικό οδηγό μας και λεπτομερείς εξηγήσεις. |  
 | [Πώς να επισκευάσετε αρχεία PDF – Οδηγός βήμα προς βήμα με χρήση Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Μάθετε πώς να επισκευάσετε κατεστραμμένα αρχεία PDF χρησιμοποιώντας το Aspose.Pdf σε αναλυτικό βήμα‑βήμα οδηγό. |
 | [Άνοιγμα αρχείου PDF C# – Πώς να επισκευάσετε ένα κατεστραμμένο PDF σε λίγα λεπτά](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | Μάθετε πώς να ανοίξετε και να επισκευάσετε γρήγορα ένα κατεστραμμένο αρχείο PDF χρησιμοποιώντας Aspose.PDF για .NET σε C#. |  
+| [Πώς να διαβάσετε έγγραφο Word και να εξάγετε συγκεκριμένη σελίδα από το Word – Οδηγός C#](./how-to-read-word-document-and-extract-specific-page-from-wor/) | Μάθετε πώς να διαβάσετε ένα αρχείο Word και να εξάγετε μια συγκεκριμένη σελίδα χρησιμοποιώντας C# και Aspose.Words. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
