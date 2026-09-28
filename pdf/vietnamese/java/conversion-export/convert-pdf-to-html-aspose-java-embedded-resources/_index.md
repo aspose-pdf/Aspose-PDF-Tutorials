@@ -1,59 +1,98 @@
 ---
-date: '2026-03-23'
-description: Tìm hiểu cách chuyển đổi PDF sang HTML bằng Java với Aspose.PDF, nhúng
-  tài nguyên HTML, xử lý hình ảnh PDF sang HTML và tạo đầu ra HTML thành một tệp duy
-  nhất.
+date: '2026-09-12'
+description: Tìm hiểu cách chuyển PDF sang HTML bằng Java với Aspose.PDF, nhúng phông
+  chữ, hình ảnh và CSS để đầu ra là một tệp HTML duy nhất tự chứa.
 keywords:
-- convert PDF to HTML Java
-- embed resources in HTML
-- Aspose.PDF for Java tutorial
-title: pdf sang html java – Chuyển PDF sang HTML với tài nguyên nhúng bằng Aspose.PDF
-  cho Java
+- pdf to html java
+- aspose pdf java example
+- embed resources in html
+- single file html output
+- pdf to html offline
+lastmod: '2026-09-12'
+og_description: Hướng dẫn Pdf to html java cho thấy cách Aspose.PDF for Java nhúng
+  phông chữ, hình ảnh và CSS vào một tệp HTML duy nhất, hoàn hảo cho việc xem offline.
+og_image_alt: 'Aspose.PDF Java conversion: PDF to single‑file HTML with embedded resources'
+og_title: Pdf to html java – chuyển PDF sang HTML với tài nguyên được nhúng
+schemas:
+- author: Aspose
+  dateModified: '2026-09-12'
+  description: Learn how to convert PDF to HTML using Java with Aspose.PDF, embedding
+    fonts, images, and CSS so the output is a single self‑contained HTML file.
+  headline: Pdf to html java – convert PDF to HTML with resources
+  type: TechArticle
+- description: Learn how to convert PDF to HTML using Java with Aspose.PDF, embedding
+    fonts, images, and CSS so the output is a single self‑contained HTML file.
+  name: Pdf to html java – convert PDF to HTML with resources
+  steps:
+  - name: '**Free trial** – download a trial from the Aspose website to evaluate features.'
+    text: '**Free trial** – download a trial from the Aspose website to evaluate features.'
+  - name: '**Temporary license** – request a temporary license for full access during
+      evaluation.'
+    text: '**Temporary license** – request a temporary license for full access during
+      evaluation.'
+  - name: '**Purchase** – obtain a permanent license for production use.'
+    text: '**Purchase** – obtain a permanent license for production use.'
+  type: HowTo
+- questions:
+  - answer: Requires a JDK 8 or newer and a compatible IDE such as IntelliJ IDEA or
+      Eclipse.
+    question: What are the system requirements for using Aspose.PDF Java?
+  - answer: Visit [Aspose's licensing page](https://purchase.aspose.com/temporary-license/)
+      to request one.
+    question: How do I obtain a temporary license for Aspose.PDF Java?
+  - answer: Yes, implement batch processing by iterating over files in a directory.
+    question: Can I convert multiple PDFs at once?
+  - answer: Check your input PDF for corrupted content or unsupported features and
+      retry after fixing the source.
+    question: What if the conversion fails for specific pages?
+  - answer: Optimize images and compress CSS/JS before embedding, or switch to a more
+      aggressive raster image mode.
+    question: How can I reduce the file size of the generated HTML?
+  type: FAQPage
+tags:
+- pdf to html
+- aspose pdf
+- java document conversion
+- embedded resources
+- html output
+title: Pdf to html java – chuyển PDF sang HTML với tài nguyên
 url: /vi/java/conversion-export/convert-pdf-to-html-aspose-java-embedded-resources/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Chuyển đổi PDF sang HTML với Tất cả Tài nguyên Được Nhúng Sử dụng Aspose.PDF cho Java
+
+# Chuyển đổi PDF sang HTML với tất cả tài nguyên được nhúng bằng Aspose.PDF cho Java
 
 ## Giới thiệu
 
-Việc chuyển đổi PDF sang HTML bằng **pdf to html java** có thể gặp khó khăn khi bạn cần mọi phông chữ, hình ảnh và kiểu dáng được giữ nguyên. May mắn là Aspose.PDF cho Java thực hiện phần công việc nặng, cho phép bạn tạo ra một tệp HTML duy nhất với tất cả tài nguyên được nhúng. Trong hướng dẫn này, bạn sẽ học cách thực hiện một **aspose pdf html conversion** đầy đủ, nhúng tài nguyên html, và giữ **pdf to html images** ngay trong đầu ra.
-
-**Bạn sẽ học được**
-
-- Cách sử dụng Aspose.PDF cho Java để chuyển đổi tệp PDF sang định dạng HTML.  
-- Cấu hình các tùy chọn để nhúng tất cả tài nguyên trong một tệp HTML duy nhất.  
-- Triển khai các chiến lược lưu HTML tùy chỉnh trong Java.  
-- Đảm bảo chuyển đổi mượt mà cho các tài liệu phức tạp có tài nguyên nhúng.
+Chuyển đổi PDF sang HTML bằng **pdf to html java** có thể khó khăn khi bạn cần mọi phông chữ, hình ảnh và kiểu dáng được giữ nguyên. Aspose.PDF cho Java loại bỏ sự phức tạp đó bằng cách cho phép bạn tạo một tệp HTML duy nhất trong đó tất cả tài nguyên được nhúng trực tiếp vào markup. Trong hướng dẫn này, bạn sẽ học cách thực hiện một **aspose pdf html conversion** đầy đủ, nhúng tài nguyên html, và giữ **pdf to html images** ngay trong đầu ra.
 
 ### Câu trả lời nhanh
-- **Aspose.PDF có thể nhúng phông chữ và hình ảnh không?** Có – nó có thể nhúng tất cả phông chữ và hình ảnh raster trực tiếp vào HTML.  
-- **Tôi có nhận được một tệp HTML duy nhất không?** Thiết lập `PartsEmbeddingModes.EmbedAllIntoHtml` sẽ tạo ra đầu ra dạng tệp‑đơn.  
-- **Thư viện chính cần thiết là gì?** Gói `aspose-pdf` cho Maven/Gradle.  
-- **Có cần giấy phép để sử dụng tính năng này không?** Bản dùng thử hoạt động, nhưng giấy phép chính thức sẽ loại bỏ các giới hạn đánh giá.  
-- **Có thể chạy trên Java 11+ không?** Hoàn toàn có thể – Aspose.PDF hỗ trợ các phiên bản JDK hiện đại.
+- **Aspose.PDF có thể nhúng phông chữ và hình ảnh không?** Có – nó nhúng tất cả phông chữ và hình ảnh raster trực tiếp vào HTML.  
+- **Tôi có nhận được một tệp HTML duy nhất không?** Thiết lập `PartsEmbeddingModes.EmbedAllIntoHtml` tạo ra một đầu ra dạng tệp‑đơn.  
+- **Thư viện chính nào được yêu cầu?** Gói Maven/Gradle `aspose-pdf`.  
+- **Có bắt buộc có giấy phép cho tính năng này không?** Bản dùng thử hoạt động, nhưng giấy phép vĩnh viễn loại bỏ các giới hạn đánh giá.  
+- **Tôi có thể chạy điều này trên Java 11+ không?** Chắc chắn – Aspose.PDF hỗ trợ các phiên bản JDK hiện đại.
 
-## Pdf to html java là gì?
+## pdf to html java là gì?
 
-`pdf to html java` đề cập đến quá trình lấy một tài liệu PDF và tạo ra một biểu diễn HTML một cách lập trình bằng các thư viện Java. Cách tiếp cận này lý tưởng cho việc xuất bản web, lưu trữ tài liệu, hoặc tích hợp PDF vào quy trình quản lý nội dung.
+`pdf to html java` là quá trình chuyển đổi một tài liệu PDF thành định dạng HTML bằng cách sử dụng một thư viện Java. Kỹ thuật này lý tưởng cho việc xuất bản web, lưu trữ tài liệu, hoặc tích hợp PDF vào quy trình quản lý nội dung nơi bạn cần một định dạng nhẹ, thân thiện với trình duyệt.
 
-## Tại sao nên nhúng resources html?
+## Tại sao phải nhúng tài nguyên html?
 
-Việc nhúng tài nguyên (phông chữ, hình ảnh, CSS) trực tiếp vào HTML loại bỏ các phụ thuộc bên ngoài, đảm bảo trang hiển thị đúng khi làm việc offline hoặc trong các môi trường cô lập như khách hàng email hoặc các công cụ tạo trang tĩnh.
+Việc nhúng phông chữ, hình ảnh và CSS trực tiếp vào HTML loại bỏ các phụ thuộc bên ngoài, đảm bảo trang hiển thị đúng khi làm việc offline, trong các client email, hoặc trên các trình tạo site tĩnh không thể tải tài nguyên bên ngoài. Nó cũng đơn giản hoá việc triển khai vì một tệp duy nhất có thể được sao chép hoặc kiểm soát phiên bản mà không lo thiếu thư mục tài nguyên, đồng thời cải thiện hiệu suất tải bằng cách giảm các yêu cầu HTTP.
 
-## Yêu cầu trước
+## Các yêu cầu trước
 
-Trước khi bắt đầu, hãy chắc chắn rằng bạn đã có:
+Trước khi bắt đầu, hãy chắc chắn rằng bạn có:
 
 ### Thư viện và phụ thuộc cần thiết
-- **Aspose.PDF cho Java** – phiên bản 25.3 trở lên.  
+- **Aspose.PDF for Java** – phiên bản 25.3 hoặc mới hơn (hỗ trợ hơn 50 định dạng đầu vào và đầu ra).  
 - **Java Development Kit (JDK)** – 8 hoặc mới hơn.  
-- **IDE** – IntelliJ IDEA, Eclipse hoặc NetBeans.
+- **IDE** – IntelliJ IDEA, Eclipse, hoặc NetBeans.
 
 ### Kiến thức nền tảng
 - Lập trình Java cơ bản.  
@@ -78,11 +117,11 @@ implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
 #### Các bước lấy giấy phép
-1. **Bản dùng thử miễn phí**: Tải bản dùng thử miễn phí từ trang web Aspose để đánh giá các tính năng.  
-2. **Giấy phép tạm thời**: Yêu cầu giấy phép tạm thời nếu bạn cần truy cập đầy đủ mà không có giới hạn trong thời gian đánh giá.  
-3. **Mua giấy phép**: Xem xét mua giấy phép để sử dụng lâu dài.
+1. **Free trial** – tải bản dùng thử từ trang web Aspose để đánh giá các tính năng.  
+2. **Temporary license** – yêu cầu giấy phép tạm thời để truy cập đầy đủ trong thời gian đánh giá.  
+3. **Purchase** – mua giấy phép vĩnh viễn cho việc sử dụng trong môi trường sản xuất.  
 
-Sau khi đã thêm vào dự án, khởi tạo Aspose.PDF:
+Khi thư viện đã có trong classpath, bạn có thể khởi tạo Aspose.PDF:
 
 ```java
 import com.aspose.pdf.Document;
@@ -98,11 +137,13 @@ public class PDFToHTMLConverter {
 }
 ```
 
-## Hướng dẫn triển khai
+## Hướng dẫn thực hiện
 
 Bây giờ chúng ta sẽ đi qua các bước chuyển đổi thực tế.
 
 ### Tải tài liệu PDF
+Lớp `Document` là đối tượng cấp cao nhất của Aspose.PDF, đại diện cho một tệp PDF duy nhất trong bộ nhớ. Sau khi tạo một thể hiện, bạn có thể truy cập các trang, tài nguyên và siêu dữ liệu.
+
 ```java
 import com.aspose.pdf.Document;
 
@@ -111,6 +152,8 @@ Document doc = new Document(dataDir + "/input.pdf");
 ```
 
 ### Cấu hình tùy chọn lưu HTML
+`HtmlSaveOptions` xác định cách PDF được chuyển đổi sang HTML. Bằng cách đặt `PartsEmbeddingModes` thành `EmbedAllIntoHtml`, mọi phông chữ, hình ảnh và quy tắc CSS sẽ được ghi inline, tạo ra một tệp tự chứa.
+
 ```java
 import com.aspose.pdf.HtmlSaveOptions;
 import com.aspose.pdf.LettersPositioningMethods;
@@ -124,6 +167,8 @@ newOptions.setSplitIntoPages(false); // Combine all pages into a single HTML fil
 ```
 
 ### Tùy chỉnh chiến lược lưu
+Bạn có thể tinh chỉnh việc xử lý hình ảnh raster, nén CSS và chèn JavaScript thông qua đối tượng tùy chọn. Đối với hầu hết các trường hợp, cài đặt mặc định cung cấp sự cân bằng tốt giữa kích thước tệp và độ trung thực.
+
 ```java
 import java.io.FileOutputStream;
 
@@ -144,6 +189,8 @@ newOptions.setCustomHtmlSavingStrategy(new HtmlSaveOptions.HtmlPageMarkupSavingS
 ```
 
 ### Lưu tài liệu
+Phương thức `save` ghi HTML ra đĩa. Vì tất cả tài nguyên đã được nhúng, bạn sẽ nhận được một tệp `.html` duy nhất có thể mở ở bất kỳ nơi nào mà không cần các tệp bổ sung.
+
 ```java
 String outHtmlFile = "YOUR_OUTPUT_DIRECTORY/ThisFileWillNotAppearOnDisk.html";
 doc.save(outHtmlFile, newOptions);
@@ -151,61 +198,67 @@ doc.save(outHtmlFile, newOptions);
 
 ## Ứng dụng thực tiễn
 
-- **Xuất bản web** – Nhúng tất cả tài nguyên trong một tệp HTML duy nhất để triển khai dễ dàng.  
-- **Lưu trữ tài liệu** – Bảo toàn PDF với mọi tài sản nhúng cho việc lưu trữ lâu dài.  
-- **Duyệt offline** – Người dùng có thể xem HTML đã chuyển đổi mà không cần kết nối internet.  
-- **Tích hợp CMS** – Đưa đầu ra dạng tệp‑đơn trực tiếp vào các hệ thống quản lý nội dung yêu cầu tài nguyên nhúng.
+- **Web publishing** – nhúng tất cả tài nguyên trong một tệp HTML duy nhất để lưu trữ dễ dàng.  
+- **Document archiving** – bảo tồn PDF cùng các tài sản nguyên gốc cho việc lưu trữ lâu dài.  
+- **Offline browsing** – người dùng có thể xem HTML đã chuyển đổi mà không cần kết nối internet.  
+- **CMS integration** – đưa đầu ra dạng tệp‑đơn trực tiếp vào các hệ thống quản lý nội dung yêu cầu tài nguyên nhúng.
 
 ## Các cân nhắc về hiệu năng
 
-- **Tối ưu tài nguyên** – `setRasterImagesSavingMode` nhúng hình ảnh một cách hiệu quả mà không làm tăng kích thước tệp quá mức.  
-- **Quản lý bộ nhớ** – Giám sát việc sử dụng heap của Java, đặc biệt với các PDF lớn, để tránh `OutOfMemoryError`.  
-- **Xử lý bất đồng bộ** – Đối với chuyển đổi hàng loạt, chạy mỗi chuyển đổi trong một luồng riêng hoặc sử dụng executor service.
+- **Optimizing resources** – `setRasterImagesSavingMode` nhúng hình ảnh một cách hiệu quả mà không làm phình to kích thước tệp.  
+- **Memory management** – giám sát việc sử dụng heap của Java, đặc biệt với các PDF lớn, để tránh `OutOfMemoryError`.  
+- **Asynchronous processing** – đối với chuyển đổi hàng loạt, chạy mỗi chuyển đổi trong một luồng riêng hoặc sử dụng executor service.
 
 ## Các vấn đề thường gặp và giải pháp
 
 | Vấn đề | Giải pháp |
 |-------|----------|
-| **Large PDF causes high memory usage** | Enable incremental processing or split the PDF before conversion. |
-| **Missing fonts in output** | Ensure the font files are accessible to the JVM or use `FontSavingModes.SaveInAllFormats`. |
-| **Images appear broken** | Verify `RasterImagesSavingMode` is set to embed PNG backgrounds. |
-| **Conversion stalls on complex pages** | Increase the JVM heap (`-Xmx2g`) and consider simplifying the source PDF. |
+| **Large PDF causes high memory usage** | Bật xử lý tăng dần hoặc chia nhỏ PDF trước khi chuyển đổi. |
+| **Missing fonts in output** | Đảm bảo các tệp phông chữ có trong classpath của JVM hoặc sử dụng `FontSavingModes.SaveInAllFormats`. |
+| **Images appear broken** | Kiểm tra `RasterImagesSavingMode` đã được đặt để nhúng nền PNG. |
+| **Conversion stalls on complex pages** | Tăng kích thước heap JVM (`-Xmx2g`) và cân nhắc đơn giản hoá PDF nguồn. |
 
 ## Câu hỏi thường gặp
 
-**H: Yêu cầu hệ thống để sử dụng Aspose.PDF Java là gì?**  
-Đ: Yêu cầu một JDK (8 hoặc mới hơn) và một IDE tương thích như IntelliJ IDEA hoặc Eclipse.
+**Q: Yêu cầu hệ thống để sử dụng Aspose.PDF Java là gì?**  
+A: Cần JDK 8 hoặc mới hơn và một IDE tương thích như IntelliJ IDEA hoặc Eclipse.
 
-**H: Làm sao để lấy giấy phép tạm thời cho Aspose.PDF Java?**  
-Đ: Truy cập [trang giấy phép của Aspose](https://purchase.aspose.com/temporary-license/) để yêu cầu.
+**Q: Làm thế nào để lấy giấy phép tạm thời cho Aspose.PDF Java?**  
+A: Truy cập [trang cấp phép của Aspose](https://purchase.aspose.com/temporary-license/) để yêu cầu.
 
-**H: Tôi có thể chuyển đổi nhiều PDF cùng lúc không?**  
-Đ: Có, triển khai xử lý batch bằng cách lặp qua các tệp trong một thư mục.
+**Q: Tôi có thể chuyển đổi nhiều PDF cùng lúc không?**  
+A: Có, triển khai xử lý batch bằng cách lặp qua các tệp trong một thư mục.
 
-**H: Nếu chuyển đổi thất bại ở một số trang thì sao?**  
-Đ: Kiểm tra PDF đầu vào xem có nội dung bị hỏng hoặc tính năng không được hỗ trợ và thử lại.
+**Q: Nếu chuyển đổi thất bại ở một số trang thì sao?**  
+A: Kiểm tra PDF đầu vào xem có nội dung bị hỏng hoặc tính năng không được hỗ trợ và thử lại sau khi sửa nguồn.
 
-**H: Làm sao giảm kích thước tệp HTML được tạo ra?**  
-Đ: Tối ưu hình ảnh và nén CSS/JS trước khi nhúng, hoặc chuyển sang chế độ raster image mạnh hơn.
+**Q: Làm sao giảm kích thước tệp HTML được tạo ra?**  
+A: Tối ưu hoá hình ảnh và nén CSS/JS trước khi nhúng, hoặc chuyển sang chế độ hình ảnh raster mạnh hơn.
 
 ## Tài nguyên
-- [Tài liệu](https://reference.aspose.com/pdf/java/)
-- [Tải Aspose.PDF](https://releases.aspose.com/pdf/java/)
-- [Mua giấy phép](https://purchase.aspose.com/buy)
-- [Bản dùng thử](https://releases.aspose.com/pdf/java/)
-- [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
-- [Diễn đàn hỗ trợ](https://forum.aspose.com/c/pdf/10)
+- [Documentation](https://reference.aspose.com/pdf/java/)
+- [Download Aspose.PDF](https://releases.aspose.com/pdf/java/)
+- [Purchase a License](https://purchase.aspose.com/buy)
+- [Free Trial](https://releases.aspose.com/pdf/java/)
+- [Temporary License](https://purchase.aspose.com/temporary-license/)
+- [Support Forum](https://forum.aspose.com/c/pdf/10)
 
 ---
 
-**Cập nhật lần cuối:** 2026-03-23  
-**Kiểm tra với:** Aspose.PDF cho Java 25.3  
-**Tác giả:** Aspose  
+**Last Updated:** 2026-09-12  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
+## Các hướng dẫn liên quan
+
+- [Cách Nhúng Hình PNG vào HTML từ PDF bằng Aspose.PDF Java](/pdf/java/conversion-export/convert-pdf-to-html-with-png-images-java/)
+- [Chuyển Đổi PDF sang HTML Đa Trang Sử Dụng Aspose.PDF cho Java: Hướng Dẫn Toàn Diện](/pdf/java/conversion-export/convert-pdf-to-multipage-html-aspose-java/)
+- [Chuyển Đổi PDF sang HTML với Thay Thế Phông Chữ Sử Dụng Aspose.PDF cho Java](/pdf/java/conversion-export/pdf-to-html-conversion-font-substitution-aspose-pdf-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
