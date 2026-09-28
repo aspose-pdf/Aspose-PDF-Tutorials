@@ -1,48 +1,100 @@
 ---
-date: '2026-04-05'
-description: Aspose.PDF kullanarak Java’da PDF’yi HTML’ye dönüştürürken PNG görüntüleri
-  nasıl gömeceğinizi öğrenin. Bu adım adım rehber, PDF’den HTML’ye dönüşümü kapsar
-  ve yüksek kaliteli görselleri garanti eder.
+date: '2026-09-07'
+description: Aspose.PDF for Java kullanarak PDF'yi HTML'ye dönüştürürken PNG görüntüleri
+  nasıl gömülür öğrenin. Bu kılavuz, kurulum, PNG rasterizasyon seçenekleri ve yüksek
+  kaliteli web çıktısı için performans ipuçlarını kapsar.
 keywords:
 - how to embed png
-- convert pdf to html
-- pdf to html java
+- pdf to html conversion
+- java pdf to html
+- extract images pdf
+- high quality pdf images
+lastmod: '2026-09-07'
+og_description: Aspose.PDF for Java kullanarak PDF'yi HTML'ye dönüştürürken PNG görüntüleri
+  nasıl gömülür öğrenin. Bu kılavuz, kurulum, PNG rasterizasyon seçenekleri ve yüksek
+  kaliteli web çıktısı için performans ipuçlarını kapsar.
+og_image_alt: Guide showing PNG image embedding during PDF to HTML conversion using
+  Aspose.PDF for Java
+og_title: Aspose.PDF Java ile PDF'den HTML'ye PNG görüntüleri nasıl gömülür
+schemas:
+- author: Aspose
+  dateModified: '2026-09-07'
+  description: Learn how to embed PNG images when converting PDF to HTML using Aspose.PDF
+    for Java. This guide covers setup, PNG rasterization options, and performance
+    tips for high‑quality web output.
+  headline: How to embed PNG images in HTML from PDF with Aspose.PDF Java
+  type: TechArticle
+- description: Learn how to embed PNG images when converting PDF to HTML using Aspose.PDF
+    for Java. This guide covers setup, PNG rasterization options, and performance
+    tips for high‑quality web output.
+  name: How to embed PNG images in HTML from PDF with Aspose.PDF Java
+  steps:
+  - name: open the source PDF document
+    text: The `Document` class represents a PDF file loaded into memory. Make sure
+      the `dataDir` points to the actual location of your PDF.
+  - name: configure HTML save options for PNG rasterization
+    text: The `HtmlSaveOptions` class defines how a PDF is saved as HTML, including
+      image handling. The `setFixedLayout(true)` flag keeps the HTML page layout identical
+      to the PDF, while the raster‑image mode ensures PNG embedding.
+  - name: save the converted HTML file
+    text: The `save` method writes the HTML output to a file on disk. The resulting
+      HTML file contains PNG images embedded directly in the page source.
+  type: HowTo
+- questions:
+  - answer: Yes. Iterate over a collection of PDF file paths and apply the same conversion
+      logic for each document.
+    question: Can I convert multiple PDFs to HTML at once?
+  - answer: Double‑check that `setFixedLayout(true)` is enabled; it preserves the
+      original PDF layout.
+    question: What if the converted HTML doesn’t look right?
+  - answer: Use `Document.optimizeResources()` and consider splitting the PDF into
+      smaller chunks before conversion.
+    question: How do I handle very large documents efficiently?
+  - answer: Absolutely. After conversion you can modify the HTML with standard web
+      tools or libraries.
+    question: Can I further edit the generated HTML?
+  - answer: Yes – Aspose provides online conversion tools for quick, code‑free testing.
+    question: Is there a way to try Aspose.PDF without writing code?
+  type: FAQPage
+tags:
+- embed png
+- pdf to html
 - aspose pdf java
-- batch convert pdf html
-title: Aspose.PDF Java ile PDF'den PNG Görüntüleri HTML'ye Nasıl Gömülür
+- java conversion
+- html images
+title: Aspose.PDF Java ile PDF'den HTML'ye PNG görüntüleri nasıl gömülür
 url: /tr/java/conversion-export/convert-pdf-to-html-with-png-images-java/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# PDF Aspose.PDF Java'dan HTML'ye PNG Görselleri Nasıl Gömülür
+
+# PDF'den HTML'ye PNG Görüntüleri Nasıl Gömülür Aspose.PDF Java ile
 
 ### Giriş
 
-PDF belgelerini HTML'ye dönüştürmek, düzgün yapılmazsa görüntü kalitesi sorunlarına yol açabilir. Bu öğreticide, Aspose.PDF for Java kullanarak PDF'yi HTML'ye dönüştürürken **PNG görsellerinin nasıl gömüleceğini** keşfedecek ve yüksek kaliteli görseller ile geniş tarayıcı uyumluluğu sağlayacaksınız.
+PDF'yi HTML'ye dönüştürürken PNG görüntüleri gömmek, belgelerinizin görsel bütünlüğünün tüm tarayıcılarda aynı kalmasını sağlar. Bu öğreticide Aspose.PDF for Java kullanarak **PNG'yi nasıl gömeceğinizi** öğrenecek, ortam kurulumundan yüksek kaliteli çıktı için HTML kaydetme seçeneklerinin ince ayarına kadar tüm adımları göreceksiniz.
 
-Bu rehberde şunları öğreneceksiniz:
-- Aspose.PDF for Java ile ortamınızı nasıl kuracağınızı
-- **PDF to HTML conversion**'ı PNG rasterlemesiyle nasıl yapılandıracağınızı
-- Aspose.PDF'deki HTML kaydetme seçeneklerinin temel özellikleri
-- Pratik uygulamalar, performans ipuçları ve yaygın tuzaklar
+Bu kılavuzda şunları öğreneceksiniz:
+- Aspose.PDF for Java ile ortamınızı nasıl kuracağınızı  
+- PNG rasterizasyonu ile **PDF'den HTML'ye dönüşüm** yapılandırma adımları  
+- Aspose.PDF'deki HTML kaydetme seçeneklerinin temel özellikleri  
+- Pratik uygulamalar, performans ipuçları ve yaygın tuzaklar  
 
-PDF'lerinizi zahmetsizce nasıl dönüştürebileceğinizi keşfedelim!
+Hadi PDF'lerinizi zahmetsizce nasıl dönüştürebileceğinizi keşfedelim!
 
 ## Hızlı Yanıtlar
-- **“embed PNG” ne anlama gelir?** PNG görüntü verisini doğrudan oluşturulan HTML dosyasının içine depolar.  
+- **“embed PNG” ne anlama geliyor?** PNG görüntü verisini doğrudan oluşturulan HTML dosyasının içinde saklar.  
 - **Hangi kütüphane gereklidir?** Aspose.PDF for Java (en son sürüm önerilir).  
-- **Lisans gerekli mi?** Test için ücretsiz deneme çalışır; üretim için ticari lisans gerekir.  
-- **Birçok PDF'yi toplu olarak dönüştürebilir miyim?** Evet – dosyalar üzerinde döngü kurup aynı dönüşüm kodunu yeniden kullanabilirsiniz.  
+- **Bir lisansa ihtiyacım var mı?** Test için ücretsiz deneme çalışır; üretim için ticari lisans gereklidir.  
+- **Birçok PDF'yi toplu olarak dönüştürebilir miyim?** Evet – dosyalar üzerinde döngü kurarak aynı dönüşüm kodunu yeniden kullanabilirsiniz.  
 - **Çıktı duyarlı mı?** Fixed‑layout seçeneği orijinal görünümü korur; daha sonra duyarlılık için CSS uygulayabilirsiniz.
 
-### Ön Koşullar
+### Önkoşullar
 
-Başlamadan önce şunların olduğundan emin olun:
+Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 - **Java Development Kit (JDK)**: Java 8 veya üzeri.  
 - **Maven veya Gradle**: Bağımlılık yönetimi için.  
 - **Aspose.PDF for Java**: Version 25.3 veya üzeri (veya en son sürüm).  
@@ -50,50 +102,48 @@ Başlamadan önce şunların olduğundan emin olun:
 
 ### Aspose.PDF for Java Kurulumu
 
-Kütüphaneyi projenizde bir bağımlılık olarak ekleyin.
+Projenize bir bağımlılık olarak kütüphaneyi ekleyin.
 
-**Maven**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-pdf</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle**
+**Gradle**  
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
-```
+```  
 
-#### Lisans Alımı
+#### Lisans edinme
 
-Ücretsiz deneme ile başlayabilir veya geçici bir değerlendirme lisansı alabilirsiniz. Üretim kullanımı için tam lisans satın alın.
+Ücretsiz deneme ile başlayabilir veya geçici bir değerlendirme lisansı edinebilirsiniz. Üretim kullanımı için tam lisans satın alın.
 
-- **Ücretsiz Deneme**: [Aspose PDF Ücretsiz İndirme](https://releases.aspose.com/pdf/java/)  
-- **Geçici Lisans**: [Geçici Lisans Al](https://purchase.aspose.com/temporary-license/)
+- **Ücretsiz deneme**: [Ücretsiz deneme](https://releases.aspose.com/pdf/java/)  
+- **Geçici lisans**: [Geçici lisans al](https://purchase.aspose.com/temporary-license/)
 
 ### Uygulama Kılavuzu
 
-Ortamınız hazır olduğunda, PNG görsellerini gömerken **PDF'yi HTML'ye dönüştürmek** için bu adımları izleyin.
+Ortamınız hazır olduğunda, PNG görüntüleri gömerken **PDF'yi HTML'ye dönüştürmek** için aşağıdaki adımları izleyin.
 
-#### Adım 1: Kaynak PDF Belgesini Aç
+#### Adım 1: kaynak PDF belgesini açın
 
-PDF dosyasını belleğe Aspose.PDF kullanarak yükleyin:
-
+`Document` sınıfı, belleğe yüklenmiş bir PDF dosyasını temsil eder.  
 ```java
 import com.aspose.pdf.Document;
 
 String dataDir = "YOUR_DOCUMENT_DIRECTORY/input.pdf";
 Document pdfDocument = new Document(dataDir);
-```
+```  
 
 `dataDir` değişkeninin PDF'nizin gerçek konumunu gösterdiğinden emin olun.
 
-#### Adım 2: PNG Rasterlemesi için HTML Kaydetme Seçeneklerini Yapılandırma
+#### Adım 2: PNG rasterizasyonu için HTML kaydetme seçeneklerini yapılandırın
 
-Görsellerin gömülü PNG parçaları olarak kaydedilmesi için dönüşüm seçeneklerini ayarlayın:
-
+`HtmlSaveOptions` sınıfı, PDF'nin HTML olarak nasıl kaydedileceğini, görüntü işleme dahil, tanımlar.  
 ```java
 import com.aspose.pdf.HtmlSaveOptions;
 
@@ -103,89 +153,96 @@ saveOptions.setFixedLayout(true);
 // Embed images as PNG instead of SVG
 saveOptions.setRasterImagesSavingMode(
     HtmlSaveOptions.RasterImagesSavingModes.AsEmbeddedPartsOfPngPageBackground);
-```
+```  
 
-`setFixedLayout(true)` bayrağı HTML sayfa düzenini PDF ile aynı tutar, raster‑image modu ise PNG gömülmesini sağlar.
+`setFixedLayout(true)` bayrağı, HTML sayfa düzenini PDF ile aynı tutar, raster‑image modu ise PNG gömülmesini sağlar.
 
-#### Adım 3: Dönüştürülen HTML Dosyasını Kaydet
+#### Adım 3: dönüştürülen HTML dosyasını kaydedin
 
-HTML çıktısını diske yazın:
-
+`save` yöntemi, HTML çıktısını diske bir dosya olarak yazar.  
 ```java
 String outputDir = "YOUR_OUTPUT_DIRECTORY/converted_file.html";
 pdfDocument.save(outputDir, saveOptions);
-```
+```  
 
-Ortaya çıkan HTML dosyası PNG görsellerini doğrudan sayfa kaynağına gömülmüş olarak içerir.
+Oluşan HTML dosyası, PNG görüntülerini doğrudan sayfa kaynağına gömülmüş olarak içerir.
 
-### Neden Bu Yaklaşımı Kullanmalı? (PDF'yi Yüksek Kaliteli Görsellerle HTML'ye Dönüştürme)
+## Neden bu yaklaşımı kullanmalısınız? (PDF'yi yüksek kaliteli görüntülerle HTML'ye nasıl dönüştürürsünüz)
 
-PNG görselleri gömmek, SVG'ye göre birkaç avantaj sunar:
-- **Tüm tarayıcılarda tutarlı render** eski sürümler dahil.  
-- **Görsel sıkıştırması ve renk derinliği** üzerinde daha iyi kontrol.  
-- **Basitleştirilmiş dağıtım** – harici görsel dosyalarına gerek yok.
+PNG görüntüleri gömmek, tüm tarayıcılarda piksel‑mükemmel render sağlar, harici görüntü dosyalarını ortadan kaldırır ve dağıtımı basitleştirir. PNG'ler kayıpsız kaliteyi korur, şeffaflığı destekler ve geniş çapta desteklenir; bu da grafikleri, logoları veya ayrıntılı görselleri içeren belgeler için idealdir.
 
-### Yaygın Kullanım Senaryoları
+## PNG gömme nedir?
 
-1. **Web Yayıncılığı** – PDF'leri indirme zorlamadan web‑uyumlu sayfalar olarak göster.  
-2. **E‑ticaret Kılavuzları** – Ürün rehberlerini doğrudan ürün sayfalarına göm.  
-3. **İçerik Yönetim Sistemleri** – Belgeleri aranabilir içerik için HTML olarak sakla.  
-4. **Toplu Dönüştürme** – Büyük belge kütüphanelerinin dönüşümünü otomatikleştir.
+PNG gömme, görüntü verisinin `<img>` etiketinin `src` özniteliği içinde Base64‑kodlu bir dize olarak saklanması demektir; böylece HTML dosyası tamamen tek bir dosya olur. Bu yaklaşım ayrı görüntü dosyalarına ihtiyaç duyulmasını ortadan kaldırır ve HTML taşındığında veya paylaşıldığında görsel düzenin değişmemesini garanti eder.
 
-### Performans Düşünceleri (PDF'den HTML'ye Java)
+## Aspose.PDF büyük PDF'leri nasıl yönetir?
 
-Büyük PDF'lerle çalışırken şu ipuçlarını aklınızda tutun:
-- Bellek kullanımını azaltmak için streaming API'leri veya `Document.optimizeResources()` kullanın.  
+Aspose.PDF, PDF içeriğini akış olarak işler ve isteğe bağlı olarak kullanılmayan nesneleri serbest bırakmak için `Document.optimizeResources()` çağrısı yapabilir; bu sayede tüm dosyayı belleğe yüklemeden çok sayfalı PDF'lerin dönüştürülmesi mümkün olur. JVM yığın ayarını (`-Xmx`) düzenlemek, bellek yetersizliği hatalarını daha da önler.
+
+## PDF'leri toplu olarak HTML'ye nasıl dönüştürürsünüz?
+
+PDF yollarının bir koleksiyonunu döngüyle işleyin, tek bir `HtmlSaveOptions` örneğini yeniden kullanın ve dönüşüm kodunu bir döngü veya iş parçacığı havuzu içinde çağırın. Bu, nesne oluşturma yükünü azaltır ve toplu işleme hız kazandırır. Dosyaları sıralı ya da paralel işleyerek CPU çekirdeklerini tam olarak kullanabilir ve bellek kullanımını düşük tutabilirsiniz.
+
+### Yaygın kullanım senaryoları
+
+1. **Web yayıncılığı** – PDF'leri indirmeye zorlamadan web‑dostu sayfalar olarak gösterin.  
+2. **E‑ticaret kılavuzları** – Ürün rehberlerini doğrudan ürün sayfalarına gömün.  
+3. **İçerik yönetim sistemleri** – Belgeleri aranabilir HTML olarak saklayın.  
+4. **Toplu dönüşüm** – Büyük belge kütüphanelerinin dönüşümünü otomatikleştirin.
+
+### Performans hususları (PDF'den HTML'ye Java)
+
+Büyük PDF'lerle çalışırken aşağıdaki ipuçlarını aklınızda tutun:
+- Bellek kullanımını azaltmak için akış API'lerini veya `Document.optimizeResources()` yöntemini kullanın.  
 - Dosya boyutuna göre JVM yığın boyutunu (`-Xmx`) ayarlayın.  
-- **PDF HTML'yi toplu dönüştürmeniz** gerekiyorsa, dosyaları sıralı işleyin veya bir thread havuzu kullanın, aynı `HtmlSaveOptions` örneğini yeniden kullanın.
+- Toplu dönüşümde, dosyaları sıralı işleyin veya bir iş parçacığı havuzu kullanın, aynı `HtmlSaveOptions` örneğini yeniden kullanın.
 
 ### Sorun Giderme ve Yaygın Tuzaklar
 
-- **Görseller eksik görünüyor** – `setRasterImagesSavingMode`'un `AsEmbeddedPartsOfPngPageBackground` olarak ayarlandığını doğrulayın.  
+- **Görüntüler eksik görünüyor** – `setRasterImagesSavingMode`'un `AsEmbeddedPartsOfPngPageBackground` olarak ayarlandığını doğrulayın.  
 - **Düzen bozulmuş** – `setFixedLayout(true)`'un etkin olduğundan emin olun.  
-- **Bellek yetersizliği hataları** – büyük dosyaları kaydetmeden önce `pdfDocument.optimizeResources()`'u etkinleştirin.  
-
-### Sonuç
-
-Artık Aspose.PDF for Java ile PDF'yi HTML'ye dönüştürürken **PNG görsellerinin nasıl gömüleceğini** biliyorsunuz. Bu yöntem güvenilir görsel doğruluk ve geniş tarayıcı desteği sağlar, web yayıncılığı, dokümantasyon portalları ve toplu dönüşüm hatları için idealdir.
-
-Bir sonraki projenizde deneyin ve sorunsuz PDF‑to‑HTML dönüşümlerinin keyfini çıkarın!
+- **Bellek yetersizliği hataları** – Büyük dosyaları kaydetmeden önce `pdfDocument.optimizeResources()`'u çağırın.  
 
 ## Sıkça Sorulan Sorular
 
 **S: Birden fazla PDF'yi aynı anda HTML'ye dönüştürebilir miyim?**  
 C: Evet. PDF dosya yollarının bir koleksiyonunu döngüyle işleyip her belge için aynı dönüşüm mantığını uygulayabilirsiniz.
 
-**S: Dönüştürülen HTML istediğim gibi görünmüyorsa ne yapmalıyım?**  
-C: `setFixedLayout(true)`'un etkin olduğunu tekrar kontrol edin; bu, orijinal PDF düzenini korur.
+**S: Dönüştürülen HTML istediğim gibi görünmezse ne yapmalıyım?**  
+C: `setFixedLayout(true)`'un etkin olduğunu bir kez daha kontrol edin; bu, orijinal PDF düzenini korur.
 
-**S: Çok büyük belgeleri verimli bir şekilde nasıl yönetebilirim?**  
-C: `Document.optimizeResources()` kullanın ve dönüşümden önce PDF'yi daha küçük parçalara bölmeyi düşünün.
+**S: Çok büyük belgeleri verimli bir şekilde nasıl yönetirim?**  
+C: `Document.optimizeResources()`'u kullanın ve dönüşümden önce PDF'yi daha küçük parçalara bölmeyi düşünün.
 
-**S: Oluşturulan HTML'yi daha fazla düzenleyebilir miyim?**  
+**S: Oluşturulan HTML'yi daha sonra düzenleyebilir miyim?**  
 C: Kesinlikle. Dönüştürmeden sonra HTML'yi standart web araçları veya kütüphanelerle değiştirebilirsiniz.
 
-**S: Aspose.PDF'yi kod yazmadan denemenin bir yolu var mı?**  
-C: Evet – Aspose hızlı, kodsuz test için çevrimiçi dönüşüm araçları sunar.
+**S: Kod yazmadan Aspose.PDF'yi denemenin bir yolu var mı?**  
+C: Evet – Aspose, hızlı ve kod‑gerektirmeyen testler için çevrimiçi dönüşüm araçları sunar.
 
 ### Kaynaklar
-- **Dokümantasyon**: [Aspose PDF Java Reference](https://reference.aspose.com/pdf/java/)  
-- **İndirme**: [Aspose PDF Releases](https://releases.aspose.com/pdf/java/)  
-- **Satın Alma**: [Buy Aspose License](https://purchase.aspose.com/buy)  
-- **Ücretsiz Deneme**: [Aspose PDF Free Download](https://releases.aspose.com/pdf/java/)  
-- **Geçici Lisans**: [Get Temporary License](https://purchase.aspose.com/temporary-license/)  
-- **Destek**: [Aspose Support Forum](https://forum.aspose.com/c/pdf/10)
+- **Dokümantasyon**: [Dokümantasyon](https://reference.aspose.com/pdf/java/)  
+- **İndirme**: [İndirme](https://releases.aspose.com/pdf/java/)  
+- **Satın Al**: [Satın Al](https://purchase.aspose.com/buy)  
+- **Ücretsiz deneme**: [Ücretsiz deneme](https://releases.aspose.com/pdf/java/)  
+- **Geçici lisans al**: [Geçici lisans al](https://purchase.aspose.com/temporary-license/)  
+- **Destek**: [Destek](https://forum.aspose.com/c/pdf/10)
 
 ---
 
-**Son Güncelleme:** 2026-04-05  
-**Test Edilen Versiyon:** Aspose.PDF for Java 25.3 (yazım zamanındaki en son sürüm)  
-**Yazar:** Aspose  
+**Son Güncelleme:** 2026-09-07  
+**Test Edilen Versiyon:** Aspose.PDF for Java 25.3 (yazım zamanı en son sürüm)  
+**Yazar:** Aspose
+
+## İlgili Öğreticiler
+
+- [Aspose.PDF for Java ile PDF'yi PNG'ye Dönüştürme – Kapsamlı Rehber](/pdf/java/conversion-export/convert-pdf-pages-to-png-aspose-pdf-java/)
+- [Aspose.PDF for Java ile PDF'yi Çok Sayfalı HTML'ye Dönüştürme&#58; Tam Rehber](/pdf/java/conversion-export/convert-pdf-to-multipage-html-aspose-java/)
+- [Aspose.PDF for Java ile PDF'lerden Görüntüleri Çıkarma ve Listeleme&#58; Kapsamlı Rehber](/pdf/java/images-graphics/aspose-pdf-java-extract-images/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
