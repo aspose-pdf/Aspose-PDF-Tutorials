@@ -38,6 +38,7 @@ Aspose.PDF for .NET の「画像を使ったプログラミング」チュート
 | [PDFファイルの画像情報](./image-information/) 包括的なステップバイステップ ガイドを使用して、Aspose.PDF for .NET を使用して PDF から画像情報を抽出する方法を学習します。 |  
 | [画像の配置](./image-placements/) Aspose.PDF for .NET を使用して、PDF ドキュメント内の画像配置を抽出および操作する方法を学びます。例とコードスニペットを使ったステップバイステップのガイドです。 |  
 | [画像をPDFに変換](./image-to-pdf/) Aspose.PDF for .NET を使って画像を PDF に変換する方法をステップバイステップで解説します。開発者や技術愛好家に最適です。 |  
+| [空白のPDFページを作成 – 画像の追加、切り抜き、サイズ変更の完全ガイド](./create-blank-pdf-page-full-guide-to-adding-cropping-resizing/) Aspose.PDF for .NET を使用して、空白のPDFページに画像を追加、切り抜き、サイズ変更する方法をステップバイステップで解説します。 |  
 | [大きなCGM画像をPDFに変換](./large-cgm-image-to-pdf/) Aspose.PDF for .NETを使えば、大容量のCGM画像を簡単にPDFに変換できます。この簡単なガイドに従って、迅速かつ効果的な変換プロセスを実現しましょう。 |  
 | [ページから画像へ](./pages-to-images/) この包括的なステップバイステップ ガイドに従って、Aspose.PDF for .NET を使用して PDF ページを高品質の画像にすばやく変換します。 |  
 | [ページをEMFに変換](./page-to-emf/) Aspose.PDF for .NET を使用して PDF ページを EMF 形式に変換する方法を、このステップバイステップガイドで学びましょう。開発者に最適です。 |  

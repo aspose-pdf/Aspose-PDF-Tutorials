@@ -1,0 +1,7 @@
+Title: Lossless Image Compression in Word Docs – Complete Guide
+Slug: lossless-image-compression-in-word-docs-complete-guide
+Category: images-graphics
+ProcessedDate: 2026-06-21T15:11:25.817868
+SourceRepo: AI Search API
+Keywords: lossless image compression, reduce word file size, compress word images, shrink docx size, optimize docx document
+PRNumber: 93

@@ -35,6 +35,9 @@ Tìm hiểu cách chuyển đổi tệp SVG thành PDF chất lượng cao một
 ### [Tạo & Điền Hình Chữ Nhật Trong PDF Sử Dụng Aspose.PDF Cho .NET: Hướng Dẫn Từng Bước](./create-fill-rectangle-aspose-pdf-net/)
 Tìm hiểu cách tạo và điền hình chữ nhật trong tài liệu PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước này bao gồm mọi thứ từ thiết lập đến triển khai bằng C#.
 
+### [Thêm hình chữ nhật vào PDF bằng C# – Hướng dẫn đầy đủ Aspose PDF](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+Hướng dẫn chi tiết cách tạo và chèn hình chữ nhật vào tài liệu PDF bằng C# sử dụng Aspose.PDF cho .NET.
+
 ### [Tạo tem PDF tùy chỉnh với Aspose.PDF trong .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Hướng dẫn mã cho Aspose.PDF Net
 
@@ -103,6 +106,12 @@ Tìm hiểu cách tạo PDF có gắn thẻ có thể truy cập được nhúng
 
 ### [Cách tạo hình chữ nhật trong suốt trong PDF bằng Aspose.PDF cho .NET](./create-transparent-rectangles-aspose-pdf-dotnet/)
 Tìm hiểu cách cải thiện tài liệu PDF của bạn bằng cách tạo hình chữ nhật có độ trong suốt alpha bằng Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước này.
+
+### [Cách Vẽ Hình Chữ Nhật trong PDF bằng C# – Hướng Dẫn Từng Bước](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
+Tìm hiểu cách vẽ hình chữ nhật trong tài liệu PDF bằng C# sử dụng Aspose.PDF cho .NET qua hướng dẫn chi tiết từng bước.
+
+### [Thêm Độ Trong Suốt vào PDF với Aspose PDF trong C# – Hướng Dẫn Từng Bước](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Tìm hiểu cách áp dụng độ trong suốt cho các đối tượng trong PDF bằng Aspose PDF và C# qua hướng dẫn chi tiết.
 
 ### [Cách xóa hình ảnh khỏi tệp PDF bằng Aspose.PDF cho .NET - Hướng dẫn đầy đủ](./delete-images-aspose-pdf-net/)
 Tìm hiểu cách xóa hình ảnh khỏi tệp PDF hiệu quả bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm thiết lập, ví dụ về mã và các biện pháp thực hành tốt nhất.

@@ -35,6 +35,9 @@
 ### [Δημιουργία & Γέμισμα Ορθογώνιων σε PDF Χρησιμοποιώντας το Aspose.PDF για .NET: Οδηγός Βήμα προς Βήμα](./create-fill-rectangle-aspose-pdf-net/)
 Μάθετε πώς να δημιουργείτε και να γεμίζετε ορθογώνια σε έγγραφα PDF χρησιμοποιώντας το Aspose.PDF για .NET. Αυτός ο οδηγός βήμα προς βήμα καλύπτει τα πάντα, από την εγκατάσταση έως την υλοποίηση με C#.
 
+### [Πώς να σχεδιάσετε ορθογώνιο σε PDF με C# – Οδηγός βήμα προς βήμα](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
+### [Προσθήκη ορθογωνίου σε PDF με C# – Πλήρης οδηγός Aspose PDF](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+
 ### [Δημιουργήστε προσαρμοσμένες σφραγίδες PDF με το Aspose.PDF σε .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Ένα σεμινάριο κώδικα για το Aspose.PDF Net
 
@@ -43,6 +46,8 @@
 
 ### [Σχεδιάστε διαφανή σχήματα σε PDF με το Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 Ένα σεμινάριο κώδικα για το Aspose.PDF Net
+
+### [Προσθήκη διαφάνειας σε PDF με το Aspose PDF σε C# – Οδηγός βήμα προς βήμα](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 
 ### [Αποτελεσματική αναγνώριση εικόνας PDF με το Aspose.PDF για .NET](./master-image-identification-aspose-pdf-net/)
 Μάθετε πώς να αναγνωρίζετε εικόνες σε κλίμακα του γκρι και RGB σε PDF χρησιμοποιώντας το Aspose.PDF για .NET. Αυτό το σεμινάριο καλύπτει την εγκατάσταση, την εξαγωγή εικόνων και συμβουλές απόδοσης.

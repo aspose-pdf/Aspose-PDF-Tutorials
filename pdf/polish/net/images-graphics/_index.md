@@ -35,6 +35,9 @@ Dowiedz się, jak bezproblemowo konwertować pliki SVG do wysokiej jakości plik
 ### [Tworzenie i wypełnianie prostokątów w plikach PDF za pomocą Aspose.PDF dla .NET: przewodnik krok po kroku](./create-fill-rectangle-aspose-pdf-net/)
 Dowiedz się, jak tworzyć i wypełniać prostokąty w dokumentach PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik krok po kroku obejmuje wszystko, od konfiguracji po implementację za pomocą C#.
 
+### [Dodaj prostokąt do PDF za pomocą C# – Kompletny przewodnik Aspose PDF](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+Dowiedz się, jak dodać prostokąt do pliku PDF przy użyciu C# i Aspose.PDF, krok po kroku, z przykładami kodu.
+
 ### [Utwórz niestandardowe stemple PDF za pomocą Aspose.PDF w .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Samouczek dotyczący kodu dla Aspose.PDF Net
 
@@ -104,6 +107,9 @@ Dowiedz się, jak tworzyć dostępne, oznaczone pliki PDF z osadzonymi obrazami 
 ### [Jak tworzyć przezroczyste prostokąty w plikach PDF za pomocą Aspose.PDF dla .NET](./create-transparent-rectangles-aspose-pdf-dotnet/)
 Dowiedz się, jak ulepszyć swoje dokumenty PDF, tworząc prostokąty z przezroczystością alfa za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku.
 
+### [Jak narysować prostokąt w plikach PDF przy użyciu C# – przewodnik krok po kroku](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
+Dowiedz się, jak narysować prostokąt w pliku PDF przy użyciu C# i Aspose.PDF .NET, krok po kroku, z przykładami kodu.
+
 ### [Jak usunąć obrazy z plików PDF za pomocą Aspose.PDF dla .NET - kompletny przewodnik](./delete-images-aspose-pdf-net/)
 Dowiedz się, jak skutecznie usuwać obrazy z plików PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje konfigurację, przykłady kodu i najlepsze praktyki.
 
@@ -163,6 +169,9 @@ Dowiedz się, jak przekształcać złożone skrypty LaTeX w dokumenty PDF za pom
 
 ### [Ustawianie tła obrazu w plikach PDF za pomocą Aspose.PDF dla .NET: kompleksowy przewodnik](./aspose-pdf-net-set-image-backgrounds/)
 Dowiedz się, jak ulepszyć swoje dokumenty PDF, ustawiając tła obrazów za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje wskazówki dotyczące konfiguracji, implementacji i optymalizacji.
+
+### [Dodaj przezroczystość do PDF przy użyciu Aspose PDF w C# – Przewodnik krok po kroku](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Dowiedz się, jak w C# dodać przezroczystość do plików PDF przy użyciu Aspose.PDF, krok po kroku.
 
 ## Dodatkowe zasoby
 

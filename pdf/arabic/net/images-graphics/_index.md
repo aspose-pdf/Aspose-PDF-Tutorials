@@ -35,6 +35,10 @@
 ### [إنشاء المستطيلات وملؤها في ملفات PDF باستخدام Aspose.PDF لـ .NET: دليل خطوة بخطوة](./create-fill-rectangle-aspose-pdf-net/)
 تعرّف على كيفية إنشاء مستطيلات وتعبئتها في مستندات PDF باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل خطوة بخطوة كل شيء، من الإعداد إلى التنفيذ باستخدام C#.
 
+### [كيفية رسم مستطيل في PDF باستخدام C# – دليل خطوة بخطوة](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
+### [إضافة مستطيل إلى PDF باستخدام C# – دليل كامل Aspose PDF](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+تعلم خطوة بخطوة إضافة مستطيلات إلى ملفات PDF باستخدام C# و Aspose.PDF مع أمثلة عملية وإعدادات متقدمة.
+
 ### [إنشاء طوابع PDF مخصصة باستخدام Aspose.PDF في .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 برنامج تعليمي لبرمجة Aspose.PDF Net
 
@@ -43,6 +47,8 @@
 
 ### [ارسم أشكالًا شفافة في ملفات PDF باستخدام Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 برنامج تعليمي لبرمجة Aspose.PDF Net
+
+### [إضافة الشفافية إلى ملفات PDF باستخدام Aspose PDF في C# – دليل خطوة بخطوة](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 
 ### [التعرف على صور PDF بكفاءة باستخدام Aspose.PDF لـ .NET](./master-image-identification-aspose-pdf-net/)
 تعرّف على كيفية تحديد صور تدرجات الرمادي وألوان RGB في ملفات PDF باستخدام Aspose.PDF لـ .NET. يغطي هذا البرنامج التعليمي التثبيت، واستخراج الصور، ونصائح الأداء.

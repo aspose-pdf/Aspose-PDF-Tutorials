@@ -50,6 +50,9 @@ Tìm hiểu cách in hiệu quả các trang cụ thể của PDF bằng Aspose.
 ### [Thiết lập Hệ số thu phóng tùy chỉnh trong PDF bằng Aspose.PDF cho .NET - Hướng dẫn đầy đủ](./aspose-pdf-net-set-zoom-factor-pdfs/)
 Tìm hiểu cách thiết lập hệ số thu phóng tùy chỉnh trong tài liệu PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm cài đặt, các bước triển khai và ứng dụng thực tế.
 
+### [Cách Render PDF trong C# – Hướng dẫn đầy đủ về PNG, HTML & Đánh dấu](./how-to-render-pdf-in-c-complete-guide-to-png-html-stamping/)
+Tìm hiểu cách chuyển đổi PDF sang PNG, HTML và áp dụng dấu (stamp) trong C# bằng Aspose.PDF, kèm ví dụ mã chi tiết.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)

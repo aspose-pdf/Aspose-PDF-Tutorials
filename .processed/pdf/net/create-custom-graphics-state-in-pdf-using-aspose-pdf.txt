@@ -1,0 +1,7 @@
+Title: Create custom graphics state in PDF using Aspose.Pdf
+Slug: create-custom-graphics-state-in-pdf-using-aspose-pdf
+Category: programming-with-operators
+ProcessedDate: 2026-08-21T06:12:40.520823
+SourceRepo: AI Search API
+Keywords: create custom graphics state, edit pdf resources, add transparency pdf
+PRNumber: 122

@@ -19,6 +19,7 @@ Este recurso incluye tutoriales sobre la programación con la función de docume
 ## Tutoriales
 | Título | Descripción |
 | --- | --- | 
+| [Abrir archivo PDF C# – Cómo reparar un PDF corrupto en minutos](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) Aprenda a reparar rápidamente archivos PDF dañados usando Aspose.PDF para .NET en C#.  
 | [Agregar Java Script a un archivo PDF](./addjavascripttopage/) Aprenda a añadir JavaScript a archivos PDF con Aspose.PDF para .NET. Guía paso a paso con tutoriales de código para scripting a nivel de documento y página.  
 | [Agregar capas a un archivo PDF](./addlayers/) Descubre cómo añadir capas a archivos PDF con Aspose.PDF para .NET. Esta guía paso a paso mejorará tus habilidades de manipulación de PDF.  
 | [Agregar o quitar Javascript a un documento PDF](./addremovejavascripttodoc/) Aprenda a agregar y eliminar JavaScript en documentos PDF con Aspose.PDF para .NET. Guía paso a paso con tutoriales de código para scripting a nivel de documento.  
@@ -58,6 +59,7 @@ Este recurso incluye tutoriales sobre la programación con la función de docume
 | [Validar PDF AB Standard](./validatepdfabstandard/) Aprenda a validar un PDF para el estándar PDF/A-1b con Aspose.PDF para .NET en este tutorial paso a paso. Asegúrese de que el archivo sea compatible a largo plazo.  
 | [Validar archivos PDF Un estándar](./validatepdfastandard/) | Aprenda a validar archivos PDF según el estándar PDF/A-1a usando Aspose.PDF para .NET en este completo tutorial paso a paso. |  
 | [Validar PDF UA Standard](./validatepdfuastandard/) | Aprenda a validar un PDF para el estándar de accesibilidad PDF/UA usando Aspose.PDF para .NET con nuestra guía paso a paso y explicaciones detalladas. |  
+| [Cómo reparar archivos PDF – Guía paso a paso usando Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Aprenda a reparar archivos PDF dañados con Aspose.Pdf para .NET mediante una guía paso a paso con ejemplos de código. |  
 | [Cómo leer un documento Word y extraer una página específica de Word – Guía C#](./how-to-read-word-document-and-extract-specific-page-from-wor/) Aprenda a leer documentos Word y extraer una página específica usando C# y Aspose.Words. Guía paso a paso con ejemplos de código.  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
