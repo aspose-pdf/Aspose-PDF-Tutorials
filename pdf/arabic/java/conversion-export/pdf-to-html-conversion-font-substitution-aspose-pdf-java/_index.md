@@ -1,9 +1,72 @@
 ---
-"date": "2025-04-14"
-"description": "تعرّف على كيفية تحويل ملفات PDF إلى HTML باستخدام Aspose.PDF لجافا، بما في ذلك تقنيات استبدال الخطوط. مثالي للمطورين الذين يسعون إلى الحفاظ على سلامة المستندات."
-"title": "تحويل PDF إلى HTML مع استبدال الخط باستخدام Aspose.PDF لـ Java"
-"url": "/ar/java/conversion-export/pdf-to-html-conversion-font-substitution-aspose-pdf-java/"
-"weight": 1
+date: '2026-07-27'
+description: تعلم كيفية تحويل PDF إلى HTML Java باستخدام Aspose.PDF، بما في ذلك كيفية
+  استبدال fonts للـ typefaces المفقودة. اتبع تعليمات step‑by‑step للحصول على تحويل
+  سلس.
+keywords:
+- convert pdf to html java
+- how to substitute fonts
+- Aspose.PDF for Java
+lastmod: '2026-07-27'
+og_description: تعلم كيفية تحويل PDF إلى HTML Java باستخدام Aspose.PDF، بما في ذلك
+  كيفية استبدال fonts للـ typefaces المفقودة. اتبع تعليمات step‑by‑step للحصول على
+  تحويل سلس.
+og_image_alt: Guide showing PDF to HTML conversion with font substitution in Java
+  using Aspose.PDF
+og_title: تحويل PDF إلى HTML Java مع Font Substitution Aspose.PDF
+schemas:
+- author: Aspose
+  dateModified: '2026-07-27'
+  description: Learn how to convert PDF to HTML Java using Aspose.PDF, including how
+    to substitute fonts for missing typefaces. Follow step‑by‑step instructions for
+    seamless conversion.
+  headline: Convert PDF to HTML Java with Font Substitution Aspose.PDF
+  type: TechArticle
+- description: Learn how to convert PDF to HTML Java using Aspose.PDF, including how
+    to substitute fonts for missing typefaces. Follow step‑by‑step instructions for
+    seamless conversion.
+  name: Convert PDF to HTML Java with Font Substitution Aspose.PDF
+  steps:
+  - name: Set up directories and load the document
+    text: Define the input PDF path and the desired HTML output location. Then create
+      a `Document` instance to represent the source PDF.
+  - name: Create a custom font‑substitution class
+    text: '`CustomFontSubstitutionBase` is the base class Aspose.PDF uses to resolve
+      missing fonts. Extend it and override the `substituteFont` method to map source
+      fonts to your preferred replacements.'
+  - name: Register a notifier for substitution events
+    text: Attach an event handler to `Document` so you can log each substitution occurrence.
+      This helps you verify that all missing fonts are being correctly replaced.
+  - name: Configure HtmlSaveOptions and perform the conversion
+    text: Instantiate `HtmlSaveOptions`, set any required options (such as `SplitIntoPages`),
+      and call `document.save(outputPath, htmlOptions)` to generate the HTML files.
+  type: HowTo
+- questions:
+  - answer: Yes – instantiate `Document` with the password parameter or set `document.decrypt(password)`
+      before conversion.
+    question: Can I convert password‑protected PDFs?
+  - answer: Absolutely. Use `HtmlSaveOptions.setPageIndex()` and `setPageCount()`
+      to limit the conversion range.
+    question: Does the API support converting only selected pages?
+  - answer: There is no hard limit; you can map as many as needed, typically using
+      a `Map<String, String>` for fast lookup.
+    question: How many fonts can I map in a single substitution class?
+  - answer: Font names are matched case‑insensitively by default, but you can enforce
+      case sensitivity by customizing the logic.
+    question: Is font substitution case‑sensitive?
+  - answer: The Aspose.PDF for Java documentation provides a rich set of code samples
+      covering all conversion scenarios.
+    question: Where can I find more examples?
+  type: FAQPage
+tags:
+- convert pdf
+- Aspose.PDF
+- Java
+- font substitution
+- PDF to HTML
+title: تحويل PDF إلى HTML Java مع Font Substitution Aspose.PDF
+url: /ar/java/conversion-export/pdf-to-html-conversion-font-substitution-aspose-pdf-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,33 +74,59 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# إتقان تحويل PDF إلى HTML مع استبدال الخط باستخدام Aspose.PDF لـ Java
+# إتقان تحويل PDF إلى HTML مع استبدال الخطوط باستخدام Aspose.PDF للـ Java
 
 ## مقدمة
 
-هل تبحث عن طريقة سلسة لتحويل مستندات PDF إلى HTML مع الحفاظ على جودة خطوطك؟ أنت في المكان المناسب! سيرشدك هذا البرنامج التعليمي إلى كيفية استخدام Aspose.PDF لجافا لتحويل PDF إلى HTML بكفاءة، بما في ذلك استبدال الخطوط. سواء كنت مطورًا تُدير سير عمل المستندات أو متخصصًا في تكنولوجيا المعلومات تبحث عن حلول فعّالة، فهذه الميزة لا تُقدّر بثمن.
+حوّل ملفات PDF إلى HTML باستخدام Aspose.PDF للـ Java واحرص على أن تبدو الخطوط كما هو مقصود. في هذا الدرس ستتعلم طريقة كاملة وجاهزة للإنتاج لتحويل ملفات PDF إلى HTML جاهز للويب مع استبدال الخطوط المفقودة تلقائيًا. سواءً كنت تبني خدمة أرشفة مستندات، أو كتالوجًا للتجارة الإلكترونية، أو مستوردًا لنظام إدارة محتوى، فإن هذا الدليل يمنحك الثقة لتقديم نتائج دقيقة على مستوى البكسل.
 
-### ما سوف تتعلمه:
-- إعداد Aspose.PDF واستخدامه لـJava.
-- تحويل ملفات PDF إلى HTML مع استبدال الخطوط.
-- تخصيص منطق استبدال الخط باستخدام واجهة برمجة التطبيقات القوية لـ Aspose.PDF.
-- التطبيقات الواقعية لعملية التحويل.
+### إجابات سريعة
+- **ماذا يفعل التحويل؟** إنه ينشئ HTML يعكس تخطيط PDF الأصلي، بما في ذلك الصور والجداول والنص المنسق.  
+- **هل يمكنني استبدال الخطوط المفقودة؟** نعم – يتيح لك Aspose.PDF ربط الخطوط غير المتوفرة ببدائل تحددها.  
+- **ما نسخة Java المطلوبة؟** Java 8 أو أعلى؛ المكتبة تعمل على جميع JVM الحديثة.  
+- **هل أحتاج إلى ترخيص للإنتاج؟** الترخيص التجاري يزيل قيود النسخة التجريبية؛ تتوفر نسخة تجريبية مجانية للتقييم.  
+- **هل العملية سريعة للملفات الكبيرة؟** مع ضبط الذاكرة بشكل مناسب، يتعامل Aspose.PDF مع ملفات PDF مكونة من 500 صفحة في أقل من دقيقة.
 
-قبل البدء في التنفيذ، تأكد من أن لديك كل المتطلبات الأساسية اللازمة.
+## ما هو Aspose.PDF للـ Java؟
 
-## المتطلبات الأساسية
+Aspose.PDF للـ Java هو API شامل يتيح إنشاء ومعالجة وتحويل مستندات PDF دون الحاجة إلى Adobe Acrobat. يدعم أكثر من 50 تنسيق إدخال وإخراج، ويوفر وصولًا منخفض المستوى إلى الكائنات، ويمكنه معالجة ملفات مئات الصفحات دون تحميل المستند بالكامل في الذاكرة، مما يجعله مثاليًا لأتمتة الخادم.
 
-لمتابعة هذا البرنامج التعليمي بشكل فعال، ستحتاج إلى:
+## لماذا تستخدم Aspose.PDF للـ Java لتحويل PDF إلى HTML؟
 
-- **المكتبات والإصدارات**:تأكد من أن لديك Aspose.PDF لإصدار Java 25.3.
-- **إعداد البيئة**:بيئة تطوير قادرة على تشغيل تطبيقات Java (يوصى باستخدام IDE مثل IntelliJ IDEA أو Eclipse).
-- **متطلبات المعرفة**:المعرفة بمفاهيم برمجة جافا، وخاصة التعامل مع الملفات والاستثناءات.
+يعالج Aspose.PDF ملفات PDF على مستوى الكائن، مع الحفاظ على الرسومات المتجهة، الخطوط المدمجة، والتخطيطات المعقدة. تشمل الفوائد الم quantified **أكثر من 50 تنسيق ملف**، القدرة على تحويل **ملفات PDF مكونة من 500 صفحة في أقل من 60 ثانية**، وتشغيل **بدون تبعيات** (لا حاجة إلى عارضات PDF خارجية).
 
-## إعداد Aspose.PDF لـ Java
+## ما هو استبدال الخطوط ولماذا هو مهم؟
+
+استبدال الخطوط يستبدل نوع الخط المفقود أو غير المتاح ببديل محدد مسبقًا، مما يضمن بقاء المظهر البصري للـ HTML المحول متسقًا. بدون الاستبدال، قد يظهر الإخراج بخطوط النظام الافتراضية، مما يخل بتصميم وقراءة صفحات الويب الخاصة بك.
+
+## المتطلبات المسبقة
+
+- **Aspose.PDF للـ Java** الإصدار 25.3 (أو أحدث).  
+- بيئة تطوير Java 8+ (IntelliJ IDEA، Eclipse، أو أي IDE تختاره).  
+- معرفة أساسية بـ Java I/O ومعالجة الاستثناءات.  
+
+## كيفية تحويل PDF إلى HTML باستخدام Java مع استبدال الخطوط؟
+
+يتكون سير عمل التحويل من ثلاث خطوات رئيسية: تحميل ملف PDF، تطبيق معالج استبدال الخطوط المخصص، وحفظ النتيجة كـ HTML. تمثل فئة `Document` ملف PDF وتوفر طرقًا للتلاعب بمحتوياته. تحدد فئة `HtmlSaveOptions` كيفية تحويل PDF إلى HTML، وتتيح فئة `CustomFontSubstitutionBase` التحكم في منطق استبدال الخطوط. باتباع الخطوات المفصلة أدناه، يمكنك إنتاج مستندات جاهزة للويب تحتفظ بالمظهر الأصلي بدقة.
+
+### الخطوة 1: إعداد الأدلة وتحميل المستند
+حدد مسار PDF الإدخالي وموقع إخراج HTML المطلوب. ثم أنشئ كائن `Document` لتمثيل ملف PDF المصدر.
+
+### الخطوة 2: إنشاء فئة استبدال خطوط مخصصة
+`CustomFontSubstitutionBase` هي الفئة الأساسية التي يستخدمها Aspose.PDF لحل مشكلة الخطوط المفقودة. قم بامتدادها وتجاوز طريقة `substituteFont` لربط الخطوط المصدر بالبدائل التي تفضلها.
+
+### الخطوة 3: تسجيل مُنبه لأحداث الاستبدال
+أرفق معالج حدث إلى `Document` لتسجيل كل حالة استبدال. يساعدك ذلك على التحقق من أن جميع الخطوط المفقودة تم استبدالها بشكل صحيح.
+
+### الخطوة 4: تكوين HtmlSaveOptions وإجراء التحويل
+أنشئ كائن `HtmlSaveOptions`، اضبط أي خيارات مطلوبة (مثل `SplitIntoPages`)، ثم استدعِ `document.save(outputPath, htmlOptions)` لإنشاء ملفات HTML.
+
+## كيفية إعداد Aspose.PDF للـ Java؟
+
+يمكن إضافة Aspose.PDF للـ Java إلى مشروعك باستخدام Maven أو Gradle. اختر أداة البناء التي تناسب سير عملك وأضف التبعية كما هو موضح أدناه.
 
 ### التثبيت عبر Maven
-
-لإضافة Aspose.PDF إلى مشروعك باستخدام Maven، قم بتضمين التبعية التالية في ملفك `pom.xml`:
+أضف التبعية التالية إلى ملف `pom.xml` الخاص بك:
 
 ```xml
 <dependency>
@@ -48,58 +137,101 @@
 ```
 
 ### التثبيت عبر Gradle
-
-بالنسبة للمشاريع التي تستخدم Gradle، أضف السطر التالي إلى ملفك `build.gradle`:
+أدرج السطر التالي في ملف `build.gradle` الخاص بك:
 
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
 ### خطوات الحصول على الترخيص
+يقدم Aspose.PDF نسخة تجريبية مجانية، تراخيص مؤقتة للتقييم، وترخيصًا تجاريًا كاملًا للاستخدام في الإنتاج. اختر الخيار الذي يتناسب مع جدول مشروعك.
 
-يوفر Aspose.PDF خيارات ترخيص مختلفة:
-- **نسخة تجريبية مجانية**:اختبار الميزات مع القيود.
-- **رخصة مؤقتة**:احصل على ترخيص مؤقت للوصول الكامل أثناء التقييم.
-- **شراء**:شراء اشتراك أو ترخيص دائم للاستخدام طويل الأمد.
-
-#### التهيئة والإعداد الأساسي
-بمجرد إضافة المكتبة، قم بتشغيلها في تطبيق Java الخاص بك:
+#### التهيئة الأساسية والإعداد
+بعد إضافة المكتبة، قم بتعيين الترخيص في بداية تطبيقك:
 
 ```java
 com.aspose.pdf.License license = new com.aspose.pdf.License();
 license.setLicense("path_to_your_license.lic");
 ```
 
-## دليل التنفيذ
+## ملخص دليل التنفيذ
 
-### نظرة عامة على الميزة: تحويل PDF إلى HTML مع استبدال الخط
+يتكون سير عمل التحويل من تحميل PDF، تطبيق منطق استبدال الخطوط، وحفظه كـ HTML. باتباع الخطوات الأربع أعلاه، يمكنك إنتاج مستندات جاهزة للويب تحتفظ بالمظهر الأصلي بدقة.
 
-تتيح لك هذه الميزة تحويل مستندات PDF إلى تنسيق HTML مع استبدال الخطوط غير المتوفرة بخطوط بديلة محددة، مما يضمن الاتساق البصري.
+## المشكلات الشائعة ونصائح استكشاف الأخطاء
 
-#### الخطوة 1: إعداد الدلائل وتحميل المستند
+- **مسارات الملفات غير صحيحة** – تأكد من وجود أدلة الإدخال والإخراج وأنها قابلة للكتابة.  
+- **الترخيص غير مفعّل** – تأكد من أن `License.setLicense()` يشير إلى ملف `.lic` صالح؛ وإلا ستظهر رسائل العلامة المائية.  
+- **الخطوط المفقودة غير مستبدلة** – تحقق من أن فئة الاستبدال المخصصة تُعيد كائن `FontInfo` صالح لكل خط غير مرتبط.
 
-ابدأ بتحديد المسارات لملف PDF المدخل وملف HTML المخرج:
+## التطبيقات العملية
+
+1. **أرشفة المستندات** – تحويل ملفات PDF القديمة إلى HTML قابل للبحث للبوابات الإلكترونية.  
+2. **كتالوجات التجارة الإلكترونية** – تحويل ملفات PDF للمنتجات إلى قوائم HTML متجاوبة.  
+3. **أنظمة إدارة المحتوى** – تمكين المحررين من استيراد PDF وعرضها تلقائيًا كصفحات ويب.  
+4. **التقارير الآلية** – إنشاء تقارير HTML من قوالب PDF لتوزيعها عبر البريد الإلكتروني.
+
+## اعتبارات الأداء
+
+### تحسين الأداء
+- عالج ملفات PDF بطريقة تدفقية للحفاظ على انخفاض استهلاك الذاكرة.  
+- أعد استخدام كائنات `HtmlSaveOptions` عند تحويل العديد من الملفات دفعة واحدة.
+
+### أفضل الممارسات لإدارة ذاكرة Java
+- راقب حجم heap في JVM وفعل G1GC للتحويلات على نطاق واسع.  
+- استدعِ `document.dispose()` بعد كل تحويل لتحرير الموارد الأصلية بسرعة.
+
+## الخلاصة
+
+أصبح لديك الآن طريقة كاملة وجاهزة للإنتاج **لتحويل PDF إلى HTML باستخدام Java** مع معالجة استبدال الخطوط تلقائيًا. تضمن هذه القدرة أن مخرجات HTML تبدو تمامًا مثل PDF الأصلي، حتى عندما تكون الخطوط الأصلية غير متوفرة على النظام المستهدف.
+
+### الخطوات التالية
+استكشف ميزات إضافية في Aspose.PDF مثل دمج PDF، إضافة علامات مائية، والتوقيعات الرقمية لتغني خط أنابيب معالجة المستندات لديك.
+
+## الأسئلة المتكررة
+
+**س: هل يمكنني تحويل ملفات PDF المحمية بكلمة مرور؟**  
+ج: نعم – أنشئ كائن `Document` مع معامل كلمة المرور أو استخدم `document.decrypt(password)` قبل التحويل.
+
+**س: هل يدعم API تحويل صفحات محددة فقط؟**  
+ج: بالطبع. استخدم `HtmlSaveOptions.setPageIndex()` و `setPageCount()` لتحديد نطاق التحويل.
+
+**س: كم عدد الخطوط التي يمكنني ربطها في فئة استبدال واحدة؟**  
+ج: لا يوجد حد ثابت؛ يمكنك ربط عدد ما تشاء من الخطوط، عادةً باستخدام `Map<String, String>` للبحث السريع.
+
+**س: هل استبدال الخطوط حساس لحالة الأحرف؟**  
+ج: أسماء الخطوط تُطابق بشكل غير حساس لحالة الأحرف افتراضياً، لكن يمكنك فرض الحساسية لحالة الأحرف عبر تخصيص المنطق.
+
+**س: أين يمكنني العثور على مزيد من الأمثلة؟**  
+ج: توفر وثائق Aspose.PDF للـ Java مجموعة غنية من أمثلة الشيفرة التي تغطي جميع سيناريوهات التحويل.
+
+## الموارد
+- [Documentation](https://reference.aspose.com/pdf/java/)
+- [Download Library](https://releases.aspose.com/pdf/java/)
+- [Purchase Licenses](https://purchase.aspose.com/buy)
+- [Free Trial](https://releases.aspose.com/pdf/java/)
+- [Temporary License](https://purchase.aspose.com/temporary-license/)
+- [Support Forum](https://forum.aspose.com/c/pdf/10)
+
+انغمس في عالم تحويل المستندات مع Aspose.PDF للـ Java وغيّر طريقة إدارة ملفات PDF في تطبيقاتك!
+
+---
+**آخر تحديث:** 2026-07-27  
+**تم الاختبار مع:** Aspose.PDF للـ Java 25.3  
+**المؤلف:** Aspose
 
 ```java
-String dataDir = "YOUR_DOCUMENT_DIRECTORY/input1.pdf"; // مسار PDF المدخل
-String outputDir = "YOUR_OUTPUT_DIRECTORY/pdfToHTMLWithFontSubstitution.html"; // مسار إخراج HTML
+String dataDir = "YOUR_DOCUMENT_DIRECTORY/input1.pdf"; // Input PDF path
+String outputDir = "YOUR_OUTPUT_DIRECTORY/pdfToHTMLWithFontSubstitution.html"; // Output HTML path
 
-// تحميل المستند من الدليل المحدد
+// Load the document from the specified directory
 Document pdf = new Document(dataDir);
 ```
-
-#### الخطوة 2: تكوين منطق استبدال الخط
-
-إنشاء فئة فرعية مخصصة من `CustomFontSubstitutionBase` للتعامل مع استبدال الخطوط:
 
 ```java
 CustomSubst1 subst1 = new CustomSubst1();
 FontRepository.getSubstitutions().add(subst1);
 ```
-
-#### الخطوة 3: إضافة مُخطر لأحداث استبدال الخط
-
-قم بتسجيل معالج حدث لتسجيل أو طباعة التفاصيل المتعلقة باستبدال الخط:
 
 ```java
 pdf.FontSubstitution.add(new Document.FontSubstitutionHandler() {
@@ -109,71 +241,21 @@ pdf.FontSubstitution.add(new Document.FontSubstitutionHandler() {
 });
 ```
 
-#### الخطوة 4: تحويل PDF إلى HTML
-
-إعداد `HtmlSaveOptions` وحفظ المستند كملف HTML:
-
 ```java
 HtmlSaveOptions options = new HtmlSaveOptions();
 pdf.save(outputDir, options);
 ```
 
-### نصائح استكشاف الأخطاء وإصلاحها
+## دروس ذات صلة
 
-- تأكد من تحديد جميع المسارات بشكل صحيح.
-- تأكد من ضبط ترخيص Aspose.PDF بشكل صحيح إذا واجهت قيودًا في الميزات.
+- [تحويل PDF إلى HTML: التقاط تحذيرات استبدال الخطوط باستخدام Aspose.PDF للـ Java](/pdf/java/conversion-export/capture-font-substitution-warnings-pdf-html-conversion-asposepdf-java/)
+- [كيفية تحويل PDF إلى HTML في Java باستخدام Aspose.PDF: استبعاد خطوط محددة](/pdf/java/conversion-export/pdf-to-html-conversion-java-exclude-fonts-aspose-pdf/)
+- [pdf إلى html java – تحويل PDF إلى HTML مع موارد مدمجة باستخدام Aspose.PDF للـ Java](/pdf/java/conversion-export/convert-pdf-to-html-aspose-java-embedded-resources/)
 
-## التطبيقات العملية
-
-1. **أرشفة المستندات**:تحويل أرشيفات PDF القديمة إلى تنسيقات HTML صديقة للويب لتحسين إمكانية الوصول إليها.
-2. **منصات التجارة الإلكترونية**:تحويل كتالوجات المنتجات إلى HTML لتحقيق التكامل السلس مع المتاجر عبر الإنترنت.
-3. **أنظمة إدارة المحتوى (CMS)**:تعزيز نظام إدارة المحتوى من خلال السماح باستيراد المستندات الغنية والتحويلات.
-4. **إنشاء التقارير تلقائيًا**:تحويل التقارير بشكل ديناميكي من مختلف الأقسام إلى HTML لتوزيعها بشكل موحد.
-
-## اعتبارات الأداء
-
-### تحسين الأداء
-- استخدم ممارسات إدارة الموارد الفعالة للتعامل مع ملفات PDF الكبيرة.
-- تأكد من أن التطبيق لديه تخصيص ذاكرة كافٍ لمعالجة المستندات المعقدة بسلاسة.
-
-### أفضل الممارسات لإدارة ذاكرة Java
-- قم بمراقبة وإدارة مساحة كومة JVM بشكل منتظم.
-- قم بتحسين عملية جمع القمامة عن طريق ضبط معلمات JVM حسب الحاجة.
-
-## خاتمة
-
-باتباع هذا الدليل، ستمتلك الآن طريقة فعّالة لتحويل ملفات PDF إلى HTML مع ضمان تناسق الخطوط. هذه المهارة قيّمة في الحفاظ على سلامة المستندات عبر مختلف المنصات.
-
-### الخطوات التالية
-فكر في استكشاف الميزات الأكثر تقدمًا في Aspose.PDF لـ Java أو دمجه مع أنظمة أخرى لتحسين قدرات تطبيقك.
-
-## قسم الأسئلة الشائعة
-
-1. **ما هي فوائد استخدام Aspose.PDF لـJava؟**
-   - إمكانيات شاملة للتعامل مع ملفات PDF وتحويلها، مما يضمن دقة عالية في المخرجات.
-2. **كيف يمكنني التعامل مع مشاكل الترخيص مع Aspose.PDF؟**
-   - ابدأ بإصدار تجريبي مجاني أو اطلب ترخيصًا مؤقتًا لتقييم الميزات الكاملة.
-3. **هل يمكنني تحويل مستندات PDF كبيرة الحجم دون انخفاض الأداء؟**
-   - نعم، عن طريق تحسين تطبيق Java الخاص بك لإدارة الموارد وتخصيص الذاكرة بشكل أفضل.
-4. **هل استبدال الخط قابل للتخصيص؟**
-   - بالتأكيد! يمكنك تحديد قواعد وتعيينات محددة لاستبدال الخطوط حسب الحاجة.
-5. **ما هي خيارات الدعم المتاحة إذا واجهت مشاكل؟**
-   - يقدم Aspose توثيقًا شاملاً ومنتدى مجتمعيًا داعمًا للمساعدة في مواجهة أي تحديات.
-
-## موارد
-- [التوثيق](https://reference.aspose.com/pdf/java/)
-- [تنزيل المكتبة](https://releases.aspose.com/pdf/java/)
-- [شراء التراخيص](https://purchase.aspose.com/buy)
-- [نسخة تجريبية مجانية](https://releases.aspose.com/pdf/java/)
-- [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)
-- [منتدى الدعم](https://forum.aspose.com/c/pdf/10)
-
-انغمس في عالم تحويل المستندات باستخدام Aspose.PDF لـ Java وأحدث ثورة في كيفية إدارة ملفات PDF في تطبيقاتك!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

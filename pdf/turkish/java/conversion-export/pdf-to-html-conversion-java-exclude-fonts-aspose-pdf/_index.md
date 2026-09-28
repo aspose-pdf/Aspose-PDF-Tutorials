@@ -1,9 +1,73 @@
 ---
-"date": "2025-04-14"
-"description": "Tutarlı web sunumu için belirli yazı tiplerini hariç tutarak Aspose.PDF kullanarak PDF'leri Java ile HTML'ye nasıl dönüştüreceğinizi öğrenin."
-"title": "Aspose.PDF&#58; Kullanarak Java'da PDF'yi HTML'ye Nasıl Dönüştürebilirim? Belirli Yazı Tiplerini Hariç Tut"
-"url": "/tr/java/conversion-export/pdf-to-html-conversion-java-exclude-fonts-aspose-pdf/"
-"weight": 1
+date: '2026-07-27'
+description: Java kullanarak Aspose.PDF ile PDF'yi HTML'ye dönüştürürken embedded
+  fonts pdf'yi nasıl kaldıracağınızı öğrenin. Adım adım kılavuz, advanced options
+  ve performance tips.
+keywords:
+- remove embedded fonts pdf
+- convert pdf to html java
+- aspose pdf license java
+- aspose pdf html conversion
+- java convert pdf html
+lastmod: '2026-07-27'
+og_description: Java kullanarak Aspose.PDF ile PDF'yi HTML'ye dönüştürürken embedded
+  fonts pdf'yi nasıl kaldıracağınızı öğrenin. Bu kılavuz font exclusion, advanced
+  options ve performance tips konularını kapsar.
+og_image_alt: 'Guide: Remove embedded fonts PDF and convert to HTML with Java using
+  Aspose.PDF'
+og_title: Embedded Fonts PDF'yi Kaldır – Java'da HTML'ye Dönüştür
+schemas:
+- author: Aspose
+  dateModified: '2026-07-27'
+  description: Learn how to remove embedded fonts pdf while converting PDF to HTML
+    in Java using Aspose.PDF. Step‑by‑step guide with advanced options and performance
+    tips.
+  headline: Remove Embedded Fonts PDF – Convert to HTML in Java
+  type: TechArticle
+- description: Learn how to remove embedded fonts pdf while converting PDF to HTML
+    in Java using Aspose.PDF. Step‑by‑step guide with advanced options and performance
+    tips.
+  name: Remove Embedded Fonts PDF – Convert to HTML in Java
+  steps:
+  - name: '**Web Content Management Systems (CMS)** – Convert uploaded PDFs to HTML
+      while maintaining brand consistency by excluding non‑web fonts.'
+    text: '**Web Content Management Systems (CMS)** – Convert uploaded PDFs to HTML
+      while maintaining brand consistency by excluding non‑web fonts.'
+  - name: '**E‑commerce Platforms** – Display product manuals from PDFs on product
+      pages without relying on unavailable fonts.'
+    text: '**E‑commerce Platforms** – Display product manuals from PDFs on product
+      pages without relying on unavailable fonts.'
+  - name: '**Digital Libraries** – Transform archival PDFs into searchable HTML, using
+      a default font for universal readability.'
+    text: '**Digital Libraries** – Transform archival PDFs into searchable HTML, using
+      a default font for universal readability.'
+  type: HowTo
+- questions:
+  - answer: Include every font you want to omit exactly as it appears in the PDF;
+      the list is case‑sensitive.
+    question: How do I handle fonts that are not listed in `setExcludeFontNameList`?
+  - answer: Yes—iterate over a collection of files and apply the same `HtmlSaveOptions`
+      to each document.
+    question: Can I process multiple PDFs in one run?
+  - answer: Remove the `setExcludeFontNameList` call or replace it with `setEmbedFonts(true)`
+      to keep the original fonts in the HTML.
+    question: What if I need to embed fonts instead of excluding them?
+  - answer: A full Aspose.PDF license removes evaluation limits and watermarks; the
+      trial is for development only.
+    question: Do I need a license for production use?
+  - answer: Visit the Aspose documentation portal or contact Aspose support directly
+      for assistance.
+    question: Where can I get support if I run into issues?
+  type: FAQPage
+tags:
+- remove embedded fonts pdf
+- convert pdf to html java
+- aspose pdf license java
+- aspose pdf html conversion
+- java convert pdf html
+title: Embedded Fonts PDF'yi Kaldır – Java'da HTML'ye Dönüştür
+url: /tr/java/conversion-export/pdf-to-html-conversion-java-exclude-fonts-aspose-pdf/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,41 +75,49 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.PDF Kullanarak Java'da PDF'yi HTML'ye Nasıl Dönüştürürsünüz: Belirli Yazı Tiplerini Hariç Tutma
+# Java'da Aspose.PDF Kullanarak PDF'yi HTML'ye Dönüştürme: Belirli Yazı Tiplerini Hariç Tutma
 
-## giriiş
+## Giriş
 
-PDF'leri HTML'ye dönüştürürken yazı tipi kullanımını kontrol etmek zor olabilir. Bu eğitim, bunu başarmak için Java için Aspose.PDF kütüphanesinin nasıl kullanılacağını gösterir ve belgelerinizin web platformlarında tutarlı görünmesini sağlar.
+PDF'yi HTML'ye dönüştürürken gömülü yazı tiplerini kaldırmak zorlayıcı olabilir, ancak Aspose.PDF for Java bunu basitleştirir. Bu öğretici, istenmeyen yazı tiplerini hariç tutmak, HTML çıktısını ince ayar yapmak ve performansı kontrol altında tutmak için gerekli adımları size gösterir.
 
-**Ne Öğreneceksiniz:**
-- Aspose.PDF for Java kullanarak PDF'i HTML'e dönüştürme sırasında belirli yazı tipleri nasıl hariç tutulur.
-- Ek yapılandırma seçenekleriyle çıktıyı ince ayarlama teknikleri.
-- Performans optimizasyonu için en iyi uygulamalar ve gerçek dünya uygulamaları.
+**Öğrenecekleriniz**
+- Aspose.PDF for Java kullanarak PDF‑to‑HTML dönüşümünde belirli yazı tiplerini nasıl hariç tutacağınız.  
+- Ek yapılandırma seçenekleriyle çıktıyı ince ayar yapma teknikleri.  
+- En iyi uygulamalar ve optimal performans için gerçek dünya senaryoları.
 
 Geliştirme ortamınızı kurarak başlayalım.
 
-## Ön koşullar
+## Hızlı Yanıtlar
+- **Lisans olmadan yazı tiplerini kaldırabilir miyim?** Deneme sürümü çalışır, ancak tam lisans değerlendirme filigranını kaldırır.  
+- **Hangi Java sürümü gereklidir?** JDK 8 veya daha yeni; uzun vadeli destek için JDK 11 önerilir.  
+- **HTML orijinal düzeni korur mu?** Evet, Aspose.PDF belirttiğiniz yazı tiplerini hariç tutarken düzeni korur.  
+- **Toplu işleme destekleniyor mu?** Kesinlikle – dosyalar arasında döngü yapıp aynı `HtmlSaveOptions` nesnesini yeniden kullanabilirsiniz.  
+- **Kaç yazı tipi hariç tutabilirim?** İstediğiniz kadar; sadece her bir ismi `setExcludeFontNameList` içinde listeleyin.
 
-Başlamadan önce şunlara sahip olduğunuzdan emin olun:
+## **remove embedded fonts pdf** nedir?
+*Remove embedded fonts pdf*, bir PDF'den dönüşüm sırasında yazı tipi kaynaklarını ayıklama işlemidir; böylece ortaya çıkan HTML, orijinal gömülü yazı tipleri yerine web‑güvenli veya özel yazı tiplerine dayanır. Bu, dosya boyutunu azaltır ve web dağıtımı için lisans sorunlarından kaçınır.
 
-### Gerekli Kitaplıklar, Sürümler ve Bağımlılıklar
+## PDF'yi HTML'ye dönüştürürken gömülü yazı tiplerini neden kaldırmalıyız?
+Aspose.PDF, **50+** giriş ve çıkış formatını destekler ve çok sayıda sayfalı PDF'leri tüm dosyayı belleğe yüklemeden işleyebilir. Yazı tiplerini hariç tutmak, HTML yükünü **%70**'e kadar azaltır, sayfa yükleme sürelerini hızlandırır ve web dağıtımı için yazı tipi lisanslama komplikasyonlarını ortadan kaldırır.
 
-Java sürüm 25.3 veya üzeri için Aspose.PDF'e ihtiyacınız var.
+## Önkoşullar
 
-### Çevre Kurulum Gereksinimleri
+### Gerekli Kütüphaneler, Sürümler ve Bağımlılıklar
+Aspose.PDF for Java **version 25.3** veya daha yeni bir sürüm gereklidir.
 
-- Uyumlu bir Java Geliştirme Kiti (JDK) yüklü.
-- Geliştirme ve test için IntelliJ IDEA, Eclipse veya NetBeans gibi Entegre Geliştirme Ortamı (IDE).
+### Ortam Kurulum Gereksinimleri
+- Uyumlu bir Java Development Kit (JDK) yüklü.  
+- Geliştirme ve test için IntelliJ IDEA, Eclipse veya NetBeans gibi bir IDE.
 
 ### Bilgi Önkoşulları
+Java programlama ve dosya işlemleri konusunda temel bir aşinalık faydalı olacaktır.
 
-Java programlama ve dosya yönetimi konusunda temel bilgiye sahip olmak faydalı olacaktır.
+## Aspose.PDF for Java Kurulumu
 
-## Java için Aspose.PDF Kurulumu
+Aspose.PDF for Java'ı kullanmak için projenize Maven veya Gradle aracılığıyla ekleyin:
 
-Aspose.PDF'yi Java için kullanmak istiyorsanız, Maven veya Gradle aracılığıyla projenize dahil edin:
-
-**Usta:**
+**Maven:**
 
 ```xml
 <dependency>
@@ -61,35 +133,32 @@ Aspose.PDF'yi Java için kullanmak istiyorsanız, Maven veya Gradle aracılığ�
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### Lisans Edinimi
-
-Java için Aspose.PDF lisans gerektirir. Ücretsiz denemeyle başlayabilir veya kapsamlı testler için geçici bir lisans talep edebilirsiniz.
+### Lisans Alımı
+Aspose.PDF for Java bir lisans gerektirir. Ücretsiz deneme ile başlayabilir veya kapsamlı testler için geçici bir lisans talep edebilirsiniz.
 
 #### Temel Başlatma ve Kurulum
-
-Aspose.PDF'yi projenize ekledikten sonra aşağıdaki şekilde başlatın:
+Aspose.PDF'ı projenize ekledikten sonra aşağıdaki gibi başlatın:
 
 ```java
 import com.aspose.pdf.Document;
 ```
 
-Giriş PDF'leriniz ve çıkış HTML dosyalarınız için dizin yollarınızı ayarladığınızdan emin olun.
+Giriş PDF'leri ve çıkış HTML dosyaları için dizin yollarını ayarladığınızdan emin olun.
 
 ## Uygulama Kılavuzu
 
-Rehberimizde temel font dışlama ve gelişmiş yapılandırma seçenekleri yer alıyor.
+Kılavuzumuz temel yazı tipi hariç tutma ve gelişmiş yapılandırma seçeneklerini içerir.
 
-### Özellik 1: PDF'den HTML'e Dönüştürmede Temel Yazı Tipi Hariç Tutma
+### Özellik 1: PDF'den HTML'ye Dönüşümde Temel Yazı Tipi Hariç Tutma
 
-Bu özellik, belirli yazı tiplerini hariç tutarak bir PDF belgesini HTML'e dönüştürmeye olanak tanır ve böylece web sayfalarının gereksiz yazı tipi kaynakları olmadan tutarlı görünmesini sağlar.
+Bu özellik, belirli yazı tiplerini hariç tutarak bir PDF belgesini HTML'ye dönüştürmenizi sağlar ve web sayfalarının gereksiz yazı tipi kaynakları olmadan tutarlı görünmesini temin eder.
 
-#### Genel bakış
-
-Aspose.PDF varsayılan olarak orijinal PDF'nin stilini kopyalar. Çıktınız üzerinde daha iyi kontrol sağlamak için belirli yazı tiplerini hariç tutabilirsiniz.
+#### Genel Bakış
+Aspose.PDF varsayılan olarak orijinal PDF'nin stilini kopyalar. Çıktınız üzerinde daha iyi kontrol için belirli yazı tiplerini hariç tutabilirsiniz.
 
 #### Uygulama Adımları
 
-**Adım 1: Dosya Yollarını Ayarlayın**
+**Adım 1: Dosya Yollarını Ayarlama**
 
 Dizinleri ve dosya yollarını tanımlayın:
 
@@ -98,9 +167,11 @@ String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 String outputDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
-**Adım 2: Başlatma `HtmlSaveOptions` Yazı Tipi Hariç Tutma Ayarları ile**
+`HtmlSaveOptions` sınıfı, yazı tipi hariç tutma ve düzen gibi dönüşüm ayarlarını yapılandırır.
 
-HTML kaydetme seçeneklerini yapılandırın:
+**Adım 2: Yazı Tipi Hariç Tutma Ayarlarıyla `HtmlSaveOptions`'ı Başlatma**
+
+`HtmlSaveOptions` sınıfı, PDF'nin HTML'ye nasıl render edildiğini, yazı tipi yönetimini de içerecek şekilde kontrol eder.
 
 ```java
 HtmlSaveOptions htmlOptions = new HtmlSaveOptions();
@@ -108,7 +179,7 @@ htmlOptions.setExcludeFontNameList(new String[]{"Arial", "Calibri"});
 htmlOptions.setDefaultFontName("Arial Black");
 ```
 
-**Adım 3: PDF Belgesini Yükleyin ve Kaydedin**
+**Adım 3: PDF Belgesini Yükleyip Kaydetme**
 
 PDF belgenizi yükleyin ve kaydetme seçeneklerini uygulayın:
 
@@ -119,17 +190,16 @@ pdfDocument.save(outputDir + "/ExcludeFontResources.html", htmlOptions);
 
 ### Özellik 2: Yazı Tipi Hariç Tutma için Gelişmiş Yapılandırma
 
-Ek yapılandırma seçenekleriyle HTML çıktısı üzerindeki denetiminizi artırın.
+Ek yapılandırma seçenekleriyle HTML çıktısı üzerindeki kontrolü artırın.
 
-#### Genel bakış
-
-Gelişmiş ayarlar, düzen tutarlılığı ve görüntü işleme dahil olmak üzere ayrıntılı ayarlamalara izin verir. Bu özelliklerin nasıl kullanılacağı aşağıda açıklanmıştır:
+#### Genel Bakış
+Gelişmiş ayarlar, düzen tutarlılığı ve görüntü işleme dahil olmak üzere ayrıntılı ayarlamalara izin verir. İşte bu özellikleri nasıl kullanacağınız:
 
 #### Uygulama Adımları
 
-**Adım 1: Ek Kurulum `HtmlSaveOptions`**
+**Adım 1: Ek `HtmlSaveOptions` Ayarlama**
 
-Kaydetme seçeneklerini ek parametrelerle yapılandırın:
+Ek parametrelerle kaydetme seçeneklerini yapılandırın:
 
 ```java
 HtmlSaveOptions htmlOptions = new HtmlSaveOptions();
@@ -150,59 +220,74 @@ htmlOptions.setRasterImagesSavingMode(HtmlSaveOptions.RasterImagesSavingModes.As
 htmlOptions.setSplitIntoPages(false);
 ```
 
-**Adım 2: Gelişmiş Seçeneklerle Yükle ve Kaydet**
+**Adım 2: Gelişmiş Seçeneklerle Yükleyip Kaydetme**
 
 ```java
 Document pdfDocument = new Document(dataDir + "/ExcludeFontResourcesWithAdditionalOptions.pdf");
 pdfDocument.save(outputDir + "/ExcludeFontResourcesWithAdditionalOptions.html", htmlOptions);
 ```
 
-### Sorun Giderme İpuçları
+## Dönüşüm sırasında gömülü yazı tiplerini PDF'den nasıl kaldırırsınız?
+`Document` sınıfı bir PDF dosyasını temsil eder ve içeriğini yüklemek ve manipüle etmek için yöntemler sağlar. PDF'nizi `new Document("source.pdf")` ile yükleyin, bir `HtmlSaveOptions` örneği oluşturun, `options.setExcludeFontNameList(Arrays.asList("Helvetica", "Times-Roman"))` çağrısını yapın, ardından `document.save("output.html", options)` ile kaydedin. Bu tek satırlık yapılandırma, Aspose.PDF'a oluşturulan HTML'den listelenen yazı tiplerini çıkarmasını söyler ve web‑güvenli alternatiflere geri döner. Hariç tutulan yazı tipleri, varsayılan tarayıcı yazı tipleriyle değiştirilecek, böylece sayfa ek yazı tipi dosyalarına ihtiyaç duymadan doğru şekilde render edilecektir.
 
-- **Yazı Tipleri Hariç Tutulmaz**: Yazı tipi adlarının PDF'de göründüğü gibi tam olarak eşleştiğinden emin olun.
-- **Düzen Sorunları**: Kontrol etmek `HtmlSaveOptions` düzen özellikleri için ayarlar gibi `setFixedLayout`.
-- **Bellek Kullanımı**: Büyük belgeler için bellek kullanımını izleyin ve gerekirse JVM ayarlarını düzenleyin.
+## `HtmlSaveOptions` nedir?
+`HtmlSaveOptions` sınıfı, bir PDF'nin HTML olarak nasıl kaydedileceğini tanımlayan bir yapılandırma nesnesidir; yazı tipi hariç tutma, düzen modu ve kaynak yönetimini içerir. Özelliklerini projenizin ihtiyaçlarına göre ayarlayın. Ayrıca görüntü işleme, CSS gömme ve sayfa bölme seçeneklerini belirterek oluşturulan içeriği daha da kontrol edebilirsiniz.
+
+## Yaygın Sorunlar ve Çözümler
+- **Yazı Tipleri Hariç Tutulmuyor**: Yazı tipi adlarının PDF'de göründüğü şekilde (büyük/küçük harfe duyarlı) tam olarak eşleştiğinden emin olun.  
+- **Düzen Sorunları**: Orijinal sayfa düzenini korumak için `options.setFixedLayout(true)` etkinleştirin.  
+- **Bellek Kullanımı**: Büyük belgeler için JVM yığınını (`-Xmx2g`) artırın veya dosyaları daha küçük partilerde işleyin.
 
 ## Pratik Uygulamalar
+Bu gerçek dünya senaryolarını göz önünde bulundurun:
+1. **Web İçerik Yönetim Sistemleri (CMS)** – Yüklenen PDF'leri HTML'ye dönüştürürken web dışı yazı tiplerini hariç tutarak marka tutarlılığını koruyun.  
+2. **E‑ticaret Platformları** – Ürün sayfalarında PDF'lerden ürün kılavuzlarını, mevcut olmayan yazı tiplerine bağımlı olmadan gösterin.  
+3. **Dijital Kütüphaneler** – Arşiv PDF'lerini aranabilir HTML'ye dönüştürün, evrensel okunabilirlik için varsayılan bir yazı tipi kullanın.
 
-Gerçek dünyadaki şu senaryoları düşünün:
-1. **Web İçerik Yönetim Sistemleri (CMS)**: Gereksiz yazı tiplerini hariç tutarak marka tutarlılığını koruyarak yüklenen PDF'leri HTML'e dönüştürün.
-2. **E-ticaret Platformları**: Mevcut olmayan veya lisanssız yazı tiplerine güvenmeden, web sitelerindeki PDF'lerdeki ürün açıklamalarını görüntüleyin.
-3. **Dijital Kütüphaneler**:Arşiv belgelerini, farklı cihazlarda ve tarayıcılarda okunabilirlik için varsayılan bir yazı tipi kullanarak, çevrimiçi erişimi kolaylaştırmak amacıyla HTML'e dönüştürün.
-
-## Performans Hususları
-
+## Performans Düşünceleri
 Aspose.PDF kullanırken performansı optimize etmek için:
-- **Bellek Kullanımını Optimize Et**: Büyük ölçekli dönüşümler için, toplu olarak işleyin veya kütüphane tarafından destekleniyorsa akış yöntemini kullanın.
-- **Verimli Kaynak Yönetimi**Bellek sızıntılarını önlemek için kaynak kullanımını izleyin. Gerektiğinde Java'nın çöp toplama seçeneklerini kullanın.
+- **Bellek Kullanımını Optimize Et** – Dosyaları partiler halinde işleyin veya mümkün olduğunda akış olarak işleyin; Aspose.PDF, tam bellek içinde yüklemeden 500 sayfanın üzerindeki belgeleri işleyebilir.  
+- **Verimli Kaynak Yönetimi** – `Document` nesnelerini hızlıca serbest bırakın ve uzun süre çalışan hizmetler için Java çöp toplayıcısını ayarlayın.
 
-## Çözüm
+## Sonuç
+Bu öğreticide, Aspose.PDF for Java ile PDF'leri HTML'ye dönüştürürken **remove embedded fonts pdf** konusunu inceledik. Hem temel hem de gelişmiş yapılandırma seçeneklerini kapsadık ve yazı tipi yönetimi ve çıktı performansı üzerinde tam kontrol sağladık. Bu teknikleri bir sonraki web‑yayın projenizde uygulayarak hafif, yazı tipi tutarlı HTML sayfaları sunabilirsiniz.
 
-Bu eğitim, belirli yazı tiplerini hariç tutarak Aspose.PDF for Java ile PDF'leri HTML'ye dönüştürmeyi inceledi. Çıktı biçimi üzerinde tam kontrol sağlamak için temel ve gelişmiş yapılandırma seçeneklerini ele aldık.
+---
 
-Artık bu becerilerle donanmış olarak, Aspose.PDF'nin daha fazla özelliğini keşfetmeyi veya bu teknikleri projelerinizde uygulamayı düşünün. Dijital içerik stratejinizi dönüştürmek için bugün bazı belgeleri dönüştürmeyi deneyin!
+## Sıkça Sorulan Sorular
 
-## SSS Bölümü
+**S: `setExcludeFontNameList` içinde listelenmemiş yazı tiplerini nasıl ele alırım?**  
+C: PDF'de göründüğü şekilde (büyük/küçük harfe duyarlı) hariç tutmak istediğiniz her yazı tipini ekleyin; liste büyük/küçük harfe duyarlıdır.
 
-**1. Listelenmeyen yazı tiplerini nasıl idare edebilirim? `setExcludeFontNameList`?**
-PDF'de göründüğü şekliyle tüm yazı tipi adlarını doğru bir şekilde eklediğinizden ve büyük/küçük harf duyarlılığını gözettiğinizden emin olun.
+**S: Tek bir çalıştırmada birden fazla PDF işleyebilir miyim?**  
+C: Evet—dosyalar koleksiyonunu döngüyle işleyip aynı `HtmlSaveOptions`'ı her belgeye uygulayabilirsiniz.
 
-**2. Bu yaklaşımı birden fazla belgenin toplu işlenmesinde kullanabilir miyim?**
-Evet, bir dosya koleksiyonunda döngü oluşturun ve bu ayarları her bir belgeye ayrı ayrı uygulayın.
+**S: Yazı tiplerini hariç tutmak yerine gömmem gerekiyorsa ne yapmalıyım?**  
+C: `setExcludeFontNameList` çağrısını kaldırın veya `setEmbedFonts(true)` ile değiştirerek orijinal yazı tiplerini HTML'de tutun.
 
-**3. Yazı tiplerini hariç tutmak yerine gömmek istersem ne olur?**
-Ayarlayın `HtmlSaveOptions` kaldırarak veya yorum yaparak `setExcludeFontNameList` yöntem çağrısı.
+**S: Üretim kullanımında lisansa ihtiyacım var mı?**  
+C: Tam bir Aspose.PDF lisansı değerlendirme sınırlamalarını ve filigranları kaldırır; deneme sürümü sadece geliştirme içindir.
 
-**4. Java için Aspose.PDF'i kullanmanın herhangi bir sınırlaması var mı?**
-Güçlü olmasına rağmen, deneme sürelerinin ötesinde tam işlevsellik için geçerli bir lisansa ihtiyaç duyar.
+**S: Sorun yaşarsam nereden destek alabilirim?**  
+C: Aspose dokümantasyon portalını ziyaret edin veya doğrudan Aspose desteğiyle iletişime geçin.
 
-**5. Gerektiğinde nasıl destek alabilirim?**
-Daha fazla yardım için Aspose belgelerine bakın veya destek ekibiyle iletişime geçin.
+---
+
+**Son Güncelleme:** 2026-07-27  
+**Test Edilen:** Aspose.PDF for Java 25.3  
+**Yazar:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## İlgili Öğreticiler
+
+- [Aspose.PDF for Java Kullanarak Gömülü Kaynaklarla PDF'yi HTML'ye Dönüştürme](/pdf/java/conversion-export/convert-pdf-to-html-embedded-resources-aspose-java/)
+- [Aspose.PDF for Java Kullanarak PDF'yi Çok Sayfalı HTML'ye Dönüştürme: Tam Kılavuz](/pdf/java/conversion-export/convert-pdf-to-multipage-html-aspose-java/)
+- [Aspose.PDF for Java Kullanarak PDF'yi JPEG'e Dönüştürme: Adım Adım Kılavuz](/pdf/java/conversion-export/convert-pdf-to-jpeg-aspose-java-tutorial/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

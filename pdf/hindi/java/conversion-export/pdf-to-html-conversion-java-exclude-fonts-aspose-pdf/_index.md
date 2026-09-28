@@ -1,9 +1,73 @@
 ---
-"date": "2025-04-14"
-"description": "सुसंगत वेब प्रस्तुति के लिए विशिष्ट फ़ॉन्ट को छोड़कर, Aspose.PDF का उपयोग करके जावा के साथ PDF को HTML में परिवर्तित करना सीखें।"
-"title": "Aspose.PDF का उपयोग करके जावा में PDF को HTML में कैसे बदलें? विशिष्ट फ़ॉन्ट्स को बाहर रखें"
-"url": "/hi/java/conversion-export/pdf-to-html-conversion-java-exclude-fonts-aspose-pdf/"
-"weight": 1
+date: '2026-07-27'
+description: Aspose.PDF का उपयोग करके Java में PDF को HTML में बदलते समय embedded
+  fonts PDF को कैसे हटाएँ, जानें। उन्नत विकल्पों और प्रदर्शन टिप्स के साथ चरण‑दर‑चरण
+  गाइड।
+keywords:
+- remove embedded fonts pdf
+- convert pdf to html java
+- aspose pdf license java
+- aspose pdf html conversion
+- java convert pdf html
+lastmod: '2026-07-27'
+og_description: Aspose.PDF का उपयोग करके Java में PDF को HTML में बदलते समय embedded
+  fonts PDF को कैसे हटाएँ, जानें। यह गाइड फ़ॉन्ट एक्सक्लूजन, उन्नत विकल्पों और प्रदर्शन
+  टिप्स को कवर करता है।
+og_image_alt: 'Guide: Remove embedded fonts PDF and convert to HTML with Java using
+  Aspose.PDF'
+og_title: Remove Embedded Fonts PDF – Java में HTML में बदलें
+schemas:
+- author: Aspose
+  dateModified: '2026-07-27'
+  description: Learn how to remove embedded fonts pdf while converting PDF to HTML
+    in Java using Aspose.PDF. Step‑by‑step guide with advanced options and performance
+    tips.
+  headline: Remove Embedded Fonts PDF – Convert to HTML in Java
+  type: TechArticle
+- description: Learn how to remove embedded fonts pdf while converting PDF to HTML
+    in Java using Aspose.PDF. Step‑by‑step guide with advanced options and performance
+    tips.
+  name: Remove Embedded Fonts PDF – Convert to HTML in Java
+  steps:
+  - name: '**Web Content Management Systems (CMS)** – Convert uploaded PDFs to HTML
+      while maintaining brand consistency by excluding non‑web fonts.'
+    text: '**Web Content Management Systems (CMS)** – Convert uploaded PDFs to HTML
+      while maintaining brand consistency by excluding non‑web fonts.'
+  - name: '**E‑commerce Platforms** – Display product manuals from PDFs on product
+      pages without relying on unavailable fonts.'
+    text: '**E‑commerce Platforms** – Display product manuals from PDFs on product
+      pages without relying on unavailable fonts.'
+  - name: '**Digital Libraries** – Transform archival PDFs into searchable HTML, using
+      a default font for universal readability.'
+    text: '**Digital Libraries** – Transform archival PDFs into searchable HTML, using
+      a default font for universal readability.'
+  type: HowTo
+- questions:
+  - answer: Include every font you want to omit exactly as it appears in the PDF;
+      the list is case‑sensitive.
+    question: How do I handle fonts that are not listed in `setExcludeFontNameList`?
+  - answer: Yes—iterate over a collection of files and apply the same `HtmlSaveOptions`
+      to each document.
+    question: Can I process multiple PDFs in one run?
+  - answer: Remove the `setExcludeFontNameList` call or replace it with `setEmbedFonts(true)`
+      to keep the original fonts in the HTML.
+    question: What if I need to embed fonts instead of excluding them?
+  - answer: A full Aspose.PDF license removes evaluation limits and watermarks; the
+      trial is for development only.
+    question: Do I need a license for production use?
+  - answer: Visit the Aspose documentation portal or contact Aspose support directly
+      for assistance.
+    question: Where can I get support if I run into issues?
+  type: FAQPage
+tags:
+- remove embedded fonts pdf
+- convert pdf to html java
+- aspose pdf license java
+- aspose pdf html conversion
+- java convert pdf html
+title: Remove Embedded Fonts PDF – Java में HTML में बदलें
+url: /hi/java/conversion-export/pdf-to-html-conversion-java-exclude-fonts-aspose-pdf/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,41 +75,49 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.PDF का उपयोग करके जावा में PDF को HTML में कैसे बदलें: विशिष्ट फ़ॉन्ट्स को छोड़ दें
+# PDF को HTML में Java का उपयोग करके Aspose.PDF के साथ कैसे परिवर्तित करें: विशिष्ट फ़ॉन्ट को बाहर रखें
 
 ## परिचय
 
-फ़ॉन्ट के उपयोग को नियंत्रित करते हुए PDF को HTML में बदलना चुनौतीपूर्ण हो सकता है। यह ट्यूटोरियल दर्शाता है कि इसे प्राप्त करने के लिए जावा के लिए Aspose.PDF लाइब्रेरी का उपयोग कैसे करें, यह सुनिश्चित करते हुए कि आपके दस्तावेज़ वेब प्लेटफ़ॉर्म पर सुसंगत दिखें।
+PDF को HTML में परिवर्तित करते समय एम्बेडेड फ़ॉन्ट को हटाना चुनौतीपूर्ण हो सकता है, लेकिन Aspose.PDF for Java इसे सरल बनाता है। यह ट्यूटोरियल आपको अनचाहे फ़ॉन्ट को बाहर रखने, HTML आउटपुट को फाइन‑ट्यून करने, और प्रदर्शन को नियंत्रित रखने के सटीक चरणों के माध्यम से ले जाता है।
 
-**आप क्या सीखेंगे:**
-- Java के लिए Aspose.PDF का उपयोग करके PDF से HTML रूपांतरण के दौरान विशिष्ट फ़ॉन्ट को कैसे बाहर रखें।
-- अतिरिक्त कॉन्फ़िगरेशन विकल्पों के साथ आउटपुट को बेहतर बनाने की तकनीकें।
-- प्रदर्शन अनुकूलन के लिए सर्वोत्तम अभ्यास और वास्तविक दुनिया के अनुप्रयोग।
+**आप क्या सीखेंगे**
+- Aspose.PDF for Java का उपयोग करके PDF‑to‑HTML रूपांतरण के दौरान विशिष्ट फ़ॉन्ट को कैसे बाहर रखें।  
+- अतिरिक्त कॉन्फ़िगरेशन विकल्पों के साथ आउटपुट को फाइन‑ट्यून करने की तकनीकें।  
+- इष्टतम प्रदर्शन के लिए सर्वोत्तम प्रथाएँ और वास्तविक‑दुनिया के परिदृश्य।
 
-आइये, अपना विकास परिवेश स्थापित करके शुरुआत करें।
+आइए आपके विकास पर्यावरण को सेटअप करके शुरू करें।
 
-## आवश्यक शर्तें
+## त्वरित उत्तर
+- **क्या मैं लाइसेंस के बिना फ़ॉन्ट हटा सकता हूँ?** ट्रायल काम करता है, लेकिन पूर्ण लाइसेंस मूल्यांकन वॉटरमार्क को हटाता है।  
+- **कौन सा Java संस्करण आवश्यक है?** JDK 8 या नया; दीर्घकालिक समर्थन के लिए JDK 11 सिफारिश की जाती है।  
+- **क्या HTML मूल लेआउट को बनाए रखेगा?** हाँ, Aspose.PDF लेआउट को संरक्षित रखता है जबकि आप द्वारा निर्दिष्ट फ़ॉन्ट को बाहर रखता है।  
+- **क्या बैच प्रोसेसिंग समर्थित है?** बिल्कुल – फ़ाइलों के माध्यम से लूप करें और वही `HtmlSaveOptions` पुन: उपयोग करें।  
+- **मैं कितने फ़ॉन्ट को बाहर रख सकता हूँ?** कोई भी संख्या; बस प्रत्येक नाम को `setExcludeFontNameList` में सूचीबद्ध करें।
 
-शुरू करने से पहले, सुनिश्चित करें कि आपके पास:
+## **remove embedded fonts pdf** क्या है?
+*Remove embedded fonts pdf* वह प्रक्रिया है जिसमें PDF को रूपांतरण के दौरान फ़ॉन्ट संसाधनों को हटाया जाता है ताकि परिणामी HTML वेब‑सेफ़ या कस्टम फ़ॉन्ट पर निर्भर रहे, न कि मूल एम्बेडेड फ़ॉन्ट पर। इससे फ़ाइल आकार घटता है और वेब परिनियोजन के लिए लाइसेंसिंग समस्याओं से बचा जा सकता है।
 
-### आवश्यक लाइब्रेरी, संस्करण और निर्भरताएँ
+## HTML में परिवर्तित करते समय एम्बेडेड फ़ॉन्ट को क्यों हटाएँ?
+Aspose.PDF **50+** इनपुट और आउटपुट फ़ॉर्मेट का समर्थन करता है और कई‑सौ‑पृष्ठ PDFs को पूरी फ़ाइल को मेमोरी में लोड किए बिना प्रोसेस कर सकता है। फ़ॉन्ट को बाहर रखने से HTML पेलोड **70 %** तक घटता है, पेज लोड समय तेज़ होता है, और वेब परिनियोजन के लिए फ़ॉन्ट‑लाइसेंस जटिलताएँ समाप्त हो जाती हैं।
 
-आपको Java संस्करण 25.3 या बाद के संस्करण के लिए Aspose.PDF की आवश्यकता है।
+## पूर्वापेक्षाएँ
+
+### आवश्यक लाइब्रेरी, संस्करण, और निर्भरताएँ
+आपको Aspose.PDF for Java **version 25.3** या बाद का चाहिए।
 
 ### पर्यावरण सेटअप आवश्यकताएँ
-
-- एक संगत जावा डेवलपमेंट किट (JDK) स्थापित.
-- विकास और परीक्षण के लिए एक एकीकृत विकास वातावरण (IDE) जैसे कि IntelliJ IDEA, Eclipse, या NetBeans.
+- एक संगत Java Development Kit (JDK) स्थापित हो।  
+- विकास और परीक्षण के लिए IntelliJ IDEA, Eclipse, या NetBeans जैसे IDE।
 
 ### ज्ञान पूर्वापेक्षाएँ
+Java प्रोग्रामिंग और फ़ाइल हैंडलिंग की बुनियादी समझ उपयोगी होगी।
 
-जावा प्रोग्रामिंग और फ़ाइल हैंडलिंग की बुनियादी जानकारी लाभदायक होगी।
+## Aspose.PDF for Java की सेटअप
 
-## Java के लिए Aspose.PDF सेट अप करना
+Aspose.PDF for Java को अपने प्रोजेक्ट में Maven या Gradle के माध्यम से शामिल करें:
 
-Java के लिए Aspose.PDF का उपयोग करने के लिए, इसे Maven या Gradle के माध्यम से अपने प्रोजेक्ट में शामिल करें:
-
-**मावेन:**
+**Maven:**
 
 ```xml
 <dependency>
@@ -55,52 +127,51 @@ Java के लिए Aspose.PDF का उपयोग करने के ल�
 </dependency>
 ```
 
-**ग्रेडेल:**
+**Gradle:**
 
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### लाइसेंस अधिग्रहण
+### लाइसेंस प्राप्ति
+Aspose.PDF for Java को एक लाइसेंस की आवश्यकता होती है। आप मुफ्त ट्रायल से शुरू कर सकते हैं या व्यापक परीक्षण के लिए एक अस्थायी लाइसेंस का अनुरोध कर सकते हैं।
 
-जावा के लिए Aspose.PDF को लाइसेंस की आवश्यकता होती है। आप नि:शुल्क परीक्षण के साथ शुरू कर सकते हैं या व्यापक परीक्षण के लिए अस्थायी लाइसेंस का अनुरोध कर सकते हैं।
-
-#### बुनियादी आरंभीकरण और सेटअप
-
-अपने प्रोजेक्ट में Aspose.PDF जोड़ने के बाद, इसे निम्न प्रकार से आरंभ करें:
+#### बुनियादी आरंभिककरण और सेटअप
+Aspose.PDF को अपने प्रोजेक्ट में जोड़ने के बाद, इसे इस प्रकार आरंभ करें:
 
 ```java
 import com.aspose.pdf.Document;
 ```
 
-सुनिश्चित करें कि आपने इनपुट PDF और आउटपुट HTML फ़ाइलों के लिए निर्देशिका पथ सेट कर लिया है।
+इनपुट PDFs और आउटपुट HTML फ़ाइलों के लिए अपने डायरेक्टरी पाथ सेट करना सुनिश्चित करें।
 
-## कार्यान्वयन मार्गदर्शिका
+## कार्यान्वयन गाइड
 
-हमारी गाइड में बुनियादी फ़ॉन्ट बहिष्करण और उन्नत कॉन्फ़िगरेशन विकल्प शामिल हैं।
+हमारा गाइड बुनियादी फ़ॉन्ट बाहर रखना और उन्नत कॉन्फ़िगरेशन विकल्पों को शामिल करता है।
 
-### विशेषता 1: पीडीएफ से HTML रूपांतरण में मूल फ़ॉन्ट बहिष्करण
+### फीचर 1: PDF से HTML रूपांतरण में बुनियादी फ़ॉन्ट बाहर रखना
 
-यह सुविधा विशिष्ट फ़ॉन्ट को छोड़कर, एक PDF दस्तावेज़ को HTML में परिवर्तित करने की अनुमति देती है, जिससे यह सुनिश्चित होता है कि वेब पेज अनावश्यक फ़ॉन्ट संसाधनों के बिना सुसंगत दिखें।
+यह फीचर PDF दस्तावेज़ को HTML में परिवर्तित करने की अनुमति देता है जबकि विशिष्ट फ़ॉन्ट को बाहर रखता है, जिससे वेब पेज अनावश्यक फ़ॉन्ट संसाधनों के बिना सुसंगत दिखते हैं।
 
 #### अवलोकन
-
-Aspose.PDF डिफ़ॉल्ट रूप से मूल PDF की स्टाइलिंग को दोहराता है। आप अपने आउटपुट पर बेहतर नियंत्रण के लिए कुछ फ़ॉन्ट को बाहर कर सकते हैं।
+Aspose.PDF डिफ़ॉल्ट रूप से मूल PDF की स्टाइलिंग को दोहराता है। आप बेहतर नियंत्रण के लिए कुछ फ़ॉन्ट को बाहर रख सकते हैं।
 
 #### कार्यान्वयन चरण
 
 **चरण 1: फ़ाइल पथ सेट करें**
 
-निर्देशिकाएँ और फ़ाइल पथ परिभाषित करें:
+डायरेक्टरी और फ़ाइल पाथ को परिभाषित करें:
 
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 String outputDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
-**चरण 2: आरंभ करें `HtmlSaveOptions` फ़ॉन्ट बहिष्करण सेटिंग्स के साथ**
+**`HtmlSaveOptions` क्लास फ़ॉन्ट बाहर रखने और लेआउट जैसे रूपांतरण सेटिंग्स को कॉन्फ़िगर करता है।**
 
-HTML सहेजने के विकल्प कॉन्फ़िगर करें:
+**चरण 2: फ़ॉन्ट बाहर रखने की सेटिंग्स के साथ `HtmlSaveOptions` को आरंभ करें**
+
+`HtmlSaveOptions` क्लास नियंत्रित करता है कि PDF को HTML में कैसे रेंडर किया जाए, जिसमें फ़ॉन्ट हैंडलिंग शामिल है।
 
 ```java
 HtmlSaveOptions htmlOptions = new HtmlSaveOptions();
@@ -108,28 +179,27 @@ htmlOptions.setExcludeFontNameList(new String[]{"Arial", "Calibri"});
 htmlOptions.setDefaultFontName("Arial Black");
 ```
 
-**चरण 3: पीडीएफ दस्तावेज़ लोड करें और सहेजें**
+**चरण 3: PDF दस्तावेज़ को लोड और सहेजें**
 
-अपना PDF दस्तावेज़ लोड करें और सहेजें विकल्प लागू करें:
+अपना PDF दस्तावेज़ लोड करें और सेव ऑप्शन लागू करें:
 
 ```java
 Document pdfDocument = new Document(dataDir + "/ExcludeFont.pdf");
 pdfDocument.save(outputDir + "/ExcludeFontResources.html", htmlOptions);
 ```
 
-### फ़ीचर 2: फ़ॉन्ट बहिष्करण के लिए उन्नत कॉन्फ़िगरेशन
+### फीचर 2: फ़ॉन्ट बाहर रखने के लिए उन्नत कॉन्फ़िगरेशन
 
 अतिरिक्त कॉन्फ़िगरेशन विकल्पों के साथ HTML आउटपुट पर नियंत्रण बढ़ाएँ।
 
 #### अवलोकन
-
-उन्नत सेटिंग्स लेआउट स्थिरता और छवि प्रबंधन सहित बारीक समायोजन की अनुमति देती हैं। इन सुविधाओं का उपयोग करने का तरीका यहां बताया गया है:
+उन्नत सेटिंग्स सूक्ष्म समायोजन की अनुमति देती हैं, जिसमें लेआउट स्थिरता और इमेज हैंडलिंग शामिल है। इन सुविधाओं का उपयोग इस प्रकार करें:
 
 #### कार्यान्वयन चरण
 
-**चरण 1: अतिरिक्त सेट अप करें `HtmlSaveOptions`**
+**चरण 1: अतिरिक्त `HtmlSaveOptions` सेट करें**
 
-अतिरिक्त पैरामीटर के साथ सहेजने के विकल्प कॉन्फ़िगर करें:
+अतिरिक्त पैरामीटर के साथ सेव ऑप्शन कॉन्फ़िगर करें:
 
 ```java
 HtmlSaveOptions htmlOptions = new HtmlSaveOptions();
@@ -150,59 +220,76 @@ htmlOptions.setRasterImagesSavingMode(HtmlSaveOptions.RasterImagesSavingModes.As
 htmlOptions.setSplitIntoPages(false);
 ```
 
-**चरण 2: उन्नत विकल्पों के साथ लोड करें और सहेजें**
+**चरण 2: उन्नत विकल्पों के साथ लोड और सहेजें**
 
 ```java
 Document pdfDocument = new Document(dataDir + "/ExcludeFontResourcesWithAdditionalOptions.pdf");
 pdfDocument.save(outputDir + "/ExcludeFontResourcesWithAdditionalOptions.html", htmlOptions);
 ```
 
-### समस्या निवारण युक्तियों
+## रूपांतरण के दौरान एम्बेडेड फ़ॉन्ट PDF को कैसे हटाएँ?
 
-- **फ़ॉन्ट्स अपवर्जित नहीं**: सुनिश्चित करें कि फ़ॉन्ट नाम बिल्कुल वैसे ही हों, जैसे वे पीडीएफ में दिखाई देते हैं।
-- **लेआउट संबंधी समस्याएं**: जाँच करना `HtmlSaveOptions` लेआउट गुणों के लिए सेटिंग्स जैसे `setFixedLayout`.
-- **स्मृति प्रयोग**: मेमोरी उपयोग की निगरानी करें और बड़े दस्तावेज़ों के लिए यदि आवश्यक हो तो JVM सेटिंग्स समायोजित करें।
+`Document` क्लास एक PDF फ़ाइल का प्रतिनिधित्व करता है और इसकी सामग्री को लोड व संशोधित करने के मेथड प्रदान करता है। `new Document("source.pdf")` से अपना PDF लोड करें, एक `HtmlSaveOptions` इंस्टेंस बनाएं, `options.setExcludeFontNameList(Arrays.asList("Helvetica", "Times-Roman"))` को कॉल करें, फिर `document.save("output.html", options)` को निष्पादित करें। यह एक‑लाइन कॉन्फ़िगरेशन Aspose.PDF को उत्पन्न HTML से सूचीबद्ध फ़ॉन्ट को बाहर रखने को कहता है, जिससे वेब‑सेफ़ विकल्पों पर वापस गिरता है। बाहर रखे गए फ़ॉन्ट डिफ़ॉल्ट ब्राउज़र फ़ॉन्ट द्वारा प्रतिस्थापित हो जाएंगे, जिससे पेज सही ढंग से रेंडर होगा बिना अतिरिक्त फ़ॉन्ट फ़ाइलों की आवश्यकता के।
 
-## व्यावहारिक अनुप्रयोगों
+## `HtmlSaveOptions` क्या है?
 
-इन वास्तविक दुनिया परिदृश्यों पर विचार करें:
-1. **वेब सामग्री प्रबंधन प्रणाली (सीएमएस)**: अनावश्यक फ़ॉन्ट को हटाकर ब्रांड स्थिरता बनाए रखते हुए अपलोड की गई पीडीएफ को HTML में परिवर्तित करें।
-2. **ई-कॉमर्स प्लेटफॉर्म**: अनुपलब्ध या गैर-लाइसेंस प्राप्त फ़ॉन्ट पर निर्भर हुए बिना, वेबसाइटों पर पीडीएफ से उत्पाद विवरण प्रदर्शित करें।
-3. **डिजिटल लाइब्रेरी**: आसान ऑनलाइन पहुंच के लिए अभिलेखीय दस्तावेजों को HTML में परिवर्तित करें, विभिन्न डिवाइसों और ब्राउज़रों में पठनीयता के लिए डिफ़ॉल्ट फ़ॉन्ट का उपयोग करें।
+`HtmlSaveOptions` क्लास एक कॉन्फ़िगरेशन ऑब्जेक्ट है जो परिभाषित करता है कि PDF को HTML के रूप में कैसे सहेजा जाए, जिसमें फ़ॉन्ट बाहर रखना, लेआउट मोड, और रिसोर्स हैंडलिंग शामिल हैं। अपनी परियोजना की आवश्यकताओं के अनुसार HTML आउटपुट को अनुकूलित करने के लिए इसकी प्रॉपर्टीज़ को समायोजित करें। आप इमेज हैंडलिंग, CSS एम्बेडिंग, और पेज स्प्लिटिंग विकल्प भी निर्दिष्ट कर सकते हैं ताकि उत्पन्न कंटेंट पर और अधिक नियंत्रण मिल सके।
 
-## प्रदर्शन संबंधी विचार
+## सामान्य समस्याएँ और समाधान
+- **फ़ॉन्ट बाहर नहीं हो रहे हैं**: सुनिश्चित करें कि फ़ॉन्ट नाम PDF में जैसा दिखता है वैसा ही (केस‑सेंसिटिव) हो।  
+- **लेआउट समस्याएँ**: मूल पेज लेआउट को संरक्षित करने के लिए `options.setFixedLayout(true)` सक्षम करें।  
+- **मेमोरी उपयोग**: बड़े दस्तावेज़ों के लिए JVM हीप (`-Xmx2g`) बढ़ाएँ या फ़ाइलों को छोटे बैच में प्रोसेस करें।
 
+## व्यावहारिक अनुप्रयोग
+इन वास्तविक‑दुनिया के परिदृश्यों पर विचार करें:
+1. **वेब कंटेंट मैनेजमेंट सिस्टम (CMS)** – अपलोड किए गए PDFs को HTML में बदलें जबकि ब्रांड स्थिरता बनाए रखें, गैर‑वेब फ़ॉन्ट को बाहर रखें।  
+2. **ई‑कॉमर्स प्लेटफ़ॉर्म** – उत्पाद पेजों पर उत्पाद मैनुअल को PDFs से प्रदर्शित करें बिना अनुपलब्ध फ़ॉन्ट पर निर्भर हुए।  
+3. **डिजिटल लाइब्रेरी** – अभिलेखीय PDFs को सर्चेबल HTML में बदलें, सार्वभौमिक पठनीयता के लिए डिफ़ॉल्ट फ़ॉन्ट का उपयोग करें।
+
+## प्रदर्शन विचार
 Aspose.PDF का उपयोग करते समय प्रदर्शन को अनुकूलित करने के लिए:
-- **मेमोरी उपयोग को अनुकूलित करें**बड़े पैमाने पर रूपांतरण के लिए, बैचों में प्रक्रिया करें या यदि लाइब्रेरी द्वारा समर्थित हो तो स्ट्रीमिंग का उपयोग करें।
-- **कुशल संसाधन प्रबंधन**मेमोरी लीक से बचने के लिए संसाधन उपयोग की निगरानी करें। आवश्यकतानुसार जावा के कचरा संग्रहण विकल्पों का उपयोग करें।
+- **मेमोरी उपयोग को अनुकूलित करें** – फ़ाइलों को बैच में प्रोसेस करें या संभव हो तो स्ट्रीम करें; Aspose.PDF 500 पृष्ठ से अधिक के दस्तावेज़ों को बिना पूरी‑मेमोरी लोड किए संभाल सकता है।  
+- **संसाधन प्रबंधन** – `Document` ऑब्जेक्ट को तुरंत रिलीज़ करें और दीर्घकालिक सेवाओं के लिए Java के गार्बेज कलेक्टर को ट्यून करें।
 
 ## निष्कर्ष
+इस ट्यूटोरियल में हमने **remove embedded fonts pdf** को Aspose.PDF for Java के साथ PDFs को HTML में परिवर्तित करते समय कैसे हटाया जाए, इसका अन्वेषण किया। हमने बुनियादी और उन्नत कॉन्फ़िगरेशन विकल्पों को कवर किया, जिससे आपको फ़ॉन्ट हैंडलिंग और आउटपुट प्रदर्शन पर पूर्ण नियंत्रण मिला। इन तकनीकों को अपने अगले वेब‑पब्लिशिंग प्रोजेक्ट में लागू करें ताकि हल्के, फ़ॉन्ट‑सुसंगत HTML पेज प्रदान किए जा सकें।
 
-इस ट्यूटोरियल में जावा के लिए Aspose.PDF के साथ PDF को HTML में बदलने के बारे में बताया गया है, जबकि इसमें कुछ खास फ़ॉन्ट को शामिल नहीं किया गया है। हमने आपको आउटपुट फ़ॉर्मेट पर पूरा नियंत्रण देने के लिए बुनियादी और उन्नत कॉन्फ़िगरेशन विकल्पों को कवर किया है।
+---
 
-अब इन कौशलों से लैस होकर, Aspose.PDF की अधिक सुविधाओं को एक्सप्लोर करने या अपनी परियोजनाओं में इन तकनीकों को लागू करने पर विचार करें। अपनी डिजिटल सामग्री रणनीति को बदलने के लिए आज ही कुछ दस्तावेज़ों को परिवर्तित करने का प्रयास करें!
+## अक्सर पूछे जाने वाले प्रश्न
 
-## अक्सर पूछे जाने वाले प्रश्न अनुभाग
+**प्रश्न: `setExcludeFontNameList` में सूचीबद्ध नहीं किए गए फ़ॉन्ट को कैसे संभालें?**  
+उत्तर: आप जिस फ़ॉन्ट को बाहर रखना चाहते हैं उसे बिल्कुल उसी तरह सूचीबद्ध करें जैसा वह PDF में दिखता है; सूची केस‑सेंसिटिव है।
 
-**1. मैं उन फ़ॉन्ट्स को कैसे संभालूँ जो सूचीबद्ध नहीं हैं? `setExcludeFontNameList`?**
-सुनिश्चित करें कि आप सभी फ़ॉन्ट नामों को ठीक उसी प्रकार शामिल करें जैसा कि वे पीडीएफ में दिखाई देते हैं, तथा केस सेंसिटिविटी का ध्यान रखें।
+**प्रश्न: क्या मैं एक रन में कई PDFs प्रोसेस कर सकता हूँ?**  
+उत्तर: हाँ—फ़ाइलों के संग्रह पर इटररेट करें और प्रत्येक दस्तावेज़ के लिए समान `HtmlSaveOptions` लागू करें।
 
-**2. क्या मैं एकाधिक दस्तावेजों के बैच प्रसंस्करण के लिए इस दृष्टिकोण का उपयोग कर सकता हूँ?**
-हां, फ़ाइलों के संग्रह के माध्यम से लूप करें और इन सेटिंग्स को प्रत्येक दस्तावेज़ पर अलग से लागू करें।
+**प्रश्न: यदि मुझे फ़ॉन्ट को बाहर रखने के बजाय एम्बेड करना हो तो क्या करें?**  
+उत्तर: `setExcludeFontNameList` कॉल को हटाएँ या इसे `setEmbedFonts(true)` से बदलें ताकि मूल फ़ॉन्ट HTML में एम्बेड रहें।
 
-**3. यदि मैं फ़ॉन्ट को निकालने के बजाय उन्हें एम्बेड करना चाहूँ तो क्या होगा?**
-अपना समायोजन करें `HtmlSaveOptions` हटाकर या टिप्पणी करके `setExcludeFontNameList` विधि कॉल.
+**प्रश्न: उत्पादन उपयोग के लिए क्या मुझे लाइसेंस चाहिए?**  
+उत्तर: पूर्ण Aspose.PDF लाइसेंस मूल्यांकन सीमाओं और वॉटरमार्क को हटाता है; ट्रायल केवल विकास के लिए है।
 
-**4. क्या जावा के लिए Aspose.PDF का उपयोग करने में कोई सीमाएँ हैं?**
-यद्यपि यह शक्तिशाली है, लेकिन परीक्षण अवधि के बाद पूर्ण कार्यक्षमता के लिए इसे वैध लाइसेंस की आवश्यकता होती है।
+**प्रश्न: यदि मुझे समस्याएँ आती हैं तो समर्थन कहाँ प्राप्त करूँ?**  
+उत्तर: Aspose दस्तावेज़ पोर्टल पर जाएँ या सीधे Aspose समर्थन से सहायता प्राप्त करें।
 
-**5. यदि आवश्यकता हो तो मैं सहायता कैसे प्राप्त कर सकता हूँ?**
-आगे की सहायता के लिए Aspose दस्तावेज़ देखें या उनकी सहायता टीम से संपर्क करें।
+---
+
+**Last Updated:** 2026-07-27  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## संबंधित ट्यूटोरियल
+
+- [How to Convert PDF to HTML with Embedded Resources Using Aspose.PDF for Java](/pdf/java/conversion-export/convert-pdf-to-html-embedded-resources-aspose-java/)
+- [Convert PDF to Multipage HTML Using Aspose.PDF for Java: A Complete Guide](/pdf/java/conversion-export/convert-pdf-to-multipage-html-aspose-java/)
+- [Convert PDF to JPEG using Aspose.PDF for Java: Step‑By‑Step Guide](/pdf/java/conversion-export/convert-pdf-to-jpeg-aspose-java-tutorial/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

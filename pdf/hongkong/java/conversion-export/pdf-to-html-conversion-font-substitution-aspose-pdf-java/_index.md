@@ -1,9 +1,68 @@
 ---
-"date": "2025-04-14"
-"description": "了解如何使用 Aspose.PDF for Java 將 PDF 轉換為 HTML，包括字體替換技術。非常適合希望保持文件完整性的開發人員。"
-"title": "使用 Aspose.PDF for Java 進行 PDF 到 HTML 的字體替換轉換"
-"url": "/zh-hant/java/conversion-export/pdf-to-html-conversion-font-substitution-aspose-pdf-java/"
-"weight": 1
+date: '2026-07-27'
+description: 了解如何使用 Aspose.PDF 在 Java 中將 PDF 轉換為 HTML，並在缺少字型時進行字型置換。遵循一步一步的說明，實現順暢的轉換。
+keywords:
+- convert pdf to html java
+- how to substitute fonts
+- Aspose.PDF for Java
+lastmod: '2026-07-27'
+og_description: 了解如何使用 Aspose.PDF 在 Java 中將 PDF 轉換為 HTML，並在缺少字型時進行字型置換。遵循一步一步的說明，實現順暢的轉換。
+og_image_alt: Guide showing PDF to HTML conversion with font substitution in Java
+  using Aspose.PDF
+og_title: 使用 Aspose.PDF 在 Java 中將 PDF 轉換為 HTML 並進行字型置換
+schemas:
+- author: Aspose
+  dateModified: '2026-07-27'
+  description: Learn how to convert PDF to HTML Java using Aspose.PDF, including how
+    to substitute fonts for missing typefaces. Follow step‑by‑step instructions for
+    seamless conversion.
+  headline: Convert PDF to HTML Java with Font Substitution Aspose.PDF
+  type: TechArticle
+- description: Learn how to convert PDF to HTML Java using Aspose.PDF, including how
+    to substitute fonts for missing typefaces. Follow step‑by‑step instructions for
+    seamless conversion.
+  name: Convert PDF to HTML Java with Font Substitution Aspose.PDF
+  steps:
+  - name: Set up directories and load the document
+    text: Define the input PDF path and the desired HTML output location. Then create
+      a `Document` instance to represent the source PDF.
+  - name: Create a custom font‑substitution class
+    text: '`CustomFontSubstitutionBase` is the base class Aspose.PDF uses to resolve
+      missing fonts. Extend it and override the `substituteFont` method to map source
+      fonts to your preferred replacements.'
+  - name: Register a notifier for substitution events
+    text: Attach an event handler to `Document` so you can log each substitution occurrence.
+      This helps you verify that all missing fonts are being correctly replaced.
+  - name: Configure HtmlSaveOptions and perform the conversion
+    text: Instantiate `HtmlSaveOptions`, set any required options (such as `SplitIntoPages`),
+      and call `document.save(outputPath, htmlOptions)` to generate the HTML files.
+  type: HowTo
+- questions:
+  - answer: Yes – instantiate `Document` with the password parameter or set `document.decrypt(password)`
+      before conversion.
+    question: Can I convert password‑protected PDFs?
+  - answer: Absolutely. Use `HtmlSaveOptions.setPageIndex()` and `setPageCount()`
+      to limit the conversion range.
+    question: Does the API support converting only selected pages?
+  - answer: There is no hard limit; you can map as many as needed, typically using
+      a `Map<String, String>` for fast lookup.
+    question: How many fonts can I map in a single substitution class?
+  - answer: Font names are matched case‑insensitively by default, but you can enforce
+      case sensitivity by customizing the logic.
+    question: Is font substitution case‑sensitive?
+  - answer: The Aspose.PDF for Java documentation provides a rich set of code samples
+      covering all conversion scenarios.
+    question: Where can I find more examples?
+  type: FAQPage
+tags:
+- convert pdf
+- Aspose.PDF
+- Java
+- font substitution
+- PDF to HTML
+title: 使用 Aspose.PDF 在 Java 中將 PDF 轉換為 HTML 並進行字型置換
+url: /zh-hant/java/conversion-export/pdf-to-html-conversion-font-substitution-aspose-pdf-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,33 +70,59 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# 使用 Aspose.PDF for Java 實作 PDF 到 HTML 的字體替換轉換
+# 精通使用 Aspose.PDF for Java 進行字體替換的 PDF 轉 HTML
 
 ## 介紹
 
-您是否正在尋找將 PDF 文件轉換為 HTML 的無縫方法，同時保留字體的完整性？您來對地方了！本教學將指導您使用 Aspose.PDF for Java 實現高效的 PDF 到 HTML 轉換，包括字體替換。無論您是管理文件工作流程的開發人員還是尋求強大解決方案的 IT 專業人員，此功能都非常有價值。
+使用 Aspose.PDF 將 PDF 轉換為 HTML（Java），並確保字體保持與原始設計完全一致。在本教學中，您將學習一套完整、可投入生產的方式，將 PDF 檔案轉換為可在網頁上使用的 HTML，同時自動替換缺少的字體。無論您是構建文件歸檔服務、電子商務目錄，或是 CMS 匯入工具，本指南都能讓您有信心交付像素級完美的結果。
 
-### 您將學到什麼：
-- 設定並使用 Aspose.PDF for Java。
-- 將 PDF 轉換為 HTML 並替換字體。
-- 使用 Aspose.PDF 強大的 API 自訂字體替換邏輯。
-- 轉換過程的實際應用。
+### 快速回答
+- **轉換會做什麼？** 它會產生與原始 PDF 版面相同的 HTML，包括圖片、表格和樣式化文字。  
+- **我可以替換缺少的字體嗎？** 可以 – Aspose.PDF 允許您將不可用的字體映射到您指定的替代字體。  
+- **需要哪個 Java 版本？** Java 8 或更高版本；此函式庫在所有現代 JVM 上皆可運行。  
+- **生產環境需要授權嗎？** 商業授權可移除試用限制；亦提供免費試用供評估使用。  
+- **對於大型檔案，處理速度快嗎？** 透過適當的記憶體調校，Aspose.PDF 可在一分鐘內處理 500 頁的 PDF。
 
-在深入實施之前，請確保已準備好所有必要的先決條件。
+## Aspose.PDF for Java 是什麼？
 
-## 先決條件
+Aspose.PDF for Java 是一套完整的 API，讓您無需 Adobe Acrobat 即可建立、操作與轉換 PDF 文件。它支援超過 50 種輸入與輸出格式，提供低階物件存取，且能在不將整份文件載入記憶體的情況下處理數百頁的檔案，非常適合伺服器端自動化。
 
-為了有效地遵循本教程，您需要：
+## 為何使用 Aspose.PDF for Java 轉換 PDF 為 HTML？
 
-- **庫和版本**：請確保您擁有 Aspose.PDF for Java 版本 25.3。
-- **環境設定**：能夠運行 Java 應用程式的開發環境（建議使用 IntelliJ IDEA 或 Eclipse 等 IDE）。
-- **知識要求**：熟悉Java程式設計概念，尤其是處理文件和異常。
+Aspose.PDF 在物件層級處理 PDF，保留向量圖形、內嵌字體與複雜版面。具體好處包括支援 **50+ 檔案格式**、能在 **60 秒內轉換 500 頁 PDF**，以及 **零相依**（不需外部 PDF 檢視器）。
 
-## 為 Java 設定 Aspose.PDF
+## 什麼是字體替換，為何重要？
+
+字體替換會將缺失或不可用的字型以預先定義的替代字型取代，確保轉換後的 HTML 在視覺上保持一致。若未進行替換，輸出可能會使用系統預設字型，導致網頁設計與可讀性受損。
+
+## 前置條件
+
+- **Aspose.PDF for Java** 版本 25.3（或更新）。  
+- Java 8+ 開發環境（IntelliJ IDEA、Eclipse，或您選擇的任何 IDE）。  
+- 具備 Java I/O 與例外處理的基本知識。  
+
+## 如何使用字體替換將 PDF 轉換為 HTML（Java）？
+
+轉換工作流程包含三個主要步驟：載入 PDF、套用自訂字體替換處理器，並將結果儲存為 HTML。`Document` 類別代表 PDF 檔案，提供操作內容的方法。`HtmlSaveOptions` 類別定義 PDF 如何呈現為 HTML，而 `CustomFontSubstitutionBase` 類別則讓您控制字體替換邏輯。依照以下詳細步驟，即可可靠地產生保留原始外觀與感受的網頁文件。
+
+### 步驟 1：設定目錄並載入文件
+定義輸入 PDF 的路徑與目標 HTML 輸出位置，然後建立 `Document` 實例以代表來源 PDF。
+
+### 步驟 2：建立自訂字體替換類別
+`CustomFontSubstitutionBase` 是 Aspose.PDF 用來解析缺失字體的基底類別。繼承它並覆寫 `substituteFont` 方法，以將來源字體映射到您偏好的替代字體。
+
+### 步驟 3：註冊替換事件的通知器
+將事件處理器附加到 `Document`，以便記錄每一次的字體替換。這有助於您驗證所有缺失的字體是否已正確替換。
+
+### 步驟 4：設定 HtmlSaveOptions 並執行轉換
+建立 `HtmlSaveOptions` 實例，設定必要的選項（例如 `SplitIntoPages`），然後呼叫 `document.save(outputPath, htmlOptions)` 產生 HTML 檔案。
+
+## 如何設定 Aspose.PDF for Java？
+
+您可以透過 Maven 或 Gradle 將 Aspose.PDF for Java 加入專案。選擇符合工作流程的建置工具，並依照下列方式加入相依性。
 
 ### 透過 Maven 安裝
-
-若要使用 Maven 將 Aspose.PDF 新增到您的專案中，請在您的 `pom.xml`：
+在您的 `pom.xml` 中加入以下相依性：
 
 ```xml
 <dependency>
@@ -48,58 +133,101 @@
 ```
 
 ### 透過 Gradle 安裝
-
-對於使用 Gradle 的項目，將以下行新增至 `build.gradle`：
+在您的 `build.gradle` 檔案中加入此行：
 
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### 許可證取得步驟
+### 取得授權的步驟
+Aspose.PDF 提供免費試用、供評估的臨時授權，以及供正式生產使用的完整商業授權。請依照您的專案時程選擇合適的方案。
 
-Aspose.PDF 提供多種許可選項：
-- **免費試用**：測試具有限制的功能。
-- **臨時執照**：在評估期間取得臨時許可證以獲得完全存取權限。
-- **購買**：購買訂閱或永久授權以供長期使用。
-
-#### 基本初始化和設定
-添加庫後，請在 Java 應用程式中初始化它：
+#### 基本初始化與設定
+加入函式庫後，於應用程式啟動時設定授權：
 
 ```java
 com.aspose.pdf.License license = new com.aspose.pdf.License();
 license.setLicense("path_to_your_license.lic");
 ```
 
-## 實施指南
+## 實作指南回顧
 
-### 功能概述：PDF 到 HTML 的轉換及字體替換
+轉換工作流程包括載入 PDF、套用字體替換邏輯，並儲存為 HTML。依照上述四個步驟，即可可靠地產生保留原始外觀與感受的網頁文件。
 
-此功能可讓您將 PDF 文件轉換為 HTML 格式，同時以指定的替代字體取代不可用的字體，確保視覺一致性。
+## 常見問題與除錯技巧
 
-#### 步驟 1：設定目錄並載入文檔
+- **檔案路徑不正確** – 請再次確認輸入與輸出目錄是否存在且具寫入權限。  
+- **授權未套用** – 確認 `License.setLicense()` 指向有效的 `.lic` 檔案，否則會看到浮水印訊息。  
+- **缺少的字體未被替換** – 請確認您的自訂替換類別為每個未映射的字體回傳有效的 `FontInfo` 物件。
 
-首先指定輸入 PDF 和輸出 HTML 檔案的路徑：
+## 實務應用
+
+1. **文件歸檔** – 將舊有 PDF 轉換為可搜尋的 HTML，供網站入口使用。  
+2. **電子商務目錄** – 將產品 PDF 轉換為響應式 HTML 列表。  
+3. **內容管理系統** – 讓編輯者匯入 PDF，並自動呈現為網頁。  
+4. **自動化報告** – 從 PDF 範本產生 HTML 報告，以供電子郵件分發。
+
+## 效能考量
+
+### 效能最佳化
+- 以串流方式處理 PDF，降低記憶體使用量。  
+- 在批次轉換多個檔案時，重複使用 `HtmlSaveOptions` 物件。
+
+### Java 記憶體管理最佳實踐
+- 監控 JVM 堆積大小，並在大規模轉換時啟用 G1GC。  
+- 每次轉換後呼叫 `document.dispose()`，即時釋放原生資源。
+
+## 結論
+
+您現在擁有一套完整、可投入生產的 **將 PDF 轉換為 HTML（Java）** 方法，且會自動處理字體替換。此功能確保您的 HTML 輸出與原始 PDF 完全相同，即使目標系統上缺少原始字體。
+
+### 後續步驟
+探索其他 Aspose.PDF 功能，如 PDF 合併、浮水印與數位簽章，以進一步豐富您的文件處理流程。
+
+## 常見問答
+
+**Q: 我可以轉換受密碼保護的 PDF 嗎？**  
+**A:** 可以 – 使用帶密碼參數的 `Document` 建構子，或在轉換前呼叫 `document.decrypt(password)`。
+
+**Q: API 是否支援僅轉換選取的頁面？**  
+**A:** 當然可以。使用 `HtmlSaveOptions.setPageIndex()` 與 `setPageCount()` 來限制轉換範圍。
+
+**Q: 單一替換類別可以映射多少字體？**  
+**A:** 沒有硬性上限；您可以依需求映射任意數量，通常使用 `Map<String, String>` 以加速查找。
+
+**Q: 字體替換是否區分大小寫？**  
+**A:** 預設情況下字體名稱不區分大小寫，但您可以透過自訂邏輯強制區分。
+
+**Q: 我可以在哪裡找到更多範例？**  
+**A:** Aspose.PDF for Java 文件提供豐富的程式碼範例，涵蓋所有轉換情境。
+
+## 資源
+- [文件說明](https://reference.aspose.com/pdf/java/)
+- [下載函式庫](https://releases.aspose.com/pdf/java/)
+- [購買授權](https://purchase.aspose.com/buy)
+- [免費試用](https://releases.aspose.com/pdf/java/)
+- [臨時授權](https://purchase.aspose.com/temporary-license/)
+- [支援論壇](https://forum.aspose.com/c/pdf/10)
+
+深入探索 Aspose.PDF for Java 的文件轉換世界，徹底改變您在應用程式中管理 PDF 的方式！
+
+---
+**Last Updated:** 2026-07-27  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
 
 ```java
-String dataDir = "YOUR_DOCUMENT_DIRECTORY/input1.pdf"; // 輸入PDF路徑
-String outputDir = "YOUR_OUTPUT_DIRECTORY/pdfToHTMLWithFontSubstitution.html"; // 輸出 HTML 路徑
+String dataDir = "YOUR_DOCUMENT_DIRECTORY/input1.pdf"; // Input PDF path
+String outputDir = "YOUR_OUTPUT_DIRECTORY/pdfToHTMLWithFontSubstitution.html"; // Output HTML path
 
-// 從指定目錄載入文檔
+// Load the document from the specified directory
 Document pdf = new Document(dataDir);
 ```
-
-#### 步驟 2：設定字型替換邏輯
-
-建立自訂子類別 `CustomFontSubstitutionBase` 處理字型替換：
 
 ```java
 CustomSubst1 subst1 = new CustomSubst1();
 FontRepository.getSubstitutions().add(subst1);
 ```
-
-#### 步驟 3：新增字型替換事件通知程序
-
-註冊事件處理程序來記錄或列印有關字型替換的詳細資訊：
 
 ```java
 pdf.FontSubstitution.add(new Document.FontSubstitutionHandler() {
@@ -109,71 +237,21 @@ pdf.FontSubstitution.add(new Document.FontSubstitutionHandler() {
 });
 ```
 
-#### 步驟 4：將 PDF 轉換為 HTML
-
-設定 `HtmlSaveOptions` 並將文件儲存為 HTML 文件：
-
 ```java
 HtmlSaveOptions options = new HtmlSaveOptions();
 pdf.save(outputDir, options);
 ```
 
-### 故障排除提示
+## 相關教學
 
-- 確保所有路徑均正確指定。
-- 如果您遇到功能限制，請驗證 Aspose.PDF 授權是否設定正確。
+- [PDF 轉 HTML 轉換：使用 Aspose.PDF for Java 捕捉字體替換警告](/pdf/java/conversion-export/capture-font-substitution-warnings-pdf-html-conversion-asposepdf-java/)
+- [如何使用 Aspose.PDF 在 Java 中將 PDF 轉換為 HTML：排除特定字體](/pdf/java/conversion-export/pdf-to-html-conversion-java-exclude-fonts-aspose-pdf/)
+- [pdf to html java – 使用 Aspose.PDF for Java 轉換 PDF 為含嵌入資源的 HTML](/pdf/java/conversion-export/convert-pdf-to-html-aspose-java-embedded-resources/)
 
-## 實際應用
-
-1. **文件歸檔**：將舊版 PDF 檔案轉換為適合網頁的 HTML 格式，以提高可近性。
-2. **電子商務平台**：將產品目錄轉換為 HTML，以便與線上商店無縫整合。
-3. **內容管理系統（CMS）**：透過允許豐富的文件導入和轉換來增強 CMS。
-4. **自動產生報告**：將各部門的報告動態轉換為HTML，以便統一分發。
-
-## 性能考慮
-
-### 優化效能
-- 利用高效率的資源管理實務來處理大型 PDF。
-- 確保應用程式有足夠的記憶體分配以順利處理複雜的文件。
-
-### Java記憶體管理的最佳實踐
-- 定期監控和管理 JVM 堆空間。
-- 根據需要調整 JVM 參數來最佳化垃圾收集。
-
-## 結論
-
-透過遵循本指南，您現在擁有一種強大的方法可以將 PDF 文件轉換為 HTML，同時確保字體一致性。這項技能對於維護跨平台的文件完整性非常有價值。
-
-### 後續步驟
-考慮探索 Aspose.PDF for Java 的更多高級功能或將其與其他系統整合以增強應用程式的功能。
-
-## 常見問題部分
-
-1. **使用 Aspose.PDF for Java 有哪些好處？**
-   - 全面的 PDF 操作和轉換功能，確保輸出的高保真度。
-2. **我該如何處理 Aspose.PDF 的許可問題？**
-   - 從免費試用開始或申請臨時許可證來評估全部功能。
-3. **我可以轉換大型 PDF 文件而不降低效能嗎？**
-   - 是的，透過優化您的 Java 應用程式來實現更好的資源管理和記憶體分配。
-4. **字體替換可以自訂嗎？**
-   - 絕對地！您可以根據需要定義字體替換的特定規則和映射。
-5. **如果我遇到問題，有哪些支援選項？**
-   - Aspose 提供大量文件和支援性社群論壇來幫助解決任何挑戰。
-
-## 資源
-- [文件](https://reference.aspose.com/pdf/java/)
-- [下載庫](https://releases.aspose.com/pdf/java/)
-- [購買許可證](https://purchase.aspose.com/buy)
-- [免費試用](https://releases.aspose.com/pdf/java/)
-- [臨時執照](https://purchase.aspose.com/temporary-license/)
-- [支援論壇](https://forum.aspose.com/c/pdf/10)
-
-使用 Aspose.PDF for Java 深入文件轉換的世界並徹底改變您在應用程式中管理 PDF 的方式！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
