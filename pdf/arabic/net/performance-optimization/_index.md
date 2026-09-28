@@ -67,6 +67,8 @@
 ### [كيفية تحسين PDF في C# – تقليل حجم الملف بسرعة](./how-to-optimize-pdf-in-c-reduce-file-size-quickly/)
 تعلم خطوات سريعة لتقليل حجم ملفات PDF باستخدام C# و Aspose.PDF وتحسين الأداء.
 
+### [كيفية تحسين PDF باستخدام Aspose.PDF في C#](./how-to-optimize-pdf-using-aspose-pdf-in-c/)
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

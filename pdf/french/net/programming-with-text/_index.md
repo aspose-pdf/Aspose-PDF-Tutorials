@@ -53,7 +53,7 @@ Les tutoriels « Programmation avec du texte » d'Aspose.PDF pour .NET offrent
 | [Remplacer les polices dans un fichier PDF](./replace-fonts/) Remplacez facilement les polices de vos fichiers PDF avec Aspose.PDF pour .NET. Guide étape par étape avec exemples de code pour remplacer les polices.  
 | [Remplacer tout le texte dans le fichier PDF](./replace-text-all/) | Apprenez à remplacer facilement du texte dans un fichier PDF avec Aspose.PDF pour .NET. Guide complet avec extraits de code inclus. |  
 | [Remplacer le texte par une expression régulière dans un fichier PDF](./replace-text-on-regular-expression/) Apprenez à remplacer du texte à l'aide d'expressions régulières dans un fichier PDF avec Aspose.PDF pour .NET. Suivez notre guide étape par étape pour automatiser efficacement les modifications de texte. |  
-| [Remplacer la page de texte dans un fichier PDF](./replace-text-page/) | Apprenez à remplacer du texte dans un fichier PDF avec Aspose.PDF pour .NET grâce à ce guide étape par étape. Personnalisez facilement les polices, les couleurs et les propriétés du texte. |  
+| [Remplacer la page de texte dans un fichier PDF](./replace-text-page/) | Apprenez à remplacer du texte dans un PDF avec Aspose.PDF pour .NET grâce à ce guide étape par étape. Personnalisez facilement les polices, les couleurs et les propriétés du texte. |  
 | [Faire pivoter le texte à l'aide d'un paragraphe dans un fichier PDF](./rotate-text-using-paragraph/) | Apprenez à faire pivoter du texte dans un PDF avec Aspose.PDF pour .NET. Suivez ce guide étape par étape pour créer vos documents. |  
 | [Faire pivoter le texte à l'aide d'un fragment de texte dans un fichier PDF](./rotate-text-using-text-fragment/) | Apprenez à faire pivoter du texte dans des fichiers PDF avec Aspose.PDF pour .NET grâce à un guide étape par étape. Découvrez les techniques de manipulation de texte, du positionnement à la rotation. |  
 | [Faire pivoter le texte à l'aide d'un fragment de texte et d'un paragraphe](./rotate-text-using-text-fragment-and-paragraph/) | Apprenez à faire pivoter du texte à l'aide d'un fragment de texte et d'un paragraphe dans un document PDF à l'aide d'Aspose.PDF pour .NET. |  
@@ -71,6 +71,8 @@ Les tutoriels « Programmation avec du texte » d'Aspose.PDF pour .NET offrent
 | [Segments de texte dans un fichier PDF](./text-segments/) | Apprenez à rechercher des segments de texte spécifiques dans un fichier PDF à l'aide d'expressions régulières dans Aspose.PDF pour .NET. |  
 | [Utiliser le script Latex dans un fichier PDF](./use-latex-script/) | Apprenez à utiliser le script Latex pour ajouter des expressions mathématiques ou des formules dans un fichier PDF à l'aide d'Aspose.PDF pour .NET. |  
 | [Ajouter des numéros Bates à un PDF – numérotation Bates](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Apprenez à ajouter des numéros Bates à un PDF avec Aspose.PDF pour .NET. Guide étape par étape avec exemples de code. |
+| [Ajouter une numérotation Bates à un PDF avec Aspose.PDF en C#](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | Apprenez à ajouter une numérotation Bates à vos fichiers PDF avec Aspose.PDF en C#. Guide étape par étape. |
+| [Comment ajouter du texte PDF avec Aspose.PDF en C#](./how-to-add-text-pdf-with-aspose-pdf-in-c/) | Apprenez à ajouter du texte à un PDF avec Aspose.PDF en C#. Guide étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

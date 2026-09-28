@@ -35,6 +35,9 @@
 ### [使用 Aspose.PDF for .NET 在 PDF 中建立和填滿矩形：逐步指南](./create-fill-rectangle-aspose-pdf-net/)
 了解如何使用 Aspose.PDF for .NET 在 PDF 文件中建立和填滿矩形。本逐步指南涵蓋了從設定到使用 C# 實現的所有內容。
 
+### [如何在 C# 中使用 Aspose.Pdf 為 PDF 新增矩形](./how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf/)
+了解如何在 C# 中使用 Aspose.Pdf 為 PDF 新增矩形。
+
 ### [如何使用 C# 在 PDF 中繪製矩形 – 逐步指南](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
 了解如何使用 C# 及 Aspose.PDF for .NET 在 PDF 中繪製矩形，提供完整設定與實作步驟。
 ### [使用 C# 為 PDF 新增矩形 – 完整 Aspose PDF 指南](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
@@ -86,7 +89,7 @@ Aspose.PDF Net 程式碼教學
 了解如何使用 Aspose.PDF for .NET 將影像無縫地新增至您的 PDF 文件。本逐步指南涵蓋設定、實施和實際應用。
 
 ### [如何使用 Aspose.PDF for .NET 將影像新增至 PDF：逐步指南](./add-images-to-pdfs-aspose-pdf-net/)
-了解如何使用 Aspose.PDF for .NET 將影像無縫地新增至您的 PDF。本指南介紹如何為現有 PDF 新增影像以及如何從 DICOM 檔案建立新影像。
+了解如何使用 Aspose.PDF for .NET 將影像無縫地新增至 PDF。本指南介紹如何為現有 PDF 新增影像以及如何從 DICOM 檔案建立新影像。
 
 ### [如何使用 Aspose.PDF for .NET 為 PDF 新增影像頁首：逐步指南](./add-image-header-pdf-aspose-dotnet/)
 透過本全面的逐步指南了解如何使用 Aspose.PDF for .NET 將影像標題新增至 PDF 文件。

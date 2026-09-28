@@ -66,6 +66,9 @@ Ismerje meg, hogyan lehet gyorsan és hatékonyan tömöríteni PDF-fájlokat az
 ### [Hogyan optimalizálja a PDF-et C#-ban – Csökkentse a fájlméretet gyorsan](./how-to-optimize-pdf-in-c-reduce-file-size-quickly/)
 Ismerje meg, hogyan csökkentheti a PDF-fájlok méretét C#-ban az Aspose.PDF segítségével, gyors és hatékony módszerekkel.
 
+### [Hogyan optimalizáljuk a PDF-et az Aspose.Pdf használatával C#-ban](./how-to-optimize-pdf-using-aspose-pdf-in-c/)
+Ismerje meg, hogyan optimalizálhatja a PDF-fájlokat az Aspose.Pdf segítségével C#-ban.
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)

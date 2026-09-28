@@ -34,20 +34,24 @@ Handledningen ger dig en detaljerad översikt över metoder och tekniker för at
 | [Signera med smartkort med PDF-filsignatur](./sign-with-smart-card-using-pdf-file-signature/) | Lär dig hur du signerar PDF-filer med ett smartkort med Aspose.PDF för .NET. Följ den här steg-för-steg-guiden för säkra digitala signaturer. |  
 | [Signera med smartkort med hjälp av signaturfältet](./sign-with-smart-card-using-signature-field/) | Lär dig hur du signerar PDF-filer säkert med ett smartkort med Aspose.PDF för .NET. Följ vår steg-för-steg-guide för enkel implementering. |  
 | [Kontrollera PDF-signaturer i C# – Så läser du signerade PDF-filer](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Lär dig hur du läser och verifierar signerade PDF-filer med Aspose.PDF för .NET i C#. |
-| [Kontrollera PDF för signaturer – Så listar du signaturer i C# med Aspose.PDF](./check-pdf-for-signatures-how-to-list-signatures-in-c-with-as/) | Lär dig hur du hittar och listar alla digitala signaturer i en PDF med Aspose.PDF för .NET i C#. |
+| [Kontrollera PDF för signaturer – Så listar du signaturer i C# med Aspose.Pdf](./check-pdf-for-signatures-how-to-list-signatures-in-c-with-as/) | Lär dig hur du hittar och listar alla digitala signaturer i en PDF med Aspose.PDF för .NET i C#. |
 | [Hur du verifierar signatur i PDF med C# – Komplett Aspose-guide](./how-to-verify-signature-in-pdf-using-c-complete-aspose-guide/) | Lär dig steg-för-steg hur du verifierar PDF‑signaturer i C# med Aspose.PDF för .NET. |
 | [Lägg till digital signatur i PDF med C# – Komplett steg‑för‑steg‑guide](./add-digital-signature-pdf-in-c-complete-step-by-step-guide/) | Lär dig hur du lägger till en digital signatur i PDF med C# och Aspose.PDF för .NET. En komplett steg‑för‑steg‑guide. |
+| [Spara signerad PDF med en anpassad digital signatur i C#](./save-signed-pdf-with-a-custom-digital-signature-in-c/) | Lär dig hur du sparar en signerad PDF med en egen digital signatur i C# med Aspose.PDF. |
 | [Verifiera PDF-digital signatur i C# med Aspose.Pdf](./verify-pdf-digital-signature-in-c-with-aspose-pdf/) | Lär dig hur du verifierar digitala PDF-signaturer i C# med Aspose.PDF i en steg-för-steg-guide. |
 | [Ladda PFX-certifikat C# – Skapa PKCS7-fristående signatur](./load-pfx-certificate-c-create-pkcs7-detached-signature/) | Lär dig hur du laddar ett PFX‑certifikat i C# och skapar en PKCS7‑fristående signatur med Aspose.PDF för .NET. |
 | [Kontrollera PDF-signaturer i C# – Snabbguide för att verifiera digitala signaturer](./check-pdf-signatures-in-c-quick-guide-to-verify-digital-sign/) | Lär dig hur du snabbt verifierar PDF-signaturer i C# med Aspose.PDF för .NET. |
+| [Hur du verifierar PDF-signaturer och upptäcker manipulation i C#](./how-to-verify-pdf-signatures-and-detect-tampering-in-c/) | Lär dig hur du verifierar PDF‑signaturer och upptäcker om dokumentet har manipulerats med Aspose.PDF för .NET i C#. |
 | [PDF-signaturhandledning: Verifiera en PDF:s digitala signatur i C#](./pdf-signature-tutorial-verify-a-pdf-s-digital-signature-in-c/) | Lär dig hur du verifierar en PDF:s digitala signatur i C# med Aspose.PDF för .NET i en kort guide. |
 | [Validera digital signatur PDF i C# – Komplett Aspose.PDF-guide](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) | Lär dig hur du validerar digitala signaturer i PDF-filer med Aspose.PDF för .NET i C#. |
 | [Konfigurera CA-server i C# – Komplett guide för att validera Word-dokumentsignaturer](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) | Lär dig hur du konfigurerar en CA‑server i C# för att validera signaturer i Word‑dokument. |
 | [Validera PDF-digital signatur – Komplett C#-guide](./validate-pdf-digital-signature-complete-c-guide/) | Lär dig hur du validerar digitala signaturer i PDF-filer med Aspose.PDF för .NET i en komplett C#-guide. |
-| [Hur man verifierar PDF-signaturer i C# – Fullständig guide](./how-to-verify-pdf-signatures-in-c-full-guide/) | Lär dig steg för steg hur du verifierar PDF-signaturer i C# med Aspose.PDF för .NET. |
+| [Hur du validerar PDF‑signaturer med en certifikatutfärdare i C#](./how-to-validate-pdf-signatures-with-a-certificate-authority/) | Lär dig hur du validerar PDF‑signaturer med en certifikatutfärdare i C# med Aspose.PDF. |
+| [Hur du validerar PDF‑signaturer med Aspose.PDF i C#](./how-to-validate-pdf-signatures-using-aspose-pdf-in-c/) | Lär dig hur du validerar PDF‑signaturer med Aspose.PDF i C#. |
+| [Hur man verifierar PDF‑signatur i C# – Komplett guide](./how-to-verify-pdf-signature-in-c-complete-guide/) | Lär dig steg för steg hur du verifierar PDF‑signaturer i C# med Aspose.PDF för .NET. |
 | [Hur man läser signaturer i en PDF – Komplett C#-guide](./how-to-read-signatures-in-a-pdf-complete-c-guide/) | Lär dig steg för steg hur du läser signaturer i PDF-filer med Aspose.PDF för .NET i C#. |
-| [PDF-signaturhandledning – Verifiera och validera PDF-signaturer i C#](./pdf-signature-tutorial-verify-and-validate-pdf-signatures-in/) | Lär dig hur du verifierar och validerar PDF-signaturer i C# med Aspose.PDF för .NET. |
-| [Hur man verifierar PDF-signatur i C# – Komplett guide](./how-to-verify-pdf-signature-in-c-complete-guide/) | Lär dig steg för steg hur du verifierar PDF-signaturer i C# med Aspose.PDF för .NET. |
+| [PDF-signaturhandledning – Verifiera och validera PDF-signaturer i C#](./pdf-signature-tutorial-verify-and-validate-pdf-signatures-in/) | Lär dig hur du verifierar och validerar PDF‑signaturer i C# med Aspose.PDF för .NET. |
+| [Hur man verifierar PDF‑signatur i C# – Komplett guide](./how-to-verify-pdf-signature-in-c-complete-guide/) | Lär dig steg för steg hur du verifierar PDF‑signaturer i C# med Aspose.PDF för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -90,4 +94,3 @@ Handledningen ger dig en detaljerad översikt över metoder och tekniker för at
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

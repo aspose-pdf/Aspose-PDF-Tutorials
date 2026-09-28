@@ -70,7 +70,9 @@
 | [ข้อความและรูปภาพเป็นย่อหน้าในไฟล์ PDF](./text-and-image-as-paragraph/) | สร้าง PDF ที่มีข้อความและรูปภาพโดยใช้ Aspose.PDF สำหรับ .NET เรียนรู้วิธีการเพิ่มข้อความและรูปภาพแบบอินไลน์ทีละขั้นตอน -  
 | [การแบ่งส่วนข้อความในไฟล์ PDF](./text-segments/) | เรียนรู้วิธีค้นหากลุ่มข้อความเฉพาะในไฟล์ PDF โดยใช้นิพจน์ทั่วไปใน Aspose.PDF สำหรับ .NET -  
 | [ใช้สคริปต์ Latex ในไฟล์ PDF](./use-latex-script/) | เรียนรู้วิธีใช้สคริปต์ Latex เพื่อเพิ่มนิพจน์ทางคณิตศาสตร์หรือสูตรในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET |  
-| [เพิ่มหมายเลข Bates ลงใน PDF – การกำหนดหมายเลข Bates](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | เรียนรู้วิธีเพิ่มหมายเลข Bates ลงในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนและตัวอย่างโค้ด |  
+| [เพิ่มหมายเลข Bates ลงใน PDF – การกำหนดหมายเลข Bates](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | เรียนรู้วิธีเพิ่มหมายเลข Bates ลงในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนและตัวอย่างโค้ด |
+| [เพิ่มหมายเลข Bates ลงใน PDF โดยใช้ Aspose.PDF ใน C#](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | เรียนรู้วิธีเพิ่มหมายเลข Bates ลงในไฟล์ PDF ด้วย C# และ Aspose.PDF สำหรับ .NET |
+| [วิธีเพิ่มข้อความใน PDF ด้วย Aspose.PDF ใน C#](./how-to-add-text-pdf-with-aspose-pdf-in-c/) | เรียนรู้วิธีเพิ่มข้อความลงในไฟล์ PDF ด้วย Aspose.PDF ใน C# |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

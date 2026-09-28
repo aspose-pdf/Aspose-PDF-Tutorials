@@ -96,6 +96,9 @@ Naučte se, jak v C# vytvořit PDF dokument přímo v paměti bez ukládání na
 ### [Vytvořte PDF dokument v C# – krok za krokem průvodce přidáním prázdné stránky a nakreslením obdélníku](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
 Naučte se, jak vytvořit PDF dokument, přidat prázdnou stránku a nakreslit obdélník pomocí Aspose.PDF pro .NET.
 
+### [Jak inicializovat klienta OpenAI a shrnout PDF pomocí AI](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
+Naučte se, jak inicializovat klienta OpenAI a pomocí AI vytvořit souhrn PDF dokumentu.
+
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)

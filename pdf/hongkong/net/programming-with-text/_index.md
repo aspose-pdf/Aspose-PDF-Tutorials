@@ -70,7 +70,9 @@ Aspose.PDF 的 .NET「使用文字程式設計」教學課程提供了處理 PDF
 | [PDF 檔案中的文字和圖像作為段落](./text-and-image-as-paragraph/) |使用 Aspose.PDF for .NET 建立包含文字和圖像的 PDF。了解如何逐步新增文字和內嵌影像。 |  
 | [PDF檔案中的文字片段](./text-segments/) |了解如何在 Aspose.PDF for .NET 中使用正規表示式搜尋 PDF 檔案中的特定文字段。 |  
 | [在 PDF 檔案中使用 Latex 腳本](./use-latex-script/) |了解如何使用 Latex 腳本透過 Aspose.PDF for .NET 在 PDF 檔案中新增數學運算式或公式。 |  
-| [在 PDF 中添加 Bates 編號](./add-bates-numbers-to-pdf-bates-numbering-pdf/) |了解如何使用 Aspose.PDF for .NET 在 PDF 文件中添加 Bates 編號，以便於文件管理與追蹤。 |  
+| [在 PDF 中添加 Bates 編號](./add-bates-numbers-to-pdf-bates-numbering-pdf/) |了解如何使用 Aspose.PDF for .NET 在 PDF 文件中添加 Bates 編號，以便於文件管理與追蹤。 |
+| [使用 Aspose.PDF 在 C# 中為 PDF 添加 Bates 編號](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) |了解如何使用 Aspose.PDF for .NET 在 C# 中為 PDF 文件添加 Bates 編號，以便於文件管理與追蹤。 |
+| [如何在 C# 中使用 Aspose.PDF 新增文字至 PDF](./how-to-add-text-pdf-with-aspose-pdf-in-c/) |學習在 C# 中使用 Aspose.PDF 新增文字至 PDF 文件的步驟說明。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

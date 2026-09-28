@@ -34,7 +34,7 @@ Ezek az oktatóanyagok részletes kódpéldákat, világos magyarázatokat és i
 | [Űrlapok lapítása PDF dokumentumban](./flatten-forms/) | Tanulja meg, hogyan lapíthatja el az űrlapokat PDF dokumentumokban az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Gondoskodjon adatainak védelméről könnyedén. |  
 | [Űrlapmező betűtípusa 14](./form-field-font-14/) | Ismerje meg, hogyan módosíthatja az űrlapmezők betűtípusát egy PDF dokumentumban az Aspose.PDF for .NET használatával. Lépésről lépésre útmutató kódpéldákkal és tippekkel a jobb PDF űrlapok létrehozásához. |  
 | [PDF űrlap mezőkoordinátáinak lekérése](./get-coordinates/) | Oldd fel a PDF-manipulációt az Aspose.PDF for .NET segítségével! Tanuld meg, hogyan kérheted le az űrlapmező koordinátáit néhány egyszerű lépésben. |  
-| [Mezők beolvasása a régióból PDF fájlban](./get-fields-from-region/) Ebben az átfogó útmutatóban megtudhatja, hogyan kinyerhet mezőket könnyedén PDF-fájlok egy adott régiójából az Aspose.PDF for .NET segítségével. |  
+| [Mezők beolvasása a régióból PDF fájlban](./get-fields-from-region/) Ebben az átfogó útmutatóban megtudhatja, hogyan kinyerhet mezőket könnyen PDF-fájlok egy adott régiójából az Aspose.PDF for .NET segítségével. |  
 | [Érték lekérése a PDF dokumentum mezőjéből](./get-value-from-field/) | Tanulja meg, hogyan kinyerhet egyszerűen értékeket egy PDF dokumentum űrlapmezőiből az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. |  
 | [Értékek lekérése a PDF dokumentum összes mezőjéből](./get-values-from-all-fields/) | Tanulja meg, hogyan nyerhet ki értékeket egy PDF dokumentum összes mezőjéből az Aspose.PDF for .NET használatával ebből a lépésről lépésre szóló útmutatóból. |  
 | [XFAProperties lekérése](./get-xfaproperties/) | Ismerje meg, hogyan kérhet le XFA tulajdonságokat az Aspose.PDF for .NET használatával ebben az átfogó oktatóanyagban. Lépésről lépésre útmutató is található. |  
@@ -50,11 +50,12 @@ Ezek az oktatóanyagok részletes kódpéldákat, világos magyarázatokat és i
 | [Mezőkorlát beállítása](./set-field-limit/) | Tanulja meg, hogyan állíthat be mezőkorlátokat PDF űrlapokban az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Javítsa a felhasználói élményt és az adatok integritását. |  
 | [Java szkript beállítása](./set-java-script/) | Engedd szabadjára az Aspose.PDF for .NET erejét. Tanuld meg, hogyan állíthatsz be JavaScriptet az űrlapmezőkön lépésről lépésre bemutató útmutatónkkal. |  
 | [Rádiógomb feliratának beállítása](./set-radio-button-caption/) Ismerje meg, hogyan állíthat be választógomb-feliratokat PDF-fájlokban az Aspose.PDF for .NET használatával. Ez a lépésről lépésre szóló útmutató végigvezeti Önt a PDF-űrlapok betöltésén, módosításán és mentésén. |  
-| [Szövegdoboz](./text-box/) | Fedezze fel, hogyan adhat könnyedén szövegdobozokat PDF-fájlokhoz az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Fokozza a felhasználói interakciót. |  
+| [Szövegdoboz](./text-box/) | Fedezze fel, hogyan adhat könnyedén szövegdobozokat PDF-fájlokhoz az Aspose.PDF for .NET használatával ezzel a lépésről lépésre útmutatóval. Fokozza a felhasználói interakciót. |  
 | [PDF létrehozása Aspose-szal – Űrlapmező és oldalak hozzáadása](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Ismerje meg, hogyan hozhat létre PDF-et Aspose használatával, és adhat hozzá űrlapmezőket és oldalakat lépésről lépésre. |
 | [PDF létrehozása oldalakkal és szövegdoboz mezőkkel – Teljes C# útmutató](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Lépésről lépésre bemutatja, hogyan hozhat létre PDF-et több oldallal és szövegdoboz mezőkkel C#-ban az Aspose.PDF for .NET segítségével. |
 | [PDF dokumentum létrehozása Aspose-szal – Szövegdoboz mező hozzáadása](./create-pdf-document-with-aspose-add-text-box-field/) | Ismerje meg, hogyan adhat hozzá szövegdoboz mezőt PDF dokumentumhoz az Aspose.PDF for .NET használatával lépésről lépésre. |
 | [PDF dokumentum létrehozása C# – Lépésről lépésre útmutató többoldalas űrlapokhoz](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Tanulja meg, hogyan hozhat létre többoldalas űrlapokat tartalmazó PDF dokumentumot C#-ban az Aspose.PDF for .NET segítségével. |
+| [Hogyan hozzunk létre PDF dokumentumot interaktív űrlapmezőkkel C#-ban](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) | Lépésről lépésre útmutató PDF dokumentum interaktív űrlapmezőkkel C#-ban. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -83,4 +84,3 @@ Ezek az oktatóanyagok részletes kódpéldákat, világos magyarázatokat és i
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

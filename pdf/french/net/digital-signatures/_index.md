@@ -121,6 +121,9 @@ Apprenez à extraire les signatures numériques d'un PDF en C# avec Aspose.
 ### [Comment signer un PDF en C# – Guide complet pour ajouter des signatures numériques](./how-to-sign-pdf-in-c-complete-guide-for-adding-digital-signa/)
 Apprenez à signer des PDF en C# avec Aspose.PDF, étape par étape, pour ajouter des signatures numériques sécurisées.
 
+### [Comment obtenir les signatures d'un document Word en C#](./how-to-get-signatures-from-a-word-document-in-c/)
+Un guide complet pour extraire les signatures d'un document Word en C# avec Aspose.
+
 ## Ressources supplémentaires
 
 - [Aspose.PDF pour la documentation réseau](https://docs.aspose.com/pdf/net/)

@@ -32,7 +32,8 @@
 | [PDF 署名抽出チュートリアル – C# で PDF 署名を一覧表示する方法](./pdf-signature-extraction-tutorial-how-to-list-pdf-signatures/) Aspose.PDF for .NET を使用して、C# で PDF のデジタル署名を取得し、一覧表示する方法を学びます。ステップバイステップガイドです。 |  
 | [パスワード保護されています](./is-password-protected/) この包括的なステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF がパスワードで保護されているかどうかを確認する方法を説明します。 |  
 | [PDF ファイルに権限を設定する](./set-privileges/) Aspose.PDF for .NET を使用してPDFの権限を設定する方法をステップバイステップで解説します。ドキュメントを効果的に保護しましょう。 |  
-| [PDFファイルの署名を使用してスマートカードで署名する](./sign-with-smart-card-using-pdf-file-signature/) Aspose.PDF for .NET を使ってスマートカードでPDFファイルに署名する方法を学びましょう。安全なデジタル署名を実現するには、このステップバイステップガイドに従ってください。 |  
+| [C# でカスタム デジタル署名を使用して署名済み PDF を保存する](./save-signed-pdf-with-a-custom-digital-signature-in-c/) Aspose.PDF for .NET を使用して、C# でカスタム デジタル署名を作成し、署名済み PDF を保存する方法をステップバイステップで解説します。 |  
+| [PDFファイルに署名を使用してスマートカードで署名する](./sign-with-smart-card-using-pdf-file-signature/) Aspose.PDF for .NET を使ってスマートカードでPDFファイルに署名する方法を学びましょう。安全なデジタル署名を実現するには、このステップバイステップガイドに従ってください。 |  
 | [署名フィールドを使用してスマートカードで署名する](./sign-with-smart-card-using-signature-field/) Aspose.PDF for .NET を使ってスマートカードで安全に PDF に署名する方法を学びましょう。ステップバイステップのガイドに従って簡単に実装できます。 |  
 | [C# で PDF 署名を確認する – 署名済み PDF ファイルの読み取り方法](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) Aspose.PDF for .NET を使用して、C# で署名済み PDF の署名情報を取得し、検証する方法を学びます。 |  
 | [PDF の署名を確認する – C# で署名一覧を取得する方法（Aspose.PDF 使用）](./check-pdf-for-signatures-how-to-list-signatures-in-c-with-as/) Aspose.PDF for .NET を使用して、C# で PDF の署名情報を一覧表示する方法を学びます。ステップバイステップのガイドです。 |  
@@ -49,6 +50,9 @@
 | [PDF の署名を読み取る方法 – 完全 C# ガイド](./how-to-read-signatures-in-a-pdf-complete-c-guide/) Aspose.PDF for .NET を使い、C# で PDF の署名情報を完全に読み取る手順をステップバイステップで解説します。 |  
 | [PDF 署名チュートリアル – C# で PDF 署名を検証および検証する](./pdf-signature-tutorial-verify-and-validate-pdf-signatures-in/) Aspose.PDF for .NET を使用して、C# で PDF 署名の検証と有効性確認を行う手順をステップバイステップで解説します。 |  
 | [C# で PDF 署名を検証する – 完全ガイド](./how-to-verify-pdf-signature-in-c-complete-guide/) Aspose.PDF for .NET を使用して、C# で PDF のデジタル署名を検証し、信頼性を確認する方法をステップバイステップで解説します。 |  
+| [C# で PDF 署名を検証し、改ざんを検出する方法](./how-to-verify-pdf-signatures-and-detect-tampering-in-c/) Aspose.PDF for .NET を使用して、C# で PDF の署名を検証し、改ざんを検出する方法を学びます。 |  
+| [C# で証明書機関を使用して PDF 署名を検証する方法](./how-to-validate-pdf-signatures-with-a-certificate-authority/) Aspose.PDF for .NET を使用して、C# で証明書機関 (CA) を利用し、PDF のデジタル署名を検証する手順を学びます。 |  
+| [Aspose.PDF を使用して C# で PDF 署名を検証する方法](./how-to-validate-pdf-signatures-using-aspose-pdf-in-c/) Aspose.PDF for .NET を使用し、C# で PDF のデジタル署名を検証する手順をステップバイステップで解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -88,4 +92,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

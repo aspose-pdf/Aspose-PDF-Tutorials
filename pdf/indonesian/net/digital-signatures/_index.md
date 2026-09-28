@@ -122,6 +122,8 @@ Pelajari cara membaca tanda tangan digital dalam file PDF menggunakan C# dan Asp
 ### [Cara Menandatangani PDF dan Menambahkan Gambar – Panduan Lengkap C#](./how-to-sign-pdf-and-add-images-complete-c-guide/)
 Panduan langkah demi langkah untuk menandatangani PDF dan menambahkan gambar menggunakan Aspose.PDF untuk .NET dengan C#.
 
+### [Cara Mendapatkan Tanda Tangan dari Dokumen Word di C#](./how-to-get-signatures-from-a-word-document-in-c/)
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

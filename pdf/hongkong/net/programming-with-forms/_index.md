@@ -55,6 +55,7 @@ Aspose.PDF for .NET「使用表單程式設計」教學課程是希望建立和�
 | [使用 C# 完整指南建立包含頁面與文字方塊欄位的 PDF](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) |本逐步教學說明如何使用 Aspose.PDF for .NET 以 C# 建立 PDF，並新增頁面與文字方塊欄位。 |  
 | [使用 Aspose 建立 PDF 文件 – 新增文字方塊欄位](./create-pdf-document-with-aspose-add-text-box-field/) |透過本逐步教學了解如何使用 Aspose.PDF for .NET 在 PDF 中新增文字方塊欄位，提升表單互動性。 |  
 | [建立 PDF 文件（C#）– 多頁表單逐步指南](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) |本逐步指南說明如何使用 Aspose.PDF for .NET 以 C# 建立包含多頁表單的 PDF 文件。 |  
+| [如何使用 C# 建立具有互動式表單欄位的 PDF 文件](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) |透過本逐步教學了解如何使用 Aspose.PDF for .NET 以 C# 建立包含互動表單欄位的 PDF 文件。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -72,7 +73,7 @@ Aspose.PDF for .NET「使用表單程式設計」教學課程是希望建立和�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-| [建立多個文字方塊小部件的 PDF 文件 – 步驟指南](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) |本逐步教學說明如何使用 Aspose.PDF for .NET 在 PDF 中建立包含多個文字方塊的小部件。 |  
+| [建立多個文字方塊小部件的 PDF 文件 – 步驟指南](./create-pdf-document-with-multiple-textbox-widgets-step-st/) |本逐步教學說明如何使用 Aspose.PDF for .NET 在 PDF 中建立包含多個文字方塊的小部件。 |  
 | [在 PDF 中添加 Bates 編號 – C# 步驟指南](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) |透過本逐步教學了解如何使用 Aspose.PDF for .NET 在 PDF 中以 C# 添加 Bates 編號，以便文件管理與追蹤。 |  
 | [如何新增文字方塊 PDF – 建立 PDF 表單欄位並儲存編輯後的 PDF 文件](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 新增文字方塊、建立表單欄位並儲存編輯後的 PDF。 |  
 
@@ -83,4 +84,3 @@ Aspose.PDF for .NET「使用表單程式設計」教學課程是希望建立和�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

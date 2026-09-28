@@ -69,6 +69,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Buat PDF dari JPG di C# – Panduan Lengkap dengan Pemotongan dan Halaman Baru](./create-pdf-from-jpg-in-c-full-guide-with-cropping-and-new-pa/) | Pelajari cara membuat PDF dari gambar JPG menggunakan Aspose.PDF untuk .NET di C#, termasuk pemotongan gambar dan penambahan halaman baru. |
 | [How to Convert PDF to PDF/X‑4 in C# with Aspose PDF](./how-to-convert-pdf-to-pdf-x-4-in-c-with-aspose-pdf/) | Pelajari cara mengonversi PDF ke PDF/X‑4 dalam C# menggunakan Aspose.PDF untuk .NET dengan contoh kode lengkap. |
 | [Buat HTML dari PDF dengan Aspose.PDF – Panduan Langkah‑ demi‑Langkah](./create-html-from-pdf-with-aspose-pdf-step-by-step-guide/) | Pelajari cara membuat file HTML dari PDF menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah ini. |
+| [Muat dokumen PDF dan konversi ke PDF/X‑4 dengan Aspose.PDF](./load-pdf-document-and-convert-to-pdf-x-4-with-aspose-pdf/) | Pelajari cara memuat dokumen PDF dan mengonversinya ke PDF/X‑4 menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -109,4 +110,3 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

@@ -38,6 +38,8 @@ Dowiedz się, jak tworzyć i wypełniać prostokąty w dokumentach PDF za pomoc�
 ### [Dodaj prostokąt do PDF za pomocą C# – Kompletny przewodnik Aspose PDF](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
 Dowiedz się, jak dodać prostokąt do pliku PDF przy użyciu C# i Aspose.PDF, krok po kroku, z przykładami kodu.
 
+### [Jak dodać prostokąt do PDF w C# przy użyciu Aspose.Pdf](./how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf/)
+
 ### [Utwórz niestandardowe stemple PDF za pomocą Aspose.PDF w .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Samouczek dotyczący kodu dla Aspose.PDF Net
 
@@ -77,11 +79,11 @@ Dowiedz się, jak dodawać obrazy i tekst do plików PDF za pomocą Aspose.PDF d
 ### [Jak dodawać obrazy do plików PDF za pomocą Aspose.PDF .NET: kompleksowy przewodnik](./aspose-pdf-net-add-images-pdfs/)
 Dowiedz się, jak bezproblemowo dodawać obrazy do dokumentów PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik krok po kroku obejmuje konfigurację, implementację i praktyczne zastosowania.
 
-### [Jak dodawać obrazy do plików PDF za pomocą Aspose.PDF dla .NET: kompletny przewodnik](./add-images-to-pdfs-using-aspose-pdf-net/)
+### [Jak dodawać obrazy do plików PDF za pomocą Aspose.PDF .NET: kompletny przewodnik](./add-images-to-pdfs-using-aspose-pdf-net/)
 Dowiedz się, jak bezproblemowo dodawać obrazy do dokumentów PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik krok po kroku obejmuje konfigurację, implementację i praktyczne zastosowania.
 
-### [Jak dodawać obrazy do plików PDF za pomocą Aspose.PDF dla .NET: przewodnik krok po kroku](./add-images-to-pdfs-aspose-pdf-net/)
-Dowiedz się, jak bezproblemowo dodawać obrazy do plików PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje dodawanie obrazów do istniejących plików PDF i tworzenie nowych z plików DICOM.
+### [Jak dodawać obrazy do plików PDF za pomocą Aspose.PDF .NET: przewodnik krok po kroku](./add-images-to-pdfs-aspose-pdf-net/)
+Dowiedz się, jak bezproblemowo dodawać obrazy do istniejących plików PDF i tworzyć nowe z plików DICOM.
 
 ### [Jak dodać nagłówek obrazu do plików PDF za pomocą Aspose.PDF dla .NET: przewodnik krok po kroku](./add-image-header-pdf-aspose-dotnet/)
 Dowiedz się, jak dodawać nagłówki obrazów do dokumentów PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego kompleksowego przewodnika krok po kroku.

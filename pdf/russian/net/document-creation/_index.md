@@ -114,6 +114,8 @@
 ### [Создание PDF‑документа C# – пошаговое руководство по добавлению пустой страницы и рисованию прямоугольника](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
 Узнайте, как добавить пустую страницу и нарисовать прямоугольник в PDF‑документе с помощью Aspose.PDF для .NET.
 
+### [Как инициализировать клиент OpenAI и суммировать PDF с помощью ИИ](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.PDF для сети](https://docs.aspose.com/pdf/net/)

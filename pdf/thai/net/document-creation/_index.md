@@ -104,9 +104,7 @@
 
 ### [สร้างเอกสาร PDF ใน C# – เพิ่มหน้าใน PDF และวาดสี่เหลี่ยม](./create-pdf-document-in-c-add-page-to-pdf-draw-rectangle/)
 
-### [สร้างเอกสาร PDF ใน C# – คู่มือเต็มสำหรับการสร้างในหน่วยความจำ](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
-### [สร้างเอกสาร PDF ด้วย C# – คู่มือทีละขั้นตอนเพื่อเพิ่มหน้าเปล่าและวาดสี่เหลี่ยม](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
-เรียนรู้วิธีเพิ่มหน้าเปล่าและวาดสี่เหลี่ยมในเอกสาร PDF ด้วย Aspose.PDF สำหรับ .NET ผ่าน C#
+### [วิธีเริ่มต้นคลไอเอนต์ OpenAI และสรุป PDF ด้วย AI](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
 
 ## แหล่งข้อมูลเพิ่มเติม
 

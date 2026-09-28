@@ -55,6 +55,8 @@
 ### [Как оптимизировать PDF в C#: добавить пустую страницу, экспортировать в HTML, подписать](./how-to-optimize-pdf-in-c-add-blank-page-export-html-sign/)
 Узнайте, как добавить пустую страницу, экспортировать PDF в HTML и подписать документ с помощью Aspose.PDF для .NET.
 
+### [Как оптимизировать PDF с помощью Aspose.Pdf в C#](./how-to-optimize-pdf-using-aspose-pdf-in-c/)
+
 ### [Оптимизация изображений PDF – уменьшение размера PDF-файла с помощью C#](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
 Узнайте, как сжать изображения в PDF и уменьшить размер файла, используя Aspose.PDF для .NET и C#.
 ### [Как сжать PDF с помощью Aspose – Быстрое руководство на C#](./how-to-compress-pdf-with-aspose-quick-c-guide/)

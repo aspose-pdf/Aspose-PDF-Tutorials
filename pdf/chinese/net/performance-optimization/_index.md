@@ -55,6 +55,9 @@
 ### [如何在 C# 中优化 PDF：添加空白页、导出 HTML、签名](./how-to-optimize-pdf-in-c-add-blank-page-export-html-sign/)
 本指南演示在 C# 使用 Aspose.PDF 添加空白页、导出为 HTML 并对 PDF 进行签名的完整步骤。
 
+### [如何使用 Aspose.Pdf 在 C# 中优化 PDF](./how-to-optimize-pdf-using-aspose-pdf-in-c/)
+本指南展示如何在 C# 中使用 Aspose.Pdf 高效优化 PDF，提升性能并减小文件大小。
+
 ### [使用 C# 优化 PDF 图像 – 减小 PDF 文件大小](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中优化 PDF 中的图像，以减小文件大小并提升加载性能。
 ### [如何使用 Aspose 压缩 PDF – 快速 C# 指南](./how-to-compress-pdf-with-aspose-quick-c-guide/)

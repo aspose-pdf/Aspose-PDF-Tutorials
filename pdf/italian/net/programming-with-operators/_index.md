@@ -20,6 +20,7 @@ tutorial "Programmazione con operatori" di Aspose.PDF per .NET ti guideranno att
 ## Tutorial
 | Titolo | Descrizione |
 | --- | --- | 
+| [Come aggiungere lo stato grafico PDF usando Aspose.PDF in C#](./how-to-add-graphics-state-pdf-using-aspose-pdf-in-c/) | Guida passo passo per aggiungere lo stato grafico a un PDF con Aspose.PDF per .NET in C#. |
 | [Disegna XForm sulla pagina](./draw-xform-on-page/) | Impara a disegnare XForms in PDF usando Aspose.PDF per .NET con questa guida completa passo dopo passo. |  
 | [Operatori PDF](./pdf-operators/) | Guida passo passo all'utilizzo degli operatori PDF con Aspose.PDF per .NET. Aggiungi un'immagine a una pagina PDF e specificane la posizione. |  
 | [Rimuovi oggetti grafici nel file PDF](./remove-graphics-objects/) Scopri come rimuovere oggetti grafici da un file PDF utilizzando Aspose.PDF per .NET in questa guida passo passo. Semplifica le tue attività di manipolazione PDF. |  

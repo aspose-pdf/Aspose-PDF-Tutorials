@@ -108,6 +108,9 @@ C# का उपयोग करके PDF में डिजिटल हस�
 ### [C# में PDF हस्ताक्षर सत्यापित करें – पूर्ण गाइड](./validate-pdf-signature-in-c-complete-guide/)
 C# का उपयोग करके PDF हस्ताक्षर को सत्यापित करने की पूरी प्रक्रिया सीखें।
 
+### [C# में Word दस्तावेज़ से हस्ताक्षर प्राप्त करें](./how-to-get-signatures-from-a-word-document-in-c/)
+C# का उपयोग करके Word दस्तावेज़ में डिजिटल हस्ताक्षर निकालने की प्रक्रिया सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.PDF for Net दस्तावेज़ीकरण](https://docs.aspose.com/pdf/net/)

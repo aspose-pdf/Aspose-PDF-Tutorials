@@ -42,6 +42,8 @@ Aprenda a criar documentos PDF profissionais com LaTeX usando o Aspose.PDF para 
 Aprenda a converter PDFs em livretos profissionais usando o Aspose.PDF para .NET. Siga este guia passo a passo para agilizar a criação de documentos em seus aplicativos .NET.
 ### [Como criar e manipular PDFs com Aspose.PDF para .NET: um guia completo](./create-manipulate-pdf-aspose-dotnet/)
 Aprenda a criar, manipular e aprimorar documentos PDF usando o Aspose.PDF para .NET. Domine a adição de gráficos e texto transparente aos seus PDFs.
+### [Como inicializar cliente OpenAI e resumir PDF com IA](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
+Aprenda a configurar o cliente OpenAI e gerar resumos de PDFs usando IA com Aspose.PDF para .NET.
 ### [Criação de PDF em Java com Aspose: Guia de Orientação Dinâmica de Imagens para Desenvolvedores .NET](./java-pdf-creation-aspose-dynamic-image-orientation-guide/)
 Aprenda a automatizar a criação de PDF baseada em Java usando o Aspose.PDF para .NET, ajustando dinamicamente a orientação da imagem com base nas dimensões.
 ### [Domine o Aspose.PDF .NET para criação e conversão de PDF em C#](./mastering-aspose-pdf-net-pd-creation-conversion/)
@@ -67,7 +69,7 @@ Aprenda a criar documentos PDF em C# passo a passo usando Aspose.PDF para .NET.
 
 ### [Criar documento PDF com Aspose.PDF – adicionar página, forma e salvar](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Aprenda a criar um documento PDF, adicionar páginas e formas, e salvar o arquivo usando Aspose.PDF para .NET.
-### [Criar documento PDF com Aspose em C# – Guia passo a passo](./create-pdf-document-with-aspose-in-c-step-by-step-guide/)
+### [Criar documento PDF em C# – Guia passo a passo](./create-pdf-document-with-aspose-in-c-step-by-step-guide/)
 Aprenda a criar documentos PDF com Aspose usando C# em um guia passo a passo detalhado.
 ### [Criar documento PDF C# – Adicionar página em branco e desenhar retângulo](./create-pdf-document-c-add-blank-page-draw-rectangle/)
 Aprenda a criar um documento PDF em C#, inserir uma página em branco e desenhar um retângulo usando Aspose.PDF para .NET.

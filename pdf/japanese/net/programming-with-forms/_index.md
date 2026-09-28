@@ -55,6 +55,7 @@ Aspose.PDF for .NETの「フォームを使ったプログラミング」チュ�
 | [複数ウィジェットで PDF ドキュメントを作成 – ステップバイステップ ガイド](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) Aspose.PDF for .NET を使用して、複数のウィジェットを含む PDF ドキュメントを作成する方法をステップバイステップで解説します。 |  
 | [ページとテキストボックスフィールドでPDFを作成 – 完全C#ガイド](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) Aspose.PDF for .NET を使用して、ページとテキストボックスフィールドを含む PDF を作成する方法をステップバイステップで解説します。 |  
 | [PDF ドキュメント作成（C#） – マルチページフォームのステップバイステップガイド](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) Aspose.PDF for .NET を使用して、C# でマルチページのフォーム付き PDF ドキュメントを作成する方法をステップバイステップで解説します。 |  
+| [C# でインタラクティブなフォームフィールドを持つ PDF ドキュメントを作成する方法](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) Aspose.PDF for .NET を使用して、C# でインタラクティブなフォームフィールド付き PDF を作成する手順を解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -81,4 +82,3 @@ Aspose.PDF for .NETの「フォームを使ったプログラミング」チュ�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

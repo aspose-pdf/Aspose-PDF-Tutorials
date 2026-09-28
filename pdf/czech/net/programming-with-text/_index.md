@@ -71,6 +71,8 @@ Výukové programy „Programování s textem“ pro .NET od Aspose.PDF nabízej
 | [Textové segmenty v souboru PDF](./text-segments/) | Naučte se, jak vyhledávat konkrétní textové segmenty v souboru PDF pomocí regulárních výrazů v Aspose.PDF pro .NET. |  
 | [Použití Latexového skriptu v PDF souboru](./use-latex-script/) | Naučte se, jak pomocí Latexového skriptu přidávat matematické výrazy nebo vzorce do PDF souboru pomocí Aspose.PDF pro .NET. |  
 | [Přidat Batesova čísla do PDF – Bates číslování PDF](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Naučte se přidávat Batesova čísla do PDF souborů pomocí Aspose.PDF pro .NET. Podrobný návod s ukázkami kódu. |  
+| [Přidat Batesovo číslování do PDF pomocí Aspose.PDF v C#](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | Naučte se přidávat Batesova čísla do PDF souborů pomocí Aspose.PDF v C# s podrobným návodem a ukázkami kódu. |  
+| [Jak přidat text do PDF pomocí Aspose.PDF v C#](./how-to-add-text-pdf-with-aspose-pdf-in-c/) | Naučte se přidávat text do PDF souborů pomocí Aspose.PDF v jazyce C# s praktickými ukázkami kódu. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

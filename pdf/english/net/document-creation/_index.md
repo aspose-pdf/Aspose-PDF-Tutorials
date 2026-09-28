@@ -106,6 +106,9 @@ Learn how to generate PDF documents entirely in memory using C# and Aspose.PDF f
 ### [Create PDF Document C# – Step‑by‑Step Guide to Add a Blank Page and Draw a Rectangle](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
 Learn how to add a blank page and draw a rectangle in a PDF using Aspose.PDF for .NET with C# step‑by‑step.
 
+### [How to initialize OpenAI client and summarize PDF with AI](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
+Learn how to set up the OpenAI client in .NET and generate AI‑powered summaries of PDF documents using Aspose.PDF.
+
 ## Additional Resources
 
 - [Aspose.PDF for Net Documentation](https://docs.aspose.com/pdf/net/)

@@ -63,6 +63,8 @@ Dowiedz się, jak zapisać zoptymalizowany plik PDF w C#, redukując jego rozmia
 Dowiedz się, jak szybko skompresować pliki PDF przy użyciu Aspose.PDF, aby zmniejszyć ich rozmiar i poprawić wydajność.
 ### [Jak zoptymalizować PDF w C# – Szybko zmniejszyć rozmiar pliku](./how-to-optimize-pdf-in-c-reduce-file-size-quickly/)
 Dowiedz się, jak szybko zmniejszyć rozmiar pliku PDF w C# przy użyciu Aspose.PDF.
+### [Jak zoptymalizować PDF przy użyciu Aspose.Pdf w C#](./how-to-optimize-pdf-using-aspose-pdf-in-c/)
+Szybki przewodnik, jak zoptymalizować pliki PDF w C# przy użyciu Aspose.Pdf, aby zmniejszyć rozmiar i poprawić wydajność.
 
 ## Dodatkowe zasoby
 

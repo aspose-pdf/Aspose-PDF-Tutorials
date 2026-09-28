@@ -99,6 +99,9 @@ Hướng dẫn chi tiết cách tạo tài liệu PDF trong bộ nhớ bằng C#
 ### [Tạo tài liệu PDF C# – Hướng dẫn từng bước để thêm trang trống và vẽ hình chữ nhật](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
 Hướng dẫn chi tiết cách thêm một trang trống và vẽ hình chữ nhật vào tài liệu PDF bằng Aspose.PDF trong .NET.
 
+### [Cách khởi tạo client OpenAI và tóm tắt PDF bằng AI](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
+Hướng dẫn khởi tạo client OpenAI và sử dụng AI để tóm tắt nội dung PDF trong .NET.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)

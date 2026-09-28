@@ -99,6 +99,9 @@ Aspose.PDF Net 代码教程
 ### [使用 Aspose.PDF for .NET 创建 PDF 文档（C#）——添加空白页并绘制矩形的分步指南](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
 学习如何使用 Aspose.PDF for .NET 在 C# 中创建 PDF 文档，添加空白页并绘制矩形形状的完整步骤。
 
+### [如何初始化 OpenAI 客户端并使用 AI 摘要 PDF](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
+了解如何在 .NET 中初始化 OpenAI 客户端并使用 AI 对 PDF 内容进行摘要。
+
 ## 其他资源
 
 - [Aspose.PDF 用于网络文档](https://docs.aspose.com/pdf/net/)

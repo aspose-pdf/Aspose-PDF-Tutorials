@@ -96,6 +96,8 @@
 
 ### [إنشاء مستند PDF في C# – دليل كامل للإنشاء في الذاكرة](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
 
+### [كيفية تهيئة عميل OpenAI وتلخيص PDF باستخدام الذكاء الاصطناعي](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

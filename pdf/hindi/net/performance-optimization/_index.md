@@ -56,6 +56,8 @@ C# में Aspose.PDF का उपयोग करके अनुकूल�
 ### [C# में PDF को अनुकूलित कैसे करें – फ़ाइल आकार जल्दी कम करें](./how-to-optimize-pdf-in-c-reduce-file-size-quickly/)
 C# में Aspose.PDF का उपयोग करके PDF फ़ाइल का आकार तेज़ी से घटाने और प्रदर्शन सुधारने की चरण-दर-चरण गाइड।
 
+### [C# में Aspose.Pdf का उपयोग करके PDF को अनुकूलित कैसे करें](./how-to-optimize-pdf-using-aspose-pdf-in-c/)
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.PDF for Net दस्तावेज़ीकरण](https://docs.aspose.com/pdf/net/)

@@ -38,6 +38,9 @@ Pelajari cara membuat dan mengisi persegi panjang dalam dokumen PDF menggunakan 
 ### [Menambahkan Persegi Panjang ke PDF dengan C# – Panduan Lengkap Aspose PDF](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
 Pelajari cara menambahkan bentuk persegi panjang ke dokumen PDF menggunakan Aspose.PDF untuk .NET dengan C# dalam panduan lengkap ini.
 
+### [Cara Menambahkan Persegi Panjang ke PDF dalam C# dengan Aspose.Pdf](./how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf/)
+Pelajari cara menambahkan bentuk persegi panjang ke dokumen PDF menggunakan Aspose.PDF untuk .NET dengan C# dalam panduan singkat ini.
+
 ### [Buat Stempel PDF Kustom dengan Aspose.PDF di .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Tutorial kode untuk Aspose.PDF Net
 
@@ -120,7 +123,7 @@ Pelajari cara menyempurnakan dokumen PDF Anda dengan membuat persegi panjang den
 Pelajari cara menghapus gambar dari file PDF secara efisien menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup pengaturan, contoh kode, dan praktik terbaik.
 
 ### [Cara Menghapus Gambar dari PDF Menggunakan Aspose.PDF .NET: Panduan Langkah demi Langkah](./delete-images-aspose-pdf-net-guide/)
-Pelajari cara menghapus gambar dari file PDF menggunakan Aspose.PDF untuk .NET. Panduan lengkap ini mencakup pengaturan, penerapan, dan aplikasi praktis.
+Pelajari cara menghapus gambar dari PDF menggunakan Aspose.PDF untuk .NET. Panduan lengkap ini mencakup pengaturan, penerapan, dan aplikasi praktis.
 
 ### [Cara Menghapus Gambar dari PDF Menggunakan Aspose.PDF untuk .NET: Panduan Lengkap](./delete-images-from-pdf-aspose-dotnet/)
 Pelajari cara menghapus semua gambar dari PDF secara efisien menggunakan Aspose.PDF for .NET, meningkatkan privasi file dan mengurangi ukuran. Ikuti panduan langkah demi langkah ini.

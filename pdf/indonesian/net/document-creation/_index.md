@@ -98,6 +98,9 @@ Pelajari cara membuat dokumen PDF secara langsung di memori menggunakan Aspose.P
 ### [Buat Dokumen PDF C# – Panduan Langkah demi Langkah untuk Menambahkan Halaman Kosong dan Menggambar Persegi Panjang](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
 Pelajari cara menambahkan halaman kosong dan menggambar persegi panjang dalam dokumen PDF menggunakan Aspose.PDF untuk .NET.
 
+### [Cara menginisialisasi klien OpenAI dan meringkas PDF dengan AI](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
+Pelajari cara mengatur klien OpenAI dan menghasilkan ringkasan PDF secara otomatis menggunakan AI.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)
