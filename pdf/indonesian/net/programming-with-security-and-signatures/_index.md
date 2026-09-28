@@ -50,7 +50,10 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Cara Membaca Tanda Tangan dalam PDF – Panduan Lengkap C#](./how-to-read-signatures-in-a-pdf-complete-c-guide/) | Pelajari cara membaca tanda tangan PDF menggunakan C# dengan Aspose.PDF untuk .NET dalam panduan lengkap langkah demi langkah. Bahasa Indonesia:  
 | [Tutorial Tanda Tangan PDF – Verifikasi dan Validasi Tanda Tangan PDF di C#](./pdf-signature-tutorial-verify-and-validate-pdf-signatures-in/) | Pelajari cara memverifikasi dan memvalidasi tanda tangan digital pada file PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode C#. Bahasa Indonesia:  
 | [Cara Memverifikasi Tanda Tangan PDF di C# – Panduan Lengkap](./how-to-verify-pdf-signature-in-c-complete-guide/) | Pelajari cara memverifikasi tanda tangan PDF di C# dengan Aspose.PDF untuk .NET dalam panduan lengkap. Bahasa Indonesia:  
-
+| [Cara memverifikasi tanda tangan PDF dan mendeteksi manipulasi dalam C#](./how-to-verify-pdf-signatures-and-detect-tampering-in-c/) | Pelajari cara memverifikasi tanda tangan PDF dan mendeteksi perubahan pada dokumen menggunakan Aspose.PDF untuk .NET dalam C#. Bahasa Indonesia:  
+| [Simpan PDF yang Ditandatangani dengan Tanda Tangan Digital Kustom di C#](./save-signed-pdf-with-a-custom-digital-signature-in-c/) | Pelajari cara menyimpan PDF yang telah ditandatangani dengan tanda tangan digital kustom menggunakan Aspose.PDF untuk .NET di C#. |  
+| [Cara memvalidasi tanda tangan PDF dengan Otoritas Sertifikat di C#](./how-to-validate-pdf-signatures-with-a-certificate-authority/) | Pelajari cara memvalidasi tanda tangan PDF menggunakan Otoritas Sertifikat di C# dengan Aspose.PDF. |
+| [Cara memvalidasi tanda tangan PDF menggunakan Aspose.PDF di C#](./how-to-validate-pdf-signatures-using-aspose-pdf-in-c/) | Pelajari cara memvalidasi tanda tangan PDF menggunakan Aspose.PDF di C# dengan panduan langkah demi langkah. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -87,4 +90,3 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

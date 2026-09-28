@@ -29,6 +29,7 @@ Aspose.PDF 的“文本编程”.NET 教程提供了全面的 PDF 文档文本�
 | [向 PDF 文件中的文本添加工具提示](./add-tooltip-to-text/) 了解如何使用 Aspose.PDF for .NET 为 PDF 文件中的文本添加工具提示。轻松使用信息丰富的悬停文本增强您的 PDF 效果。|  
 | [在 PDF 文件中添加透明文本](./add-transparent-text/) 学习如何使用 Aspose.PDF for .NET 轻松向 PDF 添加透明文本，本指南包含实现完美透明度的分步说明。|  
 | [在 PDF 文件中添加 Bates 编号](./add-bates-numbers-to-pdf-bates-numbering-pdf/) 学习如何使用 Aspose.PDF for .NET 在 PDF 文档中添加 Bates 编号，以实现文档的唯一标识和追踪。|  
+| [使用 Aspose.PDF 在 C# 中为 PDF 添加 Bates 编号](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) 学习如何使用 Aspose.PDF for .NET 在 C# 中为 PDF 文档添加 Bates 编号，实现文档唯一标识。|  
 | [创建多列 PDF](./create-multi-column-pdf/) | 学习如何使用 Aspose.PDF for .NET 创建多列 PDF。本指南包含代码示例和详细解释，适合专业人士使用。|  
 | [PDF 文件中的自定义制表位](./custom-tab-stops/) 学习如何使用 Aspose.PDF for .NET 在 PDF 中设置自定义制表位。本教程将逐步讲解如何专业地对齐文本。|  
 | [确定 PDF 文件中的换行符](./determine-line-break/) 了解如何使用 Aspose.PDF for .NET 确定 PDF 文档中的换行符。面向开发人员的分步教程。|  
@@ -37,7 +38,7 @@ Aspose.PDF 的“文本编程”.NET 教程提供了全面的 PDF 文档文本�
 | [提取 PDF 文件中的段落](./extract-paragraphs/) 学习如何使用 Aspose.PDF for .NET 从 PDF 文件中提取段落，本教程简单易懂，适合所有级别的开发人员。|   
 | [提取PDF文件中的全部文本](./extract-text-all/) |通过本分步教程学习如何使用 Aspose.PDF for .NET 轻松地从 PDF 文件中提取文本。|  
 | [从 PDF 文件中的页面区域提取文本](./extract-text-from-page-region/) 学习如何使用 Aspose.PDF for .NET 从 PDF 中的特定区域提取文本，并遵循本分步指南。高效地从文档中收集和保存文本。|  
-| [提取PDF文件中的文本页面](./extract-text-page/) 了解如何使用 Aspose.PDF for .NET 从 PDF 文件中的特定页面提取文本。|  
+| [提取PDF文件中的文本页面](./extract-text-page/) 了解如何使用 Aspose.PDF for .NET 从 PDF 文件中提取特定页面的文本。|  
 | [使用文本设备提取文本](./extract-text-using-text-device/) 了解如何使用 Aspose.PDF for .NET 中的文本设备从 PDF 文档中提取文本。|  
 | [动态获取文本宽度](./get-width-of-text-dynamically/) 在这个为开发人员量身定制的全面的分步教程中，学习如何使用 Aspose.PDF for .NET 动态测量文本宽度。|  
 | [PDF文件中的隐藏文本块](./hidden-text-block/) 使用 Aspose.PDF for .NET 创建带有隐藏文本块的交互式 PDF。本教程提供逐步指南，助您优化文档。|  
@@ -71,6 +72,7 @@ Aspose.PDF 的“文本编程”.NET 教程提供了全面的 PDF 文档文本�
 | [PDF 文件中的文本和图像作为段落](./text-and-image-as-paragraph/) 使用 Aspose.PDF for .NET 创建包含文本和图像的 PDF。学习如何逐步添加文本和内联图像。|  
 | [PDF文件中的文本片段](./text-segments/) 了解如何在 Aspose.PDF for .NET 中使用正则表达式搜索 PDF 文件中的特定文本段。|  
 | [在 PDF 文件中使用 Latex 脚本](./use-latex-script/) 了解如何使用 Latex 脚本通过 Aspose.PDF for .NET 在 PDF 文件中添加数学表达式或公式。|  
+| [如何在 C# 中使用 Aspose.PDF 添加文本到 PDF](./how-to-add-text-pdf-with-aspose-pdf-in-c/) 学习在 C# 中使用 Aspose.PDF 为 PDF 文档添加文本的步骤和代码示例。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

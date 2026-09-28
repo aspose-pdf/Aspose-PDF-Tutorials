@@ -41,6 +41,9 @@
 ### [如何使用 C# 在 PDF 中绘制矩形：分步指南](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
 学习使用 C# 和 Aspose.PDF for .NET 在 PDF 中绘制矩形的步骤，包括位置、尺寸和样式的设置。
 
+### [如何使用 Aspose.PDF for .NET 在 C# 中向 PDF 添加矩形](./how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf/)
+学习使用 Aspose.PDF for .NET 在 C# 中向 PDF 文档添加矩形的步骤。
+
 ### [使用 .NET 中的 Aspose.PDF 创建自定义 PDF 图章](./create-custom-pdf-stamps-aspose-pdf-net/)
 Aspose.PDF Net 代码教程
 
@@ -83,28 +86,28 @@ Aspose.PDF Net 代码教程
 ### [如何使用 Aspose.PDF .NET 将图像添加到 PDF：综合指南](./aspose-pdf-net-add-images-pdfs/)
 了解如何使用 Aspose.PDF for .NET 将图像无缝添加到 PDF 文档。本分步指南涵盖设置、实施和实际应用。
 
-### [如何使用 Aspose.PDF for .NET 将图像添加到 PDF：完整指南](./add-images-to-pdfs-using-aspose-pdf-net/)
+### [如何使用 Aspose.PDF .NET 将图像添加到 PDF：完整指南](./add-images-to-pdfs-using-aspose-pdf-net/)
 了解如何使用 Aspose.PDF for .NET 将图像无缝添加到 PDF 文档。本分步指南涵盖设置、实施和实际应用。
 
-### [如何使用 Aspose.PDF for .NET 将图像添加到 PDF：分步指南](./add-images-to-pdfs-aspose-pdf-net/)
+### [如何使用 Aspose.PDF .NET 将图像添加到 PDF：分步指南](./add-images-to-pdfs-aspose-pdf-net/)
 了解如何使用 Aspose.PDF for .NET 将图像无缝添加到您的 PDF 文档中。本指南涵盖了如何将图像添加到现有 PDF 文档以及如何从 DICOM 文件创建新的 PDF 文档。
 
-### [如何使用 Aspose.PDF for .NET 为 PDF 添加图像页眉：分步指南](./add-image-header-pdf-aspose-dotnet/)
+### [如何使用 Aspose.PDF .NET 为 PDF 添加图像页眉：分步指南](./add-image-header-pdf-aspose-dotnet/)
 通过本全面的分步指南了解如何使用 Aspose.PDF for .NET 将图像标题添加到 PDF 文档中。
 
-### [如何使用 Aspose.PDF for .NET 在 PDF 页眉中添加图像印章](./add-image-stamp-pdf-header-aspose-pdf/)
+### [如何使用 Aspose.PDF .NET 在 PDF 页眉中添加图像印章](./add-image-stamp-pdf-header-aspose-pdf/)
 了解如何使用 Aspose.PDF for .NET 将图像印章添加到 PDF 标题中，以增强品牌形象和专业性。
 
-### [如何使用 Aspose.PDF for .NET 向 PDF 页面添加图像印章](./add-image-stamp-pdf-pages-aspose-dotnet/)
+### [如何使用 Aspose.PDF .NET 向 PDF 页面添加图像印章](./add-image-stamp-pdf-pages-aspose-dotnet/)
 了解如何使用 Aspose.PDF for .NET 在 PDF 的特定页面上添加图像图章。增强品牌形象、添加水印或高效个性化文档。
 
-### [如何使用 Aspose.PDF for .NET 向 PDF 添加图像图章：综合指南](./add-image-stamp-pdf-aspose-dotnet/)
+### [如何使用 Aspose.PDF .NET 向 PDF 添加图像图章：综合指南](./add-image-stamp-pdf-aspose-dotnet/)
 了解如何使用 Aspose.PDF for .NET 为您的 PDF 添加图像印章，例如徽标或水印。本指南涵盖设置、实施和实际应用。
 
-### [如何使用 Aspose.PDF for .NET 将 PDF 页面转换为 PNG 图像](./convert-pdf-page-to-png-aspose-dotnet/)
+### [如何使用 Aspose.PDF .NET 将 PDF 页面转换为 PNG 图像](./convert-pdf-page-to-png-aspose-dotnet/)
 学习如何使用 Aspose.PDF for .NET 将 PDF 页面转换为高质量的 PNG 图像。本指南包含代码示例和最佳实践，请遵循分步指南。
 
-### [如何使用 Aspose.PDF for .NET 在 PDF 中创建虚线：分步指南](./create-dashed-lines-aspose-pdf-net/)
+### [如何使用 Aspose.PDF .NET 在 PDF 中创建虚线：分步指南](./create-dashed-lines-aspose-pdf-net/)
 了解如何使用 Aspose.PDF for .NET 添加虚线来增强 PDF 文档的效果。按照本指南逐步操作，即可获得精美专业的 PDF 效果。
 
 ### [如何使用 Aspose.PDF 在 .NET 中创建带图像的标签 PDF](./create-tagged-pdf-image-dotnet/)
@@ -159,7 +162,7 @@ Aspose.PDF Net 代码教程
 学习如何使用 Aspose.PDF for .NET 高效地替换 PDF 文档中的图像。本指南内容全面，涵盖设置、实施和实际应用。
 
 ### [如何使用 Aspose.PDF for .NET 设置 PDF 中的图像大小](./set-image-size-pdf-aspose-dotnet/)
-了解如何使用 Aspose.PDF for .NET 调整 PDF 中的图像大小，非常适合创建专业文档和演示文稿。
+了解如何使用 Aspose.PDF for .NET 调整 PDF 中的图像大小，非常适合创建专业文档和演示稿件。
 
 ### [使用 Aspose.PDF for .NET 掌握 PDF 中的图像放置](./optimize-image-placement-aspose-pdf-net/)
 学习使用 Aspose.PDF for .NET 优化 PDF 文档中的图像布局。通过实用指南提升文档质量和效率。

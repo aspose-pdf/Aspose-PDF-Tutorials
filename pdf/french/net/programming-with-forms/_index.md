@@ -55,6 +55,7 @@ Ces tutoriels proposent également des exemples de code détaillés, des explica
 | [Créer un PDF avec des pages et des champs de zone de texte – Guide complet C#](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Apprenez à créer un PDF contenant plusieurs pages et des champs de zone de texte avec Aspose.PDF pour .NET dans ce guide complet C#. |
 | [Créer un document PDF avec Aspose – Ajouter un champ de zone de texte](./create-pdf-document-with-aspose-add-text-box-field/) | Apprenez à ajouter un champ de zone de texte à un PDF avec Aspose.PDF pour .NET grâce à ce guide étape par étape. |
 | [Créer un document PDF C# – Guide étape par étape pour les formulaires multi‑pages](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Apprenez à créer un document PDF multi‑pages avec des formulaires en C# grâce à ce guide détaillé étape par étape. |
+| [Comment créer un PDF avec des champs de formulaire interactifs en C#](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) | Apprenez à créer un document PDF contenant des champs de formulaire interactifs en C# avec Aspose.PDF pour .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -83,4 +84,3 @@ Ces tutoriels proposent également des exemples de code détaillés, des explica
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

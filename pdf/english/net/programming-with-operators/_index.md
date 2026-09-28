@@ -24,6 +24,7 @@ Aspose.PDF for .NET's "Programming with Operators" tutorials guide you through t
 | [PDF Operators](./pdf-operators/) | Step-by-step guide to using PDF operators with Aspose.PDF for .NET. Add an image to a PDF page and specify its position. |  
 | [Remove Graphics Objects In PDF File](./remove-graphics-objects/) | Learn how to remove graphics objects from a PDF file using Aspose.PDF for .NET in this step-by-step guide. Simplify your PDF manipulation tasks. |  
 | [Add Transparency to PDF using Aspose – Complete C# Guide](./add-transparency-to-pdf-using-aspose-complete-c-guide/) | Comprehensive C# guide to adding transparency effects to PDFs using Aspose.PDF for .NET. |  
+| [How to add graphics state pdf using Aspose.PDF in C#](./how-to-add-graphics-state-pdf-using-aspose-pdf-in-c/) | Step-by-step guide to adding graphics state to a PDF using Aspose.PDF for .NET in C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

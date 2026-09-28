@@ -26,8 +26,9 @@ Az Aspose.PDF „Szöveggel programozás” című .NET-es oktatóanyagai átfog
 | [Következő sorok behúzásának hozzáadása a PDF fájlban](./add-subsequent-lines-indent/) | Tanulja meg, hogyan adhat hozzá követő sorok behúzását PDF fájlokhoz az Aspose.PDF for .NET segítségével. Kövesse ezt a részletes, lépésről lépésre szóló útmutatót a professzionális szövegformázáshoz. |  
 | [Szövegszegély hozzáadása PDF fájlban](./add-text-border/) | Tanulja meg, hogyan adhat hozzá szövegkeretet egy PDF-fájlhoz az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Javítsa PDF-dokumentumai minőségét. |  
 | [Árnyékoló színekkel ellátott szöveg hozzáadása PDF fájlban](./add-text-with-shading-colors/) | Tanulja meg, hogyan adhat hozzá szövegárnyékolást PDF fájlokhoz az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Szabja testre dokumentumait színes színátmenetekkel. |  
-| [Eszköztipp hozzáadása szöveghez PDF fájlban](./add-tooltip-to-text/) | Tanuld meg, hogyan adhatsz hozzá eszköztippeket PDF fájlok szövegéhez az Aspose.PDF for .NET segítségével. Könnyedén gazdagíthatod PDF fájljaidat informatív, előre mutató szövegekkel. |  
+| [Eszköztipp hozzáadása szöveghez PDF fájlban](./add-tooltip-to-text/) | Tanuld meg, hogyan adhatsz hozzá eszköztippeket PDF fájljaid szövegéhez az Aspose.PDF for .NET segítségével. Könnyedén gazdagíthatod PDF fájljaidat informatív, előre mutató szövegekkel. |  
 | [Átlátszó szöveg hozzáadása PDF fájlhoz](./add-transparent-text/) | Tanulja meg, hogyan adhat egyszerűen átlátszó szöveget PDF-hez az Aspose.PDF for .NET segítségével ezzel az átfogó útmutatóval. Lépésről lépésre bemutatjuk a tökéletes átlátszóság elérését. |  
+| [Szöveg hozzáadása PDF-hez Aspose.PDF használatával C#-ban](./how-to-add-text-pdf-with-aspose-pdf-in-c/) | Tanulja meg, hogyan adhat szöveget PDF-fájlokhoz az Aspose.PDF for .NET C#-ban, lépésről lépésre útmutatóval. |  
 | [Több oszlopos PDF létrehozása](./create-multi-column-pdf/) | Tanulja meg, hogyan hozhat létre többoszlopos PDF fájlokat az Aspose.PDF for .NET segítségével. Lépésről lépésre útmutató kódpéldákkal és részletes magyarázatokkal. Tökéletes szakemberek számára. |  
 | [Egyéni tabulátorhelyek PDF fájlban](./custom-tab-stops/) | Ismerje meg, hogyan állíthat be egyéni tabulátorpozíciókat PDF-ben az Aspose.PDF for .NET használatával. Ez az oktatóanyag lépésről lépésre bemutatja a szöveg professzionális igazítását.  
 | [Sortörés meghatározása PDF fájlban](./determine-line-break/) | Tanulja meg, hogyan lehet meghatározni a sortöréseket PDF dokumentumokban az Aspose.PDF for .NET használatával. Lépésről lépésre útmutató fejlesztőknek. |  
@@ -70,8 +71,8 @@ Az Aspose.PDF „Szöveggel programozás” című .NET-es oktatóanyagai átfog
 | [Szöveg és kép bekezdésként PDF fájlban](./text-and-image-as-paragraph/) | Hozzon létre szöveget és képeket tartalmazó PDF fájlokat az Aspose.PDF for .NET segítségével. Tanulja meg, hogyan adhat hozzá szöveget és beágyazott képeket lépésről lépésre. |  
 | [Szövegszegmensek PDF fájlban](./text-segments/) | Ismerje meg, hogyan kereshet meghatározott szövegrészeket PDF fájlokban reguláris kifejezések használatával az Aspose.PDF for .NET programban. |  
 | [Latex szkript használata PDF fájlban](./use-latex-script/) | Tanulja meg, hogyan használhat Latex szkripteket matematikai kifejezések vagy képletek PDF fájlokba való hozzáadásához az Aspose.PDF for .NET használatával. |  
-| [Bates-számok hozzáadása PDF-hez](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Tanulja meg, hogyan adhat hozzá Bates-számokat PDF-dokumentumokhoz az Aspose.PDF for .NET használatával, lépésről lépésre útmutatóval. |  
-
+| [Bates-számok hozzáadása PDF-hez](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Tanulja meg, hogyan adhat hozzá Bates-számokat PDF-dokumentumokhoz az Aspose.PDF for .NET használatával, lépésről lépésre útmutatóval. |
+| [Bates-számozás hozzáadása PDF-hez Aspose.PDF használatával C#-ban](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | Tanulja meg, hogyan adhat hozzá Bates-számozást PDF-dokumentumokhoz C#-ban az Aspose.PDF segítségével. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -121,6 +121,9 @@ Aspose.PDF .NET 代码教程
 ### [在 C# 中验证 PDF 签名 – 完整指南](./validate-pdf-signature-in-c-complete-guide/)
 提供在 C# 环境下使用 Aspose.PDF 完整验证 PDF 签名的步骤和代码示例。
 
+### [如何在 C# 中从 Word 文档获取签名](./how-to-get-signatures-from-a-word-document-in-c/)
+学习如何使用 Aspose.Words for .NET 在 C# 中提取 Word 文档的签名信息。
+
 ## 其他资源
 
 - [Aspose.PDF 用于网络文档](https://docs.aspose.com/pdf/net/)

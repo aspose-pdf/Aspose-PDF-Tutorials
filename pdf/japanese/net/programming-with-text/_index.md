@@ -71,6 +71,8 @@ Aspose.PDFの.NET向け「テキストプログラミング」チュートリア
 | [PDFファイル内のテキストセグメント](./text-segments/) Aspose.PDF for .NET で正規表現を使用して PDF ファイル内の特定のテキスト セグメントを検索する方法を学習します。 |  
 | [PDFファイルでLaTeXスクリプトを使用する](./use-latex-script/) Aspose.PDF for .NET を使用して、LaTeX スクリプトで PDF ファイルに数式や式を追加する方法を学習します。 |  
 | [PDFにベーツ番号を追加 – ベーツ番号付与](./add-bates-numbers-to-pdf-bates-numbering-pdf/) Aspose.PDF for .NET を使用して、PDF にベーツ番号（ページ番号）を追加する方法を学びます。ステップバイステップのガイドです。 |  
+| [C# で Aspose.PDF を使用して PDF にベーツ番号を追加](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) Aspose.PDF for .NET を使用し、C# で PDF にベーツ番号（ページ番号）を自動的に付与する方法をステップバイステップで解説します。 |  
+| [C# で Aspose.PDF を使用してテキスト PDF を追加する方法](./how-to-add-text-pdf-with-aspose-pdf-in-c/) Aspose.PDF for .NET を使用して、C# でテキスト PDF を追加する手順を学びます。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

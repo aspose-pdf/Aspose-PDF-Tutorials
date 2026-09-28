@@ -98,6 +98,9 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# PDFs vollständig im Speich
 ### [PDF-Dokument erstellen in C# – Schritt‑für‑Schritt‑Anleitung zum Hinzufügen einer leeren Seite und Zeichnen eines Rechtecks](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# ein PDF erstellen, eine leere Seite hinzufügen und ein Rechteck zeichnen.
 
+### [Wie man den OpenAI-Client initialisiert und PDFs mit KI zusammenfasst](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
+Erfahren Sie, wie Sie den OpenAI-Client initialisieren und PDFs mithilfe von KI zusammenfassen.
+
 ## Weitere Ressourcen
 
 - [Aspose.PDF für Net-Dokumentation](https://docs.aspose.com/pdf/net/)

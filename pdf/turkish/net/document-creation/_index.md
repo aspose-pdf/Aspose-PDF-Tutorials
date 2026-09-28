@@ -114,6 +114,9 @@ C# ve Aspose.PDF ile bellek içinde PDF belgeleri oluşturmayı adım adım öğ
 ### [Aspose.PDF ile PDF Belgesi Oluşturma – Tam C# Kılavuzu](./create-pdf-document-with-aspose-pdf-full-c-guide/)
 Aspose.PDF for .NET kullanarak C# ile tam kapsamlı PDF belgesi oluşturma adımlarını öğrenin.
 
+### [OpenAI istemcisini başlatma ve AI ile PDF özetleme](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
+OpenAI istemcisiyle PDF dosyalarını özetlemek için adım adım rehber.
+
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)

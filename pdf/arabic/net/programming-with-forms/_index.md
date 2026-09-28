@@ -55,6 +55,7 @@
 | [إنشاء PDF مع صفحات وحقول مربعات النص – دليل C# كامل](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) تعلم كيفية إنشاء مستند PDF يحتوي على صفحات وحقول مربعات نصية باستخدام C# ومكتبة Aspose.PDF خطوة بخطوة.  
 | [إنشاء مستند PDF باستخدام Aspose – إضافة حقل مربع نص](./create-pdf-document-with-aspose-add-text-box-field/) تعلم كيفية إضافة حقل مربع نص إلى مستند PDF باستخدام Aspose.PDF لـ .NET خطوة بخطوة.  
 | [إنشاء مستند PDF باستخدام C# – دليل خطوة بخطوة للنماذج متعددة الصفحات](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) تعلم كيفية إنشاء مستند PDF متعدد الصفحات مع نماذج تفاعلية باستخدام Aspose.PDF لـ .NET وC# خطوة بخطوة.  
+| [كيفية إنشاء مستند PDF مع حقول نموذج تفاعلية في C#](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) تعلم كيفية إنشاء مستند PDF يحتوي على حقول نموذج تفاعلية باستخدام C# و Aspose.PDF.  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -81,4 +82,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

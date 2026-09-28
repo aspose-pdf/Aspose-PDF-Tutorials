@@ -41,53 +41,38 @@ C# と Aspose.PDF for .NET を使用して、PDF に四角形を追加する方�
 ### [C# を使用して PDF に四角形を描く方法 – ステップバイステップ ガイド](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
 Aspose.PDF for .NET と C# を使って、PDF に四角形を描く手順を学びます。コード例とベストプラクティスを含むステップバイステップガイドです。
 
+### [C# で Aspose.Pdf を使用して PDF に四角形を追加する方法](./how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf/)
+Aspose.PDF と C# を使って PDF に四角形を描画し、位置やサイズ、色を設定する手順を解説します。
+
 ### [.NET で Aspose.PDF を使用してカスタム PDF スタンプを作成する](./create-custom-pdf-stamps-aspose-pdf-net/)
 Aspose.PDF Net のコードチュートリアル
 
-### [Aspose.PDF .NET を使用して境界線を強調表示する PDF を作成する: 開発者向け総合ガイド](./create-pdf-borders-highlight-aspose-pdf-net/)
-Aspose.PDF .NET を使用して段落を抽出し、ハイライト表示することで、視覚的に魅力的なPDFドキュメントを作成する方法を学びます。カスタム境界線でドキュメントの読みやすさを向上させます。
+### [C# を使用して PDF に四角形を追加する – 完全 Aspose PDF ガイド](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+C# と Aspose.PDF for .NET を使用して、PDF に四角形を追加する方法をステップバイステップで解説します。
 
-### [Aspose.PDF .NET で PDF に透明な図形を描く](./draw-transparent-shapes-aspose-pdf-net/)
+### [C# を使用して PDF に四角形を描く方法 – ステップバイステップ ガイド](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
+Aspose.PDF for .NET と C# を使って、PDF に四角形を描く手順を学びます。コード例とベストプラクティスを含むステップバイステップガイドです。
+
+### [C# で PDF に四角形を追加する – 完全 Aspose PDF ガイド](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+C# と Aspose.PDF for .NET を使用して、PDF に四角形を追加する方法をステップバイステップで解説します。
+
+### [C# を使用して PDF に四角形を描く方法 – ステップバイステップ ガイド](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
+Aspose.PDF for .NET と C# を使って、PDF に四角形を描く手順を学びます。コード例とベストプラクティスを含むステップバイステップガイドです。
+
+### [C# で PDF に四角形を追加する – 完全 Aspose PDF ガイド](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+C# と Aspose.PDF for .NET を使用して、PDF に四角形を追加する方法をステップバイステップで解説します。
+
+### [C# を使用して PDF に四角形を描く方法 – ステップバイステップ ガイド](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
+Aspose.PDF for .NET と C# を使って、PDF に四角形を描く手順を学びます。コード例とベストプラクティスを含むステップバイステップガイドです。
+
+### [C# で PDF に四角形を追加する – 完全 Aspose PDF ガイド](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+C# と Aspose.PDF for .NET を使用して、PDF に四角形を追加する方法をステップバイステップで解説します。
+
+### [C# を使用して PDF に四角形を描く方法 – ステップバイステップ ガイド](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
+Aspose.PDF for .NET と C# を使って、PDF に四角形を描く手順を学びます。コード例とベストプラクティスを含むステップバイステップガイドです。
+
+### [.NET で Aspose.PDF を使用してカスタム PDF スタンプを作成する](./create-custom-pdf-stamps-aspose-pdf-net/)
 Aspose.PDF Net のコードチュートリアル
-
-### [C# で Aspose.PDF .NET を使用して PDF に透明度を追加する: ステップバイステップ ガイド](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aspose.PDF .NET を使い、C# で PDF の要素に透明効果を適用する方法を段階的に解説します。
-
-### [Aspose.PDF for .NET による効率的な PDF 画像識別](./master-image-identification-aspose-pdf-net/)
-Aspose.PDF for .NET を使用して、PDF 内のグレースケール画像と RGB 画像を識別する方法を学びます。このチュートリアルでは、インストール、画像の抽出、パフォーマンスに関するヒントを紹介します。
-
-### [Aspose.PDF for .NET で画像ストリームを効率的に PDF に変換する](./convert-image-stream-to-pdf-aspose-dotnet/)
-Aspose.PDF for .NET を使用して、画像ストリームをプロフェッショナル品質の PDF ドキュメントに変換する方法を学びましょう。このステップバイステップのガイドに従って、ドキュメントワークフローを強化しましょう。
-
-### [Aspose.PDF で PDF 領域を抽出して画像に変換する](./extract-convert-pdf-regions-aspose-net/)
-Aspose.PDF Net のコードチュートリアル
-
-### [Aspose.PDF .NET を使用して PDF から画像スタンプを抽出する](./extract-image-stamps-pdfs-aspose-pdf-net/)
-Aspose.PDF Net のコードチュートリアル
-
-### [Aspose.PDF .NET を使用して PDF 署名から画像を抽出する: 包括的なガイド](./extract-images-pdf-signatures-aspose-pdf-dotnet/)
-Aspose.PDF for .NET を使用して、PDF署名に埋め込まれた画像を抽出する方法を学びましょう。このガイドでは、ステップバイステップの手順と実用的なアプリケーションを紹介します。
-
-### [Aspose.PDF for .NET で PDF から画像を抽出する](./extract-images-pdfs-aspose-pdf-net/)
-Aspose.PDF Net のコードチュートリアル
-
-### [Aspose.PDF .NET で PDF 画像を高速に縮小: 画像を効率的に最適化・圧縮](./optimize-pdf-images-aspose-net-fast-compression/)
-Aspose.PDF for .NET を使用してPDFファイル内の画像を縮小する方法を学びましょう。画質を維持しながらファイルサイズを縮小できます。読み込み速度の向上と効率的な保存に最適です。
-
-### [C# で Aspose.PDF .NET を使用して PDF に画像フッターを追加する方法](./aspose-pdf-net-add-image-footers-pdfs/)
-Aspose.PDF for .NET を使用してPDFドキュメントに画像フッターを追加する方法をステップバイステップで解説します。ブランディングやカスタマイズに最適です。
-
-### [Aspose.PDF for .NET で PDF に画像やテキストを追加する方法: ステップバイステップガイド](./adding-images-text-pdfs-aspose-pdf-dotnet/)
-Aspose.PDF for .NET を使用してPDFに画像やテキストを追加する方法を学びましょう。この包括的なガイドでは、セットアップから実装まですべてを網羅しており、ドキュメント編集スキルの向上に最適です。
-
-### [Aspose.PDF .NET を使用して PDF に画像を追加する方法: 包括的なガイド](./aspose-pdf-net-add-images-pdfs/)
-Aspose.PDF for .NET を使用して、PDF ドキュメントにシームレスに画像を追加する方法を学びましょう。このステップバイステップガイドでは、セットアップ、実装、そして実践的な応用方法を解説します。
-
-### [Aspose.PDF for .NET を使用して PDF に画像を追加する方法: 完全ガイド](./add-images-to-pdfs-using-aspose-pdf-net/)
-Aspose.PDF for .NET を使用して、PDF ドキュメントにシームレスに画像を追加する方法を学びましょう。このステップバイステップガイドでは、セットアップ、実装、そして実践的な応用方法を解説します。
-
-### [Aspose.PDF for .NET を使用して PDF に画像を追加する方法: ステップバイステップガイド](./add-images-to-pdfs-aspose-pdf-net/)
-Aspose.PDF for .NET を使用して、PDF にシームレスに画像を追加する方法を学びましょう。このガイドでは、既存の PDF に画像を追加する方法と、DICOM ファイルから新しい PDF を作成する方法について説明します。
 
 ### [Aspose.PDF for .NET を使用して PDF に画像ヘッダーを追加する方法: ステップバイステップガイド](./add-image-header-pdf-aspose-dotnet/)
 この包括的なステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF ドキュメントに画像ヘッダーを追加する方法を学習します。

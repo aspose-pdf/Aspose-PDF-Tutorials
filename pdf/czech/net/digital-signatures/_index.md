@@ -118,7 +118,8 @@ Naučte se, jak v C# pomocí Aspose.PDF podepsat PDF soubor a vložit do něj ob
 Naučte se, jak ověřit digitální podpis PDF a přidat Batesovo číslování pomocí Aspose.PDF v C#.
 
 ### [Jak podepsat PDF v C# – Kompletní průvodce přidáváním digitálních podpisů](./how-to-sign-pdf-in-c-complete-guide-for-adding-digital-signa/)
-Naučte se, jak v C# přidat digitální podpis do PDF souboru pomocí Aspose.PDF s podrobnými ukázkami kódu.
+
+### [Jak získat podpisy z dokumentu Word v C#](./how-to-get-signatures-from-a-word-document-in-c/)
 
 ## Další zdroje
 

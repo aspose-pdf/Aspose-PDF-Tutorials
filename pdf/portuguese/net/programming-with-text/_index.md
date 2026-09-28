@@ -28,6 +28,7 @@ Os tutoriais "Programação com Texto" do Aspose.PDF para .NET oferecem uma gama
 | [Adicionar texto com cores de sombreamento em arquivo PDF](./add-text-with-shading-colors/) | Aprenda a adicionar sombreamento de texto em arquivos PDF usando o Aspose.PDF para .NET com este tutorial passo a passo. Personalize seus documentos com gradientes coloridos. |  
 | [Adicionar dica de ferramenta ao texto em arquivo PDF](./add-tooltip-to-text/) | Aprenda a adicionar dicas de ferramentas a textos em arquivos PDF usando o Aspose.PDF para .NET. Aprimore seus PDFs com textos informativos ao passar o mouse sem esforço. |  
 | [Adicionar texto transparente em arquivo PDF](./add-transparent-text/) | Aprenda a adicionar texto transparente a um PDF facilmente usando o Aspose.PDF para .NET com este guia completo. Instruções passo a passo para obter transparência perfeita. |  
+| [Como adicionar texto PDF com Aspose.PDF em C#](./how-to-add-text-pdf-with-aspose-pdf-in-c/) | Aprenda a adicionar texto a arquivos PDF usando Aspose.PDF para .NET em C# com este tutorial passo a passo. |
 | [Criar PDF com várias colunas](./create-multi-column-pdf/) | Aprenda a criar PDFs com várias colunas usando o Aspose.PDF para .NET. Um guia passo a passo com exemplos de código e explicações detalhadas. Perfeito para profissionais. |  
 | [Paradas de tabulação personalizadas em arquivo PDF](./custom-tab-stops/) | Aprenda a configurar paradas de tabulação personalizadas em um PDF usando o Aspose.PDF para .NET. Este tutorial oferece instruções passo a passo para alinhar texto profissionalmente. |  
 | [Determinar quebra de linha em arquivo PDF](./determine-line-break/) | Aprenda a determinar quebras de linha em documentos PDF usando o Aspose.PDF para .NET. Um tutorial passo a passo para desenvolvedores. |  
@@ -70,7 +71,8 @@ Os tutoriais "Programação com Texto" do Aspose.PDF para .NET oferecem uma gama
 | [Texto e imagem como parágrafo em arquivo PDF](./text-and-image-as-paragraph/) | Crie PDFs com texto e imagens usando o Aspose.PDF para .NET. Aprenda a adicionar texto e imagens embutidas passo a passo. |  
 | [Segmentos de texto em arquivo PDF](./text-segments/) | Aprenda a pesquisar segmentos de texto específicos em um arquivo PDF usando expressões regulares no Aspose.PDF para .NET. |  
 | [Usar script Latex em arquivo PDF](./use-latex-script/) | Aprenda a usar o script Latex para adicionar expressões matemáticas ou fórmulas em arquivos PDF usando o Aspose.PDF para .NET. |  
-| [Adicionar números Bates ao PDF – numeração Bates](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Aprenda a adicionar numeração Bates a documentos PDF usando o Aspose.PDF para .NET. Guia passo a passo com exemplos de código. |  
+| [Adicionar números Bates ao PDF – numeração Bates](./add-bates-numbering-to-pdf-bates-numbering-pdf/) | Aprenda a adicionar numeração Bates a documentos PDF usando o Aspose.PDF para .NET. Guia passo a passo com exemplos de código. |
+| [Adicionar numeração Bates ao PDF usando Aspose.PDF em C#](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | Aprenda a adicionar numeração Bates a documentos PDF usando Aspose.PDF para .NET em C# com este guia passo a passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

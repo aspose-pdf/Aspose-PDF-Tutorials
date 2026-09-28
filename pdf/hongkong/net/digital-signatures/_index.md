@@ -107,6 +107,9 @@ Aspose.PDF Net 程式碼教學
 ### [PDF 簽章教學 – 使用 Aspose.Pdf 在 C# 中驗證 PDF 簽章](./pdf-signature-tutorial-verify-pdf-signatures-in-c-with-aspos/)
 了解如何在 C# 中使用 Aspose.Pdf 驗證 PDF 簽章，確保文件的完整性與真實性。
 
+### [如何在 C# 中從 Word 文件取得簽名](./how-to-get-signatures-from-a-word-document-in-c/)
+了解如何使用 Aspose.Words for .NET 在 C# 中從 Word 文件提取簽名資訊，提供完整步驟與範例程式碼。
+
 ### [如何在 C# 中從 PDF 提取簽名 – 逐步指南](./how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/)
 本指南示範如何使用 Aspose.PDF for .NET 在 C# 中提取 PDF 檔案的數位簽名，提供完整程式碼範例。
 

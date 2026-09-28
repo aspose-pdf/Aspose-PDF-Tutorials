@@ -48,6 +48,10 @@
 | [在 C# 中验证 PDF 签名 – 完整指南](./how-to-verify-pdf-signatures-in-c-full-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名并检查其完整性，确保文档安全可靠。|  
 | [PDF 签名教程 – 在 C# 中验证和确认 PDF 签名](./pdf-signature-tutorial-verify-and-validate-pdf-signatures-in/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名并检查其完整性，确保文档安全可靠。|  
 | [在 C# 中验证 PDF 签名 – 完整指南](./how-to-verify-pdf-signature-in-c-complete-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名并检查签名完整性。分步指南帮助您确保文档安全。|  
+| [在 C# 中验证 PDF 签名并检测篡改](./how-to-verify-pdf-signatures-and-detect-tampering-in-c/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名并检测文档是否被篡改。|  
+| [在 C# 中使用自定义数字签名保存已签名的 PDF](./save-signed-pdf-with-a-custom-digital-signature-in-c/) 了解如何使用 Aspose.PDF for .NET 在 C# 中创建自定义数字签名并保存已签名的 PDF 文档。|  
+| [如何在 C# 中使用证书颁发机构验证 PDF 签名](./how-to-validate-pdf-signatures-with-a-certificate-authority/) 了解如何使用 Aspose.PDF for .NET 在 C# 中通过证书颁发机构验证 PDF 签名，确保签名真实性。|  
+| [如何使用 Aspose.PDF 在 C# 中验证 PDF 签名](./how-to-validate-pdf-signatures-using-aspose-pdf-in-c/) |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -88,4 +92,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

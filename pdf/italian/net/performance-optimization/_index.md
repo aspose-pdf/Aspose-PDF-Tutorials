@@ -57,15 +57,20 @@ Scopri come aggiungere pagine vuote, esportare PDF in HTML e firmare documenti P
 
 ### [Ottimizza le immagini PDF – Riduci le dimensioni del file PDF con C#](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
 Scopri come comprimere e ridimensionare le immagini nei PDF usando C# e Aspose.PDF per ridurre drasticamente le dimensioni dei file.
+
 ### [Come comprimere PDF con Aspose – Guida rapida C#](./how-to-compress-pdf-with-aspose-quick-c-guide/)
 Scopri come comprimere rapidamente i PDF usando Aspose.PDF in C#, con esempi pratici e consigli per ridurre le dimensioni dei file.
 
 ### [Salva PDF ottimizzato in C# – Riduci le dimensioni e pulisci le pagine](./save-optimized-pdf-in-c-reduce-size-clean-pages/)
 Scopri come salvare PDF ottimizzati in C#, riducendo le dimensioni e rimuovendo le pagine inutili per migliorare le prestazioni.
+
 ### [Come comprimere PDF con Aspose.PDF – Guida rapida](./how-to-compress-pdf-with-aspose-pdf-quick-guide/)
 Scopri come comprimere rapidamente i file PDF usando Aspose.PDF, riducendo le dimensioni senza perdere qualità.
+
 ### [Come ottimizzare PDF in C# – Ridurre rapidamente le dimensioni del file](./how-to-optimize-pdf-in-c-reduce-file-size-quickly/)
 Scopri come ridurre rapidamente le dimensioni dei PDF in C# usando Aspose.PDF, con esempi pratici e consigli di ottimizzazione.
+
+### [Come ottimizzare PDF usando Aspose.Pdf in C#](./how-to-optimize-pdf-using-aspose-pdf-in-c/)
 
 ## Risorse aggiuntive
 

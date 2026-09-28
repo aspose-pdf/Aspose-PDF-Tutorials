@@ -40,6 +40,9 @@ Leer hoe u met C# een rechthoek in een PDF-document tekent met Aspose.PDF, inclu
 ### [Rechthoek toevoegen aan PDF met C# – volledige Aspose PDF-gids](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
 Leer hoe u met C# een rechthoek aan een PDF toevoegt met behulp van Aspose.PDF, inclusief codevoorbeelden en stapsgewijze instructies.
 
+### [Hoe een rechthoek aan PDF toe te voegen in C# met Aspose.Pdf](./how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf/)
+Leer hoe u met Aspose.Pdf in C# een rechthoek aan een PDF-document toevoegt, inclusief codevoorbeelden en stap‑voor‑stap uitleg.
+
 ### [Maak aangepaste PDF-stempels met Aspose.PDF in .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Een codetutorial voor Aspose.PDF Net
 
@@ -86,7 +89,7 @@ Leer hoe u naadloos afbeeldingen aan uw PDF-documenten kunt toevoegen met Aspose
 Leer hoe u naadloos afbeeldingen aan uw PDF-documenten kunt toevoegen met Aspose.PDF voor .NET. Deze stapsgewijze handleiding behandelt de installatie, implementatie en praktische toepassingen.
 
 ### [Afbeeldingen toevoegen aan PDF's met Aspose.PDF voor .NET: een stapsgewijze handleiding](./add-images-to-pdfs-aspose-pdf-net/)
-Leer hoe u naadloos afbeeldingen aan uw PDF's kunt toevoegen met Aspose.PDF voor .NET. Deze handleiding behandelt het toevoegen van afbeeldingen aan bestaande PDF's en het maken van nieuwe afbeeldingen vanuit DICOM-bestanden.
+Leer hoe u naadloos afbeeldingen aan uw PDF's toevoegt met Aspose.PDF voor .NET. Deze handleiding behandelt het toevoegen van afbeeldingen aan bestaande PDF's en het maken van nieuwe afbeeldingen vanuit DICOM-bestanden.
 
 ### [Een afbeeldingsheader toevoegen aan PDF's met Aspose.PDF voor .NET: een stapsgewijze handleiding](./add-image-header-pdf-aspose-dotnet/)
 Leer hoe u afbeeldingsheaders toevoegt aan uw PDF-documenten met Aspose.PDF voor .NET met deze uitgebreide stapsgewijze handleiding.

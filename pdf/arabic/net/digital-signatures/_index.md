@@ -85,6 +85,8 @@
 ### [كيفية توقيع ملف PDF في C# – دليل شامل لإضافة التوقيعات الرقمية](./how-to-sign-pdf-in-c-complete-guide-for-adding-digital-signa/)
 دليل خطوة بخطوة لتوقيع ملفات PDF باستخدام C# وإضافة توقيعات رقمية آمنة.
 
+### [كيفية الحصول على التوقيعات من مستند Word في C#](./how-to-get-signatures-from-a-word-document-in-c/)
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

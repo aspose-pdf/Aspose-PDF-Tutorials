@@ -55,6 +55,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Buat Dokumen PDF dengan Beberapa Widget – Panduan Langkah‑demi‑Langkah](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) | Pelajari cara membuat dokumen PDF dengan beberapa widget menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah ini. Bahasa Indonesia: |
 | [Buat PDF dengan Halaman dan Kolom Kotak Teks – Panduan Lengkap C#](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Pelajari cara membuat PDF dengan halaman dan bidang kotak teks menggunakan Aspose.PDF for .NET dalam panduan lengkap C#. Bahasa Indonesia:  
 | [Buat Dokumen PDF C# – Panduan Langkah-demi-Langkah untuk Formulir Multi‑Halaman](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Pelajari cara membuat dokumen PDF multi‑halaman dengan formulir menggunakan Aspose.PDF for .NET dalam panduan langkah demi langkah ini. Bahasa Indonesia:  
+| [Cara Membuat Dokumen PDF dengan Bidang Formulir Interaktif di C#](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) | Pelajari cara membuat dokumen PDF dengan bidang formulir interaktif menggunakan Aspose.PDF untuk .NET dalam C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -83,4 +84,3 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

@@ -27,6 +27,12 @@ pdf.Save("output.pdf");
 ```
 
 ## Tutorials
+### [How to add text PDF with Aspose.PDF in C#](./how-to-add-text-pdf-with-aspose-pdf-in-c/)
+
+
+### [Add bates numbering to PDF using Aspose.PDF in C#](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/)
+
+
 | Title | Description |
 | --- | --- | 
 | [Add And Search Hidden Text In PDF File]({{< relref "add-and-search-hidden-text" >}}) | Learn to add and search for hidden text in PDF documents using Aspose.PDF for .NET. Step-by-step guide with code examples included. |

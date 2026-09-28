@@ -35,7 +35,7 @@ Az oktatóanyag részletes áttekintést nyújt a PDF-fájlok titkosságának é
 | [Aláírás intelligens kártyával PDF fájl aláírásával](./sign-with-smart-card-using-pdf-file-signature/) | Ismerje meg, hogyan írhat alá PDF-fájlokat intelligens kártyával az Aspose.PDF for .NET segítségével. Kövesse ezt a lépésről szóló útmutatót a biztonságos digitális aláírásokhoz. |  
 | [Aláírás intelligens kártyával az aláírásmező használatával](./sign-with-smart-card-using-signature-field/) | Ismerje meg, hogyan írhat alá biztonságosan PDF-fájlokat intelligens kártya használatával az Aspose.PDF for .NET segítségével. Kövesse lépésről lépésre szóló útmutatónkat az egyszerű megvalósítás érdekében. |  
 | [PDF aláírások ellenőrzése C#-ban – Hogyan olvassuk be az aláírt PDF fájlokat](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Ismerje meg, hogyan ellenőrizheti és olvashatja a PDF dokumentumok digitális aláírásait C#-ban az Aspose.PDF for .NET segítségével. |
-| [PDF ellenőrzése aláírásokért – Hogyan listázzuk az aláírásokat C#-ban az Aspose.PDF használatával](./check-pdf-for-signatures-how-to-list-signatures-in-c-with-as/) | Ismerje meg, hogyan listázhatja a PDF aláírásait C#-ban az Aspose.PDF for .NET segítségével. |
+| [PDF ellenőrzése aláírásokért – Hogyan listázzuk az aláírásokat C#-ban az Aspose.PDF használatával](./check-pdf-for-signatures-how-to-list-signatures-in-c-with-as/) | Ismerje meg, hogyan listáhatja a PDF aláírásait C#-ban az Aspose.PDF for .NET segítségével. |
 | [PDF aláírás ellenőrzése C#-ban – Teljes Aspose útmutató](./how-to-verify-signature-in-pdf-using-c-complete-aspose-guide/) | Ismerje meg, hogyan ellenőrizze a PDF aláírásokat C#-ban az Aspose.PDF for .NET segítségével, lépésről lépésre útmutató. |
 | [Digitális aláírás hozzáadása PDF-hez C#‑ban – Teljes lépésről‑lépésre útmutató](./add-digital-signature-pdf-in-c-complete-step-by-step-guide/) | Ismerje meg, hogyan adhat hozzá digitális aláírást PDF-hez C#‑ban az Aspose.PDF for .NET segítségével. Lépésről‑lépésre útmutató. |
 | [PDF aláírások ellenőrzése C#-ban – Gyors útmutató a digitális aláírások ellenőrzéséhez](./check-pdf-signatures-in-c-quick-guide-to-verify-digital-sign/) | Gyors útmutató a PDF digitális aláírásainak C#-ban történő ellenőrzéséhez az Aspose.PDF for .NET használatával. |
@@ -50,7 +50,10 @@ Az oktatóanyag részletes áttekintést nyújt a PDF-fájlok titkosságának é
 | [PDF aláírások ellenőrzése C#-ban – Teljes útmutató](./how-to-verify-pdf-signatures-in-c-full-guide/) | Ismerje meg, hogyan ellenőrizheti a PDF aláírásokat C#-ban az Aspose.PDF for .0NET segítségével, részletes útmutatóval. |
 | [PDF aláírások olvasása – Teljes C# útmutató](./how-to-read-signatures-in-a-pdf-complete-c-guide/) | Ismerje meg, hogyan olvashatja ki a PDF aláírásait C#-ban az Aspose.PDF for .NET segítségével, részletes lépésről-lépésre útmutatóval. |
 | [PDF aláírási oktatóanyag – PDF aláírások ellenőrzése és érvényesítése C#-ban](./pdf-signature-tutorial-verify-and-validate-pdf-signatures-in/) | Ismerje meg, hogyan ellenőrizheti és érvényesítheti a PDF aláírásokat C#-ban az Aspose.PDF for .NET segítségével. |
-
+| [Hogyan ellenőrizze a PDF aláírásokat és észlelje a manipulációt C#-ban](./how-to-verify-pdf-signatures-and-detect-tampering-in-c/) | Ismerje meg, hogyan ellenőrizheti a PDF aláírásokat és észlelheti a manipulációt C#-ban az Aspose.PDF for .NET segítségével. |
+| [Aláírt PDF mentése egyedi digitális aláírással C#-ban](./save-signed-pdf-with-a-custom-digital-signature-in-c/) | Mentse el az aláírt PDF-et egyedi digitális aláírással C#-ban. |
+| [PDF aláírások ellenőrzése tanúsítványhatósággal C#-ban](./how-to-validate-pdf-signatures-with-a-certificate-authority/) | Ismerje meg, hogyan ellenőrizheti a PDF aláírásokat tanúsítványhatóság segítségével C#-ban az Aspose.PDF for .NET használatával. |
+| [PDF aláírások ellenőrzése Aspose.PDF használatával C#-ban](./how-to-validate-pdf-signatures-using-aspose-pdf-in-c/) | Ismerje meg, hogyan ellenőrizheti a PDF aláírásokat az Aspose.PDF for .NET segítségével C#-ban. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -90,4 +93,3 @@ Az oktatóanyag részletes áttekintést nyújt a PDF-fájlok titkosságának é
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

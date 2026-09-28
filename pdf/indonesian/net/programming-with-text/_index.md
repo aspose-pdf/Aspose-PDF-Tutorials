@@ -71,6 +71,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Segmen Teks Dalam File PDF](./text-segments/) | Pelajari cara mencari segmen teks tertentu dalam berkas PDF menggunakan ekspresi reguler di Aspose.PDF untuk .NET. Bahasa Indonesia:  
 | [Gunakan Skrip Latex Dalam File PDF](./use-latex-script/) | Pelajari cara menggunakan skrip Latex untuk menambahkan ekspresi atau rumus matematika dalam berkas PDF menggunakan Aspose.PDF untuk .NET. |  
 | [Tambahkan Nomor Bates ke PDF – penomoran bates pdf](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Pelajari cara menambahkan nomor Bates ke dokumen PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode langkah demi langkah. |
+| [Tambahkan penomoran Bates ke PDF menggunakan Aspose.PDF dalam C#](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | Pelajari cara menambahkan penomoran Bates ke PDF menggunakan Aspose.PDF dengan bahasa C#. Contoh kode langkah demi langkah disertakan. |
+| [Cara Menambahkan Teks PDF dengan Aspose.PDF di C#](./how-to-add-text-pdf-with-aspose-pdf-in-c/) | Pelajari cara menambahkan teks ke file PDF menggunakan Aspose.PDF dengan bahasa C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

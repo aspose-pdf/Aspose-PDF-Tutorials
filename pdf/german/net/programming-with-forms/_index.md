@@ -55,6 +55,7 @@ Diese Tutorials bieten detaillierte Codebeispiele, klare Erklärungen und Illust
 | [PDF mit Seiten und Textfeldfeldern erstellen – Vollständige C#‑Anleitung](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF mit mehreren Seiten und Textfeld‑Widgets in C# vollständig erstellen. |
 | [PDF-Dokument mit Aspose erstellen – Textfeld hinzufügen](./create-pdf-document-with-aspose-add-text-box-field/) | Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.PDF für .NET ein Textfeld zu einem PDF‑Dokument hinzufügen. |
 | [PDF-Dokument erstellen C# – Schritt‑für‑Schritt‑Anleitung zu mehrseitigen Formularen](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein mehrseitiges PDF‑Formular in C# erstellen und konfigurieren. |
+| [PDF-Dokument mit interaktiven Formularfeldern in C# erstellen](./how-to-create-pdf-document-with-interactive-form-fields-in-c/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF-Dokument mit interaktiven Formularfeldern in C# erstellen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -83,4 +84,3 @@ Diese Tutorials bieten detaillierte Codebeispiele, klare Erklärungen und Illust
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

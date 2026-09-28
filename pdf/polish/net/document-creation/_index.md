@@ -98,6 +98,9 @@ Dowiedz się, jak w Aspose.PDF dla .NET wygenerować dokument PDF w pamięci prz
 ### [Utwórz dokument PDF w C# – przewodnik krok po kroku, jak dodać pustą stronę i narysować prostokąt](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
 Krok po kroku pokażemy, jak dodać pustą stronę i narysować prostokąt w dokumencie PDF przy użyciu Aspose.PDF w C#.
 
+### [Jak zainicjować klienta OpenAI i podsumować PDF za pomocą AI](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
+Dowiedz się, jak zainicjować klienta OpenAI i podsumować plik PDF przy użyciu sztucznej inteligencji.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

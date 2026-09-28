@@ -63,6 +63,7 @@ Megtanulod, hogyan adhatsz meg konvertálási beállításokat, hogyan kinyerhet
 | [PDF konvertálása PDF/X‑4-re Aspose‑szal – Lépésről‑lépésre útmutató](./how-to-convert-pdf-to-pdf-x-4-with-aspose-step-by-step-guide/) | Tanulja meg, hogyan konvertálhat PDF-fájlokat PDF/X‑4 formátumba az Aspose.PDF for .NET segítségével lépésről‑lépésre. |
 | [Aspose PDF oktatóanyag: PDF konvertálása PDF/X‑4-re C#-ban](./aspose-pdf-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Tanulja meg, hogyan konvertálhat PDF-fájlokat PDF/X‑4 formátumba C#‑ban az Aspose.PDF for .NET segítségével. |
 | [PDF dokumentum megnyitása C# – PDF/X‑4-re konvertálás nyomtatáshoz](./open-pdf-document-c-convert-to-pdf-x-4-for-printing/) | Ismerje meg, hogyan nyithat meg PDF dokumentumot C#‑ban, és konvertálhatja PDF/X‑4 formátumba nyomtatási célokra. |
+| [PDF dokumentum betöltése és konvertálása PDF/X‑4-re Aspose.PDF használatával](./load-pdf-document-and-convert-to-pdf-x-4-with-aspose-pdf/) | Tanulja meg, hogyan tölthet be PDF dokumentumot és konvertálhatja PDF/X‑4 formátumba az Aspose.PDF for .NET használatával. |
 | [PDF PNG oktatóanyag – PDF oldalak PNG-be konvertálása C#-ban](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Tanulja meg, hogyan konvertálhat PDF oldalakat PNG képekké C#-ban az Aspose.PDF for .NET használatával. |
 | [PDF létrehozása JPG-ből C#-ban – Teljes útmutató vágással és új oldalakkal](./create-pdf-from-jpg-in-c-full-guide-with-cropping-and-new-pa/) | Tanulja meg, hogyan hozhat létre PDF-et JPG képekből C#-ban, vágással és új oldalak hozzáadásával, lépésről lépésre útmutató. |
 | [PDF konvertálás beállításainak megadása C#-ban – Aspose útmutató](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | Tanulja meg, hogyan állíthat be különböző opciókat a PDF konvertáláshoz C#-ban az Aspose.PDF for .NET segítségével. |
@@ -102,4 +103,3 @@ Megtanulod, hogyan adhatsz meg konvertálási beállításokat, hogyan kinyerhet
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

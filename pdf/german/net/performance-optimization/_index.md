@@ -57,15 +57,20 @@ Erfahren Sie, wie Sie PDFs in C# optimieren, indem Sie leere Seiten hinzufügen,
 
 ### [PDF-Bilder optimieren – PDF-Dateigröße mit C# reduzieren](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
 Erfahren Sie, wie Sie Bilder in PDFs mit C# reduzieren, um die Dateigröße zu verkleinern und die Leistung zu verbessern.
+
 ### [PDF mit Aspose komprimieren – Schnellleitfaden in C#](./how-to-compress-pdf-with-aspose-quick-c-guide/)
 Erfahren Sie, wie Sie PDFs mit Aspose komprimieren und die Dateigröße reduzieren – ein kurzer C#‑Leitfaden.
 
 ### [Optimiertes PDF in C# speichern – Größe reduzieren und Seiten bereinigen](./save-optimized-pdf-in-c-reduce-size-clean-pages/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET optimierte PDFs speichern, die Dateigröße verringern und nicht benötigte Seiten entfernen.
+
 ### [PDF mit Aspose.PDF komprimieren – Schnellleitfaden](./how-to-compress-pdf-with-aspose-pdf-quick-guide/)
 Erfahren Sie, wie Sie PDFs schnell mit Aspose.PDF komprimieren, um Dateigröße zu reduzieren und die Leistung zu verbessern.
+
 ### [Wie man PDF in C# optimiert – Dateigröße schnell reduzieren](./how-to-optimize-pdf-in-c-reduce-file-size-quickly/)
 Erfahren Sie, wie Sie PDFs in C# schnell verkleinern und die Leistung steigern.
+
+### [Wie man PDF mit Aspose.Pdf in C# optimiert](./how-to-optimize-pdf-using-aspose-pdf-in-c/)
 
 ## Weitere Ressourcen
 

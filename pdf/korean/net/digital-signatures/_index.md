@@ -121,6 +121,8 @@ Aspose.PDF를 사용하여 C#에서 PDF 파일의 디지털 서명을 추출하�
 ### [C#에서 PDF 서명 검증 – 완전 가이드](./validate-pdf-signature-in-c-complete-guide/)
 C#을 사용해 PDF 파일의 디지털 서명을 검증하는 방법을 단계별로 안내합니다.
 
+### [C#에서 Word 문서의 서명을 가져오는 방법](./how-to-get-signatures-from-a-word-document-in-c/)
+
 ## 추가 자료
 
 - [Net 문서용 Aspose.PDF](https://docs.aspose.com/pdf/net/)

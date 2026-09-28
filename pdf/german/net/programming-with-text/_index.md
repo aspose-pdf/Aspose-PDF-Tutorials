@@ -71,6 +71,8 @@ Die Aspose.PDF-Tutorials „Programmieren mit Text“ für .NET bieten umfassend
 | [Textsegmente in der PDF-Datei](./text-segments/) | Erfahren Sie, wie Sie mithilfe regulärer Ausdrücke in Aspose.PDF für .NET nach bestimmten Textsegmenten in PDF-Dateien suchen. |  
 | [Latex-Skript in PDF-Datei verwenden](./use-latex-script/) | Erfahren Sie, wie Sie mithilfe von Aspose.PDF für .NET mithilfe eines Latex-Skripts mathematische Ausdrücke oder Formeln in PDF-Dateien einfügen. |  
 | [Bates-Nummern zu PDF hinzufügen – bates numbering pdf](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET Bates-Nummern zu PDF-Dokumenten hinzufügen. Schritt‑für‑Schritt‑Anleitung mit Codebeispielen. |  
+| [Bates-Nummerierung zu PDF hinzufügen – Aspose.PDF in C#](./add-bates-numbering-to-pdf-using-aspose-pdf-in-c/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET Bates-Nummern zu PDF-Dokumenten hinzufügen. Schritt‑für‑Schritt‑Anleitung mit Codebeispielen. |  
+| [Text zu PDF mit Aspose.PDF in C# hinzufügen](./how-to-add-text-pdf-with-aspose-pdf-in-c/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET Text zu einer PDF-Datei in C# hinzufügen. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

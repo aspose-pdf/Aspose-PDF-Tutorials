@@ -98,6 +98,8 @@ Aspose.PDF for .NET を使用して、メモリ上で PDF を生成し、保存�
 ### [PDF ドキュメントを作成する C# – 空白ページの追加と矩形の描画 ステップバイステップ ガイド](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
 C# で Aspose.PDF を使用し、空白ページを追加し矩形を描画する方法をステップバイステップで解説します。
 
+### [OpenAI クライアントを初期化し、AIで PDF を要約する方法](./how-to-initialize-openai-client-and-summarize-pdf-with-ai/)
+
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)
