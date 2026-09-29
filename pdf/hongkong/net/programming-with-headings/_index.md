@@ -19,6 +19,9 @@ Aspose.PDF for .NET 教學課程將逐步引導您掌握使用 PDF 文件中的�
 透過專門的教學探索 Aspose.PDF for .NET 的功能。透過實際範例和逐步說明，了解如何處理 PDF 文件中的標題。利用這些全面的資源來提高 PDF 檔案的可讀性和導航性。
 
 ## 教學
+
+{{< tutorial-card link="./add-heading/" title="使用 Aspose.PDF for .NET 為 PDF 新增標題、語言與標題。" imgSrc="./add-heading/images/thumb.png" >}}
+
 |標題 |描述 |
 | --- | --- | 
 | [在 PDF 檔案中套用數字樣式](./apply-number-style/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將不同的數字樣式（羅馬數字、信件）套用至 PDF 中的標題。 |   

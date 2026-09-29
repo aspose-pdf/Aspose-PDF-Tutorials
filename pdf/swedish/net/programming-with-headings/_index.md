@@ -19,6 +19,9 @@ Handledningarna i Aspose.PDF för .NET tar dig steg för steg i hur du bemästra
 Utforska funktionerna i Aspose.PDF för .NET med dedikerade handledningar. Lär dig hur du arbetar med rubriker i dina PDF-dokument med hjälp av praktiska exempel och steg-för-steg-förklaringar. Förbättra läsbarheten och navigeringen i dina PDF-filer med dessa omfattande resurser.
 
 ## Handledningar
+
+{{< tutorial-card link="./add-heading/" title="Lägg till rubrik, språk och titel i en PDF med Aspose.PDF for .NET" imgSrc="./add-heading/images/thumb.png" >}}
+
 | Titel | Beskrivning |
 | --- | --- | 
 | [Använd numerisk stil i PDF-fil](./apply-number-style/) | Lär dig hur du använder olika sifferstilar (romerska siffror, alfabetiska) på rubriker i en PDF med Aspose.PDF för .NET med den här steg-för-steg-guiden. |
