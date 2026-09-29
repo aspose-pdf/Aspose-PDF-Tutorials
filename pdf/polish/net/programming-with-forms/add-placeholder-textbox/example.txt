@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Ten samouczek pokazuje, jak dodać pole formularza typu pole tekstowe z tekstem zastępczym do dokumentu PDF i otagować je pod kątem dostępności przy użyciu biblioteki Aspose.Pdf for .NET.
+//ExStepSummary:0: Zdefiniuj ścieżki plików wejściowego i wyjściowego oraz sprawdź, czy źródłowy plik PDF istnieje.
+//ExStepSummary:1: Otwórz istniejący plik PDF i utwórz obiekt Document, z którym będziesz pracować.
+//ExStepSummary:2: Wstaw TextBoxField na pierwszej stronie, ustaw jego tekst zastępczy i dodaj go do kolekcji formularzy.
+//ExStepSummary:3: Utwórz logiczny element struktury /Form, podłącz go do drzewa oznaczonej treści i powiąż z polem tekstowym.
+//ExStepSummary:4: Zapisz zmodyfikowany PDF do określonego pliku wyjściowego i zamknij dokument.
+//ExStepSummary:5: Wypisz komunikat potwierdzający w konsoli, wskazujący, gdzie został zapisany nowy plik PDF.
+//ExStep:0-
+const string sourcePath = "sample_input.pdf";
+const string resultPath = "sample_output.pdf";
+
+if (!File.Exists(sourcePath))
+{
+    Console.Error.WriteLine($"File not found: {sourcePath}");
+    return;
+}
+
+//ExStep:1-
+using (Document pdfDocument = new Document(sourcePath))
+{
+
+//ExStep:2-
+Page firstPage = pdfDocument.Pages[1];
+Aspose.Pdf.Rectangle boxRect = new Aspose.Pdf.Rectangle(100, 600, 300, 630);
+TextBoxField placeholderField = new TextBoxField(pdfDocument, boxRect)
+{
+    Value = "Type your content here..."
+};
+pdfDocument.Form.Add(placeholderField);
+
+//ExStep:3-
+ITaggedContent taggedContent = pdfDocument.TaggedContent;
+StructureElement structureRoot = taggedContent.RootElement;
+FormElement logicalFormElement = taggedContent.CreateFormElement();
+structureRoot.AppendChild(logicalFormElement);
+logicalFormElement.Tag(placeholderField);
+
+//ExStep:4-
+pdfDocument.Save(resultPath);
+}
+
+//ExStep:5-
+Console.WriteLine($"PDF with form field saved to '{resultPath}'.");
+//ExEnd

@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Tento tutoriál ukazuje, jak přidat placeholder textové pole formuláře do PDF dokumentu a označit jej pro přístupnost pomocí knihovny Aspose.Pdf pro .NET.
+//ExStepSummary:0: Definujte vstupní a výstupní cesty k souborům a ověřte, že zdrojové PDF existuje.
+//ExStepSummary:1: Otevřete existující PDF soubor a vytvořte objekt Document, se kterým budete pracovat.
+//ExStepSummary:2: Vložte TextBoxField na první stránku, nastavte jeho placeholder text a přidejte jej do kolekce formulářů.
+//ExStepSummary:3: Vytvořte logický strukturovaný prvek /Form, připojte jej k stromu označeného obsahu a přiřaďte jej k textbox poli.
+//ExStepSummary:4: Uložte upravené PDF do zadaného výstupního souboru a zavřete dokument.
+//ExStepSummary:5: Vypište potvrzovací zprávu do konzole, která uvádí, kam byl nový PDF soubor uložen.
+//ExStep:0-
+const string sourcePath = "sample_input.pdf";
+const string resultPath = "sample_output.pdf";
+
+if (!File.Exists(sourcePath))
+{
+    Console.Error.WriteLine($"File not found: {sourcePath}");
+    return;
+}
+
+//ExStep:1-
+using (Document pdfDocument = new Document(sourcePath))
+{
+
+//ExStep:2-
+Page firstPage = pdfDocument.Pages[1];
+Aspose.Pdf.Rectangle boxRect = new Aspose.Pdf.Rectangle(100, 600, 300, 630);
+TextBoxField placeholderField = new TextBoxField(pdfDocument, boxRect)
+{
+    Value = "Type your content here..."
+};
+pdfDocument.Form.Add(placeholderField);
+
+//ExStep:3-
+ITaggedContent taggedContent = pdfDocument.TaggedContent;
+StructureElement structureRoot = taggedContent.RootElement;
+FormElement logicalFormElement = taggedContent.CreateFormElement();
+structureRoot.AppendChild(logicalFormElement);
+logicalFormElement.Tag(placeholderField);
+
+//ExStep:4-
+pdfDocument.Save(resultPath);
+}
+
+//ExStep:5-
+Console.WriteLine($"PDF with form field saved to '{resultPath}'.");
+//ExEnd

@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Bu öğretici, Document ve ITaggedContent sınıflarını kullanarak bir PDF'teki paragrafına kullanıcı tanımlı özel bir etiket eklemeyi gösterir.
+//ExStepSummary:0: Oluşturulan PDF için çıktı dosya adını tanımlayın.
+//ExStepSummary:1: pdfDoc adlı yeni boş bir PDF belge örneği oluşturun.
+//ExStepSummary:2: Etiketli PDF yapılarıyla çalışmak için pdfDoc'tan ITaggedContent arayüzünü elde edin.
+//ExStepSummary:3: Belgenin dilini İngilizce (US) olarak ayarlayın ve erişilebilirlik meta verileri için bir başlık atayın.
+//ExStepSummary:4: PDF'in yapı ağacının kök öğesini alın.
+//ExStepSummary:5: Yeni bir paragraf öğesi oluşturun, ona "MyCustomTag" adlı özel bir etiket atayın ve görüntülenecek metnini ayarlayın.
+//ExStepSummary:6: Özel paragrafı kök yapı öğesine ekleyin, böylece belge düzenine yerleştirilir.
+//ExStepSummary:7: Oluşturulan PDF'i resultFile değişkeninde tutulan dosya yoluna kaydedin ve belge kapsamını kapatın.
+//ExStepSummary:8: PDF'in nerede kaydedildiğini onaylayan bir konsol mesajı yazdırın.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+//ExStep:0-
+const string resultFile = "custom_tag_demo.pdf";
+
+//ExStep:1-
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:2-
+ITaggedContent tagged = pdfDoc.TaggedContent;
+
+//ExStep:3-
+tagged.SetLanguage("en-US");
+tagged.SetTitle("Sample PDF Featuring a Custom Paragraph Tag");
+
+//ExStep:4-
+StructureElement rootElement = tagged.RootElement;
+
+//ExStep:5-
+ParagraphElement customParagraph = tagged.CreateParagraphElement();
+customParagraph.SetTag("MyCustomTag");
+customParagraph.SetText("The following paragraph demonstrates the use of a user‑defined tag.");
+
+//ExStep:6-
+rootElement.AppendChild(customParagraph);
+
+//ExStep:7-
+pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"PDF saved to '{resultFile}'.");
+//ExEnd

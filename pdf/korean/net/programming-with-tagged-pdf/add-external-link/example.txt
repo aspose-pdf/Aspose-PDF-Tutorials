@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: 이 튜토리얼에서는 Aspose.Pdf를 사용하여 기존 PDF를 열고, 표시 텍스트와 툴팁 제목을 포함하는 태그된 외부 하이퍼링크를 생성한 다음, 이를 문서의 논리 구조에 삽입하고 수정된 파일을 저장하는 방법을 보여줍니다.
+//ExStepSummary:0: 원본 PDF와 결과 파일의 경로를 정의합니다.
+//ExStepSummary:1: 원본 PDF가 존재하는지 확인하고 찾을 수 없으면 중단합니다.
+//ExStepSummary:2: using 블록 안에서 PDF 문서를 열어 적절한 자원 해제를 보장합니다.
+//ExStepSummary:3: 열린 문서에 대한 tagged‑content 관리자를 가져옵니다.
+//ExStepSummary:4: 문서 언어를 English (US)로 설정하고 파일 이름에서 파생된 제목을 PDF에 지정합니다.
+//ExStepSummary:5: 새 요소가 추가될 논리 구조 트리의 루트 요소를 가져옵니다.
+//ExStepSummary:6: 링크 요소를 생성하고 표시 텍스트, 대상 URL, 툴팁 제목을 설정한 뒤 문서 구조에 삽입합니다.
+//ExStepSummary:7: 업데이트된 PDF를 지정된 결과 파일에 저장합니다.
+//ExStepSummary:8: 수정된 PDF가 저장된 위치를 나타내는 확인 메시지를 출력합니다.
+//ExStep:0-
+const string sourceFile = "source.pdf";
+const string resultFile = "result_with_external_link.pdf";
+
+//ExStep:1-
+if (!File.Exists(sourceFile))
+{
+    Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+    return;
+}
+
+//ExStep:2-
+using (Document pdfDoc = new Document(sourceFile))
+{
+
+//ExStep:3-
+    ITaggedContent taggedContent = pdfDoc.TaggedContent;
+
+//ExStep:4-
+    taggedContent.SetLanguage("en-US");
+    taggedContent.SetTitle(Path.GetFileNameWithoutExtension(sourceFile));
+
+//ExStep:5-
+    StructureElement rootElement = taggedContent.RootElement;
+
+//ExStep:6-
+    LinkElement externalLink = taggedContent.CreateLinkElement();
+    externalLink.SetText("Open Aspose PDF library");
+    externalLink.Hyperlink = new WebHyperlink("https://www.example.com/pdf");
+    externalLink.Title = "Example PDF product page";
+    rootElement.AppendChild(externalLink);
+
+//ExStep:7-
+    pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"Modified PDF saved as '{resultFile}'.");
+//ExEnd

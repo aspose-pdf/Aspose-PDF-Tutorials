@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: 本教程演示如何使用 Aspose.Pdf 打开现有 PDF，创建包含显示文本和工具提示标题的标记外部超链接，将其插入文档的逻辑结构，并保存修改后的文件。
+//ExStepSummary:0: 定义源 PDF 和结果文件的路径。
+//ExStepSummary:1: 检查源 PDF 是否存在，如果找不到则中止。
+//ExStepSummary:2: 在 using 块中打开 PDF 文档，以确保正确释放资源。
+//ExStepSummary:3: 获取已打开文档的标记内容管理器。
+//ExStepSummary:4: 将文档语言设置为英语（美国），并为 PDF 设置基于文件名的标题。
+//ExStepSummary:5: 检索逻辑结构树的根元素，以便向其添加新元素。
+//ExStepSummary:6: 创建链接元素，设置其显示文本、目标 URL 和工具提示标题，然后将其插入文档的结构中。
+//ExStepSummary:7: 将更新后的 PDF 保存到指定的结果文件。
+//ExStepSummary:8: 输出确认信息，指示已将修改后的 PDF 保存到何处。
+//ExStep:0-
+const string sourceFile = "source.pdf";
+const string resultFile = "result_with_external_link.pdf";
+
+//ExStep:1-
+if (!File.Exists(sourceFile))
+{
+    Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+    return;
+}
+
+//ExStep:2-
+using (Document pdfDoc = new Document(sourceFile))
+{
+
+//ExStep:3-
+    ITaggedContent taggedContent = pdfDoc.TaggedContent;
+
+//ExStep:4-
+    taggedContent.SetLanguage("en-US");
+    taggedContent.SetTitle(Path.GetFileNameWithoutExtension(sourceFile));
+
+//ExStep:5-
+    StructureElement rootElement = taggedContent.RootElement;
+
+//ExStep:6-
+    LinkElement externalLink = taggedContent.CreateLinkElement();
+    externalLink.SetText("Open Aspose PDF library");
+    externalLink.Hyperlink = new WebHyperlink("https://www.example.com/pdf");
+    externalLink.Title = "Example PDF product page";
+    rootElement.AppendChild(externalLink);
+
+//ExStep:7-
+    pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"Modified PDF saved as '{resultFile}'.");
+//ExEnd

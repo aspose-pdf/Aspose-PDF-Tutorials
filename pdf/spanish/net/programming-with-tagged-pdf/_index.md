@@ -18,6 +18,12 @@
 Los tutoriales "Programación con PDF etiquetados" de Aspose.PDF para .NET le guiarán en el uso de esta biblioteca para manipular y generar PDF etiquetados. Aprenda a crear estructuras de contenido, administrar elementos etiquetados, validar la compatibilidad con PDF/UA y mejorar la accesibilidad de los documentos PDF. Estos tutoriales le proporcionarán una comprensión profunda de la programación con PDF etiquetados y le ayudarán a aprovechar al máximo la potencia de Aspose.PDF para .NET.
 
 ## Tutoriales
+
+{{< tutorial-card link="./add-custom-tag/" title="Agregar etiqueta personalizada a un párrafo PDF usando Aspose.PDF for .NET" imgSrc="./add-custom-tag/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-external-link/" title="Agregar enlace externo etiquetado con tooltip al PDF usando Aspose.Pdf para .NET" imgSrc="./add-external-link/images/thumb.png" >}}
+
+
 | Título | Descripción |
 | --- | --- | 
 | [Acceder a elementos secundarios](./access-children-elements/) | Aprenda a acceder y modificar elementos secundarios en archivos PDF etiquetados con Aspose.PDF para .NET en este tutorial paso a paso. |  

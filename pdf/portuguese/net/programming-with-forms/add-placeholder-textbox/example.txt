@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Este tutorial demonstra como adicionar um campo de formulário de caixa de texto com placeholder a um documento PDF e marcá‑lo para acessibilidade usando a biblioteca Aspose.Pdf for .NET.
+//ExStepSummary:0: Defina os caminhos dos arquivos de entrada e saída e verifique se o PDF de origem existe.
+//ExStepSummary:1: Abra o arquivo PDF existente e crie um objeto Document para trabalhar.
+//ExStepSummary:2: Insira um TextBoxField na primeira página, defina seu texto de placeholder e adicione‑lo à coleção de formulários.
+//ExStepSummary:3: Crie um elemento de estrutura lógica /Form, anexe‑o à árvore de conteúdo marcado e associe‑o ao campo de caixa de texto.
+//ExStepSummary:4: Salve o PDF modificado no arquivo de saída especificado e feche o documento.
+//ExStepSummary:5: Escreva uma mensagem de confirmação no console indicando onde o novo PDF foi salvo.
+//ExStep:0-
+const string sourcePath = "sample_input.pdf";
+const string resultPath = "sample_output.pdf";
+
+if (!File.Exists(sourcePath))
+{
+    Console.Error.WriteLine($"File not found: {sourcePath}");
+    return;
+}
+
+//ExStep:1-
+using (Document pdfDocument = new Document(sourcePath))
+{
+
+//ExStep:2-
+Page firstPage = pdfDocument.Pages[1];
+Aspose.Pdf.Rectangle boxRect = new Aspose.Pdf.Rectangle(100, 600, 300, 630);
+TextBoxField placeholderField = new TextBoxField(pdfDocument, boxRect)
+{
+    Value = "Type your content here..."
+};
+pdfDocument.Form.Add(placeholderField);
+
+//ExStep:3-
+ITaggedContent taggedContent = pdfDocument.TaggedContent;
+StructureElement structureRoot = taggedContent.RootElement;
+FormElement logicalFormElement = taggedContent.CreateFormElement();
+structureRoot.AppendChild(logicalFormElement);
+logicalFormElement.Tag(placeholderField);
+
+//ExStep:4-
+pdfDocument.Save(resultPath);
+}
+
+//ExStep:5-
+Console.WriteLine($"PDF with form field saved to '{resultPath}'.");
+//ExEnd

@@ -19,6 +19,9 @@ Os tutoriais "Programação com Formulários" do Aspose.PDF para .NET são recur
 Estes tutoriais também fornecem exemplos de código detalhados, explicações claras e ilustrações para facilitar sua compreensão e aprendizado. Você será guiado passo a passo pelas diversas etapas da programação com formulários PDF, permitindo que domine rapidamente os conceitos e técnicas necessários para criar formulários PDF interativos eficazes e personalizados. Seja você um desenvolvedor iniciante ou experiente, estes tutoriais ajudarão você a aprimorar suas habilidades de programação com formulários PDF usando o Aspose.PDF para .NET.
 
 ## Tutoriais
+
+{{< tutorial-card link="./add-placeholder-textbox/" title="Crie um Campo de Formulário de Caixa de Texto com Placeholder Acessível em PDF com Aspose.Pdf for .NET" imgSrc="./add-placeholder-textbox/images/thumb.png" >}}
+
 | Título | Descrição |
 | --- | --- | 
 | [Adicionar dica de ferramenta ao campo](./add-tooltip-to-field/) | Aprenda a adicionar dicas de ferramentas a campos de formulário em documentos PDF usando o Aspose.PDF para .NET neste guia passo a passo. Melhore a usabilidade e a experiência do usuário. |  

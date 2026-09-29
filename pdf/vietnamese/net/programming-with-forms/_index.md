@@ -19,6 +19,9 @@ Hướng dẫn "Lập trình với Biểu mẫu" của Aspose.PDF cho .NET là n
 Các hướng dẫn này cũng cung cấp các ví dụ mã chi tiết, giải thích rõ ràng và minh họa để giúp bạn dễ hiểu và học hơn. Bạn sẽ được hướng dẫn từng bước qua các bước lập trình khác nhau với biểu mẫu PDF, cho phép bạn nhanh chóng nắm vững các khái niệm và kỹ thuật cần thiết để tạo biểu mẫu PDF tương tác hiệu quả và được cá nhân hóa. Cho dù bạn là người mới bắt đầu hay nhà phát triển có kinh nghiệm, các hướng dẫn này sẽ giúp bạn cải thiện kỹ năng lập trình của mình với biểu mẫu PDF bằng Aspose.PDF cho .NET.
 
 ## Hướng dẫn
+
+{{< tutorial-card link="./add-placeholder-textbox/" title="Tạo một trường biểu mẫu hộp văn bản chỗ giữ chỗ có khả năng truy cập trong PDF bằng Aspose.Pdf for .NET" imgSrc="./add-placeholder-textbox/images/thumb.png" >}}
+
 | Tiêu đề | Mô tả |
 | --- | --- | 
 | [Thêm chú giải công cụ vào trường](./add-tooltip-to-field/) | Tìm hiểu cách thêm chú giải công cụ vào các trường biểu mẫu trong tài liệu PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. Cải thiện khả năng sử dụng và trải nghiệm của người dùng. |  

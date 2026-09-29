@@ -19,6 +19,9 @@ Handledningarna i Aspose.PDF för .NET "Programmering med formulär" är viktiga
 Dessa handledningar ger också detaljerade kodexempel, tydliga förklaringar och illustrationer för att göra det lättare för dig att förstå och lära dig. Du kommer att guidas steg för steg genom de olika stegen i programmering med PDF-formulär, så att du snabbt behärskar de koncept och tekniker som krävs för att skapa effektiva och personliga interaktiva PDF-formulär. Oavsett om du är nybörjare eller en erfaren utvecklare, kommer dessa handledningar att hjälpa dig att förbättra dina programmeringsfärdigheter med PDF-formulär med Aspose.PDF för .NET.
 
 ## Handledningar
+
+{{< tutorial-card link="./add-placeholder-textbox/" title="Skapa ett tillgängligt platshållar‑textbox‑formulärfält i PDF med Aspose.Pdf för .NET" imgSrc="./add-placeholder-textbox/images/thumb.png" >}}
+
 | Titel | Beskrivning |
 | --- | --- | 
 | [Lägg till verktygstips i fält](./add-tooltip-to-field/) | Lär dig hur du lägger till verktygstips i formulärfält i PDF-dokument med Aspose.PDF för .NET i den här steg-för-steg-guiden. Förbättra användbarhet och användarupplevelse. |  

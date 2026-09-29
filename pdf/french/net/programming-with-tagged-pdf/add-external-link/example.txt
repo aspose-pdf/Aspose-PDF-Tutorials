@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: Ce tutoriel montre comment ouvrir un PDF existant avec Aspose.Pdf, créer un lien hypertexte externe balisé incluant du texte d'affichage et un titre d'infobulle, l'insérer dans la structure logique du document et enregistrer le fichier modifié.
+//ExStepSummary:0: Définissez les chemins du PDF source et du fichier résultat.
+//ExStepSummary:1: Vérifiez que le PDF source existe et interrompez l'opération s'il est introuvable.
+//ExStepSummary:2: Ouvrez le document PDF dans un bloc using afin d'assurer une libération correcte des ressources.
+//ExStepSummary:3: Obtenez le gestionnaire de contenu balisé (tagged‑content) pour le document ouvert.
+//ExStepSummary:4: Définissez la langue du document sur English (US) et attribuez au PDF un titre dérivé du nom de fichier.
+//ExStepSummary:5: Récupérez l'élément racine de l'arbre de structure logique auquel les nouveaux éléments seront ajoutés.
+//ExStepSummary:6: Créez un élément de lien, définissez son texte affiché, son URL cible et le titre de l'infobulle, puis insérez-le dans la structure du document.
+//ExStepSummary:7: Enregistrez le PDF mis à jour dans le fichier résultat spécifié.
+//ExStepSummary:8: Affichez un message de confirmation indiquant où le PDF modifié a été enregistré.
+//ExStep:0-
+const string sourceFile = "source.pdf";
+const string resultFile = "result_with_external_link.pdf";
+
+//ExStep:1-
+if (!File.Exists(sourceFile))
+{
+    Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+    return;
+}
+
+//ExStep:2-
+using (Document pdfDoc = new Document(sourceFile))
+{
+
+//ExStep:3-
+    ITaggedContent taggedContent = pdfDoc.TaggedContent;
+
+//ExStep:4-
+    taggedContent.SetLanguage("en-US");
+    taggedContent.SetTitle(Path.GetFileNameWithoutExtension(sourceFile));
+
+//ExStep:5-
+    StructureElement rootElement = taggedContent.RootElement;
+
+//ExStep:6-
+    LinkElement externalLink = taggedContent.CreateLinkElement();
+    externalLink.SetText("Open Aspose PDF library");
+    externalLink.Hyperlink = new WebHyperlink("https://www.example.com/pdf");
+    externalLink.Title = "Example PDF product page";
+    rootElement.AppendChild(externalLink);
+
+//ExStep:7-
+    pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"Modified PDF saved as '{resultFile}'.");
+//ExEnd

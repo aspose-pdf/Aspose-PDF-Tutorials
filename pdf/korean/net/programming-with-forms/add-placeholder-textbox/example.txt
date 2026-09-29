@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: 이 튜토리얼은 Aspose.Pdf for .NET 라이브러리를 사용하여 PDF 문서에 플레이스홀더 텍스트박스 폼 필드를 추가하고 접근성을 위해 태그를 지정하는 방법을 보여줍니다.
+//ExStepSummary:0: 입력 및 출력 파일 경로를 정의하고 원본 PDF가 존재하는지 확인합니다.
+//ExStepSummary:1: 기존 PDF 파일을 열고 작업할 Document 객체를 생성합니다.
+//ExStepSummary:2: 첫 페이지에 TextBoxField를 삽입하고 플레이스홀더 텍스트를 설정한 뒤 폼 컬렉션에 추가합니다.
+//ExStepSummary:3: 논리적인 /Form 구조 요소를 생성하고 이를 태그된 콘텐츠 트리에 연결한 뒤 텍스트박스 필드와 연관시킵니다.
+//ExStepSummary:4: 수정된 PDF를 지정된 출력 파일에 저장하고 문서를 닫습니다.
+//ExStepSummary:5: 새 PDF가 저장된 위치를 콘솔에 확인 메시지로 출력합니다.
+//ExStep:0-
+const string sourcePath = "sample_input.pdf";
+const string resultPath = "sample_output.pdf";
+
+if (!File.Exists(sourcePath))
+{
+    Console.Error.WriteLine($"File not found: {sourcePath}");
+    return;
+}
+
+//ExStep:1-
+using (Document pdfDocument = new Document(sourcePath))
+{
+
+//ExStep:2-
+Page firstPage = pdfDocument.Pages[1];
+Aspose.Pdf.Rectangle boxRect = new Aspose.Pdf.Rectangle(100, 600, 300, 630);
+TextBoxField placeholderField = new TextBoxField(pdfDocument, boxRect)
+{
+    Value = "Type your content here..."
+};
+pdfDocument.Form.Add(placeholderField);
+
+//ExStep:3-
+ITaggedContent taggedContent = pdfDocument.TaggedContent;
+StructureElement structureRoot = taggedContent.RootElement;
+FormElement logicalFormElement = taggedContent.CreateFormElement();
+structureRoot.AppendChild(logicalFormElement);
+logicalFormElement.Tag(placeholderField);
+
+//ExStep:4-
+pdfDocument.Save(resultPath);
+}
+
+//ExStep:5-
+Console.WriteLine($"PDF with form field saved to '{resultPath}'.");
+//ExEnd

@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: Deze tutorial laat zien hoe je een bestaande PDF opent met Aspose.Pdf, een getagde externe hyperlink maakt die weergavetekst en een tooltip‑titel bevat, deze in de logische structuur van het document invoegt en het gewijzigde bestand opslaat.
+//ExStepSummary:0: Definieer de paden voor de bron‑PDF en het resultaatbestand.
+//ExStepSummary:1: Controleer of de bron‑PDF bestaat en annuleer als deze niet gevonden kan worden.
+//ExStepSummary:2: Open het PDF‑document binnen een using‑blok om correcte vrijgave te garanderen.
+//ExStepSummary:3: Verkrijg de tagged‑content manager voor het geopende document.
+//ExStepSummary:4: Stel de documenttaal in op Engels (VS) en geef de PDF een titel afgeleid van de bestandsnaam.
+//ExStepSummary:5: Haal het root‑element op van de boom van de logische structuur waaraan nieuwe elementen worden toegevoegd.
+//ExStepSummary:6: Maak een link‑element, stel de weergavetekst, doel‑URL en tooltip‑titel in, en voeg het vervolgens toe aan de structuur van het document.
+//ExStepSummary:7: Sla de bijgewerkte PDF op naar het opgegeven resultaatbestand.
+//ExStepSummary:8: Geef een bevestigingsbericht weer dat aangeeft waar de gewijzigde PDF is opgeslagen.
+//ExStep:0-
+const string sourceFile = "source.pdf";
+const string resultFile = "result_with_external_link.pdf";
+
+//ExStep:1-
+if (!File.Exists(sourceFile))
+{
+    Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+    return;
+}
+
+//ExStep:2-
+using (Document pdfDoc = new Document(sourceFile))
+{
+
+//ExStep:3-
+    ITaggedContent taggedContent = pdfDoc.TaggedContent;
+
+//ExStep:4-
+    taggedContent.SetLanguage("en-US");
+    taggedContent.SetTitle(Path.GetFileNameWithoutExtension(sourceFile));
+
+//ExStep:5-
+    StructureElement rootElement = taggedContent.RootElement;
+
+//ExStep:6-
+    LinkElement externalLink = taggedContent.CreateLinkElement();
+    externalLink.SetText("Open Aspose PDF library");
+    externalLink.Hyperlink = new WebHyperlink("https://www.example.com/pdf");
+    externalLink.Title = "Example PDF product page";
+    rootElement.AppendChild(externalLink);
+
+//ExStep:7-
+    pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"Modified PDF saved as '{resultFile}'.");
+//ExEnd

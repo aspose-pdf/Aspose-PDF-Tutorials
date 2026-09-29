@@ -18,6 +18,12 @@
 Az Aspose.PDF for .NET „Címkézett PDF-ekkel való programozás” című oktatóanyagai végigvezetik a könyvtár használatán, amellyel címkézett PDF-eket manipulálhat és hozhat létre. Ismerje meg, hogyan hozhat létre tartalomstruktúrákat, kezelheti a címkézett elemeket, érvényesítheti a PDF/UA-megfelelőséget, és hogyan javíthatja a PDF-dokumentumok akadálymentesítését. Ezek az oktatóanyagok mélyreható ismereteket nyújtanak a címkézett PDF-ekkel való programozásról, és segítenek a legtöbbet kihozni az Aspose.PDF for .NET erejéből.
 
 ## Oktatóanyagok
+
+{{< tutorial-card link="./add-custom-tag/" title="Egyéni címke hozzáadása PDF bekezdéshez az Aspose.PDF for .NET használatával" imgSrc="./add-custom-tag/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-external-link/" title="Címkézett külső link hozzáadása tooltip‑pel a PDF-hez az Aspose.Pdf for .NET használatával" imgSrc="./add-external-link/images/thumb.png" >}}
+
+
 | Cím | Leírás |
 | --- | --- | 
 | [Hozzáférés a gyermekek elemeihez](./access-children-elements/) | Ebben a lépésről lépésre szóló útmutatóban megtudhatja, hogyan férhet hozzá és módosíthatja a címkézett PDF-ek gyermekelemeit az Aspose.PDF for .NET segítségével. |  

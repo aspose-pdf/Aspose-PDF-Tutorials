@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: 이 튜토리얼에서는 Document 및 ITaggedContent 클래스를 사용하여 PDF의 단락에 사용자 정의 커스텀 태그를 추가하는 방법을 보여줍니다.
+//ExStepSummary:0: 생성된 PDF의 출력 파일 이름을 정의합니다.
+//ExStepSummary:1: pdfDoc이라는 새 빈 PDF 문서 인스턴스를 생성합니다.
+//ExStepSummary:2: pdfDoc에서 ITaggedContent 인터페이스를 얻어 태그가 지정된 PDF 구조를 작업합니다.
+//ExStepSummary:3: 문서의 언어를 English (US)로 설정하고 접근성 메타데이터를 위한 제목을 지정합니다.
+//ExStepSummary:4: PDF 구조 트리의 루트 요소를 가져옵니다.
+//ExStepSummary:5: 새 단락 요소를 생성하고, 커스텀 태그 "MyCustomTag"를 할당한 뒤 표시 텍스트를 설정합니다.
+//ExStepSummary:6: 커스텀 단락을 루트 구조 요소에 추가하여 문서 레이아웃에 삽입합니다.
+//ExStepSummary:7: 구성된 PDF를 resultFile에 저장된 파일 경로에 저장하고 문서 범위를 닫습니다.
+//ExStepSummary:8: PDF가 저장된 위치를 확인하는 콘솔 메시지를 출력합니다.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+//ExStep:0-
+const string resultFile = "custom_tag_demo.pdf";
+
+//ExStep:1-
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:2-
+ITaggedContent tagged = pdfDoc.TaggedContent;
+
+//ExStep:3-
+tagged.SetLanguage("en-US");
+tagged.SetTitle("Sample PDF Featuring a Custom Paragraph Tag");
+
+//ExStep:4-
+StructureElement rootElement = tagged.RootElement;
+
+//ExStep:5-
+ParagraphElement customParagraph = tagged.CreateParagraphElement();
+customParagraph.SetTag("MyCustomTag");
+customParagraph.SetText("The following paragraph demonstrates the use of a user‑defined tag.");
+
+//ExStep:6-
+rootElement.AppendChild(customParagraph);
+
+//ExStep:7-
+pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"PDF saved to '{resultFile}'.");
+//ExEnd

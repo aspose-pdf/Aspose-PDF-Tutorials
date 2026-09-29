@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Ez a bemutató azt mutatja be, hogyan lehet egy helyőrző szövegdoboz űrlapmezőt hozzáadni egy PDF dokumentumhoz, és címkézni azt a hozzáférhetőség érdekében az Aspose.Pdf for .NET könyvtár használatával.
+//ExStepSummary:0: Határozza meg a bemeneti és kimeneti fájl útvonalakat, és ellenőrizze, hogy a forrás PDF létezik-e.
+//ExStepSummary:1: Nyissa meg a meglévő PDF fájlt, és hozzon létre egy Document objektumot a munkához.
+//ExStepSummary:2: Helyezzen el egy TextBoxField elemet az első oldalon, állítsa be a helyőrző szöveget, és adja hozzá az űrlapgyűjteményhez.
+//ExStepSummary:3: Hozzon létre egy logikai /Form struktúraelemet, csatolja a címkézett tartalomfához, és kapcsolja össze a szövegdoboz mezővel.
+//ExStepSummary:4: Mentse a módosított PDF-et a megadott kimeneti fájlba, és zárja be a dokumentumot.
+//ExStepSummary:5: Írjon egy megerősítő üzenetet a konzolra, amely jelzi, hová lett mentve az új PDF.
+//ExStep:0-
+const string sourcePath = "sample_input.pdf";
+const string resultPath = "sample_output.pdf";
+
+if (!File.Exists(sourcePath))
+{
+    Console.Error.WriteLine($"File not found: {sourcePath}");
+    return;
+}
+
+//ExStep:1-
+using (Document pdfDocument = new Document(sourcePath))
+{
+
+//ExStep:2-
+Page firstPage = pdfDocument.Pages[1];
+Aspose.Pdf.Rectangle boxRect = new Aspose.Pdf.Rectangle(100, 600, 300, 630);
+TextBoxField placeholderField = new TextBoxField(pdfDocument, boxRect)
+{
+    Value = "Type your content here..."
+};
+pdfDocument.Form.Add(placeholderField);
+
+//ExStep:3-
+ITaggedContent taggedContent = pdfDocument.TaggedContent;
+StructureElement structureRoot = taggedContent.RootElement;
+FormElement logicalFormElement = taggedContent.CreateFormElement();
+structureRoot.AppendChild(logicalFormElement);
+logicalFormElement.Tag(placeholderField);
+
+//ExStep:4-
+pdfDocument.Save(resultPath);
+}
+
+//ExStep:5-
+Console.WriteLine($"PDF with form field saved to '{resultPath}'.");
+//ExEnd

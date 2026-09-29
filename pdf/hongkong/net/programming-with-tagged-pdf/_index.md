@@ -18,6 +18,12 @@
 Aspose.PDF for .NET 的「使用標記 PDF 進行程式設計」教學課程將引導您使用此程式庫來操作和產生標記 PDF。了解如何建立內容結構、管理標記元素、驗證 PDF/UA 合規性以及提高 PDF 文件的可存取性。這些教學讓您深入了解使用標記 PDF 進行編程，並協助您充分利用 Aspose.PDF for .NET 的強大功能。
 
 ## 教學
+
+{{< tutorial-card link="./add-custom-tag/" title="使用 Aspose.PDF for .NET 為 PDF 段落新增自訂標籤" imgSrc="./add-custom-tag/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-external-link/" title="使用 Aspose.Pdf for .NET 為 PDF 新增帶工具提示的標記外部連結" imgSrc="./add-external-link/images/thumb.png" >}}
+
+
 |標題 |描述 |
 | --- | --- | 
 | [訪問子元素](./access-children-elements/) |在本逐步教學中了解如何使用 Aspose.PDF for .NET 存取和修改標記 PDF 中的子元素。 |  

@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: يوضح هذا البرنامج التعليمي كيفية إضافة علامة مخصصة معرفة من قبل المستخدم إلى فقرة في ملف PDF باستخدام الفئتين Document و ITaggedContent.
+//ExStepSummary:0: حدد اسم ملف الإخراج للملف PDF المُنشأ.
+//ExStepSummary:1: أنشئ كائن مستند PDF فارغ جديد يُسمى pdfDoc.
+//ExStepSummary:2: احصل على واجهة ITaggedContent من pdfDoc للعمل مع هياكل PDF الموسومة.
+//ExStepSummary:3: عيّن لغة المستند إلى الإنجليزية (US) وخصص عنوانًا لبيانات التعريف الخاصة بإمكانية الوصول.
+//ExStepSummary:4: استرجع العنصر الجذر لشجرة بنية PDF.
+//ExStepSummary:5: أنشئ عنصر فقرة جديد، وعيّن له علامة مخصصة "MyCustomTag"، وحدد النص المعروض.
+//ExStepSummary:6: أضف الفقرة المخصصة إلى عنصر الهيكل الجذر، مما يدرجها في تخطيط المستند.
+//ExStepSummary:7: احفظ ملف PDF المُنشأ إلى مسار الملف المخزن في resultFile وأغلق نطاق المستند.
+//ExStepSummary:8: اكتب رسالة في وحدة التحكم لتأكيد مكان حفظ ملف PDF.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+//ExStep:0-
+const string resultFile = "custom_tag_demo.pdf";
+
+//ExStep:1-
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:2-
+ITaggedContent tagged = pdfDoc.TaggedContent;
+
+//ExStep:3-
+tagged.SetLanguage("en-US");
+tagged.SetTitle("Sample PDF Featuring a Custom Paragraph Tag");
+
+//ExStep:4-
+StructureElement rootElement = tagged.RootElement;
+
+//ExStep:5-
+ParagraphElement customParagraph = tagged.CreateParagraphElement();
+customParagraph.SetTag("MyCustomTag");
+customParagraph.SetText("The following paragraph demonstrates the use of a user‑defined tag.");
+
+//ExStep:6-
+rootElement.AppendChild(customParagraph);
+
+//ExStep:7-
+pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"PDF saved to '{resultFile}'.");
+//ExEnd

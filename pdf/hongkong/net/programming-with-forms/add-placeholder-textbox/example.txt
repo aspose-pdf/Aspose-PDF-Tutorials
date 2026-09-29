@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: 本教學示範如何使用 Aspose.Pdf for .NET 函式庫在 PDF 文件中新增佔位文字方塊表單欄位，並為其加上可存取性標記。
+//ExStepSummary:0: 定義輸入與輸出檔案路徑，並確認來源 PDF 是否存在。
+//ExStepSummary:1: 開啟現有的 PDF 檔案，並建立 Document 物件以便操作。
+//ExStepSummary:2: 在第一頁插入 TextBoxField，設定其佔位文字，並將其加入表單集合。
+//ExStepSummary:3: 建立邏輯的 /Form 結構元素，將其附加至標記內容樹，並與文字方塊欄位關聯。
+//ExStepSummary:4: 將修改後的 PDF 儲存至指定的輸出檔案，並關閉文件。
+//ExStepSummary:5: 在主控台寫入確認訊息，指出新 PDF 的儲存位置。
+//ExStep:0-
+const string sourcePath = "sample_input.pdf";
+const string resultPath = "sample_output.pdf";
+
+if (!File.Exists(sourcePath))
+{
+    Console.Error.WriteLine($"File not found: {sourcePath}");
+    return;
+}
+
+//ExStep:1-
+using (Document pdfDocument = new Document(sourcePath))
+{
+
+//ExStep:2-
+Page firstPage = pdfDocument.Pages[1];
+Aspose.Pdf.Rectangle boxRect = new Aspose.Pdf.Rectangle(100, 600, 300, 630);
+TextBoxField placeholderField = new TextBoxField(pdfDocument, boxRect)
+{
+    Value = "Type your content here..."
+};
+pdfDocument.Form.Add(placeholderField);
+
+//ExStep:3-
+ITaggedContent taggedContent = pdfDocument.TaggedContent;
+StructureElement structureRoot = taggedContent.RootElement;
+FormElement logicalFormElement = taggedContent.CreateFormElement();
+structureRoot.AppendChild(logicalFormElement);
+logicalFormElement.Tag(placeholderField);
+
+//ExStep:4-
+pdfDocument.Save(resultPath);
+}
+
+//ExStep:5-
+Console.WriteLine($"PDF with form field saved to '{resultPath}'.");
+//ExEnd

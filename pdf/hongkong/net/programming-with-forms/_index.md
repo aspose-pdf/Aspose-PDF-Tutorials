@@ -19,6 +19,9 @@ Aspose.PDF for .NET「使用表單程式設計」教學課程是希望建立和�
 這些教程還提供了詳細的程式碼範例、清晰的解釋和插圖，讓您更容易理解和學習。您將逐步了解使用 PDF 表單進行程式設計的各個步驟，從而快速掌握建立有效且個人化的互動式 PDF 表單所需的概念和技術。無論您是初學者還是經驗豐富的開發人員，這些教學課程都將幫助您提升使用 Aspose.PDF for .NET 的 PDF 表單程式設計技能。
 
 ## 教學
+
+{{< tutorial-card link="./add-placeholder-textbox/" title="使用 Aspose.Pdf for .NET 在 PDF 中建立可存取的佔位文字方塊表單欄位" imgSrc="./add-placeholder-textbox/images/thumb.png" >}}
+
 |標題 |描述 |
 | --- | --- | 
 | [在欄位中新增工具提示](./add-tooltip-to-field/) |在本逐步指南中了解如何使用 Aspose.PDF for .NET 在 PDF 文件中的表單欄位中新增工具提示。提高可用性和使用者體驗。 |  

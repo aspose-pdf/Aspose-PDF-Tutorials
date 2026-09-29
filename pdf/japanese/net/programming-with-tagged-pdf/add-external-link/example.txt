@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: このチュートリアルでは、Aspose.Pdf を使用して既存の PDF を開き、表示テキストとツールチップタイトルを含むタグ付けされた外部ハイパーリンクを作成し、それをドキュメントの論理構造に挿入し、変更されたファイルを保存する方法を示します。
+//ExStepSummary:0: ソース PDF と結果ファイルのパスを定義します。
+//ExStepSummary:1: ソース PDF が存在するか確認し、見つからない場合は中止します。
+//ExStepSummary:2: 適切なリソース解放を保証するため、using ブロック内で PDF ドキュメントを開きます。
+//ExStepSummary:3: 開いたドキュメントのタグ付けコンテンツマネージャを取得します。
+//ExStepSummary:4: ドキュメントの言語を English (US) に設定し、ファイル名から派生したタイトルを PDF に付けます。
+//ExStepSummary:5: 新しい要素を追加する論理構造ツリーのルート要素を取得します。
+//ExStepSummary:6: リンク要素を作成し、表示テキスト、ターゲット URL、ツールチップタイトルを設定してから、ドキュメントの構造に挿入します。
+//ExStepSummary:7: 更新された PDF を指定された結果ファイルに保存します。
+//ExStepSummary:8: 変更された PDF が保存された場所を示す確認メッセージを出力します。
+//ExStep:0-
+const string sourceFile = "source.pdf";
+const string resultFile = "result_with_external_link.pdf";
+
+//ExStep:1-
+if (!File.Exists(sourceFile))
+{
+    Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+    return;
+}
+
+//ExStep:2-
+using (Document pdfDoc = new Document(sourceFile))
+{
+
+//ExStep:3-
+    ITaggedContent taggedContent = pdfDoc.TaggedContent;
+
+//ExStep:4-
+    taggedContent.SetLanguage("en-US");
+    taggedContent.SetTitle(Path.GetFileNameWithoutExtension(sourceFile));
+
+//ExStep:5-
+    StructureElement rootElement = taggedContent.RootElement;
+
+//ExStep:6-
+    LinkElement externalLink = taggedContent.CreateLinkElement();
+    externalLink.SetText("Open Aspose PDF library");
+    externalLink.Hyperlink = new WebHyperlink("https://www.example.com/pdf");
+    externalLink.Title = "Example PDF product page";
+    rootElement.AppendChild(externalLink);
+
+//ExStep:7-
+    pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"Modified PDF saved as '{resultFile}'.");
+//ExEnd

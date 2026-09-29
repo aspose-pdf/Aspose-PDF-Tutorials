@@ -19,6 +19,9 @@ Výukové programy „Programování s formuláři“ pro Aspose.PDF pro .NET js
 Tyto tutoriály také obsahují podrobné příklady kódu, jasná vysvětlení a ilustrace, které vám usnadní pochopení a učení. Budou krok za krokem provedeni různými kroky programování s PDF formuláři, což vám umožní rychle zvládnout koncepty a techniky potřebné k vytváření efektivních a personalizovaných interaktivních PDF formulářů. Ať už jste začátečník nebo zkušený vývojář, tyto tutoriály vám pomohou zlepšit vaše programátorské dovednosti s PDF formuláři pomocí Aspose.PDF pro .NET.
 
 ## Návody
+
+{{< tutorial-card link="./add-placeholder-textbox/" title="Vytvořte přístupné placeholder textové pole formuláře v PDF pomocí Aspose.Pdf pro .NET" imgSrc="./add-placeholder-textbox/images/thumb.png" >}}
+
 | Název | Popis |
 | --- | --- | 
 | [Přidat k poli popisek](./add-tooltip-to-field/) | V tomto podrobném návodu se naučte, jak přidat popisky k polím formulářů v dokumentech PDF pomocí Aspose.PDF pro .NET. Zlepšete použitelnost a uživatelský zážitek. |  

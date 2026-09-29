@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Αυτό το σεμινάριο δείχνει πώς να προσθέσετε μια προσαρμοσμένη ετικέτα ορισμένη από το χρήστη σε μια παράγραφο σε PDF χρησιμοποιώντας τις κλάσεις Document και ITaggedContent.
+//ExStepSummary:0: Ορίστε το όνομα του αρχείου εξόδου για το παραγόμενο PDF.
+//ExStepSummary:1: Δημιουργήστε ένα νέο κενό αντικείμενο PDF εγγράφου με όνομα pdfDoc.
+//ExStepSummary:2: Αποκτήστε τη διεπαφή ITaggedContent από το pdfDoc για να εργαστείτε με τις ετικετοποιημένες δομές PDF.
+//ExStepSummary:3: Ορίστε τη γλώσσα του εγγράφου σε English (US) και αντιστοιχίστε έναν τίτλο για τα μεταδεδομένα προσβασιμότητας.
+//ExStepSummary:4: Ανακτήστε το στοιχείο ρίζας του δέντρου δομής του PDF.
+//ExStepSummary:5: Δημιουργήστε ένα νέο στοιχείο παραγράφου, αντιστοιχίστε του μια προσαρμοσμένη ετικέτα "MyCustomTag" και ορίστε το εμφανιζόμενο κείμενό του.
+//ExStepSummary:6: Προσθέστε την προσαρμοσμένη παράγραφο στο στοιχείο ρίζας της δομής, ενσωματώνοντάς την στη διάταξη του εγγράφου.
+//ExStepSummary:7: Αποθηκεύστε το κατασκευασμένο PDF στη διαδρομή αρχείου που αποθηκεύεται στο resultFile και κλείστε το πεδίο του εγγράφου.
+//ExStepSummary:8: Γράψτε ένα μήνυμα στην κονσόλα που επιβεβαιώνει πού αποθηκεύτηκε το PDF.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+//ExStep:0-
+const string resultFile = "custom_tag_demo.pdf";
+
+//ExStep:1-
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:2-
+ITaggedContent tagged = pdfDoc.TaggedContent;
+
+//ExStep:3-
+tagged.SetLanguage("en-US");
+tagged.SetTitle("Sample PDF Featuring a Custom Paragraph Tag");
+
+//ExStep:4-
+StructureElement rootElement = tagged.RootElement;
+
+//ExStep:5-
+ParagraphElement customParagraph = tagged.CreateParagraphElement();
+customParagraph.SetTag("MyCustomTag");
+customParagraph.SetText("The following paragraph demonstrates the use of a user‑defined tag.");
+
+//ExStep:6-
+rootElement.AppendChild(customParagraph);
+
+//ExStep:7-
+pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"PDF saved to '{resultFile}'.");
+//ExEnd

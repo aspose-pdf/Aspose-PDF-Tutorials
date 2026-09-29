@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Den här handledningen visar hur man lägger till en användardefinierad anpassad tagg till ett stycke i en PDF med hjälp av Document- och ITaggedContent-klasserna.
+//ExStepSummary:0: Ange filnamnet för den genererade PDF:en.
+//ExStepSummary:1: Skapa en ny tom PDF-dokumentinstans med namnet pdfDoc.
+//ExStepSummary:2: Hämta ITaggedContent-gränssnittet från pdfDoc för att arbeta med taggade PDF-strukturer.
+//ExStepSummary:3: Ställ in dokumentets språk till English (US) och tilldela en titel för tillgänglighetsmetadata.
+//ExStepSummary:4: Hämta rot‑elementet i PDF:ens strukturträd.
+//ExStepSummary:5: Skapa ett nytt stycke‑element, tilldela det den anpassade taggen "MyCustomTag" och sätt dess visade text.
+//ExStepSummary:6: Lägg till det anpassade stycket i rot‑struktur‑elementet, vilket infogar det i dokumentlayouten.
+//ExStepSummary:7: Spara den konstruerade PDF‑filen till sökvägen som lagras i resultFile och stäng dokumentets omfattning.
+//ExStepSummary:8: Skriv ett konsolmeddelande som bekräftar var PDF‑filen sparades.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+//ExStep:0-
+const string resultFile = "custom_tag_demo.pdf";
+
+//ExStep:1-
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:2-
+ITaggedContent tagged = pdfDoc.TaggedContent;
+
+//ExStep:3-
+tagged.SetLanguage("en-US");
+tagged.SetTitle("Sample PDF Featuring a Custom Paragraph Tag");
+
+//ExStep:4-
+StructureElement rootElement = tagged.RootElement;
+
+//ExStep:5-
+ParagraphElement customParagraph = tagged.CreateParagraphElement();
+customParagraph.SetTag("MyCustomTag");
+customParagraph.SetText("The following paragraph demonstrates the use of a user‑defined tag.");
+
+//ExStep:6-
+rootElement.AppendChild(customParagraph);
+
+//ExStep:7-
+pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"PDF saved to '{resultFile}'.");
+//ExEnd

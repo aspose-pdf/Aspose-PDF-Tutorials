@@ -18,6 +18,12 @@
 Aspose.PDF for .NET의 "태그가 지정된 PDF 프로그래밍" 튜토리얼은 이 라이브러리를 사용하여 태그가 지정된 PDF를 조작하고 생성하는 방법을 안내합니다. 콘텐츠 구조를 생성하고, 태그가 지정된 요소를 관리하고, PDF/UA 준수 여부를 검증하고, PDF 문서의 접근성을 개선하는 방법을 알아보세요. 이 튜토리얼은 태그가 지정된 PDF 프로그래밍에 대한 심층적인 이해를 제공하고 Aspose.PDF for .NET의 강력한 기능을 최대한 활용하는 데 도움을 줍니다.
 
 ## 튜토리얼
+
+{{< tutorial-card link="./add-custom-tag/" title="Aspose.PDF for .NET을 사용하여 PDF 단락에 커스텀 태그 추가" imgSrc="./add-custom-tag/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-external-link/" title="Aspose.Pdf for .NET을 사용하여 PDF에 툴팁이 있는 태그된 외부 링크 추가" imgSrc="./add-external-link/images/thumb.png" >}}
+
+
 | 제목 | 설명 |
 | --- | --- | 
 | [자식 요소에 접근](./access-children-elements/) | 이 단계별 튜토리얼에서는 Aspose.PDF for .NET을 사용하여 태그가 지정된 PDF의 자식 요소에 액세스하고 수정하는 방법을 알아봅니다. |  

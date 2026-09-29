@@ -19,6 +19,9 @@ Az Aspose.PDF for .NET „Űrlapok programozása” című oktatóanyagok nélk�
 Ezek az oktatóanyagok részletes kódpéldákat, világos magyarázatokat és illusztrációkat is tartalmaznak, hogy megkönnyítsék a megértést és a tanulást. Lépésről lépésre végigvezetnek a PDF űrlapokkal való programozás különböző lépésein, lehetővé téve, hogy gyorsan elsajátítsa a hatékony és személyre szabott interaktív PDF űrlapok létrehozásához szükséges fogalmakat és technikákat. Akár kezdő, akár tapasztalt fejlesztő, ezek az oktatóanyagok segítenek fejleszteni a PDF űrlapokkal kapcsolatos programozási készségeit az Aspose.PDF for .NET használatával.
 
 ## Oktatóanyagok
+
+{{< tutorial-card link="./add-placeholder-textbox/" title="Hozzon létre egy hozzáférhető helyőrző szövegdoboz űrlapmezőt PDF-ben az Aspose.Pdf for .NET segítségével" imgSrc="./add-placeholder-textbox/images/thumb.png" >}}
+
 | Cím | Leírás |
 | --- | --- | 
 | [Eszköztipp hozzáadása mezőhöz](./add-tooltip-to-field/) | Ebben a lépésről lépésre szóló útmutatóban megtudhatja, hogyan adhat hozzá eszköztippeket PDF dokumentumok űrlapmezőihez az Aspose.PDF for .NET használatával. Javítsa a használhatóságot és a felhasználói élményt. |  

@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: Hướng dẫn này trình bày cách mở một tệp PDF hiện có bằng Aspose.Pdf, tạo một siêu liên kết bên ngoài có thẻ bao gồm văn bản hiển thị và tiêu đề tooltip, chèn nó vào cấu trúc logic của tài liệu, và lưu tệp đã chỉnh sửa.
+//ExStepSummary:0: Xác định đường dẫn cho PDF nguồn và tệp kết quả.
+//ExStepSummary:1: Kiểm tra xem PDF nguồn có tồn tại không và hủy nếu không tìm thấy.
+//ExStepSummary:2: Mở tài liệu PDF trong một khối using để đảm bảo giải phóng tài nguyên đúng cách.
+//ExStepSummary:3: Lấy trình quản lý nội dung có thẻ (tagged‑content manager) cho tài liệu đã mở.
+//ExStepSummary:4: Đặt ngôn ngữ của tài liệu thành tiếng Anh (Mỹ) và đặt tiêu đề cho PDF dựa trên tên tệp.
+//ExStepSummary:5: Lấy phần tử gốc của cây cấu trúc logic mà các phần tử mới sẽ được thêm vào.
+//ExStepSummary:6: Tạo một phần tử liên kết, đặt văn bản hiển thị, URL đích và tiêu đề tooltip, sau đó chèn nó vào cấu trúc của tài liệu.
+//ExStepSummary:7: Lưu PDF đã cập nhật vào tệp kết quả đã chỉ định.
+//ExStepSummary:8: In ra thông báo xác nhận cho biết PDF đã chỉnh sửa được lưu ở đâu.
+//ExStep:0-
+const string sourceFile = "source.pdf";
+const string resultFile = "result_with_external_link.pdf";
+
+//ExStep:1-
+if (!File.Exists(sourceFile))
+{
+    Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+    return;
+}
+
+//ExStep:2-
+using (Document pdfDoc = new Document(sourceFile))
+{
+
+//ExStep:3-
+    ITaggedContent taggedContent = pdfDoc.TaggedContent;
+
+//ExStep:4-
+    taggedContent.SetLanguage("en-US");
+    taggedContent.SetTitle(Path.GetFileNameWithoutExtension(sourceFile));
+
+//ExStep:5-
+    StructureElement rootElement = taggedContent.RootElement;
+
+//ExStep:6-
+    LinkElement externalLink = taggedContent.CreateLinkElement();
+    externalLink.SetText("Open Aspose PDF library");
+    externalLink.Hyperlink = new WebHyperlink("https://www.example.com/pdf");
+    externalLink.Title = "Example PDF product page";
+    rootElement.AppendChild(externalLink);
+
+//ExStep:7-
+    pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"Modified PDF saved as '{resultFile}'.");
+//ExEnd

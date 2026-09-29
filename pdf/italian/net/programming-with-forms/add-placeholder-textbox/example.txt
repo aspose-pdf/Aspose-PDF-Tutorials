@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Questo tutorial dimostra come aggiungere un campo modulo di tipo casella di testo con segnaposto a un documento PDF e contrassegnarlo per l'accessibilità utilizzando la libreria Aspose.Pdf for .NET.
+//ExStepSummary:0: Definisci i percorsi dei file di input e output e verifica che il PDF di origine esista.
+//ExStepSummary:1: Apre il file PDF esistente e crea un oggetto Document con cui lavorare.
+//ExStepSummary:2: Inserisci un TextBoxField nella prima pagina, imposta il suo testo segnaposto e aggiungilo alla collezione del modulo.
+//ExStepSummary:3: Crea un elemento di struttura logica /Form, collegalo all'albero di contenuto taggato e associarlo al campo textbox.
+//ExStepSummary:4: Salva il PDF modificato nel file di output specificato e chiudi il documento.
+//ExStepSummary:5: Scrivi un messaggio di conferma sulla console indicando dove è stato salvato il nuovo PDF.
+//ExStep:0-
+const string sourcePath = "sample_input.pdf";
+const string resultPath = "sample_output.pdf";
+
+if (!File.Exists(sourcePath))
+{
+    Console.Error.WriteLine($"File not found: {sourcePath}");
+    return;
+}
+
+//ExStep:1-
+using (Document pdfDocument = new Document(sourcePath))
+{
+
+//ExStep:2-
+Page firstPage = pdfDocument.Pages[1];
+Aspose.Pdf.Rectangle boxRect = new Aspose.Pdf.Rectangle(100, 600, 300, 630);
+TextBoxField placeholderField = new TextBoxField(pdfDocument, boxRect)
+{
+    Value = "Type your content here..."
+};
+pdfDocument.Form.Add(placeholderField);
+
+//ExStep:3-
+ITaggedContent taggedContent = pdfDocument.TaggedContent;
+StructureElement structureRoot = taggedContent.RootElement;
+FormElement logicalFormElement = taggedContent.CreateFormElement();
+structureRoot.AppendChild(logicalFormElement);
+logicalFormElement.Tag(placeholderField);
+
+//ExStep:4-
+pdfDocument.Save(resultPath);
+}
+
+//ExStep:5-
+Console.WriteLine($"PDF with form field saved to '{resultPath}'.");
+//ExEnd

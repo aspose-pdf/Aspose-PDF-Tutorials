@@ -18,6 +18,12 @@
 Os tutoriais "Programação com PDFs Marcados" do Aspose.PDF para .NET orientam você no uso desta biblioteca para manipular e gerar PDFs marcados. Aprenda a criar estruturas de conteúdo, gerenciar elementos marcados, validar a conformidade com PDF/UA e melhorar a acessibilidade de documentos PDF. Esses tutoriais oferecem uma compreensão aprofundada da programação com PDFs marcados e ajudam você a aproveitar ao máximo o poder do Aspose.PDF para .NET.
 
 ## Tutoriais
+
+{{< tutorial-card link="./add-custom-tag/" title="Adicionar Tag Personalizada a um Parágrafo PDF Usando Aspose.PDF para .NET" imgSrc="./add-custom-tag/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-external-link/" title="Adicionar Link Externo Marcado com Tooltip ao PDF usando Aspose.Pdf para .NET" imgSrc="./add-external-link/images/thumb.png" >}}
+
+
 | Título | Descrição |
 | --- | --- | 
 | [Acessar Elementos Filhos](./access-children-elements/) | Aprenda como acessar e modificar elementos filho em PDFs marcados com o Aspose.PDF para .NET neste tutorial passo a passo. |  

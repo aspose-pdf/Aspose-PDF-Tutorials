@@ -19,6 +19,12 @@ Aspose.PDF for .NET の「タグ付き PDF を使ったプログラミング」�
 
 ## チュートリアル
 タイトル | 説明 |
+
+{{< tutorial-card link="./add-custom-tag/" title="Aspose.PDF for .NET を使用して PDF の段落にカスタムタグを追加する" imgSrc="./add-custom-tag/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-external-link/" title="Aspose.Pdf for .NET を使用して、ツールチップ付きのタグ付け外部リンクを PDF に追加する" imgSrc="./add-external-link/images/thumb.png" >}}
+
+
 | --- | --- | 
 | [子要素にアクセスする](./access-children-elements/) このステップバイステップのチュートリアルでは、Aspose.PDF for .NET を使用してタグ付き PDF 内の子要素にアクセスし、変更する方法を学習します。 |  
 | [要素に構造要素を追加する](./add-structure-element-into-element/) この包括的なステップバイステップのチュートリアルでは、Aspose.PDF for .NET を使用して PDF にアクセシビリティ構造要素を追加する方法を学習します。 |  

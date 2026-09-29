@@ -18,6 +18,12 @@
 Samouczki Aspose.PDF for .NET „Programming with Tagged PDFs” przeprowadzą Cię przez proces korzystania z tej biblioteki do manipulowania i generowania oznaczonych plików PDF. Dowiedz się, jak tworzyć struktury treści, zarządzać oznaczonymi elementami, sprawdzać zgodność PDF/UA i poprawiać dostępność dokumentów PDF. Te samouczki zapewniają dogłębne zrozumienie programowania z oznaczonymi plikami PDF i pomagają w pełni wykorzystać potencjał Aspose.PDF for .NET.
 
 ## Samouczki
+
+{{< tutorial-card link="./add-custom-tag/" title="Dodaj niestandardowy znacznik do akapitu PDF przy użyciu Aspose.PDF for .NET" imgSrc="./add-custom-tag/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-external-link/" title="Dodaj oznaczony zewnętrzny link z podpowiedzią do PDF przy użyciu Aspose.Pdf dla .NET" imgSrc="./add-external-link/images/thumb.png" >}}
+
+
 | Tytuł | Opis |
 | --- | --- | 
 | [Dostęp do elementów dziecięcych](./access-children-elements/) | Dowiedz się, jak uzyskać dostęp do elementów podrzędnych w oznaczonych plikach PDF i jak je modyfikować za pomocą Aspose.PDF dla platformy .NET, korzystając z tego samouczka krok po kroku. |  

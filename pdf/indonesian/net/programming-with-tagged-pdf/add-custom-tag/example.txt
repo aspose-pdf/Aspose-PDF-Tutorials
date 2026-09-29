@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Tutorial ini menunjukkan cara menambahkan tag khusus buatan pengguna ke sebuah paragraf dalam PDF menggunakan kelas Document dan ITaggedContent.
+//ExStepSummary:0: Definisikan nama file output untuk PDF yang dihasilkan.
+//ExStepSummary:1: Buat sebuah instance dokumen PDF kosong baru dengan nama pdfDoc.
+//ExStepSummary:2: Dapatkan antarmuka ITaggedContent dari pdfDoc untuk bekerja dengan struktur PDF ber-tag.
+//ExStepSummary:3: Setel bahasa dokumen ke Bahasa Inggris (AS) dan tetapkan judul untuk metadata aksesibilitas.
+//ExStepSummary:4: Ambil elemen akar dari pohon struktur PDF.
+//ExStepSummary:5: Buat elemen paragraf baru, beri tag khusus \"MyCustomTag\", dan atur teks yang ditampilkan.
+//ExStepSummary:6: Tambahkan paragraf khusus ke elemen struktur akar, menyisipkannya ke dalam tata letak dokumen.
+//ExStepSummary:7: Simpan PDF yang telah dibangun ke jalur file yang disimpan dalam resultFile dan tutup ruang lingkup dokumen.
+//ExStepSummary:8: Tuliskan pesan konsol yang mengonfirmasi lokasi penyimpanan PDF.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+//ExStep:0-
+const string resultFile = "custom_tag_demo.pdf";
+
+//ExStep:1-
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:2-
+ITaggedContent tagged = pdfDoc.TaggedContent;
+
+//ExStep:3-
+tagged.SetLanguage("en-US");
+tagged.SetTitle("Sample PDF Featuring a Custom Paragraph Tag");
+
+//ExStep:4-
+StructureElement rootElement = tagged.RootElement;
+
+//ExStep:5-
+ParagraphElement customParagraph = tagged.CreateParagraphElement();
+customParagraph.SetTag("MyCustomTag");
+customParagraph.SetText("The following paragraph demonstrates the use of a user‑defined tag.");
+
+//ExStep:6-
+rootElement.AppendChild(customParagraph);
+
+//ExStep:7-
+pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"PDF saved to '{resultFile}'.");
+//ExEnd

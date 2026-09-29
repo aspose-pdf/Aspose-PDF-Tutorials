@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Tutorial ini menunjukkan cara menambahkan bidang formulir kotak teks placeholder ke dokumen PDF dan menandainya untuk aksesibilitas menggunakan pustaka Aspose.Pdf for .NET.
+//ExStepSummary:0: Definisikan jalur file input dan output serta verifikasi bahwa PDF sumber ada.
+//ExStepSummary:1: Buka file PDF yang ada dan buat objek Document untuk dikerjakan.
+//ExStepSummary:2: Sisipkan TextBoxField pada halaman pertama, atur teks placeholder-nya, dan tambahkan ke koleksi formulir.
+//ExStepSummary:3: Buat elemen struktur /Form logis, lampirkan ke pohon konten bertag, dan kaitkan dengan bidang textbox.
+//ExStepSummary:4: Simpan PDF yang telah dimodifikasi ke file output yang ditentukan dan tutup dokumen.
+//ExStepSummary:5: Tuliskan pesan konfirmasi ke konsol yang menunjukkan lokasi penyimpanan PDF baru.
+//ExStep:0-
+const string sourcePath = "sample_input.pdf";
+const string resultPath = "sample_output.pdf";
+
+if (!File.Exists(sourcePath))
+{
+    Console.Error.WriteLine($"File not found: {sourcePath}");
+    return;
+}
+
+//ExStep:1-
+using (Document pdfDocument = new Document(sourcePath))
+{
+
+//ExStep:2-
+Page firstPage = pdfDocument.Pages[1];
+Aspose.Pdf.Rectangle boxRect = new Aspose.Pdf.Rectangle(100, 600, 300, 630);
+TextBoxField placeholderField = new TextBoxField(pdfDocument, boxRect)
+{
+    Value = "Type your content here..."
+};
+pdfDocument.Form.Add(placeholderField);
+
+//ExStep:3-
+ITaggedContent taggedContent = pdfDocument.TaggedContent;
+StructureElement structureRoot = taggedContent.RootElement;
+FormElement logicalFormElement = taggedContent.CreateFormElement();
+structureRoot.AppendChild(logicalFormElement);
+logicalFormElement.Tag(placeholderField);
+
+//ExStep:4-
+pdfDocument.Save(resultPath);
+}
+
+//ExStep:5-
+Console.WriteLine($"PDF with form field saved to '{resultPath}'.");
+//ExEnd

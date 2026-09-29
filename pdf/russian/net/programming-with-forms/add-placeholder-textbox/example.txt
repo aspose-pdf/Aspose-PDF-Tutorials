@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Этот учебник демонстрирует, как добавить поле формы с текстовым полем‑заполнителем в PDF‑документ и пометить его для доступности с использованием библиотеки Aspose.Pdf for .NET.
+//ExStepSummary:0: Определите пути к входному и выходному файлам и проверьте, что исходный PDF существует.
+//ExStepSummary:1: Откройте существующий PDF‑файл и создайте объект Document для работы.
+//ExStepSummary:2: Вставьте TextBoxField на первую страницу, задайте ему текст‑заполнитель и добавьте его в коллекцию формы.
+//ExStepSummary:3: Создайте логический элемент структуры /Form, присоедините его к дереву помеченного содержимого и свяжите с полем TextBoxField.
+//ExStepSummary:4: Сохраните изменённый PDF в указанный выходной файл и закройте документ.
+//ExStepSummary:5: Выведите в консоль подтверждающее сообщение, указывающее, куда был сохранён новый PDF.
+//ExStep:0-
+const string sourcePath = "sample_input.pdf";
+const string resultPath = "sample_output.pdf";
+
+if (!File.Exists(sourcePath))
+{
+    Console.Error.WriteLine($"File not found: {sourcePath}");
+    return;
+}
+
+//ExStep:1-
+using (Document pdfDocument = new Document(sourcePath))
+{
+
+//ExStep:2-
+Page firstPage = pdfDocument.Pages[1];
+Aspose.Pdf.Rectangle boxRect = new Aspose.Pdf.Rectangle(100, 600, 300, 630);
+TextBoxField placeholderField = new TextBoxField(pdfDocument, boxRect)
+{
+    Value = "Type your content here..."
+};
+pdfDocument.Form.Add(placeholderField);
+
+//ExStep:3-
+ITaggedContent taggedContent = pdfDocument.TaggedContent;
+StructureElement structureRoot = taggedContent.RootElement;
+FormElement logicalFormElement = taggedContent.CreateFormElement();
+structureRoot.AppendChild(logicalFormElement);
+logicalFormElement.Tag(placeholderField);
+
+//ExStep:4-
+pdfDocument.Save(resultPath);
+}
+
+//ExStep:5-
+Console.WriteLine($"PDF with form field saved to '{resultPath}'.");
+//ExEnd

@@ -18,6 +18,12 @@ description: Check out Aspose.PDF for .NET's Programming with Tagged PDF tutoria
 Aspose.PDF for .NET's "Programming with Tagged PDFs" tutorials walk you through using this library to manipulate and generate tagged PDFs. Learn how to create content structures, manage tagged elements, validate PDF/UA compliance, and improve accessibility of PDF documents. These tutorials give you an in-depth understanding of programming with tagged PDFs and help you get the most out of the power of Aspose.PDF for .NET.
 
 ## Tutorials
+
+{{< tutorial-card link="./add-external-link/" title="Add Tagged External Link with Tooltip to PDF Using Aspose.Pdf for .NET" imgSrc="./add-external-link/images/thumb.png" >}}
+
+
+{{< tutorial-card link="./add-custom-tag/" title="Add Custom Tag to a PDF Paragraph Using Aspose.PDF for .NET" imgSrc="./add-custom-tag/images/thumb.png" >}}
+
 | Title | Description |
 | --- | --- | 
 | [Access Children Elements](./access-children-elements/) | Learn how to access and modify child elements in tagged PDFs with Aspose.PDF for .NET in this step-by-step tutorial. |  

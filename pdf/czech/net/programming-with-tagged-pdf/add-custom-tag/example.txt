@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Tento tutoriál ukazuje, jak pomocí tříd Document a ITaggedContent přidat uživatelem definovaný vlastní štítek do odstavce v PDF.
+//ExStepSummary:0: Definujte název výstupního souboru pro vygenerované PDF.
+//ExStepSummary:1: Vytvořte novou prázdnou instanci PDF dokumentu s názvem pdfDoc.
+//ExStepSummary:2: Získejte rozhraní ITaggedContent z pdfDoc pro práci se strukturovanými PDF.
+//ExStepSummary:3: Nastavte jazyk dokumentu na angličtinu (US) a přiřaďte název pro metadata přístupnosti.
+//ExStepSummary:4: Získejte kořenový prvek stromu struktury PDF.
+//ExStepSummary:5: Vytvořte nový prvek odstavce, přiřaďte mu vlastní štítek \"MyCustomTag\" a nastavte jeho zobrazovaný text.
+//ExStepSummary:6: Připojte vlastní odstavec ke kořenovému strukturálnímu prvku, čímž jej vložíte do rozvržení dokumentu.
+//ExStepSummary:7: Uložte vytvořené PDF na cestu uloženou v proměnné resultFile a uzavřete rozsah dokumentu.
+//ExStepSummary:8: Vypište zprávu do konzole, která potvrzuje, kde bylo PDF uloženo.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+//ExStep:0-
+const string resultFile = "custom_tag_demo.pdf";
+
+//ExStep:1-
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:2-
+ITaggedContent tagged = pdfDoc.TaggedContent;
+
+//ExStep:3-
+tagged.SetLanguage("en-US");
+tagged.SetTitle("Sample PDF Featuring a Custom Paragraph Tag");
+
+//ExStep:4-
+StructureElement rootElement = tagged.RootElement;
+
+//ExStep:5-
+ParagraphElement customParagraph = tagged.CreateParagraphElement();
+customParagraph.SetTag("MyCustomTag");
+customParagraph.SetText("The following paragraph demonstrates the use of a user‑defined tag.");
+
+//ExStep:6-
+rootElement.AppendChild(customParagraph);
+
+//ExStep:7-
+pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"PDF saved to '{resultFile}'.");
+//ExEnd

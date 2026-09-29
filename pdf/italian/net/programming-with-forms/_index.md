@@ -19,6 +19,9 @@ tutorial "Programmazione con i moduli" di Aspose.PDF per .NET sono risorse essen
 Questi tutorial forniscono anche esempi di codice dettagliati, spiegazioni chiare e illustrazioni per semplificare la comprensione e l'apprendimento. Verrai guidato passo dopo passo attraverso le varie fasi della programmazione con i moduli PDF, permettendoti di padroneggiare rapidamente i concetti e le tecniche necessarie per creare moduli PDF interattivi efficaci e personalizzati. Che tu sia un principiante o un sviluppatore esperto, questi tutorial ti aiuteranno a migliorare le tue competenze di programmazione con i moduli PDF utilizzando Aspose.PDF per .NET.
 
 ## Tutorial
+
+{{< tutorial-card link="./add-placeholder-textbox/" title="Crea un campo modulo di casella di testo con segnaposto accessibile in PDF con Aspose.Pdf for .NET" imgSrc="./add-placeholder-textbox/images/thumb.png" >}}
+
 | Titolo | Descrizione |
 | --- | --- | 
 | [Aggiungi suggerimento al campo](./add-tooltip-to-field/) | Scopri come aggiungere descrizioni comandi ai campi dei moduli nei documenti PDF utilizzando Aspose.PDF per .NET in questa guida passo passo. Migliora l'usabilità e l'esperienza utente. |  

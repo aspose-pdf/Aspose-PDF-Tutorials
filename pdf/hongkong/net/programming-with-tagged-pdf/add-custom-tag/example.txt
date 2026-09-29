@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: 本教學示範如何使用 Document 與 ITaggedContent 類別，在 PDF 的段落中加入使用者自訂的自訂標籤。
+//ExStepSummary:0: 為產生的 PDF 定義輸出檔案名稱。
+//ExStepSummary:1: 建立一個名為 pdfDoc 的新空白 PDF 文件實例。
+//ExStepSummary:2: 從 pdfDoc 取得 ITaggedContent 介面，以操作有標籤的 PDF 結構。
+//ExStepSummary:3: 將文件語言設定為 English (US)，並為可存取性中繼資料指定標題。
+//ExStepSummary:4: 取得 PDF 結構樹的根元素。
+//ExStepSummary:5: 建立新的段落元素，為其指定自訂標籤 "MyCustomTag"，並設定顯示文字。
+//ExStepSummary:6: 將自訂段落附加至根結構元素，將其插入文件版面。
+//ExStepSummary:7: 將構建好的 PDF 儲存至 resultFile 所保存的檔案路徑，並關閉文件範圍。
+//ExStepSummary:8: 在主控台寫入訊息，確認 PDF 已儲存的位置。
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+//ExStep:0-
+const string resultFile = "custom_tag_demo.pdf";
+
+//ExStep:1-
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:2-
+ITaggedContent tagged = pdfDoc.TaggedContent;
+
+//ExStep:3-
+tagged.SetLanguage("en-US");
+tagged.SetTitle("Sample PDF Featuring a Custom Paragraph Tag");
+
+//ExStep:4-
+StructureElement rootElement = tagged.RootElement;
+
+//ExStep:5-
+ParagraphElement customParagraph = tagged.CreateParagraphElement();
+customParagraph.SetTag("MyCustomTag");
+customParagraph.SetText("The following paragraph demonstrates the use of a user‑defined tag.");
+
+//ExStep:6-
+rootElement.AppendChild(customParagraph);
+
+//ExStep:7-
+pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"PDF saved to '{resultFile}'.");
+//ExEnd

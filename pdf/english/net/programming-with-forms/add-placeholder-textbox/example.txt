@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: This tutorial demonstrates how to add a placeholder textbox form field to a PDF document and tag it for accessibility using the Aspose.Pdf for .NET library.
+//ExStepSummary:0: Define the input and output file paths and verify that the source PDF exists.
+//ExStepSummary:1: Open the existing PDF file and create a Document object to work with.
+//ExStepSummary:2: Insert a TextBoxField on the first page, set its placeholder text, and add it to the form collection.
+//ExStepSummary:3: Create a logical /Form structure element, attach it to the tagged content tree, and associate it with the textbox field.
+//ExStepSummary:4: Save the modified PDF to the specified output file and close the document.
+//ExStepSummary:5: Write a confirmation message to the console indicating where the new PDF was saved.
+//ExStep:0-
+const string sourcePath = "sample_input.pdf";
+const string resultPath = "sample_output.pdf";
+
+if (!File.Exists(sourcePath))
+{
+    Console.Error.WriteLine($"File not found: {sourcePath}");
+    return;
+}
+
+//ExStep:1-
+using (Document pdfDocument = new Document(sourcePath))
+{
+
+//ExStep:2-
+Page firstPage = pdfDocument.Pages[1];
+Aspose.Pdf.Rectangle boxRect = new Aspose.Pdf.Rectangle(100, 600, 300, 630);
+TextBoxField placeholderField = new TextBoxField(pdfDocument, boxRect)
+{
+    Value = "Type your content here..."
+};
+pdfDocument.Form.Add(placeholderField);
+
+//ExStep:3-
+ITaggedContent taggedContent = pdfDocument.TaggedContent;
+StructureElement structureRoot = taggedContent.RootElement;
+FormElement logicalFormElement = taggedContent.CreateFormElement();
+structureRoot.AppendChild(logicalFormElement);
+logicalFormElement.Tag(placeholderField);
+
+//ExStep:4-
+pdfDocument.Save(resultPath);
+}
+
+//ExStep:5-
+Console.WriteLine($"PDF with form field saved to '{resultPath}'.");
+//ExEnd

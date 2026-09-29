@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Bu öğreticide, Aspose.Pdf for .NET kütüphanesini kullanarak bir PDF belgesine yer tutucu metin kutusu form alanı eklemeyi ve erişilebilirlik için etiketlemeyi gösterir.
+//ExStepSummary:0: Girdi ve çıktı dosya yollarını tanımlayın ve kaynak PDF'nin mevcut olduğunu doğrulayın.
+//ExStepSummary:1: Mevcut PDF dosyasını açın ve üzerinde çalışmak için bir Document nesnesi oluşturun.
+//ExStepSummary:2: İlk sayfaya bir TextBoxField ekleyin, yer tutucu metnini ayarlayın ve form koleksiyonuna ekleyin.
+//ExStepSummary:3: Mantıksal bir /Form yapı öğesi oluşturun, bunu etiketli içerik ağacına bağlayın ve metin kutusu alanı ile ilişkilendirin.
+//ExStepSummary:4: Değiştirilen PDF'yi belirtilen çıktı dosyasına kaydedin ve belgeyi kapatın.
+//ExStepSummary:5: Yeni PDF'nin nereye kaydedildiğini gösteren bir onay mesajını konsola yazdırın.
+//ExStep:0-
+const string sourcePath = "sample_input.pdf";
+const string resultPath = "sample_output.pdf";
+
+if (!File.Exists(sourcePath))
+{
+    Console.Error.WriteLine($"File not found: {sourcePath}");
+    return;
+}
+
+//ExStep:1-
+using (Document pdfDocument = new Document(sourcePath))
+{
+
+//ExStep:2-
+Page firstPage = pdfDocument.Pages[1];
+Aspose.Pdf.Rectangle boxRect = new Aspose.Pdf.Rectangle(100, 600, 300, 630);
+TextBoxField placeholderField = new TextBoxField(pdfDocument, boxRect)
+{
+    Value = "Type your content here..."
+};
+pdfDocument.Form.Add(placeholderField);
+
+//ExStep:3-
+ITaggedContent taggedContent = pdfDocument.TaggedContent;
+StructureElement structureRoot = taggedContent.RootElement;
+FormElement logicalFormElement = taggedContent.CreateFormElement();
+structureRoot.AppendChild(logicalFormElement);
+logicalFormElement.Tag(placeholderField);
+
+//ExStep:4-
+pdfDocument.Save(resultPath);
+}
+
+//ExStep:5-
+Console.WriteLine($"PDF with form field saved to '{resultPath}'.");
+//ExEnd

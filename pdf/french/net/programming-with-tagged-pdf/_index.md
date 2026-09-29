@@ -18,6 +18,12 @@
 Les tutoriels « Programmation avec des PDF balisés » d'Aspose.PDF pour .NET vous guident dans l'utilisation de cette bibliothèque pour manipuler et générer des PDF balisés. Apprenez à créer des structures de contenu, à gérer les éléments balisés, à valider la conformité PDF/UA et à améliorer l'accessibilité des documents PDF. Ces tutoriels vous offrent une compréhension approfondie de la programmation avec des PDF balisés et vous aident à exploiter pleinement la puissance d'Aspose.PDF pour .NET.
 
 ## Tutoriels
+
+{{< tutorial-card link="./add-custom-tag/" title="Ajouter une balise personnalisée à un paragraphe PDF avec Aspose.PDF for .NET" imgSrc="./add-custom-tag/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-external-link/" title="Ajouter un lien externe balisé avec infobulle au PDF à l'aide d'Aspose.Pdf pour .NET" imgSrc="./add-external-link/images/thumb.png" >}}
+
+
 | Titre | Description |
 | --- | --- | 
 | [Accéder aux éléments enfants](./access-children-elements/) | Apprenez à accéder et à modifier les éléments enfants dans les PDF balisés avec Aspose.PDF pour .NET dans ce didacticiel étape par étape. |  

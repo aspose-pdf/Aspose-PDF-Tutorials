@@ -19,6 +19,9 @@ Samouczki Aspose.PDF for .NET „Programming with Forms” to niezbędne zasoby 
 Te samouczki zawierają również szczegółowe przykłady kodu, jasne wyjaśnienia i ilustracje, które ułatwią Ci zrozumienie i naukę. Zostaniesz poprowadzony krok po kroku przez różne etapy programowania formularzy PDF, co pozwoli Ci szybko opanować koncepcje i techniki niezbędne do tworzenia skutecznych i spersonalizowanych interaktywnych formularzy PDF. Niezależnie od tego, czy jesteś początkującym, czy doświadczonym programistą, te samouczki pomogą Ci udoskonalić umiejętności programowania formularzy PDF przy użyciu Aspose.PDF dla .NET.
 
 ## Samouczki
+
+{{< tutorial-card link="./add-placeholder-textbox/" title="Utwórz dostępne pole formularza typu pole tekstowe z tekstem zastępczym w PDF przy użyciu Aspose.Pdf for .NET" imgSrc="./add-placeholder-textbox/images/thumb.png" >}}
+
 | Tytuł | Opis |
 | --- | --- | 
 | [Dodaj podpowiedź do pola](./add-tooltip-to-field/) | Dowiedz się, jak dodawać podpowiedzi do pól formularzy w dokumentach PDF przy użyciu Aspose.PDF dla .NET w tym przewodniku krok po kroku. Popraw użyteczność i doświadczenie użytkownika. |  

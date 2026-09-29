@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Hướng dẫn này trình bày cách thêm thẻ tùy chỉnh do người dùng định nghĩa vào một đoạn văn trong PDF bằng cách sử dụng các lớp Document và ITaggedContent.
+//ExStepSummary:0: Xác định tên tệp đầu ra cho PDF được tạo.
+//ExStepSummary:1: Tạo một thể hiện tài liệu PDF trống mới có tên pdfDoc.
+//ExStepSummary:2: Lấy giao diện ITaggedContent từ pdfDoc để làm việc với cấu trúc PDF có thẻ.
+//ExStepSummary:3: Đặt ngôn ngữ của tài liệu thành tiếng Anh (Mỹ) và gán tiêu đề cho siêu dữ liệu khả năng truy cập.
+//ExStepSummary:4: Truy xuất phần tử gốc của cây cấu trúc PDF.
+//ExStepSummary:5: Tạo một phần tử đoạn văn mới, gán cho nó thẻ tùy chỉnh \"MyCustomTag\", và đặt văn bản hiển thị.
+//ExStepSummary:6: Thêm đoạn văn tùy chỉnh vào phần tử cấu trúc gốc, chèn nó vào bố cục tài liệu.
+//ExStepSummary:7: Lưu PDF đã xây dựng vào đường dẫn tệp được lưu trong resultFile và đóng phạm vi tài liệu.
+//ExStepSummary:8: Viết một thông báo console xác nhận vị trí lưu PDF.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+//ExStep:0-
+const string resultFile = "custom_tag_demo.pdf";
+
+//ExStep:1-
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:2-
+ITaggedContent tagged = pdfDoc.TaggedContent;
+
+//ExStep:3-
+tagged.SetLanguage("en-US");
+tagged.SetTitle("Sample PDF Featuring a Custom Paragraph Tag");
+
+//ExStep:4-
+StructureElement rootElement = tagged.RootElement;
+
+//ExStep:5-
+ParagraphElement customParagraph = tagged.CreateParagraphElement();
+customParagraph.SetTag("MyCustomTag");
+customParagraph.SetText("The following paragraph demonstrates the use of a user‑defined tag.");
+
+//ExStep:6-
+rootElement.AppendChild(customParagraph);
+
+//ExStep:7-
+pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"PDF saved to '{resultFile}'.");
+//ExEnd

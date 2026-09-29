@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: يوضح هذا البرنامج التعليمي كيفية فتح ملف PDF موجود باستخدام Aspose.Pdf، وإنشاء ارتباط خارجي معلم يتضمن نصًا عرضيًا وعنوانًا لتلميح الأدوات، وإدراجه في الهيكل المنطقي للمستند، وحفظ الملف المعدل.
+//ExStepSummary:0: حدد المسارات لملف PDF المصدر وملف النتيجة.
+//ExStepSummary:1: تحقق من وجود ملف PDF المصدر وأوقف التنفيذ إذا تعذر العثور عليه.
+//ExStepSummary:2: افتح مستند PDF داخل كتلة using لضمان التخلص السليم.
+//ExStepSummary:3: احصل على مدير المحتوى المعلم للمستند المفتوح.
+//ExStepSummary:4: عيّن لغة المستند إلى الإنجليزية (US) وأعطِ ملف PDF عنوانًا مشتقًا من اسم الملف.
+//ExStepSummary:5: استرجع العنصر الجذر لشجرة الهيكل المنطقي الذي ستُضاف إليه العناصر الجديدة.
+//ExStepSummary:6: أنشئ عنصر رابط، عيّن نصه المعروض، وعنوان URL الهدف، وعنوان تلميح الأدوات، ثم أدخله في هيكل المستند.
+//ExStepSummary:7: احفظ ملف PDF المحدث إلى ملف النتيجة المحدد.
+//ExStepSummary:8: اعرض رسالة تأكيد تشير إلى مكان حفظ ملف PDF المعدل.
+//ExStep:0-
+const string sourceFile = "source.pdf";
+const string resultFile = "result_with_external_link.pdf";
+
+//ExStep:1-
+if (!File.Exists(sourceFile))
+{
+    Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+    return;
+}
+
+//ExStep:2-
+using (Document pdfDoc = new Document(sourceFile))
+{
+
+//ExStep:3-
+    ITaggedContent taggedContent = pdfDoc.TaggedContent;
+
+//ExStep:4-
+    taggedContent.SetLanguage("en-US");
+    taggedContent.SetTitle(Path.GetFileNameWithoutExtension(sourceFile));
+
+//ExStep:5-
+    StructureElement rootElement = taggedContent.RootElement;
+
+//ExStep:6-
+    LinkElement externalLink = taggedContent.CreateLinkElement();
+    externalLink.SetText("Open Aspose PDF library");
+    externalLink.Hyperlink = new WebHyperlink("https://www.example.com/pdf");
+    externalLink.Title = "Example PDF product page";
+    rootElement.AppendChild(externalLink);
+
+//ExStep:7-
+    pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"Modified PDF saved as '{resultFile}'.");
+//ExEnd

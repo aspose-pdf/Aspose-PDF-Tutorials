@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Ten samouczek demonstruje, jak dodać definiowany przez użytkownika niestandardowy znacznik do akapitu w pliku PDF przy użyciu klas Document i ITaggedContent.
+//ExStepSummary:0: Zdefiniuj nazwę pliku wyjściowego dla wygenerowanego PDF.
+//ExStepSummary:1: Utwórz nową pustą instancję dokumentu PDF o nazwie pdfDoc.
+//ExStepSummary:2: Uzyskaj interfejs ITaggedContent z obiektu pdfDoc, aby pracować ze strukturami PDF oznaczonymi tagami.
+//ExStepSummary:3: Ustaw język dokumentu na English (US) i przypisz tytuł dla metadanych dostępności.
+//ExStepSummary:4: Pobierz element główny drzewa struktury PDF.
+//ExStepSummary:5: Utwórz nowy element akapitu, przypisz mu niestandardowy znacznik "MyCustomTag" i ustaw wyświetlany tekst.
+//ExStepSummary:6: Dołącz niestandardowy akapit do elementu struktury głównej, wstawiając go do układu dokumentu.
+//ExStepSummary:7: Zapisz skonstruowany PDF pod ścieżką pliku przechowywaną w resultFile i zamknij zakres dokumentu.
+//ExStepSummary:8: Wypisz komunikat w konsoli potwierdzający, gdzie został zapisany PDF.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+//ExStep:0-
+const string resultFile = "custom_tag_demo.pdf";
+
+//ExStep:1-
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:2-
+ITaggedContent tagged = pdfDoc.TaggedContent;
+
+//ExStep:3-
+tagged.SetLanguage("en-US");
+tagged.SetTitle("Sample PDF Featuring a Custom Paragraph Tag");
+
+//ExStep:4-
+StructureElement rootElement = tagged.RootElement;
+
+//ExStep:5-
+ParagraphElement customParagraph = tagged.CreateParagraphElement();
+customParagraph.SetTag("MyCustomTag");
+customParagraph.SetText("The following paragraph demonstrates the use of a user‑defined tag.");
+
+//ExStep:6-
+rootElement.AppendChild(customParagraph);
+
+//ExStep:7-
+pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"PDF saved to '{resultFile}'.");
+//ExEnd

@@ -21,6 +21,9 @@ Tutorial ini juga menyediakan contoh kode terperinci, penjelasan yang jelas, dan
 ## Tutorial
 | Judul | Deskripsi |
 Bahasa Indonesia: --- | --- Bahasa Indonesia: 
+
+{{< tutorial-card link="./add-placeholder-textbox/" title="Buat Formulir Kotak Teks Placeholder yang Aksesibel dalam PDF dengan Aspose.Pdf for .NET" imgSrc="./add-placeholder-textbox/images/thumb.png" >}}
+
 | [Tambahkan Tooltip ke Bidang](./add-tooltip-to-field/) | Pelajari cara menambahkan tooltip ke kolom formulir dalam dokumen PDF menggunakan Aspose.PDF for .NET dalam panduan langkah demi langkah ini. Tingkatkan kegunaan dan pengalaman pengguna. Bahasa Indonesia:  
 | [Pengisian Teks Bahasa Arab](./arabic-text-filling/) | Pelajari cara mengisi teks Arab dalam formulir PDF menggunakan Aspose.PDF for .NET dengan tutorial langkah demi langkah ini. Tingkatkan keterampilan manipulasi PDF Anda. Bahasa Indonesia:  
 | [Kotak Kombo](./combo-box/) Pelajari cara menambahkan Kotak Kombo ke PDF menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah kami untuk membuat formulir PDF interaktif dengan mudah. Bahasa Indonesia:  

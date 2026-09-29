@@ -20,6 +20,12 @@ Aspose.PDF for .NET 的“使用标签 PDF 进行编程”教程将指导您如�
 ## 教程
 
 标题 | 描述 |
+
+{{< tutorial-card link="./add-custom-tag/" title="使用 Aspose.PDF for .NET 向 PDF 段落添加自定义标签" imgSrc="./add-custom-tag/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-external-link/" title="使用 Aspose.Pdf for .NET 向 PDF 添加带工具提示的标记外部链接" imgSrc="./add-external-link/images/thumb.png" >}}
+
+
 | --- | --- | 
 | [访问子元素](./access-children-elements/) 在本分步教程中了解如何使用 Aspose.PDF for .NET 访问和修改带标签的 PDF 中的子元素。|  
 | [将结构元素添加到元素中](./add-structure-element-into-element/) 在本全面的分步教程中了解如何使用 Aspose.PDF for .NET 将可访问性结构元素添加到 PDF 中。|  

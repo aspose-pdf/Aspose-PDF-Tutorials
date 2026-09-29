@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Ez a bemutató azt mutatja be, hogyan lehet felhasználó által definiált egyéni címkét hozzáadni egy bekezdéshez egy PDF-ben a Document és ITaggedContent osztályok használatával.
+//ExStepSummary:0: Határozza meg a kimeneti fájl nevét a létrehozott PDF-hez.
+//ExStepSummary:1: Hozzon létre egy új, üres PDF dokumentum példányt pdfDoc néven.
+//ExStepSummary:2: Szerezze meg az ITaggedContent interfészt a pdfDoc‑ból, hogy a címkézett PDF struktúrákkal dolgozhasson.
+//ExStepSummary:3: Állítsa be a dokumentum nyelvét angolra (US), és adjon meg egy címet a hozzáférhetőségi metaadatokhoz.
+//ExStepSummary:4: Hozza vissza a PDF struktúrafa gyökérelemét.
+//ExStepSummary:5: Hozzon létre egy új bekezdés elemet, rendelje hozzá a \"MyCustomTag\" egyéni címkét, és állítsa be a megjelenített szöveget.
+//ExStepSummary:6: Fűzze hozzá az egyéni bekezdést a gyökér struktúraelemhez, így beillesztve azt a dokumentum elrendezésébe.
+//ExStepSummary:7: Mentse el a létrehozott PDF-et a resultFile változóban tárolt fájlútvonalra, és zárja le a dokumentum hatókörét.
+//ExStepSummary:8: Írjon ki egy konzolüzenetet, amely megerősíti, hogy hová lett mentve a PDF.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+//ExStep:0-
+const string resultFile = "custom_tag_demo.pdf";
+
+//ExStep:1-
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:2-
+ITaggedContent tagged = pdfDoc.TaggedContent;
+
+//ExStep:3-
+tagged.SetLanguage("en-US");
+tagged.SetTitle("Sample PDF Featuring a Custom Paragraph Tag");
+
+//ExStep:4-
+StructureElement rootElement = tagged.RootElement;
+
+//ExStep:5-
+ParagraphElement customParagraph = tagged.CreateParagraphElement();
+customParagraph.SetTag("MyCustomTag");
+customParagraph.SetText("The following paragraph demonstrates the use of a user‑defined tag.");
+
+//ExStep:6-
+rootElement.AppendChild(customParagraph);
+
+//ExStep:7-
+pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"PDF saved to '{resultFile}'.");
+//ExEnd

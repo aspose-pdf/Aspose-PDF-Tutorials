@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Questo tutorial dimostra come aggiungere un tag personalizzato definito dall'utente a un paragrafo in un PDF utilizzando le classi Document e ITaggedContent.
+//ExStepSummary:0: Definisci il nome del file di output per il PDF generato.
+//ExStepSummary:1: Crea una nuova istanza vuota di documento PDF chiamata pdfDoc.
+//ExStepSummary:2: Ottieni l'interfaccia ITaggedContent da pdfDoc per lavorare con le strutture PDF taggate.
+//ExStepSummary:3: Imposta la lingua del documento su English (US) e assegna un titolo per i metadati di accessibilità.
+//ExStepSummary:4: Recupera l'elemento radice dell'albero di struttura del PDF.
+//ExStepSummary:5: Crea un nuovo elemento paragrafo, assegnagli un tag personalizzato "MyCustomTag" e imposta il testo visualizzato.
+//ExStepSummary:6: Aggiungi il paragrafo personalizzato all'elemento di struttura radice, inserendolo nel layout del documento.
+//ExStepSummary:7: Salva il PDF costruito nel percorso file memorizzato in resultFile e chiudi lo scope del documento.
+//ExStepSummary:8: Scrivi un messaggio sulla console che conferma dove è stato salvato il PDF.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+//ExStep:0-
+const string resultFile = "custom_tag_demo.pdf";
+
+//ExStep:1-
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:2-
+ITaggedContent tagged = pdfDoc.TaggedContent;
+
+//ExStep:3-
+tagged.SetLanguage("en-US");
+tagged.SetTitle("Sample PDF Featuring a Custom Paragraph Tag");
+
+//ExStep:4-
+StructureElement rootElement = tagged.RootElement;
+
+//ExStep:5-
+ParagraphElement customParagraph = tagged.CreateParagraphElement();
+customParagraph.SetTag("MyCustomTag");
+customParagraph.SetText("The following paragraph demonstrates the use of a user‑defined tag.");
+
+//ExStep:6-
+rootElement.AppendChild(customParagraph);
+
+//ExStep:7-
+pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"PDF saved to '{resultFile}'.");
+//ExEnd

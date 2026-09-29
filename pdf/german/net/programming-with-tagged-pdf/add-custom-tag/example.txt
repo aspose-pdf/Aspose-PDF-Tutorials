@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Dieses Tutorial zeigt, wie man einem Absatz in einem PDF ein benutzerdefiniertes Tag hinzufügt, indem man die Document- und ITaggedContent-Klassen verwendet.
+//ExStepSummary:0: Definieren Sie den Ausgabedateinamen für das erzeugte PDF.
+//ExStepSummary:1: Erstellen Sie eine neue leere PDF-Dokumentinstanz mit dem Namen pdfDoc.
+//ExStepSummary:2: Holen Sie die ITaggedContent-Schnittstelle von pdfDoc, um mit getaggten PDF-Strukturen zu arbeiten.
+//ExStepSummary:3: Setzen Sie die Sprache des Dokuments auf Englisch (US) und weisen Sie einen Titel für die Barrierefreiheits-Metadaten zu.
+//ExStepSummary:4: Rufen Sie das Wurzelelement des Strukturbaums des PDFs ab.
+//ExStepSummary:5: Erstellen Sie ein neues Absatz-Element, weisen Sie ihm das benutzerdefinierte Tag "MyCustomTag" zu und setzen Sie dessen angezeigten Text.
+//ExStepSummary:6: Fügen Sie den benutzerdefinierten Absatz dem Wurzel-Strukturelement hinzu und integrieren Sie ihn in das Dokumentlayout.
+//ExStepSummary:7: Speichern Sie das erstellte PDF im Dateipfad, der in resultFile gespeichert ist, und schließen Sie den Dokumentbereich.
+//ExStepSummary:8: Geben Sie eine Konsolennachricht aus, die bestätigt, wo das PDF gespeichert wurde.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+//ExStep:0-
+const string resultFile = "custom_tag_demo.pdf";
+
+//ExStep:1-
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:2-
+ITaggedContent tagged = pdfDoc.TaggedContent;
+
+//ExStep:3-
+tagged.SetLanguage("en-US");
+tagged.SetTitle("Sample PDF Featuring a Custom Paragraph Tag");
+
+//ExStep:4-
+StructureElement rootElement = tagged.RootElement;
+
+//ExStep:5-
+ParagraphElement customParagraph = tagged.CreateParagraphElement();
+customParagraph.SetTag("MyCustomTag");
+customParagraph.SetText("The following paragraph demonstrates the use of a user‑defined tag.");
+
+//ExStep:6-
+rootElement.AppendChild(customParagraph);
+
+//ExStep:7-
+pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"PDF saved to '{resultFile}'.");
+//ExEnd

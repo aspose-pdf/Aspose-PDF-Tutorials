@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: यह ट्यूटोरियल दर्शाता है कि Aspose.Pdf for .NET लाइब्रेरी का उपयोग करके PDF दस्तावेज़ में एक प्लेसहोल्डर टेक्स्टबॉक्स फ़ॉर्म फ़ील्ड कैसे जोड़ें और उसे एक्सेसिबिलिटी के लिए टैग करें।
+//ExStepSummary:0: इनपुट और आउटपुट फ़ाइल पथ निर्धारित करें और सत्यापित करें कि स्रोत PDF मौजूद है।
+//ExStepSummary:1: मौजूदा PDF फ़ाइल खोलें और काम करने के लिए एक Document ऑब्जेक्ट बनाएं।
+//ExStepSummary:2: पहले पृष्ठ पर एक TextBoxField डालें, उसका प्लेसहोल्डर टेक्स्ट सेट करें, और उसे फ़ॉर्म कलेक्शन में जोड़ें।
+//ExStepSummary:3: एक लॉजिकल /Form स्ट्रक्चर एलिमेंट बनाएं, उसे टैग्ड कंटेंट ट्री से जोड़ें, और उसे टेक्स्टबॉक्स फ़ील्ड के साथ संबद्ध करें।
+//ExStepSummary:4: परिवर्तित PDF को निर्दिष्ट आउटपुट फ़ाइल में सहेजें और दस्तावेज़ को बंद करें।
+//ExStepSummary:5: कंसोल में एक पुष्टि संदेश लिखें जो दर्शाता है कि नया PDF कहाँ सहेजा गया।
+//ExStep:0-
+const string sourcePath = "sample_input.pdf";
+const string resultPath = "sample_output.pdf";
+
+if (!File.Exists(sourcePath))
+{
+    Console.Error.WriteLine($"File not found: {sourcePath}");
+    return;
+}
+
+//ExStep:1-
+using (Document pdfDocument = new Document(sourcePath))
+{
+
+//ExStep:2-
+Page firstPage = pdfDocument.Pages[1];
+Aspose.Pdf.Rectangle boxRect = new Aspose.Pdf.Rectangle(100, 600, 300, 630);
+TextBoxField placeholderField = new TextBoxField(pdfDocument, boxRect)
+{
+    Value = "Type your content here..."
+};
+pdfDocument.Form.Add(placeholderField);
+
+//ExStep:3-
+ITaggedContent taggedContent = pdfDocument.TaggedContent;
+StructureElement structureRoot = taggedContent.RootElement;
+FormElement logicalFormElement = taggedContent.CreateFormElement();
+structureRoot.AppendChild(logicalFormElement);
+logicalFormElement.Tag(placeholderField);
+
+//ExStep:4-
+pdfDocument.Save(resultPath);
+}
+
+//ExStep:5-
+Console.WriteLine($"PDF with form field saved to '{resultPath}'.");
+//ExEnd

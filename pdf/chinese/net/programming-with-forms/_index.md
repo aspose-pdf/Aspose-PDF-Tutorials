@@ -20,6 +20,9 @@ Aspose.PDF for .NET“表单编程”教程是开发人员创建和操作交互�
 
 ## 教程
 标题 | 描述 |
+
+{{< tutorial-card link="./add-placeholder-textbox/" title="使用 Aspose.Pdf for .NET 在 PDF 中创建可访问的占位符文本框表单字段" imgSrc="./add-placeholder-textbox/images/thumb.png" >}}
+
 | --- | --- | 
 | [向字段添加工具提示](./add-tooltip-to-field/) 在本分步指南中学习如何使用 Aspose.PDF for .NET 向 PDF 文档中的表单字段添加工具提示。提高可用性和用户体验。|  
 | [阿拉伯语文本填充](./arabic-text-filling/) 通过本分步教程学习如何使用 Aspose.PDF for .NET 在 PDF 表单中填充阿拉伯语文本。提升您的 PDF 操作技能。|  

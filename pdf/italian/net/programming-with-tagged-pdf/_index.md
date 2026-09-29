@@ -18,6 +18,12 @@
 tutorial "Programmazione con PDF con tag" di Aspose.PDF per .NET ti guideranno nell'utilizzo di questa libreria per manipolare e generare PDF con tag. Scopri come creare strutture di contenuto, gestire elementi con tag, convalidare la conformità PDF/UA e migliorare l'accessibilità dei documenti PDF. Questi tutorial offrono una comprensione approfondita della programmazione con PDF con tag e ti aiutano a sfruttare al meglio la potenza di Aspose.PDF per .NET.
 
 ## Tutorial
+
+{{< tutorial-card link="./add-custom-tag/" title="Aggiungi un Tag Personalizzato a un Paragrafo PDF Utilizzando Aspose.PDF per .NET" imgSrc="./add-custom-tag/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-external-link/" title="Aggiungi un collegamento esterno taggato con tooltip al PDF usando Aspose.Pdf per .NET" imgSrc="./add-external-link/images/thumb.png" >}}
+
+
 | Titolo | Descrizione |
 | --- | --- | 
 | [Accedi agli elementi figlio](./access-children-elements/) | Scopri come accedere e modificare gli elementi figlio nei PDF taggati con Aspose.PDF per .NET in questo tutorial passo passo.  

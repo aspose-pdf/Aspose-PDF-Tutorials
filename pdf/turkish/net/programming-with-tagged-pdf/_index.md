@@ -18,6 +18,12 @@
 Aspose.PDF for .NET'in "Etiketli PDF'lerle Programlama" öğreticileri, bu kitaplığı kullanarak etiketli PDF'leri düzenleme ve oluşturma konusunda size yol gösterir. İçerik yapıları oluşturmayı, etiketli öğeleri yönetmeyi, PDF/UA uyumluluğunu doğrulamayı ve PDF belgelerinin erişilebilirliğini iyileştirmeyi öğrenin. Bu öğreticiler, etiketli PDF'lerle programlama konusunda derinlemesine bir anlayış sağlar ve Aspose.PDF for .NET'in gücünden en iyi şekilde yararlanmanıza yardımcı olur.
 
 ## Eğitimler
+
+{{< tutorial-card link="./add-custom-tag/" title="Aspose.PDF for .NET kullanarak bir PDF Paragrafına Özel Etiket Ekleme" imgSrc="./add-custom-tag/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-external-link/" title="Aspose.Pdf for .NET kullanarak PDF'ye araç ipucu ile etiketli dış bağlantı ekleyin" imgSrc="./add-external-link/images/thumb.png" >}}
+
+
 | Başlık | Açıklama |
 | --- | --- | 
 | [Çocuk Öğelerine Erişim](./access-children-elements/) | Bu adım adım eğitimde, Aspose.PDF for .NET ile etiketli PDF'lerdeki alt öğelere nasıl erişeceğinizi ve bunları nasıl değiştireceğinizi öğrenin.  

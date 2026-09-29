@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary: Den här handledningen visar hur man öppnar en befintlig PDF med Aspose.Pdf, skapar en taggad extern hyperlänk som inkluderar visningstext och en verktygstipsrubrik, infogar den i dokumentets logiska struktur och sparar den ändrade filen.
+//ExStepSummary:0: Definiera sökvägarna för käll-PDF:en och resultatfilen.
+//ExStepSummary:1: Kontrollera att käll-PDF:en finns och avbryt om den inte kan hittas.
+//ExStepSummary:2: Öppna PDF-dokumentet inom ett using‑block för att säkerställa korrekt resurshantering.
+//ExStepSummary:3: Hämta den taggade innehållshanteraren för det öppnade dokumentet.
+//ExStepSummary:4: Ställ in dokumentets språk till English (US) och ge PDF:en en titel som härrör från filnamnet.
+//ExStepSummary:5: Hämta rot‑elementet i det logiska strukturtträdet som nya element kommer att läggas till.
+//ExStepSummary:6: Skapa ett länkelement, ange dess visningstext, mål‑URL och verktygstipsrubrik, och infoga det i dokumentets struktur.
+//ExStepSummary:7: Spara den uppdaterade PDF:en till den angivna resultatfilen.
+//ExStepSummary:8: Skriv ut ett bekräftelsemeddelande som anger var den modifierade PDF:en sparades.
+//ExStep:0-
+const string sourceFile = "source.pdf";
+const string resultFile = "result_with_external_link.pdf";
+
+//ExStep:1-
+if (!File.Exists(sourceFile))
+{
+    Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+    return;
+}
+
+//ExStep:2-
+using (Document pdfDoc = new Document(sourceFile))
+{
+
+//ExStep:3-
+    ITaggedContent taggedContent = pdfDoc.TaggedContent;
+
+//ExStep:4-
+    taggedContent.SetLanguage("en-US");
+    taggedContent.SetTitle(Path.GetFileNameWithoutExtension(sourceFile));
+
+//ExStep:5-
+    StructureElement rootElement = taggedContent.RootElement;
+
+//ExStep:6-
+    LinkElement externalLink = taggedContent.CreateLinkElement();
+    externalLink.SetText("Open Aspose PDF library");
+    externalLink.Hyperlink = new WebHyperlink("https://www.example.com/pdf");
+    externalLink.Title = "Example PDF product page";
+    rootElement.AppendChild(externalLink);
+
+//ExStep:7-
+    pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"Modified PDF saved as '{resultFile}'.");
+//ExEnd

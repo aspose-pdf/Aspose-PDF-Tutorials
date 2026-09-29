@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: यह ट्यूटोरियल दिखाता है कि कैसे Document और ITaggedContent क्लासेज़ का उपयोग करके PDF में एक पैराग्राफ में उपयोगकर्ता‑परिभाषित कस्टम टैग जोड़ा जाए।
+//ExStepSummary:0: जनरेटेड PDF के लिए आउटपुट फ़ाइल का नाम निर्धारित करें।
+//ExStepSummary:1: pdfDoc नामक एक नया खाली PDF दस्तावेज़ इंस्टेंस बनाएं।
+//ExStepSummary:2: टैग्ड PDF संरचनाओं के साथ काम करने के लिए pdfDoc से ITaggedContent इंटरफ़ेस प्राप्त करें।
+//ExStepSummary:3: दस्तावेज़ की भाषा को English (US) सेट करें और एक्सेसिबिलिटी मेटाडेटा के लिए एक शीर्षक असाइन करें।
+//ExStepSummary:4: PDF की स्ट्रक्चर ट्री का रूट एलिमेंट प्राप्त करें।
+//ExStepSummary:5: एक नया पैराग्राफ एलिमेंट बनाएं, उसे कस्टम टैग \"MyCustomTag\" असाइन करें, और उसका प्रदर्शित टेक्स्ट सेट करें।
+//ExStepSummary:6: कस्टम पैराग्राफ को रूट स्ट्रक्चर एलिमेंट में जोड़ें, जिससे वह दस्तावेज़ लेआउट में सम्मिलित हो जाए।
+//ExStepSummary:7: निर्मित PDF को resultFile में संग्रहीत फ़ाइल पाथ पर सहेजें और दस्तावेज़ स्कोप को बंद करें।
+//ExStepSummary:8: कंसोल पर एक संदेश लिखें जो पुष्टि करे कि PDF कहाँ सहेजा गया है।
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+//ExStep:0-
+const string resultFile = "custom_tag_demo.pdf";
+
+//ExStep:1-
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:2-
+ITaggedContent tagged = pdfDoc.TaggedContent;
+
+//ExStep:3-
+tagged.SetLanguage("en-US");
+tagged.SetTitle("Sample PDF Featuring a Custom Paragraph Tag");
+
+//ExStep:4-
+StructureElement rootElement = tagged.RootElement;
+
+//ExStep:5-
+ParagraphElement customParagraph = tagged.CreateParagraphElement();
+customParagraph.SetTag("MyCustomTag");
+customParagraph.SetText("The following paragraph demonstrates the use of a user‑defined tag.");
+
+//ExStep:6-
+rootElement.AppendChild(customParagraph);
+
+//ExStep:7-
+pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"PDF saved to '{resultFile}'.");
+//ExEnd

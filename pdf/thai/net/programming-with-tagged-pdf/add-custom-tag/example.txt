@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: บทแนะนำนี้แสดงวิธีการเพิ่มแท็กกำหนดเองที่ผู้ใช้กำหนดไว้ให้กับย่อหน้าหนึ่งใน PDF โดยใช้คลาส Document และ ITaggedContent
+//ExStepSummary:0: กำหนดชื่อไฟล์ผลลัพธ์สำหรับ PDF ที่สร้างขึ้น
+//ExStepSummary:1: สร้างอินสแตนซ์เอกสาร PDF ว่างใหม่ชื่อ pdfDoc
+//ExStepSummary:2: รับอินเทอร์เฟซ ITaggedContent จาก pdfDoc เพื่อทำงานกับโครงสร้าง PDF ที่มีแท็ก
+//ExStepSummary:3: ตั้งค่าภาษาของเอกสารเป็น English (US) และกำหนดชื่อเรื่องสำหรับเมตาดาต้าเพื่อการเข้าถึง
+//ExStepSummary:4: ดึงเอาองค์ประกอบรากของโครงสร้างต้นไม้ PDF
+//ExStepSummary:5: สร้างองค์ประกอบย่อหน้าใหม่ กำหนดแท็กกำหนดเอง \"MyCustomTag\" และตั้งค่าข้อความที่จะแสดง
+//ExStepSummary:6: เพิ่มย่อหน้าแบบกำหนดเองเข้าไปยังองค์ประกอบโครงสร้างราก เพื่อแทรกลงในเลย์เอาต์ของเอกสาร
+//ExStepSummary:7: บันทึก PDF ที่สร้างขึ้นไปยังเส้นทางไฟล์ที่เก็บไว้ใน resultFile และปิดขอบเขตของเอกสาร
+//ExStepSummary:8: เขียนข้อความในคอนโซลเพื่อยืนยันว่าบันทึก PDF ไว้ที่ใด
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+//ExStep:0-
+const string resultFile = "custom_tag_demo.pdf";
+
+//ExStep:1-
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:2-
+ITaggedContent tagged = pdfDoc.TaggedContent;
+
+//ExStep:3-
+tagged.SetLanguage("en-US");
+tagged.SetTitle("Sample PDF Featuring a Custom Paragraph Tag");
+
+//ExStep:4-
+StructureElement rootElement = tagged.RootElement;
+
+//ExStep:5-
+ParagraphElement customParagraph = tagged.CreateParagraphElement();
+customParagraph.SetTag("MyCustomTag");
+customParagraph.SetText("The following paragraph demonstrates the use of a user‑defined tag.");
+
+//ExStep:6-
+rootElement.AppendChild(customParagraph);
+
+//ExStep:7-
+pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"PDF saved to '{resultFile}'.");
+//ExEnd

@@ -20,6 +20,12 @@
 ## บทช่วยสอน
 | ชื่อเรื่อง | คำอธิบาย |
 - 
+
+{{< tutorial-card link="./add-custom-tag/" title="เพิ่มแท็กกำหนดเองให้กับย่อหน้า PDF ด้วย Aspose.PDF for .NET" imgSrc="./add-custom-tag/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-external-link/" title="เพิ่ม Tagged External Link พร้อม Tooltip ลงใน PDF ด้วย Aspose.Pdf for .NET" imgSrc="./add-external-link/images/thumb.png" >}}
+
+
 - [เข้าถึงองค์ประกอบเด็ก](./access-children-elements/) | เรียนรู้วิธีการเข้าถึงและแก้ไของค์ประกอบย่อยใน PDF ที่แท็กด้วย Aspose.PDF สำหรับ .NET ในบทช่วยสอนทีละขั้นตอนนี้  
 - [เพิ่มองค์ประกอบโครงสร้างลงในองค์ประกอบ](./add-structure-element-into-element/) | เรียนรู้วิธีการเพิ่มองค์ประกอบโครงสร้างการเข้าถึงลงใน PDF โดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนทีละขั้นตอนที่ครอบคลุมนี้  
 - [สร้างองค์ประกอบโครงสร้างบันทึก](./create-note-structure-element/) เรียนรู้การสร้างองค์ประกอบโครงสร้างบันทึกใน PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านทางบทช่วยสอนทีละขั้นตอนโดยละเอียดนี้ -  

@@ -19,6 +19,9 @@ The Aspose.PDF for .NET "Programming with Forms" tutorials are essential resourc
 These tutorials also provide detailed code examples, clear explanations, and illustrations to make it easier for you to understand and learn. You will be guided step by step through the various steps of programming with PDF forms, allowing you to quickly master the concepts and techniques necessary to create effective and personalized interactive PDF forms. Whether you are a beginner or an experienced developer, these tutorials will help you improve your programming skills with PDF forms using Aspose.PDF for .NET.
 
 ## Tutorials
+
+{{< tutorial-card link="./add-placeholder-textbox/" title="Create an Accessible Placeholder Textbox Form Field in PDF with Aspose.Pdf for .NET" imgSrc="./add-placeholder-textbox/images/thumb.png" >}}
+
 | Title | Description |
 | --- | --- | 
 | [Add Tooltip To Field](./add-tooltip-to-field/) | Learn how to add tooltips to form fields in PDF documents using Aspose.PDF for .NET in this step-by-step guide. Improve usability and user experience. |  

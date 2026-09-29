@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Dieses Tutorial demonstriert, wie man ein Platzhalter‑Textbox‑Formularfeld zu einem PDF‑Dokument hinzufügt und es für Barrierefreiheit mit der Aspose.Pdf for .NET‑Bibliothek taggt.
+//ExStepSummary:0: Definieren Sie die Eingabe‑ und Ausgabepfade und prüfen Sie, ob das Quell‑PDF existiert.
+//ExStepSummary:1: Öffnen Sie die vorhandene PDF‑Datei und erstellen Sie ein Document‑Objekt, mit dem Sie arbeiten können.
+//ExStepSummary:2: Fügen Sie ein TextBoxField auf der ersten Seite ein, setzen Sie dessen Platzhaltertext und fügen Sie es zur Form‑Sammlung hinzu.
+//ExStepSummary:3: Erstellen Sie ein logisches /Form‑Strukturelement, hängen Sie es an den getaggten Inhaltsbaum an und verknüpfen Sie es mit dem textbox field.
+//ExStepSummary:4: Speichern Sie das modifizierte PDF in der angegebenen Ausgabedatei und schließen Sie das Dokument.
+//ExStepSummary:5: Schreiben Sie eine Bestätigungsnachricht in die Konsole, die angibt, wo das neue PDF gespeichert wurde.
+//ExStep:0-
+const string sourcePath = "sample_input.pdf";
+const string resultPath = "sample_output.pdf";
+
+if (!File.Exists(sourcePath))
+{
+    Console.Error.WriteLine($"File not found: {sourcePath}");
+    return;
+}
+
+//ExStep:1-
+using (Document pdfDocument = new Document(sourcePath))
+{
+
+//ExStep:2-
+Page firstPage = pdfDocument.Pages[1];
+Aspose.Pdf.Rectangle boxRect = new Aspose.Pdf.Rectangle(100, 600, 300, 630);
+TextBoxField placeholderField = new TextBoxField(pdfDocument, boxRect)
+{
+    Value = "Type your content here..."
+};
+pdfDocument.Form.Add(placeholderField);
+
+//ExStep:3-
+ITaggedContent taggedContent = pdfDocument.TaggedContent;
+StructureElement structureRoot = taggedContent.RootElement;
+FormElement logicalFormElement = taggedContent.CreateFormElement();
+structureRoot.AppendChild(logicalFormElement);
+logicalFormElement.Tag(placeholderField);
+
+//ExStep:4-
+pdfDocument.Save(resultPath);
+}
+
+//ExStep:5-
+Console.WriteLine($"PDF with form field saved to '{resultPath}'.");
+//ExEnd

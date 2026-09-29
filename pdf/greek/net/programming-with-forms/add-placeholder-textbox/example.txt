@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Αυτό το σεμινάριο δείχνει πώς να προσθέσετε ένα πεδίο φόρμας κειμενοπλαισίου με placeholder σε ένα έγγραφο PDF και να το επισημάνετε για προσβασιμότητα χρησιμοποιώντας τη βιβλιοθήκη Aspose.Pdf for .NET.
+//ExStepSummary:0: Ορίστε τις διαδρομές αρχείων εισόδου και εξόδου και επαληθεύστε ότι το πηγαίο PDF υπάρχει.
+//ExStepSummary:1: Ανοίξτε το υπάρχον αρχείο PDF και δημιουργήστε ένα αντικείμενο Document για να εργαστείτε.
+//ExStepSummary:2: Εισάγετε ένα TextBoxField στην πρώτη σελίδα, ορίστε το κείμενο placeholder και προσθέστε το στη συλλογή φόρμας.
+//ExStepSummary:3: Δημιουργήστε ένα λογικό στοιχείο δομής /Form, συνδέστε το με το δέντρο ετικετοποιημένου περιεχομένου και συσχετίστε το με το πεδίο κειμενοπλαισίου.
+//ExStepSummary:4: Αποθηκεύστε το τροποποιημένο PDF στο καθορισμένο αρχείο εξόδου και κλείστε το έγγραφο.
+//ExStepSummary:5: Γράψτε ένα μήνυμα επιβεβαίωσης στην κονσόλα που να υποδεικνύει πού αποθηκεύτηκε το νέο PDF.
+//ExStep:0-
+const string sourcePath = "sample_input.pdf";
+const string resultPath = "sample_output.pdf";
+
+if (!File.Exists(sourcePath))
+{
+    Console.Error.WriteLine($"File not found: {sourcePath}");
+    return;
+}
+
+//ExStep:1-
+using (Document pdfDocument = new Document(sourcePath))
+{
+
+//ExStep:2-
+Page firstPage = pdfDocument.Pages[1];
+Aspose.Pdf.Rectangle boxRect = new Aspose.Pdf.Rectangle(100, 600, 300, 630);
+TextBoxField placeholderField = new TextBoxField(pdfDocument, boxRect)
+{
+    Value = "Type your content here..."
+};
+pdfDocument.Form.Add(placeholderField);
+
+//ExStep:3-
+ITaggedContent taggedContent = pdfDocument.TaggedContent;
+StructureElement structureRoot = taggedContent.RootElement;
+FormElement logicalFormElement = taggedContent.CreateFormElement();
+structureRoot.AppendChild(logicalFormElement);
+logicalFormElement.Tag(placeholderField);
+
+//ExStep:4-
+pdfDocument.Save(resultPath);
+}
+
+//ExStep:5-
+Console.WriteLine($"PDF with form field saved to '{resultPath}'.");
+//ExEnd

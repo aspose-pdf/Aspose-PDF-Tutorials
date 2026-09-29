@@ -18,6 +18,12 @@
 Aspose.PDF för .NET:s handledningar "Programmering med taggade PDF-filer" guidar dig genom hur du använder det här biblioteket för att manipulera och generera taggade PDF-filer. Lär dig hur du skapar innehållsstrukturer, hanterar taggade element, validerar PDF/UA-kompatibilitet och förbättrar tillgängligheten för PDF-dokument. Dessa handledningar ger dig en djupgående förståelse för programmering med taggade PDF-filer och hjälper dig att få ut det mesta av kraften i Aspose.PDF för .NET.
 
 ## Handledningar
+
+{{< tutorial-card link="./add-custom-tag/" title="Lägg till anpassad tagg i ett PDF‑stycke med Aspose.PDF för .NET" imgSrc="./add-custom-tag/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-external-link/" title="Lägg till en taggad extern länk med verktygstips i PDF med Aspose.Pdf för .NET" imgSrc="./add-external-link/images/thumb.png" >}}
+
+
 | Titel | Beskrivning |
 | --- | --- | 
 | [Åtkomst till underordnade element](./access-children-elements/) | Lär dig hur du kommer åt och ändrar underordnade element i taggade PDF-filer med Aspose.PDF för .NET i den här steg-för-steg-handledningen. |  

@@ -19,6 +19,9 @@
 Bu eğitimler ayrıca anlamanızı ve öğrenmenizi kolaylaştırmak için ayrıntılı kod örnekleri, net açıklamalar ve çizimler sunar. PDF formlarıyla programlamanın çeşitli adımlarında adım adım yönlendirileceksiniz ve bu sayede etkili ve kişiselleştirilmiş etkileşimli PDF formları oluşturmak için gerekli kavramları ve teknikleri hızla öğrenmenize olanak tanınacaktır. İster yeni başlayan ister deneyimli bir geliştirici olun, bu eğitimler Aspose.PDF for .NET kullanarak PDF formlarıyla programlama becerilerinizi geliştirmenize yardımcı olacaktır.
 
 ## Eğitimler
+
+{{< tutorial-card link="./add-placeholder-textbox/" title="Aspose.Pdf for .NET ile PDF'de Erişilebilir Yer Tutucu Metin Kutusu Form Alanı Oluşturun" imgSrc="./add-placeholder-textbox/images/thumb.png" >}}
+
 | Başlık | Açıklama |
 | --- | --- | 
 | [Alana Araç İpucu Ekle](./add-tooltip-to-field/) | Bu adım adım kılavuzda Aspose.PDF for .NET kullanarak PDF belgelerindeki form alanlarına araç ipuçlarının nasıl ekleneceğini öğrenin. Kullanılabilirliği ve kullanıcı deneyimini geliştirin. |  

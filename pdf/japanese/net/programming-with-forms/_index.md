@@ -20,6 +20,9 @@ Aspose.PDF for .NETの「フォームを使ったプログラミング」チュ�
 
 ## チュートリアル
 タイトル | 説明 |
+
+{{< tutorial-card link="./add-placeholder-textbox/" title="Aspose.Pdf for .NET を使用して、PDF にアクセシブルなプレースホルダー テキストボックス フォーム フィールドを作成する" imgSrc="./add-placeholder-textbox/images/thumb.png" >}}
+
 | --- | --- | 
 | [フィールドにツールチップを追加](./add-tooltip-to-field/) Aspose.PDF for .NET を使用して PDF ドキュメントのフォームフィールドにツールヒントを追加する方法をステップバイステップで解説します。使いやすさとユーザーエクスペリエンスを向上させます。 |  
 | [アラビア語のテキスト入力](./arabic-text-filling/) Aspose.PDF for .NET を使用してPDFフォームにアラビア語テキストを入力する方法をステップバイステップで学ぶチュートリアルです。PDF操作スキルを向上させましょう。 |  

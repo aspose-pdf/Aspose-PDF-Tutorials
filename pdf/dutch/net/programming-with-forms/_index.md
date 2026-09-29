@@ -19,6 +19,9 @@ De Aspose.PDF voor .NET-tutorials "Programming with Forms" zijn essentiële bron
 Deze tutorials bieden ook gedetailleerde codevoorbeelden, duidelijke uitleg en illustraties om het voor u gemakkelijker te maken om te begrijpen en te leren. U wordt stap voor stap door de verschillende stappen van het programmeren met PDF-formulieren geleid, zodat u snel de concepten en technieken onder de knie krijgt die nodig zijn om effectieve en gepersonaliseerde interactieve PDF-formulieren te maken. Of u nu een beginner of een ervaren ontwikkelaar bent, deze tutorials helpen u uw programmeervaardigheden met PDF-formulieren met Aspose.PDF voor .NET te verbeteren.
 
 ## Zelfstudies
+
+{{< tutorial-card link="./add-placeholder-textbox/" title="Maak een toegankelijk placeholder‑tekstvakformulierveld in PDF met Aspose.Pdf for .NET" imgSrc="./add-placeholder-textbox/images/thumb.png" >}}
+
 | Titel | Beschrijving |
 | --- | --- | 
 | [Tooltip toevoegen aan veld](./add-tooltip-to-field/) | Leer in deze stapsgewijze handleiding hoe u tooltips toevoegt aan formuliervelden in PDF-documenten met Aspose.PDF voor .NET. Verbeter de bruikbaarheid en gebruikerservaring. |  

@@ -20,6 +20,12 @@ Tutorial "Pemrograman dengan PDF yang Ditandai" dari Aspose.PDF untuk .NET meman
 ## Tutorial
 | Judul | Deskripsi |
 Bahasa Indonesia: --- | --- Bahasa Indonesia: 
+
+{{< tutorial-card link="./add-custom-tag/" title="Tambahkan Tag Khusus ke Paragraf PDF Menggunakan Aspose.PDF untuk .NET" imgSrc="./add-custom-tag/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-external-link/" title="Tambahkan Tagged External Link dengan Tooltip ke PDF Menggunakan Aspose.Pdf for .NET" imgSrc="./add-external-link/images/thumb.png" >}}
+
+
 | [Akses Elemen Anak](./access-children-elements/) | Pelajari cara mengakses dan memodifikasi elemen anak dalam PDF yang diberi tag dengan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini. Bahasa Indonesia:  
 | [Tambahkan Elemen Struktur Ke Dalam Elemen](./add-structure-element-into-element/) | Pelajari cara menambahkan elemen struktur aksesibilitas ke dalam PDF menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah yang komprehensif ini. Bahasa Indonesia:  
 | [Buat Elemen Struktur Catatan](./create-note-structure-element/) Pelajari cara membuat elemen struktur catatan dalam PDF dengan Aspose.PDF untuk .NET melalui tutorial langkah demi langkah terperinci ini. Bahasa Indonesia:  

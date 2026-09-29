@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: このチュートリアルでは、Document クラスと ITaggedContent インターフェイスを使用して、PDF の段落にユーザー定義のカスタムタグを追加する方法を示します。
+//ExStepSummary:0: 生成された PDF の出力ファイル名を定義します。
+//ExStepSummary:1: pdfDoc という名前の新しい空の PDF ドキュメント インスタンスを作成します。
+//ExStepSummary:2: pdfDoc から ITaggedContent インターフェイスを取得し、タグ付けされた PDF 構造を操作できるようにします。
+//ExStepSummary:3: ドキュメントの言語を英語（米国）に設定し、アクセシビリティ メタデータ用にタイトルを割り当てます。
+//ExStepSummary:4: PDF の構造ツリーのルート要素を取得します。
+//ExStepSummary:5: 新しい段落要素を作成し、カスタムタグ "MyCustomTag" を割り当て、表示テキストを設定します。
+//ExStepSummary:6: カスタム段落をルート構造要素に追加し、ドキュメントのレイアウトに挿入します。
+//ExStepSummary:7: 構築した PDF を resultFile に格納されたファイルパスに保存し、ドキュメントのスコープを閉じます。
+//ExStepSummary:8: PDF が保存された場所を確認するコンソール メッセージを書き出します。
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+//ExStep:0-
+const string resultFile = "custom_tag_demo.pdf";
+
+//ExStep:1-
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:2-
+ITaggedContent tagged = pdfDoc.TaggedContent;
+
+//ExStep:3-
+tagged.SetLanguage("en-US");
+tagged.SetTitle("Sample PDF Featuring a Custom Paragraph Tag");
+
+//ExStep:4-
+StructureElement rootElement = tagged.RootElement;
+
+//ExStep:5-
+ParagraphElement customParagraph = tagged.CreateParagraphElement();
+customParagraph.SetTag("MyCustomTag");
+customParagraph.SetText("The following paragraph demonstrates the use of a user‑defined tag.");
+
+//ExStep:6-
+rootElement.AppendChild(customParagraph);
+
+//ExStep:7-
+pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"PDF saved to '{resultFile}'.");
+//ExEnd

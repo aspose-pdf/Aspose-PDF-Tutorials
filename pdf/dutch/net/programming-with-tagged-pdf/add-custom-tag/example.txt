@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Deze tutorial laat zien hoe je een door de gebruiker gedefinieerde aangepaste tag aan een alinea in een PDF kunt toevoegen met behulp van de Document- en ITaggedContent-klassen.
+//ExStepSummary:0: Definieer de bestandsnaam voor de gegenereerde PDF.
+//ExStepSummary:1: Maak een nieuw leeg PDF‑documentinstance met de naam pdfDoc.
+//ExStepSummary:2: Haal de ITaggedContent‑interface op uit pdfDoc om met getagde PDF‑structuren te werken.
+//ExStepSummary:3: Stel de taal van het document in op Engels (VS) en ken een titel toe voor toegankelijkheidsmetadata.
+//ExStepSummary:4: Haal het root‑element van de structuurboom van de PDF op.
+//ExStepSummary:5: Maak een nieuw alinea‑element, ken er een aangepaste tag "MyCustomTag" aan toe en stel de weergegeven tekst in.
+//ExStepSummary:6: Voeg de aangepaste alinea toe aan het root‑structuurelement, waardoor deze in de documentlay-out wordt ingevoegd.
+//ExStepSummary:7: Sla de geconstrueerde PDF op naar het bestandspad dat is opgeslagen in resultFile en sluit de document‑scope.
+//ExStepSummary:8: Schrijf een console‑bericht dat bevestigt waar de PDF is opgeslagen.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+//ExStep:0-
+const string resultFile = "custom_tag_demo.pdf";
+
+//ExStep:1-
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:2-
+ITaggedContent tagged = pdfDoc.TaggedContent;
+
+//ExStep:3-
+tagged.SetLanguage("en-US");
+tagged.SetTitle("Sample PDF Featuring a Custom Paragraph Tag");
+
+//ExStep:4-
+StructureElement rootElement = tagged.RootElement;
+
+//ExStep:5-
+ParagraphElement customParagraph = tagged.CreateParagraphElement();
+customParagraph.SetTag("MyCustomTag");
+customParagraph.SetText("The following paragraph demonstrates the use of a user‑defined tag.");
+
+//ExStep:6-
+rootElement.AppendChild(customParagraph);
+
+//ExStep:7-
+pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"PDF saved to '{resultFile}'.");
+//ExEnd

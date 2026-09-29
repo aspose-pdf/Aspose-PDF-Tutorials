@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Hướng dẫn này trình bày cách thêm trường biểu mẫu hộp văn bản có chỗ giữ chỗ vào tài liệu PDF và gắn thẻ cho khả năng truy cập bằng thư viện Aspose.Pdf for .NET.
+//ExStepSummary:0: Xác định đường dẫn tệp đầu vào và đầu ra và kiểm tra xem PDF nguồn có tồn tại hay không.
+//ExStepSummary:1: Mở tệp PDF hiện có và tạo một đối tượng Document để làm việc.
+//ExStepSummary:2: Chèn một TextBoxField vào trang đầu tiên, đặt văn bản chỗ giữ chỗ cho nó và thêm vào bộ sưu tập biểu mẫu.
+//ExStepSummary:3: Tạo một phần tử cấu trúc /Form logic, gắn nó vào cây nội dung đã gắn thẻ và liên kết với trường textbox.
+//ExStepSummary:4: Lưu PDF đã chỉnh sửa vào tệp đầu ra đã chỉ định và đóng tài liệu.
+//ExStepSummary:5: Ghi một thông báo xác nhận vào console cho biết vị trí lưu PDF mới.
+//ExStep:0-
+const string sourcePath = "sample_input.pdf";
+const string resultPath = "sample_output.pdf";
+
+if (!File.Exists(sourcePath))
+{
+    Console.Error.WriteLine($"File not found: {sourcePath}");
+    return;
+}
+
+//ExStep:1-
+using (Document pdfDocument = new Document(sourcePath))
+{
+
+//ExStep:2-
+Page firstPage = pdfDocument.Pages[1];
+Aspose.Pdf.Rectangle boxRect = new Aspose.Pdf.Rectangle(100, 600, 300, 630);
+TextBoxField placeholderField = new TextBoxField(pdfDocument, boxRect)
+{
+    Value = "Type your content here..."
+};
+pdfDocument.Form.Add(placeholderField);
+
+//ExStep:3-
+ITaggedContent taggedContent = pdfDocument.TaggedContent;
+StructureElement structureRoot = taggedContent.RootElement;
+FormElement logicalFormElement = taggedContent.CreateFormElement();
+structureRoot.AppendChild(logicalFormElement);
+logicalFormElement.Tag(placeholderField);
+
+//ExStep:4-
+pdfDocument.Save(resultPath);
+}
+
+//ExStep:5-
+Console.WriteLine($"PDF with form field saved to '{resultPath}'.");
+//ExEnd

@@ -19,6 +19,9 @@ Les tutoriels Aspose.PDF pour .NET « Programmation avec des formulaires » so
 Ces tutoriels proposent également des exemples de code détaillés, des explications claires et des illustrations pour faciliter la compréhension et l'apprentissage. Vous serez guidé pas à pas à travers les différentes étapes de la programmation avec des formulaires PDF, vous permettant de maîtriser rapidement les concepts et techniques nécessaires à la création de formulaires PDF interactifs, efficaces et personnalisés. Que vous soyez débutant ou développeur expérimenté, ces tutoriels vous aideront à améliorer vos compétences en programmation avec les formulaires PDF grâce à Aspose.PDF pour .NET.
 
 ## Tutoriels
+
+{{< tutorial-card link="./add-placeholder-textbox/" title="Créer un champ de formulaire texte d'espace réservé accessible dans un PDF avec Aspose.Pdf for .NET" imgSrc="./add-placeholder-textbox/images/thumb.png" >}}
+
 | Titre | Description |
 | --- | --- | 
 | [Ajouter une info-bulle au champ](./add-tooltip-to-field/) | Découvrez comment ajouter des infobulles aux champs de formulaire de vos documents PDF avec Aspose.PDF pour .NET grâce à ce guide étape par étape. Améliorez la convivialité et l'expérience utilisateur. |  

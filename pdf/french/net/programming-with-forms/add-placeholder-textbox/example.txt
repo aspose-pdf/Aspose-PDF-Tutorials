@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Ce tutoriel montre comment ajouter un champ de formulaire texte avec texte d'espace réservé à un document PDF et le baliser pour l'accessibilité en utilisant la bibliothèque Aspose.Pdf for .NET.
+//ExStepSummary:0: Définissez les chemins d'accès des fichiers d'entrée et de sortie et vérifiez que le PDF source existe.
+//ExStepSummary:1: Ouvrez le fichier PDF existant et créez un objet Document avec lequel travailler.
+//ExStepSummary:2: Insérez un TextBoxField sur la première page, définissez son texte d'espace réservé et ajoutez-le à la collection de formulaires.
+//ExStepSummary:3: Créez un élément de structure logique /Form, attachez-le à l'arbre de contenu balisé et associez-le au champ TextBoxField.
+//ExStepSummary:4: Enregistrez le PDF modifié dans le fichier de sortie spécifié et fermez le document.
+//ExStepSummary:5: Écrivez un message de confirmation dans la console indiquant où le nouveau PDF a été enregistré.
+//ExStep:0-
+const string sourcePath = "sample_input.pdf";
+const string resultPath = "sample_output.pdf";
+
+if (!File.Exists(sourcePath))
+{
+    Console.Error.WriteLine($"File not found: {sourcePath}");
+    return;
+}
+
+//ExStep:1-
+using (Document pdfDocument = new Document(sourcePath))
+{
+
+//ExStep:2-
+Page firstPage = pdfDocument.Pages[1];
+Aspose.Pdf.Rectangle boxRect = new Aspose.Pdf.Rectangle(100, 600, 300, 630);
+TextBoxField placeholderField = new TextBoxField(pdfDocument, boxRect)
+{
+    Value = "Type your content here..."
+};
+pdfDocument.Form.Add(placeholderField);
+
+//ExStep:3-
+ITaggedContent taggedContent = pdfDocument.TaggedContent;
+StructureElement structureRoot = taggedContent.RootElement;
+FormElement logicalFormElement = taggedContent.CreateFormElement();
+structureRoot.AppendChild(logicalFormElement);
+logicalFormElement.Tag(placeholderField);
+
+//ExStep:4-
+pdfDocument.Save(resultPath);
+}
+
+//ExStep:5-
+Console.WriteLine($"PDF with form field saved to '{resultPath}'.");
+//ExEnd

@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: Этот учебник демонстрирует, как добавить пользовательский определяемый тег к абзацу в PDF с использованием классов Document и ITaggedContent.
+//ExStepSummary:0: Определите имя выходного файла для создаваемого PDF.
+//ExStepSummary:1: Создайте новый пустой экземпляр PDF‑документа с именем pdfDoc.
+//ExStepSummary:2: Получите интерфейс ITaggedContent из pdfDoc для работы со структурой тегированного PDF.
+//ExStepSummary:3: Установите язык документа на English (US) и задайте заголовок для метаданных доступности.
+//ExStepSummary:4: Получите корневой элемент дерева структуры PDF.
+//ExStepSummary:5: Создайте новый элемент абзаца, присвойте ему пользовательский тег "MyCustomTag" и задайте отображаемый текст.
+//ExStepSummary:6: Добавьте пользовательский абзац к корневому элементу структуры, вставив его в макет документа.
+//ExStepSummary:7: Сохраните построенный PDF по пути, хранящемуся в resultFile, и закройте область документа.
+//ExStepSummary:8: Выведите в консоль сообщение, подтверждающее место сохранения PDF.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+//ExStep:0-
+const string resultFile = "custom_tag_demo.pdf";
+
+//ExStep:1-
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:2-
+ITaggedContent tagged = pdfDoc.TaggedContent;
+
+//ExStep:3-
+tagged.SetLanguage("en-US");
+tagged.SetTitle("Sample PDF Featuring a Custom Paragraph Tag");
+
+//ExStep:4-
+StructureElement rootElement = tagged.RootElement;
+
+//ExStep:5-
+ParagraphElement customParagraph = tagged.CreateParagraphElement();
+customParagraph.SetTag("MyCustomTag");
+customParagraph.SetText("The following paragraph demonstrates the use of a user‑defined tag.");
+
+//ExStep:6-
+rootElement.AppendChild(customParagraph);
+
+//ExStep:7-
+pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"PDF saved to '{resultFile}'.");
+//ExEnd

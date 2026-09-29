@@ -18,6 +18,12 @@
 Die Tutorials „Programmieren mit getaggten PDFs“ von Aspose.PDF für .NET führen Sie durch die Verwendung dieser Bibliothek zum Bearbeiten und Generieren getaggter PDFs. Erfahren Sie, wie Sie Inhaltsstrukturen erstellen, getaggte Elemente verwalten, die PDF/UA-Konformität validieren und die Barrierefreiheit von PDF-Dokumenten verbessern. Diese Tutorials vermitteln Ihnen ein umfassendes Verständnis der Programmierung mit getaggten PDFs und helfen Ihnen, die Leistungsfähigkeit von Aspose.PDF für .NET optimal zu nutzen.
 
 ## Anleitungen
+
+{{< tutorial-card link="./add-custom-tag/" title="Benutzerdefiniertes Tag zu einem PDF-Absatz hinzufügen mit Aspose.PDF für .NET" imgSrc="./add-custom-tag/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-external-link/" title="Tagged External Link mit Tooltip zu PDF hinzufügen mit Aspose.Pdf für .NET" imgSrc="./add-external-link/images/thumb.png" >}}
+
+
 | Titel | Beschreibung |
 | --- | --- | 
 | [Zugriff auf untergeordnete Elemente](./access-children-elements/) | Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.PDF für .NET auf untergeordnete Elemente in getaggten PDF-Dateien zugreifen und diese ändern. |  

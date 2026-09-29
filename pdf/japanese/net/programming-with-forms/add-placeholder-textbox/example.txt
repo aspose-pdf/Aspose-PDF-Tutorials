@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary: このチュートリアルでは、Aspose.Pdf for .NET ライブラリを使用して、PDF ドキュメントにプレースホルダー テキストボックス フォーム フィールドを追加し、アクセシビリティ用にタグ付けする方法を示します。
+//ExStepSummary:0: 入力ファイルと出力ファイルのパスを定義し、ソース PDF が存在することを確認します。
+//ExStepSummary:1: 既存の PDF ファイルを開き、操作対象となる Document オブジェクトを作成します。
+//ExStepSummary:2: 1 ページ目に TextBoxField を挿入し、プレースホルダー テキストを設定して、フォーム コレクションに追加します。
+//ExStepSummary:3: 論理的な /Form 構造要素を作成し、タグ付けされたコンテンツ ツリーに添付し、テキストボックス フィールドと関連付けます。
+//ExStepSummary:4: 変更された PDF を指定された出力ファイルに保存し、ドキュメントを閉じます。
+//ExStepSummary:5: 新しい PDF が保存された場所を示す確認メッセージをコンソールに出力します。
+//ExStep:0-
+const string sourcePath = "sample_input.pdf";
+const string resultPath = "sample_output.pdf";
+
+if (!File.Exists(sourcePath))
+{
+    Console.Error.WriteLine($"File not found: {sourcePath}");
+    return;
+}
+
+//ExStep:1-
+using (Document pdfDocument = new Document(sourcePath))
+{
+
+//ExStep:2-
+Page firstPage = pdfDocument.Pages[1];
+Aspose.Pdf.Rectangle boxRect = new Aspose.Pdf.Rectangle(100, 600, 300, 630);
+TextBoxField placeholderField = new TextBoxField(pdfDocument, boxRect)
+{
+    Value = "Type your content here..."
+};
+pdfDocument.Form.Add(placeholderField);
+
+//ExStep:3-
+ITaggedContent taggedContent = pdfDocument.TaggedContent;
+StructureElement structureRoot = taggedContent.RootElement;
+FormElement logicalFormElement = taggedContent.CreateFormElement();
+structureRoot.AppendChild(logicalFormElement);
+logicalFormElement.Tag(placeholderField);
+
+//ExStep:4-
+pdfDocument.Save(resultPath);
+}
+
+//ExStep:5-
+Console.WriteLine($"PDF with form field saved to '{resultPath}'.");
+//ExEnd

@@ -18,6 +18,12 @@
 Hướng dẫn "Lập trình với PDF được gắn thẻ" của Aspose.PDF cho .NET hướng dẫn bạn cách sử dụng thư viện này để thao tác và tạo PDF được gắn thẻ. Tìm hiểu cách tạo cấu trúc nội dung, quản lý các thành phần được gắn thẻ, xác thực tính tuân thủ PDF/UA và cải thiện khả năng truy cập của tài liệu PDF. Các hướng dẫn này cung cấp cho bạn hiểu biết sâu sắc về lập trình với PDF được gắn thẻ và giúp bạn tận dụng tối đa sức mạnh của Aspose.PDF cho .NET.
 
 ## Hướng dẫn
+
+{{< tutorial-card link="./add-custom-tag/" title="Thêm Thẻ Tùy Chỉnh vào Đoạn Văn PDF bằng Aspose.PDF cho .NET" imgSrc="./add-custom-tag/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-external-link/" title="Thêm Liên kết Bên ngoài Có Thẻ với Tooltip vào PDF bằng Aspose.Pdf for .NET" imgSrc="./add-external-link/images/thumb.png" >}}
+
+
 | Tiêu đề | Mô tả |
 | --- | --- | 
 | [Truy cập các phần tử con](./access-children-elements/) | Tìm hiểu cách truy cập và sửa đổi các phần tử con trong tệp PDF được gắn thẻ bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. |  

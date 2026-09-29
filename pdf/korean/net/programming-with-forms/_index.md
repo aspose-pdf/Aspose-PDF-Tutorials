@@ -19,6 +19,9 @@ Aspose.PDF for .NET "Forms 프로그래밍" 튜토리얼은 대화형 PDF 양식
 이 튜토리얼은 자세한 코드 예제, 명확한 설명, 그리고 그림을 제공하여 이해하고 배우기 쉽게 도와줍니다. PDF 양식 프로그래밍의 다양한 단계를 단계별로 안내하여 효과적이고 개인화된 대화형 PDF 양식을 만드는 데 필요한 개념과 기술을 빠르게 익힐 수 있도록 도와줍니다. 초보자든 숙련된 개발자든 이 튜토리얼은 Aspose.PDF for .NET을 사용하여 PDF 양식 프로그래밍 기술을 향상시키는 데 도움이 될 것입니다.
 
 ## 튜토리얼
+
+{{< tutorial-card link="./add-placeholder-textbox/" title="Aspose.Pdf for .NET을 사용하여 PDF에 접근 가능한 플레이스홀더 텍스트박스 폼 필드 만들기" imgSrc="./add-placeholder-textbox/images/thumb.png" >}}
+
 | 제목 | 설명 |
 | --- | --- | 
 | [필드에 도구 설명 추가](./add-tooltip-to-field/) | Aspose.PDF for .NET을 사용하여 PDF 문서의 양식 필드에 도구 설명을 추가하는 방법을 단계별 가이드를 통해 알아보세요. 사용성과 사용자 경험을 개선할 수 있습니다. |  

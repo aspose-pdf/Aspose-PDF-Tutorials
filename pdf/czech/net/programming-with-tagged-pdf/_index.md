@@ -18,6 +18,12 @@
 Výukové programy „Programování s tagovanými PDF“ v knihovně Aspose.PDF pro .NET vás provedou používáním této knihovny k manipulaci s tagovanými PDF a jejich generování. Naučte se, jak vytvářet struktury obsahu, spravovat tagované prvky, ověřovat shodu s PDF/UA a zlepšovat přístupnost PDF dokumentů. Tyto výukové programy vám poskytnou hluboké znalosti o programování s tagovanými PDF a pomohou vám co nejlépe využít potenciál knihovny Aspose.PDF pro .NET.
 
 ## Návody
+
+{{< tutorial-card link="./add-custom-tag/" title="Přidání vlastního štítku do odstavce PDF pomocí Aspose.PDF pro .NET" imgSrc="./add-custom-tag/images/thumb.png" >}}
+
+{{< tutorial-card link="./add-external-link/" title="Přidejte označený externí odkaz s tooltipem do PDF pomocí Aspose.Pdf pro .NET" imgSrc="./add-external-link/images/thumb.png" >}}
+
+
 | Název | Popis |
 | --- | --- | 
 | [Přístup k podřízeným prvkům](./access-children-elements/) | V tomto podrobném tutoriálu se naučte, jak přistupovat k podřízeným prvkům v tagovaných PDF souborech a jak je upravovat pomocí Aspose.PDF pro .NET. |  
