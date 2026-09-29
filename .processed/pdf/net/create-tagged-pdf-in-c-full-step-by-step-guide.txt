@@ -1,0 +1,7 @@
+Title: Create Tagged PDF in C# – Full Step‑by‑Step Guide
+Slug: create-tagged-pdf-in-c-full-step-by-step-guide
+Category: programming-with-tagged-pdf
+ProcessedDate: 2026-06-24T19:11:01.085586
+SourceRepo: AI Search API
+Keywords: create tagged pdf, how to tag pdf, how to position paragraph, how to set box, how to add fragment
+PRNumber: 95

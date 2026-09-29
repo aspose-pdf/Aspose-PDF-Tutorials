@@ -68,6 +68,9 @@ Aspose.PDF Net 程式碼教學
 ### [使用 Aspose.PDF .NET 驗證 PDF 密碼：安全性與權限的逐步指南](./verify-pdf-passwords-aspose-dot-net-guide/)
 了解如何使用 C# 中的 Aspose.PDF for .NET 驗證 PDF 密碼。本綜合指南簡化了文件安全和存取控制。
 
+### [使用 Aspose Plugin Manager 對 PDF 進行塗抹 – 完整指南](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
+了解如何使用 Aspose Plugin Manager 在 PDF 中應用塗抹，以保護敏感資訊的完整指南。
+
 ## 其他資源
 
 - [Aspose.PDF 用於網頁文檔](https://docs.aspose.com/pdf/net/)

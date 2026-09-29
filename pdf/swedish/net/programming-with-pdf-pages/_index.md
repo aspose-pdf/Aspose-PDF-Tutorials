@@ -24,7 +24,7 @@ Handledningarna innehåller steg-för-steg-instruktioner, detaljerade kodexempel
 | [Ändra orientering](./change-orientation/) | Steg-för-steg-guide för att ändra sidorientering i en PDF med Aspose.PDF för .NET. Lätt att följa och implementera i dina projekt. |  
 | [Sammanfoga PDF-filer](./concatenate-pdf-files/) | Sammanfoga PDF-filer enkelt med Aspose.PDF för .NET med denna omfattande steg-för-steg-guide. |  
 | [Ta bort en viss sida i PDF-filen](./delete-particular-page/) | Lär dig hur du tar bort en specifik sida från en PDF-fil med hjälp av Aspose.PDF för .NET med den här steg-för-steg-guiden. |  
-| [Bestäm sidans färg](./determine-page-color/) Lär dig att bestämma sidfärgen på PDF-filer med hjälp av Aspose.PDF för .NET med vår steg-för-steg-guide. Enkel implementering för alla kunskapsnivåer. |  
+| [Bestäm sidans färg](./determine-page-color/) Lär dig att bestämma sidfärgen på PDF-filer med hjälp av Aspose.PDF för .NET med vår steg-för-steg-guide. Enkel implementering för alla kunskapsnivåer. |
 | [Anpassa sidinnehåll i PDF-fil](./fit-page-contents/) | Anpassa enkelt ditt PDF-innehåll med Aspose.PDF för .NET. Den här guiden ger en detaljerad steg-för-steg-metod för att uppnå optimal sidlayout. |  
 | [Hämta PDF-siddimensioner](./get-dimensions/) | I den här handledningen förklarar vi hur man hämtar PDF-siddimensioner och utför manipulationer med Aspose.PDF för .NET. Detaljerade steg finns för att vägleda dig genom processen. |  
 | [Hämta antal sidor i PDF-filen](./get-number-of-pages/) | Steg-för-steg-guide för att få antalet sidor i en PDF-fil med Aspose.PDF för .NET. Enkel att implementera, perfekt för dina projekt. |  
@@ -38,6 +38,13 @@ Handledningarna innehåller steg-för-steg-instruktioner, detaljerade kodexempel
 | [Uppdatera PDF-siddimensioner](./update-dimensions/) | Upptäck hur du enkelt uppdaterar PDF-siddimensioner med Aspose.PDF för .NET i den här omfattande steg-för-steg-guiden. |  
 | [Zooma till sidinnehåll i PDF-fil](./zoom-to-page-contents/) | Lär dig hur du zoomar till sidinnehåll i PDF-filer med Aspose.PDF för .NET i den här omfattande guiden. Förbättra dina PDF-dokument efter dina specifika behov. |  
 | [Lägg till sidnummer i PDF med C# – Fullständig steg‑för‑steg‑guide](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Lär dig hur du lägger till sidnummer i en PDF med C# med en detaljerad steg‑för‑steg‑guide. |
+| [Skapa PDF-dokument C# – Lägg till Bates-nummerering](./create-pdf-document-c-add-bates-numbering/) | Steg-för-steg-guide för att lägga till Bates-nummerering i PDF-dokument med C# och Aspose.PDF för .NET. |
+| [Lägg till Bates-nummerering i PDF – Steg‑för‑steg‑guide för att numrera PDF‑sidor](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Lär dig hur du lägger till Bates‑nummerering i PDF‑dokument med Aspose.PDF för .NET i en detaljerad steg‑för‑steg‑guide. |
+| [Skapa PDF-dokument C# – Lägg till former & tomma sidor – Guide](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Steg-för-steg-guide för att skapa PDF-dokument i C# och lägga till former samt tomma sidor med Aspose.PDF för .NET. |
+| [Lägg till Bates‑numrering i PDF med Aspose – Komplett guide](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Steg‑för‑steg‑guide för att lägga till Bates‑numrering i PDF‑dokument med Aspose.PDF för .NET. |
+| [Lägg till Bates-nummerering i C# – Steg‑för‑steg‑guide](./add-bates-numbering-in-c-step-by-step-guide/) | Lär dig hur du lägger till Bates‑nummerering i en PDF med C# i en detaljerad steg‑för‑steg‑guide. |
+| [Lägg till sidor i PDF – Steg‑för‑steg‑guide för C#‑utvecklare](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) | Lär dig hur du lägger till sidor i en PDF med Aspose.PDF för .NET i en detaljerad steg‑för‑steg‑guide för C#‑utvecklare. |
+| [Omordna PDF-sidor i C# – Fullständig steg‑för‑steg‑guide](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | Steg-för-steg-guide för att omordna PDF-sidor i en PDF med Aspose.PDF för .NET i C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -46,3 +53,24 @@ Handledningarna innehåller steg-för-steg-instruktioner, detaljerade kodexempel
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+| [Aspose PDF-handledning – Infoga en tom sida och uppdatera Bates-numrering](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Steg-för-steg-guide för att infoga en tom sida i en PDF och uppdatera Bates-numrering med Aspose.PDF för .NET. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+| [Skapa tom PDF-sida – Fullständig PDF-ritningshandledning](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Steg-för-steg-guide för att skapa en tom PDF-sida med fullständig PDF-ritning i Aspose.PDF för .NET. |  
+| [Lägg till sidor i PDF med Aspose – Komplett C#-guide](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Steg-för-steg-guide för att lägga till sidor i en PDF med Aspose.PDF för .NET i C#. |  
+| [Skapa PDF-dokument i C# – Lägg till sida i PDF & rektangel](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) | Steg-för-steg-guide för att skapa ett PDF-dokument i C#, lägga till en sida och rita en rektangel med Aspose.PDF för .NET. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

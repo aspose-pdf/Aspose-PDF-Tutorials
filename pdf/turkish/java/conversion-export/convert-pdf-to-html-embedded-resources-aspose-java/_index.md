@@ -1,9 +1,16 @@
 ---
-"date": "2025-04-14"
-"description": "Aspose.PDF for Java'yı kullanarak bir PDF belgesini gömülü kaynaklara sahip bağımsız bir HTML dosyasına nasıl dönüştüreceğinizi öğrenin; böylece içeriğinizin web'e hazır ve görsel olarak tutarlı olmasını sağlayın."
-"title": "Aspose.PDF for Java Kullanarak Gömülü Kaynaklarla PDF'yi HTML'ye Dönüştürme"
-"url": "/tr/java/conversion-export/convert-pdf-to-html-embedded-resources-aspose-java/"
-"weight": 1
+date: '2026-04-02'
+description: Aspose.PDF for Java kullanarak gömülü kaynaklarla PDF'yi HTML'ye nasıl
+  dönüştüreceğinizi öğrenin. Şifre korumalı PDF'ler ve Java'ya özgü dönüşüm ayarları
+  için ipuçları içerir.
+keywords:
+- how to convert pdf to html
+- convert password protected pdf
+- convert pdf to html java
+- aspose pdf html conversion
+title: Aspose.PDF for Java ile Gömülü Kaynaklar İçeren PDF'yi HTML'ye Dönüştürme
+url: /tr/java/conversion-export/convert-pdf-to-html-embedded-resources-aspose-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,34 +18,44 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.PDF for Java Kullanarak Tüm Kaynaklar Yerleştirilmiş Olarak PDF'yi HTML'ye Dönüştürün
+# PDF'yi Gömülü Kaynaklarla HTML'ye Dönüştürme: Aspose.PDF for Java Kullanarak
 
-## giriiş
+## Giriş
 
-Günümüzün dijital ortamında, HTML gibi çok yönlü formatlarda belgeleri çevrimiçi paylaşmak esastır. Bu eğitim, Aspose.PDF for Java kullanarak bir PDF'yi tüm kaynakları (görüntüler, yazı tipleri) doğrudan içine yerleştirilmiş bir HTML dosyasına dönüştürmenize rehberlik edecektir.
+Bu **how to convert pdf to html** rehberinde, bir PDF belgesini tüm görselleri, yazı tiplerini ve stilleri doğrudan sayfanın içinde toplayan tek bir, kendi içinde barındıran HTML dosyasına dönüştürmenin basit bir yolunu keşfedeceksiniz. Bir web portalı oluşturuyor, bir e‑posta kampanyası hazırlıyor ya da içeriği bir CMS'ye besliyor olsanız da, tüm kaynakların gömülü olduğu bir HTML dosyası bozuk bağlantıları ortadan kaldırır ve tarayıcılar arasında tutarlı bir render garantiler.
 
-### Ne Öğreneceksiniz:
-- PDF'leri kendi kendine yeten HTML dosyalarına dönüştürün.
-- Gerekli tüm kaynakları HTML'in içine yerleştirin.
-- Çeşitli tarayıcılar için harf konumlandırmasını optimize edin.
-- Raster görüntüleri arka planın bir parçası olarak kaydedin.
-- Yazı tipi kaydetme modlarını yapılandırın.
+### Öğrenecekleriniz
+- PDF'leri kendi içinde barındıran bir HTML dosyasına dönüştürün.  
+- Görselleri, yazı tiplerini ve CSS'i doğrudan HTML içine gömün.  
+- Eski tarayıcılar için harf konumlandırmasını optimize edin.  
+- Raster görselleri sayfa arka planının bir parçası olarak kaydedin.  
+- Maksimum uyumluluk için doğru yazı tipi kaydetme modunu seçin.  
 
-Bu kılavuzun sonunda, Aspose.PDF for Java kullanarak PDF belgelerini bağımsız HTML dosyalarına dönüştürme konusunda sağlam bir anlayışa sahip olacaksınız. Ortamınızı ve ön koşullarınızı ayarlayarak başlayalım.
+Bu öğreticinin sonunda, Aspose.PDF for Java kullanarak **“how to convert pdf to html”** sorusuna güvenle cevap verebileceksiniz.
 
-## Ön koşullar
+## Hızlı Yanıtlar
+- **Dönüşümü hangi kütüphane yönetir?** Aspose.PDF for Java.  
+- **Şifre korumalı PDF'leri dönüştürebilir miyim?** Evet – belgeyi açarken şifreyi sağlayın. *(secondary keyword: convert password protected pdf)*  
+- **Hangi Java sürümü gereklidir?** Java 8 veya üzeri; kütüphane Maven veya Gradle yapılandırmalarıyla çalışır.  
+- **HTML gerçekten kendi içinde barındırılıyor mu?** Kesinlikle – tüm görseller, yazı tipleri ve CSS gömülüdür.  
+- **Lisans gerekli mi?** Ücretsiz deneme değerlendirme için çalışır; ticari bir lisans tüm sınırlamaları kaldırır.
 
-Bu eğitime başlamadan önce şunlara sahip olduğunuzdan emin olun:
-- **Gerekli Kütüphaneler**Maven veya Gradle aracılığıyla projenize Aspose.PDF for Java'yı ekleyin.
-- **Çevre Kurulumu**: Uyumlu bir IDE (örneğin IntelliJ IDEA, Eclipse) ve JDK'nın kurulu olması gerekir.
-- **Bilgi Önkoşulları**: Java programlamanın temel düzeyde anlaşılması ve Maven veya Gradle gibi araçlarla bağımlılıkların yönetilmesi varsayılmaktadır.
+## “how to convert pdf to html” nedir?
+Bir PDF'yi HTML'ye dönüştürmek, PDF'den görsel düzeni, metni, görselleri ve yazı tiplerini çıkarıp web dostu bir işaretleme dilinde yeniden oluşturmaktır. Kaynaklar gömülü olduğunda, ortaya çıkan HTML dosyası dış dosyalara ihtiyaç duymadan her yerde açılabilir.
 
-## Java için Aspose.PDF Kurulumu
+## HTML Dönüştürme için Aspose.PDF for Java Neden Kullanılmalı?
+Aspose.PDF, gömme modu, görsel işleme, yazı tipi formatları ve CSS konumlandırması gibi dönüşümün her yönü üzerinde ayrıntılı kontrol sunar; böylece çıktıyı belirli tarayıcılar veya performans gereksinimleri için özelleştirebilirsiniz. Ayrıca şifre korumalı PDF'ler ve büyük ölçekli toplu işleme gibi gelişmiş senaryoları da destekler.
 
-Aspose.PDF for Java'yı projenize dahil etmek için şu adımları izleyin:
+## Önkoşullar
+- **Java Development Kit (JDK) 8+** yüklü.  
+- **IDE** (IntelliJ IDEA, Eclipse veya benzeri).  
+- **Maven veya Gradle** bağımlılık yönetimi için.  
+- **Aspose.PDF for Java** kütüphanesi (ücretsiz deneme veya lisanslı sürüm).  
+
+## Aspose.PDF for Java Kurulumu
 
 ### Maven Kurulumu
-Aşağıdaki bağımlılığı ekleyin `pom.xml` dosya:
+Aşağıdaki bağımlılığı `pom.xml` dosyanıza ekleyin:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -48,115 +65,112 @@ Aşağıdaki bağımlılığı ekleyin `pom.xml` dosya:
 ```
 
 ### Gradle Kurulumu
-Bu satırı ekleyin `build.gradle` dosya:
+`build.gradle` dosyanıza bu satırı ekleyin:
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-**Lisans Edinimi**: Java için Aspose.PDF'yi kullanmak için bir lisans edinin. Ücretsiz denemeyle başlayın veya sınırlama olmaksızın tüm yetenekleri keşfetmek için geçici bir lisans başvurusunda bulunun. Üretim kullanımı için bir abonelik satın almak gerekir.
+**Lisans Edinme**: Aspose'tan bir deneme veya tam lisans edinin. Deneme, tüm özellikleri keşfetmenizi sağlar, satın alınan lisans ise değerlendirme kısıtlamalarını kaldırır.
 
-**Temel Başlatma**: Ortamınız hazır olduğunda, kütüphaneyi Java projenize aktarın:
+**Temel Başlatma**: Java kodunuzda temel sınıfı içe aktarın:
 ```java
 import com.aspose.pdf.Document;
 ```
 
-## Uygulama Kılavuzu
+## Adım‑Adım Uygulama
 
-Bu bölüm, Aspose.PDF for Java'yı kullanarak PDF'yi gömülü kaynaklarla HTML'ye dönüştürme konusunda size yol gösterecektir.
-
-### Kaynak PDF Dosyasını Yükle
-
-Öncelikle giriş dosya yolunu belirterek kaynak PDF belgenizi yükleyin:
+### Adım 1: Kaynak PDF'yi Yükleyin
+İlk olarak, Aspose.PDF'yi giriş dosyanıza yönlendirin:
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY/input.pdf";
 Document doc = new Document(dataDir);
 ```
-The `Document` sınıf, üzerinde çalıştığınız PDF dosyasını temsil eder.
+PDF şifre korumalıysa, şifreyi `Document` yapıcısına geçirin (ikincil anahtar kelime *convert password protected pdf* bakınız).
 
-### HTML Kaydetme Seçeneklerini Örneklendir
-
-Bir örnek oluşturun `HtmlSaveOptions` PDF'nizin nasıl dönüştürüleceğini özelleştirmek için:
+### Adım 2: HTML Kaydetme Seçeneklerini Oluşturun
+Dönüşümü kontrol etmek için `HtmlSaveOptions` örneğini oluşturun:
 ```java
 HtmlSaveOptions options = new HtmlSaveOptions();
 ```
 
-### Tüm Kaynakları HTML'nin İçine Yerleştir
-
-Resimler ve yazı tipleri gibi tüm kaynakların HTML dosyasına gömülmesini sağlamak için gömme modunu ayarlayın:
+### Adım 3: Tüm Kaynakları HTML İçine Gömün
+Aspose'ye her görseli, yazı tipini ve CSS parçasını doğrudan HTML dosyasına gömmesini söyleyin:
 ```java
 options.setPartsEmbeddingMode(HtmlSaveOptions.PartsEmbeddingModes.EmbedAllIntoHtml);
 ```
-Bu, HTML'nizi kendi kendine yeten hale getirir.
 
-### Mektup Konumlandırmasını Optimize Edin
-
-CSS'de harf konumlandırmasını hassas bir şekilde yapmak ve Internet Explorer gibi tarayıcılarla uyumluluk sağlamak için aşağıdaki gibi yapılandırın:
+### Adım 4: Harf Konumlandırmasını Optimize Edin
+Piksel‑tam render için—özellikle Internet Explorer gibi eski tarayıcılarda—yuvarlama hatası telafisiyle EM birimlerini kullanın:
 ```java
 options.setLettersPositioningMethod(LettersPositioningMethods.UseEmUnitsAndCompensationOfRoundingErrorsInCss);
 ```
 
-### Raster Görüntüleri ve Yazı Tiplerini Kaydet
-
-Raster görüntüleri PNG sayfa arka planının gömülü parçaları olarak kaydetmek için şu ayarı kullanın:
+### Adım 5: Raster Görselleri Gömülü PNG Arka Planı Olarak Kaydedin
+Raster görselleri sayfa arka planının bir parçası olarak gömmek HTML'yi düzenli tutar:
 ```java
 options.setRasterImagesSavingMode(HtmlSaveOptions.RasterImagesSavingModes.AsEmbeddedPartsOfPngPageBackground);
 ```
-Ayrıca, tüm yazı tiplerinin HTML içinde çeşitli biçimlerde kaydedildiğinden emin olun:
+
+### Adım 6: Yazı Tiplerini Tüm Formatlarda Koruyun
+Yazı tiplerini mevcut tüm formatlarda kaydederek maksimum uyumluluğu sağlayın:
 ```java
 options.setFontSavingMode(HtmlSaveOptions.FontSavingModes.SaveInAllFormats);
 ```
 
-### Çıktıyı Tek HTML Dosyası Olarak Kaydet
-
-Son olarak, belgenizi tüm gömülü kaynaklarla birlikte tek bir HTML dosyasına kaydedin:
+### Adım 7: Tek HTML Çıktısını Yazın
+Son olarak, kendi içinde barındıran HTML dosyasını oluşturun:
 ```java
 String outputDir = "YOUR_OUTPUT_DIRECTORY/Single_output.html";
 doc.save(outputDir, options);
 ```
-Bu adım PDF'yi, harici bağımlılıklar olmadan bağımsız olarak görüntülenebilen bir HTML dosyasına dönüştürür.
+Sonuç, hemen web yayınlamaya hazır bağımsız bir HTML belgesidir.
 
 ## Pratik Uygulamalar
+1. **Web Portalları** – Broşürleri, yıllık raporları veya ürün kataloglarını eksik varlıklar konusunda endişelenmeden yayınlayın.  
+2. **E‑posta Kampanyaları** – Tüm belgeyi e‑posta gövdesine gömerek daha akıcı bir okuma deneyimi sağlayın.  
+3. **İçerik Yönetim Sistemleri** – PDF içeriğini doğrudan sayfalara aktarın, ayrı görsel/yazı tipi yükleme ihtiyacını ortadan kaldırın.
 
-PDF'leri kendi kendine yeten HTML dosyalarına dönüştürmenin birkaç pratik uygulaması vardır:
-1. **Web Portalları**: Şirket broşürlerinizi veya raporlarınızı kullanıcı dostu bir formatta görüntüleyin.
-2. **E-posta Kampanyaları**:Gelişmiş görüntüleme deneyimleri için belgeleri doğrudan e-postaların içine yerleştirin.
-3. **İçerik Yönetim Sistemleri (CMS)**: Harici dosya bağımlılıkları olmadan belge içeriklerini web sayfalarına kolayca entegre edin.
+## Performans Düşünceleri
+- **Bellek Yönetimi** – Büyük PDF'leri dönüştürürken yeterli yığın alanı (`-Xmx`) ayırın.  
+- **Toplu İşleme** – PDF klasörünü döngüye alarak tek bir `HtmlSaveOptions` örneğini yeniden kullanın, böylece ek yükü azaltın.  
+- **Profil Oluşturma** – Bellek dalgalanmalarını tespit etmek ve buna göre optimize etmek için Java profil oluşturucuları (VisualVM, YourKit) kullanın.
 
-## Performans Hususları
+## Yaygın Sorunlar ve Çözümler
 
-Büyük PDF dosyalarını dönüştürürken şu performans ipuçlarını göz önünde bulundurun:
-- **Bellek Kullanımını Optimize Et**: Java uygulamanızın büyük belgeleri verimli bir şekilde işleyebilmesi için yeterli belleğe sahip olduğundan emin olun.
-- **Toplu İşleme**: Birden fazla dosya işleniyorsa, kaynak yönetimi uygulamalarını kullanarak toplu işlemleri uygulayın.
-- **Kaynak Yönetimi En İyi Uygulamaları**: Darboğazları önlemek için uygulamanızın kaynak kullanımını düzenli olarak profilleyin ve izleyin.
+| Sorun | Neden Oluşur | Çözüm |
+|-------|----------------|-----|
+| **OutOfMemoryError** büyük PDF'lerde | Yetersiz yığın boyutu | JVM belleğini artırın (`-Xmx2g` veya daha fazla) |
+| HTML'de eksik yazı tipleri | Lisans nedeniyle yazı tipi gömülmedi | `setFontSavingMode`'un `SaveInAllFormats` olarak ayarlandığından ve lisansın geçerli olduğundan emin olun |
+| Görseller bozuk bağlantı olarak görünüyor | Gömme modu ayarlanmamış | `setPartsEmbeddingMode`'un `EmbedAllIntoHtml` olduğundan emin olun |
 
-## Çözüm
+## Sıkça Sorulan Sorular
 
-Bu kılavuzu takip ederek, bir PDF belgesini Aspose.PDF for Java kullanarak tüm kaynakları gömülü bir HTML dosyasına nasıl dönüştüreceğinizi öğrendiniz. Bu süreç, çıktınızın kendi kendine yeterli olmasını, harici bağımlılıklar olmadan web gösterimi için mükemmel olmasını sağlar.
+**Q:** Bu yöntemle şifre korumalı PDF dosyalarını dönüştürebilir miyim?  
+**A:** Evet. `Document` nesnesini oluştururken şifreyi sağlayın. Bu, ikincil anahtar kelime *convert password protected pdf* ile uyumludur.
 
-Aspose.PDF'nin yeteneklerini daha fazla keşfetmek için kapsamlı belgelerini daha derinlemesine incelemeyi ve PDF'ler içindeki metin ve grafikleri düzenleme gibi ek özellikleri denemeyi düşünün.
+**Q:** Çok büyük PDF dosyalarını verimli bir şekilde nasıl yönetebilirim?  
+**A:** Daha fazla yığın belleği ayırın, dosyaları toplu işleyin ve kaydetmeden önce `doc.optimizeResources()` çağırmayı düşünün.
 
-## SSS Bölümü
+**Q:** HTML çıktısında yazı tiplerinin nasıl gömüleceğini özelleştirmek mümkün mü?  
+**A:** Kesinlikle. Hedef tarayıcılarınıza uygun farklı `FontSavingModes` (ör. `SaveInWoff`, `SaveInTtf`) kullanın.
 
-1. **Bu yöntemi kullanarak şifreli PDF dosyalarını dönüştürebilir miyim?**
-   - Evet, Aspose.PDF doğru şifreyi sağladığınız takdirde korumalı belgelerin açılmasını ve dönüştürülmesini destekler.
-2. **Büyük PDF dosyalarını nasıl verimli bir şekilde işleyebilirim?**
-   - Java'nın bellek yönetimi en iyi uygulamalarını kullanın ve dönüşümü daha küçük görevlere bölmeyi düşünün.
-3. **Yazı tiplerinin HTML çıktısına nasıl yerleştirileceğini özelleştirmek mümkün müdür?**
-   - Kesinlikle, Aspose.PDF ihtiyaçlarınıza göre yapılandırabileceğiniz çeşitli yazı tipi kaydetme modları sağlar.
-4. **Hangi tarayıcılar bu tür gömülü HTML içeriğini destekler?**
-   - Çoğu modern web tarayıcısı, gömülü kaynaklara sahip kendi kendine yeten HTML belgelerini destekler.
-5. **Form içeren PDF'leri form alanlarını koruyarak HTML'e dönüştürebilir miyim?**
-   - Aspose.PDF'in form öğelerini dönüştürme konusunda sınırlı desteği vardır; ancak gerekirse bunları HTML'de manuel olarak çıkarmak ve yeniden oluşturmak mümkündür.
+**Q:** Aspose.PDF tarafından üretilen gömülü HTML hangi tarayıcılar tarafından desteklenir?  
+**A:** Tüm modern tarayıcılar (Chrome, Edge, Firefox, Safari) kendi içinde barındıran HTML'yi doğru şekilde render eder. IE'nin eski sürümleri, uyguladığımız EM‑birim konumlandırma ayarına ihtiyaç duyabilir.
+
+**Q:** HTML'ye dönüştürürken etkileşimli form alanlarını koruyabilir miyim?  
+**A:** Form dönüşümü sınırlıdır; form verilerini ayrı olarak çıkarmanız ve HTML'de alanları manuel olarak yeniden oluşturmanız gerekebilir.
 
 ## Kaynaklar
-- [Belgeleme](https://reference.aspose.com/pdf/java/)
+- [Dokümantasyon](https://reference.aspose.com/pdf/java/)
 - [Kütüphaneyi İndir](https://releases.aspose.com/pdf/java/)
 - [Lisans Satın Al](https://purchase.aspose.com/buy)
 - [Ücretsiz Deneme](https://releases.aspose.com/pdf/java/)
 - [Geçici Lisans](https://purchase.aspose.com/temporary-license/)
 - [Destek Forumu](https://forum.aspose.com/c/pdf/10)
 
-Bu eğitimin size Aspose.PDF for Java kullanarak PDF'leri HTML'ye başarılı bir şekilde dönüştürmeniz için gereken bilgiyi sağladığını umuyoruz. İyi kodlamalar!
+**Son Güncelleme:** 2026-04-02  
+**Test Edilen Versiyon:** Aspose.PDF for Java 25.3  
+**Yazar:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

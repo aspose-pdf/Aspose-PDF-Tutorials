@@ -1,0 +1,7 @@
+Title: How to create PDF document with interactive form fields in C#
+Slug: how-to-create-pdf-document-with-interactive-form-fields-in-c
+Category: programming-with-forms
+ProcessedDate: 2026-09-28T08:00:24.361709
+SourceRepo: AI Search API
+Keywords: create pdf document, add pages to pdf, create interactive pdf form, how to add textbox to pdf, how to create acroform pdf
+PRNumber: 136

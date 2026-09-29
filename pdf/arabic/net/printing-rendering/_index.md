@@ -30,6 +30,9 @@
 ### [تعيين عامل تكبير مخصص في ملفات PDF باستخدام Aspose.PDF لـ .NET - دليل كامل](./aspose-pdf-net-set-zoom-factor-pdfs/)
 ### [كيفية تحويل PDF إلى PNG في C# – دليل خطوة بخطوة](./how-to-render-pdf-as-png-in-c-step-by-step-guide/)
 
+### [كيفية عرض PDF في C# – دليل شامل إلى PNG وHTML والختم](./how-to-render-pdf-in-c-complete-guide-to-png-html-stamping/)
+تعلم كيفية تحويل ملفات PDF إلى صور PNG أو HTML وإضافة الختم باستخدام Aspose.PDF لـ .NET في C# خطوة بخطوة.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

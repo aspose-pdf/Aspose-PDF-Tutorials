@@ -21,6 +21,7 @@ Les tutoriels « Programmation avec des images » d'Aspose.PDF pour .NET vous 
 | Titre | Description |
 | --- | --- | 
 | [Ajouter une image dans un fichier PDF](./add-image/) | Apprenez à ajouter des images à un fichier PDF par programmation avec Aspose.PDF pour .NET. Guide étape par étape, exemple de code et FAQ inclus pour une implémentation transparente. |  
+| [Créer une page PDF vierge – Guide complet pour ajouter, recadrer et redimensionner des images](./create-blank-pdf-page-full-guide-to-adding-cropping-resizing/) | Apprenez à créer une page PDF vierge et à y ajouter, recadrer et redimensionner des images avec Aspose.PDF pour .NET. |  
 | [Toutes les pages au format TIFF](./all-pages-to-tiff/) | Découvrez comment convertir toutes les pages d'un PDF en TIFF avec Aspose.PDF pour .NET grâce à ce tutoriel étape par étape. Gestion documentaire simple et efficace. |  
 | [Algorithme de Bradley](./bradley-algorithm/) | Apprenez à convertir un PDF en TIFF à l'aide de l'algorithme Bradley dans Aspose.PDF pour .NET. Guide étape par étape, prérequis et FAQ pour une conversion fluide. |  
 | [Image CGM au format PDF](./cgm-image-to-pdf/) | Convertissez facilement des images CGM au format PDF avec Aspose.PDF pour .NET. Suivez ce guide simple étape par étape et simplifiez votre conversion de fichiers. |  
@@ -49,6 +50,7 @@ Les tutoriels « Programmation avec des images » d'Aspose.PDF pour .NET vous 
 | [Définir la taille de l'image dans le fichier PDF](./set-image-size/) | Apprenez à définir la taille d'une image dans un PDF avec Aspose.PDF pour .NET. Ce guide étape par étape vous aidera à redimensionner les images, à ajuster les propriétés des pages et à enregistrer vos PDF. |  
 | [Réduire les images dans un fichier PDF](./shrink-images/) | Réduisez facilement les images dans les fichiers PDF à l'aide d'Aspose.PDF pour .NET avec ce guide étape par étape, garantissant des tailles de fichiers plus petites tout en maintenant la qualité. |  
 | [Stocker l'image dans la collection XImage](./store-image-in-ximage-collection/) | Apprenez à stocker des images dans la collection XImage à l'aide d'Aspose.PDF pour .NET dans ce guide complet étape par étape. |  
+| [Ajouter une figure à Word – Guide complet de programmation C#](./add-figure-to-word-complete-c-programming-guide/) | Apprenez à insérer une figure dans un document Word en C# avec Aspose.Words pour .NET, guide étape par étape. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

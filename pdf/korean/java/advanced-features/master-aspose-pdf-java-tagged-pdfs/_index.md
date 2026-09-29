@@ -1,13 +1,13 @@
 ---
-date: '2025-12-06'
-description: Aspose.PDF for Java를 사용하여 PDF에 태그를 지정하고, 헤더와 단락 요소를 추가하며, PDF 접근성을 향상시켜
-  더 나은 탐색을 구현하는 방법을 배웁니다.
+date: '2026-02-14'
+description: Aspose.PDF for Java를 사용하여 PDF에 태그를 지정하고, 접근 가능한 PDF를 만들며, 헤더와 단락 요소를
+  추가하고, 더 나은 탐색을 위해 PDF 접근성을 향상시키는 방법을 배웁니다.
 keywords:
 - Aspose.PDF for Java
 - tagged PDF creation
 - accessible PDFs
 - how to tag pdf
-title: Aspose.PDF for Java를 사용한 PDF 태깅 방법 - 접근성 PDF
+title: Java용 Aspose.PDF로 PDF에 태그 지정하기 - 접근성 PDF
 url: /ko/java/advanced-features/master-aspose-pdf-java-tagged-pdfs/
 weight: 1
 ---
@@ -17,34 +17,34 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.PDF for Java를 사용한 태그 PDF 만들기 마스터하기
+# Aspose.PDF for Java를 사용한 태그된 PDF 생성 마스터하기
 
-이 포괄적인 가이드에서는 **Aspose.PDF for Java**를 사용하여 **PDF에 태그를 추가하는 방법**을 배우게 되며, 이를 통해 화면 판독기 및 기타 보조 기술과 원활하게 작동하는 접근성 높은 구조화된 문서를 만들 수 있습니다.
+이 포괄적인 가이드에서는 Aspose.PDF for Java를 사용하여 **PDF에 태그를 지정하는 방법**을 배우게 되며, 이를 통해 스크린 리더 및 기타 보조 기술과 원활하게 작동하는 접근성 높고 구조화된 문서를 만들 수 있습니다. 튜토리얼이 끝날 때쯤에는 **접근 가능한 PDF** 파일을 생성하여 PDF/UA 규격을 충족하고, 최적의 접근성을 위해 **PDF 언어를 설정하는 방법**도 이해하게 됩니다.
 
-## 빠른 답변
-- **PDF에 태그를 추가한다는 것은?** 접근성을 위해 제목, 단락, 표 등을 설명하는 논리적 구조(태그)를 파일에 추가하는 것입니다.  
-- **사용되는 라이브러리는?** Aspose.PDF for Java (버전 25.3 이상).  
+## Quick Answers
+- **PDF에 태그를 지정한다는 것은?** 접근성을 위해 제목, 단락, 표 등을 설명하는 논리적 구조(태그)를 추가하는 것입니다.  
+- **사용하는 라이브러리는?** Aspose.PDF for Java (버전 25.3 이상).  
 - **라이선스가 필요한가요?** 평가용 무료 체험판을 사용할 수 있으며, 실제 운영 환경에서는 상용 라이선스가 필요합니다.  
 - **헤더와 단락을 추가할 수 있나요?** 예 – API에 `HeaderElement`와 `ParagraphElement` 클래스가 제공됩니다.  
-- **Java 전용인가요?** 예제는 Java이지만 .NET 및 기타 플랫폼에서도 유사한 개념을 사용할 수 있습니다.
+- **Java 전용인가요?** 예제는 Java이지만 .NET 및 기타 플랫폼에서도 유사한 개념을 사용할 수 있습니다.  
 
-## **PDF에 태그를 추가한다**는 의미
-PDF에 태그를 추가한다는 것은 파일 내부에 논리 구조 트리를 삽입하는 것을 의미합니다. 이 트리는 보조 기술에 문서의 어느 부분이 제목, 단락, 목록 등인지 알려 주어 시각 장애인이 PDF를 보다 쉽게 이용할 수 있게 합니다.
+## How to Tag PDF with Aspose.PDF for Java
+PDF에 태그를 지정한다는 것은 파일 내부에 논리적 구조 트리를 삽입하는 것을 의미합니다. 이 트리는 보조 기술에게 문서의 어느 부분이 제목, 단락, 목록 등인지 알려 주어 시각 장애인에게 PDF를 훨씬 더 쉽게 이용할 수 있게 합니다.
 
-## Aspose.PDF for Java로 PDF에 태그를 추가해야 하는 이유
-- **완전한 접근성 지원** – 태그 추가, 언어 설정, 문서 제목 정의를 위한 내장 메서드 제공.  
-- **외부 의존성 없음** – 순수 Java 프로젝트와 주요 IDE에서 바로 사용 가능.  
-- **견고한 성능** – 메모리 관리 기능을 통해 대용량 파일도 효율적으로 처리.
+## Why Use Aspose.PDF for Java to Tag PDFs?
+- **전체 접근성 지원** – 태그 추가, 언어 설정, 문서 제목 정의를 위한 내장 메서드 제공.  
+- **외부 종속성 없음** – 일반 Java 프로젝트와 주요 IDE에서 바로 사용 가능.  
+- **견고한 성능** – 메모리 관리 기능을 통해 대용량 파일도 효율적으로 처리.  
 
-## 사전 준비 사항
+## Create Accessible PDF – Prerequisites
 - **Aspose.PDF for Java** ≥ 25.3 (최신 버전 권장).  
 - IntelliJ IDEA 또는 Eclipse와 같은 Java IDE.  
-- Java 문법 및 Maven/Gradle 빌드 도구에 대한 기본 지식.
+- Java 문법 및 Maven/Gradle 빌드 도구에 대한 기본 지식.  
 
-## Aspose.PDF for Java 설정
-다음 중 하나의 빌드 시스템을 사용하여 라이브러리를 프로젝트에 추가합니다.
+## Setting Up Aspose.PDF for Java
+프로젝트에 라이브러리를 추가하려면 다음 빌드 시스템 중 하나를 사용하십시오.
 
-### Maven 설정
+### Maven Setup
 `pom.xml` 파일에 다음 의존성을 추가합니다:
 
 ```xml
@@ -55,23 +55,20 @@ PDF에 태그를 추가한다는 것은 파일 내부에 논리 구조 트리를
 </dependency>
 ```
 
-### Gradle 설정
+### Gradle Setup
 `build.gradle` 파일에 다음 라인을 포함합니다:
 
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-#### 라이선스 획득
-Aspose.PDF는 평가용 무료 체험판을 제공합니다. 테스트용 임시 라이선스를 받거나, 운영 환경에서는 정식 라이선스를 구매하십시오.
+#### License Acquisition
+Aspose.PDF는 평가용 무료 체험판을 제공합니다. 테스트용 임시 라이선스를 받거나, 실제 운영을 위해 정식 라이선스를 구매하십시오.
 
-## 구현 가이드
-아래는 가장 일반적인 태그 작업을 단계별로 설명한 내용입니다.
+## Implementation Guide
+아래는 가장 일반적인 태그 지정 작업을 단계별로 설명한 가이드입니다.
 
-### Aspose.PDF for Java로 PDF에 태그를 추가하는 방법
-이 섹션에서는 태그가 포함된 PDF를 만들고, 문서 제목, 언어, 헤더 및 단락을 추가하는 핵심 워크플로를 보여줍니다.
-
-#### 단계 1: 문서 초기화
+### Step 1: Initialize the Document
 새 `Document` 객체를 생성하고 태그된 콘텐츠 인터페이스를 가져옵니다.
 
 ```java
@@ -85,8 +82,8 @@ Document document = new Document();
 ITaggedContent taggedContent = document.getTaggedContent();
 ```
 
-#### 단계 2: 제목 및 언어 구성  
-제목과 언어를 설정하면 **aspose pdf accessibility**가 향상되고 화면 판독기가 문서를 올바르게 안내합니다.
+### Step 2: Configure Title and Language  
+제목과 언어를 설정하면 **aspose pdf accessibility**가 향상되고 스크린 리더가 문서를 올바르게 안내합니다. 이는 **pdf ua compliance**의 일부를 만족시킵니다.
 
 ```java
 taggedContent.setTitle("Tagged Pdf Document");
@@ -94,11 +91,11 @@ taggedContent.setLanguage("en-US");
 document.save(outputDir + "/TaggedPdfSetup.pdf");
 ```
 
-### 헤더 요소 추가 – **aspose pdf add header**
-헤더는 PDF에 구조를 부여하며 탐색에 필수적입니다.
+### Adding Header Elements – **aspose pdf add header**
+헤더는 PDF에 구조를 제공하며 탐색에 필수적입니다.
 
-#### 단계 1: 헤더 생성 및 구성  
-`HeaderElement` 클래스를 사용하여 제목을 삽입합니다.
+#### Step 1: Create and Configure the Header  
+`HeaderElement` 클래스를 사용하여 헤딩을 삽입합니다.
 
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.bls.HeaderElement;
@@ -108,10 +105,10 @@ headerElement.setActualText("Heading 1");
 document.save(outputDir + "/TaggedPdfWithHeader.pdf");
 ```
 
-### 단락 요소 추가 – **aspose pdf add paragraph** / **add paragraph pdf java**
-단락은 내용을 풍부하게 하고 가독성을 높여 줍니다.
+### Adding Paragraph Elements – **aspose pdf add paragraph** / **add paragraph pdf java**
+단락은 콘텐츠를 풍부하게 하고 가독성을 높입니다.
 
-#### 단계 1: 문서에 단락 추가  
+#### Step 1: Add Paragraphs to Your Document  
 하나 이상의 `ParagraphElement` 객체를 생성합니다.
 
 ```java
@@ -125,66 +122,60 @@ paragraphElement2.setActualText("test 2");
 document.save(outputDir + "/TaggedPdfWithParagraphs.pdf");
 ```
 
-## 실용적인 활용 사례
-태그가 포함된 PDF는 다양한 실제 시나리오에서 가치가 있습니다:
+## Generate Tagged PDF – Common Use Cases
+1. **접근성 준수** – 장애인 사용자를 위한 WCAG 및 PDF/UA 표준 충족.  
+2. **향상된 탐색** – 대형 문서에서 제목 및 섹션으로 빠르게 이동 가능.  
+3. **보조 기술 통합** – 스크린 리더, 점자 디스플레이 등과 원활히 작동.  
 
-1. **접근성 준수** – 장애인 사용자를 위한 WCAG 및 PDF/UA 표준을 충족합니다.  
-2. **향상된 탐색** – 대형 문서에서 제목 및 섹션으로 빠르게 이동할 수 있습니다.  
-3. **보조 기술 통합** – 화면 판독기, 점자 디스플레이 등과 원활히 작동합니다.
+## Set PDF Language – Why It Matters
+`en-US`와 같은 언어 코드를 지정하면 보조 기술이 올바른 발음 규칙과 하이픈 규칙을 적용할 수 있습니다. 또한 **pdf ua compliance**에 기여하고 문서 전체의 접근성 점수를 높입니다.
 
-## 성능 고려 사항
+## Add Tags PDF – Tips & Best Practices
+- **태그 계층 구조:** 태그 트리를 얕게 유지하십시오; 깊은 중첩은 일부 리더를 혼란스럽게 할 수 있습니다.  
+- **일관된 명명:** 제목 및 단락에 명확하고 설명적인 `ActualText` 값을 사용하십시오.  
+- **조기 검증:** 주요 변경 후마다 Adobe Acrobat의 “Tags” 패널을 확인하십시오.
+
+## Performance Considerations
 대용량 PDF를 처리할 때:
 
-- 파일 핸들을 해제하기 위해 Java의 try‑with‑resources 또는 명시적 `close()` 호출을 사용합니다.  
-- 메모리 사용량을 줄여야 할 경우 `document.optimizeResources()`를 호출합니다.
+- Java의 try‑with‑resources 또는 명시적 `close()` 호출을 사용해 파일 핸들을 해제하십시오.  
+- 메모리 사용량을 줄여야 할 경우 `document.optimizeResources()`를 호출하십시오.  
 
-## 결론
-이제 **Aspose.PDF for Java**를 사용하여 **PDF에 태그를 추가하는 방법**을 배웠으며, 문서 메타데이터 설정, 헤더 요소 추가, 단락 요소 삽입 등을 수행했습니다. 이러한 기술은 PDF 접근성을 높이고 문서 탐색을 용이하게 합니다.
+## Common Issues and Solutions
+| Issue | Solution |
+|-------|----------|
+| Acrobat에서 태그가 보이지 않음 | 각 요소를 추가한 **후** `document.save()`를 호출했는지 확인하십시오. |
+| 언어가 인식되지 않음 | 언어 코드가 BCP‑47 규격(`en-US`, `fr-FR` 등)을 따르는지 확인하십시오. |
+| 대용량 파일에서 OutOfMemoryError 발생 | `document.optimizeResources()`를 활성화하고 페이지를 청크 단위로 처리하십시오. |
 
-### 다음 단계
-- 표, 목록, 사용자 정의 태그와 같은 고급 태깅 기능을 탐색해 보세요.  
-- 디지털 서명과 태깅을 결합하여 보안성과 접근성을 동시에 확보하세요.
+## Frequently Asked Questions
 
-## FAQ 섹션
-1. **태그가 포함된 PDF란?**  
-   화면 판독기를 지원하는 의미 정보를 포함한 PDF로, 접근성을 향상시킵니다.  
-2. **Aspose.PDF for Java를 시작하려면 어떻게 해야 하나요?**  
-   위에서 소개한 Maven 또는 Gradle 방법으로 라이브러리를 프로젝트에 추가합니다.  
-3. **Aspose.PDF를 무료로 사용할 수 있나요?**  
-   예, 평가용 무료 체험판을 제공하며, 운영 환경에서는 라이선스가 필요합니다.  
-4. **태그가 포함된 PDF의 장점은 무엇인가요?**  
-   접근성을 강화하고 탐색을 개선하며 보조 기술과 원활히 작동합니다.  
-5. **Aspose.PDF에 대한 추가 자료는 어디서 찾을 수 있나요?**  
-   자세한 가이드와 튜토리얼은 [Aspose 공식 문서](https://reference.aspose.com/pdf/java/)를 참고하세요.  
+**Q: What is a tagged PDF?**  
+A: A tagged PDF includes semantic information that aids screen readers, improving accessibility.  
 
-## 자주 묻는 질문
+**Q: How do I get started with Aspose.PDF for Java?**  
+A: Add the library to your project using Maven or Gradle as shown above.  
 
-**Q: 태깅이 PDF의 시각적 레이아웃에 영향을 줍니까?**  
-A: 아닙니다. 태그는 보이지 않는 메타데이터이며 PDF 화면 표시 방식은 변경되지 않습니다.
+**Q: Can I use Aspose.PDF for free?**  
+A: Yes, a free trial is available; a license is required for production.  
 
-**Q: 기존 PDF에 태그를 추가할 수 있나요?**  
-A: 가능합니다. PDF를 로드한 뒤 `ITaggedContent`를 가져와 필요한 요소를 추가하면 됩니다.
+**Q: What are the benefits of tagged PDFs?**  
+A: They enhance accessibility, improve navigation, and work well with assistive technologies.  
 
-**Q: 추가할 수 있는 태그 수에 제한이 있나요?**  
-A: 실질적인 제한은 없지만, 매우 큰 태그 트리는 성능에 영향을 줄 수 있으니 최적화를 고려하세요.
+**Q: Where can I find more resources on Aspose.PDF?**  
+A: Visit [Aspose's official documentation](https://reference.aspose.com/pdf/java/) for comprehensive guides and tutorials.  
 
-**Q: PDF가 제대로 태그되었는지 어떻게 확인하나요?**  
-A: Adobe Acrobat의 “Tags” 패널이나 PDF/UA 검증 도구를 사용하면 됩니다.
-
-**Q: 이 기능이 Java 11 이상에서도 작동하나요?**  
-A: 물론입니다. Aspose.PDF for Java는 Java 8 이상을 지원하며 Java 11, 17 및 최신 버전과 완벽히 호환됩니다.
-
-## 리소스
-- [Documentation](https://reference.aspose.com/pdf/java/)
-- [Download Library](https://releases.aspose.com/pdf/java/)
-- [Purchase License](https://purchase.aspose.com/buy)
-- [Free Trial](https://releases.aspose.com/pdf/java/)
-- [Temporary License](https://purchase.aspose.com/temporary-license/)
-- [Support Forum](https://forum.aspose.com/c/pdf/10)
+## Resources
+- [문서](https://reference.aspose.com/pdf/java/)
+- [라이브러리 다운로드](https://releases.aspose.com/pdf/java/)
+- [라이선스 구매](https://purchase.aspose.com/buy)
+- [무료 체험](https://releases.aspose.com/pdf/java/)
+- [임시 라이선스](https://purchase.aspose.com/temporary-license/)
+- [지원 포럼](https://forum.aspose.com/c/pdf/10)
 
 ---
 
-**Last Updated:** 2025-12-06  
+**Last Updated:** 2026-02-14  
 **Tested With:** Aspose.PDF for Java 25.3  
 **Author:** Aspose
 

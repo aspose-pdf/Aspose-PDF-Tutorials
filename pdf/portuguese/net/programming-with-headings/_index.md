@@ -22,6 +22,7 @@ Explore os recursos do Aspose.PDF para .NET com tutoriais dedicados. Aprenda a t
 | Título | Descrição |
 | --- | --- | 
 | [Aplicar estilo numérico em arquivo PDF](./apply-number-style/) | Aprenda a aplicar diferentes estilos numéricos (algarismos romanos, alfabéticos) a títulos em um PDF usando o Aspose.PDF para .NET com este guia passo a passo. |   
+| [Adicionar Título a PDF com Aspose – Guia Completo em C#](./add-heading-to-pdf-with-aspose-complete-c-guide/) | Aprenda a inserir títulos em PDFs usando Aspose.PDF para .NET com um guia completo em C#. |   
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

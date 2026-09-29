@@ -1,0 +1,7 @@
+Title: How to add rectangle to PDF in C# with Aspose.Pdf
+Slug: how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf
+Category: images-graphics
+ProcessedDate: 2026-09-28T08:00:14.377952
+SourceRepo: AI Search API
+Keywords: add rectangle to pdf, access first page pdf, load pdf document c#, add graphics pdf c#
+PRNumber: 136

@@ -1,0 +1,7 @@
+Title: Load pdf document and convert to PDF/X‑4 with Aspose.PDF
+Slug: load-pdf-document-and-convert-to-pdf-x-4-with-aspose-pdf
+Category: document-conversion
+ProcessedDate: 2026-09-28T08:00:17.024476
+SourceRepo: AI Search API
+Keywords: load pdf document, convert pdf programmatically, how to convert pdfx4, aspose pdf tutorial, convert pdf using aspose
+PRNumber: 136

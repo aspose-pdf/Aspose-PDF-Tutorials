@@ -37,7 +37,25 @@
 | [แยกเป็นหน้า](./split-to-pages/) แยกไฟล์ PDF ออกเป็นหน้าต่างๆ ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ .NET ด้วยบทช่วยสอนที่ครอบคลุมนี้ พร้อมคำแนะนำทีละขั้นตอน  
 - [อัปเดตขนาดหน้า PDF](./update-dimensions/) | ค้นพบวิธีอัปเดตขนาดหน้า PDF ได้อย่างง่ายดายด้วย Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนที่ครอบคลุมนี้  
 - [ซูมเข้าเนื้อหาหน้าในไฟล์ PDF](./zoom-to-page-contents/) | เรียนรู้วิธีซูมเนื้อหาหน้าในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ในคู่มือฉบับสมบูรณ์นี้ ปรับปรุงเอกสาร PDF ของคุณตามความต้องการเฉพาะของคุณ |  
-- [เพิ่มหมายเลขหน้า PDF ด้วย C# – คู่มือเต็มขั้นตอน](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | เรียนรู้วิธีเพิ่มหมายเลขหน้าในไฟล์ PDF ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET ผ่านคู่มือขั้นตอนเต็มรูปแบบ
+- [เพิ่มหมายเลขหน้า PDF ด้วย C# – คู่มือเต็มขั้นตอน](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | เรียนรู้วิธีเพิ่มหมายเลขหน้าในไฟล์ PDF ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET ผ่านคู่มือขั้นตอนเต็มรูปแบบ  
+- [เพิ่มหมายเลข Bates ใน C# – คู่มือเต็มขั้นตอน](./add-bates-numbering-in-c-step-by-step-guide/) | เรียนรู้วิธีเพิ่มหมายเลข Bates ในไฟล์ PDF ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET ผ่านคู่มือขั้นตอนเต็มรูปแบบ  
+- [เพิ่มหน้าใน PDF – คู่มือขั้นตอนเต็มสำหรับนักพัฒนา C#](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) | เรียนรู้วิธีเพิ่มหน้าในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านขั้นตอนละเอียดสำหรับนักพัฒนา C#
+- [จัดลำดับหน้า PDF ใน C# – คู่มือขั้นตอนเต็ม](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | เรียนรู้วิธีจัดลำดับหน้า PDF ใหม่ด้วย Aspose.PDF สำหรับ .NET ผ่านขั้นตอนละเอียดและตัวอย่างโค้ดที่เข้าใจง่าย
+- [สร้างเอกสาร PDF ด้วย C# – คู่มือเพิ่มรูปทรงและหน้าว่าง](./create-pdf-document-c-add-shapes-blank-pages-guide/) | เรียนรู้วิธีสร้าง PDF เพิ่มรูปทรงและแทรกหน้าว่างด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือขั้นตอนเต็มรูปแบบ
+- [สร้างเอกสาร PDF ด้วย C# – เพิ่มหมายเลข Bates](./create-pdf-document-c-add-bates-numbering/) | เรียนรู้วิธีเพิ่มหมายเลข Bates ให้กับไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านตัวอย่าง C# อย่างละเอียด  
+- [เพิ่มหมายเลข Bates ให้ PDF – คู่มือขั้นตอนเต็มสำหรับการใส่หมายเลขหน้า PDF](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | เรียนรู้วิธีเพิ่มหมายเลข Bates ให้ไฟล์ PDF อย่างละเอียดด้วย Aspose.PDF สำหรับ .NET ผ่านขั้นตอนที่ชัดเจน
+- [เพิ่มหมายเลขบาเตสใน PDF ด้วย Aspose – คู่มือเต็มขั้นตอน](./add-bates-numbering-pdf-with-aspose-complete-guide/) | เรียนรู้วิธีเพิ่มหมายเลขบาเตสในไฟล์ PDF อย่างละเอียดด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือขั้นตอนเต็มรูปแบบ
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+- [บทช่วยสอน Aspose PDF – แทรกหน้าว่างและอัปเดตหมายเลข Bates](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | เรียนรู้วิธีแทรกหน้าว่างใน PDF และอัปเดตหมายเลข Bates อย่างละเอียดด้วย Aspose.PDF สำหรับ .NET  
+- [สร้างหน้า PDF เปล่า – บทเรียนการวาด PDF เต็มรูปแบบ](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | เรียนรู้วิธีสร้างหน้า PDF เปล่าและวาดเนื้อหาเต็มรูปแบบด้วย Aspose.PDF สำหรับ .NET อย่างละเอียด
+- [เพิ่มหน้าใน PDF ด้วย Aspose – คู่มือ C# ฉบับสมบูรณ์](./add-pages-to-pdf-with-aspose-complete-c-guide/) | เรียนรู้วิธีเพิ่มหน้าในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ด้วยตัวอย่าง C# อย่างละเอียด |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

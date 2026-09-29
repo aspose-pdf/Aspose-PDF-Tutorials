@@ -1,0 +1,7 @@
+Title: Create Accessible Text Span in PDF with Aspose: Full C# Guide
+Slug: create-accessible-text-span-in-pdf-with-aspose-full-c-guide
+Category: programming-with-tagged-pdf
+ProcessedDate: 2026-06-05T23:43:51.398776
+SourceRepo: AI Search API
+Keywords: create accessible text span, convert pdf to pdf/x-4, how to convert pdf to pdfx4
+PRNumber: 87

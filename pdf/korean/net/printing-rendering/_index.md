@@ -50,6 +50,8 @@ Aspose.PDF for .NET을 사용하여 PDF의 특정 페이지를 효율적으로 �
 ### [Aspose.PDF for .NET을 사용하여 PDF에서 사용자 지정 확대/축소 비율 설정 - 완전한 가이드](./aspose-pdf-net-set-zoom-factor-pdfs/)
 Aspose.PDF for .NET을 사용하여 PDF 문서에 사용자 지정 확대/축소 비율을 설정하는 방법을 알아보세요. 이 가이드에서는 설치, 구현 단계 및 실제 적용 사례를 다룹니다.
 
+### [C#에서 PDF를 렌더링하는 방법 – PNG, HTML 및 스탬핑 완전 가이드](./how-to-render-pdf-in-c-complete-guide-to-png-html-stamping/)
+Aspose.PDF for .NET을 사용해 C#에서 PDF를 PNG와 HTML로 변환하고, 스탬프를 적용하는 전체 과정을 단계별로 안내합니다.
 ### [C#에서 PDF를 PNG로 렌더링하는 방법 – 단계별 가이드](./how-to-render-pdf-as-png-in-c-step-by-step-guide/)
 C#과 Aspose.PDF for .NET을 활용해 PDF 페이지를 PNG 이미지로 변환하는 단계별 가이드를 확인하세요.
 
