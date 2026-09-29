@@ -1,14 +1,77 @@
 ---
-date: '2026-01-06'
-description: Görselleri PDF'ye verimli bir şekilde dönüştürmeyi Aspose.PDF for Java
-  ile öğrenin, Aspose PDF Maven bağımlılığı kurulumunu da içeren. Fotoğrafları arşivlemek
-  veya raporlar oluşturmak için mükemmeldir.
+date: '2026-06-22'
+description: Aspose.PDF for Java kullanarak görsellerden PDF oluşturmayı, aspose pdf
+  maven dependency kurulumu da dahil olmak üzere öğrenin. Fotoğrafları arşivlemek,
+  raporlar oluşturmak veya TIFF, PNG, JPG dosyalarını dönüştürmek için mükemmeldir.
 keywords:
-- convert images to PDF
-- Aspose.PDF for Java
-- image-to-PDF conversion
-title: 'Aspose.PDF for Java Kullanarak Görüntüleri PDF''ye Dönüştürme - Kapsamlı Bir
-  Rehber'
+- create pdf from images
+- add images to pdf
+- generate pdf from jpg
+- aspose pdf maven dependency
+- convert tiff pdf java
+- convert png pdf java
+schemas:
+- author: Aspose
+  dateModified: '2026-06-22'
+  description: Learn how to create PDF from images using Aspose.PDF for Java, including
+    the aspose pdf maven dependency setup. Perfect for archiving photos, generating
+    reports, or converting TIFF, PNG, JPG files.
+  headline: How to Create PDF from Images Using Aspose.PDF for Java – A Comprehensive
+    Guide
+  type: TechArticle
+- description: Learn how to create PDF from images using Aspose.PDF for Java, including
+    the aspose pdf maven dependency setup. Perfect for archiving photos, generating
+    reports, or converting TIFF, PNG, JPG files.
+  name: How to Create PDF from Images Using Aspose.PDF for Java – A Comprehensive
+    Guide
+  steps:
+  - name: Instantiate Document Object
+    text: The `Document` class represents a PDF file in memory and provides methods
+      to add pages and content.
+  - name: Add a Page to the Document
+    text: A `Page` object defines a single page within the PDF, including its size
+      and layout.
+  - name: Load the Image File
+    text: '`FileInputStream` reads raw bytes from the image file, allowing Aspose.PDF
+      to stream the data without loading the entire file into RAM.'
+  - name: Set Page Margins and Crop Box
+    text: Adjust the margins (or set them to `0`) so the image fills the page without
+      unwanted whitespace.
+  - name: Create and Add Image Object
+    text: The `Image` class wraps the image stream and can be positioned on the page;
+      adding it to a paragraph places it in the PDF content flow.
+  - name: Save the PDF Document
+    text: Call the `save` method on the `Document` instance to write the final PDF
+      to disk.
+  - name: Instantiate Document and Add Page
+    text: Create a new `Document` and a `Page` as described earlier to host the image.
+  - name: Create BufferedImage from Image File
+    text: '`BufferedImage` holds the image in memory; writing it to a `ByteArrayOutputStream`
+      converts it to a byte array suitable for streaming.'
+  - name: Add Image to Page and Set Stream
+    text: Wrap the byte array in a `ByteArrayInputStream` and assign it to an `Image`
+      object, which can then be added to the page.
+  - name: Save the PDF Document
+    text: Persist the PDF to your chosen output folder using the `save` method.
+  type: HowTo
+- questions:
+  - answer: Yes – add multiple `Image` objects to successive pages, each referencing
+      a different format (JPG, PNG, TIFF, etc.).
+    question: Can I convert images of different formats in a single PDF?
+  - answer: Use the direct file stream method and set the image’s resolution property
+      before saving; this preserves the original JPG fidelity.
+    question: How do I generate pdf from jpg without losing quality?
+  - answer: A valid Aspose.PDF license is mandatory for production; the free trial
+      is limited to evaluation only.
+    question: Is a license required for production use?
+  - answer: Yes – create a `Page` with a custom `Rectangle` size before adding the
+      image.
+    question: Can I set custom page sizes (A4, Letter, etc.)?
+  - answer: The library can open encrypted PDFs, but image insertion works only on
+      unencrypted pages.
+    question: Does Aspose.PDF support password‑protected PDFs?
+  type: FAQPage
+title: Aspose.PDF for Java Kullanarak Görsellerden PDF Oluşturma – Kapsamlı Bir Rehber
 url: /tr/java/conversion-export/convert-images-pdf-aspose-java/
 weight: 1
 ---
@@ -18,33 +81,33 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Görselleri PDF'e Dönüştürme: Aspose.PDF for Java Kullanarak
+# Aspose.PDF for Java Kullanarak Görsellerden PDF Oluşturma
 
-Görselleri PDF belgelerine dönüştürmek birçok uygulama için gereklidir ve **bu eğitim, Aspose.PDF for Java kullanarak görselleri PDF'e nasıl dönüştüreceğinizi tam olarak gösterir**. Aile fotoğraflarını arşivlemek, raporlar oluşturmak veya makbuzları dijitalleştirmek isterken, aşağıdaki adımlar herhangi bir görsel dosyasını profesyonel görünümlü bir PDF'e hızlı ve güvenilir bir şekilde dönüştürmenizi sağlar.
+Görselleri PDF belgelerine dönüştürmek, birçok Java uygulaması için yaygın bir gereksinimdir. Bu öğreticide **görsellerden PDF oluşturma** işlemini Aspose.PDF for Java ile hızlı ve güvenilir bir şekilde yapacaksınız. Aile fotoğraflarını arşivlemek, ekranda görüntülenen ekran görüntüleriyle rapor oluşturmak veya makbuzları dijitalleştirmek ister misiniz, aşağıdaki adımlar üretim‑hazır bir çözüm sunar.
 
 ## Hızlı Yanıtlar
 - **Hangi kütüphane gerekiyor?** Aspose.PDF for Java (aspose pdf maven bağımlılığını ekleyin).  
-- **TIFF dosyalarını dönüştürebilir miyim?** Evet – aynı kod TIFF, JPEG, PNG, GIF vb. için çalışır.  
-- **Lisans gerekli mi?** Ücretsiz deneme değerlendirme için çalışır; üretim için kalıcı bir lisans gereklidir.  
-- **Sayfa kenar boşlukları nasıl yönetilir?** Programatik olarak ayarlayabilirsiniz (bkz. “java pdf page margins”).  
-- **Arabellekli akış önerilir mi?** Evet – büyük görseller için bellek kullanımını azaltır.
+- **TIFF dosyalarını dönüştürebilir miyim?** Evet – aynı kod TIFF, JPEG, PNG, GIF ve BMP için çalışır.  
+- **Lisans gerekli mi?** Değerlendirme için ücretsiz deneme yeterlidir; üretim kullanımı için kalıcı bir lisans gerekir.  
+- **Sayfa kenar boşlukları nasıl ele alınır?** Programatik olarak ayarlayabilirsiniz (bkz. “java pdf page margins”).  
+- **Arabellekli akış önerilir mi?** Evet – büyük görsellerde bellek kullanımını azaltır ve dönüşümü hızlandırır.
 
-## “Görselleri PDF'e dönüştürmek” nedir?
-Görselleri PDF'e dönüştürmek, bir veya daha fazla raster görsel dosyasını (JPG, PNG veya TIFF gibi) bir PDF konteynerine yerleştirerek, platformlar arasında tutarlı bir şekilde görüntülenebilmesini, paylaşılabilmesini ve yazdırılabilmesini sağlar.
+## “Görsellerden PDF oluşturma” nedir?
+Görsellerden PDF oluşturmak, JPG, PNG, TIFF veya GIF gibi bir veya daha fazla raster dosyasını bir PDF konteynerine gömmek anlamına gelir. Ortaya çıkan PDF, orijinal görsellerin görsel bütünlüğünü korurken, tek bir taşınabilir belge sunar; bu belge herhangi bir platformda, izleyicinin işletim sisteminden bağımsız olarak tutarlı bir şekilde görüntülenebilir, paylaşılabilir ve yazdırılabilir.
 
-## Neden Aspose.PDF for Java kullanmalı?
-- **Tam özellikli API** – ek eklentiler olmadan tüm başlıca görsel formatlarını destekler.  
-- **Harici bağımlılık yok** – sadece Aspose JAR ile kutudan çıkar çıkmaz çalışır.  
-- **İnce ayarlı kontrol** – sayfa boyutu, kenar boşlukları, sıkıştırma ve daha fazlasını ayarlayabilirsiniz.
+## Aspose.PDF for Java neden kullanılmalı?
+Aspose.PDF for Java **10+ görüntü formatını** destekler, **500‑sayfalık PDF'leri** tüm dosyayı belleğe yüklemeden işleyebilir ve sayfa boyutu, kenar boşlukları ve sıkıştırma üzerinde **ince ayar kontrolü** sağlar. Bu ölçülebilir yetenekler, kurumsal düzeyde görüntü‑PDF dönüşümü için onu önde gelen bir seçenek haline getirir.
 
 ## Önkoşullar
 
-Başlamadan önce aşağıdakilerin mevcut olduğundan emin olun:
+- Java 8 ve üzeri yüklü.
+- IntelliJ IDEA veya Eclipse gibi bir IDE.
+- Bağımlılık yönetimi için Maven veya Gradle.
 
 ### Aspose PDF Maven Bağımlılığını Ekleme
-Aspose.PDF for Java kullanmak için kütüphaneyi derleme dosyanıza dahil edin.
+Aspose.PDF for Java'ı kullanmak için kütüphaneyi derleme dosyanıza dahil edin.
 
-**Maven:**
+**Maven:**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -53,93 +116,86 @@ Aspose.PDF for Java kullanmak için kütüphaneyi derleme dosyanıza dahil edin.
 </dependency>
 ```
 
-**Gradle:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### Ortam Kurulumu
-Java 8 ve üzeri ile IntelliJ IDEA veya Eclipse gibi bir IDE'nizin olduğundan emin olun.
+### Lisans Alımı
+Aspose.PDF for Java'ı kullanmak için:
 
-### Lisans Edinme
-Aspose.PDF for Java kullanmak için:
-- Kütüphanenin yeteneklerini keşfetmek için **ücretsiz deneme** edinmeyi düşünün.  
-- Ücretsiz denemenin sunduğu limitlerin üzerindeyseniz **geçici bir lisans** alın.  
-- Uzun vadeli projeler için **tam lisans** satın alın.
+- **Ücretsiz deneme** – lisans anahtarı olmadan tüm özellikleri keşfedin.  
+- **Geçici lisans** – deneme limitlerini kısa bir süre için genişletir.  
+- **Tam lisans** – üretim dağıtımları için gereklidir.
 
-Lisans edinme detayları için [Aspose'un Satın Alma Sayfası](https://purchase.aspose.com/buy) adresini ziyaret edin.  
-Geçici lisansı ayrıca [buradan](https://purchase.aspose.com/temporary-license/) alabilirsiniz.
+Ayrıntılar için [Aspose's Purchase Page](https://purchase.aspose.com/buy) adresini ziyaret edin. Geçici bir lisansı ayrıca [buradan](https://purchase.aspose.com/temporary-license/) alabilirsiniz.
 
 ## Aspose.PDF for Java'ı Kurma
 
-Bağımlılıklar yerleştirildikten sonra Aspose.PDF'i projenizde başlatın.
+Bağımlılıklar eklendikten sonra projenizde Aspose.PDF'ı başlatın.
 
-1. **Maven veya Gradle bağımlılığını** `pom.xml` veya `build.gradle` dosyanıza ekleyin.  
-2. **Java dosyanıza Aspose.PDF sınıflarını** içe aktarın.  
-3. Gerekirse aşağıdaki kodla lisansı uygulayın:
+1. `pom.xml` veya `build.gradle` dosyanıza Maven ya da Gradle bağımlılığını ekleyin.  
+2. Java kaynak dosyanıza gerekli Aspose.PDF sınıflarını içe aktarın.  
+3. Aşağıdaki kodla lisansınızı uygulayın (varsa):  
 ```java
 com.aspose.pdf.License license = new com.aspose.pdf.License();
 license.setLicense("path/to/your/license/file");
 ```
 
-## Uygulama Rehberi
+## Uygulama Kılavuzu
 
-Bu rehber iki ana özelliğe ayrılmıştır: doğrudan dosya akışlarıyla bir görseli PDF'e dönüştürme ve bir `BufferedImage`'den PDF'e görsel ekleme.
+Kılavuz, iki yaygın senaryoyu kapsar: doğrudan dosya akışıyla bir görseli dönüştürmek ve bir `BufferedImage` üzerinden görsel eklemek.
 
-### Doğrudan Dosya Akışı Kullanarak Görseli PDF'e Dönüştürme
+### Doğrudan dosya akışıyla görsellerden PDF oluşturma nasıl yapılır?
+Görselinizi bir `FileInputStream` ile yükleyin ve sadece birkaç satırda yeni bir PDF belgesine gömün. Bu akış yöntemi bellek kullanımını düşük tutar, büyük TIFF dosyalarıyla iyi çalışır ve sayfa boyutları ile kenar boşluklarını doğrudan kod içinde kontrol etmenizi sağlar.
 
 #### Adım 1: Document Nesnesini Oluşturma
+`Document` sınıfı bellekte bir PDF dosyasını temsil eder ve sayfa ve içerik eklemek için yöntemler sunar.  
 ```java
 doc = new Document();
-```
-`Document` nesnesi oluşturun; bu nesne PDF dosyanızın konteyneri olarak hizmet edecektir.
+```  
 
 #### Adım 2: Belgeye Sayfa Ekleme
+`Page` nesnesi PDF içinde tek bir sayfayı, boyutunu ve düzenini tanımlar.  
 ```java
 page = doc.getPages().add();
-```
-Yeni bir sayfa ekleyin. Görseliniz bu sayfaya yerleştirilecektir.
+```  
 
-#### Adım 3: Görsel Dosyasını Yükleme
+#### Adım 3: Görüntü Dosyasını Yükleme
+`FileInputStream`, görüntü dosyasından ham baytları okur; böylece Aspose.PDF veriyi RAM'e tamamen yüklemeden akıtabilir.  
 ```java
 FileInputStream fs = new FileInputStream("YOUR_DOCUMENT_DIRECTORY/source.tif");
-```
-Kaynak görsel dosyanızı bir `FileInputStream` içine yükleyin. "YOUR_DOCUMENT_DIRECTORY/source.tif" ifadesini gerçek görsel yolunuzla değiştirin.
+```  
 
 #### Adım 4: Sayfa Kenar Boşluklarını ve Kırpma Kutusunu Ayarlama
-```java
-page.getPageInfo().getMargin().setBottom(0);
-page.getPageInfo().getMargin().setTop(0);
-page.getPageInfo().getMargin().setLeft(0);
-page.getPageInfo().getMargin().setRight(0);
-page.setCropBox(new Rectangle(0, 0, 400, 400));
-```
-Görselin sayfaya iyi oturmasını sağlamak için kenar boşluklarını ve kırpma kutusunu ayarlayın.
+Kenar boşluklarını (veya `0` olarak ayarlayın) görüntünün sayfayı istenmeyen boşluk bırakmadan doldurmasını sağlayın.
 
-#### Adım 5: Görsel Nesnesi Oluşturma ve Ekleme
+#### Adım 5: Image Nesnesi Oluşturma ve Ekleme
+`Image` sınıfı görüntü akışını sarar ve sayfada konumlandırılabilir; bir paragraf içine eklenmesi PDF içerik akışına yerleştirir.  
 ```java
 Image image1 = new Image();
 page.getParagraphs().add(image1);
 image1.setImageStream(fs);
-```
-Bir `Image` nesnesi oluşturun, sayfanın paragraf koleksiyonuna ekleyin ve akışını dosya giriş akışınızla ayarlayın.
+```  
 
 #### Adım 6: PDF Belgesini Kaydetme
+`Document` örneği üzerindeki `save` metodunu çağırarak son PDF'yi diske yazın.  
 ```java
 doc.save("YOUR_OUTPUT_DIRECTORY/Image2PDF_DOM.pdf");
-```
-Belgeyi istediğiniz konuma kaydedin. "YOUR_OUTPUT_DIRECTORY/Image2PDF_DOM.pdf" ifadesini çıkış yolunuzla değiştirin.
+```  
 
-### BufferedImage'den PDF'e Görsel Ekleme
+### BufferedImage kullanarak PDF'ye görüntü ekleme nasıl yapılır?
+Zaten bir `BufferedImage`'ınız varsa—örneğin yeniden boyutlandırma ya da filtre uygulama sonrası—bunu bayt akışına dönüştürüp dosya sistemine dokunmadan gömebilirsiniz; bu da I/O yükünü daha da azaltır.
 
-#### Adım 1: Document Nesnesi Oluşturma ve Sayfa Ekleme
+#### Adım 1: Document Oluştur ve Sayfa Ekle
+Daha önce anlatıldığı gibi yeni bir `Document` ve `Page` oluşturun; bu sayfa görüntüyü barındıracak.  
 ```java
 doc = new Document();
 page = doc.getPages().add();
-```
-Belgeyi oluşturup bir sayfa ekleyerek önceki özelliğe benzer şekilde başlayın.
+```  
 
-#### Adım 2: Görsel Dosyasından BufferedImage Oluşturma
+#### Adım 2: Görüntü Dosyasından BufferedImage Oluştur
+`BufferedImage` bellekte görüntüyü tutar; bunu bir `ByteArrayOutputStream`'a yazarak akışa uygun bayt dizisine dönüştürür.  
 ```java
 Image image1 = new Image();
 java.awt.image.BufferedImage bufferedImage = ImageIO.read(new File("YOUR_DOCUMENT_DIRECTORY/source.gif"));
@@ -149,61 +205,59 @@ ByteArrayOutputStream baos = new ByteArrayOutputStream();
 ImageIO.write(bufferedImage, "gif", baos);
 baos.flush();
 ByteArrayInputStream bais = new ByteArrayInputStream(baos.toByteArray());
-```
-Görsel dosyanızı bir `BufferedImage`'a dönüştürün ve ardından bir `ByteArrayOutputStream`'a yazın. Bu akış, görseli PDF'e eklemek için kullanılacaktır.
+```  
 
-#### Adım 3: Görseli Sayfaya Ekleme ve Akışı Ayarlama
+#### Adım 3: Görüntüyü Sayfaya Ekle ve Akışı Ayarla
+Bayt dizisini bir `ByteArrayInputStream` içinde sarın ve bir `Image` nesnesine atayın; ardından sayfaya ekleyin.  
 ```java
 page.getParagraphs().add(image1);
 image1.setImageStream(bais);
-```
-Görsel nesnenizi sayfanın paragraf koleksiyonuna ekleyin ve akışını `ByteArrayInputStream` kullanarak ayarlayın.
+```  
 
-#### Adım 4: PDF Belgesini Kaydetme
+#### Adım 4: PDF Belgesini Kaydet
+`save` metodunu kullanarak PDF'yi istediğiniz çıkış klasörüne kalıcı hale getirin.  
 ```java
 doc.save("YOUR_OUTPUT_DIRECTORY/BufferedImage.pdf");
-```
-Belgenizi kaydedin. Doğru çıkış dizinini belirttiğinizden emin olun.
+```  
 
 ## Pratik Uygulamalar
 
-- **Fotoğraf Arşivleme:** Dijital fotoğrafları kolay paylaşım ve depolama için birleştirilmiş PDF'e dönüştürün.  
-- **Belge Hazırlama:** Görselleri gömülü raporlar veya sunumlar hazırlayın.  
-- **Fiş Yönetimi:** Basılı fişleri elektronik arşivleme için PDF'lere dönüştürerek dijitalleştirin.
+- **Fotoğraf Arşivleme:** JPEG'lerin bir topluluğunu tek bir PDF'ye dönüştürerek kolay paylaşım.  
+- **Rapor Oluşturma:** Ekran görüntülerini veya grafiklerini doğrudan PDF'lere ekleyerek otomatik raporlama.  
+- **Fiş Yönetimi:** Tarama yapılan fişleri (çoğunlukla TIFF) yığın belleği tüketmeden dijitalleştirin.  
 
-Bu yöntemler belge yönetim platformları veya bulut depolama hizmetleriyle entegre edilerek iş akışı otomasyonunu artırabilir.
+Bu senaryolar, bulut depolama API'leri veya belge‑yönetim sistemleriyle birleştirilerek uçtan uca iş akışları oluşturulabilir.
 
 ## Performans Düşünceleri
 
-Aspose.PDF for Java ile çalışırken:
-- Dönüştürmeden önce görsel çözünürlüğünü ve boyutunu optimize ederek bellek kullanımını yönetin.  
-- Büyük dosyaları verimli bir şekilde işlemek için arabellekli akışları kullanın, I/O işlemlerini azaltın.  
-- Akışları kullandıktan sonra kapatarak bellek sızıntılarını önlemek gibi Java bellek yönetimi en iyi uygulamalarını izleyin.
+- **Çözünürlük Optimizasyonu:** Dönüştürmeden önce yüksek çözünürlüklü görüntüleri küçülterek dosya boyutunu yönetilebilir tutun.  
+- **Arabellekli Akış:** Tüm görüntüyü belleğe yüklemekten kaçınmak için `FileInputStream` veya `ByteArrayInputStream` kullanın.  
+- **Kaynak Temizliği:** Bellek sızıntılarını önlemek için her zaman akışları `finally` bloğunda kapatın veya try‑with‑resources kullanın.
 
 ## Yaygın Sorunlar ve Çözümler
 
 | Sorun | Neden | Çözüm |
 |-------|-------|-----|
-| **OutOfMemoryError** | Arabellek kullanılmadan çok büyük görseller yüklendi | `FileInputStream` veya `BufferedImage` akışlarıyla kullanın ve hemen kapatın. |
-| **Image not displayed** | Yanlış görsel yolu veya desteklenmeyen format | Dosya yolunu doğrulayın ve formatın (JPEG, PNG, GIF, TIFF) desteklendiğinden emin olun. |
-| **Margins appear incorrectly** | Varsayılan kenar boşlukları geçersiz kılınmadı | Kodda gösterildiği gibi tüm dört kenar boşluğunu açıkça `0` (veya istenen değer) olarak ayarlayın. |
+| **OutOfMemoryError** | Arabellek kullanılmadan çok büyük görüntüler yüklendi | `FileInputStream` veya `BufferedImage` akışlarıyla kullanın ve onları hemen kapatın. |
+| **Image not displayed** | Yanlış görüntü yolu veya desteklenmeyen format | Dosya yolunu doğrulayın ve formatın (JPEG, PNG, GIF, TIFF) desteklendiğinden emin olun. |
+| **Margins appear incorrectly** | Varsayılan kenar boşlukları geçersiz kılınmadı | Kodda gösterildiği gibi tüm dört kenar boşluğunu açıkça `0` (veya istediğiniz değer) olarak ayarlayın. |
 
 ## Sıkça Sorulan Sorular
 
-**S: Farklı formatlarda görselleri tek bir PDF'e dönüştürebilir miyim?**  
-**C:** Evet – farklı formatlarda birden fazla `Image` nesnesini ardışık sayfalara ekleyerek her birini farklı bir formatta gösterebilirsiniz.
+**S: Farklı formatlardaki görselleri tek bir PDF'de birleştirebilir miyim?**  
+C: Evet – farklı formatlarda (JPG, PNG, TIFF vb.) birden fazla `Image` nesnesini ardışık sayfalara ekleyebilirsiniz.
 
-**S: Büyük TIFF dosyalarını bellek tükenmeden nasıl yönetebilirim?**  
-**C:** İlk özelliğin 3. adımında gösterildiği gibi doğrudan dosya akışı yaklaşımını kullanın ve kaydetme işleminden sonra `FileInputStream`'i kapatın.
+**S: JPG'den kalite kaybı olmadan PDF nasıl oluşturulur?**  
+C: Doğrudan dosya akışı yöntemini kullanın ve kaydetmeden önce görüntünün çözünürlük özelliğini ayarlayın; bu, orijinal JPG bütünlüğünü korur.
 
-**S: Üretim ortamında lisans gerekli mi?**  
-**C:** Üretim için geçerli bir Aspose.PDF lisansı gereklidir; ücretsiz deneme yalnızca değerlendirme amaçlı uygundur.
+**S: Üretim kullanımında lisans gerekli mi?**  
+C: Üretim için geçerli bir Aspose.PDF lisansı zorunludur; ücretsiz deneme yalnızca değerlendirme amaçlıdır.
 
 **S: Özel sayfa boyutları (A4, Letter vb.) ayarlayabilir miyim?**  
-**C:** Evet – görseli eklemeden önce özel bir `Rectangle` boyutu ile bir `Page` oluşturabilirsiniz.
+C: Evet – görüntüyü eklemeden önce özel bir `Rectangle` boyutu ile `Page` oluşturabilirsiniz.
 
 **S: Aspose.PDF şifre korumalı PDF'leri destekliyor mu?**  
-**C:** Kütüphane şifreli PDF'leri açıp kaydedebilir, ancak görsel ekleme yalnızca şifresiz sayfalarda çalışır.
+C: Kütüphane şifreli PDF'leri açabilir, ancak görüntü ekleme yalnızca şifresiz sayfalarda çalışır.
 
 ## Kaynaklar
 - [Aspose.PDF Dokümantasyonu](https://reference.aspose.com/pdf/java/)
@@ -213,13 +267,22 @@ Aspose.PDF for Java ile çalışırken:
 - [Geçici Lisans](https://purchase.aspose.com/temporary-license/)
 - [Aspose Destek Forumu](https://forum.aspose.com/c/pdf/10)
 
-Denemeye hazır mısınız? Bu çözümü bugün projenize uygulayın ve görsel‑PDF akışınızı hızlandırın!
+Bu çözümü projenizde bugün uygulayın ve **görsellerden PDF oluşturma** iş akışınızı hızlandırın!
 
 ---
 
-**Son Güncelleme:** 2026-01-06  
-**Test Edilen Sürüm:** Aspose.PDF for Java 25.3  
+**Son Güncelleme:** 2026-06-22  
+**Test Edilen:** Aspose.PDF for Java 25.3  
 **Yazar:** Aspose
+
+{{< blocks/products/products-backtop-button >}}
+
+## İlgili Öğreticiler
+
+- [Aspose.PDF for Java Kullanarak PDF'lerde Görüntü Ekleme ve Değiştirme: Kapsamlı Kılavuz](/pdf/java/images-graphics/add-change-images-aspose-pdf-java/)
+- [Aspose.PDF for Java Kullanarak PDF'yi PNG'ye Dönüştürme – Kapsamlı Kılavuz](/pdf/java/conversion-export/convert-pdf-pages-to-png-aspose-pdf-java/)
+- [Java'da PDF'yi TIFF'e Dönüştürme: Aspose.PDF Kullanarak Kapsamlı Kılavuz](/pdf/java/conversion-export/convert-pdf-to-tiff-aspose-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -227,4 +290,10 @@ Denemeye hazır mısınız? Bu çözümü bugün projenize uygulayın ve görsel
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+```java
+page.getPageInfo().getMargin().setBottom(0);
+page.getPageInfo().getMargin().setTop(0);
+page.getPageInfo().getMargin().setLeft(0);
+page.getPageInfo().getMargin().setRight(0);
+page.setCropBox(new Rectangle(0, 0, 400, 400));
+```

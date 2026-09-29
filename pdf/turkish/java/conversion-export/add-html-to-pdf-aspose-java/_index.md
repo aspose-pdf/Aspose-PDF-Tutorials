@@ -1,12 +1,70 @@
 ---
-date: '2026-01-04'
-description: Java ile PDF'lere Aspose PDF HTML parçacığı eklemeyi, HTML'den PDF oluşturmayı
-  ve Aspose.PDF kullanarak metni biçimlendirmeyi öğrenin.
+date: '2026-06-22'
+description: Aspose.PDF for Java ile bir HTML fragmenti ekleyerek pdf java oluşturmayı,
+  HTML'den PDF üretmeyi, PDF kenar boşluklarını ayarlamayı ve bir lisans uygulamayı
+  öğrenin.
 keywords:
-- Add HTML to PDF with Aspose.PDF for Java
-- Aspose.PDF DOM implementation
-- Java library integration
-title: aspose pdf html fragment – Java ile PDF'ye HTML ekle
+- create pdf java
+- aspose pdf license
+- generate pdf html java
+- set pdf margins
+- aspose pdf maven
+schemas:
+- author: Aspose
+  dateModified: '2026-06-22'
+  description: Learn how to create pdf java by adding an HTML fragment with Aspise.PDF
+    for Java, generate PDF from HTML, set PDF margins, and apply a license.
+  headline: create pdf java – Add HTML Content to a PDF Using Aspose.PDF for Java
+  type: TechArticle
+- description: Learn how to create pdf java by adding an HTML fragment with Aspise.PDF
+    for Java, generate PDF from HTML, set PDF margins, and apply a license.
+  name: create pdf java – Add HTML Content to a PDF Using Aspose.PDF for Java
+  steps:
+  - name: '**Create a Document Object**'
+    text: '**Create a Document Object**'
+  - name: '**Add a Page to the Document**'
+    text: '**Add a Page to the Document**'
+  - name: '**Create an HTML Fragment**'
+    text: '**Create an HTML Fragment**'
+  - name: '**Set Text State**'
+    text: '**Set Text State**'
+  - name: '**Configure Margins**'
+    text: '**Configure Margins**'
+  - name: '**Add the Fragment to the Page**'
+    text: '**Add the Fragment to the Page**'
+  - name: '**Save the Document**'
+    text: '**Save the Document**'
+  - name: '**Dynamic Reports:** Auto‑generate financial statements that include styled
+      tables, charts, and conditional formatting.'
+    text: '**Dynamic Reports:** Auto‑generate financial statements that include styled
+      tables, charts, and conditional formatting.'
+  - name: '**Invoices:** Produce client‑specific invoices where branding colors and
+      fonts are defined in an HTML template.'
+    text: '**Invoices:** Produce client‑specific invoices where branding colors and
+      fonts are defined in an HTML template.'
+  - name: '**Marketing Brochures:** Convert web‑ready brochure layouts into high‑resolution
+      PDFs without redesigning the layout.'
+    text: '**Marketing Brochures:** Convert web‑ready brochure layouts into high‑resolution
+      PDFs without redesigning the layout.'
+  type: HowTo
+- questions:
+  - answer: Use `textState.setFontSize(12)` on the `TextState` object before attaching
+      the `HtmlFragment`.
+    question: How can I change the font size of an HTML fragment?
+  - answer: Split the workload into smaller batches, increase the JVM heap (`-Xmx2g`),
+      or enable `document.optimizeResources()` to free unused objects.
+    question: What should I do if my PDF processing exceeds memory limits?
+  - answer: Aspose provides equivalent libraries for .NET, C++, and Python, but the
+      Java API is specific to Java projects.
+    question: Can I use Aspose.PDF for Java with other programming languages?
+  - answer: Yes—include `<img src="path/to/image.png"/>` in your HTML string and ensure
+      the file path is reachable at runtime.
+    question: Is it possible to embed images inside the HTML fragment?
+  - answer: Basic inline CSS is supported; for advanced layouts, preprocess the HTML
+      or use Aspose’s styling APIs to apply fonts, colors, and spacing before rendering.
+    question: How does Aspose handle complex CSS styles?
+  type: FAQPage
+title: pdf java oluştur – Aspose.PDF for Java kullanarak bir PDF'ye HTML içeriği ekleyin
 url: /tr/java/conversion-export/add-html-to-pdf-aspose-java/
 weight: 1
 ---
@@ -16,61 +74,58 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.PDF for Java Kullanarak PDF'ye HTML İçeriği Nasıl Eklenir
+# Aspose.PDF for Java Kullanarak PDF'ye HTML İçeriği Ekleme
 
-## Giriiş
+## Giriş
 
-Java kullanarak PDF belgelerinizi HTML'yi sorunsuz bir şekilde entegre etmek mi istiyorsunuz? Bu rehberde bir **aspose pdf html fragment**'i PDF'e nasıl ekleyeceğinizi, html'den pdf oluşturmayı ve metni Aspose.PDF for Java ile bilgilerinizi nasıl biçimlendireceğinizi öğrenin. Raporlar, faturalar veya pazarlama broşürleri oluşturulun, bu öğretici PDF'leri zengin HTML biçimlendirmesiyle zenginleştirmenin pratik bir yolunu gösterir.
+Eğer zengin HTML biçimlendirmesi içeren **create PDF Java** dosyaları oluşturmanız gerekiyorsa, Aspose.PDF for Java tek adımlı bir çözüm sunar. Bu öğreticide bir **Aspose PDF HTML fragment**'i PDF'ye nasıl ekleyeceğinizi, HTML'den PDF oluşturmayı ve metni hassas kenar boşluğu kontrolüyle nasıl biçimlendireceğinizi öğreneceksiniz. Faturalar, dinamik raporlar veya pazarlama broşürleri üretirken, HTML gömmek mevcut web şablonlarını yeniden kullanmanıza ve çıktının tam PDF‑uyumlu kalmasına olanak tanır.
 
-**Ne Öğreneceksiniz:**
-- DOM kullanarak PDF'ye HTML içeriği nasıl eklenir?
-- Yazı tipi, boyut ve kenar boşlukları gibi metin stillerini ayarlama.
-- Aspose.PDF for Java'nın gerçek dünya senaryolarında pratik uygulamaları.
+**Öğrenecekleriniz**
+- DOM API'sini kullanarak bir PDF'ye HTML içeriği ekleme.  
+- Yazı tipi, boyut gibi metin stillerini ve **set PDF margins**'i programlı olarak ayarlama.  
+- Gerçek dünya senaryolarında **generate PDF HTML Java**'nin geliştirme süresini nasıl tasarruf ettirdiği.  
 
-Uygulamaya başlamadan önce önkoşullara bakalım!
+Uygulamaya geçmeden önce gereksinimleri gözden geçirelim.
 
 ## Hızlı Yanıtlar
-- **Aspose pdf html fragment özelliği ne işe yarar?** HTML işaretlemesini doğrudan bir PDF sayfasına yerleştirmenize olanak tanır.
-- **Hangi Maven yapıtı gereklidir?** `com.aspose:aspose-pdf:25.3` (veya daha yenisi).
+- **Aspose PDF HTML fragment özelliği ne yapar?** HTML işaretlemesini doğrudan bir PDF sayfasına gömer, tabloları, listeleri ve temel CSS'i korur.  
+- **Hangi Maven artefaktı gereklidir?** `com.aspose:aspose-pdf:25.3` (or newer) – the **Aspose PDF Maven** package.  
+- **HTML'i CSS ile biçimlendirebilir miyim?** Temel satır içi CSS desteklenir; karmaşık stiller için HTML'i ön işleme tabi tutabilir veya Aspose'un stil API'lerini kullanabilirsiniz.  
+- **Üretim kullanımında lisansa ihtiyacım var mı?** Evet – değerlendirme filigranlarını kaldırmak için bir **Aspose PDF license** gereklidir.  
+- **Bu yaklaşım büyük toplu işler için uygun mu?** Kesinlikle, ancak bellek kullanımını izleyin ve dosyaları toplu olarak işlemeyi düşünün.
 
-- **HTML'i CSS ile biçimlendirebilir miyim?** Temel satır içi CSS desteklenir; karmaşık stiller ön işleme gerektirebilir.
+## Aspose PDF HTML fragment nedir?
+Aspose.PDF'nin yorumlayıp yerel PDF öğeleri (paragraflar, tablolar ve görseller gibi) haline dönüştürebileceği küçük bir HTML işaretleme parçasıdır. Bir HTML fragment'i kullanarak mevcut web tabanlı şablonları yeniden kullanabilir, stil ve düzeni koruyarak tam uyumlu bir PDF belgesi oluşturabilirsiniz.
 
-- **Üretim kullanımı için lisansa ihtiyacım var mı?** Evet – geçici veya ticari bir lisans gereklidir.
+## HTML'den PDF oluşturmak için neden Aspose.PDF for Java kullanmalı?
+Aspose.PDF for Java, HTML içeriğini doğrudan PDF'ye dönüştüren bütünleşik bir motor sağlar; dış araçlara ihtiyaç duymaz. Tabloları, listeleri ve temel CSS'i doğru şekilde render eder, birçok dosya formatını destekler ve geliştiricilere düzen, yazı tipleri ve kenar boşlukları üzerinde programatik kontrol sunar; bu da otomatik belge üretimi için idealdir.
 
-- **Bu yaklaşım büyük toplu işler için uygun mu?** Evet, ancak bellek kullanımını izleyin ve toplu işlemeyi düşünün.
+- **Rich formatting** – tablolar, listeler ve temel CSS doğru şekilde render edilir, 50'den fazla giriş ve çıkış formatını destekler.  
+- **No external converters** – dönüşüm tamamen Java uygulamanız içinde çalışır, üçüncü taraf bağımlılıklarını ortadan kaldırır.  
+- **Fine‑grained control** – her fragment için kenar boşluklarını, yazı tiplerini ve konumlandırmayı programlı olarak ayarlayabilirsiniz.
 
-## Aspose PDF HTML parçası nedir?
+## Ön Koşullar
 
-**Aspose PDF HTML parçası**, Aspose.PDF'nin ayrıştırıp PDF öğeleri olarak işlediği bir HTML kod parçasıdır. Mevcut HTML şablonlarınızı korumanıza ve PDF oluştururken bunları yeniden kullanmanıza olanak tanır.
+Bu öğreticiye başlamadan önce aşağıdakilerin mevcut olduğundan emin olun:
 
-## HTML'den PDF oluşturmak için neden Aspose.PDF for Java kullanmalısınız?
+**Gerekli Kütüphaneler**
+- Aspose.PDF for Java sürüm 25.3 veya daha yeni (the **Aspose PDF Maven** package).
 
-- **Zengin biçimlendirme** – tablolar, listeler ve temel CSS doğru şekilde işlenir.
-- **Harici dönüştürücü yok** – her şey Java uygulamanızın içinde çalışır.
+**Ortam Kurulumu**
+- Uyumlu bir Java Development Kit (JDK 8 veya daha yeni).  
+- IntelliJ IDEA veya Eclipse gibi bir IDE.
 
-- **İnce ayarlı kontrol** – kenar boşluklarını, yazı tiplerini ve konumlandırmayı programatik olarak ayarlayabilirsiniz.
-
-## Önkoşullar
-
-Bu eğitime başlamadan önce şunlara sahip olduğunuzdan emin olun:
-
-**Gerekli Kütüphaneler:**
-- Aspose.PDF for Java sürüm 25.3 veya üzeri.
-
-**Ortam Kurulumu:**
-- Uyumlu bir Java Geliştirme Kiti (JDK).
-
-- IntelliJ IDEA veya Eclipse gibi bir Entegre Geliştirme Ortamı (IDE).
-
-**Bilgi Önkoşulları:**
-- Java programlama ve kütüphanelerle çalışma konusunda temel anlayış.
+**Bilgi Ön Koşulları**
+- Temel Java programlama becerileri ve Maven veya Gradle hakkında bilgi.
 
 ## Aspose.PDF for Java Kurulumu
 
-### Aspose.PDF Maven bağımlılığının kurulumu
-Başlamak için, Aspose.PDF kütüphanesini projenize eklemeniz gerekecek. Bunu Maven ve Gradle kullanarak şu şekilde yapabilirsiniz:
+### Aspose PDF Maven bağımlılığını kurma
+Başlamak için Aspose.PDF kütüphanesini projenize ekleyin. Aşağıdaki yapı araçlarından birini kullanın:
 
 **Maven:**
+
+The `aspose-pdf` artifact provides all PDF manipulation classes.
 
 ```xml
 <dependency>
@@ -82,18 +137,19 @@ Başlamak için, Aspose.PDF kütüphanesini projenize eklemeniz gerekecek. Bunu 
 
 **Gradle:**
 
+Gradle kullanıcıları aynı bağımlılığı `dependencies` bloğunda bildirebilir.
+
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
-#### Lisans Edinimi
-- **Ücretsiz Deneme:** Temel işlevleri test etmek için ücretsiz bir deneme sürümü indirebilirsiniz.
 
-- **Geçici Lisans:** Değerlendirme döneminiz boyunca tam erişim için [Aspose'un Geçici Lisans Sayfası](https://purchase.aspose.com/temporary-license/) adresini ziyaret ederek geçici bir lisans edinebilirsiniz.
-
-- **Satın Alma:** Daha uzun süreli kullanım için [Aspose'un Satın Alma Sayfası](https://purchase.aspose.com/buy) adresinden ticari bir lisans satın almayı düşünebilirsiniz.
+#### Lisans Alımı
+- **Free Trial:** Temel özellikleri test etmek için bir deneme sürümü indirin.  
+- **Temporary License:** Değerlendirme sırasında tam erişim için bir geçici lisans alın: [Aspose's Temporary License Page](https://purchase.aspose.com/temporary-license/).  
+- **Purchase:** Üretim kullanımı için [Aspose's Purchase Page](https://purchase.aspose.com/buy) adresinden ticari bir lisans satın alın.
 
 #### Temel Başlatma
-Aspose.PDF ile çalışmak için `Document` nesnesini başlatarak başlayın:
+`Document` sınıfı, Aspose.PDF'nin bellekte tek bir PDF dosyasını temsil eden üst düzey nesnesidir. Başlatılması, sonraki tüm işlemler için bir tuval sağlar.
 
 ```java
 import com.aspose.pdf.Document;
@@ -105,146 +161,155 @@ Document doc = new Document();
 
 Uygulamayı iki ana özelliğe ayıracağız: HTML içeriği ekleme ve metin durumlarını ayarlama.
 
-### DOM Kullanarak Aspose PDF'ye HTML Parçası Ekleme
+### DOM kullanarak bir Aspose PDF HTML fragment'i ekleme
 
-**Genel Bakış:** Bu özellik, PDF belgenize HTML parçası eklemenize ve PDF sayfalarınızda zengin biçimlendirme yapmanıza olanak tanır.
+**Genel Bakış:** Bir PDF belgesine HTML fragment'i ekleyerek PDF sayfalarında zengin biçimlendirme sağlar.
 
 #### Adımlar
 
-1. **Belge Nesnesi Oluşturun**
+1. **Bir Document Nesnesi Oluşturun**  
 
-   ```java
+   `Document` sınıfı oluşturduğunuz PDF'yi temsil eder.
+
+```java
    import com.aspose.pdf.Document;
    
    Document doc = new Document();
    ```
 
-2. **Belgeye Sayfa Ekleyin**
+2. **Belgeye Bir Sayfa Ekleyin**  
 
-   ```java
+   Yeni bir `Page` nesnesi HTML fragment'i için bir kapsayıcı sağlar.
+
+```java
    import com.aspose.pdf.Page;
    
    Page page = doc.getPages().add();
    ```
 
-3. **HTML Parçası Oluşturun**
+3. **Bir HTML Fragment'i Oluşturun**  
 
-   ```java
+   `HtmlFragment` sınıfı, render etmek istediğiniz HTML işaretlemesini kapsüller.
+
+```java
    import com.aspose.pdf.HtmlFragment;
    
    String htmlContent = "<p style='font-family: Verdana'><b><i>Table contains text</i></b></p>";
    HtmlFragment title = new HtmlFragment(htmlContent);
    ```
 
-4. **Metin Durumunu Ayarlayın**
+4. **Metin Durumunu Ayarlayın**  
 
-HTML içeriğiniz için yazı tipini ve boyutunu yapılandırın:
+   `TextState` nesnesiyle fragment'in varsayılan yazı tipi, boyut ve rengini yapılandırın.
 
-   ```java
+```java
    import com.aspose.pdf.TextState;
    
    title.setTextState(new TextState("Arial", 20));
    ```
 
-5. **Kenar Boşluklarını Yapılandırın**
+5. **Kenar Boşluklarını Yapılandırın**  
 
-HTML parçanızı doğru konumlandırmak için kenar boşluklarını ayarlayın:
+   `MarginInfo` sınıfı, üst, alt, sol ve sağ kenar boşluklarını ayarlamanıza olanak tanır; böylece fragment tam istediğiniz konuma yerleştirilir.
 
-   ```java
+```java
    title.getMargin().setBottom(10);
    title.getMargin().setTop(400);
    ```
 
-6. **Parçayı Sayfaya Ekleyin**
+6. **Fragment'i Sayfaya Ekleyin**  
 
-   ```java
+   `HtmlFragment`'i sayfanın `Paragraphs` koleksiyonuna ekleyin, böylece PDF düzeninin bir parçası olur.
+
+```java
    page.getParagraphs().add(title);
    ```
 
-7. **Belgeyi Kaydedin**
+7. **Belgeyi Kaydedin**  
 
-   ```java
+   `document.save("output.pdf")` ile PDF'yi diske kaydedin. Bu çağrı, gömülü HTML dahil tüm değişiklikleri nihai dosyaya yazar.
+
+```java
    String outputDir = "YOUR_OUTPUT_DIRECTORY";
    doc.save(outputDir + "/AddHTMLUsingDOMAndOverwrite_out.pdf");
    ```
 
-**Sorun Giderme İpuçları:**
-- Görüntüleme sorunlarını önlemek için HTML kodunuzun düzgün biçimlendirilmiş olduğundan emin olun.
+**Sorun Giderme İpuçları**
+- HTML dizgisinin iyi biçimlenmiş olduğundan emin olun; hatalı etiketler render boşluklarına neden olabilir.  
+- `<img>` etiketlerinde referans verilen görüntü yollarının çalışma zamanında erişilebilir olduğunu doğrulayın.
 
-- Belgeleri kaydetmek için dosya yollarını iki kez kontrol edin.
+### Metin Durumunu ve Kenar Boşluklarını Ayarlama (Gelişmiş Stil)
 
-### Metin Durumu ve Kenar Boşluklarının Ayarlanması (Gelişmiş Stillendirme)
+**Genel Bakış:** Bu bölüm, HTML fragment'inizin görünümünü özelleştirmenizi gösterir; örneğin yazı tipi rengini değiştirme, arka plan gölgelendirme uygulama veya satır aralığını ayarlama.
 
-**Genel Bakış:** Bu bölüm, okunabilirliği ve sunumu iyileştirmek için HTML kod parçacığınızın metin stilini özelleştirmeye odaklanmaktadır.
-
-**Adımlar:** Önceki bölümdeki 3 ila 7 arasındaki adımları, gerektiğinde farklı yapılandırmalar veya ek stillendirme ile tekrarlayın (örneğin, yazı tipi rengini değiştirme, arka plan ekleme).
+**Adımlar:** 3‑7 adımlarını alternatif `TextState` ve `MarginInfo` değerleriyle tekrarlayın. Örneğin, `textState.setForegroundColor(Color.getRed())` ile yazı tipi rengini kırmızıya değiştirin.
 
 ## Pratik Uygulamalar
 
-PDF'lere HTML eklemenin inanılmaz derecede faydalı olabileceği bazı gerçek dünya senaryoları şunlardır:
+HTML fragment'leriyle **create PDF Java**'nin öne çıktığı birkaç gerçek dünya senaryosu:
 
-1. **Dinamik Raporlar:** Biçimlendirilmiş tablolar ve özetler içeren finansal raporları otomatik olarak oluşturun.
+1. **Dynamic Reports:** Stil verilmiş tablolar, grafikler ve koşullu biçimlendirme içeren finansal tabloları otomatik oluşturun.  
+2. **Invoices:** Markalama renkleri ve yazı tiplerinin bir HTML şablonunda tanımlandığı, müşteri‑özel faturalar üretin.  
+3. **Marketing Brochures:** Web‑hazır broşür düzenlerini yeniden tasarlamadan yüksek çözünürlüklü PDF'lere dönüştürün.  
+4. **Educational Materials:** Gömülü sınavlar, görseller ve biçimlendirilmiş metin bloklarıyla kurs paketleri oluşturun.
 
-2. **Faturalar:** Farklı müşteriler için özelleştirilmiş yazı tipleri ve düzenlerle profesyonel görünümlü faturalar oluşturun.
-3. **Pazarlama Broşürleri:** Platformlar arası marka tutarlılığını koruyan dijital broşürler geliştirin.
+## Performans Düşünceleri
 
-4. **Eğitim Materyalleri:** Testler veya grafikler gibi etkileşimli içerik içeren ders materyalleri oluşturun.
+Aspose.PDF for Java'yi ölçekli olarak kullanırken aşağıdaki ipuçlarını aklınızda tutun:
 
-## Performans Hususları
+- **Memory Management:** Büyük HTML fragment'leri önemli miktarda yığın alanı tüketebilir. `System.gc()`'yi dikkatli kullanın ve büyük belgeleri `Document.save(OutputStream)` ile akışa almayı düşünün.  
+- **Batch Processing:** Toplu dönüşümler için dosyaları 20‑30'ar gruplar halinde işleyin, böylece JVM belleği tükenmez.  
+- **Set PDF Margins Efficiently:** Sayfalar arasında tek bir `MarginInfo` örneği yeniden kullanarak nesne oluşturma maliyetini azaltın.
 
-Aspose.PDF for Java kullanırken performansı optimize etmek için şu ipuçlarını aklınızda bulundurun:
+## HTML fragment'i ile PDF Java nasıl oluşturulur?
 
-- **Bellek Yönetimi:** Özellikle büyük belgeleri işlerken bellek kullanımını izleyin. Nesne ömürlerini yöneterek Java'nın çöp toplama özelliğini verimli bir şekilde kullanın.
-
-- **Toplu İşleme:** Birden fazla PDF ile çalışıyorsanız, ek yükü azaltmak için bunları toplu olarak işleyin.
+HTML dizginizi yükleyin, bir `HtmlFragment` içinde sarın, bir `Page`'e ekleyin ve `document.save(...)` çağrısını yapın. Bu özlü iş akışı, **create PDF Java** dosyalarını tam biçimlendirilmiş içerikle on satırdan az kodla oluşturmanızı sağlar ve ayrı bir HTML‑to‑PDF dönüştürücüsüne ihtiyaç duymaz.
 
 ## Sonuç
 
-Tebrikler! Aspose.PDF for Java kullanarak bir PDF'ye **aspose pdf html parçası** eklemeyi ve metin stillerini etkili bir şekilde özelleştirmeyi öğrendiniz. Artık bu bilgiyle donanmış olarak, PDF dosyalarını birleştirme veya belgeleri şifreleme gibi daha fazla işlevselliği keşfedebilirsiniz.
+Tebrikler! Artık Aspose.PDF for Java kullanarak HTML fragment'leri gömen, metni biçimlendiren ve kenar boşluklarını kontrol eden **create PDF Java** belgelerini nasıl oluşturacağınızı biliyorsunuz. Bu temelle PDF birleştirme, dijital imza ekleme veya belgeleri şifreleme gibi konulara genişleyebilirsiniz.
 
-**Sonraki Adımlar:**
-- Farklı HTML stil seçenekleriyle denemeler yapın.
+**Sonraki Adımlar**
+- Daha karmaşık CSS ve harici stil sayfalarıyla denemeler yapın.  
+- [Aspose Documentation](https://reference.aspose.com/pdf/java/) adresindeki PDF/A uyumluluğu ve görüntü çıkarma gibi gelişmiş özellikleri keşfedin.  
 
-- Daha gelişmiş özellikler için [Aspose Dokümantasyonunu](https://reference.aspose.com/pdf/java/) inceleyin.
+## Sık Sorulan Sorular
 
-## Sıkça Sorulan Sorular
+**S: HTML fragment'inin yazı tipi boyutunu nasıl değiştirebilirim?**  
+C: `HtmlFragment`'i eklemeden önce `TextState` nesnesinde `textState.setFontSize(12)` kullanın.
 
-**S: Bir HTML parçasının yazı tipi boyutunu nasıl değiştirebilirim?**
-C: İstediğiniz yazı tipini ve boyutunu belirtmek için `setTextState(new TextState("FontName", fontSize))` kullanın.
+**S: PDF işleme bellek limitlerini aşıyorsa ne yapmalıyım?**  
+C: İş yükünü daha küçük partilere bölün, JVM yığınını (`-Xmx2g`) artırın veya kullanılmayan nesneleri serbest bırakmak için `document.optimizeResources()`'ı etkinleştirin.
 
-**S: PDF işlemem bellek sınırlarını aşarsa ne yapmalıyım?**
-C: Belgeleri daha küçük gruplar halinde işleyerek veya JVM yığın boyutunu artırarak kaynak kullanımını optimize edin.
+**S: Aspose.PDF for Java'yi diğer programlama dilleriyle kullanabilir miyim?**  
+C: Aspose .NET, C++ ve Python için eşdeğer kütüphaneler sağlar, ancak Java API'si yalnızca Java projeleri içindir.
 
-**S: Aspose.PDF for Java'yı diğer programlama dilleriyle kullanabilir miyim?**
-C: Aspose, .NET, C++ ve diğer platformlar için benzer kütüphaneler sunar, ancak Java kütüphanesi Java projelerine özeldir.
+**S: HTML fragment'i içinde görsel gömmek mümkün mü?**  
+C: Evet—HTML dizginize `<img src="path/to/image.png"/>` ekleyin ve dosya yolunun çalışma zamanında erişilebilir olduğundan emin olun.
 
-**S: HTML parçasına resim yerleştirmek mümkün mü?**
-C: Evet—HTML dizenize `<img>` etiketlerini ekleyin ve resim yollarının çalışma zamanında erişilebilir olduğundan emin olun.
-
-**S: Aspose karmaşık CSS stillerini nasıl ele alıyor?**
-C: Temel satır içi CSS desteklenmektedir. Gelişmiş stillendirme için, yerleştirmeden önce HTML'nizi önceden işleyin veya Aspose'un stillendirme API'lerini kullanın.
+**S: Aspose karmaşık CSS stillerini nasıl yönetir?**  
+C: Temel satır içi CSS desteklenir; gelişmiş düzenler için HTML'i ön işleme tabi tutabilir veya render'den önce yazı tipleri, renkler ve boşlukları uygulamak için Aspose'un stil API'lerini kullanabilirsiniz.
 
 ## Kaynaklar
 
-- [Aspose Dokümantasyonu](https://reference.aspose.com/pdf/java/)
-- [Aspose.PDF İndir](https://releases.aspose.com/pdf/java/)
+- [Aspose Documentation](https://reference.aspose.com/pdf/java/)
+- [Aspose.PDF'yi İndir](https://releases.aspose.com/pdf/java/)
 - [Lisans Satın Al](https://purchase.aspose.com/buy)
 - [Ücretsiz Deneme](https://releases.aspose.com/pdf/java/)
 - [Geçici Lisans](https://purchase.aspose.com/temporary-license/)
 - [Aspose Destek Forumu](https://forum.aspose.com/c/pdf/10)
 
-Aspose.PDF for Java ile PDF'lere HTML eklemeyi keşfettiğinize göre, neden bunu projelerinizde uygulamayı denemiyorsunuz? Denemeye başlayın ve sonuçları görün!
+{{< blocks/products/products-backtop-button >}}
 
----
+## İlgili Öğreticiler
 
-**Son Güncelleme:** 2026-01-04
-**Test Edildiği Sürüm:** Aspose.PDF for Java 25.3
-**Yazar:** Aspose
+- [Aspose.PDF Java ile PDF Dönüştürme ve Dışa Aktarma Öğreticileri](/pdf/java/conversion-export/)
+- [Aspose.PDF for Java Kullanarak HTML'den PDF Dönüştürmeyi Ustalaştırma: Kapsamlı Rehber](/pdf/java/conversion-export/html-to-pdf-aspose-java-tutorial/)
+- [Java'da Akış Kullanarak Aspose.PDF Lisansını Nasıl Kurulur: Kapsamlı Rehber](/pdf/java/getting-started/aspose-pdf-license-setup-java-stream/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

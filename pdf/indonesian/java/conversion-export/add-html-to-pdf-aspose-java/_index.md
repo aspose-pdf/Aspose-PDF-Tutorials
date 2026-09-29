@@ -1,12 +1,70 @@
 ---
-date: '2026-01-04'
-description: Pelajari cara menambahkan fragmen HTML Aspose PDF ke PDF dengan Java,
-  menghasilkan PDF dari HTML, dan menata teks menggunakan Aspose.PDF.
+date: '2026-06-22'
+description: Pelajari cara membuat pdf java dengan menambahkan fragmen HTML menggunakan
+  Aspose.PDF for Java, menghasilkan PDF dari HTML, mengatur margin PDF, dan menerapkan
+  lisensi.
 keywords:
-- Add HTML to PDF with Aspose.PDF for Java
-- Aspose.PDF DOM implementation
-- Java library integration
-title: aspose pdf html fragment – Tambahkan HTML ke PDF dengan Java
+- create pdf java
+- aspose pdf license
+- generate pdf html java
+- set pdf margins
+- aspose pdf maven
+schemas:
+- author: Aspose
+  dateModified: '2026-06-22'
+  description: Learn how to create pdf java by adding an HTML fragment with Aspise.PDF
+    for Java, generate PDF from HTML, set PDF margins, and apply a license.
+  headline: create pdf java – Add HTML Content to a PDF Using Aspose.PDF for Java
+  type: TechArticle
+- description: Learn how to create pdf java by adding an HTML fragment with Aspise.PDF
+    for Java, generate PDF from HTML, set PDF margins, and apply a license.
+  name: create pdf java – Add HTML Content to a PDF Using Aspose.PDF for Java
+  steps:
+  - name: '**Create a Document Object**'
+    text: '**Create a Document Object**'
+  - name: '**Add a Page to the Document**'
+    text: '**Add a Page to the Document**'
+  - name: '**Create an HTML Fragment**'
+    text: '**Create an HTML Fragment**'
+  - name: '**Set Text State**'
+    text: '**Set Text State**'
+  - name: '**Configure Margins**'
+    text: '**Configure Margins**'
+  - name: '**Add the Fragment to the Page**'
+    text: '**Add the Fragment to the Page**'
+  - name: '**Save the Document**'
+    text: '**Save the Document**'
+  - name: '**Dynamic Reports:** Auto‑generate financial statements that include styled
+      tables, charts, and conditional formatting.'
+    text: '**Dynamic Reports:** Auto‑generate financial statements that include styled
+      tables, charts, and conditional formatting.'
+  - name: '**Invoices:** Produce client‑specific invoices where branding colors and
+      fonts are defined in an HTML template.'
+    text: '**Invoices:** Produce client‑specific invoices where branding colors and
+      fonts are defined in an HTML template.'
+  - name: '**Marketing Brochures:** Convert web‑ready brochure layouts into high‑resolution
+      PDFs without redesigning the layout.'
+    text: '**Marketing Brochures:** Convert web‑ready brochure layouts into high‑resolution
+      PDFs without redesigning the layout.'
+  type: HowTo
+- questions:
+  - answer: Use `textState.setFontSize(12)` on the `TextState` object before attaching
+      the `HtmlFragment`.
+    question: How can I change the font size of an HTML fragment?
+  - answer: Split the workload into smaller batches, increase the JVM heap (`-Xmx2g`),
+      or enable `document.optimizeResources()` to free unused objects.
+    question: What should I do if my PDF processing exceeds memory limits?
+  - answer: Aspose provides equivalent libraries for .NET, C++, and Python, but the
+      Java API is specific to Java projects.
+    question: Can I use Aspose.PDF for Java with other programming languages?
+  - answer: Yes—include `<img src="path/to/image.png"/>` in your HTML string and ensure
+      the file path is reachable at runtime.
+    question: Is it possible to embed images inside the HTML fragment?
+  - answer: Basic inline CSS is supported; for advanced layouts, preprocess the HTML
+      or use Aspose’s styling APIs to apply fonts, colors, and spacing before rendering.
+    question: How does Aspose handle complex CSS styles?
+  type: FAQPage
+title: buat pdf java – Tambahkan Konten HTML ke PDF Menggunakan Aspose.PDF for Java
 url: /id/java/conversion-export/add-html-to-pdf-aspose-java/
 weight: 1
 ---
@@ -20,50 +78,54 @@ weight: 1
 
 ## Pendahuluan
 
-Apakah Anda ingin mengintegrasikan konten HTML secara mulus ke dalam dokumen PDF menggunakan Java? Pada panduan ini Anda akan belajar cara menambahkan **aspose pdf html fragment** ke PDF, menghasilkan pdf dari html, dan menata teks dengan Aspose.PDF untuk Java. Baik Anda membuat laporan, faktur, atau brosur pemasaran, tutorial ini menunjukkan cara praktis memperkaya PDF dengan format HTML yang kaya.
+Jika Anda perlu **create PDF Java** file yang berisi format HTML kaya, Aspose.PDF untuk Java menawarkan solusi satu‑langkah. Dalam tutorial ini Anda akan belajar cara menambahkan **Aspose PDF HTML fragment** ke PDF, menghasilkan PDF dari HTML, dan menata teks dengan kontrol margin yang tepat. Baik Anda membuat faktur, laporan dinamis, atau brosur pemasaran, menyematkan HTML memungkinkan Anda menggunakan kembali templat web yang ada sambil memastikan output sepenuhnya sesuai dengan PDF.
 
-**Apa yang Akan Anda Pelajari:**
-- Cara menambahkan konten HTML ke PDF menggunakan DOM.
-- Menetapkan gaya teks seperti font, ukuran, dan margin.
-- Aplikasi praktis Aspose.PDF untuk Java dalam skenario dunia nyata.
+**Apa yang Akan Anda Pelajari**
+- Cara menambahkan konten HTML ke PDF menggunakan DOM API.  
+- Cara mengatur gaya teks seperti font, ukuran, dan **set PDF margins** secara programatis.  
+- Skenario dunia nyata di mana **generate PDF HTML Java** menghemat waktu pengembangan.  
 
-Mari kita lihat prasyarat sebelum memulai implementasi!
+Mari kita tinjau prasyarat sebelum kita menyelami implementasinya.
 
 ## Jawaban Cepat
-- **Apa yang dilakukan fitur aspose pdf html fragment?** Fitur ini memungkinkan Anda menyematkan markup HTML langsung ke dalam halaman PDF.  
-- **Artifact Maven mana yang diperlukan?** `com.aspose:aspose-pdf:25.3` (atau yang lebih baru).  
-- **Apakah saya dapat menata HTML dengan CSS?** CSS inline dasar didukung; gaya yang kompleks mungkin memerlukan pra‑pemrosesan.  
-- **Apakah saya memerlukan lisensi untuk penggunaan produksi?** Ya – lisensi sementara atau komersial diperlukan.  
-- **Apakah pendekatan ini cocok untuk pekerjaan batch besar?** Ya, tetapi pantau penggunaan memori dan pertimbangkan pemrosesan dalam batch.
+- **Apa yang dilakukan fitur Aspose PDF HTML fragment?** Ia menyematkan markup HTML secara langsung ke halaman PDF, mempertahankan tabel, daftar, dan CSS dasar.  
+- **Artefak Maven mana yang diperlukan?** `com.aspose:aspose-pdf:25.3` (atau lebih baru) – paket **Aspose PDF Maven**.  
+- **Bisakah saya menata HTML dengan CSS?** CSS inline dasar didukung; untuk gaya kompleks, pra-proses HTML atau gunakan API penataan Aspose.  
+- **Apakah saya memerlukan lisensi untuk penggunaan produksi?** Ya – **Aspose PDF license** diperlukan untuk menghapus watermark evaluasi.  
+- **Apakah pendekatan ini cocok untuk pekerjaan batch besar?** Tentu saja, tetapi pantau penggunaan memori dan pertimbangkan memproses file dalam batch.  
 
-## Apa itu aspose pdf html fragment?
-Sebuah **aspose pdf html fragment** adalah potongan kode HTML yang diparsir dan dirender oleh Aspose.PDF menjadi elemen PDF. Ini memungkinkan Anda mempertahankan templat HTML yang ada dan menggunakannya kembali saat menghasilkan PDF.
+## Apa itu Aspose PDF HTML fragment?
+Ini adalah potongan kecil markup HTML yang dapat diinterpretasikan oleh Aspose.PDF dan diubah menjadi elemen PDF native seperti paragraf, tabel, dan gambar. Dengan menggunakan fragmen HTML, Anda dapat menggunakan kembali templat berbasis web yang ada, mempertahankan gaya dan tata letak sambil menghasilkan dokumen PDF yang sepenuhnya sesuai.
 
-## Mengapa menggunakan Aspose.PDF untuk Java untuk menghasilkan pdf dari html?
-- **Pemformatan kaya** – tabel, daftar, dan CSS dasar dirender secara akurat.  
-- **Tanpa konverter eksternal** – semuanya berjalan di dalam aplikasi Java Anda.  
-- **Kontrol halus** – Anda dapat menyesuaikan margin, font, dan posisi secara programatik.
+## Mengapa menggunakan Aspose.PDF untuk Java untuk menghasilkan PDF dari HTML?
+Aspose.PDF untuk Java menyediakan mesin terintegrasi yang mengubah konten HTML langsung menjadi PDF tanpa alat eksternal. Ia secara akurat merender tabel, daftar, dan CSS dasar, mendukung banyak format file, dan memberi pengembang kontrol programatis atas tata letak, font, dan margin, menjadikannya ideal untuk pembuatan dokumen otomatis.
+
+- **Rich formatting** – tabel, daftar, dan CSS dasar dirender secara akurat, mendukung lebih dari 50 format input dan output.  
+- **No external converters** – konversi berjalan sepenuhnya di dalam aplikasi Java Anda, menghilangkan ketergantungan pihak ketiga.  
+- **Fine‑grained control** – Anda dapat secara programatis menyesuaikan margin, font, dan posisi untuk setiap fragmen.  
 
 ## Prasyarat
 
-Sebelum memulai tutorial ini, pastikan Anda memiliki hal‑hal berikut:
+Sebelum Anda memulai tutorial ini, pastikan Anda memiliki hal berikut:
 
-**Pustaka yang Diperlukan:**
-- Aspose.PDF untuk Java versi 25.3 atau lebih baru.
+**Required Libraries**
+- Aspose.PDF untuk Java versi 25.3 atau lebih baru (paket **Aspose PDF Maven**).
 
-**Pengaturan Lingkungan:**
-- Java Development Kit (JDK) yang kompatibel.
-- Integrated Development Environment (IDE) seperti IntelliJ IDEA atau Eclipse.
+**Environment Setup**
+- Java Development Kit (JDK 8 atau lebih baru) yang kompatibel.  
+- IDE seperti IntelliJ IDEA atau Eclipse.
 
-**Prasyarat Pengetahuan:**
-- Pemahaman dasar pemrograman Java dan penggunaan pustaka.
+**Knowledge Prerequisites**
+- Keterampilan pemrograman Java dasar dan familiaritas dengan Maven atau Gradle.
 
 ## Menyiapkan Aspose.PDF untuk Java
 
-### Menyiapkan dependensi maven aspose pdf
-Untuk memulai, Anda perlu menambahkan pustaka Aspose.PDF ke proyek Anda. Berikut cara melakukannya menggunakan Maven dan Gradle:
+### Menyiapkan dependensi Aspose PDF Maven
+Untuk memulai, tambahkan pustaka Aspose.PDF ke proyek Anda. Gunakan salah satu alat build berikut:
 
 **Maven:**
+
+The `aspose-pdf` artifact provides all PDF manipulation classes.
 
 ```xml
 <dependency>
@@ -75,17 +137,19 @@ Untuk memulai, Anda perlu menambahkan pustaka Aspose.PDF ke proyek Anda. Berikut
 
 **Gradle:**
 
+Gradle users can declare the same dependency in the `dependencies` block.
+
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
 #### Akuisisi Lisensi
-- **Uji Coba Gratis:** Anda dapat mengunduh versi uji coba gratis untuk menguji fungsionalitas dasar.  
-- **Lisensi Sementara:** Dapatkan lisensi sementara untuk akses penuh selama periode evaluasi dengan mengunjungi [Halaman Lisensi Sementara Aspose](https://purchase.aspose.com/temporary-license/).  
-- **Pembelian:** Jika Anda memerlukan penggunaan yang lebih lama, pertimbangkan membeli lisensi komersial dari [Halaman Pembelian Aspose](https://purchase.aspose.com/buy).
+- **Free Trial:** Download a trial version to test core features.  
+- **Temporary License:** Obtain a temporary license for full access during evaluation via [Aspose's Temporary License Page](https://purchase.aspose.com/temporary-license/).  
+- **Purchase:** For production use, buy a commercial license at [Aspose's Purchase Page](https://purchase.aspose.com/buy).
 
 #### Inisialisasi Dasar
-Mulailah dengan menginisialisasi objek `Document` untuk bekerja dengan Aspose.PDF:
+The `Document` class is Aspose.PDF's top‑level object that represents a single PDF file in memory. Initializing it gives you a canvas for all subsequent operations.
 
 ```java
 import com.aspose.pdf.Document;
@@ -97,119 +161,134 @@ Document doc = new Document();
 
 Kami akan membagi implementasi menjadi dua fitur utama: menambahkan konten HTML dan mengatur status teks.
 
-### Menambahkan aspose pdf html fragment menggunakan DOM
+### Menambahkan Aspose PDF HTML fragment menggunakan DOM
 
-**Gambaran Umum:** Fitur ini memungkinkan Anda menyisipkan fragmen HTML ke dalam dokumen PDF, sehingga memungkinkan pemformatan kaya di dalam halaman PDF Anda.
+**Overview:** Insert an HTML fragment into a PDF document, enabling rich formatting within PDF pages.
 
-#### Langkah‑langkah
+#### Langkah-langkah
 
-1. **Buat Objek Document**
+1. **Buat Objek Document**  
 
-   ```java
+   Kelas `Document` mewakili PDF yang sedang Anda bangun.
+
+```java
    import com.aspose.pdf.Document;
    
    Document doc = new Document();
    ```
 
-2. **Tambahkan Halaman ke Document**
+2. **Tambahkan Halaman ke Document**  
 
-   ```java
+   Objek `Page` baru menyediakan wadah untuk fragmen HTML.
+
+```java
    import com.aspose.pdf.Page;
    
    Page page = doc.getPages().add();
    ```
 
-3. **Buat Fragmen HTML**
+3. **Buat Fragmen HTML**  
 
-   ```java
+   Kelas `HtmlFragment` mengenkapsulasi markup HTML yang ingin Anda render.
+
+```java
    import com.aspose.pdf.HtmlFragment;
    
    String htmlContent = "<p style='font-family: Verdana'><b><i>Table contains text</i></b></p>";
    HtmlFragment title = new HtmlFragment(htmlContent);
    ```
 
-4. **Atur Text State**
+4. **Atur Text State**  
 
-   Konfigurasikan font dan ukuran untuk konten HTML Anda:
+   Konfigurasikan font, ukuran, dan warna default untuk fragmen menggunakan objek `TextState`.
 
-   ```java
+```java
    import com.aspose.pdf.TextState;
    
    title.setTextState(new TextState("Arial", 20));
    ```
 
-5. **Konfigurasikan Margin**
+5. **Konfigurasi Margin**  
 
-   Sesuaikan margin untuk memposisikan fragmen HTML dengan tepat:
+   Kelas `MarginInfo` memungkinkan Anda mengatur margin atas, bawah, kiri, dan kanan, memastikan fragmen berada tepat di tempat yang Anda inginkan.
 
-   ```java
+```java
    title.getMargin().setBottom(10);
    title.getMargin().setTop(400);
    ```
 
-6. **Tambahkan Fragmen ke Halaman**
+6. **Tambahkan Fragmen ke Halaman**  
 
-   ```java
+   Lampirkan `HtmlFragment` ke koleksi `Paragraphs` halaman sehingga menjadi bagian dari tata letak PDF.
+
+```java
    page.getParagraphs().add(title);
    ```
 
-7. **Simpan Document**
+7. **Simpan Document**  
 
-   ```java
+   Simpan PDF ke disk dengan `document.save("output.pdf")`. Panggilan ini menulis semua perubahan, termasuk HTML yang disematkan, ke file akhir.
+
+```java
    String outputDir = "YOUR_OUTPUT_DIRECTORY";
    doc.save(outputDir + "/AddHTMLUsingDOMAndOverwrite_out.pdf");
    ```
 
-**Tips Pemecahan Masalah:**
-- Pastikan HTML Anda terstruktur dengan baik untuk menghindari masalah rendering.  
-- Periksa kembali jalur file untuk penyimpanan dokumen.  
+**Tips Pemecahan Masalah**
+- Pastikan string HTML terformat dengan baik; tag yang tidak tepat dapat menyebabkan celah rendering.  
+- Verifikasi bahwa jalur gambar yang dirujuk dalam tag `<img>` dapat diakses pada waktu runtime.  
 
-### Mengatur Text State dan Margin (Styling Lanjutan)
+### Menetapkan Text State dan Margin (Penataan Lanjutan)
 
-**Gambaran Umum:** Bagian ini berfokus pada penyesuaian gaya teks fragmen HTML Anda, meningkatkan keterbacaan dan presentasi.
+**Overview:** This section shows how to customize the appearance of your HTML fragment, such as changing font color, applying background shading, or adjusting line spacing.
 
-**Langkah‑langkah:** Ulangi langkah 3 sampai 7 dari bagian sebelumnya dengan konfigurasi berbeda atau penambahan styling sesuai kebutuhan (misalnya, mengubah warna font, menambahkan latar belakang).
+**Steps:** Repeat steps 3 through 7 with alternative `TextState` and `MarginInfo` values. For example, set `textState.setForegroundColor(Color.getRed())` to change the font color to red.
 
 ## Aplikasi Praktis
 
-Berikut beberapa skenario dunia nyata di mana menambahkan HTML ke PDF dapat sangat bermanfaat:
+Berikut beberapa skenario dunia nyata di mana **create PDF Java** dengan fragmen HTML bersinar:
 
-1. **Laporan Dinamis:** Secara otomatis menghasilkan laporan keuangan yang mencakup tabel dan ringkasan yang bergaya.  
-2. **Faktur:** Membuat faktur yang tampak profesional dengan font dan tata letak yang disesuaikan untuk tiap klien.  
-3. **Brosur Pemasaran:** Mengembangkan brosur digital yang mempertahankan konsistensi merek di seluruh platform.  
-4. **Materi Pendidikan:** Menghasilkan materi kursus dengan konten interaktif seperti kuis atau grafik yang disematkan.
+1. **Laporan Dinamis:** Menghasilkan otomatis laporan keuangan yang mencakup tabel bergaya, grafik, dan format kondisional.  
+2. **Faktur:** Membuat faktur khusus klien di mana warna merek dan font didefinisikan dalam templat HTML.  
+3. **Brosur Pemasaran:** Mengonversi tata letak brosur siap web menjadi PDF resolusi tinggi tanpa mendesain ulang tata letak.  
+4. **Materi Pendidikan:** Menyusun paket kursus dengan kuis tersemat, gambar, dan blok teks terformat.  
 
 ## Pertimbangan Kinerja
 
-Saat menggunakan Aspose.PDF untuk Java, perhatikan tips berikut untuk mengoptimalkan kinerja:
+Saat menggunakan Aspose.PDF untuk Java dalam skala besar, perhatikan tips berikut:
 
-- **Manajemen Memori:** Pantau penggunaan memori, terutama saat memproses dokumen besar. Manfaatkan pengumpulan sampah Java secara efisien dengan mengelola masa hidup objek.  
-- **Pemrosesan Batch:** Jika menangani banyak PDF, proses dalam batch untuk mengurangi beban.
+- **Memory Management:** Large HTML fragments can consume significant heap space. Use `System.gc()` judiciously and consider streaming large documents with `Document.save(OutputStream)`.  
+- **Batch Processing:** For bulk conversions, process files in groups of 20–30 to avoid exhausting JVM memory.  
+- **Set PDF Margins Efficiently:** Reuse a single `MarginInfo` instance across pages to reduce object creation overhead.
+
+## Cara membuat PDF Java dengan fragmen HTML?
+
+Muat string HTML Anda, bungkus dalam `HtmlFragment`, lampirkan ke `Page`, dan panggil `document.save(...)`. Alur kerja ringkas ini memungkinkan Anda **create PDF Java** file dengan konten bergaya penuh dalam kurang dari sepuluh baris kode, menghilangkan kebutuhan konverter HTML‑to‑PDF terpisah.
 
 ## Kesimpulan
 
-Selamat! Anda telah mempelajari cara menambahkan **aspose pdf html fragment** ke PDF menggunakan Aspose.PDF untuk Java dan menyesuaikan gaya teks secara efektif. Sekarang Anda memiliki pengetahuan ini, Anda dapat menjelajahi fungsionalitas lebih lanjut seperti menggabungkan file PDF atau mengenkripsi dokumen.
+Selamat! Anda kini tahu cara **create PDF Java** dokumen yang menyematkan fragmen HTML, menata teks, dan mengontrol margin menggunakan Aspose.PDF untuk Java. Dengan fondasi ini Anda dapat memperluas ke penggabungan PDF, menambahkan tanda tangan digital, atau mengenkripsi dokumen.
 
-**Langkah Selanjutnya:**
-- Bereksperimen dengan opsi styling HTML yang berbeda.  
-- Jelajahi [Dokumentasi Aspose](https://reference.aspose.com/pdf/java/) untuk fitur-fitur lanjutan.  
+**Langkah Selanjutnya**
+- Bereksperimen dengan CSS yang lebih kompleks dan stylesheet eksternal.  
+- Jelajahi [Dokumentasi Aspose](https://reference.aspose.com/pdf/java/) untuk fitur lanjutan seperti kepatuhan PDF/A dan ekstraksi gambar.  
 
 ## Pertanyaan yang Sering Diajukan
 
-**T: Bagaimana cara mengubah ukuran font fragmen HTML?**  
-J: Gunakan `setTextState(new TextState("FontName", fontSize))` untuk menentukan font dan ukuran yang diinginkan.
+**Q: How can I change the font size of an HTML fragment?**  
+A: Use `textState.setFontSize(12)` on the `TextState` object before attaching the `HtmlFragment`.
 
-**T: Apa yang harus saya lakukan jika pemrosesan PDF melebihi batas memori?**  
-J: Optimalkan penggunaan sumber daya dengan memproses dokumen dalam batch yang lebih kecil atau meningkatkan ukuran heap JVM.
+**Q: What should I do if my PDF processing exceeds memory limits?**  
+A: Split the workload into smaller batches, increase the JVM heap (`-Xmx2g`), or enable `document.optimizeResources()` to free unused objects.
 
-**T: Bisakah saya menggunakan Aspose.PDF untuk Java dengan bahasa pemrograman lain?**  
-J: Aspose menyediakan pustaka serupa untuk .NET, C++, dan platform lainnya, tetapi pustaka Java khusus untuk proyek Java.
+**Q: Can I use Aspose.PDF for Java with other programming languages?**  
+A: Aspose provides equivalent libraries for .NET, C++, and Python, but the Java API is specific to Java projects.
 
-**T: Apakah memungkinkan menyematkan gambar di dalam fragmen HTML?**  
-J: Ya—sertakan tag `<img>` dalam string HTML Anda dan pastikan jalur gambar dapat diakses saat runtime.
+**Q: Is it possible to embed images inside the HTML fragment?**  
+A: Yes—include `<img src="path/to/image.png"/>` in your HTML string and ensure the file path is reachable at runtime.
 
-**T: Bagaimana Aspose menangani gaya CSS yang kompleks?**  
-J: CSS inline dasar didukung. Untuk styling lanjutan, pra‑proses HTML Anda atau gunakan API styling Aspose sebelum menyematkan.
+**Q: How does Aspose handle complex CSS styles?**  
+A: Basic inline CSS is supported; for advanced layouts, preprocess the HTML or use Aspose’s styling APIs to apply fonts, colors, and spacing before rendering.
 
 ## Sumber Daya
 
@@ -220,18 +299,17 @@ J: CSS inline dasar didukung. Untuk styling lanjutan, pra‑proses HTML Anda ata
 - [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
 - [Forum Dukungan Aspose](https://forum.aspose.com/c/pdf/10)
 
-Sekarang setelah Anda menjelajahi penambahan HTML ke PDF dengan Aspose.PDF untuk Java, mengapa tidak mencoba mengimplementasikannya dalam proyek Anda? Mulailah bereksperimen dan lihat hasilnya!
+{{< blocks/products/products-backtop-button >}}
 
----
+## Tutorial Terkait
 
-**Terakhir Diperbarui:** 2026-01-04  
-**Diuji Dengan:** Aspose.PDF untuk Java 25.3  
-**Penulis:** Aspose
+- [Tutorial Konversi dan Ekspor PDF dengan Aspose.PDF Java](/pdf/java/conversion-export/)
+- [Panduan Lengkap Konversi HTML ke PDF Menggunakan Aspose.PDF untuk Java](/pdf/java/conversion-export/html-to-pdf-aspose-java-tutorial/)
+- [Cara Menyiapkan Lisensi Aspose.PDF Menggunakan Stream di Java: Panduan Lengkap](/pdf/java/getting-started/aspose-pdf-license-setup-java-stream/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

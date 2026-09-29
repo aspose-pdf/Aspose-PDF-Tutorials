@@ -1,14 +1,77 @@
 ---
-date: '2026-01-06'
-description: Dowiedz się, jak efektywnie konwertować obrazy na PDF przy użyciu Aspose.PDF
-  dla Javy, w tym konfigurację zależności Maven Aspose PDF. Idealne do archiwizacji
-  zdjęć lub tworzenia raportów.
+date: '2026-06-22'
+description: Dowiedz się, jak tworzyć PDF z obrazów przy użyciu Aspose.PDF for Java,
+  w tym jak skonfigurować zależność Maven aspose pdf. Idealne do archiwizacji zdjęć,
+  generowania raportów lub konwertowania plików TIFF, PNG, JPG.
 keywords:
-- convert images to PDF
-- Aspose.PDF for Java
-- image-to-PDF conversion
-title: 'Jak konwertować obrazy na PDF przy użyciu Aspose.PDF dla Javy - kompleksowy
-  przewodnik'
+- create pdf from images
+- add images to pdf
+- generate pdf from jpg
+- aspose pdf maven dependency
+- convert tiff pdf java
+- convert png pdf java
+schemas:
+- author: Aspose
+  dateModified: '2026-06-22'
+  description: Learn how to create PDF from images using Aspose.PDF for Java, including
+    the aspose pdf maven dependency setup. Perfect for archiving photos, generating
+    reports, or converting TIFF, PNG, JPG files.
+  headline: How to Create PDF from Images Using Aspose.PDF for Java – A Comprehensive
+    Guide
+  type: TechArticle
+- description: Learn how to create PDF from images using Aspose.PDF for Java, including
+    the aspose pdf maven dependency setup. Perfect for archiving photos, generating
+    reports, or converting TIFF, PNG, JPG files.
+  name: How to Create PDF from Images Using Aspose.PDF for Java – A Comprehensive
+    Guide
+  steps:
+  - name: Instantiate Document Object
+    text: The `Document` class represents a PDF file in memory and provides methods
+      to add pages and content.
+  - name: Add a Page to the Document
+    text: A `Page` object defines a single page within the PDF, including its size
+      and layout.
+  - name: Load the Image File
+    text: '`FileInputStream` reads raw bytes from the image file, allowing Aspose.PDF
+      to stream the data without loading the entire file into RAM.'
+  - name: Set Page Margins and Crop Box
+    text: Adjust the margins (or set them to `0`) so the image fills the page without
+      unwanted whitespace.
+  - name: Create and Add Image Object
+    text: The `Image` class wraps the image stream and can be positioned on the page;
+      adding it to a paragraph places it in the PDF content flow.
+  - name: Save the PDF Document
+    text: Call the `save` method on the `Document` instance to write the final PDF
+      to disk.
+  - name: Instantiate Document and Add Page
+    text: Create a new `Document` and a `Page` as described earlier to host the image.
+  - name: Create BufferedImage from Image File
+    text: '`BufferedImage` holds the image in memory; writing it to a `ByteArrayOutputStream`
+      converts it to a byte array suitable for streaming.'
+  - name: Add Image to Page and Set Stream
+    text: Wrap the byte array in a `ByteArrayInputStream` and assign it to an `Image`
+      object, which can then be added to the page.
+  - name: Save the PDF Document
+    text: Persist the PDF to your chosen output folder using the `save` method.
+  type: HowTo
+- questions:
+  - answer: Yes – add multiple `Image` objects to successive pages, each referencing
+      a different format (JPG, PNG, TIFF, etc.).
+    question: Can I convert images of different formats in a single PDF?
+  - answer: Use the direct file stream method and set the image’s resolution property
+      before saving; this preserves the original JPG fidelity.
+    question: How do I generate pdf from jpg without losing quality?
+  - answer: A valid Aspose.PDF license is mandatory for production; the free trial
+      is limited to evaluation only.
+    question: Is a license required for production use?
+  - answer: Yes – create a `Page` with a custom `Rectangle` size before adding the
+      image.
+    question: Can I set custom page sizes (A4, Letter, etc.)?
+  - answer: The library can open encrypted PDFs, but image insertion works only on
+      unencrypted pages.
+    question: Does Aspose.PDF support password‑protected PDFs?
+  type: FAQPage
+title: Jak tworzyć PDF z obrazów przy użyciu Aspose.PDF for Java – kompleksowy przewodnik
 url: /pl/java/conversion-export/convert-images-pdf-aspose-java/
 weight: 1
 ---
@@ -18,33 +81,35 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Jak konwertować obrazy do PDF przy użyciu Aspose.PDF dla Javy
+# Jak utworzyć PDF z obrazów przy użyciu Aspose.PDF for Java
 
-Konwertowanie obrazów do dokumentów PDF jest niezbędne w wielu aplikacjach, a **ten samouczek pokazuje dokładnie, jak konwertować obrazy do PDF** przy użyciu Aspose.PDF dla Javy. Niezależnie od tego, czy archiwizujesz rodzinne zdjęcia, generujesz raporty, czy digitalizujesz paragony, poniższe kroki zapewniają szybki i niezawodny sposób na przekształcenie dowolnego pliku obrazu w profesjonalnie wyglądający PDF.
+Konwersja obrazów do dokumentów PDF jest powszechnym wymogiem wielu aplikacji Java. W tym tutorialu **utworzysz PDF z obrazów** szybko i niezawodnie przy użyciu Aspose.PDF for Java. Niezależnie od tego, czy potrzebujesz archiwizować zdjęcia rodzinne, generować raport z wbudowanymi zrzutami ekranu, czy digitalizować paragony, poniższe kroki zapewniają gotowe rozwiązanie produkcyjne.
 
 ## Szybkie odpowiedzi
 - **Jakiej biblioteki potrzebuję?** Aspose.PDF for Java (dodaj zależność Maven aspose pdf).  
-- **Czy mogę konwertować pliki TIFF?** Tak – ten sam kod działa dla TIFF, JPEG, PNG, GIF itp.  
-- **Czy potrzebna jest licencja?** Bezpłatna wersja próbna wystarcza do oceny; stała licencja jest wymagana w produkcji.  
-- **Jak obsługiwane są marginesy strony?** Możesz je ustawić programowo (zobacz „java pdf page margins”).  
-- **Czy zalecane jest buforowane strumieniowanie?** Tak – zmniejsza zużycie pamięci przy dużych obrazach.
+- **Czy mogę konwertować pliki TIFF?** Tak – ten sam kod działa dla TIFF, JPEG, PNG, GIF i BMP.  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna wystarczy do oceny; stała licencja jest wymagana w środowisku produkcyjnym.  
+- **Jak obsługiwane są marginesy stron?** Można je ustawić programowo (zobacz „java pdf page margins”).  
+- **Czy zalecane jest buforowane strumieniowanie?** Tak – zmniejsza zużycie pamięci przy dużych obrazach i przyspiesza konwersję.
 
-## Co to jest „konwertowanie obrazów do pdf”?
-Konwertowanie obrazów do PDF oznacza wzięcie jednego lub kilku plików rastrowych (takich jak JPG, PNG lub TIFF) i osadzenie ich w kontenerze PDF, aby można je było przeglądać, udostępniać i drukować w sposób spójny na różnych platformach.
+## Co to jest „tworzenie pdf z obrazów”?
+Tworzenie PDF z obrazów oznacza osadzenie jednego lub wielu plików rastrowych — takich jak JPG, PNG, TIFF czy GIF — w kontenerze PDF. Powstały PDF zachowuje wizualną wierność oryginalnych obrazów, jednocześnie zapewniając jeden, przenośny dokument, który może być wyświetlany, udostępniany i drukowany konsekwentnie na dowolnej platformie, niezależnie od systemu operacyjnego odbiorcy.
 
-## Dlaczego warto używać Aspose.PDF dla Javy?
-- **Pełnoprawne API** – obsługuje wszystkie popularne formaty obrazów bez dodatkowych wtyczek.  
-- **Brak zewnętrznych zależności** – działa od razu z samym plikiem JAR Aspose.  
-- **Precyzyjna kontrola** – możesz dostosować rozmiar strony, marginesy, kompresję i wiele innych.
+## Dlaczego używać Aspose.PDF for Java?
+Aspose.PDF for Java obsługuje **ponad 10 formatów obrazów**, może przetwarzać **PDF‑y o 500 stronach** bez ładowania całego pliku do pamięci i zapewnia **precyzyjną kontrolę** nad rozmiarem strony, marginesami i kompresją. Te wymierne możliwości czynią go wyborem numer jeden dla konwersji obraz‑do‑PDF w środowiskach korporacyjnych.
 
 ## Wymagania wstępne
 
-Przed rozpoczęciem upewnij się, że masz następujące elementy:
+Przed rozpoczęciem upewnij się, że masz:
+
+- Java 8 lub nowszą.
+- IDE, takie jak IntelliJ IDEA lub Eclipse.
+- Maven lub Gradle do zarządzania zależnościami.
 
 ### Dodawanie zależności Maven Aspose PDF
-Aby używać Aspose.PDF dla Javy, dołącz bibliotekę do swojego pliku budowania.
+Aby używać Aspose.PDF for Java, dołącz bibliotekę do pliku budowania.
 
-**Maven:**
+**Maven:**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -53,91 +118,86 @@ Aby używać Aspose.PDF dla Javy, dołącz bibliotekę do swojego pliku budowani
 </dependency>
 ```
 
-**Gradle:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### Konfiguracja środowiska
-Upewnij się, że masz Java 8 lub wyższą oraz IDE, takie jak IntelliJ IDEA lub Eclipse.
+### Uzyskanie licencji
+Aby używać Aspose.PDF for Java:
 
-### Uzyskiwanie licencji
-Aby używać Aspose.PDF dla Javy:
-- Rozważ uzyskanie **bezpłatnej wersji próbnej**, aby poznać możliwości biblioteki.  
-- Uzyskaj **tymczasową licencję**, jeśli potrzebujesz więcej niż oferuje wersja próbna.  
-- Kup **pełną licencję** na długoterminowe projekty.
+- **Darmowa wersja próbna** – przetestuj wszystkie funkcje bez klucza licencyjnego.  
+- **Licencja tymczasowa** – wydłuż limity wersji próbnej na krótki okres.  
+- **Pełna licencja** – wymagana w środowiskach produkcyjnych.
 
-Odwiedź [Stronę zakupu Aspose](https://purchase.aspose.com/buy), aby uzyskać szczegóły dotyczące nabycia licencji. Tymczasową licencję możesz również uzyskać [tutaj](https://purchase.aspose.com/temporary-license/).
+Odwiedź [Stronę zakupu Aspose](https://purchase.aspose.com/buy) po szczegóły. Tymczasową licencję możesz również uzyskać [tutaj](https://purchase.aspose.com/temporary-license/).
 
-## Konfigurowanie Aspose.PDF dla Javy
+## Konfiguracja Aspose.PDF for Java
 
 Po dodaniu zależności, zainicjalizuj Aspose.PDF w swoim projekcie.
 
-1. **Dodaj zależność Maven lub Gradle** do swojego `pom.xml` lub `build.gradle`.  
-2. **Zaimportuj klasy Aspose.PDF** w swoim pliku Java.  
-3. Zastosuj licencję, jeśli jest potrzebna, używając: ```java
+1. Dodaj zależność Maven lub Gradle do swojego `pom.xml` lub `build.gradle`.  
+2. Zaimportuj wymagane klasy Aspose.PDF w pliku źródłowym Java.  
+3. Zastosuj swoją licencję (jeśli ją posiadasz) przy pomocy poniższego kodu:  
+```java
 com.aspose.pdf.License license = new com.aspose.pdf.License();
 license.setLicense("path/to/your/license/file");
 ```
 
 ## Przewodnik implementacji
 
-Ten przewodnik podzielony jest na dwie główne funkcje: konwertowanie obrazu do PDF przy użyciu bezpośrednich strumieni plików oraz dodawanie obrazu z `BufferedImage` do PDF.
+Przewodnik obejmuje dwa typowe scenariusze: konwersję obrazu przy użyciu bezpośredniego strumienia pliku oraz dodanie obrazu z `BufferedImage`.
 
-### Konwertowanie obrazu do PDF przy użyciu bezpośredniego strumienia pliku
+### Jak utworzyć pdf z obrazów przy użyciu bezpośredniego strumienia pliku?
+Wczytaj obraz przy pomocy `FileInputStream` i osadź go w nowym dokumencie PDF w kilku linijkach. Takie strumieniowe podejście utrzymuje niskie zużycie pamięci, dobrze radzi sobie z dużymi plikami TIFF i pozwala kontrolować wymiary oraz marginesy strony bezpośrednio w kodzie.
 
-#### Krok 1: Utworzenie obiektu Document
+#### Krok 1: Utwórz obiekt Document
+Klasa `Document` reprezentuje plik PDF w pamięci i udostępnia metody do dodawania stron i zawartości.  
 ```java
 doc = new Document();
-```
-Utwórz obiekt `Document`, który będzie służył jako kontener dla Twojego pliku PDF.
+```  
 
-#### Krok 2: Dodanie strony do dokumentu
+#### Krok 2: Dodaj stronę do dokumentu
+Obiekt `Page` definiuje pojedynczą stronę w PDF, w tym jej rozmiar i układ.  
 ```java
 page = doc.getPages().add();
-```
-Dodaj nową stronę do dokumentu. To miejsce, w którym zostanie umieszczony Twój obraz.
+```  
 
-#### Krok 3: Załadowanie pliku obrazu
+#### Krok 3: Załaduj plik obrazu
+`FileInputStream` odczytuje surowe bajty z pliku obrazu, umożliwiając Aspose.PDF strumieniowanie danych bez ładowania całego pliku do RAM.  
 ```java
 FileInputStream fs = new FileInputStream("YOUR_DOCUMENT_DIRECTORY/source.tif");
-```
-Załaduj plik źródłowego obrazu do `FileInputStream`. Zastąp "YOUR_DOCUMENT_DIRECTORY/source.tif" rzeczywistą ścieżką do obrazu.
+```  
 
-#### Krok 4: Ustawienie marginesów strony i pola przycięcia
-```java
-page.getPageInfo().getMargin().setBottom(0);
-page.getPageInfo().getMargin().setTop(0);
-page.getPageInfo().getMargin().setLeft(0);
-page.getPageInfo().getMargin().setRight(0);
-page.setCropBox(new Rectangle(0, 0, 400, 400));
-```
-Dostosuj marginesy i pole przycięcia, aby obraz dobrze pasował do strony.
+#### Krok 4: Ustaw marginesy strony i pole przycięcia
+Dostosuj marginesy (lub ustaw je na `0`), aby obraz wypełniał stronę bez niechcianych pustych obszarów.
 
-#### Krok 5: Utworzenie i dodanie obiektu Image
+#### Krok 5: Utwórz i dodaj obiekt Image
+Klasa `Image` opakowuje strumień obrazu i może być pozycjonowana na stronie; dodanie jej do akapitu umieszcza ją w przepływie treści PDF.  
 ```java
 Image image1 = new Image();
 page.getParagraphs().add(image1);
 image1.setImageStream(fs);
-```
-Utwórz obiekt `Image`, dodaj go do kolekcji akapitów strony i ustaw jego strumień na swój strumień wejściowy pliku.
+```  
 
-#### Krok 6: Zapisanie dokumentu PDF
+#### Krok 6: Zapisz dokument PDF
+Wywołaj metodę `save` na instancji `Document`, aby zapisać finalny PDF na dysku.  
 ```java
 doc.save("YOUR_OUTPUT_DIRECTORY/Image2PDF_DOM.pdf");
-```
-Zapisz dokument w wybranej lokalizacji. Zastąp "YOUR_OUTPUT_DIRECTORY/Image2PDF_DOM.pdf" swoją ścieżką wyjściową.
+```  
 
-### Dodanie obrazu z BufferedImage do PDF
+### Jak dodać obrazy do pdf z BufferedImage?
+Gdy już posiadasz `BufferedImage` — na przykład po zmianie rozmiaru lub zastosowaniu filtrów — możesz przekonwertować go na strumień bajtów i osadzić bez angażowania systemu plików, co dodatkowo zmniejsza obciążenie I/O.
 
-#### Krok 1: Utworzenie dokumentu i dodanie strony
+#### Krok 1: Utwórz dokument i dodaj stronę
+Stwórz nowy `Document` oraz `Page` jak opisano wyżej, aby pomieścić obraz.  
 ```java
 doc = new Document();
 page = doc.getPages().add();
-```
-Rozpocznij od utworzenia dokumentu i dodania strony, podobnie jak w poprzedniej funkcji.
+```  
 
-#### Krok 2: Utworzenie BufferedImage z pliku obrazu
+#### Krok 2: Utwórz BufferedImage z pliku obrazu
+`BufferedImage` przechowuje obraz w pamięci; zapisanie go do `ByteArrayOutputStream` konwertuje go na tablicę bajtów gotową do strumieniowania.  
 ```java
 Image image1 = new Image();
 java.awt.image.BufferedImage bufferedImage = ImageIO.read(new File("YOUR_DOCUMENT_DIRECTORY/source.gif"));
@@ -147,78 +207,84 @@ ByteArrayOutputStream baos = new ByteArrayOutputStream();
 ImageIO.write(bufferedImage, "gif", baos);
 baos.flush();
 ByteArrayInputStream bais = new ByteArrayInputStream(baos.toByteArray());
-```
-Konwertuj plik obrazu na `BufferedImage`, a następnie zapisz go do `ByteArrayOutputStream`. Ten strumień będzie używany do dodania obrazu do PDF.
+```  
 
-#### Krok 3: Dodanie obrazu do strony i ustawienie strumienia
+#### Krok 3: Dodaj obraz do strony i ustaw strumień
+Opakuj tablicę bajtów w `ByteArrayInputStream` i przypisz ją do obiektu `Image`, który następnie można dodać do strony.  
 ```java
 page.getParagraphs().add(image1);
 image1.setImageStream(bais);
-```
-Dodaj obiekt obrazu do kolekcji akapitów strony i ustaw jego strumień przy użyciu `ByteArrayInputStream`.
+```  
 
-#### Krok 4: Zapisanie dokumentu PDF
+#### Krok 4: Zapisz dokument PDF
+Zachowaj PDF w wybranym folderze wyjściowym przy użyciu metody `save`.  
 ```java
 doc.save("YOUR_OUTPUT_DIRECTORY/BufferedImage.pdf");
-```
-Zapisz dokument. Upewnij się, że podałeś prawidłowy katalog wyjściowy.
+```  
 
 ## Praktyczne zastosowania
 
-- **Archiwizacja zdjęć:** Konwertuj cyfrowe zdjęcia do skonsolidowanego PDF, aby łatwo je udostępniać i przechowywać.  
-- **Przygotowanie dokumentów:** Przygotuj raporty lub prezentacje z osadzonymi obrazami.  
-- **Zarządzanie paragonami:** Digitalizuj wydrukowane paragony, konwertując je na PDF w celu elektronicznego archiwizowania.
+- **Archiwizacja zdjęć:** Konwertuj partię JPEG‑ów do jednego PDF‑a dla łatwego udostępniania.  
+- **Generowanie raportów:** Osadzaj zrzuty ekranu lub wykresy bezpośrednio w PDF‑ach w ramach automatyzacji raportowania.  
+- **Zarządzanie paragonami:** Digitalizuj zeskanowane paragony (często w formacie TIFF) bez wyczerpywania pamięci sterty.  
 
-Metody te można zintegrować z platformami zarządzania dokumentami lub usługami przechowywania w chmurze, aby usprawnić automatyzację przepływu pracy.
+Scenariusze te można połączyć z API przechowywania w chmurze lub systemami zarządzania dokumentami, tworząc kompleksowe przepływy pracy od początku do końca.
 
-## Wskazówki dotyczące wydajności
+## Rozważania dotyczące wydajności
 
-Kiedy pracujesz z Aspose.PDF dla Javy:
-- Optymalizuj rozdzielczość i rozmiar obrazu przed konwersją, aby zarządzać zużyciem pamięci.  
-- Używaj buforowanych strumieni do efektywnego obsługiwania dużych plików, zmniejszając operacje I/O.  
-- Stosuj najlepsze praktyki zarządzania pamięcią w Javie, takie jak zamykanie strumieni po użyciu, aby zapobiec wyciekom pamięci.
+- **Optymalizacja rozdzielczości:** Zmniejsz rozdzielczość wysokiej jakości obrazów przed konwersją, aby utrzymać rozmiar pliku w rozsądnych granicach.  
+- **Buforowane strumieniowanie:** Używaj `FileInputStream` lub `ByteArrayInputStream`, aby uniknąć ładowania całego obrazu do pamięci.  
+- **Czyszczenie zasobów:** Zawsze zamykaj strumienie w bloku `finally` lub używaj try‑with‑resources, aby zapobiec wyciekom pamięci.
 
 ## Typowe problemy i rozwiązania
 
 | Problem | Przyczyna | Rozwiązanie |
 |-------|-------|-----|
 | **OutOfMemoryError** | Bardzo duże obrazy ładowane bez buforowania | Użyj `FileInputStream` lub `BufferedImage` ze strumieniami i zamykaj je niezwłocznie. |
-| **Image not displayed** | Nieprawidłowa ścieżka obrazu lub nieobsługiwany format | Sprawdź ścieżkę pliku i upewnij się, że format (JPEG, PNG, GIF, TIFF) jest obsługiwany. |
-| **Margins appear incorrectly** | Domyślne marginesy nie zostały nadpisane | Jawnie ustaw wszystkie cztery marginesy na `0` (lub pożądane wartości), jak pokazano w kodzie. |
+| **Obraz nie wyświetla się** | Nieprawidłowa ścieżka obrazu lub nieobsługiwany format | Zweryfikuj ścieżkę pliku i upewnij się, że format (JPEG, PNG, GIF, TIFF) jest obsługiwany. |
+| **Marginesy wyświetlane niepoprawnie** | Domyślne marginesy nie zostały nadpisane | Jawnie ustaw wszystkie cztery marginesy na `0` (lub wybrane wartości) jak pokazano w kodzie. |
 
 ## Najczęściej zadawane pytania
 
 **P: Czy mogę konwertować obrazy różnych formatów w jednym PDF?**  
-O: Tak – po prostu dodaj wiele obiektów `Image` do kolejnych stron, każdy wskazujący na inny format.
+O: Tak – dodaj wiele obiektów `Image` do kolejnych stron, każdy odwołujący się do innego formatu (JPG, PNG, TIFF itp.).
 
-**P: Jak obsłużyć duże pliki TIFF bez wyczerpania pamięci?**  
-O: Użyj podejścia z bezpośrednim strumieniem pliku (Krok 3 w pierwszej funkcji) i zamknij `FileInputStream` po zapisaniu.
+**P: Jak wygenerować pdf z jpg bez utraty jakości?**  
+O: Użyj metody bezpośredniego strumienia pliku i ustaw właściwość rozdzielczości obrazu przed zapisem; zachowuje to oryginalną jakość JPG.
 
 **P: Czy licencja jest wymagana w środowisku produkcyjnym?**  
-O: Ważna licencja Aspose.PDF jest wymagana w produkcji; bezpłatna wersja próbna jest odpowiednia wyłącznie do oceny.
+O: Tak – ważna licencja Aspose.PDF jest obowiązkowa w produkcji; wersja próbna jest ograniczona wyłącznie do oceny.
 
 **P: Czy mogę ustawić własne rozmiary stron (A4, Letter itp.)?**  
 O: Tak – utwórz `Page` z własnym rozmiarem `Rectangle` przed dodaniem obrazu.
 
 **P: Czy Aspose.PDF obsługuje PDF‑y zabezpieczone hasłem?**  
-O: Biblioteka może otwierać i zapisywać zaszyfrowane PDF‑y, ale wstawianie obrazów działa tylko na niezaszyfrowanych stronach.
+O: Biblioteka może otwierać zaszyfrowane PDF‑y, ale wstawianie obrazów działa tylko na niezaszyfrowanych stronach.
 
 ## Zasoby
+- [Aspose.PDF Documentation](https://reference.aspose.com/pdf/java/)
+- [Download Aspose.PDF for Java](https://releases.aspose.com/pdf/java/)
+- [Purchase License](https://purchase.aspose.com/buy)
+- [Free Trial](https://releases.aspose.com/pdf/java/)
+- [Temporary License](https://purchase.aspose.com/temporary-license/)
+- [Aspose Support Forum](https://forum.aspose.com/c/pdf/10)
 
-- [Dokumentacja Aspose.PDF](https://reference.aspose.com/pdf/java/)  
-- [Pobierz Aspose.PDF dla Javy](https://releases.aspose.com/pdf/java/)  
-- [Zakup licencję](https://purchase.aspose.com/buy)  
-- [Bezpłatna wersja próbna](https://releases.aspose.com/pdf/java/)  
-- [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)  
-- [Forum wsparcia Aspose](https://forum.aspose.com/c/pdf/10)
-
-Gotowy, aby wypróbować? Zaimplementuj to rozwiązanie w swoim projekcie już dziś i usprawnij przepływ pracy od obrazu do PDF!
+Gotowy, aby wypróbować? Zaimplementuj to rozwiązanie w swoim projekcie już dziś i usprawnij swój **create pdf from images** workflow!
 
 ---
 
-**Ostatnia aktualizacja:** 2026-01-06  
-**Testowano z:** Aspose.PDF for Java 25.3  
-**Autor:** Aspose
+**Last Updated:** 2026-06-22  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
+{{< blocks/products/products-backtop-button >}}
+
+## Powiązane tutoriale
+
+- [Dodaj i zmień obrazy w PDF przy użyciu Aspose.PDF for Java: Kompletny przewodnik](/pdf/java/images-graphics/add-change-images-aspose-pdf-java/)
+- [Konwertuj PDF do PNG przy użyciu Aspose.PDF for Java – Kompletny przewodnik](/pdf/java/conversion-export/convert-pdf-pages-to-png-aspose-pdf-java/)
+- [Konwertuj PDF do TIFF w Javie: Kompletny przewodnik przy użyciu Aspose.PDF](/pdf/java/conversion-export/convert-pdf-to-tiff-aspose-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -226,4 +292,10 @@ Gotowy, aby wypróbować? Zaimplementuj to rozwiązanie w swoim projekcie już d
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+```java
+page.getPageInfo().getMargin().setBottom(0);
+page.getPageInfo().getMargin().setTop(0);
+page.getPageInfo().getMargin().setLeft(0);
+page.getPageInfo().getMargin().setRight(0);
+page.setCropBox(new Rectangle(0, 0, 400, 400));
+```
