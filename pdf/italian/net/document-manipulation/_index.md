@@ -323,6 +323,8 @@ Scopri come nascondere testo sensibile e rimuovere contenuti da PDF utilizzando 
 Scopri come riparare rapidamente file PDF corrotti con Aspose.PDF per .NET in C#.
 ### [Come redigere PDF in C# con Aspose PDF – Guida completa](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
 Scopri come rimuovere o nascondere informazioni sensibili da PDF usando Aspose PDF per .NET con C# in questa guida completa.
+### [Rimuovere il font da PDF con Aspose – Guida passo passo](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
+Scopri come rimuovere i font da un documento PDF utilizzando Aspose.PDF per .NET con questa guida dettagliata passo passo.
 
 ## Risorse aggiuntive
 

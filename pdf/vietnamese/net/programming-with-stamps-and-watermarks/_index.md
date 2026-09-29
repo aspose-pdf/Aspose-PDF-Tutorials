@@ -46,6 +46,7 @@ Hướng dẫn "Lập trình với tem và hình mờ" của Aspose.PDF dành ch
 | [Cách Thêm Tem vào PDF với Aspose.Pdf – Hướng Dẫn Từng Bước](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) | Tìm hiểu cách thêm tem vào tệp PDF bằng Aspose.Pdf cho .NET qua hướng dẫn chi tiết từng bước. |  
 | [Tạo thông báo toàn trang PDF – Hướng dẫn nhanh C#](./create-pdf-full-page-notice-quick-c-guide/) Hướng dẫn nhanh cách tạo thông báo toàn trang trong PDF bằng C# và Aspose.PDF cho .NET. |  
 | [Thêm Hình Mờ PDF trong C# – Hướng Dẫn Toàn Diện với Aspose](./add-watermark-pdf-in-c-complete-guide-with-aspose/) | Hướng dẫn chi tiết cách thêm hình mờ vào tệp PDF bằng C# và Aspose.PDF cho .NET. |  
+| [Thêm Số Bates vào PDF với Aspose – Hướng Dẫn Đầy Đủ](./add-bates-numbering-to-pdfs-with-aspose-complete-guide/) | Hướng dẫn chi tiết cách thêm số Bates vào tài liệu PDF bằng Aspose.PDF cho .NET, giúp đánh số và quản lý hồ sơ dễ dàng. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -323,6 +323,9 @@ Aspose.PDF का उपयोग करके PDF को फ्लैट कर
 ### [Aspose के साथ PDF की तुलना कैसे करें – चरण‑दर‑चरण गाइड](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
 Aspose का उपयोग करके PDF फ़ाइलों की तुलना करने के लिए विस्तृत चरण‑दर‑चरण निर्देश।
 
+### [Aspose के साथ PDF से फ़ॉन्ट हटाएँ – चरण‑दर‑चरण गाइड](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
+Aspose का उपयोग करके PDF फ़ाइल से फ़ॉन्ट को हटाने की प्रक्रिया को चरण‑दर‑चरण सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.PDF for Net दस्तावेज़ीकरण](https://docs.aspose.com/pdf/net/)

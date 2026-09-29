@@ -312,6 +312,9 @@ Aspose.PDF for .NET kullanarak PDF sayfalarını ayrı dosyalara nasıl bölece�
 
 ### [Aspose.PDF .NET ile PDF Düzenlemeye İlişkin Nihai Kılavuz: Metni Verimli Şekilde Yükleyin, Kaydedin ve Değiştirin](./master-pdf-manipulation-aspose-pdf-net/)
 
+### [Aspose ile PDF'ten Yazı Tipi Kaldırma – Adım Adım Kılavuz](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
+Aspose kullanarak PDF dosyalarından yazı tiplerini nasıl kaldıracağınızı adım adım öğrenin.
+
 ### [Aspose.PDF ile PDF'yi Düzleştirme – Tam Kılavuz](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
 
 ### [Aspose ile PDF'leri Karşılaştırma – Adım Adım Kılavuz](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)

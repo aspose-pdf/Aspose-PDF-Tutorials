@@ -171,6 +171,8 @@ Ismerje meg, hogyan javíthatja PDF-dokumentumait képhátterek beállításáva
 
 ### [Átlátszóság hozzáadása PDF-hez Aspose PDF használatával C#-ban – Lépésről lépésre útmutató](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Tanuld meg, hogyan adhat hozzá átlátszó elemeket PDF-dokumentumokhoz az Aspose.PDF for .NET segítségével C#-ban.
+### [PDF validálása és téglalap hozzáadása – Teljes útmutató](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
+Tanulja meg, hogyan ellenőrizheti a PDF-et, és adhat hozzá téglalap alakzatot az Aspose.PDF for .NET segítségével.
 
 ## További források
 

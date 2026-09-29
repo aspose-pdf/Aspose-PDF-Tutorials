@@ -52,6 +52,8 @@ Aprenda a configurar un factor de zoom personalizado en documentos PDF con Aspos
 
 ### [Cómo renderizar PDF en C# – Guía completa de PNG, HTML y estampado](./how-to-render-pdf-in-c-complete-guide-to-png-html-stamping/)
 Aprenda a convertir PDFs a PNG, generar HTML y aplicar marcas de agua usando Aspose.PDF para .NET en C#.
+### [Cómo renderizar PDF como PNG en C# – Guía paso a paso](./how-to-render-pdf-as-png-in-c-step-by-step-guide/)
+Aprenda a convertir páginas PDF a imágenes PNG usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
 
 ## Recursos adicionales
 

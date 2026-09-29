@@ -185,6 +185,9 @@ Aspose.PDF for .NET を使用して、PDF ドキュメントをカスタム CSS 
 ### [Aspose.PDF for .NET を使用して PDF からすべてのブックマークを削除する方法](./remove-all-bookmarks-pdf-aspose-dotnet/)
 Aspose.PDF for .NET を使用して PDF ドキュメントからすべてのブックマークを効率的に削除し、ドキュメント管理を効率化し、セキュリティを強化する方法を学習します。
 
+### [Aspose.PDF for .NET を使用して PDF からフォントを削除する: ステップバイステップ ガイド](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
+Aspose.PDF for .NET を利用し、PDF ドキュメントから不要なフォントを削除してファイルサイズを最適化する方法をステップバイステップで解説します。
+
 ### [Aspose.PDF .NET を使って PDF からすべてのテキストを削除する方法](./remove-text-aspose-pdf-net-tutorial/)
 Aspose.PDF .NET を使用して、PDF からすべてのテキストを効率的に削除する方法を学びましょう。機密データの保護やドキュメントの整理に最適です。
 

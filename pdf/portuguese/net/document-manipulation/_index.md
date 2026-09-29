@@ -223,6 +223,9 @@ Aprenda a inserir páginas vazias em documentos PDF com facilidade usando o Aspo
 ### [Domine o método MakeNUp do Aspose.PDF .NET para layouts de PDF eficientes](./aspose-pdf-net-make-nup-method-pdf-layout/)
 Aprenda a reorganizar com eficiência várias páginas de PDF em novos layouts usando o método MakeNUp do Aspose.PDF .NET. Ideal para boletins informativos, folhetos e relatórios.
 
+### [Remover fonte de PDF com Aspose – Guia passo a passo](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
+Aprenda a remover fontes de documentos PDF usando Aspose.PDF para .NET com este guia passo a passo.
+
 ### [Domine o Aspose.PDF para .NET: Guia eficiente de concatenação de PDF](./mastering-aspose-pdf-dotnet-pdfs-concatenation-guide/)
 Aprenda a concatenar PDFs usando o Aspose.PDF para .NET com este guia completo. Simplifique suas tarefas de processamento de documentos facilmente.
 

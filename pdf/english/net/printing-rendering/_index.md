@@ -52,6 +52,8 @@ Learn how to set a custom zoom factor in PDF documents using Aspose.PDF for .NET
 
 ### [How to Render PDF in C# – Complete Guide to PNG, HTML & Stamping](./how-to-render-pdf-in-c-complete-guide-to-png-html-stamping/)
 Learn to render PDFs to PNG and HTML, and apply stamping using Aspose.PDF for .NET in C# with step-by-step examples.
+### [How to Render PDF as PNG in C# – Step‑by‑Step Guide](./how-to-render-pdf-as-png-in-c-step-by-step-guide/)
+Learn how to convert PDF pages to PNG images using Aspose.PDF for .NET with C# code examples and step‑by‑step instructions.
 
 ## Additional Resources
 

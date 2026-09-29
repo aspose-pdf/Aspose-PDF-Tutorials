@@ -52,6 +52,8 @@ Aspose.PDF for .NET kullanarak PDF belgelerinde özel bir yakınlaştırma fakt�
 
 ### [C#'ta PDF Render Etme – PNG, HTML ve Damgalama İçin Tam Kılavuz](./how-to-render-pdf-in-c-complete-guide-to-png-html-stamping/)
 C# kullanarak Aspose.PDF ile PDF'leri PNG, HTML formatına dönüştürmeyi ve damgalama işlemlerini adım adım öğrenin.
+### [C# ile PDF'yi PNG Olarak İşleme – Adım Adım Kılavuz](./how-to-render-pdf-as-png-in-c-step-by-step-guide/)
+C# ve Aspose.PDF for .NET kullanarak PDF dosyalarını PNG görüntülerine dönüştürmeyi adım adım öğrenin.
 
 ## Ek Kaynaklar
 

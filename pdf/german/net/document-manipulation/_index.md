@@ -76,6 +76,9 @@ Erfahren Sie in diesem Schritt-für-Schritt-Tutorial in C#, wie Sie mit Aspose.P
 ### [Effiziente PDF-Optimierung: Entfernen Sie nicht verwendete Objekte mit Aspose.PDF für .NET](./optimize-pdf-aspose-pdf-net-remove-unused-objects/)
 Erfahren Sie, wie Sie PDFs optimieren, indem Sie mit Aspose.PDF für .NET nicht verwendete Objekte entfernen und so Dateigröße und Leistung verbessern.
 
+### [Schriftart aus PDF mit Aspose entfernen – Schritt‑für‑Schritt‑Anleitung](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET Schriftarten aus PDF‑Dateien entfernen und die Dateigröße reduzieren.
+
 ### [Effiziente PDF-Seitenbearbeitung mit Aspose.PDF für .NET: Ein Entwicklerhandbuch](./manipulate-pdf-pages-aspose-dot-net/)
 Erfahren Sie, wie Sie PDF-Seiten mit Aspose.PDF für .NET effizient bearbeiten. Diese Anleitung behandelt das Drehen, Zoomen und Festlegen von Ursprüngen ohne Adobe Acrobat.
 

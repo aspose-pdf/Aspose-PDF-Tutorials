@@ -37,6 +37,8 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET Rechtecke in PDF-Dokumenten erste
 
 ### [Rechteck in PDF mit C# zeichnen – Schritt‑für‑Schritt‑Anleitung](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein Rechteck in ein PDF-Dokument zeichnen. Folgen Sie dieser Schritt‑für‑Schritt‑Anleitung.
+### [Wie man PDF validiert und ein Rechteck hinzufügt – Vollständiger Leitfaden](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDFs validieren und Rechtecke hinzufügen, um Dokumente zu prüfen und zu markieren.
 
 ### [Erstellen Sie benutzerdefinierte PDF-Stempel mit Aspose.PDF in .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Ein Code-Tutorial für Aspose.PDF Net

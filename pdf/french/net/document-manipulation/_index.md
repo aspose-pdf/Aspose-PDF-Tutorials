@@ -321,6 +321,8 @@ Apprenez à masquer du texte et à supprimer du contenu dans un PDF en C# avec A
 
 ### [Comment réparer un PDF en C# – Réparer rapidement les fichiers PDF corrompus](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
 Apprenez à réparer rapidement les fichiers PDF corrompus en C# à l'aide d'Aspose.PDF.
+### [Supprimer la police d’un PDF avec Aspose – Guide étape par étape](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
+Découvrez comment supprimer les polices d’un PDF à l’aide d’Aspose.PDF pour .NET grâce à ce guide complet.
 
 ## Ressources supplémentaires
 

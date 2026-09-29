@@ -52,6 +52,8 @@ Aspose.PDF for .NET を使用して PDF ドキュメントにカスタムズー�
 
 ### [C# で PDF をレンダリングする方法 – PNG、HTML、スタンピングの完全ガイド](./how-to-render-pdf-in-c-complete-guide-to-png-html-stamping/)
 Aspose.PDF for .NET を使用して C# で PDF を PNG や HTML に変換し、スタンプを追加する手順を解説します。
+### [C# で PDF を PNG にレンダリングする方法 – ステップバイステップ ガイド](./how-to-render-pdf-as-png-in-c-step-by-step-guide/)
+Aspose.PDF for .NET を使って PDF を PNG 画像に変換する手順とコード例をステップバイステップで解説します。
 
 ## 追加リソース
 

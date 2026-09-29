@@ -192,6 +192,8 @@ Learn how to eliminate unwanted open actions from PDF files using Aspose.PDF for
 
 ### [How to flatten PDF with Aspose.PDF – Complete guide](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
 Learn how to flatten PDF documents using Aspose.PDF for .NET, removing interactive elements and preserving appearance.
+### [Remove Font from PDF with Aspose – Step‑by‑Step Guide](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
+Learn how to remove embedded fonts from PDF files using Aspose.PDF for .NET in this step-by-step tutorial.
 
 ### [How to Split PDF Pages Using Aspose.PDF for .NET&#58; A Complete Guide](./mastering-pdf-page-splitting-aspose-pdf-net/)
 Learn how to efficiently split PDF pages into individual files using Aspose.PDF for .NET with this comprehensive guide. Boost your document manipulation skills today.

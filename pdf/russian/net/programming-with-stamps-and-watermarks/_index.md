@@ -54,6 +54,7 @@
 | [Создать водяной знак PDF – добавить штамп и преобразовать DOCX в PDF](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) | Узнайте, как создать водяной знак, добавить штамп и конвертировать DOCX в PDF с помощью Aspose.PDF для .NET. |  
 | [Добавить штамп в PDF – Применить водяной знак на первой странице](./add-stamp-to-pdf-apply-watermark-pdf-on-first-page/) Узнайте, как добавить штамп и применить водяной знак только на первой странице PDF с помощью Aspose.PDF для .NET. |  
 | [Как добавить штамп в PDF с Aspose.Pdf – пошаговое руководство](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) | Узнайте, как добавить штамп в PDF с помощью Aspose.PDF для .NET в этом подробном пошаговом руководстве. |  
+| [Добавить нумерацию Бейтса в PDF с Aspose – Полное руководство](./add-bates-numbering-to-pdfs-with-aspose-complete-guide/) | Узнайте, как добавить нумерацию Бейтса в PDF-файлы с помощью Aspose.PDF для .NET в этом полном руководстве. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

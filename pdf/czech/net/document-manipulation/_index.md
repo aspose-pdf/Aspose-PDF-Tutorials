@@ -154,6 +154,9 @@ Naučte se, jak efektivně odstranit všechny záložky z PDF dokumentů pomocí
 ### [Jak odstranit veškerý text z PDF souborů pomocí Aspose.PDF .NET pro manipulaci s dokumenty](./remove-text-aspose-pdf-net-tutorial/)
 Naučte se, jak efektivně odstranit veškerý text z PDF pomocí Aspose.PDF .NET. Ideální pro ochranu citlivých dat nebo úklid dokumentů.
 
+### [Jak odstranit font z PDF pomocí Aspose – krok za krokem](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
+Naučte se, jak odstranit písmo z PDF souborů pomocí Aspose.PDF pro .NET v tomto podrobném návodu.
+
 ### [Jak odstranit akce otevření PDF pomocí Aspose.PDF pro .NET: Kompletní průvodce](./remove-pdf-open-action-aspose-dotnet-guide/)
 Naučte se, jak eliminovat nežádoucí akce otevření z PDF souborů pomocí Aspose.PDF pro .NET. Tato příručka poskytuje podrobné pokyny a osvědčené postupy.
 

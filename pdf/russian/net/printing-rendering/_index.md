@@ -52,6 +52,8 @@
 
 ### [Как отрисовать PDF в C# – Полное руководство по PNG, HTML и штампованию](./how-to-render-pdf-in-c-complete-guide-to-png-html-stamping/)
 Узнайте, как с помощью Aspose.PDF отобразить PDF в C#, преобразовать его в PNG и HTML, а также добавить штампы к документу.
+### [Как отобразить PDF в PNG в C# – пошаговое руководство](./how-to-render-pdf-as-png-in-c-step-by-step-guide/)
+Узнайте, как конвертировать PDF‑файлы в изображения PNG с помощью Aspose.PDF для .NET, используя C#.
 
 ## Дополнительные ресурсы
 

@@ -52,6 +52,8 @@ Découvrez comment définir un facteur de zoom personnalisé dans les documents 
 
 ### [Comment rendre un PDF en C# – Guide complet pour PNG, HTML et le marquage](./how-to-render-pdf-in-c-complete-guide-to-png-html-stamping/)
 Découvrez comment convertir des PDF en images PNG, générer du HTML et appliquer des filigranes avec Aspose.PDF pour .NET.
+### [Comment rendre un PDF en PNG en C# – Guide étape par étape](./how-to-render-pdf-as-png-in-c-step-by-step-guide/)
+Apprenez à convertir des fichiers PDF en images PNG avec Aspose.PDF pour .NET en suivant un guide complet en C#.
 
 ## Ressources supplémentaires
 

@@ -323,6 +323,9 @@ Aspose.PDF Net 程式碼教學
 ### [如何使用 Aspose.PDF 比較 PDF – 逐步指南](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
 了解如何使用 Aspose 在 .NET 中逐步比較 PDF 文件，找出差異並生成比較報告。
 
+### [使用 Aspose.PDF 從 PDF 中移除字體 – 步驟指南](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
+了解如何使用 Aspose.PDF for .NET 從 PDF 文件中移除嵌入字體，以減少檔案大小並優化文件。
+
 ## 其他資源
 
 - [Aspose.PDF 用於網頁文檔](https://docs.aspose.com/pdf/net/)

@@ -322,6 +322,8 @@ Ismerje meg, hogyan laposíthatja a PDF fájlokat az Aspose.PDF segítségével,
 
 ### [PDF-ek összehasonlítása az Aspose segítségével – lépésről lépésre útmutató](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
 Ismerje meg, hogyan hasonlíthatja össze két PDF fájlt az Aspose.PDF for .NET segítségével, részletes kódpéldákkal és tippekkel.
+### [Betűtípus eltávolítása PDF-ből az Aspose.PDF for .NET használatával – Lépésről‑lépésre útmutató](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
+Ismerje meg, hogyan távolíthatja el a betűtípusokat PDF-fájlokból az Aspose.PDF for .NET segítségével.
 
 ## További források
 

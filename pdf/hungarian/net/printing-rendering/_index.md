@@ -52,6 +52,8 @@ Ismerje meg, hogyan állíthat be egyéni nagyítási tényezőt PDF dokumentumo
 
 ### [Hogyan renderelj PDF-et C#-ban – Teljes útmutató PNG, HTML és bélyegzéshez](./how-to-render-pdf-in-c-complete-guide-to-png-html-stamping/)
 Ismerje meg, hogyan konvertálhat PDF-et PNG vagy HTML formátumba, és alkalmazhat bélyegzőket C# kóddal az Aspose.PDF for .NET segítségével.
+### [PDF renderelése PNG formátumba C#‑ban – Lépésről lépésre útmutató](./how-to-render-pdf-as-png-in-c-step-by-step-guide/)
+Tanulja meg, hogyan konvertálhat PDF oldalakat PNG képekké C#‑ban az Aspose.PDF for .NET használatával.
 
 ## További források
 

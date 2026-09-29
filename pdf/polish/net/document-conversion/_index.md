@@ -70,6 +70,9 @@ Dowiesz się, jak określać ustawienia konwersji, wyodrębniać tekst i obrazy,
 | [Zapisz PDF jako HTML przy użyciu Aspose.PDF – Samouczek krok po kroku w C#](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) | Dowiedz się, jak zapisać plik PDF jako HTML przy użyciu Aspose.PDF w C# w tym przewodniku krok po kroku. |
 | [Otwórz dokument PDF C# – konwersja do PDF/X‑4 do druku](./open-pdf-document-c-convert-to-pdf-x-4-for-printing/) | Dowiedz się, jak otworzyć dokument PDF w C# i przekonwertować go do formatu PDF/X‑4 przeznaczonego do druku, korzystając z Aspose.PDF dla .NET. |
 | [Jak skonwertować PDF do PDF/X‑4 w C# przy użyciu Aspose PDF](./how-to-convert-pdf-to-pdf-x-4-in-c-with-aspose-pdf/) | Dowiedz się, jak konwertować PDF do formatu PDF/X‑4 w C# przy użyciu Aspose.PDF dla .NET w tym przewodniku krok po kroku. |
+| [Konwersja Aspose PDF w C# – Konwertuj PDF do PDF/X‑4](./aspose-pdf-conversion-in-c-convert-pdf-to-pdf-x-4/) | Poznaj, jak w C# konwertować PDF do formatu PDF/X‑4 przy użyciu Aspose.PDF dla .NET w praktycznym samouczku krok po kroku. |
+| [Konwertuj PDF do HTML w C# – Prosty przewodnik krok po kroku](./convert-pdf-to-html-in-c-simple-step-by-step-guide/) | Dowiedz się, jak konwertować PDF do HTML w C# przy użyciu Aspose.PDF dla .NET w prostym przewodniku krok po kroku. |
+| [Samouczek konwersji formatu PDF – konwertuj PDF do PDF/X‑4 przy użyciu Aspose w C#](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-with-a/) | Dowiedz się, jak w C# konwertować pliki PDF do formatu PDF/X‑4 przy użyciu Aspose.PDF dla .NET w prostym przewodniku krok po kroku. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

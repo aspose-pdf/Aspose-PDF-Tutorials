@@ -172,6 +172,8 @@ Aspose.PDF for .NET kullanarak görüntü arka planları ayarlayarak PDF belgele
 
 ### [C# ile PDF'ye Dikdörtgen Ekleme – Tam Aspose PDF Kılavuzu](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
 C# ve Aspose.PDF for .NET kullanarak PDF belgelerine dikdörtgen şekilleri eklemeyi adım adım öğrenin.
+### [PDF'yi Doğrulama ve Dikdörtgen Ekleme – Tam Kılavuz](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
+Aspose.PDF for .NET kullanarak PDF dosyalarını doğrulama ve üzerine dikdörtgen şekli ekleme adımlarını öğrenin.
 
 ## Ek Kaynaklar
 

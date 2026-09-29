@@ -52,6 +52,7 @@
 
 ### [C# में PDF को रेंडर कैसे करें – PNG, HTML और स्टैम्पिंग के लिए संपूर्ण गाइड](./how-to-render-pdf-in-c-complete-guide-to-png-html-stamping/)
 C# में Aspose.PDF का उपयोग करके PDF को PNG, HTML में बदलना और स्टैम्प जोड़ना सीखें।
+### [C# में PDF को PNG के रूप में रेंडर करने का तरीका – चरण-दर-चरण गाइड](./how-to-render-pdf-as-png-in-c-step-by-step-guide/)
 
 ## अतिरिक्त संसाधन
 

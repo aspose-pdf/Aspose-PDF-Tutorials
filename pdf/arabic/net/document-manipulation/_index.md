@@ -191,6 +191,8 @@
 ### [كيفية إزالة إجراءات فتح ملفات PDF باستخدام Aspose.PDF لـ .NET: دليل شامل](./remove-pdf-open-action-aspose-dotnet-guide/)
 تعرّف على كيفية إزالة عمليات الفتح غير المرغوب فيها من ملفات PDF باستخدام Aspose.PDF لـ .NET. يقدم هذا الدليل إرشادات خطوة بخطوة وأفضل الممارسات.
 
+### [إزالة الخط من ملف PDF باستخدام Aspose – دليل خطوة بخطوة](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
+
 ### [كيفية تقسيم صفحات PDF باستخدام Aspose.PDF لـ .NET: دليل شامل](./mastering-pdf-page-splitting-aspose-pdf-net/)
 تعلّم كيفية تقسيم صفحات PDF بكفاءة إلى ملفات منفصلة باستخدام Aspose.PDF لـ .NET مع هذا الدليل الشامل. طوّر مهاراتك في التعامل مع المستندات اليوم.
 

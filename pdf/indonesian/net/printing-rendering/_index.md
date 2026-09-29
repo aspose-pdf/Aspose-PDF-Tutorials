@@ -52,6 +52,8 @@ Pelajari cara mengatur faktor zoom khusus dalam dokumen PDF menggunakan Aspose.P
 
 ### [Cara Merender PDF di C# – Panduan Lengkap untuk PNG, HTML, dan Stamping](./how-to-render-pdf-in-c-complete-guide-to-png-html-stamping/)
 Pelajari cara merender dokumen PDF menjadi gambar PNG, HTML, dan menambahkan stempel menggunakan Aspose.PDF untuk .NET dengan contoh kode C#.
+### [Cara Merender PDF menjadi PNG di C# – Panduan Langkah demi Langkah](./how-to-render-pdf-as-png-in-c-step-by-step-guide/)
+Pelajari cara mengonversi halaman PDF menjadi gambar PNG menggunakan Aspose.PDF untuk .NET dengan contoh kode C# yang mudah diikuti.
 
 ## Sumber Daya Tambahan
 

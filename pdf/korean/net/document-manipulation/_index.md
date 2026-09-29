@@ -76,6 +76,9 @@ C#으로 작성된 단계별 튜토리얼을 통해 Aspose.PDF for .NET을 사�
 ### [효율적인 PDF 최적화: Aspose.PDF for .NET을 사용하여 사용하지 않는 객체 제거](./optimize-pdf-aspose-pdf-net-remove-unused-objects/)
 Aspose.PDF for .NET을 사용하여 사용되지 않는 객체를 제거하여 PDF를 최적화하고 파일 크기와 성능을 개선하는 방법을 알아보세요.
 
+### [Aspose.PDF for .NET을 사용하여 PDF에서 글꼴 제거 – 단계별 가이드](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
+Aspose.PDF for .NET을 사용하여 PDF 문서에서 사용되지 않는 글꼴을 제거하는 방법을 단계별로 안내합니다.
+
 ### [.NET용 Aspose.PDF를 사용한 효율적인 PDF 페이지 조작: 개발자 가이드](./manipulate-pdf-pages-aspose-dot-net/)
 Aspose.PDF for .NET을 사용하여 PDF 페이지를 효율적으로 조작하는 방법을 알아보세요. 이 가이드에서는 Adobe Acrobat을 사용하지 않고도 회전, 확대/축소, 원점 설정을 수행하는 방법을 다룹니다.
 

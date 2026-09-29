@@ -69,6 +69,9 @@
 | [Конвертация Aspose PDF в C#: загрузка, конвертация в PDF/X‑4, сохранение](./aspose-pdf-conversion-in-c-load-convert-to-pdf-x-4-save/) | Узнайте, как загрузить документ, конвертировать его в формат PDF/X‑4 и сохранить с помощью Aspose.PDF для .NET на C#. |
 | [Создать PDF из JPG на C# – Полное руководство с обрезкой и новыми страницами](./create-pdf-from-jpg-in-c-full-guide-with-cropping-and-new-pa/) | Узнайте, как из изображений JPG создавать PDF‑файлы в C#, включая обрезку и добавление новых страниц. |
 | [Как конвертировать PDF в PDF/X‑4 на C# с Aspose PDF](./how-to-convert-pdf-to-pdf-x-4-in-c-with-aspose-pdf/) | Узнайте, как преобразовать PDF в формат PDF/X‑4 с помощью Aspose.PDF для .NET на C# в этом пошаговом руководстве. |
+| [Конвертация PDF в C# – преобразование PDF в PDF/X‑4](./aspose-pdf-conversion-in-c-convert-pdf-to-pdf-x-4/) | Узнайте, как с помощью Aspose.PDF для .NET выполнить конвертацию PDF в формат PDF/X‑4 на C# в этом пошаговом руководстве. |
+| [Конвертировать PDF в PDF/X‑4 с Aspose в C#](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-with-a/) | Узнайте, как конвертировать PDF в PDF/X‑4 с помощью Aspose.PDF для .NET на C# в этом пошаговом руководстве. |
+| [PDF в HTML на C# – простое пошаговое руководство](./convert-pdf-to-html-in-c-simple-step-by-step-guide/) | Узнайте, как конвертировать PDF в HTML с помощью Aspose.PDF для .NET на C# в этом простом пошаговом руководстве. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

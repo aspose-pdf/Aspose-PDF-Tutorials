@@ -73,6 +73,9 @@ Leer hoe u PDF-pagina's kunt aanpassen met Aspose.PDF voor .NET. Pas de uitlijni
 ### [PDF-pagina's verwijderen met Aspose.PDF en C# Streams: een complete handleiding](./delete-pdf-pages-aspose-pdf-c-sharp-streams/)
 Leer hoe u met deze stapsgewijze zelfstudie in C# efficiënt specifieke pagina's uit een PDF kunt verwijderen met Aspose.PDF voor .NET.
 
+### [Lettertype uit PDF verwijderen met Aspose – Stapsgewijze handleiding](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
+Leer hoe u een lettertype uit een PDF-bestand verwijdert met Aspose.PDF voor .NET in een duidelijke stap‑voor‑stap handleiding.
+
 ### [Efficiënte PDF-optimalisatie: verwijder ongebruikte objecten met Aspose.PDF voor .NET](./optimize-pdf-aspose-pdf-net-remove-unused-objects/)
 Leer hoe u PDF's kunt optimaliseren door ongebruikte objecten te verwijderen met Aspose.PDF voor .NET, waardoor de bestandsgrootte en prestaties verbeteren.
 

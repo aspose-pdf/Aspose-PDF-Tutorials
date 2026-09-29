@@ -321,6 +321,8 @@ Pelajari cara menyensor konten sensitif dalam file PDF menggunakan Aspose PDF un
 
 ### [Cara Membandingkan PDF dengan Aspose – Panduan Langkah demi Langkah](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
 Pelajari cara membandingkan file PDF secara akurat menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini.
+### [Menghapus Font dari PDF dengan Aspose – Panduan Langkah demi Langkah](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
+Pelajari cara menghapus font dari file PDF secara programatis menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah.
 
 ## Sumber Daya Tambahan
 

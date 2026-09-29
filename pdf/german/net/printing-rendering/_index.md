@@ -52,6 +52,8 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET einen benutzerdefinierten Zoomfak
 
 ### [So rendern Sie PDF in C# – Vollständige Anleitung zu PNG, HTML und Stempeln](./how-to-render-pdf-in-c-complete-guide-to-png-html-stamping/)
 Erfahren Sie, wie Sie PDFs in C# in PNG und HTML rendern und dabei Stempel hinzufügen – Schritt‑für‑Schritt‑Anleitung mit Codebeispielen.
+### [PDF als PNG rendern in C# – Schritt‑für‑Schritt‑Anleitung](./how-to-render-pdf-as-png-in-c-step-by-step-guide/)
+Erfahren Sie, wie Sie PDF-Dokumente mit Aspose.PDF für .NET in PNG-Bilder konvertieren, inklusive Codebeispielen und Optimierungstipps.
 
 ## Weitere Ressourcen
 

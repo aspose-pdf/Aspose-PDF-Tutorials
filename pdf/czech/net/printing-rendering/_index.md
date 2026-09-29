@@ -52,6 +52,8 @@ Naučte se, jak nastavit vlastní faktor přiblížení v dokumentech PDF pomoc�
 
 ### [Jak renderovat PDF v C# – Kompletní průvodce PNG, HTML a razítkováním](./how-to-render-pdf-in-c-complete-guide-to-png-html-stamping/)
 Naučte se, jak renderovat PDF do formátů PNG a HTML a aplikovat razítka pomocí Aspose.PDF pro .NET.
+### [Jak převést PDF na PNG v C# – krok za krokem průvodce](./how-to-render-pdf-as-png-in-c-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.PDF pro .NET v jazyce C# převést PDF soubory na obrázky PNG s podrobnými ukázkami kódu.
 
 ## Další zdroje
 

@@ -112,6 +112,9 @@ Découvrez comment créer des PDF balisés accessibles et intégrant des images 
 ### [Comment créer des rectangles transparents dans un fichier PDF avec Aspose.PDF pour .NET](./create-transparent-rectangles-aspose-pdf-dotnet/)
 Découvrez comment améliorer vos documents PDF en créant des rectangles avec transparence alpha grâce à Aspose.PDF pour .NET. Suivez ce guide étape par étape.
 
+### [Comment valider un PDF et ajouter un rectangle – guide complet](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
+Apprenez à valider la conformité d'un PDF et à dessiner un rectangle à l'aide d'Aspose.PDF pour .NET, avec du code C# étape par étape.
+
 ### [Comment supprimer des images de fichiers PDF avec Aspose.PDF pour .NET – Guide complet](./delete-images-aspose-pdf-net/)
 Découvrez comment supprimer efficacement des images de fichiers PDF avec Aspose.PDF pour .NET. Ce guide présente la configuration, des exemples de code et les bonnes pratiques.
 

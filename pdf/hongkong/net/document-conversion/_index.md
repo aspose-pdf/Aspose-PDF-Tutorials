@@ -69,6 +69,9 @@
 | [在 C# 中開啟 PDF 文件 – 轉換為 PDF/X‑4 以列印](./open-pdf-document-c-convert-to-pdf-x-4-for-printing/) |透過本逐步指南了解如何在 C# 中開啟 PDF 並將其轉換為適合列印的 PDF/X‑4 格式。 |
 | [如何在 C# 中使用 Aspose PDF 將 PDF 轉換為 PDF/X‑4](./how-to-convert-pdf-to-pdf-x-4-in-c-with-aspose-pdf/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 轉換為 PDF/X‑4 格式。 |
 | [從 PDF 建立 HTML – 使用 Aspose.PDF 步驟說明指南](./create-html-from-pdf-with-aspose-pdf-step-by-step-guide/) |透過本分步教學了解如何使用 Aspose.PDF for .NET 從 PDF 檔案產生 HTML，適合開發人員快速轉換。 |
+| [Aspose PDF 轉換於 C# – 將 PDF 轉換為 PDF/X‑4](./aspose-pdf-conversion-in-c-convert-pdf-to-pdf-x-4/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 轉換為 PDF/X‑4 格式。 |
+| [PDF 格式轉換教學 – 使用 Aspose 在 C# 中將 PDF 轉換為 PDF/X‑4](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-with-a/) |本教學示範如何在 C# 中使用 Aspose.PDF 將 PDF 檔案轉換為 PDF/X‑4 格式。 |
+| [在 C# 中將 PDF 轉換為 HTML – 簡單逐步指南](./convert-pdf-to-html-in-c-simple-step-by-step-guide/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 轉換為 HTML。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

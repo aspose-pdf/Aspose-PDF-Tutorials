@@ -170,6 +170,9 @@
 ### [تعيين خلفيات الصور في ملفات PDF باستخدام Aspose.PDF لـ .NET: دليل شامل](./aspose-pdf-net-set-image-backgrounds/)
 تعرّف على كيفية تحسين مستندات PDF الخاصة بك عن طريق تعيين خلفيات الصور باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل نصائح للإعداد والتنفيذ والتحسين.
 
+### [كيفية التحقق من صحة ملف PDF وإضافة مستطيل – دليل شامل](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
+تعرف على خطوات التحقق من صحة ملفات PDF وإدراج مستطلات باستخدام Aspose.PDF لـ .NET مع أمثلة برمجية مفصلة.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

@@ -35,6 +35,9 @@
 ### [.NET के लिए Aspose.PDF का उपयोग करके PDF में आयत बनाएं और भरें: एक चरण-दर-चरण मार्गदर्शिका](./create-fill-rectangle-aspose-pdf-net/)
 जानें कि .NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ों में आयत कैसे बनाएँ और भरें। यह चरण-दर-चरण मार्गदर्शिका C# के साथ सेटअप से लेकर कार्यान्वयन तक सब कुछ कवर करती है।
 
+### [PDF को वैध करने और आयत जोड़ने की संपूर्ण गाइड](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
+Aspose.PDF .NET का उपयोग करके PDF फ़ाइल की वैधता जांचें और आयत आकार के साथ ग्राफ़िक जोड़ें। चरण‑दर‑चरण कोड उदाहरण।
+
 ### [C# के साथ PDF में आयत जोड़ें – पूर्ण Aspose PDF गाइड](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
 C# में Aspose.PDF का उपयोग करके PDF में आयत जोड़ने की पूरी गाइड।
 

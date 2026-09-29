@@ -36,6 +36,7 @@ Du lär dig hur du anger konverteringsinställningar, extraherar text och bilder
 | [PDF till HTML](./pdf-to-html/) | Lär dig hur du konverterar PDF till HTML med Aspose.PDF för .NET med den här steg-för-steg-guiden. Perfekt för utvecklare och innehållsskapare. |
 | [Skapa HTML från PDF med Aspose.PDF – Steg‑för‑steg‑guide](./create-html-from-pdf-with-aspose-pdf-step-by-step-guide/) | Lär dig hur du konverterar PDF till HTML med Aspose.PDF för .NET i en detaljerad steg‑för‑steg‑guide. |
 | [Spara PDF som HTML med Aspose.PDF – Steg‑för‑steg C#‑guide](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) | Lär dig hur du sparar PDF som HTML med Aspose.PDF för .NET i en detaljerad steg‑för‑steg‑guide. |
+| [Konvertera PDF till HTML i C# – Enkelt steg‑för‑steg‑guide](./convert-pdf-to-html-in-c-simple-step-by-step-guide/) | Lär dig hur du konverterar PDF till HTML med Aspose.PDF för .NET i en enkel steg‑för‑steg‑guide. |
 | [PDF till PDFA](./pdf-to-pdfa/) Lär dig hur du konverterar PDF-filer till PDF/A-format med Aspose.PDF för .NET med den här steg-för-steg-handledningen. |
 | [PDF till PDFA3b](./pdf-to-pdfa3b/) | Lär dig att konvertera PDF-filer till PDF/A-3B-format utan problem med Aspose.PDF för .NET i den här steg-för-steg-guiden. |
 | [Konvertera PDF till PDF/X‑4 i C# – Steg‑för‑steg ASP.NET PDF‑handledning](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Lär dig hur du konverterar PDF till PDF/X‑4 med Aspose.PDF för .NET i en detaljerad steg‑för‑steg‑guide. |
@@ -69,6 +70,8 @@ Du lär dig hur du anger konverteringsinställningar, extraherar text och bilder
 | [Hur man ställer in alternativ för PDF‑konvertering i C# – Aspose‑guide](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | Lär dig hur du ställer in konverteringsalternativ för PDF i C# med Aspose.PDF för .NET i denna steg‑för‑steg‑guide. |
 | [Skapa span-element och lägg till på sidan – Konvertera DOCX till PDF](./create-span-element-and-add-to-page-convert-docx-to-pdf/) | Lär dig hur du skapar ett span-element och lägger till det på en sida när du konverterar DOCX till PDF med Aspose.PDF för .NET. |
 | [Aspose PDF-konvertering i C#: Ladda, konvertera till PDF/X-4, spara](./aspose-pdf-conversion-in-c-load-convert-to-pdf-x-4-save/) | Lär dig hur du laddar en PDF, konverterar till PDF/X‑4 och sparar med Aspose.PDF för .NET i C#. |
+| [Aspose PDF‑konvertering i C# – Konvertera PDF till PDF/X‑4](./aspose-pdf-conversion-in-c-convert-pdf-to-pdf-x-4/) | Lär dig hur du konverterar PDF till PDF/X‑4 med Aspose.PDF för .NET i en detaljerad steg‑för‑steg‑guide. |
+| [PDF-formatkonverteringshandledning – Konvertera PDF till PDF/X‑4 med Aspose i C#](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-with-a/) | Lär dig hur du konverterar PDF-filer till PDF/X‑4-format med Aspose.PDF för .NET i C# med en tydlig steg‑för‑steg‑guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

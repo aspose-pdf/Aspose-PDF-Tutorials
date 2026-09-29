@@ -52,6 +52,7 @@
 | [Πώς να προσθέσετε σφραγίδα σε PDF με το Aspose.Pdf – Οδηγός βήμα προς βήμα](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) | Μάθετε πώς να προσθέσετε σφραγίδα σε αρχείο PDF χρησιμοποιώντας το Aspose.Pdf με αναλυτικές οδηγίες και παραδείγματα κώδικα. |  
 | [Δημιουργία πλήρους σελίδας ειδοποίησης PDF – Γρήγορος οδηγός C#](./create-pdf-full-page-notice-quick-c-guide/) | Μάθετε πώς να δημιουργήσετε μια πλήρης σελίδα ειδοποίησης σε PDF χρησιμοποιώντας C# με το Aspose.PDF για .NET. |  
 | [Προσθήκη αρίθμησης Bates σε PDF με C# – Πλήρης Οδηγός](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Μάθετε πώς να προσθέσετε αρίθμηση Bates σε αρχεία PDF χρησιμοποιώντας C# και Aspose.PDF για .NET με αυτόν τον πλήρη οδηγό. |
+| [Προσθήκη αρίθμησης Bates σε PDF με το Aspose – Πλήρης Οδηγός](./add-bates-numbering-to-pdfs-with-aspose-complete-guide/) Μάθετε πώς να προσθέσετε αρίθμηση Bates σε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET με αναλυτικό βήμα-βήμα οδηγό. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

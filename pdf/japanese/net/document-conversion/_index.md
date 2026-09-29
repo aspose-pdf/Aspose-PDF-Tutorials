@@ -38,6 +38,7 @@ Aspose.PDF の .NET 向けドキュメント変換チュートリアルでは、
 | [PDFからHTMLへ](./pdf-to-html/) Aspose.PDF for .NET を使用してPDFをHTMLに変換する方法をステップバイステップで解説します。開発者やコンテンツ作成者に最適です。 |
 | [Aspose.PDFでPDFをHTMLに保存 – ステップバイステップ C# ガイド](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) Aspose.PDF for .NET を使用して、PDF を HTML に変換し保存する方法をステップバイステップで解説します。 |
 | [Aspose.PDFでPDFからHTMLを作成 – ステップバイステップ ガイド](./create-html-from-pdf-with-aspose-pdf-step-by-step-guide/) Aspose.PDF for .NET を使用して PDF を HTML に変換する方法をステップバイステップで学びます。 |  
+| [C#でPDFをHTMLに変換 – シンプルなステップバイステップガイド](./convert-pdf-to-html-in-c-simple-step-by-step-guide/) Aspose.PDF for .NET を使用して C# で PDF を HTML に変換する方法をステップバイステップで解説します。 |  
 | [PDFからPDFAへ](./pdf-to-pdfa/) このステップバイステップのチュートリアルで、Aspose.PDF for .NET を使用して PDF ファイルを PDF/A 形式に変換する方法を学習します。 |  
 | [PDFからPDFA3bへ](./pdf-to-pdfa3b/) このステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF ファイルを PDF/A-3B 形式に簡単に変換する方法を学習します。 |  
 | [PDFからPNGへのフォントヒント](./pdf-to-png-font-hinting/) Aspose.PDF for .NET を使用して、フォントヒント付きの PDF を PNG に変換する方法を簡単なステップバイステップ ガイドで学習します。 |  
@@ -69,6 +70,8 @@ Aspose.PDF の .NET 向けドキュメント変換チュートリアルでは、
 | [C#でAspose PDF変換 – ロード、PDF/X-4へ変換、保存](./aspose-pdf-conversion-in-c-load-convert-to-pdf-x-4-save/) C#でAspose.PDFを使用し、PDFをロードしPDF/X‑4に変換して保存する手順を解説します。 |  
 | [PDFドキュメントを開く C# – 印刷用にPDF/X‑4へ変換](./open-pdf-document-c-convert-to-pdf-x-4-for-printing/) Aspose.PDF for .NET を使用して、C# で PDF を開き、印刷向けに PDF/X‑4 形式へ変換する手順を解説します。 |  
 | [C#でPDFをPDF/X‑4に変換する方法 – Aspose PDFを使用](./how-to-convert-pdf-to-pdf-x-4-in-c-with-aspose-pdf/) C# と Aspose.PDF for .NET を使用して、PDF を PDF/X‑4 形式に変換する方法を学びます。 |  
+| [C#でAspose PDF変換 – PDFをPDF/X‑4に変換](./aspose-pdf-conversion-in-c-convert-pdf-to-pdf-x-4/) C# と Aspose.PDF for .NET を使用して PDF を PDF/X‑4 形式に変換する方法を学びます。 |  
+| [PDF形式変換チュートリアル – C#でAsposeを使用してPDFをPDF/X‑4に変換](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-with-a/) Aspose.PDF for .NET を使用して C# で PDF を PDF/X‑4 形式に変換する方法をステップバイステップで解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
