@@ -119,7 +119,7 @@ Dowiedz się, jak bezproblemowo dodać pustą stronę na końcu pliku PDF za pom
 ### [Jak dodawać i dostosowywać numery stron w plikach PDF za pomocą Aspose.PDF dla .NET | Przewodnik po manipulacji dokumentami](./add-customize-page-numbers-aspose-pdf-dot-net/)
 Dowiedz się, jak bez wysiłku dodawać i dostosowywać numery stron w dokumentach PDF za pomocą Aspose.PDF dla .NET. Ten kompleksowy przewodnik obejmuje instalację, opcje dostosowywania i wskazówki dotyczące wydajności.
 
-### [Jak dodać i usuwać JavaScript w plikach PDF za pomocą Aspose.PDF .NET: kompleksowy przewodnik](./aspose-pdf-net-add-remove-javascript-pdfs/)
+### [Jak dodawać i usuwać JavaScript w plikach PDF za pomocą Aspose.PDF .NET: kompleksowy przewodnik](./aspose-pdf-net-add-remove-javascript-pdfs/)
 Dowiedz się, jak dodawać i usuwać funkcje JavaScript w dokumentach PDF za pomocą Aspose.PDF dla .NET. Zwiększ interaktywność i funkcjonalność swojego dokumentu dzięki naszemu przewodnikowi krok po kroku.
 
 ### [Jak dołączyć wiele plików PDF za pomocą Aspose.PDF dla .NET: przewodnik krok po kroku](./append-multiple-pdf-files-aspose-net/)
@@ -316,6 +316,9 @@ Dowiedz się, jak dzielić wielostronicowe pliki PDF i tworzyć nowe pliki PDF z
 
 ### [Najlepszy przewodnik po manipulacji plikami PDF za pomocą Aspose.PDF .NET: Ładowanie, zapisywanie i zamiana tekstu w sposób wydajny](./master-pdf-manipulation-aspose-pdf-net/)
 
+### [Usuwanie czcionki z pliku PDF przy użyciu Aspose – przewodnik krok po kroku](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
+Dowiedz się, jak usunąć niepotrzebne czcionki z dokumentu PDF przy użyciu biblioteki Aspose.PDF dla .NET w kilku prostych krokach.
+
 ### [Jak spłaszczyć plik PDF za pomocą Aspose.PDF – Kompletny przewodnik](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
 Dowiedz się, jak spłaszczyć plik PDF, usuwając interaktywne elementy, przy użyciu Aspose.PDF w .NET.
 
@@ -327,9 +330,6 @@ Dowiedz się, jak w C# szybko naprawić uszkodzone pliki PDF przy użyciu Aspose
 
 ### [Jak redagować plik PDF w C# przy użyciu Aspose PDF – Kompletny przewodnik](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
 Dowiedz się, jak usuwać wrażliwe informacje z dokumentów PDF przy użyciu Aspose PDF w C# w tym kompletnym przewodniku.
-
-### [Usuwanie czcionki z pliku PDF przy użyciu Aspose – przewodnik krok po kroku](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
-Dowiedz się, jak usunąć niepotrzebne czcionki z dokumentu PDF przy użyciu biblioteki Aspose.PDF dla .NET w kilku prostych krokach.
 
 ## Dodatkowe zasoby
 

@@ -80,7 +80,7 @@ Tìm hiểu cách tối ưu hóa tệp PDF bằng cách loại bỏ các đối 
 ### [Xử lý trang PDF hiệu quả với Aspose.PDF cho .NET: Hướng dẫn dành cho nhà phát triển](./manipulate-pdf-pages-aspose-dot-net/)
 Học cách thao tác hiệu quả các trang PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm xoay, thu phóng và thiết lập gốc mà không cần Adobe Acrobat.
 
-### [Kết hợp hiệu quả các trang PDF bằng Aspose.PDF cho .NET: Hướng pháp N-Up](./combine-pdf-pages-aspose-net-nup-method/)
+### [Kết hợp hiệu quả các trang PDF bằng Aspose.PDF cho .NET: Hướng dẫn phương pháp N-Up](./combine-pdf-pages-aspose-net-nup-method/)
 Tìm hiểu cách kết hợp các trang PDF hiệu quả bằng phương pháp N-Up với Aspose.PDF cho .NET. Hướng dẫn này bao gồm thiết lập, triển khai và ứng dụng thực tế.
 
 ### [Xóa trang khỏi PDF hiệu quả bằng Aspose.PDF cho .NET](./delete-pages-pdf-aspose-dotnet/)
@@ -320,12 +320,13 @@ Tìm hiểu cách chia nhỏ các tệp PDF nhiều trang và tạo tệp PDF m�
 ### [Hướng dẫn tối ưu về thao tác PDF với Aspose.PDF .NET: Tải, lưu và thay thế văn bản hiệu quả](./master-pdf-manipulation-aspose-pdf-net/)
 Tìm hiểu cách làm chủ thao tác PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm việc tải, lưu và thay thế văn bản trong PDF, lý tưởng cho các nhà phát triển tìm kiếm hiệu quả.
 
+### [Xóa phông chữ khỏi PDF bằng Aspose – Hướng dẫn từng bước](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
+Tìm hiểu cách xóa phông chữ khỏi tài liệu PDF bằng Aspose.PDF cho .NET qua các bước chi tiết và ví dụ mã.
+
 ### [Cách Sửa PDF trong C# – Sửa nhanh các tệp PDF bị hỏng](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
 Tìm hiểu cách sửa các tệp PDF bị hỏng nhanh chóng bằng C# và Aspose.PDF.
 ### [Cách xóa nhạy cảm PDF trong C# với Aspose PDF – Hướng dẫn đầy đủ](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
 Tìm hiểu cách xóa thông tin nhạy cảm khỏi tài liệu PDF bằng Aspose PDF cho .NET trong C# qua hướng dẫn chi tiết từng bước.
-### [Xóa phông chữ khỏi PDF bằng Aspose – Hướng dẫn từng bước](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
-Tìm hiểu cách xóa phông chữ khỏi tài liệu PDF bằng Aspose.PDF cho .NET qua các bước chi tiết và ví dụ mã.
 
 ## Tài nguyên bổ sung
 

@@ -221,7 +221,10 @@ Aprenda a inserir páginas em um PDF usando o Aspose.PDF para .NET com este guia
 Aprenda a inserir páginas vazias em documentos PDF com facilidade usando o Aspose.PDF .NET. Siga este guia passo a passo para aprimorar suas habilidades de manipulação de documentos.
 
 ### [Domine o método MakeNUp do Aspose.PDF .NET para layouts de PDF eficientes](./aspose-pdf-net-make-nup-method-pdf-layout/)
-Domine o método MakeNUp do Aspose.PDF .NET para layouts de PDF eficientes
+Aprenda a reorganizar com eficiência várias páginas de PDF em novos layouts usando o método MakeNUp do Aspose.PDF .NET. Ideal para boletins informativos, folhetos e relatórios.
+
+### [Remover fonte de PDF com Aspose – Guia passo a passo](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
+Aprenda a remover fontes de documentos PDF usando Aspose.PDF para .NET com este guia passo a passo.
 
 ### [Domine o Aspose.PDF para .NET: Guia eficiente de concatenação de PDF](./mastering-aspose-pdf-dotnet-pdfs-concatenation-guide/)
 Aprenda a concatenar PDFs usando o Aspose.PDF para .NET com este guia completo. Simplifique suas tarefas de processamento de documentos facilmente.
@@ -312,8 +315,6 @@ Aprenda a dividir PDFs de várias páginas e criar novos arquivos PDF usando o A
 
 ### [Guia definitivo para manipulação de PDF com Aspose.PDF .NET: carregue, salve e substitua texto com eficiência](./master-pdf-manipulation-aspose-pdf-net/)
 Aprenda a dominar a manipulação de PDFs usando o Aspose.PDF para .NET. Este guia aborda como carregar, salvar e substituir texto em PDFs, ideal para desenvolvedores que buscam eficiência.
-### [Remover fonte de PDF com Aspose – Guia passo a passo](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
-Aprenda a remover fontes de documentos PDF usando Aspose.PDF para .NET com este guia passo a passo.
 
 ### [Como achatar PDF com Aspose.PDF – Guia completo](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
 Aprenda a achatar PDFs, removendo interatividade e reduzindo tamanho, usando Aspose.PDF em um guia passo a passo.
