@@ -43,8 +43,6 @@ Bu öğreticide, **PDF belgesi oluşturma**, yeni bir sayfa ekleme, büyük bir 
 
 **Önkoşullar:** .NET 6+ (veya .NET Framework 4.6+), Visual Studio veya herhangi bir C# IDE ve geçerli bir Aspose.PDF lisansı (veya ücretsiz deneme). Başka üçüncü‑taraf kütüphane gerekmez.
 
-![PDF Belgesi Oluşturma örneği](alt="Aspose.PDF ile PDF Belgesi Oluşturma örneği, sayfa sınırlarını aşan kırmızı bir dikdörtgen gösteriyor")
-
 ---
 
 ## Adım 1 – PDF Belgesini Başlatma

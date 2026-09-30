@@ -44,8 +44,6 @@ In deze tutorial lopen we een compleet, kant‑klaar voorbeeld door dat **een PD
 
 **Voorvereisten:** .NET 6+ (of .NET Framework 4.6+), Visual Studio of een andere C#‑IDE, en een geldige Aspose.PDF‑licentie (of de gratis evaluatie). Er zijn geen andere externe bibliotheken vereist.
 
-![Create PDF Document example](alt="Create PDF Document with Aspose.PDF showing a red rectangle that exceeds page bounds")
-
 ---
 
 ## Stap 1 – PDF-document initialiseren

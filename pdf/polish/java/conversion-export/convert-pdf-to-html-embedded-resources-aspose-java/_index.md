@@ -1,9 +1,17 @@
 ---
-"date": "2025-04-14"
-"description": "Dowiedz się, jak przekonwertować dokument PDF do samodzielnego pliku HTML z osadzonymi zasobami, korzystając z Aspose.PDF dla Java. Dzięki temu Twoja treść będzie gotowa do publikacji w Internecie i spójna wizualnie."
-"title": "Konwertuj PDF do HTML z osadzonymi zasobami za pomocą Aspose.PDF dla Java"
-"url": "/pl/java/conversion-export/convert-pdf-to-html-embedded-resources-aspose-java/"
-"weight": 1
+date: '2026-04-02'
+description: Dowiedz się, jak konwertować pliki PDF na HTML z osadzonymi zasobami
+  przy użyciu Aspose.PDF for Java. Zawiera wskazówki dotyczące PDF‑ów chronionych
+  hasłem oraz ustawień konwersji specyficznych dla Javy.
+keywords:
+- how to convert pdf to html
+- convert password protected pdf
+- convert pdf to html java
+- aspose pdf html conversion
+title: Jak przekonwertować PDF na HTML z osadzonymi zasobami przy użyciu Aspose.PDF
+  dla Javy
+url: /pl/java/conversion-export/convert-pdf-to-html-embedded-resources-aspose-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,34 +19,44 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Konwertuj PDF do HTML ze wszystkimi osadzonymi zasobami za pomocą Aspose.PDF dla Java
+# Jak przekonwertować PDF na HTML z osadzonymi zasobami przy użyciu Aspose.PDF dla Javy
 
-## Wstęp
+## Wprowadzenie
 
-W dzisiejszym cyfrowym krajobrazie udostępnianie dokumentów online w uniwersalnych formatach, takich jak HTML, jest niezbędne. Ten samouczek przeprowadzi Cię przez proces konwersji pliku PDF do pliku HTML ze wszystkimi zasobami (obrazami, czcionkami) osadzonymi bezpośrednio w nim za pomocą Aspose.PDF dla Java.
+W tym przewodniku dotyczącym **how to convert pdf to html** odkryjesz prosty sposób na przekształcenie dokumentu PDF w pojedynczy, samodzielny plik HTML, który zawiera wszystkie obrazy, czcionki i style bezpośrednio w stronie. Niezależnie od tego, czy tworzysz portal internetowy, przygotowujesz kampanię e‑mailową, czy wprowadzisz treść do systemu CMS, posiadanie pliku HTML ze wszystkimi osadzonymi zasobami eliminuje zerwane linki i zapewnia spójne renderowanie we wszystkich przeglądarkach.
 
-### Czego się nauczysz:
-- Konwertuj pliki PDF do samodzielnych plików HTML.
-- Umieść wszystkie niezbędne zasoby w kodzie HTML.
-- Zoptymalizowano pozycjonowanie liter w różnych przeglądarkach.
-- Zapisz obrazy rastrowe jako część tła.
-- Konfiguruj tryby zapisywania czcionek.
+### Czego się nauczysz
+- Konwertuj pliki PDF do samodzielnego pliku HTML.  
+- Osadź obrazy, czcionki i CSS bezpośrednio w HTML.  
+- Optymalizuj pozycjonowanie liter dla starszych przeglądarek.  
+- Zapisz obrazy rastrowe jako część tła strony.  
+- Wybierz odpowiedni tryb zapisu czcionek dla maksymalnej kompatybilności.  
 
-Do końca tego przewodnika będziesz mieć solidne zrozumienie konwertowania dokumentów PDF na samodzielne pliki HTML przy użyciu Aspose.PDF dla Java. Zacznijmy od skonfigurowania środowiska i wymagań wstępnych.
+Po zakończeniu tego samouczka będziesz w stanie pewnie odpowiedzieć na pytanie **„how to convert pdf to html”** używając Aspose.PDF dla Javy.
 
-## Wymagania wstępne
+## Szybkie odpowiedzi
+- **Jaka biblioteka obsługuje konwersję?** Aspose.PDF for Java.  
+- **Czy mogę konwertować PDF‑y zabezpieczone hasłem?** Tak – wystarczy podać hasło przy otwieraniu dokumentu. *(secondary keyword: convert password protected pdf)*  
+- **Jaka wersja Javy jest wymagana?** Java 8 lub wyższa; biblioteka działa z projektami Maven lub Gradle.  
+- **Czy HTML jest naprawdę samodzielny?** Absolutnie – wszystkie obrazy, czcionki i CSS są osadzone.  
+- **Czy potrzebna jest licencja?** Darmowa wersja próbna wystarcza do oceny; licencja komercyjna usuwa wszystkie ograniczenia.
 
-Zanim przejdziesz dalej, upewnij się, że masz:
-- **Wymagane biblioteki**:Dołącz Aspose.PDF dla Java do swojego projektu za pomocą Maven lub Gradle.
-- **Konfiguracja środowiska**:Wymagane jest zainstalowane zgodne środowisko IDE (np. IntelliJ IDEA, Eclipse) oraz JDK.
-- **Wymagania wstępne dotyczące wiedzy**:Zakłada się podstawową znajomość programowania w języku Java i obsługę zależności za pomocą narzędzi takich jak Maven lub Gradle.
+## Co to jest „how to convert pdf to html”?
+Konwersja PDF na HTML oznacza wyodrębnienie układu wizualnego, tekstu, obrazów i czcionek z pliku PDF oraz odtworzenie ich w przyjaznym dla sieci znaczniku. Gdy zasoby są osadzone, powstały plik HTML może być otwierany wszędzie bez potrzeby zewnętrznych plików.
 
-## Konfigurowanie Aspose.PDF dla Java
+## Dlaczego warto używać Aspose.PDF dla Javy do konwersji HTML?
+Aspose.PDF oferuje szczegółową kontrolę nad każdym aspektem konwersji — trybem osadzania, obsługą obrazów, formatami czcionek i pozycjonowaniem CSS — dzięki czemu możesz dostosować wynik do konkretnych przeglądarek lub wymagań wydajnościowych. Obsługuje także zaawansowane scenariusze, takie jak PDF‑y zabezpieczone hasłem oraz przetwarzanie wsadowe na dużą skalę.
 
-Aby włączyć Aspose.PDF for Java do swojego projektu, wykonaj następujące kroki:
+## Prerequisites
+- **Java Development Kit (JDK) 8+** zainstalowany.  
+- **IDE** (IntelliJ IDEA, Eclipse lub podobne).  
+- **Maven lub Gradle** do zarządzania zależnościami.  
+- **Biblioteka Aspose.PDF for Java** (wersja próbna lub licencjonowana).  
 
-### Konfiguracja Maven
-Dodaj następującą zależność w swoim `pom.xml` plik:
+## Konfiguracja Aspose.PDF dla Javy
+
+### Maven Setup
+Dodaj następującą zależność do pliku `pom.xml`:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -47,106 +65,100 @@ Dodaj następującą zależność w swoim `pom.xml` plik:
 </dependency>
 ```
 
-### Konfiguracja Gradle
-Dodaj tę linię do swojego `build.gradle` plik:
+### Gradle Setup
+Umieść tę linię w pliku `build.gradle`:
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-**Nabycie licencji**: Aby używać Aspose.PDF dla Java, uzyskaj licencję. Zacznij od bezpłatnej wersji próbnej lub złóż wniosek o tymczasową licencję, aby poznać pełne możliwości bez ograniczeń. Do użytku produkcyjnego konieczne jest wykupienie subskrypcji.
+**Pozyskanie licencji**: Uzyskaj wersję próbną lub pełną licencję od Aspose. Wersja próbna pozwala przetestować wszystkie funkcje, natomiast zakupiona licencja usuwa ograniczenia oceny.
 
-**Podstawowa inicjalizacja**:Gdy środowisko będzie gotowe, zaimportuj bibliotekę do projektu Java:
+**Podstawowa inicjalizacja**: Zaimportuj klasę podstawową w swoim kodzie Java:
 ```java
 import com.aspose.pdf.Document;
 ```
 
-## Przewodnik wdrażania
+## Implementacja krok po kroku
 
-tej sekcji dowiesz się, jak przekonwertować plik PDF do formatu HTML z osadzonymi zasobami przy użyciu Aspose.PDF dla języka Java.
-
-### Załaduj plik źródłowy PDF
-
-Najpierw załaduj źródłowy dokument PDF, określając ścieżkę do pliku wejściowego:
+### Krok 1: Załaduj źródłowy PDF
+Najpierw wskaż Aspose.PDF na swój plik wejściowy:
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY/input.pdf";
 Document doc = new Document(dataDir);
 ```
-Ten `Document` Klasa reprezentuje plik PDF, z którym pracujesz.
+Jeśli PDF jest zabezpieczony hasłem, przekaż hasło do konstruktora `Document` (zobacz drugorzędne słowo kluczowe *convert password protected pdf*).
 
-### Utwórz opcje zapisu HTML
-
-Utwórz instancję `HtmlSaveOptions` aby dostosować sposób konwersji pliku PDF:
+### Krok 2: Utwórz opcje zapisu HTML
+Zainicjuj `HtmlSaveOptions`, aby kontrolować konwersję:
 ```java
 HtmlSaveOptions options = new HtmlSaveOptions();
 ```
 
-### Osadź wszystkie zasoby w kodzie HTML
-
-Aby mieć pewność, że wszystkie zasoby, takie jak obrazy i czcionki, zostaną osadzone w pliku HTML, należy ustawić tryb osadzania:
+### Krok 3: Osadź wszystkie zasoby w HTML
+Poleć Aspose, aby osadził każdy obraz, czcionkę i fragment CSS bezpośrednio w pliku HTML:
 ```java
 options.setPartsEmbeddingMode(HtmlSaveOptions.PartsEmbeddingModes.EmbedAllIntoHtml);
 ```
-Dzięki temu Twój kod HTML stanie się niezależny.
 
-### Zoptymalizuj pozycjonowanie liter
-
-Aby uzyskać precyzyjne pozycjonowanie liter w CSS, przydatne w celu zapewnienia zgodności z przeglądarkami takimi jak Internet Explorer, należy wykonać następujące czynności:
+### Krok 4: Optymalizuj pozycjonowanie liter
+Do renderowania piksel‑perfekcyjnego — szczególnie w starszych przeglądarkach, takich jak Internet Explorer — użyj jednostek EM z kompensacją błędów zaokrągleń:
 ```java
 options.setLettersPositioningMethod(LettersPositioningMethods.UseEmUnitsAndCompensationOfRoundingErrorsInCss);
 ```
 
-### Zapisz obrazy rastrowe i czcionki
-
-Aby zapisać obrazy rastrowe jako osadzone elementy tła strony PNG, użyj tego ustawienia:
+### Krok 5: Zapisz obrazy rastrowe jako osadzone tła PNG
+Osadzanie obrazów rastrowych jako część tła strony utrzymuje HTML w porządku:
 ```java
 options.setRasterImagesSavingMode(HtmlSaveOptions.RasterImagesSavingModes.AsEmbeddedPartsOfPngPageBackground);
 ```
-Ponadto upewnij się, że wszystkie czcionki są zapisane w różnych formatach w kodzie HTML:
+
+### Krok 6: Zachowaj czcionki we wszystkich formatach
+Zapewnij maksymalną kompatybilność, zapisując czcionki we wszystkich dostępnych formatach:
 ```java
 options.setFontSavingMode(HtmlSaveOptions.FontSavingModes.SaveInAllFormats);
 ```
 
-### Zapisz dane wyjściowe jako pojedynczy plik HTML
-
-Na koniec zapisz dokument w pojedynczym pliku HTML ze wszystkimi osadzonymi zasobami:
+### Krok 7: Zapisz pojedynczy plik HTML
+Na koniec wygeneruj samodzielny plik HTML:
 ```java
 String outputDir = "YOUR_OUTPUT_DIRECTORY/Single_output.html";
 doc.save(outputDir, options);
 ```
-Ten krok umożliwia konwersję pliku PDF do pliku HTML, który można przeglądać niezależnie, bez zewnętrznych zależności.
+Wynikiem jest samodzielny dokument HTML gotowy do natychmiastowego publikowania w sieci.
 
-## Zastosowania praktyczne
-
-Konwersja plików PDF do samodzielnych plików HTML ma kilka praktycznych zastosowań:
-1. **Portale internetowe**:Wyświetlaj broszury lub raporty firmowe w przyjaznym dla użytkownika formacie.
-2. **Kampanie e-mailowe**: Osadzaj dokumenty bezpośrednio w wiadomościach e-mail, aby zapewnić lepsze wrażenia podczas przeglądania.
-3. **Systemy zarządzania treścią (CMS)**:Łatwa integracja zawartości dokumentów ze stronami internetowymi bez konieczności używania zewnętrznych plików.
+## Praktyczne zastosowania
+1. **Portale internetowe** – Publikuj broszury, raporty roczne lub katalogi produktów bez obaw o brakujące zasoby.  
+2. **Kampanie e‑mailowe** – Osadź cały dokument w treści e‑maila, aby zapewnić płynniejsze doświadczenie czytelnika.  
+3. **Systemy zarządzania treścią** – Importuj zawartość PDF bezpośrednio na strony, eliminując potrzebę osobnych przesyłek obrazów/czcionek.
 
 ## Rozważania dotyczące wydajności
+- **Zarządzanie pamięcią** – Przydziel wystarczającą przestrzeń sterty (`-Xmx`) przy konwersji dużych PDF‑ów.  
+- **Przetwarzanie wsadowe** – Przeglądaj folder z PDF‑ami, ponownie używając jednej instancji `HtmlSaveOptions`, aby zmniejszyć narzut.  
+- **Profilowanie** – Używaj profilerów Javy (VisualVM, YourKit), aby wykrywać skoki pamięci i odpowiednio optymalizować.
 
-Podczas konwersji dużych plików PDF należy wziąć pod uwagę następujące wskazówki dotyczące wydajności:
-- **Optymalizacja wykorzystania pamięci**:Upewnij się, że Twoja aplikacja Java ma przydzieloną wystarczającą ilość pamięci, aby wydajnie obsługiwać duże dokumenty.
-- **Przetwarzanie wsadowe**: W przypadku przetwarzania wielu plików należy wdrożyć operacje wsadowe, stosując praktyki zarządzania zasobami.
-- **Najlepsze praktyki w zakresie zarządzania zasobami**:Regularnie profiluj i monitoruj wykorzystanie zasobów swojej aplikacji, aby zapobiegać powstawaniu wąskich gardeł.
+## Typowe problemy i rozwiązania
+| Issue | Why It Happens | Fix |
+|-------|----------------|-----|
+| **OutOfMemoryError** przy dużych PDF‑ach | Niewystarczający rozmiar sterty | Zwiększ pamięć JVM (`-Xmx2g` lub więcej) |
+| Brakujące czcionki w HTML | Czcionka nie została osadzona z powodu licencji | Upewnij się, że `setFontSavingMode` jest ustawione na `SaveInAllFormats` i licencja jest ważna |
+| Obrazy wyświetlają się jako zerwane linki | Tryb osadzania nie jest ustawiony | Sprawdź, czy `setPartsEmbeddingMode` jest ustawione na `EmbedAllIntoHtml` |
 
-## Wniosek
+## Najczęściej zadawane pytania
 
-Postępując zgodnie z tym przewodnikiem, nauczyłeś się, jak przekonwertować dokument PDF na plik HTML ze wszystkimi zasobami osadzonymi przy użyciu Aspose.PDF dla Java. Ten proces zapewnia, że Twoje dane wyjściowe są samodzielne, idealne do wyświetlania w sieci bez zewnętrznych zależności.
+**Q: Czy mogę konwertować pliki PDF zabezpieczone hasłem przy użyciu tej metody?**  
+A: Tak. Podaj hasło przy tworzeniu obiektu `Document`. To odpowiada drugorzędnemu słowu kluczowemu *convert password protected pdf*.
 
-Aby lepiej poznać możliwości programu Aspose.PDF, zapoznaj się z jego obszerną dokumentacją i poeksperymentuj z dodatkowymi funkcjami, takimi jak manipulowanie tekstem i grafiką w plikach PDF.
+**Q: Jak mogę efektywnie obsługiwać bardzo duże pliki PDF?**  
+A: Przydziel więcej pamięci sterty, przetwarzaj pliki w partiach i rozważ wywołanie `doc.optimizeResources()` przed zapisem.
 
-## Sekcja FAQ
+**Q: Czy można dostosować sposób osadzania czcionek w wyjściowym HTML?**  
+A: Zdecydowanie. Użyj różnych `FontSavingModes` (np. `SaveInWoff`, `SaveInTtf`), aby dopasować je do docelowych przeglądarek.
 
-1. **Czy mogę konwertować pliki PDF chronione hasłem za pomocą tej metody?**
-   - Tak, Aspose.PDF umożliwia otwieranie i konwertowanie zabezpieczonych dokumentów, jeśli podasz prawidłowe hasło.
-2. **Jak mogę wydajnie obsługiwać duże pliki PDF?**
-   - Skorzystaj z najlepszych praktyk zarządzania pamięcią w Javie i rozważ podzielenie konwersji na mniejsze zadania.
-3. **Czy można dostosować sposób osadzania czcionek w wynikach HTML?**
-   - Oczywiście, Aspose.PDF oferuje różne tryby zapisywania czcionek, które możesz skonfigurować według swoich potrzeb.
-4. **Które przeglądarki obsługują ten typ osadzonej zawartości HTML?**
-   - Większość nowoczesnych przeglądarek internetowych obsługuje samodzielne dokumenty HTML z osadzonymi zasobami.
-5. **Czy mogę przekonwertować pliki PDF zawierające formularze do formatu HTML, zachowując pola formularzy?**
-   - Aspose.PDF ma ograniczoną obsługę konwersji elementów formularzy. Jeśli jednak zajdzie taka potrzeba, można je wyodrębnić i ręcznie utworzyć ponownie w formacie HTML.
+**Q: Które przeglądarki obsługują osadzony HTML generowany przez Aspose.PDF?**  
+A: Wszystkie nowoczesne przeglądarki (Chrome, Edge, Firefox, Safari) poprawnie renderują samodzielny HTML. Starsze wersje IE mogą wymagać zastosowania korekty pozycjonowania jednostkami EM, którą zastosowaliśmy.
+
+**Q: Czy mogę zachować interaktywne pola formularzy przy konwersji do HTML?**  
+A: Konwersja formularzy jest ograniczona; może być konieczne osobne wyodrębnienie danych formularza i ręczne odtworzenie pól w HTML.
 
 ## Zasoby
 - [Dokumentacja](https://reference.aspose.com/pdf/java/)
@@ -156,7 +168,11 @@ Aby lepiej poznać możliwości programu Aspose.PDF, zapoznaj się z jego obszer
 - [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
 - [Forum wsparcia](https://forum.aspose.com/c/pdf/10)
 
-Mamy nadzieję, że ten samouczek wyposażył Cię w wiedzę, aby skutecznie konwertować pliki PDF do HTML za pomocą Aspose.PDF dla Java. Miłego kodowania!
+---
+
+**Last Updated:** 2026-04-02  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -1,0 +1,7 @@
+Title: How to Change Opacity in PDF with Aspose.PDF – Complete Guide
+Slug: how-to-change-opacity-in-pdf-with-aspose-pdf-complete-guide
+Category: programming-with-stamps-and-watermarks
+ProcessedDate: 2026-07-17T10:30:38.500170
+SourceRepo: AI Search API
+Keywords: how to change opacity, how to set transparency, save modified pdf, set fill opacity
+PRNumber: 105

@@ -16,7 +16,6 @@
 ابدأ رحلتك مع هذه الدروس التعليمية الأساسية لـ Aspose.PDF، والتي تشرح لك خطوات التثبيت، وتكوين الترخيص، وإنشاء أول مستندات PDF لديك في .NET. توضح أدلة المبتدئين كيفية إعداد بيئة التطوير، وتهيئة مكتبة Aspose.PDF، وإجراء عمليات PDF الأساسية. اتبع هذه الدروس التعليمية لإتقان الأساسيات بسرعة والاستعداد لمهام معالجة PDF أكثر تقدمًا في تطبيقات .NET.
 
 ## البرامج التعليمية المتاحة
-
 ### [تطبيق ترخيص القياس وعدد صفحات PDF باستخدام Aspose.PDF](./aspose-pdf-net-metered-license-page-count/)
 برنامج تعليمي لبرمجة Aspose.PDF Net
 
@@ -31,6 +30,14 @@
 
 ### [تحميل ترخيص Aspose.PDF من ملف في .NET: دليل شامل](./load-aspose-pdf-license-file-net/)
 تعرف على كيفية التبديل بسلاسة بين الوضع التجريبي والوضع المرخص لـ Aspose.PDF في .NET عن طريق تحميل ملف الترخيص، مما يضمن وظائف التطبيق السلسة.
+
+### [كيفية التحقق من تثبيت حزمة NuGet باستخدام PowerShell](./how-to-verify-installation-of-a-nuget-package-with-powershel/)
+دليل خطوة بخطوة للتحقق من تثبيت حزمة NuGet باستخدام PowerShell لضمان إعداد صحيح.
+
+### [كيفية تثبيت Aspose – دليل PowerShell للإصدارات المحددة](./how-to-install-aspose-powershell-guide-for-specific-versions/)
+دليل PowerShell لتثبيت Aspose بإصدارات محددة.
+### [كيفية تثبيت حزم NuGet عبر PowerShell – خطوة بخطوة](./how-to-install-nuget-packages-via-powershell-step-by-step/)
+دليل خطوة بخطوة لتثبيت حزم NuGet باستخدام PowerShell في بيئة .NET
 
 ## موارد إضافية
 
