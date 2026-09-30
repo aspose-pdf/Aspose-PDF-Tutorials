@@ -25,9 +25,8 @@ title: PDF-afbeeldingen optimaliseren – PDF-bestandsgrootte verkleinen met C#
 url: /nl/net/performance-optimization/optimize-pdf-images-reduce-pdf-file-size-with-c/
 ---
 
-placeholders.
 
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

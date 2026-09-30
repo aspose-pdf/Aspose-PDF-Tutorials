@@ -22,7 +22,7 @@ title: Créer un document PDF avec Aspose en C# – Guide étape par étape
 url: /fr/net/document-creation/create-pdf-document-with-aspose-in-c-step-by-step-guide/
 ---
 
-with all translated text.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

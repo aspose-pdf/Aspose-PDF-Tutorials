@@ -23,15 +23,10 @@ title: Как создать PDF в C# – добавить страницу, н
 url: /ru/net/document-creation/how-to-create-pdf-in-c-add-page-draw-rectangle-save/
 ---
 
-step](https://example.com/diagram.png "how to create pdf diagram") to Russian alt and title.
 
-Also translate blockquote note.
 
-Translate table content.
 
-Make sure to keep markdown formatting.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

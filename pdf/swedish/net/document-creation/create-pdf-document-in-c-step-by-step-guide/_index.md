@@ -23,9 +23,7 @@ title: Skapa PDF-dokument i C# – Steg‑för‑steg‑guide
 url: /sv/net/document-creation/create-pdf-document-in-c-step-by-step-guide/
 ---
 
-Be careful with markdown formatting.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

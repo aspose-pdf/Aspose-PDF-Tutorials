@@ -24,15 +24,10 @@ title: Crea documento PDF – Aggiungi pagina al PDF, tagga intestazione e posiz
 url: /it/net/document-creation/create-pdf-document-add-page-to-pdf-tag-heading-and-position/
 ---
 
-"Common Questions & Edge Cases" heading and its Q&A.
 
-Also translate "Conclusion" etc.
 
-Make sure not to translate code block placeholders.
 
-Also preserve markdown formatting.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

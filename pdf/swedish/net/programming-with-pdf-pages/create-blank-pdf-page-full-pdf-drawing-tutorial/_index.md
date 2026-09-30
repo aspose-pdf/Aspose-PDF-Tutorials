@@ -23,7 +23,7 @@ title: Skapa en tom PDF-sida – Fullständig PDF-ritningshandledning
 url: /sv/net/programming-with-pdf-pages/create-blank-pdf-page-full-pdf-drawing-tutorial/
 ---
 
-. Ensure we keep all placeholders unchanged.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

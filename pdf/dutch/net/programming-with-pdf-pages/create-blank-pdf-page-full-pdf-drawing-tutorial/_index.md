@@ -24,9 +24,8 @@ title: Maak een lege PDF-pagina – Volledige tutorial voor PDF-tekenen
 url: /nl/net/programming-with-pdf-pages/create-blank-pdf-page-full-pdf-drawing-tutorial/
 ---
 
-then heading. Ensure all.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

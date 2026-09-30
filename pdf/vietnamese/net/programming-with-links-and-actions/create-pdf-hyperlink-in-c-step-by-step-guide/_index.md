@@ -23,31 +23,18 @@ title: Tạo siêu liên kết PDF trong C# – Hướng dẫn từng bước
 url: /vi/net/programming-with-links-and-actions/create-pdf-hyperlink-in-c-step-by-step-guide/
 ---
 
-translate it, but keep the image syntax. The title attribute also text, translate.
 
-Similarly table headers and cells.
 
-Also bullet lists.
 
-Let's produce translation.
 
-Be careful with preserving markdown formatting.
 
-Let's start.
 
-First shortcodes remain.
 
-Then heading "# Create PDF Hyperlink in C# – Step‑by‑Step Guide" translate: "Tạo Siêu liên kết PDF trong C# – Hướng dẫn từng bước". Keep same heading level.
 
-Proceed.
 
-Paragraphs translate.
 
-Make sure not to translate code placeholders.
 
-Also keep bold text (**text**) but translate inside.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

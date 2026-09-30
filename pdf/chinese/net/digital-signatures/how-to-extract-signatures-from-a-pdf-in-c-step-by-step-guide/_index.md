@@ -22,12 +22,8 @@ title: 如何在 C# 中从 PDF 提取签名——一步步指南
 url: /zh/net/digital-signatures/how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/
 ---
 
-”而未包含加密签名，Aspose 可能会忽略。"
 
-| **Performance bottleneck on large batches** | Slow processing | Reuse a single `PdfFileSignature` instance for multiple documents when possible, and run the extraction in parallel (but respect thread‑safety guidelines). |
-Issue: **大批量处理性能瓶颈** ; Fix: "在可能的情况下复用单个 `PdfFileSignature` 实例处理多个文档，并并行执行提取（但需遵守线程安全指南）。"
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

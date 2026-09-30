@@ -23,13 +23,9 @@ title: Aspose.Pdf를 사용한 PDF 서명 검증 방법 – C# 가이드
 url: /ko/net/digital-signatures/how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/
 ---
 
-unchanged placeholders.
 
-Let's craft translations.
 
-Be careful with punctuation.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

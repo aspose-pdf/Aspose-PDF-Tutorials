@@ -23,9 +23,8 @@ title: Hướng dẫn chữ ký PDF – Xác minh chữ ký PDF trong C# với A
 url: /vi/net/digital-signatures/pdf-signature-tutorial-verify-pdf-signatures-in-c-with-aspos/
 ---
 
-placeholders unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

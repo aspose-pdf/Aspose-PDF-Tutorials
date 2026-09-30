@@ -24,19 +24,12 @@ title: Aspose PDF konvertálás C#-ban – Lépésről lépésre útmutató
 url: /hu/net/document-conversion/aspose-pdf-conversion-in-c-step-by-step-guide/
 ---
 
-Be careful not to translate code snippets inside placeholders (they are not shown). So fine.
 
-Translate bullet points, tables, etc.
 
-Make sure to keep markdown formatting.
 
-Let's craft translation.
 
-Also keep the ">" blockquote.
 
-Translate "Prerequisite:" etc.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

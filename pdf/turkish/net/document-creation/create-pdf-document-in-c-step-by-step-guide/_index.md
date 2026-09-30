@@ -23,11 +23,8 @@ title: C#'te PDF Belgesi Oluşturma – Adım Adım Rehber
 url: /tr/net/document-creation/create-pdf-document-in-c-step-by-step-guide/
 ---
 
-we should not translate them because they are inside code block, which must be preserved exactly. So leave as is.
 
-Also the placeholder // Step 6: Save the PDF document is inside code block, keep unchanged.
 
-Now produce final answer with all content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

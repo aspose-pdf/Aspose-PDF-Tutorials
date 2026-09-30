@@ -24,21 +24,13 @@ title: Skapa PDF‑hyperlänk i C# – Steg‑för‑steg‑guide
 url: /sv/net/programming-with-links-and-actions/create-pdf-hyperlink-in-c-step-by-step-guide/
 ---
 
-‑hyperlänk". Keep same image path.
 
-Proceed.
 
-Headers: "## Create PDF Hyperlink – Overview" translate to "## Skapa PDF‑hyperlänk – Översikt". etc.
 
-List items: translate.
 
-Table: translate column headers and content.
 
-Make sure to keep code block placeholders unchanged.
 
-Also keep bullet lists.
 
-Let's produce final markdown.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

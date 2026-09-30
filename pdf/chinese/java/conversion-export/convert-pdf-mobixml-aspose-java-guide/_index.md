@@ -11,11 +11,9 @@ url: /zh/java/conversion-export/convert-pdf-mobixml-aspose-java-guide/
 weight: 1
 ---
 
- careful with **bold** keep.
 
-Also keep code block placeholders unchanged.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

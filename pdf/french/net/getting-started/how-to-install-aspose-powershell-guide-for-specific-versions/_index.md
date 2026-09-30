@@ -25,11 +25,8 @@ title: Comment installer Aspose – Guide PowerShell pour des versions spécifiq
 url: /fr/net/getting-started/how-to-install-aspose-powershell-guide-for-specific-versions/
 ---
 
-Tables have flag names etc. Translate "Reason" to "Raison". "Flag" maybe "Option". Keep code values unchanged.
 
-Edge case: "Edge case:" translate to "Cas particulier:".
 
-Now produce final.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -24,7 +24,7 @@ title: Aspose.PDF ile PDF'yi HTML olarak kaydedin – Hızlı C# Rehberi
 url: /tr/net/conversion-export/save-pdf-as-html-with-aspose-pdf-quick-c-guide/
 ---
 
-output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

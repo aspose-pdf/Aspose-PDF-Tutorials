@@ -39,8 +39,6 @@ Am Ende dieses Leitfadens können Sie:
 
 Keine externen Werkzeuge, keine vagen „siehe die Docs“-Abkürzungen – nur ein vollständiges, ausführbares Beispiel, das Sie noch heute in Visual Studio copy‑pasten können.
 
-![Diagramm, das den Ablauf des Ladens eines signierten PDF-Dokuments und das Extrahieren seiner Signaturen zeigt](alt="load signed pdf document flow diagram")
-
 ## Voraussetzungen
 
 Bevor wir eintauchen, stellen Sie sicher, dass Sie Folgendes auf Ihrem Rechner haben:

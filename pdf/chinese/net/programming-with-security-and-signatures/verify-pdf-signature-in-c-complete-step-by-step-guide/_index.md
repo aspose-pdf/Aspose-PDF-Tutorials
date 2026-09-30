@@ -20,17 +20,11 @@ title: 在 C# 中验证 PDF 签名 – 完整的逐步指南
 url: /zh/net/programming-with-security-and-signatures/verify-pdf-signature-in-c-complete-step-by-step-guide/
 ---
 
-df for .NET, covered the why behind each configuration, and explored variations for multiple signers, offline scenarios, and custom trust stores. You now ..."
 
-The original ends with "You now have a solid," incomplete. Keep as is? Probably translate up to that point.
 
-We need to keep the closing shortcodes: {{< /blocks/products/pf/tutorial-page-section >}} etc.
 
-Now produce final content.
 
-Be careful to preserve markdown formatting, code block placeholders unchanged.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

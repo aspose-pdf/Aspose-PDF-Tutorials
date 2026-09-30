@@ -22,13 +22,9 @@ title: تحويل PDF باستخدام Aspose في C# – دليل خطوة بخ
 url: /ar/net/document-conversion/aspose-pdf-conversion-in-c-step-by-step-guide/
 ---
 
-Let's craft translations.
 
-I'll write Arabic text.
 
-Be careful with RTL: just Arabic text.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

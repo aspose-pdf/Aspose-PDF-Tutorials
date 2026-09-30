@@ -22,25 +22,15 @@ title: PDF हस्ताक्षर को कैसे सत्यापि
 url: /hi/net/digital-signatures/how-to-validate-pdf-signature-and-add-bates-numbering-to-pdf/
 ---
 
-दस्तावेज़ लेआउट के अनुसार निर्देशांक समायोजित करें।"
 
-Heading "## Full Working Example" => "## पूर्ण कार्यशील उदाहरण"
 
-Paragraph: "Below is the complete program, ready to copy‑paste into a console app. Replace the placeholder paths and passwords with your own values."
 
-Translate: "नीचे पूर्ण प्रोग्राम दिया गया है, जिसे कॉपी‑पेस्ट करके एक कंसोल ऐप में उपयोग किया जा सकता है। प्लेसहोल्डर पाथ और पासवर्ड को अपने मानों से बदलें।"
 
-Then code block unchanged.
 
-After code block, there is an incomplete code snippet; we keep as is.
 
-Then closing shortcodes.
 
-Also there is a backtop button shortcode at end.
 
-Make sure to keep all shortcodes unchanged.
 
-Now produce final output with all translations.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -25,13 +25,10 @@ title: PDF Görsellerini Optimize Et – C# ile PDF Dosya Boyutunu Küçült
 url: /tr/net/performance-optimization/optimize-pdf-images-reduce-pdf-file-size-with-c/
 ---
 
-/products-backtop-button >}}
 
-Now produce final content with all translations.
 
-Be careful to keep code block placeholders unchanged.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -13,9 +13,8 @@ url: /ar/java/advanced-features/create-tagged-pdf-aspose-java/
 weight: 1
 ---
 
-Make sure no extra spaces.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

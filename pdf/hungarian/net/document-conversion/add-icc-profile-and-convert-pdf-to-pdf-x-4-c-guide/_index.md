@@ -21,13 +21,9 @@ title: ICC profil hozzáadása és PDF konvertálása PDF/X‑4-re – C# útmut
 url: /hu/net/document-conversion/add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/
 ---
 
-must preserve exactly. So we should not change alt text or title. Keep as is.
 
-Similarly code block placeholders are not actual code; they are placeholders; we keep them.
 
-Now translate each piece.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

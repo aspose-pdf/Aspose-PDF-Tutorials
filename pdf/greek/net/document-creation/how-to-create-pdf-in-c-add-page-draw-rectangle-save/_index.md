@@ -24,19 +24,12 @@ title: Πώς να δημιουργήσετε PDF σε C# – Προσθήκη �
 url: /el/net/document-creation/how-to-create-pdf-in-c-add-page-draw-rectangle-save/
 ---
 
-_BLOCK_0}} etc.
 
-Also the image alt text and title should be translated? The alt text is "Diagram illustrating how to create pdf step‑by‑step". That should be translated to Greek, but the URL stays same. Title "how to create pdf diagram" also translate.
 
-Also the blockquote note: "Note:" etc.
 
-We need to translate the table content.
 
-Let's produce the translated content.
 
-Be careful with markdown syntax.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

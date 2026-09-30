@@ -21,15 +21,10 @@ title: บทแนะนำการแปลง PDF ด้วย C# – แป
 url: /th/net/document-conversion/c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/
 ---
 
-PDF/X‑4" as is? The heading includes English terms; we can translate the rest but keep the title maybe partially. The instruction says translate all text content naturally to Thai, keep technical terms in English. So we can translate "c# pdf conversion tutorial – Convert PDF to PDF/X‑4" maybe to Thai: "บทแนะนำการแปลง PDF ด้วย C# – แปลงเป็น PDF/X‑4". Keep "c#" maybe lower case? Keep as is? We'll translate.
 
-Proceed.
 
-Paragraphs: translate.
 
-Make sure to keep code block placeholders unchanged.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

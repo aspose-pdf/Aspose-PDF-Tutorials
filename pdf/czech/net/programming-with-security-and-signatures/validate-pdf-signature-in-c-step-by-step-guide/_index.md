@@ -25,7 +25,6 @@ title: Ověření PDF podpisu v C# – průvodce krok za krokem
 url: /cs/net/programming-with-security-and-signatures/validate-pdf-signature-in-c-step-by-step-guide/
 ---
 
-placeholders.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

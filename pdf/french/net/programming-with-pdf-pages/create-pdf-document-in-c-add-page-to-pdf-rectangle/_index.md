@@ -22,9 +22,8 @@ title: Créer un document PDF en C# – Ajouter une page au PDF et un rectangle
 url: /fr/net/programming-with-pdf-pages/create-pdf-document-in-c-add-page-to-pdf-rectangle/
 ---
 
-All markdown formatting preserved.
 
-Now output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,13 +22,10 @@ title: كيفية تثبيت حزم NuGet عبر PowerShell – خطوة بخط�
 url: /ar/net/getting-started/how-to-install-nuget-packages-via-powershell-step-by-step/
 ---
 
-.
 
-Original had *Why admin?*.
 
-All good.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

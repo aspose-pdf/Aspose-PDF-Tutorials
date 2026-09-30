@@ -24,9 +24,7 @@ title: Δημιουργία εγγράφου PDF σε C# – Προσθήκη κ
 url: /el/net/document-creation/create-pdf-document-in-c-add-blank-page-tags-and-span/
 ---
 
-and title.
 
-Now produce final content with Greek translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -22,7 +22,7 @@ title: 'Bates számozási útmutató: Bates számok hozzáadása PDF-ekhez C#-va
 url: /hu/net/programming-with-stamps-and-watermarks/bates-numbering-tutorial-add-bates-numbers-to-pdfs-with-c/
 ---
 
-final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

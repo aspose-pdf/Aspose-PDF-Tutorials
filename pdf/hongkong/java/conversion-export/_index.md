@@ -7,7 +7,7 @@ url: /zh-hant/java/conversion-export/
 weight: 9
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

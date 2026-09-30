@@ -25,15 +25,10 @@ title: Hoe handtekeningen uit een PDF te extraheren in C# – Stapsgewijze handl
 url: /nl/net/digital-signatures/how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/
 ---
 
-them unchanged.
 
-Tables: translate column headers and content.
 
-Lists: bullet points.
 
-Make sure to keep markdown formatting.
 
-Let's produce final translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -25,9 +25,7 @@ title: Jak wyodrębnić podpisy z pliku PDF w C# – przewodnik krok po kroku
 url: /pl/net/digital-signatures/how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/
 ---
 
-formatting.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

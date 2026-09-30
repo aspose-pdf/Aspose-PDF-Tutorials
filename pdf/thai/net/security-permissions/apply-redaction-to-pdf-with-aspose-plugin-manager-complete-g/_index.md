@@ -22,15 +22,10 @@ title: ใช้การลบข้อมูลใน PDF ด้วย Aspose 
 url: /th/net/security-permissions/apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/
 ---
 
-But it's inside image syntax; ambiguous. Safer to keep alt unchanged? Many similar tasks keep alt unchanged. But they said preserve exactly all images; maybe they consider the whole syntax must stay unchanged. So keep alt unchanged.
 
-Also need to translate headings, paragraphs, list items, blockquotes, etc. Keep code block placeholders unchanged.
 
-Let's produce translation.
 
-We need to keep shortcodes at top and bottom unchanged.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

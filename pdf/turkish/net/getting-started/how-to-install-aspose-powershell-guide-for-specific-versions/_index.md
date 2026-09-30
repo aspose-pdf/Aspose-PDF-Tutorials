@@ -23,13 +23,10 @@ title: aspose nasıl kurulur – Belirli sürümler için PowerShell rehberi
 url: /tr/net/getting-started/how-to-install-aspose-powershell-guide-for-specific-versions/
 ---
 
-keep as is. In translation we wrote **run powershell as administrator** unchanged. Good.
 
-Also "how to list packages" is a phrase; we kept unchanged.
 
-Now produce final content with all markdown.
 
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

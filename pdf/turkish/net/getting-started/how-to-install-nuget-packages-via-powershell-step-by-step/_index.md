@@ -24,9 +24,8 @@ title: PowerShell ile NuGet paketlerini nasıl kurulur – adım adım
 url: /tr/net/getting-started/how-to-install-nuget-packages-via-powershell-step-by-step/
 ---
 
-.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

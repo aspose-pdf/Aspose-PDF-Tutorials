@@ -19,7 +19,6 @@ title: Editar transparência de PDF em C# – Guia passo a passo
 url: /pt/net/advanced-features/edit-pdf-transparency-in-c-step-by-step-guide/
 ---
 
-produce final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

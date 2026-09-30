@@ -24,7 +24,7 @@ title: Hur man installerar Aspose – PowerShell‑guide för specifika versione
 url: /sv/net/getting-started/how-to-install-aspose-powershell-guide-for-specific-versions/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

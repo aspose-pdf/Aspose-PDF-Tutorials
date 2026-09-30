@@ -19,7 +19,7 @@ title: Bates 編號教學：使用 C# 為 PDF 添加 Bates 編號
 url: /zh-hant/net/programming-with-stamps-and-watermarks/bates-numbering-tutorial-add-bates-numbers-to-pdfs-with-c/
 ---
 
-Let's produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

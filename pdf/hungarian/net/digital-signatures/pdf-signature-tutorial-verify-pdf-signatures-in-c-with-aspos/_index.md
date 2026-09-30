@@ -25,13 +25,10 @@ title: PDF aláírás útmutató – PDF aláírások ellenőrzése C#‑ban az 
 url: /hu/net/digital-signatures/pdf-signature-tutorial-verify-pdf-signatures-in-c-with-aspos/
 ---
 
-didn't miss any text: At top after heading we have "pdf signature tutorial – Verify PDF signatures in C# with Aspose.Pdf". We translated.
 
-Check for any other bold words: "pdf signature tutorial", "check pdf integrity", "validates a PDF signature", "verify pdf signature", etc. Keep them as is.
 
-Make sure code block placeholders remain unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

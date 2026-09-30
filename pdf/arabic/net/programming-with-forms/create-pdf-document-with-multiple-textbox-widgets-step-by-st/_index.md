@@ -23,19 +23,12 @@ title: إنشاء مستند PDF مع عدة أدوات TextBox – دليل خ�
 url: /ar/net/programming-with-forms/create-pdf-document-with-multiple-textbox-widgets-step-by-st/
 ---
 
-الإحداثيات، أضف المزيد من العناصر Widget، وشاهد نموذجك ينبض بالحياة.*"
 
-Then closing shortcodes.
 
-Now ensure we didn't translate any code block placeholders, shortcodes, URLs.
 
-We have image alt and title translated.
 
-Check for any markdown links: none.
 
-Check for any other code fences: placeholders only.
 
-Now produce final content with same structure.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

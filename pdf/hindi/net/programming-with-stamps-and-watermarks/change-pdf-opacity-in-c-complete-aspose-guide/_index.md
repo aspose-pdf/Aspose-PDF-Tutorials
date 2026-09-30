@@ -23,15 +23,11 @@ title: C# में PDF की अपारदर्शिता बदलें
 url: /hi/net/programming-with-stamps-and-watermarks/change-pdf-opacity-in-c-complete-aspose-guide/
 ---
 
-(e.g., conditional" incomplete. We'll translate up to that.
 
-Now close shortcodes.
 
-All shortcodes remain unchanged.
 
-Make sure we preserve markdown formatting, code block placeholders.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

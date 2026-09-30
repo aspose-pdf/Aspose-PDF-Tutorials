@@ -24,11 +24,8 @@ title: Spara PDF som PNG och konvertera till PDF/X‑1a med Aspose PDF
 url: /sv/net/conversion-export/save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf/
 ---
 
-Proceed.
 
-Also bullet lists.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

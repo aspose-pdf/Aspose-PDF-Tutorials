@@ -23,9 +23,7 @@ title: วิธีสร้าง PDF/A ด้วย C# – คู่มือ 
 url: /th/net/pdfa-compliance/how-to-create-pdf-a-in-c-step-by-step-aspose-guide/
 ---
 
-Be careful with markdown formatting, keep headings same level.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -24,15 +24,11 @@ title: C#'ta Optimize Edilmiş PDF Kaydet – Boyutu Azalt ve Sayfaları Temizle
 url: /tr/net/performance-optimization/save-optimized-pdf-in-c-reduce-size-clean-pages/
 ---
 
-er PDFs!"
 
-Translate.
 
-Then closing shortcodes.
 
-Now ensure we keep all shortcodes at top and bottom.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

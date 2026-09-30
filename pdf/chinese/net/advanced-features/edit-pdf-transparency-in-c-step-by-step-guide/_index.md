@@ -17,7 +17,7 @@ title: 在 C# 中编辑 PDF 透明度 – 步骤指南
 url: /zh/net/advanced-features/edit-pdf-transparency-in-c-step-by-step-guide/
 ---
 
-Let's produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

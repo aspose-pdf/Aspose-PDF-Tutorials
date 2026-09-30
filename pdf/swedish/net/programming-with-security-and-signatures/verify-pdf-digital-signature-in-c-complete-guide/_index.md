@@ -24,9 +24,8 @@ title: Verifiera PDF-digital signatur i C# – Komplett guide
 url: /sv/net/programming-with-security-and-signatures/verify-pdf-digital-signature-in-c-complete-guide/
 ---
 
-any missed text: "step‑by‑step" we translated. "Full Working Example" we translated. "Fullt fungerande exempel". Good.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,7 +22,6 @@ title: 'बेट्स नंबरिंग ट्यूटोरियल: C#
 url: /hi/net/programming-with-stamps-and-watermarks/bates-numbering-tutorial-add-bates-numbers-to-pdfs-with-c/
 ---
 
-Now produce final content with all translations.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

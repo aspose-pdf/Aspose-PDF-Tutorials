@@ -24,16 +24,11 @@ title: Aspose kullanarak PDF'de İmzaları Doğrulama – C# Öğreticisi
 url: /tr/net/programming-with-security-and-signatures/how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/
 ---
 
-Bullet list:
 
-- **Kendiniz PDF imzalayın** – “Aspose kullanarak PDF'ye Dijital İmza Ekleme” öğreticimize bakın.  
-- **Diğer kütüphanelerle PDF dijital imzasını kontrol edin** (örn.,
 
-The list is incomplete; keep as is.
 
-Then closing shortcodes.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

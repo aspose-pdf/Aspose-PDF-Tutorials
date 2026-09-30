@@ -24,7 +24,7 @@ title: Προσθήκη αριθμών Bates σε PDF – Οδηγός C# βήμ
 url: /el/net/programming-with-forms/add-bates-numbers-to-pdfs-step-by-step-c-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,7 +24,7 @@ title: Vytvořte PDF dokument s více TextBox widgety – průvodce krok za krok
 url: /cs/net/programming-with-forms/create-pdf-document-with-multiple-textbox-widgets-step-by-st/
 ---
 
-produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

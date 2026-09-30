@@ -23,43 +23,24 @@ title: Aspose के साथ PDF को टैग कैसे करें �
 url: /hi/net/programming-with-tagged-pdf/how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/
 ---
 
-phrase inside bold, but we could translate the surrounding. The phrase is a keyword; maybe keep as is. We'll keep the bold as **how to tag PDF**.
 
-Similarly other bold phrases like **pdf accessibility tags**, **set element order**, **add heading pdf**, **create pdf aspose** should stay as is.
 
-Proceed.
 
-Next paragraph about sprinkling extra tips.
 
-Then "## What You’ll Learn" translate to "## आप क्या सीखेंगे"
 
-List items translate.
 
-"### Prerequisites" translate.
 
-List items.
 
-Then "## Step 1 – Initialize a New PDF Document (Enable Tagging)" translate.
 
-Paragraph.
 
-Then code block placeholder.
 
-Then "Why this matters:" translate.
 
-Then bullet.
 
-Proceed similarly.
 
-Need to translate table.
 
-Now produce final markdown.
 
-Let's craft translation.
 
-Be careful to keep markdown syntax.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -24,17 +24,12 @@ title: Lägg till Bates-nummer i PDF-filer – Steg‑för‑steg C#‑guide
 url: /sv/net/programming-with-forms/add-bates-numbers-to-pdfs-step-by-step-c-guide/
 ---
 
--bates-numbers.png "add bates numbers example")
 
-Leave unchanged.
 
-Then closing shortcodes.
 
-Now produce final content with all translations.
 
-Be careful to preserve markdown formatting exactly.
 
-Let's construct final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

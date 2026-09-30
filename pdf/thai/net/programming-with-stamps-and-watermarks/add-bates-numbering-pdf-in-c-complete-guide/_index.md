@@ -22,11 +22,9 @@ title: เพิ่มหมายเลข Bates ใน PDF ด้วย C# –
 url: /th/net/programming-with-stamps-and-watermarks/add-bates-numbering-pdf-in-c-complete-guide/
 ---
 
-didn't translate any URLs or file paths.
 
-All good.
 
-Now produce final content with translations.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

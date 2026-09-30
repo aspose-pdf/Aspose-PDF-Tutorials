@@ -22,7 +22,7 @@ title: 'Bates‑numreringshandledning: Lägg till Bates‑nummer i PDF‑filer m
 url: /sv/net/programming-with-stamps-and-watermarks/bates-numbering-tutorial-add-bates-numbers-to-pdfs-with-c/
 ---
 
-output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

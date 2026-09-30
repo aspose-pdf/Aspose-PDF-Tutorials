@@ -23,7 +23,7 @@ title: حفظ PDF كـ HTML باستخدام Aspose.PDF – دليل C# السر
 url: /ar/net/conversion-export/save-pdf-as-html-with-aspose-pdf-quick-c-guide/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

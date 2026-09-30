@@ -20,11 +20,8 @@ title: 在 C# 中验证 PDF 签名 – 完整编程指南
 url: /zh/net/programming-with-security-and-signatures/verify-pdf-signature-in-c-complete-programming-guide/
 ---
 
-but those are technical terms. We can keep them as is, maybe translate the surrounding text.
 
-Let's translate.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

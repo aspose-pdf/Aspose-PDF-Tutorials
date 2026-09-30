@@ -25,7 +25,7 @@ title: PDF-Dokument in C# erstellen – Leere Seite hinzufügen & Rechteck zeich
 url: /de/net/document-creation/create-pdf-document-c-add-blank-page-draw-rectangle/
 ---
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

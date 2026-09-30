@@ -24,21 +24,14 @@ title: C#'ta PDF'ye Bates Numaralandırması Ekle – Tam Kılavuz
 url: /tr/net/programming-with-stamps-and-watermarks/add-bates-numbering-pdf-in-c-complete-guide/
 ---
 
-ASP.NET Core API so your web service can tag PDFs on demand.
 
-Translate each.
 
-Final paragraph: "Give it a spin, tweak the prefix, play with fonts, and let the automation take the grunt work out of your document‑review pipeline. Happy coding!"
 
-Translate.
 
-Then closing shortcodes.
 
-Now produce final content with all translations.
 
-Be careful to keep code block placeholders unchanged and not add extra spaces.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,25 +22,15 @@ title: Aspose.Pdf를 사용한 PDF 파일 복구 방법 – 단계별 가이드
 url: /ko/net/programming-with-document/how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/
 ---
 
-keep **Aspose.Pdf** as is, but translate other words.
 
-Proceed.
 
-We must keep markdown formatting like **bold**.
 
-Also blockquote >.
 
-Also list items.
 
-Also code block placeholders.
 
-Let's produce translation.
 
-Be careful with quotes and punctuation.
 
-Also note "RTL formatting if needed" but Korean is LTR, fine.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

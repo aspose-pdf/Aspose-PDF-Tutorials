@@ -23,11 +23,9 @@ title: Modifier l'opacité d’un PDF en C# – Guide complet Aspose
 url: /fr/net/programming-with-stamps-and-watermarks/change-pdf-opacity-in-c-complete-aspose-guide/
 ---
 
-, there is a truncated sentence: "If you run into issues or have ideas for extending this pattern (e.g., conditional". It ends incomplete. Keep as is.
 
-Make sure to keep shortcodes at end.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

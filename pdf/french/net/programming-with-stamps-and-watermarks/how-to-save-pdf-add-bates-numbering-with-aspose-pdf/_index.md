@@ -24,31 +24,18 @@ title: Comment enregistrer un PDF — Ajouter une numérotation Bates avec Aspos
 url: /fr/net/programming-with-stamps-and-watermarks/how-to-save-pdf-add-bates-numbering-with-aspose-pdf/
 ---
 
-> 0` before adding artifacts, or create a new page first. |
 
-Translate accordingly.
 
-Similarly for other rows.
 
-Translate "Expected Result" etc.
 
-Translate bullet points.
 
-Translate "Recap – How to Save PDF with Bates Numbering in One Go"
 
-Translate bullet points.
 
-Translate "Next Steps & Related Topics"
 
-Translate bullet items.
 
-Translate "Quick Reference Code (All Steps in One Block)" etc.
 
-Make sure to keep code block placeholder unchanged.
 
-Now produce final content with shortcodes at top and bottom unchanged.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

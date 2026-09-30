@@ -38,8 +38,6 @@ Vào cuối hướng dẫn này, bạn sẽ có thể:
 
 Không cần công cụ bên ngoài, không có các lối tắt mơ hồ “xem tài liệu”—chỉ một ví dụ hoàn chỉnh, có thể chạy được mà bạn có thể sao chép‑dán vào Visual Studio ngay hôm nay.
 
-![Diagram showing the flow of loading a signed PDF document and extracting its signatures](alt="load signed pdf document flow diagram")
-
 ## Yêu cầu trước
 
 Trước khi chúng ta bắt đầu, hãy chắc chắn rằng bạn có những thứ sau trên máy của mình:

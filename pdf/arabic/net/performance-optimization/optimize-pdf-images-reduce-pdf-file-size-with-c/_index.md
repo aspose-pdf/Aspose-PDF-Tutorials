@@ -23,7 +23,7 @@ title: تحسين صور PDF – تقليل حجم ملف PDF باستخدام C
 url: /ar/net/performance-optimization/optimize-pdf-images-reduce-pdf-file-size-with-c/
 ---
 
-with all translations. Ensure no extra explanation.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

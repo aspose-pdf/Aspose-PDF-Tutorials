@@ -22,29 +22,17 @@ title: Thêm số Bates vào PDF – Hướng dẫn C# chi tiết từng bước
 url: /vi/net/programming-with-forms/add-bates-numbers-to-pdfs-step-by-step-c-guide/
 ---
 
-Also blockquote > **What you’ll get:** ... translate.
 
-Then list of prerequisites.
 
-Then code block placeholders remain.
 
-Then sections.
 
-Make sure to translate table rows.
 
-Also image alt text and title.
 
-Let's produce final content.
 
-Be careful not to translate URLs inside markdown links or image URLs.
 
-There are no markdown links except image.
 
-Also there is a blockquote with **What you’ll get:**.
 
-Translate.
 
-Now produce final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -24,9 +24,8 @@ title: Redaktion auf PDF mit Aspose Plugin Manager – Komplettanleitung
 url: /de/net/security-permissions/apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/
 ---
 
-. There's a link in the image? No.
 
-Ok produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

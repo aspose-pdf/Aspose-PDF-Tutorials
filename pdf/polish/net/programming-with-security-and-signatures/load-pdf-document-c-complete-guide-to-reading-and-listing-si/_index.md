@@ -25,17 +25,11 @@ title: Ładowanie dokumentu PDF w C# – Kompletny przewodnik po odczytywaniu i 
 url: /pl/net/programming-with-security-and-signatures/load-pdf-document-c-complete-guide-to-reading-and-listing-si/
 ---
 
-this content.
 
-We need to translate "Pro tip:" etc.
 
-Make sure to keep markdown formatting.
 
-Let's produce the translated content.
 
-We must keep the shortcodes exactly as they appear.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

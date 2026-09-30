@@ -21,9 +21,7 @@ title: ICC profili ekle ve PDF'yi PDF/X‑4'e dönüştür – C# rehberi
 url: /tr/net/document-conversion/add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/
 ---
 
-.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

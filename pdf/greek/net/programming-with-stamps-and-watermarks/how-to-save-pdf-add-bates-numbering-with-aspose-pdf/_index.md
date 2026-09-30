@@ -22,11 +22,8 @@ title: Πώς να αποθηκεύσετε PDF — Προσθήκη αρίθμ�
 url: /el/net/programming-with-stamps-and-watermarks/how-to-save-pdf-add-bates-numbering-with-aspose-pdf/
 ---
 
-If" keep as is? It's incomplete. Keep as is.
 
-Now ensure we keep all shortcodes at start and end.
 
-Let's construct final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

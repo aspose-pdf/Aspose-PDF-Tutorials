@@ -23,7 +23,7 @@ title: Tối ưu hóa hình ảnh PDF – Giảm kích thước tệp PDF bằng
 url: /vi/net/performance-optimization/optimize-pdf-images-reduce-pdf-file-size-with-c/
 ---
 
-Ensure no extra spaces messing up. Provide only translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,17 +22,12 @@ title: Criar documento PDF – Adicionar página ao PDF, marcar título e posici
 url: /pt/net/document-creation/create-pdf-document-add-page-to-pdf-tag-heading-and-position/
 ---
 
-advanced tagging. Happy coding, and enjoy building PDF‑rich applications!"
 
-Translate.
 
-"Se você encontrar algum problema, deixe um comentário abaixo ou consulte a documentação do Aspose.PDF para aprofundar em estilos e marcação avançada. Boa codificação e aproveite construir aplicações ricas em PDF!"
 
-Then closing shortcodes.
 
-Make sure to keep all shortcodes unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

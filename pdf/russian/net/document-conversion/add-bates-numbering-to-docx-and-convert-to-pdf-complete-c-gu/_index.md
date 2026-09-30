@@ -25,11 +25,9 @@ title: Добавьте нумерацию Бейтса в DOCX и конвер�
 url: /ru/net/document-conversion/add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/
 ---
 
--backtop-button >}}
 
-Keep unchanged.
 
-Now produce final content with translations. Ensure no extra spaces messing up markdown. Provide only translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

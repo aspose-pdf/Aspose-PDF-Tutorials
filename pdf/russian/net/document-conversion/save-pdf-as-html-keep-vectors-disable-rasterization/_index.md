@@ -24,9 +24,8 @@ title: Сохранить PDF как HTML – Сохранить вектор�
 url: /ru/net/document-conversion/save-pdf-as-html-keep-vectors-disable-rasterization/
 ---
 
-, headings, lists, blockquotes, tables.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

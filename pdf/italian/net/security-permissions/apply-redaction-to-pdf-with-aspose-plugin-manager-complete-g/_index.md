@@ -24,7 +24,7 @@ title: Applicare la redazione a PDF con Aspose Plugin Manager – Guida completa
 url: /it/net/security-permissions/apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/
 ---
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

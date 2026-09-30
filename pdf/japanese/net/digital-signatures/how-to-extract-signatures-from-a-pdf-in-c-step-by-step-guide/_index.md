@@ -23,13 +23,9 @@ title: C#でPDFから署名を抽出する方法 – ステップバイステッ
 url: /ja/net/digital-signatures/how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/
 ---
 
-.NET Framework 4.6+ as well". Translate.
 
-Also keep blockquote >.
 
-Let's translate.
 
-Will produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

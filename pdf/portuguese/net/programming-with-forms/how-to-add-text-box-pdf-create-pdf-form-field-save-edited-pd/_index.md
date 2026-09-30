@@ -25,9 +25,8 @@ title: Como adicionar caixa de texto em PDF – Criar campo de formulário PDF e
 url: /pt/net/programming-with-forms/how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/
 ---
 
-sure to keep markdown syntax.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

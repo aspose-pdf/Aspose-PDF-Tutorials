@@ -24,15 +24,10 @@ title: Hogyan adjunk hozzá szövegdobozt PDF-hez – PDF űrlapmező létrehoz�
 url: /hu/net/programming-with-forms/how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/
 ---
 
-. Translate.
 
-Also note "RTL formatting if needed" not needed.
 
-Let's translate.
 
-Will produce Hungarian text.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

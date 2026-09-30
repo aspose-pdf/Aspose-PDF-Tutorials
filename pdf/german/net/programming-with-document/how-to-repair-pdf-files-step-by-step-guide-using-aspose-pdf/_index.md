@@ -23,11 +23,8 @@ title: Wie man PDF‑Dateien repariert – Schritt‑für‑Schritt‑Anleitung 
 url: /de/net/programming-with-document/how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/
 ---
 
-Sie **repair corrupted pdf** für gescannte Bilder untersuchen oder dies mit OCR kombinieren, um durchsuchbaren Text zu extrahieren. Die Möglichkeiten sind endlos – happy coding!"
 
-Now ensure we keep all code block placeholders unchanged.
 
-Now produce final content with all translations and original shortcodes.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

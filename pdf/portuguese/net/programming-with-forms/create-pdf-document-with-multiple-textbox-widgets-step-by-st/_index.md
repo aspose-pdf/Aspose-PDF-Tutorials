@@ -26,11 +26,9 @@ title: Criar documento PDF com múltiplos widgets de caixa de texto – Guia pas
 url: /pt/net/programming-with-forms/create-pdf-document-with-multiple-textbox-widgets-step-by-st/
 ---
 
-amentos. Lembre‑se, a melhor maneira de dominar a geração de PDFs é experimentar—então ajuste as coordenadas, adicione mais widgets e veja seu formulário ganhar vida.*"
 
-Then closing shortcodes.
 
-Now produce final output with all content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,11 +22,8 @@ title: Como salvar PDF com Aspose – Guia completo de conversão em C#
 url: /pt/net/document-conversion/how-to-save-pdf-with-aspose-complete-c-conversion-guide/
 ---
 
-.
 
-Now translate.
 
-Let's produce.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

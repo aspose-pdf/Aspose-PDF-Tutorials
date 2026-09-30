@@ -20,17 +20,12 @@ title: PDFドキュメントの読み込み（C#） – 署名の読み取りと
 url: /ja/net/programming-with-security-and-signatures/load-pdf-document-c-complete-guide-to-reading-and-listing-si/
 ---
 
-Title is after space "load pdf document c# console output". Should translate to Japanese. Let's translate alt text and title.
 
-Alt text: "load pdf document c# console output displaying list of signature names" => "load pdf document c# コンソール出力（署名名のリストを表示）". Title: "load pdf document c# console output" => "load pdf document c# コンソール出力". Keep file path unchanged.
 
-After that closing shortcodes.
 
-Now produce final content with all translations.
 
-Be careful to preserve markdown formatting.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

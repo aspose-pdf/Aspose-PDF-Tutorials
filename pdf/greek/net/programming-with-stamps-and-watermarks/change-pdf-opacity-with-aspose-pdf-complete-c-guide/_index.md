@@ -23,13 +23,9 @@ title: Αλλαγή της αδιαφάνειας PDF με το Aspose.PDF – �
 url: /el/net/programming-with-stamps-and-watermarks/change-pdf-opacity-with-aspose-pdf-complete-c-guide/
 ---
 
-Πρακτικό Tutorial C#". Keep "C#" as is. Maybe "Πρακτικό Tutorial C#" but better "Πρακτικό Μάθημα C#". We'll translate.
 
-Proceed.
 
-Also note "RTL formatting if needed" but Greek is LTR, fine.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

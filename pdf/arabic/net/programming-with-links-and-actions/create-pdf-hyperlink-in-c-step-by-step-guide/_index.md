@@ -22,9 +22,7 @@ title: إنشاء ارتباط تشعبي لملف PDF في C# – دليل خط
 url: /ar/net/programming-with-links-and-actions/create-pdf-hyperlink-in-c-step-by-step-guide/
 ---
 
-– keep as is.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

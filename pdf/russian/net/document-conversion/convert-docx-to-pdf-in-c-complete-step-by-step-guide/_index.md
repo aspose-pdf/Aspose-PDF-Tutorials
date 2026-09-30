@@ -24,25 +24,15 @@ title: Конвертация docx в pdf на C# – Полное пошаг�
 url: /ru/net/document-conversion/convert-docx-to-pdf-in-c-complete-step-by-step-guide/
 ---
 
-for .NET library (or any compatible API) and a few best‑practice tips.
 
-Translate accordingly.
 
-Proceed similarly for sections.
 
-Need to translate bullet list under Prerequisites.
 
-Also blockquote.
 
-Then steps headings.
 
-Then code block placeholders remain.
 
-Then tables.
 
-Make sure to keep markdown formatting.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

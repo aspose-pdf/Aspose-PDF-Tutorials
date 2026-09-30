@@ -23,9 +23,7 @@ title: C#에서 PDF/A 만들기 – 단계별 Aspose 가이드
 url: /ko/net/pdfa-compliance/how-to-create-pdf-a-in-c-step-by-step-aspose-guide/
 ---
 
-text**.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

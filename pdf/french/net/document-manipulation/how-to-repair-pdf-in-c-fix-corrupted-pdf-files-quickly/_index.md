@@ -25,11 +25,9 @@ title: Comment réparer un PDF en C# – Réparer rapidement les fichiers PDF co
 url: /fr/net/document-manipulation/how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/
 ---
 
-keep code block placeholders exactly as they are, not wrap them in triple backticks. They appear as placeholders, not actual code fences. The original had them as separate lines. We'll keep them.
 
-Also ensure we keep the blockquote formatting.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

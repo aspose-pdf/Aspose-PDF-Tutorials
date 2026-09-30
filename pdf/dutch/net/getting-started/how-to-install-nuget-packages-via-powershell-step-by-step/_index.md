@@ -24,7 +24,7 @@ title: Hoe NuGet-pakketten te installeren via PowerShell – stap voor stap
 url: /nl/net/getting-started/how-to-install-nuget-packages-via-powershell-step-by-step/
 ---
 
-produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

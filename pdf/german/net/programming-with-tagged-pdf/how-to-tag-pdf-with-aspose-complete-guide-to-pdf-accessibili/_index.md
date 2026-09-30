@@ -25,21 +25,13 @@ title: Wie man PDFs mit Aspose taggt – Vollständiger Leitfaden zu PDF‑Barri
 url: /de/net/programming-with-tagged-pdf/how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/
 ---
 
-opening shortcodes lines.
 
-Then heading "# How to Tag PDF with Aspose – Complete Guide to PDF Accessibility Tags" translate to German: "# PDF mit Aspose taggen – Vollständiger Leitfaden zu PDF‑Barrierefreiheitstags". Keep dash.
 
-Then paragraph.
 
-We'll translate.
 
-Make sure to keep markdown formatting.
 
-Proceed.
 
-Also note "step-by-step in order - do not skip sections". We'll translate everything.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

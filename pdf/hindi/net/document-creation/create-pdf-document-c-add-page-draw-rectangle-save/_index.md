@@ -23,9 +23,8 @@ title: PDF दस्तावेज़ बनाएं C# – पृष्ठ �
 url: /hi/net/document-creation/create-pdf-document-c-add-page-draw-rectangle-save/
 ---
 
-_BLOCK_0}} keep as is.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

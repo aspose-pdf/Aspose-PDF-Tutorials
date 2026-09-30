@@ -24,7 +24,7 @@ title: PDF‑Signatur in C# überprüfen – Schritt‑für‑Schritt‑Anleitun
 url: /de/net/programming-with-security-and-signatures/verify-pdf-signature-in-c-step-by-step-guide/
 ---
 
-final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

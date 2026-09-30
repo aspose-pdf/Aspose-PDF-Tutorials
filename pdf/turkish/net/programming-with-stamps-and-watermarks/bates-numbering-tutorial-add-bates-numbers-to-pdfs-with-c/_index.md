@@ -22,9 +22,7 @@ title: 'Bates numaralandırma öğreticisi: C# ile PDF''lere Bates numaraları e
 url: /tr/net/programming-with-stamps-and-watermarks/bates-numbering-tutorial-add-bates-numbers-to-pdfs-with-c/
 ---
 
-codes at bottom.
 
-Let's craft final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

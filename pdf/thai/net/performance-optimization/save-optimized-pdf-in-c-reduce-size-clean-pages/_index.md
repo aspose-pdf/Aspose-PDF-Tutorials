@@ -23,13 +23,9 @@ title: บันทึก PDF ที่ปรับให้เหมาะส�
 url: /th/net/performance-optimization/save-optimized-pdf-in-c-reduce-size-clean-pages/
 ---
 
-/products/products-backtop-button >}}
 
-Now produce final content.
 
-Be careful with markdown formatting.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

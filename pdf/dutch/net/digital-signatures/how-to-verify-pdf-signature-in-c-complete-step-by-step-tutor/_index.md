@@ -24,11 +24,9 @@ title: Hoe PDF-handtekening te verifiëren in C# – Complete stap‑voor‑stap
 url: /nl/net/digital-signatures/how-to-verify-pdf-signature-in-c-complete-step-by-step-tutor/
 ---
 
-}}
 
-Make sure to keep shortcodes unchanged.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

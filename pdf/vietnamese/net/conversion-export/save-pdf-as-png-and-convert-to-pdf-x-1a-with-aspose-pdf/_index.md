@@ -24,21 +24,13 @@ title: Lưu PDF dưới dạng PNG và Chuyển đổi sang PDF/X‑1a với Asp
 url: /vi/net/conversion-export/save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf/
 ---
 
-we preserve the shortcodes exactly.
 
-Let's produce the translated content.
 
-We'll start with the shortcodes as is.
 
-Then translate the heading "# Save PDF as PNG and Convert to PDF/X‑1a with Aspose PDF" to Vietnamese: "# Lưu PDF dưới dạng PNG và Chuyển đổi sang PDF/X‑1a với Aspose PDF". Keep the same.
 
-Then paragraph.
 
-Let's translate step by step.
 
-I'll write Vietnamese translation, preserving technical terms.
 
-Let's go.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

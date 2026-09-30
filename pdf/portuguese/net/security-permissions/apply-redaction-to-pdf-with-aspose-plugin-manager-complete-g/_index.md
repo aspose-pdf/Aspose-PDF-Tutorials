@@ -24,9 +24,8 @@ title: Aplicar Redação a PDFs com o Gerenciador de Plugins Aspose – Guia Com
 url: /pt/net/security-permissions/apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/
 ---
 
-Make sure to keep all shortcodes unchanged.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

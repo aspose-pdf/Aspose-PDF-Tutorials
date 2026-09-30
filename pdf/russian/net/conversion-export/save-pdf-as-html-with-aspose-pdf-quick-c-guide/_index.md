@@ -24,11 +24,9 @@ title: Сохранить PDF в HTML с Aspose.PDF – Краткое руко�
 url: /ru/net/conversion-export/save-pdf-as-html-with-aspose-pdf-quick-c-guide/
 ---
 
-content with translations.
 
-Be careful to keep code block placeholders unchanged.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

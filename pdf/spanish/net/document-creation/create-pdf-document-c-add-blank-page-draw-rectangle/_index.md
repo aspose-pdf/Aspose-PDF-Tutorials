@@ -25,13 +25,9 @@ title: Crear documento PDF en C# – Añadir página en blanco y dibujar rectán
 url: /es/net/document-creation/create-pdf-document-c-add-blank-page-draw-rectangle/
 ---
 
-none besides image.
 
-Check for any other code blocks placeholders: CODE_BLOCK_0 to CODE_BLOCK_8. Keep them unchanged.
 
-Now produce final content with translated text.
 
-Let's assemble.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

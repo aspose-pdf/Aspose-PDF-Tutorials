@@ -24,17 +24,11 @@ title: Hur man reparerar PDF i C# – Åtgärda korrupta PDF-filer snabbt
 url: /sv/net/document-manipulation/how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/
 ---
 
-case as original: original uses PDF uppercase sometimes, pdf lowercase sometimes. We'll keep same case: **hur man reparerar PDF** for uppercase PDF, **hur man reparerar pdf** for lowercase.
 
-Similarly **fix corrupted pdf** -> **reparera korrupt pdf**.
 
-**convert corrupted pdf** -> **konvertera korrupt pdf**.
 
-Now go through.
 
-Also code placeholders remain.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

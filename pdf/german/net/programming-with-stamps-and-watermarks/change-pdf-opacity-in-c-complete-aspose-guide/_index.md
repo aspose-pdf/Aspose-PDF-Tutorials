@@ -23,9 +23,8 @@ title: PDF-Transparenz in C# ändern – Vollständige Aspose-Anleitung
 url: /de/net/programming-with-stamps-and-watermarks/change-pdf-opacity-in-c-complete-aspose-guide/
 ---
 
-Also bullet points.
 
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

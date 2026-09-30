@@ -24,9 +24,8 @@ title: Vytvoření hypertextového odkazu v PDF v C# – krok za krokem
 url: /cs/net/programming-with-links-and-actions/create-pdf-hyperlink-in-c-step-by-step-guide/
 ---
 
-the image line unchanged.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

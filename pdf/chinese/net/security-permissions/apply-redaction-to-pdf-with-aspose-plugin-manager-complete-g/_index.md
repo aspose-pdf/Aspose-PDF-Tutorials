@@ -20,13 +20,9 @@ title: 使用 Aspose 插件管理器对 PDF 进行编辑遮蔽 – 完整指南
 url: /zh/net/security-permissions/apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/
 ---
 
-; keep them.
 
-Also keep code block placeholders.
 
-Proceed step by step.
 
-I'll produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

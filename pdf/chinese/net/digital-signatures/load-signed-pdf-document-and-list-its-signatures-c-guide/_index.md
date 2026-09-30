@@ -36,8 +36,6 @@ url: /zh/net/digital-signatures/load-signed-pdf-document-and-list-its-signatures
 
 无需外部工具，无需模糊的 “查看文档” 快捷方式——只提供一个完整、可直接在 Visual Studio 中复制粘贴运行的示例。
 
-![Diagram showing the flow of loading a signed PDF document and extracting its signatures](alt="加载已签名 PDF 文档并提取其签名的流程图")
-
 ## 前置条件
 
 在开始之前，请确保你的机器上具备以下条件：

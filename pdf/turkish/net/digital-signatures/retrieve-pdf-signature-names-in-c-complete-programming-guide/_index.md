@@ -25,11 +25,8 @@ title: C#'ta PDF İmza İsimlerini Almak – Tam Programlama Rehberi
 url: /tr/net/digital-signatures/retrieve-pdf-signature-names-in-c-complete-programming-guide/
 ---
 
-code block placeholders unchanged.
 
-At the end, there is a truncated sentence; we keep as is.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

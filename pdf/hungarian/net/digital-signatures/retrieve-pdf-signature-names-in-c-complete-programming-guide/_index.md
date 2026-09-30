@@ -25,11 +25,9 @@ title: PDF aláírásnevek lekérése C#-ban – Teljes programozási útmutató
 url: /hu/net/digital-signatures/retrieve-pdf-signature-names-in-c-complete-programming-guide/
 ---
 
-.
 
-Make sure to keep markdown formatting.
 
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

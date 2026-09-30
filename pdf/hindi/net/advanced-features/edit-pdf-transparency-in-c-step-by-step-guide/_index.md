@@ -19,17 +19,12 @@ title: C# में PDF ट्रांसपैरेंसी संपाद�
 url: /hi/net/advanced-features/edit-pdf-transparency-in-c-step-by-step-guide/
 ---
 
-Make sure to keep them unchanged.
 
-Now produce final content with all translations.
 
-Check that we didn't translate any code block placeholders, shortcodes, URLs, file paths. We kept code placeholders unchanged.
 
-Check that we kept markdown formatting: headings, lists, tables, blockquote.
 
-Make sure we kept bold formatting for certain phrases.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

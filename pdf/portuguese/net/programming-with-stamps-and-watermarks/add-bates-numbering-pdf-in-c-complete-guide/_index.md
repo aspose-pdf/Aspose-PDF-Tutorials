@@ -24,11 +24,9 @@ title: Adicionar numeração Bates a PDF em C# – Guia completo
 url: /pt/net/programming-with-stamps-and-watermarks/add-bates-numbering-pdf-in-c-complete-guide/
 ---
 
-keep all placeholders unchanged.
 
-Also note the instruction: "For Portuguese, ensure proper RTL formatting if needed" - not needed.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

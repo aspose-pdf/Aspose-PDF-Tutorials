@@ -25,19 +25,12 @@ title: Validar assinatura PDF em C# – Guia passo a passo
 url: /pt/net/programming-with-security-and-signatures/validate-pdf-signature-in-c-step-by-step-guide/
 ---
 
-to"
 
-Then paragraphs.
 
-Let's translate each.
 
-I'll produce Portuguese.
 
-Be careful with bullet points: keep dash.
 
-Also keep code block placeholders.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

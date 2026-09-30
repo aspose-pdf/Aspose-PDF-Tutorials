@@ -27,15 +27,11 @@ title: Учебник по конвертации PDF на C# – преобр
 url: /ru/net/document-conversion/c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/
 ---
 
-Translate Q&A.
 
-Translate "Next Steps & Related Topics" etc.
 
-Make sure to keep code block placeholders unchanged.
 
-Also keep shortcodes at top and bottom.
 
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

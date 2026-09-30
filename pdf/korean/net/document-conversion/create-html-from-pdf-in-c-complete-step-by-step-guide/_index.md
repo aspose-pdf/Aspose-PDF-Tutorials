@@ -22,11 +22,8 @@ title: C#에서 PDF를 HTML로 변환하기 – 완전 단계별 가이드
 url: /ko/net/document-conversion/create-html-from-pdf-in-c-complete-step-by-step-guide/
 ---
 
-="create html from pdf example"} This is a custom attribute. We need to translate alt text inside the attribute as well. So change alt="create html from pdf example" to alt="PDF에서 HTML 생성 예시". Also the alt text inside brackets maybe also translate: "Create HTML from PDF example". Let's translate both.
 
-Now ensure we preserve shortcodes at bottom.
 
-Let's craft final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -20,9 +20,8 @@ title: 在 C# 中创建 PDF 文档 – 添加空白页、标签和跨度
 url: /zh/net/document-creation/create-pdf-document-in-c-add-blank-page-tags-and-span/
 ---
 
-`. So translate.
 
-Proceed to final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

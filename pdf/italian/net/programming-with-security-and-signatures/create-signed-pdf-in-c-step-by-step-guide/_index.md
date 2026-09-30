@@ -22,27 +22,16 @@ title: Crea PDF firmato in C# – Guida passo‑a‑passo
 url: /it/net/programming-with-security-and-signatures/create-signed-pdf-in-c-step-by-step-guide/
 ---
 
-We must keep code blocks placeholders unchanged.
 
-Also keep the table.
 
-Let's translate.
 
-Be careful with markdown formatting.
 
-Also note: "For Italian, ensure proper RTL formatting if needed" - not needed.
 
-Proceed.
 
-We'll produce final content with same shortcodes.
 
-Let's translate.
 
-I'll write Italian translation.
 
-Make sure to keep bold formatting, etc.
 
-Let's go.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -13,9 +13,7 @@ url: /hu/java/conversion-export/convert-pdf-to-epub-aspose-java-guide/
 weight: 1
 ---
 
-.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 

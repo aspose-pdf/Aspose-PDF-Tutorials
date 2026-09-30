@@ -22,19 +22,12 @@ title: C# में PDF हाइपरलिंक बनाएं – चर�
 url: /hi/net/programming-with-links-and-actions/create-pdf-hyperlink-in-c-step-by-step-guide/
 ---
 
-a phrase; maybe keep as is. We'll keep the bold phrase unchanged.
 
-Proceed.
 
-Translate rest.
 
-Tables: keep pipe structure, translate cells.
 
-Code block placeholders remain.
 
-Image alt and title translate.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -20,13 +20,9 @@ title: C#에서 PDF 문서 만들기 – PDF에 페이지 추가 및 사각형
 url: /ko/net/programming-with-pdf-pages/create-pdf-document-in-c-add-page-to-pdf-rectangle/
 ---
 
-색상을 실험해 보세요. 많이 해볼수록 Aspose.P에 대한 이해도가 높아집니다."
 
-Now close shortcodes: they are already at bottom.
 
-We must ensure we keep all shortcodes exactly as original.
 
-Now produce final content with all translations.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

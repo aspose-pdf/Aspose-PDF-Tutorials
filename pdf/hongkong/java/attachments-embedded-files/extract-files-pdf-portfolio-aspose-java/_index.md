@@ -11,9 +11,7 @@ url: /zh-hant/java/attachments-embedded-files/extract-files-pdf-portfolio-aspose
 weight: 1
 ---
 
- to keep markdown syntax.
 
-Let's produce final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 

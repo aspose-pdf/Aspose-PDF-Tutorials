@@ -20,13 +20,9 @@ title: 将 PDF 保存为 HTML – 保留矢量并禁用光栅化
 url: /zh/net/document-conversion/save-pdf-as-html-keep-vectors-disable-rasterization/
 ---
 
-keep pipes.
 
-Let's translate table rows.
 
-Also bullet lists.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

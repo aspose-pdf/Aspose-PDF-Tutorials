@@ -24,11 +24,8 @@ title: Erstelle ein signiertes PDF in C# – Schritt‑für‑Schritt‑Anleitun
 url: /de/net/programming-with-security-and-signatures/create-signed-pdf-in-c-step-by-step-guide/
 ---
 
-Make sure not to translate URLs inside markdown links; there are none except maybe in bullet list? Not.
 
-Proceed step by step.
 
-Let's craft final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

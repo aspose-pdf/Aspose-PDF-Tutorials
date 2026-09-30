@@ -24,7 +24,7 @@ title: PDF aláírás ellenőrzése C#‑ban – Teljes lépésről‑lépésre 
 url: /hu/net/digital-signatures/how-to-verify-pdf-signature-in-c-complete-step-by-step-tutor/
 ---
 
-answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

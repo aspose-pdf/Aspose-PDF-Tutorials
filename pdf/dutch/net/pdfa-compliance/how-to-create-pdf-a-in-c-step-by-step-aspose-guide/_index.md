@@ -23,13 +23,10 @@ title: Hoe PDF/A te maken in C# – Stapsgewijze Aspose‑gids
 url: /nl/net/pdfa-compliance/how-to-create-pdf-a-in-c-step-by-step-aspose-guide/
 ---
 
-.
 
-Check for any other markdown like code block placeholders: they are {{CODE_BLOCK_X}} which are not code fences; they are placeholders. Keep them.
 
-Make sure headings count match.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

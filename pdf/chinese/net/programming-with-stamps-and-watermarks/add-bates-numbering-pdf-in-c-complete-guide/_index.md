@@ -21,17 +21,11 @@ title: 在 C# 中为 PDF 添加贝茨编号 – 完整指南
 url: /zh/net/programming-with-stamps-and-watermarks/add-bates-numbering-pdf-in-c-complete-guide/
 ---
 
-.
 
-Also need to translate headings.
 
-Also need to translate bullet points.
 
-Make sure not to translate code block placeholders.
 
-Also need to keep the shortcodes at top and bottom.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

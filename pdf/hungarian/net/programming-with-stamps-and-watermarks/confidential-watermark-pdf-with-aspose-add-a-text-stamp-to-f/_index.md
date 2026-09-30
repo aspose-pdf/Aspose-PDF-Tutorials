@@ -24,15 +24,10 @@ title: 'Bizalmas vízjel PDF-hez Aspose-szal: Szöveges pecsét hozzáadása az 
 url: /hu/net/programming-with-stamps-and-watermarks/confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/
 ---
 
-um‑biztonsági eszköztárad alapdarabja legyen. Boldog kódolást!"
 
-Then closing shortcodes.
 
-We must keep all shortcodes unchanged.
 
-Now produce final content with translations, preserving placeholders.
 
-Let's construct final markdown.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

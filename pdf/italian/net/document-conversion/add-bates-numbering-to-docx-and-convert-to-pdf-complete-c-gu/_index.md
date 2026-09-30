@@ -24,11 +24,8 @@ title: Aggiungi la numerazione Bates a DOCX e converti in PDF – Guida completa
 url: /it/net/document-conversion/add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/
 ---
 
-_BLOCK_0}} etc. Keep them.
 
-Make sure to preserve all markdown formatting: headings, lists, tables, blockquotes.
 
-Now produce final content with translations.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

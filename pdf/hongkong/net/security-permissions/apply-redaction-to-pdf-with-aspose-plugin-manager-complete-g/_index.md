@@ -20,11 +20,8 @@ title: 使用 Aspose 插件管理器對 PDF 進行塗銷 – 完整指南
 url: /zh-hant/net/security-permissions/apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/
 ---
 
-sentence.
 
-Also bullet list items.
 
-Let's produce.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

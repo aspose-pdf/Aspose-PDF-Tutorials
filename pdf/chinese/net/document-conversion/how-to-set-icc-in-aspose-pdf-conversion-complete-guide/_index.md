@@ -23,7 +23,7 @@ title: 如何在 Aspose PDF 转换中设置 ICC – 完整指南
 url: /zh/net/document-conversion/how-to-set-icc-in-aspose-pdf-conversion-complete-guide/
 ---
 
-with markdown. Ensure no extra explanations.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

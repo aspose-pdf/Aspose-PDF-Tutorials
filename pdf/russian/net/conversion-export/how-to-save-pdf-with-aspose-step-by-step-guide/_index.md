@@ -22,19 +22,12 @@ title: Как сохранить PDF с помощью Aspose – пошагов
 url: /ru/net/conversion-export/how-to-save-pdf-with-aspose-step-by-step-guide/
 ---
 
-aspose pdf conversion**. Without it the compiler won’t recognize the `Aspose.Pdf` namespace.
 
-Translate, keep bold and code.
 
-Continue similarly for each step.
 
-Make sure to keep placeholders unchanged.
 
-At the end, image line unchanged.
 
-Then closing shortcodes.
 
-Let's craft the final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

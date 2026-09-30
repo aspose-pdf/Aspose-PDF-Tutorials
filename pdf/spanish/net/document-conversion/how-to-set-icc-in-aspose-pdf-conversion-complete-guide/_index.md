@@ -25,11 +25,9 @@ title: Cómo configurar ICC en la conversión de PDF con Aspose – Guía comple
 url: /es/net/document-conversion/how-to-set-icc-in-aspose-pdf-conversion-complete-guide/
 ---
 
-CODE_BLOCK_0}} etc.
 
-Also preserve table formatting with pipes.
 
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

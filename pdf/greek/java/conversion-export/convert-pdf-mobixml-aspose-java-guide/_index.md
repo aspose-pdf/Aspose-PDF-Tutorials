@@ -13,13 +13,9 @@ url: /el/java/conversion-export/convert-pdf-mobixml-aspose-java-guide/
 weight: 1
 ---
 
- keep English? The rule: keep technical terms in English, but these are not technical. Could translate. Let's translate.
 
-But need to keep bold markers.
 
-Also headings like "## Quick Answers" translate to "## Γρήγορες Απαντήσεις". Keep heading level.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 

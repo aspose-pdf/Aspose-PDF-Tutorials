@@ -25,11 +25,8 @@ title: Bates-Nummerierung zu PDF in C# hinzufügen – Vollständiger Leitfaden
 url: /de/net/programming-with-stamps-and-watermarks/add-bates-numbering-pdf-in-c-complete-guide/
 ---
 
-question and answer content, but keep markdown table structure.
 
-Also keep code block placeholders.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

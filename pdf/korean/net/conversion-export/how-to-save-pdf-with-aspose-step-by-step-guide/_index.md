@@ -22,7 +22,6 @@ title: Aspose로 PDF 저장하는 방법 – 단계별 가이드
 url: /ko/net/conversion-export/how-to-save-pdf-with-aspose-step-by-step-guide/
 ---
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

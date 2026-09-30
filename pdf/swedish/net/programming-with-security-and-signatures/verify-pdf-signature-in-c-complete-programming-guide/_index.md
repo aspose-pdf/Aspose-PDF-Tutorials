@@ -23,17 +23,11 @@ title: Verifiera PDF‑signatur i C# – Komplett programmeringsguide
 url: /sv/net/programming-with-security-and-signatures/verify-pdf-signature-in-c-complete-programming-guide/
 ---
 
-PDF signature". Should we translate the phrase inside bold? The phrase is a technical term; maybe keep as is? The instruction: keep technical terms in English. "verify PDF signature" is a phrase; maybe keep as is. So keep bold unchanged. Similarly "validate PDF digital signature" and "check PDF signature". Keep them.
 
-Proceed.
 
-We'll translate but keep those phrases.
 
-Let's produce translation.
 
-Will need to translate bullet lists, etc.
 
-Let's write final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -40,8 +40,6 @@ A végére a következőket fogja tudni:
 
 Nincsenek külső eszközök, nincsenek homályos „lásd a dokumentációt” rövidítések—csak egy teljes, futtatható példa, amelyet ma beilleszthet a Visual Studio-ba.
 
-![Diagram showing the flow of loading a signed PDF document and extracting its signatures](alt="load signed pdf document flow diagram")
-
 ## Előkövetelmények
 
 Mielőtt belemerülnénk, győződjön meg róla, hogy a következők telepítve vannak a gépén:

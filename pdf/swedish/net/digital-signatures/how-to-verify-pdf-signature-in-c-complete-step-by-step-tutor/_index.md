@@ -23,21 +23,13 @@ title: Hur man verifierar PDF‑signatur i C# – Komplett steg‑för‑steg‑
 url: /sv/net/digital-signatures/how-to-verify-pdf-signature-in-c-complete-step-by-step-tutor/
 ---
 
-: The shortcodes at top and bottom must remain unchanged.
 
-We need to translate "How to Verify PDF Signature in C# – Complete Step‑by‑Step Tutorial" etc.
 
-Let's translate.
 
-Swedish translation:
 
-# Hur man verifierar PDF‑signatur i C# – Komplett steg‑för‑steg‑handledning
 
-... etc.
 
-Make sure to keep markdown formatting.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -20,9 +20,7 @@ title: 建立 PDF 文件 C# – 新增頁面、繪製矩形並儲存
 url: /zh-hant/net/document-creation/create-pdf-document-c-add-page-draw-rectangle-save/
 ---
 
-.
 
-I'll write final markdown.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

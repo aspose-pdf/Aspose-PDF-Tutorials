@@ -22,15 +22,11 @@ title: สร้างหน้า PDF ว่าง – บทเรียนก
 url: /th/net/programming-with-pdf-pages/create-blank-pdf-page-full-pdf-drawing-tutorial/
 ---
 
-ที่น่าสนใจอยากแชร์ไหม? แสดงความคิดเห็นได้เลย, และขอให้เขียนโค้ดอย่างสนุก!"
 
-Image unchanged.
 
-Then closing shortcodes.
 
-Now produce final output exactly with markdown.
 
-Let's assemble.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

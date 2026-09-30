@@ -23,9 +23,8 @@ title: PDF दस्तावेज़ बनाएं – PDF में पृ�
 url: /hi/net/document-creation/create-pdf-document-add-page-to-pdf-tag-heading-and-position/
 ---
 
-, lists, code block placeholders unchanged.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

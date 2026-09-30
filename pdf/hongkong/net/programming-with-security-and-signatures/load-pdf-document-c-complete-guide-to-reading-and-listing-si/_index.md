@@ -21,7 +21,7 @@ title: 載入 PDF 文件 C# – 完整指南：閱讀與列出簽名
 url: /zh-hant/net/programming-with-security-and-signatures/load-pdf-document-c-complete-guide-to-reading-and-listing-si/
 ---
 
-with all translated content, preserving structure.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

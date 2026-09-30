@@ -24,7 +24,6 @@ title: Optimalizált PDF mentése C#-ban – Méret csökkentése és oldalak ti
 url: /hu/net/performance-optimization/save-optimized-pdf-in-c-reduce-size-clean-pages/
 ---
 
-Proceed to translate.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

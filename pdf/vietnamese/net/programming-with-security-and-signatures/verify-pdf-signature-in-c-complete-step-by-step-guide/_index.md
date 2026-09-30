@@ -23,11 +23,9 @@ title: Xác thực chữ ký PDF trong C# – Hướng dẫn chi tiết từng b
 url: /vi/net/programming-with-security-and-signatures/verify-pdf-signature-in-c-complete-step-by-step-guide/
 ---
 
-"*Alt text:* ..." we translated. Also need to ensure we didn't translate code block placeholders.
 
-Make sure to keep markdown formatting.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

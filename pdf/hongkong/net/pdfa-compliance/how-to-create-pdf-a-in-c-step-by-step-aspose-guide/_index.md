@@ -23,9 +23,8 @@ title: 如何在 C# 中建立 PDF/A – Aspose 一步一步指南
 url: /zh-hant/net/pdfa-compliance/how-to-create-pdf-a-in-c-step-by-step-aspose-guide/
 ---
 
-names inside code placeholders; they are placeholders, fine.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

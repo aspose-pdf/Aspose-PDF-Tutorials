@@ -23,13 +23,10 @@ title: Belgeyi PDF Olarak Kaydet – Elips Ekleme ve DOCX'i PDF'ye Dönüştürm
 url: /tr/net/document-conversion/save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/
 ---
 
-links.
 
-Check for any variable names: we left them.
 
-Check for any code inside code blocks: placeholders only.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

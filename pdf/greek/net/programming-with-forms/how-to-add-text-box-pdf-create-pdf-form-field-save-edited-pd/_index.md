@@ -25,11 +25,8 @@ title: Πώς να προσθέσετε πλαίσιο κειμένου σε PDF
 url: /el/net/programming-with-forms/how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/
 ---
 
-πρώτη σελίδα του PDF")
 
-Also the "*Alt text:* *How to add text box PDF – illustration of a text box placed on a PDF page.*" This is a caption. Translate.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

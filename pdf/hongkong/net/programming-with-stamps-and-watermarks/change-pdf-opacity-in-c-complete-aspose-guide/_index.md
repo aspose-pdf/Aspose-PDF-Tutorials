@@ -20,15 +20,10 @@ title: 在 C# 中更改 PDF 透明度 – 完整 Aspose 指南
 url: /zh-hant/net/programming-with-stamps-and-watermarks/change-pdf-opacity-in-c-complete-aspose-guide/
 ---
 
-keep them unchanged.
 
-Now ensure we didn't miss any markdown elements.
 
-We have headings, blockquote, tables, lists, image, code placeholders.
 
-Make sure code placeholders remain exactly {{CODE_BLOCK_X}}.
 
-Now produce final content with translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

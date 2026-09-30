@@ -23,11 +23,8 @@ title: Cómo instalar Aspose – Guía de PowerShell para versiones específicas
 url: /es/net/getting-started/how-to-install-aspose-powershell-guide-for-specific-versions/
 ---
 
-aspose PowerShell screenshot". Should translate alt text but keep URL unchanged. So alt becomes "captura de pantalla de cómo instalar aspose PowerShell". Keep image markdown.
 
-- Keep shortcodes at top and bottom.
 
-Let's craft final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

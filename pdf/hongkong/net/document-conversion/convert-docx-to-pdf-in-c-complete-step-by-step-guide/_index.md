@@ -21,13 +21,9 @@ title: 在 C# 中將 docx 轉換為 PDF – 完整逐步指南
 url: /zh-hant/net/document-conversion/convert-docx-to-pdf-in-c-complete-step-by-step-guide/
 ---
 
-any markdown elements like blockquote, tables, code block placeholders, etc.
 
-Also ensure we keep the link formatting; there were no markdown links in the content.
 
-Now produce final output with all translated content and unchanged shortcodes.
 
-Let's assemble.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

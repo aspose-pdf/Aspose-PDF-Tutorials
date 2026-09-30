@@ -25,13 +25,9 @@ title: Come verificare la firma in PDF con Aspose.Pdf – Guida C#
 url: /it/net/digital-signatures/how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/
 ---
 
-}}
 
-Make sure not to translate any shortcode.
 
-Now produce final translation. Ensure markdown formatting preserved.
 
-Let's write Italian translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

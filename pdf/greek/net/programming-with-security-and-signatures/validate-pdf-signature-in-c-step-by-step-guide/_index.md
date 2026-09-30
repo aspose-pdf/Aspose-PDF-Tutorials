@@ -26,17 +26,11 @@ title: Επικύρωση Υπογραφής PDF σε C# – Οδηγός Βήμ
 url: /el/net/programming-with-security-and-signatures/validate-pdf-signature-in-c-step-by-step-guide/
 ---
 
-Let's translate.
 
-Greek translation:
 
-Title: "Validate PDF Signature in C# – Complete Programming Tutorial" => "Επικύρωση Υπογραφής PDF σε C# – Πλήρης Προγραμματιστική Επισκόπηση"
 
-But we need to keep as close as possible. Maybe "Επικύρωση Υπογραφής PDF σε C# – Πλήρης Προγραμματιστική Εκπαίδευση". We'll translate naturally.
 
-Proceed section by section.
 
-I'll produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

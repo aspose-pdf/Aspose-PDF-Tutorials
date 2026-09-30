@@ -21,13 +21,10 @@ title: 優化 PDF 圖片 – 使用 C# 減少 PDF 檔案大小
 url: /zh-hant/net/performance-optimization/optimize-pdf-images-reduce-pdf-file-size-with-c/
 ---
 
-.
 
-Let's craft translation.
 
-Be careful to keep markdown formatting.
 
-Let's write final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -22,7 +22,6 @@ title: Создание PDF‑документа в C# – добавление
 url: /ru/net/programming-with-pdf-pages/create-pdf-document-in-c-add-page-to-pdf-rectangle/
 ---
 
-content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

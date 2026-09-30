@@ -24,7 +24,7 @@ title: Bates-nummers toevoegen aan PDF’s – Stapsgewijze C#‑gids
 url: /nl/net/programming-with-forms/add-bates-numbers-to-pdfs-step-by-step-c-guide/
 ---
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

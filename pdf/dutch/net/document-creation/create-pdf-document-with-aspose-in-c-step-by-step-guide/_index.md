@@ -22,11 +22,9 @@ title: PDF-document maken met Aspose in C# – Stapsgewijze handleiding
 url: /nl/net/document-creation/create-pdf-document-with-aspose-in-c-step-by-step-guide/
 ---
 
-.
 
-Make sure to keep markdown formatting.
 
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

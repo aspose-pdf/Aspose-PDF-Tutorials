@@ -25,7 +25,6 @@ title: Créer un document PDF C# – Ajouter une page vierge et dessiner un rect
 url: /fr/net/document-creation/create-pdf-document-c-add-blank-page-draw-rectangle/
 ---
 
-final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

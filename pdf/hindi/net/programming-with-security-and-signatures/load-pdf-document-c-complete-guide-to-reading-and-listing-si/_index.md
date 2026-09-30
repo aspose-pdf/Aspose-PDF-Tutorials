@@ -24,17 +24,12 @@ title: C# में PDF दस्तावेज़ लोड करना – �
 url: /hi/net/programming-with-security-and-signatures/load-pdf-document-c-complete-guide-to-reading-and-listing-si/
 ---
 
-जिसमें हस्ताक्षर नामों की सूची दिख रही है](image-placeholder.png "load pdf document c# कंसोल आउटपुट")
 
-Then after image: "*Image alt text: load pdf document c# console output displaying list of signature names*" translate: "*छवि वैकल्पिक पाठ: load pdf document c# कंसोल आउटपुट जिसमें हस्ताक्षर नामों की सूची प्रदर्शित है*"
 
-Then closing shortcodes.
 
-Now ensure we didn't translate any code block placeholders.
 
-Also keep the table formatting.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

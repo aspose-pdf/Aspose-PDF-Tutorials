@@ -8,13 +8,9 @@ url: /cs/java/bookmarks-navigation/
 weight: 14
 ---
 
-Poslední aktualizace:" "Testováno s:" "Autor:" Keep dates unchanged.
 
-Then closing shortcodes.
 
-Now ensure we keep all shortcodes exactly.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 

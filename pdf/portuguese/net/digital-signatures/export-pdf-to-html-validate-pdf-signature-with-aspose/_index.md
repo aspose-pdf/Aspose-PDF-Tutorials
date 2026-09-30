@@ -24,9 +24,7 @@ title: exportar PDF para HTML e validar assinatura de PDF com Aspose
 url: /pt/net/digital-signatures/export-pdf-to-html-validate-pdf-signature-with-aspose/
 ---
 
-unchanged.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

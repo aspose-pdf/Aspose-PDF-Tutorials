@@ -25,25 +25,15 @@ title: Salva PDF come HTML con Aspose.PDF – Guida rapida C#
 url: /it/net/conversion-export/save-pdf-as-html-with-aspose-pdf-quick-c-guide/
 ---
 
-keep code block placeholders unchanged.
 
-Also translate "Quick Verification" heading and description.
 
-Also translate "Optional Tweaks & Edge Cases" heading.
 
-Subheadings: "1. Keeping Images for Specific Pages Only", "2. Handling Large PDFs (> 100 MB)", "3. Font Issues", "4. Custom CSS". Translate.
 
-Also translate bullet points inside.
 
-Also translate Recap heading and content.
 
-Also translate Next Steps & Related Topics heading and bullet list.
 
-Also translate final call to action.
 
-Make sure to keep shortcodes at end.
 
-Let's craft final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

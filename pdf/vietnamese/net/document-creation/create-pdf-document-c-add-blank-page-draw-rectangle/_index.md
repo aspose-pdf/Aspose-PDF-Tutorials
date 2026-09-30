@@ -25,15 +25,10 @@ title: Tạo tài liệu PDF C# – Thêm trang trắng & Vẽ hình chữ nhậ
 url: /vi/net/document-creation/create-pdf-document-c-add-blank-page-draw-rectangle/
 ---
 
-.
 
-Now produce final.
 
-Let's craft translation.
 
-Be careful with bullet lists.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

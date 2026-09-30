@@ -19,9 +19,7 @@ title: C# PDF 轉換教學 – 將 PDF 轉換為 PDF/X-4
 url: /zh-hant/net/document-conversion/c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/
 ---
 
-Everything else same.
 
-Now produce final content with translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

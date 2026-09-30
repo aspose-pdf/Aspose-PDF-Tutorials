@@ -24,9 +24,7 @@ title: Αποθήκευση PDF ως HTML – Διατήρηση διανυσμ�
 url: /el/net/document-conversion/save-pdf-as-html-keep-vectors-disable-rasterization/
 ---
 
-.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

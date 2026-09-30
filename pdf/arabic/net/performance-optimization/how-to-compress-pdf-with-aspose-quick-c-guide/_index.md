@@ -23,7 +23,7 @@ title: كيفية ضغط ملف PDF باستخدام Aspose – دليل سري�
 url: /ar/net/performance-optimization/how-to-compress-pdf-with-aspose-quick-c-guide/
 ---
 
-Let's write final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

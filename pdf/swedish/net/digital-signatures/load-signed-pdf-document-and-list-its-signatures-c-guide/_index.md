@@ -38,8 +38,6 @@ Vid slutet av den här guiden kommer du att kunna:
 
 Inga externa verktyg, inga vaga “se dokumentationen”-genvägar—bara ett komplett, körbart exempel som du kan kopiera‑klistra in i Visual Studio redan idag.
 
-![Diagram showing the flow of loading a signed PDF document and extracting its signatures](alt="load signed pdf document flow diagram")
-
 ## Förutsättningar
 
 Innan vi dyker ner, se till att du har följande på din maskin:

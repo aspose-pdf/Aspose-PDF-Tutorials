@@ -25,15 +25,10 @@ title: Hogyan javítsuk meg a PDF-et C#-ban – Sérült PDF-fájlok gyors javí
 url: /hu/net/document-manipulation/how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/
 ---
 
-to open? ..." translate.
 
-We'll go through each paragraph.
 
-Make sure to keep bold formatting.
 
-Also keep code placeholders unchanged.
 
-Let's produce final translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

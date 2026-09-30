@@ -22,17 +22,11 @@ title: วิธีตรวจสอบลายเซ็นใน PDF ด้�
 url: /th/net/programming-with-security-and-signatures/how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/
 ---
 
-". Keep the dash? Use Thai dash maybe. Keep as is.
 
-Then paragraph.
 
-We need to translate sentences.
 
-Make sure to keep **bold** formatting.
 
-Also keep code block placeholders.
 
-Let's produce.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

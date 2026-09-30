@@ -24,9 +24,8 @@ title: Δημιουργία PDF Εγγράφου C# – Προσθήκη Σελ�
 url: /el/net/document-creation/create-pdf-document-c-add-page-draw-rectangle-save/
 ---
 
-markdown links: none.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -11,13 +11,10 @@ url: /cs/java/conversion-export/convert-pdf-to-emf-aspose-java/
 weight: 1
 ---
 
-codes remain. Also ensure code block placeholders remain unchanged.
 
-Check for any markdown links: they are in Resources list. Keep same.
 
-Make sure we didn't translate URLs.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

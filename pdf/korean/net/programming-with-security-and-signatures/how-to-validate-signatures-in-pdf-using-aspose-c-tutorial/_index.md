@@ -22,11 +22,8 @@ title: Aspose를 사용하여 PDF에서 서명 검증하는 방법 – C# 튜토
 url: /ko/net/programming-with-security-and-signatures/how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/
 ---
 
-code snippets like `using var` unchanged.
 
-Also keep **bold** formatting.
 
-Let's produce.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

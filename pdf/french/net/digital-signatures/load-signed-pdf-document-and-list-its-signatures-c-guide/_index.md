@@ -40,8 +40,6 @@ Vous avez déjà eu besoin de **charger un document PDF signé** sans savoir qui
 
 Pas d’outils externes, pas de raccourcis vagues « voir la documentation » — juste un exemple complet, exécutable, que vous pouvez copier‑coller dans Visual Studio dès aujourd’hui.
 
-![Diagram showing the flow of loading a signed PDF document and extracting its signatures](alt="load signed pdf document flow diagram")
-
 ## Prérequis
 
 Avant de commencer, assurez‑vous d’avoir les éléments suivants sur votre machine :

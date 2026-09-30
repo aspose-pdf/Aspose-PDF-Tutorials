@@ -25,9 +25,7 @@ title: Jak přidávat značky do PDF pomocí Aspose – Kompletní průvodce zna
 url: /cs/net/programming-with-tagged-pdf/how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/
 ---
 
-.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

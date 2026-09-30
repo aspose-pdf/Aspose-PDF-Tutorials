@@ -23,17 +23,12 @@ title: 'PDF barrierefrei machen mit Aspose: Absatz in PDF Schritt für Schritt e
 url: /de/net/programming-with-tagged-pdf/make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/
 ---
 
-to keep markdown formatting.
 
-Let's write German translation.
 
-Be careful with bullet points: keep dash.
 
-Also keep blockquote >.
 
-Also keep code block placeholders as they are.
 
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -19,7 +19,6 @@ title: Edytuj przezroczystość PDF w C# – Przewodnik krok po kroku
 url: /pl/net/advanced-features/edit-pdf-transparency-in-c-step-by-step-guide/
 ---
 
-content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

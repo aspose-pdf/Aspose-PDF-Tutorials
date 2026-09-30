@@ -23,9 +23,8 @@ title: كيفية التحقق من توقيع PDF في C# – دليل خطوة
 url: /ar/net/digital-signatures/how-to-verify-pdf-signature-in-c-complete-step-by-step-tutor/
 ---
 
-formatting.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

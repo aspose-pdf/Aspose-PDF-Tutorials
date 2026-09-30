@@ -25,9 +25,8 @@ title: Wie man ICC bei der Aspose PDF‑Konvertierung einstellt – Vollständig
 url: /de/net/document-conversion/how-to-set-icc-in-aspose-pdf-conversion-complete-guide/
 ---
 
-that we didn't translate variable names (we kept them). Good.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

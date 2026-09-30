@@ -23,9 +23,8 @@ title: Ověřit podpis PDF a přidat obdélník do PDF s Aspose
 url: /cs/net/digital-signatures/verify-pdf-signature-and-add-rectangle-pdf-with-aspose/
 ---
 
-Ensure code block placeholders remain.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

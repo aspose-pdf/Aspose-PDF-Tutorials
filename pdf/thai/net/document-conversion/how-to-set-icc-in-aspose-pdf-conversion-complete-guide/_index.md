@@ -23,9 +23,8 @@ title: วิธีตั้งค่า ICC ในการแปลง PDF ด
 url: /th/net/document-conversion/how-to-set-icc-in-aspose-pdf-conversion-complete-guide/
 ---
 
-none. No URLs. Good.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

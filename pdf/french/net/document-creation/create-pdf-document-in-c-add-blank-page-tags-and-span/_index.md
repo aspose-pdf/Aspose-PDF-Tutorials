@@ -23,7 +23,7 @@ title: Créer un document PDF en C# – Ajouter une page blanche, des balises et
 url: /fr/net/document-creation/create-pdf-document-in-c-add-blank-page-tags-and-span/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

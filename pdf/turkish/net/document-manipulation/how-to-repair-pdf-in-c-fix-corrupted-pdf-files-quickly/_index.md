@@ -24,9 +24,8 @@ title: C#'ta PDF Nasıl Onarılır – Bozuk PDF Dosyalarını Hızlıca Düzelt
 url: /tr/net/document-manipulation/how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/
 ---
 
-so fine.
 
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,7 +24,7 @@ title: Αποθήκευση βελτιστοποιημένου PDF σε C# – �
 url: /el/net/performance-optimization/save-optimized-pdf-in-c-reduce-size-clean-pages/
 ---
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

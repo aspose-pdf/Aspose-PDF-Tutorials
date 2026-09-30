@@ -24,9 +24,7 @@ title: PDF-dokumentum létrehozása több szövegmező widgettel – Lépésről
 url: /hu/net/programming-with-forms/create-pdf-document-with-multiple-textbox-widgets-step-by-st/
 ---
 
-The original had them as placeholders. The instruction says preserve code blocks. These placeholders are not actual code fences, but we keep them as is.
 
-Now produce final content with all translations.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

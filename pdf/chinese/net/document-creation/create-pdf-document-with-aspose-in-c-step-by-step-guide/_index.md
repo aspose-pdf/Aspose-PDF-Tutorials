@@ -18,11 +18,9 @@ title: 使用 Aspose 在 C# 中创建 PDF 文档 – 步骤指南
 url: /zh/net/document-creation/create-pdf-document-with-aspose-in-c-step-by-step-guide/
 ---
 
-top-button >}}
 
-Make sure to keep them.
 
-Now produce final output with all translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

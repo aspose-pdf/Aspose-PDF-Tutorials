@@ -38,8 +38,6 @@ Al termine di questa guida sarai in grado di:
 
 Nessuno strumento esterno, nessun “vedi la documentazione” vago—solo un esempio completo e funzionante che puoi copiare‑incollare in Visual Studio oggi.
 
-![Diagram showing the flow of loading a signed PDF document and extracting its signatures](alt="diagramma del flusso di caricamento di un documento PDF firmato e estrazione delle sue firme")
-
 ## Prerequisiti
 
 Prima di immergerci, assicurati di avere quanto segue sulla tua macchina:

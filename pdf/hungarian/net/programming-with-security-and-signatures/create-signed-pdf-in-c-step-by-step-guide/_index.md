@@ -24,9 +24,8 @@ title: Aláírt PDF létrehozása C#‑ban – Lépésről lépésre útmutató
 url: /hu/net/programming-with-security-and-signatures/create-signed-pdf-in-c-step-by-step-guide/
 ---
 
-with Hungarian characters.
 
-Proceed.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

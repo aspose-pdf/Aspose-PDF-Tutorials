@@ -19,9 +19,7 @@ title: PDFにテキストボックスを追加する方法 – PDFフォーム�
 url: /ja/net/programming-with-forms/how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/
 ---
 
-proper RTL formatting if needed" not needed.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

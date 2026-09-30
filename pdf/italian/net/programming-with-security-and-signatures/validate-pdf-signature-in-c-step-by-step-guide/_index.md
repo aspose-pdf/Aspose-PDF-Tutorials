@@ -25,11 +25,8 @@ title: Convalida della firma PDF in C# – Guida passo passo
 url: /it/net/programming-with-security-and-signatures/validate-pdf-signature-in-c-step-by-step-guide/
 ---
 
-we didn't miss any markdown formatting like blockquotes, code placeholders.
 
-Also need to ensure we keep the bullet list formatting.
 
-Now produce final output with all translated content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

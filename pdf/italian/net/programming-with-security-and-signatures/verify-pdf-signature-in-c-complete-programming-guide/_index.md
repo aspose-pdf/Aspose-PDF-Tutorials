@@ -23,9 +23,7 @@ title: Verifica della firma PDF in C# – Guida completa alla programmazione
 url: /it/net/programming-with-security-and-signatures/verify-pdf-signature-in-c-complete-programming-guide/
 ---
 
-button.
 
-Let's craft final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

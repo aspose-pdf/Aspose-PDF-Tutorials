@@ -23,7 +23,7 @@ title: استرجاع أسماء توقيعات PDF في C# – دليل برم�
 url: /ar/net/digital-signatures/retrieve-pdf-signature-names-in-c-complete-programming-guide/
 ---
 
-output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

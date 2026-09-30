@@ -12,17 +12,11 @@ url: /hi/java/conversion-export/convert-pdf-mobixml-aspose-java-guide/
 weight: 1
 ---
 
- are English; but we can translate to Hindi while preserving the bold formatting. Should we translate? Yes, translate all text content. So translate those lines.
 
-Now produce final markdown with translations.
 
-Be careful to keep code block placeholders unchanged.
 
-Let's craft translation.
 
-I'll write Hindi sentences.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 
