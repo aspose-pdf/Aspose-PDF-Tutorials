@@ -80,6 +80,12 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [PDF 轉 PDF/X‑4](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 PDF/X‑4 格式。 |  
 | [將文件另存為 HTML – 完整 C# 指南：將 Word 匯出為 HTML](./save-document-as-html-complete-c-guide-to-export-word-to-htm/) |透過本完整 C# 教學了解如何使用 Aspose.PDF for .NET 將 Word 文件匯出為 HTML 格式。 |
 | [將 ICC 配置檔設定於 Word 轉 PDF – 完整 C# 指南](./set-icc-profile-when-converting-word-to-pdf-complete-c-guide/) |透過本完整的 C# 教學了解如何在將 Word 轉換為 PDF 時設定 ICC 配置檔。 |  

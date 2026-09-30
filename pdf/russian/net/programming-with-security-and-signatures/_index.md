@@ -57,6 +57,12 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Проверка подписи PDF в C# – Полное пошаговое руководство](./verify-pdf-signature-in-c-complete-step-by-step-guide/) | Узнайте, как проверять цифровые подписи PDF в C# с помощью Aspose.PDF для .NET, следуя подробному пошаговому руководству. |  
 | [Открыть подписанный PDF – как прочитать его цифровые подписи](./open-signed-pdf-how-to-read-its-digital-signatures/) | Узнайте, как открыть подписанный PDF и прочитать его цифровые подписи с помощью Aspose.PDF для .NET. Пошаговое руководство. |  
 
@@ -67,6 +73,12 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Как проверить подписи в PDF с помощью Aspose – C#](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) | Узнайте, как проверять подписи в PDF-файлах с помощью Aspose.PDF для .NET на C#. Пошаговое руководство для обеспечения подлинности документов. |  
 | [Проверка подписи PDF в C# – Полное руководство по программированию](./verify-pdf-signature-in-c-complete-programming-guide/) | Узнайте, как проверять подписи PDF в C# с помощью Aspose.PDF для .NET. Полное пошаговое руководство. |  
 | [Как восстановить PDF-файлы – Полное руководство на C# с Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Узнайте, как восстанавливать поврежденные PDF-файлы с помощью Aspose.PDF для .NET. Пошаговое руководство на C#. |  

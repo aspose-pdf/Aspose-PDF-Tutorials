@@ -81,6 +81,13 @@ You'll learn how to specify conversion settings, extract text and images, retain
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Aspose PDF conversion: Convert PDF to PDF/X‑4 in C#](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) | Learn how to convert PDF to PDF/X‑4 using Aspose.PDF for .NET in this step-by-step guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -90,6 +97,13 @@ You'll learn how to specify conversion settings, extract text and images, retain
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [add icc profile and convert PDF to PDF/X‑4 – C# guide](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) | Learn how to add an ICC profile and convert PDF to PDF/X‑4 using Aspose.PDF for .NET in C#. |
 | [Load PDF Document C# – Convert to PDF/X-4 Step‑by‑Step Guide](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | Learn how to load a PDF document and convert it to PDF/X-4 using Aspose.PDF for .NET with this step-by-step guide. |  
 | [How to Save PDF with Aspose – Complete C# Conversion Guide](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) | Learn how to save PDFs using Aspose.PDF for .NET with a complete C# conversion guide, covering essential steps and best practices. |  

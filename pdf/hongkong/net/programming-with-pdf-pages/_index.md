@@ -53,6 +53,12 @@ Aspose.PDF for .NET 的「使用 PDF 頁面進行編程」文件提供了逐步�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Aspose PDF 教學 – 插入空白頁並更新 Bates 編號](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) |使用 Aspose.PDF for .NET 在 PDF 中插入空白頁並更新 Bates 編號的逐步指南。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -62,6 +68,12 @@ Aspose.PDF for .NET 的「使用 PDF 頁面進行編程」文件提供了逐步�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [建立空白 PDF 頁面 – 完整 PDF 繪圖教學](./create-blank-pdf-page-full-pdf-drawing-tutorial/) |使用 Aspose.PDF for .NET 建立空白 PDF 頁面，並透過完整的 PDF 繪圖教學說明如何自訂內容。 |  
 | [使用 Aspose 新增 PDF 頁面 – 完整 C# 指南](./add-pages-to-pdf-with-aspose-complete-c-guide/) |使用 Aspose.PDF for .NET 在 C# 中完整地將新頁面添加到 PDF 文件的逐步指南。 |  
 | [在 C# 中建立 PDF 文件 – 向 PDF 添加頁面與矩形](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) |使用 Aspose.PDF for .NET 在 C# 中建立 PDF，並向文件添加新頁面與矩形形狀的逐步指南。 |  

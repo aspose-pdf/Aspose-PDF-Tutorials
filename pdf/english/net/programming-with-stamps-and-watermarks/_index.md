@@ -53,6 +53,12 @@ Aspose.PDF's "Programming with Stamps and Watermarks" tutorials for .NET walk yo
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Create PDF Watermark – Add Stamp & Convert DOCX to PDF](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) | Learn how to create a PDF watermark, add a stamp, and convert a DOCX file to PDF using Aspose.PDF for .NET. |  
 | [Change PDF Opacity in C# – Complete Aspose Guide](./change-pdf-opacity-in-c-complete-aspose-guide/) | Learn how to change PDF opacity using Aspose.PDF for .NET in C# with step-by-step instructions and code examples. |  
 | [Confidential watermark PDF with Aspose: Add a Text Stamp to First Page](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) | Learn how to add a confidential text watermark to the first page of a PDF using Aspose.PDF for .NET. |  

@@ -80,6 +80,12 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Aspose PDF conversion: Μετατροπή PDF σε PDF/X‑4 σε C#](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) | Μάθετε πώς να μετατρέπετε αρχεία PDF σε μορφή PDF/X‑4 χρησιμοποιώντας το Aspose.PDF για .NET σε C# με αυτόν τον οδηγό βήμα προς βήμα. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -89,6 +95,12 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Δημιουργία HTML από PDF σε C# – Πλήρης Οδηγός Βήμα προς Βήμα](./create-html-from-pdf-in-c-complete-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε HTML από PDF χρησιμοποιώντας C# με αυτόν τον πλήρη οδηγό βήμα προς βήμα. |
 | [c# pdf tutorial μετατροπής – μετατροπή pdf σε pdf/x-4](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) | Μάθετε πώς να μετατρέπετε PDF σε PDF/X-4 χρησιμοποιώντας το Aspose.PDF για .NET. |
 | [Προσθήκη προφίλ ICC και μετατροπή PDF σε PDF/X‑4 – Οδηγός C#](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) | Μάθετε πώς να προσθέσετε προφίλ ICC σε PDF και να το μετατρέψετε σε PDF/X‑4 χρησιμοποιώντας Aspose.PDF για .NET με C#. |  

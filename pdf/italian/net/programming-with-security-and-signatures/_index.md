@@ -57,6 +57,12 @@ Questo tutorial offre una panoramica dettagliata di metodi e tecniche per garant
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Verifica firma PDF in C# – Guida completa passo passo](./verify-pdf-signature-in-c-complete-step-by-step-guide/) | Scopri come verificare la firma digitale di un PDF usando C# con Aspose.PDF per .NET. |  
 | [Apri PDF firmato – Come leggere le firme digitali](./open-signed-pdf-how-to-read-its-digital-signatures/) | Scopri come aprire un PDF firmato e leggere le sue firme digitali con Aspose.PDF per .NET. |
 
@@ -67,6 +73,12 @@ Questo tutorial offre una panoramica dettagliata di metodi e tecniche per garant
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Come convalidare le firme in PDF usando Aspose – Tutorial C#](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) | Scopri come verificare la validità delle firme digitali nei PDF con Aspose.PDF per .NET in una guida passo passo. |  
 | [Come riparare i file PDF – Guida completa C# con Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Scopri come riparare i PDF danneggiati con Aspose.PDF per .NET usando C#. Guida passo passo per recuperare i contenuti. |
 | [Tutorial di estrazione firme PDF – Come elencare le firme PDF in C#](./pdf-signature-extraction-tutorial-how-to-list-pdf-signatures/) | Scopri come elencare tutte le firme presenti in un PDF usando Aspose.PDF per .NET con C#. Guida passo passo per sviluppatori. |

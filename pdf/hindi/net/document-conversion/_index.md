@@ -82,6 +82,12 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [PDF को HTML के रूप में सहेजें – वेक्टर रखें और रास्टराइज़ेशन निष्क्रिय करें](./save-pdf-as-html-keep-vectors-disable-rasterization/) | इस ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को HTML में वेक्टर बनाए रखते हुए और रास्टराइज़ेशन को बंद करके सहेजना सीखें। |
 | [C# में PDF से HTML बनाएं – पूर्ण चरण‑दर‑चरण गाइड](./create-html-from-pdf-in-c-complete-step-by-step-guide/) | इस विस्तृत मार्गदर्शिका में .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइल से HTML उत्पन्न करने के चरण सीखें। |  
 | [c# पीडीएफ रूपांतरण ट्यूटोरियल – पीडीएफ को PDF/X-4 में बदलें](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X-4 प्रारूप में परिवर्तित करना सीखें। |

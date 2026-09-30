@@ -80,6 +80,12 @@ Bạn sẽ học cách chỉ định cài đặt chuyển đổi, trích xuất 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Chuyển đổi PDF sang PDF/X‑4 bằng Aspose PDF trong C#](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) | Tìm hiểu cách chuyển đổi tệp PDF sang định dạng PDF/X‑4 bằng Aspose.PDF cho .NET trong C# với hướng dẫn từng bước. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -89,6 +95,12 @@ Bạn sẽ học cách chỉ định cài đặt chuyển đổi, trích xuất 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Thêm số Bates vào DOCX và Chuyển đổi sang PDF – Hướng dẫn đầy đủ C#](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | Tìm hiểu cách thêm số Bates vào tài liệu DOCX và chuyển đổi sang PDF bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết C#. |  
 | [Cách chuyển đổi PDF với Aspose.Pdf – Hướng dẫn C# đầy đủ](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | Hướng dẫn chi tiết cách chuyển đổi PDF bằng Aspose.Pdf trong C#, bao gồm các bước thực hiện và ví dụ mã đầy đủ. |  
 | [Lưu tài liệu dưới dạng HTML – Hướng dẫn C# toàn diện để xuất Word sang HTML](./save-document-as-html-complete-c-guide-to-export-word-to-htm/) | Tìm hiểu cách lưu tài liệu Word thành HTML bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết từng bước. |  

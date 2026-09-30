@@ -55,6 +55,12 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 - [ตรวจสอบลายเซ็น PDF ใน C# – คู่มือขั้นตอนเต็ม](./verify-pdf-signature-in-c-complete-step-by-step-guide/) | เรียนรู้วิธีตรวจสอบลายเซ็นดิจิทัลของไฟล์ PDF ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET อย่างละเอียด
 - [เปิดไฟล์ PDF ที่ลงลายเซ็น – วิธีอ่านลายเซ็นดิจิทัล](./open-signed-pdf-how-to-read-its-digital-signatures/) | เรียนรู้วิธีเปิดไฟล์ PDF ที่ลงลายเซ็นและอ่านลายเซ็นดิจิทัลด้วย Aspose.PDF สำหรับ .NET อย่างละเอียด
 

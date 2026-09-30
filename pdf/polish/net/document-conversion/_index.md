@@ -81,6 +81,12 @@ Dowiesz się, jak określać ustawienia konwersji, wyodrębniać tekst i obrazy,
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Aspose PDF conversion: Konwertuj PDF do PDF/X‑4 w C#](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) | Dowiedz się, jak konwertować pliki PDF do formatu PDF/X‑4 przy użyciu Aspose.PDF dla .NET w języku C#. |
 | [Ustaw profil ICC podczas konwersji Word do PDF – Kompletny przewodnik C#](./set-icc-profile-when-converting-word-to-pdf-complete-c-guide/) | Dowiedz się, jak ustawić profil ICC przy konwersji dokumentów Word do PDF przy użyciu Aspose.PDF dla .NET w pełnym przewodniku C#. |
 | [Zapisz dokument jako HTML – Kompletny przewodnik C# eksportu Word do HTML](./save-document-as-html-complete-c-guide-to-export-word-to-htm/) | Dowiedz się, jak zapisać dokument Word jako HTML przy użyciu Aspose.PDF dla .NET w pełnym przewodniku C#. |

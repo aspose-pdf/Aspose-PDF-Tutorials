@@ -80,6 +80,12 @@ Sie lernen, wie Sie Konvertierungseinstellungen festlegen, Text und Bilder extra
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Wie man PDF in PDF/X‑4 in C# konvertiert – Schritt‑für‑Schritt‑Anleitung](./how-to-convert-pdf-to-pdf-x-4-in-c-step-by-step-guide/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie PDF mit Aspose.PDF für .NET in das PDF/X‑4-Format konvertieren. |
 | [Aspose PDF-Konvertierung: PDF in PDF/X‑4 in C# konvertieren](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) | Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.PDF für .NET PDF‑Dateien in das PDF/X‑4‑Format in C# konvertieren. |  
 | [ICC-Profil hinzufügen und PDF nach PDF/X‑4 konvertieren – C#‑Leitfaden](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET ein ICC-Profil hinzufügen und PDF in PDF/X‑4 konvertieren. |

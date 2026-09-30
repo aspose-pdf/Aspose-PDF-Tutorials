@@ -80,6 +80,12 @@ Dönüştürme ayarlarını nasıl belirleyeceğinizi, metin ve görüntüleri n
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Aspose PDF Dönüştürme: C#'ta PDF'yi PDF/X‑4'e Dönüştürme](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) | Bu adım adım kılavuzda Aspose.PDF for .NET kullanarak PDF dosyalarını C# ile PDF/X‑4 formatına nasıl dönüştüreceğinizi öğrenin. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -89,6 +95,12 @@ Dönüştürme ayarlarını nasıl belirleyeceğinizi, metin ve görüntüleri n
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [PDF'yi HTML Olarak Kaydet – Vektörleri Koru ve Rasterleştirmeyi Devre Dışı Bırak](./save-pdf-as-html-keep-vectors-disable-rasterization/) | Aspose.PDF for .NET kullanarak PDF dosyalarını vektörleri koruyarak ve rasterleştirmeyi devre dışı bırakarak HTML'ye dönüştürmeyi öğrenin. |
 | [PDF'den PDF/X‑4'e](./how-to-convert-pdf-to-pdf-x-4-in-c-step-by-step-guide/) | Bu adım adım kılavuzda Aspose.PDF for .NET kullanarak PDF dosyalarını PDF/X‑4 formatına nasıl dönüştüreceğinizi öğrenin. |
 | [Word'ü PDF'ye Dönüştürürken ICC Profilini Ayarlama – Tam C# Rehberi](./set-icc-profile-when-converting-word-to-pdf-complete-c-guide/) | Aspose.PDF for .NET kullanarak Word dosyalarını PDF'ye dönüştürürken ICC profilini nasıl ayarlayacağınızı adım adım öğrenin. |

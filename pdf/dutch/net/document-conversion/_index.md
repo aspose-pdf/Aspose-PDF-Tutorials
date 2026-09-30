@@ -80,6 +80,12 @@ leert hoe u conversie-instellingen opgeeft, tekst en afbeeldingen extraheert, de
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Aspose PDF-conversie: PDF naar PDF/X‑4 converteren in C#](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) | Leer hoe u een PDF-bestand naar PDF/X‑4 converteert met Aspose.PDF voor .NET in C# met deze stapsgewijze handleiding. |
 | [HTML maken vanuit PDF in C# – Complete stapsgewijze handleiding](./create-html-from-pdf-in-c-complete-step-by-step-guide/) | Leer hoe u met Aspose.PDF voor .NET HTML genereert uit PDF-bestanden met een volledige stap‑voor‑stap handleiding in C#. |  
 | [Docx naar PDF converteren in C# – Complete stapsgewijze gids](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | Leer hoe u docx-bestanden naar PDF converteert in C# met Aspose.PDF voor .NET via een volledige stap‑voor‑stap handleiding. |  

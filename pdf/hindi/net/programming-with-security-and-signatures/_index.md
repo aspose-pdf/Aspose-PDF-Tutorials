@@ -56,6 +56,12 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [C# में PDF हस्ताक्षर सत्यापित करें – पूर्ण चरण‑दर‑चरण मार्गदर्शिका](./verify-pdf-signature-in-c-complete-step-by-step-guide/) | C# में Aspose.PDF का उपयोग करके PDF हस्ताक्षर कैसे सत्यापित करें, चरण‑दर‑चरण सीखें। |
 | [साइन किए गए PDF को खोलें – इसके डिजिटल हस्ताक्षर कैसे पढ़ें](./open-signed-pdf-how-to-read-its-digital-signatures/) | .NET के लिए Aspose.PDF का उपयोग करके साइन किए गए PDF के डिजिटल हस्ताक्षर पढ़ना सीखें। |
 
@@ -66,6 +72,12 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Aspose का उपयोग करके PDF में हस्ताक्षर कैसे सत्यापित करें – C# ट्यूटोरियल](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) | .NET के लिए Aspose.PDF का उपयोग करके PDF में डिजिटल हस्ताक्षर की वैधता कैसे जांचें, इस चरण-दर-चरण मार्गदर्शिका में सीखें। |  
 | [PDF फ़ाइलों की मरम्मत कैसे करें – Aspose.Pdf के साथ पूर्ण C# गाइड](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Aspose.Pdf का उपयोग करके C# में PDF फ़ाइलों को ठीक करने के चरण-दर-स्टेप मार्गदर्शन। |  
 | [PDF हस्ताक्षर निष्कर्षण ट्यूटोरियल – C# में PDF हस्ताक्षर कैसे सूचीबद्ध करें](./pdf-signature-extraction-tutorial-how-to-list-pdf-signatures/) | C# में Aspose.PDF का उपयोग करके PDF हस्ताक्षर कैसे सूचीबद्ध करें, इस चरण-दर-चरण मार्गदर्शन में सीखें। |  

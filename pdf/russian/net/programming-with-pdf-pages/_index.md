@@ -53,6 +53,12 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Вставить пустую страницу и обновить нумерацию Бейтса](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Пошаговое руководство по вставке пустой страницы и обновлению нумерации Бейтса в PDF с помощью Aspose.PDF для .NET. |  
 | [Создать пустую страницу PDF – Полное руководство по рисованию PDF](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Подробное пошаговое руководство по созданию пустой страницы PDF с использованием полного рисования PDF в Aspose.PDF для .NET. |
 | [Добавить страницы в PDF с Aspose – Полное руководство C#](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Пошаговое руководство по добавлению страниц в PDF с помощью Aspose.PDF для .NET на C#. |  

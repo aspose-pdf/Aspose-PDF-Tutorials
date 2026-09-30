@@ -57,6 +57,12 @@ Ce tutoriel vous offre un aperçu détaillé des méthodes et techniques permett
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Vérifier la signature PDF en C# – Guide complet étape par étape](./verify-pdf-signature-in-c-complete-step-by-step-guide/) | Apprenez à vérifier les signatures numériques d'un PDF en C# avec Aspose.PDF pour .NET. Guide complet étape par étape. |
 | [Ouvrir un PDF signé – Comment lire ses signatures numériques](./open-signed-pdf-how-to-read-its-digital-signatures/) | Apprenez à ouvrir un PDF signé et à lire les signatures numériques avec Aspose.PDF pour .NET. Guide étape par étape. |
 
@@ -67,6 +73,12 @@ Ce tutoriel vous offre un aperçu détaillé des méthodes et techniques permett
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Comment valider les signatures PDF avec Aspose – Tutoriel C#](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) | Apprenez à valider les signatures numériques d'un PDF en utilisant Aspose.PDF pour .NET avec C#. Guide étape par étape. |  
 | [Tutoriel d'extraction de signature PDF – Comment lister les signatures PDF en C#](./pdf-signature-extraction-tutorial-how-to-list-pdf-signatures/) | Apprenez à extraire et lister les signatures numériques d'un PDF en C# avec Aspose.PDF pour .NET. |
 | [Valider la signature numérique PDF – Guide complet C#](./validate-pdf-digital-signature-complete-c-guide/) | Apprenez à valider les signatures numériques des PDF avec Aspose.PDF pour .NET en C#. Guide complet étape par étape. |  

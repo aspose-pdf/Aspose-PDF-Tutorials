@@ -80,6 +80,12 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Aspose PDF 변환: C#에서 PDF를 PDF/X‑4로 변환](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) | Aspose.PDF for .NET을 사용하여 PDF를 PDF/X‑4 형식으로 변환하는 단계별 가이드를 확인하세요. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -89,6 +95,12 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [c# PDF 변환 튜토리얼 – PDF를 PDF/X-4로 변환](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) | Aspose.PDF for .NET을 사용하여 PDF 파일을 PDF/X-4 형식으로 변환하는 단계별 가이드입니다. |  
 | [PDF를 HTML로 저장 – 벡터 유지 및 래스터화 비활성화](./save-pdf-as-html-keep-vectors-disable-rasterization/) | Aspose.PDF for .NET을 사용하여 PDF를 HTML로 저장하면서 벡터를 유지하고 래스터화를 비활성화하는 방법을 단계별로 안내합니다. |  
 | [C#에서 PDF를 HTML로 만들기 – 완전 단계별 가이드](./create-html-from-pdf-in-c-complete-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 PDF 파일을 HTML로 변환하는 방법을 단계별 가이드로 알아보세요. |  

@@ -63,6 +63,12 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [كيفية إنشاء PDF باستخدام Aspose – إضافة حقل إلى مجموعة](./how-to-create-pdf-with-aspose-add-field-to-collection/) تعرّف على كيفية إضافة حقل إلى مجموعة في مستند PDF باستخدام Aspose.PDF لـ .NET خطوة بخطوة.  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -72,6 +78,12 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [كيفية إضافة مربع نص إلى PDF – إنشاء حقل نموذج PDF وحفظ المستند المُعدل](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) تعلم كيفية إضافة مربع نص إلى نموذج PDF وحفظ المستند بعد التعديل باستخدام Aspose.PDF لـ .NET خطوة بخطوة.  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

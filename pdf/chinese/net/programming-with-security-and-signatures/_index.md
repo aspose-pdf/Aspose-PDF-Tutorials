@@ -57,6 +57,12 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [在 C# 中验证 PDF 签名 – 完整分步指南](./verify-pdf-signature-in-c-complete-step-by-step-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名，分步指导确保文档完整性和真实性。|  
 | [打开已签名的 PDF – 如何读取其数字签名](./open-signed-pdf-how-to-read-its-digital-signatures/) 了解如何使用 Aspose.PDF for .NET 打开已签名的 PDF 并读取其数字签名。分步指南帮助您检查签名信息。|  
 
@@ -67,6 +73,12 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [如何使用 Aspose 验证 PDF 中的签名 – C# 教程](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 文档的数字签名，确保签名完整性和真实性。|  
 | [如何修复 PDF 文件 – 使用 Aspose.Pdf 的完整 C# 指南](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) 了解如何使用 Aspose.Pdf for .NET 在 C# 中修复受损的 PDF 文件，分步指南帮助您恢复文档完整性。|  
 | [PDF 签名提取教程 – 如何在 C# 中列出 PDF 签名](./pdf-signature-extraction-tutorial-how-to-list-pdf-signatures/) 了解如何使用 Aspose.PDF for .NET 在 C# 中提取并列出 PDF 文档的数字签名，分步指南帮助您快速实现。|  

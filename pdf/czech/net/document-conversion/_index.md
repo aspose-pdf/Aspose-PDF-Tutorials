@@ -80,6 +80,12 @@ Naučíte se, jak nastavit převod, extrahovat text a obrázky, zachovat původn
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Aspose PDF konverze: Převod PDF do PDF/X‑4 v C#](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) | Naučte se, jak převést PDF do PDF/X‑4 pomocí Aspose.PDF pro .NET v C# v tomto podrobném návodu. |
 | [Přidat ICC profil a převést PDF na PDF/X‑4 – průvodce v C#](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) | Naučte se, jak přidat ICC profil a převést PDF na PDF/X‑4 pomocí Aspose.PDF pro .NET v C#. |  
 | [Jak uložit PDF pomocí Aspose – Kompletní průvodce konverzí v C#](./how-to-save-pdf-with-aspose-complete-c-conversion-guide/) | Naučte se, jak uložit PDF soubor pomocí Aspose.PDF v C# s podrobným krok za krokem návodem. |  

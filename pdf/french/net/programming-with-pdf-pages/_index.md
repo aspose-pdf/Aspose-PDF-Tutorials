@@ -53,6 +53,12 @@ Les tutoriels incluent des instructions étape par étape, des exemples de code 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Aspose PDF Tutoriel – Insérer une page vierge et mettre à jour la numérotation Bates](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Apprenez à insérer une page blanche dans un PDF et à mettre à jour la numérotation Bates avec Aspose.PDF pour .NET, étape par étape. |  
 | [Créer une page PDF vierge – Tutoriel complet de dessin PDF](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Apprenez à créer une page PDF vierge et à la dessiner entièrement avec Aspose.PDF pour .NET, étape par étape. |  
 | [Ajouter des pages à un PDF avec Aspose – Guide complet C#](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Guide étape par étape pour ajouter des pages à un PDF avec Aspose.PDF pour .NET en C#. Simple à suivre et à implémenter. |  

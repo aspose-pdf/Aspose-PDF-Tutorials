@@ -56,6 +56,12 @@ Aspose.PDF for .NET के "टैग किए गए PDF के साथ प�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Aspose के साथ PDF को टैग कैसे करें – PDF एक्सेसिबिलिटी टैग्स का पूर्ण मार्गदर्शक](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) | Aspose का उपयोग करके PDF में एक्सेसिबिलिटी टैग जोड़ने की पूरी प्रक्रिया सीखें, जिससे दस्तावेज़ सुलभ और मानकों के अनुरूप बनें। |
 | [Aspose के साथ PDF को सुलभ बनाएं: पैराग्राफ PDF डालें चरण‑दर‑चरण](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Aspose.PDF for .NET का उपयोग करके PDF में पैराग्राफ जोड़कर उसे सुलभ बनाने की चरण‑दर‑चरण मार्गदर्शिका। |
 | [C# में टैग की गई PDF बनाएं – शीर्षक और सुलभ टेक्स्ट जोड़ें](./create-tagged-pdf-in-c-add-heading-accessible-text/) | .NET के लिए Aspose.PDF का उपयोग करके C# में शीर्षक और सुलभ टेक्स्ट के साथ टैग्ड PDF बनाने की चरण-दर-चरण मार्गदर्शिका। |  

@@ -80,6 +80,12 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [PDF в PDF/X‑4](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) | Узнайте, как конвертировать PDF в PDF/X‑4 с помощью Aspose.PDF для .NET в C# в этом пошаговом руководстве. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -89,6 +95,12 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Добавление ICC профиля и конвертировать PDF в PDF/X‑4 – руководство C#](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) | Узнайте, как добавить ICC профиль и конвертировать PDF в PDF/X‑4 с помощью Aspose.PDF для .NET в этом пошаговом руководстве на C#. |  
 | [Конвертация Aspose PDF в C# – пошаговое руководство](./aspose-pdf-conversion-in-c-step-by-step-guide/) | Узнайте, как выполнять конвертацию PDF с помощью Aspose.PDF для .NET на C# в этом пошаговом руководстве. |
 | [Создать HTML из PDF в C# – Полное пошаговое руководство](./create-html-from-pdf-in-c-complete-step-by-step-guide/) | Узнайте, как создать HTML из PDF с помощью Aspose.PDF для .NET в C# в этом пошаговом руководстве. |

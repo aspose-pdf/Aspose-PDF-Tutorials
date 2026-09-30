@@ -55,6 +55,12 @@ Aspose.PDF för .NET:s handledningar "Programmering med taggade PDF-filer" guida
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Skapa taggad PDF i C# – Steg‑för‑steg‑guide](./create-tagged-pdf-in-c-step-by-step-guide/) | Lär dig hur du skapar en taggad PDF i C# med en detaljerad steg‑för‑steg‑guide. |  
 | [Gör PDF tillgänglig med Aspose: Infoga stycke PDF steg‑för‑steg](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Lär dig hur du gör en PDF tillgänglig genom att infoga ett stycke med Aspose.PDF för .NET i denna steg‑för‑steg‑guide. |  
 | [Hur man taggar PDF med Aspose – Komplett guide till PDF-tillgänglighetstaggar](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) | Lär dig hur du taggar PDF-filer med Aspose för att förbättra tillgängligheten enligt PDF/UA-standarden. |  

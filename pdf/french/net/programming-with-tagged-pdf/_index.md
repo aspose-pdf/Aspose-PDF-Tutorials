@@ -56,6 +56,12 @@ Les tutoriels « Programmation avec des PDF balisés » d'Aspose.PDF pour .NET
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Comment baliser un PDF avec Aspose – Guide complet des balises d'accessibilité PDF](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) | Apprenez à baliser vos PDF pour l'accessibilité avec Aspose grâce à ce guide complet étape par étape. |  
 | [Rendre le PDF accessible avec Aspose : insérer un paragraphe PDF étape par étape](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Apprenez à insérer un paragraphe dans un PDF accessible avec Aspose.PDF pour .NET, étape par étape. |
 | [Créer un PDF balisé en C# – Ajouter un titre et du texte accessible](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Apprenez à créer un PDF balisé en C# avec un titre et du texte accessible à l'aide d'Aspose.PDF pour .NET. |
