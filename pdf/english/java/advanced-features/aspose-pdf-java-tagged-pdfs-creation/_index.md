@@ -1,5 +1,5 @@
 ---
-title: "How to Tag PDF with Aspose.PDF for Java – Guide"
+title: "Create Tagged PDFs with Aspose.PDF for Java – Guide"
 description: "Learn how to tag PDF documents with Aspose.PDF for Java and generate accessible PDFs that work with screen readers."
 date: "2026-05-18"
 weight: 1
@@ -12,13 +12,13 @@ keywords:
   - aspose pdf maven
 schemas:
 - type: TechArticle
-  headline: How to Tag PDF with Aspose.PDF for Java – Guide
+  headline: Create Tagged PDFs with Aspose.PDF for Java – Guide
   description: Learn how to tag PDF documents with Aspose.PDF for Java and generate
     accessible PDFs that work with screen readers.
   dateModified: '2026-05-18'
   author: Aspose
 - type: HowTo
-  name: How to Tag PDF with Aspose.PDF for Java – Guide
+  name: Create Tagged PDFs with Aspose.PDF for Java – Guide
   description: Learn how to tag PDF documents with Aspose.PDF for Java and generate
     accessible PDFs that work with screen readers.
   steps:
@@ -53,10 +53,9 @@ schemas:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # How to Tag PDF with Aspose.PDF for Java
 
 ## Introduction
@@ -102,7 +101,7 @@ implementation 'com.aspose:aspose-pdf:25.3'
 
 Load your PDF, apply tags, set title and language, then save – all in five concise steps. Aspose.PDF’s `ITaggedContent` API handles the heavy lifting, ensuring that the resulting file is recognized by Adobe Acrobat’s Accessibility Checker and most screen readers without additional post‑processing.
 
-### Step 1: Create a New PDF Document
+### Step 1: create a new PDF document
 
 The `Document` class is Aspose.PDF's core object that represents a single PDF file in memory.
 
@@ -114,7 +113,7 @@ String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Document document = new Document();
 ```
 
-### Step 2: Access the Tagged Content API
+### Step 2: access the tagged content API
 
 `ITaggedContent` provides methods to add and manipulate PDF tags such as titles, language, and structural elements.
 
@@ -124,7 +123,7 @@ import com.aspose.pdf.tagged.ITaggedContent;
 ITaggedContent taggedContent = document.getTaggedContent();
 ```
 
-### Step 3: Set Document Title and Language
+### Step 3: set document title and language
 
 The `setTitle` and `setLanguage` methods belong to the `ITaggedContent` interface and must be called before saving.
 
@@ -133,7 +132,7 @@ taggedContent.setTitle("Simple Tagged Pdf Document");
 taggedContent.setLanguage("en-US");
 ```
 
-### Step 4: Define the Output Path
+### Step 4: define the output path
 
 Choose a file system location where the tagged PDF will be written. Using an absolute or relative path works; ensure the application has write permissions.
 
@@ -142,7 +141,7 @@ String outputDir = "YOUR_OUTPUT_DIRECTORY";
 String outputPath = outputDir + "/TaggedPDFContent.pdf";
 ```
 
-### Step 5: Save the Tagged PDF
+### Step 5: save the tagged PDF
 
 Calling `save` persists the document along with all tags. The API automatically writes the PDF/UA‑compliant structure, so no extra steps are required.
 
@@ -160,7 +159,7 @@ document.save(outputPath);
 - Use streaming APIs for large files to keep the memory footprint low.  
 - Optimize resources (fonts, images) to keep the file size reasonable—Aspose.PDF can reduce a 20 MB PDF to under 5 MB after optimization.
 
-## Common Issues & Solutions
+## Common issues & solutions
 
 The `License` class is used to load and apply an Aspose.PDF license file, and the `Document.optimizeResources()` method reduces PDF size by optimizing fonts and images.
 
