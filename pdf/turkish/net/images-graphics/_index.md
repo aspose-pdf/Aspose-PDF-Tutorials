@@ -37,6 +37,8 @@ Aspose.PDF for .NET kullanarak PDF belgelerinde dikdörtgenler oluşturmayı ve 
 
 ### [C# ile PDF'de Dikdörtgen Çizme: Adım Adım Kılavuz](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
 Aspose.PDF for .NET ile C# kullanarak PDF belgelerine dikdörtgen çizerek görsel öğeler eklemeyi öğrenin.
+### [Aspose.PDF ile PDF'ye Dikdörtgen Ekleme – Tam Programlama Kılavuzu](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+Aspose.PDF for .NET kullanarak PDF belgelerine dikdörtgen şekilleri eklemeyi ve özelleştirmeyi adım adım öğrenin.
 
 ### [.NET'te Aspose.PDF ile Özel PDF Damgaları Oluşturun](./create-custom-pdf-stamps-aspose-pdf-net/)
 Aspose.PDF Net için bir kod öğreticisi

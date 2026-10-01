@@ -35,6 +35,9 @@ Aspose.PDF for .NET を使用して、SVG ファイルを高品質な PDF にシ
 ### [Aspose.PDF for .NET を使用して PDF に四角形を作成および塗りつぶす: ステップバイステップ ガイド](./create-fill-rectangle-aspose-pdf-net/)
 Aspose.PDF for .NET を使用して、PDF ドキュメントに四角形を作成し、塗りつぶす方法を学びます。このステップバイステップガイドでは、C# でのセットアップから実装まで、すべてを網羅しています。
 
+### [Aspose.PDF を使用して PDF に四角形を追加する – 完全プログラミングガイド](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+Aspose.PDF を使って PDF に四角形を描画し、位置やサイズ、塗りつぶしを設定する方法をステップバイステップで解説します。
+
 ### [PDF を検証し、矩形を追加する完全ガイド](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
 Aspose.PDF for .NET を使用して、PDF の有効性を確認し、矩形を描画して文書を強化する方法を学びます。
 

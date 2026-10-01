@@ -42,6 +42,7 @@
 学习使用 C# 和 Aspose.PDF for .NET 在 PDF 中绘制矩形的步骤，包括位置、尺寸和样式的设置。
 ### [如何验证 PDF 并添加矩形 – 完整指南](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
 学习使用 Aspose.PDF for .NET 验证 PDF 文件的完整性并在页面上绘制矩形，实现文档检查和标注。
+### [使用 Aspose.PDF for .NET 向 PDF 添加矩形：完整编程指南](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
 
 ### [使用 .NET 中的 Aspose.PDF 创建自定义 PDF 图章](./create-custom-pdf-stamps-aspose-pdf-net/)
 Aspose.PDF Net 代码教程

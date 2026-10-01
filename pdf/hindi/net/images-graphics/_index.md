@@ -176,6 +176,8 @@ Aspose.PDF नेट के लिए एक कोड ट्यूटोरि�
 ### [.NET के लिए Aspose.PDF का उपयोग करके PDF में छवि पृष्ठभूमि सेट करें: एक व्यापक गाइड](./aspose-pdf-net-set-image-backgrounds/)
 जानें कि .NET के लिए Aspose.PDF का उपयोग करके छवि पृष्ठभूमि सेट करके अपने PDF दस्तावेज़ों को कैसे बेहतर बनाया जाए। यह मार्गदर्शिका सेटअप, कार्यान्वयन और अनुकूलन युक्तियों को कवर करती है।
 
+### [.NET के लिए Aspose.PDF का उपयोग करके PDF में आयत जोड़ें – पूर्ण प्रोग्रामिंग गाइड](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.PDF for Net दस्तावेज़ीकरण](https://docs.aspose.com/pdf/net/)

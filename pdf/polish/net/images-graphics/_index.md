@@ -37,6 +37,8 @@ Dowiedz się, jak tworzyć i wypełniać prostokąty w dokumentach PDF za pomoc�
 
 ### [Dodaj prostokąt do PDF za pomocą C# – Kompletny przewodnik Aspose PDF](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
 Dowiedz się, jak dodać prostokąt do pliku PDF przy użyciu C# i Aspose.PDF, krok po kroku, z przykładami kodu.
+### [Dodaj prostokąt do PDF za pomocą Aspose.PDF – Kompletny przewodnik programistyczny](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+Dowiedz się, jak dodać prostokąt do pliku PDF przy użyciu Aspose.PDF w .NET. Kompletny przewodnik programistyczny.
 
 ### [Utwórz niestandardowe stemple PDF za pomocą Aspose.PDF w .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Samouczek dotyczący kodu dla Aspose.PDF Net

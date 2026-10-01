@@ -39,6 +39,7 @@
 ### [Προσθήκη ορθογωνίου σε PDF με C# – Πλήρης οδηγός Aspose PDF](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
 ### [Πώς να Επικυρώσετε PDF και να Προσθέσετε Ορθογώνιο – Οδηγός βήμα προς βήμα](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
 Μάθετε πώς να ελέγχετε την εγκυρότητα ενός PDF και να προσθέτετε ορθογώνια σχήματα με το Aspose.PDF για .NET, βήμα προς βήμα.
+### [Προσθήκη ορθογωνίου σε PDF με το Aspose.PDF – Πλήρης Οδηγός Προγραμματισμού](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
 
 ### [Δημιουργήστε προσαρμοσμένες σφραγίδες PDF με το Aspose.PDF σε .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Ένα σεμινάριο κώδικα για το Aspose.PDF Net

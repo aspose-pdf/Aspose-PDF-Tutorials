@@ -35,6 +35,9 @@ Aprenda a converter arquivos SVG em PDFs de alta qualidade com facilidade usando
 ### [Crie e preencha retângulos em PDFs usando Aspose.PDF para .NET: um guia passo a passo](./create-fill-rectangle-aspose-pdf-net/)
 Aprenda a criar e preencher retângulos em documentos PDF usando o Aspose.PDF para .NET. Este guia passo a passo abrange tudo, desde a configuração até a implementação em C#.
 
+### [Adicionar retângulo a PDF com Aspose.PDF – Guia completo de programação](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+Aprenda a inserir retângulos em documentos PDF usando Aspose.PDF para .NET com este guia completo de programação.
+
 ### [Como desenhar retângulo em PDF com C# – Guia passo a passo](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
 Aprenda a desenhar retângulos em documentos PDF usando Aspose.PDF para .NET com C#. Siga este guia passo a passo.
 
@@ -142,6 +145,9 @@ Aprenda como extrair imagens de arquivos PDF com eficiência usando o Aspose.PDF
 
 ### [Como extrair imagens de PDFs usando Aspose.PDF para .NET: um guia passo a passo](./extract-images-aspose-pdf-net-guide/)
 Aprenda a extrair imagens de documentos PDF usando o Aspose.PDF para .NET com este guia completo. Perfeito para desenvolvedores que buscam aprimorar os recursos de processamento de documentos.
+
+### [Como extrair imagens de PDFs usando Aspose.PDF para .NET: um guia passo a passo](./extract-images-aspose-pdf-net/)
+Um tutorial de código para Aspose.PDF Net
 
 ### [Como extrair imagens de páginas específicas de um PDF usando Aspose.PDF para .NET](./extract-images-pdfs-specific-pages-aspose-dotnet/)
 Aprenda a extrair imagens de páginas específicas de um PDF com eficiência usando o Aspose.PDF para .NET. Este guia aborda dicas de configuração, implementação e desempenho.

@@ -39,6 +39,8 @@ Leer hoe u rechthoeken in PDF-documenten kunt maken en vullen met Aspose.PDF voo
 Leer hoe u met C# een rechthoek in een PDF-document tekent met Aspose.PDF, inclusief positionering, grootte en opvulling.
 ### [Rechthoek toevoegen aan PDF met C# – volledige Aspose PDF-gids](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
 Leer hoe u met C# een rechthoek aan een PDF toevoegt met behulp van Aspose.PDF, inclusief codevoorbeelden en stapsgewijze instructies.
+### [Rechthoek toevoegen aan PDF met Aspose.PDF – Complete programmeergids](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+Leer hoe u met Aspose.PDF een rechthoek aan een PDF toevoegt met volledige codevoorbeelden en stapsgewijze instructies.
 
 ### [Maak aangepaste PDF-stempels met Aspose.PDF in .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Een codetutorial voor Aspose.PDF Net

@@ -35,6 +35,9 @@ Erfahren Sie, wie Sie SVG-Dateien mit Aspose.PDF für .NET nahtlos in hochwertig
 ### [Erstellen und Füllen von Rechtecken in PDFs mit Aspose.PDF für .NET: Eine Schritt-für-Schritt-Anleitung](./create-fill-rectangle-aspose-pdf-net/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET Rechtecke in PDF-Dokumenten erstellen und füllen. Diese Schritt-für-Schritt-Anleitung deckt alles ab, von der Einrichtung bis zur Implementierung mit C#.
 
+### [Rechteck zu PDF hinzufügen mit Aspose.PDF – Vollständiger Programmierleitfaden](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET Rechtecke zu PDFs hinzufügen, positionieren und formatieren – ein umfassender Leitfaden.
+
 ### [Rechteck in PDF mit C# zeichnen – Schritt‑für‑Schritt‑Anleitung](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein Rechteck in ein PDF-Dokument zeichnen. Folgen Sie dieser Schritt‑für‑Schritt‑Anleitung.
 ### [Wie man PDF validiert und ein Rechteck hinzufügt – Vollständiger Leitfaden](./how-to-validate-pdf-and-add-rectangle-complete-guide/)

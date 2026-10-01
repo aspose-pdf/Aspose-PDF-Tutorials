@@ -37,6 +37,8 @@ Aprenda a crear y rellenar rectángulos en documentos PDF con Aspose.PDF para .N
 
 ### [Cómo dibujar un rectángulo en PDF con C# – guía paso a paso](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
 Aprenda a dibujar rectángulos en archivos PDF con Aspose.PDF para .NET usando C# paso a paso.
+### [Agregar rectángulo a PDF con Aspose.PDF – Guía completa de programación](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+Aprenda a agregar rectángulos a documentos PDF usando Aspose.PDF para .NET con esta guía completa paso a paso.
 
 ### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Un tutorial de código para Aspose.PDF Net
