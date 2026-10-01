@@ -40,8 +40,6 @@ C# で **pdf document** を作成したいと思ったことはありません�
 
 **前提条件:** .NET 6 以上（または .NET Framework 4.6 以上）、Visual Studio もしくは任意の C# IDE、そして有効な Aspose.PDF ライセンス（または無料評価版）。他のサードパーティライブラリは不要です。
 
-![Create PDF Document example](alt="Aspose.PDF で作成した PDF ドキュメントの例 – ページ境界を超える赤い矩形が表示されています")
-
 ---
 
 ## ステップ 1 – PDF ドキュメントの初期化

@@ -1,0 +1,7 @@
+Title: draw rectangle on pdf – step‑by‑step C# guide
+Slug: draw-rectangle-on-pdf-step-by-step-c-guide
+Category: annotations
+ProcessedDate: 2026-08-14T18:46:25.787087
+SourceRepo: AI Search API
+Keywords: draw rectangle on pdf, how to define rectangle dimensions
+PRNumber: 119

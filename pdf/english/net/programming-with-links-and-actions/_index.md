@@ -32,6 +32,7 @@ The "Programming with Links and Actions" tutorial page on Aspose.PDF for .NET of
 | [Specify Page When Viewing](./specify-page-when-viewing/) | Learn how to specify a page to view in a PDF using Aspose.PDF for .NET. Enhance user navigation with this simple guide. |  
 | [Update Links In PDF File](./update-links/) | Learn how to update the link text color in a PDF file using Aspose.PDF for .NET. This step-by-step guide walks you through every detail with easy-to-follow examples. |  
 | [Update Link Text Color In PDF File](./update-link-text-color/) | Effortlessly update links in your PDF files using Aspose.PDF for .NET with this comprehensive step-by-step guide. Simplify your PDF editing. |  
+| [Create PDF Hyperlink in C# – Step‑by‑Step Guide](./create-pdf-hyperlink-in-c-step-by-step-guide/) | Learn how to create a PDF hyperlink using C# and Aspose.PDF for .NET with this step‑by‑step guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

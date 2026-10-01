@@ -1,0 +1,7 @@
+Title: Save signed PDF with a custom digital signature in C#
+Slug: save-signed-pdf-with-a-custom-digital-signature-in-c
+Category: programming-with-security-and-signatures
+ProcessedDate: 2026-09-28T08:00:19.491794
+SourceRepo: AI Search API
+Keywords: save signed pdf, add digital signature pdf, add custom signature pdf, sign pdf private key
+PRNumber: 136

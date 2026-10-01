@@ -19,9 +19,13 @@ Výukové programy Aspose.PDF pro .NET vás krok za krokem provedou osvojování
 Prozkoumejte funkce Aspose.PDF pro .NET pomocí specializovaných tutoriálů. Naučte se, jak pracovat s nadpisy v dokumentech PDF, pomocí praktických příkladů a podrobných vysvětlení. Zlepšete čitelnost a navigaci v souborech PDF s těmito komplexními zdroji.
 
 ## Návody
+
+{{< tutorial-card link="./add-heading/" title="Přidání nadpisu, jazyka a názvu do PDF pomocí Aspose.PDF pro .NET" imgSrc="./add-heading/images/thumb.png" >}}
+
 | Název | Popis |
 | --- | --- | 
 | [Použít styl čísla v souboru PDF](./apply-number-style/) | Naučte se, jak pomocí tohoto podrobného návodu použít různé styly číslování (římské číslice, abecední) na nadpisy v PDF pomocí Aspose.PDF pro .NET. |   
+| [Přidání nadpisu do PDF pomocí Aspose – Kompletní průvodce v C#](./add-heading-to-pdf-with-aspose-complete-c-guide/) | Naučte se, jak pomocí Aspose.PDF pro .NET přidat nadpis do PDF souboru pomocí kompletního C# příkladu. |   
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

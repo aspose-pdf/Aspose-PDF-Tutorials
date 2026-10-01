@@ -1,0 +1,7 @@
+Title: Save PDF as HTML and Convert to PDF/X‑4 with Aspose.PDF in C#
+Slug: save-pdf-as-html-and-convert-to-pdf-x-4-with-aspose-pdf-in-c
+Category: conversion-export
+ProcessedDate: 2026-08-14T18:46:43.168831
+SourceRepo: AI Search API
+Keywords: save pdf as html, convert pdf to pdf/x-4, how to save as html, how to convert to pdfx4
+PRNumber: 119

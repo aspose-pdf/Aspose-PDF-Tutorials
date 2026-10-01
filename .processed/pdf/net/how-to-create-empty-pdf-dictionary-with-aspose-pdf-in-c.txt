@@ -1,0 +1,7 @@
+Title: How to create empty PDF dictionary with Aspose.PDF in C#
+Slug: how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c
+Category: programming-with-document
+ProcessedDate: 2026-09-18T18:34:19.071726
+SourceRepo: AI Search API
+Keywords: create empty pdf dictionary
+PRNumber: 131

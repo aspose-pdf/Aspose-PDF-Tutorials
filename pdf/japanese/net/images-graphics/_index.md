@@ -35,6 +35,14 @@ Aspose.PDF for .NET を使用して、SVG ファイルを高品質な PDF にシ
 ### [Aspose.PDF for .NET を使用して PDF に四角形を作成および塗りつぶす: ステップバイステップ ガイド](./create-fill-rectangle-aspose-pdf-net/)
 Aspose.PDF for .NET を使用して、PDF ドキュメントに四角形を作成し、塗りつぶす方法を学びます。このステップバイステップガイドでは、C# でのセットアップから実装まで、すべてを網羅しています。
 
+### [PDF を検証し、矩形を追加する完全ガイド](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
+Aspose.PDF for .NET を使用して、PDF の有効性を確認し、矩形を描画して文書を強化する方法を学びます。
+
+### [C# で PDF に四角形を追加する – 完全 Aspose PDF ガイド](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+C# と Aspose.PDF for .NET を使用して、PDF に四角形を追加する方法をステップバイステップで解説します。
+
+### [C# を使用して PDF に四角形を描く方法 – ステップバイステップ ガイド](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
+Aspose.PDF for .NET と C# を使って、PDF に四角形を描く手順を学びます。コード例とベストプラクティスを含むステップバイステップガイドです。
 ### [Aspose.PDF を使用して PDF に四角形を追加する – 完全プログラミングガイド](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
 Aspose.PDF を使って PDF に四角形を描画し、位置やサイズ、塗りつぶしを設定する方法をステップバイステップで解説します。
 
@@ -46,6 +54,9 @@ Aspose.PDF .NET を使用して段落を抽出し、ハイライト表示する�
 
 ### [Aspose.PDF .NET で PDF に透明な図形を描く](./draw-transparent-shapes-aspose-pdf-net/)
 Aspose.PDF Net のコードチュートリアル
+
+### [C# で Aspose.PDF .NET を使用して PDF に透明度を追加する: ステップバイステップ ガイド](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Aspose.PDF .NET を使い、C# で PDF の要素に透明効果を適用する方法を段階的に解説します。
 
 ### [Aspose.PDF for .NET による効率的な PDF 画像識別](./master-image-identification-aspose-pdf-net/)
 Aspose.PDF for .NET を使用して、PDF 内のグレースケール画像と RGB 画像を識別する方法を学びます。このチュートリアルでは、インストール、画像の抽出、パフォーマンスに関するヒントを紹介します。

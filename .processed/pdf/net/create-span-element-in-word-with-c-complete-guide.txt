@@ -1,0 +1,7 @@
+Title: Create Span Element in Word with C# – Complete Guide
+Slug: create-span-element-in-word-with-c-complete-guide
+Category: programming-with-text
+ProcessedDate: 2026-06-05T23:43:41.160132
+SourceRepo: AI Search API
+Keywords: create span element, how to add span, set absolute position, position text in word, add custom tag
+PRNumber: 87

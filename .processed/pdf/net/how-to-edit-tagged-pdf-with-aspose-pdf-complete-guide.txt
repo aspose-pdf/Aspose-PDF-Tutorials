@@ -1,0 +1,7 @@
+Title: How to Edit Tagged PDF with Aspose.Pdf – Complete Guide
+Slug: how-to-edit-tagged-pdf-with-aspose-pdf-complete-guide
+Category: programming-with-tagged-pdf
+ProcessedDate: 2026-06-18T11:50:42.699783
+SourceRepo: AI Search API
+Keywords: how to edit tagged pdf
+PRNumber: 92
