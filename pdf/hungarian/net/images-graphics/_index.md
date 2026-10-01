@@ -13,7 +13,7 @@
 
 # PDF képek és grafikák oktatóanyagai az Aspose.PDF for .NET segítségével
 
-Fedezze fel, hogyan gazdagíthatja PDF dokumentumait vizuális elemekkel átfogó Aspose.PDF .NET oktatóanyagaink segítségével. Ezek a lépésről lépésre szóló útmutatók megtanítják, hogyan szúrhat be, vonhat ki és manipulálhat képeket, hogyan hozhat létre és módosíthat vektorgrafikákat, hogyan valósíthat meg átlátszóságot és effekteket, valamint hogyan dolgozhat színterekkel. Minden oktatóanyag gyakorlati C# kódpéldákat tartalmaz a gyakori grafikai műveletekhez, segítve a vizuálisan gazdag PDF dokumentumok létrehozását, amelyek hatékonyan ötvözik a szöveges és grafikus elemeket.
+Fedezze fel, hogyan gazdagíthatja PDF dokumentumait vizuális elemekkel átfogó Aspose.PDF .NET oktatóanyagaink segítségével. Ezek a lépésről lépésre szóló útmutatók megtanítják, hogyan szúrhat be, vonhat ki és manipulálhat képeket, hogyan hozhat létre és módosíthat vektorgrafikákat, hogyan valósíthat meg átlátszóságot és effekteket, valamint hogyan dolgozhat színterekkel. Minden oktatóanyag gyakorlati C# kódpéldákat tartalmaz a gyakori grafikai műveletekhez, segítve a vizuálisan gazdag PDF dokumentumok létrehozásában, amelyek hatékonyan ötvözik a szöveges és grafikus elemeket.
 
 ## Elérhető oktatóanyagok
 
@@ -35,12 +35,13 @@ Tanuld meg, hogyan konvertálhatsz SVG fájlokat zökkenőmentesen kiváló min�
 ### [Téglalapok létrehozása és kitöltése PDF-ekben az Aspose.PDF for .NET használatával: lépésről lépésre útmutató](./create-fill-rectangle-aspose-pdf-net/)
 Tanuld meg, hogyan hozhatsz létre és tölthetsz ki téglalapokat PDF dokumentumokban az Aspose.PDF for .NET segítségével. Ez a lépésről lépésre szóló útmutató mindent lefed a beállítástól a megvalósításig C#-ban.
 
+### [Téglalap hozzáadása PDF-hez az Aspose.PDF segítségével – Teljes programozási útmutató](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+Ismerje meg, hogyan hozhat létre és helyezhet el téglalapokat PDF dokumentumokban az Aspose.PDF .NET használatával C# példákkal.
+
 ### [Hogyan rajzoljunk téglalapot PDF-ben C#‑ban – Lépésről lépésre útmutató](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
 Tanuld meg, hogyan rajzolj téglalapokat PDF dokumentumokba C#‑ban az Aspose.PDF for .NET segítségével.
 ### [Téglalap hozzáadása PDF-hez C#-ban – Teljes Aspose PDF útmutató](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
 Tanuld meg, hogyan adhatsz hozzá téglalapot PDF dokumentumokhoz C#-ban az Aspose.PDF segítségével.
-### [Téglalap hozzáadása PDF-hez az Aspose.PDF segítségével – Teljes programozási útmutató](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
-Ismerje meg, hogyan hozhat létre és helyezhet el téglalapokat PDF dokumentumokban az Aspose.PDF .NET használatával C# példákkal.
 
 ### [Egyéni PDF-bélyegzők létrehozása az Aspose.PDF segítségével .NET-ben](./create-custom-pdf-stamps-aspose-pdf-net/)
 Kód oktatóanyag az Aspose.PDF Nethez
