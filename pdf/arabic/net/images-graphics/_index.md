@@ -52,6 +52,8 @@
 
 ### [إضافة الشفافية إلى ملفات PDF باستخدام Aspose PDF في C# – دليل خطوة بخطوة](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 
+### [إضافة ExtGState مخصص إلى PDF باستخدام Aspose.PDF – دليل خطوة بخطوة](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
+
 ### [التعرف على صور PDF بكفاءة باستخدام Aspose.PDF لـ .NET](./master-image-identification-aspose-pdf-net/)
 تعرّف على كيفية تحديد صور تدرجات الرمادي وألوان RGB في ملفات PDF باستخدام Aspose.PDF لـ .NET. يغطي هذا البرنامج التعليمي التثبيت، واستخراج الصور، ونصائح الأداء.
 

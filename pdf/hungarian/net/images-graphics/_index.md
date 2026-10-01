@@ -46,6 +46,9 @@ Tanuld meg, hogyan adhatsz hozzá téglalapot PDF dokumentumokhoz C#-ban az Aspo
 ### [Egyéni PDF-bélyegzők létrehozása az Aspose.PDF segítségével .NET-ben](./create-custom-pdf-stamps-aspose-pdf-net/)
 Kód oktatóanyag az Aspose.PDF Nethez
 
+### [Egyéni ExtGState PDF hozzáadása Aspose.PDF‑vel – lépésről‑lépésre útmutató](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
+Ismerje meg, hogyan hozhat létre egyéni ExtGState beállításokat PDF-ben az Aspose.PDF .NET használatával.
+
 ### [PDF-ek létrehozása szegélykiemelésekkel az Aspose.PDF .NET használatával: Átfogó útmutató fejlesztőknek](./create-pdf-borders-highlight-aspose-pdf-net/)
 Tanulja meg, hogyan hozhat létre vizuálisan vonzó PDF dokumentumokat bekezdések kinyerésével és kiemelésével az Aspose.PDF .NET segítségével. Növelje dokumentuma olvashatóságát egyéni szegélyekkel.
 
@@ -174,6 +177,7 @@ Ismerje meg, hogyan javíthatja PDF-dokumentumait képhátterek beállításáva
 
 ### [Átlátszóság hozzáadása PDF-hez Aspose PDF használatával C#-ban – Lépésről lépésre útmutató](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Tanuld meg, hogyan adhat hozzá átlátszó elemeket PDF-dokumentumokhoz az Aspose.PDF for .NET segítségével C#-ban.
+
 ### [PDF validálása és téglalap hozzáadása – Teljes útmutató](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
 Tanulja meg, hogyan ellenőrizheti a PDF-et, és adhat hozzá téglalap alakzatot az Aspose.PDF for .NET segítségével.
 
