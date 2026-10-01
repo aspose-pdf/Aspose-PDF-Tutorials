@@ -55,6 +55,9 @@ Tutorial kode untuk Aspose.PDF Net
 ### [Menambahkan Transparansi ke PDF dengan Aspose PDF di C# – Panduan Langkah demi Langkah](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Pelajari cara menambahkan efek transparansi pada elemen PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode C#.
 
+### [Menambahkan ExtGState Kustom ke PDF dengan Aspose.PDF – Panduan Langkah demi Langkah](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
+Pelajari cara menambahkan ExtGState kustom ke PDF untuk mengontrol transparansi dan efek grafis menggunakan Aspose.PDF untuk .NET.
+
 ### [Identifikasi Gambar PDF yang Efisien dengan Aspose.PDF untuk .NET](./master-image-identification-aspose-pdf-net/)
 Pelajari cara mengidentifikasi gambar skala abu-abu dan RGB dalam PDF menggunakan Aspose.PDF untuk .NET. Tutorial ini mencakup kiat penginstalan, ekstraksi gambar, dan performa.
 
@@ -125,7 +128,7 @@ Pelajari cara menyempurnakan dokumen PDF Anda dengan membuat persegi panjang den
 Pelajari cara menghapus gambar dari file PDF secara efisien menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup pengaturan, contoh kode, dan praktik terbaik.
 
 ### [Cara Menghapus Gambar dari PDF Menggunakan Aspose.PDF .NET: Panduan Langkah demi Langkah](./delete-images-aspose-pdf-net-guide/)
-Pelajari cara menghapus gambar dari file PDF menggunakan Aspose.PDF untuk .NET. Panduan lengkap ini mencakup pengaturan, penerapan, dan aplikasi praktis.
+Pelajari cara menghapus gambar dari PDF menggunakan Aspose.PDF untuk .NET. Panduan lengkap ini mencakup pengaturan, penerapan, dan aplikasi praktis.
 
 ### [Cara Menghapus Gambar dari PDF Menggunakan Aspose.PDF untuk .NET: Panduan Lengkap](./delete-images-from-pdf-aspose-dotnet/)
 Pelajari cara menghapus semua gambar dari PDF secara efisien menggunakan Aspose.PDF for .NET, meningkatkan privasi file dan mengurangi ukuran. Ikuti panduan langkah demi langkah ini.

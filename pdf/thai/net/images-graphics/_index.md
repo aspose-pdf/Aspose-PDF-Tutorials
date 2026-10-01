@@ -177,6 +177,9 @@
 ### [วิธีตรวจสอบ PDF และเพิ่มสี่เหลี่ยม – คู่มือฉบับสมบูรณ์](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
 เรียนรู้วิธีตรวจสอบความถูกต้องของไฟล์ PDF และเพิ่มสี่เหลี่ยมลงในเอกสารด้วย Aspose.PDF สำหรับ .NET อย่างละเอียด
 
+### [เพิ่ม ExtGState ที่กำหนดเองใน PDF ด้วย Aspose.PDF – คู่มือขั้นตอนโดยละเอียด](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
+เรียนรู้วิธีการเพิ่ม ExtGState ที่กำหนดเองใน PDF ด้วย Aspose.PDF ผ่านคู่มือขั้นตอนโดยละเอียด
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)

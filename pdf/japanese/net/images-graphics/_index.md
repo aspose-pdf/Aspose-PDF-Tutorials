@@ -126,7 +126,7 @@ Aspose.PDF for .NET を使用して、PDF ファイルから画像を効率的�
 Aspose.PDF for .NET を使用してPDFファイルから画像を削除する方法を学びましょう。この包括的なガイドでは、セットアップ、実装、そして実用的なアプリケーションを網羅しています。
 
 ### [Aspose.PDF for .NET を使用して PDF から画像を削除する方法: 包括的なガイド](./delete-images-from-pdf-aspose-dotnet/)
-Aspose.PDF for .NET を使用してPDFからすべての画像を効率的に削除し、ファイルのプライバシーを強化しながらサイズを削減する方法を学びましょう。このステップバイステップガイドに従ってください。
+Aspose.PDF for .NET を使用してPDFからすべての画像を効率的に削除し、ファイルのプライバシーを強化しながらサイズを縮小する方法を学びましょう。このステップバイステップガイドに従ってください。
 
 ### [Aspose.PDF for .NET を使用して PDF ページの色を検出する方法: 包括的なガイド](./detect-pdf-page-color-aspose-dotnet/)
 Aspose.PDF for .NET を使用して、PDF の各ページのカラータイプを特定する方法を学びます。このステップバイステップのチュートリアルでは、インストール、セットアップ、そして実践的な応用方法を解説します。
@@ -178,6 +178,9 @@ Aspose.PDF for .NET を使用してPDFドキュメント内の画像を圧縮・
 
 ### [Aspose.PDF for .NET を使用して PDF に画像の背景を設定する: 包括的なガイド](./aspose-pdf-net-set-image-backgrounds/)
 Aspose.PDF for .NET を使用して画像背景を設定し、PDFドキュメントの魅力を高める方法を学びましょう。このガイドでは、セットアップ、実装、最適化のヒントを解説します。
+
+### [Aspose.PDF を使用してカスタム ExtGState PDF を追加する: ステップバイステップ ガイド](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
+Aspose.PDF を使用して、PDF にカスタム ExtGState を追加し、透明度やブレンドモードを制御する方法をステップバイステップで学びます。
 
 ## 追加リソース
 

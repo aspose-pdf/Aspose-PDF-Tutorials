@@ -182,6 +182,9 @@ Aprenda a renderizar scripts LaTeX complexos em documentos PDF usando o Aspose.P
 ### [Definir fundos de imagem em PDFs usando Aspose.PDF para .NET: um guia completo](./aspose-pdf-net-set-image-backgrounds/)
 Aprenda a aprimorar seus documentos PDF definindo fundos de imagem usando o Aspose.PDF para .NET. Este guia aborda dicas de configuração, implementação e otimização.
 
+### [Adicionar ExtGState personalizado a PDFs usando Aspose.PDF para .NET: um guia passo a passo](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
+Aprenda a criar e aplicar um ExtGState personalizado em PDFs usando Aspose.PDF para .NET, controlando transparência e outras propriedades gráficas.
+
 ## Recursos adicionais
 
 - [Aspose.PDF para documentação da Net](https://docs.aspose.com/pdf/net/)

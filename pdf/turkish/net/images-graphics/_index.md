@@ -177,6 +177,9 @@ C# ve Aspose.PDF for .NET kullanarak PDF belgelerine dikdörtgen şekilleri ekle
 ### [PDF'yi Doğrulama ve Dikdörtgen Ekleme – Tam Kılavuz](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
 Aspose.PDF for .NET kullanarak PDF dosyalarını doğrulama ve üzerine dikdörtgen şekli ekleme adımlarını öğrenin.
 
+### [Aspose.PDF ile Özel ExtGState PDF Ekleme: Adım Adım Kılavuz](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
+Aspose.PDF for .NET kullanarak PDF'lerde özel ExtGState nesneleri ekleyerek şeffaflık ve karışım modlarını kontrol etmeyi öğrenin.
+
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)
