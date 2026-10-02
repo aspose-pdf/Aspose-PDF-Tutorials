@@ -52,6 +52,7 @@
 | [Создать тегированный PDF в C# – Добавить заголовок и доступный текст](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Узнайте, как создать тегированный PDF в C# с заголовком и доступным текстом, используя Aspose.PDF для .NET. |
 | [Создание доступного PDF с Aspose.Pdf – пошаговое руководство](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Узнайте, как создать доступный PDF с помощью Aspose.Pdf, следуя пошаговому руководству. |  
 | [Создать тегированный PDF на C# – пошаговое руководство](./create-tagged-pdf-in-c-step-by-step-guide/) | Подробное руководство по созданию тегированного PDF в C# с использованием Aspose.PDF для .NET. |  
+| [Создать PDF-документ C# – Полное руководство с тегированным текстом и позиционированием](./create-pdf-document-c-full-guide-with-tagged-text-and-positi/) | Подробное руководство по созданию PDF-документа на C# с тегированным текстом и управлением позиционированием элементов. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

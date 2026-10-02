@@ -309,6 +309,9 @@ Aspose.PDF नेट के लिए एक कोड ट्यूटोरि�
 
 ### [Aspose.PDF .NET के साथ PDF मैनिपुलेशन के लिए अंतिम गाइड: टेक्स्ट को कुशलतापूर्वक लोड, सेव और रिप्लेस करें](./master-pdf-manipulation-aspose-pdf-net/)
 
+### [PDF में एम्बेडेड फ़ॉन्ट हटाने का तरीका – चरण‑दर‑चरण C# गाइड](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
+C# में Aspose.PDF का उपयोग करके PDF से एम्बेडेड फ़ॉन्ट को हटाने की प्रक्रिया सीखें।
+
 ### [C# के साथ Aspose PDF का उपयोग करके PDF को रीडैक्ट कैसे करें – पूर्ण गाइड](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
 C# में Aspose PDF के साथ PDF फ़ाइलों से संवेदनशील जानकारी को हटाने और ब्लैकआउट करने की पूरी प्रक्रिया सीखें।
 

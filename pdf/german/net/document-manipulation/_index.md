@@ -326,6 +326,8 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET vertrauliche Informationen in PDF
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET beschädigte PDF-Dateien in C# schnell reparieren und wiederherstellen.
 ### [Wie Sie PDF in C# mit Aspose PDF redigieren – Vollständige Anleitung](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose PDF für .NET vertrauliche Informationen in PDFs redigieren und dauerhaft entfernen.
+### [So entfernen Sie eingebettete Schriftarten aus PDF – Schritt‑für‑Schritt C#‑Leitfaden](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET eingebettete Schriftarten aus PDF-Dateien entfernen.
 
 ## Weitere Ressourcen
 

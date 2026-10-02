@@ -52,6 +52,7 @@ Los tutoriales "Programación con PDF etiquetados" de Aspose.PDF para .NET le gu
 | [Crear PDF accesible con Aspose.Pdf – Guía paso a paso](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Aprenda a crear PDFs accesibles con Aspose.Pdf mediante una guía paso a paso. |
 | [Crear PDF etiquetado en C# – Guía paso a paso](./create-tagged-pdf-in-c-step-by-step-guide/) | Aprenda a crear un PDF etiquetado en C# con Aspose.PDF para .NET siguiendo esta guía paso a paso. |
 | [Crear documento PDF – Establecer posición absoluta para texto etiquetado](./create-pdf-document-set-absolute-position-for-tagged-text/) | Aprenda a crear un documento PDF y establecer la posición absoluta del texto etiquetado usando Aspose.PDF para .NET. |
+| [Crear documento PDF en C# – Guía completa con texto etiquetado y posicionamiento](./create-pdf-document-c-full-guide-with-tagged-text-and-positi/) | Aprenda a crear documentos PDF con texto etiquetado y control de posición en C# usando Aspose.PDF para .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

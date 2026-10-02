@@ -66,6 +66,10 @@ C# 코드로 PDF를 최적화하여 파일 크기를 줄이고, 사용되지 않
 Aspose.Pdf를 사용하여 PDF 파일을 빠르게 압축하는 방법을 단계별로 안내합니다.
 ### [C#에서 PDF를 최적화하는 방법 – 파일 크기를 빠르게 줄이기](./how-to-optimize-pdf-in-c-reduce-file-size-quickly/)
 Aspose.PDF for .NET을 사용해 C#에서 PDF 파일 크기를 빠르게 줄이고 성능을 향상시키는 방법을 단계별로 안내합니다.
+### [C#에서 Aspose.Pdf를 사용하여 PDF 압축하는 방법 – 완전 단계별 가이드](./how-to-compress-pdf-with-aspose-pdf-in-c-complete-step-by-st/)
+
+### [C#에서 Aspose PDF 이미지 압축 – PDF 크기를 빠르게 줄이기](./aspose-pdf-image-compression-in-c-reduce-pdf-size-quickly/)
+C#을 사용해 Aspose PDF의 이미지 압축 기능으로 PDF 파일 크기를 신속하게 감소시키는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

@@ -52,6 +52,7 @@ Die Tutorials „Programmieren mit getaggten PDFs“ von Aspose.PDF für .NET f�
 | [Getaggtes PDF in C# erstellen – Überschrift und barrierefreien Text hinzufügen](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein getaggtes PDF in C# erstellen, eine Überschrift hinzufügen und barrierefreien Text einbinden. |
 | [Getaggtes PDF in C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-tagged-pdf-in-c-step-by-step-guide/) | Erfahren Sie in diesem Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.PDF für .NET ein getaggtes PDF in C# erstellen. |  
 | [PDF-Dokument erstellen – Absolute Position für getaggten Text](./create-pdf-document-set-absolute-position-for-tagged-text/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF-Dokument erstellen und getaggten Text an einer absoluten Position platzieren. |
+| [PDF-Dokument in C# erstellen – Vollständige Anleitung mit getaggtem Text und Positionierung](./create-pdf-document-c-full-guide-with-tagged-text-and-positi/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF in C# erstellen, getaggten Text hinzufügen und Elemente positionieren. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

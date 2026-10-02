@@ -48,6 +48,7 @@ Aspose.PDF for .NET 的「使用標記 PDF 進行程式設計」教學課程將�
 | [在 C# 中建立標記 PDF – 完整步驟指南](./create-tagged-pdf-in-c-complete-step-by-step-guide/) |透過完整步驟指南，使用 C# 建立標記 PDF，提升文件可存取性與結構。 |  
 | [在 C# 中建立標記 PDF – Aspose PDF 完整指南](./create-tagged-pdf-in-c-aspose-pdf-complete-guide/) |透過完整步驟指南，使用 C# 建立符合 PDF/UA 標準的標記 PDF，提升文件可存取性。 |  
 | [在 C# 中建立標記 PDF – 步驟指南](./create-tagged-pdf-in-c-step-by-step-guide/) |透過步驟指南，使用 C# 建立標記 PDF，提升文件可存取性與結構。 |  
+| [在 C# 中建立 PDF 文件 – 完整指南，含標記文字與定位](./create-pdf-document-c-full-guide-with-tagged-text-and-positi/) |透過本完整步驟指南，使用 C# 建立帶有標記文字與精確定位的 PDF 文件，提升可存取性與排版控制。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

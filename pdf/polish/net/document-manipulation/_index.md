@@ -331,6 +331,9 @@ Dowiedz się, jak w C# szybko naprawić uszkodzone pliki PDF przy użyciu Aspose
 ### [Jak redagować plik PDF w C# przy użyciu Aspose PDF – Kompletny przewodnik](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
 Dowiedz się, jak usuwać wrażliwe informacje z dokumentów PDF przy użyciu Aspose PDF w C# w tym kompletnym przewodniku.
 
+### [Jak usunąć osadzone czcionki PDF – przewodnik krok po kroku w C#](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
+Dowiedz się, jak usunąć osadzone czcionki z plików PDF przy użyciu Aspose.PDF dla .NET w języku C#.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

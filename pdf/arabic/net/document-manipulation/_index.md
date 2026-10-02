@@ -77,6 +77,9 @@
 ### [تحسين كفاءة ملفات PDF: إزالة الكائنات غير المستخدمة باستخدام Aspose.PDF لـ .NET](./optimize-pdf-aspose-pdf-net-remove-unused-objects/)
 تعرف على كيفية تحسين ملفات PDF عن طريق إزالة الكائنات غير المستخدمة باستخدام Aspose.PDF لـ .NET، مما يؤدي إلى تحسين حجم الملف والأداء.
 
+### [كيفية إزالة الخطوط المدمجة من ملفات PDF – دليل خطوة بخطوة بلغة C#](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
+تعرف على كيفية إزالة الخطوط المدمجة من ملفات PDF باستخدام Aspose.PDF لـ .NET مع مثال عملي بلغة C#.
+
 ### [معالجة صفحات PDF بكفاءة باستخدام Aspose.PDF لـ .NET: دليل المطور](./manipulate-pdf-pages-aspose-dot-net/)
 تعلم كيفية التعامل بكفاءة مع صفحات PDF باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل التدوير والتكبير/التصغير وضبط الأصول دون الحاجة إلى Adobe Acrobat.
 

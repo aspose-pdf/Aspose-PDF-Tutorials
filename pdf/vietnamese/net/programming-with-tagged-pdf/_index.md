@@ -48,6 +48,7 @@ Hướng dẫn "Lập trình với PDF được gắn thẻ" của Aspose.PDF ch
 | [Tạo PDF được gắn thẻ trong C# – Hướng dẫn chi tiết từng bước](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Học cách tạo PDF được gắn thẻ trong C# bằng Aspose.PDF cho .NET qua hướng dẫn chi tiết từng bước. |  
 | [Tạo PDF được gắn thẻ trong C# – Hướng dẫn toàn diện Aspose PDF](./create-tagged-pdf-in-c-aspose-pdf-complete-guide/) | Học cách tạo PDF được gắn thẻ trong C# bằng Aspose.PDF cho .NET qua hướng dẫn toàn diện. |  
 | [Tạo PDF được gắn thẻ trong C# – Hướng dẫn chi tiết từng bước](./create-tagged-pdf-in-c-step-by-step-guide/) | Học cách tạo PDF được gắn thẻ trong C# bằng Aspose.PDF cho .NET qua hướng dẫn chi tiết từng bước. |  
+| [Tạo tài liệu PDF C# – Hướng dẫn đầy đủ với văn bản được gắn thẻ và định vị](./create-pdf-document-c-full-guide-with-tagged-text-and-positi/) | Hướng dẫn chi tiết cách tạo tài liệu PDF bằng C# với văn bản gắn thẻ và định vị các phần tử trong Aspose.PDF cho .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -325,6 +325,8 @@ Aspose.PDF Net 程式碼教學
 
 ### [使用 Aspose.PDF 從 PDF 中移除字體 – 步驟指南](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
 了解如何使用 Aspose.PDF for .NET 從 PDF 文件中移除嵌入字體，以減少檔案大小並優化文件。
+### [如何在 PDF 中移除嵌入字型 – 步驟式 C# 教學](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中移除 PDF 檔案的嵌入字型，以減少檔案大小並優化效能。
 
 ## 其他資源
 

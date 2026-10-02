@@ -69,6 +69,11 @@ Panduan singkat untuk mengompres file PDF menggunakan Aspose.PDF, meningkatkan k
 ### [Cara Mengoptimalkan PDF di C# – Mengurangi Ukuran File dengan Cepat](./how-to-optimize-pdf-in-c-reduce-file-size-quickly/)
 Pelajari cara mengurangi ukuran file PDF secara cepat menggunakan Aspose.PDF di C# dengan teknik pengoptimalan efisien.
 
+### [Cara Mengompres PDF dengan Aspose.PDF di C# – Panduan Lengkap Langkah demi Langkah](./how-to-compress-pdf-with-aspose-pdf-in-c-complete-step-by-st/)
+
+### [Kompresi Gambar Aspose PDF di C# – Kurangi Ukuran PDF dengan Cepat](./aspose-pdf-image-compression-in-c-reduce-pdf-size-quickly/)
+Pelajari cara mengompresi gambar dalam PDF menggunakan Aspose.PDF di C# untuk mengurangi ukuran file secara signifikan dan meningkatkan kecepatan pemrosesan.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

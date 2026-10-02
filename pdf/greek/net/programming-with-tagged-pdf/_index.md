@@ -53,6 +53,7 @@
 | [Δημιουργία PDF με ετικέτες σε C# – Οδηγός βήμα προς βήμα](./create-tagged-pdf-in-c-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε PDF με ετικέτες χρησιμοποιώντας C# και το Aspose.PDF για .NET σε αυτόν τον αναλυτικό οδηγό βήμα προς βήμα. |
 | [Δημιουργία εγγράφου PDF – Ορισμός απόλυτης θέσης για κείμενο με ετικέτα](./create-pdf-document-set-absolute-position-for-tagged-text/) | Μάθετε πώς να ορίσετε απόλυτη θέση για κείμενο με ετικέτες σε έγγραφο PDF χρησιμοποιώντας Aspose.PDF για .NET. |
 
+| [Δημιουργία εγγράφου PDF C# – Πλήρης οδηγός με ετικετοποιημένο κείμενο και τοποθέτηση](./create-pdf-document-c-full-guide-with-tagged-text-and-positi/) | Μάθετε πώς να δημιουργήσετε PDF με ετικετοποιημένο κείμενο και ακριβή τοποθέτηση στοιχείων χρησιμοποιώντας C# και Aspose.PDF για .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -284,6 +284,10 @@ Naučte se, jak v C# pomocí Aspose.PDF skrýt citlivý text a odstranit obsah z
 Naučte se, jak zvládnout manipulaci s PDF pomocí Aspose.PDF pro .NET. Tato příručka se zabývá načítáním, ukládáním a nahrazováním textu v PDF souborech, což je ideální pro vývojáře, kteří hledají efektivitu.
 
 ### [Jak zploštit PDF pomocí Aspose.PDF – Kompletní průvodce](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+### [Jak odstranit vložená písma v PDF – krok‑po‑kroku průvodce C#](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
+Naučte se, jak pomocí Aspose.PDF pro .NET v C# odstranit vložená písma z PDF souborů.
+
+## Další zdroje
 
 ### [Jak porovnat PDF soubory pomocí Aspose – krok za krokem průvodce](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
 Naučte se, jak porovnat PDF dokumenty pomocí Aspose v podrobném krok za krokem průvodci.

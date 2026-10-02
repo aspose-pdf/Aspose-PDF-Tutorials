@@ -66,6 +66,12 @@
 ### [Πώς να βελτιστοποιήσετε PDF σε C# – Μειώστε το μέγεθος αρχείου γρήγορα](./how-to-optimize-pdf-in-c-reduce-file-size-quickly/)
 Μάθετε πώς να μειώσετε γρήγορα το μέγεθος των αρχείων PDF σε C# με το Aspose.PDF, βελτιώνοντας την απόδοση και την αποθήκευση.
 
+### [Πώς να συμπιέσετε PDF με το Aspose.Pdf σε C# – Πλήρης Οδηγός Βήμα προς Βήμα](./how-to-compress-pdf-with-aspose-pdf-in-c-complete-step-by-st/)
+Μάθετε πώς να συμπιέζετε αρχεία PDF χρησιμοποιώντας το Aspose.Pdf σε C#, βήμα προς βήμα, για μικρότερο μέγεθος και καλύτερη απόδοση.
+
+### [Συμπίεση εικόνας Aspose PDF σε C# – Μειώστε το μέγεθος PDF γρήγορα](./aspose-pdf-image-compression-in-c-reduce-pdf-size-quickly/)
+Μάθετε πώς να συμπιέζετε εικόνες σε PDF με Aspose.PDF σε C#, μειώνοντας γρήγορα το μέγεθος του αρχείου.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.PDF για τεκμηρίωση δικτύου](https://docs.aspose.com/pdf/net/)

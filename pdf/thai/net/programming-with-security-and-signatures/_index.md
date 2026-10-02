@@ -47,6 +47,10 @@
 - [เพิ่มลายเซ็นดิจิทัล PDF ใน C# – คู่มือขั้นตอนเต็ม](./add-digital-signature-pdf-in-c-complete-step-by-step-guide/) | เรียนรู้วิธีเพิ่มลายเซ็นดิจิทัลในไฟล์ PDF ด้วย C# อย่างละเอียดโดยใช้ Aspose.PDF สำหรับ .NET พร้อมขั้นตอนครบถ้วน  
 - [ตรวจสอบลายเซ็นดิจิทัล PDF – คู่มือ C# ฉบับสมบูรณ์](./validate-pdf-digital-signature-complete-c-guide/) | เรียนรู้วิธีตรวจสอบลายเซ็นดิจิทัลของไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือ C# อย่างละเอียด  
 - [ตรวจสอบลายเซ็น PDF ใน C# – คู่มือฉบับสมบูรณ์](./validate-pdf-signature-in-c-complete-guide/) | เรียนรู้วิธีตรวจสอบและยืนยันลายเซ็นดิจิทัลของไฟล์ PDF ด้วย C# และ Aspose.PDF สำหรับ .NET อย่างละเอียด -  
+- [ตรวจสอบลายเซ็น PDF ใน C# – คู่มือขั้นตอนเต็ม](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | เรียนรู้วิธีตรวจสอบลายเซ็น PDF อย่างละเอียดใน C# ด้วย Aspose.PDF สำหรับ .NET ตามขั้นตอนที่ชัดเจน  
+- [ตรวจสอบลายเซ็น PDF ด้วย Aspose.Pdf – คู่มือฉบับสมบูรณ์](./check-pdf-signatures-with-aspose-pdf-complete-guide/) | เรียนรู้วิธีตรวจสอบและยืนยันลายเซ็นดิจิทัลในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียดและครบถ้วน
+- [สร้าง PKCS7 Detached Signer ใน C# – คู่มือฉบับสมบูรณ์](./create-pkcs7-detached-signer-in-c-complete-guide/) | เรียนรู้วิธีสร้าง PKCS7 Detached Signer ใน C# ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียดและครบถ้วน
+- [ดึงชื่อลายเซ็น PDF ด้วย Aspose.PDF ใน C#](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | เรียนรู้วิธีดึงชื่อของลายเซ็นในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ด้วย C# -
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

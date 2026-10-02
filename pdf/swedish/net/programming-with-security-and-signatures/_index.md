@@ -49,6 +49,10 @@ Handledningen ger dig en detaljerad översikt över metoder och tekniker för at
 | [PDF-signaturhandledning – Verifiera och validera PDF-signaturer i C#](./pdf-signature-tutorial-verify-and-validate-pdf-signatures-in/) | Lär dig hur du verifierar och validerar PDF-signaturer i C# med Aspose.PDF för .NET. |
 | [Hur man verifierar PDF-signatur i C# – Komplett guide](./how-to-verify-pdf-signature-in-c-complete-guide/) | Lär dig steg för steg hur du verifierar PDF-signaturer i C# med Aspose.PDF för .NET. |
 | [Validera PDF-signatur i C# – Komplett guide](./validate-pdf-signature-in-c-complete-guide/) | Lär dig hur du validerar PDF-signaturer med Aspose.PDF för .NET i C#. En steg-för-steg-guide för att säkerställa signaturens äkthet. |
+| [Kontrollera PDF-signaturer med Aspose.Pdf – Komplett guide](./check-pdf-signatures-with-aspose-pdf-complete-guide/) | Lär dig hur du kontrollerar och verifierar PDF-signaturer med Aspose.Pdf i en komplett guide. |
+| [Validera PDF-signatur i C# – Komplett steg‑för‑steg‑guide](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | Lär dig hur du validerar PDF-signaturer med Aspose.PDF för .NET i C#. |
+| [Skapa PKCS7 fristående signerare i C# – Komplett guide](./create-pkcs7-detached-signer-in-c-complete-guide/) | Lär dig hur du skapar en PKCS7 fristående signatur i C# med Aspose.PDF för .NET. |
+| [Hämta PDF-signaturnamn med Aspose.PDF i C#](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | Lär dig hur du extraherar namn på digitala signaturer från PDF-dokument med Aspose.PDF för .NET i C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

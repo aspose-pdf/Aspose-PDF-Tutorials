@@ -329,6 +329,8 @@ Aspose.PDF Net 代码教程
 
 ### [如何在 C# 中修复 PDF – 快速修复损坏的 PDF 文件](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中快速修复损坏的 PDF 文件，步骤简明易懂。
+### [如何在 PDF 中删除嵌入式字体 – 步骤详解 C# 指南](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中删除 PDF 的嵌入式字体，以减小文件大小并优化文档。
 
 ## 其他资源
 

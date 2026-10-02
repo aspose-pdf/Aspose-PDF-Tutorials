@@ -51,6 +51,10 @@ Az oktatóanyag részletes áttekintést nyújt a PDF-fájlok titkosságának é
 | [PDF aláírások olvasása – Teljes C# útmutató](./how-to-read-signatures-in-a-pdf-complete-c-guide/) | Ismerje meg, hogyan olvashatja ki a PDF aláírásait C#-ban az Aspose.PDF for .NET segítségével, részletes lépésről-lépésre útmutatóval. |
 | [PDF aláírási oktatóanyag – PDF aláírások ellenőrzése és érvényesítése C#-ban](./pdf-signature-tutorial-verify-and-validate-pdf-signatures-in/) | Ismerje meg, hogyan ellenőrizheti és érvényesítheti a PDF aláírásokat C#-ban az Aspose.PDF for .NET segítségével. |
 | [PDF aláírás ellenőrzése C#-ban – Teljes útmutató](./validate-pdf-signature-in-c-complete-guide/) | Ismerje meg, hogyan ellenőrizheti a PDF aláírásokat C#-ban az Aspose.PDF for .NET használatával, lépésről lépésre útmutató. |
+| [PDF aláírások ellenőrzése – Teljes útmutató Aspose.Pdf-val](./check-pdf-signatures-with-aspose-pdf-complete-guide/) | Ismerje meg, hogyan ellenőrizheti a PDF aláírásokat az Aspose.Pdf segítségével részletes, lépésről‑lépésre útmutatóban. |
+| [PKCS7 leválasztott aláíró létrehozása C#-ban – Teljes útmutató](./create-pkcs7-detached-signer-in-c-complete-guide/) | Ismerje meg, hogyan hozhat létre PKCS7 leválasztott aláírót C#-ban az Aspose.PDF for .NET segítségével. |
+| [PDF aláírásnevek lekérése Aspose.PDF használatával C#-ban](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | Ismerje meg, hogyan kérheti le a PDF aláírások neveit C#-ban az Aspose.PDF segítségével. |
+| [PDF aláírás ellenőrzése C#‑ban – Teljes lépésről‑lépésre útmutató](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | Ismerje meg, hogyan ellenőrizheti a PDF aláírásokat C#‑ban az Aspose.PDF for .NET segítségével, részletes lépésről‑lépésre útmutatóban. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

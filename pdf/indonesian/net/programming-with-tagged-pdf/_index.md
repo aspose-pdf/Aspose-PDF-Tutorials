@@ -51,6 +51,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Buat PDF yang Dapat Diakses dengan Aspose.Pdf – Panduan Langkah demi Langkah](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Pelajari cara membuat PDF yang dapat diakses menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. |
 | [Buat PDF yang Ditandai dalam C# – Panduan Langkah demi Langkah](./create-tagged-pdf-in-c-step-by-step-guide/) | Pelajari cara membuat PDF yang ditandai menggunakan Aspose.PDF untuk .NET dengan C# dalam panduan langkah demi langkah ini. |  
 | [Buat Dokumen PDF – Atur Posisi Absolut untuk Teks yang Ditandai](./create-pdf-document-set-absolute-position-for-tagged-text/) | Pelajari cara membuat dokumen PDF dan mengatur posisi absolut untuk teks yang ditandai menggunakan Aspose.PDF untuk .NET. |  
+| [Buat Dokumen PDF C# – Panduan Lengkap dengan Teks yang Ditandai dan Penempatan](./create-pdf-document-c-full-guide-with-tagged-text-and-positi/) | Pelajari cara membuat dokumen PDF dengan teks yang ditandai dan penempatan elemen menggunakan Aspose.PDF untuk .NET dalam panduan lengkap langkah demi langkah. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

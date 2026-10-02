@@ -329,6 +329,9 @@
 ### [Удалить шрифт из PDF с помощью Aspose – пошаговое руководство](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
 Узнайте, как удалить шрифт из PDF‑файла с помощью Aspose.PDF для .NET, следуя подробным шагам.
 
+### [Как удалить встроенные шрифты PDF – пошаговое руководство C#](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
+Узнайте, как удалить встроенные шрифты из PDF-файлов с помощью Aspose.PDF для .NET, следуя пошаговому руководству на C#.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.PDF для сети](https://docs.aspose.com/pdf/net/)

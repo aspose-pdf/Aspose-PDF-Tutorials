@@ -323,6 +323,8 @@ Pelajari cara menyensor konten sensitif dalam file PDF menggunakan Aspose PDF un
 Pelajari cara membandingkan file PDF secara akurat menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini.
 ### [Menghapus Font dari PDF dengan Aspose – Panduan Langkah demi Langkah](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
 Pelajari cara menghapus font dari file PDF secara programatis menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah.
+### [Cara Menghapus Font Tersemat pada PDF – Panduan Langkah demi Langkah C#](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
+Pelajari cara menghapus font tersemat dari file PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode C# yang jelas.
 
 ## Sumber Daya Tambahan
 

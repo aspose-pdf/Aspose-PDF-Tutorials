@@ -309,6 +309,8 @@ Apprenez à fractionner des PDF multipages et à créer de nouveaux fichiers PDF
 
 ### [Guide ultime de manipulation de PDF avec Aspose.PDF .NET : charger, enregistrer et remplacer du texte efficacement](./master-pdf-manipulation-aspose-pdf-net/)
 Apprenez à maîtriser la manipulation des PDF avec Aspose.PDF pour .NET. Ce guide couvre le chargement, l'enregistrement et le remplacement de texte dans les PDF, idéal pour les développeurs en quête d'efficacité.
+### [Comment supprimer les polices intégrées d'un PDF – Guide étape par étape C#](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
+Apprenez à supprimer les polices intégrées d'un fichier PDF en C# avec Aspose.PDF, étape par étape.
 
 ### [Comment aplatir un PDF avec Aspose.PDF – Guide complet](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
 Apprenez à aplatir les PDF pour les rendre non modifiables en utilisant Aspose.PDF avec ce guide complet.

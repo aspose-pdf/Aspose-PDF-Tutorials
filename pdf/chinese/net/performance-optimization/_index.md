@@ -66,6 +66,11 @@
 了解如何使用 Aspose.PDF 快速压缩 PDF 文件，以减小文件大小并提升加载速度。
 ### [如何在 C# 中优化 PDF – 快速减小文件大小](./how-to-optimize-pdf-in-c-reduce-file-size-quickly/)
 本指南展示如何使用 Aspose.PDF for .NET 在 C# 中快速压缩 PDF，显著降低文件体积并保持质量。
+### [使用 Aspose.PDF 在 C# 中压缩 PDF 的完整分步指南](./how-to-compress-pdf-with-aspose-pdf-in-c-complete-step-by-st/)
+本指南详细演示如何在 C# 中使用 Aspose.PDF 压缩 PDF 文件，提升文件传输效率并保持质量。
+
+### [Aspose PDF 图像压缩（C#）- 快速减小 PDF 大小](./aspose-pdf-image-compression-in-c-reduce-pdf-size-quickly/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中压缩 PDF 图像，实现快速减小文件大小并提升性能。
 
 ## 其他资源
 

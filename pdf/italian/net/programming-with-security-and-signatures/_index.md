@@ -49,6 +49,10 @@ Questo tutorial offre una panoramica dettagliata di metodi e tecniche per garant
 | [Tutorial firma PDF – Verifica e convalida le firme PDF in C#](./pdf-signature-tutorial-verify-and-validate-pdf-signatures-in/) | Scopri come verificare e convalidare le firme digitali nei PDF usando C# e Aspose.PDF per .NET. Guida passo passo. |
 | [Come verificare la firma PDF in C# – Guida completa](./how-to-verify-pdf-signature-in-c-complete-guide/) | Scopri come verificare le firme PDF in C# con Aspose.PDF, passo passo per garantire l'autenticità dei documenti. |
 | [Convalida firma PDF in C# – Guida completa](./validate-pdf-signature-in-c-complete-guide/) | Scopri come convalidare le firme PDF usando C# e Aspose.PDF per .NET con una guida passo passo. |
+| [Verifica le firme PDF con Aspose.Pdf – Guida completa](./check-pdf-signatures-with-aspose-pdf-complete-guide/) | Scopri come verificare le firme PDF con Aspose.Pdf in questa guida completa passo passo. |
+| [Crea firmatario PKCS7 detached in C# – Guida completa](./create-pkcs7-detached-signer-in-c-complete-guide/) | Scopri come creare un firmatario PKCS7 detached in C# con Aspose.PDF per .NET. Guida passo passo completa. |
+| [Recupera i nomi delle firme PDF con Aspose.PDF in C#](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | Scopri come estrarre i nomi delle firme presenti in un PDF usando Aspose.PDF per .NET con C#. |
+| [Convalida firma PDF in C# – Guida completa passo passo](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | Scopri come convalidare le firme PDF in C# con Aspose.PDF, passo dopo passo, per garantire l'autenticità dei documenti. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

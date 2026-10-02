@@ -328,6 +328,8 @@ C# ve Aspose.PDF for .NET kullanarak PDF belgelerindeki hassas metinleri gizleme
 
 ### [C# ile PDF Onarma – Bozuk PDF Dosyalarını Hızlıca Düzeltin](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
 Aspose.PDF for .NET kullanarak bozuk PDF dosyalarını hızlı ve güvenli bir şekilde onarmayı öğrenin.
+### [PDF'de Gömülü Yazı Tiplerini Kaldırma – Adım Adım C# Kılavuzu](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
+Aspose.PDF for .NET kullanarak PDF dosyalarından gömülü yazı tiplerini nasıl kaldıracağınızı öğrenin. Bu adım adım kılavuzla belge boyutunu azaltın.
 
 ## Ek Kaynaklar
 

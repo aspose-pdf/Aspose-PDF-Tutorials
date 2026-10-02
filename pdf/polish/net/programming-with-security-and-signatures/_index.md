@@ -49,6 +49,10 @@ Samouczek zapewnia szczegółowy przegląd metod i technik zapewniających poufn
 | [Samouczek podpisu PDF – Weryfikacja i walidacja podpisów PDF w C#](./pdf-signature-tutorial-verify-and-validate-pdf-signatures-in/) | Dowiedz się, jak w C# weryfikować i walidować podpisy cyfrowe w dokumentach PDF przy użyciu Aspose.PDF. |
 | [Jak zweryfikować podpis PDF w C# – Kompletny przewodnik](./how-to-verify-pdf-signature-in-c-complete-guide/) | Poznaj pełny proces weryfikacji podpisu PDF w C# przy użyciu Aspose.PDF, krok po kroku. |  
 | [Sprawdź podpis PDF w C# – Kompletny przewodnik](./validate-pdf-signature-in-c-complete-guide/) | Dowiedz się, jak zweryfikować podpisy PDF w C# przy użyciu Aspose.PDF – kompletny przewodnik krok po kroku. |  
+| [Sprawdź podpisy PDF za pomocą Aspose.Pdf – Kompletny przewodnik](./check-pdf-signatures-with-aspose-pdf-complete-guide/) | Dowiedz się, jak w pełni weryfikować i odczytywać podpisy PDF przy użyciu Aspose.Pdf w języku C# – krok po kroku. |  
+| [Sprawdź poprawność podpisu PDF w C# – Kompletny przewodnik krok po kroku](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | Poznaj, jak sprawdzić ważność podpisu PDF w C# z Aspose.PDF – szczegółowy przewodnik krok po kroku. |  
+| [Utwórz odłączony podpis PKCS7 w C# – Kompletny przewodnik](./create-pkcs7-detached-signer-in-c-complete-guide/) | Dowiedz się, jak utworzyć odłączony podpis PKCS7 w C# przy użyciu Aspose.PDF dla .NET – kompletny przewodnik krok po kroku. |  
+| [Pobierz nazwy podpisów PDF za pomocą Aspose.PDF w C#](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | Dowiedz się, jak wyodrębnić nazwy podpisów PDF przy użyciu Aspose.PDF w C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

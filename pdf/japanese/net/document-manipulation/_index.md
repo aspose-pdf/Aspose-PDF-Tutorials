@@ -77,6 +77,9 @@ Aspose.PDF for .NET を使用して PDF ページをカスタマイズする方�
 ### [効率的な PDF 最適化: Aspose.PDF for .NET を使用して未使用オブジェクトを削除する](./optimize-pdf-aspose-pdf-net-remove-unused-objects/)
 Aspose.PDF for .NET を使用して未使用のオブジェクトを削除し、ファイル サイズとパフォーマンスを改善することで PDF を最適化する方法を学習します。
 
+### [Aspose.PDF for .NET を使用して PDF の埋め込みフォントを削除する – ステップバイステップ C# ガイド](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
+Aspose.PDF for .NET を使用して、PDF から埋め込みフォントを削除し、ファイルサイズを削減する方法を学びましょう。ステップバイステップで解説します。
+
 ### [Aspose.PDF for .NET による効率的な PDF ページ操作: 開発者ガイド](./manipulate-pdf-pages-aspose-dot-net/)
 Aspose.PDF for .NET を使用してPDFページを効率的に操作する方法を学びます。このガイドでは、Adobe Acrobat を使わずに回転、ズーム、原点の設定を行う方法について説明します。
 

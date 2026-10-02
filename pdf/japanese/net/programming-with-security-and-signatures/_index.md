@@ -50,6 +50,10 @@
 | [PDF 署名チュートリアル – C# で PDF 署名を検証および検証する](./pdf-signature-tutorial-verify-and-validate-pdf-signatures-in/) Aspose.PDF for .NET を使用して、C# で PDF 署名の検証と有効性確認を行う手順をステップバイステップで解説します。 |  
 | [C# で PDF 署名を検証する – 完全ガイド](./how-to-verify-pdf-signature-in-c-complete-guide/) Aspose.PDF for .NET を使用して、C# で PDF のデジタル署名を検証し、信頼性を確認する方法をステップバイステップで解説します。 |  
 | [C# で PDF 署名を検証する – 完全ガイド](./validate-pdf-signature-in-c-complete-guide/) Aspose.PDF for .NET を使用して、C# で PDF 署名の検証方法をステップバイステップで学びます。 |  
+| [Aspose.Pdf を使用した PDF 署名の確認 – 完全ガイド](./check-pdf-signatures-with-aspose-pdf-complete-guide/) Aspose.PDF for .NET を使用して、PDF のデジタル署名を検証し、署名情報を取得する方法をステップバイステップで学びます。 |  
+| [C# で PKCS7 デタッチド署名者を作成する – 完全ガイド](./create-pkcs7-detached-signer-in-c-complete-guide/) Aspose.PDF for .NET を使用して、C# で PKCS7 デタッチド署名を作成する方法をステップバイステップで学びます。 |  
+| [C# で Aspose.PDF を使用して PDF 署名名を取得する](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) Aspose.PDF for .NET を使用して、PDF の署名名を取得する方法を学びましょう。ステップバイステップのガイドです。 |  
+| [C# で PDF 署名を検証する – 完全ステップバイステップガイド](./validate-pdf-signature-in-c-complete-step-by-step-guide/) Aspose.PDF for .NET を使用して、C# で PDF のデジタル署名を検証する方法をステップバイステップで学びます。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

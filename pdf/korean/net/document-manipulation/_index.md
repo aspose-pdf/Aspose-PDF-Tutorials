@@ -313,6 +313,9 @@ Aspose.PDF for .NET을 사용하여 여러 페이지로 구성된 PDF를 분할�
 ### [Aspose.PDF .NET을 활용한 PDF 조작 완벽 가이드: 텍스트를 효율적으로 로드, 저장 및 바꾸기](./master-pdf-manipulation-aspose-pdf-net/)
 Aspose.PDF for .NET을 사용하여 PDF를 완벽하게 다루는 방법을 알아보세요. 이 가이드에서는 PDF의 텍스트 로드, 저장 및 바꾸기를 다루며, 효율성을 추구하는 개발자에게 이상적입니다.
 
+### [PDF에서 내장 폰트 제거 방법 – 단계별 C# 가이드](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
+Aspose.PDF for .NET을 사용하여 PDF에서 내장된 폰트를 제거하는 방법을 단계별로 안내합니다.
+
 ### [Aspose.PDF를 사용하여 PDF 평탄화하는 방법 – 완전 가이드](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
 
 ### [Aspose를 사용하여 PDF를 비교하는 방법 – 단계별 가이드](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)

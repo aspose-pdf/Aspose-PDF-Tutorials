@@ -325,6 +325,8 @@ Aprenda a aplanar documentos PDF, eliminando capas y anotaciones, con Aspose.PDF
 
 ### [Cómo comparar PDFs con Aspose – guía paso a paso](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
 Aprenda a comparar archivos PDF paso a paso usando Aspose.PDF para .NET.
+### [Cómo eliminar fuentes incrustadas en PDF – Guía paso a paso en C#](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
+Aprenda a eliminar fuentes incrustadas de archivos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
 
 ## Recursos adicionales
 

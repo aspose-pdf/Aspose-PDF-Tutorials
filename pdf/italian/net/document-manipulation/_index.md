@@ -325,6 +325,8 @@ Scopri come riparare rapidamente file PDF corrotti con Aspose.PDF per .NET in C#
 Scopri come rimuovere o nascondere informazioni sensibili da PDF usando Aspose PDF per .NET con C# in questa guida completa.
 ### [Rimuovere il font da PDF con Aspose – Guida passo passo](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
 Scopri come rimuovere i font da un documento PDF utilizzando Aspose.PDF per .NET con questa guida dettagliata passo passo.
+### [Come rimuovere i font incorporati nei PDF – Guida passo‑passo C#](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
+Scopri come eliminare i font incorporati dai PDF utilizzando Aspose.PDF per .NET con esempi di codice C# dettagliati.
 
 ## Risorse aggiuntive
 

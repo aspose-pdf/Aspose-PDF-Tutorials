@@ -318,6 +318,10 @@ Aprenda a dominar a manipulação de PDFs usando o Aspose.PDF para .NET. Este gu
 
 ### [Como achatar PDF com Aspose.PDF – Guia completo](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
 Aprenda a achatar PDFs, removendo interatividade e reduzindo tamanho, usando Aspose.PDF em um guia passo a passo.
+### [Como remover fontes incorporadas de PDF – Guia passo a passo em C#](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
+Aprenda a remover fontes incorporadas de PDFs usando Aspose.PDF para .NET com este guia passo a passo em C#.
+
+## Recursos adicionais
 
 ### [Como comparar PDFs com Aspose – guia passo a passo](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
 Aprenda a comparar PDFs usando Aspose passo a passo, com exemplos de código C# e dicas de melhores práticas.

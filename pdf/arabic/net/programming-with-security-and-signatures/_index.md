@@ -46,6 +46,10 @@
 | [كيفية إصلاح ملفات PDF – دليل C# كامل باستخدام Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | تعلم كيفية إصلاح ملفات PDF المتضررة باستخدام Aspose.PDF لـ .NET في دليل شامل خطوة بخطوة بلغة C#. |
 | [كيفية التحقق من توقيع PDF في C# – دليل كامل](./how-to-verify-pdf-signature-in-c-complete-guide/) | تعلم كيفية التحقق من توقيع PDF باستخدام C# و Aspose.PDF في دليل شامل خطوة بخطوة. |
 | [التحقق من توقيع PDF في C# – دليل كامل](./validate-pdf-signature-in-c-complete-guide/) | تعلم كيفية التحقق من صحة توقيع ملفات PDF باستخدام C# و Aspose.PDF خطوة بخطوة. |
+| [التحقق من توقيعات PDF باستخدام Aspose.Pdf – دليل كامل](./check-pdf-signatures-with-aspose-pdf-complete-guide/) | تعلم كيفية التحقق من توقيعات PDF باستخدام Aspose.PDF في دليل شامل خطوة بخطوة. |
+| [التحقق من توقيع PDF في C# – دليل كامل خطوة بخطوة](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | تعلم كيفية التحقق من صحة توقيع PDF باستخدام C# و Aspose.PDF في دليل شامل خطوة بخطوة. |
+| [إنشاء مُوقّع PKCS7 منفصل في C# – دليل كامل](./create-pkcs7-detached-signer-in-c-complete-guide/) | تعلم كيفية إنشاء توقيع PKCS7 منفصل في C# باستخدام Aspose.PDF لـ .NET. دليل خطوة بخطوة شامل. |
+| [استرجاع أسماء توقيعات PDF باستخدام Aspose.PDF في C#](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | تعلم كيفية استخراج أسماء التوقيعات الرقمية من ملفات PDF باستخدام Aspose.PDF في بيئة C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

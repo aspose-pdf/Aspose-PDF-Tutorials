@@ -49,6 +49,10 @@
 | [PDF 签名教程 – 在 C# 中验证和确认 PDF 签名](./pdf-signature-tutorial-verify-and-validate-pdf-signatures-in/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名并检查其完整性，确保文档安全可靠。|  
 | [在 C# 中验证 PDF 签名 – 完整指南](./how-to-verify-pdf-signature-in-c-complete-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名并检查签名完整性。分步指南帮助您确保文档安全。|  
 | [在 C# 中验证 PDF 签名 – 完整指南](./validate-pdf-signature-in-c-complete-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名的完整指南。|  
+| [使用 Aspose.Pdf 检查 PDF 签名 – 完整指南](./check-pdf-signatures-with-aspose-pdf-complete-guide/) 了解如何使用 Aspose.PDF for .NET 完整检查 PDF 签名并验证其完整性。|  
+| [在 C# 中创建 PKCS7 分离签名者 – 完整指南](./create-pkcs7-detached-signer-in-c-complete-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中创建 PKCS7 分离签名并完成完整指南。|  
+| [使用 Aspose.PDF 在 C# 中检索 PDF 签名名称](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) 了解如何使用 Aspose.PDF for .NET 在 C# 中获取 PDF 文档的签名名称，分步指南帮助您轻松提取签名信息。|  
+| [在 C# 中验证 PDF 签名 – 完整分步指南](./validate-pdf-signature-in-c-complete-step-by-step-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名并检查其完整性。完整分步指南。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

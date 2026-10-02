@@ -66,6 +66,10 @@ Scopri come salvare PDF ottimizzati in C#, riducendo le dimensioni e rimuovendo 
 Scopri come comprimere rapidamente i file PDF usando Aspose.PDF, riducendo le dimensioni senza perdere qualità.
 ### [Come ottimizzare PDF in C# – Ridurre rapidamente le dimensioni del file](./how-to-optimize-pdf-in-c-reduce-file-size-quickly/)
 Scopri come ridurre rapidamente le dimensioni dei PDF in C# usando Aspose.PDF, con esempi pratici e consigli di ottimizzazione.
+### [Come comprimere PDF con Aspose.PDF in C# – Guida completa passo‑passo](./how-to-compress-pdf-with-aspose-pdf-in-c-complete-step-by-st/)
+
+### [Compressione di immagini PDF con Aspose in C# – Riduci rapidamente le dimensioni del PDF](./aspose-pdf-image-compression-in-c-reduce-pdf-size-quickly/)
+Scopri come comprimere le immagini nei PDF con Aspose.PDF in C#, riducendo rapidamente le dimensioni dei file mantenendo la qualità.
 
 ## Risorse aggiuntive
 
