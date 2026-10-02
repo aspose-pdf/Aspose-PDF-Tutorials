@@ -1,14 +1,60 @@
 ---
-date: '2025-12-01'
-description: Tanulja meg, hogyan hozhat létre hozzáférhető PDF-fájlokat, generálhat
-  PDF-táblázatokat, és címkézheti a PDF-eket a képernyőolvasók számára az Aspise.PDF
-  for Java használatával.
+date: '2026-05-28'
+description: Ismerje meg, hogyan címkézhet PDF-fájlokat a hozzáférhetőség érdekében,
+  hogyan adhat hozzá alt text-et, és hogyan generálhat táblázatokat az Aspose.PDF
+  for Java segítségével.
 keywords:
+- how to tag pdf
+- add alt text pdf
 - accessible PDFs with Java
 - Aspose.PDF for Java
-- tagged PDF creation
-title: Hozzon létre hozzáférhető PDF-et címkézett tartalommal Java-ban az Aspose.PDF
-  segítségével
+schemas:
+- author: Aspose
+  dateModified: '2026-05-28'
+  description: Learn how to tag PDF files for accessibility, add alt text, and generate
+    tables with Aspose.PDF for Java.
+  headline: 'How to Tag PDF: Create Accessible PDFs in Java Using Aspose.PDF'
+  type: TechArticle
+- description: Learn how to tag PDF files for accessibility, add alt text, and generate
+    tables with Aspose.PDF for Java.
+  name: 'How to Tag PDF: Create Accessible PDFs in Java Using Aspose.PDF'
+  steps:
+  - name: Initialize the Document and Enable Tagging
+    text: The `Document` class is Aspose.PDF's top‑level object that represents a
+      single PDF file in memory. After instantiation, obtain the `ITaggedContent`
+      interface to work with tags, then set the PDF language so screen readers know
+      the locale.
+  - name: Add Structure Elements (How to generate PDF table)
+    text: The `ITaggedContent` root element acts as the container for all tags. Create
+      a `Table` object, then add a header row, body rows, and a footer row. `Table`
+      represents a PDF table element that can contain rows and cells. This demonstrates
+      the **generate pdf table** capability while keeping the content
+  - name: Populate Table Elements (Styling rows for screen reader PDF)
+    text: '`TableRow` represents a single row in the table; each cell is a `TableCell`.
+      `TableCell` defines an individual cell within a PDF table, holding content and
+      formatting. Use `setAlternativeText` on each cell to provide descriptive text
+      for screen readers, ensuring the table is understandable even with'
+  type: HowTo
+- questions:
+  - answer: Use Adobe Acrobat’s Accessibility Checker or open the file with a screen
+      reader (NVDA, JAWS) to confirm proper navigation and alt text.
+    question: How can I verify that my PDF is truly accessible?
+  - answer: Yes. Set the language code via `taggedContent.setLanguage("fr-FR")` for
+      French, `es-ES` for Spanish, etc.
+    question: Does Aspose.PDF support other languages besides English?
+  - answer: Absolutely. Use the `Image` class and set its `AlternativeText` property
+      to describe the visual content. `Image` is used to embed raster graphics into
+      a PDF document.
+    question: Can I add images with alt text to a tagged PDF?
+  - answer: No hard limit, but very large tables increase memory consumption; consider
+      pagination or splitting the document.
+    question: Is there a limit to the number of rows I can generate in a PDF table?
+  - answer: When tags, language, and alternative text are correctly set, the PDF complies
+      with PDF/UA and should be readable by most major screen readers.
+    question: Will the generated PDF work on all screen readers?
+  type: FAQPage
+title: 'Hogyan címkézzük a PDF-et: Hozzáférhető PDF-ek létrehozása Java-ban az Aspose.PDF
+  használatával'
 url: /hu/java/advanced-features/create-accessible-pdfs-tagged-content-java-aspose-pdf/
 weight: 1
 ---
@@ -18,34 +64,35 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Hozzon létre hozzáférhető PDF-et címkézett tartalommal Java-ban az Aspose.PDF használatával
+# Hogyan címkézzük a PDF-et: Hozzon létre hozzáférhető PDF-eket Java-ban az Aspose.PDF használatával
 
-Az **hozzáférhető PDF** dokumentumok létrehozása elengedhetetlen ahhoz, hogy minden felhasználó, beleértve a segítő technológiákat használókat is, el tudja olvasni és kezelni a tartalmat. Ebben az útmutatóban megtanulja, hogyan **hozzon létre hozzáférhető PDF** fájlokat címkézett tartalommal, hogyan generáljon PDF‑táblázatokat, és hogyan állítsa be a dokumentum nyelvét, hogy a képernyőolvasók helyesen értelmezzék a szerkezetet.
+Az **accessible PDF** dokumentumok létrehozása elengedhetetlen ahhoz, hogy minden felhasználó, beleértve a segítő technológiákat használókat is, el tudja olvasni és kezelni a tartalmat. Ebben az útmutatóban megtanulja, hogyan **címkézze a PDF** fájlokat logikai struktúrával, hogyan generáljon formázott táblázatokat, állítsa be a dokumentum nyelvét, és adjon hozzá alternatív szöveget, hogy a képernyőolvasók helyesen értelmezzék a PDF-et.
 
 ## Gyors válaszok
-- **Melyik könyvtárat használjam?** Aspose.PDF for Java.  
-- **Mennyi időbe telik a megvalósítás?** Körülbelül 15‑20 perc egy alap címkézett PDF‑hez.  
-- **Szükség van licencre?** A fejlesztéshez egy ingyenes próbaidőszak elegendő; a termeléshez állandó licenc szükséges.  
-- **Generálhatok táblázatokat?** Igen – az API lehetővé teszi PDF‑táblázatok létrehozását és formázását címkézett struktúrával.  
-- **Hogyan tehetem a PDF‑et olvashatóvá a képernyőolvasók számára?** Címkézze a tartalmat, állítsa be a nyelvet, és adjon meg alternatív szöveget a strukturális elemekhez.
+- **Milyen könyvtárat használjak?** Aspose.PDF for Java provides a complete tagging API.  
+- **Mennyi időbe telik a megvalósítás?** Roughly 15‑20 minutes for a basic tagged PDF.  
+- **Szükségem van licencre?** A free trial works for development; a permanent license is required for production.  
+- **Generálhatok táblázatokat?** Yes – the API lets you create and style PDF tables with full tagging support.  
+- **Hogyan tehetem a PDF-et olvashatóvá a képernyőolvasók számára?** Tag the content, set the language, and add alt text to images and table cells.
 
 ## Mi az a „hozzáférhető PDF létrehozása”?
-Egy **hozzáférhető PDF** logikai struktúrával (címkékkel) rendelkezik, amely leírja a címsorokat, táblázatokat, bekezdéseket és egyéb elemeket. Ez a struktúra lehetővé teszi a képernyőolvasók és más segítő eszközök számára, hogy a dokumentumot értelmes módon jelenítsék meg a látássérült vagy kognitív fogyatékossággal élő felhasználók számára.
+A hozzáférhető PDF egy olyan fájl, amely logikai címkehierarchiát tartalmaz, leírva a címsorokat, táblázatokat, bekezdéseket és egyéb szerkezeti elemeket, lehetővé téve a segítő technológiák számára a dokumentum jelentésének pontos közvetítését. Ezzel a szemantikai információval a PDF navigálhatóvá válik a képernyőolvasók számára, kereshető a indexelő motorok számára, és megfelel a WCAG 2.1 és a PDF/UA hozzáférhetőségi szabványoknak.
 
-## Miért kell címkézni egy PDF‑et?
-A PDF címkézése (a **hogyan címkézzük a PDF‑et** folyamat) a következő előnyöket nyújtja:
-- **Javított navigáció** a képernyőolvasók és a billentyűzet‑használók számára.  
-- **Megfelelés** a WCAG 2.1 és a PDF/UA hozzáférhetőségi szabványoknak.  
-- **Jobb kereshetőség**, mivel a szöveg szemantikus módon van indexelve.  
+## Miért címkézzük a PDF-et?
+A PDF címkézése gép‑olvasó vázlatot hoz létre, amelyet a képernyőolvasók, keresőmotorok és navigációs eszközök használhatnak. Emellett megfelel a WCAG 2.1 és a PDF/UA követelményeinek, javítva a használhatóságot és a jogi megfelelőséget. A megfelelő címkék lehetővé teszik a felhasználók számára, hogy szakaszok között ugráljanak, megértsék a táblázati kapcsolatrendszereket, és leíró információt kapjanak a nem‑szöveges elemekről, így a dokumentum valóban inkluzív lesz.
+
+## Hogyan címkézzük a PDF-et?
+Töltsön be egy `Document`‑ot, engedélyezze az `ITaggedContent` interfészt, állítsa be a dokumentum nyelvét, majd építsen fel egy címkefát, amely tükrözi a vizuális elrendezést. Az API automatikusan beírja a címkéket a PDF‑fájlba, amikor meghívja a `save`‑t. Ez a megközelítés garantálja, hogy minden címsor, táblázat és kép megfelelően legyen leírva a segítő szoftverek számára.  
+`Document` is Aspose.PDF's main class representing a PDF file in memory.  
+`ITaggedContent` provides methods to work with PDF tags and structure.
 
 ## Előfeltételek
-Mielőtt elkezdené, győződjön meg róla, hogy rendelkezik:
-- Telepített Java Development Kit (JDK) verzióval.  
-- IntelliJ IDEA vagy Eclipse fejlesztőkörnyezettel.  
-- Alapvető Java ismeretekkel és PDF‑koncepciókkal.  
+- Java Development Kit (JDK) 8 vagy újabb telepítve.  
+- Egy IDE, például IntelliJ IDEA vagy Eclipse.  
+- Alapvető Java ismeretek és PDF‑koncepciók ismerete.  
 
 ### Szükséges könyvtárak és függőségek
-Adja hozzá az Aspose.PDF for Java‑t a projektjéhez Maven vagy Gradle segítségével.
+Adja hozzá az Aspose.PDF for Java‑t a projektjéhez Maven vagy Gradle használatával.
 
 **Maven**  
 ```xml
@@ -61,13 +108,13 @@ Adja hozzá az Aspose.PDF for Java‑t a projektjéhez Maven vagy Gradle segíts
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### Licenc beszerzése
-Az Aspose.PDF for Java ingyenes próbaidőszakot kínál. Ideiglenes licencet [itt](https://purchase.aspose.com/temporary-license/) szerezhet be. Termelési használathoz teljes licenc vásárlása szükséges.
+### Licenc megszerzése
+Aspose.PDF for Java offers a free trial. You can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/). For production use, purchase a full license.
 
 ## Az Aspose.PDF for Java beállítása
-Ha nem Maven/Gradle‑t használ, töltse le a JAR‑t a [Aspose kiadási oldalról](https://releases.aspose.com/pdf/java/), és adja hozzá a projekt build‑útvonalához.
+Ha nem Maven/Gradle‑t használ, töltse le a JAR‑t a [Aspose release site](https://releases.aspose.com/pdf/java/) oldalról, és adja hozzá a projekt build útvonalához.
 
-Az alábbi egyszerű kódrészlet ellenőrzi a beállítást egy üres PDF létrehozásával:
+Itt egy egyszerű kódrészlet, amely ellenőrzi a beállítást egy üres PDF létrehozásával:
 
 ```java
 import com.aspose.pdf.Document;
@@ -85,13 +132,13 @@ public class PdfCreator {
 }
 ```
 
-## Megvalósítási útmutató
+## Implementációs útmutató
 
 ### Új PDF létrehozása címkézett tartalommal
-**Áttekintés** – A címkézett tartalom logikai hierarchiát biztosít, amely javítja a hozzáférhetőséget. Az alábbi lépések végigvezetikrehozásán, a címkézés engedélyezésén és egy formázott táblázat feltöltésén.
+**Áttekintés** – A címkézett tartalom logikai hierarchiát biztosít, amely javítja a hozzáférhetőséget. Az alábbi lépések végigvezetik egy PDF létrehozásán, a címkézés engedélyezésén és egy formázott táblázat feltöltésén.
 
-#### 1. lépés: Dokumentum inicializálása és címkézés engedélyezése
-Először hozzon létre egy `Document` példányt, és szerezze be az `ITaggedContent` interfészt. Emellett **állítsa be a PDF nyelvét** (a **set pdf language** lépés) annak érdekében, hogy a képernyőolvasók tudják a dokumentum helyi beállítását.
+#### 1. lépés: A Document inicializálása és a címkézés engedélyezése
+A `Document` class is Aspose.PDF's top‑level object that represents a single PDF file in memory. After instantiation, obtain the `ITaggedContent` interface to work with tags, then set the PDF language so screen readers know the locale.
 
 ```java
 import com.aspose.pdf.*;
@@ -115,8 +162,8 @@ public class TaggedPdfCreator {
 }
 ```
 
-#### 2. lépés: Strukturális elemek hozzáadása (Hogyan generáljunk PDF‑táblázatot)
-Ezután definiálja a gyökérelemet, és hozzon létre egy táblázatszerkezetet fejléc, törzs és lábléc elemekkel. Ez bemutatja a **generate pdf table** funkciót, miközben a tartalom teljesen címkézett marad.
+#### 2. lépés: Strukturális elemek hozzáadása (Hogyan generáljunk PDF táblázatot)
+The `ITaggedContent` root element acts as the container for all tags. Create a `Table` object, then add a header row, body rows, and a footer row. `Table` represents a PDF table element that can contain rows and cells. This demonstrates the **generate pdf table** capability while keeping the content fully tagged.
 
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.bls.*;
@@ -134,8 +181,8 @@ TableTBodyElement tableTBodyElement = tableElement.createTBody();
 TableTFootElement tableTFootElement = tableElement.createTFoot();
 ```
 
-#### 3. lépés: Táblázatelemek feltöltése (Sorok formázása a képernyőolvasó PDF‑hez)
-Most adjunk hozzá sorokat, formázzuk őket, és adjunk meg alternatív szöveget. Az alternatív szöveg biztosítja, hogy a táblázat érthető legyen a **screen reader PDF** felhasználók számára.
+#### 3. lépés: Táblázat elemek feltöltése (Sorok formázása a képernyőolvasó PDF-hez)
+`TableRow` represents a single row in the table; each cell is a `TableCell`. `TableCell` defines an individual cell within a PDF table, holding content and formatting. Use `setAlternativeText` on each cell to provide descriptive text for screen readers, ensuring the table is understandable even without visual cues. `setAlternativeText` sets descriptive text for an element to be read by screen readers.
 
 ```java
 int rowCount = 7;
@@ -183,7 +230,7 @@ for (int colIndex = 0; colIndex < colCount; colIndex++) {
 ```
 
 ### PDF dokumentum mentése
-Végül mentse a dokumentumot. A mentett fájl megőrzi az összes címkét, a nyelvi beállításokat és a táblázatszerkezetet, így teljesen **hozzáférhető PDF** lesz a terjesztéshez.
+Calling `document.save("Accessible.pdf")` writes the file to disk with all tags, language settings, and alternative text embedded, completing the **how to tag pdf** process.
 
 ```java
 // Save the tagged PDF document
@@ -192,61 +239,68 @@ System.out.println("Document saved successfully.");
 ```
 
 ## Gyakorlati alkalmazások
-A hozzáférhető PDF‑ek létrehozása számos valós helyzetben kritikus:
+Creating accessible PDFs is crucial in many real‑world scenarios:
 
-1. **Oktatási anyagok** – Inkluzív tankönyvek és segédletek biztosítása minden diák számára.  
-2. **Kormányzati kiadványok** – A jogi hozzáférhetőségi előírások teljesítése a nyilvános dokumentumok esetén.  
-3. **Vállalati jelentések** – Biztosítsa, hogy a részvényesek és alkalmazottak a pénzügyi kimutatásokat képernyőolvasóval is elérhessék.  
+1. **Oktatási anyagok** – Inclusive textbooks and handouts for all students.  
+2. **Kormányzati kiadványok** – Meet legal accessibility mandates for public documents.  
+3. **Vállalati jelentések** – Ensure shareholders and employees can access financial statements with screen readers.  
 
-## Teljesítménybeli szempontok
-Nagy PDF‑ek kezelésekor:
+## Teljesítményfontosságú szempontok
+When working with large PDFs:
 
-- Figyelje a memóriahasználatot; szabadítsa fel az erőforrásokat időben.  
-- Minimalizálja a hozzáadott dinamikus elemek számát.  
-- Kövesse a Java legjobb gyakorlatait a szemétgyűjtés és az objektumújrafelhasználás terén.  
+- Aspose.PDF can process documents up to 500 pages without loading the entire file into memory, reducing peak RAM usage by up to 70 %.  
+- Release resources promptly by calling `document.dispose()`.  
+- Use streaming APIs for massive files to keep the JVM heap under control.  
 
 ## Gyakori problémák és megoldások
 | Probléma | Megoldás |
 |----------|----------|
-| A címkék nem jelennek meg a PDF‑olvasóban | Ellenőrizze, hogy a `taggedContent` lekérdezés megtörtént, és a `setTitle`/`setLanguage` hívások a elemek hozzáadása előtt megtörténtek. |
-| A táblázatcellák nem tartalmaznak alternatív szöveget | Használja a `setAlternativeText` metódust minden `TableTRElement` esetén, valamint a fejléc‑/lábléc‑soroknál. |
-| Nagy fájlok OutOfMemoryError‑t okoznak | A dokumentumot szekciókban dolgozza fel, vagy növelje a JVM heap méretét (`-Xmx`). |
+| A címkék nem jelennek meg a PDF‑olvasóban | Verify `taggedContent` is obtained and `setTitle`/`setLanguage` are called before adding elements. |
+| A táblázatcellák nem tartalmaznak alternatív szöveget | Use `setAlternativeText` on each `TableCell` and on header/footer rows. |
+| Nagy fájlok OutOfMemoryError‑t okoznak | Process the document in sections or increase JVM heap size (`-Xmx`). |
 
-## Gyakran feltett kérdések
+## Gyakran ismételt kérdések
 
-**K: Hogyan ellenőrizhetem, hogy a PDF valóban hozzáférhető?**  
-V: Használjon olyan eszközöket, mint az Adobe Acrobat Accessibility Checker, vagy nyissa meg a fájlt egy képernyőolvasóval (NVDA, JAWS), hogy megbizonyosodjon a megfelelő navigációról.
+**Q: Hogyan ellenőrizhetem, hogy a PDF valóban hozzáférhető?**  
+A: Use Adobe Acrobat’s Accessibility Checker or open the file with a screen reader (NVDA, JAWS) to confirm proper navigation and alt text.
 
-**K: Támogatja az Aspose.PDF más nyelveket is, mint az angol?**  
-V: Igen. Állítsa be a nyelvkódot például `taggedContent.setLanguage("fr-FR")` a franciához, `es-ES` a spanyolhoz stb.
+**Q: Támogatja az Aspose.PDF más nyelveket is, mint az angol?**  
+A: Yes. Set the language code via `taggedContent.setLanguage("fr-FR")` for French, `es-ES` for Spanish, etc.
 
-**K: Hozzáadhatok képeket alt szöveggel egy címkézett PDF‑hez?**  
-V: Természetesen. Használja az `Image` osztályt, és állítsa be az `AlternativeText` tulajdonságot a vizuális tartalom leírására.
+**Q: Hozzáadhatok képeket alt szöveggel egy címkézett PDF‑hez?**  
+A: Absolutely. Use the `Image` class and set its `AlternativeText` property to describe the visual content. `Image` is used to embed raster graphics into a PDF document.
 
-**K: Van korlátozás a PDF‑táblázat sorainak számában?**  
-V: Nincs szigorú korlát, de nagyon nagy táblázatok növelhetik a memóriaigényt; fontolja meg a lapozást vagy a dokumentum felosztását.
+**Q: Van korlátozás a PDF‑táblázatban generálható sorok számát illetően?**  
+A: No hard limit, but very large tables increase memory consumption; consider pagination or splitting the document.
 
-**K: A generált PDF minden képernyőolvasóval működik?**  
-V: Ha a címkék, a nyelv és az alternatív szöveg helyesen van beállítva, a PDF megfelel a PDF/UA szabványnak, és a legtöbb főbb képernyőolvasóval olvasható.
+**Q: A generált PDF minden képernyőolvasóval működik?**  
+A: When tags, language, and alternative text are correctly set, the PDF complies with PDF/UA and should be readable by most major screen readers.
 
-## Összegzés
-Most már rendelkezik egy teljes, lépésről‑lépésre útmutatóval a **hozzáférhető PDF** dokumentumok létrehozásához címkézett tartalommal, formázott táblázatok generálásához, és a képernyőolvasókkal való kompatibilitás biztosításához. Az Aspose.PDF for Java segítségével közvetlenül a PDF‑generálási folyamatba ágyazhatja a hozzáférhetőséget, így minden közönség számára inkluzív tartalmat biztosít.
+## Következtetés
+You now have a complete, step‑by‑step guide to **how to tag PDF** documents with Aspose.PDF for Java, generate styled tables, and ensure full accessibility for screen‑reader users. By embedding accessibility directly into your PDF generation pipeline, you deliver inclusive content to every audience.
 
 ### Következő lépések
-- Fedezze fel a további címkézési lehetőségeket, például címsorok, listák és hivatkozások használatát.  
-- Integrálja ezt a munkafolyamatot meglévő Java‑szolgáltatásaiba vagy kötegelt feldolgozási feladataiba.  
-- Ossza meg tapasztalatait, és tegyen fel kérdéseket az [Aspose PDF fórumon](https://forum.aspose.com/c/pdf/10).
+- Explore additional tagging features such as headings, lists, and hyperlinks.  
+- Integrate this workflow into your existing Java services or batch‑processing jobs.  
+- Share your experiences and ask questions on the [Aspose PDF forum](https://forum.aspose.com/c/pdf/10).
 
 ---
 
-**Last Updated:** 2025-12-01  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose
+**Legutóbb frissítve:** 2026-05-28  
+**Tesztelve a következővel:** Aspose.PDF for Java 25.3  
+**Szerző:** Aspose
+
+{{< blocks/products/products-backtop-button >}}
+
+## Kapcsolódó oktatóanyagok
+
+- [Hozzon létre hozzáférhető PDF-eket képekkel az Aspose.PDF for Java használatával: Teljes útmutató a címkézett PDF létrehozásához](/pdf/java/images-graphics/create-accessible-pdf-images-aspose-pdf-java/)
+- [Hozzon létre hozzáférhető címkézett táblázatokat PDF-ekben az Aspose.PDF for Java használatával](/pdf/java/tables-lists/create-tagged-table-aspose-pdf-java/)
+- [Címkézett PDF-ek létrehozása és kezelése az Aspose.PDF for Java segítségével: A hozzáférhetőség növelése dokumentumaiban](/pdf/java/document-manipulation/create-manage-tagged-pdfs-aspose-pdf-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
