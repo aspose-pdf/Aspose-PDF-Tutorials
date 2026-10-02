@@ -16,7 +16,6 @@
 Maîtrisez la manipulation de documents PDF grâce à nos tutoriels détaillés Aspose.PDF .NET. Ces guides pas à pas expliquent comment gérer la structure des documents, modifier des PDF existants, fractionner et fusionner des documents, ajouter et supprimer des pages, et organiser votre contenu PDF par programmation. Chaque tutoriel comprend des exemples de code C# fonctionnels, des notes d'implémentation et des bonnes pratiques pour vous aider à créer des applications manipulant efficacement des documents PDF avec un code propre et maintenable.
 
 ## Tutoriels disponibles
-
 ### [Ajouter des horodatages aux fichiers PDF à l'aide d'Aspose.PDF pour .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 Découvrez comment ajouter efficacement des horodatages et des annotations à vos documents PDF avec Aspose.PDF pour .NET. Améliorez la gestion de vos documents grâce à ces étapes faciles à suivre.
 
@@ -296,8 +295,36 @@ Apprenez à faire pivoter efficacement des pages PDF et à récupérer leurs dim
 ### [Faire pivoter des pages PDF avec Aspose.PDF dans .NET : Guide du développeur](./rotate-pdf-pages-aspose-pdf-dotnet/)
 Apprenez à faire pivoter des pages PDF avec Aspose.PDF pour .NET. Ce guide explique la rotation de pages spécifiques par degrés et inclut des exemples de code pour une manipulation efficace des documents.
 
+### [Diviser des pages PDF à partir d'une page spécifique à l'aide de .NET Streams et d'Aspose.PDF](./split-pdf-pages-with-net-streams-aspose-pdf/)
+Découvrez comment diviser efficacement les fichiers PDF d'une page spécifique à l'aide de flux .NET avec Aspose.PDF, améliorant ainsi la gestion des documents dans vos applications.
+
+### [Diviser des pages PDF en fichiers individuels avec Aspose.PDF .NET (tutoriel C#)](./split-pdf-pages-aspose-net-csharp/)
+Apprenez à diviser un fichier PDF en pages individuelles avec Aspose.PDF pour .NET et C#. Ce guide couvre la configuration, la mise en œuvre et les applications pratiques.
+
+### [Diviser des pages PDF en fichiers distincts avec Aspose.PDF pour .NET : un guide complet](./aspose-pdf-split-pdf-pages-net/)
+Apprenez à diviser des pages PDF en fichiers distincts avec Aspose.PDF pour .NET. Ce guide complet couvre la configuration, la mise en œuvre et l'optimisation.
+
+### [Diviser et créer des fichiers PDF avec Aspose.PDF .NET | Guide de manipulation de documents](./split-create-pdf-aspose-pdf-net/)
+Apprenez à fractionner des PDF multipages et à créer de nouveaux fichiers PDF avec Aspose.PDF .NET. Suivez ce guide complet avec des exemples de code.
+
+### [Guide ultime de manipulation de PDF avec Aspose.PDF .NET : charger, enregistrer et remplacer du texte efficacement](./master-pdf-manipulation-aspose-pdf-net/)
+Apprenez à maîtriser la manipulation des PDF avec Aspose.PDF pour .NET. Ce guide couvre le chargement, l'enregistrement et le remplacement de texte dans les PDF, idéal pour les développeurs en quête d'efficacité.
 ### [Comment supprimer les polices intégrées d'un PDF – Guide étape par étape C#](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
 Apprenez à supprimer les polices intégrées d'un fichier PDF en C# avec Aspose.PDF, étape par étape.
+
+### [Comment aplatir un PDF avec Aspose.PDF – Guide complet](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+Apprenez à aplatir les PDF pour les rendre non modifiables en utilisant Aspose.PDF avec ce guide complet.
+
+### [Comment comparer des PDF avec Aspose – guide étape par étape](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
+Apprenez à comparer deux fichiers PDF en .NET avec Aspose.PDF grâce à ce guide détaillé pas à pas.
+
+### [Comment censurer un PDF en C# – Masquer le texte PDF et supprimer le contenu PDF](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
+Apprenez à masquer du texte et à supprimer du contenu dans un PDF en C# avec Aspose.PDF pour .NET.
+
+### [Comment réparer un PDF en C# – Réparer rapidement les fichiers PDF corrompus](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
+Apprenez à réparer rapidement les fichiers PDF corrompus en C# à l'aide d'Aspose.PDF.
+### [Supprimer la police d’un PDF avec Aspose – Guide étape par étape](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
+Découvrez comment supprimer les polices d’un PDF à l’aide d’Aspose.PDF pour .NET grâce à ce guide complet.
 
 ## Ressources supplémentaires
 

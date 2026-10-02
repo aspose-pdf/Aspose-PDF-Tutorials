@@ -32,6 +32,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Tentukan Halaman Saat Melihat](./specify-page-when-viewing/) | Pelajari cara menentukan halaman yang akan dilihat dalam PDF menggunakan Aspose.PDF untuk .NET. Tingkatkan navigasi pengguna dengan panduan sederhana ini. Bahasa Indonesia:  
 | [Perbarui Tautan Dalam File PDF](./update-links/) Pelajari cara memperbarui warna teks tautan dalam file PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini memandu Anda melalui setiap detail dengan contoh yang mudah diikuti. Bahasa Indonesia:  
 | [Perbarui Warna Teks Tautan Dalam File PDF](./update-link-text-color/) | Perbarui tautan dalam file PDF Anda dengan mudah menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah yang komprehensif ini. Sederhanakan pengeditan PDF Anda. |  
+| [Buat Hyperlink PDF dalam C#](./create-pdf-hyperlink-in-c-step-by-step-guide/) | Pelajari cara membuat hyperlink PDF dalam C# menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah yang mudah diikuti. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

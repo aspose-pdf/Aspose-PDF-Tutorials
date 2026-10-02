@@ -1,0 +1,7 @@
+Title: Add Text Box to PDF Form – Complete C# Guide
+Slug: add-text-box-to-pdf-form-complete-c-guide
+Category: programming-with-forms
+ProcessedDate: 2026-06-18T11:50:54.777615
+SourceRepo: AI Search API
+Keywords: add text box to pdf form, create fillable pdf textbox, how to add comment field pdf
+PRNumber: 92

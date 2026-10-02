@@ -1,0 +1,7 @@
+Title: How to Use Repair in Aspose.PDF – Fix Broken Annotations
+Slug: how-to-use-repair-in-aspose-pdf-fix-broken-annotations
+Category: annotations
+ProcessedDate: 2026-05-27T12:40:27.795778
+SourceRepo: AI Search API
+Keywords: how to use repair
+PRNumber: 84

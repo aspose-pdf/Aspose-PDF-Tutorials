@@ -1,274 +1,260 @@
 ---
 category: general
-date: 2026-05-27
-description: 使用 Aspose.Pdf 在 C# 中为 PDF 添加 Bates 编号。了解如何快速添加 Bates 编号、自定义格式以及自动化法律文档标记。
+date: 2026-03-14
+description: 使用 Aspose.Pdf 在 C# 中为 PDF 添加贝茨编号。了解如何为法律或归档文件自动添加贝茨编号和顺序页码。
 draft: false
 keywords:
 - add bates numbering pdf
-- how to add bates numbering
+- how to add bates
+- add sequential page numbers
+- Aspose PDF Bates artifact
+- C# PDF automation
 language: zh
-og_description: 使用 Aspose.Pdf 在 C# 中为 PDF 添加 Bates 编号。本指南展示了如何添加 Bates 编号、配置前缀并保存结果。
-og_title: 在 C# 中为 PDF 添加 Bates 编号 – 步骤教程
-schemas:
-- author: Aspose
-  dateModified: '2026-05-27'
-  description: Add Bates numbering PDF using Aspose.Pdf in C#. Learn how to add Bates
-    numbering quickly, customize format, and automate legal document tagging.
-  headline: Add Bates Numbering PDF in C# – Complete Guide
-  type: TechArticle
-- description: Add Bates numbering PDF using Aspose.Pdf in C#. Learn how to add Bates
-    numbering quickly, customize format, and automate legal document tagging.
-  name: Add Bates Numbering PDF in C# – Complete Guide
-  steps:
-  - name: Expected Output
-    text: 'When you run the program, the console prints:'
-  - name: Can I position the Bates number elsewhere?
-    text: Yes. Use the `BatesNumberingArtifact`’s `Location` property (e.g., `Location
-      = new Position(10, 10)`) to place the number at custom X/Y coordinates. You
-      can also set `HorizontalAlignment` and `VerticalAlignment` for more control.
-  - name: What if my PDF has thousands of pages?
-    text: Aspose.Pdf streams pages efficiently, but it’s still a good idea to process
-      in batches if you hit memory limits. The `Document` class also supports `PdfConverter`
-      for incremental saving.
-  - name: How do I change the font or color?
-    text: 'Wrap the artifact in a `TextState` object:'
-  - name: Do I need a license for production use?
-    text: A licensed version removes evaluation watermarks and unlocks full performance.
-      The free trial works fine for testing and proof‑of‑concepts.
-  type: HowTo
+og_description: 逐步为 PDF 添加 Bates 编号。本教程展示如何使用 Aspose.Pdf for .NET 添加 Bates 编号和顺序页码。
+og_title: 在 C# 中为 PDF 添加贝茨编号 – 完整指南
 tags:
 - Aspose.Pdf
 - C#
+- PDF
 - Bates numbering
-- PDF automation
-title: 在 C# 中为 PDF 添加 Bates 编号 – 完整指南
+title: 在 C# 中为 PDF 添加贝茨编号 – 完整指南
 url: /zh/net/programming-with-stamps-and-watermarks/add-bates-numbering-pdf-in-c-complete-guide/
 ---
+
+
+
+
+
+
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 C# 中为 PDF 添加 Bates 编号 – 完整指南
+# 添加 Bates 编号 PDF – 完整教程
 
-是否曾经想过 **如何为 PDF 添加 Bates 编号**，而不必花费数小时手动操作？你并不孤单——法律团队、审计员和电子取证专家都需要一种可靠的方式，以编程方式 **为 PDF 文件添加 Bates 编号**。  
+是否曾经需要在庞大的法律文档包中 **添加 Bates 编号 PDF**，却不知从何入手？为文档审阅工作流添加 Bates 编号是常规操作，但实际上相当繁琐。好消息是？使用 Aspose.Pdf for .NET，你只需几行代码即可实现全自动化。
 
-在本教程中，我们将使用 Aspose.Pdf for .NET 逐步演示一个简洁的端到端解决方案，这样你只需几行 C# 代码即可在任何文档上添加 Bates 编号。
+在本指南中，我们将逐步演示 **如何为 PDF 的每一页添加 Bates 编号**，讨论 **添加顺序页码** 的选项，并提供可直接运行的代码示例。完成后，你将拥有一个可直接嵌入任何 C# 项目的完整解决方案——无需额外脚本，也无需手动盖章。
 
-## 你将学到的内容
+## 所需条件
 
-- 如何使用 Aspose.Pdf 打开现有 PDF  
-- 如何创建 Bates 编号工件并微调其格式  
-- 如何将工件附加到每一页（或仅第一页）  
-- 如何保存更新后的文件并验证结果  
+- **Aspose.Pdf for .NET**（版本 23.10 或更高）。该库为商业授权，但免费评估版足以用于测试。
+- .NET 开发环境（Visual Studio、Rider 或 `dotnet` CLI）。
+- 需要标记的输入 PDF（`input.pdf`）。
+- 对偶发的边缘情况保持一点耐心（我们会一并覆盖）。
 
-无需任何 Aspose 经验——只需对 C# 和 .NET 有基本了解。完成后，你将拥有一个可复用的代码片段，能够复制粘贴到任何项目中。
+如果这些都已准备好，太好了——我们开始吧。
 
-## 前提条件
+![添加 Bates 编号 PDF 示例](/images/bates-numbering-example.png "显示已应用添加 Bates 编号 PDF 的 PDF 截图")
 
-- .NET 6.0 或更高版本（代码同样适用于 .NET Framework 4.7+）  
-- Aspose.Pdf for .NET NuGet 包（`Install-Package Aspose.Pdf`）  
-- 需要标记的源 PDF 文件（放在可引用的文件夹中）
+## 第一步：创建项目并安装 Aspose.Pdf
 
-> **专业提示：** 如果你还没有许可证，Aspose 提供免费临时密钥，可去除评估水印。
+为了保持整洁，先新建一个控制台应用：
 
-## 第一步 – 打开源 PDF 文档  
+```bash
+dotnet new console -n BatesNumberingDemo
+cd BatesNumberingDemo
+dotnet add package Aspose.Pdf
+```
 
-首先，我们需要一个表示磁盘上文件的 `Document` 对象。可以把它看作加载了一块空白画布，随后我们将在其上绘制 Bates 编号。
+`dotnet add package` 命令会从 NuGet 拉取最新的 Aspose.Pdf 程序集，随后即可开始编写代码。
+
+### 为什么选择控制台应用？
+
+控制台应用轻量、可随处运行，让你专注于 PDF 逻辑而不受 UI 干扰。当然，后续也可以将代码迁移到 Web API 或后台服务中——核心逻辑并不依赖于控制台。
+
+## 第二步：加载源 PDF
+
+打开文档非常直接。我们使用 `using` 块，以便文件句柄能够自动释放。
 
 ```csharp
 using Aspose.Pdf;
-using System;
+using Aspose.Pdf.Annotations;
+using System.Drawing;   // Required for Color
 
 class Program
 {
     static void Main()
     {
-        // Adjust the path to point at your source PDF
-        string sourcePath = @"C:\Docs\source.pdf";
+        // Adjust these paths to match your environment
+        string sourcePdfPath = @"C:\Docs\input.pdf";
+        string outputPdfPath = @"C:\Docs\output.pdf";
 
-        // Load the PDF – this is where we start to add Bates numbering
-        using (var pdfDocument = new Document(sourcePath))
+        // Load the PDF – this is where the “add bates numbering pdf” process begins
+        using (var pdfDocument = new Document(sourcePdfPath))
         {
-            // The rest of the logic lives inside this using block
+            // Next steps go here...
         }
     }
 }
 ```
 
-**为什么这很重要：** 在 `using` 块中打开文档可确保及时释放所有非托管资源，这对大型 PDF 尤为重要。
+**这段代码在做什么？** `Document` 类代表整个 PDF 文件。将其放在 `using` 中，可确保在代码块结束时调用 `Dispose`，将任何未写入的更改刷新到磁盘。
 
-## 第二步 – 创建 Bates 编号工件  
+## 第三步：定义 Bates 编号 Artifact（“如何添加 Bates”核心）
 
-*BatesNumberingArtifact* 是 Aspose 用来描述编号外观的方式。你可以设置前缀、起始号码、增量，甚至自定义格式字符串。
+Aspose.Pdf 将 Bates 编号视为 *artifact*——一种可以在屏幕上渲染或打印的元数据，除非你对 PDF 进行扁平化，否则它不会成为永久的内容流。下面是我们将附加到每页的对象：
 
 ```csharp
-// Step 2: Define the Bates numbering artifact
-var batesNumbering = new BatesNumberingArtifact
+var batesArtifact = new BatesNumberArtifact
 {
-    Prefix = "ABC",            // Text that appears before each number
-    StartNumber = 1000,        // First number in the sequence
-    Increment = 1,             // Step between consecutive numbers
-    Format = "{0:D5}"          // Zero‑padded 5‑digit number (e.g., 01000)
+    Prefix = "CASE-",
+    StartNumber = 1000,
+    Increment = 1,
+    X = 36,               // 0.5 inch from the left edge (points)
+    Y = 36,               // 0.5 inch from the bottom edge (points)
+    FontSize = 9,
+    FontColor = Color.Black
 };
 ```
 
-**为什么可能需要更改这些值：**  
-- **Prefix** 对于案件 ID（如 “CASE‑”、 “DOC‑”）很有用。  
-- **StartNumber** 允许你继续之前的序列。  
-- **Increment** 若需要奇偶编号，可设置为 2。  
-- **Format** 支持任何 .NET 复合格式；`{0:D5}` 可确保使用前导零的五位数字。
+### 为什么使用 artifact？
 
-## 第三步 – 将工件附加到所需页面  
+- **性能**：编号在渲染时实时生成，修改前缀或起始编号时无需重新写入整个 PDF。
+- **灵活性**：如需在法律提交时使用“硬编码”印章，可随后对 PDF 进行扁平化。
+- **精度**：定位使用点（1/72 英寸），可实现像素级控制。
 
-你可以将工件添加到单页、页范围或整个文档。对于大多数法律工作流，我们会将其附加到 *每* 页，但下面的示例展示了最小情况——仅在第一页添加。
+如果需要不同的前缀或更大的字体，只需调整相应属性。`Increment` 字段决定了页码的递增步幅——正好满足 **添加顺序页码** 的需求。
 
-```csharp
-// Step 3: Attach the artifact to the first page (index is 1‑based)
-pdfDocument.Pages[1].Artifacts.Add(batesNumbering);
-```
+## 第四步：将 Artifact 附加到每一页
 
-如果需要覆盖所有页面，可循环遍历：
+现在遍历 `Pages` 集合并添加 artifact。这才是真正的 “添加 Bates 编号 PDF” 操作。
 
 ```csharp
 foreach (Page page in pdfDocument.Pages)
 {
-    page.Artifacts.Add(batesNumbering);
+    page.Artifacts.Add(batesArtifact);
 }
 ```
 
-**为什么此步骤至关重要：** 工件在页面内容 *之后* 渲染，因此编号会显示在现有文本之上，而不改变原始布局。
+### 边缘情况说明
 
-## 第四步 – 保存修改后的 PDF  
-
-最后，将更改写回磁盘。你可以覆盖原文件或创建新文件——这里我们将生成一个名为 `bates.pdf` 的新副本。
+如果你的 PDF 已经包含 Bates artifact，可能会出现重复。可以加入以下简易检查来防止：
 
 ```csharp
-// Step 4: Persist the changes
-string outputPath = @"C:\Docs\bates.pdf";
-pdfDocument.Save(outputPath);
-
-Console.WriteLine($"Bates numbering added successfully. File saved to: {outputPath}");
+foreach (Page page in pdfDocument.Pages)
+{
+    bool alreadyHasBates = page.Artifacts.Any(a => a is BatesNumberArtifact);
+    if (!alreadyHasBates)
+        page.Artifacts.Add(batesArtifact);
+}
 ```
 
-打开 `bates.pdf` 时，你会看到默认位置（通常是右下角）印有 “ABC01000”（或你选择的任何格式）的编号。
+这段小检查可以避免在批量处理已预标记文档时出现混乱的双重盖章。
 
-## 完整工作示例  
+## 第五步：保存更新后的 PDF
 
-将所有步骤整合在一起，下面是可以编译运行的完整程序：
+最后，将文件写回磁盘。你可以覆盖原文件，也可以生成新文件——这里我们生成一个全新的副本：
+
+```csharp
+pdfDocument.Save(outputPdfPath);
+Console.WriteLine($"Bates numbers added successfully. Output saved to {outputPdfPath}");
+```
+
+在任意阅读器中打开 `output.pdf`，你会看到每页左下角显示 “CASE‑1000”、 “CASE‑1001” 等编号。
+
+### 可选：扁平化 PDF
+
+如果收件方要求不可编辑的 PDF（法院提交中常见），可对页面进行扁平化：
+
+```csharp
+pdfDocument.FlattenAllPages();   // Turns artifacts into permanent content
+pdfDocument.Save(outputPdfPath);
+```
+
+扁平化是一次性操作；完成后，Bates 编号会成为页面内容流的一部分，除非重新处理，否则无法再更改。
+
+## 完整可运行示例
+
+下面是完整的程序代码，可直接复制到 `Program.cs` 中。为方便切换，已将可选的扁平化步骤以注释形式保留。
 
 ```csharp
 using Aspose.Pdf;
+using Aspose.Pdf.Annotations;
 using System;
+using System.Drawing;
+using System.Linq;
 
-class AddBatesNumbering
+class Program
 {
     static void Main()
     {
-        // -----------------------------------------------------------------
-        // 1️⃣ Open the source PDF
-        // -----------------------------------------------------------------
-        string sourcePath = @"C:\Docs\source.pdf";
-        using (var pdfDocument = new Document(sourcePath))
+        string sourcePdfPath = @"C:\Docs\input.pdf";
+        string outputPdfPath = @"C:\Docs\output.pdf";
+
+        using (var pdfDocument = new Document(sourcePdfPath))
         {
-            // -----------------------------------------------------------------
-            // 2️⃣ Create and configure the Bates numbering artifact
-            // -----------------------------------------------------------------
-            var batesNumbering = new BatesNumberingArtifact
+            var batesArtifact = new BatesNumberArtifact
             {
-                Prefix = "ABC",
+                Prefix = "CASE-",
                 StartNumber = 1000,
                 Increment = 1,
-                Format = "{0:D5}"
+                X = 36,
+                Y = 36,
+                FontSize = 9,
+                FontColor = Color.Black
             };
 
-            // -----------------------------------------------------------------
-            // 3️⃣ Attach the artifact to each page (or a specific page)
-            // -----------------------------------------------------------------
             foreach (Page page in pdfDocument.Pages)
             {
-                page.Artifacts.Add(batesNumbering);
+                // Prevent duplicate artifacts if the PDF was processed before
+                bool alreadyHasBates = page.Artifacts.Any(a => a is BatesNumberArtifact);
+                if (!alreadyHasBates)
+                    page.Artifacts.Add(batesArtifact);
             }
 
-            // -----------------------------------------------------------------
-            // 4️⃣ Save the new PDF
-            // -----------------------------------------------------------------
-            string outputPath = @"C:\Docs\bates.pdf";
-            pdfDocument.Save(outputPath);
+            // Uncomment the next line if you need a flattened PDF for legal submission
+            // pdfDocument.FlattenAllPages();
 
-            Console.WriteLine($"Bates numbers added. Output: {outputPath}");
+            pdfDocument.Save(outputPdfPath);
         }
+
+        Console.WriteLine($"Bates numbers added successfully. Output saved to {outputPdfPath}");
     }
 }
 ```
 
-### 预期输出
+使用 `dotnet run` 运行它，控制台会确认操作已完成。
 
-运行程序后，控制台会输出：
+## 常见问题与专业技巧
+
+| 问题 | 答案 |
+|----------|--------|
+| **可以为每页单独设置位置吗？** | 可以。在循环内部创建新的 `batesArtifact`，并根据页面尺寸设置 `X`/`Y`。 |
+| **如果 PDF 有密码保护怎么办？** | 使用 `new Document(sourcePdfPath, new LoadOptions { Password = "mySecret" })` 加载。其余流程保持不变。 |
+| **处理超大文件会不会性能问题？** | 添加 artifact 的时间复杂度为 O(N)，其中 N 为页数，内存占用保持低，因为 Aspose 会流式处理页面。对于超过 10 000 页的 PDF，建议分批处理以避免长时间的 GC 暂停。 |
+| **编号能否在每个章节重置？** | 完全可以。在进入新章节的第一页前设置新的 `StartNumber`，或创建第二个具有不同 `Prefix` 的 `BatesNumberArtifact`。 |
+| **这在 .NET Core 上可用吗？** | 可以。Aspose.Pdf 支持 .NET Framework、.NET Core 以及 .NET 5/6+，只需在 csproj 中指定相应的目标运行时。 |
+
+### 专业技巧
+
+在为多卷套件 **添加顺序页码** 时，可将上一次使用的编号保存在一个小型 JSON 文件中。运行前读取，随后递增并写回。这样的小持久层可以防止跨次运行时意外重复编号。
+
+## 验证结果
+
+在 Adobe Reader、Foxit 或 Chrome 中打开 `output.pdf`，应看到类似如下的效果：
 
 ```
-Bates numbers added. Output: C:\Docs\bates.pdf
+CASE-1000   (Page 1)
+CASE-1001   (Page 2)
+…
+CASE-1015   (Page 16)
 ```
 
-打开 `bates.pdf` 可看到每页都有前缀 “ABC” 加上零填充的五位序列——正是代码所实现的效果。
+如果已经扁平化，编号会成为页面图形的一部分——右键 → “检查” 将显示为普通文本对象。
 
-## 常见问题与边缘情况
+## 结论
 
-### 我可以将 Bates 编号放在其他位置吗？
+我们已经演示了如何使用 Aspose.Pdf **添加 Bates 编号 PDF**，探讨了 **如何添加 Bates** 的机制，并展示了在整个文档中 **添加顺序页码** 的简洁实现。该代码片段已具备生产级准备度，处理了重复 artifact，并提供了可选的扁平化步骤以满足法律合规需求。
 
-可以。使用 `BatesNumberingArtifact` 的 `Location` 属性（例如 `Location = new Position(10, 10)`）将编号放置在自定义的 X/Y 坐标上。你还可以设置 `HorizontalAlignment` 和 `VerticalAlignment` 以获得更精细的控制。
+接下来，你可以进一步探索：
 
-### 如果我的 PDF 有成千上万页怎么办？
+- 合并多个 PDF 并保持 Bates 编号连续（使用 `Document.AppendDocument` 并动态调整 `StartNumber`）。
+- 在 Bates 编号旁添加二维码，实现自动追踪。
+- 将此逻辑集成到 ASP.NET Core API 中，使你的 Web 服务能够按需为 PDF 打标签。
 
-Aspose.Pdf 能高效地流式处理页面，但如果遇到内存限制，仍建议分批处理。`Document` 类还支持 `PdfConverter` 用于增量保存。
-
-### 如何更改字体或颜色？
-
-将工件包装在 `TextState` 对象中：
-
-```csharp
-batesNumbering.TextState = new TextState
-{
-    FontSize = 12,
-    Font = FontRepository.FindFont("Arial"),
-    ForegroundColor = Color.FromRgb(255, 0, 0) // red
-};
-```
-
-### 生产环境是否需要许可证？
-
-授权版本会去除评估水印并解锁全部性能。免费试用版足以用于测试和概念验证。
-
-## 验证 – 快速视觉检查  
-
-如果你更喜欢自动化验证，Aspose 可以提取页面文本并确认前缀是否存在：
-
-```csharp
-string pageText = pdfDocument.Pages[1].ExtractText();
-bool hasBates = pageText.Contains("ABC01000");
-Console.WriteLine(hasBates ? "Bates number verified." : "Number missing!");
-```
-
-在保存步骤后运行此代码，如果一切顺利，将打印 `Bates number verified.`。
-
-## 结论  
-
-现在你已经了解了如何使用 Aspose.Pdf 在 C# 中 **为 PDF 添加 Bates 编号**。从打开文档、配置工件、将其附加到页面再到保存结果，整个过程简洁明了且可完全脚本化。  
-
-下一步？尝试以下实验：  
-- 为多个案件批次使用不同的 `Prefix` 值  
-- 使用自定义 `Location` 和 `TextState` 进行品牌化  
-- 通过在循环中调整 `StartNumber`，为每页添加特定前缀（例如 “VOL‑1‑”、 “VOL‑2‑”）  
-
-这些微调使你能够将解决方案定制到几乎所有法律或档案工作流。  
-
-对多语言 PDF 或加密文件的 **如何添加 Bates 编号** 还有其他疑问吗？在下方留言吧，祝编码愉快！
-
-## 相关教程
-
-- [如何使用 Aspose.PDF for .NET 为 PDF 添加和自定义页码 | 文档操作指南](/pdf/english/net/document-manipulation/add-customize-page-numbers-aspose-pdf-dot-net/)
-- [如何使用 Aspose.PDF for .NET 在 PDF 中添加不同的页眉&#58; 步骤指南](/pdf/english/net/document-manipulation/add-different-headers-aspose-pdf-net/)
-- [如何使用 Aspose.PDF for .NET 为 PDF 添加文本水印页脚&#58; 步骤指南](/pdf/english/net/document-manipulation/add-text-stamp-footer-aspose-pdf-net/)
+动手试一试，修改前缀、尝试不同字体，让自动化为你的文档审阅流水线减轻繁重工作。祝编码愉快！
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

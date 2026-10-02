@@ -1,50 +1,26 @@
 ---
 category: general
-date: 2026-05-27
+date: 2026-03-14
 description: Přidejte Batesovo číslování do PDF pomocí Aspose.Pdf v C#. Naučte se,
-  jak rychle přidat Batesovo číslování, přizpůsobit formát a automatizovat označování
-  právních dokumentů.
+  jak automaticky přidávat Batesovo číslování a sekvenční čísla stránek pro právní
+  nebo archivní dokumenty.
 draft: false
 keywords:
 - add bates numbering pdf
-- how to add bates numbering
+- how to add bates
+- add sequential page numbers
+- Aspose PDF Bates artifact
+- C# PDF automation
 language: cs
-og_description: Přidání Bates číslování PDF s Aspose.Pdf v C#. Tento průvodce ukazuje,
-  jak přidat Bates číslování, nastavit předpony a uložit výsledek.
-og_title: Přidejte Batesovo číslování PDF v C# – krok za krokem tutoriál
-schemas:
-- author: Aspose
-  dateModified: '2026-05-27'
-  description: Add Bates numbering PDF using Aspose.Pdf in C#. Learn how to add Bates
-    numbering quickly, customize format, and automate legal document tagging.
-  headline: Add Bates Numbering PDF in C# – Complete Guide
-  type: TechArticle
-- description: Add Bates numbering PDF using Aspose.Pdf in C#. Learn how to add Bates
-    numbering quickly, customize format, and automate legal document tagging.
-  name: Add Bates Numbering PDF in C# – Complete Guide
-  steps:
-  - name: Expected Output
-    text: 'When you run the program, the console prints:'
-  - name: Can I position the Bates number elsewhere?
-    text: Yes. Use the `BatesNumberingArtifact`’s `Location` property (e.g., `Location
-      = new Position(10, 10)`) to place the number at custom X/Y coordinates. You
-      can also set `HorizontalAlignment` and `VerticalAlignment` for more control.
-  - name: What if my PDF has thousands of pages?
-    text: Aspose.Pdf streams pages efficiently, but it’s still a good idea to process
-      in batches if you hit memory limits. The `Document` class also supports `PdfConverter`
-      for incremental saving.
-  - name: How do I change the font or color?
-    text: 'Wrap the artifact in a `TextState` object:'
-  - name: Do I need a license for production use?
-    text: A licensed version removes evaluation watermarks and unlocks full performance.
-      The free trial works fine for testing and proof‑of‑concepts.
-  type: HowTo
+og_description: Vložte Batesovo číslování PDF krok za krokem. Tento návod ukazuje,
+  jak přidat Bates a sekvenční čísla stránek pomocí Aspose.Pdf pro .NET.
+og_title: Přidání Batesova číslování do PDF v C# – kompletní průvodce
 tags:
 - Aspose.Pdf
 - C#
+- PDF
 - Bates numbering
-- PDF automation
-title: Přidání Batesova číslování do PDF v C# – Kompletní průvodce
+title: Přidání Batesova číslování do PDF v C# – kompletní průvodce
 url: /cs/net/programming-with-stamps-and-watermarks/add-bates-numbering-pdf-in-c-complete-guide/
 ---
 
@@ -52,227 +28,230 @@ url: /cs/net/programming-with-stamps-and-watermarks/add-bates-numbering-pdf-in-c
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Přidání Batesova číslování PDF v C# – Kompletní průvodce
+# Přidání Batesova číslování PDF – Kompletní průvodce
 
-Chtěli jste někdy **jak přidat Batesovo číslování** do PDF, aniž byste strávili hodiny manipulací s ručními nástroji? Nejste sami – právní týmy, auditoři a specialisté na e‑discovery všichni potřebují spolehlivý způsob, jak **programově přidat Batesovo číslování PDF** souborům.
+Už jste někdy potřebovali **přidat bates numbering pdf** do obrovské právní složky, ale nevedeli jste, kde začít? Přidání Batesových čísel je rutinní, ale překvapivě zdlouhavá část pracovních postupů při revizi dokumentů. Dobrá zpráva? S Aspose.Pdf pro .NET můžete celý proces automatizovat během několika řádků kódu.
 
-V tomto tutoriálu projdeme stručné, kompletní řešení pomocí Aspose.Pdf pro .NET, takže můžete přidat Batesova čísla do libovolného dokumentu pomocí několika řádků C# kódu.
+V tomto návodu si projdeme **jak přidat bates** na každou stránku PDF, probereme možnosti **add sequential page numbers** a ukážeme vám připravený ukázkový kód. Na konci budete mít samostatné řešení, které můžete vložit do libovolného C# projektu — žádné další skripty, žádné ruční razítkování.
 
-## Co se naučíte
+## Co budete potřebovat
 
-- Jak otevřít existující PDF pomocí Aspose.Pdf  
-- Jak vytvořit artefakt Batesova číslování a doladit jeho formát  
-- Jak připojit artefakt ke každé stránce (nebo jen k první)  
-- Jak uložit aktualizovaný soubor a ověřit výsledek  
+- **Aspose.Pdf pro .NET** (verze 23.10 nebo novější). Knihovna je komerční, ale bezplatná zkušební verze stačí pro testování.
+- Vývojové prostředí .NET (Visual Studio, Rider nebo `dotnet` CLI).
+- Vstupní PDF (`input.pdf`), které chcete označit.
+- Trochu trpělivosti pro občasné okrajové případy (ty pokryjeme).
 
-Žádná předchozí zkušenost s Aspose není vyžadována – stačí základní znalost C# a .NET. Na konci budete mít znovupoužitelný úryvek, který můžete zkopírovat a vložit do jakéhokoli projektu.
+Pokud už máte vše připravené, skvěle — pustíme se do toho.
 
-## Požadavky
+![Příklad přidání Batesova číslování PDF](/images/bates-numbering-example.png "Snímek obrazovky ukazující PDF s aplikovaným add bates numbering pdf")
 
-- .NET 6.0 nebo novější (kód také funguje na .NET Framework 4.7+)
-- NuGet balíček Aspose.Pdf pro .NET (`Install-Package Aspose.Pdf`)
-- Zdrojový PDF soubor, který chcete označit (umístěte jej do složky, na kterou můžete odkazovat)
+## Krok 1: Nastavení projektu a instalace Aspose.Pdf
 
-> **Pro tip:** Pokud ještě nemáte licenci, Aspose nabízí zdarma dočasný klíč, který odstraňuje vodotisky z hodnocení.
+Aby byl projekt přehledný, založte novou konzolovou aplikaci:
 
-## Krok 1 – Otevření zdrojového PDF dokumentu  
+```bash
+dotnet new console -n BatesNumberingDemo
+cd BatesNumberingDemo
+dotnet add package Aspose.Pdf
+```
 
-Nejprve potřebujeme objekt `Document`, který představuje soubor na disku. Představte si to jako načtení prázdného plátna, na které později namalujeme Batesova čísla.
+Příkaz `dotnet add package` stáhne nejnovější sestavení Aspose.Pdf z NuGet, takže můžete rovnou kódovat.
+
+### Proč konzolová aplikace?
+
+Konzolová aplikace je lehká, běží kdekoliv a umožňuje soustředit se na logiku PDF bez rušivých UI prvků. Samozřejmě později můžete kód přenést do webového API nebo background služby — v jádru logiky není nic, co by vás svazovalo s konzolí.
+
+## Krok 2: Načtení zdrojového PDF
+
+Otevření dokumentu je jednoduché. Použijeme blok `using`, aby se soubor automaticky uvolnil.
 
 ```csharp
 using Aspose.Pdf;
-using System;
+using Aspose.Pdf.Annotations;
+using System.Drawing;   // Required for Color
 
 class Program
 {
     static void Main()
     {
-        // Adjust the path to point at your source PDF
-        string sourcePath = @"C:\Docs\source.pdf";
+        // Adjust these paths to match your environment
+        string sourcePdfPath = @"C:\Docs\input.pdf";
+        string outputPdfPath = @"C:\Docs\output.pdf";
 
-        // Load the PDF – this is where we start to add Bates numbering
-        using (var pdfDocument = new Document(sourcePath))
+        // Load the PDF – this is where the “add bates numbering pdf” process begins
+        using (var pdfDocument = new Document(sourcePdfPath))
         {
-            // The rest of the logic lives inside this using block
+            // Next steps go here...
         }
     }
 }
 ```
 
-**Proč je to důležité:** Otevření dokumentu uvnitř bloku `using` zajišťuje, že všechny neřízené prostředky jsou rychle uvolněny, což je zvláště důležité u velkých PDF.
+**Co se děje?** Třída `Document` představuje celý PDF soubor. Zapouzdřením do `using` zajistíme, že se zavolá `Dispose`, který provede zápis všech neuložených změn na disk.
 
-## Krok 2 – Vytvoření artefaktu Batesova číslování  
+## Krok 3: Definice Batesova čísla jako artefaktu (Jádro „how to add bates“)
 
-*BatesNumberingArtifact* je způsob, jakým Aspose popisuje vzhled čísel. Můžete nastavit předponu, počáteční číslo, přírůstek a dokonce vlastní formátovací řetězec.
+Aspose.Pdf zachází s Batesovými čísly jako s *artefakty* — metadata, která lze vykreslit na obrazovce nebo vytisknout, ale nestane se trvalým obsahem, pokud PDF neztlučíte. Toto je objekt, který připojíme ke každé stránce:
 
 ```csharp
-// Step 2: Define the Bates numbering artifact
-var batesNumbering = new BatesNumberingArtifact
+var batesArtifact = new BatesNumberArtifact
 {
-    Prefix = "ABC",            // Text that appears before each number
-    StartNumber = 1000,        // First number in the sequence
-    Increment = 1,             // Step between consecutive numbers
-    Format = "{0:D5}"          // Zero‑padded 5‑digit number (e.g., 01000)
+    Prefix = "CASE-",
+    StartNumber = 1000,
+    Increment = 1,
+    X = 36,               // 0.5 inch from the left edge (points)
+    Y = 36,               // 0.5 inch from the bottom edge (points)
+    FontSize = 9,
+    FontColor = Color.Black
 };
 ```
 
-**Proč byste mohli tyto hodnoty změnit:**  
-- **Prefix** je užitečný pro ID případů (“CASE‑”, “DOC‑”).  
-- **StartNumber** vám umožní pokračovat v předchozí sérii.  
-- **Increment** lze nastavit na 2, pokud potřebujete liché/sudé číslování.  
-- **Format** podporuje libovolný .NET kompozitní formát; `{0:D5}` zaručuje pět číslic s úvodními nulami.
+### Proč použít artefakt?
 
-## Krok 3 – Připojení artefaktu k požadovaným stránkám  
+- **Výkon:** Číslo se vykresluje za běhu, takže můžete změnit prefix nebo počáteční číslo bez přepisování celého PDF.
+- **Flexibilita:** Později můžete PDF ztlučit, pokud potřebujete „tvrdé“ razítko pro právní podání.
+- **Přesnost:** Pozicování používá body (1/72 palce), což vám dává pixel‑perfektní kontrolu.
 
-Můžete přidat artefakt na jednu stránku, rozsah nebo celý dokument. Pro většinu právních pracovních postupů jej připojujeme ke *každé* stránce, ale níže uvedený příklad ukazuje minimální případ – přidání na první stránku.
+Pokud potřebujete jiný prefix nebo větší písmo, stačí upravit vlastnosti. Pole `Increment` určuje, o kolik se číslo posouvá ze stránky na stránku — ideální pro požadavek **add sequential page numbers**.
 
-```csharp
-// Step 3: Attach the artifact to the first page (index is 1‑based)
-pdfDocument.Pages[1].Artifacts.Add(batesNumbering);
-```
+## Krok 4: Připojení artefaktu ke každé stránce
 
-Pokud potřebujete pokrýt všechny stránky, projděte je v cyklu:
+Nyní projdeme kolekci `Pages` a přidáme artefakt. Toto je samotná akce „add bates numbering pdf“.
 
 ```csharp
 foreach (Page page in pdfDocument.Pages)
 {
-    page.Artifacts.Add(batesNumbering);
+    page.Artifacts.Add(batesArtifact);
 }
 ```
 
-**Proč je tento krok zásadní:** Artefakty jsou vykresleny *po* obsahu stránky, takže čísla se zobrazí nad existujícím textem, aniž by se změnil původní rozvržení.
+### Poznámka k okrajovým případům
 
-## Krok 4 – Uložení upraveného PDF  
-
-Na závěr zapíšete změny zpět na disk. Můžete přepsat originál nebo vytvořit nový soubor – zde vytvoříme čerstvou kopii s názvem `bates.pdf`.
+Pokud vaše PDF již obsahuje Batesovy artefakty, můžete skončit s duplikáty. Jednoduchá kontrola tomu může zabránit:
 
 ```csharp
-// Step 4: Persist the changes
-string outputPath = @"C:\Docs\bates.pdf";
-pdfDocument.Save(outputPath);
-
-Console.WriteLine($"Bates numbering added successfully. File saved to: {outputPath}");
+foreach (Page page in pdfDocument.Pages)
+{
+    bool alreadyHasBates = page.Artifacts.Any(a => a is BatesNumberArtifact);
+    if (!alreadyHasBates)
+        page.Artifacts.Add(batesArtifact);
+}
 ```
 
-Když otevřete `bates.pdf`, uvidíte v defaultní pozici (obvykle v pravém dolním rohu) otisk “ABC01000” (nebo jakýkoli formát, který jste zvolili).
+Tato malá kontrola vás ochrání před nepořádkem dvojitého razítka, zejména při zpracování dávky dokumentů, které už byly předem označeny.
 
-## Kompletní funkční příklad  
+## Krok 5: Uložení aktualizovaného PDF
 
-Spojením všeho dohromady zde máte kompletní program, který můžete zkompilovat a spustit:
+Nakonec zapíšeme soubor zpět na disk. Můžete buď přepsat originál, nebo vytvořit nový soubor — zde vytvoříme čerstvou kopii:
+
+```csharp
+pdfDocument.Save(outputPdfPath);
+Console.WriteLine($"Bates numbers added successfully. Output saved to {outputPdfPath}");
+```
+
+Když otevřete `output.pdf` v libovolném prohlížeči, uvidíte „CASE‑1000“, „CASE‑1001“ atd. v levém dolním rohu každé stránky.
+
+### Volitelné: Ztlučení PDF
+
+Pokud příjemce vyžaduje needitovatelné PDF (běžné u soudních podání), ztlučte stránky:
+
+```csharp
+pdfDocument.FlattenAllPages();   // Turns artifacts into permanent content
+pdfDocument.Save(outputPdfPath);
+```
+
+Ztlučení je jednorázová operace; po ní se Batesova čísla stanou součástí streamu obsahu stránky a nelze je změnit bez dalšího zpracování.
+
+## Kompletní funkční příklad
+
+Níže je celý program, který můžete zkopírovat do `Program.cs`. Obsahuje volitelný krok ztlučení, který je zakomentovaný pro snadné zapínání/vypínání.
 
 ```csharp
 using Aspose.Pdf;
+using Aspose.Pdf.Annotations;
 using System;
+using System.Drawing;
+using System.Linq;
 
-class AddBatesNumbering
+class Program
 {
     static void Main()
     {
-        // -----------------------------------------------------------------
-        // 1️⃣ Open the source PDF
-        // -----------------------------------------------------------------
-        string sourcePath = @"C:\Docs\source.pdf";
-        using (var pdfDocument = new Document(sourcePath))
+        string sourcePdfPath = @"C:\Docs\input.pdf";
+        string outputPdfPath = @"C:\Docs\output.pdf";
+
+        using (var pdfDocument = new Document(sourcePdfPath))
         {
-            // -----------------------------------------------------------------
-            // 2️⃣ Create and configure the Bates numbering artifact
-            // -----------------------------------------------------------------
-            var batesNumbering = new BatesNumberingArtifact
+            var batesArtifact = new BatesNumberArtifact
             {
-                Prefix = "ABC",
+                Prefix = "CASE-",
                 StartNumber = 1000,
                 Increment = 1,
-                Format = "{0:D5}"
+                X = 36,
+                Y = 36,
+                FontSize = 9,
+                FontColor = Color.Black
             };
 
-            // -----------------------------------------------------------------
-            // 3️⃣ Attach the artifact to each page (or a specific page)
-            // -----------------------------------------------------------------
             foreach (Page page in pdfDocument.Pages)
             {
-                page.Artifacts.Add(batesNumbering);
+                // Prevent duplicate artifacts if the PDF was processed before
+                bool alreadyHasBates = page.Artifacts.Any(a => a is BatesNumberArtifact);
+                if (!alreadyHasBates)
+                    page.Artifacts.Add(batesArtifact);
             }
 
-            // -----------------------------------------------------------------
-            // 4️⃣ Save the new PDF
-            // -----------------------------------------------------------------
-            string outputPath = @"C:\Docs\bates.pdf";
-            pdfDocument.Save(outputPath);
+            // Uncomment the next line if you need a flattened PDF for legal submission
+            // pdfDocument.FlattenAllPages();
 
-            Console.WriteLine($"Bates numbers added. Output: {outputPath}");
+            pdfDocument.Save(outputPdfPath);
         }
+
+        Console.WriteLine($"Bates numbers added successfully. Output saved to {outputPdfPath}");
     }
 }
 ```
 
-### Očekávaný výstup
+Spusťte ho pomocí `dotnet run` a sledujte, jak konzole potvrdí úspěšnou operaci.
 
-Když spustíte program, konzole vypíše:
+## Často kladené otázky a tipy pro profesionály
+
+| Otázka | Odpověď |
+|----------|--------|
+| **Mohu změnit pozici na stránce?** | Ano. Místo jedné `batesArtifact` vytvořte novou uvnitř smyčky a nastavte `X`/`Y` podle velikosti stránky. |
+| **Co když je PDF chráněno heslem?** | Načtěte jej pomocí `new Document(sourcePdfPath, new LoadOptions { Password = "mySecret" })`. Zbytek postupu zůstane beze změny. |
+| **Musím se obávat výkonu u obrovských souborů?** | Přidávání artefaktů je O(N), kde N = počet stránek, a paměťová náročnost zůstává nízká, protože Aspose streamuje stránky. U PDF > 10 000 stránek zvažte zpracování po částech, aby nedošlo k dlouhým pauzám GC. |
+| **Lze číslování resetovat podle sekce?** | Rozhodně. Nastavte `StartNumber` na novou hodnotu před první stránkou další sekce, nebo vytvořte druhý `BatesNumberArtifact` s jiným `Prefix`. |
+| **Bude to fungovat na .NET Core?** | Ano. Aspose.Pdf podporuje .NET Framework, .NET Core i .NET 5/6+. Stačí cílit na odpovídající runtime ve vašem csproj. |
+
+### Profesionální tip
+
+Když pracujete s **add sequential page numbers** pro vícesvazkovou sadu, uložte poslední použité číslo do malého JSON souboru. Před zahájením ho načtěte, podle potřeby inkrementujte a pak zpět zapíšete. Tento drobný perzistentní vrstva zabrání neúmyslnému opakování čísel mezi jednotlivými běhy.
+
+## Ověření výsledku
+
+Otevřete `output.pdf` v Adobe Reader, Foxit nebo i v Chrome. Měli byste vidět něco jako:
 
 ```
-Bates numbers added. Output: C:\Docs\bates.pdf
+CASE-1000   (Page 1)
+CASE-1001   (Page 2)
+…
+CASE-1015   (Page 16)
 ```
 
-Otevřením `bates.pdf` se zobrazí předpona “ABC” následovaná nulami doplněnou pětimístnou sekvencí na každé stránce – přesně to, co kód požadoval.
+Pokud jste PDF ztlučili, čísla se stanou součástí grafiky stránky — klikněte pravým tlačítkem → „Inspect“ a uvidíte je jako běžné textové objekty.
 
-## Časté otázky a okrajové případy
+## Závěr
 
-### Můžu umístit Batesovo číslo jinde?
+Právě jsme si ukázali, jak **add bates numbering pdf** pomocí Aspose.Pdf, prozkoumali mechaniku **how to add bates** a předvedli čistý způsob **add sequential page numbers** napříč celým dokumentem. Útržek kódu je připravený do produkce, řeší duplikátní artefakty a nabízí volitelný krok ztlučení pro právní soulad.
 
-Ano. Použijte vlastnost `Location` u `BatesNumberingArtifact` (např. `Location = new Position(10, 10)`) k umístění čísla na vlastní X/Y souřadnice. Můžete také nastavit `HorizontalAlignment` a `VerticalAlignment` pro větší kontrolu.
+Dále můžete zkusit:
 
-### Co když má moje PDF tisíce stránek?
+- Sloučení více PDF při zachování kontinuity Batesových čísel (použijte `Document.AppendDocument` a během toho upravujte `StartNumber`).
+- Přidání QR kódu vedle Batesova čísla pro automatizované sledování.
+- Integraci této logiky do ASP.NET Core API, aby váš webový servis mohl PDF označovat na vyžádání.
 
-Aspose.Pdf efektivně streamuje stránky, ale je stále dobré zpracovávat je po dávkách, pokud narazíte na limity paměti. Třída `Document` také podporuje `PdfConverter` pro inkrementální ukládání.
-
-### Jak změním písmo nebo barvu?
-
-Zabalte artefakt do objektu `TextState`:
-
-```csharp
-batesNumbering.TextState = new TextState
-{
-    FontSize = 12,
-    Font = FontRepository.FindFont("Arial"),
-    ForegroundColor = Color.FromRgb(255, 0, 0) // red
-};
-```
-
-### Potřebuji licenci pro produkční použití?
-
-Licencovaná verze odstraňuje vodotisky z hodnocení a odemyká plný výkon. Bezplatná zkušební verze funguje dobře pro testování a proof‑of‑concepty.
-
-## Ověření – Rychlá vizuální kontrola  
-
-Pokud dáváte přednost automatizovanému ověření, Aspose může extrahovat text stránky a potvrdit přítomnost předpony:
-
-```csharp
-string pageText = pdfDocument.Pages[1].ExtractText();
-bool hasBates = pageText.Contains("ABC01000");
-Console.WriteLine(hasBates ? "Bates number verified." : "Number missing!");
-```
-
-Spuštěním po kroku uložení se vypíše `Bates number verified.`, pokud vše proběhlo hladce.
-
-## Závěr  
-
-Nyní víte **jak přidat Batesovo číslování PDF** souborům pomocí Aspose.Pdf v C#. Od otevření dokumentu po konfiguraci artefaktu, jeho připojení ke stránkám a uložení výsledku, je proces jednoduchý a plně skriptovatelný.
-
-Další kroky? Zkuste experimentovat s:
-
-- Různými hodnotami `Prefix` pro více případových šarží  
-- Vlastním `Location` a `TextState` pro branding  
-- Přidáním specifických předpon pro stránky (např. “VOL‑1‑”, “VOL‑2‑”) úpravou `StartNumber` v každé iteraci smyčky  
-
-Tyto úpravy vám umožní přizpůsobit řešení téměř jakémukoli právnímu nebo archivnímu workflowu.
-
-Máte další otázky ohledně **jak přidat Batesovo číslování** pro vícejazyčná PDF nebo šifrované soubory? Zanechte komentář níže a šťastné programování!
-
-## Související tutoriály
-
-- [Jak přidat a přizpůsobit číslování stránek v PDF pomocí Aspose.PDF pro .NET | Průvodce manipulací s dokumenty](/pdf/english/net/document-manipulation/add-customize-page-numbers-aspose-pdf-dot-net/)
-- [Jak přidat různé záhlaví v PDF pomocí Aspose.PDF pro .NET: krok za krokem](/pdf/english/net/document-manipulation/add-different-headers-aspose-pdf-net/)
-- [Jak přidat textový razítkový zápatí v PDF pomocí Aspose.PDF pro .NET: krok za krokem](/pdf/english/net/document-manipulation/add-text-stamp-footer-aspose-pdf-net/)
+Vyzkoušejte to, upravte prefix, pohrávejte si s fonty a nechte automatizaci odlehčit vaši revizní pipeline. Šťastné kódování!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

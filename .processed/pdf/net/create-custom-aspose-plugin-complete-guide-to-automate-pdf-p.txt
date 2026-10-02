@@ -1,0 +1,7 @@
+Title: Create custom Aspose plugin – Complete Guide to Automate PDF Processing
+Slug: create-custom-aspose-plugin-complete-guide-to-automate-pdf-p
+Category: programming-with-document
+ProcessedDate: 2026-06-05T23:43:33.512322
+SourceRepo: AI Search API
+Keywords: create custom aspose plugin, automate pdf processing, load pdf aspose, modify pdf aspose
+PRNumber: 87

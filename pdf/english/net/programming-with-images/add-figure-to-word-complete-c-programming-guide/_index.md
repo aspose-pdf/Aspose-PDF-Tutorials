@@ -1,0 +1,217 @@
+---
+category: general
+date: 2026-04-12
+description: Add figure to Word quickly with C#. Learn how to position figure in Word,
+  insert figure into docx, and add custom XML for advanced layout.
+draft: false
+keywords:
+- add figure to word
+- position figure in word
+- insert figure into docx
+- how to add custom xml
+- how to position shape word
+language: en
+og_description: Add figure to Word quickly with C#. Learn how to position figure in
+  Word, insert figure into docx, and add custom XML for advanced layout.
+og_title: Add Figure to Word – Complete C# Programming Guide
+tags:
+- C#
+- Word Automation
+- Document Generation
+title: Add Figure to Word – Complete C# Programming Guide
+url: /net/programming-with-images/add-figure-to-word-complete-c-programming-guide/
+---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Figure to Word – Complete C# Programming Guide
+
+Ever needed to **add figure to Word** but weren’t sure where to start? You’re not alone. In many office‑automation projects the missing piece is a nicely placed picture or diagram that lives inside a custom XML part. This guide shows you exactly how to **position figure in Word**, insert the figure into a *.docx* file, and even tweak the underlying custom XML so the shape behaves like any native Word object.
+
+We’ll walk through a real‑world example using the GemBox.Document library (free for small files, commercial for larger workloads). By the end you’ll have a self‑contained, runnable program that drops a figure at coordinates X = 50, Y = 200 inside a tagged‑content container. No vague “see the docs” shortcuts—just clear code, why it works, and tips you can copy straight into your own project.
+
+## Prerequisites
+
+- .NET 6.0 or later (the code compiles with .NET Core 3.1 as well)
+- **GemBox.Document** NuGet package (`Install-Package GemBox.Document`)
+- A starter Word file (`input.docx`) that already contains a custom XML tag where you want the figure to appear
+- Basic C# knowledge (you’ll see why each line matters)
+
+> **Pro tip:** If you don’t have a pre‑tagged document, you can create one in Word by inserting a *Content Control* → *XML Mapping Pane* → map a custom XML part. The library will treat that control as `TaggedContent`.
+
+## Step 1 – Load the Source Document
+
+The first thing we do is open the existing *.docx* file. `Document` is the entry point for all GemBox operations.
+
+```csharp
+using GemBox.Document;
+using System.Drawing;
+
+// Set the license key (free version uses a limited license key)
+ComponentInfo.SetLicense("FREE-LIMITED-KEY");
+
+// Step 1: Load the source document
+Document doc = new Document(@"YOUR_DIRECTORY\input.docx");
+```
+
+*Why?* Loading the file gives us access to its internal parts, including any custom XML containers. Without this, we couldn’t locate the `TaggedContent` node that will hold our figure.
+
+## Step 2 – Access the Tagged Content (Custom XML Container)
+
+Custom XML is stored inside a *content control* in Word. GemBox exposes it as `TaggedContent`. 
+
+```csharp
+// Step 2: Access the document's tagged content (the container for custom XML)
+TaggedContent taggedContent = doc.TaggedContent;
+```
+
+If the document has multiple tagged sections, `TaggedContent` returns the **first** one. You can also enumerate `doc.TaggedContents` to pick a specific tag by name.
+
+## Step 3 – Create the Figure Element
+
+A `FigureElement` represents a picture, chart, or any visual object that Word treats as a *shape*. We’ll create it inside the tagged container.
+
+```csharp
+// Step 3: Create a new figure element that will be placed inside the tagged content
+FigureElement figure = taggedContent.CreateFigureElement();
+```
+
+*Why create a figure here?* By attaching it to the custom XML node, Word knows the figure belongs to that logical section, which is crucial for later editing or content‑control‑based workflows.
+
+## Step 4 – Position the Figure Precisely
+
+Word uses points (1 pt ≈ 1/72 in) for positioning. The `PointF` struct lets us set X/Y coordinates easily.
+
+```csharp
+// Step 4: Position the figure at the desired coordinates (X = 50, Y = 200)
+figure.Position = new PointF(50, 200);
+```
+
+> **How to position shape word:** The `Position` property accepts a `PointF` where the first value is the horizontal offset (left) and the second is the vertical offset (top) relative to the page margin. Adjust these numbers to fine‑tune placement.
+
+## Step 5 – Insert the Figure into the Tagged Content Tree
+
+Now we attach the figure to the root element of the custom XML tree. This physically adds the shape to the Word document.
+
+```csharp
+// Step 5: Insert the figure into the root element of the tagged content tree
+taggedContent.RootElement.AppendChild(figure);
+```
+
+At this point the figure lives inside the document, but it doesn’t have an image source yet. Let’s add a simple PNG from disk.
+
+```csharp
+// Optional: Load an image and assign it to the figure
+using (var imageStream = System.IO.File.OpenRead(@"YOUR_DIRECTORY\sample.png"))
+{
+    figure.Image = new Image(imageStream);
+}
+```
+
+## Step 6 – Save the Modified Document
+
+Finally, we write the changes back to a new *.docx* file.
+
+```csharp
+// Step 6: Save the updated document
+doc.Save(@"YOUR_DIRECTORY\output.docx");
+```
+
+When you open `output.docx` in Word, you’ll see the picture positioned exactly at (50, 200) inside the custom‑XML block you targeted.
+
+### Full Working Example
+
+```csharp
+using GemBox.Document;
+using System.Drawing;
+using System.IO;
+
+class Program
+{
+    static void Main()
+    {
+        // License (free version)
+        ComponentInfo.SetLicense("FREE-LIMITED-KEY");
+
+        // Load the source DOCX
+        Document doc = new Document(@"YOUR_DIRECTORY\input.docx");
+
+        // Access the first tagged content container
+        TaggedContent taggedContent = doc.TaggedContent;
+
+        // Create a new figure element
+        FigureElement figure = taggedContent.CreateFigureElement();
+
+        // Position the figure (X = 50 pt, Y = 200 pt)
+        figure.Position = new PointF(50, 200);
+
+        // Load an image file and assign it
+        using (FileStream fs = File.OpenRead(@"YOUR_DIRECTORY\sample.png"))
+        {
+            figure.Image = new Image(fs);
+        }
+
+        // Append the figure to the custom XML root
+        taggedContent.RootElement.AppendChild(figure);
+
+        // Save the result
+        doc.Save(@"YOUR_DIRECTORY\output.docx");
+    }
+}
+```
+
+**Expected result:** Opening `output.docx` shows the PNG placed exactly where you specified, nested inside the custom XML part. If you inspect the document’s XML (`.docx` → unzip → `word/document.xml`), you’ll see a `<w:pict>` element with the correct `<v:shape>` coordinates.
+
+## Common Questions & Edge Cases
+
+### What if the document has multiple tagged sections?
+
+Use `doc.TaggedContents` to enumerate and select by tag name:
+
+```csharp
+TaggedContent myTag = doc.TaggedContents.First(tc => tc.TagName == "MyCustomTag");
+```
+
+### How to add a caption to the figure?
+
+```csharp
+figure.Caption = new CaptionElement("Figure 1 – Sample Diagram");
+```
+
+### Does this work with Word 2010 and later?
+
+Yes. GemBox.Document targets the Open XML standard, which is compatible with Word 2007 + (including 2010, 2013, 2016, 2019, and Microsoft 365).
+
+### What if I need to rotate the shape?
+
+```csharp
+figure.Rotation = 45; // degrees
+```
+
+### How to add a vector graphic instead of a raster image?
+
+```csharp
+figure.Image = new Image(@"YOUR_DIRECTORY\vector.svg");
+```
+
+## Pro Tips & Pitfalls
+
+- **File paths:** Use `Path.Combine` to avoid hard‑coded separators, especially on non‑Windows platforms.
+- **License limits:** The free GemBox license caps the document size to 20 KB. For larger files, purchase a commercial key.
+- **Performance:** Re‑using a single `Document` instance for batch processing reduces memory overhead dramatically.
+- **Shape overflow:** If the figure’s dimensions exceed the page margins, Word will clip it. Adjust `figure.Width` and `figure.Height` accordingly.
+
+## Conclusion
+
+You now know **how to add figure to Word**, precisely **position figure in Word**, and manipulate the underlying custom XML to make the shape behave like any native element. The complete, runnable example demonstrates every step—from loading the document, creating a `FigureElement`, setting its coordinates, attaching an image, and finally saving the updated *.docx*.
+
+Next, try experimenting with **insert figure into docx** by adding multiple figures, using loops, or generating charts on the fly. You might also explore **how to add custom xml** for richer content controls or learn **how to position shape word** in tables and headers. The possibilities are endless, and with the fundamentals covered here you’re ready to automate Word documents like a pro.
+
+Happy coding, and feel free to drop a comment if you hit any snags!
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/products-backtop-button >}}

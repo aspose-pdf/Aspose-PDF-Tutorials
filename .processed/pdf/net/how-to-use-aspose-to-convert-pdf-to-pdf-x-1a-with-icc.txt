@@ -1,0 +1,7 @@
+Title: How to use Aspose to convert PDF to PDF/X‑1A with ICC
+Slug: how-to-use-aspose-to-convert-pdf-to-pdf-x-1a-with-icc
+Category: document-conversion
+ProcessedDate: 2026-09-09T06:19:00.908216
+SourceRepo: AI Search API
+Keywords: how to use aspose, how to add icc, pdf conversion options, specify icc profile, load pdf aspose
+PRNumber: 127

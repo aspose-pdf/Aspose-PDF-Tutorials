@@ -44,8 +44,6 @@ In questo tutorial percorreremo un esempio completo, pronto‑da‑eseguire, che
 
 **Prerequisiti:** .NET 6+ (o .NET Framework 4.6+), Visual Studio o qualsiasi IDE C#, e una licenza valida di Aspose.PDF (o la valutazione gratuita). Non sono richieste altre librerie di terze parti.
 
-![Create PDF Document example](alt="Create PDF Document with Aspose.PDF showing a red rectangle that exceeds page bounds")
-
 ---
 
 ## Passo 1 – Inizializza il documento PDF

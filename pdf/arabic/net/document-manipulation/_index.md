@@ -194,6 +194,8 @@
 ### [كيفية إزالة إجراءات فتح ملفات PDF باستخدام Aspose.PDF لـ .NET: دليل شامل](./remove-pdf-open-action-aspose-dotnet-guide/)
 تعرّف على كيفية إزالة عمليات الفتح غير المرغوب فيها من ملفات PDF باستخدام Aspose.PDF لـ .NET. يقدم هذا الدليل إرشادات خطوة بخطوة وأفضل الممارسات.
 
+### [إزالة الخط من ملف PDF باستخدام Aspose – دليل خطوة بخطوة](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
+
 ### [كيفية تقسيم صفحات PDF باستخدام Aspose.PDF لـ .NET: دليل شامل](./mastering-pdf-page-splitting-aspose-pdf-net/)
 تعلّم كيفية تقسيم صفحات PDF بكفاءة إلى ملفات منفصلة باستخدام Aspose.PDF لـ .NET مع هذا الدليل الشامل. طوّر مهاراتك في التعامل مع المستندات اليوم.
 
@@ -313,6 +315,17 @@
 
 ### [الدليل الشامل لمعالجة ملفات PDF باستخدام Aspose.PDF .NET: تحميل وحفظ واستبدال النص بكفاءة](./master-pdf-manipulation-aspose-pdf-net/)
 تعلّم كيفية إتقان معالجة ملفات PDF باستخدام Aspose.PDF .NET. يغطي هذا الدليل تحميل النصوص وحفظها واستبدالها في ملفات PDF، وهو مثالي للمطورين الباحثين عن الكفاءة.
+
+### [كيفية تعديل PDF في C# – إخفاء النص وإزالة المحتوى](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
+
+### [كيفية إصلاح ملفات PDF في C# – إصلاح ملفات PDF التالفة بسرعة](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
+تعرف على طريقة إصلاح ملفات PDF التالفة بسرعة باستخدام C# ومكتبة Aspose.PDF.
+
+### [كيفية إخفاء محتوى PDF في C# باستخدام Aspose PDF – دليل شامل](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
+
+### [كيفية تسوية ملف PDF باستخدام Aspose.PDF – دليل شامل](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+
+### [كيفية مقارنة ملفات PDF باستخدام Aspose – دليل خطوة بخطوة](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
 
 ## موارد إضافية
 
