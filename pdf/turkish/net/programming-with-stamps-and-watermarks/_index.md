@@ -49,8 +49,8 @@ Aspose.PDF'nin .NET için "Pullar ve Filigranlarla Programlama" öğreticileri, 
 | [PDF Tam Sayfa Bildirimi Oluştur – Hızlı C# Kılavuzu](./create-pdf-full-page-notice-quick-c-guide/) Aspose.PDF for .NET kullanarak C# ile tam sayfa bir bildirim eklemeyi adım adım öğrenin. |  
 | [C# ile PDF'lere Bates Numaralandırması Ekle – Tam Kılavuz](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF dosyalarına Bates numaralandırması eklemeyi adım adım öğrenin. |
 | [Aspose ile PDF'lere Bates Numaralandırma Ekle – Tam Kılavuz](./add-bates-numbering-to-pdfs-with-aspose-complete-guide/) | Aspose.PDF for .NET kullanarak PDF dosyalarına Bates numaralandırması eklemeyi adım adım öğrenin. |  
-| [C# ile Bates Numaralandırması PDF Ekleme – Tam Kılavuz](./add-bates-numbering-pdf-in-c-complete-guide/) Aspose.PDF for .NET kullanarak C# ile PDF dosyalarına Bates numaralandırması eklemeyi adım adım öğrenin. |  
 
+| [C# ile Bates Numaralandırma PDF Ekle – Tam Kılavuz](./add-bates-numbering-pdf-in-c-complete-guide/) | Aspose.PDF for .NET kullanarak PDF dosyalarına Bates numaralandırma eklemeyi adım adım öğrenin. |  
 | [PDF Dosyasında Hizalamayı Tanımla](./define-alignment/) | Bu kılavuz, .NET için Aspose.PDF'yi kullanarak PDF dosyalarında metin hizalamasının nasıl tanımlanacağını adım adım bir eğitimle birlikte ele almaktadır. |
 | [Üstbilgi Altbilgi Bölümünde Resim ve Sayfa Numarası Satır İçi](./image-and-page-number-in-header-footer-section-inline/) | Aspose.PDF for .NET'i kullanarak PDF'in başlık bölümüne satır içi resim ve sayfa numarasının nasıl ekleneceğini bu adım adım kılavuzla öğrenin. |
 | [Başlıktaki Resim](./image-in-header/) | Bu adım adım eğitimde Aspose.PDF for .NET kullanarak PDF'nin başlığına nasıl resim ekleneceğini öğrenin. |

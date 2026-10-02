@@ -77,6 +77,7 @@ Tanuld meg, hogyan szabhatsz testre PDF oldalakat az Aspose.PDF for .NET segíts
 Tanuld meg, hogyan törölhetsz hatékonyan bizonyos oldalakat egy PDF-ből az Aspose.PDF for .NET használatával ezzel a lépésről lépésre haladó C# oktatóanyaggal.
 
 ### [Hatékony PDF-optimalizálás: Nem használt objektumok eltávolítása az Aspose.PDF for .NET használatával](./optimize-pdf-aspose-pdf-net-remove-unused-objects/)
+Ismerje meg, hogyan optimalizálhatja a PDF-fájlokat a nem használt objektumok eltávolításával az Aspose.PDF for .NET segítségével, javítva a fájlméretet és a teljesítményt.
 
 ### [Beágyazott betűtípusok eltávolítása PDF-ből – Lépésről‑lépésre C# útmutató](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
 Tanulja meg, hogyan távolíthatja el a PDF-fájlok beágyazott betűtípusait C#-ban az Aspose.PDF for .NET segítségével.

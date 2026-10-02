@@ -29,12 +29,12 @@ Aspose.PDF for .NET을 사용하여 PDF 문서에 주석을 추가하는 방법�
 | [PDF 파일에 특정 주석 추가](./getparticularannotation/) | Aspose.PDF for .NET을 사용하여 PDF 파일에서 특정 주석을 추출하는 방법을 2,000단어 분량의 상세한 튜토리얼에서 알아보세요. 개발자에게 안성맞춤입니다. |  
 | [주석 리소스 가져오기](./getresourceofannotation/) | Aspose.PDF for .NET으로 PDF 관리의 힘을 활용하세요. 원활한 PDF 주석 및 조작을 위한 필수 라이브러리입니다. |  
 | [PDF 파일의 보이지 않는 주석](./invisibleannotation/) | Aspose.PDF for .NET을 사용하여 PDF 파일에 보이지 않는 주석을 추가하는 방법을 알아보세요. 단계별 가이드를 따라 이 강력한 기능을 완벽하게 익혀보세요. |  
-| [lnk 주석 선 너비](./lnkannotationlinewidth/) | Aspose.PDF for .NET을 사용하여 PDF의 잉크 주석 선 두께를 설정하는 방법을 알아보세요. 이 상세한 튜토리얼은 각 단계를 안내하여 고품질 출력을 보장합니다. |  
+| [lnk 주석 선 너비](./lnkannotationlinewidth/) Aspose.PDF for .NET을 사용하여 PDF의 잉크 주석 선 두께를 설정하는 방법을 알아보세요. 이 상세한 튜토리얼은 각 단계를 안내하여 고품질 출력을 보장합니다. |  
 | [페이지 삭제](./redactpage/) | 이 포괄적인 단계별 가이드를 통해 Aspose.PDF for .NET을 사용하여 문서를 효과적으로 편집하는 방법을 알아보세요. |  
 | [PDF 파일에서 콜아웃 속성 설정](./setcalloutproperty/) | 이 자세하고 단계별 튜토리얼을 통해 Aspose.PDF for .NET을 사용하여 PDF 파일에서 콜아웃 속성을 설정하는 방법을 알아보세요. |  
 | [자유 텍스트 주석 서식 설정](./setfreetextannotationformatting/) | 이 단계별 가이드를 통해 Aspose.PDF for .NET을 사용하여 PDF 문서에 자유 텍스트 주석 서식을 설정하는 방법을 알아보세요. |  
 | [단어를 삭제하세요](./strikeoutwords/) | Aspose.PDF for .NET을 사용하여 PDF에서 단어를 지우는 방법을 단계별로 자세히 알아보세요. 문서 편집 실력을 향상시켜 보세요. |  
-| [자유 텍스트 PDF 주석 업데이트](./updatefreetextannotation/) | 이 단계별 가이드를 통해 Aspose.PDF for .NET을 사용하여 PDF 문서의 자유 텍스트 주석을 업데이트하는 방법을 알아보세요. |  
+| [자유 텍스트 PDF 주석 업데이트](./updatefreetextannotation/) 이 단계별 가이드를 통해 Aspose.PDF for .NET을 사용하여 PDF 문서의 자유 텍스트 주석을 업데이트하는 방법을 알아보세요. |  
 | [Aspose.PDF에서 복구 사용 방법 – 손상된 주석 수정](./how-to-use-repair-in-aspose-pdf-fix-broken-annotations/) | Aspose.PDF의 Repair 기능을 활용하여 손상된 주석을 복구하고 PDF 문서를 정상화하는 단계별 가이드입니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

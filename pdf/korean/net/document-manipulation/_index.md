@@ -140,7 +140,7 @@ Aspose.PDF for .NET을 사용하여 PDF의 페이지 크기를 효율적으로 �
 이 포괄적인 가이드를 통해 Aspose.PDF for .NET을 사용하여 PDF 스트림을 연결하는 방법을 알아보세요. 단계별 지침, 사전 요구 사항 및 실제 적용 사례를 살펴보세요.
 
 ### [.NET용 Aspose.PDF를 사용하여 PDF를 연결하는 방법: 완전한 가이드](./concatenate-pdfs-aspose-pdf-dotnet-guide/)
-Aspose.PDF for .NET을 사용하여 여러 PDF 파일을 병합하는 방법을 알아보세요. 이 포괄적인 가이드는 설정, 구현 및 실제 적용 사례를 다룹니다.
+Aspose.PDF for .NET을 사용하여 여러 PDF 파일을 병합하는 방법을 알아보세요. 이 포괄적인 가이드에서는 설정, 구현 및 실제 적용 사례를 다룹니다.
 
 ### [Aspose.PDF for .NET을 사용하여 빈 페이지가 있는 PDF를 연결하는 방법: 완전한 가이드](./concatenate-pdfs-blank-pages-aspose-pdf-net/)
 Aspose.PDF for .NET을 사용하여 PDF 파일을 병합하고 빈 페이지를 추가하는 방법을 알아보세요. 문서 관리 워크플로를 효율적으로 간소화하세요.
@@ -313,6 +313,9 @@ Aspose.PDF for .NET을 사용하여 여러 페이지로 구성된 PDF를 분할�
 ### [Aspose.PDF .NET을 활용한 PDF 조작 완벽 가이드: 텍스트를 효율적으로 로드, 저장 및 바꾸기](./master-pdf-manipulation-aspose-pdf-net/)
 Aspose.PDF for .NET을 사용하여 PDF를 완벽하게 다루는 방법을 알아보세요. 이 가이드에서는 PDF의 텍스트 로드, 저장 및 바꾸기를 다루며, 효율성을 추구하는 개발자에게 이상적입니다.
 
+### [PDF에서 내장 폰트 제거 방법 – 단계별 C# 가이드](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
+Aspose.PDF for .NET을 사용하여 PDF에서 내장된 폰트를 제거하는 방법을 단계별로 안내합니다.
+
 ### [Aspose.PDF를 사용하여 PDF 평탄화하는 방법 – 완전 가이드](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
 
 ### [Aspose를 사용하여 PDF를 비교하는 방법 – 단계별 가이드](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
@@ -325,8 +328,6 @@ Aspose.PDF for .NET을 사용하여 C#에서 PDF의 민감한 텍스트를 숨�
 C#과 Aspose.PDF를 사용하여 손상된 PDF 파일을 빠르게 복구하는 방법을 단계별로 안내합니다.
 ### [C#와 Aspose PDF를 사용하여 PDF를 레드랙트하는 방법 – 완전 가이드](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
 Aspose PDF for .NET을 활용해 C#에서 PDF 문서의 민감한 정보를 레드랙트(가리기)하는 방법을 단계별로 안내합니다.
-### [PDF에서 내장 폰트 제거 방법 – 단계별 C# 가이드](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
-Aspose.PDF for .NET을 사용하여 PDF에서 내장된 폰트를 제거하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 
