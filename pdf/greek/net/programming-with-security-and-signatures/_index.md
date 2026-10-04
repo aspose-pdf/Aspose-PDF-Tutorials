@@ -43,7 +43,7 @@
 | [Οδηγός υπογραφής PDF: Επαλήθευση ψηφιακής υπογραφής PDF σε C#](./pdf-signature-tutorial-verify-a-pdf-s-digital-signature-in-c/) | Μάθετε πώς να επαληθεύετε ψηφιακές υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF. |  
 | [Επικύρωση ψηφιακής υπογραφής PDF σε C# – Πλήρης οδηγός Aspose.PDF](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) | Μάθετε πώς να επικυρώνετε ψηφιακές υπογραφές σε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET με C#. Οδηγός βήμα‑βήμα. |  
 | [Διαμόρφωση διακομιστή CA σε C# – Πλήρης οδηγός για την επικύρωση υπογραφών εγγράφων Word](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) | Μάθετε πώς να ρυθμίσετε έναν διακομιστή CA σε C# για την επικύρωση ψηφιακών υπογραφών εγγράφων Word. |
-| [Επικύρωση ψηφιακής υπογραφής PDF – Πλήρης οδηγός C#](./validate-pdf-digital-signature-complete-c-guide/) | Μάθετε πώς να επικυρώνετε ψηφιακές υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF, βήμα προς βήμα οδηγός. |
+| [Επικύρωση ψηφιακής υπογραφής PDF – Πλήρης οδηγός C#](./validate-pdf-digital-signature-complete-c-guide/) | Μάθετε πώς να επικυρώνετε ψηφιακές υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF. Βήμα προς βήμα οδηγός. |
 | [Πώς να διαβάσετε υπογραφές σε PDF – Πλήρης οδηγός C#](./how-to-read-signatures-in-a-pdf-complete-c-guide/) | Μάθετε πώς να διαβάζετε υπογραφές PDF με πλήρη οδηγό C# και Aspose.PDF. |
 | [Πώς να επαληθεύσετε τις υπογραφές PDF σε C# – Πλήρης οδηγός](./how-to-verify-pdf-signatures-in-c-full-guide/) | Μάθετε πώς να επαληθεύσετε υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF. Οδηγός βήμα προς βήμα για ασφαλή επαλήθευση. |  
 | [Οδηγός υπογραφής PDF – Επαλήθευση και επικύρωση υπογραφών PDF σε C#](./pdf-signature-tutorial-verify-and-validate-pdf-signatures-in/) | Μάθετε πώς να επαληθεύετε και να επικυρώνετε ψηφιακές υπογραφές PDF με C# και Aspose.PDF. |  
@@ -53,7 +53,28 @@
 | [Δημιουργία αποσπασμένου υπογράφοντος PKCS7 σε C# – Πλήρης οδηγός](./create-pkcs7-detached-signer-in-c-complete-guide/) | Μάθετε πώς να δημιουργήσετε αποσπαστικό υπογραφέα PKCS7 σε C# με βήμα-βήμα οδηγίες. |  
 | [Ανάκτηση ονομάτων υπογραφών PDF με Aspose.PDF σε C#](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | Μάθετε πώς να ανακτήσετε τα ονόματα των υπογραφών PDF με το Aspose.PDF σε C#. |  
 | [Επικύρωση υπογραφής PDF σε C# – Πλήρης οδηγός βήμα‑βήμα](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | Μάθετε πώς να επικυρώνετε ψηφιακές υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF, βήμα‑βήμα οδηγίες. |
-
+| [Πώς να επαληθεύσετε την υπογραφή PDF σε C# – Πλήρης οδηγός](./how-to-verify-pdf-signature-in-c-complete-guide/) | Μάθετε πώς να επαληθεύετε ψηφιακές υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF, βήμα προς βήμα. |
+| [Επικύρωση υπογραφής PDF σε C# – Πλήρης οδηγός](./validate-pdf-signature-in-c-complete-guide/) | Μάθετε πώς να επικυρώσετε ψηφιακές υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF. |
+| [Έλεγχος υπογραφών PDF με Aspose.Pdf – Πλήρης οδηγός](./check-pdf-signatures-with-aspose-pdf-complete-guide/) | Μάθετε πώς να ελέγχετε και να επαληθεύετε υπογραφές PDF χρησιμοποιώντας το Aspose.Pdf σε πλήρη οδηγό βήμα προς βήμα. |  
+| [Δημιουργία αποσπασμένου υπογράφοντος PKCS7 σε C# – Πλήρης οδηγός](./create-pkcs7-detached-signer-in-c-complete-guide/) | Μάθετε πώς να δημιουργήσετε αποσπαστικό υπογραφέα PKCS7 σε C# με βήμα-βήμα οδηγίες. |
+| [Ανάκτηση ονομάτων υπογραφών PDF με Aspose.PDF σε C#](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | Μάθετε πώς να ανακτήσετε τα ονόματα των υπογραφών PDF με το Aspose.PDF σε C#. |
+| [Επικύρωση υπογραφής PDF σε C# – Πλήρης οδηγός βήμα‑βήμα](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | Μάθετε πώς να επικυρώνετε ψηφιακές υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF, βήμα‑βήμα οδηγίες. |
+| [Πώς να επαληθεύσετε την υπογραφή PDF σε C# – Πλήρης οδηγός](./how-to-verify-pdf-signature-in-c-complete-guide/) | Μάθετε πώς να επαληθεύετε ψηφιακές υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF, βήμα προς βήμα. |
+| [Επικύρωση υπογραφής PDF σε C# – Πλήρης οδηγός](./validate-pdf-signature-in-c-complete-guide/) | Μάθετε πώς να επικυρώσετε ψηφιακές υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF. |
+| [Έλεγχος υπογραφών PDF με Aspose.Pdf – Πλήρης οδηγός](./check-pdf-signatures-with-aspose-pdf-complete-guide/) | Μάθετε πώς να ελέγχετε και να επαληθεύετε υπογραφές PDF χρησιμοποιώντας το Aspose.Pdf σε πλήρη οδηγό βήμα προς βήμα. |
+| [Δημιουργία αποσπασμένου υπογράφοντος PKCS7 σε C# – Πλήρης οδηγός](./create-pkcs7-detached-signer-in-c-complete-guide/) | Μάθετε πώς να δημιουργήσετε αποσπαστικό υπογραφέα PKCS7 σε C# με βήμα-βήμα οδηγίες. |
+| [Ανάκτηση ονομάτων υπογραφών PDF με Aspose.PDF σε C#](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | Μάθετε πώς να ανακτήσετε τα ονόματα των υπογραφών PDF με το Aspose.PDF σε C#. |
+| [Επικύρωση υπογραφής PDF σε C# – Πλήρης οδηγός βήμα‑βήμα](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | Μάθετε πώς να επικυρώνετε ψηφιακές υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF, βήμα‑βήμα οδηγίες. |
+| [Πώς να επαληθεύσετε την υπογραφή PDF σε C# – Πλήρης οδηγός](./how-to-verify-pdf-signature-in-c-complete-guide/) | Μάθετε πώς να επαληθεύετε ψηφιακές υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF, βήμα προς βήμα. |
+| [Επικύρωση υπογραφής PDF σε C# – Πλήρης οδηγός](./validate-pdf-signature-in-c-complete-guide/) | Μάθετε πώς να επικυρώσετε ψηφιακές υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF. |
+| [Έλεγχος υπογραφών PDF με Aspose.Pdf – Πλήρης οδηγός](./check-pdf-signatures-with-aspose-pdf-complete-guide/) | Μάθετε πώς να ελέγχετε και να επαληθεύετε υπογραφές PDF χρησιμοποιώντας το Aspose.Pdf σε πλήρη οδηγό βήμα προς βήμα. |
+| [Δημιουργία αποσπασμένου υπογράφοντος PKCS7 σε C# – Πλήρης οδηγός](./create-pkcs7-detached-signer-in-c-complete-guide/) | Μάθετε πώς να δημιουργήσετε αποσπαστικό υπογραφέα PKCS7 σε C# με βήμα-βήμα οδηγίες. |
+| [Ανάκτηση ονομάτων υπογραφών PDF με Aspose.PDF σε C#](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | Μάθετε πώς να ανακτήσετε τα ονόματα των υπογραφών PDF με το Aspose.PDF σε C#. |
+| [Επικύρωση υπογραφής PDF σε C# – Πλήρης οδηγός βήμα‑βήμα](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | Μάθετε πώς να επικυρώνετε ψηφιακές υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF, βήμα‑βήμα οδηγίες. |
+| [Πώς να επαληθεύσετε την υπογραφή PDF σε C# – Πλήρης οδηγός](./how-to-verify-pdf-signature-in-c-complete-guide/) | Μάθετε πώς να επαληθεύετε ψηφιακές υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF, βήμα προς βήμα. |
+| [Επικύρωση υπογραφής PDF σε C# – Πλήρης οδηγός](./validate-pdf-signature-in-c-complete-guide/) | Μάθετε πώς να επικυρώσετε ψηφιακές υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF. |
+| [Έλεγχος υπογραφών PDF με Aspose.Pdf – Πλήρης οδηγός](./check-pdf-signatures-with-aspose-pdf-complete-guide/) | Μάθετε πώς να ελέγχετε και να επαληθεύετε υπογραφές PDF χρησιμοποιώντας το Aspose.Pdf σε πλήρη οδηγό βήμα προς βήμα. |
+| [Πώς να επικυρώσετε υπογραφές PDF με Aspose.PDF σε C#](./how-to-validate-pdf-signatures-with-aspose-pdf-in-c/) | Μάθετε πώς να επικυρώνετε υπογραφές PDF χρησιμοποιώντας Aspose.PDF σε C#. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -107,4 +128,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

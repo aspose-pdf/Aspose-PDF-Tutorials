@@ -52,6 +52,7 @@ Hướng dẫn cung cấp cho bạn tổng quan chi tiết về các phương ph
 | [Xác thực chữ ký PDF trong C# – Hướng dẫn chi tiết từng bước](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | Học cách xác thực chữ ký PDF bằng C# với Aspose.PDF qua hướng dẫn chi tiết từng bước, giúp bạn kiểm tra tính hợp lệ của chữ ký. |  
 | [Tạo PKCS7 Detached Signer trong C# – Hướng dẫn đầy đủ](./create-pkcs7-detached-signer-in-c-complete-guide/) | Học cách tạo chữ ký PKCS7 tách rời trong C# bằng Aspose.PDF cho .NET qua hướng dẫn chi tiết từng bước. |  
 | [Lấy tên chữ ký PDF bằng Aspose.PDF trong C#](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | Học cách lấy tên các chữ ký trong tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết. |  
+| [Cách xác thực chữ ký PDF với Aspose.PDF trong C#](./how-to-validate-pdf-signatures-with-aspose-pdf-in-c/) | Hướng dẫn chi tiết cách xác thực chữ ký PDF bằng Aspose.PDF trong C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -106,4 +107,3 @@ Hướng dẫn cung cấp cho bạn tổng quan chi tiết về các phương ph
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

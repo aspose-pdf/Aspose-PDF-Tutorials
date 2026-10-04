@@ -53,6 +53,8 @@
 | [Создание PKCS7 Detached Signer в C# – Полное руководство](./create-pkcs7-detached-signer-in-c-complete-guide/) | Узнайте, как создать PKCS7 Detached Signer в C# с помощью Aspose.PDF для .NET. Пошаговое полное руководство. |  
 | [Получить имена подписей PDF с Aspose.PDF в C#](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | Узнайте, как извлечь имена подписей PDF с помощью Aspose.PDF для .NET в C#. |  
 | [Проверка подписи PDF в C# – Полное пошаговое руководство](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | Узнайте, как проверять подписи PDF в C# с помощью Aspose.PDF в полном пошаговом руководстве. |  
+| [Как проверить подпись PDF в C# – Полное пошаговое руководство](./how-to-validate-pdf-signatures-with-aspose-pdf-in-c/) | Узнайте, как проверять подписи PDF в C# с помощью Aspose.PDF, следуя пошаговому руководству. |  
+| [Проверка подписи PDF в C# – Полное пошаговое руководство](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | Узнайте, как проверять подписи PDF в C# с помощью Aspose.PDF, шаг за шагом, обеспечивая подлинность и целостность документов. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -107,4 +109,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

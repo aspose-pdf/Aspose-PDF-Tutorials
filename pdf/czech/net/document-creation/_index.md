@@ -96,6 +96,9 @@ Naučte se, jak v C# vytvořit PDF dokument přímo v paměti bez ukládání na
 ### [Vytvořte PDF dokument v C# – krok za krokem průvodce přidáním prázdné stránky a nakreslením obdélníku](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
 Naučte se, jak vytvořit PDF dokument, přidat prázdnou stránku a nakreslit obdélník pomocí Aspose.PDF pro .NET.
 
+### [Vytvoření odstavce PDF pomocí Aspose: přidání grafiky a vložení stránky](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
+Naučte se, jak vytvořit PDF s odstavcem, přidat grafiku a vložit novou stránku pomocí Aspose.PDF pro .NET.
+
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)

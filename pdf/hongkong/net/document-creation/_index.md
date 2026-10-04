@@ -96,6 +96,9 @@ Aspose.PDF Net 程式碼教學
 ### [使用 Aspose.PDF for .NET 建立 PDF 文件（C#） – 逐步指南：新增空白頁面並繪製矩形](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中建立 PDF 文件，新增空白頁面並繪製矩形。
 
+### [使用 Aspose 建立段落 PDF：新增圖形與插入頁面](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
+了解如何使用 Aspose.PDF 在 .NET 中建立段落 PDF，並加入圖形與插入新頁面。
+
 ## 其他資源
 
 - [Aspose.PDF 用於網頁文檔](https://docs.aspose.com/pdf/net/)

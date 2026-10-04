@@ -53,7 +53,7 @@ Handledningen ger dig en detaljerad översikt över metoder och tekniker för at
 | [Validera PDF-signatur i C# – Komplett steg‑för‑steg‑guide](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | Lär dig hur du validerar PDF-signaturer med Aspose.PDF för .NET i C#. |
 | [Skapa PKCS7 fristående signerare i C# – Komplett guide](./create-pkcs7-detached-signer-in-c-complete-guide/) | Lär dig hur du skapar en PKCS7 fristående signatur i C# med Aspose.PDF för .NET. |
 | [Hämta PDF-signaturnamn med Aspose.PDF i C#](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | Lär dig hur du extraherar namn på digitala signaturer från PDF-dokument med Aspose.PDF för .NET i C#. |
-
+| [Hur man validerar PDF-signaturer med Aspose.PDF i C#](./how-to-validate-pdf-signatures-with-aspose-pdf-in-c/) | Lär dig hur du validerar PDF‑signaturer med Aspose.PDF i C#. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -107,4 +107,3 @@ Handledningen ger dig en detaljerad översikt över metoder och tekniker för at
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

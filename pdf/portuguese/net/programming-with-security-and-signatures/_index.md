@@ -55,6 +55,7 @@ Este tutorial oferece uma visão geral detalhada de métodos e técnicas para ga
 | [Criar Assinador PKCS7 Destacado em C# – Guia Completo](./create-pkcs7-detached-signer-in-c-complete-guide/) | Aprenda a criar assinaturas PKCS7 destacadas em C# usando Aspose.PDF, passo a passo, para garantir integridade e autenticidade dos PDFs. |
 | [Recuperar Nomes de Assinaturas PDF com Aspose.PDF em C#](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | Aprenda a obter os nomes das assinaturas em PDFs usando Aspose.PDF para .NET em C#. |
 | [Validar assinatura PDF em C# – Guia completo passo a passo](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | Aprenda a validar assinaturas PDF usando C# e Aspose.PDF para .NET com este guia passo a passo completo. |
+| [Como validar assinaturas PDF com Aspose.PDF em C#](./how-to-validate-pdf-signatures-with-aspose-pdf-in-c/) | Aprenda a validar assinaturas PDF usando Aspose.PDF em C# com um guia passo a passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -107,4 +108,3 @@ Este tutorial oferece uma visão geral detalhada de métodos e técnicas para ga
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

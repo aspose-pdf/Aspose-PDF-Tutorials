@@ -91,7 +91,6 @@
 ### [สร้างเอกสาร PDF – เพิ่มหน้าใน PDF, แท็กหัวเรื่อง, และกำหนดตำแหน่งองค์ประกอบ](./create-pdf-document-add-page-to-pdf-tag-heading-and-position/)
 เรียนรู้วิธีสร้างเอกสาร PDF เพิ่มหน้า แท็กหัวเรื่อง และกำหนดตำแหน่งขององค์ประกอบต่างๆ ด้วย Aspose.PDF สำหรับ .NET
 
-
 ### [สร้างเอกสาร PDF ใน C# – เพิ่มหน้าเปล่า, แท็กและ Span](./create-pdf-document-in-c-add-blank-page-tags-and-span/)
 เรียนรู้วิธีสร้างไฟล์ PDF ด้วย C# พร้อมเพิ่มหน้าเปล่า แท็ก และ Span อย่างง่ายดาย
 
@@ -107,6 +106,9 @@
 ### [สร้างเอกสาร PDF ใน C# – คู่มือเต็มสำหรับการสร้างในหน่วยความจำ](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
 ### [สร้างเอกสาร PDF ด้วย C# – คู่มือทีละขั้นตอนเพื่อเพิ่มหน้าเปล่าและวาดสี่เหลี่ยม](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
 เรียนรู้วิธีเพิ่มหน้าเปล่าและวาดสี่เหลี่ยมในเอกสาร PDF ด้วย Aspose.PDF สำหรับ .NET ผ่าน C#
+
+### [สร้างย่อหน้ PDF ด้วย Aspose: เพิ่มกราฟิกและแทรกหน้า](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
+เรียนรู้วิธีสร้างย่อหน้าที่มีกราฟิกและแทรกหน้าใน PDF ด้วย Aspose
 
 ## แหล่งข้อมูลเพิ่มเติม
 

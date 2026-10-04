@@ -24,6 +24,7 @@
 - [ตัวดำเนินการ PDF](./pdf-operators/) | คำแนะนำทีละขั้นตอนในการใช้ตัวดำเนินการ PDF กับ Aspose.PDF สำหรับ .NET เพิ่มรูปภาพลงในหน้า PDF และระบุตำแหน่งของรูปภาพ -  
 | [ลบวัตถุกราฟิกออกจากไฟล์ PDF](./remove-graphics-objects/) เรียนรู้วิธีการลบวัตถุกราฟิกออกจากไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนนี้ ทำให้ภารกิจการจัดการ PDF ของคุณง่ายขึ้น |  
 - [วนรอบคอลเลกชัน C# – คู่มือแบบง่ายสำหรับการวนลูปรายการ](./iterate-collection-c-simple-guide-to-loop-over-items/) | เรียนรู้วิธีวนลูปผ่านคอลเลกชันใน C# อย่างง่ายด้วย Aspose.PDF สำหรับ .NET
+- [วิธีเปลี่ยนความโปร่งใสของ PDF ด้วย Aspose.Pdf ใน C#](./how-to-change-pdf-transparency-using-aspose-pdf-in-c/) | เรียนรู้วิธีปรับความโปร่งใสของวัตถุในไฟล์ PDF ด้วย Aspose.Pdf สำหรับ .NET ในภาษา C#
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
