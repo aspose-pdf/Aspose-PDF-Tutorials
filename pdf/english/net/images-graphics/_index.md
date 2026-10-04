@@ -20,6 +20,9 @@ Discover how to enhance PDF documents with visual elements using our comprehensi
 ### [Add Image Stamps to PDFs Using Aspose.PDF for .NET&#58; A Step-by-Step Guide](./add-image-stamp-to-pdf-aspose-dotnet/)
 Learn how to seamlessly add image stamps, such as logos, to every page of a PDF using Aspose.PDF for .NET. Enhance your documents with professional branding.
 
+### [Add custom ExtGState PDF with Aspose.PDF – step‑by‑step guide](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
+Learn how to add custom ExtGState objects to PDFs using Aspose.PDF for .NET, enabling advanced transparency and blending effects.
+
 ### [Add Images to PDFs Using Aspose.PDF for .NET&#58; A Step-by-Step Guide](./adding-images-aspose-pdf-net-guide/)
 Learn how to add images to PDF documents using Aspose.PDF for .NET with this detailed guide. Enhance your reports and brochures by mastering XImage collections and matrix transformations.
 
@@ -37,8 +40,10 @@ Learn how to create and fill rectangles in PDF documents using Aspose.PDF for .N
 
 ### [How to Draw Rectangle in PDF with C# – Step‑by‑Step Guide](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
 Learn how to draw a rectangle in a PDF using Aspose.PDF for .NET with C#. Follow this step‑by‑step guide.
+
 ### [Add Rectangle to PDF with C# – Full Aspose PDF Guide](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
 Learn how to add rectangles to PDF documents using Aspose.PDF for .NET with C# in this comprehensive guide.
+
 ### [Add Rectangle to PDF with Aspose.PDF – Complete Programming Guide](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
 Learn how to add rectangles to PDF documents using Aspose.PDF for .NET with a complete programming guide and practical C# examples.
 

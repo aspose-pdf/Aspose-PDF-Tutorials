@@ -178,6 +178,9 @@ Aspose.PDF नेट के लिए एक कोड ट्यूटोरि�
 
 ### [.NET के लिए Aspose.PDF का उपयोग करके PDF में आयत जोड़ें – पूर्ण प्रोग्रामिंग गाइड](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
 
+### [Aspose.PDF के साथ कस्टम ExtGState PDF जोड़ें – चरण‑दर‑चरण गाइड](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
+Aspose.PDF का उपयोग करके PDF में कस्टम ExtGState जोड़ने की प्रक्रिया सीखें। विस्तृत कोड उदाहरण और सर्वोत्तम अभ्यास।
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.PDF for Net दस्तावेज़ीकरण](https://docs.aspose.com/pdf/net/)

@@ -176,6 +176,8 @@ Aspose.PDF Net 代码教程
 ### [使用 Aspose.Pdf for .NET 设置 PDF 中的图像背景：综合指南](./aspose-pdf-net-set-image-backgrounds/)
 了解如何使用 Aspose.PDF for .NET 设置图像背景来增强您的 PDF 文档。本指南涵盖设置、实施和优化技巧。
 
+### [使用 Aspose.PDF for .NET 添加自定义 ExtGState PDF – 分步指南](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
+
 ## 其他资源
 
 - [Aspose.PDF 用于网络文档](https://docs.aspose.com/pdf/net/)

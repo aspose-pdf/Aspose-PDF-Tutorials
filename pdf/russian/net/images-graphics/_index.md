@@ -177,6 +177,9 @@
 ### [Добавление прозрачности в PDF с помощью Aspose.PDF в C# – пошаговое руководство](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Узнайте, как применять прозрачность к элементам PDF с помощью Aspose.PDF в C#, следуя пошаговым инструкциям.
 
+### [Добавление пользовательского ExtGState в PDF с помощью Aspose.PDF – пошаговое руководство](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
+Узнайте, как создавать и применять пользовательские ExtGState объекты для управления прозрачностью и режимами наложения в PDF с помощью Aspose.PDF для .NET.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.PDF для сети](https://docs.aspose.com/pdf/net/)
