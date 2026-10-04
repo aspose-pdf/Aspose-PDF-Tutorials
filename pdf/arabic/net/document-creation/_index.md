@@ -96,6 +96,8 @@
 
 ### [إنشاء مستند PDF في C# – دليل كامل للإنشاء في الذاكرة](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
 
+### [إنشاء فقرة PDF باستخدام Aspose: إضافة رسومات وإدراج صفحة](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

@@ -94,9 +94,11 @@ Tanulja meg, hogyan hozhat létre PDF dokumentumot teljes körű C# példakódda
 ### [PDF dokumentum létrehozása C#-ban – Oldal hozzáadása PDF-hez és téglalap rajzolása](./create-pdf-document-in-c-add-page-to-pdf-draw-rectangle/)
 Tanulja meg, hogyan adhat hozzá oldalt egy PDF-hez, és rajzolhat téglalapot C#-ban az Aspose.PDF for .NET használatával.
 
-
 ### [PDF dokumentum létrehozása C#‑ban – Teljes útmutató a memóriában történő generáláshoz](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
 Ismerje meg, hogyan hozhat létre PDF dokumentumot C#‑ban memóriában, anélkül, hogy fájlt mentene a lemezre.
+
+### [Paragrafus PDF létrehozása Aspose: grafika hozzáadása és oldal beszúrása](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
+Tanulja meg, hogyan hozhat létre bekezdés PDF-et, grafikai elemeket adhat hozzá, és oldalt szúrhat be az Aspose.PDF for .NET használatával.
 
 ## További források
 

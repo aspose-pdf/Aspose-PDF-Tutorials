@@ -98,6 +98,9 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# PDFs vollständig im Speich
 ### [PDF-Dokument erstellen in C# – Schritt‑für‑Schritt‑Anleitung zum Hinzufügen einer leeren Seite und Zeichnen eines Rechtecks](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# ein PDF erstellen, eine leere Seite hinzufügen und ein Rechteck zeichnen.
 
+### [Absatz-PDF mit Aspose erstellen: Grafiken hinzufügen und Seite einfügen](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET Absätze erstellen, Grafiken hinzufügen und Seiten einfügen.
+
 ## Weitere Ressourcen
 
 - [Aspose.PDF für Net-Dokumentation](https://docs.aspose.com/pdf/net/)

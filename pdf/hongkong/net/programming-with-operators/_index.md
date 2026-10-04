@@ -24,6 +24,7 @@ Aspose.PDF for .NET 的「使用運算子進行程式設計」教學課程將引
 | [PDF 運算符](./pdf-operators/) |使用 Aspose.PDF for .NET 的 PDF 運算子的逐步指南。將圖像新增至 PDF 頁面並指定其位置。 |  
 | [刪除 PDF 檔案中的圖形對象](./remove-graphics-objects/) |在本逐步指南中了解如何使用 Aspose.PDF for .NET 從 PDF 檔案中刪除圖形物件。簡化您的 PDF 操作任務。 |  
 | [遍歷集合 C# – 簡易指南：循環遍歷項目](./iterate-collection-c-simple-guide-to-loop-over-items/) |本指南說明如何使用 Aspose.PDF for .NET 在 C# 中遍歷集合，輕鬆迭代 PDF 項目。 |  
+| [如何在 C# 中使用 Aspose.Pdf 更改 PDF 透明度](./how-to-change-pdf-transparency-using-aspose-pdf-in-c/) |本指南說明如何使用 Aspose.Pdf 在 C# 中調整 PDF 的透明度屬性。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

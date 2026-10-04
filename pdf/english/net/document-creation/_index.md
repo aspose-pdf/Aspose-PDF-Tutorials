@@ -27,9 +27,9 @@ pdf.Save("output.pdf");
 
 ## Available Tutorials
 
-### [Create PDF Booklets Using Aspose.PDF for .NET&#58; A Step-by-Step Guide](./aspose-pdf-net-create-booklets-tutorial/)
+### [Create PDF Booklets Using Aspose.PDF for .NET&#58; A Step‑Step Guide](./aspose-pdf-net-create-booklets-tutorial/)
 Learn how to create professional PDF booklets with Aspose.PDF for .NET. This tutorial covers setup, implementation, and practical applications.
-### [Create PDFs from XML and XSLT Using Aspose.PDF .NET&#58; A Step-by-Step Guide](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
+### [Create PDFs from XML and XSLT Using Aspose.PDF .NET&#58; A Step‑Step Guide](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
 Learn how to convert XML data into PDF format using Aspose.PDF for .NET with XSLT transformations. This guide covers setup, binding, and customization.
 ### [Create Professional PDF Booklets in .NET Using Aspose.PDF&#58; A Comprehensive Guide](./create-professional-pdf-booklets-net-aspose-pdf/)
 Learn how to automate the creation of professional PDF booklets using Aspose.PDF for .NET with our step-by-step guide.
@@ -39,15 +39,15 @@ Learn how to create professional PDF documents with precise layouts using Aspose
 Learn how to generate dynamic PDF documents with text and images using Aspose.PDF for .NET. Streamline your document creation process effectively.
 ### [Create Structured PDFs with Automatic Page Breaks in .NET using Aspose.PDF](./create-pdfs-page-breaks-net-aspose-pdf/)
 Learn how to create structured PDF documents programmatically in a .NET environment using Aspose.PDF, featuring automatic page breaks for precise formatting.
-### [Create a PDF Booklet with Aspose.PDF .NET&#58; Streamlined Step-by-Step Guide](./create-pdf-booklet-aspose-pdf-net-guide/)
+### [Create a PDF Booklet with Aspose.PDF .NET&#58; Streamlined Step‑by‑Step Guide](./create-pdf-booklet-aspose-pdf-net-guide/)
 Learn how to automate PDF booklet creation using Aspose.PDF for .NET. This guide covers setup, implementation, and optimization tips.
 ### [Dynamic PDF Creation with HTML in Aspose.PDF .NET](./aspose-pdf-net-dynamic-html-pdfs/)
 A code tutorial for Aspose.PDF Net
-### [How to Create PDF Booklets with Aspose.PDF .NET in C#&#58; Step-by-Step Guide](./create-pdf-booklets-aspose-pdf-net-csharp-guide/)
+### [How to Create PDF Booklets with Aspose.PDF .NET in C#&#58; Step‑by‑Step Guide](./create-pdf-booklets-aspose-pdf-net-csharp-guide/)
 Learn how to create professional PDF booklets using Aspose.PDF for .NET and C#. This guide covers setup, implementation, and best practices.
-### [How to Create PDFs with LaTeX Using Aspose.PDF .NET&#58; A Step-by-Step Guide](./create-pdf-latex-aspose-dotnet-guide/)
+### [How to Create PDFs with LaTeX Using Aspose.PDF .NET&#58; A Step‑by‑Step Guide](./create-pdf-latex-aspose-dotnet-guide/)
 Learn how to create professional PDF documents with LaTeX using Aspose.PDF for .NET. This guide covers setup, code examples, and practical applications.
-### [How to Create Professional Booklets Using Aspose.PDF for .NET&#58; A Step-by-Step Guide](./creating-booklets-aspose-pdf-net-tutorial/)
+### [How to Create Professional Booklets Using Aspose.PDF for .NET&#58; A Step‑by‑Step Guide](./creating-booklets-aspose-pdf-net-tutorial/)
 Learn how to convert PDFs into professional booklets using Aspose.PDF for .NET. Follow this step-by-step guide to streamline document creation in your .NET applications.
 ### [How to Create and Manipulate PDFs with Aspose.PDF for .NET&#58; A Comprehensive Guide](./create-manipulate-pdf-aspose-dotnet/)
 Learn how to create, manipulate, and enhance PDF documents using Aspose.PDF for .NET. Master adding graphics and transparent text in your PDFs.
@@ -105,6 +105,9 @@ Learn how to generate PDF documents entirely in memory using C# and Aspose.PDF f
 
 ### [Create PDF Document C# – Step‑by‑Step Guide to Add a Blank Page and Draw a Rectangle](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
 Learn how to add a blank page and draw a rectangle in a PDF using Aspose.PDF for .NET with C# step‑by‑step.
+
+### [Create paragraph PDF aspose&#58; add graphics and insert page](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
+Learn how to add graphics and insert pages while creating paragraph PDFs using Aspose.PDF for .NET.
 
 ## Additional Resources
 

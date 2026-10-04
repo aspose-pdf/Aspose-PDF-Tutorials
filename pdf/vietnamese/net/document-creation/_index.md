@@ -80,7 +80,7 @@ Tìm hiểu cách thêm trang mới vào PDF và vẽ hình chữ nhật bằng 
 
 ### [Tạo tài liệu PDF với Aspose.PDF – Hướng dẫn từng bước](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 Hướng dẫn chi tiết cách tạo tài liệu PDF bằng Aspose.PDF trong .NET. Bao gồm các bước thiết lập và ví dụ mã thực tế.
-### [Tạo tài liệu PDF với Aspose trong C# – Hướng dẫn từng bước](./create-pdf-document-with-aspose-in-c-step-by-step-guide/)
+### [Tạo tài liệu PDF trong C# – Hướng dẫn từng bước](./create-pdf-document-with-aspose-in-c-step-by-step-guide/)
 Hướng dẫn chi tiết cách tạo tài liệu PDF bằng Aspose trong C#, bao gồm các bước thiết lập và ví dụ mã thực tế.
 ### [Tạo tài liệu PDF C# – Thêm trang trắng & Vẽ hình chữ nhật](./create-pdf-document-c-add-blank-page-draw-rectangle/)
 Hướng dẫn cách tạo PDF, thêm trang trắng và vẽ hình chữ nhật bằng Aspose.PDF cho .NET trong C#.
@@ -90,14 +90,8 @@ Tìm hiểu cách thêm số Bates vào tài liệu PDF bằng Aspose.PDF cho .N
 ### [Tạo tài liệu PDF – Thêm trang trắng, vẽ hình chữ nhật và lưu](./create-pdf-document-add-blank-page-draw-rectangle-save/)
 Hướng dẫn cách tạo PDF, chèn trang trắng, vẽ hình chữ nhật và lưu lại bằng Aspose.PDF cho .NET.
 
-### [Tạo tài liệu PDF với Aspose.PDF – Hướng dẫn đầy đủ C#](./create-pdf-document-with-aspose-pdf-full-c-guide/)
-Hướng dẫn chi tiết cách tạo tài liệu PDF bằng Aspose.PDF trong C#, bao gồm thêm trang, hình dạng và lưu tệp.
-
-### [Tạo tài liệu PDF trong C# – Hướng dẫn đầy đủ về tạo trong bộ nhớ](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
-Hướng dẫn chi tiết cách tạo tài liệu PDF trong bộ nhớ bằng C# và Aspose.PDF.
-
-### [Tạo tài liệu PDF C# – Hướng dẫn từng bước để thêm trang trống và vẽ hình chữ nhật](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
-Hướng dẫn chi tiết cách thêm một trang trống và vẽ hình chữ nhật vào tài liệu PDF bằng Aspose.PDF trong .NET.
+### [Tạo đoạn văn PDF bằng Aspose: thêm đồ họa và chèn trang](./create-paragraph-pdf-aspose-add-graphics-and-insert-page/)
+Hướng dẫn tạo đoạn văn trong PDF, thêm đồ họa và chèn trang mới bằng Aspose.PDF cho .NET.
 
 ## Tài nguyên bổ sung
 

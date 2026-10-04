@@ -50,7 +50,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Cara Membaca Tanda Tangan dalam PDF – Panduan Lengkap C#](./how-to-read-signatures-in-a-pdf-complete-c-guide/) | Pelajari cara membaca tanda tangan PDF menggunakan C# dengan Aspose.PDF untuk .NET dalam panduan lengkap langkah demi langkah. Bahasa Indonesia:  
 | [Tutorial Tanda Tangan PDF – Verifikasi dan Validasi Tanda Tangan PDF di C#](./pdf-signature-tutorial-verify-and-validate-pdf-signatures-in/) | Pelajari cara memverifikasi dan memvalidasi tanda tangan digital pada file PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode C#. Bahasa Indonesia:  
 | [Cara Memverifikasi Tanda Tangan PDF di C# – Panduan Lengkap](./how-to-verify-pdf-signature-in-c-complete-guide/) | Pelajari cara memverifikasi tanda tangan PDF di C# dengan Aspose.PDF untuk .NET dalam panduan lengkap. Bahasa Indonesia:  
-| [Validasi Tanda Tangan PDF di C# – Panduan Lengkap](./validate-pdf-signature-in-c-complete-guide/) | Pelajari cara memvalidasi tanda tangan PDF menggunakan Aspose.PDF untuk .NET dalam panduan lengkap C#. Bahasa Indonesia: |
+| [Validasi Tanda Tangan PDF di C# – Panduan Lengkap](./validate-pdf-signature-in-c-complete-guide/) | Pelajari cara memvalidasi tanda tangan PDF menggunakan Aspose.PDF untuk .NET dalam panduan lengkap C#. Bahasa Indonesia:  
+| [Cara Memvalidasi Tanda Tangan PDF dengan Aspose.PDF di C#](./how-to-validate-pdf-signatures-with-aspose-pdf-in-c/) | Pelajari cara memvalidasi tanda tangan PDF menggunakan Aspose.PDF di C#. Bahasa Indonesia:  
 | [Periksa Tanda Tangan PDF dengan Aspose.Pdf – Panduan Lengkap](./check-pdf-signatures-with-aspose-pdf-complete-guide/) | Pelajari cara memeriksa dan memverifikasi tanda tangan PDF secara menyeluruh menggunakan Aspose.PDF untuk .NET. |  
 | [Buat Penandatangan PKCS7 Terpisah di C# – Panduan Lengkap](./create-pkcs7-detached-signer-in-c-complete-guide/) | Pelajari cara membuat penandatangan PKCS7 terpisah di C# dengan Aspose.PDF untuk .NET dalam panduan lengkap ini. Bahasa Indonesia:  
 | [Mengambil Nama Tanda Tangan PDF dengan Aspose.PDF di C#](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | Pelajari cara mengambil nama tanda tangan PDF menggunakan Aspose.PDF untuk .NET di C# dengan panduan langkah demi langkah. Bahasa Indonesia:  
@@ -104,4 +105,3 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

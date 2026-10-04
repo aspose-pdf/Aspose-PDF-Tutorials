@@ -53,6 +53,7 @@ Samouczek zapewnia szczegółowy przegląd metod i technik zapewniających poufn
 | [Sprawdź poprawność podpisu PDF w C# – Kompletny przewodnik krok po kroku](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | Poznaj, jak sprawdzić ważność podpisu PDF w C# z Aspose.PDF – szczegółowy przewodnik krok po kroku. |  
 | [Utwórz odłączony podpis PKCS7 w C# – Kompletny przewodnik](./create-pkcs7-detached-signer-in-c-complete-guide/) | Dowiedz się, jak utworzyć odłączony podpis PKCS7 w C# przy użyciu Aspose.PDF dla .NET – kompletny przewodnik krok po kroku. |  
 | [Pobierz nazwy podpisów PDF za pomocą Aspose.PDF w C#](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | Dowiedz się, jak wyodrębnić nazwy podpisów PDF przy użyciu Aspose.PDF w C#. |  
+| [Jak zweryfikować podpisy PDF przy użyciu Aspose.PDF w C#](./how-to-validate-pdf-signatures-with-aspose-pdf-in-c/) | Dowiedz się, jak w C# zweryfikować podpisy PDF przy użyciu Aspose.PDF, krok po kroku. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -107,4 +108,3 @@ Samouczek zapewnia szczegółowy przegląd metod i technik zapewniających poufn
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

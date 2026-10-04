@@ -24,6 +24,7 @@
 | [مشغلات PDF](./pdf-operators/) دليل خطوة بخطوة لاستخدام مُشغّلات PDF مع Aspose.PDF لـ .NET. أضف صورة إلى صفحة PDF وحدد موقعها.  
 | [إزالة الكائنات الرسومية في ملف PDF](./remove-graphics-objects/) تعرّف على كيفية إزالة الكائنات الرسومية من ملف PDF باستخدام Aspose.PDF لـ .NET في هذا الدليل التفصيلي. بسّط مهام معالجة ملفات PDF.  
 | [تكرار مجموعة C# – دليل بسيط للتكرار عبر العناصر](./iterate-collection-c-simple-guide-to-loop-over-items/) | تعلم كيفية تكرار العناصر في مجموعة C# باستخدام حلقة بسيطة مع Aspose.PDF لـ .NET. |
+| [كيفية تغيير شفافية PDF باستخدام Aspose.Pdf في C#](./how-to-change-pdf-transparency-using-aspose-pdf-in-c/) | تعلم كيفية تعديل شفافية عناصر PDF باستخدام Aspose.Pdf في C# خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
