@@ -61,6 +61,7 @@ Resursen innehåller handledningar om Aspose.PDF för .NET-bibliotekets programm
 | [Hur man reparerar PDF-filer – Steg‑för‑steg‑guide med Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Lär dig hur du reparerar skadade PDF-filer med Aspose.Pdf i en steg‑för‑steg‑guide. |  
 | [Öppna PDF-fil C# – Så reparerar du en korrupt PDF på några minuter](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | Lär dig hur du öppnar och reparerar en korrupt PDF-fil med Aspose.PDF för .NET i C# på några minuter. |  
 | [Hur du läser Word-dokument och extraherar en specifik sida från Word – C#-guide](./how-to-read-word-document-and-extract-specific-page-from-wor/) | Lär dig hur du läser ett Word-dokument och extraherar en specifik sida med C# i Aspose.Words för .NET. |
+| [Skapa anpassat Aspose-plugin – Komplett guide för att automatisera PDF‑bearbetning](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Lär dig hur du bygger ett eget Aspose‑plugin för att automatisera PDF‑processer med steg‑för‑steg‑kodexempel. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

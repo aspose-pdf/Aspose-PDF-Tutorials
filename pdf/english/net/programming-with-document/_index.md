@@ -61,6 +61,7 @@ The resource includes tutorials on the Aspose.PDF for .NET library's programming
 | [How to Repair PDF Files – Step‑by‑Step Guide Using Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Learn how to repair corrupted PDF files using Aspose.PDF for .NET in this step‑by‑step guide. |  
 | [Open PDF File C# – How to Repair a Corrupted PDF in Minutes](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | Learn how to open and repair a corrupted PDF using Aspose.PDF for .NET in C# quickly. |
 | [How to Read Word Document and Extract Specific Page from Word – C# Guide](./how-to-read-word-document-and-extract-specific-page-from-wor/) | Learn how to read a Word document and extract a specific page using C# with Aspose.Words. Step-by-step guide with code examples. |  
+| [Create custom Aspose plugin – Complete Guide to Automate PDF Processing](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Learn how to build a custom Aspose plugin to automate PDF processing tasks using .NET, with step-by-step code examples and best practices. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

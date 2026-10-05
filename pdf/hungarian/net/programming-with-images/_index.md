@@ -51,6 +51,7 @@ Az Aspose.PDF for .NET „Képekkel programozás” című oktatóanyagai végig
 | [Kép tárolása az XImage gyűjteményben](./store-image-in-ximage-collection/) | Tanulja meg, hogyan tárolhat képeket az XImage gyűjteményben az Aspose.PDF for .NET használatával ebben a teljes, lépésről lépésre szóló útmutatóban. |  
 | [Ábra hozzáadása Word-hez – Teljes C# programozási útmutató](./add-figure-to-word-complete-c-programming-guide/) | Tanulja meg, hogyan adhat hozzá ábrákat Word dokumentumokhoz C#-ban az Aspose.Words for .NET segítségével, lépésről lépésre útmutatóval. |  
 | [Üres PDF oldal létrehozása – Teljes útmutató képek hozzáadásához, vágásához és átméretezéséhez](./create-blank-pdf-page-full-guide-to-adding-cropping-resizing/) | Ismerje meg, hogyan hozhat létre üres PDF oldalt, majd adjon hozzá, vágjon és méretezzen képeket az Aspose.PDF for .NET segítségével. |
+| [Képek tömörítése DOCX-ben – Fájlméret csökkentése](./compress-images-in-docx-reduce-file-size/) | Ismerje meg, hogyan tömörítheti a DOCX dokumentumok képeit a fájlméret csökkentése érdekében az Aspose.PDF for .NET segítségével. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

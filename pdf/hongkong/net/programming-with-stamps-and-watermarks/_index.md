@@ -37,6 +37,7 @@ Aspose.PDF 的「使用圖章和浮水印進行程式設計」.NET 教學課程�
 | [頁首中的圖片](./image-in-header/) |在本逐步教學中學習如何使用 Aspose.PDF for .NET 將影像新增至 PDF 的頁首。 |  
 | [使用浮動框在頁首頁腳中顯示頁碼](./page-number-in-header-footer-using-floating-box/) |在本逐步教學中，使用 Aspose.PDF for .NET 的浮動框輕鬆在 PDF 頁首和頁尾中新增頁碼。 |  
 | [PDF檔案中的頁碼標記](./page-number-stamps/) |透過我們簡單易懂的指南（附程式碼範例）了解如何使用 Aspose.PDF for .NET 在 PDF 檔案中新增頁碼戳記。 |  
+| [如何在 PDF 中使用 C# 添加 Bates 編號 – 完整指南](./how-to-add-bates-numbering-in-pdf-with-c-complete-guide/) |本完整指南說明如何使用 Aspose.PDF for .NET 於 PDF 文件中以 C# 添加 Bates 編號，提升文件管理與追蹤。 |  
 | [頁首頁尾部分中的表格](./table-in-header-footer-section/) |了解如何使用 Aspose.PDF for .NET 輕鬆地將文字新增至 PDF 檔案的頁尾。包含逐步指南，可實現無縫整合。 |  
 | [PDF 檔案頁尾中的文字](./text-in-footer/) |了解如何使用 Aspose.PDF for .NET 在 PDF 檔案的頁尾中新增文字。 |  
 | [PDF 檔案標題中的文本](./text-in-header/) |透過本逐步教學學習如何使用 Aspose.PDF for .NET 在 PDF 中新增文字標題。有效率且有效地增強您的文件。 |  

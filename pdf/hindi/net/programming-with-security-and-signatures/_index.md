@@ -52,6 +52,7 @@
 | [C# में PKCS7 डिटैच्ड साइनर बनाएं – पूर्ण गाइड](./create-pkcs7-detached-signer-in-c-complete-guide/) | .NET के लिए Aspose.PDF का उपयोग करके C# में PKCS7 डिटैच्ड साइनर कैसे बनाएं, इस पूर्ण गाइड में सीखें। |  
 | [C# में Aspose.PDF के साथ PDF हस्ताक्षर नाम प्राप्त करें](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | .NET के लिए Aspose.PDF का उपयोग करके C# में PDF हस्ताक्षर के नाम कैसे प्राप्त करें, सीखें। |  
 | [C# में PDF हस्ताक्षर सत्यापित करें – पूर्ण चरण‑दर‑चरण गाइड](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | .NET के लिए Aspose.PDF के साथ C# में PDF हस्ताक्षर कैसे सत्यापित करें, इस पूर्ण गाइड में सीखें। |  
+| [C# में PDF हस्ताक्षर पढ़ें – पूर्ण गाइड](./how-to-read-signatures-from-a-pdf-in-c-complete-guide/) | .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइल से डिजिटल हस्ताक्षर पढ़ना सीखें। चरण-दर-चरण पूर्ण गाइड। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

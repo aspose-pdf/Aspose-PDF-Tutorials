@@ -37,6 +37,9 @@ Learn how to add page breaks in PDF documents using Aspose.PDF for .NET. Follow 
 ### [Add Rectangles & Configure PDF Pages with Aspose.PDF .NET&#58; A Comprehensive Guide](./aspose-pdf-net-add-rectangles-configure-pages/)
 Master adding rectangles and configuring pages in PDFs using Aspose.PDF for .NET. Follow this guide to learn document manipulation techniques effectively.
 
+### [Add Rectangle to PDF with C# – Complete Programming Guide](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
+Learn how to add rectangles to PDF documents using Aspose.PDF for .NET with C# in this step-by-step programming guide.
+
 ### [Aspose.PDF .NET&#58; Set PDF Margins & Customize Headers/Footers](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 Master the art of setting page margins and customizing headers/footers in your PDFs with Aspose.PDF for .NET. Follow this detailed guide to enhance document layout consistency.
 

@@ -37,6 +37,9 @@ Pelajari cara menambahkan pemisah halaman dalam dokumen PDF menggunakan Aspose.P
 ### [Tambahkan Persegi Panjang & Konfigurasikan Halaman PDF dengan Aspose.PDF .NET: Panduan Lengkap](./aspose-pdf-net-add-rectangles-configure-pages/)
 Kuasai cara menambahkan persegi panjang dan mengonfigurasi halaman dalam PDF menggunakan Aspose.PDF untuk .NET. Ikuti panduan ini untuk mempelajari teknik manipulasi dokumen secara efektif.
 
+### [Tambahkan Persegi Panjang ke PDF dengan C# – Panduan Pemrograman Lengkap](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
+Pelajari cara menambahkan persegi panjang ke PDF menggunakan C# dengan Aspose.PDF .NET dalam panduan lengkap ini.
+
 ### [Aspose.PDF .NET: Mengatur Margin PDF & Menyesuaikan Header/Footer](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 Kuasai seni pengaturan margin halaman dan kustomisasi header/footer di PDF Anda dengan Aspose.PDF untuk .NET. Ikuti panduan terperinci ini untuk meningkatkan konsistensi tata letak dokumen.
 

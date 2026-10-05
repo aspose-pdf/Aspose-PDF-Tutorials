@@ -71,6 +71,7 @@ Aspose.PDF 的“文本编程”.NET 教程提供了全面的 PDF 文档文本�
 | [PDF 文件中的文本和图像作为段落](./text-and-image-as-paragraph/) 使用 Aspose.PDF for .NET 创建包含文本和图像的 PDF。学习如何逐步添加文本和内联图像。|  
 | [PDF文件中的文本片段](./text-segments/) 了解如何在 Aspose.PDF for .NET 中使用正则表达式搜索 PDF 文件中的特定文本段。|  
 | [在 PDF 文件中使用 Latex 脚本](./use-latex-script/) 了解如何使用 Latex 脚本通过 Aspose.PDF for .NET 在 PDF 文件中添加数学表达式或公式。|  
+| [使用 C# 在 Word 中创建 Span 元素 – 完整指南](./create-span-element-in-word-with-c-complete-guide/) 通过本分步教程学习如何使用 C# 在 Word 文档中创建 Span 元素，实现高级文本布局。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

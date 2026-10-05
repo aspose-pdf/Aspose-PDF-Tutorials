@@ -72,6 +72,8 @@ Dönüştürme ayarlarını nasıl belirleyeceğinizi, metin ve görüntüleri n
 | [Span öğesi oluştur ve sayfaya ekle – DOCX'i PDF'ye dönüştür](./create-span-element-and-add-to-page-convert-docx-to-pdf/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak DOCX dosyasını PDF'ye dönüştürürken span öğesi eklemeyi öğrenin. |
 | [PDF Belgesini Aç C# – Baskı İçin PDF/X‑4'e Dönüştür](./open-pdf-document-c-convert-to-pdf-x-4-for-printing/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak bir PDF belgesini açıp, baskı için PDF/X‑4 formatına nasıl dönüştüreceğinizi öğrenin. |
 | [PDF'yi C#'ta PDF/X‑4'e Dönüştür – Aspose PDF](./how-to-convert-pdf-to-pdf-x-4-in-c-with-aspose-pdf/) | Aspose.PDF for .NET kullanarak PDF dosyalarını PDF/X‑4 formatına C# ile nasıl dönüştüreceğinizi öğrenin. |
+| [PDF formatı dönüştürme eğitimi – PDF'yi C#'ta PDF/X-4'e Dönüştür](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Aspose.PDF for .NET kullanarak PDF dosyalarını PDF/X‑4 formatına C# ile nasıl dönüştüreceğinizi öğrenin. |
+| [Word'den HTML Oluşturma – DOCX'ten HTML'ye Tam Kılavuz](./create-html-from-word-complete-guide-to-convert-docx-to-html/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak DOCX dosyalarını HTML'ye nasıl dönüştüreceğinizi öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -61,6 +61,7 @@ Zdroj obsahuje návody k programování s funkcí dokumentů v knihovně Aspose.
 | [Jak opravit PDF soubory – krok za krokem pomocí Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Naučte se opravit poškozené PDF soubory pomocí Aspose.Pdf v podrobném průvodci krok za krokem. |
 | [Otevřít PDF soubor C# – Jak opravit poškozený PDF během několika minut](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | Naučte se, jak rychle opravit poškozený PDF soubor pomocí Aspose.PDF pro .NET v C#. |
 | [Jak číst dokument Word a extrahovat konkrétní stránku z Wordu – průvodce C#](./how-to-read-word-document-and-extract-specific-page-from-wor/) | Naučte se, jak pomocí Aspose.Words pro .NET načíst dokument Word a extrahovat konkrétní stránku v C#. |
+| [Vytvořte vlastní plugin Aspose – Kompletní průvodce automatizací zpracování PDF](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Naučte se, jak vytvořit vlastní plugin pro Aspose a automatizovat zpracování PDF pomocí podrobného průvodce a ukázek kódu. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

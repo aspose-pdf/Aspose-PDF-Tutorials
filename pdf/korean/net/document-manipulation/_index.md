@@ -37,6 +37,8 @@ Aspose.PDF for .NET을 사용하여 PDF 문서에 페이지 나누기를 추가�
 ### [Aspose.PDF .NET을 사용하여 사각형 추가 및 PDF 페이지 구성: 포괄적인 가이드](./aspose-pdf-net-add-rectangles-configure-pages/)
 Aspose.PDF for .NET을 사용하여 PDF에 사각형을 추가하고 페이지를 구성하는 방법을 익혀보세요. 이 가이드를 따라 문서 조작 기법을 효과적으로 익혀보세요.
 
+### [C#를 사용하여 PDF에 사각형 추가 – 완전 프로그래밍 가이드](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
+
 ### [Aspose.PDF .NET: PDF 여백 설정 및 머리글/바닥글 사용자 정의](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 Aspose.PDF for .NET을 사용하여 PDF의 페이지 여백을 설정하고 머리글/바닥글을 사용자 지정하는 방법을 익혀 보세요. 이 자세한 가이드를 따라 문서 레이아웃의 일관성을 향상해 보세요.
 

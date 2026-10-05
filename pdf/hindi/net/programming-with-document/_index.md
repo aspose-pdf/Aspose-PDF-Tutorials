@@ -62,6 +62,7 @@
 | [PDF फ़ाइल खोलें C# – मिनटों में भ्रष्ट PDF को कैसे ठीक करें](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | .NET के लिए Aspose.PDF का उपयोग करके C# में PDF फ़ाइल खोलें और क्षतिग्रस्त PDF को मिनटों में ठीक करें। चरण-दर-चरण कोड ट्यूटोरियल। |  
 | [Word दस्तावेज़ पढ़ें और विशिष्ट पृष्ठ निकालें – C# गाइड](./how-to-read-word-document-and-extract-specific-page-from-wor/) | C# में Aspose.Words का उपयोग करके Word फ़ाइल पढ़ें और विशिष्ट पृष्ठ निकालें। चरण-दर-चरण मार्गदर्शिका। |  
 
+| [कस्टम Aspose प्लगइन बनाएं – PDF प्रोसेसिंग को स्वचालित करने के लिए पूर्ण गाइड](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | .NET के लिए Aspose PDF के साथ कस्टम प्लगइन बनाकर PDF प्रोसेसिंग को स्वचालित करने की पूरी प्रक्रिया सीखें। |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

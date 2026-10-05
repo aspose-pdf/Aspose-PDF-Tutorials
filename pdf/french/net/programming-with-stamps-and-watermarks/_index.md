@@ -55,6 +55,7 @@ Les tutoriels « Programmation avec tampons et filigranes » d'Aspose.PDF pour
 | [Ajouter un filigrane PDF en C# – Guide complet avec Aspose](./add-watermark-pdf-in-c-complete-guide-with-aspose/) | Apprenez à ajouter un filigrane à un PDF en C# avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
 | [Ajouter une numérotation Bates aux PDF avec C# – Guide complet](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Apprenez à ajouter une numérotation Bates à vos fichiers PDF en C# avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
 | [Ajouter la numérotation Bates aux PDF avec Aspose – Guide complet](./add-bates-numbering-to-pdfs-with-aspose-complete-guide/) | Apprenez à appliquer la numérotation Bates à vos PDF avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |  
+| [Comment ajouter une numérotation Bates dans un PDF avec C# – Guide complet](./how-to-add-bates-numbering-in-pdf-with-c-complete-guide/) | Apprenez à ajouter une numérotation Bates à vos PDF en C# avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -37,6 +37,9 @@ Aprenda a añadir saltos de página en documentos PDF con Aspose.PDF para .NET. 
 ### [Agregar rectángulos y configurar páginas PDF con Aspose.PDF .NET: una guía completa](./aspose-pdf-net-add-rectangles-configure-pages/)
 Domine la adición de rectángulos y la configuración de páginas en archivos PDF con Aspose.PDF para .NET. Siga esta guía para aprender técnicas eficaces de manipulación de documentos.
 
+### [Agregar rectángulo a PDF con C# – Guía completa de programación](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
+Aprenda a agregar un rectángulo a archivos PDF con C# y Aspose.PDF .NET mediante esta guía completa de programación.
+
 ### [Aspose.PDF .NET: Configurar márgenes de PDF y personalizar encabezados y pies de página](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 Domine el arte de configurar márgenes de página y personalizar encabezados y pies de página en sus PDF con Aspose.PDF para .NET. Siga esta guía detallada para mejorar la consistencia del diseño de sus documentos.
 
@@ -246,6 +249,9 @@ Aprenda a dominar la carga, navegación y modificación de documentos PDF con la
 
 ### [Domine la manipulación de PDF con Aspose.PDF .NET: Guía para cargar, buscar y anotar](./aspose-pdf-dotnet-mastering-pdfs-manipulation-guide/)
 Aprenda a dominar la manipulación de PDF con Aspose.PDF para .NET. Esta guía explica cómo cargar documentos, buscar texto y aplicar anotaciones como tachados.
+
+### [Domine la manipulación de PDF con Aspose.PDF para .NET: una guía completa](./master-pdf-manipulation-aspose-pdf-net-guide/)
+Aprenda a crear, modificar, combinar y extraer datos de archivos PDF de forma eficiente con Aspose.PDF para .NET. Optimice sus flujos de trabajo con documentos y aumente su productividad.
 
 ### [Domine la manipulación de PDF con Aspose.PDF para .NET: una guía completa](./mastering-pdf-manipulation-aspose-pdf-net-guide/)
 Aprenda a crear, modificar, combinar y extraer datos de archivos PDF de forma eficiente con Aspose.PDF para .NET. Optimice sus flujos de trabajo con documentos y aumente su productividad.

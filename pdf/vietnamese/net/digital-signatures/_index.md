@@ -122,6 +122,9 @@ Hướng dẫn chi tiết cách xác thực chữ ký PDF và thêm số Bates v
 ### [Xác thực chữ ký PDF trong C# – Hướng dẫn toàn diện](./validate-pdf-signature-in-c-complete-guide/)
 Hướng dẫn chi tiết cách xác thực chữ ký số PDF bằng C# với Aspose.PDF, bao gồm các bước triển khai và kiểm tra tính toàn vẹn.
 
+### [Cách ký PDF bằng chứng chỉ – Hướng dẫn C# toàn diện](./how-to-sign-pdf-using-certificate-complete-c-guide/)
+Hướng dẫn chi tiết cách ký tài liệu PDF bằng chứng chỉ số trong C#, bao gồm cài đặt, ký và xác thực.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)

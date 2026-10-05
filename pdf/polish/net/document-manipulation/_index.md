@@ -38,6 +38,9 @@ Dowiedz się, jak dodawać podziały stron w dokumentach PDF za pomocą Aspose.P
 ### [Dodawanie prostokątów i konfiguracja stron PDF za pomocą Aspose.PDF .NET: kompleksowy przewodnik](./aspose-pdf-net-add-rectangles-configure-pages/)
 Opanuj dodawanie prostokątów i konfigurowanie stron w plikach PDF za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z tym przewodnikiem, aby skutecznie poznać techniki manipulacji dokumentami.
 
+### [Dodaj prostokąt do PDF w C# – Kompletny przewodnik programistyczny](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
+Dowiedz się, jak programowo dodać prostokąt do pliku PDF przy użyciu C# i Aspose.PDF .NET
+
 ### [Aspose.PDF .NET: Ustaw marginesy PDF i dostosuj nagłówki/stopki](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 Opanuj sztukę ustawiania marginesów stron i dostosowywania nagłówków/stopek w plikach PDF za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z tym szczegółowym przewodnikiem, aby zwiększyć spójność układu dokumentu.
 

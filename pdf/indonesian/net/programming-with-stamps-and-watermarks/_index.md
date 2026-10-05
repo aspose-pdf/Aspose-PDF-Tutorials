@@ -53,6 +53,7 @@ Bahasa Indonesia: --- | Bahasa Indonesia:
 | [Tambahkan Tanda Air PDF di C# – Panduan Lengkap dengan Aspose](./add-watermark-pdf-in-c-complete-guide-with-aspose/) | Pelajari cara menambahkan tanda air ke PDF menggunakan C# dan Aspose.PDF dengan panduan lengkap langkah demi langkah. Bahasa Indonesia:  |
 | [Tambahkan Penomoran Bates ke PDF dengan C# – Panduan Lengkap](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Pelajari cara menambahkan penomoran Bates ke dokumen PDF menggunakan C# dengan Aspose.PDF for .NET dalam panduan lengkap ini. Bahasa Indonesia:  
 | [Tambahkan Penomoran Bates ke PDF dengan Aspose – Panduan Lengkap](./add-bates-numbering-to-pdfs-with-aspose-complete-guide/) | Pelajari cara menambahkan penomoran Bates ke PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah. |
+| [Cara Menambahkan Penomoran Bates dalam PDF dengan C# – Panduan Lengkap](./how-to-add-bates-numbering-in-pdf-with-c-complete-guide/) | Pelajari cara menambahkan penomoran Bates ke PDF menggunakan C# dengan Aspose.PDF for .NET dalam panduan lengkap langkah demi langkah. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

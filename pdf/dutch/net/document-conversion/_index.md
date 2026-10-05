@@ -28,6 +28,7 @@ leert hoe u conversie-instellingen opgeeft, tekst en afbeeldingen extraheert, de
 | [EPUB naar PDF](./epub-to-pdf/) Leer hoe u EPUB naar PDF kunt converteren met Aspose.PDF voor .NET met deze stapsgewijze handleiding. Eenvoudig, efficiënt en perfect voor alle gebruikers. |  
 | [SVG-afmetingen ophalen](./get-svg-dimensions/) | Leer hoe je Aspose.PDF voor .NET gebruikt om SVG-bestanden naar PDF te converteren met deze stapsgewijze handleiding. Perfect voor ontwikkelaars die PDF's willen bewerken. |  
 | [HTML naar PDF](./html-to-pdf/) | Leer hoe u HTML naar PDF kunt converteren met Aspose.PDF voor .NET met deze uitgebreide stapsgewijze handleiding. |  
+| [HTML maken vanuit Word – Complete gids om DOCX naar HTML te converteren](./create-html-from-word-complete-guide-to-convert-docx-to-html/) | Leer hoe u met Aspose.PDF voor .NET een DOCX-bestand naar HTML converteert met deze stapsgewijze handleiding. |
 | [Markdown naar PDF](./markdown-to-pdf/) | Leer in deze stapsgewijze tutorial hoe je Markdown naar PDF converteert met Aspose.PDF voor .NET. Perfect voor ontwikkelaars die documentconversie willen stroomlijnen. |  
 | [MHT naar PDF](./mht-to-pdf/) | Leer in deze stapsgewijze tutorial hoe u MHT-bestanden naar PDF converteert met Aspose.PDF voor .NET. Eenvoudige en efficiënte documentconversie. |  
 | [Pagina-oriëntatie volgens afbeeldingsafmetingen](./page-orientation-according-image-dimensions/) Leer in deze stapsgewijze handleiding hoe u PDF's maakt met Aspose.PDF voor .NET en hoe u de pagina-oriëntatie instelt op basis van de afmetingen van afbeeldingen. |  
@@ -72,6 +73,7 @@ leert hoe u conversie-instellingen opgeeft, tekst en afbeeldingen extraheert, de
 | [PDF opslaan als HTML met Aspose.PDF – Stapsgewijze C#-handleiding](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) | Leer hoe u PDF opslaat als HTML met Aspose.PDF voor .NET in deze stapsgewijze C#-handleiding. |
 | [PDF maken van JPG in C# – Volledige gids met bijsnijden en nieuwe pagina's](./create-pdf-from-jpg-in-c-full-guide-with-cropping-and-new-pa/) | Leer hoe u JPG-afbeeldingen naar PDF converteert, bijsnijdt en op nieuwe pagina's plaatst met Aspose.PDF voor .NET in C#. |
 | [HTML maken vanuit PDF met Aspose.PDF – Stapsgewijze handleiding](./create-html-from-pdf-with-aspose-pdf-step-by-step-guide/) | Leer hoe u HTML genereert uit een PDF-bestand met Aspose.PDF voor .NET in deze stapsgewijze handleiding. |
+| [PDF-formaatconversietutorial – Converteer PDF naar PDF/X-4 in C#](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Leer hoe u PDF-bestanden naar PDF/X-4 converteert met Aspose.PDF voor .NET in C# met deze stapsgewijze tutorial. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -61,6 +61,7 @@ recurso inclui tutoriais sobre o recurso de programação com documento da bibli
 | [Abrir arquivo PDF C# – Como reparar um PDF corrompido em minutos](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | Aprenda a abrir e reparar PDFs corrompidos usando Aspose.PDF para .NET em poucos minutos. |
 | [Como reparar arquivos PDF – Guia passo a passo usando Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Aprenda a reparar arquivos PDF corrompidos usando Aspose.Pdf com este guia passo a passo. |  
 | [Como Ler Documento Word e Extrair Página Específica do Word – Guia C#](./how-to-read-word-document-and-extract-specific-page-from-wor/) | Aprenda a ler um documento Word e extrair uma página específica usando Aspose.Words para .NET em C#. |  
+| [Criar plugin personalizado Aspose – Guia completo para automatizar o processamento de PDF](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Aprenda a criar um plugin Aspose personalizado para automatizar o processamento de PDFs com este guia passo a passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

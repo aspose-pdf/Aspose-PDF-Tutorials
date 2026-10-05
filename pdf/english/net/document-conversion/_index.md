@@ -35,6 +35,8 @@ You'll learn how to specify conversion settings, extract text and images, retain
 | [HTML To PDF](./html-to-pdf/) | Learn how to convert HTML to PDF using Aspose.PDF for .NET with this comprehensive step‑by‑step guide. |
 | [How to Convert PDF to PDF/X-4 with Aspose – Step‑by‑Step Guide](./how-to-convert-pdf-to-pdf-x-4-with-aspose-step-by-step-guide/) | Learn how to convert PDF to PDF/X‑4 using Aspose.PDF for .NET in this step‑by‑step guide. |
 | [How to Set Options for PDF Conversion in C# – Aspose Guide](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | Learn how to set conversion options for PDF generation using Aspose.PDF for .NET in C# with this step‑by‑step guide. |
+| [Create HTML from Word – Complete Guide to Convert DOCX to HTML](./create-html-from-word-complete-guide-to-convert-docx-to-html/) | Learn how to convert DOCX to HTML using Aspose.PDF for .NET with this step‑by‑step guide. |  
+| [PDF format conversion tutorial – Convert PDF to PDF/X-4 in C#](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Learn how to convert PDF to PDF/X‑4 using Aspose.PDF for .NET in C# with this step‑by‑step tutorial. |
 | [Markdown To PDF](./markdown-to-pdf/) | Learn how to convert Markdown to PDF using Aspose.PDF for .NET in this step‑by‑step tutorial. Perfect for developers looking to streamline document conversion. |  
 | [MHT To PDF](./mht-to-pdf/) | Learn how to convert MHT files to PDF using Aspose.PDF for .NET in this step‑by‑step tutorial. Easy and efficient document conversion. |  
 | [Page Orientation According Image Dimensions](./page-orientation-according-image-dimensions/) | Learn how to create PDFs with Aspose.PDF for .NET, setting page orientation based on image dimensions in this step‑by‑step guide. |  

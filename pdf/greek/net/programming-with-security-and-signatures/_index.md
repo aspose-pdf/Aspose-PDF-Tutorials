@@ -53,6 +53,7 @@
 | [Δημιουργία αποσπασμένου υπογράφοντος PKCS7 σε C# – Πλήρης οδηγός](./create-pkcs7-detached-signer-in-c-complete-guide/) | Μάθετε πώς να δημιουργήσετε αποσπαστικό υπογραφέα PKCS7 σε C# με βήμα-βήμα οδηγίες. |  
 | [Ανάκτηση ονομάτων υπογραφών PDF με Aspose.PDF σε C#](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | Μάθετε πώς να ανακτήσετε τα ονόματα των υπογραφών PDF με το Aspose.PDF σε C#. |  
 | [Επικύρωση υπογραφής PDF σε C# – Πλήρης οδηγός βήμα‑βήμα](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | Μάθετε πώς να επικυρώνετε ψηφιακές υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF, βήμα‑βήμα οδηγίες. |
+| [Πώς να διαβάσετε υπογραφές από PDF σε C# – Πλήρης οδηγός](./how-to-read-signatures-from-a-pdf-in-c-complete-guide/) | Μάθετε πώς να διαβάζετε ψηφιακές υπογραφές από αρχεία PDF χρησιμοποιώντας C# και Aspose.PDF. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

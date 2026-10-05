@@ -62,6 +62,7 @@ Tài nguyên này bao gồm các hướng dẫn về tính năng lập trình v�
 | [Mở tệp PDF C# – Cách sửa tệp PDF bị hỏng trong vài phút](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | Tìm hiểu cách mở và sửa chữa tệp PDF bị hỏng bằng Aspose.PDF cho .NET trong vài phút. |  
 | [Cách Đọc Tài Liệu Word và Trích Xuất Trang Cụ Thể từ Word – Hướng Dẫn C#](./how-to-read-word-document-and-extract-specific-page-from-wor/) | Hướng dẫn cách đọc tệp Word và trích xuất một trang cụ thể bằng C# và Aspose.Words. |  
 
+| [Tạo plugin Aspose tùy chỉnh – Hướng dẫn đầy đủ để tự động xử lý PDF](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Hướng dẫn chi tiết cách tạo plugin Aspose tùy chỉnh để tự động hoá quy trình xử lý PDF bằng .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

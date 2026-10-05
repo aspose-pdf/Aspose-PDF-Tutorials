@@ -37,6 +37,9 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET Seitenumbrüche in PDF-Dokumente 
 ### [Rechtecke hinzufügen und PDF-Seiten konfigurieren mit Aspose.PDF .NET: Ein umfassender Leitfaden](./aspose-pdf-net-add-rectangles-configure-pages/)
 Meistern Sie das Hinzufügen von Rechtecken und Konfigurieren von Seiten in PDFs mit Aspose.PDF für .NET. Folgen Sie dieser Anleitung, um Techniken zur Dokumentbearbeitung effektiv zu erlernen.
 
+### [Rechteck zu PDF mit C# hinzufügen – Vollständiger Programmierleitfaden](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein Rechteck zu einer PDF-Datei hinzufügen. Schritt‑für‑Schritt‑Anleitung mit C#‑Beispielen.
+
 ### [Aspose.PDF .NET: PDF-Ränder festlegen und Kopf-/Fußzeilen anpassen](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 Meistern Sie das Festlegen von Seitenrändern und Anpassen von Kopf- und Fußzeilen in Ihren PDFs mit Aspose.PDF für .NET. Folgen Sie dieser ausführlichen Anleitung, um die Konsistenz des Dokumentlayouts zu verbessern.
 

@@ -54,6 +54,7 @@
 | [C# で PKCS7 デタッチド署名者を作成する – 完全ガイド](./create-pkcs7-detached-signer-in-c-complete-guide/) Aspose.PDF for .NET を使用して、C# で PKCS7 デタッチド署名を作成する方法をステップバイステップで学びます。 |  
 | [C# で Aspose.PDF を使用して PDF 署名名を取得する](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) Aspose.PDF for .NET を使用して、PDF の署名名を取得する方法を学びましょう。ステップバイステップのガイドです。 |  
 | [C# で PDF 署名を検証する – 完全ステップバイステップガイド](./validate-pdf-signature-in-c-complete-step-by-step-guide/) Aspose.PDF for .NET を使用して、C# で PDF のデジタル署名を検証する方法をステップバイステップで学びます。 |  
+| [C# で PDF の署名を読み取る – 完全ガイド](./how-to-read-signatures-from-a-pdf-in-c-complete-guide/) Aspose.PDF for .NET を使用して、C# で PDF の署名情報を取得し検証する方法を学びます。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

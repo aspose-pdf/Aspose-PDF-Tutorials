@@ -48,6 +48,7 @@ Aspose.PDF for .NET's "Programming with Tagged PDFs" tutorials walk you through 
 | [Text Structure Elements In PDF File](./text-structure-elements/) | Learn to manipulate text structure elements in PDFs with Aspose.PDF for .NET. This step-by-step guide covers everything you need to create structured PDFs. |  
 | [Validate PDF File](./validate-pdf/) | Learn how to validate a PDF file with Aspose.PDF for .NET. Check its compliance with standards and generate a validation report. |  
 | [Create Tagged PDF in C# – Aspose PDF Complete Guide](./create-tagged-pdf-in-c-aspose-pdf-complete-guide/) | Learn how to create a fully tagged PDF using Aspose.PDF for .NET in C# with this comprehensive guide. |  
+| [Create Accessible Text Span in PDF with Aspose: Full C# Guide](./create-accessible-text-span-in-pdf-with-aspose-full-c-guide/) | Learn how to create an accessible text span in a PDF using Aspose.PDF for .NET with this comprehensive C# guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

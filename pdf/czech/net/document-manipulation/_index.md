@@ -37,6 +37,9 @@ Naučte se, jak přidat zalomení stránek do PDF dokumentů pomocí Aspose.PDF 
 ### [Přidání obdélníků a konfigurace stránek PDF pomocí Aspose.PDF .NET: Komplexní průvodce](./aspose-pdf-net-add-rectangles-configure-pages/)
 Zvládněte přidávání obdélníků a konfiguraci stránek v PDF pomocí Aspose.PDF pro .NET. Postupujte podle tohoto průvodce a naučte se efektivně techniky manipulace s dokumenty.
 
+### [Přidání obdélníku do PDF pomocí C# – Kompletní programovací průvodce](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
+Naučte se, jak pomocí C# přidat obdélník do PDF dokumentu v tomto kompletním programovacím průvodci.
+
 ### [Aspose.PDF .NET: Nastavení okrajů PDF a úprava záhlaví/zápatí](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 Zvládněte umění nastavování okrajů stránek a úpravy záhlaví/zápatí ve vašich PDF souborech s Aspose.PDF pro .NET. Postupujte podle tohoto podrobného návodu a vylepšete konzistenci rozvržení dokumentu.
 

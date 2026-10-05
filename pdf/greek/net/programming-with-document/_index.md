@@ -62,6 +62,7 @@
 | [Άνοιγμα αρχείου PDF C# – Πώς να επισκευάσετε ένα κατεστραμμένο PDF σε λίγα λεπτά](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | Μάθετε πώς να ανοίξετε και να επισκευάσετε γρήγορα ένα κατεστραμμένο αρχείο PDF χρησιμοποιώντας Aspose.PDF για .NET σε C#. |  
 | [Πώς να διαβάσετε έγγραφο Word και να εξάγετε συγκεκριμένη σελίδα από το Word – Οδηγός C#](./how-to-read-word-document-and-extract-specific-page-from-wor/) | Μάθετε πώς να διαβάσετε ένα αρχείο Word και να εξάγετε μια συγκεκριμένη σελίδα χρησιμοποιώντας C# και Aspose.Words. |  
 
+| [Δημιουργία προσαρμοσμένου plugin Aspose – Πλήρης οδηγός για αυτοματοποίηση επεξεργασίας PDF](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Μάθετε πώς να δημιουργήσετε ένα προσαρμοσμένο plugin Aspose για την αυτοματοποίηση της επεξεργασίας PDF χρησιμοποιώντας το Aspose.PDF για .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

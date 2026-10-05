@@ -51,6 +51,7 @@ Aspose.PDF for .NET の「画像を使ったプログラミング」チュート
 | [PDFファイル内の画像を縮小する](./shrink-images/) このステップバイステップ ガイドに従って Aspose.PDF for .NET を使用して PDF ファイル内の画像を簡単に縮小し、品質を維持しながらファイル サイズを小さくすることができます。 |  
 | [XImageコレクションに画像を保存する](./store-image-in-ximage-collection/) この完全なステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して XImage コレクションに画像を保存する方法を学習します。 |  
 | [Word に図を追加 – 完全な C# プログラミング ガイド](./add-figure-to-word-complete-c-programming-guide/) Aspose.PDF for .NET を使用して、C# で Word 文書に図を追加する方法をステップバイステップで解説します。 |  
+| [DOCX の画像を圧縮 – ファイルサイズを削減](./compress-images-in-docx-reduce-file-size/) Aspose.PDF for .NET を使用して、DOCX 内の画像を圧縮し、ファイルサイズを小さくする方法を学びます。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

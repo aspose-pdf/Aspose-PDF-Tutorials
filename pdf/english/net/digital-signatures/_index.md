@@ -131,6 +131,9 @@ Learn how to validate PDF signatures in C# using Aspose.PDF for .NET. This guide
 ### [How to Sign PDF in C# – Complete Guide for Adding Digital Signatures](./how-to-sign-pdf-in-c-complete-guide-for-adding-digital-signa/)
 Learn how to add digital signatures to PDF files using C# and Aspose.PDF for .NET with step‑by‑step instructions.
 
+### [How to Sign PDF Using Certificate – Complete C# Guide](./how-to-sign-pdf-using-certificate-complete-c-guide/)
+Learn how to sign PDFs with a digital certificate using Aspose.PDF for .NET in C#. Step‑by‑step guide covering setup, signing, and verification.
+
 ## Additional Resources
 
 - [Aspose.PDF for Net Documentation](https://docs.aspose.com/pdf/net/)

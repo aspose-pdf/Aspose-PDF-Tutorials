@@ -72,6 +72,8 @@ Aspose.PDF の .NET 向けドキュメント変換チュートリアルでは、
 | [C#でPDFをPDF/X‑4に変換する方法 – Aspose PDFを使用](./how-to-convert-pdf-to-pdf-x-4-in-c-with-aspose-pdf/) C# と Aspose.PDF for .NET を使用して、PDF を PDF/X‑4 形式に変換する方法を学びます。 |  
 | [C#でAspose PDF変換 – PDFをPDF/X‑4に変換](./aspose-pdf-conversion-in-c-convert-pdf-to-pdf-x-4/) C# と Aspose.PDF for .NET を使用して PDF を PDF/X‑4 形式に変換する方法を学びます。 |  
 | [PDF形式変換チュートリアル – C#でAsposeを使用してPDFをPDF/X‑4に変換](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-with-a/) Aspose.PDF for .NET を使用して C# で PDF を PDF/X‑4 形式に変換する方法をステップバイステップで解説します。 |  
+| [PDF形式変換チュートリアル – C#でPDFをPDF/X-4に変換](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-in-c/) C# と Aspose.PDF for .NET を使用して PDF を PDF/X‑4 に変換する手順を学びます。 |  
+| [Word から HTML を作成 – DOCX を HTML に変換する完全ガイド](./create-html-from-word-complete-guide-to-convert-docx-to-html/) このステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して DOCX を HTML に変換する方法を学びます。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

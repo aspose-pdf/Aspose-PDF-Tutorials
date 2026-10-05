@@ -118,6 +118,9 @@ Scopri come estrarre le firme digitali dai PDF con Aspose.PDF per .NET usando C#
 ### [Come firmare PDF in C# – Guida completa per aggiungere firme digitali](./how-to-sign-pdf-in-c-complete-guide-for-adding-digital-signa/)
 Scopri come firmare PDF in C# con una guida completa passo‑passo per aggiungere firme digitali.
 
+### [Come firmare PDF usando un certificato – Guida completa C#](./how-to-sign-pdf-using-certificate-complete-c-guide/)
+Scopri come firmare PDF usando un certificato con una guida completa in C#.
+
 ## Risorse aggiuntive
 
 - [Aspose.PDF per la documentazione di rete](https://docs.aspose.com/pdf/net/)

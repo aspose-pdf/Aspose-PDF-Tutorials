@@ -72,6 +72,8 @@ Bạn sẽ học cách chỉ định cài đặt chuyển đổi, trích xuất 
 | [Tạo HTML từ PDF bằng Aspose.PDF – Hướng dẫn từng bước](./create-html-from-pdf-with-aspose-pdf-step-by-step-guide/) | Học cách tạo tệp HTML từ PDF bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết từng bước. |
 | [PDF sang PDF/X‑4 trong C# – Aspose PDF](./aspose-pdf-conversion-in-c-convert-pdf-to-pdf-x-4/) | Tìm hiểu cách chuyển đổi tệp PDF sang định dạng PDF/X‑4 bằng Aspose.PDF cho .NET trong C# với hướng dẫn chi tiết từng bước. |
 | [Hướng dẫn chuyển đổi định dạng PDF – Chuyển PDF sang PDF/X‑4 với Aspose trong C#](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-with-a/) | Tìm hiểu cách chuyển đổi PDF sang PDF/X‑4 bằng Aspose.PDF cho .NET trong C# qua hướng dẫn chi tiết. |  
+| [Tạo HTML từ Word – Hướng dẫn đầy đủ chuyển DOCX sang HTML](./create-html-from-word-complete-guide-to-convert-docx-to-html/) | Tìm hiểu cách chuyển đổi tệp DOCX sang HTML bằng Aspose.PDF cho .NET với hướng dẫn chi tiết từng bước. |
+| [Hướng dẫn chuyển đổi định dạng PDF – Chuyển PDF sang PDF/X‑4 trong C#](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Tìm hiểu cách chuyển đổi PDF sang PDF/X‑4 bằng Aspose.PDF cho .NET trong C# qua hướng dẫn chi tiết. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

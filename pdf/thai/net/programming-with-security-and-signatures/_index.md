@@ -51,6 +51,7 @@
 - [ตรวจสอบลายเซ็น PDF ด้วย Aspose.Pdf – คู่มือฉบับสมบูรณ์](./check-pdf-signatures-with-aspose-pdf-complete-guide/) | เรียนรู้วิธีตรวจสอบและยืนยันลายเซ็นดิจิทัลในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียดและครบถ้วน
 - [สร้าง PKCS7 Detached Signer ใน C# – คู่มือฉบับสมบูรณ์](./create-pkcs7-detached-signer-in-c-complete-guide/) | เรียนรู้วิธีสร้าง PKCS7 Detached Signer ใน C# ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียดและครบถ้วน
 - [ดึงชื่อลายเซ็น PDF ด้วย Aspose.PDF ใน C#](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | เรียนรู้วิธีดึงชื่อของลายเซ็นในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ด้วย C# -
+- [วิธีอ่านลายเซ็นจาก PDF ใน C# – คู่มือฉบับสมบูรณ์](./how-to-read-signatures-from-a-pdf-in-c-complete-guide/) | เรียนรู้วิธีอ่านและตรวจสอบลายเซ็น PDF ด้วย C# และ Aspose.PDF สำหรับ .NET ผ่านคำแนะนำขั้นตอนที่ครบถ้วน -  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -74,6 +74,8 @@
 | [Aspose PDF रूपांतरण C# में – PDF को PDF/X‑4 में बदलें](./aspose-pdf-conversion-in-c-convert-pdf-to-pdf-x-4/) | इस ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X‑4 फ़ॉर्मेट में बदलना सीखें। |
 | [C# में PDF को HTML में बदलें – सरल चरण‑दर‑चरण गाइड](./convert-pdf-to-html-in-c-simple-step-by-step-guide/) | इस सरल चरण‑दर‑चरण ट्यूटोरियल के साथ .NET के लिए Aspose.PDF का उपयोग करके C# में PDF को HTML में परिवर्तित करना सीखें। |
 | [PDF फ़ॉर्मेट रूपांतरण ट्यूटोरियल – Aspose के साथ C# में PDF को PDF/X‑4 में बदलें](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-with-a/) | इस ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X‑4 फ़ॉर्मेट में बदलना सीखें। |
+| [Word से HTML बनाएं – DOCX को HTML में बदलने की पूर्ण गाइड](./create-html-from-word-complete-guide-to-convert-docx-to-html/) | DOCX फ़ाइल को HTML में बदलने के चरण-दर-चरण निर्देश, .NET के लिए Aspose.PDF का उपयोग करके। |
+| [PDF फ़ॉर्मेट रूपांतरण ट्यूटोरियल – C# में PDF को PDF/X-4 में बदलें](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-in-c/) | इस चरण-दर-स्ट... इस ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके C# में PDF को PDF/X‑4 में बदलना सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

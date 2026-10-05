@@ -53,6 +53,7 @@ Aspose.PDF for .NET의 "태그가 지정된 PDF 프로그래밍" 튜토리얼은
 | [C#에서 태그가 지정된 PDF 만들기 – 단계별 가이드](./create-tagged-pdf-in-c-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 태그가 지정된 PDF를 만드는 단계별 가이드를 확인하세요. |  
 | [PDF 문서 만들기 – 태그가 지정된 텍스트에 절대 위치 설정](./create-pdf-document-set-absolute-position-for-tagged-text/) | Aspose.PDF for .NET을 사용하여 태그가 지정된 텍스트의 절대 위치를 설정하여 PDF 문서를 만드는 방법을 단계별로 안내합니다. |  
 | [C#로 PDF 문서 만들기 – 태그가 지정된 텍스트와 위치 지정 포함 전체 가이드](./create-pdf-document-c-full-guide-with-tagged-text-and-positi/) | Aspose.PDF for .NET을 사용하여 C#에서 태그가 지정된 텍스트와 위치 지정이 포함된 PDF 문서를 만드는 전체 단계별 가이드입니다. |
+| [Aspose를 사용하여 PDF에서 접근 가능한 텍스트 스팬 만들기 – 전체 C# 가이드](./create-accessible-text-span-in-pdf-with-aspose-full-c-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 접근 가능한 텍스트 스팬을 PDF에 추가하는 단계별 완전 가이드입니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

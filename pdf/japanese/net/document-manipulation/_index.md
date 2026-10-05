@@ -38,6 +38,9 @@ Aspose.PDF for .NET を使用して PDF ドキュメントに改ページを追�
 ### [Aspose.PDF .NET で四角形を追加して PDF ページを構成する: 包括的なガイド](./aspose-pdf-net-add-rectangles-configure-pages/)
 Aspose.PDF for .NET を使用して、PDF に四角形を追加し、ページを構成する方法を習得します。このガイドに従って、ドキュメント操作のテクニックを効果的に習得しましょう。
 
+### [C# で PDF に四角形を追加する – 完全プログラミングガイド](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
+Aspose.PDF for .NET を使用して、C# で PDF に四角形を追加し、ページレイアウトをカスタマイズする方法をステップバイステップで学びます。
+
 ### [Aspose.PDF .NET: PDF の余白の設定とヘッダー/フッターのカスタマイズ](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 Aspose.PDF for .NET を使って、PDF のページ余白の設定やヘッダー/フッターのカスタマイズをマスターしましょう。この詳細なガイドに従って、ドキュメントレイアウトの一貫性を高めましょう。
 

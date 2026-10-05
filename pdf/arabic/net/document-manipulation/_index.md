@@ -38,6 +38,9 @@
 ### [إضافة مستطيلات وتكوين صفحات PDF باستخدام Aspose.PDF .NET: دليل شامل](./aspose-pdf-net-add-rectangles-configure-pages/)
 أتقن إضافة المستطيلات وتكوين الصفحات في ملفات PDF باستخدام Aspose.PDF لـ .NET. اتبع هذا الدليل لتعلم تقنيات معالجة المستندات بفعالية.
 
+### [إضافة مستطيل إلى PDF باستخدام C# – دليل برمجة كامل](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
+تعرف على كيفية إضافة مستطيل إلى مستند PDF باستخدام C# مع Aspose.PDF .NET من خلال دليل برمجة شامل خطوة بخطوة.
+
 ### [Aspose.PDF .NET: تعيين هوامش PDF وتخصيص الرؤوس والتذييلات](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 أتقن فن ضبط هوامش الصفحات وتخصيص الرؤوس والتذييلات في ملفات PDF باستخدام Aspose.PDF لـ .NET. اتبع هذا الدليل المفصل لتحسين تناسق تخطيط المستند.
 

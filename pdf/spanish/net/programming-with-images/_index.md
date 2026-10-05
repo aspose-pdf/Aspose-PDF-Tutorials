@@ -51,6 +51,7 @@ Los tutoriales de "Programación con imágenes" de Aspose.PDF para .NET te guía
 | [Almacenar imagen en la colección XImage](./store-image-in-ximage-collection/) | Aprenda a almacenar imágenes en la colección XImage usando Aspose.PDF para .NET en esta completa guía paso a paso. |  
 | [Crear página PDF en blanco – Guía completa para agregar, recortar y redimensionar imágenes](./create-blank-pdf-page-full-guide-to-adding-cropping-resizing/) | Aprenda a crear una página PDF en blanco y a añadir, recortar y redimensionar imágenes con Aspose.PDF para .NET en esta guía paso a paso. |
 | [Agregar figura a Word – Guía completa de programación en C#](./add-figure-to-word-complete-c-programming-guide/) | Aprenda a insertar una figura en un documento Word mediante programación en C# con Aspose.Words, siguiendo una guía paso a paso. |
+| [Comprimir imágenes en DOCX – Reducir tamaño de archivo](./compress-images-in-docx-reduce-file-size/) | Aprenda a comprimir imágenes en documentos DOCX para reducir el tamaño del archivo usando Aspose.PDF para .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

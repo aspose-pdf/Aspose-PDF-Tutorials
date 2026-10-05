@@ -38,6 +38,9 @@ Tìm hiểu cách thêm ngắt trang trong tài liệu PDF bằng Aspose.PDF cho
 ### [Thêm hình chữ nhật và định cấu hình trang PDF bằng Aspose.PDF .NET: Hướng dẫn toàn diện](./aspose-pdf-net-add-rectangles-configure-pages/)
 Làm chủ việc thêm hình chữ nhật và cấu hình các trang trong PDF bằng Aspose.PDF cho .NET. Thực hiện theo hướng dẫn này để tìm hiểu các kỹ thuật thao tác tài liệu hiệu quả.
 
+### [Thêm Hình Chữ Nhật vào PDF bằng C# – Hướng Dẫn Lập Trình Toàn Diện](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
+Tìm hiểu cách thêm hình chữ nhật vào tài liệu PDF bằng C# với Aspose.PDF .NET trong hướng dẫn lập trình toàn diện này.
+
 ### [Aspose.PDF .NET: Thiết lập lề PDF & Tùy chỉnh tiêu đề/chân trang](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 Làm chủ nghệ thuật thiết lập lề trang và tùy chỉnh tiêu đề/chân trang trong tệp PDF của bạn với Aspose.PDF cho .NET. Thực hiện theo hướng dẫn chi tiết này để tăng cường tính nhất quán của bố cục tài liệu.
 

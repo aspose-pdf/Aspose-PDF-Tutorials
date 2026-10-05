@@ -37,6 +37,9 @@ Tanuld meg, hogyan adhatsz hozzá oldaltöréseket PDF dokumentumokhoz az Aspose
 ### [Téglalapok hozzáadása és PDF-oldalak konfigurálása az Aspose.PDF .NET segítségével: Átfogó útmutató](./aspose-pdf-net-add-rectangles-configure-pages/)
 Sajátítsd el a téglalapok hozzáadását és az oldalak konfigurálását PDF-ekben az Aspose.PDF for .NET használatával. Kövesd ezt az útmutatót a dokumentumkezelési technikák hatékony elsajátításához.
 
+### [Add Rectangle to PDF with C# – Complete Programming Guide](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
+Tanulja meg, hogyan adhat hozzá téglalap alakzatot PDF-dokumentumokhoz C#-ban az Aspose.PDF for .NET segítségével, lépésről lépésre.
+
 ### [Aspose.PDF .NET: PDF margók beállítása és fejlécek/láblécek testreszabása](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 Sajátítsd el az oldalmargók beállításának és a fejlécek/láblécek testreszabásának művészetét PDF-fájljaidban az Aspose.PDF for .NET segítségével. Kövesd ezt a részletes útmutatót a dokumentum elrendezésének egységességének javításához.
 

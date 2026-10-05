@@ -72,6 +72,8 @@
 | [Άνοιγμα εγγράφου PDF C# – Μετατροπή σε PDF/X‑4 για εκτύπωση](./open-pdf-document-c-convert-to-pdf-x-4-for-printing/) | Μάθετε πώς να ανοίξετε ένα PDF σε C# και να το μετατρέψετε σε PDF/X‑4 για εκτύπωση με το Aspose.PDF για .NET. |
 | [Πώς να μετατρέψετε PDF σε PDF/X‑4 σε C# με το Aspose PDF](./how-to-convert-pdf-to-pdf-x-4-in-c-with-aspose-pdf/) | Μάθετε πώς να μετατρέψετε PDF σε PDF/X‑4 σε C# χρησιμοποιώντας το Aspose.PDF για .NET σε αυτόν τον βήμα‑βήμα οδηγό. |
 | [Δημιουργία HTML από PDF με Aspose.PDF – Οδηγός βήμα‑βήμα](./create-html-from-pdf-with-aspose-pdf-step-by-step-guide/) | Μάθετε πώς να δημιουργείτε HTML από PDF χρησιμοποιώντας το Aspose.PDF για .NET με αυτόν τον οδηγό βήμα προς βήμα. |
+| [Σεμινάριο μετατροπής μορφής PDF – Μετατροπή PDF σε PDF/X-4 σε C#](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Μάθετε πώς να μετατρέψετε PDF σε PDF/X‑4 με C# χρησιμοποιώντας το Aspose.PDF για .NET σε αυτόν τον βήμα‑βήμα οδηγό. |
+| [Δημιουργία HTML από Word – Πλήρης Οδηγός για τη Μετατροπή DOCX σε HTML](./create-html-from-word-complete-guide-to-convert-docx-to-html/) | Μάθετε πώς να μετατρέψετε αρχεία DOCX σε HTML χρησιμοποιώντας το Aspose.PDF για .NET σε αυτόν τον ολοκληρωμένο οδηγό βήμα‑βήμα. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

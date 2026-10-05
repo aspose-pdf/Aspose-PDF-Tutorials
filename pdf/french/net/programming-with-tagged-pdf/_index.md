@@ -49,6 +49,7 @@ Les tutoriels « Programmation avec des PDF balisés » d'Aspose.PDF pour .NET
 | [Créer un PDF balisé en C# – Guide étape par étape](./create-tagged-pdf-in-c-step-by-step-guide/) | Apprenez à créer un PDF balisé en C# avec Aspose.PDF pour .NET grâce à ce guide étape par étape. |
 | [Créer un document PDF – Définir la position absolue pour le texte balisé](./create-pdf-document-set-absolute-position-for-tagged-text/) | Apprenez à créer un PDF et à positionner du texte balisé à une position absolue avec Aspose.PDF pour .NET. |
 | [Créer un document PDF C# – Guide complet avec texte balisé et positionnement](./create-pdf-document-c-full-guide-with-tagged-text-and-positi/) | Apprenez à créer un document PDF en C# avec du texte balisé et un positionnement précis grâce à Aspose.PDF pour .NET. |
+| [Créer une plage de texte accessible dans un PDF avec Aspose : guide complet C#](./create-accessible-text-span-in-pdf-with-aspose-full-c-guide/) | Apprenez à créer une plage de texte accessible dans un PDF en C# avec Aspose.PDF, étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

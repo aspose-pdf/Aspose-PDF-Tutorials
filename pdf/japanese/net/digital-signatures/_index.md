@@ -36,6 +36,8 @@ Aspose.PDF for .NET を使って、PDF 署名を安全に作成、署名、検�
 
 ### [C# で PDF に署名する方法 – デジタル署名追加の完全ガイド](./how-to-sign-pdf-in-c-complete-guide-for-adding-digital-signa/)
 C# を使用して PDF にデジタル署名を追加する手順をステップバイステップで解説します。
+### [証明書を使用して PDF に署名する方法 – 完全 C# ガイド](./how-to-sign-pdf-using-certificate-complete-c-guide/)
+C# で証明書を利用し、PDF にデジタル署名を行う手順をステップバイステップで解説します。
 
 ### [Aspose.PDF .NET を使用して PDF 署名情報を抽出する方法: ステップバイステップガイド](./extract-pdf-signature-info-aspose-pdf-net/)
 Aspose.PDF for .NET を使用してPDFからデジタル署名情報を抽出する方法を学びましょう。このステップバイステップガイドでは、インストール、実装、そして実践的な応用方法を解説します。

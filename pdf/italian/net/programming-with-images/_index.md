@@ -51,6 +51,7 @@ tutorial "Programmazione con immagini" di Aspose.PDF per .NET ti guideranno pass
 | [Riduci le immagini nel file PDF](./shrink-images/) | Riduci facilmente le immagini nei file PDF utilizzando Aspose.PDF per .NET con questa guida dettagliata, assicurando file di dimensioni ridotte senza compromettere la qualità. |  
 | [Memorizza l'immagine nella raccolta XImage](./store-image-in-ximage-collection/) | Scopri come memorizzare le immagini nella raccolta XImage utilizzando Aspose.PDF per .NET in questa guida completa passo dopo passo.  
 | [Aggiungi figura a Word – Guida completa alla programmazione C#](./add-figure-to-word-complete-c-programming-guide/) | Scopri come aggiungere una figura a un documento Word con C# usando Aspose.Words per .NET in questa guida completa passo passo. |  
+| [Comprimi immagini in DOCX – Riduci le dimensioni del file](./compress-images-in-docx-reduce-file-size/) | Scopri come comprimere le immagini in un documento DOCX per ridurre le dimensioni del file usando Aspose.PDF per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

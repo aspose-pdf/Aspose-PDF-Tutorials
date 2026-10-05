@@ -51,6 +51,7 @@ Samouczki „Programowanie z obrazami” Aspose.PDF for .NET przeprowadzą Cię 
 | [Przechowuj obraz w kolekcji XImage](./store-image-in-ximage-collection/) | Dowiedz się, jak przechowywać obrazy w kolekcji XImage przy użyciu Aspose.PDF dla platformy .NET, korzystając z tego kompletnego przewodnika krok po kroku. |  
 | [Utwórz pustą stronę PDF – Kompletny przewodnik po dodawaniu, przycinaniu i zmianie rozmiaru obrazów](./create-blank-pdf-page-full-guide-to-adding-cropping-resizing/) | Dowiedz się, jak utworzyć pustą stronę PDF i dodawać, przycinać oraz zmieniać rozmiar obrazów przy użyciu Aspose.PDF dla .NET. |
 | [Dodaj rysunek do Word – Kompletny przewodnik programowania w C#](./add-figure-to-word-complete-c-programming-guide/) | Dowiedz się, jak programowo dodawać rysunki do dokumentów Word przy użyciu C# i Aspose.Words dla .NET. |
+| [Kompresja obrazów w DOCX – zmniejsz rozmiar pliku](./compress-images-in-docx-reduce-file-size/) | Dowiedz się, jak skompresować obrazy w dokumentach DOCX, aby zmniejszyć rozmiar pliku przy użyciu Aspose.Words dla .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -61,6 +61,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Cara Membaca Dokumen Word dan Mengekstrak Halaman Tertentu dari Word – Panduan C#](./how-to-read-word-document-and-extract-specific-page-from-wor/) | Pelajari cara membaca dokumen Word dan mengekstrak halaman tertentu menggunakan Aspose.Words untuk .NET dengan C#. |
 | [Cara Memperbaiki File PDF – Panduan Langkah demi Langkah Menggunakan Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Pelajari cara memperbaiki file PDF yang rusak dengan Aspose.Pdf melalui panduan langkah demi langkah yang mudah diikuti. Bahasa Indonesia:  |
 | [Buka File PDF C# – Cara Memperbaiki PDF Rusak dalam Hitungan Menit](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | Pelajari cara membuka file PDF dan memperbaiki PDF yang rusak dalam hitungan menit menggunakan Aspose.PDF untuk .NET dengan C#. |  
+| [Buat plugin Aspose khusus – Panduan Lengkap untuk Mengotomatiskan Pemrosesan PDF](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Pelajari cara membuat plugin Aspose khusus untuk mengotomatiskan proses PDF dengan panduan langkah demi langkah. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

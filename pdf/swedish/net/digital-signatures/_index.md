@@ -120,6 +120,9 @@ Lär dig hur du signerar PDF-filer och infogar bilder med en komplett C#-guide i
 ### [Verifiera PDF-signatur och lägg till Bates-nummerering – Komplett C#-guide](./verify-pdf-signature-and-add-bates-numbering-complete-c-guid/)
 Lär dig hur du verifierar PDF-signaturer och lägger till Bates-nummerering med Aspose.PDF för .NET i C#.
 
+### [Hur man signerar PDF med certifikat – Komplett C#-guide](./how-to-sign-pdf-using-certificate-complete-c-guide/)
+Lär dig steg-för-steg hur du signerar PDF-filer med ett certifikat i C# med en komplett guide.
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

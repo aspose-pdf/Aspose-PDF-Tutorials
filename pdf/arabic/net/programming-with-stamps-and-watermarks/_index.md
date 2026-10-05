@@ -55,6 +55,7 @@
 | [إضافة علامة مائية PDF في C# – دليل كامل مع Aspose](./add-watermark-pdf-in-c-complete-guide-with-aspose/) تعرّف على كيفية إضافة علامة مائية إلى ملفات PDF باستخدام Aspose.PDF لـ .NET في C# من خلال دليل شامل خطوة بخطوة.  
 | [إضافة ترقيم بايتس إلى ملفات PDF باستخدام C# – دليل كامل](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | تعرّف على كيفية إضافة ترقيم بايتس إلى ملفات PDF باستخدام Aspose.PDF لـ .NET مع مثال عملي خطوة بخطوة. |
 | [إضافة ترقيم Bates إلى ملفات PDF باستخدام Aspose – دليل كامل](./add-bates-numbering-to-pdfs-with-aspose-complete-guide/) | تعرّف على طريقة إضافة ترقيم Bates إلى ملفات PDF باستخدام Aspose.PDF لـ .NET مع شرح مفصل وأمثلة. |
+| [كيفية إضافة ترقيم بايتس في PDF باستخدام C# – دليل كامل](./how-to-add-bates-numbering-in-pdf-with-c-complete-guide/) | تعرّف على طريقة إضافة ترقيم بايتس إلى ملفات PDF باستخدام Aspose.PDF لـ .NET مع مثال كامل خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

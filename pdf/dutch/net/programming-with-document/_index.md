@@ -61,6 +61,7 @@ De bron bevat tutorials over de programmeerfunctie met documentfunctionaliteit v
 | [PDF-bestanden repareren – Stapsgewijze handleiding met Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Leer hoe u beschadigde PDF-bestanden kunt repareren met Aspose.PDF voor .NET in deze stapsgewijze gids. |
 | [PDF-bestand openen C# – Hoe een beschadigde PDF in enkele minuten te repareren](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | Leer hoe u met Aspose.PDF voor .NET een beschadigd PDF-bestand kunt herstellen met C# in enkele minuten. |  
 | [Hoe een Word-document te lezen en een specifieke pagina uit Word te extraheren – C#-handleiding](./how-to-read-word-document-and-extract-specific-page-from-wor/) | Leer hoe u met Aspose.Words voor .NET een Word-document leest en een specifieke pagina extraheert met C#. |  
+| [Aangepaste Aspose-plug-in maken – Complete gids voor het automatiseren van PDF-verwerking](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Leer hoe u een aangepaste Aspose-plug‑in maakt om PDF‑verwerking te automatiseren met stap‑voor‑stap codevoorbeelden. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

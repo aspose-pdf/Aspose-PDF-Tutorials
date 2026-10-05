@@ -53,6 +53,7 @@ Questo tutorial offre una panoramica dettagliata di metodi e tecniche per garant
 | [Crea firmatario PKCS7 detached in C# – Guida completa](./create-pkcs7-detached-signer-in-c-complete-guide/) | Scopri come creare un firmatario PKCS7 detached in C# con Aspose.PDF per .NET. Guida passo passo completa. |
 | [Recupera i nomi delle firme PDF con Aspose.PDF in C#](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | Scopri come estrarre i nomi delle firme presenti in un PDF usando Aspose.PDF per .NET con C#. |
 | [Convalida firma PDF in C# – Guida completa passo passo](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | Scopri come convalidare le firme PDF in C# con Aspose.PDF, passo dopo passo, per garantire l'autenticità dei documenti. |
+| [Come leggere le firme da un PDF in C# – Guida completa](./how-to-read-signatures-from-a-pdf-in-c-complete-guide/) | Scopri come leggere le firme digitali da PDF con C# e Aspose.PDF per .NET in questa guida completa. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

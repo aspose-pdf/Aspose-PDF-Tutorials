@@ -49,6 +49,7 @@
 | [إنشاء ملف PDF مُعلَّم في C# – دليل خطوة بخطوة](./create-tagged-pdf-in-c-step-by-step-guide/) |تعلم كيفية إنشاء ملف PDF مُعلَّم باستخدام C# و Aspose.PDF باتباع خطوات مفصلة.|  
 | [إنشاء مستند PDF – تعيين موضع مطلق للنص المُعلَّم](./create-pdf-document-set-absolute-position-for-tagged-text/) |تعلم كيفية إنشاء مستند PDF وتعيين موضع مطلق للنص المُعلَّم باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |  
 | [إنشاء مستند PDF C# – دليل كامل مع نص مُعلَّم وتحديد المواقع](./create-pdf-document-c-full-guide-with-tagged-text-and-positi/) |تعلم كيفية إنشاء مستند PDF مُعلَّم بالنص وتحديد المواقع باستخدام C# و Aspose.PDF خطوة بخطوة. |  
+| [إنشاء مقطع نصي قابل للوصول في PDF باستخدام Aspose: دليل كامل C#](./create-accessible-text-span-in-pdf-with-aspose-full-c-guide/) |تعلم كيفية إنشاء مقطع نصي قابل للوصول في ملفات PDF باستخدام Aspose.PDF لـ .NET مع دليل C# خطوة بخطوة.|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

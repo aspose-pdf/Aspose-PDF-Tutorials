@@ -53,6 +53,7 @@ Aspose.PDF の .NET 向けチュートリアル「スタンプと透かしを使
 | [PDF フルページ通知を作成する – クイック C# ガイド](./create-pdf-full-page-notice-quick-c-guide/) Aspose.PDF for .NET を使用して、C# で PDF にフルページの通知を追加する手順をステップバイステップで解説します。 |  
 | [C#でPDFにベーツ番号を追加する – 完全ガイド](./add-bates-numbering-to-pdfs-with-c-complete-guide/) Aspose.PDF for .NET を使用して C# で PDF にベーツ番号を付与する方法をステップバイステップで解説します。 |  
 | [Aspose を使用した PDF へのベーツ番号付与 – 完全ガイド](./add-bates-numbering-to-pdfs-with-aspose-complete-guide/) Aspose.PDF for .NET を使用して PDF にベーツ番号を付与する方法をステップバイステップで解説します。 |  
+| [C# で PDF にベーツ番号を追加する方法 – 完全ガイド](./how-to-add-bates-numbering-in-pdf-with-c-complete-guide/) Aspose.PDF for .NET を使用し、C# で PDF にベーツ番号を追加する手順をステップバイステップで解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

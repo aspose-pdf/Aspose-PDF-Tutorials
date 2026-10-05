@@ -117,6 +117,9 @@ Leer stap‑voor‑stap hoe u PDF‑bestanden ondertekent en afbeeldingen toevoe
 ### [Hoe PDF te ondertekenen in C# – Complete gids voor het toevoegen van digitale handtekeningen](./how-to-sign-pdf-in-c-complete-guide-for-adding-digital-signa/)
 Leer hoe u PDF's ondertekent in C# met Aspose.PDF, inclusief een volledige gids voor het toevoegen van digitale handtekeningen.
 
+### [Hoe PDF te ondertekenen met een certificaat – Complete C#‑handleiding](./how-to-sign-pdf-using-certificate-complete-c-guide/)
+Leer hoe u een PDF ondertekent met een certificaat in C# met Aspose.PDF voor .NET.
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

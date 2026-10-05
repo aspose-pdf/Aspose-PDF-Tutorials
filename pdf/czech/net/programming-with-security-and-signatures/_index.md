@@ -53,6 +53,7 @@ Tento tutoriál vám poskytne podrobný přehled metod a technik pro zajištěn�
 | [Vytvoření PKCS7 odděleného podepisovače v C# – Kompletní průvodce](./create-pkcs7-detached-signer-in-c-complete-guide/) | Naučte se, jak v C# vytvořit oddělený PKCS7 podepisovač pomocí Aspose.PDF pro .NET. |  
 | [Získání názvů podpisů PDF pomocí Aspose.PDF v C#](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | Naučte se, jak získat názvy podpisů v PDF souborech pomocí Aspose.PDF pro .NET v C#. |  
 | [Ověření PDF podpisu v C# – Kompletní krok za krokem průvodce](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | Naučte se, jak ověřit PDF podpisy v C# pomocí Aspose.PDF pro .NET v podrobném krok za krokem průvodci. |  
+| [Jak číst podpisy z PDF v C# – Kompletní průvodce](./how-to-read-signatures-from-a-pdf-in-c-complete-guide/) | Kompletní průvodce čtením digitálních podpisů z PDF souborů v C# pomocí Aspose.PDF pro .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

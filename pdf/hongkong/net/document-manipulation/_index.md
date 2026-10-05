@@ -37,6 +37,8 @@ Aspose.PDF Net 程式碼教學
 ### [使用 Aspose.PDF .NET 新增矩形和配置 PDF 頁面：綜合指南](./aspose-pdf-net-add-rectangles-configure-pages/)
 掌握使用 Aspose.PDF for .NET 在 PDF 中新增矩形和設定頁面。按照本指南可以有效地學習文件操作技術。
 
+### [使用 C# 向 PDF 新增矩形 – 完整程式設計指南](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
+
 ### [Aspose.PDF .NET：設定 PDF 頁邊距和自訂頁首/頁尾](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 掌握使用 Aspose.PDF for .NET 設定 PDF 頁邊距和自訂頁首/頁尾的技巧。請按照此詳細指南來增強文件佈局的一致性。
 

@@ -61,6 +61,7 @@
 | [PDF ファイルの修復方法 – Aspose.Pdf を使用したステップバイステップガイド](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) Aspose.PDF for .NET を使用して PDF ファイルの破損を検出し、修復する手順をステップバイステップで解説します。 |  
 | [PDFファイルを開く C# – 数分で破損したPDFを修復する方法](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) Aspose.PDF for .NET を使用して、C# で破損した PDF を数分で修復する手順を解説します。 |  
 | [Word ドキュメントを読み取り、特定のページを抽出する方法 – C# ガイド](./how-to-read-word-document-and-extract-specific-page-from-wor/) Aspose.Words for .NET を使用して、Word 文書から特定のページを読み取り抽出する手順をステップバイステップで解説します。 |  
+| [カスタム Aspose プラグインの作成 – PDF 処理を自動化する完全ガイド](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) Aspose.PDF for .NET を使用して、PDF 処理を自動化するカスタムプラグインの作成方法を学びます。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

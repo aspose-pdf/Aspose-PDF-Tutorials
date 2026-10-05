@@ -37,6 +37,9 @@ Découvrez comment ajouter des sauts de page dans vos documents PDF avec Aspose.
 ### [Ajouter des rectangles et configurer des pages PDF avec Aspose.PDF .NET : un guide complet](./aspose-pdf-net-add-rectangles-configure-pages/)
 Maîtrisez l'ajout de rectangles et la configuration de pages dans vos PDF avec Aspose.PDF pour .NET. Suivez ce guide pour apprendre efficacement les techniques de manipulation de documents.
 
+### [Ajouter un rectangle à un PDF avec C# – Guide complet de programmation](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
+Apprenez à ajouter des rectangles aux documents PDF en C# avec Aspose.PDF, grâce à un guide complet étape par étape.
+
 ### [Aspose.PDF .NET : définir les marges PDF et personnaliser les en-têtes et pieds de page](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 Maîtrisez l'art de définir les marges et de personnaliser les en-têtes et pieds de page de vos PDF avec Aspose.PDF pour .NET. Suivez ce guide détaillé pour améliorer la cohérence de la mise en page de vos documents.
 

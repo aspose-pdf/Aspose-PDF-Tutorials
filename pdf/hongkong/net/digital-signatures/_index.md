@@ -118,6 +118,9 @@ Aspose.PDF Net 程式碼教學
 ### [如何在 C# 中簽署 PDF – 添加數位簽章的完整指南](./how-to-sign-pdf-in-c-complete-guide-for-adding-digital-signa/)
 了解如何在 C# 使用 Aspose.PDF 為 PDF 添加數位簽章，提供完整步驟與範例程式碼。
 
+### [如何使用憑證簽署 PDF – 完整 C# 指南](./how-to-sign-pdf-using-certificate-complete-c-guide/)
+了解如何在 C# 中使用憑證簽署 PDF，提供完整步驟與範例程式碼。
+
 ## 其他資源
 
 - [Aspose.PDF 用於網頁文檔](https://docs.aspose.com/pdf/net/)

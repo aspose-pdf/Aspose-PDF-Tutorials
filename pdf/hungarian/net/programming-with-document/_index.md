@@ -61,6 +61,7 @@ Az anyag oktatóanyagokat tartalmaz az Aspose.PDF for .NET könyvtár dokumentum
 | [PDF fájlok javítása – lépésről‑lépésre útmutató az Aspose.Pdf használatával](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Ismerje meg, hogyan javíthatja meg a hibás PDF fájlokat az Aspose.Pdf segítségével lépésről‑lépésre útmutatóval. |
 | [PDF fájl megnyitása C# – Hogyan javítsunk meg egy sérült PDF-et percek alatt](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | Ismerje meg, hogyan javíthatja meg a sérült PDF fájlokat C#-ban az Aspose.PDF for .NET segítségével percek alatt. |
 | [Hogyan olvassunk Word dokumentumot és nyerjünk ki egy adott oldalt Word-ből – C# útmutató](./how-to-read-word-document-and-extract-specific-page-from-wor/) | Ismerje meg, hogyan olvashat Word dokumentumot és nyerhet ki belőle egy adott oldalt C#-ban az Aspose.Words for .NET használatával. |  
+| [Egyedi Aspose plugin létrehozása – Teljes útmutató a PDF feldolgozás automatizálásához](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Ismerje meg, hogyan hozhat létre egyedi Aspose plugint a PDF-feldolgozás automatizálásához lépésről lépésre útmutatóval. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

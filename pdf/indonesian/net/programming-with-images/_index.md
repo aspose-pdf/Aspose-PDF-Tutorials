@@ -51,6 +51,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Simpan Gambar Dalam Koleksi XImage](./store-image-in-ximage-collection/) | Pelajari cara menyimpan gambar dalam koleksi XImage menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah lengkap ini. |  
 | [Buat Halaman PDF Kosong – Panduan Lengkap Menambahkan, Memotong & Mengubah Ukuran Gambar](./create-blank-pdf-page-full-guide-to-adding-cropping-resizing/) | Pelajari cara membuat halaman PDF kosong dan menambahkan, memotong, serta mengubah ukuran gambar secara terprogram dengan Aspose.PDF untuk .NET. |  
 | [Tambahkan Gambar ke Word – Panduan Pemrograman C# Lengkap](./add-figure-to-word-complete-c-programming-guide/) | Pelajari cara menambahkan gambar ke dokumen Word menggunakan Aspose.Words untuk .NET dengan contoh kode C# lengkap. Bahasa Indonesia: |  
+| [Kompres Gambar dalam DOCX – Kurangi Ukuran File](./compress-images-in-docx-reduce-file-size/) | Pelajari cara mengompres gambar dalam dokumen DOCX untuk mengurangi ukuran file menggunakan Aspose.Words untuk .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

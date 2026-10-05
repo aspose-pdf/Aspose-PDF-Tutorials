@@ -51,6 +51,7 @@
 | [تصغير حجم الصور في ملف PDF](./shrink-images/) |يمكنك بسهولة تقليص حجم الصور في ملفات PDF باستخدام Aspose.PDF لـ .NET من خلال هذا الدليل خطوة بخطوة، مما يضمن أحجام ملفات أصغر مع الحفاظ على الجودة. |  
 | [تخزين الصورة في مجموعة XImage](./store-image-in-ximage-collection/) |تعرف على كيفية تخزين الصور في مجموعة XImage باستخدام Aspose.PDF لـ .NET في هذا الدليل الكامل خطوة بخطوة. |  
 | [إنشاء صفحة PDF فارغة – دليل كامل لإضافة الصور واقتصاصها وتغيير حجمها](./create-blank-pdf-page-full-guide-to-adding-cropping-resizing/) | تعلم كيفية إنشاء صفحة PDF فارغة وإضافة الصور إليها، واقتصاصها وتغيير حجمها باستخدام Aspose.PDF لـ .NET. |  
+| [ضغط الصور في DOCX – تقليل حجم الملف](./compress-images-in-docx-reduce-file-size/) تعلم كيفية ضغط الصور داخل ملفات DOCX لتقليل حجم الملف باستخدام Aspose.PDF لـ .NET.  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

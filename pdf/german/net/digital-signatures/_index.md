@@ -116,6 +116,9 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET Signaturen aus PDF-Dateien extrah
 ### [PDF in C# signieren – Vollständiger Leitfaden zum Hinzufügen digitaler Signaturen](./how-to-sign-pdf-in-c-complete-guide-for-adding-digital-signa/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDFs in C# digital signieren und sichere Signatur-Workflows implementieren.
 
+### [Wie man PDF mit Zertifikat signiert – Vollständiger C#‑Leitfaden](./how-to-sign-pdf-using-certificate-complete-c-guide/)
+Erfahren Sie, wie Sie PDFs mit einem Zertifikat in C# signieren, inklusive Code‑Beispielen und Schritt‑für‑Schritt‑Anleitung.
+
 ## Weitere Ressourcen
 
 - [Aspose.PDF für Net-Dokumentation](https://docs.aspose.com/pdf/net/)

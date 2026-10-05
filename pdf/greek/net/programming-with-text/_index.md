@@ -72,6 +72,7 @@
 | [Χρήση Latex Script σε αρχείο PDF](./use-latex-script/) | Μάθετε πώς να χρησιμοποιείτε το σενάριο Latex για να προσθέσετε μαθηματικές εκφράσεις ή τύπους σε αρχείο PDF χρησιμοποιώντας το Aspose.PDF για .NET. |  
 | [Προσθήκη Bates Numbers σε PDF – αριθμοδότηση Bates](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Μάθετε πώς να προσθέτετε Bates Numbers σε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET. |  
 
+| [Δημιουργία στοιχείου Span σε Word με C# – Πλήρης οδηγός](./create-span-element-in-word-with-c-complete-guide/) | Μάθετε πώς να δημιουργήσετε στοιχείο Span σε έγγραφα Word χρησιμοποιώντας C# με αυτόν τον πλήρη οδηγό βήμα προς βήμα. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

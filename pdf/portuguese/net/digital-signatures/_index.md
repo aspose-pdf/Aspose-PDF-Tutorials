@@ -123,6 +123,9 @@ Aprenda a verificar assinaturas de PDF e adicionar numeração Bates em C# usand
 ### [Como assinar PDF em C# – Guia completo para adicionar assinaturas digitais](./how-to-sign-pdf-in-c-complete-guide-for-adding-digital-signa/)
 Aprenda passo a passo como assinar PDFs em C# usando Aspose.PDF, cobrindo criação e aplicação de assinaturas digitais seguras.
 
+### [Como assinar PDF usando certificado – Guia completo em C#](./how-to-sign-pdf-using-certificate-complete-c-guide/)
+Aprenda a assinar PDFs com certificados digitais usando Aspose.PDF para .NET em C# passo a passo.
+
 ## Recursos adicionais
 
 - [Aspose.PDF para documentação da Net](https://docs.aspose.com/pdf/net/)

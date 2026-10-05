@@ -61,6 +61,7 @@ Este recurso incluye tutoriales sobre la programación con la función de docume
 | [Validar PDF UA Standard](./validatepdfuastandard/) | Aprenda a validar un PDF para el estándar de accesibilidad PDF/UA usando Aspose.PDF para .NET con nuestra guía paso a paso y explicaciones detalladas. |  
 | [Cómo reparar archivos PDF – Guía paso a paso usando Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Aprenda a reparar archivos PDF dañados con Aspose.Pdf para .NET mediante una guía paso a paso con ejemplos de código. |  
 | [Cómo leer un documento Word y extraer una página específica de Word – Guía C#](./how-to-read-word-document-and-extract-specific-page-from-wor/) Aprenda a leer documentos Word y extraer una página específica usando C# y Aspose.Words. Guía paso a paso con ejemplos de código.  
+| [Crear plugin personalizado de Aspose – Guía completa para automatizar el procesamiento de PDF](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) Aprenda a crear un plugin personalizado de Aspose para automatizar tareas de procesamiento de PDF con Aspose.PDF para .NET.  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

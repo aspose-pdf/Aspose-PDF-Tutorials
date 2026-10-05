@@ -61,6 +61,7 @@
 | [Как прочитать документ Word и извлечь определённую страницу – руководство C#](./how-to-read-word-document-and-extract-specific-page-from-wor/) | Узнайте, как с помощью Aspose.Words для .NET прочитать документ Word и извлечь конкретную страницу в C#. |
 | [Как восстановить PDF‑файлы – пошаговое руководство с использованием Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Узнайте, как восстанавливать поврежденные PDF‑файлы с помощью Aspose.Pdf в этом пошаговом руководстве. |
 | [Открыть PDF-файл C# – Как за несколько минут восстановить повреждённый PDF](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | Узнайте, как быстро восстановить повреждённый PDF-файл с помощью Aspose.PDF для .NET на C#. |  
+| [Создать пользовательский плагин Aspose – Полное руководство по автоматизации обработки PDF](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Полное руководство по созданию пользовательского плагина Aspose для автоматизации обработки PDF. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

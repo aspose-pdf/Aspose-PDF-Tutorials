@@ -51,6 +51,7 @@ Eğitim, PDF dosyalarınızın gizliliğini ve gerçekliğini sağlamak için y�
 | [C# ile PKCS7 Ayrı İmzalayıcı Oluşturma – Tam Kılavuz](./create-pkcs7-detached-signer-in-c-complete-guide/) | Aspose.PDF for .NET kullanarak C# ile PKCS7 ayrık imza oluşturmayı adım adım öğrenin. |  
 | [Aspose.PDF ile C#'ta PDF İmza İsimlerini Alın](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | Aspose.PDF for .NET kullanarak PDF imzalarının adlarını nasıl alacağınızı öğrenin. |  
 | [C# ile PDF İmzasını Doğrulama – Tam Adım Adım Kılavuz](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF imzalarını nasıl doğrulayacağınızı adım adım öğrenin. |  
+| [C# ile PDF'den İmzaları Okuma – Tam Rehber](./how-to-read-signatures-from-a-pdf-in-c-complete-guide/) | Aspose.PDF for .NET ile C# kullanarak PDF imzalarını okuma konusunda adım adım tam bir rehber. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

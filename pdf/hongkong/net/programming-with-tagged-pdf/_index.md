@@ -44,6 +44,7 @@ Aspose.PDF for .NET 的「使用標記 PDF 進行程式設計」教學課程將�
 | [在現有 PDF 中標記影像](./tag-image-in-existing-pdf/) |了解如何使用 Aspose.PDF for .NET 標記現有 PDF 中的影像。透過 PDF/UA 合規性增強可訪問性的逐步指南。 |  
 | [文字區塊結構元素](./text-block-structure-elements/) |了解如何使用 Aspose.PDF for .NET 將文字區塊結構元素（例如標題和標記段落）新增至現有 PDF 文件。 |  
 | [PDF檔案中的文字結構元素](./text-structure-elements/) |學習使用 Aspose.PDF for .NET 操作 PDF 中的文字結構元素。本逐步指南涵蓋了創建結構化 PDF 所需的所有內容。 |  
+| [使用 Aspose 在 PDF 中建立可存取文字跨度 – 完整 C# 指南](./create-accessible-text-span-in-pdf-with-aspose-full-c-guide/) |透過本完整 C# 教學，學習如何在 PDF 中建立可存取的文字跨度，提高文件的可讀性與合規性。 |  
 | [驗證 PDF 文件](./validate-pdf/) |了解如何使用 Aspose.PDF for .NET 驗證 PDF 檔案。檢查其是否符合標準並產生驗證報告。 |  
 | [在 C# 中建立標記 PDF – 完整步驟指南](./create-tagged-pdf-in-c-complete-step-by-step-guide/) |透過完整步驟指南，使用 C# 建立標記 PDF，提升文件可存取性與結構。 |  
 | [在 C# 中建立標記 PDF – Aspose PDF 完整指南](./create-tagged-pdf-in-c-aspose-pdf-complete-guide/) |透過完整步驟指南，使用 C# 建立符合 PDF/UA 標準的標記 PDF，提升文件可存取性。 |  

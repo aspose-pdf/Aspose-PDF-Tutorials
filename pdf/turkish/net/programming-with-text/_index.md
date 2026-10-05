@@ -70,6 +70,7 @@ Aspose.PDF'nin .NET için "Metinle Programlama" eğitimleri, PDF belgelerinizdek
 | [PDF Dosyasında Metin Ve Resim Paragraf Olarak](./text-and-image-as-paragraph/) | Aspose.PDF for .NET kullanarak metin ve resimlerle PDF'ler oluşturun. Adım adım metin ve satır içi resimlerin nasıl ekleneceğini öğrenin. |  
 | [PDF Dosyasındaki Metin Bölümleri](./text-segments/) | Aspose.PDF for .NET'te düzenli ifadeler kullanarak PDF dosyasındaki belirli metin parçalarını nasıl arayacağınızı öğrenin. |  
 | [PDF Dosyasında Latex Komut Dosyasını Kullan](./use-latex-script/) | Aspose.PDF for .NET kullanarak PDF dosyasına matematiksel ifadeler veya formüller eklemek için Latex betiğinin nasıl kullanılacağını öğrenin. |  
+| [C# ile Word'de Span Elemanı Oluşturma – Tam Kılavuz](./create-span-element-in-word-with-c-complete-guide/) | Aspose.Words for .NET kullanarak C# ile Word belgelerinde span öğesi eklemeyi öğrenin. |  
 | [PDF'ye Bates Numaraları Ekle – bates numbering pdf](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Aspose.PDF for .NET kullanarak PDF dosyalarına Bates numaraları eklemeyi öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
