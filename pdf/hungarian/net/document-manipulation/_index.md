@@ -155,7 +155,7 @@ Tanulja meg, hogyan egyesíthet PDF fájlokat és adhat hozzá üres oldalakat a
 Tanuld meg, hogyan fűzhetsz össze PDF dokumentumokat és szúrhatsz be üres oldalakat az Aspose.PDF és a C# használatával. Egyszerűsítsd a dokumentumkezelési munkafolyamataidat könnyedén.
 
 ### [PDF oldalméret konvertálása A4-es méretűre az Aspose.PDF .NET használatával | Dokumentumkezelési útmutató](./update-pdf-page-dimensions-aspose-net/)
-Ismerje meg, hogyan frissítheti a PDF oldalak méreteit A4-es méretre az Aspose.PDF for .NET segítségével. Kövesse ezt a lépésről lépésre szóló útmutatót a dokumentumok hatékony szabványosításához.
+Ismerje meg, hogyan frissítheti a PDF oldalak méreteit A4-es méretre az Aspose.PDF for .NET használatával. Kövesse ezt a lépésről lépésre szóló útmutatót a dokumentumok hatékony szabványosításához.
 
 ### [Oldalak számlálása PDF-ben az Aspose.PDF for .NET használatával (C# oktatóanyag)](./mastering-aspose-pdf-net-get-page-count/)
 Tanuld meg, hogyan számlálhatod az oldalakat egy PDF-ben az Aspose.PDF for .NET használatával ezzel a lépésről lépésre haladó C# oktatóanyaggal. Sajátítsd el a dokumentumkezelést könnyedén.
@@ -177,6 +177,9 @@ Ismerje meg, hogyan kinyerhet hatékonyan bizonyos oldalakat egy PDF-fájlból C
 
 ### [Rejtett és kereshető szöveg megvalósítása PDF-ekben az Aspose.PDF for .NET használatával](./aspose-pdf-dotnet-hidden-text-pdfs/)
 Ismerje meg, hogyan kezelheti a rejtett szöveget PDF dokumentumokban az Aspose.PDF for .NET segítségével. Ez az útmutató a szöveg hozzáadását, keresését és láthatóságának optimalizálását ismerteti.
+
+### [Oldalak beszúrása PDF-be az Aspose.PDF for .NET használatával: lépésről lépésre útmutató](./insert-pages-into-pdf-aspose-net/)
+Tanuld meg, hogyan szúrhatsz be adott oldalakat egyik PDF-ből a másikba az Aspose.PDF for .NET segítségével. Kövesd ezt a lépésről lépésre szóló útmutatót a dokumentumkezelési készségeid fejlesztéséhez.
 
 ### [Több PDF hatékony egyesítése az Aspose.PDF for .NET használatával | Dokumentumkezelési útmutató](./append-multiple-pdfs-aspose-pdf-dotnet/)
 Ismerje meg, hogyan egyesíthet hatékonyan több PDF-dokumentumot egyetlen fájlba az Aspose.PDF for .NET használatával. Ez az útmutató lépésről lépésre bemutatja az útmutatásokat, kódpéldákat és tippeket a dokumentumkezelési folyamat egyszerűsítéséhez.
@@ -214,8 +217,8 @@ Ismerje meg, hogyan frissítheti programozottan a PDF fájlokban található hiv
 ### [PDF hivatkozás szövegszínének frissítése az Aspose.PDF .NET használatával: Teljes körű útmutató](./update-pdf-link-text-color-aspose-net/)
 Tanuld meg, hogyan módosíthatod könnyedén a PDF-fájlokban található linkek szövegszínét az Aspose.PDF for .NET segítségével. Ez az átfogó útmutató a telepítéssel, a megvalósítással és az optimalizálással kapcsolatos tippeket tartalmazza.
 
-### [Oldalak beszúrása PDF-be az Aspose.PDF for .NET használatával: lépésről lépésre útmutató](./insert-pages-into-pdf-aspose-net/)
-Tanuld meg, hogyan szúrhatsz be adott oldalakat egyik PDF-ből a másikba az Aspose.PDF for .NET segítségével. Kövesd ezt a lépésről lépésre szóló útmutatót a dokumentumkezelési készségeid fejlesztéséhez.
+### [Oldalak beszúrása PDF-be az Aspose.PDF for .NET használatával: Teljes körű útmutató a dokumentumkezeléshez](./insert-pages-pdf-aspose-dotnet-guide/)
+Tanuld meg, hogyan szúrhatsz be oldalakat PDF-be az Aspose.PDF for .NET használatával. Ez a lépésről lépésre szóló útmutató mindent lefed a beállítástól a megvalósításig, tökéletes C# fejlesztők számára.
 
 ### [Oldalak beszúrása PDF-be az Aspose.PDF for .NET használatával: Átfogó útmutató a zökkenőmentes dokumentumkezeléshez](./aspose-pdf-net-insert-pages-between-numbers/)
 Tanuld meg, hogyan szúrhatsz be oldalakat PDF-fájlba az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Egyszerűsítsd hatékonyan a dokumentumkezelési munkafolyamatodat.

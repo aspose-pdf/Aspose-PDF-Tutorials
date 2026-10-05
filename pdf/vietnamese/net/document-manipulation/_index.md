@@ -83,7 +83,7 @@ Tìm hiểu cách tối ưu hóa tệp PDF bằng cách loại bỏ các đối 
 ### [Xử lý trang PDF hiệu quả với Aspose.PDF cho .NET: Hướng dẫn dành cho nhà phát triển](./manipulate-pdf-pages-aspose-dot-net/)
 Học cách thao tác hiệu quả các trang PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm xoay, thu phóng và thiết lập gốc mà không cần Adobe Acrobat.
 
-### [Kết hợp hiệu quả các trang PDF bằng Aspose.PDF cho .NET: Hướng pháp N-Up](./combine-pdf-pages-aspose-net-nup-method/)
+### [Kết hợp hiệu quả các trang PDF bằng Aspose.PDF cho .NET: Hướng dẫn phương pháp N-Up](./combine-pdf-pages-aspose-net-nup-method/)
 Tìm hiểu cách kết hợp các trang PDF hiệu quả bằng phương pháp N-Up với Aspose.PDF cho .NET. Hướng dẫn này bao gồm thiết lập, triển khai và ứng dụng thực tế.
 
 ### [Xóa trang khỏi PDF hiệu quả bằng Aspose.PDF cho .NET](./delete-pages-pdf-aspose-dotnet/)

@@ -23,7 +23,7 @@ Aspose.PDF'nin .NET için "Metinle Programlama" eğitimleri, PDF belgelerinizdek
 | [Belgelere HTML Sıralı Liste Ekleme](./add-html-ordered-list-into-documents/) | Aspose.PDF for .NET kullanarak PDF belgelerine HTML sıralı listeler eklemeyi öğrenin. Bu ayrıntılı eğitimde adım adım talimatları keşfedin. |  
 | [DOM Kullanarak HTML Ekleme](./add-html-using-dom/) Bu adım adım eğitimde Aspose.PDF for .NET kullanarak PDF belgelerine HTML içeriğinin nasıl ekleneceğini öğrenin. PDF dosyalarınızı dinamik HTML biçimlendirmesiyle kolayca geliştirin. |  
 | [DOM ve PDF Üzerine Yazma Kullanarak HTML Ekleme](./add-html-using-dom-and-overwrite/) | Aspose.PDF for .NET kullanarak PDF'ye HTML içeriğinin nasıl ekleneceğini öğrenin. Bu adım adım kılavuz, kurulumdan son kayda kadar her şeyi kapsar. |  
-| [PDF Dosyasında Sonraki Satırlara Girinti Ekle](./add-subsequent-lines-indent/) | Aspose.PDF for .NET kullanarak PDF dosalarına sonraki satır girintisinin nasıl ekleneceğini öğrenin. Profesyonel metin biçimlendirme için bu ayrıntılı adım adım kılavuzu izleyin. |  
+| [PDF Dosyasında Sonraki Satırlara Girinti Ekle](./add-subsequent-lines-indent/) | Aspose.PDF for .NET kullanarak PDF dosyalarına sonraki satır girintisinin nasıl ekleneceğini öğrenin. Profesyonel metin biçimlendirme için bu ayrıntılı adım adım kılavuzu izleyin. |  
 | [PDF Dosyasına Metin Kenarlığı Ekle](./add-text-border/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak bir PDF dosyasına metin kenarlığı eklemeyi öğrenin. PDF belgelerinizi geliştirin. |  
 | [PDF Dosyasına Gölgelendirme Renkleriyle Metin Ekleme](./add-text-with-shading-colors/) | Bu adım adım eğitimle Aspose.PDF for .NET kullanarak PDF dosyalarına metin gölgelendirmesi eklemeyi öğrenin. Belgelerinizi renkli degradelerle özelleştirin. |  
 | [PDF Dosyasındaki Metne İpucu Ekle](./add-tooltip-to-text/) | Aspose.PDF for .NET kullanarak PDF dosyalarındaki metne araç ipuçlarının nasıl ekleneceğini öğrenin. PDF'lerinizi bilgilendirici gezinme metinleriyle zahmetsizce geliştirin. |  
@@ -60,7 +60,7 @@ Aspose.PDF'nin .NET için "Metinle Programlama" eğitimleri, PDF belgelerinizdek
 | [PDF Dosyasında Metin Paragrafı ve Oluşturucu Kullanarak Metni Döndürme](./rotate-text-using-text-paragraph-and-builder/) | Aspose.PDF for .NET kullanarak PDF dosyasında metin paragrafı ve oluşturucuyu kullanarak metni nasıl döndüreceğinizi öğrenin. |  
 | [Ara ve Tüm Metni Al](./search-and-get-text-all/) | Aspose.PDF for .NET kullanarak bir PDF belgesinin tüm sayfalarında arama yapmayı ve metin almayı öğrenin. |  
 | [PDF Dosyasında Metin Sayfasını Ara ve Al](./search-and-get-text-page/) | Aspose.PDF for .NET kullanarak PDF dosyasındaki belirli bir sayfadan metin aramayı ve almayı öğrenin. |  
-| [PDF Dosyasında Düzenli İfade Arama](./search-regular-expression/) | Bu adım adım eğitimde Aspose.PDF for .NET kullanarak PDF dosalarında düzenli ifadeleri nasıl arayacağınızı öğrenin. Regex ile üretkenliğinizi artırın. |  
+| [PDF Dosyasında Düzenli İfade Arama](./search-regular-expression/) | Bu adım adım eğitimde Aspose.PDF for .NET kullanarak PDF dosyalarında düzenli ifadeleri nasıl arayacağınızı öğrenin. Regex ile üretkenliğinizi artırın. |  
 | [Metni Ara ve Köprü Bağlantısı Ekle](./search-text-and-add-hyperlink/) | Aspose.PDF for .NET kullanarak adım adım eğitimimiz ile PDF'lerde metin aramayı ve köprü metni eklemeyi öğrenin.  
 | [Metin Ara ve Dikdörtgen Çiz](./search-text-and-draw-rectangle/) Aspose.PDF for .NET kullanarak PDF'lerde metin aramayı ve dikdörtgenlerle vurgulamayı öğrenin! Gelişmiş PDF düzenleme becerileri için kolay adım adım eğitim. |  
 | [PDF Dosyasında Metin Segmentleri Sayfasını Ara](./search-text-segments-page/) | Bu ayrıntılı adım adım kılavuzla .NET için Aspose.PDF'yi kullanarak PDF dosyalarındaki metin bölümlerini nasıl arayacağınızı öğrenin. Metni ayıklayın, bölümleri analiz edin ve daha fazlasını yapın. |  
@@ -70,8 +70,8 @@ Aspose.PDF'nin .NET için "Metinle Programlama" eğitimleri, PDF belgelerinizdek
 | [PDF Dosyasında Metin Ve Resim Paragraf Olarak](./text-and-image-as-paragraph/) | Aspose.PDF for .NET kullanarak metin ve resimlerle PDF'ler oluşturun. Adım adım metin ve satır içi resimlerin nasıl ekleneceğini öğrenin. |  
 | [PDF Dosyasındaki Metin Bölümleri](./text-segments/) | Aspose.PDF for .NET'te düzenli ifadeler kullanarak PDF dosyasındaki belirli metin parçalarını nasıl arayacağınızı öğrenin. |  
 | [PDF Dosyasında Latex Komut Dosyasını Kullan](./use-latex-script/) | Aspose.PDF for .NET kullanarak PDF dosyasına matematiksel ifadeler veya formüller eklemek için Latex betiğinin nasıl kullanılacağını öğrenin. |  
-| [PDF'ye Bates Numaraları Ekle – bates numbering pdf](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Aspose.PDF for .NET kullanarak PDF dosyalarına Bates numaraları eklemeyi öğrenin. |
 | [C# ile Word'de Span Elemanı Oluşturma – Tam Kılavuz](./create-span-element-in-word-with-c-complete-guide/) | Aspose.Words for .NET kullanarak C# ile Word belgelerinde span öğesi eklemeyi öğrenin. |  
+| [PDF'ye Bates Numaraları Ekle – bates numbering pdf](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Aspose.PDF for .NET kullanarak PDF dosyalarına Bates numaraları eklemeyi öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

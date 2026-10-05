@@ -30,7 +30,7 @@ C# का उपयोग करके PDF फ़ाइलों में ड�
 
 ### [.NET के लिए Aspose.PDF का उपयोग करके PDF हस्ताक्षर कैसे बनाएं और सत्यापित करें](./create-verify-pdf-signatures-aspose-net/)
 
-### [Aspose.PDF .NET का उपयोग करके PDF हस्ताक्षर जानकारी कैसे निकालें: एक चरण-दर-श...](./extract-pdf-signature-info-aspose-pdf-net/)
+### [Aspose.PDF .NET का उपयोग करके PDF हस्ताक्षर जानकारी कैसे निकालें: एक चरण-दर-चरण मार्गदर्शिका](./extract-pdf-signature-info-aspose-pdf-net/)
 
 ### [Aspose.PDF के साथ .NET में डिजिटल हस्ताक्षर कैसे लागू करें: एक व्यापक गाइड](./implement-pdf-signatures-dotnet-aspose-pdf-guide/)
 
@@ -75,6 +75,9 @@ C# और Aspose.PDF का उपयोग करके PDF फ़ाइलो�
 C# में PDF दस्तावेज़ लोड करके उसे PDF/X‑4 में परिवर्तित करने और सभी डिजिटल हस्ताक्षरों को सूचीबद्ध करने का चरण-दर-चरण मार्गदर्शक।
 ### [Aspose के साथ PDF हस्ताक्षर सत्यापित करें – PDF को HTML में परिवर्तित करें](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
 Aspose का उपयोग करके PDF हस्ताक्षर की वैधता जांचें और PDF को HTML में बदलें।
+### [प्रमाणपत्र का उपयोग करके PDF पर हस्ताक्षर कैसे करें – पूर्ण C# गाइड](./how-to-sign-pdf-using-certificate-complete-c-guide/)
+C# में प्रमाणपत्र के साथ PDF पर डिजिटल हस्ताक्षर लागू करने की विस्तृत चरण‑दर‑चरण प्रक्रिया।
+
 ### [साइन किए गए PDF दस्तावेज़ को लोड करें और उसकी हस्ताक्षर सूचीबद्ध करें – C# गाइड](./load-signed-pdf-document-and-list-its-signatures-c-guide/)
 C# में साइन किए गए PDF को लोड करके सभी हस्ताक्षरों को सूचीबद्ध करने का चरण-दर-चरण मार्गदर्शन।
 ### [Aspose के साथ PDF हस्ताक्षर सत्यापित करें और PDF में आयत जोड़ें](./verify-pdf-signature-and-add-rectangle-pdf-with-aspose/)
@@ -107,9 +110,6 @@ C# का उपयोग करके PDF में डिजिटल हस�
 
 ### [C# में PDF हस्ताक्षर सत्यापित करें – पूर्ण गाइड](./validate-pdf-signature-in-c-complete-guide/)
 C# का उपयोग करके PDF हस्ताक्षर को सत्यापित करने की पूरी प्रक्रिया सीखें।
-
-### [प्रमाणपत्र का उपयोग करके PDF पर हस्ताक्षर कैसे करें – पूर्ण C# गाइड](./how-to-sign-pdf-using-certificate-complete-c-guide/)
-C# में प्रमाणपत्र के साथ PDF पर डिजिटल हस्ताक्षर लागू करने की विस्तृत चरण‑दर‑चरण प्रक्रिया।
 
 ## अतिरिक्त संसाधन
 

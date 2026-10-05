@@ -253,6 +253,9 @@ Aprenda a dominar la manipulación de PDF con Aspose.PDF para .NET. Esta guía e
 ### [Domine la manipulación de PDF con Aspose.PDF para .NET: una guía completa](./master-pdf-manipulation-aspose-pdf-net-guide/)
 Aprenda a crear, modificar, combinar y extraer datos de archivos PDF de forma eficiente con Aspose.PDF para .NET. Optimice sus flujos de trabajo con documentos y aumente su productividad.
 
+### [Domine la manipulación de PDF con Aspose.PDF para .NET: una guía completa](./mastering-pdf-manipulation-aspose-pdf-net-guide/)
+Aprenda a crear, modificar, combinar y extraer datos de archivos PDF de forma eficiente con Aspose.PDF para .NET. Optimice sus flujos de trabajo con documentos y aumente su productividad.
+
 ### [Domine la manipulación del recuento de páginas PDF con Aspose.PDF para .NET: una guía completa](./mastering-pdf-manipulation-aspose-pdf-net/)
 Aprenda a recuperar y modificar eficientemente el número de páginas de un PDF con Aspose.PDF para .NET. Esta guía abarca la configuración, la implementación y las aplicaciones prácticas.
 
