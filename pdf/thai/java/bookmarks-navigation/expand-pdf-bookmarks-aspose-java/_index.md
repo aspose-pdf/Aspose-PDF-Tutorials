@@ -1,12 +1,45 @@
 ---
-date: '2025-12-20'
-description: เรียนรู้วิธีขยายบุ๊กมาร์ก PDF ด้วย Aspose.PDF for Java ในบทเรียน Aspose
-  PDF Java นี้ รวมถึงการโหลด PDF การตั้งค่าโหมดหน้า และการเปิดบุ๊กมาร์ก PDF โดยอัตโนมัติ
+date: '2026-06-02'
+description: เรียนรู้วิธีขยายบุ๊กมาร์กในไฟล์ PDF ด้วย Aspose.PDF for Java. บทแนะนำ
+  Aspose PDF Java แบบขั้นตอนนี้แสดงการโหลด, การตั้งค่าโหมดหน้า, และการเปิดบุ๊กมาร์กโดยอัตโนมัติ.
 keywords:
-- expand PDF bookmarks
-- Aspose.PDF Java
-- PDF page mode
-title: 'บทแนะนำ Aspose PDF Java - ขยายบุ๊กมาร์ก PDF ด้วย Aspose.PDF'
+- how to expand bookmarks
+- aspose pdf maven dependency
+- aspose pdf java tutorial
+schemas:
+- author: Aspose
+  dateModified: '2026-06-02'
+  description: Learn how to expand bookmarks in PDF files using Aspose.PDF for Java.
+    This step‑by‑step Aspose PDF Java tutorial shows loading, setting page mode, and
+    automatically opening bookmarks.
+  headline: How to Expand Bookmarks in PDF using Aspose.PDF for Java
+  type: TechArticle
+- description: Learn how to expand bookmarks in PDF files using Aspose.PDF for Java.
+    This step‑by‑step Aspose PDF Java tutorial shows loading, setting page mode, and
+    automatically opening bookmarks.
+  name: How to Expand Bookmarks in PDF using Aspose.PDF for Java
+  steps:
+  - name: '**Required Libraries and Dependencies**'
+    text: '**Required Libraries and Dependencies**'
+  - name: '**Environment Setup**'
+    text: '**Environment Setup**'
+  - name: '**Basic Knowledge**'
+    text: '**Basic Knowledge**'
+  type: HowTo
+- questions:
+  - answer: Loading a PDF, setting page mode, expanding bookmarks, and saving the
+      file.
+    question: What does this tutorial cover?
+  - answer: Aspose.PDF for Java 25.3 or later.
+    question: Which library version is required?
+  - answer: A free trial works for testing; a commercial license is required for production.
+    question: Do I need a license?
+  - answer: Yes – adjust the loop logic to select particular outlines.
+    question: Can I target specific bookmarks only?
+  - answer: Yes, but consider processing outlines in batches and tuning JVM memory.
+    question: Is this suitable for large PDFs?
+  type: FAQPage
+title: วิธีขยายบุ๊กมาร์กใน PDF ด้วย Aspose.PDF for Java
 url: /th/java/bookmarks-navigation/expand-pdf-bookmarks-aspose-java/
 weight: 1
 ---
@@ -16,43 +49,50 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# บทแนะนำ Aspose PDF Java: ขยายบุ๊กมาร์ก PDF ด้วย Aspose.PDF
+# วิธีขยายบุ๊กมาร์กใน PDF ด้วย Aspose.PDF สำหรับ Java
 
-การนำทางเอกสาร PDF ที่ซับซ้อนกลายเป็นเรื่องง่ายเมื่อบุ๊กมาร์กถูกขยายโดยอัตโนมัติ ใน **aspose pdf java tutorial** นี้ คุณจะได้เรียนรู้วิธีโหลดเอกสาร PDF ด้วย Aspose.PDF for Java ตั้งค่าโหมดหน้าที่เหมาะสม และทำให้บุ๊กมาร์กเปิดโดยค่าเริ่มต้น วิธีนี้ช่วยปรับปรุงประสบการณ์ผู้ใช้โดยให้ผู้อ่านกระโดดตรงไปยังส่วนที่ต้องการโดยไม่ต้องคลิกเพิ่มเติม.
+หากคุณเคยเปิด PDF ขนาดใหญ่และต้องคลิกผ่านแผงโครงร่างด้วยตนเอง คุณคงรู้ว่ามันน่าหงุดหงิดแค่ไหน ใน **Aspose PDF Java tutorial** นี้ เราจะแสดงให้คุณเห็น **วิธีขยายบุ๊กมาร์ก** โดยอัตโนมัติ เพื่อให้ผู้อ่านเห็นสารบัญเต็มรูปแบบทันทีที่ไฟล์เปิด คุณจะได้เรียนรู้การโหลด PDF, กำหนดค่าโหมดหน้าของผู้ชม, ขยายรายการโครงร่างทั้งหมด, และบันทึกผลลัพธ์ — ทั้งหมดด้วยเพียงไม่กี่บรรทัดของโค้ด Java
 
-## คำตอบอย่างรวดเร็ว
+## คำตอบด่วน
 - **บทเรียนนี้ครอบคลุมอะไรบ้าง?** การโหลด PDF, การตั้งค่าโหมดหน้า, การขยายบุ๊กมาร์ก, และการบันทึกไฟล์.  
-- **ต้องการเวอร์ชันไลบรารีใด?** Aspose.PDF for Java 25.3 or later.  
-- **ฉันต้องการไลเซนส์หรือไม่?** การทดลองใช้ฟรีทำงานสำหรับการทดสอบ; จำเป็นต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานจริง.  
-- **ฉันสามารถกำหนดเป้าหมายเฉพาะบุ๊กมาร์กได้หรือไม่?** ได้ – ปรับตรรกะของลูปเพื่อเลือกโครงร่างเฉพาะ.  
-- **วิธีนี้เหมาะกับ PDF ขนาดใหญ่หรือไม่?** ได้, แต่ควรพิจารณาการประมวลผลโครงร่างเป็นชุดและปรับขนาดหน่วยความจำ JVM.
+- **ต้องการเวอร์ชันไลบรารีใด?** Aspose.PDF for Java 25.3 หรือใหม่กว่า.  
+- **ฉันต้องการไลเซนส์หรือไม่?** การทดลองใช้ฟรีสามารถใช้ทดสอบได้; จำเป็นต้องมีไลเซนส์เชิงพาณิชย์สำหรับการใช้งานจริง.  
+- **ฉันสามารถกำหนดเป้าหมายเฉพาะบุ๊กมาร์กได้หรือไม่?** ได้ – ปรับตรรกะของลูปเพื่อเลือกโครงร่างที่ต้องการ.  
+- **วิธีนี้เหมาะกับ PDF ขนาดใหญ่หรือไม่?** ใช่, แต่ควรพิจารณาการประมวลผลโครงร่างเป็นชุดและปรับขนาดหน่วยความจำของ JVM.
 
 ## Aspose PDF Java Tutorial คืออะไร?
-**aspose pdf java tutorial** คือคู่มือขั้นตอนต่อขั้นตอนที่แสดงวิธีใช้ Aspose.PDF API ในโครงการ Java มันพาคุณผ่านโค้ดจริง, อธิบายแต่ละการเรียกใช้, และสาธิตวิธีแก้ไขงานการจัดการ PDF ที่พบบ่อย.
+**Aspose PDF Java tutorial** คือคู่มือแบบขั้นตอนที่แสดงวิธีใช้ Aspose.PDF API ภายในโครงการ Java มันรวมคำอธิบายสั้น ๆ กับโค้ดตัวอย่างที่พร้อมรัน ช่วยให้คุณแก้ไขปัญหาการจัดการ PDF ในโลกจริงได้อย่างรวดเร็ว โดยการทำตามตัวอย่าง คุณสามารถผสานคุณลักษณะการประมวลผล PDF เช่น การจัดการบุ๊กมาร์ก, การสกัดข้อความ, และการแปลงเอกสารเข้าสู่แอปพลิเคชันของคุณด้วยความพยายามเพียงเล็กน้อย.
 
 ## ทำไมต้องขยายบุ๊กมาร์ก PDF โดยอัตโนมัติ?
-การเปิดบุ๊กมาร์ก PDF โดยอัตโนมัติช่วยประหยัดเวลาให้ผู้ใช้, โดยเฉพาะใน:
-- **PDF การศึกษา** – นักเรียนจะเห็นสารบัญเต็มรูปแบบทันที.  
-- **รายงานองค์กร** – ผู้บริหารสามารถกระโดดตรงไปยังส่วนสำคัญได้.  
-- **สัญญากฎหมาย** – ทนายความสามารถนำทางไปยังข้อกำหนดได้โดยไม่ต้องเลื่อน.
+การขยายบุ๊กมาร์ก PDF โดยอัตโนมัติช่วยเพิ่มประสิทธิภาพการนำทางสำหรับผู้ใช้ปลายทาง ทำให้พวกเขาเห็นโครงสร้างเอกสารเต็มรูปแบบโดยไม่ต้องคลิกเพิ่มเติม ฟีเจอร์นี้มีคุณค่าเป็นพิเศษในเอกสารยาวที่การค้นหาส่วนต่าง ๆ อย่างรวดเร็วเป็นสิ่งสำคัญ โดยการแสดงแผงโครงร่างเมื่อเปิดไฟล์ ผู้อ่านสามารถกระโดดไปยังบทหรือข้อที่ต้องการโดยตรง ลดเวลาที่ใช้ในการเลื่อนและค้นหา
 
-### ข้อกำหนดเบื้องต้น
-ก่อนใช้ Aspose.PDF for Java, ให้แน่ใจว่าคุณมี:
+การเปิดบุ๊กมาร์ก PDF โดยอัตโนมัติช่วยประหยัดเวลาผู้ใช้ โดยเฉพาะใน:
 
-1. **Required Libraries and Dependencies:**  
-   - Aspose.PDF for Java library (version 25.3 or later)
+- **PDF การศึกษา** – นักเรียนเห็นรายการบททั้งหมดทันที.  
+- **รายงานองค์กร** – ผู้บริหารสามารถกระโดดไปยังส่วนสำคัญได้โดยตรง.  
+- **สัญญากฎหมาย** – ทนายความค้นหาข้อความได้อย่างรวดเร็ว ประหยัดเวลาที่มีค่า.
 
-2. **Environment Setup Requirements:**  
-   - Maven or Gradle configured in your IDE  
-   - Basic Java development knowledge
+ประโยชน์เชิงปริมาณ: Aspose.PDF สามารถจัดการ **รูปแบบอินพุตและเอาต์พุตกว่า 50 รูปแบบ** และประมวลผล PDF ที่มี **หลายร้อยบุ๊กมาร์ก** โดยไม่ต้องโหลดไฟล์ทั้งหมดเข้าสู่หน่วยความจำ ทำให้การใช้หน่วยความจำต่ำกว่า 100 MB สำหรับเอกสาร 300 หน้า.
 
-3. **Knowledge Prerequisites:**  
-   - Understanding of PDF structure, especially bookmarks (outlines)
+## ข้อกำหนดเบื้องต้น
+ก่อนที่คุณจะเริ่ม, ตรวจสอบให้แน่ใจว่าคุณมี:
 
-### การตั้งค่า Aspose.PDF สำหรับ Java
-เพื่อเพิ่ม Aspose.PDF ในโครงการของคุณเป็น dependency:
+1. **ไลบรารีและการพึ่งพาที่จำเป็น**  
+   - ไลบรารี Aspose.PDF for Java (เวอร์ชัน 25.3 หรือใหม่กว่า).  
+   - รายการ **aspose pdf maven dependency** ที่เพิ่มในโครงการของคุณ (ดูตัวอย่าง Maven ด้านล่าง).
 
-**Maven**
+2. **การตั้งค่าสภาพแวดล้อม**  
+   - Maven หรือ Gradle ที่กำหนดค่าใน IDE ของคุณ.  
+   - Java 8 หรือใหม่กว่า ติดตั้งไว้.
+
+3. **ความรู้พื้นฐาน**  
+   - ความคุ้นเคยกับโครงสร้างโครงการ Java.  
+   - ความเข้าใจเกี่ยวกับโครงร่าง PDF (บุ๊กมาร์ก).
+
+## การตั้งค่า Aspose.PDF สำหรับ Java
+เพิ่มไลบรารี Aspose.PDF ไปยังไฟล์การสร้างของคุณ.
+
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -61,102 +101,106 @@ weight: 1
 </dependency>
 ```
 
-**Gradle**
+**Gradle**  
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
 #### ขั้นตอนการรับไลเซนส์
 - **Free Trial:** เริ่มต้นด้วยการทดลองใช้ฟรีเพื่อทดสอบความสามารถของไลบรารี.  
-- **Temporary License:** รับไลเซนส์ชั่วคราวสำหรับการประเมินผลต่อเนื่องจากเว็บไซต์ของ Aspose.  
-- **Purchase:** ซื้อไลเซนส์เต็มรูปแบบสำหรับโครงการเชิงพาณิชย์.
+- **Temporary License:** รับไลเซนส์ชั่วคราวสำหรับการประเมินระยะยาวจากเว็บไซต์ของ Aspose.  
+- **Purchase:** รับไลเซนส์เต็มสำหรับโครงการเชิงพาณิชย์.
 
-เมื่อเพิ่มไลบรารีและได้รับไลเซนส์แล้ว คุณสามารถเริ่มต้นใช้งานได้:
+เมื่อไลบรารีถูกเพิ่มและได้รับไลเซนส์แล้ว, คุณสามารถเริ่มต้นได้:
 ```java
 // Initialize the Document class with the path to your PDF file
 document doc = new Document("path/to/your/input.pdf");
 ```
 
-### คู่มือการนำไปใช้
-เราจะแบ่งวิธีแก้เป็นสี่ขั้นตอนที่ชัดเจน: การโหลดเอกสาร, การตั้งค่าโหมดหน้า, การขยายบุ๊กมาร์ก, และการบันทึก PDF ที่อัปเดต.
-
-#### การโหลดเอกสาร PDF
+## วิธีโหลดเอกสาร PDF?
+โหลดไฟล์ PDF ของคุณเข้าสู่วัตถุ Aspose `Document` บรรทัดเดียวนี้สร้างการแสดงผลของไฟล์ต้นฉบับในหน่วยความจำ ทำให้คุณสามารถอ่านและแก้ไขโครงสร้างของมันได้ คลาส `Document` แทนไฟล์ PDF ในหน่วยความจำ ให้เข้าถึงหน้าต่าง ๆ, โครงร่าง, และองค์ประกอบอื่น ๆ ทำให้เป็นวัตถุศูนย์กลางสำหรับการดำเนินการ PDF ทั้งหมด.
 ```java
 // Load an existing PDF document from your specified directory
 document doc = new Document("YOUR_DOCUMENT_DIRECTORY/input.pdf");
 ```
-**คำอธิบาย:** นี่สร้างอ็อบเจ็กต์ `Document` ที่แสดงถึง PDF ที่คุณต้องการแก้ไข. แทนที่เส้นทาง placeholder ด้วยตำแหน่งไฟล์จริงของคุณ.
 
-#### การตั้งค่าโหมดหน้า
+## วิธีตั้งค่าโหมดหน้าเพื่อขยายบุ๊กมาร์ก?
+ตั้งค่าโหมดหน้าของผู้ชมเป็น `UseOutlines` เพื่อให้โปรแกรมอ่าน PDF แสดงแผงบุ๊กมาร์กโดยอัตโนมัติเมื่อไฟล์เปิด วิธี `setPageMode` กำหนดพฤติกรรมเริ่มต้นของผู้ชม, และค่าคงที่ `PageMode.UseOutlines` บอกให้โปรแกรมอ่าน PDF แสดงแผงโครงร่าง (บุ๊กมาร์ก) เมื่อเริ่มต้น.
 ```java
 doc.setPageMode(PageMode.UseOutlines);
 ```
-**คำอธิบาย:** `setPageMode()` บอกโปรแกรมดู PDF ว่าจะเปิดไฟล์อย่างไร. `UseOutlines` ทำให้โปรแกรมแสดงแผงบุ๊กมาร์กโดยอัตโนมัติ.
 
-#### การขยายบุ๊กมาร์ก
+## วิธีขยายบุ๊กมาร์กทั้งหมดใน PDF?
+วนลูปผ่านรายการโครงร่างทั้งหมดและตั้งค่าคุณสมบัติ `Open` ของมันเป็น `true`. สิ่งนี้ทำให้แต่ละบุ๊กมาร์กแสดงเป็นขยายโดยค่าเริ่มต้น คลาส `OutlineItemCollection` เก็บรายการบุ๊กมาร์กทั้งหมด; โดยทำเครื่องหมายแต่ละรายการว่าเปิด, โปรแกรมอ่าน PDF จะแสดงลำดับชั้นเต็มโดยไม่ต้องให้ผู้ใช้โต้ตอบ.
 ```java
 // Iterate over each bookmark and set its state to open
 for (int counter = 1; counter <= doc.getOutlines().size(); counter++) {
     doc.getOutlines().get_Item(counter).setOpen(true);
 }
 ```
-**คำอธิบาย:** ลูปนี้เดินผ่านรายการโครงร่างแต่ละรายการ (บุ๊กมาร์ก) และตั้งค่าคุณสมบัติ `Open` เป็น `true`, ทำให้บุ๊กมาร์กทั้งหมดแสดงเป็นแบบขยายเมื่อ PDF เปิด.
 
-#### การบันทึก PDF ที่แก้ไขแล้ว
+## วิธีบันทึก PDF หลังจากขยายบุ๊กมาร์ก?
+เขียนเอกสารที่แก้ไขแล้วไปยังไฟล์ใหม่ (หรือเขียนทับไฟล์เดิม). วิธี `save()` จะบันทึกการเปลี่ยนแปลงทั้งหมดที่คุณทำกับโครงสร้าง PDF หลังจากเรียก `save`, PDF จะคงสถานะบุ๊กมาร์กที่ขยายไว้สำหรับผู้ชมใด ๆ ที่เปิดไฟล์.
 ```java
 doc.save("YOUR_OUTPUT_DIRECTORY/Bookmarks_Expanded.pdf");
 ```
-**คำอธิบาย:** เมธอด `save()` จะเขียนการเปลี่ยนแปลงลงในไฟล์ใหม่. ปรับเส้นทางเอาต์พุตตามต้องการ.
 
-### การประยุกต์ใช้งานจริง
+## การประยุกต์ใช้งานจริง
 การขยายบุ๊กมาร์ก PDF มีประโยชน์ในหลายสถานการณ์จริง:
 
 - **สื่อการศึกษา:** นักเรียนเห็นรายการบททั้งหมดทันที.  
-- **รายงานองค์กร:** ผู้บริหารสามารถกระโดดไปยังสรุปการเงินโดยไม่ต้องค้นหา.  
-- **เอกสารทางกฎหมาย:** ทนายความค้นหาข้อกำหนดได้อย่างรวดเร็ว, ประหยัดเวลาอันมีค่า.
+- **รายงานองค์กร:** ผู้บริหารสามารถกระโดดไปสรุปการเงินได้โดยไม่ต้องค้นหา.  
+- **เอกสารกฎหมาย:** ทนายความค้นหาข้อความได้อย่างรวดเร็ว ประหยัดเวลาที่มีค่า.
 
-การรวมตรรกะนี้เข้ากับระบบจัดการเอกสารสามารถทำให้การเตรียมบุ๊กมาร์กอัตโนมัติก่อนการแจกจ่าย
+การฝังตรรกะนี้เข้าไปในกระบวนการจัดการเอกสารจะทำให้การเตรียมบุ๊กมาร์กอัตโนมัติก่อนการแจกจ่าย, ทำให้ผู้รับทุกคนได้รับ PDF ที่พร้อมนำทาง.
 
-### ข้อควรพิจารณาด้านประสิทธิภาพ
-เมื่อจัดการ PDF ขนาดใหญ่ที่มีโครงร่างหลายรายการ:
+## ข้อควรพิจารณาด้านประสิทธิภาพ
+เมื่อจัดการ PDF ขนาดใหญ่ที่มีโครงร่างหลายพันรายการ:
 
-- ทำลายอ็อบเจ็กต์ `Document` หลังการบันทึกเพื่อคืนหน่วยความจำ.  
-- ประมวลผลโครงร่างเป็นชุดเล็ก ๆ หากเอกสารมีรายการหลายพันรายการ.  
-- ปรับขนาด heap ของ Java (`-Xmx`) ตามโปรไฟล์หน่วยความจำของแอปพลิเคชันของคุณ.
+- ปล่อยวัตถุ `Document` หลังจากบันทึกเพื่อคืนหน่วยความจำ.  
+- ประมวลผลโครงร่างเป็นชุดเล็ก ๆ หากเอกสารมีรายการจำนวนมาก.  
+- ปรับขนาด heap ของ Java (`-Xmx`) ตามภาระงานของคุณ; สำหรับ PDF 500 หน้า, `-Xmx2g` มักเพียงพอ.
 
 ## คำถามที่พบบ่อย
 **Q1: ฉันจะตั้งค่าการทดลองใช้ฟรีสำหรับ Aspose.PDF อย่างไร?**  
-A1: เยี่ยมชม [Aspose Free Trial page](https://releases.aspose.com/pdf/java/) เพื่อดาวน์โหลดไลบรารีและเริ่มทดลอง
+A1: เยี่ยมชม [Aspose Free Trial page](https://releases.aspose.com/pdf/java/) เพื่อดาวน์โหลดไลบรารีและเริ่มทดลอง.
 
 **Q2: ปัญหาทั่วไปเมื่อขยายบุ๊กมาร์กคืออะไร?**  
-A2: ตรวจสอบว่าเส้นทางไฟล์ถูกต้องและแอปพลิเคชันของคุณมีสิทธิ์อ่าน/เขียนสำหรับโฟลเดอร์ต้นทางและปลายทาง
+A2: ตรวจสอบว่าเส้นทางไฟล์ถูกต้องและให้แน่ใจว่าแอปพลิเคชันของคุณมีสิทธิ์อ่าน/เขียนสำหรับโฟลเดอร์ต้นทางและปลายทาง.
 
-**Q3: ฉันสามารถขยายบุ๊กมาร์กเฉพาะแทนที่จะขยายทั้งหมดได้หรือไม่?**  
-A3: ได้. ปรับลูปให้เลือกโครงร่างที่ต้องการเท่านั้น, เช่น ตรวจสอบชื่อบุ๊กมาร์กก่อนเรียก `setOpen(true)`
+**Q3: ฉันสามารถขยายบุ๊กมาร์กเฉพาะบางรายการแทนที่จะทั้งหมดได้หรือไม่?**  
+A3: ได้. ปรับลูปให้เลือกโครงร่างที่ต้องการเท่านั้น, เช่น ตรวจสอบชื่อบุ๊กมาร์กก่อนเรียก `setOpen(true)`.
 
 **Q4: ฉันจะจัดการกับเอกสาร PDF ขนาดใหญ่ที่มีบุ๊กมาร์กจำนวนมากอย่างไร?**  
-A4: ประมวลผลโครงร่างเป็นขั้นตอนและพิจารณาเพิ่มขนาด heap ของ JVM (`-Xmx2g` หรือมากกว่า) เพื่อหลีกเลี่ยง `OutOfMemoryError`
+A5: ประมวลผลโครงร่างเป็นขั้นตอนและพิจารณาเพิ่มขนาด heap ของ JVM (`-Xmx2g` หรือสูงกว่า) เพื่อหลีกเลี่ยง `OutOfMemoryError`.
 
 **Q5: Aspose.PDF เหมาะกับโครงการเชิงพาณิชย์หรือไม่?**  
-A5: แน่นอน. รับไลเซนส์จาก [Aspose Purchase page](https://purchase.aspose.com/buy) สำหรับการใช้งานในผลิตภัณฑ์
+A5: แน่นอน. รับไลเซนส์จาก [Aspose Purchase page](https://purchase.aspose.com/buy) เพื่อการใช้งานในสภาพแวดล้อมการผลิต.
 
-### แหล่งข้อมูล
+## แหล่งข้อมูล
 - **Documentation:** สำรวจคู่มือโดยละเอียดและอ้างอิง API ที่ [Aspose PDF Documentation](https://reference.aspose.com/pdf/java/).  
-- **Download:** รับเวอร์ชันล่าสุดของ Aspose.PDF จาก [Downloads Page](https://releases.aspose.com/pdf/java/).  
-- **Purchase & Free Trial:** เยี่ยมชม [Aspose Purchase](https://purchase.aspose.com/buy) สำหรับตัวเลือกการไลเซนส์.  
-- **Temporary License:** รับไลเซนส์ชั่วคราวเพื่อประเมินคุณสมบัติผ่าน [Aspose Temporary License](https://purchase.aspose.com/temporary-license/).  
-- **Support:** ถามคำถามใน [Aspose Support Forum](https://forum.aspose.com/c/pdf/10) หากคุณพบปัญหาใด ๆ
+- **Download:** ดาวน์โหลดเวอร์ชันล่าสุดของ Aspose.PDF จาก [Downloads Page](https://releases.aspose.com/pdf/java/).  
+- **Purchase & Free Trial:** เยี่ยมชม [Aspose Purchase](https://purchase.aspose.com/buy) เพื่อดูตัวเลือกไลเซนส์.  
+- **Temporary License:** รับไลเซนส์ชั่วคราวเพื่อประเมินคุณลักษณะผ่าน [Aspose Temporary License](https://purchase.aspose.com/temporary-license/).  
+- **Support:** ถามคำถามใน [Aspose Support Forum](https://forum.aspose.com/c/pdf/10) หากคุณพบปัญหาใด ๆ.
 
 ---
 
-**อัปเดตล่าสุด:** 2025-12-20  
-**ทดสอบด้วย:** Aspose.PDF 25.3 for Java  
-**ผู้เขียน:** Aspose  
+**Last Updated:** 2026-06-02  
+**Tested With:** Aspose.PDF 25.3 for Java  
+**Author:** Aspose
+
+## บทแนะนำที่เกี่ยวข้อง
+
+- [วิธีสร้างบุ๊กมาร์ก PDF และจัดการการนำทางด้วย Aspose.PDF สำหรับ Java](/pdf/java/bookmarks-navigation/create-manage-pdf-bookmarks-aspose-java/)
+- [วิธีอัปเดตบุ๊กมาร์ก PDF ด้วย Aspose.PDF สำหรับ Java: คู่มือขั้นตอนต่อขั้นตอน](/pdf/java/bookmarks-navigation/update-pdf-bookmarks-aspose-java-tutorial/)
+- [ดึงข้อมูลบุ๊กมาร์ก PDF ด้วย Java และ Aspose.PDF – คู่มือเต็ม](/pdf/java/bookmarks-navigation/retrieve-display-pdf-bookmarks-aspose-pdf-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

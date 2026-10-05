@@ -16,7 +16,6 @@
 Lär dig hur du bygger högpresterande PDF-behandlingsprogram med våra Aspose.PDF-optimeringshandledningar för .NET. Dessa praktiska guider demonstrerar tekniker för effektiv minneshantering, förbättringar av exekveringstider och strategier för att hantera stora PDF-dokument effektivt. Varje handledning innehåller detaljerade C#-kodexempel och bästa praxis för att optimera kritiska prestandaaspekter, vilket säkerställer att dina applikationer förblir responsiva och tillförlitliga även när du arbetar med stora PDF-dokument.
 
 ## Tillgängliga handledningar
-
 ### [Omfattande guide till PDF-optimering i .NET med Aspose.PDF](./aspose-pdf-dotnet-optimization-guide/)
 Lär dig hur du optimerar PDF-filer med Aspose.PDF för .NET, vilket säkerställer effektiv resursanvändning och dokument av hög kvalitet. Bemästra GSave/GRestore-operationer och XForm-grafikhantering.
 
@@ -44,11 +43,34 @@ Lär dig hur du optimerar PDF-dokument med Aspose.PDF .NET för förbättrad web
 ### [Optimera PDF-filer med Aspose.PDF .NET: Bemästra FlateDecode-komprimeringstekniker](./aspose-pdf-net-flatedecode-compression-guide/)
 Lär dig hur du minskar PDF-filstorlekar med FlateDecode-komprimering med Aspose.PDF för .NET. Följ den här guiden för att optimera bilder, förbättra prestanda och bibehålla kvaliteten.
 
+### [Hur man komprimerar PDF med Aspose.PDF i C# – Komplett steg‑för‑steg‑guide](./how-to-compress-pdf-with-aspose-pdf-in-c-complete-step-by-st/)
+Lär dig hur du komprimerar PDF-filer med Aspose.PDF i C# med en komplett steg‑för‑steg‑guide.
+
 ### [Optimera konvertering från SVG till PDF med Aspose.PDF för .NET | Prestandaguide](./optimize-svg-to-pdf-conversion-aspose-pdf-net/)
 Bemästra konsten att konvertera SVG-filer till PDF-filer med precision och effektivitet med hjälp av Aspose.PDF för .NET. Lär dig installations-, konfigurations- och optimeringstekniker i den här omfattande guiden.
 
 ### [Avbädda teckensnitt i PDF-filer med Aspose.PDF för .NET: Minska filstorleken och förbättra prestandan](./optimize-pdfs-unembed-fonts-aspose-pdf-net/)
 Lär dig hur du tar bort inbäddade teckensnitt från dina PDF-filer med Aspose.PDF för .NET. Optimera PDF-prestanda, minska filstorleken och förbättra laddningstiderna med den här steg-för-steg-guiden.
+
+### [Skapa optimerad PDF – komprimera PDF-bilder med förlustfri JPEG](./create-optimized-pdf-compress-pdf-images-with-lossless-jpeg/)
+Lär dig hur du skapar optimerade PDF-filer genom att komprimera bilder med förlustfri JPEG för minskad filstorlek utan kvalitetsförlust.
+
+### [Hur man optimerar PDF i C# – Lägg till tom sida, exportera HTML, signera](./how-to-optimize-pdf-in-c-add-blank-page-export-html-sign/)
+Lär dig hur du optimerar PDF-filer i C# genom att lägga till tomma sidor, exportera till HTML och signera dokument med Aspose.PDF.
+
+### [Optimera PDF-bilder – minska PDF-filstorlek med C#](./optimize-pdf-images-reduce-pdf-file-size-with-c/)
+Lär dig hur du optimerar bilder i PDF-filer och minskar filstorleken med C# och Aspose.PDF.
+### [Hur du komprimerar PDF med Aspose – Snabb C#-guide](./how-to-compress-pdf-with-aspose-quick-c-guide/)
+Lär dig snabbt att komprimera PDF-filer med Aspose i C#, förbättra filstorlek och prestanda med enkla steg.
+
+### [Spara optimerad PDF i C# – Minska storlek och rensa sidor](./save-optimized-pdf-in-c-reduce-size-clean-pages/)
+Lär dig hur du sparar en optimerad PDF i C#, minskar filstorleken och tar bort onödiga sidor för bättre prestanda.
+### [Hur du komprimerar PDF med Aspose.PDF – snabbguide](./how-to-compress-pdf-with-aspose-pdf-quick-guide/)
+Lär dig snabbt hur du komprimerar PDF-filer med Aspose.PDF för .NET för att minska filstorlek och förbättra prestanda.
+### [Hur du optimerar PDF i C# – Minska filstorleken snabbt](./how-to-optimize-pdf-in-c-reduce-file-size-quickly/)
+Lär dig enkla steg för att snabbt minska PDF-filstorleken i C# med Aspose.PDF.
+### [Aspose PDF-bildkomprimering i C# – Minska PDF-storleken snabbt](./aspose-pdf-image-compression-in-c-reduce-pdf-size-quickly/)
+Lär dig hur du komprimerar bilder i PDF med Aspose.PDF för .NET i C# för att snabbt minska filstorleken.
 
 ## Ytterligare resurser
 

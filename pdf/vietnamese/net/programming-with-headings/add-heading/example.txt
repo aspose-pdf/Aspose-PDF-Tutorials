@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Hướng dẫn này trình bày cách tạo tài liệu PDF, đặt ngôn ngữ mặc định và tiêu đề cho nó, và chèn tiêu đề cấp‑1 bằng cách sử dụng các lớp Document, ITaggedContent, StructureElement và HeaderElement.
+//ExStepSummary:0: Xác định tên tệp đầu ra cho PDF được tạo.
+//ExStepSummary:1: Tạo một thể hiện tài liệu PDF trống mới (`pdfDoc`) bên trong khối `using`.
+//ExStepSummary:2: Lấy giao diện `ITaggedContent` để làm việc với cấu trúc PDF có thẻ.
+//ExStepSummary:3: Đặt ngôn ngữ mặc định của tài liệu thành tiếng Anh (Mỹ) và gán siêu dữ liệu tiêu đề.
+//ExStepSummary:4: Lấy phần tử gốc của cây cấu trúc logic.
+//ExStepSummary:5: Xây dựng một phần tử tiêu đề cấp‑1, đặt văn bản hiển thị và chỉ định ngôn ngữ của nó.
+//ExStepSummary:6: Thêm phần tử tiêu đề vào phần tử gốc, khiến tiêu đề xuất hiện trong PDF.
+//ExStepSummary:7: Lưu PDF vào tệp đã chỉ định và đóng phạm vi tài liệu.
+//ExStepSummary:8: In ra thông báo xác nhận trên console.
+//ExStepImage:6:images/1.png
+//ExStep:0-
+const string resultFile = "pdf_with_title.pdf";
+
+//ExStep:1-
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:2-
+ITaggedContent tagContent = pdfDoc.TaggedContent;
+
+//ExStep:3-
+tagContent.SetLanguage("en-US");
+tagContent.SetTitle("PDF Example with Header");
+
+//ExStep:4-
+StructureElement rootElement = tagContent.RootElement;
+
+//ExStep:5-
+HeaderElement header = tagContent.CreateHeaderElement(1);
+header.SetText("Demo Header");
+header.Language = "en-US";
+
+//ExStep:6-
+rootElement.AppendChild(header);
+
+//ExStep:7-
+pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"PDF generated and stored at '{resultFile}'.");
+//ExEnd

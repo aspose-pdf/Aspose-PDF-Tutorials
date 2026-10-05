@@ -1,0 +1,7 @@
+Title: Aspose PDF Tutorial: Load and Convert PDFs to PDF/X‑4 in C#
+Slug: aspose-pdf-tutorial-load-and-convert-pdfs-to-pdf-x-4-in-c
+Category: document-conversion
+ProcessedDate: 2026-06-09T04:16:43.336498
+SourceRepo: AI Search API
+Keywords: aspose pdf tutorial, load pdf c#, aspose pdf conversion, convert pdf to pdf/x-4, c# pdf conversion
+PRNumber: 89

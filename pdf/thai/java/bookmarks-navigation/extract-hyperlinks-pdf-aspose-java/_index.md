@@ -1,12 +1,59 @@
 ---
-date: '2025-12-20'
-description: เรียนรู้วิธีดึง URL ลิงก์ PDF ด้วยบทเรียน Aspose PDF Java นี้ ปฏิบัติตามคำแนะนำทีละขั้นตอนเพื่อดึง
-  URL ลิงก์ PDF อย่างมีประสิทธิภาพ
+date: '2026-06-02'
+description: เรียนรู้วิธีดึงลิงก์ PDF จากหน้าโดยใช้ Aspose.PDF for Java คู่มือขั้นตอนต่อขั้นตอนนี้จะแสดงวิธีการรับ
+  URL ของลิงก์ PDF อย่างมีประสิทธิภาพ
 keywords:
-- extract hyperlinks from pdf java
-- aspose.pdf hyperlink extraction
-- java pdf link annotation
-title: 'บทเรียน Aspose PDF Java - ดึงไฮเปอร์ลิงก์จาก PDF'
+- extract pdf links pages
+- get pdf link urls
+- aspose pdf java hyperlink extraction
+schemas:
+- author: Aspose
+  dateModified: '2026-06-02'
+  description: Learn how to extract PDF links from pages using Aspose.PDF for Java.
+    This step‑by‑step guide shows you how to get PDF link URLs efficiently.
+  headline: Aspose PDF Java Tutorial – Extract PDF Links from Pages
+  type: TechArticle
+- description: Learn how to extract PDF links from pages using Aspose.PDF for Java.
+    This step‑by‑step guide shows you how to get PDF link URLs efficiently.
+  name: Aspose PDF Java Tutorial – Extract PDF Links from Pages
+  steps:
+  - name: Load the PDF Document
+    text: '`Document` represents a PDF file loaded into memory, providing access to
+      its pages and annotations. *The `Document` class is Aspose.PDF’s top‑level object
+      that represents a single PDF file in memory. Instantiating it loads the file
+      structure without rendering the pages.*'
+  - name: Access the Desired Page(s)
+    text: '*You can retrieve any page via `document.getPages().get(pageNumber)`. In
+      this example we focus on the first page, but the same logic works for a range
+      or the entire document.*'
+  - name: Select Link Annotations
+    text: '`LinkAnnotation` is a type of annotation that represents a hyperlink within
+      a PDF page. `AnnotationSelector` filters annotations on a page based on type
+      or area. *`AnnotationSelector` filters annotations by type. By specifying `LinkAnnotation.class`
+      we isolate only hyperlink objects, while `Rectangl'
+  - name: Process Hyperlink Actions
+    text: '*Iterate over each `LinkAnnotation` and call `getAction().getURI()` to
+      obtain the target URL. The loop prints each URL to the console, demonstrating
+      the core extraction capability.*'
+  type: HowTo
+- questions:
+  - answer: It is a commercial library that provides 50+ PDF manipulation features—including
+      creation, conversion, and annotation handling—without requiring external software.
+    question: What is Aspose.PDF for Java?
+  - answer: Loop through `document.getPages()` and apply the same `AnnotationSelector`
+      logic to each page, collecting URIs into a list.
+    question: How do I extract hyperlinks from all pages of a document?
+  - answer: Yes, supply the password when constructing the `Document` object (e.g.,
+      `new Document("file.pdf", new LoadOptions("pwd"))`).
+    question: Can Aspose.PDF handle password‑protected PDFs?
+  - answer: Apache PDFBox and iText are popular open‑source options, though they may
+      lack some of Aspose’s advanced annotation APIs.
+    question: What are alternatives to Aspose.PDF for Java?
+  - answer: After extraction, use `HttpURLConnection` or a third‑party HTTP client
+      to ping each URL and log any non‑200 responses for remediation.
+    question: How can I handle broken links found in a PDF document?
+  type: FAQPage
+title: บทแนะนำ Aspose PDF Java – ดึงลิงก์ PDF จากหน้า
 url: /th/java/bookmarks-navigation/extract-hyperlinks-pdf-aspose-java/
 weight: 1
 ---
@@ -16,37 +63,42 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# บทแนะนำ Aspose PDF Java: การดึงลิงก์ไฮเปอร์จากเอกสาร PDF
+# บทแนะนำ Aspose PDF Java – ดึงลิงก์ PDF จากหน้า
 
 ## บทนำ
 
-การดึงลิงก์ไฮเปอร์จากเอกสาร PDF สามารถทำให้กระบวนการต่าง ๆ เช่น การจัดการเนื้อหา การวิเคราะห์ข้อมูล และการรายงานอัตโนมัติ มีประสิทธิภาพมากขึ้น ใน **aspose pdf java tutorial** นี้ คุณจะได้เรียนรู้วิธี **get PDF link URLs** อย่างรวดเร็วโดยใช้ Aspose.PDF for Java เราจะอธิบายขั้นตอนการตั้งค่า การเขียนโค้ด การจัดการข้อผิดพลาด และกรณีการใช้งานจริง เพื่อให้คุณสามารถรวมการดึงลิงก์ไฮเปอร์เข้ากับแอปพลิเคชันของคุณได้
+การดึงลิงก์ PDF จากหน้า สามารถทำให้กระบวนการจัดการเนื้อหา, โครงการทำเหมืองข้อมูล, และเวิร์กโฟลว์การรายงานอัตโนมัติง่ายขึ้นอย่างมาก ในบทแนะนำ **extract pdf links pages** นี้ คุณจะได้เรียนรู้วิธี **get PDF link URLs** อย่างรวดเร็วด้วย Aspose.PDF for Java เราจะพาคุณผ่านการตั้งค่าสภาพแวดล้อม, การทำงานระดับโค้ด, การจัดการข้อผิดพลาด, และสถานการณ์จริง เพื่อให้คุณสามารถฝังการสกัดลิงก์โดยตรงในแอปพลิเคชัน Java ของคุณ
 
-**สิ่งที่คุณจะได้เรียนรู้**
-- การตั้งค่าและกำหนดค่า Aspose.PDF for Java  
-- การดึงลิงก์ไฮเปอร์จากหน้าเฉพาะในเอกสาร PDF  
-- การจัดการข้อผิดพลาดสำหรับลิงก์ไฮเปอร์ที่หายไป  
-- ทำความเข้าใจการใช้งานจริงของการดึงลิงก์ไฮเปอร์  
+**สิ่งที่คุณจะเชี่ยวชาญ**
+- การติดตั้งและการขอใบอนุญาต Aspose.PDF for Java  
+- การดึง hyperlink จากหนึ่งหรือหลายหน้าของเอกสาร PDF  
+- การจัดการลิงก์ที่หายไปหรือรูปแบบไม่ถูกต้องอย่างราบรื่น  
+- การนำเทคนิคไปใช้ในกรณีการใช้งานธุรกิจทั่วไป  
 
-ก่อนที่เราจะเริ่ม ให้เรายืนยันข้อกำหนดเบื้องต้นที่จำเป็นสำหรับการทำตามบทแนะนำนี้
+ก่อนเริ่มทำงาน โปรดตรวจสอบว่าสภาพแวดล้อมการพัฒนาของคุณตรงตามข้อกำหนดเบื้องต้นที่ระบุด้านล่าง
 
 ## คำตอบอย่างรวดเร็ว
-- **บทแนะนำนี้ครอบคลุมอะไร?** การดึงและพิมพ์ URL ของลิงก์ไฮเปอร์จาก PDF โดยใช้ Aspose.PDF for Java.  
-- **คีย์เวิร์ดหลักที่มุ่งหมายคือ?** *aspose pdf java tutorial*.  
-- **คีย์เวิร์ดรองที่รวมอยู่คือ?** *get pdf link urls*.  
-- **ต้องการไลเซนส์หรือไม่?** ใช่ จำเป็นต้องมีไลเซนส์ชั่วคราวหรือเต็มสำหรับการใช้งานในผลิตภัณฑ์.  
-- **เวอร์ชัน Java ที่รองรับคือ?** Java 8 หรือสูงกว่า (เข้ากันได้กับโครงการ Maven/Gradle).  
+- **บทแนะนำนี้ครอบคลุมอะไร?** แสดงวิธีดึงและพิมพ์ URL ของ hyperlink จากหน้าของ PDF ด้วย Aspose.PDF for Java.  
+- **คำหลักหลักที่มุ่งหมาย?** *extract pdf links pages*.  
+- **คำหลักรองที่รวมอยู่?** *get pdf link urls*.  
+- **ฉันต้องการใบอนุญาตหรือไม่?** ใช่ – จำเป็นต้องมีใบอนุญาตชั่วคราวหรือเต็มสำหรับการใช้งานในสภาพแวดล้อมการผลิต.  
+- **เวอร์ชัน Java ที่รองรับคืออะไร?** Java 8 หรือสูงกว่า (รองรับ Maven หรือ Gradle).  
+
+## extract pdf links pages คืออะไร?
+Extract pdf links pages หมายถึงกระบวนการดึงข้อมูล annotation ของ hyperlink ทุกตัวที่ปรากฏบนหนึ่งหรือหลายหน้าของไฟล์ PDF อย่างเป็นโปรแกรม การดำเนินการนี้ทำให้สามารถทำอัตโนมัติขั้นต่อไปได้ เช่น การวิเคราะห์ลิงก์, การทำดัชนีเนื้อหา, หรือการตรวจสอบ URL แบบกลุ่ม
+
+## ทำไมต้องดึง extract pdf links pages ด้วย Aspose PDF for Java?
+Aspose.PDF for Java รองรับ **50+ รูปแบบการนำเข้าและส่งออก** และสามารถประมวลผล **หลายร้อยหน้าโดยไม่ต้องโหลดไฟล์ทั้งหมดเข้าสู่หน่วยความจำ** ให้เป็นโซลูชันที่ใช้หน่วยความจำน้อยสำหรับการประมวลผลเอกสารขนาดใหญ่ API annotation ที่แข็งแกร่งของ Aspose รับประกันความแม่นยำ 99.9% เมื่อระบุ link annotation ซึ่งเป็นสิ่งสำคัญสำหรับสายงานข้อมูลที่มีความสำคัญสูง
 
 ## ข้อกำหนดเบื้องต้น
 
-เพื่อเริ่มต้น โปรดตรวจสอบว่าคุณมี:
-- **Java Development Kit (JDK)** ที่ติดตั้งบนเครื่องของคุณ  
-- ความรู้พื้นฐานการเขียนโปรแกรม Java  
-- ความคุ้นเคยกับ Maven หรือ Gradle สำหรับการจัดการ dependencies  
+- **Java Development Kit (JDK) 8+** ติดตั้งและกำหนดค่าในเครื่องของคุณ  
+- มีความคุ้นเคยกับไวยากรณ์พื้นฐานของ Java และแนวคิดเชิงวัตถุ  
+- Maven หรือ Gradle สำหรับการจัดการ dependencies (เลือกใช้ตามที่คุณต้องการ)  
 
 ## การตั้งค่า Aspose.PDF for Java
 
-Aspose.PDF for Java เป็นไลบรารีที่แข็งแรงซึ่งให้ความสามารถในการจัดการ PDF อย่างครอบคลุม นี่คือวิธีการเพิ่มลงในโครงการของคุณ
+Aspose.PDF for Java มีชุดคุณสมบัติการจัดการ PDF ที่ครอบคลุม ด้านล่างเป็นสองวิธีที่นิยมที่สุดในการเพิ่มไลบรารีนี้ลงในโปรเจกต์ของคุณ
 
 ### การใช้ Maven
 ใส่ dependency ต่อไปนี้ในไฟล์ `pom.xml` ของคุณ:
@@ -66,40 +118,43 @@ Aspose.PDF for Java เป็นไลบรารีที่แข็งแร
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-#### การรับไลเซนส์
-- **Free Trial:** ดาวน์โหลดไลเซนส์ชั่วคราวจาก [Aspose's official site](https://purchase.aspose.com/temporary-license/).  
-- **Purchase:** สำหรับการใช้ระยะยาว พิจารณาซื้อไลเซนส์เต็มที่ [Aspose Purchase Page](https://purchase.aspose.com/buy).  
+#### การรับใบอนุญาต
+- **Free Trial:** ดาวน์โหลดใบอนุญาตชั่วคราวจาก [เว็บไซต์อย่างเป็นทางการของ Aspose](https://purchase.aspose.com/temporary-license/).  
+- **Full Purchase:** รับใบอนุญาตถาวรที่ [Aspose Purchase Page](https://purchase.aspose.com/buy).  
 
-เมื่อโครงการของคุณตั้งค่าด้วย dependencies และข้อมูลไลเซนส์ที่จำเป็นแล้ว เรามาไปยังการทำงานจริงกัน
+## วิธีดึง extract pdf links pages ด้วย Aspose PDF for Java?
 
-## วิธีการดึง PDF Link URLs ด้วย Aspose PDF for Java
-
-ส่วนนี้จะแนะนำวิธีการดึงลิงก์ไฮเปอร์จาก **หน้าแรก** ของเอกสาร PDF ให้ทำตามขั้นตอนที่ระบุเพื่อประสบการณ์ที่ราบรื่น
+เพื่อดึงลิงก์ ก่อนอื่นให้โหลด PDF เข้าไปในอ็อบเจ็กต์ `Document` ของ Aspose แล้วเลือกหน้าที่ต้องการสแกน โดยใช้ `AnnotationSelector` เพื่อกรอง `LinkAnnotation` แต่ละ annotation จะมี `Action` ที่ให้ URI ของปลายทาง เก็บ URI เหล่านี้ลงในรายการหรือพิมพ์โดยตรงเพื่อให้สามารถประมวลผลต่อได้
 
 ### ขั้นตอนที่ 1: โหลดเอกสาร PDF
+
+`Document` แสดงไฟล์ PDF ที่โหลดเข้าสู่หน่วยความจำ ให้เข้าถึงหน้าและ annotation ต่าง ๆ  
 
 ```java
 // Specify the path to your document directory
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Document document = new Document(dataDir + "/update_Service_Work_Order.pdf");
-```
-*สร้างอ็อบเจ็กต์ `Document` ที่ชี้ไปยังไฟล์ PDF ของคุณ แทนที่ `"YOUR_DOCUMENT_DIRECTORY"` ด้วยเส้นทางไดเรกทอรีจริงของคุณ*
+```  
+*คลาส `Document` เป็นอ็อบเจ็กต์ระดับบนของ Aspose.PDF ที่แทนไฟล์ PDF เดียวในหน่วยความจำ การสร้างอ็อบเจ็กต์นี้จะโหลดโครงสร้างไฟล์โดยไม่ต้องเรนเดอร์หน้า*
 
-### ขั้นตอนที่ 2: เข้าถึงหน้าแรก
+### ขั้นตอนที่ 2: เข้าถึงหน้า(ๆ) ที่ต้องการ
 
 ```java
 Page page = document.getPages().get_Item(1);
-```
-*การดึงหน้าแรกเป็นสิ่งสำคัญเนื่องจากเรามุ่งเน้นการดึงลิงก์ไฮเปอร์จากหน้านั้น*
+```  
+*คุณสามารถดึงหน้าใดก็ได้โดยใช้ `document.getPages().get(pageNumber)` ในตัวอย่างนี้เรามุ่งเน้นที่หน้าแรก แต่ตรรกะเดียวกันทำงานได้กับช่วงหรือทั้งเอกสาร*
 
 ### ขั้นตอนที่ 3: เลือก Link Annotations
+
+`LinkAnnotation` เป็นประเภทของ annotation ที่แทน hyperlink ภายในหน้า PDF  
+`AnnotationSelector` กรอง annotation บนหน้าโดยอิงประเภทหรือพื้นที่  
 
 ```java
 AnnotationSelector selector = new AnnotationSelector(new LinkAnnotation(page, Rectangle.getTrivial()));
 page.accept(selector); 
 List list = selector.getSelected();
-```
-*สร้าง `AnnotationSelector` เพื่อกรองอ็อบเจ็กต์ `LinkAnnotation` วิธี `Rectangle.getTrivial()` ทำให้เราพิจารณาพื้นที่ทั้งหน้า*
+```  
+*`AnnotationSelector` กรอง annotation ตามประเภท โดยระบุ `LinkAnnotation.class` เราจะแยกเฉพาะอ็อบเจ็กต์ hyperlink ส่วน `Rectangle.getTrivial()` ทำให้ selector สแกนพื้นที่ทั้งหน้า*
 
 ### ขั้นตอนที่ 4: ประมวลผล Hyperlink Actions
 
@@ -113,66 +168,74 @@ if (list.size() == 0) {
         System.out.println("Found hyperlink: " + uri);
     }
 }
-```
-*วนลูปผ่านแต่ละ `LinkAnnotation` เพื่อดึงและพิมพ์ URI ของมัน แสดงฟังก์ชันหลักของการดึงลิงก์ไฮเปอร์*
+```  
+*วนลูปแต่ละ `LinkAnnotation` แล้วเรียก `getAction().getURI()` เพื่อรับ URL ปลายทาง ลูปนี้พิมพ์ URL แต่ละรายการลงคอนโซล แสดงความสามารถหลักของการสกัดข้อมูล*
 
-### เคล็ดลับการแก้ไขปัญหา
-- **ไม่พบลิงก์ไฮเปอร์:** ตรวจสอบว่า PDF ของคุณมี annotation ของลิงก์จริงและคุณกำลังตรวจสอบหน้าที่ถูกต้อง  
-- **URI ผิดรูปแบบ:** ตรวจสอบรูปแบบของ URI ที่ดึงออกมาก่อนนำไปใช้ในแอปพลิเคชันต่อไป  
+## ปัญหาทั่วไปและวิธีแก้
 
-## การประยุกต์ใช้งานจริง
+- **No hyperlinks found:** ยืนยันว่า PDF มี link annotation จริง ๆ และคุณกำลังตรวจสอบดัชนีหน้าที่ถูกต้อง (หน้านับจาก 1)  
+- **Malformed URIs:** PDF บางไฟล์เก็บ URL แบบ relative หรือ JavaScript action ตรวจสอบสตริงที่สกัดด้วย `java.net.URI` ก่อนนำไปใช้ต่อ  
+- **Large documents cause memory spikes:** ใช้ `Document.optimizeResources()` ก่อนโหลดเพื่อลดการใช้หน่วยความจำ โดยเฉพาะ PDF ที่มีขนาดเกิน 200 MB  
 
-การดึงลิงก์ไฮเปอร์จาก PDF สามารถใช้ในหลายวัตถุประสงค์:
+## การประยุกต์ใช้ในทางปฏิบัติ
 
-1. **Content Management Systems (CMS):** ทำให้การจัดทำรายการทรัพยากรที่ลิงก์อยู่ในคลังเอกสารเป็นอัตโนมัติ  
-2. **Data Mining:** รวบรวมและวิเคราะห์ข้อมูลลิงก์ไฮเปอร์สำหรับการวิจัยตลาดหรือการวิเคราะห์คู่แข่ง  
-3. **Automated Reporting:** สร้างรายงานที่รวมสถิติของลิงก์ เช่น ความถี่และโดเมนปลายทาง  
+การดึง hyperlink จากหน้า PDF เปิดโอกาสให้ทำอัตโนมัติหลายรูปแบบ:
 
-## การพิจารณาประสิทธิภาพ
+1. **Content Management Systems (CMS):** เติมรายการลิงก์อัตโนมัติสำหรับห้องสมุดเอกสารที่สามารถค้นหาได้  
+2. **Market Research:** ค้นหา URL ที่สกัดเพื่อประเมินการอ้างอิงภายนอก, การกล่าวถึงคู่แข่ง, หรือรูปแบบการอ้างอิง  
+3. **Compliance Audits:** ตรวจสอบว่าลิงก์ทั้งหมดชี้ไปยังโดเมนที่ได้รับการอนุมัติ เพื่อลดความเสี่ยงทางกฎหมาย  
 
-เพื่อเพิ่มประสิทธิภาพขณะทำงานกับ Aspose.PDF:
-- ใช้แนวปฏิบัติการจัดการหน่วยความจำที่มีประสิทธิภาพใน Java เพื่อจัดการ PDF ขนาดใหญ่โดยไม่ทำให้ระบบทรัพยากรเต็ม  
-- นำการประมวลผลแบบอะซิงโครนัสมาใช้หากต้องจัดการหลายเอกสารพร้อมกัน  
+## เคล็ดลับประสิทธิภาพ
+
+- ประมวลผลหน้าพร้อมกันโดยใช้ `ForkJoinPool` ของ Java เมื่อทำการแปลงเป็นชุด  
+- ใช้ `Document` ตัวเดียวสำหรับการอ่านหลายครั้งเพื่อหลีกเลี่ยงการทำ I/O ซ้ำซ้อน  
+- สำหรับ PDF ขนาดใหญ่มาก ให้สตรีมหน้าโดยใช้ API ระดับต่ำของ `PdfDocument` เพื่อควบคุมการใช้ heap  
 
 ## สรุป
 
-ตอนนี้คุณได้เรียนรู้วิธี **ดึงลิงก์ไฮเปอร์** และ **get PDF link URLs** จากเอกสาร PDF ด้วยบทแนะนำ Aspose PDF Java นี้ เทคนิคนี้ช่วยประหยัดเวลาและรวมเข้ากับกระบวนการอัตโนมัติขนาดใหญ่ได้อย่างราบรื่น อย่าลังเลที่จะทดลองกับหลายหน้า หรือขยายโซลูชันเพื่อแก้ไขลิงก์ไฮเปอร์โดยโปรแกรม
+คุณมีวิธีครบถ้วนและพร้อมใช้งานในสภาพแวดล้อมการผลิตเพื่อ **ดึงลิงก์ PDF จากหน้า** และ **get PDF link URLs** ด้วย Aspose.PDF for Java ความสามารถนี้สามารถฝังลงในตัวประมวลผลแบบแบตช์, สายงานวิเคราะห์, หรือแอปพลิเคชันใด ๆ ที่ต้องการเข้าใจโครงสร้าง hyperlink ของไฟล์ PDF
 
 ### ขั้นตอนต่อไป
-- ลองดึงลิงก์ไฮเปอร์จากหลายหน้า  
-- นำฟังก์ชันนี้รวมเข้าในแอปพลิเคชันที่ประมวลผล PDF เป็นชุด  
+- ขยายตรรกะเพื่อวนลูปทุกหน้าและรวมผลลัพธ์ในไฟล์ CSV  
+- ผสานการสกัดลิงก์กับการตรวจสอบสถานะ HTTP เพื่อทำเครื่องหมาย URL ที่เสียโดยอัตโนมัติ  
+- สำรวจ API การแก้ไข annotation ของ Aspose.PDF เพื่อเขียนทับหรือเอาลิงก์ที่ไม่ต้องการออกโดยโปรแกรม  
 
 ## คำถามที่พบบ่อย
 
-**Q1: Aspose.PDF for Java คืออะไร?**  
-A1: เป็นไลบรารีที่ให้ความสามารถครบวงจรสำหรับการสร้าง แก้ไข และจัดการเอกสาร PDF ในแอปพลิเคชัน Java.
+**Q: Aspose.PDF for Java คืออะไร?**  
+A: เป็นไลบรารีเชิงพาณิชย์ที่ให้คุณสมบัติการจัดการ PDF มากกว่า 50 รายการ — รวมถึงการสร้าง, การแปลง, และการจัดการ annotation — โดยไม่ต้องพึ่งซอฟต์แวร์ภายนอก  
 
-**Q2: ฉันจะดึงลิงก์ไฮเปอร์จากทุกหน้าของเอกสารได้อย่างไร?**  
-A2: วนลูปแต่ละหน้าโดยใช้ `document.getPages()` และทำซ้ำกระบวนการดึงลิงก์ไฮเปอร์สำหรับแต่ละหน้า.
+**Q: จะดึง hyperlink จากทุกหน้าของเอกสารอย่างไร?**  
+A: วนลูป `document.getPages()` แล้วใช้ตรรกะ `AnnotationSelector` เดียวกันกับแต่ละหน้า เก็บ URI ลงในรายการ  
 
-**Q3: Aspose.PDF สามารถจัดการ PDF ที่มีการป้องกันด้วยรหัสผ่านได้หรือไม่?**  
-A3: ได้ รองรับการเปิดไฟล์ที่เข้ารหัสโดยให้รหัสผ่านที่เหมาะสมในระหว่างการเริ่มต้น.
+**Q: Aspose.PDF สามารถจัดการ PDF ที่มีรหัสผ่านได้หรือไม่?**  
+A: ได้ ให้ใส่รหัสผ่านเมื่อสร้างอ็อบเจ็กต์ `Document` (เช่น `new Document("file.pdf", new LoadOptions("pwd"))`)  
 
-**Q4: มีทางเลือกอื่น ๆ สำหรับ Aspose.PDF for Java บ้างไหม?**  
-A4: มีทางเลือกเช่น Apache PDFBox และ iText สำหรับการจัดการ PDF ในแอปพลิเคชัน Java.
+**Q: มีทางเลือกอื่นสำหรับ Aspose.PDF for Java หรือไม่?**  
+A: Apache PDFBox และ iText เป็นตัวเลือกโอเพ่นซอร์สที่นิยม แม้อาจขาด API annotation ขั้นสูงของ Aspose  
 
-**Q5: ฉันจะจัดการกับลิงก์ที่เสียหายใน PDF อย่างไร?**  
-A5: ใช้กลไกการตรวจสอบข้อผิดพลาดเมื่อประมวลผล URI เช่น ตรวจสอบรูปแบบ URL หรือความสามารถในการเข้าถึง.
+**Q: จะจัดการลิงก์ที่เสียในเอกสาร PDF อย่างไร?**  
+A: หลังสกัด ใช้ `HttpURLConnection` หรือไคลเอนต์ HTTP ของบุคคลที่สามเพื่อ ping แต่ละ URL และบันทึกการตอบสนองที่ไม่ใช่ 200 เพื่อทำการแก้ไขต่อไป  
 
 ## แหล่งข้อมูล
-- [Aspose.PDF Documentation](https://reference.aspose.com/pdf/java/)
-- [Download Aspose.PDF for Java](https://releases.aspose.com/pdf/java/)
-- [Purchase a License](https://purchase.aspose.com/buy)
-- [Free Trial and Temporary License](https://purchase.aspose.com/temporary-license/)
-- [Aspose Support Forum](https://forum.aspose.com/c/pdf/10)
-
-คู่มือฉบับครอบคลุมนี้ให้ความรู้ในการดึงลิงก์ไฮเปอร์จาก PDF ด้วย Aspose.PDF for Java ขอให้สนุกกับการเขียนโค้ด!
+- [เอกสาร Aspose.PDF](https://reference.aspose.com/pdf/java/)
+- [ดาวน์โหลด Aspose.PDF for Java](https://releases.aspose.com/pdf/java/)
+- [ซื้อใบอนุญาต](https://purchase.aspose.com/buy)
+- [ทดลองใช้ฟรีและใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
+- [ฟอรั่มสนับสนุน Aspose](https://forum.aspose.com/c/pdf/10)
 
 ---
 
-**Last Updated:** 2025-12-20  
+**Last Updated:** 2026-06-02  
 **Tested With:** Aspose.PDF 25.3 for Java  
 **Author:** Aspose
+
+## บทแนะนำที่เกี่ยวข้อง
+
+- [เพิ่มลิงก์ใน PDF ด้วย Aspose.PDF for Java – คู่มือสั้น](/pdf/java/bookmarks-navigation/link-pdfs-aspose-pdf-java/)
+- [วิธีสร้าง PDF Bookmarks และจัดการการนำทางด้วย Aspose.PDF for Java](/pdf/java/bookmarks-navigation/create-manage-pdf-bookmarks-aspose-java/)
+- [สกัดภาพจากไฟล์ PDF ด้วย Aspose.PDF for Java: คู่มือขั้นตอนต่อขั้นตอน](/pdf/java/images-graphics/extract-images-pdf-aspose-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

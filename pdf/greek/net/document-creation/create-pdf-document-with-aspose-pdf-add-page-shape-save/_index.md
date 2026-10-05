@@ -45,8 +45,6 @@ url: /el/net/document-creation/create-pdf-document-with-aspose-pdf-add-page-shap
 
 **Προαπαιτούμενα:** .NET 6+ (ή .NET Framework 4.6+), Visual Studio ή οποιοδήποτε IDE C#, και έγκυρη άδεια Aspose.PDF (ή η δωρεάν αξιολόγηση). Δεν απαιτούνται άλλες βιβλιοθήκες τρίτων.
 
-![Create PDF Document example](alt="Create PDF Document with Aspose.PDF showing a red rectangle that exceeds page bounds")
-
 ---
 
 ## Βήμα 1 – Αρχικοποίηση του Εγγράφου PDF

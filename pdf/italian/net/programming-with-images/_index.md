@@ -30,6 +30,7 @@ tutorial "Programmazione con immagini" di Aspose.PDF per .NET ti guideranno pass
 | [Convertire la regione della pagina in DOM](./convert-page-region-to-dom/) Sfrutta il potenziale dei tuoi documenti PDF con Aspose.PDF per .NET. Converti singole sezioni dei PDF in immagini e migliora il tuo flusso di lavoro. |  
 | [Converti in BMP](./convert-to-bmp/) | Scopri come convertire facilmente i PDF in immagini BMP utilizzando Aspose.PDF per .NET in questo tutorial passo passo. Perfetto per gli sviluppatori .NET. |  
 | [Crea immagini in miniatura nel file PDF](./create-thumbnail-images/) | Genera facilmente miniature per ogni pagina del tuo file PDF utilizzando Aspose.PDF per .NET. Migliora la tua esperienza di anteprima dei documenti. |  
+| [Crea pagina PDF vuota – Guida completa per aggiungere, ritagliare e ridimensionare immagini](./create-blank-pdf-page-full-guide-to-adding-cropping-resizing/) | Scopri come creare una pagina PDF vuota e gestire l'aggiunta, il ritaglio e il ridimensionamento delle immagini con Aspose.PDF per .NET. |
 | [Elimina immagini dal file PDF](./delete-images/) | Scopri come eliminare le immagini dai file PDF utilizzando Aspose.PDF per .NET in un semplice tutorial passo passo. Ottimizza i PDF rimuovendo facilmente le immagini indesiderate. |  
 | [Estrarre immagini da file PDF](./extract-images/) | Scopri come estrarre immagini da un file PDF utilizzando Aspose.PDF per .NET con questa guida passo passo. Inizia subito con istruzioni facili da seguire. |  
 | [Immagini di riduzione rapida](./fast-shrink-images/) Scopri come utilizzare in modo efficiente Aspose.PDF per .NET per ridurre le immagini nei file PDF, ottimizzandone le dimensioni e mantenendone la qualità. |  
@@ -48,7 +49,8 @@ tutorial "Programmazione con immagini" di Aspose.PDF per .NET ti guideranno pass
 | [Cerca e ottieni immagini in file PDF](./search-and-get-images/) | Scopri come estrarre facilmente immagini dai file PDF con Aspose.PDF per .NET. Segui questa guida passo passo per migliorare le tue competenze di elaborazione PDF. |  
 | [Imposta la dimensione dell'immagine nel file PDF](./set-image-size/) | Scopri come impostare le dimensioni delle immagini in un PDF utilizzando Aspose.PDF per .NET. Questa guida passo passo ti aiuterà a ridimensionare le immagini, regolare le proprietà di pagina e salvare i PDF.  
 | [Riduci le immagini nel file PDF](./shrink-images/) | Riduci facilmente le immagini nei file PDF utilizzando Aspose.PDF per .NET con questa guida dettagliata, assicurando file di dimensioni ridotte senza compromettere la qualità. |  
-| [Memorizza l'immagine nella raccolta XImage](./store-image-in-ximage-collection/) | Scopri come memorizzare le immagini nella raccolta XImage utilizzando Aspose.PDF per .NET in questa guida completa passo dopo passo. |
+| [Memorizza l'immagine nella raccolta XImage](./store-image-in-ximage-collection/) | Scopri come memorizzare le immagini nella raccolta XImage utilizzando Aspose.PDF per .NET in questa guida completa passo dopo passo.  
+| [Aggiungi figura a Word – Guida completa alla programmazione C#](./add-figure-to-word-complete-c-programming-guide/) | Scopri come aggiungere una figura a un documento Word con C# usando Aspose.Words per .NET in questa guida completa passo passo. |  
 | [Comprimi immagini in DOCX – Riduci le dimensioni del file](./compress-images-in-docx-reduce-file-size/) | Scopri come comprimere le immagini in un documento DOCX per ridurre le dimensioni del file usando Aspose.PDF per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

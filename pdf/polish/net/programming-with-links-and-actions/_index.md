@@ -32,6 +32,7 @@ Strona samouczka „Programowanie z linkami i akcjami” na temat Aspose.PDF dla
 | [Określ stronę podczas przeglądania](./specify-page-when-viewing/) | Dowiedz się, jak określić stronę do wyświetlenia w pliku PDF za pomocą Aspose.PDF dla platformy .NET. Ulepsz nawigację użytkownika dzięki temu prostemu przewodnikowi. |  
 | [Aktualizuj łącza w pliku PDF](./update-links/) Dowiedz się, jak zaktualizować kolor tekstu łącza w pliku PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik krok po kroku przeprowadzi Cię przez każdy szczegół za pomocą łatwych do naśladowania przykładów. |  
 | [Aktualizuj kolor tekstu łącza w pliku PDF](./update-link-text-color/) | Bezproblemowo aktualizuj linki w plikach PDF za pomocą Aspose.PDF dla .NET dzięki temu kompleksowemu przewodnikowi krok po kroku. Uprość edycję plików PDF. |  
+| [Utwórz hiperłącze PDF w C# – przewodnik krok po kroku](./create-pdf-hyperlink-in-c-step-by-step-guide/) | Dowiedz się, jak krok po kroku tworzyć hiperłącza PDF w C# przy użyciu Aspose.PDF dla .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

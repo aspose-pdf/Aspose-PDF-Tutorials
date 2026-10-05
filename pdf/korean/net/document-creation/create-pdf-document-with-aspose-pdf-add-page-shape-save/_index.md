@@ -42,8 +42,6 @@ C#에서 **create pdf document**가 필요했지만 어디서 시작해야 할�
 
 **Prerequisites:** .NET 6+ (또는 .NET Framework 4.6+), Visual Studio 또는 any C# IDE, 그리고 유효한 Aspose.PDF 라이선스(또는 무료 평가판). 다른 서드파티 라이브러리는 필요하지 않습니다.
 
-![Create PDF Document example](alt="Create PDF Document with Aspose.PDF showing a red rectangle that exceeds page bounds")
-
 ---
 
 ## Step 1 – PDF 문서 초기화

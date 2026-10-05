@@ -46,8 +46,6 @@ Ebben az útmutatóban egy komplett, azonnal futtatható példán keresztül mut
 
 **Előfeltételek:** .NET 6+ (vagy .NET Framework 4.6+), Visual Studio vagy bármely C# IDE, valamint érvényes Aspose.PDF licenc (vagy a ingyenes értékelő verzió). Más harmadik féltől származó könyvtárra nincs szükség.
 
-![Create PDF Document example](alt="Create PDF Document with Aspose.PDF showing a red rectangle that exceeds page bounds")
-
 ---
 
 ## 1. lépés – PDF dokumentum inicializálása

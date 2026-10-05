@@ -35,6 +35,7 @@
 | [设置自由文本注释格式](./setfreetextannotationformatting/) 通过本分步指南了解如何使用 Aspose.PDF for .NET 在 PDF 文档中设置自由文本注释格式。|  
 | [删除单词](./strikeoutwords/) 学习如何使用 Aspose.PDF for .NET 在 PDF 中删除文字，并遵循本指南的全面步骤。提升您的文档编辑技能。|  
 | [更新自由文本 PDF 注释](./updatefreetextannotation/) 通过本分步指南了解如何使用 Aspose.PDF for .NET 更新 PDF 文档中的自由文本注释。|  
+| [如何在 Aspose.PDF 中使用 Repair 修复损坏的注释](./how-to-use-repair-in-aspose-pdf-fix-broken-annotations/) 通过本分步指南，学习如何使用 Aspose.PDF 的 Repair 功能修复 PDF 中损坏的注释。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

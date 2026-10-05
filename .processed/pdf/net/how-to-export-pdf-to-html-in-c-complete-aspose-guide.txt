@@ -1,0 +1,7 @@
+Title: How to Export PDF to HTML in C# – Complete Aspose Guide
+Slug: how-to-export-pdf-to-html-in-c-complete-aspose-guide
+Category: conversion-export
+ProcessedDate: 2026-06-09T04:17:15.716973
+SourceRepo: AI Search API
+Keywords: how to export pdf, convert pdf to html, save pdf as html, pdf to html c#, how to convert pdf
+PRNumber: 89

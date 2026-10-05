@@ -12,11 +12,8 @@ url: /nl/java/attachments-embedded-files/extract-files-pdf-portfolio-aspose-java
 weight: 1
 ---
 
- blocks but placeholders. The requirement says preserve code blocks: fenced code blocks. But there are none; placeholders are not fences. So fine.
 
-Now produce translation.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 

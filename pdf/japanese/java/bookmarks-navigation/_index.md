@@ -7,18 +7,12 @@ weight: 14
 ---
 
   
-**Tested With:** Aspose.PDF for Java 24.12  
-**Author:** Aspose  
 
-Translate labels maybe keep English? Should translate "Last Updated", "Tested With", "Author". Probably translate to Japanese: "最終更新日", "テスト環境", "作者". Keep values.
 
-Now close shortcodes.
 
-Now produce final content.
 
-Be careful to keep markdown formatting exactly.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

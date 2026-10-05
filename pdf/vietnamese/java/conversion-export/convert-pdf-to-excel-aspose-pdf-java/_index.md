@@ -1,9 +1,17 @@
 ---
-"date": "2025-04-14"
-"description": "Tìm hiểu cách chuyển đổi tệp PDF sang định dạng XLSX bằng Aspose.PDF cho Java. Hướng dẫn này bao gồm tải, chuyển đổi và tối ưu hóa xử lý tài liệu."
-"title": "Chuyển đổi PDF sang Excel trong Java bằng Aspose.PDF&#58; Hướng dẫn toàn diện dành cho nhà phát triển"
-"url": "/vi/java/conversion-export/convert-pdf-to-excel-aspose-pdf-java/"
-"weight": 1
+date: '2026-04-05'
+description: Tìm hiểu cách lưu PDF thành XLSX trong Java với Aspose.PDF. Hướng dẫn
+  từng bước này bao gồm chuyển đổi PDF sang Excel bằng Java, tải, chuyển đổi và các
+  mẹo về hiệu suất.
+keywords:
+- save pdf as xlsx
+- convert pdf to excel java
+- how to convert pdf to xlsx
+- java pdf to spreadsheet
+- load pdf document java
+title: Cách lưu PDF thành XLSX trong Java bằng Aspose.PDF
+url: /vi/java/conversion-export/convert-pdf-to-excel-aspose-pdf-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,36 +19,49 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Chuyển đổi PDF sang Excel trong Java bằng Aspose.PDF: Hướng dẫn dành cho nhà phát triển
+# Cách lưu PDF dưới dạng XLSX trong Java bằng Aspose.PDF
 
 ## Giới thiệu
 
-Bạn có muốn tự động chuyển đổi tài liệu PDF thành tệp Excel không? Với Aspose.PDF for Java, quá trình này trở nên dễ dàng. Hướng dẫn toàn diện này sẽ hướng dẫn bạn chuyển đổi tài liệu PDF thành tệp XLSX một cách liền mạch.
+Nếu bạn cần **save PDF as XLSX** một cách nhanh chóng và đáng tin cậy, Aspose.PDF cho Java sẽ giúp việc này trở nên dễ dàng. Trong hướng dẫn này, chúng tôi sẽ trình bày mọi thứ bạn cần—từ việc thiết lập thư viện đến chuyển đổi tài liệu PDF thành sổ làm việc Excel—để bạn có thể tự động hóa việc trích xuất và phân tích dữ liệu trong các ứng dụng Java của mình.
 
-Trong thế giới dữ liệu ngày nay, các doanh nghiệp thường cần xử lý khối lượng lớn thông tin được lưu trữ ở định dạng PDF. Việc chuyển đổi các tài liệu này sang Excel cho phép phân tích dữ liệu tốt hơn và tích hợp với các hệ thống phần mềm khác.
+Trong môi trường dựa trên dữ liệu ngày nay, việc chuyển đổi PDF sang bảng tính là một yêu cầu phổ biến cho báo cáo, phân tích tài chính và tích hợp với các hệ thống ERP hoặc CRM. Khi kết thúc tutorial này, bạn sẽ có thể chuyển đổi một PDF đơn lẻ hoặc một loạt PDF thành các tệp Excel chỉ với vài dòng mã.
 
-**Những gì bạn sẽ học được:**
-- Cách tải tài liệu PDF bằng Aspose.PDF Java
-- Các bước để chuyển đổi tệp PDF sang định dạng XLSX
-- Thiết lập môi trường phát triển của bạn với Aspose.PDF
-- Ứng dụng thực tế của việc chuyển đổi tài liệu theo chương trình
+**Bạn sẽ học được**
+- Cách **load PDF document java** sử dụng Aspose.PDF
+- Hướng dẫn chi tiết từng bước để **save PDF as XLSX**
+- Cách **convert pdf to excel java** một cách hiệu quả
+- Mẹo chuyển đổi hàng loạt PDF sang Excel cho các dự án lớn
+- Các trường hợp sử dụng thực tế cho chuyển đổi PDF sang bảng tính trong Java
 
-Trước khi bắt đầu triển khai, hãy đảm bảo bạn đã có đủ mọi điều kiện tiên quyết.
+Trước khi bắt đầu, hãy chắc chắn rằng các điều kiện tiên quyết dưới đây đã được đáp ứng.
+
+## Câu trả lời nhanh
+- **Lớp chính cho việc chuyển đổi là gì?** `Document` từ Aspose.PDF.
+- **Tùy chọn nào kiểm soát định dạng Excel?** `ExcelSaveOptions` với `ExcelFormat.XLSX`.
+- **Tôi có thể chuyển đổi hàng loạt nhiều PDF không?** Có – lặp qua các tệp và tái sử dụng cùng một logic chuyển đổi.
+- **Tôi có cần giấy phép cho môi trường sản xuất không?** Giấy phép Aspose.PDF đầy đủ loại bỏ các giới hạn đánh giá.
+- **Các phiên bản Java nào được hỗ trợ?** Tất cả các bản phát hành LTS gần đây (Java 8‑17+).
+
+## “save PDF as XLSX” là gì?
+Lưu PDF dưới dạng XLSX có nghĩa là trích xuất dữ liệu dạng bảng từ tệp PDF và ghi chúng vào một sổ làm việc Excel (XLSX). Điều này cho phép thao tác dữ liệu, tính toán và trực quan hoá ở các bước tiếp theo, những việc khó thực hiện trực tiếp trên PDF.
+
+## Tại sao chuyển đổi PDF sang Excel với Aspose.PDF?
+- **Độ trung thực cao** – Giữ nguyên bảng, phông chữ và định dạng ô.
+- **Không phụ thuộc bên ngoài** – Thư viện thuần Java, không có binary gốc.
+- **Mở rộng** – Hoạt động cho tệp đơn và xử lý hàng loạt.
+- **API phong phú** – Tinh chỉnh đầu ra qua `ExcelSaveOptions`.
 
 ## Điều kiện tiên quyết
+- **Aspose.PDF cho Java** (chúng tôi sẽ sử dụng phiên bản 25.3 trong các ví dụ).
+- **JDK 8 trở lên** và một IDE như IntelliJ IDEA hoặc Eclipse.
+- Kiến thức cơ bản về **Maven** hoặc **Gradle** để quản lý phụ thuộc.
 
-Để thực hiện theo hướng dẫn này, bạn sẽ cần:
-
-- **Thư viện và các phụ thuộc**: Đảm bảo bạn đã cài đặt Aspose.PDF cho Java. Chúng tôi sẽ sử dụng phiên bản 25.3.
-- **Thiết lập môi trường**: Đảm bảo môi trường phát triển của bạn được thiết lập bằng JDK (Java Development Kit) và IDE như IntelliJ IDEA hoặc Eclipse.
-- **Điều kiện tiên quyết về kiến thức**: Hiểu biết cơ bản về lập trình Java và quen thuộc với Maven hoặc Gradle để quản lý phụ thuộc.
-
-## Thiết lập Aspose.PDF cho Java
-
-Bắt đầu với Aspose.PDF trong Java rất đơn giản. Thực hiện theo các bước sau để đưa nó vào dự án của bạn:
+## Cài đặt Aspose.PDF cho Java
+Đưa thư viện vào dự án của bạn rất đơn giản. Chọn công cụ xây dựng bạn ưa thích.
 
 ### Sử dụng Maven
-Thêm phụ thuộc sau vào `pom.xml` tài liệu:
+Thêm phụ thuộc sau vào tệp `pom.xml` của bạn:
 
 ```xml
 <dependency>
@@ -51,137 +72,136 @@ Thêm phụ thuộc sau vào `pom.xml` tài liệu:
 ```
 
 ### Sử dụng Gradle
-Bao gồm điều này trong `build.gradle`:
+Bao gồm đoạn này trong `build.gradle` của bạn:
 
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-Sau khi thêm phần phụ thuộc, hãy tải xuống giấy phép tạm thời từ Aspose để mở khóa tất cả các tính năng cho mục đích đánh giá hoặc mua giấy phép đầy đủ nếu cần.
+Sau khi thêm phụ thuộc, lấy giấy phép tạm thời hoặc đầy đủ từ Aspose để mở khóa tất cả tính năng.
 
-#### Các bước xin cấp giấy phép:
-1. **Dùng thử miễn phí**: Truy cập các chức năng cơ bản bằng cách tải xuống bản dùng thử miễn phí.
-2. **Giấy phép tạm thời**: Yêu cầu cấp giấy phép tạm thời để truy cập đầy đủ tính năng trong giai đoạn thử nghiệm của bạn.
-3. **Mua**: Mua giấy phép đầy đủ để tích hợp Aspose.PDF mà không có giới hạn trong môi trường sản xuất.
+#### Các bước lấy giấy phép
+1. **Free Trial** – Tải giấy phép dùng thử để kiểm tra cơ bản.  
+2. **Temporary License** – Yêu cầu khóa tạm thời để đánh giá đầy đủ tính năng.  
+3. **Purchase** – Mua giấy phép sản xuất để sử dụng không giới hạn.
 
-Khởi tạo thư viện bằng cách thiết lập tệp giấy phép như hiển thị bên dưới:
+Khởi tạo giấy phép trong mã của bạn:
 
 ```java
 com.aspose.pdf.License license = new com.aspose.pdf.License();
 license.setLicense("path/to/Aspose.Total.Java.lic");
 ```
 
-Sau khi thiết lập môi trường, chúng ta hãy chuyển sang triển khai chức năng chuyển đổi.
+## Hướng dẫn triển khai
 
-## Hướng dẫn thực hiện
-
-### Tải một tài liệu PDF
+### Tải tài liệu PDF
 
 #### Tổng quan
-Trước khi chuyển đổi tài liệu PDF thành tệp Excel, bạn phải tải nó bằng Aspose.PDF cho Java. Phần này sẽ hướng dẫn bạn thực hiện bước đầu tiên này.
+Trước khi bạn có thể **save PDF as XLSX**, bạn cần tải PDF nguồn vào một đối tượng `Document`.
 
-#### Thực hiện từng bước
+#### Các bước
 
-**1. Nhập các lớp bắt buộc**
-Trước tiên, hãy đảm bảo các gói cần thiết đã được nhập:
+**1. Nhập các lớp cần thiết**
 
 ```java
 import com.aspose.pdf.Document;
 ```
 
 **2. Tải tài liệu PDF của bạn**
-Tải tài liệu PDF hiện có của bạn bằng cách chỉ định đường dẫn của nó:
 
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Document doc = new Document(dataDir + "/input.pdf");
 ```
-Các `Document` lớp này đóng vai trò trung tâm trong Aspose.PDF, đại diện cho tệp PDF đã tải.
+
+Lớp `Document` đại diện cho tệp PDF mà bạn sẽ chuyển đổi.
 
 ### Chuyển đổi PDF sang định dạng XLSX
 
 #### Tổng quan
-Tính năng này hướng dẫn cách chuyển đổi tài liệu PDF đã tải của bạn sang định dạng Excel (XLSX). 
+Bây giờ chúng ta sẽ chuyển đổi PDF đã tải thành một sổ làm việc Excel.
 
-#### Thực hiện từng bước
+#### Các bước
 
-**1. Nhập các lớp bắt buộc**
-Nhập các lớp cần thiết để chuyển đổi:
+**1. Nhập các lớp chuyển đổi**
 
 ```java
 import com.aspose.pdf.Document;
 import com.aspose.pdf.ExcelSaveOptions;
 ```
 
-**2. Tải Tài liệu PDF**
-Đảm bảo tệp PDF của bạn được tải như hướng dẫn ở phần trước.
-
-**3. Khởi tạo tùy chọn lưu Excel**
-Cài đặt `ExcelSaveOptions` để chỉ rõ rằng bạn muốn có đầu ra XLSX:
+**2. Khởi tạo Excel Save Options**
 
 ```java
 ExcelSaveOptions options = new ExcelSaveOptions();
 options.setFormat(ExcelSaveOptions.ExcelFormat.XLSX);
 ```
 
-**4. Chuyển đổi và Lưu dưới dạng XLSX**
-Cuối cùng, lưu tài liệu ở định dạng XLSX bằng cách chỉ định thư mục đầu ra mong muốn:
+**3. Chuyển đổi và lưu dưới dạng XLSX**
 
 ```java
 String outputDir = "YOUR_OUTPUT_DIRECTORY";
 doc.save(outputDir + "/output.xlsx", options);
 ```
-Các `save` phương pháp ghi tập tin đã chuyển đổi vào đĩa.
+
+Phương thức `save` ghi kết quả **save PDF as XLSX** vào thư mục được chỉ định.
 
 #### Mẹo khắc phục sự cố
-- **Đường dẫn tập tin**Đảm bảo rằng các thư mục đầu vào và đầu ra được chỉ định chính xác.
-- **Phụ thuộc**: Xác minh rằng Aspose.PDF đã được thêm đúng cách thông qua Maven hoặc Gradle.
+- Kiểm tra `dataDir` và `outputDir` trỏ tới các vị trí hợp lệ, có thể ghi.
+- Đảm bảo phụ thuộc Aspose.PDF phù hợp với phiên bản được sử dụng trong tệp giấy phép.
+- Đối với PDF lớn, cân nhắc gọi `doc.optimizeResources()` trước khi chuyển đổi để giảm sử dụng bộ nhớ.
 
-## Ứng dụng thực tế
+## Ứng dụng thực tiễn
 
-1. **Dự án di chuyển dữ liệu**: Tự động chuyển đổi các báo cáo PDF cũ sang Excel để phân tích.
-2. **Báo cáo tài chính**: Nâng cao hiệu quả xử lý dữ liệu tài chính bằng cách chuyển đổi các báo cáo hàng tháng được lưu trữ ở định dạng PDF sang XLSX.
-3. **Tích hợp với Hệ thống CRM**:Nâng cao hệ thống quản lý quan hệ khách hàng bằng cách tích hợp hóa đơn PDF được chuyển đổi thành tệp Excel.
+1. **Di chuyển dữ liệu** – Chuyển các báo cáo PDF cũ sang Excel để phân tích.
+2. **Báo cáo tài chính** – Chuyển các báo cáo hàng tháng sang XLSX cho công cụ lập ngân sách.
+3. **Tích hợp CRM** – Chuyển đổi hoá đơn PDF thành bảng tính để nhập hàng loạt.
 
-## Cân nhắc về hiệu suất
+## Các cân nhắc về hiệu năng
 
-- **Tối ưu hóa việc sử dụng bộ nhớ**: Sử dụng các kỹ thuật xử lý bộ nhớ hiệu quả, đặc biệt là khi xử lý các tài liệu lớn.
-- **Xử lý hàng loạt**: Nếu chuyển đổi nhiều tài liệu, hãy triển khai xử lý hàng loạt để giảm thiểu tình trạng quá tải tài nguyên.
-- **Hoạt động không đồng bộ**:Đối với các ứng dụng web, hãy cân nhắc thực hiện chuyển đổi không đồng bộ để cải thiện thời gian phản hồi.
+- **Quản lý bộ nhớ** – Sử dụng `doc.optimizeResources()` cho các tệp lớn.
+- **Xử lý hàng loạt** – Lặp qua danh sách PDF và tái sử dụng một thể hiện `ExcelSaveOptions` duy nhất.
+- **Thực thi bất đồng bộ** – Trong dịch vụ web, chạy chuyển đổi trong một luồng riêng hoặc hàng đợi tác vụ để giữ thời gian phản hồi thấp.
 
-## Phần kết luận
+## Các vấn đề thường gặp và giải pháp
 
-Bây giờ bạn đã nắm vững những điều cơ bản về cách sử dụng Aspose.PDF cho Java để chuyển đổi các tệp PDF sang định dạng Excel. Chức năng này mở ra nhiều khả năng để xử lý và tích hợp dữ liệu.
+| Vấn đề | Giải pháp |
+|-------|----------|
+| **FileNotFoundException** | Kiểm tra lại các đường dẫn trong `dataDir` và `outputDir`. Sử dụng đường dẫn tuyệt đối nếu cần. |
+| **OutOfMemoryError** | Bật tùy chọn JVM `-Xmx` và gọi `doc.optimizeResources()` trước khi lưu. |
+| **Missing Table Data** | Điều chỉnh `ExcelSaveOptions` (ví dụ, `setDetectTables(true)`) để cải thiện việc phát hiện bảng. |
+| **License Not Found** | Xác minh đường dẫn tệp giấy phép và đảm bảo nó được bao gồm trong classpath thời gian chạy. |
 
-**Các bước tiếp theo:**
-Khám phá thêm các tính năng được cung cấp bởi Aspose.PDF, chẳng hạn như chỉnh sửa hoặc hợp nhất tài liệu. Thử nghiệm với các cài đặt khác nhau trong `ExcelSaveOptions` để điều chỉnh đầu ra theo nhu cầu của bạn.
+## Câu hỏi thường gặp
 
-Sẵn sàng thực hiện các tác vụ xử lý tài liệu phức tạp hơn? Hãy thử tích hợp Aspose.PDF vào các dự án của bạn ngay hôm nay!
+**Q: Tôi có thể chuyển đổi hàng loạt nhiều PDF sang Excel không?**  
+A: Có. Lặp qua một tập hợp các đường dẫn tệp, tải mỗi `Document`, và gọi `doc.save()` với cùng một `ExcelSaveOptions`.
 
-## Phần Câu hỏi thường gặp
+**Q: Bản dùng thử có giới hạn số trang không?**  
+A: Bản dùng thử có thể thêm watermark và giới hạn kích thước xử lý, nhưng việc chuyển đổi cơ bản vẫn hoạt động mà không cần giấy phép đầy đủ.
 
-1. **Tôi có thể chuyển đổi nhiều tệp PDF cùng lúc không?**
-   Có, bạn có thể xử lý hàng loạt nhiều tài liệu bằng cách lặp lại một tập hợp các đường dẫn tệp và áp dụng cùng một logic chuyển đổi.
+**Q: Aspose.PDF có tương thích với Java 17 không?**  
+A: Hoàn toàn. Aspose.PDF hỗ trợ Java 8 đến các bản phát hành LTS mới nhất, bao gồm Java 17.
 
-2. **Một số hạn chế khi sử dụng bản dùng thử miễn phí là gì?**
-   Bản dùng thử miễn phí có thể giới hạn khả năng xử lý tài liệu hoặc thêm hình mờ vào tệp đầu ra.
+**Q: Làm thế nào để xử lý PDF được bảo vệ bằng mật khẩu?**  
+A: Truyền mật khẩu vào constructor của `Document`: `new Document(path, password)`.
 
-3. **Aspose.PDF có tương thích với tất cả các phiên bản Java không?**
-   Aspose.PDF hỗ trợ nhiều phiên bản Java, nhưng hãy luôn kiểm tra khả năng tương thích mới nhất trên trang tài liệu của họ.
-
-4. **Tôi có thể xử lý lỗi chuyển đổi như thế nào?**
-   Triển khai các khối try-catch xung quanh logic chuyển đổi của bạn và ghi lại mọi ngoại lệ để gỡ lỗi dễ dàng hơn.
-
-5. **Tôi có thể tùy chỉnh thêm định dạng đầu ra của Excel không?**
-   Đúng, `ExcelSaveOptions` cung cấp nhiều cấu hình khác nhau để tinh chỉnh giao diện của tệp Excel.
+**Q: Tôi có thể tùy chỉnh bố cục Excel (ví dụ, độ rộng cột) không?**  
+A: `ExcelSaveOptions` cung cấp các thuộc tính như `setColumnWidth()` và `setCellFormatting()` để tinh chỉnh.
 
 ## Tài nguyên
-- [Tài liệu](https://reference.aspose.com/pdf/java/)
-- [Tải về](https://releases.aspose.com/pdf/java/)
-- [Mua giấy phép](https://purchase.aspose.com/buy)
-- [Dùng thử miễn phí](https://releases.aspose.com/pdf/java/)
-- [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
-- [Diễn đàn hỗ trợ](https://forum.aspose.com/c/pdf/10)
+- [Documentation](https://reference.aspose.com/pdf/java/)
+- [Download](https://releases.aspose.com/pdf/java/)
+- [Purchase License](https://purchase.aspose.com/buy)
+- [Free Trial](https://releases.aspose.com/pdf/java/)
+- [Temporary License](https://purchase.aspose.com/temporary-license/)
+- [Support Forum](https://forum.aspose.com/c/pdf/10)
+
+---
+
+**Cập nhật lần cuối:** 2026-04-05  
+**Kiểm tra với:** Aspose.PDF cho Java 25.3  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

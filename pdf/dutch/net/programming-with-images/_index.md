@@ -21,6 +21,7 @@ De tutorials "Programmeren met afbeeldingen" van Aspose.PDF voor .NET begeleiden
 | Titel | Beschrijving |
 | --- | --- | 
 | [Afbeelding toevoegen in PDF-bestand](./add-image/) | Leer hoe u afbeeldingen programmatisch aan een PDF-bestand kunt toevoegen met Aspose.PDF voor .NET. Inclusief een stapsgewijze handleiding, voorbeeldcode en veelgestelde vragen voor een naadloze implementatie. |  
+| [Lege PDF-pagina maken – Volledige gids voor toevoegen, bijsnijden en aanpassen van afbeeldingen](./create-blank-pdf-page-full-guide-to-adding-cropping-resizing/) | Leer hoe u een lege PDF-pagina maakt en afbeeldingen toevoegt, bijsnijdt en schaalt met Aspose.PDF voor .NET. |  
 | [Alle pagina's naar TIFF](./all-pages-to-tiff/) | Leer in deze stapsgewijze tutorial hoe u alle pagina's van een PDF naar TIFF kunt converteren met Aspose.PDF voor .NET. Eenvoudig en efficiënt documentbeheer. |  
 | [Bradley-algoritme](./bradley-algorithm/) | Leer hoe u een PDF naar TIFF converteert met behulp van het Bradley-algoritme in Aspose.PDF voor .NET. Stapsgewijze handleiding, vereisten en veelgestelde vragen voor een naadloze conversie. |  
 | [CGM-afbeelding naar PDF](./cgm-image-to-pdf/) | Converteer CGM-afbeeldingen eenvoudig naar PDF met Aspose.PDF voor .NET. Volg deze eenvoudige stapsgewijze handleiding en stroomlijn uw bestandsconversieproces. |  
@@ -49,6 +50,7 @@ De tutorials "Programmeren met afbeeldingen" van Aspose.PDF voor .NET begeleiden
 | [Afbeeldingsgrootte instellen in PDF-bestand](./set-image-size/) | Leer hoe u de afbeeldingsgrootte in een PDF instelt met Aspose.PDF voor .NET. Deze stapsgewijze handleiding helpt u bij het aanpassen van de grootte van afbeeldingen, het aanpassen van pagina-eigenschappen en het opslaan van PDF's. |  
 | [Afbeeldingen in PDF-bestand verkleinen](./shrink-images/) | Verklein eenvoudig afbeeldingen in PDF-bestanden met Aspose.PDF voor .NET aan de hand van deze stapsgewijze handleiding. Zo blijven de bestandsgroottes kleiner, terwijl de kwaliteit behouden blijft. |  
 | [Afbeelding opslaan in XImage-collectie](./store-image-in-ximage-collection/) | Leer hoe u afbeeldingen in de XImage-verzameling opslaat met Aspose.PDF voor .NET in deze complete stapsgewijze handleiding. |  
+| [Figuur toevoegen aan Word – Complete C# programmeergids](./add-figure-to-word-complete-c-programming-guide/) | Leer hoe u een afbeelding toevoegt aan een Word-document met C# en Aspose.Words voor .NET. |  
 | [Afbeeldingen comprimeren in DOCX – Bestandsgrootte verkleinen](./compress-images-in-docx-reduce-file-size/) | Leer hoe u afbeeldingen in een DOCX-bestand kunt comprimeren om de bestandsgrootte te verkleinen met Aspose.Words voor .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

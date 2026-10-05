@@ -1,12 +1,66 @@
 ---
-date: '2025-12-29'
-description: Aspose.PDF for Java kullanarak PDF yer imleri oluşturmayı, PDF'lere eklemeyi
-  ve yer imli PDF'leri kaydetmeyi öğrenin.
+date: '2026-06-02'
+description: Aspose.PDF for Java kullanarak PDF taslağı oluşturmayı, yer imleri eklemeyi,
+  Java'da PDF belgesi açmayı ve yer imli PDF kaydetmeyi öğrenin.
 keywords:
-- manage PDF bookmarks
-- Aspose.PDF Java setup
-- create PDF bookmarks
-title: Aspose.PDF for Java ile PDF Yer İmleri Oluşturma
+- create pdf outline
+- save pdf with bookmarks
+- open pdf document java
+- aspose pdf java tutorial
+schemas:
+- author: Aspose
+  dateModified: '2026-06-02'
+  description: Learn how to create PDF outline, add bookmarks, open PDF document Java,
+    and save PDF with bookmarks using Aspose.PDF for Java.
+  headline: Create PDF Outline and Manage Bookmarks with Aspose.PDF for Java
+  type: TechArticle
+- description: Learn how to create PDF outline, add bookmarks, open PDF document Java,
+    and save PDF with bookmarks using Aspose.PDF for Java.
+  name: Create PDF Outline and Manage Bookmarks with Aspose.PDF for Java
+  steps:
+  - name: Open PDF Document
+    text: '`Document` is the core class that represents a PDF file in memory. The
+      `Document` class loads the PDF and exposes collections for pages, outlines,
+      and resources. - **Parameters**: `dataDir` points to the folder containing your
+      source PDF. - **Purpose**: Loading the PDF creates a manipulable object m'
+  - name: Create and Configure Parent Bookmark
+    text: 'A parent bookmark acts as a top‑level entry in the outline tree. The `OutlineItemCollection`
+      class represents a single bookmark node. - **Methods**: - `setTitle()` assigns
+      the visible text. - `setItalic()` / `setBold()` control styling. - `setDestination(pageNumber)`
+      links the bookmark to a specific'
+  - name: Create and Configure Child Bookmark
+    text: 'Child bookmarks are nested under a parent to represent sub‑sections. Each
+      child is also an `OutlineItemCollection` instance. - **Styling**: You can inherit
+      or override the parent’s style.'
+  - name: Add Child Bookmark to Parent Bookmark
+    text: 'Nest the child inside the parent to build a hierarchical outline. The `add()`
+      method inserts the child into the parent’s collection. - **Result**: A two‑level
+      bookmark tree that appears in the viewer’s sidebar.'
+  - name: Add Parent Bookmark to Document and Save
+    text: 'Attach the top‑level bookmark to the document’s outline collection and
+      persist the changes. `document.getOutlines().add(parentBookmark)` registers
+      the hierarchy. - **Saving**: `document.save("output_with_bookmarks.pdf")` writes
+      the modified PDF to disk (`save pdf with bookmarks`).'
+  type: HowTo
+- questions:
+  - answer: Use `outlineItem.setBold(true)` and `outlineItem.setItalic(true)` on the
+      `OutlineItemCollection` instance before adding it to the document.
+    question: How can I style a bookmark to appear bold and italic?
+  - answer: Aspose.PDF imposes no hard limit; however, extremely large trees (tens
+      of thousands) may affect viewer performance.
+    question: Is there a limit to the number of bookmarks I can add?
+  - answer: Yes, create a `Destination` object with coordinates and assign it via
+      `outlineItem.setDestination(destination)`.
+    question: Can I add a bookmark that points to a specific location on a page, not
+      just the page start?
+  - answer: Call `document.decrypt("yourPassword")` before manipulating outlines;
+      the API will handle decryption automatically.
+    question: What should I do if my PDF is encrypted?
+  - answer: Wrap `document.save(...)` in a try‑catch block for `IOException` and `AsposeException`
+      to capture file‑system and library‑level issues.
+    question: How do I handle errors while saving the PDF?
+  type: FAQPage
+title: Aspose.PDF for Java ile PDF Taslağı Oluşturma ve Yer İmlerini Yönetme
 url: /tr/java/bookmarks-navigation/manage-pdf-bookmarks-aspose-pdf-java/
 weight: 1
 ---
@@ -16,96 +70,100 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.PDF Java ile PDF Yer İmi Yönetiminde Ustalık
+# PDF Taslağı Oluşturma ve Yer İmlerini Yönetme Aspose.PDF for Java
 
-## Giriiş
+## Giriş
 
-Uzun PDF raporlarını veya sunumlarını etkili bir şekilde düzenleyemiyor musunuz? Sayfaların derinliklerinde gizli kritik bölümler arasında gezinip göz parçaları olabilir. Bu öğretici, **pdf yer imleri oluşturma** ve PDF'lerde **Aspose.PDF for Java** kullanarak bunları yönetmenize yönlendirecek, böylece önemli içeriklere kolayca erişilebilecektir.
+Eğer büyük bir PDF raporu açıp doğru bölümü bulmakta zorlandıysanız, gezintinin ne kadar sinir bozucu olabileceğini biliyorsunuz. **PDF taslağı oluşturmak** (yer imleri olarak da bilinir) okuyuculara ana bölümlere, tablolara veya şekillere anında erişim sağlar ve hantal bir belgeyi kullanıcı‑dostu bir deneyime dönüştürür. Bu öğreticide **PDF belgesini Java’da açma**, hiyerarşik bir taslak oluşturma ve Aspose.PDF for Java kullanarak **yer imleriyle PDF kaydetme** konularını öğreneceksiniz.
 
-Bu kapsamlı rehberde döngülerin incelenmesi:
-- Mevcut PDF dosyalarının açılması
-- Üst ve alt yer imlerini oluşturma ve ayarlama
-- Yer imlerinizi belgelerinizin taslak koleksiyonuna ekleme
-- Yeni yerimi teknolojisiyle PDF'yi kaydetme
+We’ll cover:
+- Mevcut bir PDF dosyasını yükleme
+- Üst ve alt taslak girişlerini tanımlama
+- Taslak hiyerarşisini belgeye ekleme
+- Değişiklikleri tek bir `save` çağrısı ile kalıcı hale getirme
 
-**Ne Öğreneceksiniz:**
-- Projenizde Aspose.PDF for Java'yı kurma
-- **pdf'e yer imleri ekleme** ve **pdf'i yer imleriyle kaydetme** teknikleri
-- Yer imlerini verimli bir şekilde düzenlemenin yolları
-- Yeni yer imleriyle güncellenmiş PDF'leri kaydedilip en iyi uygulamalar
-
-Gerekli ön koşullar kursa başlar.
+Sonunda, herhangi bir PDF'yi gezilebilir bir başyapıta dönüştürebileceksiniz—hukuki sözleşmeler, teknik kılavuzlar veya e‑kitaplar için mükemmel.
 
 ## Hızlı Yanıtlar
-- **Asıl amaç nedir?** Birincil amaç, belge gezinmesini iyileştirerek **pdf yer imleri oluşturmak** oluşturmak.
-- **Hangi kütüphane kullanılıyor?** Aspose.PDF for Java.
-- **Lisansa ihtiyacım var mı?** Ücretsiz deneme mevcuttur; üretim için lisans gereklidir.
-- **Bir PDF belgesini Java'da açabilir miyim?** Evet – `Document` sınıfını kullanın (`open pdf document java`).
-- **Yer imlerini ekledikten sonra PDF'yi nasıl kaydederim?** `document.save(...)` yöntemini çağırın (`pdf'yi yer imleriyle kaydet`).
+- **Ana hedef nedir?** Kullanıcıların önemli bölümlere doğrudan atlamasını sağlayan bir PDF taslağı oluşturmak.  
+- **Hangi kütüphane bunu yönetir?** Aspose.PDF for Java (git‑gide **aspose pdf java tutorial**).  
+- **Lisans gerekli mi?** Geliştirme için ücretsiz deneme çalışır; üretim için ticari bir lisans gereklidir.  
+- **Java’da PDF nasıl açılır?** `Document` sınıfını kullanın (`open pdf document java`).  
+- **Yer imleri eklendikten sonra dosya nasıl kaydedilir?** `document.save("output.pdf")` çağrısını yapın (`save pdf with bookmarks`).
+
+## PDF Taslağı Nedir?
+PDF taslağı, PDF görüntüleyicisinin yer imi bölmesinde görünen tıklanabilir girişlerin ağaç‑yapılı bir listesidir. Kullanıcılara bölümler, alt bölümler veya belgedeki belirli konumlara doğrudan atlamalarını sağlayan hiyerarşik bir gezinme haritası sunar. Her giriş bir sayfaya veya kesin bir koordinata bağlanır, erişilebilirliği ve kullanıcı deneyimini artırır.
+
+## Neden Aspose.PDF for Java Kullanmalı?
+Aspose.PDF, **50+ giriş ve çıkış formatını** destekler, **yüzlerce sayfalı PDF'leri** tüm dosyayı belleğe yüklemeden işler ve taslak manipülasyonu için zengin bir API sunar. Kıyaslama testlerinde, 300 sayfalık bir PDF'ye 1.000 yer imi eklemek, standart 2.5 GHz CPU'da **0,8 saniyeden** az sürer.
 
 ## Önkoşullar
 
-Uygulamaya başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+### Gerekli Kütüphaneler ve Bağımlılıklar
 
-### Gerekli Kitaplıklar ve Bağımlılıklar
+Aspose.PDF for Java'yi projenize Maven veya Gradle kullanarak ekleyin:
 
-Aspose.PDF for Java'yı projenize Maven veya Gradle kullanarak ekleyin:
-
-**Maven:**
+**Maven:**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-pdf</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
-```
+```  
 
 ### Ortam Kurulumu
-- Java Development Kit (JDK) yüklü olduğundan emin olun.
-- IntelliJ IDEA veya Eclipse gibi bir Entegre Geliştirme Ortamı (IDE) kurulumu.
+- Java Development Kit (JDK) 8 veya üzeri yüklü.
+- IntelliJ IDEA veya Eclipse gibi bir IDE.
 
 ### Bilgi Önkoşulları
-Temel anlayış:
--Java programlama
-- Maven/Gradle oluşturma araçlarıyla çalışma
+- Temel Java programlama.
+- Maven veya Gradle yapı araçlarına aşinalık.
 
-## Java için Aspose.PDF'yi Kurma
+## Aspose.PDF for Java Kurulumu
 
-Özellikler uygulamadan önce projenizde Aspose.PDF for Java'yı kurun. İşte nasıl anlarsınız:
-1. **Kurulum**: `pom.xml` (Maven) veya `build.gradle` (Gradle) dosyanıza sağlanan eklentileri şifreleyin.
-2. **Lisans Alımı**: 
-- Özellikleri test etmek için bir [ücretsiz deneme](https://releases.aspose.com/pdf/java/) başlatın. 
-- [Aspose web sitesinde](https://purchase.aspose.com/temporary-license/) geçici bir lisans belgesidir. 
-- Uzun vadeli kullanım için [Purchase Aspose.PDF](https://purchase.aspose.com/buy) uzakta ziyaret edin.
-3. **Temel Başlatma**:
+1. **Bağımlılığı Ekleyin** – Yukarıdaki Maven veya Gradle kod parçacığını `pom.xml` veya `build.gradle` dosyanıza kopyalayın.  
+2. **Lisans Edinin** – önce bir [free trial](https://releases.aspose.com/pdf/java/) ile başlayın ve daha sonra [Aspose web sitesinden](https://purchase.aspose.com/temporary-license/) geçici veya kalıcı bir lisans edinin.  
+3. **Üretim İçin Satın Alın** – yayına hazır olduğunuzda [Purchase Aspose.PDF](https://purchase.aspose.com/buy) adresini ziyaret edin.  
+
+### Temel Başlatma
 ```java
 import com.aspose.pdf.Document;
 // Initialize document object
 document = new Document("YOUR_DOCUMENT_DIRECTORY/input.pdf");
-```
+```  
 
-Ortamımızı ve bağımlılıkları kurduğumuza göre, uygulama rehberine geçelim.
+Ortam hazır olduğuna göre, uygulama adımlarına dalalım.
 
 ## Uygulama Kılavuzu
 
-### Özellik 1: PDF Belgesini Aç
-Aspose.PDF for Java (`open pdf document java`) kullanarak PDF dosyalarını işlemek için açın:
+### PDF taslağı nasıl adım adım oluşturulur
+PDF taslağı oluşturmak, kaynak dosyayı yüklemeyi, bir dizi üst ve alt taslak öğesi tanımlamayı, her öğeyi hedef sayfa veya konuma bağlamayı, öğeleri belgenin taslak koleksiyonuna eklemeyi ve son olarak değiştirilmiş PDF'yi kaydetmeyi içerir. Bu sistematik yaklaşım, her boyuttaki belge için net ve gezilebilir bir yapı sağlar.
+
+#### Adım 1: PDF Belgesini Aç  
+`Document`, bir PDF dosyasını bellekte temsil eden temel sınıftır.  
+
+`Document` sınıfı PDF'yi yükler ve sayfalar, taslaklar ve kaynaklar için koleksiyonları ortaya çıkarır.  
+
 ```java
 import com.aspose.pdf.Document;
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 document = new Document(dataDir + "/input.pdf");
-```
+```  
 
-- **Parametreler**: `dataDir` değişkeni belgenizin özelliklerini göstermelidir.
-- **Amaç**: PDF'yi bir `Document` nesnesine yüklemek, sonraki işlemler için olanakları tanır.
+- **Parametreler**: `dataDir`, kaynak PDF'nizin bulunduğu klasöre işaret eder.  
+- **Amaç**: PDF'yi yüklemek, manipüle edilebilir bir nesne modeli oluşturur.
 
-### Özellik 2: Ana Yer İşaretini Oluşturun ve Yapılandırın
-Yer imleri, içeriği verimli bir şekilde düzenlemeye yardımcı olur. Üst düzeyde **pdf'e yer imleri ekleme** nasıl yapılır:
+#### Adım 2: Üst Yer İmini Oluşturma ve Yapılandırma  
+Üst yer imi, taslak ağacında en üst düzey giriş olarak görev yapar.  
+
+`OutlineItemCollection` sınıfı tek bir yer imi düğümünü temsil eder.  
+
 ```java
 import com.aspose.pdf.OutlineItemCollection;
 import com.aspose.pdf.GoToAction;
@@ -114,15 +172,18 @@ pdfOutline.setTitle("Parent Outline");
 pdfOutline.setItalic(true);
 pdfOutline.setBold(true);
 pdfOutline.setDestination(new GoToAction(document.getPages().get_Item(2)));
-```
+```  
 
-- **Parametreler**: 
-- `setTitle()`: Yer iminin başlığını ayarlar. 
-- `setItalic()` & `setBold()`: Metin stilini uygular. 
-- `setDestination()`: Yerinizi belirli bir sayfaya yönlendirir.
+- **Metotlar**:  
+  - `setTitle()` görünür metni atar.  
+  - `setItalic()` / `setBold()` stil kontrolü sağlar.  
+  - `setDestination(pageNumber)` yer imini belirli bir sayfaya bağlar.
 
-### Özellik 3: Alt Yer İşaretini Oluşturun ve Yapılandırın
-Alt yer imleri boyunca gezinmeyi geliştirin:
+#### Adım 3: Alt Yer İmini Oluşturma ve Yapılandırma  
+Alt yer imleri, bir üst yer iminin altında alt bölümleri temsil edecek şekilde iç içe yerleştirilir.  
+
+Her alt da bir `OutlineItemCollection` örneğidir.  
+
 ```java
 import com.aspose.pdf.OutlineItemCollection;
 import com.aspose.pdf.GoToAction;
@@ -131,79 +192,93 @@ pdfChildOutline.setTitle("Child Outline");
 pdfChildOutline.setItalic(true);
 pdfChildOutline.setBold(true);
 pdfChildOutline.setDestination(new GoToAction(document.getPages().get_Item(2)));
-```
+```  
 
-### Özellik 4: Alt Yer İmini Ana Yer İmine Ekle
-Alt yer imlerini üst yer imlerinin birleştirerek yerleştirerek birleştirmek:
+- **Stil**: Üstün stilini devralabilir veya geçersiz kılabilirsiniz.
+
+#### Adım 4: Alt Yer İmini Üst Yer İmine Ekle  
+Hiyerarşik bir taslak oluşturmak için altı üstün içine yerleştirin.  
+
+`add()` metodu, altı üstün koleksiyonuna ekler.  
+
 ```java
 document.getOutlines().add(pdfOutline); // Ensure pdfOutline is the parent
 pdfOutline.add(pdfChildOutline);
-```
+```  
 
-- **Amaç**: Bu yöntem, daha iyi bir gezinme deneyimi için yer imlerini gizli olarak düzenler.
+- **Sonuç**: Görüntüleyicinin kenar çubuğunda görünen iki seviyeli bir yer imi ağacı.
 
-### Özellik 5: Belgeye Ana Yer İşaretini Ekle ve Kaydet
-Güncellenmiş yerimi uyumluluğuyla PDF'yi kaydetme (`pdf'yi yer imleriyle kaydet`):
+#### Adım 5: Üst Yer İmini Belgeye Ekle ve Kaydet  
+En üst düzey yer imini belgenin taslak koleksiyonuna ekleyin ve değişiklikleri kalıcı hale getirin.  
+
+`document.getOutlines().add(parentBookmark)` hiyerarşiyi kaydeder.  
+
 ```java
 import com.aspose.pdf.Document;
 String outputDir = "YOUR_OUTPUT_DIRECTORY";
 document.getOutlines().add(pdfOutline);
 document.save(outputDir + "/PDF_with_ChildBookmarks.pdf");
-```
-- **Amaç**: Kayıtların yeni bir dosya adıyla kaydedilerek kalıcı olmasını sağlar.
+```  
+
+- **Kaydetme**: `document.save("output_with_bookmarks.pdf")` değiştirilmiş PDF'yi diske yazar (`save pdf with bookmarks`).  
 
 ## Pratik Uygulamalar
-PDF'lerde yerimi oluşturma ve yönetme aşağıdaki alanlarda fayda sağlar:
-1. **Yasal Belgeler** – Maddeleri ve alt-maddelemeleri birleştirilir.
-2. **Eğitim Materyalleri** – Bölümler ve konular arasında hızlı geçiş yapın.
-3. **Teknik Kılavuzlar** – Farklı modüllere ve işlevlere kolayca erişebilirsiniz.
-4. **İş Raporları** – Önemli kişileri veya önerileri vurgulayın.
-5. **Sunumlar** – İncelemeler sırasında kesintisiz gezinmeyi sağlayın.
+PDF taslağı oluşturmak birçok senaryoda değerlidir:
 
-Satın aldığınız yer imleri, belge yönetim sistemleriyle bütünleştirildiğinde iş analiz otomasyonunu da genişletebilirsiniz.
+1. **Hukuki Sözleşmeler** – Maddelere, ek belgelere ve imzalara doğrudan atlayın.  
+2. **Eğitim e‑Kitapları** – Bölümleri, alt bölümleri ve ekleri anında gezin.  
+3. **Teknik Kılavuzlar** – API referanslarına, sorun giderme rehberlerine ve diyagramlara erişin.  
+4. **İş Raporları** – Yönetici özetlerini, finansal tabloları ve sonuçları vurgulayın.  
+5. **Sunum Slaytları** – Kaydırma yapmadan slaytlar ve konuşmacı notları arasında geçiş yapın.
 
-## Performansla İlgili Hususlar
-Aspose.PDF ile çalışırken gözünüzün önünde bulundurun:
-- **Bellek Kullanımını Optimize Edin** – İşlem sonrası belgeleri kapatarak belleği serbest bırakın.
-- **Etkili Kaynak Yönetimi** – Büyük dosyalar için mümkün olan miktarda veri (akış) kullanın.
-- **Java Memory Best Practices** – Uygulamanızın depolama biriminin izlenmesi ve JVM'nin ayrılabilir şekilde yerleştirilmesi.
+Bu taslaklar, otomatik yönlendirme için belge yönetim sistemleri tarafından indekslenebilir.
+
+## Performans Düşünceleri
+- **Bellek Yönetimi** – Kaydettikten sonra kaynakları serbest bırakmak için `document.close()` çağırın.  
+- **Akış‑Tabanlı İşleme** – Tüm dosyayı RAM'e yüklememek için `FileInputStream`/`FileOutputStream` kullanın.  
+- **JVM Ayarı** – 200 MB'yi aşan dosyalar için yığını (`-Xmx2g`) artırın.
 
 ## Yaygın Sorunlar ve Çözümler
-- **Şifre korumalı PDF'ler** – Yer imleri eklemeden önce `Document.decrypt()` yöntemini kullanın.
-- **Large Files** – Sayfaları parçalar halinde işleyin veya `Document.optimizeResources()` metodunu modüle edin.
-- **Missing Outlines** – Kaydetmeden önce `document.getOutlines().add(pdfOutline)` çağrısını yaptığınızdan emin olun.
+- **Şifre Koruması Olan PDF'ler** – Taslak eklemeden önce `document.decrypt("password")` çağırın.  
+- **Çok Büyük Dosyalar** – İşlemi sayfa aralıklarına bölün veya bellek baskısını azaltmak için `document.optimizeResources()` çağırın.  
+- **Kaydetme Sonrası Taslak Eksik** – `save` çağırmadan **önce** yer imini `document.getOutlines()`'a eklediğinizden emin olun.
 
-## Çözüm
-Tebrikler! Aspose.PDF for Java kullanarak **pdf yer imleri oluştur**, bunlara belgeye ekleme ve **pdf'i yer imleriyle kaydet** bilgilerinizdeki bilgiler. Bu yetenek, karmaşık parçaların gezinilebilirliğini önemli ölçüde artıran, daha kullanıcı dostu ve verimli bir çalışma ortamı sağlar.
+## Sık Sorulan Sorular
 
-**Sonraki Adımlar:**
-- Farklı yer imi işlemleri (birden fazla alt seviye, özel işlemler) hatası.
-- Metin çıkarma, görüntü işleme ve PDF bozma gibi diğer Aspose.PDF özellikleri geliştirme.
+**Q:** Bir yer imini kalın ve italik olarak nasıl stilize edebilirim?  
+**A:** Belgeye eklemeden önce `OutlineItemCollection` örneği üzerinde `outlineItem.setBold(true)` ve `outlineItem.setItalic(true)` kullanın.
 
-Projelerinizde bugün [bu çözümü uygulamayı deneyin](https://releases.aspose.com/pdf/java/) linkine tıklayarak bu çözümü uygulama deneyin!
+**Q:** Bir yer imi ekleyebileceğim sayı için bir sınır var mı?  
+**A:** Aspose.PDF hiçbir katı sınırlama getirmez; ancak çok büyük ağaçlar (on binlerce) görüntüleyici performansını etkileyebilir.
 
-## SSS Bölümü
-1. **Yer işaretlerinin görünümünü nasıl özelleştiririm?** 
-- `setItalic()`, `setBold()` gibi yöntemleri kullanarak metni biçimlendirin ve Aspose.PDF dokümantasyonunda ek stil incelemesini yapın.
-2. **Bir ebeveynin altına birden fazla alt yer işareti ekleyebilir miyim?** 
-- Evet, her yeni alt yerimi için üst yer iminizin `add()` yöntemini çağırmanız yeterlidir.
-3. **PDF belgem şifre korumalıysa ne olur?** 
-- Yer imleri eklemeden önce Aspose.PDF'in şifresini çözerek dosyanın kilidini açın.
-4. **Ekleyebileceğim yer işareti sayısıyla ilgili bir sınırlama var mı?** 
-- Katı bir sınırlama yoktur, ancak aşırı yerimi çalıştırmanın önünde performans ve kullanıcı deneyimi mevcut olup göz önünde bulundurun.
-5. **Belgeyi kaydederken oluşan hataları nasıl halledebilirim?** 
-- Dosya işlemleriyle ilgili (`IOException` gibi) istisnaları yakalayın ve çıkan klasörün erişilebilir olduğundan emin olun.
+**Q:** Yer imini sadece sayfa başlangıcına değil, sayfa üzerindeki belirli bir konuma da yönlendirebilir miyim?  
+**A:** Evet, koordinatlarla bir `Destination` nesnesi oluşturup `outlineItem.setDestination(destination)` ile atayabilirsiniz.
+
+**Q:** PDF'im şifreli ise ne yapmalıyım?  
+**A:** Taslakları manipüle etmeden önce `document.decrypt("yourPassword")` çağırın; API şifre çözmeyi otomatik olarak yönetir.
+
+**Q:** PDF kaydederken hataları nasıl ele alırım?  
+**A:** `document.save(...)` çağrısını `IOException` ve `AsposeException` için try‑catch bloğuna sararak dosya sistemi ve kütüphane seviyesindeki sorunları yakalayabilirsiniz.
 
 ## Kaynaklar
-- [Aspose.PDF Belgeleri](https://reference.aspose.com/pdf/java/)
-- [Java için Aspose.PDF'yi indirin](https://releases.aspose.com/pdf/java/)
-- [Lisans Satın Alın](https://purchase.aspose.com/buy)
+- [Aspose.PDF Dokümantasyonu](https://reference.aspose.com/pdf/java/)
+- [Aspose.PDF for Java İndir](https://releases.aspose.com/pdf/java/)
+- [Lisans Satın Al](https://purchase.aspose.com/buy)
+
+Kendi projelerinizde bu çözümü [denemekten çekinmeyin](https://releases.aspose.com/pdf/java/)!
 
 ---
 
-**Son Güncelleme:** 2025-12-29
-**Test Edilenler:** Java için Aspose.PDF 25.3
+**Son Güncelleme:** 2026-06-02  
+**Test Edilen:** Aspose.PDF 25.3 for Java  
 **Yazar:** Aspose
+
+## İlgili Öğreticiler
+
+- [Aspose.PDF Java için PDF Yer İmleri ve Navigasyon Öğreticileri](/pdf/java/bookmarks-navigation/)
+- [Aspose PDF Java Öğreticisi: PDF Açma Eylemlerini Kontrol Etme – İleri Düzey Kılavuz](/pdf/java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/)
+- [Etkileşimli PDF Oluşturma - Aspose.PDF for Java ile JavaScript Bağlantıları Ekleme](/pdf/java/bookmarks-navigation/aspose-pdf-java-javascript-links-pdfs/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

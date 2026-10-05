@@ -12,7 +12,6 @@ url: /sv/java/advanced-features/validate-pdf-accessibility-aspose-java/
 weight: 1
 ---
 
-.
 
 {{< blocks/products/pf/main-wrap-class >}}
 

@@ -19,9 +19,13 @@ De Aspose.PDF voor .NET-tutorials leren je stap voor stap programmeren met koppe
 Ontdek de functies van Aspose.PDF voor .NET met speciale tutorials. Leer hoe u met koppen in uw PDF-documenten werkt, met behulp van praktische voorbeelden en stapsgewijze uitleg. Verbeter de leesbaarheid en navigatie van uw PDF-bestanden met deze uitgebreide bronnen.
 
 ## Zelfstudies
+
+{{< tutorial-card link="./add-heading/" title="Kop, taal en titel toevoegen aan een PDF met Aspose.PDF for .NET" imgSrc="./add-heading/images/thumb.png" >}}
+
 | Titel | Beschrijving |
 | --- | --- | 
 | [Nummerstijl toepassen in PDF-bestand](./apply-number-style/) | Leer hoe u verschillende nummerstijlen (Romeinse cijfers, alfabetisch) kunt toepassen op koppen in een PDF met Aspose.PDF voor .NET met behulp van deze stapsgewijze handleiding. |   
+| [Kop toevoegen aan PDF met Aspose – Complete C#-gids](./add-heading-to-pdf-with-aspose-complete-c-guide/) | Leer stap voor stap hoe u met Aspose.PDF voor .NET een kop aan een PDF toevoegt met C#. |   
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

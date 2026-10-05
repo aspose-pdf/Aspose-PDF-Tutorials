@@ -1,14 +1,58 @@
 ---
-date: '2025-12-18'
-description: Узнайте, как создавать интерактивные PDF‑документы, добавляя ссылки JavaScript
-  с помощью Aspose.PDF для Java. Следуйте этому пошаговому руководству, чтобы привязать
-  PDF, добавить JavaScript и сохранить PDF с JavaScript.
+date: '2026-05-28'
+description: Узнайте, как создавать интерактивные PDF и добавлять JavaScript в PDF
+  с помощью Aspose.PDF for Java. Пошаговое руководство показывает привязку, скриптинг
+  и сохранение PDF.
 keywords:
-- Add JavaScript Links to PDFs
-- Aspose.PDF for Java
-- Interactive PDF Documents
-title: 'Создание интерактивного PDF - добавление JavaScript‑ссылок с помощью Aspose.PDF
-  для Java'
+- create interactive pdf
+- add javascript to pdf
+- optimize pdf size
+- clickable pdf links
+- aspose pdf maven
+schemas:
+- author: Aspose
+  dateModified: '2026-05-28'
+  description: Learn how to create interactive pdf and add javascript to pdf with
+    Aspose.PDF for Java. Step‑by‑step guide shows binding, scripting and saving PDFs.
+  headline: Create Interactive PDF - Add JavaScript Links Using Aspose.PDF for Java
+  type: TechArticle
+- description: Learn how to create interactive pdf and add javascript to pdf with
+    Aspose.PDF for Java. Step‑by‑step guide shows binding, scripting and saving PDFs.
+  name: Create Interactive PDF - Add JavaScript Links Using Aspose.PDF for Java
+  steps:
+  - name: Create and Bind a PDF Document
+    text: 'The `PdfContentEditor` class is Aspose.PDF''s editor that lets you modify
+      existing PDFs. `PdfContentEditor` is Aspose.PDF''s top‑level object for editing
+      pages, annotations, and JavaScript actions. First, create an instance and bind
+      it to the file you want to enhance: **Explanation:** `bindPdf` attach'
+  - name: Define a JavaScript Link
+    text: 'The `Rectangle` class describes the clickable area on the page, while `Color`
+      sets its visual style. `Rectangle` defines the coordinates of a clickable region;
+      `Color` specifies its border and fill color. Next, create a rectangle, set its
+      appearance, and attach a JavaScript snippet: **Key Points:** '
+  - name: Save the Updated PDF
+    text: 'The `save` method writes the modified document back to disk, preserving
+      the embedded script. `save` finalizes all changes and writes a new PDF file
+      that contains the JavaScript link. Call it to generate the interactive output:
+      **Explanation:** The `save` method creates a new PDF that contains the Ja'
+  type: HowTo
+- questions:
+  - answer: It means adding elements such as JavaScript links that respond to user
+      clicks.
+    question: What does “create interactive pdf” mean?
+  - answer: Aspose.PDF for Java offers a straightforward API for JavaScript links.
+    question: Which library is best for this task?
+  - answer: A temporary or purchased license removes evaluation limits and enables
+      full functionality.
+    question: Do I need a license?
+  - answer: Yes—use `PdfContentEditor.bindPdf` to attach to any existing file.
+    question: Can I bind an existing PDF?
+  - answer: Keep JavaScript concise and avoid large embedded assets to **optimize
+      pdf size**.
+    question: Will the PDF size increase a lot?
+  type: FAQPage
+title: Создание интерактивного PDF - Добавление JavaScript ссылок с использованием
+  Aspose.PDF for Java
 url: /ru/java/bookmarks-navigation/aspose-pdf-java-javascript-links-pdfs/
 weight: 1
 ---
@@ -18,30 +62,28 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Как добавить интерактивные ссылки JavaScript в PDF с помощью Aspose.PDF for Java
+# Как добавить интерактивные ссылки JavaScript в PDF с помощью Aspose.PDF для Java
 
 ## Введение
 
-В этом руководстве вы узнаете, как **создавать интерактивные PDF** документы, встраивая ссылки JavaScript с помощью Aspose.PDF for Java. Повышение интерактивности PDF‑файлов может значительно улучшить вовлечённость пользователей, особенно при навигации по сложным отчётам или электронным книгам. Этот учебник покажет, как использовать Aspose.PDF for Java — надёжную библиотеку — для добавления кликабельных ссылок JavaScript в ваши PDF‑файлы, превращая их в динамичные и интерактивные ресурсы.
+В этом руководстве вы узнаете, как **создавать интерактивные PDF** документы, внедряя ссылки JavaScript с помощью Aspose.PDF для Java. Добавление JavaScript позволяет превратить статический PDF в динамический, кликабельный опыт — идеально подходит для отчетов, электронных книг или цифровых форм, которым нужны мгновенные вычисления или навигация. Мы пройдем каждый шаг, от настройки библиотеки до привязки PDF, определения действия JavaScript и сохранения окончательного интерактивного файла.
 
 ## Быстрые ответы
-- **Что означает «создавать интерактивный PDF»?** Это добавление элементов, таких как ссылки JavaScript, которые реагируют на действия пользователя.  
-- **Какая библиотека лучше всего подходит для этой задачи?** Aspose.PDF for Java предоставляет простой API для ссылок JavaScript.  
-- **Нужна ли лицензия?** Временная или приобретённая лицензия снимает ограничения оценки.  
-- **Можно ли привязать существующий PDF?** Да — используйте `PdfContentEditor.bindPdf`, чтобы привязать к существующему файлу.  
-- **Увеличится ли размер PDF сильно?** Держите JavaScript лаконичным и избегайте больших изображений, чтобы **оптимизировать размер PDF JavaScript**.
+- **Что означает «создавать интерактивные PDF»?** Это добавление элементов, таких как ссылки JavaScript, которые реагируют на клики пользователя.  
+- **Какая библиотека лучше всего подходит для этой задачи?** Aspose.PDF для Java предлагает простой API для ссылок JavaScript.  
+- **Нужна ли лицензия?** Временная или приобретённая лицензия снимает ограничения оценки и включает полную функциональность.  
+- **Можно ли привязать существующий PDF?** Да — используйте `PdfContentEditor.bindPdf`, чтобы привязать к любому существующему файлу.  
+- **Увеличится ли размер PDF значительно?** Держите JavaScript лаконичным и избегайте больших встроенных ресурсов, чтобы **оптимизировать размер PDF**.
 
-## Предварительные требования
+## Требования
 
-Перед началом убедитесь, что у вас есть:
+- **Библиотеки и зависимости:** Aspose.PDF для Java (доступен через Maven или Gradle).  
+- **Настройка окружения:** Java 8 или выше, IDE или система сборки по вашему выбору.  
+- **Базовые знания:** Знание синтаксиса Java и концепций PDF полезно, но все шаги полностью объяснены.
 
-- **Библиотеки и зависимости:** Требуется Aspose.PDF for Java. Настройте Maven или Gradle для управления зависимостями.  
-- **Настройка окружения:** Рекомендуется базовое понимание Java и концепций работы с PDF.  
-- **Требования к знаниям:** Знакомство с программированием на Java, например, объектно‑ориентированными принципами, будет полезным, но не обязательным.
+## Настройка Aspose.PDF для Java
 
-## Настройка Aspose.PDF for Java
-
-Чтобы использовать Aspose.PDF в вашем проекте, подключите библиотеку через Maven или Gradle:
+Чтобы добавить Aspose.PDF в ваш проект, добавьте зависимость с помощью Maven или Gradle.
 
 ### Maven
 Добавьте эту зависимость в ваш файл `pom.xml`:
@@ -59,12 +101,12 @@ weight: 1
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-**Получение лицензии:** Чтобы полностью использовать Aspose.PDF, рассмотрите возможность получения временной лицензии или её покупки, чтобы снять ограничения оценки.  
+**Получение лицензии:** Временная или приобретённая лицензия снимает ограничения оценки.  
 - [Бесплатная пробная версия](https://releases.aspose.com/pdf/java/)  
 - [Временная лицензия](https://purchase.aspose.com/temporary-license/)  
-- [Купить](https://purchase.aspose.com/buy)
+- [Приобрести](https://purchase.aspose.com/buy)
 
-**Базовая инициализация:** После установки инициализируйте Aspose.PDF в вашей Java‑среде:
+**Базовая инициализация:** После того как библиотека находится в classpath, вы можете начать её использовать:
 ```java
 import com.aspose.pdf.*;
 
@@ -73,13 +115,15 @@ License license = new License();
 license.setLicense("path/to/your/license/file.lic");
 ```
 
-## Как создать интерактивный PDF со ссылками JavaScript
+## Как создать интерактивный PDF с JavaScript‑ссылками
 
-После завершения настройки пройдём по точным шагам, необходимым для **создания интерактивных PDF** файлов, содержащих действия JavaScript.
+Загрузите ваш исходный PDF, определите прямоугольник с поддержкой JavaScript и сохраните результат — три простых шага, которые превращают любой PDF в кликабельный документ, управляемый скриптом. Этот подход работает как с одностраничными PDF, так и с многостраничными отчетами, а сгенерированный JavaScript работает в любом PDF‑просмотрщике, поддерживающем скрипты.
 
-### Шаг 1: Создание и привязка PDF‑документа
+### Шаг 1: Создать и привязать PDF‑документ
 
-Сначала создайте экземпляр `PdfContentEditor` и привяжите его к PDF, который хотите улучшить:
+Класс `PdfContentEditor` — это редактор Aspose.PDF, позволяющий изменять существующие PDF.  
+`PdfContentEditor` является верхнеуровневым объектом Aspose.PDF для редактирования страниц, аннотаций и действий JavaScript.  
+Сначала создайте экземпляр и привяжите его к файлу, который хотите улучшить:
 ```java
 import com.aspose.pdf.facades.PdfContentEditor;
 
@@ -89,11 +133,13 @@ PdfContentEditor editor = new PdfContentEditor();
 // Bind the editor to an existing PDF document
 editor.bindPdf("YOUR_DOCUMENT_DIRECTORY/input.pdf");
 ```
-**Объяснение:** `bindPdf` привязывает редактор к вашему исходному PDF, позволяя изменять его страницы, добавлять аннотации и **привязывать PDF Java** объекты.
+**Объяснение:** `bindPdf` привязывает редактор к вашему исходному PDF, позволяя модифицировать страницы, вставлять аннотации и привязывать JavaScript.
 
-### Шаг 2: Определение ссылки JavaScript
+### Шаг 2: Определить JavaScript‑ссылку
 
-Далее определите кликабельный прямоугольник и свяжите его с фрагментом JavaScript. Это основа **как добавить JavaScript** в PDF:
+Класс `Rectangle` описывает кликабельную область на странице, а `Color` задает её визуальный стиль.  
+`Rectangle` определяет координаты кликабельного региона; `Color` задает цвет границы и заливки.  
+Далее создайте прямоугольник, задайте его внешний вид и прикрепите фрагмент JavaScript:
 ```java
 import java.awt.Rectangle;
 import java.awt.Color;
@@ -112,71 +158,90 @@ editor.createJavaScriptLink(code, rect, 1, linkColor);
 ```
 **Ключевые моменты:**  
 - `Rectangle` определяет кликабельную область.  
-- `Color` задаёт визуальный вид ссылки.  
+- `Color` задает визуальный вид ссылки.  
 - `createJavaScriptLink` привязывает код JavaScript к определённому прямоугольнику на выбранной странице.
 
-### Шаг 3: Сохранение обновлённого PDF
+### Шаг 3: Сохранить обновлённый PDF
 
-Наконец, запишите изменения обратно на диск. Этот шаг **сохраняет PDF с JavaScript**, чтобы интерактивность сохранялась:
+Метод `save` записывает изменённый документ обратно на диск, сохраняя встроенный скрипт.  
+`save` завершает все изменения и записывает новый PDF‑файл, содержащий ссылку JavaScript.  
+Вызовите его, чтобы создать интерактивный результат:
 ```java
 // Save changes to a new PDF file
 editor.save("YOUR_OUTPUT_DIRECTORY/JavaScriptAdded_output.pdf");
 ```
 **Объяснение:** Метод `save` создаёт новый PDF, содержащий только что определённую ссылку JavaScript.
 
+## Зачем добавлять JavaScript‑ссылки в PDF?
+
+JavaScript‑ссылки превращают статический PDF в интерактивный документ, позволяя выполнять действия такие как навигация, вычисления или оповещения, не покидая файл. Встраивая скрипты, вы можете создавать динамические отчёты, учебные материалы или формы, реагирующие на клики пользователя, повышая удобство и вовлечённость в PDF‑просмотрщиках, поддерживающих скрипты.
+
+- Запускать вычисления или поиск данных без выхода из документа.  
+- Мгновенно переходить к внешним URL или внутренним разделам.  
+- Отображать пользовательские оповещения, всплывающие окна или проверки форм непосредственно в PDF.
+
 ## Практические применения
 
-1. **Интерактивные отчёты:** Улучшайте бизнес‑отчёты кликабельными инсайтами, которые раскрывают расчёты или детализированные данные.  
-2. **Обучающие материалы:** Создавайте образовательные PDF, где студенты могут кликать по темам для получения дополнительных объяснений или внешних ресурсов.  
-3. **Цифровые формы:** Встраивайте действия, такие как подтверждения отправки или проверки полей, непосредственно в PDF.
+1. **Интерактивные отчёты:** Встраивайте кликабельные диаграммы, которые раскрывают исходные данные или детализированные таблицы при нажатии на столбец.  
+2. **Учебные материалы:** Предоставляйте ссылки «Узнать больше», открывающие дополнительные видео или внешние ресурсы.  
+3. **Цифровые формы:** Добавляйте кнопки отправки или сброса, которые запускают скрипты проверки перед отправкой данных на сервер.
 
 ## Соображения по производительности
 
-- **Оптимизировать размер PDF JavaScript:** Держите JavaScript лаконичным и избегайте встраивания больших ресурсов, чтобы поддерживать разумный размер файла.  
-- **Управление памятью Java:** Следите за использованием памяти, особенно при обработке больших PDF, чтобы предотвратить утечки.
+- **Оптимизировать размер PDF:** Держите JavaScript лаконичным (менее 1 KB) и избегайте встраивания больших изображений в скрипт.  
+- **Управление памятью Java:** Для PDF более 200 страниц рассмотрите вызов `PdfContentEditor.optimizeResources()` перед сохранением, чтобы освободить память.  
+- **Потокобезопасность:** Экземпляры `PdfContentEditor` не являются потокобезопасными; создавайте новый экземпляр для каждого потока при пакетной обработке.
 
 ## Заключение
 
-Следуя этому учебнику, вы теперь знаете, как **создавать интерактивные PDF** документы с помощью Aspose.PDF for Java. Экспериментируйте с различными действиями JavaScript, чтобы адаптировать пользовательский опыт, и изучайте дополнительные возможности Aspose.PDF, такие как работа с формами, водяные знаки и объединение документов.
+Следуя этому руководству, вы теперь знаете, как **создавать интерактивные PDF** документы с помощью Aspose.PDF для Java. Экспериментируйте с различными действиями JavaScript — оповещениями, вычислениями или навигацией — чтобы адаптировать пользовательский опыт. Далее изучайте связанные возможности, такие как работа с полями форм, добавление водяных знаков или пакетная обработка, чтобы построить полноценный конвейер автоматизации PDF.
 
-Готовы пойти дальше? Рассмотрите возможность интеграции этих интерактивных PDF в веб‑приложения или автоматизации обработки множества файлов в пакетных заданиях!
+Готовы пойти дальше? Интегрируйте эти интерактивные PDF в веб‑порталы, автоматизируйте генерацию тысяч отчётов или комбинируйте с возможностями объединения документов Aspose.PDF для ещё более мощных решений.
 
-## Раздел FAQ
+## Раздел часто задаваемых вопросов
 
-1. **Что такое Aspose.PDF for Java?**  
-   - Библиотека, позволяющая создавать, изменять и взаимодействовать с PDF‑документами с помощью Java.  
+1. **Что такое Aspose.PDF для Java?**  
+   - Aspose.PDF для Java — это комплексная библиотека, позволяющая создавать, изменять и взаимодействовать с PDF‑документами с помощью кода на Java.
 
 2. **Можно ли использовать Aspose.PDF без покупки лицензии?**  
-   - Да, но он будет работать в режиме оценки с определёнными ограничениями.  
+   - Да, бесплатная пробная версия работает в режиме оценки, но добавляет водяной знак и ограничивает некоторые функции.
 
 3. **Как добавить несколько действий JavaScript на одну страницу PDF?**  
-   - Создайте отдельные объекты `Rectangle` и вызовите `createJavaScriptLink` для каждого действия.  
+   - Создайте отдельные объекты `Rectangle` для каждой области и вызовите `createJavaScriptLink` для каждого прямоугольника.
 
-4. **Какие распространённые проблемы возникают при использовании Aspose.PDF?**  
-   - Могут возникать утечки памяти или проблемы с размером файла, если не управлять ресурсами должным образом — обеспечьте эффективную обработку ресурсов.  
+4. **Какие распространённые проблемы при использовании Aspose.PDF?**  
+   - Большие PDF могут потреблять много памяти; используйте `optimizeResources()` и держите JavaScript коротким, чтобы избежать разрастания размера файла.
 
-5. **Где можно найти более продвинутые примеры использования Aspose.PDF?**  
-   - [Документация Aspose](https://reference.aspose.com/pdf/java/) предоставляет полные руководства и примеры кода.
+5. **Где можно найти более продвинутые примеры Aspose.PDF?**  
+   - Официальная документация и примеры кода предоставляют более глубокие сведения о работе с формами, цифровыми подписями и конвертации в PDF/A.
 
 ## Ресурсы
 
-- **Документация:** [Aspose PDF Java Reference](https://reference.aspose.com/pdf/java/)  
-- **Скачать:** [Aspose PDF Releases](https://releases.aspose.com/pdf/java/)  
-- **Покупка:** [Buy Aspose License](https://purchase.aspose.com/buy)  
-- **Бесплатная проба:** [Try Aspose Free](https://releases.aspose.com/pdf/java/)  
-- **Временная лицензия:** [Get a Temporary License](https://purchase.aspose.com/temporary-license/)  
-- **Поддержка:** [Aspose Forum](https://forum.aspose.com/c/pdf/10)
+- **Документация:** [Документация Aspose](https://reference.aspose.com/pdf/java/)  
+- **Справочник:** [Справочник Aspose PDF Java](https://reference.aspose.com/pdf/java/)  
+- **Скачать:** [Выпуски Aspose PDF](https://releases.aspose.com/pdf/java/)  
+- **Приобрести:** [Купить лицензию Aspose](https://purchase.aspose.com/buy)  
+- **Бесплатная пробная версия:** [Попробовать Aspose бесплатно](https://releases.aspose.com/pdf/java/)  
+- **Временная лицензия:** [Получить временную лицензию](https://purchase.aspose.com/temporary-license/)  
+- **Поддержка:** [Форум Aspose](https://forum.aspose.com/c/pdf/10)
 
 ---
 
-**Последнее обновление:** 2025-12-18  
+**Последнее обновление:** 2026-05-28  
 **Тестировано с:** Aspose.PDF 25.3 for Java  
-**Автор:** Aspose  
+**Автор:** Aspose
+
+## Связанные руководства
+
+- [Мастер интеграции JavaScript в PDF с Aspose.PDF для Java: Полное руководство](/pdf/java/forms-annotations/master-javascript-integration-aspose-pdf-java/)
+- [Создание интерактивных PDF‑форм с Aspose.PDF Java: Полное руководство](/pdf/java/forms-annotations/interactive-pdf-forms-asposepdf-java/)
+- [Как создать закладки PDF и управлять навигацией с помощью Aspose.PDF для Java](/pdf/java/bookmarks-navigation/create-manage-pdf-bookmarks-aspose-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
