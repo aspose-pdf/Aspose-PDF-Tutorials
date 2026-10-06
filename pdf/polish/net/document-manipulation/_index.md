@@ -342,9 +342,6 @@ Dowiedz się, jak usuwać wrażliwe informacje z dokumentów PDF przy użyciu As
 
 ### [Jak usunąć osadzone czcionki PDF – przewodnik krok po kroku w C#](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
 Dowiedz się, jak usunąć osadzone czcionki z plików PDF przy użyciu Aspose.PDF dla .NET w języku C#.
-### [Spłaszczanie warstw PDF w C# – Przewodnik eksportu i wyodrębniania](./flatten-pdf-layers-in-c-export-extract-guide/)
-Dowiedz się, jak spłaszczyć warstwy w plikach PDF i wyeksportować je przy użyciu Aspose.PDF w C#.
-
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)
