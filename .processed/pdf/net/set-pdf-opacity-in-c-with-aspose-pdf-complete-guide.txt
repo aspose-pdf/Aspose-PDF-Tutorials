@@ -1,0 +1,7 @@
+Title: Set PDF opacity in C# with Aspose.PDF – complete guide
+Slug: set-pdf-opacity-in-c-with-aspose-pdf-complete-guide
+Category: images-graphics
+ProcessedDate: 2026-08-08T10:59:15.355043
+SourceRepo: AI Search API
+Keywords: set pdf opacity
+PRNumber: 116

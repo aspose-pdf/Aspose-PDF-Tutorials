@@ -54,12 +54,9 @@ Aspose.PDF for .NET का उपयोग करके PDF में ग्र�
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-<<<<<<< optimize/pdf/net/20260214124714
 ## PDF में लाइन ड्रॉ करें
 सीधी या डायगोनल लाइन्स ड्रॉ करना फ़ॉर्म, सिग्नेचर और विज़ुअल गाइड्स के लिए सामान्य आवश्यकता है। “Draw Diagonal Lines” ट्यूटोरियल दिखाता है कि किसी भी PDF पेज पर सटीक लाइन ऑब्जेक्ट जोड़ने के लिए आवश्यक API कॉल्स क्या हैं।  
 
-=======
->>>>>>> main
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## [Aspose.PDF for .NET का उपयोग करके PDF से इमेज जनरेट करें](./net/images/)
@@ -103,12 +100,9 @@ Aspose.PDF for .NET का उपयोग करके PDF दस्ताव�
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-<<<<<<< optimize/pdf/net/20260214124714
 ## PDF में टेबल जोड़ें
 रिपोर्ट और इनवॉइस के लिए टेबल आवश्यक हैं। यह सेक्शन टेबल‑संबंधित ट्यूटोरियल्स को एकत्रित करता है, जिससे आपको PDF में टेबल जोड़ने, स्टाइल करने और पेजिनेट करने के लिए एक ही रेफ़रेंस मिलती है।  
 
-=======
->>>>>>> main
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## [Aspose.PDF for .NET में व्यापक टेक्स्ट हैंडलिंग ट्यूटोरियल्स](./net/text/)

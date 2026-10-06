@@ -52,6 +52,10 @@
 | [पाठ बॉक्स](./text-box/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF में आसानी से टेक्स्ट बॉक्स जोड़ने का तरीका जानें। उपयोगकर्ता सहभागिता को बढ़ाएँ। |
 | [C# के साथ Aspose.Pdf में मल्टी पेज फॉर्म बनाएं – चरण-दर-चरण गाइड](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | इस ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके कई पृष्ठों वाला PDF फॉर्म बनाने की प्रक्रिया सीखें। |
 | [Aspose के साथ PDF बनाना – फ़ॉर्म फ़ील्ड और पृष्ठ जोड़ें](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Aspose का उपयोग करके PDF बनाते समय फ़ॉर्म फ़ील्ड और पेज कैसे जोड़ें, इस चरण-दर-चरण गाइड में सीखें। |
+| [एकाधिक विजेट्स के साथ PDF दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) | इस चरण‑दर‑चरण गाइड में .NET के लिए Aspose.PDF का उपयोग करके कई विजेट्स वाले PDF दस्तावेज़ बनाने का तरीका सीखें। |
+| [पृष्ठों और टेक्स्ट बॉक्स फ़ील्ड के साथ PDF बनाना – पूर्ण C# गाइड](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | इस चरण‑दर‑चरण गाइड में .NET के लिए Aspose.PDF का उपयोग करके पृष्ठों और टेक्स्ट बॉक्स फ़ील्ड के साथ PDF बनाने का पूरा C# उदाहरण देखें। |
+| [Aspose के साथ PDF बनाना – टेक्स्ट बॉक्स फ़ील्ड जोड़ें](./create-pdf-document-with-aspose-add-text-box-field/) | इस चरण-दर-चरण गाइड में .NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ में टेक्स्ट बॉक्स फ़ील्ड जोड़ना सीखें। |
+| [PDF दस्तावेज़ बनाएं C# – मल्टी‑पेज फ़ॉर्म के लिए चरण‑दर‑चरण गाइड](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | C# में Aspose.PDF का उपयोग करके मल्टी‑पेज फ़ॉर्म वाले PDF दस्तावेज़ बनाने की चरण‑दर‑चरण प्रक्रिया सीखें। |  
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -59,3 +63,36 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
+| [Aspose के साथ PDF बनाना – संग्रह में फ़ील्ड जोड़ें](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Aspose का उपयोग करके PDF में फ़ील्ड को संग्रह में जोड़ने की चरण-दर-चरण प्रक्रिया सीखें। |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
+| [PDF में Bates नंबर जोड़ें – चरण‑दर‑चरण C# गाइड](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | इस चरण‑दर‑चरण गाइड में .NET के लिए Aspose.PDF का उपयोग करके PDF में Bates नंबर कैसे जोड़ें, सीखें। |
+| [एकाधिक टेक्स्टबॉक्स विजेट्स के साथ PDF दस्तावेज़ बनाएं – चरण‑दर‑चरण गाइड](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | इस चरण‑दर‑चरण ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके कई टेक्स्टबॉक्स विजेट्स वाले PDF दस्तावेज़ बनाने का तरीका सीखें। |
+| [टेक्स्ट बॉक्स PDF कैसे जोड़ें – PDF फ़ॉर्म फ़ील्ड बनाएं और संपादित PDF दस्तावेज़ सहेजें](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | इस ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके टेक्स्ट बॉक्स जोड़ना, फ़ॉर्म फ़ील्ड बनाना और संपादित PDF सहेजना सीखें। |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

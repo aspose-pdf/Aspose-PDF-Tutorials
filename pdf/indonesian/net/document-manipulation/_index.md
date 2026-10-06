@@ -16,7 +16,6 @@
 Kuasai manipulasi dokumen PDF dengan tutorial Aspose.PDF .NET kami yang terperinci. Panduan langkah demi langkah ini menunjukkan cara bekerja dengan struktur dokumen, memodifikasi PDF yang ada, membagi dan menggabungkan dokumen, menambah dan menghapus halaman, serta mengatur konten PDF Anda secara terprogram. Setiap tutorial mencakup contoh kode C# yang berfungsi, catatan implementasi, dan praktik terbaik untuk membantu Anda membangun aplikasi yang secara efisien memanipulasi dokumen PDF dengan kode yang bersih dan mudah dikelola.
 
 ## Tutorial yang Tersedia
-
 ### [Tambahkan Cap Tanggal & Waktu ke PDF Menggunakan Aspose.PDF untuk .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 Pelajari cara menambahkan cap tanggal dan waktu atau anotasi secara efisien ke dalam dokumen PDF Anda menggunakan Aspose.PDF for .NET. Tingkatkan pengelolaan dokumen dengan langkah-langkah yang mudah diikuti ini.
 
@@ -37,6 +36,9 @@ Pelajari cara menambahkan pemisah halaman dalam dokumen PDF menggunakan Aspose.P
 
 ### [Tambahkan Persegi Panjang & Konfigurasikan Halaman PDF dengan Aspose.PDF .NET: Panduan Lengkap](./aspose-pdf-net-add-rectangles-configure-pages/)
 Kuasai cara menambahkan persegi panjang dan mengonfigurasi halaman dalam PDF menggunakan Aspose.PDF untuk .NET. Ikuti panduan ini untuk mempelajari teknik manipulasi dokumen secara efektif.
+
+### [Tambahkan Persegi Panjang ke PDF dengan C# – Panduan Pemrograman Lengkap](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
+Pelajari cara menambahkan persegi panjang ke PDF menggunakan C# dengan Aspose.PDF .NET dalam panduan lengkap ini.
 
 ### [Aspose.PDF .NET: Mengatur Margin PDF & Menyesuaikan Header/Footer](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 Kuasai seni pengaturan margin halaman dan kustomisasi header/footer di PDF Anda dengan Aspose.PDF untuk .NET. Ikuti panduan terperinci ini untuk meningkatkan konsistensi tata letak dokumen.
@@ -311,6 +313,21 @@ Pelajari cara membagi PDF multi-halaman dan membuat file PDF baru menggunakan As
 ### [Panduan Lengkap untuk Manipulasi PDF dengan Aspose.PDF .NET: Memuat, Menyimpan & Mengganti Teks Secara Efisien](./master-pdf-manipulation-aspose-pdf-net/)
 Pelajari cara menguasai manipulasi PDF menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup pemuatan, penyimpanan, dan penggantian teks dalam PDF, ideal bagi pengembang yang menginginkan efisiensi.
 
+### [Cara Menyensor PDF di C# – Sembunyikan Teks PDF & Hapus Konten PDF](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
+Pelajari cara menyensor PDF dengan menyembunyikan teks dan menghapus konten secara programatis menggunakan Aspose.PDF untuk .NET.
+
+### [Cara Memperbaiki PDF di C# – Memperbaiki File PDF Rusak dengan Cepat](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
+Pelajari cara memperbaiki file PDF yang rusak secara cepat menggunakan C# dan Aspose.PDF.
+### [Cara Menyensor PDF di C# dengan Aspose PDF – Panduan Lengkap](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
+Pelajari cara menyensor konten sensitif dalam file PDF menggunakan Aspose PDF untuk .NET dengan contoh kode C# lengkap.
+### [Cara Membandingkan PDF dengan Aspose – Panduan Langkah demi Langkah](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
+Pelajari cara membandingkan file PDF secara akurat menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini.
+### [Menghapus Font dari PDF dengan Aspose – Panduan Langkah demi Langkah](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
+Pelajari cara menghapus font dari file PDF secara programatis menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah.
+### [Cara Menghapus Font Tersemat pada PDF – Panduan Langkah demi Langkah C#](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
+Pelajari cara menghapus font tersemat dari file PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode C# yang jelas.
+
+## Sumber Daya Tambahan
 ### [Ratakan Lapisan PDF di C# – Panduan Ekspor & Ekstrak](./flatten-pdf-layers-in-c-export-extract-guide/)
 Pelajari cara meratakan lapisan PDF, mengekspor dan mengekstrak konten menggunakan Aspose.PDF untuk .NET dengan C#.
 

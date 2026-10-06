@@ -35,6 +35,7 @@ Aspose.PDF for .NET を使用して PDF ドキュメント内の注釈を操作�
 | [テキスト注釈の書式を自由に設定](./setfreetextannotationformatting/) このステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF ドキュメントにフリー テキスト注釈の書式を設定する方法を学習します。 |  
 | [単語を消す](./strikeoutwords/) Aspose.PDF for .NET を使ってPDF内の単語に取り消し線を引く方法を、この包括的なステップバイステップガイドで学びましょう。ドキュメント編集スキルを向上させましょう。 |  
 | [フリーテキストPDF注釈の更新](./updatefreetextannotation/) このステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF ドキュメント内のフリー テキスト注釈を更新する方法を学習します。 |  
+| [Aspose.PDF の Repair の使用方法 – 壊れた注釈を修正](./how-to-use-repair-in-aspose-pdf-fix-broken-annotations/) Aspose.PDF の Repair 機能を使用して、破損した注釈を修復し、PDF の整合性を回復する方法をステップバイステップで解説します。 |  
 | [Aspose.PDF を使用した PDF 注釈の追加 - 完全ガイド](./add-annotation-pdf-with-aspose-pdf-complete-guide/) Aspose.PDF for .NET を使い、PDF に注釈を追加する完全な手順を解説したガイドです。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

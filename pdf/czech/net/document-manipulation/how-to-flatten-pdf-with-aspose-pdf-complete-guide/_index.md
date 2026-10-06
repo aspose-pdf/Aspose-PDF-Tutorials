@@ -1,80 +1,24 @@
 ---
 category: general
-date: 2026-06-08
-description: Jak rychle zploštit PDF pomocí Aspose.PDF. Naučte se odstranit vrstvy
-  PDF, zploštit PDF pro tisk, uložit zploštělé PDF a převést průhledné PDF v C#.
+date: 2026-03-27
+description: Jak zploštit PDF pomocí Aspose.PDF – odstranit průhlednost, uložit zploštělé
+  PDF a během několika sekund učinit PDF neprůhledným.
 draft: false
 keywords:
 - how to flatten pdf
-- remove pdf layers
-- flatten pdf for printing
 - save flattened pdf
-- convert transparent pdf
+- aspose pdf tutorial
+- remove transparency from pdf
+- make pdf opaque
 language: cs
-og_description: Jak zploštit PDF v C# pomocí Aspose.PDF. Tento tutoriál vám ukáže,
-  jak odstranit vrstvy PDF, zploštit PDF pro tisk a efektivně uložit zploštělý PDF.
-og_title: Jak zploštit PDF pomocí Aspose.PDF – krok za krokem průvodce
-schemas:
-- author: Aspose
-  dateModified: '2026-06-08'
-  description: How to flatten PDF quickly using Aspose.PDF. Learn to remove PDF layers,
-    flatten PDF for printing, save flattened PDF, and convert transparent PDF in C#.
-  headline: How to Flatten PDF with Aspose.PDF – Complete Guide
-  type: TechArticle
-- description: How to flatten PDF quickly using Aspose.PDF. Learn to remove PDF layers,
-    flatten PDF for printing, save flattened PDF, and convert transparent PDF in C#.
-  name: How to Flatten PDF with Aspose.PDF – Complete Guide
-  steps:
-  - name: Why `FlattenTransparency()` works
-    text: Aspose.PDF’s `FlattenTransparency()` method walks through each page, rasterizes
-      any transparent objects, and rewrites the content stream so that the resulting
-      PDF has **no transparency groups**. In PDF terminology, it effectively **removes
-      PDF layers**, turning everything into a flat bitmap or solid
-  - name: Pro tip
-    text: 'If you’re dealing with a multi‑page document, you might want to **flatten
-      each page individually** to conserve memory:'
-  - name: Common scenarios where flattening is mandatory
-    text: '- **Commercial offset printing** – the RIP (Raster Image Processor) expects
-      flat vectors. - **Digital press workflows** – many online print services reject
-      PDFs with transparency to avoid unexpected output. - **Regulatory filings**
-      – some government portals require flat PDFs for legal compliance.'
-  - name: 'Example: Saving with compression and PDF/A‑1b compliance'
-    text: '```csharp var saveOptions = new PdfSaveOptions { CompressionLevel = CompressionLevel.Best,
-      PdfACompliance = PdfACompliance.PdfA1b };'
-  - name: 'Edge case: Password‑protected PDFs'
-    text: 'If your source PDF is encrypted, load it with the appropriate password
-      first:'
-  type: HowTo
-- questions:
-  - answer: No. Aspose.PDF rasterizes only the transparent objects; pure vectors remain
-      editable. If the entire page is transparent, the whole page becomes a raster
-      image, which is expected for print safety.
-    question: Does flattening affect vector quality?
-  - answer: 'Absolutely. Loop through `doc.Pages` and call `FlattenTransparency()`
-      only on the pages you need. ## What Should You Learn Next?
-
-
-      The following tutorials cover closely related topics that build on the techniques
-      demonstrated in this guide. Each resource includes complete working code examples
-      with step-by-step explanations to help you master additional API features and
-      explore alternative implementation approaches in your own projects.
-
-      - [How to Flatten PDF Form Fields Using Aspose.PDF for .NET&#58; A Developer''s
-      Guide](/pdf/english/net/forms-annotations/flatten-pdf-form-fields-aspose-net/)
-      - [How to Remove PDF Annotations Using Aspose.PDF for .NET&#58; A Complete Guide](/pdf/english/net/forms-annotations/delete-annotations-aspose-pdf-net-guide/)
-      - [How to Remove Graphics from PDFs Using Aspose.PDF .NET&#58; A Complete Guide](/pdf/english/net/images-graphics/remove-graphics-aspose-pdf-net/)
-
-      {{< /blocks/products/pf/tutorial-page-section >}} {{< /blocks/products/pf/main-container
-      >}} {{< /blocks/products/pf/main-wrap-class >}} {{< blocks/products/products-backtop-button
-      >}}'
-    question: Can I flatten only specific pages?
-  type: FAQPage
+og_description: Jak zploštit PDF pomocí Aspose.PDF. Naučte se odstranit průhlednost,
+  uložit zploštělý PDF a rychle učinit PDF neprůhledným.
+og_title: Jak zploštit PDF pomocí Aspose.PDF – Kompletní průvodce
 tags:
-- pdf
-- aspnet
-- csharp
-- document-processing
-title: Jak zploštit PDF pomocí Aspose.PDF – Kompletní průvodce
+- Aspose.PDF
+- C#
+- PDF processing
+title: Jak zploštit PDF pomocí Aspose.PDF – kompletní průvodce
 url: /cs/net/document-manipulation/how-to-flatten-pdf-with-aspose-pdf-complete-guide/
 ---
 
@@ -84,210 +28,248 @@ url: /cs/net/document-manipulation/how-to-flatten-pdf-with-aspose-pdf-complete-g
 
 # Jak zploštit PDF pomocí Aspose.PDF – Kompletní průvodce
 
-Už jste se někdy zamýšleli **jak zploštit PDF** soubory, které obsahují průhledné objekty nebo složité vrstvy? Nejste v tom jediní; mnoho vývojářů narazí na tento problém, když potřebují dokument připravený k tisku. Dobrou zprávou je, že s několika řádky C# a Aspose.PDF můžete odstranit ty otravné průhlednosti, odstranit vrstvy PDF a získat pevný, plochý soubor připravený pro jakoukoli tiskárnu.  
+Už jste se někdy zamýšleli **jak zploštit PDF** soubory, které tvrdohlavě zachovávají své průhledné vrstvy? Nejste v tom sami. V mnoha pracovních postupech—např. e‑fakturaci, archivaci nebo tisku—průhledné objekty způsobují chyby při vykreslování, zejména na starších tiskárnách. Dobrá zpráva? Několik řádků C# s Aspose.PDF dokáže proměnit ten průhledný nepořádek ve pevný, neprůhledný dokument.
 
-Cílem tohoto tutoriálu je provést vás celým procesem – od načtení průhledného PDF po uložení zploštělé verze – a zároveň vysvětlit, proč je zploštění důležité pro tisk, jak převést průhledné PDF a osvědčené postupy pro uložení výsledku. Žádné zbytečnosti, jen praktické řešení, které můžete dnes zkopírovat a vložit do svého projektu.
+V tomto tutoriálu projdeme celý proces: instalaci knihovny, načtení PDF, které obsahuje průhlednost, její zploštění a nakonec **uložení zploštělého PDF**. Na konci také budete vědět, jak **odstranit průhlednost z PDF** stránek, a proč je důležité udělat PDF neprůhledným pro následné systémy. Žádné zbytečnosti, jen praktické řešení připravené ke zkopírování a vložení, které funguje dnes.
 
-## Co budete potřebovat
+## Co dosáhnete
 
-- **.NET 6.0 nebo novější** (API funguje také s .NET Framework 4.6+)  
-- **Aspose.PDF for .NET** – nainstalujte přes NuGet: `Install-Package Aspose.PDF`  
-- Základní znalost C# a Visual Studio (nebo libovolného IDE, které preferujete)  
-- PDF, který obsahuje průhlednost – např. loga s alfa kanály nebo vektorovou grafiku s režimy prolnutí  
+- Načíst PDF, které obsahuje průhledné objekty (např. vodoznaky, vektorovou grafiku).
+- Zavolat vestavěnou metodu, která **zplošťuje průhlednost**, a převádí každý prvek na neprůhledný bitmapový obrázek.
+- **Uložit zploštělé PDF** do nového souboru, který se tiskne a zobrazuje konzistentně všude.
+- Pochopit okrajové případy, jako jsou soubory chráněné heslem a velké dokumenty.
+- Získat rychlý **Aspose PDF tutorial**, který můžete znovu použít pro další manipulace s PDF.
 
-To je vše. Pokud to máte, jste připraveni zploštit PDF jako profesionál.
+### Předpoklady
 
-![Ilustrace, jak zploštit PDF](image.png "Ilustrace, jak zploštit PDF")
+| Requirement | Why it matters |
+|-------------|----------------|
+| .NET 6.0 nebo novější (nebo .NET Framework 4.6+) | Aspose.PDF pro .NET podporuje tyto runtime; starší verze mohou postrádat API `FlattenTransparency`. |
+| Aspose.PDF pro .NET NuGet balíček (v23.12 nebo novější) | `FlattenTransparency()` metoda byla představena ve verzi v23.5, takže buďte aktuální. |
+| PDF soubor, který skutečně používá průhlednost (např. PDF exportované z Adobe Illustrator) | Bez průhledných objektů není co zploštit a metoda bude nečinná. |
+| Visual Studio 2022 nebo jakékoli C# IDE, které máte rádi | Pro snadné ladění a rychlé spuštění. |
 
-## Jak zploštit PDF – krok za krokem s Aspose.PDF
+> **Tip:** Pokud si nejste jisti, zda vaše PDF obsahuje průhlednost, otevřete jej v Adobe Acrobat a podívejte se na varování „Transparency“ v sekci *Print Production* → *Preflight*.
 
-Níže je minimální kód, který potřebujete k **zploštění PDF** souborů. Úryvek je plně spustitelný; stačí nahradit zástupné cesty svými vlastními soubory.
+## Krok 1 – Instalace Aspose.PDF (aspose pdf tutorial)
+
+Otevřete složku projektu v terminálu a spusťte:
+
+```bash
+dotnet add package Aspose.PDF --version 23.12.0
+```
+
+Alternativně použijte UI NuGet Package Manageru ve Visual Studiu a vyhledejte **Aspose.PDF**. Balíček stáhne všechny potřebné závislosti, takže nebudete potřebovat žádné extra DLL soubory.
+
+> **Proč tento krok?** Knihovna obsahuje vysoce výkonný PDF engine, který zplošťování provádí interně; pokusit se vytvořit vlastní řešení by byl zbytečný bludiště.
+
+## Krok 2 – Načtení zdrojového PDF (remove transparency from PDF)
+
+Vytvořte novou C# konzolovou aplikaci (nebo vložte kód do jakéhokoli existujícího projektu). Následující úryvek ukazuje kompletní `using` direktivy a metodu `Main`, která otevírá soubor pojmenovaný `Transparent.pdf`:
 
 ```csharp
 using System;
-using Aspose.Pdf;
+using Aspose.Pdf;   // Aspose.PDF namespace
 
 class Program
 {
     static void Main()
     {
-        // Step 1: Load the PDF document (could be a transparent PDF)
-        using var doc = new Document(@"C:\Docs\transparent.pdf");
+        // Path to the PDF that contains transparent objects
+        string sourcePath = @"YOUR_DIRECTORY\Transparent.pdf";
 
-        // Step 2: Flatten any transparency in the document.
-        // This removes PDF layers and merges all content into a single rasterized page.
-        doc.FlattenTransparency();
-
-        // Step 3: Save the flattened PDF to a new file.
-        // Use SaveOptions if you need specific compression or PDF version.
-        doc.Save(@"C:\Docs\flat.pdf");
-        
-        Console.WriteLine("PDF has been flattened and saved successfully.");
+        // Load the document – this automatically parses all pages, resources, etc.
+        using (Document pdfDocument = new Document(sourcePath))
+        {
+            Console.WriteLine($"Loaded PDF with {pdfDocument.Pages.Count} page(s).");
+            // Next step will flatten transparency
+        }
     }
 }
 ```
 
-### Proč funguje `FlattenTransparency()`
+**Vysvětlení:**  
+- `Document` je vstupní bod; načte soubor do paměti.  
+- Zabalení do `using` bloku zaručuje, že všechny neřízené zdroje jsou uvolněny okamžitě—což je důležité pro velké PDF.
 
-Metoda `FlattenTransparency()` v Aspose.PDF prochází každou stránku, rasterizuje všechny průhledné objekty a přepíše obsahový proud tak, aby výsledné PDF nemělo **žádné skupiny průhlednosti**. V terminologii PDF to efektivně **odstraňuje vrstvy PDF**, převádí vše na plochý bitmapový obrázek nebo pevné vektorové tahy. To je přesně to, co vyžadují většina vysokorychlostních tiskáren, protože nedokáží zpracovat složité režimy prolnutí.
+> **Okrajový případ:** Pokud je PDF chráněno heslem, předávejte heslo konstruktoru: `new Document(sourcePath, new LoadOptions { Password = "secret" })`.
 
-### Tip
+## Krok 3 – Zploštění průhlednosti (make PDF opaque)
 
-Pokud pracujete s dokumentem s více stránkami, můžete chtít **zploštit každou stránku samostatně**, aby se šetřila paměť:
+Nyní, když je dokument v paměti, zavolejte metodu, která provádí těžkou práci:
 
 ```csharp
-foreach (Page page in doc.Pages)
+// Inside the using block from Step 2
+pdfDocument.FlattenTransparency();
+Console.WriteLine("Transparency has been flattened – the PDF is now opaque.");
+```
+
+**Co se děje pod kapotou?**  
+Aspose.PDF rasterizuje každý průhledný objekt (včetně režimů prolnutí, měkkých okrajů a maskování opacity) na pevné pozadí. Výsledný obsah stránky jsou běžné kreslicí příkazy bez atributů průhlednosti, takže jakýkoli prohlížeč nebo tiskárna je vykreslí přesně tak, jak vidíte na obrazovce.
+
+> **Proč byste měli zploštit:** Některé starší tiskárny interpretují průhlednost nesprávně, což vede k chybějící grafice nebo posunu barev. Zploštění zaručuje výsledek *co vidíte, to dostanete*.
+
+## Krok 4 – Uložení zploštělého PDF (save flattened pdf)
+
+Nakonec zapište upravený dokument do nového souboru. Pojmenujeme jej `Flattened.pdf`, aby originál zůstal nedotčený:
+
+```csharp
+// Still inside the using block
+string outputPath = @"YOUR_DIRECTORY\Flattened.pdf";
+pdfDocument.Save(outputPath);
+Console.WriteLine($"Flattened PDF saved to: {outputPath}");
+```
+
+Když otevřete `Flattened.pdf` v jakémkoli prohlížeči, všimnete si, že dříve průhledné logo je nyní pevné. Pokud prozkoumáte PDF objekty souboru (např. pomocí *PDF‑Tron* nebo *iText*), uvidíte, že položky `/Transparency` zmizely.
+
+> **Tip:** Pokud potřebujete zachovat původní metadata (autor, název atd.), zkopírujte je před zploštěním:
+
+```csharp
+var meta = pdfDocument.Info;
+pdfDocument.FlattenTransparency();
+pdfDocument.Info = meta; // restore metadata
+```
+
+## Krok 5 – Ověření výsledku (make PDF opaque)
+
+Rychlá vizuální kontrola často stačí, ale můžete také programově potvrdit, že žádná průhlednost nezůstala:
+
+```csharp
+bool containsTransparency = false;
+foreach (Page page in pdfDocument.Pages)
 {
-    page.FlattenTransparency();
+    if (page.Resources?.XObjects?.Count > 0)
+    {
+        foreach (var xobj in page.Resources.XObjects.Values)
+        {
+            if (xobj is FormXObject form && form.Transparency != null)
+            {
+                containsTransparency = true;
+                break;
+            }
+        }
+    }
 }
+Console.WriteLine(containsTransparency
+    ? "Warning: some transparency still exists."
+    : "Success: PDF is fully opaque.");
 ```
 
-## Pochopení průhlednosti a vrstev v PDF (odstranění vrstev PDF)
+Pokud výstup říká **Success**, skutečně jste **udělali PDF neprůhledným**.
 
-PDF soubory mohou obsahovat **průhledné objekty**, **soft masky** a **volitelné skupiny obsahu (OCG)** – poslední jsou to, co běžně nazýváme *vrstvy*. Když otevřete PDF v prohlížeči, tyto vrstvy mohou být zapnuté nebo vypnuté, ale mnoho následných nástrojů je úplně ignoruje, což vede k chybějící grafice nebo nesprávným barvám.
+## Časté úskalí a jak se jim vyhnout
 
-**Odstranění vrstev PDF** není jen vizuální úprava; je to strukturální změna. Zploštěním získáte:
+| Symptom | Likely cause | Fix |
+|---------|--------------|-----|
+| `FlattenTransparency()` vyvolá `NotSupportedException` | Použití velmi staré verze Aspose.PDF (< 23.5) | Aktualizujte NuGet balíček. |
+| Výstupní PDF je větší než očekáváno | Zploštění rasterizuje vektory, což zvyšuje velikost souboru | Použijte kompresi: `pdfDocument.Compression = CompressionType.Zip;` před uložením. |
+| Některé obrázky po zploštění vypadají rozmazaně | Zdrojové obrázky s nízkým rozlišením byly během rasterizace zvětšeny | Zvyšte DPI rasterizace: `pdfDocument.FlattenTransparency(300);` (přetížení přijímá DPI). |
+| PDF chráněné heslem se nepodařilo načíst | Heslo nebylo zadáno | Použijte `LoadOptions` s správným heslem. |
 
-1. **Zaručíte vizuální věrnost** na všech zařízeních.  
-2. **Vyhnete se chybám při vykreslování** na tiskárnách, které nepodporují model průhlednosti PDF 1.4+.  
-3. **Snížíte velikost souboru** v některých případech, protože nadbytečné slovníky zdrojů jsou odstraněny.  
+## Kompletní, spustitelný příklad
 
-Pokud potřebujete zachovat původní vrstvy pro archivní účely, vždy **uložte kopii před zploštěním**. Výše uvedený kód pracuje s kopií (`doc.Save("flat.pdf")`), takže zdroj zůstane nedotčen.
-
-## Zploštění PDF pro tisk – proč je to důležité
-
-Tiskové stroje, zejména ty používající **PostScript** nebo **PCL**, často odmítají PDF soubory obsahující průhlednost, protože vykreslovací engine nedokáže za běhu vyřešit režimy prolnutí. **Zploštěním PDF pro tisk** převádíte tyto operace prolnutí na jediný neprůhledný kreslicí příkaz.
-
-### Běžné scénáře, kde je zploštění povinné
-
-- **Komerční ofsetový tisk** – RIP (Raster Image Processor) očekává ploché vektory.  
-- **Pracovní postupy digitálního tisku** – mnoho online tiskových služeb odmítá PDF s průhledností, aby se předešlo neočekávanému výstupu.  
-- **Regulační podání** – některé vládní portály vyžadují ploché PDF pro právní soulad.  
-
-Pokud si nejste jisti, zda dokument potřebuje zploštění, rychlý test je otevřít jej v Adobe Acrobat a podívat se na **Print Production → Output Preview**. Jakékoli oranžově zvýrazněné objekty naznačují průhlednost, která by měla být zploštěna.
-
-## Ukládání zploštěného PDF – osvědčené postupy (uložit zploštěné PDF)
-
-Když zavoláte `doc.Save()`, Aspose.PDF zapíše dokument s výchozími nastaveními (PDF 1.7, bezztrátová komprese). Nicméně můžete výstup doladit pro velikost, kompatibilitu nebo zabezpečení.
-
-### Příklad: Ukládání s kompresí a kompatibilitou PDF/A‑1b
-
-```csharp
-var saveOptions = new PdfSaveOptions
-{
-    CompressionLevel = CompressionLevel.Best,
-    PdfACompliance = PdfACompliance.PdfA1b
-};
-
-doc.Save(@"C:\Docs\flat_compressed.pdf", saveOptions);
-```
-
-- **CompressionLevel.Best** zmenší soubor bez ztráty kvality – ideální pro e‑mailové přílohy.  
-- **PdfACompliance.PdfA1b** zajišťuje, že PDF je připravené k archivaci, což je požadavek mnoha firemních záznamů.
-
-### Speciální případ: PDF chráněné heslem
-
-Pokud je váš zdrojový PDF šifrovaný, načtěte jej nejprve s příslušným heslem:
-
-```csharp
-var loadOptions = new PdfLoadOptions { Password = "mySecret" };
-using var doc = new Document(@"C:\Docs\protected.pdf", loadOptions);
-doc.FlattenTransparency();
-doc.Save(@"C:\Docs\unlocked_flat.pdf");
-```
-
-Aspose.PDF zachová původní bezpečnostní nastavení, pokud je výslovně nezměníte v `PdfSaveOptions`.
-
-## Převod průhledného PDF na plochý soubor (převod průhledného pdf)
-
-Někdy nepotřebujete jen ploché PDF – potřebujete **rastrový obrázek** (PNG, JPEG) pro webový náhled nebo generování miniatur. Stejný volání `FlattenTransparency()` může být následováno krokem převodu:
-
-```csharp
-// Convert the first page of the flattened PDF to PNG
-var page = doc.Pages[1];
-using var imageStream = new MemoryStream();
-page.ConvertToImage(ImageFormat.Png, imageStream);
-File.WriteAllBytes(@"C:\Docs\preview.png", imageStream.ToArray());
-```
-
-- **Proč rasterizovat?** Protože prohlížeče a mnoho CMS platforem zobrazují obrázky rychleji než PDF.  
-- **Tip:** Nastavte vyšší DPI (`page.ConvertToImage(ImageFormat.Png, 300)`) pro miniatury v tiskové kvalitě.
-
-## Úplný funkční příklad – od začátku do konce
-
-Spojením všeho dohromady, zde je jeden program, který:
-
-1. Načte průhledné PDF.  
-2. Volitelně odstraní ochranu heslem.  
-3. Zploští průhlednost (odstraní vrstvy).  
-4. Uloží komprimovaný PDF/A‑1b soubor.  
-5. Vygeneruje PNG náhled.
+Níže je kompletní program, který můžete zkopírovat a vložit do `Program.cs`. Obsahuje všechny kroky, zpracování chyb a volitelné úpravy.
 
 ```csharp
 using System;
-using System.IO;
 using Aspose.Pdf;
-using Aspose.Pdf.Devices; // For image conversion
+using Aspose.Pdf.Devices; // Only needed if you want custom DPI
 
 class FlattenPdfDemo
 {
     static void Main()
     {
-        // ------------------------------------------------------------------
-        // 1️⃣ Load the PDF (handle password if needed)
-        // ------------------------------------------------------------------
-        var loadOpts = new PdfLoadOptions { Password = "" }; // leave empty if not protected
-        using var doc = new Document(@"C:\Docs\transparent.pdf", loadOpts);
+        // -------------------------------------------------
+        // 1️⃣  Configuration – paths & optional settings
+        // -------------------------------------------------
+        string sourcePath = @"YOUR_DIRECTORY\Transparent.pdf";
+        string outputPath = @"YOUR_DIRECTORY\Flattened.pdf";
 
-        // ------------------------------------------------------------------
-        // 2️⃣ Flatten transparency – this removes PDF layers
-        // ------------------------------------------------------------------
-        foreach (Page page in doc.Pages)
-            page.FlattenTransparency();
-
-        // ------------------------------------------------------------------
-        // 3️⃣ Save the flattened PDF with compression and PDF/A compliance
-        // ------------------------------------------------------------------
-        var saveOpts = new PdfSaveOptions
+        // Optional: set compression to keep file size reasonable
+        var saveOptions = new PdfSaveOptions
         {
-            CompressionLevel = CompressionLevel.Best,
-            PdfACompliance = PdfACompliance.PdfA1b
+            Compression = CompressionType.Zip
         };
-        string flatPath = @"C:\Docs\flat_compressed.pdf";
-        doc.Save(flatPath, saveOpts);
-        Console.WriteLine($"Flattened PDF saved to: {flatPath}");
 
-        // ------------------------------------------------------------------
-        // 4️⃣ (Optional) Generate a PNG preview – useful after convert transparent PDF
-        // ------------------------------------------------------------------
-        var pngPath = @"C:\Docs\preview.png";
-        var pageToRender = doc.Pages[1];
-        using var pngStream = new MemoryStream();
-        var resolution = new Resolution(300); // 300 DPI for print quality
-        var pngDevice = new PngDevice(resolution);
-        pngDevice.Process(pageToRender, pngStream);
-        File.WriteAllBytes(pngPath, pngStream.ToArray());
-        Console.WriteLine($"Preview image saved to: {pngPath}");
+        try
+        {
+            // -------------------------------------------------
+            // 2️⃣  Load the PDF (remove transparency from PDF)
+            // -------------------------------------------------
+            using (Document pdfDocument = new Document(sourcePath))
+            {
+                Console.WriteLine($"Loaded PDF with {pdfDocument.Pages.Count} page(s).");
+
+                // -------------------------------------------------
+                // 3️⃣  Flatten transparency – makes PDF opaque
+                // -------------------------------------------------
+                // You can pass a DPI value if you need higher quality:
+                // pdfDocument.FlattenTransparency(300);
+                pdfDocument.FlattenTransparency();
+                Console.WriteLine("Transparency flattened – PDF is now opaque.");
+
+                // -------------------------------------------------
+                // 4️⃣  Save the result (save flattened PDF)
+                // -------------------------------------------------
+                pdfDocument.Save(outputPath, saveOptions);
+                Console.WriteLine($"✅ Flattened PDF saved to: {outputPath}");
+            }
+
+            // -------------------------------------------------
+            // 5️⃣  Quick verification (make PDF opaque)
+            // -------------------------------------------------
+            VerifyOpacity(outputPath);
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"❌ An error occurred: {ex.Message}");
+        }
+    }
+
+    // Helper method to double‑check that no transparency survived
+    static void VerifyOpacity(string pdfPath)
+    {
+        using (Document doc = new Document(pdfPath))
+        {
+            bool hasTransparency = false;
+            foreach (Page page in doc.Pages)
+            {
+                if (page.Resources?.XObjects?.Count > 0)
+                {
+                    foreach (var xobj in page.Resources.XObjects.Values)
+                    {
+                        if (xobj is FormXObject form && form.Transparency != null)
+                        {
+                            hasTransparency = true;
+                            break;
+                        }
+                    }
+                }
+                if (hasTransparency) break;
+            }
+
+            Console.WriteLine(hasTransparency
+                ? "⚠️ Transparency still detected."
+                : "🎉 No transparency found – PDF is fully opaque.");
+        }
     }
 }
 ```
 
-**Očekávaný výstup** při spuštění programu:
+**Očekávaný výstup**
 
 ```
-Flattened PDF saved to: C:\Docs\flat_compressed.pdf
-Preview image saved to: C:\Docs\preview.png
+Loaded PDF with 3 page(s).
+Transparency flattened – PDF is now opaque.
+✅ Flattened PDF saved to: YOUR_DIRECTORY\Flattened.pdf
+🎉 No transparency found – PDF is fully opaque.
 ```
 
-Otevřete `flat_compressed.pdf` v libovolném prohlížeči – žádná průhlednost, žádné vrstvy a tiskne se bez problémů. Otevřete `preview.png` a uvidíte ostrý rastrový snímek první stránky.
+Spusťte program, otevřete `Flattened.pdf` v Adobe Acrobat a uvidíte, že všechny dříve průhledné vrstvy jsou vykresleny jako pevné.
 
-## Často kladené otázky (FAQ)
+## Další kroky a související témata
 
-**Q: Ovlivňuje zploštění kvalitu vektorů?**  
-A: Ne. Aspose.PDF rasterizuje pouze průhledné objekty; čisté vektory zůstávají editovatelné. Pokud je celá stránka průhledná, celá stránka se stane rastrovým obrázkem, což je očekávané pro tiskovou bezpečnost.
-
-**Q: Můžu zploštit jen konkrétní stránky?**  
-A: Rozhodně. Projděte `doc.Pages` a zavolejte `FlattenTransparency()` pouze na stránkách, které potřebujete.
+- **
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

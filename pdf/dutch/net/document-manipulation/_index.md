@@ -16,7 +16,6 @@
 Leer PDF-documentmanipulatie onder de knie te krijgen met onze gedetailleerde Aspose.PDF .NET-tutorials. Deze stapsgewijze handleidingen laten zien hoe u met documentstructuren kunt werken, bestaande PDF's kunt wijzigen, documenten kunt splitsen en samenvoegen, pagina's kunt toevoegen en verwijderen en uw PDF-inhoud programmatisch kunt ordenen. Elke tutorial bevat werkende C#-codevoorbeelden, implementatienotities en best practices om u te helpen applicaties te bouwen die PDF-documenten efficiënt bewerken met overzichtelijke, onderhoudbare code.
 
 ## Beschikbare tutorials
-
 ### [Datum- en tijdstempels toevoegen aan PDF's met Aspose.PDF voor .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 Leer hoe u efficiënt datum- en tijdstempels of annotaties aan uw PDF-documenten toevoegt met Aspose.PDF voor .NET. Verbeter uw documentbeheer met deze eenvoudig te volgen stappen.
 
@@ -37,6 +36,9 @@ Leer hoe u pagina-einden toevoegt aan PDF-documenten met Aspose.PDF voor .NET. V
 
 ### [Rechthoeken toevoegen en PDF-pagina's configureren met Aspose.PDF .NET: een uitgebreide handleiding](./aspose-pdf-net-add-rectangles-configure-pages/)
 Leer rechthoeken toevoegen en pagina's configureren in PDF's met Aspose.PDF voor .NET. Volg deze handleiding om effectief technieken voor documentmanipulatie te leren.
+
+### [Rechthoek toevoegen aan PDF met C# – Complete programmeergids](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
+Leer hoe u een rechthoek toevoegt aan een PDF-document met C# en Aspose.PDF .NET in deze volledige programmeergids.
 
 ### [Aspose.PDF .NET: PDF-marges instellen en kopteksten/voetteksten aanpassen](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 Beheers de kunst van het instellen van paginamarges en het aanpassen van kop- en voetteksten in uw PDF's met Aspose.PDF voor .NET. Volg deze gedetailleerde handleiding om de consistentie van uw documentlay-out te verbeteren.
@@ -74,8 +76,14 @@ Leer hoe u PDF-pagina's kunt aanpassen met Aspose.PDF voor .NET. Pas de uitlijni
 ### [PDF-pagina's verwijderen met Aspose.PDF en C# Streams: een complete handleiding](./delete-pdf-pages-aspose-pdf-c-sharp-streams/)
 Leer hoe u met deze stapsgewijze zelfstudie in C# efficiënt specifieke pagina's uit een PDF kunt verwijderen met Aspose.PDF voor .NET.
 
+### [Lettertype uit PDF verwijderen met Aspose – Stapsgewijze handleiding](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
+Leer hoe u een lettertype uit een PDF-bestand verwijdert met Aspose.PDF voor .NET in een duidelijke stap‑voor‑stap handleiding.
+
 ### [Efficiënte PDF-optimalisatie: verwijder ongebruikte objecten met Aspose.PDF voor .NET](./optimize-pdf-aspose-pdf-net-remove-unused-objects/)
 Leer hoe u PDF's kunt optimaliseren door ongebruikte objecten te verwijderen met Aspose.PDF voor .NET, waardoor de bestandsgrootte en prestaties verbeteren.
+
+### [Hoe ingesloten lettertypen uit PDF verwijderen – Stapsgewijze C#‑handleiding](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
+Leer hoe u ingesloten lettertypen uit een PDF kunt verwijderen met een stapsgewijze C#‑handleiding.
 
 ### [Efficiënte PDF-paginamanipulatie met Aspose.PDF voor .NET: een handleiding voor ontwikkelaars](./manipulate-pdf-pages-aspose-dot-net/)
 Leer hoe u PDF-pagina's efficiënt kunt bewerken met Aspose.PDF voor .NET. Deze handleiding behandelt roteren, zoomen en het instellen van beginpunten zonder Adobe Acrobat.
@@ -191,6 +199,9 @@ Leer hoe u efficiënt alle tekst uit een PDF verwijdert met Aspose.PDF .NET. Ide
 ### [PDF-openacties verwijderen met Aspose.PDF voor .NET: een complete handleiding](./remove-pdf-open-action-aspose-dotnet-guide/)
 Leer hoe u ongewenste geopende acties uit PDF-bestanden verwijdert met Aspose.PDF voor .NET. Deze handleiding biedt stapsgewijze instructies en aanbevolen procedures.
 
+### [Hoe PDF te redigeren in C# met Aspose PDF – Complete gids](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
+Leer hoe u gevoelige informatie uit PDF's kunt verwijderen met Aspose PDF in C#.
+
 ### [PDF-pagina's splitsen met Aspose.PDF voor .NET: een complete handleiding](./mastering-pdf-page-splitting-aspose-pdf-net/)
 Leer hoe u PDF-pagina's efficiënt kunt opsplitsen in afzonderlijke bestanden met Aspose.PDF voor .NET met deze uitgebreide handleiding. Verbeter vandaag nog uw vaardigheden in documentverwerking.
 
@@ -278,7 +289,7 @@ Een codetutorial voor Aspose.PDF Net
 ### [PDF's samenvoegen in .NET met Aspose.PDF: een uitgebreide handleiding](./merge-pdfs-net-aspose-pdf-tutorial/)
 Leer hoe u PDF-bestanden naadloos kunt samenvoegen met Aspose.PDF voor .NET. Deze stapsgewijze handleiding behandelt de installatie, implementatie en praktische toepassingen.
 
-### [PDF-formuliervelden verplaatsen in .NET met Aspose.PDF: een stapsgewijze handleiding](./move-pdf-fields-aspose-pdf-dotnet-guide/)
+### [PDF-formuliervelden verplaatsen in .NET met Aspose.PDF voor .NET: een stapsgewijze handleiding](./move-pdf-fields-aspose-pdf-dotnet-guide/)
 Leer hoe u moeiteloos PDF-formuliervelden kunt verplaatsen en herpositioneren met Aspose.PDF voor .NET. Deze handleiding behandelt de installatie, stapsgewijze instructies en tips voor probleemoplossing.
 
 ### [PDF-manipulatie eenvoudig gemaakt: Aspose.PDF .NET-handleiding voor het laden, opslaan en zoomen van configuraties](./master-pdf-manipulation-aspose-dotnet-load-save-configure-page-zoom/)
@@ -311,11 +322,18 @@ Leer hoe u PDF's met meerdere pagina's kunt splitsen en nieuwe PDF-bestanden kun
 ### [Ultieme gids voor PDF-manipulatie met Aspose.PDF .NET: tekst efficiënt laden, opslaan en vervangen](./master-pdf-manipulation-aspose-pdf-net/)
 Leer hoe je PDF-bewerking onder de knie krijgt met Aspose.PDF voor .NET. Deze handleiding behandelt het laden, opslaan en vervangen van tekst in PDF's, ideaal voor ontwikkelaars die op zoek zijn naar efficiëntie.
 
+### [Hoe PDF te redigeren in C# – Tekst verbergen en inhoud verwijderen uit PDF](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
+Leer hoe u gevoelige tekst kunt verbergen en ongewenste inhoud kunt verwijderen uit PDF's met Aspose.PDF voor .NET in C#.
+
+### [PDF repareren in C# – Corrupte PDF-bestanden snel herstellen](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
+Leer hoe u beschadigde PDF-bestanden snel kunt repareren met Aspose.PDF voor .NET in C#.
+### [PDF flattenen met Aspose.PDF – Complete handleiding](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+Leer hoe u PDF's kunt flattenen om bewerkingen te vergrendelen met Aspose.PDF voor .NET.
+
+### [PDF's vergelijken met Aspose – stap‑voor‑stap handleiding](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
+Leer hoe u twee PDF-bestanden kunt vergelijken met Aspose.PDF voor .NET, inclusief codevoorbeelden en tips voor nauwkeurige resultaten.
 ### [PDF-lagen flatten in C# – Export- en extractiegids](./flatten-pdf-layers-in-c-export-extract-guide/)
 Leer hoe u PDF-lagen kunt flatten, exporteren en extraheren met Aspose.PDF voor .NET in C#.
-
-### [PDF flattenen met Aspose.PDF – Complete gids](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
-Leer hoe u PDF's kunt flattenen met Aspose.PDF voor .NET in deze volledige stap‑voor‑stap handleiding.
 
 ### [Visuele PDF-verschil in C# – Complete gids om twee PDF's te vergelijken](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
 Leer hoe u met Aspose.PDF voor .NET twee PDF-bestanden visueel kunt vergelijken en verschillen kunt identificeren.

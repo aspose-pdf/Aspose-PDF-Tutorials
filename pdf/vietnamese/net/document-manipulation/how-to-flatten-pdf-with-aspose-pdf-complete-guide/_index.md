@@ -1,82 +1,24 @@
 ---
 category: general
-date: 2026-06-08
-description: Cách làm phẳng PDF nhanh chóng bằng Aspose.PDF. Tìm hiểu cách loại bỏ
-  các lớp PDF, làm phẳng PDF để in, lưu PDF đã làm phẳng và chuyển đổi PDF trong suốt
-  trong C#.
+date: 2026-03-27
+description: Cách làm phẳng PDF bằng Aspose.PDF – loại bỏ độ trong suốt, lưu PDF đã
+  được làm phẳng và biến PDF thành không trong suốt trong vài giây.
 draft: false
 keywords:
 - how to flatten pdf
-- remove pdf layers
-- flatten pdf for printing
 - save flattened pdf
-- convert transparent pdf
+- aspose pdf tutorial
+- remove transparency from pdf
+- make pdf opaque
 language: vi
-og_description: Cách làm phẳng PDF trong C# bằng Aspose.PDF. Hướng dẫn này chỉ cho
-  bạn cách loại bỏ các lớp PDF, làm phẳng PDF để in và lưu PDF đã được làm phẳng một
-  cách hiệu quả.
-og_title: Cách làm phẳng PDF với Aspose.PDF – Hướng dẫn từng bước
-schemas:
-- author: Aspose
-  dateModified: '2026-06-08'
-  description: How to flatten PDF quickly using Aspose.PDF. Learn to remove PDF layers,
-    flatten PDF for printing, save flattened PDF, and convert transparent PDF in C#.
-  headline: How to Flatten PDF with Aspose.PDF – Complete Guide
-  type: TechArticle
-- description: How to flatten PDF quickly using Aspose.PDF. Learn to remove PDF layers,
-    flatten PDF for printing, save flattened PDF, and convert transparent PDF in C#.
-  name: How to Flatten PDF with Aspose.PDF – Complete Guide
-  steps:
-  - name: Why `FlattenTransparency()` works
-    text: Aspose.PDF’s `FlattenTransparency()` method walks through each page, rasterizes
-      any transparent objects, and rewrites the content stream so that the resulting
-      PDF has **no transparency groups**. In PDF terminology, it effectively **removes
-      PDF layers**, turning everything into a flat bitmap or solid
-  - name: Pro tip
-    text: 'If you’re dealing with a multi‑page document, you might want to **flatten
-      each page individually** to conserve memory:'
-  - name: Common scenarios where flattening is mandatory
-    text: '- **Commercial offset printing** – the RIP (Raster Image Processor) expects
-      flat vectors. - **Digital press workflows** – many online print services reject
-      PDFs with transparency to avoid unexpected output. - **Regulatory filings**
-      – some government portals require flat PDFs for legal compliance.'
-  - name: 'Example: Saving with compression and PDF/A‑1b compliance'
-    text: '```csharp var saveOptions = new PdfSaveOptions { CompressionLevel = CompressionLevel.Best,
-      PdfACompliance = PdfACompliance.PdfA1b };'
-  - name: 'Edge case: Password‑protected PDFs'
-    text: 'If your source PDF is encrypted, load it with the appropriate password
-      first:'
-  type: HowTo
-- questions:
-  - answer: No. Aspose.PDF rasterizes only the transparent objects; pure vectors remain
-      editable. If the entire page is transparent, the whole page becomes a raster
-      image, which is expected for print safety.
-    question: Does flattening affect vector quality?
-  - answer: 'Absolutely. Loop through `doc.Pages` and call `FlattenTransparency()`
-      only on the pages you need. ## What Should You Learn Next?
-
-
-      The following tutorials cover closely related topics that build on the techniques
-      demonstrated in this guide. Each resource includes complete working code examples
-      with step-by-step explanations to help you master additional API features and
-      explore alternative implementation approaches in your own projects.
-
-      - [How to Flatten PDF Form Fields Using Aspose.PDF for .NET&#58; A Developer''s
-      Guide](/pdf/english/net/forms-annotations/flatten-pdf-form-fields-aspose-net/)
-      - [How to Remove PDF Annotations Using Aspose.PDF for .NET&#58; A Complete Guide](/pdf/english/net/forms-annotations/delete-annotations-aspose-pdf-net-guide/)
-      - [How to Remove Graphics from PDFs Using Aspose.PDF .NET&#58; A Complete Guide](/pdf/english/net/images-graphics/remove-graphics-aspose-pdf-net/)
-
-      {{< /blocks/products/pf/tutorial-page-section >}} {{< /blocks/products/pf/main-container
-      >}} {{< /blocks/products/pf/main-wrap-class >}} {{< blocks/products/products-backtop-button
-      >}}'
-    question: Can I flatten only specific pages?
-  type: FAQPage
+og_description: Cách làm phẳng PDF bằng Aspose.PDF. Tìm hiểu cách loại bỏ độ trong
+  suốt, lưu PDF đã làm phẳng và nhanh chóng làm PDF trở nên không trong suốt.
+og_title: Cách làm phẳng PDF bằng Aspose.PDF – Hướng dẫn chi tiết
 tags:
-- pdf
-- aspnet
-- csharp
-- document-processing
-title: Cách làm phẳng PDF với Aspose.PDF – Hướng dẫn đầy đủ
+- Aspose.PDF
+- C#
+- PDF processing
+title: Cách làm phẳng PDF với Aspose.PDF – Hướng dẫn chi tiết
 url: /vi/net/document-manipulation/how-to-flatten-pdf-with-aspose-pdf-complete-guide/
 ---
 
@@ -84,212 +26,250 @@ url: /vi/net/document-manipulation/how-to-flatten-pdf-with-aspose-pdf-complete-g
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Cách Làm Phẳng PDF với Aspose.PDF – Hướng Dẫn Toàn Diện
+# Cách làm phẳng PDF với Aspose.PDF – Hướng dẫn đầy đủ
 
-Bạn đã bao giờ tự hỏi **cách làm phẳng PDF** chứa các đối tượng trong suốt hoặc lớp phức tạp chưa? Bạn không phải là người duy nhất; nhiều nhà phát triển gặp phải vấn đề này khi cần một tài liệu sẵn sàng in. Tin tốt là chỉ với vài dòng C# và Aspose.PDF, bạn có thể loại bỏ những độ trong suốt phiền phức, xóa các lớp PDF và có được một tệp phẳng, chắc chắn, sẵn sàng cho bất kỳ máy in nào.  
+Bạn đã bao giờ tự hỏi **cách làm phẳng PDF** những tệp luôn giữ các lớp trong suốt chưa? Bạn không phải là người duy nhất. Trong nhiều quy trình—như hóa đơn điện tử, lưu trữ lưu trữ, hoặc in ấn—các đối tượng trong suốt gây ra lỗi hiển thị, đặc biệt trên các máy in cũ. Tin tốt? Chỉ vài dòng C# với Aspose.PDF có thể biến hỗn loạn trong suốt đó thành một tài liệu đặc, không trong suốt.
 
-Trong tutorial này, chúng ta sẽ đi qua toàn bộ quy trình — từ tải một PDF trong suốt đến lưu phiên bản đã làm phẳng — đồng thời giải thích vì sao việc làm phẳng lại quan trọng đối với việc in, cách chuyển đổi PDF trong suốt và các thực tiễn tốt nhất để lưu kết quả. Không có phần thừa, chỉ có giải pháp thực tế mà bạn có thể sao chép‑dán vào dự án ngay hôm nay.
+Trong hướng dẫn này chúng ta sẽ đi qua toàn bộ quy trình: cài đặt thư viện, tải một PDF có độ trong suốt, làm phẳng nó, và cuối cùng **lưu PDF đã làm phẳng**. Khi kết thúc, bạn sẽ biết cách **loại bỏ độ trong suốt khỏi các trang PDF**, và tại sao việc làm PDF đặc lại quan trọng đối với các hệ thống downstream. Không có phần thừa, chỉ có giải pháp thực tế, sao chép‑dán hoạt động ngay hôm nay.
 
-## Những Điều Bạn Cần Chuẩn Bị
+## Những gì bạn sẽ đạt được
 
-- **.NET 6.0 trở lên** (API cũng hoạt động với .NET Framework 4.6+).  
-- **Aspose.PDF for .NET** – cài đặt qua NuGet: `Install-Package Aspose.PDF`  
-- Kiến thức cơ bản về C# và Visual Studio (hoặc bất kỳ IDE nào bạn thích).  
-- Một tệp PDF có chứa độ trong suốt — ví dụ như logo có kênh alpha hoặc đồ họa vector với chế độ hòa trộn.  
+- Tải một PDF có chứa các đối tượng trong suốt (ví dụ: watermark, đồ họa vector).
+- Gọi phương thức tích hợp sẵn **làm phẳng độ trong suốt**, biến mọi yếu tố thành bitmap đặc.
+- **Lưu PDF đã làm phẳng** vào một tệp mới, in và hiển thị nhất quán ở mọi nơi.
+- Hiểu các trường hợp đặc biệt như tệp được bảo vệ bằng mật khẩu và tài liệu lớn.
+- Nhận một **hướng dẫn Aspose PDF** nhanh chóng mà bạn có thể tái sử dụng cho các thao tác PDF khác.
 
-Đó là tất cả. Nếu bạn đã có những thứ trên, bạn đã sẵn sàng làm phẳng PDF như một chuyên gia.
+### Yêu cầu trước
 
-![Hình minh hoạ cách làm phẳng PDF](image.png "Hình minh hoạ cách làm phẳng PDF")
+| Yêu cầu | Tại sao quan trọng |
+|-------------|----------------|
+| .NET 6.0 hoặc mới hơn (hoặc .NET Framework 4.6+) | Aspose.PDF for .NET hỗ trợ các runtime này; các phiên bản cũ hơn có thể thiếu API `FlattenTransparency`. |
+| Gói NuGet Aspose.PDF for .NET (v23.12 hoặc mới hơn) | Phương thức `FlattenTransparency()` được giới thiệu từ v23.5, vì vậy hãy cập nhật. |
+| Một tệp PDF thực sự sử dụng độ trong suốt (ví dụ: PDF xuất từ Adobe Illustrator) | Nếu không có đối tượng trong suốt thì không có gì để làm phẳng, phương thức sẽ không làm gì. |
+| Visual Studio 2022 hoặc bất kỳ IDE C# nào bạn thích | Để dễ dàng gỡ lỗi và chạy nhanh. |
 
-## Cách Làm Phẳng PDF – Bước‑từng‑bước với Aspose.PDF
+> **Mẹo chuyên nghiệp:** Nếu bạn không chắc PDF của mình có độ trong suốt hay không, mở nó trong Adobe Acrobat và tìm cảnh báo “Transparency” dưới *Print Production* → *Preflight*.
 
-Dưới đây là đoạn mã tối thiểu bạn cần để **làm phẳng PDF**. Đoạn code có thể chạy ngay; chỉ cần thay thế các đường dẫn placeholder bằng tệp của bạn.
+## Bước 1 – Cài đặt Aspose.PDF (hướng dẫn aspose pdf)
+
+Mở thư mục dự án của bạn trong terminal và chạy:
+
+```bash
+dotnet add package Aspose.PDF --version 23.12.0
+```
+
+Hoặc, sử dụng giao diện NuGet Package Manager trong Visual Studio và tìm kiếm **Aspose.PDF**. Gói này sẽ tự động kéo các phụ thuộc cần thiết, vì vậy bạn không cần thêm bất kỳ DLL nào.
+
+> **Tại sao lại cần bước này?** Thư viện đi kèm một engine PDF hiệu năng cao, xử lý việc làm phẳng nội bộ; tự tự xây dựng sẽ dẫn bạn vào một lỗ sâu vô tận.
+
+## Bước 2 – Tải PDF nguồn (loại bỏ độ trong suốt khỏi PDF)
+
+Tạo một ứng dụng console C# mới (hoặc chèn mã vào bất kỳ dự án hiện có nào). Đoạn mã dưới đây hiển thị đầy đủ các chỉ thị `using` và phương thức `Main` mở tệp có tên `Transparent.pdf`:
 
 ```csharp
 using System;
-using Aspose.Pdf;
+using Aspose.Pdf;   // Aspose.PDF namespace
 
 class Program
 {
     static void Main()
     {
-        // Step 1: Load the PDF document (could be a transparent PDF)
-        using var doc = new Document(@"C:\Docs\transparent.pdf");
+        // Path to the PDF that contains transparent objects
+        string sourcePath = @"YOUR_DIRECTORY\Transparent.pdf";
 
-        // Step 2: Flatten any transparency in the document.
-        // This removes PDF layers and merges all content into a single rasterized page.
-        doc.FlattenTransparency();
-
-        // Step 3: Save the flattened PDF to a new file.
-        // Use SaveOptions if you need specific compression or PDF version.
-        doc.Save(@"C:\Docs\flat.pdf");
-        
-        Console.WriteLine("PDF has been flattened and saved successfully.");
+        // Load the document – this automatically parses all pages, resources, etc.
+        using (Document pdfDocument = new Document(sourcePath))
+        {
+            Console.WriteLine($"Loaded PDF with {pdfDocument.Pages.Count} page(s).");
+            // Next step will flatten transparency
+        }
     }
 }
 ```
 
-### Tại sao `FlattenTransparency()` hoạt động
+**Giải thích:**  
+- `Document` là điểm vào; nó đọc tệp vào bộ nhớ.  
+- Đặt nó trong khối `using` đảm bảo tất cả tài nguyên không quản lý được giải phóng kịp thời—rất quan trọng với các PDF lớn.
 
-Phương thức `FlattenTransparency()` của Aspose.PDF duyệt qua từng trang, raster hoá bất kỳ đối tượng trong suốt nào, và ghi lại luồng nội dung sao cho PDF kết quả **không còn nhóm trong suốt**. Trong thuật ngữ PDF, nó thực chất **loại bỏ các lớp PDF**, biến mọi thứ thành bitmap phẳng hoặc các nét vector rắn. Đây chính là yêu cầu của hầu hết các máy in tốc độ cao, vì chúng không thể xử lý các chế độ hòa trộn phức tạp.
+> **Trường hợp đặc biệt:** Nếu PDF được bảo vệ bằng mật khẩu, truyền mật khẩu vào constructor: `new Document(sourcePath, new LoadOptions { Password = "secret" })`.
 
-### Mẹo chuyên nghiệp
+## Bước 3 – Làm phẳng độ trong suốt (tạo PDF đặc)
 
-Nếu bạn đang làm việc với tài liệu đa trang, bạn có thể muốn **làm phẳng từng trang một** để tiết kiệm bộ nhớ:
+Bây giờ tài liệu đã ở trong bộ nhớ, gọi phương thức thực hiện công việc nặng:
 
 ```csharp
-foreach (Page page in doc.Pages)
+// Inside the using block from Step 2
+pdfDocument.FlattenTransparency();
+Console.WriteLine("Transparency has been flattened – the PDF is now opaque.");
+```
+
+**Điều gì đang xảy ra phía sau?**  
+Aspose.PDF raster hoá mọi đối tượng trong suốt (bao gồm chế độ hòa trộn, cạnh mềm và mặt nạ độ trong suốt) lên nền đặc. Nội dung trang kết quả là các lệnh vẽ thông thường không có thuộc tính trong suốt, vì vậy bất kỳ trình xem hay máy in nào cũng sẽ hiển thị chúng đúng như trên màn hình.
+
+> **Tại sao bạn nên làm phẳng:** Một số máy in cũ diễn giải độ trong suốt không đúng, gây thiếu đồ họa hoặc thay đổi màu sắc. Làm phẳng đảm bảo kết quả *what‑you‑see‑is‑what‑you‑get*.
+
+## Bước 4 – Lưu PDF đã làm phẳng (lưu pdf đã làm phẳng)
+
+Cuối cùng, ghi tài liệu đã chỉnh sửa vào một tệp mới. Chúng ta sẽ đặt tên là `Flattened.pdf` để giữ nguyên bản gốc:
+
+```csharp
+// Still inside the using block
+string outputPath = @"YOUR_DIRECTORY\Flattened.pdf";
+pdfDocument.Save(outputPath);
+Console.WriteLine($"Flattened PDF saved to: {outputPath}");
+```
+
+Khi mở `Flattened.pdf` trong bất kỳ trình xem nào, bạn sẽ nhận thấy logo trước đây trong suốt giờ đã xuất hiện đặc. Nếu bạn kiểm tra các đối tượng PDF của tệp (ví dụ: bằng *PDF‑Tron* hoặc *iText*), bạn sẽ thấy các mục `/Transparency` đã biến mất.
+
+> **Mẹo chuyên nghiệp:** Nếu cần giữ nguyên siêu dữ liệu gốc (tác giả, tiêu đề, v.v.), sao chép chúng trước khi làm phẳng:
+
+```csharp
+var meta = pdfDocument.Info;
+pdfDocument.FlattenTransparency();
+pdfDocument.Info = meta; // restore metadata
+```
+
+## Bước 5 – Xác minh kết quả (tạo PDF đặc)
+
+Kiểm tra nhanh bằng mắt thường thường là đủ, nhưng bạn cũng có thể xác nhận bằng chương trình rằng không còn độ trong suốt nào:
+
+```csharp
+bool containsTransparency = false;
+foreach (Page page in pdfDocument.Pages)
 {
-    page.FlattenTransparency();
+    if (page.Resources?.XObjects?.Count > 0)
+    {
+        foreach (var xobj in page.Resources.XObjects.Values)
+        {
+            if (xobj is FormXObject form && form.Transparency != null)
+            {
+                containsTransparency = true;
+                break;
+            }
+        }
+    }
 }
+Console.WriteLine(containsTransparency
+    ? "Warning: some transparency still exists."
+    : "Success: PDF is fully opaque.");
 ```
 
-## Hiểu về Độ Trong Suốt và Các Lớp trong PDF (loại bỏ các lớp PDF)
+Nếu đầu ra hiển thị **Success**, bạn đã thực sự **tạo PDF đặc**.
 
-Các tệp PDF có thể chứa **đối tượng trong suốt**, **mặt nạ mềm**, và **nhóm nội dung tùy chọn (OCG)** — những thứ chúng ta thường gọi là *lớp*. Khi mở PDF trong trình xem, các lớp này có thể được bật hoặc tắt, nhưng nhiều công cụ downstream lại hoàn toàn bỏ qua chúng, dẫn đến việc mất đồ họa hoặc màu sắc sai.
+## Những lỗi thường gặp và cách tránh
 
-**Việc loại bỏ các lớp PDF** không chỉ là một thay đổi về mặt hình ảnh; nó là một thay đổi cấu trúc. Bằng cách làm phẳng, bạn:
+| Triệu chứng | Nguyên nhân có thể | Cách khắc phục |
+|---------|--------------|-----|
+| `FlattenTransparency()` ném `NotSupportedException` | Sử dụng phiên bản Aspose.PDF rất cũ (< 23.5) | Cập nhật gói NuGet. |
+| PDF đầu ra lớn hơn mong đợi | Làm phẳng raster hoá vector, làm tăng kích thước tệp | Áp dụng nén: `pdfDocument.Compression = CompressionType.Zip;` trước khi lưu. |
+| Một số hình ảnh bị mờ sau khi làm phẳng | Hình ảnh nguồn độ phân giải thấp đã được phóng to trong quá trình raster hoá | Tăng DPI raster hoá: `pdfDocument.FlattenTransparency(300);` (phương thức overload chấp nhận DPI). |
+| PDF được bảo vệ bằng mật khẩu không tải được | Không cung cấp mật khẩu | Sử dụng `LoadOptions` với mật khẩu đúng. |
 
-1. **Đảm bảo độ trung thực hình ảnh** trên mọi thiết bị.  
-2. **Tránh lỗi render** trên các máy in không hỗ trợ mô hình trong suốt PDF 1.4+.  
-3. **Giảm kích thước tệp** trong một số trường hợp vì các dictionary tài nguyên phụ được loại bỏ.
+## Ví dụ đầy đủ, có thể chạy
 
-Nếu bạn cần giữ lại các lớp gốc cho mục đích lưu trữ, luôn **lưu một bản sao trước khi làm phẳng**. Đoạn code ở trên hoạt động trên một bản sao (`doc.Save("flat.pdf")`), để nguyên tệp nguồn không bị thay đổi.
-
-## Làm Phẳng PDF cho In – Tại Sao Quan Trọng
-
-Các máy in, đặc biệt là những máy sử dụng **PostScript** hoặc **PCL**, thường từ chối các PDF có độ trong suốt vì engine render không thể giải quyết các chế độ hòa trộn ngay lập tức. Bằng cách **làm phẳng PDF cho in**, bạn chuyển các phép hòa trộn đó thành một lệnh vẽ không trong suốt duy nhất.
-
-### Các tình huống phổ biến yêu cầu làm phẳng
-
-- **In offset thương mại** – RIP (Raster Image Processor) yêu cầu vector phẳng.  
-- **Quy trình in kỹ thuật số** – nhiều dịch vụ in trực tuyến từ chối PDF có độ trong suốt để tránh kết quả không mong muốn.  
-- **Nộp hồ sơ pháp lý** – một số cổng thông tin chính phủ yêu cầu PDF phẳng để tuân thủ quy định.
-
-Nếu bạn không chắc tài liệu có cần làm phẳng hay không, một cách nhanh chóng là mở nó trong Adobe Acrobat và xem **Print Production → Output Preview**. Bất kỳ đối tượng nào được tô màu cam đều cho thấy độ trong suốt cần được làm phẳng.
-
-## Lưu PDF Đã Làm Phẳng – Thực Tiễn Tốt Nhất (lưu PDF đã làm phẳng)
-
-Khi bạn gọi `doc.Save()`, Aspose.PDF ghi tài liệu bằng các thiết lập mặc định (PDF 1.7, nén không mất dữ liệu). Tuy nhiên, bạn có thể tinh chỉnh đầu ra để tối ưu kích thước, khả năng tương thích hoặc bảo mật.
-
-### Ví dụ: Lưu với nén và tuân thủ PDF/A‑1b
-
-```csharp
-var saveOptions = new PdfSaveOptions
-{
-    CompressionLevel = CompressionLevel.Best,
-    PdfACompliance = PdfACompliance.PdfA1b
-};
-
-doc.Save(@"C:\Docs\flat_compressed.pdf", saveOptions);
-```
-
-- **CompressionLevel.Best** nén tệp mà không làm giảm chất lượng — lý tưởng cho việc gửi email.  
-- **PdfACompliance.PdfA1b** đảm bảo PDF sẵn sàng lưu trữ, đáp ứng yêu cầu của nhiều hồ sơ doanh nghiệp.
-
-### Trường hợp đặc biệt: PDF có mật khẩu
-
-Nếu PDF nguồn được mã hoá, hãy tải nó với mật khẩu thích hợp trước:
-
-```csharp
-var loadOptions = new PdfLoadOptions { Password = "mySecret" };
-using var doc = new Document(@"C:\Docs\protected.pdf", loadOptions);
-doc.FlattenTransparency();
-doc.Save(@"C:\Docs\unlocked_flat.pdf");
-```
-
-Aspose.PDF sẽ giữ nguyên các thiết lập bảo mật gốc trừ khi bạn thay đổi chúng trong `PdfSaveOptions`.
-
-## Chuyển Đổi PDF Trong Suốt thành Tệp Phẳng (chuyển đổi PDF trong suốt)
-
-Đôi khi bạn không chỉ muốn một PDF phẳng — bạn cần một **hình raster** (PNG, JPEG) để hiển thị trên web hoặc tạo thumbnail. Lệnh `FlattenTransparency()` có thể được theo sau bởi bước chuyển đổi:
-
-```csharp
-// Convert the first page of the flattened PDF to PNG
-var page = doc.Pages[1];
-using var imageStream = new MemoryStream();
-page.ConvertToImage(ImageFormat.Png, imageStream);
-File.WriteAllBytes(@"C:\Docs\preview.png", imageStream.ToArray());
-```
-
-- **Tại sao raster hoá?** Vì trình duyệt và nhiều nền tảng CMS hiển thị hình ảnh nhanh hơn PDF.  
-- **Mẹo:** Đặt DPI cao hơn (`page.ConvertToImage(ImageFormat.Png, 300)`) để có thumbnail chất lượng in.
-
-## Ví Dụ Hoàn Chỉnh – Từ Đầu Đến Cuối
-
-Kết hợp mọi thứ lại, dưới đây là một chương trình duy nhất thực hiện:
-
-1. Tải PDF trong suốt.  
-2. Tùy chọn gỡ bảo vệ bằng mật khẩu.  
-3. Làm phẳng độ trong suốt (loại bỏ các lớp).  
-4. Lưu PDF/A‑1b đã nén.  
-5. Tạo preview PNG.
+Dưới đây là chương trình hoàn chỉnh bạn có thể sao chép‑dán vào `Program.cs`. Nó bao gồm tất cả các bước, xử lý lỗi và các tùy chỉnh tùy chọn.
 
 ```csharp
 using System;
-using System.IO;
 using Aspose.Pdf;
-using Aspose.Pdf.Devices; // For image conversion
+using Aspose.Pdf.Devices; // Only needed if you want custom DPI
 
 class FlattenPdfDemo
 {
     static void Main()
     {
-        // ------------------------------------------------------------------
-        // 1️⃣ Load the PDF (handle password if needed)
-        // ------------------------------------------------------------------
-        var loadOpts = new PdfLoadOptions { Password = "" }; // leave empty if not protected
-        using var doc = new Document(@"C:\Docs\transparent.pdf", loadOpts);
+        // -------------------------------------------------
+        // 1️⃣  Configuration – paths & optional settings
+        // -------------------------------------------------
+        string sourcePath = @"YOUR_DIRECTORY\Transparent.pdf";
+        string outputPath = @"YOUR_DIRECTORY\Flattened.pdf";
 
-        // ------------------------------------------------------------------
-        // 2️⃣ Flatten transparency – this removes PDF layers
-        // ------------------------------------------------------------------
-        foreach (Page page in doc.Pages)
-            page.FlattenTransparency();
-
-        // ------------------------------------------------------------------
-        // 3️⃣ Save the flattened PDF with compression and PDF/A compliance
-        // ------------------------------------------------------------------
-        var saveOpts = new PdfSaveOptions
+        // Optional: set compression to keep file size reasonable
+        var saveOptions = new PdfSaveOptions
         {
-            CompressionLevel = CompressionLevel.Best,
-            PdfACompliance = PdfACompliance.PdfA1b
+            Compression = CompressionType.Zip
         };
-        string flatPath = @"C:\Docs\flat_compressed.pdf";
-        doc.Save(flatPath, saveOpts);
-        Console.WriteLine($"Flattened PDF saved to: {flatPath}");
 
-        // ------------------------------------------------------------------
-        // 4️⃣ (Optional) Generate a PNG preview – useful after convert transparent PDF
-        // ------------------------------------------------------------------
-        var pngPath = @"C:\Docs\preview.png";
-        var pageToRender = doc.Pages[1];
-        using var pngStream = new MemoryStream();
-        var resolution = new Resolution(300); // 300 DPI for print quality
-        var pngDevice = new PngDevice(resolution);
-        pngDevice.Process(pageToRender, pngStream);
-        File.WriteAllBytes(pngPath, pngStream.ToArray());
-        Console.WriteLine($"Preview image saved to: {pngPath}");
+        try
+        {
+            // -------------------------------------------------
+            // 2️⃣  Load the PDF (remove transparency from PDF)
+            // -------------------------------------------------
+            using (Document pdfDocument = new Document(sourcePath))
+            {
+                Console.WriteLine($"Loaded PDF with {pdfDocument.Pages.Count} page(s).");
+
+                // -------------------------------------------------
+                // 3️⃣  Flatten transparency – makes PDF opaque
+                // -------------------------------------------------
+                // You can pass a DPI value if you need higher quality:
+                // pdfDocument.FlattenTransparency(300);
+                pdfDocument.FlattenTransparency();
+                Console.WriteLine("Transparency flattened – PDF is now opaque.");
+
+                // -------------------------------------------------
+                // 4️⃣  Save the result (save flattened PDF)
+                // -------------------------------------------------
+                pdfDocument.Save(outputPath, saveOptions);
+                Console.WriteLine($"✅ Flattened PDF saved to: {outputPath}");
+            }
+
+            // -------------------------------------------------
+            // 5️⃣  Quick verification (make PDF opaque)
+            // -------------------------------------------------
+            VerifyOpacity(outputPath);
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"❌ An error occurred: {ex.Message}");
+        }
+    }
+
+    // Helper method to double‑check that no transparency survived
+    static void VerifyOpacity(string pdfPath)
+    {
+        using (Document doc = new Document(pdfPath))
+        {
+            bool hasTransparency = false;
+            foreach (Page page in doc.Pages)
+            {
+                if (page.Resources?.XObjects?.Count > 0)
+                {
+                    foreach (var xobj in page.Resources.XObjects.Values)
+                    {
+                        if (xobj is FormXObject form && form.Transparency != null)
+                        {
+                            hasTransparency = true;
+                            break;
+                        }
+                    }
+                }
+                if (hasTransparency) break;
+            }
+
+            Console.WriteLine(hasTransparency
+                ? "⚠️ Transparency still detected."
+                : "🎉 No transparency found – PDF is fully opaque.");
+        }
     }
 }
 ```
 
-**Kết quả mong đợi** khi chạy chương trình:
+**Kết quả mong đợi**
 
 ```
-Flattened PDF saved to: C:\Docs\flat_compressed.pdf
-Preview image saved to: C:\Docs\preview.png
+Loaded PDF with 3 page(s).
+Transparency flattened – PDF is now opaque.
+✅ Flattened PDF saved to: YOUR_DIRECTORY\Flattened.pdf
+🎉 No transparency found – PDF is fully opaque.
 ```
 
-Mở `flat_compressed.pdf` bằng bất kỳ trình xem nào — không còn độ trong suốt, không còn lớp, và nó in mà không gặp vấn đề. Mở `preview.png` để xem ảnh raster sắc nét của trang đầu tiên.
+Chạy chương trình, mở `Flattened.pdf` trong Adobe Acrobat, và bạn sẽ thấy tất cả các lớp trong suốt trước đây đã được hiển thị đặc.
 
-## Câu Hỏi Thường Gặp (FAQ)
+## Các bước tiếp theo & các chủ đề liên quan
 
-**H: Làm phẳng có ảnh hưởng đến chất lượng vector không?**  
-Đ: Không. Aspose.PDF raster hoá chỉ các đối tượng trong suốt; các vector thuần vẫn giữ được khả năng chỉnh sửa. Nếu toàn bộ trang là trong suốt, toàn trang sẽ trở thành hình raster, điều này là mong muốn để đảm bảo an toàn khi in.
-
-**H: Tôi có thể làm phẳng chỉ một số trang cụ thể không?**  
-Đ: Chắc chắn. Duyệt `doc.Pages` và gọi `FlattenTransparency()` chỉ trên những trang bạn cần.
+- **
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: This tutorial demonstrates how to create a PDF document, set its default language and title, and insert a level‑1 heading using the Document, ITaggedContent, StructureElement, and HeaderElement classes.
+//ExStepSummary:0: Define the output file name for the generated PDF.
+//ExStepSummary:1: Create a new empty PDF document instance (`pdfDoc`) inside a `using` block.
+//ExStepSummary:2: Obtain the `ITaggedContent` interface to work with tagged PDF structures.
+//ExStepSummary:3: Set the document's default language to English (US) and assign a title metadata.
+//ExStepSummary:4: Retrieve the root element of the logical structure tree.
+//ExStepSummary:5: Build a level‑1 header element, set its displayed text, and specify its language.
+//ExStepSummary:6: Append the header element to the root, causing the heading to appear in the PDF.
+//ExStepSummary:7: Save the PDF to the specified file and close the document scope.
+//ExStepSummary:8: Output a confirmation message to the console.
+//ExStepImage:6:images/1.png
+//ExStep:0-
+const string resultFile = "pdf_with_title.pdf";
+
+//ExStep:1-
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:2-
+ITaggedContent tagContent = pdfDoc.TaggedContent;
+
+//ExStep:3-
+tagContent.SetLanguage("en-US");
+tagContent.SetTitle("PDF Example with Header");
+
+//ExStep:4-
+StructureElement rootElement = tagContent.RootElement;
+
+//ExStep:5-
+HeaderElement header = tagContent.CreateHeaderElement(1);
+header.SetText("Demo Header");
+header.Language = "en-US";
+
+//ExStep:6-
+rootElement.AppendChild(header);
+
+//ExStep:7-
+pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"PDF generated and stored at '{resultFile}'.");
+//ExEnd

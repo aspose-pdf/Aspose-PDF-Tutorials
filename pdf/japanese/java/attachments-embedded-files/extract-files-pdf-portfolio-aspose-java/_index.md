@@ -11,23 +11,14 @@ url: /ja/java/attachments-embedded-files/extract-files-pdf-portfolio-aspose-java
 weight: 1
 ---
 
-方法"
 
-Then Introduction etc.
 
-We'll translate each section.
 
-Make sure to keep bold formatting (**text**) and code formatting.
 
-Also keep markdown links unchanged.
 
-Let's produce the Japanese translation.
 
-Be careful with bullet lists: keep dash or numbers.
 
-Also keep the table.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 

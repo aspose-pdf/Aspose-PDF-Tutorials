@@ -38,6 +38,9 @@
 ### [إضافة مستطيلات وتكوين صفحات PDF باستخدام Aspose.PDF .NET: دليل شامل](./aspose-pdf-net-add-rectangles-configure-pages/)
 أتقن إضافة المستطيلات وتكوين الصفحات في ملفات PDF باستخدام Aspose.PDF لـ .NET. اتبع هذا الدليل لتعلم تقنيات معالجة المستندات بفعالية.
 
+### [إضافة مستطيل إلى PDF باستخدام C# – دليل برمجة كامل](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
+تعرف على كيفية إضافة مستطيل إلى مستند PDF باستخدام C# مع Aspose.PDF .NET من خلال دليل برمجة شامل خطوة بخطوة.
+
 ### [Aspose.PDF .NET: تعيين هوامش PDF وتخصيص الرؤوس والتذييلات](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 أتقن فن ضبط هوامش الصفحات وتخصيص الرؤوس والتذييلات في ملفات PDF باستخدام Aspose.PDF لـ .NET. اتبع هذا الدليل المفصل لتحسين تناسق تخطيط المستند.
 
@@ -76,6 +79,9 @@
 
 ### [تحسين كفاءة ملفات PDF: إزالة الكائنات غير المستخدمة باستخدام Aspose.PDF لـ .NET](./optimize-pdf-aspose-pdf-net-remove-unused-objects/)
 تعرف على كيفية تحسين ملفات PDF عن طريق إزالة الكائنات غير المستخدمة باستخدام Aspose.PDF لـ .NET، مما يؤدي إلى تحسين حجم الملف والأداء.
+
+### [كيفية إزالة الخطوط المدمجة من ملفات PDF – دليل خطوة بخطوة بلغة C#](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
+تعرف على كيفية إزالة الخطوط المدمجة من ملفات PDF باستخدام Aspose.PDF لـ .NET مع مثال عملي بلغة C#.
 
 ### [معالجة صفحات PDF بكفاءة باستخدام Aspose.PDF لـ .NET: دليل المطور](./manipulate-pdf-pages-aspose-dot-net/)
 تعلم كيفية التعامل بكفاءة مع صفحات PDF باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل التدوير والتكبير/التصغير وضبط الأصول دون الحاجة إلى Adobe Acrobat.
@@ -190,6 +196,8 @@
 
 ### [كيفية إزالة إجراءات فتح ملفات PDF باستخدام Aspose.PDF لـ .NET: دليل شامل](./remove-pdf-open-action-aspose-dotnet-guide/)
 تعرّف على كيفية إزالة عمليات الفتح غير المرغوب فيها من ملفات PDF باستخدام Aspose.PDF لـ .NET. يقدم هذا الدليل إرشادات خطوة بخطوة وأفضل الممارسات.
+
+### [إزالة الخط من ملف PDF باستخدام Aspose – دليل خطوة بخطوة](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
 
 ### [كيفية تقسيم صفحات PDF باستخدام Aspose.PDF لـ .NET: دليل شامل](./mastering-pdf-page-splitting-aspose-pdf-net/)
 تعلّم كيفية تقسيم صفحات PDF بكفاءة إلى ملفات منفصلة باستخدام Aspose.PDF لـ .NET مع هذا الدليل الشامل. طوّر مهاراتك في التعامل مع المستندات اليوم.
@@ -309,10 +317,17 @@
 تعلّم كيفية تقسيم ملفات PDF متعددة الصفحات وإنشاء ملفات PDF جديدة باستخدام Aspose.PDF .NET. اتبع هذا الدليل الشامل مع أمثلة برمجية.
 
 ### [الدليل الشامل لمعالجة ملفات PDF باستخدام Aspose.PDF .NET: تحميل وحفظ واستبدال النص بكفاءة](./master-pdf-manipulation-aspose-pdf-net/)
+### [كيفية تعديل PDF في C# – إخفاء النص وإزالة المحتوى](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
 
+### [كيفية إصلاح ملفات PDF في C# – إصلاح ملفات PDF التالفة بسرعة](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
+تعرف على طريقة إصلاح ملفات PDF التالفة بسرعة باستخدام C# ومكتبة Aspose.PDF.
+
+### [كيفية إخفاء محتوى PDF في C# باستخدام Aspose PDF – دليل شامل](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
+
+### [كيفية تسوية ملف PDF باستخدام Aspose.PDF – دليل شامل](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+
+### [كيفية مقارنة ملفات PDF باستخدام Aspose – دليل خطوة بخطوة](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
 ### [تسوية طبقات PDF في C# – دليل التصدير والاستخراج](./flatten-pdf-layers-in-c-export-extract-guide/)
-
-### [كيفية تسوية PDF باستخدام Aspose.PDF – دليل شامل](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
 
 ### [مقارنة PDF بصري في C# – دليل كامل لمقارنة ملفين PDF](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
 

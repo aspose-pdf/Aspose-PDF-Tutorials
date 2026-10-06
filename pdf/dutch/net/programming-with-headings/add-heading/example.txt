@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Deze tutorial laat zien hoe je een PDF‑document maakt, de standaardtaal en titel instelt, en een niveau‑1‑kop invoegt met behulp van de Document-, ITaggedContent-, StructureElement- en HeaderElement‑klassen.
+//ExStepSummary:0: Definieer de bestandsnaam voor de gegenereerde PDF.
+//ExStepSummary:1: Maak een nieuwe lege PDF‑documentinstantie (`pdfDoc`) aan binnen een `using`‑blok.
+//ExStepSummary:2: Verkrijg de `ITaggedContent`‑interface om met getagde PDF‑structuren te werken.
+//ExStepSummary:3: Stel de standaardtaal van het document in op Engels (VS) en wijs een titel‑metadata toe.
+//ExStepSummary:4: Haal het root‑element van de logische structuurboom op.
+//ExStepSummary:5: Bouw een niveau‑1‑kop‑element, stel de weergegeven tekst in en geef de taal op.
+//ExStepSummary:6: Voeg het kop‑element toe aan de root, waardoor de kop in de PDF verschijnt.
+//ExStepSummary:7: Sla de PDF op naar het opgegeven bestand en sluit de document‑scope.
+//ExStepSummary:8: Geef een bevestigingsbericht weer op de console.
+//ExStepImage:6:images/1.png
+//ExStep:0-
+const string resultFile = "pdf_with_title.pdf";
+
+//ExStep:1-
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:2-
+ITaggedContent tagContent = pdfDoc.TaggedContent;
+
+//ExStep:3-
+tagContent.SetLanguage("en-US");
+tagContent.SetTitle("PDF Example with Header");
+
+//ExStep:4-
+StructureElement rootElement = tagContent.RootElement;
+
+//ExStep:5-
+HeaderElement header = tagContent.CreateHeaderElement(1);
+header.SetText("Demo Header");
+header.Language = "en-US";
+
+//ExStep:6-
+rootElement.AppendChild(header);
+
+//ExStep:7-
+pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"PDF generated and stored at '{resultFile}'.");
+//ExEnd

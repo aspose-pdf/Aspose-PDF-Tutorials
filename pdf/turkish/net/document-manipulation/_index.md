@@ -16,7 +16,6 @@
 Ayrıntılı Aspose.PDF .NET eğitimlerimizle PDF belge düzenlemede ustalaşın. Bu adım adım kılavuzlar, belge yapısıyla nasıl çalışılacağını, mevcut PDF'leri nasıl değiştireceğinizi, belgeleri nasıl böleceğinizi ve birleştireceğinizi, sayfalar nasıl ekleyeceğinizi ve kaldıracağınızı ve PDF içeriğinizi programatik olarak nasıl düzenleyeceğinizi gösterir. Her eğitim, temiz, sürdürülebilir kodla PDF belgelerini etkili bir şekilde düzenleyen uygulamalar oluşturmanıza yardımcı olmak için çalışan C# kod örnekleri, uygulama notları ve en iyi uygulamaları içerir.
 
 ## Mevcut Eğitimler
-
 ### [Aspose.PDF for .NET Kullanarak PDF'lere Tarih ve Saat Damgaları Ekleyin](./aspose-pdf-net-date-time-stamps-annotations/)
 Aspose.PDF for .NET kullanarak PDF belgelerinize tarih ve saat damgalarını veya açıklamaları nasıl etkili bir şekilde ekleyeceğinizi öğrenin. Bu kolay takip edilebilir adımlarla belge yönetimini geliştirin.
 
@@ -37,6 +36,9 @@ Aspose.PDF for .NET kullanarak düğme alanlarına etkileşimli JavaScript ekley
 
 ### [Aspose.PDF .NET ile Dikdörtgenler Ekleyin ve PDF Sayfalarını Yapılandırın: Kapsamlı Bir Kılavuz](./aspose-pdf-net-add-rectangles-configure-pages/)
 Aspose.PDF for .NET kullanarak PDF'lere dikdörtgen ekleme ve sayfaları yapılandırma konusunda uzmanlaşın. Belge düzenleme tekniklerini etkili bir şekilde öğrenmek için bu kılavuzu izleyin.
+
+### [C# ile PDF'ye Dikdörtgen Ekleme – Tam Programlama Kılavuzu](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
+C# ve Aspose.PDF for .NET kullanarak PDF belgelerine dikdörtgen eklemeyi adım adım öğrenin ve özelleştirilmiş düzenler oluşturun.
 
 ### [Aspose.PDF .NET: PDF Kenar Boşluklarını Ayarlayın ve Başlıkları/Altbilgileri Özelleştirin](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 Aspose.PDF for .NET ile PDF'lerinizdeki sayfa kenar boşluklarını ayarlama ve üstbilgileri/altbilgileri özelleştirme sanatında ustalaşın. Belge düzeni tutarlılığını artırmak için bu ayrıntılı kılavuzu izleyin.
@@ -62,7 +64,7 @@ C# dilinde Aspose.PDF kullanarak PDF'lerdeki alanları verimli bir şekilde nas�
 ### [Aspose.PDF for .NET Kullanarak N-Up PDF'leri Verimli Şekilde Oluşturun: Adım Adım Kılavuz](./create-n-up-pdfs-aspose-pdf-net-guide/)
 Aspose.PDF for .NET'in N-Up özelliğiyle birden fazla PDF dosyasını nasıl birleştireceğinizi öğrenin. Belge işlemenizi kolaylaştırmak için bu kapsamlı kılavuzu izleyin.
 
-### [Aspose.PDF kullanarak .NET'te N-Up Sayfaları Oluşturma: Kapsamlı Bir Kılavuz](./create-n-up-pages-aspose-pdf-dotnet/)
+### [Aspose.PDF for .NET ile N-Up Sayfaları Oluşturma: Kapsamlı Bir Kılavuz](./create-n-up-pages-aspose-pdf-dotnet/)
 Aspose.PDF for .NET ile tek sayfalardan çok sayfalı (N-Up) PDF belgelerinin nasıl oluşturulacağını öğrenin. Belge işleme iş akışlarınızı verimli bir şekilde kolaylaştırın.
 
 ### [Aspose.PDF .NET ile N-up PDF Düzeni Oluşturun](./create-nup-pdf-layout-aspose-pdf-net/)
@@ -172,6 +174,9 @@ Aspose.PDF for .NET kullanarak PDF belgelerindeki gizli metinleri nasıl yönete
 
 ### [.NET için Aspose.PDF Kullanarak PDF'ye Sayfalar Nasıl Eklenir: Adım Adım Kılavuz](./insert-pages-into-pdf-aspose-net/)
 Aspose.PDF for .NET kullanarak bir PDF'den diğerine belirli sayfaları nasıl ekleyeceğinizi öğrenin. Belge düzenleme becerilerinizi geliştirmek için bu adım adım kılavuzu izleyin.
+
+### [.NET için Aspose.PDF Kullanarak Birden Fazla PDF'yi Verimli Şekilde Nasıl Birleştirirsiniz | Belge İşleme Kılavuzu](./append-multiple-pdf-files-aspose-pdf-dotnet/)
+Aspose.PDF for .NET kullanarak birden fazla PDF belgesini tek bir dosyada nasıl etkili bir şekilde birleştirebileceğinizi öğrenin. Bu kılavuz, belge yönetimi sürecinizi kolaylaştırmak için adım adım talimatlar, kod örnekleri ve ipuçları sunar.
 
 ### [.NET için Aspose.PDF Kullanarak Birden Fazla PDF'yi Verimli Şekilde Nasıl Birleştirirsiniz | Belge İşleme Kılavuzu](./append-multiple-pdfs-aspose-pdf-dotnet/)
 Aspose.PDF for .NET kullanarak birden fazla PDF belgesini tek bir dosyada nasıl etkili bir şekilde birleştireceğinizi öğrenin. Bu kılavuz, belge yönetimi sürecinizi kolaylaştırmak için adım adım talimatlar, kod örnekleri ve ipuçları sunar.
@@ -309,7 +314,23 @@ Aspose.PDF for .NET kullanarak PDF sayfalarını ayrı dosyalara nasıl bölece�
 Çok sayfalı PDF'leri nasıl böleceğinizi ve .NET için Aspose.PDF kullanarak yeni PDF dosyaları nasıl oluşturacağınızı öğrenin. Kod örnekleriyle bu kapsamlı kılavuzu izleyin.
 
 ### [Aspose.PDF .NET ile PDF Düzenlemeye İlişkin Nihai Kılavuz: Metni Verimli Şekilde Yükleyin, Kaydedin ve Değiştirin](./master-pdf-manipulation-aspose-pdf-net/)
-Aspose.PDF for .NET kullanarak PDF düzenlemede ustalaşmayı öğrenin. Bu kılavuz, PDF'lerde metin yükleme, kaydetme ve değiştirmeyi kapsar ve verimlilik arayan geliştiriciler için idealdir.
+
+### [Aspose ile PDF'ten Yazı Tipi Kaldırma – Adım Adım Kılavuz](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
+Aspose kullanarak PDF dosyalarından yazı tiplerini nasıl kaldıracağınızı adım adım öğrenin.
+
+### [Aspose ile PDF'leri Karşılaştırma – Adım Adım Kılavuz](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
+Aspose.PDF for .NET kullanarak iki PDF dosyasını nasıl karşılaştıracağınızı ve farkları programatik olarak tespit edeceğinizi öğrenin.
+
+### [C# ile Aspose PDF Kullanarak PDF Kırpma – Tam Kılavuz](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
+Aspose PDF for .NET ile C# kullanarak PDF belgelerindeki hassas bilgileri güvenli bir şekilde kırpmayı adım adım öğrenin.
+
+### [C# ile PDF Kırpma – Metin Gizleme ve İçerik Kaldırma](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
+C# ve Aspose.PDF for .NET kullanarak PDF belgelerindeki hassas metinleri gizlemeyi ve istenmeyen içerikleri kaldırmayı öğrenin.
+
+### [C# ile PDF Onarma – Bozuk PDF Dosyalarını Hızlıca Düzeltin](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
+Aspose.PDF for .NET kullanarak bozuk PDF dosyalarını hızlı ve güvenli bir şekilde onarmayı öğrenin.
+### [PDF'de Gömülü Yazı Tiplerini Kaldırma – Adım Adım C# Kılavuzu](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
+Aspose.PDF for .NET kullanarak PDF dosyalarından gömülü yazı tiplerini nasıl kaldıracağınızı öğrenin. Bu adım adım kılavuzla belge boyutunu azaltın.
 
 ### [C# ile PDF Katmanlarını Düzleştirme – Dışa Aktarma ve Çıkarma Kılavuzu](./flatten-pdf-layers-in-c-export-extract-guide/)
 C# kullanarak PDF katmanlarını düzleştirip dışa aktararak ve çıkararak belge boyutunu azaltmayı ve içeriği korumayı öğrenin.

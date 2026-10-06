@@ -1,0 +1,7 @@
+Title: How to add text PDF with Aspose.PDF in C#
+Slug: how-to-add-text-pdf-with-aspose-pdf-in-c
+Category: programming-with-text
+ProcessedDate: 2026-09-28T08:00:10.215487
+SourceRepo: AI Search API
+Keywords: how to add text pdf, position text in pdf, insert text pdf page, aspose pdf add text, access specific pdf page
+PRNumber: 136

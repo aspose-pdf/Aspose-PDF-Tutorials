@@ -16,7 +16,6 @@
 자세한 Aspose.PDF .NET 튜토리얼을 통해 PDF 문서 조작을 마스터하세요. 이 단계별 가이드는 문서 구조 작업, 기존 PDF 수정, 문서 분할 및 병합, 페이지 추가 및 제거, PDF 콘텐츠 프로그래밍 방식 구성 방법을 보여줍니다. 각 튜토리얼에는 C# 코드 예제, 구현 노트, 그리고 모범 사례가 포함되어 있어 깔끔하고 유지 관리가 용이한 코드로 PDF 문서를 효율적으로 조작하는 애플리케이션을 구축하는 데 도움이 됩니다.
 
 ## 사용 가능한 튜토리얼
-
 ### [Aspose.PDF for .NET을 사용하여 PDF에 날짜 및 시간 스탬프 추가](./aspose-pdf-net-date-time-stamps-annotations/)
 Aspose.PDF for .NET을 사용하여 PDF 문서에 날짜 및 시간 스탬프나 주석을 효율적으로 추가하는 방법을 알아보세요. 따라 하기 쉬운 단계들을 통해 문서 관리를 더욱 효율적으로 개선해 보세요.
 
@@ -37,6 +36,8 @@ Aspose.PDF for .NET을 사용하여 PDF 문서에 페이지 나누기를 추가�
 
 ### [Aspose.PDF .NET을 사용하여 사각형 추가 및 PDF 페이지 구성: 포괄적인 가이드](./aspose-pdf-net-add-rectangles-configure-pages/)
 Aspose.PDF for .NET을 사용하여 PDF에 사각형을 추가하고 페이지를 구성하는 방법을 익혀보세요. 이 가이드를 따라 문서 조작 기법을 효과적으로 익혀보세요.
+
+### [C#를 사용하여 PDF에 사각형 추가 – 완전 프로그래밍 가이드](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
 
 ### [Aspose.PDF .NET: PDF 여백 설정 및 머리글/바닥글 사용자 정의](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 Aspose.PDF for .NET을 사용하여 PDF의 페이지 여백을 설정하고 머리글/바닥글을 사용자 지정하는 방법을 익혀 보세요. 이 자세한 가이드를 따라 문서 레이아웃의 일관성을 향상해 보세요.
@@ -76,6 +77,9 @@ C#으로 작성된 단계별 튜토리얼을 통해 Aspose.PDF for .NET을 사�
 
 ### [효율적인 PDF 최적화: Aspose.PDF for .NET을 사용하여 사용하지 않는 객체 제거](./optimize-pdf-aspose-pdf-net-remove-unused-objects/)
 Aspose.PDF for .NET을 사용하여 사용되지 않는 객체를 제거하여 PDF를 최적화하고 파일 크기와 성능을 개선하는 방법을 알아보세요.
+
+### [Aspose.PDF for .NET을 사용하여 PDF에서 글꼴 제거 – 단계별 가이드](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
+Aspose.PDF for .NET을 사용하여 PDF 문서에서 사용되지 않는 글꼴을 제거하는 방법을 단계별로 안내합니다.
 
 ### [.NET용 Aspose.PDF를 사용한 효율적인 PDF 페이지 조작: 개발자 가이드](./manipulate-pdf-pages-aspose-dot-net/)
 Aspose.PDF for .NET을 사용하여 PDF 페이지를 효율적으로 조작하는 방법을 알아보세요. 이 가이드는 Adobe Acrobat을 사용하지 않고도 회전, 확대/축소, 원점 설정을 수행하는 방법을 다룹니다.
@@ -234,7 +238,7 @@ Aspose.PDF for .NET을 사용하여 PDF 문서 속성을 열고, 가져오고, �
 Aspose.PDF for .NET을 사용하여 PDF를 효율적으로 관리하는 방법을 알아보세요. 이 자세한 가이드를 통해 PDF 파일을 원활하게 추가, 추출, 분할하는 방법을 알아보세요.
 
 ### [Aspose.PDF를 사용한 .NET에서 PDF 조작 마스터하기: 종합 가이드](./aspose-pdf-net-tutorial/)
-Aspose.PDF를 사용하여 .NET에서 PDF를 프로그래밍 방식으로 관리하는 방법을 알아보세요. 이 가이드는 문서 로드, 양식 필드 접근, 옵션 반복에 대해 다룹니다.
+Aspose.PDF를 사용하여 .NET에서 PDF를 프로그래밍 방식으로 관리하는 방법을 알아보세요. 이 가이드에서는 문서 로드, 양식 필드 접근, 옵션 반복에 대해 다룹니다.
 
 ### [Aspose.PDF .NET을 활용한 PDF 조작 마스터하기: 문서 자동화에 대한 포괄적인 가이드](./master-pdf-manipulation-aspose-dotnet-guide/)
 Aspose.PDF for .NET을 사용하여 파일 연결, 페이지 추가, 텍스트 스탬프 삽입, 링크 생성 등 PDF 작업을 자동화하는 방법을 알아보세요.
@@ -318,6 +322,20 @@ C#와 Aspose.PDF를 사용해 PDF 레이어를 평탄화하고, 레이어를 내
 C#와 Aspose.PDF를 사용해 PDF 레이어를 평탄화하고 파일 크기를 최적화하는 단계별 가이드.
 
 ### [C#에서 Visual PDF Diff – 두 PDF를 비교하는 완전 가이드](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
+
+### [PDF에서 내장 폰트 제거 방법 – 단계별 C# 가이드](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
+Aspose.PDF for .NET을 사용하여 PDF에서 내장된 폰트를 제거하는 방법을 단계별로 안내합니다.
+
+### [Aspose를 사용하여 PDF를 비교하는 방법 – 단계별 가이드](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
+Aspose.PDF for .NET을 사용하여 두 PDF 파일을 비교하고 차이점을 식별하는 방법을 단계별로 안내합니다.
+
+### [Aspose.PDF for .NET을 사용하여 C#에서 PDF를 편집하는 방법 – 텍스트 숨기기 및 콘텐츠 제거](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
+Aspose.PDF for .NET을 사용하여 C#에서 PDF의 민감한 텍스트를 숨기고 불필요한 콘텐츠를 제거하는 방법을 단계별로 안내합니다.
+
+### [C#에서 PDF 복구 방법 – 손상된 PDF 파일을 빠르게 수정](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
+C#과 Aspose.PDF를 사용하여 손상된 PDF 파일을 빠르게 복구하는 방법을 단계별로 안내합니다.
+### [C#와 Aspose PDF를 사용하여 PDF를 레드랙트하는 방법 – 완전 가이드](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
+Aspose PDF for .NET을 활용해 C#에서 PDF 문서의 민감한 정보를 레드랙트(가리기)하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Tento tutoriál ukazuje, jak vytvořit PDF dokument, nastavit jeho výchozí jazyk a název a vložit nadpis úrovně 1 pomocí tříd Document, ITaggedContent, StructureElement a HeaderElement.
+//ExStepSummary:0: Definujte název výstupního souboru pro vygenerovaný PDF.
+//ExStepSummary:1: Vytvořte novou prázdnou instanci PDF dokumentu (`pdfDoc`) uvnitř bloku `using`.
+//ExStepSummary:2: Získejte rozhraní `ITaggedContent` pro práci se strukturovanými (tagovanými) PDF dokumenty.
+//ExStepSummary:3: Nastavte výchozí jazyk dokumentu na angličtinu (US) a přiřaďte metadata názvu.
+//ExStepSummary:4: Získejte kořenový prvek logického stromu struktury.
+//ExStepSummary:5: Vytvořte prvek nadpisu úrovně 1, nastavte jeho zobrazovaný text a určete jeho jazyk.
+//ExStepSummary:6: Přidejte prvek nadpisu ke kořeni, čímž se nadpis zobrazí v PDF.
+//ExStepSummary:7: Uložte PDF do určeného souboru a uzavřete rozsah dokumentu.
+//ExStepSummary:8: Vypište potvrzovací zprávu do konzole.
+//ExStepImage:6:images/1.png
+//ExStep:0-
+const string resultFile = "pdf_with_title.pdf";
+
+//ExStep:1-
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:2-
+ITaggedContent tagContent = pdfDoc.TaggedContent;
+
+//ExStep:3-
+tagContent.SetLanguage("en-US");
+tagContent.SetTitle("PDF Example with Header");
+
+//ExStep:4-
+StructureElement rootElement = tagContent.RootElement;
+
+//ExStep:5-
+HeaderElement header = tagContent.CreateHeaderElement(1);
+header.SetText("Demo Header");
+header.Language = "en-US";
+
+//ExStep:6-
+rootElement.AppendChild(header);
+
+//ExStep:7-
+pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"PDF generated and stored at '{resultFile}'.");
+//ExEnd

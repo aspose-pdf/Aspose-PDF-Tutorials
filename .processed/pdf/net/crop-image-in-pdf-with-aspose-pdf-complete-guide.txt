@@ -1,0 +1,7 @@
+Title: Crop Image in PDF with Aspose.PDF – Complete Guide
+Slug: crop-image-in-pdf-with-aspose-pdf-complete-guide
+Category: programming-with-images
+ProcessedDate: 2026-06-09T04:17:23.766190
+SourceRepo: AI Search API
+Keywords: crop image in pdf, create pdf with image, save pdf with image, how to add image to pdf, how to crop image pdf
+PRNumber: 89

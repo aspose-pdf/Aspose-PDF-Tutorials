@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: यह ट्यूटोरियल दर्शाता है कि कैसे PDF दस्तावेज़ बनाएं, उसकी डिफ़ॉल्ट भाषा और शीर्षक सेट करें, और Document, ITaggedContent, StructureElement, और HeaderElement क्लासों का उपयोग करके लेवल‑1 हेडिंग डालें।
+//ExStepSummary:0: जनरेट किए गए PDF के लिए आउटपुट फ़ाइल नाम निर्धारित करें।
+//ExStepSummary:1: `using` ब्लॉक के भीतर एक नया खाली PDF दस्तावेज़ इंस्टेंस (`pdfDoc`) बनाएं।
+//ExStepSummary:2: `ITaggedContent` इंटरफ़ेस प्राप्त करें ताकि टैग्ड PDF संरचनाओं के साथ काम किया जा सके।
+//ExStepSummary:3: दस्तावेज़ की डिफ़ॉल्ट भाषा को English (US) सेट करें और शीर्षक मेटाडेटा असाइन करें।
+//ExStepSummary:4: लॉजिकल स्ट्रक्चर ट्री का रूट एलिमेंट प्राप्त करें।
+//ExStepSummary:5: लेवल‑1 हेडर एलिमेंट बनाएं, उसका प्रदर्शित टेक्स्ट सेट करें, और उसकी भाषा निर्दिष्ट करें।
+//ExStepSummary:6: हेडर एलिमेंट को रूट में जोड़ें, जिससे हेडिंग PDF में दिखाई देगी।
+//ExStepSummary:7: PDF को निर्दिष्ट फ़ाइल में सहेजें और दस्तावेज़ स्कोप को बंद करें।
+//ExStepSummary:8: कंसोल पर एक पुष्टि संदेश आउटपुट करें।
+//ExStepImage:6:images/1.png
+//ExStep:0-
+const string resultFile = "pdf_with_title.pdf";
+
+//ExStep:1-
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:2-
+ITaggedContent tagContent = pdfDoc.TaggedContent;
+
+//ExStep:3-
+tagContent.SetLanguage("en-US");
+tagContent.SetTitle("PDF Example with Header");
+
+//ExStep:4-
+StructureElement rootElement = tagContent.RootElement;
+
+//ExStep:5-
+HeaderElement header = tagContent.CreateHeaderElement(1);
+header.SetText("Demo Header");
+header.Language = "en-US";
+
+//ExStep:6-
+rootElement.AppendChild(header);
+
+//ExStep:7-
+pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"PDF generated and stored at '{resultFile}'.");
+//ExEnd

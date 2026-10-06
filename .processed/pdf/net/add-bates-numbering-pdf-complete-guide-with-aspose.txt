@@ -1,0 +1,7 @@
+Title: Add Bates Numbering PDF – Complete Guide with Aspose
+Slug: add-bates-numbering-pdf-complete-guide-with-aspose
+Category: programming-with-stamps-and-watermarks
+ProcessedDate: 2026-06-09T04:16:39.268842
+SourceRepo: AI Search API
+Keywords: add bates numbering pdf, how to add bates, add page numbers pdf, add sequential numbers pdf, bates number pdf example
+PRNumber: 89

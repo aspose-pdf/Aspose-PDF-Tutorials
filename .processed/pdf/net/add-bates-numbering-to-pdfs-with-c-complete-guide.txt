@@ -1,0 +1,7 @@
+Title: Add Bates Numbering to PDFs with C# – Complete Guide
+Slug: add-bates-numbering-to-pdfs-with-c-complete-guide
+Category: programming-with-pdf-pages
+ProcessedDate: 2026-06-24T19:10:56.663475
+SourceRepo: AI Search API
+Keywords: add bates numbering, custom page numbers, sequential page numbers, bates numbering pdf, header footer numbering
+PRNumber: 95

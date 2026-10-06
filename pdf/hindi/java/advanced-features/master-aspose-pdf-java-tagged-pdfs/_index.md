@@ -13,23 +13,14 @@ url: /hi/java/advanced-features/master-aspose-pdf-java-tagged-pdfs/
 weight: 1
 ---
 
-, you'll learn **how to tag PDF** with Aspose.PDF for Java, enabling you to create accessible, well‑structured documents that work smoothly with screen readers and other assistive technologies. By the end of the tutorial you’ll also understand how to **create accessible PDF** files that meet PDF/UA compliance and how to **set PDF language** for optimal accessibility."
 
-Translate.
 
-Continue.
 
-We must translate bullet list under Quick Answers.
 
-Also tables.
 
-Let's craft translation.
 
-Be careful with markdown formatting.
 
-Proceed step by step.
 
-Will produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 

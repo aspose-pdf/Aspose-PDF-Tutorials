@@ -1,79 +1,23 @@
 ---
 category: general
-date: 2026-06-08
-description: كيفية تسطيح ملف PDF بسرعة باستخدام Aspose.PDF. تعلم إزالة طبقات PDF،
-  تسطيح PDF للطباعة، حفظ PDF المسطح، وتحويل PDF الشفاف في C#.
+date: 2026-03-27
+description: كيفية تسطيح ملف PDF باستخدام Aspose.PDF – إزالة الشفافية، حفظ ملف PDF
+  المسطح، وجعل PDF غير شفاف في ثوانٍ.
 draft: false
 keywords:
 - how to flatten pdf
-- remove pdf layers
-- flatten pdf for printing
 - save flattened pdf
-- convert transparent pdf
+- aspose pdf tutorial
+- remove transparency from pdf
+- make pdf opaque
 language: ar
-og_description: كيفية تسطيح PDF في C# باستخدام Aspose.PDF. يوضح لك هذا الدرس كيفية
-  إزالة طبقات PDF، تسطيح PDF للطباعة، وحفظ PDF مسطح بكفاءة.
-og_title: كيفية تسوية ملف PDF باستخدام Aspose.PDF – دليل خطوة بخطوة
-schemas:
-- author: Aspose
-  dateModified: '2026-06-08'
-  description: How to flatten PDF quickly using Aspose.PDF. Learn to remove PDF layers,
-    flatten PDF for printing, save flattened PDF, and convert transparent PDF in C#.
-  headline: How to Flatten PDF with Aspose.PDF – Complete Guide
-  type: TechArticle
-- description: How to flatten PDF quickly using Aspose.PDF. Learn to remove PDF layers,
-    flatten PDF for printing, save flattened PDF, and convert transparent PDF in C#.
-  name: How to Flatten PDF with Aspose.PDF – Complete Guide
-  steps:
-  - name: Why `FlattenTransparency()` works
-    text: Aspose.PDF’s `FlattenTransparency()` method walks through each page, rasterizes
-      any transparent objects, and rewrites the content stream so that the resulting
-      PDF has **no transparency groups**. In PDF terminology, it effectively **removes
-      PDF layers**, turning everything into a flat bitmap or solid
-  - name: Pro tip
-    text: 'If you’re dealing with a multi‑page document, you might want to **flatten
-      each page individually** to conserve memory:'
-  - name: Common scenarios where flattening is mandatory
-    text: '- **Commercial offset printing** – the RIP (Raster Image Processor) expects
-      flat vectors. - **Digital press workflows** – many online print services reject
-      PDFs with transparency to avoid unexpected output. - **Regulatory filings**
-      – some government portals require flat PDFs for legal compliance.'
-  - name: 'Example: Saving with compression and PDF/A‑1b compliance'
-    text: '```csharp var saveOptions = new PdfSaveOptions { CompressionLevel = CompressionLevel.Best,
-      PdfACompliance = PdfACompliance.PdfA1b };'
-  - name: 'Edge case: Password‑protected PDFs'
-    text: 'If your source PDF is encrypted, load it with the appropriate password
-      first:'
-  type: HowTo
-- questions:
-  - answer: No. Aspose.PDF rasterizes only the transparent objects; pure vectors remain
-      editable. If the entire page is transparent, the whole page becomes a raster
-      image, which is expected for print safety.
-    question: Does flattening affect vector quality?
-  - answer: 'Absolutely. Loop through `doc.Pages` and call `FlattenTransparency()`
-      only on the pages you need. ## What Should You Learn Next?
-
-
-      The following tutorials cover closely related topics that build on the techniques
-      demonstrated in this guide. Each resource includes complete working code examples
-      with step-by-step explanations to help you master additional API features and
-      explore alternative implementation approaches in your own projects.
-
-      - [How to Flatten PDF Form Fields Using Aspose.PDF for .NET&#58; A Developer''s
-      Guide](/pdf/english/net/forms-annotations/flatten-pdf-form-fields-aspose-net/)
-      - [How to Remove PDF Annotations Using Aspose.PDF for .NET&#58; A Complete Guide](/pdf/english/net/forms-annotations/delete-annotations-aspose-pdf-net-guide/)
-      - [How to Remove Graphics from PDFs Using Aspose.PDF .NET&#58; A Complete Guide](/pdf/english/net/images-graphics/remove-graphics-aspose-pdf-net/)
-
-      {{< /blocks/products/pf/tutorial-page-section >}} {{< /blocks/products/pf/main-container
-      >}} {{< /blocks/products/pf/main-wrap-class >}} {{< blocks/products/products-backtop-button
-      >}}'
-    question: Can I flatten only specific pages?
-  type: FAQPage
+og_description: كيفية تسطيح ملف PDF باستخدام Aspose.PDF. تعلم كيفية إزالة الشفافية،
+  حفظ ملف PDF المسطح، وجعل ملف PDF غير شفاف بسرعة.
+og_title: كيفية تسطيح ملف PDF باستخدام Aspose.PDF – دليل كامل
 tags:
-- pdf
-- aspnet
-- csharp
-- document-processing
+- Aspose.PDF
+- C#
+- PDF processing
 title: كيفية تسطيح ملف PDF باستخدام Aspose.PDF – دليل كامل
 url: /ar/net/document-manipulation/how-to-flatten-pdf-with-aspose-pdf-complete-guide/
 ---
@@ -84,210 +28,248 @@ url: /ar/net/document-manipulation/how-to-flatten-pdf-with-aspose-pdf-complete-g
 
 # كيفية تسوية PDF باستخدام Aspose.PDF – دليل كامل
 
-هل تساءلت يومًا **كيف تسوي PDF** الذي يحتوي على كائنات شفافة أو طبقات معقدة؟ لست وحدك؛ العديد من المطورين يواجهون هذه المشكلة عندما يحتاجون إلى مستند جاهز للطباعة. الخبر السار هو أنه ببضع أسطر من C# و Aspose.PDF يمكنك إزالة تلك الشفافية المزعجة، حذف طبقات PDF، والحصول على ملف صلب ومسطح جاهز لأي طابعة.  
+Ever wondered **how to flatten PDF** files that stubbornly keep their translucent layers? You’re not alone. In many workflows—think e‑invoicing, archival storage, or printing—transparent objects cause rendering glitches, especially on older printers. The good news? A few lines of C# with Aspose.PDF can turn that see‑through mess into a solid, opaque document.
 
-في هذا الدرس سنستعرض العملية بالكامل — من تحميل PDF شفاف إلى حفظ نسخة مسطحة — مع توضيح سبب أهمية التسوية للطباعة، كيفية تحويل PDF شفاف، وأفضل الممارسات للحفاظ على النتيجة. لا إطالة، مجرد حل عملي يمكنك نسخه ولصقه في مشروعك اليوم.
+In this tutorial we’ll walk through the entire process: installing the library, loading a PDF that contains transparency, flattening it, and finally **saving the flattened PDF**. By the end you’ll also know how to **remove transparency from PDF** pages, and why making a PDF opaque matters for downstream systems. No fluff, just a practical, copy‑and‑paste solution that works today.
 
-## ما ستحتاجه
+## ما ستحققه
 
-- **.NET 6.0 أو أحدث** (تعمل الواجهة البرمجية أيضًا مع .NET Framework 4.6+)
-- **Aspose.PDF for .NET** – تثبيت عبر NuGet: `Install-Package Aspose.PDF`
-- فهم أساسي لـ C# و Visual Studio (أو أي بيئة تطوير تفضلها)
-- PDF يحتوي على شفافية — مثل الشعارات ذات القنوات ألفا أو الرسومات المتجهة ذات أوضاع المزج  
+- تحميل ملف PDF يحتوي على كائنات شفافة (مثل العلامات المائية، الرسومات المتجهية).
+- استدعاء الطريقة المدمجة التي **flattens transparency**, لتحويل كل عنصر إلى صورة نقطية غير شفافة.
+- **Save the flattened PDF** إلى ملف جديد يطبع ويعرض بشكل متسق في كل مكان.
+- فهم الحالات الخاصة مثل الملفات المحمية بكلمة مرور والوثائق الكبيرة.
+- الحصول على **Aspose PDF tutorial** سريع يمكنك إعادة استخدامه لتعديلات PDF أخرى.
 
-هذا كل شيء. إذا كان لديك هذه المتطلبات، فأنت جاهز لتسوية ملفات PDF كالمحترفين.
+### المتطلبات المسبقة
 
-![How to flatten PDF illustration](image.png "How to flatten PDF illustration")
+| المتطلب | لماذا يهم |
+|-------------|----------------|
+| .NET 6.0 أو أحدث (أو .NET Framework 4.6+) | يدعم Aspose.PDF for .NET هذه البيئات؛ قد تفتقد الإصدارات القديمة واجهة `FlattenTransparency` API. |
+| حزمة NuGet الخاصة بـ Aspose.PDF for .NET (الإصدار v23.12 أو أحدث) | تم تقديم طريقة `FlattenTransparency()` في الإصدار v23.5، لذا احرص على التحديث. |
+| ملف PDF يستخدم الشفافية فعليًا (مثل PDF تم تصديره من Adobe Illustrator) | بدون كائنات شفافة لا شيء لتسويته، وستكون الطريقة لا تفعل شيئًا. |
+| Visual Studio 2022 أو أي بيئة تطوير C# تفضلها | لتسهيل تصحيح الأخطاء وتشغيل سريع. |
 
-## كيفية تسوية PDF – خطوة بخطوة باستخدام Aspose.PDF
+> **Pro tip:** إذا لم تكن متأكدًا ما إذا كان ملف PDF الخاص بك يحتوي على شفافية، افتحه في Adobe Acrobat وابحث عن تحذيرات “Transparency” تحت *Print Production* → *Preflight*.
 
-فيما يلي الحد الأدنى من الشيفرة التي تحتاجها **لتسوية PDF**. المقتطف قابل للتنفيذ بالكامل؛ فقط استبدل مسارات العناصر النائبة بالملفات الخاصة بك.
+## الخطوة 1 – تثبيت Aspose.PDF (aspose pdf tutorial)
+
+افتح مجلد المشروع في الطرفية وشغّل:
+
+```bash
+dotnet add package Aspose.PDF --version 23.12.0
+```
+
+بدلاً من ذلك، استخدم واجهة NuGet Package Manager في Visual Studio وابحث عن **Aspose.PDF**. الحزمة تجلب جميع الاعتمادات المطلوبة، لذا لن تحتاج إلى أي ملفات DLL إضافية.
+
+> **Why this step?** المكتبة تأتي مع محرك PDF عالي الأداء يتعامل مع التسوية داخليًا؛ محاولة بناء حل بنفسك سيؤدي إلى متاهة لا تنتهي.
+
+## الخطوة 2 – تحميل ملف PDF المصدر (remove transparency from PDF)
+
+Create a new C# console app (or drop the code into any existing project). The following snippet shows the full `using` directives and the `Main` method that opens a file named `Transparent.pdf`:
 
 ```csharp
 using System;
-using Aspose.Pdf;
+using Aspose.Pdf;   // Aspose.PDF namespace
 
 class Program
 {
     static void Main()
     {
-        // Step 1: Load the PDF document (could be a transparent PDF)
-        using var doc = new Document(@"C:\Docs\transparent.pdf");
+        // Path to the PDF that contains transparent objects
+        string sourcePath = @"YOUR_DIRECTORY\Transparent.pdf";
 
-        // Step 2: Flatten any transparency in the document.
-        // This removes PDF layers and merges all content into a single rasterized page.
-        doc.FlattenTransparency();
-
-        // Step 3: Save the flattened PDF to a new file.
-        // Use SaveOptions if you need specific compression or PDF version.
-        doc.Save(@"C:\Docs\flat.pdf");
-        
-        Console.WriteLine("PDF has been flattened and saved successfully.");
+        // Load the document – this automatically parses all pages, resources, etc.
+        using (Document pdfDocument = new Document(sourcePath))
+        {
+            Console.WriteLine($"Loaded PDF with {pdfDocument.Pages.Count} page(s).");
+            // Next step will flatten transparency
+        }
     }
 }
 ```
 
-### لماذا تعمل `FlattenTransparency()`
+**Explanation:**  
+- `Document` هو نقطة الدخول؛ يقرأ الملف إلى الذاكرة.  
+- تغليفه داخل كتلة `using` يضمن تحرير جميع الموارد غير المدارة بسرعة—مهم للـ PDFs الكبيرة.
 
-طريقة `FlattenTransparency()` في Aspose.PDF تتنقل عبر كل صفحة، وتقوم بتحويل أي كائنات شفافة إلى صورة نقطية، وتعيد كتابة تدفق المحتوى بحيث يصبح ملف PDF الناتج **بدون مجموعات شفافية**. في مصطلحات PDF، فإنها **تزيل طبقات PDF** فعليًا، وتحول كل شيء إلى صورة نقطية مسطحة أو خطوط متجهة صلبة. هذا بالضبط ما تتطلبه معظم الطابعات عالية السرعة، لأنها لا تستطيع معالجة أوضاع المزج المعقدة.
+> **Edge case:** إذا كان PDF محميًا بكلمة مرور، مرّر كلمة المرور إلى المُنشئ: `new Document(sourcePath, new LoadOptions { Password = "secret" })`.
 
-### نصيحة احترافية
+## الخطوة 3 – تسوية الشفافية (make PDF opaque)
 
-إذا كنت تتعامل مع مستند متعدد الصفحات، قد ترغب في **تسوية كل صفحة على حدة** لتوفير الذاكرة:
+Now that the document is in memory, call the method that does the heavy lifting:
 
 ```csharp
-foreach (Page page in doc.Pages)
+// Inside the using block from Step 2
+pdfDocument.FlattenTransparency();
+Console.WriteLine("Transparency has been flattened – the PDF is now opaque.");
+```
+
+**What’s happening under the hood?**  
+ تقوم Aspose.PDF بتحويل كل كائن شفاف إلى نقطيات (بما في ذلك أوضاع المزج، الحواف الناعمة، وأقنعة الشفافية) على خلفية صلبة. محتويات الصفحة الناتجة هي أوامر رسم عادية بدون خصائص شفافية، لذا أي عارض أو طابعة سيعرضها كما تراها على الشاشة.
+
+> **Why you should flatten:** بعض الطابعات القديمة تفسّر الشفافية بشكل غير صحيح، مما يؤدي إلى فقدان الرسومات أو تغير الألوان. التسوية تضمن نتيجة *what‑you‑see‑is‑what‑you‑get*.
+
+## الخطوة 4 – حفظ PDF المسطح (save flattened pdf)
+
+Finally, write the modified document to a new file. We’ll name it `Flattened.pdf` to keep the original untouched:
+
+```csharp
+// Still inside the using block
+string outputPath = @"YOUR_DIRECTORY\Flattened.pdf";
+pdfDocument.Save(outputPath);
+Console.WriteLine($"Flattened PDF saved to: {outputPath}");
+```
+
+عند فتح `Flattened.pdf` في أي عارض، ستلاحظ أن الشعار الشفاف سابقًا أصبح صلبًا الآن. إذا فحصت كائنات PDF داخل الملف (مثلاً باستخدام *PDF‑Tron* أو *iText*)، ستجد أن إدخالات `/Transparency` اختفت.
+
+> **Pro tip:** إذا كنت بحاجة إلى الحفاظ على البيانات الوصفية الأصلية (المؤلف، العنوان، إلخ)، انسخها قبل التسوية:
+
+```csharp
+var meta = pdfDocument.Info;
+pdfDocument.FlattenTransparency();
+pdfDocument.Info = meta; // restore metadata
+```
+
+## الخطوة 5 – التحقق من النتيجة (make PDF opaque)
+
+A quick visual check is often enough, but you can also programmatically confirm that no transparency remains:
+
+```csharp
+bool containsTransparency = false;
+foreach (Page page in pdfDocument.Pages)
 {
-    page.FlattenTransparency();
+    if (page.Resources?.XObjects?.Count > 0)
+    {
+        foreach (var xobj in page.Resources.XObjects.Values)
+        {
+            if (xobj is FormXObject form && form.Transparency != null)
+            {
+                containsTransparency = true;
+                break;
+            }
+        }
+    }
 }
+Console.WriteLine(containsTransparency
+    ? "Warning: some transparency still exists."
+    : "Success: PDF is fully opaque.");
 ```
 
-## فهم شفافية PDF والطبقات (إزالة طبقات PDF)
+إذا كان الناتج يقول **Success**, فقد قمت فعلاً **made PDF opaque**.
 
-يمكن لملفات PDF أن تحتوي على **كائنات شفافة**، **قناع ناعم**، و**مجموعات محتوى اختيارية (OCGs)** — الأخيرة هي ما نسميه عادةً *طبقات*. عند فتح PDF في عارض، قد يتم تشغيل أو إيقاف هذه الطبقات، لكن العديد من الأدوات اللاحقة تتجاهلها تمامًا، مما يؤدي إلى فقدان الرسومات أو ألوان غير صحيحة.
+## الأخطاء الشائعة وكيفية تجنبها
 
-**إزالة طبقات PDF** ليست مجرد تعديل بصري؛ إنها تغيير هيكلي. من خلال التسوية، أنت:
+| العَرَض | السبب المحتمل | الحل |
+|---------|--------------|-----|
+| `FlattenTransparency()` يطرح `NotSupportedException` | استخدام نسخة قديمة جدًا من Aspose.PDF (< 23.5) | تحديث حزمة NuGet. |
+| حجم PDF الناتج أكبر من المتوقع | التسوية تحول المتجهات إلى نقطيات، مما يزيد حجم الملف | تطبيق الضغط: `pdfDocument.Compression = CompressionType.Zip;` قبل الحفظ. |
+| بعض الصور تبدو غير واضحة بعد التسوية | صور المصدر منخفضة الدقة تم تكبيرها أثناء التحويل إلى نقطيات | زيادة DPI للتحويل: `pdfDocument.FlattenTransparency(300);` (التح overload يقبل DPI). |
+| فشل تحميل PDF محمي بكلمة مرور | كلمة المرور لم تُزَود | استخدم `LoadOptions` مع كلمة المرور الصحيحة. |
 
-1. **ضمان الدقة البصرية** عبر جميع الأجهزة.  
-2. **تجنب أخطاء العرض** على الطابعات التي لا تدعم نموذج شفافية PDF 1.4+.  
-3. **تقليل حجم الملف** في بعض الحالات لأن قواميس الموارد الإضافية تُزال.  
+## مثال كامل قابل للتنفيذ
 
-إذا كنت بحاجة إلى الاحتفاظ بالطبقات الأصلية لأغراض الأرشفة، احفظ دائمًا **نسخة قبل التسوية**. الشيفرة أعلاه تعمل على نسخة (`doc.Save("flat.pdf")`)، وتترك المصدر دون تعديل.
-
-## تسوية PDF للطباعة – لماذا ذلك مهم
-
-آلات الطباعة، خاصة تلك التي تستخدم **PostScript** أو **PCL**، غالبًا ما ترفض ملفات PDF التي تحتوي على شفافية لأن محرك العرض لا يستطيع حل أوضاع المزج في الوقت الفعلي. من خلال **تسوية PDF للطباعة**، تقوم بتحويل عمليات المزج إلى أمر رسم واحد غير شفاف.
-
-### سيناريوهات شائعة حيث تكون التسوية إلزامية
-
-- **الطباعة التجارية بالأوفست** — يتوقع معالج الصورة النقطية (RIP) متجهات مسطحة.  
-- **سير عمل المطبوعات الرقمية** — العديد من خدمات الطباعة عبر الإنترنت ترفض ملفات PDF ذات الشفافية لتجنب مخرجات غير متوقعة.  
-- **الملفات التنظيمية** — بعض البوابات الحكومية تتطلب ملفات PDF مسطحة للامتثال القانوني.  
-
-إذا لم تكن متأكدًا ما إذا كان المستند يحتاج إلى تسوية، اختبره بفتحه في Adobe Acrobat والنظر إلى **Print Production → Output Preview**. أي كائنات مميزة بالبرتقالي تشير إلى شفافية يجب تسويتها.
-
-## حفظ PDF المسطح — أفضل الممارسات (حفظ PDF مسطح)
-
-عند استدعاء `doc.Save()`، يقوم Aspose.PDF بكتابة المستند باستخدام الإعدادات الافتراضية (PDF 1.7، ضغط بدون فقد). ومع ذلك، يمكنك ضبط الإخراج بدقة من حيث الحجم أو التوافق أو الأمان.
-
-### مثال: حفظ مع الضغط والامتثال لـ PDF/A‑1b
-
-```csharp
-var saveOptions = new PdfSaveOptions
-{
-    CompressionLevel = CompressionLevel.Best,
-    PdfACompliance = PdfACompliance.PdfA1b
-};
-
-doc.Save(@"C:\Docs\flat_compressed.pdf", saveOptions);
-```
-
-- **CompressionLevel.Best** يضغط الملف دون التضحية بالجودة — مثالي للمرفقات البريدية.  
-- **PdfACompliance.PdfA1b** يضمن أن PDF جاهز للأرشفة، وهو مطلب للعديد من السجلات المؤسسية.
-
-### حالة خاصة: ملفات PDF محمية بكلمة مرور
-
-إذا كان ملف PDF المصدر مشفرًا، قم بتحميله أولاً باستخدام كلمة المرور المناسبة:
-
-```csharp
-var loadOptions = new PdfLoadOptions { Password = "mySecret" };
-using var doc = new Document(@"C:\Docs\protected.pdf", loadOptions);
-doc.FlattenTransparency();
-doc.Save(@"C:\Docs\unlocked_flat.pdf");
-```
-
-سيحافظ Aspose.PDF على إعدادات الأمان الأصلية ما لم تقم بتعديلها صراحةً في `PdfSaveOptions`.
-
-## تحويل PDF شفاف إلى ملف مسطح (تحويل PDF شفاف)
-
-أحيانًا لا تريد مجرد PDF مسطح — بل تحتاج إلى **صورة نقطية** (PNG، JPEG) للمعاينة على الويب أو إنشاء صورة مصغرة. يمكن متابعة استدعاء `FlattenTransparency()` بخطوة تحويل:
-
-```csharp
-// Convert the first page of the flattened PDF to PNG
-var page = doc.Pages[1];
-using var imageStream = new MemoryStream();
-page.ConvertToImage(ImageFormat.Png, imageStream);
-File.WriteAllBytes(@"C:\Docs\preview.png", imageStream.ToArray());
-```
-
-- **لماذا التحويل إلى نقطية؟** لأن المتصفحات والعديد من منصات CMS تعرض الصور أسرع من ملفات PDF.  
-- **نصيحة:** اضبط DPI أعلى (`page.ConvertToImage(ImageFormat.Png, 300)`) للحصول على صور مصغرة بجودة الطباعة.
-
-## مثال كامل يعمل — من البداية حتى النهاية
-
-بجمع كل شيء معًا، إليك برنامج واحد يقوم بـ:
-
-1. تحميل PDF شفاف.  
-2. حذف حماية كلمة المرور اختياريًا.  
-3. تسوية الشفافية (إزالة الطبقات).  
-4. حفظ ملف PDF/A‑1b مضغوط.  
-5. إنشاء معاينة PNG.  
+Below is the complete program you can copy‑paste into `Program.cs`. It includes all steps, error handling, and optional tweaks.
 
 ```csharp
 using System;
-using System.IO;
 using Aspose.Pdf;
-using Aspose.Pdf.Devices; // For image conversion
+using Aspose.Pdf.Devices; // Only needed if you want custom DPI
 
 class FlattenPdfDemo
 {
     static void Main()
     {
-        // ------------------------------------------------------------------
-        // 1️⃣ Load the PDF (handle password if needed)
-        // ------------------------------------------------------------------
-        var loadOpts = new PdfLoadOptions { Password = "" }; // leave empty if not protected
-        using var doc = new Document(@"C:\Docs\transparent.pdf", loadOpts);
+        // -------------------------------------------------
+        // 1️⃣  Configuration – paths & optional settings
+        // -------------------------------------------------
+        string sourcePath = @"YOUR_DIRECTORY\Transparent.pdf";
+        string outputPath = @"YOUR_DIRECTORY\Flattened.pdf";
 
-        // ------------------------------------------------------------------
-        // 2️⃣ Flatten transparency – this removes PDF layers
-        // ------------------------------------------------------------------
-        foreach (Page page in doc.Pages)
-            page.FlattenTransparency();
-
-        // ------------------------------------------------------------------
-        // 3️⃣ Save the flattened PDF with compression and PDF/A compliance
-        // ------------------------------------------------------------------
-        var saveOpts = new PdfSaveOptions
+        // Optional: set compression to keep file size reasonable
+        var saveOptions = new PdfSaveOptions
         {
-            CompressionLevel = CompressionLevel.Best,
-            PdfACompliance = PdfACompliance.PdfA1b
+            Compression = CompressionType.Zip
         };
-        string flatPath = @"C:\Docs\flat_compressed.pdf";
-        doc.Save(flatPath, saveOpts);
-        Console.WriteLine($"Flattened PDF saved to: {flatPath}");
 
-        // ------------------------------------------------------------------
-        // 4️⃣ (Optional) Generate a PNG preview – useful after convert transparent PDF
-        // ------------------------------------------------------------------
-        var pngPath = @"C:\Docs\preview.png";
-        var pageToRender = doc.Pages[1];
-        using var pngStream = new MemoryStream();
-        var resolution = new Resolution(300); // 300 DPI for print quality
-        var pngDevice = new PngDevice(resolution);
-        pngDevice.Process(pageToRender, pngStream);
-        File.WriteAllBytes(pngPath, pngStream.ToArray());
-        Console.WriteLine($"Preview image saved to: {pngPath}");
+        try
+        {
+            // -------------------------------------------------
+            // 2️⃣  Load the PDF (remove transparency from PDF)
+            // -------------------------------------------------
+            using (Document pdfDocument = new Document(sourcePath))
+            {
+                Console.WriteLine($"Loaded PDF with {pdfDocument.Pages.Count} page(s).");
+
+                // -------------------------------------------------
+                // 3️⃣  Flatten transparency – makes PDF opaque
+                // -------------------------------------------------
+                // You can pass a DPI value if you need higher quality:
+                // pdfDocument.FlattenTransparency(300);
+                pdfDocument.FlattenTransparency();
+                Console.WriteLine("Transparency flattened – PDF is now opaque.");
+
+                // -------------------------------------------------
+                // 4️⃣  Save the result (save flattened PDF)
+                // -------------------------------------------------
+                pdfDocument.Save(outputPath, saveOptions);
+                Console.WriteLine($"✅ Flattened PDF saved to: {outputPath}");
+            }
+
+            // -------------------------------------------------
+            // 5️⃣  Quick verification (make PDF opaque)
+            // -------------------------------------------------
+            VerifyOpacity(outputPath);
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"❌ An error occurred: {ex.Message}");
+        }
+    }
+
+    // Helper method to double‑check that no transparency survived
+    static void VerifyOpacity(string pdfPath)
+    {
+        using (Document doc = new Document(pdfPath))
+        {
+            bool hasTransparency = false;
+            foreach (Page page in doc.Pages)
+            {
+                if (page.Resources?.XObjects?.Count > 0)
+                {
+                    foreach (var xobj in page.Resources.XObjects.Values)
+                    {
+                        if (xobj is FormXObject form && form.Transparency != null)
+                        {
+                            hasTransparency = true;
+                            break;
+                        }
+                    }
+                }
+                if (hasTransparency) break;
+            }
+
+            Console.WriteLine(hasTransparency
+                ? "⚠️ Transparency still detected."
+                : "🎉 No transparency found – PDF is fully opaque.");
+        }
     }
 }
 ```
 
-**الناتج المتوقع** عند تشغيل البرنامج:
+**المخرجات المتوقعة**
 
 ```
-Flattened PDF saved to: C:\Docs\flat_compressed.pdf
-Preview image saved to: C:\Docs\preview.png
+Loaded PDF with 3 page(s).
+Transparency flattened – PDF is now opaque.
+✅ Flattened PDF saved to: YOUR_DIRECTORY\Flattened.pdf
+🎉 No transparency found – PDF is fully opaque.
 ```
 
-افتح `flat_compressed.pdf` في أي عارض — لا شفافية، لا طبقات، ويطبع دون مشاكل. افتح `preview.png` لرؤية لقطة نقطية واضحة للصفحة الأولى.
+شغّل البرنامج، افتح `Flattened.pdf` في Adobe Acrobat، وسترى جميع الطبقات الشفافة السابقة مُعالجة كصورة صلبة.
 
-## الأسئلة المتكررة (FAQ)
+## الخطوات التالية والمواضيع ذات الصلة
 
-**س: هل تؤثر التسوية على جودة المتجهات؟**  
-ج: لا. يقوم Aspose.PDF بتحويل الكائنات الشفافة فقط إلى صورة نقطية؛ المتجهات النقية تظل قابلة للتحرير. إذا كانت الصفحة بأكملها شفافة، فإن الصفحة بأكملها تصبح صورة نقطية، وهذا متوقع لأمان الطباعة.
-
-**س: هل يمكنني تسوية صفحات محددة فقط؟**  
-ج: بالتأكيد. قم بالتكرار عبر `doc.Pages` واستدعِ `FlattenTransparency()` فقط على الصفحات التي تحتاجها.
+- **
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
