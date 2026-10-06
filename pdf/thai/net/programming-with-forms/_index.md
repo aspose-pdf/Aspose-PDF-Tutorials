@@ -87,6 +87,7 @@
 | [สร้างเอกสาร PDF พร้อมหลายวิดเจ็ต TextBox – คู่มือทีละขั้นตอน](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | เรียนรู้วิธีสร้าง PDF ที่มีหลาย TextBox widget ด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือทีละขั้นตอนนี้ |  
 | [เพิ่มหมายเลข Bates ให้กับ PDF – คู่มือขั้นตอนโดยขั้นตอน C#](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | เรียนรู้วิธีเพิ่มหมายเลข Bates ลงในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือขั้นตอนโดยขั้นตอนนี้ |  
 | [วิธีเพิ่มกล่องข้อความใน PDF – สร้างฟิลด์ฟอร์ม PDF และบันทึกเอกสาร PDF ที่แก้ไข](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | เรียนรู้วิธีเพิ่มกล่องข้อความในฟอร์ม PDF สร้างฟิลด์และบันทึกไฟล์ PDF ที่แก้ไขด้วย Aspose.PDF สำหรับ .NET |  
+| [สร้างแบบฟอร์มหลายหน้าใน C# ด้วย Aspose.Pdf – คู่มือทีละขั้นตอน](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | เรียนรู้วิธีสร้างแบบฟอร์มหลายหน้าด้วย C# และ Aspose.Pdf ผ่านขั้นตอนละเอียดเพื่อการพัฒนา PDF โต้ตอบ |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

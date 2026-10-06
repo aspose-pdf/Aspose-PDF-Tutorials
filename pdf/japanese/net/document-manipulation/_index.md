@@ -311,8 +311,11 @@ Aspose.PDF で .NET ストリームを使用して特定のページから PDF �
 ### [C# で PDF のレイヤーをフラット化する – エクスポートと抽出ガイド](./flatten-pdf-layers-in-c-export-extract-guide/)
 Aspose.PDF for .NET を使用して、PDF のレイヤーをフラット化し、エクスポートおよび抽出する方法を学びます。
 
-### [Aspose.PDF for .NET を使用して PDF をフラット化する方法 – 完全ガイド](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
-Aspose.PDF for .NET を利用して、PDF のレイヤーや注釈をフラット化し、単一のコンテンツとして保存する手順をステップバイステップで解説します。
+### [Aspose.PDF .NET を使用して PDF ページを個別のファイルに分割する (C# チュートリアル)](./split-pdf-pages-aspose-net-csharp/)
+Aspose.PDF for .NETおよびC#を使用してPDFファイルを個別のページに分割する方法を学びます。このガイドでは、セットアップ、実装、そして実践的な応用例を解説します。
+
+### [Aspose.PDF for .NET で PDF ページを個別のファイルに分割する: 包括的なガイド](./aspose-pdf-split-pdf-pages-net/)
+Aspose.PDF for .NET を使用してPDFページを個別のファイルに分割する方法を学びましょう。この包括的なガイドでは、セットアップ、実装、最適化のヒントを網羅しています。
 
 ### [Aspose.PDF .NET を使用した PDF ファイルの分割と作成 | ドキュメント操作ガイド](./split-create-pdf-aspose-pdf-net/)
 Aspose.PDF for .NET を使用して、複数ページのPDFを分割し、新しいPDFファイルを作成する方法を学びましょう。コード例付きの包括的なガイドをご覧ください。
@@ -328,10 +331,14 @@ C# と Aspose.PDF for .NET を使用して、破損した PDF ファイルを迅
 ### [Aspose.PDF for .NET を使用して C# で PDF を編集（情報隠蔽）する完全ガイド](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
 Aspose.PDF for .NET を使い、C# で PDF の機密情報をマスク（編集）する手順とベストプラクティスをステップバイステップで解説します。
 
-### [Aspose.PDF for .NET を使用して PDF を比較する方法 – ステップバイステップ ガイド](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
-Aspose.PDF for .NET を使用して、2つの PDF ドキュメントを比較し、差分を検出する方法をステップバイステップで学びましょう。
+### [Aspose.PDF を使用して PDF をフラット化する方法 – 完全ガイド](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+Aspose.PDF for .NET を使用して、PDF をフラット化し、編集不可にする方法を学びましょう。この完全ガイドで手順を確認してください。
+
 ### [C# でのビジュアル PDF 差分 – 2 つの PDF を比較する完全ガイド](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
 Aspose.PDF for .NET を使用して、C# で 2 つの PDF を視覚的に比較し、差分をハイライトする方法を学びます。
+
+### [Aspose.PDF for .NET を使用して PDF を比較する方法 – ステップバイステップ ガイド](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
+Aspose.PDF for .NET を使用して、2つの PDF ドキュメントを比較し、差分を検出する方法をステップバイステップで学びましょう。
 
 ## 追加リソース
 
