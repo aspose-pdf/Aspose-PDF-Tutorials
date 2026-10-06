@@ -13,11 +13,8 @@ url: /tr/java/advanced-features/master-aspose-pdf-java-tagged-pdfs/
 weight: 1
 ---
 
- resources list.
 
-Let's translate.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 

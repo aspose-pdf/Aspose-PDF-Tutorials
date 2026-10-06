@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Bu öğreticide, PDF belgesi oluşturmayı, varsayılan dil ve başlığı ayarlamayı ve Document, ITaggedContent, StructureElement ve HeaderElement sınıflarını kullanarak bir seviye‑1 başlık eklemeyi gösterir.
+//ExStepSummary:0: Oluşturulan PDF için çıktı dosya adını tanımlayın.
+//ExStepSummary:1: `using` bloğu içinde yeni boş bir PDF belge örneği (`pdfDoc`) oluşturun.
+//ExStepSummary:2: Etiketli PDF yapılarıyla çalışmak için `ITaggedContent` arayüzünü edinin.
+//ExStepSummary:3: Belgenin varsayılan dilini İngilizce (ABD) olarak ayarlayın ve bir başlık meta verisi atayın.
+//ExStepSummary:4: Mantıksal yapı ağacının kök öğesini alın.
+//ExStepSummary:5: Seviye‑1 başlık öğesi oluşturun, görüntülenen metnini ayarlayın ve dilini belirtin.
+//ExStepSummary:6: Başlık öğesini köke ekleyin, böylece başlık PDF'de görünür.
+//ExStepSummary:7: PDF'yi belirtilen dosyaya kaydedin ve belge kapsamını kapatın.
+//ExStepSummary:8: Konsola bir onay mesajı yazdırın.
+//ExStepImage:6:images/1.png
+//ExStep:0-
+const string resultFile = "pdf_with_title.pdf";
+
+//ExStep:1-
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:2-
+ITaggedContent tagContent = pdfDoc.TaggedContent;
+
+//ExStep:3-
+tagContent.SetLanguage("en-US");
+tagContent.SetTitle("PDF Example with Header");
+
+//ExStep:4-
+StructureElement rootElement = tagContent.RootElement;
+
+//ExStep:5-
+HeaderElement header = tagContent.CreateHeaderElement(1);
+header.SetText("Demo Header");
+header.Language = "en-US";
+
+//ExStep:6-
+rootElement.AppendChild(header);
+
+//ExStep:7-
+pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"PDF generated and stored at '{resultFile}'.");
+//ExEnd

@@ -1,0 +1,7 @@
+Title: How to Redact PDF and Remove Sensitive Data PDF in C#
+Slug: how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c
+Category: security-permissions
+ProcessedDate: 2026-06-21T15:11:16.508524
+SourceRepo: AI Search API
+Keywords: how to redact pdf, remove sensitive data pdf
+PRNumber: 93

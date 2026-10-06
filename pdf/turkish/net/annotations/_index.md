@@ -35,6 +35,8 @@
 | [Serbest Metin Açıklama Biçimlendirmesini Ayarla](./setfreetextannotationformatting/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF belgelerinde serbest metin açıklama biçimlendirmesini nasıl ayarlayacağınızı öğrenin.  
 | [Kelimeleri Sil](./strikeoutwords/) | Bu kapsamlı adım adım kılavuzla .NET için Aspose.PDF'yi kullanarak bir PDF'deki kelimeleri nasıl çizeceğinizi öğrenin. Belge düzenleme becerilerinizi geliştirin. |  
 | [Ücretsiz Metin PDF Açıklamasını Güncelle](./updatefreetextannotation/) Bu adım adım kılavuzla Aspose.PDF for .NET'i kullanarak PDF belgelerindeki serbest metin açıklamalarını nasıl güncelleyeceğinizi öğrenin.  
+| [Aspose.PDF'de Onarımı Kullanma – Bozuk Açıklamaları Düzeltme](./how-to-use-repair-in-aspose-pdf-fix-broken-annotations/) | Aspose.PDF for .NET kullanarak bozuk açıklamaları onarmayı ve PDF dosyalarınızı sorunsuz hale getirmeyi öğrenin. |
+| [Aspose.PDF ile PDF Açıklaması Ekle - Tam Kılavuz](./add-annotation-pdf-with-aspose-pdf-complete-guide/) | Aspose.PDF for .NET kullanarak PDF dosyalarına açıklama eklemeyi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

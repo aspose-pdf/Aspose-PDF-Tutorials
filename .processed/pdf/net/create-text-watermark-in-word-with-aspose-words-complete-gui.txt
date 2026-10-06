@@ -1,0 +1,7 @@
+Title: Create Text Watermark in Word with Aspose.Words – Complete Guide
+Slug: create-text-watermark-in-word-with-aspose-words-complete-gui
+Category: programming-with-stamps-and-watermarks
+ProcessedDate: 2026-06-21T15:11:32.650697
+SourceRepo: AI Search API
+Keywords: create text watermark, custom stamp page, word document stamp, add stamp to page, add text stamp
+PRNumber: 93

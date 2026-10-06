@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Этот учебник демонстрирует, как создать PDF‑документ, установить его язык по умолчанию и заголовок, а также вставить заголовок уровня 1 с использованием классов Document, ITaggedContent, StructureElement и HeaderElement.
+//ExStepSummary:0: Укажите имя выходного файла для создаваемого PDF.
+//ExStepSummary:1: Создайте новый пустой экземпляр PDF‑документа (`pdfDoc`) внутри блока `using`.
+//ExStepSummary:2: Получите интерфейс `ITaggedContent` для работы с тегированными структурами PDF.
+//ExStepSummary:3: Установите язык документа по умолчанию — английский (США), и задайте метаданные заголовка.
+//ExStepSummary:4: Получите корневой элемент логического дерева структуры.
+//ExStepSummary:5: Создайте элемент заголовка уровня 1, задайте отображаемый текст и укажите его язык.
+//ExStepSummary:6: Добавьте элемент заголовка к корню, чтобы заголовок появился в PDF.
+//ExStepSummary:7: Сохраните PDF в указанный файл и закройте область документа.
+//ExStepSummary:8: Выведите подтверждающее сообщение в консоль.
+//ExStepImage:6:images/1.png
+//ExStep:0-
+const string resultFile = "pdf_with_title.pdf";
+
+//ExStep:1-
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:2-
+ITaggedContent tagContent = pdfDoc.TaggedContent;
+
+//ExStep:3-
+tagContent.SetLanguage("en-US");
+tagContent.SetTitle("PDF Example with Header");
+
+//ExStep:4-
+StructureElement rootElement = tagContent.RootElement;
+
+//ExStep:5-
+HeaderElement header = tagContent.CreateHeaderElement(1);
+header.SetText("Demo Header");
+header.Language = "en-US";
+
+//ExStep:6-
+rootElement.AppendChild(header);
+
+//ExStep:7-
+pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"PDF generated and stored at '{resultFile}'.");
+//ExEnd

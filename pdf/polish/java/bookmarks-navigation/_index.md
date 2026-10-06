@@ -8,7 +8,7 @@ url: /pl/java/bookmarks-navigation/
 weight: 14
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

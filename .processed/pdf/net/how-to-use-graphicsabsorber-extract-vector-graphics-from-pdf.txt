@@ -1,0 +1,7 @@
+Title: How to Use GraphicsAbsorber – Extract Vector Graphics from PDF with Aspose.Pdf
+Slug: how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf
+Category: images-graphics
+ProcessedDate: 2026-06-27T23:32:46.870840
+SourceRepo: AI Search API
+Keywords: how to use graphicsabsorber, extract vector graphics pdf, how to extract pdf vectors, aspose pdf graphics extraction
+PRNumber: 96

@@ -42,8 +42,6 @@ url: /zh-hant/net/document-creation/create-pdf-document-with-aspose-pdf-add-page
 
 **先備條件：** .NET 6+（或 .NET Framework 4.6+）、Visual Studio 或任意 C# IDE，以及有效的 Aspose.PDF 授權（或免費評估版）。不需要其他第三方函式庫。
 
-![建立 PDF 文件範例](alt="使用 Aspose.PDF 建立 PDF 文件，顯示一個超出頁面邊界的紅色矩形")
-
 ---
 
 ## 步驟 1 – 初始化 PDF 文件
