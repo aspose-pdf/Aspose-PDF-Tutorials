@@ -26,6 +26,7 @@ Aspose.PDF for .NET“表单编程”教程是开发人员创建和操作交互�
 | [组合框](./combo-box/) 了解如何使用 Aspose.PDF for .NET 将组合框添加到 PDF。按照我们的分步指南，轻松创建交互式 PDF 表单。|  
 | [创建文档](./create-doc/) 通过本全面的分步指南学习如何使用 Aspose.PDF for .NET 创建带有单选按钮的交互式 PDF 文档。|  
 | [创建带有多个小部件的 PDF 文档 – 分步指南](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) 通过本分步指南学习如何使用 Aspose.PDF for .NET 创建包含多个小部件的 PDF 文档，实现复杂表单功能。|  
+| [在 C# 中使用 Aspose.Pdf 创建多页表单 – 分步指南](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) 通过本分步教程学习如何在 C# 项目中使用 Aspose.Pdf 创建包含多页的交互式 PDF 表单。|  
 | [删除 PDF 文档中的表单字段](./delete-form-field/) 本分步指南将指导您如何使用 Aspose.PDF for .NET 删除 PDF 文档中的表单字段。非常适合开发人员和 PDF 爱好者。|  
 | [确定 PDF 表单中的必填字段](./determine-required-field/) 了解如何使用 Aspose.PDF for .NET 确定 PDF 表单中的必填字段。我们的分步指南可简化表单管理并增强您的 PDF 自动化工作流程。|  
 | [动态 XFA 到 Acro 表单](./dynamic-xfa-to-acro-form/) 在本分步教程中了解如何使用 Aspose.PDF for .NET 将动态 XFA 表单转换为标准 AcroForms。|  

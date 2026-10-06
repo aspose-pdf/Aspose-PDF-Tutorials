@@ -28,6 +28,10 @@ Naučte se, jak automatizovat vytváření profesionálních brožur ve formátu
 Naučte se, jak vytvářet profesionální PDF dokumenty s přesným rozvržením pomocí Aspose.PDF pro .NET. Objevte nastavení stránky, plovoucí rámečky a číslované nadpisy.
 ### [Vytvářejte profesionální PDF soubory s textem a obrázky pomocí Aspose.PDF pro .NET](./create-pdfs-text-images-aspose-pdf-net/)
 Naučte se, jak generovat dynamické PDF dokumenty s textem a obrázky pomocí Aspose.PDF pro .NET. Zefektivněte proces vytváření dokumentů.
+
+### [Vytvořte PDF obrázek z HEIC – Kompletní průvodce C#](./create-pdf-image-from-heic-complete-c-guide/)
+Naučte se, jak pomocí Aspose.PDF v C# převést soubory HEIC na obrázky v PDF.
+
 ### [Vytvářejte strukturované PDF soubory s automatickými zalomeními stránek v .NET pomocí Aspose.PDF](./create-pdfs-page-breaks-net-aspose-pdf/)
 Naučte se, jak programově vytvářet strukturované PDF dokumenty v prostředí .NET pomocí Aspose.PDF s automatickými zalomeními stránek pro přesné formátování.
 ### [Vytvořte PDF brožuru s Aspose.PDF .NET: Zjednodušený podrobný návod](./create-pdf-booklet-aspose-pdf-net-guide/)

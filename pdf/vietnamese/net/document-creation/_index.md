@@ -99,6 +99,9 @@ Hướng dẫn chi tiết cách tạo tài liệu PDF trong bộ nhớ bằng C#
 ### [Tạo tài liệu PDF C# – Hướng dẫn từng bước để thêm trang trống và vẽ hình chữ nhật](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
 Hướng dẫn chi tiết cách thêm một trang trống và vẽ hình chữ nhật vào tài liệu PDF bằng Aspose.PDF trong .NET.
 
+### [Tạo hình ảnh PDF từ HEIC – Hướng dẫn C# đầy đủ](./create-pdf-image-from-heic-complete-c-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tệp HEIC thành hình ảnh PDF bằng C# và Aspose.PDF.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)

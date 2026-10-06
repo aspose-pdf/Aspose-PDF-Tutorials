@@ -52,6 +52,7 @@ Aspose.PDF for .NET के "इमेज के साथ प्रोग्र�
 | [छवि को XImage संग्रह में संग्रहीत करें](./store-image-in-ximage-collection/) | इस संपूर्ण चरण-दर-चरण मार्गदर्शिका में जानें कि .NET के लिए Aspose.PDF का उपयोग करके XImage संग्रह में छवियों को कैसे संग्रहीत किया जाए। |  
 | [Word में फ़िगर जोड़ें – पूर्ण C# प्रोग्रामिंग गाइड](./add-figure-to-word-complete-c-programming-guide/) | C# का उपयोग करके Aspose.Words के साथ Word दस्तावेज़ में फ़िगर जोड़ने की चरण-दर-चरण गाइड। |  
 | [DOCX में छवियों को संकुचित करें – फ़ाइल आकार घटाएँ](./compress-images-in-docx-reduce-file-size/) | .NET के लिए Aspose.PDF का उपयोग करके DOCX फ़ाइल में छवियों को संकुचित कर फ़ाइल आकार घटाएँ। चरण-दर-चरण मार्गदर्शिका। |
+| [Aspose.PDF के साथ PDF में छवि को क्रॉप करें – पूर्ण गाइड](./crop-image-in-pdf-with-aspose-pdf-complete-guide/) | .NET के लिए Aspose.PDF का उपयोग करके PDF में छवि को क्रॉप करने की पूरी प्रक्रिया सीखें। चरण-दर-चरण मार्गदर्शिका, कोड उदाहरण और टिप्स। |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

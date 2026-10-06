@@ -331,6 +331,11 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET beschädigte PDF-Dateien in C# sc
 Erfahren Sie, wie Sie mit Aspose PDF für .NET vertrauliche Informationen in PDFs redigieren und dauerhaft entfernen.
 ### [So entfernen Sie eingebettete Schriftarten aus PDF – Schritt‑für‑Schritt C#‑Leitfaden](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET eingebettete Schriftarten aus PDF-Dateien entfernen.
+### [PDF-Ebenen in C# flachlegen – Export- und Extraktionsleitfaden](./flatten-pdf-layers-in-c-export-extract-guide/)
+Erfahren Sie, wie Sie PDF-Ebenen mit Aspose.PDF für .NET flachlegen und Inhalte exportieren oder extrahieren.
+
+### [Visueller PDF-Vergleich in C# – Vollständige Anleitung zum Vergleich von zwei PDFs](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET visuelle Unterschiede zwischen zwei PDFs erkennen und vergleichen.
 
 ## Weitere Ressourcen
 

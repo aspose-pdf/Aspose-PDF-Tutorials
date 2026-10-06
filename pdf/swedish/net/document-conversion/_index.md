@@ -47,6 +47,8 @@ Du lär dig hur du anger konverteringsinställningar, extraherar text och bilder
 | [Ladda PDF-dokument C# – Konvertera till PDF/X‑4 med Aspose](./load-pdf-document-c-convert-to-pdf-x-4-with-aspose/) | Lär dig hur du laddar ett PDF-dokument i C# och konverterar det till PDF/X‑4 med Aspose.PDF för .NET. |
 | [Öppna PDF-dokument C# – Konvertera till PDF/X‑4 för utskrift](./open-pdf-document-c-convert-to-pdf-x-4-for-printing/) | Lär dig hur du öppnar ett PDF-dokument i C# och konverterar det till PDF/X‑4 för utskriftskvalitet med Aspose.PDF för .NET. |
 | [PDF-formatkonverteringshandledning – Konvertera PDF till PDF/X-4 i C#](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Lär dig hur du konverterar PDF till PDF/X-4 med Aspose.PDF för .NET i C# i en enkel steg-för-steg-guide. |
+| [Aspose PDF-handledning: Läs in och konvertera PDF-filer till PDF/X‑4 i C#](./aspose-pdf-tutorial-load-and-convert-pdfs-to-pdf-x-4-in-c/) | Lär dig hur du laddar PDF-filer och konverterar dem till PDF/X‑4-format med Aspose.PDF för .NET i C#. |
+| [Konvertera PDF till PDF/X‑1a – Fullständig steg‑för‑steg‑guide](./convert-pdf-to-pdf-x-1a-full-step-by-step-guide/) | Lär dig hur du konverterar PDF till PDF/X‑1a med Aspose.PDF för .NET i denna fullständiga steg‑för‑steg‑guide. |
 | [PDF till PNG-teckensnittstips](./pdf-to-png-font-hinting/) | Lär dig konvertera PDF till PNG med teckensnittstips med hjälp av Aspose.PDF för .NET i en enkel steg-för-steg-guide. |
 | [Skapa PDF från JPG i C# – Fullständig guide med beskärning och nya sidor](./create-pdf-from-jpg-in-c-full-guide-with-cropping-and-new-pa/) | Lär dig hur du skapar en PDF från JPG-bilder i C# med beskärning och flera sidor i en komplett steg‑för‑steg‑guide. |
 | [pdf till png‑handledning – Konvertera PDF‑sidor till PNG i C#](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Lär dig hur du konverterar PDF‑sidor till PNG‑bilder i C# med Aspose.PDF för .NET i denna steg‑för‑steg‑guide. |
@@ -74,6 +76,7 @@ Du lär dig hur du anger konverteringsinställningar, extraherar text och bilder
 | [Aspose PDF-konvertering i C#: Ladda, konvertera till PDF/X-4, spara](./aspose-pdf-conversion-in-c-load-convert-to-pdf-x-4-save/) | Lär dig hur du laddar en PDF, konverterar till PDF/X‑4 och sparar med Aspose.PDF för .NET i C#. |
 | [Aspose PDF‑konvertering i C# – Konvertera PDF till PDF/X‑4](./aspose-pdf-conversion-in-c-convert-pdf-to-pdf-x-4/) | Lär dig hur du konverterar PDF till PDF/X‑4 med Aspose.PDF för .NET i en detaljerad steg‑för‑steg‑guide. |
 | [PDF-formatkonverteringshandledning – Konvertera PDF till PDF/X‑4 med Aspose i C#](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-with-a/) | Lär dig hur du konverterar PDF-filer till PDF/X‑4-format med Aspose.PDF för .NET i C# med en tydlig steg‑för‑steg‑guide. |
+| [Konvertera PDF till 2.0 – Fullständig ASP.NET-guide med felloggning](./convert-pdf-to-2-0-full-asp-net-guide-with-error-logging/) | Lär dig hur du konverterar PDF till PDF 2.0 i ASP.NET med komplett felhantering och loggning. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

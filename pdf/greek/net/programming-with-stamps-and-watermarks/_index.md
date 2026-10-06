@@ -54,6 +54,7 @@
 | [Προσθήκη αρίθμησης Bates σε PDF με C# – Πλήρης Οδηγός](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Μάθετε πώς να προσθέσετε αρίθμηση Bates σε αρχεία PDF χρησιμοποιώντας C# και Aspose.PDF για .NET με αυτόν τον πλήρη οδηγό. |
 | [Προσθήκη αρίθμησης Bates σε PDF με το Aspose – Πλήρης Οδηγός](./add-bates-numbering-to-pdfs-with-aspose-complete-guide/) Μάθετε πώς να προσθέσετε αρίθμηση Bates σε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET με αναλυτικό βήμα-βήμα οδηγό. |  
 | [Πώς να προσθέσετε αριθμό Bates σε PDF με C# – Πλήρης Οδηγός](./how-to-add-bates-numbering-in-pdf-with-c-complete-guide/) | Μάθετε πώς να προσθέσετε αριθμό Bates σε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET με C# σε αυτόν τον πλήρη οδηγό. |
+| [Προσθήκη αρίθμησης Bates σε PDF – Πλήρης οδηγός με Aspose](./add-bates-numbering-pdf-complete-guide-with-aspose/) | Μάθετε πώς να προσθέσετε αρίθμηση Bates σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με πλήρη οδηγό βήμα-βήμα. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

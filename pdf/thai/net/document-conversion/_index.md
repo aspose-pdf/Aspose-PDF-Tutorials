@@ -72,6 +72,9 @@
 - [เปิดเอกสาร PDF C# – แปลงเป็น PDF/X‑4 สำหรับการพิมพ์](./open-pdf-document-c-convert-to-pdf-x-4-for-printing/) | เรียนรู้วิธีเปิดไฟล์ PDF และแปลงเป็น PDF/X‑4 สำหรับการพิมพ์โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้  
 - [บทช่วยสอนการแปลงรูปแบบ PDF – แปลง PDF เป็น PDF/X-4 ด้วย C#](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-in-c/) | เรียนรู้วิธีแปลง PDF เป็น PDF/X‑4 ด้วย Aspose.PDF สำหรับ .NET ในบทช่วยสอนแบบทีละขั้นตอนนี้  
 - [สร้าง HTML จาก Word – คู่มือฉบับสมบูรณ์ในการแปลง DOCX เป็น HTML](./create-html-from-word-complete-guide-to-convert-docx-to-html/) | เรียนรู้วิธีแปลงไฟล์ DOCX เป็น HTML ด้วย Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนนี้  
+- [บทแนะนำ Aspose PDF: โหลดและแปลง PDF เป็น PDF/X‑4 ด้วย C#](./aspose-pdf-tutorial-load-and-convert-pdfs-to-pdf-x-4-in-c/) | เรียนรู้วิธีโหลดและแปลงไฟล์ PDF เป็น PDF/X‑4 ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนทีละขั้นตอนนี้  
+- [แปลง PDF เป็น PDF/X-1a – คู่มือเต็มขั้นตอน](./convert-pdf-to-pdf-x-1a-full-step-by-step-guide/) | เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/X-1a ด้วย Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้  
+- [แปลง PDF เป็น 2.0 – คู่มือ ASP.NET เต็มรูปแบบพร้อมบันทึกข้อผิดพลาด](./convert-pdf-to-2-0-full-asp-net-guide-with-error-logging/) | เรียนรู้วิธีแปลง PDF เป็น PDF 2.0 ด้วย ASP.NET พร้อมบันทึกข้อผิดพลาดในขั้นตอนที่ละเอียด  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

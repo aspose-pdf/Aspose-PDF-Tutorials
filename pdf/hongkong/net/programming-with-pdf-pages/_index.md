@@ -45,6 +45,7 @@ Aspose.PDF for .NET 的「使用 PDF 頁面進行編程」文件提供了逐步�
 | [使用 Aspose 為 PDF 添加 Bates 編號 – 完整指南](./add-bates-numbering-pdf-with-aspose-complete-guide/) |使用 Aspose.PDF for .NET 為 PDF 添加 Bates 編號的完整逐步指南，簡單易於實作。 |  
 | [在 C# 中添加 Bates 編號 – 完整逐步指南](./add-bates-numbering-in-c-step-by-step-guide/) |使用 Aspose.PDF for .NET 在 C# 中添加 Bates 編號的完整逐步指南，簡單易於實作。 |  
 | [在 C# 中重新排序 PDF 頁面 – 完整逐步指南](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) |使用 Aspose.PDF for .NET 在 C# 中重新排序 PDF 頁面的完整逐步指南，簡單易於實作。 |  
+| [使用 Aspose.Pdf 重新排序 PDF 頁面 – 完整 C# 指南](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) |透過 Aspose.PDF for .NET 使用 C# 完整指南，學習如何重新排列 PDF 文件中的頁面順序，簡單易懂。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

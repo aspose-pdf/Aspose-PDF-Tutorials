@@ -96,6 +96,9 @@
 
 ### [إنشاء مستند PDF في C# – دليل كامل للإنشاء في الذاكرة](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
 
+### [إنشاء صورة PDF من HEIC – دليل كامل بلغة C#](./create-pdf-image-from-heic-complete-c-guide/)
+تعلم كيفية تحويل ملفات HEIC إلى صور PDF باستخدام Aspose.PDF في C# خطوة بخطوة.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

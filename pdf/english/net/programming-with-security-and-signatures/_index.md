@@ -57,6 +57,7 @@ The tutorial gives you a detailed overview of methods and techniques to ensure t
 | [Create PKCS7 Detached Signer in C# – Complete Guide](./create-pkcs7-detached-signer-in-c-complete-guide/) | Learn how to create a PKCS#7 detached signer in C# with Aspose.PDF for .NET. A complete step-by-step guide. |
 | [Validate PDF Signature in C# – Complete Step‑by‑Step Guide](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | Learn how to validate PDF signatures using Aspose.PDF for .NET in C#. Comprehensive step-by-step guide for developers. |
 | [How to Read Signatures from a PDF in C# – Complete Guide](./how-to-read-signatures-from-a-pdf-in-c-complete-guide/) | Learn how to read PDF signatures using Aspose.PDF for .NET in C#. Step-by-step guide for extracting and verifying digital signatures. |
+| [Check PDF Signature Validity with Aspose.PDF – Complete C# Guide](./check-pdf-signature-validity-with-aspose-pdf-complete-c-guid/) | Learn how to verify PDF signature validity using Aspose.PDF for .NET in a comprehensive C# guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

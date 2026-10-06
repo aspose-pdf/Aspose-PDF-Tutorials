@@ -124,6 +124,12 @@ C#을 사용해 PDF 파일의 디지털 서명을 검증하는 방법을 단계�
 ### [인증서를 사용하여 PDF 서명하기 – 완전 C# 가이드](./how-to-sign-pdf-using-certificate-complete-c-guide/)
 C#을 사용해 인증서로 PDF에 디지털 서명을 적용하는 단계별 완전 가이드입니다.
 
+### [C#에서 PDF 서명하기 – Aspose와 함께하는 완전 가이드](./how-to-sign-pdf-in-c-complete-guide-with-aspose/)
+C#와 Aspose.PDF를 사용해 PDF에 디지털 서명을 적용하는 전체 단계별 가이드를 제공합니다.
+
+### [PDF 디지털 서명 검증 – Aspose.PDF와 함께하는 전체 가이드](./verify-pdf-digital-signature-full-guide-with-aspose-pdf/)
+Aspose.PDF를 사용하여 PDF 디지털 서명을 검증하는 전체 가이드를 제공합니다.
+
 ## 추가 자료
 
 - [Net 문서용 Aspose.PDF](https://docs.aspose.com/pdf/net/)

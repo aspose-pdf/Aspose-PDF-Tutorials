@@ -343,6 +343,9 @@
 - [ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/)
 ### [วิธีทำการลบข้อมูลลับ PDF ใน C# ด้วย Aspose PDF – คู่มือฉบับสมบูรณ์](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
 เรียนรู้วิธีลบข้อมูลลับจากไฟล์ PDF อย่างมีประสิทธิภาพโดยใช้ Aspose PDF ใน C# ด้วยคู่มือขั้นตอนเต็มรูปแบบนี้
+### [ทำให้ชั้น PDF แบนใน C# – คู่มือการส่งออกและสกัดข้อมูล](./flatten-pdf-layers-in-c-export-extract-guide/)
+
+### [เปรียบเทียบ PDF ด้วย Visual PDF Diff ใน C# – คู่มือฉบับสมบูรณ์เพื่อเปรียบเทียบ PDF สองไฟล์](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

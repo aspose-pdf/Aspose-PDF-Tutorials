@@ -52,6 +52,7 @@ Samouczki „Programowanie z obrazami” Aspose.PDF for .NET przeprowadzą Cię 
 | [Utwórz pustą stronę PDF – Kompletny przewodnik po dodawaniu, przycinaniu i zmianie rozmiaru obrazów](./create-blank-pdf-page-full-guide-to-adding-cropping-resizing/) | Dowiedz się, jak utworzyć pustą stronę PDF i dodawać, przycinać oraz zmieniać rozmiar obrazów przy użyciu Aspose.PDF dla .NET. |
 | [Dodaj rysunek do Word – Kompletny przewodnik programowania w C#](./add-figure-to-word-complete-c-programming-guide/) | Dowiedz się, jak programowo dodawać rysunki do dokumentów Word przy użyciu C# i Aspose.Words dla .NET. |
 | [Kompresja obrazów w DOCX – zmniejsz rozmiar pliku](./compress-images-in-docx-reduce-file-size/) | Dowiedz się, jak skompresować obrazy w dokumentach DOCX, aby zmniejszyć rozmiar pliku przy użyciu Aspose.Words dla .NET. |
+| [Przycinanie obrazu w PDF za pomocą Aspose.PDF – Kompletny przewodnik](./crop-image-in-pdf-with-aspose-pdf-complete-guide/) | Dowiedz się, jak przyciąć obraz w pliku PDF przy użyciu Aspose.PDF dla .NET w tym szczegółowym przewodniku krok po kroku. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

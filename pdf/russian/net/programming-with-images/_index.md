@@ -52,6 +52,7 @@
 | [Сохранить изображение в коллекции XImage](./store-image-in-ximage-collection/) | Узнайте, как хранить изображения в коллекции XImage с помощью Aspose.PDF для .NET в этом полном пошаговом руководстве. |  
 | [Сжатие изображений в DOCX – уменьшение размера файла](./compress-images-in-docx-reduce-file-size/) | Узнайте, как сжать изображения в файлах DOCX, чтобы уменьшить размер документа, используя Aspose.PDF для .NET. |  
 | [Добавить рисунок в Word – Полное руководство по программированию C#](./add-figure-to-word-complete-c-programming-guide/) | Узнайте, как добавить рисунок в документ Word программным способом с помощью Aspose.Words для .NET. Пошаговое руководство, пример кода и FAQ. |  
+| [Обрезка изображения в PDF с Aspose.PDF – Полное руководство](./crop-image-in-pdf-with-aspose-pdf-complete-guide/) | Узнайте, как обрезать изображения в PDF-файлах с помощью Aspose.PDF в полном руководстве. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

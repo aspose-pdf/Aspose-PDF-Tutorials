@@ -45,6 +45,7 @@
 | [Переупорядочить страницы PDF в C# – Полное пошаговое руководство](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | Пошаговое руководство по переупорядочиванию страниц PDF с помощью Aspose.PDF для .NET в C#. Простая реализация для всех уровней. |
 | [Добавить нумерацию Бейтса в C# – Пошаговое руководство](./add-bates-numbering-in-c-step-by-step-guide/) | Пошаговое руководство по добавлению нумерации Бейтса в PDF с помощью Aspose.PDF для .NET и C#. |
 | [Добавить страницы в PDF – Пошаговое руководство для разработчиков C#](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) | Пошаговое руководство по добавлению страниц в PDF с помощью Aspose.PDF для .NET и C#. |
+| [Переупорядочить страницы PDF с Aspose.Pdf – Полное руководство на C#](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) | Пошаговое руководство по переупорядочиванию страниц PDF с помощью Aspose.Pdf в C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

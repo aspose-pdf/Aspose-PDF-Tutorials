@@ -74,6 +74,9 @@ Aspose.PDF の .NET 向けドキュメント変換チュートリアルでは、
 | [PDF形式変換チュートリアル – C#でAsposeを使用してPDFをPDF/X‑4に変換](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-with-a/) Aspose.PDF for .NET を使用して C# で PDF を PDF/X‑4 形式に変換する方法をステップバイステップで解説します。 |  
 | [PDF形式変換チュートリアル – C#でPDFをPDF/X-4に変換](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-in-c/) C# と Aspose.PDF for .NET を使用して PDF を PDF/X‑4 に変換する手順を学びます。 |  
 | [Word から HTML を作成 – DOCX を HTML に変換する完全ガイド](./create-html-from-word-complete-guide-to-convert-docx-to-html/) このステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して DOCX を HTML に変換する方法を学びます。 |  
+| [Aspose PDF チュートリアル: C# で PDF を読み込み PDF/X‑4 に変換](./aspose-pdf-tutorial-load-and-convert-pdfs-to-pdf-x-4-in-c/) このステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して C# で PDF を読み込み、PDF/X‑4 に変換する方法を学びます。 |
+| [PDF を PDF/X‑1a に変換 – 完全ステップバイステップ ガイド](./convert-pdf-to-pdf-x-1a-full-step-by-step-guide/) Aspose.PDF for .NET を使用して PDF を PDF/X‑1a 形式に変換する方法をステップバイステップで解説します。 |
+| [PDF を 2.0 に変換 – エラーログ付きフル ASP.NET ガイド](./convert-pdf-to-2-0-full-asp-net-guide-with-error-logging/) Aspose.PDF for .NET を使用し、PDF を 2.0 形式に変換し、エラーロギングを実装する完全な ASP.NET 手順を解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

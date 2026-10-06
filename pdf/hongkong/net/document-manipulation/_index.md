@@ -319,9 +319,6 @@ Aspose.PDF Net 程式碼教學
 ### [如何在 C# 中修復 PDF – 快速修復損壞的 PDF 檔案](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中快速修復受損的 PDF 檔案，恢復其內容與結構。
 
-### [如何使用 Aspose.PDF 扁平化 PDF – 完整指南](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
-了解如何使用 Aspose.PDF for .NET 將 PDF 扁平化，以防止內容被編輯或修改。
-
 ### [如何使用 Aspose.PDF 比較 PDF – 逐步指南](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
 了解如何使用 Aspose 在 .NET 中逐步比較 PDF 文件，找出差異並生成比較報告。
 
@@ -329,6 +326,13 @@ Aspose.PDF Net 程式碼教學
 了解如何使用 Aspose.PDF for .NET 從 PDF 文件中移除嵌入字體，以減少檔案大小並優化文件。
 ### [如何在 PDF 中移除嵌入字型 – 步驟式 C# 教學](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中移除 PDF 檔案的嵌入字型，以減少檔案大小並優化效能。
+
+### [在 C# 中平鋪 PDF 圖層 – 匯出與提取指南](./flatten-pdf-layers-in-c-export-extract-guide/)
+
+### [如何使用 Aspose.PDF for .NET 平鋪 PDF – 完整指南](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+了解如何使用 Aspose.PDF for .NET 將 PDF 文件平鋪，移除圖層並產生單一內容層的完整步驟。
+
+### [C# 中的視覺化 PDF 差異比較 – 完整指南：比較兩個 PDF](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
 
 ## 其他資源
 

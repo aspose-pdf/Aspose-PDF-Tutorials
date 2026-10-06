@@ -36,6 +36,7 @@
 | [شطب الكلمات](./strikeoutwords/) تعلّم كيفية شطب الكلمات في ملف PDF باستخدام Aspose.PDF لـ .NET من خلال هذا الدليل الشامل خطوة بخطوة. حسّن مهاراتك في تحرير المستندات.  
 | [تحديث التعليقات التوضيحية المجانية لنصوص PDF](./updatefreetextannotation/) |تعرف على كيفية تحديث التعليقات النصية المجانية في مستندات PDF باستخدام Aspose.PDF لـ .NET باستخدام هذا الدليل خطوة بخطوة. |  
 | [كيفية استخدام الإصلاح في Aspose.PDF – إصلاح التعليقات التوضيحية المكسورة](./how-to-use-repair-in-aspose-pdf-fix-broken-annotations/) |تعلم كيفية إصلاح التعليقات التوضيحية المكسورة في ملفات PDF باستخدام أداة الإصلاح في Aspose.PDF لـ .NET. |
+| [إضافة تعليقات توضيحية إلى ملف PDF باستخدام Aspose.PDF - دليل شامل](./add-annotation-pdf-with-aspose-pdf-complete-guide/) دليل شامل يوضح كيفية إضافة تعليقات توضيحية إلى ملفات PDF باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

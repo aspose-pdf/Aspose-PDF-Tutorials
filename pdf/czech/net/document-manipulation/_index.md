@@ -282,6 +282,10 @@ Naučte se, jak rozdělovat vícestránkové PDF soubory a vytvářet nové PDF 
 
 ### [Jak redigovat PDF v C# – Skrytí textu PDF a odstranění obsahu PDF](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
 Naučte se, jak v C# pomocí Aspose.PDF skrýt citlivý text a odstranit obsah z PDF dokumentů.
+### [Zploštění vrstev PDF v C# – Průvodce exportem a extrakcí](./flatten-pdf-layers-in-c-export-extract-guide/)
+Naučte se, jak zploštit vrstvy PDF a exportovat nebo extrahovat jejich obsah pomocí Aspose.PDF pro .NET v C#.
+
+Naučte se, jak zploštit PDF soubory pomocí Aspose.PDF v tomto kompletním průvodci.
 
 ### [Ultimátní průvodce manipulací s PDF pomocí Aspose.PDF .NET: Efektivní načítání, ukládání a nahrazování textu](./master-pdf-manipulation-aspose-pdf-net/)
 Naučte se, jak zvládnout manipulaci s PDF pomocí Aspose.PDF pro .NET. Tato příručka se zabývá načítáním, ukládáním a nahrazováním textu v PDF souborech, což je ideální pro vývojáře, kteří hledají efektivitu.

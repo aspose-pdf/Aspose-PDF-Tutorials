@@ -45,6 +45,7 @@ Bahasa Indonesia: --- | Bahasa Indonesia:
 | [Menambahkan Penomoran Bates di C# – Panduan Langkah demi Langkah](./add-bates-numbering-in-c-step-by-step-guide/) | Panduan lengkap menambahkan penomoran Bates pada file PDF menggunakan Aspose.PDF untuk .NET dengan C#. |  
 | [Menambahkan Halaman ke PDF – Panduan Langkah demi Langkah untuk Pengembang C#](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) | Panduan langkah demi langkah untuk menambahkan halaman ke file PDF menggunakan Aspose.PDF untuk .NET dengan C#. Mudah diikuti. |
 | [Menata Ulang Halaman PDF di C# – Panduan Langkah demi Langkah Lengkap](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | Panduan langkah demi langkah untuk menata ulang halaman PDF menggunakan C# dengan Aspose.PDF untuk .NET. Mudah diikuti. |
+| [Urutkan Ulang Halaman PDF dengan Aspose.Pdf – Panduan Lengkap C#](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) | Panduan langkah demi langkah untuk mengurutkan ulang halaman PDF menggunakan Aspose.PDF untuk .NET dengan C#. Mudah diikuti. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

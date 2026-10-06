@@ -23,7 +23,10 @@ You'll learn how to specify conversion settings, extract text and images, retain
 | --- | --- | 
 | [Add Attachment to PDFA](./add-attachment-to-pdfa/) | Learn how to add attachments to a PDF/A document using Aspose.PDF for .NET with this step-by-step guide. |  
 | [Aspose PDF Conversion in C#: Load, Convert to PDF/X-4, Save](./aspose-pdf-conversion-in-c-load-convert-to-pdf-x-4-save/) | Learn how to load a document, convert it to PDF/X‑4, and save using Aspose.PDF for .NET in C#. |  
+| [Aspose PDF Tutorial: Load and Convert PDFs to PDF/X‑4 in C#](./aspose-pdf-tutorial-load-and-convert-pdfs-to-pdf-x-4-in-c/) | Learn how to load PDFs and convert them to PDF/X‑4 using Aspose.PDF for .NET in C# with this step‑by‑step tutorial. |
 | [CGM To PDF Files](./cgm-to-pdf/) | Learn how to convert CGM files to PDF using Aspose.PDF for .NET with this step-by-step guide. Perfect for developers and designers alike. |  
+| [Convert PDF to 2.0 – Full ASP.NET Guide with Error Logging](./convert-pdf-to-2-0-full-asp-net-guide-with-error-logging/) | Learn how to convert PDF to PDF 2.0 in ASP.NET with comprehensive steps and error logging using Aspose.PDF for .NET. |
+| [Convert PDF to PDF/X‑1a – Full Step‑by‑Step Guide](./convert-pdf-to-pdf-x-1a-full-step-by-step-guide/) | Learn how to convert PDF to PDF/X‑1a using Aspose.PDF for .NET in this comprehensive step‑by‑step guide. |
 | [Convert PDF to PDF/X‑4 in C# – Step‑by‑Step ASP.NET PDF Tutorial](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Learn how to convert PDF to PDF/X‑4 using Aspose.PDF for .NET in this step‑by‑step ASP.NET tutorial. |
 | [Aspose PDF Tutorial: Convert PDF to PDF/X‑4 in C#](./aspose-pdf-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Learn how to convert PDF to PDF/X‑4 using Aspose.PDF for .NET in this step‑by‑step C# tutorial. |
 | [Open PDF Document C# – Convert to PDF/X‑4 for Printing](./open-pdf-document-c-convert-to-pdf-x-4-for-printing/) | Learn how to open a PDF in C# and convert it to PDF/X‑4 for printing using Aspose.PDF for .NET. |

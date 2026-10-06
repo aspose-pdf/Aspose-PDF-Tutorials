@@ -45,6 +45,7 @@ Hướng dẫn bao gồm hướng dẫn từng bước, ví dụ mã chi tiết 
 | [Thêm số Bates trong C# – Hướng dẫn chi tiết từng bước](./add-bates-numbering-in-c-step-by-step-guide/) | Hướng dẫn chi tiết cách thêm số Bates vào tài liệu PDF bằng C# với Aspose.PDF cho .NET. |  
 | [Thêm trang vào PDF – Hướng dẫn chi tiết từng bước cho nhà phát triển C#](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) | Hướng dẫn chi tiết cách thêm trang vào PDF bằng C# với Aspose.PDF cho .NET. |  
 | [Sắp xếp lại các trang PDF trong C# – Hướng dẫn chi tiết từng bước](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | Hướng dẫn chi tiết cách sắp xếp lại thứ tự các trang PDF bằng C# với Aspose.PDF cho .NET. |  
+| [Sắp xếp lại các trang PDF với Aspose.Pdf – Hướng dẫn C# đầy đủ](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) | Hướng dẫn chi tiết cách sắp xếp lại các trang PDF bằng C# với Aspose.PDF cho .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

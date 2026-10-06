@@ -124,6 +124,12 @@ Apprenez à signer des PDF en C# avec Aspose.PDF, étape par étape, pour ajoute
 ### [Comment signer un PDF à l'aide d'un certificat – Guide complet C#](./how-to-sign-pdf-using-certificate-complete-c-guide/)
 Apprenez à signer des PDF en utilisant un certificat avec Aspose.PDF pour .NET, incluant un guide complet en C#.
 
+### [Comment signer un PDF en C# – Guide complet avec Aspose](./how-to-sign-pdf-in-c-complete-guide-with-aspose/)
+Apprenez à signer des fichiers PDF en C# avec Aspose.PDF, étape par étape, incluant la configuration et les meilleures pratiques.
+
+### [Vérifier la signature numérique PDF – Guide complet avec Aspose.PDF](./verify-pdf-digital-signature-full-guide-with-aspose-pdf/)
+Apprenez à valider les signatures numériques des fichiers PDF avec Aspose.PDF, étape par étape, incluant la configuration et les meilleures pratiques.
+
 ## Ressources supplémentaires
 
 - [Aspose.PDF pour la documentation réseau](https://docs.aspose.com/pdf/net/)

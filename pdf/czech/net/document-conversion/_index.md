@@ -74,6 +74,9 @@ Naučíte se, jak nastavit převod, extrahovat text a obrázky, zachovat původn
 | [Uložení PDF jako HTML pomocí Aspose.PDF – krok za krokem průvodce v C#](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) | Naučte se, jak pomocí Aspose.PDF pro .NET převést PDF do HTML v C# pomocí podrobného krok‑za‑krokem návodu. |
 | [Vytvořit PDF z JPG v C# – Kompletní průvodce ořezáváním a novými stránkami](./create-pdf-from-jpg-in-c-full-guide-with-cropping-and-new-pa/) | Naučte se, jak pomocí Aspose.PDF pro .NET vytvořit PDF z JPG, ořezávat obrázky a přidávat nové stránky v podrobném návodu. |
 | [Vytvořit element span a přidat na stránku – převod DOCX do PDF](./create-span-element-and-add-to-page-convert-docx-to-pdf/) | Naučte se, jak vytvořit element span a přidat jej na stránku při převodu DOCX do PDF pomocí Aspose.PDF pro .NET. |
+| [Aspose PDF tutoriál: Načtení a převod PDF do PDF/X‑4 v C#](./aspose-pdf-tutorial-load-and-convert-pdfs-to-pdf-x-4-in-c/) | Naučte se, jak načíst a převést PDF soubory do formátu PDF/X‑4 pomocí Aspose.PDF pro .NET v C#. |
+| [Převod PDF na PDF/X‑1a – Kompletní krok‑za‑krokem průvodce](./convert-pdf-to-pdf-x-1a-full-step-by-step-guide/) | Naučte se, jak převést PDF soubory do formátu PDF/X‑1a pomocí Aspose.PDF pro .NET v podrobném průvodci krok za krokem. |
+| [Převod PDF na 2.0 – Kompletní ASP.NET průvodce s logováním chyb](./convert-pdf-to-2-0-full-asp-net-guide-with-error-logging/) | Naučte se, jak převést PDF na verzi 2.0 v ASP.NET s podrobným logováním chyb. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

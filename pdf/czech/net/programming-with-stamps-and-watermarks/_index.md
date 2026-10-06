@@ -55,6 +55,7 @@ Výukové programy „Programování s razítky a vodoznaky“ pro .NET od Aspos
 | [Přidat Batesovo číslování do PDF pomocí Aspose – Kompletní průvodce](./add-bates-numbering-to-pdfs-with-aspose-complete-guide/) | Naučte se, jak přidat Batesovo číslování do PDF souborů pomocí Aspose.PDF pro .NET v tomto podrobném průvodci. |
 | [Jak přidat číslování Bates v PDF pomocí C# – Kompletní průvodce](./how-to-add-bates-numbering-in-pdf-with-c-complete-guide/) Naučte se, jak pomocí Aspose.PDF pro .NET přidat číslování Bates do PDF souborů v jazyce C# s podrobným příkladem. |  
 
+| [Přidat Batesovo číslování PDF – Kompletní průvodce s Aspose](./add-bates-numbering-pdf-complete-guide-with-aspose/) | Naučte se, jak přidat Batesovo číslování do PDF souborů pomocí Aspose.PDF pro .NET v tomto podrobném průvodci. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

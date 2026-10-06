@@ -91,6 +91,8 @@ Lär dig hur du konverterar PDF-dokument till högkvalitativa PNG-bilder med Asp
 Lär dig hur du renderar PDF-filer till PNG-bilder i C# med en komplett steg-för-steg-guide.
 ### [Aspose PDF till PNG – Exportera första sidan med 300 DPI](./aspose-pdf-to-png-export-first-page-at-300-dpi/)
 Lär dig hur du exporterar den första sidan i en PDF till PNG med 300 DPI med Aspose.PDF för .NET.
+### [Hur man renderar PDF till PNG med Aspose – Komplett guide](./how-to-render-pdf-to-png-with-aspose-complete-guide/)
+Lär dig hur du konverterar PDF-filer till PNG-bilder med Aspose i en komplett steg-för-steg-guide.
 
 ### [Konvertera PDF till PPTX med Aspose.PDF för .NET: Steg-för-steg-guide](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 Lär dig hur du effektivt konverterar PDF-dokument till PowerPoint-presentationer med Aspose.PDF för .NET. Den här steg-för-steg-guiden täcker grundläggande konvertering, avancerade funktioner som bildbilder och förloppsspårning.
@@ -240,6 +242,8 @@ Bemästra PDF-till-HTML-konvertering med Aspose.PDF för .NET. Förbättra dokum
 Lär dig hur du snabbt konverterar PDF till HTML i C# med Aspose.Pdf.
 ### [Spara PDF som HTML med Aspose.PDF – Komplett C#-guide](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
 Lär dig hur du konverterar PDF till HTML med Aspose.PDF i C#, steg-för-steg med kodexempel.
+### [Spara PDF som HTML med Aspose.Pdf – Komplett C#-guide](./save-pdf-as-html-with-aspose-pdf-complete-c-guide/)
+Lär dig hur du sparar PDF som HTML med Aspose.Pdf i C# med en komplett steg-för-steg-guide.
 
 ### [PDF till HTML-konvertering med Aspose.PDF för .NET](./pdf-to-html-conversion-aspose-dot-net/)
 En kodhandledning för Aspose.PDF Net
@@ -264,6 +268,8 @@ Lär dig hur du konverterar PDF-filer till PNG-bilder i C# med Aspose.PDF, steg 
 Lär dig snabbt hur du sparar PDF som HTML med Aspose.PDF i C#.
 ### [Konvertera PDF till HTML och verifiera PDF-signatur – Fullständig Aspose .NET-guide](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
 Lär dig hur du konverterar PDF till HTML och verifierar PDF-signaturer med Aspose.PDF för .NET i en komplett guide.
+### [Hur man exporterar PDF till HTML i C# – Komplett Aspose-guide](./how-to-export-pdf-to-html-in-c-complete-aspose-guide/)
+Lär dig steg-för-steg hur du exporterar PDF-filer till HTML med Aspose.PDF i C# med en komplett guide.
 
 ## Ytterligare resurser
 

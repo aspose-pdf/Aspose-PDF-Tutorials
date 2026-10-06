@@ -36,6 +36,7 @@
 - [ขีดฆ่าคำ](./strikeoutwords/) | เรียนรู้วิธีการขีดฆ่าคำใน PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนที่ครอบคลุมนี้ พัฒนาทักษะการแก้ไขเอกสารของคุณ -  
 | [อัปเดตคำอธิบาย PDF ข้อความฟรี](./updatefreetextannotation/) เรียนรู้วิธีอัปเดตคำอธิบายข้อความอิสระในเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้  
 | [วิธีใช้ Repair ใน Aspose.PDF – แก้ไขคำอธิบายที่เสียหาย](./how-to-use-repair-in-aspose-pdf-fix-broken-annotations/) เรียนรู้วิธีใช้ฟีเจอร์ Repair ใน Aspose.PDF เพื่อซ่อมแซมคำอธิบายที่เสียหายในไฟล์ PDF ของคุณ  
+| [เพิ่มคำอธิบาย PDF ด้วย Aspose.PDF - คู่มือฉบับสมบูรณ์](./add-annotation-pdf-with-aspose-pdf-complete-guide/) | เรียนรู้วิธีเพิ่มคำอธิบาย PDF อย่างละเอียดด้วย Aspose.PDF สำหรับ .NET ในคู่มือฉบับเต็มนี้ |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

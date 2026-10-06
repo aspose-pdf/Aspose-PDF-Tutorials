@@ -332,6 +332,11 @@ Leer hoe u PDF's kunt flattenen om bewerkingen te vergrendelen met Aspose.PDF vo
 
 ### [PDF's vergelijken met Aspose – stap‑voor‑stap handleiding](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
 Leer hoe u twee PDF-bestanden kunt vergelijken met Aspose.PDF voor .NET, inclusief codevoorbeelden en tips voor nauwkeurige resultaten.
+### [PDF-lagen flatten in C# – Export- en extractiegids](./flatten-pdf-layers-in-c-export-extract-guide/)
+Leer hoe u PDF-lagen kunt flatten, exporteren en extraheren met Aspose.PDF voor .NET in C#.
+
+### [Visuele PDF-verschil in C# – Complete gids om twee PDF's te vergelijken](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
+Leer hoe u met Aspose.PDF voor .NET twee PDF-bestanden visueel kunt vergelijken en verschillen kunt identificeren.
 
 ## Aanvullende bronnen
 

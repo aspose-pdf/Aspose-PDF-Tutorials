@@ -76,6 +76,9 @@
 | [PDF फ़ॉर्मेट रूपांतरण ट्यूटोरियल – Aspose के साथ C# में PDF को PDF/X‑4 में बदलें](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-with-a/) | इस ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X‑4 फ़ॉर्मेट में बदलना सीखें। |
 | [Word से HTML बनाएं – DOCX को HTML में बदलने की पूर्ण गाइड](./create-html-from-word-complete-guide-to-convert-docx-to-html/) | DOCX फ़ाइल को HTML में बदलने के चरण-दर-चरण निर्देश, .NET के लिए Aspose.PDF का उपयोग करके। |
 | [PDF फ़ॉर्मेट रूपांतरण ट्यूटोरियल – C# में PDF को PDF/X-4 में बदलें](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-in-c/) | इस चरण-दर-स्ट... इस ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके C# में PDF को PDF/X‑4 में बदलना सीखें। |
+| [Aspose PDF ट्यूटोरियल: C# में PDFs को लोड करके PDF/X‑4 में बदलें](./aspose-pdf-tutorial-load-and-convert-pdfs-to-pdf-x-4-in-c/) | इस चरण-दर-स्ट... |
+| [PDF को PDF/X-1a में बदलें – पूर्ण चरण‑दर‑चरण गाइड](./convert-pdf-to-pdf-x-1a-full-step-by-step-guide/) | इस चरण-दर-चरण ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X-1a फ़ॉर्मेट में बदलना सीखें। |
+| [PDF को 2.0 में बदलें – त्रुटि लॉगिंग के साथ पूर्ण ASP.NET गाइड](./convert-pdf-to-2-0-full-asp-net-guide-with-error-logging/) | इस विस्तृत चरण-दर-चरण ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को 2.0 में बदलना और त्रुटि लॉगिंग लागू करना सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

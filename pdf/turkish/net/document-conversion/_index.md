@@ -61,6 +61,7 @@ Dönüştürme ayarlarını nasıl belirleyeceğinizi, metin ve görüntüleri n
 | [XML'den PDF'e](./xml-to-pdf/) | Bu kapsamlı adım adım eğitimde, kod örnekleri ve detaylı açıklamalarla birlikte Aspose.PDF for .NET kullanarak XML'i PDF'ye nasıl dönüştüreceğinizi öğrenin.  
 | [XML'den PDFSet Görüntü Yoluna](./xml-to-pdfset-image-path/) | Aspose.PDF for .NET kullanarak XML'i PDF'ye zahmetsizce nasıl dönüştüreceğinizi öğrenin. Bu ayrıntılı kılavuz, kurulumdan tamamlanmaya kadar süreci adım adım anlatır. |  
 | [XPS'den PDF'e](./xps-to-pdf/) Bu adım adım eğitimle Aspose.PDF for .NET kullanarak XPS dosyalarını PDF'ye nasıl dönüştüreceğinizi öğrenin. Geliştiriciler ve belge meraklıları için mükemmel. |
+| [PDF'yi PDF/X-1a'ya Dönüştür – Tam Adım‑Adım Kılavuz](./convert-pdf-to-pdf-x-1a-full-step-by-step-guide/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF dosyalarını PDF/X-1a formatına nasıl dönüştüreceğinizi öğrenin. |
 | [PDF'yi C#'ta PDF/X‑4'e Dönüştür – Adım Adım ASP.NET PDF Eğitimi](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Aspose.PDF for .NET kullanarak PDF dosyalarını PDF/X‑4 formatına C# ile nasıl dönüştüreceğinizi öğrenin. |
 | [Aspose PDF Dönüştürme C# – PDF'yi PDF/X‑4'e Dönüştür](./aspose-pdf-conversion-in-c-convert-pdf-to-pdf-x-4/) | Aspose.PDF for .NET kullanarak PDF dosyalarını PDF/X‑4 formatına C# ile nasıl dönüştüreceğinizi öğrenin. |
 | [PDF formatı dönüştürme eğitimi – Aspose ile C#'ta PDF'yi PDF/X‑4'e dönüştür](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-with-a/) | Aspose.PDF for .NET kullanarak C# ile PDF dosyalarını PDF/X‑4 formatına nasıl dönüştüreceğinizi adım adım öğrenin. |
@@ -74,6 +75,8 @@ Dönüştürme ayarlarını nasıl belirleyeceğinizi, metin ve görüntüleri n
 | [PDF'yi C#'ta PDF/X‑4'e Dönüştür – Aspose PDF](./how-to-convert-pdf-to-pdf-x-4-in-c-with-aspose-pdf/) | Aspose.PDF for .NET kullanarak PDF dosyalarını PDF/X‑4 formatına C# ile nasıl dönüştüreceğinizi öğrenin. |
 | [PDF formatı dönüştürme eğitimi – PDF'yi C#'ta PDF/X-4'e Dönüştür](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Aspose.PDF for .NET kullanarak PDF dosyalarını PDF/X‑4 formatına C# ile nasıl dönüştüreceğinizi öğrenin. |
 | [Word'den HTML Oluşturma – DOCX'ten HTML'ye Tam Kılavuz](./create-html-from-word-complete-guide-to-convert-docx-to-html/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak DOCX dosyalarını HTML'ye nasıl dönüştüreceğinizi öğrenin. |
+| [Aspose PDF Eğitimi: PDF'leri Yükleyip C#'ta PDF/X‑4'e Dönüştürme](./aspose-pdf-tutorial-load-and-convert-pdfs-to-pdf-x-4-in-c/) | Aspose.PDF for .NET kullanarak PDF dosyalarını C# ile yükleyip PDF/X‑4 formatına nasıl dönüştüreceğinizi adım adım öğrenin. |
+| [PDF'yi 2.0'a Dönüştür – Hata Günlüğüyle Tam ASP.NET Kılavuzu](./convert-pdf-to-2-0-full-asp-net-guide-with-error-logging/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF'yi 2.0 formatına dönüştürmeyi ve hata günlüğü eklemeyi öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

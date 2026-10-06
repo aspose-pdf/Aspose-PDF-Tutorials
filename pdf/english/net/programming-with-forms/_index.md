@@ -55,6 +55,7 @@ These tutorials also provide detailed code examples, clear explanations, and ill
 | [Text Box](./text-box/) | Discover how to effortlessly add text boxes to PDFs using Aspose.PDF for .NET with this step-by-step guide. Enhance user interaction. |  
 | [Create PDF with Pages and Text Box Fields – Full C# Guide](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Learn how to create a PDF with multiple pages and add text box fields using Aspose.PDF for .NET in this comprehensive C# guide. |  
 | [Create PDF Document C# – Step‑by‑Step Guide to Multi‑Page Forms](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Learn how to create multi‑page PDF forms in C# using Aspose.PDF for .NET with this step‑by‑step guide. |
+| [Create Multi Page Form in C# with Aspose.Pdf – Step‑by‑Step Guide](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | Learn how to create a multi‑page form in C# using Aspose.PDF with this step‑by‑step guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

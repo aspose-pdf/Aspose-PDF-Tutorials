@@ -54,6 +54,7 @@ Handledningen ger dig en detaljerad översikt över metoder och tekniker för at
 | [Skapa PKCS7 fristående signerare i C# – Komplett guide](./create-pkcs7-detached-signer-in-c-complete-guide/) | Lär dig hur du skapar en PKCS7 fristående signatur i C# med Aspose.PDF för .NET. |
 | [Hämta PDF-signaturnamn med Aspose.PDF i C#](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | Lär dig hur du extraherar namn på digitala signaturer från PDF-dokument med Aspose.PDF för .NET i C#. |
 | [Hur man läser signaturer från en PDF i C# – Komplett guide](./how-to-read-signatures-from-a-pdf-in-c-complete-guide/) | En komplett guide för att läsa signaturer från PDF-filer med Aspose.PDF för .NET i C#. |
+| [Kontrollera PDF-signaturens giltighet med Aspose.PDF – Komplett C#-guide](./check-pdf-signature-validity-with-aspose-pdf-complete-c-guid/) | Lär dig hur du kontrollerar giltigheten för PDF-signaturer med Aspose.PDF för .NET i en komplett C#-guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

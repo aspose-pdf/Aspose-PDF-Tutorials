@@ -308,6 +308,9 @@ Aspose.PDF for .NET を使って PDF ページを回転する方法を学びま�
 ### [.NET Streams と Aspose.PDF を使用して特定のページから PDF ページを分割する](./split-pdf-pages-with-net-streams-aspose-pdf/)
 Aspose.PDF で .NET ストリームを使用して特定のページから PDF ファイルを効率的に分割し、アプリケーションでのドキュメント管理を強化する方法を学習します。
 
+### [C# で PDF のレイヤーをフラット化する – エクスポートと抽出ガイド](./flatten-pdf-layers-in-c-export-extract-guide/)
+Aspose.PDF for .NET を使用して、PDF のレイヤーをフラット化し、エクスポートおよび抽出する方法を学びます。
+
 ### [Aspose.PDF .NET を使用して PDF ページを個別のファイルに分割する (C# チュートリアル)](./split-pdf-pages-aspose-net-csharp/)
 Aspose.PDF for .NETおよびC#を使用してPDFファイルを個別のページに分割する方法を学びます。このガイドでは、セットアップ、実装、そして実践的な応用例を解説します。
 
@@ -330,6 +333,9 @@ Aspose.PDF for .NET を使い、C# で PDF の機密情報をマスク（編集�
 
 ### [Aspose.PDF を使用して PDF をフラット化する方法 – 完全ガイド](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
 Aspose.PDF for .NET を使用して、PDF をフラット化し、編集不可にする方法を学びましょう。この完全ガイドで手順を確認してください。
+
+### [C# でのビジュアル PDF 差分 – 2 つの PDF を比較する完全ガイド](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
+Aspose.PDF for .NET を使用して、C# で 2 つの PDF を視覚的に比較し、差分をハイライトする方法を学びます。
 
 ### [Aspose.PDF for .NET を使用して PDF を比較する方法 – ステップバイステップ ガイド](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
 Aspose.PDF for .NET を使用して、2つの PDF ドキュメントを比較し、差分を検出する方法をステップバイステップで学びましょう。

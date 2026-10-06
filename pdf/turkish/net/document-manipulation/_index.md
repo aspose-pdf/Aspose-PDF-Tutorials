@@ -26,7 +26,7 @@ Aspose.PDF Net için bir kod öğreticisi
 Bu kapsamlı kılavuzla Aspose.PDF for .NET'i kullanarak PDF belgelerinizin altbilgisine logo veya filigran gibi bir resim damgasının nasıl ekleneceğini öğrenin.
 
 ### [.NET için Aspose.PDF Kullanarak PDF'lere Resim ve Sayfa Numaraları Ekleyin: Eksiksiz Bir Kılavuz](./enhance-pdfs-images-page-numbers-aspose-pdf/)
-Aspose.PDF for .NET kullanarak PDF belgelerinizi resim ve sayfa numaraları ekleyerek nasıl geliştireceğinizi öğrenin. Profesyonel görünümlü raporlar, bültenler veya iş belgeleri oluşturmak için bu adım adım kılavuzu izleyin.
+Aspose.PDF for .NET kullanarak PDF belgelerinizi resim ve sayfa numaraları ekerek nasıl geliştireceğinizi öğrenin. Profesyonel görünümlü raporlar, bültenler veya iş belgeleri oluşturmak için bu adım adım kılavuzu izleyin.
 
 ### [.NET için Aspose.PDF Kullanarak PDF Düğmelerine JavaScript Ekleme: Kapsamlı Bir Kılavuz](./add-javascript-to-pdf-buttons-aspose-pdf-net/)
 Aspose.PDF for .NET kullanarak düğme alanlarına etkileşimli JavaScript ekleyerek PDF belgelerinizi nasıl geliştireceğinizi öğrenin. Bu kılavuz kurulum, uygulama ve pratik uygulamaları kapsar.
@@ -109,7 +109,7 @@ Aspose.PDF for .NET'i kullanarak PDF dosyalarınıza sorunsuz bir şekilde metin
 ### [.NET için Aspose.PDF Kullanarak PDF'ye Satır Nesnesi Nasıl Eklenir: Adım Adım Kılavuz](./add-line-aspose-pdf-dotnet-tutorial/)
 .NET için Aspose.PDF kullanarak PDF'lere satır nesnelerinin nasıl ekleneceğini öğrenin. Bu kılavuz kurulum, kodlama örnekleri ve pratik uygulamaları kapsar.
 
-### [.NET için Aspose.PDF Kullanarak PDF'lere Metin Damgası Alt Bilgisi Nasıl Eklenir: Adım Adım Kılavuz](./add-text-stamp-footer-aspose-pdf-net/)
+### [.NET için Aspose.PDF Kullanarak PDF'ye Metin Damgası Alt Bilgisi Nasıl Eklenir: Adım Adım Kılavuz](./add-text-stamp-footer-aspose-pdf-net/)
 Aspose.PDF for .NET'i kullanarak PDF belgelerinizin her sayfasına metin damgası altbilgileri eklemeyi adım adım kılavuzumuzla öğrenin. Belge işlemeyi verimli bir şekilde kolaylaştırın.
 
 ### [Aspose.PDF for .NET Kullanarak PDF'lere Metin Damgası Nasıl Eklenir](./add-text-stamp-pdf-aspose-dotnet/)
@@ -253,7 +253,7 @@ Güçlü Aspose.PDF .NET kütüphanesini kullanarak PDF belgelerini yükleme, ge
 ### [.NET için Aspose.PDF ile PDF İşlemede Ustalaşın: Kapsamlı Bir Kılavuz](./mastering-pdf-manipulation-aspose-pdf-net-guide/)
 Aspose.PDF for .NET kullanarak PDF'lerden verileri etkili bir şekilde nasıl oluşturacağınızı, değiştireceğinizi, birleştireceğinizi ve çıkaracağınızı öğrenin. Belge iş akışlarınızı geliştirin ve üretkenliği artırın.
 
-### [.NET için Aspose.PDF ile PDF Sayfa Sayısı Manipülasyonunda Ustalaşın: Eksiksiz Bir Kılavuz](./mastering-pdf-manipulation-aspose-pdf-net/)
+### [.NET için Aspose.PDF Kullanarak PDF Sayfa Sayısı Manipülasyonunda Ustalaşın: Eksiksiz Bir Kılavuz](./mastering-pdf-manipulation-aspose-pdf-net/)
 Aspose.PDF for .NET kullanarak PDF sayfa sayılarını nasıl verimli bir şekilde alacağınızı ve değiştireceğinizi öğrenin. Bu kılavuz kurulum, uygulama ve pratik uygulamaları kapsar.
 
 ### [Aspose.PDF .NET'te Ustalaşma: LaTeX'i PDF Tablolarına ve Hücrelerine Sorunsuz Bir Şekilde Entegre Edin](./integrate-latex-aspose-pdf-dotnet/)
@@ -318,8 +318,6 @@ Aspose.PDF for .NET kullanarak PDF sayfalarını ayrı dosyalara nasıl bölece�
 ### [Aspose ile PDF'ten Yazı Tipi Kaldırma – Adım Adım Kılavuz](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
 Aspose kullanarak PDF dosyalarından yazı tiplerini nasıl kaldıracağınızı adım adım öğrenin.
 
-### [Aspose.PDF ile PDF'yi Düzleştirme – Tam Kılavuz](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
-
 ### [Aspose ile PDF'leri Karşılaştırma – Adım Adım Kılavuz](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
 Aspose.PDF for .NET kullanarak iki PDF dosyasını nasıl karşılaştıracağınızı ve farkları programatik olarak tespit edeceğinizi öğrenin.
 
@@ -333,6 +331,15 @@ C# ve Aspose.PDF for .NET kullanarak PDF belgelerindeki hassas metinleri gizleme
 Aspose.PDF for .NET kullanarak bozuk PDF dosyalarını hızlı ve güvenli bir şekilde onarmayı öğrenin.
 ### [PDF'de Gömülü Yazı Tiplerini Kaldırma – Adım Adım C# Kılavuzu](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
 Aspose.PDF for .NET kullanarak PDF dosyalarından gömülü yazı tiplerini nasıl kaldıracağınızı öğrenin. Bu adım adım kılavuzla belge boyutunu azaltın.
+
+### [C# ile PDF Katmanlarını Düzleştirme – Dışa Aktarma ve Çıkarma Kılavuzu](./flatten-pdf-layers-in-c-export-extract-guide/)
+C# kullanarak PDF katmanlarını düzleştirip dışa aktararak ve çıkararak belge boyutunu azaltmayı ve içeriği korumayı öğrenin.
+
+### [C#'ta Görsel PDF Farkı – İki PDF'yi Karşılaştırma İçin Tam Kılavuz](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
+C# ve Aspose.PDF kullanarak iki PDF dosyasını görsel olarak karşılaştırmayı ve farkları vurgulamayı öğrenin.
+
+### [Aspose.PDF ile PDF Düzleştirme – Tam Kılavuz](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+Aspose.PDF kullanarak PDF dosyalarını düzleştirmenin adım adım tam rehberini öğrenin.
 
 ## Ek Kaynaklar
 

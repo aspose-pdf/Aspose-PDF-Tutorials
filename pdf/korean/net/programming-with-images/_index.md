@@ -52,6 +52,7 @@ Aspose.PDF for .NET의 "이미지 프로그래밍" 튜토리얼은 PDF 문서에
 | [빈 PDF 페이지 만들기 – 이미지 추가, 자르기 및 크기 조정 전체 가이드](./create-blank-pdf-page-full-guide-to-adding-cropping-resizing/) | Aspose.PDF for .NET을 사용하여 빈 PDF 페이지를 만들고 이미지 추가, 자르기, 크기 조정하는 방법을 단계별로 안내합니다. |  
 | [Word에 그림 추가 – 완전한 C# 프로그래밍 가이드](./add-figure-to-word-complete-c-programming-guide/) | Aspose.PDF for .NET을 사용하여 Word 문서에 그림을 삽입하고 관리하는 방법을 단계별로 안내합니다. |  
 | [DOCX에서 이미지 압축 – 파일 크기 줄이기](./compress-images-in-docx-reduce-file-size/) | Aspose.PDF for .NET을 사용하여 DOCX 파일의 이미지를 압축하고 파일 크기를 효과적으로 줄이는 방법을 단계별로 안내합니다. |  
+| [Aspose.PDF를 사용한 PDF 이미지 자르기 – 완전 가이드](./crop-image-in-pdf-with-aspose-pdf-complete-guide/) | Aspose.PDF for .NET을 활용해 PDF 내 이미지 자르기를 단계별로 구현하는 방법을 자세히 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

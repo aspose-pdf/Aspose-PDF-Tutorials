@@ -315,9 +315,6 @@ Apprenez à maîtriser la manipulation des PDF avec Aspose.PDF pour .NET. Ce gui
 ### [Comment supprimer les polices intégrées d'un PDF – Guide étape par étape C#](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
 Apprenez à supprimer les polices intégrées d'un fichier PDF en C# avec Aspose.PDF, étape par étape.
 
-### [Comment aplatir un PDF avec Aspose.PDF – Guide complet](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
-Apprenez à aplatir les PDF pour les rendre non modifiables en utilisant Aspose.PDF avec ce guide complet.
-
 ### [Comment comparer des PDF avec Aspose – guide étape par étape](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
 Apprenez à comparer deux fichiers PDF en .NET avec Aspose.PDF grâce à ce guide détaillé pas à pas.
 
@@ -328,6 +325,14 @@ Apprenez à masquer du texte et à supprimer du contenu dans un PDF en C# avec A
 Apprenez à réparer rapidement les fichiers PDF corrompus en C# à l'aide d'Aspose.PDF.
 ### [Supprimer la police d’un PDF avec Aspose – Guide étape par étape](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
 Découvrez comment supprimer les polices d’un PDF à l’aide d’Aspose.PDF pour .NET grâce à ce guide complet.
+
+### [Aplatir les calques PDF en C# – Guide d'exportation et d'extraction](./flatten-pdf-layers-in-c-export-extract-guide/)
+Apprenez à aplatir les couches d'un PDF, puis à l'exporter et extraire son contenu avec Aspose.PDF pour .NET en C#.
+
+### [Comment aplatir un PDF avec Aspose.PDF – Guide complet](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+Apprenez à aplatir les couches d'un PDF pour simplifier le fichier et améliorer la compatibilité, grâce à Aspose.PDF, avec un guide complet pas à pas.
+
+### [Différence visuelle de PDF en C# – Guide complet pour comparer deux PDF](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
 
 ## Ressources supplémentaires
 

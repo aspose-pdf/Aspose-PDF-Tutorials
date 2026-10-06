@@ -35,7 +35,7 @@ Aprenda a aprimorar seus documentos PDF adicionando JavaScript interativo aos ca
 Aprenda a adicionar quebras de página em documentos PDF usando o Aspose.PDF para .NET. Siga nosso guia passo a passo sobre instalação, configuração e implementação.
 
 ### [Adicionar retângulos e configurar páginas PDF com Aspose.PDF .NET: um guia completo](./aspose-pdf-net-add-rectangles-configure-pages/)
-Domine a adição de retângulos e a configuração de páginas em PDFs usando o Aspose.PDF para .NET. Siga este guia para aprender técnicas de manipulação de documentos com eficácia.
+Domine a adição de retângulos e a configuração de páginas em PDFs usando o Aspose.PDF .NET. Siga este guia para aprender técnicas de manipulação de documentos com eficácia.
 
 ### [Adicionar retângulo a PDF com C# – Guia completo de programação](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
 Aprenda a adicionar retângulos a documentos PDF usando C# e Aspose.PDF .NET com este guia passo a passo.
@@ -323,6 +323,11 @@ Aprenda a dominar a manipulação de PDFs usando o Aspose.PDF para .NET. Este gu
 Aprenda a achatar PDFs, removendo interatividade e reduzindo tamanho, usando Aspose.PDF em um guia passo a passo.
 ### [Como remover fontes incorporadas de PDF – Guia passo a passo em C#](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
 Aprenda a remover fontes incorporadas de PDFs usando Aspose.PDF para .NET com este guia passo a passo em C#.
+### [Aplanar Camadas de PDF em C# – Guia de Exportação e Extração](./flatten-pdf-layers-in-c-export-extract-guide/)
+Aprenda a aplanar camadas de PDFs e exportar ou extrair seu conteúdo usando Aspose.PDF para .NET em C#.
+
+### [Diferença Visual de PDF em C# – Guia Completo para Comparar Dois PDFs](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
+Aprenda a comparar visualmente dois PDFs usando C# com o Aspose.PDF, destacando diferenças e gerando relatórios.
 
 ## Recursos adicionais
 

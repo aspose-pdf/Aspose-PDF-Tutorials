@@ -119,6 +119,12 @@ Dowiedz się, jak w C# dodać cyfrowe podpisy do plików PDF przy użyciu Aspose
 ### [Jak podpisać PDF przy użyciu certyfikatu – Kompletny przewodnik C#](./how-to-sign-pdf-using-certificate-complete-c-guide/)
 Dowiedz się, jak w C# podpisać plik PDF przy użyciu certyfikatu, krok po kroku, z przykładami kodu.
 
+### [Jak podpisać PDF w C# – Kompletny przewodnik z Aspose](./how-to-sign-pdf-in-c-complete-guide-with-aspose/)
+Dowiedz się, jak w pełni podpisać dokument PDF w C# przy użyciu Aspose.PDF, krok po kroku.
+
+### [Weryfikacja cyfrowego podpisu PDF – pełny przewodnik z Aspose.PDF](./verify-pdf-digital-signature-full-guide-with-aspose-pdf/)
+Dowiedz się, jak zweryfikować podpis cyfrowy w plikach PDF przy użyciu Aspose.PDF .NET.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

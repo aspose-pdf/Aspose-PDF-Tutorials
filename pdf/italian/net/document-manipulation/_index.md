@@ -250,7 +250,7 @@ Impara a padroneggiare la manipolazione dei PDF utilizzando Aspose.PDF per .NET.
 ### [Padroneggia la manipolazione dei PDF con Aspose.PDF per .NET: una guida completa](./mastering-pdf-manipulation-aspose-pdf-net-guide/)
 Scopri come creare, modificare, unire ed estrarre dati dai PDF in modo efficiente utilizzando Aspose.PDF per .NET. Ottimizza i flussi di lavoro dei tuoi documenti e aumenta la produttività.
 
-### [Padroneggia la manipolazione del conteggio delle pagine PDF con Aspose.PDF per .NET: una guida completa](./mastering-pdf-manipulation-aspose-pdf-net/)
+### [Padroneggiare la manipolazione del conteggio delle pagine PDF con Aspose.PDF per .NET: una guida completa](./mastering-pdf-manipulation-aspose-pdf-net/)
 Scopri come recuperare e modificare in modo efficiente il conteggio delle pagine PDF utilizzando Aspose.PDF per .NET. Questa guida illustra la configurazione, l'implementazione e le applicazioni pratiche.
 
 ### [Padroneggiare Aspose.PDF .NET: integrare perfettamente LaTeX in tabelle e celle PDF](./integrate-latex-aspose-pdf-dotnet/)
@@ -330,6 +330,9 @@ Scopri come rimuovere o nascondere informazioni sensibili da PDF usando Aspose P
 Scopri come rimuovere i font da un documento PDF utilizzando Aspose.PDF per .NET con questa guida dettagliata passo passo.
 ### [Come rimuovere i font incorporati nei PDF – Guida passo‑passo C#](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
 Scopri come eliminare i font incorporati dai PDF utilizzando Aspose.PDF per .NET con esempi di codice C# dettagliati.
+### [Appiattire i livelli PDF in C# – Guida all'esportazione e all'estrazione](./flatten-pdf-layers-in-c-export-extract-guide/)
+Scopri come appiattire i livelli di un PDF e esportarli o estrarli usando Aspose.PDF per .NET con C#.
+
 
 ## Risorse aggiuntive
 

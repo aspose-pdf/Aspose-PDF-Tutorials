@@ -46,6 +46,7 @@ Aspose.PDF's "Programming with Stamps and Watermarks" tutorials for .NET walk yo
 | [Add Stamp to PDF – Apply Watermark PDF on First Page](./add-stamp-to-pdf-apply-watermark-pdf-on-first-page/) | Learn how to add a stamp as a watermark on the first page of a PDF using Aspose.PDF for .NET with step-by-step guidance. |  
 | [Add Bates Numbering to PDFs with C# – Complete Guide](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Learn how to add Bates numbering to PDF files using Aspose.PDF for .NET with C# in this step-by-step guide. |  
 | [How to Add Bates Numbering in PDF with C# – Complete Guide](./how-to-add-bates-numbering-in-pdf-with-c-complete-guide/) | Learn how to add Bates numbering to PDFs using C# and Aspose.PDF for .NET with a complete step-by-step guide. |  
+| [Add Bates Numbering PDF – Complete Guide with Aspose](./add-bates-numbering-pdf-complete-guide-with-aspose/) | Learn how to add Bates numbering to PDF files using Aspose.PDF for .NET with this complete step-by-step guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

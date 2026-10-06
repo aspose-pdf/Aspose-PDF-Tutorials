@@ -29,7 +29,8 @@ Výukové programy „Programování s obrázky“ v Aspose.PDF pro .NET vás pr
 | [Převod obrazového streamu do souboru PDF](./convert-image-stream-to-pdf/) | Snadno převeďte obrazový stream do PDF pomocí Aspose.PDF pro .NET s tímto podrobným návodem krok za krokem. Naučte se, jak bez námahy zvládat převody obrázků do PDF. |  
 | [Převést oblast stránky na DOM](./convert-page-region-to-dom/) Odemkněte potenciál svých PDF dokumentů s Aspose.PDF pro .NET. Převeďte oblasti PDF na obrázky a vylepšete si pracovní postup. |  
 | [Převést do BMP](./convert-to-bmp/) | Naučte se v tomto podrobném návodu, jak snadno převést PDF soubory do obrázků BMP pomocí Aspose.PDF pro .NET. Ideální pro .NET vývojáře. |  
-| [Vytvořit miniatury obrázků v souboru PDF](./create-thumbnail-images/) | S Aspose.PDF pro .NET snadno generujte náhledy pro každou stránku ve vašem PDF souboru. Vylepšete si náhled dokumentů.  
+| [Vytvořit miniatury obrázků v souboru PDF](./create-thumbnail-images/) | S Aspose.PDF pro .NET snadno generujte náhledy pro každou stránku ve vašem PDF souboru. Vylepšete si náhled dokumentů. |
+| [Oříznutí obrázku v PDF s Aspose.PDF – Kompletní průvodce](./crop-image-in-pdf-with-aspose-pdf-complete-guide/) | Naučte se, jak oříznout obrázky v PDF souborech pomocí Aspose.PDF pro .NET v podrobném průvodci krok za krokem. |
 | [Smazat obrázky ze souboru PDF](./delete-images/) | Naučte se, jak odstranit obrázky z PDF souborů pomocí Aspose.PDF pro .NET v jednoduchém, podrobném tutoriálu. Optimalizujte PDF soubory snadným odstraněním nežádoucích obrázků. |  
 | [Extrahovat obrázky ze souboru PDF](./extract-images/) | Naučte se, jak extrahovat obrázky ze souboru PDF pomocí Aspose.PDF pro .NET s tímto podrobným návodem. Začněte s jednoduchými pokyny. |  
 | [Rychlé zmenšení obrázků](./fast-shrink-images/) Naučte se, jak efektivně používat Aspose.PDF pro .NET ke zmenšení obrázků v souborech PDF, optimalizaci velikosti při zachování kvality. |  

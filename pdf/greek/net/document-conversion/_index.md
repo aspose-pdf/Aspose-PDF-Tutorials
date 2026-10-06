@@ -74,6 +74,9 @@
 | [Δημιουργία HTML από PDF με Aspose.PDF – Οδηγός βήμα‑βήμα](./create-html-from-pdf-with-aspose-pdf-step-by-step-guide/) | Μάθετε πώς να δημιουργείτε HTML από PDF χρησιμοποιώντας το Aspose.PDF για .NET με αυτόν τον οδηγό βήμα προς βήμα. |
 | [Σεμινάριο μετατροπής μορφής PDF – Μετατροπή PDF σε PDF/X-4 σε C#](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Μάθετε πώς να μετατρέψετε PDF σε PDF/X‑4 με C# χρησιμοποιώντας το Aspose.PDF για .NET σε αυτόν τον βήμα‑βήμα οδηγό. |
 | [Δημιουργία HTML από Word – Πλήρης Οδηγός για τη Μετατροπή DOCX σε HTML](./create-html-from-word-complete-guide-to-convert-docx-to-html/) | Μάθετε πώς να μετατρέψετε αρχεία DOCX σε HTML χρησιμοποιώντας το Aspose.PDF για .NET σε αυτόν τον ολοκληρωμένο οδηγό βήμα‑βήμα. |
+| [Aspose PDF Tutorial: Φόρτωση και μετατροπή PDF σε PDF/X‑4 με C#](./aspose-pdf-tutorial-load-and-convert-pdfs-to-pdf-x-4-in-c/) | Μάθετε πώς να φορτώνετε αρχεία PDF και να τα μετατρέπετε σε PDF/X‑4 χρησιμοποιώντας το Aspose.PDF για .NET με C#. |
+| [Μετατροπή PDF σε PDF/X-1a – Πλήρης Οδηγός Βήμα‑Βήμα](./convert-pdf-to-pdf-x-1a-full-step-by-step-guide/) | Μάθετε πώς να μετατρέψετε PDF σε PDF/X-1a χρησιμοποιώντας το Aspose.PDF για .NET με αυτόν τον οδηγό βήμα προς βήμα. |
+| [Μετατροπή PDF σε 2.0 – Πλήρης Οδηγός ASP.NET με Καταγραφή Σφαλμάτων](./convert-pdf-to-2-0-full-asp-net-guide-with-error-logging/) | Μάθετε πώς να μετατρέψετε PDF σε PDF 2.0 με πλήρη οδηγό ASP.NET και ενσωματωμένη καταγραφή σφαλμάτων χρησιμοποιώντας Aspose.PDF για .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

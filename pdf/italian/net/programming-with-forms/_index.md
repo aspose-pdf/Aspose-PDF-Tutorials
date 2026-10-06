@@ -55,6 +55,7 @@ Questi tutorial forniscono anche esempi di codice dettagliati, spiegazioni chiar
 | [Come creare PDF con Aspose – Aggiungi campo a una raccolta](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Scopri come aggiungere un campo a una raccolta in un PDF usando Aspose.PDF per .NET in questa guida passo passo. |
 | [Crea documento PDF con Aspose – Aggiungi campo casella di testo](./create-pdf-document-with-aspose-add-text-box-field/) | Scopri come aggiungere un campo casella di testo a un documento PDF usando Aspose.PDF per .NET. |
 | [Creare documento PDF C# – Guida passo‑a‑passo per moduli multi‑pagina](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Scopri come creare PDF multi‑pagina con moduli interattivi usando Aspose.PDF per .NET in C#. |
+| [Crea modulo multipagina in C# con Aspose.Pdf – Guida passo‑passo](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | Scopri come creare un modulo PDF multipagina in C# usando Aspose.Pdf con questa guida dettagliata passo passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

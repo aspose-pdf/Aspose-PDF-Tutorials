@@ -53,6 +53,7 @@
 | [C# में Aspose.PDF के साथ PDF हस्ताक्षर नाम प्राप्त करें](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | .NET के लिए Aspose.PDF का उपयोग करके C# में PDF हस्ताक्षर के नाम कैसे प्राप्त करें, सीखें। |  
 | [C# में PDF हस्ताक्षर सत्यापित करें – पूर्ण चरण‑दर‑चरण गाइड](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | .NET के लिए Aspose.PDF के साथ C# में PDF हस्ताक्षर कैसे सत्यापित करें, इस पूर्ण गाइड में सीखें। |  
 | [C# में PDF हस्ताक्षर पढ़ें – पूर्ण गाइड](./how-to-read-signatures-from-a-pdf-in-c-complete-guide/) | .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइल से डिजिटल हस्ताक्षर पढ़ना सीखें। चरण-दर-चरण पूर्ण गाइड। |
+| [Aspose.PDF के साथ PDF हस्ताक्षर वैधता जांचें – पूर्ण C# गाइड](./check-pdf-signature-validity-with-aspose-pdf-complete-c-guid/) | .NET के लिए Aspose.PDF का उपयोग करके PDF हस्ताक्षर की वैधता कैसे जांचें, इस पूर्ण C# गाइड में सीखें। |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

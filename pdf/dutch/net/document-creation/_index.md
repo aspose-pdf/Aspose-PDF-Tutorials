@@ -97,6 +97,9 @@ Leer hoe u een PDF-document volledig in het geheugen genereert met C# en Aspose.
 ### [PDF-document maken C# – een stapsgewijze handleiding om een lege pagina toe te voegen en een rechthoek te tekenen](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
 Leer hoe u met Aspose.PDF voor .NET een lege pagina toevoegt en een rechthoek tekent in een PDF-document met C#.
 
+### [PDF-afbeelding maken van HEIC – Complete C#-gids](./create-pdf-image-from-heic-complete-c-guide/)
+Leer hoe u met Aspose.PDF een PDF-afbeelding genereert uit HEIC-bestanden met C# in deze volledige gids.
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

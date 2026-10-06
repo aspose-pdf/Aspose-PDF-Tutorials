@@ -98,6 +98,9 @@ Dowiedz się, jak w Aspose.PDF dla .NET wygenerować dokument PDF w pamięci prz
 ### [Utwórz dokument PDF w C# – przewodnik krok po kroku, jak dodać pustą stronę i narysować prostokąt](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
 Krok po kroku pokażemy, jak dodać pustą stronę i narysować prostokąt w dokumencie PDF przy użyciu Aspose.PDF w C#.
 
+### [Utwórz obraz PDF z HEIC – Kompletny przewodnik C#](./create-pdf-image-from-heic-complete-c-guide/)
+Dowiedz się, jak konwertować obrazy HEIC na pliki PDF w C# przy użyciu Aspose.PDF, krok po kroku.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

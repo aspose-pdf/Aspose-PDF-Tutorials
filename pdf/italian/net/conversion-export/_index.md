@@ -102,6 +102,8 @@ Scopri come convertire i documenti PDF in immagini PNG di alta qualità utilizza
 Scopri come convertire PDF in immagini PNG di alta qualità usando C# e Aspose.PDF con esempi pratici passo‑passo.
 ### [Come renderizzare PDF in PNG in C# – Guida completa](./how-to-render-pdf-to-png-in-c-complete-guide/)
 Scopri come convertire PDF in immagini PNG di alta qualità usando C# e Aspose.PDF .NET, con esempi di codice passo passo.
+### [Come rendere PDF in PNG con Aspose – Guida completa](./how-to-render-pdf-to-png-with-aspose-complete-guide/)
+Scopri come convertire PDF in immagini PNG di alta qualità utilizzando Aspose.PDF in .NET con esempi di codice dettagliati.
 
 ### [Converti PDF in PPTX con Aspose.PDF per .NET: guida passo passo](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 Scopri come convertire in modo efficiente i documenti PDF in presentazioni PowerPoint utilizzando Aspose.PDF per .NET. Questa guida dettagliata illustra le basi della conversione, funzionalità avanzate come le diapositive con immagini e il monitoraggio dell'avanzamento.
@@ -267,6 +269,8 @@ Scopri come convertire rapidamente i PDF in HTML usando C# e Aspose.Pdf con ques
 Scopri come esportare la prima pagina di un PDF in PNG a 300 DPI utilizzando Aspose.PDF per .NET.
 ### [Converti PDF in HTML e verifica la firma PDF – Guida completa Aspose .NET](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
 Scopri come convertire PDF in HTML e verificare le firme PDF con Aspose.PDF per .NET, con esempi di codice dettagliati.
+### [Come esportare PDF in HTML con C# – Guida completa Aspose](./how-to-export-pdf-to-html-in-c-complete-aspose-guide/)
+Scopri come esportare PDF in HTML utilizzando Aspose.PDF per .NET con C#, con esempi di codice e suggerimenti pratici.
 
 ## Risorse aggiuntive
 

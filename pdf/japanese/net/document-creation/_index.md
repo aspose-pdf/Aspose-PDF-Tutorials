@@ -98,6 +98,9 @@ Aspose.PDF for .NET を使用して、メモリ上で PDF を生成し、保存�
 ### [PDF ドキュメントを作成する C# – 空白ページの追加と矩形の描画 ステップバイステップ ガイド](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
 C# で Aspose.PDF を使用し、空白ページを追加し矩形を描画する方法をステップバイステップで解説します。
 
+### [HEIC 画像から PDF を作成 – 完全 C# ガイド](./create-pdf-image-from-heic-complete-c-guide/)
+HEIC 形式の画像を PDF に変換する方法を C# でステップバイステップで解説します。
+
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)

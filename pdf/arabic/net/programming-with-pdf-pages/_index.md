@@ -45,6 +45,7 @@
 | [إضافة ترقيم Bates في C# – دليل خطوة بخطوة](./add-bates-numbering-in-c-step-by-step-guide/) دليل خطوة بخطوة لإضافة ترقيم Bates إلى ملفات PDF باستخدام C# و Aspose.PDF لـ .NET.  
 | [إضافة صفحات إلى PDF – دليل خطوة بخطوة لمطوري C#](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) | دليل خطوة بخطوة لإضافة صفحات إلى ملفات PDF باستخدام Aspose.PDF لـ .NET ومطوري C#. |
 | [إعادة ترتيب صفحات PDF في C# – دليل شامل خطوة بخطوة](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | دليل خطوة بخطوة لإعادة ترتيب صفحات PDF باستخدام C# و Aspose.PDF لـ .NET. |
+| [إعادة ترتيب صفحات PDF باستخدام Aspose.Pdf – دليل كامل C#](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) | دليل خطوة بخطوة لإعادة ترتيب صفحات PDF باستخدام Aspose.PDF لـ .NET مع أمثلة C# واضحة. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

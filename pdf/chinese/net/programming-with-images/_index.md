@@ -52,6 +52,7 @@ Aspose.PDF for .NET 的“图像编程”教程将指导您完成操作和管理
 | [创建空白 PDF 页面 – 添加、裁剪和调整图像的完整指南](./create-blank-pdf-page-full-guide-to-adding-cropping-resizing/) 学习如何使用 Aspose.PDF for .NET 创建空白 PDF 页面，并添加、裁剪和调整图像，完整分步指南。|  
 | [在 Word 中添加图形 – 完整的 C# 编程指南](./add-figure-to-word-complete-c-programming-guide/) | 学习如何使用 Aspose.Words for .NET 通过 C# 将图形完整地添加到 Word 文档，提供分步指南和示例代码。|  
 | [压缩 DOCX 中的图像 – 减小文件大小](./compress-images-in-docx-reduce-file-size/) | 通过本分步指南学习如何使用 Aspose.Words for .NET 压缩 DOCX 文档中的图像以减小文件体积。|  
+| [使用 Aspose.PDF 在 PDF 中裁剪图像 – 完整指南](./crop-image-in-pdf-with-aspose-pdf-complete-guide/) 学习如何使用 Aspose.PDF for .NET 在 PDF 文档中裁剪图像的完整步骤和代码示例。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

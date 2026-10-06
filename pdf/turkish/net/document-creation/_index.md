@@ -114,6 +114,9 @@ C# ve Aspose.PDF ile bellek içinde PDF belgeleri oluşturmayı adım adım öğ
 ### [Aspose.PDF ile PDF Belgesi Oluşturma – Tam C# Kılavuzu](./create-pdf-document-with-aspose-pdf-full-c-guide/)
 Aspose.PDF for .NET kullanarak C# ile tam kapsamlı PDF belgesi oluşturma adımlarını öğrenin.
 
+### [HEIC'ten PDF Görüntüsü Oluşturma – Tam C# Kılavuzu](./create-pdf-image-from-heic-complete-c-guide/)
+HEIC dosyalarından PDF görüntüsü oluşturmayı adım adım öğrenin, C# kod örnekleriyle uygulayın.
+
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)

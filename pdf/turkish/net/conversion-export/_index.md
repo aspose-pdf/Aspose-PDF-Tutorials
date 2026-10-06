@@ -72,6 +72,10 @@ Aspose.PDF .NET kullanarak PDF belgelerini yüksek kaliteli PNG görüntülerine
 
 ### [C#'ta PDF'yi PNG'ye Dönüştürme – Tam Adım‑Adım Kılavuz](./convert-pdf-to-png-in-c-complete-step-by-step-guide/)
 Aspose.PDF for .NET kullanarak PDF dosyalarını yüksek kaliteli PNG görüntülerine nasıl dönüştüreceğinizi adım adım öğrenin.
+### [Aspose ile PDF'yi PNG'ye Render Etme – Tam Kılavuz](./how-to-render-pdf-to-png-with-aspose-complete-guide/)
+Aspose.PDF for .NET kullanarak PDF dosyalarını yüksek kaliteli PNG görüntülerine nasıl render edeceğinizi öğrenin.
+
+Aspose.PDF for .NET kullanarak PDF belgelerini PowerPoint sunumlarına nasıl verimli bir şekilde dönüştüreceğinizi öğrenin. Bu adım adım kılavuz, temel dönüştürmeyi, resim slaytları gibi gelişmiş özellikleri ve ilerleme takibini kapsar.
 
 ### [PDF'yi Aspose.PDF for .NET ile PPTX'e Dönüştürme: Adım Adım Kılavuz](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 ### [Aspose PDF'ten PNG'ye – İlk Sayfayı 300 DPI'de Dışa Aktarın](./aspose-pdf-to-png-export-first-page-at-300-dpi/)
@@ -203,6 +207,8 @@ Aspose.PDF for .NET kullanarak PDF dosyalarını kaydetme sürecini adım adım 
 ### [Aspose PDF ile PDF'yi PNG Olarak Kaydedin ve PDF/X‑1a'ya Dönüştürün](./save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf/)
 Aspose PDF kullanarak PDF dosyasını PNG olarak kaydedip ardından PDF/X‑1a standardına dönüştürmeyi öğrenin.
 ### [C#'ta PDF'yi HTML'ye Dönüştürme – Aspose.Pdf ile Hızlı Kılavuz](./convert-pdf-to-html-in-c-quick-guide-with-aspose-pdf/)
+### [C#'ta PDF'yi HTML'ye Dışa Aktarma – Tam Aspose Kılavuzu](./how-to-export-pdf-to-html-in-c-complete-aspose-guide/)
+Aspose.PDF for .NET ile C#'ta PDF dosyalarını HTML'ye nasıl dışa aktaracağınızı adım adım öğrenin.
 
 ## Ek Kaynaklar
 

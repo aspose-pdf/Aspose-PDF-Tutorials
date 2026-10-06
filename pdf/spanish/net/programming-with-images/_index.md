@@ -24,7 +24,7 @@ Los tutoriales de "Programación con imágenes" de Aspose.PDF para .NET te guía
 | [Todas las páginas a TIFF](./all-pages-to-tiff/) Aprenda a convertir todas las páginas de un PDF a TIFF con Aspose.PDF para .NET en este tutorial paso a paso. Gestión de documentos sencilla y eficiente.  
 | [Algoritmo de Bradley](./bradley-algorithm/) Aprenda a convertir un PDF a TIFF con el algoritmo Bradley en Aspose.PDF para .NET. Guía paso a paso, requisitos previos y preguntas frecuentes para una conversión fluida.  
 | [Imagen CGM a PDF](./cgm-image-to-pdf/) Convierta fácilmente imágenes CGM a PDF con Aspose.PDF para .NET. Siga esta sencilla guía paso a paso y agilice su proceso de conversión de archivos.  
-| [Convertir todas las páginas a EMF](./convert-all-pages-to-emf/) | Aprenda a convertir todas las páginas de un PDF al formato EMF usando Aspose.PDF para .NET con este tutorial detallado y optimizado para SEO. |  
+| [Convertir todas las páginas a EMF](./convert-all-pages-to-emf/) | Aprenda a convertir todas las páginas de un PDF al formato EMF usando Aspose.PDF para .NET con este tutorial detallado y optimizado para SEO. |
 | [Convertir todas las páginas a PNG](./convert-all-pages-to-png/) Aprenda a convertir páginas PDF a PNG con Aspose.PDF para .NET con esta guía paso a paso. Ideal para desarrolladores y aficionados.  
 | [Convertir secuencia de imágenes a archivo PDF](./convert-image-stream-to-pdf/) Convierte fácilmente un flujo de imágenes a PDF con Aspose.PDF para .NET con esta guía detallada paso a paso. Aprende a gestionar conversiones de imágenes a PDF sin esfuerzo.  
 | [Convertir región de página a DOM](./convert-page-region-to-dom/) Desbloquee el potencial de sus documentos PDF con Aspose.PDF para .NET. Convierta partes de PDF en imágenes y mejore su flujo de trabajo.  
@@ -34,14 +34,14 @@ Los tutoriales de "Programación con imágenes" de Aspose.PDF para .NET te guía
 | [Extraer imágenes de un archivo PDF](./extract-images/) Aprenda a extraer imágenes de un archivo PDF con Aspose.PDF para .NET con esta guía paso a paso. Comience con instrucciones fáciles de seguir.  
 | [Imágenes de contracción rápida](./fast-shrink-images/) Aprenda a utilizar de manera eficiente Aspose.PDF para .NET para reducir el tamaño de las imágenes en archivos PDF, optimizando el tamaño y manteniendo la calidad. |  
 | [Compresión de decodificación plana](./flate-decode-compression/) Aprenda a usar la compresión Flate Decode en Aspose.PDF para .NET. Optimice el tamaño de sus archivos PDF eficientemente con esta guía paso a paso.  
-| [Identificar imágenes en archivos PDF](./identify-images/) | Aprenda a identificar imágenes en archivos PDF y a detectar su tipo de color (escala de grises o RGB) utilizando Aspose.PDF para .NET en esta guía detallada paso a paso. |  
-| [Información de la imagen en archivo PDF](./image-information/) | Aprenda a extraer información de imágenes de archivos PDF usando Aspose.PDF para .NET con nuestra completa guía paso a paso. |  
+| [Identificar imágenes en archivos PDF](./identify-images/) | Aprenda a identificar imágenes en archivos PDF y a detectar su tipo de color (escala de grises o RGB) utilizando Aspose.PDF para .NET en esta guía detallada paso a paso. |
+| [Información de la imagen en archivo PDF](./image-information/) | Aprenda a extraer información de imágenes de archivos PDF usando Aspose.PDF para .NET con nuestra completa guía paso a paso. |
 | [Ubicación de imágenes](./image-placements/) Aprenda a extraer y manipular la ubicación de imágenes en documentos PDF con Aspose.PDF para .NET. Guía paso a paso con ejemplos y fragmentos de código.  
 | [Imagen a PDF](./image-to-pdf/) Aprenda a convertir imágenes a PDF con Aspose.PDF para .NET con esta guía paso a paso. Ideal para desarrolladores y entusiastas de la tecnología.  
 | [Imagen CGM grande a PDF](./large-cgm-image-to-pdf/) Transforme imágenes CGM grandes a PDF fácilmente con Aspose.PDF para .NET. Siga esta sencilla guía para una conversión rápida y eficaz.  
-| [Páginas a imágenes](./pages-to-images/) | Convierta rápidamente páginas PDF en imágenes de alta calidad usando Aspose.PDF para .NET con esta completa guía paso a paso. |  
+| [Páginas a imágenes](./pages-to-images/) | Convierta rápidamente páginas PDF en imágenes de alta calidad usando Aspose.PDF para .NET con esta completa guía paso a paso. |
 | [Página a EMF](./page-to-emf/) Aprenda a convertir una página PDF a formato EMF con esta guía paso a paso usando Aspose.PDF para .NET. Ideal para desarrolladores.  
-| [Página a PNG](./page-to-png/) | Aprenda a convertir sin esfuerzo páginas PDF a imágenes PNG usando Aspose.PDF para .NET en nuestro detallado tutorial paso a paso. |  
+| [Página a PNG](./page-to-png/) | Aprenda a convertir sin esfuerzo páginas PDF a imágenes PNG usando Aspose.PDF para .NET en nuestro detallado tutorial paso a paso. |
 | [Página PDF a TIFF](./page-to-tiff/) Aprenda a convertir páginas PDF en imágenes TIFF de alta calidad con Aspose.PDF para .NET. Esta guía paso a paso explica la resolución, la compresión y más.  
 | [Reemplazar imagen en archivo PDF](./replace-image/) Reemplace fácilmente imágenes en archivos PDF con Aspose.PDF para .NET. Siga esta guía paso a paso y mejore sus habilidades de gestión de PDF.  
 | [Cambiar el tamaño de las imágenes en un archivo PDF](./resize-images/) Aprenda a redimensionar imágenes en un archivo PDF con Aspose.PDF para .NET con esta guía detallada. Optimice el tamaño del archivo sin perder calidad.  
@@ -52,6 +52,7 @@ Los tutoriales de "Programación con imágenes" de Aspose.PDF para .NET te guía
 | [Crear página PDF en blanco – Guía completa para agregar, recortar y redimensionar imágenes](./create-blank-pdf-page-full-guide-to-adding-cropping-resizing/) | Aprenda a crear una página PDF en blanco y a añadir, recortar y redimensionar imágenes con Aspose.PDF para .NET en esta guía paso a paso. |
 | [Agregar figura a Word – Guía completa de programación en C#](./add-figure-to-word-complete-c-programming-guide/) | Aprenda a insertar una figura en un documento Word mediante programación en C# con Aspose.Words, siguiendo una guía paso a paso. |
 | [Comprimir imágenes en DOCX – Reducir tamaño de archivo](./compress-images-in-docx-reduce-file-size/) | Aprenda a comprimir imágenes en documentos DOCX para reducir el tamaño del archivo usando Aspose.PDF para .NET. |
+| [Recortar imagen en PDF con Aspose.PDF – Guía completa](./crop-image-in-pdf-with-aspose-pdf-complete-guide/) | Aprenda a recortar imágenes en un PDF con Aspose.PDF para .NET mediante esta guía completa paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

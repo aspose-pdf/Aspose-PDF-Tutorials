@@ -29,6 +29,9 @@ XML डेटा को PDF में सहजता से बदलने क
 ### [व्यापक गाइड: कस्टम रणनीतियों के साथ Aspose.PDF .NET का उपयोग करके PDF को HTML में बदलें](./convert-pdf-html-aspose-dotnet-custom-strategies/)
 .NET के लिए Aspose.PDF का उपयोग करके कस्टम रणनीतियों के साथ PDF को HTML में परिवर्तित करना सीखें। उच्च निष्ठा बनाए रखें, छवियों, फ़ॉन्ट और CSS को प्रभावी ढंग से संभालें।
 
+### [C# में PDF को HTML में निर्यात करने का तरीका – पूर्ण Aspose गाइड](./how-to-export-pdf-to-html-in-c-complete-aspose-guide/)
+C# में Aspose.PDF का उपयोग करके PDF को HTML में बदलने की पूरी प्रक्रिया सीखें।
+
 ### [व्यापक गाइड: सहज दस्तावेज़ रूपांतरण के लिए Aspose.PDF .NET का उपयोग करके PDF को TIFF में बदलें](./convert-pdf-to-tiff-aspose-dotnet-guide/)
 जानें कि .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइलों को उच्च-गुणवत्ता वाली TIFF छवियों में कुशलतापूर्वक कैसे परिवर्तित किया जाए। अपने दस्तावेज़ प्रसंस्करण वर्कफ़्लो को बढ़ाने के लिए इस चरण-दर-चरण मार्गदर्शिका का पालन करें।
 
@@ -59,6 +62,9 @@ C# और Aspose.PDF का उपयोग करके PDF फ़ाइलो�
 ### [.NET के लिए Aspose.PDF के साथ PDF को BMP में बदलें: एक चरण-दर-चरण मार्गदर्शिका](./convert-pdf-to-bmp-aspose-pdf-net/)
 ### [C# में PDF को PNG में रेंडर करने की पूरी गाइड](./how-to-render-pdf-to-png-in-c-complete-guide/)
 Aspose.PDF .NET का उपयोग करके C# में PDF फ़ाइलों को उच्च-गुणवत्ता वाले PNG छवियों में बदलने के चरण-दर-चरण निर्देश।
+
+### [Aspose के साथ PDF को PNG में रेंडर करने का तरीका – पूर्ण गाइड](./how-to-render-pdf-to-png-with-aspose-complete-guide/)
+Aspose का उपयोग करके .NET में PDF को उच्च-गुणवत्ता वाले PNG छवियों में बदलने के चरण-दर-चरण मार्गदर्शन।
 
 इस व्यापक गाइड के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF पृष्ठों को उच्च गुणवत्ता वाली BMP छवियों में परिवर्तित करना सीखें।
 
@@ -261,6 +267,8 @@ Aspose.PDF का उपयोग करके C# में PDF को उच्
 
 ### [PDF को PDF/X-1a में बदलें, पृष्ठ PNG निर्यात करें और टेक्स्ट स्टैम्प जोड़ें](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
 PDF को PDF/X-1a फ़ॉर्मेट में परिवर्तित करें, पृष्ठ को PNG के रूप में निर्यात करें और टेक्स्ट स्टैम्प जोड़ें।
+### [Aspose.Pdf के साथ PDF को HTML में सहेजें – पूर्ण C# गाइड](./save-pdf-as-html-with-aspose-pdf-complete-c-guide/)
+Aspose.Pdf का उपयोग करके C# में PDF को HTML में बदलने और सहेजने की पूरी प्रक्रिया सीखें।
 
 ## अतिरिक्त संसाधन
 

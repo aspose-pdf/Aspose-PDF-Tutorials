@@ -71,6 +71,7 @@ Tyto tutoriály také obsahují podrobné příklady kódu, jasná vysvětlení 
 | [Jak vytvořit PDF s Aspose – Přidat pole do kolekce](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Naučte se, jak pomocí Aspose.PDF přidat pole do kolekce v PDF dokumentu. |  
 | [Vytvořit PDF dokument C# – krok za krokem průvodce více stránkovými formuláři](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Naučte se, jak pomocí Aspose.PDF pro .NET v C# vytvořit více stránkový PDF formulář krok za krokem. |
 
+| [Vytvořit vícestránkový formulář v C# s Aspose.Pdf – krok za krokem](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | Naučte se, jak pomocí Aspose.PDF pro .NET vytvořit vícestránkový formulář v C# krok za krokem. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

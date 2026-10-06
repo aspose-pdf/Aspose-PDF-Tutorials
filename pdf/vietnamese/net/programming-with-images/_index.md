@@ -52,6 +52,7 @@ Hướng dẫn "Lập trình với hình ảnh" của Aspose.PDF cho .NET hướ
 | [Lưu trữ hình ảnh trong bộ sưu tập XImage](./store-image-in-ximage-collection/) | Tìm hiểu cách lưu trữ hình ảnh trong bộ sưu tập XImage bằng Aspose.PDF cho .NET trong hướng dẫn từng bước đầy đủ này. |  
 | [Thêm hình vào Word – Hướng dẫn lập trình C# đầy đủ](./add-figure-to-word-complete-c-programming-guide/) | Hướng dẫn chi tiết cách chèn hình vào tài liệu Word bằng C# và Aspose.Words, bao gồm mã mẫu và các lưu ý quan trọng. |  
 | [Nén hình ảnh trong DOCX – Giảm kích thước tệp](./compress-images-in-docx-reduce-file-size/) | Tìm hiểu cách nén hình ảnh trong tài liệu DOCX để giảm kích thước tệp bằng Aspose.PDF cho .NET, kèm hướng dẫn chi tiết và ví dụ mã. |  
+| [Cắt hình ảnh trong PDF bằng Aspose.PDF – Hướng dẫn đầy đủ](./crop-image-in-pdf-with-aspose-pdf-complete-guide/) | Hướng dẫn chi tiết cách cắt hình ảnh trong tài liệu PDF bằng Aspose.PDF cho .NET, bao gồm mã mẫu và các lưu ý quan trọng. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

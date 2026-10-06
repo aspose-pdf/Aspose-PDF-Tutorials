@@ -104,6 +104,9 @@ Aspose.PDF for .NET을 사용하여 PDF 페이지를 고품질 PNG 이미지로 
 ### [C#에서 PDF를 PNG로 변환 – 완전 단계별 가이드](./convert-pdf-to-png-in-c-complete-step-by-step-guide/)
 Aspose.PDF for .NET을 사용하여 C#에서 PDF를 고품질 PNG 이미지로 변환하는 방법을 단계별로 안내합니다.
 
+### [C#에서 PDF를 HTML로 내보내는 방법 – 완전 Aspose 가이드](./how-to-export-pdf-to-html-in-c-complete-aspose-guide/)
+Aspose.PDF for .NET을 사용하여 C#에서 PDF를 HTML로 내보내는 전체 가이드를 확인하세요.
+
 ### [Aspose.PDF for .NET을 사용하여 PDF를 PPTX로 변환: 단계별 가이드](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 Aspose.PDF for .NET을 사용하여 PDF 문서를 PowerPoint 프레젠테이션으로 효율적으로 변환하는 방법을 알아보세요. 이 단계별 가이드는 기본 변환, 이미지 슬라이드와 같은 고급 기능, 진행률 추적 등을 다룹니다.
 ### [C#에서 PDF를 PNG로 렌더링하는 방법 – 완전 가이드](./how-to-render-pdf-to-png-in-c-complete-guide/)
@@ -156,7 +159,7 @@ Aspose.PDF와 C#을 사용하여 XML 파일을 전문적인 PDF로 효율적으�
 Aspose.PDF for .NET을 사용하여 동적 이미지 삽입을 포함하여 XML 데이터를 전문적인 PDF 문서로 변환하는 방법을 알아보세요.
 
 ### [Aspose.PDF .NET을 사용하여 XPS를 PDF로 변환: 단계별 가이드](./convert-xps-to-pdf-aspose-net/)
-Aspose.PDF for .NET을 사용하여 XPS 파일을 PDF로 변환하는 방법을 알아보세요. 이 단계별 가이드에서는 설정, 변환 과정 및 문제 해결 팁을 다룹니다.
+Aspose.PDF for .NET을 사용하여 XPS 파일을 PDF로 변환하는 방법을 알아보세요. 이 단계별 가이드는 설정, 변환 과정 및 문제 해결 팁을 다룹니다.
 
 ### [Aspose.PDF for .NET을 사용하여 PDF 변환 및 주석 달기: 포괄적인 가이드](./convert-annotate-pdfs-aspose-pdf-net-guide/)
 Aspose.PDF for .NET을 사용하여 PDF를 이미지로 변환하고 텍스트를 강조 표시하는 방법을 알아보세요. 이 가이드는 설치, 코드 예제, 그리고 모범 사례를 다룹니다.
@@ -198,10 +201,10 @@ Aspose.PDF .NET을 사용하여 HTML 문서를 전문가 수준의 PDF로 효율
 Aspose.PDF .NET을 사용하여 대용량 컴퓨터 그래픽 메타파일(CGM) 이미지를 PDF로 쉽게 변환하는 방법을 알아보세요. 이 가이드는 설정, 구현 및 모범 사례를 다룹니다.
 
 ### [Aspose.PDF for .NET을 사용하여 MHT 파일을 PDF로 변환하는 방법 - 단계별 가이드](./convert-mht-files-to-pdf-aspose-dotnet/)
-Aspose.PDF for .NET을 사용하여 MHT 파일을 PDF로 손쉽게 변환하는 방법을 알아보세요. 이 가이드에서는 설정, 변환 단계 및 모범 사례를 다룹니다.
+Aspose.PDF for .NET을 사용하여 MHT 파일을 PDF로 손쉽게 변환하는 방법을 알아보세요. 이 가이서는 설정, 변환 단계 및 모범 사례를 다룹니다.
 
 ### [Aspose.PDF for .NET을 사용하여 여러 TIFF 이미지를 단일 PDF로 변환하는 방법: 포괄적인 가이드](./convert-tiff-to-pdf-aspose-dotnet-guide/)
-Aspose.PDF for .NET을 사용하여 여러 TIFF 이미지를 하나의 PDF 문서로 효율적으로 변환하는 방법을 알아보세요. 이 가이드에서는 설정, 구현 및 성능 최적화에 대해 다룹니다.
+Aspose.PDF for .NET을 사용하여 여러 TIFF 이미지를 하나의 PDF 문서로 효율적으로 변환하는 방법을 알아보세요. 이 가이드는 설정, 구현 및 성능 최적화에 대해 다룹니다.
 
 ### [Aspose.PDF for .NET을 사용하여 PCL을 PDF로 변환하는 방법: 완전한 가이드](./convert-pcl-to-pdf-aspose-net/)
 Aspose.PDF for .NET을 사용하여 PCL(Printer Command Language) 파일을 PDF로 원활하게 변환하는 방법을 알아보세요. 코드 예제와 실제 응용 프로그램을 활용한 단계별 가이드를 따라 해 보세요.
@@ -267,6 +270,11 @@ Aspose.PDF for .NET을 활용해 PDF를 HTML로 변환하고 저장하는 방법
 Aspose를 사용하여 PDF 파일을 저장하는 방법을 단계별로 안내합니다.
 ### [Aspose.PDF를 사용하여 PDF를 HTML로 저장하기 – 빠른 C# 가이드](./save-pdf-as-html-with-aspose-pdf-quick-c-guide/)
 Aspose.PDF for .NET을 사용해 C#으로 PDF를 HTML로 저장하는 간단한 단계별 가이드입니다.
+### [Aspose.PDF를 사용하여 PDF를 HTML로 저장하는 완전 C# 가이드](./save-pdf-as-html-with-aspose-pdf-complete-c-guide/)
+Aspose.Pdf를 활용해 PDF를 HTML로 변환하고 저장하는 방법을 C# 코드 예제로 단계별 안내합니다.
+
+### [Aspose를 사용하여 PDF를 PNG로 렌더링하는 완전 가이드](./how-to-render-pdf-to-png-with-aspose-complete-guide/)
+Aspose를 활용해 PDF를 고품질 PNG 이미지로 변환하는 전체 단계별 가이드를 제공합니다.
 
 ## 추가 자료
 

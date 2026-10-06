@@ -96,6 +96,9 @@ C# में मेमोरी में PDF बनाना, कोड उद�
 ### [C# में PDF दस्तावेज़ बनाना – खाली पृष्ठ जोड़ें और आयत बनाते हुए चरण‑दर‑चरण मार्गदर्शिका](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
 C# कोड के साथ एक खाली पृष्ठ जोड़ें और आयत बनाकर PDF दस्तावेज़ बनाने की प्रक्रिया सीखें।
 
+### [HEIC से PDF इमेज बनाएं – पूर्ण C# गाइड](./create-pdf-image-from-heic-complete-c-guide/)
+Aspose.PDF का उपयोग करके HEIC फ़ॉर्मेट की छवियों को PDF में परिवर्तित करने के चरण‑दर‑चरण कोड उदाहरण।
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.PDF for Net दस्तावेज़ीकरण](https://docs.aspose.com/pdf/net/)

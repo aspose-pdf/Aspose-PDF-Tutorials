@@ -74,6 +74,9 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Tutorial konversi format PDF – Mengonversi PDF ke PDF/X‑4 dengan Aspose di C#](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-with-a/) | Pelajari cara mengonversi PDF ke PDF/X‑4 menggunakan Aspose.PDF untuk .NET dengan contoh kode C# langkah demi langkah. |
 | [Konversi PDF ke HTML dalam C# – Panduan Langkah‑per‑Langkah Sederhana](./convert-pdf-to-html-in-c-simple-step-by-step-guide/) | Pelajari cara mengonversi PDF ke HTML menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah yang sederhana. |
 | [Tutorial konversi format PDF – Mengonversi PDF ke PDF/X-4 dalam C#](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Pelajari cara mengonversi PDF ke PDF/X-4 menggunakan Aspose.PDF untuk .NET dengan contoh kode C# langkah demi langkah. |
+| [Mengonversi PDF ke PDF/X-1a – Panduan Lengkap Langkah-demi-Langkah](./convert-pdf-to-pdf-x-1a-full-step-by-step-guide/) | Pelajari cara mengonversi PDF ke PDF/X-1a menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah yang komprehensif. |
+| [Tutorial Aspose PDF: Memuat dan Mengonversi PDF ke PDF/X‑4 dalam C#](./aspose-pdf-tutorial-load-and-convert-pdfs-to-pdf-x-4-in-c/) | Pelajari cara memuat dan mengonversi file PDF ke PDF/X‑4 menggunakan Aspose.PDF untuk .NET dengan contoh kode C# langkah demi langkah. |
+| [Mengonversi PDF ke 2.0 – Panduan Lengkap ASP.NET dengan Pencatatan Kesalahan](./convert-pdf-to-2-0-full-asp-net-guide-with-error-logging/) | Pelajari cara mengonversi PDF ke format 2.0 menggunakan Aspose.PDF untuk .NET dengan panduan lengkap termasuk pencatatan kesalahan. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

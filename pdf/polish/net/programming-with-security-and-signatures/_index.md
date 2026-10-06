@@ -54,6 +54,7 @@ Samouczek zapewnia szczegółowy przegląd metod i technik zapewniających poufn
 | [Utwórz odłączony podpis PKCS7 w C# – Kompletny przewodnik](./create-pkcs7-detached-signer-in-c-complete-guide/) | Dowiedz się, jak utworzyć odłączony podpis PKCS7 w C# przy użyciu Aspose.PDF dla .NET – kompletny przewodnik krok po kroku. |  
 | [Pobierz nazwy podpisów PDF za pomocą Aspose.PDF w C#](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | Dowiedz się, jak wyodrębnić nazwy podpisów PDF przy użyciu Aspose.PDF w C#. |  
 | [Jak odczytać podpisy z pliku PDF w C# – Kompletny przewodnik](./how-to-read-signatures-from-a-pdf-in-c-complete-guide/) | Dowiedz się, jak odczytywać podpisy cyfrowe z dokumentów PDF w C# przy użyciu Aspose.PDF – krok po kroku. |  
+| [Sprawdź ważność podpisu PDF za pomocą Aspose.PDF – Kompletny przewodnik C#](./check-pdf-signature-validity-with-aspose-pdf-complete-c-guid/) | Dowiedz się, jak weryfikować ważność podpisów PDF w C# przy użyciu Aspose.PDF – krok po kroku. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

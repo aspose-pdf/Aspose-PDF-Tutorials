@@ -106,6 +106,9 @@ Learn how to generate PDF documents entirely in memory using C# and Aspose.PDF f
 ### [Create PDF Document C# – Step‑by‑Step Guide to Add a Blank Page and Draw a Rectangle](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
 Learn how to add a blank page and draw a rectangle in a PDF using Aspose.PDF for .NET with C# step‑by‑step.
 
+### [Create PDF Image from HEIC – Complete C# Guide](./create-pdf-image-from-heic-complete-c-guide/)
+Learn how to convert HEIC images to PDF using Aspose.PDF for .NET with a complete C# implementation.
+
 ## Additional Resources
 
 - [Aspose.PDF for Net Documentation](https://docs.aspose.com/pdf/net/)

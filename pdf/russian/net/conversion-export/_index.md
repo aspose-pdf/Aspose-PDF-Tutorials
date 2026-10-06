@@ -250,6 +250,11 @@
 
 ### [Сохранить PDF как HTML с C# – Полное пошаговое руководство](./save-pdf-as-html-with-c-complete-step-by-step-guide/)
 Подробное руководство по сохранению PDF в HTML с помощью C#, охватывающее настройки, параметры и примеры кода.
+### [Сохранить PDF как HTML с помощью Aspose.Pdf – Полное руководство на C#](./save-pdf-as-html-with-aspose-pdf-complete-c-guide/)
+Узнайте, как сохранить PDF в HTML с помощью Aspose.Pdf, используя C#. Подробный пошаговый пример.
+
+### [Как экспортировать PDF в HTML на C# – Полное руководство Aspose](./how-to-export-pdf-to-html-in-c-complete-aspose-guide/)
+Узнайте, как экспортировать PDF в HTML с помощью Aspose.PDF для .NET на C#, следуя полному пошаговому руководству.
 
 ### [Преобразование PDF в TIFF в .NET с использованием Aspose.PDF: пошаговое руководство](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Узнайте, как преобразовывать документы PDF в изображения TIFF с помощью Aspose.PDF для .NET. Освойте пользовательские глубины цвета и передовые методы обработки изображений.
@@ -273,6 +278,8 @@
 - [Загрузить Aspose.PDF для Net](https://releases.aspose.com/pdf/net/)
 - [Бесплатная поддержка](https://forum.aspose.com/)
 - [Временная лицензия](https://purchase.aspose.com/temporary-license/)
+### [Как отобразить PDF в PNG с помощью Aspose – Полное руководство](./how-to-render-pdf-to-png-with-aspose-complete-guide/)
+Узнайте, как преобразовать PDF в изображения PNG с помощью Aspose, следуя пошаговому полному руководству.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

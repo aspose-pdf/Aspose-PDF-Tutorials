@@ -158,7 +158,7 @@ Pelajari cara menghitung halaman dalam PDF menggunakan Aspose.PDF for .NET denga
 Pelajari cara menyesuaikan PDF menggunakan Aspose.PDF untuk .NET dengan mengatur margin halaman dan menggambar garis. Sempurna bagi pengembang yang ingin menyempurnakan format dokumen.
 
 ### [Cara Menghapus Halaman dari PDF menggunakan Aspose.PDF .NET: Panduan Lengkap](./delete-pdf-pages-aspose-net/)
-Pelajari cara menghapus halaman tertentu dari dokumen PDF dengan mudah menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini mencakup penyiapan, penerapan, dan praktik terbaik.
+Pelajari cara menghapus halaman tertentu dari dokumen PDF dengan mudah menggunakan Aspose.PDF for .NET. Panduan langkah demi langkah ini mencakup penyiapan, penerapan, dan praktik terbaik.
 
 ### [Cara Menonaktifkan Kompresi File di Aspose.PDF untuk .NET: Panduan Langkah demi Langkah](./disable-file-compression-aspose-pdf-net-guide/)
 Pelajari cara menonaktifkan kompresi file dalam PDF menggunakan Aspose.PDF untuk .NET dengan panduan lengkap ini. Tingkatkan keterampilan penanganan dokumen Anda hari ini.
@@ -320,8 +320,6 @@ Pelajari cara menyensor PDF dengan menyembunyikan teks dan menghapus konten seca
 Pelajari cara memperbaiki file PDF yang rusak secara cepat menggunakan C# dan Aspose.PDF.
 ### [Cara Menyensor PDF di C# dengan Aspose PDF – Panduan Lengkap](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
 Pelajari cara menyensor konten sensitif dalam file PDF menggunakan Aspose PDF untuk .NET dengan contoh kode C# lengkap.
-### [Cara Meratakan PDF dengan Aspose.PDF – Panduan Lengkap](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
-
 ### [Cara Membandingkan PDF dengan Aspose – Panduan Langkah demi Langkah](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
 Pelajari cara membandingkan file PDF secara akurat menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini.
 ### [Menghapus Font dari PDF dengan Aspose – Panduan Langkah demi Langkah](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
@@ -330,12 +328,11 @@ Pelajari cara menghapus font dari file PDF secara programatis menggunakan Aspose
 Pelajari cara menghapus font tersemat dari file PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode C# yang jelas.
 
 ## Sumber Daya Tambahan
+### [Ratakan Lapisan PDF di C# – Panduan Ekspor & Ekstrak](./flatten-pdf-layers-in-c-export-extract-guide/)
+Pelajari cara meratakan lapisan PDF, mengekspor dan mengekstrak konten menggunakan Aspose.PDF untuk .NET dengan C#.
 
-- [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)
-- [Referensi API Aspose.PDF untuk Net](https://reference.aspose.com/pdf/net/)
-- [Unduh Aspose.PDF untuk Net](https://releases.aspose.com/pdf/net/)
-- [Dukungan Gratis](https://forum.aspose.com/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+### [Cara Meratakan PDF dengan Aspose.PDF – Panduan Lengkap](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+Pelajari cara meratakan lapisan PDF menjadi satu lapisan statis menggunakan Aspose.PDF dalam panduan langkah demi langkah lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

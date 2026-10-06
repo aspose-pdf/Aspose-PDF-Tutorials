@@ -15,7 +15,7 @@
 # Programmieren mit Bildern
 
 
-Die Tutorials „Programmieren mit Bildern“ von Aspose.PDF für .NET führen Sie Schritt für Schritt durch die Bearbeitung und Verwaltung von Bildern in Ihren PDF-Dokumenten. Erfahren Sie, wie Sie Bilder einfügen, extrahieren, skalieren und bearbeiten, um visuell ansprechende PDF-Dokumente zu erstellen. Diese Schritt-für-Schritt-Tutorials bieten anschauliche Codebeispiele und ausführliche Erklärungen, die Ihnen helfen, die bildbezogenen Funktionen von Aspose.PDF für .NET zu beherrschen. Verbessern Sie Ihre PDF-Programmierkenntnisse mit diesen praktischen Tutorials und bereichern Sie Ihre Dokumente mit attraktiven und informativen Bildern.
+Die Tutorials „Programmieren mit Bildern“ von Aspose.PDF für .NET führen Sie Schritt für Schritt durch die Bearbeitung und Verwaltung von Bildern in Ihren PDF-Dokumenten. Erfahren Sie, wie Sie Bilder einfügen, extrahieren, skalieren und bearbeiten, um visuell ansprechende PDF-Dokumente zu erstellen. Diese Schritt‑für‑Schritt‑Tutorials bieten anschauliche Codebeispiele und ausführliche Erklärungen, die Ihnen helfen, die bildbezogenen Funktionen von Aspose.PDF für .NET zu beherrschen. Verbessern Sie Ihre PDF‑Programmierkenntnisse mit diesen praktischen Tutorials und bereichern Sie Ihre Dokumente mit attraktiven und informativen Bildern.
 
 ## Anleitungen
 | Titel | Beschreibung |
@@ -52,6 +52,7 @@ Die Tutorials „Programmieren mit Bildern“ von Aspose.PDF für .NET führen S
 | [Bilder in DOCX komprimieren – Dateigröße reduzieren](./compress-images-in-docx-reduce-file-size/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Bilder in DOCX‑Dateien komprimieren, um die Dateigröße zu reduzieren, mit Beispielcode. |  
 | [Abbildung zu Word hinzufügen – Vollständiger C#‑Programmierleitfaden](./add-figure-to-word-complete-c-programming-guide/) | Erfahren Sie, wie Sie mit Aspose.Words für .NET Abbildungen in ein Word‑Dokument einfügen – Schritt‑für‑Schritt‑Anleitung mit Beispielcode. |  
 | [Leere PDF-Seite erstellen – Vollständige Anleitung zum Hinzufügen, Zuschneiden und Ändern der Bildgröße](./create-blank-pdf-page-full-guide-to-adding-cropping-resizing/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET eine leere PDF-Seite erstellen und Bilder hinzufügen, zuschneiden sowie deren Größe ändern. |
+| [Bild in PDF zuschneiden – Komplettanleitung](./crop-image-in-pdf-with-aspose-pdf-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET Bilder in PDF-Dateien zuschneiden. Schritt-für-Schritt-Anleitung, Beispielcode und Tipps. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

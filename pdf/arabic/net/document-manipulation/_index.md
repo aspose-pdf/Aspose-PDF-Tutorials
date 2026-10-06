@@ -317,8 +317,6 @@
 تعلّم كيفية تقسيم ملفات PDF متعددة الصفحات وإنشاء ملفات PDF جديدة باستخدام Aspose.PDF .NET. اتبع هذا الدليل الشامل مع أمثلة برمجية.
 
 ### [الدليل الشامل لمعالجة ملفات PDF باستخدام Aspose.PDF .NET: تحميل وحفظ واستبدال النص بكفاءة](./master-pdf-manipulation-aspose-pdf-net/)
-تعلّم كيفية إتقان معالجة ملفات PDF باستخدام Aspose.PDF .NET. يغطي هذا الدليل تحميل النصوص وحفظها واستبدالها في ملفات PDF، وهو مثالي للمطورين الباحثين عن الكفاءة.
-
 ### [كيفية تعديل PDF في C# – إخفاء النص وإزالة المحتوى](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
 
 ### [كيفية إصلاح ملفات PDF في C# – إصلاح ملفات PDF التالفة بسرعة](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
@@ -329,6 +327,9 @@
 ### [كيفية تسوية ملف PDF باستخدام Aspose.PDF – دليل شامل](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
 
 ### [كيفية مقارنة ملفات PDF باستخدام Aspose – دليل خطوة بخطوة](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
+### [تسوية طبقات PDF في C# – دليل التصدير والاستخراج](./flatten-pdf-layers-in-c-export-extract-guide/)
+
+### [مقارنة PDF بصري في C# – دليل كامل لمقارنة ملفين PDF](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
 
 ## موارد إضافية
 

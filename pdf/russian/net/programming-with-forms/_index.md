@@ -55,6 +55,7 @@
 | [Создать PDF-документ с несколькими виджетами – пошаговое руководство](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) | Узнайте, как создать PDF-документ с несколькими виджетами с помощью Aspose.PDF для .NET в этом пошаговом руководстве. |
 | [Создать PDF с страницами и полями текстовых коробок – Полное руководство C#](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Узнайте, как создать PDF с несколькими страницами и полями текстовых коробок, используя Aspose.PDF для .NET в полном руководстве на C#. |
 | [Создать PDF‑документ C# – Пошаговое руководство по многостраничным формам](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Узнайте, как создавать многостраничные PDF‑формы на C# с помощью Aspose.PDF для .NET в этом пошаговом руководстве. |
+| [Создать многостраничную форму в C# с Aspose.Pdf – пошаговое руководство](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | Узнайте, как создать многостраничную форму PDF в C# с помощью Aspose.Pdf, следуя пошаговому руководству. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

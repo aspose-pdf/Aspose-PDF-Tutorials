@@ -36,6 +36,7 @@ Komplexní kolekce tutoriálů ukazujících, jak pracovat s anotacemi v PDF dok
 | [Přeškrtnutá slova](./strikeoutwords/) | Naučte se, jak pomocí Aspose.PDF pro .NET přeškrtávat slova v PDF s tímto komplexním podrobným návodem. Zlepšete si své dovednosti v úpravě dokumentů. |  
 | [Aktualizace anotace PDF s volným textem](./updatefreetextannotation/) Naučte se, jak aktualizovat anotace s volným textem v dokumentech PDF pomocí Aspose.PDF pro .NET s tímto podrobným návodem. |  
 | [Jak použít opravu v Aspose.PDF – Opravit poškozené anotace](./how-to-use-repair-in-aspose-pdf-fix-broken-annotations/) | Naučte se, jak pomocí funkce Repair v Aspose.PDF opravit poškozené anotace v PDF dokumentech. |  
+| [Přidat anotaci PDF pomocí Aspose.PDF - Kompletní průvodce](./add-annotation-pdf-with-aspose-pdf-complete-guide/) Kompletní průvodce, jak přidat anotaci do PDF souboru pomocí Aspose.PDF pro .NET, včetně ukázek kódu a podrobných kroků. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -98,6 +98,9 @@ Pelajari cara membuat dokumen PDF secara langsung di memori menggunakan Aspose.P
 ### [Buat Dokumen PDF C# – Panduan Langkah demi Langkah untuk Menambahkan Halaman Kosong dan Menggambar Persegi Panjang](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
 Pelajari cara menambahkan halaman kosong dan menggambar persegi panjang dalam dokumen PDF menggunakan Aspose.PDF untuk .NET.
 
+### [Buat Gambar PDF dari HEIC – Panduan Lengkap C#](./create-pdf-image-from-heic-complete-c-guide/)
+Pelajari cara mengonversi file HEIC menjadi gambar PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode C# lengkap.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

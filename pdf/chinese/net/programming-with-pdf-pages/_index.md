@@ -37,6 +37,7 @@ Aspose.PDF for .NET 的“使用 PDF 页面进行编程”文档提供了分步�
 | [在末尾插入空白页](./insert-empty-page-at-end/) 本指南适合初学者，学习如何使用 Aspose.PDF for .NET 轻松将空白页插入 PDF 文档。非常适合快速编辑。|  
 | [拆分至页面](./split-to-pages/) 使用 Aspose.PDF for .NET 轻松将 PDF 拆分为独立页面，本教程包含分步指南。|  
 | [更新 PDF 页面尺寸](./update-dimensions/) 通过这份全面的分步指南，了解如何使用 Aspose.PDF for .NET 轻松更新 PDF 页面尺寸。|  
+| [使用 Aspose.Pdf 重新排序 PDF 页面 – 完整 C# 指南](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) 使用 Aspose.PDF for .NET 重新排序 PDF 页面，提供完整的 C# 示例和分步指南。|  
 | [缩放至 PDF 文件中的页面内容](./zoom-to-page-contents/) 在本指南中学习如何使用 Aspose.PDF for .NET 缩放 PDF 文件中的页面内容。根据您的特定需求增强您的 PDF 文档。|  
 | [使用 C# 为 PDF 添加页码 – 完整分步指南](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) 使用 Aspose.PDF for .NET 和 C# 为 PDF 添加页码的完整分步指南，易于实现。|  
 | [添加 Bates 编号 PDF – 为 PDF 页面编号的分步指南](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) 使用 Aspose.PDF for .NET 为 PDF 页面添加 Bates 编号的完整分步指南，帮助您轻松实现页面编号。|  

@@ -56,6 +56,7 @@
 | [إضافة ترقيم بايتس إلى ملفات PDF باستخدام C# – دليل كامل](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | تعرّف على كيفية إضافة ترقيم بايتس إلى ملفات PDF باستخدام Aspose.PDF لـ .NET مع مثال عملي خطوة بخطوة. |
 | [إضافة ترقيم Bates إلى ملفات PDF باستخدام Aspose – دليل كامل](./add-bates-numbering-to-pdfs-with-aspose-complete-guide/) | تعرّف على طريقة إضافة ترقيم Bates إلى ملفات PDF باستخدام Aspose.PDF لـ .NET مع شرح مفصل وأمثلة. |
 | [كيفية إضافة ترقيم بايتس في PDF باستخدام C# – دليل كامل](./how-to-add-bates-numbering-in-pdf-with-c-complete-guide/) | تعرّف على طريقة إضافة ترقيم بايتس إلى ملفات PDF باستخدام Aspose.PDF لـ .NET مع مثال كامل خطوة بخطوة. |
+| [إضافة ترقيم Bates إلى PDF – دليل كامل مع Aspose](./add-bates-numbering-pdf-complete-guide-with-aspose/) |تعرّف على طريقة إضافة ترقيم Bates إلى ملفات PDF باستخدام Aspose.PDF لـ .NET مع شرح مفصل وأمثلة عملية. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

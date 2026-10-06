@@ -55,6 +55,7 @@ Ezek az oktatóanyagok részletes kódpéldákat, világos magyarázatokat és i
 | [PDF létrehozása oldalakkal és szövegdoboz mezőkkel – Teljes C# útmutató](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Lépésről lépésre bemutatja, hogyan hozhat létre PDF-et több oldallal és szövegdoboz mezőkkel C#-ban az Aspose.PDF for .NET segítségével. |
 | [PDF dokumentum létrehozása Aspose-szal – Szövegdoboz mező hozzáadása](./create-pdf-document-with-aspose-add-text-box-field/) | Ismerje meg, hogyan adhat hozzá szövegdoboz mezőt PDF dokumentumhoz az Aspose.PDF for .NET használatával lépésről lépésre. |
 | [PDF dokumentum létrehozása C# – Lépésről lépésre útmutató többoldalas űrlapokhoz](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Tanulja meg, hogyan hozhat létre többoldalas űrlapokat tartalmazó PDF dokumentumot C#-ban az Aspose.PDF for .NET segítségével. |
+| [Többoldalas űrlap létrehozása C#-ban az Aspose.Pdf‑vel – Lépésről‑lépésre útmutató](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | Ismerje meg, hogyan hozhat létre többoldalas PDF űrlapot C#-ban az Aspose.Pdf segítségével lépésről‑lépésre. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

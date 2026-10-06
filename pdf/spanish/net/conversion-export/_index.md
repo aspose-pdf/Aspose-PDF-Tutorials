@@ -94,6 +94,8 @@ Aprenda a convertir documentos PDF a formato HTML utilizando Aspose.PDF para .NE
 
 ### [Guardar PDF como HTML usando Aspose.PDF – Guía completa en C#](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
 Aprenda a guardar archivos PDF como HTML con Aspose.PDF usando C# con esta guía completa.
+### [Cómo exportar PDF a HTML en C# – Guía completa de Aspose](./how-to-export-pdf-to-html-in-c-complete-aspose-guide/)
+Aprenda a exportar documentos PDF a HTML usando C# y Aspose.PDF con esta guía paso a paso.
 
 ### [Convierta PDF a PNG con Aspose.PDF .NET: mejore la representación nítida del texto](./convert-pdf-png-aspose-net-font-hinting/)
 Aprenda a convertir documentos PDF en imágenes PNG de alta calidad utilizando Aspose.PDF .NET, garantizando una representación nítida del texto mediante sugerencias de fuentes.
@@ -253,6 +255,9 @@ Aprenda a guardar archivos PDF como HTML rápidamente usando Aspose.PDF en C# co
 Domine la conversión de PDF a HTML con Aspose.PDF para .NET. Mejore la accesibilidad y la interacción con los documentos con opciones personalizables.
 
 ### [Conversión de PDF a HTML con Aspose.PDF .NET](./pdf-to-html-conversion-aspose-dot-net/)
+### [Guardar PDF como HTML con Aspose.Pdf – Guía completa en C#](./save-pdf-as-html-with-aspose-pdf-complete-c-guide/)
+Aprenda a guardar archivos PDF como HTML usando Aspose.Pdf con ejemplos completos en C#.
+
 Un tutorial de código para Aspose.PDF Net
 
 ### [Cómo guardar HTML desde PDF – Guía paso a paso](./how-to-save-html-from-pdf-step-by-step-guide/)
@@ -269,6 +274,8 @@ Aprenda a guardar documentos PDF con Aspose mediante una guía paso a paso que c
 
 ### [Cómo renderizar PDF a PNG en C# – Guía completa](./how-to-render-pdf-to-png-in-c-complete-guide/)
 Aprenda a renderizar archivos PDF como imágenes PNG usando C# y Aspose.PDF con ejemplos paso a paso.
+### [Cómo renderizar PDF a PNG con Aspose – Guía completa](./how-to-render-pdf-to-png-with-aspose-complete-guide/)
+Aprenda a renderizar archivos PDF en imágenes PNG de alta calidad usando Aspose con esta guía paso a paso.
 
 ## Recursos adicionales
 

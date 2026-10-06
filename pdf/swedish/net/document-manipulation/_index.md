@@ -332,6 +332,11 @@ Lär dig hur du reparerar skadade PDF-filer i C# med Aspose.PDF för .NET snabbt
 Lär dig hur du maskerar känslig information i PDF-filer med Aspose PDF för .NET och C# i denna kompletta steg-för-steg-guide.
 ### [Hur man plattar ut PDF med Aspose.PDF – Komplett guide](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
 Lär dig hur du plattar ut PDF-filer för att göra dem oföränderliga med Aspose.PDF i .NET.
+### [Platta till PDF-lager i C# – Export- och extraheringsguide](./flatten-pdf-layers-in-c-export-extract-guide/)
+Lär dig hur du plattar till PDF-lager och exporterar eller extraherar dem med Aspose.PDF för .NET i C#.
+
+### [Visuell PDF-jämförelse i C# – Komplett guide för att jämföra två PDF-filer](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
+Lär dig hur du visuellt jämför två PDF-filer i C# med Aspose.PDF och identifierar skillnader enkelt.
 
 ## Ytterligare resurser
 

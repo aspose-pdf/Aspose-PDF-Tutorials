@@ -99,6 +99,9 @@ Lär dig hur du skapar PDF-dokument helt i minnet med C# och Aspose.PDF utan att
 ### [Skapa PDF-dokument C# – Steg‑för‑steg‑guide för att lägga till en tom sida och rita en rektangel](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
 Lär dig hur du skapar ett PDF-dokument i C#, lägger till en tom sida och ritar en rektangel med Aspose.PDF för .NET.
 
+### [Skapa PDF-bild från HEIC – Komplett C#-guide](./create-pdf-image-from-heic-complete-c-guide/)
+Lär dig hur du konverterar HEIC-bilder till PDF med Aspose.PDF för .NET i en komplett C#‑guide.
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

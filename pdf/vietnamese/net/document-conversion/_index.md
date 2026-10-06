@@ -74,6 +74,9 @@ Bạn sẽ học cách chỉ định cài đặt chuyển đổi, trích xuất 
 | [Hướng dẫn chuyển đổi định dạng PDF – Chuyển PDF sang PDF/X‑4 với Aspose trong C#](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-with-a/) | Tìm hiểu cách chuyển đổi PDF sang PDF/X‑4 bằng Aspose.PDF cho .NET trong C# qua hướng dẫn chi tiết. |  
 | [Tạo HTML từ Word – Hướng dẫn đầy đủ chuyển DOCX sang HTML](./create-html-from-word-complete-guide-to-convert-docx-to-html/) | Tìm hiểu cách chuyển đổi tệp DOCX sang HTML bằng Aspose.PDF cho .NET với hướng dẫn chi tiết từng bước. |
 | [Hướng dẫn chuyển đổi định dạng PDF – Chuyển PDF sang PDF/X‑4 trong C#](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Tìm hiểu cách chuyển đổi PDF sang PDF/X‑4 bằng Aspose.PDF cho .NET trong C# qua hướng dẫn chi tiết. |
+| [Chuyển đổi PDF sang PDF/X‑1a – Hướng dẫn đầy đủ từng bước](./convert-pdf-to-pdf-x-1a-full-step-by-step-guide/) | Tìm hiểu cách chuyển đổi tệp PDF sang định dạng PDF/X-1a bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. |
+| [Hướng dẫn Aspose PDF: Tải và Chuyển đổi PDF sang PDF/X‑4 trong C#](./aspose-pdf-tutorial-load-and-convert-pdfs-to-pdf-x-4-in-c/) | Tìm hiểu cách tải và chuyển đổi tệp PDF sang định dạng PDF/X‑4 bằng Aspose.PDF cho .NET trong C# với hướng dẫn chi tiết từng bước. |
+| [Chuyển đổi PDF sang 2.0 – Hướng dẫn ASP.NET đầy đủ với ghi nhật ký lỗi](./convert-pdf-to-2-0-full-asp-net-guide-with-error-logging/) | Tìm hiểu cách chuyển đổi tệp PDF sang PDF 2.0 trong ASP.NET, bao gồm ghi nhật ký lỗi, qua hướng dẫn chi tiết từng bước. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

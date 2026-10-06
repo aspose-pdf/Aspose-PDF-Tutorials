@@ -68,11 +68,17 @@ Hướng dẫn mã cho Aspose.PDF Net
 ### [Chuyển đổi PDF sang HTML bằng Aspose.PDF cho .NET: Hướng dẫn đầu ra luồng](./convert-pdf-html-aspose-dotnet-guide/)
 Tìm hiểu cách chuyển đổi tệp PDF sang HTML bằng Aspose.PDF cho .NET bằng cách sử dụng đầu ra luồng. Nâng cao khả năng tích hợp và khả năng truy cập web của bạn.
 
+### [Lưu PDF dưới dạng HTML với Aspose.Pdf – Hướng dẫn C# đầy đủ](./save-pdf-as-html-with-aspose-pdf-complete-c-guide/)
+Hướng dẫn chi tiết cách lưu tài liệu PDF thành HTML bằng Aspose.Pdf trong C#, bao gồm cấu hình và ví dụ thực tế.
+
 ### [Cách lưu HTML từ PDF – Hướng dẫn từng bước](./how-to-save-html-from-pdf-step-by-step-guide/)
 Hướng dẫn chi tiết cách lưu nội dung HTML từ tệp PDF bằng Aspose.PDF cho .NET.
 
 ### [Chuyển đổi PDF sang PNG bằng Aspose.PDF .NET: Cải thiện tính năng gợi ý phông chữ để hiển thị văn bản sắc nét](./convert-pdf-png-aspose-net-font-hinting/)
 Tìm hiểu cách chuyển đổi tài liệu PDF thành hình ảnh PNG chất lượng cao bằng Aspose.PDF .NET, đảm bảo hiển thị văn bản sắc nét thông qua gợi ý phông chữ.
+
+### [Cách render PDF sang PNG với Aspose – Hướng dẫn toàn diện](./how-to-render-pdf-to-png-with-aspose-complete-guide/)
+Hướng dẫn chi tiết cách sử dụng Aspose để chuyển đổi PDF thành hình ảnh PNG chất lượng cao trong .NET.
 
 ### [Lưu PDF dưới dạng PNG và Chuyển đổi sang PDF/X‑1a với Aspose PDF](./save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf/)
 Hướng dẫn cách lưu tài liệu PDF dưới dạng PNG và sau đó chuyển đổi sang định dạng PDF/X‑1a bằng Aspose PDF.
@@ -262,6 +268,8 @@ Tìm hiểu cách lưu tài liệu PDF dưới dạng HTML bằng Aspose.PDF tro
 
 ### [Chuyển đổi PDF sang TIFF trong .NET bằng Aspose.PDF: Hướng dẫn từng bước](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Tìm hiểu cách chuyển đổi tài liệu PDF sang hình ảnh TIFF bằng Aspose.PDF cho .NET. Làm chủ độ sâu màu tùy chỉnh và các kỹ thuật xử lý hình ảnh tiên tiến.
+
+### [Xuất PDF sang HTML trong C# – Hướng dẫn đầy đủ Aspose](./how-to-export-pdf-to-html-in-c-complete-aspose-guide/)
 
 ### [Chuyển đổi PDF sang HTML và Xác minh Chữ ký PDF – Hướng dẫn đầy đủ Aspose .NET](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
 Hướng dẫn chi tiết cách chuyển PDF sang HTML và kiểm tra chữ ký PDF bằng Aspose.PDF cho .NET, bao gồm mã mẫu và các bước thực hiện.

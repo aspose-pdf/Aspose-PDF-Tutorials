@@ -309,6 +309,9 @@ Aspose.PDF नेट के लिए एक कोड ट्यूटोरि�
 
 ### [Aspose.PDF .NET के साथ PDF मैनिपुलेशन के लिए अंतिम गाइड: टेक्स्ट को कुशलतापूर्वक लोड, सेव और रिप्लेस करें](./master-pdf-manipulation-aspose-pdf-net/)
 
+### [C# में PDF लेयर को फ्लैटन करें – निर्यात एवं निष्कर्षण गाइड](./flatten-pdf-layers-in-c-export-extract-guide/)
+C# में Aspose.PDF का उपयोग करके PDF लेयर को फ्लैटन करने, निर्यात करने और निकालने की प्रक्रिया सीखें।
+
 ### [C# का उपयोग करके PDF में आयत जोड़ें – पूर्ण प्रोग्रामिंग गाइड](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
 C# कोड के साथ Aspose.PDF का उपयोग करके PDF में आयत जोड़ने की विस्तृत चरण-दर-चरण गाइड।
 
@@ -325,6 +328,9 @@ C# में Aspose.PDF का उपयोग करके PDF से संव
 C# में Aspose.PDF का उपयोग करके क्षतिग्रस्त PDF फ़ाइलों को जल्दी और आसानी से ठीक करने की चरण-दर-चरण गाइड।
 ### [Aspose.PDF .NET का उपयोग करके PDF को फ्लैट करने का तरीका – पूर्ण गाइड](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
 Aspose.PDF का उपयोग करके PDF को फ्लैट करने और इंटरैक्टिव तत्वों को स्थायी रूप से हटाने की पूरी प्रक्रिया सीखें।
+
+### [C# में विज़ुअल PDF डिफ़ – दो PDF की तुलना के लिए पूर्ण गाइड](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
+C# में Aspose.PDF का उपयोग करके दो PDF फ़ाइलों की विज़ुअल तुलना कैसे करें, चरण-दर-चरण सीखें।
 
 ### [Aspose के साथ PDF की तुलना कैसे करें – चरण‑दर‑चरण गाइड](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
 Aspose का उपयोग करके PDF फ़ाइलों की तुलना करने के लिए विस्तृत चरण‑दर‑चरण निर्देश।

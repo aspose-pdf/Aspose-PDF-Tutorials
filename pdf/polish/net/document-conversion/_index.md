@@ -75,6 +75,9 @@ Dowiesz się, jak określać ustawienia konwersji, wyodrębniać tekst i obrazy,
 | [Konwertuj PDF do HTML w C# – Prosty przewodnik krok po kroku](./convert-pdf-to-html-in-c-simple-step-by-step-guide/) | Dowiedz się, jak konwertować PDF do HTML w C# przy użyciu Aspose.PDF dla .NET w prostym przewodniku krok po kroku. |
 | [Samouczek konwersji formatu PDF – konwertuj PDF do PDF/X‑4 przy użyciu Aspose w C#](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-with-a/) | Dowiedz się, jak w C# konwertować pliki PDF do formatu PDF/X‑4 przy użyciu Aspose.PDF dla .NET w prostym przewodniku krok po kroku. |
 | [Samouczek konwersji formatu PDF – konwersja PDF do PDF/X‑4 w C#](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Dowiedz się, jak konwertować PDF do PDF/X‑4 w C# przy użyciu Aspose.PDF dla .NET w tym samouczku krok po kroku. |
+| [Samouczek Aspose PDF: Ładowanie i konwertowanie plików PDF do PDF/X‑4 w C#](./aspose-pdf-tutorial-load-and-convert-pdfs-to-pdf-x-4-in-c/) | Dowiedz się, jak w C# wczytać pliki PDF i przekonwertować je do formatu PDF/X‑4 przy użyciu Aspose.PDF. |
+| [Konwertuj PDF do PDF/X‑1a – Pełny przewodnik krok po kroku](./convert-pdf-to-pdf-x-1a-full-step-by-step-guide/) | Dowiedz się, jak konwertować pliki PDF do formatu PDF/X‑1a przy użyciu Aspose.PDF dla .NET w tym szczegółowym przewodniku krok po kroku. |
+| [Konwertuj PDF do 2.0 – Pełny przewodnik ASP.NET z rejestrowaniem błędów](./convert-pdf-to-2-0-full-asp-net-guide-with-error-logging/) | Dowiedz się, jak konwertować pliki PDF do wersji 2.0 w ASP.NET, z pełnym przewodnikiem i rejestrowaniem błędów. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

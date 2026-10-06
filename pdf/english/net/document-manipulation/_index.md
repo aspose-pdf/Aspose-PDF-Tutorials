@@ -193,8 +193,6 @@ Learn how to efficiently remove all text from a PDF using Aspose.PDF .NET. Perfe
 ### [How to Remove PDF Open Actions Using Aspose.PDF for .NET&#58; A Complete Guide](./remove-pdf-open-action-aspose-dotnet-guide/)
 Learn how to eliminate unwanted open actions from PDF files using Aspose.PDF for .NET. This guide provides step-by-step instructions and best practices.
 
-### [How to flatten PDF with Aspose.PDF – Complete guide](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
-Learn how to flatten PDF documents using Aspose.PDF for .NET, removing interactive elements and preserving appearance.
 ### [Remove Font from PDF with Aspose – Step‑by‑Step Guide](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
 Learn how to remove embedded fonts from PDF files using Aspose.PDF for .NET in this step-by-step tutorial.
 ### [How to Remove Embedded Fonts PDF – Step‑by‑Step C# Guide](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
@@ -330,6 +328,14 @@ Learn how to redact sensitive information in PDFs using Aspose.PDF for .NET, hid
 Learn how to repair corrupted PDF files quickly using Aspose.PDF for .NET in C#.
 ### [How to Redact PDF in C# with Aspose PDF – Complete Guide](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
 Learn how to permanently remove sensitive content from PDFs using Aspose.PDF for .NET with C# in this comprehensive step-by-step guide.
+### [Visual PDF Diff in C# – Complete Guide to Compare Two PDFs](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
+Learn how to compare two PDF files visually using Aspose.PDF for .NET in C#, with step-by-step code examples and best practices.
+
+### [Flatten PDF Layers in C# – Export & Extract Guide](./flatten-pdf-layers-in-c-export-extract-guide/)
+Learn how to flatten PDF layers using Aspose.PDF for .NET in C#, enabling export and extraction of layer content efficiently.
+
+### [How to Flatten PDF with Aspose.PDF – Complete Guide](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+Learn how to flatten PDF files using Aspose.PDF for .NET with this comprehensive step-by-step guide.
 
 ## Additional Resources
 

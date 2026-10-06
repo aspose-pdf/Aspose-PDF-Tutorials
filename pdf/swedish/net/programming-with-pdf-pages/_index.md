@@ -45,6 +45,7 @@ Handledningarna innehåller steg-för-steg-instruktioner, detaljerade kodexempel
 | [Lägg till Bates-nummerering i C# – Steg‑för‑steg‑guide](./add-bates-numbering-in-c-step-by-step-guide/) | Lär dig hur du lägger till Bates‑nummerering i en PDF med C# i en detaljerad steg‑för‑steg‑guide. |
 | [Lägg till sidor i PDF – Steg‑för‑steg‑guide för C#‑utvecklare](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) | Lär dig hur du lägger till sidor i en PDF med Aspose.PDF för .NET i en detaljerad steg‑för‑steg‑guide för C#‑utvecklare. |
 | [Omordna PDF-sidor i C# – Fullständig steg‑för‑steg‑guide](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | Steg-för-steg-guide för att omordna PDF-sidor i en PDF med Aspose.PDF för .NET i C#. |
+| [Omordna PDF-sidor med Aspose.Pdf – Fullständig C#‑guide](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) | Steg‑för‑steg‑guide för att omordna PDF‑sidor med Aspose.Pdf i C#. Lätt att följa och implementera. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

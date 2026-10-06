@@ -56,6 +56,7 @@ I tutorial di Aspose.PDF "Programmazione con timbri e filigrane" per .NET ti gui
 | [Aggiungi numerazione Bates ai PDF con C# – Guida completa](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Scopri come aggiungere la numerazione Bates ai PDF con C# usando Aspose.PDF per .NET, con esempi di codice passo passo. |  
 | [Aggiungi numerazione Bates ai PDF con Aspose – Guida completa](./add-bates-numbering-to-pdfs-with-aspose-complete-guide/) | Scopri come aggiungere la numerazione Bates ai PDF usando Aspose.PDF per .NET con esempi pratici e consigli dettagliati. |  
 | [Come aggiungere la numerazione Bates in PDF con C# – Guida completa](./how-to-add-bates-numbering-in-pdf-with-c-complete-guide/) | Scopri come inserire la numerazione Bates nei PDF usando Aspose.PDF per .NET con esempi di codice passo passo. |
+| [Aggiungi numerazione Bates PDF – Guida completa con Aspose](./add-bates-numbering-pdf-complete-guide-with-aspose/) | Scopri come aggiungere la numerazione Bates ai PDF utilizzando Aspose.PDF per .NET con questa guida completa passo passo. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

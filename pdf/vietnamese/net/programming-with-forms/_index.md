@@ -55,6 +55,7 @@ Các hướng dẫn này cũng cung cấp các ví dụ mã chi tiết, giải t
 | [Tạo PDF với các trang và trường hộp văn bản – Hướng dẫn C# đầy đủ](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Hướng dẫn chi tiết cách tạo PDF với các trang và trường hộp văn bản bằng C# và Aspose.PDF cho .NET. |  
 | [Tạo tài liệu PDF với Aspose – Thêm trường hộp văn bản](./create-pdf-document-with-aspose-add-text-box-field/) | Tìm hiểu cách tạo tài liệu PDF và thêm trường hộp văn bản bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. |  
 | [Tạo tài liệu PDF C# – Hướng dẫn từng bước cho biểu mẫu đa trang](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Hướng dẫn chi tiết cách tạo tài liệu PDF đa trang với các biểu mẫu bằng C# và Aspose.PDF cho .NET. |  
+| [Tạo biểu mẫu đa trang trong C# với Aspose.Pdf – Hướng dẫn từng bước](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | Hướng dẫn chi tiết cách tạo biểu mẫu PDF đa trang bằng C# và Aspose.Pdf, bao gồm các bước thực hiện từng phần. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
