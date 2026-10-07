@@ -177,6 +177,8 @@
 ### [Добавление прозрачности в PDF с помощью Aspose.PDF в C# – пошаговое руководство](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Узнайте, как применять прозрачность к элементам PDF с помощью Aspose.PDF в C#, следуя пошаговым инструкциям.
 
+### [Добавление графического состояния PDF с помощью Aspose.PDF в C#](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.PDF для сети](https://docs.aspose.com/pdf/net/)

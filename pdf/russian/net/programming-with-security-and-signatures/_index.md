@@ -55,6 +55,7 @@
 | [Проверка подписи PDF в C# – Полное пошаговое руководство](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | Узнайте, как проверять подписи PDF в C# с помощью Aspose.PDF в полном пошаговом руководстве. |  
 | [Как читать подписи из PDF в C# – Полное руководство](./how-to-read-signatures-from-a-pdf-in-c-complete-guide/) | Узнайте, как читать подписи PDF и извлекать информацию о сертификатах с помощью Aspose.PDF для .NET на C#. |  
 | [Проверка действительности подписи PDF с Aspose.PDF – Полное руководство на C#](./check-pdf-signature-validity-with-aspose-pdf-complete-c-guid/) | Узнайте, как проверять валидность цифровой подписи PDF с помощью Aspose.PDF в полном руководстве для C#. |  
+| [Как проверить подписи PDF с Aspose.Pdf в C#](./how-to-validate-pdf-signatures-with-aspose-pdf-in-c/) | Узнайте, как проверять подписи PDF с помощью Aspose.Pdf в C#. Пошаговое руководство. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -109,4 +110,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

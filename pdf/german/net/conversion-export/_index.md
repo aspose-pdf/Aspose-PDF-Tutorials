@@ -88,7 +88,7 @@ Erfahren Sie, wie Sie ein PDF als PNG speichern und anschließend mit Aspose PDF
 ### [PDF in PNG konvertieren in C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./convert-pdf-to-png-in-c-complete-step-by-step-guide/)
 Erfahren Sie, wie Sie PDFs mit Aspose.PDF für .NET in hochwertige PNG‑Bilder konvertieren – detaillierte Anleitung mit C#‑Beispielen.
 ### [PDF in PNG rendern in C# – Vollständige Anleitung](./how-to-render-pdf-to-png-in-c-complete-guide/)
-Erfahren Sie, wie Sie PDF-Dokumente mit Aspose.PDF für .NET in hochwertige PNG-Bilder in C# konvertieren.
+Erfahren Sie, wie Sie PDF-Dokumente mit Aspose.PDF für .NET in hochwertige PNG‑Bilder in C# konvertieren.
 ### [Aspose PDF zu PNG – Erste Seite mit 300 DPI exportieren](./aspose-pdf-to-png-export-first-page-at-300-dpi/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET die erste Seite eines PDFs als PNG mit 300 DPI exportieren.
 ### [Wie man PDF mit Aspose zu PNG rendert – Vollständige Anleitung](./how-to-render-pdf-to-png-with-aspose-complete-guide/)
@@ -239,9 +239,12 @@ Erfahren Sie, wie Sie PDFs mit Aspose.Pdf in HTML konvertieren und dabei vollst�
 ### [PDF-zu-HTML-Konvertierung mit Aspose.PDF für .NET](./pdf-to-html-conversion-aspose-dot-net/)
 Ein Code-Tutorial für Aspose.PDF Net
 
-### [Konvertieren Sie PDF in HTML in C# – Schnellleitfaden mit Aspose.PDF](./convert-pdf-to-html-in-c-quick-guide-with-aspose-pdf/)
+### [Convert PDF to HTML in C# – Quick Guide with Aspose.PDF](./convert-pdf-to-html-in-c-quick-guide-with-aspose-pdf/)
 Erfahren Sie, wie Sie PDFs schnell und einfach mit Aspose.PDF in C# in HTML konvertieren.
-### [Wie man HTML aus PDF speichert – Schritt‑für‑Schritt‑Anleitung](./how-to-save-html-from-pdf-step-by-step-guide/)
+
+### [PDF nach HTML konvertieren in C# – vollständiger Programmierleitfaden](./convert-pdf-to-html-in-c-complete-programming-guide/)
+
+### [Wie man PDF aus HTML speichert – Schritt‑für‑Schritt‑Anleitung](./how-to-save-html-from-pdf-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET HTML-Inhalte aus PDF-Dateien extrahieren und speichern.
 
 ### [PDF-zu-TIFF-Konvertierung in .NET mit Aspose.PDF: Eine Schritt-für-Schritt-Anleitung](./pdf-to-tiff-conversion-aspose-pdf-net/)

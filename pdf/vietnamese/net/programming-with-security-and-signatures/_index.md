@@ -54,6 +54,7 @@ Hướng dẫn cung cấp cho bạn tổng quan chi tiết về các phương ph
 | [Lấy tên chữ ký PDF bằng Aspose.PDF trong C#](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | Học cách lấy tên các chữ ký trong tệp PDF bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết. |  
 | [Cách đọc chữ ký từ PDF trong C# – Hướng dẫn đầy đủ](./how-to-read-signatures-from-a-pdf-in-c-complete-guide/) | Học cách đọc chữ ký và thông tin chứng chỉ từ PDF bằng Aspose.PDF cho .NET trong C#. |  
 | [Kiểm tra tính hợp lệ của chữ ký PDF với Aspose.PDF – Hướng dẫn C# đầy đủ](./check-pdf-signature-validity-with-aspose-pdf-complete-c-guid/) | Học cách kiểm tra tính hợp lệ của chữ ký PDF bằng Aspose.PDF trong hướng dẫn chi tiết cho C#. |  
+| [Xác thực chữ ký PDF với Aspose.Pdf trong C#](./how-to-validate-pdf-signatures-with-aspose-pdf-in-c/) | Học cách xác thực chữ ký PDF bằng Aspose.Pdf trong C# với hướng dẫn chi tiết từng bước. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -108,4 +109,3 @@ Hướng dẫn cung cấp cho bạn tổng quan chi tiết về các phương ph
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

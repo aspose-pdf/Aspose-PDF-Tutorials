@@ -41,8 +41,9 @@ Os tutoriais incluem instruções passo a passo, exemplos de código detalhados 
 | [Adicionar números de página PDF com C# – Guia completo passo a passo](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Aprenda a inserir números de página em PDFs usando C# com o Aspose.PDF, passo a passo. |
 | [Criar documento PDF C# – Adicionar numeração Bates](./create-pdf-document-c-add-bates-numbering/) | Aprenda a adicionar numeração Bates a documentos PDF usando C# e Aspose.PDF em um guia passo a passo. |
 | [Adicionar numeração Bates ao PDF – Guia passo a passo para numerar páginas PDF](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Aprenda a adicionar numeração Bates a PDFs usando Aspose.PDF para .NET com este guia passo a passo. |
+| [Como adicionar numeração Bates a um PDF com Aspose.Pdf](./how-to-add-bates-numbering-to-a-pdf-with-aspose-pdf/) | Aprenda a inserir numeração Bates em PDFs usando Aspose.Pdf para .NET com este guia passo a passo. |
 | [Criar documento PDF C# – Guia de adição de formas e páginas em branco](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Aprenda a criar documentos PDF em C# adicionando formas e páginas em branco usando Aspose.PDF para .NET, passo a passo. |
-| [Adicionar numeração Bates em PDF com Aspose – Guia Completo](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Aprenda a adicionar numeração Bates a arquivos PDF usando Aspose.PDF com este guia passo a passo completo. |
+| [Adicionar numeração Bates em PDF com Aspose – Guia Completo](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Aprenda a adicionar numeração Bates a arquivos PDF usando Aspose.PDF para .NET com este guia passo a passo. |
 | [Adicionar numeração Bates em C# – Guia passo a passo](./add-bates-numbering-in-c-step-by-step-guide/) | Aprenda a adicionar numeração Bates em PDFs usando C# com o Aspose.PDF, passo a passo. |
 | [Adicionar páginas ao PDF – Guia passo a passo para desenvolvedores C#](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) | Aprenda a adicionar páginas a um PDF usando C# e Aspose.PDF com este guia passo a passo. |  
 | [Reordenar páginas PDF com Aspose.Pdf – Guia completo em C#](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) | Aprenda a reordenar páginas de um PDF usando Aspose.Pdf em C# com este guia passo a passo. |  
@@ -86,4 +87,3 @@ Os tutoriais incluem instruções passo a passo, exemplos de código detalhados 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

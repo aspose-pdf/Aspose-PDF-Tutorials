@@ -178,6 +178,9 @@ Dowiedz się, jak sprawdzić poprawność pliku PDF i dodać prostokąt przy uż
 ### [Dodaj przezroczystość do PDF przy użyciu Aspose PDF w C# – Przewodnik krok po kroku](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Dowiedz się, jak w C# dodać przezroczystość do plików PDF przy użyciu Aspose.PDF, krok po kroku.
 
+### [Dodaj stan graficzny PDF przy użyciu Aspose.Pdf w C#](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+Dowiedz się, jak dodać stan graficzny do pliku PDF przy użyciu Aspose.PDF w C#.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

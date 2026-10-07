@@ -114,6 +114,9 @@ Learn how to enhance your PDF documents by creating rectangles with alpha transp
 ### [Add Transparency to PDF with Aspose PDF in C# – Step‑by‑Step Guide](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Learn how to apply transparency effects to PDF elements using Aspose.PDF for .NET in C#. Follow this step‑by‑step guide for implementation.
 
+### [Add graphics state pdf with Aspose.Pdf in C#](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+Learn how to manipulate the graphics state of PDF documents using Aspose.PDF for .NET in C#.
+
 ### [How to Delete Images from PDF Files Using Aspose.PDF for .NET - Complete Guide](./delete-images-aspose-pdf-net/)
 Learn how to efficiently delete images from PDF files using Aspose.PDF for .NET. This guide covers setup, code examples, and best practices.
 

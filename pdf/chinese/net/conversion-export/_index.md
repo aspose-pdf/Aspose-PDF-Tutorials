@@ -245,28 +245,18 @@ Aspose-PDF Net 代码教程
 ### [使用 C# 将 PDF 转换为 HTML – Aspose.Pdf 快速指南](./convert-pdf-to-html-in-c-quick-guide-with-aspose-pdf/)
 学习如何使用 Aspose.Pdf 在 C# 中快速将 PDF 转换为 HTML，涵盖关键代码示例和最佳实践。
 
-### [使用 Aspose.PDF for .NET 将 PDF 转换为 HTML](./pdf-to-html-conversion-aspose-dot-net/)
-Aspose-PDF Net 代码教程
+### [使用 C# 将 PDF 转换为 HTML – 完整 Aspose .NET 指南](./convert-pdf-to-html-in-c-complete-aspose-net-guide/)
+学习如何使用 Aspose.PDF for .NET 将 PDF 文档转换为 HTML，提供完整的代码示例和详细步骤。
 
-### [将 PDF 转换为 HTML 并验证 PDF 签名 – 完整 Aspose .NET 指南](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
-学习如何使用 Aspose.PDF for .NET 将 PDF 转换为 HTML 并验证其数字签名，提供完整的代码示例和步骤指南。
+### [在 C# 中将 PDF 转换为 HTML – 完整编程指南](./convert-pdf-to-html-in-c-complete-programming-guide/)
+全面指南，演示如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 完整转换为 HTML，包含代码示例和最佳实践。
 
 ### [使用 Aspose.PDF .NET 将 PDF 保存为 HTML – 完整 C# 指南](./save-pdf-as-html-with-aspose-pdf-complete-c-guide/)
-学习如何使用 Aspose.Pdf 将 PDF 保存为 HTML，提供完整的 C# 示例代码和详细步骤指南。
+学习如何使用 Aspose.PDF for .NET 将 PDF 保存为 HTML，提供完整的 C# 示例代码和详细步骤指南。
 
-### [如何在 C# 中将 PDF 导出为 HTML – 完整 Aspose 指南](./how-to-export-pdf-to-html-in-c-complete-aspose-guide/)
-学习使用 Aspose.PDF for .NET 在 C# 中将 PDF 导出为 HTML 的完整步骤和代码示例。
-
-### [使用 Aspose.PDF 在 .NET 中将 PDF 转换为 TIFF：分步指南](./pdf-to-tiff-conversion-aspose-pdf-net/)
-学习如何使用 Aspose.PDF for .NET 将 PDF 文档转换为 TIFF 图像。掌握自定义色深和高级图像处理技术。
-
-### [使用 Aspose.PDF 将 PDF 保存为 HTML – 完整 C# 指南](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
-学习如何使用 Aspose.PDF for .NET 将 PDF 保存为 HTML，提供完整的 C# 示例代码和步骤说明。
-
-### [如何使用 Aspose 保存 PDF – 步骤指南](./how-to-save-pdf-with-aspose-step-by-step-guide/)
-本指南详细演示如何使用 Aspose 在 .NET 中保存 PDF 文件的完整步骤。
-### [使用 Aspose.PDF 将 PDF 保存为 HTML – 快速 C# 指南](./save-pdf-as-html-with-aspose-pdf-quick-c-guide/)
+### [使用 Aspose.PDF 将 PDF 保存为 HTML – 完整 C# 指南](./save-pdf-as-html-with-aspose-pdf-quick-c-guide/)
 学习使用 Aspose.PDF for .NET 将 PDF 保存为 HTML，提供快速的 C# 示例代码，帮助您高效完成转换。
+
 ### [使用 Aspose.PDF .NET 将 PDF 保存为 HTML – 完整 C# 指南](./save-pdf-as-html-with-aspose-complete-c-guide/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 保存为 HTML，保持布局和样式的完整性。
 

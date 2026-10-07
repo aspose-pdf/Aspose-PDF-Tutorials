@@ -28,7 +28,7 @@ Los tutoriales incluyen instrucciones paso a paso, ejemplos de código detallado
 | [Ajustar el contenido de la página en un archivo PDF](./fit-page-contents/) | Adapte fácilmente el contenido de sus PDF con Aspose.PDF para .NET. Esta guía ofrece un enfoque detallado, paso a paso, para lograr un diseño de página óptimo. |  
 | [Obtener dimensiones de página PDF](./get-dimensions/) En este tutorial, explicamos cómo obtener las dimensiones de página de un PDF y realizar manipulaciones con Aspose.PDF para .NET. Se proporcionan pasos detallados para guiarle en el proceso.  
 | [Obtener el número de páginas en un archivo PDF](./get-number-of-pages/) Guía paso a paso para obtener el número de páginas de un PDF con Aspose.PDF para .NET. Fácil de implementar, ideal para tus proyectos.  
-| [Obtener el recuento de páginas en un archivo PDF](./get-page-count/) Aprenda a obtener el número de páginas de un archivo PDF con Aspose.PDF para .NET. Siga nuestra guía paso a paso para una solución sencilla y eficaz.  
+| [Obtener el recuento de páginas en un archivo PDF](./get-page-count/) Aprenda a obtener el número de páginas de un PDF con Aspose.PDF para .NET. Siga nuestra guía paso a paso para una solución sencilla y eficaz.  
 | [Obtener página específica](./get-particular-page/) Aprenda cómo extraer una página particular de un PDF y guardarla como un nuevo documento usando Aspose.PDF para .NET en esta guía paso a paso. |  
 | [Obtener propiedades de PDF](./get-properties/) Aprenda a extraer propiedades de PDF de forma eficiente con Aspose.PDF para .NET. Guía paso a paso con ejemplos de código y prácticas recomendadas.  
 | [Establecer imagen como fondo de página en un archivo PDF](./image-as-background/) Aprenda a configurar una imagen como fondo de página en un PDF usando Aspose.PDF para .NET con esta guía paso a paso. Cree documentos profesionales y visualmente atractivos.  
@@ -46,6 +46,7 @@ Los tutoriales incluyen instrucciones paso a paso, ejemplos de código detallado
 | [Agregar numeración Bates a PDF – Guía paso a paso para numerar páginas de PDF](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Aprenda a agregar numeración Bates a sus documentos PDF con Aspose.PDF para .NET mediante esta guía paso a paso. |
 | [Agregar numeración Bates a PDF con Aspose – Guía completa](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Aprenda a aplicar numeración Bates a documentos PDF usando Aspose.PDF para .NET con esta guía paso a paso. |  
 | [Reordenar páginas PDF con Aspose.Pdf – Guía completa en C#](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) | Aprenda a reordenar páginas de un PDF con Aspose.PDF para .NET en C# mediante esta guía paso a paso. |
+| [Cómo agregar numeración Bates a un PDF con Aspose.Pdf](./how-to-add-bates-numbering-to-a-pdf-with-aspose-pdf/) | Aprenda a añadir numeración Bates a un PDF usando Aspose.Pdf paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -86,4 +87,3 @@ Los tutoriales incluyen instrucciones paso a paso, ejemplos de código detallado
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

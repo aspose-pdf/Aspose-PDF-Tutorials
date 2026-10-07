@@ -88,7 +88,7 @@ Naučte se, jak bez problémů přidávat obrázky do PDF dokumentů pomocí Asp
 Naučte se, jak bez problémů přidávat obrázky do PDF souborů pomocí Aspose.PDF pro .NET. Tato příručka se zabývá přidáváním obrázků do existujících PDF souborů a vytvářením nových ze souborů DICOM.
 
 ### [Jak přidat záhlaví obrázku do PDF pomocí Aspose.PDF pro .NET: Podrobný návod](./add-image-header-pdf-aspose-dotnet/)
-Naučte se, jak přidat záhlaví obrázků do dokumentů PDF pomocí Aspose.PDF pro .NET s tímto komplexním podrobným návodem.
+Naučte se, jak přidat záhlaví obrázků do PDF dokumentů pomocí Aspose.PDF pro .NET s tímto komplexním podrobným návodem.
 
 ### [Jak přidat obrazové razítko do záhlaví PDF pomocí Aspose.PDF pro .NET](./add-image-stamp-pdf-header-aspose-pdf/)
 Naučte se, jak přidávat obrázková razítka do záhlaví PDF pomocí Aspose.PDF pro .NET, a jak tak vylepšit značku a profesionalitu.
@@ -173,8 +173,11 @@ Naučte se, jak vylepšit své PDF dokumenty nastavením pozadí obrázků pomoc
 
 ### [Přidání průhlednosti do PDF pomocí Aspose PDF v C# – krok za krokem průvodce](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Naučte se, jak přidat průhlednost do PDF dokumentů pomocí Aspose.PDF v C# krok za krokem.
+
 ### [Jak ověřit PDF a přidat obdélník – Kompletní průvodce](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
 Naučte se, jak pomocí Aspose.PDF pro .NET ověřit PDF soubor a přidat obdélníkový tvar do dokumentu.
+
+### [Přidání grafického stavu PDF pomocí Aspose.Pdf v C#](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
 
 ## Další zdroje
 

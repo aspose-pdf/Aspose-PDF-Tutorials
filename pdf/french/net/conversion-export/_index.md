@@ -215,9 +215,6 @@ Apprenez à convertir des fichiers PDF au format PostScript avec Aspose.PDF pour
 ### [Comment convertir un PDF en TIFF avec Aspose.PDF pour .NET : guide étape par étape](./convert-pdf-to-tiff-aspose-net/)
 Apprenez à convertir des fichiers PDF en images TIFF de haute qualité avec Aspose.PDF pour .NET. Suivez notre guide étape par étape avec des exemples de code et des conseils de configuration.
 
-### [Comment convertir un PDF en XML avec Aspose.PDF pour .NET : guide étape par étape](./pdf-to-xml-conversion-aspose-pdf-net/)
-Maîtrisez l'art de convertir des documents PDF en XML avec Aspose.PDF pour .NET. Suivez ce guide complet et optimisez la gestion de vos documents.
-
 ### [Comment convertir un PDF en XPS avec Aspose.PDF pour .NET : Guide du développeur](./convert-pdf-to-xps-aspose-dotnet-guide/)
 Apprenez à convertir des fichiers PDF au format XPS avec Aspose.PDF pour .NET. Suivez notre guide étape par étape, comprenant des conseils de configuration et d'optimisation.
 
@@ -244,6 +241,10 @@ Maîtrisez la conversion PDF en HTML avec Aspose.PDF pour .NET. Améliorez l'acc
 
 ### [Convertir un PDF en HTML et vérifier la signature PDF – Guide complet Aspose .NET](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
 Apprenez à convertir des PDF en HTML et à valider leurs signatures numériques avec Aspose.PDF pour .NET.
+
+### [Convertir un PDF en HTML en C# – guide complet de programmation](./convert-pdf-to-html-in-c-complete-programming-guide/)
+Apprenez à convertir des PDF en HTML en C# avec un guide complet de programmation.
+
 ### [Comment exporter un PDF en HTML en C# – Guide complet Aspose](./how-to-export-pdf-to-html-in-c-complete-aspose-guide/)
 Apprenez à convertir des fichiers PDF en HTML avec C# en suivant un guide complet utilisant Aspose.PDF.
 

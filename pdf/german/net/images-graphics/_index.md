@@ -40,6 +40,7 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET Rechtecke zu PDFs hinzufügen, po
 
 ### [Rechteck in PDF mit C# zeichnen – Schritt‑für‑Schritt‑Anleitung](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein Rechteck in ein PDF-Dokument zeichnen. Folgen Sie dieser Schritt‑für‑Schritt‑Anleitung.
+
 ### [Wie man PDF validiert und ein Rechteck hinzufügt – Vollständiger Leitfaden](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDFs validieren und Rechtecke hinzufügen, um Dokumente zu prüfen und zu markieren.
 
@@ -82,16 +83,16 @@ Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF f�
 ### [So fügen Sie mit Aspose.PDF für .NET Bilder und Text zu PDFs hinzu: Eine Schritt-für-Schritt-Anleitung](./adding-images-text-pdfs-aspose-pdf-dotnet/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET Bilder und Text zu PDFs hinzufügen. Diese umfassende Anleitung deckt alles von der Einrichtung bis zur Implementierung ab und verbessert Ihre Fähigkeiten zur Dokumentbearbeitung.
 
-### [So fügen Sie mit Aspose.PDF .NET Bilder zu PDFs hinzu: Eine umfassende Anleitung](./aspose-pdf-net-add-images-pdfs/)
+### [So fügen Sie mit Aspose.PDF .NET Bilder zu PDFs hinzufügen: Eine umfassende Anleitung](./aspose-pdf-net-add-images-pdfs/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET nahtlos Bilder zu Ihren PDF-Dokumenten hinzufügen. Diese Schritt-für-Schritt-Anleitung behandelt Einrichtung, Implementierung und praktische Anwendungen.
 
-### [So fügen Sie mit Aspose.PDF für .NET Bilder zu PDFs hinzu: Eine vollständige Anleitung](./add-images-to-pdfs-using-aspose-pdf-net/)
+### [So fügen Sie mit Aspose.PDF für .NET Bilder zu PDFs hinzufügen: Eine vollständige Anleitung](./add-images-to-pdfs-using-aspose-pdf-net/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET nahtlos Bilder zu Ihren PDF-Dokumenten hinzufügen. Diese Schritt-für-Schritt-Anleitung behandelt Einrichtung, Implementierung und praktische Anwendungen.
 
-### [So fügen Sie mit Aspose.PDF für .NET Bilder zu PDFs hinzu: Eine Schritt-für-Schritt-Anleitung](./add-images-to-pdfs-aspose-pdf-net/)
+### [So fügen Sie mit Aspose.PDF für .NET Bilder zu PDFs hinzufügen: Eine Schritt-für-Schritt-Anleitung](./add-images-to-pdfs-aspose-pdf-net/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET nahtlos Bilder zu Ihren PDFs hinzufügen. Diese Anleitung beschreibt das Hinzufügen von Bildern zu vorhandenen PDFs und das Erstellen neuer Bilder aus DICOM-Dateien.
 
-### [So fügen Sie mit Aspose.PDF für .NET einen Bildkopf zu PDFs hinzu: Eine Schritt-für-Schritt-Anleitung](./add-image-header-pdf-aspose-dotnet/)
+### [So fügen Sie mit Aspose.PDF für .NET einen Bildkopf zu PDFs hinzufügen: Eine Schritt-für-Schritt-Anleitung](./add-image-header-pdf-aspose-dotnet/)
 Erfahren Sie in dieser umfassenden Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET Bildkopfzeilen zu Ihren PDF-Dokumenten hinzufügen.
 
 ### [So fügen Sie mit Aspose.PDF für .NET einen Bildstempel zu PDF-Kopfzeilen hinzu](./add-image-stamp-pdf-header-aspose-pdf/)
@@ -177,6 +178,9 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET komplexe LaTeX-Skripte in PDF-Dok
 
 ### [Bildhintergründe in PDFs mit Aspose.PDF für .NET festlegen: Eine umfassende Anleitung](./aspose-pdf-net-set-image-backgrounds/)
 Erfahren Sie, wie Sie Ihre PDF-Dokumente mit Aspose.PDF für .NET durch die Einrichtung von Bildhintergründen optimieren. Diese Anleitung enthält Tipps zur Einrichtung, Implementierung und Optimierung.
+
+### [Grafikzustand zu PDF mit Aspose.Pdf in C# hinzufügen](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+Erfahren Sie, wie Sie mit Aspose.Pdf für .NET den Grafikzustand in PDFs steuern.
 
 ## Weitere Ressourcen
 

@@ -61,7 +61,7 @@ Pelajari cara mengonversi PDF ke HTML menggunakan Aspose.PDF untuk .NET sambil m
 ### [Konversi PDF ke HTML dengan Dimensi Kustom menggunakan Aspose.PDF](./convert-pdf-html-custom-dimensions-asposepdf-net/)
 Tutorial kode untuk Aspose.PDF Net
 ### [Konversi PDF ke HTML dengan URL Gambar Kustom Menggunakan Aspose.PDF .NET: Panduan Lengkap](./convert-pdf-html-custom-image-urls-aspose-pdf-net/)
-Pelajari cara mengonversi dokumen PDF ke format HTML menggunakan Aspose.PDF untuk .NET, termasuk menyesuaikan URL gambar dan menerapkan strategi penghematan sumber daya yang disesuaikan.
+Pelajari cara mengonversi dokumen PDF ke format HTML menggunakan Aspose.PDF .NET, termasuk menyesuaikan URL gambar dan menerapkan strategi penghematan sumber daya yang disesuaikan.
 ### [Konversi PDF ke PNG dengan Aspose.PDF .NET: Meningkatkan Font Hinting untuk Rendering Teks yang Tajam](./convert-pdf-png-aspose-net-font-hinting/)
 Pelajari cara mengonversi dokumen PDF menjadi gambar PNG berkualitas tinggi menggunakan Aspose.PDF .NET, yang memastikan tampilan teks tajam melalui petunjuk font.
 
@@ -111,7 +111,7 @@ Pelajari cara memotong bagian tertentu dari halaman PDF dan mengubahnya menjadi 
 ### [Ekspor Data ke PDF Menggunakan Aspose.PDF untuk .NET: Panduan Lengkap](./export-data-pdf-aspose-net-guide/)
 Pelajari cara mengekspor data dari aplikasi ke PDF secara efisien menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup pengaturan, contoh kode dalam C#, dan fitur-fitur utama.
 ### [Ekspor Anotasi PDF dengan Aspose.PDF .NET: Panduan Lengkap](./export-annotations-aspose-pdf-net/)
-Pelajari cara mengekspor anotasi dari PDF secara efisien menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup penyiapan, penerapan, dan praktik terbaik.
+Pelajari cara mengekspor anotasi dari PDF secara efisien menggunakan Aspose.PDF .NET. Panduan ini mencakup penyiapan, penerapan, dan praktik terbaik.
 ### [Ekspor Data PDF ke XML dengan Aspose.PDF untuk .NET: Panduan Langkah demi Langkah](./export-pdf-data-to-xml-aspose-dotnet-guide/)
 Pelajari cara mengekspor data formulir PDF secara efisien ke XML terstruktur menggunakan Aspose.PDF untuk .NET, pustaka canggih yang dirancang untuk manipulasi PDF.
 ### [Format HTML ke PDF Menggunakan Aspose.PDF untuk .NET: Panduan Langkah demi Langkah](./format-html-pdf-aspose-dotnet-guide/)
@@ -161,7 +161,7 @@ Pelajari cara mengelola font yang hilang dengan menggantinya dan mengonversi PDF
 ### [Menguasai Konversi PDF ke HTML dengan Penanganan Font di Aspose.PDF untuk .NET](./optimize-pdf-to-html-font-handling-aspose-net/)
 Pelajari cara mengoptimalkan konversi PDF ke HTML menggunakan Aspose.PDF untuk .NET, dengan fokus pada penanganan sumber daya font yang efisien dan integrasi yang mulus.
 ### [Konversi PDF ke HTML Menggunakan Aspose.PDF .NET: Menyimpan Gambar sebagai PNG Eksternal](./pdf-to-html-conversion-external-png-aspose-pdf-net/)
-Pelajari cara mengonversi dokumen PDF ke HTML dengan gambar PNG eksternal menggunakan Aspose.PDF untuk .NET. Panduan ini memastikan pelestarian tata letak dan pengoptimalan kinerja web.
+Pelajari cara mengonversi dokumen PDF ke HTML dengan gambar PNG eksternal menggunakan Aspose.PDF .NET. Panduan ini memastikan pelestarian tata letak dan pengoptimalan kinerja web.
 ### [Konversi PDF ke HTML dengan Aspose.PDF .NET: Panduan Lengkap](./aspose-pdf-net-pdf-to-html-conversion/)
 Kuasai konversi PDF ke HTML menggunakan Aspose.PDF .NET. Tingkatkan aksesibilitas dan keterlibatan dokumen dengan opsi yang dapat disesuaikan.
 
@@ -212,6 +212,15 @@ Pelajari cara mengonversi file PDF ke HTML dengan Aspose.PDF untuk .NET mengguna
 
 ### [Cara Mengekspor PDF ke HTML dalam C# – Panduan Lengkap Aspose](./how-to-export-pdf-to-html-in-c-complete-aspose-guide/)
 Panduan langkah demi langkah mengekspor PDF menjadi HTML menggunakan Aspose.PDF di C# dengan contoh kode lengkap.
+
+### [Convert PDF to HTML in C# – Panduan Lengkap Langkah demi Langkah](./convert-pdf-to-html-in-c-complete-step-by-step-guide/)
+Pelajari cara mengonversi PDF menjadi gambar PNG...
+
+### [Mengonversi PDF ke HTML dalam C# – Panduan Pemrograman Lengkap](./convert-pdf-to-html-in-c-complete-programming-guide/)
+Panduan lengkap langkah demi langkah untuk mengonversi PDF menjadi HTML menggunakan C# dan Aspose.PDF.
+
+### [Cara Merender PDF ke PNG di C# – Panduan Lengkap](./how-to-render-pdf-to-png-in-c-complete-guide/)
+Panduan langkah demi langkah untuk merender file PDF menjadi gambar PNG menggunakan C# dan Aspose.PDF.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

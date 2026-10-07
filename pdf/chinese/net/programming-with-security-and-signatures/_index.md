@@ -99,6 +99,7 @@
 | [如何在 C# 中使用 OCSP 验证 PDF 数字签名](./how-to-use-ocsp-to-validate-pdf-digital-signature-in-c/) 了解如何使用 Aspose.PDF for .NET 在 C# 中通过 OCSP 验证 PDF 数字签名。分步指南，确保签名真实性。|  
 | [使用 Aspose.Pdf 验证 PDF 签名 – 分步指南](./verify-pdf-signature-with-aspose-pdf-step-by-step-guide/) 了解如何使用 Aspose.PDF for .NET 验证 PDF 签名，确保文档完整性和真实性。|  
 | [如何验证 PDF – 完整的 C# 数字签名指南](./how-to-verify-pdf-complete-c-guide-for-digital-signatures/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 的数字签名，确保文档完整性和真实性的完整分步指南。|  
+| [如何使用 Aspose.Pdf 在 C# 中验证 PDF 签名](./how-to-validate-pdf-signatures-with-aspose-pdf-in-c/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名，确保文档完整性和真实性。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -107,4 +108,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
