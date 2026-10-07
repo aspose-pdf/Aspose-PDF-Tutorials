@@ -35,6 +35,13 @@ Naučte se, jak bez problémů převádět soubory SVG do vysoce kvalitních PDF
 ### [Vytváření a vyplňování obdélníků v PDF pomocí Aspose.PDF pro .NET: Podrobný návod](./create-fill-rectangle-aspose-pdf-net/)
 Naučte se, jak vytvářet a vyplňovat obdélníky v PDF dokumentech pomocí Aspose.PDF pro .NET. Tato podrobná příručka pokrývá vše od nastavení až po implementaci v C#.
 
+### [Jak nakreslit obdélník v PDF pomocí C# – krok za krokem](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.PDF pro .NET v C# kreslit obdélníky v PDF dokumentech v tomto podrobném průvodci.
+### [Přidání obdélníku do PDF v C# – Kompletní průvodce Aspose PDF](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+Naučte se, jak pomocí Aspose.PDF pro .NET v C# přidat obdélník do PDF dokumentu.
+### [Přidání obdélníku do PDF pomocí Aspose.PDF – Kompletní programovací průvodce](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+Naučte se, jak pomocí Aspose.PDF v .NET přidat obdélník do PDF souboru s podrobným kódem C#.
+
 ### [Vytvořte si vlastní PDF razítka s Aspose.PDF v .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Výukový program pro kódování Aspose.PDF Net
 
@@ -163,6 +170,11 @@ Naučte se, jak vykreslit složité LaTeX skripty do PDF dokumentů pomocí Aspo
 
 ### [Nastavení pozadí obrázků v PDF pomocí Aspose.PDF pro .NET: Komplexní průvodce](./aspose-pdf-net-set-image-backgrounds/)
 Naučte se, jak vylepšit své PDF dokumenty nastavením pozadí obrázků pomocí Aspose.PDF pro .NET. Tato příručka obsahuje tipy pro nastavení, implementaci a optimalizaci.
+
+### [Přidání průhlednosti do PDF pomocí Aspose PDF v C# – krok za krokem průvodce](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Naučte se, jak přidat průhlednost do PDF dokumentů pomocí Aspose.PDF v C# krok za krokem.
+### [Jak ověřit PDF a přidat obdélník – Kompletní průvodce](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
+Naučte se, jak pomocí Aspose.PDF pro .NET ověřit PDF soubor a přidat obdélníkový tvar do dokumentu.
 
 ## Další zdroje
 

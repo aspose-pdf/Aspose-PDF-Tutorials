@@ -1,0 +1,7 @@
+Title: How to embed ICC profile and convert PDF to PDF/X-1 with Aspose.Pdf
+Slug: how-to-embed-icc-profile-and-convert-pdf-to-pdf-x-1-with-asp
+Category: document-conversion
+ProcessedDate: 2026-09-18T18:34:23.671152
+SourceRepo: AI Search API
+Keywords: how to embed icc, convert pdf to pdf/x-1, how to create pdf/x-1, convert pdf using aspose
+PRNumber: 131

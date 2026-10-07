@@ -1,0 +1,7 @@
+Title: How to use Aspose to extract text from a scanned PDF – step‑by‑step guide
+Slug: how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by
+Category: text
+ProcessedDate: 2026-08-05T07:42:44.466775
+SourceRepo: AI Search API
+Keywords: how to use aspose, extract scanned pdf text, convert pdf to text, read scanned pdf, how to extract text
+PRNumber: 114

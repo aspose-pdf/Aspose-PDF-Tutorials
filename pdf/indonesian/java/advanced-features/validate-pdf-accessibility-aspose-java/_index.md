@@ -12,9 +12,7 @@ url: /id/java/advanced-features/validate-pdf-accessibility-aspose-java/
 weight: 1
 ---
 
- content with all translations.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 

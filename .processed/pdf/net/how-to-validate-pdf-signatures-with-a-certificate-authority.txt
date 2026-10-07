@@ -1,0 +1,7 @@
+Title: How to validate PDF signatures with a Certificate Authority in C#
+Slug: how-to-validate-pdf-signatures-with-a-certificate-authority
+Category: programming-with-security-and-signatures
+ProcessedDate: 2026-09-28T08:00:30.844305
+SourceRepo: AI Search API
+Keywords: how to validate pdf, verify pdf signature, validate pdf signature, how to verify pdf, pdf signature validation ca
+PRNumber: 136

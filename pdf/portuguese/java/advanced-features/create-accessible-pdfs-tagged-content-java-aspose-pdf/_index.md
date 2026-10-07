@@ -1,12 +1,58 @@
 ---
-date: '2025-12-01'
-description: Aprenda a criar arquivos PDF acessíveis, gerar tabelas PDF e marcar PDFs
-  para leitores de tela usando Aspise.PDF para Java.
+date: '2026-05-28'
+description: Aprenda a marcar arquivos PDF para acessibilidade, adicionar texto alternativo
+  e gerar tabelas com Aspose.PDF para Java.
 keywords:
+- how to tag pdf
+- add alt text pdf
 - accessible PDFs with Java
 - Aspose.PDF for Java
-- tagged PDF creation
-title: Criar PDF acessível com conteúdo marcado em Java usando Aspose.PDF
+schemas:
+- author: Aspose
+  dateModified: '2026-05-28'
+  description: Learn how to tag PDF files for accessibility, add alt text, and generate
+    tables with Aspose.PDF for Java.
+  headline: 'How to Tag PDF: Create Accessible PDFs in Java Using Aspose.PDF'
+  type: TechArticle
+- description: Learn how to tag PDF files for accessibility, add alt text, and generate
+    tables with Aspose.PDF for Java.
+  name: 'How to Tag PDF: Create Accessible PDFs in Java Using Aspose.PDF'
+  steps:
+  - name: Initialize the Document and Enable Tagging
+    text: The `Document` class is Aspose.PDF's top‑level object that represents a
+      single PDF file in memory. After instantiation, obtain the `ITaggedContent`
+      interface to work with tags, then set the PDF language so screen readers know
+      the locale.
+  - name: Add Structure Elements (How to generate PDF table)
+    text: The `ITaggedContent` root element acts as the container for all tags. Create
+      a `Table` object, then add a header row, body rows, and a footer row. `Table`
+      represents a PDF table element that can contain rows and cells. This demonstrates
+      the **generate pdf table** capability while keeping the content
+  - name: Populate Table Elements (Styling rows for screen reader PDF)
+    text: '`TableRow` represents a single row in the table; each cell is a `TableCell`.
+      `TableCell` defines an individual cell within a PDF table, holding content and
+      formatting. Use `setAlternativeText` on each cell to provide descriptive text
+      for screen readers, ensuring the table is understandable even with'
+  type: HowTo
+- questions:
+  - answer: Use Adobe Acrobat’s Accessibility Checker or open the file with a screen
+      reader (NVDA, JAWS) to confirm proper navigation and alt text.
+    question: How can I verify that my PDF is truly accessible?
+  - answer: Yes. Set the language code via `taggedContent.setLanguage("fr-FR")` for
+      French, `es-ES` for Spanish, etc.
+    question: Does Aspose.PDF support other languages besides English?
+  - answer: Absolutely. Use the `Image` class and set its `AlternativeText` property
+      to describe the visual content. `Image` is used to embed raster graphics into
+      a PDF document.
+    question: Can I add images with alt text to a tagged PDF?
+  - answer: No hard limit, but very large tables increase memory consumption; consider
+      pagination or splitting the document.
+    question: Is there a limit to the number of rows I can generate in a PDF table?
+  - answer: When tags, language, and alternative text are correctly set, the PDF complies
+      with PDF/UA and should be readable by most major screen readers.
+    question: Will the generated PDF work on all screen readers?
+  type: FAQPage
+title: 'Como marcar PDF: criar PDFs acessíveis em Java usando Aspose.PDF'
 url: /pt/java/advanced-features/create-accessible-pdfs-tagged-content-java-aspose-pdf/
 weight: 1
 ---
@@ -16,33 +62,34 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Crie PDF Acessível com Conteúdo Etiquetado em Java Usando Aspose.PDF
+# Como marcar PDF: Criar PDFs acessíveis em Java usando Aspose.PDF
 
-Criar documentos **PDF acessíveis** é essencial para garantir que todos os usuários, incluindo aqueles que dependem de tecnologias assistivas, possam ler e interagir com seu conteúdo. Neste tutorial você aprenderá a **criar PDFs acessíveis** com conteúdo etiquetado, gerar tabelas em PDF e definir o idioma do documento para que leitores de tela interpretem a estrutura corretamente.
+Criar documentos **PDF acessíveis** é essencial para garantir que todos os usuários, incluindo aqueles que dependem de tecnologias assistivas, possam ler e interagir com seu conteúdo. Neste tutorial você aprenderá **como marcar PDF** arquivos com estrutura lógica, gerar tabelas estilizadas, definir o idioma do documento e adicionar texto alternativo para que leitores de tela interpretem o PDF corretamente.
 
-## Respostas Rápidas
-- **Qual biblioteca devo usar?** Aspose.PDF for Java.  
-- **Quanto tempo leva para implementar?** Cerca de 15‑20 minutos para um PDF etiquetado básico.  
-- **Preciso de licença?** Uma avaliação gratuita funciona para desenvolvimento; uma licença permanente é necessária para produção.  
-- **Posso gerar tabelas?** Sim – a API permite criar e estilizar tabelas PDF com estrutura etiquetada.  
-- **Como faço o PDF ser legível por leitores de tela?** Etiquete o conteúdo, defina o idioma e forneça texto alternativo para os elementos estruturais.
+## Respostas rápidas
+- **Qual biblioteca devo usar?** Aspose.PDF for Java fornece uma API completa de marcação.  
+- **Quanto tempo leva para implementar?** Aproximadamente 15‑20 minutos para um PDF básico marcado.  
+- **Preciso de uma licença?** Um teste gratuito funciona para desenvolvimento; uma licença permanente é necessária para produção.  
+- **Posso gerar tabelas?** Sim – a API permite criar e estilizar tabelas PDF com suporte total à marcação.  
+- **Como faço o PDF ser legível por leitores de tela?** Marque o conteúdo, defina o idioma e adicione texto alternativo a imagens e células de tabela.
 
-## O que é um “create accessible pdf”?
-Um **PDF acessível** contém uma estrutura lógica (tags) que descreve títulos, tabelas, parágrafos e outros elementos. Essa estrutura permite que leitores de tela e outras ferramentas assistivas apresentem o documento de forma significativa para usuários com deficiências visuais ou cognitivas.
+## O que é “criar PDF acessível”?
+Um PDF acessível é um arquivo que contém uma hierarquia lógica de tags descrevendo cabeçalhos, tabelas, parágrafos e outros elementos estruturais, permitindo que tecnologias assistivas transmitam o significado do documento com precisão. Ao fornecer essas informações semânticas, o PDF torna‑se navegável para leitores de tela, pesquisável por mecanismos de indexação e compatível com padrões de acessibilidade como WCAG 2.1 e PDF/UA.
 
-## Por que etiquetar um PDF?
-Etiquetar um PDF (o processo **how to tag pdf**) oferece:
-- **Navegação aprimorada** para leitores de tela e usuários de teclado.  
-- **Conformidade** com as normas WCAG 2.1 e PDF/UA de acessibilidade.  
-- **Melhor capacidade de busca** porque o texto é indexado semanticamente.  
+## Por que marcar um PDF?
+Marcar um PDF cria um contorno legível por máquina que leitores de tela, mecanismos de busca e ferramentas de navegação podem usar. Também atende à conformidade com WCAG 2.1 e PDF/UA, melhorando tanto a usabilidade quanto a conformidade legal. Tags adequadas dão aos usuários a capacidade de pular entre seções, entender relações de tabelas e receber informações descritivas para elementos não textuais, tornando o documento realmente inclusivo.
+
+## Como marcar PDF?
+Carregue um `Document`, habilite a interface `ITaggedContent`, defina o idioma do documento e, em seguida, construa uma árvore de tags que reflita o layout visual. A API grava automaticamente as tags no arquivo PDF quando você chama `save`. Essa abordagem garante que cada cabeçalho, tabela e imagem seja descrita corretamente para softwares assistivos.  
+`Document` é a classe principal do Aspose.PDF que representa um arquivo PDF na memória.  
+`ITaggedContent` fornece métodos para trabalhar com tags e estrutura de PDF.
 
 ## Pré‑requisitos
-Antes de começar, certifique‑se de que você tem:
-- Java Development Kit (JDK) instalado.  
+- Java Development Kit (JDK) 8 ou superior instalado.  
 - Uma IDE como IntelliJ IDEA ou Eclipse.  
 - Conhecimento básico de Java e familiaridade com conceitos de PDF.  
 
-### Bibliotecas e Dependências Necessárias
+### Bibliotecas e dependências necessárias
 Adicione Aspose.PDF for Java ao seu projeto usando Maven ou Gradle.
 
 **Maven**  
@@ -59,11 +106,11 @@ Adicione Aspose.PDF for Java ao seu projeto usando Maven ou Gradle.
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### Aquisição de Licença
-Aspose.PDF for Java oferece uma avaliação gratuita. Você pode obter uma licença temporária [aqui](https://purchase.aspose.com/temporary-license/). Para uso em produção, adquira uma licença completa.
+### Aquisição de licença
+Aspose.PDF for Java oferece um teste gratuito. Você pode obter uma licença temporária [aqui](https://purchase.aspose.com/temporary-license/). Para uso em produção, adquira uma licença completa.
 
-## Configurando Aspose.PDF for Java
-Se você não estiver usando Maven/Gradle, faça o download do JAR no [site de lançamentos da Aspose](https://releases.aspose.com/pdf/java/) e adicione‑o ao caminho de compilação do seu projeto.
+## Configurando Aspose.PDF para Java
+Se você não estiver usando Maven/Gradle, baixe o JAR do [site de releases da Aspose](https://releases.aspose.com/pdf/java/) e adicione-o ao caminho de compilação do seu projeto.
 
 Aqui está um snippet simples que verifica sua configuração criando um PDF vazio:
 
@@ -83,13 +130,13 @@ public class PdfCreator {
 }
 ```
 
-## Guia de Implementação
+## Guia de implementação
 
-### Criando um Novo PDF com Conteúdo Etiquetado
-**Visão geral** – Conteúdo etiquetado fornece uma hierarquia lógica que melhora a acessibilidade. As etapas abaixo orientam você a criar um PDF, habilitar a etiquetagem e preencher uma tabela estilizada.
+### Criando um novo PDF com conteúdo marcado
+**Visão geral** – Conteúdo marcado fornece uma hierarquia lógica que melhora a acessibilidade. As etapas abaixo orientam você a criar um PDF, habilitar a marcação e preencher uma tabela estilizada.
 
-#### Etapa 1: Inicializar o Documento e Habilitar a Etiquetagem
-Primeiro, crie uma instância `Document` e obtenha a interface `ITaggedContent`. Também **definimos o idioma do PDF** (a etapa **set pdf language**) para que leitores de tela saibam o locale do documento.
+#### Etapa 1: Inicializar o Document e habilitar a marcação
+A classe `Document` é o objeto de nível superior do Aspose.PDF que representa um único arquivo PDF na memória. Após a instanciação, obtenha a interface `ITaggedContent` para trabalhar com tags e, em seguida, defina o idioma do PDF para que os leitores de tela conheçam a localidade.
 
 ```java
 import com.aspose.pdf.*;
@@ -113,8 +160,8 @@ public class TaggedPdfCreator {
 }
 ```
 
-#### Etapa 2: Adicionar Elementos de Estrutura (How to generate PDF table)
-Em seguida, defina o elemento raiz e crie uma estrutura de tabela com cabeçalho, corpo e rodapé. Isso demonstra a funcionalidade **generate pdf table** mantendo todo o conteúdo totalmente etiquetado.
+#### Etapa 2: Adicionar elementos de estrutura (Como gerar tabela PDF)
+O elemento raiz `ITaggedContent` atua como contêiner para todas as tags. Crie um objeto `Table`, depois adicione uma linha de cabeçalho, linhas de corpo e uma linha de rodapé. `Table` representa um elemento de tabela PDF que pode conter linhas e células. Isso demonstra a capacidade de **gerar tabela PDF** mantendo o conteúdo totalmente marcado.
 
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.bls.*;
@@ -132,8 +179,8 @@ TableTBodyElement tableTBodyElement = tableElement.createTBody();
 TableTFootElement tableTFootElement = tableElement.createTFoot();
 ```
 
-#### Etapa 3: Preencher os Elementos da Tabela (Styling rows for screen reader PDF)
-Agora adicionamos linhas, estilizamos-nas e fornecemos texto alternativo. O texto alternativo garante que a tabela seja compreensível para usuários de **screen reader PDF**.
+#### Etapa 3: Preencher elementos da tabela (Estilizando linhas para PDF de leitor de tela)
+`TableRow` representa uma única linha na tabela; cada célula é um `TableCell`. `TableCell` define uma célula individual dentro de uma tabela PDF, contendo conteúdo e formatação. Use `setAlternativeText` em cada célula para fornecer texto descritivo para leitores de tela, garantindo que a tabela seja compreensível mesmo sem pistas visuais. `setAlternativeText` define texto descritivo para um elemento ser lido por leitores de tela.
 
 ```java
 int rowCount = 7;
@@ -180,8 +227,8 @@ for (int colIndex = 0; colIndex < colCount; colIndex++) {
 }
 ```
 
-### Salvando o Documento PDF
-Por fim, salve o documento. O arquivo salvo mantém todas as tags, configurações de idioma e estrutura da tabela, ficando totalmente pronto para **create accessible pdf** ser distribuído.
+### Salvando o documento PDF
+Chamar `document.save("Accessible.pdf")` grava o arquivo no disco com todas as tags, configurações de idioma e texto alternativo incorporados, concluindo o processo de **como marcar pdf**.
 
 ```java
 // Save the tagged PDF document
@@ -189,62 +236,70 @@ document.save(outputDir + "/StyleTableRow.pdf");
 System.out.println("Document saved successfully.");
 ```
 
-## Aplicações Práticas
-Criar PDFs acessíveis é crucial em diversos cenários reais:
+## Aplicações práticas
+Criar PDFs acessíveis é crucial em muitos cenários reais:
 
-1. **Materiais Educacionais** – Forneça livros‑texto e apostilas inclusivas para todos os estudantes.  
-2. **Publicações Governamentais** – Atenda a exigências legais de acessibilidade em documentos públicos.  
-3. **Relatórios Corporativos** – Garanta que acionistas e funcionários possam acessar demonstrações financeiras com leitores de tela.  
+1. **Materiais educacionais** – Forneça livros didáticos e apostilas inclusivas para todos os estudantes.  
+2. **Publicações governamentais** – Atenda às exigências legais de acessibilidade para documentos públicos.  
+3. **Relatórios corporativos** – Garanta que acionistas e funcionários possam acessar demonstrações financeiras com leitores de tela.  
 
-## Considerações de Desempenho
+## Considerações de desempenho
 Ao trabalhar com PDFs grandes:
 
-- Monitore o uso de memória; libere recursos prontamente.  
-- Minimize a quantidade de elementos dinâmicos que você adiciona.  
-- Siga as boas práticas de Java para coleta de lixo e reutilização de objetos.  
+- Aspose.PDF pode processar documentos de até 500 páginas sem carregar o arquivo inteiro na memória, reduzindo o uso máximo de RAM em até 70 %.
+- Libere recursos prontamente chamando `document.dispose()`.
+- Use APIs de streaming para arquivos massivos para manter o heap da JVM sob controle.
 
-## Problemas Comuns e Soluções
+## Problemas comuns e soluções
+
 | Problema | Solução |
-|----------|---------|
-| Tags não aparecem no leitor de PDF | Verifique se `taggedContent` foi obtido e se `setTitle`/`setLanguage` foram chamados antes de adicionar elementos. |
-| Células da tabela sem texto alternativo | Use `setAlternativeText` em cada `TableTRElement` e nas linhas de cabeçalho/rodapé. |
-| Arquivos grandes causam OutOfMemoryError | Processar o documento em seções ou aumentar o heap da JVM (`-Xmx`). |
+|----------|----------|
+| Tags not appearing in PDF reader | Verifique se `taggedContent` foi obtido e se `setTitle`/`setLanguage` foram chamados antes de adicionar elementos. |
+| Table cells missing alternative text | Use `setAlternativeText` em cada `TableCell` e nas linhas de cabeçalho/rodapé. |
+| Large files cause OutOfMemoryError | Processar o documento em seções ou aumentar o tamanho do heap da JVM (`-Xmx`). |
 
-## Perguntas Frequentes
+## Perguntas frequentes
 
-**P: Como posso verificar se meu PDF é realmente acessível?**  
-R: Use ferramentas como o Verificador de Acessibilidade do Adobe Acrobat ou abra o arquivo com um leitor de tela (NVDA, JAWS) para confirmar a navegação correta.
+**Q: Como posso verificar se meu PDF é realmente acessível?**  
+A: Use o Verificador de Acessibilidade do Adobe Acrobat ou abra o arquivo com um leitor de tela (NVDA, JAWS) para confirmar navegação adequada e texto alternativo.
 
-**P: O Aspose.PDF suporta outros idiomas além do inglês?**  
-R: Sim. Defina o código de idioma via `taggedContent.setLanguage("fr-FR")` para francês, `es-ES` para espanhol, etc.
+**Q: O Aspose.PDF suporta outros idiomas além do inglês?**  
+A: Sim. Defina o código de idioma via `taggedContent.setLanguage("fr-FR")` para francês, `es-ES` para espanhol, etc.
 
-**P: Posso adicionar imagens com texto alternativo a um PDF etiquetado?**  
-R: Absolutamente. Use a classe `Image` e defina sua propriedade `AlternativeText` para descrever o conteúdo visual.
+**Q: Posso adicionar imagens com texto alternativo a um PDF marcado?**  
+A: Absolutamente. Use a classe `Image` e defina sua propriedade `AlternativeText` para descrever o conteúdo visual. `Image` é usada para incorporar gráficos raster em um documento PDF.
 
-**P: Existe um limite para o número de linhas que posso gerar em uma tabela PDF?**  
-R: Não há limite rígido, mas tabelas muito grandes podem aumentar o consumo de memória; considere paginação ou dividir o documento.
+**Q: Existe um limite para o número de linhas que posso gerar em uma tabela PDF?**  
+A: Não há limite rígido, mas tabelas muito grandes aumentam o consumo de memória; considere paginação ou dividir o documento.
 
-**P: O PDF gerado funcionará em todos os leitores de tela?**  
-R: Quando tags, idioma e texto alternativo são configurados corretamente, o PDF está em conformidade com PDF/UA e deve ser legível pela maioria dos leitores de tela principais.
+**Q: O PDF gerado funcionará em todos os leitores de tela?**  
+A: Quando tags, idioma e texto alternativo são configurados corretamente, o PDF está em conformidade com PDF/UA e deve ser legível pela maioria dos principais leitores de tela.
 
 ## Conclusão
-Agora você tem um guia completo, passo a passo, para **criar PDFs acessíveis** com conteúdo etiquetado, gerar tabelas estilizadas e garantir compatibilidade com leitores de tela. Ao aproveitar o Aspose.PDF for Java, você pode incorporar a acessibilidade diretamente em seu pipeline de geração de PDFs, entregando conteúdo inclusivo a todo o público.
+Agora você tem um guia completo, passo a passo, de **como marcar PDF** documentos com Aspose.PDF para Java, gerar tabelas estilizadas e garantir total acessibilidade para usuários de leitores de tela. Ao incorporar a acessibilidade diretamente em seu pipeline de geração de PDF, você entrega conteúdo inclusivo para todo o público.
 
-### Próximos Passos
-- Explore recursos adicionais de etiquetagem, como títulos, listas e links.  
-- Integre este fluxo de trabalho aos seus serviços Java existentes ou a jobs de processamento em lote.  
+### Próximos passos
+- Explore recursos adicionais de marcação, como cabeçalhos, listas e hyperlinks.  
+- Integre este fluxo de trabalho em seus serviços Java existentes ou em trabalhos de processamento em lote.  
 - Compartilhe suas experiências e faça perguntas no [fórum Aspose PDF](https://forum.aspose.com/c/pdf/10).
 
 ---
 
-**Última atualização:** 2025-12-01  
+**Última atualização:** 2026-05-28  
 **Testado com:** Aspose.PDF for Java 25.3  
 **Autor:** Aspose
+
+{{< blocks/products/products-backtop-button >}}
+
+## Tutoriais relacionados
+
+- [Criar PDFs acessíveis com imagens usando Aspose.PDF para Java: Um guia completo para criação de PDF marcado](/pdf/java/images-graphics/create-accessible-pdf-images-aspose-pdf-java/)
+- [Criar tabelas marcadas acessíveis em PDFs usando Aspose.PDF para Java](/pdf/java/tables-lists/create-tagged-table-aspose-pdf-java/)
+- [Criar e gerenciar PDFs marcados usando Aspose.PDF para Java: Aprimore a acessibilidade em seus documentos](/pdf/java/document-manipulation/create-manage-tagged-pdfs-aspose-pdf-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

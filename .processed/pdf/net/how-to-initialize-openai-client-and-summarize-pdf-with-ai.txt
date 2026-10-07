@@ -1,0 +1,7 @@
+Title: How to initialize OpenAI client and summarize PDF with AI
+Slug: how-to-initialize-openai-client-and-summarize-pdf-with-ai
+Category: document-creation
+ProcessedDate: 2026-09-28T08:00:35.169645
+SourceRepo: AI Search API
+Keywords: initialize openai client, summarize pdf with ai, extract summary from pdf, convert summary to pdf, create summary copilot
+PRNumber: 136

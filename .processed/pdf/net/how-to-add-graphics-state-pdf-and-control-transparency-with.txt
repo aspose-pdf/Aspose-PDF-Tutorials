@@ -1,0 +1,7 @@
+Title: How to add graphics state pdf and control transparency with Aspose.PDF
+Slug: how-to-add-graphics-state-pdf-and-control-transparency-with
+Category: images-graphics
+ProcessedDate: 2026-09-06T02:29:25.226375
+SourceRepo: AI Search API
+Keywords: add graphics state pdf, how to add transparency pdf, modify pdf transparency
+PRNumber: 125

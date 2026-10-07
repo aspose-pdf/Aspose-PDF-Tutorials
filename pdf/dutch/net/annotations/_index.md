@@ -35,6 +35,8 @@ Een uitgebreide verzameling tutorials die laten zien hoe u met annotaties in PDF
 | [Stel de opmaak van tekstannotaties in](./setfreetextannotationformatting/) | Leer hoe u de opmaak van vrije tekstannotaties in PDF-documenten kunt instellen met Aspose.PDF voor .NET met behulp van deze stapsgewijze handleiding. |  
 | [Woorden doorhalen](./strikeoutwords/) | Leer hoe je woorden in een PDF doorhaalt met Aspose.PDF voor .NET met deze uitgebreide stapsgewijze handleiding. Verbeter je vaardigheden in het bewerken van documenten. |  
 | [Gratis tekst PDF-annotatie bijwerken](./updatefreetextannotation/) Leer hoe u vrije tekstannotaties in PDF-documenten kunt bijwerken met Aspose.PDF voor .NET met deze stapsgewijze handleiding. |  
+| [Hoe Repair te gebruiken in Aspose.PDF – Defecte annotaties repareren](./how-to-use-repair-in-aspose-pdf-fix-broken-annotations/) | Leer hoe u met de Repair-functie defecte annotaties in PDF's kunt herstellen met Aspose.PDF voor .NET. |
+| [PDF-annotatie toevoegen met Aspose.PDF - Complete gids](./add-annotation-pdf-with-aspose-pdf-complete-guide/) | Leer stap voor stap hoe u annotaties aan PDF-bestanden toevoegt met Aspose.PDF voor .NET in deze uitgebreide gids. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
