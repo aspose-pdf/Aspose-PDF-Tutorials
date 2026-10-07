@@ -33,7 +33,8 @@ Rychlý návod, jak pomocí Aspose.PDF v C# převést PDF soubor do HTML formát
 Rychlý návod, jak převést PDF soubory do HTML pomocí Aspose.PDF v C# s praktickými ukázkami kódu.
 ### [Převod PDF do HTML a ověření podpisu PDF – Kompletní průvodce Aspose .NET](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
 Naučte se převádět PDF do HTML a ověřovat digitální podpisy pomocí Aspose.PDF pro .NET s podrobnými ukázkami kódu.
-
+### [Převod PDF do HTML v C# – kompletní programovací průvodce](./convert-pdf-to-html-in-c-complete-programming-guide/)
+Kompletní průvodce převodem PDF do HTML v C# s podrobnými ukázkami kódu a tipy pro optimalizaci.
 ### [Komplexní průvodce: Převod PDF do TIFF pomocí Aspose.PDF .NET pro bezproblémovou konverzi dokumentů](./convert-pdf-to-tiff-aspose-dotnet-guide/)
 Naučte se, jak efektivně převádět soubory PDF do vysoce kvalitních obrázků TIFF pomocí Aspose.PDF pro .NET. Postupujte podle tohoto podrobného návodu a vylepšete si pracovní postup zpracování dokumentů.
 ### [Komplexní průvodce: Konverze PDF do HTML s aktualizacemi průběhu v reálném čase pomocí Aspose.PDF pro .NET](./pdf-to-html-conversion-progress-aspose-pdf-net/)
@@ -65,7 +66,7 @@ Naučte se, jak převádět PDF soubory do HTML pomocí Aspose.PDF pro .NET s vy
 ### [Převod PDF do HTML v .NET pomocí Aspose.PDF bez ukládání obrázků](./convert-pdf-html-net-asposepdf-no-images/)
 Naučte se, jak převádět soubory PDF do HTML pomocí Aspose.PDF pro .NET bez samostatného ukládání obrázků. Zachovejte integritu rozvržení s naším podrobným návodem.
 ### [Převod PDF do HTML v .NET s vlastními cestami k obrázkům pomocí Aspose.PDF](./convert-pdf-html-custom-image-paths-dotnet/)
-Naučte se, jak převádět soubory PDF do formátu HTML pomocí Aspose.PDF pro .NET a efektivně upravovat cesty k obrázkům. Ideální pro webovou integraci.
+Naučte se, jak převádět soubory PDF do HTML pomocí Aspose.PDF pro .NET a efektivně upravovat cesty k obrázkům. Ideální pro webovou integraci.
 ### [Převod PDF do HTML pomocí Aspose.PDF pro .NET: Zachování písem ve formátech TTF a WOFF](./convert-pdf-html-aspose-net-truetype-woff/)
 Naučte se, jak převádět PDF soubory do HTML pomocí Aspose.PDF pro .NET se zachováním písem v TrueType (TTF) a Web Open Font Format (WOFF). Podrobný návod s příklady kódu.
 ### [Převod PDF do HTML s vlastními rozměry pomocí Aspose.PDF](./convert-pdf-html-custom-dimensions-asposepdf-net/)

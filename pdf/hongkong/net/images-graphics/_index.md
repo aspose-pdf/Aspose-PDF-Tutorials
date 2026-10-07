@@ -178,6 +178,9 @@ Aspose.PDF Net 程式碼教學
 ### [如何驗證 PDF 並新增矩形 – 完整指南](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
 了解如何使用 Aspose.PDF for .NET 驗證 PDF 文件的完整性並在其中新增矩形，以提升文件的安全性與視覺效果。
 
+### [使用 Aspose.PDF 在 C# 中新增圖形狀態 PDF：逐步指南](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+了解如何在 C# 中使用 Aspose.PDF 設定圖形狀態，以控制 PDF 的渲染效果。
+
 ## 其他資源
 
 - [Aspose.PDF 用於網頁文檔](https://docs.aspose.com/pdf/net/)

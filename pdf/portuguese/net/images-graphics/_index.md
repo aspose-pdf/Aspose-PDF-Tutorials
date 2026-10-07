@@ -23,6 +23,9 @@ Aprenda a adicionar carimbos de imagem, como logotipos, a todas as páginas de u
 ### [Adicionar imagens a PDFs usando Aspose.PDF para .NET: um guia passo a passo](./adding-images-aspose-pdf-net-guide/)
 Aprenda a adicionar imagens a documentos PDF usando o Aspose.PDF para .NET com este guia detalhado. Aprimore seus relatórios e folhetos dominando coleções XImage e transformações de matriz.
 
+### [Adicionar estado gráfico ao PDF usando Aspose.PDF em C#](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+Aprenda a manipular o estado gráfico de PDFs usando Aspose.PDF em C#.
+
 ### [Adicionar texto com sombreamento de gradiente no Aspose.PDF para .NET: um guia passo a passo](./add-text-gradient-shading-aspose-pdf-net/)
 Aprenda a adicionar texto com sombreamento gradiente a PDFs usando o Aspose.PDF para .NET. Siga este guia para aprimorar a estética e a legibilidade do documento.
 

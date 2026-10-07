@@ -33,7 +33,7 @@ Tanuld meg, hogyan konvertálhatsz PDF fájlokat HTML-be egyéni stratégiákkal
 Tanulja meg, hogyan menthet PDF fájlokat HTML formátumba C#-ban az Aspose.PDF segítségével, lépésről lépésre útmutatóval.
 
 ### [PDF exportálása HTML-be C#-ban – Teljes Aspose útmutató](./how-to-export-pdf-to-html-in-c-complete-aspose-guide/)
-Tanulja meg, hogyan exportálhat PDF fájlokat HTML formátumba C#-ban az Aspose.PDF segítségével, részletes lépésről-lépésre útmutatóval.
+Tanulja meg, hogyan exportálhat PDF fájlokat HTML formátumba C#-ban az Aspose.PDF segítségével, részletes lépésről‑lépésre útmutatóval.
 
 ### [Átfogó útmutató: PDF konvertálása TIFF-be az Aspose.PDF .NET használatával a zökkenőmentes dokumentumkonverzióhoz](./convert-pdf-to-tiff-aspose-dotnet-guide/)
 Ismerje meg, hogyan konvertálhat hatékonyan PDF fájlokat kiváló minőségű TIFF képekké az Aspose.PDF for .NET segítségével. Kövesse ezt a lépésről lépésre szóló útmutatót a dokumentumfeldolgozási munkafolyamat fejlesztéséhez.
@@ -100,14 +100,18 @@ Ismerje meg, hogyan konvertálhat PDF fájlokat PNG képekké C#-ban az Aspose.P
 
 ### [PDF mentése PNG-ként és konvertálása PDF/X‑1a formátumba az Aspose PDF segítségével](./save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf/)
 Tanulja meg, hogyan menthet PDF-et PNG képként, majd konvertálhatja PDF/X‑1a szabványba az Aspose PDF használatával.
+
 ### [PDF konvertálása HTML-be C#-ban – Gyors útmutató az Aspose.Pdf használatával](./convert-pdf-to-html-in-c-quick-guide-with-aspose-pdf/)
 Ismerje meg, hogyan konvertálhat PDF fájlokat HTML-be C#-ban az Aspose.Pdf segítségével egyszerű, gyors lépésekkel.
 
+### [PDF konvertálása HTML-be C#-ban – teljes programozási útmutató](./convert-pdf-to-html-in-c-complete-programming-guide/)
+Ismerje meg, hogyan konvertálhat PDF fájlokat HTML-be C#-ban részletes, lépésről‑lépésre útmutatóval.
 
 ### [PDF renderelése PNG-be C#-ban – Teljes útmutató](./how-to-render-pdf-to-png-in-c-complete-guide/)
 Ismerje meg, hogyan renderelhet PDF fájlokat PNG képekké C#-ban az Aspose.PDF for .NET segítségével, lépésről lépésre útmutatóval.
+
 ### [PDF renderelése PNG-be Aspose segítségével – Teljes útmutató](./how-to-render-pdf-to-png-with-aspose-complete-guide/)
-Ismerje meg, hogyan konvertálhat PDF fájlokat PNG képekké az Aspose segítségével részletes, lépésről-lépésre útmutatóval.
+Ismerje meg, hogyan konvertálhat PDF fájlokat PNG képekké az Aspose segítségével részletes, lépésről‑lépésre útmutatóval.
 
 ### [PDF konvertálása PPTX-be az Aspose.PDF for .NET segítségével: lépésről lépésre útmutató](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 Ismerje meg, hogyan konvertálhat hatékonyan PDF dokumentumokat PowerPoint prezentációkká az Aspose.PDF for .NET segítségével. Ez a lépésről lépésre szóló útmutató bemutatja az alapvető konveriót, a speciális funkciókat, például a diákat és a folyamatkövetést.
@@ -227,7 +231,7 @@ Tanuld meg, hogyan konvertálhatsz PDF fájlokat kiváló minőségű TIFF képe
 Sajátítsa el a PDF dokumentumok XML-be konvertálásának művészetét az Aspose.PDF for .NET segítségével. Kövesse ezt az átfogó útmutatót, és fejlessze dokumentumkezelését.
 
 ### [PDF konvertálása XPS-be az Aspose.PDF for .NET használatával: Fejlesztői útmutató](./convert-pdf-to-xps-aspose-dotnet-guide/)
-Tanulja meg, hogyan konvertálhat PDF fájlokat XPS formátumba az Aspose.PDF for .NET segítségével. Kövesse lépésről lépésre szóló útmutatónkat, beleértve a beállítási és optimalizálási tippeket is.
+Tanulja meg, hogyan konvertálhat PDF fájlokat XPS formátumba az Aspose.PDF for .NET segítségével. Kövesse lépésről lépésre útmutatónkat, beleértve a beállítási és optimalizálási tippeket is.
 
 ### [Weboldalak PDF-be konvertálása az Aspose.PDF .NET használatával: Átfogó útmutató](./convert-web-pages-to-pdf-aspose-pdf-net/)
 Tanuld meg, hogyan konvertálhatsz weboldalakat PDF fájlokká az Aspose.PDF for .NET segítségével ezzel a lépésről lépésre haladó útmutatóval. Tökéletes dokumentumkezeléshez és offline hozzáféréshez.

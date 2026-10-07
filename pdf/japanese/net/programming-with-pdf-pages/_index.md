@@ -44,8 +44,9 @@ Aspose.PDF for .NET の「PDF ページを使ったプログラミング」ド�
 | [C# で PDF ドキュメントを作成 – シェイプと空白ページの追加ガイド](./create-pdf-document-c-add-shapes-blank-pages-guide/) Aspose.PDF for .NET を使用して、C# で PDF にシェイプや空白ページを追加する方法をステップバイステップで解説します。 |  
 | [Aspose を使用したベーツ番号付け PDF の追加 – 完全ガイド](./add-bates-numbering-pdf-with-aspose-complete-guide/) Aspose.PDF for .NET を使用して、PDF にベーツ番号を付与する方法をステップバイステップで解説します。 |
 | [C# でベーツ番号を追加 – 完全ステップバイステップガイド](./add-bates-numbering-in-c-step-by-step-guide/) Aspose.PDF for .NET を使用して、C# で PDF 文書にベーツ番号を付与する手順をステップバイステップで解説します。 |
-| [C# で PDF ページを並べ替える – 完全ステップバイステップガイド](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) Aspose.PDF for .NET を使用して、C# で PDF のページ順序を変更する手順をステップバイステップで解説します。簡単に実装可能です。 |  
+| [C# で PDF ページを並べ替える – 完全ステップバイステップガイド](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) Aspose.PDF for .NET を使用して、C# で PDF のページ順序を変更する手順をステップバイステップで解説します。簡単に実装可能です。 |
 | [Aspose.Pdf で PDF ページを並べ替える – 完全 C# ガイド](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) Aspose.PDF for .NET を使用して、C# で PDF ページの順序を変更する手順をステップバイステップで解説します。 |
+| [Aspose.Pdf で PDF にベーツ番号を追加する方法](./how-to-add-bates-numbering-to-a-pdf-with-aspose-pdf/) Aspose.PDF for .NET を使用して、PDF にベーツ番号を追加し、ページ番号付与を行う手順をステップバイステップで解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -75,8 +76,8 @@ Aspose.PDF for .NET の「PDF ページを使ったプログラミング」ド�
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-| [空白 PDF ページの作成 – 完全 PDF 描画チュートリアル](./create-blank-pdf-page-full-pdf-drawing-tutorial/) Aspose.PDF for .NET を使用して、空白の PDF ページを作成し、フル描画機能を活用する手順をステップバイステップで解説します。 |  
-| [Aspose を使用して PDF にページを追加 – 完全な C# ガイド](./add-pages-to-pdf-with-aspose-complete-c-guide/) Aspose.PDF for .NET を使い、C# で PDF に新しいページを追加する手順をステップバイステップで解説します。 |  
+| [空白 PDF ページの作成 – 完全 PDF 描画チュートリアル](./create-blank-pdf-page-full-pdf-drawing-tutorial/) Aspose.PDF for .NET を使用して、空白の PDF ページを作成し、フル描画機能を活用する手順をステップバイステップで解説します。 |
+| [Aspose を使用して PDF にページを追加 – 完全な C# ガイド](./add-pages-to-pdf-with-aspose-complete-c-guide/) Aspose.PDF for .NET を使い、C# で PDF に新しいページを追加する手順をステップバイステップで解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -85,4 +86,3 @@ Aspose.PDF for .NET の「PDF ページを使ったプログラミング」ド�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

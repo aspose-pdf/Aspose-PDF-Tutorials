@@ -238,14 +238,16 @@ Aspose.PDF Net 程式碼教學
 ### [使用 Aspose.PDF .NET 將 PDF 轉換為 HTML：完整 C# 指南](./save-pdf-as-html-with-aspose-pdf-complete-c-guide/)
 了解如何使用 Aspose.PDF for .NET 將 PDF 儲存為 HTML，提供完整的 C# 程式碼範例與步驟說明。
 
-### [如何在 C# 中將 PDF 匯出為 HTML – 完整 Aspose 指南](./how-to-export-pdf-to-html-in-c-complete-aspose-guide/)
-了解如何使用 Aspose.PDF for .NET 於 C# 中將 PDF 匯出為 HTML，提供完整步驟與程式碼範例。
+### [在 C# 中將 PDF 轉換為 HTML – Aspose.Pdf 快速指南](./convert-pdf-to-html-in-c-quick-guide-with-aspose-pdf/)
+快速學習如何在 C# 中使用 Aspose.PDF 將 PDF 轉換為 HTML，保持高保真度與自訂選項。
 
-### [使用 Aspose.PDF .NET 將 PDF 轉換為 HTML：綜合指南](./aspose-pdf-net-pdf-to-html-conversion/)
-掌握使用 Aspose.PDF for .NET 進行 PDF 到 HTML 的轉換。透過可自訂的選項增強文件的可存取性和參與度。
+### [在 C# 中將 PDF 轉換為 HTML – 完整程式設計指南](./convert-pdf-to-html-in-c-complete-programming-guide/)
 
 ### [使用 Aspose.PDF .NET 將 PDF 轉換為 HTML：完整指南](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
 了解如何使用 Aspose.PDF for .NET 及 C# 將 PDF 轉換並儲存為高品質的 HTML 文件，包含完整程式碼範例與設定說明。
+
+### [使用 Aspose.PDF .NET 將 PDF 轉換為 HTML：完整 C# 指南](./save-pdf-as-html-with-csharp-guide/)
+了解如何使用 Aspose.PDF .NET 有效率地將 HTML 文件轉換為具有專業外觀的 PDF。探索處理外部資源和呈現複雜內容的技術。
 
 ### [使用 Aspose.PDF for .NET 將 PDF 轉換為 HTML](./pdf-to-html-conversion-aspose-dot-net/)
 Aspose.PDF Net 程式碼教學

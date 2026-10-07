@@ -152,10 +152,11 @@ Aspose.PDF for .NET을 사용하여 PDF의 크기를 효율적으로 조정하�
 ### [Aspose.PDF .NET을 사용하여 PDF에서 그래픽을 제거하는 방법: 완전한 가이드](./remove-graphics-aspose-pdf-net/)
 Aspose.PDF for .NET을 사용하여 PDF에서 그래픽을 효율적으로 제거하는 방법을 알아보세요. 이 단계별 가이드를 따라 문서를 정리하고 파일 크기를 최적화하세요.
 
-### [Aspose.PDF .NET을 사용하여 PDF의 이미지를 바꾸는 방법: 개발자 가이드](./replace-images-pdf-aspose-net-guide/)
-Aspose.PDF for .NET을 사용하여 PDF 문서의 이미지를 효율적으로 바꾸는 방법을 알아보세요. 이 포괄적인 개발자 가이드를 통해 문서 업데이트를 간소화하세요.
+### [C#에서 Aspose.Pdf를 사용하여 그래픽 상태 PDF 추가](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
 
-### [Aspose.PDF for .NET을 사용하여 PDF의 이미지를 바꾸는 방법: 완전한 가이드](./replace-images-aspose-pdf-net-tutorial/)
+### [Aspose.PDF .NET을 사용하여 PDF의 이미지를 바꾸는 방법: 개발자 가이드](./replace-images-pdf-aspose-net-guide/)
+
+### [Aspose.PDF .NET을 사용하여 PDF의 이미지를 바꾸는 방법: 완전한 가이드](./replace-images-aspose-pdf-net-tutorial/)
 Aspose.PDF for .NET을 사용하여 PDF 문서의 이미지를 효율적으로 바꾸는 방법을 알아보세요. 이 종합 가이드에서는 설정, 구현 및 실제 적용 사례를 다룹니다.
 
 ### [Aspose.PDF for .NET을 사용하여 PDF의 이미지 크기를 설정하는 방법](./set-image-size-pdf-aspose-dotnet/)

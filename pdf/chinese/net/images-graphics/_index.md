@@ -56,6 +56,9 @@ Aspose.PDF Net 代码教程
 ### [使用 Aspose.PDF for .NET 在 C# 中为 PDF 添加透明度 – 分步指南](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中为 PDF 文档中的元素设置透明度，实现更丰富的视觉效果。
 
+### [使用 Aspose.PDF for .NET 添加图形状态 PDF](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中添加图形状态到 PDF。
+
 ### [使用 Aspose.PDF for .NET 实现高效的 PDF 图像识别](./master-image-identification-aspose-pdf-net/)
 学习如何使用 Aspose.PDF for .NET 识别 PDF 中的灰度和 RGB 图像。本教程涵盖安装、图像提取和性能技巧。
 
@@ -120,7 +123,7 @@ Aspose.PDF Net 代码教程
 了解如何使用 Aspose.PDF for .NET 高效地从 PDF 文件中删除图像。本指南涵盖设置、代码示例和最佳实践。
 
 ### [如何使用 Aspose.PDF .NET 从 PDF 中删除图像：分步指南](./delete-images-aspose-pdf-net-guide/)
-学习如何使用 Aspose.PDF for .NET 从 PDF 文件中删除图像。本指南内容全面，涵盖设置、实施和实际应用。
+学习如何使用 Aspose.PDF for .NET 从 PDF 中删除图像。本指南内容全面，涵盖设置、实施和实际应用。
 
 ### [如何使用 Aspose.PDF for .NET 从 PDF 中删除图像：综合指南](./delete-images-from-pdf-aspose-dotnet/)
 了解如何使用 Aspose.PDF for .NET 高效地从 PDF 中删除所有图像，增强文件隐私并减小文件大小。请遵循本分步指南。
@@ -162,7 +165,7 @@ Aspose.PDF Net 代码教程
 学习如何使用 Aspose.PDF for .NET 高效地替换 PDF 文档中的图像。本指南内容全面，涵盖设置、实施和实际应用。
 
 ### [如何使用 Aspose.PDF for .NET 设置 PDF 中的图像大小](./set-image-size-pdf-aspose-dotnet/)
-了解如何使用 Aspose.PDF for .NET 调整 PDF 中的图像大小，非常适合创建专业文档和演示文稿。
+了解如何使用 Aspose.PDF for .NET 调整 PDF 中的图像大小，非常适合创建专业文档和演示稿件。
 
 ### [使用 Aspose.PDF for .NET 掌握 PDF 中的图像放置](./optimize-image-placement-aspose-pdf-net/)
 学习使用 Aspose.PDF for .NET 优化 PDF 文档中的图像布局。通过实用指南提升文档质量和效率。

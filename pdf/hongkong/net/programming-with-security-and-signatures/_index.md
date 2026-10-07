@@ -46,7 +46,7 @@
 | [如何在 PDF 中讀取簽章 – 完整的 C# 指南](./how-to-read-signatures-in-a-pdf-complete-c-guide/) |深入了解如何使用 Aspose.PDF for .NET 在 C# 中完整讀取 PDF 簽章，提供詳細步驟與範例。 |
 | [如何在 C# 中驗證 PDF 簽章 – 完整指南](./how-to-verify-pdf-signatures-in-c-full-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中驗證 PDF 簽章的完整指南。 |  
 | [PDF 簽章教學 – 在 C# 中驗證 PDF 簽章](./pdf-signature-tutorial-verify-and-validate-pdf-signatures-in/) |了解如何使用 Aspose.PDF for .NET 在 C# 中驗證 PDF 簽章的完整步驟與範例。 |  
-| [如何在 C# 中驗證 PDF 簽章 – 完整指南](./how-to-verify-pdf-signature-in-c-complete-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中驗證 PDF 簽章的完整步驟與技巧。 |  
+| [如何在 C# 中驗證 PDF 簽章 – 完整指南](./how-to-verify-pdf-signature-in-c-complete-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中驗證 PDF 簽章的完整步驟與技巧。 |
 | [使用 Aspose.PDF 檢查 PDF 簽章有效性 – 完整 C# 指南](./check-pdf-signature-validity-with-aspose-pdf-complete-c-guid/) |了解如何使用 Aspose.PDF for .NET 在 C# 中檢查 PDF 簽章的有效性，完整步驟指南。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -80,6 +80,7 @@
 
 | [如何使用 Aspose 驗證 PDF 中的簽章 – C# 教學](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) |了解如何使用 Aspose.PDF for .NET 在 C# 中驗證 PDF 簽章，確保文件完整性與真實性。 |  
 | [在 C# 中驗證 PDF 簽章 – 完整程式設計指南](./verify-pdf-signature-in-c-complete-programming-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中完整驗證 PDF 簽章的步驟與技巧。 |
+| [如何在 C# 中使用 Aspose 驗證 PDF 簽章 – 完整指南](./how-to-validate-pdf-signatures-with-aspose-pdf-in-c/) |了解如何使用 Aspose.PDF for .NET 在 C# 中驗證 PDF 簽章的完整步驟與技巧。 |  
 | [如何修復 PDF 檔案 – 完整的 C# 指南（使用 Aspose.Pdf）](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) |了解如何使用 Aspose.PDF for .NET 修復受損的 PDF 檔案。逐步指南協助您恢復文件完整性。 |  
 | [使用 Aspose.Pdf 檢查 PDF 簽章 – 完整指南](./check-pdf-signatures-with-aspose-pdf-complete-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中檢查和驗證 PDF 簽章的完整步驟。 |  
 | [在 C# 中建立 PKCS7 分離簽署者 – 完整指南](./create-pkcs7-detached-signer-in-c-complete-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中建立 PKCS7 分離簽署，完整步驟指南。 |  
@@ -109,4 +110,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

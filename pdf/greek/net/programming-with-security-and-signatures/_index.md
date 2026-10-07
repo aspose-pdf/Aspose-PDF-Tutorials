@@ -55,6 +55,7 @@
 | [Επικύρωση υπογραφής PDF σε C# – Πλήρης οδηγός βήμα‑βήμα](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | Μάθετε πώς να επικυρώνετε ψηφιακές υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF, βήμα‑βήμα οδηγίες. |
 | [Πώς να διαβάσετε υπογραφές από PDF σε C# – Πλήρης οδηγός](./how-to-read-signatures-from-a-pdf-in-c-complete-guide/) | Μάθετε πώς να διαβάζετε ψηφιακές υπογραφές από αρχεία PDF χρησιμοποιώντας C# και Aspose.PDF. |
 | [Έλεγχος εγκυρότητας υπογραφής PDF με Aspose.PDF – Πλήρης οδηγός C#](./check-pdf-signature-validity-with-aspose-pdf-complete-c-guid/) | Μάθετε πώς να ελέγχετε την εγκυρότητα των ψηφιακών υπογραφών PDF με C# και Aspose.PDF. |  
+| [Πώς να επικυρώσετε υπογραφές PDF με Aspose.Pdf σε C#](./how-to-validate-pdf-signatures-with-aspose-pdf-in-c/) | Μάθετε πώς να επικυρώσετε ψηφιακές υπογραφές PDF χρησιμοποιώντας Aspose.Pdf σε C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -109,4 +110,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

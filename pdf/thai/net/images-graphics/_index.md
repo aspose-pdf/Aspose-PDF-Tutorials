@@ -177,6 +177,9 @@
 ### [วิธีตรวจสอบ PDF และเพิ่มสี่เหลี่ยม – คู่มือฉบับสมบูรณ์](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
 เรียนรู้วิธีตรวจสอบความถูกต้องของไฟล์ PDF และเพิ่มสี่เหลี่ยมลงในเอกสารด้วย Aspose.PDF สำหรับ .NET อย่างละเอียด
 
+### [เพิ่มกราฟิกสเตตใน PDF ด้วย Aspose.Pdf ใน C#](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+เรียนรู้วิธีจัดการสถานะกราฟิกใน PDF ด้วย Aspose.Pdf สำหรับ .NET ผ่านตัวอย่างโค้ด C#
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)

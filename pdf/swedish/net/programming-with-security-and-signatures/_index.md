@@ -55,7 +55,7 @@ Handledningen ger dig en detaljerad översikt över metoder och tekniker för at
 | [Hämta PDF-signaturnamn med Aspose.PDF i C#](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | Lär dig hur du extraherar namn på digitala signaturer från PDF-dokument med Aspose.PDF för .NET i C#. |
 | [Hur man läser signaturer från en PDF i C# – Komplett guide](./how-to-read-signatures-from-a-pdf-in-c-complete-guide/) | En komplett guide för att läsa signaturer från PDF-filer med Aspose.PDF för .NET i C#. |
 | [Kontrollera PDF-signaturens giltighet med Aspose.PDF – Komplett C#-guide](./check-pdf-signature-validity-with-aspose-pdf-complete-c-guid/) | Lär dig hur du kontrollerar giltigheten för PDF-signaturer med Aspose.PDF för .NET i en komplett C#-guide. |
-
+| [Hur du validerar PDF‑signaturer med Aspose.Pdf i C#](./how-to-validate-pdf-signatures-with-aspose-pdf-in-c/) | Lär dig hur du validerar PDF‑signaturer med Aspose.Pdf i C#. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -85,7 +85,7 @@ Handledningen ger dig en detaljerad översikt över metoder och tekniker för at
 
 {{< blocks/products/pf/tutorial-page-section >}}
 
-| [Verifiera PDF digital signatur i C# – Komplett guide](./verify-pdf-digital-signature-in-c-complete-guide/) | Lär dig hur du verifierar digitala signaturer i PDF-filer med Aspose.PDF för .NET i C#. En steg-för-steg-guide. |  
+| [Verifiera PDF digital signatur i C# – Komplett guide](./verify-pdf-digital-signature-in-c-complete-guide/) | Lär dig hur du verifierar digitala signaturer i PDF-filer med Aspose.PDF för .NET i C#. En steg‑för‑steg‑guide. |  
 | [Validera signaturer i PDF med Aspose – C#](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) | Lär dig hur du validerar digitala signaturer i PDF-dokument med Aspose.PDF för .NET i C#. |  
 | [Verifiera PDF-signatur i C# – Komplett programmeringsguide](./verify-pdf-signature-in-c-complete-programming-guide/) | Lär dig hur du verifierar PDF-signaturer i C# med Aspose.PDF för .NET i en komplett steg‑för‑steg‑guide. |
 | [Hur man reparerar PDF-filer – Komplett C#-guide med Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Lär dig steg för steg hur du reparerar skadade PDF-filer med Aspose.PDF i C#. |
@@ -109,4 +109,3 @@ Handledningen ger dig en detaljerad översikt över metoder och tekniker för at
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

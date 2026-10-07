@@ -116,7 +116,7 @@ Ismerje meg, hogyan javíthatja PDF-dokumentumait alfa átlátszóságú téglal
 Ismerje meg, hogyan törölhet hatékonyan képeket PDF fájlokból az Aspose.PDF for .NET segítségével. Ez az útmutató bemutatja a beállítást, a kódpéldákat és a bevált gyakorlatokat.
 
 ### [Képek törlése PDF-ből az Aspose.PDF .NET használatával: Lépésről lépésre útmutató](./delete-images-aspose-pdf-net-guide/)
-Tanulja meg, hogyan törölhet képeket PDF fájlokból az Aspose.PDF for .NET segítségével. Ez az átfogó útmutató a beállítást, a megvalósítást és a gyakorlati alkalmazásokat ismerteti.
+Tanulja meg, hogyan törölhet képeket PDF-ből az Aspose.PDF for .NET segítségével. Ez az átfogó útmutató a beállítást, a megvalósítást és a gyakorlati alkalmazásokat ismerteti.
 
 ### [Képek törlése PDF-ből az Aspose.PDF for .NET használatával: Átfogó útmutató](./delete-images-from-pdf-aspose-dotnet/)
 Ismerje meg, hogyan törölheti hatékonyan az összes képet egy PDF fájlból az Aspose.PDF for .NET segítségével, hogyan növelheti a fájlok adatvédelmét és csökkentheti a méretét. Kövesse ezt a lépésről lépésre szóló útmutatót.
@@ -174,6 +174,10 @@ Ismerje meg, hogyan javíthatja PDF-dokumentumait képhátterek beállításáva
 
 ### [Átlátszóság hozzáadása PDF-hez Aspose PDF használatával C#-ban – Lépésről lépésre útmutató](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Tanuld meg, hogyan adhat hozzá átlátszó elemeket PDF-dokumentumokhoz az Aspose.PDF for .NET segítségével C#-ban.
+
+### [Grafikai állapot hozzáadása PDF-hez Aspose.Pdf C#-ban](./add-graphics-state-pdf-with-aspose-pdf-in-c/)
+Tanuld meg, hogyan állíthatsz be grafikai állapotot PDF-dokumentumokban az Aspose.PDF for .NET segítségével C#-ban.
+
 ### [PDF validálása és téglalap hozzáadása – Teljes útmutató](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
 Tanulja meg, hogyan ellenőrizheti a PDF-et, és adhat hozzá téglalap alakzatot az Aspose.PDF for .NET segítségével.
 

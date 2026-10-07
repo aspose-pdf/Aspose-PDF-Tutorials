@@ -32,6 +32,9 @@ Aprenda a convertir archivos PDF a HTML con estrategias personalizadas usando As
 ### [Convertir PDF a HTML en C# – Guía rápida con Aspose.Pdf](./convert-pdf-to-html-in-c-quick-guide-with-aspose-pdf/)
 Aprenda a convertir archivos PDF a HTML rápidamente usando C# y Aspose.Pdf con ejemplos de código claros.
 
+### [Convertir PDF a HTML en C# – guía completa de programación](./convert-pdf-to-html-in-c-complete-programming-guide/)
+Aprenda a convertir archivos PDF a HTML en C# con una guía completa de programación usando Aspose.PDF.
+
 ### [Guía completa: Convertir PDF a TIFF con Aspose.PDF .NET para una conversión de documentos fluida](./convert-pdf-to-tiff-aspose-dotnet-guide/)
 Aprenda a convertir archivos PDF en imágenes TIFF de alta calidad de forma eficiente con Aspose.PDF para .NET. Siga esta guía paso a paso para optimizar su flujo de trabajo de procesamiento de documentos.
 
@@ -94,6 +97,7 @@ Aprenda a convertir documentos PDF a formato HTML utilizando Aspose.PDF para .NE
 
 ### [Guardar PDF como HTML usando Aspose.PDF – Guía completa en C#](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
 Aprenda a guardar archivos PDF como HTML con Aspose.PDF usando C# con esta guía completa.
+
 ### [Cómo exportar PDF a HTML en C# – Guía completa de Aspose](./how-to-export-pdf-to-html-in-c-complete-aspose-guide/)
 Aprenda a exportar documentos PDF a HTML usando C# y Aspose.PDF con esta guía paso a paso.
 
