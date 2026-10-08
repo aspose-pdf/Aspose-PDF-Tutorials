@@ -55,6 +55,7 @@ Aspose.PDF の .NET 向けチュートリアル「スタンプと透かしを使
 | [Aspose を使用した PDF へのベーツ番号付与 – 完全ガイド](./add-bates-numbering-to-pdfs-with-aspose-complete-guide/) Aspose.PDF for .NET を使用して PDF にベーツ番号を付与する方法をステップバイステップで解説します。 |  
 | [C# で PDF にベーツ番号を追加する方法 – 完全ガイド](./how-to-add-bates-numbering-in-pdf-with-c-complete-guide/) Aspose.PDF for .NET を使用し、C# で PDF にベーツ番号を追加する手順をステップバイステップで解説します。 |  
 | [AsposeでBates番号付けPDFを追加する完全ガイド](./add-bates-numbering-pdf-complete-guide-with-aspose/) Aspose.PDF for .NET を使用して、PDF に Bates 番号を付与する手順をステップバイステップで解説します。法務文書の管理に最適です。 |  
+| [C#でPDFにベーツ番号付与を追加する – 完全ステップバイステップガイド](./add-bates-numbering-to-pdf-in-c-complete-step-by-step-guide/) Aspose.PDF for .NET を使用して、C# で PDF にベーツ番号（ページ番号）を付与する方法をステップバイステップで解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

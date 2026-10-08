@@ -58,6 +58,8 @@ The tutorial gives you a detailed overview of methods and techniques to ensure t
 | [Validate PDF Signature in C# – Complete Step‑by‑Step Guide](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | Learn how to validate PDF signatures using Aspose.PDF for .NET in C#. Comprehensive step-by-step guide for developers. |
 | [How to Read Signatures from a PDF in C# – Complete Guide](./how-to-read-signatures-from-a-pdf-in-c-complete-guide/) | Learn how to read PDF signatures using Aspose.PDF for .NET in C#. Step-by-step guide for extracting and verifying digital signatures. |
 | [Check PDF Signature Validity with Aspose.PDF – Complete C# Guide](./check-pdf-signature-validity-with-aspose-pdf-complete-c-guid/) | Learn how to verify PDF signature validity using Aspose.PDF for .NET in a comprehensive C# guide. |  
+| [Verify Digital Signature PDF with Aspose.PDF – Complete C# Guide](./verify-digital-signature-pdf-with-aspose-pdf-complete-c-guid/) | Learn how to verify digital signatures in PDF files using Aspose.PDF for .NET. Follow this step-by-step C# guide. |  
+| [Verify PDF Signature with Aspose.PDF – Complete C# Guide](./verify-pdf-signature-with-aspose-pdf-complete-c-guide/) | Learn how to verify PDF signatures using Aspose.PDF for .NET. Follow this comprehensive C# guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

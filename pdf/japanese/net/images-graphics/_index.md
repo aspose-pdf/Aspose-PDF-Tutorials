@@ -119,6 +119,9 @@ Aspose.PDF for .NET を使用して、画像が埋め込まれたアクセシブ
 ### [Aspose.PDF for .NET を使用して PDF に透明な四角形を作成する方法](./create-transparent-rectangles-aspose-pdf-dotnet/)
 Aspose.PDF for .NET を使って、アルファ透過の四角形を作成し、PDF ドキュメントの魅力を高める方法を学びましょう。このステップバイステップのガイドに従ってください。
 
+### [Aspose.PDF を使用して C# で PDF に図形を追加する方法 – ステップバイステップ ガイド](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Aspose.PDF for .NET を使い、C# で PDF に矩形や円、ポリラインなどの図形を追加する手順をステップバイステップで解説します。
+
 ### [Aspose.PDF for .NET を使用して PDF ファイルから画像を削除する方法 - 完全ガイド](./delete-images-aspose-pdf-net/)
 Aspose.PDF for .NET を使用して、PDF ファイルから画像を効率的に削除する方法を学びましょう。このガイドでは、セットアップ、コード例、ベストプラクティスについて説明します。
 
@@ -159,7 +162,7 @@ Aspose.PDF for .NET を使用して、PDF のサイズ変更、圧縮、画質�
 Aspose.PDF for .NET を使用して、PDFからグラフィックを効率的に削除する方法を学びましょう。このステップバイステップガイドに従って、ドキュメントを整理し、ファイルサイズを最適化しましょう。
 
 ### [Aspose.PDF .NET を使用して PDF 内の画像を置換する方法: 開発者ガイド](./replace-images-pdf-aspose-net-guide/)
-Aspose.PDF for .NET を使用して、PDF ドキュメント内の画像を効率的に置き換える方法を学びましょう。この包括的な開発者ガイドで、ドキュメントの更新作業を効率化できます。
+Aspose.PDF for .NET を使用して、PDF ドキュメント内の画像を効率的に置換する方法を学びましょう。この包括的な開発者ガイドで、ドキュメントの更新作業を効率化できます。
 
 ### [Aspose.PDF for .NET を使用して PDF 内の画像を置換する方法: 完全ガイド](./replace-images-aspose-pdf-net-tutorial/)
 Aspose.PDF for .NET を使用して、PDF ドキュメント内の画像を効率的に置換する方法を学びましょう。この包括的なガイドでは、セットアップ、実装、そして実践的な応用方法を網羅しています。

@@ -77,7 +77,7 @@ Scopri come salvare rapidamente un PDF come HTML utilizzando Aspose.PDF in C# co
 ### [Converti PDF in HTML in .NET utilizzando Aspose.PDF senza salvare le immagini](./convert-pdf-html-net-asposepdf-no-images/)
 Scopri come convertire i file PDF in HTML utilizzando Aspose.PDF per .NET senza salvare le immagini separatamente. Mantieni l'integrità del layout con la nostra guida dettagliata.
 
-### [Converti PDF in HTML in .NET con percorsi immagine personalizzati utilizzando Aspose.PDF](./convert-pdf-html-custom-image-paths-dotnet/)
+### [Convertire PDF in HTML in .NET con percorsi immagine personalizzati utilizzando Aspose.PDF](./convert-pdf-html-custom-image-paths-dotnet/)
 Scopri come convertire i file PDF in formato HTML utilizzando Aspose.PDF per .NET e personalizzare i percorsi delle immagini in modo efficiente. Ideale per l'integrazione web.
 
 ### [Converti PDF in HTML con Aspose.PDF per .NET: conserva i font nei formati TTF e WOFF](./convert-pdf-html-aspose-net-truetype-woff/)
@@ -166,7 +166,7 @@ Scopri come ritagliare aree specifiche di una pagina PDF e convertirle in immagi
 Scopri come esportare in modo efficiente i dati dalle applicazioni in PDF utilizzando Aspose.PDF per .NET. Questa guida illustra la configurazione, esempi di codice in C# e le funzionalità principali.
 
 ### [Esportare annotazioni PDF con Aspose.PDF .NET: una guida completa](./export-annotations-aspose-pdf-net/)
-Scopri come esportare in modo efficiente annotazioni da PDF utilizzando Aspose.PDF per .NET. Questa guida illustra configurazione, implementazione e best practice.
+Scopri come esportare in modo efficiente annotazioni da PDF utilizzando Aspose.PDF .NET. Questa guida illustra configurazione, implementazione e best practice.
 
 ### [Esportare dati PDF in XML con Aspose.PDF per .NET: una guida passo passo](./export-pdf-data-to-xml-aspose-dotnet-guide/)
 Scopri come esportare in modo efficiente i dati dei moduli PDF in XML strutturato utilizzando Aspose.PDF per .NET, una potente libreria progettata per la manipolazione dei PDF.
@@ -271,6 +271,11 @@ Scopri come esportare la prima pagina di un PDF in PNG a 300 DPI utilizzando Asp
 Scopri come convertire PDF in HTML e verificare le firme PDF con Aspose.PDF per .NET, con esempi di codice dettagliati.
 ### [Come esportare PDF in HTML con C# – Guida completa Aspose](./how-to-export-pdf-to-html-in-c-complete-aspose-guide/)
 Scopri come esportare PDF in HTML utilizzando Aspose.PDF per .NET con C#, con esempi di codice e suggerimenti pratici.
+### [Converti docx in html in C# – Guida completa alla programmazione](./convert-docx-to-html-in-c-complete-programming-guide/)
+Scopri come convertire file DOCX in HTML utilizzando C# e Aspose.PDF per .NET con esempi di codice dettagliati.
+
+### [Convertire PDF in HTML in C# – Guida completa passo‑passo](./convert-pdf-to-html-in-c-full-step-by-step-guide/)
+Scopri come convertire PDF in HTML utilizzando C# con Aspose.PDF, seguendo una guida dettagliata passo dopo passo.
 
 ## Risorse aggiuntive
 

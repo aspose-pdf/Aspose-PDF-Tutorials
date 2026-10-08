@@ -56,6 +56,7 @@ Estos tutoriales también ofrecen ejemplos de código detallados, explicaciones 
 | [Crear PDF con Aspose – Añadir campo de cuadro de texto](./create-pdf-document-with-aspose-add-text-box-field/) Aprenda a crear un documento PDF y añadir un campo de cuadro de texto usando Aspose.PDF para .NET en esta guía paso a paso.  
 | [Crear documento PDF C# – Guía paso a paso para formularios multipágina](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) Aprenda a crear documentos PDF multipágina con formularios usando Aspose.PDF para .NET en C#. Guía paso a paso.  
 | [Crear formulario multipágina en C# con Aspose.Pdf – Guía paso a paso](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) Aprenda a crear un formulario PDF de varias páginas en C# usando Aspose.Pdf con esta guía paso a paso.  
+| [Agregar cuadro de texto a formulario PDF – Guía completa en C#](./add-text-box-to-pdf-form-complete-c-guide/) Aprenda a añadir y configurar cuadros de texto en formularios PDF usando Aspose.PDF para .NET con C#.  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -175,6 +175,11 @@ Master Aspose.PDF για .NET για απρόσκοπτη μετατροπή δ�
 
 ### [Αποθήκευση PDF ως HTML χρησιμοποιώντας το Aspose.PDF – Πλήρης οδηγός C#](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
 Μάθετε πώς να αποθηκεύετε PDF ως HTML με το Aspose.PDF σε C#, βήμα-βήμα οδηγίες.
+### [Μετατροπή PDF σε HTML με το Aspose.PDF για .NET: Ένας πλήρης οδηγός](./aspose-pdf-net-pdf-to-html-conversion/)
+Μάθετε πώς να μετατρέπετε PDF σε HTML χρησιμοποιώντας το Aspose.PDF για .NET. Βελτιώστε την προσβασιμότητα και την αλληλεπίδραση των εγγράφων με προσαρμόσιμες επιλογές.
+
+### [Μετατροπή PDF σε HTML σε C# – Πλήρης Οδηγός Βήμα‑Βήμα](./convert-pdf-to-html-in-c-full-step-by-step-guide/)
+Μάθετε πώς να μετατρέπετε PDF σε HTML χρησιμοποιώντας C# με πλήρη βήμα‑βήμα οδηγίες.
 
 ### [Μετατροπή PDF σε HTML με το Aspose.PDF για .NET](./pdf-to-html-conversion-aspose-dot-net/)
 Ένα σεμινάριο κώδικα για το Aspose.PDF Net
@@ -187,9 +192,6 @@ Master Aspose.PDF για .NET για απρόσκοπτη μετατροπή δ�
 
 ### [Αποθήκευση PDF ως HTML με C# – Πλήρης οδηγός βήμα προς βήμα](./save-pdf-as-html-with-c-complete-step-by-step-guide/)
 Μάθετε πώς να αποθηκεύσετε αρχεία PDF ως HTML χρησιμοποιώντας C# με αναλυτικές οδηγίες βήμα προς βήμα.
-
-### [Μετατροπή PDF σε HTML με το Aspose.PDF .NET: Ένας πλήρης οδηγός](./aspose-pdf-net-pdf-to-html-conversion/)
-Μετατρέψτε PDF σε HTML χρησιμοποιώντας το Aspose.PDF για .NET. Βελτιώστε την προσβασιμότητα και την αλληλεπίδραση των εγγράφων με προσαρμόσιμες επιλογές.
 
 ### [Convert PDF to HTML in C# – Quick Guide with Aspose.Pdf](./convert-pdf-to-html-in-c-quick-guide-with-aspose-pdf/)
 Μάθετε πώς να μετατρέπετε γρήγορα αρχεία PDF σε HTML χρησιμοποιώντας C# και Aspose.Pdf με αυτόν τον σύντομο οδηγό.
@@ -204,6 +206,9 @@ Master Aspose.PDF για .NET για απρόσκοπτη μετατροπή δ�
 Μάθετε πώς να αποθηκεύσετε ένα PDF ως PNG και στη συνέχεια να το μετατρέψετε σε συμβατό PDF/X‑1a χρησιμοποιώντας το Aspose PDF.
 ### [πώς να αποθηκεύσετε HTML από PDF – Οδηγός βήμα προς βήμα](./how-to-save-html-from-pdf-step-by-step-guide/)
 Μάθετε πώς να εξάγετε HTML από αρχεία PDF με αναλυτικές οδηγίες βήμα προς βήμα.
+
+### [Μετατροπή docx σε html σε C# – Πλήρης Προγραμματιστικός Οδηγός](./convert-docx-to-html-in-c-complete-programming-guide/)
+Μάθετε πώς να μετατρέπετε αρχεία docx σε HTML χρησιμοποιώντας C# και Aspose.PDF με πλήρη παραδείγματα κώδικα.
 
 ## Πρόσθετοι Πόροι
 

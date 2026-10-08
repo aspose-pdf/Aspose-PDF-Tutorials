@@ -272,6 +272,10 @@ Aspose-PDF Net 代码教程
 
 ### [使用 C# 将 PDF 保存为 HTML – 完整分步指南](./save-pdf-as-html-with-c-complete-step-by-step-guide/)
 学习如何使用 C# 将 PDF 文档转换并保存为 HTML，保持布局、样式和交互性，提供完整代码示例和最佳实践。
+### [使用 Aspose.PDF .NET 将 DOCX 转换为 HTML – 完整编程指南](./convert-docx-to-html-in-c-complete-programming-guide/)
+
+### [在 C# 中将 PDF 转换为 HTML – 完整分步指南](./convert-pdf-to-html-in-c-full-step-by-step-guide/)
+学习如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 文档转换为 HTML，提供完整的代码示例和步骤说明。
 
 ## 其他资源
 

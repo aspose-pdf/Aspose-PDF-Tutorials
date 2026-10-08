@@ -50,6 +50,7 @@ tutorial "Programmazione con PDF con tag" di Aspose.PDF per .NET ti guideranno n
 | [Crea PDF con tag in C# – Guida passo passo](./create-tagged-pdf-in-c-step-by-step-guide/) | Impara a creare PDF con tag in C# usando Aspose.PDF per .NET con una guida passo passo per garantire l'accessibilità. |
 | [Crea documento PDF C# – Guida completa con testo taggato e posizionamento](./create-pdf-document-c-full-guide-with-tagged-text-and-positi/) | Impara a creare un documento PDF in C# con testo taggato e posizionamento preciso usando Aspose.PDF per .NET. |
 | [Crea intervallo di testo accessibile in PDF con Aspose: Guida completa C#](./create-accessible-text-span-in-pdf-with-aspose-full-c-guide/) | Impara a creare un intervallo di testo accessibile in PDF usando Aspose.PDF per .NET con una guida passo passo in C#. |  
+| [Come modificare PDF con tag usando Aspose.Pdf – Guida completa](./how-to-edit-tagged-pdf-with-aspose-pdf-complete-guide/) | Scopri come modificare PDF taggati con Aspose.Pdf per .NET, passo passo, per migliorare l'accessibilità e la struttura dei documenti. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -55,6 +55,7 @@ Aspose.PDF for .NET 的“使用标签 PDF 进行编程”教程将指导您如�
 | [创建 PDF 文档 – 为标记文本设置绝对位置](./create-pdf-document-set-absolute-position-for-tagged-text/) 通过本分步教程，学习如何使用 Aspose.PDF for .NET 在 PDF 中为标记文本设置绝对位置。|  
 | [在 C# 中创建 PDF 文档 – 完整指南（带标签文本和定位）](./create-pdf-document-c-full-guide-with-tagged-text-and-positi/) 通过本完整分步指南，学习在 C# 使用 Aspose.PDF for .NET 创建带标签文本并进行精确定位的 PDF 文档。|  
 | [在 PDF 中创建可访问文本跨度 – Aspose 完整 C# 指南](./create-accessible-text-span-in-pdf-with-aspose-full-c-guide/) 通过本完整的 C# 分步指南，学习使用 Aspose.PDF for .NET 在 PDF 中创建可访问的文本跨度，提高文档可访问性。|  
+| [如何使用 Aspose.Pdf 编辑带标签的 PDF – 完整指南](./how-to-edit-tagged-pdf-with-aspose-pdf-complete-guide/) | 通过本完整分步指南，学习如何使用 Aspose.Pdf 在 .NET 中编辑带标签的 PDF，实现内容修改和合规性检查。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -52,6 +52,8 @@ Aspose.PDF Net에 대한 코드 튜토리얼
 
 ### [C#에서 Aspose PDF를 사용하여 PDF에 투명도 추가: 단계별 가이드](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Aspose.PDF for .NET을 사용해 PDF에 투명 효과를 적용하는 방법을 단계별로 안내합니다.
+### [C#에서 Aspose.PDF를 사용하여 PDF에 도형 추가하기 – 단계별 가이드](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+C#에서 Aspose.PDF를 사용하여 PDF에 도형을 추가하는 방법을 단계별로 안내합니다.
 
 ### [.NET용 Aspose.PDF를 사용한 효율적인 PDF 이미지 식별](./master-image-identification-aspose-pdf-net/)
 Aspose.PDF for .NET을 사용하여 PDF에서 회색조 및 RGB 이미지를 식별하는 방법을 알아보세요. 이 튜토리얼에서는 설치, 이미지 추출 및 성능 향상 팁을 다룹니다.
@@ -71,7 +73,7 @@ Aspose.PDF for .NET을 사용하여 PDF 서명에 포함된 이미지를 추출�
 ### [Aspose.PDF for .NET을 사용하여 PDF에서 이미지 추출](./extract-images-pdfs-aspose-pdf-net/)
 Aspose.PDF Net에 대한 코드 튜토리얼
 
-### [Aspose.PDF .NET을 사용한 PDF의 빠른 이미지 축소: 이미지를 효율적으로 최적화하고 압축](./optimize-pdf-images-aspose-net-fast-compression/)
+### [Aspose.PDF .NET을 사용하여 PDF의 빠른 이미지 축소: 이미지를 효율적으로 최적화하고 압축](./optimize-pdf-images-aspose-net-fast-compression/)
 Aspose.PDF for .NET을 사용하여 PDF 파일 내 이미지를 축소하는 방법을 알아보세요. 파일 크기는 줄이면서 품질은 유지합니다. 빠른 로딩과 효율적인 저장에 적합합니다.
 
 ### [C#에서 Aspose.PDF .NET을 사용하여 PDF에 이미지 바닥글을 추가하는 방법](./aspose-pdf-net-add-image-footers-pdfs/)

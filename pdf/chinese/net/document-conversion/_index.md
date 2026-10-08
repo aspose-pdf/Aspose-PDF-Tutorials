@@ -97,6 +97,8 @@
 | [Aspose PDF 教程：在 C# 中加载并将 PDF 转换为 PDF/X‑4](./aspose-pdf-tutorial-load-and-convert-pdfs-to-pdf-x-4-in-c/) | 通过本分步指南了解如何使用 Aspose.PDF for .NET 在 C# 中加载 PDF 并将其转换为 PDF/X‑4。|  
 | [将 PDF 转换为 PDF/X-1a – 完整分步指南](./convert-pdf-to-pdf-x-1a-full-step-by-step-guide/) | 通过本分步指南了解如何使用 Aspose.PDF for .NET 将 PDF 转换为符合 PDF/X‑1a 标准的 PDF。|  
 | [将 PDF 转换为 2.0 – 完整 ASP.NET 指南及错误日志记录](./convert-pdf-to-2-0-full-asp-net-guide-with-error-logging/) | 通过本分步指南了解如何使用 Aspose.PDF for .NET 在 ASP.NET 中将 PDF 转换为 PDF 2.0，并实现错误日志记录。|
+| [Aspose PDF 转换教程 – 将 PDF 转换为 PDF/X‑4 步骤详解](./aspose-pdf-conversion-tutorial-convert-pdfs-to-pdf-x-4-step/) | 通过本分步指南学习如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 转换为 PDF/X‑4，适用于 ASP.NET 项目。|
+| [加载 PDF 文档并转换为 PDF/X‑4 – 完整指南](./load-pdf-document-and-convert-to-pdf-x-4-complete-guide/) | 通过本分步教程了解如何使用 Aspose.PDF for .NET 加载 PDF 文档并将其转换为 PDF/X‑4 格式。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

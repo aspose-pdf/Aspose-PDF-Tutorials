@@ -71,7 +71,7 @@ Dowiedz się, jak konwertować pliki PDF do HTML za pomocą Aspose.PDF dla .NET 
 ### [Konwertuj PDF do HTML w .NET ze ścieżkami obrazów niestandardowych za pomocą Aspose.PDF](./convert-pdf-html-custom-image-paths-dotnet/)
 Dowiedz się, jak konwertować pliki PDF do formatu HTML za pomocą Aspose.PDF dla .NET i wydajnie dostosowywać ścieżki obrazów. Idealne do integracji z siecią.
 
-### [Konwertuj PDF do HTML za pomocą Aspose.PDF dla .NET: Zachowaj czcionki w formatach TTF i WOFF](./convert-pdf-html-aspose-net-truetype-woff/)
+### [Konwertuj PDF do HTML w .NET za pomocą Aspose.PDF: Zachowaj czcionki w formatach TTF i WOFF](./convert-pdf-html-aspose-net-truetype-woff/)
 Dowiedz się, jak konwertować pliki PDF do HTML za pomocą Aspose.PDF dla .NET, zachowując jednocześnie czcionki w TrueType (TTF) i Web Open Font Format (WOFF). Przewodnik krok po kroku z przykładami kodu.
 
 ### [Konwertuj PDF do HTML z niestandardowymi wymiarami za pomocą Aspose.PDF](./convert-pdf-html-custom-dimensions-asposepdf-net/)
@@ -116,6 +116,8 @@ Dowiedz się, jak bezproblemowo konwertować pliki PDF do formatów DOC i DOCX z
 
 ### [Jak wyeksportować DOCX – Przewodnik krok po kroku dla programistów C#](./how-to-export-docx-step-by-step-guide-for-c-developers/)
 Dowiedz się, jak wyeksportować dokumenty DOCX przy użyciu Aspose.PDF w C#, krok po kroku, z praktycznymi przykładami.
+### [Konwertuj docx do HTML w C# – Kompletny przewodnik programistyczny](./convert-docx-to-html-in-c-complete-programming-guide/)
+Dowiedz się, jak konwertować pliki DOCX do HTML w C# przy użyciu Aspose.PDF, z praktycznymi przykładami kodu.
 
 ### [Konwersja PDF do XML przy użyciu Aspose.PDF dla .NET: Przewodnik krok po kroku](./convert-pdf-to-xml-aspose-pdf-net/)
 Dowiedz się, jak konwertować pliki PDF do formatu XML za pomocą Aspose.PDF dla platformy .NET. Ulepsz integrację i możliwości przetwarzania danych.
@@ -272,6 +274,8 @@ Dowiedz się, jak konwertować PDF do HTML i weryfikować podpisy PDF przy użyc
 Dowiedz się, jak wyodrębnić i zapisać zawartość HTML z pliku PDF przy użyciu Aspose.PDF dla .NET w kilku prostych krokach.
 ### [Jak renderować PDF do PNG przy użyciu Aspose – Kompletny przewodnik](./how-to-render-pdf-to-png-with-aspose-complete-guide/)
 Dowiedz się, jak konwertować pliki PDF na obrazy PNG przy użyciu Aspose, krok po kroku, z przykładami kodu C#.
+### [Konwertuj PDF do HTML w C# – Kompletny przewodnik krok po kroku](./convert-pdf-to-html-in-c-full-step-by-step-guide/)
+Dowiedz się, jak konwertować pliki PDF do HTML w C# przy użyciu Aspose.PDF, krok po kroku, z praktycznymi przykładami kodu.
 
 ## Dodatkowe zasoby
 

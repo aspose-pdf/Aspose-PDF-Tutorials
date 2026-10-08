@@ -57,6 +57,8 @@ Az oktatóanyag részletes áttekintést nyújt a PDF-fájlok titkosságának é
 | [PDF aláírásnevek lekérése Aspose.PDF használatával C#-ban](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | Ismerje meg, hogyan kérheti le a PDF aláírások neveit C#-ban az Aspose.PDF segítségével. |
 | [PDF aláírás ellenőrzése C#‑ban – Teljes lépésről‑lépésre útmutató](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | Ismerje meg, hogyan ellenőrizheti a PDF aláírásokat C#‑ban az Aspose.PDF for .NET segítségével, részletes lépésről‑lépésre útmutatóban. |
 | [Hogyan olvassuk be a PDF aláírásait C#-ban – Teljes útmutató](./how-to-read-signatures-from-a-pdf-in-c-complete-guide/) | Ismerje meg, hogyan olvashatja be a PDF dokumentumok digitális aláírásait C#-ban az Aspose.PDF for .NET segítségével. |
+| [PDF digitális aláírás ellenőrzése Aspose.PDF használatával – Teljes C# útmutató](./verify-digital-signature-pdf-with-aspose-pdf-complete-c-guid/) | Ismerje meg, hogyan ellenőrizheti a PDF digitális aláírásait C#-ban az Aspose.PDF segítségével. |
+| [PDF aláírás ellenőrzése Aspose.PDF használatával – Teljes C# útmutató](./verify-pdf-signature-with-aspose-pdf-complete-c-guide/) | Ismerje meg, hogyan ellenőrizheti a PDF digitális aláírásait C#-ban az Aspose.PDF segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

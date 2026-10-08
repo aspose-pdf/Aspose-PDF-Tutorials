@@ -33,6 +33,8 @@ You'll learn how to specify conversion settings, extract text and images, retain
 | [How to Convert PDF to PDF/X‑4 in C# with Aspose PDF](./how-to-convert-pdf-to-pdf-x-4-in-c-with-aspose-pdf/) | Learn how to convert PDF to PDF/X‑4 in C# using Aspose.PDF for .NET with this step‑by‑step guide. |
 | [Aspose PDF Conversion in C# – Convert PDF to PDF/X‑4](./aspose-pdf-conversion-in-c-convert-pdf-to-pdf-x-4/) | Learn how to convert PDF to PDF/X‑4 using Aspose.PDF for .NET in C# with a concise step‑by‑step guide. |
 | [pdf format conversion tutorial – Convert PDF to PDF/X‑4 with Aspose in C#](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-with-a/) | Learn how to convert PDF to PDF/X‑4 using Aspose.PDF for .NET in C# with a step‑by‑step tutorial. |
+| [Aspose PDF Conversion Tutorial – Convert PDFs to PDF/X‑4 Step‑by‑Step](./aspose-pdf-conversion-tutorial-convert-pdfs-to-pdf-x-4-step/) | Learn how to convert PDFs to PDF/X‑4 using Aspose.PDF for .NET in this step‑by‑step tutorial. |
+| [Load PDF Document and Convert to PDF/X‑4 – Complete Guide](./load-pdf-document-and-convert-to-pdf-x-4-complete-guide/) | Learn how to load a PDF document and convert it to PDF/X‑4 using Aspose.PDF for .NET in a comprehensive step‑by‑step guide. |
 | [EPUB To PDF](./epub-to-pdf/) | Learn how to convert EPUB to PDF using Aspose.PDF for .NET with this step-by-step guide. Easy, efficient, and perfect for all users. |  
 | [Get SVG Dimensions](./get-svg-dimensions/) | Learn how to use Aspose.PDF for .NET to convert SVG files to PDF with this step-by-step guide. Perfect for developers looking to manipulate PDFs. |  
 | [HTML To PDF](./html-to-pdf/) | Learn how to convert HTML to PDF using Aspose.PDF for .NET with this comprehensive step‑by‑step guide. |

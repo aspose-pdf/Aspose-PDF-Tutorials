@@ -275,6 +275,10 @@
 เรียนรู้วิธีแปลงไฟล์ PDF เป็น HTML อย่างละเอียดด้วย C# และ Aspose.PDF .NET พร้อมตัวอย่างโค้ดและเคล็ดลับการปรับแต่ง
 
 
+### [แปลง docx เป็น html ใน C# – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./convert-docx-to-html-in-c-complete-programming-guide/)
+
+### [แปลง PDF เป็น HTML ใน C# – คู่มือเต็มขั้นตอน](./convert-pdf-to-html-in-c-full-step-by-step-guide/)
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)

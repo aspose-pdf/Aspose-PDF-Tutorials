@@ -57,6 +57,7 @@
 | [Добавить нумерацию Бейтса в PDF с Aspose – Полное руководство](./add-bates-numbering-to-pdfs-with-aspose-complete-guide/) | Узнайте, как добавить нумерацию Бейтса в PDF-файлы с помощью Aspose.PDF для .NET в этом полном руководстве. |  
 | [Как добавить нумерацию Бейтса в PDF с помощью C# – Полное руководство](./how-to-add-bates-numbering-in-pdf-with-c-complete-guide/) | Узнайте, как добавить нумерацию Бейтса в PDF с помощью Aspose.PDF для .NET и C# в этом полном пошаговом руководстве. |
 | [Добавить нумерацию Бейтса в PDF – Полное руководство с Aspose](./add-bates-numbering-pdf-complete-guide-with-aspose/) Узнайте, как добавить нумерацию Бейтса в PDF-файлы с помощью Aspose.PDF для .NET в этом полном пошаговом руководстве. |  
+| [Добавить нумерацию Бейтса в PDF на C# – Полное пошаговое руководство](./add-bates-numbering-to-pdf-in-c-complete-step-by-step-guide/) | Узнайте, как добавить нумерацию Бейтса в PDF с помощью Aspose.PDF для .NET, следуя подробному пошаговому руководству. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

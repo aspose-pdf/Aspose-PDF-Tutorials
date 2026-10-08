@@ -56,6 +56,7 @@ Deze tutorials bieden ook gedetailleerde codevoorbeelden, duidelijke uitleg en i
 | [PDF maken met pagina's en tekstvakvelden – volledige C#-handleiding](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Leer hoe u met Aspose.PDF voor .NET een PDF maakt met meerdere pagina's en tekstvakvelden in een volledige C#-stapsgewijze tutorial. |  
 | [PDF-document maken C# – Stapsgewijze handleiding voor meerpaginaformulieren](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Leer hoe u met Aspose.PDF voor .NET een meerpagina PDF-formulier maakt in C#. |  
 | [Meervoudig pagina-formulier maken in C# met Aspose.Pdf – Stapsgewijze handleiding](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | Leer hoe u een meervoudig-pagina PDF‑formulier maakt in C# met Aspose.PDF, stap voor stap. |  
+| [Tekstvak toevoegen aan PDF-formulier – Complete C#-gids](./add-text-box-to-pdf-form-complete-c-guide/) | Leer hoe u een tekstvak toevoegt aan een PDF-formulier met Aspose.PDF voor .NET in deze stapsgewijze C#-handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

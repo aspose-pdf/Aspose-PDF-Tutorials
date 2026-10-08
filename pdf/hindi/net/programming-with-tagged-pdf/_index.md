@@ -50,6 +50,7 @@ Aspose.PDF for .NET के "टैग किए गए PDF के साथ प�
 | [C# में टैग्ड PDF बनाएं – Aspose PDF पूर्ण गाइड](./create-tagged-pdf-in-c-aspose-pdf-complete-guide/) | Aspose.PDF for .NET का उपयोग करके C# में टैग्ड PDF बनाने की पूरी मार्गदर्शिका। |
 | [C# में टैग्ड PDF बनाएं – चरण‑दर‑चरण गाइड](./create-tagged-pdf-in-c-step-by-step-guide/) | C# के लिए Aspose.PDF का उपयोग करके टैग्ड PDF बनाने की विस्तृत चरण‑दर‑चरण मार्गदर्शिका। |  
 | [Aspose के साथ PDF में एक्सेसिबल टेक्स्ट स्पैन बनाएं – पूर्ण C# गाइड](./create-accessible-text-span-in-pdf-with-aspose-full-c-guide/) | C# में Aspose का उपयोग करके PDF में एक्सेसिबल टेक्स्ट स्पैन बनाने की पूरी चरण-दर-चरण गाइड। |
+| [Aspose.Pdf के साथ टैग्ड PDF को संपादित करने की पूरी गाइड](./how-to-edit-tagged-pdf-with-aspose-pdf-complete-guide/) | Aspose.Pdf का उपयोग करके टैग्ड PDF को संपादित करने के सभी चरणों को सीखें, जिसमें टेक्स्ट, छवियों और संरचना तत्वों का प्रबंधन शामिल है। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

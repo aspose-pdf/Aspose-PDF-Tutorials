@@ -57,6 +57,7 @@ Aspose.PDFs handledningar "Programmering med stämplar och vattenstämplar" för
 | [Lägg till Bates-numrering i PDF-filer med C# – Komplett guide](./add-bates-numbering-to-pdfs-with-c-complete-guide/) Lär dig hur du implementerar Bates-numrering i PDF-dokument med Aspose.PDF för .NET och C# i en steg-för-steg-guide. |  
 | [Hur man lägger till Bates-nummerering i PDF med C# – Komplett guide](./how-to-add-bates-numbering-in-pdf-with-c-complete-guide/) | Lär dig hur du implementerar Bates-nummerering i PDF-dokument med Aspose.PDF för .NET i C#. |
 | [Lägg till Bates-nummerering i PDF – Komplett guide med Aspose](./add-bates-numbering-pdf-complete-guide-with-aspose/) | Lär dig hur du lägger till Bates-nummerering i PDF-filer med Aspose.PDF för .NET i en steg-för-steg-guide. |  
+| [Lägg till Bates-nummerering i PDF i C# – Komplett steg‑för‑steg‑guide](./add-bates-numbering-to-pdf-in-c-complete-step-by-step-guide/) | Lär dig hur du lägger till Bates‑nummerering i PDF‑dokument med Aspose.PDF för .NET i en komplett steg‑för‑steg‑guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

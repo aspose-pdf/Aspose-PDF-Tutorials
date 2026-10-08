@@ -77,6 +77,8 @@ Aspose.PDF の .NET 向けドキュメント変換チュートリアルでは、
 | [Aspose PDF チュートリアル: C# で PDF を読み込み PDF/X‑4 に変換](./aspose-pdf-tutorial-load-and-convert-pdfs-to-pdf-x-4-in-c/) このステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して C# で PDF を読み込み、PDF/X‑4 に変換する方法を学びます。 |
 | [PDF を PDF/X‑1a に変換 – 完全ステップバイステップ ガイド](./convert-pdf-to-pdf-x-1a-full-step-by-step-guide/) Aspose.PDF for .NET を使用して PDF を PDF/X‑1a 形式に変換する方法をステップバイステップで解説します。 |
 | [PDF を 2.0 に変換 – エラーログ付きフル ASP.NET ガイド](./convert-pdf-to-2-0-full-asp-net-guide-with-error-logging/) Aspose.PDF for .NET を使用し、PDF を 2.0 形式に変換し、エラーロギングを実装する完全な ASP.NET 手順を解説します。 |
+| [Aspose PDF 変換チュートリアル – PDF を PDF/X‑4 に変換するステップバイステップ](./aspose-pdf-conversion-tutorial-convert-pdfs-to-pdf-x-4-step/) このステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF を PDF/X‑4 形式に変換する方法を学びます。 |
+| [PDFドキュメントの読み込みとPDF/X‑4への変換 – 完全ガイド](./load-pdf-document-and-convert-to-pdf-x-4-complete-guide/) Aspose.PDF for .NET を使用して PDF ドキュメントを読み込み、PDF/X‑4 形式に変換する方法をステップバイステップで解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

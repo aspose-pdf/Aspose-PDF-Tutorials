@@ -55,6 +55,8 @@ Samouczek zapewnia szczegółowy przegląd metod i technik zapewniających poufn
 | [Pobierz nazwy podpisów PDF za pomocą Aspose.PDF w C#](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | Dowiedz się, jak wyodrębnić nazwy podpisów PDF przy użyciu Aspose.PDF w C#. |  
 | [Jak odczytać podpisy z pliku PDF w C# – Kompletny przewodnik](./how-to-read-signatures-from-a-pdf-in-c-complete-guide/) | Dowiedz się, jak odczytywać podpisy cyfrowe z dokumentów PDF w C# przy użyciu Aspose.PDF – krok po kroku. |  
 | [Sprawdź ważność podpisu PDF za pomocą Aspose.PDF – Kompletny przewodnik C#](./check-pdf-signature-validity-with-aspose-pdf-complete-c-guid/) | Dowiedz się, jak weryfikować ważność podpisów PDF w C# przy użyciu Aspose.PDF – krok po kroku. |  
+| [Sprawdź podpis cyfrowy PDF za pomocą Aspose.PDF – Kompletny przewodnik C#](./verify-digital-signature-pdf-with-aspose-pdf-complete-c-guid/) | Dowiedz się, jak weryfikować podpisy cyfrowe w plikach PDF przy użyciu Aspose.PDF w C# – kompletny przewodnik krok po kroku. |  
+| [Sprawdź podpis PDF za pomocą Aspose.PDF – Kompletny przewodnik C#](./verify-pdf-signature-with-aspose-pdf-complete-c-guide/) | Dowiedz się, jak weryfikować podpisy PDF przy użyciu Aspose.PDF w C# – kompletny przewodnik krok po kroku. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -44,6 +44,9 @@ Aprenda a convertir hojas de cálculo de Excel en tablas PDF de forma eficiente 
 ### [Convertir HTML a PDF en C# usando Aspose.PDF: una guía completa](./convert-html-pdf-aspose-pdf-net-csharp/)
 Aprenda a convertir contenido HTML en archivos PDF profesionales con Aspose.PDF para .NET y C#. Esta guía abarca las solicitudes HTTP autenticadas, los procesos de conversión y la configuración de credenciales.
 
+### [Convertir docx a html en C# – Guía completa de programación](./convert-docx-to-html-in-c-complete-programming-guide/)
+Aprenda a convertir archivos DOCX a HTML usando C# y Aspose.PDF con ejemplos paso a paso.
+
 ### [Convertir Markdown a PDF en .NET con Aspose.PDF: una guía completa](./convert-markdown-pdf-aspose-net-tutorial/)
 Aprenda a convertir archivos Markdown a PDF con Aspose.PDF para .NET. Siga esta guía paso a paso para integrar la conversión de documentos en sus aplicaciones.
 
@@ -229,6 +232,9 @@ Aprenda a convertir archivos PDF al formato XPS con Aspose.PDF para .NET. Siga n
 
 ### [Convertir páginas web a PDF con Aspose.PDF .NET: una guía completa](./convert-web-pages-to-pdf-aspose-pdf-net/)
 Aprenda a convertir páginas web a PDF con Aspose.PDF para .NET con este tutorial paso a paso. Ideal para la gestión de documentos y el acceso sin conexión.
+
+### [Convertir PDF a HTML en C# – Guía completa paso a paso](./convert-pdf-to-html-in-c-full-step-by-step-guide/)
+Aprenda a convertir PDF a HTML en C# con Aspose.PDF siguiendo una guía paso a paso.
 
 ### [Cómo seguir el progreso de la conversión de PDF con Aspose.PDF para .NET: guía paso a paso](./track-pdf-conversion-progress-aspose-dotnet/)
 Aprenda a supervisar eficientemente el progreso de la conversión de PDF con Aspose.PDF para .NET. Siga esta guía paso a paso para optimizar los flujos de trabajo de documentos y mejorar la experiencia de los usuarios.

@@ -54,6 +54,8 @@ Ein Code-Tutorial für Aspose.PDF Net
 
 ### [Transparenz zu PDF mit Aspose PDF in C# hinzufügen – Schritt‑für‑Schritt‑Anleitung](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET Transparenz in PDF-Dokumenten hinzufügen und anpassen – eine praktische Schritt‑für‑Schritt‑Anleitung.
+### [Wie man Formen zu PDF mit Aspose.PDF in C# hinzufügt – Schritt‑für‑Schritt‑Anleitung](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# Formen zu PDFs hinzufügen und anpassen.
 
 ### [Effiziente PDF-Bildidentifizierung mit Aspose.PDF für .NET](./master-image-identification-aspose-pdf-net/)
 Erfahren Sie, wie Sie Graustufen- und RGB-Bilder in PDFs mit Aspose.PDF für .NET identifizieren. Dieses Tutorial behandelt Installation, Bildextraktion und Performance-Tipps.
@@ -88,7 +90,7 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET nahtlos Bilder zu Ihren PDF-Dokum
 ### [So fügen Sie mit Aspose.PDF für .NET Bilder zu PDFs hinzu: Eine vollständige Anleitung](./add-images-to-pdfs-using-aspose-pdf-net/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET nahtlos Bilder zu Ihren PDF-Dokumenten hinzufügen. Diese Schritt-für-Schritt-Anleitung behandelt Einrichtung, Implementierung und praktische Anwendungen.
 
-### [So fügen Sie mit Aspose.PDF für .NET Bilder zu PDFs hinzu: Eine Schritt-für-Schritt-Anleitung](./add-images-to-pdfs-aspose-pdf-net/)
+### [So fügen Sie mit Aspose.PDF für .NET Bilder zu PDFs hinzufügen: Eine Schritt-für-Schritt-Anleitung](./add-images-to-pdfs-aspose-pdf-net/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET nahtlos Bilder zu Ihren PDFs hinzufügen. Diese Anleitung beschreibt das Hinzufügen von Bildern zu vorhandenen PDFs und das Erstellen neuer Bilder aus DICOM-Dateien.
 
 ### [So fügen Sie mit Aspose.PDF für .NET einen Bildkopf zu PDFs hinzu: Eine Schritt-für-Schritt-Anleitung](./add-image-header-pdf-aspose-dotnet/)

@@ -54,8 +54,7 @@ Aspose PDF for .NET ile PDF belgelerine şeffaflık eklemeyi, C# kod örnekleriy
 
 ### [Aspose.PDF for .NET ile Verimli PDF Görüntü Tanımlama](./master-image-identification-aspose-pdf-net/)
 Aspose.PDF for .NET kullanarak PDF'lerdeki gri tonlamalı ve RGB görüntüleri nasıl tanımlayacağınızı öğrenin. Bu eğitim, kurulum, görüntü çıkarma ve performans ipuçlarını kapsar.
-
-### [Aspose.PDF for .NET ile Görüntü Akışlarını PDF'lere Verimli Şekilde Dönüştürün](./convert-image-stream-to-pdf-aspose-dotnet/)
+### [.NET için Aspose.PDF Kullanarak PDF'lerde Görüntü Akışlarını Verimli Şekilde Dönüştürün](./convert-image-stream-to-pdf-aspose-dotnet/)
 Aspose.PDF for .NET kullanarak görüntü akışlarını profesyonel kalitede PDF belgelerine nasıl dönüştüreceğinizi öğrenin. Belge iş akışlarınızı geliştirmek için bu adım adım kılavuzu izleyin.
 
 ### [Aspose.PDF ile PDF Bölgelerini Görüntülere Çıkarın ve Dönüştürün](./extract-convert-pdf-regions-aspose-net/)
@@ -176,6 +175,8 @@ Aspose.PDF for .NET kullanarak görüntü arka planları ayarlayarak PDF belgele
 C# ve Aspose.PDF for .NET kullanarak PDF belgelerine dikdörtgen şekilleri eklemeyi adım adım öğrenin.
 ### [PDF'yi Doğrulama ve Dikdörtgen Ekleme – Tam Kılavuz](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
 Aspose.PDF for .NET kullanarak PDF dosyalarını doğrulama ve üzerine dikdörtgen şekli ekleme adımlarını öğrenin.
+### [.NET için Aspose.PDF ile PDF'e Şekil Ekleme: Adım Adım Kılavuz](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+C# ve Aspose.PDF kullanarak PDF belgelerine şekil eklemeyi, konumlandırmayı ve özelleştirmeyi öğrenin.
 
 ## Ek Kaynaklar
 

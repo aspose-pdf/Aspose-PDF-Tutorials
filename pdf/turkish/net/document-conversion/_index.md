@@ -52,9 +52,9 @@ Dönüştürme ayarlarını nasıl belirleyeceğinizi, metin ve görüntüleri n
 | [HTML'den PDF'e Geçiş Sırasında Kimlik Bilgilerini Sağlayın](./provide-credentials-during-html-to-pdf/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak HTML'yi PDF'ye nasıl dönüştüreceğinizi öğrenin. Belge oluşturmayı kolaylaştırmak isteyen geliştiriciler için mükemmeldir. |  
 | [Html'den Dönüştürdükten Sonra Köprü Bağlantılarını Kaldır](./remove-hyperlinks-after-converting-from-html/) Aspose.PDF for .NET'i kullanarak HTML belgelerini PDF'ye dönüştürdükten sonra köprü metinlerinin nasıl kaldırılacağını bu adım adım kılavuzda öğrenin.  
 | [Eksik Yazı Tiplerini Değiştir](./replace-missing-fonts/) | Bu adım adım kılavuzla Aspose.PDF for .NET'i kullanarak PDF belgelerindeki eksik yazı tiplerini nasıl değiştireceğinizi öğrenin.  
-| [Varsayılan Yazı Tipi Adını Ayarla](./set-default-font-name/) | Aspose.PDF for .NET kullanarak PDF'leri resimlere dönüştürürken varsayılan yazı tipi adının nasıl ayarlanacağını öğrenin. Bu kılavuz ön koşulları, adım adım talimatları ve SSS'leri kapsar. |  
-| [SVG'den PDF'e](./svg-to-pdf/) | Bu adım adım eğitimde Aspose.PDF for .NET kullanarak SVG'yi PDF'ye nasıl dönüştüreceğinizi öğrenin. Geliştiriciler ve tasarımcılar için mükemmel. |  
-| [TeX'ten PDF'e](./tex-to-pdf/) | Bu ayrıntılı, adım adım kılavuzla Aspose.PDF for .NET kullanarak TeX'i PDF'ye nasıl dönüştüreceğinizi öğrenin. Geliştiriciler ve belge profesyonelleri için mükemmel. |  
+| [Varsayılan Yazı Tipi Adını Ayarla](./set-default-font-name/) | Aspose.PDF for .NET kullanarak PDF'leri resimlere dönüştürürken varsayılan yazı tipi adının nasıl ayarlanacağını öğrenin. Bu kılavuz ön koşulları, adım adım talimatları ve SSS'leri kapsar.  
+| [SVG'den PDF'e](./svg-to-pdf/) | Bu adım adım eğitimde Aspose.PDF for .NET kullanarak SVG'yi PDF'ye nasıl dönüştüreceğinizi öğrenin. Geliştiriciler ve tasarımcılar için mükemmel.  
+| [TeX'ten PDF'e](./tex-to-pdf/) | Bu ayrıntılı, adım adım kılavuzla Aspose.PDF for .NET kullanarak TeX'i PDF'ye nasıl dönüştüreceğinizi öğrenin. Geliştiriciler ve belge profesyonelleri için mükemmel.  
 | [Metinden PDF'e](./text-to-pdf/) Bu adım adım kılavuzda Aspose.PDF for .NET kullanarak metin dosyalarını PDF'ye nasıl dönüştüreceğinizi öğrenin. Uygulamalarını geliştirmek isteyen geliştiriciler için mükemmeldir. |  
 | [TIFF'ten PDF'e Performans İyileştirme](./tiff-to-pdf-performance-improvement/) | TIFF görüntülerini Aspose.PDF for .NET kullanarak PDF'ye verimli bir şekilde dönüştürün. Büyük görüntü dosyalarını sorunsuz bir şekilde işlemek için performans optimizasyon ipuçlarıyla adım adım öğrenin. |  
 | [Web Sayfasını PDF'ye Dönüştür](./web-page-to-pdf/) | Bu detaylı, adım adım eğitimde Aspose.PDF for .NET kullanarak web sayfalarını PDF'ye nasıl dönüştüreceğinizi öğrenin.  
@@ -77,6 +77,8 @@ Dönüştürme ayarlarını nasıl belirleyeceğinizi, metin ve görüntüleri n
 | [Word'den HTML Oluşturma – DOCX'ten HTML'ye Tam Kılavuz](./create-html-from-word-complete-guide-to-convert-docx-to-html/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak DOCX dosyalarını HTML'ye nasıl dönüştüreceğinizi öğrenin. |
 | [Aspose PDF Eğitimi: PDF'leri Yükleyip C#'ta PDF/X‑4'e Dönüştürme](./aspose-pdf-tutorial-load-and-convert-pdfs-to-pdf-x-4-in-c/) | Aspose.PDF for .NET kullanarak PDF dosyalarını C# ile yükleyip PDF/X‑4 formatına nasıl dönüştüreceğinizi adım adım öğrenin. |
 | [PDF'yi 2.0'a Dönüştür – Hata Günlüğüyle Tam ASP.NET Kılavuzu](./convert-pdf-to-2-0-full-asp-net-guide-with-error-logging/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF'yi 2.0 formatına dönüştürmeyi ve hata günlüğü eklemeyi öğrenin. |
+| [Aspose PDF Dönüştürme Eğitimi – PDF'leri PDF/X‑4'e Adım Adım Dönüştürün](./aspose-pdf-conversion-tutorial-convert-pdfs-to-pdf-x-4-step/) | Aspose.PDF for .NET ile PDF'leri PDF/X‑4 formatına adım adım dönüştürmeyi öğrenin. |
+| [PDF Belgesini Yükle ve PDF/X‑4'e Dönüştür – Tam Kılavuz](./load-pdf-document-and-convert-to-pdf-x-4-complete-guide/) | Aspose.PDF for .NET kullanarak PDF belgesini yükleyip PDF/X‑4 formatına nasıl dönüştüreceğinizi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

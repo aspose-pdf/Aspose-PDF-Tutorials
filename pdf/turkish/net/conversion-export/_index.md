@@ -57,6 +57,10 @@ Aspose.PDF for .NET kullanarak PDF sayfalarını EMF formatına nasıl dönüşt
 Aspose.PDF Net için bir kod öğreticisi
 ### [.NET için Aspose.PDF Kullanarak PDF'yi HTML'ye Dönüştürme: Akış Çıktısı Kılavuzu](./convert-pdf-html-aspose-dotnet-guide/)
 Aspose.PDF for .NET ile akış çıktısını kullanarak PDF dosyalarını HTML'ye nasıl dönüştüreceğinizi öğrenin. Web entegrasyonunuzu ve erişilebilirliğinizi geliştirin.
+
+### [C#'ta PDF'yi HTML'ye Dönüştürme – Tam Adım‑Adım Kılavuz](./convert-pdf-to-html-in-c-full-step-by-step-guide/)
+Aspose.PDF for .NET ile C# kullanarak PDF dosyalarını HTML'ye dönüştürmeyi adım adım öğrenin.
+
 ### [Resimleri Kaydetmeden Aspose.PDF Kullanarak PDF'yi .NET'te HTML'ye Dönüştürme](./convert-pdf-html-net-asposepdf-no-images/)
 Resimleri ayrı ayrı kaydetmeden Aspose.PDF for .NET kullanarak PDF dosyalarını HTML'ye nasıl dönüştüreceğinizi öğrenin. Ayrıntılı kılavuzumuzla düzen bütünlüğünü koruyun.
 ### [Aspose.PDF Kullanarak Özel Görüntü Yollarıyla PDF'yi .NET'te HTML'ye Dönüştürme](./convert-pdf-html-custom-image-paths-dotnet/)
@@ -209,6 +213,9 @@ Aspose PDF kullanarak PDF dosyasını PNG olarak kaydedip ardından PDF/X‑1a s
 ### [C#'ta PDF'yi HTML'ye Dönüştürme – Aspose.Pdf ile Hızlı Kılavuz](./convert-pdf-to-html-in-c-quick-guide-with-aspose-pdf/)
 ### [C#'ta PDF'yi HTML'ye Dışa Aktarma – Tam Aspose Kılavuzu](./how-to-export-pdf-to-html-in-c-complete-aspose-guide/)
 Aspose.PDF for .NET ile C#'ta PDF dosyalarını HTML'ye nasıl dışa aktaracağınızı adım adım öğrenin.
+
+### [C#'ta docx'i HTML'ye Dönüştürme – Tam Programlama Kılavuzu](./convert-docx-to-html-in-c-complete-programming-guide/)
+C# ve Aspose.PDF kullanarak docx dosyalarını HTML formatına nasıl dönüştüreceğinizi adım adım öğrenin.
 
 ## Ek Kaynaklar
 

@@ -41,6 +41,9 @@ Ismerje meg, hogyan konvertálhat hatékonyan PDF fájlokat kiváló minőségű
 ### [Átfogó útmutató: PDF HTML-be konvertálása valós idejű folyamatfrissítésekkel az Aspose.PDF for .NET használatával](./pdf-to-html-conversion-progress-aspose-pdf-net/)
 Tanuld meg, hogyan konvertálhatsz PDF fájlokat interaktív HTML formátumba az Aspose.PDF for .NET segítségével, valós idejű állapotfrissítéseket kínálva. Ideális digitális marketingesek és e-learning platformok számára.
 
+### [PDF konvertálása HTML-be C#-ban – Teljes lépésről‑lépésre útmutató](./convert-pdf-to-html-in-c-full-step-by-step-guide/)
+Tanulja meg, hogyan konvertálhat PDF dokumentumokat HTML-be C# használatával az Aspose.PDF .NET segítségével, részletes lépésekkel.
+
 ### [Excel-táblázatok konvertálása PDF-be az Aspose.PDF for .NET segítségével: lépésről lépésre útmutató](./convert-excel-to-pdf-aspose-dotnet/)
 Ismerje meg, hogyan konvertálhat hatékonyan Excel-munkafüzeteket PDF-táblázatokká az Aspose.PDF for .NET segítségével. Ez az útmutató lépésről lépésre bemutatja az útmutatást és a nélkülözhetetlen tippeket.
 
@@ -278,6 +281,8 @@ Tanulja meg, hogyan konvertálhat PDF-et PDF/X-1A formátumba, exportálhat olda
 
 ### [PDF mentése Aspose segítségével – Lépésről lépésre útmutató](./how-to-save-pdf-with-aspose-step-by-step-guide/)
 Ismerje meg, hogyan menthet PDF fájlokat az Aspose könyvtár segítségével részletes, lépésről lépésre útmutatóval.
+### [DOCX konvertálása HTML-be C#-ban – Teljes programozási útmutató](./convert-docx-to-html-in-c-complete-programming-guide/)
+Tanulja meg, hogyan konvertálhat DOCX fájlokat HTML-be C#-ban az Aspose.PDF for .NET segítségével, lépésről lépésre útmutatóval.
 
 ## További források
 

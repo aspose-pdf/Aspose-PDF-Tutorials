@@ -77,6 +77,8 @@ Você aprenderá a especificar configurações de conversão, extrair texto e im
 | [Salvar PDF como HTML com Aspose.PDF – Guia passo a passo em C#](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) | Aprenda a converter PDF para HTML usando Aspose.PDF para .NET em um tutorial detalhado passo a passo em C#. |
 | [Tutorial Aspose PDF: Carregar e Converter PDFs para PDF/X‑4 em C#](./aspose-pdf-tutorial-load-and-convert-pdfs-to-pdf-x-4-in-c/) | Aprenda a carregar PDFs e convertê-los para o padrão PDF/X‑4 usando Aspose.PDF para .NET em C# com este tutorial passo a passo. |
 | [Converter PDF para 2.0 – Guia completo ASP.NET com registro de erros](./convert-pdf-to-2-0-full-asp-net-guide-with-error-logging/) | Aprenda a converter PDFs para a versão 2.0 usando Aspose.PDF para .NET, com guia completo em ASP.NET e registro de erros. |
+| [Tutorial de Conversão Aspose PDF – Converter PDFs para PDF/X‑4 Passo a Passo](./aspose-pdf-conversion-tutorial-convert-pdfs-to-pdf-x-4-step/) | Aprenda a converter PDFs para o padrão PDF/X‑4 usando Aspose.PDF para .NET neste tutorial passo a passo. |
+| [Carregar documento PDF e converter para PDF/X‑4 – Guia completo](./load-pdf-document-and-convert-to-pdf-x-4-complete-guide/) | Aprenda a carregar um documento PDF e convertê-lo para o padrão PDF/X‑4 usando Aspose.PDF para .NET neste guia completo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

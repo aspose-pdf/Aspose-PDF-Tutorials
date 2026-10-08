@@ -57,6 +57,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Buat Penandatangan PKCS7 Terpisah di C# – Panduan Lengkap](./create-pkcs7-detached-signer-in-c-complete-guide/) | Pelajari cara membuat penandatangan PKCS7 terpisah di C# dengan Aspose.PDF untuk .NET dalam panduan lengkap ini. Bahasa Indonesia:  
 | [Mengambil Nama Tanda Tangan PDF dengan Aspose.PDF di C#](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | Pelajari cara mengambil nama tanda tangan PDF menggunakan Aspose.PDF untuk .NET di C# dengan panduan langkah demi langkah. Bahasa Indonesia:  
 | [Validasi Tanda Tangan PDF di C# – Panduan Lengkap Langkah demi Langkah](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | Pelajari cara memvalidasi tanda tangan PDF menggunakan Aspose.PDF untuk .NET di C# dengan panduan langkah demi langkah lengkap. Bahasa Indonesia:  
+| [Verifikasi Tanda Tangan Digital PDF dengan Aspose.PDF – Panduan Lengkap C#](./verify-digital-signature-pdf-with-aspose-pdf-complete-c-guid/) | Pelajari cara memverifikasi tanda tangan digital PDF menggunakan Aspose.PDF untuk .NET dengan pandian lengkap C#. Bahasa Indonesia:  
+| [Verifikasi Tanda Tangan PDF dengan Aspose.PDF – Panduan Lengkap C#](./verify-pdf-signature-with-aspose-pdf-complete-c-guide/) | Pelajari cara memverifikasi tanda tangan PDF menggunakan Aspose.PDF untuk .NET dengan panduan lengkap C#. Bahasa Indonesia:  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

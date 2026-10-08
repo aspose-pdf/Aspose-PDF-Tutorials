@@ -49,6 +49,7 @@ Aspose.PDF for .NET's "Programming with Tagged PDFs" tutorials walk you through 
 | [Validate PDF File](./validate-pdf/) | Learn how to validate a PDF file with Aspose.PDF for .NET. Check its compliance with standards and generate a validation report. |  
 | [Create Tagged PDF in C# – Aspose PDF Complete Guide](./create-tagged-pdf-in-c-aspose-pdf-complete-guide/) | Learn how to create a fully tagged PDF using Aspose.PDF for .NET in C# with this comprehensive guide. |  
 | [Create Accessible Text Span in PDF with Aspose: Full C# Guide](./create-accessible-text-span-in-pdf-with-aspose-full-c-guide/) | Learn how to create an accessible text span in a PDF using Aspose.PDF for .NET with this comprehensive C# guide. |  
+| [How to Edit Tagged PDF with Aspose.Pdf – Complete Guide](./how-to-edit-tagged-pdf-with-aspose-pdf-complete-guide/) | Learn how to edit tagged PDFs using Aspose.PDF for .NET in this comprehensive step-by-step guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -50,6 +50,7 @@ Samouczki Aspose.PDF for .NET „Programming with Tagged PDFs” przeprowadzą C
 | [Utwórz dokument PDF – Ustaw bezwzględną pozycję dla oznaczonego tekstu](./create-pdf-document-set-absolute-position-for-tagged-text/) | Dowiedz się, jak w Aspose.PDF dla .NET ustawić bezwzględną pozycję dla tekstu oznaczonego w dokumencie PDF, krok po kroku. |  
 | [Utwórz dokument PDF w C# – Kompletny przewodnik z tekstem oznaczonym i pozycjonowaniem](./create-pdf-document-c-full-guide-with-tagged-text-and-positi/) | Krok po kroku pokażemy, jak w C# utworzyć dokument PDF z tekstem oznaczonym i precyzyjnym pozycjonowaniem elementów, zapewniając dostępność i zgodność PDF/UA. |
 | [Utwórz dostępny fragment tekstu w PDF za pomocą Aspose: Kompletny przewodnik C#](./create-accessible-text-span-in-pdf-with-aspose-full-c-guide/) | Dowiedz się, jak w C# utworzyć dostępny fragment tekstu w PDF przy użyciu Aspose, zapewniając zgodność z PDF/UA. |  
+| [Jak edytować oznaczony PDF za pomocą Aspose.Pdf – Kompletny przewodnik](./how-to-edit-tagged-pdf-with-aspose-pdf-complete-guide/) | Dowiedz się, jak edytować oznaczony plik PDF przy użyciu Aspose.PDF dla .NET, krok po kroku, aby zapewnić dostępność i zgodność PDF/UA. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
