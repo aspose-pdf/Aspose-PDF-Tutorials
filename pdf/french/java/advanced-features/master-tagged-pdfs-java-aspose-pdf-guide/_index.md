@@ -1,14 +1,63 @@
 ---
-date: '2025-12-09'
-description: Apprenez à baliser les fichiers PDF en Java avec Aspose.PDF. Ce tutoriel
-  montre comment générer un PDF accessible, ajouter un paragraphe PDF Java et appliquer
-  le balisage d’accessibilité PDF.
+date: '2026-06-17'
+description: Apprenez à créer un PDF accessible en Java en utilisant Aspose.PDF. Ce
+  tutoriel couvre l'ajout de paragraphes PDF Java, le balisage d'accessibilité PDF
+  et la génération de PDF entièrement balisés.
 keywords:
-- tagged PDFs in Java
-- Aspose.PDF for Java
-- accessible PDF creation
-title: 'Comment taguer un PDF en Java avec Aspose.PDF : guide complet pour l’accessibilité
-  et la structuration'
+- create accessible pdf java
+- add paragraph pdf java
+- aspose pdf java tutorial
+schemas:
+- author: Aspose
+  dateModified: '2026-06-17'
+  description: Learn how to create accessible PDF in Java using Aspose.PDF. This tutorial
+    covers add paragraph PDF Java, PDF accessibility tagging, and generating fully
+    tagged PDFs.
+  headline: Create Accessible PDF in Java with Aspose.PDF Tagging Guide
+  type: TechArticle
+- description: Learn how to create accessible PDF in Java using Aspose.PDF. This tutorial
+    covers add paragraph PDF Java, PDF accessibility tagging, and generating fully
+    tagged PDFs.
+  name: Create Accessible PDF in Java with Aspose.PDF Tagging Guide
+  steps:
+  - name: '**Initialize the Aspose.PDF Document:**'
+    text: '**Initialize the Aspose.PDF Document:**'
+  - name: '**Set Title and Language:**'
+    text: '**Set Title and Language:**'
+  - name: '**Save the Document:**'
+    text: '**Save the Document:**'
+  - name: '**Create Document and Tagged Content:**'
+    text: '**Create Document and Tagged Content:**'
+  - name: '**Append Paragraph and Span Elements:**'
+    text: '**Append Paragraph and Span Elements:**'
+  - name: '**Save Your Document:**'
+    text: '**Save Your Document:**'
+  - name: '**Initialize Document Structure:**'
+    text: '**Initialize Document Structure:**'
+  - name: '**Create and Nest Span Elements:**'
+    text: '**Create and Nest Span Elements:**'
+  - name: '**Save the Document:**'
+    text: '**Save the Document:**'
+  type: HowTo
+- questions:
+  - answer: Set the document title, language, and proper tagging (paragraphs, spans,
+      headings). Then run the PDF through an accessibility checker like PAC 3 to validate
+      compliance.
+    question: How do I ensure my PDFs meet WCAG 2.1 accessibility standards?
+  - answer: Yes. Load the PDF, retrieve its `ITaggedContent` via `document.getTaggedContent()`,
+      add missing tags programmatically, and save the updated file.
+    question: Can I tag existing PDFs that were created without tags?
+  - answer: Absolutely. Assign the appropriate language code (e.g., `ar-SA`) and add
+      Unicode text to spans; the library handles bidirectional rendering automatically.
+    question: Does Aspose.PDF support right‑to‑left scripts such as Arabic or Hebrew?
+  - answer: Process the document in logical sections, use `document.optimizeResources()`,
+      and consider streaming the output to a file to keep memory usage low.
+    question: What is the best approach for very large documents (hundreds of pages)?
+  - answer: You can export the structure tree with `document.getTaggedContent().getRootElement()`
+      and inspect it programmatically or with PDF analysis tools.
+    question: Is there a way to validate the tag hierarchy after creation?
+  type: FAQPage
+title: Créer un PDF accessible en Java avec le guide de balisage Aspose.PDF
 url: /fr/java/advanced-features/master-tagged-pdfs-java-aspose-pdf-guide/
 weight: 1
 ---
@@ -21,41 +70,30 @@ weight: 1
 # Comment baliser un PDF en Java avec Aspose.PDF : Guide complet pour l'accessibilité et la structuration
 
 ## Introduction
-Créer des documents PDF accessibles et apprendre **comment baliser les PDF** est crucial pour les utilisateurs qui dépendent des lecteurs d'écran et d'autres technologies d'assistance. Garantir que vos PDF sont à la fois accessibles et bien structurés peut être difficile, mais Aspose.PDF pour Java simplifie le processus en vous permettant de définir des titres, des langues et du contenu structuré directement dans le PDF.
+Créer des documents **PDF accessibles** et apprendre **comment baliser les fichiers PDF** est crucial pour les utilisateurs qui dépendent des lecteurs d'écran et d'autres technologies d'assistance. En utilisant Aspose.PDF pour Java, vous pouvez définir programmatiquement les titres, les langues et le contenu structuré, transformant un PDF simple en un fichier entièrement balisé, conforme aux normes. Ce tutoriel vous montre comment **créer des projets PDF Java accessibles** étape par étape, couvrant les métadonnées de titre et de langue, le balisage des paragraphes et des spans, ainsi que l'imbrication des spans pour des mises en page complexes.
 
-Dans ce tutoriel, nous explorerons comment exploiter la bibliothèque Aspose.PDF pour créer des documents PDF balisés en Java. Vous apprendrez à :
-- Définir les titres et les attributs de langue pour les PDF.
-- Ajouter des éléments paragraphe et span pour améliorer la structure du document.
-- Imbriquer des éléments span dans des paragraphes pour des mises en page plus complexes.
+### Réponses rapides
+- **What is PDF accessibility tagging?** Qu'est‑ce que le balisage d'accessibilité PDF ? C’est le processus d’ajout d’une structure logique (balises) à un PDF afin que les lecteurs d'écran puissent interpréter le contenu correctement.  
+- **Why use Aspose.PDF for tagging?** Pourquoi utiliser Aspose.PDF pour le balisage ? Il fournit une API fluide pour créer, modifier et baliser les PDF sans avoir besoin d’Adobe Acrobat.  
+- **How long does the basic implementation take?** Combien de temps prend l’implémentation de base ? Environ 10–15 minutes pour un document simple.  
+- **Do I need a license?** Ai‑je besoin d’une licence ? Un essai fonctionne pour l’évaluation, mais une licence est requise pour une utilisation en production.  
+- **Which Java versions are supported?** Quelles versions de Java sont prises en charge ? Java 8 et ultérieures (y compris Java 11, 17 et 21).
 
-Plongeons dans la configuration de votre environnement et la mise en œuvre de ces fonctionnalités !
+## Qu'est‑ce que le balisage d'accessibilité PDF ?
+Le balisage d'accessibilité PDF intègre une hiérarchie logique — titres, en‑têtes, paragraphes, spans, tableaux, etc. — directement dans le fichier PDF, permettant aux technologies d’assistance de présenter le contenu dans un ordre de lecture significatif. Cette structure permet aux utilisateurs malvoyants de naviguer et de comprendre les documents comme les utilisateurs voyants, transformant un fichier visuel statique en une ressource dynamique conforme à WCAG 2.1 et PDF/UA.
 
-### Quick Answers
-- **Qu'est-ce que le balisage d'accessibilité PDF ?** C’est le processus d'ajout d'une structure logique (tags) à un PDF afin que les lecteurs d'écran puissent interpréter correctement le contenu.  
-- **Pourquoi utiliser Aspose.PDF pour le balisage ?** Il fournit une API fluide pour créer, modifier et baliser les PDF sans avoir besoin d'Adobe Acrobat.  
-- **Combien de temps prend l'implémentation de base ?** Environ 10 à 15 minutes pour un document simple.  
-- **Ai-je besoin d'une licence ?** Un essai fonctionne pour l'évaluation, mais une licence est requise pour une utilisation en production.  
-- **Quelles versions de Java sont prises en charge ?** Java 8 et ultérieures (y compris Java 11, 17 et 21).
+## Pourquoi utiliser Aspose.PDF pour Java ?
+Aspose.PDF pour Java offre une solution robuste, multiplateforme, qui simplifie la création, la modification et le balisage de PDF tout en respectant les normes d’accessibilité. Son API fluide donne aux développeurs un contrôle granulaire sur la structure du document, les performances et la conversion de formats, ce qui le rend idéal pour l’automatisation de niveau entreprise et assure la conformité à WCAG 2.1 et PDF/UA.
 
-### Prerequisites
-Avant de commencer, assurez-vous d'avoir les éléments suivants :
-- **Environnement de développement Java :** JDK installé (version 8 ou supérieure).  
-- **Outil de construction Maven/Gradle :** Familiarité avec l'utilisation de Maven ou Gradle pour la gestion des dépendances.  
-- **Connaissances de base en Java :** Compréhension des concepts de programmation Java.
+## Prérequis
+- **Java Development Kit :** JDK 8 ou version plus récente installée.  
+- **Build Tool :** Maven ou Gradle pour la gestion des dépendances.  
+- **Basic Java knowledge :** Familiarité avec les classes, les méthodes et la gestion des exceptions.
 
-## What is PDF Accessibility Tagging?
-Le balisage d'accessibilité PDF consiste à intégrer une structure logique (titres, en-têtes, paragraphes, spans, tableaux, etc.) dans le PDF. Cette structure permet aux technologies d'assistance de présenter le contenu dans un ordre significatif, rendant le document capable de **générer un PDF accessible**.
+## Configuration d'Aspose.PDF pour Java
+Pour commencer à travailler avec Aspose.PDF dans votre projet Java, ajoutez la bibliothèque en tant que dépendance.
 
-## Why Use Aspose.PDF for Java?
-Aspose.PDF for Java est une solution **aspose pdf java tutorial**‑grade qui :
-- Fonctionne sur n'importe quelle plateforme supportant Java.
-- Vous permet de créer, modifier et baliser des PDF programmatiquement.
-- Fournit un contrôle fin sur les éléments de balisage tels que les paragraphes et les spans, ce qui est essentiel pour les scénarios **add paragraph pdf java**.
-
-## Setting Up Aspose.PDF for Java
-Pour commencer à travailler avec Aspose.PDF dans vos projets Java, vous devez inclure la bibliothèque comme dépendance. Voici comment le faire avec Maven et Gradle :
-
-### Maven Installation
+### Installation Maven
 Ajoutez la dépendance suivante à votre fichier `pom.xml` :
 ```xml
 <dependency>
@@ -65,28 +103,28 @@ Ajoutez la dépendance suivante à votre fichier `pom.xml` :
 </dependency>
 ```
 
-### Gradle Installation
+### Installation Gradle
 Incluez ceci dans votre fichier `build.gradle` :
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### License Acquisition
-Pour utiliser Aspose.PDF au‑delà des limites de l'essai, vous pouvez obtenir une licence temporaire ou acheter une licence complète. Voici comment procéder :
-- **Essai gratuit :** Téléchargez la dernière version depuis [Aspose PDF Java Releases](https://releases.aspose.com/pdf/java/).  
-- **Licence temporaire :** Demandez une licence temporaire gratuite via la [Aspose Temporary License Page](https://purchase.aspose.com/temporary-license/).  
-- **Acheter une licence :** Achetez une licence complète sur la [Aspose Purchase Page](https://purchase.aspose.com/buy).
+### Acquisition de licence
+Pour utiliser Aspose.PDF au‑delà des limitations de l’essai, vous pouvez obtenir une licence temporaire ou acheter une licence complète. Voici comment procéder :
+- **Free Trial :** Téléchargez la dernière version depuis [Aspose PDF Java Releases](https://releases.aspose.com/pdf/java/).  
+- **Temporary License :** Demandez une licence temporaire gratuite via la [Aspose Temporary License Page](https://purchase.aspose.com/temporary-license/).  
+- **Purchase License :** Achetez une licence complète sur la [Aspose Purchase Page](https://purchase.aspose.com/buy).
 
-Une fois que vous avez votre fichier de licence, appliquez-le dans votre application Java pour débloquer toutes les fonctionnalités.
+Après avoir obtenu le fichier `Aspose.Pdf.Java.lic`, chargez‑le au démarrage de l’application pour débloquer toutes les fonctionnalités.
 
-## Implementation Guide
-Nous décomposerons l'implémentation en trois fonctionnalités principales : définition des titres et langues, ajout d'éléments paragraphe et span, et imbrication de spans dans des paragraphes. Chaque section comprend des étapes détaillées avec des extraits de code pour plus de clarté.
+## Comment créer un PDF accessible en Java ?
+Chargez votre document PDF, définissez le titre et la langue, ajoutez des paragraphes et des spans balisés, puis enregistrez le fichier — le tout en quelques étapes concises. Cette approche directe garantit que le PDF résultant est pleinement conforme aux normes d’accessibilité et prêt à être distribué.
 
-### Setting Title and Language for a PDF Document
-**Overview :** Cette fonctionnalité montre comment définir le titre et la langue d'un document PDF balisé, afin qu'il soit accessible et correctement interprété par les technologies d'assistance.
+### Définir le titre et la langue d'un document PDF
+**Définition :** La classe `Document` représente un fichier PDF en mémoire et fournit des méthodes pour le manipuler.
 
-#### Step‑by‑Step Implementation
-1. **Initialiser le document Aspose.PDF :**  
+#### Implémentation étape par étape
+1. **Initialize the Aspose.PDF Document :**  
    ```java
    import com.aspose.pdf.Document;
    import com.aspose.pdf.tagged.ITaggedContent;
@@ -96,34 +134,35 @@ Nous décomposerons l'implémentation en trois fonctionnalités principales : 
 
    Document document = new Document();
    ITaggedContent taggedContent = document.getTaggedContent();
-   ```
-2. **Définir le titre et la langue :**  
+   ```  
+2. **Set Title and Language :**  
    ```java
    // Set the title of the PDF document
    taggedContent.setTitle("Text Elements Example");
 
    // Define the language (e.g., English - United States)
    taggedContent.setLanguage("en-US");
-   ```
-3. **Enregistrer le document :**  
+   ```  
+3. **Save the Document :**  
    ```java
    document.save(outFile);
-   ```
-**Explication :** En définissant le titre et la langue, vous fournissez des métadonnées essentielles qui aident au **pdf accessibility tagging** et permettent aux lecteurs d'écran d'annoncer correctement le document.
+   ```  
 
-### Adding Paragraph and Span Elements
-**Overview :** Améliorez la structure de votre PDF en ajoutant des éléments paragraphe et span pour créer un document logiquement organisé.
+En attribuant un titre significatif et le code de langue approprié (par ex., `en-US`), vous fournissez aux lecteurs d'écran le contexte nécessaire pour annoncer correctement le document.
 
-#### Step‑by‑Step Implementation
-1. **Créer le document et le contenu balisé :**  
+### Ajout d'éléments Paragraph et Span
+**Définition :** La classe `Paragraph` regroupe une série d’objets `Span`, chacun représentant une séquence de texte avec son propre formatage.
+
+#### Implémentation étape par étape
+1. **Create Document and Tagged Content :**  
    ```java
    String dataDir = "YOUR_DOCUMENT_DIRECTORY";
    String outFile = dataDir + "AddParagraphAndSpanElements_Output.pdf";
 
    Document document = new Document();
    ITaggedContent taggedContent = document.getTaggedContent();
-   ```
-2. **Ajouter des éléments paragraphe et span :**  
+   ```  
+2. **Append Paragraph and Span Elements :**  
    ```java
    import com.aspose.pdf.tagged.logicalstructure.elements.StructureElement;
    import com.aspose.pdf.tagged.logicalstructure.elements.bls.ParagraphElement;
@@ -143,26 +182,27 @@ Nous décomposerons l'implémentation en trois fonctionnalités principales : 
    p1.setText("Paragraph with ");
    p1.appendChild(span11);
    p1.appendChild(span12);
-   ```
-3. **Enregistrer votre document :**  
+   ```  
+3. **Save Your Document :**  
    ```java
    document.save(outFile);
-   ```
-**Explication :** Cette section montre un scénario de base **add paragraph pdf java**, créant un flux de texte structuré qui améliore la lisibilité et la navigation.
+   ```  
 
-### Nesting Span Elements within a Paragraph Element
-**Overview :** Créez des structures textuelles plus complexes en imbriquant des éléments span à l'intérieur de paragraphes.
+Ce modèle vous permet de construire un flux logique de texte, améliorant la navigation pour les technologies d’assistance.
 
-#### Step‑by‑Step Implementation
-1. **Initialiser la structure du document :**  
+### Imbrication d'éléments Span au sein d'un élément Paragraph
+**Définition :** Imbriquer des spans à l’intérieur d’un paragraphe vous permet d’appliquer des styles ou des attributs de langue distincts à des sous‑segments d’une phrase.
+
+#### Implémentation étape par étape
+1. **Initialize Document Structure :**  
    ```java
    String dataDir = "YOUR_DOCUMENT_DIRECTORY";
    String outFile = dataDir + "NestSpanElements_Output.pdf";
 
    Document document = new Document();
    ITaggedContent taggedContent = document.getTaggedContent();
-   ```
-2. **Créer et imbriquer des éléments span :**  
+   ```  
+2. **Create and Nest Span Elements :**  
    ```java
    StructureElement rootElement = taggedContent.getRootElement();
 
@@ -186,67 +226,79 @@ Nous décomposerons l'implémentation en trois fonctionnalités principales : 
    p4.appendChild(span42);
 
    p4.setText(".");
-   ```
-3. **Enregistrer le document :**  
+   ```  
+3. **Save the Document :**  
    ```java
    document.save(outFile);
-   ```
-**Explication :** L'imbrication vous permet de créer des structures plus riches et détaillées, ce qui est essentiel pour créer des documents **generate accessible PDF** répondant aux normes d'accessibilité strictes.
+   ```  
 
-## Practical Applications
-- **Publication numérique :** Créez des e‑books accessibles avec un contenu structuré.  
-- **Documentation gouvernementale :** Assurez la conformité aux réglementations d'accessibilité.  
-- **Rapports d'entreprise :** Améliorez la navigation et la lisibilité pour les parties prenantes.  
-- **Matériel éducatif :** Fournissez aux étudiants des ressources d'apprentissage accessibles.
+Les spans imbriqués sont essentiels lorsque vous devez mélanger des langues, appliquer du gras/italique ou insérer des hyperliens dans un même paragraphe.
 
-## Performance Considerations
-Lorsque vous travaillez avec de gros PDF ou des structures complexes, gardez ces conseils à l'esprit :
-- **Gestion de la mémoire :** Libérez les objets rapidement après utilisation.  
-- **Traitement par lots :** Traitez les documents par lots pour contrôler la consommation de ressources.  
-- **Restez à jour :** Utilisez la dernière version d'Aspose.PDF pour les améliorations de performance et les corrections de bugs.
+## Applications pratiques
+Les capacités de balisage d'Aspose.PDF ont de nombreuses utilisations concrètes, notamment :
 
-## Common Issues and Solutions
-| Issue | Solution |
-|-------|----------|
-| **Les balises n'apparaissent pas dans le visualiseur PDF** | Vérifiez que `taggedContent.setTitle()` et `setLanguage()` sont appelés avant l'enregistrement. |
-| **Taille de fichier importante** | Appelez `document.optimizeResources()` avant `save()` pour compresser les ressources. |
-| **Ordre du texte inattendu** | Assurez-vous d'ajouter les spans aux paragraphes dans l'ordre souhaité. |
+* **Digital Publishing :** Créez des e‑books accessibles avec un contenu entièrement structuré.  
+* **Government Documentation :** Respectez les exigences légales d’accessibilité (par ex., Section 508, Directive européenne sur l’accessibilité).  
+* **Corporate Reporting :** Produisez des rapports que les parties prenantes peuvent parcourir avec des lecteurs d'écran.  
+* **Educational Materials :** Fournissez des manuels et des supports qui respectent les normes d’accessibilité.
 
-## Frequently Asked Questions
+## Considérations de performance
+Lorsque vous traitez de gros PDF ou des hiérarchies de balises complexes, gardez ces meilleures pratiques à l’esprit :
 
-**Q : Comment garantir que mes PDF respectent les normes d'accessibilité WCAG 2.1 ?**  
-R : Utilisez Aspose.PDF pour définir le titre du document, la langue et le balisage approprié (paragraphes, spans, en‑têtes). Passez le PDF dans un vérificateur d'accessibilité (par ex., PAC 3) pour vérifier la conformité.
+* **Memory Management :** Appelez `document.dispose()` ou utilisez try‑with‑resources pour libérer rapidement les ressources natives.  
+* **Batch Processing :** Traitez les documents par lots plus petits et invoquez `document.optimizeResources()` pour réduire l’empreinte mémoire.  
+* **Stay Updated :** Utilisez la dernière version d’Aspose.PDF pour bénéficier des optimisations de performance et des corrections de bugs.
 
-**Q : Puis-je baliser des PDF existants qui ont été créés sans balises ?**  
-R : Oui. Chargez le PDF, récupérez son `ITaggedContent`, et ajoutez les balises manquantes programmatiquement avant d'enregistrer.
+## Problèmes courants et solutions
+| Problème | Solution |
+|----------|----------|
+| **Tags not appearing in PDF viewer** | Vérifiez que `taggedContent.setTitle()` et `setLanguage()` sont appelés **avant** `document.save()`. |
+| **Large file size** | Appelez `document.optimizeResources()` avant l’enregistrement pour compresser les images et supprimer les objets inutilisés. |
+| **Unexpected text order** | Assurez‑vous que les spans sont ajoutés aux paragraphes dans l’ordre exact souhaité pour la lecture. |
+| **Missing language metadata** | Définissez la langue sur l’objet `ITaggedContent` en utilisant le code ISO‑639‑1 (par ex., `en`, `fr`, `ar`). |
 
-**Q : Aspose.PDF prend-il en charge d'autres langues et les scripts de droite à gauche ?**  
-R : Absolument. Définissez le code de langue approprié (par ex., `ar-SA` pour l'arabe) et ajoutez du texte Unicode aux spans.
+## Questions fréquentes
 
-**Q : Quelle est la meilleure façon de gérer des documents très volumineux (des centaines de pages) ?**  
-R : Traitez le document par sections, utilisez `Document.optimizeResources()`, et envisagez de diffuser la sortie pour éviter une consommation élevée de mémoire.
+**Q : How do I ensure my PDFs meet WCAG 2.1 accessibility standards ?**  
+R : Définissez le titre du document, la langue et le balisage approprié (paragraphes, spans, en‑têtes). Ensuite, exécutez le PDF à travers un vérificateur d’accessibilité tel que PAC 3 pour valider la conformité.
 
-**Q : Existe-t-il un moyen de valider la hiérarchie des balises après création ?**  
-R : Vous pouvez exporter l'arbre de structure du PDF avec `document.getTaggedContent().getRootElement()` et l'inspecter programmatiquement ou avec des outils PDF.
+**Q : Can I tag existing PDFs that were created without tags ?**  
+R : Oui. Chargez le PDF, récupérez son `ITaggedContent` via `document.getTaggedContent()`, ajoutez les balises manquantes par programme, puis enregistrez le fichier mis à jour.
+
+**Q : Does Aspose.PDF support right‑to‑left scripts such as Arabic or Hebrew ?**  
+R : Absolument. Attribuez le code de langue approprié (par ex., `ar‑SA`) et ajoutez du texte Unicode aux spans ; la bibliothèque gère automatiquement le rendu bidirectionnel.
+
+**Q : What is the best approach for very large documents (hundreds of pages) ?**  
+R : Traitez le document par sections logiques, utilisez `document.optimizeResources()`, et envisagez de diffuser la sortie vers un fichier pour limiter la consommation de mémoire.
+
+**Q : Is there a way to validate the tag hierarchy after creation ?**  
+R : Vous pouvez exporter l’arbre de structure avec `document.getTaggedContent().getRootElement()` et l’inspecter programmatique ou avec des outils d’analyse PDF.
 
 ## Conclusion
-Vous avez maintenant maîtrisé **comment baliser les fichiers PDF** en Java avec Aspose.PDF — définir les titres, les langues et créer du contenu structuré avec des paragraphes et des spans imbriqués. Ces techniques vous permettent de générer des PDF accessibles qui répondent aux normes d'accessibilité modernes et offrent une expérience de lecture supérieure pour tous les utilisateurs.
+Vous disposez maintenant d’une feuille de route complète, étape par étape, pour **créer des projets PDF Java accessibles** avec Aspose.PDF. En définissant les titres, les langues et en construisant une hiérarchie de balises robuste avec des paragraphes et des spans imbriqués, vous pouvez générer des PDFs à la fois esthétiques et totalement accessibles.  
 
-**Next Steps :**  
-- Expérimentez avec d'autres types de balises comme les tableaux, les listes et les figures.  
-- Intégrez le flux de travail de balisage dans vos pipelines de génération de documents existants.  
-- Explorez les fonctionnalités OCR et de conversion d'Aspose.PDF pour élargir vos capacités de gestion de documents.
+**Étapes suivantes :**  
+* Expérimentez avec d’autres types de balises tels que les tableaux, les listes et les figures.  
+* Intégrez le flux de balisage dans vos pipelines de génération de documents existants.  
+* Explorez les fonctionnalités OCR et de conversion d’Aspose.PDF pour élargir vos capacités de traitement de documents.
 
 ---
 
-**Last Updated :** 2025-12-09  
-**Tested With :** Aspose.PDF for Java 25.3  
-**Author :** Aspose  
+**Last Updated:** 2026-06-17  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Tutoriels associés
+
+- [Créer et gérer des PDFs balisés avec Aspose.PDF pour Java : améliorer l'accessibilité de vos documents](/pdf/java/document-manipulation/create-manage-tagged-pdfs-aspose-pdf-java/)
+- [Créer des PDFs accessibles avec images en utilisant Aspose.PDF pour Java : guide complet de création de PDF balisés](/pdf/java/images-graphics/create-accessible-pdf-images-aspose-pdf-java/)
+- [Créer des tableaux balisés accessibles dans les PDFs avec Aspose.PDF pour Java](/pdf/java/tables-lists/create-tagged-table-aspose-pdf-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

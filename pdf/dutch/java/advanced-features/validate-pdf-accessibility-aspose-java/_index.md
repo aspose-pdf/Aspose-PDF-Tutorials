@@ -12,17 +12,11 @@ url: /nl/java/advanced-features/validate-pdf-accessibility-aspose-java/
 weight: 1
 ---
 
- Could translate "Last Updated:" to "Laatst bijgewerkt:".
 
-Also translate "Tested With:" maybe "Getest met:".
 
-Also "Author:" to "Auteur:".
 
-Also "Quick Answers" to "Snelle antwoorden". "What does “check pdf accessibility” mean?" etc.
 
-Make sure to keep markdown link syntax.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 

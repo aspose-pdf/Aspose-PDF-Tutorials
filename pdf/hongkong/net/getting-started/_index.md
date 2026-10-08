@@ -16,7 +16,6 @@
 從這些基本的 Aspose.PDF 教學課程開始您的旅程，這些教學將引導您完成安裝、許可配置以及在 .NET 中建立您的第一個 PDF 文件。我們針對初學者的指南示範如何設定您的開發環境、初始化 Aspose.PDF 庫以及執行基本的 PDF 操作。請遵循這些教學可以快速掌握基礎知識並為在 .NET 應用程式中執行更進階的 PDF 操作任務做好準備。
 
 ## 可用教程
-
 ### [使用 Aspose.PDF 應用計量許可證和 PDF 頁數](./aspose-pdf-net-metered-license-page-count/)
 Aspose.PDF Net 程式碼教學
 
@@ -31,6 +30,14 @@ Aspose.PDF Net 程式碼教學
 
 ### [從.NET檔案載入Aspose.PDF許可證：綜合指南](./load-aspose-pdf-license-file-net/)
 了解如何透過載入授權檔案在 .NET 中無縫切換 Aspose.PDF 的試用模式和授權模式，確保應用程式功能順暢。
+
+### [如何使用 PowerShell 驗證 NuGet 套件的安裝](./how-to-verify-installation-of-a-nuget-package-with-powershel/)
+本教學說明如何使用 PowerShell 指令驗證 NuGet 套件是否正確安裝於 .NET 專案中。
+
+### [如何安裝 Aspose – 針對特定版本的 PowerShell 指南](./how-to-install-aspose-powershell-guide-for-specific-versions/)
+本指南說明如何使用 PowerShell 為不同版本的 Aspose 進行安裝與配置。
+### [如何使用 PowerShell 安裝 NuGet 套件 – 步驟說明](./how-to-install-nuget-packages-via-powershell-step-by-step/)
+本教學示範如何在 PowerShell 中使用指令安裝 NuGet 套件，逐步說明每個步驟。
 
 ## 其他資源
 

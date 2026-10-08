@@ -35,6 +35,11 @@ Apprenez à convertir facilement des fichiers SVG en PDF de haute qualité avec 
 ### [Créer et remplir des rectangles dans des fichiers PDF avec Aspose.PDF pour .NET : guide étape par étape](./create-fill-rectangle-aspose-pdf-net/)
 Apprenez à créer et remplir des rectangles dans des documents PDF avec Aspose.PDF pour .NET. Ce guide étape par étape couvre toutes les étapes, de la configuration à l'implémentation en C#.
 
+### [Ajouter un rectangle à un PDF avec C# – Guide complet Aspose PDF](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+Apprenez à ajouter un rectangle à un PDF en C# avec Aspose.PDF grâce à ce guide complet pas à pas.
+### [Ajouter un rectangle à un PDF avec Aspose.PDF – Guide complet de programmation](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+Apprenez à ajouter un rectangle à un PDF avec Aspose.PDF grâce à un guide complet de programmation en C#.
+
 ### [Créez des tampons PDF personnalisés avec Aspose.PDF dans .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Un tutoriel de code pour Aspose.PDF Net
 
@@ -44,6 +49,10 @@ Apprenez à créer des documents PDF attrayants en extrayant et en surlignant de
 ### [Dessiner des formes transparentes dans des fichiers PDF avec Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 Un tutoriel de code pour Aspose.PDF Net
 
+### [Ajouter de la transparence à un PDF avec Aspose PDF en C# : guide étape par étape](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Apprenez à appliquer la transparence aux éléments PDF en C# avec Aspose PDF grâce à ce guide détaillé.
+### [Comment dessiner un rectangle dans un PDF avec C# – Guide étape par étape](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
+Apprenez à dessiner un rectangle dans un PDF en C# avec Aspose.PDF .NET grâce à ce guide détaillé étape par étape.
 ### [Comment ajouter une forme à un PDF avec Aspose.PDF en C# – Guide étape par étape](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Apprenez à insérer et personnaliser des formes vectorielles dans vos documents PDF en C# avec Aspose.PDF grâce à ce guide détaillé.
 
@@ -106,6 +115,9 @@ Découvrez comment créer des PDF balisés accessibles et intégrant des images 
 
 ### [Comment créer des rectangles transparents dans un fichier PDF avec Aspose.PDF pour .NET](./create-transparent-rectangles-aspose-pdf-dotnet/)
 Découvrez comment améliorer vos documents PDF en créant des rectangles avec transparence alpha grâce à Aspose.PDF pour .NET. Suivez ce guide étape par étape.
+
+### [Comment valider un PDF et ajouter un rectangle – guide complet](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
+Apprenez à valider la conformité d'un PDF et à dessiner un rectangle à l'aide d'Aspose.PDF pour .NET, avec du code C# étape par étape.
 
 ### [Comment supprimer des images de fichiers PDF avec Aspose.PDF pour .NET – Guide complet](./delete-images-aspose-pdf-net/)
 Découvrez comment supprimer efficacement des images de fichiers PDF avec Aspose.PDF pour .NET. Ce guide présente la configuration, des exemples de code et les bonnes pratiques.

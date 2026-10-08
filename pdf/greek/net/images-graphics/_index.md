@@ -35,6 +35,12 @@
 ### [Δημιουργία & Γέμισμα Ορθογώνιων σε PDF Χρησιμοποιώντας το Aspose.PDF για .NET: Οδηγός Βήμα προς Βήμα](./create-fill-rectangle-aspose-pdf-net/)
 Μάθετε πώς να δημιουργείτε και να γεμίζετε ορθογώνια σε έγγραφα PDF χρησιμοποιώντας το Aspose.PDF για .NET. Αυτός ο οδηγός βήμα προς βήμα καλύπτει τα πάντα, από την εγκατάσταση έως την υλοποίηση με C#.
 
+### [Πώς να σχεδιάσετε ορθογώνιο σε PDF με C# – Οδηγός βήμα προς βήμα](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
+### [Προσθήκη ορθογωνίου σε PDF με C# – Πλήρης οδηγός Aspose PDF](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+### [Πώς να Επικυρώσετε PDF και να Προσθέσετε Ορθογώνιο – Οδηγός βήμα προς βήμα](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
+Μάθετε πώς να ελέγχετε την εγκυρότητα ενός PDF και να προσθέτετε ορθογώνια σχήματα με το Aspose.PDF για .NET, βήμα προς βήμα.
+### [Προσθήκη ορθογωνίου σε PDF με το Aspose.PDF – Πλήρης Οδηγός Προγραμματισμού](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+
 ### [Δημιουργήστε προσαρμοσμένες σφραγίδες PDF με το Aspose.PDF σε .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Ένα σεμινάριο κώδικα για το Aspose.PDF Net
 
@@ -44,6 +50,7 @@
 ### [Σχεδιάστε διαφανή σχήματα σε PDF με το Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 Ένα σεμινάριο κώδικα για το Aspose.PDF Net
 
+### [Προσθήκη διαφάνειας σε PDF με το Aspose PDF σε C# – Οδηγός βήμα προς βήμα](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 ### [Πώς να προσθέσετε σχήμα σε PDF με το Aspose.PDF σε C# – Οδηγός βήμα προς βήμα](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Μάθετε πώς να προσθέσετε σχήματα σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με παραδείγματα C#.
 

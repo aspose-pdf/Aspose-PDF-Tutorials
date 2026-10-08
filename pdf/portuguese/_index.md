@@ -53,12 +53,9 @@ Aprenda a criar e personalizar gráficos em PDF usando Aspose.PDF para .NET. Adi
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-<<<<<<< optimize/pdf/net/20260214124714
 ## Desenhar Linha PDF
 Desenhar linhas retas ou diagonais é uma necessidade comum para formulários, assinaturas e guias visuais. O tutorial “Desenhar Linhas Diagonais” demonstra as chamadas de API exatas necessárias para adicionar objetos de linha precisos a qualquer página PDF.
 
-=======
->>>>>>> main
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## [Gerar Imagens a partir de PDF usando Aspose.PDF para .NET](./net/images/)
@@ -75,7 +72,6 @@ Aprenda a gerar imagens a partir de arquivos PDF usando Aspose.PDF para .NET. Co
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-<<<<<<< optimize/pdf/net/20260214124714
 ## Extrair Imagens PDF
 O tutorial “Extrair Imagens” mostra como extrair recursos raster de PDFs existentes, uma técnica útil para reutilização de conteúdo ou projetos de migração.
 
@@ -85,8 +81,6 @@ Quando você precisa de arquivos menores ou renderização mais rápida, o guia 
 ## Compactar Imagens PDF
 Para ambientes com restrição de armazenamento, o tutorial “Reduzir Imagem” demonstra configurações de compressão que reduzem drasticamente o tamanho do PDF sem perda visual perceptível.
 
-=======
->>>>>>> main
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## [Tutoriais Abrangentes de Tabelas no Aspose.PDF para .NET](./net/tables/)
@@ -105,12 +99,9 @@ Aprenda a criar, formatar e manipular tabelas em documentos PDF usando Aspose.PD
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-<<<<<<< optimize/pdf/net/20260214124714
 ## Adicionar Tabela PDF
 Tabelas são essenciais para relatórios e faturas. Esta seção agrega os tutoriais relacionados a tabelas, oferecendo uma referência única para adicionar, estilizar e paginar tabelas em PDFs.
 
-=======
->>>>>>> main
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## [Tutoriais Abrangentes de Manipulação de Texto no Aspose.PDF para .NET](./net/text/)

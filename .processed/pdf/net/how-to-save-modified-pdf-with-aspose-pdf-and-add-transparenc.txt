@@ -1,0 +1,7 @@
+Title: How to save modified PDF with Aspose.Pdf and add transparency
+Slug: how-to-save-modified-pdf-with-aspose-pdf-and-add-transparenc
+Category: document-manipulation
+ProcessedDate: 2026-09-21T22:15:42.719910
+SourceRepo: AI Search API
+Keywords: save modified pdf, edit pdf resources, add pdf transparency
+PRNumber: 132

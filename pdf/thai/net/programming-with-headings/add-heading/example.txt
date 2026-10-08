@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: บทแนะนำนี้แสดงวิธีสร้างเอกสาร PDF ตั้งค่าภาษาเริ่มต้นและชื่อเรื่องของมัน และแทรกหัวข้อระดับ‑1 โดยใช้คลาส Document, ITaggedContent, StructureElement, และ HeaderElement
+//ExStepSummary:0: กำหนดชื่อไฟล์ผลลัพธ์สำหรับ PDF ที่สร้างขึ้น
+//ExStepSummary:1: สร้างอินสแตนซ์เอกสาร PDF ว่างใหม่ (`pdfDoc`) ภายในบล็อก `using`
+//ExStepSummary:2: รับอินเทอร์เฟซ `ITaggedContent` เพื่อทำงานกับโครงสร้าง PDF ที่มีการแท็ก
+//ExStepSummary:3: ตั้งค่าภาษาเริ่มต้นของเอกสารเป็น English (US) และกำหนดเมตาดาต้าชื่อเรื่อง
+//ExStepSummary:4: ดึงเอาอีลีเมนต์รากของต้นไม้โครงสร้างเชิงตรรกะ
+//ExStepSummary:5: สร้างอีลีเมนต์หัวเรื่องระดับ‑1 ตั้งค่าข้อความที่แสดงและระบุภาษาของมัน
+//ExStepSummary:6: เพิ่มอีลีเมนต์หัวเรื่องลงในราก ทำให้หัวข้อปรากฏใน PDF
+//ExStepSummary:7: บันทึก PDF ไปยังไฟล์ที่ระบุและปิดขอบเขตของเอกสาร
+//ExStepSummary:8: แสดงข้อความยืนยันบนคอนโซล
+//ExStepImage:6:images/1.png
+//ExStep:0-
+const string resultFile = "pdf_with_title.pdf";
+
+//ExStep:1-
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:2-
+ITaggedContent tagContent = pdfDoc.TaggedContent;
+
+//ExStep:3-
+tagContent.SetLanguage("en-US");
+tagContent.SetTitle("PDF Example with Header");
+
+//ExStep:4-
+StructureElement rootElement = tagContent.RootElement;
+
+//ExStep:5-
+HeaderElement header = tagContent.CreateHeaderElement(1);
+header.SetText("Demo Header");
+header.Language = "en-US";
+
+//ExStep:6-
+rootElement.AppendChild(header);
+
+//ExStep:7-
+pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"PDF generated and stored at '{resultFile}'.");
+//ExEnd

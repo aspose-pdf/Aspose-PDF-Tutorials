@@ -164,6 +164,8 @@ Kód oktatóanyag az Aspose.PDF Nethez
 ### [Szöveg formázása címkézett PDF-ekben az Aspose.PDF for .NET használatával | Útmutató a hozzáférhető és esztétikus PDF-készítéshez](./style-text-tagged-pdfs-aspose-pdf-net/)
 Tanulja meg, hogyan formázhatja a címkézett PDF dokumentumok szövegét az Aspose.PDF for .NET segítségével. Ez az útmutató a telepítést, a technikákat és a gyakorlati alkalmazásokat ismerteti az akadálymentesítés javítása érdekében.
 
+### [PDF kitakarása Aspose-szal – Lépésről lépésre útmutató](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)

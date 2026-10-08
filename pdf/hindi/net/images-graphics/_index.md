@@ -35,6 +35,15 @@
 ### [.NET के लिए Aspose.PDF का उपयोग करके PDF में आयत बनाएं और भरें: एक चरण-दर-चरण मार्गदर्शिका](./create-fill-rectangle-aspose-pdf-net/)
 जानें कि .NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ों में आयत कैसे बनाएँ और भरें। यह चरण-दर-चरण मार्गदर्शिका C# के साथ सेटअप से लेकर कार्यान्वयन तक सब कुछ कवर करती है।
 
+### [PDF को वैध करने और आयत जोड़ने की संपूर्ण गाइड](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
+Aspose.PDF .NET का उपयोग करके PDF फ़ाइल की वैधता जांचें और आयत आकार के साथ ग्राफ़िक जोड़ें। चरण‑दर‑चरण कोड उदाहरण।
+
+### [C# के साथ PDF में आयत जोड़ें – पूर्ण Aspose PDF गाइड](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+C# में Aspose.PDF का उपयोग करके PDF में आयत जोड़ने की पूरी गाइड।
+
+### [C# के साथ PDF में आयत कैसे बनाएं – चरण‑दर‑चरण मार्गदर्शिका](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
+C# का उपयोग करके Aspose.PDF के साथ PDF में आयत बनाना और अनुकूलित करना सीखें।
+
 ### [.NET में Aspose.PDF के साथ कस्टम पीडीएफ स्टैम्प बनाएं](./create-custom-pdf-stamps-aspose-pdf-net/)
 Aspose.PDF नेट के लिए एक कोड ट्यूटोरियल
 
@@ -44,6 +53,8 @@ Aspose.PDF .NET का उपयोग करके पैराग्राफ�
 ### [Aspose.PDF .NET के साथ PDF में पारदर्शी आकृतियाँ बनाएँ](./draw-transparent-shapes-aspose-pdf-net/)
 Aspose.PDF नेट के लिए एक कोड ट्यूटोरियल
 
+### [C# में Aspose PDF के साथ PDF में पारदर्शिता जोड़ें – चरण‑दर‑चरण गाइड](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+C# में Aspose PDF का उपयोग करके PDF दस्तावेज़ों में पारदर्शिता लागू करने का चरण‑दर‑चरण तरीका सीखें।
 ### [C# में Aspose.PDF का उपयोग करके PDF में आकृति कैसे जोड़ें: चरण‑दर‑चरण मार्गदर्शिका](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 C# कोड के साथ PDF में विभिन्न आकृतियों को जोड़ने, आकार बदलने और शैली लागू करने की प्रक्रिया सीखें।
 
@@ -166,6 +177,8 @@ Aspose.PDF नेट के लिए एक कोड ट्यूटोरि�
 
 ### [.NET के लिए Aspose.PDF का उपयोग करके PDF में छवि पृष्ठभूमि सेट करें: एक व्यापक गाइड](./aspose-pdf-net-set-image-backgrounds/)
 जानें कि .NET के लिए Aspose.PDF का उपयोग करके छवि पृष्ठभूमि सेट करके अपने PDF दस्तावेज़ों को कैसे बेहतर बनाया जाए। यह मार्गदर्शिका सेटअप, कार्यान्वयन और अनुकूलन युक्तियों को कवर करती है।
+
+### [.NET के लिए Aspose.PDF का उपयोग करके PDF में आयत जोड़ें – पूर्ण प्रोग्रामिंग गाइड](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
 
 ## अतिरिक्त संसाधन
 

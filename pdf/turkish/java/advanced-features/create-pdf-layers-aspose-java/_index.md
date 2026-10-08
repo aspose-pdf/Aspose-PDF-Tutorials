@@ -1,13 +1,74 @@
 ---
-date: '2025-12-02'
-description: Aspose.PDF for Java kullanarak PDF katmanları oluşturmayı öğrenin. Bu
-  Aspose PDF öğreticisi kurulum, lisanslama ve PDF katman renklerini özelleştirmeyi
-  kapsar.
+date: '2026-05-28'
+description: Aspose.PDF for Java kullanarak pdf katmanları nasıl oluşturulur öğrenin.
+  Bu öğreticide kurulum, lisanslama ve pdf katman renklerinin özelleştirilmesi ele
+  alınmaktadır.
 keywords:
-- Aspose.PDF for Java
-- create PDF layers
-- layered PDF applications
-title: Aspose.PDF for Java ile PDF katmanları nasıl oluşturulur – Adım Adım Kılavuz
+- create pdf layers
+- add pdf layer
+- asp pdf tutorial
+- create layered pdf
+- generate layered pdf
+schemas:
+- author: Aspose
+  dateModified: '2026-05-28'
+  description: Learn how to create pdf layers using Aspose.PDF for Java. This tutorial
+    covers setup, licensing, and customizing pdf layer colors.
+  headline: How to create pdf layers with Aspose.PDF for Java – Step-by-Step Guide
+  type: TechArticle
+- description: Learn how to create pdf layers using Aspose.PDF for Java. This tutorial
+    covers setup, licensing, and customizing pdf layer colors.
+  name: How to create pdf layers with Aspose.PDF for Java – Step-by-Step Guide
+  steps:
+  - name: '**Initialize the Document** – create a new `Document` object.'
+    text: '**Initialize the Document** – create a new `Document` object.'
+  - name: '**Add a Page** – use `doc.getPages().add()`.'
+    text: '**Add a Page** – use `doc.getPages().add()`.'
+  - name: '**Save the File** – call `doc.save()` with your desired output path.'
+    text: '**Save the File** – call `doc.save()` with your desired output path.'
+  - name: '**Initialize a Page** – start with a fresh page where layers will be placed.'
+    text: '**Initialize a Page** – start with a fresh page where layers will be placed.'
+  - name: '**Create Layers** – instantiate `Layer` objects, set a name, and add drawing
+      operators.'
+    text: '**Create Layers** – instantiate `Layer` objects, set a name, and add drawing
+      operators.'
+  - name: '**Add Drawing Operations** – use `SetRGBColorStroke`, `MoveTo`, `LineTo`,
+      and `Stroke` to draw colored lines.'
+    text: '**Add Drawing Operations** – use `SetRGBColorStroke`, `MoveTo`, `LineTo`,
+      and `Stroke` to draw colored lines.'
+  - name: '**Save the Document** – persist the PDF with layers attached.'
+    text: '**Save the Document** – persist the PDF with layers attached.'
+  - name: '**Architectural Plans:** Separate structural, electrical, and plumbing
+      schematics into distinct layers.'
+    text: '**Architectural Plans:** Separate structural, electrical, and plumbing
+      schematics into distinct layers.'
+  - name: '**Design Drafting:** Keep concept sketches, annotations, and final renderings
+      on separate layers for easy toggling.'
+    text: '**Design Drafting:** Keep concept sketches, annotations, and final renderings
+      on separate layers for easy toggling.'
+  - name: '**Educational Materials:** Divide chapters, exercises, and solutions into
+      layers so instructors can reveal answers on demand.'
+    text: '**Educational Materials:** Divide chapters, exercises, and solutions into
+      layers so instructors can reveal answers on demand.'
+  type: HowTo
+- questions:
+  - answer: A trial license lets you experiment, but a full **Aspose PDF licensing**
+      key removes evaluation restrictions and enables all layer features for production.
+    question: Do I need a paid license to create pdf layers?
+  - answer: Yes. Any PDF operator (text, image, form fields) can be added to a `Layer`’s
+      content collection.
+    question: Can I add text or images to a layer instead of just lines?
+  - answer: Use the `OptionalContentGroup` API to set the visibility state, or let
+      the end‑user toggle layers in a PDF viewer that supports OCGs.
+    question: How do I hide or show layers programmatically after the PDF is created?
+  - answer: Technically no, but extremely high layer counts can impact viewer performance.
+      Keep it reasonable (hundreds rather than thousands) for best results.
+    question: Is there a limit to the number of layers I can create?
+  - answer: Yes, you can set compliance flags on the `Document` before saving, and
+      layers will be preserved in the compliant output.
+    question: Does Aspose.PDF support PDF/A or PDF/UA compliance with layers?
+  type: FAQPage
+title: Aspose.PDF for Java ile pdf katmanları nasıl oluşturulur – Adım Adım Kılavuz
 url: /tr/java/advanced-features/create-pdf-layers-aspose-java/
 weight: 1
 ---
@@ -17,59 +78,45 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.PDF for Java ile PDF katmanları nasıl oluşturulur
+# Aspose.PDF for Java ile pdf katmanları nasıl oluşturulur
 
-**SEO‑zengin Başlık Oluşturun:** Aspose.PDF Java kullanarak Katmanlı PDF'ler nasıl oluşturulur ve özelleştirilir öğrenin
+**SEO‑zengin Başlık Oluştur:** Aspose.PDF Java kullanarak Katmanlı PDF'leri Oluşturma ve Özelleştirme Öğrenin
 
-## Introduction
+## Giriş
 
-Programatik olarak profesyonel görünümlü PDF belgeleri oluşturmak zorlayıcı olabilir, özellikle **pdf katmanları oluşturma** ihtiyacınız olduğunda ve bu katmanların açılıp kapatılabilmesi gerektiğinde. Bu **aspose pdf tutorial** içinde geliştirme ortamınızı kurmaktan, PDF oluşturan, birden fazla katman ekleyen ve her katmanın renklerini özelleştiren Java kodunu yazmaya kadar bilmeniz gereken her şeyi adım adım anlatacağız. Sonunda, mimari planlar, tasarım taslakları veya görsel öğeleri ayırmanın değerli olduğu herhangi bir senaryo için katmanlı PDF'ler üretebileceksiniz.
+Bu **Aspose PDF tutorial** içinde, **create pdf layers**'ı nasıl açıp kapatabileceğinizi, her katmanın renklerini nasıl özelleştireceğinizi ve çözümü herhangi bir Java projesine nasıl entegre edeceğinizi göstereceğiz. Katmanlı PDF'ler mimari çizimler, tasarım taslakları ve görsel öğeleri birden fazla dosya oluşturmadan ayırmanız gereken her durum için idealdir. Bu rehirin sonunda, kendi kullanım senaryolarınıza uyarlayabileceğiniz çalışan bir örnek elde edeceksiniz.
 
-**What You’ll Learn**
-- Aspose.PDF for Java kullanarak **PDF belgesi oluşturma** nasıl yapılır.  
-- **pdf katmanları oluşturma** ve farklı renkler atama adımları.  
-- Daha iyi görsel ayrım için **pdf katman renklerini özelleştirme** teknikleri.  
-- **aspose pdf licensing** nasıl çalışır ve üretim kullanımında neden önemlidir.  
-- Büyük, katmanlı PDF'ler için gerçek dünya kullanım örnekleri ve performans ipuçları.
+## Hızlı Yanıtlar
+- **Ana kütüphane nedir?** Aspose.PDF for Java.  
+- **Bu kılavuz hangi anahtar kelimeyi hedefliyor?** create pdf layers.  
+- **Bir lisansa ihtiyacım var mı?** Evet – **Aspose PDF licensing** bölümüne bakın.  
+- **Katman renklerini değiştirebilir miyim?** Kesinlikle – **customize pdf layer colors** nasıl yapılır gösterilecektir.  
+- **Uygulama ne kadar sürer?** Temel bir örnek için yaklaşık 10‑15 dakika.
 
-Şimdi, koda dalmadan önce ihtiyacınız olan her şeye sahip olduğunuzdan emin olalım.
+## “create pdf layers” nedir?
+PDF katmanları oluşturmak, bir PDF'ye isteğe bağlı içerik grupları (OCG'ler) ekler ve her katmanın kendi grafiklerini, metnini veya görüntülerini içermesine ve bir görüntüleyicide açılıp kapatılabilmesine olanak tanır. Bu özellik, tek bir belge içinde tasarım öğelerini, açıklamaları veya sürüm içeriklerini ayırmanızı sağlar.
 
-## Quick Answers
-- **What is the primary library?** Aspose.PDF for Java.  
-- **Which keyword does this guide target?** create pdf layers.  
-- **Do I need a license?** Yes – see the **aspose pdf licensing** section.  
-- **Can I change layer colors?** Absolutely – we’ll show you how to **customize pdf layer colors**.  
-- **How long does the implementation take?** About 10‑15 minutes for a basic example.
+## PDF katmanları oluşturmak için neden Aspose.PDF for Java kullanılmalı?
+Aspose.PDF for Java ile Adobe Acrobat gerektirmeden pdf katmanları oluşturabilir ve katman görünürlüğü, renkleri ve sıralaması üzerinde tam programatik kontrol elde edersiniz. Kütüphane Windows, Linux ve macOS'ta çalışır, 50+ giriş ve çıkış formatını destekler ve tüm dosyayı belleğe yüklemeden çok sayfalı PDF'leri işleyebilir.
 
-## What is “create pdf layers”?
-PDF katmanları oluşturmak, bir PDF dosyasına **opsiyonel içerik grupları (OCG'ler)** eklemek anlamına gelir. Her katman kendi çizim komutlarını, metnini veya görsellerini içerebilir ve kullanıcılar PDF görüntüleyicide katmanları gösterip gizleyebilir. Bu özellik, tasarım öğelerini, açıklamaları veya sürüm içeriklerini ayırmak için mükemmeldir.
+## Önkoşullar
 
-## Why use Aspose.PDF for Java to create pdf layers?
-- **Full control** over PDF structure without needing Adobe Acrobat.  
-- **Cross‑platform** – works on Windows, Linux, and macOS.  
-- **Robust licensing** model that removes usage limits once you have a valid license.  
-- **Rich API** for drawing, text, and layer manipulation, making it easy to **customize pdf layer colors**.
+### Gerekli Kütüphaneler
+**Aspose.PDF for Java**'a ihtiyacınız olacak (öğretici version 25.3 ile yazılmıştır, ancak herhangi bir güncel sürüm çalışır). Kütüphaneyi güncel tutmak, en yeni 50+ format desteği ve performans iyileştirmelerine erişmenizi sağlar.
 
-## Prerequisites
+### Ortam Kurulum Gereksinimleri
+- **Java Development Kit (JDK):** Versiyon 8 veya üzeri.  
+- **IDE:** IntelliJ IDEA, Eclipse veya NetBeans – Java geliştirme için tercih ettiğiniz.
 
-Before we begin, ensure you have the following:
+### Bilgi Önkoşulları
+Java'ya temel bir hakimiyet ve bağımlılık yönetimi için Maven veya Gradle konusunda aşinalık, adımları daha sorunsuz hale getirecektir.
 
-### Required Libraries
-You’ll need **Aspose.PDF for Java** (the tutorial was written with version 25.3, but any recent version works). Keeping the library up‑to‑date ensures you have the latest bug fixes and feature enhancements.
+## Aspose.PDF for Java Kurulumu
 
-### Environment Setup Requirements
-- **Java Development Kit (JDK):** Version 8 or higher.  
-- **IDE:** IntelliJ IDEA, Eclipse, or NetBeans – whichever you prefer for Java development.
-
-### Knowledge Prerequisites
-A basic grasp of Java and familiarity with Maven or Gradle for dependency management will make the steps smoother.
-
-## Setting Up Aspose.PDF for Java
-
-Getting started with Aspose.PDF for Java requires adding the library to your project. Below are the two most common build‑tool configurations.
+Aspose.PDF for Java ile başlamak, kütüphaneyi projenize eklemeyi gerektirir. Aşağıda en yaygın iki yapı aracı yapılandırması verilmiştir.
 
 ### Maven
-Add the following dependency to your `pom.xml` file:
+`pom.xml` dosyanıza aşağıdaki bağımlılığı ekleyin:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -79,18 +126,17 @@ Add the following dependency to your `pom.xml` file:
 ```
 
 ### Gradle
-Include this line in your `build.gradle` file:
+`build.gradle` dosyanıza bu satırı ekleyin:
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-#### License Acquisition Steps
-- **Free Trial:** Start with a trial to explore the library’s capabilities.  
-- **Temporary License:** Request a temporary key from the Aspose website for evaluation.  
-- **Purchase:** For production use, buy a license to unlock all features and remove evaluation watermarks.
+#### Lisans Edinme Adımları
+- **Free Trial:** Kütüphanenin yeteneklerini keşfetmek için bir deneme sürümüyle başlayın.  
+- **Temporary License:** Değerlendirme için Aspose web sitesinden geçici bir anahtar talep edin.  
+- **Purchase:** Üretim kullanımı için tüm özelliklerin kilidini açan ve değerlendirme filigranlarını kaldıran bir lisans satın alın.
 
-To activate your license, add the following Java code to your project:
-
+Lisansınızı etkinleştirmek için projenize aşağıdaki Java kodunu ekleyin:
 ```java
 import com.aspose.pdf.License;
 
@@ -107,19 +153,23 @@ public class PDFSetup {
 }
 ```
 
-> **Pro tip:** Keep the license file outside your source control and reference it with an absolute or environment‑variable path.
+> **Pro tip:** Lisans dosyasını kaynak kontrolünüzün dışına tutun ve mutlak ya da ortam‑değişkeni yolu ile referans verin.
 
-## Implementation Guide
+## pdf katman görünürlüğü nasıl eklenir?
+`OptionalContentGroup`, bir PDF'deki isteğe bağlı içerik grubunu (katmanı) temsil eder ve görünürlüğünü kontrol eder.  
+Katman görünürlüğünü `OptionalContentGroup` API'sini kullanarak kontrol edersiniz – kaydetmeden önce `visibility` özelliğini `true` veya `false` olarak ayarlayın, PDF görüntüleyicileri bu durumu uygular. Bu, belirli katmanların varsayılan olarak gizli olduğu ve tek bir tıklama ile gösterilebileceği PDF'ler oluşturmanızı sağlar.
 
-### Create a PDF Document
+## PDF Belgesi Oluşturma
 
-#### Overview
-The first building block is a simple **create pdf document** call. This section shows how to instantiate a `Document`, add a page, and save it to disk.
+`Document` sınıfı, Aspose.PDF'nin bellek içinde tek bir PDF dosyasını temsil eden üst‑seviye nesnesidir. Oluşturulduktan sonra, tüm okuma ve yazma işlemleri bu nesne üzerinden gerçekleşir.
 
-#### Steps
-1. **Initialize the Document** – create a new `Document` object.  
-2. **Add a Page** – use `doc.getPages().add()`.  
-3. **Save the File** – call `doc.save()` with your desired output path.
+#### Genel Bakış
+İlk yapı taşı basit bir **create pdf document** çağrısıdır. Bu bölüm, bir `Document` nesnesi oluşturmayı, bir sayfa eklemeyi ve diske kaydetmeyi gösterir.
+
+#### Adımlar
+1. **Document'i Başlat** – yeni bir `Document` nesnesi oluşturun.  
+2. **Sayfa Ekle** – `doc.getPages().add()` kullanın.  
+3. **Dosyayı Kaydet** – istediğiniz çıktı yoluyla `doc.save()` çağırın.
 
 ```java
 import com.aspose.pdf.Document;
@@ -140,16 +190,19 @@ public class CreatePDF {
 }
 ```
 
-### Create and Configure Layers for PDF
+## PDF için Katmanlar Oluşturma ve Yapılandırma
 
-#### Overview
-Now we’ll **create pdf layers** and **customize pdf layer colors**. Each layer will contain a colored line, demonstrating how optional content groups work.
+`Layer` sınıfı, Aspose.PDF'nin açılıp kapatılabilen bir isteğe bağlı içerik grubunun temsilidir.  
+`SetRGBColorStroke` çizgi rengini ayarlar, `MoveTo` çizim imlecini hareket ettirir, `LineTo` bir çizgi segmenti tanımlar ve `Stroke` yolu render eder. Her katman, isteğe bağlı içerik gruplarının nasıl çalıştığını gösteren renkli bir çizgi içerecek.
 
-#### Steps
-1. **Initialize a Page** – start with a fresh page where layers will be placed.  
-2. **Create Layers** – instantiate `Layer` objects, set a name, and add drawing operators.  
-3. **Add Drawing Operations** – use `SetRGBColorStroke`, `MoveTo`, `LineTo`, and `Stroke` to draw colored lines.  
-4. **Save the Document** – persist the PDF with layers attached.
+#### Genel Bakış
+Şimdi **create pdf layers** ve **customize pdf layer colors** işlemlerini yapacağız. Her katman, isteğe bağlı içerik gruplarının nasıl çalıştığını gösteren renkli bir çizgi içerecek.
+
+#### Adımlar
+1. **Sayfayı Başlat** – katmanların yerleştirileceği yeni bir sayfa ile başlayın.  
+2. **Katmanlar Oluştur** – `Layer` nesnelerini örnekleyin, bir ad belirleyin ve çizim operatörlerini ekleyin.  
+3. **Çizim İşlemleri Ekle** – renkli çizgiler çizmek için `SetRGBColorStroke`, `MoveTo`, `LineTo` ve `Stroke` kullanın.  
+4. **Belgeyi Kaydet** – katmanlı PDF'yi kalıcı hale getirin.
 
 ```java
 import com.aspose.pdf.*;
@@ -211,54 +264,60 @@ public class CreatePDFWithLayers {
 }
 ```
 
-### Troubleshooting Tips
-- **Layers not visible?** Verify that the drawing coordinates are within the page bounds and that each layer has a unique name.  
-- **Performance slowdown on large PDFs?** Reduce the number of drawing operations per layer or split the document into multiple files.  
-- **License warnings?** Ensure the `license.setLicense(...)` call points to a valid `.lic` file and that the file is accessible at runtime.
+## Sorun Giderme İpuçları
+- **Katmanlar görünmüyor mu?** Çizim koordinatlarının sayfa sınırları içinde olduğundan ve her katmanın benzersiz bir ada sahip olduğundan emin olun.  
+- **Büyük PDF'lerde performans yavaşlıyor mu?** Katman başına çizim işlemi sayısını azaltın veya belgeyi birden fazla dosyaya bölün.  
+- **Lisans uyarıları?** `license.setLicense(...)` çağrısının geçerli bir `.lic` dosyasına işaret ettiğinden ve dosyanın çalışma zamanında erişilebilir olduğundan emin olun.
 
-## Practical Applications
-Layered PDFs shine in many domains:
-1. **Architectural Plans:** Separate structural, electrical, and plumbing schematics into distinct layers.  
-2. **Design Drafting:** Keep concept sketches, annotations, and final renderings on separate layers for easy toggling.  
-3. **Educational Materials:** Divide chapters, exercises, and solutions into layers so instructors can reveal answers on demand.
+## Pratik Uygulamalar
+Katmanlı PDF'ler birçok alanda öne çıkar:
+1. **Mimari Planlar:** Yapısal, elektrik ve sıhhi tesisat şemalarını ayrı katmanlara ayırın.  
+2. **Tasarım Taslağı:** Konsept taslaklarını, açıklamaları ve son renderları ayrı katmanlarda tutarak kolayca geçiş yapın.  
+3. **Eğitim Materyalleri:** Bölümleri, alıştırmaları ve çözümleri katmanlara bölerek eğitmenlerin isteğe bağlı olarak cevapları göstermesini sağlayın.
 
-You can embed these PDFs in web portals, mobile apps, or desktop viewers that support optional content groups.
+Bu PDF'leri isteğe bağlı içerik gruplarını destekleyen web portallarına, mobil uygulamalara veya masaüstü görüntüleyicilere gömebilirsiniz.
 
-## Performance Considerations
-When generating PDFs with many layers, keep these best practices in mind:
-- **Batch Processing:** Process multiple documents in a single run to reduce JVM warm‑up overhead.  
-- **Resource Management:** Close streams and release file handles promptly (`doc.close()` if you open streams).  
-- **Profiling:** Use tools like VisualVM or YourKit to spot memory hotspots, especially if you’re creating thousands of layers.
+## Performans Düşünceleri
+Birçok katmanlı PDF oluştururken, aşağıdaki en iyi uygulamaları aklınızda tutun:
+- **Batch Processing:** Tek bir çalıştırmada birden fazla belge işleyerek JVM ısınma süresini azaltın.  
+- **Resource Management:** Akışları kapatın ve dosya tutamaçlarını hemen serbest bırakın (`doc.close()` akış açtıysanız).  
+- **Profiling:** VisualVM veya YourKit gibi araçları kullanarak özellikle binlerce katman oluşturuyorsanız bellek sıcak noktalarını tespit edin.
 
-By following these guidelines, you’ll maintain fast, responsive PDF generation even at scale.
+Bu yönergeleri izleyerek, ölçekli ortamlarda bile hızlı ve yanıt veren PDF üretimini sürdürebilirsiniz.
 
-## Frequently Asked Questions
+## Sıkça Sorulan Sorular
 
-**Q: Do I need a paid license to create pdf layers?**  
-A: A trial license lets you experiment, but a full **aspose pdf licensing** key removes evaluation restrictions and enables all layer features for production.
+**S: pdf katmanları oluşturmak için ücretli bir lisansa ihtiyacım var mı?**  
+C: Deneme lisansı denemenize izin verir, ancak tam **Aspose PDF licensing** anahtarı değerlendirme kısıtlamalarını kaldırır ve üretim için tüm katman özelliklerini etkinleştirir.
 
-**Q: Can I add text or images to a layer instead of just lines?**  
-A: Yes. Any PDF operator (text, image, form fields) can be added to a `Layer`’s content collection.
+**S: Katmana sadece çizgiler yerine metin veya görüntü ekleyebilir miyim?**  
+C: Evet. Herhangi bir PDF operatörü (metin, görüntü, form alanları) bir `Layer`'ın içerik koleksiyonuna eklenebilir.
 
-**Q: How do I hide or show layers programmatically after the PDF is created?**  
-A: Use the `OptionalContentGroup` API to set the visibility state, or let the end‑user toggle layers in a PDF viewer that supports OCGs.
+**S: PDF oluşturulduktan sonra katmanları programlı olarak nasıl gizleyip gösterebilirim?**  
+C: Görünürlük durumunu ayarlamak için `OptionalContentGroup` API'sini kullanın veya OCG'leri destekleyen bir PDF görüntüleyicide son kullanıcının katmanları geçiş yapmasına izin verin.
 
-**Q: Is there a limit to the number of layers I can create?**  
-A: Technically no, but extremely high layer counts can impact viewer performance. Keep it reasonable (hundreds rather than thousands) for best results.
+**S: Oluşturabileceğim katman sayısında bir limit var mı?**  
+C: Teknik olarak hayır, ancak çok yüksek katman sayısı görüntüleyici performansını etkileyebilir. En iyi sonuçlar için makul bir seviyede tutun (binler yerine yüzler).
 
-**Q: Does Aspose.PDF support PDF/A or PDF/UA compliance with layers?**  
-A: Yes, you can set compliance flags on the `Document` before saving, and layers will be preserved in the compliant output.
+**S: Aspose.PDF, katmanlarla PDF/A veya PDF/UA uyumluluğunu destekliyor mu?**  
+C: Evet, kaydetmeden önce `Document` üzerinde uyumluluk bayraklarını ayarlayabilirsiniz ve katmanlar uyumlu çıktıda korunur.
 
 ---
 
-**Last Updated:** 2025-12-02  
-**Tested With:** Aspose.PDF for Java 25.3  
-**Author:** Aspose  
+**Son Güncelleme:** 2026-05-28  
+**Test Edilen Versiyon:** Aspose.PDF for Java 25.3  
+**Yazar:** Aspose
+
+## İlgili Öğreticiler
+
+- [Java ile PDF Katmanları Oluşturma – Gelişmiş Aspose.PDF Özellikleri](/pdf/java/advanced-features/)
+- [Aspose PDF Java Öğreticisi: PDF Açma Eylemlerini Kontrol Etme – Gelişmiş Rehber](/pdf/java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/)
+- [Java'da Aspose.PDF ile Erişilebilir PDF Oluşturma – Tam Kılavuz](/pdf/java/advanced-features/accessible-pdfs-aspose-pdf-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -68,6 +68,9 @@ Aprenda a desbloquear e descriptografar arquivos PDF protegidos usando o Aspose.
 ### [Verifique senhas de PDF com Aspose.PDF .NET: um guia passo a passo para segurança e permissões](./verify-pdf-passwords-aspose-dot-net-guide/)
 Aprenda a verificar senhas de PDF usando o Aspose.PDF para .NET em C#. Este guia completo simplifica a segurança de documentos e o controle de acesso.
 
+### [Aplicar Redação a PDF com o Gerenciador de Plugins Aspose – Guia Completo](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
+Aprenda a aplicar redação em PDFs usando o Gerenciador de Plugins Aspose com este guia passo a passo.
+
 ## Recursos adicionais
 
 - [Aspose.PDF para documentação da Net](https://docs.aspose.com/pdf/net/)

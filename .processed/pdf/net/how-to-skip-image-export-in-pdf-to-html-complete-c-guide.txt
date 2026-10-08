@@ -1,0 +1,7 @@
+Title: How to Skip Image Export in PDF to HTML – Complete C# Guide
+Slug: how-to-skip-image-export-in-pdf-to-html-complete-c-guide
+Category: conversion-export
+ProcessedDate: 2026-07-20T14:49:20.568757
+SourceRepo: AI Search API
+Keywords: how to skip image export in pdf to html, convert pdf to html without images
+PRNumber: 106

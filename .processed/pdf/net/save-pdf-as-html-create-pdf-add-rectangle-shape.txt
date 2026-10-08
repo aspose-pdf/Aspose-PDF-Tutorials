@@ -1,0 +1,7 @@
+Title: Save PDF as HTML – Create PDF, add rectangle shape
+Slug: save-pdf-as-html-create-pdf-add-rectangle-shape
+Category: conversion-export
+ProcessedDate: 2026-07-14T10:41:51.792380
+SourceRepo: AI Search API
+Keywords: save pdf as html, how to create pdf document, add rectangle shape pdf
+PRNumber: 103

@@ -12,9 +12,8 @@ url: /el/java/advanced-features/aspose-pdf-java-layer-rendering-guide/
 weight: 1
 ---
 
- markdown formatting exactly.
 
-Let's construct final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

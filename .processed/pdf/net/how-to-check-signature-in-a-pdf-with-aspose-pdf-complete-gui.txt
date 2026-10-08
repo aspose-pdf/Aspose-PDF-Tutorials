@@ -1,0 +1,7 @@
+Title: How to Check Signature in a PDF with Aspose.PDF – Complete Guide
+Slug: how-to-check-signature-in-a-pdf-with-aspose-pdf-complete-gui
+Category: digital-signatures
+ProcessedDate: 2026-06-27T23:32:00.697900
+SourceRepo: AI Search API
+Keywords: how to check signature, verify pdf digital signature, validate pdf signature, how to detect compromise, validate digital signature
+PRNumber: 96

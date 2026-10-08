@@ -64,6 +64,14 @@
 
 ### [Πώς να συγκρίνετε PDF σε C# – Πλήρης οδηγός δημιουργίας διαφοράς PDF](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 Μάθετε πώς να συγκρίνετε αρχεία PDF χρησιμοποιώντας C# και το Aspose.PDF, δημιουργώντας ακριβείς διαφορές PDF.
+### [Πώς να εκτελέσετε OCR σε PDF με το Aspose.Pdf – Πλήρης οδηγός C#](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
+Μάθετε πώς να εφαρμόζετε OCR σε αρχεία PDF χρησιμοποιώντας το Aspose.Pdf με C#, βήμα-βήμα οδηγίες.
+
+### [Επεξεργασία διαφάνειας PDF σε C# – Οδηγός βήμα προς βήμα](./edit-pdf-transparency-in-c-step-by-step-guide/)
+Μάθετε πώς να τροποποιείτε τη διαφάνεια των PDF χρησιμοποιώντας το Aspose.PDF για .NET σε C# με βήμα‑βήμα οδηγίες.
+
+### [Αποθήκευση κάθε επιπέδου PDF με το Aspose.Pdf – Οδηγός βήμα προς βήμα](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
+Μάθετε πώς να αποθηκεύετε κάθε επίπεδο PDF χρησιμοποιώντας το Aspose.Pdf με αναλυτικές οδηγίες βήμα προς βήμα.
 
 ## Πρόσθετοι Πόροι
 
