@@ -66,6 +66,8 @@ Aspose.PDF .NET का उपयोग करके C# में PDF फ़ा�
 ### [Aspose के साथ PDF को PNG में रेंडर करने का तरीका – पूर्ण गाइड](./how-to-render-pdf-to-png-with-aspose-complete-guide/)
 Aspose का उपयोग करके .NET में PDF को उच्च-गुणवत्ता वाले PNG छवियों में बदलने के चरण-दर-चरण मार्गदर्शन।
 
+### [C# में docx को PNG में बदलें: एक व्यापक गाइड](./convert-docx-to-png-in-c-complete-guide/)
+
 इस व्यापक गाइड के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF पृष्ठों को उच्च गुणवत्ता वाली BMP छवियों में परिवर्तित करना सीखें।
 
 ### [.NET के लिए Aspose.PDF का उपयोग करके PDF को EMF में बदलें: एक संपूर्ण गाइड](./convert-pdf-emf-aspose-net-guide/)

@@ -273,6 +273,8 @@
 ### [Как сохранить PDF с помощью Aspose – пошаговое руководство](./how-to-save-pdf-with-aspose-step-by-step-guide/)
 Подробное руководство по сохранению PDF-файлов с использованием Aspose.PDF в .NET.
 ### [Конвертировать DOCX в HTML на C# – Полное руководство по программированию](./convert-docx-to-html-in-c-complete-programming-guide/)
+### [Преобразование docx в png на C# – Полное руководство](./convert-docx-to-png-in-c-complete-guide/)
+Узнайте, как преобразовать файлы DOCX в изображения PNG с помощью C# и Aspose.PDF, следуя пошаговым инструкциям и примерам кода.
 
 ## Дополнительные ресурсы
 

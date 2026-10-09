@@ -70,6 +70,8 @@ Lär dig hur du verifierar PDF-lösenord med Aspose.PDF för .NET i C#. Den här
 
 ### [Applicera redigering på PDF med Aspose Plugin Manager – En komplett guide](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
 Lär dig hur du använder Aspose Plugin Manager för att applicera redigering på PDF-dokument med steg-för-steg‑kodexempel.
+### [Hur man raderar PDF och tar bort känslig data i C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+Lär dig hur du raderar känslig information i PDF-filer med Aspose.PDF för .NET i C#.
 
 ## Ytterligare resurser
 

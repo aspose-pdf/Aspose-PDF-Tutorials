@@ -50,7 +50,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Tetapkan Font Default](./setdefaultfont/) | Pelajari cara mengatur font default dalam file PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini. Sempurna bagi pengembang yang ingin menyempurnakan dokumen PDF. Bahasa Indonesia:  
 | [Tetapkan Tanggal Kedaluwarsa](./setexpirydate/) | Pelajari cara menetapkan tanggal kedaluwarsa dalam file PDF menggunakan Aspose.PDF untuk .NET. Tingkatkan keamanan dokumen dengan panduan langkah demi langkah ini. Bahasa Indonesia:  
 | [Atur Info File Dalam File PDF](./setfileinfo/) | Pelajari cara mengatur info file dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Sempurnakan PDF Anda dengan metadata dengan mudah. Bahasa Indonesia:  
-| [Tetapkan Properti untuk Dialog Cetak](./setpropertiesforprintdialog/) Manfaatkan potensi pembuatan PDF dengan Aspose.PDF untuk .NET. Panduan ini membantu Anda mengatur properti cetak dengan mudah. Bahasa Indonesia:  
+| [Tetapkan Properti untuk Dialog Cetak](./setpropertiesforprintdialog/) | Manfaatkan potensi pembuatan PDF dengan Aspose.PDF untuk .NET. Panduan ini membantu Anda mengatur properti cetak dengan mudah. Bahasa Indonesia:  
 | [Tetapkan Metadata XMP Dalam File PDF](./setxmpmetadata/) | Pelajari cara mengatur metadata XMP dalam file PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini memandu Anda melalui seluruh proses, mulai dari pengaturan hingga penyimpanan dokumen. Bahasa Indonesia:  
 | [Mengatur Faktor Zoom Dalam File PDF](./setzoomfactor/) | Pelajari cara mengatur faktor zoom dalam file PDF menggunakan Aspose.PDF untuk .NET. Tingkatkan pengalaman pengguna dengan panduan langkah demi langkah ini. Bahasa Indonesia:  
 | [Kecilkan Dokumen PDF](./shrinkdocuments/) | Pelajari cara mengecilkan dokumen PDF menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah ini. Optimalkan sumber daya PDF dan kurangi ukuran file tanpa mengurangi kualitas. Bahasa Indonesia:  
@@ -62,6 +62,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Cara Memperbaiki File PDF – Panduan Langkah demi Langkah Menggunakan Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Pelajari cara memperbaiki file PDF yang rusak dengan Aspose.Pdf melalui panduan langkah demi langkah yang mudah diikuti. Bahasa Indonesia:  |
 | [Buka File PDF C# – Cara Memperbaiki PDF Rusak dalam Hitungan Menit](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | Pelajari cara membuka file PDF dan memperbaiki PDF yang rusak dalam hitungan menit menggunakan Aspose.PDF untuk .NET dengan C#. |  
 | [Buat plugin Aspose khusus – Panduan Lengkap untuk Mengotomatiskan Pemrosesan PDF](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Pelajari cara membuat plugin Aspose khusus untuk mengotomatiskan proses PDF dengan panduan langkah demi langkah. |  
+| [Tambahkan Penomoran Bates di Word – Panduan Lengkap Langkah demi Langkah](./add-bates-numbering-in-word-complete-step-by-step-guide/) | Pelajari cara menambahkan penomoran Bates ke dokumen Word menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah. Bahasa Indonesia:  
+| [Tambahkan Halaman Kosong dalam Dokumen Word dengan C# – Panduan Lengkap](./add-blank-page-in-word-document-with-c-complete-guide/) | Pelajari cara menambahkan halaman kosong ke dokumen Word menggunakan C# dengan Aspose.PDF for .NET dalam panduan langkah demi langkah ini. Bahasa Indonesia:  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

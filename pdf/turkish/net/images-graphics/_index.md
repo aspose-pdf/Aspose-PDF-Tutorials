@@ -177,6 +177,8 @@ C# ve Aspose.PDF for .NET kullanarak PDF belgelerine dikdörtgen şekilleri ekle
 Aspose.PDF for .NET kullanarak PDF dosyalarını doğrulama ve üzerine dikdörtgen şekli ekleme adımlarını öğrenin.
 ### [.NET için Aspose.PDF ile PDF'e Şekil Ekleme: Adım Adım Kılavuz](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 C# ve Aspose.PDF kullanarak PDF belgelerine şekil eklemeyi, konumlandırmayı ve özelleştirmeyi öğrenin.
+### [Word Belgelerinde Kayıpsız Görüntü Sıkıştırma – Tam Kılavuz](./lossless-image-compression-in-word-docs-complete-guide/)
+Word belgelerindeki görüntüleri kalite kaybı olmadan sıkıştırmayı ve dosya boyutunu azaltmayı öğrenin.
 
 ## Ek Kaynaklar
 

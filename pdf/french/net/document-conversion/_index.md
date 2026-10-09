@@ -79,6 +79,8 @@ Vous apprendrez à définir les paramètres de conversion, à extraire du texte 
 | [Créer un élément span et l'ajouter à la page – Convertir DOCX en PDF](./create-span-element-and-add-to-page-convert-docx-to-pdf/) | Apprenez à créer un élément span et l'ajouter à une page lors de la conversion d'un fichier DOCX en PDF avec Aspose.PDF pour .NET. |
 | [Créer du HTML à partir d'un PDF avec Aspose.PDF – Guide étape par étape](./create-html-from-pdf-with-aspose-pdf-step-by-step-guide/) | Apprenez à générer du HTML à partir d'un PDF avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |  
 | [Convertir PDF en 2.0 – Guide complet ASP.NET avec journalisation des erreurs](./convert-pdf-to-2-0-full-asp-net-guide-with-error-logging/) | Apprenez à convertir un PDF au format 2.0 avec Aspose.PDF pour .NET, en suivant un guide complet ASP.NET incluant la journalisation des erreurs. |  
+| [Convertir PDF en PDF/X‑1A avec gestion des couleurs en C#](./convert-pdf-to-pdf-x-1a-with-color-management-in-c/) | Apprenez à convertir un PDF en PDF/X‑1A avec gestion des couleurs en C# à l'aide d'Aspose.PDF pour .NET. |
+| [Convertir DOCX en HTML en C# – Guide complet](./convert-docx-to-html-in-c-complete-guide/) | Apprenez à convertir des fichiers DOCX en HTML avec Aspose.PDF pour .NET en C# grâce à ce guide complet étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

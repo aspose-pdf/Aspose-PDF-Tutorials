@@ -180,6 +180,9 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET komplexe LaTeX-Skripte in PDF-Dok
 ### [Bildhintergründe in PDFs mit Aspose.PDF für .NET festlegen: Eine umfassende Anleitung](./aspose-pdf-net-set-image-backgrounds/)
 Erfahren Sie, wie Sie Ihre PDF-Dokumente mit Aspose.PDF für .NET durch die Einrichtung von Bildhintergründen optimieren. Diese Anleitung enthält Tipps zur Einrichtung, Implementierung und Optimierung.
 
+### [Verlustfreie Bildkompression in Word-Dokumenten – Komplettanleitung](./lossless-image-compression-in-word-docs-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET verlustfreie Bildkompression in Word-Dokumenten durchführen.
+
 ## Weitere Ressourcen
 
 - [Aspose.PDF für Net-Dokumentation](https://docs.aspose.com/pdf/net/)

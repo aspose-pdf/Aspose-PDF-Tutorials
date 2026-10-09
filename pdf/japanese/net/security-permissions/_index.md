@@ -71,6 +71,9 @@ C#でAspose.PDF for .NETを使用して、保護されたPDFファイルのロ�
 ### [Aspose.PDF .NET で PDF パスワードを検証: セキュリティと権限に関するステップバイステップガイド](./verify-pdf-passwords-aspose-dot-net-guide/)
 C#でAspose.PDF for .NETを使用してPDFのパスワードを検証する方法を学びましょう。この包括的なガイドは、ドキュメントのセキュリティとアクセス制御を簡素化します。
 
+### [C# で PDF を編集し機密データを削除する方法](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+Aspose.PDF for .NET を使用して、C# で PDF の編集（レダクション）と機密情報の除去を行う手順を解説します。
+
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)

@@ -37,6 +37,7 @@
 | [Обновить бесплатную текстовую аннотацию PDF](./updatefreetextannotation/) Узнайте, как обновлять свободные текстовые аннотации в документах PDF с помощью Aspose.PDF для .NET с помощью этого пошагового руководства. |  
 | [Как использовать Repair в Aspose.PDF – исправление повреждённых аннотаций](./how-to-use-repair-in-aspose-pdf-fix-broken-annotations/) | Узнайте, как использовать функцию Repair в Aspose.PDF для исправления повреждённых аннотаций в PDF‑файлах. |  
 | [Добавить аннотацию PDF с Aspose.PDF - Полное руководство](./add-annotation-pdf-with-aspose-pdf-complete-guide/) | Подробное руководство по добавлению аннотаций в PDF с помощью Aspose.PDF для .NET, включая примеры кода и пошаговые инструкции. |
+| [Нарисовать прямоугольник в PDF с C# – пошаговое руководство](./draw-rectangle-on-pdf-with-c-step-by-step-guide/) | Узнайте, как с помощью Aspose.PDF для .NET нарисовать прямоугольник в PDF-файле, используя C# в пошаговом руководстве. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

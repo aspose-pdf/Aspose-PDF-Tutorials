@@ -112,6 +112,9 @@ Ismerje meg, hogyan renderelhet PDF fájlokat PNG képekké C#-ban az Aspose.PDF
 ### [PDF renderelése PNG-be Aspose segítségével – Teljes útmutató](./how-to-render-pdf-to-png-with-aspose-complete-guide/)
 Ismerje meg, hogyan konvertálhat PDF fájlokat PNG képekké az Aspose segítségével részletes, lépésről-lépésre útmutatóval.
 
+### [DOCX konvertálása PNG-re C#-ban – Teljes útmutató](./convert-docx-to-png-in-c-complete-guide/)
+Ismerje meg, hogyan konvertálhat DOCX dokumentumokat PNG képekké C# és Aspose.PDF for .NET segítségével.
+
 ### [PDF konvertálása PPTX-be az Aspose.PDF for .NET segítségével: lépésről lépésre útmutató](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 Ismerje meg, hogyan konvertálhat hatékonyan PDF dokumentumokat PowerPoint prezentációkká az Aspose.PDF for .NET segítségével. Ez a lépésről lépésre szóló útmutató bemutatja az alapvető konveriót, a speciális funkciókat, például a diákat és a folyamatkövetést.
 

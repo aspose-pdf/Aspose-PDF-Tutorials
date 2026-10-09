@@ -86,6 +86,8 @@ Hướng dẫn cách lưu tài liệu PDF dưới dạng PNG và sau đó chuy�
 Tìm hiểu cách chuyển đổi PDF sang PNG trong C# với hướng dẫn chi tiết, bao gồm các tùy chọn cấu hình và tối ưu hoá chất lượng ảnh.
 ### [Aspose PDF sang PNG – Xuất trang đầu tiên với độ phân giải 300 DPI](./aspose-pdf-to-png-export-first-page-at-300-dpi/)
 Hướng dẫn xuất trang đầu tiên của tài liệu PDF thành hình ảnh PNG với độ phân giải 300 DPI bằng Aspose.PDF cho .NET.
+### [Chuyển đổi docx sang png trong C# – Hướng dẫn toàn diện](./convert-docx-to-png-in-c-complete-guide/)
+Tìm hiểu cách chuyển đổi tài liệu DOCX thành hình ảnh PNG trong C# bằng Aspose.PDF, bao gồm các bước cấu hình và ví dụ mã thực tế.
 
 ### [Chuyển đổi PDF sang PPTX bằng Aspose.PDF cho .NET: Hướng dẫn từng bước](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 Tìm hiểu cách chuyển đổi hiệu quả các tài liệu PDF thành bản trình bày PowerPoint bằng Aspose.PDF cho .NET. Hướng dẫn từng bước này bao gồm chuyển đổi cơ bản, các tính năng nâng cao như slide hình ảnh và theo dõi tiến trình.

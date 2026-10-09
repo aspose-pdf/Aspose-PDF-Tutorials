@@ -70,6 +70,8 @@
 
 ### [ใช้การลบข้อมูลใน PDF ด้วย Aspose Plugin Manager – คู่มือฉบับสมบูรณ์](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
 เรียนรู้วิธีใช้ Aspose Plugin Manager เพื่อลบข้อมูลที่ไม่ต้องการจาก PDF อย่างละเอียด
+### [วิธีลบข้อมูลลับจาก PDF และลบข้อมูลที่เป็นความลับด้วย C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+เรียนรู้วิธีลบข้อมูลที่เป็นความลับจากไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ใน C# พร้อมตัวอย่างโค้ดขั้นตอนเต็ม
 
 ## แหล่งข้อมูลเพิ่มเติม
 

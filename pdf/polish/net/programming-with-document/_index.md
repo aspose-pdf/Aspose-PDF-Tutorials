@@ -62,6 +62,8 @@ Zasób zawiera samouczki dotyczące programowania funkcji dokumentu w bibliotece
 | [Otwórz plik PDF C# – Jak naprawić uszkodzony PDF w kilka minut](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | Dowiedz się, jak otworzyć plik PDF w C# i naprawić uszkodzony dokument w kilka minut przy użyciu Aspose.PDF dla .NET. |
 | [Jak odczytać dokument Word i wyodrębnić określoną stronę – przewodnik C#](./how-to-read-word-document-and-extract-specific-page-from-wor/) | Dowiedz się, jak w C# odczytać dokument Word i wyodrębnić wybraną stronę przy użyciu Aspose.Words. |  
 | [Utwórz własną wtyczkę Aspose – Kompletny przewodnik automatyzacji przetwarzania PDF](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Dowiedz się, jak stworzyć własną wtyczkę Aspose, aby zautomatyzować przetwarzanie plików PDF przy użyciu .NET. |  
+| [Dodaj pustą stronę w dokumencie Word przy użyciu C# – Kompletny przewodnik](./add-blank-page-in-word-document-with-c-complete-guide/) | Dowiedz się, jak dodać pustą stronę do dokumentu Word przy użyciu C# w tym kompletnym przewodniku krok po kroku. |  
+| [Dodaj numerację Bates w Wordzie – Kompletny przewodnik krok po kroku](./add-bates-numbering-in-word-complete-step-by-step-guide/) | Dowiedz się, jak dodać numerację Bates w dokumentach Word przy użyciu Aspose.Words dla .NET. Szczegółowy przewodnik krok po kroku. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

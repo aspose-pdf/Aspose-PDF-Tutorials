@@ -210,6 +210,9 @@ Master Aspose.PDF για .NET για απρόσκοπτη μετατροπή δ�
 ### [Μετατροπή docx σε html σε C# – Πλήρης Προγραμματιστικός Οδηγός](./convert-docx-to-html-in-c-complete-programming-guide/)
 Μάθετε πώς να μετατρέπετε αρχεία docx σε HTML χρησιμοποιώντας C# και Aspose.PDF με πλήρη παραδείγματα κώδικα.
 
+### [Μετατροπή docx σε png σε C# – Πλήρης οδηγός](./convert-docx-to-png-in-c-complete-guide/)
+Μάθετε πώς να μετατρέψετε αρχεία DOCX σε εικόνες PNG με C# και Aspose.PDF, ακολουθώντας έναν πλήρη βήμα-βήμα οδηγό.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.PDF για τεκμηρίωση δικτύου](https://docs.aspose.com/pdf/net/)

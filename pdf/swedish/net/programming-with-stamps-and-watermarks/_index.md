@@ -58,6 +58,7 @@ Aspose.PDFs handledningar "Programmering med stämplar och vattenstämplar" för
 | [Hur man lägger till Bates-nummerering i PDF med C# – Komplett guide](./how-to-add-bates-numbering-in-pdf-with-c-complete-guide/) | Lär dig hur du implementerar Bates-nummerering i PDF-dokument med Aspose.PDF för .NET i C#. |
 | [Lägg till Bates-nummerering i PDF – Komplett guide med Aspose](./add-bates-numbering-pdf-complete-guide-with-aspose/) | Lär dig hur du lägger till Bates-nummerering i PDF-filer med Aspose.PDF för .NET i en steg-för-steg-guide. |  
 | [Lägg till Bates-nummerering i PDF i C# – Komplett steg‑för‑steg‑guide](./add-bates-numbering-to-pdf-in-c-complete-step-by-step-guide/) | Lär dig hur du lägger till Bates‑nummerering i PDF‑dokument med Aspose.PDF för .NET i en komplett steg‑för‑steg‑guide. |  
+| [Skapa textvattenstämpel i Word med Aspose.Words – Komplett guide](./create-text-watermark-in-word-with-aspose-words-complete-gui/) | Lär dig hur du skapar ett textvattenstämpel i ett Word-dokument med Aspose.Words genom en steg-för-steg-guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

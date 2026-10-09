@@ -58,6 +58,8 @@
 - [ตรวจสอบมาตรฐาน PDF AB](./validatepdfabstandard/) เรียนรู้วิธีการตรวจสอบ PDF สำหรับมาตรฐาน PDF/A-1b โดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนแบบทีละขั้นตอนนี้ รับรองว่าเป็นไปตามข้อกำหนดสำหรับการเก็บถาวรในระยะยาว -  
 | [ตรวจสอบไฟล์ PDF เป็นมาตรฐาน](./validatepdfastandard/) | เรียนรู้วิธีการตรวจสอบไฟล์ PDF ตามมาตรฐาน PDF/A-1a โดยใช้ Aspose.PDF สำหรับ .NET ในบทช่วยสอนทีละขั้นตอนที่ครอบคลุมนี้  
 - [ตรวจสอบมาตรฐาน PDF UA](./validatepdfuastandard/) | เรียนรู้วิธีการตรวจสอบ PDF สำหรับมาตรฐานการเข้าถึง PDF/UA โดยใช้ Aspose.PDF สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนและคำอธิบายโดยละเอียดของเรา  
+- [เพิ่มหมายเลข Bates ใน Word – คู่มือขั้นตอนเต็ม](./add-bates-numbering-in-word-complete-step-by-step-guide/) | เรียนรู้วิธีเพิ่มหมายเลข Bates ในเอกสาร Word อย่างละเอียดด้วยขั้นตอนครบถ้วนโดยใช้ Aspose.Words สำหรับ .NET
+- [เพิ่มหน้าเปล่าในเอกสาร Word ด้วย C# – คู่มือเต็ม](./add-blank-page-in-word-document-with-c-complete-guide/) | เรียนรู้วิธีเพิ่มหน้าเปล่าในไฟล์ Word ด้วย C# โดยใช้ Aspose.Words สำหรับ .NET อย่างละเอียดในขั้นตอนครบถ้วน
 | [สร้างปลั๊กอิน Aspose แบบกำหนดเอง – คู่มือฉบับสมบูรณ์เพื่ออัตโนมัติการประมวลผล PDF](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | เรียนรู้วิธีสร้างปลั๊กอิน Aspose ของคุณเองเพื่ออัตโนมัติการประมวลผล PDF ด้วยขั้นตอนละเอียด  
 - [วิธีซ่อมไฟล์ PDF – คู่มือขั้นตอนโดยใช้ Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | เรียนรู้วิธีซ่อมแซมไฟล์ PDF ด้วย Aspose.Pdf สำหรับ .NET อย่างละเอียดในขั้นตอนง่าย ๆ  
 - [เปิดไฟล์ PDF ด้วย C# – วิธีซ่อมแซม PDF ที่เสียหายในไม่กี่นาที](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | เรียนรู้วิธีเปิดไฟล์ PDF ด้วย C# และซ่อมแซมไฟล์ PDF ที่เสียหายในไม่กี่นาทีด้วย Aspose.PDF สำหรับ .NET  

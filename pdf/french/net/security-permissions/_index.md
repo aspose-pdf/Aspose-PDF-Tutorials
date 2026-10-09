@@ -64,6 +64,8 @@ Apprenez à rédiger des PDF en toute sécurité avec Aspose.PDF .NET. Ce guide 
 
 ### [Appliquer la rédaction à un PDF avec Aspose Plugin Manager – Guide complet](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
 Apprenez à appliquer la rédaction sur des PDF en utilisant Aspose Plugin Manager, avec un guide complet étape par étape.
+### [Comment rédiger un PDF et supprimer les données sensibles d'un PDF en C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+Apprenez à masquer les informations confidentielles et à supprimer les données sensibles d'un PDF avec Aspose.PDF pour .NET en C#.
 
 ### [Décrypter et déverrouiller des fichiers PDF avec Aspose.PDF pour .NET : guide complet](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 Découvrez comment déverrouiller et déchiffrer des fichiers PDF protégés avec Aspose.PDF pour .NET en C#. Ce guide couvre la configuration, les étapes de déchiffrement et les bonnes pratiques.

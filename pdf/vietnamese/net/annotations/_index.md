@@ -37,6 +37,7 @@ Một bộ sưu tập toàn diện các hướng dẫn giới thiệu cách làm
 | [Cập nhật chú thích PDF văn bản miễn phí](./updatefreetextannotation/) Tìm hiểu cách cập nhật chú thích văn bản tự do trong tài liệu PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. |  
 | [Cách Sử Dụng Repair trong Aspose.PDF – Sửa Các Chú Thích Bị Hỏng](./how-to-use-repair-in-aspose-pdf-fix-broken-annotations/) Hướng dẫn sử dụng tính năng Repair của Aspose.PDF để khôi phục và sửa chữa các chú thích bị hỏng trong tài liệu PDF. |  
 | [Thêm chú thích PDF với Aspose.PDF - Hướng dẫn đầy đủ](./add-annotation-pdf-with-aspose-pdf-complete-guide/) | Hướng dẫn chi tiết cách thêm chú thích vào PDF bằng Aspose.PDF cho .NET, bao gồm các bước và mã mẫu đầy đủ. |  
+| [Vẽ hình chữ nhật trên PDF bằng C# – Hướng dẫn từng bước](./draw-rectangle-on-pdf-with-c-step-by-step-guide/) | Hướng dẫn chi tiết cách vẽ hình chữ nhật trong PDF bằng Aspose.PDF cho .NET với C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

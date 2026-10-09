@@ -39,6 +39,7 @@
 | [PDF 轉 PDFA](./pdf-to-pdfa/) |透過本逐步教學了解如何使用 Aspose.PDF for .NET 將 PDF 檔案轉換為 PDF/A 格式。 |
 | [PDF 轉 PDFA3b](./pdf-to-pdfa3b/) |透過本逐步指南學習如何使用 Aspose.PDF for .NET 輕鬆地將 PDF 文件轉換為 PDF/A-3B 格式。 |
 | [從 Word 建立 HTML – 完整指南：將 DOCX 轉換為 HTML](./create-html-from-word-complete-guide-to-convert-docx-to-html/) |透過本完整指南了解如何使用 Aspose.PDF for .NET 將 Word（DOCX）檔案轉換為 HTML。 |
+| [在 C# 中將 DOCX 轉換為 HTML – 完整指南](./convert-docx-to-html-in-c-complete-guide/) |本完整指南說明如何使用 Aspose.PDF for .NET 在 C# 中將 DOCX 檔案轉換為 HTML，包含程式碼範例與步驟說明。 |
 | [PDF 轉 PNG 字體提示](./pdf-to-png-font-hinting/) |透過簡單的逐步指南學習如何使用 Aspose.PDF for .NET 將 PDF 轉換為帶有字體提示的 PNG。 |
 | [PDF 轉 PNG 教學 – 在 C# 中將 PDF 頁面轉換為 PNG](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) |了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 頁面轉換為 PNG 圖像。 |
 | [PDF轉PPT](./pdf-to-ppt/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 PPT。簡單、高效，非常適合演示。 |  
@@ -79,6 +80,7 @@
 | [將 PDF 轉換為 2.0 – 完整 ASP.NET 指南與錯誤記錄](./convert-pdf-to-2-0-full-asp-net-guide-with-error-logging/) |透過本完整的 ASP.NET 教學，了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 2.0 並實作錯誤記錄。 |  
 | [Aspose PDF 轉換教學 – 將 PDF 轉換為 PDF/X‑4 步驟說明](./aspose-pdf-conversion-tutorial-convert-pdfs-to-pdf-x-4-step/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 轉換為 PDF/X‑4 格式。 |
 | [載入 PDF 文件並轉換為 PDF/X‑4 – 完整指南](./load-pdf-document-and-convert-to-pdf-x-4-complete-guide/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 C# 中載入 PDF 並將其轉換為 PDF/X‑4 格式。 |
+| [在 C# 中將 PDF 轉換為 PDF/X-1A 並使用色彩管理](./convert-pdf-to-pdf-x-1a-with-color-management-in-c/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 轉換為 PDF/X-1A，並應用色彩管理。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

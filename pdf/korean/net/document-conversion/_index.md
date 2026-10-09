@@ -53,6 +53,7 @@
 | [Aspose PDF 튜토리얼: C#에서 PDF를 로드하고 PDF/X‑4로 변환하기](./aspose-pdf-tutorial-load-and-convert-pdfs-to-pdf-x-4-in-c/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 파일을 로드하고 PDF/X‑4 형식으로 변환하는 단계별 가이드입니다. |  
 | [Aspose PDF 변환 튜토리얼 – PDF를 PDF/X‑4로 단계별 변환](./aspose-pdf-conversion-tutorial-convert-pdfs-to-pdf-x-4-step/) | Aspose.PDF for .NET을 사용하여 PDF를 PDF/X‑4 형식으로 변환하는 단계별 가이드입니다. |
 | [PDF 문서를 로드하고 PDF/X‑4로 변환 – 완전 가이드](./load-pdf-document-and-convert-to-pdf-x-4-complete-guide/) | Aspose.PDF for .NET을 사용하여 PDF 문서를 로드하고 PDF/X‑4 형식으로 변환하는 단계별 완전 가이드입니다. |
+| [C#에서 색상 관리와 함께 PDF를 PDF/X-1A로 변환](./convert-pdf-to-pdf-x-1a-with-color-management-in-c/) | Aspose.PDF for .NET을 사용하여 색상 관리 옵션을 적용하면서 PDF를 PDF/X-1A 형식으로 변환하는 단계별 가이드입니다. |
 | [PDF를 PNG로 변환하는 글꼴 힌팅](./pdf-to-png-font-hinting/) | Aspose.PDF for .NET을 사용하여 간단한 단계별 가이드로 글꼴 힌팅을 적용하여 PDF를 PNG로 변환하는 방법을 알아보세요. |  
 | [PDF를 PNG로 변환하는 튜토리얼 – C#에서 PDF 페이지를 PNG로 변환](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Aspose.PDF for .NET을 사용하여 PDF 페이지를 PNG 이미지로 변환하는 방법을 단계별로 안내합니다. |
 | [PDF를 PPT로](./pdf-to-ppt/) | Aspose.PDF for .NET을 사용하여 PDF를 PPT로 변환하는 방법을 단계별 가이드를 통해 알아보세요. 쉽고 효율적이며 프레젠테이션에 적합합니다. |  
@@ -79,6 +80,7 @@
 | [C#에서 PDF 변환 옵션 설정 방법 – Aspose 가이드](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 변환 옵션을 설정하는 단계별 가이드입니다. |
 | [Aspose.PDF로 PDF를 HTML로 저장 – 단계별 C# 가이드](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) | Aspose.PDF for .NET을 사용하여 PDF를 HTML 파일로 저장하는 방법을 단계별 C# 예제로 안내합니다. |
 | [PDF를 2.0으로 변환 – 오류 로깅이 포함된 전체 ASP.NET 가이드](./convert-pdf-to-2-0-full-asp-net-guide-with-error-logging/) | Aspose.PDF for .NET을 사용하여 PDF를 2.0 형식으로 변환하고 오류 로깅을 구현하는 전체 ASP.NET 단계별 가이드입니다. |  
+| [C#에서 DOCX를 HTML로 변환하는 완전 가이드](./convert-docx-to-html-in-c-complete-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 DOCX 파일을 HTML로 변환하는 단계별 가이드를 제공합니다. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

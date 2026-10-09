@@ -57,6 +57,7 @@ Bu eğitimler ayrıca anlamanızı ve öğrenmenizi kolaylaştırmak için ayrı
 | [PDF Belgesi Oluşturma C# – Çok Sayfalı Formlar İçin Adım Adım Kılavuz](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Aspose.PDF for .NET kullanarak C# ile çok sayfalı PDF formları oluşturmayı adım adım öğrenin. |  
 | [C# ile Aspose.Pdf Kullanarak Çok Sayfalı Form Oluşturma – Adım Adım Kılavuz](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | Aspose.PDF for .NET kullanarak C# dilinde çok sayfalı PDF formları oluşturmayı adım adım öğrenin. |
 | [PDF Formuna Metin Kutusu Ekle – Tam C# Rehberi](./add-text-box-to-pdf-form-complete-c-guide/) | Aspose.PDF for .NET kullanarak PDF formlarına metin kutusu eklemeyi adım adım öğrenin. |
+| [PDF Metin Kutusu Alanı Oluştur – Adım Adım Kılavuz](./create-pdf-textbox-field-step-by-step-guide/) | Bu adım adım rehberde Aspose.PDF for .NET kullanarak PDF belgesine metin kutusu alanı eklemeyi öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

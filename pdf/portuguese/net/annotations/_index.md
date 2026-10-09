@@ -37,6 +37,7 @@ Uma coleção abrangente de tutoriais que mostram como trabalhar com anotações
 | [Atualizar anotação de PDF de texto livre](./updatefreetextannotation/) Aprenda como atualizar anotações de texto livre em documentos PDF usando o Aspose.PDF para .NET com este guia passo a passo. |  
 | [Como usar Repair no Aspose.PDF – Corrigir anotações quebradas](./how-to-use-repair-in-aspose-pdf-fix-broken-annotations/) | Aprenda a usar o recurso Repair do Aspose.PDF para .NET e corrigir anotações danificadas em PDFs de forma simples. |
 | [Adicionar anotação PDF com Aspose.PDF - Guia completo](./add-annotation-pdf-with-aspose-pdf-complete-guide/) | Aprenda passo a passo como adicionar anotações a PDFs usando Aspose.PDF para .NET neste guia completo. |
+| [Desenhar Retângulo em PDF com C# – Guia Passo a Passo](./draw-rectangle-on-pdf-with-c-step-by-step-guide/) | Aprenda a desenhar retângulos em PDFs usando Aspose.PDF para .NET com C# neste tutorial passo a passo. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

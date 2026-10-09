@@ -64,6 +64,8 @@ Naučte se, jak bezpečně redigovat PDF soubory pomocí Aspose.PDF .NET. Tato p
 
 ### [Použití redakce PDF s Aspose Plugin Manager – Kompletní průvodce](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
 Naučte se, jak pomocí Aspose Plugin Manager aplikovat redakci na PDF soubory a zabezpečit citlivý obsah.
+### [Jak redigovat PDF a odstranit citlivá data v C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+Naučte se, jak pomocí Aspose.PDF pro .NET redigovat PDF soubory a odstranit citlivé informace v C#.
 
 ### [Odemkněte a dešifrujte PDF soubory pomocí Aspose.PDF pro .NET: Kompletní průvodce](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 Naučte se, jak odemknout a dešifrovat chráněné soubory PDF pomocí Aspose.PDF pro .NET v C#. Tato příručka popisuje nastavení, kroky dešifrování a osvědčené postupy.

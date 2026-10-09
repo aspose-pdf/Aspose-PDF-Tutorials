@@ -51,11 +51,12 @@ Aspose.PDF'nin .NET için "Pullar ve Filigranlarla Programlama" öğreticileri, 
 | [C# ile PDF'lere Bates Numaralandırması Ekle – Tam Kılavuz](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF dosyalarına Bates numaralandırması eklemeyi adım adım öğrenin. |
 | [Aspose ile PDF'lere Bates Numaralandırma Ekle – Tam Kılavuz](./add-bates-numbering-to-pdfs-with-aspose-complete-guide/) | Aspose.PDF for .NET kullanarak PDF dosyalarına Bates numaralandırması eklemeyi adım adım öğrenin. |  
 | [Aspose ile PDF'e Bates Numaralandırması Ekle – Tam Kılavuz](./add-bates-numbering-pdf-complete-guide-with-aspose/) | Aspose.PDF for .NET kullanarak PDF dosyalarına Bates numaralandırması eklemeyi adım adım öğrenin. |  
+| [Üstbilgi Altbilgi Bölümünde Resim ve Sayfa Numarası Satır İçi](./image-and-page-number-in-header-footer-section-inline/) | Aspose.PDF for .NET'i kullanarak PDF'in başlık bölümüne satır içi resim ve sayfa numarasının nasıl ekleneceğini bu adım adım kılavuzla öğrenin.  
+| [Başlıktaki Resim](./image-in-header/) | Bu adım adım eğitimde Aspose.PDF for .NET kullanarak PDF'nin başlığına nasıl resim ekleneceğini öğrenin.  
+| [Aspose.Words ile Word'te Metin Filigranı Oluşturma – Tam Kılavuz](./create-text-watermark-in-word-with-aspose-words-complete-gui/) | Aspose.Words for .NET kullanarak Word belgelerine metin filigranı eklemeyi adım adım öğrenin. |
 
 | [C# ile Bates Numaralandırma PDF Ekle – Tam Kılavuz](./add-bates-numbering-pdf-in-c-complete-guide/) | Aspose.PDF for .NET kullanarak PDF dosyalarına Bates numaralandırma eklemeyi adım adım öğrenin. |  
 | [PDF Dosyasında Hizalamayı Tanımla](./define-alignment/) | Bu kılavuz, .NET için Aspose.PDF'yi kullanarak PDF dosyalarında metin hizalamasının nasıl tanımlanacağını adım adım bir eğitimle birlikte ele almaktadır. |
-| [Üstbilgi Altbilgi Bölümünde Resim ve Sayfa Numarası Satır İçi](./image-and-page-number-in-header-footer-section-inline/) | Aspose.PDF for .NET'i kullanarak PDF'in başlık bölümüne satır içi resim ve sayfa numarasının nasıl ekleneceğini bu adım adım kılavuzla öğrenin. |
-| [Başlıktaki Resim](./image-in-header/) | Bu adım adım eğitimde Aspose.PDF for .NET kullanarak PDF'nin başlığına nasıl resim ekleneceğini öğrenin. |
 | [Bates Numarası Ekleme – PDF'ler için Adım Adım Kılavuz](./how-to-add-bates-step-by-step-guide-for-pdfs/) | Aspose.PDF for .NET kullanarak PDF belgelerine Bates numarası eklemeyi öğrenin. |
 | [Aspose.PDF ile PDF Şeffaflığını Değiştir – Tam C# Rehberi](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) | Aspose.PDF for .NET kullanarak PDF dosyasının şeffaflığını ayarlamayı adım adım öğrenin. |  
 | [C# ile PDF'e Bates Numaralandırması Ekleme – Tam Kılavuz](./how-to-add-bates-numbering-in-pdf-with-c-complete-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF dosyalarına Bates numaralandırması eklemeyi adım adım öğrenin. |

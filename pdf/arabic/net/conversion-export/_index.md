@@ -245,6 +245,8 @@
 ### [كيفية تصدير PDF إلى HTML في C# – دليل Aspose الكامل](./how-to-export-pdf-to-html-in-c-complete-aspose-guide/)
 ### [تحويل docx إلى html في C# – دليل برمجة كامل](./convert-docx-to-html-in-c-complete-programming-guide/)
 دليل شامل يوضح كيفية تحويل مستندات docx إلى HTML باستخدام C# و Aspose.PDF.
+### [تحويل docx إلى png في C# – دليل شامل](./convert-docx-to-png-in-c-complete-guide/)
+دليل خطوة بخطوة لتحويل ملفات docx إلى صور PNG باستخدام C# و Aspose.PDF.
 
 ## موارد إضافية
 

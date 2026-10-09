@@ -37,6 +37,7 @@ Een uitgebreide verzameling tutorials die laten zien hoe u met annotaties in PDF
 | [Gratis tekst PDF-annotatie bijwerken](./updatefreetextannotation/) Leer hoe u vrije tekstannotaties in PDF-documenten kunt bijwerken met Aspose.PDF voor .NET met deze stapsgewijze handleiding. |  
 | [Hoe Repair te gebruiken in Aspose.PDF – Defecte annotaties repareren](./how-to-use-repair-in-aspose-pdf-fix-broken-annotations/) | Leer hoe u met de Repair-functie defecte annotaties in PDF's kunt herstellen met Aspose.PDF voor .NET. |
 | [PDF-annotatie toevoegen met Aspose.PDF - Complete gids](./add-annotation-pdf-with-aspose-pdf-complete-guide/) | Leer stap voor stap hoe u annotaties aan PDF-bestanden toevoegt met Aspose.PDF voor .NET in deze uitgebreide gids. |
+| [Rechthoek tekenen in PDF met C# – Stapsgewijze handleiding](./draw-rectangle-on-pdf-with-c-step-by-step-guide/) | Leer hoe u een rechthoek op een PDF tekent met C# in deze stapsgewijze handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

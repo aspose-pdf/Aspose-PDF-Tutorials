@@ -77,7 +77,7 @@ Kód oktatóanyag az Aspose.PDF Nethez
 Tanuld meg, hogyan zsugoríthatod a képeket a PDF fájlokban az Aspose.PDF for .NET segítségével, csökkentve a fájlméretet a minőség megőrzése mellett. Tökéletes a gyorsabb betöltéshez és a hatékony tároláshoz.
 
 ### [Hogyan adhatunk képlábléceket PDF-ekhez Aspose.PDF .NET használatával C#-ban](./aspose-pdf-net-add-image-footers-pdfs/)
-Tanuld meg, hogyan adhatsz hozzá képes lábléceket PDF-dokumentumaidhoz az Aspose.PDF for .NET segítségével ezzel a lépésről lépésre szóló útmutatóval. Tökéletes arculattervezéshez és testreszabáshoz.
+Tanuld meg, hogyan adhatsz hozzá képes lábléceket PDF-dokumentumaidhoz az Aspose.PDF for .NET segítségével ezzel a lépésről lépésre szóló útmutatóval. Tökéletes arculattervezéshez és testreszabához.
 
 ### [Képek és szöveg hozzáadása PDF-ekhez az Aspose.PDF for .NET segítségével: lépésről lépésre útmutató](./adding-images-text-pdfs-aspose-pdf-dotnet/)
 Tanuld meg, hogyan adhatsz hozzá képeket és szöveget PDF-ekhez az Aspose.PDF for .NET segítségével. Ez az átfogó útmutató mindent lefed a beállítástól a megvalósításig, így tökéletes a dokumentumszerkesztési készségeid fejlesztéséhez.
@@ -179,6 +179,8 @@ Ismerje meg, hogyan javíthatja PDF-dokumentumait képhátterek beállításáva
 Tanuld meg, hogyan adhat hozzá átlátszó elemeket PDF-dokumentumokhoz az Aspose.PDF for .NET segítségével C#-ban.
 ### [PDF validálása és téglalap hozzáadása – Teljes útmutató](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
 Tanulja meg, hogyan ellenőrizheti a PDF-et, és adhat hozzá téglalap alakzatot az Aspose.PDF for .NET segítségével.
+### [Veszteségmentes képtömörítés Word dokumentumokban – Teljes útmutató](./lossless-image-compression-in-word-docs-complete-guide/)
+Ismerje meg, hogyan tömörítheti veszteségmentesen a képeket Word dokumentumokban az Aspose.Words for .NET segítségével.
 
 ## További források
 

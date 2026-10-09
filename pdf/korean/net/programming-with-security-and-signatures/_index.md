@@ -54,6 +54,8 @@
 | [Aspose.PDF로 PDF 서명 유효성 검사 – 완전한 C# 가이드](./check-pdf-signature-validity-with-aspose-pdf-complete-c-guid/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 서명의 유효성을 확인하는 방법을 단계별로 안내합니다. |  
 | [Aspose.PDF를 사용한 디지털 서명 PDF 검증 – 완전한 C# 가이드](./verify-digital-signature-pdf-with-aspose-pdf-complete-c-guid/) | Aspose.PDF for .NET을 사용하여 C#에서 디지털 서명된 PDF를 검증하는 방법을 단계별로 안내합니다. |
 | [Aspose.PDF를 사용한 PDF 서명 검증 – 완전한 C# 가이드](./verify-pdf-signature-with-aspose-pdf-complete-c-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 서명을 검증하는 방법을 단계별로 안내합니다. |
+| [C#에서 Validator 사용 – 서명 유효성 검사 완전 가이드](./how-to-use-validator-in-c-complete-guide-to-checking-signatu/) | Aspose.PDF for .NET을 사용하여 C#에서 Validator로 디지털 서명의 유효성을 확인하는 방법을 단계별로 안내합니다. |
+| [Bates 번호 매기기 PDF 추가 – 서명 및 변환 포함 완전 C# 가이드](./add-bates-numbering-pdf-complete-c-guide-with-signing-conver/) | Aspose.PDF for .NET을 사용하여 PDF에 Bates 번호를 추가하고 서명 및 변환하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -82,6 +82,8 @@
 | [Aspose PDF रूपांतरण ट्यूटोरियल – PDF को PDF/X‑4 में चरण‑दर‑चरण परिवर्तित करें](./aspose-pdf-conversion-tutorial-convert-pdfs-to-pdf-x-4-step/) | इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X‑4 फ़ॉर्मेट में बदलना सीखें। |
 | [PDF दस्तावेज़ लोड करें और PDF/X‑4 में परिवर्तित करें – पूर्ण गाइड](./load-pdf-document-and-convert-to-pdf-x-4-complete-guide/) | इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF को लोड करके PDF/X‑4 फ़ॉर्मेट में बदलना सीखें। |
 
+| [C# में DOCX को HTML में बदलें – पूर्ण गाइड](./convert-docx-to-html-in-c-complete-guide/) | इस चरण-दर-चरण गाइड में .NET के लिए Aspose.PDF का उपयोग करके C# में DOCX फ़ाइलों को HTML में बदलना सीखें। |
+| [C# में रंग प्रबंधन के साथ PDF को PDF/X-1A में बदलें](./convert-pdf-to-pdf-x-1a-with-color-management-in-c/) | इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.PDF का उपयोग करके C# में रंग प्रबंधन के साथ PDF को PDF/X-1A में बदलना सीखें। |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

@@ -58,6 +58,8 @@ Scopri come convertire le pagine PDF in immagini PNG di alta qualità utilizzand
 
 ### [Salva PDF come PNG e converti in PDF/X‑1a con Aspose PDF](./save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf/)
 Scopri come salvare un PDF in PNG e convertirlo in PDF/X‑1a usando Aspose PDF per .NET.
+### [Convertire docx in png in C# – Guida completa](./convert-docx-to-png-in-c-complete-guide/)
+Scopri come convertire i file DOCX in immagini PNG ad alta qualità con Aspose.PDF per .NET in C#.
 
 ### [Convertire PDF in BMP utilizzando Aspose.PDF per .NET: una guida passo passo](./convert-pdf-to-bmp-aspose-pdf-net/)
 Scopri come convertire le pagine PDF in immagini BMP di alta qualità utilizzando Aspose.PDF per .NET con questa guida completa.

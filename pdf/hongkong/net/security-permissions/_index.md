@@ -62,7 +62,10 @@ Aspose.PDF Net 程式碼教學
 ### [使用 Aspose.PDF .NET 掌握 PDF 編輯：安全文件處理的綜合指南](./mastering-pdf-redaction-aspose-pdf-net-guide/)
 了解如何使用 Aspose.PDF .NET 安全地編輯 PDF。本指南涵蓋基於註釋和外觀的方法，確保您的文件保持合規。
 
-### [使用 Aspose.PDF for .NET 解鎖和解密 PDF 檔案：完整指南](./unlock-decrypt-pdf-files-aspose-pdf-net/)
+### [如何在 C# 中遮蔽 PDF 並移除敏感資料](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中遮蔽 PDF 並刪除敏感資訊。
+
+### [使用 Aspose.PDF .NET 解鎖和解密 PDF 檔案：完整指南](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 了解如何使用 C# 中的 Aspose.PDF for .NET 解鎖和解密受保護的 PDF 檔案。本指南涵蓋設定、解密步驟和最佳實務。
 
 ### [使用 Aspose.PDF .NET 驗證 PDF 密碼：安全性與權限的逐步指南](./verify-pdf-passwords-aspose-dot-net-guide/)

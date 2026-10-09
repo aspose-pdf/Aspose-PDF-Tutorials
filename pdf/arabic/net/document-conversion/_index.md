@@ -35,6 +35,7 @@
 | [PDF إلى EPUB](./pdf-to-epub/) تعلّم كيفية تحويل ملفات PDF إلى EPUB باستخدام Aspose.PDF لـ .NET في هذا البرنامج التعليمي خطوة بخطوة. مثالي للمطورين ومنشئي المحتوى.  
 | [PDF إلى HTML](./pdf-to-html/) تعلّم كيفية تحويل ملفات PDF إلى HTML باستخدام Aspose.PDF لـ .NET من خلال هذا الدليل المفصل. مثالي للمطورين ومنشئي المحتوى.  
 | [تحويل PDF إلى HTML باستخدام C# – دليل خطوة بخطوة بسيط](./convert-pdf-to-html-in-c-simple-step-by-step-guide/) تعلّم كيفية تحويل ملفات PDF إلى HTML باستخدام C# مع Aspose.PDF في دليل مبسّط خطوة بخطوة.  
+| [تحويل DOCX إلى HTML في C# – دليل شامل](./convert-docx-to-html-in-c-complete-guide/) تعلم كيفية تحويل ملفات DOCX إلى HTML باستخدام Aspose.PDF لـ .NET مع دليل خطوة بخطوة في C#.  
 | [PDF إلى PDFA](./pdf-to-pdfa/) |تعرف على كيفية تحويل ملفات PDF إلى تنسيق PDF/A باستخدام Aspose.PDF لـ .NET من خلال هذا البرنامج التعليمي خطوة بخطوة. |  
 | [PDF إلى PDFA3b](./pdf-to-pdfa3b/) |تعلم كيفية تحويل ملفات PDF إلى تنسيق PDF/A-3B بسهولة باستخدام Aspose.PDF لـ .NET في هذا الدليل خطوة بخطوة. |  
 | [تلميحات حول تحويل الخط من PDF إلى PNG](./pdf-to-png-font-hinting/) |تعلم كيفية تحويل PDF إلى PNG مع تلميحات الخط باستخدام Aspose.PDF لـ .NET في دليل سهل خطوة بخطوة. |  
@@ -79,6 +80,7 @@
 | [تحويل PDF إلى PDF/X‑1a – دليل خطوة بخطوة كامل](./convert-pdf-to-pdf-x-1a-full-step-by-step-guide/) |تعرف على كيفية تحويل ملفات PDF إلى صيغة PDF/X‑1a باستخدام Aspose.PDF لـ .NET في دليل شامل خطوة بخطوة. |
 | [دليل Aspose PDF: تحميل وتحويل ملفات PDF إلى PDF/X‑4 باستخدام C#](./aspose-pdf-tutorial-load-and-convert-pdfs-to-pdf-x-4-in-c/) |تعلم كيفية تحميل نفس ... |
 | [تحويل PDF إلى 2.0 – دليل كامل لـ ASP.NET مع تسجيل الأخطاء](./convert-pdf-to-2-0-full-asp-net-guide-with-error-logging/) |تعلم كيفية تحويل ملفات PDF إلى الإصدار 2.0 باستخدام Aspose.PDF لـ .NET مع توثيق الأخطاء في دليل شامل. |
+| [تحويل PDF إلى PDF/X-1A مع إدارة الألوان في C#](./convert-pdf-to-pdf-x-1a-with-color-management-in-c/) |تعرف على كيفية تحويل ملفات PDF إلى صيغة PDF/X-1A مع إدارة الألوان باستخدام Aspose.PDF لـ .NET في دليل خطوة بخطوة. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -88,6 +88,7 @@ Te samouczki zawierają również szczegółowe przykłady kodu, jasne wyjaśnie
 | [Jak dodać pole tekstowe PDF – Utwórz pole formularza PDF i zapisz edytowany dokument PDF](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Dowiedz się, jak dodać pole tekstowe do formularza PDF i zapisać zmodyfikowany dokument przy użyciu Aspose.PDF dla .NET. |
 | [Utwórz wielostronicowy formularz w C# z Aspose.Pdf – przewodnik krok po kroku](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | Dowiedz się, jak w C# stworzyć wielostronicowy formularz PDF przy użyciu Aspose.Pdf, krok po kroku. |
 | [Dodaj pole tekstowe do formularza PDF – Kompletny przewodnik C#](./add-text-box-to-pdf-form-complete-c-guide/) | Dowiedz się, jak dodać pole tekstowe do formularza PDF przy użyciu Aspose.PDF dla .NET w tym kompletnym przewodniku C#. |
+| [Utwórz pole tekstowe PDF – przewodnik krok po kroku](./create-pdf-textbox-field-step-by-step-guide/) | Dowiedz się, jak dodać pole tekstowe do dokumentu PDF przy użyciu Aspose.PDF dla .NET w tym szczegółowym przewodniku krok po kroku. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

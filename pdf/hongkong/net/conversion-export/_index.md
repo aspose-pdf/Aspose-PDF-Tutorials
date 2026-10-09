@@ -111,6 +111,8 @@ Aspose.PDF Net 程式碼教學
 
 ### [使用 Aspose.PDF .NET 匯出 DOCX – C# 開發人員逐步指南](./how-to-export-docx-step-by-step-guide-for-c-developers/)
 了解如何使用 Aspose.PDF for .NET 將 PDF 匯出為 DOCX，提供 C# 開發人員的完整步驟說明。
+### [在 C# 中將 docx 轉換為 png – 完整指南](./convert-docx-to-png-in-c-complete-guide/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中將 docx 文件轉換為高品質 PNG 圖像，提供完整步驟與程式碼範例。
 
 ### [使用 Aspose.PDF for .NET 將 PDF 轉換為 XML：逐步指南](./convert-pdf-to-xml-aspose-pdf-net/)
 了解如何使用 Aspose.PDF for .NET 將 PDF 檔案轉換為 XML 格式。增強資料整合和處理能力。

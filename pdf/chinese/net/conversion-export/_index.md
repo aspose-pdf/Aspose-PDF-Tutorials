@@ -276,6 +276,8 @@ Aspose-PDF Net 代码教程
 
 ### [在 C# 中将 PDF 转换为 HTML – 完整分步指南](./convert-pdf-to-html-in-c-full-step-by-step-guide/)
 学习如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 文档转换为 HTML，提供完整的代码示例和步骤说明。
+### [在 C# 中将 docx 转换为 PNG – 完整指南](./convert-docx-to-png-in-c-complete-guide/)
+学习如何使用 Aspose.PDF for .NET 在 C# 中将 DOCX 文档高效转换为 PNG 图像，保持布局和质量。
 
 ## 其他资源
 

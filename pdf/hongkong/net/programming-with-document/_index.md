@@ -62,6 +62,8 @@
 | [開啟 PDF 檔案 C# – 如何在數分鐘內修復損壞的 PDF](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) |了解如何使用 Aspose.PDF for .NET 於 C# 中快速修復受損的 PDF 檔案，步驟簡單且高效。 |  
 | [在 C# 中讀取 Word 文件並提取特定頁面](./how-to-read-word-document-and-extract-specific-page-from-wor/) |了解如何使用 Aspose.Words for .NET 在 C# 中讀取 Word 文件並提取指定頁面。 |  
 | [建立自訂 Aspose 外掛程式 – 完整指南自動化 PDF 處理](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) |了解如何使用 Aspose.PDF for .NET 建立自訂外掛程式，以自動化 PDF 處理流程的完整指南。 |  
+| [在 Word 中新增 Bates 編號 – 完整分步指南](./add-bates-numbering-in-word-complete-step-by-step-guide/) |了解如何使用 Aspose.PDF for .NET 在 Word 文檔中新增 Bates 編號的完整分步指南。 |  
+| [使用 C# 在 Word 文件中新增空白頁 – 完整指南](./add-blank-page-in-word-document-with-c-complete-guide/) |了解如何使用 Aspose.PDF for .NET 及 C# 在 Word 文檔中插入空白頁的完整步驟指南。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

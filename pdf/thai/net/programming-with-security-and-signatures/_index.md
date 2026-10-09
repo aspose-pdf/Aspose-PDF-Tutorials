@@ -55,6 +55,9 @@
 - [ตรวจสอบความถูกต้องของลายเซ็น PDF ด้วย Aspose.PDF – คู่มือ C# ฉบับสมบูรณ์](./check-pdf-signature-validity-with-aspose-pdf-complete-c-guid/) | เรียนรู้วิธีตรวจสอบความถูกต้องของลายเซ็น PDF ด้วย Aspose.PDF สำหรับ .NET ด้วยคู่มือ C# ฉบับสมบูรณ์ -  
 - [ตรวจสอบลายเซ็นดิจิทัล PDF ด้วย Aspose.PDF – คู่มือ C# ฉบับสมบูรณ์](./verify-digital-signature-pdf-with-aspose-pdf-complete-c-guid/) | เรียนรู้วิธีตรวจสอบลายเซ็นดิจิทัลในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ด้วยคู่มือ C# ฉบับสมบูรณ์ -  
 - [ตรวจสอบลายเซ็น PDF ด้วย Aspose.PDF – คู่มือ C# ฉบับสมบูรณ์](./verify-pdf-signature-with-aspose-pdf-complete-c-guide/) | เรียนรู้วิธีตรวจสอบลายเซ็นดิจิทัลในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ด้วยคู่มือ C# ฉบับสมบูรณ์
+- [วิธีตรวจสอบ PDF – คู่มือ C# ฉบับสมบูรณ์สำหรับลายเซ็นดิจิทัล](./how-to-verify-pdf-complete-c-guide-for-digital-signatures/) | เรียนรู้วิธีตรวจสอบลายเซ็นดิจิทัลในไฟล์ PDF ด้วย C# อย่างละเอียดและครบถ้วน -  
+- [เพิ่มหมายเลข Bates ให้ PDF – คู่มือ C# ฉบับสมบูรณ์กับการลงนามและการแปลง](./add-bates-numbering-pdf-complete-c-guide-with-signing-conver/) | เรียนรู้วิธีเพิ่มหมายเลข Bates ให้ไฟล์ PDF, ลงนามและแปลงด้วย Aspose.PDF สำหรับ .NET อย่างละเอียดในขั้นตอนเดียว  
+- [วิธีใช้ Validator ใน C# – คู่มือฉบับสมบูรณ์ในการตรวจสอบความถูกต้องของลายเซ็น](./how-to-use-validator-in-c-complete-guide-to-checking-signatu/) | เรียนรู้วิธีใช้ Validator ใน C# เพื่อตรวจสอบความถูกต้องของลายเซ็นดิจิทัลด้วย Aspose.PDF สำหรับ .NET คำแนะนำทีละขั้นตอน
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -213,6 +213,9 @@ Naučte se, jak pomocí C# a Aspose.PDF převést PDF soubor na HTML s podrobný
 ### [Převod docx do HTML v C# – Kompletní programovací průvodce](./convert-docx-to-html-in-c-complete-programming-guide/)
 Naučte se, jak převést soubory DOCX do HTML pomocí C# a Aspose.PDF, s podrobnými ukázkami kódu a tipy pro zachování formátování.
 
+### [Převod DOCX na PNG v C# – Kompletní průvodce](./convert-docx-to-png-in-c-complete-guide/)
+Naučte se převádět soubory DOCX na obrázky PNG v C# pomocí Aspose.PDF s praktickými ukázkami kódu.
+
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)

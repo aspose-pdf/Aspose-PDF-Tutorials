@@ -79,6 +79,8 @@ Imparerai come specificare le impostazioni di conversione, estrarre testo e imma
 | [Salva PDF come HTML con Aspose.PDF – Guida passo‑passo C#](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) | Scopri come convertire un PDF in HTML usando Aspose.PDF per .NET con un esempio dettagliato in C#. |
 | [Crea PDF da JPG in C# – Guida completa con ritaglio e nuove pagine](./create-pdf-from-jpg-in-c-full-guide-with-cropping-and-new-pa/) | Scopri come creare un PDF da immagini JPG in C#, includendo ritaglio e aggiunta di nuove pagine, passo passo. |
 | [Converti PDF in 2.0 – Guida completa ASP.NET con registrazione errori](./convert-pdf-to-2-0-full-asp-net-guide-with-error-logging/) | Scopri come convertire PDF in formato 2.0 usando Aspose.PDF per .NET con una guida completa ASP.NET e gestione dei log degli errori. |
+| [Converti PDF in PDF/X-1A con gestione del colore in C#](./convert-pdf-to-pdf-x-1a-with-color-management-in-c/) | Scopri come convertire PDF in PDF/X‑1A gestendo i colori con Aspose.PDF per .NET in C#. |
+| [Converti DOCX in HTML in C# – Guida completa](./convert-docx-to-html-in-c-complete-guide/) | Scopri come convertire file DOCX in HTML usando Aspose.PDF per .NET con C# in questa guida completa passo passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
