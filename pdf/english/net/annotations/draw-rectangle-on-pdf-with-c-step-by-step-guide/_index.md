@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-06-21
-description: Draw rectangle on PDF using C#. Learn how to load PDF document, create
-  black rectangle annotation, and save modified PDF efficiently.
+description: Draw rectangle on PDF using C# with Aspose.PDF. Learn how to load PDF document, create black rectangle annotation, and save modified PDF efficiently.
 draft: false
 keywords:
 - draw rectangle on pdf
@@ -11,18 +10,15 @@ keywords:
 - create black rectangle
 - save modified pdf
 language: en
-og_description: Draw rectangle on PDF in C# by loading a PDF document, creating a
-  black rectangle annotation, and saving the modified PDF. Full code included.
+og_description: Draw rectangle on PDF in C# by loading a PDF document, creating a black rectangle annotation, and saving the modified PDF. Full code included.
 og_title: Draw Rectangle on PDF with C# – Complete Programming Tutorial
 schemas:
 - author: Aspose
   dateModified: '2026-06-21'
-  description: Draw rectangle on PDF using C#. Learn how to load PDF document, create
-    black rectangle annotation, and save modified PDF efficiently.
+  description: Draw rectangle on PDF using C#. Learn how to load PDF document, create black rectangle annotation, and save modified PDF efficiently.
   headline: Draw Rectangle on PDF with C# – Step‑by‑Step Guide
   type: TechArticle
-- description: Draw rectangle on PDF using C#. Learn how to load PDF document, create
-    black rectangle annotation, and save modified PDF efficiently.
+- description: Draw rectangle on PDF using C#. Learn how to load PDF document, create black rectangle annotation, and save modified PDF efficiently.
   name: Draw Rectangle on PDF with C# – Step‑by‑Step Guide
   steps:
   - name: .NET 6.0 SDK (or any recent .NET version) installed
@@ -38,7 +34,7 @@ tags:
 - PDF
 - C#
 - Aspose.PDF
-title: Draw Rectangle on PDF with C# – Step‑by‑Step Guide
+title: Draw Rectangle on PDF with C# using Aspose.PDF – Step‑by‑Step Guide
 url: /net/annotations/draw-rectangle-on-pdf-with-c-step-by-step-guide/
 ---
 
@@ -52,7 +48,7 @@ Ever needed to **draw rectangle on PDF** files from a .NET app but weren’t sur
 
 In this guide we’ll walk through a practical example that **loads a PDF document**, **creates a black rectangle**, and then **saves the modified PDF**. By the end you’ll have a reusable snippet you can drop into any C# project—no mystery, just clear code and explanations.
 
-## What This Tutorial Covers
+## What this tutorial covers
 
 - How to **load pdf document** using the Aspose.PDF for .NET library  
 - Defining a rectangle’s coordinates and ensuring it stays inside page bounds  
@@ -76,7 +72,7 @@ That’s it. If you’re comfortable with basic C# syntax, you’ll be good to g
 
 ---
 
-## Step 1: Load PDF Document
+## Step 1: load PDF document
 
 The first thing we need is a **load pdf document** call. Aspose.PDF’s `Document` class takes the file path and reads the whole file into memory.
 
@@ -93,7 +89,7 @@ Document pdfDocument = new Document(@"C:\MyFiles\input.pdf");
 
 ---
 
-## Step 2: Pick the Target Page
+## Step 2: pick the target page
 
 PDF pages are 1‑based in Aspose, so the first page is index 1. Grab the page you want to annotate—usually the first one for a quick demo.
 
@@ -106,7 +102,7 @@ If you need to work on a different page, just change the index. Remember to vali
 
 ---
 
-## Step 3: Define the Rectangle Geometry
+## Step 3: define the rectangle geometry
 
 A rectangle is defined by its lower‑left (X,Y) and upper‑right (X,Y) coordinates. The `Rectangle` struct stores these as `LLX`, `LLY`, `URX`, `URY`.
 
@@ -119,7 +115,7 @@ Feel free to adjust those numbers—`100,100` places the lower‑left corner 100
 
 ---
 
-## Step 4: Verify the Rectangle Fits Inside the Page
+## Step 4: verify the rectangle fits inside the page
 
 Attempting to draw outside the page bounds will either be ignored or cause an exception, depending on the library version. A quick check keeps your code robust.
 
@@ -140,7 +136,7 @@ else
 
 ---
 
-## Step 5: Add Black Rectangle Annotation
+## Step 5: add black rectangle annotation
 
 Now the fun part—**add black rectangle** to the page. Aspose provides `AddRectangle` which takes the geometry and a `Color`. We’ll use `Color.Black` to **create black rectangle**.
 
@@ -155,7 +151,7 @@ If you ever need a different fill or border style, explore the overload that acc
 
 ---
 
-## Step 6: Save Modified PDF
+## Step 6: save modified PDF
 
 Finally, persist your changes with **save modified pdf**. You can overwrite the original or write to a new file—here we’ll create an output file.
 
@@ -168,7 +164,7 @@ That’s the whole workflow. Run the program and open `output.pdf`; you should s
 
 ---
 
-## Full Working Example
+## Full working example
 
 Below is a self‑contained console application that puts all the steps together. Copy it into a new `.csproj` and hit **Run**.
 
@@ -222,7 +218,7 @@ Open `output.pdf` and you’ll see a black rectangle positioned at the coordinat
 
 ---
 
-## Handling Common Variations
+## Handling common variations
 
 | Situation | What to Change | Why |
 |-----------|----------------|-----|
@@ -236,7 +232,7 @@ These tweaks illustrate how you can **create black rectangle** annotations in ma
 
 ---
 
-## Pro Tips & Pitfalls
+## Pro tips & pitfalls
 
 - **Dispose the Document**: Although Aspose.PDF implements `IDisposable`, the `using` pattern isn’t strictly required for short‑lived console apps. In long‑running services, wrap `Document` in a `using` block to free native resources promptly.  
 - **Coordinate System**: PDF coordinates start at the lower‑left corner. If you’re used to top‑left origin (like WinForms), you’ll need to invert the Y‑axis: `pageHeight - y`.  
@@ -254,7 +250,7 @@ Next, you might explore adding other annotation types (text, highlights) or merg
 Got a twist you tried? Share it in the comments, and happy coding!
 
 
-## What Should You Learn Next?
+## What should you learn next?
 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
@@ -265,5 +261,5 @@ The following tutorials cover closely related topics that build on the technique
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

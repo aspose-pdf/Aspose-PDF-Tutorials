@@ -1,9 +1,9 @@
 ---
-title: Programming with Stamps and Watermarks
-linktitle: Programming with Stamps and Watermarks
+title: Add Stamps and Watermarks with Aspose.PDF for .NET
+linktitle: Add Stamps and Watermarks with Aspose.PDF for .NET
 weight: 24
 url: /net/programming-with-stamps-and-watermarks/
-description: Aspose.PDF for .NET's Programming with Stamps and Watermarks tutorials teach you how to add security and personalization elements to your PDF documents.
+description: Learn how to add stamps and watermarks to PDF documents using Aspose.PDF for .NET, including security and personalization techniques.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -16,6 +16,18 @@ description: Aspose.PDF for .NET's Programming with Stamps and Watermarks tutori
 
 
 Aspose.PDF's "Programming with Stamps and Watermarks" tutorials for .NET walk you through the steps to add stamps and watermarks to your PDF documents. You will learn how to customize stamps, apply text and graphic watermarks, and manage their position and appearance. These tutorials will help you add a layer of security and identification to your PDF files in an easy and effective way.
+
+## Example: Adding a Text Stamp
+
+```csharp
+// Example: Adding a text stamp to a PDF
+var pdf = new Aspose.Pdf.Document("input.pdf");
+var stamp = new Aspose.Pdf.TextStamp("CONFIDENTIAL");
+stamp.HorizontalAlignment = Aspose.Pdf.HorizontalAlignment.Center;
+stamp.VerticalAlignment = Aspose.Pdf.VerticalAlignment.Middle;
+pdf.Pages[1].AddStamp(stamp);
+pdf.Save("output.pdf");
+```
 
 ## Tutorials
 | Title | Description |
@@ -57,6 +69,7 @@ Aspose.PDF's "Programming with Stamps and Watermarks" tutorials for .NET walk yo
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
@@ -80,4 +93,4 @@ Aspose.PDF's "Programming with Stamps and Watermarks" tutorials for .NET walk yo
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}

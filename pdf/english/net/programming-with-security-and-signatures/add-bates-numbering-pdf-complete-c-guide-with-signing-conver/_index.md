@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-06-21
-description: Add bates numbering pdf and learn how to add bates numbers, convert pdf
-  to pdf/x-4, convert pdf to pdfa-4, and digitally sign pdf c# in a single walkthrough.
+description: Add bates numbering PDF with Aspose.Pdf and learn how to add bates numbers, convert PDF to PDF/X‑4, convert PDF to PDF/A‑4, and digitally sign PDF C# in a single walkthrough.
 draft: false
 keywords:
 - add bates numbering pdf
@@ -42,7 +41,7 @@ tags:
 - C#
 - PDF processing
 - Bates numbering
-title: Add Bates Numbering PDF – Complete C# Guide with Signing & Conversion
+title: Add Bates Numbering to PDF with Aspose.Pdf – Complete C# Guide with Signing & Conversion
 url: /net/programming-with-security-and-signatures/add-bates-numbering-pdf-complete-c-guide-with-signing-conver/
 ---
 
@@ -58,7 +57,7 @@ In this tutorial we’ll walk through exactly that—using Aspose.Pdf for .NET w
 
 ![add bates numbering pdf example](image-placeholder.png "Screenshot showing add bates numbering pdf in action")
 
-## What You’ll Need
+## What you’ll need
 
 - **.NET 6+** (or .NET Framework 4.6+). Aspose.Pdf supports both.
 - A **valid Aspose.Pdf for .NET license** (or you can work with the evaluation, but watermarks will appear).
@@ -74,7 +73,7 @@ dotnet add package Aspose.Pdf
 
 Now let’s dive into the code.
 
-## Step 1: Load the Source PDF Document
+## Step 1: load the source PDF document
 
 First, we need to bring the original file into memory. This is the foundation for every later operation.
 
@@ -90,7 +89,7 @@ var document = new Document("YOUR_DIRECTORY/sample.pdf");
 
 > **Why this matters:** Loading the PDF creates a `Document` object that represents the entire file, giving us access to conversion, form fields, and security APIs.
 
-## Step 2: Convert PDF to PDF/X‑4 (PDF/A‑4 Compliance)
+## Step 2: convert PDF to pDF/X‑4 (PDF/A‑4 compliance)
 
 If your workflow demands archival quality, PDF/X‑4 (a subset of PDF/A‑4) is the way to go. Here’s how to **convert pdf to pdf/x-4** with Aspose.
 
@@ -104,7 +103,7 @@ document.Convert(conversionOptions);
 
 > **Tip:** The `ConvertErrorAction.Delete` flag strips out any content that would break compliance, ensuring a clean PDF/X‑4 output.
 
-## Step 3: Save the PDF/X‑4 Version
+## Step 3: save the pDF/X‑4 version
 
 Now that the document complies with PDF/X‑4, we persist it to disk.
 
@@ -132,7 +131,7 @@ document.AddBatesNumbering(batesOptions);
 
 > **Why this works:** `AddBatesNumbering` walks through every page and stamps the number in the default location (bottom‑right). You can later tweak the position via `BatesNumberingOptions` if needed.
 
-## Step 5: Save the Bates‑Numbered PDF
+## Step 5: save the bates‑Numbered PDF
 
 After we’ve **add bates numbering pdf**, we need a separate file that preserves the numbers.
 
@@ -142,7 +141,7 @@ document.Save("YOUR_DIRECTORY/sample_bates.pdf");
 
 Open the file; you should see “CASE‑5000”, “CASE‑5001”, and so on at the bottom of each page.
 
-## Step 6: Digitally Sign PDF – “Digitally Sign PDF C#” in Action
+## Step 6: digitally sign PDF – “Digitally sign PDF c#” in action
 
 A digital signature guarantees authenticity and integrity. Below we’ll **digitally sign pdf c#** using a SHA‑384 hash.
 
@@ -168,7 +167,7 @@ signature.Sign(
 
 > **Pro tip:** The `Rectangle` defines where the visible signature appears. If you don’t need a visual cue, set `signatureAppearance` to `false`.
 
-## Step 7: Save the Digitally Signed PDF
+## Step 7: save the digitally signed PDF
 
 Finally, write the signed document to disk.
 
@@ -178,7 +177,7 @@ signature.Save("YOUR_DIRECTORY/sample_signed.pdf");
 
 You now have a **digitally sign pdf c#** file that can be validated in any PDF reader supporting digital signatures.
 
-## Full Source Code – One‑Stop Solution
+## Full source code – one‑Stop solution
 
 Below is the complete, ready‑to‑run program that ties everything together. Copy‑paste, adjust the paths, and hit **F5**.
 
@@ -274,13 +273,11 @@ A: Not strictly. In this flow we save after conversion and after Bates numbering
 
 ## Wrap‑Up
 
-We’ve just demonstrated a practical, end‑to‑end solution that **add bates numbering pdf**, explains **how to add bates numbers**, shows **convert pdf to pdf/x-4**, covers
+We’ve just demonstrated a practical, end‑to‑end solution that **add bates numbering pdf**, explains **how to add bates numbers**, shows **convert pdf to pdf/x-4**, covers **convert pdf to pdfa-4**, and walks you through **digitally sign pdf c#** with Aspose.Pdf.
 
+## What should you learn next?
 
-## What Should You Learn Next?
-
-
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
 - [Aspose Pdf Net Add Attachments Convert Pdfa](/pdf/german/net/pdfa-compliance/aspose-pdf-net-add-attachments-convert-pdfa/)
 - [Aspose Pdf Net Add Attachments Convert Pdfa](/pdf/french/net/pdfa-compliance/aspose-pdf-net-add-attachments-convert-pdfa/)
@@ -290,3 +287,4 @@ The following tutorials cover closely related topics that build on the technique
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}

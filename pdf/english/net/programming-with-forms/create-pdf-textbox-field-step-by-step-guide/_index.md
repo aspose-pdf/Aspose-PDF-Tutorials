@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-06-21
-description: Create PDF textbox field with C# and learn how to duplicate PDF form
-  field or add textbox to PDF form in just a few lines of code.
+description: Create PDF textbox field with C# using PDFTron SDK and learn how to duplicate PDF form field or add textbox to PDF form in just a few lines of code.
 draft: false
 keywords:
 - create pdf textbox field
@@ -11,40 +10,31 @@ keywords:
 - pdf form automation
 - c# pdf library
 language: en
-og_description: Create PDF textbox field quickly. This guide shows how to duplicate
-  PDF form field and add textbox to PDF form using a modern C# PDF library.
+og_description: Create PDF textbox field quickly. This guide shows how to duplicate PDF form field and add textbox to PDF form using a modern C# PDF library.
 og_title: Create PDF Textbox Field – Complete C# Tutorial
 schemas:
 - author: Aspose
   dateModified: '2026-06-21'
-  description: Create PDF textbox field with C# and learn how to duplicate PDF form
-    field or add textbox to PDF form in just a few lines of code.
+  description: Create PDF textbox field with C# and learn how to duplicate PDF form field or add textbox to PDF form in just a few lines of code.
   headline: Create PDF Textbox Field – Step‑by‑Step Guide
   type: TechArticle
-- description: Create PDF textbox field with C# and learn how to duplicate PDF form
-    field or add textbox to PDF form in just a few lines of code.
+- description: Create PDF textbox field with C# and learn how to duplicate PDF form field or add textbox to PDF form in just a few lines of code.
   name: Create PDF Textbox Field – Step‑by‑Step Guide
   steps:
   - name: What if I need the field on *more* than two pages?
-    text: Just repeat the clone‑and‑add steps for each additional page. The underlying
-      data object stays the same, so all widgets stay in sync.
+    text: Just repeat the clone‑and‑add steps for each additional page. The underlying data object stays the same, so all widgets stay in sync.
   - name: How do I change the appearance (font, border, background)?
-    text: Each `Widget` has a `SetBorderColor`, `SetBorderWidth`, and `SetBackgroundColor`
-      method. You can also assign a default appearance string (`DA`) to control the
-      font and size.
+    text: Each `Widget` has a `SetBorderColor`, `SetBorderWidth`, and `SetBackgroundColor` method. You can also assign a default appearance string (`DA`) to control the font and size.
   - name: Can I make the field read‑only after the user fills it?
-    text: Yes. Set the `ReadOnly` flag on the field after you’ve collected the data,
-      or toggle it based on your workflow.
+    text: Yes. Set the `ReadOnly` flag on the field after you’ve collected the data, or toggle it based on your workflow.
   - name: What about PDFs that already contain a form?
-    text: If the document already has an AcroForm, `doc.GetForm()` simply returns
-      it. You can then add new fields without disturbing existing ones. Just be careful
-      to use unique field names.
+    text: If the document already has an AcroForm, `doc.GetForm()` simply returns it. You can then add new fields without disturbing existing ones. Just be careful to use unique field names.
   type: HowTo
 tags:
 - PDF
 - C#
 - FormFields
-title: Create PDF Textbox Field – Step‑by‑Step Guide
+title: Create PDF Textbox Field with PDFTron SDK – Step‑by‑Step C# Guide
 url: /net/programming-with-forms/create-pdf-textbox-field-step-by-step-guide/
 ---
 
@@ -58,7 +48,7 @@ Ever needed to **create PDF textbox field** but weren’t sure which API calls t
 
 In this guide we’ll walk through a practical example that not only **adds textbox to PDF form**, but also shows how to **duplicate PDF form field** so the same input appears on multiple pages. By the end you’ll have a runnable program you can drop into any .NET project.
 
-## What You’ll Need
+## What you’ll need
 
 - .NET 6.0 or later (the code works with .NET Core as well)  
 - A modern C# PDF library – the snippet below uses **PDFTron SDK**, but the concepts translate to iText 7, PdfSharp, or other libraries.  
@@ -95,7 +85,7 @@ using pdftron.SDF;
 
 > **Pro tip:** If you’re using a different library, replace the `using` statements with the equivalents (e.g., `iText.Kernel.Pdf` for iText 7).
 
-## Step 2: Initialize the PDF Document and Form
+## Step 2: initialize the PDF document and form
 
 We’ll start with a fresh PDF that contains two pages – the source page for the original textbox and a target page for the duplicate.
 
@@ -156,7 +146,7 @@ A common requirement is to show the same field on multiple pages – think of a 
 
 The cloned widget shares the same underlying data as the original textbox. When a user types into one instance, the other updates automatically – that’s the magic of **duplicate PDF form field**.
 
-## Step 6: Save the Document and Clean Up
+## Step 6: save the document and clean up
 
 Finally, write the PDF to disk and shut down the PDFNet runtime.
 
@@ -174,7 +164,7 @@ Running the program produces a two‑page PDF (`output.pdf`). Open it in Adobe A
 
 ---
 
-## Full Working Example (Copy‑Paste Ready)
+## Full working example (Copy‑Paste ready)
 
 ```csharp
 // Program.cs
@@ -231,7 +221,7 @@ class Program
 
 ---
 
-## Common Questions & Edge Cases
+## Common questions & edge cases
 
 ### What if I need the field on *more* than two pages?
 
@@ -283,9 +273,7 @@ Ready for the next step? Try embedding a dropdown (`ChoiceField`) or a signature
 
 If you hit a snag, drop a comment below or check the library’s official docs; they’re packed with examples that complement what we covered here. Happy coding, and may your forms always stay in sync!
 
-
-## What Should You Learn Next?
-
+## What should you learn next?
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
@@ -294,6 +282,6 @@ The following tutorials cover closely related topics that build on the technique
 - [Add Form Field In Pdf Document Using Java](/pdf/german/java/pdf-form-fields/add-form-field-in-pdf-document-using-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

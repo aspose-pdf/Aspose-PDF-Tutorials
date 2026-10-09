@@ -1,8 +1,7 @@
 ---
 category: general
 date: 2026-06-21
-description: Add Bates numbering in Word quickly. Learn how to add Bates, apply Bates
-  numbering for legal docs, and automate numbering with C#.
+description: Add Bates numbering in Word quickly using Aspose.Words. Learn how to add Bates, apply Bates numbering for legal docs, and automate numbering with C#.
 draft: false
 keywords:
 - add bates numbering
@@ -11,8 +10,7 @@ keywords:
 - bates numbering for legal
 - apply bates numbering
 language: en
-og_description: Add Bates numbering in Word using C#. This guide shows how to add
-  Bates, apply Bates numbering for legal documents, and automate the process.
+og_description: Add Bates numbering in Word using C#. This guide shows how to add Bates, apply Bates numbering for legal documents, and automate the process.
 og_title: Add Bates Numbering in Word – Full Programming Walkthrough
 schemas:
 - author: Aspose
@@ -47,7 +45,7 @@ tags:
 - document‑automation
 - csharp
 - legal‑tech
-title: Add Bates Numbering in Word – Complete Step‑by‑Step Guide
+title: Add Bates Numbering in Word with Aspose.Words – Complete Step‑by‑Step Guide
 url: /net/programming-with-document/add-bates-numbering-in-word-complete-step-by-step-guide/
 ---
 
@@ -61,7 +59,7 @@ Ever wondered how to add Bates numbering to a Word file without manually typing 
 
 In this tutorial we’ll walk through a clean C# solution that **applies Bates numbering** to a `.docx` file, explains why each line matters, and shows you how to tweak the code for legal‑specific needs. By the end you’ll be able to generate a perfectly numbered document in seconds—no extra plugins required.
 
-## What You’ll Learn
+## What you’ll learn
 
 - The exact code required to **add Bates numbering** to a Word document.
 - How the `BatesNumberingOptions` class works and why you might adjust the prefix or start value.
@@ -75,7 +73,7 @@ In this tutorial we’ll walk through a clean C# solution that **applies Bates n
 
 If you’re comfortable with those, let’s dive in.
 
-## Step 1: Set Up the Project and Import the Library
+## Step 1: set up the project and import the library
 
 First, create a new console app (or integrate into an existing service). Then add the Aspose.Words NuGet package:
 
@@ -92,7 +90,7 @@ using Aspose.Words.BatesNumbering;
 
 These `using` statements bring the `Document` and `BatesNumberingOptions` classes into scope, which are essential for the **apply bates numbering** step later on.
 
-## Step 2: Load the Source Document
+## Step 2: load the source document
 
 You’ll need a Word file to work on. The code below loads `input.docx` from a folder you specify. Replace `"YOUR_DIRECTORY"` with the actual path on your machine.
 
@@ -103,7 +101,7 @@ var document = new Document("YOUR_DIRECTORY/input.docx");
 
 Why load the file first? The `Document` object parses the entire Word package into memory, allowing us to manipulate headers, footers, and page layouts before saving. If the file is massive (think 10,000 pages), consider using `LoadOptions` with `LoadFormat.Docx` to stream sections instead of loading everything at once.
 
-## Step 3: Configure Bates Numbering Options
+## Step 3: configure bates numbering options
 
 This is where the magic happens. You tell the library what prefix to use (`"ABC-"` in the example) and where to start counting (`1000`). Both values are fully customizable.
 
@@ -135,7 +133,7 @@ document.AddBatesNumbering(batesOptions);
 
 Behind the scenes, Aspose.Words creates a hidden field on each page that renders as `ABC-1000`, `ABC-1001`, and so on. Because it’s a field, you can later edit the prefix or start number without regenerating the whole file—handy for **how to add bates** after a discovery request changes.
 
-## Step 5: Save the Modified Document
+## Step 5: save the modified document
 
 Finally, write the output to a new file. Keeping the original untouched is a best practice, especially when dealing with evidence that must remain pristine.
 
@@ -157,7 +155,7 @@ You now have `output.docx` with sequential Bates numbers appended to every page.
 
 If you open the document’s “Field Codes” view (`Alt+F9` in Word), you’ll see something like `{ BATES \* MERGEFORMAT ABC-1000 }` on each page.
 
-## Edge Cases & Common Questions
+## Edge cases & common questions
 
 ### What if the document already contains page numbers?
 
@@ -188,7 +186,7 @@ Set it before calling `AddBatesNumbering`. This flexibility helps when a court m
 
 Loading a 2‑GB Word file can consume a lot of RAM. To mitigate, process the document in chunks using the `DocumentSplitter` utility, apply Bates numbering to each chunk, then merge the parts back together. This pattern keeps memory usage under control while still letting you **apply bates numbering** efficiently.
 
-## Full Working Example
+## Full working example
 
 Putting everything together, here’s a ready‑to‑run console program:
 
@@ -248,8 +246,7 @@ Feel free to experiment with different prefixes, start numbers, or even combine 
 Got questions or a tricky scenario? Drop a comment below, and we’ll troubleshoot together. Happy coding!
 
 
-## What Should You Learn Next?
-
+## What should you learn next?
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
@@ -259,5 +256,5 @@ The following tutorials cover closely related topics that build on the technique
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

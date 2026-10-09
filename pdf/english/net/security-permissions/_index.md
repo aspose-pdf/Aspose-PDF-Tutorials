@@ -1,6 +1,6 @@
 ---
-title: "PDF Security and Permissions Tutorials for Aspose.PDF .NET"
-description: "Learn to implement document encryption, digital signatures, redaction, and access controls in PDF documents with Aspose.PDF .NET tutorials."
+title: "Implement PDF Security and Permissions with Aspose.PDF .NET"
+description: "Learn how to implement PDF security, encryption, digital signatures, redaction, and access controls using Aspose.PDF for .NET."
 weight: 8
 url: "/net/security-permissions/"
 ---
@@ -15,12 +15,27 @@ url: "/net/security-permissions/"
 
 Our security and permissions tutorials demonstrate how to protect PDF documents using Aspose.PDF for .NET. These step-by-step guides teach you how to implement password protection, apply digital signatures, configure document permissions, redact sensitive content, and programmatically control access to your PDF files. Each tutorial includes complete C# code examples for common security scenarios, helping you build applications that maintain document confidentiality and integrity.
 
+```csharp
+// Encrypt a PDF with AES-256 using Aspose.PDF for .NET
+using Aspose.Pdf;
+using Aspose.Pdf.Security;
+
+Document pdfDoc = new Document("input.pdf");
+pdfDoc.Encrypt(new PdfEncryptionOptions
+{
+    UserPassword = "user123",
+    OwnerPassword = "owner123",
+    EncryptionAlgorithm = EncryptionAlgorithm.AES256
+});
+pdfDoc.Save("encrypted.pdf");
+```
+
 ## Available Tutorials
 
 ### [Change PDF Passwords with Aspose.PDF for .NET](./change-pdf-password-aspose-pdf-net-guide/)
 A code tutorial for Aspose.PDF Net
 
-### [Encrypt PDF Files Using Aspose.PDF .NET&#58; A Comprehensive Guide to Security and Permissions](./encrypt-pdfs-aspose-pdf-net-guide/)
+### [Encrypt PDF files using Aspose.PDF .NET&#58; a comprehensive guide to security and permissions](./encrypt-pdfs-aspose-pdf-net-guide/)
 Learn how to encrypt PDF files with user and owner passwords using Aspose.PDF for .NET. Secure your documents with AES 256-bit encryption in this detailed step-by-step guide.
 
 ### [Encrypt and Decrypt PDFs Using Aspose.PDF for .NET&#58; Secure Your Documents Easily](./encrypt-decrypt-pdfs-aspose-pdf-dotnet/)
@@ -53,24 +68,25 @@ Learn how to set and manage PDF permissions with Aspose.PDF for .NET, ensuring s
 ### [How to Set an Expiry Date on PDFs Using Aspose.PDF for .NET (C# Tutorial)](./set-pdf-expiry-date-aspose-dotnet/)
 Learn how to set an expiry date on a PDF using Aspose.PDF for .NET in C#. This tutorial covers installation, configuration, and implementation with detailed code examples.
 
-### [Implement .NET User Impersonation with Aspose.PDF&#58; A Step-by-Step Guide](./implement-net-user-impersonation-aspose-pdf-guide/)
+### [Implement .NET user impersonation with Aspose.PDF&#58; a step-by-Step guide](./implement-net-user-impersonation-aspose-pdf-guide/)
 Learn how to implement user impersonation in .NET applications using Aspose.PDF. This guide covers everything from setting up the library to executing tasks under different user contexts.
 
 ### [Master PDF Signing & Verification in .NET using Aspose.PDF&#58; A Comprehensive Guide](./master-pdf-signing-verification-net-aspose-pdf/)
 Learn how to implement secure digital signatures and verification for PDFs in .NET with Aspose.PDF. Master signing, verifying, and optimizing your document workflows.
 
-### [Mastering PDF Redaction with Aspose.PDF .NET&#58; A Comprehensive Guide for Secure Document Handling](./mastering-pdf-redaction-aspose-pdf-net-guide/)
+### [Mastering PDF redaction with Aspose.PDF .NET&#58; a comprehensive guide for secure document handling](./mastering-pdf-redaction-aspose-pdf-net-guide/)
 Learn how to securely redact PDFs using Aspose.PDF .NET. This guide covers annotation-based and facades approaches, ensuring your documents remain compliant.
 
 ### [Apply Redaction to PDF with Aspose Plugin Manager – Complete Guide](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
 Learn how to apply redaction to PDF files using Aspose Plugin Manager with step-by-step code examples and best practices.
+
 ### [How to Redact PDF and Remove Sensitive Data PDF in C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
 Learn how to redact PDFs and remove sensitive data using Aspose.PDF for .NET with clear C# code examples.
 
 ### [Unlock and Decrypt PDF Files with Aspose.PDF for .NET&#58; A Complete Guide](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 Learn how to unlock and decrypt protected PDF files using Aspose.PDF for .NET in C#. This guide covers setup, decryption steps, and best practices.
 
-### [Verify PDF Passwords with Aspose.PDF .NET&#58; A Step-by-Step Guide for Security & Permissions](./verify-pdf-passwords-aspose-dot-net-guide/)
+### [Verify PDF passwords with Aspose.PDF .NET&#58; a step-by-Step guide for security & permissions](./verify-pdf-passwords-aspose-dot-net-guide/)
 Learn how to verify PDF passwords using Aspose.PDF for .NET in C#. This comprehensive guide simplifies document security and access control.
 
 ## Additional Resources
@@ -88,3 +104,4 @@ Learn how to verify PDF passwords using Aspose.PDF for .NET in C#. This comprehe
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}

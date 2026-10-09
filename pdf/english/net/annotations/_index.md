@@ -1,9 +1,9 @@
 ---
-title: Programming with Annotations
-linktitle: Programming with Annotations
+title: Create and Manage PDF Annotations with Aspose.PDF for .NET
+linktitle: Create and Manage PDF Annotations with Aspose.PDF for .NET
 weight: 12
 url: /net/annotations/
-description: Programming with Annotations includes API Tutorials and code-snippets of Aspose.PDF for .NET that includes adding annotation, deleting annotation, getting annotation info, and many more.
+description: Learn how to create, edit, and manage PDF annotations using Aspose.PDF for .NET with step‑by‑step tutorials, code snippets, and detailed explanations.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -15,6 +15,20 @@ description: Programming with Annotations includes API Tutorials and code-snippe
 # Programming with Annotations
 
 A comprehensive collection of tutorials showcasing how to work with annotations in PDF documents using Aspose.PDF for .NET. It provides a wide range of code snippets demonstrating how to create and manipulate various types of annotations such as text, line, circle, rectangle, polygon, hyperlink, and many more. Each example includes the complete C# code along with a detailed explanation of the code's functionality and the expected output. Its an excellent resource for .NET developers who want to learn how to work with annotations in PDF documents using Aspose.PDF.
+
+```csharp
+// Load PDF document
+var pdf = new Aspose.Pdf.Document("input.pdf");
+
+// Add a text annotation
+var annotation = new Aspose.Pdf.Annotations.TextAnnotation(pdf.Pages[1], new Aspose.Pdf.Rectangle(100, 500, 200, 600));
+annotation.Title = "Note";
+annotation.Contents = "This is a sample annotation.";
+pdf.Pages[1].Annotations.Add(annotation);
+
+// Save the updated PDF
+pdf.Save("output.pdf");
+```
 
 ## Tutorials
 | Title | Description |
@@ -43,6 +57,5 @@ A comprehensive collection of tutorials showcasing how to work with annotations 
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

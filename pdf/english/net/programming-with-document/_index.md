@@ -1,9 +1,9 @@
 ---
-title: Programming with Document
-linktitle: Programming with Document
+title: Program PDFs with Aspose.PDF for .NET
+linktitle: Program PDFs with Aspose.PDF for .NET
 weight: 10
 url: /net/programming-with-document/
-description: This resource offers Aspose.PDF for .NET library tutorials for programming with documents. It covers topics like creating/manipulating PDFs, adding images/tables/links, optimizing documents, and adding security. It's a valuable resource for developers working with PDF documents using Aspose.PDF for .NET.
+description: Learn how to program, create, and manipulate PDF documents using the Aspose.PDF for .NET library. This resource provides step‑by‑step tutorials, code examples, and best practices for working with PDFs in .NET applications.
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -15,6 +15,19 @@ description: This resource offers Aspose.PDF for .NET library tutorials for prog
 # Programming with Document
 
 The resource includes tutorials on the Aspose.PDF for .NET library's programming with document feature. It is a detailed guide that explains how to programmatically create and manipulate PDF documents using the Aspose.PDF for .NET library. The tutorials cover a wide range of topics, including adding text, images, tables, and graphs to PDF documents, working with bookmarks, links, and annotations, adding security and digital signatures to documents, and optimizing the size and quality of PDF documents. The tutorials are an invaluable resource for developers looking to work with PDF documents programmatically using the Aspose.PDF for .NET library.
+
+Below is a simple example that demonstrates how to load a PDF, add a page, and save the result using Aspose.PDF for .NET:
+
+```csharp
+// Load a PDF document
+var pdfDocument = new Aspose.Pdf.Document("input.pdf");
+
+// Add a new page
+pdfDocument.Pages.Add();
+
+// Save the updated PDF
+pdfDocument.Save("output.pdf");
+```
 
 ## Tutorials
 | Title | Description |
@@ -67,8 +80,8 @@ The resource includes tutorials on the Aspose.PDF for .NET library's programming
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
