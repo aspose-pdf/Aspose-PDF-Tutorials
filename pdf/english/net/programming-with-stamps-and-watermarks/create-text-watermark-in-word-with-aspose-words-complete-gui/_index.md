@@ -11,18 +11,18 @@ keywords:
 - add text stamp
 language: en
 og_description: Create text watermark in a Word document with Aspose.Words. Follow this guide to add a custom stamp page, add stamp to page, and add text stamp.
-og_title: Add Text Watermark to Word – Step‑by‑Step Guide
+og_title: Create Text Watermark in Word with Aspose.Words – Complete Guide
 schemas:
 - author: Aspose
   dateModified: '2026-06-21'
   description: Create text watermark in a Word document using Aspose.Words. Learn how to add a custom stamp page, add stamp to page, and add text stamp with clear code.
-  headline: Add Text Watermark to Word with Aspose.Words – Complete Guide
+  headline: Create Text Watermark in Word with Aspose.Words – Complete Guide
   type: TechArticle
 tags:
 - Aspose.Words
 - C#
 - Word Automation
-title: Add Text Watermark to Word with Aspose.Words – Complete Guide
+title: Create Text Watermark in Word with Aspose.Words – Complete Guide
 url: /net/programming-with-stamps-and-watermarks/create-text-watermark-in-word-with-aspose-words-complete-gui/
 ---
 
@@ -30,7 +30,7 @@ url: /net/programming-with-stamps-and-watermarks/create-text-watermark-in-word-w
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Add Text Watermark to Word with Aspose.Words – Complete Guide
+# Create Text Watermark in Word with Aspose.Words – Complete Guide
 
 Ever wondered how to **create text watermark** in a Word file without opening Microsoft Word yourself? You’re not the only one. Whether you’re generating contracts, reports, or confidential drafts, a clear “CONFIDENTIAL” watermark can save you from accidental leaks.
 
@@ -244,4 +244,3 @@ The following tutorials cover closely related topics that build on the technique
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< /blocks/products/products-backtop-button >}}

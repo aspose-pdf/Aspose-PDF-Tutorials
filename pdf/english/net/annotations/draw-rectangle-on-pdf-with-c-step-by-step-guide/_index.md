@@ -34,7 +34,7 @@ tags:
 - PDF
 - C#
 - Aspose.PDF
-title: Draw Rectangle on PDF with C# using Aspose.PDF – Step‑by‑Step Guide
+title: Draw Rectangle on PDF with C# using Aspose.PDF for .NET – Step‑by‑Step Guide
 url: /net/annotations/draw-rectangle-on-pdf-with-c-step-by-step-guide/
 ---
 
@@ -262,4 +262,5 @@ The following tutorials cover closely related topics that build on the technique
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}

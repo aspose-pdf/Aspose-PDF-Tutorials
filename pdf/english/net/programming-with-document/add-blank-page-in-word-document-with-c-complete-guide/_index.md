@@ -11,18 +11,18 @@ keywords:
 - append new page
 language: en
 og_description: Add a blank page to a Word document using Aspose.Words for C#. This tutorial shows how to move pages, insert pages, recalculate page numbers, and append new pages.
-og_title: How to Add a Blank Page in a Word Document with Aspose.Words for C# – Complete Guide
+og_title: Insert a Blank Page into a Word Document using Aspose.Words for C# – Complete Guide
 schemas:
 - author: Aspose
   dateModified: '2026-06-21'
   description: Add a blank page to a Word document using Aspose.Words for C#. Learn how to move pages, insert pages, recalculate page numbers, and append new pages efficiently.
-  headline: How to Add a Blank Page in a Word Document with Aspose.Words for C# – Complete Guide
+  headline: Insert a Blank Page into a Word Document using Aspose.Words for C# – Complete Guide
   type: TechArticle
 tags:
 - Aspose.Words
 - C#
 - Word automation
-title: How to Add a Blank Page in a Word Document with Aspose.Words for C# – Complete Guide
+title: Insert a Blank Page into a Word Document using Aspose.Words for C# – Complete Guide
 url: /net/programming-with-document/add-blank-page-in-word-document-with-c-complete-guide/
 ---
 
@@ -211,12 +211,10 @@ Got a twist you’d like to try? Drop a comment, share your experience, or fork 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to Add an Empty Page at the End of a PDF Using Aspose.PDF for .NET | Step-by-Step Guide](/pdf/english/net/document-manipulation/add-empty-page-end-pdf-aspose-pdf-net/)
-- [How to Add and Customize Page Numbers in PDFs Using Aspose.PDF for .NET | Document Manipulation Guide](/pdf/english/net/document-manipulation/add-customize-page-numbers-aspose-pdf-dot-net/)
-- [How to Add Page Number Stamps in PDFs Using Aspose.PDF for .NET | Watermarks & Backgrounds](/pdf/english/net/watermarks-backgrounds/add-page-number-stamp-using-aspose-pdf-dotnet/)
+- {{< relref "pdf/english/net/document-manipulation/add-empty-page-end-pdf-aspose-pdf-net.md" >}}How to Add an Empty Page at the End of a PDF Using Aspose.PDF for .NET{{< /relref >}}
+- {{< relref "pdf/english/net/document-manipulation/add-customize-page-numbers-aspose-pdf-dot-net.md" >}}How to Add and Customize Page Numbers in PDFs Using Aspose.PDF for .NET{{< /relref >}}
+- {{< relref "pdf/english/net/watermarks-backgrounds/add-page-number-stamp-using-aspose-pdf-dotnet.md" >}}How to Add Page Number Stamps in PDFs Using Aspose.PDF for .NET{{< /relref >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

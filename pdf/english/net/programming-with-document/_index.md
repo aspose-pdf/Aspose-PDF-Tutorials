@@ -1,6 +1,6 @@
 ---
-title: Program PDFs with Aspose.PDF for .NET
-linktitle: Program PDFs with Aspose.PDF for .NET
+title: Create and Manipulate PDFs with Aspose.PDF for .NET
+linktitle: Create and Manipulate PDFs with Aspose.PDF for .NET
 weight: 10
 url: /net/programming-with-document/
 description: Learn how to program, create, and manipulate PDF documents using the Aspose.PDF for .NET library. This resource provides step‑by‑step tutorials, code examples, and best practices for working with PDFs in .NET applications.

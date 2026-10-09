@@ -45,7 +45,7 @@ tags:
 - document‑automation
 - csharp
 - legal‑tech
-title: Add Bates Numbering in Word with Aspose.Words – Complete Step‑by‑Step Guide
+title: Add Bates Numbering in Word using Aspose.Words C# API – Complete Step‑by‑Step Guide
 url: /net/programming-with-document/add-bates-numbering-in-word-complete-step-by-step-guide/
 ---
 
@@ -256,5 +256,5 @@ The following tutorials cover closely related topics that build on the technique
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/products-backtop-button / >}}
 {{< /blocks/products/pf/main-wrap-class >}}

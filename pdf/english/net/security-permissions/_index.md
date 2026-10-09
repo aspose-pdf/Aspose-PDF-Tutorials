@@ -1,5 +1,5 @@
 ---
-title: "Implement PDF Security and Permissions with Aspose.PDF .NET"
+title: "Implement PDF Security and Permissions using Aspose.PDF for .NET API"
 description: "Learn how to implement PDF security, encryption, digital signatures, redaction, and access controls using Aspose.PDF for .NET."
 weight: 8
 url: "/net/security-permissions/"
@@ -101,7 +101,7 @@ Learn how to verify PDF passwords using Aspose.PDF for .NET in C#. This comprehe
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}

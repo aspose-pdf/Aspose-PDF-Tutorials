@@ -58,4 +58,6 @@ pdf.Save("output.pdf");
 {{< /blocks/products/pf/main-container >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}

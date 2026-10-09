@@ -41,7 +41,7 @@ tags:
 - C#
 - PDF processing
 - Bates numbering
-title: Add Bates Numbering to PDF with Aspose.Pdf – Complete C# Guide with Signing & Conversion
+title: Add Bates Numbering to PDF with Aspose.Pdf – Convert to PDF/X‑4, PDF/A‑4 and Digitally Sign C# Guide
 url: /net/programming-with-security-and-signatures/add-bates-numbering-pdf-complete-c-guide-with-signing-conver/
 ---
 
@@ -285,6 +285,6 @@ The following tutorials cover closely related topics that build on the technique
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

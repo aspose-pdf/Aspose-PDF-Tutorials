@@ -1,5 +1,5 @@
 ---
-title: Create and Fill PDF Forms with Aspose.PDF for .NET
+title: Create and Fill PDF Forms using Aspose.PDF for .NET API
 linktitle: Programming with Forms
 weight: 13
 url: /net/programming-with-forms/
@@ -82,11 +82,11 @@ pdf.Save("SampleForm.pdf");
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
 | [Add Bates Numbers to PDFs – Step‑by‑Step C# Guide](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Learn how to add Bates numbers to PDFs using Aspose.PDF for .NET in this step‑by‑step C# guide. |
 | [Create PDF Document with Multiple TextBox Widgets – Step‑by‑Step Guide](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Learn how to create a PDF with multiple TextBox widgets using Aspose.PDF for .NET in this step‑by‑step guide. |
 | [How to Create PDF with Aspose – Add Form Field and Pages](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Learn how to create a PDF, add form fields, and insert pages using Aspose.PDF for .NET in this step-by-step tutorial. |
 | [How to Add Text Box PDF – Create PDF Form Field & Save Edited PDF Document](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Learn how to add a text box to a PDF form and save the edited document using Aspose.PDF for .NET in this step-by-step guide. |
 {{< /blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}

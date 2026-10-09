@@ -247,9 +247,9 @@ Feel free to drop a comment if you hit any snags, or share how you extended the 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to Convert PDF Pages to Images Using Aspose.PDF for .NET (Step-by-Step Guide)](/pdf/english/net/conversion-export/convert-pdf-pages-to-images-aspose-pdf-net/)
-- [How to Convert PDF to Multi-Page TIFF Using Aspose.PDF .NET - Step-by-Step Guide](/pdf/english/net/conversion-export/convert-pdf-to-tiff-aspose-net/)
-- [How to Convert PDFs to PDF/A Using Aspose.PDF for Java: A Step-by-Step Guide](/pdf/english/java/pdfa-compliance/convert-pdf-to-pdfa-aspose-java-guide/)
+- [How to Convert PDF Pages to Images Using Aspose.PDF for .NET (Step-by-Step Guide)]({{< relref "/pdf/english/net/conversion-export/convert-pdf-pages-to-images-aspose-pdf-net/_index.md" >}})
+- [How to Convert PDF to Multi-Page TIFF Using Aspose.PDF .NET - Step-by-Step Guide]({{< relref "/pdf/english/net/conversion-export/convert-pdf-to-tiff-aspose-net/_index.md" >}})
+- [How to Convert PDFs to PDF/A Using Aspose.PDF for Java: A Step-by-Step Guide]({{< relref "/pdf/english/java/pdfa-compliance/convert-pdf-to-pdfa-aspose-java-guide/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/products-backtop-button >}}

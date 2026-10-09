@@ -11,7 +11,7 @@ keywords:
 - display validation result
 language: en
 og_description: How to use Aspose.Words validator in C# to check signature validity, validate document signature online and see the validation result in a concise tutorial.
-og_title: How to Use Validator in C# – Step‑by‑Step Signature Check
+og_title: Validate Word Document Signatures with Aspose.Words Validator in C# – Complete Guide
 schemas:
 - author: Aspose
   dateModified: '2026-06-21'
@@ -24,7 +24,7 @@ tags:
 - validation
 - Aspose.Words
 - security
-title: How to Use Aspose.Words Validator in C# – Complete Guide to Checking Signature Validity
+title: Validate Word Document Signatures with Aspose.Words Validator in C# – Complete Guide
 url: /net/programming-with-security-and-signatures/how-to-use-validator-in-c-complete-guide-to-checking-signatu/
 ---
 
@@ -251,11 +251,12 @@ Each of these topics naturally incorporates our secondary keywords—so you’ll
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- {{< relref "/pdf/english/net/digital-signatures/how-to-verify-pdf-validate-pdf-signature-with-aspose/" >}}How to Verify PDF – Validate PDF Signature with Aspose{{< /relref >}}
-- {{< relref "/pdf/english/net/digital-signatures/verify-pdf-signature-in-c-complete-guide-to-validate-digital/" >}}verify pdf signature in C# – Complete Guide to Validate Digital Signature PDF{{< /relref >}}
-- {{< relref "/pdf/english/net/digital-signatures/extract-pdf-signature-info-aspose-pdf-net/" >}}How to Extract PDF Signature Information Using Aspose.PDF .NET: A Step‑By‑Step Guide{{< /relref >}}
+- [How to Verify PDF – Validate PDF Signature with Aspose](/pdf/english/net/digital-signatures/how-to-verify-pdf-validate-pdf-signature-with-aspose/)
+- [verify pdf signature in C# – Complete Guide to Validate Digital Signature PDF](/pdf/english/net/digital-signatures/verify-pdf-signature-in-c-complete-guide-to-validate-digital/)
+- [How to Extract PDF Signature Information Using Aspose.PDF .NET: A Step‑By‑Step Guide](/pdf/english/net/digital-signatures/extract-pdf-signature-info-aspose-pdf-net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}

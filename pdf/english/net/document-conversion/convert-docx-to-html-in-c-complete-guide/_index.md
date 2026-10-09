@@ -46,7 +46,7 @@ tags:
 - Aspose.Words
 - C#
 - Document Conversion
-title: Convert DOCX to HTML in C# with Aspose.Words – Complete Guide
+title: Export DOCX to HTML in C# using Aspose.Words API – Complete Guide
 url: /net/document-conversion/convert-docx-to-html-in-c-complete-guide/
 ---
 
@@ -222,14 +222,14 @@ Addressing these issues early saves you time when you later **export Word to HTM
 
 ## What should you learn next?
 
-
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Convert PDF to HTML with Aspose.PDF for .NET: Preserve Fonts in TTF and WOFF Formats](/pdf/english/net/conversion-export/convert-pdf-html-aspose-net-truetype-woff/)
-- [Convert PDF to HTML with Custom Image URLs Using Aspose.PDF .NET: A Comprehensive Guide](/pdf/english/net/conversion-export/convert-pdf-html-custom-image-urls-aspose-pdf-net/)
-- [Convert HTML to PDF in C# using Aspose.PDF: A Complete Guide](/pdf/english/net/conversion-export/convert-html-pdf-aspose-pdf-net-csharp/)
+- [Convert PDF to HTML with Aspose.PDF for .NET: Preserve Fonts in TTF and WOFF Formats]({{< relref "/pdf/english/net/conversion-export/convert-pdf-html-aspose-net-truetype-woff/" >}})
+- [Convert PDF to HTML with Custom Image URLs Using Aspose.PDF .NET: A Comprehensive Guide]({{< relref "/pdf/english/net/conversion-export/convert-pdf-html-custom-image-urls-aspose-pdf-net/" >}})
+- [Convert HTML to PDF in C# using Aspose.PDF: A Complete Guide]({{< relref "/pdf/english/net/conversion-export/convert-html-pdf-aspose-pdf-net-csharp/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}

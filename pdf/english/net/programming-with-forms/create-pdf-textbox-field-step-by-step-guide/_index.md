@@ -34,7 +34,7 @@ tags:
 - PDF
 - C#
 - FormFields
-title: Create PDF Textbox Field with PDFTron SDK – Step‑by‑Step C# Guide
+title: Create and Duplicate PDF Textbox Field with PDFTron SDK – Add Textbox to PDF Form in C#
 url: /net/programming-with-forms/create-pdf-textbox-field-step-by-step-guide/
 ---
 

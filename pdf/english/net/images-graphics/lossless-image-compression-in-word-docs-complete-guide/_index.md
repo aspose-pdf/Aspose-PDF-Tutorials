@@ -32,7 +32,7 @@ tags:
 - Word
 - C#
 - Document Processing
-title: Compress Word Images with Aspose.Words – Complete Guide
+title: Losslessly Compress Word Images with Aspose.Words – Complete Guide
 url: /net/images-graphics/lossless-image-compression-in-word-docs-complete-guide/
 ---
 
@@ -251,6 +251,6 @@ The following tutorials cover closely related topics that build on the technique
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
