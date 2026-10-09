@@ -34,7 +34,7 @@ tags:
 - PDF
 - C#
 - Aspose.PDF
-title: Draw Rectangle on PDF with C# using Aspose.PDF for .NET – Step‑by‑Step Guide
+title: Draw Rectangle on PDF with C# – Complete Programming Tutorial
 url: /net/annotations/draw-rectangle-on-pdf-with-c-step-by-step-guide/
 ---
 
@@ -255,9 +255,9 @@ Got a twist you tried? Share it in the comments, and happy coding!
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Create Filled Rectangle Object in PDF using Java](/pdf/english/java/pdf-images/create-filled-rectangle-object-in-pdf-using-java/)
-- [Create Filled Rectangle Object In Pdf Using Java](/pdf/german/java/pdf-images/create-filled-rectangle-object-in-pdf-using-java/)
-- [Create Filled Rectangle Object In Pdf Using Java](/pdf/french/java/pdf-images/create-filled-rectangle-object-in-pdf-using-java/)
+- [Create Filled Rectangle Object in PDF using Java]({{< relref "../../java/pdf-images/create-filled-rectangle-object-in-pdf-using-java/_index.md" >}})
+- [Create Filled Rectangle Object In Pdf Using Java]({{< relref "../../../german/java/pdf-images/create-filled-rectangle-object-in-pdf-using-java/_index.md" >}})
+- [Create Filled Rectangle Object In Pdf Using Java]({{< relref "../../../french/java/pdf-images/create-filled-rectangle-object-in-pdf-using-java/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

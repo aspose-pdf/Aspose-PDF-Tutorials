@@ -11,18 +11,18 @@ keywords:
 - add text stamp
 language: en
 og_description: Create text watermark in a Word document with Aspose.Words. Follow this guide to add a custom stamp page, add stamp to page, and add text stamp.
-og_title: Create Text Watermark in Word with Aspose.Words – Complete Guide
+og_title: Text Watermark in Word Documents – Complete Guide
 schemas:
 - author: Aspose
   dateModified: '2026-06-21'
   description: Create text watermark in a Word document using Aspose.Words. Learn how to add a custom stamp page, add stamp to page, and add text stamp with clear code.
-  headline: Create Text Watermark in Word with Aspose.Words – Complete Guide
+  headline: Text Watermark in Word Documents – Complete Guide
   type: TechArticle
 tags:
 - Aspose.Words
 - C#
 - Word Automation
-title: Create Text Watermark in Word with Aspose.Words – Complete Guide
+title: Text Watermark in Word Documents – Complete Guide
 url: /net/programming-with-stamps-and-watermarks/create-text-watermark-in-word-with-aspose-words-complete-gui/
 ---
 
@@ -30,7 +30,7 @@ url: /net/programming-with-stamps-and-watermarks/create-text-watermark-in-word-w
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Create Text Watermark in Word with Aspose.Words – Complete Guide
+# Text Watermark in Word Documents – Complete Guide
 
 Ever wondered how to **create text watermark** in a Word file without opening Microsoft Word yourself? You’re not the only one. Whether you’re generating contracts, reports, or confidential drafts, a clear “CONFIDENTIAL” watermark can save you from accidental leaks.
 
@@ -237,9 +237,9 @@ Got questions or run into a snag? Drop a comment below or ping the Aspose commun
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to Add a Text Stamp to PDF Using Aspose.PDF .NET: Comprehensive Guide](/pdf/english/net/watermarks-backgrounds/add-text-stamp-pdf-aspose-pdf-dotnet/)
-- [Add Page Stamp Aspose Pdf Dotnet Guide](/pdf/english/net/watermarks-backgrounds/add-page-stamp-aspose-pdf-dotnet-guide/)
-- [How to Add a Text Stamp Footer in PDFs Using Aspose.PDF for .NET: A Step-by-Step Guide](/pdf/english/net/document-manipulation/add-text-stamp-footer-aspose-pdf-net/)
+- [How to Add a Text Stamp to PDF Using Aspose.PDF .NET: Comprehensive Guide]({{< relref "pdf/english/net/watermarks-backgrounds/add-text-stamp-pdf-aspose-pdf-dotnet" >}})
+- [Add Page Stamp Aspose Pdf Dotnet Guide]({{< relref "pdf/english/net/watermarks-backgrounds/add-page-stamp-aspose-pdf-dotnet-guide" >}})
+- [How to Add a Text Stamp Footer in PDFs Using Aspose.PDF for .NET: A Step-by-Step Guide]({{< relref "pdf/english/net/document-manipulation/add-text-stamp-footer-aspose-pdf-net" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

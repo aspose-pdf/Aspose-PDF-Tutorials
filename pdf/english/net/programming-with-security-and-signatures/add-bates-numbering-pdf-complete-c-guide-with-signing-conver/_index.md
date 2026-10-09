@@ -41,7 +41,7 @@ tags:
 - C#
 - PDF processing
 - Bates numbering
-title: Add Bates Numbering to PDF with Aspose.Pdf – Convert to PDF/X‑4, PDF/A‑4 and Digitally Sign C# Guide
+title: Add Bates Numbering to PDF – Convert and Digitally Sign with C#
 url: /net/programming-with-security-and-signatures/add-bates-numbering-pdf-complete-c-guide-with-signing-conver/
 ---
 
@@ -279,9 +279,9 @@ We’ve just demonstrated a practical, end‑to‑end solution that **add bates 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Aspose Pdf Net Add Attachments Convert Pdfa](/pdf/german/net/pdfa-compliance/aspose-pdf-net-add-attachments-convert-pdfa/)
-- [Aspose Pdf Net Add Attachments Convert Pdfa](/pdf/french/net/pdfa-compliance/aspose-pdf-net-add-attachments-convert-pdfa/)
-- [Aspose Pdf Net Add Attachments Convert Pdfa](/pdf/japanese/net/pdfa-compliance/aspose-pdf-net-add-attachments-convert-pdfa/)
+- [German guide on adding attachments and converting to PDF/A](/pdf/german/net/pdfa-compliance/aspose-pdf-net-add-attachments-convert-pdfa/)
+- [French guide on adding attachments and converting to PDF/A](/pdf/french/net/pdfa-compliance/aspose-pdf-net-add-attachments-convert-pdfa/)
+- [Japanese guide on adding attachments and converting to PDF/A](/pdf/japanese/net/pdfa-compliance/aspose-pdf-net-add-attachments-convert-pdfa/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

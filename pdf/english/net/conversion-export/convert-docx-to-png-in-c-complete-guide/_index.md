@@ -33,7 +33,7 @@ tags:
 - C#
 - Aspose.Words
 - ImageExport
-title: Export docx to png in C# using Aspose.Words – Complete Guide
+title: How to Export docx to png in C# using Aspose.Words API – Complete Guide
 url: /net/conversion-export/convert-docx-to-png-in-c-complete-guide/
 ---
 

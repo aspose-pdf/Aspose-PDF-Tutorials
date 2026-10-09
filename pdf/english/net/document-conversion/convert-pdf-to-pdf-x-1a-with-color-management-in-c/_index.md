@@ -21,7 +21,7 @@ tags:
 - PDF conversion
 - C#
 - color management
-title: Convert PDF to PDF/X-1A with Color Management using Aspose.PDF for .NET in C#
+title: How to Convert PDF to PDF/X-1A with Color Management Using Aspose.PDF for .NET in C#
 url: /net/document-conversion/convert-pdf-to-pdf-x-1a-with-color-management-in-c/
 ---
 

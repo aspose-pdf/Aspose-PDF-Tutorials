@@ -11,18 +11,18 @@ keywords:
 - append new page
 language: en
 og_description: Add a blank page to a Word document using Aspose.Words for C#. This tutorial shows how to move pages, insert pages, recalculate page numbers, and append new pages.
-og_title: Insert a Blank Page into a Word Document using Aspose.Words for C# – Complete Guide
+og_title: Add a Blank Page to a Word Document using Aspose.Words for C# – Complete Guide
 schemas:
 - author: Aspose
   dateModified: '2026-06-21'
   description: Add a blank page to a Word document using Aspose.Words for C#. Learn how to move pages, insert pages, recalculate page numbers, and append new pages efficiently.
-  headline: Insert a Blank Page into a Word Document using Aspose.Words for C# – Complete Guide
+  headline: Add a Blank Page to a Word Document using Aspose.Words for C# – Complete Guide
   type: TechArticle
 tags:
 - Aspose.Words
 - C#
 - Word automation
-title: Insert a Blank Page into a Word Document using Aspose.Words for C# – Complete Guide
+title: Add a Blank Page to a Word Document using Aspose.Words for C# – Complete Guide
 url: /net/programming-with-document/add-blank-page-in-word-document-with-c-complete-guide/
 ---
 

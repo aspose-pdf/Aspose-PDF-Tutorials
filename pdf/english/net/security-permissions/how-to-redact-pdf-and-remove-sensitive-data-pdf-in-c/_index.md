@@ -22,7 +22,7 @@ tags:
 - C#
 - Aspose
 - Redaction
-title: How to Redact PDF with Aspose.Pdf for .NET in C# – Complete Step‑by‑Step Guide
+title: Redact PDF Files with Aspose.Pdf for .NET API in C# – Complete Step‑by‑Step Guide
 url: /net/security-permissions/how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/
 ---
 
@@ -30,7 +30,7 @@ url: /net/security-permissions/how-to-redact-pdf-and-remove-sensitive-data-pdf-i
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Redact PDF with Aspose.Pdf for .NET in C# – Complete Step‑by‑Step Guide
+# Redact PDF Files with Aspose.Pdf for .NET API in C# – Complete Step‑by‑Step Guide
 
 Ever wondered **how to redact PDF** files without spending hours manually blacking out text? You’re not the only one. In many industries—legal, finance, healthcare—exposing personal information can cost a fortune, so learning to **remove sensitive data PDF** programmatically is a must‑have skill.
 
@@ -250,9 +250,9 @@ Feel free to experiment, and let us know in the comments which variation saved y
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Extract PDF attachments tutorial]({{< relref "pdf/english/net/attachments-embedded-files/extract-pdf-attachments-aspose-pdf-dotnet.md" >}})
-- [Convert PDF pages to images tutorial]({{< relref "pdf/english/net/conversion-export/convert-pdf-pages-to-images-aspose-pdf-net.md" >}})
-- [Rotate text in PDFs tutorial]({{< relref "pdf/english/net/text-operations/rotate-text-aspose-pdf-net-guide.md" >}})
+- [Extract PDF attachments tutorial](/net/attachments-embedded-files/extract-pdf-attachments-aspose-pdf-dotnet/)
+- [Convert PDF pages to images tutorial](/net/conversion-export/convert-pdf-pages-to-images-aspose-pdf-net/)
+- [Rotate text in PDFs tutorial](/net/text-operations/rotate-text-aspose-pdf-net-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
