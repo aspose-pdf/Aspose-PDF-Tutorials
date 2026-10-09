@@ -50,8 +50,14 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Atur Java Script](./set-java-script/) | Manfaatkan kekuatan Aspose.PDF untuk .NET. Pelajari cara mengatur JavaScript pada kolom formulir dengan panduan langkah demi langkah kami. Bahasa Indonesia:  
 | [Mengatur Judul Tombol Radio](./set-radio-button-caption/) Pelajari cara mengatur teks tombol radio dalam PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini memandu Anda dalam memuat, memodifikasi, dan menyimpan formulir PDF. Bahasa Indonesia:  
 | [Kotak Teks](./text-box/) | Temukan cara mudah menambahkan kotak teks ke PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini. Tingkatkan interaksi pengguna. |
+| [Buat Dokumen PDF dengan Aspose – Tambahkan Kotak Teks](./create-pdf-document-with-aspose-add-text-box-field/) | Pelajari cara menambahkan bidang kotak teks ke dokumen PDF menggunakan Aspose.PDF for .NET dalam panduan langkah demi langkah ini. |
+| [Tambahkan Kotak Teks ke Formulir PDF – Panduan Lengkap C#](./add-text-box-to-pdf-form-complete-c-guide/) | Pelajari cara menambahkan kotak teks ke formulir PDF menggunakan Aspose.PDF for .NET dengan panduan lengkap C# langkah demi langkah. |
 | [Buat Kolom Teks PDF – Panduan Langkah demi Langkah](./create-pdf-textbox-field-step-by-step-guide/) | Pelajari cara membuat kolom teks dalam PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. |
 | [Cara Membuat PDF dengan Aspose – Tambahkan Bidang Formulir dan Halaman](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Pelajari cara membuat PDF, menambahkan bidang formulir, dan menambah halaman menggunakan Aspose.PDF for .NET. |
+| [Buat Dokumen PDF dengan Beberapa Widget – Panduan Langkah‑demi‑Langkah](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) | Pelajari cara membuat dokumen PDF dengan beberapa widget menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah ini. Bahasa Indonesia: |
+| [Buat PDF dengan Halaman dan Kolom Kotak Teks – Panduan Lengkap C#](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Pelajari cara membuat PDF dengan halaman dan bidang kotak teks menggunakan Aspose.PDF for .NET dalam panduan lengkap C#. Bahasa Indonesia:  
+| [Buat Dokumen PDF C# – Panduan Langkah-demi-Langkah untuk Formulir Multi‑Halaman](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Pelajari cara membuat dokumen PDF multi‑halaman dengan formulir menggunakan Aspose.PDF for .NET dalam panduan langkah demi langkah ini. Bahasa Indonesia:  
+| [Buat Formulir Multi Halaman di C# dengan Aspose.Pdf – Panduan Langkah‑per‑Langkah](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | Pelajari cara membuat formulir PDF multi halaman menggunakan Aspose.PDF untuk .NET dengan contoh kode C# langkah demi langkah. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -60,3 +66,36 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
+| [Cara Membuat PDF dengan Aspose – Tambahkan Bidang ke Koleksi](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Pelajari cara menambahkan bidang ke koleksi dalam PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
+| [Menambahkan Bates Numbers ke PDF – Panduan Langkah‑demi‑Langkah C#](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Pelajari cara menambahkan Bates Numbers ke file PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah dalam C#. |
+| [Buat Dokumen PDF dengan Beberapa Widget Kotak Teks – Panduan Langkah‑demi‑Langkah](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Pelajari cara membuat dokumen PDF dengan beberapa widget kotak teks menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah ini. |
+| [Cara Menambahkan Kotak Teks PDF – Membuat Kolom Formulir PDF & Menyimpan Dokumen PDF yang Diedit](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Pelajari cara menambahkan kotak teks ke formulir PDF, membuat bidang formulir, dan menyimpan dokumen PDF yang telah diedit menggunakan Aspose.PDF for .NET. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

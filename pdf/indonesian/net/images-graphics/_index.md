@@ -35,14 +35,25 @@ Pelajari cara mengonversi file SVG menjadi PDF berkualitas tinggi dengan mudah m
 ### [Membuat & Mengisi Persegi Panjang dalam PDF Menggunakan Aspose.PDF untuk .NET: Panduan Langkah demi Langkah](./create-fill-rectangle-aspose-pdf-net/)
 Pelajari cara membuat dan mengisi persegi panjang dalam dokumen PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini mencakup semuanya mulai dari penyiapan hingga implementasi dengan C#.
 
+### [Menambahkan Persegi Panjang ke PDF dengan Aspose.PDF – Panduan Pemrograman Lengkap](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+Pelajari cara menambahkan persegi panjang ke dokumen PDF menggunakan Aspose.PDF dengan contoh kode C# lengkap dan langkah-langkah praktis.
+
+### [Menambahkan Persegi Panjang ke PDF dengan C# – Panduan Lengkap Aspose PDF](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+Pelajari cara menambahkan bentuk persegi panjang ke dokumen PDF menggunakan Aspose.PDF untuk .NET dengan C# dalam panduan lengkap ini.
+
 ### [Buat Stempel PDF Kustom dengan Aspose.PDF di .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Tutorial kode untuk Aspose.PDF Net
+### [Cara Memvalidasi PDF dan Menambahkan Persegi Panjang – Panduan Lengkap](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
+Panduan lengkap untuk memvalidasi PDF dan menambahkan persegi panjang menggunakan Aspose.PDF untuk .NET.
 
 ### [Membuat PDF dengan Sorotan Batas Menggunakan Aspose.PDF .NET: Panduan Lengkap untuk Pengembang](./create-pdf-borders-highlight-aspose-pdf-net/)
 Pelajari cara membuat dokumen PDF yang menarik secara visual dengan mengekstrak dan menyorot paragraf menggunakan Aspose.PDF .NET. Tingkatkan keterbacaan dokumen Anda dengan bingkai khusus.
 
 ### [Menggambar Bentuk Transparan dalam PDF dengan Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 Tutorial kode untuk Aspose.PDF Net
+
+### [Menambahkan Transparansi ke PDF dengan Aspose PDF di C# – Panduan Langkah demi Langkah](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Pelajari cara menambahkan efek transparansi pada elemen PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode C#.
 
 ### [Identifikasi Gambar PDF yang Efisien dengan Aspose.PDF untuk .NET](./master-image-identification-aspose-pdf-net/)
 Pelajari cara mengidentifikasi gambar skala abu-abu dan RGB dalam PDF menggunakan Aspose.PDF untuk .NET. Tutorial ini mencakup kiat penginstalan, ekstraksi gambar, dan performa.
@@ -100,6 +111,12 @@ Pelajari cara menyempurnakan dokumen PDF Anda dengan menambahkan garis putus-put
 
 ### [Cara Membuat PDF Berlabel dengan Gambar di .NET Menggunakan Aspose.PDF](./create-tagged-pdf-image-dotnet/)
 Pelajari cara membuat PDF berlabel yang mudah diakses dan disematkan gambar menggunakan Aspose.PDF for .NET. Tingkatkan aksesibilitas dan presentasi dokumen untuk semua pengguna.
+
+### [Cara Membuat Persegi Panjang Transparan dalam PDF Menggunakan Aspose.PDF untuk .NET](./create-transparent-rectangles-aspose-pdf-net/)
+Tutorial kode untuk Aspose.PDF Net
+
+### [Cara Menggambar Persegi Panjang di PDF dengan C# – Panduan Langkah demi Langkah](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
+Pelajari cara menggambar persegi panjang dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan C# melalui panduan langkah demi langkah.
 
 ### [Cara Membuat Persegi Panjang Transparan dalam PDF Menggunakan Aspose.PDF untuk .NET](./create-transparent-rectangles-aspose-pdf-dotnet/)
 Pelajari cara menyempurnakan dokumen PDF Anda dengan membuat persegi panjang dengan transparansi alfa menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah ini.
@@ -164,6 +181,8 @@ Pelajari cara merender skrip LaTeX yang kompleks menjadi dokumen PDF menggunakan
 ### [Mengatur Latar Belakang Gambar dalam PDF Menggunakan Aspose.PDF untuk .NET: Panduan Lengkap](./aspose-pdf-net-set-image-backgrounds/)
 Pelajari cara menyempurnakan dokumen PDF Anda dengan mengatur latar belakang gambar menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup kiat penyiapan, penerapan, dan pengoptimalan.
 
+### [Cara Menambahkan Bentuk ke PDF dengan Aspose.PDF di C# – Panduan Langkah demi Langkah](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Pelajari cara menambahkan bentuk ke PDF dengan Aspose.PDF untuk .NET menggunakan C#. Ikuti panduan langkah demi langkah untuk menguasai penempatan bentuk.
 ### [Kompresi Gambar Tanpa Kehilangan dalam Dokumen Word – Panduan Lengkap](./lossless-image-compression-in-word-docs-complete-guide/)
 Pelajari cara mengompres gambar dalam dokumen Word secara lossless menggunakan Aspose.Words untuk .NET, menjaga kualitas tinggi sambil mengurangi ukuran file.
 

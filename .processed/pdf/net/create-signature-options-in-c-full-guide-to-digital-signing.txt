@@ -1,0 +1,7 @@
+Title: Create signature options in C# – full guide to digital signing
+Slug: create-signature-options-in-c-full-guide-to-digital-signing
+Category: programming-with-security-and-signatures
+ProcessedDate: 2026-08-14T18:46:30.067520
+SourceRepo: AI Search API
+Keywords: create signature options, custom hash function, apply digital signature, how to sign document, how to configure signature
+PRNumber: 119

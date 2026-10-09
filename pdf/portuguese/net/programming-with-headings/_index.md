@@ -19,9 +19,13 @@ Os tutoriais do Aspose.PDF para .NET levam você passo a passo a dominar a progr
 Explore os recursos do Aspose.PDF para .NET com tutoriais dedicados. Aprenda a trabalhar com títulos em seus documentos PDF, usando exemplos práticos e explicações passo a passo. Melhore a legibilidade e a navegação dos seus arquivos PDF com estes recursos abrangentes.
 
 ## Tutoriais
+
+{{< tutorial-card link="./add-heading/" title="Adicionar Cabeçalho, Idioma e Título a um PDF usando Aspose.PDF for .NET" imgSrc="./add-heading/images/thumb.png" >}}
+
 | Título | Descrição |
 | --- | --- | 
 | [Aplicar estilo numérico em arquivo PDF](./apply-number-style/) | Aprenda a aplicar diferentes estilos numéricos (algarismos romanos, alfabéticos) a títulos em um PDF usando o Aspose.PDF para .NET com este guia passo a passo. |   
+| [Adicionar Título a PDF com Aspose – Guia Completo em C#](./add-heading-to-pdf-with-aspose-complete-c-guide/) | Aprenda a inserir títulos em PDFs usando Aspose.PDF para .NET com um guia completo em C#. |   
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

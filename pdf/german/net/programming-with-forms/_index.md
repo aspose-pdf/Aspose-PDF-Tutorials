@@ -50,7 +50,13 @@ Diese Tutorials bieten detaillierte Codebeispiele, klare Erklärungen und Illust
 | [Java-Skript festlegen](./set-java-script/) | Entfesseln Sie die Leistungsfähigkeit von Aspose.PDF für .NET. Erfahren Sie in unserer Schritt-für-Schritt-Anleitung, wie Sie JavaScript in Formularfeldern einrichten. |
 | [Beschriftung des Optionsfelds festlegen](./set-radio-button-caption/) Erfahren Sie, wie Sie mit Aspose.PDF für .NET Optionsfeldbeschriftungen in PDFs festlegen. Diese Schritt-für-Schritt-Anleitung führt Sie durch das Laden, Ändern und Speichern Ihrer PDF-Formulare. |
 | [Textfeld](./text-box/) | Entdecken Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET mühelos Textfelder zu PDFs hinzufügen. Verbessern Sie die Benutzerinteraktion. |
+| [Textfeld zu PDF-Formular hinzufügen – Vollständige C#-Anleitung](./add-text-box-to-pdf-form-complete-c-guide/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET ein Textfeld zu einem PDF-Formular hinzufügen. |
 | [PDF mit Aspose erstellen – Formularfeld und Seiten hinzufügen](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.PDF für .NET ein PDF erstellen und Formularfelder sowie Seiten hinzufügen. |
+| [PDF-Dokument mit mehreren Widgets erstellen – Schritt‑für‑Schritt‑Anleitung](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) | Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.PDF für .NET ein PDF-Dokument mit mehreren Widgets erstellen. |
+| [PDF mit Seiten und Textfeldfeldern erstellen – Vollständige C#‑Anleitung](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF mit mehreren Seiten und Textfeld‑Widgets in C# vollständig erstellen. |
+| [PDF-Dokument mit Aspose erstellen – Textfeld hinzufügen](./create-pdf-document-with-aspose-add-text-box-field/) | Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.PDF für .NET ein Textfeld zu einem PDF‑Dokument hinzufügen. |
+| [PDF-Dokument erstellen C# – Schritt‑für‑Schritt‑Anleitung zu mehrseitigen Formularen](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein mehrseitiges PDF‑Formular in C# erstellen und konfigurieren. |
+| [Mehrseitiges Formular in C# mit Aspose.Pdf erstellen – Schritt‑für‑Schritt‑Anleitung](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein mehrseitiges PDF-Formular in C# Schritt für Schritt erstellen. |
 | [PDF-Textbox-Feld erstellen – Schritt‑für‑Schritt‑Anleitung](./create-pdf-textbox-field-step-by-step-guide/) | Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.PDF für .NET ein PDF‑Textbox‑Feld hinzufügen und konfigurieren. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -60,3 +66,36 @@ Diese Tutorials bieten detaillierte Codebeispiele, klare Erklärungen und Illust
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
+| [PDF mit Aspose erstellen – Feld zur Sammlung hinzufügen](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET ein Feld zu einer Sammlung hinzufügen. |  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
+| [Bates-Nummern zu PDFs hinzufügen – Schritt‑für‑Schritt C#‑Leitfaden](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET Bates‑Nummern zu PDFs hinzufügen und automatisieren – ein praktischer C#‑Leitfaden. |
+| [PDF-Dokument mit mehreren Textfeld-Widgets erstellen – Schritt‑für‑Schritt‑Anleitung](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.PDF für .NET ein PDF‑Dokument mit mehreren Textfeld‑Widgets erstellen. |
+| [Textfeld zu PDF hinzufügen – PDF-Formularfeld erstellen & bearbeitetes PDF speichern](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein Textfeld zu einem PDF hinzufügen, das Formularfeld erstellen und das bearbeitete PDF speichern. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

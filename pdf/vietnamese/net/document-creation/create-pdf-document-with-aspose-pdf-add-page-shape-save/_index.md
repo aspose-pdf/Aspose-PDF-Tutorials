@@ -42,8 +42,6 @@ Trong hướng dẫn này, chúng ta sẽ đi qua một ví dụ hoàn chỉnh, 
 
 **Yêu cầu trước:** .NET 6+ (hoặc .NET Framework 4.6+), Visual Studio hoặc bất kỳ IDE C# nào, và giấy phép Aspose.PDF hợp lệ (hoặc bản dùng thử miễn phí). Không cần thư viện bên thứ ba nào khác.
 
-![Create PDF Document example](alt="Create PDF Document with Aspose.PDF showing a red rectangle that exceeds page bounds")
-
 ---
 
 ## Bước 1 – Khởi tạo tài liệu PDF

@@ -58,6 +58,10 @@
 | [التحقق من صحة معيار PDF AB](./validatepdfabstandard/) تعرّف على كيفية التحقق من صحة ملف PDF لمعيار PDF/A-1b باستخدام Aspose.PDF لـ .NET في هذا البرنامج التعليمي خطوة بخطوة. اضمن التوافق مع معايير الأرشفة طويلة الأمد.  
 | [التحقق من صحة ملفات PDF كمعيار](./validatepdfastandard/) |تعرف على كيفية التحقق من صحة ملفات PDF وفقًا لمعيار PDF/A-1a باستخدام Aspose.PDF لـ .NET في هذا البرنامج التعليمي الشامل خطوة بخطوة. |  
 | [التحقق من صحة معيار PDF UA](./validatepdfuastandard/) |تعرف على كيفية التحقق من صحة ملف PDF لمعيار إمكانية الوصول PDF/UA باستخدام Aspose.PDF لـ .NET من خلال دليلنا خطوة بخطوة وشروحاتنا التفصيلية. |  
+| [كيفية قراءة مستند Word واستخراج صفحة محددة من Word – دليل C#](./how-to-read-word-document-and-extract-specific-page-from-wor/) | تعلم كيفية قراءة مستند Word واستخراج صفحة معينة باستخدام Aspose.Words لـ .NET في دليل C# خطوة بخطوة. |
+| [كيفية إصلاح ملفات PDF – دليل خطوة بخطوة باستخدام Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | تعرّف على كيفية إصلاح ملفات PDF المتضررة باستخدام Aspose.Pdf لـ .NET في دليل شامل خطوة بخطوة. |
+| [فتح ملف PDF باستخدام C# – كيفية إصلاح ملف PDF تالف في دقائق](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | تعلم كيفية إصلاح ملفات PDF التالفة بسرعة باستخدام Aspose.PDF لـ .NET وC#. |  
+| [إنشاء مكوّن Aspose مخصص – دليل كامل لأتمتة معالجة PDF](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | دليل خطوة بخطوة لإنشاء مكوّن Aspose مخصص لأتمتة معالجة ملفات PDF باستخدام .NET. |  
 | [إضافة ترقيم Bates في Word – دليل خطوة بخطوة كامل](./add-bates-numbering-in-word-complete-step-by-step-guide/) | تعرّف على كيفية إضافة ترقيم Bates إلى مستندات Word باستخدام Aspose.Words لـ .NET في دليل خطوة بخطوة. |  
 | [إضافة صفحة فارغة في مستند Word باستخدام C# – دليل شامل](./add-blank-page-in-word-document-with-c-complete-guide/) | تعرّف على كيفية إضافة صفحة فارغة إلى مستند Word باستخدام C# ومكتبة Aspose.Words في دليل خطوة بخطوة شامل. |
 

@@ -50,7 +50,13 @@
 | [تعيين جافا سكريبت](./set-java-script/) | استغل قوة Aspose.PDF لـ .NET. تعلّم كيفية إعداد JavaScript في حقول النماذج من خلال دليلنا المفصل. |  
 | [تعيين تسمية توضيحية لأزرار الراديو](./set-radio-button-caption/) تعرّف على كيفية ضبط تسميات أزرار الاختيار في ملفات PDF باستخدام Aspose.PDF لـ .NET. يرشدك هذا الدليل خطوة بخطوة خلال تحميل نماذج PDF وتعديلها وحفظها.  
 | [مربع النص](./text-box/) اكتشف كيفية إضافة مربعات نصية بسهولة إلى ملفات PDF باستخدام Aspose.PDF لـ .NET من خلال هذا الدليل المفصل. حسّن تفاعل المستخدم.  
+| [إضافة مربع نص إلى نموذج PDF – دليل كامل بلغة C#](./add-text-box-to-pdf-form-complete-c-guide/) تعلم كيفية إضافة مربع نص إلى نماذج PDF باستخدام Aspose.PDF لـ .NET مع مثال كامل بلغة C#.  
 | [كيفية إنشاء PDF باستخدام Aspose – إضافة حقل نموذج وصفحات](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) تعلم كيفية إنشاء مستند PDF وإضافة حقول نموذجية وصفحات باستخدام Aspose.PDF لـ .NET خطوة بخطوة.  
+| [إنشاء مستند PDF مع عدة أدوات – دليل خطوة بخطوة](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) تعلم كيفية إنشاء مستند PDF يحتوي على عدة أدوات تفاعلية خطوة بخطوة باستخدام Aspose.PDF لـ .NET.  
+| [إنشاء PDF مع صفحات وحقول مربعات النص – دليل C# كامل](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) تعلم كيفية إنشاء مستند PDF يحتوي على صفحات وحقول مربعات نصية باستخدام C# ومكتبة Aspose.PDF خطوة بخطوة.  
+| [إنشاء مستند PDF باستخدام Aspose – إضافة حقل مربع نص](./create-pdf-document-with-aspose-add-text-box-field/) تعلم كيفية إضافة حقل مربع نص إلى مستند PDF باستخدام Aspose.PDF لـ .NET خطوة بخطوة.  
+| [إنشاء مستند PDF باستخدام C# – دليل خطوة بخطوة للنماذج متعددة الصفحات](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) تعلم كيفية إنشاء مستند PDF متعدد الصفحات مع نماذج تفاعلية باستخدام Aspose.PDF لـ .NET وC# خطوة بخطوة.  
+| [إنشاء نموذج متعدد الصفحات في C# باستخدام Aspose.Pdf – دليل خطوة بخطوة](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) تعلم كيفية إنشاء نموذج PDF متعدد الصفحات باستخدام Aspose.PDF لـ .NET في دليل شامل خطوة بخطوة.  
 | [إنشاء حقل نص في PDF – دليل خطوة بخطوة](./create-pdf-textbox-field-step-by-step-guide/) تعلم كيفية إنشاء حقل نص في مستند PDF باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -60,3 +66,34 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
+| [كيفية إنشاء PDF باستخدام Aspose – إضافة حقل إلى مجموعة](./how-to-create-pdf-with-aspose-add-field-to-collection/) تعرّف على كيفية إضافة حقل إلى مجموعة في مستند PDF باستخدام Aspose.PDF لـ .NET خطوة بخطوة.  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
+| [كيفية إضافة مربع نص إلى PDF – إنشاء حقل نموذج PDF وحفظ المستند المُعدل](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) تعلم كيفية إضافة مربع نص إلى نموذج PDF وحفظ المستند بعد التعديل باستخدام Aspose.PDF لـ .NET خطوة بخطوة.  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

@@ -44,8 +44,6 @@ W tym samouczku przeprowadzimy Cię przez kompletny, gotowy do uruchomienia przy
 
 **Wymagania wstępne:** .NET 6+ (lub .NET Framework 4.6+), Visual Studio lub dowolne środowisko IDE C# oraz ważna licencja Aspose.PDF (lub bezpłatna wersja próbna). Nie są wymagane żadne inne biblioteki innych firm.
 
-![Create PDF Document example](alt="Utwórz dokument PDF przy użyciu Aspose.PDF, udostępniany kultowy czerwony osiągający poza granicami strony")
-
 ---
 
 ## Krok 1 – Zainicjuj dokument PDF

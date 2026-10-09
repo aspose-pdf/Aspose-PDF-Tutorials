@@ -1,61 +1,25 @@
 ---
 category: general
-date: 2026-06-21
-description: Comment vérifier rapidement un PDF avec Aspose.PDF. Apprenez à vérifier
-  la signature PDF, à charger le document PDF et à valider la signature PDF en mode
-  strict.
+date: 2026-02-28
+description: Comment vérifier rapidement les signatures PDF avec C#. Apprenez à charger
+  un document PDF, valider la signature PDF et lire les signatures numériques PDF
+  avec Aspose.
 draft: false
 keywords:
 - how to verify pdf
-- check pdf signature
-- load pdf document
 - validate pdf signature
-- verify pdf signature
+- load pdf document c#
+- how to validate pdf
+- read pdf digital signatures
 language: fr
-og_description: Comment vérifier un PDF avec Aspose.PDF. Ce guide vous montre comment
-  vérifier la signature d’un PDF, charger le document PDF et valider la signature
-  du PDF avec des exemples de code.
+og_description: Comment vérifier les signatures PDF avec Aspose.Pdf en C#. Suivez
+  ce guide pour charger le document PDF, valider la signature PDF et lire les signatures
+  numériques PDF.
 og_title: Comment vérifier un PDF – Tutoriel C# étape par étape
-schemas:
-- author: Aspose
-  dateModified: '2026-06-21'
-  description: How to verify PDF quickly using Aspose.PDF. Learn to check PDF signature,
-    load PDF document, and validate PDF signature in strict mode.
-  headline: How to Verify PDF – Complete C# Guide for Digital Signatures
-  type: TechArticle
-- description: How to verify PDF quickly using Aspose.PDF. Learn to check PDF signature,
-    load PDF document, and validate PDF signature in strict mode.
-  name: How to Verify PDF – Complete C# Guide for Digital Signatures
-  steps:
-  - name: '**Missing Certificate Trust** – If the signing certificate isn’t in the
-      Windows Trusted Root store, `IsValid` will be false. You can supply a custom
-      `CertificateStore` to the verification call or add the cert to a trusted store
-      programmatically.'
-    text: '**Missing Certificate Trust** – If the signing certificate isn’t in the
-      Windows Trusted Root store, `IsValid` will be false. You can supply a custom
-      `CertificateStore` to the verification call or add the cert to a trusted store
-      programmatically.'
-  - name: '**Revocation Checks Fail** – Network issues may block OCSP/CRL lookups.
-      In such cases, consider using `SignatureVerificationMode.Lenient` as a fallback,
-      but be aware you’re sacrificing strict security guarantees.'
-    text: '**Revocation Checks Fail** – Network issues may block OCSP/CRL lookups.
-      In such cases, consider using `SignatureVerificationMode.Lenient` as a fallback,
-      but be aware you’re sacrificing strict security guarantees.'
-  - name: '**Password‑Protected PDFs** – If the PDF is encrypted, you must provide
-      the password before creating the `PdfFileSignature` object:'
-    text: '**Password‑Protected PDFs** – If the PDF is encrypted, you must provide
-      the password before creating the `PdfFileSignature` object:'
-  - name: '**Corrupted Signature Dictionaries** – Occasionally a malformed PDF will
-      cause `VerifySignature` to throw. Wrap the call in `try/catch` and log the exception
-      for later analysis.'
-    text: '**Corrupted Signature Dictionaries** – Occasionally a malformed PDF will
-      cause `VerifySignature` to throw. Wrap the call in `try/catch` and log the exception
-      for later analysis.'
-  type: HowTo
 tags:
-- Aspose.PDF
-- C#
-- Digital Signature
+- pdf
+- csharp
+- digital-signature
 title: Comment vérifier un PDF – Guide complet C# pour les signatures numériques
 url: /fr/net/programming-with-security-and-signatures/how-to-verify-pdf-complete-c-guide-for-digital-signatures/
 ---
@@ -66,159 +30,140 @@ url: /fr/net/programming-with-security-and-signatures/how-to-verify-pdf-complete
 
 # Comment vérifier un PDF – Guide complet C# pour les signatures numériques
 
-Vous êtes-vous déjà demandé **comment vérifier les fichiers PDF** qui prétendent être signés ? Peut‑être avez‑vous reçu un contrat, une facture ou un mémoire juridique et vous devez vous assurer que la signature n’a pas été altérée. Dans ce tutoriel, nous parcourrons une solution pratique, de bout en bout, qui vous permet de **vérifier l’état d’une signature PDF** en quelques lignes de C#.
+Vous êtes‑vous déjà demandé **comment vérifier les fichiers PDF** qui proviennent d’un partenaire ou d’un client ? Peut‑être avez‑vous reçu un contrat et vous devez vous assurer que la signature numérique intégrée est toujours fiable. **C’est un problème fréquent** pour quiconque travaille avec des PDF signés dans un flux de travail automatisé.
 
-Nous utiliserons la bibliothèque populaire Aspose.PDF car elle masque la cryptographie de bas niveau et vous offre une API claire. À la fin du guide, vous saurez exactement comment **charger un document PDF**, exécuter une vérification stricte et interpréter le résultat – tout en comprenant pourquoi chaque étape est importante.
+Dans ce tutoriel, nous allons parcourir un **exemple complet et exécutable** qui montre comment **charger un document PDF C#**, **valider une signature PDF**, et **lire les signatures numériques PDF** en utilisant la bibliothèque Aspose.Pdf. À la fin, vous disposerez d’un programme autonome qui indique si une signature est toujours valide selon son Autorité de Certification (CA) émettrice.
 
-## Ce que vous apprendrez
-
-- Comment ajouter Aspose.PDF à votre projet (NuGet, .NET 6+ recommandé)  
-- Le code exact nécessaire pour **valider la signature PDF** en mode strict  
-- Comment interpréter les indicateurs `IsValid` et `IsCompromised`  
-- Les pièges courants lors du **contrôle de la signature PDF** sur des fichiers à signatures multiples  
-- Des idées de prochaines étapes telles que la journalisation, le retour d’interface utilisateur et le traitement par lots  
-
-Aucune expérience préalable avec les signatures numériques n’est requise ; une compréhension de base du C# suffit.
+> **Astuce pro :** Si vous utilisez déjà Aspose.Pdf ailleurs dans votre projet, vous pouvez insérer ce code tel quel, sans dépendances supplémentaires.
 
 ---
 
-## Étape 1 : Configurer le projet et installer Aspose.PDF
+## Ce dont vous avez besoin
 
-Avant de pouvoir **charger le document PDF**, nous avons besoin d’une application console .NET (ou de tout projet C#) avec le package Aspose.PDF.
+- **Aspose.Pdf for .NET** (version 23.12 ou supérieure). Vous pouvez l’obtenir via NuGet : `Install-Package Aspose.Pdf`.
+- **.NET 6+** (ou .NET Framework 4.7.2 si vous préférez le runtime classique).
+- Un fichier PDF contenant au moins une signature numérique.
+- Accès au point de terminaison OCSP de la CA (par ex. `https://ca.example.com/ocsp`).
 
-```bash
-dotnet new console -n PdfSignatureVerifier
-cd PdfSignatureVerifier
-dotnet add package Aspose.PDF
-```
+Aucun SDK supplémentaire ou outil externe n’est requis — tout se trouve dans l’API Aspose.
 
-> **Astuce :** Ciblez .NET 6 ou version ultérieure. La bibliothèque fonctionne également avec .NET Framework 4.6+, mais le runtime plus récent vous offre de meilleures performances et une empreinte plus petite.
+---
 
-Une fois le package installé, ouvrez `Program.cs`. Nous ajouterons les directives `using` nécessaires en haut du fichier :
+## Étape 1 – Charger le document PDF en C#
+
+La toute première chose à faire est de charger le PDF que vous souhaitez vérifier. Considérez cela comme l’ouverture d’un livre avant de lire ses chapitres.
 
 ```csharp
-using System;
 using Aspose.Pdf;
-using Aspose.Pdf.Security;
+using Aspose.Pdf.Facades;
+
+// ...
+
+// Replace with the actual path to your signed PDF
+string pdfPath = @"C:\Docs\input.pdf";
+
+// Load the PDF document
+Document pdfDocument = new Document(pdfPath);
 ```
 
-Nous sommes maintenant prêts à **vérifier la signature PDF**.
+*Pourquoi c’est important :* Le chargement du fichier vous fournit un objet `Document` qui représente l’ensemble du PDF en mémoire, permettant aux API de signature ultérieures d’inspecter ses structures internes.
 
-## Étape 2 : Charger le document PDF
+---
 
-La première ligne d’action est l’appel classique **load pdf document**. Il suffit de pointer Aspose.PDF vers un chemin de fichier.
+## Étape 2 – Créer un helper PdfFileSignature
+
+Aspose sépare la gestion du PDF en plusieurs classes façade. La classe `PdfFileSignature` est celle qui sait comment énumérer et valider les signatures.
 
 ```csharp
-// Step 2: Load the PDF document you want to verify
-var document = new Document("input.pdf");
+// Initialise the signature helper with the loaded document
+PdfFileSignature pdfSignature = new PdfFileSignature(pdfDocument);
 ```
 
-Pourquoi cette étape est‑elle cruciale ? L’objet `Document` est le point d’entrée pour chaque opération PDF – que vous extrayiez du texte, ajoutiez des images ou, dans notre cas, inspectiez les signatures. Si le fichier ne peut pas être ouvert (chemin incorrect, PDF corrompu, permissions insuffisantes), le constructeur lèvera une exception, il est donc recommandé de l’envelopper dans un `try/catch` en production.
+> **Note :** Si vous avez uniquement besoin de travailler avec les signatures et pas le reste du PDF, vous pouvez instancier `PdfFileSignature` directement avec le chemin du fichier — cela économise quelques millisecondes.
 
-## Étape 3 : Créer un gestionnaire PdfFileSignature
+---
 
-Aspose.PDF regroupe les fonctionnalités liées aux signatures dans la classe `PdfFileSignature`. Pensez‑y comme à un petit garde‑sécurité qui ne parle qu’aux signatures contenues dans le document.
+## Étape 3 – Récupérer le premier nom de signature
 
-```csharp
-// Step 3: Create a PdfFileSignature object for the loaded document
-var signatureHandler = new PdfFileSignature(document);
-```
-
-Le gestionnaire ne modifie pas le PDF ; il lit simplement les dictionnaires de signature intégrés et les prépare pour la vérification.
-
-## Étape 4 : Vérifier une signature spécifique (mode strict)
-
-Nous arrivons maintenant au cœur du **comment vérifier pdf** – l’appel de vérification proprement dit. Nous ciblerons une signature nommée `"Sig1"` et demanderons à Aspose d’utiliser `SignatureVerificationMode.Strict`. Le mode strict valide toute la chaîne de certificats, vérifie le statut de révocation et s’assure que le document n’a pas été modifié après la signature.
+La plupart des PDF contiennent une collection de signatures, chacune identifiée par un nom unique. Pour cette démonstration, nous ne regarderons que la première, mais vous pouvez parcourir `GetSignNames()` si vous devez en gérer plusieurs.
 
 ```csharp
-// Step 4: Verify the signature named "Sig1" using strict verification mode
-VerificationResult verificationResult = signatureHandler.VerifySignature(
-    "Sig1", SignatureVerificationMode.Strict);
-```
+// Get all signature names and pick the first entry
+string[] signatureNames = pdfSignature.GetSignNames();
 
-Si vous ne connaissez pas le nom de la signature, vous pouvez parcourir toutes les signatures via `signatureHandler.Signatures`. Dans la plupart des scénarios à signature unique, `"Sig1"` est le nom par défaut attribué par la plupart des outils de signature.
-
-## Étape 5 : Interpréter le résultat et réagir
-
-L’objet `VerificationResult` contient deux propriétés booléennes qui comptent le plus :
-
-| Propriété         | Signification                                                       |
-|-------------------|---------------------------------------------------------------------|
-| `IsValid`         | La signature est cryptographiquement correcte (le hachage correspond). |
-| `IsCompromised`   | Le PDF a été modifié **après** l’application de la signature.      |
-
-Un contrôle typique ressemble à ceci :
-
-```csharp
-// Step 5: Check the verification outcome and report if the signature is compromised
-if (!verificationResult.IsValid && verificationResult.IsCompromised)
+if (signatureNames.Length == 0)
 {
-    Console.WriteLine("Signature is compromised!");
+    Console.WriteLine("No digital signatures were found in the PDF.");
+    return;
 }
-else if (verificationResult.IsValid)
+
+string firstSignatureName = signatureNames[0];
+Console.WriteLine($"Found signature: {firstSignatureName}");
+```
+
+*Pourquoi nous le faisons :* Le nom agit comme une clé lorsque vous demandez plus tard à Aspose de valider une signature spécifique.
+
+---
+
+## Étape 4 – Valider la signature avec la CA émettrice (OCSP)
+
+Voici le cœur de **comment vérifier l’authenticité d’un PDF** : interroger le répondeur OCSP de la CA pour savoir si le certificat qui a signé le document est toujours valide.
+
+```csharp
+// OCSP URL of the issuing Certificate Authority
+string ocspUrl = "https://ca.example.com/ocsp";
+
+// Perform the validation. This call contacts the CA over HTTPS.
+bool isSignatureValid = pdfSignature.ValidateSignatureWithCA(firstSignatureName, ocspUrl);
+
+// Show the result
+Console.WriteLine($"Signature '{firstSignatureName}' validation result: {isSignatureValid}");
+```
+
+### Que se passe‑t‑il en coulisses ?
+
+1. **Extraction du certificat** – Aspose extrait le certificat de signature du PDF.
+2. **Requête OCSP** – Il construit une requête légère (RFC 6960) et l’envoie à `ocspUrl`.
+3. **Analyse de la réponse** – Le répondeur renvoie un statut : *good*, *revoked* ou *unknown*.
+4. **Mappage du résultat** – Le booléen `true` signifie que le certificat est toujours de confiance ; `false` indique un problème.
+
+Si le service OCSP est injoignable, la méthode lève une exception — encapsulez‑la dans un try/catch si vous avez besoin d’une dégradation gracieuse.
+
+---
+
+## Étape 5 – Afficher le résultat de la validation (et les actions suivantes)
+
+Une simple sortie console suffit pour un test rapide, mais dans un service réel vous enregistrerez probablement le résultat ou déclencherez une alerte.
+
+```csharp
+if (isSignatureValid)
 {
-    Console.WriteLine("Signature is valid and the document is intact.");
+    Console.WriteLine("✅ The PDF signature is valid. You can safely process the document.");
 }
 else
 {
-    Console.WriteLine("Signature verification failed – could be an invalid cert or missing trust anchor.");
+    Console.WriteLine("❌ The PDF signature failed validation. Consider rejecting the file.");
 }
 ```
 
-Pourquoi tester les deux indicateurs ? Une signature peut être *invalid* (par ex., certificat expiré) alors que le document reste intact. Inversement, un indicateur *compromised* vous indique que le PDF a été édité après la signature, ce qui constitue un signal d’alarme pour tout processus de conformité.
+**Gestion des cas particuliers :**  
+- **Signatures multiples :** Parcourez `signatureNames` et validez chacune individuellement.  
+- **Certificats auto‑signés :** OCSP ne fonctionnera pas ; vous devrez recourir aux vérifications CRL ou à des listes de confiance manuelles.  
+- **Délais réseau :** Définissez un `HttpClient.Timeout` raisonnable avant d’appeler Aspose si vous anticipez des répondeurs OCSP lents.
 
-### Résultat attendu
-
-En supposant que `input.pdf` contienne une signature valide et non altérée nommée `"Sig1"` :
-
-```
-Signature is valid and the document is intact.
-```
-
-Si quelqu’un a modifié le PDF après la signature :
-
-```
-Signature is compromised!
-```
-
-## Gestion des signatures multiples
-
-Les contrats du monde réel comportent souvent plus d’un signataire. Pour **vérifier la signature pdf** de chaque signataire, parcourez la collection :
-
-```csharp
-foreach (var sigInfo in signatureHandler.Signatures)
-{
-    var result = signatureHandler.VerifySignature(sigInfo.Name, SignatureVerificationMode.Strict);
-    Console.WriteLine($"Signature {sigInfo.Name}: " +
-        $"{(result.IsValid ? "Valid" : "Invalid")} – " +
-        $"{(result.IsCompromised ? "Compromised" : "Intact")}");
-}
-```
-
-Ce modèle s’adapte bien au traitement par lots ou aux grilles UI qui listent l’état de chaque signataire.
-
-## Cas limites courants et comment les gérer
-
-1. **Confiance du certificat manquante** – Si le certificat de signature n’est pas présent dans le magasin Windows Trusted Root, `IsValid` sera faux. Vous pouvez fournir un `CertificateStore` personnalisé à l’appel de vérification ou ajouter le certificat à un magasin de confiance par programme.  
-
-2. **Échec des vérifications de révocation** – Des problèmes réseau peuvent bloquer les requêtes OCSP/CRL. Dans ce cas, envisagez d’utiliser `SignatureVerificationMode.Lenient` comme solution de secours, en sachant que vous sacrifiez les garanties de sécurité strictes.  
-
-3. **PDF protégés par mot de passe** – Si le PDF est chiffré, vous devez fournir le mot de passe avant de créer l’objet `PdfFileSignature` :
-
-   ```csharp
-   var document = new Document("protected.pdf", new LoadOptions { Password = "mySecret" });
-   ```
-
-4. **Dictionnaires de signature corrompus** – Il arrive qu’un PDF malformé provoque une exception lors de `VerifySignature`. Enveloppez l’appel dans un `try/catch` et consignez l’exception pour une analyse ultérieure.
+---
 
 ## Exemple complet fonctionnel
 
-En rassemblant tous les éléments, voici une application console autonome que vous pouvez copier‑coller et exécuter :
+Voici le programme complet que vous pouvez copier‑coller dans un nouveau projet console. Il compile et s’exécute tel quel, à condition que le package NuGet soit installé.
 
 ```csharp
+// ------------------------------------------------------------
+// How to Verify PDF – Complete C# Example
+// ------------------------------------------------------------
 using System;
 using Aspose.Pdf;
-using Aspose.Pdf.Security;
+using Aspose.Pdf.Facades;
 
 namespace PdfSignatureVerifier
 {
@@ -227,85 +172,89 @@ namespace PdfSignatureVerifier
         static void Main(string[] args)
         {
             // 1️⃣ Load the PDF document you want to verify
-            Document document;
-            try
+            string pdfPath = @"C:\Docs\input.pdf";
+            Document pdfDocument = new Document(pdfPath);
+
+            // 2️⃣ Create a PdfFileSignature object for the loaded document
+            PdfFileSignature pdfSignature = new PdfFileSignature(pdfDocument);
+
+            // 3️⃣ Retrieve the name of the first digital signature in the PDF
+            string[] signatureNames = pdfSignature.GetSignNames();
+
+            if (signatureNames.Length == 0)
             {
-                document = new Document("input.pdf");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Failed to load PDF: {ex.Message}");
+                Console.WriteLine("No digital signatures were found in the PDF.");
                 return;
             }
 
-            // 2️⃣ Create a PdfFileSignature handler
-            var signatureHandler = new PdfFileSignature(document);
+            string firstSignatureName = signatureNames[0];
+            Console.WriteLine($"Found signature: {firstSignatureName}");
 
-            // 3️⃣ Verify each signature (strict mode)
-            foreach (var sigInfo in signatureHandler.Signatures)
+            // 4️⃣ Validate the signature against the issuing Certificate Authority (CA) using OCSP
+            string ocspUrl = "https://ca.example.com/ocsp";
+            bool isSignatureValid = false;
+
+            try
             {
-                VerificationResult result;
-                try
-                {
-                    result = signatureHandler.VerifySignature(
-                        sigInfo.Name, SignatureVerificationMode.Strict);
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine($"Error verifying {sigInfo.Name}: {ex.Message}");
-                    continue;
-                }
-
-                // 4️⃣ Interpret the result
-                if (!result.IsValid && result.IsCompromised)
-                {
-                    Console.WriteLine($"Signature {sigInfo.Name} is compromised!");
-                }
-                else if (result.IsValid)
-                {
-                    Console.WriteLine($"Signature {sigInfo.Name} is valid and the document is intact.");
-                }
-                else
-                {
-                    Console.WriteLine($"Signature {sigInfo.Name} verification failed.");
-                }
+                isSignatureValid = pdfSignature.ValidateSignatureWithCA(firstSignatureName, ocspUrl);
             }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error during OCSP validation: {ex.Message}");
+                // You might want to treat unknown as invalid in a strict workflow
+            }
+
+            // 5️⃣ Display the validation result
+            Console.WriteLine($"Signature '{firstSignatureName}' validation result: {isSignatureValid}");
+
+            if (isSignatureValid)
+                Console.WriteLine("✅ The PDF signature is valid. You can safely process the document.");
+            else
+                Console.WriteLine("❌ The PDF signature failed validation. Consider rejecting the file.");
         }
     }
 }
 ```
 
-Compiler et exécuter :
+**Sortie console attendue (lorsque la signature est valide) :**
 
-```bash
-dotnet run
+```
+Found signature: Signature1
+Signature 'Signature1' validation result: True
+✅ The PDF signature is valid. You can safely process the document.
 ```
 
-Vous devriez voir une ligne par signature indiquant son état.
+Si la signature est révoquée ou que l’appel OCSP échoue, vous verrez `False` et le message d’avertissement.
+
+---
+
+## Questions fréquentes
+
+| Question | Réponse |
+|----------|---------|
+| **Puis‑je valider plus d’une signature ?** | Absolument. Parcourez `pdfSignature.GetSignNames()` et appelez `ValidateSignatureWithCA` pour chaque entrée. |
+| **Et si ma CA n’expose pas d’OCSP ?** | Utilisez `ValidateSignature` (qui bascule sur CRL) ou chargez manuellement la chaîne de certificats de la CA et vérifiez‑la localement. |
+| **Cette approche est‑elle thread‑safe ?** | `PdfFileSignature` n’est pas documenté comme thread‑safe. Créez une instance distincte par thread ou protégez‑la avec un verrou. |
+| **Dois‑je faire confiance au certificat racine de la CA ?** | Oui. Assurez‑vous que la racine figure dans le magasin de certificats Windows ou fournissez un magasin de confiance personnalisé à Aspose. |
+
+---
+
+## Prochaines étapes & sujets associés
+
+- **Lire les signatures numériques PDF** en détail : explorez `PdfFileSignature.GetSignatureInfo()` pour extraire le nom du signataire, l’heure de signature et les détails du certificat.
+- **Valider un PDF sans internet** en mettant en cache les réponses OCSP ou en utilisant des fichiers CRL hors ligne.
+- **Signer des PDF programmatique** — le pendant de la vérification. Consultez `PdfFileSignature.SignDocument`.
+- **Intégrer avec ASP.NET Core** : exposez un point d’API qui reçoit un flux PDF et renvoie un résultat de validation JSON.
 
 ---
 
 ## Conclusion
 
-Nous venons de couvrir **comment vérifier les fichiers PDF** avec Aspose.PDF, depuis **load pdf document** jusqu’à **validate pdf signature** et enfin les résultats de **verify pdf signature**. L’idée principale est simple : charger le fichier, créer un gestionnaire `PdfFileSignature`, appeler `VerifySignature` en mode strict, et agir selon les indicateurs `IsValid`/`IsCompromised`. Avec l’exemple de boucle, vous pouvez même **vérifier la signature PDF** pour chaque signataire d’un document à signatures multiples.
+Nous avons couvert **comment vérifier les signatures PDF** de bout en bout avec C#. Le guide vous a montré comment **charger un document PDF C#**, **valider une signature PDF**, et **lire les signatures numériques PDF** avec Aspose.Pdf, en gérant les cas particuliers courants. N’hésitez pas à adapter le fragment pour traiter des dossiers en lot, l’intégrer à un service web, ou le combiner avec votre propre logique de magasin de confiance.
 
-Ensuite, vous pourriez :
+Si ce tutoriel vous a été utile, donnez‑lui une étoile sur GitHub, partagez‑le avec vos collègues, ou laissez un commentaire ci‑dessous avec vos propres astuces. Bon codage, et que vos PDF restent fiables !  
 
-- Intégrer cette logique dans une API web qui renvoie le statut JSON pour les PDF téléchargés.  
-- Stocker les journaux de vérification dans une base de données pour des pistes d’audit.  
-- Combiner l’étape de vérification avec une interface qui met en évidence les pages compromises.
-
-Ces extensions utilisent naturellement les mêmes mots‑clés—**check pdf signature**, **validate pdf signature**, et **verify pdf signature**—et maintiennent ainsi la pertinence SEO et IA.
-
-Des questions sur une autorité de certification particulière, ou besoin d’aide pour gérer des PDF chiffrés ? Laissez un commentaire ci‑dessous, et bon codage !
-
-## Que devriez‑vous apprendre ensuite ?
-
-Les tutoriels suivants abordent des sujets étroitement liés qui s’appuient sur les techniques démontrées dans ce guide. Chaque ressource comprend des exemples de code complets avec des explications pas à pas pour vous aider à maîtriser des fonctionnalités API supplémentaires et explorer des approches d’implémentation alternatives dans vos propres projets.
-
-- [vérifier la signature PDF en C# – Guide complet pour valider la signature numérique PDF](/pdf/english/net/digital-signatures/verify-pdf-signature-in-c-complete-guide-to-validate-digital/)
-- [Comment extraire les informations de signature PDF à l’aide d’Aspose.PDF .NET : guide étape par étape](/pdf/english/net/digital-signatures/extract-pdf-signature-info-aspose-pdf-net/)
-- [Comment créer et vérifier des signatures PDF à l’aide d’Aspose.PDF pour .NET](/pdf/english/net/digital-signatures/create-verify-pdf-signatures-aspose-net/)
+![how to verify pdf example](/images/verify-pdf.png "how to verify pdf example")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

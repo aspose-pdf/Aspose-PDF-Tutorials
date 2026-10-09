@@ -43,8 +43,6 @@ url: /hi/net/document-creation/create-pdf-document-with-aspose-pdf-add-page-shap
 
 **Prerequisites:** .NET 6+ (या .NET Framework 4.6+), Visual Studio या कोई भी C# IDE, और एक वैध Aspose.PDF लाइसेंस (या फ्री इवैल्यूएशन)। कोई अन्य थर्ड‑पार्टी लाइब्रेरी आवश्यक नहीं।
 
-![Create PDF Document example](alt="Create PDF Document with Aspose.PDF showing a red rectangle that exceeds page bounds")
-
 ---
 
 ## चरण 1 – PDF दस्तावेज़ को प्रारंभ करें

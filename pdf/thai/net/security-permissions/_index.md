@@ -68,6 +68,8 @@
 ### [ตรวจสอบรหัสผ่าน PDF ด้วย Aspose.PDF .NET: คู่มือทีละขั้นตอนสำหรับความปลอดภัยและสิทธิ์อนุญาต](./verify-pdf-passwords-aspose-dot-net-guide/)
 เรียนรู้วิธีการตรวจสอบรหัสผ่าน PDF โดยใช้ Aspose.PDF สำหรับ .NET ใน C# คู่มือฉบับสมบูรณ์นี้ช่วยลดความซับซ้อนของการรักษาความปลอดภัยเอกสารและการควบคุมการเข้าถึง
 
+### [ใช้การลบข้อมูลใน PDF ด้วย Aspose Plugin Manager – คู่มือฉบับสมบูรณ์](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
+เรียนรู้วิธีใช้ Aspose Plugin Manager เพื่อลบข้อมูลที่ไม่ต้องการจาก PDF อย่างละเอียด
 ### [วิธีลบข้อมูลลับจาก PDF และลบข้อมูลที่เป็นความลับด้วย C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
 เรียนรู้วิธีลบข้อมูลที่เป็นความลับจากไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ใน C# พร้อมตัวอย่างโค้ดขั้นตอนเต็ม
 

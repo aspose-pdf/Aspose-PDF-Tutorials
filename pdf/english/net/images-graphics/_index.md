@@ -35,6 +35,13 @@ Learn how to convert SVG files into high-quality PDFs seamlessly using Aspose.PD
 ### [Create & Fill Rectangles in PDFs Using Aspose.PDF for .NET&#58; A Step-by-Step Guide](./create-fill-rectangle-aspose-pdf-net/)
 Learn how to create and fill rectangles in PDF documents using Aspose.PDF for .NET. This step-by-step guide covers everything from setup to implementation with C#.
 
+### [How to Draw Rectangle in PDF with C# – Step‑by‑Step Guide](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
+Learn how to draw a rectangle in a PDF using Aspose.PDF for .NET with C#. Follow this step‑by‑step guide.
+### [Add Rectangle to PDF with C# – Full Aspose PDF Guide](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+Learn how to add rectangles to PDF documents using Aspose.PDF for .NET with C# in this comprehensive guide.
+### [Add Rectangle to PDF with Aspose.PDF – Complete Programming Guide](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+Learn how to add rectangles to PDF documents using Aspose.PDF for .NET with a complete programming guide and practical C# examples.
+
 ### [Create Custom PDF Stamps with Aspose.PDF in .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 A code tutorial for Aspose.PDF Net
 
@@ -92,6 +99,9 @@ Learn how to add image stamps to specific pages in your PDFs using Aspose.PDF fo
 ### [How to Add an Image Stamp to a PDF Using Aspose.PDF for .NET&#58; A Comprehensive Guide](./add-image-stamp-pdf-aspose-dotnet/)
 Learn how to add image stamps, such as logos or watermarks, to your PDFs using Aspose.PDF for .NET. This guide covers setup, implementation, and practical applications.
 
+### [How to Add Shape to PDF with Aspose.PDF in C# – Step‑by‑Step Guide](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Learn how to add shapes to PDF documents using Aspose.PDF for .NET with C# in this step-by-step guide.
+
 ### [How to Convert PDF Pages to PNG Images Using Aspose.PDF for .NET](./convert-pdf-page-to-png-aspose-dotnet/)
 Learn how to convert PDF pages to high-quality PNG images using Aspose.PDF for .NET. Follow this step-by-step guide with code examples and best practices.
 
@@ -103,6 +113,9 @@ Learn how to create accessible tagged PDFs embedded with images using Aspose.PDF
 
 ### [How to Create Transparent Rectangles in PDFs Using Aspose.PDF for .NET](./create-transparent-rectangles-aspose-pdf-dotnet/)
 Learn how to enhance your PDF documents by creating rectangles with alpha transparency using Aspose.PDF for .NET. Follow this step-by-step guide.
+
+### [Add Transparency to PDF with Aspose PDF in C# – Step‑by‑Step Guide](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Learn how to apply transparency effects to PDF elements using Aspose.PDF for .NET in C#. Follow this step‑by‑step guide for implementation.
 
 ### [How to Delete Images from PDF Files Using Aspose.PDF for .NET - Complete Guide](./delete-images-aspose-pdf-net/)
 Learn how to efficiently delete images from PDF files using Aspose.PDF for .NET. This guide covers setup, code examples, and best practices.
@@ -152,6 +165,8 @@ Learn how to efficiently replace images in PDF documents using Aspose.PDF for .N
 ### [How to Set Image Size in a PDF Using Aspose.PDF for .NET](./set-image-size-pdf-aspose-dotnet/)
 Learn how to adjust image sizes in PDFs with Aspose.PDF for .NET, perfect for creating professional documents and presentations.
 
+### [How to Validate PDF and Add Rectangle – Complete Guide](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
+Learn how to validate PDF files and add rectangles using Aspose.PDF for .NET with step-by-step C# examples.
 ### [Lossless Image Compression in Word Docs – Complete Guide](./lossless-image-compression-in-word-docs-complete-guide/)
 Learn how to compress images in Word documents without quality loss using Aspose.Words for .NET.
 

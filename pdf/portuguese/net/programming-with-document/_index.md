@@ -59,6 +59,10 @@ recurso inclui tutoriais sobre o recurso de programação com documento da bibli
 | [Validar PDF Padrão AB](./validatepdfabstandard/) Aprenda a validar um PDF para o padrão PDF/A-1b usando o Aspose.PDF para .NET neste tutorial passo a passo. Garanta a conformidade para arquivamento de longo prazo. |  
 | [Validar arquivos PDF Um padrão](./validatepdfastandard/) | Aprenda como validar arquivos PDF de acordo com o padrão PDF/A-1a usando o Aspose.PDF para .NET neste tutorial abrangente passo a passo. |  
 | [Validar PDF UA Padrão](./validatepdfuastandard/) | Aprenda como validar um PDF para o padrão de acessibilidade PDF/UA usando o Aspose.PDF para .NET com nosso guia passo a passo e explicações detalhadas. |  
+| [Abrir arquivo PDF C# – Como reparar um PDF corrompido em minutos](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | Aprenda a abrir e reparar PDFs corrompidos usando Aspose.PDF para .NET em poucos minutos. |
+| [Como reparar arquivos PDF – Guia passo a passo usando Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | Aprenda a reparar arquivos PDF corrompidos usando Aspose.Pdf com este guia passo a passo. |  
+| [Como Ler Documento Word e Extrair Página Específica do Word – Guia C#](./how-to-read-word-document-and-extract-specific-page-from-wor/) | Aprenda a ler um documento Word e extrair uma página específica usando Aspose.Words para .NET em C#. |  
+| [Criar plugin personalizado Aspose – Guia completo para automatizar o processamento de PDF](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Aprenda a criar um plugin Aspose personalizado para automatizar o processamento de PDFs com este guia passo a passo. |
 | [Adicionar página em branco em documento Word com C# – Guia completo](./add-blank-page-in-word-document-with-c-complete-guide/) | Aprenda a inserir uma página em branco em um documento Word usando C# com o Aspose.Words para .NET neste guia completo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

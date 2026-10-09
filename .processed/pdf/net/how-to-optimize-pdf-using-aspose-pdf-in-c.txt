@@ -1,0 +1,7 @@
+Title: How to optimize PDF using Aspose.Pdf in C#
+Slug: how-to-optimize-pdf-using-aspose-pdf-in-c
+Category: performance-optimization
+ProcessedDate: 2026-09-28T08:00:26.536834
+SourceRepo: AI Search API
+Keywords: how to optimize pdf, compress images in pdf, reduce pdf file size, compress pdf images, save optimized pdf
+PRNumber: 136

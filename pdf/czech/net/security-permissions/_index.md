@@ -62,6 +62,8 @@ Naučte se, jak implementovat zabezpečené digitální podpisy a ověřování 
 ### [Zvládnutí redakce PDF s Aspose.PDF .NET: Komplexní průvodce pro bezpečnou manipulaci s dokumenty](./mastering-pdf-redaction-aspose-pdf-net-guide/)
 Naučte se, jak bezpečně redigovat PDF soubory pomocí Aspose.PDF .NET. Tato příručka se zabývá přístupy založenými na anotacích a fasádách, které zajišťují, aby vaše dokumenty zůstaly v souladu s předpisy.
 
+### [Použití redakce PDF s Aspose Plugin Manager – Kompletní průvodce](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
+Naučte se, jak pomocí Aspose Plugin Manager aplikovat redakci na PDF soubory a zabezpečit citlivý obsah.
 ### [Jak redigovat PDF a odstranit citlivá data v C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
 Naučte se, jak pomocí Aspose.PDF pro .NET redigovat PDF soubory a odstranit citlivé informace v C#.
 

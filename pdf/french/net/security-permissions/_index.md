@@ -62,6 +62,8 @@ Découvrez comment implémenter des signatures numériques sécurisées et la v�
 ### [Maîtriser la rédaction PDF avec Aspose.PDF .NET : un guide complet pour une gestion sécurisée des documents](./mastering-pdf-redaction-aspose-pdf-net-guide/)
 Apprenez à rédiger des PDF en toute sécurité avec Aspose.PDF .NET. Ce guide couvre les approches basées sur les annotations et les façades, garantissant la conformité de vos documents.
 
+### [Appliquer la rédaction à un PDF avec Aspose Plugin Manager – Guide complet](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
+Apprenez à appliquer la rédaction sur des PDF en utilisant Aspose Plugin Manager, avec un guide complet étape par étape.
 ### [Comment rédiger un PDF et supprimer les données sensibles d'un PDF en C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
 Apprenez à masquer les informations confidentielles et à supprimer les données sensibles d'un PDF avec Aspose.PDF pour .NET en C#.
 

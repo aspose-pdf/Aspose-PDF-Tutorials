@@ -35,6 +35,12 @@ Aprenda a converter arquivos SVG em PDFs de alta qualidade com facilidade usando
 ### [Crie e preencha retângulos em PDFs usando Aspose.PDF para .NET: um guia passo a passo](./create-fill-rectangle-aspose-pdf-net/)
 Aprenda a criar e preencher retângulos em documentos PDF usando o Aspose.PDF para .NET. Este guia passo a passo abrange tudo, desde a configuração até a implementação em C#.
 
+### [Adicionar retângulo a PDF com Aspose.PDF – Guia completo de programação](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+Aprenda a inserir retângulos em documentos PDF usando Aspose.PDF para .NET com este guia completo de programação.
+
+### [Como desenhar retângulo em PDF com C# – Guia passo a passo](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
+Aprenda a desenhar retângulos em documentos PDF usando Aspose.PDF para .NET com C#. Siga este guia passo a passo.
+
 ### [Crie carimbos PDF personalizados com Aspose.PDF no .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Um tutorial de código para Aspose.PDF Net
 
@@ -43,6 +49,11 @@ Aprenda a criar documentos PDF visualmente atraentes extraindo e destacando par�
 
 ### [Desenhe formas transparentes em PDFs com Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 Um tutorial de código para Aspose.PDF Net
+
+### [Adicionar transparência a PDFs usando Aspose PDF em C# – um guia passo a passo](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Aprenda a aplicar transparência a elementos de PDF com Aspose PDF em C#, seguindo este tutorial passo a passo com exemplos de código.
+### [Como adicionar forma a PDF usando Aspose.PDF em C# – Guia passo a passo](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Aprenda a inserir formas geométricas em documentos PDF com Aspose.PDF para .NET usando C# passo a passo.
 
 ### [Identificação eficiente de imagens em PDF com Aspose.PDF para .NET](./master-image-identification-aspose-pdf-net/)
 Aprenda a identificar imagens em tons de cinza e RGB em PDFs usando o Aspose.PDF para .NET. Este tutorial aborda instalação, extração de imagens e dicas de desempenho.
@@ -104,6 +115,12 @@ Aprenda a criar PDFs acessíveis com tags e imagens incorporadas usando o Aspose
 ### [Como criar retângulos transparentes em PDFs usando Aspose.PDF para .NET](./create-transparent-rectangles-aspose-pdf-dotnet/)
 Aprenda a aprimorar seus documentos PDF criando retângulos com transparência alfa usando o Aspose.PDF para .NET. Siga este guia passo a passo.
 
+### [Como validar PDF e adicionar retângulo – Guia completo](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
+Aprenda a validar arquivos PDF e inserir retângulos usando Aspose.PDF para .NET com este guia completo.
+
+### [Adicionar retângulo a PDF com C# – Guia completo do Aspose PDF](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+Aprenda a adicionar retângulos a documentos PDF usando C# e Aspose.PDF com este guia completo passo a passo.
+
 ### [Como excluir imagens de arquivos PDF usando Aspose.PDF para .NET - Guia completo](./delete-images-aspose-pdf-net/)
 Aprenda a excluir imagens de arquivos PDF com eficiência usando o Aspose.PDF para .NET. Este guia aborda configuração, exemplos de código e práticas recomendadas.
 
@@ -130,6 +147,9 @@ Aprenda como extrair imagens de arquivos PDF com eficiência usando o Aspose.PDF
 
 ### [Como extrair imagens de PDFs usando Aspose.PDF para .NET: um guia passo a passo](./extract-images-aspose-pdf-net-guide/)
 Aprenda a extrair imagens de documentos PDF usando o Aspose.PDF para .NET com este guia completo. Perfeito para desenvolvedores que buscam aprimorar os recursos de processamento de documentos.
+
+### [Como extrair imagens de PDFs usando Aspose.PDF para .NET: um guia passo a passo](./extract-images-aspose-pdf-net/)
+Um tutorial de código para Aspose.PDF Net
 
 ### [Como extrair imagens de páginas específicas de um PDF usando Aspose.PDF para .NET](./extract-images-pdfs-specific-pages-aspose-dotnet/)
 Aprenda a extrair imagens de páginas específicas de um PDF com eficiência usando o Aspose.PDF para .NET. Este guia aborda dicas de configuração, implementação e desempenho.

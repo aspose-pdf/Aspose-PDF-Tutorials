@@ -58,6 +58,10 @@
 | [驗證 PDF AB 標準](./validatepdfabstandard/) |在本逐步教學中了解如何使用 Aspose.PDF for .NET 驗證 PDF 是否符合 PDF/A-1b 標準。確保長期存檔的合規性。 |  
 | [驗證 PDF 文件標準](./validatepdfastandard/) |在本全面的逐步教學中，了解如何使用 Aspose.PDF for .NET 根據 PDF/A-1a 標準驗證 PDF 檔案。 |  
 | [驗證 PDF UA 標準](./validatepdfuastandard/) |透過我們的逐步指南和詳細說明，了解如何使用 Aspose.PDF for .NET 驗證 PDF 是否符合 PDF/UA 可訪問性標準。 |  
+| [如何修復 PDF 檔案 – 使用 Aspose.Pdf 的逐步指南](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) |了解如何使用 Aspose.PDF 修復受損的 PDF 檔案，提供逐步程式碼示例。 |  
+| [開啟 PDF 檔案 C# – 如何在數分鐘內修復損壞的 PDF](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) |了解如何使用 Aspose.PDF for .NET 於 C# 中快速修復受損的 PDF 檔案，步驟簡單且高效。 |  
+| [在 C# 中讀取 Word 文件並提取特定頁面](./how-to-read-word-document-and-extract-specific-page-from-wor/) |了解如何使用 Aspose.Words for .NET 在 C# 中讀取 Word 文件並提取指定頁面。 |  
+| [建立自訂 Aspose 外掛程式 – 完整指南自動化 PDF 處理](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) |了解如何使用 Aspose.PDF for .NET 建立自訂外掛程式，以自動化 PDF 處理流程的完整指南。 |  
 | [在 Word 中新增 Bates 編號 – 完整分步指南](./add-bates-numbering-in-word-complete-step-by-step-guide/) |了解如何使用 Aspose.PDF for .NET 在 Word 文檔中新增 Bates 編號的完整分步指南。 |  
 | [使用 C# 在 Word 文件中新增空白頁 – 完整指南](./add-blank-page-in-word-document-with-c-complete-guide/) |了解如何使用 Aspose.PDF for .NET 及 C# 在 Word 文檔中插入空白頁的完整步驟指南。 |
 

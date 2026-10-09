@@ -62,6 +62,8 @@ Aspose.PDF ile .NET'te PDF'ler için güvenli dijital imzaların ve doğrulaman�
 ### [Aspose.PDF .NET ile PDF Redaksiyonunda Ustalaşma: Güvenli Belge İşleme İçin Kapsamlı Bir Kılavuz](./mastering-pdf-redaction-aspose-pdf-net-guide/)
 Aspose.PDF .NET kullanarak PDF'leri güvenli bir şekilde nasıl düzenleyeceğinizi öğrenin. Bu kılavuz, belgelerinizin uyumlu kalmasını sağlayarak açıklama tabanlı ve cephe yaklaşımlarını kapsar.
 
+### [Aspose Plugin Manager ile PDF'ye Redaksiyon Uygulama – Tam Kılavuz](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
+Aspose Plugin Manager kullanarak PDF'lerde redaksiyon uygulamayı adım adım öğrenin.
 ### [C# ile PDF'yi Redakte Etme ve Hassas Verileri Kaldırma](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
 C# ve Aspose.PDF for .NET kullanarak PDF'den hassas bilgileri nasıl redakte edip kaldıracağınızı öğrenin.
 

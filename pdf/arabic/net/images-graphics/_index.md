@@ -35,6 +35,12 @@
 ### [إنشاء المستطيلات وملؤها في ملفات PDF باستخدام Aspose.PDF لـ .NET: دليل خطوة بخطوة](./create-fill-rectangle-aspose-pdf-net/)
 تعرّف على كيفية إنشاء مستطيلات وتعبئتها في مستندات PDF باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل خطوة بخطوة كل شيء، من الإعداد إلى التنفيذ باستخدام C#.
 
+### [كيفية رسم مستطيل في PDF باستخدام C# – دليل خطوة بخطوة](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
+### [إضافة مستطيل إلى PDF باستخدام C# – دليل كامل Aspose PDF](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+تعلم خطوة بخطوة إضافة مستطيلات إلى ملفات PDF باستخدام C# و Aspose.PDF مع أمثلة عملية وإعدادات متقدمة.
+### [إضافة مستطيل إلى PDF باستخدام Aspose.PDF – دليل برمجة كامل](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+تعلم كيفية إضافة مستطيل إلى ملفات PDF باستخدام Aspose.PDF مع شرح شامل للبرمجة خطوة بخطوة.
+
 ### [إنشاء طوابع PDF مخصصة باستخدام Aspose.PDF في .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 برنامج تعليمي لبرمجة Aspose.PDF Net
 
@@ -43,6 +49,10 @@
 
 ### [ارسم أشكالًا شفافة في ملفات PDF باستخدام Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 برنامج تعليمي لبرمجة Aspose.PDF Net
+
+### [إضافة الشفافية إلى ملفات PDF باستخدام Aspose PDF في C# – دليل خطوة بخطوة](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+### [كيفية إضافة شكل إلى ملف PDF باستخدام Aspose.PDF في C# – دليل خطوة بخطوة](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+تعلم كيفية إضافة شكل إلى ملف PDF باستخدام Aspose.PDF في C# خطوة بخطوة
 
 ### [التعرف على صور PDF بكفاءة باستخدام Aspose.PDF لـ .NET](./master-image-identification-aspose-pdf-net/)
 تعرّف على كيفية تحديد صور تدرجات الرمادي وألوان RGB في ملفات PDF باستخدام Aspose.PDF لـ .NET. يغطي هذا البرنامج التعليمي التثبيت، واستخراج الصور، ونصائح الأداء.
@@ -147,7 +157,7 @@
 تعرّف على كيفية استبدال الصور بكفاءة في مستندات PDF باستخدام Aspose.PDF لـ .NET. حسّن تحديثات مستنداتك باستخدام هذا الدليل الشامل للمطورين.
 
 ### [كيفية استبدال الصور في ملفات PDF باستخدام Aspose.PDF لـ .NET: دليل شامل](./replace-images-aspose-pdf-net-tutorial/)
-تعرّف على كيفية استبدال الصور بكفاءة في مستندات PDF باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل الشامل الإعداد والتنفيذ والتطبيقات العملية.
+تعرّف على كيفية استبدال الصور بكفاءة في ملفات PDF باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل الشامل الإعداد والتنفيذ والتطبيقات العملية.
 
 ### [كيفية تعيين حجم الصورة في ملف PDF باستخدام Aspose.PDF لـ .NET](./set-image-size-pdf-aspose-dotnet/)
 تعرف على كيفية ضبط أحجام الصور في ملفات PDF باستخدام Aspose.PDF لـ .NET، وهو مثالي لإنشاء المستندات والعروض التقديمية الاحترافية.
@@ -164,6 +174,8 @@
 ### [تعيين خلفيات الصور في ملفات PDF باستخدام Aspose.PDF لـ .NET: دليل شامل](./aspose-pdf-net-set-image-backgrounds/)
 تعرّف على كيفية تحسين مستندات PDF الخاصة بك عن طريق تعيين خلفيات الصور باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل نصائح للإعداد والتنفيذ والتحسين.
 
+### [كيفية التحقق من صحة ملف PDF وإضافة مستطيل – دليل شامل](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
+تعرف على خطوات التحقق من صحة ملفات PDF وإدراج مستطلات باستخدام Aspose.PDF لـ .NET مع أمثلة برمجية مفصلة.
 ### [ضغط الصور بدون فقدان في مستندات Word – دليل شامل](./lossless-image-compression-in-word-docs-complete-guide/)
 تعرّف على كيفية ضغط الصور في مستندات Word دون فقدان الجودة باستخدام Aspose.Words لـ .NET.
 

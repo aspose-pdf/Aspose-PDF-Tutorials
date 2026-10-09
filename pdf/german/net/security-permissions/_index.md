@@ -62,6 +62,8 @@ Erfahren Sie, wie Sie mit Aspose.PDF sichere digitale Signaturen und Verifizieru
 ### [PDF-Redaktion mit Aspose.PDF .NET meistern: Ein umfassender Leitfaden für die sichere Dokumentenverarbeitung](./mastering-pdf-redaction-aspose-pdf-net-guide/)
 Erfahren Sie, wie Sie PDFs mit Aspose.PDF .NET sicher redigieren. Dieser Leitfaden behandelt annotationsbasierte und Fassaden-Ansätze und stellt sicher, dass Ihre Dokumente konform bleiben.
 
+### [Redaktion auf PDF mit Aspose Plugin Manager anwenden – Vollständiger Leitfaden](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
+Erfahren Sie, wie Sie mit dem Aspose Plugin Manager vertrauliche Inhalte in PDFs redigieren und schützen.
 ### [So redigieren Sie PDFs und entfernen sensible Daten in C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDFs redigieren und sensible Daten sicher entfernen.
 

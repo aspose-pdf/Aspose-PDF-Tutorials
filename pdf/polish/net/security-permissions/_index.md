@@ -62,6 +62,8 @@ Dowiedz się, jak wdrożyć bezpieczne podpisy cyfrowe i weryfikację plików PD
 ### [Opanowanie redakcji PDF za pomocą Aspose.PDF .NET: kompleksowy przewodnik po bezpiecznym przetwarzaniu dokumentów](./mastering-pdf-redaction-aspose-pdf-net-guide/)
 Dowiedz się, jak bezpiecznie redagować pliki PDF za pomocą Aspose.PDF .NET. Ten przewodnik obejmuje podejścia oparte na adnotacjach i fasadach, zapewniając zgodność dokumentów.
 
+### [Zastosowanie redakcji PDF za pomocą Aspose Plugin Manager – Kompletny przewodnik](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
+Dowiedz się, jak używać Aspose Plugin Manager do stosowania redakcji w dokumentach PDF, krok po kroku.
 ### [Jak redagować PDF i usuwać wrażliwe dane w C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
 Dowiedz się, jak używać Aspose.PDF dla .NET do redakcji i usuwania poufnych informacji z dokumentów PDF w C#.
 

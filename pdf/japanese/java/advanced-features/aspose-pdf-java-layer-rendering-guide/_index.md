@@ -11,23 +11,14 @@ url: /ja/java/advanced-features/aspose-pdf-java-layer-rendering-guide/
 weight: 1
 ---
 
- For long‑term use ... etc.
 
-Continue translation.
 
-We need to translate all English sentences to Japanese, preserving markdown formatting, code block placeholders, etc.
 
-Also note "For Japanese, ensure proper RTL formatting if needed" - not needed.
 
-Let's translate.
 
-I'll produce final output with same structure.
 
-Be careful to keep **bold** etc.
 
-Also keep code block placeholders unchanged.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 
