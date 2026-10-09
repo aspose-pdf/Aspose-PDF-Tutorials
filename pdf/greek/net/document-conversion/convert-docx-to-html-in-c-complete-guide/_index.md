@@ -223,32 +223,6 @@ options.FontResourcesFolder = @"YOUR_DIRECTORY\fonts"; // Where to copy .ttf/.wo
 
 Η αντιμετώπιση αυτών των ζητημάτων νωρίς εξοικονομεί χρόνο όταν αργότερα **εξάγετε το Word σε HTML** για δημοσίευση στο web ή για email templates.
 
-## Πλήρες Παράδειγμα End‑to‑End – Από την αρχή μέχρι το τέλος
-
-Παρακάτω εμφανίζεται ο ίδιος κώδικας όπως πριν, αλλά με πρόσθετη διαχείριση σφαλμάτων και σχόλια που εξηγούν κάθε σημείο λήψης απόφασης. Μπορείτε να τον αντιγράψετε σε ένα αρχείο με όνομα `Program.cs`.
-
-```csharp
-using System;
-using System.IO;
-using Aspose.Words;
-using Aspose.Words.Saving;
-
-namespace DocxToHtmlFullExample
-{
-    class Program
-    {
-        static void Main()
-        {
-            // Paths – adjust to your environment
-            string inputFile = @"YOUR_DIRECTORY\input.docx";
-            string outputFile = @"YOUR_DIRECTORY\output.html";
-
-            // Validate input
-            if (!File.Exists(inputFile))
-            {
-                Console.Error.Write
-
-
 ## Τι θα πρέπει να μάθετε στη συνέχεια;
 
 Οι παρακάτω οδηγίες καλύπτουν στενά συναφή θέματα που επεκτείνουν τις τεχνικές που παρουσιάστηκαν σε αυτόν τον οδηγό. Κάθε πόρος περιλαμβάνει πλήρη λειτουργικό κώδικα με βήμα‑βήμα εξηγήσεις, ώστε να κατακτήσετε πρόσθετα χαρακτηριστικά του API και να εξερευνήσετε εναλλακτικές προσεγγίσεις στα δικά σας έργα.

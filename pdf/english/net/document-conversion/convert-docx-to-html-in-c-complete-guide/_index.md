@@ -221,32 +221,6 @@ If you turn embedding off, remember to copy the generated font files to the spec
 
 Addressing these issues early saves you time when you later **export Word to HTML** for web publishing or email templates.
 
-## Full End‑to‑End Example – From Start to Finish
-
-Below is the same code as before, but with additional error handling and comments that explain each decision point. Feel free to copy‑paste into a file named `Program.cs`.
-
-```csharp
-using System;
-using System.IO;
-using Aspose.Words;
-using Aspose.Words.Saving;
-
-namespace DocxToHtmlFullExample
-{
-    class Program
-    {
-        static void Main()
-        {
-            // Paths – adjust to your environment
-            string inputFile = @"YOUR_DIRECTORY\input.docx";
-            string outputFile = @"YOUR_DIRECTORY\output.html";
-
-            // Validate input
-            if (!File.Exists(inputFile))
-            {
-                Console.Error.Write
-
-
 ## What Should You Learn Next?
 
 

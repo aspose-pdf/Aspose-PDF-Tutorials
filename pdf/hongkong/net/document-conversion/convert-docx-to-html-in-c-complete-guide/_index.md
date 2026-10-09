@@ -221,32 +221,6 @@ options.FontResourcesFolder = @"YOUR_DIRECTORY\fonts"; // Where to copy .ttf/.wo
 
 提前處理這些問題，可在日後 **將 Word 匯出為 HTML** 用於網站或電子郵件範本時，省下大量除錯時間。
 
-## 完整端對端範例 – 從頭到尾
-
-以下程式碼與前述相同，但加入了錯誤處理與說明性註解，說明每個決策點。可直接複製貼上為 `Program.cs`。
-
-```csharp
-using System;
-using System.IO;
-using Aspose.Words;
-using Aspose.Words.Saving;
-
-namespace DocxToHtmlFullExample
-{
-    class Program
-    {
-        static void Main()
-        {
-            // Paths – adjust to your environment
-            string inputFile = @"YOUR_DIRECTORY\input.docx";
-            string outputFile = @"YOUR_DIRECTORY\output.html";
-
-            // Validate input
-            if (!File.Exists(inputFile))
-            {
-                Console.Error.Write
-
-
 ## 接下來該學什麼？
 
 以下教學與本篇內容密切相關，能進一步深化你所學的技巧。每篇資源皆提供完整可執行的程式碼範例，並附有步驟說明，協助你掌握更多 API 功能或探索替代實作方式。

@@ -222,32 +222,6 @@ Als je inbedden uitschakelt, vergeet dan niet de gegenereerde lettertype‑besta
 
 Het vroegtijdig aanpakken van deze issues bespaart je tijd wanneer je later **Word naar HTML exporteert** voor webpublicatie of e‑mail‑templates.
 
-## Volledig end‑to‑end voorbeeld – Van begin tot eind
-
-Hieronder staat dezelfde code als eerder, maar met extra foutafhandeling en commentaar dat elke beslissing uitlegt. Kopieer‑en‑plak het gerust in een bestand genaamd `Program.cs`.
-
-```csharp
-using System;
-using System.IO;
-using Aspose.Words;
-using Aspose.Words.Saving;
-
-namespace DocxToHtmlFullExample
-{
-    class Program
-    {
-        static void Main()
-        {
-            // Paths – adjust to your environment
-            string inputFile = @"YOUR_DIRECTORY\input.docx";
-            string outputFile = @"YOUR_DIRECTORY\output.html";
-
-            // Validate input
-            if (!File.Exists(inputFile))
-            {
-                Console.Error.Write
-
-
 ## Wat moet je hierna leren?
 
 De volgende tutorials behandelen nauw verwante onderwerpen die voortbouwen op de technieken die in deze gids worden gedemonstreerd. Elke bron bevat volledige werkende code‑voorbeelden met stap‑voor‑stap‑uitleg om je te helpen extra API‑functies onder de knie te krijgen en alternatieve implementatie‑benaderingen in je eigen projecten te verkennen.

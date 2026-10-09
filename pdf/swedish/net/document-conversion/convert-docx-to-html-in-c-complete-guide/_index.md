@@ -222,32 +222,6 @@ Om du stänger av inbäddning, kom ihåg att kopiera de genererade typsnittsfile
 
 Att ta itu med dessa problem tidigt sparar dig tid när du senare **exporterar Word till HTML** för webbpublicering eller e‑postmallar.
 
-## Fullt end‑to‑end‑exempel – Från början till slut
-
-Nedan är samma kod som tidigare, men med extra felhantering och kommentarer som förklarar varje beslutspunkt. Kopiera gärna in i en fil som heter `Program.cs`.
-
-```csharp
-using System;
-using System.IO;
-using Aspose.Words;
-using Aspose.Words.Saving;
-
-namespace DocxToHtmlFullExample
-{
-    class Program
-    {
-        static void Main()
-        {
-            // Paths – adjust to your environment
-            string inputFile = @"YOUR_DIRECTORY\input.docx";
-            string outputFile = @"YOUR_DIRECTORY\output.html";
-
-            // Validate input
-            if (!File.Exists(inputFile))
-            {
-                Console.Error.Write
-
-
 ## Vad bör du lära dig härnäst?
 
 

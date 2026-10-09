@@ -223,32 +223,6 @@ Gömme kapalıysa, oluşturulan font dosyalarını belirtilen klasöre kopyalama
 
 Bu sorunları erken aşamada ele almak, **Word'ü HTML'e dışa aktarmak** ve web ya da e‑posta şablonları oluştururken zaman kazandırır.
 
-## Baştan Sona Tam Örnek – Başlangıçtan Bitişe
-
-Aşağıdaki kod, önceki örnekle aynı işlevi görür ancak ek hata yönetimi ve her karar noktasını açıklayan yorumlar içerir. `Program.cs` adıyla bir dosyaya yapıştırıp kullanabilirsiniz.
-
-```csharp
-using System;
-using System.IO;
-using Aspose.Words;
-using Aspose.Words.Saving;
-
-namespace DocxToHtmlFullExample
-{
-    class Program
-    {
-        static void Main()
-        {
-            // Paths – adjust to your environment
-            string inputFile = @"YOUR_DIRECTORY\input.docx";
-            string outputFile = @"YOUR_DIRECTORY\output.html";
-
-            // Validate input
-            if (!File.Exists(inputFile))
-            {
-                Console.Error.Write
-
-
 ## Sonra Ne Öğrenmelisiniz?
 
 
