@@ -181,6 +181,9 @@ Tìm hiểu cách chuyển các tập lệnh LaTeX phức tạp thành tài li�
 ### [Nén Hình Ảnh Không Mất Dữ Liệu trong Tài liệu Word – Hướng Dẫn Toàn Diện](./lossless-image-compression-in-word-docs-complete-guide/)
 Hướng dẫn chi tiết cách nén hình ảnh trong tài liệu Word mà không làm giảm chất lượng, sử dụng Aspose.Words cho .NET.
 
+### [Đặt hình nền ảnh trong PDF bằng Aspose.PDF cho .NET: Hướng dẫn toàn diện](./aspose-pdf-net-set-image-backgrounds/)
+Tìm hiểu cách cải thiện tài liệu PDF của bạn bằng cách thiết lập hình nền bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm các mẹo thiết lập, triển khai và tối ưu hóa.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)
