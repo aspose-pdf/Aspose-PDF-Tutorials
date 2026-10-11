@@ -82,7 +82,7 @@ Leer hoe u met Aspose.PDF voor .NET en C# Bates-nummers toevoegt aan PDF-documen
 ### [PDF-document maken – lege pagina toevoegen, rechthoek tekenen en opslaan](./create-pdf-document-add-blank-page-draw-rectangle-save/)
 Leer hoe u een PDF-document maakt, een lege pagina toevoegt, een rechthoek tekent en het bestand opslaat met Aspose.PDF voor .NET.
 
-### [PDF-document maken met Aspose.PDF: een stapsgewijze handleiding](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+### [PDF-document maken met Aspose.PDF – een stapsgewijze handleiding](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 Leer hoe u met Aspose.PDF een PDF-document maakt, pagina's toevoegt en opslaat in een stapsgewijze handleiding.
 
 ### [PDF-document maken met Aspose.PDF – volledige C#-handleiding](./create-pdf-document-with-aspose-pdf-full-c-guide/)
@@ -99,6 +99,9 @@ Leer hoe u met Aspose.PDF voor .NET een lege pagina toevoegt en een rechthoek te
 
 ### [PDF-afbeelding maken van HEIC – Complete C#-gids](./create-pdf-image-from-heic-complete-c-guide/)
 Leer hoe u met Aspose.PDF een PDF-afbeelding genereert uit HEIC-bestanden met C# in deze volledige gids.
+
+### [Hoe een OpenAI-client te maken en een PDF-samenvatting te genereren in C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
+Leer hoe u een OpenAI-client maakt en een PDF-samenvatting genereert met Aspose.PDF in C#.
 
 ## Aanvullende bronnen
 

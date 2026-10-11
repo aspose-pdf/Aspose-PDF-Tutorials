@@ -196,7 +196,7 @@
 ### [วิธีแปลงหน้า PDFเป็นรูปภาพโดยใช้ Aspose.PDF สำหรับ .NET (คู่มือทีละขั้นตอน)](./convert-pdf-pages-to-images-aspose-pdf-net/)
 เรียนรู้วิธีการแปลงหน้า PDFเป็นรูปภาพอย่างมีประสิทธิภาพโดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนที่ครอบคลุมนี้ เหมาะอย่างยิ่งสำหรับการเก็บถาวร แชร์ และปรับปรุงการเข้าถึง
 
-### [วิธีการแปลง PDFเป็น TIFF แบบไบนารีโดยใช้ Aspose.PDF .NET: คู่มือฉบับสมบูรณ์](./convert-pdf-to-binarized-tiff-aspose-dot-net/)
+### [วิธีการแปลง PDFเป็น TIFFแบบไบนารีโดยใช้ Aspose.PDF .NET: คู่มือฉบับสมบูรณ์](./convert-pdf-to-binarized-tiff-aspose-dot-net/)
 เรียนรู้วิธีการแปลงเอกสาร PDFเป็นไฟล์ภาพ TIFFแบบไบนารีโดยใช้ Aspose.PDF สำหรับ .NET บทช่วยสอนนี้ครอบคลุมถึงการตั้งค่า การกำหนดค่า และการใช้งานจริง
 
 ### [วิธีการแปลง PDFเป็น EPUBด้วย Aspose.PDF สำหรับ .NET: คู่มือสำหรับนักพัฒนา](./convert-pdf-to-epub-aspose-dotnet/)
@@ -209,7 +209,7 @@
 เรียนรู้วิธีแปลงไฟล์ PDFเป็นรูปแบบ PostScriptโดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ เหมาะอย่างยิ่งสำหรับความต้องการการพิมพ์คุณภาพสูง
 
 ### [วิธีแปลง PDF เป็น TIFF โดยใช้ Aspose.PDF สำหรับ .NET: คำแนะนำทีละขั้นตอน](./convert-pdf-to-tiff-aspose-net/)
-เรียนรู้วิธีแปลงไฟล์ PDF เป็นรูปภาพ TIFF คุณภาพสูงโดยใช้ Aspose.PDF สำหรับ .NET ปฏิบัติตามคำแนะนำของเราซึ่งมีตัวอย่างโค้ดและคำแนะนำในการกำหนดค่า
+เรียนรู้วิธีแปลงไฟล์ PDFเป็นรูปภาพ TIFF คุณภาพสูงโดยใช้ Aspose.PDF สำหรับ .NET ปฏิบัติตามคำแนะนำของเราซึ่งมีตัวอย่างโค้ดและคำแนะนำในการกำหนดค่า
 
 ### [วิธีแปลง PDFเป็น XMLโดยใช้ Aspose.PDF สำหรับ .NET: คำแนะนำทีละขั้นตอน](./pdf-to-xml-conversion-aspose-pdf-net/)
 เรียนรู้ศิลปะการแปลงเอกสาร PDFเป็น XMLด้วย Aspose.PDF สำหรับ .NET ปฏิบัติตามคำแนะนำที่ครอบคลุมนี้เพื่อปรับปรุงการจัดการเอกสารของคุณ
@@ -235,7 +235,7 @@
 ### [การแปลง PDFเป็น HTMLโดยใช้ Aspose.PDF .NET: บันทึกรูปภาพเป็น PNG ภายนอก](./pdf-to-html-conversion-external-png-aspose-pdf-net/)
 เรียนรู้วิธีการแปลงเอกสาร PDFเป็น HTMLด้วยรูปภาพ PNG ภายนอกโดยใช้ Aspose.PDF สำหรับ .NET คู่มือนี้จะช่วยรักษาเค้าโครงและเพิ่มประสิทธิภาพการทำงานของเว็บ
 
-### [การแปลง PDFเป็น HTMLด้วย Aspose.PDF .NET: คู่มือที่ครอบคลุม](./aspose-pdf-net-pdf-to-html-conversion/)
+### [การแปลง PDFเป็น HTMLโดยใช้ Aspose.PDF .NET: คู่มือที่ครอบคลุม](./aspose-pdf-net-pdf-to-html-conversion/)
 เรียนรู้การแปลง PDFเป็น HTMLโดยใช้ Aspose.PDF สำหรับ .NET เพิ่มการเข้าถึงและการมีส่วนร่วมของเอกสารด้วยตัวเลือกที่ปรับแต่งได้
 ### [บันทึก PDF เป็น HTML ด้วย Aspose.Pdf – คู่มือ C# ฉบับสมบูรณ์](./save-pdf-as-html-with-aspose-pdf-complete-c-guide/)
 เรียนรู้วิธีบันทึกไฟล์ PDF เป็น HTML อย่างละเอียดด้วย Aspose.Pdf ใน C# พร้อมตัวอย่างโค้ดและเคล็ดลับการปรับแต่ง
@@ -255,7 +255,7 @@
 ### [วิธีบันทึก PDF ด้วย Aspose – คู่มือขั้นตอนโดยขั้นตอน](./how-to-save-pdf-with-aspose-step-by-step-guide/)
 เรียนรู้วิธีบันทึกไฟล์ PDF ด้วย Aspose อย่างละเอียดด้วยขั้นตอนที่ชัดเจน
 
-### [บันทึก PDF เป็น HTML ด้วย Aspose.PDF – คู่มือ C# ฉบับสมบูรณ์](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
+### [บันทึก PDF เป็น HTML ด้วย Aspose.PDF – คู่มือ C# ฉบับสมบูรณ์](./save-pdf-as-html-with-aspose-pdf-complete-c-guide/)
 เรียนรู้วิธีบันทึกไฟล์ PDF เป็น HTML อย่างครบถ้วนด้วย Aspose.PDF สำหรับ .NET และ C#
 
 ### [วิธีส่งออก DOCX – คู่มือขั้นตอนสำหรับนักพัฒนา C#](./how-to-export-docx-step-by-step-guide-for-c-developers/)
@@ -264,7 +264,6 @@
 
 ### [บันทึก PDF เป็น HTML ด้วย C# – คู่มือขั้นตอนเต็ม](./save-pdf-as-html-with-c-complete-step-by-step-guide/)
 เรียนรู้วิธีบันทึกไฟล์ PDF เป็น HTML ด้วย C# ผ่านคู่มือขั้นตอนเต็มที่ครอบคลุม
-
 
 ### [แปลง PDF เป็น PDF/X-1a, ส่งออกหน้าเป็น PNG และเพิ่มตราข้อความ](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
 เรียนรู้วิธีแปลง PDF เป็น PDF/X‑1a ส่งออกหน้าเป็น PNG และเพิ่มตราข้อความด้วย Aspose.PDF สำหรับ .NET
@@ -278,6 +277,9 @@
 ### [แปลง docx เป็น html ใน C# – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./convert-docx-to-html-in-c-complete-programming-guide/)
 
 ### [แปลง PDF เป็น HTML ใน C# – คู่มือเต็มขั้นตอน](./convert-pdf-to-html-in-c-full-step-by-step-guide/)
+
+### [วิธีแปลง PDF เป็น PDFX ด้วย C# – คู่มือขั้นตอนโดยละเอียด](./how-to-convert-pdf-to-pdfx-in-c-step-by-step-guide/)
+เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/X อย่างมืออาชีพด้วย C# โดยใช้ Aspose.PDF .NET พร้อมขั้นตอนและตัวอย่างโค้ด
 
 ## แหล่งข้อมูลเพิ่มเติม
 

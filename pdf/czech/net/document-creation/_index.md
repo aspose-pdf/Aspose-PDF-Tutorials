@@ -38,6 +38,8 @@ Naučte se, jak programově vytvářet strukturované PDF dokumenty v prostřed�
 Naučte se, jak automatizovat vytváření brožur ve formátu PDF pomocí nástroje Aspose.PDF pro .NET. Tato příručka obsahuje tipy pro nastavení, implementaci a optimalizaci.
 ### [Dynamické vytváření PDF pomocí HTML v Aspose.PDF .NET](./aspose-pdf-net-dynamic-html-pdfs/)
 Výukový program pro kódování Aspose.PDF Net
+### [Jak vytvořit klienta OpenAI a vygenerovat PDF souhrn v C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
+Naučte se, jak v C# vytvořit klienta OpenAI a pomocí Aspose.PDF vygenerovat souhrnný PDF dokument.
 ### [Jak vytvářet PDF brožury pomocí Aspose.PDF .NET v C#: Podrobný návod](./create-pdf-booklets-aspose-pdf-net-csharp-guide/)
 Naučte se, jak vytvářet profesionální brožury ve formátu PDF pomocí nástroje Aspose.PDF pro .NET a C#. Tato příručka se zabývá nastavením, implementací a osvědčenými postupy.
 ### [Jak vytvářet PDF soubory s LaTeXem pomocí Aspose.PDF .NET: Podrobný návod](./create-pdf-latex-aspose-dotnet-guide/)

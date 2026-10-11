@@ -49,7 +49,7 @@ Imparerai come specificare le impostazioni di conversione, estrarre testo e imma
 | [Converti PDF in HTML in C# – Guida semplice passo‑passo](./convert-pdf-to-html-in-c-simple-step-by-step-guide/) | Scopri come convertire PDF in HTML utilizzando Aspose.PDF per .NET con questa guida passo passo in C#. |
 | [Conversione PDF Aspose in C# – Converti PDF in PDF/X‑4](./aspose-pdf-conversion-in-c-convert-pdf-to-pdf-x-4/) | Scopri come convertire PDF in PDF/X‑4 usando Aspose.PDF per .NET con un esempio passo passo in C#. |
 | [Tutorial di conversione del formato PDF – Converti PDF in PDF/X‑4 con Aspose in C#](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-with-a/) | Scopri come convertire PDF in PDF/X‑4 utilizzando Aspose.PDF per .NET con questo tutorial passo passo in C#. |
-| [Tutorial di conversione del formato PDF – Converti PDF in PDF/X-4 in C#](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Scopri come convertire PDF in PDF/X‑4 con Aspose.PDF per .NET in C# passo dopo passo. |
+| [Tutorial di conversione del formato PDF – Converti PDF in PDF/X‑4 in C#](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Scopri come convertire PDF in PDF/X‑4 con Aspose.PDF per .NET in C# passo dopo passo. |
 | [Carica e Converti PDF in PDF/X‑4 in C#](./aspose-pdf-tutorial-load-and-convert-pdfs-to-pdf-x-4-in-c/) | Scopri come caricare PDF e convertirli in PDF/X‑4 usando Aspose.PDF per .NET in C# con questo tutorial passo passo. |
 | [Converti PDF in PDF/X‑1a – Guida completa passo‑passo](./convert-pdf-to-pdf-x-1a-full-step-by-step-guide/) | Scopri come convertire PDF in PDF/X‑1a utilizzando Aspose.PDF per .NET con questa guida dettagliata passo passo. |
 | [Tutorial di conversione Aspose PDF – Converti PDF in PDF/X‑4 passo‑passo](./aspose-pdf-conversion-tutorial-convert-pdfs-to-pdf-x-4-step/) | Scopri come convertire PDF in PDF/X‑4 utilizzando Aspose.PDF per .NET con questa guida dettagliata passo‑passo. |
@@ -79,6 +79,7 @@ Imparerai come specificare le impostazioni di conversione, estrarre testo e imma
 | [Salva PDF come HTML con Aspose.PDF – Guida passo‑passo C#](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) | Scopri come convertire un PDF in HTML usando Aspose.PDF per .NET con un esempio dettagliato in C#. |
 | [Crea PDF da JPG in C# – Guida completa con ritaglio e nuove pagine](./create-pdf-from-jpg-in-c-full-guide-with-cropping-and-new-pa/) | Scopri come creare un PDF da immagini JPG in C#, includendo ritaglio e aggiunta di nuove pagine, passo passo. |
 | [Converti PDF in 2.0 – Guida completa ASP.NET con registrazione errori](./convert-pdf-to-2-0-full-asp-net-guide-with-error-logging/) | Scopri come convertire PDF in formato 2.0 usando Aspose.PDF per .NET con una guida completa ASP.NET e gestione dei log degli errori. |
+| [Come salvare PDF come HTML senza immagini usando Aspose.PDF](./how-to-save-pdf-as-html-without-images-using-aspose-pdf/) | Scopri come convertire un PDF in HTML mantenendo il testo ma escludendo le immagini con Aspose.PDF per .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -118,4 +119,3 @@ Imparerai come specificare le impostazioni di conversione, estrarre testo e imma
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

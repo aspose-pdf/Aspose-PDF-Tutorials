@@ -40,6 +40,7 @@ Tìm hiểu cách xác thực PDF và vẽ hình chữ nhật trong tài liệu 
 
 ### [Thêm hình chữ nhật vào PDF bằng C# – Hướng dẫn đầy đủ Aspose PDF](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
 Hướng dẫn chi tiết cách tạo và chèn hình chữ nhật vào tài liệu PDF bằng C# sử dụng Aspose.PDF cho .NET.
+
 ### [Thêm Hình Chữ Nhật vào PDF bằng Aspose.PDF – Hướng Dẫn Lập Trình Toàn Diện](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
 Hướng dẫn chi tiết cách tạo hình chữ nhật trong tài liệu PDF bằng Aspose.PDF cho .NET, bao gồm mã mẫu và các tùy chọn tùy chỉnh.
 
@@ -117,6 +118,9 @@ Tìm hiểu cách cải thiện tài liệu PDF của bạn bằng cách tạo h
 
 ### [Cách Vẽ Hình Chữ Nhật trong PDF bằng C# – Hướng Dẫn Từng Bước](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
 Tìm hiểu cách vẽ hình chữ nhật trong tài liệu PDF bằng C# sử dụng Aspose.PDF cho .NET qua hướng dẫn chi tiết từng bước.
+
+### [Cách thêm hình chữ nhật vào PDF bằng Aspose.PDF trong C#](./how-to-add-rectangle-to-pdf-with-aspose-pdf-in-c/)
+Hướng dẫn chi tiết cách vẽ và chèn hình chữ nhật vào tài liệu PDF bằng Aspose.PDF trong C#.
 
 ### [Thêm Độ Trong Suốt vào PDF với Aspose PDF trong C# – Hướng Dẫn Từng Bước](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Tìm hiểu cách áp dụng độ trong suốt cho các đối tượng trong PDF bằng Aspose PDF và C# qua hướng dẫn chi tiết.

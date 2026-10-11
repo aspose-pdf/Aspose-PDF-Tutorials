@@ -41,6 +41,8 @@ Learn how to draw a rectangle in a PDF using Aspose.PDF for .NET with C#. Follow
 Learn how to add rectangles to PDF documents using Aspose.PDF for .NET with C# in this comprehensive guide.
 ### [Add Rectangle to PDF with Aspose.PDF – Complete Programming Guide](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
 Learn how to add rectangles to PDF documents using Aspose.PDF for .NET with a complete programming guide and practical C# examples.
+### [How to add rectangle to PDF with Aspose.PDF in C#](./how-to-add-rectangle-to-pdf-with-aspose-pdf-in-c/)
+Learn how to add a rectangle to a PDF using Aspose.PDF for .NET with C# in this step‑by‑step guide.
 
 ### [Create Custom PDF Stamps with Aspose.PDF in .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 A code tutorial for Aspose.PDF Net

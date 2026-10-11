@@ -40,6 +40,8 @@
 تعلم خطوة بخطوة إضافة مستطيلات إلى ملفات PDF باستخدام C# و Aspose.PDF مع أمثلة عملية وإعدادات متقدمة.
 ### [إضافة مستطيل إلى PDF باستخدام Aspose.PDF – دليل برمجة كامل](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
 تعلم كيفية إضافة مستطيل إلى ملفات PDF باستخدام Aspose.PDF مع شرح شامل للبرمجة خطوة بخطوة.
+### [كيفية إضافة مستطيل إلى PDF باستخدام Aspose.PDF في C#](./how-to-add-rectangle-to-pdf-with-aspose-pdf-in-c/)
+تعلم كيفية إضافة مستطيل إلى ملفات PDF باستخدام Aspose.PDF في C# خطوة بخطوة.
 
 ### [إنشاء طوابع PDF مخصصة باستخدام Aspose.PDF في .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 برنامج تعليمي لبرمجة Aspose.PDF Net

@@ -42,6 +42,9 @@
 ### [Добавление прямоугольника в PDF с помощью Aspose.PDF – Полное руководство по программированию](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
 Узнайте, как добавить прямоугольник в PDF‑документ с помощью Aspose.PDF, используя полный пример кода на C#.
 
+### [Как добавить прямоугольник в PDF с помощью Aspose.PDF в C#](./how-to-add-rectangle-to-pdf-with-aspose-pdf-in-c/)
+Узнайте, как добавить прямоугольник в PDF‑документ с помощью Aspose.PDF для .NET и C#.
+
 ### [Создание пользовательских PDF-штампов с помощью Aspose.PDF в .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Учебник по коду для Aspose.PDF Net
 

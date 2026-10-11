@@ -109,6 +109,8 @@ Learn how to add a blank page and draw a rectangle in a PDF using Aspose.PDF for
 ### [Create PDF Image from HEIC – Complete C# Guide](./create-pdf-image-from-heic-complete-c-guide/)
 Learn how to convert HEIC images to PDF using Aspose.PDF for .NET with a complete C# implementation.
 
+### [How to create OpenAI client and generate a PDF summary in C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
+
 ## Additional Resources
 
 - [Aspose.PDF for Net Documentation](https://docs.aspose.com/pdf/net/)

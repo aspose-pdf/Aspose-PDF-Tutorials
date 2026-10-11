@@ -86,7 +86,7 @@ Dowiedz się, jak bezproblemowo dodawać obrazy do dokumentów PDF za pomocą As
 Dowiedz się, jak bezproblemowo dodawać obrazy do dokumentów PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik krok po kroku obejmuje konfigurację, implementację i praktyczne zastosowania.
 
 ### [Jak dodawać obrazy do plików PDF za pomocą Aspose.PDF dla .NET: przewodnik krok po kroku](./add-images-to-pdfs-aspose-pdf-net/)
-Dowiedz się, jak bezproblemowo dodawać obrazy do plików PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje dodawanie obrazów do istniejących plików PDF i tworzenie nowych z plików DICOM.
+Dowiedz się, jak bezproblemowo dodawać obrazy do istniejących plików PDF i tworzyć nowe z plików DICOM.
 
 ### [Jak dodać nagłówek obrazu do plików PDF za pomocą Aspose.PDF dla .NET: przewodnik krok po kroku](./add-image-header-pdf-aspose-dotnet/)
 Dowiedz się, jak dodawać nagłówki obrazów do dokumentów PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego kompleksowego przewodnika krok po kroku.
@@ -114,6 +114,9 @@ Dowiedz się, jak ulepszyć swoje dokumenty PDF, tworząc prostokąty z przezroc
 
 ### [Jak narysować prostokąt w plikach PDF przy użyciu C# – przewodnik krok po kroku](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
 Dowiedz się, jak narysować prostokąt w pliku PDF przy użyciu C# i Aspose.PDF .NET, krok po kroku, z przykładami kodu.
+
+### [Jak dodać prostokąt do PDF za pomocą Aspose.PDF w C#](./how-to-add-rectangle-to-pdf-with-aspose-pdf-in-c/)
+Dowiedz się, jak dodać prostokąt do pliku PDF przy użyciu Aspose.PDF w C#.
 
 ### [Jak usunąć obrazy z plików PDF za pomocą Aspose.PDF dla .NET - kompletny przewodnik](./delete-images-aspose-pdf-net/)
 Dowiedz się, jak skutecznie usuwać obrazy z plików PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje konfigurację, przykłady kodu i najlepsze praktyki.

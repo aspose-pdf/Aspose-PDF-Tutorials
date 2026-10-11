@@ -71,7 +71,7 @@ Tanulja meg, hogyan hozhat létre PDF dokumentumot, adhat hozzá oldalt, alakzat
 Tanuld meg, hogyan hozhatsz létre PDF dokumentumot C#‑ban az Aspose segítségével, beleértve az oldal, alakzat hozzáadását és a mentést.
 ### [PDF dokumentum létrehozása C# – Üres oldal hozzáadása és téglalap rajzolása](./create-pdf-document-c-add-blank-page-draw-rectangle/)
 Tanulja meg, hogyan adhat hozzá üres oldalt és rajzolhat téglalapot egy PDF dokumentumhoz C#-ban az Aspose.PDF for .NET segítségével.
-### [PDF dokumentum létrehozása C#-ban – Üres oldal, címkék és span hozzáadása](./create-pdf-document-in-c-add-blank-page-tags-and-span/)
+### [PDF dokumentum létrehozása C#‑ban – Üres oldal, címkék és span hozzáadása](./create-pdf-document-in-c-add-blank-page-tags-and-span/)
 Tanulja meg, hogyan hozhat létre PDF dokumentumot C#-ban, üres oldalt, címkéket és span elemeket adva hozzá.
 
 ### [PDF létrehozása C#-ban – Oldal hozzáadása, téglalap rajzolása és mentés](./how-to-create-pdf-in-c-add-page-draw-rectangle-save/)
@@ -94,12 +94,14 @@ Tanulja meg, hogyan hozhat létre PDF dokumentumot teljes körű C# példakódda
 ### [PDF dokumentum létrehozása C#-ban – Oldal hozzáadása PDF-hez és téglalap rajzolása](./create-pdf-document-in-c-add-page-to-pdf-draw-rectangle/)
 Tanulja meg, hogyan adhat hozzá oldalt egy PDF-hez, és rajzolhat téglalapot C#-ban az Aspose.PDF for .NET használatával.
 
-
 ### [PDF dokumentum létrehozása C#‑ban – Teljes útmutató a memóriában történő generáláshoz](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
 Ismerje meg, hogyan hozhat létre PDF dokumentumot C#‑ban memóriában, anélkül, hogy fájlt mentene a lemezre.
 
 ### [HEIC képből PDF létrehozása – Teljes C# útmutató](./create-pdf-image-from-heic-complete-c-guide/)
 Tanulja meg, hogyan hozhat létre PDF képet HEIC formátumból C#-ban az Aspose.PDF for .NET segítségével.
+
+### [OpenAI kliens létrehozása és PDF összefoglaló generálása C#-ban](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
+Tanulja meg, hogyan hozhat létre OpenAI klienst és generálhat PDF összefoglalót C#-ban az Aspose.PDF segítségével.
 
 ## További források
 

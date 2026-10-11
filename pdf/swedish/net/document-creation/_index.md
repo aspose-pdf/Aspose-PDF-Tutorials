@@ -102,6 +102,9 @@ Lär dig hur du skapar ett PDF-dokument i C#, lägger till en tom sida och ritar
 ### [Skapa PDF-bild från HEIC – Komplett C#-guide](./create-pdf-image-from-heic-complete-c-guide/)
 Lär dig hur du konverterar HEIC-bilder till PDF med Aspose.PDF för .NET i en komplett C#‑guide.
 
+### [Hur man skapar OpenAI‑klient och genererar en PDF‑sammanfattning i C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
+Lär dig hur du integrerar OpenAI i C# och skapar en PDF‑sammanfattning med Aspose.PDF.
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

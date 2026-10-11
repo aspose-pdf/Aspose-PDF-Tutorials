@@ -258,6 +258,9 @@ Scopri come convertire documenti PDF in immagini TIFF utilizzando Aspose.PDF per
 ### [Convertire PDF in PDF/X-1a, esportare pagina PNG e aggiungere timbro di testo](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
 Scopri come convertire un PDF in PDF/X‑1a, esportare le pagine come PNG e aggiungere timbri di testo usando Aspose.PDF per .NET.
 
+### [Come convertire PDF in PDFX in C# – guida passo‑passo](./how-to-convert-pdf-to-pdfx-in-c-step-by-step-guide/)
+Scopri come trasformare documenti PDF in PDF/X utilizzando Aspose.PDF per .NET con esempi di codice C# passo dopo passo.
+
 ### [Converti PDF in PNG con Aspose.PDF .NET: una guida completa](./convert-pdf-to-png-aspose-net/)
 Scopri come convertire i documenti PDF in immagini PNG di alta qualità utilizzando Aspose.PDF per .NET. Segui questa guida passo passo per automatizzare il processo di conversione in modo efficiente.
 
