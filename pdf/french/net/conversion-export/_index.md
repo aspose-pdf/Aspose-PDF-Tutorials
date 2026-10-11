@@ -213,7 +213,7 @@ Apprenez à convertir des fichiers PDF au format EPUB avec Aspose.PDF pour .NET.
 Découvrez comment convertir des PDF en images TIFF multipages de haute qualité avec Aspose.PDF pour .NET. Suivez ce guide étape par étape pour une implémentation facile en C#.
 
 ### [Comment convertir un PDF en PostScript en C# avec Aspose.PDF : guide complet](./convert-pdf-to-postscript-aspose-csharp/)
-Apprenez à convertir des fichiers PDF au format PostScript avec Aspose.PDF pour .NET grâce à ce guide étape par étape. Idéal pour des impressions de haute qualité.
+Apprenez à convertir des fichiers PDF au format PostScript avec Aspose.PDF pour .NET grâce à un guide étape par étape. Idéal pour des impressions de haute qualité.
 
 ### [Comment convertir un PDF en TIFF avec Aspose.PDF pour .NET : guide étape par étape](./convert-pdf-to-tiff-aspose-net/)
 Apprenez à convertir des fichiers PDF en images TIFF de haute qualité avec Aspose.PDF pour .NET. Suivez notre guide étape par étape avec des exemples de code et des conseils de configuration.
@@ -264,6 +264,9 @@ Apprenez à convertir des documents PDF en images TIFF avec Aspose.PDF pour .NET
 
 ### [Convertir un PDF en PDF/X‑1a, exporter la page en PNG et ajouter un tampon de texte](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
 Apprenez à convertir un PDF au format PDF/X‑1a, à exporter une page en PNG et à ajouter un tampon de texte avec Aspose.PDF pour .NET.
+
+### [Comment convertir un PDF en PDFX en C# – guide étape par étape](./how-to-convert-pdf-to-pdfx-in-c-step-by-step-guide/)
+Apprenez à convertir un PDF en PDFX en C# avec Aspose.PDF, en suivant un guide détaillé pas à pas.
 
 ### [Comment enregistrer un PDF avec Aspose – Guide étape par étape](./how-to-save-pdf-with-aspose-step-by-step-guide/)
 Apprenez à enregistrer un fichier PDF en utilisant Aspose avec un guide détaillé étape par étape.

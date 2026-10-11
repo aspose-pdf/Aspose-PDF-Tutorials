@@ -80,7 +80,7 @@ Tìm hiểu cách thêm trang mới vào PDF và vẽ hình chữ nhật bằng 
 
 ### [Tạo tài liệu PDF với Aspose.PDF – Hướng dẫn từng bước](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 Hướng dẫn chi tiết cách tạo tài liệu PDF bằng Aspose.PDF trong .NET. Bao gồm các bước thiết lập và ví dụ mã thực tế.
-### [Tạo tài liệu PDF với Aspose trong C# – Hướng dẫn từng bước](./create-pdf-document-with-aspose-in-c-step-by-step-guide/)
+### [Tạo tài liệu PDF trong C# – Hướng dẫn từng bước](./create-pdf-document-with-aspose-in-c-step-by-step-guide/)
 Hướng dẫn chi tiết cách tạo tài liệu PDF bằng Aspose trong C#, bao gồm các bước thiết lập và ví dụ mã thực tế.
 ### [Tạo tài liệu PDF C# – Thêm trang trắng & Vẽ hình chữ nhật](./create-pdf-document-c-add-blank-page-draw-rectangle/)
 Hướng dẫn cách tạo PDF, thêm trang trắng và vẽ hình chữ nhật bằng Aspose.PDF cho .NET trong C#.
@@ -101,6 +101,9 @@ Hướng dẫn chi tiết cách thêm một trang trống và vẽ hình chữ n
 
 ### [Tạo hình ảnh PDF từ HEIC – Hướng dẫn C# đầy đủ](./create-pdf-image-from-heic-complete-c-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tệp HEIC thành hình ảnh PDF bằng C# và Aspose.PDF.
+
+### [Cách tạo client OpenAI và tạo bản tóm tắt PDF bằng C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
+Hướng dẫn tạo client OpenAI và tạo bản tóm tắt PDF bằng C# sử dụng Aspose.PDF.
 
 ## Tài nguyên bổ sung
 

@@ -117,6 +117,9 @@ Aspose.PDF for .NET kullanarak C# ile tam kapsamlı PDF belgesi oluşturma adım
 ### [HEIC'ten PDF Görüntüsü Oluşturma – Tam C# Kılavuzu](./create-pdf-image-from-heic-complete-c-guide/)
 HEIC dosyalarından PDF görüntüsü oluşturmayı adım adım öğrenin, C# kod örnekleriyle uygulayın.
 
+### [C#'ta OpenAI istemcisi oluşturma ve PDF özeti oluşturma](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
+C# kullanarak OpenAI istemcisi oluşturup, yanıtları PDF özetine dönüştürmeyi öğrenin.
+
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)

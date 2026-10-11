@@ -102,6 +102,9 @@ Aspose.PDF Net 代码教程
 ### [从 HEIC 创建 PDF 图像 – 完整 C# 指南](./create-pdf-image-from-heic-complete-c-guide/)
 学习如何使用 Aspose.PDF for .NET 将 HEIC 图像转换为 PDF，并在 C# 中实现完整的创建流程。
 
+### [如何在 C# 中创建 OpenAI 客户端并生成 PDF 摘要](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
+学习如何在 C# 中创建 OpenAI 客户端并生成 PDF 摘要。
+
 ## 其他资源
 
 - [Aspose.PDF 用于网络文档](https://docs.aspose.com/pdf/net/)

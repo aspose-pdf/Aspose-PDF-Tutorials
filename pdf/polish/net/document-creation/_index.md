@@ -101,6 +101,8 @@ Krok po kroku pokażemy, jak dodać pustą stronę i narysować prostokąt w dok
 ### [Utwórz obraz PDF z HEIC – Kompletny przewodnik C#](./create-pdf-image-from-heic-complete-c-guide/)
 Dowiedz się, jak konwertować obrazy HEIC na pliki PDF w C# przy użyciu Aspose.PDF, krok po kroku.
 
+### [Jak utworzyć klienta OpenAI i wygenerować podsumowanie PDF w C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

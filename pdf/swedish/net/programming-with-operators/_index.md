@@ -24,6 +24,7 @@ Aspose.PDF för .NET:s handledningar "Programmering med operatorer" guidar dig g
 | [PDF-operatorer](./pdf-operators/) | Steg-för-steg-guide för att använda PDF-operatorer med Aspose.PDF för .NET. Lägg till en bild på en PDF-sida och ange dess position. |  
 | [Ta bort grafikobjekt i PDF-fil](./remove-graphics-objects/) Lär dig hur du tar bort grafikobjekt från en PDF-fil med Aspose.PDF för .NET i den här steg-för-steg-guiden. Förenkla dina PDF-manipulationsuppgifter. |  
 | [Iterera samling C# – En enkel guide för att loopa över objekt](./iterate-collection-c-simple-guide-to-loop-over-items/) | Lär dig hur du itererar igenom en samling i C# med Aspose.PDF för .NET i denna enkla steg-för-steg-guide. |  
+| [Hur man ändrar PDF-transparens i C# med Aspose.PDF](./how-to-change-pdf-transparency-in-c-with-aspose-pdf/) | Lär dig hur du ändrar transparens i PDF-dokument med Aspose.PDF för .NET i C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

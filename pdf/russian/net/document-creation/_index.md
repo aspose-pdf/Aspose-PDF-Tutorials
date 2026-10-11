@@ -117,6 +117,9 @@
 ### [Создание PDF‑изображения из HEIC – Полное руководство на C#](./create-pdf-image-from-heic-complete-c-guide/)
 Узнайте, как преобразовать изображения HEIC в PDF с помощью Aspose.PDF для .NET, используя C#.
 
+### [Как создать клиент OpenAI и сгенерировать PDF‑резюме на C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
+Узнайте, как создать клиент OpenAI и сгенерировать PDF‑резюме с помощью Aspose.PDF для .NET на C#.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.PDF для сети](https://docs.aspose.com/pdf/net/)

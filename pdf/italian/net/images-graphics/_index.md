@@ -44,6 +44,9 @@ Scopri come verificare la validità di un PDF e inserire un rettangolo usando As
 ### [Aggiungere rettangolo a PDF con Aspose.PDF – Guida completa di programmazione](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
 Scopri come inserire rettangoli nei PDF, impostare dimensioni, colore e posizione con Aspose.PDF per .NET in C#.
 
+### [Come aggiungere un rettangolo a PDF con Aspose.PDF in C#](./how-to-add-rectangle-to-pdf-with-aspose-pdf-in-c/)
+Scopri come inserire rettangoli nei PDF usando Aspose.PDF per .NET con esempi di codice C# passo passo.
+
 ### [Crea timbri PDF personalizzati con Aspose.PDF in .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Un tutorial sul codice per Aspose.PDF Net
 

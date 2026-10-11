@@ -28,7 +28,7 @@ Aspose.PDF for .NET kullanarak XML verilerinin profesyonel PDF belgelerine nası
 Aspose.PDF for .NET kullanarak özel stratejilerle PDF'leri HTML'ye nasıl dönüştüreceğinizi öğrenin. Yüksek doğruluğu koruyun, görselleri, yazı tiplerini ve CSS'yi etkili bir şekilde işleyin.
 ### [Kapsamlı Kılavuz: Sorunsuz Belge Dönüştürme için Aspose.PDF .NET Kullanarak PDF'yi TIFF'e Dönüştürün](./convert-pdf-to-tiff-aspose-dotnet-guide/)
 Aspose.PDF for .NET kullanarak PDF dosyalarını yüksek kaliteli TIFF görüntülerine nasıl verimli bir şekilde dönüştüreceğinizi öğrenin. Belge işleme iş akışınızı geliştirmek için bu adım adım kılavuzu izleyin.
-### [Kapsamlı Kılavuz: Aspose.PDF for .NET Kullanarak Gerçek Zamanlı İlerleme Güncellemeleriyle PDF'den HTML'ye Dönüştürme](./pdf-to-html-conversion-progress-aspose-pdf-net/)
+### [Kapsamlı Kılavuz: Aspose.PDF .NET Kullanarak Gerçek Zamanlı İlerleme Güncellemeleriyle PDF'den HTML'ye Dönüştürme](./pdf-to-html-conversion-progress-aspose-pdf-net/)
 Gerçek zamanlı ilerleme güncellemelerini içeren Aspose.PDF for .NET'i kullanarak PDF'leri etkileşimli HTML formatlarına nasıl dönüştüreceğinizi öğrenin. Dijital pazarlamacılar ve e-öğrenme platformları için idealdir.
 ### [Aspose.PDF for .NET ile Excel'i PDF Tablolarına Dönüştürme: Adım Adım Kılavuz](./convert-excel-to-pdf-aspose-dotnet/)
 Aspose.PDF for .NET kullanarak Excel çalışma sayfalarını PDF tablolarına nasıl verimli bir şekilde dönüştüreceğinizi öğrenin. Bu kılavuz adım adım talimatlar ve temel ipuçları sağlar.
@@ -157,7 +157,7 @@ Aspose.PDF for .NET kullanarak PDF'leri yüksek kaliteli çok sayfalı TIFF gör
 ### [Aspose.PDF Kullanarak C#'ta PDF'yi PostScript'e Nasıl Dönüştürebilirsiniz: Kapsamlı Bir Kılavuz](./convert-pdf-to-postscript-aspose-csharp/)
 Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF dosyalarını PostScript formatına nasıl dönüştüreceğinizi öğrenin. Yüksek kaliteli baskı ihtiyaçları için mükemmeldir.
 ### [Aspose.PDF for .NET Kullanılarak PDF'nin TIFF'e Dönüştürülmesi: Adım Adım Kılavuz](./convert-pdf-to-tiff-aspose-net/)
-Aspose.PDF for .NET kullanarak PDF dosalarını yüksek kaliteli TIFF görüntülerine nasıl dönüştüreceğinizi öğrenin. Kod örnekleri ve yapılandırma ipuçlarıyla adım adım kılavuzumuzu izleyin.
+Aspose.PDF for .NET kullanarak PDF dosyalarını yüksek kaliteli TIFF görüntülerine nasıl dönüştüreceğinizi öğrenin. Kod örnekleri ve yapılandırma ipuçlarıyla adım adım kılavuzumuzu izleyin.
 ### [.NET için Aspose.PDF Kullanarak PDF'yi XML'e Nasıl Dönüştürebilirsiniz: Adım Adım Kılavuz](./pdf-to-xml-conversion-aspose-pdf-net/)
 Aspose.PDF for .NET ile PDF belgelerini XML'e dönüştürme sanatında ustalaşın. Bu kapsamlı kılavuzu izleyin ve belge yönetiminizi geliştirin.
 ### [.NET için Aspose.PDF Kullanarak PDF'yi XPS'e Nasıl Dönüştürebilirsiniz: Geliştiricinin Kılavuzu](./convert-pdf-to-xps-aspose-dotnet-guide/)
@@ -203,8 +203,11 @@ Aspose.PDF for .NET kullanarak PDF belgelerini TIFF görüntülerine nasıl dön
 ### [PDF'yi PDF/X-1a'ya Dönüştürme, Sayfa PNG Olarak Dışa Aktarma ve Metin Damgası Ekleme](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
 Aspose.PDF for .NET kullanarak PDF'yi PDF/X-1a formatına dönüştürün, sayfaları PNG'ye dışa aktarın ve metin damgası ekleyin.
 
+### [C#'ta PDF'yi PDFX'e Dönüştürme – Adım‑Adım Kılavuz](./how-to-convert-pdf-to-pdfx-in-c-step-by-step-guide/)
+Aspose.PDF for .NET kullanarak C# ile PDF dosyalarını PDF/X formatına nasıl dönüştüreceğinizi öğrenin.
+
 ### [C# ile PDF'yi HTML olarak kaydetme – Tam Adım‑Adım Kılavuz](./save-pdf-as-html-with-c-complete-step-by-step-guide/)
-C# ve Aspose.PDF for .NET kullanarak PDF dosalarını HTML'ye dönüştürmeyi adım adım öğrenin.
+C# ve Aspose.PDF for .NET kullanarak PDF dosyalarını HTML'ye dönüştürmeyi adım adım öğrenin.
 
 ### [Aspose ile PDF Kaydetme – Adım Adım Kılavuz](./how-to-save-pdf-with-aspose-step-by-step-guide/)
 Aspose.PDF for .NET kullanarak PDF dosyalarını kaydetme sürecini adım adım öğrenin.

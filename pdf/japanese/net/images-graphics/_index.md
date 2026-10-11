@@ -35,6 +35,9 @@ Aspose.PDF for .NET を使用して、SVG ファイルを高品質な PDF にシ
 ### [Aspose.PDF for .NET を使用して PDF に四角形を作成および塗りつぶす: ステップバイステップ ガイド](./create-fill-rectangle-aspose-pdf-net/)
 Aspose.PDF for .NET を使用して、PDF ドキュメントに四角形を作成し、塗りつぶす方法を学びます。このステップバイステップガイドでは、C# でのセットアップから実装まで、すべてを網羅しています。
 
+### [Aspose.PDF for .NET を使用して C# で PDF に四角形を追加する: ステップバイステップ ガイド](./how-to-add-rectangle-to-pdf-with-aspose-pdf-in-c/)
+Aspose.PDF for .NET を使用して、C# で PDF に四角形を追加する方法をステップバイステップで学びます。
+
 ### [Aspose.PDF を使用して PDF に四角形を追加する – 完全プログラミングガイド](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
 Aspose.PDF を使って PDF に四角形を描画し、位置やサイズ、塗りつぶしを設定する方法をステップバイステップで解説します。
 
@@ -129,7 +132,7 @@ Aspose.PDF for .NET を使用して、PDF ファイルから画像を効率的�
 Aspose.PDF for .NET を使用してPDFファイルから画像を削除する方法を学びましょう。この包括的なガイドでは、セットアップ、実装、そして実用的なアプリケーションを網羅しています。
 
 ### [Aspose.PDF for .NET を使用して PDF から画像を削除する方法: 包括的なガイド](./delete-images-from-pdf-aspose-dotnet/)
-Aspose.PDF for .NET を使用してPDFからすべての画像を効率的に削除し、ファイルのプライバシーを強化しながらサイズを削減する方法を学びましょう。このステップバイステップガイドに従ってください。
+Aspose.PDF for .NET を使用してPDFからすべての画像を効率的に削除し、ファイルのプライバシーを強化しながらサイズを縮小する方法を学びましょう。このステップバイステップガイドに従ってください。
 
 ### [Aspose.PDF for .NET を使用して PDF ページの色を検出する方法: 包括的なガイド](./detect-pdf-page-color-aspose-dotnet/)
 Aspose.PDF for .NET を使用して、PDF の各ページのカラータイプを特定する方法を学びます。このステップバイステップのチュートリアルでは、インストール、セットアップ、そして実践的な応用方法を解説します。

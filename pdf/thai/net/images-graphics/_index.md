@@ -42,6 +42,9 @@
 ### [เพิ่มสี่เหลี่ยมลงใน PDF ด้วย Aspose.PDF – คู่มือการเขียนโปรแกรมแบบครบถ้วน](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
 เรียนรู้วิธีเพิ่มสี่เหลี่ยมลงใน PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือการเขียนโปรแกรมแบบครบถ้วน
 
+### [วิธีเพิ่มสี่เหลี่ยมลงใน PDF ด้วย Aspose.PDF ใน C#](./how-to-add-rectangle-to-pdf-with-aspose-pdf-in-c/)
+เรียนรู้วิธีการเพิ่มสี่เหลี่ยมลงในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ด้วย C#
+
 ### [สร้างแสตมป์ PDF แบบกำหนดเองด้วย Aspose.PDF ใน .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.PDF Net
 

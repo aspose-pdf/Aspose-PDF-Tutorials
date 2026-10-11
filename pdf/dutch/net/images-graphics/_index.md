@@ -56,6 +56,9 @@ Leer hoe u transparantie-effecten op PDF‑pagina's toepast met Aspose PDF voor 
 ### [Hoe een vorm aan een PDF toe te voegen met Aspose.PDF in C# – Stapsgewijze handleiding](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Leer hoe u met Aspose.PDF voor .NET vormen toevoegt aan PDF‑documenten met C#, inclusief codevoorbeelden en tips voor positionering.
 
+### [Hoe een rechthoek toevoegen aan PDF met Aspose.PDF in C# – Stapsgewijze handleiding](./how-to-add-rectangle-to-pdf-with-aspose-pdf-in-c/)
+Leer hoe u met Aspose.PDF voor .NET een rechthoek aan een PDF toevoegt met C#, inclusief codevoorbeelden en praktische tips.
+
 ### [Efficiënte PDF-afbeeldingsidentificatie met Aspose.PDF voor .NET](./master-image-identification-aspose-pdf-net/)
 Leer hoe u grijswaarden- en RGB-afbeeldingen in PDF's kunt identificeren met Aspose.PDF voor .NET. Deze tutorial behandelt installatie, beeldextractie en prestatietips.
 
@@ -90,7 +93,7 @@ Leer hoe u naadloos afbeeldingen aan uw PDF-documenten kunt toevoegen met Aspose
 Leer hoe u naadloos afbeeldingen aan uw PDF-documenten kunt toevoegen met Aspose.PDF voor .NET. Deze stapsgewijze handleiding behandelt de installatie, implementatie en praktische toepassingen.
 
 ### [Afbeeldingen toevoegen aan PDF's met Aspose.PDF voor .NET: een stapsgewijze handleiding](./add-images-to-pdfs-aspose-pdf-net/)
-Leer hoe u naadloos afbeeldingen aan uw PDF's kunt toevoegen met Aspose.PDF voor .NET. Deze handleiding behandelt het toevoegen van afbeeldingen aan bestaande PDF's en het maken van nieuwe afbeeldingen vanuit DICOM-bestanden.
+Leer hoe u naadloos afbeeldingen aan uw PDF's toevoegt met Aspose.PDF voor .NET. Deze handleiding behandelt het toevoegen van afbeeldingen aan bestaande PDF's en het maken van nieuwe afbeeldingen vanuit DICOM-bestanden.
 
 ### [Een afbeeldingsheader toevoegen aan PDF's met Aspose.PDF voor .NET: een stapsgewijze handleiding](./add-image-header-pdf-aspose-dotnet/)
 Leer hoe u afbeeldingsheaders toevoegt aan uw PDF-documenten met Aspose.PDF voor .NET met deze uitgebreide stapsgewijze handleiding.

@@ -101,6 +101,9 @@ Scopri come aggiungere una pagina vuota a un PDF e disegnare un rettangolo usand
 ### [Crea immagine PDF da HEIC – Guida completa C#](./create-pdf-image-from-heic-complete-c-guide/)
 Impara a generare un PDF contenente un'immagine HEIC usando Aspose.PDF per .NET con C# passo passo.
 
+### [Come creare un client OpenAI e generare un riepilogo PDF in C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
+Scopri come configurare un client OpenAI in C# e generare automaticamente un riepilogo PDF con Aspose.PDF.
+
 ## Risorse aggiuntive
 
 - [Aspose.PDF per la documentazione di rete](https://docs.aspose.com/pdf/net/)

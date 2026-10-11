@@ -91,7 +91,6 @@
 ### [สร้างเอกสาร PDF – เพิ่มหน้าใน PDF, แท็กหัวเรื่อง, และกำหนดตำแหน่งองค์ประกอบ](./create-pdf-document-add-page-to-pdf-tag-heading-and-position/)
 เรียนรู้วิธีสร้างเอกสาร PDF เพิ่มหน้า แท็กหัวเรื่อง และกำหนดตำแหน่งขององค์ประกอบต่างๆ ด้วย Aspose.PDF สำหรับ .NET
 
-
 ### [สร้างเอกสาร PDF ใน C# – เพิ่มหน้าเปล่า, แท็กและ Span](./create-pdf-document-in-c-add-blank-page-tags-and-span/)
 เรียนรู้วิธีสร้างไฟล์ PDF ด้วย C# พร้อมเพิ่มหน้าเปล่า แท็ก และ Span อย่างง่ายดาย
 
@@ -109,6 +108,8 @@
 เรียนรู้วิธีเพิ่มหน้าเปล่าและวาดสี่เหลี่ยมในเอกสาร PDF ด้วย Aspose.PDF สำหรับ .NET ผ่าน C#
 ### [สร้าง PDF Image จาก HEIC – คู่มือ C# ฉบับสมบูรณ์](./create-pdf-image-from-heic-complete-c-guide/)
 เรียนรู้วิธีแปลงไฟล์ HEIC เป็นรูปภาพใน PDF ด้วย Aspose.PDF สำหรับ .NET ด้วย C# อย่างละเอียด
+
+### [วิธีสร้างไคลเอนต์ OpenAI และสร้างสรุป PDF ด้วย C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
 
 ## แหล่งข้อมูลเพิ่มเติม
 

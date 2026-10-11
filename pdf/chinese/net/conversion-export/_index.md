@@ -119,6 +119,9 @@ Aspose-PDF Net 代码教程
 ### [将 PDF 转换为 PDF/X-1a，导出页面 PNG 并添加文字水印](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)
 学习使用 Aspose.PDF for .NET 将 PDF 转换为 PDF/X-1a 标准，导出页面为 PNG 并添加文本水印的完整步骤。
 
+### [如何在 C# 中将 PDF 转换为 PDFX – 完整指南](./how-to-convert-pdf-to-pdfx-in-c-step-by-step-guide/)
+学习使用 Aspose.PDF for .NET 在 C# 中将 PDF 转换为符合 PDF/X 标准的 PDFX 文件的完整步骤和代码示例。
+
 ### [使用 Aspose.PDF for .NET 将 PDF 转换为 XML：分步指南](./convert-pdf-to-xml-aspose-pdf-net/)
 了解如何使用 Aspose.PDF for .NET 将 PDF 文件转换为 XML 格式。增强数据集成和处理能力。
 

@@ -95,10 +95,13 @@
 
 ### [Δημιουργία εγγράφου PDF με Aspose.PDF – Προσθήκη σελίδας, σχήματος & αποθήκευση](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Μάθετε πώς να δημιουργήσετε ένα έγγραφο PDF, να προσθέσετε σελίδα, σχήμα και να το αποθηκεύσετε χρησιμοποιώντας το Aspose.PDF.
+
 ### [Δημιουργία εγγράφου PDF με Aspose σε C# – Οδηγός βήμα προς βήμα](./create-pdf-document-with-aspose-in-c-step-by-step-guide/)
 Μάθετε πώς να δημιουργήσετε έγγραφο PDF σε C# χρησιμοποιώντας το Aspose με αναλυτικές οδηγίες βήμα‑βήμα.
+
 ### [Δημιουργία εγγράφου PDF C# – Προσθήκη κενής σελίδας & Σχεδίαση ορθογωνίου](./create-pdf-document-c-add-blank-page-draw-rectangle/)
 Μάθετε πώς να δημιουργήσετε PDF σε C#, προσθέτοντας κενή σελίδα και σχεδιάζοντας ορθογώνιο.
+
 ### [Δημιουργία εγγράφου PDF σε C# – Προσθήκη κενής σελίδας, ετικετών και Span](./create-pdf-document-in-c-add-blank-page-tags-and-span/)
 Μάθετε πώς να δημιουργήσετε έγγραφο PDF σε C# προσθέτοντας κενή σελίδα, ετικέτες και Span.
 
@@ -110,11 +113,14 @@
 
 ### [Δημιουργία εγγράφου PDF με Aspose.PDF – Πλήρης οδηγός C#](./create-pdf-document-with-aspose-pdf-full-c-guide/)
 Μάθετε πώς να δημιουργήσετε πλήρες έγγραφο PDF σε C# χρησιμοποιώντας το Aspose.PDF, με βήμα‑βήμα παραδείγματα κώδικα.
+
 ### [Δημιουργία εγγράφου PDF με το Aspose.PDF – Οδηγός βήμα προς βήμα](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 Μάθετε πώς να δημιουργήσετε ένα έγγραφο PDF από το μηδέν χρησιμοποιώντας το Aspose.PDF με αναλυτικές οδηγίες βήμα‑βήμα.
 
 ### [Δημιουργία εικόνας PDF από HEIC – Πλήρης οδηγός C#](./create-pdf-image-from-heic-complete-c-guide/)
 Μάθετε πώς να μετατρέψετε αρχεία HEIC σε εικόνες PDF χρησιμοποιώντας το Aspose.PDF για .NET με οδηγίες C# βήμα‑βήμα.
+
+### [Πώς να δημιουργήσετε πελάτη OpenAI και να δημιουργήσετε σύνοψη PDF σε C#](./how-to-create-openai-client-and-generate-a-pdf-summary-in-c/)
 
 ## Πρόσθετοι Πόροι
 

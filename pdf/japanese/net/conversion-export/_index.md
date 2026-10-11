@@ -17,6 +17,9 @@
 
 ## 利用可能なチュートリアル
 
+### [How to convert PDF to PDFX in C# – step‑by‑step guide](./how-to-convert-pdf-to-pdfx-in-c-step-by-step-guide/)
+
+
 ### [高度なPDFからExcelへの変換：Aspose.PDF for .NETテクニックをマスターする](./aspose-pdf-net-convert-pdfs-to-excel/)
 Aspose.PDF for .NET を使用して PDF を Excel に変換し、データ抽出を効率化し、生産性を最適化する高度なテクニックを学習します。
 
