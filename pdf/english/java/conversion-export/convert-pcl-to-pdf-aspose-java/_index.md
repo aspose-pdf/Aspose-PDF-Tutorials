@@ -55,10 +55,9 @@ schemas:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # How to Convert PCL to PDF Using Aspose.PDF for Java: A Step-by-Step Guide
 
 ## Introduction
@@ -97,7 +96,7 @@ Add the Aspose.PDF Maven artifact to your `pom.xml`:
 </dependency>
 ```
 
-## Setting Up Aspose.PDF for Java
+## Setting up Aspose.PDF for java
 
 ### Using Gradle
 If you prefer Gradle, include the following line in `build.gradle`:
@@ -106,12 +105,12 @@ If you prefer Gradle, include the following line in `build.gradle`:
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### License Acquisition Steps
+### License acquisition steps
 - **Free Trial** – start without a license to explore features.  
 - **Temporary License** – request a time‑limited key for evaluation.  
 - **Purchase** – obtain a permanent license for production use.
 
-#### Basic Initialization and Setup
+#### Basic initialization and setup
 After adding the library, initialize the license (if you have one):
 
 ```java
@@ -127,7 +126,7 @@ license.setLicense("path/to/Aspose.Total.Java.lic");
 
 Load the source PCL file, create a `Document` object, and call `save` – that’s the entire conversion pipeline in just a few lines of Java. The API handles fonts, vector graphics, and raster images automatically, so you get a PDF that looks identical to the original print job.
 
-#### Step 1: Define Directories
+#### Step 1: define directories
 Set the input folder that holds your PCL files and the output folder for PDFs.
 
 ```java
@@ -137,7 +136,7 @@ String outputDir = "YOUR_OUTPUT_DIRECTORY";  // Directory to save converted PDFs
 
 **Definition anchor:** `String` variables `dataDir` and `outputDir` hold the absolute paths to your source and destination folders.
 
-#### Step 2: Load a PCL File
+#### Step 2: load a PCL file
 Create a `PclLoadOptions` instance to tell Aspose how to interpret the file.
 
 ```java
@@ -146,7 +145,7 @@ PclLoadOptions loadoptions = new PclLoadOptions();
 
 **Definition anchor:** `PclLoadOptions` configures the parser with settings such as DPI and page range, ensuring accurate rendering of complex PCL streams.
 
-#### Step 3: Create a Document Object
+#### Step 3: create a document object
 Pass the file path and load options to the `Document` constructor.
 
 ```java
@@ -182,7 +181,7 @@ Converting PCL to PDF is valuable for:
 - **Optimization Tips** – use `PdfSaveOptions` to adjust compression if you need smaller files.  
 - **Best Practices** – run conversions in a separate thread pool to keep your application responsive.
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q1: Can I convert multiple PCL files at once?**  
 A1: Yes, iterate over a directory of PCL files and apply the same steps for each file.
@@ -202,7 +201,7 @@ A5: Detailed API documentation is available on the [Aspose website](https://refe
 ## Resources
 - **Website**: [Aspose website](https://reference.aspose.com/pdf/java/)  
 - **Documentation**: [Learn more about Aspose.PDF for Java](https://reference.aspose.com/pdf/java/)  
-- **Download**: [Get the latest release here](https://releases.aspose.com/pdf/java/)  
+- **Download**: [Download the latest Aspose.PDF for Java release](https://releases.aspose.com/pdf/java/)  
 - **Purchase**: [Buy a license for Aspose.PDF](https://purchase.aspose.com/buy)  
 - **Free Trial**: [Start with a free trial](https://releases.aspose.com/pdf/java/)  
 - **Temporary License**: [Request a temporary license](https://purchase.aspose.com/temporary-license/)  

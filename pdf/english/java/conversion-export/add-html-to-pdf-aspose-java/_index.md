@@ -68,10 +68,9 @@ schemas:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # How to Add HTML Content to a PDF Using Aspose.PDF for Java
 
 ## Introduction
@@ -116,7 +115,7 @@ Before you begin this tutorial, ensure you have the following:
 **Knowledge Prerequisites**
 - Basic Java programming skills and familiarity with Maven or Gradle.
 
-## Setting Up Aspose.PDF for Java
+## Setting up Aspose.PDF for java
 
 ### Setting up the Aspose PDF Maven dependency
 To get started, add the Aspose.PDF library to your project. Use one of the following build tools:
@@ -173,7 +172,7 @@ We'll break down the implementation into two main features: adding HTML content 
    import com.aspose.pdf.Document;
    
    Document doc = new Document();
-   ```
+```
 
 2. **Add a Page to the Document**  
 
@@ -183,7 +182,7 @@ We'll break down the implementation into two main features: adding HTML content 
    import com.aspose.pdf.Page;
    
    Page page = doc.getPages().add();
-   ```
+```
 
 3. **Create an HTML Fragment**  
 
@@ -194,7 +193,7 @@ We'll break down the implementation into two main features: adding HTML content 
    
    String htmlContent = "<p style='font-family: Verdana'><b><i>Table contains text</i></b></p>";
    HtmlFragment title = new HtmlFragment(htmlContent);
-   ```
+```
 
 4. **Set Text State**  
 
@@ -204,7 +203,7 @@ We'll break down the implementation into two main features: adding HTML content 
    import com.aspose.pdf.TextState;
    
    title.setTextState(new TextState("Arial", 20));
-   ```
+```
 
 5. **Configure Margins**  
 
@@ -213,7 +212,7 @@ We'll break down the implementation into two main features: adding HTML content 
 ```java
    title.getMargin().setBottom(10);
    title.getMargin().setTop(400);
-   ```
+```
 
 6. **Add the Fragment to the Page**  
 
@@ -221,7 +220,7 @@ We'll break down the implementation into two main features: adding HTML content 
 
 ```java
    page.getParagraphs().add(title);
-   ```
+```
 
 7. **Save the Document**  
 
@@ -230,13 +229,13 @@ We'll break down the implementation into two main features: adding HTML content 
 ```java
    String outputDir = "YOUR_OUTPUT_DIRECTORY";
    doc.save(outputDir + "/AddHTMLUsingDOMAndOverwrite_out.pdf");
-   ```
+```
 
 **Troubleshooting Tips**
 - Ensure the HTML string is well‑formed; malformed tags can cause rendering gaps.  
 - Verify that image paths referenced in `<img>` tags are accessible at runtime.  
 
-### Setting Text State and Margins (Advanced Styling)
+### Setting text state and margins (Advanced styling)
 
 **Overview:** This section shows how to customize the appearance of your HTML fragment, such as changing font color, applying background shading, or adjusting line spacing.
 
@@ -271,7 +270,7 @@ Congratulations! You now know how to **create PDF Java** documents that embed HT
 - Experiment with more complex CSS and external style sheets.  
 - Explore the [Aspose Documentation](https://reference.aspose.com/pdf/java/) for advanced features like PDF/A compliance and image extraction.  
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: How can I change the font size of an HTML fragment?**  
 A: Use `textState.setFontSize(12)` on the `TextState` object before attaching the `HtmlFragment`.
@@ -297,7 +296,7 @@ A: Basic inline CSS is supported; for advanced layouts, preprocess the HTML or u
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/pdf/10)
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
@@ -305,9 +304,9 @@ A: Basic inline CSS is supported; for advanced layouts, preprocess the HTML or u
 - [Master HTML to PDF Conversion Using Aspose.PDF for Java: A Comprehensive Guide](/pdf/java/conversion-export/html-to-pdf-aspose-java-tutorial/)
 - [How to Set Up Aspose.PDF License Using a Stream in Java: A Comprehensive Guide](/pdf/java/getting-started/aspose-pdf-license-setup-java-stream/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

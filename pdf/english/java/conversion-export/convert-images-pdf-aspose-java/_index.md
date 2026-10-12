@@ -75,10 +75,9 @@ schemas:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # How to Create PDF from Images Using Aspose.PDF for Java
 
 Converting images into PDF documents is a common requirement for many Java applications. In this tutorial you’ll **create PDF from images** quickly and reliably with Aspose.PDF for Java. Whether you need to archive family photos, generate a report with embedded screenshots, or digitize receipts, the steps below give you a production‑ready solution.
@@ -128,9 +127,9 @@ To use Aspose.PDF for Java:
 - **Temporary license** – extend trial limits for a short period.  
 - **Full license** – required for production deployments.
 
-Visit [Aspose's Purchase Page](https://purchase.aspose.com/buy) for details. You can also obtain a temporary license from [here](https://purchase.aspose.com/temporary-license/).
+Visit [Aspose's Purchase Page](https://purchase.aspose.com/buy) for details. You can also obtain a temporary license from the [temporary license page](https://purchase.aspose.com/temporary-license/).
 
-## Setting Up Aspose.PDF for Java
+## Setting up Aspose.PDF for java
 
 Once the dependencies are added, initialize Aspose.PDF in your project.
 
@@ -149,7 +148,7 @@ The guide covers two common scenarios: converting an image via a direct file str
 ### How to create pdf from images using a direct file stream?
 Load your image with a `FileInputStream` and embed it into a new PDF document in just a few lines. This streaming approach keeps memory usage low, works well with large TIFF files, and lets you control page dimensions and margins directly in code.
 
-#### Step 1: Instantiate Document Object
+#### Step 1: instantiate document object
 The `Document` class represents a PDF file in memory and provides methods to add pages and content.  
 ```java
 doc = new Document();
@@ -161,16 +160,16 @@ A `Page` object defines a single page within the PDF, including its size and lay
 page = doc.getPages().add();
 ```  
 
-#### Step 3: Load the Image File
+#### Step 3: load the image file
 `FileInputStream` reads raw bytes from the image file, allowing Aspose.PDF to stream the data without loading the entire file into RAM.  
 ```java
 FileInputStream fs = new FileInputStream("YOUR_DOCUMENT_DIRECTORY/source.tif");
 ```  
 
-#### Step 4: Set Page Margins and Crop Box
+#### Step 4: set page margins and crop box
 Adjust the margins (or set them to `0`) so the image fills the page without unwanted whitespace.
 
-#### Step 5: Create and Add Image Object
+#### Step 5: create and add image object
 The `Image` class wraps the image stream and can be positioned on the page; adding it to a paragraph places it in the PDF content flow.  
 ```java
 Image image1 = new Image();
@@ -178,7 +177,7 @@ page.getParagraphs().add(image1);
 image1.setImageStream(fs);
 ```  
 
-#### Step 6: Save the PDF Document
+#### Step 6: save the PDF document
 Call the `save` method on the `Document` instance to write the final PDF to disk.  
 ```java
 doc.save("YOUR_OUTPUT_DIRECTORY/Image2PDF_DOM.pdf");
@@ -187,14 +186,14 @@ doc.save("YOUR_OUTPUT_DIRECTORY/Image2PDF_DOM.pdf");
 ### How to add images to pdf from a BufferedImage?
 When you already have a `BufferedImage`—for example after resizing or applying filters—you can convert it to a byte stream and embed it without touching the filesystem, which further reduces I/O overhead.
 
-#### Step 1: Instantiate Document and Add Page
+#### Step 1: instantiate document and add page
 Create a new `Document` and a `Page` as described earlier to host the image.  
 ```java
 doc = new Document();
 page = doc.getPages().add();
 ```  
 
-#### Step 2: Create BufferedImage from Image File
+#### Step 2: create bufferedImage from image file
 `BufferedImage` holds the image in memory; writing it to a `ByteArrayOutputStream` converts it to a byte array suitable for streaming.  
 ```java
 Image image1 = new Image();
@@ -207,14 +206,14 @@ baos.flush();
 ByteArrayInputStream bais = new ByteArrayInputStream(baos.toByteArray());
 ```  
 
-#### Step 3: Add Image to Page and Set Stream
+#### Step 3: add image to page and set stream
 Wrap the byte array in a `ByteArrayInputStream` and assign it to an `Image` object, which can then be added to the page.  
 ```java
 page.getParagraphs().add(image1);
 image1.setImageStream(bais);
 ```  
 
-#### Step 4: Save the PDF Document
+#### Step 4: save the PDF document
 Persist the PDF to your chosen output folder using the `save` method.  
 ```java
 doc.save("YOUR_OUTPUT_DIRECTORY/BufferedImage.pdf");
@@ -234,7 +233,7 @@ These scenarios can be combined with cloud storage APIs or document‑management
 - **Buffered Streaming:** Use `FileInputStream` or `ByteArrayInputStream` to avoid loading the entire image into memory.  
 - **Resource Cleanup:** Always close streams in a `finally` block or use try‑with‑resources to prevent memory leaks.
 
-## Common Issues and Solutions
+## Common issues and solutions
 
 | Issue | Cause | Fix |
 |-------|-------|-----|
@@ -242,7 +241,7 @@ These scenarios can be combined with cloud storage APIs or document‑management
 | **Image not displayed** | Incorrect image path or unsupported format | Verify the file path and ensure the format (JPEG, PNG, GIF, TIFF) is supported. |
 | **Margins appear incorrectly** | Default margins not overridden | Explicitly set all four margins to `0` (or your desired values) as shown in the code. |
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q: Can I convert images of different formats in a single PDF?**  
 A: Yes – add multiple `Image` objects to successive pages, each referencing a different format (JPG, PNG, TIFF, etc.).
@@ -275,7 +274,7 @@ Ready to try it out? Implement this solution in your project today and streamlin
 **Tested With:** Aspose.PDF for Java 25.3  
 **Author:** Aspose
 
-{{< blocks/products/products-backtop-button >}}
+
 
 ## Related Tutorials
 
@@ -284,11 +283,11 @@ Ready to try it out? Implement this solution in your project today and streamlin
 - [Convert PDF to TIFF in Java: A Comprehensive Guide Using Aspose.PDF](/pdf/java/conversion-export/convert-pdf-to-tiff-aspose-java/)
 
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
+
+
+
 
 ```java
 page.getPageInfo().getMargin().setBottom(0);
@@ -297,3 +296,10 @@ page.getPageInfo().getMargin().setLeft(0);
 page.getPageInfo().getMargin().setRight(0);
 page.setCropBox(new Rectangle(0, 0, 400, 400));
 ```
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

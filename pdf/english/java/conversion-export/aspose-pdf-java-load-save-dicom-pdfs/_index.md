@@ -56,10 +56,9 @@ schemas:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Convert DICOM to PDF Using Aspose.PDF Java: A Complete Tutorial
 
 ## Introduction
@@ -94,7 +93,7 @@ Aspose.PDF for Java supports **50+ input and output formats**—including DOCX, 
 - **Aspose.PDF for Java:** Obtain via Maven/Gradle or download the JAR.  
 - **Basic Java knowledge:** File I/O, streams, and object‑oriented basics.  
 
-## Setting Up Aspose.PDF for Java
+## Setting up Aspose.PDF for java
 
 ### Maven Setup
 
@@ -128,7 +127,7 @@ After adding the dependency and initializing the license, you are ready to work 
 
 Below is the step‑by‑step flow you need to **convert dicom to pdf** and **add image** to the document. Each step includes a concise definition anchor for the key class or method.
 
-### Step 1: Load a DICOM Image from File
+### Step 1: load a DICOM image from file
 
 The `FileInputStream` class reads raw bytes from a file on disk and provides them as an input stream.
 
@@ -142,7 +141,7 @@ Use `FileInputStream` to open the DICOM file:
 </dependency>
 ```
 
-### Step 2: Create a New PDF Document and Add a Page
+### Step 2: create a new PDF document and add a page
 
 The `Document` class is Aspose.PDF's top‑level object that represents a single PDF file in memory. All read and write operations flow through this object.
 
@@ -169,7 +168,7 @@ try {
     FileInputStream imageStream = new FileInputStream(new File(dataDir + "/0002.dcm"));
 ```
 
-### Step 4: Save the PDF Document
+### Step 4: save the PDF document
 
 The `save` method on the `Document` instance writes the in‑memory PDF to a file on disk, applying any compression or encryption options you have configured.
 
@@ -181,7 +180,7 @@ Save your document with the embedded DICOM image:
     pdfDocument.getPages().add();
 ```
 
-### Step 5: Clean Up Resources
+### Step 5: clean up resources
 
 Always close streams to free native resources and avoid memory leaks.
 
@@ -207,7 +206,7 @@ To keep the conversion fast and memory‑efficient:
 - Reuse a single `Document` instance when processing a batch of DICOM files.  
 - Upgrade to the latest Aspose.PDF version (25.3 or newer) for performance optimisations that reduce processing time by up to **30 %** on large images.  
 
-## Frequently Asked Questions
+## Frequently asked questions
 
 **Q:** What is Aspose.PDF?  
 **A:** Aspose.PDF is a pure‑Java library that enables developers to create, edit, convert, and secure PDF documents programmatically without any external software.
@@ -225,12 +224,12 @@ To keep the conversion fast and memory‑efficient:
 **A:** Verify that the file paths are correct, ensure all streams are closed before saving, and confirm you are using a compatible Aspose.PDF version (25.3+).
 
 ## Resources
-- **Documentation:** [Aspose.PDF Java Documentation](https://reference.aspose.com/pdf/java/)  
-- **Download:** [Aspose.PDF Releases for Java](https://releases.aspose.com/pdf/java/)  
-- **Purchase:** [Buy Aspose.PDF](https://purchase.aspose.com/buy)  
-- **Free Trial:** [Start Your Free Trial](https://releases.aspose.com/pdf/java/)  
-- **Temporary License:** [Request a Temporary License](https://purchase.aspose.com/temporary-license/)  
-- **Support Forum:** [Aspose PDF Community Support](https://forum.aspose.com/c/pdf/10)
+- **Documentation:** [Aspose.PDF for Java API reference](https://reference.aspose.com/pdf/java/)  
+- **Download:** [Aspose.PDF for Java download page](https://releases.aspose.com/pdf/java/)  
+- **Purchase:** [Purchase Aspose.PDF for Java license](https://purchase.aspose.com/buy)  
+- **Free Trial:** [Free trial download page for Aspose.PDF for Java](https://releases.aspose.com/pdf/java/)  
+- **Temporary License:** [Temporary license request page for Aspose.PDF for Java](https://purchase.aspose.com/temporary-license/)  
+- **Support Forum:** [Aspose PDF Java community forum](https://forum.aspose.com/c/pdf/10)
 
 ---
 
