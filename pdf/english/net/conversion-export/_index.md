@@ -318,4 +318,6 @@ Learn how to convert DOCX files to PNG images using Aspose.PDF for .NET in C#. S
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

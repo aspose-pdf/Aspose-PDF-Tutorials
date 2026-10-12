@@ -88,35 +88,7 @@ doc.Save("output.pdf");
 | [Save PDF as HTML with Aspose.PDF – Step‑by‑Step C# Guide]({{< relref "./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/" >}}) | Learn how to save PDF as HTML using Aspose.PDF for .NET in this step‑by‑step C# guide. |
 | [Create PDF from JPG in C# – Full Guide with Cropping and New Pages]({{< relref "./create-pdf-from-jpg-in-c-full-guide-with-cropping-and-new-pa/" >}}) | Learn how to generate a PDF from JPG images in C#, including cropping images and adding new pages, using Aspose.PDF for .NET. |
 | [Convert PDF to HTML in C# – Simple Step‑by‑Step Guide]({{< relref "./convert-pdf-to-html-in-c-simple-step-by-step-guide/" >}}) | Learn how to convert PDF to HTML in C# using Aspose.PDF for .NET with this simple step‑by‑step guide. |
-
-{{< blocks/products/products-backtop-button >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [Aspose PDF conversion: Convert PDF to PDF/X‑4 in C#]({{< relref "./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/" >}}) | Learn how to convert PDF to PDF/X‑4 using Aspose.PDF for .NET in this step‑by‑step guide. |  
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/products-backtop-button >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [add icc profile and convert PDF to PDF/X‑4 – C# guide]({{< relref "./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/" >}}) | Learn how to add an ICC profile and convert PDF to PDF/X‑4 using Aspose.PDF for .NET in C#. |
 | [Load PDF Document C# – Convert to PDF/X-4 Step‑by‑Step Guide]({{< relref "./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/" >}}) | Learn how to load a PDF document and convert it to PDF/X-4 using Aspose.PDF for .NET with this step‑by‑step guide. |  
 | [How to Save PDF with Aspose – Complete C# Conversion Guide]({{< relref "./how-to-save-pdf-with-aspose-complete-c-conversion-guide/" >}}) | Learn how to save PDFs using Aspose.PDF for .NET with a complete C# conversion guide, covering essential steps and best practices. |  
@@ -136,8 +108,8 @@ doc.Save("output.pdf");
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
