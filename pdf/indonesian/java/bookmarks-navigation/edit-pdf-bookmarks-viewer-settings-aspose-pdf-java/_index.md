@@ -57,10 +57,10 @@ weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
+
 # Tampilan Halaman Tunggal PDF di Java – Ubah Tata Letak & Edit Penanda Buku
 
 ## Pendahuluan
@@ -253,6 +253,8 @@ pdfDocument.save(outputDir);
 - [Tutorial Penanda Buku PDF dan Navigasi untuk Aspose.PDF Java](/pdf/java/bookmarks-navigation/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

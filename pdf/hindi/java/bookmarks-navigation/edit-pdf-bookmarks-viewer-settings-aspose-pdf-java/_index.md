@@ -56,10 +56,10 @@ weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
+
 # जावा में सिंगल पेज व्यू PDF – लेआउट बदलें और बुकमार्क संपादित करें
 
 ## परिचय
@@ -251,6 +251,8 @@ pdfDocument.save(outputDir);
 - [Aspose.PDF Java के लिए PDF बुकमार्क और नेविगेशन ट्यूटोरियल](/pdf/java/bookmarks-navigation/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

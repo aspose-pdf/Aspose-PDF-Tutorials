@@ -58,11 +58,13 @@ url: /th/java/bookmarks-navigation/link-pdfs-aspose-pdf-java/
 weight: 1
 ---
 
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
+
+
+
+
 # เพิ่มลิงก์ใน PDF ด้วย Aspose.PDF สำหรับ Java – คู่มือสั้น
 
 ในยุคดิจิทัลปัจจุบัน, **การเพิ่มลิงก์ใน PDF** อย่างอัตโนมัติเป็นสิ่งสำคัญสำหรับการสร้างเอกสารเชิงโต้ตอบที่นำผู้อ่านไปยังแหล่งข้อมูลที่เกี่ยวข้อง. **aspose pdf tutorial java** นี้จะแสดงให้คุณเห็นอย่างชัดเจนว่าต้องฝังไฮเปอร์ลิงก์ที่เปิด PDF อื่นอย่างไร, พร้อมขั้นตอนการตั้งค่า, การไหลของโค้ด, และเคล็ดลับการปฏิบัติที่ดีที่สุด. ไม่ว่าคุณจะกำลังสร้างบรีฟทางกฎหมาย, รายงานการวิจัย, หรือโมดูล e‑learning, ขั้นตอนต่อไปนี้จะช่วยให้คุณมอบประสบการณ์การนำทางที่ราบรื่น.
@@ -211,11 +213,9 @@ pdfDocument.save("YOUR_OUTPUT_DIRECTORY/Hyperlink_to_PDF.pdf");
 - [How to Add Link and Free Text Annotations in PDFs Using Aspose.PDF for Java](/pdf/java/forms-annotations/aspose-pdf-java-link-free-text-annotations/)
 - [How to Add Page Numbers to PDFs Using Aspose.PDF for Java: A Complete Guide](/pdf/java/document-manipulation/add-page-numbers-aspose-pdf-java/)
 
+{{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/main-wrap-class >}}

@@ -7,9 +7,7 @@ description: Explore Aspose.PDF for .NET tutorials to create and manage interact
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Programming with Forms
@@ -78,15 +76,19 @@ pdf.Save("SampleForm.pdf");
 | [Create Multi Page Form in C# with Aspose.Pdf – Step‑by‑Step Guide]({{< relref "create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui" >}}) | Learn how to create a multi‑page form in C# using Aspose.PDF with this step‑by‑step guide. |
 | [Create PDF Textbox Field – Step‑by‑Step Guide]({{< relref "create-pdf-textbox-field-step-by-step-guide" >}}) | Learn how to create a textbox field in a PDF using Aspose.PDF for .NET in this step-by-step guide. |  
 
-{{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/products-backtop-button >}}
+
+
+
 | [Add Bates Numbers to PDFs – Step‑by‑Step C# Guide]({{< relref "add-bates-numbers-to-pdfs-step-by-step-c-guide" >}}) | Learn how to add Bates numbers to PDFs using Aspose.PDF for .NET in this step‑by‑step C# guide. |
 | [Create PDF Document with Multiple TextBox Widgets – Step‑by‑Step Guide]({{< relref "create-pdf-document-with-multiple-textbox-widgets-step-by-st" >}}) | Learn how to create a PDF with multiple TextBox widgets using Aspose.PDF for .NET in this step‑by‑step guide. |
 | [How to Create PDF with Aspose – Add Form Field and Pages]({{< relref "how-to-create-pdf-with-aspose-add-form-field-and-pages" >}}) | Learn how to create a PDF, add form fields, and insert pages using Aspose.PDF for .NET in this step-by-step tutorial. |
 | [How to Add Text Box PDF – Create PDF Form Field & Save Edited PDF Document]({{< relref "how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd" >}}) | Learn how to add a text box to a PDF form and save the edited document using Aspose.PDF for .NET in this step-by-step guide. |
-{{< /blocks/products/products-backtop-button >}}
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

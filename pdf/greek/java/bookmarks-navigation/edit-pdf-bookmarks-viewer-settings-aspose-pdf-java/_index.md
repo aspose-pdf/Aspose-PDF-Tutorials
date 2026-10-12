@@ -57,10 +57,10 @@ weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
+
 # Προβολή μίας σελίδας PDF σε Java – Αλλαγή διάταξης & επεξεργασία σελιδοδεικτών
 
 ## Εισαγωγή
@@ -251,6 +251,8 @@ pdfDocument.save(outputDir);
 - [Σελιδοδείκτες PDF και Μαθήματα Πλοήγησης για Aspose.PDF Java](/pdf/java/bookmarks-navigation/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

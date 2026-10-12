@@ -260,7 +260,8 @@ The following tutorials cover closely related topics that build on the technique
 - [Create Filled Rectangle Object In Pdf Using Java]({{< relref "../../../french/java/pdf-images/create-filled-rectangle-object-in-pdf-using-java/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -216,7 +216,8 @@ The following tutorials cover closely related topics that build on the technique
 - [How to Add Page Number Stamps in PDFs Using Aspose.PDF for .NET]({{< relref "pdf/english/net/watermarks-backgrounds/add-page-number-stamp-using-aspose-pdf-dotnet" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -57,10 +57,10 @@ weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
+
 # Widok jednej strony PDF w Javie – Zmiana układu i edycja zakładek
 
 ## Wprowadzenie
@@ -253,6 +253,8 @@ O: Przelicz ponownie cele, używając aktualnych indeksów stron po wszelkich zm
 - [Samouczki dotyczące zakładek PDF i nawigacji dla Aspose.PDF Java](/pdf/java/bookmarks-navigation/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

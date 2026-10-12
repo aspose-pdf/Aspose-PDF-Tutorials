@@ -6,9 +6,7 @@ url: "/net/security-permissions/"
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # PDF Security and Permissions Tutorials for Aspose.PDF .NET
@@ -100,8 +98,6 @@ Learn how to verify PDF passwords using Aspose.PDF for .NET in C#. This comprehe
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
-
-{{< /blocks/products/pf/main-wrap-class >}}

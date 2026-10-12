@@ -56,10 +56,10 @@ weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
+
 # Java 中的单页视图 PDF – 更改布局并编辑书签
 
 ## 简介
@@ -252,6 +252,8 @@ A: 在任何结构性更改后，使用当前页面索引重新计算目标位�
 - [Aspose.PDF Java 的 PDF 书签和导航教程](/pdf/java/bookmarks-navigation/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

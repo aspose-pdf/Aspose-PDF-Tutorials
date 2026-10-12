@@ -255,7 +255,8 @@ The following tutorials cover closely related topics that build on the technique
 - [Rotate text in PDFs tutorial](/net/text-operations/rotate-text-aspose-pdf-net-guide/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
