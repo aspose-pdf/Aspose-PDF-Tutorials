@@ -255,6 +255,8 @@ The following tutorials cover closely related topics that build on the technique
 - [Apply Numbering Style In Heading Of Pdf Using Java]({{< relref "/pdf/french/java/pdf-images/apply-numbering-style-in-heading-of-pdf-using-java/_index.md" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button / >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
