@@ -76,6 +76,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # 如何使用 Aspose.PDF for Java 建立 PDF 圖層
 
 **建立 SEO‑豐富的標題：了解如何使用 Aspose.PDF Java 建立與自訂具圖層的 PDF**
@@ -316,11 +317,10 @@ A: 支援，您可在儲存前於 `Document` 設定相容性旗標，圖層將�
 - [Aspose PDF Java Tutorial: How to Control PDF Open Actions – Advanced Guide](/pdf/java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/)
 - [Create Accessible PDF in Java with Aspose.PDF – Full Guide](/pdf/java/advanced-features/accessible-pdfs-aspose-pdf-java/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

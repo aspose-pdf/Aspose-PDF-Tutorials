@@ -77,6 +77,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Aspose.PDF for Java के साथ PDF लेयर कैसे बनाएं
 
 **एक SEO‑समृद्ध शीर्षक बनाएं:** Aspose.PDF Java का उपयोग करके लेयर्स के साथ PDF बनाने और कस्टमाइज़ करने के तरीके सीखें
@@ -313,11 +314,10 @@ A: हाँ, आप सहेजने से पहले `Document` पर �
 - [Aspose PDF जावा ट्यूटोरियल: PDF ओपन एक्शन को कैसे नियंत्रित करें – उन्नत गाइड](/pdf/java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/)
 - [Aspose.PDF के साथ जावा में एक्सेसिबल PDF बनाएं – पूर्ण गाइड](/pdf/java/advanced-features/accessible-pdfs-aspose-pdf-java/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -72,11 +72,12 @@ url: /ar/java/advanced-features/create-pdf-layers-aspose-java/
 weight: 1
 ---
 
+{{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # كيفية إنشاء طبقات PDF باستخدام Aspose.PDF للـ Java
 
 **إنشاء عنوان غني بـ SEO:** تعلم كيفية إنشاء وتخصيص ملفات PDF مع الطبقات باستخدام Aspose.PDF Java
@@ -313,11 +314,10 @@ public class CreatePDFWithLayers {
 - [دروس Aspose PDF Java: كيفية التحكم في إجراءات فتح PDF – دليل متقدم](/pdf/java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/)
 - [إنشاء PDF قابل للوصول في Java باستخدام Aspose.PDF – دليل كامل](/pdf/java/advanced-features/accessible-pdfs-aspose-pdf-java/)
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/main-wrap-class >}}

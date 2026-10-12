@@ -78,6 +78,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Come creare livelli pdf con Aspose.PDF per Java
 
 **Crea un titolo SEO‑ricco:** Impara a creare e personalizzare PDF con livelli usando Aspose.PDF Java
@@ -315,11 +316,10 @@ R: Sì, puoi impostare i flag di conformità sul `Document` prima del salvataggi
 - [Aspose PDF Java Tutorial: How to Control PDF Open Actions – Advanced Guide](/pdf/java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/)
 - [Create Accessible PDF in Java with Aspose.PDF – Full Guide](/pdf/java/advanced-features/accessible-pdfs-aspose-pdf-java/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

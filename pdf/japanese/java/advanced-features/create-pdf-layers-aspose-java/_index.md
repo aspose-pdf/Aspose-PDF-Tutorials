@@ -77,6 +77,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Aspose.PDF for Java を使用して PDF レイヤーを作成する方法
 
 **Create an SEO‑rich Title:** Aspose.PDF Java を使用してレイヤー付き PDF の作成とカスタマイズ方法を学ぶ
@@ -319,11 +320,10 @@ A: はい、保存前に `Document` のコンプライアンスフラグを設�
 - [Aspose PDF Java チュートリアル: PDF オープンアクションの制御方法 – 詳細ガイド](/pdf/java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/)
 - [Aspose.PDF を使用した Java のアクセシブル PDF 作成 – 完全ガイド](/pdf/java/advanced-features/accessible-pdfs-aspose-pdf-java/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

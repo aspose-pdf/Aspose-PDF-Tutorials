@@ -78,6 +78,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Cómo crear capas PDF con Aspose.PDF para Java
 
 **Crear un título SEO‑amigable:** Aprende cómo crear y personalizar PDFs con capas usando Aspose.PDF Java
@@ -315,11 +316,10 @@ A: Sí, puede establecer indicadores de conformidad en el `Document` antes de gu
 - [Tutorial de Aspose PDF Java: Cómo controlar acciones de apertura de PDF – Guía avanzada](/pdf/java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/)
 - [Crear PDF accesible en Java con Aspose.PDF – Guía completa](/pdf/java/advanced-features/accessible-pdfs-aspose-pdf-java/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

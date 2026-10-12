@@ -77,6 +77,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Cách tạo lớp pdf với Aspose.PDF cho Java
 
 **Create an SEO‑rich Title:** Học cách tạo và tùy chỉnh PDF với các lớp bằng Aspose.PDF Java
@@ -317,11 +318,10 @@ A: Có, bạn có thể đặt các cờ tuân thủ trên `Document` trước k
 - [Hướng dẫn Aspose PDF Java: Cách kiểm soát hành động mở PDF – Hướng dẫn nâng cao](/pdf/java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/)
 - [Tạo PDF khả năng truy cập trong Java với Aspose.PDF – Hướng dẫn đầy đủ](/pdf/java/advanced-features/accessible-pdfs-aspose-pdf-java/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -77,6 +77,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Hoe pdf-lagen te maken met Aspose.PDF voor Java
 
 **Maak een SEO‑rijke titel:** Leer hoe u PDF's kunt maken en aanpassen met lagen met behulp van Aspose.PDF Java
@@ -315,11 +316,10 @@ A: Ja, u kunt compliance‑vlaggen instellen op het `Document` vóór het opslaa
 - [Aspose PDF Java Tutorial: Hoe PDF-openacties te controleren – Geavanceerde gids](/pdf/java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/)
 - [Toegankelijke PDF maken in Java met Aspose.PDF – Volledige gids](/pdf/java/advanced-features/accessible-pdfs-aspose-pdf-java/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

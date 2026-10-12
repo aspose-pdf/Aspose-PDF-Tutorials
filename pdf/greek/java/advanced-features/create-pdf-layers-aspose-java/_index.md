@@ -78,6 +78,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Πώς να δημιουργήσετε στρώσεις PDF με το Aspose.PDF για Java
 
 **Δημιουργήστε έναν SEO‑πλούσιο τίτλο:** Μάθετε πώς να δημιουργείτε και να προσαρμόζετε PDF με στρώσεις χρησιμοποιώντας το Aspose.PDF Java
@@ -314,11 +315,10 @@ A: Ναι, μπορείτε να ορίσετε σημαίες συμμόρφω�
 - [Aspose PDF Java Tutorial: Πώς να Ελέγξετε τις Ενέργειες Άνοιγμα PDF – Προχωρημένος Οδηγός](/pdf/java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/)
 - [Δημιουργία Προσβάσιμου PDF σε Java με Aspose.PDF – Πλήρης Οδηγός](/pdf/java/advanced-features/accessible-pdfs-aspose-pdf-java/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

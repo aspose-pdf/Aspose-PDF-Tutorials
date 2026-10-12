@@ -78,6 +78,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Aspose.PDF for Java ile pdf katmanları nasıl oluşturulur
 
 **SEO‑zengin Başlık Oluştur:** Aspose.PDF Java kullanarak Katmanlı PDF'leri Oluşturma ve Özelleştirme Öğrenin
@@ -316,8 +317,8 @@ C: Evet, kaydetmeden önce `Document` üzerinde uyumluluk bayraklarını ayarlay
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
-
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

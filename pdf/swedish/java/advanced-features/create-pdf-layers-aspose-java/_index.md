@@ -77,6 +77,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Hur man skapar pdf‑lager med Aspose.PDF för Java
 
 **Skapa en SEO‑optimerad titel:** Lär dig hur du skapar och anpassar PDF‑filer med lager med Aspose.PDF Java
@@ -314,11 +315,10 @@ A: Ja, du kan sätta kompatibilitetsflaggor på `Document` innan du sparar, och 
 - [Aspose PDF Java Tutorial: How to Control PDF Open Actions – Advanced Guide](/pdf/java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/)
 - [Create Accessible PDF in Java with Aspose.PDF – Full Guide](/pdf/java/advanced-features/accessible-pdfs-aspose-pdf-java/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

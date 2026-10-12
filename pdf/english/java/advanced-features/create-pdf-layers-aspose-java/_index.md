@@ -76,6 +76,7 @@ schemas:
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # How to create pdf layers with Aspose.PDF for Java
 
 **Create an SEO‑rich Title:** Learn How to Create and Customize PDFs with Layers Using Aspose.PDF Java
@@ -313,11 +314,10 @@ A: Yes, you can set compliance flags on the `Document` before saving, and layers
 - [Aspose PDF Java Tutorial: How to Control PDF Open Actions – Advanced Guide](/pdf/java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/)
 - [Create Accessible PDF in Java with Aspose.PDF – Full Guide](/pdf/java/advanced-features/accessible-pdfs-aspose-pdf-java/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -78,6 +78,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Wie man PDF‑Layer mit Aspose.PDF für Java erstellt
 
 **Erstelle einen SEO‑optimierten Titel:** Erfahren Sie, wie Sie PDFs mit Schichten mithilfe von Aspose.PDF Java erstellen und anpassen
@@ -315,11 +316,10 @@ A: Ja, Sie können Compliance‑Flags auf dem `Document` vor dem Speichern setze
 - [Aspose PDF Java Tutorial: Wie man PDF‑Öffnungsaktionen steuert – Erweiterter Leitfaden](/pdf/java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/)
 - [Barrierefreies PDF in Java mit Aspose.PDF erstellen – Vollständige Anleitung](/pdf/java/advanced-features/accessible-pdfs-aspose-pdf-java/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

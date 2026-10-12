@@ -78,6 +78,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Jak tworzyć warstwy PDF za pomocą Aspose.PDF dla Javy
 
 **Utwórz tytuł przyjazny SEO:** Dowiedz się, jak tworzyć i dostosowywać pliki PDF z warstwami przy użyciu Aspose.PDF Java
@@ -315,11 +316,10 @@ A: Tak, możesz ustawić flagi zgodności na obiekcie `Document` przed zapisem, 
 - [Samouczek Aspose PDF Java: Jak kontrolować akcje otwarcia PDF – Zaawansowany przewodnik](/pdf/java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/)
 - [Tworzenie dostępnych PDF w Javie z Aspose.PDF – Pełny przewodnik](/pdf/java/advanced-features/accessible-pdfs-aspose-pdf-java/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

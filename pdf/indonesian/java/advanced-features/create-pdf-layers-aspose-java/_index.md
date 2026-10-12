@@ -78,6 +78,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Cara membuat lapisan pdf dengan Aspose.PDF untuk Java
 
 **Buat Judul SEO‑rich:** Pelajari Cara Membuat dan Menyesuaikan PDF dengan Lapisan Menggunakan Aspose.PDF Java
@@ -315,11 +316,10 @@ A: Ya, Anda dapat mengatur flag kepatuhan pada `Document` sebelum menyimpan, dan
 - [Tutorial Aspose PDF Java: Cara Mengontrol Aksi Buka PDF – Panduan Lanjutan](/pdf/java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/)
 - [Buat PDF Aksesibel di Java dengan Aspose.PDF – Panduan Lengkap](/pdf/java/advanced-features/accessible-pdfs-aspose-pdf-java/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
