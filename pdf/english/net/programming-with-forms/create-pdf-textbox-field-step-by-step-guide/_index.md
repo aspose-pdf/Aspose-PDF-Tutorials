@@ -277,9 +277,8 @@ If you hit a snag, drop a comment below or check the library’s official docs; 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Aspose PDF creation tutorial]({{< relref "pdf/english/net/programming-with-forms/how-to-create-pdf-with-aspose-add-form-field-and-pages" >}})
-- [Java PDF form field addition guide]({{< relref "pdf/english/java/pdf-form-fields/add-form-field-in-pdf-document-using-java" >}})
-- [German Java PDF form field addition guide]({{< relref "pdf/german/java/pdf-form-fields/add-form-field-in-pdf-document-using-java" >}})
+- [Aspose PDF creation tutorial]({{< relref "/net/programming-with-forms/how-to-create-pdf-with-aspose-add-form-field-and-pages/" >}})
+- [Java PDF form field addition guide]({{< relref "/java/pdf-form-fields/add-form-field-in-pdf-document-using-java/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/products-backtop-button >}}

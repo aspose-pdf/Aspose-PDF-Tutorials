@@ -211,9 +211,9 @@ Got a twist you’d like to try? Drop a comment, share your experience, or fork 
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to Add an Empty Page at the End of a PDF Using Aspose.PDF for .NET]({{< relref "pdf/english/net/document-manipulation/add-empty-page-end-pdf-aspose-pdf-net" >}})
-- [How to Add and Customize Page Numbers in PDFs Using Aspose.PDF for .NET]({{< relref "pdf/english/net/document-manipulation/add-customize-page-numbers-aspose-pdf-dot-net" >}})
-- [How to Add Page Number Stamps in PDFs Using Aspose.PDF for .NET]({{< relref "pdf/english/net/watermarks-backgrounds/add-page-number-stamp-using-aspose-pdf-dotnet" >}})
+- [How to Add an Empty Page at the End of a PDF Using Aspose.PDF for .NET]({{< relref "/net/document-manipulation/add-empty-page-end-pdf-aspose-pdf-net/" >}})
+- [How to Add and Customize Page Numbers in PDFs Using Aspose.PDF for .NET]({{< relref "/net/document-manipulation/add-customize-page-numbers-aspose-pdf-dot-net/" >}})
+- [How to Add Page Number Stamps in PDFs Using Aspose.PDF for .NET]({{< relref "/net/watermarks-backgrounds/add-page-number-stamp-using-aspose-pdf-dotnet/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

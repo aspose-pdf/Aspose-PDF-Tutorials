@@ -250,9 +250,7 @@ Got questions or a tricky scenario? Drop a comment below, and we’ll troublesho
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Apply Numbering Style in Heading of PDF using Java]({{< relref "/pdf/english/java/pdf-images/apply-numbering-style-in-heading-of-pdf-using-java/_index.md" >}})
-- [Apply Numbering Style In Heading Of Pdf Using Java]({{< relref "/pdf/german/java/pdf-images/apply-numbering-style-in-heading-of-pdf-using-java/_index.md" >}})
-- [Apply Numbering Style In Heading Of Pdf Using Java]({{< relref "/pdf/french/java/pdf-images/apply-numbering-style-in-heading-of-pdf-using-java/_index.md" >}})
+- [Apply Numbering Style in Heading of PDF using Java]({{< relref "/java/pdf-images/apply-numbering-style-in-heading-of-pdf-using-java/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
