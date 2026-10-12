@@ -255,9 +255,7 @@ Got a twist you tried? Share it in the comments, and happy coding!
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Create Filled Rectangle Object in PDF using Java]({{< relref "../../java/pdf-images/create-filled-rectangle-object-in-pdf-using-java/_index.md" >}})
-- [Create Filled Rectangle Object In Pdf Using Java]({{< relref "../../../german/java/pdf-images/create-filled-rectangle-object-in-pdf-using-java/_index.md" >}})
-- [Create Filled Rectangle Object In Pdf Using Java]({{< relref "../../../french/java/pdf-images/create-filled-rectangle-object-in-pdf-using-java/_index.md" >}})
+- [Create Filled Rectangle Object in PDF using Java]({{< relref "/java/pdf-images/create-filled-rectangle-object-in-pdf-using-java/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -245,9 +245,9 @@ Got questions about edge cases, or want to see how to handle encrypted documents
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Fast Image Shrinking in PDFs with Aspose.PDF .NET: Optimize and Compress Images Efficiently]({{< relref "pdf/english/net/images-graphics/optimize-pdf-images-aspose-net-fast-compression" >}})
-- [Unembed Fonts in PDFs Using Aspose.PDF for .NET: Reduce File Size and Improve Performance]({{< relref "pdf/english/net/performance-optimization/optimize-pdfs-unembed-fonts-aspose-pdf-net" >}})
-- [Set Image Size In PDF File]({{< relref "pdf/english/net/programming-with-images/set-image-size" >}})
+- [Fast Image Shrinking in PDFs with Aspose.PDF .NET: Optimize and Compress Images Efficiently]({{< relref "/net/images-graphics/optimize-pdf-images-aspose-net-fast-compression/" >}})
+- [Unembed Fonts in PDFs Using Aspose.PDF for .NET: Reduce File Size and Improve Performance]({{< relref "/net/performance-optimization/optimize-pdfs-unembed-fonts-aspose-pdf-net/" >}})
+- [Set Image Size In PDF File]({{< relref "/net/programming-with-images/set-image-size/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

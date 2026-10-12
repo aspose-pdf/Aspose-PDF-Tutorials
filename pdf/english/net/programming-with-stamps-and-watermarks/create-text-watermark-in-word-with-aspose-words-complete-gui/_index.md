@@ -237,9 +237,9 @@ Got questions or run into a snag? Drop a comment below or ping the Aspose commun
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to Add a Text Stamp to PDF Using Aspose.PDF .NET: Comprehensive Guide]({{< relref "pdf/english/net/watermarks-backgrounds/add-text-stamp-pdf-aspose-pdf-dotnet" >}})
-- [Add Page Stamp Aspose Pdf Dotnet Guide]({{< relref "pdf/english/net/watermarks-backgrounds/add-page-stamp-aspose-pdf-dotnet-guide" >}})
-- [How to Add a Text Stamp Footer in PDFs Using Aspose.PDF for .NET: A Step-by-Step Guide]({{< relref "pdf/english/net/document-manipulation/add-text-stamp-footer-aspose-pdf-net" >}})
+- [How to Add a Text Stamp to PDF Using Aspose.PDF .NET: Comprehensive Guide]({{< relref "/net/watermarks-backgrounds/add-text-stamp-pdf-aspose-pdf-dotnet/" >}})
+- [Add Page Stamp Aspose Pdf Dotnet Guide]({{< relref "/net/watermarks-backgrounds/add-page-stamp-aspose-pdf-dotnet-guide/" >}})
+- [How to Add a Text Stamp Footer in PDFs Using Aspose.PDF for .NET: A Step-by-Step Guide]({{< relref "/net/document-manipulation/add-text-stamp-footer-aspose-pdf-net/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

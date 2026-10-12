@@ -108,7 +108,7 @@ Learn how to convert PDF documents into high‑quality PNG images using Aspose.P
 ### [How to render PDF to PNG with Aspose – Complete Guide]({{< relref "how-to-render-pdf-to-png-with-aspose-complete-guide.md" >}})
 Learn how to render PDF files to PNG images using Aspose.PDF for .NET with detailed code examples and best practices.
 
-### [Convert PDF to PNG with Aspose.PDF .NET: A Comprehensive Guide]({{< relref "convert-pdf-to-png-aspose-net.md" >}})
+### [Convert PDF to PNG with Aspose.PDF .NET: A Comprehensive Guide]({{< relref "/net/conversion-export/convert-pdf-pages-to-png-aspose-net/" >}})
 Learn how to convert PDF documents into high‑quality PNG images using Aspose.PDF .NET, ensuring sharp text rendering through font hinting.
 
 ### [Save PDF as PNG and Convert to PDF/X‑1a with Aspose PDF]({{< relref "save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf.md" >}})

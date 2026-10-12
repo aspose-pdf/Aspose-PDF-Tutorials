@@ -235,9 +235,6 @@ Give it a try, tweak the DPI, and see how clean the output looks for your own Wo
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- {{< relref "/pdf/german/net/images-graphics/convert-pdf-page-to-png-aspose-dotnet/" >}} – German tutorial on converting PDF pages to PNG with Aspose.
-- {{< relref "/pdf/french/net/images-graphics/convert-pdf-page-to-png-aspose-dotnet/" >}} – French tutorial on converting PDF pages to PNG with Aspose.
-- {{< relref "/pdf/spanish/net/images-graphics/convert-pdf-page-to-png-aspose-dotnet/" >}} – Spanish tutorial on converting PDF pages to PNG with Aspose.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
