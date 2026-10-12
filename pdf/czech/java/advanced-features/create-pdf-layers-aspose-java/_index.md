@@ -77,6 +77,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Jak vytvořit pdf vrstvy pomocí Aspose.PDF pro Java
 
 **Vytvořte SEO‑bohatý titulek:** Naučte se, jak vytvářet a přizpůsobovat PDF s vrstvami pomocí Aspose.PDF Java
@@ -313,11 +314,10 @@ A: Ano, můžete nastavit příznaky souladu na `Document` před uložením a vr
 - [Aspose PDF Java tutoriál: Jak řídit akce otevření PDF – Pokročilý průvodce](/pdf/java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/)
 - [Vytvořit přístupné PDF v Javě s Aspose.PDF – Kompletní průvodce](/pdf/java/advanced-features/accessible-pdfs-aspose-pdf-java/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

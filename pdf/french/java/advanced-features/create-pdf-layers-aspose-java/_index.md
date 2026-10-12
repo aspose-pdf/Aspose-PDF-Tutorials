@@ -78,6 +78,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Comment créer des calques PDF avec Aspose.PDF pour Java
 
 **Créer un titre SEO‑rich:** Apprenez à créer et personnaliser des PDF avec des calques en utilisant Aspose.PDF Java
@@ -314,11 +315,10 @@ R : Oui, vous pouvez définir les drapeaux de conformité sur le `Document` av
 - [Tutoriel Aspose PDF Java : Comment contrôler les actions d’ouverture PDF – Guide avancé](/pdf/java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/)
 - [Créer un PDF accessible en Java avec Aspose.PDF – Guide complet](/pdf/java/advanced-features/accessible-pdfs-aspose-pdf-java/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

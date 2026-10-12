@@ -76,6 +76,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # 如何使用 Aspose.PDF for Java 创建 PDF 图层
 
 **创建一个 SEO 丰富的标题：** 学习如何使用 Aspose.PDF Java 创建和自定义带图层的 PDF
@@ -311,11 +312,10 @@ A: 支持，您可以在保存前对 `Document` 设置合规性标志，图层�
 - [Aspose PDF Java 教程：如何控制 PDF 打开操作 – 高级指南](/pdf/java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/)
 - [使用 Aspose.PDF 在 Java 中创建可访问 PDF – 完整指南](/pdf/java/advanced-features/accessible-pdfs-aspose-pdf-java/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

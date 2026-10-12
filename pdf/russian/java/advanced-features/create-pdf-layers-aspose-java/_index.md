@@ -77,6 +77,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Как создать слои PDF с помощью Aspose.PDF для Java
 
 **Создайте SEO‑оптимизированный заголовок:** Узнайте, как создавать и настраивать PDF с помощью слоёв, используя Aspose.PDF Java
@@ -314,11 +315,10 @@ A: Yes, you can set compliance flags on the `Document` before saving, and layers
 - [Руководство Aspose PDF Java: Как управлять действиями открытия PDF – Расширенное руководство](/pdf/java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/)
 - [Создание доступных PDF в Java с Aspose.PDF – Полное руководство](/pdf/java/advanced-features/accessible-pdfs-aspose-pdf-java/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

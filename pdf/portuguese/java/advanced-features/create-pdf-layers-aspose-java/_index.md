@@ -77,6 +77,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Como criar camadas pdf com Aspose.PDF para Java
 
 **Crie um título rico em SEO:** Aprenda a criar e personalizar PDFs com camadas usando Aspose.PDF Java
@@ -314,11 +315,10 @@ A: Sim, você pode definir flags de conformidade no `Document` antes de salvar, 
 - [Tutorial Aspose PDF Java: Como Controlar Ações de Abertura de PDF – Guia Avançado](/pdf/java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/)
 - [Criar PDF Acessível em Java com Aspose.PDF – Guia Completo](/pdf/java/advanced-features/accessible-pdfs-aspose-pdf-java/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

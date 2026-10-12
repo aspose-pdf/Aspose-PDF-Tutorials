@@ -79,6 +79,7 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
+
 # Hogyan hozzunk létre PDF rétegeket az Aspose.PDF for Java-val
 
 **SEO‑barát cím létrehozása:** Tanulja meg, hogyan hozhat létre és testreszabhat PDF-eket rétegekkel az Aspose.PDF Java segítségével
@@ -314,11 +315,10 @@ A: Igen, beállíthatja a megfelelőségi jelzőket a `Document`-on a mentés el
 - [Aspose PDF Java oktatóanyag: PDF nyitási műveletek vezérlése – Haladó útmutató](/pdf/java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/)
 - [Hozzon létre hozzáférhető PDF-et Java-val az Aspose.PDF segítségével – Teljes útmutató](/pdf/java/advanced-features/accessible-pdfs-aspose-pdf-java/)
 
-
 {{< /blocks/products/pf/tutorial-page-section >}}
-
-{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
