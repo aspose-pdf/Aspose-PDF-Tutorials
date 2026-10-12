@@ -27,6 +27,7 @@ Naučíte se, jak nastavit převod, extrahovat text a obrázky, zachovat původn
 | [EPUB do PDF](./epub-to-pdf/) | Naučte se, jak převést EPUB do PDF pomocí Aspose.PDF pro .NET s tímto podrobným návodem. Snadné, efektivní a perfektní pro všechny uživatele. |
 | [Získat SVG rozměry](./get-svg-dimensions/) | Naučte se, jak pomocí tohoto podrobného návodu používat Aspose.PDF pro .NET k převodu souborů SVG do PDF. Ideální pro vývojáře, kteří chtějí manipulovat s PDF soubory. |
 | [Z HTML do PDF](./html-to-pdf/) | Naučte se, jak převést HTML do PDF pomocí Aspose.PDF pro .NET s tímto komplexním podrobným návodem. |
+| [Převod DOCX do HTML v C# – Kompletní průvodce](./convert-docx-to-html-in-c-complete-guide/) | Naučte se, jak převést soubory DOCX do HTML pomocí Aspose.PDF pro .NET v C# s tímto podrobným návodem. |
 | [Markdown do PDF](./markdown-to-pdf/) | V tomto podrobném návodu se naučte, jak převést Markdown do PDF pomocí Aspose.PDF pro .NET. Ideální pro vývojáře, kteří chtějí zefektivnit převod dokumentů. |
 | [MHT do PDF](./mht-to-pdf/) | Naučte se v tomto podrobném návodu, jak převést soubory MHT do PDF pomocí Aspose.PDF pro .NET. Snadná a efektivní konverze dokumentů. |
 | [Orientace stránky podle rozměrů obrázku](./page-orientation-according-image-dimensions/) | V tomto podrobném návodu se naučte, jak vytvářet PDF soubory pomocí Aspose.PDF pro .NET a jak nastavit orientaci stránky na základě rozměrů obrázku. |
@@ -70,6 +71,7 @@ Naučíte se, jak nastavit převod, extrahovat text a obrázky, zachovat původn
 | [Aspose PDF Conversion v C# – převod PDF na PDF/X‑4](./aspose-pdf-conversion-in-c-convert-pdf-to-pdf-x-4/) | Naučte se, jak převést PDF na PDF/X‑4 pomocí Aspose.PDF pro .NET v C# s podrobným krok za krokem návodem. |
 | [Návod na konverzi formátu PDF – Převod PDF na PDF/X‑4 pomocí Aspose v C#](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-with-a/) | Naučte se, jak převést PDF na PDF/X‑4 pomocí Aspose.PDF pro .NET v C# s podrobným návodem. |
 | [Tutoriál převodu formátu PDF – Převod PDF na PDF/X‑4 v C#](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-in-c/) | Naučte se, jak převést PDF na PDF/X‑4 pomocí Aspose.PDF pro .NET v C# v tomto podrobném tutoriálu. |
+| [Převod PDF na PDF/X‑1A s řízením barev v C#](./convert-pdf-to-pdf-x-1a-with-color-management-in-c/) | Naučte se převést PDF na PDF/X‑1A s řízením barev pomocí Aspose.PDF pro .NET v C#. |
 | [PDF na PNG tutoriál – Převod stránek PDF do PNG v C#](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Naučte se, jak převést stránky PDF do formátu PNG pomocí Aspose.PDF pro .NET v C#. |
 | [Uložení PDF jako HTML pomocí Aspose.PDF – krok za krokem průvodce v C#](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) | Naučte se, jak pomocí Aspose.PDF pro .NET převést PDF do HTML v C# pomocí podrobného krok‑za‑krokem návodu. |
 | [Vytvořit PDF z JPG v C# – Kompletní průvodce ořezáváním a novými stránkami](./create-pdf-from-jpg-in-c-full-guide-with-cropping-and-new-pa/) | Naučte se, jak pomocí Aspose.PDF pro .NET vytvořit PDF z JPG, ořezávat obrázky a přidávat nové stránky v podrobném návodu. |

@@ -279,6 +279,8 @@ Aspose.Pdf를 활용해 PDF를 HTML로 변환하고 저장하는 방법을 C# �
 Aspose를 활용해 PDF를 고품질 PNG 이미지로 변환하는 전체 단계별 가이드를 제공합니다.
 ### [C#에서 docx를 html로 변환 – 완전 프로그래밍 가이드](./convert-docx-to-html-in-c-complete-programming-guide/)
 Aspose.PDF for .NET을 사용하여 C#에서 DOCX 파일을 HTML로 변환하는 방법을 단계별로 안내합니다.
+### [C#에서 docx를 PNG로 변환 – 완전 가이드](./convert-docx-to-png-in-c-complete-guide/)
+C#과 Aspose.PDF를 활용하여 DOCX 파일을 고품질 PNG 이미지로 변환하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

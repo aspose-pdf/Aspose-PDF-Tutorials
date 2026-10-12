@@ -57,6 +57,8 @@
 | [检查 PDF 签名有效性 – 使用 Aspose.PDF 完整 C# 指南](./check-pdf-signature-validity-with-aspose-pdf-complete-c-guid/) 了解如何使用 Aspose.PDF for .NET 在 C# 中检查 PDF 签名的有效性，分步指南确保文档安全。|  
 | [使用 Aspose.PDF 验证 PDF 数字签名 – 完整 C# 指南](./verify-digital-signature-pdf-with-aspose-pdf-complete-c-guid/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 的数字签名。分步指南，确保文档完整性。|  
 | [使用 Aspose.PDF 验证 PDF 签名 – 完整 C# 指南](./verify-pdf-signature-with-aspose-pdf-complete-c-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中验证 PDF 签名，分步指南确保文档完整性。|  
+| [如何在 C# 中使用 Validator – 检查签名有效性的完整指南](./how-to-use-validator-in-c-complete-guide-to-checking-signatu/) 了解如何使用 Aspose.PDF for .NET 在 C# 中调用 Validator 检查 PDF 签名的有效性，确保文档安全可靠。|  
+| [添加 Bates 编号到 PDF – 完整的 C# 指南（含签名与转换）](./add-bates-numbering-pdf-complete-c-guide-with-signing-conver/) 了解如何使用 Aspose.PDF for .NET 在 C# 中为 PDF 添加 Bates 编号，并实现签名和格式转换的完整步骤。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

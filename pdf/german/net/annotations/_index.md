@@ -37,6 +37,7 @@ Eine umfassende Sammlung von Tutorials zeigt, wie Sie mit Aspose.PDF für .NET m
 | [Freitext-PDF-Anmerkungen aktualisieren](./updatefreetextannotation/) Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET Freitextanmerkungen in PDF-Dokumenten aktualisieren. |  
 | [So verwenden Sie Repair in Aspose.PDF – Defekte Anmerkungen reparieren](./how-to-use-repair-in-aspose-pdf-fix-broken-annotations/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET die Repair‑Funktion nutzen, um beschädigte Anmerkungen in PDF‑Dokumenten zu reparieren. |
 | [PDF-Anmerkung hinzufügen – Komplettanleitung mit Aspose.PDF](./add-annotation-pdf-with-aspose-pdf-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Anmerkungen hinzufügen – ein umfassender Leitfaden mit vollständigem Beispielcode. |  
+| [Rechteck in PDF mit C# – Schritt‑für‑Schritt‑Anleitung](./draw-rectangle-on-pdf-with-c-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein Rechteck in ein PDF einfügen – detaillierte Schritt‑für‑Schritt‑Anleitung. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

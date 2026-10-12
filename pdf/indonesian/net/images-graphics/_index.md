@@ -125,7 +125,7 @@ Pelajari cara menyempurnakan dokumen PDF Anda dengan membuat persegi panjang den
 Pelajari cara menghapus gambar dari file PDF secara efisien menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup pengaturan, contoh kode, dan praktik terbaik.
 
 ### [Cara Menghapus Gambar dari PDF Menggunakan Aspose.PDF .NET: Panduan Langkah demi Langkah](./delete-images-aspose-pdf-net-guide/)
-Pelajari cara menghapus gambar dari file PDF menggunakan Aspose.PDF untuk .NET. Panduan lengkap ini mencakup pengaturan, penerapan, dan aplikasi praktis.
+Pelajari cara menghapus gambar dari PDF menggunakan Aspose.PDF untuk .NET. Panduan lengkap ini mencakup pengaturan, penerapan, dan aplikasi praktis.
 
 ### [Cara Menghapus Gambar dari PDF Menggunakan Aspose.PDF untuk .NET: Panduan Lengkap](./delete-images-from-pdf-aspose-dotnet/)
 Pelajari cara menghapus semua gambar dari PDF secara efisien menggunakan Aspose.PDF for .NET, meningkatkan privasi file dan mengurangi ukuran. Ikuti panduan langkah demi langkah ini.
@@ -183,6 +183,8 @@ Pelajari cara menyempurnakan dokumen PDF Anda dengan mengatur latar belakang gam
 
 ### [Cara Menambahkan Bentuk ke PDF dengan Aspose.PDF di C# – Panduan Langkah demi Langkah](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Pelajari cara menambahkan bentuk ke PDF dengan Aspose.PDF untuk .NET menggunakan C#. Ikuti panduan langkah demi langkah untuk menguasai penempatan bentuk.
+### [Kompresi Gambar Tanpa Kehilangan dalam Dokumen Word – Panduan Lengkap](./lossless-image-compression-in-word-docs-complete-guide/)
+Pelajari cara mengompres gambar dalam dokumen Word secara lossless menggunakan Aspose.Words untuk .NET, menjaga kualitas tinggi sambil mengurangi ukuran file.
 
 ## Sumber Daya Tambahan
 

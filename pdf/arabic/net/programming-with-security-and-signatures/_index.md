@@ -21,7 +21,7 @@
 ## دروس تعليمية
 | العنوان | الوصف |
 | --- | --- | 
-| [تغيير كلمة المرور في ملف PDF](./change-password/) تعلم كيفية تغيير كلمات مرور ملفات PDF بسهولة باستخدام Aspose.PDF لـ .NET. دليلنا المفصل يرشدك خلال العملية بأمان.  
+| [تغيير كلمة المرور في ملف PDF](./change-password/) تعلم كيفية تغيير كلمات مرور ملفات PDF بسهولة باستخدام Aspose.PDF لـ .NET. دليلنا المفصل يرشدك خلال العملية بأمان.  |
 | [فك تشفير ملف PDF](./decrypt/) | تعلّم كيفية فك تشفير ملفات PDF بأمان باستخدام Aspose.PDF لـ .NET. احصل على إرشادات خطوة بخطوة لتحسين مهاراتك في إدارة المستندات. |  
 | [تحديد كلمة المرور الصحيحة في ملف PDF](./determine-correct-password/) | افتح ملفات PDF بكلمة مرور صحيحة باستخدام Aspose.PDF لـ .NET. تعلّم كيفية تحديد كلمة المرور الصحيحة بسهولة. |  
 | [تسجيل الدخول رقميًا إلى ملف PDF](./digitally-sign/) تعرّف على كيفية التوقيع الرقمي على ملفات PDF باستخدام Aspose.PDF لـ .NET. دليل خطوة بخطوة لضمان أمان مستنداتك وصحتها. |  
@@ -54,6 +54,8 @@
 | [التحقق من صحة توقيع PDF باستخدام Aspose.PDF – دليل C# كامل](./check-pdf-signature-validity-with-aspose-pdf-complete-c-guid/) | تعلم كيفية التحقق من صحة توقيعات PDF باستخدام Aspose.PDF في دليل شامل خطوة بخطوة بلغة C#. |  
 | [التحقق من التوقيع الرقمي لملف PDF باستخدام Aspose.PDF – دليل C# كامل](./verify-digital-signature-pdf-with-aspose-pdf-complete-c-guid/) | تعلم كيفية التحقق من التوقيع الرقمي لملفات PDF باستخدام Aspose.PDF في دليل شامل خطوة بخطوة بلغة C#. |
 | [التحقق من توقيع PDF باستخدام Aspose.PDF – دليل C# كامل](./verify-pdf-signature-with-aspose-pdf-complete-c-guide/) | تعلم كيفية التحقق من توقيع PDF باستخدام Aspose.PDF في دليل شامل خطوة بخطوة بلغة C#. |
+| [كيفية استخدام أداة التحقق في C# – دليل كامل للتحقق من صحة التوقيع](./how-to-use-validator-in-c-complete-guide-to-checking-signatu/) | تعلم كيفية استخدام أداة التحقق في C# للتحقق من صحة التوقيعات الرقمية في ملفات PDF باستخدام Aspose.PDF لـ .NET. |
+| [إضافة ترقيم بايتس إلى PDF – دليل كامل C# مع التوقيع والتحويل](./add-bates-numbering-pdf-complete-c-guide-with-signing-conver/) | تعلم كيفية إضافة ترقيم بايتس إلى ملفات PDF مع التوقيع والتحويل باستخدام Aspose.PDF لـ .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

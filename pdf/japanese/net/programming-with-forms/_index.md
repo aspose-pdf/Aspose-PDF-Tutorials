@@ -52,6 +52,7 @@ Aspose.PDF for .NETの「フォームを使ったプログラミング」チュ�
 | [テキストボックス](./text-box/) Aspose.PDF for .NET を使って PDF にテキストボックスを簡単に追加する方法をステップバイステップで解説します。ユーザーインタラクションを強化します。 |  
 | [AsposeでPDFを作成 – テキストボックスフィールドを追加](./create-pdf-document-with-aspose-add-text-box-field/) Aspose.PDF for .NET を使用して、PDF ドキュメントにテキストボックス フィールドを追加する手順をステップバイステップで解説します。 |  
 | [PDF フォームにテキストボックスを追加 – 完全な C# ガイド](./add-text-box-to-pdf-form-complete-c-guide/) Aspose.PDF for .NET を使用して PDF フォームにテキストボックスを追加する方法をステップバイステップで解説します。 |  
+| [PDF テキストボックス フィールドの作成 – ステップバイステップ ガイド](./create-pdf-textbox-field-step-by-step-guide/) Aspose.PDF for .NET を使用して PDF にテキストボックス フィールドを作成する方法をステップバイステップで解説します。 |  
 | [AsposeでPDFを作成 – フィールドとページを追加](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) Aspose.PDF for .NET を使用して、PDF にフォームフィールドとページを追加する手順をステップバイステップで解説します。 |  
 | [複数ウィジェットで PDF ドキュメントを作成 – ステップバイステップ ガイド](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) Aspose.PDF for .NET を使用して、複数のウィジェットを含む PDF ドキュメントを作成する方法をステップバイステップで解説します。 |  
 | [ページとテキストボックスフィールドでPDFを作成 – 完全C#ガイド](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) Aspose.PDF for .NET を使用して、ページとテキストボックスフィールドを含む PDF を作成する方法をステップバイステップで解説します。 |  

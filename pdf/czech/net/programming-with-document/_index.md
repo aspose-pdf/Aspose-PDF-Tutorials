@@ -62,6 +62,8 @@ Zdroj obsahuje návody k programování s funkcí dokumentů v knihovně Aspose.
 | [Otevřít PDF soubor C# – Jak opravit poškozený PDF během několika minut](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | Naučte se, jak rychle opravit poškozený PDF soubor pomocí Aspose.PDF pro .NET v C#. |
 | [Jak číst dokument Word a extrahovat konkrétní stránku z Wordu – průvodce C#](./how-to-read-word-document-and-extract-specific-page-from-wor/) | Naučte se, jak pomocí Aspose.Words pro .NET načíst dokument Word a extrahovat konkrétní stránku v C#. |
 | [Vytvořte vlastní plugin Aspose – Kompletní průvodce automatizací zpracování PDF](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Naučte se, jak vytvořit vlastní plugin pro Aspose a automatizovat zpracování PDF pomocí podrobného průvodce a ukázek kódu. |  
+| [Přidání Batesova číslování ve Wordu – kompletní krok‑za‑krokem průvodce](./add-bates-numbering-in-word-complete-step-by-step-guide/) | Naučte se, jak přidat Batesovo číslování do dokumentů Word pomocí Aspose.Words pro .NET v podrobném krok‑za‑krokem návodu. |  
+| [Přidání prázdné stránky do dokumentu Word pomocí C# – Kompletní průvodce](./add-blank-page-in-word-document-with-c-complete-guide/) | Naučte se, jak pomocí Aspose.Words pro .NET přidat prázdnou stránku do dokumentu Word pomocí C# v podrobném průvodci. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

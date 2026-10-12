@@ -62,6 +62,8 @@
 | [كيفية إصلاح ملفات PDF – دليل خطوة بخطوة باستخدام Aspose.Pdf](./how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/) | تعرّف على كيفية إصلاح ملفات PDF المتضررة باستخدام Aspose.Pdf لـ .NET في دليل شامل خطوة بخطوة. |
 | [فتح ملف PDF باستخدام C# – كيفية إصلاح ملف PDF تالف في دقائق](./open-pdf-file-c-how-to-repair-a-corrupted-pdf-in-minutes/) | تعلم كيفية إصلاح ملفات PDF التالفة بسرعة باستخدام Aspose.PDF لـ .NET وC#. |  
 | [إنشاء مكوّن Aspose مخصص – دليل كامل لأتمتة معالجة PDF](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | دليل خطوة بخطوة لإنشاء مكوّن Aspose مخصص لأتمتة معالجة ملفات PDF باستخدام .NET. |  
+| [إضافة ترقيم Bates في Word – دليل خطوة بخطوة كامل](./add-bates-numbering-in-word-complete-step-by-step-guide/) | تعرّف على كيفية إضافة ترقيم Bates إلى مستندات Word باستخدام Aspose.Words لـ .NET في دليل خطوة بخطوة. |  
+| [إضافة صفحة فارغة في مستند Word باستخدام C# – دليل شامل](./add-blank-page-in-word-document-with-c-complete-guide/) | تعرّف على كيفية إضافة صفحة فارغة إلى مستند Word باستخدام C# ومكتبة Aspose.Words في دليل خطوة بخطوة شامل. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

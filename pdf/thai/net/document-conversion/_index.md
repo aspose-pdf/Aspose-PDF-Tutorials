@@ -77,6 +77,8 @@
 - [แปลง PDF เป็น 2.0 – คู่มือ ASP.NET เต็มรูปแบบพร้อมบันทึกข้อผิดพลาด](./convert-pdf-to-2-0-full-asp-net-guide-with-error-logging/) | เรียนรู้วิธีแปลง PDF เป็น PDF 2.0 ด้วย ASP.NET พร้อมบันทึกข้อผิดพลาดในขั้นตอนที่ละเอียด  
 - [บทแนะนำการแปลง PDF ของ Aspose – แปลง PDF เป็น PDF/X‑4 ทีละขั้นตอน](./aspose-pdf-conversion-tutorial-convert-pdfs-to-pdf-x-4-step/) | เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/X‑4 ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียดในบทแนะนำขั้นตอนต่อขั้นตอน  
 - [โหลดเอกสาร PDF และแปลงเป็น PDF/X‑4 – คู่มือฉบับสมบูรณ์](./load-pdf-document-and-convert-to-pdf-x-4-complete-guide/) | เรียนรู้วิธีโหลดไฟล์ PDF และแปลงเป็น PDF/X‑4 ด้วย Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนนี้  
+- [แปลง DOCX เป็น HTML ด้วย C# – คู่มือเต็ม](./convert-docx-to-html-in-c-complete-guide/) | เรียนรู้วิธีแปลงไฟล์ DOCX เป็น HTML ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนนี้  
+- [แปลง PDF เป็น PDF/X‑1A พร้อมการจัดการสีใน C#](./convert-pdf-to-pdf-x-1a-with-color-management-in-c/) | เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/X-1A พร้อมการจัดการสีโดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

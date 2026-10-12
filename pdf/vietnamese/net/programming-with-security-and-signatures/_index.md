@@ -56,6 +56,8 @@ Hướng dẫn cung cấp cho bạn tổng quan chi tiết về các phương ph
 | [Kiểm tra tính hợp lệ của chữ ký PDF với Aspose.PDF – Hướng dẫn C# đầy đủ](./check-pdf-signature-validity-with-aspose-pdf-complete-c-guid/) | Học cách kiểm tra tính hợp lệ của chữ ký PDF bằng Aspose.PDF trong hướng dẫn chi tiết cho C#. |  
 | [Xác minh chữ ký số PDF với Aspose.PDF – Hướng dẫn C# đầy đủ](./verify-digital-signature-pdf-with-aspose-pdf-complete-c-guid/) | Học cách xác minh chữ ký số trong tài liệu PDF bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết bằng C#. |  
 | [Xác minh chữ ký PDF với Aspose.PDF – Hướng dẫn C# đầy đủ](./verify-pdf-signature-with-aspose-pdf-complete-c-guide/) | Học cách xác minh chữ ký số trong tài liệu PDF bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết bằng C#. |  
+| [Cách sử dụng Validator trong C# – Hướng dẫn đầy đủ kiểm tra tính hợp lệ của chữ ký](./how-to-use-validator-in-c-complete-guide-to-checking-signatu/) | Học cách sử dụng Validator để kiểm tra tính hợp lệ của chữ ký số trong tài liệu PDF bằng Aspose.PDF cho .NET. |
+| [Thêm đánh số Bates PDF – Hướng dẫn C# đầy đủ với ký và chuyển đổi](./add-bates-numbering-pdf-complete-c-guide-with-signing-conver/) | Học cách thêm đánh số Bates vào PDF, ký số và chuyển đổi tài liệu bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -63,6 +63,8 @@
 | [Word दस्तावेज़ पढ़ें और विशिष्ट पृष्ठ निकालें – C# गाइड](./how-to-read-word-document-and-extract-specific-page-from-wor/) | C# में Aspose.Words का उपयोग करके Word फ़ाइल पढ़ें और विशिष्ट पृष्ठ निकालें। चरण-दर-चरण मार्गदर्शिका। |  
 
 | [कस्टम Aspose प्लगइन बनाएं – PDF प्रोसेसिंग को स्वचालित करने के लिए पूर्ण गाइड](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | .NET के लिए Aspose PDF के साथ कस्टम प्लगइन बनाकर PDF प्रोसेसिंग को स्वचालित करने की पूरी प्रक्रिया सीखें। |
+| [C# के साथ वर्ड दस्तावेज़ में खाली पृष्ठ जोड़ें – पूर्ण गाइड](./add-blank-page-in-word-document-with-c-complete-guide/) | .NET के लिए Aspose.Words का उपयोग करके वर्ड फ़ाइल में खाली पृष्ठ कैसे जोड़ें, चरण-दर-चरण सीखें। |  
+| [वर्ड में बेट्स नंबरिंग जोड़ें – पूर्ण चरण-दर-चरण गाइड](./add-bates-numbering-in-word-complete-step-by-step-guide/) | वर्ड दस्तावेज़ में बेट्स नंबरिंग जोड़ने के लिए .NET के लिए Aspose.Words का उपयोग करके चरण-दर-चरण मार्गदर्शिका। |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

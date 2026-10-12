@@ -177,6 +177,8 @@ Aspose.PDF for .NET을 사용하여 이미지 배경을 설정하여 PDF 문서�
 
 ### [Aspose.PDF를 사용하여 PDF에 사각형 추가 – 완전 프로그래밍 가이드](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
 Aspose.PDF를 활용해 PDF 문서에 사각형을 그리는 방법을 단계별로 안내합니다.
+### [Word 문서에서 무손실 이미지 압축 – 완전 가이드](./lossless-image-compression-in-word-docs-complete-guide/)
+Aspose.Words for .NET을 사용하여 Word 문서의 이미지를 품질 손실 없이 압축하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

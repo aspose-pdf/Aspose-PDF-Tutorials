@@ -179,6 +179,8 @@ Aspose.PDF Net 程式碼教學
 
 ### [如何驗證 PDF 並新增矩形 – 完整指南](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
 了解如何使用 Aspose.PDF for .NET 驗證 PDF 文件的完整性並在其中新增矩形，以提升文件的安全性與視覺效果。
+### [Word 文件中的無損影像壓縮 – 完整指南](./lossless-image-compression-in-word-docs-complete-guide/)
+了解如何使用 Aspose.Words for .NET 在 Word 文件中進行無損影像壓縮，保持品質同時減少檔案大小。
 
 ## 其他資源
 

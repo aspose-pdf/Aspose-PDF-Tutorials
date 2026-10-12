@@ -55,6 +55,8 @@ De tutorial geeft u een gedetailleerd overzicht van methoden en technieken om de
 | [PDF-handtekening geldigheid controleren met Aspose.PDF – Complete C#-gids](./check-pdf-signature-validity-with-aspose-pdf-complete-c-guid/) | Leer hoe u de geldigheid van PDF-handtekeningen verifieert met Aspose.PDF in C# via een stapsgewijze handleiding. |
 | [PDF-handtekening verifiëren met Aspose.PDF – Complete C#-gids](./verify-digital-signature-pdf-with-aspose-pdf-complete-c-guid/) | Leer hoe u digitale handtekeningen in PDF's kunt verifiëren met Aspose.PDF voor .NET in een stapsgewijze C#-gids. |
 | [PDF-handtekening verifiëren met Aspose.PDF – Complete C#-gids](./verify-pdf-signature-with-aspose-pdf-complete-c-guide/) | Leer hoe u digitale handtekeningen in PDF's kunt verifiëren met Aspose.PDF voor .NET in een stapsgewijze C#-gids. |
+| [Validator gebruiken in C# – Complete gids voor het controleren van handtekeninggeldigheid](./how-to-use-validator-in-c-complete-guide-to-checking-signatu/) | Leer hoe u de validator gebruikt in C# om de geldigheid van digitale handtekeningen te controleren met Aspose.PDF voor .NET. |
+| [Bates-nummers toevoegen aan PDF – Complete C#-gids met ondertekenen en conversie](./add-bates-numbering-pdf-complete-c-guide-with-signing-conver/) | Leer hoe u Bates-nummers aan PDF's toevoegt, ondertekent en converteert met Aspose.PDF voor .NET in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -37,6 +37,7 @@
 | [Ücretsiz Metin PDF Açıklamasını Güncelle](./updatefreetextannotation/) Bu adım adım kılavuzla Aspose.PDF for .NET'i kullanarak PDF belgelerindeki serbest metin açıklamalarını nasıl güncelleyeceğinizi öğrenin.  
 | [Aspose.PDF'de Onarımı Kullanma – Bozuk Açıklamaları Düzeltme](./how-to-use-repair-in-aspose-pdf-fix-broken-annotations/) | Aspose.PDF for .NET kullanarak bozuk açıklamaları onarmayı ve PDF dosyalarınızı sorunsuz hale getirmeyi öğrenin. |
 | [Aspose.PDF ile PDF Açıklaması Ekle - Tam Kılavuz](./add-annotation-pdf-with-aspose-pdf-complete-guide/) | Aspose.PDF for .NET kullanarak PDF dosyalarına açıklama eklemeyi adım adım öğrenin. |
+| [C# ile PDF Üzerine Dikdörtgen Çiz – Adım Adım Kılavuz](./draw-rectangle-on-pdf-with-c-step-by-step-guide/) | C# ve Aspose.PDF for .NET kullanarak PDF dosyalarına dikdörtgen eklemeyi adım adım öğrenin.  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

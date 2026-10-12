@@ -72,6 +72,7 @@ Aspose.PDF for .NET "Forms 프로그래밍" 튜토리얼은 대화형 PDF 양식
 {{< blocks/products/pf/tutorial-page-section >}}
 
 | [Aspose로 PDF 만들기 – 컬렉션에 필드 추가](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Aspose.PDF for .NET을 사용하여 PDF 컬렉션에 새 필드를 추가하는 방법을 단계별로 안내합니다. |  
+| [PDF 텍스트 상자 필드 만들기 – 단계별 가이드](./create-pdf-textbox-field-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 PDF에 텍스트 상자 필드를 만드는 방법을 단계별 가이드로 알아보세요. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

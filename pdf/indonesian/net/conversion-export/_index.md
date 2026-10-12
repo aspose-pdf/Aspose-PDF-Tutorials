@@ -202,6 +202,9 @@ Pelajari cara mengekspor dokumen DOCX menggunakan Aspose.PDF untuk .NET dengan c
 ### [Mengonversi docx ke html dalam C# – Panduan Pemrograman Lengkap](./convert-docx-to-html-in-c-complete-programming-guide/)
 Panduan lengkap untuk mengonversi file docx menjadi HTML menggunakan C# dan Aspose.PDF.
 
+### [Mengonversi docx ke png dalam C# – Panduan Lengkap](./convert-docx-to-png-in-c-complete-guide/)
+Pelajari cara mengonversi file DOCX menjadi gambar PNG menggunakan C# dan Aspose.PDF dengan contoh kode lengkap.
+
 ## Sumber Daya Tambahan
 
 ### [Konversi PDF ke PDF/X-1a, Ekspor Halaman PNG & Tambahkan Stempel Teks](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)

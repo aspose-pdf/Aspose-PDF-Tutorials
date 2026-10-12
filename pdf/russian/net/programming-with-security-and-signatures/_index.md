@@ -57,6 +57,8 @@
 | [Проверка действительности подписи PDF с Aspose.PDF – Полное руководство на C#](./check-pdf-signature-validity-with-aspose-pdf-complete-c-guid/) | Узнайте, как проверять валидность цифровой подписи PDF с помощью Aspose.PDF в полном руководстве для C#. |  
 | [Проверка цифровой подписи PDF с Aspose.PDF – Полное руководство на C#](./verify-digital-signature-pdf-with-aspose-pdf-complete-c-guid/) | Узнайте, как проверять цифровые подписи PDF с помощью Aspose.PDF для .NET на C#. Пошаговое руководство. |  
 | [Проверка подписи PDF с Aspose.PDF – Полное руководство на C#](./verify-pdf-signature-with-aspose-pdf-complete-c-guide/) | Узнайте, как проверять подписи PDF с помощью Aspose.PDF для .NET на C#. Полное пошаговое руководство. |
+| [Как использовать Validator в C# – Полное руководство по проверке действительности подписи](./how-to-use-validator-in-c-complete-guide-to-checking-signatu/) | Узнайте, как использовать Validator в C# для проверки действительности цифровой подписи PDF с помощью Aspose.PDF. |  
+| [Добавить нумерацию Бейтса в PDF – Полное руководство на C# с подписанием и конвертацией](./add-bates-numbering-pdf-complete-c-guide-with-signing-conver/) | Узнайте, как добавить нумерацию Бейтса в PDF, подписать и конвертировать файлы с помощью Aspose.PDF для .NET. Пошаговое руководство. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

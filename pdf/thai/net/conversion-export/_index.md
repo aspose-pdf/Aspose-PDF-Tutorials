@@ -279,6 +279,9 @@
 
 ### [แปลง PDF เป็น HTML ใน C# – คู่มือเต็มขั้นตอน](./convert-pdf-to-html-in-c-full-step-by-step-guide/)
 
+### [แปลง docx เป็น png ใน C# – คู่มือฉบับสมบูรณ์](./convert-docx-to-png-in-c-complete-guide/)
+เรียนรู้วิธีแปลงไฟล์ docx เป็นภาพ PNG ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET อย่างละเอียดและครบถ้วน
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)

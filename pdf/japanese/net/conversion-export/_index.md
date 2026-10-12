@@ -276,6 +276,8 @@ Aspose.PDF for .NET を使用して、PDF ドキュメントから HTML を抽�
 Aspose.PDF for .NET を使い、C# で PDF を HTML にエクスポートする手順を詳しく解説します。
 ### [C# で docx を HTML に変換する – 完全プログラミングガイド](./convert-docx-to-html-in-c-complete-programming-guide/)
 C# で Aspose.Words を利用し、docx ファイルを高品質な HTML に変換する方法をステップバイステップで解説します。
+### [C#でdocxをpngに変換する – 完全ガイド](./convert-docx-to-png-in-c-complete-guide/)
+C# と Aspose.Words for .NET を使用して、docx ファイルを高品質な PNG 画像に変換する方法をステップバイステップで解説します。
 
 ## 追加リソース
 

@@ -56,6 +56,7 @@
 | [Πώς να προσθέσετε αριθμό Bates σε PDF με C# – Πλήρης Οδηγός](./how-to-add-bates-numbering-in-pdf-with-c-complete-guide/) | Μάθετε πώς να προσθέσετε αριθμό Bates σε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET με C# σε αυτόν τον πλήρη οδηγό. |
 | [Προσθήκη αρίθμησης Bates σε PDF – Πλήρης οδηγός με Aspose](./add-bates-numbering-pdf-complete-guide-with-aspose/) | Μάθετε πώς να προσθέσετε αρίθμηση Bates σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με πλήρη οδηγό βήμα-βήμα. |  
 | [Προσθήκη αρίθμησης Bates σε PDF με C# – Πλήρης Οδηγός Βήμα‑βήμα](./add-bates-numbering-to-pdf-in-c-complete-step-by-step-guide/) | Μάθετε πώς να προσθέσετε αρίθμηση Bates σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με C# σε αυτόν τον πλήρη οδηγό βήμα‑βήμα. |  
+| [Δημιουργία υδατογραφήματος κειμένου σε Word με Aspose.Words – Πλήρης Οδηγός](./create-text-watermark-in-word-with-aspose-words-complete-gui/) | Μάθετε πώς να δημιουργήσετε υδατογράφημα κειμένου σε έγγραφα Word χρησιμοποιώντας το Aspose.Words με αυτόν τον πλήρη οδηγό. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

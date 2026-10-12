@@ -37,6 +37,7 @@
 | [Szabad szövegű PDF jegyzet frissítése](./updatefreetextannotation/) Tanulja meg, hogyan frissítheti a szabad szöveges megjegyzéseket PDF dokumentumokban az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. |  
 | [Hogyan használjuk a Repair funkciót az Aspose.PDF-ben – Hibás megjegyzések javítása](./how-to-use-repair-in-aspose-pdf-fix-broken-annotations/) Ismerje meg, hogyan javíthatja a sérült annotációkat az Aspose.PDF Repair funkciójával lépésről lépésre útmutatóval. |  
 | [PDF annotáció hozzáadása az Aspose.PDF segítségével – Teljes útmutató](./add-annotation-pdf-with-aspose-pdf-complete-guide/) Ismerje meg, hogyan adhat hozzá különféle annotációkat PDF-fájlokhoz az Aspose.PDF for .NET használatával ebben a részletes, lépésről lépésre útmutatóban. |  
+| [Téglalap rajzolása PDF-re C#‑val – Lépésről‑lépésre útmutató](./draw-rectangle-on-pdf-with-c-step-by-step-guide/) Tanulja meg, hogyan rajzolhat téglalapot PDF dokumentumba C#‑ban az Aspose.PDF for .NET segítségével ebben a részletes útmutatóban. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -80,6 +80,9 @@ Aspose.PDF Net 代码教程
 ### [使用 Aspose.PDF .NET 快速缩小 PDF 中的图像：高效优化和压缩图像](./optimize-pdf-images-aspose-net-fast-compression/)
 了解如何使用 Aspose.PDF for .NET 压缩 PDF 文件中的图像，在保持质量的同时减小文件大小。非常适合快速加载和高效存储。
 
+### [Word 文档中的无损图像压缩 – 完整指南](./lossless-image-compression-in-word-docs-complete-guide/)
+了解如何使用 Aspose.Words for .NET 在 Word 文档中实现无损图像压缩，保持图像质量并显著减小文件大小。
+
 ### [如何在 C# 中使用 Aspose.PDF .NET 向 PDF 添加图像页脚](./aspose-pdf-net-add-image-footers-pdfs/)
 本指南将逐步指导您如何使用 Aspose.PDF for .NET 将图像页脚添加到 PDF 文档。非常适合品牌推广和个性化定制。
 
