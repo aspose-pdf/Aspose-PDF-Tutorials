@@ -57,10 +57,10 @@ weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/products-backtop-button >}}
+
 # Java'da Tek Sayfa Görünümü PDF – Düzeni Değiştir ve Yer İmlerini Düzenle
 
 ## Giriş
@@ -253,6 +253,8 @@ C: Yapısal değişikliklerden sonra mevcut sayfa indekslerini kullanarak hedefl
 - [Aspose.PDF Java için PDF Yer İmleri ve Gezinti Öğreticileri](/pdf/java/bookmarks-navigation/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

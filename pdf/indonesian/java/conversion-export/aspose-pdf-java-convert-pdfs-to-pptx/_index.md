@@ -65,11 +65,13 @@ url: /id/java/conversion-export/aspose-pdf-java-convert-pdfs-to-pptx/
 weight: 1
 ---
 
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
-
-{{< /blocks/products/pf/tutorial-page-section >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
+
+
+
+
 # Konversi Aspose PDF ke PPTX dengan Java – Panduan Lengkap
 
 ## Pendahuluan
@@ -241,11 +243,9 @@ Manfaatkan kekuatan Aspose.PDF untuk Java dan mulailah mengonversi PDF ke PPTX d
 - [Cara Mengonversi PDF ke Excel Menggunakan Aspose.PDF untuk Java | Panduan Langkah‑demi‑Langkah](/pdf/java/conversion-export/convert-pdf-excel-aspose-java-tutorial/)
 - [Mengonversi PDF ke JPEG di Java Menggunakan Aspose.PDF: Panduan Lengkap](/pdf/java/conversion-export/convert-pdf-to-jpeg-aspose-java-guide/)
 
+{{< /blocks/products/pf/tutorial-page-section >}}
 
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
-{{< /blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/main-wrap-class >}}

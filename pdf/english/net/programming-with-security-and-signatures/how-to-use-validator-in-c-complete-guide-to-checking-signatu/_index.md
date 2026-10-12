@@ -256,7 +256,8 @@ The following tutorials cover closely related topics that build on the technique
 - [How to Extract PDF Signature Information Using Aspose.PDF .NET: A Step‑By‑Step Guide]({{< relref "/pdf/english/net/digital-signatures/extract-pdf-signature-info-aspose-pdf-net/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
