@@ -1,9 +1,17 @@
 ---
-"date": "2025-04-14"
-"description": "Tìm hiểu cách chuyển đổi PDF sang định dạng HTML có nhúng hình ảnh PNG bằng Aspose.PDF cho Java, đảm bảo hình ảnh chất lượng cao và khả năng tương thích trên nhiều nền tảng."
-"title": "Chuyển đổi PDF sang HTML trong Java với Hình ảnh PNG nhúng bằng Aspose.PDF"
-"url": "/vi/java/conversion-export/convert-pdf-to-html-with-png-images-java/"
-"weight": 1
+date: '2026-04-05'
+description: Học cách nhúng hình PNG khi chuyển PDF sang HTML trong Java bằng Aspose.PDF.
+  Hướng dẫn từng bước này bao gồm việc chuyển đổi PDF sang HTML và đảm bảo hình ảnh
+  chất lượng cao.
+keywords:
+- how to embed png
+- convert pdf to html
+- pdf to html java
+- aspose pdf java
+- batch convert pdf html
+title: Cách nhúng hình PNG vào HTML từ PDF bằng Aspose.PDF Java
+url: /vi/java/conversion-export/convert-pdf-to-html-with-png-images-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,31 +19,38 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Cách chuyển đổi PDF sang HTML bằng Aspose.PDF cho Java mà không cần lưu hình ảnh dưới dạng SVG
+# Cách Nhúng Hình PNG vào HTML từ PDF Aspose.PDF Java
 
 ### Giới thiệu
 
-Chuyển đổi tài liệu PDF sang HTML có thể dẫn đến các vấn đề về chất lượng hình ảnh nếu không được xử lý đúng cách. Hướng dẫn này trình bày cách sử dụng Aspose.PDF cho Java để chuyển đổi tệp PDF sang HTML trong khi nhúng hình ảnh dưới dạng PNG, đảm bảo khả năng tương thích và tính nhất quán trực quan tốt hơn.
+Việc chuyển đổi tài liệu PDF sang HTML có thể gây ra vấn đề về chất lượng hình ảnh nếu không được xử lý đúng cách. Trong hướng dẫn này, bạn sẽ khám phá **cách nhúng hình PNG** khi chuyển đổi PDF sang HTML bằng Aspose.PDF cho Java, đảm bảo hình ảnh chất lượng cao và khả năng tương thích rộng rãi trên các trình duyệt.
 
 Trong hướng dẫn này, bạn sẽ học:
-- Cách thiết lập môi trường của bạn với Aspose.PDF cho Java
-- Các bước để cấu hình chuyển đổi PDF sang HTML
-- Các tính năng chính của tùy chọn lưu HTML trong Aspose.PDF
-- Ứng dụng thực tế và cân nhắc hiệu suất
+- Cách thiết lập môi trường của bạn với Aspose.PDF cho Java  
+- Các bước cấu hình **chuyển đổi PDF sang HTML** với rasterization PNG  
+- Các tính năng chính của tùy chọn lưu HTML trong Aspose.PDF  
+- Các ứng dụng thực tế, mẹo hiệu suất và những lỗi thường gặp  
 
-Hãy cùng khám phá cách chuyển đổi tệp PDF của bạn một cách dễ dàng!
+Hãy khám phá cách chuyển đổi PDF của bạn một cách dễ dàng!
 
-### Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **embed PNG** có nghĩa là gì? Nó lưu dữ liệu hình PNG trực tiếp trong tệp HTML được tạo.  
+- **Thư viện nào được yêu cầu?** Aspose.PDF cho Java (phiên bản mới nhất được khuyến nghị).  
+- **Tôi có cần giấy phép không?** Bản dùng thử miễn phí hoạt động cho việc thử nghiệm; giấy phép thương mại cần thiết cho môi trường sản xuất.  
+- **Tôi có thể chuyển đổi hàng loạt nhiều PDF không?** Có – chỉ cần lặp qua các tệp và tái sử dụng cùng một đoạn mã chuyển đổi.  
+- **Kết quả có đáp ứng không?** Tùy chọn bố cục cố định giữ nguyên giao diện gốc; bạn có thể áp dụng CSS để làm đáp ứng sau.
 
-Trước khi bắt đầu, hãy đảm bảo bạn có:
-- **Bộ phát triển Java (JDK)**: Java 8 trở lên.
-- **Maven/Gradle**: Để quản lý sự phụ thuộc.
-- **Aspose.PDF cho Thư viện Java**: Phiên bản 25.3 trở lên.
+### Yêu cầu trước
+
+Trước khi bắt đầu, hãy chắc chắn rằng bạn có:
+- **Java Development Kit (JDK)**: Java 8 hoặc mới hơn.  
+- **Maven hoặc Gradle**: Để quản lý phụ thuộc.  
+- **Aspose.PDF cho Java**: Phiên bản 25.3 hoặc mới hơn (hoặc bản phát hành mới nhất).  
 - Kiến thức cơ bản về lập trình Java và cấu hình XML.
 
-### Thiết lập Aspose.PDF cho Java
+### Cài đặt Aspose.PDF cho Java
 
-Để bắt đầu sử dụng Aspose.PDF, hãy thêm nó dưới dạng phần phụ thuộc vào tệp dựng của dự án.
+Thêm thư viện như một phụ thuộc vào dự án của bạn.
 
 **Maven**
 ```xml
@@ -46,105 +61,126 @@ Trước khi bắt đầu, hãy đảm bảo bạn có:
 </dependency>
 ```
 
-**Tốt nghiệp**
+**Gradle**
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-#### Mua lại giấy phép
+#### Nhận giấy phép
 
-Để sử dụng Aspose.PDF, bạn có thể bắt đầu bằng bản dùng thử miễn phí hoặc mua giấy phép tạm thời để đánh giá. Để tiếp tục sử dụng, nên mua đăng ký.
+Bạn có thể bắt đầu với bản dùng thử miễn phí hoặc nhận giấy phép đánh giá tạm thời. Đối với sử dụng trong môi trường sản xuất, mua giấy phép đầy đủ.
 
-- **Dùng thử miễn phí**: [Tải xuống miễn phí Aspose PDF](https://releases.aspose.com/pdf/java/)
-- **Giấy phép tạm thời**: [Nhận giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
+- **Dùng thử miễn phí**: [Aspose PDF Free Download](https://releases.aspose.com/pdf/java/)  
+- **Giấy phép tạm thời**: [Get Temporary License](https://purchase.aspose.com/temporary-license/)
 
 ### Hướng dẫn thực hiện
 
-Sau khi thiết lập môi trường, hãy làm theo các bước sau để chuyển đổi PDF sang HTML trong khi nhúng hình ảnh dưới dạng PNG.
+Với môi trường đã sẵn sàng, hãy làm theo các bước sau để **chuyển đổi PDF sang HTML** đồng thời nhúng hình PNG.
 
-#### Chuyển đổi PDF sang HTML bằng hình ảnh PNG nhúng
+#### Bước 1: Mở tài liệu PDF nguồn
 
-**1. Mở Tài liệu PDF Nguồn**
+Tải tệp PDF vào bộ nhớ bằng Aspose.PDF:
 
-Tải tài liệu PDF vào bộ nhớ bằng Aspose.PDF:
 ```java
 import com.aspose.pdf.Document;
 
 String dataDir = "YOUR_DOCUMENT_DIRECTORY/input.pdf";
 Document pdfDocument = new Document(dataDir);
 ```
-Đảm bảo đường dẫn của bạn trỏ đúng đến nơi lưu trữ tệp PDF.
 
-**2. Cấu hình tùy chọn lưu HTML**
+Đảm bảo `dataDir` trỏ tới vị trí thực tế của PDF của bạn.
 
-Cấu hình cách chuyển đổi xử lý hình ảnh và bố cục:
+#### Bước 2: Cấu hình tùy chọn lưu HTML cho rasterization PNG
+
+Đặt các tùy chọn chuyển đổi để hình ảnh được lưu dưới dạng các phần PNG được nhúng:
+
 ```java
 import com.aspose.pdf.HtmlSaveOptions;
 
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
-// Duy trì tính nhất quán trực quan với bố cục cố định
+// Preserve the original layout
 saveOptions.setFixedLayout(true);
-// Nhúng hình ảnh dưới dạng PNG vào nền trang thay vì SVG
-saveOptions.setRasterImagesSavingMode(HtmlSaveOptions.RasterImagesSavingModes.AsEmbeddedPartsOfPngPageBackground);
+// Embed images as PNG instead of SVG
+saveOptions.setRasterImagesSavingMode(
+    HtmlSaveOptions.RasterImagesSavingModes.AsEmbeddedPartsOfPngPageBackground);
 ```
-Các `setFixedLayout(true)` đảm bảo rằng HTML phản ánh cấu trúc trực quan của PDF của bạn. Phương pháp chính ở đây là `setRasterImagesSavingMode`, hướng dẫn Aspose.PDF nhúng hình ảnh dưới dạng PNG, tránh định dạng SVG có thể không hiển thị nhất quán trên nhiều trình duyệt.
 
-**3. Lưu tệp HTML đã chuyển đổi**
+Cờ `setFixedLayout(true)` giữ bố cục trang HTML giống hệt PDF, trong khi chế độ raster‑image đảm bảo việc nhúng PNG.
 
-Lưu tài liệu của bạn ở định dạng HTML với các tùy chọn đã chỉ định:
+#### Bước 3: Lưu tệp HTML đã chuyển đổi
+
+Ghi kết quả HTML ra đĩa:
+
 ```java
 String outputDir = "YOUR_OUTPUT_DIRECTORY/converted_file.html";
 pdfDocument.save(outputDir, saveOptions);
 ```
-Thao tác này sẽ lưu tệp đã chuyển đổi vào vị trí mong muốn của bạn, đồng thời giữ nguyên hình ảnh PNG được nhúng.
 
-### Ứng dụng thực tế
+Tệp HTML kết quả chứa các hình PNG được nhúng trực tiếp trong mã nguồn trang.
 
-Việc chuyển đổi PDF sang HTML có lợi trong nhiều trường hợp:
-1. **Xuất bản Web**: Hiển thị tài liệu trên trang web mà không cần tải xuống.
-2. **Thương mại điện tử**: Trưng bày hướng dẫn sử dụng sản phẩm trực tiếp trên nền tảng.
-3. **Hệ thống quản lý nội dung**: Tích hợp nội dung tài liệu để có khả năng truy cập tốt hơn.
-4. **Lưu trữ và Chia sẻ**: Chia sẻ tài liệu qua định dạng HTML trong khi vẫn duy trì độ trung thực về mặt hình ảnh.
+### Tại sao nên sử dụng cách tiếp cận này? (Cách chuyển PDF sang HTML với hình ảnh chất lượng cao)
 
-### Cân nhắc về hiệu suất
+Việc nhúng hình PNG mang lại một số ưu điểm so với SVG:
+- **Kết xuất nhất quán** trên mọi trình duyệt, bao gồm cả các phiên bản cũ.  
+- **Kiểm soát tốt hơn** đối với nén hình ảnh và độ sâu màu.  
+- **Triển khai đơn giản** – không cần các tệp hình ảnh bên ngoài.
 
-Khi chuyển đổi các tệp PDF lớn, hãy cân nhắc những mẹo sau để tối ưu hóa hiệu suất:
-- Sử dụng các kỹ thuật quản lý bộ nhớ hiệu quả trong Java.
-- Điều chỉnh cài đặt JVM cho các tệp rất lớn.
-- Tận dụng các tính năng của Aspose.PDF để xử lý các tài liệu phức tạp.
+### Các trường hợp sử dụng phổ biến
 
-Bằng cách tuân theo các biện pháp tốt nhất về sử dụng tài nguyên và quản lý bộ nhớ Java, bạn có thể đảm bảo quá trình chuyển đổi diễn ra suôn sẻ.
+1. **Web Publishing** – Hiển thị PDF dưới dạng các trang thân thiện với web mà không buộc tải xuống.  
+2. **E‑commerce Manuals** – Nhúng hướng dẫn sản phẩm trực tiếp trên các trang sản phẩm.  
+3. **Content Management Systems** – Lưu tài liệu dưới dạng HTML để nội dung có thể tìm kiếm.  
+4. **Batch Conversion** – Tự động chuyển đổi các thư viện tài liệu lớn.
 
-### Phần kết luận
+### Các lưu ý về hiệu suất (PDF sang HTML Java)
 
-Bạn đã học cách chuyển đổi PDF sang HTML bằng Aspose.PDF cho Java trong khi nhúng hình ảnh dưới dạng PNG. Phương pháp này đảm bảo khả năng tương thích tốt hơn và tính nhất quán trực quan trên nhiều nền tảng. Khám phá các tính năng bổ sung của Aspose.PDF hoặc tích hợp giải pháp này vào các quy trình làm việc lớn hơn.
+Khi xử lý các PDF lớn, hãy lưu ý những mẹo sau:
+- Sử dụng API streaming hoặc `Document.optimizeResources()` để giảm lượng bộ nhớ tiêu thụ.  
+- Điều chỉnh kích thước heap JVM (`-Xmx`) dựa trên kích thước tệp.  
+- Nếu bạn cần **batch convert PDF HTML**, xử lý các tệp tuần tự hoặc sử dụng pool luồng, tái sử dụng cùng một thể hiện `HtmlSaveOptions`.
 
-Hãy thử triển khai chuyển đổi này trong dự án tiếp theo của bạn và trải nghiệm quá trình chuyển đổi tài liệu liền mạch!
+### Khắc phục sự cố & Những lỗi thường gặp
 
-### Phần Câu hỏi thường gặp
+- **Images appear missing** – Xác minh rằng `setRasterImagesSavingMode` được đặt thành `AsEmbeddedPartsOfPngPageBackground`.  
+- **Layout is distorted** – Đảm bảo `setFixedLayout(true)` được bật.  
+- **Out‑of‑memory errors** – Bật `pdfDocument.optimizeResources()` trước khi lưu các tệp lớn.  
 
-**H: Tôi có thể chuyển đổi nhiều tệp PDF sang HTML cùng lúc không?**
-A: Có, hãy lặp lại danh sách các tệp PDF và áp dụng cùng một quy trình chuyển đổi cho từng tệp.
+### Kết luận
 
-**H: Nếu mã HTML đã chuyển đổi trông không đúng thì sao?**
-A: Đảm bảo `setFixedLayout(true)` được thiết lập trong tùy chọn lưu của bạn. Điều này duy trì bố cục gốc của PDF.
+Bây giờ bạn đã biết **cách nhúng hình PNG** khi chuyển đổi PDF sang HTML với Aspose.PDF cho Java. Phương pháp này mang lại độ trung thực hình ảnh đáng tin cậy và hỗ trợ rộng rãi trên các trình duyệt, làm cho nó trở nên lý tưởng cho việc xuất bản web, cổng tài liệu và quy trình chuyển đổi hàng loạt.
 
-**H: Làm sao để xử lý các tài liệu lớn một cách hiệu quả?**
-A: Sử dụng cài đặt quản lý bộ nhớ của Aspose.PDF và cân nhắc việc chia nhỏ các tệp rất lớn nếu cần.
+Hãy thử nó trong dự án tiếp theo của bạn và tận hưởng quá trình chuyển đổi PDF‑to‑HTML liền mạch!
 
-**H: Tôi có thể chỉnh sửa thêm mã HTML đầu ra không?**
-A: Có, hãy xử lý HTML kết quả bằng các công nghệ hoặc thư viện web chuẩn sau khi chuyển đổi.
+## Câu hỏi thường gặp
 
-**H: Có cách nào dùng thử Aspose.PDF mà không cần viết mã không?**
-A: Sử dụng các công cụ trực tuyến của Aspose để chuyển đổi cơ bản và khám phá tài liệu để biết thêm các mục đích sử dụng nâng cao.
+**Q: Tôi có thể chuyển đổi nhiều PDF sang HTML cùng lúc không?**  
+A: Có. Lặp qua một tập hợp các đường dẫn tệp PDF và áp dụng cùng một logic chuyển đổi cho mỗi tài liệu.
+
+**Q: Nếu HTML đã chuyển đổi không hiển thị đúng?**  
+A: Kiểm tra lại rằng `setFixedLayout(true)` đã được bật; nó giữ nguyên bố cục PDF gốc.
+
+**Q: Làm thế nào để xử lý các tài liệu rất lớn một cách hiệu quả?**  
+A: Sử dụng `Document.optimizeResources()` và cân nhắc chia PDF thành các phần nhỏ hơn trước khi chuyển đổi.
+
+**Q: Tôi có thể chỉnh sửa thêm HTML đã tạo không?**  
+A: Chắc chắn. Sau khi chuyển đổi, bạn có thể chỉnh sửa HTML bằng các công cụ hoặc thư viện web tiêu chuẩn.
+
+**Q: Có cách nào thử Aspose.PDF mà không cần viết mã không?**  
+A: Có – Aspose cung cấp các công cụ chuyển đổi trực tuyến để thử nhanh mà không cần viết mã.
 
 ### Tài nguyên
-- **Tài liệu**: [Tài liệu tham khảo Java PDF Aspose](https://reference.aspose.com/pdf/java/)
-- **Tải về**: [Bản phát hành PDF của Aspose](https://releases.aspose.com/pdf/java/)
-- **Mua**: [Mua giấy phép Aspose](https://purchase.aspose.com/buy)
-- **Dùng thử miễn phí**: [Tải xuống miễn phí Aspose PDF](https://releases.aspose.com/pdf/java/)
-- **Giấy phép tạm thời**: [Nhận giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
-- **Ủng hộ**: [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10)
+- **Tài liệu**: [Aspose PDF Java Reference](https://reference.aspose.com/pdf/java/)  
+- **Tải xuống**: [Aspose PDF Releases](https://releases.aspose.com/pdf/java/)  
+- **Mua**: [Buy Aspose License](https://purchase.aspose.com/buy)  
+- **Dùng thử miễn phí**: [Aspose PDF Free Download](https://releases.aspose.com/pdf/java/)  
+- **Giấy phép tạm thời**: [Get Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Hỗ trợ**: [Aspose Support Forum](https://forum.aspose.com/c/pdf/10)
+
+---
+
+**Cập nhật lần cuối:** 2026-04-05  
+**Kiểm tra với:** Aspose.PDF for Java 25.3 (latest at time of writing)  
+**Tác giả:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

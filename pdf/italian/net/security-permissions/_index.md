@@ -62,11 +62,17 @@ Scopri come implementare firme digitali sicure e verifiche per i PDF in .NET con
 ### [Padroneggiare la redazione dei PDF con Aspose.PDF .NET: una guida completa per la gestione sicura dei documenti](./mastering-pdf-redaction-aspose-pdf-net-guide/)
 Scopri come redigere in modo sicuro i PDF utilizzando Aspose.PDF .NET. Questa guida illustra gli approcci basati su annotazioni e facciate, garantendo la conformità dei tuoi documenti.
 
+### [Applicare la redazione ai PDF con Aspose Plugin Manager – Guida completa](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
+Scopri come applicare la redazione ai PDF utilizzando Aspose Plugin Manager in questa guida completa.
+
 ### [Sblocca e decrittografa i file PDF con Aspose.PDF per .NET: una guida completa](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 Scopri come sbloccare e decrittografare file PDF protetti utilizzando Aspose.PDF per .NET in C#. Questa guida illustra la configurazione, i passaggi di decrittografia e le best practice.
 
 ### [Verifica le password PDF con Aspose.PDF .NET: una guida passo passo per la sicurezza e le autorizzazioni](./verify-pdf-passwords-aspose-dot-net-guide/)
 Scopri come verificare le password dei PDF utilizzando Aspose.PDF per .NET in C#. Questa guida completa semplifica la sicurezza dei documenti e il controllo degli accessi.
+
+### [Come redigere PDF e rimuovere dati sensibili in C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+Scopri come redigere PDF e rimuovere informazioni sensibili usando Aspose.PDF per .NET con esempi di codice C#.
 
 ## Risorse aggiuntive
 

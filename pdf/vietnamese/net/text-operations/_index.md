@@ -164,6 +164,9 @@ Hướng dẫn mã cho Aspose.PDF Net
 ### [Định dạng văn bản trong tệp PDF được gắn thẻ bằng Aspose.PDF cho .NET | Hướng dẫn tạo PDF dễ tiếp cận và thẩm mỹ](./style-text-tagged-pdfs-aspose-pdf-net/)
 Tìm hiểu cách định dạng văn bản trong các tài liệu PDF được gắn thẻ với Aspose.PDF cho .NET. Hướng dẫn này bao gồm cài đặt, kỹ thuật và ứng dụng thực tế để tăng cường khả năng truy cập.
 
+### [Cách xóa nhạy cảm PDF với Aspose – Hướng dẫn từng bước](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
+Tìm hiểu cách xóa thông tin nhạy cảm khỏi tài liệu PDF một cách an toàn bằng Aspose.PDF cho .NET qua hướng dẫn chi tiết từng bước.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)

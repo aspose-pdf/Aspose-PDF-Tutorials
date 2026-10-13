@@ -164,6 +164,9 @@ Un tutorial sul codice per Aspose.PDF Net
 ### [Formattare il testo nei PDF con tag utilizzando Aspose.PDF per .NET | Guida per la creazione di PDF accessibili ed estetici](./style-text-tagged-pdfs-aspose-pdf-net/)
 Scopri come formattare il testo nei documenti PDF con tag con Aspose.PDF per .NET. Questa guida illustra l'installazione, le tecniche e le applicazioni pratiche per migliorare l'accessibilità.
 
+### [Come redigere PDF con Aspose – Guida passo‑passo](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
+Scopri come rimuovere o nascondere informazioni sensibili da PDF utilizzando Aspose.PDF per .NET con questa guida passo passo.
+
 ## Risorse aggiuntive
 
 - [Aspose.PDF per la documentazione di rete](https://docs.aspose.com/pdf/net/)

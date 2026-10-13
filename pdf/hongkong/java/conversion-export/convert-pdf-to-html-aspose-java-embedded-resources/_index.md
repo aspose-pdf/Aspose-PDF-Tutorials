@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-14"
-"description": "了解如何使用 Aspose.PDF for Java 將 PDF 文件轉換為適合網頁的 HTML 格式，確保嵌入字體和圖像等所有資源。"
-"title": "使用 Aspose.PDF for Java 將 PDF 轉換為包含嵌入式資源的 HTML"
-"url": "/zh-hant/java/conversion-export/convert-pdf-to-html-aspose-java-embedded-resources/"
-"weight": 1
+date: '2026-03-23'
+description: 學習如何使用 Java 與 Aspose.PDF 將 PDF 轉換為 HTML，嵌入資源 HTML、處理 PDF 轉 HTML 圖像，並產生單一檔案的
+  HTML 輸出。
+keywords:
+- convert PDF to HTML Java
+- embed resources in HTML
+- Aspose.PDF for Java tutorial
+title: pdf 轉 html java – 使用 Aspose.PDF for Java 將 PDF 轉換為含嵌入式資源的 HTML
+url: /zh-hant/java/conversion-export/convert-pdf-to-html-aspose-java-embedded-resources/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,8 +16,189 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# 使用 Aspose.PDF for Java 將 PDF 轉換為 HTML 並嵌入所有資源\n\n## 簡介\n\n將 PDF 文件轉換為 Web 友好的 HTML 格式，同時嵌入所有必要的資源（如字體和圖像）可能具有挑戰性。但是，使用 Aspose.PDF for Java 簡化了這個過程。本教學將指導您將 PDF 轉換為適合在網路上發布的完全嵌入的 HTML 文件。 \n\n**您將學到什麼：**\n- 如何使用 Aspose.PDF for Java 將 PDF 檔案轉換為 HTML 格式。 \n- 配置選項以將所有資源嵌入到單一 HTML 檔案中。 \n- 使用 Java 實作自訂 HTML 儲存策略。 \n- 確保順利轉換包含嵌入資源的複雜文件。 \n\n在深入轉換過程之前，我們先來回顧先決條件。 \n\n## 在先決條件\n\n開始之前，請確保您已具備：\n\n### 必需的程式庫和依賴項\n- **Java 版 Aspose.PDF**：PDF 操作所需的主要庫。使用版本 25.3 或更高版本。 \n  
-### 環境設定需求\n- 您的電腦上已安裝 Java 開發工具包 (JDK)。 \n- IDE，例如 IntelliJ IDEA、Eclipse 或 NetBeans。 \n\n### 知識前提\n- 對 Java 程式設計有基本的了解。 \n- 熟悉 Maven 或 Gradle 的依賴管理。 \n\n## 為 Java 設定 Aspose.PDF\n\n首先，將 Aspose.PDF 加入到您的開發環境中。您可以使用 Maven 或 Gradle 將其作為依賴項包含在內：\n\n### Maven\n```xml\n<dependency>\n    <groupId>com.aspose</groupId>\n    <artifactId>aspose-pdf</artifactId>\n    <version>25.3</version>\n</dependency>\n```Gradle```gradle\nimplementation 'com.aspose:aspose-pdf:25.3'\n```\n\n#### 許可證取得步驟\n1. **免費試用**：從 Aspose 網站下載免費試用版來評估功能。 \n2. **臨時執照**：如果您在評估期間需要不受限制的完全存取權限，請申請臨時許可證。 \n3. **購買**：考慮購買長期使用許可證。 \n\n一旦包含在您的專案中，請如下初始化 Aspose.PDF：\n```java\nimport com.aspose.pdf.Document;\n\npublic class PDFToHTMLConverter {\n    public static void main(String[] args) {\n        // Ensure the path to your license file is correct if using a licensed version\n        // License license = new License();\n        // license.setLicense(\"path/to/Aspose.Total.Java.lic\");\n        \n        System.out.println(\"Aspose.PDF for Java setup complete!\");\n    }\n}\n```\n\n## 實作指南\n\n現在，讓我們將您的 PDF 轉換為 HTML，並嵌入所有資源。 \n\n### 載入 PDF 文件\n使用 Aspose.PDF 載入您的 PDF 文件:\n```java\nimport com.aspose.pdf.Document;\n\nString dataDir = \"YOUR_DOCUMENT_DIRECTORY\";\nDocument doc = new Document(dataDir + \"/input.pdf\");\n```\n\n### 設定 HTML 儲存選項\n設定選項以使用下列方式將所有資源嵌入 HTML 輸出中 `HtmlSaveOptions`:\n```java\nimport com.aspose.pdf.HtmlSaveOptions;\nimport com.aspose.pdf.LettersPositioningMethods;\n\nHtmlSaveOptions newOptions = new HtmlSaveOptions();\nnewOptions.setRasterImagesSavingMode(HtmlSaveOptions.RasterImagesSavingModes.AsEmbeddedPartsOfPngPageBackground);\nnewOptions.setFontSavingMode(HtmlSaveOptions.FontSavingModes.SaveInAllFormats);\nnewOptions.setPartsEmbeddingMode(HtmlSaveOptions.PartsEmbeddingModes.EmbedAllIntoHtml);\nnewOptions.setLettersPositioningMethod(LettersPositioningMethods.UseEmUnitsAndCompensationOfRoundingErrorsInCss);\nnewOptions.setSplitIntoPages(false); // Combine all pages into a single HTML file\n```\n\n### 自訂儲存策略\n實作自訂策略來控制 HTML 內容的儲存方式：\n```java\nimport java.io.FileOutputStream;\n\nnewOptions.setCustomHtmlSavingStrategy(new HtmlSaveOptions.HtmlPageMarkupSavingStrategy() {\n    public void invoke(HtmlSaveOptions.HtmlPageMarkupSavingInfo htmlSavingInfo) {\n        try {\n            byte[] resultHtmlAsBytes = new byte[(int) htmlSavingInfo.getContentStream().available()];\n            htmlSavingInfo.getContentStream().read(resultHtmlAsBytes, 0, resultHtmlAsBytes.length);\n\n            FileOutputStream fos = new FileOutputStream(\"YOUR_OUTPUT_DIRECTORY/allResourceEmbeddedInSingleResultantStream.html\");\n            fos.write(resultHtmlAsBytes);\n            fos.close();\n        } catch (Exception e) {\n            e.printStackTrace(); // Handle exceptions such as IOException and FileNotFoundException\n        }\n    }\n});\n```\n\n### 儲存文件\n最後，使用設定的選項儲存文件:\n```java\nString outHtmlFile = \"YOUR_OUTPUT_DIRECTORY/ThisFileWillNotAppearOnDisk.html\";\ndoc.save(outHtmlFile, newOptions);\n```\n\n## 實際應用\n\n- **網路發布**：將所有資源嵌入到單一 HTML 檔案中，以方便進行網站託管。 \n- **文件歸檔**：轉換並歸檔文檔，所有資產完好無損。 \n- **離線瀏覽**：透過嵌入資源確保離線存取 PDF 內容。 \n- **與CMS集成**：無縫整合到需要嵌入資產的內容管理系統。 \n\n## 效能注意事項\n\n- **優化資源**： 使用 `setRasterImagesSavingMode` 有效地嵌入圖像。 \n- **記憶體管理**：監控 Java 記憶體使用情況，尤其是在處理大型 PDF 時。 \n- **非同步處理**：實現非同步處理以同時轉換多個文件。 \n\n## 結論\n\n您現在已經掌握如何使用 Aspose.PDF for Java 將 PDF 檔案轉換為嵌入所有資源的 HTML 格式。此方法非常適合網路發布和文件存檔，可確保您的內容無論在何處查看都能完美呈現。 \n\n**後續步驟：**\n- 嘗試不同的 `HtmlSaveOptions` 配置。 \n- 探索 Aspose.PDF 的其他功能以增強您的 PDF 處理能力。 \n\n準備好嘗試了嗎？立即開始轉換您的 PDF！ \n\n## 常見問題部分\n\n1. **使用 Aspose.PDF Java 的系統需求是什麼？**\n - 需要 JDK 和相容的 IDE，如 IntelliJ IDEA 或 Eclipse。 \n\n2. **如何取得 Aspose.PDF Java 的臨時授權？**\n - 訪問 [Aspose 的許可頁面](https://purchase.aspose.com/temporary-license/) 請求一個。 \n\n3. **我可以一次轉換多個 PDF 嗎？**\n - 是的，透過迭代目錄中的檔案來實現批次處理。 \n\n4. **如果特定頁面的轉換失敗怎麼辦？**\n - 檢查輸入的 PDF 是否有損壞的內容或不支援的功能，然後重試。 \n\n5. **如何減少生成的 HTML 檔案的大小？**\n - 嵌入前盡可能優化圖片並壓縮 CSS/JS。 \n\n## 資源\n- [文件](https://reference.aspose.com/pdf/java/)\n- [下載 Aspose.PDF](https://releases.aspose.com/pdf/java/)\n- [購買許可證](https://purchase.aspose.com/buy)\n- [免費試用](https://releases.aspose.com/pdf/java/)\n- [臨時執照](https://purchase.aspose.com/temporary-license/)\n- [支援論壇](https://forum.aspose.com/c/pdf/10)\n
+# 使用 Aspose.PDF for Java 將 PDF 轉換為嵌入所有資源的 HTML
+
+## 介紹
+
+在使用 **pdf to html java** 進行 PDF 轉 HTML 時，若需要保留每個字型、圖片與樣式，往往相當棘手。幸好 Aspose.PDF for Java 能夠幫你處理繁重的工作，讓你產生一個所有資源皆嵌入的單一 HTML 檔案。在本教學中，你將學會如何執行完整的 **aspose pdf html conversion**、將資源嵌入 HTML，並將 **pdf to html images** 直接保留在輸出結果中。
+
+**你將學到的內容**
+
+- 如何使用 Aspose.PDF for Java 將 PDF 檔案轉換為 HTML 格式。  
+- 設定選項以將所有資源嵌入單一 HTML 檔案。  
+- 在 Java 中實作自訂的 HTML 儲存策略。  
+- 確保在含有嵌入資產的複雜文件轉換時的順暢度。
+
+### 快速問答
+- **Aspose.PDF 能嵌入字型與圖片嗎？** 能 – 它可以直接將所有字型與點陣圖嵌入 HTML。  
+- **我會得到單一 HTML 檔案嗎？** 設定 `PartsEmbeddingModes.EmbedAllIntoHtml` 後會產生單檔輸出。  
+- **需要的主要函式庫是什麼？** `aspose-pdf` Maven/Gradle 套件。  
+- **此功能需要授權嗎？** 試用版可用，但正式授權會移除評估限制。  
+- **可以在 Java 11+ 上執行嗎？** 當然可以 – Aspose.PDF 支援現代 JDK 版本。
+
+## 什麼是 pdf to html java？
+
+`pdf to html java` 指的是使用 Java 函式庫將 PDF 文件程式化產生 HTML 表示的過程。此方式非常適合網頁發佈、文件保存或將 PDF 整合至內容管理工作流程中。
+
+## 為什麼要 embed resources html？
+
+將資源（字型、圖片、CSS）直接嵌入 HTML 可消除外部依賴，確保頁面在離線或受限環境（如電子郵件客戶端或靜態網站產生器）中亦能正確呈現。
+
+## 前置條件
+
+開始之前，請確保你已具備以下條件：
+
+### 必要的函式庫與相依性
+- **Aspose.PDF for Java** – 版本 25.3 或更新。  
+- **Java Development Kit (JDK)** – 8 版或更新。  
+- **IDE** – IntelliJ IDEA、Eclipse 或 NetBeans。
+
+### 知識前提
+- 基本的 Java 程式設計。  
+- 熟悉 Maven 或 Gradle 以管理相依性。
+
+## 設定 Aspose.PDF for Java
+
+首先，將 Aspose.PDF 加入你的專案。
+
+### Maven
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-pdf</artifactId>
+    <version>25.3</version>
+</dependency>
+```
+
+### Gradle
+```gradle
+implementation 'com.aspose:aspose-pdf:25.3'
+```
+
+#### 取得授權的步驟
+1. **免費試用**：從 Aspose 官方網站下載免費試用版以評估功能。  
+2. **臨時授權**：若在評估期間需要完整功能且無限制，可申請臨時授權。  
+3. **購買授權**：考慮購買正式授權以供長期使用。  
+
+將套件加入專案後，初始化 Aspose.PDF：
+
+```java
+import com.aspose.pdf.Document;
+
+public class PDFToHTMLConverter {
+    public static void main(String[] args) {
+        // Ensure the path to your license file is correct if using a licensed version
+        // License license = new License();
+        // license.setLicense("path/to/Aspose.Total.Java.lic");
+        
+        System.out.println("Aspose.PDF for Java setup complete!");
+    }
+}
+```
+
+## 實作指南
+
+接下來一步步說明實際的轉換流程。
+
+### 載入 PDF 文件
+```java
+import com.aspose.pdf.Document;
+
+String dataDir = "YOUR_DOCUMENT_DIRECTORY";
+Document doc = new Document(dataDir + "/input.pdf");
+```
+
+### 設定 HTML 儲存選項
+```java
+import com.aspose.pdf.HtmlSaveOptions;
+import com.aspose.pdf.LettersPositioningMethods;
+
+HtmlSaveOptions newOptions = new HtmlSaveOptions();
+newOptions.setRasterImagesSavingMode(HtmlSaveOptions.RasterImagesSavingModes.AsEmbeddedPartsOfPngPageBackground);
+newOptions.setFontSavingMode(HtmlSaveOptions.FontSavingModes.SaveInAllFormats);
+newOptions.setPartsEmbeddingMode(HtmlSaveOptions.PartsEmbeddingModes.EmbedAllIntoHtml);
+newOptions.setLettersPositioningMethod(LettersPositioningMethods.UseEmUnitsAndCompensationOfRoundingErrorsInCss);
+newOptions.setSplitIntoPages(false); // Combine all pages into a single HTML file
+```
+
+### 自訂儲存策略
+```java
+import java.io.FileOutputStream;
+
+newOptions.setCustomHtmlSavingStrategy(new HtmlSaveOptions.HtmlPageMarkupSavingStrategy() {
+    public void invoke(HtmlSaveOptions.HtmlPageMarkupSavingInfo htmlSavingInfo) {
+        try {
+            byte[] resultHtmlAsBytes = new byte[(int) htmlSavingInfo.getContentStream().available()];
+            htmlSavingInfo.getContentStream().read(resultHtmlAsBytes, 0, resultHtmlAsBytes.length);
+
+            FileOutputStream fos = new FileOutputStream("YOUR_OUTPUT_DIRECTORY/allResourceEmbeddedInSingleResultantStream.html");
+            fos.write(resultHtmlAsBytes);
+            fos.close();
+        } catch (Exception e) {
+            e.printStackTrace(); // Handle exceptions such as IOException and FileNotFoundException
+        }
+    }
+});
+```
+
+### 儲存文件
+```java
+String outHtmlFile = "YOUR_OUTPUT_DIRECTORY/ThisFileWillNotAppearOnDisk.html";
+doc.save(outHtmlFile, newOptions);
+```
+
+## 實務應用
+
+- **網站發佈** – 將所有資源嵌入單一 HTML 檔，輕鬆上傳。  
+- **文件保存** – 保留 PDF 的全部資產，以供長期存檔。  
+- **離線瀏覽** – 使用者可在無網路環境下檢視轉換後的 HTML。  
+- **CMS 整合** – 直接將單檔輸出匯入需要嵌入資產的內容管理系統。
+
+## 效能考量
+
+- **資源最佳化** – `setRasterImagesSavingMode` 能有效嵌入圖片而不致檔案過大。  
+- **記憶體管理** – 大型 PDF 需留意 Java 堆積使用量，以免發生 `OutOfMemoryError`。  
+- **非同步處理** – 批次轉換時，可為每個轉換建立獨立執行緒或使用執行服務。
+
+## 常見問題與解決方案
+
+| 問題 | 解決方案 |
+|-------|----------|
+| **大型 PDF 造成高記憶體使用** | 啟用增量處理或在轉換前將 PDF 分割。 |
+| **輸出缺少字型** | 確保字型檔案對 JVM 可存取，或使用 `FontSavingModes.SaveInAllFormats`。 |
+| **圖片顯示異常** | 確認 `RasterImagesSavingMode` 已設定為嵌入 PNG 背景。 |
+| **複雜頁面轉換卡住** | 增加 JVM 堆積 (`-Xmx2g`) 並考慮簡化來源 PDF。 |
+
+## 常見問答
+
+**Q: 使用 Aspose.PDF Java 的系統需求是什麼？**  
+A: 需要 JDK（8 版或更新）以及相容的 IDE，如 IntelliJ IDEA 或 Eclipse。
+
+**Q: 如何取得 Aspose.PDF Java 的臨時授權？**  
+A: 前往 [Aspose 的授權頁面](https://purchase.aspose.com/temporary-license/) 申請。
+
+**Q: 能一次轉換多個 PDF 嗎？**  
+A: 可以，透過遍歷目錄中的檔案實作批次處理。
+
+**Q: 若特定頁面轉換失敗該怎麼辦？**  
+A: 檢查輸入 PDF 是否有損毀或不支援的功能，然後再試一次。
+
+**Q: 如何減少產生的 HTML 檔案大小？**  
+A: 在嵌入前最佳化圖片、壓縮 CSS/JS，或改用更積極的點陣圖模式。
+
+## 資源
+- [文件說明](https://reference.aspose.com/pdf/java/)
+- [下載 Aspose.PDF](https://releases.aspose.com/pdf/java/)
+- [購買授權](https://purchase.aspose.com/buy)
+- [免費試用](https://releases.aspose.com/pdf/java/)
+- [臨時授權](https://purchase.aspose.com/temporary-license/)
+- [支援論壇](https://forum.aspose.com/c/pdf/10)
+
+---
+
+**最後更新：** 2026-03-23  
+**測試環境：** Aspose.PDF for Java 25.3  
+**作者：** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

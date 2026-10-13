@@ -26,6 +26,9 @@
 ### [在 Aspose.Pdf for .NET 中添加渐变色文本：分步指南](./add-text-gradient-shading-aspose-pdf-net/)
 了解如何使用 Aspose.PDF for .NET 为 PDF 添加渐变阴影文本。遵循本指南，提升文档的美观度和可读性。
 
+### [如何使用 Aspose.PDF for .NET 在 C# 中向 PDF 添加形状：分步指南](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+本指南展示如何使用 Aspose.PDF for .NET 在 C# 中创建并添加各种形状到 PDF 文档，提升视觉效果。
+
 ### [使用 Aspose.PDF for .NET 将图像转换为 PDF：分步指南](./convert-images-pdf-aspose-net-guide/)
 学习如何使用 C# 中的 Aspose.PDF for .NET 将图像转换为单个 PDF。本指南提供分步说明、技巧和最佳实践。
 
@@ -35,6 +38,15 @@
 ### [使用 Aspose.PDF for .NET 在 PDF 中创建和填充矩形：分步指南](./create-fill-rectangle-aspose-pdf-net/)
 学习如何使用 Aspose.PDF for .NET 在 PDF 文档中创建和填充矩形。本分步指南涵盖了从设置到使用 C# 实现的所有内容。
 
+### [使用 C# 向 PDF 添加矩形 – 完整 Aspose PDF 指南](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+学习使用 Aspose.PDF for .NET 在 PDF 中创建矩形并自定义属性和位置的完整指南。
+
+### [如何使用 C# 在 PDF 中绘制矩形：分步指南](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
+学习使用 C# 和 Aspose.PDF for .NET 在 PDF 中绘制矩形的步骤，包括位置、尺寸和样式的设置。
+### [如何验证 PDF 并添加矩形 – 完整指南](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
+学习使用 Aspose.PDF for .NET 验证 PDF 文件的完整性并在页面上绘制矩形，实现文档检查和标注。
+### [使用 Aspose.PDF for .NET 向 PDF 添加矩形：完整编程指南](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+
 ### [使用 .NET 中的 Aspose.PDF 创建自定义 PDF 图章](./create-custom-pdf-stamps-aspose-pdf-net/)
 Aspose.PDF Net 代码教程
 
@@ -43,6 +55,9 @@ Aspose.PDF Net 代码教程
 
 ### [使用 Aspose.PDF .NET 在 PDF 中绘制透明形状](./draw-transparent-shapes-aspose-pdf-net/)
 Aspose.PDF Net 代码教程
+
+### [使用 Aspose.PDF for .NET 在 C# 中为 PDF 添加透明度 – 分步指南](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中为 PDF 文档中的元素设置透明度，实现更丰富的视觉效果。
 
 ### [使用 Aspose.PDF for .NET 实现高效的 PDF 图像识别](./master-image-identification-aspose-pdf-net/)
 学习如何使用 Aspose.PDF for .NET 识别 PDF 中的灰度和 RGB 图像。本教程涵盖安装、图像提取和性能技巧。
@@ -64,6 +79,9 @@ Aspose.PDF Net 代码教程
 
 ### [使用 Aspose.PDF .NET 快速缩小 PDF 中的图像：高效优化和压缩图像](./optimize-pdf-images-aspose-net-fast-compression/)
 了解如何使用 Aspose.PDF for .NET 压缩 PDF 文件中的图像，在保持质量的同时减小文件大小。非常适合快速加载和高效存储。
+
+### [Word 文档中的无损图像压缩 – 完整指南](./lossless-image-compression-in-word-docs-complete-guide/)
+了解如何使用 Aspose.Words for .NET 在 Word 文档中实现无损图像压缩，保持图像质量并显著减小文件大小。
 
 ### [如何在 C# 中使用 Aspose.PDF .NET 向 PDF 添加图像页脚](./aspose-pdf-net-add-image-footers-pdfs/)
 本指南将逐步指导您如何使用 Aspose.PDF for .NET 将图像页脚添加到 PDF 文档。非常适合品牌推广和个性化定制。
@@ -150,7 +168,7 @@ Aspose.PDF Net 代码教程
 学习如何使用 Aspose.PDF for .NET 高效地替换 PDF 文档中的图像。本指南内容全面，涵盖设置、实施和实际应用。
 
 ### [如何使用 Aspose.PDF for .NET 设置 PDF 中的图像大小](./set-image-size-pdf-aspose-dotnet/)
-了解如何使用 Aspose.PDF for .NET 调整 PDF 中的图像大小，非常适合创建专业文档和演示文稿。
+了解如何使用 Aspose.PDF for .NET 调整 PDF 中的图像大小，非常适合创建专业文档和演示稿。
 
 ### [使用 Aspose.PDF for .NET 掌握 PDF 中的图像放置](./optimize-image-placement-aspose-pdf-net/)
 学习使用 Aspose.PDF for .NET 优化 PDF 文档中的图像布局。通过实用指南提升文档质量和效率。

@@ -1,0 +1,7 @@
+Title: Add Bates Numbering to PDF with Aspose.PDF – Complete Guide
+Slug: add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide
+Category: programming-with-pdf-pages
+ProcessedDate: 2026-07-01T02:50:32.320679
+SourceRepo: AI Search API
+Keywords: add bates numbering, how to add bates, number pdf pages, how to number pdf, bates numbering document
+PRNumber: 98

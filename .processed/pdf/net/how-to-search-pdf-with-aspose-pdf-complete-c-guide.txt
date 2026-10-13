@@ -1,0 +1,7 @@
+Title: How to Search PDF with Aspose.Pdf – Complete C# Guide
+Slug: how-to-search-pdf-with-aspose-pdf-complete-c-guide
+Category: text-operations
+ProcessedDate: 2026-06-27T23:32:43.051671
+SourceRepo: AI Search API
+Keywords: how to search pdf, how to extract invoice, how to use regex, how to read fragments, how to filter pdf
+PRNumber: 96

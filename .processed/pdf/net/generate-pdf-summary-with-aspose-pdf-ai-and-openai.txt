@@ -1,0 +1,7 @@
+Title: Generate PDF summary with Aspose.Pdf.AI and OpenAI
+Slug: generate-pdf-summary-with-aspose-pdf-ai-and-openai
+Category: programming-with-text
+ProcessedDate: 2026-09-12T10:30:37.633958
+SourceRepo: AI Search API
+Keywords: generate pdf summary, how to get summary, convert pdf to summary, ai pdf summarization, initialize openai client
+PRNumber: 128

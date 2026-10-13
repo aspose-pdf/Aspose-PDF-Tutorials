@@ -23,6 +23,9 @@ Scopri come accedere e modificare gli elementi figlio nei PDF taggati con Aspose
 ### [Aggiungere livelli di linee colorate ai PDF utilizzando Aspose.PDF per .NET: una guida completa](./add-colored-lines-pdfs-using-aspose-pdf-net/)
 Scopri come migliorare i tuoi documenti PDF aggiungendo livelli di linee colorate utilizzando Aspose.PDF per .NET. Questa guida fornisce istruzioni dettagliate e applicazioni pratiche.
 
+### [Salva ogni livello PDF con Aspose.Pdf – Guida passo‑passo](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
+Impara a salvare individualmente i livelli di un PDF utilizzando Aspose.Pdf con una procedura dettagliata passo‑passo.
+
 ### [Aspose.PDF .NET: Migliorare l'accessibilità dei PDF tramite l'aggiunta di tag](./aspose-pdf-net-accessible-tagging-guide/)
 Scopri come utilizzare Aspose.PDF .NET per taggare in modo accessibile i PDF. Imposta facilmente titoli, lingue e strutture logiche.
 
@@ -64,6 +67,11 @@ Impara a creare documenti PDF accessibili, formattati e taggati utilizzando Aspo
 
 ### [Come confrontare i PDF in C# – Guida completa alla generazione di PDF Diff](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 Scopri come confrontare PDF in C# e generare un file di differenza PDF usando Aspose.PDF per .NET.
+### [Modifica della trasparenza PDF in C# – Guida passo‑passo](./edit-pdf-transparency-in-c-step-by-step-guide/)
+Scopri come modificare la trasparenza dei PDF usando C# e Aspose.PDF, con esempi pratici passo‑passo.
+
+### [Come eseguire OCR su PDF con Aspose.Pdf – Guida completa C#](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
+Scopri come utilizzare la funzionalità OCR di Aspose.Pdf in C# per estrarre testo da PDF scansionati.
 
 ## Risorse aggiuntive
 

@@ -8,7 +8,7 @@ url: /vi/java/bookmarks-navigation/
 weight: 14
 ---
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

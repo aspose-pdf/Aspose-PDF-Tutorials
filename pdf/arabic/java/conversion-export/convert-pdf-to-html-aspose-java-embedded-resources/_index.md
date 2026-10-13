@@ -1,9 +1,15 @@
 ---
-"date": "2025-04-14"
-"description": "تعرف على كيفية تحويل مستندات PDF إلى تنسيق HTML مناسب للويب باستخدام Aspose.PDF لـ Java، مع التأكد من تضمين جميع الموارد مثل الخطوط والصور."
-"title": "تحويل PDF إلى HTML باستخدام الموارد المضمنة باستخدام Aspose.PDF لـ Java"
-"url": "/ar/java/conversion-export/convert-pdf-to-html-aspose-java-embedded-resources/"
-"weight": 1
+date: '2026-03-23'
+description: تعلم كيفية تحويل PDF إلى HTML باستخدام Java مع Aspose.PDF، وتضمين موارد
+  HTML، ومعالجة الصور من PDF إلى HTML، وإنشاء مخرجات HTML في ملف واحد.
+keywords:
+- convert PDF to HTML Java
+- embed resources in HTML
+- Aspose.PDF for Java tutorial
+title: pdf إلى html java – تحويل PDF إلى HTML مع موارد مدمجة باستخدام Aspose.PDF للـ
+  Java
+url: /ar/java/conversion-export/convert-pdf-to-html-aspose-java-embedded-resources/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,8 +17,187 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# تحويل ملفات PDF إلى HTML مع تضمين جميع الموارد باستخدام Aspose.PDF لجافا\n\n## مقدمة\n\nقد يكون تحويل ملفات PDF إلى صيغة HTML متوافقة مع الويب مع تضمين جميع الموارد اللازمة، مثل الخطوط والصور، أمرًا صعبًا. ومع ذلك، فإن استخدام Aspose.PDF لجافا يُبسط هذه العملية. سيرشدك هذا البرنامج التعليمي خلال عملية تحويل ملفات PDF إلى مستندات HTML مُدمجة بالكامل ومناسبة للنشر على الويب.\n\n**ما سوف تتعلمه:**- كيفية استخدام Aspose.PDF لجافا لتحويل ملفات PDF إلى تنسيق HTML. - تكوين خيارات لتضمين جميع الموارد داخل ملف HTML واحد. - تنفيذ استراتيجيات حفظ HTML مخصصة في جافا. - ضمان التحويل السلس للمستندات المعقدة ذات الأصول المضمنة. - لنبدأ بمراجعة المتطلبات الأساسية قبل الخوض في عملية التحويل. - المتطلبات الأساسية - قبل البدء، تأكد من أن لديك: - المكتبات والتبعيات المطلوبة **Aspose.PDF لـ Java**:المكتبة الأساسية اللازمة لمعالجة ملفات PDF. استخدم الإصدار 25.3 أو أحدث.\n  
-### متطلبات إعداد البيئة: - تثبيت حزمة تطوير جافا (JDK) على جهازك. - بيئة تطوير متكاملة (IDE) مثل IntelliJ IDEA أو Eclipse أو NetBeans. - متطلبات المعرفة الأساسية: - فهم أساسي لبرمجة جافا. - إلمام بـ Maven أو Gradle لإدارة التبعيات. - إعداد Aspose.PDF لجافا: - أولاً، أضف Aspose.PDF إلى بيئة التطوير. يمكنك إضافته كتابعية باستخدام Maven أو Gradle: - Maven.```xml\n<dependency>\n    <groupId>com.aspose</groupId>\n    <artifactId>aspose-pdf</artifactId>\n    <version>25.3</version>\n</dependency>\n```\n\n### جرادل\n```gradle\nimplementation 'com.aspose:aspose-pdf:25.3'\n```خطوات الحصول على الترخيص1. **نسخة تجريبية مجانية**:قم بتنزيل نسخة تجريبية مجانية من موقع Aspose لتقييم الميزات.\n2. **رخصة مؤقتة**:تقدم بطلب للحصول على ترخيص مؤقت إذا كنت بحاجة إلى الوصول الكامل دون قيود أثناء فترة التقييم الخاصة بك.\n3. **شراء**:فكر في شراء ترخيص للاستخدام طويل الأمد.\n\nبمجرد تضمينه في مشروعك، قم بتهيئة Aspose.PDF على النحو التالي:\n```java\nimport com.aspose.pdf.Document;\n\npublic class PDFToHTMLConverter {\n    public static void main(String[] args) {\n        // Ensure the path to your license file is correct if using a licensed version\n        // License license = new License();\n        // license.setLicense(\"path/to/Aspose.Total.Java.lic\");\n        \n        System.out.println(\"Aspose.PDF for Java setup complete!\");\n    }\n}\n```\n\n## دليل التنفيذ\n\nالآن، دعنا نحول ملف PDF الخاص بك إلى HTML مع تضمين جميع الموارد.\n\n### تحميل مستند PDF\nقم بتحميل مستند PDF الخاص بك باستخدام Aspose.PDF:\n```java\nimport com.aspose.pdf.Document;\n\nString dataDir = \"YOUR_DOCUMENT_DIRECTORY\";\nDocument doc = new Document(dataDir + \"/input.pdf\");\n```\n\n### تكوين خيارات حفظ HTML\nقم بإعداد الخيارات لتضمين جميع الموارد داخل مخرجات HTML باستخدام `HtmlSaveOptions`:\ن```java\nimport com.aspose.pdf.HtmlSaveOptions;\nimport com.aspose.pdf.LettersPositioningMethods;\n\nHtmlSaveOptions newOptions = new HtmlSaveOptions();\nnewOptions.setRasterImagesSavingMode(HtmlSaveOptions.RasterImagesSavingModes.AsEmbeddedPartsOfPngPageBackground);\nnewOptions.setFontSavingMode(HtmlSaveOptions.FontSavingModes.SaveInAllFormats);\nnewOptions.setPartsEmbeddingMode(HtmlSaveOptions.PartsEmbeddingModes.EmbedAllIntoHtml);\nnewOptions.setLettersPositioningMethod(LettersPositioningMethods.UseEmUnitsAndCompensationOfRoundingErrorsInCss);\nnewOptions.setSplitIntoPages(false); // Combine all pages into a single HTML file\n```تخصيص استراتيجية الحفظ: قم بتنفيذ استراتيجية مخصصة للتحكم في كيفية حفظ محتوى HTML:```java\nimport java.io.FileOutputStream;\n\nnewOptions.setCustomHtmlSavingStrategy(new HtmlSaveOptions.HtmlPageMarkupSavingStrategy() {\n    public void invoke(HtmlSaveOptions.HtmlPageMarkupSavingInfo htmlSavingInfo) {\n        try {\n            byte[] resultHtmlAsBytes = new byte[(int) htmlSavingInfo.getContentStream().available()];\n            htmlSavingInfo.getContentStream().read(resultHtmlAsBytes, 0, resultHtmlAsBytes.length);\n\n            FileOutputStream fos = new FileOutputStream(\"YOUR_OUTPUT_DIRECTORY/allResourceEmbeddedInSingleResultantStream.html\");\n            fos.write(resultHtmlAsBytes);\n            fos.close();\n        } catch (Exception e) {\n            e.printStackTrace(); // Handle exceptions such as IOException and FileNotFoundException\n        }\n    }\n});\n```\n\n### حفظ المستند\nوأخيرًا، احفظ مستندك باستخدام الخيارات التي تم تكوينها:\n```java\nString outHtmlFile = \"YOUR_OUTPUT_DIRECTORY/ThisFileWillNotAppearOnDisk.html\";\ndoc.save(outHtmlFile, newOptions);\n```## التطبيقات العملية_n_n- **النشر على الويب**:قم بتضمين جميع الموارد في ملف HTML واحد لاستضافة الويب بسهولة.\n- **أرشفة المستندات**:تحويل المستندات وأرشفتها مع الحفاظ على كافة أصولها سليمة. **التصفح دون اتصال بالإنترنت**:تأكد من الوصول إلى محتوى PDF دون اتصال بالإنترنت من خلال تضمين الموارد.\n- **التكامل مع نظام إدارة المحتوى**:التكامل بسلاسة مع أنظمة إدارة المحتوى التي تتطلب أصولاً مضمنة.\n\n## اعتبارات الأداء\n\n- **تحسين الموارد**: يستخدم `setRasterImagesSavingMode` لتضمين الصور بكفاءة. **إدارة الذاكرة**:راقب استخدام ذاكرة Java، وخاصةً عند التعامل مع ملفات PDF كبيرة الحجم.\n- **المعالجة غير المتزامنة**: نفّذ معالجة غير متزامنة لتحويل مستندات متعددة في آنٍ واحد.\n\n## الخاتمة\n\nلقد أتقنتَ الآن كيفية تحويل ملفات PDF إلى صيغة HTML مع تضمين جميع الموارد باستخدام Aspose.PDF لجافا. هذه الطريقة مثالية للنشر على الويب وأرشفة المستندات، مما يضمن ظهور محتواك بشكل مثالي أينما عُرض.\n\n**الخطوات التالية:**- تجربة مع مختلف `HtmlSaveOptions` الإعدادات.\n- استكشف ميزات Aspose.PDF الأخرى لتحسين قدراتك في التعامل مع ملفات PDF.\n\nهل أنت مستعد لتجربته؟ ابدأ بتحويل ملفات PDF اليوم!\n\n## قسم الأسئلة الشائعة\n\n1. **ما هي متطلبات النظام لاستخدام Aspose.PDF Java؟**- يتطلب JDK و IDE متوافق مثل IntelliJ IDEA أو Eclipse.\n\n2. **كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.PDF Java؟**_n - زيارة [صفحة ترخيص Aspose](https://purchase.aspose.com/temporary-license/) لطلب واحد.\n\n3. **هل يمكنني تحويل ملفات PDF متعددة مرة واحدة؟**- نعم، قم بتنفيذ المعالجة الدفعية عن طريق التكرار على الملفات الموجودة في الدليل.\n\n4. **ماذا لو فشل التحويل لصفحات معينة؟**- تحقق من ملف PDF المدخل لديك بحثًا عن أي محتوى تالف أو ميزات غير مدعومة وحاول مرة أخرى.\n\n5. **كيف يمكنني تقليل حجم ملف HTML الناتج؟**- تحسين الصور وضغط CSS/JS حيثما أمكن قبل التضمين.\n\n## الموارد\n- [التوثيق](https://reference.aspose.com/pdf/java/)_ن- [تنزيل Aspose.PDF](https://releases.aspose.com/pdf/java/)_ن- [شراء ترخيص](https://purchase.aspose.com/buy)_ن- [نسخة تجريبية مجانية](https://releases.aspose.com/pdf/java/)_ن- [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/)_ن- [منتدى الدعم](https://forum.aspose.com/c/pdf/10)_ن
+# تحويل PDF إلى HTML مع تضمين جميع الموارد باستخدام Aspose.PDF for Java
+
+## المقدمة
+
+تحويل ملف PDF إلى HTML باستخدام **pdf to html java** قد يكون صعبًا عندما تحتاج إلى الحفاظ على كل الخطوط والصور والأنماط كما هي. لحسن الحظ، يتولى Aspose.PDF for Java الجزء الأكبر من العمل، مما يتيح لك إنتاج ملف HTML واحد يتم تضمين جميع الموارد فيه. في هذا البرنامج التعليمي ستتعلم كيفية إجراء **aspose pdf html conversion** كاملة، وتضمين الموارد في HTML، والحفاظ على **pdf to html images** داخل الناتج.
+
+**ما ستتعلمه**
+
+- كيفية استخدام Aspose.PDF for Java لتحويل ملفات PDF إلى صيغة HTML.  
+- تكوين الخيارات لتضمين جميع الموارد داخل ملف HTML واحد.  
+- تنفيذ استراتيجيات حفظ HTML مخصصة في Java.  
+- ضمان تحويل سلس للمستندات المعقدة مع الأصول المضمنة.
+
+### إجابات سريعة
+- **هل يمكن لـ Aspose.PDF تضمين الخطوط والصور؟** نعم – يمكنه تضمين جميع الخطوط والصور النقطية مباشرةً في HTML.  
+- **هل أحصل على ملف HTML واحد؟** ضبط `PartsEmbeddingModes.EmbedAllIntoHtml` ينتج مخرجًا بملف واحد.  
+- **ما المكتبة الأساسية المطلوبة؟** حزمة `aspose-pdf` لـ Maven/Gradle.  
+- **هل الترخيص إلزامي لهذه الميزة؟** النسخة التجريبية تعمل، لكن الترخيص الدائم يزيل حدود التقييم.  
+- **هل يمكن تشغيله على Java 11+؟** بالتأكيد – يدعم Aspose.PDF إصدارات JDK الحديثة.
+
+## ما هو pdf to html java؟
+
+`pdf to html java` يشير إلى عملية أخذ مستند PDF وإنشاء تمثيل HTML برمجيًا باستخدام مكتبات Java. هذا النهج مثالي للنشر على الويب، أرشفة المستندات، أو دمج ملفات PDF في سير عمل إدارة المحتوى.
+
+## لماذا يتم تضمين الموارد في HTML؟
+
+تضمين الموارد (الخطوط، الصور، CSS) مباشرةً في HTML يلغي الاعتماد على موارد خارجية، مما يضمن عرض الصفحة بشكل صحيح دون اتصال أو في بيئات معزولة مثل عملاء البريد الإلكتروني أو مولدات المواقع الثابتة.
+
+## المتطلبات المسبقة
+
+قبل البدء، تأكد من وجود ما يلي:
+
+### المكتبات والاعتمادات المطلوبة
+- **Aspose.PDF for Java** – الإصدار 25.3 أو أحدث.  
+- **Java Development Kit (JDK)** – 8 أو أحدث.  
+- **IDE** – IntelliJ IDEA أو Eclipse أو NetBeans.
+
+### المتطلبات المعرفية
+- برمجة Java الأساسية.  
+- الإلمام بـ Maven أو Gradle لإدارة الاعتمادات.
+
+## إعداد Aspose.PDF for Java
+
+أولاً، أضف Aspose.PDF إلى مشروعك.
+
+### Maven
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-pdf</artifactId>
+    <version>25.3</version>
+</dependency>
+```
+
+### Gradle
+```gradle
+implementation 'com.aspose:aspose-pdf:25.3'
+```
+
+#### خطوات الحصول على الترخيص
+1. **نسخة تجريبية مجانية**: قم بتنزيل نسخة تجريبية مجانية من موقع Aspose لتقييم الميزات.  
+2. **ترخيص مؤقت**: اطلب ترخيصًا مؤقتًا إذا كنت بحاجة إلى وصول كامل دون قيود خلال فترة التقييم.  
+3. **شراء**: فكر في شراء ترخيص للاستخدام طويل الأمد.  
+
+بعد تضمينه في مشروعك، قم بتهيئة Aspose.PDF:
+
+```java
+import com.aspose.pdf.Document;
+
+public class PDFToHTMLConverter {
+    public static void main(String[] args) {
+        // Ensure the path to your license file is correct if using a licensed version
+        // License license = new License();
+        // license.setLicense("path/to/Aspose.Total.Java.lic");
+        
+        System.out.println("Aspose.PDF for Java setup complete!");
+    }
+}
+```
+
+## دليل التنفيذ
+
+الآن دعنا نستعرض خطوات التحويل الفعلية.
+
+### تحميل مستند PDF
+```java
+import com.aspose.pdf.Document;
+
+String dataDir = "YOUR_DOCUMENT_DIRECTORY";
+Document doc = new Document(dataDir + "/input.pdf");
+```
+
+### تكوين خيارات حفظ HTML
+```java
+import com.aspose.pdf.HtmlSaveOptions;
+import com.aspose.pdf.LettersPositioningMethods;
+
+HtmlSaveOptions newOptions = new HtmlSaveOptions();
+newOptions.setRasterImagesSavingMode(HtmlSaveOptions.RasterImagesSavingModes.AsEmbeddedPartsOfPngPageBackground);
+newOptions.setFontSavingMode(HtmlSaveOptions.FontSavingModes.SaveInAllFormats);
+newOptions.setPartsEmbeddingMode(HtmlSaveOptions.PartsEmbeddingModes.EmbedAllIntoHtml);
+newOptions.setLettersPositioningMethod(LettersPositioningMethods.UseEmUnitsAndCompensationOfRoundingErrorsInCss);
+newOptions.setSplitIntoPages(false); // Combine all pages into a single HTML file
+```
+
+### تخصيص استراتيجية الحفظ
+```java
+import java.io.FileOutputStream;
+
+newOptions.setCustomHtmlSavingStrategy(new HtmlSaveOptions.HtmlPageMarkupSavingStrategy() {
+    public void invoke(HtmlSaveOptions.HtmlPageMarkupSavingInfo htmlSavingInfo) {
+        try {
+            byte[] resultHtmlAsBytes = new byte[(int) htmlSavingInfo.getContentStream().available()];
+            htmlSavingInfo.getContentStream().read(resultHtmlAsBytes, 0, resultHtmlAsBytes.length);
+
+            FileOutputStream fos = new FileOutputStream("YOUR_OUTPUT_DIRECTORY/allResourceEmbeddedInSingleResultantStream.html");
+            fos.write(resultHtmlAsBytes);
+            fos.close();
+        } catch (Exception e) {
+            e.printStackTrace(); // Handle exceptions such as IOException and FileNotFoundException
+        }
+    }
+});
+```
+
+### حفظ المستند
+```java
+String outHtmlFile = "YOUR_OUTPUT_DIRECTORY/ThisFileWillNotAppearOnDisk.html";
+doc.save(outHtmlFile, newOptions);
+```
+
+## التطبيقات العملية
+
+- **نشر الويب** – تضمين جميع الموارد في ملف HTML واحد لاستضافة سهلة.  
+- **أرشفة المستندات** – الحفاظ على ملفات PDF مع جميع الأصول كما هي للتخزين طويل الأمد.  
+- **التصفح دون اتصال** – يمكن للمستخدمين عرض HTML المحول دون اتصال بالإنترنت.  
+- **دمج مع أنظمة إدارة المحتوى** – إدخال المخرج بملف واحد مباشرةً إلى أنظمة إدارة المحتوى التي تتطلب أصولًا مدمجة.
+
+## اعتبارات الأداء
+
+- **تحسين الموارد** – `setRasterImagesSavingMode` يضمن تضمين الصور بكفاءة دون زيادة حجم الملف.  
+- **إدارة الذاكرة** – راقب استهلاك الذاكرة في Java، خاصة مع ملفات PDF الكبيرة، لتجنب `OutOfMemoryError`.  
+- **المعالجة غير المتزامنة** – للتحويلات الدفعية، شغّل كل تحويل في خيط منفصل أو استخدم خدمة تنفيذ.
+
+## المشكلات الشائعة والحلول
+
+| المشكلة | الحل |
+|-------|----------|
+| **PDF كبير يسبب استهلاك عالي للذاكرة** | فعّل المعالجة التزايدية أو قسّم PDF قبل التحويل. |
+| **غياب الخطوط في الناتج** | تأكد من أن ملفات الخطوط متاحة لـ JVM أو استخدم `FontSavingModes.SaveInAllFormats`. |
+| **الصور تظهر معطوبة** | تحقق من ضبط `RasterImagesSavingMode` لتضمين خلفيات PNG. |
+| **التوقف أثناء التحويل في الصفحات المعقدة** | زد حجم heap في JVM (`-Xmx2g`) وفكر في تبسيط PDF المصدر. |
+
+## الأسئلة المتكررة
+
+**س: ما هي متطلبات النظام لاستخدام Aspose.PDF Java؟**  
+ج: يتطلب JDK (8 أو أحدث) وIDE متوافق مثل IntelliJ IDEA أو Eclipse.
+
+**س: كيف أحصل على ترخيص مؤقت لـ Aspose.PDF Java؟**  
+ج: زر [صفحة الترخيص الخاصة بـ Aspose](https://purchase.aspose.com/temporary-license/) لطلب واحد.
+
+**س: هل يمكنني تحويل عدة ملفات PDF مرة واحدة؟**  
+ج: نعم، نفّذ معالجة دفعية عبر التكرار على الملفات في دليل.
+
+**س: ماذا أفعل إذا فشل التحويل لصفحات معينة؟**  
+ج: تحقق من أن PDF الإدخال لا يحتوي على محتوى تالف أو ميزات غير مدعومة ثم أعد المحاولة.
+
+**س: كيف يمكنني تقليل حجم ملف HTML الناتج؟**  
+ج: حسّن الصور واضغط CSS/JS قبل التضمين، أو انتقل إلى وضع صورة نقطية أكثر عدوانية.
+
+## الموارد
+- [التوثيق](https://reference.aspose.com/pdf/java/)
+- [تحميل Aspose.PDF](https://releases.aspose.com/pdf/java/)
+- [شراء ترخيص](https://purchase.aspose.com/buy)
+- [نسخة تجريبية مجانية](https://releases.aspose.com/pdf/java/)
+- [ترخيص مؤقت](https://purchase.aspose.com/temporary-license/)
+- [منتدى الدعم](https://forum.aspose.com/c/pdf/10)
+
+**آخر تحديث:** 2026-03-23  
+**تم الاختبار مع:** Aspose.PDF for Java 25.3  
+**المؤلف:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

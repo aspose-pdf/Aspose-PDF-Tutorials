@@ -1,9 +1,14 @@
 ---
-"date": "2025-04-14"
-"description": "Aspose.PDF for Java を使用して PDF ドキュメントを Web 対応の HTML 形式に変換し、フォントや画像などのすべてのリソースが埋め込まれていることを確認する方法を学習します。"
-"title": "Aspose.PDF for Java を使用して PDF を埋め込みリソース付きの HTML に変換する"
-"url": "/ja/java/conversion-export/convert-pdf-to-html-aspose-java-embedded-resources/"
-"weight": 1
+date: '2026-03-23'
+description: Aspose.PDF を使用して Java で PDF を HTML に変換する方法、リソース HTML の埋め込み、PDF から HTML
+  への画像処理、そして単一ファイルの HTML 出力の作成を学びましょう。
+keywords:
+- convert PDF to HTML Java
+- embed resources in HTML
+- Aspose.PDF for Java tutorial
+title: pdf to html java – Aspose.PDF for Java を使用して埋め込みリソース付き PDF を HTML に変換
+url: /ja/java/conversion-export/convert-pdf-to-html-aspose-java-embedded-resources/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,8 +16,189 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose.PDF for Java を使用して、すべてのリソースを埋め込んだ状態で PDF を HTML に変換します\n\n## はじめに\n\nフォントや画像などの必要なリソースをすべて埋め込みながら、PDF ファイルを Web に適した HTML 形式に変換するのは、難しい場合があります。しかし、Aspose.PDF for Java を使用すれば、このプロセスが簡素化されます。このチュートリアルでは、PDF を Web 公開に適した完全に埋め込まれた HTML ドキュメントに変換する手順を説明します。\n\n**学習内容:**\n- Aspose.PDF for Java を使用して PDF ファイルを HTML 形式に変換する方法。\n- すべてのリソースを 1 つの HTML ファイル内に埋め込むオプションの構成。\n- Java でカスタム HTML 保存戦略を実装する。\n- アセットが埋め込まれた複雑なドキュメントをスムーズに変換する。\n\n変換プロセスに進む前に、前提条件を確認しましょう。\n\n## 前提条件\n\n開始する前に、次のものを用意してください。\n\n### 必要なライブラリと依存関係\n- **Aspose.PDF for Java**PDF操作に必要な主要ライブラリです。バージョン25.3以降を使用してください。\n  
-### 環境設定の要件\n- マシンに Java 開発キット (JDK) がインストールされている。\n- IntelliJ IDEA、Eclipse、NetBeans などの IDE。\n\n### 知識の前提条件\n- Java プログラミングの基礎知識。\n- 依存関係管理のための Maven または Gradle の知識。\n\n## Aspose.PDF for Java のセットアップ\n\nまず、開発環境に Aspose.PDF を追加します。Maven または Gradle を使用して、依存関係として含めることができます。\n\n### Maven\n```xml\n<dependency>\n    <groupId>com.aspose</groupId>\n    <artifactId>aspose-pdf</artifactId>\n    <version>25.3</version>\n</dependency>\n```\n\n### グラドル\n```gradle\nimplementation 'com.aspose:aspose-pdf:25.3'\n```\n\n#### ライセンス取得手順\n1. **無料トライアル**機能を評価するために、Aspose Web サイトから無料試用版をダウンロードしてください。\n2. **一時ライセンス**評価期間中に制限のないフルアクセスが必要な場合は、一時ライセンスを申請してください。\n3. **購入**長期使用にはライセンスの購入を検討してください。\n\nプロジェクトに組み込んだら、Aspose.PDF を次のように初期化します。\n```java\nimport com.aspose.pdf.Document;\n\npublic class PDFToHTMLConverter {\n    public static void main(String[] args) {\n        // Ensure the path to your license file is correct if using a licensed version\n        // License license = new License();\n        // license.setLicense(\"path/to/Aspose.Total.Java.lic\");\n        \n        System.out.println(\"Aspose.PDF for Java setup complete!\");\n    }\n}\n```\n\n## 実装ガイド\n\nでは、すべてのリソースが埋め込まれた状態で PDF を HTML に変換しましょう。\n\n### PDF ドキュメントの読み込み\nAspose.PDF を使用して PDF ドキュメントを読み込みます:\n```java\nimport com.aspose.pdf.Document;\n\nString dataDir = \"YOUR_DOCUMENT_DIRECTORY\";\nDocument doc = new Document(dataDir + \"/input.pdf\");\n```\n\n### HTML保存オプションの設定\nHTML出力内のすべてのリソースを埋め込むためのオプションを設定します。 `HtmlSaveOptions`:\n```java\nimport com.aspose.pdf.HtmlSaveOptions;\nimport com.aspose.pdf.LettersPositioningMethods;\n\nHtmlSaveOptions newOptions = new HtmlSaveOptions();\nnewOptions.setRasterImagesSavingMode(HtmlSaveOptions.RasterImagesSavingModes.AsEmbeddedPartsOfPngPageBackground);\nnewOptions.setFontSavingMode(HtmlSaveOptions.FontSavingModes.SaveInAllFormats);\nnewOptions.setPartsEmbeddingMode(HtmlSaveOptions.PartsEmbeddingModes.EmbedAllIntoHtml);\nnewOptions.setLettersPositioningMethod(LettersPositioningMethods.UseEmUnitsAndCompensationOfRoundingErrorsInCss);\nnewOptions.setSplitIntoPages(false); // Combine all pages into a single HTML file\n```\n\n### 保存戦略のカスタマイズ\nHTML コンテンツの保存方法を制御するカスタム戦略を実装します:\n```java\nimport java.io.FileOutputStream;\n\nnewOptions.setCustomHtmlSavingStrategy(new HtmlSaveOptions.HtmlPageMarkupSavingStrategy() {\n    public void invoke(HtmlSaveOptions.HtmlPageMarkupSavingInfo htmlSavingInfo) {\n        try {\n            byte[] resultHtmlAsBytes = new byte[(int) htmlSavingInfo.getContentStream().available()];\n            htmlSavingInfo.getContentStream().read(resultHtmlAsBytes, 0, resultHtmlAsBytes.length);\n\n            FileOutputStream fos = new FileOutputStream(\"YOUR_OUTPUT_DIRECTORY/allResourceEmbeddedInSingleResultantStream.html\");\n            fos.write(resultHtmlAsBytes);\n            fos.close();\n        } catch (Exception e) {\n            e.printStackTrace(); // Handle exceptions such as IOException and FileNotFoundException\n        }\n    }\n});\n```\n\n### ドキュメントの保存\n最後に、設定したオプションでドキュメントを保存します:\n```java\nString outHtmlFile = \"YOUR_OUTPUT_DIRECTORY/ThisFileWillNotAppearOnDisk.html\";\ndoc.save(outHtmlFile, newOptions);\n```\n\n## 実用的なアプリケーション\n\n- **ウェブパブリッシング**すべてのリソースを 1 つの HTML ファイルに埋め込むことで、簡単に Web ホスティングできます。\n- **文書アーカイブ**すべての資産をそのままにしてドキュメントを変換してアーカイブします。\n- **オフラインブラウジング**リソースを埋め込むことで PDF コンテンツへのオフライン アクセスを確保します。\n- **CMSとの統合**埋め込みアセットを必要とするコンテンツ管理システムにシームレスに統合します。\n\n## パフォーマンスに関する考慮事項\n\n- **リソースの最適化**： 使用 `setRasterImagesSavingMode` 画像を効率的に埋め込む。\n- **メモリ管理**特に大きな PDF を扱うときに、Java のメモリ使用量を監視します。\n- **非同期処理**複数のドキュメントを同時に変換するための非同期処理を実装します。\n\n## まとめ\n\nAspose.PDF for Javaを使用して、PDFファイルをすべてのリソースが埋め込まれたHTML形式に変換する方法を習得しました。この方法はWebパブリッシングやドキュメントのアーカイブに最適で、どこで閲覧してもコンテンツが完璧に表示されます。\n\n**次のステップ:**\n- さまざまな `HtmlSaveOptions` 構成。\n- Aspose.PDF のその他の機能を調べて、PDF 処理能力を強化します。\n\n試してみませんか? 今すぐ PDF の変換を始めましょう!\n\n## FAQ セクション\n\n1. **Aspose.PDF Java を使用するためのシステム要件は何ですか?**\n - JDK と、IntelliJ IDEA や Eclipse などの互換性のある IDE が必要です。\n\n2. **Aspose.PDF Java の一時ライセンスを取得するにはどうすればよいですか?**\n - 訪問 [Asposeのライセンスページ](https://purchase.aspose.com/temporary-license/) リクエストする。\n\n3. **複数の PDF を一度に変換できますか?**\n - はい、ディレクトリ内のファイルを反復処理してバッチ処理を実装します。\n\n4. **特定のページで変換が失敗した場合はどうなりますか?**\n - 入力 PDF に破損したコンテンツやサポートされていない機能がないか確認し、もう一度お試しください。\n\n5. **生成された HTML のファイル サイズを縮小するにはどうすればよいですか?**\n - 埋め込み前に画像を最適化し、可能な場合は CSS/JS を圧縮します。\n\n## リソース\n- [ドキュメント](https://reference.aspose.com/pdf/java/)\n- [Aspose.PDF をダウンロード](https://releases.aspose.com/pdf/java/)\n- [ライセンスを購入する](https://purchase.aspose.com/buy)\n- [無料トライアル](https://releases.aspose.com/pdf/java/)\n- [一時ライセンス](https://purchase.aspose.com/temporary-license/)\n- [サポートフォーラム](https://forum.aspose.com/c/pdf/10)\n
+# Aspose.PDF for Java を使用した、すべてのリソースが埋め込まれた PDF から HTML への変換
+
+## はじめに
+
+**pdf to html java** を使用して PDF を HTML に変換する場合、すべてのフォント、画像、スタイルをそのまま保持するのは難しいことがあります。幸い、Aspose.PDF for Java が重い処理を担当し、すべてのリソースが埋め込まれた単一の HTML ファイルを生成できます。このチュートリアルでは、完全な **aspose pdf html conversion** の実行方法、リソースの埋め込み（embed resources html）、そして **pdf to html images** を出力内に保持する方法を学びます。
+
+**学べること**
+
+- Aspose.PDF for Java を使用して PDF ファイルを HTML 形式に変換する方法。  
+- すべてのリソースを単一の HTML ファイルに埋め込むオプションの設定方法。  
+- Java でカスタム HTML 保存戦略を実装する方法。  
+- 埋め込み資産を含む複雑なドキュメントのスムーズな変換を保証する方法。
+
+### クイック回答
+- **Aspose.PDF はフォントと画像を埋め込めますか？** はい – すべてのフォントとラスタ画像を HTML に直接埋め込むことができます。  
+- **単一の HTML ファイルが得られますか？** `PartsEmbeddingModes.EmbedAllIntoHtml` を設定すると、単一ファイルの出力が作成されます。  
+- **必要な主要ライブラリはどれですか？** `aspose-pdf` Maven/Gradle パッケージです。  
+- **この機能にライセンスは必須ですか？** トライアルでも動作しますが、永続ライセンスを取得すると評価制限が解除されます。  
+- **Java 11+ で実行できますか？** もちろんです – Aspose.PDF は最新の JDK バージョンをサポートしています。
+
+## pdf to html java とは？
+
+`pdf to html java` は、PDF ドキュメントを取得し、Java ライブラリを使用してプログラム的に HTML 表現を生成するプロセスを指します。このアプローチは、ウェブ公開、ドキュメントのアーカイブ、または PDF をコンテンツ管理ワークフローに統合する際に最適です。
+
+## なぜ resources html を埋め込むのか？
+
+リソース（フォント、画像、CSS）を HTML に直接埋め込むことで外部依存がなくなり、オフラインやメールクライアント、静的サイトジェネレータなどの隔離された環境でもページが正しく表示されます。
+
+## 前提条件
+
+開始する前に、以下が揃っていることを確認してください：
+
+### 必要なライブラリと依存関係
+- **Aspose.PDF for Java** – バージョン 25.3 以降。  
+- **Java Development Kit (JDK)** – 8 以上。  
+- **IDE** – IntelliJ IDEA、Eclipse、または NetBeans。
+
+### 知識の前提条件
+- 基本的な Java プログラミング。  
+- 依存関係管理のための Maven または Gradle の知識。
+
+## Aspose.PDF for Java の設定
+
+まず、プロジェクトに Aspose.PDF を追加します。
+
+### Maven
+```xml
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-pdf</artifactId>
+    <version>25.3</version>
+</dependency>
+```
+
+### Gradle
+```gradle
+implementation 'com.aspose:aspose-pdf:25.3'
+```
+
+#### ライセンス取得手順
+1. **Free Trial**: Aspose のウェブサイトから無料トライアルをダウンロードして機能を評価します。  
+2. **Temporary License**: 評価期間中に制限なしでフルアクセスが必要な場合は、一時ライセンスを申請します。  
+3. **Purchase**: 長期利用のためにライセンス購入を検討してください。  
+
+プロジェクトに組み込んだら、Aspose.PDF を初期化します：
+
+```java
+import com.aspose.pdf.Document;
+
+public class PDFToHTMLConverter {
+    public static void main(String[] args) {
+        // Ensure the path to your license file is correct if using a licensed version
+        // License license = new License();
+        // license.setLicense("path/to/Aspose.Total.Java.lic");
+        
+        System.out.println("Aspose.PDF for Java setup complete!");
+    }
+}
+```
+
+## 実装ガイド
+
+それでは、実際の変換手順を見ていきましょう。
+
+### PDF ドキュメントの読み込み
+```java
+import com.aspose.pdf.Document;
+
+String dataDir = "YOUR_DOCUMENT_DIRECTORY";
+Document doc = new Document(dataDir + "/input.pdf");
+```
+
+### HTML 保存オプションの設定
+```java
+import com.aspose.pdf.HtmlSaveOptions;
+import com.aspose.pdf.LettersPositioningMethods;
+
+HtmlSaveOptions newOptions = new HtmlSaveOptions();
+newOptions.setRasterImagesSavingMode(HtmlSaveOptions.RasterImagesSavingModes.AsEmbeddedPartsOfPngPageBackground);
+newOptions.setFontSavingMode(HtmlSaveOptions.FontSavingModes.SaveInAllFormats);
+newOptions.setPartsEmbeddingMode(HtmlSaveOptions.PartsEmbeddingModes.EmbedAllIntoHtml);
+newOptions.setLettersPositioningMethod(LettersPositioningMethods.UseEmUnitsAndCompensationOfRoundingErrorsInCss);
+newOptions.setSplitIntoPages(false); // Combine all pages into a single HTML file
+```
+
+### 保存戦略のカスタマイズ
+```java
+import java.io.FileOutputStream;
+
+newOptions.setCustomHtmlSavingStrategy(new HtmlSaveOptions.HtmlPageMarkupSavingStrategy() {
+    public void invoke(HtmlSaveOptions.HtmlPageMarkupSavingInfo htmlSavingInfo) {
+        try {
+            byte[] resultHtmlAsBytes = new byte[(int) htmlSavingInfo.getContentStream().available()];
+            htmlSavingInfo.getContentStream().read(resultHtmlAsBytes, 0, resultHtmlAsBytes.length);
+
+            FileOutputStream fos = new FileOutputStream("YOUR_OUTPUT_DIRECTORY/allResourceEmbeddedInSingleResultantStream.html");
+            fos.write(resultHtmlAsBytes);
+            fos.close();
+        } catch (Exception e) {
+            e.printStackTrace(); // Handle exceptions such as IOException and FileNotFoundException
+        }
+    }
+});
+```
+
+### ドキュメントの保存
+```java
+String outHtmlFile = "YOUR_OUTPUT_DIRECTORY/ThisFileWillNotAppearOnDisk.html";
+doc.save(outHtmlFile, newOptions);
+```
+
+## 実用例
+
+- **Web Publishing** – すべてのリソースを単一の HTML ファイルに埋め込み、簡単にホスティングできるようにします。  
+- **Document Archiving** – すべての資産を保持したまま PDF を長期保存します。  
+- **Offline Browsing** – ユーザーはインターネット接続なしで変換された HTML を閲覧できます。  
+- **CMS Integration** – 埋め込み資産が必要なコンテンツ管理システムに単一ファイル出力を直接供給します。
+
+## パフォーマンス上の考慮点
+
+- **Optimizing Resources** – `setRasterImagesSavingMode` はファイルを肥大化させずに画像を効率的に埋め込みます。  
+- **Memory Management** – 大きな PDF を扱う際は特に、Java ヒープ使用量を監視し `OutOfMemoryError` を回避します。  
+- **Asynchronous Processing** – バッチ変換の場合、各変換を個別のスレッドで実行するか、エグゼキュータサービスを使用します。
+
+## よくある問題と解決策
+
+| Issue | Solution |
+|-------|----------|
+| **Large PDF が高いメモリ使用量を引き起こす** | インクリメンタル処理を有効にするか、変換前に PDF を分割してください。 |
+| **出力でフォントが欠落** | フォントファイルが JVM からアクセス可能であることを確認するか、`FontSavingModes.SaveInAllFormats` を使用してください。 |
+| **画像が壊れて表示される** | `RasterImagesSavingMode` が PNG 背景を埋め込むように設定されていることを確認してください。 |
+| **複雑なページで変換が停止する** | JVM ヒープを増やす（`-Xmx2g`）と、元の PDF を簡素化することを検討してください。 |
+
+## よくある質問
+
+**Q: Aspose.PDF Java を使用するためのシステム要件は何ですか？**  
+A: JDK（8 以上）と、IntelliJ IDEA や Eclipse などの対応 IDE が必要です。
+
+**Q: Aspose.PDF Java の一時ライセンスはどう取得しますか？**  
+A: [Aspose のライセンスページ](https://purchase.aspose.com/temporary-license/) にアクセスしてリクエストしてください。
+
+**Q: 複数の PDF を同時に変換できますか？**  
+A: はい、ディレクトリ内のファイルを反復処理してバッチ変換を実装できます。
+
+**Q: 特定のページで変換が失敗した場合はどうすればよいですか？**  
+A: 入力 PDF に破損したコンテンツやサポートされていない機能がないか確認し、再度試してください。
+
+**Q: 生成された HTML のファイルサイズを減らすにはどうすればよいですか？**  
+A: 画像を最適化し、埋め込む前に CSS/JS を圧縮するか、より積極的なラスタ画像モードに切り替えてください。
+
+## リソース
+- [ドキュメント](https://reference.aspose.com/pdf/java/)
+- [Aspose.PDF のダウンロード](https://releases.aspose.com/pdf/java/)
+- [ライセンスの購入](https://purchase.aspose.com/buy)
+- [無料トライアル](https://releases.aspose.com/pdf/java/)
+- [一時ライセンス](https://purchase.aspose.com/temporary-license/)
+- [サポートフォーラム](https://forum.aspose.com/c/pdf/10)
+
+---
+
+**最終更新日:** 2026-03-23  
+**テスト環境:** Aspose.PDF for Java 25.3  
+**作者:** Aspose  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
