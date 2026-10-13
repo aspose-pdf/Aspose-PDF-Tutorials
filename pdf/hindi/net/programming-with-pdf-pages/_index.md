@@ -46,6 +46,7 @@
 | [C# में Bates नंबरिंग जोड़ें – पूर्ण चरण‑दर‑चरण गाइड](./add-bates-numbering-in-c-step-by-step-guide/) | .NET के लिए Aspose.PDF का उपयोग करके C# में PDF फ़ाइलों में Bates नंबरिंग जोड़ने की विस्तृत चरण‑दर‑चरण मार्गदर्शिका। |
 | [C# के साथ PDF में पृष्ठ जोड़ें – पूर्ण चरण‑दर‑चरण गाइड](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) | .NET के लिए Aspose.PDF का उपयोग करके C# में PDF फ़ाइल में कई पृष्ठ जोड़ने की विस्तृत चरण‑दर‑चरण मार्गदर्शिका। |
 | [पुनः क्रमित करें PDF पेज C# में – पूर्ण चरण‑दर‑चरण गाइड](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | C# में PDF पेजों को पुनः क्रमित करने के लिए पूर्ण चरण‑दर‑चरण मार्गदर्शिका। |  
+| [C# के साथ PDF में Bates नंबरिंग जोड़ें – पूर्ण गाइड](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | .NET के लिए Aspose.PDF का उपयोग करके C# में PDFs में Bates नंबरिंग जोड़ने की पूर्ण चरण‑दर‑स्टेप मार्गदर्शिका। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

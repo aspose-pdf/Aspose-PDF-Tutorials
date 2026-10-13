@@ -46,6 +46,7 @@ Aspose.PDF for .NET의 "PDF 페이지 프로그래밍" 설명서는 PDF 파일�
 | [PDF에 페이지 추가 – C# 개발자를 위한 단계별 가이드](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF에 페이지를 추가하는 방법을 단계별로 안내합니다. |  
 | [C#에서 PDF 페이지 재정렬 – 전체 단계별 가이드](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 페이지를 재정렬하는 전체 단계별 가이드입니다. |  
 | [Aspose.Pdf를 사용한 PDF 페이지 재정렬 – 전체 C# 가이드](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 페이지 순서를 변경하는 방법을 단계별로 안내합니다. |  
+| [C#로 PDF에 베이츠 번호 추가 – 전체 단계별 가이드](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Aspose.PDF for .NET을 사용하여 C#로 PDF에 베이츠 번호를 추가하는 전체 단계별 가이드입니다. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

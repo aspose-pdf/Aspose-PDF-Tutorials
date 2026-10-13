@@ -55,6 +55,7 @@ Aspose.PDF for .NET'in "Etiketli PDF'lerle Programlama" öğreticileri, bu kitap
 | [PDF Belgesi Oluştur – Etiketli Metin İçin Mutlak Konum Ayarla](./create-pdf-document-set-absolute-position-for-tagged-text/) | Aspose.PDF for .NET kullanarak etiketli metni mutlak konumda yerleştirerek PDF belgesi oluşturmayı öğrenin. |
 | [PDF Belgesi Oluşturma C# – Etiketli Metin ve Konumlandırma ile Tam Kılavuz](./create-pdf-document-c-full-guide-with-tagged-text-and-positi/) | C# ve Aspose.PDF for .NET kullanarak etiketli metin ve konumlandırma özellikleriyle PDF belgesi oluşturmayı adım adım öğrenin. |
 | [Aspose ile PDF'de Erişilebilir Metin Aralığı Oluşturma: Tam C# Kılavuzu](./create-accessible-text-span-in-pdf-with-aspose-full-c-guide/) | Aspose.PDF for .NET kullanarak PDF'de erişilebilir bir metin aralığı oluşturmayı adım adım öğrenin. |
+| [C# ile Etiketli PDF Oluşturma – Tam Adım Adım Kılavuz](./create-tagged-pdf-in-c-full-step-by-step-guide/) | C# ile Aspose.PDF for .NET kullanarak tam kapsamlı etiketli PDF oluşturma sürecini adım adım izleyin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

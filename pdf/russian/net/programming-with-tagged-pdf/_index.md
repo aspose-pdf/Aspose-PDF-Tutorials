@@ -55,6 +55,7 @@
 | [Создать PDF-документ C# – Полное руководство с тегированным текстом и позиционированием](./create-pdf-document-c-full-guide-with-tagged-text-and-positi/) | Подробное руководство по созданию PDF-документа на C# с тегированным текстом и управлением позиционированием элементов. |  
 | [Создать доступный текстовый фрагмент в PDF с Aspose: Полное руководство на C#](./create-accessible-text-span-in-pdf-with-aspose-full-c-guide/) | Подробное руководство по созданию доступных текстовых фрагментов в PDF с помощью Aspose.PDF для .NET на C#. |  
 | [Как редактировать тегированный PDF с Aspose.Pdf – Полное руководство](./how-to-edit-tagged-pdf-with-aspose-pdf-complete-guide/) | Узнайте, как редактировать тегированные PDF-файлы с помощью Aspose.Pdf в полном пошаговом руководстве. |  
+| [Создать тегированный PDF на C# – Полное пошаговое руководство](./create-tagged-pdf-in-c-full-step-by-step-guide/) | Полное пошаговое руководство по созданию тегированного PDF в C# с помощью Aspose.PDF, охватывающее все детали. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -46,6 +46,7 @@
 - [สร้างเอกสาร PDF ด้วย C# – เพิ่มหมายเลข Bates](./create-pdf-document-c-add-bates-numbering/) | เรียนรู้วิธีเพิ่มหมายเลข Bates ให้กับไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านตัวอย่าง C# อย่างละเอียด  
 - [เพิ่มหมายเลข Bates ให้ PDF – คู่มือขั้นตอนเต็มสำหรับการใส่หมายเลขหน้า PDF](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | เรียนรู้วิธีเพิ่มหมายเลข Bates ให้ไฟล์ PDF อย่างละเอียดด้วย Aspose.PDF สำหรับ .NET ผ่านขั้นตอนที่ชัดเจน
 - [เพิ่มหมายเลขบาเตสใน PDF ด้วย Aspose – คู่มือเต็มขั้นตอน](./add-bates-numbering-pdf-with-aspose-complete-guide/) | เรียนรู้วิธีเพิ่มหมายเลขบาเตสในไฟล์ PDF อย่างละเอียดด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือขั้นตอนเต็มรูปแบบ
+- [เพิ่มหมายเลข Bates ให้กับไฟล์ PDF ด้วย C# – คู่มือเต็มขั้นตอน](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | เรียนรู้วิธีเพิ่มหมายเลข Bates ให้กับไฟล์ PDF ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET ผ่านคู่มือขั้นตอนเต็มรูปแบบ
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
