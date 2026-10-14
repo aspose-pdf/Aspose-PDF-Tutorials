@@ -22,6 +22,12 @@
 
 {{< tutorial-card link="./rotate-pages/" title="Повернуть каждую страницу PDF на 180° с помощью Aspose.Pdf для .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
 
+{{< tutorial-card link="./compare-pdf-pages/" title="Сравнение страниц PDF постранично с помощью Aspose.Pdf for .NET" imgSrc="./compare-pdf-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdfs/" title="Сравнение PDF с разными размерами страниц с использованием Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+
+
 | Название | Описание |
 | --- | --- | 
 | [Изменить ориентацию](./change-orientation/) | Пошаговое руководство по изменению ориентации страницы PDF с помощью Aspose.PDF для .NET. Легко следовать и внедрять в свои проекты. |  

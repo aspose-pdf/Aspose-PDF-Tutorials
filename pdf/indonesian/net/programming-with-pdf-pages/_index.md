@@ -24,6 +24,12 @@ Bahasa Indonesia: --- | Bahasa Indonesia:
 
 {{< tutorial-card link="./rotate-pages/" title="Putar Setiap Halaman PDF 180° Menggunakan Aspose.Pdf untuk .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
 
+{{< tutorial-card link="./compare-pdf-pages/" title="Bandingkan Halaman PDF Secara Halaman demi Halaman dengan Aspose.Pdf untuk .NET" imgSrc="./compare-pdf-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdfs/" title="Bandingkan PDF dengan Ukuran Halaman Berbeda Menggunakan Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+
+
 | [Ubah Orientasi](./change-orientation/) | Panduan langkah demi langkah untuk mengubah orientasi halaman PDF dengan Aspose.PDF untuk .NET. Mudah diikuti dan diterapkan dalam proyek Anda. Bahasa Indonesia:  
 | [Gabungkan File PDF](./concatenate-pdf-files/) | Gabungkan file PDF dengan mudah menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah yang komprehensif ini. Bahasa Indonesia:  
 | [Hapus Halaman Tertentu Dalam File PDF](./delete-particular-page/) | Pelajari cara menghapus halaman tertentu dari berkas PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Bahasa Indonesia:  

@@ -22,6 +22,12 @@ Az oktatóanyagok lépésről lépésre bemutatják az utasításokat, részlete
 
 {{< tutorial-card link="./rotate-pages/" title="Minden PDF oldal 180°-os elforgatása az Aspose.Pdf for .NET segítségével" imgSrc="./rotate-pages/images/thumb.png" >}}
 
+{{< tutorial-card link="./compare-pdf-pages/" title="PDF oldalak oldalankénti összehasonlítása az Aspose.Pdf for .NET segítségével" imgSrc="./compare-pdf-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdfs/" title="PDF-ek összehasonlítása különböző oldalméretekkel az Aspose.PDF for .NET használatával" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+
+
 | Cím | Leírás |
 | --- | --- | 
 | [Orientációváltás](./change-orientation/) | Lépésről lépésre útmutató PDF-fájlok oldaltájolásának megváltoztatásához az Aspose.PDF for .NET segítségével. Könnyen követhető és megvalósítható a projektjeiben. |  

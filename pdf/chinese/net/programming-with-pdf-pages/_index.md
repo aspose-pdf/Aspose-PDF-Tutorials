@@ -23,6 +23,12 @@ Aspose.PDF for .NET 的“使用 PDF 页面进行编程”文档提供了分步�
 
 {{< tutorial-card link="./rotate-pages/" title="使用 Aspose.Pdf for .NET 将每页 PDF 旋转 180°" imgSrc="./rotate-pages/images/thumb.png" >}}
 
+{{< tutorial-card link="./compare-pdf-pages/" title="使用 Aspose.Pdf for .NET 逐页比较 PDF 页面" imgSrc="./compare-pdf-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdfs/" title="使用 Aspose.PDF for .NET 比较页面尺寸不同的 PDF" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+
+
 | --- | --- | 
 | [改变方向](./change-orientation/) 使用 Aspose.PDF for .NET 更改 PDF 页面方向的分步指南。易于遵循并在您的项目中实施。|  
 | [连接 PDF 文件](./concatenate-pdf-files/) 按照这份全面的分步指南使用 Aspose.PDF for .NET 轻松连接 PDF 文件。|  

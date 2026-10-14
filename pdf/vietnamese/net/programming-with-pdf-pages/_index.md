@@ -22,6 +22,12 @@ Hướng dẫn bao gồm hướng dẫn từng bước, ví dụ mã chi tiết 
 
 {{< tutorial-card link="./rotate-pages/" title="Xoay Mỗi Trang PDF 180° Bằng Aspose.Pdf cho .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
 
+{{< tutorial-card link="./compare-pdf-pages/" title="So sánh các trang PDF từng trang với Aspose.Pdf for .NET" imgSrc="./compare-pdf-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdfs/" title="So sánh PDF với kích thước trang khác nhau bằng Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+
+
 | Tiêu đề | Mô tả |
 | --- | --- | 
 | [Thay đổi hướng](./change-orientation/) | Hướng dẫn từng bước để thay đổi hướng trang của PDF bằng Aspose.PDF cho .NET. Dễ dàng thực hiện và triển khai trong các dự án của bạn. |  

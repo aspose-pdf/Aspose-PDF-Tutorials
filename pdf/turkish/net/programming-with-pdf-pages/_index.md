@@ -22,6 +22,12 @@ Eğitimler, adım adım talimatlar, ayrıntılı kod örnekleri ve anlaşılmas�
 
 {{< tutorial-card link="./rotate-pages/" title="Aspose.Pdf for .NET ile Her PDF Sayfasını 180° Döndürün" imgSrc="./rotate-pages/images/thumb.png" >}}
 
+{{< tutorial-card link="./compare-pdf-pages/" title="Aspose.Pdf for .NET ile PDF Sayfalarını Sayfa Sayfa Karşılaştırın" imgSrc="./compare-pdf-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdfs/" title="Aspose.PDF for .NET kullanarak farklı sayfa boyutlarına sahip PDF'leri karşılaştırın" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+
+
 | Başlık | Açıklama |
 | --- | --- | 
 | [Yönelimi Değiştir](./change-orientation/) | Aspose.PDF for .NET ile PDF'in sayfa yönünü değiştirmek için adım adım kılavuz. Projelerinizde takip etmesi ve uygulaması kolaydır. |  

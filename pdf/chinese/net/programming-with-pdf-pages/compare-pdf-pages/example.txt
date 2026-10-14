@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: 本教程演示如何使用 Aspose.Pdf 的 TextPdfComparer 对两个 PDF 文档进行逐页比较并生成差异报告 PDF。
+//ExStepSummary:0: 声明原始 PDF、修订 PDF 和输出差异报告的文件路径。
+//ExStepSummary:1: 验证两个源 PDF 是否存在，如果任意一个缺失则中止并显示错误信息。
+//ExStepSummary:2: 打开两个 PDF，创建默认的 ComparisonOptions，使用 `TextPdfComparer.CompareDocumentsPageByPage` 进行逐页差异比较，并输出成功信息。
+//ExStepSummary:3: 捕获比较过程中抛出的任何异常，并将错误信息写入控制台。
+//ExStep:0-
+const string sourcePath1 = "original.pdf";
+const string sourcePath2 = "revised.pdf";
+const string resultPath = "changes_report.pdf";
+
+//ExStep:1-
+if (!File.Exists(sourcePath1) || !File.Exists(sourcePath2))
+{
+    Console.Error.WriteLine("Either of the input PDFs could not be located.");
+    return;
+}
+
+//ExStep:2-
+try
+{
+    using (Document pdfA = new Document(sourcePath1))
+    using (Document pdfB = new Document(sourcePath2))
+    {
+        ComparisonOptions compareOpts = new ComparisonOptions();
+        TextPdfComparer.CompareDocumentsPageByPage(pdfA, pdfB, compareOpts, resultPath);
+    }
+
+    Console.WriteLine($"Page‑by‑page diff PDF written to '{resultPath}'.");
+}
+
+//ExStep:3-
+catch (Exception ex)
+{
+    Console.Error.WriteLine($"Comparison failed: {ex.Message}");
+}
+//ExEnd
