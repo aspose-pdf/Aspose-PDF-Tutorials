@@ -16,6 +16,8 @@
 Sajátítsa el a PDF dokumentumok manipulálásának mesteri szintjét részletes Aspose.PDF .NET oktatóanyagainkkal. Ezek a lépésről lépésre bemutatják, hogyan dolgozhat a dokumentumstruktúrával, módosíthatja a meglévő PDF fájlokat, oszthatja fel és egyesítheti a dokumentumokat, adhat hozzá és távolíthat el oldalakat, valamint hogyan rendszerezheti programozottan a PDF tartalmait. Minden oktatóanyag működő C# kódpéldákat, megvalósítási megjegyzéseket és ajánlott gyakorlatokat tartalmaz, amelyek segítenek olyan alkalmazások létrehozásában, amelyek hatékonyan, letisztult, karbantartható kóddal manipulálják a PDF dokumentumokat.
 
 ## Elérhető oktatóanyagok
+
+{{< tutorial-card link="./compare-pdf-forms/" title="PDF űrlapok összehasonlítása és JSON & vizuális diff generálása az Aspose.Pdf for .NET használatával" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
 ### [Dátum- és időbélyegek hozzáadása PDF-ekhez az Aspose.PDF for .NET használatával](./aspose-pdf-net-date-time-stamps-annotations/)
 Ismerje meg, hogyan adhat hatékonyan dátum- és időbélyegeket vagy megjegyzéseket PDF-dokumentumaihoz az Aspose.PDF for .NET segítségével. Javítsa dokumentumkezelését ezekkel a könnyen követhető lépésekkel.
 

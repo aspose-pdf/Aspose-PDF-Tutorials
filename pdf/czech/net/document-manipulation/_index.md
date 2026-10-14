@@ -16,6 +16,8 @@
 Zvládněte manipulaci s PDF dokumenty s našimi podrobnými tutoriály Aspose.PDF .NET. Tyto podrobné návody ukazují, jak pracovat se strukturou dokumentů, upravovat existující PDF soubory, rozdělovat a slučovat dokumenty, přidávat a odebírat stránky a programově organizovat obsah PDF. Každý tutoriál obsahuje funkční příklady kódu C#, poznámky k implementaci a osvědčené postupy, které vám pomohou vytvářet aplikace, které efektivně manipulují s PDF dokumenty pomocí čistého a snadno udržovatelného kódu.
 
 ## Dostupné tutoriály
+
+{{< tutorial-card link="./compare-pdf-forms/" title="Porovnejte PDF formuláře a vygenerujte JSON a vizuální diff pomocí Aspose.Pdf pro .NET" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
 ### [Přidání datových a časových razítek do PDF pomocí Aspose.PDF pro .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 Naučte se, jak efektivně přidávat datumová a časová razítka nebo anotace do dokumentů PDF pomocí Aspose.PDF pro .NET. Vylepšete správu dokumentů pomocí těchto snadno sledovatelných kroků.
 
