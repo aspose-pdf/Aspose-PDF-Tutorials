@@ -20,6 +20,10 @@ Hướng dẫn bao gồm hướng dẫn từng bước, ví dụ mã chi tiết 
 
 ## Hướng dẫn
 
+{{< tutorial-card link="./rotate-pdf-page/" title="Xoay một trang PDF duy nhất 180 độ với Aspose.PDF for .NET" imgSrc="./rotate-pdf-page/images/thumb.png" >}}
+
+{{< tutorial-card link="./split-pdf/" title="Tách PDF sau trang thứ mười bằng Aspose.Pdf for .NET" imgSrc="./split-pdf/images/thumb.png" >}}
+
 {{< tutorial-card link="./rotate-pages/" title="Xoay Mỗi Trang PDF 180° Bằng Aspose.Pdf cho .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
 
 {{< tutorial-card link="./compare-pdf-pages/" title="So sánh các trang PDF từng trang với Aspose.Pdf for .NET" imgSrc="./compare-pdf-pages/images/thumb.png" >}}

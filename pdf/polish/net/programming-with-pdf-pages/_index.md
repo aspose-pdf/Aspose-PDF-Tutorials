@@ -20,6 +20,10 @@ Samouczki obejmują instrukcje krok po kroku, szczegółowe przykłady kodu i ja
 
 ## Samouczki
 
+{{< tutorial-card link="./rotate-pdf-page/" title="Obróć pojedynczą stronę PDF o 180 stopni przy użyciu Aspose.PDF for .NET" imgSrc="./rotate-pdf-page/images/thumb.png" >}}
+
+{{< tutorial-card link="./split-pdf/" title="Podziel PDF po dziesiątej stronie przy użyciu Aspose.Pdf for .NET" imgSrc="./split-pdf/images/thumb.png" >}}
+
 {{< tutorial-card link="./rotate-pages/" title="Obróć każdą stronę PDF o 180° przy użyciu Aspose.Pdf dla .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
 
 {{< tutorial-card link="./compare-pdf-pages/" title="Porównuj strony PDF stronę po stronie przy użyciu Aspose.Pdf for .NET" imgSrc="./compare-pdf-pages/images/thumb.png" >}}

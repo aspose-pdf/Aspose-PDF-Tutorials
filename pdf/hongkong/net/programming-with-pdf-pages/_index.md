@@ -20,6 +20,10 @@ Aspose.PDF for .NET 的「使用 PDF 頁面進行編程」文件提供了逐步�
 
 ## 教學
 
+{{< tutorial-card link="./rotate-pdf-page/" title="使用 Aspose.PDF for .NET 將單一 PDF 頁面旋轉 180 度。" imgSrc="./rotate-pdf-page/images/thumb.png" >}}
+
+{{< tutorial-card link="./split-pdf/" title="使用 Aspose.Pdf for .NET 在第十頁之後分割 PDF" imgSrc="./split-pdf/images/thumb.png" >}}
+
 {{< tutorial-card link="./rotate-pages/" title="使用 Aspose.Pdf for .NET 旋轉每頁 PDF 180°" imgSrc="./rotate-pages/images/thumb.png" >}}
 
 {{< tutorial-card link="./compare-pdf-pages/" title="使用 Aspose.Pdf for .NET 逐頁比較 PDF 頁面" imgSrc="./compare-pdf-pages/images/thumb.png" >}}

@@ -20,6 +20,10 @@
 
 ## دروس تعليمية
 
+{{< tutorial-card link="./rotate-pdf-page/" title="تدوير صفحة PDF واحدة بزاوية 180 درجة باستخدام Aspose.PDF for .NET" imgSrc="./rotate-pdf-page/images/thumb.png" >}}
+
+{{< tutorial-card link="./split-pdf/" title="تقسيم PDF بعد الصفحة العاشرة باستخدام Aspose.Pdf for .NET" imgSrc="./split-pdf/images/thumb.png" >}}
+
 {{< tutorial-card link="./rotate-pages/" title="تدوير كل صفحة PDF بمقدار 180° باستخدام Aspose.Pdf for .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
 
 {{< tutorial-card link="./compare-pdf-pages/" title="قارن صفحات PDF صفحة بصفحة باستخدام Aspose.Pdf for .NET" imgSrc="./compare-pdf-pages/images/thumb.png" >}}

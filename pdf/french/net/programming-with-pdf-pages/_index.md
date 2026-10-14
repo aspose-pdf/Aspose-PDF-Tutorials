@@ -20,6 +20,10 @@ Les tutoriels incluent des instructions étape par étape, des exemples de code 
 
 ## Tutoriels
 
+{{< tutorial-card link="./rotate-pdf-page/" title="Faire pivoter une seule page PDF de 180 degrés avec Aspose.PDF for .NET" imgSrc="./rotate-pdf-page/images/thumb.png" >}}
+
+{{< tutorial-card link="./split-pdf/" title="Diviser un PDF après la dixième page avec Aspose.Pdf for .NET" imgSrc="./split-pdf/images/thumb.png" >}}
+
 {{< tutorial-card link="./rotate-pages/" title="Faire pivoter chaque page PDF de 180° avec Aspose.Pdf pour .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
 
 {{< tutorial-card link="./compare-pdf-pages/" title="Comparer les pages PDF page par page avec Aspose.Pdf for .NET" imgSrc="./compare-pdf-pages/images/thumb.png" >}}
