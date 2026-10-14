@@ -20,6 +20,8 @@ Tutorial pembuatan dokumen kami menyediakan panduan lengkap untuk membuat file P
 
 
 {{< tutorial-card link="./create-pdf-x-3-document/" title="Buat Dokumen PDF/X‑3 dengan Tiga Halaman Menggunakan Aspose.Pdf untuk .NET" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
+### [Cara Membuat Dokumen PDF/X‑1 dengan Aspose.PDF untuk .NET](./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/)
+
 ### [Membuat Buklet PDF Menggunakan Aspose.PDF untuk .NET: Panduan Langkah demi Langkah](./aspose-pdf-net-create-booklets-tutorial/)
 Pelajari cara membuat buklet PDF profesional dengan Aspose.PDF untuk .NET. Tutorial ini mencakup penyiapan, penerapan, dan aplikasi praktis.
 ### [Membuat PDF dari XML dan XSLT Menggunakan Aspose.PDF .NET: Panduan Langkah demi Langkah](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
@@ -69,7 +71,7 @@ Pelajari cara membuat dokumen PDF menggunakan C# dengan Aspose.PDF melalui pandu
 
 ### [Buat Dokumen PDF dengan Aspose.PDF – Tambahkan Halaman, Bentuk & Simpan](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Pelajari cara menambahkan halaman, bentuk, dan menyimpan dokumen PDF menggunakan Aspose.PDF.
-### [Buat Dokumen PDF dengan Aspose di C# – Panduan Langkah demi Langkah](./create-pdf-document-with-aspose-in-c-step-by-step-guide/)
+### [Buat Dokumen PDF di C# – Panduan Langkah demi Langkah](./create-pdf-document-with-aspose-in-c-step-by-step-guide/)
 Pelajari cara membuat dokumen PDF menggunakan Aspose di C# dengan panduan langkah demi langkah yang mudah diikuti.
 ### [Buat Dokumen PDF C# – Tambahkan Halaman Kosong & Gambar Persegi Panjang](./create-pdf-document-c-add-blank-page-draw-rectangle/)
 Pelajari cara menambahkan halaman kosong ke dokumen PDF dan menggambar persegi panjang menggunakan Aspose.PDF untuk .NET dengan C#.

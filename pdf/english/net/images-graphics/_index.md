@@ -39,6 +39,9 @@ pdfDocument.Save("output.pdf");
 ```
 
 ## Available Tutorials
+### [How to set transparency in a PDF with Aspose.Pdf C#](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
+
+
 
 ### [Add image stamps to PDFs using Aspose.PDF for .NET&#58; a step‑Step guide]({{< relref "add-image-stamp-to-pdf-aspose-dotnet" >}})
 Learn how to seamlessly add image stamps, such as logos, to every page of a PDF using Aspose.PDF for .NET. Enhance your documents with professional branding.

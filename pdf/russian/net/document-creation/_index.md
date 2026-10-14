@@ -18,6 +18,9 @@
 ## Доступные обучающие материалы
 
 {{< tutorial-card link="./create-pdf-x-3-document/" title="Создание PDF/X‑3 Document с тремя страницами с использованием Aspose.Pdf for .NET" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
+### [Как создать PDF/X‑1 документ с помощью Aspose.PDF для .NET](./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/)
+Узнайте, как создавать PDF/X‑1 документы с помощью Aspose.PDF для .NET, включая настройку, генерацию и сохранение.
+
 ### [Создание PDF-буклетов с помощью Aspose.PDF для .NET: пошаговое руководство](./aspose-pdf-net-create-booklets-tutorial/)
 Узнайте, как создавать профессиональные PDF-буклеты с помощью Aspose.PDF для .NET. В этом руководстве рассматриваются настройка, реализация и практическое применение.
 

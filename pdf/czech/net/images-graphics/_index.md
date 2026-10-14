@@ -179,6 +179,9 @@ Naučte se, jak vylepšit své PDF dokumenty nastavením pozadí obrázků pomoc
 
 ### [Přidání průhlednosti do PDF pomocí Aspose PDF v C# – krok za krokem průvodce](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Naučte se, jak přidat průhlednost do PDF dokumentů pomocí Aspose.PDF v C# krok za krokem.
+### [Jak nastavit průhlednost v PDF pomocí Aspose.PDF pro .NET v C#](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
+Naučte se, jak nastavit průhlednost objektů v PDF dokumentech pomocí Aspose.PDF pro .NET v C#.
+
 ### [Jak ověřit PDF a přidat obdélník – Kompletní průvodce](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
 Naučte se, jak pomocí Aspose.PDF pro .NET ověřit PDF soubor a přidat obdélníkový tvar do dokumentu.
 

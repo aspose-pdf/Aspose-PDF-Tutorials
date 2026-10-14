@@ -51,7 +51,11 @@ Aspose.PDF Net 程式碼教學
 
 ### [使用 Aspose PDF 在 C# 中為 PDF 添加透明度 – 逐步指南](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 了解如何使用 Aspose.PDF 在 C# 中為 PDF 元素設定透明度，以創建更具視覺效果的文件。
-### [如何在 C# 中使用 Aspose.PDF 為 PDF 新增形狀：逐步指南](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+
+### [使用 Aspose.PDF for .NET 在 PDF 中設定透明度 – 逐步指南](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
+了解如何使用 Aspose.PDF C# 在 PDF 中設定透明度，提升文件的視覺層次與效果。
+
+### [如何在 C# 中使用 Aspose.PDF 為 PDF 添加形狀：逐步指南](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中向 PDF 添加各種形狀，如矩形、圓形或自訂路徑，並設定屬性與樣式。
 
 ### [使用 Aspose.PDF for .NET 實現高效率的 PDF 影像識別](./master-image-identification-aspose-pdf-net/)
@@ -88,7 +92,7 @@ Aspose.PDF Net 程式碼教學
 了解如何使用 Aspose.PDF for .NET 將影像無縫地新增至您的 PDF 文件。本逐步指南涵蓋設定、實施和實際應用。
 
 ### [如何使用 Aspose.PDF for .NET 將影像新增至 PDF：逐步指南](./add-images-to-pdfs-aspose-pdf-net/)
-了解如何使用 Aspose.PDF for .NET 將影像無縫地新增至您的 PDF。本指南介紹如何為現有 PDF 新增影像以及如何從 DICOM 檔案建立新影像。
+了解如何使用 Aspose.PDF for .NET 將影像無縫地新增至 PDF。本指南介紹如何為現有 PDF 新增影像以及如何從 DICOM 檔案建立新影像。
 
 ### [如何使用 Aspose.PDF for .NET 為 PDF 新增影像頁首：逐步指南](./add-image-header-pdf-aspose-dotnet/)
 透過本全面的逐步指南了解如何使用 Aspose.PDF for .NET 將影像標題新增至 PDF 文件。
@@ -135,7 +139,7 @@ Aspose.PDF Net 程式碼教學
 ### [如何使用 Aspose.PDF .NET 從 PDF 中擷取影像（逐步指南）](./extract-images-pdf-aspose-net/)
 透過本綜合指南了解如何使用 Aspose.PDF .NET 從 PDF 檔案高效提取影像。非常適合需要精確影像擷取的開發人員。
 
-### [如何使用 Aspose.PDF for .NET 從 PDF 擷取影像：開發人員指南](./extract-images-from-pdf-aspose-net-guide/)
+### [如何使用 Aspose.PDF for .NET 從 PDF 中擷取影像：開發人員指南](./extract-images-from-pdf-aspose-net-guide/)
 透過這份全面的開發人員指南，了解如何使用 Aspose.PDF for .NET 輕鬆地從 PDF 文件中擷取影像。立即增強您的文件處理工作流程。
 
 ### [如何使用 Aspose.PDF for .NET 從 PDF 擷取影像：逐步指南](./extract-images-aspose-pdf-dot-net-guide/)

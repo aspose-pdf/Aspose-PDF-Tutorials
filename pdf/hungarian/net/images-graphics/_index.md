@@ -157,7 +157,7 @@ Ismerje meg, hogyan távolíthat el hatékonyan grafikákat PDF-ekből az Aspose
 ### [Képek cseréje PDF-ekben az Aspose.PDF .NET használatával: Fejlesztői útmutató](./replace-images-pdf-aspose-net-guide/)
 Ismerje meg, hogyan cserélheti le hatékonyan a képeket a PDF dokumentumokban az Aspose.PDF for .NET segítségével. Egyszerűsítse dokumentumfrissítéseit ezzel az átfogó fejlesztői útmutatóval.
 
-### [Képek cseréje PDF-ekben az Aspose.PDF for .NET használatával: Teljes körű útmutató](./replace-images-aspose-pdf-net-tutorial/)
+### [Képek cseréje PDF-ekben az Aspose.PDF .NET használatával: Teljes körű útmutató](./replace-images-aspose-pdf-net-tutorial/)
 Ismerje meg, hogyan cserélhet hatékonyan képeket PDF dokumentumokban az Aspose.PDF for .NET segítségével. Ez az átfogó útmutató a beállítást, a megvalósítást és a gyakorlati alkalmazásokat ismerteti.
 
 ### [Képméret beállítása PDF-ben az Aspose.PDF for .NET használatával](./set-image-size-pdf-aspose-dotnet/)
@@ -177,6 +177,10 @@ Ismerje meg, hogyan javíthatja PDF-dokumentumait képhátterek beállításáva
 
 ### [Átlátszóság hozzáadása PDF-hez Aspose PDF használatával C#-ban – Lépésről lépésre útmutató](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Tanuld meg, hogyan adhat hozzá átlátszó elemeket PDF-dokumentumokhoz az Aspose.PDF for .NET segítségével C#-ban.
+
+### [Átlátszóság beállítása PDF-ben az Aspose.Pdf C#-val](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
+Tanuld meg, hogyan állíthat be átlátszóságot PDF-dokumentumokban az Aspose.Pdf C# használatával.
+
 ### [PDF validálása és téglalap hozzáadása – Teljes útmutató](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
 Tanulja meg, hogyan ellenőrizheti a PDF-et, és adhat hozzá téglalap alakzatot az Aspose.PDF for .NET segítségével.
 ### [Veszteségmentes képtömörítés Word dokumentumokban – Teljes útmutató](./lossless-image-compression-in-word-docs-complete-guide/)
