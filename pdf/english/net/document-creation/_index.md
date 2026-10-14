@@ -27,6 +27,9 @@ pdf.Save("output.pdf");
 
 ## Available Tutorials
 
+{{< tutorial-card link="./create-pdf-x-3-document/" title="Create PDF/X‑3 Document with Three Pages Using Aspose.Pdf for .NET" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
+
+
 ### [Create PDF Booklets Using Aspose.PDF for .NET&#58; A Step-by-Step Guide](./aspose-pdf-net-create-booklets-tutorial/)
 Learn how to create professional PDF booklets with Aspose.PDF for .NET. This tutorial covers setup, implementation, and practical applications.
 ### [Create PDFs from XML and XSLT Using Aspose.PDF .NET&#58; A Step-by-Step Guide](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)

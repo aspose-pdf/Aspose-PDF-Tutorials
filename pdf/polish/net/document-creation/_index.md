@@ -18,6 +18,8 @@ Nasze samouczki tworzenia dokumentów zapewniają kompleksowe wskazówki dotycz�
 ## Dostępne samouczki
 
 
+
+{{< tutorial-card link="./create-pdf-x-3-document/" title="Utwórz dokument PDF/X‑3 z trzema stronami przy użyciu Aspose.Pdf for .NET" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
 ### [Tworzenie broszur PDF przy użyciu Aspose.PDF dla .NET: przewodnik krok po kroku](./aspose-pdf-net-create-booklets-tutorial/)
 Dowiedz się, jak tworzyć profesjonalne broszury PDF za pomocą Aspose.PDF dla .NET. Ten samouczek obejmuje konfigurację, implementację i praktyczne zastosowania.
 ### [Tworzenie plików PDF z XML i XSLT przy użyciu Aspose.PDF .NET: przewodnik krok po kroku](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)

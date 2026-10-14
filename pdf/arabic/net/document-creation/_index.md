@@ -18,6 +18,8 @@
 ## البرامج التعليمية المتاحة
 
 
+
+{{< tutorial-card link="./create-pdf-x-3-document/" title="إنشاء مستند PDF/X‑3 بثلاث صفحات باستخدام Aspose.Pdf for .NET" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
 ### [إنشاء كتيبات PDF باستخدام Aspose.PDF لـ .NET: دليل خطوة بخطوة](./aspose-pdf-net-create-booklets-tutorial/)
 تعلّم كيفية إنشاء كتيبات PDF احترافية باستخدام Aspose.PDF لـ .NET. يغطي هذا البرنامج التعليمي الإعداد والتنفيذ والتطبيقات العملية.
 ### [إنشاء ملفات PDF من XML وXSLT باستخدام Aspose.PDF .NET: دليل خطوة بخطوة](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)

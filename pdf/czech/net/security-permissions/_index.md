@@ -17,6 +17,8 @@ Naše tutoriály o zabezpečení a oprávněních ukazují, jak chránit dokumen
 
 ## Dostupné tutoriály
 
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="Zašifrujte PDF bez oprávnění k tisku pomocí Aspose.PDF pro .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [Změna hesel PDF pomocí Aspose.PDF pro .NET](./change-pdf-password-aspose-pdf-net-guide/)
 Výukový program pro kódování Aspose.PDF Net
 

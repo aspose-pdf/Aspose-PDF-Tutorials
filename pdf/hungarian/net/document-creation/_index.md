@@ -18,6 +18,8 @@ Dokumentumkészítési oktatóanyagaink átfogó útmutatást nyújtanak PDF-fá
 ## Elérhető oktatóanyagok
 
 
+
+{{< tutorial-card link="./create-pdf-x-3-document/" title="PDF/X‑3 dokumentum létrehozása három oldallal az Aspose.Pdf for .NET használatával" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
 ### [PDF füzetek létrehozása az Aspose.PDF for .NET használatával: lépésről lépésre útmutató](./aspose-pdf-net-create-booklets-tutorial/)
 Tanuld meg, hogyan készíthetsz professzionális PDF füzeteket az Aspose.PDF for .NET segítségével. Ez az oktatóanyag a beállítást, a megvalósítást és a gyakorlati alkalmazásokat ismerteti.
 ### [PDF fájlok létrehozása XML-ből és XSLT-ből az Aspose.PDF .NET használatával: lépésről lépésre útmutató](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)

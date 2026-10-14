@@ -17,6 +17,8 @@ Nuestros tutoriales de seguridad y permisos muestran cómo proteger documentos P
 
 ## Tutoriales disponibles
 
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="Cifrar PDF con permiso de No‑Impresión usando Aspose.PDF para .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [Cambiar contraseñas de PDF con Aspose.PDF para .NET](./change-pdf-password-aspose-pdf-net-guide/)
 Un tutorial de código para Aspose.PDF Net
 

@@ -17,6 +17,8 @@
 
 ## Доступные обучающие материалы
 
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="Шифрование PDF без разрешения на печать с использованием Aspose.PDF for .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [Изменение паролей PDF-файлов с помощью Aspose.PDF для .NET](./change-pdf-password-aspose-pdf-net-guide/)
 Учебник по коду для Aspose.PDF Net
 

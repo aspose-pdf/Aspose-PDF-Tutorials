@@ -17,6 +17,8 @@
 
 ## Διαθέσιμα εκπαιδευτικά βίντεο
 
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="Κρυπτογράφηση PDF χωρίς δικαίωμα εκτύπωσης χρησιμοποιώντας Aspose.PDF for .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [Αλλαγή κωδικών πρόσβασης PDF με το Aspose.PDF για .NET](./change-pdf-password-aspose-pdf-net-guide/)
 Ένα σεμινάριο κώδικα για το Aspose.PDF Net
 

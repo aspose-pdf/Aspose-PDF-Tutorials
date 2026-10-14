@@ -17,6 +17,8 @@
 
 ## 사용 가능한 튜토리얼
 
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="Aspose.PDF for .NET을 사용하여 인쇄 권한이 없는 PDF 암호화" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [Aspose.PDF for .NET으로 PDF 비밀번호 변경](./change-pdf-password-aspose-pdf-net-guide/)
 Aspose.PDF Net에 대한 코드 튜토리얼
 

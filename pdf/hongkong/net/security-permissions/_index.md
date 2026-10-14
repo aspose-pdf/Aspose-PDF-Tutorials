@@ -17,6 +17,8 @@
 
 ## 可用教程
 
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="使用 Aspose.PDF for .NET 加密 PDF（不允許列印）" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [使用 Aspose.PDF for .NET 變更 PDF 密碼](./change-pdf-password-aspose-pdf-net-guide/)
 Aspose.PDF Net 程式碼教學
 

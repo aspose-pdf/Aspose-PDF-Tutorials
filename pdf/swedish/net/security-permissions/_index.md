@@ -17,6 +17,8 @@ Våra handledningar om säkerhet och behörigheter visar hur du skyddar PDF-doku
 
 ## Tillgängliga handledningar
 
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="Kryptera PDF utan utskriftsbehörighet med Aspose.PDF för .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [Ändra PDF-lösenord med Aspose.PDF för .NET](./change-pdf-password-aspose-pdf-net-guide/)
 En kodhandledning för Aspose.PDF Net
 

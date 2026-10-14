@@ -17,6 +17,8 @@
 
 ## البرامج التعليمية المتاحة
 
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="تشفير PDF بدون إذن طباعة باستخدام Aspose.PDF for .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [تغيير كلمات مرور PDF باستخدام Aspose.PDF لـ .NET](./change-pdf-password-aspose-pdf-net-guide/)
 برنامج تعليمي لبرمجة Aspose.PDF Net
 

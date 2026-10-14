@@ -17,6 +17,8 @@ Güvenlik ve izinler eğitimlerimiz, .NET için Aspose.PDF kullanarak PDF belgel
 
 ## Mevcut Eğitimler
 
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="Aspose.PDF for .NET kullanarak Yazdırma İzni Olmadan PDF Şifreleme" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [Aspose.PDF for .NET ile PDF Parolalarını Değiştirin](./change-pdf-password-aspose-pdf-net-guide/)
 Aspose.PDF Net için bir kod öğreticisi
 

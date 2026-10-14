@@ -17,6 +17,8 @@ nostri tutorial su sicurezza e autorizzazioni illustrano come proteggere i docum
 
 ## Tutorial disponibili
 
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="Cifra PDF senza permesso di stampa usando Aspose.PDF per .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [Cambia le password PDF con Aspose.PDF per .NET](./change-pdf-password-aspose-pdf-net-guide/)
 Un tutorial sul codice per Aspose.PDF Net
 

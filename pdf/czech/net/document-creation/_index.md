@@ -18,6 +18,8 @@ Naše tutoriály pro vytváření dokumentů poskytují komplexní návod pro pr
 ## Dostupné tutoriály
 
 
+
+{{< tutorial-card link="./create-pdf-x-3-document/" title="Vytvořte PDF/X‑3 dokument se třemi stránkami pomocí Aspose.Pdf pro .NET" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
 ### [Vytváření brožur ve formátu PDF pomocí Aspose.PDF pro .NET: Podrobný návod](./aspose-pdf-net-create-booklets-tutorial/)
 Naučte se, jak vytvářet profesionální brožury ve formátu PDF pomocí nástroje Aspose.PDF pro .NET. Tento tutoriál se zabývá nastavením, implementací a praktickými aplikacemi.
 ### [Vytváření PDF souborů z XML a XSLT pomocí Aspose.PDF .NET: Podrobný návod](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
