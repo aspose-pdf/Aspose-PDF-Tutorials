@@ -17,6 +17,8 @@ Leer PDF-documentmanipulatie onder de knie te krijgen met onze gedetailleerde As
 
 ## Beschikbare tutorials
 
+{{< tutorial-card link="./compare-pdfs/" title="PDF's vergelijken en een gemarkeerd diff‑document genereren met Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
 {{< tutorial-card link="./compare-pdf-forms/" title="PDF‑formulieren vergelijken en JSON‑ & visuele diff genereren met Aspose.Pdf voor .NET" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
 
 {{< tutorial-card link="./exclude-areas/" title="PDF's vergelijken terwijl specifieke gebieden worden genegeerd met Aspose.Pdf for .NET" imgSrc="./exclude-areas/images/thumb.png" >}}

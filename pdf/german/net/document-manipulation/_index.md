@@ -17,6 +17,8 @@ Meistern Sie die PDF-Dokumentenbearbeitung mit unseren ausführlichen Aspose.PDF
 
 ## Verfügbare Tutorials
 
+{{< tutorial-card link="./compare-pdfs/" title="PDFs vergleichen und ein hervorgehobenes Diff‑Dokument mit Aspose.PDF für .NET erzeugen" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
 {{< tutorial-card link="./compare-pdf-forms/" title="PDF‑Formulare vergleichen und JSON‑ & visuelles Diff mit Aspose.Pdf für .NET erzeugen" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
 
 {{< tutorial-card link="./exclude-areas/" title="PDFs vergleichen, während bestimmte Bereiche ignoriert werden, mit Aspose.Pdf für .NET" imgSrc="./exclude-areas/images/thumb.png" >}}

@@ -17,6 +17,8 @@
 
 ## उपलब्ध ट्यूटोरियल
 
+{{< tutorial-card link="./compare-pdfs/" title="Aspose.PDF for .NET का उपयोग करके PDF की तुलना करें और हाइलाइटेड डिफ़ दस्तावेज़ बनाएं।" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
 {{< tutorial-card link="./compare-pdf-forms/" title="Aspose.Pdf for .NET का उपयोग करके PDF फ़ॉर्म की तुलना करें और JSON एवं विज़ुअल डिफ़ उत्पन्न करें" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
 
 {{< tutorial-card link="./exclude-areas/" title="Aspose.Pdf for .NET का उपयोग करके विशिष्ट क्षेत्रों को अनदेखा करते हुए PDF की तुलना करें" imgSrc="./exclude-areas/images/thumb.png" >}}

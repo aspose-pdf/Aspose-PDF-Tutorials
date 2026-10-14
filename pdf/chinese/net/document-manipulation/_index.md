@@ -17,6 +17,8 @@
 
 ## 可用教程
 
+{{< tutorial-card link="./compare-pdfs/" title="使用 Aspose.PDF for .NET 比较 PDF 并生成带高亮的 Diff 文档" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
 {{< tutorial-card link="./compare-pdf-forms/" title="使用 Aspose.Pdf for .NET 比较 PDF 表单并生成 JSON 与可视化差异。" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
 
 {{< tutorial-card link="./exclude-areas/" title="使用 Aspose.Pdf for .NET 在忽略特定区域的情况下比较 PDF" imgSrc="./exclude-areas/images/thumb.png" >}}

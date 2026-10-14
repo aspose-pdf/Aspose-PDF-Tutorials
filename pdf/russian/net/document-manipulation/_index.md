@@ -17,6 +17,8 @@
 
 ## Доступные обучающие материалы
 
+{{< tutorial-card link="./compare-pdfs/" title="Сравнение PDF‑файлов и создание выделенного diff‑документа с помощью Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
 {{< tutorial-card link="./compare-pdf-forms/" title="Сравнение PDF‑форм и генерация JSON и визуального diff с использованием Aspose.Pdf for .NET" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
 
 {{< tutorial-card link="./exclude-areas/" title="Сравнение PDF, игнорируя определённые области, с использованием Aspose.Pdf for .NET" imgSrc="./exclude-areas/images/thumb.png" >}}

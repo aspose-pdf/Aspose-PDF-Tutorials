@@ -17,6 +17,8 @@
 
 ## Διαθέσιμα εκπαιδευτικά βίντεο
 
+{{< tutorial-card link="./compare-pdfs/" title="Συγκρίνετε PDF και δημιουργήστε ένα επισημασμένο έγγραφο Diff χρησιμοποιώντας το Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
 {{< tutorial-card link="./compare-pdf-forms/" title="Συγκρίνετε φόρμες PDF και δημιουργήστε JSON & οπτικό Diff χρησιμοποιώντας το Aspose.Pdf για .NET" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
 
 {{< tutorial-card link="./exclude-areas/" title="Σύγκριση PDF ενώ αγνοούνται συγκεκριμένες περιοχές με χρήση του Aspose.Pdf για .NET" imgSrc="./exclude-areas/images/thumb.png" >}}

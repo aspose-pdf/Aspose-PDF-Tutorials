@@ -18,6 +18,8 @@ Làm chủ thao tác tài liệu PDF với hướng dẫn chi tiết về Aspose
 ## Hướng dẫn có sẵn
 
 
+{{< tutorial-card link="./compare-pdfs/" title="So sánh PDF và Tạo Tài liệu Diff Nổi Bật Sử dụng Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
 {{< tutorial-card link="./compare-pdf-forms/" title="So sánh các biểu mẫu PDF và tạo JSON & Diff trực quan bằng Aspose.Pdf for .NET" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
 
 {{< tutorial-card link="./exclude-areas/" title="So sánh PDF trong khi bỏ qua các khu vực cụ thể bằng Aspose.Pdf cho .NET" imgSrc="./exclude-areas/images/thumb.png" >}}

@@ -17,6 +17,8 @@ Ayrıntılı Aspose.PDF .NET eğitimlerimizle PDF belge düzenlemede ustalaşın
 
 ## Mevcut Eğitimler
 
+{{< tutorial-card link="./compare-pdfs/" title="PDF'leri karşılaştırın ve Aspose.PDF for .NET kullanarak vurgulanan bir Diff belgesi oluşturun" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
 {{< tutorial-card link="./compare-pdf-forms/" title="Aspose.Pdf for .NET kullanarak PDF Formlarını karşılaştırın ve JSON ile Görsel Diff oluşturun" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
 
 {{< tutorial-card link="./exclude-areas/" title="Aspose.Pdf for .NET kullanarak belirli alanları yok sayarak PDF'leri karşılaştırın" imgSrc="./exclude-areas/images/thumb.png" >}}

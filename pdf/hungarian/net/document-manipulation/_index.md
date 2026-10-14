@@ -17,6 +17,8 @@ Sajátítsa el a PDF dokumentumok manipulálásának mesteri szintjét részlete
 
 ## Elérhető oktatóanyagok
 
+{{< tutorial-card link="./compare-pdfs/" title="PDF-ek összehasonlítása és kiemelt diff dokumentum generálása az Aspose.PDF for .NET használatával" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
 {{< tutorial-card link="./compare-pdf-forms/" title="PDF űrlapok összehasonlítása és JSON & vizuális diff generálása az Aspose.Pdf for .NET használatával" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
 
 {{< tutorial-card link="./exclude-areas/" title="PDF-ek összehasonlítása meghatározott területek figyelmen kívül hagyásával az Aspose.Pdf for .NET segítségével" imgSrc="./exclude-areas/images/thumb.png" >}}

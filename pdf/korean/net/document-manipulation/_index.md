@@ -17,6 +17,8 @@
 
 ## 사용 가능한 튜토리얼
 
+{{< tutorial-card link="./compare-pdfs/" title="Aspose.PDF for .NET을 사용하여 PDF를 비교하고 강조된 Diff 문서를 생성합니다." imgSrc="./compare-pdfs/images/thumb.png" >}}
+
 {{< tutorial-card link="./compare-pdf-forms/" title="Aspose.Pdf for .NET을 사용하여 PDF 양식을 비교하고 JSON 및 시각적 차이를 생성합니다." imgSrc="./compare-pdf-forms/images/thumb.png" >}}
 
 {{< tutorial-card link="./exclude-areas/" title="Aspose.Pdf for .NET을 사용하여 특정 영역을 무시하면서 PDF 비교하기" imgSrc="./exclude-areas/images/thumb.png" >}}

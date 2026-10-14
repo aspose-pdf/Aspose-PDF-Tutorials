@@ -17,6 +17,8 @@
 
 ## บทช่วยสอนที่พร้อมใช้งาน
 
+{{< tutorial-card link="./compare-pdfs/" title="เปรียบเทียบ PDF และสร้างเอกสาร Diff ที่เน้นด้วย Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
 {{< tutorial-card link="./compare-pdf-forms/" title="เปรียบเทียบฟอร์ม PDF และสร้าง JSON & การเปรียบต่างแบบภาพโดยใช้ Aspose.Pdf for .NET" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
 
 {{< tutorial-card link="./exclude-areas/" title="เปรียบเทียบ PDF โดยละเว้นพื้นที่เฉพาะด้วย Aspose.Pdf for .NET" imgSrc="./exclude-areas/images/thumb.png" >}}
