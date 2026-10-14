@@ -21,6 +21,9 @@ Tutorial ini memberikan gambaran terperinci tentang metode dan teknik untuk mema
 ## Tutorial
 | Judul | Deskripsi |
 Bahasa Indonesia: --- | --- Bahasa Indonesia: 
+
+{{< tutorial-card link="./encrypt-pdf/" title="Enkripsi PDF dengan Password Pengguna dan Pemilik Menggunakan Aspose.PDF untuk .NET" imgSrc="./encrypt-pdf/images/thumb.png" >}}
+
 | [Ubah Kata Sandi Dalam File PDF](./change-password/) | Pelajari cara mengubah kata sandi PDF dengan mudah menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah kami akan memandu Anda melalui proses ini dengan aman. Bahasa Indonesia:  
 | [Dekripsi File PDF](./decrypt/) | Pelajari cara mendekripsi file PDF dengan aman menggunakan Aspose.PDF untuk .NET. Dapatkan panduan langkah demi langkah untuk meningkatkan keterampilan manajemen dokumen Anda. Bahasa Indonesia:  
 | [Tentukan Kata Sandi yang Benar Dalam File PDF](./determine-correct-password/) | Buka kunci file PDF dengan kata sandi yang tepat menggunakan Aspose.PDF untuk .NET. Pelajari cara mengidentifikasi kata sandi yang tepat dengan mudah. Bahasa Indonesia:  

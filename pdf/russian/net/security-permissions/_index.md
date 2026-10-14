@@ -17,6 +17,11 @@
 
 ## Доступные обучающие материалы
 
+
+{{< tutorial-card link="./encrypt-pdf-form-filling/" title="Зашифровать PDF, разрешив только заполнение форм, с помощью Aspose.Pdf for .NET" imgSrc="./encrypt-pdf-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-form-filling/" title="Зашифровать PDF только для заполнения форм с помощью AES‑256, используя Aspose.Pdf for .NET" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
+
 ### [Изменение паролей PDF-файлов с помощью Aspose.PDF для .NET](./change-pdf-password-aspose-pdf-net-guide/)
 Учебник по коду для Aspose.PDF Net
 

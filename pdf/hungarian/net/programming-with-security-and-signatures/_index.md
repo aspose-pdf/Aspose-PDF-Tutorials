@@ -19,6 +19,9 @@ A Biztonsággal és aláírásokkal programozás című oktatóanyag végigvezet
 Az oktatóanyag részletes áttekintést nyújt a PDF-fájlok titkosságának és hitelességének biztosítására szolgáló módszerekről és technikákról. Megtanulod, hogyan kezelheted a digitális tanúsítványokat, hogyan adhatsz hozzá biztonsági engedélyeket, hogyan alkalmazhatsz biztonsági szabályzatokat és egyebeket. Ezen oktatóanyagok segítségével megbízhatóan és professzionálisan védheted PDF-dokumentumaidat.
 
 ## Oktatóanyagok
+
+{{< tutorial-card link="./encrypt-pdf/" title="PDF titkosítása felhasználói és tulajdonosi jelszavakkal az Aspose.PDF for .NET használatával" imgSrc="./encrypt-pdf/images/thumb.png" >}}
+
 | Cím | Leírás |
 | --- | --- | 
 | [Jelszó módosítása PDF fájlban](./change-password/) | Tanulja meg, hogyan módosíthatja egyszerűen a PDF-jelszavakat az Aspose.PDF for .NET segítségével. Lépésről lépésre útmutatónk biztonságosan végigvezeti Önt a folyamaton. |  

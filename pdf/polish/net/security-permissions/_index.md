@@ -17,6 +17,11 @@ Nasze samouczki dotyczące bezpieczeństwa i uprawnień pokazują, jak chronić 
 
 ## Dostępne samouczki
 
+
+{{< tutorial-card link="./encrypt-pdf-form-filling/" title="Zaszyfruj PDF, aby zezwalał wyłącznie na wypełnianie formularzy, używając Aspose.Pdf dla .NET" imgSrc="./encrypt-pdf-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-form-filling/" title="Zaszyfruj PDF wyłącznie do wypełniania formularzy przy użyciu AES‑256 z Aspose.Pdf dla .NET" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
+
 ### [Zmiana haseł PDF za pomocą Aspose.PDF dla .NET](./change-pdf-password-aspose-pdf-net-guide/)
 Samouczek dotyczący kodu dla Aspose.PDF Net
 

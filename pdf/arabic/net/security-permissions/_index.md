@@ -17,6 +17,11 @@
 
 ## البرامج التعليمية المتاحة
 
+
+{{< tutorial-card link="./encrypt-pdf-form-filling/" title="تشفير PDF للسماح بملء النماذج فقط باستخدام Aspose.Pdf for .NET" imgSrc="./encrypt-pdf-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-form-filling/" title="تشفير PDF لتعبئة النماذج فقط باستخدام AES‑256 مع Aspose.Pdf for .NET" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
+
 ### [تغيير كلمات مرور PDF باستخدام Aspose.PDF لـ .NET](./change-pdf-password-aspose-pdf-net-guide/)
 برنامج تعليمي لبرمجة Aspose.PDF Net
 

@@ -17,6 +17,11 @@ Naše tutoriály o zabezpečení a oprávněních ukazují, jak chránit dokumen
 
 ## Dostupné tutoriály
 
+
+{{< tutorial-card link="./encrypt-pdf-form-filling/" title="Zašifrujte PDF tak, aby bylo povoleno pouze vyplňování formulářů pomocí Aspose.Pdf pro .NET" imgSrc="./encrypt-pdf-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-form-filling/" title="Zašifrujte PDF pouze pro vyplňování formulářů pomocí AES‑256 s Aspose.Pdf pro .NET" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
+
 ### [Změna hesel PDF pomocí Aspose.PDF pro .NET](./change-pdf-password-aspose-pdf-net-guide/)
 Výukový program pro kódování Aspose.PDF Net
 

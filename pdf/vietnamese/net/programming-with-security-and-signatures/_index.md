@@ -19,6 +19,9 @@ Hướng dẫn Lập trình với Bảo mật và Chữ ký hướng dẫn bạn
 Hướng dẫn cung cấp cho bạn tổng quan chi tiết về các phương pháp và kỹ thuật để đảm bảo tính bảo mật và tính xác thực của các tệp PDF của bạn. Bạn sẽ học cách quản lý chứng chỉ kỹ thuật số, thêm quyền bảo mật, áp dụng chính sách bảo mật, v.v. Sử dụng các hướng dẫn này, bạn sẽ có thể bảo mật tài liệu PDF của mình một cách đáng tin cậy và chuyên nghiệp.
 
 ## Hướng dẫn
+
+{{< tutorial-card link="./encrypt-pdf/" title="Mã hóa PDF bằng mật khẩu Người dùng và Chủ sở hữu bằng Aspose.PDF for .NET" imgSrc="./encrypt-pdf/images/thumb.png" >}}
+
 | Tiêu đề | Mô tả |
 | --- | --- | 
 | [Thay đổi mật khẩu trong tệp PDF](./change-password/) | Học cách thay đổi mật khẩu PDF dễ dàng bằng Aspose.PDF cho .NET. Hướng dẫn từng bước của chúng tôi sẽ hướng dẫn bạn thực hiện quy trình này một cách an toàn. |  

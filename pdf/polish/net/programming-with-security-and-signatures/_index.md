@@ -19,6 +19,9 @@ Samouczek Programming with Security and Signatures przeprowadzi Cię przez funkc
 Samouczek zapewnia szczegółowy przegląd metod i technik zapewniających poufność i autentyczność plików PDF. Dowiesz się, jak zarządzać certyfikatami cyfrowymi, dodawać uprawnienia bezpieczeństwa, stosować zasady bezpieczeństwa i nie tylko. Korzystając z tych samouczków, będziesz w stanie niezawodnie i profesjonalnie zabezpieczać dokumenty PDF.
 
 ## Samouczki
+
+{{< tutorial-card link="./encrypt-pdf/" title="Szyfrowanie PDF przy użyciu haseł użytkownika i właściciela w Aspose.PDF dla .NET" imgSrc="./encrypt-pdf/images/thumb.png" >}}
+
 | Tytuł | Opis |
 | --- | --- | 
 | [Zmień hasło w pliku PDF](./change-password/) | Naucz się łatwo zmieniać hasła PDF za pomocą Aspose.PDF dla .NET. Nasz przewodnik krok po kroku przeprowadzi Cię przez ten proces bezpiecznie. |  

@@ -17,6 +17,11 @@ Hướng dẫn về bảo mật và quyền của chúng tôi trình bày cách 
 
 ## Hướng dẫn có sẵn
 
+
+{{< tutorial-card link="./encrypt-pdf-form-filling/" title="Mã hóa PDF để chỉ cho phép điền biểu mẫu bằng Aspose.Pdf cho .NET" imgSrc="./encrypt-pdf-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-form-filling/" title="Mã hóa PDF chỉ cho phép điền biểu mẫu bằng AES‑256 sử dụng Aspose.Pdf cho .NET" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
+
 ### [Thay đổi mật khẩu PDF bằng Aspose.PDF cho .NET](./change-pdf-password-aspose-pdf-net-guide/)
 Hướng dẫn mã cho Aspose.PDF Net
 

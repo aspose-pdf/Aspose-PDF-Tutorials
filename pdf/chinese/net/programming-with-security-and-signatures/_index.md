@@ -20,6 +20,9 @@
 
 ## 教程
 标题 | 描述 |
+
+{{< tutorial-card link="./encrypt-pdf/" title="使用 Aspose.PDF for .NET 通过用户和所有者密码加密 PDF" imgSrc="./encrypt-pdf/images/thumb.png" >}}
+
 | --- | --- | 
 | [更改 PDF 文件中的密码](./change-password/) 学习如何使用 Aspose.PDF for .NET 轻松更改 PDF 密码。我们的分步指南将引导您安全地完成整个过程。|  
 | [解密PDF文件](./decrypt/) 了解如何使用 Aspose.PDF for .NET 安全解密 PDF 文件。获取分步指导，提升您的文档管理技能。|  

@@ -17,6 +17,11 @@
 
 ## 사용 가능한 튜토리얼
 
+
+{{< tutorial-card link="./encrypt-pdf-form-filling/" title="Aspose.Pdf for .NET을 사용하여 양식 입력만 허용하도록 PDF 암호화" imgSrc="./encrypt-pdf-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-form-filling/" title="Aspose.Pdf for .NET을 사용하여 AES‑256으로 양식 입력 전용 PDF 암호화" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
+
 ### [Aspose.PDF for .NET으로 PDF 비밀번호 변경](./change-pdf-password-aspose-pdf-net-guide/)
 Aspose.PDF Net에 대한 코드 튜토리얼
 

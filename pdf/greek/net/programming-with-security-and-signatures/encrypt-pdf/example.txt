@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: Αυτό το σεμινάριο δείχνει πώς να φορτώσετε ένα υπάρχον PDF με το Aspose.Pdf, να περιορίσετε τα δικαιώματά του, να το κρυπτογραφήσετε χρησιμοποιώντας τόσο έναν κωδικό χρήστη (client) όσο και έναν κωδικό ιδιοκτήτη (admin) με τον αλγόριθμο AES‑256, και να αποθηκεύσετε το προστατευμένο έγγραφο.
+//ExStepSummary:0: Δηλώστε τις διαδρομές αρχείων προέλευσης και προορισμού καθώς και τους κωδικούς χρήστη (client) και ιδιοκτήτη (admin).
+//ExStepSummary:1: Ελέγξτε αν το PDF προέλευσης υπάρχει και τερματίστε με μήνυμα σφάλματος εάν δεν υπάρχει.
+//ExStepSummary:2: Ανοίξτε το PDF, επιτρέψτε μόνο την τροποποίηση και εξαγωγή περιεχομένου, κρυπτογραφήστε το με τους δύο κωδικούς χρησιμοποιώντας AES‑256, αποθηκεύστε το προστατευμένο αρχείο και εμφανίστε μήνυμα επιτυχίας.
+//ExStepSummary:3: Πιάστε τυχόν σφάλματα που προκύπτουν και γράψτε το μήνυμα της εξαίρεσης στην κονσόλα σφαλμάτων.
+//ExStep:0-
+const string sourceFile = "original.pdf";
+const string destinationFile = "protected.pdf";
+const string clientPwd = "clientPwd";
+const string adminPwd = "adminPwd";
+
+//ExStep:1-
+if (!File.Exists(sourceFile))
+{
+    Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+    return;
+}
+
+//ExStep:2-
+try
+{
+    using (Document pdfDoc = new Document(sourceFile))
+    {
+        Permissions allowedPerms = Permissions.ModifyContent | Permissions.ExtractContent;
+
+        pdfDoc.Encrypt(clientPwd, adminPwd, allowedPerms, CryptoAlgorithm.AESx256);
+
+        pdfDoc.Save(destinationFile);
+    }
+
+    Console.WriteLine($"Secured PDF written to '{destinationFile}'.");
+}
+
+//ExStep:3-
+catch (Exception ex)
+{
+    Console.Error.WriteLine($"Failure: {ex.Message}");
+}
+//ExEnd

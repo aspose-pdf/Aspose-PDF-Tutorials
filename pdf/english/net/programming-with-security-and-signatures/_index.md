@@ -32,6 +32,9 @@ pdf.Save("encrypted.pdf");
 ```
 
 ## Tutorials
+
+{{< tutorial-card link="./encrypt-pdf/" title="Encrypt PDF with User and Owner Passwords Using Aspose.PDF for .NET" imgSrc="./encrypt-pdf/images/thumb.png" >}}
+
 | Title | Description |
 | --- | --- | 
 | [Change Password In PDF File]({{< relref "change-password/" >}}) | Learn to change PDF passwords easily using Aspose.PDF for .NET. Our step-by-step guide walks you through the process securely. |  

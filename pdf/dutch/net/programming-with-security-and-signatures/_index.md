@@ -19,6 +19,9 @@ De tutorial 'Programmeren met beveiliging en handtekeningen' leidt u door de bev
 De tutorial geeft u een gedetailleerd overzicht van methoden en technieken om de vertrouwelijkheid en authenticiteit van uw PDF-bestanden te waarborgen. U leert hoe u digitale certificaten beheert, beveiligingsmachtigingen toevoegt, beveiligingsbeleid toepast en meer. Met behulp van deze tutorials kunt u uw PDF-documenten betrouwbaar en professioneel beveiligen.
 
 ## Zelfstudies
+
+{{< tutorial-card link="./encrypt-pdf/" title="PDF versleutelen met gebruikers‑ en eigenaar‑wachtwoorden met Aspose.PDF for .NET" imgSrc="./encrypt-pdf/images/thumb.png" >}}
+
 | Titel | Beschrijving |
 | --- | --- | 
 | [Wachtwoord wijzigen in PDF-bestand](./change-password/) | Leer hoe u PDF-wachtwoorden eenvoudig kunt wijzigen met Aspose.PDF voor .NET. Onze stapsgewijze handleiding leidt u veilig door het proces. |  

@@ -17,6 +17,11 @@ Güvenlik ve izinler eğitimlerimiz, .NET için Aspose.PDF kullanarak PDF belgel
 
 ## Mevcut Eğitimler
 
+
+{{< tutorial-card link="./encrypt-pdf-form-filling/" title="Aspose.Pdf for .NET kullanarak PDF'yi yalnızca form doldurmaya izin verecek şekilde şifreleyin" imgSrc="./encrypt-pdf-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-form-filling/" title="Aspose.Pdf for .NET kullanarak AES‑256 ile yalnızca form doldurma için PDF'yi şifreleyin" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
+
 ### [Aspose.PDF for .NET ile PDF Parolalarını Değiştirin](./change-pdf-password-aspose-pdf-net-guide/)
 Aspose.PDF Net için bir kod öğreticisi
 

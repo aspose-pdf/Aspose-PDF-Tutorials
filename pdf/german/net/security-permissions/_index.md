@@ -17,6 +17,11 @@ Unsere Tutorials zu Sicherheit und Berechtigungen zeigen Ihnen, wie Sie PDF-Doku
 
 ## Verfügbare Tutorials
 
+
+{{< tutorial-card link="./encrypt-pdf-form-filling/" title="PDF verschlüsseln, um nur das Ausfüllen von Formularen zu erlauben, mit Aspose.Pdf für .NET" imgSrc="./encrypt-pdf-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-form-filling/" title="PDF nur zum Ausfüllen von Formularen mit AES‑256 verschlüsseln mit Aspose.Pdf für .NET" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
+
 ### [Ändern Sie PDF-Passwörter mit Aspose.PDF für .NET](./change-pdf-password-aspose-pdf-net-guide/)
 Ein Code-Tutorial für Aspose.PDF Net
 
