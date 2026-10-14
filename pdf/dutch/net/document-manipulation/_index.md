@@ -18,6 +18,8 @@ Leer PDF-documentmanipulatie onder de knie te krijgen met onze gedetailleerde As
 ## Beschikbare tutorials
 
 {{< tutorial-card link="./compare-pdfs/" title="PDF's vergelijken en een gemarkeerd diff‑document genereren met Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdf-forms/" title="PDF‑formulieren vergelijken en JSON‑ & visuele diff genereren met Aspose.Pdf voor .NET" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
 ### [Datum- en tijdstempels toevoegen aan PDF's met Aspose.PDF voor .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 Leer hoe u efficiënt datum- en tijdstempels of annotaties aan uw PDF-documenten toevoegt met Aspose.PDF voor .NET. Verbeter uw documentbeheer met deze eenvoudig te volgen stappen.
 

@@ -18,6 +18,8 @@ Zvládněte manipulaci s PDF dokumenty s našimi podrobnými tutoriály Aspose.P
 ## Dostupné tutoriály
 
 {{< tutorial-card link="./compare-pdfs/" title="Porovnejte PDF soubory a vytvořte zvýrazněný diff dokument pomocí Aspose.PDF pro .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdf-forms/" title="Porovnejte PDF formuláře a vygenerujte JSON a vizuální diff pomocí Aspose.Pdf pro .NET" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
 ### [Přidání datových a časových razítek do PDF pomocí Aspose.PDF pro .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 Naučte se, jak efektivně přidávat datumová a časová razítka nebo anotace do dokumentů PDF pomocí Aspose.PDF pro .NET. Vylepšete správu dokumentů pomocí těchto snadno sledovatelných kroků.
 

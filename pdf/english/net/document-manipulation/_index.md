@@ -19,6 +19,8 @@ Master PDF document manipulation with our detailed Aspose.PDF .NET tutorials. Th
 
 {{< tutorial-card link="./compare-pdfs/" title="Compare PDFs and Generate a Highlighted Diff Document Using Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
 
+{{< tutorial-card link="./compare-pdf-forms/" title="Compare PDF Forms and Generate JSON & Visual Diff Using Aspose.Pdf for .NET" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
+
 ### [Add Date & Time Stamps to PDFs Using Aspose.PDF for .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 Learn how to efficiently add date and time stamps or annotations into your PDF documents using Aspose.PDF for .NET. Enhance document management with these easy-to-follow steps.
 

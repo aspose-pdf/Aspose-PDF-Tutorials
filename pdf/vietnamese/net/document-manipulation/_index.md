@@ -19,6 +19,8 @@ Làm chủ thao tác tài liệu PDF với hướng dẫn chi tiết về Aspose
 
 
 {{< tutorial-card link="./compare-pdfs/" title="So sánh PDF và Tạo Tài liệu Diff Nổi Bật Sử dụng Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdf-forms/" title="So sánh các biểu mẫu PDF và tạo JSON & Diff trực quan bằng Aspose.Pdf for .NET" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
 ### [Thêm Dấu Ngày & Giờ vào PDF Sử dụng Aspose.PDF cho .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 Tìm hiểu cách thêm ngày tháng và thời gian hoặc chú thích hiệu quả vào tài liệu PDF của bạn bằng Aspose.PDF cho .NET. Nâng cao khả năng quản lý tài liệu bằng các bước dễ thực hiện sau.
 
