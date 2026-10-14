@@ -81,6 +81,9 @@
 | [Aspose PDF 轉換教學 – 將 PDF 轉換為 PDF/X‑4 步驟說明](./aspose-pdf-conversion-tutorial-convert-pdfs-to-pdf-x-4-step/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 轉換為 PDF/X‑4 格式。 |
 | [載入 PDF 文件並轉換為 PDF/X‑4 – 完整指南](./load-pdf-document-and-convert-to-pdf-x-4-complete-guide/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 C# 中載入 PDF 並將其轉換為 PDF/X‑4 格式。 |
 | [在 C# 中將 PDF 轉換為 PDF/X-1A 並使用色彩管理](./convert-pdf-to-pdf-x-1a-with-color-management-in-c/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 轉換為 PDF/X-1A，並應用色彩管理。 |
+| [Aspose PDF 格式轉換：在 C# 中將 PDF 轉換為 PDF/X‑4](./aspose-pdf-format-conversion-convert-pdf-to-pdf-x-4-in-c/) |透過本分步教學了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 轉換為 PDF/X‑4 格式。 |
+| [使用 Aspose.Pdf 建立 PDF 圖像 – 步驟說明指南](./create-pdf-image-with-aspose-pdf-step-by-step-guide/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 建立 PDF 圖像，適合需要自訂圖形內容的開發者。 |
+| [如何使用 Aspose 轉換 PDF – 完整步驟指南](./how-to-convert-pdf-with-aspose-complete-step-by-step-guide/) |本完整步驟指南說明如何使用 Aspose.PDF for .NET 轉換 PDF，涵蓋設定、執行與最佳化技巧。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

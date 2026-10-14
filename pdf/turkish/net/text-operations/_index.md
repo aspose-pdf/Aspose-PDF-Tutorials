@@ -166,6 +166,8 @@ Aspose.PDF Net için bir kod öğreticisi
 
 ### [Aspose ile PDF Kırpma – Adım Adım Kılavuz](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
 Aspose.PDF for .NET kullanarak PDF belgelerinde kırpma (redact) işlemini adım adım nasıl uygulayacağınızı öğrenin.
+### [Aspose.Pdf ile PDF Arama – Tam C# Kılavuzu](./how-to-search-pdf-with-aspose-pdf-complete-c-guide/)
+Aspose.Pdf for .NET kullanarak PDF belgelerinde metin aramayı adım adım öğrenin; C# kod örnekleriyle kapsamlı bir rehber.
 
 ## Ek Kaynaklar
 

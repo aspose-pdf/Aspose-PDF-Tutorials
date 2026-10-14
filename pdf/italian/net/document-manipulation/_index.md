@@ -340,6 +340,8 @@ Scopri come eliminare i font incorporati dai PDF utilizzando Aspose.PDF per .NET
 ### [Appiattire i livelli PDF in C# – Guida all'esportazione e all'estrazione](./flatten-pdf-layers-in-c-export-extract-guide/)
 Scopri come appiattire i livelli di un PDF e esportarli o estrarli usando Aspose.PDF per .NET con C#.
 
+### [Unire i livelli PDF in C# – Come combinare i livelli PDF](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+Scopri come unire più livelli di un PDF in C# utilizzando Aspose.PDF per .NET per creare documenti complessi.
 
 ## Risorse aggiuntive
 

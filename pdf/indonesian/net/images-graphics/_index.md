@@ -185,6 +185,11 @@ Pelajari cara menyempurnakan dokumen PDF Anda dengan mengatur latar belakang gam
 Pelajari cara menambahkan bentuk ke PDF dengan Aspose.PDF untuk .NET menggunakan C#. Ikuti panduan langkah demi langkah untuk menguasai penempatan bentuk.
 ### [Kompresi Gambar Tanpa Kehilangan dalam Dokumen Word – Panduan Lengkap](./lossless-image-compression-in-word-docs-complete-guide/)
 Pelajari cara mengompres gambar dalam dokumen Word secara lossless menggunakan Aspose.Words untuk .NET, menjaga kualitas tinggi sambil mengurangi ukuran file.
+### [Tutorial Overlay Gambar PDF – Tambahkan Masker & Aktifkan Pemilihan Tray Otomatis](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+Pelajari cara menambahkan overlay gambar dengan masker serta mengaktifkan pemilihan tray otomatis pada PDF menggunakan Aspose.PDF untuk .NET.
+
+### [Cara Menggunakan GraphicsAbsorber – Ekstrak Grafik Vektor dari PDF dengan Aspose.Pdf](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
+Pelajari cara mengekstrak grafik vektor dari PDF menggunakan GraphicsAbsorber di Aspose.Pdf dengan contoh kode C#.
 
 ## Sumber Daya Tambahan
 

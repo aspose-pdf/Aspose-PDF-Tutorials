@@ -184,6 +184,11 @@ Aspose.PDF for .NET を使用して画像背景を設定し、PDFドキュメン
 
 ### [Word 文書でのロスレス画像圧縮 – 完全ガイド](./lossless-image-compression-in-word-docs-complete-guide/)
 Aspose.Words for .NET を使用して、Word 文書内の画像を品質を損なわずに圧縮する方法をステップバイステップで解説します。
+### [画像オーバーレイ PDF チュートリアル – マスクを追加し自動トレイ選択を有効にする](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+画像オーバーレイにマスクを適用し、自動トレイ選択機能を実装する方法を学びます。
+
+### [GraphicsAbsorber の使用方法 – Aspose.Pdf で PDF からベクター グラフィックを抽出する](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
+Aspose.Pdf の GraphicsAbsorber を使用して、PDF からベクター グラフィックを抽出する手順を学びます。
 
 ## 追加リソース
 

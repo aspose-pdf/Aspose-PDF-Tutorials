@@ -60,6 +60,7 @@ Az oktatóanyagok lépésről lépésre bemutatják az utasításokat, részlete
 | [PDF oldalak újrarendezése C#‑ban – Teljes lépésről‑lépésre útmutató](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | Tanulja meg, hogyan rendezheti újra a PDF oldalak sorrendjét C#‑ban az Aspose.PDF for .NET segítségével, részletes lépésről‑lépésre útmutatóval. |
 | [PDF oldalak átrendezése az Aspose.Pdf‑vel – Teljes C# útmutató](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) | Lépésről lépésre útmutató a PDF oldalak átrendezéséhez az Aspose.Pdf használatával C#‑ban. |  
 | [Bates-számozás hozzáadása PDF-ekhez C#‑vel – Teljes útmutató](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Lépésről lépésre útmutató a PDF-ek Bates-számozásának hozzáadásához C#‑ben az Aspose.PDF for .NET használatával. |
+| [PDF oldal duplikálása Aspose.Pdf‑vel – Teljes útmutató](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Lépésről lépésre bemutatja, hogyan másolhat vagy duplikálhat egy oldalt PDF dokumentumban az Aspose.PDF for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

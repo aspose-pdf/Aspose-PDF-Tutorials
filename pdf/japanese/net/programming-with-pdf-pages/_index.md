@@ -49,6 +49,7 @@ Aspose.PDF for .NET の「PDF ページを使ったプログラミング」ド�
 | [最後に空白ページを挿入](./insert-empty-page-at-end/) この初心者向けガイドでは、Aspose.PDF for .NET を使って PDF ドキュメントに空白ページを簡単に挿入する方法を学習できます。簡単な編集に最適です。 |  
 | [ページに分割](./split-to-pages/) この包括的なチュートリアルでは、Aspose.PDF for .NET を使用して PDF を簡単に個別のページに分割できます。ステップバイステップのガイドも含まれています。 |  
 | [PDFページサイズの更新](./update-dimensions/) この包括的なステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF ページのサイズを簡単に更新する方法を説明します。 |  
+| [Aspose.Pdf で PDF ページを複製する – 完全ガイド](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) Aspose.PDF for .NET を使用して PDF ページを複製する手順をステップバイステップで解説します。簡単に実装できます。 |  
 | [PDFファイルのページコンテンツにズーム](./zoom-to-page-contents/) この包括的なガイドでは、Aspose.PDF for .NET を使用して PDF ファイルのページコンテンツを拡大する方法を学習します。特定のニーズに合わせて PDF ドキュメントを強化しましょう。 |  
 | [PDF にページを追加 – C# 開発者向けステップバイステップガイド](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) Aspose.PDF for .NET を使用して、C# で PDF にページを追加する方法をステップバイステップで解説します。 |  
 | [C# で PDF にページ番号を追加 – 完全ステップバイステップガイド](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) Aspose.PDF for .NET を使用して、C# で PDF にページ番号を追加する手順をステップバイステップで解説します。 |

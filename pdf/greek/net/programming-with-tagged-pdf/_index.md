@@ -55,6 +55,7 @@
 | [Δημιουργία προσβάσιμου κειμενικού τμήματος σε PDF με Aspose: Πλήρης οδηγός C#](./create-accessible-text-span-in-pdf-with-aspose-full-c-guide/) | Μάθετε πώς να δημιουργήσετε ένα προσβάσιμο τμήμα κειμένου σε PDF χρησιμοποιώντας Aspose.PDF για .NET με C# σε αυτόν τον πλήρη οδηγό βήμα‑βήμα. |
 | [Πώς να επεξεργαστείτε PDF με ετικέτες με Aspose.Pdf – Πλήρης οδηγός](./how-to-edit-tagged-pdf-with-aspose-pdf-complete-guide/) | Μάθετε πώς να επεξεργαστείτε PDF με ετικέτες χρησιμοποιώντας Aspose.Pdf σε αυτόν τον πλήρη οδηγό βήμα‑βήμα. |
 | [Δημιουργία PDF με ετικέτες σε C# – Πλήρης οδηγός βήμα‑βήμα](./create-tagged-pdf-in-c-full-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε PDF με ετικέτες σε C# χρησιμοποιώντας Aspose.PDF για .NET με λεπτομερή βήμα‑βήμα οδηγία. |
+| [Πώς να ετικετοποιήσετε PDF με Aspose.Pdf – Πλήρης προγραμματιστικός οδηγός](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | Μάθετε πώς να ετικετοποιήσετε PDF χρησιμοποιώντας Aspose.Pdf σε έναν πλήρη προγραμματιστικό οδηγό βήμα‑βήμα. |
 
 | [Δημιουργία εγγράφου PDF C# – Πλήρης οδηγός με ετικετοποιημένο κείμενο και τοποθέτηση](./create-pdf-document-c-full-guide-with-tagged-text-and-positi/) | Μάθετε πώς να δημιουργήσετε PDF με ετικετοποιημένο κείμενο και ακριβή τοποθέτηση στοιχείων χρησιμοποιώντας C# και Aspose.PDF για .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}

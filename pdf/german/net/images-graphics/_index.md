@@ -60,6 +60,9 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# Formen zu PDFs hinzufügen 
 ### [Effiziente PDF-Bildidentifizierung mit Aspose.PDF für .NET](./master-image-identification-aspose-pdf-net/)
 Erfahren Sie, wie Sie Graustufen- und RGB-Bilder in PDFs mit Aspose.PDF für .NET identifizieren. Dieses Tutorial behandelt Installation, Bildextraktion und Performance-Tipps.
 
+### [So verwenden Sie GraphicsAbsorber – Vektorgrafiken aus PDF mit Aspose.Pdf extrahieren](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
+Erfahren Sie, wie Sie mit Aspose.Pdf den GraphicsAbsorber einsetzen, um Vektorgrafiken aus PDF-Dateien zu extrahieren.
+
 ### [Konvertieren Sie Bildströme effizient in PDFs mit Aspose.PDF für .NET](./convert-image-stream-to-pdf-aspose-dotnet/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET Bildstreams in professionelle PDF-Dokumente konvertieren. Folgen Sie dieser Schritt-für-Schritt-Anleitung, um Ihre Dokumenten-Workflows zu verbessern.
 
@@ -182,6 +185,8 @@ Erfahren Sie, wie Sie Ihre PDF-Dokumente mit Aspose.PDF für .NET durch die Einr
 
 ### [Verlustfreie Bildkompression in Word-Dokumenten – Komplettanleitung](./lossless-image-compression-in-word-docs-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET verlustfreie Bildkompression in Word-Dokumenten durchführen.
+### [Bildüberlagerungs-PDF-Tutorial – Maske hinzufügen und automatische Tablettauswahl aktivieren](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET Masken überlagern und die automatische Tablettauswahl in PDFs aktivieren.
 
 ## Weitere Ressourcen
 

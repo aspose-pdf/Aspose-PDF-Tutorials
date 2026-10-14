@@ -347,6 +347,9 @@ Aspose.PDF for .NET を使用して、C# で 2 つの PDF を視覚的に比較�
 ### [Aspose.PDF for .NET を使用して PDF を比較する方法 – ステップバイステップ ガイド](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
 Aspose.PDF for .NET を使用して、2つの PDF ドキュメントを比較し、差分を検出する方法をステップバイステップで学びましょう。
 
+### [C# で PDF レイヤーを結合する – PDF レイヤーの結合方法](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+Aspose.PDF for .NET を使用して、PDF ドキュメント内の複数レイヤーを統合し、単一のレイヤーにまとめる方法を学びます。
+
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)

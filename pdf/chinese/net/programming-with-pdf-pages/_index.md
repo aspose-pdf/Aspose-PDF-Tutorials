@@ -60,6 +60,7 @@ Aspose.PDF for .NET 的“使用 PDF 页面进行编程”文档提供了分步�
 | [向 PDF 添加页面 – C# 开发人员分步指南](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) 使用 Aspose.PDF for .NET 为 C# 开发人员提供向 PDF 添加页面的完整分步指南。|  
 | [在 C# 中重新排序 PDF 页面 – 完整分步指南](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) 使用 Aspose.PDF for .NET 在 C# 中重新排序 PDF 页面，完整分步指南。|  
 | [使用 C# 为 PDF 添加贝茨编号 – 完整指南](./add-bates-numbering-to-pdfs-with-c-complete-guide/) 使用 Aspose.PDF for .NET 和 C# 为 PDF 添加贝茨编号的完整分步指南，帮助您轻松实现文档编号。|  
+| [使用 Aspose.Pdf 复制 PDF 页面 – 完整指南](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) 使用 Aspose.PDF for .NET 完整分步指南，帮助您轻松复制 PDF 页面。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

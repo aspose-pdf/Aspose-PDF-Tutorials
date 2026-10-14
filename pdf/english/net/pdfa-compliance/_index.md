@@ -70,6 +70,8 @@ Step-by-step guide to create a PDF/A file in C# using Aspose.PDF .NET, covering 
 Step-by-step guide to creating PDF/A compliant documents in C# using Aspose.PDF.
 ### [Convert PDF to PDF/A in C# – Complete Step‑by‑Step Guide](./convert-pdf-to-pdf-a-in-c-complete-step-by-step-guide/)
 A comprehensive step-by-step guide to convert PDFs to PDF/A using C# and Aspose.PDF .NET, ensuring archival quality and compliance.
+### [How to Set ICC in Aspose PDF – Complete C# Guide](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
+Learn how to embed and manage ICC color profiles in PDFs using Aspose.PDF for .NET with this comprehensive C# guide.
 
 ## Additional Resources
 

@@ -326,6 +326,8 @@ Dowiedz się, jak dzielić wielostronicowe pliki PDF i tworzyć nowe pliki PDF z
 
 ### [Spłaszczanie warstw PDF w C# – Przewodnik eksportu i wyodrębniania](./flatten-pdf-layers-in-c-export-extract-guide/)
 Dowiedz się, jak spłaszczyć warstwy w plikach PDF i wyeksportować je przy użyciu Aspose.PDF w C#.
+### [Scalanie warstw PDF w C# – Jak połączyć warstwy PDF](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+Dowiedz się, jak łączyć warstwy w plikach PDF przy użyciu Aspose.PDF dla .NET w języku C#.
 
 ### [Jak spłaszczyć PDF za pomocą Aspose.PDF – Kompletny przewodnik](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
 Dowiedz się, jak spłaszczyć plik PDF, usuwając warstwy i zachowując wygląd, korzystając z Aspose.PDF w pełnym przewodniku.

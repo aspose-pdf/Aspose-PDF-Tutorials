@@ -181,6 +181,11 @@ Lär dig hur du förbättrar dina PDF-dokument genom att ställa in bildbakgrund
 
 ### [Förlustfri bildkomprimering i Word-dokument – Komplett guide](./lossless-image-compression-in-word-docs-complete-guide/)
 Lär dig hur du komprimerar bilder i Word-dokument utan kvalitetsförlust med Aspose.Words för .NET.
+### [PDF-handledning för bildöverläggning – lägg till mask och aktivera automatisk brickval](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+Lär dig hur du lägger till en mask och aktiverar automatisk brickval för bildöverläggning i PDF med Aspose.PDF för .NET.
+
+### [Hur man använder GraphicsAbsorber – Extrahera vektorgrafik från PDF med Aspose.Pdf](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
+Lär dig hur du använder GraphicsAbsorber för att extrahera vektorgrafik från PDF-dokument med Aspose.Pdf.
 
 ## Ytterligare resurser
 

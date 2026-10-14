@@ -126,6 +126,9 @@ Aspose.PDF Net 程式碼教學
 ### [如何使用憑證簽署 PDF – 完整 C# 指南](./how-to-sign-pdf-using-certificate-complete-c-guide/)
 了解如何在 C# 中使用憑證簽署 PDF，提供完整步驟與範例程式碼。
 
+### [如何使用 Aspose.PDF 檢查 PDF 簽章 – 完整指南](./how-to-check-signature-in-a-pdf-with-aspose-pdf-complete-gui/)
+了解如何使用 Aspose.PDF 在 PDF 中檢查簽章的完整步驟與程式碼示例。
+
 ## 其他資源
 
 - [Aspose.PDF 用於網頁文檔](https://docs.aspose.com/pdf/net/)

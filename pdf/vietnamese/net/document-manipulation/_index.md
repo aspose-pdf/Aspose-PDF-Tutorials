@@ -252,7 +252,7 @@ Tìm hiểu cách tự động hóa các tác vụ PDF bằng Aspose.PDF cho .NE
 ### [Làm chủ thao tác PDF với Aspose.PDF .NET: Tải và chỉnh sửa tài liệu dễ dàng](./mastering-pdf-manipulation-aspose-dotnet/)
 Tìm hiểu cách làm chủ việc tải, điều hướng và sửa đổi tài liệu PDF bằng thư viện Aspose.PDF .NET mạnh mẽ. Nâng cao ứng dụng của bạn ngay hôm nay!
 
-### [Làm chủ thao tác PDF với Aspose.PDF .NET: Hướng dẫn tải, tìm kiếm, chú thích](./aspose-pdf-dotnet-mastering-pdfs-manipulation-guide/)
+### [Làm chủ thao tác PDF với Aspose.PDF .NET: Tải, tìm kiếm, chú thích](./aspose-pdf-dotnet-mastering-pdfs-manipulation-guide/)
 Học cách thành thạo thao tác PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm tải tài liệu, tìm kiếm văn bản và áp dụng chú thích như gạch bỏ.
 
 ### [Cách làm phẳng PDF với Aspose.PDF – Hướng dẫn đầy đủ](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
@@ -348,6 +348,8 @@ Tìm hiểu cách xóa phông chữ nhúng khỏi PDF bằng Aspose.PDF cho .NET
 - [Tải xuống Aspose.PDF cho Net](https://releases.aspose.com/pdf/net/)
 - [Hỗ trợ miễn phí](https://forum.aspose.com/)
 - [Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
+### [Kết hợp các lớp PDF trong C# – Cách ghép các lớp PDF](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+Tìm hiểu cách hợp nhất các lớp PDF thành một tệp duy nhất bằng Aspose.PDF cho .NET trong C#.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

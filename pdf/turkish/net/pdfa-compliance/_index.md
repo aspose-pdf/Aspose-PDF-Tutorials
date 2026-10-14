@@ -48,6 +48,8 @@ Aspose.PDF for .NET kullanarak C# ile PDF/A uyumlu belgeler oluşturmayı adım 
 C# ve Aspose.PDF for .NET kullanarak PDF dosyalarını PDF/A uyumlu belgelere nasıl dönüştüreceğinizi adım adım öğrenin.
 ### [C# ile PDF/A Nasıl Oluşturulur – PDF'yi PDF/A'ya Kolayca Dönüştürün](./how-to-create-pdf-a-in-c-convert-pdf-to-pdf-a-easily/)
 C# ve Aspose.PDF kullanarak PDF dosyalarını PDF/A formatına hızlı ve basit bir şekilde dönüştürmeyi öğrenin.
+### [Aspose PDF'de ICC Ayarlama – Tam C# Kılavuzu](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
+Aspose PDF ile ICC profili ayarlamayı ve renk yönetimini C# kodu ile adım adım öğrenin.
 
 ## Ek Kaynaklar
 

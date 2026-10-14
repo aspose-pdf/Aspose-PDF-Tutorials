@@ -129,6 +129,9 @@ Ismerje meg, hogyan írhat alá PDF-fájlokat tanúsítvánnyal C#-ban az Aspose
 ### [PDF aláírása C#-ban – Teljes útmutató az Aspose segítségével](./how-to-sign-pdf-in-c-complete-guide-with-aspose/)
 Ismerje meg, hogyan írhat alá PDF dokumentumokat C#-ban az Aspose.PDF for .NET segítségével lépésről lépésre útmutatóval.
 
+### [Hogyan ellenőrizze az aláírást PDF-ben az Aspose.PDF segítségével – Teljes útmutató](./how-to-check-signature-in-a-pdf-with-aspose-pdf-complete-gui/)
+Ismerje meg, hogyan ellenőrizheti a PDF digitális aláírását az Aspose.PDF for .NET használatával, részletes, lépésről‑lépésre útmutatóval.
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)

@@ -79,6 +79,9 @@ Você aprenderá a especificar configurações de conversão, extrair texto e im
 | [Converter PDF para 2.0 – Guia completo ASP.NET com registro de erros](./convert-pdf-to-2-0-full-asp-net-guide-with-error-logging/) | Aprenda a converter PDFs para a versão 2.0 usando Aspose.PDF para .NET, com guia completo em ASP.NET e registro de erros. |
 | [Tutorial de Conversão Aspose PDF – Converter PDFs para PDF/X‑4 Passo a Passo](./aspose-pdf-conversion-tutorial-convert-pdfs-to-pdf-x-4-step/) | Aprenda a converter PDFs para o padrão PDF/X‑4 usando Aspose.PDF para .NET neste tutorial passo a passo. |
 | [Carregar documento PDF e converter para PDF/X‑4 – Guia completo](./load-pdf-document-and-convert-to-pdf-x-4-complete-guide/) | Aprenda a carregar um documento PDF e convertê-lo para o padrão PDF/X‑4 usando Aspose.PDF para .NET neste guia completo. |
+| [Conversão de formato Aspose PDF: Converter PDF para PDF/X‑4 em C#](./aspose-pdf-format-conversion-convert-pdf-to-pdf-x-4-in-c/) | Aprenda a converter PDF para PDF/X‑4 em C# usando Aspose.PDF para .NET neste tutorial passo a passo. |
+| [Criar imagem PDF com Aspose.Pdf – Guia passo a passo](./create-pdf-image-with-aspose-pdf-step-by-step-guide/) | Aprenda a criar imagens PDF com Aspose.PDF para .NET neste guia passo a passo, fácil e rápido. |
+| [Como Converter PDF com Aspose – Guia Completo Passo a Passo](./how-to-convert-pdf-with-aspose-complete-step-by-step-guide/) | Aprenda a converter PDFs usando Aspose.PDF com este guia completo passo a passo. |
 
 | [Converter PDF para PDF/X-1A com gerenciamento de cores em C#](./convert-pdf-to-pdf-x-1a-with-color-management-in-c/) | Aprenda a converter PDFs para PDF/X-1A com gerenciamento de cores usando Aspose.PDF para .NET em C# neste tutorial passo a passo. |
 | [Converter DOCX para HTML em C# – Guia Completo](./convert-docx-to-html-in-c-complete-guide/) | Aprenda a converter arquivos DOCX para HTML usando Aspose.PDF para .NET em C# com este guia passo a passo. |

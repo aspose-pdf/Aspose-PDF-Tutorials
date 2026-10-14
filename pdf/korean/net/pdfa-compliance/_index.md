@@ -49,6 +49,8 @@ C# 코드를 사용해 PDF/A 문서를 생성하는 방법을 단계별로 안�
 Aspose.PDF for .NET을 사용하여 C#에서 일반 PDF를 PDF/A 표준으로 변환하는 방법을 단계별로 안내합니다.
 ### [C#에서 PDF/A 만들기 – PDF를 PDF/A로 쉽게 변환하는 방법](./how-to-create-pdf-a-in-c-convert-pdf-to-pdf-a-easily/)
 C# 코드를 사용해 PDF를 PDF/A 형식으로 변환하는 간단한 단계별 가이드입니다.
+### [Aspose PDF에서 ICC 설정 방법 – 완전한 C# 가이드](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
+Aspose.PDF를 사용해 C#에서 ICC 색상 프로파일을 삽입하고 설정하는 방법을 배웁니다.
 
 ## 추가 자료
 

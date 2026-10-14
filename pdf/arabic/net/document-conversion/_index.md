@@ -81,6 +81,9 @@
 | [دليل Aspose PDF: تحميل وتحويل ملفات PDF إلى PDF/X‑4 باستخدام C#](./aspose-pdf-tutorial-load-and-convert-pdfs-to-pdf-x-4-in-c/) |تعلم كيفية تحميل نفس ... |
 | [تحويل PDF إلى 2.0 – دليل كامل لـ ASP.NET مع تسجيل الأخطاء](./convert-pdf-to-2-0-full-asp-net-guide-with-error-logging/) |تعلم كيفية تحويل ملفات PDF إلى الإصدار 2.0 باستخدام Aspose.PDF لـ .NET مع توثيق الأخطاء في دليل شامل. |
 | [تحويل PDF إلى PDF/X-1A مع إدارة الألوان في C#](./convert-pdf-to-pdf-x-1a-with-color-management-in-c/) |تعرف على كيفية تحويل ملفات PDF إلى صيغة PDF/X-1A مع إدارة الألوان باستخدام Aspose.PDF لـ .NET في دليل خطوة بخطوة. |  
+| [تحويل تنسيق Aspose PDF: تحويل PDF إلى PDF/X‑4 باستخدام C#](./aspose-pdf-format-conversion-convert-pdf-to-pdf-x-4-in-c/) |تعلم كيفية تحويل ملفات PDF إلى تنسيق PDF/X‑4 باستخدام Aspose.PDF لـ .NET مع C# خطوة بخطوة. |
+| [إنشاء صورة PDF باستخدام Aspose.Pdf – دليل خطوة بخطوة](./create-pdf-image-with-aspose-pdf-step-by-step-guide/) |تعلم كيفية إنشاء صورة PDF باستخدام Aspose.PDF لـ .NET من خلال هذا الدليل خطوة بخطوة. |  
+| [كيفية تحويل PDF باستخدام Aspose – دليل شامل خطوة بخطوة](./how-to-convert-pdf-with-aspose-complete-step-by-step-guide/) |تعرف على كيفية تحويل ملفات PDF باستخدام Aspose خطوة بخطوة مع شرح مفصل وأمثلة برمجية. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

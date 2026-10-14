@@ -122,6 +122,9 @@ C# を使用して PDF にデジタル署名を行い、画像を埋め込む手
 ### [C# で PDF に署名する方法 – Aspose 完全ガイド](./how-to-sign-pdf-in-c-complete-guide-with-aspose/)
 C# と Aspose を使用して PDF にデジタル署名を行う手順をステップバイステップで解説します。
 
+### [Aspose.PDF を使用して PDF の署名を確認する方法 – 完全ガイド](./how-to-check-signature-in-a-pdf-with-aspose-pdf-complete-gui/)
+Aspose.PDF を利用して PDF のデジタル署名を検証する手順をステップバイステップで解説します。
+
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)

@@ -129,6 +129,9 @@ Aspose.PDF .NET 代码教程
 ### [如何使用 Aspose.PDF 验证 PDF 数字签名 – 完整指南](./verify-pdf-digital-signature-full-guide-with-aspose-pdf/)
 提供在 C# 环境下使用 Aspose.PDF 完整验证 PDF 数字签名的步骤、代码示例和最佳实践。
 
+### [如何使用 Aspose.PDF 检查 PDF 中的签名 – 完整指南](./how-to-check-signature-in-a-pdf-with-aspose-pdf-complete-gui/)
+了解如何使用 Aspose.PDF 在 C# 中检查 PDF 的数字签名，确保文档完整性和真实性的完整步骤。
+
 ## 其他资源
 
 - [Aspose.PDF 用于网络文档](https://docs.aspose.com/pdf/net/)

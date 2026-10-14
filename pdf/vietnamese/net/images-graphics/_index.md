@@ -184,6 +184,9 @@ Hướng dẫn chi tiết cách nén hình ảnh trong tài liệu Word mà khô
 ### [Đặt hình nền ảnh trong PDF bằng Aspose.PDF cho .NET: Hướng dẫn toàn diện](./aspose-pdf-net-set-image-backgrounds/)
 Tìm hiểu cách cải thiện tài liệu PDF của bạn bằng cách thiết lập hình nền bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm các mẹo thiết lập, triển khai và tối ưu hóa.
 
+### [Hướng dẫn chồng lớp ảnh PDF – Thêm mặt nạ và bật lựa chọn khay tự động](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+Hướng dẫn cách chồng lớp ảnh lên PDF, thêm mặt nạ và kích hoạt lựa chọn khay tự động bằng Aspose.PDF cho .NET.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)

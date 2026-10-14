@@ -322,6 +322,10 @@ Pelajari cara menguasai manipulasi PDF menggunakan Aspose.PDF untuk .NET. Pandua
 
 ### [Cara Menyensor PDF di C# – Sembunyikan Teks PDF & Hapus Konten PDF](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
 Pelajari cara menyensor PDF dengan menyembunyikan teks dan menghapus konten secara programatis menggunakan Aspose.PDF untuk .NET.
+### [Menggabungkan Lapisan PDF di C# – Cara Menggabungkan Lapisan PDF](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+Pelajari cara menggabungkan beberapa lapisan dalam file PDF menggunakan Aspose.PDF untuk .NET dengan C#.
+
+## Sumber Daya Tambahan
 
 ### [Cara Memperbaiki PDF di C# – Memperbaiki File PDF Rusak dengan Cepat](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
 Pelajari cara memperbaiki file PDF yang rusak secara cepat menggunakan C# dan Aspose.PDF.

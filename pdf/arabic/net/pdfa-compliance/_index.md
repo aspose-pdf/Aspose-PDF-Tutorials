@@ -49,6 +49,8 @@
 تعرف على كيفية تحويل ملفات PDF إلى PDF/A باستخدام C# مع دليل شامل خطوة بخطوة.
 ### [كيفية إنشاء PDF/A في C# – تحويل PDF إلى PDF/A بسهولة](./how-to-create-pdf-a-in-c-convert-pdf-to-pdf-a-easily/)
 تعلم خطوة بخطوة كيفية إنشاء ملفات PDF/A من ملفات PDF باستخدام C# و Aspose.PDF بسهولة.
+### [كيفية تعيين ICC في Aspose PDF – دليل كامل بلغة C#](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
+تعلم كيفية ضبط ملف تعريف اللون ICC في مستندات PDF باستخدام Aspose.PDF للـ .NET مع أمثلة شاملة بلغة C#.
 
 ## موارد إضافية
 

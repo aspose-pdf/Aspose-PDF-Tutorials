@@ -92,6 +92,9 @@ Aspose.PDF for .NET kullanarak PDF sayfalarını etkili bir şekilde düzenlemey
 ### [Aspose.PDF for .NET Kullanarak PDF Sayfalarını Verimli Şekilde Birleştirin: N-Up Yöntemi Kılavuzu](./combine-pdf-pages-aspose-net-nup-method/)
 Aspose.PDF for .NET ile N-Up yöntemini kullanarak PDF sayfalarını etkili bir şekilde nasıl birleştireceğinizi öğrenin. Bu kılavuz kurulum, uygulama ve pratik uygulamaları kapsar.
 
+### [C# ile PDF Katmanlarını Birleştirme – PDF Katmanlarını Nasıl Birleştirirsiniz](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+Aspose.PDF for .NET kullanarak PDF katmanlarını birleştirerek çok katmanlı belgeler oluşturmayı öğrenin.
+
 ### [Aspose.PDF for .NET Kullanarak PDF'lerden Sayfaları Verimli Şekilde Silin](./delete-pages-pdf-aspose-dotnet/)
 C# dilinde belge düzenleme için güçlü bir kütüphane olan Aspose.PDF for .NET'i kullanarak PDF belgelerinden sayfaları etkili bir şekilde nasıl sileceğinizi öğrenin.
 
@@ -161,7 +164,7 @@ Aspose.PDF for .NET kullanarak PDF sayfa boyutlarını A4'e nasıl güncelleyece
 ### [.NET için Aspose.PDF Kullanarak PDF'deki Sayfaları Nasıl Sayabilirsiniz (C# Eğitimi)](./mastering-aspose-pdf-net-get-page-count/)
 Bu adım adım C# eğitimiyle .NET için Aspose.PDF kullanarak bir PDF'deki sayfaların nasıl sayılacağını öğrenin. Belge düzenlemede kolayca ustalaşın.
 
-### [.NET için Aspose.PDF ile PDF'leri Özelleştirme: Sayfa Kenar Boşluklarını Ayarlama ve Çizgiler Çizme](./customize-pdfs-aspose-pdf-set-margins-draw-lines/)
+### [.NET için Aspose.PDF Kullanarak PDF'leri Özelleştirme: Sayfa Kenar Boşluklarını Ayarlama ve Çizgiler Çizme](./customize-pdfs-aspose-pdf-set-margins-draw-lines/)
 Sayfa kenar boşluklarını ayarlayarak ve çizgiler çizerek Aspose.PDF for .NET kullanarak PDF'leri nasıl özelleştireceğinizi öğrenin. Belge biçimlendirmesini geliştirmek isteyen geliştiriciler için mükemmeldir.
 
 ### [Aspose.PDF .NET kullanarak PDF'den Sayfalar Nasıl Silinir: Kapsamlı Bir Kılavuz](./delete-pdf-pages-aspose-net/)

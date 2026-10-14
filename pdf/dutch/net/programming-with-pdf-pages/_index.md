@@ -60,6 +60,7 @@ Tutorials bevatten stapsgewijze instructies, gedetailleerde codevoorbeelden en d
 | [PDF-pagina's herschikken in C# – Complete stap‑voor‑stap handleiding](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | Leer hoe u PDF-pagina's in de gewenste volgorde kunt plaatsen met Aspose.PDF voor .NET in C# via een gedetailleerde stap‑voor‑stap handleiding. |
 | [PDF-pagina's herschikken met Aspose.Pdf – Complete C#‑handleiding](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) | Leer hoe u PDF-pagina's kunt herschikken met Aspose.Pdf in C# met deze volledige stap‑voor‑stap handleiding. |
 | [Bates-nummering toevoegen aan PDF's met C# – Volledige gids](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Leer hoe u Bates-nummers aan PDF-documenten toevoegt met C# en Aspose.PDF voor .NET in deze volledige stap‑voor‑stap handleiding. |
+| [PDF-pagina dupliceren met Aspose.PDF – Complete gids](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Leer hoe u een PDF-pagina dupliceert met Aspose.PDF voor .NET in deze volledige stap‑voor‑stap handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

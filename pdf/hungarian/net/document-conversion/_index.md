@@ -81,6 +81,9 @@ Megtanulod, hogyan adhatsz meg konvertálási beállításokat, hogyan kinyerhet
 | [PDF-dokumentum betöltése és konvertálása PDF/X‑4‑re – Teljes útmutató](./load-pdf-document-and-convert-to-pdf-x-4-complete-guide/) | Tanulja meg, hogyan tölthet be PDF-dokumentumot és konvertálhatja PDF/X‑4 formátumba az Aspose.PDF for .NET segítségével. |
 | [PDF konvertálása PDF/X‑1A formátumba színkezeléssel C#‑ban](./convert-pdf-to-pdf-x-1a-with-color-management-in-c/) | Tanulja meg, hogyan konvertálhat PDF fájlokat PDF/X‑1A formátumba színkezeléssel C#‑ban az Aspose.PDF for .NET segítségével. |
 | [DOCX konvertálása HTML-be C#‑ban – Teljes útmutató](./convert-docx-to-html-in-c-complete-guide/) | Tanulja meg, hogyan konvertálhat DOCX fájlokat HTML-be C#‑ban az Aspose.PDF for .NET segítségével ebben a részletes útmutatóban. |
+| [Aspose PDF formátum konverzió: PDF konvertálása PDF/X‑4-re C#-ban](./aspose-pdf-format-conversion-convert-pdf-to-pdf-x-4-in-c/) | Tanulja meg, hogyan konvertálhat PDF-fájlokat PDF/X‑4 formátumba C#-ban az Aspose.PDF for .NET használatával. |
+| [PDF kép létrehozása Aspose.Pdf‑vel – Lépésről‑lépésre útmutató](./create-pdf-image-with-aspose-pdf-step-by-step-guide/) | Tanulja meg, hogyan hozhat létre képet PDF-ből az Aspose.PDF for .NET segítségével ebben a részletes útmutatóban. |
+| [PDF konvertálása Aspose‑szal – Teljes lépésről‑lépésre útmutató](./how-to-convert-pdf-with-aspose-complete-step-by-step-guide/) | Tanulja meg, hogyan konvertálhat PDF-fájlokat az Aspose.PDF for .NET segítségével ebben a részletes, lépésről‑lépésre útmutatóban. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

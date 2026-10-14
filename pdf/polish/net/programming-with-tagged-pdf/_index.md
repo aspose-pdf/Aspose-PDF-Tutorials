@@ -52,6 +52,7 @@ Samouczki Aspose.PDF for .NET „Programming with Tagged PDFs” przeprowadzą C
 | [Utwórz dostępny fragment tekstu w PDF za pomocą Aspose: Kompletny przewodnik C#](./create-accessible-text-span-in-pdf-with-aspose-full-c-guide/) | Dowiedz się, jak w C# utworzyć dostępny fragment tekstu w PDF przy użyciu Aspose, zapewniając zgodność z PDF/UA. |  
 | [Jak edytować oznaczony PDF za pomocą Aspose.Pdf – Kompletny przewodnik](./how-to-edit-tagged-pdf-with-aspose-pdf-complete-guide/) | Dowiedz się, jak edytować oznaczony plik PDF przy użyciu Aspose.PDF dla .NET, krok po kroku, aby zapewnić dostępność i zgodność PDF/UA. |  
 | [Utwórz PDF z tagami w C# – Pełny przewodnik krok po kroku](./create-tagged-pdf-in-c-full-step-by-step-guide/) | Dowiedz się, jak w C# stworzyć pełny oznaczony plik PDF, krok po kroku, zapewniając dostępność i zgodność z PDF/UA. |
+| [Jak oznaczyć PDF przy użyciu Aspose.Pdf – Kompletny przewodnik programistyczny](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | Pełny przewodnik krok po kroku, jak oznaczyć plik PDF przy użyciu Aspose.PDF w .NET, zapewniając dostępność i zgodność PDF/UA. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

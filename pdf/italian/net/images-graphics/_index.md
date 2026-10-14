@@ -180,6 +180,11 @@ Scopri come migliorare i tuoi documenti PDF impostando sfondi con immagini utili
 
 ### [Compressione immagine senza perdita nei documenti Word – Guida completa](./lossless-image-compression-in-word-docs-complete-guide/)
 Scopri come comprimere le immagini nei file Word mantenendo la qualità originale, con esempi C# e best practice.
+### [Overlay immagine PDF – aggiungi maschera e abilita la selezione automatica del vassoio](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+Scopri come sovrapporre immagini a PDF, aggiungere maschere e attivare la selezione automatica del vassoio con Aspose.PDF per .NET.
+
+### [Come utilizzare GraphicsAbsorber – Estrarre grafica vettoriale da PDF con Aspose.Pdf](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
+Scopri come estrarre grafica vettoriale da PDF usando GraphicsAbsorber di Aspose.Pdf con esempi di codice C#.
 
 ## Risorse aggiuntive
 

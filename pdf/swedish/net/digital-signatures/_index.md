@@ -129,6 +129,9 @@ Lär dig steg-för-steg hur du signerar PDF-filer med ett certifikat i C# med en
 ### [Hur man signerar PDF i C# – Komplett guide med Aspose](./how-to-sign-pdf-in-c-complete-guide-with-aspose/)
 Lär dig steg-för-steg hur du signerar PDF-filer i C# med Aspose, inklusive kodexempel och bästa praxis.
 
+### [Hur man kontrollerar signatur i en PDF med Aspose.PDF – En komplett guide](./how-to-check-signature-in-a-pdf-with-aspose-pdf-complete-gui/)
+Lär dig hur du kontrollerar och validerar digitala signaturer i PDF-filer med Aspose.PDF för .NET i en komplett steg-för-steg-guide.
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

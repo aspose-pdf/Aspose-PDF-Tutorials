@@ -191,6 +191,12 @@ Aprenda a combinar varios documentos PDF en un solo archivo de forma eficiente c
 ### [Cómo fusionar archivos PDF con Aspose.PDF para .NET: concatenación de secuencias y preservación de la estructura lógica](./merge-pdf-aspose-net-streams-structure/)
 Aprenda a concatenar archivos PDF con Aspose.PDF para .NET, preservando la estructura lógica para mayor accesibilidad. Esta guía abarca la concatenación de flujos, la optimización del rendimiento y aplicaciones prácticas.
 
+### [Cómo fusionar archivos PDF en .NET con Aspose.PDF: una guía completa](./merge-pdfs-net-aspose-pdf-tutorial/)
+Aprenda a combinar varios documentos PDF en un solo archivo de forma eficiente con Aspose.PDF para .NET. Esta guía ofrece instrucciones paso a paso, ejemplos de código y consejos para optimizar la gestión de documentos.
+
+### [Combinar capas PDF en C# – Cómo combinar capas PDF](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+Aprenda a combinar múltiples capas en un archivo PDF usando Aspose.PDF para .NET con C#.
+
 ### [Cómo prefijar nombres de clases CSS en archivos PDF con Aspose.PDF para .NET](./prefix-css-class-names-pdf-aspose-pdf-net/)
 Aprenda a convertir documentos PDF a HTML con prefijos de nombre de clase CSS personalizados usando Aspose.PDF para .NET. Garantice un estilo único y evite conflictos.
 
@@ -289,9 +295,6 @@ Aprenda a usar Aspose.PDF para .NET para cargar, manipular y realizar búsquedas
 
 ### [Dominando la división de páginas PDF con Aspose.PDF .NET](./mastering-page-splitting-aspose-pdf-net/)
 Un tutorial de código para Aspose.PDF Net
-
-### [Fusionar archivos PDF en .NET con Aspose.PDF: una guía completa](./merge-pdfs-net-aspose-pdf-tutorial/)
-Aprenda a combinar archivos PDF sin problemas con Aspose.PDF para .NET. Esta guía paso a paso abarca la configuración, la implementación y las aplicaciones prácticas.
 
 ### [Mover campos de formulario PDF en .NET con Aspose.PDF: guía paso a paso](./move-pdf-fields-aspose-pdf-dotnet-guide/)
 Aprenda a mover y reposicionar campos de formularios PDF fácilmente con Aspose.PDF para .NET. Esta guía incluye la configuración, instrucciones paso a paso y consejos para la solución de problemas.

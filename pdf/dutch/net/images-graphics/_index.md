@@ -181,6 +181,8 @@ Leer hoe u uw PDF-documenten kunt verbeteren door afbeeldingsachtergronden in te
 
 ### [Verliesloze afbeeldingscompressie in Word-documenten – Complete gids](./lossless-image-compression-in-word-docs-complete-guide/)
 Leer hoe u afbeeldingen in Word-documenten zonder kwaliteitsverlies kunt comprimeren met Aspose.Words voor .NET.
+### [Afbeeldingsoverlay in PDF – masker toevoegen en automatische lade-selectie inschakelen](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+Leer hoe u een afbeeldingsoverlay met masker toevoegt en automatische lade-selectie activeert in PDF's met Aspose.PDF voor .NET.
 
 ## Aanvullende bronnen
 

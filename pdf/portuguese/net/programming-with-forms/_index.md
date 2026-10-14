@@ -58,6 +58,7 @@ Estes tutoriais também fornecem exemplos de código detalhados, explicações c
 | [Criar documento PDF C# – Guia passo a passo para formulários de várias páginas](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Aprenda a criar documentos PDF com múltiplas páginas e formulários usando Aspose.PDF para .NET em C# neste guia passo a passo. |
 | [Criar Formulário Multi Página em C# com Aspose.Pdf – Guia Passo a Passo](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | Aprenda a criar um formulário PDF de várias páginas em C# usando Aspose.Pdf com este guia passo a passo. |  
 | [Adicionar caixa de texto ao formulário PDF – Guia completo em C#](./add-text-box-to-pdf-form-complete-c-guide/) | Aprenda a adicionar uma caixa de texto a um formulário PDF usando Aspose.PDF para .NET com este guia passo a passo em C#. |  
+| [Importar FDF em PDF com C# – Guia Completo Passo a Passo](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Aprenda a importar arquivos FDF em documentos PDF usando C# e Aspose.PDF para .NET neste guia passo a passo. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

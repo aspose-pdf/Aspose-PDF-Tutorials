@@ -49,6 +49,8 @@ Ismerje meg, hogyan validálhatja a PDF dokumentumokat a PDF/A szabványoknak me
 Tanulja meg, hogyan hozhat létre PDF/A fájlokat C#-ban a teljes konverziós folyamat részletes lépéseivel.
 ### [Hogyan készítsünk PDF/A-t C#-ban – Lépésről lépésre Aspose útmutató](./how-to-create-pdf-a-in-c-step-by-step-aspose-guide/)
 Tanulja meg, hogyan hozhat létre PDF/A kompatibilis dokumentumokat C#-ban az Aspose.PDF .NET segítségével, részletes kódpéldákkal.
+### [Hogyan állítsuk be az ICC-t az Aspose PDF-ben – Teljes C# útmutató](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
+Ismerje meg, hogyan állíthatja be az ICC színprofilt az Aspose PDF-ben C# nyelven, a teljes útmutató segítségével.
 
 ## További források
 

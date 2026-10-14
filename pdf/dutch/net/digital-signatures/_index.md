@@ -86,6 +86,8 @@ Leer hoe u digitale handtekeningen in PDF's valideert met C# en Aspose.PDF voor 
 Leer hoe u PDF-handtekeningen valideert met C# en Aspose.PDF in een volledige stap‑voor‑stap gids.
 ### [PDF digitale handtekening verifiëren – volledige gids met Aspose.PDF](./verify-pdf-digital-signature-full-guide-with-aspose-pdf/)
 Leer hoe u digitale handtekeningen in PDF's kunt verifiëren met een volledige gids en Aspose.PDF.
+### [Hoe een handtekening in een PDF te controleren met Aspose.PDF – Complete handleiding](./how-to-check-signature-in-a-pdf-with-aspose-pdf-complete-gui/)
+Leer hoe u een handtekening in een PDF controleert met Aspose.PDF in een volledige stap‑voor‑stap gids.
 
 ### [PDF-document laden C# – Converteren naar PDF/X‑4 en handtekeningen weergeven](./load-pdf-document-c-convert-to-pdf-x-4-list-signatures/)
 Leer hoe u een PDF-document laadt, converteert naar PDF/X‑4 en de aanwezige handtekeningen opsomt met Aspose.PDF voor .NET.

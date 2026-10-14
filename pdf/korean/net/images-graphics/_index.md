@@ -154,6 +154,9 @@ Aspose.PDF for .NET을 사용하여 PDF의 크기를 효율적으로 조정하�
 ### [Aspose.PDF .NET을 사용하여 PDF에서 그래픽을 제거하는 방법: 완전한 가이드](./remove-graphics-aspose-pdf-net/)
 Aspose.PDF for .NET을 사용하여 PDF에서 그래픽을 효율적으로 제거하는 방법을 알아보세요. 이 단계별 가이드를 따라 문서를 정리하고 파일 크기를 최적화하세요.
 
+### [GraphicsAbsorber 사용 방법 – Aspose.PDF로 PDF에서 벡터 그래픽 추출](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
+Aspose.PDF for .NET의 GraphicsAbsorber를 사용해 PDF에서 벡터 그래픽을 추출하고 활용하는 방법을 단계별로 안내합니다.
+
 ### [Aspose.PDF .NET을 사용하여 PDF의 이미지를 바꾸는 방법: 개발자 가이드](./replace-images-pdf-aspose-net-guide/)
 Aspose.PDF for .NET을 사용하여 PDF 문서의 이미지를 효율적으로 바꾸는 방법을 알아보세요. 이 포괄적인 개발자 가이드를 통해 문서 업데이트를 간소화하세요.
 
@@ -179,6 +182,7 @@ Aspose.PDF for .NET을 사용하여 이미지 배경을 설정하여 PDF 문서�
 Aspose.PDF를 활용해 PDF 문서에 사각형을 그리는 방법을 단계별로 안내합니다.
 ### [Word 문서에서 무손실 이미지 압축 – 완전 가이드](./lossless-image-compression-in-word-docs-complete-guide/)
 Aspose.Words for .NET을 사용하여 Word 문서의 이미지를 품질 손실 없이 압축하는 방법을 단계별로 안내합니다.
+### [이미지 오버레이 PDF 튜토리얼 – 마스크 추가 및 자동 트레이 선택 활성화](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
 
 ## 추가 자료
 

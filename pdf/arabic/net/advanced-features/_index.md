@@ -73,6 +73,12 @@
 ### [حفظ كل طبقة PDF باستخدام Aspose.Pdf – دليل خطوة بخطوة](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
 تعلم كيفية حفظ كل طبقة من ملفات PDF بشكل منفصل باستخدام Aspose.Pdf عبر خطوات واضحة وعملية.
 
+### [مقارنة مستندات PDF باستخدام Aspose.Pdf – دليل كامل للفرق البصري](./compare-pdf-documents-with-aspose-pdf-complete-visual-diff-g/)
+اكتشف طريقة مقارنة مستندات PDF وإنشاء فرق بصري كامل باستخدام Aspose.Pdf في بيئة .NET.
+
+### [مقارنة مستندين PDF – دليل كامل بلغة C#](./compare-two-pdf-documents-complete-c-guide/)
+تعرف على كيفية مقارنة مستندين PDF باستخدام C# وإنشاء فرق شامل باستخدام Aspose.PDF.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

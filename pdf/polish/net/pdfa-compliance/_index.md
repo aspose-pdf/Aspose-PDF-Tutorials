@@ -49,6 +49,8 @@ Kompletny przewodnik, jak w C# stworzyć plik PDF/A, konwertując istniejące PD
 Dowiedz się, jak w C# utworzyć dokument PDF/A, korzystając z Aspose.PDF .NET w prostym przewodniku krok po kroku.
 ### [Konwertuj PDF do PDF/A w C# – Kompletny przewodnik krok po kroku](./convert-pdf-to-pdf-a-in-c-complete-step-by-step-guide/)
 Dowiedz się, jak w C# konwertować pliki PDF do formatu PDF/A przy użyciu Aspose.PDF .NET. Kompletny przewodnik krok po kroku.
+### [Jak ustawić ICC w Aspose PDF – Kompletny przewodnik C#](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
+Pełny przewodnik, jak skonfigurować profil ICC w dokumentach PDF przy użyciu Aspose.PDF w C#.
 
 ## Dodatkowe zasoby
 

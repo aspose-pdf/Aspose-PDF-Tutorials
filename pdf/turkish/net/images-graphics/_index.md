@@ -179,6 +179,8 @@ Aspose.PDF for .NET kullanarak PDF dosyalarını doğrulama ve üzerine dikdört
 C# ve Aspose.PDF kullanarak PDF belgelerine şekil eklemeyi, konumlandırmayı ve özelleştirmeyi öğrenin.
 ### [Word Belgelerinde Kayıpsız Görüntü Sıkıştırma – Tam Kılavuz](./lossless-image-compression-in-word-docs-complete-guide/)
 Word belgelerindeki görüntüleri kalite kaybı olmadan sıkıştırmayı ve dosya boyutunu azaltmayı öğrenin.
+### [PDF Üzerine Görüntü Yerleştirme Öğreticisi – Maske Ekleme ve Otomatik Tepsi Seçimini Etkinleştirme](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+Aspose.PDF for .NET kullanarak PDF'lere görüntü bindirme, maske ekleme ve otomatik tepsi seçimini nasıl etkinleştireceğinizi öğrenin.
 
 ## Ek Kaynaklar
 

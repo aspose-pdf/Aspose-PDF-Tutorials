@@ -181,6 +181,8 @@ Tanuld meg, hogyan adhat hozzá átlátszó elemeket PDF-dokumentumokhoz az Aspo
 Tanulja meg, hogyan ellenőrizheti a PDF-et, és adhat hozzá téglalap alakzatot az Aspose.PDF for .NET segítségével.
 ### [Veszteségmentes képtömörítés Word dokumentumokban – Teljes útmutató](./lossless-image-compression-in-word-docs-complete-guide/)
 Ismerje meg, hogyan tömörítheti veszteségmentesen a képeket Word dokumentumokban az Aspose.Words for .NET segítségével.
+### [Képátfedés PDF oktatóanyag – maszk hozzáadása és automatikus tálca kiválasztás engedélyezése](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+Ismerje meg, hogyan helyezhet fel maszkot a PDF-re, és engedélyezheti az automatikus tálcaválasztást az Aspose.PDF for .NET segítségével.
 
 ## További források
 

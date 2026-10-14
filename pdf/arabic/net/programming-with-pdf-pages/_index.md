@@ -60,6 +60,7 @@
 | [إعادة ترتيب صفحات PDF في C# – دليل شامل خطوة بخطوة](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | دليل خطوة بخطوة لإعادة ترتيب صفحات PDF باستخدام C# و Aspose.PDF لـ .NET. |
 | [إعادة ترتيب صفحات PDF باستخدام Aspose.Pdf – دليل كامل C#](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) | دليل خطوة بخطوة لإعادة ترتيب صفحات PDF باستخدام Aspose.PDF لـ .NET مع أمثلة C# واضحة. |  
 | [إضافة ترقيم بايتس إلى ملفات PDF باستخدام C# – دليل كامل](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | دليل خطوة بخطوة لإضافة ترقيم بايتس إلى ملفات PDF باستخدام C# و Aspose.PDF لـ .NET. |  
+| [تكرار صفحة PDF باستخدام Aspose.Pdf – دليل كامل](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | دليل خطوة بخطوة لتكرار صفحة في ملف PDF باستخدام Aspose.PDF لـ .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

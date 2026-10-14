@@ -182,6 +182,11 @@
 
 ### [Добавление прозрачности в PDF с помощью Aspose.PDF в C# – пошаговое руководство](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Узнайте, как применять прозрачность к элементам PDF с помощью Aspose.PDF в C#, следуя пошаговым инструкциям.
+### [Учебник по наложению изображения в PDF – добавить маску и включить автоматический выбор лотка](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+Узнайте, как наложить изображение на PDF, добавить маску и включить автоматический выбор лотка с помощью Aspose.PDF для .NET.
+
+### [Как использовать GraphicsAbsorber – извлекать векторную графику из PDF с помощью Aspose.Pdf](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
+Узнайте, как с помощью GraphicsAbsorber извлекать векторные графические элементы из PDF‑документов, используя Aspose.Pdf для .NET.
 
 ## Дополнительные ресурсы
 

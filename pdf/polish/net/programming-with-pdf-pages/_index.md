@@ -60,6 +60,7 @@ Samouczki obejmują instrukcje krok po kroku, szczegółowe przykłady kodu i ja
 | [Dodaj numerację Bates w C# – Przewodnik krok po kroku](./add-bates-numbering-in-c-step-by-step-guide/) | Krok po kroku pokażemy, jak dodać numerację Bates do pliku PDF w C# przy użyciu Aspose.PDF dla .NET. |
 | [Dodaj strony do PDF – Przewodnik krok po kroku dla programistów C#](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) | Krok po kroku pokażemy, jak dodać nowe strony do pliku PDF w C# przy użyciu Aspose.PDF dla .NET. |
 | [Dodaj numerację Bates do plików PDF w C# – Pełny przewodnik](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Kompletny przewodnik krok po kroku, jak dodać numerację Bates do plików PDF przy użyciu C# i Aspose.PDF dla .NET. |
+| [Duplikowanie strony PDF przy użyciu Aspose.Pdf – Kompletny przewodnik](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Krok po kroku pokażemy, jak zduplikować stronę w pliku PDF przy użyciu Aspose.PDF dla .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

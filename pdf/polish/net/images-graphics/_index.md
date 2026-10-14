@@ -182,6 +182,11 @@ Dowiedz się, jak sprawdzić poprawność pliku PDF i dodać prostokąt przy uż
 Dowiedz się, jak w C# dodać przezroczystość do plików PDF przy użyciu Aspose.PDF, krok po kroku.
 ### [Bezstratna kompresja obrazów w dokumentach Word – kompletny przewodnik](./lossless-image-compression-in-word-docs-complete-guide/)
 Dowiedz się, jak bezstratnie kompresować obrazy w dokumentach Word, aby zmniejszyć rozmiar pliku bez utraty jakości.
+### [Samouczek nakładania obrazu w PDF – dodaj maskę i włącz automatyczny wybór tacki](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+Dowiedz się, jak nakładać obrazy na pliki PDF, dodawać maski i automatycznie wybierać tacki przy użyciu Aspose.PDF dla .NET.
+
+### [Jak używać GraphicsAbsorber – wyodrębnić grafikę wektorową z PDF przy użyciu Aspose.Pdf](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
+Dowiedz się, jak używać klasy GraphicsAbsorber do wyodrębniania grafiki wektorowej z dokumentów PDF przy pomocy Aspose.Pdf.
 
 ## Dodatkowe zasoby
 

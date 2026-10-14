@@ -104,6 +104,9 @@ Kuasai rotasi teks dalam PDF dengan Aspose.PDF untuk .NET menggunakan panduan le
 ### [Kuasai Aspose.PDF untuk .NET: Buka dan Cari Dokumen PDF Secara Efisien](./aspose-pdf-net-open-search-pdfs/)
 Pelajari cara menggunakan Aspose.PDF untuk .NET guna membuka dan mencari dokumen PDF. Panduan ini mencakup pengaturan, pencarian teks di halaman tertentu, dan aplikasi praktis.
 
+### [Cara Mencari PDF dengan Aspose.Pdf – Panduan Lengkap C#](./how-to-search-pdf-with-aspose-pdf-complete-c-guide/)
+Pelajari cara mencari teks dalam file PDF menggunakan Aspose.Pdf dengan contoh kode C# lengkap dan langkah-langkah praktis.
+
 ### [Kuasai Penghentian Tab Kustom dalam PDF Menggunakan Aspose.PDF untuk .NET: Panduan Lengkap](./master-custom-tab-stops-aspose-pdf-net/)
 Pelajari cara menguasai penghentian tab khusus dalam dokumen PDF menggunakan Aspose.PDF untuk .NET, yang akan meningkatkan keterampilan pemformatan dokumen dan presentasi Anda.
 

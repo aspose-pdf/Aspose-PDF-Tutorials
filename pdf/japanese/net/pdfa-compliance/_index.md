@@ -48,6 +48,8 @@ Aspose.PDF .NET を使用して、C# で PDF/A 準拠ドキュメントを作成
 C# と Aspose.PDF を使用して、PDF を PDF/A 準拠に変換する方法を詳細に解説します。
 ### [C# で PDF/A を作成する方法 – PDF を簡単に PDF/A に変換](./how-to-create-pdf-a-in-c-convert-pdf-to-pdf-a-easily/)
 C# のコード例を使って、PDF をシンプルに PDF/A 形式に変換し、アーカイブ品質を確保する手順を解説します。
+### [Aspose PDF で ICC を設定する方法 – 完全 C# ガイド](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
+Aspose.PDF で ICC プロファイルを設定し、色管理された PDF を生成する完全な C# 手順を解説します。
 
 ## 追加リソース
 

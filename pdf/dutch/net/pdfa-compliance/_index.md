@@ -49,6 +49,8 @@ Leer stap voor stap hoe u met Aspose.PDF voor .NET een PDF/A-bestand maakt en vo
 Leer hoe u met Aspose.PDF in C# PDF/A‑documenten maakt, stap voor stap, met voorbeeldcode en nalevingsrichtlijnen.
 ### [Hoe PDF/A maken in C# – PDF eenvoudig converteren naar PDF/A](./how-to-create-pdf-a-in-c-convert-pdf-to-pdf-a-easily/)
 Leer stap voor stap hoe u met Aspose.PDF in C# een PDF naar PDF/A converteert, zodat u snel archiefklare documenten maakt.
+### [Hoe ICC in Aspose PDF instellen – Complete C#‑gids](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
+Leer hoe u ICC‑kleurenprofielen instelt in Aspose PDF met een volledige C#‑handleiding voor nauwkeurige kleurweergave.
 
 ## Aanvullende bronnen
 

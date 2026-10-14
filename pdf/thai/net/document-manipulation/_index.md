@@ -146,7 +146,7 @@
 ### [วิธีเชื่อมโยงสตรีม PDF โดยใช้ Aspose.PDF สำหรับ .NET: คู่มือฉบับสมบูรณ์](./aspose-pdf-net-stream-concatenation-guide/)
 เรียนรู้วิธีเชื่อมโยงสตรีม PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือที่ครอบคลุมนี้ สำรวจคำแนะนำทีละขั้นตอน ข้อกำหนดเบื้องต้น และการใช้งานจริง
 
-### [วิธีเชื่อมโยงไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET: คู่มือฉบับสมบูรณ์](./concatenate-pdfs-aspose-pdf-dotnet-guide/)
+### [วิธีเชื่อมโยงไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET: คู่มือฉบับสมบูรณ์](./concatenate-pdfs-aspose-pdf-dotnet-guide/)
 เรียนรู้วิธีการรวมไฟล์ PDF หลายไฟล์โดยใช้ Aspose.PDF สำหรับ .NET คู่มือฉบับสมบูรณ์นี้ครอบคลุมถึงการตั้งค่า การใช้งาน และแอปพลิเคชันในทางปฏิบัติ
 
 ### [วิธีเชื่อมโยงไฟล์ PDF กับหน้าว่างโดยใช้ Aspose.PDF สำหรับ .NET: คู่มือฉบับสมบูรณ์](./concatenate-pdfs-blank-pages-aspose-pdf-net/)
@@ -353,6 +353,8 @@
 ### [ทำให้ชั้น PDF แบนใน C# – คู่มือการส่งออกและสกัดข้อมูล](./flatten-pdf-layers-in-c-export-extract-guide/)
 
 ### [เปรียบเทียบ PDF ด้วย Visual PDF Diff ใน C# – คู่มือฉบับสมบูรณ์เพื่อเปรียบเทียบ PDF สองไฟล์](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
+### [รวมเลเยอร์ PDF ด้วย C# – วิธีการรวมเลเยอร์ PDF](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+เรียนรู้วิธีรวมเลเยอร์ PDF ด้วย C# และ Aspose.PDF สำหรับ .NET เพื่อสร้างไฟล์ PDF ที่มีหลายเลเยอร์อย่างง่าย
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

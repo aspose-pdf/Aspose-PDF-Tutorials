@@ -93,6 +93,8 @@ Panduan lengkap untuk memverifikasi tanda tangan PDF menggunakan C# dengan Aspos
 Panduan langkah demi langkah untuk memverifikasi tanda tangan PDF dan menambahkan penomoran Bates menggunakan C# dan Aspose.PDF.
 ### [Verifikasi Tanda Tangan Digital PDF – Panduan Lengkap dengan Aspose.PDF](./verify-pdf-digital-signature-full-guide-with-aspose-pdf/)
 Panduan lengkap langkah demi langkah untuk memverifikasi tanda tangan digital PDF menggunakan Aspose.PDF.
+### [Cara Memeriksa Tanda Tangan dalam PDF dengan Aspose.PDF – Panduan Lengkap](./how-to-check-signature-in-a-pdf-with-aspose-pdf-complete-gui/)
+Panduan langkah demi langkah untuk memeriksa tanda tangan digital dalam PDF menggunakan Aspose.PDF.
 
 ### [Muat Dokumen PDF C# – Konversi ke PDF/X‑4 & Daftar Tanda Tangan](./load-pdf-document-c-convert-to-pdf-x-4-list-signatures/)
 Pelajari cara memuat dokumen PDF, mengonversinya ke format PDF/X‑4, dan menampilkan daftar tanda tangan menggunakan C# dan Aspose.PDF.

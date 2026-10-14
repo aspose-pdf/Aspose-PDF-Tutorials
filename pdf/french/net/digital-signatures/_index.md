@@ -130,6 +130,9 @@ Apprenez à signer des fichiers PDF en C# avec Aspose.PDF, étape par étape, in
 ### [Vérifier la signature numérique PDF – Guide complet avec Aspose.PDF](./verify-pdf-digital-signature-full-guide-with-aspose-pdf/)
 Apprenez à valider les signatures numériques des fichiers PDF avec Aspose.PDF, étape par étape, incluant la configuration et les meilleures pratiques.
 
+### [Comment vérifier la signature dans un PDF avec Aspose.PDF – Guide complet](./how-to-check-signature-in-a-pdf-with-aspose-pdf-complete-gui/)
+Apprenez à vérifier la signature numérique d'un PDF avec Aspose.PDF grâce à ce guide complet.
+
 ## Ressources supplémentaires
 
 - [Aspose.PDF pour la documentation réseau](https://docs.aspose.com/pdf/net/)

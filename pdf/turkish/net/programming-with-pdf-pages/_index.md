@@ -60,6 +60,7 @@ Eğitimler, adım adım talimatlar, ayrıntılı kod örnekleri ve anlaşılmas�
 | [C# ile Bates Numaralandırması Ekle – Tam Adım‑Adım Kılavuz](./add-bates-numbering-in-c-step-by-step-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF dosyalarına Bates numaralandırması eklemeyi adım adım öğrenin. |
 | [C# ile PDF Sayfalarını Yeniden Sırala – Tam Adım‑Adım Kılavuz](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF sayfalarını yeniden sıralamayı adım adım öğrenin. |
 | [C# ile PDF'lere Bates Numaralandırması Ekle – Tam Kılavuz](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF dosyalarına Bates numaralandırması eklemeyi adım adım öğrenin. |
+| [Aspose.Pdf ile PDF Sayfasını Kopyala – Tam Kılavuz](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Aspose.PDF for .NET kullanarak bir PDF sayfasını nasıl kopyalayacağınızı adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

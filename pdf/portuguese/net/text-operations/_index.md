@@ -104,6 +104,9 @@ Domine a rotação de texto em PDFs com o Aspose.PDF para .NET usando este guia 
 ### [Domine o Aspose.PDF para .NET: Abra e pesquise documentos PDF com eficiência](./aspose-pdf-net-open-search-pdfs/)
 Aprenda a usar o Aspose.PDF para .NET para abrir e pesquisar documentos PDF. Este guia aborda a configuração, a pesquisa de texto em páginas específicas e aplicações práticas.
 
+### [Como pesquisar PDF com Aspose.Pdf – Guia completo em C#](./how-to-search-pdf-with-aspose-pdf-complete-c-guide/)
+Aprenda a pesquisar texto em PDFs usando Aspose.Pdf com um guia completo em C#.
+
 ### [Domine as tabulações personalizadas em PDFs usando o Aspose.PDF para .NET: um guia completo](./master-custom-tab-stops-aspose-pdf-net/)
 Aprenda a dominar paradas de tabulação personalizadas em documentos PDF usando o Aspose.PDF para .NET, aprimorando suas habilidades de formatação e apresentação de documentos.
 

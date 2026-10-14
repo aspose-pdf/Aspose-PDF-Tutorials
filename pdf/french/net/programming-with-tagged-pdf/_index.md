@@ -52,6 +52,7 @@ Les tutoriels « Programmation avec des PDF balisés » d'Aspose.PDF pour .NET
 | [Créer une plage de texte accessible dans un PDF avec Aspose : guide complet C#](./create-accessible-text-span-in-pdf-with-aspose-full-c-guide/) | Apprenez à créer une plage de texte accessible dans un PDF en C# avec Aspose.PDF, étape par étape. |
 | [Comment modifier un PDF balisé avec Aspose.Pdf – Guide complet](./how-to-edit-tagged-pdf-with-aspose-pdf-complete-guide/) | Apprenez à modifier un PDF balisé avec Aspose.Pdf grâce à ce guide complet étape par étape. |
 | [Créer un PDF balisé en C# – Guide complet étape par étape](./create-tagged-pdf-in-c-full-step-by-step-guide/) | Apprenez à créer un PDF balisé en C# avec Aspose.PDF pour .NET grâce à ce guide complet et détaillé. |
+| [Comment baliser un PDF avec Aspose.Pdf – Guide complet de programmation](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | Apprenez à baliser un PDF avec Aspose.Pdf grâce à ce guide complet de programmation étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

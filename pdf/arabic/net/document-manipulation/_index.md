@@ -338,6 +338,9 @@
 
 ### [مقارنة PDF بصري في C# – دليل كامل لمقارنة ملفين PDF](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
 
+### [دمج طبقات PDF في C# – كيفية دمج طبقات PDF](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+تعرف على طريقة دمج طبقات ملفات PDF باستخدام C# ومكتبة Aspose.PDF لتحقيق مستند موحد ومتعدد الطبقات.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

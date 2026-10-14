@@ -344,6 +344,9 @@ C#과 Aspose.PDF를 사용하여 손상된 PDF 파일을 빠르게 복구하는 
 ### [C#와 Aspose PDF를 사용하여 PDF를 레드랙트하는 방법 – 완전 가이드](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
 Aspose PDF for .NET을 활용해 C#에서 PDF 문서의 민감한 정보를 레드랙트(가리기)하는 방법을 단계별로 안내합니다.
 
+### [C#에서 PDF 레이어 병합 – PDF 레이어 결합 방법](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+Aspose.PDF for .NET을 사용하여 PDF 레이어를 병합하고 결합하는 방법을 단계별로 알아보세요.
+
 ## 추가 자료
 
 - [Net 문서용 Aspose.PDF](https://docs.aspose.com/pdf/net/)

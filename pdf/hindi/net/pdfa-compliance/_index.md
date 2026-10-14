@@ -52,6 +52,9 @@ Aspose.PDF .NET के साथ C# में PDF को PDF/A में बद�
 ### [C# में PDF/A कैसे बनाएं – PDF को आसानी से PDF/A में बदलें](./how-to-create-pdf-a-in-c-convert-pdf-to-pdf-a-easily/)
 Aspose.PDF .NET के साथ C# में PDF को सरलता से PDF/A में बदलने के चरण-दर-चरण मार्गदर्शिका।
 
+### [Aspose PDF में ICC सेट करने का तरीका – पूर्ण C# गाइड](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
+Aspose.PDF .NET में ICC प्रोफ़ाइल सेट करने के लिए चरण-दर-चरण C# कोड उदाहरण और विस्तृत मार्गदर्शिका।
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.PDF for Net दस्तावेज़ीकरण](https://docs.aspose.com/pdf/net/)

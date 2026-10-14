@@ -62,6 +62,9 @@ Apprenez à modifier l'orientation des pages PDF avec Aspose.PDF pour .NET. Ce g
 ### [Combiner des pages PDF dans .NET avec Aspose.PDF : Guide complet des mises en page MakeNUp](./combine-pdf-pages-aspose-net-make-nup/)
 Apprenez à réorganiser des pages PDF avec Aspose.PDF pour .NET. Ce guide couvre la configuration, le codage et les applications pratiques de la fonctionnalité MakeNUp.
 
+### [Fusionner les calques PDF en C# – Comment combiner les calques PDF](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+Découvrez comment fusionner les calques d'un PDF en C# avec Aspose.PDF pour .NET.
+
 ### [Guide complet sur le fractionnement de PDF dans .NET avec Aspose.PDF](./pdf-splitting-net-aspose-pdf-guide/)
 Apprenez à fractionner des fichiers PDF dans .NET avec Aspose.PDF. Ce guide couvre la gestion des flux de fichiers, les techniques de fractionnement de pages et l'optimisation des performances pour une gestion efficace des documents.
 

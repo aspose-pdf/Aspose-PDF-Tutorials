@@ -79,6 +79,9 @@
 - [โหลดเอกสาร PDF และแปลงเป็น PDF/X‑4 – คู่มือฉบับสมบูรณ์](./load-pdf-document-and-convert-to-pdf-x-4-complete-guide/) | เรียนรู้วิธีโหลดไฟล์ PDF และแปลงเป็น PDF/X‑4 ด้วย Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนนี้  
 - [แปลง DOCX เป็น HTML ด้วย C# – คู่มือเต็ม](./convert-docx-to-html-in-c-complete-guide/) | เรียนรู้วิธีแปลงไฟล์ DOCX เป็น HTML ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนนี้  
 - [แปลง PDF เป็น PDF/X‑1A พร้อมการจัดการสีใน C#](./convert-pdf-to-pdf-x-1a-with-color-management-in-c/) | เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/X-1A พร้อมการจัดการสีโดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้  
+- [การแปลงรูปแบบ PDF ของ Aspose: แปลง PDF เป็น PDF/X‑4 ด้วย C#](./aspose-pdf-format-conversion-convert-pdf-to-pdf-x-4-in-c/) | เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/X‑4 ด้วย Aspose.PDF สำหรับ .NET โดยใช้ C# ในบทช่วยสอนทีละขั้นตอนนี้  
+- [สร้างภาพ PDF ด้วย Aspose.Pdf – คู่มือทีละขั้นตอน](./create-pdf-image-with-aspose-pdf-step-by-step-guide/) | เรียนรู้วิธีสร้างภาพ PDF ด้วย Aspose.Pdf ผ่านขั้นตอนละเอียดในคู่มือนี้  
+- [วิธีแปลง PDF ด้วย Aspose – คู่มือขั้นตอนเต็ม](./how-to-convert-pdf-with-aspose-complete-step-by-step-guide/) | เรียนรู้วิธีแปลงไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียดในคู่มือขั้นตอนเต็มนี้
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

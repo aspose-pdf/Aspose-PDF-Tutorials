@@ -43,6 +43,7 @@ Aspose.PDF の .NET 向けドキュメント変換チュートリアルでは、
 | [PDFからPDFAへ](./pdf-to-pdfa/) このステップバイステップのチュートリアルで、Aspose.PDF for .NET を使用して PDF ファイルを PDF/A 形式に変換する方法を学習します。 |  
 | [PDFからPDFA3bへ](./pdf-to-pdfa3b/) このステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF ファイルを PDF/A-3B 形式に簡単に変換する方法を学習します。 |  
 | [PDFからPNGへのフォントヒント](./pdf-to-png-font-hinting/) Aspose.PDF for .NET を使用して、フォントヒント付きの PDF を PNG に変換する方法を簡単なステップバイステップ ガイドで学習します。 |  
+| [Aspose.Pdf で PDF 画像を作成 – ステップバイステップ ガイド](./create-pdf-image-with-aspose-pdf-step-by-step-guide/) Aspose.PDF for .NET を使用して、PDF に画像を埋め込む方法をステップバイステップで解説します。 |  
 | [PDFからPPTへ](./pdf-to-ppt/) Aspose.PDF for .NET を使って PDF を PPT に変換する方法をステップバイステップで解説します。簡単、効率的、そしてプレゼンテーションに最適です。 |  
 | [PDFからSVGへ](./pdf-to-svg/) Aspose.PDF for .NET を使用してPDFファイルをSVG形式に変換する方法をステップバイステップで学ぶチュートリアルです。開発者やデザイナーに最適です。 |  
 | [PDFからTeXへ](./pdf-to-tex/) Aspose.PDF for .NET を使用してPDFをTeXに変換する方法をステップバイステップで解説します。ドキュメント処理スキルの向上を目指す開発者に最適です。 |  
@@ -81,6 +82,8 @@ Aspose.PDF の .NET 向けドキュメント変換チュートリアルでは、
 | [Aspose PDF 変換チュートリアル – PDF を PDF/X‑4 に変換するステップバイステップ](./aspose-pdf-conversion-tutorial-convert-pdfs-to-pdf-x-4-step/) このステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF を PDF/X‑4 形式に変換する方法を学びます。 |
 | [PDFドキュメントの読み込みとPDF/X‑4への変換 – 完全ガイド](./load-pdf-document-and-convert-to-pdf-x-4-complete-guide/) Aspose.PDF for .NET を使用して PDF ドキュメントを読み込み、PDF/X‑4 形式に変換する方法をステップバイステップで解説します。 |
 | [C#でカラー管理付きPDFをPDF/X‑1Aに変換](./convert-pdf-to-pdf-x-1a-with-color-management-in-c/) Aspose.PDF for .NET を使用して、C#でカラー管理を適用しながら PDF を PDF/X‑1A 形式に変換する方法をステップバイステップで解説します。 |  
+| [Aspose PDF フォーマット変換: C# で PDF を PDF/X‑4 に変換する](./aspose-pdf-format-conversion-convert-pdf-to-pdf-x-4-in-c/) C# と Aspose.PDF for .NET を使用して、PDF を PDF/X‑4 形式に変換する方法を学びます。 |  
+| [AsposeでPDFを変換する方法 – 完全ステップバイステップガイド](./how-to-convert-pdf-with-aspose-complete-step-by-step-guide/) Aspose.PDF for .NET を使用して、PDF をさまざまな形式に変換する完全な手順を解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

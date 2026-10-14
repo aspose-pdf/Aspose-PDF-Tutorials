@@ -345,6 +345,9 @@ Aspose का उपयोग करके PDF फ़ाइलों की त�
 ### [Aspose के साथ PDF से फ़ॉन्ट हटाएँ – चरण‑दर‑चरण गाइड](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
 Aspose का उपयोग करके PDF फ़ाइल से फ़ॉन्ट को हटाने की प्रक्रिया को चरण‑दर‑चरण सीखें।
 
+### [C# में PDF लेयर्स को मर्ज करें – PDF लेयर्स को कैसे संयोजित करें](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+C# में Aspose.PDF का उपयोग करके PDF फ़ाइलों की लेयर्स को मिलाकर एकल दस्तावेज़ बनाने का चरण-दर-चरण मार्गदर्शक।
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.PDF for Net दस्तावेज़ीकरण](https://docs.aspose.com/pdf/net/)

@@ -60,6 +60,7 @@ Návody obsahují podrobné pokyny, podrobné příklady kódu a jasná vysvětl
 | [Přidat stránky do PDF – krok‑za‑krokem průvodce pro vývojáře C#](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) | Kompletní krok‑za‑krokem průvodce přidáním stránek do PDF pomocí C# a Aspose.PDF pro .NET. |
 | [Přeskupit stránky PDF v C# – Kompletní krok‑za‑krokem průvodce](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | Kompletní krok‑za‑krokem průvodce přeskupením stránek PDF pomocí C# a Aspose.PDF pro .NET. |
 | [Přidat Batesovo číslování do PDF pomocí C# – Kompletní průvodce](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Kompletní průvodce přidáním Batesova číslování do PDF souborů pomocí C# a Aspose.PDF pro .NET. |
+| [Duplikovat stránku PDF pomocí Aspose.Pdf – Kompletní průvodce](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Kompletní návod, jak duplikovat stránku v PDF pomocí Aspose.PDF pro .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

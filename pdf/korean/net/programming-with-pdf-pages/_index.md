@@ -60,6 +60,7 @@ Aspose.PDF for .NET의 "PDF 페이지 프로그래밍" 설명서는 PDF 파일�
 | [C#에서 PDF 페이지 재정렬 – 전체 단계별 가이드](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 페이지를 재정렬하는 전체 단계별 가이드입니다. |  
 | [Aspose.Pdf를 사용한 PDF 페이지 재정렬 – 전체 C# 가이드](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 페이지 순서를 변경하는 방법을 단계별로 안내합니다. |  
 | [C#로 PDF에 베이츠 번호 추가 – 전체 단계별 가이드](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Aspose.PDF for .NET을 사용하여 C#로 PDF에 베이츠 번호를 추가하는 전체 단계별 가이드입니다. |  
+| [Aspose.Pdf로 PDF 페이지 복제 – 전체 가이드](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Aspose.PDF for .NET을 사용하여 PDF 페이지를 복제하는 단계별 가이드입니다. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

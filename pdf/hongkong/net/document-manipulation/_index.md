@@ -341,6 +341,9 @@ Aspose.PDF Net 程式碼教學
 
 ### [C# 中的視覺化 PDF 差異比較 – 完整指南：比較兩個 PDF](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
 
+### [在 C# 中合併 PDF 圖層 – 如何結合 PDF 圖層](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中合併 PDF 圖層，將多個圖層結合為單一文件。
+
 ## 其他資源
 
 - [Aspose.PDF 用於網頁文檔](https://docs.aspose.com/pdf/net/)

@@ -140,6 +140,9 @@ Dowiedz się, jak skutecznie obracać i dostosowywać tekst w dokumentach PDF za
 ### [Opanuj wyszukiwanie tekstu PDF za pomocą Regex przy użyciu Aspose.PDF .NET](./aspose-pdf-net-regex-text-search/)
 Samouczek dotyczący kodu dla Aspose.PDF Net
 
+### [Jak wyszukiwać pliki PDF przy użyciu Aspose.PDF .NET – Kompletny przewodnik C#](./how-to-search-pdf-with-aspose-pdf-complete-c-guide/)
+Dowiedz się, jak wyszukiwać dokumenty PDF przy użyciu Aspose.PDF dla .NET w kompletnym przewodniku C#.
+
 ### [Opanuj obracanie tekstu w plikach PDF za pomocą Aspose.PDF dla .NET: kompletny przewodnik](./rotate-text-pdf-aspose-dotnet/)
 Dowiedz się, jak obracać tekst w dokumentach PDF za pomocą Aspose.PDF dla .NET. Ten kompleksowy przewodnik obejmuje konfigurację, przykłady kodu i praktyczne zastosowania.
 

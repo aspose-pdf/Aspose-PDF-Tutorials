@@ -48,6 +48,8 @@ Hướng dẫn chi tiết cách tạo tài liệu PDF/A trong C# bằng Aspose.P
 Hướng dẫn chi tiết cách chuyển đổi tài liệu PDF sang định dạng PDF/A trong C# bằng Aspose.PDF, bao gồm các bước thực hiện và ví dụ mã.
 ### [Cách tạo PDF/A trong C# – Chuyển đổi PDF sang PDF/A một cách dễ dàng](./how-to-create-pdf-a-in-c-convert-pdf-to-pdf-a-easily/)
 Hướng dẫn từng bước tạo PDF/A từ PDF bằng C# sử dụng Aspose.PDF, giúp chuyển đổi nhanh chóng và tuân thủ tiêu chuẩn lưu trữ.
+### [Cách thiết lập ICC trong Aspose PDF – Hướng dẫn C# đầy đủ](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
+Hướng dẫn chi tiết cách thiết lập hồ sơ màu ICC trong Aspose PDF bằng C#, giúp tài liệu PDF đáp ứng chuẩn màu sắc.
 
 ## Tài nguyên bổ sung
 

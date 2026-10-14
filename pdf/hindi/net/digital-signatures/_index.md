@@ -30,7 +30,7 @@ C# का उपयोग करके PDF फ़ाइलों में ड�
 
 ### [.NET के लिए Aspose.PDF का उपयोग करके PDF हस्ताक्षर कैसे बनाएं और सत्यापित करें](./create-verify-pdf-signatures-aspose-net/)
 
-### [Aspose.PDF .NET का उपयोग करके PDF हस्ताक्षर जानकारी कैसे निकालें: एक चरण-दर-चरण मार्गदर्शिका](./extract-pdf-signature-info-aspose-pdf-net/)
+### [Aspose.PDF .NET का उपयोग करके PDF हस्ताक्षर जानकारी कैसे निकालें: एक चरण-दर-श...](./extract-pdf-signature-info-aspose-pdf-net/)
 
 ### [Aspose.PDF के साथ .NET में डिजिटल हस्ताक्षर कैसे लागू करें: एक व्यापक गाइड](./implement-pdf-signatures-dotnet-aspose-pdf-guide/)
 
@@ -70,6 +70,8 @@ C# और Aspose.PDF का उपयोग करके PDF फ़ाइलो�
 ### [C# में PDF हस्ताक्षर नाम प्राप्त करें – पूर्ण प्रोग्रामिंग गाइड](./retrieve-pdf-signature-names-in-c-complete-programming-guide/)
 
 ### [C# में PDF हस्ताक्षर कैसे सत्यापित करें – पूर्ण चरण‑दर‑चरण ट्यूटोरियल](./how-to-verify-pdf-signature-in-c-complete-step-by-step-tutor/)
+### [Aspose.PDF के साथ PDF में हस्ताक्षर कैसे जांचें – पूर्ण गाइड](./how-to-check-signature-in-a-pdf-with-aspose-pdf-complete-gui/)
+Aspose.PDF का उपयोग करके PDF में डिजिटल हस्ताक्षर की जाँच करने की पूरी प्रक्रिया सीखें।
 
 ### [PDF दस्तावेज़ लोड करें C# – PDF/X‑4 में बदलें और हस्ताक्षर सूचीबद्ध करें](./load-pdf-document-c-convert-to-pdf-x-4-list-signatures/)
 C# में PDF दस्तावेज़ लोड करके उसे PDF/X‑4 में परिवर्तित करने और सभी डिजिटल हस्ताक्षरों को सूचीबद्ध करने का चरण-दर-चरण मार्गदर्शक।

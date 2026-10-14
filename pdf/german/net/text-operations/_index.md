@@ -20,6 +20,9 @@ Unsere Tutorials zu Textoperationen bieten detaillierte Anleitungen zur Bearbeit
 ### [Erweiterte Regex-Suchen in PDFs mit Aspose.PDF .NET: Ein umfassender Leitfaden](./aspose-pdf-net-advanced-regex-searches/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET erweiterte Regex-Suchen in PDF-Dokumenten durchführen und dabei exakte Übereinstimmungen, die Nichtbeachtung der Groß-/Kleinschreibung und die Extraktion von Hyperlinks berücksichtigen.
 
+### [Wie man PDFs mit Aspose.Pdf durchsucht – Vollständiger C#-Leitfaden](./how-to-search-pdf-with-aspose-pdf-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.Pdf für .NET PDFs durchsuchen und dabei umfassende C#-Beispiele nutzen.
+
 ### [Aspose.PDF .NET: Seitenzahlen zu PDFs hinzufügen mit FloatingBox](./aspose-pdf-net-floatingbox-page-numbering/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET Seitenzahlen hinzufügen. Die FloatingBox-Funktion wird Schritt für Schritt implementiert. Verbessern Sie die Navigation und Professionalität Ihrer Dokumente.
 

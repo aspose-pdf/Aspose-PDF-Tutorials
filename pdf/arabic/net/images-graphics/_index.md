@@ -178,6 +178,9 @@
 تعرف على خطوات التحقق من صحة ملفات PDF وإدراج مستطلات باستخدام Aspose.PDF لـ .NET مع أمثلة برمجية مفصلة.
 ### [ضغط الصور بدون فقدان في مستندات Word – دليل شامل](./lossless-image-compression-in-word-docs-complete-guide/)
 تعرّف على كيفية ضغط الصور في مستندات Word دون فقدان الجودة باستخدام Aspose.Words لـ .NET.
+### [دليل تراكب الصور في PDF – إضافة قناع وتمكين اختيار الصينية تلقائيًا](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+
+### [كيفية استخدام GraphicsAbsorber – استخراج الرسومات المتجهة من PDF باستخدام Aspose.PDF لـ .NET](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
 
 ## موارد إضافية
 

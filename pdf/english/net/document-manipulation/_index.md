@@ -292,6 +292,9 @@ A code tutorial for Aspose.PDF Net
 ### [Merge PDFs in .NET Using Aspose.PDF&#58; A Comprehensive Guide](./merge-pdfs-net-aspose-pdf-tutorial/)
 Learn how to seamlessly merge PDF files using Aspose.PDF for .NET. This step-by-step guide covers setup, implementation, and practical applications.
 
+### [Merge PDF Layers in C# – How to Combine PDF Layers](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+Learn how to merge multiple PDF layers into a single document using Aspose.PDF for .NET with C# code examples.
+
 ### [Move PDF Form Fields in .NET using Aspose.PDF&#58; A Step-by-Step Guide](./move-pdf-fields-aspose-pdf-dotnet-guide/)
 Learn how to move and reposition PDF form fields effortlessly with Aspose.PDF for .NET. This guide covers setup, step-by-step instructions, and troubleshooting tips.
 

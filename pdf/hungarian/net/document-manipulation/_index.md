@@ -65,6 +65,9 @@ Tanuld meg, hogyan módosíthatod a PDF oldalak tájolását az Aspose.PDF for .
 ### [PDF oldalak kombinálása .NET-ben az Aspose.PDF segítségével: Teljes körű útmutató a MakeNUp elrendezésekhez](./combine-pdf-pages-aspose-net-make-nup/)
 Ismerd meg, hogyan szervezheted át a PDF oldalakat az Aspose.PDF for .NET használatával. Ez az útmutató a MakeNUp funkció beállítását, kódolását és gyakorlati alkalmazásait ismerteti.
 
+### [PDF rétegek egyesítése C#-ban – Hogyan kombináljunk PDF rétegeket](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+Ismerje meg, hogyan egyesítheti a PDF rétegeket C#-ban az Aspose.PDF for .NET segítségével, lépésről lépésre útmutatóval.
+
 ### [Átfogó útmutató a PDF felosztásához .NET-ben az Aspose.PDF használatával](./pdf-splitting-net-aspose-pdf-guide/)
 Tanulja meg, hogyan oszthatja fel PDF-fájlokat .NET-ben az Aspose.PDF használatával. Ez az útmutató a fájlfolyam-kezelést, az oldalfelosztási technikákat és a teljesítmény optimalizálását ismerteti a hatékony dokumentumkezelés érdekében.
 

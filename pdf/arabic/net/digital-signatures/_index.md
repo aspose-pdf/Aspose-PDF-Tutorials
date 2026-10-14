@@ -89,6 +89,9 @@
 دليل شامل يوضح كيفية توقيع ملفات PDF باستخدام شهادة رقمية في C# مع أمثلة عملية.
 ### [كيفية توقيع PDF في C# – دليل شامل مع Aspose](./how-to-sign-pdf-in-c-complete-guide-with-aspose/)
 
+### [كيفية التحقق من التوقيع في ملف PDF باستخدام Aspose.PDF – دليل شامل](./how-to-check-signature-in-a-pdf-with-aspose-pdf-complete-gui/)
+تعرف على خطوات التحقق من صحة التوقيع الرقمي في ملفات PDF باستخدام Aspose.PDF في دليل شامل ومفصل.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

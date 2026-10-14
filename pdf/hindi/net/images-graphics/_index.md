@@ -28,6 +28,9 @@
 
 ### [.NET के लिए Aspose.PDF का उपयोग करके छवियों को PDF में बदलें: चरण-दर-स्तर मार्गदर्शिका](./convert-images-pdf-aspose-net-guide/)
 जानें कि C# में .NET के लिए Aspose.PDF के साथ छवियों को एकल PDF में कैसे परिवर्तित किया जाए। यह मार्गदर्शिका चरण-दर-स्तर निर्देश, सुझाव और सर्वोत्तम अभ्यास प्रदान करती है।
+### [GraphicsAbsorber का उपयोग कैसे करें – Aspose.Pdf के साथ PDF से वेक्टर ग्राफ़िक्स निकालें](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
+Aspose.Pdf के GraphicsAbsorber का उपयोग करके PDF से वेक्टर ग्राफ़िक्स को आसानी से निकालें और पुन: उपयोग करें।
+
 
 ### [.NET के लिए Aspose.PDF का उपयोग करके SVG को PDF में बदलें: एक चरण-दर-स्तर मार्गदर्शिका](./svg-to-pdf-aspose-pdf-net-tutorial/)
 जानें कि .NET के लिए Aspose.PDF का उपयोग करके SVG फ़ाइलों को उच्च-गुणवत्ता वाली PDF में कैसे आसानी से परिवर्तित किया जाए। कोड उदाहरणों और प्रदर्शन युक्तियों के साथ इस व्यापक ट्यूटोरियल का पालन करें।
@@ -181,6 +184,7 @@ Aspose.PDF नेट के लिए एक कोड ट्यूटोरि�
 ### [.NET के लिए Aspose.PDF का उपयोग करके PDF में आयत जोड़ें – पूर्ण प्रोग्रामिंग गाइड](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
 ### [Word दस्तावेज़ों में लॉसलेस इमेज संपीड़न – पूर्ण गाइड](./lossless-image-compression-in-word-docs-complete-guide/)
 Aspose.Words .NET का उपयोग करके Word फ़ाइलों में इमेज को बिना गुणवत्ता खोए संपीड़ित करने की पूरी प्रक्रिया सीखें।
+### [इमेज ओवरले PDF ट्यूटोरियल – मास्क जोड़ें और स्वचालित ट्रे चयन सक्षम करें](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
 
 ## अतिरिक्त संसाधन
 

@@ -176,6 +176,11 @@
 
 ### [Συμπίεση εικόνων χωρίς απώλεια σε έγγραφα Word – Πλήρης οδηγός](./lossless-image-compression-in-word-docs-complete-guide/)
 Μάθετε πώς να συμπιέζετε εικόνες σε έγγραφα Word χωρίς απώλεια ποιότητας, βήμα‑βήμα με παραδείγματα κώδικα.
+### [Σεμινάριο επικάλυψης εικόνας σε PDF – προσθήκη μάσκας & ενεργοποίηση αυτόματης επιλογής δίσκου](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+Μάθετε πώς να επικάλυπτε εικόνες σε PDF, να προσθέτετε μάσκα και να ενεργοποιείτε την αυτόματη επιλογή δίσκου με το Aspose.PDF για .NET.
+
+### [Πώς να χρησιμοποιήσετε το GraphicsAbsorber – Εξαγωγή διανυσματικών γραφικών από PDF με το Aspose.Pdf](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
+Μάθετε πώς να εξάγετε διανυσματικά γραφικά από PDF χρησιμοποιώντας το GraphicsAbsorber του Aspose.Pdf.
 
 ## Πρόσθετοι Πόροι
 

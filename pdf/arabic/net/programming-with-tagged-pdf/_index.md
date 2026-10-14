@@ -52,6 +52,7 @@
 | [إنشاء مقطع نصي قابل للوصول في PDF باستخدام Aspose: دليل كامل C#](./create-accessible-text-span-in-pdf-with-aspose-full-c-guide/) |تعلم كيفية إنشاء مقطع نصي قابل للوصول في ملفات PDF باستخدام Aspose.PDF لـ .NET مع دليل C# خطوة بخطوة.|  
 | [كيفية تعديل PDF مُعلَّم باستخدام Aspose.Pdf – دليل شامل](./how-to-edit-tagged-pdf-with-aspose-pdf-complete-guide/) |تعلم كيفية تعديل ملفات PDF المُعلَّمة باستخدام Aspose.Pdf خطوة بخطوة في هذا الدليل الشامل.|  
 | [إنشاء ملف PDF مُعلَّم في C# – دليل خطوة بخطوة كامل](./create-tagged-pdf-in-c-full-step-by-step-guide/) |تعلم كيفية إنشاء ملف PDF مُعلَّم باستخدام C# و Aspose.PDF خطوة بخطوة. |  
+| [كيفية وضع علامة على PDF باستخدام Aspose.Pdf – دليل برمجة كامل](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | تعلم كيفية وضع علامات على ملفات PDF باستخدام Aspose.Pdf من خلال دليل برمجة شامل خطوة بخطوة. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

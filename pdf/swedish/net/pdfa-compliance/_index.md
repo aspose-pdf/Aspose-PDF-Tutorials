@@ -49,6 +49,8 @@ Lär dig steg för steg hur du skapar PDF/A-filer i C# med en komplett konverter
 Lär dig skapa PDF/A-dokument i C# med en detaljerad steg‑för‑steg‑guide från Aspose.
 ### [Hur man skapar PDF/A i C# – Konvertera PDF till PDF/A enkelt](./how-to-create-pdf-a-in-c-convert-pdf-to-pdf-a-easily/)
 Lär dig enkelt skapa PDF/A i C# genom att konvertera befintliga PDF-filer med Aspose.PDF .NET.
+### [Hur du ställer in ICC i Aspose PDF – Komplett C#-guide](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
+Lär dig hur du konfigurerar ICC-profiler i Aspose PDF med C# för färgkorrekt återgivning och PDF/A‑efterlevnad.
 
 ## Ytterligare resurser
 

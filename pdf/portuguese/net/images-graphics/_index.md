@@ -154,6 +154,9 @@ Um tutorial de código para Aspose.PDF Net
 ### [Como extrair imagens de páginas específicas de um PDF usando Aspose.PDF para .NET](./extract-images-pdfs-specific-pages-aspose-dotnet/)
 Aprenda a extrair imagens de páginas específicas de um PDF com eficiência usando o Aspose.PDF para .NET. Este guia aborda dicas de configuração, implementação e desempenho.
 
+### [Como usar o GraphicsAbsorber – Extrair gráficos vetoriais de PDF com Aspose.Pdf](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
+Aprenda a extrair gráficos vetoriais de PDFs usando o GraphicsAbsorber do Aspose.Pdf em C#.
+
 ### [Como extrair informações de páginas de PDF e renderizar imagens com Aspose.PDF para .NET (Guia 2023)](./extract-pdf-info-render-images-aspose-dotnet/)
 Aprenda a extrair dimensões de páginas e renderizar imagens de PDFs usando o Aspose.PDF para .NET. Este guia aborda configuração, implementação e aplicações práticas.
 
@@ -177,6 +180,9 @@ Aprenda a ajustar o tamanho das imagens em PDFs com o Aspose.PDF para .NET, perf
 
 ### [Dominando o posicionamento de imagens em PDFs usando Aspose.PDF para .NET](./optimize-image-placement-aspose-pdf-net/)
 Aprenda a otimizar o posicionamento de imagens em documentos PDF com o Aspose.PDF para .NET. Melhore a qualidade e a eficiência dos seus documentos com guias práticos.
+
+### [Tutorial de sobreposição de imagem em PDF – adicionar máscara e habilitar seleção automática de bandeja](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+Aprenda a sobrepor imagens em PDFs, adicionar máscaras e habilitar a seleção automática de bandeja usando Aspose.PDF para .NET.
 
 ### [Otimize imagens PDF com Aspose.PDF para .NET: um guia completo](./optimize-pdf-images-aspose-pdf-dotnet/)
 Aprenda a compactar e otimizar imagens em documentos PDF usando o Aspose.PDF para .NET, reduzindo o tamanho do arquivo e mantendo a qualidade. Ideal para desenvolvedores e gerentes de documentos.

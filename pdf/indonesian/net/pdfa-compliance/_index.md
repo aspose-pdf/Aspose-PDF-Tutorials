@@ -49,6 +49,8 @@ Pelajari cara membuat PDF/A menggunakan C# dengan panduan langkah demi langkah d
 Pelajari cara mengonversi PDF ke PDF/A menggunakan C# dengan contoh kode lengkap dan langkah-langkah detail.
 ### [Cara Membuat PDF/A di C# – Mengonversi PDF ke PDF/A dengan Mudah](./how-to-create-pdf-a-in-c-convert-pdf-to-pdf-a-easily/)
 Panduan langkah demi langkah untuk membuat PDF/A di C# dan mengonversi PDF biasa menjadi PDF/A dengan mudah menggunakan Aspose.PDF.
+### [Cara Mengatur ICC di Aspose PDF – Panduan Lengkap C#](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
+Panduan lengkap langkah demi langkah untuk mengatur profil ICC pada PDF menggunakan Aspose.PDF dengan C#.
 
 ## Sumber Daya Tambahan
 
