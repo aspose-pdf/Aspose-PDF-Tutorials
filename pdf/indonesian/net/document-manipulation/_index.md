@@ -20,6 +20,9 @@ Kuasai manipulasi dokumen PDF dengan tutorial Aspose.PDF .NET kami yang terperin
 {{< tutorial-card link="./compare-pdfs/" title="Bandingkan PDF dan Hasilkan Dokumen Diff yang Disorot Menggunakan Aspose.PDF untuk .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
 
 {{< tutorial-card link="./compare-pdf-forms/" title="Bandingkan Form PDF dan Hasilkan JSON & Visual Diff Menggunakan Aspose.Pdf untuk .NET" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
+
+{{< tutorial-card link="./exclude-areas/" title="Bandingkan PDF sambil Mengabaikan Area Spesifik menggunakan Aspose.Pdf untuk .NET" imgSrc="./exclude-areas/images/thumb.png" >}}
+
 ### [Tambahkan Cap Tanggal & Waktu ke PDF Menggunakan Aspose.PDF untuk .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 Pelajari cara menambahkan cap tanggal dan waktu atau anotasi secara efisien ke dalam dokumen PDF Anda menggunakan Aspose.PDF for .NET. Tingkatkan pengelolaan dokumen dengan langkah-langkah yang mudah diikuti ini.
 

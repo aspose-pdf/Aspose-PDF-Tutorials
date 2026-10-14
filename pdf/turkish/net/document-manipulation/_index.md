@@ -20,6 +20,9 @@ Ayrıntılı Aspose.PDF .NET eğitimlerimizle PDF belge düzenlemede ustalaşın
 {{< tutorial-card link="./compare-pdfs/" title="PDF'leri karşılaştırın ve Aspose.PDF for .NET kullanarak vurgulanan bir Diff belgesi oluşturun" imgSrc="./compare-pdfs/images/thumb.png" >}}
 
 {{< tutorial-card link="./compare-pdf-forms/" title="Aspose.Pdf for .NET kullanarak PDF Formlarını karşılaştırın ve JSON ile Görsel Diff oluşturun" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
+
+{{< tutorial-card link="./exclude-areas/" title="Aspose.Pdf for .NET kullanarak belirli alanları yok sayarak PDF'leri karşılaştırın" imgSrc="./exclude-areas/images/thumb.png" >}}
+
 ### [Aspose.PDF for .NET Kullanarak PDF'lere Tarih ve Saat Damgaları Ekleyin](./aspose-pdf-net-date-time-stamps-annotations/)
 Aspose.PDF for .NET kullanarak PDF belgelerinize tarih ve saat damgalarını veya açıklamaları nasıl etkili bir şekilde ekleyeceğinizi öğrenin. Bu kolay takip edilebilir adımlarla belge yönetimini geliştirin.
 

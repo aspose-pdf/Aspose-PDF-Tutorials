@@ -21,6 +21,9 @@
 {{< tutorial-card link="./compare-pdfs/" title="قارن ملفات PDF وأنشئ مستند فرق مُبرز باستخدام Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
 
 {{< tutorial-card link="./compare-pdf-forms/" title="قارن نماذج PDF وأنشئ فرقًا بصريًا وتقرير JSON باستخدام Aspose.Pdf for .NET" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
+
+{{< tutorial-card link="./exclude-areas/" title="قارن ملفات PDF مع تجاهل مناطق محددة باستخدام Aspose.Pdf for .NET" imgSrc="./exclude-areas/images/thumb.png" >}}
+
 ### [إضافة طوابع التاريخ والوقت إلى ملفات PDF باستخدام Aspose.PDF لـ .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 تعرّف على كيفية إضافة التاريخ والوقت أو التعليقات التوضيحية بكفاءة إلى مستندات PDF باستخدام Aspose.PDF لـ .NET. حسّن إدارة مستنداتك باتباع هذه الخطوات السهلة.
 
