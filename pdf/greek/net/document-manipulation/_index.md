@@ -18,6 +18,9 @@
 ## Διαθέσιμα εκπαιδευτικά βίντεο
 
 {{< tutorial-card link="./compare-pdf-forms/" title="Συγκρίνετε φόρμες PDF και δημιουργήστε JSON & οπτικό Diff χρησιμοποιώντας το Aspose.Pdf για .NET" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
+
+{{< tutorial-card link="./exclude-areas/" title="Σύγκριση PDF ενώ αγνοούνται συγκεκριμένες περιοχές με χρήση του Aspose.Pdf για .NET" imgSrc="./exclude-areas/images/thumb.png" >}}
+
 ### [Προσθήκη σφραγίδων ημερομηνίας και ώρας σε PDF χρησιμοποιώντας το Aspose.PDF για .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 Μάθετε πώς να προσθέτετε αποτελεσματικά σημάνσεις ημερομηνίας και ώρας ή σχόλια στα έγγραφά σας PDF χρησιμοποιώντας το Aspose.PDF για .NET. Βελτιώστε τη διαχείριση εγγράφων με αυτά τα εύκολα βήματα.
 

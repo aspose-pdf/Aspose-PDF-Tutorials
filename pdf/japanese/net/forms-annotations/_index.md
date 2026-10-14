@@ -17,6 +17,8 @@
 
 ## 利用可能なチュートリアル
 
+
+{{< tutorial-card link="./exclude-annotations/" title="Aspose.Pdf for .NET を使用した注釈除外のサイドバイサイド PDF 比較" imgSrc="./exclude-annotations/images/thumb.png" >}}
 ### [Aspose.PDF for .NET を使用して PDF にフォームフィールドを追加する: 包括的なガイド](./add-pdf-form-fields-aspose-pdf-dotnet/)
 Aspose.PDF for .NET を使用して、PDF にテキスト、チェックボックス、コンボボックス、リストボックス、複数行フィールドを追加する方法を学びます。このガイドでは、セットアップ、コード例、統合のヒントについて説明します。
 

@@ -17,6 +17,8 @@
 
 ## उपलब्ध ट्यूटोरियल
 
+
+{{< tutorial-card link="./exclude-annotations/" title="Aspose.Pdf for .NET के साथ एनोटेशनों को बाहर रखते हुए साइड‑बाय‑साइड PDF तुलना" imgSrc="./exclude-annotations/images/thumb.png" >}}
 ### [.NET के लिए Aspose.PDF का उपयोग करके PDF में फ़ॉर्म फ़ील्ड जोड़ें: एक व्यापक गाइड](./add-pdf-form-fields-aspose-pdf-dotnet/)
 जानें कि .NET के लिए Aspose.PDF का उपयोग करके PDF में टेक्स्ट, चेकबॉक्स, कॉम्बो बॉक्स, लिस्ट बॉक्स और मल्टी-लाइन फ़ील्ड कैसे जोड़ें। यह गाइड सेटअप, कोड उदाहरण और एकीकरण युक्तियों को कवर करती है।
 

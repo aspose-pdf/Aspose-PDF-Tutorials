@@ -19,6 +19,9 @@ Opanuj manipulację dokumentami PDF dzięki naszym szczegółowym samouczkom Asp
 
 
 {{< tutorial-card link="./compare-pdf-forms/" title="Porównaj formularze PDF i wygeneruj JSON oraz wizualne różnice przy użyciu Aspose.Pdf dla .NET" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
+
+{{< tutorial-card link="./exclude-areas/" title="Porównywanie plików PDF z pomijaniem określonych obszarów przy użyciu Aspose.Pdf for .NET" imgSrc="./exclude-areas/images/thumb.png" >}}
+
 ### [Dodawanie znaczników daty i godziny do plików PDF za pomocą Aspose.PDF dla .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 Dowiedz się, jak skutecznie dodawać znaczniki daty i godziny lub adnotacje do dokumentów PDF za pomocą Aspose.PDF dla .NET. Ulepsz zarządzanie dokumentami dzięki tym prostym krokom.
 

@@ -18,6 +18,9 @@ Padroneggia la manipolazione dei documenti PDF con i nostri tutorial dettagliati
 ## Tutorial disponibili
 
 {{< tutorial-card link="./compare-pdf-forms/" title="Confronta i moduli PDF e genera JSON e diff visivo usando Aspose.Pdf per .NET" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
+
+{{< tutorial-card link="./exclude-areas/" title="Confronta PDF ignorando aree specifiche usando Aspose.Pdf per .NET" imgSrc="./exclude-areas/images/thumb.png" >}}
+
 ### [Aggiungere data e ora ai PDF utilizzando Aspose.PDF per .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 Scopri come aggiungere in modo efficiente data e ora o annotazioni ai tuoi documenti PDF utilizzando Aspose.PDF per .NET. Migliora la gestione dei documenti con questi semplici passaggi.
 

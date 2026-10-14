@@ -18,6 +18,9 @@
 ## Доступные обучающие материалы
 
 {{< tutorial-card link="./compare-pdf-forms/" title="Сравнение PDF‑форм и генерация JSON и визуального diff с использованием Aspose.Pdf for .NET" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
+
+{{< tutorial-card link="./exclude-areas/" title="Сравнение PDF, игнорируя определённые области, с использованием Aspose.Pdf for .NET" imgSrc="./exclude-areas/images/thumb.png" >}}
+
 ### [Добавление отметок даты и времени в PDF-файлы с помощью Aspose.PDF для .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 Узнайте, как эффективно добавлять отметки даты и времени или аннотации в ваши PDF-документы с помощью Aspose.PDF для .NET. Улучшите управление документами с помощью этих простых шагов.
 

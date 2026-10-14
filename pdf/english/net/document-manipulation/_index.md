@@ -17,6 +17,9 @@ Master PDF document manipulation with our detailed Aspose.PDF .NET tutorials. Th
 
 ## Available Tutorials
 
+{{< tutorial-card link="./exclude-areas/" title="Compare PDFs While Ignoring Specific Areas Using Aspose.Pdf for .NET" imgSrc="./exclude-areas/images/thumb.png" >}}
+
+
 {{< tutorial-card link="./compare-pdf-forms/" title="Compare PDF Forms and Generate JSON & Visual Diff Using Aspose.Pdf for .NET" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
 
 ### [Add Date & Time Stamps to PDFs Using Aspose.PDF for .NET](./aspose-pdf-net-date-time-stamps-annotations/)

@@ -19,6 +19,9 @@ Bemästra PDF-dokumenthantering med våra detaljerade Aspose.PDF .NET-handlednin
 
 
 {{< tutorial-card link="./compare-pdf-forms/" title="Jämför PDF‑formulär och generera JSON‑ och visuell diff med Aspose.Pdf för .NET" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
+
+{{< tutorial-card link="./exclude-areas/" title="Jämför PDF‑filer medan du ignorerar specifika områden med Aspose.Pdf för .NET" imgSrc="./exclude-areas/images/thumb.png" >}}
+
 ### [Hur man jämför PDF-filer med Aspose – steg‑för‑steg‑guide](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
 Lär dig hur du jämför två PDF-dokument programatiskt med Aspose.PDF för .NET i en enkel steg‑för‑steg‑guide.
 
