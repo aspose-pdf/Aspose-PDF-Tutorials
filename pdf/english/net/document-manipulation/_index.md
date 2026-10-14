@@ -16,6 +16,9 @@ url: "/net/document-manipulation/"
 Master PDF document manipulation with our detailed Aspose.PDF .NET tutorials. These step-by-step guides demonstrate how to work with document structure, modify existing PDFs, split and merge documents, add and remove pages, and organize your PDF content programmatically. Each tutorial includes working C# code examples, implementation notes, and best practices to help you build applications that efficiently manipulate PDF documents with clean, maintainable code.
 
 ## Available Tutorials
+
+{{< tutorial-card link="./compare-pdfs/" title="Compare PDFs and Generate a Highlighted Diff Document Using Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
 ### [Add Date & Time Stamps to PDFs Using Aspose.PDF for .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 Learn how to efficiently add date and time stamps or annotations into your PDF documents using Aspose.PDF for .NET. Enhance document management with these easy-to-follow steps.
 

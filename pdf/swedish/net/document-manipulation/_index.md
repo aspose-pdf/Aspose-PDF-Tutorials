@@ -17,6 +17,8 @@ Bemästra PDF-dokumenthantering med våra detaljerade Aspose.PDF .NET-handlednin
 
 ## Tillgängliga handledningar
 
+
+{{< tutorial-card link="./compare-pdfs/" title="Jämför PDF‑filer och generera ett markerat diff‑dokument med Aspose.PDF för .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
 ### [Hur man jämför PDF-filer med Aspose – steg‑för‑steg‑guide](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
 Lär dig hur du jämför två PDF-dokument programatiskt med Aspose.PDF för .NET i en enkel steg‑för‑steg‑guide.
 

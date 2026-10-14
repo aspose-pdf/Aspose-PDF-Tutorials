@@ -16,6 +16,8 @@
 자세한 Aspose.PDF .NET 튜토리얼을 통해 PDF 문서 조작을 마스터하세요. 이 단계별 가이드는 문서 구조 작업, 기존 PDF 수정, 문서 분할 및 병합, 페이지 추가 및 제거, PDF 콘텐츠 프로그래밍 방식 구성 방법을 보여줍니다. 각 튜토리얼에는 C# 코드 예제, 구현 노트, 그리고 모범 사례가 포함되어 있어 깔끔하고 유지 관리가 용이한 코드로 PDF 문서를 효율적으로 조작하는 애플리케이션을 구축하는 데 도움이 됩니다.
 
 ## 사용 가능한 튜토리얼
+
+{{< tutorial-card link="./compare-pdfs/" title="Aspose.PDF for .NET을 사용하여 PDF를 비교하고 강조된 Diff 문서를 생성합니다." imgSrc="./compare-pdfs/images/thumb.png" >}}
 ### [Aspose.PDF for .NET을 사용하여 PDF에 날짜 및 시간 스탬프 추가](./aspose-pdf-net-date-time-stamps-annotations/)
 Aspose.PDF for .NET을 사용하여 PDF 문서에 날짜 및 시간 스탬프나 주석을 효율적으로 추가하는 방법을 알아보세요. 따라 하기 쉬운 단계들을 통해 문서 관리를 더욱 효율적으로 개선해 보세요.
 

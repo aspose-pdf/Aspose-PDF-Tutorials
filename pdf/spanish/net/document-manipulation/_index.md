@@ -16,6 +16,8 @@
 Domine la manipulación de documentos PDF con nuestros detallados tutoriales de Aspose.PDF .NET. Estas guías paso a paso le muestran cómo trabajar con la estructura de documentos, modificar archivos PDF existentes, dividir y combinar documentos, añadir y eliminar páginas, y organizar su contenido PDF mediante programación. Cada tutorial incluye ejemplos de código C# funcionales, notas de implementación y prácticas recomendadas para ayudarle a crear aplicaciones que manipulen documentos PDF eficientemente con código limpio y fácil de mantener.
 
 ## Tutoriales disponibles
+
+{{< tutorial-card link="./compare-pdfs/" title="Compare PDFs y genere un documento de diferencias resaltado usando Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
 ### [Agregar marcas de fecha y hora a archivos PDF con Aspose.PDF para .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 Aprenda a agregar marcas de fecha y hora o anotaciones de forma eficiente a sus documentos PDF con Aspose.PDF para .NET. Mejore la gestión de documentos con estos sencillos pasos.
 

@@ -16,6 +16,8 @@
 Ayrıntılı Aspose.PDF .NET eğitimlerimizle PDF belge düzenlemede ustalaşın. Bu adım adım kılavuzlar, belge yapısıyla nasıl çalışılacağını, mevcut PDF'leri nasıl değiştireceğinizi, belgeleri nasıl böleceğinizi ve birleştireceğinizi, sayfalar nasıl ekleyeceğinizi ve kaldıracağınızı ve PDF içeriğinizi programatik olarak nasıl düzenleyeceğinizi gösterir. Her eğitim, temiz, sürdürülebilir kodla PDF belgelerini etkili bir şekilde düzenleyen uygulamalar oluşturmanıza yardımcı olmak için çalışan C# kod örnekleri, uygulama notları ve en iyi uygulamaları içerir.
 
 ## Mevcut Eğitimler
+
+{{< tutorial-card link="./compare-pdfs/" title="PDF'leri karşılaştırın ve Aspose.PDF for .NET kullanarak vurgulanan bir Diff belgesi oluşturun" imgSrc="./compare-pdfs/images/thumb.png" >}}
 ### [Aspose.PDF for .NET Kullanarak PDF'lere Tarih ve Saat Damgaları Ekleyin](./aspose-pdf-net-date-time-stamps-annotations/)
 Aspose.PDF for .NET kullanarak PDF belgelerinize tarih ve saat damgalarını veya açıklamaları nasıl etkili bir şekilde ekleyeceğinizi öğrenin. Bu kolay takip edilebilir adımlarla belge yönetimini geliştirin.
 

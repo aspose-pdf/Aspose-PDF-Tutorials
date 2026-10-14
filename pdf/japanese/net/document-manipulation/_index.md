@@ -17,6 +17,8 @@ Aspose.PDF .NETの詳細なチュートリアルで、PDFドキュメントの�
 
 ## 利用可能なチュートリアル
 
+
+{{< tutorial-card link="./compare-pdfs/" title="Aspose.PDF for .NET を使用して PDF を比較し、ハイライトされた diff ドキュメントを生成する" imgSrc="./compare-pdfs/images/thumb.png" >}}
 ### [Aspose.PDF for .NET を使用して PDF に日付と時刻のスタンプを追加する](./aspose-pdf-net-date-time-stamps-annotations/)
 Aspose.PDF for .NET を使用して、PDF ドキュメントに日付と時刻のスタンプや注釈を効率的に追加する方法を学びましょう。これらの簡単な手順でドキュメント管理を強化しましょう。
 
