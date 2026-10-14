@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Ez a bemutató megmutatja, hogyan használható az Aspose.Pdf két űrlapmezőket tartalmazó PDF-fájl összehasonlítására, automatikusan kiértékelve a mezőértékeket, majd létrehozza a különbségek JSON-jelentését és egy egymás mellett megjelenített vizuális diff PDF-et.
+//ExStepSummary:0: Határozd meg az eredeti PDF, a frissített PDF, az egymás mellett megjelenített diff PDF és a JSON diff jelentés fájlútvonalait.
+//ExStepSummary:1: Ellenőrizd, hogy mindkét forrás PDF-fájl létezik, és ha valamelyik hiányzik, a programot hibajelzéssel állítsd le.
+//ExStepSummary:2: Töltsd be az eredeti és a frissített PDF-eket `Document` objektumokba determinisztikus `using` blokkokban.
+//ExStepSummary:3: Hozz létre egy `ComparisonOptions` példányt, amely a összehasonlítás alapértelmezett beállításait tartalmazza.
+//ExStepSummary:4: Végezz oldalankénti szöveges összehasonlítást a két PDF között, és tárold a keletkezett diff műveleteket.
+//ExStepSummary:5: Generálj egy JSON-fájlt, amely részletezi a különbségeket, és írj egy megerősítő üzenetet a konzolra.
+//ExStepSummary:6: Hozz létre egymás mellett megjelenített összehasonlítási beállításokat, állíts elő egy vizuális diff PDF-et, amely a változásokat mutatja, és naplózd a kimeneti fájl útvonalát.
+//ExStep:0-
+const string sourcePdf = "base_document.pdf";
+const string updatedPdf = "altered_document.pdf";
+const string sideBySidePdf = "diff_visual.pdf";
+const string jsonReportPath = "diff_report.json";
+
+//ExStep:1-
+if (!File.Exists(sourcePdf) || !File.Exists(updatedPdf))
+{
+    Console.Error.WriteLine("Required PDF files were not found.");
+    return;
+}
+
+//ExStep:2-
+using (Document firstDoc = new Document(sourcePdf))
+using (Document secondDoc = new Document(updatedPdf))
+{
+
+//ExStep:3-
+ComparisonOptions compareOpts = new ComparisonOptions();
+
+//ExStep:4-
+List<List<DiffOperation>> pageDiffs = TextPdfComparer.CompareDocumentsPageByPage(firstDoc, secondDoc, compareOpts);
+
+//ExStep:5-
+JsonDiffOutputGenerator jsonWriter = new JsonDiffOutputGenerator();
+jsonWriter.GenerateOutput(pageDiffs, jsonReportPath);
+Console.WriteLine($"JSON comparison saved to '{jsonReportPath}'.");
+
+//ExStep:6-
+SideBySideComparisonOptions sideBySideOpts = new SideBySideComparisonOptions();
+SideBySidePdfComparer.Compare(firstDoc, secondDoc, sideBySidePdf, sideBySideOpts);
+Console.WriteLine($"Side‑by‑side diff PDF saved to '{sideBySidePdf}'.");
+}
+//ExEnd

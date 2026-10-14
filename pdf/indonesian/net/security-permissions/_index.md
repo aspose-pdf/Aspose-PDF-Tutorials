@@ -17,6 +17,12 @@ Tutorial keamanan dan izin kami menunjukkan cara melindungi dokumen PDF mengguna
 
 ## Tutorial yang Tersedia
 
+
+{{< tutorial-card link="./encrypt-pdf-form-filling/" title="Enkripsi PDF untuk Hanya Mengizinkan Pengisian Formulir Menggunakan Aspose.Pdf for .NET" imgSrc="./encrypt-pdf-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-form-filling/" title="Enkripsi PDF untuk Hanya Pengisian Formulir dengan AES‑256 Menggunakan Aspose.Pdf untuk .NET" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="Enkripsi PDF dengan Izin Tanpa Cetak Menggunakan Aspose.PDF untuk .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [Ubah Kata Sandi PDF dengan Aspose.PDF untuk .NET](./change-pdf-password-aspose-pdf-net-guide/)
 Tutorial kode untuk Aspose.PDF Net
 
@@ -62,11 +68,17 @@ Pelajari cara menerapkan tanda tangan digital yang aman dan verifikasi untuk PDF
 ### [Menguasai Redaksi PDF dengan Aspose.PDF .NET: Panduan Lengkap untuk Penanganan Dokumen yang Aman](./mastering-pdf-redaction-aspose-pdf-net-guide/)
 Pelajari cara menyunting PDF dengan aman menggunakan Aspose.PDF .NET. Panduan ini mencakup pendekatan berbasis anotasi dan fasad, yang memastikan dokumen Anda tetap patuh.
 
+### [Cara Menyunting PDF dan Menghapus Data Sensitif PDF dalam C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+Pelajari cara men‑redact PDF dan menghapus data sensitif secara programatis menggunakan Aspose.PDF untuk .NET dengan contoh kode C#.
+
 ### [Membuka dan Mendekripsi File PDF dengan Aspose.PDF untuk .NET: Panduan Lengkap](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 Pelajari cara membuka kunci dan mendekripsi file PDF yang dilindungi menggunakan Aspose.PDF for .NET dalam C#. Panduan ini mencakup penyiapan, langkah-langkah dekripsi, dan praktik terbaik.
 
 ### [Verifikasi Kata Sandi PDF dengan Aspose.PDF .NET: Panduan Langkah demi Langkah untuk Keamanan & Izin](./verify-pdf-passwords-aspose-dot-net-guide/)
 Pelajari cara memverifikasi kata sandi PDF menggunakan Aspose.PDF untuk .NET dalam C#. Panduan lengkap ini menyederhanakan keamanan dokumen dan kontrol akses.
+
+### [Terapkan Redaksi pada PDF dengan Aspose Plugin Manager – Panduan Lengkap](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
+Pelajari cara menerapkan redaksi pada PDF menggunakan Aspose Plugin Manager dengan panduan lengkap langkah demi langkah.
 
 ## Sumber Daya Tambahan
 

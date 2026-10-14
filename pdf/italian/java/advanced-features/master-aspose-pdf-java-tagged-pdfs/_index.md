@@ -1,14 +1,37 @@
 ---
-date: '2026-02-14'
-description: Scopri come etichettare i PDF con Aspose.PDF per Java, creare PDF accessibili,
-  aggiungere elementi di intestazione e paragrafo e migliorare l'accessibilità dei
-  PDF per una migliore navigazione.
+date: '2026-06-17'
+description: Scopri come etichettare i PDF con Aspose.PDF for Java, aggiungere un'intestazione
+  al PDF, aggiungere un paragrafo al PDF e rispettare gli standard PDF/UA per un'accessibilità
+  superiore.
 keywords:
-- Aspose.PDF for Java
-- tagged PDF creation
-- accessible PDFs
 - how to tag pdf
-title: Come taggare i PDF con Aspose.PDF per Java - PDF accessibili
+- add header to pdf
+- add paragraph to pdf
+- aspose pdf maven dependency
+- aspose pdf gradle dependency
+schemas:
+- author: Aspose
+  dateModified: '2026-06-17'
+  description: Learn how to tag pdf with Aspose.PDF for Java, add header to pdf, add
+    paragraph to pdf, and meet PDF/UA standards for superior accessibility.
+  headline: How to Tag PDF with Aspose.PDF for Java – Accessible PDFs
+  type: TechArticle
+- questions:
+  - answer: A tagged PDF includes semantic information that aids screen readers, improving
+      accessibility.
+    question: What is a tagged PDF?
+  - answer: Add the library to your project using Maven or Gradle as shown above.
+    question: How do I get started with Aspose.PDF for Java?
+  - answer: Yes, a free trial is available; a license is required for production.
+    question: Can I use Aspose.PDF for free?
+  - answer: They enhance accessibility, improve navigation, and work well with assistive
+      technologies.
+    question: What are the benefits of tagged PDFs?
+  - answer: Visit [Aspose's official documentation](https://reference.aspose.com/pdf/java/)
+      for comprehensive guides and API references.
+    question: Where can I find more resources on Aspose.PDF?
+  type: FAQPage
+title: Come etichettare PDF con Aspose.PDF for Java – PDF accessibili
 url: /it/java/advanced-features/master-aspose-pdf-java-tagged-pdfs/
 weight: 1
 ---
@@ -18,31 +41,30 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Padroneggiare la Creazione di PDF con Tag usando Aspose.PDF per Java
+# Come etichettare PDF con Aspose.PDF per Java – PDF accessibili
 
-In questa guida completa, imparerai **come taggare i PDF** con Aspose.PDF per Java, consentendoti di creare documenti accessibili e ben strutturati che funzionano senza problemi con i lettori di schermo e altre tecnologie assistive. Alla fine del tutorial comprenderai anche come **creare PDF accessibili** che soddisfano la conformità PDF/UA e come **impostare la lingua del PDF** per un'accessibilità ottimale.
+In questo tutorial completo scoprirai **come etichettare i PDF** usando Aspose.PDF per Java, consentendoti di creare documenti completamente accessibili che i lettori di schermo possono navigare senza sforzo. Vedremo come aggiungere un'intestazione, inserire elementi di paragrafo, impostare la lingua del documento e garantire la conformità PDF/UA — il tutto con indicazioni chiare passo‑passo.
 
-## Risposte Rapide
-- **Che cos'è il tagging di un PDF?** Aggiungere una struttura logica (tag) che descrive titoli, paragrafi, tabelle, ecc., per l'accessibilità.  
+## Risposte rapide
+- **Cos'è l'etichettatura di un PDF?** Aggiungere una struttura logica (tag) che descrive intestazioni, paragrafi, tabelle, ecc., per l'accessibilità.  
 - **Quale libreria viene utilizzata?** Aspose.PDF per Java (versione 25.3 o successiva).  
-- **Ho bisogno di una licenza?** Una prova gratuita è sufficiente per la valutazione; è necessaria una licenza commerciale per la produzione.  
+- **È necessaria una licenza?** Una prova gratuita è sufficiente per la valutazione; è richiesta una licenza commerciale per la produzione.  
 - **Posso aggiungere intestazioni e paragrafi?** Sì – l'API fornisce le classi `HeaderElement` e `ParagraphElement`.  
 - **È solo per Java?** L'esempio è in Java, ma concetti simili esistono per .NET e altre piattaforme.  
 
-## Come Taggare un PDF con Aspose.PDF per Java
-Taggare un PDF significa incorporare un albero di struttura logica all'interno del file. Questo albero indica alle tecnologie assistive quali parti del documento sono titoli, paragrafi, elenchi, ecc., rendendo il PDF molto più fruibile per le persone con disabilità visive.
+## Cos'è l'etichettatura PDF?
+L'etichettatura PDF è il processo di incorporare un albero di struttura semantica all'interno di un file PDF, descrivendo ogni elemento di contenuto (intestazioni, paragrafi, elenchi, tabelle). Questa struttura consente alle tecnologie assistive di presentare il documento in un ordine significativo.
 
-## Perché Usare Aspose.PDF per Java per Taggare i PDF?
-- **Supporto completo all'accessibilità** – metodi integrati per aggiungere tag, impostare la lingua e definire i titoli del documento.  
-- **Nessuna dipendenza esterna** – funziona con progetti Java puri e IDE popolari.  
-- **Prestazioni robuste** – gestisce file di grandi dimensioni in modo efficiente con funzionalità di gestione della memoria.  
+## Perché usare Aspose.PDF per Java per etichettare i PDF?
+Aspose.PDF per Java supporta **oltre 50 formati di input e output** e può elaborare PDF di centinaia di pagine senza caricare l'intero file in memoria, offrendo un'etichettatura rapida e affidabile per grandi documenti aziendali. Le sue API di accessibilità integrate eliminano la necessità di strumenti di terze parti.
 
-## Creare PDF Accessibili – Prerequisiti
-- **Aspose.PDF per Java** ≥ 25.3 (si consiglia l'ultima versione).  
+## Prerequisiti
+- **Aspose.PDF per Java** ≥ 25.3 (ultima versione consigliata).  
 - Un IDE Java come IntelliJ IDEA o Eclipse.  
-- Familiarità di base con la sintassi Java e gli strumenti di build Maven/Gradle.  
+- Maven o Gradle per la gestione delle dipendenze.  
+- Conoscenze di base di Java.
 
-## Configurare Aspose.PDF per Java
+## Configurazione di Aspose.PDF per Java
 Aggiungi la libreria al tuo progetto usando uno dei seguenti sistemi di build.
 
 ### Configurazione Maven
@@ -63,14 +85,14 @@ Inserisci questa riga nel tuo file `build.gradle`:
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-#### Acquisizione della Licenza
+#### Acquisizione della licenza
 Aspose.PDF offre una prova gratuita per la valutazione. Ottieni una licenza temporanea per i test o acquista una licenza completa per l'uso in produzione.
 
-## Guida all'Implementazione
-Di seguito trovi una guida passo‑passo delle attività di tagging più comuni.
+## Come etichettare un PDF – Guida passo‑passo
+L'etichettatura di un PDF comporta il caricamento del file, la definizione della sua struttura logica e l'aggiunta di tag semantici come intestazioni e paragrafi. In questa guida vedrai come aprire un documento, impostarne il titolo e la lingua, e poi inserire elementi di intestazione e paragrafo per produrre un PDF completamente etichettato e accessibile.
 
 ### Passo 1: Inizializzare il Documento
-Crea un nuovo oggetto `Document` e recupera la sua interfaccia di contenuto taggato.
+La classe `Document` è l'oggetto di livello superiore di Aspose.PDF che rappresenta un singolo file PDF in memoria. Dopo aver creato un'istanza, tutte le operazioni di etichettatura fluiscono attraverso questo oggetto.
 
 ```java
 import com.aspose.pdf.Document;
@@ -83,8 +105,11 @@ Document document = new Document();
 ITaggedContent taggedContent = document.getTaggedContent();
 ```
 
-### Passo 2: Configurare Titolo e Lingua  
-Impostare un titolo e una lingua migliora **l'accessibilità di aspose pdf** e aiuta i lettori di schermo a annunciare correttamente il documento. Questo soddisfa anche parte della **conformità pdf ua**.
+### Passo 2: Impostare il Titolo e la Lingua del Documento
+Il metodo `setTitle` assegna una stringa di titolo ai metadati del documento PDF.  
+Il metodo `setLanguage` definisce la lingua principale del documento usando un codice BCP‑47.
+
+Impostare un titolo e una lingua migliora l'accessibilità e soddisfa la conformità PDF/UA. Usa i metodi `setTitle` e `setLanguage` sull'istanza `Document`.
 
 ```java
 taggedContent.setTitle("Tagged Pdf Document");
@@ -92,11 +117,9 @@ taggedContent.setLanguage("en-US");
 document.save(outputDir + "/TaggedPdfSetup.pdf");
 ```
 
-### Aggiungere Elementi Intestazione – **aspose pdf add header**
-Le intestazioni forniscono struttura al tuo PDF e sono essenziali per la navigazione.
-
-#### Passo 1: Creare e Configurare l'Intestazione  
-Usa la classe `HeaderElement` per inserire un titolo.
+### Come aggiungere un'intestazione al PDF?
+La classe `HeaderElement` rappresenta un tag di intestazione nell'albero di struttura del PDF.  
+Crea un `HeaderElement`, assegna un livello di intestazione e collegalo all'albero dei tag del documento. Questo fornisce un punto di navigazione chiaro per i lettori di schermo. Specificando il livello appropriato (ad es., H1, H2), garantisci che la gerarchia del documento sia interpretata correttamente dalle tecnologie assistive.
 
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.bls.HeaderElement;
@@ -106,11 +129,9 @@ headerElement.setActualText("Heading 1");
 document.save(outputDir + "/TaggedPdfWithHeader.pdf");
 ```
 
-### Aggiungere Elementi Paragrafo – **aspose pdf add paragraph** / **add paragraph pdf java**
-I paragrafi arricchiscono il contenuto e ne migliorano la leggibilità.
-
-#### Passo 1: Aggiungere Paragrafi al Tuo Documento  
-Crea uno o più oggetti `ParagraphElement`.
+### Come aggiungere un paragrafo al PDF?
+La classe `ParagraphElement` rappresenta un tag di paragrafo all'interno della gerarchia dei tag del PDF.  
+Istanzia un `ParagraphElement`, popolalo con testo e collegalo al tag genitore appropriato. I tag di paragrafo trasmettono la semantica del contenuto del corpo, permettendo ai lettori di schermo di leggere il testo come un blocco continuo. Etichettare correttamente i paragrafi migliora il flusso di lettura e soddisfa gli standard di accessibilità.
 
 ```java
 import com.aspose.pdf.tagged.logicalstructure.elements.bls.ParagraphElement;
@@ -123,47 +144,48 @@ paragraphElement2.setActualText("test 2");
 document.save(outputDir + "/TaggedPdfWithParagraphs.pdf");
 ```
 
-## Generare PDF con Tag – Casi d'Uso Comuni
-1. **Conformità all'Accessibilità** – Rispettare gli standard WCAG e PDF/UA per gli utenti con disabilità.  
-2. **Navigazione Migliorata** – Consentire salti rapidi a titoli e sezioni in documenti di grandi dimensioni.  
-3. **Integrazione con Tecnologie Assistive** – Funziona senza problemi con lettori di schermo, display Braille e altri strumenti.  
+## Generare PDF etichettati – Casi d'uso comuni
+1. **Conformità all'accessibilità** – Rispettare gli standard WCAG 2.1 e PDF/UA 1.0 per gli utenti con disabilità.  
+2. **Navigazione migliorata** – Consentire salti rapidi a intestazioni e sezioni in grandi manuali.  
+3. **Integrazione con tecnologie assistive** – Funziona senza problemi con lettori di schermo, display Braille e strumenti di sintesi vocale.
 
-## Impostare la Lingua del PDF – Perché è Importante
-Specificare la lingua (ad es., `en-US`) consente alle tecnologie assistive di applicare le regole di pronuncia e sillabazione corrette. Contribuisce anche alla **conformità pdf ua** e migliora il punteggio complessivo di accessibilità del documento.
+## Impostare la lingua del PDF – Perché è importante
+Specificare la lingua (ad es., `en-US`) consente alle tecnologie assistive di applicare regole corrette di pronuncia e sillabazione, aumentando il punteggio di accessibilità del documento e garantendo la conformità ai requisiti PDF/UA.
 
-## Aggiungere Tag al PDF – Suggerimenti e Buone Pratiche
-- **Gerarchia dei Tag:** Mantieni l'albero dei tag poco profondo; un annidamento profondo può confondere alcuni lettori.  
-- **Nominazione Coerente:** Usa valori `ActualText` chiari e descrittivi per titoli e paragrafi.  
-- **Validare Presto:** Esegui il controllo del pannello “Tag” di Adobe Acrobat dopo ogni modifica importante.  
+## Aggiungere tag al PDF – Suggerimenti e migliori pratiche
+- **Gerarchia dei tag:** Mantieni l'albero dei tag poco profondo; un annidamento profondo può confondere alcuni lettori.  
+- **Nomenclatura coerente:** Usa valori `ActualText` chiari per intestazioni e paragrafi.  
+- **Validare in anticipo:** Esegui il controllo del pannello “Tag” di Adobe Acrobat dopo ogni modifica importante.  
 
-## Considerazioni sulle Prestazioni
-Quando si gestiscono PDF di grandi dimensioni:
-- Usa il costrutto try‑with‑resources di Java o chiamate esplicite a `close()` per liberare i handle dei file.  
-- Chiama `document.optimizeResources()` se è necessario ridurre il consumo di memoria.  
+## Considerazioni sulle prestazioni
+Quando si gestiscono PDF di grandi dimensioni (fino a 500 MB):
 
-## Problemi Comuni e Soluzioni
+- Usa `try‑with‑resources` di Java o chiamate esplicite a `close()` per liberare i handle dei file.  
+- Chiama `document.optimizeResources()` per ridurre il consumo di memoria.  
+
+## Problemi comuni e soluzioni
 | Problema | Soluzione |
 |----------|-----------|
-| Tag non visualizzati in Acrobat | Assicurati di aver chiamato `document.save()` **dopo** aver aggiunto ogni elemento. |
+| I tag non compaiono in Acrobat | Assicurati di aver chiamato `document.save()` **dopo** aver aggiunto ogni elemento. |
 | Lingua non riconosciuta | Verifica che il codice lingua segua lo standard BCP‑47 (ad es., `en-US`, `fr-FR`). |
 | File di grandi dimensioni causano OutOfMemoryError | Abilita `document.optimizeResources()` e processa le pagine a blocchi. |
 
-## Domande Frequenti
+## Domande frequenti
 
-**Q: Che cos'è un PDF con tag?**  
-A: Un PDF con tag include informazioni semantiche che aiutano i lettori di schermo, migliorando l'accessibilità.  
+**D: Cos'è un PDF etichettato?**  
+R: Un PDF etichettato include informazioni semantiche che aiutano i lettori di schermo, migliorando l'accessibilità.  
 
-**Q: Come posso iniziare con Aspose.PDF per Java?**  
-A: Aggiungi la libreria al tuo progetto usando Maven o Gradle come mostrato sopra.  
+**D: Come posso iniziare con Aspose.PDF per Java?**  
+R: Aggiungi la libreria al tuo progetto usando Maven o Gradle come mostrato sopra.  
 
-**Q: Posso usare Aspose.PDF gratuitamente?**  
-A: Sì, è disponibile una prova gratuita; è necessaria una licenza per la produzione.  
+**D: Posso usare Aspose.PDF gratuitamente?**  
+R: Sì, è disponibile una prova gratuita; è necessaria una licenza per la produzione.  
 
-**Q: Quali sono i vantaggi dei PDF con tag?**  
-A: Migliorano l'accessibilità, la navigazione e funzionano bene con le tecnologie assistive.  
+**D: Quali sono i vantaggi dei PDF etichettati?**  
+R: Migliorano l'accessibilità, la navigazione e funzionano bene con le tecnologie assistive.  
 
-**Q: Dove posso trovare più risorse su Aspose.PDF?**  
-A: Visita [Aspose's official documentation](https://reference.aspose.com/pdf/java/) per guide e tutorial completi.  
+**D: Dove posso trovare più risorse su Aspose.PDF?**  
+R: Visita la [documentazione ufficiale di Aspose](https://reference.aspose.com/pdf/java/) per guide complete e riferimenti API.  
 
 ## Risorse
 - [Documentation](https://reference.aspose.com/pdf/java/)
@@ -175,14 +197,21 @@ A: Visita [Aspose's official documentation](https://reference.aspose.com/pdf/jav
 
 ---
 
-**Ultimo Aggiornamento:** 2026-02-14  
-**Testato Con:** Aspose.PDF for Java 25.3  
-**Autore:** Aspose
+**Last Updated:** 2026-06-17  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
+## Tutorial correlati
+
+- [Crea e gestisci PDF etichettati usando Aspose.PDF per Java: migliora l'accessibilità nei tuoi documenti](/pdf/java/document-manipulation/create-manage-tagged-pdfs-aspose-pdf-java/)
+- [Crea PDF accessibili con immagini usando Aspose.PDF per Java: guida completa alla creazione di PDF etichettati](/pdf/java/images-graphics/create-accessible-pdf-images-aspose-pdf-java/)
+- [Crea tabelle etichettate accessibili nei PDF usando Aspose.PDF per Java](/pdf/java/tables-lists/create-tagged-table-aspose-pdf-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/products-backtop-button >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}

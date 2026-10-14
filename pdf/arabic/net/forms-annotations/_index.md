@@ -17,6 +17,8 @@
 
 ## البرامج التعليمية المتاحة
 
+
+{{< tutorial-card link="./exclude-annotations/" title="مقارنة PDF جنبًا إلى جنب مع استبعاد التعليقات التوضيحية باستخدام Aspose.Pdf for .NET" imgSrc="./exclude-annotations/images/thumb.png" >}}
 ### [إضافة حقول النماذج إلى ملفات PDF باستخدام Aspose.PDF لـ .NET: دليل شامل](./add-pdf-form-fields-aspose-pdf-dotnet/)
 تعرّف على كيفية إضافة نص، ومربع اختيار، ومربع تحرير وسرد، وحقول متعددة الأسطر إلى ملفات PDF باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل الإعداد، وأمثلة التعليمات البرمجية، ونصائح التكامل.
 

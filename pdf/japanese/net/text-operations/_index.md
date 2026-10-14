@@ -62,7 +62,7 @@ Aspose.PDF for .NET を使用して、PDF ドキュメントから段落を効�
 ### [Aspose.PDF for .NET を使用して PDF ファイルからテキストを抽出する](./extract-text-pdf-aspose-dotnet/)
 この包括的なチュートリアルでは、Aspose.PDF for .NET を使用してPDFページからテキストを抽出する方法を学びます。データの処理と分析に最適です。
 
-### [Aspose.PDF for .NET を使用して PDF ファイルからテキストを抽出する: 包括的な C# ガイド](./aspose-pdf-net-text-extraction-csharp/)
+### [Aspose.PDF for .NET を使用して PDF ファイルからテキストを抽出する: 包括的 C# ガイド](./aspose-pdf-net-text-extraction-csharp/)
 このステップバイステップのC#チュートリアルでは、Aspose.PDF for .NETを使用してPDFファイルから効率的にテキストを抽出する方法を学びます。今すぐドキュメント処理ワークフローを強化しましょう。
 
 ### [Aspose.PDF for .NET を使用して PDF からテキストを抽出する: 完全ガイド](./extract-text-aspose-pdf-net-guide/)
@@ -166,6 +166,9 @@ Aspose.PDF Net のコードチュートリアル
 
 ### [Aspose.PDF for .NET を使用してタグ付き PDF のテキストにスタイルを設定する | アクセシビリティと美観に優れた PDF 作成ガイド](./style-text-tagged-pdfs-aspose-pdf-net/)
 Aspose.PDF for .NET を使って、タグ付き PDF ドキュメント内のテキストにスタイルを設定する方法を学びましょう。このガイドでは、インストール、テクニック、そしてアクセシビリティを向上させるための実践的な応用例を解説します。
+
+### [Aspose.PDF .NET を使用して PDF を編集（赤字消去）する: ステップバイステップガイド](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
+Aspose.PDF for .NET を使用して PDF ドキュメントから機密情報を赤字消去する方法を、コード例と共にステップバイステップで学びます。
 
 ## 追加リソース
 

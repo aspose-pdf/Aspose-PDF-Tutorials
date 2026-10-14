@@ -11,25 +11,15 @@ url: /cs/java/bookmarks-navigation/aspose-pdf-java-bookmark-management/
 weight: 1
 ---
 
- keep as is.
 
-Then the tutorial page section content.
 
-We'll translate.
 
-I'll produce final output with same structure.
 
-Be careful with bullet points, keep markdown.
 
-Also note "Quick Answers" etc.
 
-Translate accordingly.
 
-Let's craft translation.
 
-We'll keep code block placeholders unchanged.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 

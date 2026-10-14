@@ -1,0 +1,74 @@
+//ExStart
+//ExSummary: 本教程展示了如何通过同步首页面尺寸、配置 GraphicalPdfComparer，并生成突出显示差异的 PDF，来比较页面尺寸不同的两个 PDF 文件。
+//ExStepSummary:0: 为两个源 PDF 和结果 PDF 定义文件路径。
+//ExStepSummary:1: 验证两个源 PDF 文件是否存在，如果任意一个缺失则中止。
+//ExStepSummary:2: 开始 try 块以捕获处理过程中的错误。
+//ExStepSummary:3: 在 using 语句块中将两个 PDF 加载到 Document 对象 `docA` 和 `docB` 中。
+//ExStepSummary:4: 在继续之前确保每个 PDF 至少包含一页。
+//ExStepSummary:5: 获取每个文档的第一页以进行比较。
+//ExStepSummary:6: 将 `firstPage` 的 MediaBox 信息复制到 `secondPage`，使两页拥有相同的尺寸。
+//ExStepSummary:7: 创建并配置 `GraphicalPdfComparer`，使用红色高亮、高分辨率以及 1 % 的差异阈值。
+//ExStepSummary:8: 运行比较，在 `outputPdfPath` 生成差异 PDF，写入完成信息，并关闭 using 和 try 作用域。
+//ExStepSummary:9: 处理可能因页面尺寸对齐仍不足而引发的 ArgumentException。
+//ExStepSummary:10: 捕获其他任何意外异常并报告。
+//ExStep:0-
+const string firstPdfPath = "sampleA.pdf";
+const string secondPdfPath = "sampleB.pdf";
+const string outputPdfPath = "diffResult.pdf";
+
+//ExStep:1-
+if (!File.Exists(firstPdfPath) || !File.Exists(secondPdfPath))
+{
+    Console.Error.WriteLine("Missing one or both source PDF files.");
+    return;
+}
+
+//ExStep:2-
+try
+{
+
+//ExStep:3-
+using (Document docA = new Document(firstPdfPath))
+using (Document docB = new Document(secondPdfPath))
+{
+
+//ExStep:4-
+if (docA.Pages.Count == 0 || docB.Pages.Count == 0)
+{
+    Console.Error.WriteLine("At least one document does not contain any pages.");
+    return;
+}
+
+//ExStep:5-
+Page firstPage = docA.Pages[1];
+Page secondPage = docB.Pages[1];
+
+//ExStep:6-
+secondPage.PageInfo = firstPage.PageInfo;
+
+//ExStep:7-
+GraphicalPdfComparer comparer = new GraphicalPdfComparer
+{
+    Color = Aspose.Pdf.Color.Red,
+    Resolution = new Resolution(200),
+    Threshold = 1
+};
+
+//ExStep:8-
+comparer.ComparePagesToPdf(firstPage, secondPage, outputPdfPath);
+Console.WriteLine($"Comparison finished. Output saved as '{outputPdfPath}'.");
+}
+}
+
+//ExStep:9-
+catch (ArgumentException ex)
+{
+    Console.Error.WriteLine($"Argument error during comparison: {ex.Message}");
+}
+
+//ExStep:10-
+catch (Exception ex)
+{
+    Console.Error.WriteLine($"Unexpected error: {ex.Message}");
+}
+//ExEnd

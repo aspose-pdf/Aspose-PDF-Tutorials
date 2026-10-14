@@ -44,8 +44,6 @@ Dalam tutorial ini kami akan membahas contoh lengkap yang siap‑jalan yang **cr
 
 **Prerequisites:** .NET 6+ (atau .NET Framework 4.6+), Visual Studio atau IDE C# apa pun, dan lisensi Aspose.PDF yang valid (atau evaluasi gratis). Tidak diperlukan pustaka pihak ketiga lainnya.
 
-![Create PDF Document example](alt="Create PDF Document with Aspose.PDF showing a red rectangle that exceeds page bounds")
-
 ---
 
 ## Langkah 1 – Inisialisasi Dokumen PDF

@@ -17,6 +17,12 @@
 
 ## Доступные обучающие материалы
 
+
+{{< tutorial-card link="./encrypt-pdf-form-filling/" title="Зашифровать PDF, разрешив только заполнение форм, с помощью Aspose.Pdf for .NET" imgSrc="./encrypt-pdf-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-form-filling/" title="Зашифровать PDF только для заполнения форм с помощью AES‑256, используя Aspose.Pdf for .NET" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="Шифрование PDF без разрешения на печать с использованием Aspose.PDF for .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [Изменение паролей PDF-файлов с помощью Aspose.PDF для .NET](./change-pdf-password-aspose-pdf-net-guide/)
 Учебник по коду для Aspose.PDF Net
 
@@ -62,11 +68,17 @@
 ### [Освоение редактирования PDF-файлов с помощью Aspose.PDF .NET: полное руководство по безопасной обработке документов](./mastering-pdf-redaction-aspose-pdf-net-guide/)
 Узнайте, как безопасно редактировать PDF-файлы с помощью Aspose.PDF .NET. Это руководство охватывает подходы на основе аннотаций и фасадов, гарантируя, что ваши документы будут соответствовать требованиям.
 
+### [Как редактировать PDF и удалять конфиденциальные данные в C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+Узнайте, как редактировать PDF и удалять конфиденциальные данные с помощью Aspose.PDF для .NET в C#.
+
 ### [Разблокируйте и расшифруйте PDF-файлы с помощью Aspose.PDF для .NET: полное руководство](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 Узнайте, как разблокировать и расшифровать защищенные файлы PDF с помощью Aspose.PDF для .NET в C#. В этом руководстве рассматриваются настройка, шаги расшифровки и передовые практики.
 
 ### [Проверка паролей PDF-файлов с помощью Aspose.PDF .NET: пошаговое руководство по безопасности и разрешениям](./verify-pdf-passwords-aspose-dot-net-guide/)
 Узнайте, как проверить пароли PDF с помощью Aspose.PDF для .NET в C#. Это всеобъемлющее руководство упрощает безопасность документов и контроль доступа.
+
+### [Применение редактирования к PDF с помощью менеджера плагинов Aspose – Полное руководство](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
+Подробное руководство по применению редактирования PDF с использованием Aspose Plugin Manager
 
 ## Дополнительные ресурсы
 

@@ -11,11 +11,8 @@ url: /ja/java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/
 weight: 1
 ---
 
- produce final output with all translations.
 
-Be careful to keep markdown formatting.
 
-Let's construct.
 
 {{< blocks/products/pf/main-wrap-class >}}
 

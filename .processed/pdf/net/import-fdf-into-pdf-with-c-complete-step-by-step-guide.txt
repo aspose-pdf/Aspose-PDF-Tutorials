@@ -1,0 +1,7 @@
+Title: Import FDF into PDF with C# – Complete Step‑by‑Step Guide
+Slug: import-fdf-into-pdf-with-c-complete-step-by-step-guide
+Category: programming-with-forms
+ProcessedDate: 2026-06-27T23:32:50.662878
+SourceRepo: AI Search API
+Keywords: import fdf into pdf, convert fdf to pdf, how to fill pdf form programmatically, populate pdf automatically
+PRNumber: 96

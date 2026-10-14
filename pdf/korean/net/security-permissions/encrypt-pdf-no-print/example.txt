@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: 이 튜토리얼에서는 Aspose.Pdf를 사용하여 기존 PDF를 열고, 권한을 전혀 부여하지 않은 AES‑256 암호화를 적용하여 인쇄를 차단한 뒤, 보호된 파일을 저장하고 뷰어 비밀번호로 암호화를 확인하는 방법을 보여줍니다.
+//ExStepSummary:0: 소스 PDF 경로, 출력 보호 파일 이름, 그리고 뷰어 및 소유자 비밀번호를 정의합니다.
+//ExStepSummary:1: 소스 파일이 존재하는지 확인하고, 없을 경우 오류 메시지를 출력하고 중단합니다.
+//ExStepSummary:2: 원본 PDF를 열고 권한을 전혀 설정하지 않은 채 지정된 비밀번호를 사용해 AES‑256으로 암호화한 뒤, 보호된 파일로 저장합니다.
+//ExStepSummary:3: 뷰어 비밀번호로 암호화된 PDF를 다시 열고, IsEncrypted 플래그를 콘솔에 출력하여 보호가 적용되었음을 확인합니다.
+//ExStepSummary:4: 암호화가 완료되었으며 출력 파일 이름을 표시하는 최종 메시지를 출력합니다.
+//ExStep:0-
+const string sourceFile = "original.pdf";
+const string securedFile = "protected.pdf";
+const string viewerPwd = "viewerPwd123";
+const string masterPwd = "masterPwd123";
+
+//ExStep:1-
+if (!File.Exists(sourceFile))
+{
+    Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+    return;
+}
+
+//ExStep:2-
+using (Document pdfDoc = new Document(sourceFile))
+{
+    Permissions rights = 0;
+    pdfDoc.Encrypt(viewerPwd, masterPwd, rights, CryptoAlgorithm.AESx256);
+    pdfDoc.Save(securedFile);
+}
+
+//ExStep:3-
+using (Document checkDoc = new Document(securedFile, viewerPwd))
+{
+    Console.WriteLine($"Encrypted flag: {checkDoc.IsEncrypted}");
+}
+
+//ExStep:4-
+Console.WriteLine($"Encryption finished. Output saved as '{securedFile}'.");
+//ExEnd

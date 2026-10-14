@@ -1,0 +1,7 @@
+Title: Merge PDF Layers in C# – How to Combine PDF Layers
+Slug: merge-pdf-layers-in-c-how-to-combine-pdf-layers
+Category: document-manipulation
+ProcessedDate: 2026-06-27T23:32:35.397864
+SourceRepo: AI Search API
+Keywords: merge pdf layers, merge layers into new, combine pdf layers, create combined pdf layer, access first pdf page
+PRNumber: 96

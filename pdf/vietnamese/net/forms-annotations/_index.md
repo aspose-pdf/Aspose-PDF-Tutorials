@@ -17,6 +17,8 @@ Làm chủ các tính năng tương tác PDF với hướng dẫn toàn diện v
 
 ## Hướng dẫn có sẵn
 
+
+{{< tutorial-card link="./exclude-annotations/" title="So sánh PDF Side‑by‑Side loại trừ chú thích với Aspose.Pdf for .NET" imgSrc="./exclude-annotations/images/thumb.png" >}}
 ### [Thêm trường biểu mẫu vào PDF bằng Aspose.PDF cho .NET: Hướng dẫn toàn diện](./add-pdf-form-fields-aspose-pdf-dotnet/)
 Tìm hiểu cách thêm văn bản, hộp kiểm, hộp kết hợp, hộp danh sách và trường nhiều dòng vào PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm thiết lập, ví dụ về mã và mẹo tích hợp.
 

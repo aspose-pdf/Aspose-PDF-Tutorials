@@ -10,9 +10,7 @@ url: /zh/java/advanced-features/validate-pdf-accessibility-aspose-java/
 weight: 1
 ---
 
-.
 
-Let's produce final translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 

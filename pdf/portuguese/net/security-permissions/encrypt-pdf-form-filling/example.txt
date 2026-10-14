@@ -1,0 +1,46 @@
+//ExStart
+//ExSummary: Este tutorial demonstra como abrir um PDF existente com Aspose.Pdf, restringir as permissões para que apenas o preenchimento de formulários seja permitido, criptografá‑lo com senhas de visualizador e proprietário usando AES‑256 e salvar o arquivo protegido.
+//ExStepSummary:0: Defina os caminhos dos arquivos de origem e destino e as senhas de visualizador e proprietário.
+//ExStepSummary:1: Verifique se o PDF de origem existe e interrompa com uma mensagem de erro caso não exista.
+//ExStepSummary:2: Inicie um bloco try para tratar quaisquer erros que possam ocorrer durante o processamento.
+//ExStepSummary:3: Abra o PDF existente criando um objeto Document chamado pdfDoc.
+//ExStepSummary:4: Defina as permissões para permitir apenas o preenchimento de formulários, criptografe o documento com as senhas de visualizador e proprietário usando AES‑256 e salve o PDF protegido.
+//ExStepSummary:5: Escreva uma mensagem de confirmação no console e feche o bloco try.
+//ExStepSummary:6: Capture quaisquer exceções e exiba a mensagem de erro no console.
+//ExStep:0-
+        const string sourceFile = "sample.pdf";
+        const string destFile = "protected.pdf";
+        const string viewerPass = "viewerPass";
+        const string adminPass = "adminPass";
+
+//ExStep:1-
+        if (!File.Exists(sourceFile))
+        {
+            Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+            return;
+        }
+
+//ExStep:2-
+        try
+        {
+
+//ExStep:3-
+            using (Document pdfDoc = new Document(sourceFile))
+
+//ExStep:4-
+            {
+                Permissions allowed = Permissions.FillForm;
+                pdfDoc.Encrypt(viewerPass, adminPass, allowed, CryptoAlgorithm.AESx256);
+                pdfDoc.Save(destFile);
+            }
+
+//ExStep:5-
+            Console.WriteLine($"Secure PDF written to '{destFile}'.");
+        }
+
+//ExStep:6-
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Exception occurred: {ex.Message}");
+        }
+//ExEnd

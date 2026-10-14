@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Este tutorial mostra como usar Aspose.Pdf para comparar dois arquivos PDF lado a lado, ignorando regiões retangulares específicas em cada documento, produzindo um PDF de diferenças que destaca apenas as alterações relevantes.
+//ExStepSummary:0: Defina os caminhos dos arquivos para os dois PDFs de origem e o PDF de diferenças de saída.
+//ExStepSummary:1: Verifique se ambos os arquivos PDF de origem existem e interrompa com uma mensagem de erro se algum estiver ausente.
+//ExStepSummary:2: Crie um array contendo a área retangular a ser ignorada no primeiro PDF.
+//ExStepSummary:3: Crie um array contendo a área retangular a ser ignorada no segundo PDF.
+//ExStepSummary:4: Configure a comparação lado a lado, atribuindo os arrays de áreas a serem ignoradas às propriedades apropriadas.
+//ExStepSummary:5: Carregue ambos os PDFs e execute a comparação lado a lado, produzindo o arquivo de diferenças no caminho especificado.
+//ExStepSummary:6: Exiba uma mensagem de confirmação indicando que a comparação foi concluída e onde o PDF de diferenças foi salvo.
+//ExStep:0-
+const string sourcePdfA = "originalA.pdf";
+const string sourcePdfB = "originalB.pdf";
+const string diffPdfPath = "diff_output.pdf";
+
+//ExStep:1-
+if (!File.Exists(sourcePdfA) || !File.Exists(sourcePdfB))
+{
+    Console.Error.WriteLine("Required PDF files are missing.");
+    return;
+}
+
+//ExStep:2-
+Aspose.Pdf.Rectangle[] zonesToIgnoreA = new Aspose.Pdf.Rectangle[]
+{
+    new Aspose.Pdf.Rectangle(100, 500, 300, 600) // sample region in the first document
+};
+
+//ExStep:3-
+Aspose.Pdf.Rectangle[] zonesToIgnoreB = new Aspose.Pdf.Rectangle[]
+{
+    new Aspose.Pdf.Rectangle(50, 400, 250, 500) // sample region in the second document
+};
+
+//ExStep:4-
+var comparisonSettings = new SideBySideComparisonOptions
+{
+    ExcludeAreas1 = zonesToIgnoreA,
+    ExcludeAreas2 = zonesToIgnoreB
+    // Other settings may be adjusted here, e.g., ExcludeTables = true;
+};
+
+//ExStep:5-
+using (Document pdfA = new Document(sourcePdfA))
+using (Document pdfB = new Document(sourcePdfB))
+{
+    SideBySidePdfComparer.Compare(pdfA, pdfB, diffPdfPath, comparisonSettings);
+}
+
+//ExStep:6-
+Console.WriteLine($"Comparison finished. Output written to '{diffPdfPath}'.");
+//ExEnd

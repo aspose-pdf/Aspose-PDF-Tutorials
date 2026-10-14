@@ -19,6 +19,19 @@ La documentazione "Programmazione con pagine PDF" per Aspose.PDF per .NET offre 
 tutorial includono istruzioni dettagliate, esempi di codice dettagliati e spiegazioni chiare per semplificare la comprensione. Che siate principianti o sviluppatori esperti, queste risorse vi aiuteranno a padroneggiare le funzionalità di manipolazione delle pagine PDF offerte da Aspose.PDF per .NET, aprendo nuove possibilità per i vostri progetti di sviluppo di applicazioni.
 
 ## Tutorial
+
+{{< tutorial-card link="./rotate-pdf-page/" title="Ruota una singola pagina PDF di 180 gradi con Aspose.PDF for .NET" imgSrc="./rotate-pdf-page/images/thumb.png" >}}
+
+{{< tutorial-card link="./split-pdf/" title="Dividi PDF dopo la decima pagina usando Aspose.Pdf per .NET" imgSrc="./split-pdf/images/thumb.png" >}}
+
+{{< tutorial-card link="./rotate-pages/" title="Ruota ogni pagina PDF di 180° usando Aspose.Pdf per .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdf-pages/" title="Confronta le pagine PDF pagina per pagina con Aspose.Pdf per .NET" imgSrc="./compare-pdf-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdfs/" title="Confronta PDF con dimensioni di pagina diverse usando Aspose.PDF per .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+
+
 | Titolo | Descrizione |
 | --- | --- | 
 | [Cambia orientamento](./change-orientation/) | Guida passo passo per modificare l'orientamento delle pagine di un PDF con Aspose.PDF per .NET. Facile da seguire e implementare nei tuoi progetti. |  
@@ -37,7 +50,16 @@ tutorial includono istruzioni dettagliate, esempi di codice dettagliati e spiega
 | [Dividi in pagine](./split-to-pages/) Dividi facilmente i PDF in singole pagine utilizzando Aspose.PDF per .NET con questo tutorial completo. Guida passo passo inclusa. |  
 | [Aggiorna le dimensioni della pagina PDF](./update-dimensions/) | Scopri come aggiornare senza sforzo le dimensioni delle pagine PDF con Aspose.PDF per .NET in questa guida completa e dettagliata. |  
 | [Zoom sul contenuto della pagina nel file PDF](./zoom-to-page-contents/) | Scopri come ingrandire il contenuto delle pagine nei file PDF utilizzando Aspose.PDF per .NET in questa guida completa. Ottimizza i tuoi documenti PDF in base alle tue esigenze specifiche. |
+| [Riordina le pagine PDF in C# – Guida completa passo‑passo](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | Guida passo passo per riordinare le pagine di un PDF usando C# e Aspose.PDF per .NET. |
 | [Aggiungi numeri di pagina PDF con C# – Guida completa passo‑passo](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Guida passo passo per aggiungere numeri di pagina a un PDF usando C# e Aspose.PDF per .NET. |
+| [Crea documento PDF C# – Aggiungi numerazione Bates](./create-pdf-document-c-add-bates-numbering/) | Guida passo passo per aggiungere la numerazione Bates a un PDF con C# e Aspose.PDF per .NET. |
+| [Aggiungi numerazione Bates al PDF – Guida passo‑passo per numerare le pagine PDF](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Scopri come aggiungere la numerazione Bates a un PDF con Aspose.PDF per .NET, passo dopo passo, con esempi di codice chiari. |
+| [Crea documento PDF C# – Guida all'aggiunta di forme e pagine vuote](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Impara a creare PDF, aggiungere forme e inserire pagine vuote con Aspose.PDF per .NET in questa guida passo passo. |
+| [Aggiungi numerazione Bates al PDF con Aspose – Guida completa](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Guida passo passo per aggiungere la numerazione Bates ai documenti PDF usando Aspose.PDF per .NET. |
+| [Aggiungi numerazione Bates in C# – Guida passo‑passo](./add-bates-numbering-in-c-step-by-step-guide/) | Guida passo passo per aggiungere la numerazione Bates a un PDF usando C# e Aspose.PDF per .NET. |
+| [Aggiungi pagine a PDF – Guida passo‑passo per sviluppatori C#](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) | Guida completa passo passo per aggiungere pagine a un PDF usando C# e Aspose.PDF per .NET. |
+| [Riordina le pagine PDF con Aspose.Pdf – Guida completa C#](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) | Guida passo passo per riordinare le pagine di un PDF usando Aspose.Pdf per .NET con C#. |
+| [Aggiungi numerazione Bates ai PDF con C# – Guida completa](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Guida passo passo per aggiungere la numerazione Bates ai PDF usando C# e Aspose.PDF per .NET. |
 | [Duplica pagina PDF con Aspose.Pdf – Guida completa](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Guida passo passo per duplicare una pagina PDF usando Aspose.PDF per .NET, con esempi di codice chiari e facili da seguire. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -47,3 +69,22 @@ tutorial includono istruzioni dettagliate, esempi di codice dettagliati e spiega
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
+| [Inserisci una pagina vuota e aggiorna la numerazione Bates](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Guida passo passo per aggiungere una pagina vuota a un PDF e aggiornare la numerazione Bates con Aspose.PDF per .NET. |
+| [Crea pagina PDF vuota – Tutorial completo di disegno PDF](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Impara a creare una pagina PDF vuota usando le API di disegno completo di Aspose.PDF per .NET. |
+| [Aggiungi pagine a PDF con Aspose – Guida completa C#](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Scopri come aggiungere pagine a un PDF usando Aspose.PDF per .NET con questa guida completa passo passo in C#. |  
+| [Crea documento PDF in C# – Aggiungi pagina al PDF e rettangolo](./create-pdf-document-in-c-add-page-to-pdf-rectangle/) | Guida passo passo per creare un documento PDF in C#, aggiungere una pagina e disegnare un rettangolo usando Aspose.PDF per .NET. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+

@@ -17,6 +17,12 @@ Naše tutoriály o zabezpečení a oprávněních ukazují, jak chránit dokumen
 
 ## Dostupné tutoriály
 
+
+{{< tutorial-card link="./encrypt-pdf-form-filling/" title="Zašifrujte PDF tak, aby bylo povoleno pouze vyplňování formulářů pomocí Aspose.Pdf pro .NET" imgSrc="./encrypt-pdf-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-form-filling/" title="Zašifrujte PDF pouze pro vyplňování formulářů pomocí AES‑256 s Aspose.Pdf pro .NET" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="Zašifrujte PDF bez oprávnění k tisku pomocí Aspose.PDF pro .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [Změna hesel PDF pomocí Aspose.PDF pro .NET](./change-pdf-password-aspose-pdf-net-guide/)
 Výukový program pro kódování Aspose.PDF Net
 
@@ -61,6 +67,11 @@ Naučte se, jak implementovat zabezpečené digitální podpisy a ověřování 
 
 ### [Zvládnutí redakce PDF s Aspose.PDF .NET: Komplexní průvodce pro bezpečnou manipulaci s dokumenty](./mastering-pdf-redaction-aspose-pdf-net-guide/)
 Naučte se, jak bezpečně redigovat PDF soubory pomocí Aspose.PDF .NET. Tato příručka se zabývá přístupy založenými na anotacích a fasádách, které zajišťují, aby vaše dokumenty zůstaly v souladu s předpisy.
+
+### [Použití redakce PDF s Aspose Plugin Manager – Kompletní průvodce](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
+Naučte se, jak pomocí Aspose Plugin Manager aplikovat redakci na PDF soubory a zabezpečit citlivý obsah.
+### [Jak redigovat PDF a odstranit citlivá data v C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+Naučte se, jak pomocí Aspose.PDF pro .NET redigovat PDF soubory a odstranit citlivé informace v C#.
 
 ### [Odemkněte a dešifrujte PDF soubory pomocí Aspose.PDF pro .NET: Kompletní průvodce](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 Naučte se, jak odemknout a dešifrovat chráněné soubory PDF pomocí Aspose.PDF pro .NET v C#. Tato příručka popisuje nastavení, kroky dešifrování a osvědčené postupy.

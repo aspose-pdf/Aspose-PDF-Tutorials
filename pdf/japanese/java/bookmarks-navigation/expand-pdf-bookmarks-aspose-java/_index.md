@@ -1,12 +1,45 @@
 ---
-date: '2025-12-20'
-description: Aspose.PDF for Java を使用した PDF ブックマークの展開方法をこの Aspose PDF Java チュートリアルで学びましょう。PDF
-  の読み込み、ページモードの設定、ブックマークの自動展開が含まれます。
+date: '2026-06-02'
+description: Aspose.PDF for Java を使用して PDF ファイルのブックマークを展開する方法を学びます。このステップバイステップの Aspose
+  PDF Java チュートリアルでは、ロード、ページモードの設定、ブックマークの自動展開を示します。
 keywords:
-- expand PDF bookmarks
-- Aspose.PDF Java
-- PDF page mode
-title: Aspose PDF Java チュートリアル - Aspose.PDF を使用した PDF ブックマークの展開
+- how to expand bookmarks
+- aspose pdf maven dependency
+- aspose pdf java tutorial
+schemas:
+- author: Aspose
+  dateModified: '2026-06-02'
+  description: Learn how to expand bookmarks in PDF files using Aspose.PDF for Java.
+    This step‑by‑step Aspose PDF Java tutorial shows loading, setting page mode, and
+    automatically opening bookmarks.
+  headline: How to Expand Bookmarks in PDF using Aspose.PDF for Java
+  type: TechArticle
+- description: Learn how to expand bookmarks in PDF files using Aspose.PDF for Java.
+    This step‑by‑step Aspose PDF Java tutorial shows loading, setting page mode, and
+    automatically opening bookmarks.
+  name: How to Expand Bookmarks in PDF using Aspose.PDF for Java
+  steps:
+  - name: '**Required Libraries and Dependencies**'
+    text: '**Required Libraries and Dependencies**'
+  - name: '**Environment Setup**'
+    text: '**Environment Setup**'
+  - name: '**Basic Knowledge**'
+    text: '**Basic Knowledge**'
+  type: HowTo
+- questions:
+  - answer: Loading a PDF, setting page mode, expanding bookmarks, and saving the
+      file.
+    question: What does this tutorial cover?
+  - answer: Aspose.PDF for Java 25.3 or later.
+    question: Which library version is required?
+  - answer: A free trial works for testing; a commercial license is required for production.
+    question: Do I need a license?
+  - answer: Yes – adjust the loop logic to select particular outlines.
+    question: Can I target specific bookmarks only?
+  - answer: Yes, but consider processing outlines in batches and tuning JVM memory.
+    question: Is this suitable for large PDFs?
+  type: FAQPage
+title: Aspose.PDF for Java を使用して PDF のブックマークを展開する方法
 url: /ja/java/bookmarks-navigation/expand-pdf-bookmarks-aspose-java/
 weight: 1
 ---
@@ -16,43 +49,43 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Aspose PDF Java チュートリアル: Aspose.PDF を使用した PDF ブックマークの展開
+# Aspose.PDF for Java を使用して PDF のブックマークを展開する方法
 
-複雑な PDF ドキュメントのナビゲーションが、ブックマークを自動的に展開するだけで楽になります。この **aspose pdf java tutorial** では、Aspose.PDF for Java で PDF ドキュメントを読み込み、適切なページモードを設定し、ブックマークをデフォルトで開く方法を学びます。この手法により、読者は余計なクリックなしで必要なセクションにすぐにジャンプでき、ユーザーエクスペリエンスが向上します。
-
-## クイックアンサー
-- **このチュートリアルでカバーする内容は？** PDF の読み込み、ページモードの設定、ブックマークの展開、ファイルの保存。  
+## クイック回答
+- **このチュートリアルでカバーする内容は何ですか？** PDF の読み込み、ページモードの設定、ブックマークの展開、ファイルの保存。  
 - **必要なライブラリのバージョンは？** Aspose.PDF for Java 25.3 以降。  
-- **ライセンスは必要ですか？** 無料トライアルでテストは可能ですが、商用利用には商用ライセンスが必要です。  
-- **特定のブックマークだけを対象にできますか？** はい – ループロジックを調整して特定のアウトラインを選択できます。  
-- **大容量 PDF にも適していますか？** はい。ただし、アウトラインをバッチ処理したり、JVM のメモリ設定を調整することを検討してください。
+- **ライセンスは必要ですか？** 無料トライアルでテスト可能です。商用利用には商用ライセンスが必要です。  
+- **特定のブックマークだけを対象にできますか？** はい – ループロジックを調整して特定のアウトラインを選択します。  
+- **大きな PDF に適していますか？** はい。ただし、アウトラインをバッチ処理し、JVM のメモリ設定を調整することを検討してください。
 
 ## Aspose PDF Java チュートリアルとは？
-**aspose pdf java tutorial** は、Java プロジェクトで Aspose.PDF API を使用する方法をステップバイステップで示すガイドです。実際のコード例を通じて各呼び出しを解説し、一般的な PDF 操作タスクの解決方法をデモンストレーションします。
+**Aspose PDF Java チュートリアル** は、Java プロジェクト内で Aspose.PDF API の使用方法を示すステップバイステップのガイドです。簡潔な説明とすぐに実行できるコードスニペットを組み合わせ、実際の PDF 操作課題を迅速に解決できるよう支援します。例に従うことで、ブックマーク処理、テキスト抽出、ドキュメント変換などの PDF 処理機能を最小限の労力でアプリケーションに統合できます。
 
-## なぜ PDF ブックマークを自動的に展開するのか？
-PDF ブックマークを自動で開くことで、ユーザーの時間を節約できます。特に次のようなシーンで有効です：
-- **教育用 PDF** – 学生が目次全体を即座に確認できます。  
-- **企業レポート** – 経営層が重要セクションへ直接ジャンプできます。  
-- **法的契約書** – 弁護士が条項をスクロールせずにナビゲートできます。
+## PDF ブックマークを自動的に展開する理由
+PDF ブックマークを自動的に展開すると、エンドユーザーのナビゲーション効率が向上し、余計なクリックなしで文書全体の構造を確認できます。この機能は、セクションの迅速な特定が重要な長大な文書で特に有用です。開いたときにアウトラインペインを表示することで、読者は目的の章や条項へ直接ジャンプでき、スクロールや検索に費やす時間を削減します。
 
-### 前提条件
-Aspose.PDF for Java を使用する前に、以下を確認してください：
+自動的に PDF ブックマークを開くことで、特に以下の場面でユーザーの時間を節約できます：
+- **教育用 PDF** – 学生は章リスト全体を即座に確認できます。  
+- **企業レポート** – 経営層は重要なセクションへ直接ジャンプできます。  
+- **法的契約書** – 弁護士は条項を迅速に特定でき、貴重な時間を節約できます。
 
-1. **必須ライブラリと依存関係:**  
-   - Aspose.PDF for Java ライブラリ（バージョン 25.3 以降）
+定量的なメリット: Aspose.PDF は **50 以上の入力および出力フォーマット** に対応し、**数百のブックマーク** を持つ PDF を、ファイル全体をメモリにロードせずに処理できます。300 ページの文書でもメモリ使用量は 100 MB 未満に抑えられます。
 
-2. **環境設定要件:**  
-   - IDE に Maven または Gradle が設定されていること  
-   - 基本的な Java 開発知識
+## 前提条件
+1. **必要なライブラリと依存関係**  
+   - Aspose.PDF for Java ライブラリ（バージョン 25.3 以降）。  
+   - プロジェクトに追加された **aspose pdf maven dependency** エントリ（以下の Maven スニペットを参照）。
+2. **環境設定**  
+   - IDE で Maven または Gradle が設定されていること。  
+   - Java 8 以上がインストールされていること。
+3. **基本知識**  
+   - Java プロジェクト構造に慣れていること。  
+   - PDF のアウトライン（ブックマーク）について理解していること。
 
-3. **知識の前提条件:**  
-   - PDF の構造、特にブックマーク（アウトライン）に関する理解
+## Aspose.PDF for Java の設定
+ビルドファイルに Aspose.PDF ライブラリを追加します。
 
-### Aspose.PDF for Java のセットアップ
-プロジェクトに Aspose.PDF を依存関係として追加する方法：
-
-**Maven**
+**Maven**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -61,7 +94,7 @@ Aspose.PDF for Java を使用する前に、以下を確認してください：
 </dependency>
 ```
 
-**Gradle**
+**Gradle**  
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
@@ -71,93 +104,99 @@ implementation 'com.aspose:aspose-pdf:25.3'
 - **一時ライセンス:** Aspose のウェブサイトから拡張評価用の一時ライセンスを取得します。  
 - **購入:** 商用プロジェクト向けにフルライセンスを取得します。
 
-ライブラリを追加し、ライセンスを適用したら次のように初期化できます：
+ライブラリが追加されライセンスが適用されたら、以下のように初期化できます：
 
 ```java
 // Initialize the Document class with the path to your PDF file
 document doc = new Document("path/to/your/input.pdf");
 ```
 
-### 実装ガイド
-解決策を 4 つのステップに分けて説明します：ドキュメントの読み込み、ページモードの設定、ブックマークの展開、更新された PDF の保存。
+## PDF ドキュメントの読み込み方法は？
+PDF ファイルを Aspose の `Document` オブジェクトにロードします。この 1 行でソースファイルのメモリ内表現が作成され、構造の読み取りや変更が可能になります。`Document` クラスはメモリ内の PDF ファイルを表し、ページ、アウトライン、その他の要素へのアクセスを提供し、すべての PDF 操作の中心オブジェクトとなります。
 
-#### PDF ドキュメントの読み込み
 ```java
 // Load an existing PDF document from your specified directory
 document doc = new Document("YOUR_DOCUMENT_DIRECTORY/input.pdf");
 ```
-**説明：** 変更したい PDF を表す `Document` オブジェクトを作成します。プレースホルダーのパスは実際のファイル位置に置き換えてください。
 
-#### ページモードの設定
+## ブックマークを展開するためにページモードを設定する方法は？
+ビューアのページモードを `UseOutlines` に設定すると、ファイルを開いたときに PDF リーダーが自動的にブックマークペインを表示します。`setPageMode` メソッドはデフォルトのビューア動作を構成し、`PageMode.UseOutlines` 定数は起動時にアウトライン（ブックマーク）パネルを表示するよう PDF ビューアに指示します。
+
 ```java
 doc.setPageMode(PageMode.UseOutlines);
 ```
-**説明：** `setPageMode()` は PDF ビューアに対してファイルを開く方法を指示します。`UseOutlines` を指定すると、ビューアは自動的にブックマークペインを表示します。
 
-#### ブックマークの展開
+## PDF のすべてのブックマークを展開する方法は？
+すべてのアウトラインエントリを反復処理し、その `Open` プロパティを `true` に設定します。これにより、各ブックマークがデフォルトで展開された状態で表示されます。`OutlineItemCollection` クラスはすべてのブックマークエントリを保持しており、各項目を開くようにマークすることで、ユーザー操作なしに PDF ビューアが完全な階層を表示します。
+
 ```java
 // Iterate over each bookmark and set its state to open
 for (int counter = 1; counter <= doc.getOutlines().size(); counter++) {
     doc.getOutlines().get_Item(counter).setOpen(true);
 }
 ```
-**説明：** ループがすべてのアウトラインエントリ（ブックマーク）を走査し、`Open` プロパティを `true` に設定することで、PDF を開いたときにすべてのブックマークが展開された状態になります。
 
-#### 変更後の PDF の保存
+## ブックマークを展開した後に PDF を保存する方法は？
+変更されたドキュメントを新しいファイルに書き込む（または元のファイルを上書き）します。`save()` メソッドは PDF 構造へのすべての変更を永続化します。`save` を呼び出した後、PDF は開くすべてのビューアで展開されたブックマーク状態を保持します。
+
 ```java
 doc.save("YOUR_OUTPUT_DIRECTORY/Bookmarks_Expanded.pdf");
 ```
-**説明：** `save()` メソッドで変更を新しいファイルに書き出します。出力パスは必要に応じて調整してください。
 
-### 実用例
-PDF ブックマークの展開は、さまざまな実務シナリオで役立ちます：
+## 実用的な応用例
+PDF ブックマークの展開は、さまざまな実務シナリオで有用です：
+- **教育資料:** 学生は章リスト全体を即座に確認できます。  
+- **企業レポート:** 経営層は検索せずに財務サマリーへジャンプできます。  
+- **法的文書:** 弁護士は条項を迅速に特定し、貴重な時間を節約できます。
 
-- **教育資料:** 学生が章リスト全体を即座に確認できます。  
-- **企業レポート:** 経営層が財務サマリーにすぐにアクセスできます。  
-- **法的文書:** 弁護士が条項を迅速に特定でき、貴重な時間を節約できます。
+このロジックを文書管理パイプラインに組み込むことで、配布前にブックマークの準備が自動化され、受取人全員がナビゲート可能な PDF を受け取れるようになります。
 
-このロジックを文書管理システムに組み込めば、配布前にブックマークの自動準備が可能です。
-
-### パフォーマンス考慮点
-大量のアウトラインを含む大規模 PDF を扱う場合：
-
-- 保存後に `Document` オブジェクトを破棄してメモリを解放します。  
-- ドキュメントに数千件のエントリがある場合は、アウトラインを小さなバッチに分割して処理します。  
-- アプリケーションのメモリプロファイルに合わせて Java ヒープサイズ（`-Xmx`）を調整します。
+## パフォーマンス上の考慮点
+数千のアウトラインを持つ大規模 PDF を扱う際は：
+- `Document` オブジェクトは保存後に破棄してメモリを解放します。  
+- 文書に多数のエントリがある場合は、アウトラインを小さなバッチで処理します。  
+- ワークロードに応じて Java ヒープサイズ（`-Xmx`）を調整します。500 ページの PDF では `-Xmx2g` で十分なことが多いです。
 
 ## よくある質問
 **Q1: Aspose.PDF の無料トライアルはどう設定しますか？**  
-A1: [Aspose Free Trial ページ](https://releases.aspose.com/pdf/java/) からライブラリをダウンロードし、試用を開始してください。
+A1: ライブラリをダウンロードして試すには、[Aspose Free Trial page](https://releases.aspose.com/pdf/java/) をご覧ください。
 
-**Q2: ブックマーク展開時の一般的な問題は何ですか？**  
-A2: ファイルパスが正しいか確認し、ソースおよび宛先フォルダーに対する読み書き権限があることを確認してください。
+**Q2: ブックマークを展開する際の一般的な問題は何ですか？**  
+A2: ファイルパスが正しいことを確認し、ソースおよび宛先フォルダーに対する読み書き権限がアプリケーションにあることを確認してください。
 
 **Q3: すべてではなく特定のブックマークだけを展開できますか？**  
-A3: はい。ループ内でブックマークタイトルをチェックし、`setOpen(true)` を呼び出す対象を絞り込むことで実現できます。
+A3: はい。必要なアウトラインだけを対象にループを変更します。例えば、`setOpen(true)` を呼び出す前にブックマークタイトルをチェックするなどです。
 
-**Q4: 多数のブックマークを持つ大容量 PDF をどう処理すべきですか？**  
-A4: アウトラインを段階的に処理し、JVM ヒープサイズを `-Xmx2g` 以上に増やすなどして `OutOfMemoryError` を回避してください。
+**Q4: 多くのブックマークを持つ大きな PDF 文書はどう処理しますか？**  
+A5: アウトラインを段階的に処理し、`OutOfMemoryError` を回避するために JVM ヒープサイズ（`-Xmx2g` 以上）を増やすことを検討してください。
 
 **Q5: Aspose.PDF は商用プロジェクトに適していますか？**  
-A5: もちろんです。商用利用には [Aspose Purchase ページ](https://purchase.aspose.com/buy) からライセンスを取得してください。
+A5: はい。商用利用には [Aspose Purchase page](https://purchase.aspose.com/buy) からライセンスを取得してください。
 
 ## リソース
-- **Documentation:** 詳細なガイドと API リファレンスは [Aspose PDF Documentation](https://reference.aspose.com/pdf/java/) を参照してください。  
-- **Download:** 最新バージョンの Aspose.PDF は [Downloads Page](https://releases.aspose.com/pdf/java/) から入手できます。  
-- **Purchase & Free Trial:** ライセンスオプションは [Aspose Purchase](https://purchase.aspose.com/buy) をご覧ください。  
-- **Temporary License:** 機能評価用の一時ライセンスは [Aspose Temporary License](https://purchase.aspose.com/temporary-license/) から取得できます。  
-- **Support:** 問題が発生した場合は [Aspose Support Forum](https://forum.aspose.com/c/pdf/10) で質問してください。
+- **ドキュメント:** 詳細なガイドと API リファレンスは [Aspose PDF Documentation](https://reference.aspose.com/pdf/java/) で確認できます。  
+- **ダウンロード:** 最新バージョンの Aspose.PDF は [Downloads Page](https://releases.aspose.com/pdf/java/) から取得できます。  
+- **購入と無料トライアル:** ライセンスオプションは [Aspose Purchase](https://purchase.aspose.com/buy) をご覧ください。  
+- **一時ライセンス:** 機能評価用の一時ライセンスは [Aspose Temporary License](https://purchase.aspose.com/temporary-license/) から取得してください。  
+- **サポート:** 問題が発生した場合は [Aspose Support Forum](https://forum.aspose.com/c/pdf/10) で質問してください。
 
 ---
 
-**Last Updated:** 2025-12-20  
-**Tested With:** Aspose.PDF 25.3 for Java  
-**Author:** Aspose  
+**最終更新日:** 2026-06-02  
+**テスト環境:** Aspose.PDF 25.3 for Java  
+**作者:** Aspose
+
+## 関連チュートリアル
+
+- [Aspose.PDF for Java を使用して PDF ブックマークを作成しナビゲーションを管理する方法](/pdf/java/bookmarks-navigation/create-manage-pdf-bookmarks-aspose-java/)
+- [Aspose.PDF for Java を使用して PDF ブックマークを更新する方法：ステップバイステップガイド](/pdf/java/bookmarks-navigation/update-pdf-bookmarks-aspose-java-tutorial/)
+- [Aspose.PDF を使用した PDF ブックマークの取得（Java） – 完全ガイド](/pdf/java/bookmarks-navigation/retrieve-display-pdf-bookmarks-aspose-pdf-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

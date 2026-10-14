@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: 本教程演示如何使用 Aspose.Pdf 打开现有 PDF，应用 AES‑256 加密且不授予任何权限（从而禁用打印），保存受保护的文件，并使用查看者密码验证加密。
+//ExStepSummary:0: 定义源 PDF 路径、输出受保护文件名，以及查看者密码和所有者密码。
+//ExStepSummary:1: 检查源文件是否存在，如果缺失则以错误信息中止。
+//ExStepSummary:2: 打开原始 PDF，设置无权限，使用指定的密码通过 AES‑256 加密，并保存受保护的文件。
+//ExStepSummary:3: 使用查看者密码重新打开加密的 PDF，并将其 IsEncrypted 标志写入控制台以确认已受保护。
+//ExStepSummary:4: 打印最终信息，指示加密已完成并显示输出文件名。
+//ExStep:0-
+const string sourceFile = "original.pdf";
+const string securedFile = "protected.pdf";
+const string viewerPwd = "viewerPwd123";
+const string masterPwd = "masterPwd123";
+
+//ExStep:1-
+if (!File.Exists(sourceFile))
+{
+    Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+    return;
+}
+
+//ExStep:2-
+using (Document pdfDoc = new Document(sourceFile))
+{
+    Permissions rights = 0;
+    pdfDoc.Encrypt(viewerPwd, masterPwd, rights, CryptoAlgorithm.AESx256);
+    pdfDoc.Save(securedFile);
+}
+
+//ExStep:3-
+using (Document checkDoc = new Document(securedFile, viewerPwd))
+{
+    Console.WriteLine($"Encrypted flag: {checkDoc.IsEncrypted}");
+}
+
+//ExStep:4-
+Console.WriteLine($"Encryption finished. Output saved as '{securedFile}'.");
+//ExEnd

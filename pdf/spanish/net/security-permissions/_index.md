@@ -17,6 +17,12 @@ Nuestros tutoriales de seguridad y permisos muestran cómo proteger documentos P
 
 ## Tutoriales disponibles
 
+
+{{< tutorial-card link="./encrypt-pdf-form-filling/" title="Cifrar PDF para permitir solo el relleno de formularios usando Aspose.Pdf for .NET" imgSrc="./encrypt-pdf-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-form-filling/" title="Encriptar PDF solo para llenado de formularios con AES‑256 usando Aspose.Pdf para .NET" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="Cifrar PDF con permiso de No‑Impresión usando Aspose.PDF para .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [Cambiar contraseñas de PDF con Aspose.PDF para .NET](./change-pdf-password-aspose-pdf-net-guide/)
 Un tutorial de código para Aspose.PDF Net
 
@@ -61,6 +67,11 @@ Aprenda a implementar firmas digitales seguras y verificación para archivos PDF
 
 ### [Dominar la redacción de PDF con Aspose.PDF .NET: una guía completa para el manejo seguro de documentos](./mastering-pdf-redaction-aspose-pdf-net-guide/)
 Aprenda a redactar PDF de forma segura con Aspose.PDF .NET. Esta guía abarca enfoques basados en anotaciones y fachadas, garantizando así la conformidad de sus documentos.
+
+### [Aplicar redacción a PDF con Aspose Plugin Manager – Guía completa](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
+Aprenda a aplicar redacción a documentos PDF usando Aspose Plugin Manager con esta guía paso a paso.
+### [Cómo redactar PDF y eliminar datos sensibles en C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+Aprenda a redactar PDFs y eliminar datos confidenciales usando Aspose.PDF para .NET en C#.
 
 ### [Desbloquear y descifrar archivos PDF con Aspose.PDF para .NET: una guía completa](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 Aprenda a desbloquear y descifrar archivos PDF protegidos con Aspose.PDF para .NET en C#. Esta guía explica la configuración, los pasos de descifrado y las prácticas recomendadas.

@@ -167,6 +167,9 @@ Tutorial kode untuk Aspose.PDF Net
 ### [Gaya Teks dalam PDF yang Ditandai menggunakan Aspose.PDF untuk .NET | Panduan untuk Pembuatan PDF yang Mudah Diakses dan Estetis](./style-text-tagged-pdfs-aspose-pdf-net/)
 Pelajari cara memberi gaya pada teks dalam dokumen PDF yang diberi tag dengan Aspose.PDF untuk .NET. Panduan ini mencakup instalasi, teknik, dan aplikasi praktis untuk meningkatkan aksesibilitas.
 
+### [Cara Menyensor PDF dengan Aspose – Panduan Langkah demi Langkah](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
+Pelajari cara mengaburkan informasi sensitif dalam file PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

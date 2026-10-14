@@ -126,7 +126,9 @@ Lär dig hur du optimerar PDF-teckensnitt med Aspose.PDF .NET, effektivisera din
 En kodhandledning för Aspose.PDF Net
 
 ### [Stilisera text i taggade PDF-filer med Aspose.PDF för .NET | Guide för att skapa tillgängliga och estetiska PDF-filer](./style-text-tagged-pdfs-aspose-pdf-net/)
-Lär dig hur du formaterar text i taggade PDF-dokument med Aspose.PDF för .NET. Den här guiden behandlar installation, tekniker och praktiska tillämpningar för att förbättra tillgängligheten.
+
+### [Hur man maskar PDF med Aspose – steg‑för‑steg‑guide](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
+Lär dig hur du maskar känslig information i PDF-filer med Aspose i en detaljerad steg‑för‑steg‑guide.
 
 ## Ytterligare resurser
 
