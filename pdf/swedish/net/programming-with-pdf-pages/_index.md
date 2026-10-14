@@ -20,6 +20,10 @@ Handledningarna innehåller steg-för-steg-instruktioner, detaljerade kodexempel
 
 ## Handledningar
 
+{{< tutorial-card link="./rotate-pdf-page/" title="Rotera en enskild PDF-sida 180 grader med Aspose.PDF for .NET" imgSrc="./rotate-pdf-page/images/thumb.png" >}}
+
+{{< tutorial-card link="./split-pdf/" title="Dela PDF efter sida tio med Aspose.Pdf for .NET" imgSrc="./split-pdf/images/thumb.png" >}}
+
 {{< tutorial-card link="./rotate-pages/" title="Rotera varje PDF‑sida 180° med Aspose.Pdf för .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
 
 | Titel | Beskrivning |

@@ -20,6 +20,10 @@ Návody obsahují podrobné pokyny, podrobné příklady kódu a jasná vysvětl
 
 ## Návody
 
+{{< tutorial-card link="./rotate-pdf-page/" title="Otočte jednu stránku PDF o 180 stupňů pomocí Aspose.PDF pro .NET" imgSrc="./rotate-pdf-page/images/thumb.png" >}}
+
+{{< tutorial-card link="./split-pdf/" title="Rozdělení PDF po desáté stránce pomocí Aspose.Pdf pro .NET" imgSrc="./split-pdf/images/thumb.png" >}}
+
 {{< tutorial-card link="./rotate-pages/" title="Otočte každou stránku PDF o 180° pomocí Aspose.Pdf pro .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
 
 | Název | Popis |

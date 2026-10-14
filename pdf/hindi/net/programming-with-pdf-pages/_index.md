@@ -20,6 +20,10 @@
 
 ## ट्यूटोरियल
 
+{{< tutorial-card link="./rotate-pdf-page/" title="Aspose.PDF for .NET के साथ एकल PDF पृष्ठ को 180 डिग्री घुमाएँ" imgSrc="./rotate-pdf-page/images/thumb.png" >}}
+
+{{< tutorial-card link="./split-pdf/" title="Aspose.Pdf for .NET का उपयोग करके पृष्ठ दस के बाद PDF विभाजित करें" imgSrc="./split-pdf/images/thumb.png" >}}
+
 {{< tutorial-card link="./rotate-pages/" title="Aspose.Pdf for .NET का उपयोग करके प्रत्येक PDF पृष्ठ को 180° घुमाएँ" imgSrc="./rotate-pages/images/thumb.png" >}}
 
 | शीर्षक | विवरण |

@@ -22,6 +22,10 @@ Tutorial mencakup petunjuk langkah demi langkah, contoh kode terperinci, dan pen
 | Judul | Deskripsi |
 Bahasa Indonesia: --- | Bahasa Indonesia: 
 
+{{< tutorial-card link="./rotate-pdf-page/" title="Putar Satu Halaman PDF 180 Derajat dengan Aspose.PDF for .NET" imgSrc="./rotate-pdf-page/images/thumb.png" >}}
+
+{{< tutorial-card link="./split-pdf/" title="Memisahkan PDF Setelah Halaman Kesepuluh Menggunakan Aspose.Pdf for .NET" imgSrc="./split-pdf/images/thumb.png" >}}
+
 {{< tutorial-card link="./rotate-pages/" title="Putar Setiap Halaman PDF 180° Menggunakan Aspose.Pdf untuk .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
 
 | [Ubah Orientasi](./change-orientation/) | Panduan langkah demi langkah untuk mengubah orientasi halaman PDF dengan Aspose.PDF untuk .NET. Mudah diikuti dan diterapkan dalam proyek Anda. Bahasa Indonesia:  

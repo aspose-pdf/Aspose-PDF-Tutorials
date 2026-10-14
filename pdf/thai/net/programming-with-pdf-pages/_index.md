@@ -22,6 +22,10 @@
 | ชื่อเรื่อง | คำอธิบาย |
 - 
 
+{{< tutorial-card link="./rotate-pdf-page/" title="หมุนหน้า PDF เดียว 180 องศาด้วย Aspose.PDF for .NET" imgSrc="./rotate-pdf-page/images/thumb.png" >}}
+
+{{< tutorial-card link="./split-pdf/" title="แยก PDF หลังหน้าที่สิบโดยใช้ Aspose.Pdf for .NET" imgSrc="./split-pdf/images/thumb.png" >}}
+
 {{< tutorial-card link="./rotate-pages/" title="หมุนทุกหน้าของ PDF 180° ด้วย Aspose.Pdf for .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
 
 - [การเปลี่ยนแปลงทิศทาง](./change-orientation/) | คำแนะนำทีละขั้นตอนในการเปลี่ยนทิศทางของหน้า PDF ด้วย Aspose.PDF สำหรับ .NET ทำตามและนำไปใช้กับโปรเจ็กต์ของคุณได้ง่าย -  

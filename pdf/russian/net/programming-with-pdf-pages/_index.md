@@ -20,6 +20,10 @@
 
 ## Учебники
 
+{{< tutorial-card link="./rotate-pdf-page/" title="Повернуть одну страницу PDF на 180 градусов с помощью Aspose.PDF for .NET" imgSrc="./rotate-pdf-page/images/thumb.png" >}}
+
+{{< tutorial-card link="./split-pdf/" title="Разделить PDF после десятой страницы с помощью Aspose.Pdf for .NET" imgSrc="./split-pdf/images/thumb.png" >}}
+
 {{< tutorial-card link="./rotate-pages/" title="Повернуть каждую страницу PDF на 180° с помощью Aspose.Pdf для .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
 
 | Название | Описание |
