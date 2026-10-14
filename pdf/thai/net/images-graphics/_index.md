@@ -53,6 +53,10 @@
 
 ### [เพิ่มความโปร่งใสให้กับ PDF ด้วย Aspose PDF ใน C# – คู่มือทีละขั้นตอน](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 เรียนรู้วิธีเพิ่มความโปร่งใสให้กับไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนใน C#
+
+### [วิธีตั้งค่าความโปร่งใสใน PDF ด้วย Aspose PDF ใน C#](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
+เรียนรู้วิธีกำหนดความโปร่งใสให้กับ PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านตัวอย่างโค้ด C# อย่างละเอียด
+
 ### [วิธีเพิ่มรูปทรงลงใน PDF ด้วย Aspose.PDF ใน C# – คู่มือทีละขั้นตอน](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 เรียนรู้วิธีเพิ่มรูปทรงต่าง ๆ ลงในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET พร้อมตัวอย่างโค้ด C# อย่างละเอียด
 

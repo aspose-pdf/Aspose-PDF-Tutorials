@@ -19,6 +19,7 @@
 
 
 {{< tutorial-card link="./create-pdf-x-3-document/" title="Aspose.Pdf for .NET का उपयोग करके तीन पृष्ठों वाला PDF/X‑3 दस्तावेज़ बनाएं" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
+{{< tutorial-card link="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/" title="Aspose.PDF for .NET के साथ PDF/X‑1 दस्तावेज़ कैसे बनाएं" imgSrc="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/images/thumb.png" >}}
 ### [.NET के लिए Aspose.PDF का उपयोग करके PDF पुस्तिकाएँ बनाएँ: एक चरण-दर-स्तर मार्गदर्शिका](./aspose-pdf-net-create-booklets-tutorial/)
 .NET के लिए Aspose.PDF के साथ पेशेवर PDF पुस्तिकाएँ बनाना सीखें। यह ट्यूटोरियल सेटअप, कार्यान्वयन और व्यावहारिक अनुप्रयोगों को कवर करता है।
 ### [Aspose.PDF .NET का उपयोग करके XML और XSLT से PDF बनाएं: एक चरण-दर-चरण मार्गदर्शिका](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
@@ -58,7 +59,7 @@ C# कोड से नया PDF पृष्ठ जोड़ें, आयत 
 .NET के लिए Aspose.PDF का उपयोग करके जटिल PDF दस्तावेज़ बनाना सीखें। यह गाइड नेस्टेड टेबल बनाना, दोहराए जाने वाले कॉलम जोड़ना, और बहुत कुछ बताता है।
 ### [.NET के लिए Aspose.PDF के साथ मास्टर टैग की गई PDF रचना: एक्सेसिबिलिटी और SEO के लिए एक व्यापक गाइड](./master-tagged-pdf-creation-aspose-pdf-dotnet/)
 ### [PDF दस्तावेज़ बनाएं – PDF में पृष्ठ जोड़ें, शीर्षक टैग करें, और तत्वों को स्थित करें](./create-pdf-document-add-page-to-pdf-tag-heading-and-position/)
-PDF दस्तावेज़ बनाना, पृष्ठ जोड़ना, शीर्षक टैग करना और तत्वों को इच्छित स्थान पर रखने के चरण-दर-चरण मार्गदर्शन।
+PDF दस्तावेज़ बनाना, पृष्ठ जोड़ना, शीर्षक टैग करना और तत्वों को इच्छित स्थान पर रखने के चरण-दर-स्टेप मार्गदर्शन।
 
 ### [Aspose.PDF .NET के साथ PDF बुकलेट निर्माण में महारत हासिल करें](./aspose-pdf-net-create-booklet-page-arrangement/)
 Aspose.PDF नेट के लिए एक कोड ट्यूटोरियल

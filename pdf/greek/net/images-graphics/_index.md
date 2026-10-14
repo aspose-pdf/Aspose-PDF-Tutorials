@@ -54,6 +54,10 @@
 ### [Πώς να προσθέσετε σχήμα σε PDF με το Aspose.PDF σε C# – Οδηγός βήμα προς βήμα](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Μάθετε πώς να προσθέσετε σχήματα σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με παραδείγματα C#.
 
+### [Πώς να ορίσετε διαφάνεια σε PDF με το Aspose PDF σε C#](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
+
+Μάθετε πώς να εφαρμόζετε διαφάνεια σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με C#.
+
 ### [Αποτελεσματική αναγνώριση εικόνας PDF με το Aspose.PDF για .NET](./master-image-identification-aspose-pdf-net/)
 Μάθετε πώς να αναγνωρίζετε εικόνες σε κλίμακα του γκρι και RGB σε PDF χρησιμοποιώντας το Aspose.PDF για .NET. Αυτό το σεμινάριο καλύπτει την εγκατάσταση, την εξαγωγή εικόνων και συμβουλές απόδοσης.
 

@@ -20,6 +20,7 @@ Unsere Tutorials zur Dokumenterstellung bieten umfassende Anleitungen zur progra
 
 
 {{< tutorial-card link="./create-pdf-x-3-document/" title="PDF/X‑3‑Dokument mit drei Seiten erstellen mit Aspose.Pdf für .NET" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
+{{< tutorial-card link="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/" title="PDF/X‑1‑Dokument mit Aspose.PDF für .NET erstellen" imgSrc="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/images/thumb.png" >}}
 ### [Erstellen Sie PDF-Broschüren mit Aspose.PDF für .NET: Eine Schritt-für-Schritt-Anleitung](./aspose-pdf-net-create-booklets-tutorial/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET professionelle PDF-Broschüren erstellen. Dieses Tutorial behandelt Einrichtung, Implementierung und praktische Anwendungen.
 ### [Erstellen Sie PDFs aus XML und XSLT mit Aspose.PDF .NET: Eine Schritt-für-Schritt-Anleitung](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)

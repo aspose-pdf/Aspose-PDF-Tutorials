@@ -20,6 +20,8 @@ Hướng dẫn tạo tài liệu của chúng tôi cung cấp hướng dẫn to�
 
 
 {{< tutorial-card link="./create-pdf-x-3-document/" title="Tạo tài liệu PDF/X‑3 với ba trang bằng Aspose.Pdf for .NET" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
+### [Cách tạo tài liệu PDF/X‑1 với Aspose.PDF cho .NET](./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/)
+Hướng dẫn chi tiết cách tạo tài liệu PDF/X‑1 bằng Aspose.PDF cho .NET.
 ### [Tạo tập sách PDF bằng Aspose.PDF cho .NET: Hướng dẫn từng bước](./aspose-pdf-net-create-booklets-tutorial/)
 Tìm hiểu cách tạo tập sách PDF chuyên nghiệp với Aspose.PDF cho .NET. Hướng dẫn này bao gồm thiết lập, triển khai và ứng dụng thực tế.
 ### [Tạo PDF từ XML và XSLT bằng Aspose.PDF .NET: Hướng dẫn từng bước](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)

@@ -18,6 +18,7 @@
 ## Διαθέσιμα εκπαιδευτικά βίντεο
 
 {{< tutorial-card link="./create-pdf-x-3-document/" title="Δημιουργία εγγράφου PDF/X‑3 με τρεις σελίδες χρησιμοποιώντας το Aspose.Pdf for .NET" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
+{{< tutorial-card link="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/" title="Πώς να δημιουργήσετε έγγραφο PDF/X‑1 με το Aspose.PDF για .NET" imgSrc="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/images/thumb.png" >}}
 ### [Δημιουργία φυλλαδίων PDF χρησιμοποιώντας το Aspose.PDF για .NET: Οδηγός βήμα προς βήμα](./aspose-pdf-net-create-booklets-tutorial/)
 Μάθετε πώς να δημιουργείτε επαγγελματικά φυλλάδια PDF με το Aspose.PDF για .NET. Αυτό το σεμινάριο καλύπτει την εγκατάσταση, την υλοποίηση και τις πρακτικές εφαρμογές.
 

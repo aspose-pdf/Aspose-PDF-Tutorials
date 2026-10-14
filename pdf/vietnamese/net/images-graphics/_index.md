@@ -119,7 +119,10 @@ Tìm hiểu cách cải thiện tài liệu PDF của bạn bằng cách tạo h
 Tìm hiểu cách vẽ hình chữ nhật trong tài liệu PDF bằng C# sử dụng Aspose.PDF cho .NET qua hướng dẫn chi tiết từng bước.
 
 ### [Thêm Độ Trong Suốt vào PDF với Aspose PDF trong C# – Hướng Dẫn Từng Bước](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Tìm hiểu cách áp dụng độ trong suốt cho các đối tượng trong PDF bằng Aspose PDF và C# qua hướng dẫn chi tiết.
+Tìm hiểu cách áp dụng độ trong suốt cho các đối tượng trong PDF bằng Aspose PDF và C# qua hướng dẫn chi tiết từng bước.
+
+### [Cách thiết lập độ trong suốt trong PDF bằng Aspose.Pdf C#](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
+Tìm hiểu cách áp dụng độ trong suốt cho các đối tượng trong tài liệu PDF bằng Aspose.Pdf C#.
 
 ### [Cách xóa hình ảnh khỏi tệp PDF bằng Aspose.PDF cho .NET - Hướng dẫn đầy đủ](./delete-images-aspose-pdf-net/)
 Tìm hiểu cách xóa hình ảnh khỏi tệp PDF hiệu quả bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm thiết lập, ví dụ về mã và các biện pháp thực hành tốt nhất.
