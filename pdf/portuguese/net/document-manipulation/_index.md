@@ -16,6 +16,8 @@
 Domine a manipulação de documentos PDF com nossos tutoriais detalhados do Aspose.PDF .NET. Estes guias passo a passo demonstram como trabalhar com a estrutura de documentos, modificar PDFs existentes, dividir e mesclar documentos, adicionar e remover páginas e organizar seu conteúdo PDF programaticamente. Cada tutorial inclui exemplos práticos de código C#, notas de implementação e práticas recomendadas para ajudar você a criar aplicativos que manipulam documentos PDF de forma eficiente com código limpo e de fácil manutenção.
 
 ## Tutoriais disponíveis
+
+{{< tutorial-card link="./compare-pdf-forms/" title="Compare Formulários PDF e Gere JSON & Diff Visual Usando Aspose.Pdf para .NET" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
 ### [Adicionar carimbos de data e hora a PDFs usando Aspose.PDF para .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 Aprenda a adicionar carimbos de data e hora ou anotações aos seus documentos PDF com eficiência usando o Aspose.PDF para .NET. Aprimore o gerenciamento de documentos com estas etapas fáceis de seguir.
 

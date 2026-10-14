@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: 本教程展示如何使用 Aspose.Pdf 比较包含表单字段的两个 PDF 文件，自动评估字段值，然后生成差异的 JSON 报告以及并排的可视化差异 PDF。
+//ExStepSummary:0: 声明原始 PDF、更新 PDF、并排差异 PDF 和 JSON 差异报告的文件路径。
+//ExStepSummary:1: 检查两个源 PDF 文件是否存在，如果任意一个缺失则以错误信息终止程序。
+//ExStepSummary:2: 在确定性的 `using` 块中将原始和更新的 PDF 加载到 `Document` 对象中。
+//ExStepSummary:3: 创建一个 `ComparisonOptions` 实例，用于保存比较的默认设置。
+//ExStepSummary:4: 对两个 PDF 进行逐页文本比较，并保存产生的差异操作。
+//ExStepSummary:5: 生成详细差异的 JSON 文件，并在控制台输出确认信息。
+//ExStepSummary:6: 创建并排比较选项，生成显示更改的可视化差异 PDF，并记录输出文件路径。
+//ExStep:0-
+const string sourcePdf = "base_document.pdf";
+const string updatedPdf = "altered_document.pdf";
+const string sideBySidePdf = "diff_visual.pdf";
+const string jsonReportPath = "diff_report.json";
+
+//ExStep:1-
+if (!File.Exists(sourcePdf) || !File.Exists(updatedPdf))
+{
+    Console.Error.WriteLine("Required PDF files were not found.");
+    return;
+}
+
+//ExStep:2-
+using (Document firstDoc = new Document(sourcePdf))
+using (Document secondDoc = new Document(updatedPdf))
+{
+
+//ExStep:3-
+ComparisonOptions compareOpts = new ComparisonOptions();
+
+//ExStep:4-
+List<List<DiffOperation>> pageDiffs = TextPdfComparer.CompareDocumentsPageByPage(firstDoc, secondDoc, compareOpts);
+
+//ExStep:5-
+JsonDiffOutputGenerator jsonWriter = new JsonDiffOutputGenerator();
+jsonWriter.GenerateOutput(pageDiffs, jsonReportPath);
+Console.WriteLine($"JSON comparison saved to '{jsonReportPath}'.");
+
+//ExStep:6-
+SideBySideComparisonOptions sideBySideOpts = new SideBySideComparisonOptions();
+SideBySidePdfComparer.Compare(firstDoc, secondDoc, sideBySidePdf, sideBySideOpts);
+Console.WriteLine($"Side‑by‑side diff PDF saved to '{sideBySidePdf}'.");
+}
+//ExEnd
