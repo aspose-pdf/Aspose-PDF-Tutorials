@@ -19,6 +19,9 @@ Az Aspose.PDF for .NET „Programozás PDF oldalakkal” című dokumentációja
 Az oktatóanyagok lépésről lépésre bemutatják az utasításokat, részletes kódpéldákat és világos magyarázatokat, hogy könnyen érthetőek legyenek. Akár kezdő, akár tapasztalt fejlesztő vagy, ezek az anyagok segítenek elsajátítani az Aspose.PDF for .NET által kínált PDF-oldalmanipulációs funkciókat, új lehetőségeket nyitva meg alkalmazásfejlesztési projektjeid számára.
 
 ## Oktatóanyagok
+
+{{< tutorial-card link="./rotate-pages/" title="Minden PDF oldal 180°-os elforgatása az Aspose.Pdf for .NET segítségével" imgSrc="./rotate-pages/images/thumb.png" >}}
+
 | Cím | Leírás |
 | --- | --- | 
 | [Orientációváltás](./change-orientation/) | Lépésről lépésre útmutató PDF-fájlok oldaltájolásának megváltoztatásához az Aspose.PDF for .NET segítségével. Könnyen követhető és megvalósítható a projektjeiben. |  
