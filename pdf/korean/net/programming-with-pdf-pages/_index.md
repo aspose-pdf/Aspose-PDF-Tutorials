@@ -24,6 +24,7 @@ Aspose.PDF for .NET의 "PDF 페이지 프로그래밍" 설명서는 PDF 파일�
 
 {{< tutorial-card link="./split-pdf/" title="Aspose.Pdf for .NET을 사용하여 열 번째 페이지 이후 PDF 분할" imgSrc="./split-pdf/images/thumb.png" >}}
 
+{{< tutorial-card link="./rotate-pages/" title="Aspose.Pdf for .NET을 사용하여 모든 PDF 페이지를 180° 회전하기" imgSrc="./rotate-pages/images/thumb.png" >}}
 
 | 제목 | 설명 |
 | --- | --- | 

@@ -25,6 +25,8 @@ Tutorials include step-by-step instructions, detailed code examples, and clear e
 
 {{< tutorial-card link="./rotate-pdf-page/" title="Rotate a Single PDF Page 180 Degrees with Aspose.PDF for .NET" imgSrc="./rotate-pdf-page/images/thumb.png" >}}
 
+{{< tutorial-card link="./rotate-pages/" title="Rotate Every PDF Page 180° Using Aspose.Pdf for .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
+
 | Title | Description |
 | --- | --- | 
 | [Add bates numbering pdf with Aspose – Complete Guide](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Step-by-step guide to add Bates numbering to a PDF using Aspose.PDF for .NET. |

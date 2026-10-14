@@ -24,6 +24,7 @@ Handledningarna innehåller steg-för-steg-instruktioner, detaljerade kodexempel
 
 {{< tutorial-card link="./split-pdf/" title="Dela PDF efter sida tio med Aspose.Pdf for .NET" imgSrc="./split-pdf/images/thumb.png" >}}
 
+{{< tutorial-card link="./rotate-pages/" title="Rotera varje PDF‑sida 180° med Aspose.Pdf för .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
 
 | Titel | Beskrivning |
 | --- | --- | 

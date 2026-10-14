@@ -24,6 +24,7 @@ Samouczki obejmują instrukcje krok po kroku, szczegółowe przykłady kodu i ja
 
 {{< tutorial-card link="./split-pdf/" title="Podziel PDF po dziesiątej stronie przy użyciu Aspose.Pdf for .NET" imgSrc="./split-pdf/images/thumb.png" >}}
 
+{{< tutorial-card link="./rotate-pages/" title="Obróć każdą stronę PDF o 180° przy użyciu Aspose.Pdf dla .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
 
 | Tytuł | Opis |
 | --- | --- | 

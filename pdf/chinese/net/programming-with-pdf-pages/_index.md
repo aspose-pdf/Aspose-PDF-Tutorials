@@ -25,6 +25,7 @@ Aspose.PDF for .NET 的“使用 PDF 页面进行编程”文档提供了分步�
 
 {{< tutorial-card link="./split-pdf/" title="使用 Aspose.Pdf for .NET 在第十页后拆分 PDF" imgSrc="./split-pdf/images/thumb.png" >}}
 
+{{< tutorial-card link="./rotate-pages/" title="使用 Aspose.Pdf for .NET 将每页 PDF 旋转 180°" imgSrc="./rotate-pages/images/thumb.png" >}}
 
 | --- | --- | 
 | [改变方向](./change-orientation/) 使用 Aspose.PDF for .NET 更改 PDF 页面方向的分步指南。易于遵循并在您的项目中实施。|  

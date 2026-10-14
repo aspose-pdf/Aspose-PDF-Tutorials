@@ -24,6 +24,7 @@
 
 {{< tutorial-card link="./split-pdf/" title="Διαχωρισμός PDF μετά τη Δέκατη Σελίδα χρησιμοποιώντας Aspose.Pdf for .NET" imgSrc="./split-pdf/images/thumb.png" >}}
 
+{{< tutorial-card link="./rotate-pages/" title="Περιστροφή κάθε σελίδας PDF κατά 180° χρησιμοποιώντας το Aspose.Pdf for .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
 
 | Τίτλος | Περιγραφή |
 | --- | --- | 

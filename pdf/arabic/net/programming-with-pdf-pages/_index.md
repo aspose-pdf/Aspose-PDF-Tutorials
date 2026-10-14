@@ -24,6 +24,7 @@
 
 {{< tutorial-card link="./split-pdf/" title="تقسيم PDF بعد الصفحة العاشرة باستخدام Aspose.Pdf for .NET" imgSrc="./split-pdf/images/thumb.png" >}}
 
+{{< tutorial-card link="./rotate-pages/" title="تدوير كل صفحة PDF بمقدار 180° باستخدام Aspose.Pdf for .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
 
 | العنوان | الوصف |
 | --- | --- | 

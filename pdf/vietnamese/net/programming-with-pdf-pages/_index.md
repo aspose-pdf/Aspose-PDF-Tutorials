@@ -24,6 +24,7 @@ Hướng dẫn bao gồm hướng dẫn từng bước, ví dụ mã chi tiết 
 
 {{< tutorial-card link="./split-pdf/" title="Tách PDF sau trang thứ mười bằng Aspose.Pdf for .NET" imgSrc="./split-pdf/images/thumb.png" >}}
 
+{{< tutorial-card link="./rotate-pages/" title="Xoay Mỗi Trang PDF 180° Bằng Aspose.Pdf cho .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
 
 | Tiêu đề | Mô tả |
 | --- | --- | 

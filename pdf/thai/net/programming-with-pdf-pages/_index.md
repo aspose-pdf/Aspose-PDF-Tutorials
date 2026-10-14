@@ -26,6 +26,7 @@
 
 {{< tutorial-card link="./split-pdf/" title="แยก PDF หลังหน้าที่สิบโดยใช้ Aspose.Pdf for .NET" imgSrc="./split-pdf/images/thumb.png" >}}
 
+{{< tutorial-card link="./rotate-pages/" title="หมุนทุกหน้าของ PDF 180° ด้วย Aspose.Pdf for .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
 
 - [การเปลี่ยนแปลงทิศทาง](./change-orientation/) | คำแนะนำทีละขั้นตอนในการเปลี่ยนทิศทางของหน้า PDF ด้วย Aspose.PDF สำหรับ .NET ทำตามและนำไปใช้กับโปรเจ็กต์ของคุณได้ง่าย -  
 | [เชื่อมโยงไฟล์ PDF](./concatenate-pdf-files/) | เชื่อมโยงไฟล์ PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนที่ครอบคลุมนี้  

@@ -24,6 +24,7 @@ Az oktatóanyagok lépésről lépésre bemutatják az utasításokat, részlete
 
 {{< tutorial-card link="./split-pdf/" title="PDF felosztása a tizedik oldal után az Aspose.Pdf for .NET használatával" imgSrc="./split-pdf/images/thumb.png" >}}
 
+{{< tutorial-card link="./rotate-pages/" title="Minden PDF oldal 180°-os elforgatása az Aspose.Pdf for .NET segítségével" imgSrc="./rotate-pages/images/thumb.png" >}}
 
 | Cím | Leírás |
 | --- | --- | 

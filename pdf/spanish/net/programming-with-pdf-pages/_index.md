@@ -24,6 +24,7 @@ Los tutoriales incluyen instrucciones paso a paso, ejemplos de código detallado
 
 {{< tutorial-card link="./split-pdf/" title="Dividir PDF después de la página diez usando Aspose.Pdf for .NET" imgSrc="./split-pdf/images/thumb.png" >}}
 
+{{< tutorial-card link="./rotate-pages/" title="Rotar cada página de PDF 180° usando Aspose.Pdf para .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
 
 | Título | Descripción |
 | --- | --- | 

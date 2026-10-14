@@ -26,6 +26,7 @@ Bahasa Indonesia: --- | Bahasa Indonesia:
 
 {{< tutorial-card link="./split-pdf/" title="Memisahkan PDF Setelah Halaman Kesepuluh Menggunakan Aspose.Pdf for .NET" imgSrc="./split-pdf/images/thumb.png" >}}
 
+{{< tutorial-card link="./rotate-pages/" title="Putar Setiap Halaman PDF 180° Menggunakan Aspose.Pdf untuk .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
 
 | [Ubah Orientasi](./change-orientation/) | Panduan langkah demi langkah untuk mengubah orientasi halaman PDF dengan Aspose.PDF untuk .NET. Mudah diikuti dan diterapkan dalam proyek Anda. Bahasa Indonesia:  
 | [Gabungkan File PDF](./concatenate-pdf-files/) | Gabungkan file PDF dengan mudah menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah yang komprehensif ini. Bahasa Indonesia:  

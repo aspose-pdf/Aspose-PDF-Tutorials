@@ -24,6 +24,7 @@ Eğitimler, adım adım talimatlar, ayrıntılı kod örnekleri ve anlaşılmas�
 
 {{< tutorial-card link="./split-pdf/" title="Aspose.Pdf for .NET Kullanarak PDF'i Onuncu Sayfadan Sonra Böl" imgSrc="./split-pdf/images/thumb.png" >}}
 
+{{< tutorial-card link="./rotate-pages/" title="Aspose.Pdf for .NET ile Her PDF Sayfasını 180° Döndürün" imgSrc="./rotate-pages/images/thumb.png" >}}
 
 | Başlık | Açıklama |
 | --- | --- | 

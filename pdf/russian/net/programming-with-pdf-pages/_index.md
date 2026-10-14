@@ -24,6 +24,7 @@
 
 {{< tutorial-card link="./split-pdf/" title="Разделить PDF после десятой страницы с помощью Aspose.Pdf for .NET" imgSrc="./split-pdf/images/thumb.png" >}}
 
+{{< tutorial-card link="./rotate-pages/" title="Повернуть каждую страницу PDF на 180° с помощью Aspose.Pdf для .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
 
 | Название | Описание |
 | --- | --- | 
