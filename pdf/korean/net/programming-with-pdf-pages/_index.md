@@ -19,6 +19,12 @@ Aspose.PDF for .NET의 "PDF 페이지 프로그래밍" 설명서는 PDF 파일�
 튜토리얼에는 단계별 지침, 자세한 코드 예제, 그리고 명확한 설명이 포함되어 있어 쉽게 이해할 수 있습니다. 초보자든 숙련된 개발자든, 이 자료들을 통해 Aspose.PDF for .NET이 제공하는 PDF 페이지 조작 기능을 완벽하게 익혀 애플리케이션 개발 프로젝트에 새로운 가능성을 열어보세요.
 
 ## 튜토리얼
+
+{{< tutorial-card link="./rotate-pdf-page/" title="Aspose.PDF for .NET을 사용하여 단일 PDF 페이지를 180도 회전하기" imgSrc="./rotate-pdf-page/images/thumb.png" >}}
+
+{{< tutorial-card link="./split-pdf/" title="Aspose.Pdf for .NET을 사용하여 열 번째 페이지 이후 PDF 분할" imgSrc="./split-pdf/images/thumb.png" >}}
+
+
 | 제목 | 설명 |
 | --- | --- | 
 | [방향 전환](./change-orientation/) | Aspose.PDF for .NET을 사용하여 PDF 페이지 방향을 변경하는 단계별 가이드입니다. 쉽게 따라 하고 프로젝트에 구현할 수 있습니다. |  

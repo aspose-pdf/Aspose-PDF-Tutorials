@@ -20,6 +20,12 @@ Aspose.PDF for .NET の「PDF ページを使ったプログラミング」ド�
 
 ## チュートリアル
 タイトル | 説明 |
+
+{{< tutorial-card link="./rotate-pdf-page/" title="Aspose.PDF for .NET を使用して単一の PDF ページを180度回転させる" imgSrc="./rotate-pdf-page/images/thumb.png" >}}
+
+{{< tutorial-card link="./split-pdf/" title="Aspose.Pdf for .NET を使用した 10 ページ目以降の PDF 分割" imgSrc="./split-pdf/images/thumb.png" >}}
+
+
 | --- | --- | 
 | [方向転換](./change-orientation/) Aspose.PDF for .NET を使って PDF のページの向きを変更する手順をステップバイステップで説明します。簡単に理解でき、プロジェクトに実装できます。 |  
 | [PDFファイルを連結する](./concatenate-pdf-files/) この包括的なステップバイステップ ガイドに従って、Aspose.PDF for .NET を使用して PDF ファイルを簡単に連結します。 |  

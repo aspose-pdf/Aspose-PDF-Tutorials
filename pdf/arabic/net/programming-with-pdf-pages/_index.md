@@ -19,6 +19,12 @@
 تتضمن الدروس التعليمية تعليمات خطوة بخطوة، وأمثلة برمجية مفصلة، وشروحات واضحة لتسهيل الفهم. سواءً كنت مبتدئًا أو مطورًا خبيرًا، ستساعدك هذه الموارد على إتقان ميزات معالجة صفحات PDF التي يوفرها Aspose.PDF لـ .NET، مما يفتح آفاقًا جديدة لمشاريع تطوير تطبيقاتك.
 
 ## دروس تعليمية
+
+{{< tutorial-card link="./rotate-pdf-page/" title="تدوير صفحة PDF واحدة بزاوية 180 درجة باستخدام Aspose.PDF for .NET" imgSrc="./rotate-pdf-page/images/thumb.png" >}}
+
+{{< tutorial-card link="./split-pdf/" title="تقسيم PDF بعد الصفحة العاشرة باستخدام Aspose.Pdf for .NET" imgSrc="./split-pdf/images/thumb.png" >}}
+
+
 | العنوان | الوصف |
 | --- | --- | 
 | [تغيير التوجه](./change-orientation/) دليل خطوة بخطوة لتغيير اتجاه صفحات ملف PDF باستخدام Aspose.PDF لـ .NET. سهل المتابعة والتنفيذ في مشاريعك.  

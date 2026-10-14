@@ -19,6 +19,12 @@ Tài liệu "Lập trình với PDF Pages" dành cho Aspose.PDF for .NET cung c�
 Hướng dẫn bao gồm hướng dẫn từng bước, ví dụ mã chi tiết và giải thích rõ ràng để dễ hiểu. Cho dù bạn là người mới bắt đầu hay nhà phát triển có kinh nghiệm, các tài nguyên này sẽ giúp bạn nắm vững các tính năng thao tác trang PDF do Aspose.PDF cung cấp cho .NET, mở ra những khả năng mới cho các dự án phát triển ứng dụng của bạn.
 
 ## Hướng dẫn
+
+{{< tutorial-card link="./rotate-pdf-page/" title="Xoay một trang PDF duy nhất 180 độ với Aspose.PDF for .NET" imgSrc="./rotate-pdf-page/images/thumb.png" >}}
+
+{{< tutorial-card link="./split-pdf/" title="Tách PDF sau trang thứ mười bằng Aspose.Pdf for .NET" imgSrc="./split-pdf/images/thumb.png" >}}
+
+
 | Tiêu đề | Mô tả |
 | --- | --- | 
 | [Thay đổi hướng](./change-orientation/) | Hướng dẫn từng bước để thay đổi hướng trang của PDF bằng Aspose.PDF cho .NET. Dễ dàng thực hiện và triển khai trong các dự án của bạn. |  

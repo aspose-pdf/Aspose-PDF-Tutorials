@@ -19,6 +19,12 @@ Aspose.PDF for .NET için "PDF Sayfalarıyla Programlama" belgeleri, bir PDF dos
 Eğitimler, adım adım talimatlar, ayrıntılı kod örnekleri ve anlaşılmasını kolaylaştırmak için net açıklamalar içerir. İster yeni başlayan ister deneyimli bir geliştirici olun, bu kaynaklar Aspose.PDF for .NET tarafından sunulan PDF sayfa düzenleme özelliklerinde ustalaşmanıza yardımcı olacak ve uygulama geliştirme projeleriniz için yeni olasılıklar açacaktır.
 
 ## Eğitimler
+
+{{< tutorial-card link="./rotate-pdf-page/" title="Aspose.PDF for .NET ile Tek Bir PDF Sayfasını 180 Derece Döndürün" imgSrc="./rotate-pdf-page/images/thumb.png" >}}
+
+{{< tutorial-card link="./split-pdf/" title="Aspose.Pdf for .NET Kullanarak PDF'i Onuncu Sayfadan Sonra Böl" imgSrc="./split-pdf/images/thumb.png" >}}
+
+
 | Başlık | Açıklama |
 | --- | --- | 
 | [Yönelimi Değiştir](./change-orientation/) | Aspose.PDF for .NET ile PDF'in sayfa yönünü değiştirmek için adım adım kılavuz. Projelerinizde takip etmesi ve uygulaması kolaydır. |  

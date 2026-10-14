@@ -19,6 +19,12 @@ La documentación "Programación con páginas PDF" de Aspose.PDF para .NET ofrec
 Los tutoriales incluyen instrucciones paso a paso, ejemplos de código detallados y explicaciones claras para facilitar su comprensión. Tanto si eres principiante como desarrollador experimentado, estos recursos te ayudarán a dominar las funciones de manipulación de páginas PDF que ofrece Aspose.PDF para .NET, abriendo nuevas posibilidades para tus proyectos de desarrollo de aplicaciones.
 
 ## Tutoriales
+
+{{< tutorial-card link="./rotate-pdf-page/" title="Rotar una sola página PDF 180 grados con Aspose.PDF para .NET" imgSrc="./rotate-pdf-page/images/thumb.png" >}}
+
+{{< tutorial-card link="./split-pdf/" title="Dividir PDF después de la página diez usando Aspose.Pdf for .NET" imgSrc="./split-pdf/images/thumb.png" >}}
+
+
 | Título | Descripción |
 | --- | --- | 
 | [Cambiar la orientación](./change-orientation/) Guía paso a paso para cambiar la orientación de un PDF con Aspose.PDF para .NET. Fácil de seguir e implementar en tus proyectos.  

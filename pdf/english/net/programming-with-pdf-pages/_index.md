@@ -19,6 +19,12 @@ The "Programming with PDF Pages" documentation for Aspose.PDF for .NET provides 
 Tutorials include step-by-step instructions, detailed code examples, and clear explanations to make it easy to understand. Whether you are a beginner or an experienced developer, these resources will help you master the PDF page manipulation features offered by Aspose.PDF for .NET, opening up new possibilities for your application development projects.
 
 ## Tutorials
+
+{{< tutorial-card link="./split-pdf/" title="Split PDF After Page Ten Using Aspose.Pdf for .NET" imgSrc="./split-pdf/images/thumb.png" >}}
+
+
+{{< tutorial-card link="./rotate-pdf-page/" title="Rotate a Single PDF Page 180 Degrees with Aspose.PDF for .NET" imgSrc="./rotate-pdf-page/images/thumb.png" >}}
+
 | Title | Description |
 | --- | --- | 
 | [Add bates numbering pdf with Aspose – Complete Guide](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Step-by-step guide to add Bates numbering to a PDF using Aspose.PDF for .NET. |
