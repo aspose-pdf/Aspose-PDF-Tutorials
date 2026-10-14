@@ -18,6 +18,8 @@
 ## 可用教程
 
 
+
+{{< tutorial-card link="./create-pdf-x-3-document/" title="使用 Aspose.Pdf for .NET 建立具三頁的 PDF/X‑3 文件" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
 ### [使用 Aspose.PDF for .NET 建立 PDF 小冊子：逐步指南](./aspose-pdf-net-create-booklets-tutorial/)
 了解如何使用 Aspose.PDF for .NET 建立專業的 PDF 小冊子。本教程涵蓋設定、實作和實際應用。
 ### [使用 Aspose.PDF .NET 從 XML 和 XSLT 建立 PDF：逐步指南](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)

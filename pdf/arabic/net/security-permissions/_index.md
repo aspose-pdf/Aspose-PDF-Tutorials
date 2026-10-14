@@ -22,6 +22,7 @@
 
 {{< tutorial-card link="./encrypt-form-filling/" title="تشفير PDF لتعبئة النماذج فقط باستخدام AES‑256 مع Aspose.Pdf for .NET" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
 
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="تشفير PDF بدون إذن طباعة باستخدام Aspose.PDF for .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [تغيير كلمات مرور PDF باستخدام Aspose.PDF لـ .NET](./change-pdf-password-aspose-pdf-net-guide/)
 برنامج تعليمي لبرمجة Aspose.PDF Net
 

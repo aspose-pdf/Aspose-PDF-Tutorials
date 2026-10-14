@@ -22,6 +22,7 @@ Nuestros tutoriales de seguridad y permisos muestran cómo proteger documentos P
 
 {{< tutorial-card link="./encrypt-form-filling/" title="Encriptar PDF solo para llenado de formularios con AES‑256 usando Aspose.Pdf para .NET" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
 
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="Cifrar PDF con permiso de No‑Impresión usando Aspose.PDF para .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [Cambiar contraseñas de PDF con Aspose.PDF para .NET](./change-pdf-password-aspose-pdf-net-guide/)
 Un tutorial de código para Aspose.PDF Net
 

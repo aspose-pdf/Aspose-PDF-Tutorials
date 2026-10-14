@@ -22,6 +22,7 @@ Onze tutorials over beveiliging en machtigingen laten zien hoe u PDF-documenten 
 
 {{< tutorial-card link="./encrypt-form-filling/" title="PDF versleutelen voor alleen formulierinvulling met AES‑256 met behulp van Aspose.Pdf voor .NET" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
 
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="PDF versleutelen zonder afdrukrechten met Aspose.PDF for .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [PDF-wachtwoorden wijzigen met Aspose.PDF voor .NET](./change-pdf-password-aspose-pdf-net-guide/)
 Een codetutorial voor Aspose.PDF Net
 

@@ -22,6 +22,7 @@
 
 {{< tutorial-card link="./encrypt-form-filling/" title="เข้ารหัส PDF สำหรับการกรอกแบบฟอร์มเท่านั้นด้วย AES‑256 โดยใช้ Aspose.Pdf for .NET" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
 
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="เข้ารหัส PDF ด้วยการปิดการพิมพ์โดยใช้ Aspose.PDF for .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [เปลี่ยนรหัสผ่าน PDF ด้วย Aspose.PDF สำหรับ .NET](./change-pdf-password-aspose-pdf-net-guide/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.PDF Net
 

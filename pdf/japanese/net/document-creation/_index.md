@@ -18,6 +18,8 @@
 ## 利用可能なチュートリアル
 
 
+
+{{< tutorial-card link="./create-pdf-x-3-document/" title="Aspose.Pdf for .NET を使用して 3 ページの PDF/X‑3 ドキュメントを作成する" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
 ### [Aspose.PDF for .NET を使用した PDF ブックレットの作成: ステップバイステップ ガイド](./aspose-pdf-net-create-booklets-tutorial/)
 Aspose.PDF for .NET を使ってプロフェッショナルな PDF ブックレットを作成する方法を学びましょう。このチュートリアルでは、セットアップ、実装、そして実践的な応用例を解説します。
 ### [Aspose.PDF .NET を使用して XML と XSLT から PDF を作成する: ステップバイステップ ガイド](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)

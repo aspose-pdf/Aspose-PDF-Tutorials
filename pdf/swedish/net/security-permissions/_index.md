@@ -22,6 +22,7 @@ Våra handledningar om säkerhet och behörigheter visar hur du skyddar PDF-doku
 
 {{< tutorial-card link="./encrypt-form-filling/" title="Kryptera PDF för endast formulärifyllning med AES‑256 med Aspose.Pdf för .NET" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
 
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="Kryptera PDF utan utskriftsbehörighet med Aspose.PDF för .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [Ändra PDF-lösenord med Aspose.PDF för .NET](./change-pdf-password-aspose-pdf-net-guide/)
 En kodhandledning för Aspose.PDF Net
 

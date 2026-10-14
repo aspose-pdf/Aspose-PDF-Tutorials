@@ -22,6 +22,7 @@
 
 {{< tutorial-card link="./encrypt-form-filling/" title="使用 Aspose.Pdf for .NET 对 PDF 进行仅表单填写的 AES‑256 加密" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
 
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="使用 Aspose.PDF for .NET 对 PDF 进行加密并禁用打印权限" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [使用 Aspose.PDF for .NET 更改 PDF 密码](./change-pdf-password-aspose-pdf-net-guide/)
 Aspose.PDF Net 代码教程
 
