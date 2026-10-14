@@ -19,6 +19,9 @@ Dokumentace „Programování s PDF stránkami“ pro Aspose.PDF pro .NET poskyt
 Návody obsahují podrobné pokyny, podrobné příklady kódu a jasná vysvětlení pro snadné pochopení. Ať už jste začátečník nebo zkušený vývojář, tyto zdroje vám pomohou zvládnout funkce manipulace se stránkami PDF, které nabízí Aspose.PDF pro .NET, a otevřou vám tak nové možnosti pro vaše projekty vývoje aplikací.
 
 ## Návody
+
+{{< tutorial-card link="./rotate-pages/" title="Otočte každou stránku PDF o 180° pomocí Aspose.Pdf pro .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
+
 | Název | Popis |
 | --- | --- | 
 | [Změna orientace](./change-orientation/) | Podrobný návod pro změnu orientace stránky PDF pomocí Aspose.PDF pro .NET. Snadno sledovatelný a implementovatelný ve vašich projektech. |  

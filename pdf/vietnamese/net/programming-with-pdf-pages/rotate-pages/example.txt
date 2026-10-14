@@ -1,0 +1,41 @@
+//ExStart
+//ExSummary: Hướng dẫn này trình bày cách xoay mỗi trang của một tệp PDF hiện có 180 độ bằng cách sử dụng lớp Aspose.Pdf Document.
+//ExStepSummary:0: Khai báo đường dẫn tệp nguồn và đích cho PDF.
+//ExStepSummary:1: Kiểm tra xem tệp nguồn có tồn tại hay không và hủy bỏ với thông báo lỗi nếu không tồn tại.
+//ExStepSummary:2: Tạo một đối tượng Document cho PDF nguồn bên trong một khối using để quản lý tài nguyên.
+//ExStepSummary:3: Lặp qua từng Page trong pdfDoc.Pages và đặt thuộc tính Rotate của nó thành Rotation.on180, làm cho mỗi trang quay ngược.
+//ExStepSummary:4: Lưu Document đã chỉnh sửa vào tệp đích, giữ lại các phép quay.
+//ExStepSummary:5: Ghi một thông báo xác nhận vào console để chỉ ra thao tác đã hoàn thành.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+        const string sourceFile = "source_document.pdf";
+        const string destinationFile = "flipped_document.pdf";
+
+//ExStep:1-
+        if (!File.Exists(sourceFile))
+        {
+            Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+            return;
+        }
+
+//ExStep:2-
+        // Open the PDF within a using statement to ensure resources are released
+        using (Document pdfDoc = new Document(sourceFile))
+        {
+
+//ExStep:3-
+            // Walk through each page (collection is 1‑based) and apply a 180° rotation
+            foreach (Page pdfPage in pdfDoc.Pages)
+            {
+                // Use the correct enum member with the 'on' prefix
+                pdfPage.Rotate = Rotation.on180;
+            }
+
+//ExStep:4-
+            // Write the altered document to disk
+            pdfDoc.Save(destinationFile);
+        }
+
+//ExStep:5-
+        Console.WriteLine($"All pages rotated and saved as '{destinationFile}'.");
+//ExEnd

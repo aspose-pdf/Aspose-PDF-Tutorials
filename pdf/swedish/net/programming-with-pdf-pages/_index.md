@@ -19,6 +19,9 @@ Dokumentationen "Programmering med PDF-sidor" för Aspose.PDF för .NET innehål
 Handledningarna innehåller steg-för-steg-instruktioner, detaljerade kodexempel och tydliga förklaringar för att göra det enkelt att förstå. Oavsett om du är nybörjare eller en erfaren utvecklare, kommer dessa resurser att hjälpa dig att bemästra PDF-sidmanipuleringsfunktionerna som erbjuds av Aspose.PDF för .NET, vilket öppnar upp nya möjligheter för dina applikationsutvecklingsprojekt.
 
 ## Handledningar
+
+{{< tutorial-card link="./rotate-pages/" title="Rotera varje PDF‑sida 180° med Aspose.Pdf för .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
+
 | Titel | Beskrivning |
 | --- | --- | 
 | [Ändra orientering](./change-orientation/) | Steg-för-steg-guide för att ändra sidorientering i en PDF med Aspose.PDF för .NET. Lätt att följa och implementera i dina projekt. |  
