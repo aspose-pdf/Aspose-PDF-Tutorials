@@ -18,6 +18,8 @@
 ## 사용 가능한 튜토리얼
 
 
+
+{{< tutorial-card link="./create-pdf-x-3-document/" title="Aspose.Pdf for .NET을 사용하여 세 페이지가 포함된 PDF/X‑3 문서 만들기" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
 ### [.NET용 Aspose.PDF를 사용하여 PDF 소책자 만들기: 단계별 가이드](./aspose-pdf-net-create-booklets-tutorial/)
 Aspose.PDF for .NET을 사용하여 전문적인 PDF 소책자를 만드는 방법을 알아보세요. 이 튜토리얼에서는 설정, 구현 및 실제 적용 사례를 다룹니다.
 ### [Aspose.PDF .NET을 사용하여 XML 및 XSLT에서 PDF 만들기: 단계별 가이드](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)

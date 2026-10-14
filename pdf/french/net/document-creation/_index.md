@@ -18,6 +18,8 @@ Nos tutoriels de création de documents proposent des conseils complets pour gé
 ## Tutoriels disponibles
 
 
+
+{{< tutorial-card link="./create-pdf-x-3-document/" title="Créer un document PDF/X‑3 avec trois pages en utilisant Aspose.Pdf pour .NET" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
 ### [Créer des brochures PDF avec Aspose.PDF pour .NET : guide étape par étape](./aspose-pdf-net-create-booklets-tutorial/)
 Apprenez à créer des brochures PDF professionnelles avec Aspose.PDF pour .NET. Ce tutoriel couvre la configuration, la mise en œuvre et les applications pratiques.
 ### [Créer des PDF à partir de XML et XSLT avec Aspose.PDF .NET : un guide étape par étape](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)

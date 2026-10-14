@@ -17,6 +17,8 @@ Tutorial keamanan dan izin kami menunjukkan cara melindungi dokumen PDF mengguna
 
 ## Tutorial yang Tersedia
 
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="Enkripsi PDF dengan Izin Tanpa Cetak Menggunakan Aspose.PDF untuk .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [Ubah Kata Sandi PDF dengan Aspose.PDF untuk .NET](./change-pdf-password-aspose-pdf-net-guide/)
 Tutorial kode untuk Aspose.PDF Net
 

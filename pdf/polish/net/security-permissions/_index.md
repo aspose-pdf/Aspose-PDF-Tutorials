@@ -17,6 +17,8 @@ Nasze samouczki dotyczące bezpieczeństwa i uprawnień pokazują, jak chronić 
 
 ## Dostępne samouczki
 
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="Szyfruj PDF bez uprawnienia do drukowania przy użyciu Aspose.PDF dla .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [Zmiana haseł PDF za pomocą Aspose.PDF dla .NET](./change-pdf-password-aspose-pdf-net-guide/)
 Samouczek dotyczący kodu dla Aspose.PDF Net
 

@@ -17,6 +17,8 @@ Nossos tutoriais de segurança e permissões demonstram como proteger documentos
 
 ## Tutoriais disponíveis
 
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="Criptografar PDF com Permissão de Não‑Impressão Usando Aspose.PDF para .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [Alterar senhas de PDF com Aspose.PDF para .NET](./change-pdf-password-aspose-pdf-net-guide/)
 Um tutorial de código para Aspose.PDF Net
 

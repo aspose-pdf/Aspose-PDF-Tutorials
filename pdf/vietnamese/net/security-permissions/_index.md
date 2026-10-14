@@ -17,6 +17,8 @@ Hướng dẫn về bảo mật và quyền của chúng tôi trình bày cách 
 
 ## Hướng dẫn có sẵn
 
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="Mã hóa PDF không cho phép in bằng Aspose.PDF for .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [Thay đổi mật khẩu PDF bằng Aspose.PDF cho .NET](./change-pdf-password-aspose-pdf-net-guide/)
 Hướng dẫn mã cho Aspose.PDF Net
 

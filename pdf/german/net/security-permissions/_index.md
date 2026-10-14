@@ -17,6 +17,8 @@ Unsere Tutorials zu Sicherheit und Berechtigungen zeigen Ihnen, wie Sie PDF-Doku
 
 ## Verfügbare Tutorials
 
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="PDF mit Keine‑Druck‑Berechtigung verschlüsseln mit Aspose.PDF für .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [Ändern Sie PDF-Passwörter mit Aspose.PDF für .NET](./change-pdf-password-aspose-pdf-net-guide/)
 Ein Code-Tutorial für Aspose.PDF Net
 

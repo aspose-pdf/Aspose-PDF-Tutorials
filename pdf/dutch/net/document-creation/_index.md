@@ -18,6 +18,8 @@ Onze tutorials over documentcreatie bieden uitgebreide begeleiding bij het progr
 ## Beschikbare tutorials
 
 
+
+{{< tutorial-card link="./create-pdf-x-3-document/" title="PDF/X‑3‑document met drie pagina's maken met Aspose.Pdf voor .NET" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
 ### [PDF-boekjes maken met Aspose.PDF voor .NET: een stapsgewijze handleiding](./aspose-pdf-net-create-booklets-tutorial/)
 Leer hoe u professionele PDF-boekjes maakt met Aspose.PDF voor .NET. Deze tutorial behandelt de installatie, implementatie en praktische toepassingen.
 ### [PDF-document maken met Aspose in C# – een stapsgewijze handleiding](./create-pdf-document-with-aspose-in-c-step-by-step-guide/)

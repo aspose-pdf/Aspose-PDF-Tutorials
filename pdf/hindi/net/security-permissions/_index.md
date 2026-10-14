@@ -17,6 +17,8 @@
 
 ## उपलब्ध ट्यूटोरियल
 
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="Aspose.PDF for .NET का उपयोग करके No‑Print अनुमति के साथ PDF एन्क्रिप्ट करें" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [.NET के लिए Aspose.PDF के साथ PDF पासवर्ड बदलें](./change-pdf-password-aspose-pdf-net-guide/)
 Aspose.PDF नेट के लिए एक कोड ट्यूटोरियल
 
