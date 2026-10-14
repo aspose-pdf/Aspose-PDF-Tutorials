@@ -26,6 +26,12 @@ Aspose.PDF for .NET 的「使用 PDF 頁面進行編程」文件提供了逐步�
 
 {{< tutorial-card link="./rotate-pages/" title="使用 Aspose.Pdf for .NET 旋轉每頁 PDF 180°" imgSrc="./rotate-pages/images/thumb.png" >}}
 
+{{< tutorial-card link="./compare-pdf-pages/" title="使用 Aspose.Pdf for .NET 逐頁比較 PDF 頁面" imgSrc="./compare-pdf-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdfs/" title="使用 Aspose.PDF for .NET 比較頁面尺寸不同的 PDF" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+
+
 |標題 |描述 |
 | --- | --- | 
 | [使用 C# 為 PDF 添加頁碼 – 完整逐步指南](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) |使用 Aspose.PDF for .NET 透過 C# 為 PDF 添加頁碼的完整逐步指南，簡單易於實作。 |  

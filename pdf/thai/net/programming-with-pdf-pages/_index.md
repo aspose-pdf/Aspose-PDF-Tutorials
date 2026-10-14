@@ -28,6 +28,12 @@
 
 {{< tutorial-card link="./rotate-pages/" title="หมุนทุกหน้าของ PDF 180° ด้วย Aspose.Pdf for .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
 
+{{< tutorial-card link="./compare-pdf-pages/" title="เปรียบเทียบหน้าของ PDF หน้า‑ต่อหน้า ด้วย Aspose.Pdf for .NET" imgSrc="./compare-pdf-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdfs/" title="เปรียบเทียบ PDF ที่มีขนาดหน้าต่างกันโดยใช้ Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+
+
 - [การเปลี่ยนแปลงทิศทาง](./change-orientation/) | คำแนะนำทีละขั้นตอนในการเปลี่ยนทิศทางของหน้า PDF ด้วย Aspose.PDF สำหรับ .NET ทำตามและนำไปใช้กับโปรเจ็กต์ของคุณได้ง่าย -  
 | [เชื่อมโยงไฟล์ PDF](./concatenate-pdf-files/) | เชื่อมโยงไฟล์ PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนที่ครอบคลุมนี้  
 - [ลบหน้าใดหน้าหนึ่งในไฟล์ PDF](./delete-particular-page/) | เรียนรู้วิธีการลบหน้าเฉพาะจากไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ -  

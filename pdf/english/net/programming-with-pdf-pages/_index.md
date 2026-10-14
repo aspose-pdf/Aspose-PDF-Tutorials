@@ -20,6 +20,11 @@ Tutorials include step-by-step instructions, detailed code examples, and clear e
 
 ## Tutorials
 
+{{< tutorial-card link="./compare-pdfs/" title="Compare PDFs with Different Page Sizes Using Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+
+{{< tutorial-card link="./compare-pdf-pages/" title="Compare PDF Pages Page‑by‑Page with Aspose.Pdf for .NET" imgSrc="./compare-pdf-pages/images/thumb.png" >}}
+
 {{< tutorial-card link="./split-pdf/" title="Split PDF After Page Ten Using Aspose.Pdf for .NET" imgSrc="./split-pdf/images/thumb.png" >}}
 
 

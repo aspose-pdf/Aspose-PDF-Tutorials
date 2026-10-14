@@ -26,6 +26,12 @@ Los tutoriales incluyen instrucciones paso a paso, ejemplos de código detallado
 
 {{< tutorial-card link="./rotate-pages/" title="Rotar cada página de PDF 180° usando Aspose.Pdf para .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
 
+{{< tutorial-card link="./compare-pdf-pages/" title="Compare páginas PDF página por página con Aspose.Pdf for .NET" imgSrc="./compare-pdf-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdfs/" title="Compare PDFs con diferentes tamaños de página usando Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+
+
 | Título | Descripción |
 | --- | --- | 
 | [Cambiar la orientación](./change-orientation/) Guía paso a paso para cambiar la orientación de un PDF con Aspose.PDF para .NET. Fácil de seguir e implementar en tus proyectos.  

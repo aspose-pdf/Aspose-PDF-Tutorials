@@ -26,6 +26,12 @@ Návody obsahují podrobné pokyny, podrobné příklady kódu a jasná vysvětl
 
 {{< tutorial-card link="./rotate-pages/" title="Otočte každou stránku PDF o 180° pomocí Aspose.Pdf pro .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
 
+{{< tutorial-card link="./compare-pdf-pages/" title="Porovnávejte stránky PDF stránka po stránce pomocí Aspose.Pdf pro .NET" imgSrc="./compare-pdf-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdfs/" title="Porovnejte PDF soubory s různými velikostmi stránek pomocí Aspose.PDF pro .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+
+
 | Název | Popis |
 | --- | --- | 
 | [Změna orientace](./change-orientation/) | Podrobný návod pro změnu orientace stránky PDF pomocí Aspose.PDF pro .NET. Snadno sledovatelný a implementovatelný ve vašich projektech. |  

@@ -26,6 +26,12 @@ Aspose.PDF for .NET의 "PDF 페이지 프로그래밍" 설명서는 PDF 파일�
 
 {{< tutorial-card link="./rotate-pages/" title="Aspose.Pdf for .NET을 사용하여 모든 PDF 페이지를 180° 회전하기" imgSrc="./rotate-pages/images/thumb.png" >}}
 
+{{< tutorial-card link="./compare-pdf-pages/" title="Aspose.Pdf for .NET을 사용하여 PDF 페이지를 페이지별로 비교합니다." imgSrc="./compare-pdf-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdfs/" title="Aspose.PDF for .NET을 사용하여 페이지 크기가 다른 PDF 비교하기" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+
+
 | 제목 | 설명 |
 | --- | --- | 
 | [방향 전환](./change-orientation/) | Aspose.PDF for .NET을 사용하여 PDF 페이지 방향을 변경하는 단계별 가이드입니다. 쉽게 따라 하고 프로젝트에 구현할 수 있습니다. |  
