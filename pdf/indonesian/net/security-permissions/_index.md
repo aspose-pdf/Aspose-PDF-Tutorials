@@ -18,6 +18,10 @@ Tutorial keamanan dan izin kami menunjukkan cara melindungi dokumen PDF mengguna
 ## Tutorial yang Tersedia
 
 
+{{< tutorial-card link="./encrypt-pdf-form-filling/" title="Enkripsi PDF untuk Hanya Mengizinkan Pengisian Formulir Menggunakan Aspose.Pdf for .NET" imgSrc="./encrypt-pdf-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-form-filling/" title="Enkripsi PDF untuk Hanya Pengisian Formulir dengan AES‑256 Menggunakan Aspose.Pdf untuk .NET" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
+
 {{< tutorial-card link="./encrypt-pdf-no-print/" title="Enkripsi PDF dengan Izin Tanpa Cetak Menggunakan Aspose.PDF untuk .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [Ubah Kata Sandi PDF dengan Aspose.PDF untuk .NET](./change-pdf-password-aspose-pdf-net-guide/)
 Tutorial kode untuk Aspose.PDF Net

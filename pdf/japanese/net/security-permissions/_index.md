@@ -18,6 +18,10 @@
 ## 利用可能なチュートリアル
 
 
+{{< tutorial-card link="./encrypt-pdf-form-filling/" title="Aspose.Pdf for .NET を使用して、PDF をフォーム入力のみ許可するように暗号化する" imgSrc="./encrypt-pdf-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-form-filling/" title="Aspose.Pdf for .NET を使用して、AES‑256 でフォーム入力のみ可能な PDF を暗号化する" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
+
 {{< tutorial-card link="./encrypt-pdf-no-print/" title="Aspose.PDF for .NET を使用した印刷不可権限での PDF 暗号化" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [Aspose.PDF for .NET で PDF パスワードを変更する](./change-pdf-password-aspose-pdf-net-guide/)
 Aspose.PDF Net のコードチュートリアル

@@ -20,6 +20,9 @@
 
 ## チュートリアル
 タイトル | 説明 |
+
+{{< tutorial-card link="./encrypt-pdf/" title="Aspose.PDF for .NET を使用したユーザーおよび所有者パスワードによる PDF 暗号化" imgSrc="./encrypt-pdf/images/thumb.png" >}}
+
 | --- | --- | 
 | [PDFファイル内のパスワードを変更する](./change-password/) Aspose.PDF for .NET を使って PDF のパスワードを簡単に変更する方法を学びましょう。ステップバイステップのガイドで、安全に手順をご案内します。 |  
 | [PDFファイルの復号化](./decrypt/) Aspose.PDF for .NET を使用して PDF ファイルを安全に復号化する方法を学びましょう。ステップバイステップのガイドでドキュメント管理スキルを向上させましょう。 |  

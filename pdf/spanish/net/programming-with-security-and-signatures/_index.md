@@ -19,6 +19,9 @@ El tutorial "Programación con Seguridad y Firmas" le guiará a través de las f
 Este tutorial le ofrece una descripción detallada de los métodos y técnicas para garantizar la confidencialidad y autenticidad de sus archivos PDF. Aprenderá a administrar certificados digitales, agregar permisos de seguridad, aplicar políticas de seguridad y más. Con estos tutoriales, podrá proteger sus documentos PDF de forma fiable y profesional.
 
 ## Tutoriales
+
+{{< tutorial-card link="./encrypt-pdf/" title="Cifrar PDF con contraseñas de usuario y propietario usando Aspose.PDF para .NET" imgSrc="./encrypt-pdf/images/thumb.png" >}}
+
 | Título | Descripción |
 | --- | --- | 
 | [Cambiar contraseña en archivo PDF](./change-password/) Aprenda a cambiar contraseñas de PDF fácilmente con Aspose.PDF para .NET. Nuestra guía paso a paso le guiará por el proceso de forma segura.  

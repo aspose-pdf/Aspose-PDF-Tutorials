@@ -18,6 +18,10 @@ nostri tutorial su sicurezza e autorizzazioni illustrano come proteggere i docum
 ## Tutorial disponibili
 
 
+{{< tutorial-card link="./encrypt-pdf-form-filling/" title="Crittografa PDF per consentire solo la compilazione dei moduli usando Aspose.Pdf per .NET" imgSrc="./encrypt-pdf-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-form-filling/" title="Crittografa PDF solo per la compilazione di moduli con AES‑256 usando Aspose.Pdf per .NET" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
+
 {{< tutorial-card link="./encrypt-pdf-no-print/" title="Cifra PDF senza permesso di stampa usando Aspose.PDF per .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [Cambia le password PDF con Aspose.PDF per .NET](./change-pdf-password-aspose-pdf-net-guide/)
 Un tutorial sul codice per Aspose.PDF Net

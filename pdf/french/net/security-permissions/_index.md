@@ -18,6 +18,10 @@ Nos tutoriels sur la sécurité et les autorisations expliquent comment protége
 ## Tutoriels disponibles
 
 
+{{< tutorial-card link="./encrypt-pdf-form-filling/" title="Chiffrer un PDF pour n'autoriser que le remplissage de formulaire avec Aspose.Pdf pour .NET" imgSrc="./encrypt-pdf-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-form-filling/" title="Chiffrer un PDF uniquement pour le remplissage de formulaires avec AES‑256 en utilisant Aspose.Pdf pour .NET" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
+
 {{< tutorial-card link="./encrypt-pdf-no-print/" title="Chiffrer un PDF sans autorisation d’impression avec Aspose.PDF for .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [Changer les mots de passe PDF avec Aspose.PDF pour .NET](./change-pdf-password-aspose-pdf-net-guide/)
 Un tutoriel de code pour Aspose.PDF Net

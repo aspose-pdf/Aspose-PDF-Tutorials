@@ -18,6 +18,10 @@ Biztonsági és jogosultságokkal foglalkozó oktatóanyagaink bemutatják, hogy
 ## Elérhető oktatóanyagok
 
 
+{{< tutorial-card link="./encrypt-pdf-form-filling/" title="PDF titkosítása, hogy csak űrlapkitöltés legyen engedélyezve az Aspose.Pdf for .NET használatával" imgSrc="./encrypt-pdf-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-form-filling/" title="PDF titkosítása kizárólag űrlapkitöltéshez AES‑256‑al az Aspose.Pdf for .NET használatával" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
+
 {{< tutorial-card link="./encrypt-pdf-no-print/" title="PDF titkosítása nyomtatás tiltásával az Aspose.PDF for .NET használatával" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [PDF jelszavak módosítása az Aspose.PDF for .NET segítségével](./change-pdf-password-aspose-pdf-net-guide/)
 Kód oktatóanyag az Aspose.PDF Nethez

@@ -30,6 +30,11 @@ pdfDoc.Save("encrypted.pdf");
 
 ## Available Tutorials
 
+{{< tutorial-card link="./encrypt-form-filling/" title="Encrypt PDF for Form‑Filling Only with AES‑256 Using Aspose.Pdf for .NET" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
+
+
+{{< tutorial-card link="./encrypt-pdf-form-filling/" title="Encrypt PDF to Allow Only Form Filling Using Aspose.Pdf for .NET" imgSrc="./encrypt-pdf-form-filling/images/thumb.png" >}}
+
 {{< tutorial-card link="./encrypt-pdf-no-print/" title="Encrypt PDF with No‑Print Permission Using Aspose.PDF for .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 
 

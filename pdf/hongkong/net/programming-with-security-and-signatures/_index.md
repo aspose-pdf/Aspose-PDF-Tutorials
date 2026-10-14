@@ -19,6 +19,9 @@
 本教學將為您詳細概述確保 PDF 文件的機密性和真實性的方法和技術。您將學習如何管理數位憑證、新增安全權限、應用程式安全性原則等。使用這些教程，您將能夠可靠、專業地保護您的 PDF 文件。
 
 ## 教學
+
+{{< tutorial-card link="./encrypt-pdf/" title="使用 Aspose.PDF for .NET 以使用者與擁有者密碼加密 PDF" imgSrc="./encrypt-pdf/images/thumb.png" >}}
+
 |標題 |描述 |
 | --- | --- | 
 | [更改 PDF 文件中的密碼](./change-password/) |學習使用 Aspose.PDF for .NET 輕鬆更改 PDF 密碼。我們的逐步指南將引導您安全地完成整個過程。 |  

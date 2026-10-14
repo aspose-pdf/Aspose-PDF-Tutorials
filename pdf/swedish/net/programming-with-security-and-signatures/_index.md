@@ -19,6 +19,9 @@ Handledningen Programmering med säkerhet och signaturer guidar dig genom säker
 Handledningen ger dig en detaljerad översikt över metoder och tekniker för att säkerställa dina PDF-filers konfidentialitet och äkthet. Du lär dig hur du hanterar digitala certifikat, lägger till säkerhetsbehörigheter, tillämpar säkerhetspolicyer och mer. Med hjälp av dessa handledningar kommer du att kunna säkra dina PDF-dokument på ett tillförlitligt och professionellt sätt.
 
 ## Handledningar
+
+{{< tutorial-card link="./encrypt-pdf/" title="Kryptera PDF med användar‑ och ägarlösenord med Aspose.PDF för .NET" imgSrc="./encrypt-pdf/images/thumb.png" >}}
+
 | Titel | Beskrivning |
 | --- | --- | 
 | [Ändra lösenord i PDF-fil](./change-password/) | Lär dig att enkelt ändra PDF-lösenord med Aspose.PDF för .NET. Vår steg-för-steg-guide guidar dig genom processen på ett säkert sätt. |  

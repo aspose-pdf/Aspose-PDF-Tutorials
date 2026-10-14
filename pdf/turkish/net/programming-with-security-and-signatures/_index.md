@@ -19,6 +19,9 @@ Güvenlik ve İmzalarla Programlama öğreticisi, PDF belgeleri için güvenlik 
 Eğitim, PDF dosyalarınızın gizliliğini ve gerçekliğini sağlamak için yöntemler ve teknikler hakkında ayrıntılı bir genel bakış sunar. Dijital sertifikaları nasıl yöneteceğinizi, güvenlik izinleri nasıl ekleyeceğinizi, güvenlik politikalarını nasıl uygulayacağınızı ve daha fazlasını öğreneceksiniz. Bu eğitimleri kullanarak PDF belgelerinizi güvenilir ve profesyonel bir şekilde güvence altına alabileceksiniz.
 
 ## Eğitimler
+
+{{< tutorial-card link="./encrypt-pdf/" title="Aspose.PDF for .NET kullanarak Kullanıcı ve Sahibi Parolalarıyla PDF Şifreleme" imgSrc="./encrypt-pdf/images/thumb.png" >}}
+
 | Başlık | Açıklama |
 | --- | --- | 
 | [PDF Dosyasında Şifreyi Değiştir](./change-password/) | Aspose.PDF for .NET kullanarak PDF şifrelerini kolayca değiştirmeyi öğrenin. Adım adım kılavuzumuz sizi güvenli bir şekilde bu süreçte yönlendirir. |  

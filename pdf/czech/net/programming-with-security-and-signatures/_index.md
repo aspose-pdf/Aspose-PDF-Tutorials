@@ -19,6 +19,9 @@ Kurz Programování se zabezpečením a podpisy vás provede funkcemi zabezpeče
 Tento tutoriál vám poskytne podrobný přehled metod a technik pro zajištění důvěrnosti a autenticity vašich PDF souborů. Naučíte se, jak spravovat digitální certifikáty, přidávat bezpečnostní oprávnění, používat bezpečnostní zásady a další. Pomocí těchto tutoriálů budete schopni spolehlivě a profesionálně zabezpečit své PDF dokumenty.
 
 ## Návody
+
+{{< tutorial-card link="./encrypt-pdf/" title="Zašifrujte PDF pomocí uživatelského a vlastnického hesla pomocí Aspose.PDF pro .NET" imgSrc="./encrypt-pdf/images/thumb.png" >}}
+
 | Název | Popis |
 | --- | --- | 
 | [Změna hesla v PDF souboru](./change-password/) | Naučte se snadno měnit hesla k PDF pomocí Aspose.PDF pro .NET. Náš podrobný návod vás bezpečně provede celým procesem. |  

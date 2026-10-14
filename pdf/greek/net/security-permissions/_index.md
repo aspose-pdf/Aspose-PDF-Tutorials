@@ -18,6 +18,10 @@
 ## Διαθέσιμα εκπαιδευτικά βίντεο
 
 
+{{< tutorial-card link="./encrypt-pdf-form-filling/" title="Κρυπτογράφηση PDF ώστε να επιτρέπεται μόνο η συμπλήρωση φορμών χρησιμοποιώντας Aspose.Pdf for .NET" imgSrc="./encrypt-pdf-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-form-filling/" title="Κρυπτογράφηση PDF μόνο για Συμπλήρωση Φορμών με AES‑256 χρησιμοποιώντας το Aspose.Pdf for .NET" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
+
 {{< tutorial-card link="./encrypt-pdf-no-print/" title="Κρυπτογράφηση PDF χωρίς δικαίωμα εκτύπωσης χρησιμοποιώντας Aspose.PDF for .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [Αλλαγή κωδικών πρόσβασης PDF με το Aspose.PDF για .NET](./change-pdf-password-aspose-pdf-net-guide/)
 Ένα σεμινάριο κώδικα για το Aspose.PDF Net

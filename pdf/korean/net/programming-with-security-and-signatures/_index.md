@@ -19,6 +19,9 @@
 이 튜토리얼은 PDF 파일의 기밀성과 신뢰성을 보장하는 방법과 기술을 자세히 설명합니다. 디지털 인증서 관리, 보안 권한 추가, 보안 정책 적용 방법 등을 배우게 됩니다. 이 튜토리얼을 통해 PDF 문서를 안정적이고 전문적으로 보호할 수 있습니다.
 
 ## 튜토리얼
+
+{{< tutorial-card link="./encrypt-pdf/" title="Aspose.PDF for .NET을 사용하여 사용자 및 소유자 비밀번호로 PDF 암호화" imgSrc="./encrypt-pdf/images/thumb.png" >}}
+
 | 제목 | 설명 |
 | --- | --- | 
 | [PDF 파일에서 비밀번호 변경](./change-password/) | Aspose.PDF for .NET을 사용하여 PDF 비밀번호를 쉽게 변경하는 방법을 알아보세요. 단계별 가이드를 통해 안전하게 변경 과정을 안내해 드립니다. |  
