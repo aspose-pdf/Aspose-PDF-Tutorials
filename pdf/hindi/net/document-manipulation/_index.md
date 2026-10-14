@@ -17,6 +17,8 @@
 
 ## उपलब्ध ट्यूटोरियल
 
+{{< tutorial-card link="./compare-pdfs/" title="Aspose.PDF for .NET का उपयोग करके PDF की तुलना करें और हाइलाइटेड डिफ़ दस्तावेज़ बनाएं।" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
 {{< tutorial-card link="./compare-pdf-forms/" title="Aspose.Pdf for .NET का उपयोग करके PDF फ़ॉर्म की तुलना करें और JSON एवं विज़ुअल डिफ़ उत्पन्न करें" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
 ### [.NET के लिए Aspose.PDF का उपयोग करके PDF में दिनांक और समय टिकट जोड़ें](./aspose-pdf-net-date-time-stamps-annotations/)
 जानें कि .NET के लिए Aspose.PDF का उपयोग करके अपने PDF दस्तावेज़ों में दिनांक और समय स्टैम्प या एनोटेशन को कुशलतापूर्वक कैसे जोड़ा जाए। इन आसान चरणों के साथ दस्तावेज़ प्रबंधन को बेहतर बनाएँ।

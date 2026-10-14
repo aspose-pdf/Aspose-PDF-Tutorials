@@ -17,6 +17,8 @@ Domine a manipulação de documentos PDF com nossos tutoriais detalhados do Aspo
 
 ## Tutoriais disponíveis
 
+{{< tutorial-card link="./compare-pdfs/" title="Compare PDFs e Gere um Documento Diff Destacado Usando Aspose.PDF para .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
 {{< tutorial-card link="./compare-pdf-forms/" title="Compare Formulários PDF e Gere JSON & Diff Visual Usando Aspose.Pdf para .NET" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
 ### [Adicionar carimbos de data e hora a PDFs usando Aspose.PDF para .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 Aprenda a adicionar carimbos de data e hora ou anotações aos seus documentos PDF com eficiência usando o Aspose.PDF para .NET. Aprimore o gerenciamento de documentos com estas etapas fáceis de seguir.

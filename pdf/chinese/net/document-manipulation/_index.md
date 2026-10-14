@@ -17,6 +17,8 @@
 
 ## 可用教程
 
+{{< tutorial-card link="./compare-pdfs/" title="使用 Aspose.PDF for .NET 比较 PDF 并生成带高亮的 Diff 文档" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
 {{< tutorial-card link="./compare-pdf-forms/" title="使用 Aspose.Pdf for .NET 比较 PDF 表单并生成 JSON 与可视化差异。" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
 ### [使用 Aspose.PDF for .NET 为 PDF 添加日期和时间戳](./aspose-pdf-net-date-time-stamps-annotations/)
 了解如何使用 Aspose.PDF for .NET 高效地将日期、时间戳或注释添加到 PDF 文档中。通过这些简单易懂的步骤，增强文档管理。

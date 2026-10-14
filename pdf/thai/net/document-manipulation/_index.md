@@ -17,6 +17,8 @@
 
 ## บทช่วยสอนที่พร้อมใช้งาน
 
+{{< tutorial-card link="./compare-pdfs/" title="เปรียบเทียบ PDF และสร้างเอกสาร Diff ที่เน้นด้วย Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
 {{< tutorial-card link="./compare-pdf-forms/" title="เปรียบเทียบฟอร์ม PDF และสร้าง JSON & การเปรียบต่างแบบภาพโดยใช้ Aspose.Pdf for .NET" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
 ### [เพิ่มวันที่และเวลาลงใน PDF โดยใช้ Aspose.PDF สำหรับ .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 เรียนรู้วิธีการเพิ่มวันที่และเวลาหรือคำอธิบายประกอบลงในเอกสาร PDF อย่างมีประสิทธิภาพโดยใช้ Aspose.PDF สำหรับ .NET ปรับปรุงการจัดการเอกสารด้วยขั้นตอนที่ทำตามได้ง่ายเหล่านี้

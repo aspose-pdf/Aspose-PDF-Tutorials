@@ -17,6 +17,8 @@ Domine la manipulación de documentos PDF con nuestros detallados tutoriales de 
 
 ## Tutoriales disponibles
 
+{{< tutorial-card link="./compare-pdfs/" title="Compare PDFs y genere un documento de diferencias resaltado usando Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
 {{< tutorial-card link="./compare-pdf-forms/" title="Compare formularios PDF y genere JSON y diferencia visual usando Aspose.Pdf para .NET" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
 ### [Agregar marcas de fecha y hora a archivos PDF con Aspose.PDF para .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 Aprenda a agregar marcas de fecha y hora o anotaciones de forma eficiente a sus documentos PDF con Aspose.PDF para .NET. Mejore la gestión de documentos con estos sencillos pasos.

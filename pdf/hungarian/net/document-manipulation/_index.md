@@ -17,6 +17,8 @@ Sajátítsa el a PDF dokumentumok manipulálásának mesteri szintjét részlete
 
 ## Elérhető oktatóanyagok
 
+{{< tutorial-card link="./compare-pdfs/" title="PDF-ek összehasonlítása és kiemelt diff dokumentum generálása az Aspose.PDF for .NET használatával" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
 {{< tutorial-card link="./compare-pdf-forms/" title="PDF űrlapok összehasonlítása és JSON & vizuális diff generálása az Aspose.Pdf for .NET használatával" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
 ### [Dátum- és időbélyegek hozzáadása PDF-ekhez az Aspose.PDF for .NET használatával](./aspose-pdf-net-date-time-stamps-annotations/)
 Ismerje meg, hogyan adhat hatékonyan dátum- és időbélyegeket vagy megjegyzéseket PDF-dokumentumaihoz az Aspose.PDF for .NET segítségével. Javítsa dokumentumkezelését ezekkel a könnyen követhető lépésekkel.
