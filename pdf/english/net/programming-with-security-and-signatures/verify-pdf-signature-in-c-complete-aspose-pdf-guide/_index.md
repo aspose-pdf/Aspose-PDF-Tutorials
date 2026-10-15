@@ -255,6 +255,22 @@ class Program
                 // Advanced info (may be null if not present)
                 var info = signatureHandler.GetVerificationInfo(name);
 
+                Console.WriteLine($"{name}: valid={isValid}, compromised={isCompromised}");
+                if (info != null)
+                {
+                    Console.WriteLine($"  Signer: {info.SignerName}");
+                    Console.WriteLine($"  Signing time: {info.SigningTime}");
+                    Console.WriteLine($"  Certificate thumbprint: {info.Certificate.Thumbprint}");
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"An error occurred: {ex.Message}");
+        }
+    }
+}
+```
 
 ## What Should You Learn Next?
 

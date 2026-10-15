@@ -262,7 +262,18 @@ namespace PdfToPngDemo
 
             try
             {
-
+                string outputFile = System.IO.Path.Combine(outputFolder, "page1.png");
+                PdfToPngConverter.ConvertPageToPng(pdfFile, outputFile, 1, 300);
+                Console.WriteLine($"Conversion complete. Saved to {outputFile}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred: {ex.Message}");
+            }
+        }
+    }
+}
+```
 
 ## 다음에 배워야 할 내용은?
 
