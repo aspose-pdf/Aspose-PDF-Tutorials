@@ -32,6 +32,7 @@ Aspose.PDF for .NET 上的“使用链接和操作进行编程”教程页面为
 | [查看时指定页面](./specify-page-when-viewing/) 了解如何使用 Aspose.PDF for .NET 指定 PDF 中要查看的页面。本指南简单易懂，助您提升导航体验。|  
 | [更新 PDF 文件中的链接](./update-links/) 了解如何使用 Aspose.PDF for .NET 更新 PDF 文件中的链接文本颜色。本指南将通过简单易懂的示例，逐步讲解每个细节。|  
 | [更新 PDF 文件中的链接文本颜色](./update-link-text-color/) 使用 Aspose.PDF for .NET，按照这份全面的分步指南轻松更新 PDF 文件中的链接。简化您的 PDF 编辑。|  
+| [在 C# 中创建 PDF 超链接 – 步骤指南](./create-pdf-hyperlink-in-c-step-by-step-guide/) 了解如何使用 Aspose.PDF for .NET 在 C# 中创建 PDF 超链接的完整步骤，提升文档交互性。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

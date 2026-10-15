@@ -1,0 +1,18 @@
+//ExStart
+//ExSummary: Этот учебник демонстрирует, как разделить PDF‑документ после десятой страницы с использованием библиотеки Aspose.Pdf for .NET.
+//ExStepSummary:0: В заголовочных комментариях объясняется цель примера, отмечается, что полный код был перемещён, и предоставлена ссылка на актуальный источник.
+//ExStepSummary:1: Эта заглушка не выполняет никаких действий и существует только для того, чтобы оригинальный URL оставался рабочим.
+//ExStep:0-
+// PERMANENT LINK PLACEHOLDER
+//
+// Demonstrates splitting a PDF after the tenth page
+//
+// The full example has been merged or relocated. Updated source can be found at:
+//   https://github.com/aspose-pdf/agentic-net-examples/blob/main/basic-operations/split-pdf-at-page-10.cs
+//
+// This placeholder preserves the original link for legacy references, SEO, and blog citations. Consult the address above for the up‑to‑date code.
+
+
+//ExStep:1-
+        // No operation – this stub exists solely to keep the original URL functional.
+//ExEnd

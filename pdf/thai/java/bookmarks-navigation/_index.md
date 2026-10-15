@@ -7,19 +7,12 @@ url: /th/java/bookmarks-navigation/
 weight: 14
 ---
 
-? The instruction: translate all text content naturally to Thai. So translate "Last Updated", "Tested With", "Author". Keep values.
 
-So:
 
-**อัปเดตล่าสุด:** 2026-02-27  
-**ทดสอบด้วย:** Aspose.PDF for Java 24.12  
-**ผู้เขียน:** Aspose  
 
-Then closing shortcodes.
 
-Now produce final content with same markdown.
 
-Let's construct.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

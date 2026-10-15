@@ -20,6 +20,7 @@ La página del tutorial "Programación con enlaces y acciones" de Aspose.PDF par
 | Título | Descripción |
 | --- | --- | 
 | [Agregar hipervínculo en un archivo PDF](./add-hyperlink/) Aprenda a agregar fácilmente hipervínculos a sus archivos PDF con Aspose.PDF para .NET. Mejore la interactividad y la interacción del usuario con sus documentos.  
+| [Crear hipervínculo PDF en C# – Guía paso a paso](./create-pdf-hyperlink-in-c-step-by-step-guide/) Aprenda a crear hipervínculos en archivos PDF usando C# y Aspose.PDF con esta guía paso a paso.  
 | [Crear un enlace de aplicación en un archivo PDF](./create-application-link/) Aprenda a crear enlaces de aplicaciones en archivos PDF con Aspose.PDF para .NET. Guía paso a paso para mejorar la interactividad de sus archivos PDF.  
 | [Crear enlace de documento](./create-document-link/) Descubra cómo crear enlaces a documentos PDF con Aspose.PDF para .NET. Mejore la navegación y la interactividad en sus documentos PDF.  
 | [Crear un hipervínculo local en un archivo PDF](./create-local-hyperlink/) | Aprenda a crear hipervínculos locales en archivos PDF usando Aspose.PDF para .NET sin esfuerzo con nuestra guía paso a paso. |  

@@ -1,0 +1,7 @@
+Title: Edit PDF Resource Dictionary with Aspose.PDF – C# Guide
+Slug: edit-pdf-resource-dictionary-with-aspose-pdf-c-guide
+Category: programming-with-operators
+ProcessedDate: 2026-07-20T14:49:15.964486
+SourceRepo: AI Search API
+Keywords: edit pdf resource dictionary
+PRNumber: 106

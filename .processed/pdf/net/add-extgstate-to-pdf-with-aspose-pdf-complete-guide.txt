@@ -1,0 +1,7 @@
+Title: Add ExtGState to PDF with Aspose.Pdf – Complete Guide
+Slug: add-extgstate-to-pdf-with-aspose-pdf-complete-guide
+Category: images-graphics
+ProcessedDate: 2026-07-07T10:16:21.070275
+SourceRepo: AI Search API
+Keywords: add extgstate to pdf
+PRNumber: 101

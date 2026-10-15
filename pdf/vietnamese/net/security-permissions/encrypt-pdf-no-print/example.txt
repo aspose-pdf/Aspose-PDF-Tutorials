@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: Hướng dẫn này trình bày cách mở một tệp PDF hiện có bằng Aspose.Pdf, áp dụng mã hóa AES‑256 mà không cấp bất kỳ quyền nào (điều này vô hiệu hoá việc in), lưu tệp được bảo vệ và xác minh mã hóa bằng mật khẩu xem.
+//ExStepSummary:0: Xác định đường dẫn PDF nguồn, tên tệp đầu ra được bảo vệ, và mật khẩu xem và mật khẩu chủ sở hữu.
+//ExStepSummary:1: Kiểm tra xem tệp nguồn có tồn tại hay không và hủy thực hiện kèm thông báo lỗi nếu thiếu.
+//ExStepSummary:2: Mở PDF gốc, không đặt quyền nào, mã hóa nó bằng AES‑256 sử dụng các mật khẩu đã chỉ định, và lưu tệp được bảo vệ.
+//ExStepSummary:3: Mở lại PDF đã mã hóa bằng mật khẩu xem và ghi cờ IsEncrypted của nó ra console để xác nhận việc bảo vệ.
+//ExStepSummary:4: In ra thông báo cuối cùng cho biết việc mã hóa đã hoàn tất và tên tệp đầu ra.
+//ExStep:0-
+const string sourceFile = "original.pdf";
+const string securedFile = "protected.pdf";
+const string viewerPwd = "viewerPwd123";
+const string masterPwd = "masterPwd123";
+
+//ExStep:1-
+if (!File.Exists(sourceFile))
+{
+    Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+    return;
+}
+
+//ExStep:2-
+using (Document pdfDoc = new Document(sourceFile))
+{
+    Permissions rights = 0;
+    pdfDoc.Encrypt(viewerPwd, masterPwd, rights, CryptoAlgorithm.AESx256);
+    pdfDoc.Save(securedFile);
+}
+
+//ExStep:3-
+using (Document checkDoc = new Document(securedFile, viewerPwd))
+{
+    Console.WriteLine($"Encrypted flag: {checkDoc.IsEncrypted}");
+}
+
+//ExStep:4-
+Console.WriteLine($"Encryption finished. Output saved as '{securedFile}'.");
+//ExEnd

@@ -12,9 +12,7 @@ url: /cs/java/advanced-features/validate-pdf-accessibility-aspose-java/
 weight: 1
 ---
 
- Also keep shortcodes.
 
-Let's produce final markdown.
 
 {{< blocks/products/pf/main-wrap-class >}}
 
