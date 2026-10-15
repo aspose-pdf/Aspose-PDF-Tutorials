@@ -231,8 +231,44 @@ namespace PdfRepairFullDemo
                     // Fine‑tune repair behavior.
                     doc.RepairOptions = new RepairOptions
                     {
-                        Enable
+                        EnableStrictMode = true,
+                        RemoveUnusedObjects = true
+                    };
 
+                    doc.Repair();
+                    doc.Save(outputPath);
+
+                    Console.WriteLine($"🚀 Repair complete! Repaired file saved to: {outputPath}");
+                }
+
+                IsPdfValid(outputPath);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"❌ Unable to repair the PDF: {ex.Message}");
+            }
+
+            bool IsPdfValid(string path)
+            {
+                try
+                {
+                    using (Document validateDoc = new Document(path))
+                    {
+                        int pageCount = validateDoc.Pages.Count;
+                        Console.WriteLine($"✅ PDF is valid – contains {pageCount} page(s).");
+                        return true;
+                    }
+                }
+                catch
+                {
+                    Console.WriteLine("❌ PDF still appears corrupted.");
+                    return false;
+                }
+            }
+        }
+    }
+}
+```
 
 ## Wat moet je hierna leren?
 
