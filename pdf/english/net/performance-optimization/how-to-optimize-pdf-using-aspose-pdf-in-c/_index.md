@@ -53,7 +53,7 @@ tags:
 - PDF optimization
 - C#
 - Aspose.Pdf
-title: How to optimize PDF using Aspose.Pdf in C#
+title: How to compress and optimize PDF using Aspose.Pdf in C#
 url: /net/performance-optimization/how-to-optimize-pdf-using-aspose-pdf-in-c/
 ---
 
@@ -235,17 +235,17 @@ You now know **how to optimize PDF** files using Aspose.Pdf for .NET. By loading
 
 Happy coding, and enjoy lighter PDFs!
 
+## What should you learn next?
 
-## What Should You Learn Next?
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
-
-- [How to Optimize PDF in C# – Reduce File Size Quickly](/pdf/english/net/performance-optimization/how-to-optimize-pdf-in-c-reduce-file-size-quickly/)
-- [Optimize PDF Images – Reduce PDF File Size with C#](/pdf/english/net/performance-optimization/optimize-pdf-images-reduce-pdf-file-size-with-c/)
-- [Fast Image Shrinking in PDFs with Aspose.PDF .NET: Optimize and Compress Images Efficiently](/pdf/english/net/images-graphics/optimize-pdf-images-aspose-net-fast-compression/)
+- [How to Optimize PDF in C# – Reduce File Size Quickly]({{< relref "/pdf/english/net/performance-optimization/how-to-optimize-pdf-in-c-reduce-file-size-quickly/" >}})
+- [Optimize PDF Images – Reduce PDF File Size with C#]({{< relref "/pdf/english/net/performance-optimization/optimize-pdf-images-reduce-pdf-file-size-with-c/" >}})
+- [Fast Image Shrinking in PDFs with Aspose.PDF .NET: Optimize and Compress Images Efficiently]({{< relref "/pdf/english/net/images-graphics/optimize-pdf-images-aspose-net-fast-compression/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
+{{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

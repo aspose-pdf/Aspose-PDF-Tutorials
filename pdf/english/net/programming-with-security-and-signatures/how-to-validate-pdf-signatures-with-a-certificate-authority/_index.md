@@ -48,7 +48,7 @@ tags:
 - PDF
 - C#
 - Digital signature
-title: How to validate PDF signatures with a Certificate Authority in C#
+title: Validate PDF signatures with a Certificate Authority using GroupDocs.Signature for C#
 url: /net/programming-with-security-and-signatures/how-to-validate-pdf-signatures-with-a-certificate-authority/
 ---
 
@@ -250,16 +250,15 @@ In this guide we covered **how to validate pdf** files that contain digital sign
 
 Feel free to experiment with different CAs, custom trust stores, or alternative libraries. Accurate PDF signature validation is a cornerstone of secure document workflows—now you have the tools to implement it confidently.
 
+## What should you learn next?
 
-## What Should You Learn Next?
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
+- [How to Verify PDF Signature in C# – Complete Guide]({{< relref "/pdf/english/net/programming-with-security-and-signatures/how-to-verify-pdf-signature-in-c-complete-guide/" >}})
+- [How to Use OCSP to Validate PDF Digital Signature in C#]({{< relref "/pdf/english/net/programming-with-security-and-signatures/how-to-use-ocsp-to-validate-pdf-digital-signature-in-c/" >}})
+- [Validate PDF Signature in C# – Step‑by‑Step Guide]({{< relref "/pdf/english/net/programming-with-security-and-signatures/validate-pdf-signature-in-c-step-by-step-guide/" >}})
 
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
-
-- [How to Verify PDF Signature in C# – Complete Guide](/pdf/english/net/programming-with-security-and-signatures/how-to-verify-pdf-signature-in-c-complete-guide/)
-- [How to Use OCSP to Validate PDF Digital Signature in C#](/pdf/english/net/programming-with-security-and-signatures/how-to-use-ocsp-to-validate-pdf-digital-signature-in-c/)
-- [Validate PDF Signature in C# – Step‑by‑Step Guide](/pdf/english/net/programming-with-security-and-signatures/validate-pdf-signature-in-c-step-by-step-guide/)
-
+{{< blocks/products/pf/backtop-button >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

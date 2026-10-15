@@ -30,7 +30,7 @@ tags:
 - PDF conversion
 - C#
 - PDF/X-4
-title: Load pdf document and convert to PDF/X‑4 with Aspose.PDF
+title: Load PDF document and convert to PDF/X‑4 using Aspose.PDF for .NET
 url: /net/document-conversion/load-pdf-document-and-convert-to-pdf-x-4-with-aspose-pdf/
 ---
 
@@ -38,7 +38,7 @@ url: /net/document-conversion/load-pdf-document-and-convert-to-pdf-x-4-with-aspo
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# Load pdf document and convert to PDF/X‑4 with Aspose.PDF
+# Load PDF document and convert to PDF/X‑4 using Aspose.PDF for .NET
 
 If you need to **load pdf document** and transform it into a PDF/X‑4 file, this guide shows you exactly how to do it. You’ll see a complete, runnable example that converts pdf programmatically, so you can integrate the logic into any C# application.
 
@@ -204,9 +204,7 @@ The file is a valid PDF/X‑4 document.
 
 If the source PDF contains unsupported features, the validation step will report
 
-
-## What Should You Learn Next?
-
+## What should you learn next?
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
@@ -218,3 +216,4 @@ The following tutorials cover closely related topics that build on the technique
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}

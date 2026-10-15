@@ -28,7 +28,7 @@ tags:
 - Aspose.Pdf
 - C#
 - PDF manipulation
-title: How to add rectangle to PDF in C# with Aspose.Pdf
+title: How to add a rectangle to a PDF in C# using Aspose.Pdf
 url: /net/images-graphics/how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf/
 ---
 
@@ -36,7 +36,7 @@ url: /net/images-graphics/how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to add rectangle to PDF in C# with Aspose.Pdf
+# How to add a rectangle to a PDF in C# using Aspose.Pdf
 
 If you need to **add rectangle to PDF** in a C# application, this guide shows the exact steps. You will load a PDF document, access the first page, create a rectangle shape, and write the changes back to disk. The solution works with Aspose.Pdf .NET 2024‑R2 and requires no external tools.
 
@@ -207,11 +207,9 @@ These variations illustrate how the **add graphics pdf c#** approach scales beyo
 
 You now know how to **add rectangle to PDF** in C# by loading a
 
+## What should you learn next?
 
-## What Should You Learn Next?
-
-
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
 - [Create PDF Document in C# – Add Page to PDF & Rectangle](/pdf/english/net/programming-with-pdf-pages/create-pdf-document-in-c-add-page-to-pdf-rectangle/)
 - [Create PDF Document C# – Add Blank Page & Draw Rectangle](/pdf/english/net/document-creation/create-pdf-document-c-add-blank-page-draw-rectangle/)
@@ -219,5 +217,5 @@ The following tutorials cover closely related topics that build on the technique
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

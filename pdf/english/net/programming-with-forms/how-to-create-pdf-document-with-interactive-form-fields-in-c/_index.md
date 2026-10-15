@@ -43,7 +43,7 @@ tags:
 - Aspose.Pdf
 - C#
 - PDF forms
-title: How to create PDF document with interactive form fields in C#
+title: How to create PDF document with interactive form fields in C# using Aspose.Pdf
 url: /net/programming-with-forms/how-to-create-pdf-document-with-interactive-form-fields-in-c/
 ---
 
@@ -51,7 +51,7 @@ url: /net/programming-with-forms/how-to-create-pdf-document-with-interactive-for
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to create PDF document with interactive form fields in C#
+# How to create PDF document with interactive form fields in C# using Aspose.Pdf
 
 If you need to **create PDF document** that contains multiple pages and an interactive form, this guide shows you exactly how. We'll walk through adding pages to PDF, building an AcroForm, and placing a TextBox field on each page using Aspose.Pdf for .NET.
 
@@ -215,17 +215,15 @@ Explore the official Aspose.Pdf documentation for a full list of form field type
 
 *You have learned how to **create PDF document**, **add pages to PDF**, **create interactive PDF form**, **how to add textbox to PDF**, and **how to create AcroForm PDF** using a concise, runnable example. Feel free to experiment with additional field types and layout tweaks to suit your application's needs.*
 
-
-## What Should You Learn Next?
-
+## What should you learn next?
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to Create PDF with Aspose – Add Form Field and Pages](/pdf/english/net/programming-with-forms/how-to-create-pdf-with-aspose-add-form-field-and-pages/)
-- [How to Add Text Box PDF – Create PDF Form Field & Save Edited PDF Document](/pdf/english/net/programming-with-forms/how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/)
-- [Create PDF Document with Aspose – Add Page, Text Box, and Form](/pdf/english/net/forms-annotations/create-pdf-document-with-aspose-add-page-text-box-and-form/)
+- [How to Create PDF with Aspose – Add Form Field and Pages]({{< relref "/pdf/english/net/programming-with-forms/how-to-create-pdf-with-aspose-add-form-field-and-pages/" >}})
+- [How to Add Text Box PDF – Create PDF Form Field & Save Edited PDF Document]({{< relref "/pdf/english/net/programming-with-forms/how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/" >}})
+- [Create PDF Document with Aspose – Add Page, Text Box, and Form]({{< relref "/pdf/english/net/forms-annotations/create-pdf-document-with-aspose-add-page-text-box-and-form/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

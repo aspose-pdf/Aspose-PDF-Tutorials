@@ -29,7 +29,7 @@ tags:
 - OpenAI
 - C#
 - PDF processing
-title: How to initialize OpenAI client and summarize PDF with AI
+title: How to initialize OpenAI client with Aspose.Pdf.AI and summarize PDF with AI
 url: /net/document-creation/how-to-initialize-openai-client-and-summarize-pdf-with-ai/
 ---
 
@@ -202,9 +202,7 @@ Next, you might explore:
 
 Feel free to experiment with temperature values, custom prompts, or multilingual summaries to tailor the output to your specific domain. Happy coding!
 
-
-## What Should You Learn Next?
-
+## What should you learn next?
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
@@ -214,5 +212,5 @@ The following tutorials cover closely related topics that build on the technique
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

@@ -29,7 +29,7 @@ tags:
 - Aspose.PDF
 - C#
 - PDF processing
-title: Add bates numbering to PDF using Aspose.PDF in C#
+title: How to add bates numbering to PDF using Aspose.PDF in C#
 url: /net/programming-with-text/add-bates-numbering-to-pdf-using-aspose-pdf-in-c/
 ---
 
@@ -207,11 +207,9 @@ From here you can explore related topics such as **adding watermarks**, **mergin
 
 Ready to automate your legal document workflow? Add the code to your build pipeline, run it against batches of files, and let Aspose.PDF handle the heavy lifting. Happy coding!
 
+## What should you learn next?
 
-## What Should You Learn Next?
-
-
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
 - [Create PDF Document C# – Add Bates Numbering](/pdf/english/net/programming-with-pdf-pages/create-pdf-document-c-add-bates-numbering/)
 - [Add Bates Numbering PDF – Step‑by‑Step Guide to Number PDF Pages](/pdf/english/net/programming-with-pdf-pages/add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/)
@@ -219,5 +217,6 @@ The following tutorials cover closely related topics that build on the technique
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}

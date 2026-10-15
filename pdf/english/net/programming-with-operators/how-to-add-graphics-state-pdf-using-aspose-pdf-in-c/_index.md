@@ -30,7 +30,7 @@ tags:
 - Aspose.PDF
 - C#
 - PDF manipulation
-title: How to add graphics state pdf using Aspose.PDF in C#
+title: Add graphics state to PDF using Aspose.PDF for .NET (C#)
 url: /net/programming-with-operators/how-to-add-graphics-state-pdf-using-aspose-pdf-in-c/
 ---
 
@@ -195,17 +195,15 @@ Feel free to experiment with different opacity values, blend modes, and resource
 
 ---
 
+## What should you learn next?
 
-## What Should You Learn Next?
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
-
-- [How to Add Stamp to PDF with Aspose.Pdf – Step‑by‑Step Guide](/pdf/english/net/programming-with-stamps-and-watermarks/how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/)
-- [How to Add Images to PDFs Using Aspose.PDF for .NET&#58; A Step-by-Step Guide](/pdf/english/net/images-graphics/add-images-to-pdfs-aspose-pdf-net/)
-- [How to Remove Graphics from PDFs Using Aspose.PDF .NET&#58; A Complete Guide](/pdf/english/net/images-graphics/remove-graphics-aspose-pdf-net/)
+- [How to Add Stamp to PDF with Aspose.Pdf – Step‑by‑Step Guide]([{{< relref "pdf/english/net/programming-with-stamps-and-watermarks/how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/_index.md" >}}])
+- [How to Add Images to PDFs Using Aspose.PDF for .NET: A Step‑By‑Step Guide]([{{< relref "pdf/english/net/images-graphics/add-images-to-pdfs-aspose-pdf-net/_index.md" >}}])
+- [How to Remove Graphics from PDFs Using Aspose.PDF .NET: A Complete Guide]([{{< relref "pdf/english/net/images-graphics/remove-graphics-aspose-pdf-net/_index.md" >}}])
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
-{{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-wrap-class >}}
