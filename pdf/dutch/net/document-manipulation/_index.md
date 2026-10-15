@@ -347,6 +347,8 @@ Leer hoe u PDF-lagen kunt flatten, exporteren en extraheren met Aspose.PDF voor 
 
 ### [Visuele PDF-verschil in C# – Complete gids om twee PDF's te vergelijken](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
 Leer hoe u met Aspose.PDF voor .NET twee PDF-bestanden visueel kunt vergelijken en verschillen kunt identificeren.
+### [Hoe PDF-bestanden te repareren met Aspose.PDF – Complete gids](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
+Leer hoe u beschadigde PDF-bestanden kunt herstellen met Aspose.PDF in .NET via stapsgewijze codevoorbeelden en best practices.
 
 ## Aanvullende bronnen
 

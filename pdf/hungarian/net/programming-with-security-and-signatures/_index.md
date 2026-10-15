@@ -66,6 +66,7 @@ Az oktatóanyag részletes áttekintést nyújt a PDF-fájlok titkosságának é
 | [Bates számozás hozzáadása PDF-hez – Teljes C# útmutató aláírással és konvertálással](./add-bates-numbering-pdf-complete-c-guide-with-signing-conver/) | Ismerje meg, hogyan adhat hozzá Bates-számozást PDF-hez, aláírja és konvertálja C#-ban az Aspose.PDF for .NET használatával. |
 | [PDF aláírás ellenőrzése C#-ban – Teljes Aspose.PDF útmutató](./verify-pdf-signature-in-c-complete-aspose-pdf-guide/) | Ismerje meg, hogyan ellenőrizheti a PDF-aláírásokat C#-ban az Aspose.PDF for .NET segítségével ebben a részletes útmutatóban. |
 | [PDF aláírások lekérése C#-ban – Teljes programozási útmutató](./retrieve-pdf-signatures-in-c-complete-programming-guide/) | Ismerje meg, hogyan kérheti le a PDF dokumentumok digitális aláírásait C#-ban az Aspose.PDF for .NET segítségével. |
+| [PDF digitális aláírás ellenőrzése C#-ban – Teljes útmutató](./how-to-check-pdf-digital-signature-in-c-complete-guide/) | Ismerje meg, hogyan ellenőrizheti a PDF digitális aláírásait C#-ban az Aspose.PDF for .NET segítségével, lépésről lépésre útmutató. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

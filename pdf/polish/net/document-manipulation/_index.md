@@ -274,7 +274,7 @@ Naucz się integrować LaTeX z plikami PDF za pomocą Aspose.PDF dla .NET. Uleps
 Samouczek dotyczący kodu dla Aspose.PDF Net
 
 ### [Opanowanie dynamicznych nagłówków PDF z tabelami i obrazami przy użyciu Aspose.PDF .NET](./dynamic-pdf-headers-tables-images-aspose-pdf/)
-Dowiedz się, jak tworzyć dynamiczne nagłówki PDF zawierające tabele i obrazy za pomocą Aspose.PDF dla platformy .NET. Ulepsz wygląd swojego dokumentu bez wysiłku.
+Dowiedz się, jak tworzyć dynamiczne nagłówki PDF zawierające tabele i obrazy za pomocą Aspose.PDF dla .NET. Ulepsz wygląd swojego dokumentu bez wysiłku.
 
 ### [Opanowanie łączenia plików PDF za pomocą Aspose.PDF dla .NET: kompleksowy przewodnik](./mastering-pdf-concatenation-aspose-net-guide/)
 Dowiedz się, jak bezproblemowo łączyć wiele plików PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje konfigurację, łączenie i obsługę uszkodzonych plików.
@@ -328,6 +328,8 @@ Dowiedz się, jak dzielić wielostronicowe pliki PDF i tworzyć nowe pliki PDF z
 Dowiedz się, jak spłaszczyć warstwy w plikach PDF i wyeksportować je przy użyciu Aspose.PDF w C#.
 ### [Scalanie warstw PDF w C# – Jak połączyć warstwy PDF](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
 Dowiedz się, jak łączyć warstwy w plikach PDF przy użyciu Aspose.PDF dla .NET w języku C#.
+### [Jak naprawić pliki PDF za pomocą Aspose.Pdf – Kompletny przewodnik](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
+Dowiedz się, jak naprawić uszkodzone pliki PDF przy użyciu Aspose.Pdf w .NET, krok po kroku, z przykładami kodu.
 
 ### [Jak spłaszczyć PDF za pomocą Aspose.PDF – Kompletny przewodnik](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
 Dowiedz się, jak spłaszczyć plik PDF, usuwając warstwy i zachowując wygląd, korzystając z Aspose.PDF w pełnym przewodniku.

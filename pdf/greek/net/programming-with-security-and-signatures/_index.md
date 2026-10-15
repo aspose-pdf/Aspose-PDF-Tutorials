@@ -64,6 +64,7 @@
 | [Προσθήκη αριθμητικής Bates σε PDF – Πλήρης οδηγός C# με υπογραφή & μετατροπή](./add-bates-numbering-pdf-complete-c-guide-with-signing-conver/) | Μάθετε πώς να προσθέτετε αριθμητική Bates σε PDF, να υπογράφετε και να μετατρέπετε έγγραφα χρησιμοποιώντας το Aspose.PDF για .NET. |
 | [Ανάκτηση υπογραφών PDF σε C# – Πλήρης προγραμματιστικός οδηγός](./retrieve-pdf-signatures-in-c-complete-programming-guide/) | Μάθετε πώς να ανακτάτε υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF σε έναν πλήρη οδηγό βήμα προς βήμα. |  
 | [Επαλήθευση υπογραφής PDF σε C# – Πλήρης οδηγός Aspose.PDF](./verify-pdf-signature-in-c-complete-aspose-pdf-guide/) | Μάθετε πώς να επαληθεύσετε υπογραφές PDF σε C# με έναν πλήρη οδηγό Aspose.PDF. |  
+| [Πώς να ελέγξετε την ψηφιακή υπογραφή PDF σε C# – Πλήρης οδηγός](./how-to-check-pdf-digital-signature-in-c-complete-guide/) | Μάθετε πώς να ελέγξετε ψηφιακές υπογραφές PDF σε C# με πλήρη οδηγό και Aspose.PDF. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

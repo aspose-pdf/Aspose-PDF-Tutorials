@@ -73,7 +73,7 @@ C#でAspose.PDFを使用してPDF内のフィールドを効率的にコピー�
 Aspose.PDF for .NETのN-Up機能を使って、複数のPDFファイルを1つに結合する方法を学びましょう。この包括的なガイドに従って、ドキュメント処理を効率化しましょう。
 
 ### [Aspose.PDF を使用して .NET で N-Up ページを作成する: 包括的なガイド](./create-n-up-pages-aspose-pdf-dotnet/)
-Aspose.PDF for .NET を使って、単一ページから複数ページ（N-Up）の PDF ドキュメントを作成する方法を学びましょう。ドキュメント処理ワークフローを効率的に合理化します。
+Aspose.PDF for .NET を使って、単一ページから�数ページ（N-Up）の PDF ドキュメントを作成する方法を学びましょう。ドキュメント処理ワークフローを効率的に合理化します。
 
 ### [Aspose.PDF .NET で N-up PDF レイアウトを作成する](./create-nup-pdf-layout-aspose-pdf-net/)
 Aspose.PDF Net のコードチュートリアル
@@ -349,6 +349,9 @@ Aspose.PDF for .NET を使用して、2つの PDF ドキュメントを比較し
 
 ### [C# で PDF レイヤーを結合する – PDF レイヤーの結合方法](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
 Aspose.PDF for .NET を使用して、PDF ドキュメント内の複数レイヤーを統合し、単一のレイヤーにまとめる方法を学びます。
+
+### [Aspose.PDF を使用して PDF ファイルを修復する方法 – 完全ガイド](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
+Aspose.PDF を使って破損した PDF を修復し、正常に開く手順をステップバイステップで解説します。
 
 ## 追加リソース
 

@@ -283,6 +283,10 @@ Hướng dẫn đầy đủ cách chuyển đổi tệp DOCX sang HTML bằng C#
 
 ### [Chuyển đổi PDF sang HTML trong C# – Hướng dẫn đầy đủ từng bước](./convert-pdf-to-html-in-c-full-step-by-step-guide/)
 Tìm hiểu cách chuyển đổi PDF sang HTML trong C# bằng Aspose.PDF với hướng dẫn chi tiết từng bước, bao gồm cấu hình và ví dụ mã.
+### [Aspose PDF sang HTML: Hướng dẫn toàn diện để chuyển đổi PDF và loại bỏ hình ảnh](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu PDF sang HTML và loại bỏ hình ảnh để giảm kích thước tệp.
+
+### [Cách render các trang PDF thành hình ảnh PNG – hướng dẫn đầy đủ Aspose.PDF](./how-to-render-pdf-pages-as-png-images-complete-aspose-pdf-gu/)
 
 ## Tài nguyên bổ sung
 

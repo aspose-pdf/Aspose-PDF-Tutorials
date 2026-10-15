@@ -34,7 +34,7 @@ Os tutoriais incluem instruções passo a passo, exemplos de código detalhados 
 
 | Título | Descrição |
 | --- | --- | 
-| [Mudança de Orientação](./change-orientation/) | Guia passo a passo para alterar a orientação da página de um PDF com o Aspose.PDF para .NET. Fácil de seguir e implementar em seus projetos. |  
+| [Mudança de Orientação](./change-orientation/) | Guia passo a passo para alterar a orientação da página de um PDF com Aspose.PDF para .NET. Fácil de seguir e implementar em seus projetos. |  
 | [Concatenar arquivos PDF](./concatenate-pdf-files/) | Concatene arquivos PDF sem esforço usando o Aspose.PDF para .NET com este guia passo a passo abrangente. |  
 | [Excluir página específica em arquivo PDF](./delete-particular-page/) | Aprenda como excluir uma página específica de um arquivo PDF usando o Aspose.PDF para .NET com este guia passo a passo. |  
 | [Determinar a cor da página](./determine-page-color/) Aprenda a determinar a cor da página de arquivos PDF usando o Aspose.PDF para .NET com nosso guia passo a passo. Implementação fácil para todos os níveis de habilidade. |  
@@ -62,6 +62,7 @@ Os tutoriais incluem instruções passo a passo, exemplos de código detalhados 
 | [Adicionar numeração Bates a PDFs com C# – Guia completo](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Aprenda a aplicar numeração Bates em PDFs usando C# e Aspose.PDF, passo a passo, para rastreamento e organização de documentos. |
 | [Duplicar página PDF com Aspose.Pdf – Guia completo](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Aprenda a duplicar uma página em um PDF usando Aspose.PDF para .NET com este guia passo a passo. |
 | [Adicionar numeração Bates ao PDF com Aspose.PDF – Guia completo](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Aprenda a aplicar numeração Bates em PDFs usando Aspose.PDF com este guia passo a passo completo. |
+| [Adicionar página em branco PDF com Aspose.PDF – Guia completo](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Aprenda a adicionar uma página em branco a um PDF usando Aspose.PDF com este guia passo a passo completo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

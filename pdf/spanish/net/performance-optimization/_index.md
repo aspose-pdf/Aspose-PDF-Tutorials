@@ -68,6 +68,8 @@ Aprenda a comprimir archivos PDF usando Aspose.PDF en C# con esta guía paso a p
 
 ### [Compresión de imágenes en Aspose PDF con C# – Reduce rápidamente el tamaño del PDF](./aspose-pdf-image-compression-in-c-reduce-pdf-size-quickly/)
 Aprenda a comprimir imágenes en PDFs usando Aspose.PDF para .NET y C#, reduciendo significativamente el tamaño del archivo.
+### [Cómo optimizar PDF – Guía completa con Aspose.PDF](./how-to-optimize-pdf-complete-guide-with-aspose-pdf/)
+Aprenda a optimizar PDFs con Aspose.PDF siguiendo esta guía completa paso a paso.
 
 ## Recursos adicionales
 

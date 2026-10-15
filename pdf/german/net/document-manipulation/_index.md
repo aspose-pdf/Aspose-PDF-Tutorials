@@ -345,6 +345,8 @@ Erfahren Sie, wie Sie PDF-Ebenen mit Aspose.PDF für .NET flachlegen und Inhalte
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET visuelle Unterschiede zwischen zwei PDFs erkennen und vergleichen.
 ### [PDF-Layer in C# zusammenführen – So kombinieren Sie PDF-Layer](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Layer in C# zusammenführen und mehrere Ebenen zu einem Dokument kombinieren.
+### [Wie man PDF-Dateien mit Aspose.Pdf repariert – Vollständige Anleitung](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
+Erfahren Sie, wie Sie beschädigte PDF-Dateien mit Aspose.Pdf reparieren und wiederherstellen – Schritt-für-Schritt-Anleitung.
 
 ## Weitere Ressourcen
 

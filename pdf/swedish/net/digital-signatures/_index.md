@@ -94,6 +94,9 @@ Lär dig hur du validerar PDF-signaturer i C# med en komplett steg-för-steg-gui
 ### [Hur man signerar PDF i C# – Komplett guide för att lägga till digitala signaturer](./how-to-sign-pdf-in-c-complete-guide-for-adding-digital-signa/)
 Lär dig steg-för-steg hur du signerar PDF-filer i C# och lägger till digitala signaturer med Aspose.PDF.
 
+### [Verifiera PDF-signatur i C# – Komplett steg‑för‑steg‑guide](./verify-pdf-signature-in-c-complete-step-by-step-guide/)
+Lär dig hur du verifierar PDF-signaturer i C# med en komplett steg‑för‑steg‑guide.
+
 ### [Läs in PDF-dokument C# – Konvertera till PDF/X‑4 och lista signaturer](./load-pdf-document-c-convert-to-pdf-x-4-list-signatures/)
 Lär dig hur du laddar en PDF, konverterar den till PDF/X‑4 och listar befintliga signaturer med Aspose.PDF för .NET i C#.
 ### [Validera PDF-signatur med Aspose – Konvertera PDF till HTML](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)

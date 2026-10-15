@@ -75,6 +75,9 @@
 ### [การบีบอัดภาพใน Aspose PDF ด้วย C# – ลดขนาด PDF อย่างรวดเร็ว](./aspose-pdf-image-compression-in-c-reduce-pdf-size-quickly/)
 เรียนรู้วิธีบีบอัดภาพใน PDF ด้วย Aspose.PDF ใน C# เพื่อให้ไฟล์ขนาดเล็กลงอย่างรวดเร็วและประหยัดพื้นที่
 
+### [วิธีเพิ่มประสิทธิภาพ PDF – คู่มือฉบับสมบูรณ์กับ Aspose.Pdf](./how-to-optimize-pdf-complete-guide-with-aspose-pdf/)
+เรียนรู้ขั้นตอนการเพิ่มประสิทธิภาพไฟล์ PDF อย่างเต็มรูปแบบด้วย Aspose.PDF พร้อมเคล็ดลับและตัวอย่างโค้ดที่ใช้งานได้จริง
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)

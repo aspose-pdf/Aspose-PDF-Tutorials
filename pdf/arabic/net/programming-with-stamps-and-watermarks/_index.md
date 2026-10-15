@@ -60,6 +60,8 @@
 | [إضافة ترقيم ببيتس إلى PDF في C# – دليل خطوة بخطوة كامل](./add-bates-numbering-to-pdf-in-c-complete-step-by-step-guide/) |تعرف على كيفية إضافة ترقيم ببيتس إلى ملفات PDF باستخدام Aspose.PDF لـ .NET مع دليل شامل خطوة بخطوة. |  
 | [إنشاء علامة مائية نصية في Word باستخدام Aspose.Words – دليل كامل](./create-text-watermark-in-word-with-aspose-words-complete-gui/) | تعلم كيفية إضافة علامة مائية نصية إلى مستندات Word باستخدام Aspose.Words عبر دليل شامل خطوة بخطوة. |
 | [كيفية إضافة ختم PDF – دليل كامل مع ضبط النص تلقائيًا](./how-to-add-stamp-pdf-complete-guide-with-auto-fit-text/) |تعرف على طريقة إضافة ختم إلى ملفات PDF مع ضبط النص تلقائيًا باستخدام Aspose.PDF لـ .NET خطوة بخطوة.|  
+| [دروس ترقيم Bates: إضافة أرقام إلى PDF باستخدام Aspose](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) | تعلم كيفية إضافة ترقيم Bates إلى ملفات PDF باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |
+| [كيفية إضافة علامة مائية إلى PDF – إضافة طبقة نصية إلى PDF باستخدام Aspose](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) |تعرف على كيفية إضافة علامة مائية نصية إلى ملفات PDF باستخدام Aspose.PDF لـ .NET عبر دليل خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

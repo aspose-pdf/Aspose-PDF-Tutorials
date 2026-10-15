@@ -62,6 +62,7 @@ Hướng dẫn bao gồm hướng dẫn từng bước, ví dụ mã chi tiết 
 | [Thêm đánh số Bates vào PDF bằng C# – Hướng dẫn chi tiết](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Hướng dẫn chi tiết cách thêm đánh số Bates vào tài liệu PDF bằng C# với Aspose.PDF cho .NET. |  
 | [Sao chép trang PDF với Aspose.Pdf – Hướng dẫn chi tiết](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Hướng dẫn từng bước để sao chép một trang PDF bằng Aspose.Pdf cho .NET, giúp bạn nhân bản nội dung nhanh chóng và dễ dàng. |  
 | [Thêm số Bates vào PDF với Aspose.PDF – Hướng dẫn toàn diện](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Hướng dẫn chi tiết cách thêm số Bates vào tài liệu PDF bằng Aspose.PDF cho .NET. |  
+| [Thêm trang trống PDF với Aspose.PDF – Hướng dẫn đầy đủ](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Hướng dẫn chi tiết cách thêm một trang trống vào PDF bằng Aspose.PDF cho .NET trong hướng dẫn toàn diện. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

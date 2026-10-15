@@ -219,6 +219,12 @@ Master Aspose.PDF για .NET για απρόσκοπτη μετατροπή δ�
 ### [Μετατροπή σελίδας PDF σε PNG – Πλήρης οδηγός Aspose.PDF](./convert-pdf-page-to-png-complete-aspose-pdf-guide/)
 Μάθετε πώς να μετατρέψετε μια σελίδα PDF σε PNG χρησιμοποιώντας το Aspose.PDF για .NET με βήμα‑βήμα παραδείγματα κώδικα.
 
+### [Πώς να αποδώσετε σελίδες PDF ως PNG εικόνες – πλήρης οδηγός Aspose.PDF](./how-to-render-pdf-pages-as-png-images-complete-aspose-pdf-gu/)
+Μάθετε πώς να μετατρέπετε σελίδες PDF σε εικόνες PNG υψηλής ποιότητας χρησιμοποιώντας το Aspose.PDF .NET.
+
+### [Aspose PDF σε HTML: Πλήρης Οδηγός για τη Μετατροπή PDF και Αφαίρεση Εικόνων](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
+Μάθετε πώς να μετατρέψετε PDF σε HTML και να αφαιρέσετε τις εικόνες χρησιμοποιώντας το Aspose.PDF για .NET.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.PDF για τεκμηρίωση δικτύου](https://docs.aspose.com/pdf/net/)

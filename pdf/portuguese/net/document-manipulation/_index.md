@@ -338,6 +338,8 @@ Aprenda a aplanar camadas de PDFs e exportar ou extrair seu conteúdo usando Asp
 
 ### [Diferença Visual de PDF em C# – Guia Completo para Comparar Dois PDFs](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
 Aprenda a comparar visualmente dois PDFs usando C# com o Aspose.PDF, destacando diferenças e gerando relatórios.
+### [Como corrigir arquivos PDF com Aspose.Pdf – Guia completo](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
+Aprenda a reparar arquivos PDF corrompidos usando Aspose.Pdf com este guia passo a passo.
 
 ## Recursos adicionais
 

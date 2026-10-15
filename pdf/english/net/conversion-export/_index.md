@@ -90,6 +90,10 @@ Learn how to save PDF files as HTML using Aspose.PDF in C#, covering conversion 
 Learn how to convert PDF files to HTML using Aspose.PDF for .NET without saving images separately. Maintain layout integrity with our detailed guide.
 
 ### [Convert PDF to HTML in .NET with Custom Image Paths Using Aspose.PDF]({{< relref "convert-pdf-html-custom-image-paths-dotnet.md" >}})
+### [Aspose PDF to HTML: Complete Guide to Convert PDFs and Remove Images](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
+Learn how to convert PDFs to HTML with Aspose.PDF for .NET while removing images for a lightweight output.
+
+### [Convert PDF to HTML with Custom Image Paths Using Aspose.PDF](./convert-pdf-html-custom-image-paths-dotnet/)
 Learn how to convert PDF files to HTML format using Aspose.PDF for .NET, and customize image paths efficiently. Ideal for web integration.
 
 ### [Convert PDF to HTML with Aspose.PDF for .NET: Preserve Fonts in TTF and WOFF Formats]({{< relref "convert-pdf-html-aspose-net-truetype-woff.md" >}})
@@ -186,6 +190,7 @@ Learn how to crop specific regions of a PDF page and convert them into images us
 Learn how to efficiently export data from applications to PDF using Aspose.PDF for .NET. This guide covers setup, code examples in C#, and key features.
 
 ### [Export PDF annotations with Aspose.PDF .NET: a comprehensive guide]({{< relref "export-annotations-aspose-pdf-net.md" >}})
+### [Export PDF Annotations with Aspose.PDF .NET&#58; A Comprehensive Guide](./export-annotations-aspose-pdf-net/)
 Learn how to efficiently export annotations from PDFs using Aspose.PDF .NET. This guide covers setup, implementation, and best practices.
 
 ### [Export PDF Data to XML with Aspose.PDF for .NET: A Step‑By‑Step Guide]({{< relref "export-pdf-data-to-xml-aspose-dotnet-guide.md" >}})
@@ -312,6 +317,8 @@ Learn how to convert PDF documents to HTML using Aspose.PDF for .NET with a comp
 Learn how to convert DOCX files to PNG images using Aspose.PDF for .NET in C#. Step‑by‑step guide with code examples.
 ### [Save PDF without images – Convert PDF to HTML with Aspose](./save-pdf-without-images-convert-pdf-to-html-with-aspose/)
 Learn how to convert PDF to HTML while omitting images using Aspose.PDF for .NET, preserving layout and reducing file size.
+### [how to render pdf pages as PNG images – complete Aspose.PDF guide](./how-to-render-pdf-pages-as-png-images-complete-aspose-pdf-gu/)
+Learn how to render PDF pages as PNG images using Aspose.PDF for .NET with a complete step-by-step guide.
 
 ## Additional Resources
 

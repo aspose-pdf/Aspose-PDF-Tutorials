@@ -36,7 +36,7 @@ Bu kapsamlı kılavuzla Aspose.PDF for .NET'i kullanarak PDF belgelerinizin altb
 Aspose.PDF for .NET kullanarak PDF belgelerinizi resim ve sayfa numaraları ekerek nasıl geliştireceğinizi öğrenin. Profesyonel görünümlü raporlar, bültenler veya iş belgeleri oluşturmak için bu adım adım kılavuzu izleyin.
 
 ### [.NET için Aspose.PDF Kullanarak PDF Düğmelerine JavaScript Ekleme: Kapsamlı Bir Kılavuz](./add-javascript-to-pdf-buttons-aspose-pdf-net/)
-Aspose.PDF for .NET kullanarak düğme alanlarına etkileşimli JavaScript ekleyerek PDF belgelerinizi nasıl geliştireceğinizi öğrenin. Bu kılavuz kurulum, uygulama ve pratik uygulamaları kapsar.
+Aspose.PDF for .NET kullanarak düğme alanlarına etkileşimli JavaScript ekleyerek PDF belgelerinizi nasıl geliştirebileceğinizi öğrenin. Bu kılavuz kurulum, uygulama ve pratik uygulamaları kapsar.
 
 ### [.NET için Aspose.PDF Kullanarak PDF'ye Sayfa Sonları Ekleme: Eksiksiz Bir Kılavuz](./add-page-breaks-pdf-aspose-dotnet/)
 .NET için Aspose.PDF kullanarak PDF belgelerine sayfa sonları eklemeyi öğrenin. Kurulum, ayarlama ve uygulama konusunda adım adım kılavuzumuzu izleyin.
@@ -318,7 +318,7 @@ Aspose.PDF ile .NET akışlarını kullanarak belirli bir sayfadaki PDF dosyalar
 .NET ve C# için Aspose.PDF kullanarak bir PDF dosyasını ayrı sayfalara nasıl böleceğinizi öğrenin. Bu kılavuz kurulum, uygulama ve pratik uygulamaları kapsar.
 
 ### [Aspose.PDF for .NET ile PDF Sayfalarını Ayrı Dosyalara Bölme: Kapsamlı Bir Kılavuz](./aspose-pdf-split-pdf-pages-net/)
-Aspose.PDF for .NET kullanarak PDF sayfalarını ayrı dosyalara nasıl böleceğinizi öğrenin. Bu kapsamlı kılavuz kurulum, uygulama ve optimizasyon ipuçlarını kapsar.
+Aspose.PDF for .NET kullanarak PDF sayfalarını ayrı dosyalara nasıl böleceğinizi öğrenin. Bu kapsamlı kılavuz kurulum, uygulama ve optimizasyon iptipsini kapsar.
 
 ### [Aspose.PDF .NET Kullanarak PDF Dosyalarını Bölme ve Oluşturma | Belge İşleme Kılavuzu](./split-create-pdf-aspose-pdf-net/)
 Çok sayfalı PDF'leri nasıl böleceğinizi ve .NET için Aspose.PDF kullanarak yeni PDF dosyaları nasıl oluşturacağınızı öğrenin. Kod örnekleriyle bu kapsamlı kılavuzu izleyin.
@@ -350,6 +350,8 @@ C# ve Aspose.PDF kullanarak iki PDF dosyasını görsel olarak karşılaştırma
 
 ### [Aspose.PDF ile PDF Düzleştirme – Tam Kılavuz](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
 Aspose.PDF kullanarak PDF dosyalarını düzleştirmenin adım adım tam rehberini öğrenin.
+### [Aspose.Pdf ile PDF Dosyalarını Düzeltme – Tam Kılavuz](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
+Aspose.Pdf kullanarak bozuk PDF dosyalarını onarma, hataları düzeltme ve dosya bütünlüğünü sağlama adımlarını öğrenin.
 
 ## Ek Kaynaklar
 

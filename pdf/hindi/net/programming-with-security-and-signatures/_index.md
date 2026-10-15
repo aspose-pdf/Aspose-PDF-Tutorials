@@ -63,6 +63,7 @@
 | [Bates नंबरिंग PDF जोड़ें – साइनिंग और रूपांतरण के साथ पूर्ण C# गाइड](./add-bates-numbering-pdf-complete-c-guide-with-signing-conver/) | .NET के लिए Aspose.PDF का उपयोग करके PDF में Bates नंबरिंग जोड़ें, साथ ही साइनिंग और रूपांतरण के चरण सीखें। |  
 | [C# में PDF हस्ताक्षर सत्यापित करें – Aspose.PDF पूर्ण गाइड](./verify-pdf-signature-in-c-complete-aspose-pdf-guide/) | .NET के लिए Aspose.PDF का उपयोग करके PDF हस्ताक्षर कैसे सत्यापित करें, इस चरण-दर-शरण मार्गदर्शन में जानें। |  
 | [C# में PDF हस्ताक्षर प्राप्त करें – पूर्ण प्रोग्रामिंग गाइड](./retrieve-pdf-signatures-in-c-complete-programming-guide/) | .NET के लिए Aspose.PDF का उपयोग करके PDF हस्ताक्षर कैसे प्राप्त करें, इस चरण-दर-शरण गाइड में जानें। |  
+| [C# में PDF डिजिटल हस्ताक्षर जाँचें – पूर्ण गाइड](./how-to-check-pdf-digital-signature-in-c-complete-guide/) | .NET के लिए Aspose.PDF का उपयोग करके PDF डिजिटल हस्ताक्षर कैसे जाँचें, इस पूर्ण गाइड में सीखें। |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

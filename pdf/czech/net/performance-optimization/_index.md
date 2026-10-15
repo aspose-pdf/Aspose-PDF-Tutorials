@@ -71,6 +71,8 @@ Naučte se, jak efektivně komprimovat PDF soubory v C# pomocí Aspose.PDF s pod
 
 ### [Komprese obrázků v Aspose PDF v C# – Rychlé zmenšení velikosti PDF](./aspose-pdf-image-compression-in-c-reduce-pdf-size-quickly/)
 Naučte se, jak komprimovat obrázky v PDF pomocí Aspose.PDF v C# a rychle snížit velikost souboru.
+### [Jak optimalizovat PDF – Kompletní průvodce s Aspose.PDF](./how-to-optimize-pdf-complete-guide-with-aspose-pdf/)
+Získejte podrobný návod, jak optimalizovat PDF soubory pomocí Aspose.PDF, včetně technik komprese, správy zdrojů a zrychlení zpracování.
 
 ## Další zdroje
 

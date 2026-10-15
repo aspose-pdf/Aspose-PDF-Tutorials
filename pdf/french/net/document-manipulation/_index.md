@@ -221,6 +221,9 @@ Apprenez à mettre à jour les liens dans les fichiers PDF par programmation ave
 ### [Comment mettre à jour la couleur du texte des liens PDF avec Aspose.PDF .NET : guide complet](./update-pdf-link-text-color-aspose-net/)
 Apprenez à modifier facilement la couleur du texte des liens dans les PDF avec Aspose.PDF pour .NET. Ce guide complet couvre l'installation, la mise en œuvre et l'optimisation.
 
+### [Comment réparer les fichiers PDF avec Aspose.Pdf – Guide complet](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
+Apprenez à réparer les fichiers PDF corrompus ou endommagés en utilisant Aspose.Pdf avec ce guide complet étape par étape.
+
 ### [Insérer des pages dans un PDF avec Aspose.PDF pour .NET : Guide complet de manipulation de documents](./insert-pages-pdf-aspose-dotnet-guide/)
 Apprenez à insérer des pages dans un PDF avec Aspose.PDF pour .NET. Ce guide étape par étape couvre tout, de la configuration à la mise en œuvre, idéal pour les développeurs C#.
 

@@ -37,6 +37,7 @@ Dönüştürme ayarlarını nasıl belirleyeceğinizi, metin ve görüntüleri n
 | [C#'ta PDF'yi HTML'ye Dönüştür – Basit Adım‑Adım Kılavuz](./convert-pdf-to-html-in-c-simple-step-by-step-guide/) | Bu adım adım kılavuzda Aspose.PDF for .NET kullanarak C# ile PDF'yi HTML'ye nasıl dönüştüreceğinizi öğrenin. |
 | [PDF'yi HTML olarak kaydetme – Aspose.PDF ile Adım Adım C# Rehberi](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) | Bu adım adım kılavuzda Aspose.PDF for .NET kullanarak PDF dosyalarını HTML'ye nasıl dönüştüreceğinizi öğrenin. |
 | [Aspose.PDF ile PDF'den HTML Oluşturma – Adım Adım Kılavuz](./create-html-from-pdf-with-aspose-pdf-step-by-step-guide/) | Bu adım adım kılavuzda Aspose.PDF for .NET kullanarak PDF dosyalarından HTML oluşturmayı öğrenin. |
+| [C#'ta PDF'yi HTML'ye Dönüştür – Aspose ile Tam Kılavuz](./convert-pdf-to-html-in-c-complete-guide-with-aspose/) | Bu adım adım rehberde Aspose.PDF for .NET kullanarak C# ile PDF dosyalarını HTML'ye nasıl dönüştüreceğinizi öğrenin. |
 | [PDF'den PDFA'ya](./pdf-to-pdfa/) Bu adım adım eğitimle Aspose.PDF for .NET kullanarak PDF dosyalarını PDF/A formatına nasıl dönüştüreceğinizi öğrenin. |  
 | [PDF'den PDFA3b'ye](./pdf-to-pdfa3b/) | Bu adım adım kılavuzda Aspose.PDF for .NET ile PDF dosyalarını zahmetsizce PDF/A-3B formatına dönüştürmeyi öğrenin.  
 | [PDF'den PNG'ye Yazı Tipi İpucu](./pdf-to-png-font-hinting/) | Aspose.PDF for .NET'i kullanarak PDF'yi font ipuçlarıyla PNG'ye dönüştürmeyi kolay adım adım bir kılavuzda öğrenin. |
@@ -84,6 +85,8 @@ Dönüştürme ayarlarını nasıl belirleyeceğinizi, metin ve görüntüleri n
 | [Aspose ile PDF Dönüştürme – Tam Adım‑Adım Kılavuz](./how-to-convert-pdf-with-aspose-complete-step-by-step-guide/) | Bu adım adım kılavuzla Aspose.PDF for .NET kullanarak PDF dosyalarını nasıl dönüştüreceğinizi öğrenin. |
 | [Aspose PDF format dönüştürme: PDF'yi C#'ta PDF/X‑4'e Dönüştür](./aspose-pdf-format-conversion-convert-pdf-to-pdf-x-4-in-c/) | Aspose.PDF for .NET ile PDF dosyalarını PDF/X‑4 formatına C# kullanarak dönüştürmeyi öğrenin. |
 | [Aspose.Pdf ile PDF Görüntüsü Oluşturma – Adım Adım Kılavuz](./create-pdf-image-with-aspose-pdf-step-by-step-guide/) | Bu adım adım kılavuzla Aspose.Pdf kullanarak PDF görüntüsü oluşturmayı öğrenin. |
+| [PDF'yi C#'ta PDF/X‑4'e Dönüştür – Tam Kılavuz](./convert-pdf-to-pdf-x-4-with-aspose-pdf-complete-c-guide/) | Bu kapsamlı C# rehberi ile PDF dosyalarını PDF/X‑4 formatına nasıl dönüştüreceğinizi adım adım öğrenin. |
+| [PDF'yi C#'ta PDF/X‑1A'ye Dönüştür – Tam Kılavuz](./convert-pdf-to-pdf-x-1a-in-c-complete-step-by-step-guide/) | Aspose.PDF for .NET kullanarak PDF dosyalarını PDF/X‑1A formatına C# ile nasıl dönüştüreceğinizi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

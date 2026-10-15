@@ -62,6 +62,7 @@ Eğitim, PDF dosyalarınızın gizliliğini ve gerçekliğini sağlamak için y�
 | [Bates Numaralandırma PDF Ekle – İmza ve Dönüştürme İçin Tam C# Rehberi](./add-bates-numbering-pdf-complete-c-guide-with-signing-conver/) | Aspose.PDF for .NET kullanarak Bates numaralandırması eklemeyi, imzalamayı ve PDF dönüştürmeyi adım adım öğrenin. |
 | [C# ile PDF İmzasını Doğrulama – Tam Aspose.PDF Rehberi](./verify-pdf-signature-in-c-complete-aspose-pdf-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF imzalarını doğrulamayı adım adım öğrenin. |  
 | [C# ile PDF İmzalarını Al – Tam Programlama Rehberi](./retrieve-pdf-signatures-in-c-complete-programming-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF dosyalarındaki dijital imzaları nasıl alacağınızı öğrenin. |
+| [C# ile PDF Dijital İmzasını Kontrol Et – Tam Rehber](./how-to-check-pdf-digital-signature-in-c-complete-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF dijital imzalarını nasıl kontrol edeceğinizi öğrenin. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -71,6 +71,8 @@ Lär dig snabbt hur du komprimerar PDF-filer med Aspose.PDF för .NET för att m
 Lär dig enkla steg för att snabbt minska PDF-filstorleken i C# med Aspose.PDF.
 ### [Aspose PDF-bildkomprimering i C# – Minska PDF-storleken snabbt](./aspose-pdf-image-compression-in-c-reduce-pdf-size-quickly/)
 Lär dig hur du komprimerar bilder i PDF med Aspose.PDF för .NET i C# för att snabbt minska filstorleken.
+### [Hur du optimerar PDF – Komplett guide med Aspose.Pdf](./how-to-optimize-pdf-complete-guide-with-aspose-pdf/)
+Lär dig hur du optimerar PDF-filer med Aspose.Pdf genom en komplett steg-för-steg-guide för att förbättra prestanda och minska filstorlek.
 
 ## Ytterligare resurser
 

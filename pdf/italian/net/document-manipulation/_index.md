@@ -342,6 +342,8 @@ Scopri come appiattire i livelli di un PDF e esportarli o estrarli usando Aspose
 
 ### [Unire i livelli PDF in C# – Come combinare i livelli PDF](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
 Scopri come unire più livelli di un PDF in C# utilizzando Aspose.PDF per .NET per creare documenti complessi.
+### [Come riparare i file PDF con Aspose.Pdf – Guida completa](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
+Scopri come riparare file PDF danneggiati o corrotti utilizzando Aspose.Pdf con questa guida passo passo.
 
 ## Risorse aggiuntive
 

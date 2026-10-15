@@ -346,6 +346,8 @@ Aspose PDF for .NET을 활용해 C#에서 PDF 문서의 민감한 정보를 레�
 
 ### [C#에서 PDF 레이어 병합 – PDF 레이어 결합 방법](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
 Aspose.PDF for .NET을 사용하여 PDF 레이어를 병합하고 결합하는 방법을 단계별로 알아보세요.
+### [Aspose.Pdf로 PDF 파일 복구하는 방법 – 완전 가이드](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
+Aspose.Pdf를 사용하여 손상된 PDF 파일을 복구하고 오류를 해결하는 단계별 완전 가이드.
 
 ## 추가 자료
 

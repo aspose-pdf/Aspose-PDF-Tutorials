@@ -47,6 +47,7 @@ Návody obsahují podrobné pokyny, podrobné příklady kódu a jasná vysvětl
 | [Nastavit obrázek jako pozadí stránky v souboru PDF](./image-as-background/) | Naučte se, jak nastavit obrázek jako pozadí stránky v PDF pomocí Aspose.PDF pro .NET s tímto podrobným návodem. Vytvořte profesionální a vizuálně přitažlivé dokumenty. |  
 | [Vložit prázdnou stránku do PDF souboru](./insert-empty-page/) | Naučte se, jak vložit prázdnou stránku do PDF dokumentu pomocí Aspose.PDF pro .NET. Podrobný návod s příklady kódu pro bezproblémovou manipulaci s PDF. |  
 | [Vložit prázdnou stránku na konec](./insert-empty-page-at-end/) | Naučte se v tomto průvodci pro začátečníky bez námahy vkládat prázdnou stránku do dokumentu PDF s Aspose.PDF pro .NET. Ideální pro rychlé úpravy. |  
+| [Přidat prázdnou stránku PDF pomocí Aspose.PDF – Kompletní průvodce](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Kompletní průvodce přidáním prázdné stránky do PDF pomocí Aspose.PDF pro .NET. |  
 | [Rozdělit na stránky](./split-to-pages/) Snadno rozdělte PDF soubory na jednotlivé stránky pomocí Aspose.PDF pro .NET s tímto komplexním tutoriálem. Součástí je podrobný návod. |  
 | [Přeskupení stránek PDF pomocí Aspose.Pdf – Kompletní průvodce C#](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) | Kompletní průvodce, jak přeskupit stránky PDF pomocí Aspose.Pdf v C#. |
 | [Aktualizovat rozměry stránky PDF](./update-dimensions/) | Zjistěte, jak snadno aktualizovat rozměry stránek PDF pomocí Aspose.PDF pro .NET v tomto komplexním návodu krok za krokem. |  

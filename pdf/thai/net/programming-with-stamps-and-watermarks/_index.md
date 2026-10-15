@@ -53,6 +53,8 @@
 - [สร้าง PDF ประกาศเต็มหน้า – คู่มือเร็ว C#](./create-pdf-full-page-notice-quick-c-guide/) เรียนรู้วิธีสร้างประกาศเต็มหน้าในไฟล์ PDF ด้วย C# อย่างรวดเร็วโดยใช้ Aspose.PDF สำหรับ .NET
 - [เพิ่มหมายเลข Bates ให้ PDF – คู่มือฉบับสมบูรณ์กับ Aspose](./add-bates-numbering-pdf-complete-guide-with-aspose/) เรียนรู้วิธีเพิ่มหมายเลข Bates ให้ไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือฉบับสมบูรณ์
 | [วิธีเพิ่มแสตมป์ PDF – คู่มือฉบับสมบูรณ์พร้อมการปรับข้อความอัตโนมัติ](./how-to-add-stamp-pdf-complete-guide-with-auto-fit-text/) | เรียนรู้วิธีเพิ่มแสตมป์ลงในไฟล์ PDF พร้อมการปรับข้อความอัตโนมัติให้พอดีกับพื้นที่โดยใช้ Aspose.PDF สำหรับ .NET |
+| [บทแนะนำการใส่หมายเลข Bates: เพิ่มหมายเลขลงใน PDF ด้วย Aspose](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) | เรียนรู้วิธีใส่หมายเลข Bates ลงใน PDF ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียด |  
+| [วิธีเพิ่มลายน้ำ PDF – เพิ่มข้อความซ้อนบน PDF ด้วย Aspose](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) | เรียนรู้วิธีเพิ่มลายน้ำข้อความลงในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอน |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

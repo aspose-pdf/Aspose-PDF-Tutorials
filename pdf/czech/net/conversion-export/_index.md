@@ -88,6 +88,8 @@ Naučte se, jak exportovat první stránku PDF do PNG s rozlišením 300 DPI pom
 Naučte se, jak pomocí Aspose převést PDF soubory na obrázky PNG s podrobnými ukázkami kódu.
 ### [Převod stránky PDF do PNG – Kompletní průvodce Aspose.PDF](./convert-pdf-page-to-png-complete-aspose-pdf-guide/)
 Naučte se převádět jednotlivé stránky PDF do formátu PNG pomocí Aspose.PDF v .NET s podrobnými ukázkami kódu.
+### [Jak vykreslit stránky PDF jako PNG obrázky – kompletní průvodce Aspose.PDF](./how-to-render-pdf-pages-as-png-images-complete-aspose-pdf-gu/)
+Naučte se, jak převádět stránky PDF do PNG obrázků pomocí Aspose.PDF v .NET s podrobným návodem.
 
 ### [Převod PDF do PPTX pomocí Aspose.PDF pro .NET: Podrobný návod](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 Naučte se, jak efektivně převádět dokumenty PDF do prezentací v PowerPointu pomocí nástroje Aspose.PDF pro .NET. Tato podrobná příručka zahrnuje základní převod, pokročilé funkce, jako jsou obrázkové slajdy, a sledování průběhu.
@@ -220,6 +222,9 @@ Naučte se převádět soubory DOCX na obrázky PNG v C# pomocí Aspose.PDF s pr
 
 ### [Uložení PDF bez obrázků – Převod PDF do HTML pomocí Aspose](./save-pdf-without-images-convert-pdf-to-html-with-aspose/)
 Naučte se, jak uložit PDF bez vložených obrázků a převést jej do HTML pomocí Aspose.PDF pro .NET.
+
+### [Aspose PDF do HTML: Kompletní průvodce převodem PDF a odstraněním obrázků](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
+Kompletní průvodce převodem PDF do HTML s pomocí Aspose.PDF a odstraněním obrázků pro optimalizaci velikosti souboru.
 
 ## Další zdroje
 

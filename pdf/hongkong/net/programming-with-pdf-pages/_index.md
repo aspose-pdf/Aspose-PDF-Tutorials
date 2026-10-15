@@ -50,6 +50,7 @@ Aspose.PDF for .NET 的「使用 PDF 頁面進行編程」文件提供了逐步�
 | [將圖像設定為 PDF 文件中的頁面背景](./image-as-background/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將影像設定為 PDF 中的頁面背景。建立專業且具視覺吸引力的文件。 |  
 | [在 PDF 檔案中插入空白頁](./insert-empty-page/) |了解如何使用 Aspose.PDF for .NET 將空白頁插入 PDF 文件。帶有無縫 PDF 操作程式碼範例的逐步教學。 |  
 | [在最後插入空白頁](./insert-empty-page-at-end/) |透過本適合初學者的指南，學習如何使用 Aspose.PDF for .NET 輕鬆將空白頁插入 PDF 文件。非常適合快速編輯。 |  
+| [使用 Aspose.PDF 為 PDF 添加空白頁 – 完整指南](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) |使用 Aspose.PDF for .NET 為 PDF 添加空白頁的完整指南，簡單易於實作。 |  
 | [拆分至頁面](./split-to-pages/) |透過本綜合教程，使用 Aspose.PDF for .NET 輕鬆將 PDF 分割為單獨的頁面。包含逐步指南。 |  
 | [更新 PDF 頁面尺寸](./update-dimensions/) |透過本全面的逐步指南，了解如何使用 Aspose.PDF for .NET 輕鬆更新 PDF 頁面尺寸。 |  
 | [縮放至 PDF 文件中的頁面內容](./zoom-to-page-contents/) |在本綜合指南中了解如何使用 Aspose.PDF for .NET 縮放 PDF 文件中的頁面內容。根據您的特定需求增強您的 PDF 文件。 |  

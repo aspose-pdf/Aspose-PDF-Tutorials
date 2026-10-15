@@ -60,6 +60,8 @@
 | [Добавить нумерацию Бейтса в PDF – Полное руководство с Aspose](./add-bates-numbering-pdf-complete-guide-with-aspose/) Узнайте, как добавить нумерацию Бейтса в PDF-файлы с помощью Aspose.PDF для .NET в этом полном пошаговом руководстве. |  
 | [Добавить нумерацию Бейтса в PDF на C# – Полное пошаговое руководство](./add-bates-numbering-to-pdf-in-c-complete-step-by-step-guide/) | Узнайте, как добавить нумерацию Бейтса в PDF с помощью Aspose.PDF для .NET, следуя подробному пошаговому руководству. |  
 | [Создать текстовый водяной знак в Word с Aspose.Words – Полное руководство](./create-text-watermark-in-word-with-aspose-words-complete-gui/) Узнайте, как создать текстовый водяной знак в документах Word с помощью Aspose.Words для .NET в этом полном руководстве. |
+| [Учебник по нумерации Бейтса: добавление номеров в PDF с Aspose](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) |  
+| [Как добавить водяной знак в PDF – добавить текстовое наложение в PDF с Aspose](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) Узнайте, как добавить текстовый водяной знак в PDF с помощью Aspose.PDF для .NET в этом пошаговом руководстве. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

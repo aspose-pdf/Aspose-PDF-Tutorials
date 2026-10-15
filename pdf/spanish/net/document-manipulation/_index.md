@@ -168,7 +168,7 @@ Aprende a contar páginas en un PDF con Aspose.PDF para .NET con este tutorial p
 Aprenda a personalizar archivos PDF con Aspose.PDF para .NET configurando los márgenes de página y dibujando líneas. Ideal para desarrolladores que buscan mejorar el formato de sus documentos.
 
 ### [Cómo eliminar páginas de un PDF con Aspose.PDF .NET: una guía completa](./delete-pdf-pages-aspose-net/)
-Aprenda a eliminar fácilmente páginas específicas de un documento PDF con Aspose.PDF para .NET. Esta guía paso a paso explica la configuración, la implementación y las prácticas recomendadas.
+Aprenda a eliminar fácilmente páginas específicas de un documento PDF con Aspose.PDF .NET. Esta guía paso a paso explica la configuración, la implementación y las prácticas recomendadas.
 
 ### [Cómo deshabilitar la compresión de archivos en Aspose.PDF para .NET: guía paso a paso](./disable-file-compression-aspose-pdf-net-guide/)
 Aprenda a deshabilitar la compresión de archivos PDF con Aspose.PDF para .NET con esta guía completa. Mejore sus habilidades de gestión de documentos hoy mismo.
@@ -348,6 +348,9 @@ Aprenda a redactar información confidencial de archivos PDF usando Aspose PDF p
 Aprenda a comparar archivos PDF paso a paso usando Aspose.PDF para .NET.
 ### [Cómo eliminar fuentes incrustadas en PDF – Guía paso a paso en C#](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
 Aprenda a eliminar fuentes incrustadas de archivos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
+
+### [Cómo reparar archivos PDF con Aspose.PDF – Guía completa](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
+Aprenda a reparar archivos PDF dañados o corruptos usando Aspose.PDF con esta guía paso a paso.
 
 ## Recursos adicionales
 

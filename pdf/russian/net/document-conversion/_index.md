@@ -84,6 +84,9 @@
 | [Конвертировать PDF в PDF/X‑1A с управлением цветом на C#](./convert-pdf-to-pdf-x-1a-with-color-management-in-c/) | Узнайте, как конвертировать PDF в PDF/X‑1A с управлением цветом, используя Aspose.PDF для .NET на C# в этом пошаговом руководстве. |
 | [Aspose PDF формат конвертации: Конвертировать PDF в PDF/X‑4 на C#](./aspose-pdf-format-conversion-convert-pdf-to-pdf-x-4-in-c/) | Узнайте, как преобразовать PDF в PDF/X‑4 с помощью Aspose.PDF для .NET на C# в простом пошаговом руководстве. |
 | [Как конвертировать PDF с Aspose – Полное пошаговое руководство](./how-to-convert-pdf-with-aspose-complete-step-by-step-guide/) | Узнайте, как конвертировать PDF с помощью Aspose.PDF для .NET в этом полном пошаговом руководстве. |
+| [PDF в HTML на C# – Полное руководство с Aspose](./convert-pdf-to-html-in-c-complete-guide-with-aspose/) | Узнайте, как конвертировать PDF в HTML с помощью Aspose.PDF для .NET на C# в полном пошаговом руководстве. |
+| [Конвертировать PDF в PDF/X-4 с Aspose.PDF – Полное руководство C#](./convert-pdf-to-pdf-x-4-with-aspose-pdf-complete-c-guide/) | Узнайте, как конвертировать PDF в PDF/X‑4 с помощью Aspose.PDF для .NET в полном руководстве на C#. |
+| [Конвертировать PDF в PDF/X‑1A на C# – Полное пошаговое руководство](./convert-pdf-to-pdf-x-1a-in-c-complete-step-by-step-guide/) | Узнайте, как конвертировать PDF в формат PDF/X‑1A с помощью Aspose.PDF для .NET в полном пошаговом руководстве. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -346,6 +346,9 @@
 ### [Συγχώνευση επιπέδων PDF σε C# – Πώς να συνδυάσετε επίπεδα PDF](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
 Μάθετε πώς να συγχωνεύετε πολλαπλά επίπεδα PDF σε ένα αρχείο χρησιμοποιώντας C# και Aspose.PDF.
 
+### [Πώς να διορθώσετε αρχεία PDF με το Aspose.Pdf – Πλήρης οδηγός](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
+Μάθετε πώς να επιδιορθώσετε κατεστραμμένα αρχεία PDF χρησιμοποιώντας το Aspose.Pdf με βήμα-βήμα οδηγίες.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.PDF για τεκμηρίωση δικτύου](https://docs.aspose.com/pdf/net/)

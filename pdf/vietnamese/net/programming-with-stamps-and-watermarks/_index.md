@@ -52,6 +52,8 @@ Hướng dẫn "Lập trình với tem và hình mờ" của Aspose.PDF dành ch
 | [Thêm Đánh Số Bates vào PDF – Hướng Dẫn Toàn Diện với Aspose](./add-bates-numbering-pdf-complete-guide-with-aspose/) | Hướng dẫn chi tiết cách thêm đánh số Bates vào tài liệu PDF bằng Aspose.PDF cho .NET. |  
 | [Thêm Số Bates vào PDF trong C#](./add-bates-numbering-to-pdf-in-c-complete-step-by-step-guide/) | Tìm hiểu cách thêm số Bates vào tệp PDF bằng Aspose.PDF cho .NET với hướng dẫn chi tiết từng bước. |
 | [Tạo Đánh Dấu Văn Bản trong Word bằng Aspose.Words – Hướng Dẫn Đầy Đủ](./create-text-watermark-in-word-with-aspose-words-complete-gui/) | Tìm hiểu cách tạo đánh dấu văn bản trong Word bằng Aspose.Words qua hướng dẫn chi tiết và ví dụ mã. |  
+| [Hướng dẫn Đánh số Bates: Thêm số vào PDF với Aspose](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) Tìm hiểu cách thêm số Bates vào tài liệu PDF bằng Aspose.PDF cho .NET để dễ dàng quản lý và truy xuất. |  
+| [Cách Thêm Hình Mờ PDF – Thêm Văn Bản Đè Lên PDF với Aspose](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) | Tìm hiểu cách thêm hình mờ văn bản vào PDF bằng Aspose.PDF cho .NET với hướng dẫn chi tiết và ví dụ mã. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

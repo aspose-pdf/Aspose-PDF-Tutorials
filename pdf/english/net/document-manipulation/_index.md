@@ -346,6 +346,8 @@ Learn how to flatten PDF layers using Aspose.PDF for .NET in C#, enabling export
 
 ### [How to Flatten PDF with Aspose.PDF – Complete Guide](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
 Learn how to flatten PDF files using Aspose.PDF for .NET with this comprehensive step-by-step guide.
+### [How to Fix PDF Files with Aspose.Pdf – Complete Guide](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
+Learn how to repair corrupted PDF files using Aspose.PDF for .NET with step-by-step instructions and code examples.
 
 ## Additional Resources
 

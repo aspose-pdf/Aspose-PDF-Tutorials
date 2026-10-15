@@ -296,6 +296,9 @@ Kuasai manipulasi PDF dengan Aspose.PDF untuk .NET. Pelajari cara memuat, menyim
 ### [Mengganti Kemunculan Teks Pertama di PDF Menggunakan Aspose.PDF untuk .NET - Panduan Lengkap](./replace-first-text-occurrence-aspose-pdf-net/)
 Pelajari cara mengganti kemunculan teks pertama dalam PDF menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup pengaturan, contoh kode, dan aplikasi praktis.
 
+### [Cara Memperbaiki File PDF dengan Aspose.Pdf – Panduan Lengkap](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
+Pelajari cara memperbaiki file PDF yang rusak menggunakan Aspose.PDF dengan panduan lengkap langkah demi langkah.
+
 ### [Ubah Ukuran Konten PDF dengan Aspose.PDF untuk .NET](./resize-pdf-contents-aspose-pdf-dotnet/)
 Tutorial kode untuk Aspose.PDF Net
 

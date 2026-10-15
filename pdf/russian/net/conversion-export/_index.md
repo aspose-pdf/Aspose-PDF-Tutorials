@@ -297,4 +297,9 @@
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/products-backtop-button >}}### [Как отобразить страницы PDF в виде PNG‑изображений – полное руководство Aspose.PDF](./how-to-render-pdf-pages-as-png-images-complete-aspose-pdf-gu/)
+Подробное руководство по конвертации страниц PDF в PNG‑изображения с использованием Aspose.PDF для .NET.
+
+### [Aspose PDF в HTML: Полное руководство по конвертации PDF и удалению изображений](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
+Подробное руководство по преобразованию PDF в HTML с удалением изображений с помощью Aspose.PDF для .NET.
+

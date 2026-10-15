@@ -63,6 +63,8 @@ Aspose.PDF for .NET을 사용하여 PDF의 첫 페이지를 300 DPI PNG 이미�
 Aspose PDF를 사용해 PDF를 PNG 이미지로 저장한 뒤 PDF/X‑1a 표준으로 변환하는 방법을 단계별로 안내합니다.
 ### [PDF 페이지를 PNG로 변환 – 완전 Aspose.Pdf 가이드](./convert-pdf-page-to-png-complete-aspose-pdf-guide/)
 Aspose.PDF for .NET을 사용하여 PDF 페이지를 고품질 PNG 이미지로 변환하는 단계별 완전 가이드입니다.
+### [PDF 페이지를 PNG 이미지로 렌더링하는 방법 – 완전한 Aspose.PDF 가이드](./how-to-render-pdf-pages-as-png-images-complete-aspose-pdf-gu/)
+Aspose.PDF for .NET을 사용하여 PDF 페이지를 고품질 PNG 이미지로 변환하는 전체 단계별 가이드
 
 ### [Aspose.PDF for .NET을 사용하여 PDF를 BMP로 변환: 단계별 가이드](./convert-pdf-to-bmp-aspose-pdf-net/)
 이 포괄적인 가이드를 통해 Aspose.PDF for .NET을 사용하여 PDF 페이지를 고품질 BMP 이미지로 변환하는 방법을 알아보세요.
@@ -87,6 +89,9 @@ Aspose.PDF for .NET을 사용하여 PDF 파일을 HTML 형식으로 변환하고
 
 ### [Aspose.PDF for .NET을 사용하여 PDF를 HTML로 변환: TTF 및 WOFF 형식의 글꼴 유지](./convert-pdf-html-aspose-net-truetype-woff/)
 Aspose.PDF for .NET을 사용하여 TrueType(TTF) 및 Web Open Font Format(WOFF) 글꼴을 유지하면서 PDF를 HTML로 변환하는 방법을 알아보세요. 코드 예제를 포함한 단계별 가이드입니다.
+
+### [Aspose PDF를 HTML로 변환: PDF를 변환하고 이미지 제거하는 완전 가이드](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
+Aspose.PDF for .NET을 사용하여 PDF를 HTML로 변환하면서 이미지 요소를 제거하는 방법을 단계별로 안내합니다.
 
 ### [Aspose.PDF를 사용하여 사용자 정의 차원으로 PDF를 HTML로 변환](./convert-pdf-html-custom-dimensions-asposepdf-net/)
 Aspose.PDF Net에 대한 코드 튜토리얼

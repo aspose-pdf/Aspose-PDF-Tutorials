@@ -81,6 +81,7 @@ Pelajari cara mengonversi dokumen PDF menjadi gambar PNG berkualitas tinggi meng
 Pelajari cara mengonversi PDF menjadi gambar PNG berkualitas tinggi menggunakan Aspose.PDF .NET dengan contoh kode C# langkah demi langkah.
 ### [Cara Merender PDF ke PNG di C# – Panduan Lengkap](./how-to-render-pdf-to-png-in-c-complete-guide/)
 Panduan langkah demi langkah untuk merender file PDF menjadi gambar PNG menggunakan C# dan Aspose.PDF.
+### [Cara Merender Halaman PDF menjadi Gambar PNG – Panduan Lengkap Aspose.PDF](./how-to-render-pdf-pages-as-png-images-complete-aspose-pdf-gu/)
 
 ### [Konversi PDF ke PPTX dengan Aspose.PDF untuk .NET: Panduan Langkah demi Langkah](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 Pelajari cara mengonversi dokumen PDF menjadi presentasi PowerPoint secara efisien menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini mencakup konversi dasar, fitur lanjutan seperti slide gambar, dan pelacakan kemajuan.
@@ -212,6 +213,9 @@ Panduan lengkap untuk mengonversi file docx menjadi HTML menggunakan C# dan Aspo
 
 ### [Mengonversi docx ke png dalam C# – Panduan Lengkap](./convert-docx-to-png-in-c-complete-guide/)
 Pelajari cara mengonversi file DOCX menjadi gambar PNG menggunakan C# dan Aspose.PDF dengan contoh kode lengkap.
+
+### [Aspose PDF ke HTML: Panduan Lengkap untuk Mengonversi PDF dan Menghapus Gambar](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
+Pelajari cara mengonversi PDF ke HTML dan menghilangkan gambar secara otomatis menggunakan Aspose.PDF untuk .NET.
 
 ## Sumber Daya Tambahan
 

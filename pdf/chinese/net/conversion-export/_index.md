@@ -56,6 +56,9 @@ Aspose-PDF Net 代码教程
 ### [如何在 C# 中将 PDF 渲染为 PNG – 完整指南](./how-to-render-pdf-to-png-in-c-complete-guide/)
 学习使用 Aspose.PDF for .NET 在 C# 中将 PDF 渲染为高质量 PNG 图像的完整步骤和代码示例。
 
+### [如何将 PDF 页面渲染为 PNG 图像 – 完整 Aspose.PDF 指南](./how-to-render-pdf-pages-as-png-images-complete-aspose-pdf-gu/)
+了解如何使用 Aspose.PDF for .NET 将 PDF 页面渲染为高质量 PNG 图像的完整步骤和代码示例。
+
 ### [使用 Aspose.PDF for .NET 将 PDF 转换为 BMP：分步指南](./convert-pdf-to-bmp-aspose-pdf-net/)
 ### [Aspose PDF 转 PNG – 导出首页（300 DPI）](./aspose-pdf-to-png-export-first-page-at-300-dpi/)
 了解如何使用 Aspose.PDF for .NET 将 PDF 的第一页导出为 300 DPI 的 PNG 图像，确保高分辨率输出。
@@ -282,6 +285,8 @@ Aspose-PDF Net 代码教程
 
 ### [保存不含图像的 PDF – 使用 Aspose 将 PDF 转换为 HTML](./save-pdf-without-images-convert-pdf-to-html-with-aspose/)
 了解如何使用 Aspose 将 PDF 转换为 HTML，同时去除图像以减小文件体积。
+### [Aspose PDF 转 HTML：完整指南，转换 PDF 并移除图像](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
+学习如何使用 Aspose.PDF for .NET 将 PDF 转换为 HTML，并在转换过程中删除图像，以减小文件大小。
 
 ## 其他资源
 

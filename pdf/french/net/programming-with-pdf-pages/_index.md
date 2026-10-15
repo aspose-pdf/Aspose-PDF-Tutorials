@@ -62,6 +62,7 @@ Les tutoriels incluent des instructions étape par étape, des exemples de code 
 | [Ajouter une numérotation Bates aux PDF avec C# – Guide complet](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Apprenez à ajouter une numérotation Bates à vos fichiers PDF en C# avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
 | [Dupliquer une page PDF avec Aspose.Pdf – Guide complet](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Apprenez à dupliquer une page PDF avec Aspose.Pdf grâce à ce guide complet étape par étape. |
 | [Ajouter la numérotation Bates à un PDF avec Aspose.PDF – Guide complet](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Apprenez à ajouter la numérotation Bates à vos fichiers PDF en utilisant Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
+| [Ajouter une page vierge PDF avec Aspose.PDF – Guide complet](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Apprenez à ajouter une page vierge à un PDF avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

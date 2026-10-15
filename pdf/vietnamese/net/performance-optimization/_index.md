@@ -69,6 +69,8 @@ Hướng dẫn nhanh cách giảm kích thước tệp PDF trong C# bằng Aspos
 
 ### [Nén hình ảnh PDF bằng Aspose PDF trong C# – Giảm nhanh kích thước PDF](./aspose-pdf-image-compression-in-c-reduce-pdf-size-quickly/)
 Tìm hiểu cách nén hình ảnh trong PDF bằng Aspose.PDF cho C#, giảm kích thước tệp nhanh chóng và cải thiện hiệu suất tải.
+### [Cách tối ưu hóa PDF – Hướng dẫn toàn diện với Aspose.Pdf](./how-to-optimize-pdf-complete-guide-with-aspose-pdf/)
+Khám phá hướng dẫn chi tiết để tối ưu hóa PDF bằng Aspose.Pdf, bao gồm các kỹ thuật giảm kích thước và cải thiện hiệu suất.
 
 ## Tài nguyên bổ sung
 

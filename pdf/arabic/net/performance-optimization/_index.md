@@ -71,6 +71,8 @@
 
 ### [ضغط صور Aspose PDF في C# – تقليل حجم PDF بسرعة](./aspose-pdf-image-compression-in-c-reduce-pdf-size-quickly/)
 تعلم كيفية ضغط الصور داخل ملفات PDF باستخدام Aspose.PDF في C# لتقليل حجم المستندات بسرعة وتحسين الأداء.
+### [كيفية تحسين ملفات PDF – دليل كامل مع Aspose.Pdf](./how-to-optimize-pdf-complete-guide-with-aspose-pdf/)
+اكتشف خطوات تحسين ملفات PDF باستخدام Aspose.Pdf، بما في ذلك تقنيات الضغط، وإزالة العناصر غير الضرورية، وتحسين الأداء.
 
 ## موارد إضافية
 

@@ -138,6 +138,7 @@ pdf.Save("encrypted.pdf");
 | [Retrieve PDF Signatures in C# – Complete Programming Guide](./retrieve-pdf-signatures-in-c-complete-programming-guide/) | Learn how to retrieve PDF signatures in C# using Aspose.PDF for .NET. Step-by-step guide for developers. |  
 | [How to Repair PDF Files – Complete C# Guide with Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Learn how to repair corrupted PDF files using Aspose.PDF for .NET in a comprehensive C# guide. |  
 | [Verify PDF Signature in C# – Complete Aspose.PDF Guide](./verify-pdf-signature-in-c-complete-aspose-pdf-guide/) | Learn how to verify PDF signatures in C# using Aspose.PDF. Step-by-step guide for developers to ensure document authenticity. |  
+| [How to Check PDF Digital Signature in C# – Complete Guide](./how-to-check-pdf-digital-signature-in-c-complete-guide/) | Learn how to verify PDF digital signatures using Aspose.PDF for .NET in C#. Step-by-step guide for developers. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

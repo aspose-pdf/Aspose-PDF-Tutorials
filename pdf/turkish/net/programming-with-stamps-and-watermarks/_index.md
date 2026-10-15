@@ -55,6 +55,8 @@ Aspose.PDF'nin .NET için "Pullar ve Filigranlarla Programlama" öğreticileri, 
 | [Başlıktaki Resim](./image-in-header/) | Bu adım adım eğitimde Aspose.PDF for .NET kullanarak PDF'nin başlığına nasıl resim ekleneceğini öğrenin.  
 | [Aspose.Words ile Word'te Metin Filigranı Oluşturma – Tam Kılavuz](./create-text-watermark-in-word-with-aspose-words-complete-gui/) | Aspose.Words for .NET kullanarak Word belgelerine metin filigranı eklemeyi adım adım öğrenin. |
 | [PDF Dosyasına Damga Ekle – Otomatik Uyumlu Metin ile Tam Kılavuz](./how-to-add-stamp-pdf-complete-guide-with-auto-fit-text/) | Aspose.PDF for .NET kullanarak PDF dosyasına otomatik sığdırma metinli damga eklemeyi adım adım öğrenin. |  
+| [Bates Numaralandırma Öğreticisi: Aspose ile PDF'e Numara Ekleme](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) | Aspose.PDF for .NET kullanarak PDF dosyalarına Bates numaraları eklemeyi adım adım öğrenin. |
+| [PDF'e Filigran Ekleme – Aspose ile Metin Üst Katmanı Ekleme](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) Aspose.PDF for .NET kullanarak PDF dosyalarına metin tabanlı filigran eklemeyi adım adım öğrenin. |
 
 | [C# ile Bates Numaralandırma PDF Ekle – Tam Kılavuz](./add-bates-numbering-pdf-in-c-complete-guide/) | Aspose.PDF for .NET kullanarak PDF dosyalarına Bates numaralandırma eklemeyi adım adım öğrenin. |  
 | [PDF Dosyasında Hizalamayı Tanımla](./define-alignment/) | Bu kılavuz, .NET için Aspose.PDF'yi kullanarak PDF dosyalarında metin hizalamasının nasıl tanımlanacağını adım adım bir eğitimle birlikte ele almaktadır. |

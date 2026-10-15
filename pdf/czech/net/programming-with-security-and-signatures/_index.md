@@ -64,6 +64,7 @@ Tento tutoriál vám poskytne podrobný přehled metod a technik pro zajištěn�
 | [Přidání Batesova číslování do PDF – Kompletní průvodce C# s podepisováním a konverzí](./add-bates-numbering-pdf-complete-c-guide-with-signing-conver/) | Naučte se, jak přidat Batesovo číslování do PDF, podepsat a převést soubory pomocí Aspose.PDF pro .NET. |  
 | [Ověření PDF podpisu v C# – Kompletní průvodce Aspose.PDF](./verify-pdf-signature-in-c-complete-aspose-pdf-guide/) | Naučte se, jak v C# ověřit digitální podpisy PDF pomocí Aspose.PDF, krok za krokem s praktickými ukázkami. |  
 | [Získání PDF podpisů v C# – Kompletní programovací průvodce](./retrieve-pdf-signatures-in-c-complete-programming-guide/) | Naučte se, jak v C# získat a analyzovat digitální podpisy v PDF pomocí Aspose.PDF pro .NET. |  
+| [Jak zkontrolovat digitální podpis PDF v C# – Kompletní průvodce](./how-to-check-pdf-digital-signature-in-c-complete-guide/) | Naučte se, jak v C# zkontrolovat digitální podpis PDF souboru pomocí Aspose.PDF pro .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

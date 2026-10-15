@@ -344,6 +344,9 @@ Aspose.PDF Net 程式碼教學
 ### [在 C# 中合併 PDF 圖層 – 如何結合 PDF 圖層](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中合併 PDF 圖層，將多個圖層結合為單一文件。
 
+### [使用 Aspose.PDF 修復 PDF 檔案 – 完整指南](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
+了解如何使用 Aspose.PDF 修復受損或錯誤的 PDF 檔案，提供完整步驟與範例程式碼。
+
 ## 其他資源
 
 - [Aspose.PDF 用於網頁文檔](https://docs.aspose.com/pdf/net/)

@@ -53,6 +53,7 @@ Výukové programy „Programování s tagovanými PDF“ v knihovně Aspose.PDF
 | [Jak upravit tagovaný PDF pomocí Aspose.Pdf – Kompletní průvodce](./how-to-edit-tagged-pdf-with-aspose-pdf-complete-guide/) | Naučte se upravovat tagované PDF soubory pomocí Aspose.PDF pro .NET v tomto podrobném průvodci krok za krokem. |  
 | [Vytvořit tagovaný PDF v C# – Plný průvodce krok za krokem](./create-tagged-pdf-in-c-full-step-by-step-guide/) | Podrobný návod, jak v C# vytvořit plně tagovaný PDF soubor s využitím Aspose.PDF pro .NET. |  
 | [Jak označit PDF pomocí Aspose.Pdf – Kompletní programovací průvodce](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | Kompletní průvodce, jak pomocí Aspose.PDF pro .NET označit PDF soubory a zajistit přístupnost. |  
+| [Vytvořit prvek Span v PDF s Aspose – Načíst PDF a označit obsah](./create-span-element-pdf-with-aspose-load-pdf-aspose-and-tag/) | Naučte se vytvořit prvek span v PDF, načíst existující dokument a přidat tagy pomocí Aspose.PDF pro .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

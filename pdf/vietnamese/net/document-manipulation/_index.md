@@ -340,6 +340,8 @@ Tìm hiểu cách xóa phông chữ nhúng khỏi PDF bằng Aspose.PDF cho .NET
 ### [Làm phẳng các lớp PDF trong C# – Hướng dẫn xuất & trích xuất](./flatten-pdf-layers-in-c-export-extract-guide/)
 
 ### [So sánh PDF trực quan trong C# – Hướng dẫn đầy đủ để so sánh hai PDF](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
+### [Cách Sửa Các Tệp PDF Với Aspose.Pdf – Hướng Dẫn Toàn Diện](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
+Tìm hiểu cách khắc phục lỗi và sửa chữa tệp PDF bị hỏng bằng Aspose.Pdf trong .NET với hướng dẫn chi tiết.
 
 ## Tài nguyên bổ sung
 

@@ -113,6 +113,8 @@ C# में Aspose.PDF का उपयोग करके DOCX फ़ाइल
 Aspose PDF का उपयोग करके PDF को PNG छवि के रूप में सहेजें और फिर PDF/X‑1a मानक में परिवर्तित करने की चरण‑दर‑चरण गाइड।
 ### [Aspose PDF को PNG में बदलें – 300 DPI पर पहला पृष्ठ निर्यात करें](./aspose-pdf-to-png-export-first-page-at-300-dpi/)
 Aspose.PDF .NET का उपयोग करके PDF के पहले पृष्ठ को 300 DPI पर PNG छवि के रूप में निर्यात करने का चरण-दर-चरण गाइड।
+### [PDF पृष्ठों को PNG छवियों के रूप में रेंडर करने का तरीका – पूर्ण Aspose.PDF गाइड](./how-to-render-pdf-pages-as-png-images-complete-aspose-pdf-gu/)
+Aspose.PDF .NET का उपयोग करके PDF पृष्ठों को उच्च गुणवत्ता वाली PNG छवियों में बदलने की पूरी प्रक्रिया सीखें।
 
 ### [.NET के लिए Aspose.PDF के साथ PDF को PPTX में बदलें: चरण-दर-चरण मार्गदर्शिका](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 जानें कि .NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ों को PowerPoint प्रस्तुतियों में कुशलतापूर्वक कैसे परिवर्तित किया जाए। यह चरण-दर-चरण मार्गदर्शिका बुनियादी रूपांतरण, छवि स्लाइड जैसी उन्नत सुविधाओं और प्रगति ट्रैकिंग को कवर करती है।
@@ -283,6 +285,8 @@ Aspose.PDF का उपयोग करके C# में PDF को उच्
 PDF को PDF/X-1a फ़ॉर्मेट में परिवर्तित करें, पृष्ठ को PNG के रूप में निर्यात करें और टेक्स्ट स्टैम्प जोड़ें।
 ### [Aspose.Pdf के साथ PDF को HTML में सहेजें – पूर्ण C# गाइड](./save-pdf-as-html-with-aspose-pdf-complete-c-guide/)
 Aspose.Pdf का उपयोग करके C# में PDF को HTML में बदलने और सहेजने की पूरी प्रक्रिया सीखें।
+### [Aspose PDF से HTML: PDFs को परिवर्तित करने और छवियों को हटाने के लिए पूर्ण गाइड](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
+Aspose.PDF का उपयोग करके PDF को HTML में बदलें और सभी छवियों को हटाने की पूरी प्रक्रिया सीखें।
 
 ## अतिरिक्त संसाधन
 

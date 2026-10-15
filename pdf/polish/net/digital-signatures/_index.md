@@ -128,6 +128,9 @@ Dowiedz się, jak zweryfikować podpis cyfrowy w plikach PDF przy użyciu Aspose
 ### [Jak sprawdzić podpis w pliku PDF za pomocą Aspose.PDF – Kompletny przewodnik](./how-to-check-signature-in-a-pdf-with-aspose-pdf-complete-gui/)
 Dowiedz się, jak sprawdzić podpis w pliku PDF przy użyciu Aspose.PDF – kompletny przewodnik krok po kroku.
 
+### [Weryfikacja podpisu PDF w C# – Kompletny przewodnik krok po kroku](./verify-pdf-signature-in-c-complete-step-by-step-guide/)
+Poznaj kompletny przewodnik krok po kroku, jak zweryfikować podpis PDF w C# przy użyciu Aspose.PDF .NET.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)
