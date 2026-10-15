@@ -192,7 +192,50 @@ class AddExtGStateDemo
 
         // Load the PDF
         using (var pdfDocument = new Document(inputPath))
+        {
+            // Get the first page's resources dictionary
+            var firstPage = pdfDocument.Pages[1];
+            var resourcesEditor = new DictionaryEditor(firstPage.Resources);
 
+            // Retrieve the existing ExtGState dictionary
+            var extGStateDict = resourcesEditor["ExtGState"].ToCosPdfDictionary();
+
+            // Create a new graphics-state dictionary with desired parameters
+            var newGraphicsState = CosPdfDictionary.CreateEmptyDictionary(pdfDocument);
+            var graphicsStateEntries = new[]
+            {
+                new KeyValuePair<string, ICosPdfPrimitive>("CA",
+                    new CosPdfNumber(1)),   // Stroke opacity (1 = fully opaque)
+                new KeyValuePair<string, ICosPdfPrimitive>("ca",
+                    new CosPdfNumber(0.5)), // Fill opacity (0.5 = 50% transparent)
+                new KeyValuePair<string, ICosPdfPrimitive>("BM",
+                    new CosPdfName("Normal")) // Blend mode (standard normal blending)
+            };
+
+            foreach (var entry in graphicsStateEntries)
+                newGraphicsState.Add(entry);
+
+            // Add the new ExtGState to the page resources under a chosen name
+            extGStateDict.Add("GS0", newGraphicsState);
+
+            // Apply the new ExtGState in a content stream (draw a semi-transparent rectangle)
+            var content = firstPage.Contents[1];
+            content.Add("q\n");                      // Save graphics state
+            content.Add("/GS0 gs\n");                 // Apply our ExtGState
+            content.Add("0.5 0 0 0.5 100 500 cm\n");  // Scale and position
+            content.Add("0 0 200 100 re\n");          // Rectangle
+            content.Add("0.2 0.6 0.8 rg\n");           // Fill color (RGB)
+            content.Add("B\n");                        // Fill and stroke
+            content.Add("Q\n");                        // Restore graphics state
+
+            // Save the modified PDF
+            pdfDocument.Save(outputPath);
+        }
+
+        Console.WriteLine($"Done! Modified PDF saved to: {outputPath}");
+    }
+}
+```
 
 ## What Should You Learn Next?
 
