@@ -62,6 +62,8 @@
 | [Επαλήθευση υπογραφής PDF με Aspose.PDF – Πλήρης οδηγός C#](./verify-pdf-signature-with-aspose-pdf-complete-c-guide/) | Μάθετε πώς να επαληθεύετε υπογραφές PDF χρησιμοποιώντας το Aspose.PDF για .NET με βήμα-βήμα οδηγίες. |  
 | [Πώς να χρησιμοποιήσετε τον Validator σε C# – Πλήρης οδηγός ελέγχου εγκυρότητας υπογραφής](./how-to-use-validator-in-c-complete-guide-to-checking-signatu/) | Μάθετε πώς να ελέγχετε την εγκυρότητα ψηφιακών υπογραφών PDF με τον Validator σε C# – βήμα-βήμα οδηγίες. |  
 | [Προσθήκη αριθμητικής Bates σε PDF – Πλήρης οδηγός C# με υπογραφή & μετατροπή](./add-bates-numbering-pdf-complete-c-guide-with-signing-conver/) | Μάθετε πώς να προσθέτετε αριθμητική Bates σε PDF, να υπογράφετε και να μετατρέπετε έγγραφα χρησιμοποιώντας το Aspose.PDF για .NET. |
+| [Ανάκτηση υπογραφών PDF σε C# – Πλήρης προγραμματιστικός οδηγός](./retrieve-pdf-signatures-in-c-complete-programming-guide/) | Μάθετε πώς να ανακτάτε υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF σε έναν πλήρη οδηγό βήμα προς βήμα. |  
+| [Επαλήθευση υπογραφής PDF σε C# – Πλήρης οδηγός Aspose.PDF](./verify-pdf-signature-in-c-complete-aspose-pdf-guide/) | Μάθετε πώς να επαληθεύσετε υπογραφές PDF σε C# με έναν πλήρη οδηγό Aspose.PDF. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

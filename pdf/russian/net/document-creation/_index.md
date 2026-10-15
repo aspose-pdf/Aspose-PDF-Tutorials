@@ -119,6 +119,9 @@
 ### [Создание PDF‑изображения из HEIC – Полное руководство на C#](./create-pdf-image-from-heic-complete-c-guide/)
 Узнайте, как преобразовать изображения HEIC в PDF с помощью Aspose.PDF для .NET, используя C#.
 
+### [Создание PDF‑документа с Aspose.Pdf – полное пошаговое руководство](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+Узнайте, как создавать PDF‑документы с помощью Aspose.Pdf, следуя полному пошаговому руководству.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.PDF для сети](https://docs.aspose.com/pdf/net/)

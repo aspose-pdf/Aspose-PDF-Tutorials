@@ -103,6 +103,9 @@ Pelajari cara menambahkan halaman kosong dan menggambar persegi panjang dalam do
 ### [Buat Gambar PDF dari HEIC – Panduan Lengkap C#](./create-pdf-image-from-heic-complete-c-guide/)
 Pelajari cara mengonversi file HEIC menjadi gambar PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode C# lengkap.
 
+### [Buat Dokumen PDF dengan Aspose.Pdf – Panduan Lengkap Langkah demi Langkah](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+Pelajari cara membuat dokumen PDF secara lengkap dengan Aspose.PDF melalui panduan langkah demi langkah yang detail.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

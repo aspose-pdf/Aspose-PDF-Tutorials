@@ -101,6 +101,9 @@
 ### [إنشاء صورة PDF من HEIC – دليل كامل بلغة C#](./create-pdf-image-from-heic-complete-c-guide/)
 تعلم كيفية تحويل ملفات HEIC إلى صور PDF باستخدام Aspose.PDF في C# خطوة بخطوة.
 
+### [إنشاء مستند PDF باستخدام Aspose.Pdf – دليل كامل خطوة بخطوة](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+دليل شامل يوضح كيفية إنشاء مستند PDF كامل خطوة بخطوة باستخدام Aspose.PDF في .NET.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

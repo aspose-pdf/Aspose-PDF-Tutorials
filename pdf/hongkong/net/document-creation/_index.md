@@ -99,6 +99,8 @@ Aspose.PDF Net 程式碼教學
 了解如何使用 Aspose.PDF for .NET 在 C# 中建立 PDF 文件，新增空白頁面並繪製矩形。
 ### [從 HEIC 建立 PDF 圖像 – 完整 C# 指南](./create-pdf-image-from-heic-complete-c-guide/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中將 HEIC 圖像轉換為 PDF，涵蓋設定與完整範例。
+### [使用 Aspose.PDF 建立 PDF 文件：完整逐步指南](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+了解如何使用 Aspose.PDF 逐步建立 PDF 文件，涵蓋設定、內容加入與儲存等關鍵步驟。
 
 ## 其他資源
 

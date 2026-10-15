@@ -122,6 +122,22 @@ pdf.Save("encrypted.pdf");
 | [Create Signed PDF in C# – Step‑by‑Step Guide]({{< relref "create-signed-pdf-in-c-step-by-step-guide/" >}}) | Learn how to create a signed PDF in C# using Aspose.PDF for .NET. Follow this step-by-step guide to add digital signatures. |  
 | [Verify PDF signature in C# – Step‑by‑Step Guide]({{< relref "verify-pdf-signature-in-c-step-by-step-guide/" >}}) | Learn how to verify PDF signatures in C# using Aspose.PDF for .NET. Step-by-step guide ensures accurate validation of digital signatures. |  
 | [How to Verify PDF – Complete C# Guide for Digital Signatures]({{< relref "how-to-verify-pdf-complete-c-guide-for-digital-signatures/" >}}) | Learn how to verify PDF digital signatures using Aspose.PDF for .NET with a complete C# step‑by‑step guide. |  
+| [Change Password In PDF File](./change-password/) | Learn to change PDF passwords easily using Aspose.PDF for .NET. Our step-by-step guide walks you through the process securely. |  
+| [Decrypt PDF File](./decrypt/) | Learn how to securely decrypt PDF files using Aspose.PDF for .NET. Get step-by-step guidance to enhance your document management skills. |  
+| [Determine Correct Password In PDF File](./determine-correct-password/) | Unlock PDF files with the right password using Aspose.PDF for .NET. Learn how to identify the correct password easily. |  
+| [Digitally Sign In PDF File](./digitally-sign/) | Learn how to digitally sign PDF files with Aspose.PDF for .NET. Step-by-step guide to ensure your documents are secure and authentic. |  
+| [Digitally Sign With Time Stamp In PDF File](./digitally-sign-with-time-stamp/) | Learn how to digitally sign a PDF with a timestamp using Aspose.PDF for .NET. This step-by-step guide covers prerequisites, certificate setup, timestamping, and more. |  
+| [Encrypt PDF File](./encrypt/) | Learn how to encrypt your PDF files effortlessly using Aspose.PDF for .NET. Secure sensitive information with our easy step-by-step guide. |  
+| [Extracting Image](./extracting-image/) | Easily learn how to extract images from PDFs using Aspose.PDF for .NET. Follow our step-by-step guide for seamless image extraction. |  
+| [Extract Signature Info](./extract-signature-info/) | Learn how to extract digital signatures and certificate information from PDF documents using Aspose.PDF for .NET. A complete step-by-step guide for C# developers. |  
+| [Is Password Protected](./is-password-protected/) | Learn how to check if a PDF is password protected using Aspose.PDF for .NET in this comprehensive step-by-step guide. |  
+| [Set Privileges In PDF File](./set-privileges/) | Learn how to set PDF privileges using Aspose.PDF for .NET with this step-by-step guide. Secure your documents effectively. |  
+| [Sign With Smart Card Using Pdf File Signature](./sign-with-smart-card-using-pdf-file-signature/) | Learn how to sign PDF files using a smart card with Aspose.PDF for .NET. Follow this step-by-step guide for secure digital signatures. |  
+| [Sign With Smart Card Using Signature Field](./sign-with-smart-card-using-signature-field/) | Learn how to securely sign PDFs using a smart card with Aspose.PDF for .NET. Follow our step-by-step guide for easy implementation. |  
+| [Check PDF Signatures in C# – How to Read Signed PDF Files](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Learn how to read and verify PDF signatures using Aspose.PDF for .NET in C#. Step-by-step guide for developers. |  
+| [Retrieve PDF Signatures in C# – Complete Programming Guide](./retrieve-pdf-signatures-in-c-complete-programming-guide/) | Learn how to retrieve PDF signatures in C# using Aspose.PDF for .NET. Step-by-step guide for developers. |  
+| [How to Repair PDF Files – Complete C# Guide with Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Learn how to repair corrupted PDF files using Aspose.PDF for .NET in a comprehensive C# guide. |  
+| [Verify PDF Signature in C# – Complete Aspose.PDF Guide](./verify-pdf-signature-in-c-complete-aspose-pdf-guide/) | Learn how to verify PDF signatures in C# using Aspose.PDF. Step-by-step guide for developers to ensure document authenticity. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

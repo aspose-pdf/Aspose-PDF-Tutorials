@@ -61,6 +61,7 @@ Handledningarna innehåller steg-för-steg-instruktioner, detaljerade kodexempel
 | [Omordna PDF-sidor i C# – Fullständig steg‑för‑steg‑guide](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | Steg-för-steg-guide för att omordna PDF-sidor i en PDF med Aspose.PDF för .NET i C#. |
 | [Omordna PDF-sidor med Aspose.Pdf – Fullständig C#‑guide](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) | Steg‑för‑steg‑guide för att omordna PDF‑sidor med Aspose.Pdf i C#. Lätt att följa och implementera. |
 | [Lägg till Bates-nummerering i PDF-filer med C# – Komplett guide](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Steg-för-steg-guide för att lägga till Bates-nummerering i PDF-filer med C# och Aspose.PDF för .NET. |
+| [Lägg till Bates-nummerering i PDF med Aspose.PDF – Komplett guide](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Steg-för-steg-guide för att lägga till Bates-nummerering i PDF-filer med Aspose.PDF för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

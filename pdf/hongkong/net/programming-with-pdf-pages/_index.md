@@ -34,6 +34,7 @@ Aspose.PDF for .NET 的「使用 PDF 頁面進行編程」文件提供了逐步�
 
 |標題 |描述 |
 | --- | --- | 
+| [使用 Aspose.PDF 為 PDF 添加 Bates 編號 – 完整指南](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | 本完整指南說明如何使用 Aspose.PDF 為 PDF 文件添加 Bates 編號，提供逐步說明與程式碼範例。 |  
 | [使用 C# 為 PDF 添加頁碼 – 完整逐步指南](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) |使用 Aspose.PDF for .NET 透過 C# 為 PDF 添加頁碼的完整逐步指南，簡單易於實作。 |  
 | [為 PDF 添加頁面 – C# 開發人員完整逐步指南](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) |使用 Aspose.PDF for .NET 在 C# 中為 PDF 添加頁面的完整逐步指南，簡單易於實作。 |  
 | [改變方向](./change-orientation/) |使用 Aspose.PDF for .NET 變更 PDF 頁面方向的逐步指南。易於在您的專案中遵循和實施。 |  

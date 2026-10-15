@@ -220,6 +220,12 @@ C# ve Aspose.PDF kullanarak docx dosyalarını HTML formatına nasıl dönüşt�
 ### [C# ile docx'i PNG'ye Dönüştürme – Tam Kılavuz](./convert-docx-to-png-in-c-complete-guide/)
 Aspose.PDF for .NET kullanarak docx dosyalarını yüksek kaliteli PNG görüntülerine nasıl dönüştüreceğinizi adım adım öğrenin.
 
+### [PDF Sayfalarını Aspose.PDF .NET ile PNG'ye Dönüştürme – Tam Aspose.Pdf Kılavuzu](./convert-pdf-page-to-png-complete-aspose-pdf-guide/)
+Aspose.PDF for .NET ile tek bir PDF sayfasını yüksek kaliteli PNG görüntüsüne dönüştürmeyi adım adım öğrenin.
+
+### [Resimsiz PDF Kaydet – Aspose ile PDF'yi HTML'ye Dönüştürme](./save-pdf-without-images-convert-pdf-to-html-with-aspose/)
+Aspose.PDF for .NET ile PDF'den resimleri çıkartarak HTML'ye dönüştürmeyi öğrenin.
+
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)

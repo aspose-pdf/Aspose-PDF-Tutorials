@@ -70,6 +70,8 @@ Pelajari cara menyunting PDF dengan aman menggunakan Aspose.PDF .NET. Panduan in
 
 ### [Cara Menyunting PDF dan Menghapus Data Sensitif PDF dalam C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
 Pelajari cara men‑redact PDF dan menghapus data sensitif secara programatis menggunakan Aspose.PDF untuk .NET dengan contoh kode C#.
+### [Cara Menyunting PDF dengan Aspose.PDF – Panduan Lengkap Langkah demi Langkah](./how-to-redact-pdf-with-aspose-pdf-complete-step-by-step-guid/)
+Pelajari cara menutup atau menyunting konten sensitif dalam PDF secara otomatis menggunakan Aspose.PDF dengan panduan langkah demi langkah.
 
 ### [Membuka dan Mendekripsi File PDF dengan Aspose.PDF untuk .NET: Panduan Lengkap](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 Pelajari cara membuka kunci dan mendekripsi file PDF yang dilindungi menggunakan Aspose.PDF for .NET dalam C#. Panduan ini mencakup penyiapan, langkah-langkah dekripsi, dan praktik terbaik.

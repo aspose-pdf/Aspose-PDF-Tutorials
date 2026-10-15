@@ -93,6 +93,8 @@ Aspose.PDF Net 程式碼教學
 了解如何使用 Aspose.PDF for .NET 將 PDF 首頁匯出為 300 DPI 的 PNG 圖像，提供程式碼範例與設定說明。
 ### [使用 Aspose 將 PDF 渲染為 PNG 的完整指南](./how-to-render-pdf-to-png-with-aspose-complete-guide/)
 了解如何使用 Aspose.PDF for .NET 將 PDF 渲染為高品質 PNG 圖像，並提供完整的 C# 程式碼範例。
+### [將 PDF 頁面轉換為 PNG：完整 Aspose.PDF 指南](./convert-pdf-page-to-png-complete-aspose-pdf-guide/)
+了解如何使用 Aspose.PDF for .NET 將 PDF 頁面高品質地轉換為 PNG 圖像，並掌握字體提示與最佳化設定。
 
 ### [使用 Aspose.PDF for .NET 將 PDF 轉換為 PPTX：逐步指南](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 了解如何使用 Aspose.PDF for .NET 將 PDF 文件有效率地轉換為 PowerPoint 簡報。本逐步指南涵蓋基本轉換、影像幻燈片等高級功能以及進度追蹤。
@@ -245,6 +247,8 @@ Aspose.PDF Net 程式碼教學
 
 ### [使用 Aspose.PDF .NET 將 PDF 轉換為 HTML：完整指南](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
 了解如何使用 Aspose.PDF for .NET 及 C# 將 PDF 轉換並儲存為高品質的 HTML 文件，包含完整程式碼範例與設定說明。
+### [保存 PDF（不含圖像） – 使用 Aspose 將 PDF 轉換為 HTML](./save-pdf-without-images-convert-pdf-to-html-with-aspose/)
+了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 HTML，並排除所有圖像，以減少檔案大小並提升載入速度。
 
 ### [使用 Aspose.PDF for .NET 將 PDF 轉換為 HTML](./pdf-to-html-conversion-aspose-dot-net/)
 Aspose.PDF Net 程式碼教學

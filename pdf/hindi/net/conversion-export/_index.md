@@ -68,6 +68,9 @@ Aspose का उपयोग करके .NET में PDF को उच्�
 
 ### [C# में docx को PNG में बदलें: एक व्यापक गाइड](./convert-docx-to-png-in-c-complete-guide/)
 
+### [PDF पृष्ठ को PNG में बदलें – पूर्ण Aspose.Pdf गाइड](./convert-pdf-page-to-png-complete-aspose-pdf-guide/)
+Aspose.PDF .NET का उपयोग करके PDF पृष्ठ को उच्च-गुणवत्ता वाले PNG छवि में बदलने के लिए चरण-दर-चरण पूर्ण मार्गदर्शिका।
+
 इस व्यापक गाइड के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF पृष्ठों को उच्च गुणवत्ता वाली BMP छवियों में परिवर्तित करना सीखें।
 
 ### [.NET के लिए Aspose.PDF का उपयोग करके PDF को EMF में बदलें: एक संपूर्ण गाइड](./convert-pdf-emf-aspose-net-guide/)
@@ -84,6 +87,9 @@ C# में Aspose.PDF का उपयोग करके PDF को HTML म�
 
 ### [छवियों को सहेजे बिना Aspose.PDF का उपयोग करके .NET में PDF को HTML में बदलें](./convert-pdf-html-net-asposepdf-no-images/)
 जानें कि .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइलों को HTML में कैसे परिवर्तित किया जाए, बिना छवियों को अलग से सहेजे। हमारे विस्तृत गाइड के साथ लेआउट अखंडता बनाए रखें।
+
+### [छवियों के बिना PDF सहेजें – Aspose के साथ PDF को HTML में बदलें](./save-pdf-without-images-convert-pdf-to-html-with-aspose/)
+Aspose का उपयोग करके PDF को HTML में बदलें और सभी छवियों को हटाकर हल्का आउटपुट प्राप्त करें।
 
 ### [Aspose.PDF का उपयोग करके कस्टम छवि पथों के साथ .NET में PDF को HTML में बदलें](./convert-pdf-html-custom-image-paths-dotnet/)
 .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइलों को HTML प्रारूप में परिवर्तित करना सीखें, और छवि पथों को कुशलतापूर्वक अनुकूलित करें। वेब एकीकरण के लिए आदर्श।

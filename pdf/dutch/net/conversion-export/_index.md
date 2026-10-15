@@ -82,6 +82,9 @@ Leer hoe u PDF-bestanden naar HTML converteert met Aspose.PDF voor .NET met behu
 ### [PDF naar HTML converteren in .NET met Aspose.PDF zonder afbeeldingen op te slaan](./convert-pdf-html-net-asposepdf-no-images/)
 Leer hoe u PDF-bestanden naar HTML kunt converteren met Aspose.PDF voor .NET zonder afbeeldingen apart op te slaan. Behoud de lay-outintegriteit met onze gedetailleerde handleiding.
 
+### [PDF opslaan zonder afbeeldingen – PDF naar HTML converteren met Aspose](./save-pdf-without-images-convert-pdf-to-html-with-aspose/)
+Leer hoe u een PDF opslaat zonder afbeeldingen door deze naar HTML te converteren met Aspose.PDF voor .NET.
+
 ### [Converteer PDF naar HTML in .NET met aangepaste afbeeldingspaden met Aspose.PDF](./convert-pdf-html-custom-image-paths-dotnet/)
 Leer hoe u PDF-bestanden naar HTML-formaat converteert met Aspose.PDF voor .NET en afbeeldingspaden efficiënt aanpast. Ideaal voor webintegratie.
 
@@ -282,6 +285,8 @@ Leer hoe u PDF's opslaat als HTML met Aspose.PDF in C#, inclusief codevoorbeelde
 Leer hoe u HTML-inhoud uit een PDF-document kunt extraheren en opslaan met Aspose.PDF voor .NET.
 ### [DOCX naar PNG converteren in C# – Complete gids](./convert-docx-to-png-in-c-complete-guide/)
 Leer hoe u DOCX-bestanden naar PNG-afbeeldingen converteert met C# en Aspose.PDF voor .NET.
+### [PDF-pagina naar PNG converteren – Complete Aspose.PDF-gids](./convert-pdf-page-to-png-complete-aspose-pdf-guide/)
+Leer hoe u een enkele PDF-pagina omzet naar een PNG-afbeelding met Aspose.PDF voor .NET in een volledige stap‑voor‑stap gids.
 
 ## Aanvullende bronnen
 

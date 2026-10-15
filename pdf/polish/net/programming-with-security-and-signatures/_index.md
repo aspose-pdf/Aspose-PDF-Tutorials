@@ -62,6 +62,8 @@ Samouczek zapewnia szczegółowy przegląd metod i technik zapewniających poufn
 | [Sprawdź podpis PDF za pomocą Aspose.PDF – Kompletny przewodnik C#](./verify-pdf-signature-with-aspose-pdf-complete-c-guide/) | Dowiedz się, jak weryfikować podpisy PDF przy użyciu Aspose.PDF w C# – kompletny przewodnik krok po kroku. |
 | [Jak używać walidatora w C# – Kompletny przewodnik sprawdzania ważności podpisu](./how-to-use-validator-in-c-complete-guide-to-checking-signatu/) | Dowiedz się, jak używać walidatora w C# do sprawdzania ważności podpisów cyfrowych w plikach PDF przy użyciu Aspose.PDF. |  
 | [Dodaj numerację Bates do PDF – Kompletny przewodnik C# z podpisywaniem i konwersją](./add-bates-numbering-pdf-complete-c-guide-with-signing-conver/) | Dowiedz się, jak dodać numerację Bates do plików PDF, podpisać je i konwertować przy użyciu Aspose.PDF dla .NET. |  
+| [Sprawdź podpis PDF w C# – Kompletny przewodnik Aspose.PDF](./verify-pdf-signature-in-c-complete-aspose-pdf-guide/) | Dowiedz się, jak w pełni weryfikować podpisy PDF w C# przy użyciu Aspose.PDF – kompletny przewodnik krok po kroku. |  
+| [Pobierz podpisy PDF w C# – Kompletny przewodnik programistyczny](./retrieve-pdf-signatures-in-c-complete-programming-guide/) | Dowiedz się, jak pobrać wszystkie podpisy PDF w C# przy użyciu Aspose.PDF dla .NET. Kompletny przewodnik krok po kroku. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -213,6 +213,12 @@ Master Aspose.PDF για .NET για απρόσκοπτη μετατροπή δ�
 ### [Μετατροπή docx σε png σε C# – Πλήρης οδηγός](./convert-docx-to-png-in-c-complete-guide/)
 Μάθετε πώς να μετατρέψετε αρχεία DOCX σε εικόνες PNG με C# και Aspose.PDF, ακολουθώντας έναν πλήρη βήμα-βήμα οδηγό.
 
+### [Αποθήκευση PDF χωρίς εικόνες – Μετατροπή PDF σε HTML με το Aspose](./save-pdf-without-images-convert-pdf-to-html-with-aspose/)
+Μάθετε πώς να αποθηκεύετε PDF χωρίς εικόνες και να το μετατρέπετε σε HTML χρησιμοποιώντας το Aspose.PDF για .NET.
+
+### [Μετατροπή σελίδας PDF σε PNG – Πλήρης οδηγός Aspose.PDF](./convert-pdf-page-to-png-complete-aspose-pdf-guide/)
+Μάθετε πώς να μετατρέψετε μια σελίδα PDF σε PNG χρησιμοποιώντας το Aspose.PDF για .NET με βήμα‑βήμα παραδείγματα κώδικα.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.PDF για τεκμηρίωση δικτύου](https://docs.aspose.com/pdf/net/)

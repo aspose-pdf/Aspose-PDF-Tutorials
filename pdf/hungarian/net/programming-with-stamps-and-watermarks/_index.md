@@ -57,6 +57,7 @@ Az Aspose.PDF „Bélyegzők és vízjelek programozása” című .NET oktatóa
 | [Bates-számozás hozzáadása PDF-hez – Teljes útmutató az Aspose-szal](./add-bates-numbering-pdf-complete-guide-with-aspose/) Tanulja meg, hogyan adhat hozzá Bates-számozást PDF-fájlokhoz az Aspose.PDF for .NET segítségével ebben a részletes útmutatóban. |  
 | [Bates-számozás hozzáadása PDF-hez C#-ban – Teljes lépésről‑lépésre útmutató](./add-bates-numbering-to-pdf-in-c-complete-step-by-step-guide/) | Tanulja meg, hogyan adhat hozzá Bates-számozást PDF-fájlokhoz C#-ban az Aspose.PDF for .NET segítségével ebben a részletes útmutatóban. |
 | [Szöveges vízjel létrehozása Word-ben az Aspose.Words segítségével – Teljes útmutató](./create-text-watermark-in-word-with-aspose-words-complete-gui/) | Tanulja meg, hogyan hozhat szöveges vízjelet Word dokumentumokba az Aspose.Words használatával, lépésről lépésre útmutatóval. |
+| [Hogyan adjunk hozzá bélyegző PDF-et – Teljes útmutató automatikus szövegillesztéssel](./how-to-add-stamp-pdf-complete-guide-with-auto-fit-text/) | Tanulja meg, hogyan adhat hozzá bélyegzőt PDF-fájlhoz az Aspose.PDF for .NET használatával, automatikus szövegillesztéssel. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

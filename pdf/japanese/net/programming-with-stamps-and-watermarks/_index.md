@@ -57,6 +57,7 @@ Aspose.PDF の .NET 向けチュートリアル「スタンプと透かしを使
 | [AsposeでBates番号付けPDFを追加する完全ガイド](./add-bates-numbering-pdf-complete-guide-with-aspose/) Aspose.PDF for .NET を使用して、PDF に Bates 番号を付与する手順をステップバイステップで解説します。法務文書の管理に最適です。 |  
 | [C#でPDFにベーツ番号付与を追加する – 完全ステップバイステップガイド](./add-bates-numbering-to-pdf-in-c-complete-step-by-step-guide/) Aspose.PDF for .NET を使用して、C# で PDF にベーツ番号（ページ番号）を付与する方法をステップバイステップで解説します。 |  
 | [Aspose.Words で Word にテキスト透かしを作成する完全ガイド](./create-text-watermark-in-word-with-aspose-words-complete-gui/) Aspose.Words for .NET を使用して、Word 文書にテキスト透かしを追加する手順をステップバイステップで解説します。 |  
+| [PDF にスタンプを追加する方法 – 自動フィットテキスト付き完全ガイド](./how-to-add-stamp-pdf-complete-guide-with-auto-fit-text/) Aspose.PDF for .NET を使用して、テキストが自動的にフィットするスタンプを PDF に追加する完全ガイドです。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

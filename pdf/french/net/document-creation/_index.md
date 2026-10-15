@@ -102,6 +102,9 @@ Apprenez à ajouter une page blanche et dessiner un rectangle dans un PDF avec A
 ### [Créer une image PDF à partir de HEIC – Guide complet C#](./create-pdf-image-from-heic-complete-c-guide/)
 Apprenez à convertir des fichiers HEIC en images PDF en C# avec Aspose.PDF, étape par étape.
 
+### [Créer un document PDF avec Aspose.Pdf – Guide complet étape par étape](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+Apprenez à créer un document PDF complet avec Aspose.PDF grâce à un guide détaillé étape par étape.
+
 ## Ressources supplémentaires
 
 - [Aspose.PDF pour la documentation réseau](https://docs.aspose.com/pdf/net/)

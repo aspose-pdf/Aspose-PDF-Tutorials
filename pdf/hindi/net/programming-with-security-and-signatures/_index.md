@@ -61,6 +61,8 @@
 | [Aspose.PDF के साथ PDF डिजिटल हस्ताक्षर सत्यापित करें – पूर्ण C# गाइड](./verify-pdf-signature-with-aspose-pdf-complete-c-guide/) | Aspose.PDF का उपयोग करके PDF में डिजिटल हस्ताक्षर कैसे सत्यापित करें, इस पूर्ण C# गाइड में सीखें। |  
 | [C# में वैलिडेटर का उपयोग कैसे करें – सिग्नेचर वैधता जांचने के लिए पूर्ण गाइड](./how-to-use-validator-in-c-complete-guide-to-checking-signatu/) | .NET के लिए Aspose.PDF का उपयोग करके सिग्नेचर वैधता जांचने के लिए वैलिडेटर का उपयोग कैसे करें, इस पूर्ण गाइड में जानें। |  
 | [Bates नंबरिंग PDF जोड़ें – साइनिंग और रूपांतरण के साथ पूर्ण C# गाइड](./add-bates-numbering-pdf-complete-c-guide-with-signing-conver/) | .NET के लिए Aspose.PDF का उपयोग करके PDF में Bates नंबरिंग जोड़ें, साथ ही साइनिंग और रूपांतरण के चरण सीखें। |  
+| [C# में PDF हस्ताक्षर सत्यापित करें – Aspose.PDF पूर्ण गाइड](./verify-pdf-signature-in-c-complete-aspose-pdf-guide/) | .NET के लिए Aspose.PDF का उपयोग करके PDF हस्ताक्षर कैसे सत्यापित करें, इस चरण-दर-शरण मार्गदर्शन में जानें। |  
+| [C# में PDF हस्ताक्षर प्राप्त करें – पूर्ण प्रोग्रामिंग गाइड](./retrieve-pdf-signatures-in-c-complete-programming-guide/) | .NET के लिए Aspose.PDF का उपयोग करके PDF हस्ताक्षर कैसे प्राप्त करें, इस चरण-दर-शरण गाइड में जानें। |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

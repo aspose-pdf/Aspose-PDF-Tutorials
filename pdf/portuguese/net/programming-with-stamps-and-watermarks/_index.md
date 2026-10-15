@@ -56,6 +56,7 @@ Os tutoriais "Programação com Carimbos e Marcas D'água" do Aspose.PDF para .N
 | [Adicionar numeração Bates ao PDF – Guia completo com Aspose](./add-bates-numbering-pdf-complete-guide-with-aspose/) | Aprenda a adicionar numeração Bates a PDFs usando o Aspose.PDF para .NET com este guia passo a passo. |  
 | [Adicionar numeração Bates a PDF em C# – Guia completo passo a passo](./add-bates-numbering-to-pdf-in-c-complete-step-by-step-guide/) | Aprenda a adicionar numeração Bates a PDFs usando Aspose.PDF para .NET com este guia passo a passo. |
 | [Criar marca d'água de texto no Word com Aspose.Words – Guia completo](./create-text-watermark-in-word-with-aspose-words-complete-gui/) | Aprenda a criar uma marca d'água de texto em documentos Word usando Aspose.Words com este guia passo a passo. |  
+| [Como adicionar carimbo PDF – Guia completo com ajuste automático de texto](./how-to-add-stamp-pdf-complete-guide-with-auto-fit-text/) | Aprenda a adicionar carimbos a PDFs com texto que se ajusta automaticamente, usando Aspose.PDF para .NET, passo a passo. |  
 
 | [Adicionar numeração Bates em PDF em C# – Guia completo](./add-bates-numbering-pdf-in-c-complete-guide/) | Aprenda a aplicar numeração Bates em PDFs usando Aspose.PDF para .NET com este guia passo a passo. |  
 | [Como adicionar Bates – Guia passo a passo para PDFs](./how-to-add-bates-step-by-step-guide-for-pdfs/) | Aprenda a adicionar números de Bates a arquivos PDF usando o Aspose.PDF para .NET com este guia passo a passo. |

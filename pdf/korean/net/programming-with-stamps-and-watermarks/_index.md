@@ -26,6 +26,7 @@ Aspose.PDF의 .NET용 "스탬프 및 워터마크 프로그래밍" 튜토리얼�
 | [PDF 파일에 PDF 페이지 스탬프 추가](./add-pdf-page-stamp/) | Aspose.PDF for .NET을 사용하여 PDF 페이지 스탬프를 추가하는 방법을 이 자세한 가이드를 통해 알아보세요. PDF 문서의 효과를 높여 보세요. |  
 | [PDF 파일에 텍스트 스탬프 추가](./add-text-stamp/) | Aspose.PDF for .NET을 사용하여 PDF 파일에 텍스트 스탬프를 추가하는 방법을 단계별 가이드를 통해 알아보고 문서 프레젠테이션을 한 단계 업그레이드하세요. |  
 | [PDF에 스탬프 추가 – 첫 페이지에 워터마크 적용](./add-stamp-to-pdf-apply-watermark-pdf-on-first-page/) | Aspose.PDF for .NET을 사용하여 PDF 첫 페이지에 스탬프와 워터마크를 적용하는 방법을 단계별로 안내합니다. |
+| [PDF에 스탬프 추가 방법 – 자동 맞춤 텍스트 완전 가이드](./how-to-add-stamp-pdf-complete-guide-with-auto-fit-text/) | Aspose.PDF for .NET을 사용하여 자동 맞춤 텍스트와 함께 PDF에 스탬프를 추가하는 방법을 단계별로 안내합니다. |  
 | [PDF 파일에서 아티팩트 계산](./counting-artifacts/) Aspose.PDF for .NET을 사용하여 PDF의 워터마크 개수를 세는 방법을 알아보세요. 사전 경험이 없는 초보자를 위한 단계별 가이드입니다. |  
 | [PDF 파일에서 정렬 정의](./define-alignment/) | 이 가이드에서는 Aspose.PDF for .NET을 사용하여 PDF 파일의 텍스트 정렬을 정의하는 방법을 단계별 자습서와 함께 설명합니다. |  
 | [스탬프 주석에서 텍스트 추출](./extract-text-from-stamp-annotation/) | Aspose.PDF for .NET을 사용하여 PDF의 스탬프 주석에서 텍스트를 추출하는 방법을 단계별 튜토리얼과 자세한 코드 예제를 통해 알아보세요. |  

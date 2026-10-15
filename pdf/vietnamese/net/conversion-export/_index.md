@@ -88,6 +88,7 @@ Tìm hiểu cách chuyển đổi PDF sang PNG trong C# với hướng dẫn chi
 Hướng dẫn xuất trang đầu tiên của tài liệu PDF thành hình ảnh PNG với độ phân giải 300 DPI bằng Aspose.PDF cho .NET.
 ### [Chuyển đổi docx sang png trong C# – Hướng dẫn toàn diện](./convert-docx-to-png-in-c-complete-guide/)
 Tìm hiểu cách chuyển đổi tài liệu DOCX thành hình ảnh PNG trong C# bằng Aspose.PDF, bao gồm các bước cấu hình và ví dụ mã thực tế.
+### [Chuyển đổi trang PDF sang PNG – Hướng dẫn đầy đủ Aspose.Pdf](./convert-pdf-page-to-png-complete-aspose-pdf-guide/)
 
 ### [Chuyển đổi PDF sang PPTX bằng Aspose.PDF cho .NET: Hướng dẫn từng bước](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 Tìm hiểu cách chuyển đổi hiệu quả các tài liệu PDF thành bản trình bày PowerPoint bằng Aspose.PDF cho .NET. Hướng dẫn từng bước này bao gồm chuyển đổi cơ bản, các tính năng nâng cao như slide hình ảnh và theo dõi tiến trình.
@@ -267,6 +268,8 @@ Hướng dẫn chi tiết từng bước cách lưu PDF thành HTML bằng C# s�
 Hướng dẫn chi tiết cách lưu tài liệu PDF bằng Aspose trong .NET, bao gồm các bước cấu hình và ví dụ mã thực tế.
 ### [Lưu PDF dưới dạng HTML bằng Aspose.PDF – Hướng dẫn C# đầy đủ](./save-pdf-as-html-using-aspose-pdf-complete-c-guide/)
 Tìm hiểu cách lưu tài liệu PDF dưới dạng HTML bằng Aspose.PDF trong C# với hướng dẫn chi tiết và ví dụ thực tế.
+### [Lưu PDF không có hình ảnh – Chuyển đổi PDF sang HTML với Aspose](./save-pdf-without-images-convert-pdf-to-html-with-aspose/)
+Hướng dẫn lưu PDF không bao gồm hình ảnh và chuyển đổi sang HTML bằng Aspose.PDF cho .NET.
 
 ### [Chuyển đổi PDF sang TIFF trong .NET bằng Aspose.PDF: Hướng dẫn từng bước](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Tìm hiểu cách chuyển đổi tài liệu PDF sang hình ảnh TIFF bằng Aspose.PDF cho .NET. Làm chủ độ sâu màu tùy chỉnh và các kỹ thuật xử lý hình ảnh tiên tiến.

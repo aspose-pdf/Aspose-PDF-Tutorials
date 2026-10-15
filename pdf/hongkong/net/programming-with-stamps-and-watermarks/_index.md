@@ -26,6 +26,7 @@ Aspose.PDF 的「使用圖章和浮水印進行程式設計」.NET 教學課程�
 | [在 PDF 檔案中新增不同的頁眉](./adding-different-headers/) |了解如何使用 Aspose.PDF for .NET 在 PDF 檔案中新增不同的標題。自訂 PDF 的逐步指南。 |  
 | [在 PDF 檔案中新增 PDF 頁面戳](./add-pdf-page-stamp/) |透過本詳細指南了解如何使用 Aspose.PDF for .NET 新增 PDF 頁面戳記。增強 PDF 文件的影響力。 |  
 | [在 PDF 檔案中加入文字印章](./add-text-stamp/) |透過我們的逐步指南學習如何使用 Aspose.PDF for .NET 在 PDF 文件中新增文字標記並提升您的文件簡報效果。 |  
+| [在 PDF 檔案中新增印章 – 完整指南與自動適應文字](./how-to-add-stamp-pdf-complete-guide-with-auto-fit-text/) |透過本完整指南學習如何在 PDF 中添加印章，並使用自動適應文字功能確保文字完美呈現。 |  
 | [PDF檔案中的文物計數](./counting-artifacts/) |了解如何使用 Aspose.PDF for .NET 計算 PDF 中的浮水印。為無需任何經驗的初學者提供逐步指南。 |  
 | [在 PDF 檔案中定義對齊方式](./define-alignment/) |本指南說明如何使用 Aspose.PDF for .NET 定義 PDF 檔案中的文字對齊，並附有逐步教學。 |  
 | [從圖章註釋中提取文本](./extract-text-from-stamp-annotation/) |透過本逐步教學（附有詳細的程式碼範例），了解如何使用 Aspose.PDF for .NET 從 PDF 中的印章註解中提取文字。 |  

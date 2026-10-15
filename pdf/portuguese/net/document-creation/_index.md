@@ -103,6 +103,9 @@ Aprenda a criar um documento PDF, adicionar uma página em branco e desenhar um 
 ### [Criar imagem PDF a partir de HEIC – Guia completo em C#](./create-pdf-image-from-heic-complete-c-guide/)
 Aprenda a gerar PDFs contendo imagens HEIC usando Aspose.PDF para .NET com código C# completo.
 
+### [Criar documento PDF com Aspose.Pdf – Guia completo passo a passo](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+Aprenda a criar documentos PDF com Aspose.PDF usando um guia passo a passo completo.
+
 ## Recursos adicionais
 
 - [Aspose.PDF para documentação da Net](https://docs.aspose.com/pdf/net/)

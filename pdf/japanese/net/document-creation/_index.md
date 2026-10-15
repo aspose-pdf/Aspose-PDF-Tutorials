@@ -103,6 +103,9 @@ C# で Aspose.PDF を使用し、空白ページを追加し矩形を描画す�
 ### [HEIC 画像から PDF を作成 – 完全 C# ガイド](./create-pdf-image-from-heic-complete-c-guide/)
 HEIC 形式の画像を PDF に変換する方法を C# でステップバイステップで解説します。
 
+### [Aspose.Pdf を使用した PDF ドキュメントの作成 – 完全ステップバイステップガイド](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+Aspose.Pdf を使って .NET で PDF ドキュメントを最初から作成する方法を、詳細な手順で解説します。
+
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)

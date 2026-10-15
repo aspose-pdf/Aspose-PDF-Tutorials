@@ -62,6 +62,8 @@ Questo tutorial offre una panoramica dettagliata di metodi e tecniche per garant
 | [Verifica firma PDF con Aspose.PDF – Guida completa C#](./verify-pdf-signature-with-aspose-pdf-complete-c-guide/) | Impara a verificare le firme PDF con Aspose.PDF per .NET in C#. Guida dettagliata passo passo. |
 | [Come utilizzare Validator in C# – Guida completa al controllo della validità delle firme](./how-to-use-validator-in-c-complete-guide-to-checking-signatu/) | Scopri come utilizzare Validator in C# per verificare la validità delle firme digitali nei PDF con Aspose.PDF per .NET. Guida passo passo. |
 | [Aggiungi numerazione Bates al PDF – Guida completa C# con firma e conversione](./add-bates-numbering-pdf-complete-c-guide-with-signing-conver/) | Scopri come aggiungere la numerazione Bates ai PDF, firmarli e convertirli usando Aspose.PDF per .NET con C#. |
+| [Verifica firma PDF in C# – Guida completa Aspose.PDF](./verify-pdf-signature-in-c-complete-aspose-pdf-guide/) | Scopri come verificare le firme PDF in C# con una guida completa di Aspose.PDF per .NET. |
+| [Recupera firme PDF in C# – Guida completa di programmazione](./retrieve-pdf-signatures-in-c-complete-programming-guide/) | Scopri come estrarre le firme PDF in C# con una guida completa passo passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

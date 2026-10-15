@@ -61,6 +61,7 @@ Aspose.PDF for .NET の「PDF ページを使ったプログラミング」ド�
 | [C# で PDF ページを並べ替える – 完全ステップバイステップガイド](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) Aspose.PDF for .NET を使用して、C# で PDF のページ順序を変更する手順をステップバイステップで解説します。簡単に実装可能です。 |  
 | [Aspose.Pdf で PDF ページを並べ替える – 完全 C# ガイド](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) Aspose.PDF for .NET を使用して、C# で PDF ページの順序を変更する手順をステップバイステップで解説します。 |
 | [C# で PDF にベーツ番号を追加 – 完全ガイド](./add-bates-numbering-to-pdfs-with-c-complete-guide/) Aspose.PDF for .NET を使用して、C# で PDF にベーツ番号を追加する手順をステップバイステップで解説します。 |
+| [Aspose.PDF を使用した PDF へのベーツ番号付与 – 完全ガイド](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) Aspose.PDF for .NET を使用して PDF にベーツ番号を付与する手順をステップバイステップで解説します。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

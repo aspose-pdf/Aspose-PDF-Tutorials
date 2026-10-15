@@ -90,8 +90,6 @@ Lär dig hur du skapar ett PDF-dokument, lägger till en tom sida, ritar en rekt
 Lär dig hur du i C# skapar ett PDF-dokument, lägger till en sida och ritar en rektangel med Aspose.PDF för .NET.
 
 ### [Skapa PDF-dokument med Aspose.PDF – Steg‑för‑steg‑guide](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
-Lär dig hur du skapar ett PDF-dokument med Aspose.PDF genom en detaljerad steg‑för‑steg‑guide.
-
 ### [Skapa PDF-dokument med Aspose.PDF – Fullständig C#‑guide](./create-pdf-document-with-aspose-pdf-full-c-guide/)
 Lär dig steg‑för‑steg hur du skapar PDF‑dokument med Aspose.PDF i C# med fullständiga kodexempel.
 
@@ -103,6 +101,8 @@ Lär dig hur du skapar ett PDF-dokument i C#, lägger till en tom sida och ritar
 
 ### [Skapa PDF-bild från HEIC – Komplett C#-guide](./create-pdf-image-from-heic-complete-c-guide/)
 Lär dig hur du konverterar HEIC-bilder till PDF med Aspose.PDF för .NET i en komplett C#‑guide.
+### [Skapa PDF-dokument med Aspose.Pdf – Fullständig steg‑för‑steg‑guide](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+Lär dig hur du skapar ett PDF-dokument med Aspose.Pdf genom en komplett steg‑för‑steg‑guide.
 
 ## Ytterligare resurser
 

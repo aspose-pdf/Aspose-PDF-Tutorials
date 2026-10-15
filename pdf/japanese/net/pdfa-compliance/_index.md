@@ -31,6 +31,9 @@ Aspose.PDF for .NET を使用して、アクセス可能なタグ付き PDF ド�
 ### [Aspose.PDF for .NET を使用して PDF を PDF/X-4 に変換する方法: ステップバイステップ ガイド](./convert-pdfs-to-pdf-x4-aspose-dotnet-guide/)
 Aspose.PDF for .NET を使用して、標準的な PDF ドキュメントを堅牢な PDF/X-4 形式に変換する方法を学びます。このガイドでは、セットアップ、実装、トラブルシューティングについて説明します。
 
+### [PDF を PDF/X-1A に変換する – PDF/X-1A ドキュメントの作成方法](./convert-pdf-to-pdf-x-1a-how-to-create-pdf-x-1a-document/)
+Aspose.PDF .NET を使用して、PDF を PDF/X-1A 形式に変換し、アーカイブ品質のドキュメントを作成する手順を解説します。
+
 ### [Aspose.PDF for .NET で PDF/A-1a を検証する方法: 包括的なガイド](./validate-pdf-a-1a-aspose-pdf-dotnet/)
 Aspose.PDF for .NET を使用して PDF/A-1a 準拠を検証する方法を学びましょう。このガイドでは、ステップバイステップの説明、コード例、統合のヒントを紹介します。
 

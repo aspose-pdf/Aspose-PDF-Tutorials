@@ -59,6 +59,7 @@ Samouczki „Programowanie ze stemplami i znakami wodnymi” dla .NET firmy Aspo
 | [Dodaj numerację Bates w PDF – Kompletny przewodnik z Aspose](./add-bates-numbering-pdf-complete-guide-with-aspose/) | Dowiedz się, jak dodać numerację Bates do dokumentów PDF przy użyciu Aspose.PDF dla .NET w tym szczegółowym przewodniku krok po kroku. |
 | [Dodaj numerację Bates do pliku PDF w C# – Kompletny przewodnik krok po kroku](./add-bates-numbering-to-pdf-in-c-complete-step-by-step-guide/) | Dowiedz się, jak dodać numerację Bates do dokumentów PDF w C# przy użyciu Aspose.PDF, krok po kroku z przykładami kodu. |  
 | [Utwórz znak wodny tekstowy w Wordzie za pomocą Aspose.Words – Kompletny przewodnik](./create-text-watermark-in-word-with-aspose-words-complete-gui/) | Dowiedz się, jak dodać znak wodny tekstowy do dokumentu Word przy użyciu Aspose.Words w pełnym przewodniku krok po kroku. |  
+| [Jak dodać stempel PDF – Kompletny przewodnik z automatycznym dopasowaniem tekstu](./how-to-add-stamp-pdf-complete-guide-with-auto-fit-text/) | Dowiedz się, jak dodać stempel do pliku PDF z automatycznym dopasowaniem tekstu, korzystając z Aspose.PDF dla .NET w prostym przewodniku krok po kroku. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

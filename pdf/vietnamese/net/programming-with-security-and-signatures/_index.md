@@ -37,6 +37,7 @@ Hướng dẫn cung cấp cho bạn tổng quan chi tiết về các phương ph
 | [Cách đọc chữ ký trong PDF – Hướng dẫn C# đầy đủ](./how-to-read-signatures-in-a-pdf-complete-c-guide/) | Học cách đọc các chữ ký số trong tài liệu PDF bằng Aspose.PDF cho .NET với hướng dẫn chi tiết từng bước. |  
 | [Xác minh chữ ký PDF trong C# – Hướng dẫn đầy đủ](./how-to-verify-pdf-signatures-in-c-full-guide/) | Học cách xác minh chữ ký PDF bằng C# với Aspose.PDF cho .NET. Hướng dẫn chi tiết từng bước. |
 | [Xác thực chữ ký PDF trong C# – Hướng dẫn đầy đủ](./validate-pdf-signature-in-c-complete-guide/) | Học cách xác thực chữ ký PDF bằng C# với Aspose.PDF cho .NET trong hướng dẫn chi tiết và toàn diện. |  
+| [Xác minh chữ ký PDF trong C# – Hướng dẫn đầy đủ Aspose.PDF](./verify-pdf-signature-in-c-complete-aspose-pdf-guide/) | Học cách xác minh chữ ký PDF bằng C# với Aspose.PDF trong hướng dẫn chi tiết. |  
 | [Có được bảo vệ bằng mật khẩu không](./is-password-protected/) Tìm hiểu cách kiểm tra xem tệp PDF có được bảo vệ bằng mật khẩu hay không bằng Aspose.PDF cho .NET trong hướng dẫn từng bước toàn diện này. |  
 | [Thiết lập quyền trong tệp PDF](./set-privileges/) | Tìm hiểu cách thiết lập quyền PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Bảo mật tài liệu của bạn một cách hiệu quả. |  
 | [Ký bằng thẻ thông minh sử dụng chữ ký tệp PDF](./sign-with-smart-card-using-pdf-file-signature/) | Tìm hiểu cách ký tệp PDF bằng thẻ thông minh với Aspose.PDF cho .NET. Thực hiện theo hướng dẫn từng bước này để có chữ ký số an toàn. |  
@@ -61,6 +62,7 @@ Hướng dẫn cung cấp cho bạn tổng quan chi tiết về các phương ph
 | [Xác minh chữ ký PDF với Aspose.PDF – Hướng dẫn C# đầy đủ](./verify-pdf-signature-with-aspose-pdf-complete-c-guide/) | Học cách xác minh chữ ký số trong tài liệu PDF bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết bằng C#. |  
 | [Cách sử dụng Validator trong C# – Hướng dẫn đầy đủ kiểm tra tính hợp lệ của chữ ký](./how-to-use-validator-in-c-complete-guide-to-checking-signatu/) | Học cách sử dụng Validator để kiểm tra tính hợp lệ của chữ ký số trong tài liệu PDF bằng Aspose.PDF cho .NET. |
 | [Thêm đánh số Bates PDF – Hướng dẫn C# đầy đủ với ký và chuyển đổi](./add-bates-numbering-pdf-complete-c-guide-with-signing-conver/) | Học cách thêm đánh số Bates vào PDF, ký số và chuyển đổi tài liệu bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết. |
+| [Truy xuất chữ ký PDF trong C# – Hướng dẫn lập trình đầy đủ](./retrieve-pdf-signatures-in-c-complete-programming-guide/) | Học cách truy xuất chữ ký PDF bằng C# với Aspose.PDF trong hướng dẫn lập trình chi tiết. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

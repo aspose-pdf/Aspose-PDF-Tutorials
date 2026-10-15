@@ -52,6 +52,7 @@
 | [วิธีเพิ่มแสตมป์ลงใน PDF ด้วย Aspose.Pdf – คู่มือทีละขั้นตอน](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) | เรียนรู้วิธีเพิ่มแสตมป์ลงในไฟล์ PDF ด้วย Aspote.Pdf สำหรับ .NET
 - [สร้าง PDF ประกาศเต็มหน้า – คู่มือเร็ว C#](./create-pdf-full-page-notice-quick-c-guide/) เรียนรู้วิธีสร้างประกาศเต็มหน้าในไฟล์ PDF ด้วย C# อย่างรวดเร็วโดยใช้ Aspose.PDF สำหรับ .NET
 - [เพิ่มหมายเลข Bates ให้ PDF – คู่มือฉบับสมบูรณ์กับ Aspose](./add-bates-numbering-pdf-complete-guide-with-aspose/) เรียนรู้วิธีเพิ่มหมายเลข Bates ให้ไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือฉบับสมบูรณ์
+| [วิธีเพิ่มแสตมป์ PDF – คู่มือฉบับสมบูรณ์พร้อมการปรับข้อความอัตโนมัติ](./how-to-add-stamp-pdf-complete-guide-with-auto-fit-text/) | เรียนรู้วิธีเพิ่มแสตมป์ลงในไฟล์ PDF พร้อมการปรับข้อความอัตโนมัติให้พอดีกับพื้นที่โดยใช้ Aspose.PDF สำหรับ .NET |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

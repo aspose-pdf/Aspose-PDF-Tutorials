@@ -70,6 +70,8 @@ Ismerje meg, hogyan szerkesztheti biztonságosan a PDF-fájlokat az Aspose.PDF .
 
 ### [Redakció alkalmazása PDF-re az Aspose Plugin Managerrel – Teljes útmutató](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
 Ismerje meg, hogyan alkalmazhat redakciót PDF-fájlokra az Aspose Plugin Manager segítségével, lépésről lépésre útmutatóval.
+### [PDF kitakarása az Aspose.Pdf segítségével – Teljes lépésről‑lépésre útmutató](./how-to-redact-pdf-with-aspose-pdf-complete-step-by-step-guid/)
+Ismerje meg, hogyan végezhet el PDF kitakarást az Aspose.Pdf használatával részletes, lépésről‑lépésre útmutatóval.
 
 ### [PDF fájlok feloldása és visszafejtése az Aspose.PDF for .NET segítségével: Teljes körű útmutató](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 Ismerje meg, hogyan oldhatja fel és dekódolhatja vissza a védett PDF-fájlokat az Aspose.PDF for .NET segítségével C#-ban. Ez az útmutató a beállítást, a dekódolás lépéseit és a bevált gyakorlatokat ismerteti.

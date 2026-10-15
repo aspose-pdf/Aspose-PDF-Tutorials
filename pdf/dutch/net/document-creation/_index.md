@@ -24,6 +24,9 @@ Onze tutorials over documentcreatie bieden uitgebreide begeleiding bij het progr
 Leer hoe u professionele PDF-boekjes maakt met Aspose.PDF voor .NET. Deze tutorial behandelt de installatie, implementatie en praktische toepassingen.
 ### [PDF-document maken met Aspose in C# – een stapsgewijze handleiding](./create-pdf-document-with-aspose-in-c-step-by-step-guide/)
 Leer stap voor stap hoe u een PDF-document maakt met Aspose in C#.
+### [PDF-document maken met Aspose.Pdf – volledige stapsgewijze handleiding](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+Leer stap voor stap hoe u een PDF-document maakt met Aspose.Pdf in .NET.
+
 ### [PDF's maken van XML en XSLT met Aspose.PDF .NET: een stapsgewijze handleiding](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
 Leer hoe u XML-gegevens naar PDF-formaat converteert met Aspose.PDF voor .NET met XSLT-transformaties. Deze handleiding behandelt de installatie, binding en aanpassing.
 ### [Maak professionele PDF-boekjes in .NET met Aspose.PDF: een uitgebreide handleiding](./create-professional-pdf-booklets-net-aspose-pdf/)

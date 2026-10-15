@@ -62,6 +62,8 @@ Handledningen ger dig en detaljerad översikt över metoder och tekniker för at
 | [Verifiera PDF-signatur med Aspose.PDF – Komplett C#-guide](./verify-pdf-signature-with-aspose-pdf-complete-c-guide/) | Lär dig hur du verifierar PDF‑signaturer med Aspose.PDF för .NET i en komplett C#‑guide. |
 | [Hur man använder Validator i C# – Komplett guide för att kontrollera signaturens giltighet](./how-to-use-validator-in-c-complete-guide-to-checking-signatu/) | Lär dig hur du använder Validator i C# för att kontrollera signaturers giltighet med Aspose.PDF för .NET i en steg-för-steg-guide. |
 | [Lägg till Bates-nummerering i PDF – Komplett C#-guide med signering och konvertering](./add-bates-numbering-pdf-complete-c-guide-with-signing-conver/) | Lär dig hur du lägger till Bates-nummerering i PDF, signerar och konverterar dokument med Aspose.PDF för .NET i en komplett steg-för-steg-guide. |
+| [Hämta PDF-signaturer i C# – Komplett programmeringsguide](./retrieve-pdf-signatures-in-c-complete-programming-guide/) | Lär dig hur du hämtar PDF-signaturer i C# med Aspose.PDF – en komplett steg-för-steg-guide. |
+| [Verifiera PDF-signatur i C# – Komplett Aspose.PDF-guide](./verify-pdf-signature-in-c-complete-aspose-pdf-guide/) | Lär dig hur du verifierar PDF-signaturer i C# med en komplett guide för Aspose.PDF. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -61,6 +61,7 @@ Los tutoriales incluyen instrucciones paso a paso, ejemplos de código detallado
 | [Reordenar páginas PDF con Aspose.Pdf – Guía completa en C#](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) | Aprenda a reordenar páginas de un PDF con Aspose.PDF para .NET en C# mediante esta guía paso a paso. |
 | [Agregar numeración Bates a PDFs con C# – Guía completa](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Aprenda a aplicar numeración Bates a documentos PDF usando C# y Aspose.PDF para .NET con esta guía paso a paso. |  
 | [Duplicar página PDF con Aspose.Pdf – Guía completa](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Aprenda a duplicar páginas en un PDF usando Aspose.PDF para .NET con esta guía paso a paso. |  
+| [Agregar numeración Bates a PDF con Aspose.PDF – Guía completa](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Guía paso a paso para agregar numeración Bates a un PDF con Aspose.PDF para .NET. Fácil de seguir e implementar en tus proyectos. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

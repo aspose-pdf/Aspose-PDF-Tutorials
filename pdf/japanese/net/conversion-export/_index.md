@@ -74,6 +74,9 @@ Aspose.PDF for .NET を使い、PDF を HTML に変換して保存する方法�
 ### [Aspose.PDF を使用して画像を保存せずに .NET で PDF を HTML に変換する](./convert-pdf-html-net-asposepdf-no-images/)
 Aspose.PDF for .NET を使用して、画像を個別に保存することなく PDF ファイルを HTML に変換する方法を学びましょう。詳細なガイドでレイアウトの整合性を維持できます。
 
+### [画像なしでPDFを保存 – AsposeでPDFをHTMLに変換](./save-pdf-without-images-convert-pdf-to-html-with-aspose/)
+Aspose.PDF for .NET を使用して、画像を除外した状態で PDF を HTML に変換し、ファイルサイズを削減する方法を学びます。
+
 ### [Aspose.PDF を使用して、カスタム画像パスで .NET で PDF を HTML に変換する](./convert-pdf-html-custom-image-paths-dotnet/)
 Aspose.PDF for .NET を使用してPDFファイルをHTML形式に変換し、画像パスを効率的にカスタマイズする方法を学びます。Web統合に最適です。
 
@@ -278,6 +281,7 @@ Aspose.PDF for .NET を使い、C# で PDF を HTML にエクスポートする�
 C# で Aspose.Words を利用し、docx ファイルを高品質な HTML に変換する方法をステップバイステップで解説します。
 ### [C#でdocxをpngに変換する – 完全ガイド](./convert-docx-to-png-in-c-complete-guide/)
 C# と Aspose.Words for .NET を使用して、docx ファイルを高品質な PNG 画像に変換する方法をステップバイステップで解説します。
+### [PDF ページを PNG に変換する – 完全 Aspose.Pdf ガイド](./convert-pdf-page-to-png-complete-aspose-pdf-guide/)
 
 ## 追加リソース
 

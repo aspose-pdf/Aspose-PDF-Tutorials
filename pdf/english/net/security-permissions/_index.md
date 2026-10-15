@@ -90,6 +90,10 @@ Learn how to apply redaction to PDF files using Aspose Plugin Manager with step-
 Learn how to redact PDFs and remove sensitive data using Aspose.PDF for .NET with clear C# code examples.
 
 ### [Unlock and Decrypt PDF Files with Aspose.PDF for .NET: A Complete Guide]({{< relref "unlock-decrypt-pdf-files-aspose-pdf-net" >}})
+### [How to Redact PDF with Aspose.Pdf – Complete Step‑by‑Step Guide](./how-to-redact-pdf-with-aspose-pdf-complete-step-by-step-guid/)
+Learn how to securely redact sensitive content from PDFs using Aspose.PDF for .NET with detailed code examples and best practices.
+
+### [Unlock and Decrypt PDF Files with Aspose.PDF for .NET&#58; A Complete Guide](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 Learn how to unlock and decrypt protected PDF files using Aspose.PDF for .NET in C#. This guide covers setup, decryption steps, and best practices.
 
 ### [Verify PDF passwords with Aspose.PDF .NET: a step‑By‑Step guide for security & permissions]({{< relref "verify-pdf-passwords-aspose-dot-net-guide" >}})

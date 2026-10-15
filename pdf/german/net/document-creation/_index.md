@@ -103,6 +103,9 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# ein PDF erstellen, eine lee
 ### [PDF-Bild aus HEIC erstellen – Vollständiger C#-Leitfaden](./create-pdf-image-from-heic-complete-c-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET HEIC‑Bilder in PDFs einbinden und konvertieren – ein vollständiger C#‑Leitfaden.
 
+### [PDF-Dokument mit Aspose.PDF erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF ein PDF-Dokument von Grund auf erstellen, Seiten hinzufügen und das Ergebnis speichern.
+
 ## Weitere Ressourcen
 
 - [Aspose.PDF für Net-Dokumentation](https://docs.aspose.com/pdf/net/)

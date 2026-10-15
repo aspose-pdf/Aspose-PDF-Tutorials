@@ -64,6 +64,8 @@ Das Tutorial gibt Ihnen einen detaillierten Überblick über Methoden und Techni
 | [PDF-Signatur mit Aspose.PDF überprüfen – Vollständiger C# Leitfaden](./verify-pdf-signature-with-aspose-pdf-complete-c-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Signaturen vollständig prüfen und verifizieren. |
 | [Wie man den Validator in C# verwendet – Vollständiger Leitfaden zur Überprüfung der Signaturgültigkeit](./how-to-use-validator-in-c-complete-guide-to-checking-signatu/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET den Validator einsetzen, um die Gültigkeit von Signaturen in PDFs zu prüfen. |
 | [Bates-Nummerierung PDF hinzufügen – Vollständiger C# Leitfaden mit Signatur und Konvertierung](./add-bates-numbering-pdf-complete-c-guide-with-signing-conver/) | Erfahren Sie, wie Sie PDFs mit Bates-Nummern versehen, digital signieren und in verschiedene Formate konvertieren – Schritt für Schritt mit Aspose.PDF für .NET. |
+| [PDF-Signatur in C# prüfen – Vollständiger Aspose.PDF Leitfaden](./verify-pdf-signature-in-c-complete-aspose-pdf-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Signaturen in C# verifizieren und signierte Dokumente analysieren. |
+| [PDF-Signaturen in C# abrufen – Vollständiger Programmierleitfaden](./retrieve-pdf-signatures-in-c-complete-programming-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF‑Signaturen in C# auslesen und verarbeiten – umfassender Leitfaden. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

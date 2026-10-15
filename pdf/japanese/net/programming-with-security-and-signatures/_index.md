@@ -63,6 +63,8 @@
 | [Aspose.PDF を使用した PDF 署名の検証 – 完全な C# ガイド](./verify-pdf-signature-with-aspose-pdf-complete-c-guide/) Aspose.PDF for .NET を使用して、C# で PDF のデジタル署名を検証し、署名情報を取得する方法をステップバイステップで学びます。 |  
 | [C# でバリデータを使用する方法 – 署名の有効性を確認する完全ガイド](./how-to-use-validator-in-c-complete-guide-to-checking-signatu/) Aspose.PDF for .NET を使って、C# でバリデータを利用し、署名の有効性を検証する方法を学びましょう。ステップバイステップのガイドです。 |  
 | [Bates番号付与PDFの追加 – 署名と変換を含む完全C#ガイド](./add-bates-numbering-pdf-complete-c-guide-with-signing-conver/) Aspose.PDF for .NET を使用して、Bates番号をPDFに付与し、署名と変換を行う完全なC#ガイドです。 |  
+| [C# で PDF 署名を検証する – 完全な Aspose.PDF ガイド](./verify-pdf-signature-in-c-complete-aspose-pdf-guide/) Aspose.PDF for .NET を使用して、C# で PDF 署名の検証手順を完全に解説します。 |  
+| [C# で PDF 署名を取得する – 完全プログラミングガイド](./retrieve-pdf-signatures-in-c-complete-programming-guide/) Aspose.PDF for .NET を使用し、C# で PDF のデジタル署名を取得する方法を完全に解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

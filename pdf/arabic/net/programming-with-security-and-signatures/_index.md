@@ -59,6 +59,8 @@
 | [التحقق من توقيع PDF باستخدام Aspose.PDF – دليل C# كامل](./verify-pdf-signature-with-aspose-pdf-complete-c-guide/) | تعلم كيفية التحقق من توقيع PDF باستخدام Aspose.PDF في دليل شامل خطوة بخطوة بلغة C#. |
 | [كيفية استخدام أداة التحقق في C# – دليل كامل للتحقق من صحة التوقيع](./how-to-use-validator-in-c-complete-guide-to-checking-signatu/) | تعلم كيفية استخدام أداة التحقق في C# للتحقق من صحة التوقيعات الرقمية في ملفات PDF باستخدام Aspose.PDF لـ .NET. |
 | [إضافة ترقيم بايتس إلى PDF – دليل كامل C# مع التوقيع والتحويل](./add-bates-numbering-pdf-complete-c-guide-with-signing-conver/) | تعلم كيفية إضافة ترقيم بايتس إلى ملفات PDF مع التوقيع والتحويل باستخدام Aspose.PDF لـ .NET. |
+| [التحقق من توقيع PDF في C# – دليل Aspose.PDF كامل](./verify-pdf-signature-in-c-complete-aspose-pdf-guide/) | تعلم كيفية التحقق من توقيع PDF باستخدام C# و Aspose.PDF في دليل شامل خطوة بخطوة. |
+| [استخراج توقيعات PDF في C# – دليل برمجة كامل](./retrieve-pdf-signatures-in-c-complete-programming-guide/) | تعلم كيفية استخراج توقيعات ملفات PDF باستخدام C# و Aspose.PDF خطوة بخطوة في دليل شامل. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
