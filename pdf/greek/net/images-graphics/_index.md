@@ -171,8 +171,8 @@
 ### [Απόδοση LaTeX σε PDF με το Aspose.PDF .NET: Οδηγός βήμα προς βήμα](./render-latex-aspose-pdf-net-guide/)
 Μάθετε πώς να αποδίδετε σύνθετα σενάρια LaTeX σε έγγραφα PDF χρησιμοποιώντας το Aspose.PDF για .NET, συμπεριλαμβανομένων συμβουλών εγκατάστασης, υλοποίησης και βελτιστοποίησης.
 
-### [Προσθήκη ExtGState σε PDF με το Aspose.Pdf – Πλήρης Οδηγός](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
-Μάθετε πώς να προσθέτετε ExtGState σε PDF χρησιμοποιώντας το Aspose.Pdf για .NET, βελτιώνοντας τη διαφάνεια και τα εφέ.
+### [Ορισμός φόντου εικόνας σε PDF χρησιμοποιώντας το Aspose.PDF για .NET: Ένας πλήρης οδηγός](./aspose-pdf-net-set-image-backgrounds/)
+Μάθετε πώς να βελτιώσετε τα έγγραφα PDF σας ορίζοντας φόντο εικόνας χρησιμοποιώντας το Aspose.PDF για .NET. Αυτός ο οδηγός καλύπτει συμβουλές εγκατάστασης, υλοποίησης και βελτιστοποίησης.
 
 ### [Συμπίεση εικόνων χωρίς απώλεια σε έγγραφα Word – Πλήρης οδηγός](./lossless-image-compression-in-word-docs-complete-guide/)
 Μάθετε πώς να συμπιέζετε εικόνες σε έγγραφα Word χωρίς απώλεια ποιότητας, βήμα‑βήμα με παραδείγματα κώδικα.
@@ -181,6 +181,9 @@
 
 ### [Πώς να χρησιμοποιήσετε το GraphicsAbsorber – Εξαγωγή διανυσματικών γραφικών από PDF με το Aspose.Pdf](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
 Μάθετε πώς να εξάγετε διανυσματικά γραφικά από PDF χρησιμοποιώντας το GraphicsAbsorber του Aspose.Pdf.
+
+### [Προσθήκη ExtGState σε PDF με το Aspose.Pdf – Πλήρης Οδηγός](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+Μάθετε πώς να προσθέτετε ExtGState σε PDF χρησιμοποιώντας το Aspose.Pdf για .NET, βελτιώνοντας τη διαφάνεια και τα εφέ.
 
 ## Πρόσθετοι Πόροι
 
