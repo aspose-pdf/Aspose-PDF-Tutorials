@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: このチュートリアルでは、Aspose.Pdf を使用して 2 つの PDF ファイルを並べて比較し、各ドキュメントの特定の矩形領域を無視しながら、関連する変更のみをハイライトした差分 PDF を生成する方法を示します。
+//ExStepSummary:0: 2 つのソース PDF と出力差分 PDF のファイルパスを定義します。
+//ExStepSummary:1: 両方のソース PDF ファイルが存在するか確認し、どちらかが欠けている場合はエラーメッセージで中止します。
+//ExStepSummary:2: 最初の PDF で無視する矩形領域を含む配列を作成します。
+//ExStepSummary:3: 2 番目の PDF で無視する矩形領域を含む配列を作成します。
+//ExStepSummary:4: サイドバイサイド比較を設定し、無視領域の配列を適切なプロパティに割り当てます。
+//ExStepSummary:5: 両方の PDF を読み込み、サイドバイサイド比較を実行し、指定されたパスに差分ファイルを生成します。
+//ExStepSummary:6: 比較が完了したことと、差分 PDF が保存された場所を示す確認メッセージを出力します。
+//ExStep:0-
+const string sourcePdfA = "originalA.pdf";
+const string sourcePdfB = "originalB.pdf";
+const string diffPdfPath = "diff_output.pdf";
+
+//ExStep:1-
+if (!File.Exists(sourcePdfA) || !File.Exists(sourcePdfB))
+{
+    Console.Error.WriteLine("Required PDF files are missing.");
+    return;
+}
+
+//ExStep:2-
+Aspose.Pdf.Rectangle[] zonesToIgnoreA = new Aspose.Pdf.Rectangle[]
+{
+    new Aspose.Pdf.Rectangle(100, 500, 300, 600) // sample region in the first document
+};
+
+//ExStep:3-
+Aspose.Pdf.Rectangle[] zonesToIgnoreB = new Aspose.Pdf.Rectangle[]
+{
+    new Aspose.Pdf.Rectangle(50, 400, 250, 500) // sample region in the second document
+};
+
+//ExStep:4-
+var comparisonSettings = new SideBySideComparisonOptions
+{
+    ExcludeAreas1 = zonesToIgnoreA,
+    ExcludeAreas2 = zonesToIgnoreB
+    // Other settings may be adjusted here, e.g., ExcludeTables = true;
+};
+
+//ExStep:5-
+using (Document pdfA = new Document(sourcePdfA))
+using (Document pdfB = new Document(sourcePdfB))
+{
+    SideBySidePdfComparer.Compare(pdfA, pdfB, diffPdfPath, comparisonSettings);
+}
+
+//ExStep:6-
+Console.WriteLine($"Comparison finished. Output written to '{diffPdfPath}'.");
+//ExEnd

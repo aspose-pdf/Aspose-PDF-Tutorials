@@ -17,6 +17,8 @@ Opanuj interaktywne funkcje PDF dzięki naszym kompleksowym samouczkom dotycząc
 
 ## Dostępne samouczki
 
+
+{{< tutorial-card link="./exclude-annotations/" title="Porównanie PDF side‑by‑side z wykluczeniem adnotacji przy użyciu Aspose.Pdf for .NET" imgSrc="./exclude-annotations/images/thumb.png" >}}
 ### [Dodawanie pól formularzy do plików PDF za pomocą Aspose.PDF dla .NET: kompleksowy przewodnik](./add-pdf-form-fields-aspose-pdf-dotnet/)
 Dowiedz się, jak dodawać tekst, pola wyboru, pola kombi, pola listy i pola wielowierszowe do plików PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje konfigurację, przykłady kodu i wskazówki dotyczące integracji.
 

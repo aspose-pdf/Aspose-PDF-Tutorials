@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Tutorial ini menunjukkan cara membuat dokumen PDF, mengatur bahasa default dan judulnya, serta menyisipkan heading level‑1 menggunakan kelas Document, ITaggedContent, StructureElement, dan HeaderElement.
+//ExStepSummary:0: Definisikan nama file output untuk PDF yang dihasilkan.
+//ExStepSummary:1: Buat instance dokumen PDF kosong baru (`pdfDoc`) di dalam blok `using`.
+//ExStepSummary:2: Dapatkan antarmuka `ITaggedContent` untuk bekerja dengan struktur PDF yang ditandai.
+//ExStepSummary:3: Atur bahasa default dokumen ke English (US) dan tetapkan metadata judul.
+//ExStepSummary:4: Ambil elemen akar dari pohon struktur logis.
+//ExStepSummary:5: Buat elemen header level‑1, atur teks yang ditampilkan, dan tentukan bahasanya.
+//ExStepSummary:6: Tambahkan elemen header ke akar, sehingga heading muncul di PDF.
+//ExStepSummary:7: Simpan PDF ke file yang ditentukan dan tutup ruang lingkup dokumen.
+//ExStepSummary:8: Tampilkan pesan konfirmasi ke konsol.
+//ExStepImage:6:images/1.png
+//ExStep:0-
+const string resultFile = "pdf_with_title.pdf";
+
+//ExStep:1-
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:2-
+ITaggedContent tagContent = pdfDoc.TaggedContent;
+
+//ExStep:3-
+tagContent.SetLanguage("en-US");
+tagContent.SetTitle("PDF Example with Header");
+
+//ExStep:4-
+StructureElement rootElement = tagContent.RootElement;
+
+//ExStep:5-
+HeaderElement header = tagContent.CreateHeaderElement(1);
+header.SetText("Demo Header");
+header.Language = "en-US";
+
+//ExStep:6-
+rootElement.AppendChild(header);
+
+//ExStep:7-
+pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"PDF generated and stored at '{resultFile}'.");
+//ExEnd

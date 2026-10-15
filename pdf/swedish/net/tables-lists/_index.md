@@ -17,6 +17,8 @@ Lär dig hur du skapar välstrukturerade PDF-dokument med våra Aspose.PDF .NET-
 
 ## Tillgängliga handledningar
 
+
+{{< tutorial-card link="./style-table-cells/" title="Anpassa tabellcellers bakgrund, kantlinjer och utfyllnad i PDF‑filer med Aspose.Pdf för .NET" imgSrc="./style-table-cells/images/thumb.png" >}}
 ### [Lägg till HTML-ordnad lista till PDF med Aspose.PDF .NET](./add-html-ordered-list-pdf-aspose-net/)
 En kodhandledning för Aspose.PDF Net
 

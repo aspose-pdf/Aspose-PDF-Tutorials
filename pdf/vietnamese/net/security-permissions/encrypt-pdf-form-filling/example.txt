@@ -1,0 +1,46 @@
+//ExStart
+//ExSummary: Bài hướng dẫn này trình bày cách mở một tệp PDF hiện có bằng Aspose.Pdf, hạn chế quyền sao cho chỉ cho phép điền biểu mẫu, mã hóa nó bằng mật khẩu người xem và mật khẩu chủ sở hữu sử dụng AES‑256, và lưu tệp đã được bảo vệ.
+//ExStepSummary:0: Xác định đường dẫn tệp nguồn và đích cũng như mật khẩu người xem và mật khẩu chủ sở hữu.
+//ExStepSummary:1: Kiểm tra xem PDF nguồn có tồn tại hay không và hủy thao tác kèm thông báo lỗi nếu không tồn tại.
+//ExStepSummary:2: Bắt đầu một khối try để xử lý bất kỳ lỗi nào có thể xảy ra trong quá trình xử lý.
+//ExStepSummary:3: Mở tệp PDF hiện có bằng cách tạo một đối tượng Document có tên pdfDoc.
+//ExStepSummary:4: Đặt quyền để chỉ cho phép điền biểu mẫu, mã hóa tài liệu bằng mật khẩu người xem và mật khẩu chủ sở hữu sử dụng AES‑256, và lưu PDF đã được bảo vệ.
+//ExStepSummary:5: Ghi thông báo xác nhận ra console và kết thúc khối try.
+//ExStepSummary:6: Bắt bất kỳ ngoại lệ nào và xuất thông báo lỗi ra console.
+//ExStep:0-
+        const string sourceFile = "sample.pdf";
+        const string destFile = "protected.pdf";
+        const string viewerPass = "viewerPass";
+        const string adminPass = "adminPass";
+
+//ExStep:1-
+        if (!File.Exists(sourceFile))
+        {
+            Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+            return;
+        }
+
+//ExStep:2-
+        try
+        {
+
+//ExStep:3-
+            using (Document pdfDoc = new Document(sourceFile))
+
+//ExStep:4-
+            {
+                Permissions allowed = Permissions.FillForm;
+                pdfDoc.Encrypt(viewerPass, adminPass, allowed, CryptoAlgorithm.AESx256);
+                pdfDoc.Save(destFile);
+            }
+
+//ExStep:5-
+            Console.WriteLine($"Secure PDF written to '{destFile}'.");
+        }
+
+//ExStep:6-
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Exception occurred: {ex.Message}");
+        }
+//ExEnd

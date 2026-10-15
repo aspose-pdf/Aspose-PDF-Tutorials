@@ -8,7 +8,6 @@ url: /id/java/bookmarks-navigation/
 weight: 14
 ---
 
- assemble.
 
 {{< blocks/products/pf/main-wrap-class >}}
 

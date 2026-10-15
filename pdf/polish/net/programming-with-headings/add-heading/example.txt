@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Ten samouczek demonstruje, jak utworzyć dokument PDF, ustawić jego domyślny język i tytuł oraz wstawić nagłówek poziomu 1 przy użyciu klas Document, ITaggedContent, StructureElement i HeaderElement.
+//ExStepSummary:0: Zdefiniuj nazwę pliku wyjściowego dla generowanego PDF.
+//ExStepSummary:1: Utwórz nową pustą instancję dokumentu PDF (`pdfDoc`) wewnątrz bloku `using`.
+//ExStepSummary:2: Uzyskaj interfejs `ITaggedContent`, aby pracować ze strukturami PDF oznaczonymi tagami.
+//ExStepSummary:3: Ustaw domyślny język dokumentu na English (US) i przypisz metadane tytułu.
+//ExStepSummary:4: Pobierz element główny drzewa logicznej struktury.
+//ExStepSummary:5: Zbuduj element nagłówka poziomu 1, ustaw jego wyświetlany tekst i określ język.
+//ExStepSummary:6: Dołącz element nagłówka do elementu głównego, co spowoduje wyświetlenie nagłówka w PDF.
+//ExStepSummary:7: Zapisz PDF do określonego pliku i zamknij zakres dokumentu.
+//ExStepSummary:8: Wyświetl komunikat potwierdzający w konsoli.
+//ExStepImage:6:images/1.png
+//ExStep:0-
+const string resultFile = "pdf_with_title.pdf";
+
+//ExStep:1-
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:2-
+ITaggedContent tagContent = pdfDoc.TaggedContent;
+
+//ExStep:3-
+tagContent.SetLanguage("en-US");
+tagContent.SetTitle("PDF Example with Header");
+
+//ExStep:4-
+StructureElement rootElement = tagContent.RootElement;
+
+//ExStep:5-
+HeaderElement header = tagContent.CreateHeaderElement(1);
+header.SetText("Demo Header");
+header.Language = "en-US";
+
+//ExStep:6-
+rootElement.AppendChild(header);
+
+//ExStep:7-
+pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"PDF generated and stored at '{resultFile}'.");
+//ExEnd

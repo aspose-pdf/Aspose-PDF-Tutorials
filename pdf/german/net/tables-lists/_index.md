@@ -17,6 +17,8 @@ Erfahren Sie mit unseren Aspose.PDF .NET-Tutorials für Tabellen und Listen, wie
 
 ## Verfügbare Tutorials
 
+
+{{< tutorial-card link="./style-table-cells/" title="Passe den Hintergrund, die Ränder und das Padding von Tabellenzellen in PDFs mit Aspose.Pdf für .NET an" imgSrc="./style-table-cells/images/thumb.png" >}}
 ### [Fügen Sie mit Aspose.PDF .NET eine geordnete HTML-Liste zu PDF hinzu](./add-html-ordered-list-pdf-aspose-net/)
 Ein Code-Tutorial für Aspose.PDF Net
 

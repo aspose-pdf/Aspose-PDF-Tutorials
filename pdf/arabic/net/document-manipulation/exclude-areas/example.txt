@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: يوضح هذا البرنامج التعليمي كيفية استخدام Aspose.Pdf لمقارنة ملفين PDF جنبًا إلى جنب مع تجاهل مناطق مستطيلة محددة في كل مستند، مما ينتج ملف PDF فرق يبرز فقط التغييرات ذات الصلة.
+//ExStepSummary:0: حدد مسارات الملفات للملفين PDF المصدرين وملف PDF الفرق الناتج.
+//ExStepSummary:1: تحقق من وجود ملفي PDF المصدرين، وإذا كان أحدهما مفقودًا أوقف العملية مع رسالة خطأ.
+//ExStepSummary:2: أنشئ مصفوفة تحتوي على المنطقة المستطيلة التي يجب تجاهلها في ملف PDF الأول.
+//ExStepSummary:3: أنشئ مصفوفة تحتوي على المنطقة المستطيلة التي يجب تجاهلها في ملف PDF الثاني.
+//ExStepSummary:4: قم بتهيئة المقارنة جنبًا إلى جنب، مع تعيين مصفوفات مناطق التجاهل إلى الخصائص المناسبة.
+//ExStepSummary:5: حمّل ملفي PDF وشغّل المقارنة جنبًا إلى جنب، مما ينتج ملف الفرق في المسار المحدد.
+//ExStepSummary:6: اعرض رسالة تأكيد تشير إلى أن المقارنة قد اكتملت وإلى مكان حفظ ملف PDF الفرق.
+//ExStep:0-
+const string sourcePdfA = "originalA.pdf";
+const string sourcePdfB = "originalB.pdf";
+const string diffPdfPath = "diff_output.pdf";
+
+//ExStep:1-
+if (!File.Exists(sourcePdfA) || !File.Exists(sourcePdfB))
+{
+    Console.Error.WriteLine("Required PDF files are missing.");
+    return;
+}
+
+//ExStep:2-
+Aspose.Pdf.Rectangle[] zonesToIgnoreA = new Aspose.Pdf.Rectangle[]
+{
+    new Aspose.Pdf.Rectangle(100, 500, 300, 600) // sample region in the first document
+};
+
+//ExStep:3-
+Aspose.Pdf.Rectangle[] zonesToIgnoreB = new Aspose.Pdf.Rectangle[]
+{
+    new Aspose.Pdf.Rectangle(50, 400, 250, 500) // sample region in the second document
+};
+
+//ExStep:4-
+var comparisonSettings = new SideBySideComparisonOptions
+{
+    ExcludeAreas1 = zonesToIgnoreA,
+    ExcludeAreas2 = zonesToIgnoreB
+    // Other settings may be adjusted here, e.g., ExcludeTables = true;
+};
+
+//ExStep:5-
+using (Document pdfA = new Document(sourcePdfA))
+using (Document pdfB = new Document(sourcePdfB))
+{
+    SideBySidePdfComparer.Compare(pdfA, pdfB, diffPdfPath, comparisonSettings);
+}
+
+//ExStep:6-
+Console.WriteLine($"Comparison finished. Output written to '{diffPdfPath}'.");
+//ExEnd
