@@ -55,6 +55,8 @@ En kodhandledning för Aspose.PDF Net
 
 ### [Hur man lägger till en form i PDF-filer med Aspose.PDF för .NET – En steg-för-steg-guide](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Lär dig hur du ritar och lägger till olika former i PDF-dokument med Aspose.PDF för .NET i C#. Praktiska kodexempel ingår.
+### [Lägg till ExtGState i PDF med Aspose.Pdf – Komplett guide](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+Lär dig hur du använder ExtGState för att kontrollera transparens och blandningslägen i PDF-dokument med Aspose.Pdf för .NET.
 
 ### [Effektiv PDF-bildidentifiering med Aspose.PDF för .NET](./master-image-identification-aspose-pdf-net/)
 Lär dig hur du identifierar gråskale- och RGB-bilder i PDF-filer med Aspose.PDF för .NET. Den här handledningen täcker installation, bildextrahering och prestandatips.

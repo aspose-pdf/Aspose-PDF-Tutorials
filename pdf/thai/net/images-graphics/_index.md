@@ -185,6 +185,8 @@
 เรียนรู้วิธีบีบอัดรูปภาพในไฟล์ Word โดยไม่สูญเสียคุณภาพด้วย Aspose.Words สำหรับ .NET อย่างละเอียด
 ### [บทแนะนำการซ้อนภาพบน PDF – เพิ่มมาสก์และเปิดใช้งานการเลือกถาดอัตโนมัติ](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
 เรียนรู้วิธีการซ้อนภาพบน PDF เพิ่มมาสก์และเปิดใช้งานการเลือกถาดอัตโนมัติด้วย Aspose.PDF สำหรับ .NET
+### [เพิ่ม ExtGState ไปยัง PDF ด้วย Aspose.PDF สำหรับ .NET – คู่มือฉบับสมบูรณ์](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+เรียนรู้วิธีการใช้ ExtGState เพื่อควบคุมความโปร่งใสและการเรนเดอร์ใน PDF ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียด
 
 ## แหล่งข้อมูลเพิ่มเติม
 

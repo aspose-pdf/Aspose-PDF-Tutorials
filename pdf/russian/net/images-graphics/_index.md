@@ -187,6 +187,8 @@
 
 ### [Как использовать GraphicsAbsorber – извлекать векторную графику из PDF с помощью Aspose.Pdf](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
 Узнайте, как с помощью GraphicsAbsorber извлекать векторные графические элементы из PDF‑документов, используя Aspose.Pdf для .NET.
+### [Добавление ExtGState в PDF с помощью Aspose.Pdf – Полное руководство](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+Узнайте, как добавить ExtGState в PDF-файлы с помощью Aspose.Pdf, используя полное руководство с примерами кода C#.
 
 ## Дополнительные ресурсы
 

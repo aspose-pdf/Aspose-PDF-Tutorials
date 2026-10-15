@@ -182,6 +182,9 @@
 ### [Πώς να χρησιμοποιήσετε το GraphicsAbsorber – Εξαγωγή διανυσματικών γραφικών από PDF με το Aspose.Pdf](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
 Μάθετε πώς να εξάγετε διανυσματικά γραφικά από PDF χρησιμοποιώντας το GraphicsAbsorber του Aspose.Pdf.
 
+### [Προσθήκη ExtGState σε PDF με το Aspose.Pdf – Πλήρης Οδηγός](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+Μάθετε πώς να προσθέτετε ExtGState σε PDF χρησιμοποιώντας το Aspose.Pdf για .NET, βελτιώνοντας τη διαφάνεια και τα εφέ.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.PDF για τεκμηρίωση δικτύου](https://docs.aspose.com/pdf/net/)

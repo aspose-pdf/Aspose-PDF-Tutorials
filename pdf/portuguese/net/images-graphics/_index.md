@@ -54,6 +54,8 @@ Um tutorial de código para Aspose.PDF Net
 Aprenda a aplicar transparência a elementos de PDF com Aspose PDF em C#, seguindo este tutorial passo a passo com exemplos de código.
 ### [Como adicionar forma a PDF usando Aspose.PDF em C# – Guia passo a passo](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Aprenda a inserir formas geométricas em documentos PDF com Aspose.PDF para .NET usando C# passo a passo.
+### [Adicionar ExtGState a PDF com Aspose.Pdf – Guia completo](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+Aprenda a aplicar objetos ExtGState para controlar transparência e outras propriedades gráficas em PDFs usando Aspose.Pdf para .NET.
 
 ### [Identificação eficiente de imagens em PDF com Aspose.PDF para .NET](./master-image-identification-aspose-pdf-net/)
 Aprenda a identificar imagens em tons de cinza e RGB em PDFs usando o Aspose.PDF para .NET. Este tutorial aborda instalação, extração de imagens e dicas de desempenho.

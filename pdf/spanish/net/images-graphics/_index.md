@@ -122,6 +122,8 @@ Aprenda a validar la integridad de un PDF y a dibujar un rectángulo usando Aspo
 
 ### [Cómo agregar un rectángulo a un PDF con C# – Guía completa de Aspose PDF](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
 Aprenda a añadir un rectángulo a un PDF usando C# y Aspose.PDF, con ejemplos paso a paso y mejores prácticas.
+### [Agregar ExtGState a PDF con Aspose.Pdf – Guía completa](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+Aprenda a aplicar objetos ExtGState en PDFs usando Aspose.Pdf para .NET, controlando transparencias y efectos avanzados en sus documentos.
 
 ### [Cómo eliminar imágenes de archivos PDF con Aspose.PDF para .NET: guía completa](./delete-images-aspose-pdf-net/)
 Aprenda a eliminar imágenes de archivos PDF de forma eficiente con Aspose.PDF para .NET. Esta guía abarca la configuración, ejemplos de código y prácticas recomendadas.

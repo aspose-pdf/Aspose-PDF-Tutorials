@@ -183,6 +183,8 @@ Tanulja meg, hogyan ellenőrizheti a PDF-et, és adhat hozzá téglalap alakzato
 Ismerje meg, hogyan tömörítheti veszteségmentesen a képeket Word dokumentumokban az Aspose.Words for .NET segítségével.
 ### [Képátfedés PDF oktatóanyag – maszk hozzáadása és automatikus tálca kiválasztás engedélyezése](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
 Ismerje meg, hogyan helyezhet fel maszkot a PDF-re, és engedélyezheti az automatikus tálcaválasztást az Aspose.PDF for .NET segítségével.
+### [ExtGState hozzáadása PDF-hez az Aspose.Pdf segítségével – Teljes útmutató](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+Ismerje meg, hogyan adhat hozzá ExtGState objektumokat PDF-fájlokhoz az Aspose.Pdf használatával, részletes lépésekkel és C# példákkal.
 
 ## További források
 

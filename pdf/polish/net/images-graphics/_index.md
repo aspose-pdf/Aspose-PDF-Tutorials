@@ -187,6 +187,8 @@ Dowiedz się, jak nakładać obrazy na pliki PDF, dodawać maski i automatycznie
 
 ### [Jak używać GraphicsAbsorber – wyodrębnić grafikę wektorową z PDF przy użyciu Aspose.Pdf](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
 Dowiedz się, jak używać klasy GraphicsAbsorber do wyodrębniania grafiki wektorowej z dokumentów PDF przy pomocy Aspose.Pdf.
+### [Dodaj ExtGState do PDF przy użyciu Aspose.PDF – kompletny przewodnik](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+Dowiedz się, jak dodać ExtGState do plików PDF przy użyciu Aspose.PDF dla .NET, aby kontrolować przezroczystość i inne efekty graficzne.
 
 ## Dodatkowe zasoby
 

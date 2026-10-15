@@ -186,6 +186,8 @@ Aspose.PDF Net 程式碼教學
 了解如何使用 Aspose.Words for .NET 在 Word 文件中進行無損影像壓縮，保持品質同時減少檔案大小。
 ### [如何使用 GraphicsAbsorber – 使用 Aspose.PDF 從 PDF 提取向量圖形](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
 了解如何利用 Aspose.PDF 的 GraphicsAbsorber 從 PDF 文件中擷取向量圖形，並將其保存或進一步處理。
+### [使用 Aspose.PDF 為 PDF 添加 ExtGState – 完整指南](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+了解如何使用 Aspose.PDF 在 PDF 中設定 ExtGState 以控制透明度和混合模式的完整步驟指南。
 
 ## 其他資源
 

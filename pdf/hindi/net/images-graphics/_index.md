@@ -185,6 +185,8 @@ Aspose.PDF नेट के लिए एक कोड ट्यूटोरि�
 ### [Word दस्तावेज़ों में लॉसलेस इमेज संपीड़न – पूर्ण गाइड](./lossless-image-compression-in-word-docs-complete-guide/)
 Aspose.Words .NET का उपयोग करके Word फ़ाइलों में इमेज को बिना गुणवत्ता खोए संपीड़ित करने की पूरी प्रक्रिया सीखें।
 ### [इमेज ओवरले PDF ट्यूटोरियल – मास्क जोड़ें और स्वचालित ट्रे चयन सक्षम करें](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+### [Aspose.Pdf के साथ PDF में ExtGState जोड़ें – पूर्ण गाइड](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+Aspose.Pdf का उपयोग करके PDF में ExtGState सेट करके पारदर्शिता और ग्राफ़िक प्रभावों को नियंत्रित करने की पूरी प्रक्रिया सीखें।
 
 ## अतिरिक्त संसाधन
 

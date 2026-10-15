@@ -181,6 +181,7 @@
 ### [دليل تراكب الصور في PDF – إضافة قناع وتمكين اختيار الصينية تلقائيًا](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
 
 ### [كيفية استخدام GraphicsAbsorber – استخراج الرسومات المتجهة من PDF باستخدام Aspose.PDF لـ .NET](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
+### [إضافة ExtGState إلى PDF باستخدام Aspose.PDF – دليل شامل](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
 
 ## موارد إضافية
 

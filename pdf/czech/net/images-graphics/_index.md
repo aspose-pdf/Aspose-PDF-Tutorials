@@ -53,6 +53,8 @@ Výukový program pro kódování Aspose.PDF Net
 
 ### [Jak přidat tvar do PDF pomocí Aspose.PDF v C# – krok‑za‑krokem průvodce](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Naučte se, jak pomocí Aspose.PDF v C# přidat různé tvary do PDF dokumentů v tomto podrobném návodu.
+### [Přidání ExtGState do PDF pomocí Aspose.PDF – Kompletní průvodce](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+Naučte se, jak přidat ExtGState do PDF dokumentů pomocí Aspose.PDF pro .NET v tomto podrobném průvodci.
 
 ### [Efektivní identifikace obrázků PDF s Aspose.PDF pro .NET](./master-image-identification-aspose-pdf-net/)
 Naučte se, jak identifikovat obrázky ve stupních šedi a RGB v PDF pomocí Aspose.PDF pro .NET. Tento tutoriál se zabývá instalací, extrakcí obrázků a tipy pro výkon.

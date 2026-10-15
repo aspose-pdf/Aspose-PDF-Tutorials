@@ -183,6 +183,8 @@ Leer hoe u uw PDF-documenten kunt verbeteren door afbeeldingsachtergronden in te
 Leer hoe u afbeeldingen in Word-documenten zonder kwaliteitsverlies kunt comprimeren met Aspose.Words voor .NET.
 ### [Afbeeldingsoverlay in PDF – masker toevoegen en automatische lade-selectie inschakelen](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
 Leer hoe u een afbeeldingsoverlay met masker toevoegt en automatische lade-selectie activeert in PDF's met Aspose.PDF voor .NET.
+### [ExtGState toevoegen aan PDF met Aspose.Pdf – een volledige handleiding](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+Leer hoe u ExtGState-objecten kunt toepassen om transparantie, mengmodi en andere grafische instellingen in PDF's te beheren met Aspose.Pdf.
 
 ## Aanvullende bronnen
 

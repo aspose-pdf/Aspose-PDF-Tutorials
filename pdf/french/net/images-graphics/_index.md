@@ -186,6 +186,8 @@ Découvrez comment améliorer vos documents PDF en définissant des images d'arr
 Apprenez à compresser des images dans les fichiers Word sans perte de qualité en utilisant Aspose.Words pour .NET.
 ### [Tutoriel de superposition d'image PDF – ajouter un masque et activer la sélection automatique du plateau](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
 Apprenez à superposer des images sur un PDF, ajouter un masque et activer la sélection automatique du plateau avec Aspose.PDF pour .NET.
+### [Ajouter ExtGState à un PDF avec Aspose.PDF – guide complet](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+Apprenez à appliquer des états graphiques avancés (ExtGState) aux PDF avec Aspose.PDF pour .NET, incluant la transparence et les effets.
 
 ## Ressources supplémentaires
 

@@ -185,6 +185,8 @@ Scopri come sovrapporre immagini a PDF, aggiungere maschere e attivare la selezi
 
 ### [Come utilizzare GraphicsAbsorber – Estrarre grafica vettoriale da PDF con Aspose.Pdf](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
 Scopri come estrarre grafica vettoriale da PDF usando GraphicsAbsorber di Aspose.Pdf con esempi di codice C#.
+### [Aggiungere ExtGState a PDF con Aspose.Pdf – Guida completa](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+Scopri come utilizzare ExtGState per gestire trasparenza ed effetti grafici nei PDF con Aspose.Pdf in C#.
 
 ## Risorse aggiuntive
 

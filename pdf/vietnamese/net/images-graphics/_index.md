@@ -186,6 +186,8 @@ Tìm hiểu cách cải thiện tài liệu PDF của bạn bằng cách thiết
 
 ### [Hướng dẫn chồng lớp ảnh PDF – Thêm mặt nạ và bật lựa chọn khay tự động](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
 Hướng dẫn cách chồng lớp ảnh lên PDF, thêm mặt nạ và kích hoạt lựa chọn khay tự động bằng Aspose.PDF cho .NET.
+### [Thêm ExtGState vào PDF bằng Aspose.Pdf – Hướng dẫn toàn diện](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+Tìm hiểu cách áp dụng ExtGState để kiểm soát độ trong suốt và các hiệu ứng đồ họa trong PDF bằng Aspose.Pdf cho .NET.
 
 ## Tài nguyên bổ sung
 

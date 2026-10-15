@@ -152,31 +152,27 @@ Aspose.PDF for .NET을 사용하여 PDF에서 페이지 크기를 추출하고 �
 Aspose.PDF for .NET을 사용하여 PDF의 크기를 효율적으로 조정하고, 압축하고, 이미지 품질을 조절하는 방법을 알아보세요. 문서 성능과 사용자 경험을 개선해 보세요.
 
 ### [Aspose.PDF .NET을 사용하여 PDF에서 그래픽을 제거하는 방법: 완전한 가이드](./remove-graphics-aspose-pdf-net/)
-Aspose.PDF for .NET을 사용하여 PDF에서 그래픽을 효율적으로 제거하는 방법을 알아보세요. 이 단계별 가이드를 따라 문서를 정리하고 파일 크기를 최적화하세요.
+Aspose.PDF .NET을 사용하여 PDF에서 그래픽을 효율적으로 제거하는 방법을 알아보세요. 이 단계별 가이드를 따라 문서를 정리하고 파일 크기를 최적화하세요.
+
+### [Aspose.Pdf를 사용하여 PDF에 ExtGState 추가 – 완전 가이드](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+Aspose.Pdf를 활용해 PDF에 ExtGState를 적용하고 투명도 및 혼합 모드를 제어하는 방법을 단계별로 안내합니다.
 
 ### [GraphicsAbsorber 사용 방법 – Aspose.PDF로 PDF에서 벡터 그래픽 추출](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
 Aspose.PDF for .NET의 GraphicsAbsorber를 사용해 PDF에서 벡터 그래픽을 추출하고 활용하는 방법을 단계별로 안내합니다.
 
 ### [Aspose.PDF .NET을 사용하여 PDF의 이미지를 바꾸는 방법: 개발자 가이드](./replace-images-pdf-aspose-net-guide/)
-Aspose.PDF for .NET을 사용하여 PDF 문서의 이미지를 효율적으로 바꾸는 방법을 알아보세요. 이 포괄적인 개발자 가이드를 통해 문서 업데이트를 간소화하세요.
 
-### [Aspose.PDF for .NET을 사용하여 PDF의 이미지를 바꾸는 방법: 완전한 가이드](./replace-images-aspose-pdf-net-tutorial/)
-Aspose.PDF for .NET을 사용하여 PDF 문서의 이미지를 효율적으로 바꾸는 방법을 알아보세요. 이 종합 가이드에서는 설정, 구현 및 실제 적용 사례를 다룹니다.
+### [Aspose.PDF .NET을 사용하여 PDF의 이미지를 바꾸는 방법: 완전한 가이드](./replace-images-aspose-pdf-net-tutorial/)
 
 ### [Aspose.PDF for .NET을 사용하여 PDF의 이미지 크기를 설정하는 방법](./set-image-size-pdf-aspose-dotnet/)
-Aspose.PDF for .NET을 사용하여 PDF의 이미지 크기를 조정하는 방법을 알아보세요. 전문적인 문서와 프레젠테이션을 만드는 데 적합합니다.
 
 ### [Aspose.PDF for .NET을 사용하여 PDF 이미지 배치 마스터하기](./optimize-image-placement-aspose-pdf-net/)
-Aspose.PDF for .NET을 사용하여 PDF 문서의 이미지 배치를 최적화하는 방법을 알아보세요. 실용적인 가이드를 통해 문서 품질과 효율성을 향상하세요.
 
 ### [Aspose.PDF for .NET을 사용하여 PDF 이미지 최적화: 포괄적인 가이드](./optimize-pdf-images-aspose-pdf-dotnet/)
-Aspose.PDF for .NET을 사용하여 PDF 문서의 이미지를 압축하고 최적화하는 방법을 알아보세요. 파일 크기는 줄이면서 품질은 유지합니다. 개발자와 문서 관리자에게 적합합니다.
 
 ### [Aspose.PDF .NET을 사용하여 PDF에서 LaTeX 렌더링: 단계별 가이드](./render-latex-aspose-pdf-net-guide/)
-Aspose.PDF for .NET을 사용하여 복잡한 LaTeX 스크립트를 PDF 문서로 렌더링하는 방법을 알아보세요. 여기에는 설정, 구현 및 최적화 팁이 포함됩니다.
 
 ### [Aspose.PDF for .NET을 사용하여 PDF에 이미지 배경 설정: 포괄적인 가이드](./aspose-pdf-net-set-image-backgrounds/)
-Aspose.PDF for .NET을 사용하여 이미지 배경을 설정하여 PDF 문서를 개선하는 방법을 알아보세요. 이 가이드에서는 설정, 구현 및 최적화 팁을 다룹니다.
 
 ### [Aspose.PDF를 사용하여 PDF에 사각형 추가 – 완전 프로그래밍 가이드](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
 Aspose.PDF를 활용해 PDF 문서에 사각형을 그리는 방법을 단계별로 안내합니다.
