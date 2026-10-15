@@ -1,0 +1,7 @@
+Title: Create pdf document in C# with Aspose.Pdf
+Slug: create-pdf-document-in-c-with-aspose-pdf
+Category: document-creation
+ProcessedDate: 2026-08-08T10:59:28.576863
+SourceRepo: AI Search API
+Keywords: create pdf document, add blank page pdf, add paragraph to pdf, how to add note pdf, position text in pdf
+PRNumber: 116

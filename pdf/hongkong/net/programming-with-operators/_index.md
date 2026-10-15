@@ -23,6 +23,7 @@ Aspose.PDF for .NET 的「使用運算子進行程式設計」教學課程將引
 | [在頁面上繪製 XForm](./draw-xform-on-page/) |透過本全面的逐步指南了解如何使用 Aspose.PDF for .NET 在 PDF 中繪製 XForms。 |  
 | [PDF 運算符](./pdf-operators/) |使用 Aspose.PDF for .NET 的 PDF 運算子的逐步指南。將圖像新增至 PDF 頁面並指定其位置。 |  
 | [刪除 PDF 檔案中的圖形對象](./remove-graphics-objects/) |在本逐步指南中了解如何使用 Aspose.PDF for .NET 從 PDF 檔案中刪除圖形物件。簡化您的 PDF 操作任務。 |  
+| [遍歷集合 C# – 簡易指南：循環遍歷項目](./iterate-collection-c-simple-guide-to-loop-over-items/) |本指南說明如何使用 Aspose.PDF for .NET 在 C# 中遍歷集合，輕鬆迭代 PDF 項目。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -17,6 +17,12 @@ Våra handledningar om säkerhet och behörigheter visar hur du skyddar PDF-doku
 
 ## Tillgängliga handledningar
 
+
+{{< tutorial-card link="./encrypt-pdf-form-filling/" title="Kryptera PDF för att endast tillåta formulärifyllning med Aspose.Pdf för .NET" imgSrc="./encrypt-pdf-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-form-filling/" title="Kryptera PDF för endast formulärifyllning med AES‑256 med Aspose.Pdf för .NET" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="Kryptera PDF utan utskriftsbehörighet med Aspose.PDF för .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [Ändra PDF-lösenord med Aspose.PDF för .NET](./change-pdf-password-aspose-pdf-net-guide/)
 En kodhandledning för Aspose.PDF Net
 
@@ -70,6 +76,11 @@ Lär dig hur du låser upp och dekrypterar skyddade PDF-filer med Aspose.PDF fö
 
 ### [Verifiera PDF-lösenord med Aspose.PDF .NET: En steg-för-steg-guide för säkerhet och behörigheter](./verify-pdf-passwords-aspose-dot-net-guide/)
 Lär dig hur du verifierar PDF-lösenord med Aspose.PDF för .NET i C#. Den här omfattande guiden förenklar dokumentsäkerhet och åtkomstkontroll.
+
+### [Applicera redigering på PDF med Aspose Plugin Manager – En komplett guide](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
+Lär dig hur du använder Aspose Plugin Manager för att applicera redigering på PDF-dokument med steg-för-steg‑kodexempel.
+### [Hur man raderar PDF och tar bort känslig data i C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+Lär dig hur du raderar känslig information i PDF-filer med Aspose.PDF för .NET i C#.
 
 ## Ytterligare resurser
 

@@ -1,0 +1,7 @@
+Title: How to change opacity in a PDF with Aspose.Pdf for .NET
+Slug: how-to-change-opacity-in-a-pdf-with-aspose-pdf-for-net
+Category: images-graphics
+ProcessedDate: 2026-09-15T14:24:44.045877
+SourceRepo: AI Search API
+Keywords: how to change opacity, how to add transparency, save modified pdf
+PRNumber: 130

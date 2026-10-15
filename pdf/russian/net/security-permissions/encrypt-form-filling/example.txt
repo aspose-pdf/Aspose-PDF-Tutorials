@@ -1,0 +1,49 @@
+//ExStart
+//ExSummary: Этот учебник демонстрирует, как открыть существующий PDF с помощью Aspose.Pdf, ограничить его разрешения только заполнением форм, зашифровать его с использованием AES‑256, указав пароль для просмотра и пароль владельца, и сохранить защищённый документ.
+//ExStepSummary:0: Объявите путь к исходному PDF, путь к выходному файлу и пароли для просмотра и владельца.
+//ExStepSummary:1: Проверьте, существует ли исходный файл; если нет, выведите сообщение об ошибке и завершите работу.
+//ExStepSummary:2: Войдите в блок try и откройте PDF‑документ с помощью инструкции `using`, создав переменную `pdfDoc`.
+//ExStepSummary:3: Создайте объект `Permissions`, который позволяет только заполнение форм.
+//ExStepSummary:4: Зашифруйте `pdfDoc` с помощью паролей просмотра и владельца, применив набор разрешений и используя AES‑256.
+//ExStepSummary:5: Сохраните зашифрованный PDF в указанный выходной файл и закройте блок `using`.
+//ExStepSummary:6: Выведите сообщение подтверждения в консоль и закройте блок try.
+//ExStepSummary:7: Перехватите любое исключение, выведите его сообщение в поток ошибок и закройте блок catch.
+//ExStep:0-
+        const string sourceFile = "sample.pdf";
+        const string encryptedFile = "protected.pdf";
+        const string viewerPwd = "readPass";
+        const string masterPwd = "fullPass";
+
+//ExStep:1-
+        if (!File.Exists(sourceFile))
+        {
+            Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+            return;
+        }
+
+//ExStep:2-
+        try
+        {
+            using (Document pdfDoc = new Document(sourceFile))
+            {
+
+//ExStep:3-
+                Permissions permissionSet = Permissions.FillForm;
+
+//ExStep:4-
+                pdfDoc.Encrypt(viewerPwd, masterPwd, permissionSet, CryptoAlgorithm.AESx256);
+
+//ExStep:5-
+                pdfDoc.Save(encryptedFile);
+            }
+
+//ExStep:6-
+            Console.WriteLine($"Encrypted document written to '{encryptedFile}'.");
+        }
+
+//ExStep:7-
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Error: {ex.Message}");
+        }
+//ExEnd

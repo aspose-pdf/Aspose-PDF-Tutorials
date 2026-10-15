@@ -35,6 +35,14 @@ Erfahren Sie, wie Sie SVG-Dateien mit Aspose.PDF für .NET nahtlos in hochwertig
 ### [Erstellen und Füllen von Rechtecken in PDFs mit Aspose.PDF für .NET: Eine Schritt-für-Schritt-Anleitung](./create-fill-rectangle-aspose-pdf-net/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET Rechtecke in PDF-Dokumenten erstellen und füllen. Diese Schritt-für-Schritt-Anleitung deckt alles ab, von der Einrichtung bis zur Implementierung mit C#.
 
+### [Rechteck zu PDF hinzufügen mit Aspose.PDF – Vollständiger Programmierleitfaden](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET Rechtecke zu PDFs hinzufügen, positionieren und formatieren – ein umfassender Leitfaden.
+
+### [Rechteck in PDF mit C# zeichnen – Schritt‑für‑Schritt‑Anleitung](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein Rechteck in ein PDF-Dokument zeichnen. Folgen Sie dieser Schritt‑für‑Schritt‑Anleitung.
+### [Wie man PDF validiert und ein Rechteck hinzufügt – Vollständiger Leitfaden](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDFs validieren und Rechtecke hinzufügen, um Dokumente zu prüfen und zu markieren.
+
 ### [Erstellen Sie benutzerdefinierte PDF-Stempel mit Aspose.PDF in .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Ein Code-Tutorial für Aspose.PDF Net
 
@@ -44,8 +52,16 @@ Erfahren Sie, wie Sie optisch ansprechende PDF-Dokumente erstellen, indem Sie mi
 ### [Zeichnen Sie transparente Formen in PDFs mit Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 Ein Code-Tutorial für Aspose.PDF Net
 
+### [Transparenz zu PDF mit Aspose PDF in C# hinzufügen – Schritt‑für‑Schritt‑Anleitung](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET Transparenz in PDF-Dokumenten hinzufügen und anpassen – eine praktische Schritt‑für‑Schritt‑Anleitung.
+### [Wie man Formen zu PDF mit Aspose.PDF in C# hinzufügt – Schritt‑für‑Schritt‑Anleitung](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# Formen zu PDFs hinzufügen und anpassen.
+
 ### [Effiziente PDF-Bildidentifizierung mit Aspose.PDF für .NET](./master-image-identification-aspose-pdf-net/)
 Erfahren Sie, wie Sie Graustufen- und RGB-Bilder in PDFs mit Aspose.PDF für .NET identifizieren. Dieses Tutorial behandelt Installation, Bildextraktion und Performance-Tipps.
+
+### [So verwenden Sie GraphicsAbsorber – Vektorgrafiken aus PDF mit Aspose.Pdf extrahieren](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
+Erfahren Sie, wie Sie mit Aspose.Pdf den GraphicsAbsorber einsetzen, um Vektorgrafiken aus PDF-Dateien zu extrahieren.
 
 ### [Konvertieren Sie Bildströme effizient in PDFs mit Aspose.PDF für .NET](./convert-image-stream-to-pdf-aspose-dotnet/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET Bildstreams in professionelle PDF-Dokumente konvertieren. Folgen Sie dieser Schritt-für-Schritt-Anleitung, um Ihre Dokumenten-Workflows zu verbessern.
@@ -77,7 +93,7 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET nahtlos Bilder zu Ihren PDF-Dokum
 ### [So fügen Sie mit Aspose.PDF für .NET Bilder zu PDFs hinzu: Eine vollständige Anleitung](./add-images-to-pdfs-using-aspose-pdf-net/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET nahtlos Bilder zu Ihren PDF-Dokumenten hinzufügen. Diese Schritt-für-Schritt-Anleitung behandelt Einrichtung, Implementierung und praktische Anwendungen.
 
-### [So fügen Sie mit Aspose.PDF für .NET Bilder zu PDFs hinzu: Eine Schritt-für-Schritt-Anleitung](./add-images-to-pdfs-aspose-pdf-net/)
+### [So fügen Sie mit Aspose.PDF für .NET Bilder zu PDFs hinzufügen: Eine Schritt-für-Schritt-Anleitung](./add-images-to-pdfs-aspose-pdf-net/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET nahtlos Bilder zu Ihren PDFs hinzufügen. Diese Anleitung beschreibt das Hinzufügen von Bildern zu vorhandenen PDFs und das Erstellen neuer Bilder aus DICOM-Dateien.
 
 ### [So fügen Sie mit Aspose.PDF für .NET einen Bildkopf zu PDFs hinzu: Eine Schritt-für-Schritt-Anleitung](./add-image-header-pdf-aspose-dotnet/)
@@ -103,6 +119,9 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET barrierefreie PDF-Dateien mit ein
 
 ### [So erstellen Sie transparente Rechtecke in PDFs mit Aspose.PDF für .NET](./create-transparent-rectangles-aspose-pdf-dotnet/)
 Erfahren Sie, wie Sie Ihre PDF-Dokumente verbessern, indem Sie mit Aspose.PDF für .NET Rechtecke mit Alpha-Transparenz erstellen. Folgen Sie dieser Schritt-für-Schritt-Anleitung.
+
+### [Rechteck zu PDF mit C# hinzufügen – Vollständiger Aspose PDF Leitfaden](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# ein Rechteck zu einem PDF hinzufügen und anpassen.
 
 ### [So löschen Sie Bilder aus PDF-Dateien mit Aspose.PDF für .NET – Vollständige Anleitung](./delete-images-aspose-pdf-net/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET effizient Bilder aus PDF-Dateien löschen. Diese Anleitung behandelt die Einrichtung, Codebeispiele und bewährte Methoden.
@@ -163,6 +182,11 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET komplexe LaTeX-Skripte in PDF-Dok
 
 ### [Bildhintergründe in PDFs mit Aspose.PDF für .NET festlegen: Eine umfassende Anleitung](./aspose-pdf-net-set-image-backgrounds/)
 Erfahren Sie, wie Sie Ihre PDF-Dokumente mit Aspose.PDF für .NET durch die Einrichtung von Bildhintergründen optimieren. Diese Anleitung enthält Tipps zur Einrichtung, Implementierung und Optimierung.
+
+### [Verlustfreie Bildkompression in Word-Dokumenten – Komplettanleitung](./lossless-image-compression-in-word-docs-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET verlustfreie Bildkompression in Word-Dokumenten durchführen.
+### [Bildüberlagerungs-PDF-Tutorial – Maske hinzufügen und automatische Tablettauswahl aktivieren](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET Masken überlagern und die automatische Tablettauswahl in PDFs aktivieren.
 
 ## Weitere Ressourcen
 

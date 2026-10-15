@@ -1,0 +1,46 @@
+//ExStart
+//ExSummary: บทแนะนำนี้แสดงวิธีการเปิดไฟล์ PDF ที่มีอยู่ด้วย Aspose.Pdf, จำกัดสิทธิ์ให้อนุญาตเฉพาะการกรอกแบบฟอร์ม, เข้ารหัสด้วยรหัสผ่านผู้ดูและผู้เป็นเจ้าของโดยใช้ AES‑256, และบันทึกไฟล์ที่ได้รับการปกป้อง
+//ExStepSummary:0: กำหนดเส้นทางไฟล์ต้นทางและปลายทางรวมทั้งรหัสผ่านผู้ดูและผู้เป็นเจ้าของ
+//ExStepSummary:1: ตรวจสอบว่าไฟล์ PDF ต้นทางมีอยู่หรือไม่และยกเลิกการทำงานพร้อมแสดงข้อความข้อผิดพลาดหากไม่มี
+//ExStepSummary:2: เริ่มบล็อก try เพื่อจัดการข้อผิดพลาดใด ๆ ที่อาจเกิดขึ้นระหว่างการประมวลผล
+//ExStepSummary:3: เปิดไฟล์ PDF ที่มีอยู่โดยสร้างอ็อบเจ็กต์ Document ชื่อ pdfDoc
+//ExStepSummary:4: ตั้งค่าสิทธิ์ให้อนุญาตเฉพาะการกรอกแบบฟอร์ม, เข้ารหัสเอกสารด้วยรหัสผ่านผู้ดูและผู้เป็นเจ้าของโดยใช้ AES‑256, และบันทึก PDF ที่ได้รับการปกป้อง
+//ExStepSummary:5: เขียนข้อความยืนยันไปยังคอนโซลและปิดบล็อก try
+//ExStepSummary:6: ดักจับข้อยกเว้นใด ๆ และแสดงข้อความข้อผิดพลาดไปยังคอนโซล
+//ExStep:0-
+        const string sourceFile = "sample.pdf";
+        const string destFile = "protected.pdf";
+        const string viewerPass = "viewerPass";
+        const string adminPass = "adminPass";
+
+//ExStep:1-
+        if (!File.Exists(sourceFile))
+        {
+            Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+            return;
+        }
+
+//ExStep:2-
+        try
+        {
+
+//ExStep:3-
+            using (Document pdfDoc = new Document(sourceFile))
+
+//ExStep:4-
+            {
+                Permissions allowed = Permissions.FillForm;
+                pdfDoc.Encrypt(viewerPass, adminPass, allowed, CryptoAlgorithm.AESx256);
+                pdfDoc.Save(destFile);
+            }
+
+//ExStep:5-
+            Console.WriteLine($"Secure PDF written to '{destFile}'.");
+        }
+
+//ExStep:6-
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Exception occurred: {ex.Message}");
+        }
+//ExEnd

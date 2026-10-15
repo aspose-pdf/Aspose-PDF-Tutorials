@@ -17,6 +17,12 @@
 
 ## 可用教程
 
+
+{{< tutorial-card link="./encrypt-pdf-form-filling/" title="使用 Aspose.Pdf for .NET 加密 PDF 以僅允許填寫表單" imgSrc="./encrypt-pdf-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-form-filling/" title="使用 Aspose.Pdf for .NET 以 AES‑256 加密僅限填寫表單的 PDF" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="使用 Aspose.PDF for .NET 加密 PDF（不允許列印）" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [使用 Aspose.PDF for .NET 變更 PDF 密碼](./change-pdf-password-aspose-pdf-net-guide/)
 Aspose.PDF Net 程式碼教學
 
@@ -62,14 +68,20 @@ Aspose.PDF Net 程式碼教學
 ### [使用 Aspose.PDF .NET 掌握 PDF 編輯：安全文件處理的綜合指南](./mastering-pdf-redaction-aspose-pdf-net-guide/)
 了解如何使用 Aspose.PDF .NET 安全地編輯 PDF。本指南涵蓋基於註釋和外觀的方法，確保您的文件保持合規。
 
+### [如何在 C# 中遮蔽 PDF 並移除敏感資料](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中遮蔽 PDF 並刪除敏感資訊。
+
+### [使用 Aspose.PDF .NET 解鎖和解密 PDF 檔案：完整指南](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 ### [如何使用 Aspose.Pdf 進行 PDF 遮蔽 – 完整逐步指南](./how-to-redact-pdf-with-aspose-pdf-complete-step-by-step-guid/)
 了解如何使用 Aspose.Pdf 在 .NET 中對 PDF 進行遮蔽，保護敏感資訊，提供完整的程式碼範例與步驟說明。
 
-### [使用 Aspose.PDF for .NET 解鎖和解密 PDF 檔案：完整指南](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 了解如何使用 C# 中的 Aspose.PDF for .NET 解鎖和解密受保護的 PDF 檔案。本指南涵蓋設定、解密步驟和最佳實務。
 
 ### [使用 Aspose.PDF .NET 驗證 PDF 密碼：安全性與權限的逐步指南](./verify-pdf-passwords-aspose-dot-net-guide/)
 了解如何使用 C# 中的 Aspose.PDF for .NET 驗證 PDF 密碼。本綜合指南簡化了文件安全和存取控制。
+
+### [使用 Aspose Plugin Manager 對 PDF 進行塗抹 – 完整指南](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
+了解如何使用 Aspose Plugin Manager 在 PDF 中應用塗抹，以保護敏感資訊的完整指南。
 
 ## 其他資源
 

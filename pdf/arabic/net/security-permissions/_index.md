@@ -17,6 +17,12 @@
 
 ## البرامج التعليمية المتاحة
 
+
+{{< tutorial-card link="./encrypt-pdf-form-filling/" title="تشفير PDF للسماح بملء النماذج فقط باستخدام Aspose.Pdf for .NET" imgSrc="./encrypt-pdf-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-form-filling/" title="تشفير PDF لتعبئة النماذج فقط باستخدام AES‑256 مع Aspose.Pdf for .NET" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="تشفير PDF بدون إذن طباعة باستخدام Aspose.PDF for .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [تغيير كلمات مرور PDF باستخدام Aspose.PDF لـ .NET](./change-pdf-password-aspose-pdf-net-guide/)
 برنامج تعليمي لبرمجة Aspose.PDF Net
 
@@ -70,6 +76,11 @@
 
 ### [التحقق من كلمات مرور ملفات PDF باستخدام Aspose.PDF .NET: دليل خطوة بخطوة للأمان والأذونات](./verify-pdf-passwords-aspose-dot-net-guide/)
 تعرّف على كيفية التحقق من كلمات مرور ملفات PDF باستخدام Aspose.PDF لـ .NET بلغة C#. يُبسّط هذا الدليل الشامل أمان المستندات والتحكم في الوصول إليها.
+
+### [تطبيق الحجب على ملفات PDF باستخدام مدير الإضافات Aspose – دليل شامل](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
+دليل شامل لتطبيق الحجب على مستندات PDF باستخدام مدير الإضافات Aspose.
+### [كيفية تحرير PDF وإزالة البيانات الحساسة في C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+تعلم كيفية تحرير ملفات PDF وإزالة المعلومات الحساسة باستخدام Aspose.PDF لـ .NET بلغة C#.
 
 ## موارد إضافية
 

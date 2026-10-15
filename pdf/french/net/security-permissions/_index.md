@@ -17,6 +17,12 @@ Nos tutoriels sur la sécurité et les autorisations expliquent comment protége
 
 ## Tutoriels disponibles
 
+
+{{< tutorial-card link="./encrypt-pdf-form-filling/" title="Chiffrer un PDF pour n'autoriser que le remplissage de formulaire avec Aspose.Pdf pour .NET" imgSrc="./encrypt-pdf-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-form-filling/" title="Chiffrer un PDF uniquement pour le remplissage de formulaires avec AES‑256 en utilisant Aspose.Pdf pour .NET" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="Chiffrer un PDF sans autorisation d’impression avec Aspose.PDF for .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [Changer les mots de passe PDF avec Aspose.PDF pour .NET](./change-pdf-password-aspose-pdf-net-guide/)
 Un tutoriel de code pour Aspose.PDF Net
 
@@ -62,6 +68,10 @@ Découvrez comment implémenter des signatures numériques sécurisées et la v�
 ### [Maîtriser la rédaction PDF avec Aspose.PDF .NET : un guide complet pour une gestion sécurisée des documents](./mastering-pdf-redaction-aspose-pdf-net-guide/)
 Apprenez à rédiger des PDF en toute sécurité avec Aspose.PDF .NET. Ce guide couvre les approches basées sur les annotations et les façades, garantissant la conformité de vos documents.
 
+### [Appliquer la rédaction à un PDF avec Aspose Plugin Manager – Guide complet](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
+Apprenez à appliquer la rédaction sur des PDF en utilisant Aspose Plugin Manager, avec un guide complet étape par étape.
+### [Comment rédiger un PDF et supprimer les données sensibles d'un PDF en C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+Apprenez à masquer les informations confidentielles et à supprimer les données sensibles d'un PDF avec Aspose.PDF pour .NET en C#.
 ### [Comment rédiger un PDF avec Aspose.Pdf – Guide complet étape par étape](./how-to-redact-pdf-with-aspose-pdf-complete-step-by-step-guid/)
 Apprenez à caviarder des PDF en toute sécurité avec Aspose.Pdf grâce à un guide détaillé pas à pas.
 

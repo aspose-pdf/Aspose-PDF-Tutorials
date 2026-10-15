@@ -17,6 +17,12 @@
 
 ## 利用可能なチュートリアル
 
+
+{{< tutorial-card link="./encrypt-pdf-form-filling/" title="Aspose.Pdf for .NET を使用して、PDF をフォーム入力のみ許可するように暗号化する" imgSrc="./encrypt-pdf-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-form-filling/" title="Aspose.Pdf for .NET を使用して、AES‑256 でフォーム入力のみ可能な PDF を暗号化する" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="Aspose.PDF for .NET を使用した印刷不可権限での PDF 暗号化" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [Aspose.PDF for .NET で PDF パスワードを変更する](./change-pdf-password-aspose-pdf-net-guide/)
 Aspose.PDF Net のコードチュートリアル
 
@@ -62,6 +68,8 @@ Aspose.PDF を使用して、.NET で PDF に安全なデジタル署名と検�
 ### [Aspose.PDF .NET による PDF 編集のマスター: 安全なドキュメント処理のための総合ガイド](./mastering-pdf-redaction-aspose-pdf-net-guide/)
 Aspose.PDF .NET を使用して PDF を安全に編集する方法を学びましょう。このガイドでは、アノテーションベースとファサードベースのアプローチを取り上げ、ドキュメントのコンプライアンス維持を実現します。
 
+### [Aspose Plugin Manager を使用した PDF のレダクション適用 – 完全ガイド](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
+Aspose Plugin Manager を使用して PDF のレダクション（情報隠蔽）を実装する方法をステップバイステップで解説します。
 ### [Aspose.Pdf を使用して PDF をレダクトする方法 – 完全ステップバイステップガイド](./how-to-redact-pdf-with-aspose-pdf-complete-step-by-step-guid/)
 Aspose.Pdf を使用して、PDF ドキュメントから機密情報を安全に削除する手順を詳しく解説します。
 
@@ -70,6 +78,9 @@ C#でAspose.PDF for .NETを使用して、保護されたPDFファイルのロ�
 
 ### [Aspose.PDF .NET で PDF パスワードを検証: セキュリティと権限に関するステップバイステップガイド](./verify-pdf-passwords-aspose-dot-net-guide/)
 C#でAspose.PDF for .NETを使用してPDFのパスワードを検証する方法を学びましょう。この包括的なガイドは、ドキュメントのセキュリティとアクセス制御を簡素化します。
+
+### [C# で PDF を編集し機密データを削除する方法](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+Aspose.PDF for .NET を使用して、C# で PDF の編集（レダクション）と機密情報の除去を行う手順を解説します。
 
 ## 追加リソース
 

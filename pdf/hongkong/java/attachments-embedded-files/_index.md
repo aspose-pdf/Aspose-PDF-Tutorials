@@ -6,7 +6,7 @@ url: /zh-hant/java/attachments-embedded-files/
 weight: 11
 ---
 
- final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

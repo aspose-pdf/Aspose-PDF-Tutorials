@@ -17,6 +17,12 @@ Hướng dẫn về bảo mật và quyền của chúng tôi trình bày cách 
 
 ## Hướng dẫn có sẵn
 
+
+{{< tutorial-card link="./encrypt-pdf-form-filling/" title="Mã hóa PDF để chỉ cho phép điền biểu mẫu bằng Aspose.Pdf cho .NET" imgSrc="./encrypt-pdf-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-form-filling/" title="Mã hóa PDF chỉ cho phép điền biểu mẫu bằng AES‑256 sử dụng Aspose.Pdf cho .NET" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="Mã hóa PDF không cho phép in bằng Aspose.PDF for .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [Thay đổi mật khẩu PDF bằng Aspose.PDF cho .NET](./change-pdf-password-aspose-pdf-net-guide/)
 Hướng dẫn mã cho Aspose.PDF Net
 
@@ -62,12 +68,17 @@ Tìm hiểu cách triển khai chữ ký số an toàn và xác minh cho PDF tro
 ### [Làm chủ việc biên tập PDF với Aspose.PDF .NET: Hướng dẫn toàn diện để xử lý tài liệu an toàn](./mastering-pdf-redaction-aspose-pdf-net-guide/)
 Tìm hiểu cách biên tập PDF an toàn bằng Aspose.PDF .NET. Hướng dẫn này đề cập đến các phương pháp tiếp cận dựa trên chú thích và facades, đảm bảo tài liệu của bạn vẫn tuân thủ.
 
+### [Cách biên tập PDF và xóa dữ liệu nhạy cảm trong C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+Hướng dẫn cách biên tập PDF để xóa dữ liệu nhạy cảm bằng Aspose.PDF cho .NET trong C#.
+
 ### [Mở khóa và giải mã tệp PDF bằng Aspose.PDF cho .NET: Hướng dẫn đầy đủ](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 Tìm hiểu cách mở khóa và giải mã các tệp PDF được bảo vệ bằng Aspose.PDF cho .NET trong C#. Hướng dẫn này bao gồm thiết lập, các bước giải mã và các biện pháp thực hành tốt nhất.
 
 ### [Xác minh mật khẩu PDF với Aspose.PDF .NET: Hướng dẫn từng bước về bảo mật và quyền](./verify-pdf-passwords-aspose-dot-net-guide/)
 Tìm hiểu cách xác minh mật khẩu PDF bằng Aspose.PDF cho .NET trong C#. Hướng dẫn toàn diện này giúp đơn giản hóa bảo mật tài liệu và kiểm soát truy cập.
 
+### [Áp dụng biên tập PDF với Aspose Plugin Manager – Hướng dẫn toàn diện](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
+Hướng dẫn chi tiết cách sử dụng Aspose Plugin Manager để áp dụng biên tập nội dung nhạy cảm vào tài liệu PDF một cách hiệu quả.
 ### [Cách biên tập PDF với Aspose.Pdf – Hướng dẫn chi tiết từng bước](./how-to-redact-pdf-with-aspose-pdf-complete-step-by-step-guid/)
 Tìm hiểu cách biên tập nội dung nhạy cảm trong PDF bằng Aspose.Pdf với hướng dẫn chi tiết từng bước.
 
