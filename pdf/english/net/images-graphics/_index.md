@@ -1,5 +1,5 @@
 ---
-title: "Learn to Manage PDF Images and Graphics with Aspose.PDF for .NET"
+title: "Learn to Insert, Extract, and Manipulate PDF Images and Graphics with Aspose.PDF for .NET"
 description: "Learn to work with images, vector graphics, and visual elements in PDF documents with these Aspose.PDF .NET tutorials."
 weight: 5
 url: "/net/images-graphics/"
@@ -202,11 +202,11 @@ Learn how to enhance your PDF documents by setting image backgrounds using Aspos
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 
+{{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
-{{< /blocks/products/products-backtop-button >}}

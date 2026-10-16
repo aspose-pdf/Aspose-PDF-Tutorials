@@ -48,7 +48,7 @@ tags:
 - PDF
 - C#
 - Digital signature
-title: Validate PDF signatures with a Certificate Authority using GroupDocs.Signature for C#
+title: How to Validate PDF Signatures with a Certificate Authority using GroupDocs.Signature for C#
 url: /net/programming-with-security-and-signatures/how-to-validate-pdf-signatures-with-a-certificate-authority/
 ---
 
@@ -259,6 +259,7 @@ The following tutorials cover closely related topics that build on the technique
 - [Validate PDF Signature in C# – Step‑by‑Step Guide]({{< relref "/pdf/english/net/programming-with-security-and-signatures/validate-pdf-signature-in-c-step-by-step-guide/" >}})
 
 {{< blocks/products/pf/backtop-button >}}
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

@@ -53,7 +53,7 @@ tags:
 - PDF optimization
 - C#
 - Aspose.Pdf
-title: How to compress and optimize PDF using Aspose.Pdf in C#
+title: How to compress and optimize PDF files using Aspose.Pdf for .NET (C#)
 url: /net/performance-optimization/how-to-optimize-pdf-using-aspose-pdf-in-c/
 ---
 
@@ -248,4 +248,3 @@ The following tutorials cover closely related topics that build on the technique
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

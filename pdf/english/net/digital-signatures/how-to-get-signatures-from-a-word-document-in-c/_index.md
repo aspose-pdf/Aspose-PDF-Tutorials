@@ -24,7 +24,7 @@ tags:
 - Aspose.Words
 - digital signature
 - document processing
-title: How to extract digital signatures from a Word document using Aspose.Words in C#
+title: How to extract digital signatures from a Word document using the Aspose.Words API in C#
 url: /net/digital-signatures/how-to-get-signatures-from-a-word-document-in-c/
 ---
 

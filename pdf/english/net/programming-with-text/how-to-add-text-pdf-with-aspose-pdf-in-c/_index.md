@@ -208,7 +208,7 @@ The following tutorials cover closely related topics that build on the technique
 - [How to Rotate Text in PDFs Using Aspose.PDF for .NET: A Step-by-Step Guide](/pdf/english/net/text-operations/rotate-text-aspose-pdf-net-guide/)
 - [Add, Edit, and Extract Text Using Aspose.PDF for .NET](/pdf/english/net/programming-with-text/)
 
-{{< blocks/products/pf/tutorial-page-section >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}

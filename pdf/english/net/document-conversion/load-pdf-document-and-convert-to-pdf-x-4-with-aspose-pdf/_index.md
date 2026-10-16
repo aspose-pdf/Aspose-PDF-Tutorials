@@ -30,7 +30,7 @@ tags:
 - PDF conversion
 - C#
 - PDF/X-4
-title: Load PDF document and convert to PDF/X‑4 using Aspose.PDF for .NET
+title: Load PDF document and programmatically convert to PDF/X‑4 using Aspose.PDF for .NET
 url: /net/document-conversion/load-pdf-document-and-convert-to-pdf-x-4-with-aspose-pdf/
 ---
 
@@ -208,9 +208,9 @@ If the source PDF contains unsupported features, the validation step will report
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Load PDF Document C# – Convert to PDF/X‑4 with Aspose](/pdf/english/net/document-conversion/load-pdf-document-c-convert-to-pdf-x-4-with-aspose/)
-- [Load Signed PDF Document and List Its Signatures Using Aspose.Pdf for .NET – C# Tutorial](/pdf/english/net/digital-signatures/load-signed-pdf-document-and-list-its-signatures-c-guide/)
-- [How to Convert PDF Page Size to A4 Using Aspose.PDF .NET | Document Manipulation Guide](/pdf/english/net/document-manipulation/update-pdf-page-dimensions-aspose-net/)
+- [Load PDF Document C# – Convert to PDF/X‑4 with Aspose]({{< relref "pdf/english/net/document-conversion/load-pdf-document-c-convert-to-pdf-x-4-with-aspose/" >}})
+- [Load Signed PDF Document and List Its Signatures Using Aspose.Pdf for .NET – C# Tutorial]({{< relref "pdf/english/net/digital-signatures/load-signed-pdf-document-and-list-its-signatures-c-guide/" >}})
+- [How to Convert PDF Page Size to A4 Using Aspose.PDF .NET | Document Manipulation Guide]({{< relref "pdf/english/net/document-manipulation/update-pdf-page-dimensions-aspose-net/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

@@ -29,7 +29,7 @@ tags:
 - Aspose.PDF
 - C#
 - PDF processing
-title: How to add bates numbering to PDF using Aspose.PDF in C#
+title: How to add BatesNumberingOptions bates numbering to PDF using Aspose.PDF in C#
 url: /net/programming-with-text/add-bates-numbering-to-pdf-using-aspose-pdf-in-c/
 ---
 

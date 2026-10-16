@@ -17,19 +17,19 @@ lastmod: 2026-09-27
 og_description: How to verify PDF signatures, validate PDF signature, and check PDF
   for changes with Aspose.Pdf. Follow this guide for reliable PDF tampering detection.
 og_image_alt: Screenshot of C# console output showing PDF verification result
-og_title: How to verify PDF signatures and detect tampering in C# using Aspose.Pdf
+og_title: Verify PDF signatures and detect tampering in C# with Aspose.Pdf
 schemas:
 - author: Aspose
   dateModified: '2026-09-27'
   description: Learn how to verify PDF signatures, validate PDF signature, and check
     PDF tampering using Aspose.Pdf in C#. Complete step‑by‑step guide.
-  headline: How to verify PDF signatures and detect tampering in C# using Aspose.Pdf
+  headline: Verify PDF signatures and detect tampering in C# with Aspose.Pdf
   type: TechArticle
 tags:
 - PDF
 - C#
 - Aspose.Pdf
-title: How to verify PDF signatures and detect tampering in C# using Aspose.Pdf
+title: Verify PDF signatures and detect tampering in C# with Aspose.Pdf
 url: /net/programming-with-security-and-signatures/how-to-verify-pdf-signatures-and-detect-tampering-in-c/
 ---
 
@@ -37,7 +37,7 @@ url: /net/programming-with-security-and-signatures/how-to-verify-pdf-signatures-
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to verify PDF signatures and detect tampering in C# using Aspose.Pdf
+# Verify PDF signatures and detect tampering in C# with Aspose.Pdf
 
 If you need to **how to verify pdf** files programmatically, this guide shows you a reliable way to validate a PDF signature and check PDF for changes using the Aspose.Pdf library. By the end of the tutorial you will be able to detect whether a document has been altered after it was signed.
 
@@ -220,10 +220,11 @@ Feel free to experiment with multiple signatures, encrypted PDFs, or custom logg
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [How to Extract PDF Signature Information Using Aspose.PDF .NET: A Step-by-Step Guide](/pdf/english/net/digital-signatures/extract-pdf-signature-info-aspose-pdf-net/)
-- [Check PDF for Signatures – How to List Signatures in C# with Aspose.PDF](/pdf/english/net/programming-with-security-and-signatures/check-pdf-for-signatures-how-to-list-signatures-in-c-with-as/)
-- [How to Verify PDF Signature in C# – Complete Step‑by‑Step Guide](/pdf/english/net/digital-signatures/how-to-verify-pdf-signature-in-c-complete-step-by-step-guide/)
+- [How to Extract PDF Signature Information Using Aspose.PDF .NET: A Step‑by‑Step Guide](pdf/english/net/digital-signatures/extract-pdf-signature-info-aspose-pdf-net/)
+- [Check PDF for Signatures – How to List Signatures in C# with Aspose.PDF](pdf/english/net/programming-with-security-and-signatures/check-pdf-for-signatures-how-to-list-signatures-in-c-with-as/)
+- [How to Verify PDF Signature in C# – Complete Step‑by‑Step Guide](pdf/english/net/digital-signatures/how-to-verify-pdf-signature-in-c-complete-step-by-step-guide/)
 
+{{< blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
