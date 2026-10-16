@@ -1,6 +1,6 @@
 ---
-title: Create PDF Forms using Aspose.PDF for .NET API
-linktitle: Create PDF Forms using Aspose.PDF for .NET API
+title: Generate PDF Forms using Aspose.PDF for .NET API
+linktitle: Generate PDF Forms using Aspose.PDF for .NET API
 weight: 13
 url: /net/programming-with-forms/
 description: Check out programming tutorials with Aspose.PDF Forms for .NET to create and manage interactive forms in your PDF files.

@@ -28,7 +28,7 @@ tags:
 - Aspose.Pdf
 - C#
 - PDF manipulation
-title: Add rectangle to PDF in C# with Aspose.Pdf for .NET
+title: Draw rectangle on PDF using Aspose.Pdf API in C#
 url: /net/images-graphics/how-to-add-rectangle-to-pdf-in-c-with-aspose-pdf/
 ---
 
@@ -216,7 +216,7 @@ The following tutorials cover closely related topics that build on the technique
 - [Create PDF Document C# – Add Page, Draw Rectangle & Save](/pdf/english/net/document-creation/create-pdf-document-c-add-page-draw-rectangle-save/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

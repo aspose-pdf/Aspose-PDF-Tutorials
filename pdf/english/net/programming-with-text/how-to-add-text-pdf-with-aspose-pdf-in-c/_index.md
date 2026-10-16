@@ -52,7 +52,7 @@ tags:
 - Aspose.PDF
 - C#
 - PDF manipulation
-title: How to Insert Text into a PDF with Aspose.PDF for .NET (C#)
+title: How to Add Text to a PDF with Aspose.PDF for .NET (C#)
 url: /net/programming-with-text/how-to-add-text-pdf-with-aspose-pdf-in-c/
 ---
 
@@ -60,7 +60,7 @@ url: /net/programming-with-text/how-to-add-text-pdf-with-aspose-pdf-in-c/
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# How to Insert Text into a PDF with Aspose.PDF for .NET (C#)
+# How to Add Text to a PDF with Aspose.PDF for .NET (C#)
 
 If you need to **how to add text PDF** in a programmatic way, this guide shows you exactly how to do it with Aspose.PDF for .NET. You’ll learn to position text in PDF, insert text PDF page, and access specific PDF page without leaving your IDE.
 
@@ -208,7 +208,7 @@ The following tutorials cover closely related topics that build on the technique
 - [How to Rotate Text in PDFs Using Aspose.PDF for .NET: A Step-by-Step Guide](/pdf/english/net/text-operations/rotate-text-aspose-pdf-net-guide/)
 - [Add, Edit, and Extract Text Using Aspose.PDF for .NET](/pdf/english/net/programming-with-text/)
 
+{{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
-{{< blocks/products/products-backtop-button >}}

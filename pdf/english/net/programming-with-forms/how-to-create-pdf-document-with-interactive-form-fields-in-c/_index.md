@@ -43,7 +43,7 @@ tags:
 - Aspose.Pdf
 - C#
 - PDF forms
-title: Generate PDF document with interactive form fields in C# using Aspose.Pdf
+title: Create PDF document with interactive form fields in C# using Aspose.Pdf
 url: /net/programming-with-forms/how-to-create-pdf-document-with-interactive-form-fields-in-c/
 ---
 
@@ -217,14 +217,14 @@ Explore the official Aspose.Pdf documentation for a full list of form field type
 
 ## What should you learn next?
 
-The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
+The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step‑by‑step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
 - [How to Create PDF with Aspose – Add Form Field and Pages]({{< relref "/pdf/english/net/programming-with-forms/how-to-create-pdf-with-aspose-add-form-field-and-pages/" >}})
 - [How to Add Text Box PDF – Create PDF Form Field & Save Edited PDF Document]({{< relref "/pdf/english/net/programming-with-forms/how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/" >}})
 - [Create PDF Document with Aspose – Add Page, Text Box, and Form]({{< relref "/pdf/english/net/forms-annotations/create-pdf-document-with-aspose-add-page-text-box-and-form/" >}})
 
 {{< /blocks/products/pf/tutorial-page-section >}}
-{{< /blocks/products/pf/main-container >}}
 {{< blocks/products/products-backtop-button >}}
 {{< /blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

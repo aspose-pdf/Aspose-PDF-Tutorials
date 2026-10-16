@@ -30,7 +30,7 @@ tags:
 - Aspose.PDF
 - C#
 - PDF manipulation
-title: Add graphics state to PDF with Aspose.PDF for .NET (C#)
+title: Add graphics state to PDF using Aspose.PDF for .NET (C#)
 url: /net/programming-with-operators/how-to-add-graphics-state-pdf-using-aspose-pdf-in-c/
 ---
 

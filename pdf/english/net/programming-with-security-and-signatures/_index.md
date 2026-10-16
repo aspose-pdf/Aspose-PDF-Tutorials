@@ -1,6 +1,6 @@
 ---
-title: Secure PDF Documents with Aspose.PDF for .NET – Programming with Security and Signatures
-linktitle: Secure PDF Documents with Aspose.PDF for .NET – Programming with Security and Signatures
+title: Encrypt and Secure PDF Documents with Aspose.PDF for .NET – Programming with Security and Signatures
+linktitle: Encrypt and Secure PDF Documents with Aspose.PDF for .NET – Programming with Security and Signatures
 weight: 17
 url: /net/programming-with-security-and-signatures/
 description: Programming with Security and Signatures tutorial teaches you how to secure and sign your PDF documents, ensuring confidentiality and authenticity.

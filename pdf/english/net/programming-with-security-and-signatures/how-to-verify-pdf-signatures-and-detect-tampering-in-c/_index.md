@@ -29,7 +29,7 @@ tags:
 - PDF
 - C#
 - Aspose.Pdf
-title: Verify PDF signatures and detect tampering in C# with Aspose.Pdf
+title: Verify PDF signatures and detect tampering in C# using Aspose.Pdf for .NET
 url: /net/programming-with-security-and-signatures/how-to-verify-pdf-signatures-and-detect-tampering-in-c/
 ---
 
@@ -224,7 +224,6 @@ The following tutorials cover closely related topics that build on the technique
 - [Check PDF for Signatures – How to List Signatures in C# with Aspose.PDF](pdf/english/net/programming-with-security-and-signatures/check-pdf-for-signatures-how-to-list-signatures-in-c-with-as/)
 - [How to Verify PDF Signature in C# – Complete Step‑by‑Step Guide](pdf/english/net/digital-signatures/how-to-verify-pdf-signature-in-c-complete-step-by-step-guide/)
 
-{{< blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}

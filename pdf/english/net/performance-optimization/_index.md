@@ -1,5 +1,5 @@
 ---
-title: "Boost PDF Performance with Aspose.PDF for .NET – Tutorials"
+title: "Boost and Optimize PDF Performance with Aspose.PDF for .NET – Tutorials"
 description: "Step-by-step tutorials for optimizing memory usage, improving processing speed, and handling large PDF files with Aspose.PDF for .NET."
 weight: 18
 url: "/net/performance-optimization/"

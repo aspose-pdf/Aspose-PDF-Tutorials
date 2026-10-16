@@ -1,5 +1,5 @@
 ---
-title: "Create and Verify PDF Digital Signatures Using Aspose.PDF for .NET API – Tutorial"
+title: "Create and Verify PDF Digital Signatures with Aspose.PDF for .NET API – C# Tutorial"
 description: "Step-by-step tutorials for implementing digital signatures, certificates, and signature validation in PDF documents with Aspose.PDF for .NET."
 weight: 16
 url: "/net/digital-signatures/"
@@ -160,6 +160,7 @@ Learn how to extract digital signatures from a Word document using C# and Aspose
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

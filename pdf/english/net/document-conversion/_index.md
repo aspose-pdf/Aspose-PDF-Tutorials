@@ -24,6 +24,12 @@ var doc = new Aspose.Pdf.Document("input.docx");
 doc.Save("output.pdf");
 ```
 
+```csharp
+// Convert an HTML file to PDF
+var htmlDoc = new Aspose.Pdf.Document("input.html");
+htmlDoc.Save("output.pdf");
+```
+
 ## Tutorials
 | Title | Description |
 | --- | --- | 
