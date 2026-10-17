@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: Tento tutoriál ukazuje, jak otevřít existující PDF pomocí Aspose.Pdf, použít šifrování AES‑256 bez udělení jakýchkoli oprávnění (což zakáže tisk), uložit chráněný soubor a ověřit šifrování pomocí hesla pro prohlížeč.
+//ExStepSummary:0: Definujte cestu ke zdrojovému PDF, název výstupního chráněného souboru a hesla pro prohlížeč i vlastníka.
+//ExStepSummary:1: Zkontrolujte, zda zdrojový soubor existuje, a v případě, že chybí, ukončete s chybovou zprávou.
+//ExStepSummary:2: Otevřete původní PDF, nastavte žádná oprávnění, zašifrujte jej pomocí AES‑256 s uvedenými hesly a uložte chráněný soubor.
+//ExStepSummary:3: Znovu otevřete zašifrované PDF pomocí hesla pro prohlížeč a vypište jeho příznak IsEncrypted do konzole pro potvrzení ochrany.
+//ExStepSummary:4: Vytiskněte závěrečnou zprávu, která uvádí, že šifrování je dokončeno, a název výstupního souboru.
+//ExStep:0-
+const string sourceFile = "original.pdf";
+const string securedFile = "protected.pdf";
+const string viewerPwd = "viewerPwd123";
+const string masterPwd = "masterPwd123";
+
+//ExStep:1-
+if (!File.Exists(sourceFile))
+{
+    Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+    return;
+}
+
+//ExStep:2-
+using (Document pdfDoc = new Document(sourceFile))
+{
+    Permissions rights = 0;
+    pdfDoc.Encrypt(viewerPwd, masterPwd, rights, CryptoAlgorithm.AESx256);
+    pdfDoc.Save(securedFile);
+}
+
+//ExStep:3-
+using (Document checkDoc = new Document(securedFile, viewerPwd))
+{
+    Console.WriteLine($"Encrypted flag: {checkDoc.IsEncrypted}");
+}
+
+//ExStep:4-
+Console.WriteLine($"Encryption finished. Output saved as '{securedFile}'.");
+//ExEnd

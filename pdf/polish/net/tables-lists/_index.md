@@ -17,6 +17,8 @@ Dowiedz się, jak tworzyć dobrze ustrukturyzowane dokumenty PDF dzięki naszym 
 
 ## Dostępne samouczki
 
+
+{{< tutorial-card link="./style-table-cells/" title="Dostosuj tło, obramowania i wypełnienie komórek tabeli w PDF‑ach za pomocą Aspose.Pdf dla .NET" imgSrc="./style-table-cells/images/thumb.png" >}}
 ### [Dodaj uporządkowaną listę HTML do pliku PDF za pomocą Aspose.PDF .NET](./add-html-ordered-list-pdf-aspose-net/)
 Samouczek dotyczący kodu dla Aspose.PDF Net
 

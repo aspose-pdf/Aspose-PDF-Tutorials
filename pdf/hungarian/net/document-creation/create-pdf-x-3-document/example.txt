@@ -1,0 +1,33 @@
+//ExStart
+//ExSummary: Ez a bemutató azt mutatja be, hogyan hozhatunk létre egy új PDF dokumentumot, adhatunk hozzá három üres oldalt, konvertálhatjuk PDF/X‑3 kompatibilitásra a konverziós hibák naplózásával, és menthetjük az eredményfájlt az Aspose.Pdf Document osztály segítségével.
+//ExStepSummary:0: Határozza meg a kimeneti PDF fájl nevét és a konverziós napló útvonalát.
+//ExStepSummary:1: Hozzon létre egy új Document objektumot egy using blokkban a megfelelő erőforrás-felszabadítás biztosítása érdekében.
+//ExStepSummary:2: Adjon három üres oldalt a dokumentumhoz, ezáltal növelve az oldalszámát.
+//ExStepSummary:3: Konvertálja a dokumentumot PDF/X‑3 formátumba, a konverziós problémákat a naplófájlba rögzítve.
+//ExStepSummary:4: Mentse a PDF/X‑3 kompatibilis dokumentumot a lemezre, és zárja le a using blokkot.
+//ExStepSummary:5: Írjon ki egy megerősítő üzenetet a konzolra, amely jelzi, hová lett mentve a fájl.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+        const string resultFile = "final_pdfx3_output.pdf";
+        const string conversionLog = "pdfx3_conversion_log.xml";
+
+//ExStep:1-
+        using (Document pdfDoc = new Document())
+        {
+
+//ExStep:2-
+            pdfDoc.Pages.Add();
+            pdfDoc.Pages.Add();
+            pdfDoc.Pages.Add();
+
+//ExStep:3-
+            pdfDoc.Convert(conversionLog, PdfFormat.PDF_X_3, ConvertErrorAction.Delete);
+
+//ExStep:4-
+            pdfDoc.Save(resultFile);
+        }
+
+//ExStep:5-
+        Console.WriteLine($"PDF/X‑3 file written to '{resultFile}'.");
+//ExEnd

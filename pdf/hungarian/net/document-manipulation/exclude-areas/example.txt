@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: Ez a bemutató megmutatja, hogyan használható az Aspose.Pdf két PDF-fájl egymás melletti összehasonlításához, miközben minden dokumentumban meghatározott téglalap alakú területeket figyelmen kívül hagy, és egy diff PDF-et hoz létre, amely csak a releváns változásokat emeli ki.
+//ExStepSummary:0: Határozza meg a két forrás PDF fájl és a kimeneti diff PDF elérési útvonalait.
+//ExStepSummary:1: Ellenőrizze, hogy mindkét forrás PDF fájl létezik, és ha bármelyik hiányzik, állítsa le a folyamatot egy hibaüzenettel.
+//ExStepSummary:2: Hozzon létre egy tömböt, amely a első PDF-ben figyelmen kívül hagyandó téglalap alakú területet tartalmazza.
+//ExStepSummary:3: Hozzon létre egy tömböt, amely a második PDF-ben figyelmen kívül hagyandó téglalap alakú területet tartalmazza.
+//ExStepSummary:4: Állítsa be az egymás melletti összehasonlítást, és rendelje a figyelmen kívül hagyandó területek tömbjeit a megfelelő tulajdonságokhoz.
+//ExStepSummary:5: Töltse be mindkét PDF-et, és futtassa az egymás melletti összehasonlítást, amely a megadott útvonalon hozza létre a diff fájlt.
+//ExStepSummary:6: Írjon ki egy megerősítő üzenetet, amely jelzi, hogy az összehasonlítás befejeződött, és megmutatja, hol lett elmentve a diff PDF.
+//ExStep:0-
+const string sourcePdfA = "originalA.pdf";
+const string sourcePdfB = "originalB.pdf";
+const string diffPdfPath = "diff_output.pdf";
+
+//ExStep:1-
+if (!File.Exists(sourcePdfA) || !File.Exists(sourcePdfB))
+{
+    Console.Error.WriteLine("Required PDF files are missing.");
+    return;
+}
+
+//ExStep:2-
+Aspose.Pdf.Rectangle[] zonesToIgnoreA = new Aspose.Pdf.Rectangle[]
+{
+    new Aspose.Pdf.Rectangle(100, 500, 300, 600) // sample region in the first document
+};
+
+//ExStep:3-
+Aspose.Pdf.Rectangle[] zonesToIgnoreB = new Aspose.Pdf.Rectangle[]
+{
+    new Aspose.Pdf.Rectangle(50, 400, 250, 500) // sample region in the second document
+};
+
+//ExStep:4-
+var comparisonSettings = new SideBySideComparisonOptions
+{
+    ExcludeAreas1 = zonesToIgnoreA,
+    ExcludeAreas2 = zonesToIgnoreB
+    // Other settings may be adjusted here, e.g., ExcludeTables = true;
+};
+
+//ExStep:5-
+using (Document pdfA = new Document(sourcePdfA))
+using (Document pdfB = new Document(sourcePdfB))
+{
+    SideBySidePdfComparer.Compare(pdfA, pdfB, diffPdfPath, comparisonSettings);
+}
+
+//ExStep:6-
+Console.WriteLine($"Comparison finished. Output written to '{diffPdfPath}'.");
+//ExEnd

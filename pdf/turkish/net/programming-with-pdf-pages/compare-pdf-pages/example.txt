@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: Bu öğreticide, Aspose.Pdf'in TextPdfComparer'ını kullanarak iki PDF belgesinin sayfa sayfa karşılaştırmasını nasıl yapacağınızı ve bir fark raporu PDF'si oluşturacağınızı gösterir.
+//ExStepSummary:0: Orijinal PDF, revize PDF ve çıktı fark raporu için dosya yollarını belirtin.
+//ExStepSummary:1: Her iki kaynak PDF'nin de mevcut olduğunu doğrulayın ve biri eksikse hata mesajı vererek işlemi durdurun.
+//ExStepSummary:2: Her iki PDF'yi açın, varsayılan karşılaştırma seçeneklerini oluşturun, `TextPdfComparer.CompareDocumentsPageByPage` ile sayfa sayfa farkı çalıştırın ve bir başarı mesajı görüntüleyin.
+//ExStepSummary:3: Karşılaştırma sırasında oluşan tüm istisnaları yakalayın ve konsola bir hata mesajı yazdırın.
+//ExStep:0-
+const string sourcePath1 = "original.pdf";
+const string sourcePath2 = "revised.pdf";
+const string resultPath = "changes_report.pdf";
+
+//ExStep:1-
+if (!File.Exists(sourcePath1) || !File.Exists(sourcePath2))
+{
+    Console.Error.WriteLine("Either of the input PDFs could not be located.");
+    return;
+}
+
+//ExStep:2-
+try
+{
+    using (Document pdfA = new Document(sourcePath1))
+    using (Document pdfB = new Document(sourcePath2))
+    {
+        ComparisonOptions compareOpts = new ComparisonOptions();
+        TextPdfComparer.CompareDocumentsPageByPage(pdfA, pdfB, compareOpts, resultPath);
+    }
+
+    Console.WriteLine($"Page‑by‑page diff PDF written to '{resultPath}'.");
+}
+
+//ExStep:3-
+catch (Exception ex)
+{
+    Console.Error.WriteLine($"Comparison failed: {ex.Message}");
+}
+//ExEnd

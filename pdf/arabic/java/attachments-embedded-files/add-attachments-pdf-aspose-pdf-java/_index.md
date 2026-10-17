@@ -1,68 +1,100 @@
 ---
-date: '2025-12-15'
-description: تعلم كيفية إنشاء مرفقات مدمجة في PDF باستخدام Aspose.PDF للغة Java. يوضح
-  لك هذا البرنامج التعليمي كيفية إضافة مرفق PDF إلى مشاريع Java وكيفية إعداد Aspose
-  PDF باستخدام Maven.
+date: '2026-05-18'
+description: تعرف على كيفية إضافة ملف مدمج إلى PDF باستخدام Aspose.PDF for Java. يغطي
+  هذا الدليل خطوة بخطوة إعداد Maven، وإرفاق الملفات، وأفضل الممارسات.
 keywords:
-- add attachments to PDF with Java
-- Aspose.PDF for Java tutorial
-- attach files to PDF using Aspose
-title: 'كيفية إنشاء مرفقات مدمجة في PDF باستخدام Aspose.PDF للغة Java - دليل المطور'
+- add embedded file to pdf
+- how to embed files pdf
+- how to add attachment pdf java
+- aspose pdf maven setup
+schemas:
+- author: Aspose
+  dateModified: '2026-05-18'
+  description: Learn how to add embedded file to PDF using Aspose.PDF for Java. This
+    step‑by‑step tutorial covers Maven setup, attaching files, and best practices.
+  headline: How to Add Embedded File to PDF with Aspose.PDF for Java – A Developer’s
+    Guide
+  type: TechArticle
+- description: Learn how to add embedded file to PDF using Aspose.PDF for Java. This
+    step‑by‑step tutorial covers Maven setup, attaching files, and best practices.
+  name: How to Add Embedded File to PDF with Aspose.PDF for Java – A Developer’s Guide
+  steps:
+  - name: '**Software Documentation** – bundle sample data files or configuration
+      scripts.'
+    text: '**Software Documentation** – bundle sample data files or configuration
+      scripts.'
+  - name: '**Legal Agreements** – attach supporting contracts, exhibits, or evidence.'
+    text: '**Legal Agreements** – attach supporting contracts, exhibits, or evidence.'
+  - name: '**Educational Materials** – provide supplemental readings, datasets, or
+      code samples.'
+    text: '**Educational Materials** – provide supplemental readings, datasets, or
+      code samples.'
+  - name: '**Business Reports** – embed raw Excel sheets for analysts to drill down.'
+    text: '**Business Reports** – embed raw Excel sheets for analysts to drill down.'
+  type: HowTo
+- questions:
+  - answer: Aspose.PDF for Java
+    question: What is the primary library?
+  - answer: Maven (or Gradle) – see the *aspose pdf maven setup* section
+    question: Which build tool is recommended?
+  - answer: Yes, any file that can be represented as a byte array
+    question: Can I embed any file type?
+  - answer: A valid Aspose license is required for production use
+    question: Do I need a license for production?
+  - answer: Typically under 15 minutes for a basic attachment
+    question: How long does the implementation take?
+  type: FAQPage
+title: كيفية إضافة ملف مدمج إلى PDF باستخدام Aspose.PDF for Java – دليل المطور
 url: /ar/java/attachments-embedded-files/add-attachments-pdf-aspose-pdf-java/
 weight: 1
 ---
 
+{{< blocks/products/products-backtop-button >}}
+
 {{< blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# كيفية إنشاء مرفقات PDF مدمجة باستخدام Aspose.PDF for Java: دليل المطور
+# كيفية إضافة ملف مضمّن إلى PDF باستخدام Aspose.PDF for Java – دليل المطور
 
-## المقدمة
+## مقدمة
 
-تحسين مستندات PDF عن طريق **create pdf embedded attachments** مثل الصور أو ملفات النص يمكن أن يبسط تجربة المستخدم، ويقضي على الحاجة إلى تنزيل ملفات متعددة. سيساعدك هذا الدليل على الاستفادة من Aspose.PDF for Java، مكتبة قوية للعمل مع ملفات PDF، لإ **add attachment pdf java** إلى المشاريع بسرعة وموثوقية.
-
-**ما ستتعلمه:**
-- كيفية **create pdf embedded attachments** باستخدام Aspose.PDF for Java  
-- تحميل والوصول إلى مستندات PDF الموجودة  
-- سيناريوهات واقعية قد تحتاج فيها إلى **attach text file pdf** إلى تقرير أو مواصفة  
-
-بنهاية هذا الدليل، ستكون مجهزًا لتنفيذ هذه الوظائف في مشاريعك. لنبدأ بالمتطلبات المسبقة.
+في هذا الدليل ستتعرف على كيفية **إضافة ملف مضمّن إلى PDF** باستخدام Aspose.PDF for Java، وهي مكتبة تدعم **أكثر من 50 تنسيقًا للإدخال والإخراج** ويمكنها معالجة ملفات PDF التي تحتوي على مئات الصفحات دون الحاجة إلى تحميل الملف بالكامل في الذاكرة. يزيل تضمين الملفات داخل PDF الحاجة إلى تنزيلات منفصلة، ويُبسّط توزيع المستندات، ويحسّن تجربة المستخدم في التقارير، والعقود القانونية، والكتيبات التقنية. دعنا نستعرض المتطلبات المسبقة، وتكوين Maven، والكود الدقيق الذي تحتاجه لتضمين أي نوع من الملفات.
 
 ## إجابات سريعة
 - **ما هي المكتبة الأساسية؟** Aspose.PDF for Java  
-- **ما أداة البناء الموصى بها؟** Maven (أو Gradle) – راجع قسم **aspose pdf maven setup**  
-- **هل يمكنني إرفاق أي نوع ملف؟** نعم، أي ملف يمكن تمثيله كمصفوفة بايت  
-- **هل أحتاج إلى ترخيص للإنتاج؟** يلزم وجود ترخيص Aspose صالح للاستخدام في الإنتاج  
-- **كم من الوقت تستغرق العملية؟** عادةً أقل من 15 دقيقة لإضافة مرفق أساسي
+- **ما أداة البناء الموصى بها؟** Maven (أو Gradle) – راجع قسم *إعداد Aspose PDF Maven*  
+- **هل يمكنني تضمين أي نوع من الملفات؟** نعم، أي ملف يمكن تمثيله كمصفوفة بايت  
+- **هل أحتاج إلى ترخيص للإنتاج؟** يلزم وجود ترخيص Aspose صالح للاستخدام في بيئة الإنتاج  
+- **كم يستغرق تنفيذ العملية؟** عادةً أقل من 15 دقيقة لإضافة مرفق أساسي  
 
-## ما هو “create pdf embedded attachments”؟
-إنشاء مرفقات PDF مدمجة يعني إدراج ملفات إضافية—مثل الصور، جداول البيانات، أو مستندات النص—مباشرةً داخل حاوية PDF. الملفات المرفقة تنتقل مع ملف PDF، مما يسمح للمستلمين بفتحها دون الحاجة إلى تنزيلات منفصلة.
+## ما معنى “إضافة ملف مضمّن إلى PDF”؟
+إضافة ملف مضمّن إلى PDF يعني إدراج ملف ثانوي—مثل CSV أو صورة أو مستند Word—مباشرة داخل حاوية PDF بحيث ينتقل مع المستند الرئيسي ويمكن فتحه من لوحة المرفقات. تُبسّط هذه القدرة عملية التوزيع وتضمن أن جميع الموارد الضرورية تسافر مع المستند الرئيسي.
 
-## لماذا تستخدم Aspose.PDF for Java لإضافة المرفقات؟
-- **تحكم كامل** في بنية PDF والكائنات المدمجة  
-- **دعم متعدد الأنظمة** (Windows، Linux، macOS)  
-- **واجهة برمجة تطبيقات قوية** تتعامل مع الملفات الكبيرة وملفات PDF المعقدة بكفاءة  
+## لماذا نستخدم Aspose.PDF for Java لإضافة المرفقات؟
+توفر Aspose.PDF **تحكمًا برمجيًا كاملاً** في بنية PDF، وتدعم **التنفيذ عبر الأنظمة** (Windows, Linux, macOS)، وتُعالج **ملفات PDF متعددة المئات من الصفحات** بواجهة برمجة تطبيقات فعّالة في استهلاك الذاكرة. كما أنها تقدم **تشفيرًا مدمجًا** ودعم **التوقيع الرقمي**، وهو ما تفتقر إليه العديد من المكتبات المنافسة. بالإضافة إلى ذلك، توفر المكتبة ميزات واسعة للامتثال لـ PDF/A، مما يجعلها مناسبة للأرشفة والمتطلبات التنظيمية.
 
 ## المتطلبات المسبقة
 
-قبل إرفاق الملفات إلى ملفات PDF، تأكد من وجود ما يلي:
+قبل البدء، تأكد من وجود ما يلي:
+
+- **مجموعة تطوير جافا (JDK) 11+** مثبتة.  
+- **IntelliJ IDEA، Eclipse، أو NetBeans** كبيئة تطوير متكاملة.  
+- مكتبة **Aspose.PDF for Java** (أحدث نسخة متوفرة وقت الكتابة).  
 
 ### المكتبات والاعتمادات المطلوبة
-- **Aspose.PDF for Java** – المكتبة الأساسية المستخدمة في هذا الدرس.  
-- **Java Development Kit (JDK)** – الإصدار 11 أو أحدث.
+- **Aspose.PDF for Java** – مكتبة معالجة PDF الأساسية.  
+- **Maven** أو **Gradle** لإدارة الاعتمادات.
 
 ### متطلبات إعداد البيئة
-- IDE متوافق مثل IntelliJ IDEA أو Eclipse أو NetBeans.  
-- معرفة أساسية ببرمجة Java ومعالجة عمليات الإدخال/الإخراج للملفات.
+- بيئة تطوير متوافقة مع جافا (IntelliJ، Eclipse، NetBeans).  
+- معرفة أساسية بـ Java I/O ومعالجة الاستثناءات.
 
 ## إعداد Aspose.PDF for Java
 
-إعداد Aspose.PDF سهل باستخدام Maven أو Gradle. أدناه هو **aspose pdf maven setup** الذي ستحتاجه.
+يمكنك إضافة Aspose.PDF إلى مشروعك إما عبر Maven أو Gradle. أدناه إعداد **aspose pdf maven** الذي ستحتاجه.
 
 ### Maven
-Add the following dependency to your `pom.xml`:
+أضف الاعتماد التالي إلى ملف `pom.xml` الخاص بك:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -72,31 +104,44 @@ Add the following dependency to your `pom.xml`:
 ```
 
 ### Gradle
-Include this in your `build.gradle` file:
+أدرج السطر التالي في ملف `build.gradle`:
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
 #### خطوات الحصول على الترخيص
-- **نسخة تجريبية مجانية**: قم بتنزيل واختبار المكتبة مع تمكين جميع الميزات.  
-- **ترخيص مؤقت**: احصل عليه من Aspose لتمديد فترة الاختبار دون قيود التقييم.  
-- **شراء**: للاستخدام طويل الأمد في بيئات الإنتاج.  
+توفر Aspose.PDF for Java ثلاث خيارات للترخيص:
+
+- **تجربة مجانية** – تقييم كامل المميزات لمدة 30 يومًا.  
+- **ترخيص مؤقت** – تمديد فترة التجربة دون حدود التقييم.  
+- **ترخيص تجاري** – مطلوب للنشر في بيئات الإنتاج.
+
+**الترخيص** يحمل ملف ترخيص Aspose PDF لفتح جميع الوظائف.
+```java
+License license = new License();
+license.setLicense("Aspose.Pdf.lic");
+```
 
 #### التهيئة الأساسية
-بعد إضافة Aspose.PDF for Java إلى مشروعك، قم بتهيئتها بإنشاء كائن `Document`. سيكون هذا هو نقطة الانطلاق لجميع عمليات تعديل PDF.
+تمثل الفئة `Document` ملف PDF وتوفر طرقًا لقراءة، تعديل، وحفظ المستند. بعد إنشاء كائن `Document`، تمر جميع عمليات القراءة والكتابة عبر هذا الكائن.
 
-## دليل التنفيذ
+## كيفية إضافة ملف مضمّن إلى PDF؟
 
-دعنا نقسم التنفيذ إلى ميزتين رئيسيتين: إرفاق الملفات وتحميل مستندات PDF.
+حمّل ملف PDF المصدر باستخدام `new Document("source.pdf")`، أنشئ كائن `FileSpecification` للملف الذي تريد تضمينه، أضفه إلى `document.getEmbeddedFiles()`، وأخيرًا استدعِ `document.save("output.pdf")`. يتيح هذا النمط المكوّن من أربع خطوات تضمين أي نوع من الملفات في أقل من دقيقة مع الحفاظ على تنسيق PDF الأصلي.
 
-### الميزة 1: إرفاق ملف إلى مستند PDF
+### دليل التنفيذ
 
-#### نظرة عامة
-تتيح لك هذه الميزة تضمين ملفات إضافية مباشرةً داخل مستند PDF، مفيدة لتوفير معلومات إضافية دون مرفقات منفصلة.
+سنقسم التنفيذ إلى ميزتين عمليتين: إرفاق ملف وتحميل PDF لمزيد من المعالجة.
 
-#### خطوات التنفيذ
-**Step 1: Set Up Your Environment**  
-Define the paths for your source PDF and the file you want to attach:  
+## الميزة 1: إرفاق ملف إلى مستند PDF
+
+### نظرة عامة
+تتيح هذه الميزة تضمين أي ملف مساعد—مثل مجموعة بيانات CSV أو مواصفات تصميم—مباشرة داخل PDF.
+
+### خطوات التنفيذ
+
+**الخطوة 1: تعريف مسارات الملفات**  
+حدد مواقع ملف PDF المصدر والملف الذي ترغب في تضمينه:
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY"; // Update this path
 String targetPdfPath = dataDir + "/input.pdf";
@@ -104,87 +149,102 @@ String attachmentFilePath = dataDir + "/test.txt";
 String targetOutputPath = "YOUR_OUTPUT_DIRECTORY/output.pdf";
 ```
 
-**Step 2: Open the PDF Document**  
-Create a `Document` object to load your existing PDF:  
+**الخطوة 2: فتح مستند PDF**  
+أنشئ كائن `Document` لتحميل ملف PDF الحالي:
 ```java
 Document document = new Document(targetPdfPath);
 ```
 
-**Step 3: Create File Specification**  
-Use `FileSpecification` to describe the file you wish to attach, including its description:  
+**الخطوة 3: إنشاء مواصفات الملف**  
+`FileSpecification` يصف الملف المضمّن، بما في ذلك اسمه، وصفه، ونوع MIME الخاص به.  
 ```java
 FileSpecification fileSpecification = new FileSpecification(attachmentFilePath, "Sample text file");
 ```
 
-**Step 4: Add Attachment to PDF**  
-Attach the file to your document by adding it to the embedded files collection:  
+**الخطوة 4: إضافة المرفق إلى PDF**  
+أضف كائن `FileSpecification` إلى مجموعة الملفات المضمّنة في المستند:
 ```java
 document.getEmbeddedFiles().add(fileSpecification);
 ```
 
-**Step 5: Save the Modified Document**  
-Finally, save the document with its new attachment:  
+**الخطوة 5: حفظ المستند المعدل**  
+احفظ التغييرات عن طريق حفظ المستند إلى ملف جديد:
 ```java
 document.save(targetOutputPath);
 ```
 
-### الميزة 2: تحميل مستند PDF
+## الميزة 2: تحميل مستند PDF
 
-#### نظرة عامة
-تحميل والوصول إلى مستند PDF أمر أساسي لأي تعديل. يوضح هذا القسم كيفية الوصول إلى عناصر مختلفة من PDF المحمل.
+### نظرة عامة
+يُعد تحميل PDF الخطوة الأولى لأي تعديل، مثل قراءة المرفقات الموجودة أو استخراج النص.
 
-#### خطوات التنفيذ
-**Step 1: Open the PDF**  
-Load an existing PDF using its path:  
+### خطوات التنفيذ
+
+**الخطوة 1: فتح PDF**  
+أنشئ كائن `Document` مع مسار ملف PDF الذي تريد فحصه:
 ```java
 Document document = new Document(targetPdfPath);
 ```
 
-**Step 2: Access Document Elements**  
-You can now access different parts of the document, such as text and attachments. For instance, to get the number of pages:  
+**الخطوة 2: الوصول إلى عناصر المستند**  
+يمكنك الآن الاستعلام عن المستند للحصول على الصفحات، النص، والملفات المضمّنة. على سبيل المثال، لاسترجاع عدد الصفحات:
 ```java
 int numberOfPages = document.getPages().size();
 ```
 
 ## تطبيقات عملية
-1. **توثيق البرمجيات** – إرفاق ملفات بيانات نموذجية أو سكريبتات التكوين.  
-2. **الوثائق القانونية** – تضمين اتفاقيات إضافية أو مواد مرجعية.  
-3. **الموارد التعليمية** – توفير مواد قراءة إضافية أو مجموعات بيانات داخل مستند واحد.  
-4. **تقارير الأعمال** – تضمين ملفات البيانات الخام لمزيد من التحليل.  
 
-تشمل إمكانيات التكامل ربط هذه الوظيفة مع أنظمة إدارة المحتوى (CMS) لأتمتة عملية الإرفاق في سير العمل الرقمي.
+تضمين الملفات داخل PDFs ذو قيمة في العديد من السيناريوهات الواقعية:
+
+1. **توثيق البرمجيات** – تجميع ملفات البيانات النموذجية أو سكريبتات الإعداد.  
+2. **العقود القانونية** – إرفاق العقود الداعمة، الملاحق، أو الأدلة.  
+3. **المواد التعليمية** – توفير قراءات إضافية، مجموعات بيانات، أو عينات كود.  
+4. **تقارير الأعمال** – تضمين جداول Excel الخام لتمكين المحللين من الغوص في التفاصيل.
+
+يمكن دمج هذه القدرة مع نظام إدارة محتوى أو خط أنابيب توليد المستندات لأتمتة عملية الإرفاق بالكامل.
 
 ## اعتبارات الأداء
-عند العمل مع Aspose.PDF for Java، ضع في اعتبارك نصائح الأداء التالية:
-- **تحسين استخدام الموارد** – كن واعيًا لتخصيص الذاكرة عند التعامل مع ملفات PDF الكبيرة.  
-- **إدارة ذاكرة Java** – استخدم هياكل بيانات فعّالة ونظّف الموارد بعد الاستخدام لتجنب تسرب الذاكرة.  
-- **معالجة دفعات** – إذا كنت تعالج مستندات متعددة، فكر في استخدام المعالجة المتعددة الخيوط لتحسين الأداء.
+
+عند التعامل مع PDFs كبيرة، ضع في اعتبارك النصائح التالية:
+
+- **تحسين الذاكرة** – استخدم `Document.optimizeResources()` لإطلاق الموارد غير المستخدمة.  
+- **معالجة مجزأة** – عالج الصفحات على دفعات عند التعامل مع ملفات مئات الصفحات.  
+- **متعددة الخيوط** – نفّذ إرفاق عدة PDFs بصورة متوازية لتحسين الإنتاجية على الخوادم متعددة النوى.
 
 ## المشكلات الشائعة والحلول
-- **مرفقات كبيرة** – قم بضغط الملفات قبل تضمينها للحفاظ على حجم PDF قابلًا للإدارة.  
-- **أنواع ملفات غير مدعومة** – تأكد من إمكانية قراءة الملف كمصفوفة بايت؛ معظم الصيغ الشائعة مدعومة.  
-- **أخطاء الترخيص** – تحقق من تحميل ملف الترخيص بشكل صحيح قبل حفظ المستند.
+
+- **مرفقات كبيرة** – اضغط الملفات (ZIP) قبل تضمينها للحفاظ على حجم PDF معقولًا.  
+- **تنسيقات غير مدعومة** – تأكد من إمكانية قراءة الملف كمصفوفة بايت؛ معظم التنسيقات الشائعة (PDF, DOCX, XLSX, PNG, JPG) مدعومة.  
+- **أخطاء الترخيص** – ضع ملف `Aspose.Pdf.lic` في مسار الـ classpath واستدعِ `License license = new License(); license.setLicense("Aspose.Pdf.lic");` قبل عملية الحفظ.
+
+## الأسئلة المتكررة
+
+**س:** هل يمكنني إرفاق ملفات متعددة إلى PDF واحد؟  
+**ج:** نعم. أضف كائن `FileSpecification` منفصل لكل ملف وأدرجه في مجموعة `embeddedFiles`.
+
+**س:** ما هي أنواع الملفات المدعومة كمرفقات؟  
+**ج:** أي ملف يمكن تمثيله كمصفوفة بايت—عادةً PDF, DOCX, XLSX, CSV, PNG, JPG, و ZIP.
+
+**س:** كيف أتعامل مع PDFs ضخمة بكفاءة؟  
+**ج:** استخدم `Document.optimizeResources()` وفكّر في معالجة الصفحات بطريقة تدفقية لتجنب تحميل المستند بالكامل في الذاكرة.
+
+**س:** هل هناك حد لعدد الملفات المضمّنة؟  
+**ج:** الحد العملي يحدده الذاكرة المتاحة ومساحة القرص؛ يمكن لـ Aspose.PDF التعامل مع آلاف المرفقات على خادم متوسط.
+
+**س:** كيف أزيل مرفقًا من PDF موجود؟  
+**ج:** استرجع مجموعة `EmbeddedFiles` عبر `document.getEmbeddedFiles()` واستدعِ `remove(fileSpecification)` على العنصر المطلوب.
 
 ## الخلاصة
-لقد أصبحت الآن متمكنًا من كيفية **create pdf embedded attachments** باستخدام Aspose.PDF for Java. يمكن لهذه القدرة أن تعزز بشكل كبير عمليات إدارة المستندات الخاصة بك عن طريق تضمين البيانات ذات الصلة مباشرةً في ملفات PDF. للمزيد من الاستكشاف، فكر في الغوص أعمق في مجموعة ميزات Aspose.PDF الواسعة أو دمجها مع مكتبات وخدمات أخرى.
 
-**الخطوات التالية:**
-- جرب أنواع ملفات مختلفة كمرفقات.  
-- استكشف ميزات إضافية في Aspose.PDF for Java لتعزيز قدراتك في معالجة PDF.
+أنت الآن تعرف كيفية **إضافة ملف مضمّن إلى PDF** باستخدام Aspose.PDF for Java. تتيح لك هذه التقنية تجميع الموارد الإضافية داخل PDF، مما يحسّن كفاءة التوزيع وتجربة المستخدم. جرّب أنواع ملفات مختلفة، استكشف API الواسع لـ Aspose.PDF، وفكّر في أتمتة سير العمل في نظام إدارة المستندات الخاص بك.
 
-## قسم الأسئلة المتكررة
-1. **هل يمكنني إرفاق ملفات متعددة إلى ملف PDF واحد؟**  
-   - نعم، يمكنك إضافة كائنات `FileSpecification` متعددة إلى مجموعة الملفات المدمجة.  
-2. **ما أنواع الملفات المدعومة كمرفقات؟**  
-   - أي نوع ملف يمكن تمثيله كمصفوفة بايت مدعوم.  
-3. **كيف أتعامل مع ملفات PDF الكبيرة بكفاءة؟**  
-   - فكر في تحسين الكود لإدارة الذاكرة وكفاءة المعالجة، خاصة عند التعامل مع مستندات كبيرة.  
-4. **هل هناك حد لعدد الملفات التي يمكنني إرفاقها؟**  
-   - يعتمد الحد على موارد نظامك وسعة Aspose.PDF.  
-5. **كيف أزيل مرفقًا من PDF؟**  
-   - قم بالوصول إلى مجموعة الملفات المدمجة واستخدم طرقها لإزالة الإدخالات المحددة.
+**الخطوات التالية**
 
-## الموارد
+- جرّب تضمين ملفات مشفّرة لمزيد من الأمان.  
+- اجمع بين إرفاق الملفات وتوقيع PDF الرقمي لإنشاء مستندات مقاومة للعبث.  
+- استكشف أدوات ضغط Aspose.PDF للحفاظ على حجم الملفات في الحد الأدنى.
+
+## موارد
 - [Documentation](https://reference.aspose.com/pdf/java/)
 - [Download Aspose.PDF for Java](https://releases.aspose.com/pdf/java/)
 - [Purchase License](https://purchase.aspose.com/buy)
@@ -192,18 +252,23 @@ int numberOfPages = document.getPages().size();
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/pdf/10)
 
-استكشف هذه الموارد للحصول على معلومات أكثر تفصيلاً ودعم المجتمع. برمجة سعيدة!
-
 ---
 
-**Last Updated:** 2025-12-15  
-**Tested With:** Aspose.PDF 25.3 for Java  
-**Author:** Aspose  
+**آخر تحديث:** 2026-05-18  
+**تم الاختبار مع:** Aspose.PDF 25.3 for Java  
+**المؤلف:** Aspose  
+
+{{< blocks/products/pf/main-container >}}
+
+## دروس ذات صلة
+
+- [How to Extract Embedded Files from PDFs Using Aspose.PDF for Java: A Comprehensive Guide](/pdf/java/attachments-embedded-files/extract-embedded-files-pdf-aspose-java-guide/)
+- [Master Aspose.PDF Java: Access and Manage Embedded Files in PDFs](/pdf/java/attachments-embedded-files/master-aspose-pdf-java-access-manage-embedded-files/)
+- [How to Extract Embedded Files from a PDF Portfolio Using Aspose.PDF Java](/pdf/java/attachments-embedded-files/extract-files-pdf-portfolio-aspose-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

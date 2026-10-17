@@ -12,11 +12,8 @@ url: /th/java/advanced-features/aspose-pdf-java-layer-rendering-guide/
 weight: 1
 ---
 
- keep line breaks.
 
-Let's translate.
 
-I'll produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 
