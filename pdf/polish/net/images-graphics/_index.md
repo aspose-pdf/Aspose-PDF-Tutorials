@@ -180,13 +180,19 @@ Dowiedz się, jak sprawdzić poprawność pliku PDF i dodać prostokąt przy uż
 
 ### [Dodaj przezroczystość do PDF przy użyciu Aspose PDF w C# – Przewodnik krok po kroku](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Dowiedz się, jak w C# dodać przezroczystość do plików PDF przy użyciu Aspose.PDF, krok po kroku.
+
+### [Jak dodać przezroczystość do PDF przy użyciu Aspose.PDF w C#](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
+Dowiedz się, jak dodać przezroczystość do plików PDF w C# przy użyciu Aspose.PDF.
+
 ### [Bezstratna kompresja obrazów w dokumentach Word – kompletny przewodnik](./lossless-image-compression-in-word-docs-complete-guide/)
 Dowiedz się, jak bezstratnie kompresować obrazy w dokumentach Word, aby zmniejszyć rozmiar pliku bez utraty jakości.
+
 ### [Samouczek nakładania obrazu w PDF – dodaj maskę i włącz automatyczny wybór tacki](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
 Dowiedz się, jak nakładać obrazy na pliki PDF, dodawać maski i automatycznie wybierać tacki przy użyciu Aspose.PDF dla .NET.
 
 ### [Jak używać GraphicsAbsorber – wyodrębnić grafikę wektorową z PDF przy użyciu Aspose.Pdf](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
 Dowiedz się, jak używać klasy GraphicsAbsorber do wyodrębniania grafiki wektorowej z dokumentów PDF przy pomocy Aspose.Pdf.
+
 ### [Dodaj ExtGState do PDF przy użyciu Aspose.PDF – kompletny przewodnik](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
 Dowiedz się, jak dodać ExtGState do plików PDF przy użyciu Aspose.PDF dla .NET, aby kontrolować przezroczystość i inne efekty graficzne.
 

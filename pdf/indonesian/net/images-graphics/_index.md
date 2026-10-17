@@ -54,6 +54,8 @@ Tutorial kode untuk Aspose.PDF Net
 
 ### [Menambahkan Transparansi ke PDF dengan Aspose PDF di C# – Panduan Langkah demi Langkah](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Pelajari cara menambahkan efek transparansi pada elemen PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode C#.
+### [Cara Menambahkan Transparansi ke PDF Menggunakan Aspose.PDF di C#](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
+Pelajari cara menambahkan transparansi ke PDF menggunakan Aspose.PDF di C# dengan contoh kode praktis.
 ### [Menambahkan ExtGState ke PDF dengan Aspose.Pdf – Panduan Lengkap](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
 Pelajari cara menambahkan ExtGState untuk mengatur transparansi, blending, dan efek lainnya pada PDF menggunakan Aspose.Pdf dalam panduan lengkap ini.
 

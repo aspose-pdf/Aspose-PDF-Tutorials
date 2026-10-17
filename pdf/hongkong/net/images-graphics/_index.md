@@ -54,6 +54,9 @@ Aspose.PDF Net 程式碼教學
 
 ### [使用 Aspose PDF 在 C# 中為 PDF 添加透明度 – 逐步指南](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 了解如何使用 Aspose.PDF 在 C# 中為 PDF 元素設定透明度，以創建更具視覺效果的文件。
+### [如何在 C# 中使用 Aspose.PDF 為 PDF 添加透明度](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
+了解如何在 C# 中使用 Aspose.PDF 為 PDF 添加透明度。
+
 ### [如何在 C# 中使用 Aspose.PDF 為 PDF 新增形狀：逐步指南](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中向 PDF 添加各種形狀，如矩形、圓形或自訂路徑，並設定屬性與樣式。
 
