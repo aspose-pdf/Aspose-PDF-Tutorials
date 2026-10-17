@@ -1,0 +1,46 @@
+//ExStart
+//ExSummary: 本教學示範如何使用 Aspose.Pdf 開啟既有 PDF，限制權限僅允許填寫表單，使用 AES‑256 以檢視者密碼與擁有者密碼加密，並儲存受保護的檔案。
+//ExStepSummary:0: 定義來源與目的檔案路徑，以及檢視者密碼與擁有者密碼。
+//ExStepSummary:1: 檢查來源 PDF 是否存在，若不存在則以錯誤訊息中止。
+//ExStepSummary:2: 開始 try 區塊以處理處理過程中可能發生的任何錯誤。
+//ExStepSummary:3: 透過建立名為 pdfDoc 的 Document 物件來開啟既有 PDF 檔案。
+//ExStepSummary:4: 設定僅允許填寫表單的權限，使用 AES‑256 以檢視者密碼與擁有者密碼加密文件，並儲存受保護的 PDF。
+//ExStepSummary:5: 在主控台寫入確認訊息，並結束 try 區塊。
+//ExStepSummary:6: 捕捉任何例外，並將錯誤訊息輸出至主控台。
+//ExStep:0-
+        const string sourceFile = "sample.pdf";
+        const string destFile = "protected.pdf";
+        const string viewerPass = "viewerPass";
+        const string adminPass = "adminPass";
+
+//ExStep:1-
+        if (!File.Exists(sourceFile))
+        {
+            Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+            return;
+        }
+
+//ExStep:2-
+        try
+        {
+
+//ExStep:3-
+            using (Document pdfDoc = new Document(sourceFile))
+
+//ExStep:4-
+            {
+                Permissions allowed = Permissions.FillForm;
+                pdfDoc.Encrypt(viewerPass, adminPass, allowed, CryptoAlgorithm.AESx256);
+                pdfDoc.Save(destFile);
+            }
+
+//ExStep:5-
+            Console.WriteLine($"Secure PDF written to '{destFile}'.");
+        }
+
+//ExStep:6-
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Exception occurred: {ex.Message}");
+        }
+//ExEnd

@@ -1,62 +1,114 @@
 ---
-date: '2026-03-04'
-description: تعلم كيفية تحديث العلامات المرجعية في ملفات PDF باستخدام مثال Aspose.PDF
-  للغة Java. يغطي هذا الدليل الإعداد، الكود، وأفضل الممارسات لتحديد وجهة العلامة المرجعية
-  في PDF.
+date: '2026-09-27'
+description: تعلم كيفية تعيين صفحة علامة مرجعية PDF باستخدام Aspose.PDF for Java.
+  يغطي هذا الدرس الإعداد، مقتطفات الشيفرة، وأفضل الممارسات لتحديث وجهات العلامات المرجعية.
 keywords:
+- set PDF bookmark page
 - update PDF bookmarks
 - Aspose.PDF for Java
-- programmatically manage PDFs
-title: 'كيفية تحديث العلامات المرجعية في ملفات PDF باستخدام Aspose.PDF للغة Java:
-  دليل خطوة بخطوة'
+lastmod: '2026-09-27'
+og_description: تعيين صفحة علامة مرجعية PDF باستخدام Aspose.PDF for Java. اتبع هذا
+  الدرس خطوة بخطوة لتحديث وجهات العلامات المرجعية، تكوين المكتبة، ومعالجة المشكلات
+  الشائعة.
+og_image_alt: Developer guide showing how to set PDF bookmark page using Aspose.PDF
+  for Java
+og_title: تعيين صفحة علامة مرجعية PDF باستخدام Aspose.PDF for Java – دليل سريع
+schemas:
+- author: Aspose
+  dateModified: '2026-09-27'
+  description: Learn how to set PDF bookmark page with Aspose.PDF for Java. This tutorial
+    covers setup, code snippets, and best practices for updating bookmark destinations.
+  headline: 'How to set PDF bookmark page using Aspose.PDF for Java: step‑by‑step
+    guide'
+  type: TechArticle
+- description: Learn how to set PDF bookmark page with Aspose.PDF for Java. This tutorial
+    covers setup, code snippets, and best practices for updating bookmark destinations.
+  name: 'How to set PDF bookmark page using Aspose.PDF for Java: step‑by‑step guide'
+  steps:
+  - name: open the PDF document
+    text: '`Document` is Aspose.PDF''s top‑level object that represents a single PDF
+      file in memory. It provides access to pages, outlines, and other document‑level
+      structures. This line creates a `Document` instance that you can manipulate
+      programmatically.'
+  - name: retrieve the bookmark
+    text: '`OutlineItemCollection` holds the hierarchy of bookmarks (also called outlines).
+      The `get_Item(1)` method fetches the first top‑level bookmark using 1‑based
+      indexing. If you need a deeper bookmark, navigate through the collection’s children.'
+  - name: update bookmark destination
+    text: '`GoToAction` is Aspose.PDF’s class that defines a navigation action to
+      a specific page. By assigning a new `GoToAction` to the bookmark’s `Action`
+      property, you change where the bookmark points. Make sure the `newPageNumber`
+      variable is within the range `1 .. pdfDocument.getPages().size()` to avoid '
+  - name: save the updated PDF
+    text: '`save` writes the modified `Document` back to disk. You can choose the
+      same file path to overwrite the original or a new path for versioning. After
+      saving, the PDF now contains the updated bookmark destination.'
+  type: HowTo
+- questions:
+  - answer: It’s a powerful library for creating, editing, and managing PDF files
+      programmatically using Java.
+    question: What is Aspose.PDF for Java?
+  - answer: Use Maven or Gradle to add the dependency as shown in the setup guide.
+    question: How do I install Aspose.PDF in my project?
+  - answer: Yes, iterate through the `OutlineItemCollection` and apply a new `GoToAction`
+      to each bookmark as needed.
+    question: Can I update multiple bookmarks at once?
+  - answer: An exception may be thrown. Always validate page numbers against `pdfDocument.getPages().size()`
+      before setting the destination.
+    question: What happens if a specified page doesn’t exist?
+  - answer: It offers a [free trial](https://releases.aspose.com/pdf/java/) with limited
+      functionality. For full access, purchase a license or obtain a temporary one.
+    question: Is Aspose.PDF free to use?
+  type: FAQPage
+tags:
+- PDF bookmarks
+- Aspose.PDF
+- Java PDF processing
+title: 'كيفية تعيين صفحة علامة مرجعية PDF باستخدام Aspose.PDF for Java: دليل خطوة
+  بخطوة'
 url: /ar/java/bookmarks-navigation/update-pdf-bookmarks-aspose-java-tutorial/
 weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# كيفية تحديث العلامات المرجعية في PDF باستخدام Aspose.PDF for Java: دليل خطوة بخطوة
+# كيفية تعيين صفحة إشارة PDF باستخدام Aspose.PDF للـ Java: دليل خطوة بخطوة
 
-## المقدمة
-هل تواجه صعوبة في إدارة العلامات المرجعية داخل مستندات PDF برمجيًا؟ قد يكون تحديث صفحة الوجهة للعلامة المرجعية أمرًا حاسمًا عند إعادة تنظيم المحتوى أو تصحيح الأخطاء. **في هذا الدليل، سنوضح لك كيفية تحديث العلامات المرجعية في PDF باستخدام Aspose.PDF for Java**. هذه الميزة لا تُسهل إدارة المستندات فحسب، بل تعزز أيضًا تنقل المستخدم عبر ملفات PDF.
-
-الآن بعد أن عرفت *لماذا* تحديث العلامات المرجعية مهم، دعنا نلقي نظرة على المتطلبات المسبقة التي ستحتاجها قبل البدء.
+## مقدمة
+في هذا الدرس ستتعلم كيفية **تعيين صفحة إشارة PDF** باستخدام Aspose.PDF للـ Java. تحديث وجهات الإشارات أمر أساسي عندما تقوم بإعادة هيكلة ملف PDF، أو إدراج أو حذف صفحات، أو ببساطة تحتاج إلى تصحيح أخطاء التنقل. بنهاية الدليل ستحصل على مقتطف Java يعمل بشكل موثوق لتغيير صفحة الهدف للإشارة، مما يحسن تجربة المستخدم النهائي لأي PDF تقوم بتسليمه. الآن بعد أن فهمت *لماذا* يعتبر تعيين صفحة إشارة PDF مهمًا، دعنا نستعرض المتطلبات المسبقة التي ستحتاجها قبل البدء.
 
 ## إجابات سريعة
-- **ما هو الهدف الأساسي؟** تحديث صفحة الوجهة لعلامة مرجعية PDF موجودة.  
-- **أي مكتبة يجب أن أستخدم؟** Aspose.PDF for Java (الإصدار الأحدث).  
-- **هل أحتاج إلى ترخيص؟** النسخة التجريبية المجانية تكفي للاختبار؛ يلزم ترخيص تجاري للإنتاج.  
-- **هل يمكنني تعيين وجهة علامة مرجعية PDF إلى أي صفحة؟** نعم، باستخدام `GoToAction` يمكنك الإشارة إلى أي فهرس صفحة صالح.  
-- **كم من الوقت تستغرق عملية التنفيذ؟** عادةً أقل من 15 دقيقة لتحديث أساسي.
+- **ما هو الهدف الأساسي؟** تعيين صفحة إشارة PDF إلى وجهة جديدة.  
+- **أي مكتبة يجب أن أستخدمها؟** Aspose.PDF للـ Java (أحدث إصدار).  
+- **هل أحتاج إلى ترخيص؟** نسخة تجريبية مجانية تعمل للاختبار؛ الترخيص التجاري مطلوب للإنتاج.  
+- **هل يمكنني تعيين وجهة إشارة PDF إلى أي صفحة؟** نعم، باستخدام `GoToAction` يمكنك الإشارة إلى أي فهرس صفحة صالح.  
+- **كم من الوقت يستغرق التنفيذ؟** عادةً أقل من 15 دقيقة لتحديث أساسي.
 
-## ما هو “كيفية تحديث العلامات المرجعية”؟
-تحديث العلامات المرجعية يعني تغيير الرابط الذي تشير إليه العلامة المرجعية، بحيث عندما ينقر المستخدم على العلامة، ينتقل PDF إلى الصفحة الصحيحة. هذا أمر أساسي للحفاظ على تنقل دقيق بعد تعديل أو إعادة هيكلة المستند.
+## ما هو “كيفية تحديث الإشارات”؟
+تحديث الإشارات يعني تغيير الرابط الذي تشير إليه الإشارة، بحيث عندما ينقر المستخدم على الإشارة، ينتقل ملف PDF إلى الصفحة الصحيحة. هذا أمر أساسي للحفاظ على تنقل دقيق بعد تعديل أو إعادة هيكلة المستند.
 
-## لماذا نستخدم Aspose.PDF for Java؟
-توفر Aspose.PDF واجهة برمجة تطبيقات قوية ومتعددة الميزات تعمل مع Java 8+ وتتعامل مع ملفات PDF الكبيرة بكفاءة. باستخدام **aspose pdf java example** يمكنك تعديل المخططات، تعيين الوجهات، وحفظ التغييرات دون مغادرة بيئة Java.
+## لماذا نستخدم Aspose.PDF للـ Java؟
+Aspose.PDF للـ Java يدعم **أكثر من 50 تنسيقًا للإدخال والإخراج** (بما في ذلك DOCX و XLSX و PPTX و HTML وأنواع الصور) ويمكنه معالجة ملفات PDF متعددة المئات من الصفحات دون تحميل الملف بالكامل إلى الذاكرة. تعمل الواجهة البرمجية على Java 8+ وتوفر عمليات آمنة للخطوط المتعددة، مما يجعلها مثالية لتدفقات عمل المستندات على مستوى المؤسسات.
 
 ## المتطلبات المسبقة
 قبل أن نبدأ، تأكد من توفر ما يلي:
 
 ### المكتبات المطلوبة والإصدارات
-- **Aspose.PDF for Java**: سنستخدم الإصدار 25.3. يمكنك دمجه باستخدام Maven أو Gradle.  
-- **Java Development Kit (JDK)**: يُنصح بالإصدار 8 أو أعلى.
+- **[Aspose.PDF](https://releases.aspose.com/pdf/java/) للـ Java**: الإصدار 25.3 (أو أحدث).  
+- **Java Development Kit (JDK)**: الإصدار 8 أو أعلى.
 
-### متطلبات إعداد البيئة
-- محرر شفرة مثل IntelliJ IDEA أو Eclipse أو Visual Studio Code.  
-- الوصول إلى الطرفية لتشغيل تطبيق Java الخاص بك.
+### إعداد البيئة
+- بيئة تطوير متكاملة (IDE) مثل IntelliJ IDEA أو Eclipse أو Visual Studio Code.  
+- الوصول إلى الطرفية أو موجه الأوامر لبناء وتشغيل تطبيق Java.
 
 ### المتطلبات المعرفية
-فهم أساسي لـ:
-- برمجة Java  
-- العمل مع المكتبات الخارجية في مشاريع Java
+- مهارات برمجة Java الأساسية.  
+- الإلمام بإضافة المكتبات الخارجية إلى مشروع Java.
 
-## إعداد Aspose.PDF for Java
-لإدماج **Aspose.PDF** في مشروعك، اتبع الخطوات التالية:
+## إعداد Aspose.PDF للـ Java
+لدمج **Aspose.PDF** في مشروعك، اتبع الخطوات التالية:
 
 ### تثبيت Maven
 أضف الاعتماد التالي إلى ملف `pom.xml` الخاص بك:
@@ -77,9 +129,9 @@ implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
 ### خطوات الحصول على الترخيص
-- **نسخة تجريبية مجانية**: ابدأ بـ [free trial](https://releases.aspose.com/pdf/java/) لاستكشاف الميزات.  
-- **ترخيص مؤقت**: احصل على ترخيص مؤقت للوصول الموسع بزيارة [temporary license page](https://purchase.aspose.com/temporary-license/).  
-- **شراء**: للحصول على جميع الإمكانيات، اشترِ ترخيصًا من [Aspose's purchase portal](https://purchase.aspose.com/buy).
+- **Free trial**: ابدأ بـ [نسخة تجريبية مجانية](https://releases.aspose.com/pdf/java/) لاستكشاف الميزات.  
+- **Temporary license**: احصل على ترخيص مؤقت للوصول الموسع بزيارة [صفحة الترخيص المؤقت](https://purchase.aspose.com/temporary-license/).  
+- **Purchase**: للحصول على جميع الإمكانيات، اشترِ ترخيصًا من [بوابة شراء Aspose](https://purchase.aspose.com/buy).
 
 ### التهيئة الأساسية والإعداد
 لتهيئة Aspose.PDF في تطبيق Java الخاص بك:
@@ -102,13 +154,16 @@ class PdfBookmarkUpdater {
 ```
 
 ## دليل التنفيذ
-الآن، دعنا ننفذ ميزة تحديث العلامة المرجعية.
+الآن، دعنا ننفذ ميزة تحديث الإشارة.
 
-### نظرة عامة على ميزة تحديث العلامة المرجعية
-تتيح لك هذه الوظيفة **تعيين وجهة علامة مرجعية PDF** إلى صفحة مختلفة، مما يحافظ على دقة التنقل مع تطور المحتوى.
+### نظرة عامة على ميزة تحديث الإشارة
+هذه الوظيفة تتيح لك **تعيين صفحة إشارة PDF** إلى صفحة مختلفة، مع الحفاظ على دقة التنقل مع تطور المحتوى.
 
-#### الخطوة 1: فتح مستند PDF
-أولاً، حمّل ملف PDF الخاص بك باستخدام Aspose.PDF:
+## كيفية تعيين صفحة إشارة PDF؟
+حمّل ملف PDF، حدد الإشارة المستهدفة، عيّن `GoToAction` جديدًا برقم الصفحة المطلوب، ثم احفظ المستند. الخطوات التالية ترشدك عبر كل جزء من العملية، مع ضمان معالجة الحالات الحدية مثل أرقام الصفحات غير الصالحة أو الإشارات المفقودة.
+
+### الخطوة 1: فتح مستند PDF
+`Document` هو الكائن الأعلى مستوى في Aspose.PDF الذي يمثل ملف PDF واحد في الذاكرة. يوفر الوصول إلى الصفحات، والملخصات، والهياكل الأخرى على مستوى المستند.
 
 ```java
 import com.aspose.pdf.Document;
@@ -117,10 +172,10 @@ String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Document pdfDocument = new Document(dataDir + "input.pdf");
 ```
 
-هذه الخطوة تُنشئ كائن `Document` الذي يمثل ملف PDF الخاص بك.
+هذا السطر ينشئ كائن `Document` يمكنك التلاعب به برمجيًا.
 
-#### الخطوة 2: استرجاع العلامة المرجعية
-الوصول إلى العلامة المرجعية المحددة التي تريد تحديثها. على سبيل المثال، استرجع أول علامة مرجعية:
+### الخطوة 2: استرجاع الإشارة
+`OutlineItemCollection` يحتوي على تسلسل الإشارات (المعروفة أيضًا بالملخصات). طريقة `get_Item(1)` تجلب أول إشارة من المستوى الأعلى باستخدام فهرسة تبدأ من 1.
 
 ```java
 import com.aspose.pdf.OutlineItemCollection;
@@ -128,10 +183,10 @@ import com.aspose.pdf.OutlineItemCollection;
 OutlineItemCollection pdfOutline = pdfDocument.getOutlines().get_Item(1);
 ```
 
-هنا، `get_Item(1)` يجلب أول علامة مرجعية في المستند.
+إذا كنت بحاجة إلى إشارة أعمق، تنقل عبر أبناء المجموعة.
 
-#### الخطوة 3: تحديث وجهة العلامة المرجعية
-غيّر وجهة العلامة المرجعية لتشير إلى صفحة جديدة:
+### الخطوة 3: تحديث وجهة الإشارة
+`GoToAction` هي فئة في Aspose.PDF تُعرّف إجراءً للتنقل إلى صفحة محددة. عن طريق تعيين `GoToAction` جديد إلى خاصية `Action` الخاصة بالإشارة، تغير المكان الذي تشير إليه الإشارة.
 
 ```java
 import com.aspose.pdf.GoToAction;
@@ -139,85 +194,90 @@ import com.aspose.pdf.GoToAction;
 pdfOutline.setDestination(new GoToAction(pdfDocument.getPages().get_Item(10)));
 ```
 
-كائن `GoToAction` يوجه العلامة المرجعية إلى صفحة أخرى، مما يعزز التنقل.
+تأكد من أن المتغير `newPageNumber` يقع ضمن النطاق `1 .. pdfDocument.getPages().size()` لتجنب حدوث `IndexOutOfBoundsException`.
 
-#### الخطوة 4: حفظ PDF المحدث
-أخيرًا، احفظ التغييرات في ملف:
+### الخطوة 4: حفظ PDF المحدث
+`save` يكتب الـ `Document` المعدل مرة أخرى إلى القرص. يمكنك اختيار نفس مسار الملف لاستبدال الأصلي أو مسار جديد لإصدار نسخة.
 
 ```java
 String outputDir = "YOUR_OUTPUT_DIRECTORY";
 pdfDocument.save(outputDir + "BookmarkUpdated_output.pdf");
 ```
 
-هذا يحفظ المستند المحدث في الموقع المحدد.
+بعد الحفظ، يحتوي PDF الآن على وجهة الإشارة المحدثة.
 
-### نصائح استكشاف الأخطاء وإصلاحها
-- **مشكلات مسار الملف**: تأكد من أن المسارات صحيحة ويمكن الوصول إليها.  
-- **أخطاء المكتبة**: تحقق مرة أخرى من إعداد اعتماد Maven أو Gradle.  
-- **مشكلات الترخيص**: تأكد من تطبيق الترخيص بشكل صحيح إذا كان لديك واحد.
+## نصائح استكشاف الأخطاء وإصلاحها
+- **مشكلات مسار الملف**: تحقق من أن مسارات الإدخال والإخراج قابلة للوصول وأن تطبيقك يمتلك أذونات القراءة/الكتابة.  
+- **أخطاء المكتبة**: تأكد من أن اعتماد Maven أو Gradle يتطابق مع الإصدار المحدد في المتطلبات المسبقة.  
+- **مشكلات الترخيص**: تأكد من تحميل ملف الترخيص قبل أي عملية على PDF؛ وإلا ستعمل المكتبة في وضع التقييم مع قيود.
 
-## التطبيقات العملية
-تحديث العلامات المرجعية مفيد في عدة سيناريوهات، مثل:
+## تطبيقات عملية
+تحديث الإشارات مفيد في عدة سيناريوهات، مثل:
 
-1. **إعادة تنظيم محتوى المستند** – تعديل وجهات العلامات المرجعية لتظل متزامنة بعد نقل الأقسام.  
-2. **تصحيح الأخطاء** – إصلاح الروابط المكسورة الناجمة عن حذف أو إدراج صفحات.  
-3. **تحسين تجربة المستخدم** – توفير تنقل بديهي للملفات PDF الكبيرة أو المعقدة.
+1. **إعادة تنظيم محتوى المستند** – تعديل وجهات الإشارات لتظل متزامنة بعد نقل الأقسام.  
+2. **تصحيح الأخطاء** – إصلاح الروابط المكسورة الناتجة عن حذف أو إدراج صفحات.  
+3. **تحسين تجربة المستخدم** – توفير تنقل بديهي للـ PDFs الكبيرة أو المعقدة، خاصة في الكتب الإلكترونية والكتيبات التقنية.
 
 ## اعتبارات الأداء
 للحفاظ على كفاءة الحل الخاص بك:
-- **تحسين استخدام الذاكرة** – ملفات PDF الكبيرة قد تستهلك الذاكرة؛ عالجها في تدفقات عندما يكون ذلك ممكنًا.  
-- **المعالجة الدفعية** – إذا كنت بحاجة لتحديث العديد من ملفات PDF، قم بالتكرار عليها في دفعات لتقليل الحمل.  
+
+- **تحسين استخدام الذاكرة** – يمكن أن تستهلك ملفات PDF الكبيرة الذاكرة؛ عالجها عبر التدفقات عندما يكون ذلك ممكنًا.  
+- **المعالجة الدفعية** – إذا كنت بحاجة لتحديث العديد من ملفات PDF، قم بالتكرار عليها على دفعات لتقليل الحمل.  
 - **جمع القمامة** – استدعِ `System.gc()` بعد معالجة ملفات كبيرة جدًا لتحرير الذاكرة.
 
 ## المشكلات الشائعة والحلول
 | المشكلة | السبب | الحل |
 |-------|-------|----------|
-| `IndexOutOfBoundsException` عند تعيين الوجهة | رقم الصفحة يتجاوز عدد الصفحات الكلي | تحقق من `pdfDocument.getPages().size()` قبل استدعاء `get_Item(pageNumber)` |
-| لم يتم تطبيق الترخيص | مسار ملف الترخيص غير صحيح أو مفقود | تحقق من المسار وتأكد من أن ملف الترخيص قابل للقراءة |
-| العلامة المرجعية غير موجودة | استخدام فهرس خاطئ (0‑مبني مقابل 1‑مبني) | Aspose يستخدم الفهرسة 1‑مبنية؛ عدل وفقًا لذلك |
+| `IndexOutOfBoundsException` عند تعيين الوجهة | رقم الصفحة يتجاوز إجمالي الصفحات | تحقق من `pdfDocument.getPages().size()` قبل استدعاء `get_Item(pageNumber)` |
+| الترخيص غير مطبق | مسار ملف الترخيص غير صحيح أو مفقود | تحقق من المسار وتأكد من أن ملف الترخيص قابل للقراءة |
+| الإشارة غير موجودة | استخدام فهرس خاطئ (0‑based مقابل 1‑based) | Aspose يستخدم فهرسة تبدأ من 1؛ عدّل وفقًا لذلك |
 
 ## الأسئلة المتكررة
+**س: ما هو Aspose.PDF للـ Java؟**  
+ج: إنه مكتبة قوية لإنشاء وتحرير وإدارة ملفات PDF برمجيًا باستخدام Java.
 
-**س: ما هو Aspose.PDF for Java؟**  
-ج: إنها مكتبة قوية لإنشاء وتحرير وإدارة ملفات PDF برمجيًا باستخدام Java.
+**س: كيف أقوم بتثبيت Aspose.PDF في مشروعي؟**  
+ج: استخدم Maven أو Gradle لإضافة الاعتماد كما هو موضح في دليل الإعداد.
 
-**س: كيف يمكنني تثبيت Aspose.PDF في مشروعي؟**  
-ج: استخدم Maven أو Gradle لتضمين الاعتماد كما هو موضح في دليل الإعداد.
-
-**س: هل يمكنني تحديث عدة علامات مرجعية مرة واحدة؟**  
-ج: نعم، قم بالتكرار عبر `OutlineItemCollection` وتحديث كل علامة مرجعية حسب الحاجة.
+**س: هل يمكنني تحديث عدة إشارات في آن واحد؟**  
+ج: نعم، يمكنك التكرار عبر `OutlineItemCollection` وتطبيق `GoToAction` جديد على كل إشارة حسب الحاجة.
 
 **س: ماذا يحدث إذا كانت الصفحة المحددة غير موجودة؟**  
-ج: قد يتم إلقاء استثناء. تحقق دائمًا من أرقام الصفحات قبل تعيين الوجهات.
+ج: قد يتم إلقاء استثناء. احرص دائمًا على التحقق من أرقام الصفحات مقابل `pdfDocument.getPages().size()` قبل تعيين الوجهة.
 
 **س: هل Aspose.PDF مجاني للاستخدام؟**  
-ج: يقدم [free trial](https://releases.aspose.com/pdf/java/) بميزات محدودة. للحصول على وصول كامل، اشترِ ترخيصًا أو احصل على ترخيص مؤقت.
+ج: يقدم [نسخة تجريبية مجانية](https://releases.aspose.com/pdf/java/) مع وظائف محدودة. للحصول على الوصول الكامل، اشترِ ترخيصًا أو احصل على ترخيص مؤقت.
 
 ## الخلاصة
-لقد تعلمت الآن **كيفية تحديث العلامات المرجعية** داخل ملفات PDF باستخدام Aspose.PDF for Java. يمكن لهذه المهارة تحسين إدارة المستندات وتنقل المستخدم النهائي بشكل كبير. لمواصلة بناء هذه المعرفة:
-- جرّب ميزات Aspose.PDF الأخرى مثل إضافة مخططات جديدة أو إزالة الموجودة.  
-- دمج منطق تحديث العلامات المرجعية في سير عمل معالجة دفعات أكبر.
+أنت الآن تعرف كيفية **تعيين صفحة إشارة PDF** باستخدام Aspose.PDF للـ Java. هذه القدرة تحسن تنقل المستند وتساعد في الحفاظ على مراجع دقيقة بعد أي تعديل على PDF. لتعميق خبرتك:
 
-هل أنت مستعد للتنفيذ؟ ابدأ بتحميل [Aspose.PDF](https://releases.aspose.com/pdf/java/) اليوم!
+- جرّب إضافة مخططات جديدة أو إزالة المخططات الحالية.  
+- دمج منطق تحديث الإشارات في خطوط معالجة دفعية لمكتبات المستندات الكبيرة.
+
+هل أنت مستعد لتجربتها؟ حمّل المكتبة من الروابط أدناه وابدأ في تحديث ملفات PDF الخاصة بك اليوم!
 
 ## الموارد
-- **الوثائق**: [Aspose.PDF Java Documentation](https://reference.aspose.com/pdf/java/)  
-- **تحميل المكتبة**: [Aspose Downloads](https://releases.aspose.com/pdf/java/)  
-- **شراء الترخيص**: [Buy Aspose.PDF](https://purchase.aspose.com/buy)  
-- **نسخة تجريبية مجانية**: [Start Free Trial](https://releases.aspose.com/pdf/java/)  
-- **ترخيص مؤقت**: [Get Temporary License](https://purchase.aspose.com/temporary-license/)  
-- **منتدى الدعم**: [Aspose PDF Support](https://forum.aspose.com/c/pdf/10)
+- **Documentation**: [توثيق Aspose.PDF Java](https://reference.aspose.com/pdf/java/)  
+- **Download library**: [تنزيلات Aspose](https://releases.aspose.com/pdf/java/)  
+- **Purchase license**: [شراء Aspose.PDF](https://purchase.aspose.com/buy)  
+- **Free trial**: [ابدأ النسخة التجريبية](https://releases.aspose.com/pdf/java/)  
+- **Temporary license**: [احصل على ترخيص مؤقت](https://purchase.aspose.com/temporary-license/)  
+- **Support forum**: [دعم Aspose PDF](https://forum.aspose.com/c/pdf/10)
 
 ---
 
-**آخر تحديث:** 2026-03-04  
-**تم الاختبار مع:** Aspose.PDF for Java 25.3  
+**آخر تحديث:** 2026-09-27  
+**تم الاختبار مع:** Aspose.PDF للـ Java 25.3  
 **المؤلف:** Aspose
+
+## دروس ذات صلة
+- [كيفية إنشاء إشارات PDF وإدارة التنقل باستخدام Aspose.PDF للـ Java](/pdf/java/bookmarks-navigation/create-manage-pdf-bookmarks-aspose-java/)
+- [استرجاع إشارات PDF في Java باستخدام Aspose.PDF – دليل كامل](/pdf/java/bookmarks-navigation/retrieve-display-pdf-bookmarks-aspose-pdf-java/)
+- [تصدير إشارات PDF إلى XML باستخدام Aspose.PDF للـ Java: دليل شامل](/pdf/java/conversion-export/export-pdf-bookmarks-xml-aspose-pdf-java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

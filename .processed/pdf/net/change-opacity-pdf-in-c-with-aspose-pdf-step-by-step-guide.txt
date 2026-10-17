@@ -1,0 +1,7 @@
+Title: Change opacity PDF in C# with Aspose.Pdf – step‑by‑step guide
+Slug: change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide
+Category: programming-with-pdf-pages
+ProcessedDate: 2026-08-11T14:23:10.319369
+SourceRepo: AI Search API
+Keywords: change opacity pdf, how to add transparency, add pdf transparency
+PRNumber: 118

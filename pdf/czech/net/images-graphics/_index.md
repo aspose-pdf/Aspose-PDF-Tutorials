@@ -35,6 +35,13 @@ Naučte se, jak bez problémů převádět soubory SVG do vysoce kvalitních PDF
 ### [Vytváření a vyplňování obdélníků v PDF pomocí Aspose.PDF pro .NET: Podrobný návod](./create-fill-rectangle-aspose-pdf-net/)
 Naučte se, jak vytvářet a vyplňovat obdélníky v PDF dokumentech pomocí Aspose.PDF pro .NET. Tato podrobná příručka pokrývá vše od nastavení až po implementaci v C#.
 
+### [Jak nakreslit obdélník v PDF pomocí C# – krok za krokem](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.PDF pro .NET v C# kreslit obdélníky v PDF dokumentech v tomto podrobném průvodci.
+### [Přidání obdélníku do PDF v C# – Kompletní průvodce Aspose PDF](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+Naučte se, jak pomocí Aspose.PDF pro .NET v C# přidat obdélník do PDF dokumentu.
+### [Přidání obdélníku do PDF pomocí Aspose.PDF – Kompletní programovací průvodce](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+Naučte se, jak pomocí Aspose.PDF v .NET přidat obdélník do PDF souboru s podrobným kódem C#.
+
 ### [Vytvořte si vlastní PDF razítka s Aspose.PDF v .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Výukový program pro kódování Aspose.PDF Net
 
@@ -43,6 +50,11 @@ Naučte se, jak vytvářet vizuálně přitažlivé dokumenty PDF extrakcí a zv
 
 ### [Kreslení průhledných tvarů v PDF pomocí Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 Výukový program pro kódování Aspose.PDF Net
+
+### [Jak přidat tvar do PDF pomocí Aspose.PDF v C# – krok‑za‑krokem průvodce](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Naučte se, jak pomocí Aspose.PDF v C# přidat různé tvary do PDF dokumentů v tomto podrobném návodu.
+### [Přidání ExtGState do PDF pomocí Aspose.PDF – Kompletní průvodce](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+Naučte se, jak přidat ExtGState do PDF dokumentů pomocí Aspose.PDF pro .NET v tomto podrobném průvodci.
 
 ### [Efektivní identifikace obrázků PDF s Aspose.PDF pro .NET](./master-image-identification-aspose-pdf-net/)
 Naučte se, jak identifikovat obrázky ve stupních šedi a RGB v PDF pomocí Aspose.PDF pro .NET. Tento tutoriál se zabývá instalací, extrakcí obrázků a tipy pro výkon.
@@ -64,6 +76,9 @@ Výukový program pro kódování Aspose.PDF Net
 
 ### [Rychlé zmenšování obrázků v PDF pomocí Aspose.PDF .NET: Efektivní optimalizace a komprese obrázků](./optimize-pdf-images-aspose-net-fast-compression/)
 Naučte se, jak zmenšit obrázky v PDF souborech pomocí Aspose.PDF pro .NET, zmenšit velikost souborů a zároveň zachovat kvalitu. Ideální pro rychlejší načítání a efektivní ukládání.
+
+### [Bezeztrátová komprese obrázků v dokumentech Word – Kompletní průvodce](./lossless-image-compression-in-word-docs-complete-guide/)
+Naučte se, jak bezeztrátově komprimovat obrázky v dokumentech Word pomocí Aspose.Words pro .NET.
 
 ### [Jak přidat zápatí obrázků do PDF pomocí Aspose.PDF .NET v C#](./aspose-pdf-net-add-image-footers-pdfs/)
 Naučte se, jak přidat zápatí obrázků do PDF dokumentů pomocí Aspose.PDF pro .NET v tomto podrobném návodu. Ideální pro branding a přizpůsobení.
@@ -163,6 +178,16 @@ Naučte se, jak vykreslit složité LaTeX skripty do PDF dokumentů pomocí Aspo
 
 ### [Nastavení pozadí obrázků v PDF pomocí Aspose.PDF pro .NET: Komplexní průvodce](./aspose-pdf-net-set-image-backgrounds/)
 Naučte se, jak vylepšit své PDF dokumenty nastavením pozadí obrázků pomocí Aspose.PDF pro .NET. Tato příručka obsahuje tipy pro nastavení, implementaci a optimalizaci.
+
+### [Přidání průhlednosti do PDF pomocí Aspose PDF v C# – krok za krokem průvodce](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Naučte se, jak přidat průhlednost do PDF dokumentů pomocí Aspose.PDF v C# krok za krokem.
+### [Jak ověřit PDF a přidat obdélník – Kompletní průvodce](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
+Naučte se, jak pomocí Aspose.PDF pro .NET ověřit PDF soubor a přidat obdélníkový tvar do dokumentu.
+### [Překrytí obrázků v PDF – přidání masky a povolení automatického výběru zásobníku](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+Naučte se, jak přidat masku a automaticky vybrat zásobník při překrývání obrázků v PDF pomocí Aspose.PDF pro .NET.
+
+### [Jak používat GraphicsAbsorber – Extrahovat vektorovou grafiku z PDF pomocí Aspose.Pdf](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
+Naučte se, jak pomocí GraphicsAbsorber extrahovat vektorovou grafiku z PDF souborů pomocí Aspose.Pdf.
 
 ## Další zdroje
 

@@ -1,0 +1,11 @@
+//ExStart
+//ExSummary: Hướng dẫn này trình bày cách xoay trang thứ ba của tài liệu PDF 180 độ bằng cách sử dụng khả năng xoay trang của PDF SDK.
+//ExStepSummary:0: Tệp chỉ chứa các chú thích giải thích và không có mã thực thi, đóng vai trò là chỗ giữ chỗ cho ví dụ gốc.
+//ExStep:0-
+// Placeholder for the original example URL.
+// Demonstrates rotating the third page of a PDF by 180 degrees.
+// The functional implementation has been moved to a different repository.
+// This file preserves the original link for legacy references.
+
+        // No operational code required for this placeholder.
+//ExEnd
