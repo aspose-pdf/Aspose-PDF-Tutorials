@@ -12,11 +12,8 @@ url: /cs/java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/
 weight: 1
 ---
 
-codes remain.
 
-Ok.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 

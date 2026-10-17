@@ -1,48 +1,120 @@
 ---
-"date": "2025-04-14"
-"description": "Java için Aspose.PDF ile PDF yer imlerini etkili bir şekilde nasıl güncelleyeceğinizi öğrenin. Bu kılavuz kurulum, uygulama ve en iyi uygulamaları kapsar."
-"title": "Aspose.PDF for Java Kullanarak PDF Yer İşaretleri Nasıl Güncellenir? Adım Adım Kılavuz"
-"url": "/tr/java/bookmarks-navigation/update-pdf-bookmarks-aspose-java-tutorial/"
-"weight": 1
+date: '2026-09-27'
+description: Aspose.PDF for Java ile PDF yer işareti sayfasını nasıl ayarlayacağınızı
+  öğrenin. Bu eğitim, kurulum, kod parçacıkları ve yer işareti hedeflerini güncelleme
+  için en iyi uygulamaları kapsar.
+keywords:
+- set PDF bookmark page
+- update PDF bookmarks
+- Aspose.PDF for Java
+lastmod: '2026-09-27'
+og_description: Aspose.PDF for Java kullanarak PDF yer işareti sayfasını ayarlayın.
+  Yer işareti hedeflerini güncellemek, kütüphaneyi yapılandırmak ve yaygın sorunları
+  ele almak için bu adım adım eğitimi izleyin.
+og_image_alt: Developer guide showing how to set PDF bookmark page using Aspose.PDF
+  for Java
+og_title: Aspose.PDF for Java ile PDF yer işareti sayfasını ayarlayın – hızlı rehber
+schemas:
+- author: Aspose
+  dateModified: '2026-09-27'
+  description: Learn how to set PDF bookmark page with Aspose.PDF for Java. This tutorial
+    covers setup, code snippets, and best practices for updating bookmark destinations.
+  headline: 'How to set PDF bookmark page using Aspose.PDF for Java: step‑by‑step
+    guide'
+  type: TechArticle
+- description: Learn how to set PDF bookmark page with Aspose.PDF for Java. This tutorial
+    covers setup, code snippets, and best practices for updating bookmark destinations.
+  name: 'How to set PDF bookmark page using Aspose.PDF for Java: step‑by‑step guide'
+  steps:
+  - name: open the PDF document
+    text: '`Document` is Aspose.PDF''s top‑level object that represents a single PDF
+      file in memory. It provides access to pages, outlines, and other document‑level
+      structures. This line creates a `Document` instance that you can manipulate
+      programmatically.'
+  - name: retrieve the bookmark
+    text: '`OutlineItemCollection` holds the hierarchy of bookmarks (also called outlines).
+      The `get_Item(1)` method fetches the first top‑level bookmark using 1‑based
+      indexing. If you need a deeper bookmark, navigate through the collection’s children.'
+  - name: update bookmark destination
+    text: '`GoToAction` is Aspose.PDF’s class that defines a navigation action to
+      a specific page. By assigning a new `GoToAction` to the bookmark’s `Action`
+      property, you change where the bookmark points. Make sure the `newPageNumber`
+      variable is within the range `1 .. pdfDocument.getPages().size()` to avoid '
+  - name: save the updated PDF
+    text: '`save` writes the modified `Document` back to disk. You can choose the
+      same file path to overwrite the original or a new path for versioning. After
+      saving, the PDF now contains the updated bookmark destination.'
+  type: HowTo
+- questions:
+  - answer: It’s a powerful library for creating, editing, and managing PDF files
+      programmatically using Java.
+    question: What is Aspose.PDF for Java?
+  - answer: Use Maven or Gradle to add the dependency as shown in the setup guide.
+    question: How do I install Aspose.PDF in my project?
+  - answer: Yes, iterate through the `OutlineItemCollection` and apply a new `GoToAction`
+      to each bookmark as needed.
+    question: Can I update multiple bookmarks at once?
+  - answer: An exception may be thrown. Always validate page numbers against `pdfDocument.getPages().size()`
+      before setting the destination.
+    question: What happens if a specified page doesn’t exist?
+  - answer: It offers a [free trial](https://releases.aspose.com/pdf/java/) with limited
+      functionality. For full access, purchase a license or obtain a temporary one.
+    question: Is Aspose.PDF free to use?
+  type: FAQPage
+tags:
+- PDF bookmarks
+- Aspose.PDF
+- Java PDF processing
+title: 'Aspose.PDF for Java kullanarak PDF yer işareti sayfasını ayarlama: adım adım
+  rehber'
+url: /tr/java/bookmarks-navigation/update-pdf-bookmarks-aspose-java-tutorial/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
-
 {{< blocks/products/pf/main-container >}}
-
 {{< blocks/products/pf/tutorial-page-section >}}
-# Java için Aspose.PDF Kullanarak PDF Yer İşaretleri Nasıl Güncellenir: Adım Adım Kılavuz
 
-## giriiş
-PDF belgelerinizdeki yer imlerini programatik olarak yönetmekte zorlanıyor musunuz? Bir yer iminin hedef sayfasını güncellemek, içeriği yeniden düzenlerken veya hataları düzeltirken çok önemli olabilir. Bu kılavuz, PDF dosyalarındaki yer imlerinin nasıl verimli bir şekilde güncelleneceğini açıklar **Java için Aspose.PDF**Bu özellik yalnızca belge yönetimini kolaylaştırmakla kalmıyor, aynı zamanda kullanıcıların PDF'ler arasında gezinmesini de kolaylaştırıyor.
+# PDF yer imi sayfasını Aspose.PDF for Java kullanarak ayarlama: adım adım kılavuz
 
-Bu eğitimde, Aspose.PDF for Java kullanarak bir PDF belgesinde bir yer iminin hedef sayfasını güncelleme sürecini adım adım anlatacağız. Sonunda, şunlar hakkında sağlam bir anlayışa sahip olacaksınız:
-- Aspose.PDF ile ortamınızı kurma
-- PDF belgelerini açma ve düzenleme
-- PDF'lerdeki yer imlerini güncelleme
-Şimdi, başlamak için gerekli ön koşullara bir göz atalım.
+## Giriş
+Bu öğreticide Aspose.PDF for Java ile **set PDF bookmark page** nasıl yapılacağını öğreneceksiniz. Yer imi hedeflerini güncellemek, bir PDF'i yeniden yapılandırdığınızda, sayfa ekleyip sildiğinizde veya sadece gezinme hatalarını düzeltmeniz gerektiğinde önemlidir. Kılavuzun sonunda, bir yer iminin hedef sayfasını güvenilir bir şekilde değiştiren çalışan bir Java kod parçacığına sahip olacaksınız ve bu, teslim ettiğiniz herhangi bir PDF'in son kullanıcı deneyimini iyileştirecektir.
 
-## Ön koşullar
-Başlamadan önce aşağıdakilerin mevcut olduğundan emin olun:
+PDF yer imi sayfasını ayarlamanın *neden* önemli olduğunu anladığınıza göre, başlamadan önce ihtiyaç duyacağınız ön koşullara göz atalım.
 
-### Gerekli Kütüphaneler ve Sürümler
-- **Java için Aspose.PDF**25.3 versiyonunu kullanacağız. Maven veya Gradle kullanarak entegre edebilirsiniz.
-- **Java Geliştirme Kiti (JDK)**: Sürüm 8 veya üzeri önerilir.
+## Hızlı cevaplar
+- **Ana hedef nedir?** PDF yer imi sayfasını yeni bir hedefe ayarlayın.  
+- **Hangi kütüphaneyi kullanmalıyım?** Aspose.PDF for Java (en son sürüm).  
+- **Bir lisansa ihtiyacım var mı?** Ücretsiz deneme sürümü test için çalışır; üretim için ticari bir lisans gereklidir.  
+- **PDF yer imi hedefini herhangi bir sayfaya ayarlayabilir miyim?** Evet, `GoToAction` kullanarak geçerli herhangi bir sayfa indeksine işaret edebilirsiniz.  
+- **Uygulama ne kadar sürer?** Temel bir güncelleme için genellikle 15 dakikadan az.
 
-### Çevre Kurulum Gereksinimleri
-- IntelliJ IDEA, Eclipse veya Visual Studio Code gibi bir kod düzenleyici.
-- Java uygulamanızı çalıştırmak için bir terminale erişim.
+## “Yer imlerini güncelleme” nedir?
+Yer imlerini güncellemek, bir yer iminin işaret ettiği bağlantıyı değiştirmek anlamına gelir; böylece kullanıcı yer imi üzerine tıkladığında PDF doğru sayfaya atlar. Bu, bir belgeyi düzenledikten veya yeniden yapılandırdıktan sonra doğru gezinmeyi sürdürmek için gereklidir.
 
-### Bilgi Önkoşulları
-Temel bir anlayış:
-- Java programlama
-- Java projelerinde harici kütüphanelerle çalışma
+## Neden Aspose.PDF for Java kullanmalısınız?
+Aspose.PDF for Java **50+ input and output formats** (DOCX, XLSX, PPTX, HTML ve görüntü türleri dahil) destekler ve tüm dosyayı belleğe yüklemeden çok sayfalı PDF'leri işleyebilir. API Java 8+ üzerinde çalışır ve iş parçacığı güvenli işlemler sunar; bu da kurumsal düzeyde belge iş akışları için idealdir.
 
-## Java için Aspose.PDF Kurulumu
-Dahil etmek **Aspose.PDF** Projenize eklemek için şu adımları izleyin:
+## Önkoşullar
+Başlamadan önce aşağıdakilerin hazır olduğundan emin olun:
 
-### Maven Kurulumu
-Aşağıdaki bağımlılığı ekleyin `pom.xml` dosya:
+### Gerekli kütüphaneler ve sürümler
+- **[Aspose.PDF](https://releases.aspose.com/pdf/java/) for Java**: sürüm 25.3 (veya daha yeni).  
+- **Java Development Kit (JDK)**: sürüm 8 veya üzeri.
+
+### Ortam kurulumu
+- IntelliJ IDEA, Eclipse veya Visual Studio Code gibi bir IDE.  
+- Java uygulamasını derlemek ve çalıştırmak için bir terminal veya komut istemcisine erişim.
+
+### Bilgi önkoşulları
+- Temel Java programlama becerileri.  
+- Bir Java projesine dış kütüphaneler ekleme konusunda aşinalık.
+
+## Aspose.PDF for Java Kurulumu
+**Aspose.PDF**'i projenize dahil etmek için şu adımları izleyin:
+
+### Maven kurulumu
+`pom.xml` dosyanıza aşağıdaki bağımlılığı ekleyin:
 
 ```xml
 <dependency>
@@ -52,46 +124,49 @@ Aşağıdaki bağımlılığı ekleyin `pom.xml` dosya:
 </dependency>
 ```
 
-### Gradle Kurulumu
-Bunu da ekleyin `build.gradle` dosya:
+### Gradle kurulumu
+`build.gradle` dosyanıza şunu ekleyin:
 
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### Lisans Edinme Adımları
-- **Ücretsiz Deneme**: Bir ile başlayın [ücretsiz deneme](https://releases.aspose.com/pdf/java/) Özellikleri keşfetmek için.
-- **Geçici Lisans**: Genişletilmiş erişim için geçici bir lisans almak için şu adresi ziyaret edin: [geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
-- **Satın almak**Tam kapasite için, şu adresten bir lisans satın alın: [Aspose'un satın alma portalı](https://purchase.aspose.com/buy).
+### Lisans edinme adımları
+- **Ücretsiz deneme**: Özellikleri keşfetmek için bir [free trial](https://releases.aspose.com/pdf/java/) ile başlayın.  
+- **Geçici lisans**: Uzatılmış erişim için [temporary license page](https://purchase.aspose.com/temporary-license/) sayfasını ziyaret ederek geçici bir lisans edinin.  
+- **Satın alma**: Tam özellikler için [Aspose's purchase portal](https://purchase.aspose.com/buy) üzerinden bir lisans satın alın.
 
-### Temel Başlatma ve Kurulum
-Aspose.PDF'yi Java uygulamanızda başlatmak için:
+### Temel başlatma ve kurulum
+Java uygulamanızda Aspose.PDF'i başlatmak için:
 
 ```java
 import com.aspose.pdf.Document;
 
 class PdfBookmarkUpdater {
     public static void main(String[] args) {
-        // PDF dosyanızın yolunu içeren yeni bir Belge örneği başlatın.
+        // Initialize a new Document instance with the path to your PDF file.
         Document pdfDocument = new Document("path/to/your/input.pdf");
         
-        // Eğer varsa lisansınızı burada uyguladığınızdan emin olun.
-        // Lisans lisans = yeni Lisans();
-        // lisans.setLicense("lisans.lic/yolu");
+        // Ensure you apply the license here if you have one.
+        // License license = new License();
+        // license.setLicense("path/to/license.lic");
 
         System.out.println("Aspose.PDF initialized successfully.");
     }
 }
 ```
 
-## Uygulama Kılavuzu
-Şimdi yer imlerini güncelleme özelliğini uygulayalım.
+## Uygulama rehberi
+Şimdi yer imi‑güncelleme özelliğini uygulayalım.
 
-### Yer İşareti Güncelleme Özelliğine Genel Bakış
-Bu işlevsellik, bir PDF yer iminin belgenizde işaret ettiği yeri değiştirmenize olanak tanır. Özellikle içerik geliştikçe doğru gezinme bağlantılarını korumak için kullanışlıdır.
+### Yer imi güncelleme özelliğinin genel bakışı
+Bu işlev, **set PDF bookmark page**'i farklı bir sayfaya ayarlamanıza olanak tanır; içerik evrimleşirken gezinmeyi doğru tutar.
 
-#### Adım 1: PDF Belgesini açın
-Öncelikle Aspose.PDF kullanarak PDF dosyanızı yükleyin:
+## PDF yer imi sayfasını nasıl ayarlarsınız?
+PDF'i yükleyin, hedef yer imini bulun, istenen sayfa numarasıyla yeni bir `GoToAction` atayın ve belgeyi kaydedin. Aşağıdaki adımlar, geçersiz sayfa numaraları veya eksik yer imleri gibi uç durumları ele almanızı sağlar.
+
+### Adım 1: PDF belgesini açma
+`Document` Aspose.PDF'in bellek içindeki tek bir PDF dosyasını temsil eden üst‑seviye nesnesidir. Sayfalara, ana hatlara ve diğer belge‑seviyesi yapılara erişim sağlar.
 
 ```java
 import com.aspose.pdf.Document;
@@ -100,10 +175,10 @@ String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 Document pdfDocument = new Document(dataDir + "input.pdf");
 ```
 
-Bu adım bir `Document` PDF'nizi temsil eden nesne.
+Bu satır, programlı olarak manipüle edebileceğiniz bir `Document` örneği oluşturur.
 
-#### Adım 2: Yer İşaretini Alın
-Güncellemek istediğiniz belirli yer imine erişin. Örneğin, ilk yer imini alın:
+### Adım 2: Yer imini al
+`OutlineItemCollection` yer imlerinin (ana hatlar olarak da adlandırılır) hiyerarşisini tutar. `get_Item(1)` yöntemi, 1‑tabanlı indeksleme kullanarak ilk üst‑seviye yer imini getirir.
 
 ```java
 import com.aspose.pdf.OutlineItemCollection;
@@ -111,10 +186,10 @@ import com.aspose.pdf.OutlineItemCollection;
 OutlineItemCollection pdfOutline = pdfDocument.getOutlines().get_Item(1);
 ```
 
-Burada, `get_Item(1)` belgenizdeki ilk yer imini getirir.
+Daha derin bir yer imi gerekiyorsa, koleksiyonun alt öğeleri arasında gezin.
 
-#### Adım 3: Yer İmi Hedefini Güncelle
-Yer iminin hedefini yeni bir sayfaya yönlendirecek şekilde değiştirin:
+### Adım 3: Yer imi hedefini güncelle
+`GoToAction`, belirli bir sayfaya gezinme eylemini tanımlayan Aspose.PDF sınıfıdır. Yer iminin `Action` özelliğine yeni bir `GoToAction` atayarak, yer iminin işaret ettiği yeri değiştirirsiniz.
 
 ```java
 import com.aspose.pdf.GoToAction;
@@ -122,69 +197,93 @@ import com.aspose.pdf.GoToAction;
 pdfOutline.setDestination(new GoToAction(pdfDocument.getPages().get_Item(10)));
 ```
 
-The `GoToAction` nesne, yer imini başka bir sayfaya yönlendirerek gezinmeyi geliştirir.
+`newPageNumber` değişkeninin `1 .. pdfDocument.getPages().size()` aralığında olduğundan emin olun; aksi takdirde `IndexOutOfBoundsException` oluşur.
 
-#### Adım 4: Güncellenmiş PDF'yi Kaydedin
-Son olarak değişikliklerinizi bir dosyaya geri kaydedin:
+### Adım 4: Güncellenmiş PDF'i kaydet
+`save`, değiştirilmiş `Document`i diske yazar. Orijinali üzerine yazmak için aynı dosya yolunu veya sürümleme için yeni bir yolu seçebilirsiniz.
 
 ```java
 String outputDir = "YOUR_OUTPUT_DIRECTORY";
 pdfDocument.save(outputDir + "BookmarkUpdated_output.pdf");
 ```
 
-Bu, güncellenen belgeyi belirtilen konuma kaydeder.
+Kaydettikten sonra PDF, güncellenmiş yer imi hedefini içerir.
 
-### Sorun Giderme İpuçları
-- **Dosya Yolu Sorunları**: Yolların doğru ve erişilebilir olduğundan emin olun.
-- **Kütüphane Hataları**:Maven veya Gradle'daki bağımlılık kurulumunuzu iki kez kontrol edin.
-- **Lisans Sorunları**: Lisansınız varsa doğru bir şekilde uyguladığınızdan emin olun.
+## Sorun giderme ipuçları
+- **Dosya yolu sorunları**: Hem giriş hem de çıkış yollarının erişilebilir olduğunu ve uygulamanızın okuma/yazma izinlerine sahip olduğunu doğrulayın.  
+- **Kütüphane hataları**: Maven veya Gradle bağımlılığının önkoşullarda belirtilen sürümle eşleştiğinden emin olun.  
+- **Lisans sorunları**: Herhangi bir PDF işleminden önce lisans dosyasının yüklendiğini doğrulayın; aksi takdirde kütüphane sınırlamaları olan değerlendirme modunda çalışır.
 
-## Pratik Uygulamalar
-Yer imlerini güncellemek aşağıdaki gibi birçok senaryoda faydalıdır:
-1. **Belge İçeriğini Yeniden Düzenleme**:Yer imi hedeflerinin ayarlanması, belgelerin yeniden yapılandırılmasından sonra gezinmenin alakalı kalmasını sağlar.
-2. **Hataları Düzeltme**: Hatalı sayfa referanslarını güncelleyerek bozuk bağlantıları düzeltin.
-3. **Kullanıcı Deneyimini Geliştirme**:Karmaşık PDF'ler için sezgisel gezinme yolları oluşturun.
+## Pratik uygulamalar
+Yer imlerini güncellemek aşağıdaki senaryolarda faydalıdır:
 
-## Performans Hususları
-Aspose.PDF'in verimli kullanımını sağlamak için:
-- **Bellek Kullanımını Optimize Et**: Büyük belge boyutlarına dikkat edin ve bellek dağıtımını etkili bir şekilde yönetin.
-- **Toplu İşleme**: Birden fazla belgeyle çalışırken, yükü azaltmak için toplu işlem yapmayı düşünün.
-- **Çöp Toplama**:Yoğun operasyonlar sırasında kaynakları serbest bırakmak için düzenli olarak çöp toplamayı çağırın.
+1. **Belge içeriğini yeniden düzenleme** – Bölümleri taşıdıktan sonra yer imi hedeflerini senkronize tutmak için ayarlayın.  
+2. **Hataları düzeltme** – Sayfa silme veya ekleme nedeniyle oluşan kırık bağlantıları düzeltin.  
+3. **Kullanıcı deneyimini artırma** – Özellikle e‑kitaplar ve teknik kılavuzlarda büyük veya karmaşık PDF'ler için sezgisel bir gezinme sağlayın.
 
-## Çözüm
-Artık Aspose.PDF for Java kullanarak PDF'lerdeki yer imlerini nasıl güncelleyeceğinizi öğrendiniz. Bu beceri, belge yönetimini ve kullanıcı gezinmesini önemli ölçüde iyileştirebilir. Daha fazla araştırma için:
-- Diğer Aspose.PDF özelliklerini deneyin.
-- Bu işlevselliği daha büyük projelere veya iş akışlarına entegre edin.
-Uygulamaya hazır mısınız? İndirerek başlayın [Aspose.PDF](https://releases.aspose.com/pdf/java/) Bugün!
+## Performans dikkate alımları
+Çözümünüzü verimli tutmak için:
 
-## SSS Bölümü
-**S: Java için Aspose.PDF nedir?**
-A: Java kullanarak PDF dosyalarını programlı bir şekilde oluşturmak, düzenlemek ve yönetmek için güçlü bir kütüphanedir.
+- **Bellek kullanımını optimize edin** – Büyük PDF'ler çok bellek tüketebilir; mümkün olduğunda akışlarda işleyin.  
+- **Toplu işleme** – Birçok PDF'i güncellemeniz gerekiyorsa, aşırı yükü azaltmak için toplu olarak döngüye alın.  
+- **Garbage collection** – Çok büyük dosyaları işledikten sonra belleği boşaltmak için `System.gc()` çağırın.
 
-**S: Aspose.PDF'yi projeme nasıl yüklerim?**
-A: Kurulum kılavuzunda gösterildiği gibi bağımlılığı eklemek için Maven veya Gradle kullanın.
+## Yaygın sorunlar ve çözümler
+| Sorun | Neden | Çözüm |
+|-------|-------|----------|
+| `IndexOutOfBoundsException` hedef ayarlanırken | Sayfa numarası toplam sayfaları aşıyor | `get_Item(pageNumber)` çağrılmadan önce `pdfDocument.getPages().size()` değerini doğrulayın |
+| Lisans uygulanmadı | Lisans dosyası yolu hatalı veya eksik | Yolu doğrulayın ve lisans dosyasının okunabilir olduğundan emin olun |
+| Yer imi bulunamadı | Yanlış indeks kullanımı (0‑tabanlı vs 1‑tabanlı) | Aspose 1‑tabanlı indeksleme kullanır; buna göre ayarlayın |
 
-**S: Birden fazla yer imini aynı anda güncelleyebilir miyim?**
-A: Evet, döngü `OutlineItemCollection` ve her yer imini gerektiği gibi güncelleyin.
+## Sıkça sorulan sorular
 
-**S: Belirtilen sayfa mevcut değilse ne olur?**
-A: Bir istisna atılabilir. Hedefleri ayarlamadan önce her zaman sayfa numaralarını doğrulayın.
+**S: Aspose.PDF for Java nedir?**  
+C: Java kullanarak PDF dosyalarını programlı olarak oluşturmak, düzenlemek ve yönetmek için güçlü bir kütüphanedir.
 
-**S: Aspose.PDF'i kullanmak ücretsiz mi?**
-A: Bir teklif sunuyor [ücretsiz deneme](https://releases.aspose.com/pdf/java/) sınırlı işlevselliğe sahip. Tam erişim için bir lisans satın alın veya geçici bir tane edinin.
+**S: Aspose.PDF'i projemde nasıl kurarım?**  
+C: Kurulum kılavuzunda gösterildiği gibi Maven veya Gradle kullanarak bağımlılığı ekleyin.
+
+**S: Aynı anda birden fazla yer imini güncelleyebilir miyim?**  
+C: Evet, `OutlineItemCollection` içinde döngü yaparak gerektiği gibi her bir yer imi için yeni bir `GoToAction` uygulayabilirsiniz.
+
+**S: Belirtilen bir sayfa mevcut değilse ne olur?**  
+C: Bir istisna fırlatılabilir. Hedefi ayarlamadan önce her zaman sayfa numaralarını `pdfDocument.getPages().size()` ile doğrulayın.
+
+**S: Aspose.PDF ücretsiz mi?**  
+C: Sınırlı işlevselliğe sahip bir [free trial](https://releases.aspose.com/pdf/java/) sunar. Tam erişim için bir lisans satın alın veya geçici bir lisans edinin.
+
+## Sonuç
+Artık Aspose.PDF for Java kullanarak **set PDF bookmark page**'i nasıl yapacağınızı biliyorsunuz. Bu yetenek, belge gezinmesini iyileştirir ve herhangi bir PDF değişikliğinden sonra doğru referansların korunmasına yardımcı olur. Uzmanlığınızı derinleştirmek için:
+
+- Yeni ana hatlar ekleyerek veya mevcut olanları kaldırarak deneyin.  
+- Yer imi güncelleme mantığını büyük belge kütüphaneleri için toplu işleme hatlarına entegre edin.  
+
+Denemeye hazır mısınız? Aşağıdaki bağlantılardan kütüphaneyi indirin ve PDF'lerinizi bugün güncellemeye başlayın!
 
 ## Kaynaklar
-- **Belgeleme**: [Aspose.PDF Java Belgeleri](https://reference.aspose.com/pdf/java/)
-- **Kütüphaneyi İndir**: [Aspose İndirmeleri](https://releases.aspose.com/pdf/java/)
-- **Lisans Satın Al**: [Aspose.PDF'yi satın al](https://purchase.aspose.com/buy)
-- **Ücretsiz Deneme**: [Ücretsiz Denemeye Başlayın](https://releases.aspose.com/pdf/java/)
-- **Geçici Lisans**: [Geçici Lisans Alın](https://purchase.aspose.com/temporary-license/)
-- **Destek Forumu**: [Aspose PDF Desteği](https://forum.aspose.com/c/pdf/10)
+- **Dokümantasyon**: [Aspose.PDF Java Documentation](https://reference.aspose.com/pdf/java/)  
+- **Kütüphaneyi indirin**: [Aspose Downloads](https://releases.aspose.com/pdf/java/)  
+- **Lisans satın alın**: [Buy Aspose.PDF](https://purchase.aspose.com/buy)  
+- **Ücretsiz deneme**: [Start Free Trial](https://releases.aspose.com/pdf/java/)  
+- **Geçici lisans**: [Get Temporary License](https://purchase.aspose.com/temporary-license/)  
+- **Destek forumu**: [Aspose PDF Support](https://forum.aspose.com/c/pdf/10)
+
+---
+
+**Last Updated:** 2026-09-27  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose
+
+## İlgili Öğreticiler
+
+- [Aspose.PDF for Java kullanarak PDF Yer İmleri Oluşturma ve Gezintiyi Yönetme](/pdf/java/bookmarks-navigation/create-manage-pdf-bookmarks-aspose-java/)
+- [Aspose.PDF ile Java'da PDF Yer İmlerini Al – Tam Kılavuz](/pdf/java/bookmarks-navigation/retrieve-display-pdf-bookmarks-aspose-pdf-java/)
+- [Aspose.PDF for Java kullanarak PDF Yer İmlerini XML'e Aktarma: Kapsamlı Kılavuz](/pdf/java/conversion-export/export-pdf-bookmarks-xml-aspose-pdf-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

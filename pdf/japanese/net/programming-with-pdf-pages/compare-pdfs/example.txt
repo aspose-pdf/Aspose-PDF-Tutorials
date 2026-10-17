@@ -1,0 +1,74 @@
+//ExStart
+//ExSummary: このチュートリアルでは、ページサイズが異なる2つのPDFファイルを、最初のページサイズを同期させ、GraphicalPdfComparer を設定し、差分をハイライトしたPDFを生成する方法を示します。
+//ExStepSummary:0: 2つのソースPDFと結果PDFのファイルパスを定義します。
+//ExStepSummary:1: 両方のソースPDFファイルが存在することを確認し、どちらかが欠けている場合は中止します。
+//ExStepSummary:2: 処理中のエラーを捕捉するために try ブロックを開始します。
+//ExStepSummary:3: using 文の中で、2つのPDFを Document オブジェクト `docA` と `docB` にロードします。
+//ExStepSummary:4: 続行する前に、各PDFに少なくとも1ページが含まれていることを確認します。
+//ExStepSummary:5: 比較のために各ドキュメントの最初のページを取得します。
+//ExStepSummary:6: `firstPage` から `secondPage` へ MediaBox 情報をコピーし、ページが同じ寸法を共有するようにします。
+//ExStepSummary:7: 赤いハイライト、高解像度、1 % の差分閾値で `GraphicalPdfComparer` を作成し、構成します。
+//ExStepSummary:8: 比較を実行し、`outputPdfPath` に差分PDFを生成し、完了メッセージを書き込み、using と try のスコープを閉じます。
+//ExStepSummary:9: ページサイズの合わせがまだ不十分な場合に発生する可能性のある ArgumentException を処理します。
+//ExStepSummary:10: その他の予期しない例外を捕捉し、報告します。
+//ExStep:0-
+const string firstPdfPath = "sampleA.pdf";
+const string secondPdfPath = "sampleB.pdf";
+const string outputPdfPath = "diffResult.pdf";
+
+//ExStep:1-
+if (!File.Exists(firstPdfPath) || !File.Exists(secondPdfPath))
+{
+    Console.Error.WriteLine("Missing one or both source PDF files.");
+    return;
+}
+
+//ExStep:2-
+try
+{
+
+//ExStep:3-
+using (Document docA = new Document(firstPdfPath))
+using (Document docB = new Document(secondPdfPath))
+{
+
+//ExStep:4-
+if (docA.Pages.Count == 0 || docB.Pages.Count == 0)
+{
+    Console.Error.WriteLine("At least one document does not contain any pages.");
+    return;
+}
+
+//ExStep:5-
+Page firstPage = docA.Pages[1];
+Page secondPage = docB.Pages[1];
+
+//ExStep:6-
+secondPage.PageInfo = firstPage.PageInfo;
+
+//ExStep:7-
+GraphicalPdfComparer comparer = new GraphicalPdfComparer
+{
+    Color = Aspose.Pdf.Color.Red,
+    Resolution = new Resolution(200),
+    Threshold = 1
+};
+
+//ExStep:8-
+comparer.ComparePagesToPdf(firstPage, secondPage, outputPdfPath);
+Console.WriteLine($"Comparison finished. Output saved as '{outputPdfPath}'.");
+}
+}
+
+//ExStep:9-
+catch (ArgumentException ex)
+{
+    Console.Error.WriteLine($"Argument error during comparison: {ex.Message}");
+}
+
+//ExStep:10-
+catch (Exception ex)
+{
+    Console.Error.WriteLine($"Unexpected error: {ex.Message}");
+}
+//ExEnd

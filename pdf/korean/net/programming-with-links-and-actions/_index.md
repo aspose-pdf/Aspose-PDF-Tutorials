@@ -32,6 +32,7 @@ Aspose.PDF for .NET의 "링크 및 액션 프로그래밍" 튜토리얼 페이�
 | [보기 시 페이지 지정](./specify-page-when-viewing/) | Aspose.PDF for .NET을 사용하여 PDF에서 표시할 페이지를 지정하는 방법을 알아보세요. 이 간단한 가이드를 통해 사용자 탐색 기능을 향상시키세요. |  
 | [PDF 파일의 링크 업데이트](./update-links/) Aspose.PDF for .NET을 사용하여 PDF 파일의 링크 텍스트 색상을 업데이트하는 방법을 알아보세요. 이 단계별 가이드는 따라 하기 쉬운 예제를 통해 모든 세부 사항을 안내합니다. |  
 | [PDF 파일의 링크 텍스트 색상 업데이트](./update-link-text-color/) | Aspose.PDF for .NET을 사용하여 PDF 파일의 링크를 손쉽게 업데이트하는 포괄적인 단계별 가이드를 소개합니다. PDF 편집을 간소화하세요. |  
+| [C#에서 PDF 하이퍼링크 만들기 – 단계별 가이드](./create-pdf-hyperlink-in-c-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF에 하이퍼링크를 단계별로 추가하는 방법을 알아보세요. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

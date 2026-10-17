@@ -7,7 +7,6 @@ url: /de/java/attachments-embedded-files/
 weight: 11
 ---
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 
