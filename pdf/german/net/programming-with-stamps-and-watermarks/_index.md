@@ -61,6 +61,7 @@ Die Tutorials „Programmieren mit Stempeln und Wasserzeichen“ von Aspose.PDF 
 | [Wie man ein Stempel-PDF hinzufügt – Komplettanleitung mit Auto‑Fit-Text](./how-to-add-stamp-pdf-complete-guide-with-auto-fit-text/) | Erfahren Sie in dieser umfassenden Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.PDF für .NET einen Stempel mit automatischer Textanpassung hinzufügen. |
 | [Bates-Nummerierungstutorial: Zahlen zu PDF hinzufügen mit Aspose](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET Bates-Nummern zu PDF-Dokumenten hinzufügen. |  
 | [Wie man ein Wasserzeichen zu PDF hinzufügt – Text-Overlay PDF mit Aspose](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein Textwasserzeichen zu einer PDF-Datei hinzufügen. |
+| [Transparenz zu PDF mit Aspose.PDF hinzufügen – Vollständige C#‑Anleitung](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET Transparenz in PDF-Dokumente einfügen. |  
 
 | [Bates-Nummerierung zu PDF hinzufügen – Vollständige Anleitung mit Aspose](./add-bates-numbering-pdf-complete-guide-with-aspose/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET eine Bates-Nummerierung zu Ihren PDF-Dokumenten hinzufügen. |
 {{< /blocks/products/pf/tutorial-page-section >}}

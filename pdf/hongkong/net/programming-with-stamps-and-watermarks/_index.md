@@ -32,6 +32,7 @@ Aspose.PDF 的「使用圖章和浮水印進行程式設計」.NET 教學課程�
 | [從圖章註釋中提取文本](./extract-text-from-stamp-annotation/) |透過本逐步教學（附有詳細的程式碼範例），了解如何使用 Aspose.PDF for .NET 從 PDF 中的印章註解中提取文字。 |  
 | [在 PDF 檔案中填入描邊文本](./fill-stroke-text/) |透過本包含實際範例的逐步指南，了解如何使用 Aspose.PDF for .NET 輕鬆地在 PDF 檔案中填入描邊文字。 |  
 | [從 PDF 檔案取得浮水印](./get-watermark/) |透過逐步指南了解如何使用 Aspose.PDF for .NET 從 PDF 文件中提取浮水印。水印提取詳細教程。 |  
+| [使用 Aspose.PDF 為 PDF 添加透明度 – 完整 C# 指南](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) |透過本完整 C# 教學，了解如何使用 Aspose.PDF 為 PDF 文件設定透明度，提升視覺效果與層次感。 |  
 | [頁眉頁尾部分中的圖像和頁碼](./image-and-page-number-in-header-footer-section/) |在本逐步教學中學習如何使用 Aspose.PDF for .NET 將圖像和頁碼新增至 PDF 的頁首和頁尾。 |  
 | [頁眉頁腳部分內嵌中的圖像和頁碼](./image-and-page-number-in-header-footer-section-inline/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 PDF 的頁首部分內嵌新增圖像和頁碼。 |  
 | [頁腳的圖片](./image-in-footer/) |透過本詳細的逐步教學了解如何使用 Aspose.PDF for .NET 在 PDF 頁腳中新增圖像。非常適合增強您的文件。 |  

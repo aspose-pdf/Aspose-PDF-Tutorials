@@ -233,6 +233,9 @@ Aspose.PDF for .NET ile tek bir PDF sayfasını yüksek kaliteli PNG görüntüs
 ### [Resimsiz PDF Kaydet – Aspose ile PDF'yi HTML'ye Dönüştürme](./save-pdf-without-images-convert-pdf-to-html-with-aspose/)
 Aspose.PDF for .NET ile PDF'den resimleri çıkartarak HTML'ye dönüştürmeyi öğrenin.
 
+### [PDF'yi HTML olarak kaydet – PDF oluştur, dikdörtgen şekil ekle](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
+Aspose.PDF for .NET kullanarak PDF'yi HTML'ye kaydederken yeni bir PDF oluşturup içine dikdörtgen şekil eklemeyi öğrenin.
+
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)

@@ -290,6 +290,9 @@
 
 ### [Aspose PDF เป็น HTML: คู่มือฉบับสมบูรณ์ในการแปลง PDF และลบรูปภาพ](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
 เรียนรู้วิธีแปลง PDF เป็น HTML และลบรูปภาพโดยใช้ Aspose.PDF .NET อย่างครบถ้วน
+### [บันทึก PDF เป็น HTML – สร้าง PDF และเพิ่มรูปสี่เหลี่ยม](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
+เรียนรู้วิธีบันทึก PDF เป็น HTML พร้อมการสร้าง PDF และเพิ่มรูปสี่เหลี่ยมโดยใช้ Aspose.PDF สำหรับ .NET
+
 
 ## แหล่งข้อมูลเพิ่มเติม
 

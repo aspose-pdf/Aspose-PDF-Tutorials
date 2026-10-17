@@ -87,6 +87,7 @@ Vous apprendrez à définir les paramètres de conversion, à extraire du texte 
 | [Convertir DOCX en HTML en C# – Guide complet](./convert-docx-to-html-in-c-complete-guide/) | Apprenez à convertir des fichiers DOCX en HTML avec Aspose.PDF pour .NET en C# grâce à ce guide complet étape par étape. |
 | [Créer une image PDF avec Aspose.Pdf – Guide étape par étape](./create-pdf-image-with-aspose-pdf-step-by-step-guide/) | Apprenez à générer une image PDF à l'aide d'Aspose.Pdf avec ce guide détaillé étape par étape. |
 | [Comment convertir un PDF avec Aspose – Guide complet étape par étape](./how-to-convert-pdf-with-aspose-complete-step-by-step-guide/) | Apprenez à convertir un PDF avec Aspose grâce à ce guide complet étape par étape. |
+| [Convertir un PDF en PDF/X‑1a avec C# – Guide étape par étape](./convert-pdf-to-pdf-x-1a-with-c-step-by-step-guide/) | Apprenez à convertir un PDF en PDF/X‑1a avec C# grâce à ce guide détaillé étape par étape. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

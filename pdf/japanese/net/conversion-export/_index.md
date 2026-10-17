@@ -92,6 +92,8 @@ Aspose.PDF for .NET と C# を使用して、PDF を HTML に変換し保存す�
 
 ### [Aspose.PDF を使用して PDF をカスタムディメンションで HTML に変換する](./convert-pdf-html-custom-dimensions-asposepdf-net/)
 Aspose.PDF Net のコードチュートリアル
+### [PDF を HTML として保存 – PDF を作成し、長方形シェイプを追加](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
+Aspose.PDF for .NET を使用して PDF を作成し、長方形シェイプを追加した後、HTML に保存する方法を学びます。
 
 ### [Aspose.PDF を使用して C# で HTML を PDF に変換する: 完全ガイド](./convert-html-pdf-aspose-pdf-net-csharp/)
 Aspose.PDF for .NET および C# を使用して、HTML コンテンツをプロフェッショナルな PDF に変換する方法を学びます。このガイドでは、認証された HTTP リクエスト、変換プロセス、資格情報の設定について説明します。

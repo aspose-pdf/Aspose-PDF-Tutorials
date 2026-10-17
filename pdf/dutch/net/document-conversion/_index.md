@@ -87,6 +87,7 @@ leert hoe u conversie-instellingen opgeeft, tekst en afbeeldingen extraheert, de
 | [DOCX naar HTML converteren in C# – Complete gids](./convert-docx-to-html-in-c-complete-guide/) | Leer hoe u DOCX-bestanden naar HTML converteert met Aspose.PDF voor .NET in C# met deze stapsgewijze handleiding. |
 | [PDF-afbeelding maken met Aspose.Pdf – Stapsgewijze handleiding](./create-pdf-image-with-aspose-pdf-step-by-step-guide/) | Leer hoe u met Aspose.PDF een afbeelding van een PDF maakt in een stapsgewijze tutorial. |
 | [Hoe PDF te converteren met Aspose – Complete stapsgewijze handleiding](./how-to-convert-pdf-with-aspose-complete-step-by-step-guide/) | Leer hoe u PDF-bestanden converteert met Aspose.PDF voor .NET in deze volledige stap‑voor‑stap handleiding. |
+| [PDF converteren naar PDF/X-1a met C# – Stapsgewijze handleiding](./convert-pdf-to-pdf-x-1a-with-c-step-by-step-guide/) | Leer hoe u PDF-bestanden naar PDF/X‑1a converteert met Aspose.PDF voor .NET in C# met deze stapsgewijze handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -287,6 +287,8 @@ Tìm hiểu cách chuyển đổi PDF sang HTML trong C# bằng Aspose.PDF với
 Hướng dẫn chi tiết cách chuyển đổi tài liệu PDF sang HTML và loại bỏ hình ảnh để giảm kích thước tệp.
 
 ### [Cách render các trang PDF thành hình ảnh PNG – hướng dẫn đầy đủ Aspose.PDF](./how-to-render-pdf-pages-as-png-images-complete-aspose-pdf-gu/)
+### [Lưu PDF dưới dạng HTML – Tạo PDF, thêm hình chữ nhật](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
+Hướng dẫn tạo PDF, chèn hình chữ nhật và lưu dưới dạng HTML bằng Aspose.PDF cho .NET.
 
 ## Tài nguyên bổ sung
 

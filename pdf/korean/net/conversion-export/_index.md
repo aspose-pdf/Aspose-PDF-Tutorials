@@ -82,6 +82,9 @@ Aspose.PDF for .NET을 사용하여 스트림 출력을 사용하여 PDF 파일�
 ### [C#에서 Aspose.PDF를 사용하여 PDF를 HTML로 변환하는 빠른 가이드](./convert-pdf-to-html-in-c-quick-guide-with-aspose-pdf/)
 Aspose.PDF for .NET을 활용해 C#에서 PDF를 HTML로 빠르게 변환하는 방법을 단계별로 안내합니다.
 
+### [PDF를 HTML로 저장 – PDF 생성, 사각형 모양 추가](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
+Aspose.PDF for .NET을 사용하여 PDF를 만들고 사각형을 추가한 뒤 HTML로 저장하는 방법을 단계별로 안내합니다.
+
 Aspose.PDF for .NET을 사용하여 이미지를 별도로 저장하지 않고 PDF 파일을 HTML로 변환하는 방법을 알아보세요. 자세한 가이드를 통해 레이아웃의 일관성을 유지하세요.
 
 ### [Aspose.PDF를 사용하여 사용자 지정 이미지 경로를 사용하여 .NET에서 PDF를 HTML로 변환](./convert-pdf-html-custom-image-paths-dotnet/)

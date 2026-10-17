@@ -62,6 +62,7 @@ Aspose.PDFs handledningar "Programmering med stämplar och vattenstämplar" för
 | [Hur man lägger till stämpel i PDF – Komplett guide med automatisk anpassning av text](./how-to-add-stamp-pdf-complete-guide-with-auto-fit-text/) | Lär dig hur du lägger till en stämpel i PDF-filer med automatisk anpassning av text med Aspose.PDF för .NET i denna kompletta guide. |
 | [Bates-numreringshandledning: Lägg till nummer i PDF med Aspose](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) | Lär dig hur du använder Bates-numrering för att automatiskt lägga till unika sidnummer i PDF-dokument med Aspose.PDF för .NET. |  
 | [Hur man lägger till vattenstämpel i PDF – Lägg till textöverlägg i PDF med Aspose](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) | Lär dig hur du lägger till en textbaserad vattenstämpel i en PDF med Aspose.PDF för .NET i denna steg-för-steg-guide. |
+| [Lägg till transparens i PDF med Aspose.PDF – Komplett C#-guide](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) | Lär dig hur du lägger till transparens i PDF-filer med Aspose.PDF för .NET i en komplett C#-guide. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

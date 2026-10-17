@@ -126,6 +126,9 @@ Ismerje meg, hogyan konvertálhat DOCX dokumentumokat PNG képekké C# és Aspos
 Ismerje meg, hogyan konvertálhat PDF dokumentumokat HTML-be, és hogyan távolíthatja el a képeket az Aspose.PDF for .NET segítségével.
 
 
+### [PDF mentése HTML-ként – PDF létrehozása, téglalap alakzat hozzáadása](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
+Ismerje meg, hogyan hozhat létre PDF-et, adhat hozzá téglalap alakzatot, majd mentheti HTML formátumban az Aspose.PDF .NET segítségével.
+
 ### [PDF konvertálása PPTX-be az Aspose.PDF for .NET segítségével: lépésről lépésre útmutató](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 Ismerje meg, hogyan konvertálhat hatékonyan PDF dokumentumokat PowerPoint prezentációkká az Aspose.PDF for .NET segítségével. Ez a lépésről lépésre szóló útmutató bemutatja az alapvető konveriót, a speciális funkciókat, például a diákat és a folyamatkövetést.
 

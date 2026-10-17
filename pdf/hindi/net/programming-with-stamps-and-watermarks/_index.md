@@ -60,6 +60,7 @@ Aspose.PDF के "स्टैम्प और वॉटरमार्क क�
 | [Aspose.Words के साथ Word में टेक्स्ट वॉटरमार्क बनाएं – पूर्ण गाइड](./create-text-watermark-in-word-with-aspose-words-complete-gui/) | .NET के लिए Aspose.Words का उपयोग करके Word फ़ाइल में टेक्स्ट वॉटरमार्क जोड़ने की पूरी प्रक्रिया सीखें। |  
 | [PDF में स्टैम्प कैसे जोड़ें – ऑटो‑फ़िट टेक्स्ट के साथ पूर्ण गाइड](./how-to-add-stamp-pdf-complete-guide-with-auto-fit-text/) | ऑटो‑फ़िट टेक्स्ट के साथ PDF में स्टैम्प जोड़ने की पूरी प्रक्रिया सीखें। .NET के लिए Aspose.PDF का उपयोग करें। |  
 | [बेट्स नंबरिंग ट्यूटोरियल: Aspose के साथ PDF में नंबर जोड़ें](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) Aspose.PDF के साथ .NET में PDF फ़ाइलों में बेट्स नंबरिंग जोड़ने की चरण-दर-चरण गाइड। |  
+| [Aspose.PDF के साथ PDF में पारदर्शिता जोड़ें – पूर्ण C# गाइड](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) | Aspose.PDF का उपयोग करके .NET में PDF में पारदर्शिता लागू करने के चरणों को सीखें। |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

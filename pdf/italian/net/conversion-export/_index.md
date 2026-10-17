@@ -287,6 +287,8 @@ Scopri come convertire file DOCX in HTML utilizzando C# e Aspose.PDF per .NET co
 Scopri come convertire PDF in HTML utilizzando C# con Aspose.PDF, seguendo una guida dettagliata passo dopo passo.
 ### [Aspose PDF a HTML: Guida completa per convertire PDF e rimuovere le immagini](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
 Scopri come convertire PDF in HTML e rimuovere le immagini indesiderate usando Aspose.PDF per .NET.
+### [Salva PDF come HTML – Crea PDF, aggiungi forma rettangolare](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
+Scopri come salvare un PDF come HTML creando un PDF e aggiungendo una forma rettangolare con Aspose.PDF per .NET.
 
 ## Risorse aggiuntive
 
