@@ -54,6 +54,7 @@ leert hoe u conversie-instellingen opgeeft, tekst en afbeeldingen extraheert, de
 | [Aspose PDF-formaatconversie: PDF naar PDF/X‑4 converteren in C#](./aspose-pdf-format-conversion-convert-pdf-to-pdf-x-4-in-c/) | Leer hoe u PDF-bestanden naar PDF/X‑4-formaat converteert met Aspose.PDF voor .NET in C#. |
 | [PDF naar PDF/X‑4 converteren met Aspose.PDF – Complete C#‑gids](./convert-pdf-to-pdf-x-4-with-aspose-pdf-complete-c-guide/) | Volledige C#‑gids voor het converteren van PDF naar PDF/X‑4 met Aspose.PDF. |
 | [PDF naar PDF/X‑1A converteren in C# – Complete stapsgewijze gids](./convert-pdf-to-pdf-x-1a-in-c-complete-step-by-step-guide/) | Leer hoe u PDF naar PDF/X‑1A converteert met Aspose.PDF voor .NET in C# met deze volledige stapsgewijze handleiding. |
+| [PDF naar PDF/X‑1a converteren in C# – Complete gids](./convert-pdf-to-pdf-x-1a-in-c-complete-guide/) | Leer hoe u PDF-bestanden naar PDF/X‑1a-formaat converteert met Aspose.PDF voor .NET in C#. |
 | [PDF naar PNG-lettertypehints](./pdf-to-png-font-hinting/) | Leer hoe u PDF naar PNG kunt converteren met lettertypehints met Aspose.PDF voor .NET in een eenvoudige stapsgewijze handleiding. |  
 | [PDF naar PPT](./pdf-to-ppt/) | Leer hoe u PDF naar PPT converteert met Aspose.PDF voor .NET met deze stapsgewijze handleiding. Eenvoudig, efficiënt en perfect voor presentaties. |  
 | [PDF naar SVG](./pdf-to-svg/) | Leer in deze stapsgewijze tutorial hoe u PDF-bestanden naar SVG-formaat converteert met Aspose.PDF voor .NET. Perfect voor ontwikkelaars en ontwerpers. |  

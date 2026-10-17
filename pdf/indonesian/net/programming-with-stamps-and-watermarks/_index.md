@@ -60,6 +60,7 @@ Bahasa Indonesia: --- | Bahasa Indonesia:
 | [Cara menambahkan stempel PDF – Panduan lengkap dengan teks auto‑fit](./how-to-add-stamp-pdf-complete-guide-with-auto-fit-text/) | Pelajari cara menambahkan stempel PDF dengan teks yang otomatis menyesuaikan ukuran dalam panduan lengkap ini. Bahasa Indonesia:  
 | [Tutorial Penomoran Bates: Tambahkan Nomor ke PDF dengan Aspose](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) | Pelajari cara menambahkan penomoran Bates ke dokumen PDF menggunakan Aspose.PDF for .NET dengan contoh kode langkah demi langkah. |  
 | [Cara Menambahkan Tanda Air PDF – Tambahkan Overlay Teks PDF dengan Aspose](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) | Pelajari cara menambahkan tanda air teks ke file PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode langkah demi langkah. |
+| [Cara Mengubah Opasitas dalam PDF dengan Aspose.PDF – Panduan Lengkap](./how-to-change-opacity-in-pdf-with-aspose-pdf-complete-guide/) | Pelajari cara mengatur tingkat transparansi objek dalam PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode praktis. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

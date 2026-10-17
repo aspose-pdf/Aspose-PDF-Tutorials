@@ -62,6 +62,7 @@
 | [Создать текстовый водяной знак в Word с Aspose.Words – Полное руководство](./create-text-watermark-in-word-with-aspose-words-complete-gui/) Узнайте, как создать текстовый водяной знак в документах Word с помощью Aspose.Words для .NET в этом полном руководстве. |
 | [Учебник по нумерации Бейтса: добавление номеров в PDF с Aspose](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) |  
 | [Как добавить водяной знак в PDF – добавить текстовое наложение в PDF с Aspose](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) Узнайте, как добавить текстовый водяной знак в PDF с помощью Aspose.PDF для .NET в этом пошаговом руководстве. |  
+| [Как изменить непрозрачность в PDF с Aspose.PDF – Полное руководство](./how-to-change-opacity-in-pdf-with-aspose-pdf-complete-guide/) | Узнайте, как изменить непрозрачность в PDF с помощью Aspose.PDF для .NET в полном руководстве. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

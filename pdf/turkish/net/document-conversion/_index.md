@@ -87,6 +87,7 @@ Dönüştürme ayarlarını nasıl belirleyeceğinizi, metin ve görüntüleri n
 | [Aspose.Pdf ile PDF Görüntüsü Oluşturma – Adım Adım Kılavuz](./create-pdf-image-with-aspose-pdf-step-by-step-guide/) | Bu adım adım kılavuzla Aspose.Pdf kullanarak PDF görüntüsü oluşturmayı öğrenin. |
 | [PDF'yi C#'ta PDF/X‑4'e Dönüştür – Tam Kılavuz](./convert-pdf-to-pdf-x-4-with-aspose-pdf-complete-c-guide/) | Bu kapsamlı C# rehberi ile PDF dosyalarını PDF/X‑4 formatına nasıl dönüştüreceğinizi adım adım öğrenin. |
 | [PDF'yi C#'ta PDF/X‑1A'ye Dönüştür – Tam Kılavuz](./convert-pdf-to-pdf-x-1a-in-c-complete-step-by-step-guide/) | Aspose.PDF for .NET kullanarak PDF dosyalarını PDF/X‑1A formatına C# ile nasıl dönüştüreceğinizi adım adım öğrenin. |
+| [PDF'yi C#'ta PDF/X‑1A'ya Dönüştür – Tam Kılavuz](./convert-pdf-to-pdf-x-1a-in-c-complete-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF dosyalarını PDF/X‑1A formatına nasıl dönüştüreceğinizi adım adım öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

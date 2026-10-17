@@ -87,6 +87,7 @@
 | [تحويل تنسيق Aspose PDF: تحويل PDF إلى PDF/X‑4 باستخدام C#](./aspose-pdf-format-conversion-convert-pdf-to-pdf-x-4-in-c/) |تعلم كيفية تحويل ملفات PDF إلى تنسيق PDF/X‑4 باستخدام Aspose.PDF لـ .NET مع C# خطوة بخطوة. |
 | [إنشاء صورة PDF باستخدام Aspose.Pdf – دليل خطوة بخطوة](./create-pdf-image-with-aspose-pdf-step-by-step-guide/) |تعلم كيفية إنشاء صورة PDF باستخدام Aspose.PDF لـ .NET من خلال هذا الدليل خطوة بخطوة. |  
 | [كيفية تحويل PDF باستخدام Aspose – دليل شامل خطوة بخطوة](./how-to-convert-pdf-with-aspose-complete-step-by-step-guide/) |تعرف على كيفية تحويل ملفات PDF باستخدام Aspose خطوة بخطوة مع شرح مفصل وأمثلة برمجية. |
+| [تحويل PDF إلى PDF/X‑1A باستخدام C# – دليل كامل](./convert-pdf-to-pdf-x-1a-in-c-complete-guide/) |تعرف على كيفية تحويل ملفات PDF إلى صيغة PDF/X‑1A باستخدام Aspose.PDF لـ .NET مع دليل خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
