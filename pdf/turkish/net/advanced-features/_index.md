@@ -23,6 +23,9 @@ Aspose.PDF for .NET ile etiketli PDF'lerdeki alt öğelere nasıl erişeceğiniz
 ### [.NET için Aspose.PDF Kullanarak PDF'lere Renkli Çizgi Katmanları Ekleme: Kapsamlı Bir Kılavuz](./add-colored-lines-pdfs-using-aspose-pdf-net/)
 Aspose.PDF for .NET kullanarak renkli çizgi katmanları ekleyerek PDF belgelerinizi nasıl geliştireceğinizi öğrenin. Bu kılavuz adım adım talimatlar ve pratik uygulamalar sağlar.
 
+### [C#'ta PDF Şeffaflığını Düzenleme – Adım Adım Kılavuz](./edit-pdf-transparency-in-c-step-by-step-guide/)
+C# ve Aspose.PDF for .NET kullanarak PDF dosyalarındaki şeffaflık ayarlarını nasıl düzenleyeceğinizi adım adım öğrenin.
+
 ### [Aspose.PDF .NET: Etiketleme ile PDF Erişilebilirliğini Geliştirme](./aspose-pdf-net-accessible-tagging-guide/)
 PDF'lerde erişilebilir etiketleme için Aspose.PDF .NET'i nasıl kullanacağınızı öğrenin. Başlıkları, dilleri ve mantıksal yapıları kolayca ayarlayın.
 
@@ -64,6 +67,16 @@ Aspose.PDF for .NET kullanarak erişilebilir, biçimlendirilmiş etiketli PDF be
 
 ### [C# ile PDF'leri Karşılaştırma – PDF Diff Oluşturma İçin Tam Kılavuz](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 C# ve Aspose.PDF kullanarak PDF dosyalarını karşılaştırmayı, farkları (diff) oluşturmayı ve raporlamayı öğrenin.
+
+### [Aspose.Pdf ile PDF'de OCR Çalıştırma – Tam C# Kılavuzu](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
+Aspose.Pdf kullanarak PDF belgelerinde OCR uygulamayı ve metin çıkarımını C# ile adım adım öğrenin.
+### [Aspose.Pdf ile Her PDF Katmanını Kaydet – Adım Adım Kılavuz](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
+Aspose.Pdf for .NET kullanarak PDF dosyalarındaki her katmanı ayrı ayrı kaydetmeyi öğrenin.
+### [Aspose.Pdf ile PDF Belgelerini Karşılaştırma – Tam Görsel Diff Kılavuzu](./compare-pdf-documents-with-aspose-pdf-complete-visual-diff-g/)
+Aspose.Pdf kullanarak PDF belgelerini görsel olarak karşılaştırmayı ve farkları (diff) oluşturmayı öğrenin.
+
+### [İki PDF Belgesini Karşılaştırma – Tam C# Kılavuzu](./compare-two-pdf-documents-complete-c-guide/)
+C# ve Aspose.PDF kullanarak iki PDF belgesini karşılaştırmayı, farkları (diff) oluşturmayı ve raporlamayı öğrenin.
 
 ## Ek Kaynaklar
 

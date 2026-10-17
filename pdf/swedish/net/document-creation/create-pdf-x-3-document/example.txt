@@ -1,0 +1,33 @@
+//ExStart
+//ExSummary: Den här handledningen visar hur man skapar ett nytt PDF-dokument, lägger till tre tomma sidor, konverterar det till PDF/X‑3‑kompatibilitet samtidigt som konverteringsfel loggas, och sparar den resulterande filen med hjälp av Aspose.Pdf Document‑klassen.
+//ExStepSummary:0: Definiera namn på utdata‑PDF‑filen och sökvägen för konverteringsloggen.
+//ExStepSummary:1: Instansiera ett nytt Document‑objekt inom ett using‑block för att säkerställa korrekt borttagning.
+//ExStepSummary:2: Lägg till tre tomma sidor i dokumentet, vilket ökar sidantalet.
+//ExStepSummary:3: Konvertera dokumentet till PDF/X‑3‑format, och registrera eventuella konverteringsproblem i loggfilen.
+//ExStepSummary:4: Spara det PDF/X‑3‑kompatibla dokumentet till disk och stäng using‑blocket.
+//ExStepSummary:5: Skriv ut ett bekräftelsemeddelande till konsolen som anger var filen sparades.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+        const string resultFile = "final_pdfx3_output.pdf";
+        const string conversionLog = "pdfx3_conversion_log.xml";
+
+//ExStep:1-
+        using (Document pdfDoc = new Document())
+        {
+
+//ExStep:2-
+            pdfDoc.Pages.Add();
+            pdfDoc.Pages.Add();
+            pdfDoc.Pages.Add();
+
+//ExStep:3-
+            pdfDoc.Convert(conversionLog, PdfFormat.PDF_X_3, ConvertErrorAction.Delete);
+
+//ExStep:4-
+            pdfDoc.Save(resultFile);
+        }
+
+//ExStep:5-
+        Console.WriteLine($"PDF/X‑3 file written to '{resultFile}'.");
+//ExEnd

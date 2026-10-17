@@ -1,14 +1,58 @@
 ---
-date: '2025-12-20'
-description: Ismerje meg, hogyan távolíthatja el a PDF‑mellékleteket és optimalizálhatja
-  a PDF méretét az Aspose.PDF for Java segítségével. Ez a lépésről‑lépésre útmutató
-  bemutatja a beállítást, a Maven‑függőséget és a PDF mentését mellékletek nélkül.
+date: '2026-05-23'
+description: Ismerje meg, hogyan távolíthatja el a PDF mellékleteket és optimalizálhatja
+  a PDF méretét az Aspose.PDF for Java segítségével. Ez a step‑by‑step guide bemutatja
+  a beállítást, a Maven dependency és a PDF mentését mellékletek nélkül.
 keywords:
-- remove attachments from pdf
-- Aspose.PDF for Java setup
-- manage PDF files
-title: Hogyan távolítsuk el hatékonyan a PDF mellékleteket az Aspose.PDF for Java
-  segítségével
+- save pdf without attachments
+- how to remove pdf attachments
+- optimize pdf size java
+- strip embedded files pdf
+- delete embedded files pdf
+schemas:
+- author: Aspose
+  dateModified: '2026-05-23'
+  description: Learn how to remove PDF attachments and optimize PDF size with Aspose.PDF
+    for Java. This step‑by‑step guide covers setup, Maven dependency, and saving PDF
+    without attachments.
+  headline: How to Save PDF Without Attachments Efficiently Using Aspose.PDF for Java
+  type: TechArticle
+- description: Learn how to remove PDF attachments and optimize PDF size with Aspose.PDF
+    for Java. This step‑by‑step guide covers setup, Maven dependency, and saving PDF
+    without attachments.
+  name: How to Save PDF Without Attachments Efficiently Using Aspose.PDF for Java
+  steps:
+  - name: Load the PDF Document
+    text: '- **Why**: Loading creates an object model that lets you access the `EmbeddedFiles`
+      collection.'
+  - name: Remove All Embedded Files (Attachments)
+    text: '- **Why**: Deleting the collection clears hidden data, directly contributing
+      to **reduce pdf file size java** scenarios.'
+  - name: Save the Modified Document
+    text: '- **Why**: Saving persists the changes and produces a **save pdf without
+      attachments** version ready for distribution.'
+  type: HowTo
+- questions:
+  - answer: Aspose.PDF for Java is a powerful library that enables developers to create,
+      edit, convert, and manipulate PDF files programmatically without requiring Adobe
+      Acrobat.
+    question: What is Aspose.PDF for Java?
+  - answer: A free trial is available for evaluation; a purchased license removes
+      all evaluation restrictions and grants access to premium features.
+    question: Can I use this library without any limitations?
+  - answer: Use memory‑efficient coding patterns, process files in batches, and rely
+      on Aspose.PDF’s streaming API, which can work with PDFs up to 2 GB without loading
+      the entire document into RAM.
+    question: How do I handle large PDF files with Aspose.PDF?
+  - answer: Yes—use the `getEmbeddedFile(String name)` method to locate a particular
+      attachment and then call `delete()` on that object.
+    question: Is it possible to remove specific attachments instead of all?
+  - answer: Post questions or bug reports on the [Aspose Support Forum](https://forum.aspose.com/c/pdf/10),
+      where the product team and community members respond promptly.
+    question: How do I get support for issues with Aspose.PDF?
+  type: FAQPage
+title: Hogyan menthetünk PDF-et mellékletek nélkül hatékonyan az Aspose.PDF for Java
+  használatával
 url: /hu/java/attachments-embedded-files/remove-attachments-pdf-aspose-java/
 weight: 1
 ---
@@ -18,78 +62,73 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Hogyan távolítsuk el hatékonyan a PDF mellékleteket az Aspose.PDF for Java segítségével
+# Hogyan menthetünk PDF-et mellékletek nélkül hatékonyan az Aspose.PDF for Java használatával
 
 ## Bevezetés
 
-Szeretné egyszerűsíteni a dokumentumkezelést azáltal, hogy **remove pdf attachments**-t alkalmaz a PDF-jeiben? Legyen szó elavult fájlokról vagy felesleges adatokról, a PDF-dokumentumok tisztítása jelentősen növelheti a hatékonyságot és segíthet **optimize PDF size**-t elérni. Ez az útmutató megmutatja, hogyan törölhet minden beágyazott fájlt (mellékletet) egy PDF-ben az Aspose.PDF for Java használatával.
+Szeretné egyszerűsíteni a dokumentumkezelést azzal, hogy megtanulja, hogyan **menthet PDF-et mellékletek nélkül**? Akár elavult fájlok tisztítására, a megfelelőségi követelmények teljesítésére, vagy egyszerűen a dokumentumméret csökkentésére van szüksége, a beágyazott mellékletek eltávolítása drámaian javíthatja a tárolási hatékonyságot és a letöltési sebességet. Ez az útmutató minden lépésen végigvezeti – az Aspose.PDF for Java beállításától, a PDF betöltésén, a beágyazott fájlok eltávolításán, egészen a tiszta PDF mentéséig, amely készen áll a terjesztésre.
 
-Az Aspose.PDF egy robusztus könyvtár, amely egyszerűvé teszi a bonyolult PDF műveleteket. A tutorial követésével ki tudja használni a képességeit a dokumentumok hatékony kezelésére és optimalizálására.
+Az Aspose.PDF for Java egy termelés‑kész könyvtár, amely elrejti az alacsony szintű PDF belső részleteket, miközben magas teljesítményt nyújt. Az útmutató végére képes lesz **remove pdf attachments** bármely PDF-ből, és megérti, hogyan járul hozzá ez a **optimizing PDF size in Java** alkalmazásokhoz.
 
-**Amit megtanul:**
-- Hogyan állítsa be és használja az Aspose.PDF for Java-t
-- Technikák a **remove pdf attachments** PDF-dokumentumból történő eltávolításához
-- A könyvtár kulcsfontosságú konfigurációs beállításai, beleértve a **aspose pdf maven dependency**-t
-- Gyakorlati alkalmazások PDF-fájlok kezelésére a valós helyzetekben
+**What You’ll Learn**  
+- How to install and license Aspose.PDF for Java  
+- The exact code pattern to **remove pdf attachments** from a PDF document  
+- How to **save pdf without attachments** and verify the size reduction  
+- Real‑world scenarios where stripping embedded files saves bandwidth and storage  
 
-Kezdjük!
+Vágjunk bele!
 
 ## Gyors válaszok
-- **Mi a “remove pdf attachments” funkció?** Törli az összes beágyazott fájlt egy PDF-ből, csökkentve a fájlméretet.  
-- **Melyik könyvtár ajánlott?** Az Aspose.PDF for Java egyszerű API-t biztosít a mellékletek tisztításához.  
-- **Szükségem van licencre?** Egy ingyenes próba a teszteléshez működik; egy állandó licenc eltávolítja a használati korlátokat.  
-- **Menthetek PDF-et mellékletek nélkül?** Igen – a törlés után a dokumentumot normál módon menti.  
-- **Ez optimalizálja a PDF méretét?** A mellékletek eltávolítása gyakran drámai méretcsökkenést eredményez.
+- **What does “remove pdf attachments” do?** Ez törli a PDF-ben lévő minden beágyazott fájlt, ami a mellékletektől függően a fájlméretet 30 %‑80 %‑kal csökkentheti.  
+- **Which library is recommended?** Az Aspose.PDF for Java egyetlen soros API-t kínál a mellékletek törléséhez, és bármely operációs rendszeren működik, ahol JDK van.  
+- **Do I need a license?** Egy ingyenes 30‑napos próba a teszteléshez elegendő; a megvásárolt licenc eltávolítja az összes értékelési korlátot.  
+- **Can I save PDF without attachments?** Igen — a törlő metódus meghívása után egyszerűen meghívja a `save`‑t, hogy tiszta PDF-et kapjon.  
+- **Will this optimize PDF size?** A mellékletek eltávolítása gyakran drámai méretcsökkenést eredményez, különösen nagy fájlok (képek, táblázatok) beágyazásakor.
 
-## Mi a “remove pdf attachments”?
-A PDF-mellékletek eltávolítása azt jelenti, hogy minden olyan fájlt eltávolítunk, amely a PDF-be be van ágyazva (gyakran *embedded files*-nek nevezik). Ez a folyamat hasznos a **pdf attachment cleanup**-hez, különösen, ha egy könnyű dokumentumot kell megosztani vagy tárolási szabályzatoknak kell megfelelni.
+## Mi az a “remove pdf attachments”?
+A PDF mellékletek eltávolítása azt jelenti, hogy minden olyan fájlt eltávolítunk, amely a PDF‑be be van ágyazva (gyakran *embedded files*-nek hívják). Ez a művelet megszünteti a rejtett adatokat, csökkenti a teljes fájlméretet, és biztosítja, hogy csak a szándékolt tartalom kerüljön megosztásra a címzettekkel.
 
-## Miért használja az Aspose.PDF for Java-t ehhez a feladathoz?
-- **Simple API** – Egy sor kóddal eltávolíthatók az összes melléklet.  
-- **Cross‑platform** – Bármely operációs rendszeren működik Java futtatókörnyezettel.  
-- **Performance‑focused** – Nagy PDF-eket hatékonyan kezel.  
-- **Integrated licensing** – Ingyenes próbaértékelés, egyszerű frissítés teljes licencre.
+## Miért használjuk az Aspose.PDF for Java-t ehhez a feladathoz?
+A PDF mellékletek eltávolítása néhány sor kóddal megvalósítható, mivel az Aspose.PDF for Java magas szintű API‑t biztosít, amely elrejti a PDF struktúráját. A könyvtár **50+** bemeneti és kimeneti formátumot támogat, akár 2 GB‑os PDF‑eket is képes feldolgozni a teljes fájl memóriába töltése nélkül, és bármely Java 8‑at vagy újabbat támogató platformon fut. Ezek a kvantifikált képességek megbízható választássá teszik vállalati szintű dokumentumcsővezetékekhez.
 
 ## Előfeltételek
 
-Mielőtt elkezdenénk, győződjön meg róla, hogy a következőkkel rendelkezik:
-
 ### Szükséges könyvtárak, verziók és függőségek
-- **Aspose.PDF for Java**: 25.3 vagy újabb verzió (tartalmazza a legújabb **aspose pdf maven dependency**-t).
+- **Aspose.PDF for Java**: version 25.3 vagy újabb (tartalmazza a legújabb **aspose pdf maven dependency**).  
 
 ### Környezet beállítási követelmények
-- Telepített Java Development Kit (JDK) a gépén.  
-- Integrált fejlesztői környezet (IDE), például IntelliJ IDEA vagy Eclipse.
+- Java Development Kit (JDK) 8 vagy újabb telepítve.  
+- IntelliJ IDEA vagy Eclipse típusú IDE a könnyű projektkezeléshez.  
 
 ### Tudás előfeltételek
 - Alapvető Java programozási ismeretek.  
-- Ismeret a projektmenedzsment eszközökről, mint a Maven vagy a Gradle.
+- Maven vagy Gradle ismerete a függőségkezeléshez.  
 
 ## Az Aspose.PDF for Java beállítása
 
-Az Aspose.PDF for Java használatának megkezdéséhez adja hozzá függőségként a projektjéhez. Így teheti ezt Maven és Gradle segítségével:
+Az Aspose.PDF for Java használatának megkezdéséhez adja hozzá a projekt függőségeihez. Az alábbiakban a szükséges Maven és Gradle kódrészletek találhatók.
 
-**Maven:**
+**Maven:**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-pdf</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
-```
+```  
 
-### Licenc beszerzési lépések
-1. **Free Trial**: Töltse le az ingyenes próbaverziót a [Aspose PDF Downloads](https://releases.aspose.com/pdf/java/) oldalról.  
-2. **Temporary License**: A korlátok nélküli teljes funkciókhoz szerezzen be egy ideiglenes licencet a [Aspose Temporary License](https://purchase.aspose.com/temporary-license/) oldalon.  
-3. **Purchase**: Hosszú távú használathoz vásároljon licencet a hivatalos oldalukon.
+## Licenc megszerzésének lépései
+1. **Free Trial** – Töltsön le egy próbaverziót a [Aspose PDF Downloads](https://releases.aspose.com/pdf/java/) oldalról.  
+2. **Temporary License** – Szerezzen időkorlátos kulcsot a [Aspose Temporary License](https://purchase.aspose.com/temporary-license/) portálon keresztül.  
+3. **Purchase** – Gyártási használathoz vásároljon teljes licencet a hivatalos oldalon.  
 
-### Alapvető inicializálás és beállítás
-Miután hozzáadta az Aspose.PDF-et függőségként, inicializálja a Java projektjében:
+## Alapvető inicializálás és beállítás
+Miután a függőség hozzá lett adva, elkezdheti használni a könyvtárat a kódban:
 
 ```java
 import com.aspose.pdf.Document;
@@ -105,96 +144,103 @@ public class RemoveAttachments {
         // Proceed with removing attachments in the next section.
     }
 }
-```
+```  
 
 ## Megvalósítási útmutató
 
-### Hogyan távolítsuk el a PDF-mellékleteket az Aspose.PDF for Java-val
+## Hogyan távolítsuk el a PDF mellékleteket az Aspose.PDF for Java használatával
+A mellékletek eltávolításához először betölti a PDF‑et egy Aspose.PDF `Document` objektumba, majd eléri annak `EmbeddedFiles` gyűjteményét, törli a gyűjteményt, és végül elmenti a dokumentumot egy új fájlba. Ez az egyszerű háromlépéses munkafolyamat biztosítja, hogy minden beágyazott fájl eltávolításra kerüljön, miközben megőrzi a PDF eredeti tartalmát és elrendezését.  
+A `Document` osztály egy PDF fájlt képvisel, és metódusokat biztosít a fájl olvasásához, szerkesztéséhez és mentéséhez.  
+Az `EmbeddedFiles` gyűjtemény tartalmazza a PDF‑ben lévő összes beágyazott fájlobjektumot (mellékleteket).
 
-Ez a funkció bemutatja, hogyan **remove pdf attachments** a PDF-dokumentumokba ágyazott mellékleteket. Lépésről lépésre végigvezetünk.
-
-#### 1. lépés: PDF-dokumentum betöltése
-Kezdje a dokumentum betöltésével az Aspose.PDF által biztosított `Document` osztály használatával:
-
+#### 1. lépés: PDF dokumentum betöltése
 ```java
 // Open the specified PDF document
 Document pdfDocument = new Document(dataDir);
-```
-- **Miért**: Ez a lépés elengedhetetlen a dokumentum tartalmának eléréséhez és módosításához.
+```  
+- **Why**: A betöltés egy objektummodellt hoz létre, amely lehetővé teszi a `EmbeddedFiles` gyűjtemény elérését.
 
 #### 2. lépés: Minden beágyazott fájl (melléklet) eltávolítása
-Használja a `delete()` metódust az `EmbeddedFiles` gyűjteményen, hogy minden mellékletet eltávolítson:
-
 ```java
 // Remove all embedded files (attachments) from the document
 pdfDocument.getEmbeddedFiles().delete();
-```
-- **Miért**: A `delete()` metódus eltávolítja a felesleges adatokat, biztosítva, hogy a PDF tiszta és optimalizált legyen.
+```  
+- **Why**: A gyűjtemény törlése eltávolítja a rejtett adatokat, közvetlenül hozzájárulva a **reduce pdf file size java** helyzetekhez.
 
 #### 3. lépés: Módosított dokumentum mentése
-A mellékletek eltávolítása után mentse az frissített PDF-et egy új fájlba:
-
 ```java
 // Save the modified document to a new file in the specified output directory
 pdfDocument.save(outputDir);
-```
-- **Miért**: A mentés minden változást rögzít, és egy **save pdf without attachments** verziót hoz létre, amely készen áll a terjesztésre.
+```  
+- **Why**: A mentés rögzíti a változtatásokat, és egy **save pdf without attachments** verziót hoz létre, amely készen áll a terjesztésre.
 
-### Hibaelhárítási tippek
-- **Common Issue**: Kivétel a helytelen fájlutak miatt.  
-- **Solution**: Ellenőrizze, hogy a `dataDir` és `outputDir` létező könyvtárakra mutatnak, megfelelő olvasási/írási jogosultságokkal.
+### Hogyan oldjuk meg a gyakori problémákat PDF mellékletek eltávolításakor?
+Ha a művelet sikertelen, a tipikus problémák közé tartozik a helytelen fájlútvonal, a nem elegendő jogosultság, vagy egy jelszóval védett PDF módosítása. Győződjön meg arról, hogy a bemeneti útvonal abszolút vagy a munkakönyvtárhoz relatív, adjon olvasási/írási jogot a mappáknak, és szükség esetén adja meg a dokumentum jelszavát a `Document` konstruktor megfelelő túlterhelésével.
 
 ## Gyakorlati alkalmazások
 
-1. Dokumentumkezelő rendszerek – A felesleges mellékletek eltávolítása egyszerűsíti a tároláskezelést vállalati környezetben.  
-2. E-mail mellékletek – Tisztítsa meg a PDF-eket küldés előtt, hogy csökkentse az e-mail méretét.  
-3. Jogi dokumentumkezelés – Biztosítsa, hogy érzékeny szerződésekhez ne legyenek rejtett fájlok megosztva.  
-4. Archiválás – Csak a lényeges tartalmat tárolja, a többlet beágyazott fájlokat eldobva.  
-5. Webes publikálás – Gyorsabb betöltési idők online tárolt PDF-ek esetén.
+1. **Dokumentumkezelő rendszerek** – A mellékletek eltávolítása csökkenti a tárolási költségeket és felgyorsítja az indexelést.  
+2. **E‑mail mellékletek** – Tiszta PDF‑ek küldése előtt csökkentik az e‑mail méretét a vállalati korlátok alatt.  
+3. **Jogi dokumentumkezelés** – Biztosítja, hogy rejtett fájlok ne kerüljenek véletlenül megosztásra szerződések esetén.  
+4. **Archiválás** – Csak a lényeges tartalom tárolása, a felesleges beágyazott fájlok elhagyásával hosszú távú megőrzéshez.  
+5. **Webes publikálás** – Gyorsabb betöltési idő a nyilvános weboldalakon tárolt PDF‑ek esetén.  
 
-## Teljesítményfontosságú szempontok
-- Szabadítsa fel a memóriát a `Document` objektumok használat után a `pdfDocument.close()` hívással.  
-- Tömeges feldolgozás esetén fontolja meg a fájlok ciklusba vétele és ugyanazon lépések alkalmazását, a JVM heap használat figyelésével.
+## Teljesítmény szempontok
+- Hívja meg a `pdfDocument.close()`‑t a feldolgozás után a natív erőforrások felszabadításához.  
+- Tömeges feladatok esetén iteráljon egy PDF könyvtáron, és alkalmazza ugyanazt a háromlépéses mintát, miközben a JVM heap használatát a VisualVM‑hez hasonló eszközökkel figyeli.  
+- Az Aspose.PDF képes 2 GB‑os PDF‑ek kezelésére a teljes fájl memóriába töltése nélkül, köszönhetően a streaming architektúrának.  
 
 ## Következtetés
 
-Most már elsajátította a technikát a **remove pdf attachments** PDF-dokumentumból történő eltávolítására az Aspose.PDF for Java segítségével. Ez nemcsak a **optimize PDF size**-t segíti, hanem javítja a tárolási hatékonyságot és a biztonságot.
+Most már rendelkezik egy teljes, termelés‑kész módszerrel a **save PDF without attachments** végrehajtásához az Aspose.PDF for Java segítségével. Ez a technika nemcsak a **optimizing PDF size**‑t segíti, hanem a biztonságot és a megfelelőséget is javítja, mivel biztosítja, hogy rejtett fájlok ne kísérjék dokumentumait.
 
-**Következő lépések:**
-- Fedezze fel az Aspose.PDF további funkcióit, például az egyesítést, vízjelezést vagy szövegkinyerést.  
-- Tekintse át a teljes API dokumentációt a fejlettebb forgatókönyvekhez.
+**Next Steps**  
+- Fedezze fel az Aspose.PDF további képességeit, például egyesítést, vízjelezést vagy szövegkinyerést.  
+- Tekintse át a teljes API‑referenciát a fejlettebb forgatókönyvekhez, például a specifikus mellékletek név szerinti eltávolításához.  
 
-Ha kérdése van, nyugodtan forduljon a [Aspose Support Forum](https://forum.aspose.com/c/pdf/10) fórumhoz.
+Ha kérdése van, forduljon a [Aspose Support Forum](https://forum.aspose.com/c/pdf/10) fórumhoz.
 
-## GyIK szakasz
-1. **Mi az Aspose.PDF for Java?**  
-   - Az Aspose.PDF for Java egy erőteljes könyvtár, amely PDF-dokumentumok létrehozására és manipulálására szolgál Java alkalmazásokban.  
-2. **Használhatom ezt a könyvtárat korlátozások nélkül?**  
-   - Teljes hozzáféréshez licencet kell vásárolni; azonban egy ingyenes próba elérhető értékeléshez.  
-3. **Hogyan kezeljem a nagy PDF-fájlokat az Aspose.PDF-vel?**  
-   - Fontolja meg a memóriahatékony kódolási gyakorlatok használatát, és szükség esetén kötegelt feldolgozást.  
-4. **Lehet csak bizonyos mellékleteket eltávolítani az összes helyett?**  
-   - Igen, a `getEmbeddedFile` metódussal célzottan törölhet mellékleteket név vagy index alapján.  
-5. **Hogyan kaphatok támogatást az Aspose.PDF problémáira?**  
-   - Használja a [Aspose Support Forum](https://forum.aspose.com/c/pdf/10) oldalt kérdések feltevésére vagy problémák jelentésére.
+## Gyakran Ismételt Kérdések
 
-## Források
-- **Documentation**: Tekintse meg a részletes API hivatkozásokat a [Aspose PDF Java Reference](https://reference.aspose.com/pdf/java/) oldalon  
+**Q: Mi az az Aspose.PDF for Java?**  
+A: Az Aspose.PDF for Java egy erőteljes könyvtár, amely lehetővé teszi a fejlesztők számára PDF fájlok programozott létrehozását, szerkesztését, konvertálását és manipulálását Adobe Acrobat nélkül.  
+
+**Q: Használhatom ezt a könyvtárat korlátozások nélkül?**  
+A: Egy ingyenes próba elérhető értékeléshez; a megvásárolt licenc eltávolítja az összes értékelési korlátozást és hozzáférést biztosít a prémium funkciókhoz.  
+
+**Q: Hogyan kezeljem a nagy PDF fájlokat az Aspose.PDF‑el?**  
+A: Használjon memóriahatékony kódolási mintákat, dolgozzon fájlok kötegelt feldolgozásával, és támaszkodjon az Aspose.PDF streaming API‑ra, amely akár 2 GB‑os PDF‑ekkel is képes dolgozni a teljes dokumentum RAM‑ba töltése nélkül.  
+
+**Q: Lehetőség van csak bizonyos mellékletek eltávolítására?**  
+A: Igen — használja a `getEmbeddedFile(String name)` metódust egy adott melléklet megtalálásához, majd hívja meg a `delete()`‑t azon az objektumon.  
+
+**Q: Hol kaphatok támogatást az Aspose.PDF‑el kapcsolatos problémákhoz?**  
+A: Tegyen fel kérdéseket vagy jelentse a hibákat a [Aspose Support Forum](https://forum.aspose.com/c/pdf/10) oldalon, ahol a termékcsapat és a közösség tagjai gyorsan válaszolnak.  
+
+## Erőforrások
+- **Documentation**: Fedezze fel a részletes API‑referenciákat a [Aspose PDF Java Reference](https://reference.aspose.com/pdf/java/) oldalon  
 - **Download Aspose.PDF**: Szerezze be a szoftvert a [Aspose Downloads](https://releases.aspose.com/pdf/java/) oldalról  
 - **Purchase License**: Licencet szerezhet a [Aspose Purchase Page](https://purchase.aspose.com/buy) oldalon  
-- **Free Trial**: Kezdje egy próbaverzióval a [Aspose PDF Java Downloads](https://releases.aspose.com/pdf/java/) oldalon  
-- **Temporary License**: Ideiglenes licencet szerezhet a [Aspose Temporary License](https://purchase.aspose.com/temporary-license/) oldalról
+- **Free Trial**: Kezdje el egy próbaverzióval a [Aspose PDF Java Downloads](https://releases.aspose.com/pdf/java/) oldalon  
+- **Temporary License**: Ideiglenes licencet kérhet a [Aspose Temporary License](https://purchase.aspose.com/temporary-license/) oldalon  
 
 ---
 
-**Last Updated:** 2025-12-20  
+**Last Updated:** 2026-05-23  
 **Tested With:** Aspose.PDF for Java 25.3  
 **Author:** Aspose
+
+{{< blocks/products/products-backtop-button >}}
+
+## Kapcsolódó oktatóanyagok
+
+- [Az Aspose.PDF Java mestersége: Beágyazott fájlok elérése és kezelése PDF-ekben](/pdf/java/attachments-embedded-files/master-aspose-pdf-java-access-manage-embedded-files/)
+- [Hogyan nyerjünk ki beágyazott fájlokat egy PDF portfólióból az Aspose.PDF Java használatával](/pdf/java/attachments-embedded-files/extract-files-pdf-portfolio-aspose-java/)
+- [PDF fájlok gyors optimalizálása az Aspose.PDF for Java segítségével: Átfogó útmutató](/pdf/java/performance-optimization/master-aspose-pdf-java-optimization/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

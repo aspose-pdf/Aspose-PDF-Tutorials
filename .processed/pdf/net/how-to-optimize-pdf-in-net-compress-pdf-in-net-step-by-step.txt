@@ -1,0 +1,7 @@
+Title: How to optimize PDF in .NET – compress PDF in .NET step by step
+Slug: how-to-optimize-pdf-in-net-compress-pdf-in-net-step-by-step
+Category: performance-optimization
+ProcessedDate: 2026-08-05T07:42:27.951230
+SourceRepo: AI Search API
+Keywords: how to optimize pdf, optimize pdf file size, compress large pdf document, save optimized pdf, compress pdf in .net
+PRNumber: 114

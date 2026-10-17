@@ -104,6 +104,9 @@ Master text rotation in PDFs with Aspose.PDF for .NET using this comprehensive g
 ### [Master Aspose.PDF for .NET&#58; Open and Search PDF Documents Efficiently](./aspose-pdf-net-open-search-pdfs/)
 Learn how to use Aspose.PDF for .NET to open and search PDF documents. This guide covers setup, searching text in specific pages, and practical applications.
 
+### [How to Search PDF with Aspose.Pdf – Complete C# Guide](./how-to-search-pdf-with-aspose-pdf-complete-c-guide/)
+Learn how to search PDF content using Aspose.PDF for .NET with a complete C# guide covering simple and advanced search techniques.
+
 ### [Master Custom Tab Stops in PDFs Using Aspose.PDF for .NET&#58; A Comprehensive Guide](./master-custom-tab-stops-aspose-pdf-net/)
 Learn how to master custom tab stops in PDF documents using Aspose.PDF for .NET, enhancing your document formatting and presentation skills.
 
@@ -163,6 +166,9 @@ A code tutorial for Aspose.PDF Net
 
 ### [Style Text in Tagged PDFs using Aspose.PDF for .NET | Guide for Accessible and Aesthetic PDF Creation](./style-text-tagged-pdfs-aspose-pdf-net/)
 Learn how to style text in tagged PDF documents with Aspose.PDF for .NET. This guide covers installation, techniques, and practical applications to enhance accessibility.
+
+### [How to Redact PDF with Aspose – Step‑by‑Step Guide](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
+Learn how to redact sensitive information from PDF files using Aspose.PDF for .NET with a step‑by‑step guide and C# code examples.
 
 ## Additional Resources
 

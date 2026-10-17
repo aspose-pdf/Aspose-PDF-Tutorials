@@ -1,0 +1,33 @@
+//ExStart
+//ExSummary: Tutorial ini menunjukkan cara membuat dokumen PDF baru, menambahkan tiga halaman kosong, mengonversinya ke kepatuhan PDF/X‑3 sambil mencatat kesalahan konversi, dan menyimpan file hasilnya menggunakan kelas Aspose.Pdf Document.
+//ExStepSummary:0: Definisikan nama file PDF output dan path untuk log konversi.
+//ExStepSummary:1: Buat objek Document baru di dalam blok using untuk memastikan pembuangan yang tepat.
+//ExStepSummary:2: Tambahkan tiga halaman kosong ke dokumen, meningkatkan jumlah halamannya.
+//ExStepSummary:3: Konversi dokumen ke format PDF/X‑3, mencatat setiap masalah konversi dalam file log.
+//ExStepSummary:4: Simpan dokumen yang mematuhi PDF/X‑3 ke disk dan tutup blok using.
+//ExStepSummary:5: Tampilkan pesan konfirmasi ke konsol yang menunjukkan lokasi penyimpanan file.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+        const string resultFile = "final_pdfx3_output.pdf";
+        const string conversionLog = "pdfx3_conversion_log.xml";
+
+//ExStep:1-
+        using (Document pdfDoc = new Document())
+        {
+
+//ExStep:2-
+            pdfDoc.Pages.Add();
+            pdfDoc.Pages.Add();
+            pdfDoc.Pages.Add();
+
+//ExStep:3-
+            pdfDoc.Convert(conversionLog, PdfFormat.PDF_X_3, ConvertErrorAction.Delete);
+
+//ExStep:4-
+            pdfDoc.Save(resultFile);
+        }
+
+//ExStep:5-
+        Console.WriteLine($"PDF/X‑3 file written to '{resultFile}'.");
+//ExEnd

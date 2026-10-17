@@ -1,0 +1,46 @@
+//ExStart
+//ExSummary: Bu öğreticide, Aspose.Pdf ile mevcut bir PDF'nin nasıl açılacağını, yalnızca form doldurmaya izin verecek şekilde izinlerin nasıl kısıtlanacağını, AES‑256 kullanarak görüntüleyici ve sahibi şifreleriyle nasıl şifreleneceğini ve korumalı dosyanın nasıl kaydedileceğini gösterir.
+//ExStepSummary:0: Kaynak ve hedef dosya yollarını ve görüntüleyici ile sahibi şifrelerini tanımlayın.
+//ExStepSummary:1: Kaynak PDF'nin mevcut olduğunu kontrol edin ve yoksa bir hata mesajı ile işlemi durdurun.
+//ExStepSummary:2: İşleme sırasında oluşabilecek hataları ele almak için bir try bloğu başlatın.
+//ExStepSummary:3: pdfDoc adlı bir Document nesnesi oluşturarak mevcut PDF dosyasını açın.
+//ExStepSummary:4: İzinleri yalnızca form doldurmaya izin verecek şekilde ayarlayın, belgeyi AES‑256 kullanarak görüntüleyici ve sahibi şifreleriyle şifreleyin ve korumalı PDF'yi kaydedin.
+//ExStepSummary:5: Konsola bir onay mesajı yazın ve try bloğunu kapatın.
+//ExStepSummary:6: Herhangi bir istisna yakalayın ve hata mesajını konsola yazdırın.
+//ExStep:0-
+        const string sourceFile = "sample.pdf";
+        const string destFile = "protected.pdf";
+        const string viewerPass = "viewerPass";
+        const string adminPass = "adminPass";
+
+//ExStep:1-
+        if (!File.Exists(sourceFile))
+        {
+            Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+            return;
+        }
+
+//ExStep:2-
+        try
+        {
+
+//ExStep:3-
+            using (Document pdfDoc = new Document(sourceFile))
+
+//ExStep:4-
+            {
+                Permissions allowed = Permissions.FillForm;
+                pdfDoc.Encrypt(viewerPass, adminPass, allowed, CryptoAlgorithm.AESx256);
+                pdfDoc.Save(destFile);
+            }
+
+//ExStep:5-
+            Console.WriteLine($"Secure PDF written to '{destFile}'.");
+        }
+
+//ExStep:6-
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Exception occurred: {ex.Message}");
+        }
+//ExEnd

@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: このチュートリアルでは、Document、ITaggedContent、StructureElement、HeaderElement クラスを使用して、PDF ドキュメントを作成し、デフォルト言語とタイトルを設定し、レベル 1 の見出しを挿入する方法を示します。
+//ExStepSummary:0: 生成された PDF の出力ファイル名を定義します。
+//ExStepSummary:1: `using` ブロック内で新しい空の PDF ドキュメントインスタンス（`pdfDoc`）を作成します。
+//ExStepSummary:2: タグ付けされた PDF 構造を操作するために `ITaggedContent` インターフェイスを取得します。
+//ExStepSummary:3: ドキュメントのデフォルト言語を英語（米国）に設定し、タイトルメタデータを割り当てます。
+//ExStepSummary:4: 論理構造ツリーのルート要素を取得します。
+//ExStepSummary:5: レベル 1 のヘッダー要素を作成し、表示テキストを設定し、言語を指定します。
+//ExStepSummary:6: ヘッダー要素をルートに追加し、見出しが PDF に表示されるようにします。
+//ExStepSummary:7: PDF を指定されたファイルに保存し、ドキュメントのスコープを閉じます。
+//ExStepSummary:8: コンソールに確認メッセージを出力します。
+//ExStepImage:6:images/1.png
+//ExStep:0-
+const string resultFile = "pdf_with_title.pdf";
+
+//ExStep:1-
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:2-
+ITaggedContent tagContent = pdfDoc.TaggedContent;
+
+//ExStep:3-
+tagContent.SetLanguage("en-US");
+tagContent.SetTitle("PDF Example with Header");
+
+//ExStep:4-
+StructureElement rootElement = tagContent.RootElement;
+
+//ExStep:5-
+HeaderElement header = tagContent.CreateHeaderElement(1);
+header.SetText("Demo Header");
+header.Language = "en-US";
+
+//ExStep:6-
+rootElement.AppendChild(header);
+
+//ExStep:7-
+pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"PDF generated and stored at '{resultFile}'.");
+//ExEnd
