@@ -61,6 +61,7 @@ Aspose.PDF의 .NET용 "스탬프 및 워터마크 프로그래밍" 튜토리얼�
 | [C#을 사용하여 PDF에 베이츠 번호 매기기 추가 – 완전 단계별 가이드](./add-bates-numbering-to-pdf-in-c-complete-step-by-step-guide/) | Aspose.PDF for .NET을 사용해 C#에서 PDF에 베이츠 번호를 추가하는 방법을 단계별로 안내합니다. |  
 | [Aspose.Words를 사용하여 Word에 텍스트 워터마크 만들기 – 완전 가이드](./create-text-watermark-in-word-with-aspose-words-complete-gui/) | Aspose.Words for .NET을 활용해 Word 문서에 텍스트 워터마크를 추가하는 방법을 단계별로 안내합니다. |
 | [Bates 번호 매기기 튜토리얼: Aspose를 사용하여 PDF에 번호 추가](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) Aspose.PDF for .NET을 사용하여 PDF에 Bates 번호를 추가하는 방법을 단계별 가이드로 알아보세요. |  
+| [Aspose를 사용하여 PDF에 베이츠 번호 매기기 추가하기 – 단계별 가이드](./how-to-add-bates-numbering-in-pdf-with-aspose-step-by-step-g/) | Aspose.PDF for .NET을 사용하여 PDF 문서에 베이츠 번호를 자동으로 추가하는 방법을 단계별로 안내합니다. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

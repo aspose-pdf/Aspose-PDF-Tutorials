@@ -107,6 +107,7 @@
 | [使用 Aspose.PDF 将 PDF 转换为 PDF/X-4 – 完整 C# 指南](./convert-pdf-to-pdf-x-4-with-aspose-pdf-complete-c-guide/) 通过本分步教程，学习在 C# 中使用 Aspose.PDF 将 PDF 转换为 PDF/X-4，涵盖关键设置和示例代码。|  
 | [在 C# 中将 PDF 转换为 PDF/X‑1A – 完整分步指南](./convert-pdf-to-pdf-x-1a-in-c-complete-step-by-step-guide/) 通过本分步教程学习如何使用 Aspose.PDF for .NET 将 PDF 转换为 PDF/X‑1A，涵盖关键设置和示例代码。|  
 | [在 C# 中将 PDF 转换为 HTML – 完整指南（使用 Aspose）](./convert-pdf-to-html-in-c-complete-guide-with-aspose/) | 通过本完整分步教程，学习在 C# 中使用 Aspose.PDF for .NET 将 PDF 转换为 HTML，涵盖关键设置和示例代码。|
+| [使用 C# 将 PDF 转换为 PDF/X-4 – 完整 Aspose.Pdf 指南](./convert-pdf-to-pdf-x-4-with-c-complete-aspose-pdf-guide/) 通过本完整分步指南了解如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 转换为 PDF/X-4。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

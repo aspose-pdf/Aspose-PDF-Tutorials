@@ -60,6 +60,7 @@ Aspose.PDF 的“使用图章和水印进行编程”.NET 教程将指导您逐�
 | [如何在 PDF 中添加图章 – 自动适配文本的完整指南](./how-to-add-stamp-pdf-complete-guide-with-auto-fit-text/) 学习如何使用 Aspose.PDF for .NET 在 PDF 中添加图章，并实现文本自动适配，提供完整步骤和示例代码。|  
 | [Bates 编号教程：使用 Aspose 为 PDF 添加编号](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) 学习如何使用 Aspose.PDF for .NET 为 PDF 文档添加 Bates 编号，以实现文档追踪和管理。|  
 | [如何使用 Aspose 为 PDF 添加水印 – 添加文本覆盖](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) 学习使用 Aspose.PDF for .NET 在 PDF 中添加文本水印的步骤和示例代码。|  
+| [如何使用 Aspose 在 PDF 中添加贝茨编号 – 步骤指南](./how-to-add-bates-numbering-in-pdf-with-aspose-step-by-step-g/) 学习如何使用 Aspose.PDF for .NET 在 PDF 文档中添加贝茨编号，实现文档的唯一标识和追踪。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

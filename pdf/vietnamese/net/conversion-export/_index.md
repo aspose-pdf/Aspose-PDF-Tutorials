@@ -73,6 +73,8 @@ Hướng dẫn chi tiết cách lưu tài liệu PDF thành HTML bằng Aspose.P
 
 ### [Cách lưu HTML từ PDF – Hướng dẫn từng bước](./how-to-save-html-from-pdf-step-by-step-guide/)
 Hướng dẫn chi tiết cách lưu nội dung HTML từ tệp PDF bằng Aspose.PDF cho .NET.
+### [Cách bỏ qua xuất hình ảnh khi chuyển PDF sang HTML – Hướng dẫn C# đầy đủ](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
+Tìm hiểu cách chuyển PDF sang HTML mà không xuất hình ảnh, sử dụng Aspose.PDF cho .NET với C#.
 
 ### [Chuyển đổi PDF sang PNG bằng Aspose.PDF .NET: Cải thiện tính năng gợi ý phông chữ để hiển thị văn bản sắc nét](./convert-pdf-png-aspose-net-font-hinting/)
 Tìm hiểu cách chuyển đổi tài liệu PDF thành hình ảnh PNG chất lượng cao bằng Aspose.PDF .NET, đảm bảo hiển thị văn bản sắc nét thông qua gợi ý phông chữ.

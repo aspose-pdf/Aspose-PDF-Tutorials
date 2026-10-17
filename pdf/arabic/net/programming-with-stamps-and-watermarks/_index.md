@@ -62,6 +62,7 @@
 | [كيفية إضافة ختم PDF – دليل كامل مع ضبط النص تلقائيًا](./how-to-add-stamp-pdf-complete-guide-with-auto-fit-text/) |تعرف على طريقة إضافة ختم إلى ملفات PDF مع ضبط النص تلقائيًا باستخدام Aspose.PDF لـ .NET خطوة بخطوة.|  
 | [دروس ترقيم Bates: إضافة أرقام إلى PDF باستخدام Aspose](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) | تعلم كيفية إضافة ترقيم Bates إلى ملفات PDF باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |
 | [كيفية إضافة علامة مائية إلى PDF – إضافة طبقة نصية إلى PDF باستخدام Aspose](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) |تعرف على كيفية إضافة علامة مائية نصية إلى ملفات PDF باستخدام Aspose.PDF لـ .NET عبر دليل خطوة بخطوة. |
+| [كيفية إضافة ترقيم بياتس في ملف PDF باستخدام Aspose – دليل خطوة بخطوة](./how-to-add-bates-numbering-in-pdf-with-aspose-step-by-step-g/) | تعلم كيفية إضافة ترقيم بياتس إلى مستندات PDF باستخدام Aspose.PDF لـ .NET من خلال دليل شامل خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

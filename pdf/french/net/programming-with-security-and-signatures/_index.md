@@ -65,6 +65,9 @@ Ce tutoriel vous offre un aperçu détaillé des méthodes et techniques permett
 | [Vérifier la signature PDF en C# – Guide complet Aspose.PDF](./verify-pdf-signature-in-c-complete-aspose-pdf-guide/) | Apprenez à vérifier et analyser les signatures PDF en C# avec Aspose.PDF grâce à un guide complet étape par étape. |
 | [Récupérer les signatures PDF en C# – Guide complet de programmation](./retrieve-pdf-signatures-in-c-complete-programming-guide/) | Apprenez à extraire les signatures numériques des fichiers PDF en C# avec Aspose.PDF pour .NET grâce à un guide complet étape par étape. |
 | [Comment vérifier la signature numérique d'un PDF en C# – Guide complet](./how-to-check-pdf-digital-signature-in-c-complete-guide/) | Apprenez à vérifier les signatures numériques d'un PDF en C# avec Aspose.PDF, étape par étape, pour assurer l'authenticité de vos documents. |
+| [Comment valider un PDF avec Aspose : vérifier les signatures numériques](./how-to-validate-pdf-with-aspose-verify-digital-signatures/) | Apprenez à valider les signatures numériques d’un PDF avec Aspose.PDF pour .NET grâce à ce guide étape par étape. |
+| [Obtenir les signatures intégrées PDF en C# – Guide complet](./get-embedded-signatures-pdf-in-c-complete-guide/) | Apprenez à extraire les signatures intégrées d'un PDF en C# avec Aspose.PDF, étape par étape. |
+| [Valider la signature numérique PDF en C# avec Aspose.PDF](./validate-pdf-digital-signature-in-c-with-aspose-pdf/) | Apprenez à valider les signatures numériques d’un PDF en C# avec Aspose.PDF, guide étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

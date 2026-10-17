@@ -65,6 +65,9 @@
 | [Добавить нумерацию Бейтса в PDF – Полное руководство на C# с подписанием и конвертацией](./add-bates-numbering-pdf-complete-c-guide-with-signing-conver/) | Узнайте, как добавить нумерацию Бейтса в PDF, подписать и конвертировать файлы с помощью Aspose.PDF для .NET. Пошаговое руководство. |  
 | [Проверка подписи PDF в C# – Полное руководство Aspose.PDF](./verify-pdf-signature-in-c-complete-aspose-pdf-guide/) | Узнайте, как проверять подписи PDF в C# с помощью Aspose.PDF. Полное пошаговое руководство. |
 | [Проверка цифровой подписи PDF в C# – Полное руководство](./how-to-check-pdf-digital-signature-in-c-complete-guide/) | Узнайте, как проверять цифровую подпись PDF в C# с помощью Aspose.PDF для .NET. Полное пошаговое руководство. |  
+| [Как проверить PDF с помощью Aspose: проверка цифровых подписей](./how-to-validate-pdf-with-aspose-verify-digital-signatures/) | Узнайте, как проверять цифровые подписи в PDF-файлах с помощью Aspose.PDF для .NET. Пошаговое руководство для разработчиков. |  
+| [Получить встроенные подписи PDF в C# – Полное руководство](./get-embedded-signatures-pdf-in-c-complete-guide/) | Узнайте, как извлекать встроенные подписи из PDF-файлов с помощью Aspose.PDF для .NET на C#. Пошаговое руководство. |  
+| [Проверка цифровой подписи PDF в C# с Aspose.PDF](./validate-pdf-digital-signature-in-c-with-aspose-pdf/) | Узнайте, как проверять цифровую подпись PDF в C# с помощью Aspose.PDF. Пошаговое руководство для разработчиков. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

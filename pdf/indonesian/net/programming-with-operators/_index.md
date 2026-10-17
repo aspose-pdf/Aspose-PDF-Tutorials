@@ -24,6 +24,8 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Operator PDF](./pdf-operators/) | Panduan langkah demi langkah untuk menggunakan operator PDF dengan Aspose.PDF untuk .NET. Tambahkan gambar ke halaman PDF dan tentukan posisinya. Bahasa Indonesia:  
 | [Hapus Objek Grafik Dalam File PDF](./remove-graphics-objects/) Pelajari cara menghapus objek grafik dari berkas PDF menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah ini. Sederhanakan tugas manipulasi PDF Anda. |  
 | [Iterasi Koleksi C# – Panduan Sederhana untuk Mengulang Item](./iterate-collection-c-simple-guide-to-loop-over-items/) | Panduan langkah demi langkah untuk mengiterasi koleksi di C# menggunakan loop, membantu memproses setiap item dengan mudah. |
+| [Menambahkan Persegi Panjang ke PDF dengan Aspose.Pdf – Panduan Lengkap C#](./add-rectangle-pdf-with-aspose-pdf-complete-c-guide/) | Panduan langkah demi langkah menambahkan bentuk persegi panjang ke file PDF menggunakan Aspose.Pdf dengan C#. |  
+| [Edit Kamus Sumber Daya PDF dengan Aspose.PDF – Panduan C#](./edit-pdf-resource-dictionary-with-aspose-pdf-c-guide/) | Panduan langkah demi langkah mengedit kamus sumber daya PDF menggunakan Aspose.PDF untuk .NET dengan C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

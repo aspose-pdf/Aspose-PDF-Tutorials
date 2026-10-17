@@ -67,6 +67,9 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Verifikasi Tanda Tangan PDF di C# – Panduan Lengkap Aspose.PDF](./verify-pdf-signature-in-c-complete-aspose-pdf-guide/) | Pelajari cara memverifikasi tanda tangan PDF secara menyeluruh menggunakan Aspose.PDF untuk .NET di C#. Panduan langkah demi langkah lengkap. Bahasa Indonesia:  
 | [Mengambil Tanda Tangan PDF di C# – Panduan Pemrograman Lengkap](./retrieve-pdf-signatures-in-c-complete-programming-guide/) | Pelajari cara mengambil tanda tangan PDF menggunakan Aspose.PDF untuk .NET di C#. Panduan langkah demi langkah lengkap. Bahasa Indonesia:  
 | [Cara Memeriksa Tanda Tangan Digital PDF di C# – Panduan Lengkap](./how-to-check-pdf-digital-signature-in-c-complete-guide/) | Pelajari cara memeriksa tanda tangan digital PDF menggunakan C# dengan Aspose.PDF untuk .NET. Panduan langkah demi langkah lengkap. |
+| [Cara Memvalidasi PDF dengan Aspose: Memverifikasi Tanda Tangan Digital](./how-to-validate-pdf-with-aspose-verify-digital-signatures/) | Pelajari cara memvalidasi PDF dan memverifikasi tanda tangan digital menggunakan Aspose.PDF untuk .NET. |  
+| [Dapatkan Tanda Tangan Tersemat PDF di C# – Panduan Lengkap](./get-embedded-signatures-pdf-in-c-complete-guide/) | Pelajari cara mengekstrak tanda tangan tersemat dalam file PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode C# lengkap. Bahasa Indonesia:  
+| [Validasi Tanda Tangan Digital PDF di C# dengan Aspose.PDF](./validate-pdf-digital-signature-in-c-with-aspose-pdf/) | Pelajari cara memvalidasi tanda tangan digital PDF menggunakan Aspose.PDF untuk .NET di C#.  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -58,6 +58,9 @@
 | [新增 Bates 編號 PDF – 完整 C# 指南（含簽署與轉換）](./add-bates-numbering-pdf-complete-c-guide-with-signing-conver/) |了解如何使用 Aspose.PDF for .NET 在 C# 中為 PDF 添加 Bates 編號、簽署並進行格式轉換的完整步驟。 |
 | [在 C# 中驗證 PDF 簽章 – 完整的 Aspose.PDF 指南](./verify-pdf-signature-in-c-complete-aspose-pdf-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中完整驗證 PDF 簽章的步驟與技巧。 |
 | [在 C# 中檢索 PDF 簽章 – 完整程式設計指南](./retrieve-pdf-signatures-in-c-complete-programming-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中完整檢索 PDF 簽章的步驟與技巧。 |
+| [使用 Aspose 驗證 PDF：驗證數位簽章](./how-to-validate-pdf-with-aspose-verify-digital-signatures/) |了解如何使用 Aspose.PDF for .NET 驗證 PDF 文件的數位簽章，確保文件真實性與完整性。 |
+| [在 C# 中取得嵌入式簽章 PDF – 完整指南](./get-embedded-signatures-pdf-in-c-complete-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中取得嵌入式簽章的 PDF，完整步驟指南。 |
+| [在 C# 中使用 Aspose.PDF 驗證 PDF 數位簽章](./validate-pdf-digital-signature-in-c-with-aspose-pdf/) |了解如何使用 Aspose.PDF for .NET 在 C# 中驗證 PDF 文件的數位簽章，確保文件的真實性與完整性。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

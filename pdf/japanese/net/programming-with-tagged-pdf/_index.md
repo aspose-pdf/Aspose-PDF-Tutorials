@@ -46,6 +46,7 @@ Aspose.PDF for .NET の「タグ付き PDF を使ったプログラミング」�
 | [PDFファイルの検証](./validate-pdf/) Aspose.PDF for .NET を使って PDF ファイルを検証する方法を学びましょう。標準規格への準拠を確認し、検証レポートを生成します。 |  
 | [C# でタグ付き PDF を作成 – Aspose PDF 完全ガイド](./create-tagged-pdf-in-c-aspose-pdf-complete-guide/) Aspose.PDF for .NET を使用して、C# でタグ付き PDF を最初から作成する手順をステップバイステップで解説します。 |  
 | [PDF ドキュメント作成 C# – タグ付きテキストと位置指定の完全ガイド](./create-pdf-document-c-full-guide-with-tagged-text-and-positi/) Aspose.PDF for .NET を使用して、タグ付きテキストと要素の位置指定を含む PDF ドキュメントを C# で作成する完全ステップバイステップガイドです。 |  
+| [C# で PDF ドキュメントを作成 – テキストの位置指定と構造ツリーの追加](./create-pdf-document-c-position-text-and-add-structural-tree/) Aspose.PDF for .NET を使用して、C# でテキストを配置し、構造ツリーを追加して PDF を作成する方法をステップバイステップで解説します。 |  
 | [C# でタグ付き PDF を作成する – 完全ステップバイステップガイド](./create-tagged-pdf-in-c-complete-step-by-step-guide/) Aspose.PDF for .NET を使用して、C# でタグ付き PDF を最初から作成する方法をステップバイステップで解説します。 |  
 | [C# でタグ付き PDF を作成する – ステップバイステップガイド](./create-tagged-pdf-in-c-step-by-step-guide/) Aspose.PDF for .NET を使用して、C# でタグ付き PDF を作成する方法をステップバイステップで解説します。 |  
 | [PDF ドキュメントを作成 – タグ付きテキストの絶対位置を設定](./create-pdf-document-set-absolute-position-for-tagged-text/) Aspose.PDF for .NET を使用して、タグ付きテキストの絶対位置を設定した PDF ドキュメントを作成する方法を学びます。 |  

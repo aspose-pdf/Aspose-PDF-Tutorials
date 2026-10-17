@@ -60,6 +60,7 @@ Aspose.PDF の .NET 向けチュートリアル「スタンプと透かしを使
 | [PDF にスタンプを追加する方法 – 自動フィットテキスト付き完全ガイド](./how-to-add-stamp-pdf-complete-guide-with-auto-fit-text/) Aspose.PDF for .NET を使用して、テキストが自動的にフィットするスタンプを PDF に追加する完全ガイドです。 |  
 | [ベーツ番号付けチュートリアル：AsposeでPDFに番号を追加する](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) Aspose.PDF for .NET を使用して PDF にベーツ番号を付与し、文書の追跡と管理を容易にする方法をステップバイステップで解説します。 |  
 | [PDF に透かしを追加する方法 – Aspose でテキストオーバーレイ PDF を追加](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) Aspose.PDF for .NET を使用し、テキストオーバーレイで PDF に透かしを追加する方法をステップバイステップで紹介します。 |  
+| [Aspose を使用して PDF にベーツ番号を追加する方法 – ステップバイステップ ガイド](./how-to-add-bates-numbering-in-pdf-with-aspose-step-by-step-g/) Aspose.PDF for .NET を使用して PDF にベーツ番号を追加する手順を、ステップバイステップで解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

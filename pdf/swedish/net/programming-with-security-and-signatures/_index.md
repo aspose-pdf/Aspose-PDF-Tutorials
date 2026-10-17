@@ -65,6 +65,9 @@ Handledningen ger dig en detaljerad översikt över metoder och tekniker för at
 | [Hämta PDF-signaturer i C# – Komplett programmeringsguide](./retrieve-pdf-signatures-in-c-complete-programming-guide/) | Lär dig hur du hämtar PDF-signaturer i C# med Aspose.PDF – en komplett steg-för-steg-guide. |
 | [Verifiera PDF-signatur i C# – Komplett Aspose.PDF-guide](./verify-pdf-signature-in-c-complete-aspose-pdf-guide/) | Lär dig hur du verifierar PDF-signaturer i C# med en komplett guide för Aspose.PDF. |
 | [Hur man kontrollerar PDF-digital signatur i C# – Komplett guide](./how-to-check-pdf-digital-signature-in-c-complete-guide/) | Lär dig hur du kontrollerar och verifierar PDF-digitala signaturer i C# med Aspose.PDF för .NET. En komplett steg-för-steg-guide. |
+| [Hur man validerar PDF med Aspose: Verifiera digitala signaturer](./how-to-validate-pdf-with-aspose-verify-digital-signatures/) | Lär dig hur du verifierar digitala signaturer i PDF med Aspose.PDF för .NET i en steg-för-steg-guide. |
+| [Hämta inbäddade signaturer PDF i C# – Komplett guide](./get-embedded-signatures-pdf-in-c-complete-guide/) | Lär dig hur du hämtar inbäddade signaturer från PDF-filer med Aspose.PDF för .NET i C#. |
+| [Validera PDF-digital signatur i C# med Aspose.PDF](./validate-pdf-digital-signature-in-c-with-aspose-pdf/) | Lär dig hur du verifierar digitala signaturer i PDF-filer med Aspose.PDF för .NET i C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

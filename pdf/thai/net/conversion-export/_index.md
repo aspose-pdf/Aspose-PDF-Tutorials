@@ -291,6 +291,8 @@
 ### [Aspose PDF เป็น HTML: คู่มือฉบับสมบูรณ์ในการแปลง PDF และลบรูปภาพ](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
 เรียนรู้วิธีแปลง PDF เป็น HTML และลบรูปภาพโดยใช้ Aspose.PDF .NET อย่างครบถ้วน
 
+### [วิธีข้ามการส่งออกรูปภาพใน PDF ไปเป็น HTML – คู่มือ C# ฉบับสมบูรณ์](./how-to-skip-image-export-in-pdf-to-html-complete-c-guide/)
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)
