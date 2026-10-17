@@ -51,6 +51,7 @@
 برنامج تعليمي لبرمجة Aspose.PDF Net
 
 ### [إضافة الشفافية إلى ملفات PDF باستخدام Aspose PDF في C# – دليل خطوة بخطوة](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+### [كيفية إضافة الشفافية إلى PDF باستخدام Aspose.PDF في C#](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
 ### [كيفية إضافة شكل إلى ملف PDF باستخدام Aspose.PDF في C# – دليل خطوة بخطوة](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 تعلم كيفية إضافة شكل إلى ملف PDF باستخدام Aspose.PDF في C# خطوة بخطوة
 

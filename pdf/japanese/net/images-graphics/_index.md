@@ -59,6 +59,9 @@ Aspose.PDF Net のコードチュートリアル
 ### [C# で Aspose.PDF .NET を使用して PDF に透明度を追加する: ステップバイステップ ガイド](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Aspose.PDF .NET を使い、C# で PDF の要素に透明効果を適用する方法を段階的に解説します。
 
+### [C# で Aspose.PDF を使用して PDF に透明度を追加する方法](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
+Aspose.PDF を使い、C# で PDF に透明効果を追加する手順を解説します。
+
 ### [Aspose.PDF for .NET による効率的な PDF 画像識別](./master-image-identification-aspose-pdf-net/)
 Aspose.PDF for .NET を使用して、PDF 内のグレースケール画像と RGB 画像を識別する方法を学びます。このチュートリアルでは、インストール、画像の抽出、パフォーマンスに関するヒントを紹介します。
 
@@ -129,7 +132,7 @@ Aspose.PDF for .NET を使用して、PDF ファイルから画像を効率的�
 Aspose.PDF for .NET を使用してPDFファイルから画像を削除する方法を学びましょう。この包括的なガイドでは、セットアップ、実装、そして実用的なアプリケーションを網羅しています。
 
 ### [Aspose.PDF for .NET を使用して PDF から画像を削除する方法: 包括的なガイド](./delete-images-from-pdf-aspose-dotnet/)
-Aspose.PDF for .NET を使用してPDFからすべての画像を効率的に削除し、ファイルのプライバシーを強化しながらサイズを削減する方法を学びましょう。このステップバイステップガイドに従ってください。
+Aspose.PDF for .NET を使用してPDFからすべての画像を効率的に削除し、ファイルのプライバシーを強化しながらサイズを縮小する方法を学びましょう。このステップバイステップガイドに従ってください。
 
 ### [Aspose.PDF for .NET を使用して PDF ページの色を検出する方法: 包括的なガイド](./detect-pdf-page-color-aspose-dotnet/)
 Aspose.PDF for .NET を使用して、PDF の各ページのカラータイプを特定する方法を学びます。このステップバイステップのチュートリアルでは、インストール、セットアップ、そして実践的な応用方法を解説します。
