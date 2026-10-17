@@ -1,0 +1,46 @@
+//ExStart
+//ExSummary: यह ट्यूटोरियल दिखाता है कि Aspose.Pdf के साथ मौजूदा PDF को कैसे खोलें, अनुमतियों को इस प्रकार सीमित करें कि केवल फ़ॉर्म भरना ही अनुमति हो, इसे व्यूअर और ओनर पासवर्ड का उपयोग करके AES‑256 से एन्क्रिप्ट करें, और सुरक्षित फ़ाइल को सहेजें।
+//ExStepSummary:0: स्रोत और गंतव्य फ़ाइल पथ तथा व्यूअर और ओनर पासवर्ड निर्धारित करें।
+//ExStepSummary:1: जाँचें कि स्रोत PDF मौजूद है या नहीं, और यदि नहीं है तो त्रुटि संदेश के साथ प्रक्रिया रोक दें।
+//ExStepSummary:2: प्रोसेसिंग के दौरान उत्पन्न हो सकने वाली किसी भी त्रुटि को संभालने के लिए एक try ब्लॉक शुरू करें।
+//ExStepSummary:3: एक Document ऑब्जेक्ट जिसका नाम pdfDoc है, बनाकर मौजूदा PDF फ़ाइल खोलें।
+//ExStepSummary:4: अनुमतियों को केवल फ़ॉर्म भरने की अनुमति देने के लिए सेट करें, दस्तावेज़ को व्यूअर और ओनर पासवर्ड का उपयोग करके AES‑256 से एन्क्रिप्ट करें, और सुरक्षित PDF को सहेजें।
+//ExStepSummary:5: कंसोल पर एक पुष्टि संदेश लिखें और try ब्लॉक को बंद करें।
+//ExStepSummary:6: किसी भी अपवाद को पकड़ें और त्रुटि संदेश को कंसोल पर आउटपुट करें।
+//ExStep:0-
+        const string sourceFile = "sample.pdf";
+        const string destFile = "protected.pdf";
+        const string viewerPass = "viewerPass";
+        const string adminPass = "adminPass";
+
+//ExStep:1-
+        if (!File.Exists(sourceFile))
+        {
+            Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+            return;
+        }
+
+//ExStep:2-
+        try
+        {
+
+//ExStep:3-
+            using (Document pdfDoc = new Document(sourceFile))
+
+//ExStep:4-
+            {
+                Permissions allowed = Permissions.FillForm;
+                pdfDoc.Encrypt(viewerPass, adminPass, allowed, CryptoAlgorithm.AESx256);
+                pdfDoc.Save(destFile);
+            }
+
+//ExStep:5-
+            Console.WriteLine($"Secure PDF written to '{destFile}'.");
+        }
+
+//ExStep:6-
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Exception occurred: {ex.Message}");
+        }
+//ExEnd

@@ -10,7 +10,7 @@ url: /zh/java/conversion-export/convert-pdf-to-emf-aspose-java/
 weight: 1
 ---
 
- content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

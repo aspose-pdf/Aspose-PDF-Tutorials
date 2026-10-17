@@ -12,21 +12,13 @@ url: /hu/java/attachments-embedded-files/extract-files-pdf-portfolio-aspose-java
 weight: 1
 ---
 
- output the same structure, with translated Hungarian text.
 
-We need to translate:
 
-- Title: "How to Extract Embedded Files from a PDF Portfolio Using Aspose.PDF Java" => "Hogyan lehet beágyazott fájlokat kinyerni egy PDF portfólióból az Aspose.PDF Java segítségével"
 
-- Introduction etc.
 
-We must keep code block placeholders unchanged.
 
-Also translate table content.
 
-Make sure to keep markdown formatting.
 
-Let's produce.
 
 {{< blocks/products/pf/main-wrap-class >}}
 

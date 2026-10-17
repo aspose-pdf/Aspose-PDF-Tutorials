@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: يوضح هذا البرنامج التعليمي كيفية استخدام Aspose.Pdf لمقارنة ملفين PDF يحتويان على حقول نماذج، مع تقييم قيم الحقول تلقائيًا، ثم إنشاء كل من تقرير JSON للفرق وملف PDF بصري يُظهر الفروق جنبًا إلى جنب.
+//ExStepSummary:0: عرّف مسارات الملفات للـ PDF الأصلي، والـ PDF المحدث، وملف PDF للفروق جنبًا إلى جنب، وتقرير الفرق بصيغة JSON.
+//ExStepSummary:1: تحقق من وجود ملفي PDF المصدر، وأوقف البرنامج مع رسالة خطأ إذا كان أي منهما مفقودًا.
+//ExStepSummary:2: حمّل ملفات PDF الأصلية والمحدثة في كائنات `Document` داخل كتل `using` الحتمية.
+//ExStepSummary:3: أنشئ مثيلًا من `ComparisonOptions` يحتوي على الإعدادات الافتراضية للمقارنة.
+//ExStepSummary:4: قم بإجراء مقارنة نصية صفحةً بصفحة بين ملفي PDF واحفظ عمليات الفرق الناتجة.
+//ExStepSummary:5: أنشئ ملف JSON يوضح الفروق واكتب رسالة تأكيد إلى وحدة التحكم.
+//ExStepSummary:6: أنشئ خيارات مقارنة جنبًا إلى جنب، وأنشئ ملف PDF بصري يُظهر التغييرات، وسجّل مسار ملف الإخراج.
+//ExStep:0-
+const string sourcePdf = "base_document.pdf";
+const string updatedPdf = "altered_document.pdf";
+const string sideBySidePdf = "diff_visual.pdf";
+const string jsonReportPath = "diff_report.json";
+
+//ExStep:1-
+if (!File.Exists(sourcePdf) || !File.Exists(updatedPdf))
+{
+    Console.Error.WriteLine("Required PDF files were not found.");
+    return;
+}
+
+//ExStep:2-
+using (Document firstDoc = new Document(sourcePdf))
+using (Document secondDoc = new Document(updatedPdf))
+{
+
+//ExStep:3-
+ComparisonOptions compareOpts = new ComparisonOptions();
+
+//ExStep:4-
+List<List<DiffOperation>> pageDiffs = TextPdfComparer.CompareDocumentsPageByPage(firstDoc, secondDoc, compareOpts);
+
+//ExStep:5-
+JsonDiffOutputGenerator jsonWriter = new JsonDiffOutputGenerator();
+jsonWriter.GenerateOutput(pageDiffs, jsonReportPath);
+Console.WriteLine($"JSON comparison saved to '{jsonReportPath}'.");
+
+//ExStep:6-
+SideBySideComparisonOptions sideBySideOpts = new SideBySideComparisonOptions();
+SideBySidePdfComparer.Compare(firstDoc, secondDoc, sideBySidePdf, sideBySideOpts);
+Console.WriteLine($"Side‑by‑side diff PDF saved to '{sideBySidePdf}'.");
+}
+//ExEnd

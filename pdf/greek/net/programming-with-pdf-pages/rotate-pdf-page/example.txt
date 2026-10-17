@@ -1,0 +1,11 @@
+//ExStart
+//ExSummary: Αυτό το σεμινάριο δείχνει πώς να περιστρέψετε τη τρίτη σελίδα ενός εγγράφου PDF κατά 180 μοίρες χρησιμοποιώντας τις δυνατότητες περιστροφής σελίδων του PDF SDK.
+//ExStepSummary:0: Το αρχείο περιέχει μόνο επεξηγηματικά σχόλια και κανέναν εκτελέσιμο κώδικα, λειτουργώντας ως σύμβολο κράτησης για το αρχικό παράδειγμα.
+//ExStep:0-
+// Placeholder for the original example URL.
+// Demonstrates rotating the third page of a PDF by 180 degrees.
+// The functional implementation has been moved to a different repository.
+// This file preserves the original link for legacy references.
+
+        // No operational code required for this placeholder.
+//ExEnd

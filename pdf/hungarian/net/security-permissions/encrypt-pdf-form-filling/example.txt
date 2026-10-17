@@ -1,0 +1,46 @@
+//ExStart
+//ExSummary: Ez a bemutató azt mutatja be, hogyan nyithat meg egy meglévő PDF-et az Aspose.Pdf segítségével, korlátozhatja a jogosultságokat úgy, hogy csak űrlapkitöltés engedélyezett, titkosíthatja a fájlt a megjelenítő- és tulajdonosjelszavakkal AES‑256 használatával, és mentheti a védett fájlt.
+//ExStepSummary:0: Adja meg a forrás- és célfájl útvonalát, valamint a megjelenítő- és tulajdonosjelszavakat.
+//ExStepSummary:1: Ellenőrizze, hogy a forrás PDF létezik-e, és ha nem, hibajelzéssel szakítsa meg a folyamatot.
+//ExStepSummary:2: Indítson egy try blokkot a feldolgozás során előforduló esetleges hibák kezelésére.
+//ExStepSummary:3: Nyissa meg a meglévő PDF-fájlt egy pdfDoc nevű Document objektum létrehozásával.
+//ExStepSummary:4: Állítsa be a jogosultságokat úgy, hogy csak űrlapkitöltés legyen engedélyezett, titkosítsa a dokumentumot a megjelenítő- és tulajdonosjelszavakkal AES‑256 használatával, és mentse a védett PDF-et.
+//ExStepSummary:5: Írjon egy megerősítő üzenetet a konzolra, majd zárja le a try blokkot.
+//ExStepSummary:6: Fogjon el minden kivételt, és írja ki a hibaüzenetet a konzolra.
+//ExStep:0-
+        const string sourceFile = "sample.pdf";
+        const string destFile = "protected.pdf";
+        const string viewerPass = "viewerPass";
+        const string adminPass = "adminPass";
+
+//ExStep:1-
+        if (!File.Exists(sourceFile))
+        {
+            Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+            return;
+        }
+
+//ExStep:2-
+        try
+        {
+
+//ExStep:3-
+            using (Document pdfDoc = new Document(sourceFile))
+
+//ExStep:4-
+            {
+                Permissions allowed = Permissions.FillForm;
+                pdfDoc.Encrypt(viewerPass, adminPass, allowed, CryptoAlgorithm.AESx256);
+                pdfDoc.Save(destFile);
+            }
+
+//ExStep:5-
+            Console.WriteLine($"Secure PDF written to '{destFile}'.");
+        }
+
+//ExStep:6-
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Exception occurred: {ex.Message}");
+        }
+//ExEnd

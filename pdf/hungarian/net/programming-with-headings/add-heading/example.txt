@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Ez a bemutató azt mutatja be, hogyan lehet PDF dokumentumot létrehozni, beállítani az alapértelmezett nyelvet és a címet, valamint szint‑1 fejlécet beszúrni a Document, ITaggedContent, StructureElement és HeaderElement osztályok használatával.
+//ExStepSummary:0: Határozza meg a kimeneti fájl nevét a létrehozott PDF-hez.
+//ExStepSummary:1: Hozzon létre egy új üres PDF dokumentum példányt (`pdfDoc`) egy `using` blokkban.
+//ExStepSummary:2: Szerezze meg az `ITaggedContent` interfészt a címkézett PDF struktúrákkal való munkához.
+//ExStepSummary:3: Állítsa be a dokumentum alapértelmezett nyelvét angolra (US), és adjon meg egy cím metaadatot.
+//ExStepSummary:4: Szerezze meg a logikai struktúrafák gyökérelemét.
+//ExStepSummary:5: Hozzon létre egy szint‑1 fejléc elemet, állítsa be a megjelenített szövegét, és adja meg a nyelvét.
+//ExStepSummary:6: Fűzze hozzá a fejléc elemet a gyökérhez, így a fejléc megjelenik a PDF-ben.
+//ExStepSummary:7: Mentse a PDF-et a megadott fájlba, és zárja le a dokumentum hatókörét.
+//ExStepSummary:8: Írjon ki egy megerősítő üzenetet a konzolra.
+//ExStepImage:6:images/1.png
+//ExStep:0-
+const string resultFile = "pdf_with_title.pdf";
+
+//ExStep:1-
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:2-
+ITaggedContent tagContent = pdfDoc.TaggedContent;
+
+//ExStep:3-
+tagContent.SetLanguage("en-US");
+tagContent.SetTitle("PDF Example with Header");
+
+//ExStep:4-
+StructureElement rootElement = tagContent.RootElement;
+
+//ExStep:5-
+HeaderElement header = tagContent.CreateHeaderElement(1);
+header.SetText("Demo Header");
+header.Language = "en-US";
+
+//ExStep:6-
+rootElement.AppendChild(header);
+
+//ExStep:7-
+pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"PDF generated and stored at '{resultFile}'.");
+//ExEnd

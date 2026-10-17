@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Questo tutorial dimostra come creare un documento PDF, impostare la lingua predefinita e il titolo, e inserire un'intestazione di livello 1 utilizzando le classi Document, ITaggedContent, StructureElement e HeaderElement.
+//ExStepSummary:0: Definisci il nome del file di output per il PDF generato.
+//ExStepSummary:1: Crea una nuova istanza vuota di documento PDF (`pdfDoc`) all'interno di un blocco `using`.
+//ExStepSummary:2: Ottieni l'interfaccia `ITaggedContent` per lavorare con le strutture PDF taggate.
+//ExStepSummary:3: Imposta la lingua predefinita del documento su English (US) e assegna un metadato di titolo.
+//ExStepSummary:4: Recupera l'elemento radice dell'albero della struttura logica.
+//ExStepSummary:5: Crea un elemento di intestazione di livello 1, imposta il testo visualizzato e specifica la sua lingua.
+//ExStepSummary:6: Aggiungi l'elemento di intestazione alla radice, facendo apparire il titolo nel PDF.
+//ExStepSummary:7: Salva il PDF nel file specificato e chiudi lo scope del documento.
+//ExStepSummary:8: Stampa un messaggio di conferma sulla console.
+//ExStepImage:6:images/1.png
+//ExStep:0-
+const string resultFile = "pdf_with_title.pdf";
+
+//ExStep:1-
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:2-
+ITaggedContent tagContent = pdfDoc.TaggedContent;
+
+//ExStep:3-
+tagContent.SetLanguage("en-US");
+tagContent.SetTitle("PDF Example with Header");
+
+//ExStep:4-
+StructureElement rootElement = tagContent.RootElement;
+
+//ExStep:5-
+HeaderElement header = tagContent.CreateHeaderElement(1);
+header.SetText("Demo Header");
+header.Language = "en-US";
+
+//ExStep:6-
+rootElement.AppendChild(header);
+
+//ExStep:7-
+pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"PDF generated and stored at '{resultFile}'.");
+//ExEnd
