@@ -349,6 +349,8 @@ Lär dig hur du plattar till PDF-lager och exporterar eller extraherar dem med A
 Lär dig hur du visuellt jämför två PDF-filer i C# med Aspose.PDF och identifierar skillnader enkelt.
 ### [Hur du reparerar PDF-filer med Aspose.PDF – En komplett guide](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
 Lär dig steg-för-steg hur du reparerar skadade PDF-filer med Aspose.PDF för .NET och återställer deras integritet.
+### [Spara uppdaterad PDF – Redigera PDF-resurser med Aspose.Pdf](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+Lär dig hur du sparar ändrade PDF-filer efter redigering av resurser med Aspose.Pdf för .NET.
 
 ## Ytterligare resurser
 

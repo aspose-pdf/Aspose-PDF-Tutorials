@@ -258,6 +258,8 @@ Ismerje meg, hogyan kezelheti programozottan a PDF-eket .NET-ben az Aspose.PDF h
 Ismerje meg, hogyan automatizálhatja a PDF-feladatokat az Aspose.PDF for .NET használatával, beleértve a fájlok összefűzését, oldalak hozzáadását, szövegbélyegzők beszúrását és hivatkozások létrehozását.
 
 ### [PDF-manipuláció mestere az Aspose.PDF .NET segítségével: Dokumentumok egyszerű betöltése és módosítása](./mastering-pdf-manipulation-aspose-dotnet/)
+Tanuld meg, hogyan töltheted be, navigálhatsz és módosíthatsz PDF dokumentumokat a hatékony Aspose.PDF .NET könyvtár segítségével. Fejleszd alkalmazásaid még ma!
+
 ### [PDF-manipuláció mestere az Aspose.PDF .NET segítségével: Betöltési, keresési és jegyzetelési útmutató](./aspose-pdf-dotnet-mastering-pdfs-manipulation-guide/)
 Tanuld meg elsajátítani a PDF-manipulációt az Aspose.PDF for .NET segítségével. Ez az útmutató a dokumentumok betöltését, a szövegkeresést és az olyan megjegyzéseket alkalmazását ismerteti, mint az áthúzás.
 
@@ -330,6 +332,9 @@ Tanuld meg, hogyan oszthatsz fel többoldalas PDF fájlokat és hogyan hozhatsz 
 Ismerje meg, hogyan távolíthatja el vagy takarhatja el a PDF dokumentumok érzékeny részeit C#-ban az Aspose PDF használatával.
 ### [PDF-fájlok javítása Aspose.PDF segítségével – Teljes útmutató](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
 Ismerje meg, hogyan javíthatja a hibás PDF-fájlokat az Aspose.PDF segítségével ebben a teljes körű útmutatóban.
+
+### [Frissített PDF mentése – PDF erőforrások szerkesztése az Aspose.PDF segítségével](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+Tanulja meg, hogyan mentheted el a módosított PDF-et és szerkesztheted a PDF erőforrásokat az Aspose.PDF .NET könyvtárral.
 
 ## További források
 

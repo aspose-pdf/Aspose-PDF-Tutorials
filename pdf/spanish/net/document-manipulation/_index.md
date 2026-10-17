@@ -92,7 +92,7 @@ Aprenda a optimizar archivos PDF eliminando objetos no utilizados con Aspose.PDF
 ### [Manipulación eficiente de páginas PDF con Aspose.PDF para .NET: Guía para desarrolladores](./manipulate-pdf-pages-aspose-dot-net/)
 Aprenda a manipular páginas PDF de forma eficiente con Aspose.PDF para .NET. Esta guía explica cómo rotar, ampliar y configurar orígenes sin Adobe Acrobat.
 
-### [Combine páginas PDF de forma eficiente con Aspose.PDF para .NET: Guía del método N-Up](./combine-pdf-pages-aspose-net-nup-method/)
+### [Combine páginas PDF de forma eficiente con el método N-Up](./combine-pdf-pages-aspose-net-nup-method/)
 Aprenda a combinar páginas PDF eficientemente con el método N-Up de Aspose.PDF para .NET. Esta guía abarca la configuración, la implementación y las aplicaciones prácticas.
 
 ### [Elimine páginas de archivos PDF de forma eficiente con Aspose.PDF para .NET](./delete-pages-pdf-aspose-dotnet/)
@@ -351,6 +351,9 @@ Aprenda a eliminar fuentes incrustadas de archivos PDF usando Aspose.PDF para .N
 
 ### [Cómo reparar archivos PDF con Aspose.PDF – Guía completa](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
 Aprenda a reparar archivos PDF dañados o corruptos usando Aspose.PDF con esta guía paso a paso.
+
+### [Guardar PDF actualizado – Editar recursos PDF con Aspose.PDF](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+Aprenda a guardar un PDF actualizado después de editar sus recursos usando Aspose.PDF para .NET.
 
 ## Recursos adicionales
 

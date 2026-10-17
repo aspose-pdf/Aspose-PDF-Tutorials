@@ -347,6 +347,9 @@ Apprenez à aplatir les couches d'un PDF pour simplifier le fichier et améliore
 
 ### [Différence visuelle de PDF en C# – Guide complet pour comparer deux PDF](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
 
+### [Enregistrer le PDF mis à jour – Modifier les ressources PDF avec Aspose.PDF](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+Apprenez à enregistrer un PDF modifié après avoir édité ses ressources avec Aspose.PDF pour .NET.
+
 ## Ressources supplémentaires
 
 - [Aspose.PDF pour la documentation réseau](https://docs.aspose.com/pdf/net/)

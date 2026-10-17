@@ -304,6 +304,8 @@ Naučte se, jak pomocí Aspose.PDF pro .NET v C# odstranit vložená písma z PD
 Naučte se, jak sloučit vrstvy PDF souborů pomocí Aspose.PDF pro .NET v jazyce C#.
 ### [Jak opravit PDF soubory pomocí Aspose.PDF – Kompletní průvodce](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
 Naučte se, jak opravit poškozené PDF soubory pomocí Aspose.PDF v tomto podrobném průvodci.
+### [Uložení aktualizovaného PDF – úprava PDF zdrojů pomocí Aspose.PDF](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+Naučte se, jak uložit změny v PDF a upravit jeho zdroje pomocí Aspose.PDF.
 
 ## Další zdroje
 

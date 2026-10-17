@@ -349,6 +349,9 @@ Aspose.PDF for .NET을 사용하여 PDF 레이어를 병합하고 결합하는 �
 ### [Aspose.Pdf로 PDF 파일 복구하는 방법 – 완전 가이드](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
 Aspose.Pdf를 사용하여 손상된 PDF 파일을 복구하고 오류를 해결하는 단계별 완전 가이드.
 
+### [업데이트된 PDF 저장 – Aspose.Pdf로 PDF 리소스 편집](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+Aspose.PDF를 사용해 수정된 PDF를 저장하고 PDF 리소스를 편집하는 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 
 - [Net 문서용 Aspose.PDF](https://docs.aspose.com/pdf/net/)

@@ -342,6 +342,7 @@
 تعرف على طريقة دمج طبقات ملفات PDF باستخدام C# ومكتبة Aspose.PDF لتحقيق مستند موحد ومتعدد الطبقات.
 ### [كيفية إصلاح ملفات PDF باستخدام Aspose.Pdf – دليل شامل](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
 تعرف على خطوات إصلاح ملفات PDF التالفة باستخدام Aspose.Pdf في دليل شامل يغطي جميع الجوانب العملية.
+### [حفظ ملف PDF محدث – تحرير موارد PDF باستخدام Aspose.Pdf](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
 
 ## موارد إضافية
 

@@ -347,6 +347,8 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET visuelle Unterschiede zwischen zw
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Layer in C# zusammenführen und mehrere Ebenen zu einem Dokument kombinieren.
 ### [Wie man PDF-Dateien mit Aspose.Pdf repariert – Vollständige Anleitung](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
 Erfahren Sie, wie Sie beschädigte PDF-Dateien mit Aspose.Pdf reparieren und wiederherstellen – Schritt-für-Schritt-Anleitung.
+### [Aktualisiertes PDF speichern – PDF-Ressourcen mit Aspose.Pdf bearbeiten](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+Erfahren Sie, wie Sie ein geändertes PDF speichern und PDF-Ressourcen mit Aspose.Pdf effizient bearbeiten.
 
 ## Weitere Ressourcen
 

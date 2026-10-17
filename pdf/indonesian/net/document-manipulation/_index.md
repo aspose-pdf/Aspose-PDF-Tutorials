@@ -327,6 +327,8 @@ Pelajari cara menguasai manipulasi PDF menggunakan Aspose.PDF untuk .NET. Pandua
 Pelajari cara menyensor PDF dengan menyembunyikan teks dan menghapus konten secara programatis menggunakan Aspose.PDF untuk .NET.
 ### [Menggabungkan Lapisan PDF di C# – Cara Menggabungkan Lapisan PDF](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
 Pelajari cara menggabungkan beberapa lapisan dalam file PDF menggunakan Aspose.PDF untuk .NET dengan C#.
+### [Simpan PDF yang Diperbarui – Edit Sumber Daya PDF dengan Aspose.Pdf](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+Pelajari cara menyimpan PDF yang telah diperbarui setelah mengedit sumber daya PDF menggunakan Aspose.Pdf.
 
 ## Sumber Daya Tambahan
 

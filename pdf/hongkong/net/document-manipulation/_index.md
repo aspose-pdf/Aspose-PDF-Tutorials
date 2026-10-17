@@ -346,6 +346,7 @@ Aspose.PDF Net 程式碼教學
 
 ### [使用 Aspose.PDF 修復 PDF 檔案 – 完整指南](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
 了解如何使用 Aspose.PDF 修復受損或錯誤的 PDF 檔案，提供完整步驟與範例程式碼。
+### [儲存已更新的 PDF – 使用 Aspose.Pdf 編輯 PDF 資源](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
 
 ## 其他資源
 

@@ -351,6 +351,8 @@ Aspose.PDF Net 代码教程
 了解如何使用 Aspose.PDF for .NET 在 C# 中合并 PDF 图层，实现图层的组合。
 ### [使用 Aspose.PDF 修复 PDF 文件 – 完整指南](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
 了解如何使用 Aspose.PDF for .NET 修复损坏的 PDF 文件，包括检测错误、修复结构并保存有效文档的完整步骤。
+### [保存已更新的 PDF – 使用 Aspose.Pdf 编辑 PDF 资源](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+了解如何使用 Aspose.Pdf 在 .NET 中保存已编辑的 PDF 并管理相关资源。
 
 ## 其他资源
 
