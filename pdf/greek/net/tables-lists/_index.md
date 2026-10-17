@@ -17,6 +17,8 @@
 
 ## Διαθέσιμα εκπαιδευτικά βίντεο
 
+
+{{< tutorial-card link="./style-table-cells/" title="Προσαρμόστε το φόντο, τα περιγράμματα και το padding των κελιών πίνακα σε PDF με το Aspose.Pdf for .NET" imgSrc="./style-table-cells/images/thumb.png" >}}
 ### [Προσθήκη λίστας με ταξινόμηση HTML σε PDF με το Aspose.PDF .NET](./add-html-ordered-list-pdf-aspose-net/)
 Ένα σεμινάριο κώδικα για το Aspose.PDF Net
 

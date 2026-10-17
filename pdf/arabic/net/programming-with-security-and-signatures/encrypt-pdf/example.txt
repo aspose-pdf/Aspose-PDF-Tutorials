@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: يوضح هذا البرنامج التعليمي كيفية تحميل ملف PDF موجود باستخدام Aspose.Pdf، وتقييد أذوناته، وتشفيره باستخدام كل من كلمة مرور المستخدم (العميل) وكلمة مرور المالك (المسؤول) بخوارزمية AES‑256، ثم حفظ المستند المحمي.
+//ExStepSummary:0: أعلن عن مسارات ملفات المصدر والوجهة وكلمات مرور المستخدم (العميل) والمالك (المسؤول).
+//ExStepSummary:1: تحقق من وجود ملف PDF المصدر وأوقف العملية مع رسالة خطأ إذا لم يكن موجودًا.
+//ExStepSummary:2: افتح ملف PDF، واسمح فقط بتعديل المحتوى واستخراجه، وشفره باستخدام كلمة المرورين عبر AES‑256، ثم احفظ الملف المحمي وعرض رسالة نجاح.
+//ExStepSummary:3: التقط أي أخطاء تحدث واكتب رسالة الاستثناء إلى وحدة التحكم الخاصة بالأخطاء.
+//ExStep:0-
+const string sourceFile = "original.pdf";
+const string destinationFile = "protected.pdf";
+const string clientPwd = "clientPwd";
+const string adminPwd = "adminPwd";
+
+//ExStep:1-
+if (!File.Exists(sourceFile))
+{
+    Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+    return;
+}
+
+//ExStep:2-
+try
+{
+    using (Document pdfDoc = new Document(sourceFile))
+    {
+        Permissions allowedPerms = Permissions.ModifyContent | Permissions.ExtractContent;
+
+        pdfDoc.Encrypt(clientPwd, adminPwd, allowedPerms, CryptoAlgorithm.AESx256);
+
+        pdfDoc.Save(destinationFile);
+    }
+
+    Console.WriteLine($"Secured PDF written to '{destinationFile}'.");
+}
+
+//ExStep:3-
+catch (Exception ex)
+{
+    Console.Error.WriteLine($"Failure: {ex.Message}");
+}
+//ExEnd

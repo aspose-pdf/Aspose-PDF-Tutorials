@@ -1,14 +1,63 @@
 ---
-date: '2025-12-09'
-description: Naučte se, jak označovat PDF soubory v Javě pomocí Aspose.PDF. Tento
-  tutoriál ukazuje, jak generovat přístupný PDF, přidat odstavec v PDF pomocí Javy
-  a aplikovat označování přístupnosti PDF.
+date: '2026-06-17'
+description: Zjistěte, jak vytvořit přístupný PDF v Javě pomocí Aspose.PDF. Tento
+  tutoriál pokrývá přidání odstavce PDF Java, značkování přístupnosti PDF a generování
+  plně označených PDF souborů.
 keywords:
-- tagged PDFs in Java
-- Aspose.PDF for Java
-- accessible PDF creation
-title: 'Jak označit PDF v Javě pomocí Aspose.PDF: Kompletní průvodce pro přístupnost
-  a strukturování'
+- create accessible pdf java
+- add paragraph pdf java
+- aspose pdf java tutorial
+schemas:
+- author: Aspose
+  dateModified: '2026-06-17'
+  description: Learn how to create accessible PDF in Java using Aspose.PDF. This tutorial
+    covers add paragraph PDF Java, PDF accessibility tagging, and generating fully
+    tagged PDFs.
+  headline: Create Accessible PDF in Java with Aspose.PDF Tagging Guide
+  type: TechArticle
+- description: Learn how to create accessible PDF in Java using Aspose.PDF. This tutorial
+    covers add paragraph PDF Java, PDF accessibility tagging, and generating fully
+    tagged PDFs.
+  name: Create Accessible PDF in Java with Aspose.PDF Tagging Guide
+  steps:
+  - name: '**Initialize the Aspose.PDF Document:**'
+    text: '**Initialize the Aspose.PDF Document:**'
+  - name: '**Set Title and Language:**'
+    text: '**Set Title and Language:**'
+  - name: '**Save the Document:**'
+    text: '**Save the Document:**'
+  - name: '**Create Document and Tagged Content:**'
+    text: '**Create Document and Tagged Content:**'
+  - name: '**Append Paragraph and Span Elements:**'
+    text: '**Append Paragraph and Span Elements:**'
+  - name: '**Save Your Document:**'
+    text: '**Save Your Document:**'
+  - name: '**Initialize Document Structure:**'
+    text: '**Initialize Document Structure:**'
+  - name: '**Create and Nest Span Elements:**'
+    text: '**Create and Nest Span Elements:**'
+  - name: '**Save the Document:**'
+    text: '**Save the Document:**'
+  type: HowTo
+- questions:
+  - answer: Set the document title, language, and proper tagging (paragraphs, spans,
+      headings). Then run the PDF through an accessibility checker like PAC 3 to validate
+      compliance.
+    question: How do I ensure my PDFs meet WCAG 2.1 accessibility standards?
+  - answer: Yes. Load the PDF, retrieve its `ITaggedContent` via `document.getTaggedContent()`,
+      add missing tags programmatically, and save the updated file.
+    question: Can I tag existing PDFs that were created without tags?
+  - answer: Absolutely. Assign the appropriate language code (e.g., `ar-SA`) and add
+      Unicode text to spans; the library handles bidirectional rendering automatically.
+    question: Does Aspose.PDF support right‑to‑left scripts such as Arabic or Hebrew?
+  - answer: Process the document in logical sections, use `document.optimizeResources()`,
+      and consider streaming the output to a file to keep memory usage low.
+    question: What is the best approach for very large documents (hundreds of pages)?
+  - answer: You can export the structure tree with `document.getTaggedContent().getRootElement()`
+      and inspect it programmatically or with PDF analysis tools.
+    question: Is there a way to validate the tag hierarchy after creation?
+  type: FAQPage
+title: Vytvořte přístupný PDF v Javě s průvodcem značkováním Aspose.PDF
 url: /cs/java/advanced-features/master-tagged-pdfs-java-aspose-pdf-guide/
 weight: 1
 ---
@@ -21,38 +70,28 @@ weight: 1
 # Jak označit PDF v Javě pomocí Aspose.PDF: Kompletní průvodce pro přístupnost a strukturování
 
 ## Úvod
-Vytváření přístupných PDF dokumentů a učení se **how to tag PDF** souborům je zásadní pro uživatele, kteří spoléhají na čtečky obrazovky a další asistenční technologie. Zajistit, aby vaše PDF byly jak přístupné, tak dobře strukturované, může být náročné, ale Aspose.PDF pro Java proces zjednodušuje tím, že umožňuje nastavit titulky, jazyky a strukturovaný obsah přímo v PDF.
-
-V tomto tutoriálu prozkoumáme, jak využít knihovnu Aspose.PDF k vytvoření označených PDF dokumentů v Javě. Naučíte se, jak:
-- Nastavit titulky a jazykové atributy pro PDF soubory.
-- Přidat prvky odstavců a span pro vylepšení struktury dokumentu.
-- Vnořit span prvky do odstavců pro složitější rozvržení.
-
-Ponořme se do nastavení vašeho prostředí a implementace těchto funkcí!
+Vytváření **přístupných PDF** dokumentů a učení se **jak označovat PDF** soubory je zásadní pro uživatele, kteří spoléhají na čtečky obrazovky a další asistenční technologie. Pomocí Aspose.PDF pro Java můžete programově nastavit názvy, jazyky a strukturovaný obsah, čímž proměníte obyčejný PDF soubor na plně označený, standardy splňující soubor. Tento tutoriál vám ukáže, jak **vytvořit přístupné PDF Java** projekty krok za krokem, zahrnující metadata názvu a jazyka, označování odstavců a spanů a vnořování spanů pro složité rozvržení.
 
 ### Rychlé odpovědi
 - **Co je označování PDF pro přístupnost?** Jedná se o proces přidání logické struktury (tagů) do PDF, aby čtečky obrazovky mohly obsah správně interpretovat.  
-- **Proč použít Aspose.PDF pro označování?** Poskytuje plynulé API pro vytváření, úpravu a označování PDF bez potřeby Adobe Acrobat.  
+- **Proč používat Aspose.PDF pro označování?** Poskytuje plynulé API pro vytváření, úpravu a označování PDF bez potřeby Adobe Acrobat.  
 - **Jak dlouho trvá základní implementace?** Přibližně 10–15 minut pro jednoduchý dokument.  
 - **Potřebuji licenci?** Zkušební verze funguje pro hodnocení, ale licence je vyžadována pro produkční použití.  
 - **Které verze Javy jsou podporovány?** Java 8 a novější (včetně Java 11, 17 a 21).
 
-### Předpoklady
-- **Java vývojové prostředí:** nainstalovaný JDK (verze 8 nebo novější).  
-- **Nástroj pro sestavování Maven/Gradle:** znalost používání Maven nebo Gradle pro správu závislostí.  
-- **Základní znalost Javy:** pochopení programovacích konceptů Javy.
-
 ## Co je označování PDF pro přístupnost?
-Označování PDF pro přístupnost zahrnuje vložení logické struktury (titulky, nadpisy, odstavce, span, tabulky atd.) do PDF. Tato struktura umožňuje asistenčním technologiím prezentovat obsah v smysluplném pořadí, čímž **generate accessible PDF** výstup.
+Označování PDF pro přístupnost vkládá logickou hierarchii — názvy, nadpisy, odstavce, spany, tabulky a další — přímo do PDF souboru, což umožňuje asistenčním technologiím prezentovat obsah ve smysluplném pořadí čtení. Tato struktura umožňuje uživatelům se zrakovým postižením navigovat a rozumět dokumentům stejně jako vidícím uživatelům, čímž se statický vizuální soubor promění na dynamický, WCAG 2.1 a PDF/UA‑kompatibilní zdroj.
 
 ## Proč použít Aspose.PDF pro Javu?
-Aspose.PDF pro Java je **aspose pdf java tutorial**‑grade řešení, které:
-- Funguje na jakékoli platformě podporující Javu.
-- Umožňuje programově vytvářet, upravovat a označovat PDF.
-- Poskytuje jemnou kontrolu nad označovacími prvky, jako jsou odstavce a span, což je zásadní pro scénáře **add paragraph pdf java**.
+Aspose.PDF pro Java nabízí robustní, multiplatformní řešení, které zjednodušuje tvorbu, úpravu a označování PDF při dodržování standardů přístupnosti. Jeho plynulé API dává vývojářům detailní kontrolu nad strukturou dokumentu, výkonem a konverzí formátů, což jej činí ideálním pro automatizaci na úrovni podniku a zajištění souladu s WCAG 2.1 a PDF/UA.
+
+## Požadavky
+- **Java Development Kit:** JDK 8 nebo novější nainstalovaný.  
+- **Nástroj pro sestavení:** Maven nebo Gradle pro správu závislostí.  
+- **Základní znalost Javy:** Znalost tříd, metod a zpracování výjimek.
 
 ## Nastavení Aspose.PDF pro Javu
-Chcete‑li začít pracovat s Aspose.PDF ve svých Java projektech, musíte knihovnu zahrnout jako závislost. Zde je postup pro Maven a Gradle:
+Pro zahájení práce s Aspose.PDF ve vašem Java projektu přidejte knihovnu jako závislost.
 
 ### Instalace pomocí Maven
 Přidejte následující závislost do souboru `pom.xml`:
@@ -65,27 +104,27 @@ Přidejte následující závislost do souboru `pom.xml`:
 ```
 
 ### Instalace pomocí Gradle
-Zařaďte toto do souboru `build.gradle`:
+Zahrňte toto do souboru `build.gradle`:
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
 ### Získání licence
 Pro použití Aspose.PDF nad rámec omezení zkušební verze můžete získat dočasnou licenci nebo zakoupit plnou licenci. Postup:
-- **Zkušební verze:** Stáhněte nejnovější verzi z [Vydání Aspose PDF Java](https://releases.aspose.com/pdf/java/).  
-- **Dočasná licence:** Požádejte o bezplatnou dočasnou licenci na [Stránce dočasné licence Aspose](https://purchase.aspose.com/temporary-license/).  
-- **Koupě licence:** Zakupte plnou licenci na [Stránce nákupu Aspose](https://purchase.aspose.com/buy).
+- **Free Trial:** Stáhněte nejnovější verzi z [Aspose PDF Java Releases](https://releases.aspose.com/pdf/java/).  
+- **Temporary License:** Požádejte o bezplatnou dočasnou licenci na [Aspose Temporary License Page](https://purchase.aspose.com/temporary-license/).  
+- **Purchase License:** Kupte plnou licenci na [Aspose Purchase Page](https://purchase.aspose.com/buy).
 
-Jakmile budete mít soubor licence, aplikujte jej ve své Java aplikaci a odemkněte všechny funkce.
+Po získání souboru `Aspose.Pdf.Java.lic` jej načtěte při spuštění aplikace, aby se odemkly všechny funkce.
 
-## Průvodce implementací
-Rozdělíme implementaci do tří hlavních funkcí: nastavení titulku a jazyka, přidání odstavcových a span prvků a vnoření spanů do odstavců. Každá sekce obsahuje podrobné kroky s ukázkami kódu.
+## Jak vytvořit přístupný PDF v Javě?
+Načtěte svůj PDF dokument, nastavte název a jazyk, přidejte označené odstavce a spany a nakonec soubor uložte — vše během několika stručných kroků. Tento přímý přístup zajišťuje, že výsledný PDF je plně v souladu s normami přístupnosti a připraven k distribuci.
 
-### Nastavení titulku a jazyka pro PDF dokument
-**Přehled:** Tato funkce ukazuje, jak definovat titul a jazyk označeného PDF dokumentu, aby byl přístupný a správně interpretován asistenčními technologiemi.
+### Nastavení názvu a jazyka pro PDF dokument
+**Definition:** Třída `Document` představuje PDF soubor v paměti a poskytuje metody pro jeho manipulaci.
 
 #### Implementace krok za krokem
-1. **Inicializujte dokument Aspose.PDF:**  
+1. **Initialize the Aspose.PDF Document:**  
    ```java
    import com.aspose.pdf.Document;
    import com.aspose.pdf.tagged.ITaggedContent;
@@ -95,35 +134,35 @@ Rozdělíme implementaci do tří hlavních funkcí: nastavení titulku a jazyka
 
    Document document = new Document();
    ITaggedContent taggedContent = document.getTaggedContent();
-   ```
-2. **Nastavte titul a jazyk:**  
+   ```  
+2. **Set Title and Language:**  
    ```java
    // Set the title of the PDF document
    taggedContent.setTitle("Text Elements Example");
 
    // Define the language (e.g., English - United States)
    taggedContent.setLanguage("en-US");
-   ```
-3. **Uložte dokument:**  
+   ```  
+3. **Save the Document:**  
    ```java
    document.save(outFile);
-   ```
+   ```  
 
-**Vysvětlení:** Nastavením titulku a jazyka poskytujete důležité metadata, která pomáhají při **pdf accessibility tagging** a umožňují čtečkám obrazovky správně oznámit dokument.
+Při přiřazení smysluplného názvu a odpovídajícího jazykového kódu (např. `en-US`) poskytnete čtečkám obrazovky kontext potřebný k správnému oznámení dokumentu.
 
-### Přidání odstavcových a span prvků
-**Přehled:** Vylepšete strukturu PDF přidáním odstavcových a span prvků pro logicky uspořádaný dokument.
+### Přidání odstavců a span elementů
+**Definition:** Třída `Paragraph` seskupuje sérii objektů `Span`, z nichž každý představuje úsek textu s vlastní formátovacími vlastnostmi.
 
 #### Implementace krok za krokem
-1. **Vytvořte dokument a označený obsah:**  
+1. **Create Document and Tagged Content:**  
    ```java
    String dataDir = "YOUR_DOCUMENT_DIRECTORY";
    String outFile = dataDir + "AddParagraphAndSpanElements_Output.pdf";
 
    Document document = new Document();
    ITaggedContent taggedContent = document.getTaggedContent();
-   ```
-2. **Přidejte odstavce a span prvky:**  
+   ```  
+2. **Append Paragraph and Span Elements:**  
    ```java
    import com.aspose.pdf.tagged.logicalstructure.elements.StructureElement;
    import com.aspose.pdf.tagged.logicalstructure.elements.bls.ParagraphElement;
@@ -143,27 +182,27 @@ Rozdělíme implementaci do tří hlavních funkcí: nastavení titulku a jazyka
    p1.setText("Paragraph with ");
    p1.appendChild(span11);
    p1.appendChild(span12);
-   ```
-3. **Uložte svůj dokument:**  
+   ```  
+3. **Save Your Document:**  
    ```java
    document.save(outFile);
-   ```
+   ```  
 
-**Vysvětlení:** Tento úsek demonstruje základní scénář **add paragraph pdf java**, vytvářející strukturovaný tok textu, který zlepšuje čitelnost a navigaci.
+Tento vzor vám umožní vytvořit logický tok textu, což zlepšuje navigaci pro asistenční technologie.
 
-### Vnoření span prvků do odstavce
-**Přehled:** Vytvořte složitější textové struktury vnořením span prvků do odstavců.
+### Vnořování span elementů v odstavci
+**Definition:** Vnořování spanů uvnitř odstavce vám umožní aplikovat odlišné styly nebo jazykové atributy na podsegmenty věty.
 
 #### Implementace krok za krokem
-1. **Inicializujte strukturu dokumentu:**  
+1. **Initialize Document Structure:**  
    ```java
    String dataDir = "YOUR_DOCUMENT_DIRECTORY";
    String outFile = dataDir + "NestSpanElements_Output.pdf";
 
    Document document = new Document();
    ITaggedContent taggedContent = document.getTaggedContent();
-   ```
-2. **Vytvořte a vnořte span prvky:**  
+   ```  
+2. **Create and Nest Span Elements:**  
    ```java
    StructureElement rootElement = taggedContent.getRootElement();
 
@@ -187,66 +226,79 @@ Rozdělíme implementaci do tří hlavních funkcí: nastavení titulku a jazyka
    p4.appendChild(span42);
 
    p4.setText(".");
-   ```
-3. **Uložte dokument:**  
+   ```  
+3. **Save the Document:**  
    ```java
    document.save(outFile);
-   ```
+   ```  
 
-**Vysvětlení:** Vnoření umožňuje budovat bohatší a podrobnější struktury, což je nezbytné pro tvorbu **generate accessible PDF** dokumentů splňujících přísné standardy přístupnosti.
+Vnořené spany jsou nezbytné, když potřebujete kombinovat jazyky, aplikovat tučný/kurzivní styl nebo vložit hypertextové odkazy v rámci jednoho odstavce.
 
 ## Praktické aplikace
-- **Digitální publikování:** Vytvářejte přístupné e‑knihy se strukturovaným obsahem.  
-- **Vládní dokumentace:** Zajistěte soulad s předpisy o přístupnosti.  
-- **Firemní zprávy:** Zlepšete navigaci a čitelnost pro zainteresované strany.  
-- **Vzdělávací materiály:** Poskytněte studentům přístupné výukové zdroje.
+Aspose.PDF má široké využití v reálném světě, včetně:
+
+* **Digitální publikování:** Vytvářejte přístupné e‑knihy s plně strukturovaným obsahem.  
+* **Vládní dokumentace:** Splňte právní požadavky na přístupnost (např. sekce 508, směrnice EU o přístupnosti).  
+* **Firemní reportování:** Vytvářejte zprávy, které mohou zainteresované strany procházet pomocí čteček obrazovky.  
+* **Vzdělávací materiály:** Poskytujte učebnice a materiály, které splňují standardy přístupnosti.
 
 ## Úvahy o výkonu
-Při práci s velkými PDF nebo složitými strukturami mějte na paměti:
-- **Správa paměti:** Uvolňujte objekty okamžitě po použití.  
-- **Dávkové zpracování:** Zpracovávejte dokumenty po dávkách pro kontrolu spotřeby zdrojů.  
-- **Zůstaňte aktualizováni:** Používejte nejnovější verzi Aspose.PDF pro zlepšení výkonu a opravy chyb.
+Při práci s velkými PDF nebo složitými hierarchiemi tagů mějte na paměti následující osvědčené postupy:
+
+* **Správa paměti:** Zavolejte `document.dispose()` nebo použijte try‑with‑resources k okamžitému uvolnění nativních zdrojů.  
+* **Dávkové zpracování:** Zpracovávejte dokumenty v menších dávkách a zavolejte `document.optimizeResources()` ke snížení paměťové náročnosti.  
+* **Zůstaňte aktualizováni:** Používejte nejnovější verzi Aspose.PDF pro využití optimalizací výkonu a oprav chyb.
 
 ## Časté problémy a řešení
 | Problém | Řešení |
-|---------|--------|
-| **Tagy se nezobrazují v PDF prohlížeči** | Ověřte, že `taggedContent.setTitle()` a `setLanguage()` jsou volány před uložením. |
-| **Velikost souboru je velká** | Zavolejte `document.optimizeResources()` před `save()`, aby se zdroje komprimovaly. |
-| **Neočekávané pořadí textu** | Ujistěte se, že span prvky přidáváte do odstavců v požadovaném pořadí. |
+|-------|----------|
+| **Tagy se nezobrazují v prohlížeči PDF** | Ověřte, že `taggedContent.setTitle()` a `setLanguage()` jsou volány **před** `document.save()`. |
+| **Velká velikost souboru** | Zavolejte `document.optimizeResources()` před uložením k kompresi obrázků a odstranění nepoužívaných objektů. |
+| **Neočekávané pořadí textu** | Ujistěte se, že span elementy jsou přidávány do odstavců ve přesném pořadí, ve kterém mají být čteny. |
+| **Chybějící metadata jazyka** | Nastavte jazyk na objektu `ITaggedContent` pomocí kódu ISO‑639‑1 (např. `en`, `fr`, `ar`). |
 
 ## Často kladené otázky
 
-**Q: Jak zajistím, že moje PDF splňují standardy přístupnosti WCAG 2.1?**  
-A: Použijte Aspose.PDF k nastavení titulku dokumentu, jazyka a správného označování (odstavce, span, nadpisy). Proveďte kontrolu přístupnosti PDF pomocí nástroje (např. PAC 3), abyste ověřili soulad.
+**Q: Jak zajistím, že mé PDF splňují standardy přístupnosti WCAG 2.1?**  
+A: Nastavte název dokumentu, jazyk a správné označování (odstavce, spany, nadpisy). Poté spusťte PDF kontroler přístupnosti, například PAC 3, pro ověření souladu.
 
-**Q: Můžu označovat existující PDF, které byly vytvořeny bez tagů?**  
-A: Ano. Načtěte PDF, získejte jeho `ITaggedContent` a programově přidejte chybějící tagy před uložením.
+**Q: Mohu označovat existující PDF, které byly vytvořeny bez tagů?**  
+A: Ano. Načtěte PDF, získejte jeho `ITaggedContent` pomocí `document.getTaggedContent()`, programově přidejte chybějící tagy a uložte aktualizovaný soubor.
 
-**Q: Podporuje Aspose.PDF další jazyky a skripty zprava doleva?**  
-A: Rozhodně. Nastavte příslušný jazykový kód (např. `ar-SA` pro arabštinu) a přidejte Unicode text do span prvků.
+**Q: Podporuje Aspose.PDF skripty zprava doleva, jako arabštinu nebo hebrejštinu?**  
+A: Rozhodně. Přiřaďte odpovídající jazykový kód (např. `ar-SA`) a přidejte Unicode text do spanů; knihovna automaticky zvládne obousměrné vykreslování.
 
-**Q: Jak nejlépe zacházet s velmi velkými dokumenty (stovky stránek)?**  
-A: Zpracovávejte dokument po částech, použijte `Document.optimizeResources()` a zvažte streamování výstupu, aby nedošlo k vysoké spotřebě paměti.
+**Q: Jaký je nejlepší přístup pro velmi velké dokumenty (stovky stránek)?**  
+A: Zpracovávejte dokument v logických sekcích, použijte `document.optimizeResources()` a zvažte streamování výstupu do souboru, aby se udržela nízká spotřeba paměti.
 
 **Q: Existuje způsob, jak po vytvoření ověřit hierarchii tagů?**  
-A: Můžete exportovat strom struktury PDF pomocí `document.getTaggedContent().getRootElement()` a prověřit jej programově nebo pomocí PDF nástrojů.
+A: Můžete exportovat strom struktury pomocí `document.getTaggedContent().getRootElement()` a prověřit jej programově nebo pomocí nástrojů pro analýzu PDF.
 
 ## Závěr
-Nyní ovládáte **how to tag PDF** soubory v Javě pomocí Aspose.PDF — nastavování titulku, jazyka a tvorbu strukturovaného obsahu s odstavci a vnořenými span prvky. Tyto techniky vám umožní generovat přístupná PDF, která splňují moderní standardy přístupnosti a poskytují vynikající čtenářský zážitek pro všechny uživatele.
+Nyní máte kompletní, krok‑za‑krokem návod pro **vytvoření přístupných PDF Java** projektů pomocí Aspose.PDF. Nastavením názvů, jazyků a budováním robustní hierarchie tagů s odstavci a vnořenými spany můžete generovat PDF, které jsou vizuálně atraktivní i plně přístupné.  
 
 **Další kroky:**  
-- Experimentujte s dalšími typy tagů, jako jsou tabulky, seznamy a obrázky.  
-- Integrujte workflow označování do vašich stávajících pipeline pro generování dokumentů.  
-- Prozkoumejte OCR a konverzní funkce Aspose.PDF pro rozšíření možností zpracování dokumentů.
+* Experimentujte s dalšími typy tagů, jako jsou tabulky, seznamy a obrázky.  
+* Integrujte workflow označování do vašich stávajících pipeline pro generování dokumentů.  
+* Prozkoumejte OCR a konverzní funkce Aspose.PDF pro rozšíření možností zpracování dokumentů.
 
-**Poslední aktualizace:** 2025-12-09  
-**Testováno s:** Aspose.PDF for Java 25.3  
-**Autor:** Aspose  
+---
+
+**Last Updated:** 2026-06-17  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## Související tutoriály
+
+- [Vytvoření a správa označených PDF pomocí Aspose.PDF pro Java: Zlepšení přístupnosti ve vašich dokumentech](/pdf/java/document-manipulation/create-manage-tagged-pdfs-aspose-pdf-java/)
+- [Vytvoření přístupných PDF s obrázky pomocí Aspose.PDF pro Java: Kompletní průvodce tvorbou označených PDF](/pdf/java/images-graphics/create-accessible-pdf-images-aspose-pdf-java/)
+- [Vytvoření přístupných označených tabulek v PDF pomocí Aspose.PDF pro Java](/pdf/java/tables-lists/create-tagged-table-aspose-pdf-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

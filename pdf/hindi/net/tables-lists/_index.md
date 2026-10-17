@@ -17,6 +17,8 @@
 
 ## उपलब्ध ट्यूटोरियल
 
+
+{{< tutorial-card link="./style-table-cells/" title="Aspose.Pdf for .NET के साथ PDFs में Table Cell की पृष्ठभूमि, बॉर्डर और पैडिंग को कस्टमाइज़ करें।" imgSrc="./style-table-cells/images/thumb.png" >}}
 ### [Aspose.PDF .NET के साथ HTML ऑर्डर की गई सूची को PDF में जोड़ें](./add-html-ordered-list-pdf-aspose-net/)
 Aspose.PDF नेट के लिए एक कोड ट्यूटोरियल
 

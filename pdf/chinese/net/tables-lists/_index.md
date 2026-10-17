@@ -17,6 +17,8 @@
 
 ## 可用教程
 
+
+{{< tutorial-card link="./style-table-cells/" title="使用 Aspose.Pdf for .NET 定制 PDF 中表格单元格的背景、边框和内边距" imgSrc="./style-table-cells/images/thumb.png" >}}
 ### [使用 Aspose.PDF .NET 将 HTML 有序列表添加到 PDF](./add-html-ordered-list-pdf-aspose-net/)
 Aspose.PDF Net 代码教程
 

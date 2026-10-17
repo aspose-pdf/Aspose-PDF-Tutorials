@@ -12,9 +12,7 @@ url: /pt/java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/
 weight: 1
 ---
 
-.
 
-Now produce final content with translations.
 
 {{< blocks/products/pf/main-wrap-class >}}
 

@@ -12,9 +12,7 @@ url: /vi/java/advanced-features/aspose-pdf-java-layer-rendering-guide/
 weight: 1
 ---
 
- English.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 
