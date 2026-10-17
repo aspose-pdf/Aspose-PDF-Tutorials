@@ -24,6 +24,7 @@ De tutorials "Programmeren met operatoren" van Aspose.PDF voor .NET begeleiden u
 | [PDF-operatoren](./pdf-operators/) | Stapsgewijze handleiding voor het gebruik van PDF-operatoren met Aspose.PDF voor .NET. Voeg een afbeelding toe aan een PDF-pagina en geef de positie ervan op. |  
 | [Grafische objecten uit een PDF-bestand verwijderen](./remove-graphics-objects/) Leer in deze stapsgewijze handleiding hoe u grafische objecten uit een PDF-bestand verwijdert met Aspose.PDF voor .NET. Vereenvoudig uw PDF-bewerkingstaken. |  
 | [Collectie itereren C# – Eenvoudige gids om items te doorlopen](./iterate-collection-c-simple-guide-to-loop-over-items/) | Leer hoe u in C# door een collectie kunt itereren met een eenvoudige stap‑voor‑stap handleiding. |
+| [Leeg PDF-woordenboek maken in C# – Complete Aspose.Pdf-gids](./create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide/) | Leer hoe u een leeg PDF-woordenboek maakt met Aspose.PDF voor .NET in C#. Volledige stapsgewijze handleiding. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

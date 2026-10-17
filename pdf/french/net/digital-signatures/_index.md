@@ -135,6 +135,9 @@ Apprenez à valider les signatures numériques des fichiers PDF avec Aspose.PDF,
 ### [Comment vérifier la signature dans un PDF avec Aspose.PDF – Guide complet](./how-to-check-signature-in-a-pdf-with-aspose-pdf-complete-gui/)
 Apprenez à vérifier la signature numérique d'un PDF avec Aspose.PDF grâce à ce guide complet.
 
+### [Valider la signature PDF et lister les signatures PDF avec Aspose.PDF – Guide complet](./validate-pdf-signature-and-list-pdf-signatures-with-aspose-p/)
+Apprenez à valider une signature PDF et à répertorier toutes les signatures présentes à l'aide d'Aspose.PDF pour .NET.
+
 ## Ressources supplémentaires
 
 - [Aspose.PDF pour la documentation réseau](https://docs.aspose.com/pdf/net/)

@@ -133,6 +133,9 @@ Panduan langkah demi langkah untuk menandatangani PDF dan menambahkan gambar men
 ### [Cara Menandatangani PDF Menggunakan Sertifikat – Panduan Lengkap C#](./how-to-sign-pdf-using-certificate-complete-c-guide/)
 Pelajari cara menandatangani PDF menggunakan sertifikat dengan Aspose.PDF untuk .NET dalam panduan lengkap C#.
 
+### [Validasi Tanda Tangan PDF dan Daftar Tanda Tangan PDF dengan Aspose.PDF – Panduan Lengkap](./validate-pdf-signature-and-list-pdf-signatures-with-aspose-p/)
+Panduan langkah demi langkah untuk memvalidasi tanda tangan PDF dan menampilkan semua tanda tangan dalam dokumen menggunakan Aspose.PDF.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

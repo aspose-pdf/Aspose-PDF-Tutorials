@@ -78,6 +78,9 @@
 ### [Загрузка PDF‑документа C# – Конвертация в PDF/X‑4 и список подписей](./load-pdf-document-c-convert-to-pdf-x-4-list-signatures/)
 Узнайте, как загрузить PDF‑документ, преобразовать его в формат PDF/X‑4 и получить список цифровых подписей с помощью Aspose.PDF для .NET.
 
+### [Проверка подписи PDF и список подписей PDF с Aspose.PDF – Полное руководство](./validate-pdf-signature-and-list-pdf-signatures-with-aspose-p/)
+Узнайте, как проверять подписи PDF и получать список всех подписей в документе с помощью Aspose.PDF для .NET.
+
 ### [Проверка подписи PDF с Aspose – конвертация PDF в HTML](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
 Узнайте, как проверить подпись PDF и преобразовать документ в HTML с помощью Aspose.PDF для .NET.
 

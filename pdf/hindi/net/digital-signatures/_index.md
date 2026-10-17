@@ -121,6 +121,9 @@ Aspose का उपयोग करके C# में PDF पर डिजि�
 ### [Aspose.PDF के साथ PDF डिजिटल हस्ताक्षर सत्यापित करें – पूर्ण गाइड](./verify-pdf-digital-signature-full-guide-with-aspose-pdf/)
 Aspose.PDF का उपयोग करके PDF डिजिटल हस्ताक्षर को सत्यापित करने की पूरी प्रक्रिया सीखें।
 
+### [Aspose.PDF के साथ PDF हस्ताक्षर सत्यापित करें और सभी हस्ताक्षर सूचीबद्ध करें – पूर्ण गाइड](./validate-pdf-signature-and-list-pdf-signatures-with-aspose-p/)
+Aspose.PDF का उपयोग करके PDF हस्ताक्षर को सत्यापित करने और दस्तावेज़ में मौजूद सभी हस्ताक्षरों की सूची प्राप्त करने की पूरी प्रक्रिया सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.PDF for Net दस्तावेज़ीकरण](https://docs.aspose.com/pdf/net/)

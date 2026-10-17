@@ -133,6 +133,9 @@
 ### [วิธีลงนาม PDF ด้วย C# – คู่มือฉบับสมบูรณ์กับ Aspose](./how-to-sign-pdf-in-c-complete-guide-with-aspose/)
 เรียนรู้วิธีลงนามไฟล์ PDF อย่างละเอียดด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET พร้อมขั้นตอนครบถ้วน
 
+### [ตรวจสอบลายเซ็น PDF และแสดงรายการลายเซ็น PDF ด้วย Aspose.PDF – คู่มือฉบับสมบูรณ์](./validate-pdf-signature-and-list-pdf-signatures-with-aspose-p/)
+เรียนรู้วิธีตรวจสอบความถูกต้องของลายเซ็น PDF และดึงรายการลายเซ็นทั้งหมดจากเอกสารด้วย Aspose.PDF อย่างละเอียด
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)

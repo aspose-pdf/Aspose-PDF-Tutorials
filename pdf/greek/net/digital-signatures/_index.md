@@ -131,6 +131,9 @@
 ### [Πώς να ελέγξετε την υπογραφή σε PDF με το Aspose.PDF – Πλήρης Οδηγός](./how-to-check-signature-in-a-pdf-with-aspose-pdf-complete-gui/)
 Μάθετε πώς να ελέγχετε την υπογραφή σε PDF χρησιμοποιώντας το Aspose.PDF με πλήρη οδηγίες βήμα προς βήμα.
 
+### [Επικύρωση υπογραφής PDF και λίστα υπογραφών PDF με το Aspose.PDF – Πλήρης Οδηγός](./validate-pdf-signature-and-list-pdf-signatures-with-aspose-p/)
+Μάθετε πώς να επικυρώσετε υπογραφές PDF και να εμφανίσετε όλες τις υπογραφές ενός εγγράφου χρησιμοποιώντας το Aspose.PDF για .NET.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.PDF για τεκμηρίωση δικτύου](https://docs.aspose.com/pdf/net/)

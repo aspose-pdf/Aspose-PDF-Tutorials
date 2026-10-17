@@ -131,6 +131,9 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET digitale Signaturen in PDFs volls
 ### [Wie man die Signatur in einer PDF mit Aspose.PDF prüft – Vollständiger Leitfaden](./how-to-check-signature-in-a-pdf-with-aspose-pdf-complete-gui/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF‑Signaturen prüfen und deren Gültigkeit verifizieren.
 
+### [PDF-Signatur validieren und PDF-Signaturen auflisten mit Aspose.PDF – Komplettanleitung](./validate-pdf-signature-and-list-pdf-signatures-with-aspose-p/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF‑Signaturen prüfen und alle vorhandenen Signaturen im Dokument auflisten.
+
 ## Weitere Ressourcen
 
 - [Aspose.PDF für Net-Dokumentation](https://docs.aspose.com/pdf/net/)

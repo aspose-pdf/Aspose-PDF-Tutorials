@@ -127,6 +127,9 @@ Leer hoe u een PDF ondertekent met een certificaat in C# met Aspose.PDF voor .NE
 ### [Hoe PDF ondertekenen in C# – Complete gids met Aspose](./how-to-sign-pdf-in-c-complete-guide-with-aspose/)
 Leer hoe u PDF's ondertekent in C# met Aspose.PDF, stap‑voor‑stap met volledige codevoorbeelden.
 
+### [PDF-handtekening valideren en PDF-handtekeningen weergeven met Aspose.PDF – Complete gids](./validate-pdf-signature-and-list-pdf-signatures-with-aspose-p/)
+Leer hoe u PDF-handtekeningen valideert en een lijst van alle handtekeningen in een PDF weergeeft met Aspose.PDF in .NET.
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

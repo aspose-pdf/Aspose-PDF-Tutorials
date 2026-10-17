@@ -24,6 +24,7 @@ Výukové programy „Programování s operátory“ v Aspose.PDF pro .NET vás 
 | [Operátory PDF](./pdf-operators/) | Podrobný návod k používání operátorů PDF s Aspose.PDF pro .NET. Přidání obrázku na stránku PDF a zadání jeho pozice. |  
 | [Odstranění grafických objektů v souboru PDF](./remove-graphics-objects/) V tomto podrobném návodu se naučte, jak odstranit grafické objekty ze souboru PDF pomocí nástroje Aspose.PDF pro .NET. Zjednodušte si manipulaci s PDF soubory. |  
 | [Iterace kolekce v C# – Jednoduchý průvodce smyčkou přes položky](./iterate-collection-c-simple-guide-to-loop-over-items/) | Jednoduchý návod, jak v C# iterovat přes položky kolekce pomocí smyček. |  
+| [Vytvoření prázdného PDF slovníku v C# – Kompletní průvodce Aspose.Pdf](./create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide/) | Naučte se, jak vytvořit prázdný PDF slovník v C# pomocí Aspose.Pdf. Kompletní návod krok za krokem. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
