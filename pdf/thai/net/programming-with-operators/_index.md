@@ -23,6 +23,8 @@
 - [วาด XForm บนหน้า](./draw-xform-on-page/) | เรียนรู้วิธีการวาด XForms ใน PDF โดยใช้ Aspose.PDF สำหรับ .NET พร้อมคู่มือทีละขั้นตอนที่ครอบคลุมนี้  
 - [ตัวดำเนินการ PDF](./pdf-operators/) | คำแนะนำทีละขั้นตอนในการใช้ตัวดำเนินการ PDF กับ Aspose.PDF สำหรับ .NET เพิ่มรูปภาพลงในหน้า PDF และระบุตำแหน่งของรูปภาพ -  
 | [ลบวัตถุกราฟิกออกจากไฟล์ PDF](./remove-graphics-objects/) เรียนรู้วิธีการลบวัตถุกราฟิกออกจากไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนนี้ ทำให้ภารกิจการจัดการ PDF ของคุณง่ายขึ้น |  
+- [วนรอบคอลเลกชัน C# – คู่มือแบบง่ายสำหรับการวนลูปรายการ](./iterate-collection-c-simple-guide-to-loop-over-items/) | เรียนรู้วิธีวนลูปผ่านคอลเลกชันใน C# อย่างง่ายด้วย Aspose.PDF สำหรับ .NET
+- [สร้างพจนานุกรม PDF ว่างใน C# – คู่มือ Aspose.Pdf ฉบับสมบูรณ์](./create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide/) | เรียนรู้วิธีสร้างพจนานุกรม PDF ว่างใน C# ด้วย Aspose.PDF อย่างละเอียดในคู่มือฉบับสมบูรณ์  
 - [สร้างพจนานุกรม PDF ว่างใน C# ด้วย Aspose.PDF](./create-empty-pdf-dictionary-in-c-with-aspose-pdf/) | สร้างพจนานุกรม PDF ว่างใน C# ด้วย Aspose.PDF
 
 {{< /blocks/products/pf/tutorial-page-section >}}

@@ -17,6 +17,8 @@
 
 ## Доступные обучающие материалы
 
+
+{{< tutorial-card link="./style-table-cells/" title="Настройте фон, границы и отступы ячеек таблицы в PDF с помощью Aspose.Pdf for .NET" imgSrc="./style-table-cells/images/thumb.png" >}}
 ### [Добавить упорядоченный список HTML в PDF с помощью Aspose.PDF .NET](./add-html-ordered-list-pdf-aspose-net/)
 Учебник по коду для Aspose.PDF Net
 

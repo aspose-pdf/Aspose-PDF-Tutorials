@@ -22,9 +22,7 @@ title: Comment enregistrer un PDF avec Aspose – Guide étape par étape
 url: /fr/net/conversion-export/how-to-save-pdf-with-aspose-step-by-step-guide/
 ---
 
-block placeholders.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

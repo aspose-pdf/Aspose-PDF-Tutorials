@@ -1,0 +1,33 @@
+//ExStart
+//ExSummary: Этот учебный материал демонстрирует, как создать новый PDF‑документ, добавить три пустые страницы, преобразовать его в соответствие с PDF/X‑3 с записью ошибок преобразования в журнал и сохранить полученный файл, используя класс Aspose.Pdf Document.
+//ExStepSummary:0: Укажите имя выходного PDF‑файла и путь к журналу преобразования.
+//ExStepSummary:1: Создайте новый объект Document внутри блока using, чтобы обеспечить корректное освобождение ресурсов.
+//ExStepSummary:2: Добавьте в документ три пустые страницы, увеличивая количество страниц.
+//ExStepSummary:3: Преобразуйте документ в формат PDF/X‑3, фиксируя любые проблемы преобразования в файл журнала.
+//ExStepSummary:4: Сохраните документ, соответствующий PDF/X‑3, на диск и закройте блок using.
+//ExStepSummary:5: Выведите в консоль подтверждающее сообщение, указывающее, где был сохранён файл.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+        const string resultFile = "final_pdfx3_output.pdf";
+        const string conversionLog = "pdfx3_conversion_log.xml";
+
+//ExStep:1-
+        using (Document pdfDoc = new Document())
+        {
+
+//ExStep:2-
+            pdfDoc.Pages.Add();
+            pdfDoc.Pages.Add();
+            pdfDoc.Pages.Add();
+
+//ExStep:3-
+            pdfDoc.Convert(conversionLog, PdfFormat.PDF_X_3, ConvertErrorAction.Delete);
+
+//ExStep:4-
+            pdfDoc.Save(resultFile);
+        }
+
+//ExStep:5-
+        Console.WriteLine($"PDF/X‑3 file written to '{resultFile}'.");
+//ExEnd

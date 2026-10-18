@@ -17,6 +17,8 @@
 
 ## บทช่วยสอนที่พร้อมใช้งาน
 
+
+{{< tutorial-card link="./exclude-annotations/" title="การเปรียบเทียบ PDF แบบ Side‑by‑Side โดยยกเว้นหมายเหตุด้วย Aspose.Pdf for .NET" imgSrc="./exclude-annotations/images/thumb.png" >}}
 ### [เพิ่มฟิลด์ฟอร์มลงใน PDF โดยใช้ Aspose.PDF สำหรับ .NET: คู่มือฉบับสมบูรณ์](./add-pdf-form-fields-aspose-pdf-dotnet/)
 เรียนรู้วิธีการเพิ่มข้อความ ช่องกาเครื่องหมาย กล่องรวม กล่องรายการ และฟิลด์หลายบรรทัดลงใน PDF โดยใช้ Aspose.PDF สำหรับ .NET คู่มือนี้ครอบคลุมถึงการตั้งค่า ตัวอย่างโค้ด และเคล็ดลับการรวมระบบ
 

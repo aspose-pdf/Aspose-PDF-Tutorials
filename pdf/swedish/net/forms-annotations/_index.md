@@ -17,6 +17,8 @@ Bemästra interaktiva PDF-funktioner med våra omfattande handledningar för Asp
 
 ## Tillgängliga handledningar
 
+
+{{< tutorial-card link="./exclude-annotations/" title="Sida‑vid‑sida PDF‑jämförelse utan annoteringar med Aspose.Pdf for .NET" imgSrc="./exclude-annotations/images/thumb.png" >}}
 ### [Lägg till formulärfält i PDF-filer med Aspose.PDF för .NET: En omfattande guide](./add-pdf-form-fields-aspose-pdf-dotnet/)
 Lär dig hur du lägger till text, kryssrutor, kombinationsrutor, listrutor och flerradiga fält i PDF-filer med Aspose.PDF för .NET. Den här guiden behandlar installation, kodexempel och integrationstips.
 

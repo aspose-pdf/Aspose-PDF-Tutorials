@@ -29,6 +29,8 @@ In dieser Tutorial-Reihe untersuchen wir verschiedene Aspekte der Textbearbeitun
 
 {{< tutorial-card link="./multicolumn-paragraphs/" title="Mehrspaltige Absätze in PDF mit Aspose.PDF" imgSrc="./multicolumn-paragraphs/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/" title="Wie man Aspose verwendet, um Text aus einem gescannten PDF zu extrahieren – Schritt‑für‑Schritt‑Anleitung" imgSrc="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

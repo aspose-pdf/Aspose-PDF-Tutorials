@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: Tento tutoriál ukazuje, jak načíst existující PDF pomocí Aspose.Pdf, omezit jeho oprávnění, zašifrovat jej pomocí uživatelského (klientského) a vlastní (admin) hesla s algoritmem AES‑256 a uložit chráněný dokument.
+//ExStepSummary:0: Deklarujte cesty ke zdrojovému a cílovému souboru a hesla uživatele (klienta) a vlastníka (administrátora).
+//ExStepSummary:1: Zkontrolujte, zda zdrojové PDF existuje, a pokud ne, ukončete s chybovou zprávou.
+//ExStepSummary:2: Otevřete PDF, povolte pouze úpravu obsahu a jeho extrakci, zašifrujte jej pomocí obou hesel s AES‑256, uložte chráněný soubor a zobrazte zprávu o úspěchu.
+//ExStepSummary:3: Zachyťte všechny vzniklé chyby a vypište zprávu výjimky do chybové konzole.
+//ExStep:0-
+const string sourceFile = "original.pdf";
+const string destinationFile = "protected.pdf";
+const string clientPwd = "clientPwd";
+const string adminPwd = "adminPwd";
+
+//ExStep:1-
+if (!File.Exists(sourceFile))
+{
+    Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+    return;
+}
+
+//ExStep:2-
+try
+{
+    using (Document pdfDoc = new Document(sourceFile))
+    {
+        Permissions allowedPerms = Permissions.ModifyContent | Permissions.ExtractContent;
+
+        pdfDoc.Encrypt(clientPwd, adminPwd, allowedPerms, CryptoAlgorithm.AESx256);
+
+        pdfDoc.Save(destinationFile);
+    }
+
+    Console.WriteLine($"Secured PDF written to '{destinationFile}'.");
+}
+
+//ExStep:3-
+catch (Exception ex)
+{
+    Console.Error.WriteLine($"Failure: {ex.Message}");
+}
+//ExEnd

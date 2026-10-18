@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: Bu öğreticide, Aspose.Pdf ile mevcut bir PDF'in nasıl açılacağını, hiçbir izin vermeden (bu da yazdırmayı devre dışı bırakır) AES‑256 şifrelemesi uygulanacağını, korumalı dosyanın kaydedileceğini ve şifrelemenin görüntüleyici parolasıyla doğrulanacağını gösterir.
+//ExStepSummary:0: Kaynak PDF yolunu, çıkış korumalı dosya adını ve görüntüleyici ile sahibi (owner) parolalarını tanımlayın.
+//ExStepSummary:1: Kaynak dosyanın varlığını kontrol edin ve eksikse bir hata mesajı vererek işlemi durdurun.
+//ExStepSummary:2: Orijinal PDF'i açın, hiçbir izin ayarlamayın, belirtilen parolaları kullanarak AES‑256 ile şifreleyin ve korumalı dosyayı kaydedin.
+//ExStepSummary:3: Şifrelenmiş PDF'i görüntüleyici parolasıyla yeniden açın ve korumanın doğrulanması için IsEncrypted bayrağını konsola yazdırın.
+//ExStepSummary:4: Şifrelemenin tamamlandığını ve çıkış dosya adını belirten son bir mesaj yazdırın.
+//ExStep:0-
+const string sourceFile = "original.pdf";
+const string securedFile = "protected.pdf";
+const string viewerPwd = "viewerPwd123";
+const string masterPwd = "masterPwd123";
+
+//ExStep:1-
+if (!File.Exists(sourceFile))
+{
+    Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+    return;
+}
+
+//ExStep:2-
+using (Document pdfDoc = new Document(sourceFile))
+{
+    Permissions rights = 0;
+    pdfDoc.Encrypt(viewerPwd, masterPwd, rights, CryptoAlgorithm.AESx256);
+    pdfDoc.Save(securedFile);
+}
+
+//ExStep:3-
+using (Document checkDoc = new Document(securedFile, viewerPwd))
+{
+    Console.WriteLine($"Encrypted flag: {checkDoc.IsEncrypted}");
+}
+
+//ExStep:4-
+Console.WriteLine($"Encryption finished. Output saved as '{securedFile}'.");
+//ExEnd

@@ -1,0 +1,33 @@
+//ExStart
+//ExSummary: 이 튜토리얼에서는 새 PDF 문서를 생성하고, 빈 페이지 세 개를 추가한 다음, 변환 오류를 로그에 기록하면서 PDF/X‑3 규격으로 변환하고, Aspose.Pdf Document 클래스를 사용하여 결과 파일을 저장하는 방법을 보여줍니다.
+//ExStepSummary:0: 출력 PDF 파일 이름과 변환 로그의 경로를 정의합니다.
+//ExStepSummary:1: 올바른 해제를 보장하기 위해 using 블록 안에서 새로운 Document 객체를 인스턴스화합니다.
+//ExStepSummary:2: 문서에 빈 페이지 세 개를 추가하여 페이지 수를 늘립니다.
+//ExStepSummary:3: 문서를 PDF/X‑3 형식으로 변환하고, 변환 문제를 로그 파일에 기록합니다.
+//ExStepSummary:4: PDF/X‑3 규격을 만족하는 문서를 디스크에 저장하고 using 블록을 종료합니다.
+//ExStepSummary:5: 파일이 저장된 위치를 콘솔에 확인 메시지로 출력합니다.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+        const string resultFile = "final_pdfx3_output.pdf";
+        const string conversionLog = "pdfx3_conversion_log.xml";
+
+//ExStep:1-
+        using (Document pdfDoc = new Document())
+        {
+
+//ExStep:2-
+            pdfDoc.Pages.Add();
+            pdfDoc.Pages.Add();
+            pdfDoc.Pages.Add();
+
+//ExStep:3-
+            pdfDoc.Convert(conversionLog, PdfFormat.PDF_X_3, ConvertErrorAction.Delete);
+
+//ExStep:4-
+            pdfDoc.Save(resultFile);
+        }
+
+//ExStep:5-
+        Console.WriteLine($"PDF/X‑3 file written to '{resultFile}'.");
+//ExEnd

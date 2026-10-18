@@ -1,14 +1,75 @@
 ---
-date: '2025-12-02'
-description: Tanulja meg, hogyan hozhat létre PDF rétegeket az Aspose.PDF for Java
-  segítségével. Ez az Aspose PDF oktatóanyag a beállítást, a licencelést és a PDF
-  rétegszínek testreszabását fedi le.
+date: '2026-05-28'
+description: Ismerje meg, hogyan hozhat létre PDF rétegeket az Aspose.PDF for Java
+  használatával. Ez az útmutató a beállítást, a licencelést és a PDF rétegszínek testreszabását
+  tárgyalja.
 keywords:
-- Aspose.PDF for Java
-- create PDF layers
-- layered PDF applications
-title: Hogyan készítsünk PDF rétegeket az Aspose.PDF for Java segítségével – Lépésről
-  lépésre útmutató
+- create pdf layers
+- add pdf layer
+- asp pdf tutorial
+- create layered pdf
+- generate layered pdf
+schemas:
+- author: Aspose
+  dateModified: '2026-05-28'
+  description: Learn how to create pdf layers using Aspose.PDF for Java. This tutorial
+    covers setup, licensing, and customizing pdf layer colors.
+  headline: How to create pdf layers with Aspose.PDF for Java – Step-by-Step Guide
+  type: TechArticle
+- description: Learn how to create pdf layers using Aspose.PDF for Java. This tutorial
+    covers setup, licensing, and customizing pdf layer colors.
+  name: How to create pdf layers with Aspose.PDF for Java – Step-by-Step Guide
+  steps:
+  - name: '**Initialize the Document** – create a new `Document` object.'
+    text: '**Initialize the Document** – create a new `Document` object.'
+  - name: '**Add a Page** – use `doc.getPages().add()`.'
+    text: '**Add a Page** – use `doc.getPages().add()`.'
+  - name: '**Save the File** – call `doc.save()` with your desired output path.'
+    text: '**Save the File** – call `doc.save()` with your desired output path.'
+  - name: '**Initialize a Page** – start with a fresh page where layers will be placed.'
+    text: '**Initialize a Page** – start with a fresh page where layers will be placed.'
+  - name: '**Create Layers** – instantiate `Layer` objects, set a name, and add drawing
+      operators.'
+    text: '**Create Layers** – instantiate `Layer` objects, set a name, and add drawing
+      operators.'
+  - name: '**Add Drawing Operations** – use `SetRGBColorStroke`, `MoveTo`, `LineTo`,
+      and `Stroke` to draw colored lines.'
+    text: '**Add Drawing Operations** – use `SetRGBColorStroke`, `MoveTo`, `LineTo`,
+      and `Stroke` to draw colored lines.'
+  - name: '**Save the Document** – persist the PDF with layers attached.'
+    text: '**Save the Document** – persist the PDF with layers attached.'
+  - name: '**Architectural Plans:** Separate structural, electrical, and plumbing
+      schematics into distinct layers.'
+    text: '**Architectural Plans:** Separate structural, electrical, and plumbing
+      schematics into distinct layers.'
+  - name: '**Design Drafting:** Keep concept sketches, annotations, and final renderings
+      on separate layers for easy toggling.'
+    text: '**Design Drafting:** Keep concept sketches, annotations, and final renderings
+      on separate layers for easy toggling.'
+  - name: '**Educational Materials:** Divide chapters, exercises, and solutions into
+      layers so instructors can reveal answers on demand.'
+    text: '**Educational Materials:** Divide chapters, exercises, and solutions into
+      layers so instructors can reveal answers on demand.'
+  type: HowTo
+- questions:
+  - answer: A trial license lets you experiment, but a full **Aspose PDF licensing**
+      key removes evaluation restrictions and enables all layer features for production.
+    question: Do I need a paid license to create pdf layers?
+  - answer: Yes. Any PDF operator (text, image, form fields) can be added to a `Layer`’s
+      content collection.
+    question: Can I add text or images to a layer instead of just lines?
+  - answer: Use the `OptionalContentGroup` API to set the visibility state, or let
+      the end‑user toggle layers in a PDF viewer that supports OCGs.
+    question: How do I hide or show layers programmatically after the PDF is created?
+  - answer: Technically no, but extremely high layer counts can impact viewer performance.
+      Keep it reasonable (hundreds rather than thousands) for best results.
+    question: Is there a limit to the number of layers I can create?
+  - answer: Yes, you can set compliance flags on the `Document` before saving, and
+      layers will be preserved in the compliant output.
+    question: Does Aspose.PDF support PDF/A or PDF/UA compliance with layers?
+  type: FAQPage
+title: Hogyan hozhatunk létre PDF rétegeket az Aspose.PDF for Java segítségével –
+  Lépésről lépésre útmutató
 url: /hu/java/advanced-features/create-pdf-layers-aspose-java/
 weight: 1
 ---
@@ -18,56 +79,42 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Hogyan hozzunk létre PDF rétegeket az Aspose.PDF for Java segítségével
+# Hogyan hozzunk létre PDF rétegeket az Aspose.PDF for Java-val
 
-**SEO‑barát cím:** Tanulja meg, hogyan hozhat létre és testreszabhat PDF‑eket rétegekkel az Aspose.PDF Java segítségével
+**SEO‑barát cím létrehozása:** Tanulja meg, hogyan hozhat létre és testreszabhat PDF-eket rétegekkel az Aspose.PDF Java segítségével
 
 ## Bevezetés
 
-A professzionális megjelenésű PDF‑dokumentumok programozott létrehozása kihívást jelenthet, különösen akkor, ha **pdf rétegeket** kell létrehozni, amelyeket be‑ vagy kikapcsolhatunk. Ebben a **aspose pdf tutorial**‑ban mindent végigvezetünk, amit tudni kell – a fejlesztői környezet beállításától a Java kód írásáig, amely PDF‑et épít, több réteget ad hozzá, és testreszabja az egyes rétegek színeit. A végére képes lesz rétegezett PDF‑eket generálni építészeti tervekhez, tervezeti vázlatokhoz vagy bármely olyan helyzethez, ahol a vizuális elemek szétválasztása értékes.
-
-**Mit fog megtanulni**
-- Hogyan **hozzon létre PDF dokumentumot** az Aspose.PDF for Java segítségével.  
-- A **pdf rétegek** létrehozásának lépései és egyedi színek hozzárendelése.  
-- **pdf réteg színek testreszabása** a jobb vizuális elkülönítés érdekében.  
-- Hogyan működik az **aspose pdf licensing**, és miért fontos a termelésben való használathoz.  
-- Valós példák és teljesítmény‑tippek nagy, rétegezett PDF‑ekhez.
-
-Most győződjön meg róla, hogy minden szükséges dolog megvan, mielőtt a kódba merülünk.
+Ebben a **Aspose PDF tutorial** bemutatjuk, hogyan **create pdf layers** hozhatók létre, amelyeket be- vagy kikapcsolhat, testreszabhatja az egyes rétegek színeit, és integrálhatja a megoldást bármely Java projektbe. A rétegelt PDF-ek ideálisak építészeti rajzokhoz, tervezési vázlatokhoz, és bármilyen helyzethez, ahol vizuális elemeket kell elválasztani anélkül, hogy több fájlt hozna létre. A útmutató végére egy működő példát kap, amelyet saját felhasználási eseteihez igazíthat.
 
 ## Gyors válaszok
 - **Mi a fő könyvtár?** Aspose.PDF for Java.  
-- **Melyik kulcsszóra optimalizál ez az útmutató?** create pdf layers.  
-- **Szükségem van licencre?** Igen – lásd az **aspose pdf licensing** szekciót.  
-- **Módosíthatom a réteg színeket?** Természetesen – megmutatjuk, hogyan **customize pdf layer colors**.  
+- **Melyik kulcsszóra céloz ez az útmutató?** create pdf layers.  
+- **Szükségem van licencre?** Igen – lásd a **Aspose PDF licensing** részt.  
+- **Módosíthatom a réteg színeit?** Természetesen – bemutatjuk, hogyan **customize pdf layer colors**.  
 - **Mennyi időt vesz igénybe a megvalósítás?** Körülbelül 10‑15 perc egy alap példához.
 
-## Mi az a „create pdf layers”?
-A PDF rétegek létrehozása **opcionális tartalmi csoportok (OCG‑k)** hozzáadását jelenti egy PDF fájlhoz. Minden réteg saját rajzolási parancsokat, szöveget vagy képeket tartalmazhat, és a felhasználók be‑ vagy kikapcsolhatják a rétegeket egy PDF‑megtekintőben. Ez a funkció tökéletes a tervezési elemek, megjegyzések vagy verziózott tartalom szétválasztásához.
+## Mi az a “create pdf layers”?
+Hozzáadva a PDF-hez az opcionális tartalmi csoportok (OCG-k) létrehozásával, a PDF rétegek lehetővé teszik, hogy minden réteg saját grafikát, szöveget vagy képet tartalmazzon, amely a megjelenítőben be- vagy kikapcsolható. Ez a képesség lehetővé teszi a tervezési elemek, megjegyzések vagy verziózott tartalom elválasztását egyetlen dokumentumban.
 
-## Miért használjuk az Aspose.PDF for Java‑t pdf rétegek létrehozásához?
-- **Teljes irányítás** a PDF struktúra felett Adobe Acrobat nélkül.  
-- **Keresztplatformos** – működik Windows, Linux és macOS rendszereken.  
-- **Robusztus licencmodell**, amely a megfelelő licenc megléte esetén eltávolítja a használati korlátokat.  
-- **Gazdag API** rajzoláshoz, szöveghez és rétegkezeléshez, amely megkönnyíti a **customize pdf layer colors** feladatot.
+## Miért használja az Aspose.PDF for Java-t pdf rétegek létrehozásához?
+Az Aspose.PDF for Java-val PDF rétegeket hozhat létre Adobe Acrobat nélkül, és teljes programozott vezérlést kap a rétegek láthatósága, színei és sorrendje felett. A könyvtár Windows, Linux és macOS rendszereken működik, több mint 50 bemeneti és kimeneti formátumot támogat, és több száz oldalas PDF-eket is feldolgozhat anélkül, hogy a teljes fájlt a memóriába töltené.
 
 ## Előfeltételek
 
-Mielőtt elkezdenénk, győződjön meg róla, hogy a következőkkel rendelkezik:
-
 ### Szükséges könyvtárak
-Szüksége lesz **Aspose.PDF for Java**‑ra (a tutorial a 25.3‑as verzióval készült, de bármely friss verzió működik). A könyvtár naprakészen tartása biztosítja a legújabb hibajavításokat és funkciókat.
+Szüksége lesz **Aspose.PDF for Java**-ra (az útmutatót a 25.3-as verzióval írtuk, de bármely friss verzió működik). A könyvtár naprakészen tartása hozzáférést biztosít a legújabb, 50+ formátumtámogatáshoz és teljesítményjavulásokhoz.
 
 ### Környezet beállítási követelmények
 - **Java Development Kit (JDK):** 8-as vagy újabb verzió.  
-- **IDE:** IntelliJ IDEA, Eclipse vagy NetBeans – bármelyik, amit kedvel a Java fejlesztéshez.
+- **IDE:** IntelliJ IDEA, Eclipse vagy NetBeans – attól függően, melyiket részesíti előnyben Java fejlesztéshez.
 
 ### Tudás előfeltételek
-Az alapvető Java ismeretek és a Maven vagy Gradle használata a függőségkezeléshez megkönnyíti a lépéseket.
+A Java alapjainak ismerete és a Maven vagy Gradle függőségkezeléssel való jártaság megkönnyíti a lépéseket.
 
-## Aspose.PDF for Java beállítása
+## Az Aspose.PDF for Java beállítása
 
-Az Aspose.PDF for Java használatának megkezdéséhez hozzá kell adni a könyvtárat a projektjéhez. Az alábbiak a leggyakoribb build‑tool konfigurációk.
+Az Aspose.PDF for Java használatának megkezdéséhez hozzá kell adni a könyvtárat a projekthez. Az alábbiakban a két leggyakoribb build‑eszköz konfigurációt mutatjuk be.
 
 ### Maven
 Adja hozzá a következő függőséget a `pom.xml` fájlhoz:
@@ -80,15 +127,15 @@ Adja hozzá a következő függőséget a `pom.xml` fájlhoz:
 ```
 
 ### Gradle
-Illessze be ezt a sort a `build.gradle` fájlba:
+Adja hozzá ezt a sort a `build.gradle` fájlhoz:
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
 #### Licenc beszerzési lépések
-- **Ingyenes próba:** Kezdje egy próbaverzióval, hogy felfedezze a könyvtár képességeit.  
-- **Ideiglenes licenc:** Kérjen ideiglenes kulcsot az Aspose weboldaláról értékeléshez.  
-- **Vásárlás:** Termeléshez vásároljon licencet, hogy minden funkciót feloldjon és eltávolítsa a kiértékelési vízjeleket.
+- **Free Trial:** Kezdjen egy próbaverzióval, hogy felfedezze a könyvtár képességeit.  
+- **Temporary License:** Kérjen ideiglenes kulcsot az Aspose weboldaláról értékeléshez.  
+- **Purchase:** Gyártási használathoz vásároljon licencet, hogy feloldja az összes funkciót és eltávolítsa a próbaverzió vízjeleit.
 
 A licenc aktiválásához adja hozzá a következő Java kódot a projektjéhez:
 
@@ -108,19 +155,23 @@ public class PDFSetup {
 }
 ```
 
-> **Pro tipp:** Tartsa a licencfájlt a forráskód‑kezelésen kívül, és hivatkozzon rá abszolút vagy környezeti változó útvonallal.
+> **Pro tip:** Tartsa a licencfájlt a forráskód kezelése (source control) kívül, és hivatkozzon rá abszolút vagy környezeti változó útvonallal.
 
-## Implementációs útmutató
+## Hogyan adjon hozzá PDF réteg láthatóságot?
+`OptionalContentGroup` egy opcionális tartalmi csoportot (réteget) képvisel egy PDF-ben, és szabályozza annak láthatóságát.  
+A réteg láthatóságát a `OptionalContentGroup` API használatával szabályozhatja – állítsa be a `visibility` tulajdonságot `true` vagy `false` értékre a mentés előtt, és a PDF-megjelenítők tiszteletben tartják az állapotot. Ez lehetővé teszi, hogy olyan PDF-eket hozzon létre, ahol bizonyos rétegek alapértelmezés szerint rejtve vannak, és egyetlen kattintással megjeleníthetők.
 
-### PDF dokumentum létrehozása
+## PDF dokumentum létrehozása
+
+`Document` osztály az Aspose.PDF felső szintű objektuma, amely egyetlen PDF fájlt képvisel a memóriában. Az példányosítás után minden olvasási és írási művelet ezen az objektumon keresztül történik.
 
 #### Áttekintés
-Az első építőelem egy egyszerű **create pdf document** hívás. Ez a szakasz bemutatja, hogyan hozhatunk létre egy `Document` objektumot, adhatunk hozzá egy oldalt, és menthetjük le a lemezre.
+Az első építőelem egy egyszerű **create pdf document** hívás. Ez a szakasz bemutatja, hogyan hozhatunk létre egy `Document` példányt, adhatunk hozzá egy oldalt, és menthetjük lemezre.
 
 #### Lépések
-1. **A Document inicializálása** – hozzon létre egy új `Document` objektumot.  
-2. **Oldal hozzáadása** – használja a `doc.getPages().add()` metódust.  
-3. **Fájl mentése** – hívja a `doc.save()`‑t a kívánt kimeneti útvonallal.
+1. **Initialize the Document** – hozzon létre egy új `Document` objektumot.  
+2. **Add a Page** – használja a `doc.getPages().add()` metódust.  
+3. **Save the File** – hívja a `doc.save()`-t a kívánt kimeneti úttal.
 
 ```java
 import com.aspose.pdf.Document;
@@ -141,16 +192,19 @@ public class CreatePDF {
 }
 ```
 
-### Rétegek létrehozása és konfigurálása PDF‑hez
+## PDF rétegek létrehozása és konfigurálása
+
+`Layer` osztály az Aspose.PDF reprezentációja egy opcionális tartalmi csoportnak, amely be- vagy kikapcsolható.  
+`SetRGBColorStroke` beállítja a körvonal színét, `MoveTo` mozgatja a rajz kurzort, `LineTo` definiál egy vonal szegmenst, és `Stroke` megjeleníti az útvonalat. Minden réteg egy színes vonalat tartalmaz, bemutatva, hogyan működnek az opcionális tartalmi csoportok.
 
 #### Áttekintés
-Most **pdf rétegeket** hozunk létre, és **pdf réteg színeket testreszabunk**. Minden réteg egy színes vonalat tartalmaz, amely bemutatja, hogyan működnek az opcionális tartalmi csoportok.
+Most **create pdf layers** és **customize pdf layer colors** fogunk végrehajtani. Minden réteg egy színes vonalat tartalmaz, bemutatva, hogyan működnek az opcionális tartalmi csoportok.
 
 #### Lépések
-1. **Oldal inicializálása** – kezdjen egy friss oldallal, ahová a rétegek kerülnek.  
-2. **Rétegek létrehozása** – példányosítson `Layer` objektumokat, állítson be nevet, és adjon hozzá rajzolási operátorokat.  
-3. **Rajzolási műveletek hozzáadása** – használja a `SetRGBColorStroke`, `MoveTo`, `LineTo` és `Stroke` metódusokat színes vonalak rajzolásához.  
-4. **Dokumentum mentése** – mentse el a PDF‑et a rétegekkel együtt.
+1. **Initialize a Page** – kezdjen egy új oldallal, ahol a rétegek el lesznek helyezve.  
+2. **Create Layers** – hozza létre a `Layer` objektumokat, állítson be nevet, és adjon hozzá rajzoló operátorokat.  
+3. **Add Drawing Operations** – használja a `SetRGBColorStroke`, `MoveTo`, `LineTo`, és `Stroke` metódusokat színes vonalak rajzolásához.  
+4. **Save the Document** – mentse el a PDF-et a rétegekkel együtt.
 
 ```java
 import com.aspose.pdf.*;
@@ -212,54 +266,59 @@ public class CreatePDFWithLayers {
 }
 ```
 
-### Hibaelhárítási tippek
-- **A rétegek nem láthatók?** Ellenőrizze, hogy a rajzolási koordináták az oldal határain belül vannak-e, és hogy minden rétegnek egyedi neve van-e.  
-- **Teljesítménycsökkenés nagy PDF‑eknél?** Csökkentse a rajzolási műveletek számát rétegenként, vagy bontsa a dokumentumot több fájlra.  
-- **Licencfigyelmeztetések?** Győződjön meg róla, hogy a `license.setLicense(...)` hívás egy érvényes `.lic` fájlra mutat, és hogy a fájl futásidőben elérhető.
+## Hibaelhárítási tippek
+- **Layers not visible?** Ellenőrizze, hogy a rajzolási koordináták az oldalhatárokon belül vannak-e, és hogy minden rétegnek egyedi neve van-e.  
+- **Performance slowdown on large PDFs?** Csökkentse a rajzolási műveletek számát rétegenként, vagy bontsa a dokumentumot több fájlra.  
+- **License warnings?** Győződjön meg róla, hogy a `license.setLicense(...)` hívás egy érvényes `.lic` fájlra mutat, és hogy a fájl futásidőben elérhető.
 
 ## Gyakorlati alkalmazások
-A rétegezett PDF‑ek számos területen ragyognak:
-1. **Építészeti tervek:** A szerkezeti, elektromos és vízvezeték rajzokat külön rétegekre bontja.  
-2. **Tervezési vázlatok:** Tartsa a koncepcióvázlatokat, megjegyzéseket és a végső rendereléseket külön rétegeken a könnyű átkapcsolás érdekében.  
-3. **Oktatási anyagok:** Fejezeteket, feladatokat és megoldásokat rétegekre osztva, hogy az oktatók igény szerint felfedhessék a válaszokat.
+Az rétegelt PDF-ek számos területen ragyognak:
+1. **Architectural Plans:** Szétválasztja a szerkezeti, elektromos és vízvezeték tervezeteket külön rétegekre.  
+2. **Design Drafting:** Tartsa a koncepcióvázlatokat, megjegyzéseket és a végső rendereléseket külön rétegeken a könnyű átkapcsoláshoz.  
+3. **Educational Materials:** Osztja fel a fejezeteket, feladatokat és megoldásokat rétegekre, hogy az oktatók igény szerint felfedhessék a válaszokat.
 
-Ezeket a PDF‑eket beágyazhatja webportálokba, mobilalkalmazásokba vagy asztali megjelenítőkbe, amelyek támogatják az opcionális tartalmi csoportokat.
+Ezeket a PDF-eket beágyazhatja webportálokba, mobilalkalmazásokba vagy asztali megjelenítőkbe, amelyek támogatják az opcionális tartalmi csoportokat.
 
-## Teljesítménybeli megfontolások
-Amikor sok réteggel generál PDF‑et, tartsa szem előtt a következő legjobb gyakorlatokat:
-- **Kötegelt feldolgozás:** Több dokumentumot dolgozzon fel egy futtatás során, hogy csökkentse a JVM felmelegedési költségét.  
-- **Erőforrás‑kezelés:** Zárja le a stream‑eket és szabadítsa fel a fájl‑handle‑eket időben (`doc.close()`, ha stream‑et nyit).  
-- **Profilozás:** Használjon olyan eszközöket, mint a VisualVM vagy a YourKit, hogy memóriaproblémákat azonosítson, különösen ha több ezer réteget hoz létre.
+## Teljesítményfontosságú szempontok
+Amikor sok réteggel rendelkező PDF-eket generál, tartsa szem előtt ezeket a bevált gyakorlatokat:
+- **Batch Processing:** Több dokumentum feldolgozása egyetlen futtatás során a JVM felmelegedési költség csökkentése érdekében.  
+- **Resource Management:** Zárja be a streameket és szabadítsa fel a fájlkezelőket időben (`doc.close()`, ha streameket nyit).  
+- **Profiling:** Használjon olyan eszközöket, mint a VisualVM vagy a YourKit, hogy memóriaproblémákat azonosítson, különösen ha több ezer réteget hoz létre.
 
-Ezen irányelvek betartásával gyors és válaszkész PDF‑generálást érhet el még nagy léptékben is.
+Ezen irányelvek betartásával gyors és válaszkész PDF-generálást biztosíthat még nagy méretekben is.
 
 ## Gyakran Ismételt Kérdések
 
 **Q: Szükségem van fizetett licencre a pdf rétegek létrehozásához?**  
-A: A próbaverzió lehetővé teszi a kísérletezést, de egy teljes **aspose pdf licensing** kulcs eltávolítja a kiértékelési korlátozásokat és minden rétegfunkciót felold a termeléshez.
+A: A próbaverzió licenc lehetővé teszi a kísérletezést, de egy teljes **Aspose PDF licensing** kulcs eltávolítja a próbaverzió korlátozásait és engedélyezi az összes réteg funkciót a termeléshez.
 
-**Q: Hozzáadhatok szöveget vagy képet egy réteghez a vonalak helyett?**  
-A: Igen. Bármely PDF operátor (szöveg, kép, űrlapmező) hozzáadható egy `Layer` tartalomgyűjteményéhez.
+**Q: Hozzáadhatok szöveget vagy képeket egy réteghez a vonalak helyett?**  
+A: Igen. Bármely PDF operátor (szöveg, kép, űrlapmezők) hozzáadható egy `Layer` tartalomgyűjteményéhez.
 
 **Q: Hogyan rejthetem vagy jeleníthetem meg a rétegeket programozottan a PDF létrehozása után?**  
-A: Használja az `OptionalContentGroup` API‑t a láthatósági állapot beállításához, vagy hagyja, hogy a végfelhasználó a PDF‑megtekintőben kapcsolja ki/be a rétegeket, amely támogatja az OCG‑ket.
+A: Használja az `OptionalContentGroup` API-t a láthatósági állapot beállításához, vagy engedje, hogy a végfelhasználó átkapcsolja a rétegeket egy OCG-ket támogató PDF-megjelenítőben.
 
-**Q: Van korláta a létrehozható rétegek számának?**  
-A: Technikai szempontból nincs, de a rendkívül magas réteg szám befolyásolhatja a megtekintő teljesítményét. Legyen mértékkel (századok, nem ezrek) a legjobb eredmény érdekében.
+**Q: Van korlát a létrehozható rétegek számában?**  
+A: Technikailag nincs, de a rendkívül magas réteg szám befolyásolhatja a megjelenítő teljesítményét. Legyen ésszerű (századok, nem ezrek) a legjobb eredmény érdekében.
 
 **Q: Támogatja az Aspose.PDF a PDF/A vagy PDF/UA megfelelőséget rétegekkel?**  
-A: Igen, beállíthatja a megfelelőségi zászlókat a `Document` mentése előtt, és a rétegek megmaradnak a kompatibilis kimenetben.
+A: Igen, beállíthatja a megfelelőségi jelzőket a `Document`-on a mentés előtt, és a rétegek megmaradnak a megfelelőségi kimenetben.
 
----
-
-**Utoljára frissítve:** 2025-12-02  
+**Legutóbb frissítve:** 2026-05-28  
 **Tesztelve:** Aspose.PDF for Java 25.3  
-**Szerző:** Aspose  
+**Szerző:** Aspose
+
+## Kapcsolódó oktatóanyagok
+
+- [PDF rétegek létrehozása Java – Haladó Aspose.PDF funkciók](/pdf/java/advanced-features/)
+- [Aspose PDF Java oktatóanyag: PDF nyitási műveletek vezérlése – Haladó útmutató](/pdf/java/advanced-features/mastering-pdf-open-actions-aspose-pdf-java/)
+- [Hozzon létre hozzáférhető PDF-et Java-val az Aspose.PDF segítségével – Teljes útmutató](/pdf/java/advanced-features/accessible-pdfs-aspose-pdf-java/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

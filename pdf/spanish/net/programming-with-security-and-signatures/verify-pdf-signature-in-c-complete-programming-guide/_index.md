@@ -23,15 +23,10 @@ title: Verificar la firma PDF en C# – Guía completa de programación
 url: /es/net/programming-with-security-and-signatures/verify-pdf-signature-in-c-complete-programming-guide/
 ---
 
-not a Hugo shortcode? They look like placeholders, but we must preserve exactly. So we leave them unchanged.
 
-Now translate the rest.
 
-Let's produce final content.
 
-Be careful with bullet points, numbers, etc.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
