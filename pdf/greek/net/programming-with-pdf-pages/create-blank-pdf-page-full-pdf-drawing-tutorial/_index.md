@@ -24,13 +24,9 @@ title: Δημιουργία κενής σελίδας PDF – Πλήρης οδ�
 url: /el/net/programming-with-pdf-pages/create-blank-pdf-page-full-pdf-drawing-tutorial/
 ---
 
-.
 
-Take care of bullet points, tables.
 
-Translate sentences.
 
-Let's produce.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

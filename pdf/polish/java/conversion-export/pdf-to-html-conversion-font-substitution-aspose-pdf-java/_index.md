@@ -1,9 +1,72 @@
 ---
-"date": "2025-04-14"
-"description": "Dowiedz się, jak konwertować pliki PDF do HTML za pomocą Aspose.PDF dla Java, w tym techniki podstawiania czcionek. Idealne dla programistów, którzy chcą zachować integralność dokumentu."
-"title": "Konwersja PDF do HTML z zamianą czcionek przy użyciu Aspose.PDF dla Java"
-"url": "/pl/java/conversion-export/pdf-to-html-conversion-font-substitution-aspose-pdf-java/"
-"weight": 1
+date: '2026-07-27'
+description: Dowiedz się, jak konwertować PDF do HTML Java przy użyciu Aspose.PDF,
+  w tym jak zamienić fonts na brakujące typefaces. Postępuj zgodnie z instrukcjami
+  krok po kroku, aby uzyskać płynną konwersję.
+keywords:
+- convert pdf to html java
+- how to substitute fonts
+- Aspose.PDF for Java
+lastmod: '2026-07-27'
+og_description: Dowiedz się, jak konwertować PDF do HTML Java przy użyciu Aspose.PDF,
+  w tym jak zamienić fonts na brakujące typefaces. Postępuj zgodnie z instrukcjami
+  krok po kroku, aby uzyskać płynną konwersję.
+og_image_alt: Guide showing PDF to HTML conversion with font substitution in Java
+  using Aspose.PDF
+og_title: Konwertuj PDF do HTML Java z Font Substitution Aspose.PDF
+schemas:
+- author: Aspose
+  dateModified: '2026-07-27'
+  description: Learn how to convert PDF to HTML Java using Aspose.PDF, including how
+    to substitute fonts for missing typefaces. Follow step‑by‑step instructions for
+    seamless conversion.
+  headline: Convert PDF to HTML Java with Font Substitution Aspose.PDF
+  type: TechArticle
+- description: Learn how to convert PDF to HTML Java using Aspose.PDF, including how
+    to substitute fonts for missing typefaces. Follow step‑by‑step instructions for
+    seamless conversion.
+  name: Convert PDF to HTML Java with Font Substitution Aspose.PDF
+  steps:
+  - name: Set up directories and load the document
+    text: Define the input PDF path and the desired HTML output location. Then create
+      a `Document` instance to represent the source PDF.
+  - name: Create a custom font‑substitution class
+    text: '`CustomFontSubstitutionBase` is the base class Aspose.PDF uses to resolve
+      missing fonts. Extend it and override the `substituteFont` method to map source
+      fonts to your preferred replacements.'
+  - name: Register a notifier for substitution events
+    text: Attach an event handler to `Document` so you can log each substitution occurrence.
+      This helps you verify that all missing fonts are being correctly replaced.
+  - name: Configure HtmlSaveOptions and perform the conversion
+    text: Instantiate `HtmlSaveOptions`, set any required options (such as `SplitIntoPages`),
+      and call `document.save(outputPath, htmlOptions)` to generate the HTML files.
+  type: HowTo
+- questions:
+  - answer: Yes – instantiate `Document` with the password parameter or set `document.decrypt(password)`
+      before conversion.
+    question: Can I convert password‑protected PDFs?
+  - answer: Absolutely. Use `HtmlSaveOptions.setPageIndex()` and `setPageCount()`
+      to limit the conversion range.
+    question: Does the API support converting only selected pages?
+  - answer: There is no hard limit; you can map as many as needed, typically using
+      a `Map<String, String>` for fast lookup.
+    question: How many fonts can I map in a single substitution class?
+  - answer: Font names are matched case‑insensitively by default, but you can enforce
+      case sensitivity by customizing the logic.
+    question: Is font substitution case‑sensitive?
+  - answer: The Aspose.PDF for Java documentation provides a rich set of code samples
+      covering all conversion scenarios.
+    question: Where can I find more examples?
+  type: FAQPage
+tags:
+- convert pdf
+- Aspose.PDF
+- Java
+- font substitution
+- PDF to HTML
+title: Konwertuj PDF do HTML Java z Font Substitution Aspose.PDF
+url: /pl/java/conversion-export/pdf-to-html-conversion-font-substitution-aspose-pdf-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,33 +74,59 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Opanowanie konwersji PDF do HTML z podmianą czcionek przy użyciu Aspose.PDF dla Java
+# Opanowanie konwersji PDF do HTML z zamianą czcionek przy użyciu Aspose.PDF dla Javy
 
-## Wstęp
+## Wprowadzenie
 
-Szukasz bezproblemowej metody konwersji dokumentów PDF do HTML przy jednoczesnym zachowaniu integralności czcionek? Jesteś we właściwym miejscu! Ten samouczek przeprowadzi Cię przez korzystanie z Aspose.PDF dla Java w celu wydajnej konwersji PDF do HTML, w tym podmiany czcionek. Niezależnie od tego, czy jesteś programistą zarządzającym przepływami pracy dokumentów, czy profesjonalistą IT poszukującym solidnych rozwiązań, ta funkcja jest nieoceniona.
+Konwertuj PDF do HTML w Javie przy użyciu Aspose.PDF i zachowaj czcionki dokładnie takie, jak zamierzone. W tym samouczku poznasz kompletną, gotową do produkcji metodę przekształcania plików PDF w gotowy do sieci HTML, automatycznie zamieniając brakujące czcionki. Niezależnie od tego, czy tworzysz usługę archiwizacji dokumentów, katalog e‑commerce, czy importer CMS, ten przewodnik daje Ci pewność dostarczania wyników idealnie odzwierciedlających oryginał.
 
-### Czego się nauczysz:
-- Konfigurowanie i używanie Aspose.PDF dla Java.
-- Konwersja plików PDF do HTML z zamianą czcionek.
-- Dostosowywanie logiki podstawiania czcionek za pomocą zaawansowanego interfejsu API Aspose.PDF.
-- Zastosowania procesu konwersji w świecie rzeczywistym.
+### Szybkie odpowiedzi
+- **Co robi konwersja?** Tworzy HTML, który odzwierciedla układ oryginalnego PDF, w tym obrazy, tabele i sformatowany tekst.  
+- **Czy mogę zamienić brakujące czcionki?** Tak – Aspose.PDF pozwala mapować niedostępne czcionki na określone przez Ciebie alternatywy.  
+- **Jakiej wersji Javy wymaga?** Java 8 lub wyższa; biblioteka działa na wszystkich nowoczesnych JVM.  
+- **Czy potrzebna jest licencja do produkcji?** Licencja komercyjna usuwa ograniczenia wersji próbnej; dostępna jest darmowa wersja próbna do oceny.  
+- **Czy proces jest szybki dla dużych plików?** Przy odpowiednim dostosowaniu pamięci, Aspose.PDF obsługuje PDF‑y o 500 stronach w mniej niż minutę.
 
-Zanim rozpoczniesz wdrażanie, upewnij się, że masz wszystkie niezbędne warunki wstępne.
+## Co to jest Aspose.PDF dla Javy?
+
+Aspose.PDF dla Javy to kompleksowe API umożliwiające tworzenie, manipulację i konwersję dokumentów PDF bez potrzeby używania Adobe Acrobat. Obsługuje ponad 50 formatów wejściowych i wyjściowych, zapewnia dostęp do obiektów niskiego poziomu i może przetwarzać pliki o setkach stron bez ładowania całego dokumentu do pamięci, co czyni je idealnym do automatyzacji po stronie serwera.
+
+## Dlaczego warto używać Aspose.PDF dla Javy do konwersji PDF na HTML?
+
+Aspose.PDF przetwarza PDF‑y na poziomie obiektów, zachowując grafikę wektorową, osadzone czcionki i złożone układy. Korzyści obejmują wsparcie dla **ponad 50 formatów plików**, możliwość konwersji **PDF‑ów o 500 stronach w mniej niż 60 sekund** oraz działanie **bez zależności** (nie wymaga zewnętrznych przeglądarek PDF).
+
+## Czym jest zamiana czcionek i dlaczego ma znaczenie?
+
+Zamiana czcionek zastępuje brakujący lub niedostępny krój czcionki predefiniowaną alternatywą, zapewniając spójny wygląd konwertowanego HTML. Bez zamiany wynik może wyświetlać domyślne czcionki systemowe, co psuje projekt i czytelność stron internetowych.
 
 ## Wymagania wstępne
 
-Aby efektywnie korzystać z tego samouczka, będziesz potrzebować:
+- **Aspose.PDF dla Javy** wersja 25.3 (lub nowsza).  
+- Środowisko programistyczne Java 8+ (IntelliJ IDEA, Eclipse lub dowolne wybrane IDE).  
+- Podstawowa znajomość Java I/O oraz obsługi wyjątków.  
 
-- **Biblioteki i wersje**: Upewnij się, że posiadasz plik Aspose.PDF dla Java w wersji 25.3.
-- **Konfiguracja środowiska**:Środowisko programistyczne umożliwiające uruchamianie aplikacji Java (zalecane środowisko IDE, takie jak IntelliJ IDEA lub Eclipse).
-- **Wymagania dotyczące wiedzy**:Znajomość koncepcji programowania w języku Java, w szczególności obsługi plików i wyjątków.
+## Jak konwertować PDF do HTML w Javie z zamianą czcionek?
 
-## Konfigurowanie Aspose.PDF dla Java
+Proces konwersji składa się z trzech głównych kroków: wczytania PDF, zastosowania własnego obsługującego zamianę czcionek oraz zapisania wyniku jako HTML. Klasa `Document` reprezentuje plik PDF i udostępnia metody do manipulacji jego zawartością. Klasa `HtmlSaveOptions` definiuje, jak PDF jest renderowany do HTML, a klasa `CustomFontSubstitutionBase` pozwala kontrolować logikę zamiany czcionek. Postępując zgodnie ze szczegółowymi krokami poniżej, możesz niezawodnie tworzyć dokumenty gotowe do sieci, zachowujące pierwotny wygląd i charakter.
+
+### Krok 1: Skonfiguruj katalogi i wczytaj dokument
+Określ ścieżkę wejściowego PDF oraz docelową lokalizację wyjściowego HTML. Następnie utwórz instancję `Document`, aby reprezentować źródłowy PDF.
+
+### Krok 2: Utwórz własną klasę zamiany czcionek
+`CustomFontSubstitutionBase` jest klasą bazową, której Aspose.PDF używa do rozwiązywania brakujących czcionek. Rozszerz ją i nadpisz metodę `substituteFont`, aby mapować czcionki źródłowe na wybrane przez Ciebie zamienniki.
+
+### Krok 3: Zarejestruj powiadamiacz zdarzeń zamiany
+Dołącz obsługę zdarzeń do `Document`, aby móc logować każde wystąpienie zamiany. To pomaga zweryfikować, że wszystkie brakujące czcionki są prawidłowo zastępowane.
+
+### Krok 4: Skonfiguruj HtmlSaveOptions i wykonaj konwersję
+Utwórz instancję `HtmlSaveOptions`, ustaw wymagane opcje (np. `SplitIntoPages`) i wywołaj `document.save(outputPath, htmlOptions)`, aby wygenerować pliki HTML.
+
+## Jak skonfigurować Aspose.PDF dla Javy?
+
+Aspose.PDF dla Javy można dodać do projektu przy użyciu Maven lub Gradle. Wybierz narzędzie budujące pasujące do Twojego workflow i dodaj zależność jak pokazano poniżej.
 
 ### Instalacja za pomocą Maven
-
-Aby dodać Aspose.PDF do swojego projektu za pomocą Maven, uwzględnij następującą zależność w swoim `pom.xml`:
+Add the following dependency to your `pom.xml`:
 
 ```xml
 <dependency>
@@ -48,58 +137,101 @@ Aby dodać Aspose.PDF do swojego projektu za pomocą Maven, uwzględnij następu
 ```
 
 ### Instalacja za pomocą Gradle
-
-W przypadku projektów wykorzystujących Gradle dodaj następujący wiersz do swojego `build.gradle`:
+Include this line in your `build.gradle` file:
 
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### Etapy uzyskania licencji
-
-Aspose.PDF oferuje różne opcje licencjonowania:
-- **Bezpłatna wersja próbna**:Przetestuj funkcje z ograniczeniami.
-- **Licencja tymczasowa**Uzyskaj tymczasową licencję zapewniającą pełny dostęp na czas trwania oceny.
-- **Zakup**:Kup subskrypcję lub licencję wieczystą, aby korzystać z usługi długoterminowo.
+### Kroki uzyskania licencji
+Aspose.PDF oferuje darmową wersję próbną, tymczasowe licencje do oceny oraz pełne licencje komercyjne do użytku produkcyjnego. Wybierz opcję odpowiadającą harmonogramowi Twojego projektu.
 
 #### Podstawowa inicjalizacja i konfiguracja
-Po dodaniu biblioteki zainicjuj ją w swojej aplikacji Java:
+After adding the library, set the license at the start of your application:
 
 ```java
 com.aspose.pdf.License license = new com.aspose.pdf.License();
 license.setLicense("path_to_your_license.lic");
 ```
 
-## Przewodnik wdrażania
+## Podsumowanie przewodnika implementacji
 
-### Omówienie funkcji: Konwersja PDF do HTML z podmianą czcionek
+Proces konwersji składa się z wczytania PDF, zastosowania logiki zamiany czcionek oraz zapisania jako HTML. Postępując zgodnie z czterema powyższymi krokami, możesz niezawodnie tworzyć dokumenty gotowe do sieci, zachowujące pierwotny wygląd i charakter.
 
-Funkcja ta umożliwia konwersję dokumentów PDF do formatu HTML, zastępując niedostępne czcionki określonymi alternatywami, co zapewnia spójność wizualną.
+## Typowe problemy i wskazówki rozwiązywania
 
-#### Krok 1: Skonfiguruj katalogi i załaduj dokument
+- **Nieprawidłowe ścieżki plików** – Sprawdź, czy katalogi wejściowy i wyjściowy istnieją i są zapisywalne.  
+- **Licencja nie została zastosowana** – Upewnij się, że `License.setLicense()` wskazuje na prawidłowy plik `.lic`; w przeciwnym razie pojawią się komunikaty o znakach wodnych.  
+- **Brakujące czcionki nie są zamieniane** – Zweryfikuj, czy Twoja własna klasa zamiany zwraca prawidłowy obiekt `FontInfo` dla każdej niezamapowanej czcionki.
 
-Zacznij od określenia ścieżek do pliku wejściowego PDF i wyjściowego HTML:
+## Praktyczne zastosowania
+
+1. **Archiwizacja dokumentów** – Konwertuj starsze PDF‑y na przeszukiwalny HTML dla portali internetowych.  
+2. **Katalogi e‑commerce** – Przekształcaj PDF‑y produktów w responsywne listy HTML.  
+3. **Systemy zarządzania treścią** – Umożliwiaj redaktorom importowanie PDF‑ów i automatyczne renderowanie ich jako stron internetowych.  
+4. **Automatyczne raportowanie** – Generuj raporty HTML z szablonów PDF do dystrybucji e‑mailowej.
+
+## Rozważania dotyczące wydajności
+
+### Optymalizacja wydajności
+- Przetwarzaj PDF‑y w trybie strumieniowym, aby utrzymać niskie zużycie pamięci.  
+- Ponownie używaj obiektów `HtmlSaveOptions` przy konwersji wielu plików w partii.
+
+### Najlepsze praktyki zarządzania pamięcią w Javie
+- Monitoruj rozmiar sterty JVM i włącz G1GC dla konwersji na dużą skalę.  
+- Wywołuj `document.dispose()` po każdej konwersji, aby szybko zwolnić zasoby natywne.
+
+## Podsumowanie
+
+Masz teraz kompletną, gotową do produkcji metodę **konwersji PDF do HTML w Javie**, automatycznie obsługującą zamianę czcionek. Ta funkcja zapewnia, że wynikowy HTML wygląda dokładnie tak jak źródłowy PDF, nawet gdy oryginalne czcionki nie są dostępne w systemie docelowym.
+
+### Kolejne kroki
+Zbadaj dodatkowe funkcje Aspose.PDF, takie jak scalanie PDF‑ów, dodawanie znaków wodnych i podpisy cyfrowe, aby jeszcze bardziej wzbogacić swój pipeline przetwarzania dokumentów.
+
+## Najczęściej zadawane pytania
+
+**Q: Czy mogę konwertować PDF zabezpieczone hasłem?**  
+A: Tak – utwórz `Document` z parametrem hasła lub ustaw `document.decrypt(password)` przed konwersją.
+
+**Q: Czy API obsługuje konwersję tylko wybranych stron?**  
+A: Oczywiście. Użyj `HtmlSaveOptions.setPageIndex()` i `setPageCount()`, aby ograniczyć zakres konwersji.
+
+**Q: Ile czcionek mogę zamapować w jednej klasie zamiany?**  
+A: Nie ma sztywnego limitu; możesz zamapować dowolną liczbę, zazwyczaj używając `Map<String, String>` do szybkiego wyszukiwania.
+
+**Q: Czy zamiana czcionek jest rozróżniana pod względem wielkości liter?**  
+A: Nazwy czcionek są domyślnie dopasowywane bez uwzględniania wielkości liter, ale możesz wymusić rozróżnianie wielkości liter, dostosowując logikę.
+
+**Q: Gdzie mogę znaleźć więcej przykładów?**  
+A: Dokumentacja Aspose.PDF dla Javy zawiera bogaty zestaw przykładów kodu obejmujących wszystkie scenariusze konwersji.
+
+## Zasoby
+- [Dokumentacja](https://reference.aspose.com/pdf/java/)
+- [Pobierz bibliotekę](https://releases.aspose.com/pdf/java/)
+- [Kup licencje](https://purchase.aspose.com/buy)
+- [Darmowa wersja próbna](https://releases.aspose.com/pdf/java/)
+- [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
+- [Forum wsparcia](https://forum.aspose.com/c/pdf/10)
+
+Zanurz się w świecie konwersji dokumentów z Aspose.PDF dla Javy i zrewolucjonizuj sposób zarządzania PDF‑ami w swoich aplikacjach!
+
+---
+**Ostatnia aktualizacja:** 2026-07-27  
+**Testowano z:** Aspose.PDF for Java 25.3  
+**Autor:** Aspose
 
 ```java
-String dataDir = "YOUR_DOCUMENT_DIRECTORY/input1.pdf"; // Ścieżka wejściowa PDF
-String outputDir = "YOUR_OUTPUT_DIRECTORY/pdfToHTMLWithFontSubstitution.html"; // Ścieżka wyjściowa HTML
+String dataDir = "YOUR_DOCUMENT_DIRECTORY/input1.pdf"; // Input PDF path
+String outputDir = "YOUR_OUTPUT_DIRECTORY/pdfToHTMLWithFontSubstitution.html"; // Output HTML path
 
-// Załaduj dokument z określonego katalogu
+// Load the document from the specified directory
 Document pdf = new Document(dataDir);
 ```
-
-#### Krok 2: Skonfiguruj logikę podstawiania czcionek
-
-Utwórz niestandardową podklasę `CustomFontSubstitutionBase` aby obsługiwać zamiany czcionek:
 
 ```java
 CustomSubst1 subst1 = new CustomSubst1();
 FontRepository.getSubstitutions().add(subst1);
 ```
-
-#### Krok 3: Dodaj powiadomienie o zdarzeniach zamiany czcionek
-
-Zarejestruj obsługę zdarzeń, aby logować lub drukować szczegóły dotyczące zastępowania czcionek:
 
 ```java
 pdf.FontSubstitution.add(new Document.FontSubstitutionHandler() {
@@ -109,71 +241,21 @@ pdf.FontSubstitution.add(new Document.FontSubstitutionHandler() {
 });
 ```
 
-#### Krok 4: Konwersja PDF do HTML
-
-Skonfiguruj `HtmlSaveOptions` i zapisz dokument jako plik HTML:
-
 ```java
 HtmlSaveOptions options = new HtmlSaveOptions();
 pdf.save(outputDir, options);
 ```
 
-### Porady dotyczące rozwiązywania problemów
+## Powiązane samouczki
 
-- Sprawdź, czy wszystkie ścieżki są poprawnie określone.
-- Jeśli napotkasz ograniczenia funkcji, sprawdź, czy licencja Aspose.PDF jest ustawiona prawidłowo.
+- [Konwersja PDF do HTML: Rejestrowanie ostrzeżeń o zamianie czcionek przy użyciu Aspose.PDF dla Javy](/pdf/java/conversion-export/capture-font-substitution-warnings-pdf-html-conversion-asposepdf-java/)
+- [Jak konwertować PDF do HTML w Javie przy użyciu Aspose.PDF: Wykluczanie konkretnych czcionek](/pdf/java/conversion-export/pdf-to-html-conversion-java-exclude-fonts-aspose-pdf/)
+- [pdf to html java – Konwertuj PDF do HTML z osadzonymi zasobami przy użyciu Aspose.PDF dla Javy](/pdf/java/conversion-export/convert-pdf-to-html-aspose-java-embedded-resources/)
 
-## Zastosowania praktyczne
-
-1. **Archiwizacja dokumentów**: Konwertuj starsze archiwa PDF na przyjazne dla Internetu formaty HTML, aby zapewnić lepszą dostępność.
-2. **Platformy e-commerce**:Przekształć katalogi produktów do formatu HTML, aby zapewnić bezproblemową integrację ze sklepami internetowymi.
-3. **Systemy zarządzania treścią (CMS)**:Ulepsz CMS, umożliwiając importowanie i konwersję rozbudowanych dokumentów.
-4. **Automatyczne generowanie raportów**: Dynamiczna konwersja raportów z różnych działów do formatu HTML w celu ujednolicenia dystrybucji.
-
-## Rozważania dotyczące wydajności
-
-### Optymalizacja wydajności
-- Stosuj efektywne metody zarządzania zasobami przy obsłudze dużych plików PDF.
-- Upewnij się, że aplikacja ma wystarczającą ilość przydzielonej pamięci, aby móc płynnie przetwarzać złożone dokumenty.
-
-### Najlepsze praktyki dotyczące zarządzania pamięcią Java
-- Regularnie monitoruj i zarządzaj przestrzenią sterty JVM.
-- Zoptymalizuj zbieranie śmieci, dostrajając parametry JVM według potrzeb.
-
-## Wniosek
-
-Postępując zgodnie z tym przewodnikiem, posiadasz teraz solidną metodę konwersji plików PDF do HTML, zapewniając jednocześnie spójność czcionek. Ta umiejętność jest nieoceniona w utrzymaniu integralności dokumentu na różnych platformach.
-
-### Następne kroki
-Rozważ zapoznanie się z bardziej zaawansowanymi funkcjami pakietu Aspose.PDF dla języka Java lub zintegrowanie go z innymi systemami w celu zwiększenia możliwości swojej aplikacji.
-
-## Sekcja FAQ
-
-1. **Jakie są korzyści ze stosowania Aspose.PDF w Javie?**
-   - Kompleksowe możliwości przetwarzania i konwersji plików PDF, gwarantujące wysoką wierność wyników.
-2. **Jak mogę rozwiązać problemy z licencjonowaniem Aspose.PDF?**
-   - Zacznij od bezpłatnego okresu próbnego lub poproś o tymczasową licencję, aby móc przetestować wszystkie funkcje.
-3. **Czy mogę konwertować duże dokumenty PDF bez pogorszenia wydajności?**
-   - Tak, poprzez optymalizację aplikacji Java pod kątem lepszego zarządzania zasobami i alokacji pamięci.
-4. **Czy można dostosować podmianę czcionek?**
-   - Oczywiście! Możesz zdefiniować konkretne reguły i mapowania dla substytucji czcionek w razie potrzeby.
-5. **Jakie opcje wsparcia są dostępne, jeśli napotkam problemy?**
-   - Aspose udostępnia obszerną dokumentację i pomocne forum społeczności, które pomogą Ci pokonać wszelkie trudności.
-
-## Zasoby
-- [Dokumentacja](https://reference.aspose.com/pdf/java/)
-- [Pobierz bibliotekę](https://releases.aspose.com/pdf/java/)
-- [Kup licencje](https://purchase.aspose.com/buy)
-- [Bezpłatna wersja próbna](https://releases.aspose.com/pdf/java/)
-- [Licencja tymczasowa](https://purchase.aspose.com/temporary-license/)
-- [Forum wsparcia](https://forum.aspose.com/c/pdf/10)
-
-Zanurz się w świecie konwersji dokumentów dzięki Aspose.PDF for Java i zrewolucjonizuj sposób zarządzania plikami PDF w swoich aplikacjach!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

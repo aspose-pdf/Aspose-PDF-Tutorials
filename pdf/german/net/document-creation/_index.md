@@ -18,6 +18,8 @@ Unsere Tutorials zur Dokumenterstellung bieten umfassende Anleitungen zur progra
 ## Verfügbare Tutorials
 
 
+
+{{< tutorial-card link="./create-pdf-x-3-document/" title="PDF/X‑3‑Dokument mit drei Seiten erstellen mit Aspose.Pdf für .NET" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
 ### [Erstellen Sie PDF-Broschüren mit Aspose.PDF für .NET: Eine Schritt-für-Schritt-Anleitung](./aspose-pdf-net-create-booklets-tutorial/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET professionelle PDF-Broschüren erstellen. Dieses Tutorial behandelt Einrichtung, Implementierung und praktische Anwendungen.
 ### [Erstellen Sie PDFs aus XML und XSLT mit Aspose.PDF .NET: Eine Schritt-für-Schritt-Anleitung](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
@@ -67,12 +69,48 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF-Dokument in C# programmge
 
 ### [PDF-Dokument mit Aspose.PDF erstellen – Seite hinzufügen, Form einfügen & speichern](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Erfahren Sie, wie Sie mit Aspose.PDF ein PDF-Dokument erstellen, Seiten und Formen hinzufügen und das Dokument speichern.
-### [PDF-Dokument mit Aspose.PDF erstellen – Schritt‑für‑Schritt‑Anleitung](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
-Erfahren Sie, wie Sie mit Aspose.PDF ein PDF-Dokument Schritt für Schritt erstellen.
 ### [PDF-Dokument mit Aspose in C# erstellen – Schritt‑für‑Schritt‑Anleitung](./create-pdf-document-with-aspose-in-c-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose in C# ein PDF-Dokument Schritt für Schritt erstellen.
 ### [PDF-Dokument in C# erstellen – Leere Seite hinzufügen und Rechteck zeichnen](./create-pdf-document-c-add-blank-page-draw-rectangle/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF-Dokument in C# erstellen, eine leere Seite hinzufügen und ein Rechteck zeichnen.
+### [PDF-Dokument in C# erstellen – Leere Seite, Tags und Span hinzufügen](./create-pdf-document-in-c-add-blank-page-tags-and-span/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF-Dokument in C# erstellen, eine leere Seite, Tags und Span hinzufügen.
+
+### [So erstellen Sie ein PDF in C# – Seite hinzufügen, Rechteck zeichnen und speichern](./how-to-create-pdf-in-c-add-page-draw-rectangle-save/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF in C# erstellen, eine Seite hinzufügen, ein Rechteck zeichnen und das Dokument speichern.
+
+### [Erstellen Sie ein PDF-Dokument in C# – Leitfaden zum Hinzufügen von Bates-Nummerierung](./create-pdf-document-c-add-bates-numbering-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# Bates-Nummerierung zu PDF-Dokumenten hinzufügen.
+
+### [PDF-Dokument erstellen – Leere Seite hinzufügen, Rechteck zeichnen & speichern](./create-pdf-document-add-blank-page-draw-rectangle-save/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF-Dokument erstellen, eine leere Seite hinzufügen, ein Rechteck zeichnen und das Dokument speichern.
+
+### [Erstellen Sie ein PDF-Dokument mit Aspose.PDF – Schritt‑für‑Schritt‑Leitfaden](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF ein PDF-Dokument Schritt für Schritt erstellen, Seiten hinzufügen, Formen einfügen und speichern.
+
+### [Erstellen Sie ein PDF-Dokument mit Aspose.PDF – Vollständiger C#‑Leitfaden](./create-pdf-document-with-aspose-pdf-full-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF in C# ein PDF-Dokument von Grund auf erstellen, inklusive Code‑Beispielen und detaillierten Schritten.
+
+### [PDF-Dokument in C# erstellen – Seite hinzufügen & Rechteck zeichnen](./create-pdf-document-in-c-add-page-to-pdf-draw-rectangle/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF-Dokument in C# erstellen, eine Seite hinzufügen und ein Rechteck zeichnen.
+
+### [PDF-Dokument in C# erstellen – Vollständiger Leitfaden zur In‑Memory-Generierung](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# PDFs vollständig im Speicher erzeugen und speichern.
+
+### [PDF-Dokument erstellen in C# – Schritt‑für‑Schritt‑Anleitung zum Hinzufügen einer leeren Seite und Zeichnen eines Rechtecks](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# ein PDF erstellen, eine leere Seite hinzufügen und ein Rechteck zeichnen.
+
+### [PDF-Bild aus HEIC erstellen – Vollständiger C#-Leitfaden](./create-pdf-image-from-heic-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET HEIC‑Bilder in PDFs einbinden und konvertieren – ein vollständiger C#‑Leitfaden.
+
+### [PDF-Dokument mit Aspose.PDF erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF ein PDF-Dokument von Grund auf erstellen, Seiten hinzufügen und das Ergebnis speichern.
+
+### [Erstellen Sie ein neues PDF-Dokument mit Bates-Nummerierung in C#](./create-new-pdf-document-with-bates-numbering-in-c/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF-Dokument erstellen und automatisch Bates‑Nummern hinzufügen.
+
+### [Erstellen Sie ein PDF/X‑4-Dokument in C# – Schritt‑für‑Schritt‑Anleitung](./create-pdf-x-4-document-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF/X‑4-Dokument in C# erstellen, inklusive Codebeispielen und Konfiguration.
 ### [PDF-Dokument mit einer leeren Seite und Rechteck erstellen](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF-Dokument mit einer leeren Seite und einem gezeichneten Rechteck erstellen.
 

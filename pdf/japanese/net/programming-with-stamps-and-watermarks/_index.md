@@ -25,11 +25,13 @@ Aspose.PDF の .NET 向けチュートリアル「スタンプと透かしを使
 | [PDFファイルに異なるヘッダーを追加する](./adding-different-headers/) Aspose.PDF for .NET を使用して PDF ファイルにさまざまなヘッダーを追加する方法を学びます。PDF をカスタマイズするためのステップバイステップガイドです。 |  
 | [PDFファイルにPDFページスタンプを追加する](./add-pdf-page-stamp/) Aspose.PDF for .NET を使用してPDFにページスタンプを追加する方法を、この詳細なガイドで学びましょう。PDFドキュメントのインパクトを高めましょう。 |  
 | [PDFファイルにテキストスタンプを追加する](./add-text-stamp/) ステップバイステップ ガイドに従って Aspose.PDF for .NET を使用して PDF ファイルにテキスト スタンプを追加し、ドキュメントのプレゼンテーションを向上させる方法を学習します。 |  
+| [PDFにスタンプを追加 – 最初のページに透かしを適用する](./add-stamp-to-pdf-apply-watermark-pdf-on-first-page/) Aspose.PDF for .NET を使用して、PDF の最初のページに透かしとしてスタンプを適用する方法をステップバイステップで解説します。 |  
 | [PDFファイル内のアーティファクトのカウント](./counting-artifacts/) Aspose.PDF for .NET を使用して PDF 内の透かしをカウントする方法を学びましょう。初心者向けのステップバイステップガイドで、事前の経験は必要ありません。 |  
 | [PDFファイル内の配置を定義する](./define-alignment/) このガイドでは、Aspose.PDF for .NET を使用して PDF ファイル内のテキスト配置を定義する方法について、ステップバイステップのチュートリアルとともに説明します。 |  
 | [スタンプ注釈からテキストを抽出する](./extract-text-from-stamp-annotation/) このステップバイステップのチュートリアルでは、詳細なコード例を使用して、Aspose.PDF for .NET を使用して PDF 内のスタンプ注釈からテキストを抽出する方法を学習します。 |  
 | [PDFファイル内のストロークテキストの塗りつぶし](./fill-stroke-text/) 実用的な例が満載のステップバイステップ ガイドで、Aspose.PDF for .NET を使用して PDF ファイルにストローク テキストを簡単に入力する方法を学びます。 |  
 | [PDFファイルから透かしを取得する](./get-watermark/) Aspose.PDF for .NET を使用してPDFファイルから透かしを抽出する方法をステップバイステップで解説します。透かし抽出の詳細なチュートリアルです。 |  
+| [C# で PDF に透かしを追加する – Aspose 完全ガイド](./add-watermark-pdf-in-c-complete-guide-with-aspose/) Aspose.PDF for .NET を使用して C# で PDF に透かしを追加する方法を、ステップバイステップで解説します。 |  
 | [ヘッダーフッターセクションの画像とページ番号](./image-and-page-number-in-header-footer-section/) このステップバイステップのチュートリアルでは、Aspose.PDF for .NET を使用して PDF のヘッダーとフッターに画像とページ番号を追加する方法を学習します。 |  
 | [ヘッダーフッターセクションのインライン画像とページ番号](./image-and-page-number-in-header-footer-section-inline/) このステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF のヘッダー セクションに画像とページ番号をインラインで追加する方法を説明します。 |  
 | [フッター内の画像](./image-in-footer/) Aspose.PDF for .NET を使ってPDFのフッターに画像を追加する方法を、ステップバイステップで詳しく解説するチュートリアルで学びましょう。ドキュメントの見栄えを良くするのに最適です。 |  
@@ -44,6 +46,21 @@ Aspose.PDF の .NET 向けチュートリアル「スタンプと透かしを使
 | [C# で PDF の不透明度を変更する – 完全な Aspose ガイド](./change-pdf-opacity-in-c-complete-aspose-guide/) Aspose.PDF for .NET を使用して C# で PDF の不透明度を変更する方法をステップバイステップで解説します。 |  
 | [C#でBates番号付PDFを追加する – 完全ガイド](./add-bates-numbering-pdf-in-c-complete-guide/) Aspose.PDF for .NET を使用して C# で PDF に Bates 番号を付与する方法をステップバイステップで解説します。文書管理に最適です。 |  
 | [Aspose を使用した機密透かし PDF: 最初のページにテキストスタンプを追加](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) Aspose.PDF for .NET を使用して、PDF の最初のページに機密テキスト透かし（スタンプ）を追加する手順をステップバイステップで解説します。 |  
+| [PDF を保存する — Aspose.Pdf でベーツ番号を追加](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) Aspose.Pdf for .NET を使用して、PDF を保存する際にベーツ番号を付与する手順をステップバイステップで解説します。 |  
+| [PDF透かしの作成 – スタンプの追加とDOCXからPDFへの変換](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) Aspose.PDF for .NET を使用して、DOCX を PDF に変換しながらスタンプを追加し、PDF に透かしを作成する方法をステップバイステップで解説します。 |  
+| [C# でベーツ番号付けされた PDF ドキュメントを作成する – 完全ガイド](./create-pdf-document-with-bates-numbering-in-c-full-guide/) Aspose.PDF for .NET を使用して、C# でベーツ番号を付与した PDF を作成する手順をステップバイステップで解説します。 |  
+| [Aspose.Pdf で PDF にスタンプを追加する方法 – ステップバイステップ ガイド](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) Aspose.Pdf for .NET を使用して PDF にスタンプを追加する手順を、初心者向けに分かりやすく解説します。 |  
+| [PDF フルページ通知を作成する – クイック C# ガイド](./create-pdf-full-page-notice-quick-c-guide/) Aspose.PDF for .NET を使用して、C# で PDF にフルページの通知を追加する手順をステップバイステップで解説します。 |  
+| [C#でPDFにベーツ番号を追加する – 完全ガイド](./add-bates-numbering-to-pdfs-with-c-complete-guide/) Aspose.PDF for .NET を使用して C# で PDF にベーツ番号を付与する方法をステップバイステップで解説します。 |  
+| [Aspose を使用した PDF へのベーツ番号付与 – 完全ガイド](./add-bates-numbering-to-pdfs-with-aspose-complete-guide/) Aspose.PDF for .NET を使用して PDF にベーツ番号を付与する方法をステップバイステップで解説します。 |  
+| [C# で PDF にベーツ番号を追加する方法 – 完全ガイド](./how-to-add-bates-numbering-in-pdf-with-c-complete-guide/) Aspose.PDF for .NET を使用し、C# で PDF にベーツ番号を追加する手順をステップバイステップで解説します。 |  
+| [AsposeでBates番号付けPDFを追加する完全ガイド](./add-bates-numbering-pdf-complete-guide-with-aspose/) Aspose.PDF for .NET を使用して、PDF に Bates 番号を付与する手順をステップバイステップで解説します。法務文書の管理に最適です。 |  
+| [C#でPDFにベーツ番号付与を追加する – 完全ステップバイステップガイド](./add-bates-numbering-to-pdf-in-c-complete-step-by-step-guide/) Aspose.PDF for .NET を使用して、C# で PDF にベーツ番号（ページ番号）を付与する方法をステップバイステップで解説します。 |  
+| [Aspose.Words で Word にテキスト透かしを作成する完全ガイド](./create-text-watermark-in-word-with-aspose-words-complete-gui/) Aspose.Words for .NET を使用して、Word 文書にテキスト透かしを追加する手順をステップバイステップで解説します。 |  
+| [PDF にスタンプを追加する方法 – 自動フィットテキスト付き完全ガイド](./how-to-add-stamp-pdf-complete-guide-with-auto-fit-text/) Aspose.PDF for .NET を使用して、テキストが自動的にフィットするスタンプを PDF に追加する完全ガイドです。 |  
+| [ベーツ番号付けチュートリアル：AsposeでPDFに番号を追加する](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) Aspose.PDF for .NET を使用して PDF にベーツ番号を付与し、文書の追跡と管理を容易にする方法をステップバイステップで解説します。 |  
+| [PDF に透かしを追加する方法 – Aspose でテキストオーバーレイ PDF を追加](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) Aspose.PDF for .NET を使用し、テキストオーバーレイで PDF に透かしを追加する方法をステップバイステップで紹介します。 |  
+| [Aspose.PDF で PDF に透過性を追加する – 完全 C# ガイド](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) Aspose.PDF for .NET を使用して PDF に透過効果を適用する方法を、C# のサンプルコードと共にステップバイステップで解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

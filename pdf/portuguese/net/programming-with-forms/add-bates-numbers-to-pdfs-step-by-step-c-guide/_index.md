@@ -24,7 +24,6 @@ title: Adicionar Números Bates a PDFs – Guia passo a passo em C#
 url: /pt/net/programming-with-forms/add-bates-numbers-to-pdfs-step-by-step-c-guide/
 ---
 
-content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

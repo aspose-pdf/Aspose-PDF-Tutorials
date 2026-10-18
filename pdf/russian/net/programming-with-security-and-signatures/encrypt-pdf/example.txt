@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: Этот учебный материал демонстрирует, как загрузить существующий PDF с помощью Aspose.Pdf, ограничить его разрешения, зашифровать его, используя как пароль пользователя (клиент), так и пароль владельца (администратор) с алгоритмом AES‑256, и сохранить защищённый документ.
+//ExStepSummary:0: Объявите пути к исходному и целевому файлам, а также пароли пользователя (клиент) и владельца (администратор).
+//ExStepSummary:1: Проверьте, существует ли исходный PDF, и при его отсутствии прервите выполнение с сообщением об ошибке.
+//ExStepSummary:2: Откройте PDF, разрешите только изменение содержимого и его извлечение, зашифруйте его двумя паролями с использованием AES‑256, сохраните защищённый файл и отобразите сообщение об успешном выполнении.
+//ExStepSummary:3: Перехватите любые возникающие ошибки и выведите сообщение исключения в консоль ошибок.
+//ExStep:0-
+const string sourceFile = "original.pdf";
+const string destinationFile = "protected.pdf";
+const string clientPwd = "clientPwd";
+const string adminPwd = "adminPwd";
+
+//ExStep:1-
+if (!File.Exists(sourceFile))
+{
+    Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+    return;
+}
+
+//ExStep:2-
+try
+{
+    using (Document pdfDoc = new Document(sourceFile))
+    {
+        Permissions allowedPerms = Permissions.ModifyContent | Permissions.ExtractContent;
+
+        pdfDoc.Encrypt(clientPwd, adminPwd, allowedPerms, CryptoAlgorithm.AESx256);
+
+        pdfDoc.Save(destinationFile);
+    }
+
+    Console.WriteLine($"Secured PDF written to '{destinationFile}'.");
+}
+
+//ExStep:3-
+catch (Exception ex)
+{
+    Console.Error.WriteLine($"Failure: {ex.Message}");
+}
+//ExEnd

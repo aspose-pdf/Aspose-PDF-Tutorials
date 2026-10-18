@@ -25,11 +25,8 @@ title: Bates-számozás hozzáadása PDF-hez C#-ban – Teljes útmutató
 url: /hu/net/programming-with-stamps-and-watermarks/add-bates-numbering-pdf-in-c-complete-guide/
 ---
 
-keep markdown table formatting.
 
-We need to ensure we keep the same number of columns and separators.
 
-Now produce final content with all translations.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

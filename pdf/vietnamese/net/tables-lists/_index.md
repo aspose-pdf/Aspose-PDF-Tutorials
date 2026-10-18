@@ -17,6 +17,8 @@ Tìm hiểu cách tạo tài liệu PDF có cấu trúc tốt với hướng d�
 
 ## Hướng dẫn có sẵn
 
+
+{{< tutorial-card link="./style-table-cells/" title="Tùy chỉnh nền, viền và khoảng đệm của ô bảng trong PDF bằng Aspose.Pdf for .NET" imgSrc="./style-table-cells/images/thumb.png" >}}
 ### [Thêm danh sách HTML có thứ tự vào PDF bằng Aspose.PDF .NET](./add-html-ordered-list-pdf-aspose-net/)
 Hướng dẫn mã cho Aspose.PDF Net
 

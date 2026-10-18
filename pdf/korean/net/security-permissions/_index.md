@@ -17,6 +17,12 @@
 
 ## 사용 가능한 튜토리얼
 
+
+{{< tutorial-card link="./encrypt-pdf-form-filling/" title="Aspose.Pdf for .NET을 사용하여 양식 입력만 허용하도록 PDF 암호화" imgSrc="./encrypt-pdf-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-form-filling/" title="Aspose.Pdf for .NET을 사용하여 AES‑256으로 양식 입력 전용 PDF 암호화" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="Aspose.PDF for .NET을 사용하여 인쇄 권한이 없는 PDF 암호화" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [Aspose.PDF for .NET으로 PDF 비밀번호 변경](./change-pdf-password-aspose-pdf-net-guide/)
 Aspose.PDF Net에 대한 코드 튜토리얼
 
@@ -64,6 +70,12 @@ Aspose.PDF .NET을 사용하여 PDF를 안전하게 편집하는 방법을 알�
 
 ### [Aspose.PDF for .NET을 사용하여 PDF 파일 잠금 해제 및 암호 해독: 완전한 가이드](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 C#에서 Aspose.PDF for .NET을 사용하여 보호된 PDF 파일의 잠금을 해제하고 복호화하는 방법을 알아보세요. 이 가이드는 설정, 복호화 단계 및 모범 사례를 다룹니다.
+### [C#에서 PDF를 마스킹하고 민감한 데이터를 제거하는 방법](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+C#와 Aspose.PDF를 사용하여 PDF에서 민감한 정보를 마스킹하고 제거하는 단계별 가이드
+
+### [Aspose.Pdf로 PDF 마스킹하는 방법 – 완전 단계별 가이드](./how-to-redact-pdf-with-aspose-pdf-complete-step-by-step-guid/)
+Aspose.Pdf를 사용하여 PDF 문서에서 민감한 정보를 마스킹하고 제거하는 전체 단계별 C# 예제.
+
 
 ### [Aspose.PDF .NET을 사용하여 PDF 비밀번호 확인: 보안 및 권한에 대한 단계별 가이드](./verify-pdf-passwords-aspose-dot-net-guide/)
 C#에서 Aspose.PDF for .NET을 사용하여 PDF 비밀번호를 확인하는 방법을 알아보세요. 이 포괄적인 가이드는 문서 보안 및 액세스 제어를 간소화합니다.

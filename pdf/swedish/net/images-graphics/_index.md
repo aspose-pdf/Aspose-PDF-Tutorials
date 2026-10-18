@@ -35,6 +35,17 @@ Lär dig hur du konverterar SVG-filer till högkvalitativa PDF-filer smidigt med
 ### [Skapa och fyll rektanglar i PDF-filer med Aspose.PDF för .NET: En steg-för-steg-guide](./create-fill-rectangle-aspose-pdf-net/)
 Lär dig hur du skapar och fyller rektanglar i PDF-dokument med Aspose.PDF för .NET. Den här steg-för-steg-guiden täcker allt från installation till implementering med C#.
 
+### [Hur man ritar en rektangel i PDF med C# – En steg‑för‑steg‑guide](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
+Lär dig hur du ritar en enkel rektangel i en PDF med C# och Aspose.PDF för .NET i denna steg‑för‑steg‑guide.
+### [Lägg till rektangel i PDF med C# – Fullständig Aspose PDF-guide](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+Lär dig hur du skapar och lägger till rektanglar i PDF-dokument med Aspose.PDF för .NET och C# i en komplett steg-för-steg-guide.
+### [Hur du validerar PDF och lägger till en rektangel – En komplett guide](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
+Lär dig hur du validerar PDF-filer och lägger till en rektangel med Aspose.PDF för .NET i en komplett steg-för-steg-guide.
+### [Lägg till rektangel i PDF med Aspose.PDF – Komplett programmeringsguide](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+Lär dig steg för steg hur du skapar och anpassar rektanglar i PDF-dokument med Aspose.PDF för .NET.
+### [Lägg till rektangel i PDF med C# – steg‑för‑steg‑guide](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+Lär dig hur du lägger till en rektangel i en PDF med C# i en steg‑för‑steg‑guide.
+
 ### [Skapa anpassade PDF-stämplar med Aspose.PDF i .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 En kodhandledning för Aspose.PDF Net
 
@@ -43,6 +54,11 @@ Lär dig hur du skapar visuellt tilltalande PDF-dokument genom att extrahera och
 
 ### [Rita genomskinliga former i PDF-filer med Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 En kodhandledning för Aspose.PDF Net
+
+### [Hur man lägger till en form i PDF-filer med Aspose.PDF för .NET – En steg-för-steg-guide](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Lär dig hur du ritar och lägger till olika former i PDF-dokument med Aspose.PDF för .NET i C#. Praktiska kodexempel ingår.
+### [Lägg till ExtGState i PDF med Aspose.Pdf – Komplett guide](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+Lär dig hur du använder ExtGState för att kontrollera transparens och blandningslägen i PDF-dokument med Aspose.Pdf för .NET.
 
 ### [Effektiv PDF-bildidentifiering med Aspose.PDF för .NET](./master-image-identification-aspose-pdf-net/)
 Lär dig hur du identifierar gråskale- och RGB-bilder i PDF-filer med Aspose.PDF för .NET. Den här handledningen täcker installation, bildextrahering och prestandatips.
@@ -104,68 +120,260 @@ Lär dig hur du skapar tillgängliga taggade PDF-filer inbäddade med bilder med
 ### [Hur man skapar transparenta rektanglar i PDF-filer med Aspose.PDF för .NET](./create-transparent-rectangles-aspose-pdf-dotnet/)
 Lär dig hur du förbättrar dina PDF-dokument genom att skapa rektanglar med alfatransparens med Aspose.PDF för .NET. Följ den här steg-för-steg-guiden.
 
+### [Lägg till transparens i PDF med Aspose PDF i C# – En steg‑för‑steg‑guide](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Lär dig hur du lägger till transparens i PDF-dokument med Aspose PDF för .NET i C#. Följ den här guiden för att skapa genomskinliga element.
 ### [Hur man lägger till grafikstatus i PDF och kontrollerar transparens med Aspose.PDF](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
 Lär dig hur du använder grafikstatus för att hantera transparens i PDF-dokument med Aspose.PDF för .NET.
 
 ### [Hur man tar bort bilder från PDF-filer med Aspose.PDF för .NET - Komplett guide](./delete-images-aspose-pdf-net/)
 Lär dig hur du effektivt tar bort bilder från PDF-filer med Aspose.PDF för .NET. Den här guiden beskriver installation, kodexempel och bästa praxis.
 
-### [Så här tar du bort bilder från en PDF med Aspose.PDF .NET: En steg-för-steg-guide](./delete-images-aspose-pdf-net-guide/)
-Lär dig hur du tar bort bilder från PDF-filer med Aspose.PDF för .NET. Den här omfattande guiden täcker installation, implementering och praktiska tillämpningar.
+### [Lägg till transparens i PDF med Aspose PDF i C# – En steg‑för‑steg‑guide (ny version)](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
+Lär dig hur du lägger till transparens i PDF-dokument med Aspose PDF för .NET i C#. Följ den här guiden för att skapa genomskinliga element.
 
-### [Så här tar du bort bilder från PDF med Aspose.PDF för .NET: En omfattande guide](./delete-images-from-pdf-aspose-dotnet/)
-Lär dig hur du effektivt tar bort alla bilder från en PDF med Aspose.PDF för .NET, vilket förbättrar filsekretessen och minskar storleken. Följ den här steg-för-steg-guiden.
+### [Effektiv PDF-bildidentifiering med Aspose.PDF för .NET](./master-image-identification-aspose-pdf-net/)
+Lär dig hur du identifierar gråskale- och RGB-bilder i PDF-filer med Aspose.PDF för .NET. Den här handledningen täcker installation, bildextrahering och prestandatips.
 
-### [Så här identifierar du PDF-sidfärger med Aspose.PDF för .NET: En omfattande guide](./detect-pdf-page-color-aspose-dotnet/)
-Lär dig hur du bestämmer färgtypen för varje sida i en PDF med Aspose.PDF för .NET. Den här steg-för-steg-handledningen täcker installation, konfiguration och praktiska tillämpningar.
+### [Konvertera effektivt bildströmmar till PDF-filer med Aspose.PDF för .NET](./convert-image-stream-to-pdf-aspose-dotnet/)
+Lär dig hur du konverterar bildströmmar till PDF-dokument av professionell kvalitet med Aspose.PDF för .NET. Följ den här steg-för-steg-guiden för att förbättra dina dokumentarbetsflöden.
 
-### [Hur man extraherar bildinformation från PDF-filer med Aspose.PDF för .NET](./extract-image-info-pdf-aspose-pdf-net/)
-Lär dig hur du extraherar bilddimensioner och upplösning från PDF-filer med Aspose.PDF för .NET. Den här handledningen täcker installation, implementering och praktiska tillämpningar.
+### [Extrahera och konvertera PDF-regioner till bilder med Aspose.PDF](./extract-convert-pdf-regions-aspose-net/)
+En kodhandledning för Aspose.PDF Net
 
-### [Hur man extraherar bilder från PDF-filer med Aspose.PDF .NET (steg-för-steg-guide)](./extract-images-pdf-aspose-net/)
-Lär dig hur du effektivt extraherar bilder från PDF-filer med Aspose.PDF .NET med den här omfattande guiden. Perfekt för utvecklare som behöver exakt bildextrahering.
+### [Extrahera bildstämplar från PDF-filer med Aspose.PDF .NET](./extract-image-stamps-pdfs-aspose-pdf-net/)
+En kodhandledning för Aspose.PDF Net
 
-### [Hur man extraherar bilder från PDF-filer med Aspose.PDF för .NET: En utvecklarguide](./extract-images-from-pdf-aspose-net-guide/)
-Lär dig hur du enkelt extraherar bilder från PDF-dokument med Aspose.PDF för .NET med den här omfattande utvecklarguiden. Förbättra ditt dokumenthanteringsarbetsflöde idag.
+### [Extrahera bilder från PDF-signaturer med Aspose.PDF .NET: En omfattande guide](./extract-images-pdf-signatures-aspose-pdf-dotnet/)
+Lär dig hur du extraherar bilder inbäddade i PDF-signaturer med Aspose.PDF för .NET. Den här guiden ger steg-för-steg-instruktioner och praktiska tillämpningar.
 
+### [Extrahera bilder från PDF med Aspose.PDF för .NET](./extract-images-pdfs-aspose-pdf-net/)
+En kodhandledning för Aspose.PDF Net
 ### [Hur man extraherar bilder från PDF-filer med Aspose.PDF för .NET: En steg-för-steg-guide](./extract-images-aspose-pdf-dot-net-guide/)
 Lär dig hur du effektivt extraherar bilder från PDF-filer med Aspose.PDF för .NET med den här omfattande guiden. Med kodexempel och bästa praxis.
 
-### [Hur man extraherar bilder från PDF-filer med Aspose.PDF för .NET: En steg-för-steg-guide](./extract-images-aspose-pdf-net-guide/)
-Lär dig hur du extraherar bilder från PDF-dokument med Aspose.PDF för .NET med den här omfattande guiden. Perfekt för utvecklare som vill förbättra dokumentbehandlingsfunktionerna.
+### [Snabb bildförminskning i PDF-filer med Aspose.PDF .NET: Optimera och komprimera bilder effektivt](./optimize-pdf-images-aspose-net-fast-compression/)
+Lär dig hur du krymper bilder i PDF-filer med Aspose.PDF för .NET, vilket minskar filstorleken samtidigt som kvaliteten bibehålls. Perfekt för snabbare inläsning och effektiv lagring.
 
-### [Hur man extraherar bilder från specifika sidor i en PDF med hjälp av Aspose.PDF för .NET](./extract-images-pdfs-specific-pages-aspose-dotnet/)
-Lär dig hur du effektivt extraherar bilder från specifika sidor i en PDF med Aspose.PDF för .NET. Den här guiden täcker tips om installation, implementering och prestanda.
+### [Hur man lägger till bildfot till PDF-filer med Aspose.PDF .NET i C#](./aspose-pdf-net-add-image-footers-pdfs/)
+Lär dig hur du lägger till bildfötter i dina PDF-dokument med Aspose.PDF för .NET med den här steg-för-steg-guiden. Perfekt för varumärkesbyggande och anpassning.
 
-### [Hur man extraherar PDF-sidinformation och renderar bilder med Aspose.PDF för .NET (guide 2023)](./extract-pdf-info-render-images-aspose-dotnet/)
-Lär dig hur du extraherar siddimensioner och renderar bilder från PDF-filer med Aspose.PDF för .NET. Den här guiden behandlar installation, implementering och praktiska tillämpningar.
+### [Hur man lägger till bilder och text i PDF-filer med Aspose.PDF för .NET: En steg-för-steg-guide](./adding-images-text-pdfs-aspose-pdf-dotnet/)
+Lär dig hur du lägger till bilder och text i PDF-filer med Aspose.PDF för .NET. Den här omfattande guiden täcker allt från installation till implementering, perfekt för att förbättra dina dokumentredigeringsfärdigheter.
 
-### [Hur man optimerar PDF-bilder med Aspose.PDF för .NET](./optimize-pdf-images-aspose-dotnet/)
-Lär dig hur du effektivt ändrar storlek, komprimerar och justerar bildkvaliteten i PDF-filer med Aspose.PDF för .NET. Förbättra dokumentprestanda och användarupplevelse.
+### [Hur man lägger till bilder i PDF-filer med Aspose.PDF .NET: En omfattande guide](./aspose-pdf-net-add-images-pdfs/)
+Lär dig hur du smidigt lägger till bilder i dina PDF-dokument med Aspose.PDF för .NET. Den här steg-för-steg-guiden täcker installation, implementering och praktiska tillämpningar.
 
-### [Så här tar du bort grafik från PDF-filer med Aspose.PDF .NET: En komplett guide](./remove-graphics-aspose-pdf-net/)
-Lär dig hur du effektivt tar bort grafik från PDF-filer med Aspose.PDF för .NET. Följ den här steg-för-steg-guiden för att rensa dina dokument och optimera filstorlekar.
+### [Hur man lägger till bilder i PDF-filer med Aspose.PDF för .NET: En komplett guide](./add-images-to-pdfs-using-aspose-pdf-net/)
+Lär dig hur du smidigt lägger till bilder i dina PDF-dokument med Aspose.PDF för .NET. Den här steg-för-steg-guiden täcker installation, implementering och praktiska tillämpningar.
 
-### [Så här ersätter du bilder i PDF-filer med Aspose.PDF .NET: En utvecklarguide](./replace-images-pdf-aspose-net-guide/)
-Lär dig hur du effektivt ersätter bilder i PDF-dokument med Aspose.PDF för .NET. Effektivisera dina dokumentuppdateringar med den här omfattande utvecklarguiden.
+### [Så här lägger du till bilder i PDF-filer med Aspose.PDF för .NET: En steg-för-steg-guide](./add-images-to-pdfs-aspose-pdf-net/)
+Lär dig hur du smidigt lägger till bilder i dina PDF-filer med Aspose.PDF för .NET. Den här guiden beskriver hur du lägger till bilder i befintliga PDF-filer och skapar nya från DICOM-filer.
 
-### [Så här ersätter du bilder i PDF-filer med Aspose.PDF för .NET: En komplett guide](./replace-images-aspose-pdf-net-tutorial/)
-Lär dig hur du effektivt ersätter bilder i PDF-dokument med Aspose.PDF för .NET. Den här omfattande guiden täcker installation, implementering och praktiska tillämpningar.
+### [Så här lägger du till en bildrubrik till PDF-filer med Aspose.PDF för .NET: En steg-för-steg-guide](./add-image-header-pdf-aspose-dotnet/)
+Lär dig hur du lägger till bildrubriker i dina PDF-dokument med Aspose.PDF för .NET med den här omfattande steg-för-steg-guiden.
 
-### [Hur man ställer in bildstorlek i en PDF med Aspose.PDF för .NET](./set-image-size-pdf-aspose-dotnet/)
-Lär dig hur du justerar bildstorlekar i PDF-filer med Aspose.PDF för .NET, perfekt för att skapa professionella dokument och presentationer.
+### [Hur man lägger till en bildstämpel i PDF-rubriker med Aspose.PDF för .NET](./add-image-stamp-pdf-header-aspose-pdf/)
+Lär dig hur du lägger till bildstämplar i dina PDF-rubriker med Aspose.PDF för .NET, vilket förbättrar varumärkesbyggande och professionalism.
 
-### [Bemästra bildplacering i PDF-filer med Aspose.PDF för .NET](./optimize-image-placement-aspose-pdf-net/)
-Lär dig optimera bildplaceringar i PDF-dokument med Aspose.PDF för .NET. Förbättra dokumentkvalitet och effektivitet med praktiska guider.
+### [Hur man lägger till en bildstämpel på PDF-sidor med Aspose.PDF för .NET](./add-image-stamp-pdf-pages-aspose-dotnet/)
+Lär dig hur du lägger till bildstämplar på specifika sidor i dina PDF-filer med Aspose.PDF för .NET. Förbättra varumärkesbyggande, vattenstämpla eller personifiera dokument effektivt.
 
-### [Optimera PDF-bilder med Aspose.PDF för .NET: En omfattande guide](./optimize-pdf-images-aspose-pdf-dotnet/)
-Lär dig hur du komprimerar och optimerar bilder i PDF-dokument med Aspose.PDF för .NET, vilket minskar filstorleken samtidigt som kvaliteten bibehålls. Perfekt för utvecklare och dokumenthanterare.
+### [Så här lägger du till en bildstämpel i en PDF med Aspose.PDF för .NET: En omfattande guide](./add-image-stamp-pdf-aspose-dotnet/)
+Lär dig hur du lägger till bildstämplar, till exempel logotyper eller vattenstämplar, i dina PDF-filer med Aspose.PDF för .NET. Den här guiden behandlar installation, implementering och praktiska tillämpningar.
 
-### [Rendera LaTeX i PDF-filer med Aspose.PDF .NET: En steg-för-steg-guide](./render-latex-aspose-pdf-net-guide/)
-Lär dig hur du renderar komplexa LaTeX-skript till PDF-dokument med Aspose.PDF för .NET, inklusive tips för installation, implementering och optimering.
+### [Hur man konverterar PDF-sidor till PNG-bilder med Aspose.PDF för .NET](./convert-pdf-page-to-png-aspose-dotnet/)
+Lär dig hur du konverterar PDF-sidor till högkvalitativa PNG-bilder med Aspose.PDF för .NET. Följ den här steg-för-steg-guiden med kodexempel och bästa praxis.
 
-### [Ställ in bildbakgrunder i PDF-filer med Aspose.PDF för .NET: En omfattande guide](./aspose-pdf-net-set-image-backgrounds/)
-Lär dig hur du förbättrar dina PDF-dokument genom att ställa in bildbakgrunder med Aspose.PDF för .NET. Den här guiden behandlar tips för installation, implementering och optimering.
+### [Hur man skapar streckade linjer i PDF-filer med Aspose.PDF för .NET: En steg-för-steg-guide](./create-dashed-lines-aspose-pdf-net/)
+Lär dig hur du förbättrar dina PDF-dokument genom att lägga till streckade linjer med Aspose.PDF för .NET. Följ den här steg-för-steg-guiden för ett polerat och professionellt utseende.
+
+### [Hur man skapar taggade PDF-filer med bilder i .NET med hjälp av Aspose.PDF](./create-tagged-pdf-image-dotnet/)
+Lär dig hur du skapar tillgängliga taggade PDF-filer inbäddade med bilder med Aspose.PDF för .NET. Förbättra dokumenttillgänglighet och presentation för alla användare.
+
+### [Hur man skapar transparenta rektanglar i PDF-filer med Aspose.PDF för .NET](./create-transparent-rectangles-aspose-pdf-dotnet/)
+Lär dig hur du förbättrar dina PDF-dokument genom att skapa rektanglar med alfatransparens med Aspose.PDF för .NET. Följ den här steg-för-steg-guiden.
+
+### [Lägg till transparens i PDF med Aspose PDF i C# – En steg‑för‑steg‑guide](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Lär dig hur du lägger till transparens i PDF-dokument med Aspose PDF för .NET i C#. Följ den här guiden för att skapa genomskinliga element.
+
+### [Lägg till transparens i PDF med Aspose PDF i C# – En steg‑för‑steg‑guide (ny version)](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
+Lär dig hur du lägger till transparens i PDF-dokument med Aspose PDF för .NET i C#. Följ den här guiden för att skapa genomskinliga element.
+
+### [Effektiv PDF-bildidentifiering med Aspose.PDF för .NET](./master-image-identification-aspose-pdf-net/)
+Lär dig hur du identifierar gråskale- och RGB-bilder i PDF-filer med Aspose.PDF för .NET. Den här handledningen täcker installation, bildextrahering och prestandatips.
+
+### [Konvertera effektivt bildströmmar till PDF-filer med Aspose.PDF för .NET](./convert-image-stream-to-pdf-aspose-dotnet/)
+Lär dig hur du konverterar bildströmmar till PDF-dokument av professionell kvalitet med Aspose.PDF för .NET. Följ den här steg-för-steg-guiden för att förbättra dina dokumentarbetsflöden.
+
+### [Extrahera och konvertera PDF-regioner till bilder med Aspose.PDF](./extract-convert-pdf-regions-aspose-net/)
+En kodhandledning för Aspose.PDF Net
+
+### [Extrahera bildstämplar från PDF-filer med Aspose.PDF .NET](./extract-image-stamps-pdfs-aspose-pdf-net/)
+En kodhandledning för Aspose.PDF Net
+
+### [Extrahera bilder från PDF-signaturer med Aspose.PDF .NET: En omfattande guide](./extract-images-pdf-signatures-aspose-pdf-dotnet/)
+Lär dig hur du extraherar bilder inbäddade i PDF-signaturer med Aspose.PDF för .NET. Den här guiden ger steg-för-steg-instruktioner och praktiska tillämpningar.
+
+### [Extrahera bilder från PDF med Aspose.PDF för .NET](./extract-images-pdfs-aspose-pdf-net/)
+En kodhandledning för Aspose.PDF Net
+
+### [Snabb bildförminskning i PDF-filer med Aspose.PDF .NET: Optimera och komprimera bilder effektivt](./optimize-pdf-images-aspose-net-fast-compression/)
+Lär dig hur du krymper bilder i PDF-filer med Aspose.PDF för .NET, vilket minskar filstorleken samtidigt som kvaliteten bibehålls. Perfekt för snabbare inläsning och effektiv lagring.
+
+### [Hur man lägger till bildfot till PDF-filer med Aspose.PDF .NET i C#](./aspose-pdf-net-add-image-footers-pdfs/)
+Lär dig hur du lägger till bildfötter i dina PDF-dokument med Aspose.PDF för .NET med den här steg-för-steg-guiden. Perfekt för varumärkesbyggande och anpassning.
+
+### [Hur man lägger till bilder och text i PDF-filer med Aspose.PDF för .NET: En steg-för-steg-guide](./adding-images-text-pdfs-aspose-pdf-dotnet/)
+Lär dig hur du lägger till bilder och text i PDF-filer med Aspose.PDF för .NET. Den här omfattande guiden täcker allt från installation till implementering, perfekt för att förbättra dina dokumentredigeringsfärdigheter.
+
+### [Hur man lägger till bilder i PDF-filer med Aspose.PDF .NET: En omfattande guide](./aspose-pdf-net-add-images-pdfs/)
+Lär dig hur du smidigt lägger till bilder i dina PDF-dokument med Aspose.PDF för .NET. Den här steg-för-steg-guiden täcker installation, implementering och praktiska tillämpningar.
+
+### [Hur man lägger till bilder i PDF-filer med Aspose.PDF för .NET: En komplett guide](./add-images-to-pdfs-using-aspose-pdf-net/)
+Lär dig hur du smidigt lägger till bilder i dina PDF-dokument med Aspose.PDF för .NET. Den här steg-för-steg-guiden täcker installation, implementering och praktiska tillämpningar.
+
+### [Så här lägger du till bilder i PDF-filer med Aspose.PDF för .NET: En steg-för-steg-guide](./add-images-to-pdfs-aspose-pdf-net/)
+Lär dig hur du smidigt lägger till bilder i dina PDF-filer med Aspose.PDF för .NET. Den här guiden beskriver hur du lägger till bilder i befintliga PDF-filer och skapar nya från DICOM-filer.
+
+### [Så här lägger du till en bildrubrik till PDF-filer med Aspose.PDF för .NET: En steg-för-steg-guide](./add-image-header-pdf-aspose-dotnet/)
+Lär dig hur du lägger till bildrubriker i dina PDF-dokument med Aspose.PDF för .NET med den här omfattande steg-för-steg-guiden.
+
+### [Hur man lägger till en bildstämpel i PDF-rubriker med Aspose.PDF för .NET](./add-image-stamp-pdf-header-aspose-pdf/)
+Lär dig hur du lägger till bildstämplar i dina PDF-rubriker med Aspose.PDF för .NET, vilket förbättrar varumärkesbyggande och professionalism.
+
+### [Hur man lägger till en bildstämpel på PDF-sidor med Aspose.PDF för .NET](./add-image-stamp-pdf-pages-aspose-dotnet/)
+Lär dig hur du lägger till bildstämplar på specifika sidor i dina PDF-filer med Aspose.PDF för .NET. Förbättra varumärkesbyggande, vattenstämpla eller personifiera dokument effektivt.
+
+### [Så här lägger du till en bildstämpel i en PDF med Aspose.PDF för .NET: En omfattande guide](./add-image-stamp-pdf-aspose-dotnet/)
+Lär dig hur du lägger till bildstämplar, till exempel logotyper eller vattenstämplar, i dina PDF-filer med Aspose.PDF för .NET. Den här guiden behandlar installation, implementering och praktiska tillämpningar.
+
+### [Hur man konverterar PDF-sidor till PNG-bilder med Aspose.PDF för .NET](./convert-pdf-page-to-png-aspose-dotnet/)
+Lär dig hur du konverterar PDF-sidor till högkvalitativa PNG-bilder med Aspose.PDF för .NET. Följ den här steg-för-steg-guiden med kodexempel och bästa praxis.
+
+### [Hur man skapar streckade linjer i PDF-filer med Aspose.PDF för .NET: En steg-för-steg-guide](./create-dashed-lines-aspose-pdf-net/)
+Lär dig hur du förbättrar dina PDF-dokument genom att lägga till streckade linjer med Aspose.PDF för .NET. Följ den här steg-för-steg-guiden för ett polerat och professionellt utseende.
+
+### [Hur man skapar taggade PDF-filer med bilder i .NET med hjälp av Aspose.PDF](./create-tagged-pdf-image-dotnet/)
+Lär dig hur du skapar tillgängliga taggade PDF-filer inbäddade med bilder med Aspose.PDF för .NET. Förbättra dokumenttillgänglighet och presentation för alla användare.
+
+### [Hur man skapar transparenta rektanglar i PDF-filer med Aspose.PDF för .NET](./create-transparent-rectangles-aspose-pdf-dotnet/)
+Lär dig hur du förbättrar dina PDF-dokument genom att skapa rektanglar med alfatransparens med Aspose.PDF för .NET. Följ den här steg-för-steg-guiden.
+
+### [Lägg till transparens i PDF med Aspose PDF i C# – En steg‑för‑steg‑guide](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Lär dig hur du lägger till transparens i PDF-dokument med Aspose PDF för .NET i C#. Följ den här guiden för att skapa genomskinliga element.
+
+### [Lägg till transparens i PDF med Aspose PDF i C# – En steg‑för‑steg‑guide (ny version)](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
+Lär dig hur du lägger till transparens i PDF-dokument med Aspose PDF för .NET i C#. Följ den här guiden för att skapa genomskinliga element.
+
+### [Effektiv PDF-bildidentifiering med Aspose.PDF för .NET](./master-image-identification-aspose-pdf-net/)
+Lär dig hur du identifierar gråskale- och RGB-bilder i PDF-filer med Aspose.PDF för .NET. Den här handledningen täcker installation, bildextrahering och prestandatips.
+
+### [Konvertera effektivt bildströmmar till PDF-filer med Aspose.PDF för .NET](./convert-image-stream-to-pdf-aspose-dotnet/)
+Lär dig hur du konverterar bildströmmar till PDF-dokument av professionell kvalitet med Aspose.PDF för .NET. Följ den här steg-för-steg-guiden för att förbättra dina dokumentarbetsflöden.
+
+### [Extrahera och konvertera PDF-regioner till bilder med Aspose.PDF](./extract-convert-pdf-regions-aspose-net/)
+En kodhandledning för Aspose.PDF Net
+
+### [Extrahera bildstämplar från PDF-filer med Aspose.PDF .NET](./extract-image-stamps-pdfs-aspose-pdf-net/)
+En kodhandledning för Aspose.PDF Net
+
+### [Extrahera bilder från PDF-signaturer med Aspose.PDF .NET: En omfattande guide](./extract-images-pdf-signatures-aspose-pdf-dotnet/)
+Lär dig hur du extraherar bilder inbäddade i PDF-signaturer med Aspose.PDF för .NET. Den här guiden ger steg-för-steg-instruktioner och praktiska tillämpningar.
+
+### [Extrahera bilder från PDF med Aspose.PDF för .NET](./extract-images-pdfs-aspose-pdf-net/)
+En kodhandledning för Aspose.PDF Net
+
+### [Snabb bildförminskning i PDF-filer med Aspose.PDF .NET: Optimera och komprimera bilder effektivt](./optimize-pdf-images-aspose-net-fast-compression/)
+Lär dig hur du krymper bilder i PDF-filer med Aspose.PDF för .NET, vilket minskar filstorleken samtidigt som kvaliteten bibehålls. Perfekt för snabbare inläsning och effektiv lagring.
+
+### [Hur man lägger till bildfot till PDF-filer med Aspose.PDF .NET i C#](./aspose-pdf-net-add-image-footers-pdfs/)
+Lär dig hur du lägger till bildfötter i dina PDF-dokument med Aspose.PDF för .NET med den här steg-för-steg-guiden. Perfekt för varumärkesbyggande och anpassning.
+
+### [Hur man lägger till bilder och text i PDF-filer med Aspose.PDF för .NET: En steg-för-steg-guide](./adding-images-text-pdfs-aspose-pdf-dotnet/)
+Lär dig hur du lägger till bilder och text i PDF-filer med Aspose.PDF för .NET. Den här omfattande guiden täcker allt från installation till implementering, perfekt för att förbättra dina dokumentredigeringsfärdigheter.
+
+### [Hur man lägger till bilder i PDF-filer med Aspose.PDF .NET: En omfattande guide](./aspose-pdf-net-add-images-pdfs/)
+Lär dig hur du smidigt lägger till bilder i dina PDF-dokument med Aspose.PDF för .NET. Den här steg-för-steg-guiden täcker installation, implementering och praktiska tillämpningar.
+
+### [Hur man lägger till bilder i PDF-filer med Aspose.PDF för .NET: En komplett guide](./add-images-to-pdfs-using-aspose-pdf-net/)
+Lär dig hur du smidigt lägger till bilder i dina PDF-dokument med Aspose.PDF för .NET. Den här steg-för-steg-guiden täcker installation, implementering och praktiska tillämpningar.
+
+### [Så här lägger du till bilder i PDF-filer med Aspose.PDF för .NET: En steg-för-steg-guide](./add-images-to-pdfs-aspose-pdf-net/)
+Lär dig hur du smidigt lägger till bilder i dina PDF-filer med Aspose.PDF för .NET. Den här guiden beskriver hur du lägger till bilder i befintliga PDF-filer och skapar nya från DICOM-filer.
+
+### [Så här lägger du till en bildrubrik till PDF-filer med Aspose.PDF för .NET: En steg-för-steg-guide](./add-image-header-pdf-aspose-dotnet/)
+Lär dig hur du lägger till bildrubriker i dina PDF-dokument med Aspose.PDF för .NET med den här omfattande steg-för-steg-guiden.
+
+### [Hur man lägger till en bildstämpel i PDF-rubriker med Aspose.PDF för .NET](./add-image-stamp-pdf-header-aspose-pdf/)
+Lär dig hur du lägger till bildstämplar i dina PDF-rubriker med Aspose.PDF för .NET, vilket förbättrar varumärkesbyggande och professionalism.
+
+### [Hur man lägger till en bildstämpel på PDF-sidor med Aspose.PDF för .NET](./add-image-stamp-pdf-pages-aspose-dotnet/)
+Lär dig hur du lägger till bildstämplar på specifika sidor i dina PDF-filer med Aspose.PDF för .NET. Förbättra varumärkesbyggande, vattenstämpla eller personifiera dokument effektivt.
+
+### [Så här lägger du till en bildstämpel i en PDF med Aspose.PDF för .NET: En omfattande guide](./add-image-stamp-pdf-aspose-dotnet/)
+Lär dig hur du lägger till bildstämplar, till exempel logotyper eller vattenstämplar, i dina PDF-filer med Aspose.PDF för .NET. Den här guiden behandlar installation, implementering och praktiska tillämpningar.
+
+### [Hur man konverterar PDF-sidor till PNG-bilder med Aspose.PDF för .NET](./convert-pdf-page-to-png-aspose-dotnet/)
+Lär dig hur du konverterar PDF-sidor till högkvalitativa PNG-bilder med Aspose.PDF för .NET. Följ den här steg-för-steg-guiden med kodexempel och bästa praxis.
+
+### [Hur man skapar streckade linjer i PDF-filer med Aspose.PDF för .NET: En steg-för-steg-guide](./create-dashed-lines-aspose-pdf-net/)
+Lär dig hur du förbättrar dina PDF-dokument genom att lägga till streckade linjer med Aspose.PDF för .NET. Följ den här steg-för-steg-guiden för ett polerat och professionellt utseende.
+
+### [Hur man skapar taggade PDF-filer med bilder i .NET med hjälp av Aspose.PDF](./create-tagged-pdf-image-dotnet/)
+Lär dig hur du skapar tillgängliga taggade PDF-filer inbäddade med bilder med Aspose.PDF för .NET. Förbättra dokumenttillgänglighet och presentation för alla användare.
+
+### [Hur man skapar transparenta rektanglar i PDF-filer med Aspose.PDF för .NET](./create-transparent-rectangles-aspose-pdf-dotnet/)
+Lär dig hur du förbättrar dina PDF-dokument genom att skapa rektanglar med alfatransparens med Aspose.PDF för .NET. Följ den här steg-för-steg-guiden.
+
+### [Lägg till transparens i PDF med Aspose PDF i C# – En steg‑för‑steg‑guide](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Lär dig hur du lägger till transparens i PDF-dokument med Aspose PDF för .NET i C#. Följ den här guiden för att skapa genomskinliga element.
+
+### [Lägg till transparens i PDF med Aspose PDF i C# – En steg‑för‑steg‑guide (ny version)](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
+Lär dig hur du lägger till transparens i PDF-dokument med Aspose PDF för .NET i C#. Följ den här guiden för att skapa genomskinliga element.
+
+### [Effektiv PDF-bildidentifiering med Aspose.PDF för .NET](./master-image-identification-aspose-pdf-net/)
+Lär dig hur du identifierar gråskale- och RGB-bilder i PDF-filer med Aspose.PDF för .NET. Den här handledningen täcker installation, bildextrahering och prestandatips.
+
+### [Konvertera effektivt bildströmmar till PDF-filer med Aspose.PDF för .NET](./convert-image-stream-to-pdf-aspose-dotnet/)
+Lär dig hur du konverterar bildströmmar till PDF-dokument av professionell kvalitet med Aspose.PDF för .NET. Följ den här steg-för-steg-guiden för att förbättra dina dokumentarbetsflöden.
+
+### [Extrahera och konvertera PDF-regioner till bilder med Aspose.PDF](./extract-convert-pdf-regions-aspose-net/)
+En kodhandledning för Aspose.PDF Net
+
+### [Extrahera bildstämplar från PDF-filer med Aspose.PDF .NET](./extract-image-stamps-pdfs-aspose-pdf-net/)
+En kodhandledning för Aspose.PDF Net
+
+### [Extrahera bilder från PDF-signaturer med Aspose.PDF .NET: En omfattande guide](./extract-images-pdf-signatures-aspose-pdf-dotnet/)
+Lär dig hur du extraherar bilder inbäddade i PDF-signaturer med Aspose.PDF för .NET. Den här guiden ger steg-för-steg-instruktioner och praktiska tillämpningar.
+
+### [Extrahera bilder från PDF med Aspose.PDF för .NET](./extract-images-pdfs-aspose-pdf-net/)
+En kodhandledning för Aspose.PDF Net
+
+### [Snabb bildförminskning i PDF-filer med Aspose.PDF .NET: Optimera och komprimera bilder effektivt](./optimize-pdf-images-aspose-net-fast-compression/)
+Lär dig hur du krymper bilder i PDF-filer med Aspose.PDF för .NET, vilket minskar filstorleken samtidigt som kvaliteten bibehålls. Perfekt för snabbare inläsning och effektiv lagring.
+
+### [Hur man lägger till bildfot till PDF-filer med Aspose.PDF .NET i C#](./aspose-pdf-net-add-image-footers-pdfs/)
+Lär dig hur du lägger till bildfötter i dina PDF-dokument med Aspose.PDF för .NET med den här steg-för-steg-guiden. Perfekt för varumärkesbyggande och anpassning.
+
+### [Hur man lägger till bilder och text i PDF-filer med Aspose.PDF för .NET: En steg-för-steg-guide](./adding-images-text-pdfs-aspose-pdf-dotnet/)
+Lär dig hur du lägger till bilder och text i PDF-filer med Aspose.PDF för .NET. Den här omfattande guiden täcker allt från installation till implementering, perfekt för att förbättra dina dokumentredigeringsfärdigheter.
+
+### [Hur man lägger till bilder i PDF-filer med Aspose.PDF .NET: En omfattande guide](./aspose-pdf-net-add-images-pdfs/)
+Lär dig hur du smidigt lägger till bilder i dina PDF-dokument med Aspose.PDF för .NET. Den här steg-för-steg-guiden täcker installation, implementering och praktiska tillämpningar.
+
+### [Hur man lägger till bilder i PDF-filer med Aspose.PDF för .NET: En komplett guide](./add-images-to-pdfs-using-aspose-pdf-net/)
+Lär dig hur du smidigt lägger till bilder i dina PDF-dokument med Aspose.PDF för .NET. Den här steg-för-steg-guiden täcker installation, implementering och praktiska tillämpningar.
+
+### [Så här lägger du till bilder i PDF-filer med Aspose.PDF för .NET: En steg-för-steg-guide](./add-images-to-pdfs-aspose-pdf-net/)
+Lär dig hur du smidigt lägger till bilder i dina PDF-filer med Aspose.PDF för .NET. Den här guiden beskriver hur du lägger till bilder i befintliga PDF-filer och skapar nya från DICOM-filer.
+
+### [Så här lägger du till en bildrubrik till PDF-filer med Aspose.PDF för .NET: En steg-för-steg-guide](./add-image-header-pdf-aspose-dotnet/)
+Lär dig hur du lägger till bildrubriker i dina PDF-dokument med Aspose.PDF för .NET med den här omfattande steg-för-steg-guiden.
+
+### [Hur du använder GraphicsAbsorber – Extrahera vektorgrafik från PDF med Aspose.Pdf](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
+Lär dig hur du använder GraphicsAbsorber för att extrahera vektorgrafik från PDF-dokument med Aspose.Pdf.
+
+### [Lägg till grafikstatus i PDF med Aspose.Pdf – steg‑för‑steg‑guide](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
 
 ## Ytterligare resurser
 

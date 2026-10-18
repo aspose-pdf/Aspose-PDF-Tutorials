@@ -24,17 +24,11 @@ title: DOCX in PDF mit C# konvertieren – Vollständige Schritt‑für‑Schrit
 url: /de/net/document-conversion/convert-docx-to-pdf-in-c-complete-step-by-step-guide/
 ---
 
-the content inside cells, many are English sentences with technical terms. We can translate them to German while preserving technical terms (e.g., "Aspose.Words", "PDF/X‑4", etc.). So we translate those sentences.
 
-Also need to translate blockquote > Pro tip: etc.
 
-Also ensure we keep markdown formatting.
 
-Let's produce final translated content.
 
-We must keep the shortcodes at top and bottom.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -17,6 +17,8 @@ Tablolar ve listeler için Aspose.PDF .NET eğitimlerimizle iyi yapılandırılm
 
 ## Mevcut Eğitimler
 
+
+{{< tutorial-card link="./style-table-cells/" title="Aspose.Pdf for .NET ile PDF'lerde Tablo Hücresi Arka Planı, Kenarlıkları ve Dolguyu Özelleştirin" imgSrc="./style-table-cells/images/thumb.png" >}}
 ### [Aspose.PDF .NET ile PDF'e HTML Sıralı Liste Ekleme](./add-html-ordered-list-pdf-aspose-net/)
 Aspose.PDF Net için bir kod öğreticisi
 

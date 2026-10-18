@@ -22,17 +22,11 @@ title: PDF dokumentum létrehozása C#-ban – Oldal hozzáadása a PDF-hez és 
 url: /hu/net/programming-with-pdf-pages/create-pdf-document-in-c-add-page-to-pdf-rectangle/
 ---
 
-with different rectangle coordinates, borders, and fill colors. The more you play around, the better you’ll understand how Aspose.P"
 
-The last sentence seems cut off. We'll translate as is.
 
-"Nyugodtan kísérletezz különböző téglalap koordinátákkal, keretekkel és kitöltő színekkel. Minél többet játszol vele, annál jobban megérted, hogyan működik az Aspose.P"
 
-Now close shortcodes.
 
-We must keep the ending shortcodes unchanged.
 
-Now produce final content with all sections.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

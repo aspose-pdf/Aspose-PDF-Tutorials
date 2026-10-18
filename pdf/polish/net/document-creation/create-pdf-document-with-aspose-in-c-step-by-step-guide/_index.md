@@ -21,11 +21,8 @@ title: Tworzenie dokumentu PDF przy użyciu Aspose w C# – Przewodnik krok po k
 url: /pl/net/document-creation/create-pdf-document-with-aspose-in-c-step-by-step-guide/
 ---
 
-CODE_BLOCK_0}} etc. Keep them unchanged.
 
-Also there is a note: "For Polish, ensure proper RTL formatting if needed" Not needed.
 
-Now produce final content with all translations.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

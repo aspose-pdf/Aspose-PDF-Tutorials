@@ -21,11 +21,9 @@ title: 在 C# 中更改 PDF 不透明度 – 完整的 Aspose 指南
 url: /zh/net/programming-with-stamps-and-watermarks/change-pdf-opacity-in-c-complete-aspose-guide/
 ---
 
-0}} etc.
 
-Also preserve blockquote formatting.
 
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

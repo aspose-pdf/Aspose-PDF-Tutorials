@@ -42,8 +42,6 @@ url: /ar/net/document-creation/create-pdf-document-with-aspose-pdf-add-page-shap
 
 **المتطلبات المسبقة:** .NET 6+ (أو .NET Framework 4.6+)، Visual Studio أو أي بيئة تطوير C#، ورخصة صالحة لـ Aspose.PDF (أو النسخة التجريبية المجانية). لا توجد مكتبات طرف ثالث أخرى مطلوبة.
 
-![Create PDF Document example](alt="إنشاء مستند PDF باستخدام Aspose.PDF يُظهر مستطيلًا أحمر يتجاوز حدود الصفحة")
-
 ---
 
 ## الخطوة 1 – تهيئة مستند PDF

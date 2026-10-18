@@ -29,6 +29,8 @@
 
 {{< tutorial-card link="./multicolumn-paragraphs/" title="Παράγραφοι πολλαπλών στηλών σε PDF χρησιμοποιώντας το Aspose.PDF" imgSrc="./multicolumn-paragraphs/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/" title="Πώς να χρησιμοποιήσετε το Aspose για εξαγωγή κειμένου από σαρωμένο PDF – οδηγός βήμα‑βήμα" imgSrc="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

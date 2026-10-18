@@ -1,0 +1,49 @@
+//ExStart
+//ExSummary: Este tutorial muestra cómo abrir un PDF existente con Aspose.Pdf, restringir sus permisos solo al llenado de formularios, encriptarlo usando AES‑256 con una contraseña de visualización y una de propietario, y guardar el documento protegido.
+//ExStepSummary:0: Declare la ruta del PDF de origen, la ruta de salida y las contraseñas de visualización y de propietario.
+//ExStepSummary:1: Verifique que el archivo de origen exista; si no existe, escriba un mensaje de error y salga.
+//ExStepSummary:2: Ingrese a un bloque try y abra el documento PDF con una sentencia `using`, creando la variable `pdfDoc`.
+//ExStepSummary:3: Cree un objeto `Permissions` que permita solo el llenado de formularios.
+//ExStepSummary:4: Encripte `pdfDoc` con las contraseñas de visualización y maestro, aplicando el conjunto de permisos y usando AES‑256.
+//ExStepSummary:5: Guarde el PDF encriptado en el archivo de salida especificado y cierre el bloque `using`.
+//ExStepSummary:6: Escriba un mensaje de confirmación en la consola y cierre el bloque try.
+//ExStepSummary:7: Capture cualquier excepción, envíe su mensaje al flujo de error y cierre el bloque catch.
+//ExStep:0-
+        const string sourceFile = "sample.pdf";
+        const string encryptedFile = "protected.pdf";
+        const string viewerPwd = "readPass";
+        const string masterPwd = "fullPass";
+
+//ExStep:1-
+        if (!File.Exists(sourceFile))
+        {
+            Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+            return;
+        }
+
+//ExStep:2-
+        try
+        {
+            using (Document pdfDoc = new Document(sourceFile))
+            {
+
+//ExStep:3-
+                Permissions permissionSet = Permissions.FillForm;
+
+//ExStep:4-
+                pdfDoc.Encrypt(viewerPwd, masterPwd, permissionSet, CryptoAlgorithm.AESx256);
+
+//ExStep:5-
+                pdfDoc.Save(encryptedFile);
+            }
+
+//ExStep:6-
+            Console.WriteLine($"Encrypted document written to '{encryptedFile}'.");
+        }
+
+//ExStep:7-
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Error: {ex.Message}");
+        }
+//ExEnd

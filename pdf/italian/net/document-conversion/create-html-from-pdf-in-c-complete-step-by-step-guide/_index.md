@@ -23,9 +23,8 @@ title: Crea HTML da PDF in C# – Guida completa passo‑passo
 url: /it/net/document-conversion/create-html-from-pdf-in-c-complete-step-by-step-guide/
 ---
 
-The original didn't have any actual code fences, only placeholders. So we keep them.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

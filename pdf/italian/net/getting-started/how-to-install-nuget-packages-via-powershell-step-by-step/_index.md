@@ -24,7 +24,6 @@ title: come installare i pacchetti NuGet tramite PowerShell – passo dopo passo
 url: /it/net/getting-started/how-to-install-nuget-packages-via-powershell-step-by-step/
 ---
 
-.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

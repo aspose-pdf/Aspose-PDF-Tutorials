@@ -14,23 +14,14 @@ weight: 1
 ---
 
 
-For ... etc.
 
-We need to translate all text.
 
-We must keep code block placeholders unchanged.
 
-Also ensure bullet points and list items translated.
 
-Let's produce final markdown.
 
-Proceed translation.
 
-Note: Keep technical terms like Maven, Gradle, Aspose.PDF, Java, etc.
 
-Also keep URLs unchanged.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 

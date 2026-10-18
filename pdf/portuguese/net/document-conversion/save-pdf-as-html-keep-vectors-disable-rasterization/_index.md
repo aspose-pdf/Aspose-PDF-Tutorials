@@ -23,15 +23,10 @@ title: Salvar PDF como HTML – Manter Vetores e Desativar Rasterização
 url: /pt/net/document-conversion/save-pdf-as-html-keep-vectors-disable-rasterization/
 ---
 
-blocks/products/products-backtop-button >}}
 
-Make sure to keep them.
 
-Now produce final output with all translations.
 
-Be careful with markdown formatting, keep code block placeholders unchanged.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

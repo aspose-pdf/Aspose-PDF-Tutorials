@@ -27,7 +27,7 @@ Aprenda a adicionar números de página usando o Aspose.PDF para .NET com um gui
 Aprenda a remover todo o texto de documentos PDF de forma eficiente usando o Aspose.PDF para .NET. Siga este guia passo a passo com exemplos de código e dicas de desempenho.
 
 ### [Crie e gire texto em PDFs usando Aspose.PDF .NET: um guia completo para desenvolvedores](./create-rotate-text-aspose-pdf-net/)
-Aprenda a criar e girar texto em documentos PDF usando o Aspose.PDF para .NET. Este guia aborda inicialização, configuração de texto e layouts criativos em C#.
+Aprenda a criar e girar texto em documentos PDF usando o Aspose.PDF .NET. Este guia aborda inicialização, configuração de texto e layouts criativos em C#.
 
 ### [Crie PDFs com texto recuado no .NET usando Aspose.PDF](./create-indented-text-pdfs-net-aspose-pdf/)
 Um tutorial de código para Aspose.PDF Net
@@ -54,7 +54,7 @@ Aprenda a extrair fontes de documentos PDF com eficiência usando o Aspose.PDF p
 Aprenda a extrair valores de campos de PDFs usando o Aspose.PDF para .NET em C#. Este guia aborda instalação, implementação e práticas recomendadas.
 
 ### [Extrair parágrafos de PDF usando Aspose.PDF .NET: um guia completo para operações de texto](./extract-paragraphs-from-pdf-aspose-pdf-net/)
-Aprenda a extrair parágrafos de documentos PDF com eficiência usando o Aspose.PDF para .NET. Este guia aborda configuração, implementação e aplicações práticas.
+Aprenda a extrair parágrafos de documentos PDF com eficiência usando o Aspose.PDF .NET. Este guia aborda configuração, implementação e aplicações práticas.
 
 ### [Extraia texto de cada página usando Aspose.PDF para .NET: um guia completo](./aspose-pdf-net-extract-text-by-page/)
 Aprenda como extrair texto de cada página de um documento PDF com eficiência usando o Aspose.PDF para .NET com este tutorial passo a passo.
@@ -103,6 +103,9 @@ Domine a rotação de texto em PDFs com o Aspose.PDF para .NET usando este guia 
 
 ### [Domine o Aspose.PDF para .NET: Abra e pesquise documentos PDF com eficiência](./aspose-pdf-net-open-search-pdfs/)
 Aprenda a usar o Aspose.PDF para .NET para abrir e pesquisar documentos PDF. Este guia aborda a configuração, a pesquisa de texto em páginas específicas e aplicações práticas.
+
+### [Como pesquisar PDF com Aspose.Pdf – Guia completo em C#](./how-to-search-pdf-with-aspose-pdf-complete-c-guide/)
+Aprenda a pesquisar texto em PDFs usando Aspose.Pdf com um guia completo em C#.
 
 ### [Domine as tabulações personalizadas em PDFs usando o Aspose.PDF para .NET: um guia completo](./master-custom-tab-stops-aspose-pdf-net/)
 Aprenda a dominar paradas de tabulação personalizadas em documentos PDF usando o Aspose.PDF para .NET, aprimorando suas habilidades de formatação e apresentação de documentos.
@@ -161,8 +164,14 @@ Aprenda a otimizar fontes de PDF usando o Aspose.PDF .NET, simplifique seus docu
 ### [Substituir fontes em PDF usando Aspose.PDF para .NET](./replace-fonts-pdf-aspose-dotnet-guide/)
 Um tutorial de código para Aspose.PDF Net
 
-### [Estilizar texto em PDFs marcados usando Aspose.PDF para .NET | Guia para criação de PDFs acessíveis e estéticos](./style-text-tagged-pdfs-aspose-pdf-net/)
-Aprenda a estilizar texto em documentos PDF marcados com o Aspose.PDF para .NET. Este guia aborda instalação, técnicas e aplicações práticas para aprimorar a acessibilidade.
+### [Como resumir PDF com Aspose.Pdf.AI – guia completo](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
+Um tutorial completo que demonstra como usar Aspose.Pdf.AI para gerar resumos de documentos PDF em C#.
+
+### [Chat de IA com PDF: faça perguntas ao PDF usando o Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
+Aprenda a usar o Aspose AI Copilot para fazer perguntas a PDFs e obter respostas precisas.
+
+### [Como censurar PDF com Aspose – Guia passo a passo](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
+Aprenda a remover informações confidenciais de PDFs usando Aspose.PDF para .NET com este tutorial detalhado passo a passo.
 
 ## Recursos adicionais
 

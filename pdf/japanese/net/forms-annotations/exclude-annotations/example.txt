@@ -1,0 +1,72 @@
+//ExStart
+//ExSummary: このチュートリアルでは、Aspose.Pdf for .NET を使用して、各ファイルから注釈のバウンディングボックスを収集し、SideBySideComparisonOptions にそれらの領域を設定し、注釈領域をすべて除外した状態で 2 つの PDF ドキュメントを比較し、差分 PDF を出力するサイドバイサイド比較の方法を示します。
+//ExStepSummary:0: プライマリ PDF、セカンダリ PDF、および出力差分 PDF のファイルパスを定義します。
+//ExStepSummary:1: 両方の入力 PDF ファイルが存在することを確認し、どちらかが欠落している場合はエラーメッセージで中止します。
+//ExStepSummary:2: using ブロック内で 2 つの PDF ファイルを Document オブジェクト（pdfA と pdfB）として開き、ブロック終了時に自動的に破棄されるようにします。
+//ExStepSummary:3: pdfA のすべての注釈のバウンディング矩形を収集し、ignoredRectsA に格納します。
+//ExStepSummary:4: pdfB のすべての注釈のバウンディング矩形を収集し、ignoredRectsB に格納します。
+//ExStepSummary:5: SideBySideComparisonOptions オブジェクトを作成し、事前に収集した注釈矩形を ExcludeAreas1 と ExcludeAreas2 に割り当て、比較時にそれらの領域が無視されるようにします。
+//ExStepSummary:6: 2 つの Document オブジェクトと設定したオプションを使用してサイドバイサイド PDF 比較を実行し、結果を outputPdf に書き込みます。
+//ExStepSummary:7: Document オブジェクトを破棄し、using ブロックを抜けます。
+//ExStepSummary:8: 比較が完了したことと、diff PDF が保存された場所を示す確認メッセージを出力します。
+//ExStep:0-
+const string primaryPdf = "sourceA.pdf";
+const string secondaryPdf = "sourceB.pdf";
+const string outputPdf = "diff_output.pdf";
+
+//ExStep:1-
+if (!File.Exists(primaryPdf) || !File.Exists(secondaryPdf))
+{
+    Console.Error.WriteLine("Required input files are missing.");
+    return;
+}
+
+//ExStep:2-
+using (Document pdfA = new Document(primaryPdf))
+using (Document pdfB = new Document(secondaryPdf))
+{
+
+//ExStep:3-
+// Gather bounding boxes of all annotations in the first PDF
+List<Aspose.Pdf.Rectangle> ignoredRectsA = new List<Aspose.Pdf.Rectangle>();
+foreach (Page p in pdfA.Pages)
+{
+    foreach (Annotation a in p.Annotations)
+    {
+        // Each annotation provides its location via the Rect property
+        if (a != null && a.Rect != null)
+            ignoredRectsA.Add(a.Rect);
+    }
+}
+
+//ExStep:4-
+// Gather bounding boxes of all annotations in the second PDF
+List<Aspose.Pdf.Rectangle> ignoredRectsB = new List<Aspose.Pdf.Rectangle>();
+foreach (Page p in pdfB.Pages)
+{
+    foreach (Annotation a in p.Annotations)
+    {
+        if (a != null && a.Rect != null)
+            ignoredRectsB.Add(a.Rect);
+    }
+}
+
+//ExStep:5-
+// Set up comparison settings to omit the collected regions
+SideBySideComparisonOptions compareOpts = new SideBySideComparisonOptions
+{
+    ExcludeAreas1 = ignoredRectsA.ToArray(),
+    ExcludeAreas2 = ignoredRectsB.ToArray()
+    // Additional settings may be adjusted here (e.g., ExcludeTables = true)
+};
+
+//ExStep:6-
+// Execute side‑by‑side comparison and write the outcome
+SideBySidePdfComparer.Compare(pdfA, pdfB, outputPdf, compareOpts);
+
+//ExStep:7-
+}
+
+//ExStep:8-
+Console.WriteLine($"Comparison finished. Output written to '{outputPdf}'.");
+//ExEnd

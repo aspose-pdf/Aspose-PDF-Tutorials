@@ -24,17 +24,12 @@ title: C# में PDF से HTML बनाएं – पूर्ण चर�
 url: /hi/net/document-conversion/create-html-from-pdf-in-c-complete-step-by-step-guide/
 ---
 
--image unchanged.
 
-Next paragraph: "Feel free to experiment, share your results, or ask questions in the comments. Happy coding!" translate.
 
-"बिना झिझक प्रयोग करें, अपने परिणाम साझा करें, या कमेंट्स में प्रश्न पूछें। कोडिंग का आनंद लें!"
 
-Then closing shortcodes: {{< /blocks/products/pf/tutorial-page-section >}} etc remain.
 
-Now ensure we didn't miss any text. Also the initial three shortcodes at top remain unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

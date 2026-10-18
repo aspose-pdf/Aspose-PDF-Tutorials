@@ -23,9 +23,7 @@ title: دليل توقيع PDF – التحقق من توقيعات PDF في C# 
 url: /ar/net/digital-signatures/pdf-signature-tutorial-verify-pdf-signatures-in-c-with-aspos/
 ---
 
-at end; keep.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

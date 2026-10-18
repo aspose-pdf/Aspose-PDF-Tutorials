@@ -1,0 +1,49 @@
+//ExStart
+//ExSummary: Dieses Tutorial zeigt, wie man ein vorhandenes PDF mit Aspose.Pdf öffnet, die Berechtigungen ausschließlich auf das Ausfüllen von Formularen beschränkt, es mit AES‑256 sowie einem Viewer‑ und Owner‑Passwort verschlüsselt und das geschützte Dokument speichert.
+//ExStepSummary:0: Deklariere den Pfad zur Quell‑PDF, den Ausgabepfad sowie die Viewer‑ und Owner‑Passwörter.
+//ExStepSummary:1: Überprüfe, ob die Quelldatei existiert; falls nicht, gib eine Fehlermeldung aus und beende das Programm.
+//ExStepSummary:2: Betritt einen try‑Block und öffne das PDF‑Dokument mit einer `using`‑Anweisung, wobei die Variable `pdfDoc` erstellt wird.
+//ExStepSummary:3: Erstelle ein `Permissions`‑Objekt, das nur das Ausfüllen von Formularen erlaubt.
+//ExStepSummary:4: Verschlüssele `pdfDoc` mit dem Viewer‑ und Master‑Passwort, wende das Berechtigungssatz an und nutze AES‑256.
+//ExStepSummary:5: Speichere das verschlüsselte PDF in die angegebene Ausgabedatei und schließe den `using`‑Block.
+//ExStepSummary:6: Gib eine Bestätigungsnachricht in der Konsole aus und schließe den try‑Block.
+//ExStepSummary:7: Fange jede Ausnahme ab, gib deren Meldung in den Fehlerstrom aus und schließe den catch‑Block.
+//ExStep:0-
+        const string sourceFile = "sample.pdf";
+        const string encryptedFile = "protected.pdf";
+        const string viewerPwd = "readPass";
+        const string masterPwd = "fullPass";
+
+//ExStep:1-
+        if (!File.Exists(sourceFile))
+        {
+            Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+            return;
+        }
+
+//ExStep:2-
+        try
+        {
+            using (Document pdfDoc = new Document(sourceFile))
+            {
+
+//ExStep:3-
+                Permissions permissionSet = Permissions.FillForm;
+
+//ExStep:4-
+                pdfDoc.Encrypt(viewerPwd, masterPwd, permissionSet, CryptoAlgorithm.AESx256);
+
+//ExStep:5-
+                pdfDoc.Save(encryptedFile);
+            }
+
+//ExStep:6-
+            Console.WriteLine($"Encrypted document written to '{encryptedFile}'.");
+        }
+
+//ExStep:7-
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Error: {ex.Message}");
+        }
+//ExEnd

@@ -21,17 +21,11 @@ title: Добавление ICC‑профиля и конвертация PDF �
 url: /ru/net/document-conversion/add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/
 ---
 
-we translate? The instruction: translate ALL text content naturally to Russian. Alt text is text content, so translate. Title also. So alt and title should be Russian.
 
-But keep image URL unchanged.
 
-Now produce final content.
 
-Let's write translation.
 
-Be careful with bullet lists.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

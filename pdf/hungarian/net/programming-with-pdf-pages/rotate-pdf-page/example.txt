@@ -1,0 +1,11 @@
+//ExStart
+//ExSummary: Ez a bemutató azt mutatja be, hogyan lehet elforgatni egy PDF-dokumentum harmadik oldalát 180 fokkal a PDF SDK oldal‑forgatási funkcióinak segítségével.
+//ExStepSummary:0: A fájl csak magyarázó megjegyzéseket tartalmaz, futtatható kód nincs benne, és az eredeti példát helyettesíti.
+//ExStep:0-
+// Placeholder for the original example URL.
+// Demonstrates rotating the third page of a PDF by 180 degrees.
+// The functional implementation has been moved to a different repository.
+// This file preserves the original link for legacy references.
+
+        // No operational code required for this placeholder.
+//ExEnd

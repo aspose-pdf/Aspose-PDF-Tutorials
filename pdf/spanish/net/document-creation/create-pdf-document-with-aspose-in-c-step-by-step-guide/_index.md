@@ -20,15 +20,10 @@ title: Crear documento PDF con Aspose en C# – Guía paso a paso
 url: /es/net/document-creation/create-pdf-document-with-aspose-in-c-step-by-step-guide/
 ---
 
-points, paragraphs.
 
-Tables: translate question and answer content but keep pipe formatting.
 
-Make sure not to translate code block placeholders.
 
-Also note "RTL formatting if needed" but Spanish is LTR, ignore.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
