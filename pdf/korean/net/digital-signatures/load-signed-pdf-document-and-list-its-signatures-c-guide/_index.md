@@ -38,8 +38,6 @@ url: /ko/net/digital-signatures/load-signed-pdf-document-and-list-its-signatures
 
 외부 도구 없이, 애매한 “문서 참고” 같은 지름길도 없이—오늘 바로 Visual Studio에 복사‑붙여넣기 할 수 있는 완전한 실행 예제만 제공합니다.
 
-![서명된 PDF 문서를 로드하고 서명을 추출하는 흐름도](alt="load signed pdf document flow diagram")
-
 ## 사전 요구 사항
 
 본격적으로 시작하기 전에, 아래 항목들이 머신에 준비되어 있는지 확인하세요:

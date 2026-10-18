@@ -18,12 +18,18 @@ Onze tutorials over documentcreatie bieden uitgebreide begeleiding bij het progr
 ## Beschikbare tutorials
 
 
+
+{{< tutorial-card link="./create-pdf-x-3-document/" title="PDF/X‑3‑document met drie pagina's maken met Aspose.Pdf voor .NET" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
 ### [PDF-boekjes maken met Aspose.PDF voor .NET: een stapsgewijze handleiding](./aspose-pdf-net-create-booklets-tutorial/)
 Leer hoe u professionele PDF-boekjes maakt met Aspose.PDF voor .NET. Deze tutorial behandelt de installatie, implementatie en praktische toepassingen.
-### [PDF-document maken met Aspose.PDF – een stapsgewijze handleiding](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
-Leer stap voor stap hoe u een PDF-document maakt met Aspose.PDF in .NET.
 ### [PDF-document maken met Aspose in C# – een stapsgewijze handleiding](./create-pdf-document-with-aspose-in-c-step-by-step-guide/)
 Leer stap voor stap hoe u een PDF-document maakt met Aspose in C#.
+### [PDF-document maken met Aspose.Pdf – volledige stapsgewijze handleiding](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+Leer stap voor stap hoe u een PDF-document maakt met Aspose.Pdf in .NET.
+
+### [PDF/X‑4-document maken in C# – een stapsgewijze handleiding](./create-pdf-x-4-document-c-step-by-step-guide/)
+Leer hoe u een PDF/X‑4-document genereert met Aspose.PDF voor .NET in C#, stap voor stap uitgelegd.
+
 ### [PDF's maken van XML en XSLT met Aspose.PDF .NET: een stapsgewijze handleiding](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
 Leer hoe u XML-gegevens naar PDF-formaat converteert met Aspose.PDF voor .NET met XSLT-transformaties. Deze handleiding behandelt de installatie, binding en aanpassing.
 ### [Maak professionele PDF-boekjes in .NET met Aspose.PDF: een uitgebreide handleiding](./create-professional-pdf-booklets-net-aspose-pdf/)
@@ -60,8 +66,51 @@ Leer complexe PDF-documenten maken met Aspose.PDF voor .NET. Deze handleiding be
 Leer hoe u toegankelijke, goed gestructureerde, getagde PDF's maakt met Aspose.PDF voor .NET. Deze handleiding behandelt het instellen van documenteigenschappen, het toevoegen van links en het insluiten van afbeeldingen.
 ### [PDF-boekjes maken onder de knie krijgen met Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Een codetutorial voor Aspose.PDF Net
+### [PDF-document maken in C# – Pagina toevoegen, rechthoek tekenen & opslaan](./create-pdf-document-c-add-page-draw-rectangle-save/)
+Leer hoe u met Aspose.PDF voor .NET een PDF-document maakt in C#, een pagina toevoegt, een rechthoek tekent en het bestand opslaat.
+### [PDF-document maken in C# – lege pagina, tags en span toevoegen](./create-pdf-document-in-c-add-blank-page-tags-and-span/)
+Leer hoe u een PDF-document in C# maakt en lege pagina's, tags en spans toevoegt voor geavanceerde opmaak.
+
+### [Hoe PDF te maken in C# – Pagina toevoegen, rechthoek tekenen en opslaan](./how-to-create-pdf-in-c-add-page-draw-rectangle-save/)
+Leer hoe u in C# een PDF maakt, een pagina toevoegt, een rechthoek tekent en het bestand opslaat met Aspose.PDF.
+
+### [PDF-document maken in C# – Stapsgewijze handleiding](./create-pdf-document-in-c-step-by-step-guide/)
+Leer hoe u stap voor stap een PDF-document maakt in C# met Aspose.PDF, inclusief installatie en basiscodevoorbeelden.
+
+### [PDF-document maken – Pagina toevoegen aan PDF, koptekst taggen en elementen positioneren](./create-pdf-document-add-page-to-pdf-tag-heading-and-position/)
+Leer hoe u een PDF-document maakt, een pagina toevoegt, kopteksten tagt en elementen nauwkeurig positioneert met Aspose.PDF voor .NET.
+
 ### [PDF-document maken met Aspose.PDF – Pagina toevoegen, vorm toevoegen & opslaan](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Leer hoe u met Aspose.PDF een PDF maakt, een pagina en vorm toevoegt en het document opslaat.
+### [PDF-document maken in C# – Lege pagina toevoegen en rechthoek tekenen](./create-pdf-document-c-add-blank-page-draw-rectangle/)
+Leer hoe u met Aspose.PDF voor .NET een PDF maakt, een lege pagina toevoegt en een rechthoek tekent in C#.
+### [PDF-document maken in C# – Gids voor het toevoegen van Bates-nummers](./create-pdf-document-c-add-bates-numbering-guide/)
+Leer hoe u met Aspose.PDF voor .NET en C# Bates-nummers toevoegt aan PDF-documenten.
+
+### [PDF-document maken – lege pagina toevoegen, rechthoek tekenen en opslaan](./create-pdf-document-add-blank-page-draw-rectangle-save/)
+Leer hoe u een PDF-document maakt, een lege pagina toevoegt, een rechthoek tekent en het bestand opslaat met Aspose.PDF voor .NET.
+
+### [PDF-document maken met Aspose.PDF: een stapsgewijze handleiding](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Leer hoe u met Aspose.PDF een PDF-document maakt, pagina's toevoegt en opslaat in een stapsgewijze handleiding.
+
+### [PDF-document maken met Aspose.PDF – volledige C#-handleiding](./create-pdf-document-with-aspose-pdf-full-c-guide/)
+Leer stap voor stap hoe u een PDF-document maakt met Aspose.PDF in C#, inclusief codevoorbeelden en best practices.
+
+### [PDF-document maken in C# – Pagina toevoegen aan PDF & Rechthoek tekenen](./create-pdf-document-in-c-add-page-to-pdf-draw-rectangle/)
+Leer hoe u een pagina toevoegt en een rechthoek tekent in een PDF met Aspose.PDF voor .NET in C#.
+
+### [PDF-document maken in C# – Volledige gids voor in‑memory generatie](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
+Leer hoe u een PDF-document volledig in het geheugen genereert met C# en Aspose.PDF, zonder tijdelijke bestanden.
+
+### [PDF-document maken C# – een stapsgewijze handleiding om een lege pagina toe te voegen en een rechthoek te tekenen](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
+Leer hoe u met Aspose.PDF voor .NET een lege pagina toevoegt en een rechthoek tekent in een PDF-document met C#.
+
+### [PDF-afbeelding maken van HEIC – Complete C#-gids](./create-pdf-image-from-heic-complete-c-guide/)
+Leer hoe u met Aspose.PDF een PDF-afbeelding genereert uit HEIC-bestanden met C# in deze volledige gids.
+
+### [Nieuw PDF-document maken met Bates-nummering in C#](./create-new-pdf-document-with-bates-numbering-in-c/)
+Leer hoe u een nieuw PDF-document maakt en automatisch Bates-nummering toevoegt met C# en Aspose.PDF.
+
 ## Aanvullende bronnen
 
 - [Aspose.PDF voor Netdocumentatie](https://docs.aspose.com/pdf/net/)

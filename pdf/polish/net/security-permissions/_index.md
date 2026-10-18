@@ -17,6 +17,12 @@ Nasze samouczki dotyczące bezpieczeństwa i uprawnień pokazują, jak chronić 
 
 ## Dostępne samouczki
 
+
+{{< tutorial-card link="./encrypt-pdf-form-filling/" title="Zaszyfruj PDF, aby zezwalał wyłącznie na wypełnianie formularzy, używając Aspose.Pdf dla .NET" imgSrc="./encrypt-pdf-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-form-filling/" title="Zaszyfruj PDF wyłącznie do wypełniania formularzy przy użyciu AES‑256 z Aspose.Pdf dla .NET" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="Szyfruj PDF bez uprawnienia do drukowania przy użyciu Aspose.PDF dla .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [Zmiana haseł PDF za pomocą Aspose.PDF dla .NET](./change-pdf-password-aspose-pdf-net-guide/)
 Samouczek dotyczący kodu dla Aspose.PDF Net
 
@@ -61,6 +67,13 @@ Dowiedz się, jak wdrożyć bezpieczne podpisy cyfrowe i weryfikację plików PD
 
 ### [Opanowanie redakcji PDF za pomocą Aspose.PDF .NET: kompleksowy przewodnik po bezpiecznym przetwarzaniu dokumentów](./mastering-pdf-redaction-aspose-pdf-net-guide/)
 Dowiedz się, jak bezpiecznie redagować pliki PDF za pomocą Aspose.PDF .NET. Ten przewodnik obejmuje podejścia oparte na adnotacjach i fasadach, zapewniając zgodność dokumentów.
+
+### [Zastosowanie redakcji PDF za pomocą Aspose Plugin Manager – Kompletny przewodnik](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
+Dowiedz się, jak używać Aspose Plugin Manager do stosowania redakcji w dokumentach PDF, krok po kroku.
+### [Jak redagować PDF i usuwać wrażliwe dane w C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+Dowiedz się, jak używać Aspose.PDF dla .NET do redakcji i usuwania poufnych informacji z dokumentów PDF w C#.
+### [Jak redagować PDF za pomocą Aspose.Pdf – Kompletny przewodnik krok po kroku](./how-to-redact-pdf-with-aspose-pdf-complete-step-by-step-guid/)
+Dowiedz się, jak redagować pliki PDF przy użyciu Aspose.Pdf, krok po kroku, z pełnymi przykładami kodu C#.
 
 ### [Odblokowywanie i deszyfrowanie plików PDF za pomocą Aspose.PDF dla .NET: Kompletny przewodnik](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 Dowiedz się, jak odblokować i odszyfrować chronione pliki PDF za pomocą Aspose.PDF dla .NET w C#. Ten przewodnik obejmuje konfigurację, kroki odszyfrowywania i najlepsze praktyki.

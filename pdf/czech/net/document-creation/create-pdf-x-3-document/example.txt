@@ -1,0 +1,33 @@
+//ExStart
+//ExSummary: Tento tutoriál ukazuje, jak vytvořit nový PDF dokument, přidat tři prázdné stránky, převést jej do souladu s PDF/X‑3 při zaznamenávání chyb převodu a uložit výsledný soubor pomocí třídy Aspose.Pdf Document.
+//ExStepSummary:0: Definujte název výstupního PDF souboru a cestu k souboru protokolu převodu.
+//ExStepSummary:1: Vytvořte novou instanci objektu Document uvnitř bloku using, aby byl zajištěn řádný uvolnění prostředků.
+//ExStepSummary:2: Přidejte do dokumentu tři prázdné stránky, čímž zvýšíte počet jeho stránek.
+//ExStepSummary:3: Převěďte dokument do formátu PDF/X‑3 a zaznamenejte případné problémy převodu do souboru protokolu.
+//ExStepSummary:4: Uložte dokument splňující PDF/X‑3 na disk a uzavřete blok using.
+//ExStepSummary:5: Vytiskněte na konzoli potvrzovací zprávu, která uvádí, kam byl soubor uložen.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+        const string resultFile = "final_pdfx3_output.pdf";
+        const string conversionLog = "pdfx3_conversion_log.xml";
+
+//ExStep:1-
+        using (Document pdfDoc = new Document())
+        {
+
+//ExStep:2-
+            pdfDoc.Pages.Add();
+            pdfDoc.Pages.Add();
+            pdfDoc.Pages.Add();
+
+//ExStep:3-
+            pdfDoc.Convert(conversionLog, PdfFormat.PDF_X_3, ConvertErrorAction.Delete);
+
+//ExStep:4-
+            pdfDoc.Save(resultFile);
+        }
+
+//ExStep:5-
+        Console.WriteLine($"PDF/X‑3 file written to '{resultFile}'.");
+//ExEnd

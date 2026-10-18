@@ -18,6 +18,8 @@ Tutorial pembuatan dokumen kami menyediakan panduan lengkap untuk membuat file P
 ## Tutorial yang Tersedia
 
 
+
+{{< tutorial-card link="./create-pdf-x-3-document/" title="Buat Dokumen PDF/X‑3 dengan Tiga Halaman Menggunakan Aspose.Pdf untuk .NET" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
 ### [Membuat Buklet PDF Menggunakan Aspose.PDF untuk .NET: Panduan Langkah demi Langkah](./aspose-pdf-net-create-booklets-tutorial/)
 Pelajari cara membuat buklet PDF profesional dengan Aspose.PDF untuk .NET. Tutorial ini mencakup penyiapan, penerapan, dan aplikasi praktis.
 ### [Membuat PDF dari XML dan XSLT Menggunakan Aspose.PDF .NET: Panduan Langkah demi Langkah](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
@@ -56,12 +58,58 @@ Pelajari cara membuat dokumen PDF yang rumit menggunakan Aspose.PDF untuk .NET. 
 Pelajari cara membuat PDF bertag yang mudah diakses dan terstruktur dengan baik menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup pengaturan properti dokumen, penambahan tautan, dan penyematan gambar.
 ### [Menguasai Pembuatan Buklet PDF dengan Aspose.PDF .NET](./aspose-pdf-net-create-booklet-page-arrangement/)
 Tutorial kode untuk Aspose.PDF Net
+### [Buat Dokumen PDF C# – Tambah Halaman, Gambar Persegi Panjang & Simpan](./create-pdf-document-c-add-page-draw-rectangle-save/)
+Pelajari cara membuat dokumen PDF di C#, menambahkan halaman, menggambar persegi panjang, dan menyimpannya dengan Aspose.PDF.
+
+### [Buat Dokumen PDF – Tambahkan Halaman ke PDF, Tag Heading, dan Posisi Elemen](./create-pdf-document-add-page-to-pdf-tag-heading-and-position/)
+Pelajari cara menambahkan halaman, menandai heading, dan menempatkan elemen dalam dokumen PDF menggunakan Aspose.PDF untuk .NET.
+
+### [Buat Dokumen PDF di C# – Panduan Langkah demi Langkah](./create-pdf-document-in-c-step-by-step-guide/)
+Pelajari cara membuat dokumen PDF menggunakan C# dengan Aspose.PDF melalui panduan langkah demi langkah yang lengkap.
+
 ### [Buat Dokumen PDF dengan Aspose.PDF – Tambahkan Halaman, Bentuk & Simpan](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Pelajari cara menambahkan halaman, bentuk, dan menyimpan dokumen PDF menggunakan Aspose.PDF.
-### [Buat Dokumen PDF dengan Aspose.PDF – Panduan Langkah demi Langkah](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
-Pelajari cara membuat dokumen PDF menggunakan Aspose.PDF dengan panduan langkah demi langkah yang mudah diikuti.
 ### [Buat Dokumen PDF dengan Aspose di C# – Panduan Langkah demi Langkah](./create-pdf-document-with-aspose-in-c-step-by-step-guide/)
 Pelajari cara membuat dokumen PDF menggunakan Aspose di C# dengan panduan langkah demi langkah yang mudah diikuti.
+### [Buat Dokumen PDF C# – Tambahkan Halaman Kosong & Gambar Persegi Panjang](./create-pdf-document-c-add-blank-page-draw-rectangle/)
+Pelajari cara menambahkan halaman kosong ke dokumen PDF dan menggambar persegi panjang menggunakan Aspose.PDF untuk .NET dengan C#.
+### [Buat Dokumen PDF di C# – Tambahkan Halaman Kosong, Tag, dan Span](./create-pdf-document-in-c-add-blank-page-tags-and-span/)
+Pelajari cara menambahkan halaman kosong, tag, dan span ke dokumen PDF menggunakan Aspose.PDF untuk .NET dalam C#.
+
+### [Cara Membuat PDF di C# – Tambahkan Halaman, Gambar Persegi Panjang & Simpan](./how-to-create-pdf-in-c-add-page-draw-rectangle-save/)
+Pelajari cara membuat file PDF di C# dengan menambahkan halaman baru, menggambar persegi panjang, dan menyimpan dokumen menggunakan Aspose.PDF.
+
+### [Buat Dokumen PDF C# – Panduan Penambahan Penomoran Bates](./create-pdf-document-c-add-bates-numbering-guide/)
+Pelajari cara menambahkan penomoran Bates ke dokumen PDF menggunakan Aspose.PDF untuk .NET dengan C# dalam panduan langkah demi langkah.
+
+### [Buat Dokumen PDF – Tambahkan Halaman Kosong, Gambar Persegi Panjang & Simpan](./create-pdf-document-add-blank-page-draw-rectangle-save/)
+Pelajari cara membuat dokumen PDF, menambahkan halaman kosong, menggambar persegi panjang, dan menyimpannya menggunakan Aspose.PDF untuk .NET.
+
+### [Buat Dokumen PDF dengan Aspose.PDF – Panduan Langkah demi Langkah](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Pelajari cara membuat dokumen PDF secara terprogram menggunakan Aspose.PDF dengan panduan langkah demi langkah yang mudah diikuti.
+
+### [Buat Dokumen PDF dengan Aspose.PDF – Panduan Lengkap C#](./create-pdf-document-with-aspose-pdf-full-c-guide/)
+Pelajari cara membuat dokumen PDF secara lengkap menggunakan Aspose.PDF dengan contoh kode C# yang jelas.
+
+### [Buat Dokumen PDF di C# – Tambahkan Halaman ke PDF & Gambar Persegi Panjang](./create-pdf-document-in-c-add-page-to-pdf-draw-rectangle/)
+Pelajari cara menambahkan halaman baru ke dokumen PDF dan menggambar persegi panjang menggunakan Aspose.PDF untuk .NET dalam C#.
+
+### [Buat Dokumen PDF di C# – Panduan Lengkap Pembuatan In‑Memory](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
+Pelajari cara membuat dokumen PDF secara langsung di memori menggunakan Aspose.PDF untuk .NET dengan C#, tanpa menyimpan file sementara.
+
+### [Buat Dokumen PDF C# – Panduan Langkah demi Langkah untuk Menambahkan Halaman Kosong dan Menggambar Persegi Panjang](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
+Pelajari cara menambahkan halaman kosong dan menggambar persegi panjang dalam dokumen PDF menggunakan Aspose.PDF untuk .NET.
+
+### [Buat Gambar PDF dari HEIC – Panduan Lengkap C#](./create-pdf-image-from-heic-complete-c-guide/)
+Pelajari cara mengonversi file HEIC menjadi gambar PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode C# lengkap.
+
+### [Buat Dokumen PDF dengan Aspose.Pdf – Panduan Lengkap Langkah demi Langkah](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+Pelajari cara membuat dokumen PDF secara lengkap dengan Aspose.PDF melalui panduan langkah demi langkah yang detail.
+
+### [Buat dokumen PDF baru dengan penomoran Bates di C#](./create-new-pdf-document-with-bates-numbering-in-c/)
+
+### [Buat Dokumen PDF/X‑4 C# – Panduan Langkah demi Langkah](./create-pdf-x-4-document-c-step-by-step-guide/)
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

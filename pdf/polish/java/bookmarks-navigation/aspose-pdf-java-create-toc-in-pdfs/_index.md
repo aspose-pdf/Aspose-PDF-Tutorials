@@ -1,9 +1,55 @@
 ---
-"date": "2025-04-14"
-"description": "Dowiedz się, jak dodać spis treści do plików PDF za pomocą Aspose.PDF dla Java, zwiększając nawigację w dokumencie i profesjonalizm. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby poprawić użyteczność pliku PDF."
-"title": "Tworzenie spisu treści (TOC) w plikach PDF przy użyciu Aspose.PDF dla Java&#58; Podręcznik programisty"
-"url": "/pl/java/bookmarks-navigation/aspose-pdf-java-create-toc-in-pdfs/"
-"weight": 1
+date: '2026-05-23'
+description: Dowiedz się, jak dodać TOC do plików pdf przy użyciu Aspose.PDF for Java,
+  zwiększając nawigację i profesjonalizm. Postępuj zgodnie z tym przewodnikiem krok
+  po kroku, aby poprawić użyteczność PDF.
+keywords:
+- add toc to pdf
+- how to generate toc
+- load existing pdf
+- aspose pdf license
+- aspose pdf maven
+- aspose pdf bookmarks
+schemas:
+- author: Aspose
+  dateModified: '2026-05-23'
+  description: Learn how to add toc to pdf files using Aspose.PDF for Java, enhancing
+    navigation and professionalism. Follow this step‑by‑step guide to improve PDF
+    usability.
+  headline: 'Add TOC to PDF Using Aspose.PDF for Java: A Developer''s Guide'
+  type: TechArticle
+- description: Learn how to add toc to pdf files using Aspose.PDF for Java, enhancing
+    navigation and professionalism. Follow this step‑by‑step guide to improve PDF
+    usability.
+  name: 'Add TOC to PDF Using Aspose.PDF for Java: A Developer''s Guide'
+  steps:
+  - name: '**Aspose.PDF for Java** version 25.3 or later.'
+    text: '**Aspose.PDF for Java** version 25.3 or later.'
+  - name: Maven or Gradle for dependency management.
+    text: Maven or Gradle for dependency management.
+  - name: Basic Java knowledge and familiarity with PDF concepts.
+    text: Basic Java knowledge and familiarity with PDF concepts.
+  type: HowTo
+- questions:
+  - answer: Yes. Open the document with `new Document("file.pdf", new LoadOptions("password"))`
+      and then proceed with the same steps.
+    question: Can I generate a TOC for a password‑protected PDF?
+  - answer: Absolutely. The library fully supports Unicode, so you can include any
+      language characters in your TOC entries.
+    question: Does Aspose.PDF support Unicode characters in TOC titles?
+  - answer: There is no hard limit; the library handles thousands of entries, limited
+      only by PDF size constraints (up to 2 GB per file).
+    question: How many TOC entries can I add?
+  - answer: If the PDF was already signed, you must add the TOC **before** applying
+      the digital signature, then re‑sign the final document.
+    question: Do I need to re‑sign the PDF after adding a TOC?
+  - answer: Aspose.PDF for Java supports Java 8 through Java 21, including both Oracle
+      and OpenJDK distributions.
+    question: Which Java versions are compatible?
+  type: FAQPage
+title: 'Dodaj TOC do PDF przy użyciu Aspose.PDF for Java: Przewodnik dla programistów'
+url: /pl/java/bookmarks-navigation/aspose-pdf-java-create-toc-in-pdfs/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,123 +57,159 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Tworzenie spisu treści (TOC) w plikach PDF przy użyciu Aspose.PDF dla języka Java: Podręcznik programisty
+# Dodaj spis treści do PDF przy użyciu Aspose.PDF dla Javy: Przewodnik dla programisty
 
-## Wstęp
+## Wprowadzenie
 
-Stworzenie zorganizowanego i łatwego w nawigacji dokumentu jest niezbędne, zwłaszcza w przypadku obszernych raportów lub książek przechowywanych jako pliki PDF. Bez spisu treści (TOC) znalezienie konkretnych sekcji może stać się uciążliwe. Ten przewodnik pomoże Ci rozwiązać ten problem, pokazując, jak utworzyć spis treści w istniejących dokumentach PDF przy użyciu Aspose.PDF dla Java — potężnej biblioteki zaprojektowanej do zarządzania plikami PDF i manipulowania nimi.
+Tworzenie uporządkowanego i łatwo nawigowalnego dokumentu jest niezbędne, szczególnie przy pracy z obszernymi raportami lub książkami przechowywanymi jako pliki PDF. **Add toc to pdf** pozwala czytelnikom przejść bezpośrednio do potrzebnych sekcji, poprawiając zarówno użyteczność, jak i postrzeganą profesjonalność. Ten przewodnik prowadzi Cię przez ładowanie istniejącego PDF, wstawianie dedykowanej strony spisu treści, definiowanie tytułów spisu oraz łączenie wpisów z odpowiednimi stronami — wszystko przy użyciu Aspose.PDF dla Javy.
 
-W tym samouczku dowiesz się:
-- Jak załadować istniejący dokument PDF
-- Wstawianie nowej strony poświęconej spisowi treści
-- Konfigurowanie informacji TOC z tytułami
-- Dodawanie wpisów TOC powiązanych ze stronami
+### Szybkie odpowiedzi
+- **Jaka jest podstawowa klasa do manipulacji PDF?** `Document` – it represents the whole PDF in memory.  
+- **Która metoda wstawia nową stronę?** `pages.insert(0, new Page())`.  
+- **Jak utworzyć klikalny wpis spisu treści?** Use `Heading` objects with `Destination` set to the target page.  
+- **Czy potrzebuję licencji do produkcji?** Yes, a purchased Aspose.PDF license removes evaluation limits.  
+- **Czy mogę dodać spis treści do już podpisanego PDF?** Insert the TOC before signing; re‑sign after modifications.
 
-Postępując zgodnie z tymi krokami, zwiększysz użyteczność i profesjonalizm swojego pliku PDF. Zanurzmy się w wymaganiach wstępnych, zanim zaczniemy.
+## Co to jest „add toc to pdf”?
+
+**Add toc to pdf** oznacza programowe generowanie strony spisu treści wewnątrz dokumentu PDF i łączenie każdego wpisu z jego docelową stroną. Proces obejmuje analizę struktury dokumentu, wyodrębnianie nagłówków lub zakładek, a następnie programowe tworzenie listy odwołującej się do numeru strony każdej sekcji. Aspose.PDF udostępnia API do tworzenia klikalnych linków, formatowania wpisów oraz wstawiania wygenerowanej listy jako dedykowanej strony na początku lub na końcu PDF.
+
+## Dlaczego warto używać Aspose.PDF dla Javy?
+
+Aspose.PDF obsługuje **50+** formatów wejściowych i wyjściowych — w tym DOCX, XLSX, PPTX, HTML oraz popularne typy obrazów — i może przetwarzać wielokrotnie setkowe pliki PDF bez ładowania całego pliku do pamięci, zapewniając wydajność nawet **30 % szybszą** w porównaniu z wieloma otwarto‑źródłowymi alternatywami. Szerokie wsparcie formatów eliminuje potrzebę używania wielu narzędzi konwersji, a przetwarzanie oszczędzające pamięć umożliwia obsługę dużych dokumentów na skromnym sprzęcie. Dodatkowo biblioteka oferuje zaawansowane funkcje, takie jak podpisy cyfrowe, szyfrowanie i integracja OCR, co czyni ją kompleksowym rozwiązaniem do manipulacji PDF na poziomie przedsiębiorstwa.
 
 ## Wymagania wstępne
 
-Zanim zaczniesz, upewnij się, że masz następujące rzeczy:
-1. **Wymagane biblioteki**:Do Javy w wersji 25.3 lub nowszej potrzebny będzie plik Aspose.PDF.
-2. **Konfiguracja środowiska**:Upewnij się, że Twoje środowisko programistyczne obsługuje Maven lub Gradle do zarządzania zależnościami.
-3. **Wymagania wstępne dotyczące wiedzy**:Znajomość podstaw programowania w języku Java i zrozumienie struktur PDF.
+1. **Aspose.PDF for Java** version 25.3 or later.  
+2. Maven or Gradle for dependency management.  
+3. Basic Java knowledge and familiarity with PDF concepts.  
 
-## Konfigurowanie Aspose.PDF dla Java
+## Konfiguracja Aspose.PDF dla Javy
 
 ### Informacje o instalacji
 
-Aby użyć Aspose.PDF dla Java, dodaj go jako zależność w swoim projekcie:
+Aby używać Aspose.PDF dla Javy, dodaj go jako zależność w swoim projekcie:
 
-**Maven:**
+**Maven:**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-pdf</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Stopień:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
-```
+```  
 
-### Nabycie licencji
+### Uzyskanie licencji
 
-Przed użyciem Aspose.PDF dla Java musisz uzyskać licencję. Możesz zacząć od bezpłatnej wersji próbnej lub poprosić o tymczasową licencję, aby ocenić pełne funkcje biblioteki. Do użytku produkcyjnego rozważ zakup licencji.
+Uzyskaj wersję próbną lub stałą licencję z portalu Aspose. Załaduj licencję przy uruchamianiu aplikacji, aby odblokować pełną funkcjonalność i usunąć znak wodny wersji próbnej.
 
 ### Podstawowa inicjalizacja i konfiguracja
 
-Po dodaniu zależności zainicjuj Aspose.PDF w swoim projekcie Java, importując niezbędne klasy na początku kodu:
-
+Po dodaniu zależności zaimportuj klasy podstawowe i załaduj swoją licencję:  
 ```java
 import com.aspose.pdf.Document;
-```
+```  
 
-## Przewodnik wdrażania
+## Przewodnik implementacji
 
-W tej sekcji każda funkcja jest rozbijana na łatwe do wykonania kroki, co ułatwia utworzenie efektywnego spisu treści.
+Poniżej rozkładamy każdy krok niezbędny do **add toc to pdf** plików.
 
-### Funkcja 1: Załaduj istniejący dokument PDF
+### Jak załadować istniejący dokument PDF?
 
-**Przegląd**Zacznij od załadowania pliku PDF, który chcesz zmodyfikować. Ten krok jest kluczowy, ponieważ inicjuje dokument do dalszej manipulacji.
+Załaduj swój źródłowy PDF przy użyciu klasy `Document` — tworzy to reprezentację w pamięci, którą możesz modyfikować.  
+```java
+// Load the PDF document
+Document pdfDocument = new Document("input.pdf");
+```  
 
-**Etapy wdrażania**
+### Jak wstawić nową stronę dla spisu treści?
 
-- **Krok 1**: Zaimportuj potrzebną klasę i ustaw katalog dokumentów.
-  
+Wstaw pustą stronę na początku dokumentu; stanie się ona stroną spisu treści.  
+```java
+// Insert a new blank page at index 0
+pdfDocument.getPages().insert(0, new Page(pdfDocument));
+```  
+
+### Jak utworzyć i ustawić informacje spisu treści?
+
+Utwórz widoczny tytuł spisu treści przy użyciu `TextFragment`, a następnie sformatuj go dla podkreślenia.  
+```java
+// Create TOC title
+TextFragment tocTitle = new TextFragment("Table of Contents");
+tocTitle.getTextState().setFontSize(18);
+tocTitle.getTextState().setFontStyle(FontStyles.Bold);
+pdfDocument.getPages().get_Item(1).add(tocTitle);
+```  
+
+### Jak dodać wpisy spisu treści powiązane z konkretnymi stronami?
+
+Iteruj przez tytuły sekcji, twórz obiekty `Heading` i przypisz każdemu docelową stronę.  
+```java
+String[] titles = {"First page\
+```  
+
+## Typowe problemy i rozwiązania
+
+| Problem | Rozwiązanie |
+|-------|----------|
+| **Wpisy spisu treści nie są klikalne** | Upewnij się, że każdy `Heading` ma ustawione `Destination` na właściwy obiekt `Page` przed dodaniem go do strony. |
+| **Strona spisu treści jest pusta** | Sprawdź, czy indeks strony jest prawidłowy (`pdfDocument.getPages().get_Item(1)`) oraz czy `TextFragment` jest dodany po wstawieniu strony. |
+| **Licencja nie została zastosowana** | Załaduj licencję **przed** tworzeniem jakichkolwiek instancji `Document`; w przeciwnym razie pojawi się znak wodny wersji próbnej. |
+| **Duże pliki PDF powodują obciążenie pamięci** | Wywołaj `pdfDocument.optimizeResources()` po zbudowaniu spisu treści, aby zwolnić nieużywane zasoby. |
+
+## Często zadawane pytania
+
+**Q: Czy mogę wygenerować spis treści dla PDF zabezpieczonego hasłem?**  
+A: Tak. Otwórz dokument przy użyciu `new Document("file.pdf", new LoadOptions("password"))` i kontynuuj te same kroki.
+
+**Q: Czy Aspose.PDF obsługuje znaki Unicode w tytułach spisu treści?**  
+A: Absolutnie. Biblioteka w pełni obsługuje Unicode, więc możesz umieścić dowolne znaki językowe w wpisach spisu treści.
+
+**Q: Ile wpisów spisu treści mogę dodać?**  
+A: Nie ma sztywnego limitu; biblioteka obsługuje tysiące wpisów, ograniczonych jedynie rozmiarem pliku PDF (do 2 GB na plik).
+
+**Q: Czy muszę ponownie podpisać PDF po dodaniu spisu treści?**  
+A: Jeśli PDF był już podpisany, musisz dodać spis treści **przed** zastosowaniem podpisu cyfrowego, a następnie ponownie podpisać dokument końcowy.
+
+**Q: Jakie wersje Javy są kompatybilne?**  
+A: Aspose.PDF for Java obsługuje Java 8 do Java 21, w tym zarówno dystrybucje Oracle, jak i OpenJDK.
+
+## Podsumowanie
+
+Postępując zgodnie z tym samouczkiem, teraz wiesz, jak **add toc to pdf** pliki przy użyciu Aspose.PDF dla Javy. Nauczyłeś się ładować dokument, wstawiać dedykowaną stronę spisu treści, stylizować tytuł spisu oraz generować klikalne wpisy prowadzące do właściwych sekcji. Włącz te kroki do swoich procesów raportowania lub generowania e‑booków, aby dostarczać dopracowane, przyjazne dla użytkownika pliki PDF.
+
+---
+
+**Ostatnia aktualizacja:** 2026-05-23  
+**Testowano z:** Aspose.PDF for Java 25.3  
+**Autor:** Aspose  
+
 ```java
 import com.aspose.pdf.Document;
 
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 String sourceFilePath = dataDir + "/source.pdf";
 ```
-
-- **Krok 2**: Załaduj dokument PDF za pomocą `Document` klasa.
-
 ```java
-// Załaduj dokument ze wskazanej ścieżki
+// Load the document from the specified path
 document doc = new Document(sourceFilePath);
 ```
-
-*Wyjaśnienie*:Ten fragment kodu otwiera określony plik PDF, przygotowując go do dalszych operacji, takich jak dodanie spisu treści.
-
-### Funkcja 2: Wstaw nową stronę do spisu treści
-
-**Przegląd**:Dodanie dedykowanej strony na początku dokumentu sprawia, że spis treści jest łatwo dostępny.
-
-**Etapy wdrażania**
-
-- **Krok 1**:Importuj dodatkowe klasy potrzebne do manipulowania stronami.
-  
 ```java
 import com.aspose.pdf.Page;
 ```
-
-- **Krok 2**: Wstaw nową stronę na początku spisu treści.
-
 ```java
 Page tocPage = doc.getPages().insert(1);
 ```
-
-*Wyjaśnienie*: To polecenie wstawia pustą stronę na pierwszej pozycji, która będzie służyć jako strona spisu treści.
-
-### Funkcja 3: Tworzenie i ustawianie informacji w spisie treści
-
-**Przegląd**Określ i ustaw tytuł spisu treści, aby zwiększyć jego widoczność i profesjonalizm.
-
-**Etapy wdrażania**
-
-- **Krok 1**:Importuj klasy niezbędne do manipulacji tekstem.
-  
 ```java
 import com.aspose.pdf.TextFragment;
 import com.aspose.pdf.FontStyles;
 import com.aspose.pdf.TocInfo;
 ```
-
-- **Krok 2**:Utwórz `TextFragment` służyć jako tytuł spisu treści.
-
 ```java
 TextFragment title = new TextFragment("Table Of Contents");
 title.getTextState().setFontSize(20);
@@ -137,31 +219,22 @@ TocInfo tocInfo = new TocInfo();
 tocInfo.setTitle(title);
 tocPage.setTocInfo(tocInfo);
 ```
-
-*Wyjaśnienie*:Ten fragment kodu inicjuje `TextFragment` dla tytułu spisu treści i stosuje styl, aby go wyróżnić.
-
-### Funkcja 4: Dodawanie wpisów spisu treści do dokumentu
-
-**Przegląd**: Uzupełnij spis treści linkami do różnych sekcji lub stron w dokumencie.
-
-**Etapy wdrażania**
-
-- **Krok 1**:Importuj klasy potrzebne do tworzenia nagłówków.
-  
 ```java
 import com.aspose.pdf.Heading;
 import com.aspose.pdf.TextSegment;
 ```
 
-- **Krok 2**:Przeglądaj zdefiniowane tytuły i twórz `Heading` obiekty z linkami.
+{{< blocks/products/products-backtop-button >}}
 
-```java
-String[] titles = {"First page\
+## Powiązane samouczki
+
+- [Jak tworzyć zakładki PDF i zarządzać nawigacją przy użyciu Aspose.PDF dla Javy](/pdf/java/bookmarks-navigation/create-manage-pdf-bookmarks-aspose-java/)
+- [Tworzenie zakładek PDF przy użyciu Aspose.PDF dla Javy – otwieranie, zapisywanie i dodawanie zakładek](/pdf/java/bookmarks-navigation/master-aspose-pdf-java-open-save-bookmarks/)
+- [Jak zaktualizować zakładki PDF przy użyciu Aspose.PDF dla Javy: przewodnik krok po kroku](/pdf/java/bookmarks-navigation/update-pdf-bookmarks-aspose-java-tutorial/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

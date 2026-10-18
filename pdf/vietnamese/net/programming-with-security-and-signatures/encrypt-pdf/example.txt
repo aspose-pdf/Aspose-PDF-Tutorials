@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: Hướng dẫn này trình bày cách tải một tệp PDF hiện có bằng Aspose.Pdf, hạn chế các quyền của nó, mã hóa bằng cả mật khẩu người dùng (client) và mật khẩu chủ sở hữu (admin) sử dụng thuật toán AES‑256, và lưu tài liệu đã được bảo vệ.
+//ExStepSummary:0: Khai báo đường dẫn tệp nguồn và đích cùng với mật khẩu người dùng (client) và mật khẩu chủ sở hữu (admin).
+//ExStepSummary:1: Kiểm tra xem PDF nguồn có tồn tại không và hủy quá trình kèm thông báo lỗi nếu không tồn tại.
+//ExStepSummary:2: Mở PDF, cho phép chỉ chỉnh sửa nội dung và trích xuất, mã hóa bằng hai mật khẩu sử dụng AES‑256, lưu tệp đã bảo vệ và hiển thị thông báo thành công.
+//ExStepSummary:3: Bắt mọi lỗi xảy ra và ghi thông báo ngoại lệ vào console lỗi.
+//ExStep:0-
+const string sourceFile = "original.pdf";
+const string destinationFile = "protected.pdf";
+const string clientPwd = "clientPwd";
+const string adminPwd = "adminPwd";
+
+//ExStep:1-
+if (!File.Exists(sourceFile))
+{
+    Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+    return;
+}
+
+//ExStep:2-
+try
+{
+    using (Document pdfDoc = new Document(sourceFile))
+    {
+        Permissions allowedPerms = Permissions.ModifyContent | Permissions.ExtractContent;
+
+        pdfDoc.Encrypt(clientPwd, adminPwd, allowedPerms, CryptoAlgorithm.AESx256);
+
+        pdfDoc.Save(destinationFile);
+    }
+
+    Console.WriteLine($"Secured PDF written to '{destinationFile}'.");
+}
+
+//ExStep:3-
+catch (Exception ex)
+{
+    Console.Error.WriteLine($"Failure: {ex.Message}");
+}
+//ExEnd

@@ -19,9 +19,7 @@ title: Aspose を使用して C# で PDF ドキュメントを作成する – �
 url: /ja/net/document-creation/create-pdf-document-with-aspose-in-c-step-by-step-guide/
 ---
 
-" but Japanese is LTR, fine.
 
-Let's produce.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

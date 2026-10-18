@@ -23,6 +23,9 @@ Samouczki „Programowanie z operatorami” Aspose.PDF for .NET przeprowadzą Ci
 | [Narysuj XForm na stronie](./draw-xform-on-page/) | dowiedz się, jak rysować formularze XForm w formacie PDF za pomocą Aspose.PDF dla platformy .NET dzięki temu kompleksowemu przewodnikowi krok po kroku. |  
 | [Operatorzy PDF](./pdf-operators/) | Przewodnik krok po kroku dotyczący korzystania z operatorów PDF w Aspose.PDF dla platformy .NET. Dodaj obraz do strony PDF i określ jego pozycję. |  
 | [Usuń obiekty graficzne w pliku PDF](./remove-graphics-objects/) Dowiedz się, jak usuwać obiekty graficzne z pliku PDF za pomocą Aspose.PDF dla .NET w tym przewodniku krok po kroku. Uprość swoje zadania związane z manipulacją PDF. |  
+| [Iterowanie kolekcji C# – prosty przewodnik po pętli](./iterate-collection-c-simple-guide-to-loop-over-items/) | Prosty przewodnik krok po kroku, jak iterować elementy kolekcji w C# przy użyciu Aspose.PDF dla .NET. |  
+| [Utwórz pusty słownik PDF w C# – Kompletny przewodnik Aspose.Pdf](./create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide/) | Kompletny przewodnik, jak w C# utworzyć pusty słownik PDF przy użyciu Aspose.PDF dla .NET. |
+| [Jak zmienić przezroczystość PDF w C# przy użyciu Aspose.Pdf](./how-to-change-pdf-transparency-in-c-using-aspose-pdf/) | Dowiedz się, jak ustawić przezroczystość elementów w pliku PDF przy użyciu Aspose.Pdf w C#. |
 | [Utwórz niestandardowy stan graficzny w PDF przy użyciu Aspose.Pdf](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) | Dowiedz się, jak tworzyć własny stan graficzny w pliku PDF przy użyciu Aspose.Pdf dla .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

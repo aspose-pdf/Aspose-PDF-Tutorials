@@ -1,0 +1,7 @@
+Title: How to add transparency to PDF and draw a rectangle on PDF with Aspose.PDF
+Slug: how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w
+Category: images-graphics
+ProcessedDate: 2026-09-12T10:30:28.264575
+SourceRepo: AI Search API
+Keywords: add transparency to pdf, draw rectangle on pdf, save pdf with transparency
+PRNumber: 128

@@ -38,8 +38,6 @@ Do konce tohoto průvodce budete schopni:
 
 Žádné externí nástroje, žádné vágní zkratky typu „viz dokumentace“ – jen kompletní, spustitelný příklad, který můžete dnes zkopírovat a vložit do Visual Studia.
 
-![Diagram zobrazující tok načítání podepsaného PDF dokumentu a extrakci jeho podpisů](alt="load signed pdf document flow diagram")
-
 ## Požadavky
 
 Než se ponoříme dál, ujistěte se, že máte na svém počítači následující:

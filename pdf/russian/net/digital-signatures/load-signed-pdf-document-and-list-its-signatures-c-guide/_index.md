@@ -39,8 +39,6 @@ url: /ru/net/digital-signatures/load-signed-pdf-document-and-list-its-signatures
 
 Нет внешних инструментов, нет расплывчатых «см. документацию» обходных путей — только полноценный, исполняемый пример, который вы можете скопировать и вставить в Visual Studio уже сегодня.
 
-![Diagram showing the flow of loading a signed PDF document and extracting its signatures](alt="load signed pdf document flow diagram")
-
 ## Требования
 
 Перед тем как погрузиться, убедитесь, что на вашем компьютере есть следующее:

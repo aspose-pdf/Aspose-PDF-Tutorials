@@ -24,11 +24,9 @@ title: Verificar assinatura de PDF em C# – Guia completo de programação
 url: /pt/net/programming-with-security-and-signatures/verify-pdf-signature-in-c-complete-programming-guide/
 ---
 
-.
 
-Check shortcodes: unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

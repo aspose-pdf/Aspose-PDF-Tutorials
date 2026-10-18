@@ -18,6 +18,8 @@
 ## 可用教程
 
 
+
+{{< tutorial-card link="./create-pdf-x-3-document/" title="使用 Aspose.Pdf for .NET 创建带有三页的 PDF/X‑3 文档" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
 ### [使用 Aspose.PDF for .NET 创建 PDF 小册子：分步指南](./aspose-pdf-net-create-booklets-tutorial/)
 学习如何使用 Aspose.PDF for .NET 创建专业的 PDF 小册子。本教程涵盖设置、实施和实际应用。
 ### [使用 Aspose.PDF .NET 从 XML 和 XSLT 创建 PDF：分步指南](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
@@ -30,6 +32,10 @@
 了解如何使用 Aspose.PDF for .NET 生成包含文本和图像的动态 PDF 文档。有效简化您的文档创建流程。
 ### [使用 Aspose.PDF 在 .NET 中创建具有自动分页功能的结构化 PDF](./create-pdfs-page-breaks-net-aspose-pdf/)
 了解如何使用 Aspose.PDF 在 .NET 环境中以编程方式创建结构化 PDF 文档，并具有自动分页功能以实现精确格式化。
+
+### [创建 PDF 文档 – 添加页面、标记标题和定位元素](./create-pdf-document-add-page-to-pdf-tag-heading-and-position/)
+学习如何在 PDF 中添加页面、为标题添加标签并精确定位元素，实现灵活的文档布局。
+
 ### [使用 Aspose.PDF .NET 创建 PDF 小册子：精简的分步指南](./create-pdf-booklet-aspose-pdf-net-guide/)
 学习如何使用 Aspose.PDF for .NET 自动创建 PDF 小册子。本指南涵盖设置、实施和优化技巧。
 ### [在 Aspose.PDF .NET 中使用 HTML 创建动态 PDF](./aspose-pdf-net-dynamic-html-pdfs/)
@@ -56,12 +62,56 @@ Aspose.PDF Net 代码教程
 了解如何使用 Aspose.PDF for .NET 创建易于访问、结构良好的带标签 PDF。本指南涵盖设置文档属性、添加链接以及嵌入图像等操作。
 ### [掌握使用 Aspose.PDF .NET 创建 PDF 小册子](./aspose-pdf-net-create-booklet-page-arrangement/)
 Aspose.PDF Net 代码教程
+### [使用 C# 创建 PDF 文档 – 添加页面、绘制矩形并保存](./create-pdf-document-c-add-page-draw-rectangle-save/)
+学习如何在 C# 中使用 Aspose.PDF 创建 PDF，添加页面、绘制矩形并保存文件。
+
+### [在 C# 中创建 PDF 文档 – 分步指南](./create-pdf-document-in-c-step-by-step-guide/)
+学习如何使用 C# 和 Aspose.PDF for .NET 逐步创建 PDF 文档，涵盖设置、代码示例和最佳实践。
+
 ### [使用 Aspose.PDF 创建 PDF 文档 – 添加页面、形状并保存](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 学习如何使用 Aspose.PDF 在 .NET 中创建 PDF 文档，添加页面和形状并保存。
+
 ### [使用 Aspose.PDF 创建 PDF 文档：分步指南](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 学习如何使用 Aspose.PDF 在 .NET 中一步步创建 PDF 文档，涵盖基本设置、页面添加和内容写入。
 ### [使用 Aspose 在 C# 中创建 PDF 文档 – 分步指南](./create-pdf-document-with-aspose-in-c-step-by-step-guide/)
 学习如何使用 Aspose 在 C# 中一步步创建 PDF 文档，涵盖设置、页面添加和内容写入。
+### [创建 PDF 文档 C# – 添加空白页并绘制矩形](./create-pdf-document-c-add-blank-page-draw-rectangle/)
+学习如何在 C# 中使用 Aspose.PDF for .NET 添加空白页并绘制矩形到 PDF 文档。
+### [在 C# 中创建 PDF 文档 – 添加空白页、标签和跨度](./create-pdf-document-in-c-add-blank-page-tags-and-span/)
+学习如何在 C# 中使用 Aspose.PDF for .NET 添加空白页、标签和跨度，以创建自定义 PDF 文档。
+
+### [如何在 C# 中创建 PDF – 添加页面、绘制矩形并保存](./how-to-create-pdf-in-c-add-page-draw-rectangle-save/)
+学习如何使用 Aspose.PDF for .NET 在 C# 中创建 PDF，添加空白页、绘制矩形并保存文件。
+
+### [使用 C# 创建 PDF 文档 – 添加 Bates 编号指南](./create-pdf-document-c-add-bates-numbering-guide/)
+学习如何在 C# 中使用 Aspose.PDF 为 PDF 文档添加 Bates 编号，实现批量文档标识。
+
+### [使用 Aspose.PDF for .NET 创建 PDF 文档 – 添加空白页、绘制矩形并保存](./create-pdf-document-add-blank-page-draw-rectangle-save/)
+学习如何使用 Aspose.PDF for .NET 在 PDF 中添加空白页、绘制矩形并保存文档的完整步骤。
+
+### [使用 Aspose.PDF 创建 PDF 文档 – 完整 C# 指南](./create-pdf-document-with-aspose-pdf-full-c-guide/)
+学习如何使用 Aspose.PDF 通过完整的 C# 指南创建 PDF 文档。
+
+### [在 C# 中创建 PDF 文档 – 向 PDF 添加页面并绘制矩形](./create-pdf-document-in-c-add-page-to-pdf-draw-rectangle/)
+学习如何使用 Aspose.PDF for .NET 在 C# 中创建 PDF、添加页面并绘制矩形。
+
+### [在 C# 中创建 PDF 文档 – 完整的内存生成指南](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
+学习如何在 C# 中使用 Aspose.PDF 进行内存中生成 PDF 文档的完整步骤。
+
+### [使用 Aspose.PDF for .NET 创建 PDF 文档（C#）——添加空白页并绘制矩形的分步指南](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
+学习如何使用 Aspose.PDF for .NET 在 C# 中创建 PDF 文档，添加空白页并绘制矩形形状的完整步骤。
+
+### [从 HEIC 创建 PDF 图像 – 完整 C# 指南](./create-pdf-image-from-heic-complete-c-guide/)
+学习如何使用 Aspose.PDF for .NET 将 HEIC 图像转换为 PDF，并在 C# 中实现完整的创建流程。
+
+### [使用 Aspose.Pdf 创建 PDF 文档 – 完整分步指南](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+学习如何使用 Aspose.Pdf 在 .NET 中完整创建 PDF 文档，涵盖从初始化到保存的每一步。
+
+### [使用 C# 创建带 Bates 编号的 PDF 文档](./create-new-pdf-document-with-bates-numbering-in-c/)
+
+### [使用 Aspose.PDF for .NET 在 C# 中创建 PDF/X‑4 文档：分步指南](./create-pdf-x-4-document-c-step-by-step-guide/)
+学习如何使用 Aspose.PDF for .NET 在 C# 中创建符合 PDF/X‑4 标准的 PDF 文档，涵盖设置、属性配置和保存步骤。
+
 ## 其他资源
 
 - [Aspose.PDF 用于网络文档](https://docs.aspose.com/pdf/net/)

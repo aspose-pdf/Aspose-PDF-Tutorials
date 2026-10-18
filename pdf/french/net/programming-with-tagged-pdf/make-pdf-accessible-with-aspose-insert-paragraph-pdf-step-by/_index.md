@@ -24,13 +24,10 @@ title: 'Rendre le PDF accessible avec Aspose : Insérer un paragraphe dans le 
 url: /fr/net/programming-with-tagged-pdf/make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/
 ---
 
-PDF accessible** en quelques lignes de code C# — aucune utilisation de PDF‑Jam ni édition manuelle des balises requise."
 
-Continue.
 
-We need to translate all.
 
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

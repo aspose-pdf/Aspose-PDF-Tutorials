@@ -41,8 +41,6 @@ By the end of this guide you’ll be able to:
 
 No external tools, no vague “see the docs” shortcuts—just a complete, runnable example you can copy‑paste into Visual Studio today.
 
-![İmzalı bir PDF belgesini yükleme ve imzalarını çıkarma akışını gösteren diyagram](alt="imzalı pdf belgesi akış diyagramı")
-
 ## Önkoşullar
 
 Before we dive in, make sure you have the following on your machine:
