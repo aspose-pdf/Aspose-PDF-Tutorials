@@ -18,6 +18,8 @@
 ## البرامج التعليمية المتاحة
 
 
+
+{{< tutorial-card link="./create-pdf-x-3-document/" title="إنشاء مستند PDF/X‑3 بثلاث صفحات باستخدام Aspose.Pdf for .NET" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
 ### [إنشاء كتيبات PDF باستخدام Aspose.PDF لـ .NET: دليل خطوة بخطوة](./aspose-pdf-net-create-booklets-tutorial/)
 تعلّم كيفية إنشاء كتيبات PDF احترافية باستخدام Aspose.PDF لـ .NET. يغطي هذا البرنامج التعليمي الإعداد والتنفيذ والتطبيقات العملية.
 ### [إنشاء ملفات PDF من XML وXSLT باستخدام Aspose.PDF .NET: دليل خطوة بخطوة](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
@@ -82,6 +84,8 @@
 
 ### [إنشاء مستند PDF – إضافة صفحة فارغة، رسم مستطيل وحفظ](./create-pdf-document-add-blank-page-draw-rectangle-save/)
 تعلم كيفية إنشاء مستند PDF، إضافة صفحة فارغة، رسم مستطيل، ثم حفظ الملف باستخدام Aspose.PDF لـ .NET.
+### [إنشاء مستند PDF باستخدام C# – دليل خطوة بخطوة لإضافة صفحة فارغة ورسم مستطيل](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
+تعلم كيفية إنشاء مستند PDF وإضافة صفحة فارغة ورسم مستطيل باستخدام Aspose.PDF لـ .NET في C#.
 
 ### [إنشاء مستند PDF باستخدام Aspose.PDF – دليل خطوة بخطوة](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 دليل خطوة بخطوة لإنشاء مستند PDF باستخدام Aspose.PDF في .NET، يشمل إضافة صفحات وحفظ الملف.
@@ -93,6 +97,18 @@
 تعلم كيفية إنشاء مستند PDF وإضافة صفحة ورسم مستطيل باستخدام Aspose.PDF في C#.
 
 ### [إنشاء مستند PDF في C# – دليل كامل للإنشاء في الذاكرة](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
+
+### [إنشاء صورة PDF من HEIC – دليل كامل بلغة C#](./create-pdf-image-from-heic-complete-c-guide/)
+تعلم كيفية تحويل ملفات HEIC إلى صور PDF باستخدام Aspose.PDF في C# خطوة بخطوة.
+
+### [إنشاء مستند PDF باستخدام Aspose.Pdf – دليل كامل خطوة بخطوة](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+دليل شامل يوضح كيفية إنشاء مستند PDF كامل خطوة بخطوة باستخدام Aspose.PDF في .NET.
+
+### [إنشاء مستند PDF جديد مع ترقيم Bates في C#](./create-new-pdf-document-with-bates-numbering-in-c/)
+تعلم كيفية إنشاء مستند PDF جديد مع ترقيم Bates باستخدام C# و Aspose.PDF.
+
+### [إنشاء مستند PDF/X‑4 باستخدام C# – دليل خطوة بخطوة](./create-pdf-x-4-document-c-step-by-step-guide/)
+تعرّف على كيفية إنشاء مستند PDF/X‑4 باستخدام C# و Aspose.PDF خطوة بخطوة.
 
 ## موارد إضافية
 

@@ -25,9 +25,7 @@ title: Aláírások kinyerése PDF‑ből az Aspose.Pdf segítségével – Telj
 url: /hu/net/digital-signatures/extract-signatures-from-pdf-with-aspose-pdf-complete-guide/
 ---
 
-with markdown formatting.
 
-Let's start.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

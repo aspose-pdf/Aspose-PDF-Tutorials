@@ -25,13 +25,10 @@ title: Xác minh chữ ký số PDF trong C# – Hướng dẫn toàn diện
 url: /vi/net/programming-with-security-and-signatures/verify-pdf-digital-signature-in-c-complete-guide/
 ---
 
-") Keep unchanged.
 
-Then closing shortcodes.
 
-Now produce final content with all translations, preserving placeholders and shortcodes.
 
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

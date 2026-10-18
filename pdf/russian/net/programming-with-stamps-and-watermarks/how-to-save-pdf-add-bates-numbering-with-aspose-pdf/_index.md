@@ -22,19 +22,13 @@ title: Как сохранить PDF — добавить нумерацию Б�
 url: /ru/net/programming-with-stamps-and-watermarks/how-to-save-pdf-add-bates-numbering-with-aspose-pdf/
 ---
 
-text content naturally to Russian. So table headers and cell contents should be Russian. But keep code block placeholders unchanged.
 
-Let's translate:
 
-"How to Save PDF — Add Bates Numbering with Aspose.Pdf" => "Как сохранить PDF — добавить нумерацию Бейтса с Aspose.Pdf"
 
-Proceed.
 
-Check for any URLs: none.
 
-Make sure to keep markdown formatting.
 
-Let's produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -19,6 +19,9 @@ O tutorial Programação com Segurança e Assinaturas apresenta os recursos de s
 Este tutorial oferece uma visão geral detalhada de métodos e técnicas para garantir a confidencialidade e a autenticidade dos seus arquivos PDF. Você aprenderá a gerenciar certificados digitais, adicionar permissões de segurança, aplicar políticas de segurança e muito mais. Com estes tutoriais, você poderá proteger seus documentos PDF de forma confiável e profissional.
 
 ## Tutoriais
+
+{{< tutorial-card link="./encrypt-pdf/" title="Criptografar PDF com Senhas de Usuário e Proprietário Usando Aspose.PDF para .NET" imgSrc="./encrypt-pdf/images/thumb.png" >}}
+
 | Título | Descrição |
 | --- | --- | 
 | [Alterar senha em arquivo PDF](./change-password/) | Aprenda a alterar senhas de PDF facilmente usando o Aspose.PDF para .NET. Nosso guia passo a passo orienta você durante o processo com segurança. |  
@@ -41,11 +44,30 @@ Este tutorial oferece uma visão geral detalhada de métodos e técnicas para ga
 | [Verificar assinatura digital de PDF em C# com Aspose.Pdf](./verify-pdf-digital-signature-in-c-with-aspose-pdf/) | Aprenda a validar assinaturas digitais de PDFs em C# usando Aspose.PDF para .NET. |
 | [Carregar Certificado PFX C# – Criar Assinatura PKCS7 Destacada](./load-pfx-certificate-c-create-pkcs7-detached-signature/) | Aprenda a carregar um certificado PFX em C# e criar uma assinatura PKCS7 destacada usando Aspose.PDF para .NET. |
 | [Tutorial de assinatura PDF: Verificar a assinatura digital de um PDF em C#](./pdf-signature-tutorial-verify-a-pdf-s-digital-signature-in-c/) | Aprenda a verificar assinaturas digitais de PDFs usando C# e Aspose.PDF para .NET. |
+| [Como Ler Assinaturas em um PDF – Guia Completo em C#](./how-to-read-signatures-in-a-pdf-complete-c-guide/) | Aprenda a ler assinaturas digitais em PDFs usando C# e Aspose.PDF para .NET. Guia passo a passo completo. |
+| [Como Verificar Assinaturas PDF em C# – Guia Completo](./how-to-verify-pdf-signatures-in-c-full-guide/) | Aprenda a verificar assinaturas PDF em C# usando Aspose.PDF para .NET. Guia passo a passo completo. |
+| [Tutorial de assinatura PDF – Verificar e validar assinaturas PDF em C#](./pdf-signature-tutorial-verify-and-validate-pdf-signatures-in/) | Aprenda a verificar e validar assinaturas digitais em PDFs usando C# e Aspose.PDF para .NET. Guia passo a passo completo. |
+| [Como Verificar Assinatura Digital de PDF em C# – Guia Completo](./how-to-check-pdf-digital-signature-in-c-complete-guide/) | Aprenda a verificar assinaturas digitais em PDFs usando C# e Aspose.PDF para .NET. Guia passo a passo completo. |
+| [Verificar assinatura digital PDF em C# – validar assinatura PDF](./verify-pdf-digital-signature-in-c-validate-pdf-signature/) | Aprenda a validar assinaturas digitais em PDFs usando C# e Aspose.PDF para .NET. |
 | [Como reparar arquivos PDF – Guia completo em C# com Aspose.Pdf](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) | Aprenda a reparar arquivos PDF corrompidos usando Aspose.PDF para .NET em C#, passo a passo. |  
 | [Extrair assinaturas PDF – Como listar assinaturas PDF em C#](./pdf-signature-extraction-tutorial-how-to-list-pdf-signatures/) | Aprenda a listar assinaturas em PDFs usando C# e Aspose.PDF para .NET. Guia passo a passo para extrair informações de assinatura. |
 | [Validar assinatura digital PDF em C# – Guia completo Aspose.PDF](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) | Aprenda a validar assinaturas digitais em PDFs usando C# e Aspose.PDF, com um guia passo a passo completo. |  
 | [Configurar Servidor CA em C# – Guia Completo para Validar Assinaturas de Documentos Word](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) | Aprenda a configurar um servidor CA em C# e validar assinaturas de documentos Word usando Aspose.Words para .NET. Guia passo a passo. |  
 | [Validar assinatura digital de PDF – Guia completo em C#](./validate-pdf-digital-signature-complete-c-guide/) | Aprenda a validar assinaturas digitais em PDFs usando C# e Aspose.PDF, passo a passo, garantindo a integridade dos documentos. |
+| [Como verificar assinatura de PDF em C# – Guia completo](./how-to-verify-pdf-signature-in-c-complete-guide/) | Aprenda a verificar assinaturas de PDF em C# com este guia completo usando Aspose.PDF para .NET. |
+| [Validar assinatura PDF em C# – Guia completo](./validate-pdf-signature-in-c-complete-guide/) | Aprenda a validar assinaturas PDF em C# usando Aspose.PDF, passo a passo, garantindo a autenticidade dos documentos. |  
+| [Verificar assinaturas PDF com Aspose.Pdf – Guia completo](./check-pdf-signatures-with-aspose-pdf-complete-guide/) | Aprenda a verificar assinaturas PDF usando Aspose.PDF para .NET. Guia passo a passo completo. |
+| [Criar Assinador PKCS7 Destacado em C# – Guia Completo](./create-pkcs7-detached-signer-in-c-complete-guide/) | Aprenda a criar assinaturas PKCS7 destacadas em C# usando Aspose.PDF, passo a passo, para garantir integridade e autenticidade dos PDFs. |
+| [Recuperar Nomes de Assinaturas PDF com Aspose.PDF em C#](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) | Aprenda a obter os nomes das assinaturas em PDFs usando Aspose.PDF para .NET em C#. |
+| [Validar assinatura PDF em C# – Guia completo passo a passo](./validate-pdf-signature-in-c-complete-step-by-step-guide/) | Aprenda a validar assinaturas PDF usando C# e Aspose.PDF para .NET com este guia passo a passo completo. |
+| [Como ler assinaturas de um PDF em C# – Guia completo](./how-to-read-signatures-from-a-pdf-in-c-complete-guide/) | Aprenda a ler assinaturas de PDF em C# usando Aspose.PDF para .NET. Guia passo a passo completo. |
+| [Verificar validade da assinatura PDF com Aspose.PDF – Guia completo em C#](./check-pdf-signature-validity-with-aspose-pdf-complete-c-guid/) | Aprenda a validar assinaturas PDF usando Aspose.PDF para .NET em C#, passo a passo. |  
+| [Verificar assinatura digital PDF com Aspose.PDF – Guia completo em C#](./verify-digital-signature-pdf-with-aspose-pdf-complete-c-guid/) | Aprenda a validar assinaturas digitais em PDFs usando C# e Aspose.PDF, passo a passo. |  
+| [Verificar assinatura PDF com Aspose.PDF – Guia completo em C#](./verify-pdf-signature-with-aspose-pdf-complete-c-guide/) | Aprenda a verificar assinaturas de PDFs com Aspose.PDF em C#, passo a passo, garantindo autenticidade e integridade. |  
+| [Como usar o Validador em C# – Guia completo para verificar a validade da assinatura](./how-to-use-validator-in-c-complete-guide-to-checking-signatu/) | Aprenda a usar o Validador em C# para validar assinaturas digitais em PDFs com Aspose.PDF para .NET. Guia passo a passo. |
+| [Adicionar Numeração Bates ao PDF – Guia Completo em C# com Assinatura e Conversão](./add-bates-numbering-pdf-complete-c-guide-with-signing-conver/) | Aprenda a adicionar numeração Bates a PDFs, assinar e converter documentos usando Aspose.PDF para .NET em C#. Guia passo a passo. |
+| [Verificar assinatura PDF em C# – Guia completo Aspose.PDF](./verify-pdf-signature-in-c-complete-aspose-pdf-guide/) | Aprenda a verificar assinaturas PDF em C# usando Aspose.PDF, passo a passo, para garantir a integridade e autenticidade dos documentos. |
+| [Recuperar assinaturas PDF em C# – Guia completo de programação](./retrieve-pdf-signatures-in-c-complete-programming-guide/) | Aprenda a recuperar assinaturas de PDFs usando C# e Aspose.PDF para .NET. Guia passo a passo completo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -54,6 +76,12 @@ Este tutorial oferece uma visão geral detalhada de métodos e técnicas para ga
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Verificar assinatura de PDF em C# – Guia completo passo a passo](./verify-pdf-signature-in-c-complete-step-by-step-guide/) | Aprenda a verificar assinaturas digitais em PDFs usando C# e Aspose.PDF para .NET. Guia passo a passo detalhado. |  
 | [Abrir PDF assinado – Como ler suas assinaturas digitais](./open-signed-pdf-how-to-read-its-digital-signatures/) | Aprenda a abrir PDFs assinados e ler suas assinaturas digitais usando Aspose.PDF para .NET. Guia passo a passo para extrair informações de assinatura. |  
 
@@ -64,6 +92,12 @@ Este tutorial oferece uma visão geral detalhada de métodos e técnicas para ga
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Como validar assinaturas em PDF usando Aspose – Tutorial C#](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) | Aprenda a validar assinaturas digitais em documentos PDF usando Aspose.PDF para .NET. Guia passo a passo para garantir a integridade dos arquivos. |
 | [Verificar assinatura PDF em C# – Guia completo de programação](./verify-pdf-signature-in-c-complete-programming-guide/) | Aprenda a validar assinaturas digitais em PDFs usando C# e Aspose.PDF, passo a passo, com exemplos completos. |
 | [Como Verificar Assinaturas PDF em C# – Guia Completo Passo a Passo](./how-to-verify-pdf-signatures-in-c-complete-step-by-step-guid/) | Aprenda a verificar assinaturas PDF em C# usando o Aspose.PDF para .NET. Guia passo a passo para validar a autenticidade dos documentos. |  

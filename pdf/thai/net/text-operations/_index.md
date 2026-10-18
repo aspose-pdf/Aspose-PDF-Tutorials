@@ -104,6 +104,9 @@
 ### [เรียนรู้ Aspose.PDF สำหรับ .NET: เปิดและค้นหาเอกสาร PDF อย่างมีประสิทธิภาพ](./aspose-pdf-net-open-search-pdfs/)
 เรียนรู้วิธีใช้ Aspose.PDF สำหรับ .NET เพื่อเปิดและค้นหาเอกสาร PDF คู่มือนี้ครอบคลุมถึงการตั้งค่า การค้นหาข้อความในหน้าเฉพาะ และการใช้งานจริง
 
+### [วิธีค้นหา PDF ด้วย Aspose.PDF .NET – คู่มือ C# ฉบับสมบูรณ์](./how-to-search-pdf-with-aspose-pdf-complete-c-guide/)
+เรียนรู้วิธีค้นหาเนื้อหาในไฟล์ PDF อย่างละเอียดด้วย Aspose.PDF สำหรับ .NET ด้วยตัวอย่างโค้ด C# ครบถ้วน
+
 ### [หลักการใช้แท็บหยุดแบบกำหนดเองใน PDF โดยใช้ Aspose.PDF สำหรับ .NET: คู่มือที่ครอบคลุม](./master-custom-tab-stops-aspose-pdf-net/)
 เรียนรู้วิธีการใช้งานแท็บหยุดแบบกำหนดเองในเอกสาร PDF โดยใช้ Aspose.PDF สำหรับ .NET เพื่อพัฒนาทักษะการจัดรูปแบบเอกสารและการนำเสนอของคุณ
 
@@ -166,6 +169,11 @@
 
 ### [วิธีลบข้อมูลลับใน PDF ด้วย Aspose – คู่มือทีละขั้นตอน](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
 เรียนรู้วิธีลบข้อมูลลับจากไฟล์ PDF อย่างมีประสิทธิภาพโดยใช้ Aspose.PDF สำหรับ .NET ด้วยขั้นตอนที่ชัดเจนและตัวอย่างโค้ด
+### [วิธีสรุป PDF ด้วย Aspose.Pdf.AI – คู่มือฉบับสมบูรณ์](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
+เรียนรู้วิธีสรุปเนื้อหา PDF อย่างรวดเร็วด้วย Aspose.Pdf.AI พร้อมขั้นตอนและตัวอย่างโค้ดครบถ้วน
+
+### [AI Chat PDF: ถามคำถาม PDF ด้วย Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
+เรียนรู้วิธีใช้ Aspose AI Copilot เพื่อถามและรับคำตอบจากเอกสาร PDF อย่างมีประสิทธิภาพ
 
 ## แหล่งข้อมูลเพิ่มเติม
 

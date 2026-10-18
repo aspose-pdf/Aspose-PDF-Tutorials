@@ -24,37 +24,22 @@ title: PDF als PNG speichern und in PDF/X‑1a konvertieren mit Aspose PDF
 url: /de/net/conversion-export/save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf/
 ---
 
-"## Voraussetzungen"
 
-## Step 1: Load the Source PDF Document => "## Schritt 1: Laden des Quell-PDF-Dokuments"
 
-etc.
 
-Make sure to keep code block placeholders unchanged.
 
-Translate bullet points.
 
-Translate "Why this matters:" etc.
 
-Translate "Pro tip:" etc.
 
-Translate "Why auto‑adjust?" etc.
 
-Translate "Why auto‑adjust?" maybe "Warum automatisch anpassen?" Keep colon.
 
-Translate "Expected output" => "Erwartete Ausgabe"
 
-Translate "Common Questions & Edge Cases" => "Häufige Fragen & Randfälle"
 
-Translate bullet items.
 
-Translate "Tips for ASP.NET PDF Conversion" => "Tipps für ASP.NET PDF-Konvertierung"
 
-Translate the numbered list.
 
-Make sure to keep the shortcodes at top and bottom.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

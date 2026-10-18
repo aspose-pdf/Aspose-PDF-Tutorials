@@ -27,6 +27,8 @@ Tanulja meg, hogyan konvertálhat hagyományos PDF-fájlokat PDF/A-1b kompatibil
 Tanulja meg, hogyan konvertálhat PDF-fájlokat PDF/A formátumba C#-ban az Aspose.PDF .NET segítségével, lépésről lépésre útmutatóval.
 ### [PDF konvertálása PDF/A formátumba C#‑ban – Teljes lépésről‑lépésre útmutató](./convert-pdf-to-pdf-a-in-c-complete-step-by-step-guide/)
 Tanulja meg, hogyan konvertálhat PDF fájlokat PDF/A kompatibilis formátumba C#‑ban az Aspose.PDF .NET segítségével, részletes lépésről‑lépésre útmutatóval.
+### [Hogyan hozzunk létre PDF/A-t C#-ban – PDF konvertálása PDF/A formátumba egyszerűen](./how-to-create-pdf-a-in-c-convert-pdf-to-pdf-a-easily/)
+Ismerje meg, hogyan konvertálhatja a PDF-fájlokat PDF/A formátumba C# és az Aspose.PDF .NET segítségével egyszerűen.
 
 ### [PDF konvertálása PDF/A-3B formátumra az Aspose.PDF for .NET segítségével](./convert-pdf-to-pdfa-3b-aspose-net/)
 Kód oktatóanyag az Aspose.PDF Nethez
@@ -36,6 +38,9 @@ Ismerje meg, hogyan hozhat létre akadálymentesített címkézett PDF dokumentu
 
 ### [PDF fájlok konvertálása PDF/X-4 formátumra az Aspose.PDF for .NET használatával: lépésről lépésre útmutató](./convert-pdfs-to-pdf-x4-aspose-dotnet-guide/)
 Ismerje meg, hogyan konvertálhatja a szabványos PDF dokumentumokat robusztus PDF/X-4 formátumba az Aspose.PDF for .NET segítségével. Ez az útmutató a beállítást, a megvalósítást és a hibaelhárítást ismerteti.
+
+### [PDF konvertálása PDF/X-1A formátumba – PDF/X-1A dokumentum létrehozása](./convert-pdf-to-pdf-x-1a-how-to-create-pdf-x-1a-document/)
+Ismerje meg, hogyan konvertálhat PDF-fájlokat PDF/X-1A szabványú dokumentummá az Aspose.PDF for .NET segítségével.
 
 ### [PDF/A-1a validálása az Aspose.PDF for .NET segítségével: Átfogó útmutató](./validate-pdf-a-1a-aspose-pdf-dotnet/)
 Ismerje meg, hogyan validálhatja a PDF/A-1a megfelelőséget az Aspose.PDF for .NET használatával. Ez az útmutató lépésről lépésre bemutatja az útmutatást, kódpéldákat és integrációs tippeket.
@@ -47,6 +52,8 @@ Ismerje meg, hogyan validálhatja a PDF dokumentumokat a PDF/A szabványoknak me
 Tanulja meg, hogyan hozhat létre PDF/A fájlokat C#-ban a teljes konverziós folyamat részletes lépéseivel.
 ### [Hogyan készítsünk PDF/A-t C#-ban – Lépésről lépésre Aspose útmutató](./how-to-create-pdf-a-in-c-step-by-step-aspose-guide/)
 Tanulja meg, hogyan hozhat létre PDF/A kompatibilis dokumentumokat C#-ban az Aspose.PDF .NET segítségével, részletes kódpéldákkal.
+### [Hogyan állítsuk be az ICC-t az Aspose PDF-ben – Teljes C# útmutató](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
+Ismerje meg, hogyan állíthatja be az ICC színprofilt az Aspose PDF-ben C# nyelven, a teljes útmutató segítségével.
 
 ## További források
 

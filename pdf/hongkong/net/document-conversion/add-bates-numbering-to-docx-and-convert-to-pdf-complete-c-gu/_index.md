@@ -20,9 +20,7 @@ title: 為 DOCX 添加 Bates 編號並轉換為 PDF – 完整 C# 指南
 url: /zh-hant/net/document-conversion/add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/
 ---
 
-.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

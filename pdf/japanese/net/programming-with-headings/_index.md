@@ -20,6 +20,9 @@ Aspose.PDF for .NET のチュートリアルでは、PDF ドキュメントの�
 
 ## チュートリアル
 タイトル | 説明 |
+
+{{< tutorial-card link="./add-heading/" title="Aspose.PDF for .NET を使用して PDF に見出し、言語、タイトルを追加する" imgSrc="./add-heading/images/thumb.png" >}}
+
 | --- | --- | 
 | [PDF ファイルに番号スタイルを適用する](./apply-number-style/) このステップバイステップ ガイドでは、Aspose.PDF for .NET を使用して PDF の見出しにさまざまな数値スタイル (ローマ数字、アルファベット) を適用する方法を学習します。 |   
 | [Aspose で PDF に見出しを追加 – 完全 C# ガイド](./add-heading-to-pdf-with-aspose-complete-c-guide/) この完全ガイドでは、Aspose.PDF for .NET を使用して C# で PDF に見出しを追加する手順をステップバイステップで解説します。 |   |

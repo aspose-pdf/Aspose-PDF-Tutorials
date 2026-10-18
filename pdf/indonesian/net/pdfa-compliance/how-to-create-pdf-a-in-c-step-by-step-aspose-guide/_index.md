@@ -24,25 +24,15 @@ title: Cara Membuat PDF/A di C# – Panduan Aspose Langkah demi Langkah
 url: /id/net/pdfa-compliance/how-to-create-pdf-a-in-c-step-by-step-aspose-guide/
 ---
 
-". Keep heading.
 
-Numbered list translate each step.
 
-Next paragraph.
 
-Next "---".
 
-### "Happy Coding!" translate: "Selamat Coding!" Keep heading level ###.
 
-Paragraph translate.
 
-Then closing shortcodes.
 
-Finally backtop button shortcode unchanged.
 
-We must ensure we preserve all markdown formatting exactly.
 
-Let's produce final translated content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

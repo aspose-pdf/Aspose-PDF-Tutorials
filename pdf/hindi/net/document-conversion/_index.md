@@ -23,12 +23,13 @@
 | --- | --- | 
 | [PDFA में अनुलग्नक जोड़ें](./add-attachment-to-pdfa/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF/A दस्तावेज़ में अनुलग्नक जोड़ना सीखें। |  
 | [सीजीएम से पीडीएफ फाइल](./cgm-to-pdf/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके CGM फ़ाइलों को PDF में परिवर्तित करना सीखें। डेवलपर्स और डिज़ाइनरों दोनों के लिए बिल्कुल सही। |  
-| [EPUB से PDF में](./epub-to-pdf/) इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके EPUB को PDF में परिवर्तित करें। सभी उपयोगकर्ताओं के लिए आसान, कुशल और सही। |  
+| [EPUB से PDF में](./epub-to-pdf/) इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके EPUB को PDF में परिवर्तित करें। सभी उपयोगकर्ताओं के लिए आसान, कुशल और सही। |
 | [SVG आयाम प्राप्त करें](./get-svg-dimensions/) | इस चरण-दर-चरण मार्गदर्शिका के साथ SVG फ़ाइलों को PDF में बदलने के लिए .NET के लिए Aspose.PDF का उपयोग करना सीखें। PDF में हेरफेर करने वाले डेवलपर्स के लिए बिल्कुल सही। |  
-| [HTML से PDF](./html-to-pdf/) | इस व्यापक चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके HTML को PDF में परिवर्तित करना सीखें। |  
+| [HTML से PDF](./html-to-pdf/) | इस व्यापक चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके HTML को PDF में परिवर्तित करना सीखें। |
+| [C# में PDF को HTML में परिवर्तित करें – Aspose के साथ पूर्ण गाइड](./convert-pdf-to-html-in-c-complete-guide-with-aspose/) | इस विस्तृत गाइड में .NET के लिए Aspose.PDF का उपयोग करके C# में PDF को HTML में बदलने के चरण-दर-चरण निर्देश देखें। |
 | [मार्कडाउन टू पीडीएफ](./markdown-to-pdf/) | इस चरण-दर-चरण ट्यूटोरियल में जानें कि .NET के लिए Aspose.PDF का उपयोग करके मार्कडाउन को PDF में कैसे परिवर्तित किया जाए। दस्तावेज़ रूपांतरण को सरल बनाने की चाह रखने वाले डेवलपर्स के लिए बिल्कुल सही। |  
 | [MHT से PDF में](./mht-to-pdf/) | इस चरण-दर-चरण ट्यूटोरियल में जानें कि .NET के लिए Aspose.PDF का उपयोग करके MHT फ़ाइलों को PDF में कैसे परिवर्तित किया जाए। आसान और कुशल दस्तावेज़ रूपांतरण। |  
-| [छवि आयामों के अनुसार पृष्ठ अभिविन्यास](./page-orientation-according-image-dimensions/) इस चरण-दर-चरण मार्गदर्शिका में छवि आयामों के आधार पर पृष्ठ अभिविन्यास सेट करना, .NET के लिए Aspose.PDF के साथ PDF बनाना सीखें। |  
+| [छवि आयामों के अनुसार पृष्ठ अभिविन्यास](./page-orientation-according-image-dimensions/) इस चरण-दर-चरण मार्गदर्शिका में छवि आयामों के आधार पर पृष्ठ अभिविन्यास सेट करना, .NET के लिए Aspose.PDF के साथ PDF बनाना सीखें। |
 | [पीसीएल से पीडीएफ](./pcl-to-pdf/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके PCL फ़ाइलों को PDF में परिवर्तित करना सीखें। डेवलपर्स और व्यवसायों दोनों के लिए बिल्कुल सही। |  
 | [पीडीएफए से पीडीएफ](./pdfa-to-pdf/) | इस व्यापक, चरण-दर-चरण मार्गदर्शिका में जानें कि .NET के लिए Aspose.PDF का उपयोग करके PDF/A को PDF में कैसे परिवर्तित किया जाए। |  
 | [पीडीएफ से DOC](./pdf-to-doc/) | इस व्यापक गाइड में जानें कि .NET के लिए Aspose.PDF का उपयोग करके PDF को DOC में कैसे परिवर्तित किया जाए। चरण-दर-चरण निर्देश और सुझाव शामिल हैं। |  
@@ -68,6 +69,30 @@
 | [स्पैन तत्व बनाएं और पेज में जोड़ें – DOCX को PDF में बदलें](./create-span-element-and-add-to-page-convert-docx-to-pdf/) | इस चरण-दर-चरण ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके DOCX को PDF में बदलते समय पेज में स्पैन तत्व जोड़ना सीखें। |
 | [Aspose.PDF के साथ PDF को HTML के रूप में सहेजें – चरण‑दर‑चरण C# गाइड](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) | इस चरण‑दर‑चरण ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को HTML में सहेजना सीखें। |
 | [C# में JPG से PDF बनाएं – क्रॉपिंग और नई पृष्ठों के साथ पूर्ण गाइड](./create-pdf-from-jpg-in-c-full-guide-with-cropping-and-new-pa/) | इस विस्तृत गाइड में C# के साथ JPG छवियों को क्रॉप करके नई पृष्ठों के साथ PDF बनाने के चरण सीखें। |
+| [PDF दस्तावेज़ खोलें C# – प्रिंटिंग के लिए PDF/X‑4 में परिवर्तित करें](./open-pdf-document-c-convert-to-pdf-x-4-for-printing/) | इस चरण-दर-स्टेप ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X‑4 फ़ॉर्मेट में बदलना सीखें। |
+| [C# में Aspose PDF के साथ PDF को PDF/X‑4 में परिवर्तित करने का तरीका](./how-to-convert-pdf-to-pdf-x-4-in-c-with-aspose-pdf/) | इस चरण-दर-चरण ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X‑4 फ़ॉर्मेट में बदलना सीखें। |
+| [Aspose.PDF के साथ PDF से HTML बनाएं – चरण‑दर‑चरण गाइड](./create-html-from-pdf-with-aspose-pdf-step-by-step-guide/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF को HTML में परिवर्तित करना सीखें। |
+| [Aspose PDF रूपांतरण C# में – PDF को PDF/X‑4 में बदलें](./aspose-pdf-conversion-in-c-convert-pdf-to-pdf-x-4/) | इस ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X‑4 फ़ॉर्मेट में बदलना सीखें। |
+| [C# में PDF को HTML में बदलें – सरल चरण‑दर‑चरण गाइड](./convert-pdf-to-html-in-c-simple-step-by-step-guide/) | इस सरल चरण‑दर‑चरण ट्यूटोरियल के साथ .NET के लिए Aspose.PDF का उपयोग करके C# में PDF को HTML में परिवर्तित करना सीखें। |
+| [PDF फ़ॉर्मेट रूपांतरण ट्यूटोरियल – Aspose के साथ C# में PDF को PDF/X‑4 में बदलें](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-with-a/) | इस ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X‑4 फ़ॉर्मेट में बदलना सीखें। |
+| [Word से HTML बनाएं – DOCX को HTML में बदलने की पूर्ण गाइड](./create-html-from-word-complete-guide-to-convert-docx-to-html/) | DOCX फ़ाइल को HTML में बदलने के चरण-दर-चरण निर्देश, .NET के लिए Aspose.PDF का उपयोग करके। |
+| [PDF फ़ॉर्मेट रूपांतरण ट्यूटोरियल – C# में PDF को PDF/X-4 में बदलें](./pdf-format-conversion-tutorial-convert-pdf-to-pdf-x-4-in-c/) | इस चरण-दर-स्ट... इस ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके C# में PDF को PDF/X‑4 में बदलना सीखें। |
+| [Aspose PDF ट्यूटोरियल: C# में PDFs को लोड करके PDF/X‑4 में बदलें](./aspose-pdf-tutorial-load-and-convert-pdfs-to-pdf-x-4-in-c/) | इस चरण-दर-स्ट... |
+| [PDF को PDF/X-1a में बदलें – पूर्ण चरण‑दर‑चरण गाइड](./convert-pdf-to-pdf-x-1a-full-step-by-step-guide/) | इस चरण-दर-चरण ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X-1a फ़ॉर्मेट में बदलना सीखें। |
+| [PDF को 2.0 में बदलें – त्रुटि लॉगिंग के साथ पूर्ण ASP.NET गाइड](./convert-pdf-to-2-0-full-asp-net-guide-with-error-logging/) | इस विस्तृत चरण-दर-चरण ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को 2.0 में बदलना और त्रुटि लॉगिंग लागू करना सीखें। |
+| [Aspose PDF रूपांतरण ट्यूटोरियल – PDF को PDF/X‑4 में चरण‑दर‑चरण परिवर्तित करें](./aspose-pdf-conversion-tutorial-convert-pdfs-to-pdf-x-4-step/) | इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X‑4 फ़ॉर्मेट में बदलना सीखें। |
+| [PDF दस्तावेज़ लोड करें और PDF/X‑4 में परिवर्तित करें – पूर्ण गाइड](./load-pdf-document-and-convert-to-pdf-x-4-complete-guide/) | इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF को लोड करके PDF/X‑4 फ़ॉर्मेट में बदलना सीखें। |
+
+| [C# में DOCX को HTML में बदलें – पूर्ण गाइड](./convert-docx-to-html-in-c-complete-guide/) | इस चरण-दर-चरण गाइड में .NET के लिए Aspose.PDF का उपयोग करके C# में DOCX फ़ाइलों को HTML में बदलना सीखें। |
+| [C# में रंग प्रबंधन के साथ PDF को PDF/X-1A में बदलें](./convert-pdf-to-pdf-x-1a-with-color-management-in-c/) | इस चरण-दर-चरण ट्यूटोरियल के साथ .NET के लिए Aspose.PDF का उपयोग करके C# में रंग प्रबंधन के साथ PDF को PDF/X-1A में बदलना सीखें। |
+| [Aspose PDF फ़ॉर्मेट रूपांतरण: C# में PDF को PDF/X‑4 में बदलें](./aspose-pdf-format-conversion-convert-pdf-to-pdf-x-4-in-c/) | इस चरण-दर-चरण ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X‑4 फ़ॉर्मेट में बदलना सीखें। |
+| [Aspose.Pdf के साथ PDF इमेज बनाएं – चरण‑दर‑चरण गाइड](./create-pdf-image-with-aspose-pdf-step-by-step-guide/) | इस ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF इमेज बनाने की प्रक्रिया सीखें। |
+| [Aspose के साथ PDF कैसे बदलें – पूर्ण चरण‑दर‑चरण गाइड](./how-to-convert-pdf-with-aspose-complete-step-by-step-guide/) | Aspose का उपयोग करके PDF को विभिन्न स्वरूपों में बदलने के लिए पूर्ण चरण‑दर‑चरण मार्गदर्शिका। |
+| [Aspose.PDF के साथ PDF को PDF/X‑4 में परिवर्तित करें – पूर्ण C# गाइड](./convert-pdf-to-pdf-x-4-with-aspose-pdf-complete-c-guide/) | इस चरण-दर-चरण ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X‑4 फ़ॉर्मेट में बदलना सीखें। |
+| [C# में PDF को PDF/X‑1A में परिवर्तित करें – पूर्ण चरण-दर-चरण गाइड](./convert-pdf-to-pdf-x-1a-in-c-complete-step-by-step-guide/) | इस चरण-दर-चरण ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X‑1A फ़ॉर्मेट में बदलना सीखें। |
+
+| [C# में PDF को PDF/X‑1a में परिवर्तित करें – चरण‑दर‑चरण गाइड](./convert-pdf-to-pdf-x-1a-with-c-step-by-step-guide/) | इस ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X‑1a फ़ॉर्मेट में बदलना सीखें। |
+| [Aspose.Pdf के साथ PDF को PDFX में परिवर्तित करें – पूर्ण गाइड](./convert-pdf-to-pdfx-with-aspose-pdf-complete-guide/) | Aspose.Pdf का उपयोग करके PDF को PDFX फ़ॉर्मेट में बदलने की पूरी मार्गदर्शिका। |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
@@ -75,6 +100,12 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [PDF को HTML के रूप में सहेजें – वेक्टर रखें और रास्टराइज़ेशन निष्क्रिय करें](./save-pdf-as-html-keep-vectors-disable-rasterization/) | इस ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को HTML में वेक्टर बनाए रखते हुए और रास्टराइज़ेशन को बंद करके सहेजना सीखें। |
 | [C# में PDF से HTML बनाएं – पूर्ण चरण‑दर‑चरण गाइड](./create-html-from-pdf-in-c-complete-step-by-step-guide/) | इस विस्तृत मार्गदर्शिका में .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइल से HTML उत्पन्न करने के चरण सीखें। |  
 | [c# पीडीएफ रूपांतरण ट्यूटोरियल – पीडीएफ को PDF/X-4 में बदलें](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) | इस चरण-दर-चरण मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X-4 प्रारूप में परिवर्तित करना सीखें। |

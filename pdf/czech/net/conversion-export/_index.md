@@ -33,15 +33,19 @@ Rychlý návod, jak pomocí Aspose.PDF v C# převést PDF soubor do HTML formát
 Rychlý návod, jak převést PDF soubory do HTML pomocí Aspose.PDF v C# s praktickými ukázkami kódu.
 ### [Převod PDF do HTML a ověření podpisu PDF – Kompletní průvodce Aspose .NET](./convert-pdf-to-html-and-verify-pdf-signature-full-aspose-net/)
 Naučte se převádět PDF do HTML a ověřovat digitální podpisy pomocí Aspose.PDF pro .NET s podrobnými ukázkami kódu.
+### [Převod PDF do HTML v C# – Kompletní průvodce krok za krokem](./convert-pdf-to-html-in-c-full-step-by-step-guide/)
+Naučte se převádět PDF do HTML v C# pomocí podrobného krok‑za‑krokem průvodce.
 
 ### [Komplexní průvodce: Převod PDF do TIFF pomocí Aspose.PDF .NET pro bezproblémovou konverzi dokumentů](./convert-pdf-to-tiff-aspose-dotnet-guide/)
 Naučte se, jak efektivně převádět soubory PDF do vysoce kvalitních obrázků TIFF pomocí Aspose.PDF pro .NET. Postupujte podle tohoto podrobného návodu a vylepšete si pracovní postup zpracování dokumentů.
 ### [Komplexní průvodce: Konverze PDF do HTML s aktualizacemi průběhu v reálném čase pomocí Aspose.PDF pro .NET](./pdf-to-html-conversion-progress-aspose-pdf-net/)
 Naučte se, jak převádět PDF soubory do interaktivních formátů HTML pomocí Aspose.PDF pro .NET s aktualizacemi průběhu v reálném čase. Ideální pro digitální marketéry a e-learningové platformy.
+
+### [Uložení PDF jako HTML – Vytvořte PDF a přidejte obdélníkový tvar](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
+Naučte se, jak uložit PDF jako HTML a přidat do PDF obdélníkový tvar pomocí Aspose.PDF pro .NET.
+
 ### [Převod tabulek z Excelu do PDF pomocí Aspose.PDF pro .NET: Podrobný návod](./convert-excel-to-pdf-aspose-dotnet/)
 Naučte se, jak efektivně převádět excelové listy do tabulek PDF pomocí nástroje Aspose.PDF pro .NET. Tato příručka obsahuje podrobné pokyny a základní tipy.
-### [Převod HTML do PDF v C# pomocí Aspose.PDF: Kompletní průvodce](./convert-html-pdf-aspose-pdf-net-csharp/)
-Naučte se, jak převést HTML obsah do profesionálních PDF souborů pomocí Aspose.PDF pro .NET a C#. Tato příručka se zabývá ověřenými HTTP požadavky, procesy převodu a nastavením přihlašovacích údajů.
 ### [Převod Markdownu do PDF v .NET pomocí Aspose.PDF: Komplexní průvodce](./convert-markdown-pdf-aspose-net-tutorial/)
 Naučte se, jak převádět soubory Markdown do PDF pomocí Aspose.PDF pro .NET. Postupujte podle tohoto podrobného návodu a integrujte bezproblémovou konverzi dokumentů do svých aplikací.
 ### [Převod PDF stránek na obrázky pomocí Aspose.PDF v .NET](./convert-pdf-pages-to-images-aspose-dotnet/)
@@ -84,6 +88,12 @@ Naučte se, jak v C# pomocí Aspose.PDF převést PDF soubory do formátu PNG po
 Naučte se, jak pomocí Aspose.PDF v C# převést PDF soubory na obrázky PNG s podrobnými ukázkami kódu.
 ### [Aspose PDF do PNG – Export první stránky při 300 DPI](./aspose-pdf-to-png-export-first-page-at-300-dpi/)
 Naučte se, jak exportovat první stránku PDF do PNG s rozlišením 300 DPI pomocí Aspose.PDF pro .NET.
+### [Jak renderovat PDF do PNG pomocí Aspose – Kompletní průvodce](./how-to-render-pdf-to-png-with-aspose-complete-guide/)
+Naučte se, jak pomocí Aspose převést PDF soubory na obrázky PNG s podrobnými ukázkami kódu.
+### [Převod stránky PDF do PNG – Kompletní průvodce Aspose.PDF](./convert-pdf-page-to-png-complete-aspose-pdf-guide/)
+Naučte se převádět jednotlivé stránky PDF do formátu PNG pomocí Aspose.PDF v .NET s podrobnými ukázkami kódu.
+### [Jak vykreslit stránky PDF jako PNG obrázky – kompletní průvodce Aspose.PDF](./how-to-render-pdf-pages-as-png-images-complete-aspose-pdf-gu/)
+Naučte se, jak převádět stránky PDF do PNG obrázků pomocí Aspose.PDF v .NET s podrobným návodem.
 
 ### [Převod PDF do PPTX pomocí Aspose.PDF pro .NET: Podrobný návod](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 Naučte se, jak efektivně převádět dokumenty PDF do prezentací v PowerPointu pomocí nástroje Aspose.PDF pro .NET. Tato podrobná příručka zahrnuje základní převod, pokročilé funkce, jako jsou obrázkové slajdy, a sledování průběhu.
@@ -124,7 +134,7 @@ Naučte se, jak oříznout určité oblasti stránky PDF a převést je na obrá
 ### [Export dat do PDF pomocí Aspose.PDF pro .NET: Kompletní průvodce](./export-data-pdf-aspose-net-guide/)
 Naučte se, jak efektivně exportovat data z aplikací do PDF pomocí Aspose.PDF pro .NET. Tato příručka se zabývá nastavením, příklady kódu v C# a klíčovými funkcemi.
 ### [Export anotací PDF pomocí Aspose.PDF .NET: Komplexní průvodce](./export-annotations-aspose-pdf-net/)
-Naučte se, jak efektivně exportovat anotace z PDF souborů pomocí Aspose.PDF pro .NET. Tato příručka se zabývá nastavením, implementací a osvědčenými postupy.
+Naučte se, jak efektivně exportovat anotace z PDF souborů pomocí Aspose.PDF .NET. Tato příručka se zabývá nastavením, implementací a osvědčenými postupy.
 
 ### [Jak exportovat DOCX – krok za krokem průvodce pro vývojáře C#](./how-to-export-docx-step-by-step-guide-for-c-developers/)
 Naučte se exportovat soubory DOCX pomocí Aspose.PDF pro .NET s podrobnými příklady v C#.
@@ -135,6 +145,10 @@ Naučte se, jak efektivně exportovat data z PDF formulářů do strukturovanéh
 Naučte se, jak snadno formátovat HTML obsah v PDF pomocí Aspose.PDF pro .NET v tomto komplexním průvodci. Ideální pro vývojáře, kteří hledají efektivní proces konverze.
 ### [Jak přidat HTML obsah do PDF pomocí Aspose.PDF .NET: Kompletní průvodce](./add-html-pdf-aspose-dotnet-guide/)
 Naučte se, jak bez problémů přidávat HTML obsah do PDF dokumentů pomocí Aspose.PDF .NET. Tato příručka se zabývá nastavením, implementací a praktickými aplikacemi pro dynamické generování dokumentů.
+
+### [Jak uložit HTML z PDF – průvodce krok za krokem](./how-to-save-html-from-pdf-step-by-step-guide/)
+Naučte se, jak pomocí Aspose.PDF pro .NET uložit obsah PDF jako HTML soubor krok po kroku.
+
 ### [Jak převést soubory CGM do PDF pomocí Aspose.PDF pro .NET](./aspose-pdf-net-cgm-to-pdf-conversion/)
 Naučte se, jak bez problémů převádět soubory Computer Graphics Metafile (CGM) do PDF pomocí nástroje Aspose.PDF pro .NET. Tato příručka se zabývá nastavením, převodem a integrací pro aplikace .NET.
 ### [Jak převést soubory CGM do PDF pomocí Aspose.PDF pro .NET: Průvodce pro vývojáře](./convert-cgm-to-pdf-aspose-dotnet-guide/)
@@ -143,6 +157,10 @@ Naučte se, jak převést obrázky z metasouboru počítačové grafiky (CGM) do
 Naučte se, jak převést soubory EPUB do PDF pomocí Aspose.PDF pro .NET v tomto podrobném návodu. Ideální pro vývojáře, kteří potřebují bezproblémovou konverzi dokumentů.
 ### [Jak převést HTML do PDF pomocí Aspose.PDF .NET: Kompletní průvodce](./convert-html-pdf-aspose-dotnet-guide/)
 Naučte se, jak efektivně převádět HTML dokumenty do profesionálně vypadajících PDF souborů pomocí Aspose.PDF .NET. Objevte techniky pro práci s externími zdroji a vykreslování složitého obsahu.
+
+### [Jak převést HTML do PDF v C# pomocí Aspose.PDF .NET: Kompletní průvodce](./convert-html-pdf-aspose-pdf-net-csharp/)
+Naučte se, jak převést HTML obsah do profesionálních PDF souborů pomocí Aspose.PDF pro .NET a C#. Tato příručka se zabývá ověřenými HTTP požadavky, procesy převodu a nastavením přihlašovacích údajů.
+
 ### [Jak převést velké CGM snímky do PDF pomocí Aspose.PDF .NET: Komplexní průvodce](./convert-large-cgm-images-to-pdf-aspose-pdf-net/)
 Naučte se, jak snadno převádět velké obrázky ve formátu Computer Graphics Metafile (CGM) do PDF pomocí Aspose.PDF .NET. Tato příručka se zabývá nastavením, implementací a osvědčenými postupy.
 ### [Jak převést soubory MHT do PDF pomocí Aspose.PDF pro .NET - Podrobný návod](./convert-mht-files-to-pdf-aspose-dotnet/)
@@ -178,11 +196,16 @@ Naučte se, jak spravovat chybějící fonty jejich nahrazováním a převádět
 ### [Zvládněte převod PDF do HTML s úpravou fontů v Aspose.PDF pro .NET](./optimize-pdf-to-html-font-handling-aspose-net/)
 Naučte se, jak optimalizovat převod PDF do HTML pomocí Aspose.PDF pro .NET se zaměřením na efektivní práci s fonty a bezproblémovou integraci.
 ### [Konverze PDF do HTML pomocí Aspose.PDF .NET: Uložení obrázků jako externích PNG souborů](./pdf-to-html-conversion-external-png-aspose-pdf-net/)
-Naučte se, jak převádět dokumenty PDF do HTML s externími obrázky PNG pomocí nástroje Aspose.PDF pro .NET. Tato příručka zajišťuje zachování rozvržení a optimalizaci výkonu webu.
 ### [Konverze PDF do HTML pomocí Aspose.PDF .NET: Komplexní průvodce](./aspose-pdf-net-pdf-to-html-conversion/)
 Zvládněte převod PDF do HTML pomocí Aspose.PDF pro .NET. Zlepšete přístupnost a interakce s dokumenty pomocí přizpůsobitelných možností.
 ### [Konverze PDF do HTML pomocí Aspose.PDF pro .NET](./pdf-to-html-conversion-aspose-dot-net/)
 Výukový program pro kódování Aspose.PDF Net
+### [Jak exportovat PDF do HTML v C# – Kompletní průvodce Aspose](./how-to-export-pdf-to-html-in-c-complete-aspose-guide/)
+Naučte se, jak exportovat PDF soubory do HTML pomocí Aspose.PDF v C# s podrobnými ukázkami kódu a tipy pro optimalizaci.
+
+### [Uložení PDF jako HTML pomocí Aspose.Pdf – Kompletní průvodce C#](./save-pdf-as-html-with-aspose-pdf-complete-c-guide/)
+Naučte se, jak převést PDF do HTML pomocí Aspose.Pdf v C# s podrobnými ukázkami kódu a tipy pro optimalizaci.
+
 ### [Konverze PDF do TIFF v .NET pomocí Aspose.PDF: Podrobný návod](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Naučte se, jak převádět dokumenty PDF do obrázků TIFF pomocí Aspose.PDF pro .NET. Osvojte si vlastní barevné hloubky a pokročilé techniky zpracování obrazu.
 ### [Jak uložit PDF pomocí Aspose – krok za krokem průvodce](./how-to-save-pdf-with-aspose-step-by-step-guide/)
@@ -194,6 +217,18 @@ Naučte se, jak pomocí Aspose.PDF v C# převést PDF soubor na HTML s kompletn�
 
 ### [Uložení PDF jako HTML v C# – Kompletní průvodce krok za krokem](./save-pdf-as-html-with-c-complete-step-by-step-guide/)
 Naučte se, jak pomocí C# a Aspose.PDF převést PDF soubor na HTML s podrobným krok za krokem návodem.
+
+### [Převod docx do HTML v C# – Kompletní programovací průvodce](./convert-docx-to-html-in-c-complete-programming-guide/)
+Naučte se, jak převést soubory DOCX do HTML pomocí C# a Aspose.PDF, s podrobnými ukázkami kódu a tipy pro zachování formátování.
+
+### [Převod DOCX na PNG v C# – Kompletní průvodce](./convert-docx-to-png-in-c-complete-guide/)
+Naučte se převádět soubory DOCX na obrázky PNG v C# pomocí Aspose.PDF s praktickými ukázkami kódu.
+
+### [Uložení PDF bez obrázků – Převod PDF do HTML pomocí Aspose](./save-pdf-without-images-convert-pdf-to-html-with-aspose/)
+Naučte se, jak uložit PDF bez vložených obrázků a převést jej do HTML pomocí Aspose.PDF pro .NET.
+
+### [Aspose PDF do HTML: Kompletní průvodce převodem PDF a odstraněním obrázků](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
+Kompletní průvodce převodem PDF do HTML s pomocí Aspose.PDF a odstraněním obrázků pro optimalizaci velikosti souboru.
 
 ## Další zdroje
 

@@ -16,6 +16,13 @@ url: "/net/document-manipulation/"
 Master PDF document manipulation with our detailed Aspose.PDF .NET tutorials. These step-by-step guides demonstrate how to work with document structure, modify existing PDFs, split and merge documents, add and remove pages, and organize your PDF content programmatically. Each tutorial includes working C# code examples, implementation notes, and best practices to help you build applications that efficiently manipulate PDF documents with clean, maintainable code.
 
 ## Available Tutorials
+
+{{< tutorial-card link="./exclude-areas/" title="Compare PDFs While Ignoring Specific Areas Using Aspose.Pdf for .NET" imgSrc="./exclude-areas/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdfs/" title="Compare PDFs and Generate a Highlighted Diff Document Using Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdf-forms/" title="Compare PDF Forms and Generate JSON & Visual Diff Using Aspose.Pdf for .NET" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
+
 ### [Add Date & Time Stamps to PDFs Using Aspose.PDF for .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 Learn how to efficiently add date and time stamps or annotations into your PDF documents using Aspose.PDF for .NET. Enhance document management with these easy-to-follow steps.
 
@@ -36,6 +43,9 @@ Learn how to add page breaks in PDF documents using Aspose.PDF for .NET. Follow 
 
 ### [Add Rectangles & Configure PDF Pages with Aspose.PDF .NET&#58; A Comprehensive Guide](./aspose-pdf-net-add-rectangles-configure-pages/)
 Master adding rectangles and configuring pages in PDFs using Aspose.PDF for .NET. Follow this guide to learn document manipulation techniques effectively.
+
+### [Add Rectangle to PDF with C# – Complete Programming Guide](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
+Learn how to add rectangles to PDF documents using Aspose.PDF for .NET with C# in this step-by-step programming guide.
 
 ### [Aspose.PDF .NET&#58; Set PDF Margins & Customize Headers/Footers](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 Master the art of setting page margins and customizing headers/footers in your PDFs with Aspose.PDF for .NET. Follow this detailed guide to enhance document layout consistency.
@@ -190,8 +200,10 @@ Learn how to efficiently remove all text from a PDF using Aspose.PDF .NET. Perfe
 ### [How to Remove PDF Open Actions Using Aspose.PDF for .NET&#58; A Complete Guide](./remove-pdf-open-action-aspose-dotnet-guide/)
 Learn how to eliminate unwanted open actions from PDF files using Aspose.PDF for .NET. This guide provides step-by-step instructions and best practices.
 
-### [How to flatten PDF with Aspose.PDF – Complete guide](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
-Learn how to flatten PDF documents using Aspose.PDF for .NET, removing interactive elements and preserving appearance.
+### [Remove Font from PDF with Aspose – Step‑by‑Step Guide](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
+Learn how to remove embedded fonts from PDF files using Aspose.PDF for .NET in this step-by-step tutorial.
+### [How to Remove Embedded Fonts PDF – Step‑by‑Step C# Guide](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
+Learn how to remove embedded fonts from PDF files using Aspose.PDF for .NET with this step-by-step C# guide.
 
 ### [How to Split PDF Pages Using Aspose.PDF for .NET&#58; A Complete Guide](./mastering-pdf-page-splitting-aspose-pdf-net/)
 Learn how to efficiently split PDF pages into individual files using Aspose.PDF for .NET with this comprehensive guide. Boost your document manipulation skills today.
@@ -280,6 +292,9 @@ A code tutorial for Aspose.PDF Net
 ### [Merge PDFs in .NET Using Aspose.PDF&#58; A Comprehensive Guide](./merge-pdfs-net-aspose-pdf-tutorial/)
 Learn how to seamlessly merge PDF files using Aspose.PDF for .NET. This step-by-step guide covers setup, implementation, and practical applications.
 
+### [Merge PDF Layers in C# – How to Combine PDF Layers](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+Learn how to merge multiple PDF layers into a single document using Aspose.PDF for .NET with C# code examples.
+
 ### [Move PDF Form Fields in .NET using Aspose.PDF&#58; A Step-by-Step Guide](./move-pdf-fields-aspose-pdf-dotnet-guide/)
 Learn how to move and reposition PDF form fields effortlessly with Aspose.PDF for .NET. This guide covers setup, step-by-step instructions, and troubleshooting tips.
 
@@ -297,6 +312,9 @@ Learn how to efficiently rotate PDF pages and retrieve their dimensions using As
 
 ### [Rotate PDF Pages Using Aspose.PDF in .NET&#58; A Developer’s Guide](./rotate-pdf-pages-aspose-pdf-dotnet/)
 Learn how to rotate PDF pages with Aspose.PDF for .NET. This guide covers rotating specific pages by degrees and includes code examples for efficient document manipulation.
+
+### [Save Modified PDF with Aspose.PDF – Complete C# Guide](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+Learn how to save changes to a PDF document using Aspose.PDF for .NET with a complete C# guide.
 
 ### [Split PDF Pages from a Specific Page Using .NET Streams and Aspose.PDF](./split-pdf-pages-with-net-streams-aspose-pdf/)
 Learn how to efficiently split PDF files from a specific page using .NET streams with Aspose.PDF, enhancing document management in your applications.
@@ -323,6 +341,18 @@ Learn how to redact sensitive information in PDFs using Aspose.PDF for .NET, hid
 Learn how to repair corrupted PDF files quickly using Aspose.PDF for .NET in C#.
 ### [How to Redact PDF in C# with Aspose PDF – Complete Guide](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
 Learn how to permanently remove sensitive content from PDFs using Aspose.PDF for .NET with C# in this comprehensive step-by-step guide.
+### [Visual PDF Diff in C# – Complete Guide to Compare Two PDFs](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
+Learn how to compare two PDF files visually using Aspose.PDF for .NET in C#, with step-by-step code examples and best practices.
+
+### [Flatten PDF Layers in C# – Export & Extract Guide](./flatten-pdf-layers-in-c-export-extract-guide/)
+Learn how to flatten PDF layers using Aspose.PDF for .NET in C#, enabling export and extraction of layer content efficiently.
+
+### [How to Flatten PDF with Aspose.PDF – Complete Guide](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+Learn how to flatten PDF files using Aspose.PDF for .NET with this comprehensive step-by-step guide.
+### [How to Fix PDF Files with Aspose.Pdf – Complete Guide](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
+Learn how to repair corrupted PDF files using Aspose.PDF for .NET with step-by-step instructions and code examples.
+### [Save Updated PDF – Edit PDF Resources with Aspose.Pdf](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+Learn how to save changes to a PDF after editing its resources using Aspose.PDF for .NET.
 
 ## Additional Resources
 

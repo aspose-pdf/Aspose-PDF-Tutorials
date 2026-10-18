@@ -22,7 +22,7 @@
 | --- | --- | 
 | [إضافة طابع التاريخ والوقت في ملف PDF](./add-date-time-stamp/) تعرّف على كيفية إضافة ختم التاريخ والوقت إلى ملفات PDF باستخدام Aspose.PDF لـ .NET من خلال هذا الدليل المفصل. مثالي لتعزيز مصداقية المستندات.  
 | [إضافة ختم الصورة في ملف PDF](./add-image-stamp/) |تعرف على كيفية إضافة ختم صورة إلى ملفات PDF باستخدام Aspose.PDF لـ .NET مع إرشادات خطوة بخطوة ورمز مثال. |  
-| [إضافة عناوين مختلفة في ملف PDF](./adding-different-headers/) | تعرّف على كيفية إضافة عناوين مختلفة إلى ملفات PDF باستخدام Aspose.PDF لـ .NET. دليل خطوة بخطوة لتخصيص ملفات PDF. |  
+| [إضافة عناوين مختلفة في ملف PDF](./adding-different-headers/) | تعرّف على إضافة عناوين مختلفة إلى ملفات PDF باستخدام Aspose.PDF لـ .NET. دليل خطوة بخطوة لتخصيص ملفات PDF. |  
 | [إضافة ختم صفحة PDF في ملف PDF](./add-pdf-page-stamp/) | تعرّف على كيفية إضافة ختم صفحة PDF باستخدام Aspose.PDF لـ .NET من خلال هذا الدليل المُفصّل. عزّز تأثير مستندات PDF الخاصة بك. |  
 | [إضافة ختم نصي في ملف PDF](./add-text-stamp/) |تعرف على كيفية إضافة طابع نصي في ملف PDF باستخدام Aspose.PDF لـ .NET من خلال دليلنا خطوة بخطوة ورفع مستوى عروض المستندات الخاصة بك. |  
 | [عدّ القطع الأثرية في ملف PDF](./counting-artifacts/) تعلّم كيفية حساب العلامات المائية في ملف PDF باستخدام Aspose.PDF لـ .NET. دليل خطوة بخطوة للمبتدئين دون الحاجة لخبرة سابقة. |  
@@ -53,6 +53,16 @@
 | [كيفية إضافة طابع إلى PDF باستخدام Aspose.Pdf – دليل خطوة بخطوة](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) |تعرف على طريقة إضافة طابع إلى ملفات PDF باستخدام Aspose.Pdf عبر دليل شامل خطوة بخطوة. |
 | [إنشاء إشعار صفحة كاملة في PDF – دليل سريع C#](./create-pdf-full-page-notice-quick-c-guide/) |تعلم كيفية إنشاء إشعار يغطي صفحة كاملة في ملف PDF باستخدام C# و Aspose.PDF خطوة بخطوة. |
 | [إضافة علامة مائية PDF في C# – دليل كامل مع Aspose](./add-watermark-pdf-in-c-complete-guide-with-aspose/) تعرّف على كيفية إضافة علامة مائية إلى ملفات PDF باستخدام Aspose.PDF لـ .NET في C# من خلال دليل شامل خطوة بخطوة.  
+| [إضافة ترقيم بايتس إلى ملفات PDF باستخدام C# – دليل كامل](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | تعرّف على كيفية إضافة ترقيم بايتس إلى ملفات PDF باستخدام Aspose.PDF لـ .NET مع مثال عملي خطوة بخطوة. |
+| [إضافة ترقيم Bates إلى ملفات PDF باستخدام Aspose – دليل كامل](./add-bates-numbering-to-pdfs-with-aspose-complete-guide/) | تعرّف على طريقة إضافة ترقيم Bates إلى ملفات PDF باستخدام Aspose.PDF لـ .NET مع شرح مفصل وأمثلة. |
+| [كيفية إضافة ترقيم بايتس في PDF باستخدام C# – دليل كامل](./how-to-add-bates-numbering-in-pdf-with-c-complete-guide/) | تعرّف على طريقة إضافة ترقيم بايتس إلى ملفات PDF باستخدام Aspose.PDF لـ .NET مع مثال كامل خطوة بخطوة. |
+| [إضافة ترقيم Bates إلى PDF – دليل كامل مع Aspose](./add-bates-numbering-pdf-complete-guide-with-aspose/) |تعرّف على طريقة إضافة ترقيم Bates إلى ملفات PDF باستخدام Aspose.PDF لـ .NET مع شرح مفصل وأمثلة عملية. |
+| [إضافة ترقيم ببيتس إلى PDF في C# – دليل خطوة بخطوة كامل](./add-bates-numbering-to-pdf-in-c-complete-step-by-step-guide/) |تعرف على كيفية إضافة ترقيم ببيتس إلى ملفات PDF باستخدام Aspose.PDF لـ .NET مع دليل شامل خطوة بخطوة. |  
+| [إنشاء علامة مائية نصية في Word باستخدام Aspose.Words – دليل كامل](./create-text-watermark-in-word-with-aspose-words-complete-gui/) | تعلم كيفية إضافة علامة مائية نصية إلى مستندات Word باستخدام Aspose.Words عبر دليل شامل خطوة بخطوة. |
+| [كيفية إضافة ختم PDF – دليل كامل مع ضبط النص تلقائيًا](./how-to-add-stamp-pdf-complete-guide-with-auto-fit-text/) |تعرف على طريقة إضافة ختم إلى ملفات PDF مع ضبط النص تلقائيًا باستخدام Aspose.PDF لـ .NET خطوة بخطوة.|  
+| [دروس ترقيم Bates: إضافة أرقام إلى PDF باستخدام Aspose](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) | تعلم كيفية إضافة ترقيم Bates إلى ملفات PDF باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |
+| [كيفية إضافة علامة مائية إلى PDF – إضافة طبقة نصية إلى PDF باستخدام Aspose](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) |تعرف على كيفية إضافة علامة مائية نصية إلى ملفات PDF باستخدام Aspose.PDF لـ .NET عبر دليل خطوة بخطوة. |
+| [إضافة الشفافية إلى PDF باستخدام Aspose.PDF – دليل C# كامل](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) | تعلم كيفية إضافة تأثير الشفافية إلى ملفات PDF باستخدام Aspose.PDF لـ .NET مع مثال كامل بلغة C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

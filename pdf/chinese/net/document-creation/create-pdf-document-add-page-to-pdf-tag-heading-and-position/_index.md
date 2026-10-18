@@ -20,7 +20,7 @@ title: 创建 PDF 文档 – 向 PDF 添加页面、标记标题并定位元素
 url: /zh/net/document-creation/create-pdf-document-add-page-to-pdf-tag-heading-and-position/
 ---
 
-produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

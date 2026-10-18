@@ -20,13 +20,10 @@ title: إنشاء مستند PDF في C# – إضافة صفحة إلى PDF وم
 url: /ar/net/programming-with-pdf-pages/create-pdf-document-in-c-add-page-to-pdf-rectangle/
 ---
 
-Now produce final output with all translations.
 
-Check for any missed markdown elements: code block placeholders are fine.
 
-Make sure to preserve bullet list formatting.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

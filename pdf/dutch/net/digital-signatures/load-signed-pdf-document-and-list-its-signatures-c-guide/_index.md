@@ -39,8 +39,6 @@ Aan het einde van deze gids kun je:
 
 Geen externe tools, geen vage “zie de docs” shortcuts—gewoon een volledig, uitvoerbaar voorbeeld dat je vandaag kunt kopiëren‑plakken in Visual Studio.
 
-![Diagram dat de stroom van het laden van een ondertekend PDF-document en het extraheren van de handtekeningen toont](alt="load signed pdf document flow diagram")
-
 ## Vereisten
 
 Voordat we beginnen, zorg ervoor dat je het volgende op je machine hebt:

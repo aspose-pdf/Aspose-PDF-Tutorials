@@ -18,6 +18,8 @@
 ## 사용 가능한 튜토리얼
 
 
+
+{{< tutorial-card link="./create-pdf-x-3-document/" title="Aspose.Pdf for .NET을 사용하여 세 페이지가 포함된 PDF/X‑3 문서 만들기" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
 ### [.NET용 Aspose.PDF를 사용하여 PDF 소책자 만들기: 단계별 가이드](./aspose-pdf-net-create-booklets-tutorial/)
 Aspose.PDF for .NET을 사용하여 전문적인 PDF 소책자를 만드는 방법을 알아보세요. 이 튜토리얼에서는 설정, 구현 및 실제 적용 사례를 다룹니다.
 ### [Aspose.PDF .NET을 사용하여 XML 및 XSLT에서 PDF 만들기: 단계별 가이드](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
@@ -89,6 +91,21 @@ Aspose.PDF for .NET을 사용하여 빈 페이지를 추가하고 사각형을 �
 
 ### [Aspose.PDF로 PDF 문서 만들기 – 전체 C# 가이드](./create-pdf-document-with-aspose-pdf-full-c-guide/)
 Aspose.PDF와 C#을 사용해 처음부터 PDF 문서를 생성하는 전체 단계별 가이드를 제공합니다.
+
+### [Aspose.PDF를 사용하여 PDF 문서 만들기 C# – 빈 페이지 추가 및 사각형 그리기 단계별 가이드](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
+Aspose.PDF for .NET을 사용하여 빈 페이지를 추가하고 사각형을 그리는 방법을 단계별로 안내합니다.
+
+### [HEIC 이미지에서 PDF 만들기 – 완전한 C# 가이드](./create-pdf-image-from-heic-complete-c-guide/)
+HEIC 이미지를 PDF로 변환하는 방법을 C#으로 단계별로 안내합니다.
+
+### [Aspose.Pdf로 PDF 문서 만들기 – 전체 단계별 가이드](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+Aspose.Pdf를 사용하여 PDF 문서를 처음부터 완전하게 생성하고 저장하는 과정을 상세히 안내합니다.
+
+### [C#를 사용한 베이츠 번호 매기기로 새 PDF 문서 만들기](./create-new-pdf-document-with-bates-numbering-in-c/)
+C#와 Aspose.PDF for .NET을 활용하여 베이츠 번호 매기기가 포함된 PDF 문서를 생성하는 방법을 단계별로 안내합니다.
+
+### [C#로 PDF/X‑4 문서 만들기 – 단계별 가이드](./create-pdf-x-4-document-c-step-by-step-guide/)
+C#와 Aspose.PDF for .NET을 사용하여 PDF/X‑4 표준을 충족하는 PDF 문서를 단계별로 생성하는 방법을 안내합니다.
 
 ## 추가 자료
 

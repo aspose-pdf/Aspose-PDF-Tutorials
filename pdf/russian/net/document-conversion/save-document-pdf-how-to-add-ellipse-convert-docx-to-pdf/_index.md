@@ -23,7 +23,6 @@ title: Сохранить документ PDF – Как добавить эл�
 url: /ru/net/document-conversion/save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/
 ---
 
-translations.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

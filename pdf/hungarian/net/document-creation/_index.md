@@ -18,6 +18,8 @@ Dokumentumkészítési oktatóanyagaink átfogó útmutatást nyújtanak PDF-fá
 ## Elérhető oktatóanyagok
 
 
+
+{{< tutorial-card link="./create-pdf-x-3-document/" title="PDF/X‑3 dokumentum létrehozása három oldallal az Aspose.Pdf for .NET használatával" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
 ### [PDF füzetek létrehozása az Aspose.PDF for .NET használatával: lépésről lépésre útmutató](./aspose-pdf-net-create-booklets-tutorial/)
 Tanuld meg, hogyan készíthetsz professzionális PDF füzeteket az Aspose.PDF for .NET segítségével. Ez az oktatóanyag a beállítást, a megvalósítást és a gyakorlati alkalmazásokat ismerteti.
 ### [PDF fájlok létrehozása XML-ből és XSLT-ből az Aspose.PDF .NET használatával: lépésről lépésre útmutató](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
@@ -83,6 +85,9 @@ Tanulja meg, hogyan adhat hozzá Bates-számozást PDF dokumentumokhoz C#-ban az
 ### [PDF dokumentum létrehozása Aspose.Pdf használatával – lépésről lépésre útmutató](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
 Ismerje meg, hogyan hozhat létre PDF dokumentumot az Aspose.Pdf könyvtárral .NET környezetben, részletes lépésről lépésre útmutatóval.
 
+### [PDF dokumentum létrehozása C# – Lépésről‑lépésre útmutató üres oldal hozzáadásához és téglalap rajzolásához](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
+Tanulja meg, hogyan adhat hozzá üres oldalt egy PDF-hez, és rajzolhat téglalapot C#-ban az Aspose.PDF for .NET használatával.
+
 ### [PDF dokumentum létrehozása – Üres oldal hozzáadása, téglalap rajzolása és mentés](./create-pdf-document-add-blank-page-draw-rectangle-save/)
 Ismerje meg, hogyan hozhat létre PDF dokumentumot, adhat hozzá üres oldalt, rajzolhat téglalapot, majd mentheti azt az Aspose.PDF for .NET segítségével.
 
@@ -94,6 +99,17 @@ Tanulja meg, hogyan adhat hozzá oldalt egy PDF-hez, és rajzolhat téglalapot C
 
 ### [PDF dokumentum létrehozása C#‑ban – Teljes útmutató a memóriában történő generáláshoz](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
 Ismerje meg, hogyan hozhat létre PDF dokumentumot C#‑ban memóriában, anélkül, hogy fájlt mentene a lemezre.
+
+### [HEIC képből PDF létrehozása – Teljes C# útmutató](./create-pdf-image-from-heic-complete-c-guide/)
+Tanulja meg, hogyan hozhat létre PDF képet HEIC formátumból C#-ban az Aspose.PDF for .NET segítségével.
+
+### [PDF dokumentum létrehozása Aspose.PDF‑vel – Teljes lépésről‑lépésre útmutató](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+
+### [PDF/X‑4 dokumentum létrehozása C#‑ban – lépésről‑lépésre útmutató](./create-pdf-x-4-document-c-step-by-step-guide/)
+Tanulja meg, hogyan hozhat létre PDF/X‑4 dokumentumot C#‑ban az Aspose.PDF for .NET segítségével.
+
+### [Új PDF dokumentum létrehozása Bates-számozással C#-ban](./create-new-pdf-document-with-bates-numbering-in-c/)
+Tanuld meg, hogyan hozhatsz létre PDF dokumentumot Bates-számozással C#-ban az Aspose.PDF for .NET segítségével.
 
 ## További források
 

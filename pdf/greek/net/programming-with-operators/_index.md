@@ -23,6 +23,8 @@
 | [Σχεδίαση XForm στη σελίδα](./draw-xform-on-page/) | μάθετε πώς να σχεδιάζετε XForms σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με αυτόν τον ολοκληρωμένο οδηγό βήμα προς βήμα. |  
 | [Τελεστές PDF](./pdf-operators/) | Οδηγός βήμα προς βήμα για τη χρήση τελεστών PDF με το Aspose.PDF για .NET. Προσθέστε μια εικόνα σε μια σελίδα PDF και καθορίστε τη θέση της. |  
 | [Αφαίρεση γραφικών αντικειμένων σε αρχείο PDF](./remove-graphics-objects/) Μάθετε πώς να αφαιρείτε γραφικά αντικείμενα από ένα αρχείο PDF χρησιμοποιώντας το Aspose.PDF για .NET σε αυτόν τον οδηγό βήμα προς βήμα. Απλοποιήστε τις εργασίες χειρισμού PDF. |  
+| [Επανάληψη Συλλογής C# – Απλός Οδηγός για Επανάληψη Στοιχείων](./iterate-collection-c-simple-guide-to-loop-over-items/) | Μάθετε πώς να διατρέχετε συλλογές C# και να επαναλαμβάνετε στοιχεία με απλό παράδειγμα στο Aspose.PDF για .NET. |  
+| [Δημιουργία Κενής Λεξικού PDF σε C# – Πλήρης Οδηγός Aspose.Pdf](./create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide/) | Μάθετε πώς να δημιουργήσετε ένα κενό λεξικό PDF σε C# χρησιμοποιώντας το Aspose.PDF για .NET. |  
 | [Πώς να αλλάξετε τη διαφάνεια PDF σε C# χρησιμοποιώντας το Aspose.Pdf](./how-to-change-pdf-transparency-in-c-using-aspose-pdf/) | Μάθετε πώς να ρυθμίσετε τη διαφάνεια σε PDF χρησιμοποιώντας Aspose.PDF για .NET σε C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

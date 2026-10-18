@@ -21,15 +21,10 @@ title: 在 C# 中创建 PDF 文档 – 步骤指南
 url: /zh/net/document-creation/create-pdf-document-in-c-step-by-step-guide/
 ---
 
--backtop-button >}}
 
-We keep them unchanged.
 
-Now produce final content with translations.
 
-Be careful with markdown formatting: keep blank lines.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

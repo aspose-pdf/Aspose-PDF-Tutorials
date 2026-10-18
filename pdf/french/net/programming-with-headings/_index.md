@@ -19,6 +19,9 @@ Les tutoriels Aspose.PDF pour .NET vous guident pas à pas pour maîtriser la pr
 Explorez les fonctionnalités d'Aspose.PDF pour .NET grâce à des tutoriels dédiés. Apprenez à utiliser les titres dans vos documents PDF grâce à des exemples pratiques et des explications étape par étape. Améliorez la lisibilité et la navigation dans vos fichiers PDF grâce à ces ressources complètes.
 
 ## Tutoriels
+
+{{< tutorial-card link="./add-heading/" title="Ajouter un en-tête, une langue et un titre à un PDF avec Aspose.PDF for .NET" imgSrc="./add-heading/images/thumb.png" >}}
+
 | Titre | Description |
 | --- | --- | 
 | [Appliquer le style de numéro dans un fichier PDF](./apply-number-style/) | Apprenez à appliquer différents styles de nombres (chiffres romains, alphabétiques) aux en-têtes d'un PDF à l'aide d'Aspose.PDF pour .NET avec ce guide étape par étape. |   

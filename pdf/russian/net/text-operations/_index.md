@@ -140,6 +140,9 @@
 ### [Мастер поиска текста в PDF с помощью регулярных выражений с использованием Aspose.PDF .NET](./aspose-pdf-net-regex-text-search/)
 Учебник по коду для Aspose.PDF Net
 
+### [Как искать PDF с помощью Aspose.Pdf – Полное руководство на C#](./how-to-search-pdf-with-aspose-pdf-complete-c-guide/)
+Узнайте, как искать PDF-файлы с помощью Aspose.Pdf в C# с пошаговыми инструкциями и примерами кода.
+
 ### [Мастер поворота текста в PDF-файлах с помощью Aspose.PDF для .NET: полное руководство](./rotate-text-pdf-aspose-dotnet/)
 Узнайте, как вращать текст в документах PDF с помощью Aspose.PDF для .NET. Это всеобъемлющее руководство охватывает настройку, примеры кода и практические приложения.
 
@@ -166,6 +169,9 @@
 
 ### [Как скрыть конфиденциальную информацию в PDF с помощью Aspose – пошаговое руководство](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
 Узнайте, как эффективно скрывать конфиденциальные данные в PDF-документах с помощью Aspose, следуя пошаговому руководству.
+### [Как суммировать PDF с помощью Aspose.Pdf.AI — полное руководство](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
+
+### [AI‑чат PDF: задавайте вопросы PDF с Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
 
 ## Дополнительные ресурсы
 

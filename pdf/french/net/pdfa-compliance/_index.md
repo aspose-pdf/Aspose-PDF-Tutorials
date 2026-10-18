@@ -35,6 +35,9 @@ Découvrez comment créer des documents PDF balisés accessibles et valider leur
 ### [Comment convertir des fichiers PDF en PDF/X-4 avec Aspose.PDF pour .NET : guide étape par étape](./convert-pdfs-to-pdf-x4-aspose-dotnet-guide/)
 Découvrez comment convertir des documents PDF standard au format PDF/X-4 robuste avec Aspose.PDF pour .NET. Ce guide couvre la configuration, la mise en œuvre et le dépannage.
 
+### [Convertir un PDF en PDF/X-1A – Comment créer un document PDF/X-1A](./convert-pdf-to-pdf-x-1a-how-to-create-pdf-x-1a-document/)
+Apprenez à convertir des fichiers PDF en PDF/X-1A conforme, en suivant les étapes de création d'un document PDF/X-1A avec Aspose.PDF .NET.
+
 ### [Comment valider PDF/A-1a avec Aspose.PDF pour .NET : guide complet](./validate-pdf-a-1a-aspose-pdf-dotnet/)
 Découvrez comment valider la conformité PDF/A-1a avec Aspose.PDF pour .NET. Ce guide propose des instructions étape par étape, des exemples de code et des conseils d'intégration.
 
@@ -47,6 +50,10 @@ Apprenez à créer et convertir des documents en PDF/A en C# avec un guide compl
 Apprenez à générer des fichiers PDF/A conformes en C# grâce à ce guide détaillé d'Aspose, étape par étape.
 ### [Convertir un PDF en PDF/A en C# – Guide complet étape par étape](./convert-pdf-to-pdf-a-in-c-complete-step-by-step-guide/)
 Apprenez à convertir des fichiers PDF en PDF/A avec C#, grâce à un guide détaillé étape par étape.
+### [Comment créer un PDF/A en C# – Convertir facilement un PDF en PDF/A](./how-to-create-pdf-a-in-c-convert-pdf-to-pdf-a-easily/)
+Apprenez à créer et convertir rapidement des PDF en PDF/A avec Aspose.PDF en C#.
+### [Comment définir le profil ICC dans Aspose PDF – Guide complet C#](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
+Apprenez à configurer le profil ICC dans Aspose PDF avec un exemple complet en C# pour garantir la gestion précise des couleurs.
 
 ## Ressources supplémentaires
 

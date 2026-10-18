@@ -21,13 +21,10 @@ title: PDF画像を最適化 – C#でPDFファイルサイズを削減
 url: /ja/net/performance-optimization/optimize-pdf-images-reduce-pdf-file-size-with-c/
 ---
 
-content with translations.
 
-Check for any missed items: The "⚠️" etc not part of content. Ensure we didn't translate code block placeholders.
 
-All good.
 
-Now output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

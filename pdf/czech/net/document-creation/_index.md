@@ -18,6 +18,8 @@ Naše tutoriály pro vytváření dokumentů poskytují komplexní návod pro pr
 ## Dostupné tutoriály
 
 
+
+{{< tutorial-card link="./create-pdf-x-3-document/" title="Vytvořte PDF/X‑3 dokument se třemi stránkami pomocí Aspose.Pdf pro .NET" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
 ### [Vytváření brožur ve formátu PDF pomocí Aspose.PDF pro .NET: Podrobný návod](./aspose-pdf-net-create-booklets-tutorial/)
 Naučte se, jak vytvářet profesionální brožury ve formátu PDF pomocí nástroje Aspose.PDF pro .NET. Tento tutoriál se zabývá nastavením, implementací a praktickými aplikacemi.
 ### [Vytváření PDF souborů z XML a XSLT pomocí Aspose.PDF .NET: Podrobný návod](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
@@ -28,6 +30,10 @@ Naučte se, jak automatizovat vytváření profesionálních brožur ve formátu
 Naučte se, jak vytvářet profesionální PDF dokumenty s přesným rozvržením pomocí Aspose.PDF pro .NET. Objevte nastavení stránky, plovoucí rámečky a číslované nadpisy.
 ### [Vytvářejte profesionální PDF soubory s textem a obrázky pomocí Aspose.PDF pro .NET](./create-pdfs-text-images-aspose-pdf-net/)
 Naučte se, jak generovat dynamické PDF dokumenty s textem a obrázky pomocí Aspose.PDF pro .NET. Zefektivněte proces vytváření dokumentů.
+
+### [Vytvořte PDF obrázek z HEIC – Kompletní průvodce C#](./create-pdf-image-from-heic-complete-c-guide/)
+Naučte se, jak pomocí Aspose.PDF v C# převést soubory HEIC na obrázky v PDF.
+
 ### [Vytvářejte strukturované PDF soubory s automatickými zalomeními stránek v .NET pomocí Aspose.PDF](./create-pdfs-page-breaks-net-aspose-pdf/)
 Naučte se, jak programově vytvářet strukturované PDF dokumenty v prostředí .NET pomocí Aspose.PDF s automatickými zalomeními stránek pro přesné formátování.
 ### [Vytvořte PDF brožuru s Aspose.PDF .NET: Zjednodušený podrobný návod](./create-pdf-booklet-aspose-pdf-net-guide/)
@@ -92,6 +98,18 @@ Naučte se, jak kompletně vytvořit PDF dokument v C# pomocí Aspose.PDF s podr
 Naučte se, jak pomocí Aspose.PDF pro .NET vytvořit PDF, přidat stránku a nakreslit obdélník v C#.
 ### [Vytvořte PDF dokument v C# – Kompletní průvodce generováním v paměti](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
 Naučte se, jak v C# vytvořit PDF dokument přímo v paměti bez ukládání na disk.
+
+### [Vytvořte PDF dokument v C# – krok za krokem průvodce přidáním prázdné stránky a nakreslením obdélníku](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
+Naučte se, jak vytvořit PDF dokument, přidat prázdnou stránku a nakreslit obdélník pomocí Aspose.PDF pro .NET.
+
+### [Vytvořte PDF dokument pomocí Aspose.Pdf – Kompletní krok‑za‑krokem průvodce](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+Kompletní průvodce tvorbou PDF dokumentu pomocí Aspose.PDF s podrobnými ukázkami kódu.
+
+### [Vytvořte nový PDF dokument s Batesovým číslováním v C#](./create-new-pdf-document-with-bates-numbering-in-c/)
+Naučte se, jak vytvořit PDF dokument s Batesovým číslováním pomocí Aspose.PDF pro .NET v jazyce C#.
+
+### [Vytvořte PDF/X‑4 dokument v C# – krok za krokem průvodce](./create-pdf-x-4-document-c-step-by-step-guide/)
+Naučte se, jak vytvořit PDF/X‑4 dokument v C# pomocí Aspose.PDF krok za krokem.
 
 ## Další zdroje
 

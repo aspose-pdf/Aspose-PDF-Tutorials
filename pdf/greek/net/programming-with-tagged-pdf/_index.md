@@ -52,7 +52,13 @@
 | [Δημιουργία προσβάσιμου PDF με Aspose.Pdf – Βήμα‑βήμα οδηγός](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε ένα προσβάσιμο PDF χρησιμοποιώντας το Aspose.Pdf σε αυτόν τον βήμα‑βήμα οδηγό. |
 | [Δημιουργία PDF με ετικέτες σε C# – Οδηγός βήμα προς βήμα](./create-tagged-pdf-in-c-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε PDF με ετικέτες χρησιμοποιώντας C# και το Aspose.PDF για .NET σε αυτόν τον αναλυτικό οδηγό βήμα προς βήμα. |
 | [Δημιουργία εγγράφου PDF – Ορισμός απόλυτης θέσης για κείμενο με ετικέτα](./create-pdf-document-set-absolute-position-for-tagged-text/) | Μάθετε πώς να ορίσετε απόλυτη θέση για κείμενο με ετικέτες σε έγγραφο PDF χρησιμοποιώντας Aspose.PDF για .NET. |
+| [Δημιουργία προσβάσιμου κειμενικού τμήματος σε PDF με Aspose: Πλήρης οδηγός C#](./create-accessible-text-span-in-pdf-with-aspose-full-c-guide/) | Μάθετε πώς να δημιουργήσετε ένα προσβάσιμο τμήμα κειμένου σε PDF χρησιμοποιώντας Aspose.PDF για .NET με C# σε αυτόν τον πλήρη οδηγό βήμα‑βήμα. |
+| [Πώς να επεξεργαστείτε PDF με ετικέτες με Aspose.Pdf – Πλήρης οδηγός](./how-to-edit-tagged-pdf-with-aspose-pdf-complete-guide/) | Μάθετε πώς να επεξεργαστείτε PDF με ετικέτες χρησιμοποιώντας Aspose.Pdf σε αυτόν τον πλήρη οδηγό βήμα‑βήμα. |
+| [Δημιουργία PDF με ετικέτες σε C# – Πλήρης οδηγός βήμα‑βήμα](./create-tagged-pdf-in-c-full-step-by-step-guide/) | Μάθετε πώς να δημιουργήσετε PDF με ετικέτες σε C# χρησιμοποιώντας Aspose.PDF για .NET με λεπτομερή βήμα‑βήμα οδηγία. |
+| [Πώς να ετικετοποιήσετε PDF με Aspose.Pdf – Πλήρης προγραμματιστικός οδηγός](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | Μάθετε πώς να ετικετοποιήσετε PDF χρησιμοποιώντας Aspose.Pdf σε έναν πλήρη προγραμματιστικό οδηγό βήμα‑βήμα. |
+| [Δημιουργία στοιχείου Span σε PDF με Aspose – Φόρτωση PDF και Ετικετοποίηση Περιεχομένου](./create-span-element-pdf-with-aspose-load-pdf-aspose-and-tag/) | Μάθετε πώς να δημιουργήσετε στοιχείο Span σε PDF, να φορτώσετε PDF με Aspose και να προσθέσετε ετικέτες περιεχομένου για προσβασιμότητα. |
 
+| [Δημιουργία εγγράφου PDF C# – Πλήρης οδηγός με ετικετοποιημένο κείμενο και τοποθέτηση](./create-pdf-document-c-full-guide-with-tagged-text-and-positi/) | Μάθετε πώς να δημιουργήσετε PDF με ετικετοποιημένο κείμενο και ακριβή τοποθέτηση στοιχείων χρησιμοποιώντας C# και Aspose.PDF για .NET. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

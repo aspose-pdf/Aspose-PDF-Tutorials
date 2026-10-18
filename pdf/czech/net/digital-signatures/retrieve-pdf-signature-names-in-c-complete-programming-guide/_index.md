@@ -24,13 +24,10 @@ title: Získání názvů podpisů PDF v C# – Kompletní programovací průvod
 url: /cs/net/digital-signatures/retrieve-pdf-signature-names-in-c-complete-programming-guide/
 ---
 
-with translations.
 
-Check for any URLs: none.
 
-Make sure to keep markdown formatting.
 
-Let's construct final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

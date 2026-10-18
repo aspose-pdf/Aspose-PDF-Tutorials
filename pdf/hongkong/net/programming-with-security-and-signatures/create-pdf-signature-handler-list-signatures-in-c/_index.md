@@ -19,15 +19,10 @@ title: 建立 PDF 簽名處理程式 – 在 C# 中列出簽名
 url: /zh-hant/net/programming-with-security-and-signatures/create-pdf-signature-handler-list-signatures-in-c/
 ---
 
-理程式流程圖"
 
-Title: "建立 PDF 簽署處理程式"
 
-Now close shortcodes.
 
-Make sure we keep all shortcodes exactly.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

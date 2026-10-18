@@ -25,9 +25,8 @@ title: Cara mengompres PDF dengan Aspose – Panduan Cepat C#
 url: /id/net/performance-optimization/how-to-compress-pdf-with-aspose-quick-c-guide/
 ---
 
-formatting.
 
-Now produce final output with everything.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -19,6 +19,9 @@ tutorial di Aspose.PDF per .NET ti guideranno passo dopo passo nella programmazi
 Esplora le funzionalità di Aspose.PDF per .NET con tutorial dedicati. Impara a gestire le intestazioni nei tuoi documenti PDF, utilizzando esempi pratici e spiegazioni dettagliate. Migliora la leggibilità e la navigazione dei tuoi file PDF con queste risorse complete.
 
 ## Tutorial
+
+{{< tutorial-card link="./add-heading/" title="Aggiungi Intestazione, Lingua e Titolo a un PDF usando Aspose.PDF per .NET" imgSrc="./add-heading/images/thumb.png" >}}
+
 | Titolo | Descrizione |
 | --- | --- | 
 | [Applica stile numero nel file PDF](./apply-number-style/) | Scopri come applicare diversi stili di numeri (numeri romani, alfabetici) alle intestazioni di un PDF utilizzando Aspose.PDF per .NET con questa guida dettagliata.   

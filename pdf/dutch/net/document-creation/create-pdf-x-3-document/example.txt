@@ -1,0 +1,33 @@
+//ExStart
+//ExSummary: Deze tutorial laat zien hoe je een nieuw PDF‑document maakt, drie lege pagina's toevoegt, het converteert naar PDF/X‑3‑conformiteit terwijl conversiefouten worden gelogd, en het resulterende bestand opslaat met de Aspose.Pdf Document‑klasse.
+//ExStepSummary:0: Definieer de bestandsnaam van de uitvoer‑PDF en het pad voor het conversielogboek.
+//ExStepSummary:1: Instantieer een nieuw Document‑object binnen een using‑blok om een correcte vrijgave te garanderen.
+//ExStepSummary:2: Voeg drie lege pagina's toe aan het document, waardoor het paginanummer toeneemt.
+//ExStepSummary:3: Converteer het document naar PDF/X‑3‑formaat en registreer eventuele conversieproblemen in het logbestand.
+//ExStepSummary:4: Sla het PDF/X‑3‑conforme document op schijf op en sluit het using‑blok.
+//ExStepSummary:5: Print een bevestigingsbericht naar de console dat aangeeft waar het bestand is opgeslagen.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+        const string resultFile = "final_pdfx3_output.pdf";
+        const string conversionLog = "pdfx3_conversion_log.xml";
+
+//ExStep:1-
+        using (Document pdfDoc = new Document())
+        {
+
+//ExStep:2-
+            pdfDoc.Pages.Add();
+            pdfDoc.Pages.Add();
+            pdfDoc.Pages.Add();
+
+//ExStep:3-
+            pdfDoc.Convert(conversionLog, PdfFormat.PDF_X_3, ConvertErrorAction.Delete);
+
+//ExStep:4-
+            pdfDoc.Save(resultFile);
+        }
+
+//ExStep:5-
+        Console.WriteLine($"PDF/X‑3 file written to '{resultFile}'.");
+//ExEnd

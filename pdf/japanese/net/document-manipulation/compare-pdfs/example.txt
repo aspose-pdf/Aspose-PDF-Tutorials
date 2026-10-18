@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: このチュートリアルでは、Aspose.Pdf.Comparison を使用して 2 つの PDF ファイルを比較し、元のドキュメントと変更後のドキュメント間の差分をハイライトした diff PDF を生成する方法を示します。
+//ExStepSummary:0: 元の PDF、変更後の PDF、そして diff 出力 PDF のファイルパスを宣言します。
+//ExStepSummary:1: 両方の入力 PDF が存在することを確認し、どちらかが欠如している場合はエラーメッセージを出して中止します。
+//ExStepSummary:2: `using` ブロック内で、元の PDF と変更後の PDF を `Document` オブジェクトにロードします。
+//ExStepSummary:3: 比較のためにデフォルト設定の `ComparisonOptions` インスタンスを作成します。
+//ExStepSummary:4: 比較を実行し、`outputPath` に差分をハイライトした diff PDF を生成します。
+//ExStepSummary:5: diff PDF が作成されたことを示す確認メッセージを出力します。
+//ExStepSummary:6: `using` ブロックを閉じ、ソースとターゲットの `Document` オブジェクトを破棄します。
+//ExStep:0-
+const string sourcePath = "originalDocument.pdf";
+const string targetPath = "modifiedDocument.pdf";
+const string outputPath = "diffOutput.pdf";
+
+//ExStep:1-
+if (!File.Exists(sourcePath) || !File.Exists(targetPath))
+{
+    Console.Error.WriteLine("Unable to locate one or both PDF inputs.");
+    return;
+}
+
+//ExStep:2-
+using (Document sourceDoc = new Document(sourcePath))
+using (Document targetDoc = new Document(targetPath))
+{
+
+//ExStep:3-
+ComparisonOptions compareOpts = new ComparisonOptions();
+
+//ExStep:4-
+TextPdfComparer.CompareFlatDocuments(sourceDoc, targetDoc, compareOpts, outputPath);
+
+//ExStep:5-
+Console.WriteLine($"Comparison finished. Output written to \"{outputPath}\".");
+
+//ExStep:6-
+}
+//ExEnd
