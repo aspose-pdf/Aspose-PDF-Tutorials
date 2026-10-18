@@ -17,6 +17,8 @@
 
 ## 可用教程
 
+
+{{< tutorial-card link="./exclude-annotations/" title="使用 Aspose.Pdf for .NET 的并排 PDF 比较（排除批注）" imgSrc="./exclude-annotations/images/thumb.png" >}}
 ### [使用 Aspose.Pdf for .NET 向 PDF 添加表单字段：综合指南](./add-pdf-form-fields-aspose-pdf-dotnet/)
 了解如何使用 Aspose.PDF for .NET 向 PDF 添加文本、复选框、组合框、列表框和多行字段。本指南涵盖设置、代码示例和集成技巧。
 

@@ -11,21 +11,13 @@ url: /zh-hant/java/advanced-features/aspose-pdf-java-layer-rendering-guide/
 weight: 1
 ---
 
- shortcodes.
 
-Also keep emphasis **.
 
-Let's translate.
 
-Will produce final output with same structure.
 
-Be careful with bullet points: keep dash and spaces.
 
-Also keep code block placeholders unchanged.
 
-Now produce translation.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 

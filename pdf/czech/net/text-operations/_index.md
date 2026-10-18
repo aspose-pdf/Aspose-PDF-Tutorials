@@ -113,7 +113,7 @@ Naučte se, jak efektivně upravovat text PDF pomocí Aspose.PDF pro .NET. Tato 
 ### [Hlavní průvodce nahrazováním písem v PDF pomocí Aspose.PDF pro .NET](./mastering-font-substitution-aspose-pdf-net/)
 Naučte se bezproblémově zpracovávat nahrazování písem v dokumentech PDF pomocí Aspose.PDF pro .NET. Tento tutoriál poskytuje podrobné pokyny k nastavení a implementaci efektivních řešení.
 
-### [Zvládněte techniky extrakce PDF s Aspose.PDF pro .NET: Komplexní průvodce](./mastering-pdf-extraction-aspose-dotnet/)
+### [Zvládnutí techniky extrakce PDF s Aspose.PDF pro .NET: Komplexní průvodce](./mastering-pdf-extraction-aspose-dotnet/)
 Naučte se, jak efektivně extrahovat text a obrázky z PDF souborů pomocí Aspose.PDF pro .NET. Postupujte podle tohoto podrobného návodu a vylepšete své pracovní postupy pro zpracování dokumentů.
 
 ### [Správa písem Master PDF: Nastavení výchozích písem v dokumentech pomocí Aspose.PDF pro .NET](./master-pdf-font-management-aspose-pdf-net/)
@@ -140,7 +140,10 @@ Naučte se, jak efektivně otáčet a upravovat text v PDF dokumentech pomocí A
 ### [Zvládněte vyhledávání textu v PDF pomocí regulárních výrazů pomocí Aspose.PDF .NET](./aspose-pdf-net-regex-text-search/)
 Výukový program pro kódování Aspose.PDF Net
 
-### [Zvládněte rotaci textu v PDF pomocí Aspose.PDF pro .NET: Kompletní průvodce](./rotate-text-pdf-aspose-dotnet/)
+### [Jak vyhledávat PDF pomocí Aspose.Pdf – Kompletní průvodce C#](./how-to-search-pdf-with-aspose-pdf-complete-c-guide/)
+Naučte se, jak vyhledávat text v PDF dokumentech pomocí Aspose.Pdf v C# s podrobným návodem a příklady kódu.
+
+### [Zvládnutí rotaci textu v PDF pomocí Aspose.PDF pro .NET: Kompletní průvodce](./rotate-text-pdf-aspose-dotnet/)
 Naučte se, jak otáčet text v PDF dokumentech pomocí Aspose.PDF pro .NET. Tato komplexní příručka zahrnuje nastavení, příklady kódu a praktické aplikace.
 
 ### [Zarovnání textu v plovoucích rámečcích PDF pomocí Aspose.PDF pro .NET](./align-text-pdf-floating-boxes-aspose-pdf-net/)
@@ -163,6 +166,9 @@ Výukový program pro kódování Aspose.PDF Net
 
 ### [Stylizace textu v tagovaných PDF souborech pomocí Aspose.PDF pro .NET | Průvodce pro tvorbu přístupných a estetických PDF souborů](./style-text-tagged-pdfs-aspose-pdf-net/)
 Naučte se, jak upravovat styl textu v tagovaných PDF dokumentech pomocí Aspose.PDF pro .NET. Tato příručka se zabývá instalací, technikami a praktickými aplikacemi pro zlepšení přístupnosti.
+
+### [Jak redigovat PDF pomocí Aspose – krok za krokem průvodce](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
+Naučte se, jak efektivně redigovat PDF dokumenty pomocí Aspose.PDF pro .NET s podrobným návodem a ukázkami kódu.
 
 ## Další zdroje
 

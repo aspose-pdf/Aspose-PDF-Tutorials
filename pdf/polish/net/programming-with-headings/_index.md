@@ -19,9 +19,13 @@ Samouczki Aspose.PDF dla .NET przeprowadzą Cię krok po kroku przez proces prog
 Poznaj funkcje Aspose.PDF dla .NET dzięki dedykowanym samouczkom. Dowiedz się, jak pracować z nagłówkami w dokumentach PDF, korzystając z praktycznych przykładów i wyjaśnień krok po kroku. Popraw czytelność i nawigację w plikach PDF dzięki tym kompleksowym zasobom.
 
 ## Samouczki
+
+{{< tutorial-card link="./add-heading/" title="Dodaj nagłówek, język i tytuł do PDF przy użyciu Aspose.PDF for .NET" imgSrc="./add-heading/images/thumb.png" >}}
+
 | Tytuł | Opis |
 | --- | --- | 
 | [Zastosuj styl numeracji w pliku PDF](./apply-number-style/) | Dowiedz się, jak stosować różne style liczb (cyfry rzymskie, alfabetyczne) w nagłówkach w pliku PDF za pomocą Aspose.PDF dla platformy .NET, korzystając z tego przewodnika krok po kroku. |   
+| [Dodaj nagłówek do PDF za pomocą Aspose – Kompletny przewodnik C#](./add-heading-to-pdf-with-aspose-complete-c-guide/) | Dowiedz się, jak dodać nagłówek do pliku PDF w C# przy użyciu Aspose.PDF dla .NET, krok po kroku. |   
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

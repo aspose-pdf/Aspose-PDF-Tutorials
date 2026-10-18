@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: Ce tutoriel montre comment ouvrir un PDF existant avec Aspose.Pdf, appliquer le chiffrement AES‑256 sans accorder aucune permission (ce qui désactive l’impression), enregistrer le fichier protégé et vérifier le chiffrement à l’aide du mot de passe de visualisation.
+//ExStepSummary:0: Définissez le chemin du PDF source, le nom du fichier protégé en sortie, ainsi que les mots de passe de visualisation et de propriétaire.
+//ExStepSummary:1: Vérifiez que le fichier source existe et interrompez l’exécution avec un message d’erreur s’il est absent.
+//ExStepSummary:2: Ouvrez le PDF original, définissez aucune permission, chiffrez‑le avec AES‑256 en utilisant les mots de passe spécifiés, puis enregistrez le fichier protégé.
+//ExStepSummary:3: Rouvrez le PDF chiffré avec le mot de passe de visualisation et écrivez son indicateur IsEncrypted dans la console pour confirmer la protection.
+//ExStepSummary:4: Affichez un message final indiquant que le chiffrement est terminé et le nom du fichier de sortie.
+//ExStep:0-
+const string sourceFile = "original.pdf";
+const string securedFile = "protected.pdf";
+const string viewerPwd = "viewerPwd123";
+const string masterPwd = "masterPwd123";
+
+//ExStep:1-
+if (!File.Exists(sourceFile))
+{
+    Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+    return;
+}
+
+//ExStep:2-
+using (Document pdfDoc = new Document(sourceFile))
+{
+    Permissions rights = 0;
+    pdfDoc.Encrypt(viewerPwd, masterPwd, rights, CryptoAlgorithm.AESx256);
+    pdfDoc.Save(securedFile);
+}
+
+//ExStep:3-
+using (Document checkDoc = new Document(securedFile, viewerPwd))
+{
+    Console.WriteLine($"Encrypted flag: {checkDoc.IsEncrypted}");
+}
+
+//ExStep:4-
+Console.WriteLine($"Encryption finished. Output saved as '{securedFile}'.");
+//ExEnd

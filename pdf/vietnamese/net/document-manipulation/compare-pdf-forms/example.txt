@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Hướng dẫn này cho thấy cách sử dụng Aspose.Pdf để so sánh hai tệp PDF có chứa các trường biểu mẫu, tự động đánh giá giá trị các trường, và sau đó tạo cả báo cáo JSON về các khác biệt và một PDF diff trực quan dạng side‑by‑side.
+//ExStepSummary:0: Khai báo các đường dẫn tệp cho PDF gốc, PDF đã cập nhật, PDF diff dạng side‑by‑by‑side, và báo cáo JSON diff.
+//ExStepSummary:1: Kiểm tra xem cả hai tệp PDF nguồn có tồn tại hay không và dừng chương trình kèm thông báo lỗi nếu bất kỳ tệp nào bị thiếu.
+//ExStepSummary:2: Tải các PDF gốc và đã cập nhật vào các đối tượng `Document` trong các khối `using` xác định.
+//ExStepSummary:3: Tạo một thể hiện `ComparisonOptions` chứa các cài đặt mặc định cho việc so sánh.
+//ExStepSummary:4: Thực hiện so sánh văn bản theo trang giữa hai PDF và lưu các thao tác diff kết quả.
+//ExStepSummary:5: Tạo một tệp JSON chi tiết các khác biệt và ghi thông báo xác nhận lên console.
+//ExStepSummary:6: Tạo các tùy chọn so sánh side‑by‑side, tạo một PDF diff trực quan hiển thị các thay đổi, và ghi lại đường dẫn tệp đầu ra.
+//ExStep:0-
+const string sourcePdf = "base_document.pdf";
+const string updatedPdf = "altered_document.pdf";
+const string sideBySidePdf = "diff_visual.pdf";
+const string jsonReportPath = "diff_report.json";
+
+//ExStep:1-
+if (!File.Exists(sourcePdf) || !File.Exists(updatedPdf))
+{
+    Console.Error.WriteLine("Required PDF files were not found.");
+    return;
+}
+
+//ExStep:2-
+using (Document firstDoc = new Document(sourcePdf))
+using (Document secondDoc = new Document(updatedPdf))
+{
+
+//ExStep:3-
+ComparisonOptions compareOpts = new ComparisonOptions();
+
+//ExStep:4-
+List<List<DiffOperation>> pageDiffs = TextPdfComparer.CompareDocumentsPageByPage(firstDoc, secondDoc, compareOpts);
+
+//ExStep:5-
+JsonDiffOutputGenerator jsonWriter = new JsonDiffOutputGenerator();
+jsonWriter.GenerateOutput(pageDiffs, jsonReportPath);
+Console.WriteLine($"JSON comparison saved to '{jsonReportPath}'.");
+
+//ExStep:6-
+SideBySideComparisonOptions sideBySideOpts = new SideBySideComparisonOptions();
+SideBySidePdfComparer.Compare(firstDoc, secondDoc, sideBySidePdf, sideBySideOpts);
+Console.WriteLine($"Side‑by‑side diff PDF saved to '{sideBySidePdf}'.");
+}
+//ExEnd

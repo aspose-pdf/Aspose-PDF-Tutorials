@@ -28,6 +28,7 @@ Aspose.PDF 的“文本编程”.NET 教程提供了全面的 PDF 文档文本�
 | [在 PDF 文件中添加带有底纹颜色的文本](./add-text-with-shading-colors/) 通过本分步教程学习如何使用 Aspose.PDF for .NET 在 PDF 文件中添加文本阴影。使用彩色渐变自定义您的文档。|  
 | [向 PDF 文件中的文本添加工具提示](./add-tooltip-to-text/) 了解如何使用 Aspose.PDF for .NET 为 PDF 文件中的文本添加工具提示。轻松使用信息丰富的悬停文本增强您的 PDF 效果。|  
 | [在 PDF 文件中添加透明文本](./add-transparent-text/) 学习如何使用 Aspose.PDF for .NET 轻松向 PDF 添加透明文本，本指南包含实现完美透明度的分步说明。|  
+| [在 PDF 文件中添加 Bates 编号](./add-bates-numbers-to-pdf-bates-numbering-pdf/) 学习如何使用 Aspose.PDF for .NET 在 PDF 文档中添加 Bates 编号，以实现文档的唯一标识和追踪。|  
 | [创建多列 PDF](./create-multi-column-pdf/) | 学习如何使用 Aspose.PDF for .NET 创建多列 PDF。本指南包含代码示例和详细解释，适合专业人士使用。|  
 | [PDF 文件中的自定义制表位](./custom-tab-stops/) 学习如何使用 Aspose.PDF for .NET 在 PDF 中设置自定义制表位。本教程将逐步讲解如何专业地对齐文本。|  
 | [确定 PDF 文件中的换行符](./determine-line-break/) 了解如何使用 Aspose.PDF for .NET 确定 PDF 文档中的换行符。面向开发人员的分步教程。|  
@@ -70,6 +71,7 @@ Aspose.PDF 的“文本编程”.NET 教程提供了全面的 PDF 文档文本�
 | [PDF 文件中的文本和图像作为段落](./text-and-image-as-paragraph/) 使用 Aspose.PDF for .NET 创建包含文本和图像的 PDF。学习如何逐步添加文本和内联图像。|  
 | [PDF文件中的文本片段](./text-segments/) 了解如何在 Aspose.PDF for .NET 中使用正则表达式搜索 PDF 文件中的特定文本段。|  
 | [在 PDF 文件中使用 Latex 脚本](./use-latex-script/) 了解如何使用 Latex 脚本通过 Aspose.PDF for .NET 在 PDF 文件中添加数学表达式或公式。|  
+| [使用 C# 在 Word 中创建 Span 元素 – 完整指南](./create-span-element-in-word-with-c-complete-guide/) 通过本分步教程学习如何使用 C# 在 Word 文档中创建 Span 元素，实现高级文本布局。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
