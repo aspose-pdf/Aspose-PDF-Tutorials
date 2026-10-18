@@ -17,6 +17,8 @@ Padroneggia le funzionalità interattive dei PDF con i nostri tutorial completi 
 
 ## Tutorial disponibili
 
+
+{{< tutorial-card link="./exclude-annotations/" title="Confronto PDF side‑by‑side escludendo le annotazioni con Aspose.Pdf per .NET" imgSrc="./exclude-annotations/images/thumb.png" >}}
 ### [Aggiungere campi modulo ai PDF utilizzando Aspose.PDF per .NET: una guida completa](./add-pdf-form-fields-aspose-pdf-dotnet/)
 Scopri come aggiungere testo, caselle di controllo, caselle combinate, caselle di riepilogo e campi multi-riga ai PDF utilizzando Aspose.PDF per .NET. Questa guida include istruzioni di configurazione, esempi di codice e suggerimenti per l'integrazione.
 

@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: Deze tutorial laat zien hoe je Aspose.Pdf's TextPdfComparer gebruikt om een pagina‑voor‑pagina vergelijking van twee PDF‑documenten uit te voeren en een diff‑rapport‑PDF te genereren.
+//ExStepSummary:0: Declareer de bestands‑paden voor de originele PDF, de herziene PDF en het gegenereerde diff‑rapport.
+//ExStepSummary:1: Controleer of beide bron‑PDF's bestaan en annuleer met een foutmelding als een van beide ontbreekt.
+//ExStepSummary:2: Open beide PDF's, maak standaard vergelijking‑opties aan, voer een pagina‑voor‑pagina diff uit met `TextPdfComparer.CompareDocumentsPageByPage` en geef een succesbericht weer.
+//ExStepSummary:3: Vang elke uitzondering op die tijdens de vergelijking wordt gegooid en schrijf een foutmelding naar de console.
+//ExStep:0-
+const string sourcePath1 = "original.pdf";
+const string sourcePath2 = "revised.pdf";
+const string resultPath = "changes_report.pdf";
+
+//ExStep:1-
+if (!File.Exists(sourcePath1) || !File.Exists(sourcePath2))
+{
+    Console.Error.WriteLine("Either of the input PDFs could not be located.");
+    return;
+}
+
+//ExStep:2-
+try
+{
+    using (Document pdfA = new Document(sourcePath1))
+    using (Document pdfB = new Document(sourcePath2))
+    {
+        ComparisonOptions compareOpts = new ComparisonOptions();
+        TextPdfComparer.CompareDocumentsPageByPage(pdfA, pdfB, compareOpts, resultPath);
+    }
+
+    Console.WriteLine($"Page‑by‑page diff PDF written to '{resultPath}'.");
+}
+
+//ExStep:3-
+catch (Exception ex)
+{
+    Console.Error.WriteLine($"Comparison failed: {ex.Message}");
+}
+//ExEnd

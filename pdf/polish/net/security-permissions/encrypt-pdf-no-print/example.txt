@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: Ten tutorial pokazuje, jak otworzyć istniejący plik PDF przy użyciu Aspose.Pdf, zastosować szyfrowanie AES‑256 bez przyznawania żadnych uprawnień (co wyłącza drukowanie), zapisać chroniony plik oraz zweryfikować szyfrowanie przy użyciu hasła podglądu.
+//ExStepSummary:0: Zdefiniuj ścieżkę do źródłowego pliku PDF, nazwę wyjściowego chronionego pliku oraz hasła podglądu i właściciela.
+//ExStepSummary:1: Sprawdź, czy plik źródłowy istnieje i przerwij działanie z komunikatem o błędzie, jeśli go brakuje.
+//ExStepSummary:2: Otwórz oryginalny plik PDF, ustaw brak uprawnień, zaszyfruj go przy użyciu AES‑256 z podanymi hasłami i zapisz chroniony plik.
+//ExStepSummary:3: Ponownie otwórz zaszyfrowany plik PDF przy użyciu hasła podglądu i wypisz jego flagę IsEncrypted na konsolę, aby potwierdzić ochronę.
+//ExStepSummary:4: Wyświetl końcowy komunikat informujący, że szyfrowanie zostało zakończone oraz podaj nazwę pliku wyjściowego.
+//ExStep:0-
+const string sourceFile = "original.pdf";
+const string securedFile = "protected.pdf";
+const string viewerPwd = "viewerPwd123";
+const string masterPwd = "masterPwd123";
+
+//ExStep:1-
+if (!File.Exists(sourceFile))
+{
+    Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+    return;
+}
+
+//ExStep:2-
+using (Document pdfDoc = new Document(sourceFile))
+{
+    Permissions rights = 0;
+    pdfDoc.Encrypt(viewerPwd, masterPwd, rights, CryptoAlgorithm.AESx256);
+    pdfDoc.Save(securedFile);
+}
+
+//ExStep:3-
+using (Document checkDoc = new Document(securedFile, viewerPwd))
+{
+    Console.WriteLine($"Encrypted flag: {checkDoc.IsEncrypted}");
+}
+
+//ExStep:4-
+Console.WriteLine($"Encryption finished. Output saved as '{securedFile}'.");
+//ExEnd

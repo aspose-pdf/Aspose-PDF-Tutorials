@@ -104,6 +104,9 @@ Kuasai rotasi teks dalam PDF dengan Aspose.PDF untuk .NET menggunakan panduan le
 ### [Kuasai Aspose.PDF untuk .NET: Buka dan Cari Dokumen PDF Secara Efisien](./aspose-pdf-net-open-search-pdfs/)
 Pelajari cara menggunakan Aspose.PDF untuk .NET guna membuka dan mencari dokumen PDF. Panduan ini mencakup pengaturan, pencarian teks di halaman tertentu, dan aplikasi praktis.
 
+### [Cara Mencari PDF dengan Aspose.Pdf – Panduan Lengkap C#](./how-to-search-pdf-with-aspose-pdf-complete-c-guide/)
+Pelajari cara mencari teks dalam file PDF menggunakan Aspose.Pdf dengan contoh kode C# lengkap dan langkah-langkah praktis.
+
 ### [Kuasai Penghentian Tab Kustom dalam PDF Menggunakan Aspose.PDF untuk .NET: Panduan Lengkap](./master-custom-tab-stops-aspose-pdf-net/)
 Pelajari cara menguasai penghentian tab khusus dalam dokumen PDF menggunakan Aspose.PDF untuk .NET, yang akan meningkatkan keterampilan pemformatan dokumen dan presentasi Anda.
 
@@ -164,6 +167,8 @@ Tutorial kode untuk Aspose.PDF Net
 ### [Gaya Teks dalam PDF yang Ditandai menggunakan Aspose.PDF untuk .NET | Panduan untuk Pembuatan PDF yang Mudah Diakses dan Estetis](./style-text-tagged-pdfs-aspose-pdf-net/)
 Pelajari cara memberi gaya pada teks dalam dokumen PDF yang diberi tag dengan Aspose.PDF untuk .NET. Panduan ini mencakup instalasi, teknik, dan aplikasi praktis untuk meningkatkan aksesibilitas.
 
+### [Cara Menyensor PDF dengan Aspose – Panduan Langkah demi Langkah](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
+Pelajari cara mengaburkan informasi sensitif dalam file PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini.
 ### [Cara Meringkas PDF dengan Aspose.Pdf.AI – Panduan](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
 
 ## Sumber Daya Tambahan

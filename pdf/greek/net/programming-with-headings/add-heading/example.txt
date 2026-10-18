@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Αυτό το σεμινάριο δείχνει πώς να δημιουργήσετε ένα έγγραφο PDF, να ορίσετε τη προεπιλεγμένη γλώσσα και τον τίτλο του, και να εισάγετε μια επικεφαλίδα επιπέδου‑1 χρησιμοποιώντας τις κλάσεις Document, ITaggedContent, StructureElement και HeaderElement.
+//ExStepSummary:0: Ορίστε το όνομα του αρχείου εξόδου για το παραγόμενο PDF.
+//ExStepSummary:1: Δημιουργήστε ένα νέο κενό στιγμιότυπο εγγράφου PDF (`pdfDoc`) μέσα σε ένα μπλοκ `using`.
+//ExStepSummary:2: Αποκτήστε τη διεπαφή `ITaggedContent` για εργασία με δομές PDF με ετικέτες.
+//ExStepSummary:3: Ορίστε τη προεπιλεγμένη γλώσσα του εγγράφου σε English (US) και εκχωρήστε μεταδεδομένα τίτλου.
+//ExStepSummary:4: Ανακτήστε το στοιχείο ρίζας του δέντρου λογικής δομής.
+//ExStepSummary:5: Δημιουργήστε ένα στοιχείο επικεφαλίδας επιπέδου‑1, ορίστε το εμφανιζόμενο κείμενό του και καθορίστε τη γλώσσα του.
+//ExStepSummary:6: Προσθέστε το στοιχείο επικεφαλίδας στη ρίζα, ώστε η επικεφαλίδα να εμφανιστεί στο PDF.
+//ExStepSummary:7: Αποθηκεύστε το PDF στο καθορισμένο αρχείο και κλείστε το πεδίο του εγγράφου.
+//ExStepSummary:8: Εκτυπώστε ένα μήνυμα επιβεβαίωσης στην κονσόλα.
+//ExStepImage:6:images/1.png
+//ExStep:0-
+const string resultFile = "pdf_with_title.pdf";
+
+//ExStep:1-
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:2-
+ITaggedContent tagContent = pdfDoc.TaggedContent;
+
+//ExStep:3-
+tagContent.SetLanguage("en-US");
+tagContent.SetTitle("PDF Example with Header");
+
+//ExStep:4-
+StructureElement rootElement = tagContent.RootElement;
+
+//ExStep:5-
+HeaderElement header = tagContent.CreateHeaderElement(1);
+header.SetText("Demo Header");
+header.Language = "en-US";
+
+//ExStep:6-
+rootElement.AppendChild(header);
+
+//ExStep:7-
+pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"PDF generated and stored at '{resultFile}'.");
+//ExEnd

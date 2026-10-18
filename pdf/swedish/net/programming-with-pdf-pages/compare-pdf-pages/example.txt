@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: Denna handledning visar hur du använder Aspose.Pdf:s TextPdfComparer för att utföra en sid‑för‑sid jämförelse av två PDF‑dokument och generera en diff‑rapport‑PDF.
+//ExStepSummary:0: Deklarera filsökvägarna för den ursprungliga PDF‑filen, den reviderade PDF‑filen och diff‑rapporten som ska skrivas ut.
+//ExStepSummary:1: Verifiera att båda käll‑PDF‑filerna finns och avbryt med ett felmeddelande om någon av dem saknas.
+//ExStepSummary:2: Öppna båda PDF‑filerna, skapa standardalternativ för jämförelse, kör en sid‑för‑sid diff med `TextPdfComparer.CompareDocumentsPageByPage` och skriv ut ett lyckat meddelande.
+//ExStepSummary:3: Fånga alla undantag som kastas under jämförelsen och skriv ett felmeddelande till konsolen.
+//ExStep:0-
+const string sourcePath1 = "original.pdf";
+const string sourcePath2 = "revised.pdf";
+const string resultPath = "changes_report.pdf";
+
+//ExStep:1-
+if (!File.Exists(sourcePath1) || !File.Exists(sourcePath2))
+{
+    Console.Error.WriteLine("Either of the input PDFs could not be located.");
+    return;
+}
+
+//ExStep:2-
+try
+{
+    using (Document pdfA = new Document(sourcePath1))
+    using (Document pdfB = new Document(sourcePath2))
+    {
+        ComparisonOptions compareOpts = new ComparisonOptions();
+        TextPdfComparer.CompareDocumentsPageByPage(pdfA, pdfB, compareOpts, resultPath);
+    }
+
+    Console.WriteLine($"Page‑by‑page diff PDF written to '{resultPath}'.");
+}
+
+//ExStep:3-
+catch (Exception ex)
+{
+    Console.Error.WriteLine($"Comparison failed: {ex.Message}");
+}
+//ExEnd

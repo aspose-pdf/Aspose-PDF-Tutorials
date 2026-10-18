@@ -102,7 +102,7 @@ Tanuld meg, hogyan mérheted pontosan a karakterláncok szélességét az Aspose
 Sajátítsa el a szövegforgatást PDF-ekben az Aspose.PDF for .NET segítségével ezzel az átfogó útmutatóval. Ismerje meg, hogyan javíthatja dokumentumainak elrendezését hatékonyan elforgatott szöveggel.
 
 ### [Master Aspose.PDF .NET-hez: PDF dokumentumok hatékony megnyitása és keresése](./aspose-pdf-net-open-search-pdfs/)
-Ismerje meg, hogyan használható az Aspose.PDF for .NET PDF dokumentumok megnyitásához és kereséséhez. Ez az útmutató a beállítást, a szöveg adott oldalakon való keresését és a gyakorlati alkalmazásokat ismerteti.
+### [Hogyan keressünk PDF-et az Aspose.PDF segítségével – Teljes C# útmutató](./how-to-search-pdf-with-aspose-pdf-complete-c-guide/)
 
 ### [Egyéni tabulátorpozíciók elsajátítása PDF-ekben az Aspose.PDF for .NET használatával: Átfogó útmutató](./master-custom-tab-stops-aspose-pdf-net/)
 Tanuld meg, hogyan sajátíthatod el az egyéni tabulátorpozíciók használatát PDF dokumentumokban az Aspose.PDF for .NET segítségével, ezzel fejlesztve dokumentumformázási és prezentációs készségeidet.
@@ -164,6 +164,7 @@ Kód oktatóanyag az Aspose.PDF Nethez
 ### [Szöveg formázása címkézett PDF-ekben az Aspose.PDF for .NET használatával | Útmutató a hozzáférhető és esztétikus PDF-készítéshez](./style-text-tagged-pdfs-aspose-pdf-net/)
 Tanulja meg, hogyan formázhatja a címkézett PDF dokumentumok szövegét az Aspose.PDF for .NET segítségével. Ez az útmutató a telepítést, a technikákat és a gyakorlati alkalmazásokat ismerteti az akadálymentesítés javítása érdekében.
 
+### [PDF kitakarása Aspose-szal – Lépésről lépésre útmutató](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
 ### [Hogyan összefoglaljunk PDF-et az Aspose.Pdf.AI-val – útmutató](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
 Ismerje meg, hogyan lehet összefoglalni PDF dokumentumokat az Aspose.Pdf.AI segítségével.
 

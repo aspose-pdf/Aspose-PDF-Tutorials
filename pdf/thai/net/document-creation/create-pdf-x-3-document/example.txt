@@ -1,0 +1,33 @@
+//ExStart
+//ExSummary: บทแนะนำนี้แสดงวิธีสร้างเอกสาร PDF ใหม่, เพิ่มหน้าว่างสามหน้า, แปลงเป็นมาตรฐาน PDF/X‑3 พร้อมบันทึกข้อผิดพลาดการแปลง, และบันทึกไฟล์ที่ได้โดยใช้คลาส Aspose.Pdf Document.
+//ExStepSummary:0: กำหนดชื่อไฟล์ PDF ที่จะส่งออกและเส้นทางสำหรับบันทึกการแปลง.
+//ExStepSummary:1: สร้างอ็อบเจกต์ Document ใหม่ภายในบล็อก using เพื่อให้แน่ใจว่ามีการกำจัดอย่างเหมาะสม.
+//ExStepSummary:2: เพิ่มหน้าว่างสามหน้าเข้าไปในเอกสารเพื่อเพิ่มจำนวนหน้า.
+//ExStepSummary:3: แปลงเอกสารเป็นรูปแบบ PDF/X‑3 และบันทึกปัญหาการแปลงใด ๆ ลงในไฟล์บันทึก.
+//ExStepSummary:4: บันทึกเอกสารที่เป็นไปตามมาตรฐาน PDF/X‑3 ลงดิสก์และปิดบล็อก using.
+//ExStepSummary:5: พิมพ์ข้อความยืนยันไปยังคอนโซลเพื่อบอกตำแหน่งที่ไฟล์ถูกบันทึก.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+        const string resultFile = "final_pdfx3_output.pdf";
+        const string conversionLog = "pdfx3_conversion_log.xml";
+
+//ExStep:1-
+        using (Document pdfDoc = new Document())
+        {
+
+//ExStep:2-
+            pdfDoc.Pages.Add();
+            pdfDoc.Pages.Add();
+            pdfDoc.Pages.Add();
+
+//ExStep:3-
+            pdfDoc.Convert(conversionLog, PdfFormat.PDF_X_3, ConvertErrorAction.Delete);
+
+//ExStep:4-
+            pdfDoc.Save(resultFile);
+        }
+
+//ExStep:5-
+        Console.WriteLine($"PDF/X‑3 file written to '{resultFile}'.");
+//ExEnd

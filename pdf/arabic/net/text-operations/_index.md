@@ -62,10 +62,10 @@
 ### [استخراج النص من ملفات PDF باستخدام Aspose.PDF لـ .NET](./extract-text-pdf-aspose-dotnet/)
 تعلّم كيفية استخراج النص من صفحات PDF باستخدام Aspose.PDF .NET من خلال هذا البرنامج التعليمي الشامل. مثالي لمعالجة البيانات وتحليلها.
 
-### [استخراج النص من ملفات PDF باستخدام Aspose.PDF .NET: دليل C# شامل](./aspose-pdf-net-text-extraction-csharp/)
-تعلّم كيفية استخراج النصوص بكفاءة من ملفات PDF باستخدام Aspose.PDF .NET من خلال هذا البرنامج التعليمي المفصل بلغة C#. حسّن سير عمل معالجة مستنداتك اليوم.
+### [استخراج النص من ملفات PDF باستخدام Aspose.PDF لـ .NET: دليل C# شامل](./aspose-pdf-net-text-extraction-csharp/)
+تعلّم كيفية استخراج النصوص بكفاءة من ملفات PDF باستخدام Aspose.PDF .NET مع هذا الدليل المفصل بلغة C#. حسّن سير عمل معالجة مستنداتك اليوم.
 
-### [استخراج النص من ملفات PDF باستخدام Aspose.PDF .NET: دليل كامل](./extract-text-aspose-pdf-net-guide/)
+### [استخراج النص من ملفات PDF باستخدام Aspose.PDF لـ .NET: دليل كامل](./extract-text-aspose-pdf-net-guide/)
 تعرّف على كيفية استخراج النصوص من ملفات PDF باستخدام Aspose.PDF .NET مع هذا الدليل الشامل. أتقن استخراج النصوص والبحث عنها وتحليلها في تطبيقات .NET.
 
 ### [استخراج النص من صفحات محددة في ملفات PDF باستخدام Aspose.PDF .NET: دليل شامل](./extract-text-aspose-pdf-net-specific-pages/)
@@ -102,24 +102,26 @@
 أتقن تدوير النص في ملفات PDF باستخدام Aspose.PDF .NET باستخدام هذا الدليل الشامل. تعلّم كيفية تحسين تخطيطات مستنداتك بكفاءة باستخدام النص المُدار.
 
 ### [إتقان Aspose.PDF لـ .NET: فتح مستندات PDF والبحث فيها بكفاءة](./aspose-pdf-net-open-search-pdfs/)
-تعرّف على كيفية استخدام Aspose.PDF لـ .NET لفتح مستندات PDF والبحث فيها. يغطي هذا الدليل الإعداد، والبحث عن نصوص في صفحات محددة، وتطبيقات عملية.
+تعرّف على كيفية استخدام Aspose.PDF .NET لفتح مستندات PDF والبحث فيها. يغطي هذا الدليل الإعداد، والبحث عن نصوص في صفحات محددة، وتطبيقات عملية.
+
+### [كيفية البحث في ملفات PDF باستخدام Aspose.Pdf – دليل كامل بلغة C#](./how-to-search-pdf-with-aspose-pdf-complete-c-guide/)
 
 ### [إتقان علامات التبويب المخصصة في ملفات PDF باستخدام Aspose.PDF لـ .NET: دليل شامل](./master-custom-tab-stops-aspose-pdf-net/)
-تعرف على كيفية إتقان علامات التبويب المخصصة في مستندات PDF باستخدام Aspose.PDF لـ .NET، مما يعزز مهاراتك في تنسيق المستندات وعرضها.
+تعرف على كيفية إتقان علامات التبويب المخصصة في مستندات PDF باستخدام Aspose.PDF .NET، مما يعزز مهاراتك في تنسيق المستندات وعرضها.
 
 ### [إتقان تحرير نصوص PDF بكفاءة مع Aspose.PDF .NET](./aspose-pdf-net-edit-pdfs-efficiency/)
 تعرّف على كيفية تحرير نصوص PDF بكفاءة باستخدام Aspose.PDF .NET. يغطي هذا الدليل إعداد ملفات PDF والبحث عنها وتعديلها وحفظها باستخدام C#.
 
-### [استبدال الخطوط الرئيسية في ملفات PDF باستخدام Aspose.PDF لـ .NET: دليل شامل](./mastering-font-substitution-aspose-pdf-net/)
+### [استبدال الخطوط الرئيسية في ملفات PDF باستخدام Aspose.PDF .NET: دليل شامل](./mastering-font-substitution-aspose-pdf-net/)
 تعلم كيفية التعامل بسلاسة مع استبدال الخطوط في مستندات PDF باستخدام Aspose.PDF .NET. يقدم هذا البرنامج التعليمي إرشادات خطوة بخطوة لإعداد حلول فعّالة وتطبيقها.
 
-### [إتقان تقنيات استخراج ملفات PDF باستخدام Aspose.PDF لـ .NET: دليل شامل](./mastering-pdf-extraction-aspose-dotnet/)
+### [إتقان تقنيات استخراج ملفات PDF باستخدام Aspose.PDF .NET: دليل شامل](./mastering-pdf-extraction-aspose-dotnet/)
 تعلّم كيفية استخراج النصوص والصور بكفاءة من ملفات PDF باستخدام Aspose.PDF .NET. اتبع هذا الدليل خطوة بخطوة لتحسين سير عمل معالجة مستنداتك.
 
-### [إدارة خطوط PDF الرئيسية: تعيين الخطوط الافتراضية في المستندات باستخدام Aspose.PDF لـ .NET](./master-pdf-font-management-aspose-pdf-net/)
+### [إدارة خطوط PDF الرئيسية: تعيين الخطوط الافتراضية في المستندات باستخدام Aspose.PDF .NET](./master-pdf-font-management-aspose-pdf-net/)
 تعرّف على كيفية تعيين الخطوط الافتراضية في ملفات PDF باستخدام Aspose.PDF .NET. حدّد تناسقًا بين المستندات بسهولة.
 
-### [إتقان تباعد الأسطر في ملفات PDF باستخدام خطوط TrueType باستخدام Aspose.PDF لـ .NET](./optimize-pdf-line-spacing-true-type-fonts-aspose-pdf/)
+### [إتقان تباعد الأسطر في ملفات PDF باستخدام خطوط TrueType باستخدام Aspose.PDF .NET](./optimize-pdf-line-spacing-true-type-fonts-aspose-pdf/)
 تعلم كيفية تحسين تباعد الأسطر في ملفات PDF باستخدام خطوط TrueType مع Aspose.PDF .NET. أنشئ مستندات احترافية بكل سهولة.
 
 ### [إتقان استخراج نصوص PDF في .NET باستخدام Aspose.PDF: دليل شامل](./mastering-pdf-text-extraction-dotnet-asposepdf/)
@@ -161,9 +163,10 @@
 ### [استبدال الخطوط في PDF باستخدام Aspose.PDF .NET](./replace-fonts-pdf-aspose-dotnet-guide/)
 برنامج تعليمي لبرمجة Aspose.PDF Net
 
-### [تنسيق النصوص في ملفات PDF المُعلَّمة باستخدام Aspose.PDF لـ .NET | دليل لإنشاء ملفات PDF سهلة الوصول وذات مظهر جمالي](./style-text-tagged-pdfs-aspose-pdf-net/)
+### [تنسيق النصوص في ملفات PDF المُعلَّمة باستخدام Aspose.PDF .NET | دليل لإنشاء ملفات PDF سهلة الوصول وذات مظهر جمالي](./style-text-tagged-pdfs-aspose-pdf-net/)
 تعرّف على كيفية تنسيق النصوص في مستندات PDF المُعلَّمة باستخدام Aspose.PDF .NET. يغطي هذا الدليل التثبيت والتقنيات والتطبيقات العملية لتحسين إمكانية الوصول.
 
+### [كيفية تمويه PDF باستخدام Aspose – دليل خطوة بخطوة](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
 ### [كيفية تلخيص ملفات PDF باستخدام Aspose.Pdf.AI – دليل](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
 تعلم كيفية تلخيص محتوى ملفات PDF باستخدام تقنية Aspose.Pdf.AI خطوة بخطوة.
 

@@ -17,6 +17,8 @@
 
 ## البرامج التعليمية المتاحة
 
+
+{{< tutorial-card link="./style-table-cells/" title="تخصيص خلفية خلايا الجدول والحدود والمسافة الداخلية في ملفات PDF باستخدام Aspose.Pdf for .NET" imgSrc="./style-table-cells/images/thumb.png" >}}
 ### [إضافة قائمة HTML مرتبة إلى PDF باستخدام Aspose.PDF .NET](./add-html-ordered-list-pdf-aspose-net/)
 برنامج تعليمي لبرمجة Aspose.PDF Net
 

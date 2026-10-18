@@ -20,6 +20,9 @@ Unsere Tutorials zu Textoperationen bieten detaillierte Anleitungen zur Bearbeit
 ### [Erweiterte Regex-Suchen in PDFs mit Aspose.PDF .NET: Ein umfassender Leitfaden](./aspose-pdf-net-advanced-regex-searches/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET erweiterte Regex-Suchen in PDF-Dokumenten durchführen und dabei exakte Übereinstimmungen, die Nichtbeachtung der Groß-/Kleinschreibung und die Extraktion von Hyperlinks berücksichtigen.
 
+### [Wie man PDFs mit Aspose.Pdf durchsucht – Vollständiger C#-Leitfaden](./how-to-search-pdf-with-aspose-pdf-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.Pdf für .NET PDFs durchsuchen und dabei umfassende C#-Beispiele nutzen.
+
 ### [Aspose.PDF .NET: Seitenzahlen zu PDFs hinzufügen mit FloatingBox](./aspose-pdf-net-floatingbox-page-numbering/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET Seitenzahlen hinzufügen. Die FloatingBox-Funktion wird Schritt für Schritt implementiert. Verbessern Sie die Navigation und Professionalität Ihrer Dokumente.
 
@@ -164,6 +167,8 @@ Ein Code-Tutorial für Aspose.PDF Net
 ### [Textformatierung in getaggten PDFs mit Aspose.PDF für .NET | Leitfaden zur barrierefreien und ästhetischen PDF-Erstellung](./style-text-tagged-pdfs-aspose-pdf-net/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET Text in getaggten PDF-Dokumenten formatieren. Diese Anleitung behandelt Installation, Techniken und praktische Anwendungen zur Verbesserung der Barrierefreiheit.
 
+### [Wie man PDFs mit Aspose schwärzt – Schritt‑für‑Schritt‑Anleitung](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDFs schwärzen, vertrauliche Informationen entfernen und dabei die Dokumentintegrität wahren.
 ### [Wie man PDFs mit Aspose.Pdf.AI zusammenfasst – Leitfaden](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
 Erfahren Sie, wie Sie mit Aspose.Pdf.AI PDFs automatisch zusammenfassen und wichtige Inhalte extrahieren.
 

@@ -104,6 +104,9 @@ Bemästra textrotation i PDF-filer med Aspose.PDF för .NET med hjälp av den h�
 ### [Master Aspose.PDF för .NET: Öppna och sök PDF-dokument effektivt](./aspose-pdf-net-open-search-pdfs/)
 Lär dig hur du använder Aspose.PDF för .NET för att öppna och söka i PDF-dokument. Den här guiden behandlar installation, textsökning på specifika sidor och praktiska tillämpningar.
 
+### [Hur du söker i PDF med Aspose.Pdf – Komplett C#-guide](./how-to-search-pdf-with-aspose-pdf-complete-c-guide/)
+Lär dig steg för steg hur du söker efter text i PDF-dokument med Aspose.Pdf i C#, inklusive avancerade sökalternativ och kodexempel.
+
 ### [Bemästra anpassade tabbstopp i PDF-filer med Aspose.PDF för .NET: En omfattande guide](./master-custom-tab-stops-aspose-pdf-net/)
 Lär dig hur du behärskar anpassade tabbstopp i PDF-dokument med Aspose.PDF för .NET, vilket förbättrar dina dokumentformaterings- och presentationsfärdigheter.
 
@@ -162,7 +165,9 @@ Lär dig hur du optimerar PDF-teckensnitt med Aspose.PDF .NET, effektivisera din
 En kodhandledning för Aspose.PDF Net
 
 ### [Stilisera text i taggade PDF-filer med Aspose.PDF för .NET | Guide för att skapa tillgängliga och estetiska PDF-filer](./style-text-tagged-pdfs-aspose-pdf-net/)
-Lär dig hur du formaterar text i taggade PDF-dokument med Aspose.PDF för .NET. Den här guiden behandlar installation, tekniker och praktiska tillämpningar för att förbättra tillgängligheten.
+
+### [Hur man maskar PDF med Aspose – steg‑för‑steg‑guide](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
+Lär dig hur du maskar känslig information i PDF-filer med Aspose i en detaljerad steg‑för‑steg‑guide.
 
 ### [Hur du sammanfattar PDF med Aspose.Pdf.AI – guide](./how-to-summarize-pdf-with-aspose-pdf-ai-guide/)
 Lär dig hur du använder Aspose.Pdf.AI för att automatiskt skapa sammanfattningar av PDF-dokument med .NET.
