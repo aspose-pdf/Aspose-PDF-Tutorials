@@ -26,6 +26,7 @@ De tutorials "Programmeren met operatoren" van Aspose.PDF voor .NET begeleiden u
 | [Collectie itereren C# – Eenvoudige gids om items te doorlopen](./iterate-collection-c-simple-guide-to-loop-over-items/) | Leer hoe u in C# door een collectie kunt itereren met een eenvoudige stap‑voor‑stap handleiding. |
 | [Leeg PDF-woordenboek maken in C# – Complete Aspose.Pdf-gids](./create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide/) | Leer hoe u een leeg PDF-woordenboek maakt met Aspose.PDF voor .NET in C#. Volledige stapsgewijze handleiding. |  
 | [Hoe PDF-transparantie te wijzigen in C# met Aspose.Pdf](./how-to-change-pdf-transparency-in-c-using-aspose-pdf/) | Leer hoe u de transparantie van PDF-elementen kunt aanpassen in C# met Aspose.Pdf. |
+| [Aangepaste graphics state maken in PDF met Aspose.Pdf](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) | Leer hoe u een aangepaste graphics state maakt in een PDF met Aspose.PDF voor .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

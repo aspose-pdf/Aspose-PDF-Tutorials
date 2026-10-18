@@ -26,6 +26,7 @@
 | [Итерация коллекции C# – простое руководство по перебору элементов](./iterate-collection-c-simple-guide-to-loop-over-items/) | Узнайте, как перебрать элементы коллекции в C# с помощью простого руководства по использованию цикла foreach. |  
 | [Создать пустой PDF-словарь в C# – Полное руководство Aspose.Pdf](./create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide/) | Узнайте, как создать пустой словарь PDF в C# с помощью Aspose.PDF для .NET в этом полном руководстве. |
 | [Как изменить прозрачность PDF в C# с помощью Aspose.Pdf](./how-to-change-pdf-transparency-in-c-using-aspose-pdf/) | Узнайте, как изменить прозрачность элементов PDF в C# с помощью Aspose.Pdf в этом пошаговом руководстве. |
+| [Создать пользовательское графическое состояние в PDF с помощью Aspose.Pdf](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) | Узнайте, как создать пользовательское графическое состояние в PDF с помощью Aspose.Pdf для .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

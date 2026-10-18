@@ -26,6 +26,7 @@ Aspose.PDF for .NET के "ऑपरेटर्स के साथ प्र�
 | [C# में कलेक्शन इटररेट करना – आइटम्स पर लूप चलाने की सरल गाइड](./iterate-collection-c-simple-guide-to-loop-over-items/) | C# में कलेक्शन पर लूप चलाकर आइटम्स को इटररेट करने की सरल गाइड। |
 | [C# में खाली PDF डिक्शनरी बनाएं – पूर्ण Aspose.Pdf गाइड](./create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide/) | C# में Aspose.PDF का उपयोग करके खाली PDF डिक्शनरी बनाने की पूरी गाइड। |
 | [C# में Aspose.Pdf से PDF पारदर्शिता बदलें](./how-to-change-pdf-transparency-in-c-using-aspose-pdf/) | Aspose.PDF for .NET का उपयोग करके C# में PDF दस्तावेज़ की पारदर्शिता सेट करने की चरण-दर-चरण मार्गदर्शिका। |  
+| [Aspose.Pdf का उपयोग करके PDF में कस्टम ग्राफ़िक्स स्टेट बनाएं](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) | Aspose.PDF के साथ PDF में कस्टम ग्राफ़िक्स स्टेट बनाकर उन्नत ग्राफ़िक नियंत्रण सीखें। |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

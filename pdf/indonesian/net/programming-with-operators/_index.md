@@ -26,6 +26,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Iterasi Koleksi C# – Panduan Sederhana untuk Mengulang Item](./iterate-collection-c-simple-guide-to-loop-over-items/) | Panduan langkah demi langkah untuk mengiterasi koleksi di C# menggunakan loop, membantu memproses setiap item dengan mudah. |
 | [Buat Kamus PDF Kosong di C# – Panduan Lengkap Aspose.Pdf](./create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide/) | Panduan lengkap untuk membuat kamus PDF kosong menggunakan Aspose.PDF untuk .NET di C#. |  
 | [Cara mengubah transparansi PDF di C# menggunakan Aspose.Pdf](./how-to-change-pdf-transparency-in-c-using-aspose-pdf/) | Panduan langkah demi langkah untuk mengubah transparansi PDF menggunakan Aspose.Pdf di C#. |  
+| [Buat keadaan grafik khusus dalam PDF menggunakan Aspose.Pdf](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) | Panduan langkah demi langkah untuk membuat keadaan grafik khusus dalam PDF menggunakan Aspose.Pdf. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -26,6 +26,7 @@ Aspose.PDF for .NET 的「使用運算子進行程式設計」教學課程將引
 | [遍歷集合 C# – 簡易指南：循環遍歷項目](./iterate-collection-c-simple-guide-to-loop-over-items/) |本指南說明如何使用 Aspose.PDF for .NET 在 C# 中遍歷集合，輕鬆迭代 PDF 項目。 |  
 | [在 C# 中建立空 PDF 字典 – 完整 Aspose.Pdf 指南](./create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide/) |本完整指南說明如何在 C# 使用 Aspose.PDF 建立空的 PDF 字典，並設定其屬性。 |  
 | [如何在 C# 中使用 Aspose.Pdf 更改 PDF 透明度](./how-to-change-pdf-transparency-in-c-using-aspose-pdf/) |本指南說明如何使用 Aspose.Pdf 在 C# 中調整 PDF 的透明度屬性。 |  
+| [使用 Aspose.Pdf 在 PDF 中建立自訂圖形狀態](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) |說明如何使用 Aspose.Pdf 在 PDF 中建立自訂圖形狀態，以控制繪圖屬性。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

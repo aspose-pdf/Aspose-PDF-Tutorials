@@ -26,6 +26,7 @@ Os tutoriais "Programação com Operadores" do Aspose.PDF para .NET guiam você 
 | [Iterar Coleção C# – Guia Simples para Percorrer Itens](./iterate-collection-c-simple-guide-to-loop-over-items/) | Aprenda a percorrer coleções em C# usando laços, com exemplos claros no Aspose.PDF para .NET. |  
 | [Criar Dicionário PDF Vazio em C# – Guia Completo Aspose.Pdf](./create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide/) | Aprenda a criar um dicionário PDF vazio usando Aspose.PDF para .NET em C# neste guia completo. |  
 | [Como alterar a transparência de PDF em C# usando Aspose.Pdf](./how-to-change-pdf-transparency-in-c-using-aspose-pdf/) | Aprenda a modificar a transparência de elementos em PDFs usando Aspose.PDF para .NET em C#. |  
+| [Criar estado gráfico personalizado em PDF usando Aspose.Pdf](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) | Aprenda a criar um estado gráfico personalizado em PDF usando Aspose.PDF para .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

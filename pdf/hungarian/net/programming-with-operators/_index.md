@@ -26,6 +26,7 @@ Az Aspose.PDF for .NET „Operátorokkal való programozás” című oktatóany
 | [Gyűjtemény iterálása C# – Egyszerű útmutató az elemek bejárásához](./iterate-collection-c-simple-guide-to-loop-over-items/) | Ismerje meg, hogyan iterálhat C#-ban egy gyűjteményt egyszerű példákkal az Aspose.PDF for .NET használatával. |  
 | [Üres PDF-szótár létrehozása C#-ban – Teljes Aspose.Pdf útmutató](./create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide/) | Tanulja meg, hogyan hozhat létre üres PDF-szótárat C#-ban az Aspose.PDF for .NET segítségével. |  
 | [Hogyan változtassuk meg a PDF átlátszóságát C#-ban az Aspose.Pdf használatával](./how-to-change-pdf-transparency-in-c-using-aspose-pdf/) | Ismerje meg, hogyan állíthatja be a PDF átlátszóságát C#-ban az Aspose.Pdf segítségével. |  
+| [Egyéni grafikai állapot létrehozása PDF-ben az Aspose.Pdf használatával](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) | Ismerje meg, hogyan hozhat létre egyedi grafikai állapotot PDF-ben az Aspose.PDF segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
