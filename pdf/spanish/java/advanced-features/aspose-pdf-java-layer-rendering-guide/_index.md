@@ -91,9 +91,9 @@ url: /es/java/advanced-features/aspose-pdf-java-layer-rendering-guide/
 weight: 1
 ---
 
-{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
-{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
 # Guardar PDF como HTML y Renderizar Capas PDF con Aspose.PDF Java
@@ -295,10 +295,10 @@ Al seguir esta guía, has aprendido cómo abrir y manipular archivos PDF usando 
 - [pdf to html java – Convert PDF to HTML with Embedded Resources Using Aspose.PDF for Java](/pdf/java/conversion-export/convert-pdf-to-html-aspose-java-embedded-resources/)
 
 
-{{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
-{{< blocks/products/pf/main-wrap-class >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
