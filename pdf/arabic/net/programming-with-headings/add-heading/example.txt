@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: يوضح هذا البرنامج التعليمي كيفية إنشاء مستند PDF، وتعيين لغته الافتراضية والعنوان، وإدراج عنوان من المستوى‑1 باستخدام الفئات Document و ITaggedContent و StructureElement و HeaderElement.
+//ExStepSummary:0: حدد اسم ملف الإخراج للمستند PDF المُولد.
+//ExStepSummary:1: أنشئ كائنًا جديدًا فارغًا من مستند PDF (`pdfDoc`) داخل كتلة `using`.
+//ExStepSummary:2: احصل على واجهة `ITaggedContent` للعمل مع هياكل PDF الموسومة.
+//ExStepSummary:3: عيّن اللغة الافتراضية للمستند إلى الإنجليزية (الولايات المتحدة) وعيّن بيانات تعريف العنوان.
+//ExStepSummary:4: استرجع العنصر الجذر لشجرة البنية المنطقية.
+//ExStepSummary:5: أنشئ عنصر رأس من المستوى‑1، عيّن النص المعروض له، وحدد لغته.
+//ExStepSummary:6: أضف عنصر الرأس إلى الجذر، مما يجعل العنوان يظهر في ملف PDF.
+//ExStepSummary:7: احفظ ملف PDF إلى الملف المحدد وأغلق نطاق المستند.
+//ExStepSummary:8: اعرض رسالة تأكيد في وحدة التحكم.
+//ExStepImage:6:images/1.png
+//ExStep:0-
+const string resultFile = "pdf_with_title.pdf";
+
+//ExStep:1-
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:2-
+ITaggedContent tagContent = pdfDoc.TaggedContent;
+
+//ExStep:3-
+tagContent.SetLanguage("en-US");
+tagContent.SetTitle("PDF Example with Header");
+
+//ExStep:4-
+StructureElement rootElement = tagContent.RootElement;
+
+//ExStep:5-
+HeaderElement header = tagContent.CreateHeaderElement(1);
+header.SetText("Demo Header");
+header.Language = "en-US";
+
+//ExStep:6-
+rootElement.AppendChild(header);
+
+//ExStep:7-
+pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"PDF generated and stored at '{resultFile}'.");
+//ExEnd

@@ -1,0 +1,11 @@
+//ExStart
+//ExSummary: บทแนะนำนี้แสดงวิธีการหมุนหน้าที่สามของเอกสาร PDF ไป 180 องศาโดยใช้ความสามารถในการหมุนหน้าของ PDF SDK
+//ExStepSummary:0: ไฟล์นี้มีเพียงคอมเมนต์อธิบายเท่านั้นและไม่มีโค้ดที่สามารถทำงานได้ ทำหน้าที่เป็นตัวแทนของตัวอย่างต้นฉบับ
+//ExStep:0-
+// Placeholder for the original example URL.
+// Demonstrates rotating the third page of a PDF by 180 degrees.
+// The functional implementation has been moved to a different repository.
+// This file preserves the original link for legacy references.
+
+        // No operational code required for this placeholder.
+//ExEnd

@@ -1,0 +1,11 @@
+//ExStart
+//ExSummary: Bu öğreticide, PDF SDK'nın sayfa döndürme özelliklerini kullanarak bir PDF belgesinin üçüncü sayfasını 180 derece döndürmenin nasıl yapılacağı gösterilmektedir.
+//ExStepSummary:0: Dosya yalnızca açıklayıcı yorumlar içerir ve çalıştırılabilir kod bulundurmaz; orijinal örnek için bir yer tutucu görevi görür.
+//ExStep:0-
+// Placeholder for the original example URL.
+// Demonstrates rotating the third page of a PDF by 180 degrees.
+// The functional implementation has been moved to a different repository.
+// This file preserves the original link for legacy references.
+
+        // No operational code required for this placeholder.
+//ExEnd

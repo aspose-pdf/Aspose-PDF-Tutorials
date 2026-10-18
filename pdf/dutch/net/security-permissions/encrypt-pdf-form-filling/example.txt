@@ -1,0 +1,46 @@
+//ExStart
+//ExSummary: Deze tutorial laat zien hoe je een bestaande PDF opent met Aspose.Pdf, de permissies beperkt zodat alleen formulierinvulling is toegestaan, deze versleutelt met viewer- en owner-wachtwoorden met AES‑256, en het beveiligde bestand opslaat.
+//ExStepSummary:0: Definieer de bron- en doelbestandspaden en de viewer- en owner-wachtwoorden.
+//ExStepSummary:1: Controleer of de bron‑PDF bestaat en annuleer met een foutmelding als dat niet het geval is.
+//ExStepSummary:2: Start een try‑block om eventuele fouten die tijdens de verwerking kunnen optreden af te handelen.
+//ExStepSummary:3: Open het bestaande PDF‑bestand door een Document‑object met de naam pdfDoc te maken.
+//ExStepSummary:4: Stel de permissies in om alleen formulierinvulling toe te staan, versleutel het document met viewer- en owner-wachtwoorden met AES‑256, en sla de beveiligde PDF op.
+//ExStepSummary:5: Schrijf een bevestigingsbericht naar de console en sluit het try‑block.
+//ExStepSummary:6: Vang eventuele uitzonderingen op en geef het foutbericht weer in de console.
+//ExStep:0-
+        const string sourceFile = "sample.pdf";
+        const string destFile = "protected.pdf";
+        const string viewerPass = "viewerPass";
+        const string adminPass = "adminPass";
+
+//ExStep:1-
+        if (!File.Exists(sourceFile))
+        {
+            Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+            return;
+        }
+
+//ExStep:2-
+        try
+        {
+
+//ExStep:3-
+            using (Document pdfDoc = new Document(sourceFile))
+
+//ExStep:4-
+            {
+                Permissions allowed = Permissions.FillForm;
+                pdfDoc.Encrypt(viewerPass, adminPass, allowed, CryptoAlgorithm.AESx256);
+                pdfDoc.Save(destFile);
+            }
+
+//ExStep:5-
+            Console.WriteLine($"Secure PDF written to '{destFile}'.");
+        }
+
+//ExStep:6-
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Exception occurred: {ex.Message}");
+        }
+//ExEnd
