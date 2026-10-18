@@ -25,6 +25,7 @@ Aspose.PDF for .NET 的“使用运算符编程”教程将指导您了解 PDF �
 | [删除 PDF 文件中的图形对象](./remove-graphics-objects/) 在本分步指南中学习如何使用 Aspose.PDF for .NET 从 PDF 文件中删除图形对象。简化您的 PDF 操作任务。|  
 | [遍历集合 C# – 循环遍历项目的简易指南](./iterate-collection-c-simple-guide-to-loop-over-items/) | 了解如何使用 C# 中的 foreach 循环遍历集合中的元素，轻松处理列表和数组。|  
 | [在 C# 中创建空 PDF 字典 – 完整 Aspose.Pdf 指南](./create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide/) 本完整指南展示如何使用 Aspose.PDF for .NET 在 C# 中创建空的 PDF 字典。|  
+| [如何在 C# 中使用 Aspose.Pdf 更改 PDF 透明度](./how-to-change-pdf-transparency-in-c-using-aspose-pdf/) | 本教程演示如何在 C# 中使用 Aspose.Pdf 调整 PDF 元素的透明度。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

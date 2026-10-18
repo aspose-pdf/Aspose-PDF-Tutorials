@@ -25,6 +25,7 @@ Les tutoriels « Programmation avec opérateurs » d'Aspose.PDF pour .NET vous
 | [Supprimer les objets graphiques dans un fichier PDF](./remove-graphics-objects/) Découvrez comment supprimer des objets graphiques d'un fichier PDF avec Aspose.PDF pour .NET dans ce guide étape par étape. Simplifiez vos manipulations PDF. |  
 | [Itérer une collection C# – Guide simple pour parcourir les éléments](./iterate-collection-c-simple-guide-to-loop-over-items/) | Apprenez à parcourir une collection C# avec une boucle simple en utilisant Aspose.PDF pour .NET. |  
 | [Créer un dictionnaire PDF vide en C# – Guide complet Aspose.Pdf](./create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide/) | Apprenez à créer un dictionnaire PDF vide en C# avec Aspose.PDF pour .NET grâce à ce guide complet. |
+| [Comment modifier la transparence d'un PDF en C# avec Aspose.Pdf](./how-to-change-pdf-transparency-in-c-using-aspose-pdf/) | Apprenez à modifier la transparence d'un PDF en C# avec Aspose.Pdf grâce à ce guide étape par étape. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
