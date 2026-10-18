@@ -53,6 +53,7 @@ Aspose.PDF for .NET के "इमेज के साथ प्रोग्र�
 | [Word में फ़िगर जोड़ें – पूर्ण C# प्रोग्रामिंग गाइड](./add-figure-to-word-complete-c-programming-guide/) | C# का उपयोग करके Aspose.Words के साथ Word दस्तावेज़ में फ़िगर जोड़ने की चरण-दर-चरण गाइड। |  
 | [DOCX में छवियों को संकुचित करें – फ़ाइल आकार घटाएँ](./compress-images-in-docx-reduce-file-size/) | .NET के लिए Aspose.PDF का उपयोग करके DOCX फ़ाइल में छवियों को संकुचित कर फ़ाइल आकार घटाएँ। चरण-दर-चरण मार्गदर्शिका। |
 | [Aspose.PDF के साथ PDF में छवि को क्रॉप करें – पूर्ण गाइड](./crop-image-in-pdf-with-aspose-pdf-complete-guide/) | .NET के लिए Aspose.PDF का उपयोग करके PDF में छवि को क्रॉप करने की पूरी प्रक्रिया सीखें। चरण-दर-चरण मार्गदर्शिका, कोड उदाहरण और टिप्स। |  
+| [PDF इमेज विवरण के लिए AI कोपायलट बनाएं – चरण‑दर‑चरण गाइड](./create-ai-copilot-for-pdf-image-description-step-by-step-gui/) | PDF छवियों के विवरण के लिए AI कोपायलट बनाने की चरण‑दर‑चरण प्रक्रिया सीखें। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

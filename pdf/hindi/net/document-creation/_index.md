@@ -104,6 +104,10 @@ Aspose.PDF का उपयोग करके HEIC फ़ॉर्मेट क
 ### [Aspose.Pdf के साथ PDF दस्तावेज़ बनाएं – पूर्ण चरण‑दर‑चरण मार्गदर्शिका](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
 Aspose.Pdf का उपयोग करके PDF दस्तावेज़ बनाने की पूरी प्रक्रिया, सेटअप से कोड उदाहरण तक, सीखें।
 
+### [C# में बेत्स नंबरिंग के साथ नया PDF दस्तावेज़ बनाएं](./create-new-pdf-document-with-bates-numbering-in-c/)
+
+### [C# में PDF/X‑4 दस्तावेज़ बनाएं – चरण‑दर‑चरण मार्गदर्शिका](./create-pdf-x-4-document-c-step-by-step-guide/)
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.PDF for Net दस्तावेज़ीकरण](https://docs.aspose.com/pdf/net/)

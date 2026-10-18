@@ -169,6 +169,10 @@ Aspose.PDF Net 程式碼教學
 
 ### [如何使用 Aspose 對 PDF 進行遮蔽 – 步驟指南](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
 了解如何使用 Aspose.PDF for .NET 在 PDF 中遮蔽敏感資訊，保護資料安全。
+### [使用 Aspose.PDF AI 摘要 PDF：完整指南](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
+
+### [AI 聊天 PDF：使用 Aspose AI Copilot 提問 PDF 問題](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
+了解如何使用 Aspose AI Copilot 與 PDF 互動，提出問題並獲取答案，提升文件分析效率。
 
 ## 其他資源
 

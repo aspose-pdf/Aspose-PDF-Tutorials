@@ -51,6 +51,8 @@
 学习使用 Aspose.PDF for .NET 验证 PDF 文件的完整性并在页面上绘制矩形，实现文档检查和标注。
 
 ### [使用 Aspose.PDF for .NET 向 PDF 添加矩形：完整编程指南](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+### [使用 C# 向 PDF 添加矩形：分步指南](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+Aspose.PDF Net 代码教程
 
 ### [使用 .NET 中的 Aspose.PDF 创建自定义 PDF 图章](./create-custom-pdf-stamps-aspose-pdf-net/)
 Aspose.PDF Net 代码教程
@@ -69,6 +71,8 @@ Aspose.PDF Net 代码教程
 
 ### [使用 Aspose.PDF 向 PDF 添加 ExtGState：完整指南](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
 了解如何使用 Aspose.PDF 在 PDF 中添加 ExtGState，以实现透明度和混合模式等高级图形效果。
+### [使用 Aspose.PDF for .NET 添加图形状态 PDF：分步指南](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+了解如何使用 Aspose.PDF for .NET 在 PDF 中管理图形状态，实现透明度、混合模式等高级绘图效果。
 
 ### [使用 Aspose.PDF for .NET 实现高效的 PDF 图像识别](./master-image-identification-aspose-pdf-net/)
 学习如何使用 Aspose.PDF for .NET 识别 PDF 中的灰度和 RGB 图像。本教程涵盖安装、图像提取和性能技巧。

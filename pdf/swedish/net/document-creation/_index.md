@@ -104,6 +104,12 @@ Lär dig hur du konverterar HEIC-bilder till PDF med Aspose.PDF för .NET i en k
 ### [Skapa PDF-dokument med Aspose.Pdf – Fullständig steg‑för‑steg‑guide](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
 Lär dig hur du skapar ett PDF-dokument med Aspose.Pdf genom en komplett steg‑för‑steg‑guide.
 
+### [Skapa nytt PDF-dokument med Bates-nummerering i C#](./create-new-pdf-document-with-bates-numbering-in-c/)
+Lär dig hur du skapar ett PDF-dokument med Bates-nummerering i C# med Aspose.PDF för .NET.
+
+### [Skapa PDF/X‑4-dokument C# – steg‑för‑steg‑guide](./create-pdf-x-4-document-c-step-by-step-guide/)
+Lär dig hur du skapar ett PDF/X‑4-dokument i C# med Aspose.PDF för .NET.
+
 ## Ytterligare resurser
 
 - [Aspose.PDF för nätdokumentation](https://docs.aspose.com/pdf/net/)

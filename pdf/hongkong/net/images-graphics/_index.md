@@ -42,6 +42,8 @@
 了解如何使用 C# 及 Aspose.PDF for .NET 在 PDF 中繪製矩形，提供完整設定與實作步驟。
 ### [使用 C# 為 PDF 新增矩形 – 完整 Aspose PDF 指南](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
 了解如何使用 Aspose.PDF for .NET 及 C# 在 PDF 中新增矩形，涵蓋設定、屬性與完整範例程式碼。
+### [使用 Aspose.PDF for .NET 為 PDF 新增矩形：逐步指南](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+了解如何使用 Aspose.PDF for .NET 及 C# 在 PDF 中新增矩形，並自訂樣式與位置的完整步驟說明。
 
 ### [使用 .NET 中的 Aspose.PDF 建立自訂 PDF 圖章](./create-custom-pdf-stamps-aspose-pdf-net/)
 Aspose.PDF Net 程式碼教學
@@ -59,6 +61,8 @@ Aspose.PDF Net 程式碼教學
 
 ### [如何在 C# 中使用 Aspose.PDF 為 PDF 新增形狀：逐步指南](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中向 PDF 添加各種形狀，如矩形、圓形或自訂路徑，並設定屬性與樣式。
+### [使用 Aspose.PDF for .NET 為 PDF 添加圖形狀態：逐步指南](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+了解如何使用 Aspose.PDF for .NET 在 PDF 中管理圖形狀態，以實現透明度、混合模式等高級繪圖效果。
 
 ### [使用 Aspose.PDF for .NET 實現高效率的 PDF 影像識別](./master-image-identification-aspose-pdf-net/)
 了解如何使用 Aspose.PDF for .NET 識別 PDF 中的灰階和 RGB 影像。本教學涵蓋安裝、影像擷取和效能技巧。

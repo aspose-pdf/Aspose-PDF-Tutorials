@@ -126,6 +126,7 @@
 
 ### [Проверка цифровой подписи PDF – Полное руководство с Aspose.PDF](./verify-pdf-digital-signature-full-guide-with-aspose-pdf/)
 Узнайте, как полностью проверить цифровую подпись PDF с помощью Aspose.PDF, следуя подробному пошаговому руководству.
+### [Как получить подписи из PDF в C# – пошаговое руководство](./how-to-get-signatures-from-a-pdf-in-c-step-by-step-guide/)
 
 ## Дополнительные ресурсы
 

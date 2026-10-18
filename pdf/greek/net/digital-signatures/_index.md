@@ -134,6 +134,9 @@
 ### [Επικύρωση υπογραφής PDF και λίστα υπογραφών PDF με το Aspose.PDF – Πλήρης Οδηγός](./validate-pdf-signature-and-list-pdf-signatures-with-aspose-p/)
 Μάθετε πώς να επικυρώσετε υπογραφές PDF και να εμφανίσετε όλες τις υπογραφές ενός εγγράφου χρησιμοποιώντας το Aspose.PDF για .NET.
 
+### [Πώς να εξάγετε υπογραφές από PDF σε C# – οδηγός βήμα προς βήμα](./how-to-get-signatures-from-a-pdf-in-c-step-by-step-guide/)
+Μάθετε πώς να εξάγετε υπογραφές από PDF με C# χρησιμοποιώντας το Aspose.PDF για .NET.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.PDF για τεκμηρίωση δικτύου](https://docs.aspose.com/pdf/net/)

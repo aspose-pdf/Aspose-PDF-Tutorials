@@ -55,6 +55,8 @@
 
 ### [如何在 C# 中渲染 PDF – PNG、HTML 与水印完整指南](./how-to-render-pdf-in-c-complete-guide-to-png-html-stamping/)
 学习使用 Aspose.PDF for .NET 在 C# 中将 PDF 渲染为 PNG、HTML，并添加水印的完整步骤。
+### [使用 Aspose.PDF 将 PDF 转换为打印格式 – 分步指南](./convert-pdf-for-printing-with-aspose-pdf-step-by-step-guide/)
+了解如何使用 Aspose.PDF 将 PDF 转换为适合打印的格式，提供分步代码示例。
 
 ## 其他资源
 

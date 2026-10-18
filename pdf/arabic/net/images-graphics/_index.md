@@ -40,6 +40,8 @@
 تعلم خطوة بخطوة إضافة مستطيلات إلى ملفات PDF باستخدام C# و Aspose.PDF مع أمثلة عملية وإعدادات متقدمة.
 ### [إضافة مستطيل إلى PDF باستخدام Aspose.PDF – دليل برمجة كامل](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
 تعلم كيفية إضافة مستطيل إلى ملفات PDF باستخدام Aspose.PDF مع شرح شامل للبرمجة خطوة بخطوة.
+### [إضافة مستطيل إلى PDF باستخدام C#: دليل خطوة بخطوة](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+تعرّف على كيفية إضافة مستطيل إلى مستند PDF باستخدام C# مع Aspose.PDF خطوة بخطوة.
 
 ### [إنشاء طوابع PDF مخصصة باستخدام Aspose.PDF في .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 برنامج تعليمي لبرمجة Aspose.PDF Net
@@ -183,6 +185,7 @@
 
 ### [كيفية استخدام GraphicsAbsorber – استخراج الرسومات المتجهة من PDF باستخدام Aspose.PDF لـ .NET](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
 ### [إضافة ExtGState إلى PDF باستخدام Aspose.PDF – دليل شامل](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+### [إضافة حالة الرسومات إلى PDF باستخدام Aspose.PDF لـ .NET – دليل خطوة بخطوة](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
 
 ## موارد إضافية
 

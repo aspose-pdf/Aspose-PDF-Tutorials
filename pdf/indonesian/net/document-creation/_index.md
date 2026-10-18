@@ -106,6 +106,10 @@ Pelajari cara mengonversi file HEIC menjadi gambar PDF menggunakan Aspose.PDF un
 ### [Buat Dokumen PDF dengan Aspose.Pdf – Panduan Lengkap Langkah demi Langkah](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
 Pelajari cara membuat dokumen PDF secara lengkap dengan Aspose.PDF melalui panduan langkah demi langkah yang detail.
 
+### [Buat dokumen PDF baru dengan penomoran Bates di C#](./create-new-pdf-document-with-bates-numbering-in-c/)
+
+### [Buat Dokumen PDF/X‑4 C# – Panduan Langkah demi Langkah](./create-pdf-x-4-document-c-step-by-step-guide/)
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)

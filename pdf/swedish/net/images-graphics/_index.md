@@ -43,6 +43,8 @@ Lär dig hur du skapar och lägger till rektanglar i PDF-dokument med Aspose.PDF
 Lär dig hur du validerar PDF-filer och lägger till en rektangel med Aspose.PDF för .NET i en komplett steg-för-steg-guide.
 ### [Lägg till rektangel i PDF med Aspose.PDF – Komplett programmeringsguide](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
 Lär dig steg för steg hur du skapar och anpassar rektanglar i PDF-dokument med Aspose.PDF för .NET.
+### [Lägg till rektangel i PDF med C# – steg‑för‑steg‑guide](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+Lär dig hur du lägger till en rektangel i en PDF med C# i en steg‑för‑steg‑guide.
 
 ### [Skapa anpassade PDF-stämplar med Aspose.PDF i .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 En kodhandledning för Aspose.PDF Net
@@ -363,6 +365,8 @@ Lär dig hur du lägger till bildrubriker i dina PDF-dokument med Aspose.PDF fö
 
 ### [Hur du använder GraphicsAbsorber – Extrahera vektorgrafik från PDF med Aspose.Pdf](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
 Lär dig hur du använder GraphicsAbsorber för att extrahera vektorgrafik från PDF-dokument med Aspose.Pdf.
+
+### [Lägg till grafikstatus i PDF med Aspose.Pdf – steg‑för‑steg‑guide](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
 
 ## Ytterligare resurser
 

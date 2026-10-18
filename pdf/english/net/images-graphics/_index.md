@@ -20,30 +20,14 @@ Discover how to enhance PDF documents with visual elements using our comprehensi
 using Aspose.Pdf;
 using Aspose.Pdf.Annotations;
 
-var pdfDocument = new Document("input.pdf");
-var stamp = new ImageStamp("logo.png")
-{
-    Width = 100,
-    Height = 50,
-    HorizontalAlignment = HorizontalAlignment.Center,
-    VerticalAlignment = VerticalAlignment.Bottom,
-    Opacity = 0.5
-};
-
-foreach (var page in pdfDocument.Pages)
-{
-    page.AddStamp(stamp);
-}
-
-pdfDocument.Save("output.pdf");
-```
-
-## Available Tutorials
 ### [How to add transparency to PDF using Aspose.PDF in C#](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
 
 
 
 ### [Add image stamps to PDFs using Aspose.PDF for .NET&#58; a step‑Step guide]({{< relref "add-image-stamp-to-pdf-aspose-dotnet" >}})
+### [Add graphics state pdf with Aspose.Pdf – step‑by‑step guide](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+
+### [Add Image Stamps to PDFs Using Aspose.PDF for .NET&#58; A Step-by-Step Guide](./add-image-stamp-to-pdf-aspose-dotnet/)
 Learn how to seamlessly add image stamps, such as logos, to every page of a PDF using Aspose.PDF for .NET. Enhance your documents with professional branding.
 
 ### [Add images to PDFs using Aspose.PDF for .NET&#58; a step‑Step guide]({{< relref "adding-images-aspose-pdf-net-guide" >}})
@@ -71,6 +55,10 @@ Learn how to add rectangles to PDF documents using Aspose.PDF for .NET with C# i
 Learn how to add rectangles to PDF documents using Aspose.PDF for .NET with a complete programming guide and practical C# examples.
 
 ### [Create Custom PDF Stamps with Aspose.PDF in .NET]({{< relref "create-custom-pdf-stamps-aspose-pdf-net" >}})
+### [Add rectangle to PDF with C# – step‑by‑step guide](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+Learn how to add a rectangle shape to a PDF using Aspose.PDF for .NET with C#.
+
+### [Create Custom PDF Stamps with Aspose.PDF in .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 A code tutorial for Aspose.PDF Net
 
 ### [Create PDFs with border highlights using Aspose.PDF .NET&#58; a comprehensive guide for developers]({{< relref "create-pdf-borders-highlight-aspose-pdf-net" >}})

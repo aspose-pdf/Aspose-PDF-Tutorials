@@ -31,6 +31,9 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET digitalen Signaturtext in PDFs an
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Signaturen sicher erstellen, signieren und verifizieren. Optimieren Sie Ihre Dokumenten-Workflows mit diesem umfassenden Leitfaden.
 ### [So extrahieren Sie PDF-Signaturinformationen mit Aspose.PDF .NET: Eine Schritt-für-Schritt-Anleitung](./extract-pdf-signature-info-aspose-pdf-net/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET digitale Signaturinformationen aus PDFs extrahieren. Diese Schritt-für-Schritt-Anleitung behandelt Installation, Implementierung und praktische Anwendungen.
+### [So erhalten Sie Signaturen aus einer PDF in C# – Schritt‑für‑Schritt‑Anleitung](./how-to-get-signatures-from-a-pdf-in-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET Signaturen aus einer PDF-Datei auslesen und verarbeiten.
+
 ### [So implementieren Sie digitale Signaturen in .NET mit Aspose.PDF: Ein umfassender Leitfaden](./implement-pdf-signatures-dotnet-aspose-pdf-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET sichere digitale Signaturen in PDFs implementieren, einschließlich der Unterdrückung optionaler Felder.
 ### [So entfernen Sie digitale PDF-Signaturen mit Aspose.PDF .NET | Vollständige Anleitung](./remove-pdf-digital-signatures-aspose-pdf-net/)
@@ -47,7 +50,6 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Signaturen in C# validieren u
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Signaturen in C# vollständig validieren und deren Authentizität sicherstellen.
 
 ### [Meistern Sie die PDF-Signierung und -Verifizierung mit Aspose.PDF .NET](./mastering-aspose-pdf-net-sign-verify-smart-card-certificates/)
-Ein Code-Tutorial für Aspose.PDF Net
 ### [Aspose.PDF .NET beherrschen: So überprüfen Sie digitale Signaturen in PDF-Dateien](./aspose-pdf-net-verify-digital-signature/)
 Erfahren Sie, wie Sie digitale Signaturen in PDF-Dateien mit Aspose.PDF für .NET überprüfen. Stellen Sie die Integrität und Authentizität von Dokumenten mit unserer Schritt-für-Schritt-Anleitung sicher.
 ### [PDF-Signaturnamen in C# abrufen – Vollständiger Programmierleitfaden](./retrieve-pdf-signature-names-in-c-complete-programming-guide/)

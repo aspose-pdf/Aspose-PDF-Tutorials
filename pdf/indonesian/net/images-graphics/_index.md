@@ -194,6 +194,11 @@ Pelajari cara menambahkan overlay gambar dengan masker serta mengaktifkan pemili
 
 ### [Cara Menggunakan GraphicsAbsorber – Ekstrak Grafik Vektor dari PDF dengan Aspose.Pdf](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
 Pelajari cara mengekstrak grafik vektor dari PDF menggunakan GraphicsAbsorber di Aspose.Pdf dengan contoh kode C#.
+### [Menambahkan Persegi Panjang ke PDF dengan C# – Panduan Langkah demi Langkah](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+Pelajari cara menambahkan bentuk persegi panjang ke dokumen PDF menggunakan C# dengan Aspose.PDF, langkah demi langkah.
+
+### [Menambahkan Status Grafik PDF dengan Aspose.PDF – Panduan Langkah demi Langkah](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+Pelajari cara mengelola status grafik dalam PDF menggunakan Aspose.PDF, termasuk transparansi, komposit, dan efek lanjutan.
 
 ## Sumber Daya Tambahan
 

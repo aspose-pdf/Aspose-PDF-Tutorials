@@ -42,6 +42,8 @@ Ismerje meg, hogyan hozhat létre és helyezhet el téglalapokat PDF dokumentumo
 Tanuld meg, hogyan rajzolj téglalapokat PDF dokumentumokba C#‑ban az Aspose.PDF for .NET segítségével.
 ### [Téglalap hozzáadása PDF-hez C#-ban – Teljes Aspose PDF útmutató](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
 Tanuld meg, hogyan adhatsz hozzá téglalapot PDF dokumentumokhoz C#-ban az Aspose.PDF segítségével.
+### [Téglalap hozzáadása PDF-hez C#-ban – lépésről lépésre útmutató](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+Tanuld meg, hogyan adhat hozzá egyszerű téglalapokat PDF-fájlokhoz C# és Aspose.PDF for .NET segítségével.
 
 ### [Egyéni PDF-bélyegzők létrehozása az Aspose.PDF segítségével .NET-ben](./create-custom-pdf-stamps-aspose-pdf-net/)
 Kód oktatóanyag az Aspose.PDF Nethez
@@ -151,6 +153,9 @@ Ismerje meg, hogyan lehet oldalméreteket kinyerni és képeket renderelni PDF-e
 ### [PDF képek optimalizálása az Aspose.PDF for .NET használatával](./optimize-pdf-images-aspose-dotnet/)
 Ismerje meg, hogyan méretezheti át, tömörítheti és állíthatja be hatékonyan a PDF-fájlok képminőségét az Aspose.PDF for .NET segítségével. Javítsa a dokumentumok teljesítményét és a felhasználói élményt.
 
+### [Grafikai állapot hozzáadása PDF-hez Aspose.Pdf használatával – lépésről lépésre útmutató](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+Tanulja meg, hogyan kezelheti a grafikai állapotot PDF-dokumentumokban az Aspose.Pdf segítségével.
+
 ### [Grafikák eltávolítása PDF-ekből az Aspose.PDF .NET használatával: Teljes körű útmutató](./remove-graphics-aspose-pdf-net/)
 Ismerje meg, hogyan távolíthat el hatékonyan grafikákat PDF-ekből az Aspose.PDF for .NET segítségével. Kövesse ezt a lépésről lépésre szóló útmutatót a dokumentumok rendszerezéséhez és a fájlméretek optimalizálásához.
 
@@ -173,7 +178,6 @@ Ismerje meg, hogyan tömörítheti és optimalizálhatja a PDF dokumentumokban t
 Ismerje meg, hogyan renderelhet összetett LaTeX szkripteket PDF dokumentumokká az Aspose.PDF for .NET használatával, beleértve a beállítási, megvalósítási és optimalizálási tippeket is.
 
 ### [Képhátterek beállítása PDF-ekben az Aspose.PDF for .NET használatával: Átfogó útmutató](./aspose-pdf-net-set-image-backgrounds/)
-Ismerje meg, hogyan javíthatja PDF-dokumentumait képhátterek beállításával az Aspose.PDF for .NET segítségével. Ez az útmutató a beállítással, a megvalósítással és az optimalizálással kapcsolatos tippeket tartalmazza.
 
 ### [Átlátszóság hozzáadása PDF-hez Aspose PDF használatával C#-ban – Lépésről lépésre útmutató](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 

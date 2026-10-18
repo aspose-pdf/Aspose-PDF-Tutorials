@@ -41,6 +41,8 @@ Leer hoe u met C# een rechthoek in een PDF-document tekent met Aspose.PDF, inclu
 Leer hoe u met C# een rechthoek aan een PDF toevoegt met behulp van Aspose.PDF, inclusief codevoorbeelden en stapsgewijze instructies.
 ### [Rechthoek toevoegen aan PDF met Aspose.PDF – Complete programmeergids](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
 Leer hoe u met Aspose.PDF een rechthoek aan een PDF toevoegt met volledige codevoorbeelden en stapsgewijze instructies.
+### [Rechthoek toevoegen aan PDF met C# – stapsgewijze handleiding](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+Leer hoe u met Aspose.PDF voor .NET een rechthoek aan een PDF toevoegt met C# in deze stapsgewijze handleiding.
 
 ### [Maak aangepaste PDF-stempels met Aspose.PDF in .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Een codetutorial voor Aspose.PDF Net
@@ -189,6 +191,7 @@ Leer hoe u afbeeldingen in Word-documenten zonder kwaliteitsverlies kunt comprim
 Leer hoe u een afbeeldingsoverlay met masker toevoegt en automatische lade-selectie activeert in PDF's met Aspose.PDF voor .NET.
 ### [ExtGState toevoegen aan PDF met Aspose.Pdf – een volledige handleiding](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
 Leer hoe u ExtGState-objecten kunt toepassen om transparantie, mengmodi en andere grafische instellingen in PDF's te beheren met Aspose.Pdf.
+### [Grafische status toevoegen aan PDF met Aspose.PDF voor .NET: een stapsgewijze handleiding](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
 
 ## Aanvullende bronnen
 

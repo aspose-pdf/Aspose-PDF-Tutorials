@@ -40,6 +40,8 @@ Aspose.PDF for .NET을 사용하여 PDF 문서에 사각형을 만들고 채우�
 C#와 Aspose.PDF for .NET을 이용해 PDF에 사각형을 삽입하고 스타일링하는 방법을 단계별로 안내합니다.
 ### [PDF 검증 및 사각형 추가 방법 – 완전 가이드](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
 Aspose.PDF for .NET을 사용하여 PDF 파일을 검증하고 사각형을 그리는 전체 단계별 가이드를 제공합니다.
+### [C#를 사용하여 PDF에 사각형 추가: 단계별 가이드](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+C#와 Aspose.PDF for .NET을 활용해 PDF에 사각형을 삽입하고 속성을 설정하는 방법을 단계별로 안내합니다.
 
 ### [.NET에서 Aspose.PDF를 사용하여 사용자 정의 PDF 스탬프 만들기](./create-custom-pdf-stamps-aspose-pdf-net/)
 Aspose.PDF Net에 대한 코드 튜토리얼
@@ -162,6 +164,9 @@ Aspose.Pdf를 활용해 PDF에 ExtGState를 적용하고 투명도 및 혼합 �
 
 ### [GraphicsAbsorber 사용 방법 – Aspose.PDF로 PDF에서 벡터 그래픽 추출](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
 Aspose.PDF for .NET의 GraphicsAbsorber를 사용해 PDF에서 벡터 그래픽을 추출하고 활용하는 방법을 단계별로 안내합니다.
+
+### [Aspose.Pdf를 사용하여 그래픽 상태 PDF 추가: 단계별 가이드](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+Aspose.Pdf를 활용해 PDF에 그래픽 상태를 적용하고 관리하는 방법을 단계별로 안내합니다.
 
 ### [Aspose.PDF .NET을 사용하여 PDF의 이미지를 바꾸는 방법: 개발자 가이드](./replace-images-pdf-aspose-net-guide/)
 

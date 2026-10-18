@@ -28,6 +28,10 @@ Scopri come convertire i dati XML in formato PDF utilizzando Aspose.PDF per .NET
 Scopri come automatizzare la creazione di opuscoli PDF professionali utilizzando Aspose.PDF per .NET con la nostra guida dettagliata.
 ### [Creare PDF professionali con Aspose.PDF per .NET: una guida completa](./create-professional-pdf-aspose-dotnet/)
 Scopri come creare documenti PDF professionali con layout precisi utilizzando Aspose.PDF per .NET. Scopri l'impostazione di pagina, i riquadri mobili e le intestazioni numerate.
+
+### [Creare documento PDF/X‑4 C# – guida passo‑passo](./create-pdf-x-4-document-c-step-by-step-guide/)
+Scopri come creare documenti PDF/X‑4 in C# con Aspose.PDF per .NET, passo dopo passo.
+
 ### [Crea PDF professionali con testo e immagini utilizzando Aspose.PDF per .NET](./create-pdfs-text-images-aspose-pdf-net/)
 Scopri come generare documenti PDF dinamici con testo e immagini utilizzando Aspose.PDF per .NET. Semplifica il processo di creazione dei documenti in modo efficace.
 ### [Crea PDF strutturati con interruzioni di pagina automatiche in .NET utilizzando Aspose.PDF](./create-pdfs-page-breaks-net-aspose-pdf/)
@@ -105,6 +109,9 @@ Impara a generare un PDF contenente un'immagine HEIC usando Aspose.PDF per .NET 
 
 ### [Creare documento PDF con Aspose.Pdf – Guida completa passo‑passo](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
 Scopri come generare un documento PDF da zero utilizzando Aspose.Pdf con questa guida completa passo‑passo.
+### [Crea nuovo documento PDF con numerazione Bates in C#](./create-new-pdf-document-with-bates-numbering-in-c/)
+Scopri come aggiungere numerazione Bates a un documento PDF generato con Aspose.PDF per .NET in C#.
+
 
 ## Risorse aggiuntive
 

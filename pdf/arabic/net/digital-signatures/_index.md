@@ -97,6 +97,9 @@
 ### [التحقق من توقيع PDF وإدراج قائمة توقيعات PDF باستخدام Aspose.PDF – دليل شامل](./validate-pdf-signature-and-list-pdf-signatures-with-aspose-p/)
 دليل كامل يوضح كيفية التحقق من توقيع PDF واستخراج جميع التوقيعات المضمنة باستخدام Aspose.PDF في .NET.
 
+### [كيفية الحصول على التوقيعات من ملف PDF باستخدام C# – دليل خطوة بخطوة](./how-to-get-signatures-from-a-pdf-in-c-step-by-step-guide/)
+تعلم كيفية استخراج جميع التوقيعات من ملفات PDF باستخدام C# خطوة بخطوة.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

@@ -53,6 +53,7 @@ Los tutoriales de "Programación con imágenes" de Aspose.PDF para .NET te guía
 | [Agregar figura a Word – Guía completa de programación en C#](./add-figure-to-word-complete-c-programming-guide/) | Aprenda a insertar una figura en un documento Word mediante programación en C# con Aspose.Words, siguiendo una guía paso a paso. |
 | [Comprimir imágenes en DOCX – Reducir tamaño de archivo](./compress-images-in-docx-reduce-file-size/) | Aprenda a comprimir imágenes en documentos DOCX para reducir el tamaño del archivo usando Aspose.PDF para .NET. |
 | [Recortar imagen en PDF con Aspose.PDF – Guía completa](./crop-image-in-pdf-with-aspose-pdf-complete-guide/) | Aprenda a recortar imágenes en un PDF con Aspose.PDF para .NET mediante esta guía completa paso a paso. |
+| [Crear copiloto de IA para descripción de imágenes PDF – guía paso a paso](./create-ai-copilot-for-pdf-image-description-step-by-step-gui/) | Aprenda a crear un copiloto de IA que genere descripciones de imágenes en PDFs usando Aspose.PDF para .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

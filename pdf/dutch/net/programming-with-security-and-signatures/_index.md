@@ -63,6 +63,7 @@ De tutorial geeft u een gedetailleerd overzicht van methoden en technieken om de
 | [PDF-handtekening verifiëren in C# – Complete Aspose.PDF-gids](./verify-pdf-signature-in-c-complete-aspose-pdf-guide/) | Leer hoe u PDF-handtekeningen kunt verifiëren met Aspose.PDF voor .NET in C# – een volledige stap‑voor‑stap gids. |
 | [PDF-handtekeningen ophalen in C# – Complete programmeergids](./retrieve-pdf-signatures-in-c-complete-programming-guide/) | Leer hoe u PDF-handtekeningen kunt ophalen met Aspose.PDF voor .NET in C# – een volledige stap‑voor‑stap gids. |
 | [Hoe PDF Digitale Handtekening te Controleren in C# – Complete Gids](./how-to-check-pdf-digital-signature-in-c-complete-guide/) | Leer hoe u PDF-digitale handtekeningen kunt verifiëren met Aspose.PDF voor .NET in C# – een volledige stap‑voor‑stap gids. |  
+| [PDF digitale handtekening verifiëren in C# – PDF-handtekening valideren](./verify-pdf-digital-signature-in-c-validate-pdf-signature/) | Leer hoe u digitale handtekeningen in PDF-bestanden kunt valideren met Aspose.PDF voor .NET in C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

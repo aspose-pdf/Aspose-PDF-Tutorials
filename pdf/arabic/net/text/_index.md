@@ -29,6 +29,8 @@
 
 {{< tutorial-card link="./multicolumn-paragraphs/" title="فقرات متعددة الأعمدة في PDF باستخدام Aspose.PDF" imgSrc="./multicolumn-paragraphs/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/" title="كيفية استخدام Aspose لاستخراج النص من ملف PDF ممسوح ضوئيًا – دليل خطوة بخطوة" imgSrc="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

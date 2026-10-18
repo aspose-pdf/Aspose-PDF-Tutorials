@@ -104,6 +104,12 @@
 ### [إنشاء مستند PDF باستخدام Aspose.Pdf – دليل كامل خطوة بخطوة](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
 دليل شامل يوضح كيفية إنشاء مستند PDF كامل خطوة بخطوة باستخدام Aspose.PDF في .NET.
 
+### [إنشاء مستند PDF جديد مع ترقيم Bates في C#](./create-new-pdf-document-with-bates-numbering-in-c/)
+تعلم كيفية إنشاء مستند PDF جديد مع ترقيم Bates باستخدام C# و Aspose.PDF.
+
+### [إنشاء مستند PDF/X‑4 باستخدام C# – دليل خطوة بخطوة](./create-pdf-x-4-document-c-step-by-step-guide/)
+تعرّف على كيفية إنشاء مستند PDF/X‑4 باستخدام C# و Aspose.PDF خطوة بخطوة.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

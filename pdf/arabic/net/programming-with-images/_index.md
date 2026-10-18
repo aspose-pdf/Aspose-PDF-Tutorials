@@ -53,6 +53,7 @@
 | [إنشاء صفحة PDF فارغة – دليل كامل لإضافة الصور واقتصاصها وتغيير حجمها](./create-blank-pdf-page-full-guide-to-adding-cropping-resizing/) | تعلم كيفية إنشاء صفحة PDF فارغة وإضافة الصور إليها، واقتصاصها وتغيير حجمها باستخدام Aspose.PDF لـ .NET. |  
 | [ضغط الصور في DOCX – تقليل حجم الملف](./compress-images-in-docx-reduce-file-size/) تعلم كيفية ضغط الصور داخل ملفات DOCX لتقليل حجم الملف باستخدام Aspose.PDF لـ .NET.  
 | [اقتصاص الصورة في PDF باستخدام Aspose.PDF – دليل كامل](./crop-image-in-pdf-with-aspose-pdf-complete-guide/) تعرّف على كيفية اقتصاص الصور داخل ملفات PDF باستخدام Aspose.PDF لـ .NET خطوة بخطوة مع أمثلة عملية.  
+| [إنشاء مساعد AI للشرح الوصفي للصور في PDF – دليل خطوة بخطوة](./create-ai-copilot-for-pdf-image-description-step-by-step-gui/) |تعلم كيفية إنشاء مساعد ذكي يصف صور PDF باستخدام الذكاء الاصطناعي خطوة بخطوة باستخدام Aspose.PDF لـ .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

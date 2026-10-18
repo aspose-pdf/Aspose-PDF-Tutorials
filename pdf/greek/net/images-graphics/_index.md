@@ -40,6 +40,8 @@
 ### [Πώς να Επικυρώσετε PDF και να Προσθέσετε Ορθογώνιο – Οδηγός βήμα προς βήμα](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
 Μάθετε πώς να ελέγχετε την εγκυρότητα ενός PDF και να προσθέτετε ορθογώνια σχήματα με το Aspose.PDF για .NET, βήμα προς βήμα.
 ### [Προσθήκη ορθογωνίου σε PDF με το Aspose.PDF – Πλήρης Οδηγός Προγραμματισμού](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+### [Προσθήκη ορθογωνίου σε PDF με C# – οδηγός βήμα προς βήμα](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+Μάθετε πώς να προσθέτετε ορθογώνια σε έγγραφα PDF χρησιμοποιώντας C# και Aspose.PDF για .NET με αυτόν τον οδηγό βήμα‑βήμα.
 
 ### [Δημιουργήστε προσαρμοσμένες σφραγίδες PDF με το Aspose.PDF σε .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Ένα σεμινάριο κώδικα για το Aspose.PDF Net
@@ -186,6 +188,8 @@
 
 ### [Προσθήκη ExtGState σε PDF με το Aspose.Pdf – Πλήρης Οδηγός](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
 Μάθετε πώς να προσθέτετε ExtGState σε PDF χρησιμοποιώντας το Aspose.Pdf για .NET, βελτιώνοντας τη διαφάνεια και τα εφέ.
+### [Προσθήκη κατάστασης γραφικών σε PDF με το Aspose.Pdf – οδηγός βήμα προς βήμα](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+Μάθετε πώς να διαχειρίζεστε την κατάσταση γραφικών σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με αυτόν τον ολοκληρωμένο οδηγό βήμα‑βήμα.
 
 ## Πρόσθετοι Πόροι
 

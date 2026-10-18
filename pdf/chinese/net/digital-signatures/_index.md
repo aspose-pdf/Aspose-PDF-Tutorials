@@ -104,6 +104,9 @@ Aspose.PDF .NET 代码教程
 ### [使用 Aspose.PDF 验证 PDF 签名并列出 PDF 签名 – 完整指南](./validate-pdf-signature-and-list-pdf-signatures-with-aspose-p/)
 本完整指南演示如何使用 Aspose.PDF 验证 PDF 签名并列出文档中的所有签名，提供详细的 C# 示例代码。
 
+### [如何在 C# 中获取 PDF 签名 – 分步指南](./how-to-get-signatures-from-a-pdf-in-c-step-by-step-guide/)
+提供在 C# 环境下使用 Aspose.PDF 获取 PDF 中所有签名的详细步骤和代码示例。
+
 ### [使用 Aspose 验证 PDF 签名并将 PDF 转换为 HTML](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
 了解如何使用 Aspose 验证 PDF 签名并将 PDF 转换为 HTML，以实现文档的安全展示。
 ### [加载已签名的 PDF 文档并列出其签名 – C# 指南](./load-signed-pdf-document-and-list-its-signatures-c-guide/)

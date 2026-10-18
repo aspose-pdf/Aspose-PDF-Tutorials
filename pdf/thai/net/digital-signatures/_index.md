@@ -136,6 +136,9 @@
 ### [ตรวจสอบลายเซ็น PDF และแสดงรายการลายเซ็น PDF ด้วย Aspose.PDF – คู่มือฉบับสมบูรณ์](./validate-pdf-signature-and-list-pdf-signatures-with-aspose-p/)
 เรียนรู้วิธีตรวจสอบความถูกต้องของลายเซ็น PDF และดึงรายการลายเซ็นทั้งหมดจากเอกสารด้วย Aspose.PDF อย่างละเอียด
 
+### [วิธีดึงลายเซ็นจาก PDF ด้วย C# – คู่มือทีละขั้นตอน](./how-to-get-signatures-from-a-pdf-in-c-step-by-step-guide/)
+เรียนรู้วิธีดึงลายเซ็นดิจิทัลจากไฟล์ PDF ด้วย C# อย่างละเอียดตามขั้นตอน
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)

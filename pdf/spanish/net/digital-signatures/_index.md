@@ -139,6 +139,9 @@ Aprenda a verificar firmas digitales de PDF con Aspose.PDF mediante una guía co
 ### [Cómo comprobar la firma en un PDF con Aspose.PDF – Guía completa](./how-to-check-signature-in-a-pdf-with-aspose-pdf-complete-gui/)
 Aprenda a verificar la firma de un PDF usando Aspose.PDF con una guía paso a paso y ejemplos de código C#.
 
+### [Cómo obtener firmas de un PDF en C# – guía paso a paso](./how-to-get-signatures-from-a-pdf-in-c-step-by-step-guide/)
+Aprenda a extraer firmas digitales de un PDF usando C# y Aspose.PDF con una guía paso a paso.
+
 ## Recursos adicionales
 
 - [Documentación de Aspose.PDF para la red](https://docs.aspose.com/pdf/net/)

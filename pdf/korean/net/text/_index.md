@@ -29,6 +29,8 @@ PDF 문서에서 텍스트 작업은 보고서, 송장, 전자책 등 어떤 작
 
 {{< tutorial-card link="./multicolumn-paragraphs/" title="Aspose.PDF를 사용하여 PDF의 다중 열 단락" imgSrc="./multicolumn-paragraphs/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/" title="스캔된 PDF에서 텍스트 추출을 위한 Aspose 사용 방법 – 단계별 가이드" imgSrc="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

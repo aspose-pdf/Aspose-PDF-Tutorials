@@ -106,6 +106,11 @@ Aprenda a gerar PDFs contendo imagens HEIC usando Aspose.PDF para .NET com códi
 ### [Criar documento PDF com Aspose.Pdf – Guia completo passo a passo](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
 Aprenda a criar documentos PDF com Aspose.PDF usando um guia passo a passo completo.
 
+### [Criar novo documento PDF com numeração Bates em C#](./create-new-pdf-document-with-bates-numbering-in-c/)
+Aprenda a gerar documentos PDF com numeração Bates usando Aspose.PDF para .NET em C#.
+
+### [Criar documento PDF/X‑4 em C# – guia passo a passo](./create-pdf-x-4-document-c-step-by-step-guide/)
+
 ## Recursos adicionais
 
 - [Aspose.PDF para documentação da Net](https://docs.aspose.com/pdf/net/)

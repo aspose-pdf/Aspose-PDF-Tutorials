@@ -122,6 +122,12 @@
 ### [Создание PDF‑документа с Aspose.Pdf – полное пошаговое руководство](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
 Узнайте, как создавать PDF‑документы с помощью Aspose.Pdf, следуя полному пошаговому руководству.
 
+### [Создание нового PDF-документа с нумерацией Бейтса в C#](./create-new-pdf-document-with-bates-numbering-in-c/)
+Узнайте, как добавить нумерацию Бейтса к PDF-документу с помощью Aspose.PDF для .NET в C#.
+
+### [Создание PDF/X‑4 документа C# – пошаговое руководство](./create-pdf-x-4-document-c-step-by-step-guide/)
+Узнайте, как создать документ PDF/X‑4 в C# с помощью Aspose.PDF, следуя пошаговым инструкциям.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.PDF для сети](https://docs.aspose.com/pdf/net/)

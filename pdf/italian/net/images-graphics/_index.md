@@ -43,6 +43,8 @@ Scopri come inserire un rettangolo in un PDF usando C# e Aspose.PDF con esempi p
 Scopri come verificare la validità di un PDF e inserire un rettangolo usando Aspose.PDF per .NET con esempi di codice passo passo.
 ### [Aggiungere rettangolo a PDF con Aspose.PDF – Guida completa di programmazione](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
 Scopri come inserire rettangoli nei PDF, impostare dimensioni, colore e posizione con Aspose.PDF per .NET in C#.
+### [Aggiungere un rettangolo a PDF con C# – guida passo passo](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+Scopri come aggiungere un rettangolo a un documento PDF utilizzando C# e Aspose.PDF per .NET con questa guida dettagliata.
 
 ### [Crea timbri PDF personalizzati con Aspose.PDF in .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Un tutorial sul codice per Aspose.PDF Net
@@ -61,6 +63,8 @@ Scopri come applicare effetti di trasparenza ai PDF con Aspose.PDF per .NET usan
 
 ### [Come aggiungere una forma a PDF con Aspose.PDF in C# – Guida passo passo](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Scopri come inserire forme personalizzate nei PDF usando Aspose.PDF per .NET con esempi di codice C# passo passo.
+### [Aggiungere lo stato grafico al PDF con Aspose.PDF – guida passo passo](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+Scopri come gestire lo stato grafico nei PDF usando Aspose.PDF per .NET, con esempi di codice C# passo passo.
 
 ### [Identificazione efficiente delle immagini PDF con Aspose.PDF per .NET](./master-image-identification-aspose-pdf-net/)
 Scopri come identificare immagini in scala di grigi e RGB nei PDF utilizzando Aspose.PDF per .NET. Questo tutorial include suggerimenti su installazione, estrazione delle immagini e prestazioni.

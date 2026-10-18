@@ -64,6 +64,7 @@
 - [ตรวจสอบลายเซ็น PDF ใน C# – คู่มือ Aspose.PDF ฉบับสมบูรณ์](./verify-pdf-signature-in-c-complete-aspose-pdf-guide/) | เรียนรู้วิธีตรวจสอบลายเซ็นดิจิทัลของ PDF ด้วย C# และ Aspose.PDF ด้วยคำแนะนำทีละขั้นตอน -  
 - [ดึงลายเซ็น PDF ใน C# – คู่มือการเขียนโปรแกรมฉบับสมบูรณ์](./retrieve-pdf-signatures-in-c-complete-programming-guide/) | เรียนรู้วิธีดึงลายเซ็น PDF อย่างครบถ้วนด้วย C# และ Aspose.PDF สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอน |
 - [วิธีตรวจสอบลายเซ็นดิจิทัล PDF ใน C# – คู่มือฉบับสมบูรณ์](./how-to-check-pdf-digital-signature-in-c-complete-guide/) | เรียนรู้วิธีตรวจสอบและอ่านลายเซ็นดิจิทัลในไฟล์ PDF ด้วย C# และ Aspose.PDF สำหรับ .NET – คำแนะนำทีละขั้นตอน -  
+- [ตรวจสอบลายเซ็นดิจิทัล PDF ใน C# – ตรวจสอบลายเซ็น PDF](./verify-pdf-digital-signature-in-c-validate-pdf-signature/) | เรียนรู้วิธีตรวจสอบและยืนยันลายเซ็นดิจิทัลของไฟล์ PDF ด้วย C# และ Aspose.PDF สำหรับ .NET -
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

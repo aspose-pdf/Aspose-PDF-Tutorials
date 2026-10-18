@@ -120,6 +120,12 @@
 ### [Δημιουργία εικόνας PDF από HEIC – Πλήρης οδηγός C#](./create-pdf-image-from-heic-complete-c-guide/)
 Μάθετε πώς να μετατρέψετε αρχεία HEIC σε εικόνες PDF χρησιμοποιώντας το Aspose.PDF για .NET με οδηγίες C# βήμα‑βήμα.
 
+### [Δημιουργία νέου εγγράφου PDF με αρίθμηση Bates σε C#](./create-new-pdf-document-with-bates-numbering-in-c/)
+Μάθετε πώς να δημιουργήσετε ένα νέο έγγραφο PDF με αρίθμηση Bates χρησιμοποιώντας C# και Aspose.PDF.
+
+### [Δημιουργία εγγράφου PDF/X‑4 C# – οδηγός βήμα προς βήμα](./create-pdf-x-4-document-c-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε έγγραφο PDF/X‑4 με C# και Aspose.PDF ακολουθώντας βήμα‑βήμα οδηγίες.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.PDF για τεκμηρίωση δικτύου](https://docs.aspose.com/pdf/net/)

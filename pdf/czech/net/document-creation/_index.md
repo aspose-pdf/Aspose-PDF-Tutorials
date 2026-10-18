@@ -105,6 +105,12 @@ Naučte se, jak vytvořit PDF dokument, přidat prázdnou stránku a nakreslit o
 ### [Vytvořte PDF dokument pomocí Aspose.Pdf – Kompletní krok‑za‑krokem průvodce](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
 Kompletní průvodce tvorbou PDF dokumentu pomocí Aspose.PDF s podrobnými ukázkami kódu.
 
+### [Vytvořte nový PDF dokument s Batesovým číslováním v C#](./create-new-pdf-document-with-bates-numbering-in-c/)
+Naučte se, jak vytvořit PDF dokument s Batesovým číslováním pomocí Aspose.PDF pro .NET v jazyce C#.
+
+### [Vytvořte PDF/X‑4 dokument v C# – krok za krokem průvodce](./create-pdf-x-4-document-c-step-by-step-guide/)
+Naučte se, jak vytvořit PDF/X‑4 dokument v C# pomocí Aspose.PDF krok za krokem.
+
 ## Další zdroje
 
 - [Aspose.PDF pro síťovou dokumentaci](https://docs.aspose.com/pdf/net/)

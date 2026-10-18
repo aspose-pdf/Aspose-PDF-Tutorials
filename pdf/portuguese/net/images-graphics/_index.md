@@ -40,6 +40,8 @@ Aprenda a inserir retângulos em documentos PDF usando Aspose.PDF para .NET com 
 
 ### [Como desenhar retângulo em PDF com C# – Guia passo a passo](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
 Aprenda a desenhar retângulos em documentos PDF usando Aspose.PDF para .NET com C#. Siga este guia passo a passo.
+### [Adicionar retângulo a PDF com C# – guia passo a passo](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+Aprenda a adicionar um retângulo a um documento PDF usando C# e Aspose.PDF para .NET. Guia completo com exemplos de código.
 
 ### [Crie carimbos PDF personalizados com Aspose.PDF no .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Um tutorial de código para Aspose.PDF Net
@@ -199,6 +201,9 @@ Aprenda a renderizar scripts LaTeX complexos em documentos PDF usando o Aspose.P
 
 ### [Definir fundos de imagem em PDFs usando Aspose.PDF para .NET: um guia completo](./aspose-pdf-net-set-image-backgrounds/)
 Aprenda a aprimorar seus documentos PDF definindo fundos de imagem usando o Aspose.PDF para .NET. Este guia aborda dicas de configuração, implementação e otimização.
+
+### [Adicionar estado gráfico ao PDF usando Aspose.PDF – guia passo a passo](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+Aprenda a manipular o estado gráfico em PDFs, controlando transparência, composições e efeitos avançados com Aspose.PDF para .NET.
 
 ## Recursos adicionais
 

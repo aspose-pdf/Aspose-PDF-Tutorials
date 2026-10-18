@@ -42,6 +42,8 @@ Tìm hiểu cách xác thực PDF và vẽ hình chữ nhật trong tài liệu 
 Hướng dẫn chi tiết cách tạo và chèn hình chữ nhật vào tài liệu PDF bằng C# sử dụng Aspose.PDF cho .NET.
 ### [Thêm Hình Chữ Nhật vào PDF bằng Aspose.PDF – Hướng Dẫn Lập Trình Toàn Diện](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
 Hướng dẫn chi tiết cách tạo hình chữ nhật trong tài liệu PDF bằng Aspose.PDF cho .NET, bao gồm mã mẫu và các tùy chọn tùy chỉnh.
+### [Thêm hình chữ nhật vào PDF bằng C# – hướng dẫn từng bước](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách thêm hình chữ nhật vào tệp PDF bằng C# và Aspose.PDF, bao gồm các bước thiết lập và mã mẫu.
 
 ### [Tạo tem PDF tùy chỉnh với Aspose.PDF trong .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Hướng dẫn mã cho Aspose.PDF Net
@@ -190,6 +192,8 @@ Tìm hiểu cách cải thiện tài liệu PDF của bạn bằng cách thiết
 Hướng dẫn cách chồng lớp ảnh lên PDF, thêm mặt nạ và kích hoạt lựa chọn khay tự động bằng Aspose.PDF cho .NET.
 ### [Thêm ExtGState vào PDF bằng Aspose.Pdf – Hướng dẫn toàn diện](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
 Tìm hiểu cách áp dụng ExtGState để kiểm soát độ trong suốt và các hiệu ứng đồ họa trong PDF bằng Aspose.Pdf cho .NET.
+### [Thêm trạng thái đồ họa vào PDF với Aspose.Pdf – hướng dẫn từng bước](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+Hướng dẫn cách sử dụng GraphicsState trong Aspose.PDF để kiểm soát độ trong suốt và các hiệu ứng đồ họa trong PDF.
 
 ## Tài nguyên bổ sung
 

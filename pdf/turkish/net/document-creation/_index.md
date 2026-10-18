@@ -122,6 +122,12 @@ HEIC dosyalarından PDF görüntüsü oluşturmayı adım adım öğrenin, C# ko
 ### [Aspose.PDF ile PDF Belgesi Oluşturma – Tam Adım Adım Kılavuz](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
 Aspose.PDF for .NET ile PDF belgesi oluşturmayı baştan sona, ayrıntılı örnek kodlarla adım adım öğrenin.
 
+### [C# ile Bates Numaralandırmalı Yeni PDF Belgesi Oluşturma](./create-new-pdf-document-with-bates-numbering-in-c/)
+Aspose.PDF for .NET kullanarak C# dilinde Bates numaralandırmasıyla PDF belgeleri oluşturmayı öğrenin.
+
+### [PDF/X‑4 Belgesi Oluşturma C# – Adım Adım Kılavuz](./create-pdf-x-4-document-c-step-by-step-guide/)
+PDF/X‑4 standardına uygun PDF belgelerini C# ile oluşturmayı öğrenin.
+
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)

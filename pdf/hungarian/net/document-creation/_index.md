@@ -105,6 +105,12 @@ Tanulja meg, hogyan hozhat létre PDF képet HEIC formátumból C#-ban az Aspose
 
 ### [PDF dokumentum létrehozása Aspose.PDF‑vel – Teljes lépésről‑lépésre útmutató](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
 
+### [PDF/X‑4 dokumentum létrehozása C#‑ban – lépésről‑lépésre útmutató](./create-pdf-x-4-document-c-step-by-step-guide/)
+Tanulja meg, hogyan hozhat létre PDF/X‑4 dokumentumot C#‑ban az Aspose.PDF for .NET segítségével.
+
+### [Új PDF dokumentum létrehozása Bates-számozással C#-ban](./create-new-pdf-document-with-bates-numbering-in-c/)
+Tanuld meg, hogyan hozhatsz létre PDF dokumentumot Bates-számozással C#-ban az Aspose.PDF for .NET segítségével.
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)

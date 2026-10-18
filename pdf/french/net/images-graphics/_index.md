@@ -39,6 +39,8 @@ Apprenez à créer et remplir des rectangles dans des documents PDF avec Aspose.
 Apprenez à ajouter un rectangle à un PDF en C# avec Aspose.PDF grâce à ce guide complet pas à pas.
 ### [Ajouter un rectangle à un PDF avec Aspose.PDF – Guide complet de programmation](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
 Apprenez à ajouter un rectangle à un PDF avec Aspose.PDF grâce à un guide complet de programmation en C#.
+### [Ajouter un rectangle à un PDF avec C# – guide étape par étape](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+Apprenez à ajouter un rectangle à un PDF en C# avec Aspose.PDF pour .NET grâce à ce guide détaillé.
 
 ### [Créez des tampons PDF personnalisés avec Aspose.PDF dans .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Un tutoriel de code pour Aspose.PDF Net
@@ -191,6 +193,8 @@ Apprenez à compresser des images dans les fichiers Word sans perte de qualité 
 Apprenez à superposer des images sur un PDF, ajouter un masque et activer la sélection automatique du plateau avec Aspose.PDF pour .NET.
 ### [Ajouter ExtGState à un PDF avec Aspose.PDF – guide complet](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
 Apprenez à appliquer des états graphiques avancés (ExtGState) aux PDF avec Aspose.PDF pour .NET, incluant la transparence et les effets.
+### [Ajouter l'état graphique PDF avec Aspose.PDF – guide étape par étape](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+Apprenez à manipuler l'état graphique d'un PDF avec Aspose.PDF pour .NET grâce à ce guide détaillé étape par étape.
 
 ## Ressources supplémentaires
 

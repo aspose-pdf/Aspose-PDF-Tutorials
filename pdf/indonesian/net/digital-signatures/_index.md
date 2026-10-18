@@ -136,6 +136,9 @@ Pelajari cara menandatangani PDF menggunakan sertifikat dengan Aspose.PDF untuk 
 ### [Validasi Tanda Tangan PDF dan Daftar Tanda Tangan PDF dengan Aspose.PDF – Panduan Lengkap](./validate-pdf-signature-and-list-pdf-signatures-with-aspose-p/)
 Panduan langkah demi langkah untuk memvalidasi tanda tangan PDF dan menampilkan semua tanda tangan dalam dokumen menggunakan Aspose.PDF.
 
+### [Cara Mendapatkan Tanda Tangan dari PDF di C# – Panduan Langkah demi Langkah](./how-to-get-signatures-from-a-pdf-in-c-step-by-step-guide/)
+Panduan langkah demi langkah untuk mengekstrak tanda tangan digital dari file PDF menggunakan C# dan Aspose.PDF.
+
 ## Sumber Daya Tambahan
 
 - [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)
