@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: Ten samouczek demonstruje, jak używać TextPdfComparer firmy Aspose.Pdf do przeprowadzenia porównania stron dwóch dokumentów PDF oraz wygenerowania raportu różnic w formacie PDF.
+//ExStepSummary:0: Zadeklaruj ścieżki plików dla oryginalnego PDF, zmodyfikowanego PDF oraz wyjściowego raportu różnic.
+//ExStepSummary:1: Sprawdź, czy oba pliki PDF źródłowe istnieją, i w razie braku któregoś przerwij działanie z komunikatem o błędzie.
+//ExStepSummary:2: Otwórz oba pliki PDF, utwórz domyślne opcje porównania, uruchom porównanie stron przy użyciu `TextPdfComparer.CompareDocumentsPageByPage` i wyświetl komunikat o sukcesie.
+//ExStepSummary:3: Przechwyć wszelkie wyjątki zgłoszone podczas porównywania i wypisz komunikat o błędzie na konsolę.
+//ExStep:0-
+const string sourcePath1 = "original.pdf";
+const string sourcePath2 = "revised.pdf";
+const string resultPath = "changes_report.pdf";
+
+//ExStep:1-
+if (!File.Exists(sourcePath1) || !File.Exists(sourcePath2))
+{
+    Console.Error.WriteLine("Either of the input PDFs could not be located.");
+    return;
+}
+
+//ExStep:2-
+try
+{
+    using (Document pdfA = new Document(sourcePath1))
+    using (Document pdfB = new Document(sourcePath2))
+    {
+        ComparisonOptions compareOpts = new ComparisonOptions();
+        TextPdfComparer.CompareDocumentsPageByPage(pdfA, pdfB, compareOpts, resultPath);
+    }
+
+    Console.WriteLine($"Page‑by‑page diff PDF written to '{resultPath}'.");
+}
+
+//ExStep:3-
+catch (Exception ex)
+{
+    Console.Error.WriteLine($"Comparison failed: {ex.Message}");
+}
+//ExEnd

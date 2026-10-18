@@ -1,0 +1,33 @@
+//ExStart
+//ExSummary: 本教學示範如何建立新的 PDF 文件、加入三個空白頁面、在記錄轉換錯誤的同時將其轉換為符合 PDF/X‑3 標準，並使用 Aspose.Pdf Document 類別儲存產生的檔案。
+//ExStepSummary:0: 定義輸出 PDF 檔案名稱以及轉換日誌的路徑。
+//ExStepSummary:1: 在 using 區塊中建立新的 Document 物件，以確保正確釋放資源。
+//ExStepSummary:2: 向文件新增三個空白頁面，提升頁數。
+//ExStepSummary:3: 將文件轉換為 PDF/X‑3 格式，並將任何轉換問題記錄於日誌檔案中。
+//ExStepSummary:4: 將符合 PDF/X‑3 標準的文件儲存至磁碟，並結束 using 區塊。
+//ExStepSummary:5: 在主控台印出確認訊息，指出檔案儲存的位置。
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+        const string resultFile = "final_pdfx3_output.pdf";
+        const string conversionLog = "pdfx3_conversion_log.xml";
+
+//ExStep:1-
+        using (Document pdfDoc = new Document())
+        {
+
+//ExStep:2-
+            pdfDoc.Pages.Add();
+            pdfDoc.Pages.Add();
+            pdfDoc.Pages.Add();
+
+//ExStep:3-
+            pdfDoc.Convert(conversionLog, PdfFormat.PDF_X_3, ConvertErrorAction.Delete);
+
+//ExStep:4-
+            pdfDoc.Save(resultFile);
+        }
+
+//ExStep:5-
+        Console.WriteLine($"PDF/X‑3 file written to '{resultFile}'.");
+//ExEnd

@@ -1,0 +1,33 @@
+//ExStart
+//ExSummary: Αυτό το σεμινάριο δείχνει πώς να δημιουργήσετε ένα νέο PDF έγγραφο, να προσθέσετε τρεις κενές σελίδες, να το μετατρέψετε σε συμμόρφωση PDF/X‑3 καταγράφοντας τα σφάλματα μετατροπής, και να αποθηκεύσετε το προκύπτον αρχείο χρησιμοποιώντας την κλάση Aspose.Pdf Document.
+//ExStepSummary:0: Ορίστε το όνομα του εξαγόμενου αρχείου PDF και τη διαδρομή για το αρχείο καταγραφής μετατροπής.
+//ExStepSummary:1: Δημιουργήστε ένα νέο αντικείμενο Document μέσα σε ένα using block για να εξασφαλίσετε τη σωστή αποδέσμευση.
+//ExStepSummary:2: Προσθέστε τρεις κενές σελίδες στο έγγραφο, αυξάνοντας τον αριθμό των σελίδων του.
+//ExStepSummary:3: Μετατρέψτε το έγγραφο σε μορφή PDF/X‑3, καταγράφοντας τυχόν προβλήματα μετατροπής στο αρχείο καταγραφής.
+//ExStepSummary:4: Αποθηκεύστε το έγγραφο συμμορφωμένο με PDF/X‑3 στο δίσκο και κλείστε το using block.
+//ExStepSummary:5: Εκτυπώστε ένα μήνυμα επιβεβαίωσης στην κονσόλα που να δείχνει πού αποθηκεύτηκε το αρχείο.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+        const string resultFile = "final_pdfx3_output.pdf";
+        const string conversionLog = "pdfx3_conversion_log.xml";
+
+//ExStep:1-
+        using (Document pdfDoc = new Document())
+        {
+
+//ExStep:2-
+            pdfDoc.Pages.Add();
+            pdfDoc.Pages.Add();
+            pdfDoc.Pages.Add();
+
+//ExStep:3-
+            pdfDoc.Convert(conversionLog, PdfFormat.PDF_X_3, ConvertErrorAction.Delete);
+
+//ExStep:4-
+            pdfDoc.Save(resultFile);
+        }
+
+//ExStep:5-
+        Console.WriteLine($"PDF/X‑3 file written to '{resultFile}'.");
+//ExEnd

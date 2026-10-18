@@ -17,6 +17,8 @@ Apprenez à créer des documents PDF bien structurés grâce à nos tutoriels As
 
 ## Tutoriels disponibles
 
+
+{{< tutorial-card link="./style-table-cells/" title="Personnalisez l'arrière‑plan, les bordures et le remplissage des cellules de tableau dans les PDF avec Aspose.Pdf for .NET" imgSrc="./style-table-cells/images/thumb.png" >}}
 ### [Ajouter une liste ordonnée HTML au PDF avec Aspose.PDF .NET](./add-html-ordered-list-pdf-aspose-net/)
 Un tutoriel de code pour Aspose.PDF Net
 

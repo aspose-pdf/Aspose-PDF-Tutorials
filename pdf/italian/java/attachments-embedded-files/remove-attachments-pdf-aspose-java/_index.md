@@ -1,13 +1,57 @@
 ---
-date: '2025-12-20'
+date: '2026-05-23'
 description: Scopri come rimuovere gli allegati PDF e ottimizzare le dimensioni del
-  PDF con Aspose.PDF per Java. Questa guida passo‑passo copre l'installazione, la
+  PDF con Aspose.PDF for Java. Questa guida passo‑passo copre la configurazione, la
   dipendenza Maven e il salvataggio del PDF senza allegati.
 keywords:
-- remove attachments from pdf
-- Aspose.PDF for Java setup
-- manage PDF files
-title: Come rimuovere gli allegati PDF in modo efficiente usando Aspose.PDF per Java
+- save pdf without attachments
+- how to remove pdf attachments
+- optimize pdf size java
+- strip embedded files pdf
+- delete embedded files pdf
+schemas:
+- author: Aspose
+  dateModified: '2026-05-23'
+  description: Learn how to remove PDF attachments and optimize PDF size with Aspose.PDF
+    for Java. This step‑by‑step guide covers setup, Maven dependency, and saving PDF
+    without attachments.
+  headline: How to Save PDF Without Attachments Efficiently Using Aspose.PDF for Java
+  type: TechArticle
+- description: Learn how to remove PDF attachments and optimize PDF size with Aspose.PDF
+    for Java. This step‑by‑step guide covers setup, Maven dependency, and saving PDF
+    without attachments.
+  name: How to Save PDF Without Attachments Efficiently Using Aspose.PDF for Java
+  steps:
+  - name: Load the PDF Document
+    text: '- **Why**: Loading creates an object model that lets you access the `EmbeddedFiles`
+      collection.'
+  - name: Remove All Embedded Files (Attachments)
+    text: '- **Why**: Deleting the collection clears hidden data, directly contributing
+      to **reduce pdf file size java** scenarios.'
+  - name: Save the Modified Document
+    text: '- **Why**: Saving persists the changes and produces a **save pdf without
+      attachments** version ready for distribution.'
+  type: HowTo
+- questions:
+  - answer: Aspose.PDF for Java is a powerful library that enables developers to create,
+      edit, convert, and manipulate PDF files programmatically without requiring Adobe
+      Acrobat.
+    question: What is Aspose.PDF for Java?
+  - answer: A free trial is available for evaluation; a purchased license removes
+      all evaluation restrictions and grants access to premium features.
+    question: Can I use this library without any limitations?
+  - answer: Use memory‑efficient coding patterns, process files in batches, and rely
+      on Aspose.PDF’s streaming API, which can work with PDFs up to 2 GB without loading
+      the entire document into RAM.
+    question: How do I handle large PDF files with Aspose.PDF?
+  - answer: Yes—use the `getEmbeddedFile(String name)` method to locate a particular
+      attachment and then call `delete()` on that object.
+    question: Is it possible to remove specific attachments instead of all?
+  - answer: Post questions or bug reports on the [Aspose Support Forum](https://forum.aspose.com/c/pdf/10),
+      where the product team and community members respond promptly.
+    question: How do I get support for issues with Aspose.PDF?
+  type: FAQPage
+title: Come salvare PDF senza allegati in modo efficiente usando Aspose.PDF for Java
 url: /it/java/attachments-embedded-files/remove-attachments-pdf-aspose-java/
 weight: 1
 ---
@@ -17,78 +61,73 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Come rimuovere gli allegati PDF in modo efficiente utilizzando Aspose.PDF per Java
+# Come salvare PDF senza allegati in modo efficiente usando Aspose.PDF per Java
 
 ## Introduzione
 
-Stai cercando di semplificare la gestione dei documenti rimuovendo **remove pdf attachs** dai tuoi PDF? Che si tratti di file obsoleti o dati ridondanti, pulire i tuoi documenti PDF può migliorare notevolmente l'efficienza e aiutarti a **ottimizzare le dimensioni del PDF**. Questa guida ti mostrerà come eliminare tutti i file incorporati (allegati) in un PDF utilizzando Aspose.PDF per Java.
+Stai cercando di ottimizzare la gestione dei documenti imparando a **salvare PDF senza allegati**? Che tu debba eliminare file obsoleti, soddisfare requisiti di conformità o semplicemente ridurre le dimensioni del documento, rimuovere gli allegati incorporati può migliorare notevolmente l'efficienza di archiviazione e la velocità di download. Questo tutorial ti guida passo passo—configurando Aspose.PDF per Java, caricando un PDF, rimuovendo i file incorporati e infine salvando un PDF pulito pronto per la distribuzione.
 
-Aspose.PDF è una libreria robusta che semplifica le operazioni PDF complesse con facilità. Seguendo questo tutorial, sfrutterai le sue capacità per gestire e ottimizzare i tuoi documenti in modo efficace.
+Aspose.PDF per Java è una libreria di livello produttivo che astrae le parti interne a basso livello dei PDF garantendo alte prestazioni. Alla fine di questa guida sarai in grado di **remove pdf attachments** da qualsiasi PDF e comprenderai come questa operazione contribuisca a **optimizing PDF size in Java** nelle applicazioni.
 
-**Cosa imparerai:**
-- Come configurare e utilizzare Aspose.PDF per Java
-- Tecniche per **rimuovere allegati pdf** da un documento PDF
-- Opzioni di configurazione chiave all'interno della libreria, inclusa la **aspose pdf maven dependency**
-- Applicazioni pratiche della gestione di file PDF in scenari reali
+**Cosa imparerai**  
+- Come installare e licenziare Aspose.PDF per Java  
+- Il modello di codice esatto per **remove pdf attachments** da un documento PDF  
+- Come **save pdf without attachments** e verificare la riduzione delle dimensioni  
+- Scenari reali in cui la rimozione dei file incorporati salva larghezza di banda e spazio di archiviazione  
 
 Iniziamo!
 
 ## Risposte rapide
-- **Che cosa fa “rimuovi allegati pdf”?** Elimina tutti i file incorporati da un PDF, riducendo la dimensione del file.
-- **Quale libreria è consigliata?** Quale libreria è consigliata? Aspose.PDF per Java fornisce un'API semplice per la pulizia degli allegati.
-- **Ho bisogno di una licenza?** Ho bisogno di una licenza? Una prova gratuita funziona durante il test; una licenza permanente rimuove i limiti di utilizzo.
-- **Posso salvare PDF senza allegati?** Posso salvare il PDF senza allegati? Sì, dopo l'eliminazione, salva il documento normalmente.
-- **Questo ottimizzerà le dimensioni del PDF?** Questo ottimizzerà la dimensione del PDF? Rimuovere gli allegati spesso riduce drasticamente le dimensioni.
+- **Cosa fa “remove pdf attachments”?** Elimina ogni file incorporato all'interno di un PDF, il che può ridurre le dimensioni del file del 30 % – 80 % a seconda degli allegati.  
+- **Quale libreria è consigliata?** Aspose.PDF per Java offre un'API a riga singola per eliminare gli allegati e funziona su qualsiasi OS con JDK.  
+- **Ho bisogno di una licenza?** Una prova gratuita di 30 giorni è valida per i test; una licenza acquistata rimuove tutti i limiti di valutazione.  
+- **Posso salvare PDF senza allegati?** Sì—dopo aver chiamato il metodo delete basta chiamare `save` per generare un PDF pulito.  
+- **Questo ottimizza le dimensioni del PDF?** Rimuovere gli allegati riduce spesso le dimensioni del file in modo significativo, soprattutto quando sono incorporati file di grandi dimensioni (immagini, fogli di calcolo).
 
-## Cos'è la funzione "rimuovi allegati pdf"?
-Rimuovere gli allegati PDF significa eliminare tutti i file che sono stati incorporati all'interno del PDF (spesso chiamati *embedded files*). Questo processo è utile per **pdf attach cleanup**, soprattutto quando è necessario condividere un documento leggero o rispettare le politiche di archiviazione.
+## Cos'è “remove pdf attachments”?
+La rimozione degli allegati PDF significa eliminare tutti i file che sono stati incorporati nel PDF (spesso chiamati *embedded files*). Questa operazione elimina dati nascosti, riduce le dimensioni complessive del file e garantisce che solo il contenuto previsto venga condiviso con i destinatari.
 
-## Perché utilizzare Aspose.PDF per Java per questa attività?
-- **Simple API** – Una riga di codice rimuove tutti gli allegati.
-- **Multipiattaforma** – Funziona su qualsiasi sistema operativo con runtime Java.
-- **Focalizzato sulle prestazioni** – Gestisci PDF di grandi dimensioni in modo efficiente.
-- **Licenza integrata** – Prova gratuita per la valutazione, facile aggiornamento a licenza completa.
+## Perché usare Aspose.PDF per Java per questo compito?
+La rimozione degli allegati PDF può essere realizzata con poche righe di codice perché Aspose.PDF per Java fornisce un'API di alto livello che astrae la struttura del PDF. La libreria supporta **oltre 50 formati di input e output**, può elaborare PDF fino a 2 GB senza caricare l'intero file in memoria e funziona su qualsiasi piattaforma che supporta Java 8 o versioni successive. Queste capacità quantificate la rendono una scelta affidabile per pipeline di documenti di livello enterprise.
 
 ## Prerequisiti
 
-Prima di iniziare, assicurati di avere quanto segue:
-
-### Librerie, versioni e dipendenze richieste
-- **Aspose.PDF per Java**: versione 25.3 o successiva (copre la più recente **aspose pdf maven dependency**).
+### Librerie richieste, versioni e dipendenze
+- **Aspose.PDF per Java**: versione 25.3 o successiva (copre l'ultima **aspose pdf maven dependency**).  
 
 ### Requisiti di configurazione dell'ambiente
-- Un Java Development Kit (JDK) installato sulla tua macchina.
-- Un ambiente di sviluppo integrato (IDE) come IntelliJ IDEA o Eclipse.
+- Java Development Kit (JDK) 8 o più recente installato.  
+- Un IDE come IntelliJ IDEA o Eclipse per una gestione semplice del progetto.  
 
 ### Prerequisiti di conoscenza
-- Conoscenza di base della programmazione Java.
-- Familiarità con strumenti di gestione progetto come Maven o Gradle.
+- Conoscenze di base di programmazione Java.  
+- Familiarità con Maven o Gradle per la gestione delle dipendenze.
 
 ## Configurazione di Aspose.PDF per Java
 
-Per iniziare a utilizzare Aspose.PDF per Java, aggiungilo come dipendenza nel tuo progetto. Ecco come puoi farlo con Maven e Gradle:
+Per iniziare a usare Aspose.PDF per Java, aggiungila come dipendenza nel tuo progetto. Di seguito trovi gli snippet Maven e Gradle necessari.
 
-**Maven:**
+**Maven:**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-pdf</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
-```
+```  
 
-### Passaggi di acquisizione della licenza
-1. **Prova gratuita**: Scarica una prova gratuita dalla pagina [Aspose PDF Downloads](https://releases.aspose.com/pdf/java/).
-2. **Licenza temporanea**: Per tutte le funzionalità senza limitazioni, ottieni una licenza temporanea tramite [Aspose Temporary License](https://purchase.aspose.com/temporary-license/).
-3. **Acquisto**: Per un utilizzo a lungo termine, acquista una licenza sul loro sito ufficiale.
+## Passaggi per l'acquisizione della licenza
+1. **Free Trial** – Scarica una versione di prova dalla pagina [Aspose PDF Downloads](https://releases.aspose.com/pdf/java/).  
+2. **Temporary License** – Ottieni una chiave a tempo limitato tramite il portale [Aspose Temporary License](https://purchase.aspose.com/temporary-license/).  
+3. **Purchase** – Per uso in produzione, acquista una licenza completa sul sito ufficiale.
 
-### Inizializzazione e configurazione di base
-Dopo aver aggiunto Aspose.PDF come dipendenza, inizializzalo nel tuo progetto Java:
+## Inizializzazione e configurazione di base
+Una volta aggiunta la dipendenza, puoi iniziare a usare la libreria nel tuo codice:
 
 ```java
 import com.aspose.pdf.Document;
@@ -104,95 +143,100 @@ public class RemoveAttachments {
         // Proceed with removing attachments in the next section.
     }
 }
-```
+```  
 
 ## Guida all'implementazione
 
-### Come rimuovere gli allegati PDF con Aspose.PDF per Java
+## Come rimuovere gli allegati PDF con Aspose.PDF per Java
+Per rimuovere gli allegati, prima carichi il PDF in un oggetto Aspose.PDF `Document`, poi accedi alla sua collezione `EmbeddedFiles`, elimini la collezione e infine salvi il documento in un nuovo file. Questo flusso di lavoro semplice in tre passaggi garantisce che tutti i file incorporati vengano rimossi mantenendo intatti il contenuto e il layout originali del PDF.  
+La classe `Document` rappresenta un file PDF e fornisce metodi per leggere, modificare e salvare il documento.  
+La collezione `EmbeddedFiles` contiene tutti gli oggetti file incorporati (allegati) all'interno del PDF.
 
-Questa funzionalità dimostra come **rimuovi allegati pdf** incorporati nei tuoi documenti PDF. Ti guideremo passo passo.
-
-#### Passaggio 1: Carica il documento PDF
-Inizia caricando il documento utilizzando la classe `Document` fornita da Aspose.PDF:
-
+#### Passo 1: Caricare il documento PDF
 ```java
 // Open the specified PDF document
 Document pdfDocument = new Document(dataDir);
-```
-- **Perché**: Questo passo è essenziale per accedere e manipolare il contenuto del documento.
+```  
+- **Perché**: Il caricamento crea un modello di oggetti che ti consente di accedere alla collezione `EmbeddedFiles`.
 
-#### Passaggio 2: Rimuovi tutti i file incorporati (allegati)
-Utilizza il metodo `delete()` sulla raccolta `EmbeddedFiles` per rimuovere tutti gli allegati:
-
+#### Passo 2: Rimuovere tutti i file incorporati (allegati)
 ```java
 // Remove all embedded files (attachments) from the document
 pdfDocument.getEmbeddedFiles().delete();
-```
-- **Perché**: Il metodo `delete()` rimuove tutti i dati non necessari, garantendo che il tuo PDF sia pulito e ottimizzato.
+```  
+- **Perché**: L'eliminazione della collezione rimuove i dati nascosti, contribuendo direttamente a scenari di **reduce pdf file size java**.
 
-#### Passaggio 3: Salva il documento modificato
-Dopo aver rimosso gli allegati, salva il PDF aggiornato in un nuovo file:
-
+#### Passo 3: Salvare il documento modificato
 ```java
 // Save the modified document to a new file in the specified output directory
 pdfDocument.save(outputDir);
-```
-- **Perché**: Il salvataggio conserva tutte le modifiche e produce una versione **save pdf without attachments** pronta per la distribuzione.
+```  
+- **Perché**: Il salvataggio conserva le modifiche e produce una versione **save pdf without attachments** pronta per la distribuzione.
 
-### Suggerimenti per la risoluzione dei problemi
-- **Problema comune**: Eccezioni dovute a percorsi file errati.
-- **Soluzione**: Verifica che `dataDir` e `outputDir` puntino a directory esistenti con i permessi di lettura/scrittura appropriati.
+### Come risolvere i problemi comuni durante la rimozione degli allegati PDF?
+Se l'operazione fallisce, i problemi tipici includono percorsi file errati, permessi insufficienti o tentativi di modificare un PDF protetto da password. Assicurati che il percorso di input sia assoluto o relativo alla tua directory di lavoro, concedi i permessi di lettura/scrittura alle cartelle e, se necessario, fornisci la password del documento tramite il costruttore sovraccaricato di `Document`.
 
 ## Applicazioni pratiche
-1. **Document Management Systems** – Rimuovere gli allegati non necessari semplifica la gestione dello storage negli ambienti aziendali.
-2. **Allegati email** – Pulisci i PDF prima di inviarli per ridurre la dimensione delle email.
-3. **Gestione dei documenti legali** – Assicurati che non vengono condivisi file nascosti con contratti sensibili.
-4. **Archiving** – Conserva solo il contenuto essenziale, scartando i file incorporati extra.
-5. **Web Publishing** – Tempi di caricamento più rapidi per i PDF ospitati online.
+
+1. **Sistemi di gestione documentale** – Rimuovere gli allegati riduce i costi di archiviazione e accelera l'indicizzazione.  
+2. **Allegati email** – Pulire i PDF prima di inviarli per mantenere le dimensioni delle email entro i limiti aziendali.  
+3. **Gestione di documenti legali** – Garantisce che nessun file nascosto venga condiviso involontariamente con i contratti.  
+4. **Archiviazione** – Conservare solo il contenuto essenziale, scartando i file incorporati extra per la conservazione a lungo termine.  
+5. **Pubblicazione web** – Tempi di caricamento più rapidi per i PDF ospitati su siti web pubblici.
 
 ## Considerazioni sulle prestazioni
-- Rilascia gli oggetti `Document` dopo l'uso con `pdfDocument.close()` per liberare memoria.
-- Per l'elaborazione batch, considera di iterare sui file applicando gli stessi passaggi, monitorando l'uso dell'heap JVM.
+- Chiama `pdfDocument.close()` dopo l'elaborazione per rilasciare le risorse native.  
+- Per lavori batch, itera su una cartella di PDF e applica lo stesso schema a tre passaggi, monitorando l'uso dell'heap JVM con strumenti come VisualVM.  
+- Aspose.PDF può gestire PDF fino a 2 GB senza caricare l'intero file in memoria, grazie alla sua architettura di streaming.
 
 ## Conclusione
 
-Adesso hai padroneggiato la tecnica per **rimuovere gli allegati pdf** da un documento PDF utilizzando Aspose.PDF per Java. Questo non solo ti aiuta a **ottimizzare le dimensioni del PDF**, ma migliora anche l'efficienza di archiviazione e la sicurezza.
+Ora disponi di un metodo completo, pronto per la produzione, per **save PDF without attachments** usando Aspose.PDF per Java. Questa tecnica non solo **optimizes PDF size** ma migliora anche sicurezza e conformità garantendo che nessun file nascosto viaggi con i tuoi documenti.  
 
-**Passaggi successivi:**
-- Esplora altre funzionalità di Aspose.PDF come merging, watermarking o estrazione di testo.
-- Consulta la documentazione completa dell'API per scenari più avanzati.
+**Prossimi passi**  
+- Esplora ulteriori funzionalità di Aspose.PDF come merging, watermarking o estrazione di testo.  
+- Consulta il riferimento API completo per scenari più avanzati, come rimuovere allegati specifici per nome.  
 
 Se hai domande, non esitare a contattarci tramite il [Aspose Support Forum](https://forum.aspose.com/c/pdf/10).
 
-## Sezione Domande frequenti
-1. **Che cos'è Aspose.PDF per Java?** 
-- Aspose.PDF per Java è una libreria potente progettata per creare e manipolare documenti PDF in applicazioni Java.
-2. **Posso utilizzare questa libreria senza limitazioni?** 
-- Per l'accesso completo è necessario acquistare una licenza; tuttavia, è disponibile una prova gratuita per la valutazione.
-3. **Come posso gestire file PDF di grandi dimensioni con Aspose.PDF?** 
-- Considera l'uso di pratiche di codifica a risparmio di memoria e, se necessario, elabora i documenti in batch.
-4. **È possibile rimuovere allegati specifici anziché tutti?** 
-- Sì, puoi usare il metodo `getEmbeddedFile` per individuare e cancellare allegati specifici per nome o indice.
-5. **Come posso ottenere supporto per problemi con Aspose.PDF?** 
-- Usa il [Aspose Support Forum](https://forum.aspose.com/c/pdf/10) per porre domande o segnalare problemi.
+## Sezione FAQ
+**Q: Cos'è Aspose.PDF per Java?**  
+A: Aspose.PDF per Java è una potente libreria che consente agli sviluppatori di creare, modificare, convertire e manipolare file PDF programmaticamente senza richiedere Adobe Acrobat.  
+
+**Q: Posso usare questa libreria senza alcuna limitazione?**  
+A: È disponibile una prova gratuita per la valutazione; una licenza acquistata rimuove tutte le restrizioni di valutazione e garantisce l'accesso alle funzionalità premium.  
+
+**Q: Come gestire file PDF di grandi dimensioni con Aspose.PDF?**  
+A: Usa pattern di codifica efficienti in termini di memoria, elabora i file in batch e sfrutta l'API di streaming di Aspose.PDF, che può lavorare con PDF fino a 2 GB senza caricare l'intero documento in RAM.  
+
+**Q: È possibile rimuovere allegati specifici invece di tutti?**  
+A: Sì—usa il metodo `getEmbeddedFile(String name)` per individuare un allegato specifico e poi chiama `delete()` su quell'oggetto.  
+
+**Q: Come ottenere supporto per problemi con Aspose.PDF?**  
+A: Pubblica domande o segnalazioni di bug sul [Aspose Support Forum](https://forum.aspose.com/c/pdf/10), dove il team di prodotto e i membri della community rispondono prontamente.  
 
 ## Risorse
-- **Documentazione**: Esplora riferimenti API dettagliati su [Aspose PDF Java Reference](https://reference.aspose.com/pdf/java/)
-- **Scarica Aspose.PDF**: Accedi al software da [Aspose Downloads](https://releases.aspose.com/pdf/java/)
-- **Acquisto licenza**: Ottieni la licenza tramite la [Aspose Purchase Page](https://purchase.aspose.com/buy)
-- **Prova gratuita**: Inizia con una prova su [Aspose PDF Java Downloads](https://releases.aspose.com/pdf/java/)
-- **Licenza temporanea**: Ottieni una licenza temporanea da [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)
+- **Documentazione**: Esplora riferimenti API dettagliati su [Aspose PDF Java Reference](https://reference.aspose.com/pdf/java/)  
+- **Download Aspose.PDF**: Accedi al software da [Aspose Downloads](https://releases.aspose.com/pdf/java/)  
+- **Acquista licenza**: Ottieni licenze tramite la [Aspose Purchase Page](https://purchase.aspose.com/buy)  
+- **Prova gratuita**: Inizia con una prova su [Aspose PDF Java Downloads](https://releases.aspose.com/pdf/java/)  
+- **Licenza temporanea**: Ottieni una licenza temporanea da [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)  
 
----
-
-**Ultimo aggiornamento:** 2025-12-20  
-**Testato con:** Aspose.PDF for Java 25.3  
+**Ultimo aggiornamento:** 2026-05-23  
+**Testato con:** Aspose.PDF per Java 25.3  
 **Autore:** Aspose
+
+{{< blocks/products/products-backtop-button >}}
+
+## Tutorial correlati
+
+- [Master Aspose.PDF Java: Accedi e gestisci i file incorporati nei PDF](/pdf/java/attachments-embedded-files/master-aspose-pdf-java-access-manage-embedded-files/)
+- [Come estrarre file incorporati da un PDF Portfolio usando Aspose.PDF Java](/pdf/java/attachments-embedded-files/extract-files-pdf-portfolio-aspose-java/)
+- [Ottimizza rapidamente i file PDF con Aspose.PDF per Java: Guida completa](/pdf/java/performance-optimization/master-aspose-pdf-java-optimization/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

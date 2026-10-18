@@ -1,0 +1,49 @@
+//ExStart
+//ExSummary: 本教程演示如何使用 Aspose.Pdf 打开已有的 PDF，将其权限限制为仅填写表单，使用 AES‑256 并设置查看者密码和所有者密码进行加密，然后保存受保护的文档。
+//ExStepSummary:0: 声明源 PDF 路径、输出路径以及查看者密码和所有者密码。
+//ExStepSummary:1: 检查源文件是否存在；如果不存在，写入错误信息并退出。
+//ExStepSummary:2: 进入 try 块，并使用 `using` 语句打开 PDF 文档，创建 `pdfDoc` 变量。
+//ExStepSummary:3: 创建一个仅允许填写表单的 `Permissions` 对象。
+//ExStepSummary:4: 使用查看者密码和主密码对 `pdfDoc` 进行加密，应用权限集合并使用 AES‑256。
+//ExStepSummary:5: 将加密后的 PDF 保存到指定的输出文件，并关闭 `using` 块。
+//ExStepSummary:6: 向控制台写入确认信息并关闭 try 块。
+//ExStepSummary:7: 捕获任何异常，将其消息输出到错误流，并关闭 catch 块。
+//ExStep:0-
+        const string sourceFile = "sample.pdf";
+        const string encryptedFile = "protected.pdf";
+        const string viewerPwd = "readPass";
+        const string masterPwd = "fullPass";
+
+//ExStep:1-
+        if (!File.Exists(sourceFile))
+        {
+            Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+            return;
+        }
+
+//ExStep:2-
+        try
+        {
+            using (Document pdfDoc = new Document(sourceFile))
+            {
+
+//ExStep:3-
+                Permissions permissionSet = Permissions.FillForm;
+
+//ExStep:4-
+                pdfDoc.Encrypt(viewerPwd, masterPwd, permissionSet, CryptoAlgorithm.AESx256);
+
+//ExStep:5-
+                pdfDoc.Save(encryptedFile);
+            }
+
+//ExStep:6-
+            Console.WriteLine($"Encrypted document written to '{encryptedFile}'.");
+        }
+
+//ExStep:7-
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Error: {ex.Message}");
+        }
+//ExEnd
