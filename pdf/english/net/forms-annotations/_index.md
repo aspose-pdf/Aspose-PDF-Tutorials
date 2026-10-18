@@ -17,6 +17,9 @@ Master PDF interactive features with our comprehensive Aspose.PDF forms and anno
 
 ## Available Tutorials
 
+{{< tutorial-card link="./exclude-annotations/" title="Side‑by‑Side PDF Comparison Excluding Annotations with Aspose.Pdf for .NET" imgSrc="./exclude-annotations/images/thumb.png" >}}
+
+
 ### [Add Form Fields to PDFs Using Aspose.PDF for .NET&#58; A Comprehensive Guide](./add-pdf-form-fields-aspose-pdf-dotnet/)
 Learn how to add text, checkbox, combo box, list box, and multi-line fields to PDFs using Aspose.PDF for .NET. This guide covers setup, code examples, and integration tips.
 

@@ -23,13 +23,15 @@ Aspose.PDF för .NET:s handledningar "Programmering med bilder" guidar dig genom
 | [Lägg till bild i PDF-fil](./add-image/) | Lär dig hur du lägger till bilder i en PDF-fil programmatiskt med Aspose.PDF för .NET. Steg-för-steg-guide, exempelkod och vanliga frågor ingår för smidig implementering. |  
 | [Alla sidor till TIFF](./all-pages-to-tiff/) | Lär dig hur du konverterar alla sidor i en PDF till TIFF med Aspose.PDF för .NET i den här steg-för-steg-handledningen. Enkel och effektiv dokumenthantering. |  
 | [Bradley-algoritmen](./bradley-algorithm/) | Lär dig hur du konverterar en PDF till TIFF med Bradley-algoritmen i Aspose.PDF för .NET. Steg-för-steg-guide, förutsättningar och vanliga frågor för sömlös konvertering. |  
+| [Beskär bild i PDF med Aspose.PDF – Komplett guide](./crop-image-in-pdf-with-aspose-pdf-complete-guide/) | Lär dig hur du beskär bilder i en PDF med Aspose.PDF i den här kompletta guiden. |
 | [CGM-bild till PDF](./cgm-image-to-pdf/) | Konvertera enkelt CGM-bilder till PDF med Aspose.PDF för .NET. Följ den här enkla steg-för-steg-guiden och effektivisera din filkonverteringsprocess. |  
 | [Konvertera alla sidor till EMF](./convert-all-pages-to-emf/) | Lär dig hur du konverterar alla sidor i en PDF till EMF-format med hjälp av Aspose.PDF för .NET med den här detaljerade och SEO-optimerade handledningen. |  
 | [Konvertera alla sidor till PNG](./convert-all-pages-to-png/) | Lär dig hur du konverterar PDF-sidor till PNG med Aspose.PDF för .NET med den här steg-för-steg-guiden. Perfekt för utvecklare och entusiaster. |  
 | [Konvertera bildström till PDF-fil](./convert-image-stream-to-pdf/) | Konvertera enkelt en bildström till PDF med Aspose.PDF för .NET med den här detaljerade steg-för-steg-guiden. Lär dig hur du hanterar konverteringar från bild till PDF utan ansträngning. |  
 | [Konvertera sidregion till DOM](./convert-page-region-to-dom/) Frigör potentialen i dina PDF-dokument med Aspose.PDF för .NET. Konvertera områden i PDF-filer till bilder och förbättra ditt arbetsflöde. |  
 | [Konvertera till BMP](./convert-to-bmp/) | Lär dig hur du enkelt konverterar PDF-filer till BMP-bilder med Aspose.PDF för .NET i den här steg-för-steg-handledningen. Perfekt för .NET-utvecklare. |  
-| [Skapa miniatyrbilder i PDF-fil](./create-thumbnail-images/) | Generera miniatyrbilder för varje sida i din PDF-fil utan problem med Aspose.PDF för .NET. Förbättra din dokumentförhandsgranskning. |  
+| [Skapa miniatyrbilder i PDF-fil](./create-thumbnail-images/) | Generera miniatyrbilder för varje sida i din PDF-fil utan problem med Aspose.PDF för .NET. Förbättra din dokumentförhandsgranskning. |
+| [Skapa AI‑copilot för PDF‑bildbeskrivning – steg‑för‑steg‑guide](./create-ai-copilot-for-pdf-image-description-step-by-step-gui/) | Lär dig skapa en AI‑copilot som automatiskt beskriver bilder i PDF‑dokument med en steg‑för‑steg‑guide. |
 | [Ta bort bilder från PDF-fil](./delete-images/) | Lär dig hur du tar bort bilder från PDF-filer med Aspose.PDF för .NET i en enkel steg-för-steg-handledning. Optimera PDF-filer genom att enkelt ta bort oönskade bilder. |  
 | [Extrahera bilder från PDF-fil](./extract-images/) | Lär dig hur du extraherar bilder från en PDF-fil med Aspose.PDF för .NET med den här steg-för-steg-guiden. Kom igång med lättförståeliga instruktioner. |  
 | [Snabbkrympande bilder](./fast-shrink-images/) Lär dig hur du effektivt använder Aspose.PDF för .NET för att krympa bilder i PDF-filer, optimera storleken samtidigt som kvaliteten bibehålls. |  
@@ -49,6 +51,9 @@ Aspose.PDF för .NET:s handledningar "Programmering med bilder" guidar dig genom
 | [Ange bildstorlek i PDF-fil](./set-image-size/) | Lär dig hur du ställer in bildstorleken i en PDF med Aspose.PDF för .NET. Den här steg-för-steg-guiden hjälper dig att ändra storlek på bilder, justera sidegenskaper och spara PDF-filer. |  
 | [Krympa bilder i PDF-fil](./shrink-images/) | Krymp enkelt bilder i PDF-filer med Aspose.PDF för .NET med den här steg-för-steg-guiden, vilket säkerställer mindre filstorlekar samtidigt som kvaliteten bibehålls. |  
 | [Lagra bilden i XImage-samlingen](./store-image-in-ximage-collection/) | Lär dig hur du lagrar bilder i XImage-samlingen med hjälp av Aspose.PDF för .NET i den här kompletta steg-för-steg-guiden. |  
+| [Skapa tom PDF-sida – Fullständig guide för att lägga till, beskära och ändra storlek på bilder](./create-blank-pdf-page-full-guide-to-adding-cropping-resizing/) | Lär dig hur du skapar en tom PDF-sida och lägger till, beskär samt ändrar storlek på bilder med Aspose.PDF för .NET. |  
+| [Lägg till figur i Word – Komplett C#-programmeringsguide](./add-figure-to-word-complete-c-programming-guide/) | Lär dig hur du lägger till figurer i Word-dokument med C# och Aspose.Words för .NET i en komplett steg-för-steg-guide. |
+| [Komprimera bilder i DOCX – minska filstorlek](./compress-images-in-docx-reduce-file-size/) | Lär dig hur du komprimerar bilder i DOCX-filer för att minska filstorleken med Aspose.Words för .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

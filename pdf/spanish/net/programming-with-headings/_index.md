@@ -19,9 +19,13 @@ Los tutoriales de Aspose.PDF para .NET te guían paso a paso para dominar la pro
 Explore las funciones de Aspose.PDF para .NET con tutoriales dedicados. Aprenda a trabajar con encabezados en sus documentos PDF con ejemplos prácticos y explicaciones paso a paso. Mejore la legibilidad y la navegación de sus archivos PDF con estos completos recursos.
 
 ## Tutoriales
+
+{{< tutorial-card link="./add-heading/" title="Agregar Encabezado, Idioma y Título a un PDF usando Aspose.PDF for .NET" imgSrc="./add-heading/images/thumb.png" >}}
+
 | Título | Descripción |
 | --- | --- | 
 | [Aplicar estilo de número en un archivo PDF](./apply-number-style/) | Aprenda a aplicar diferentes estilos de números (números romanos, alfabéticos) a los encabezados de un PDF usando Aspose.PDF para .NET con esta guía paso a paso. |   
+| [Agregar encabezado a PDF con Aspose – Guía completa en C#](./add-heading-to-pdf-with-aspose-complete-c-guide/) | Aprenda a agregar encabezados a un PDF usando Aspose.PDF para .NET con una guía completa en C#. |   
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -24,23 +24,14 @@ title: PDF-handtekening verifiëren in C# – Complete programmeergids
 url: /nl/net/programming-with-security-and-signatures/verify-pdf-signature-in-c-complete-programming-guide/
 ---
 
-doesn't say not to translate alt text. Probably we can translate alt text and title, but keep URL unchanged. Safer to keep alt text as is? The instruction: "Translate ALL text content naturally to Dutch". Alt text is text content, so translate it. Title also. So we translate alt and title.
 
-Also there are markdown links? Not present.
 
-We must keep code block placeholders unchanged.
 
-We need to translate all paragraphs.
 
-Let's produce the translated content.
 
-Be careful with bullet points, numbers.
 
-Let's translate.
 
-Start with shortcodes unchanged.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: Deze tutorial laat zien hoe je een bestaande PDF laadt met Aspose.Pdf, de permissies beperkt, deze versleutelt met zowel een gebruikers‑ (client) als eigenaar‑ (admin) wachtwoord met het AES‑256‑algoritme, en het beveiligde document opslaat.
+//ExStepSummary:0: Declareer de bron‑ en bestemmingspad‑namen en de gebruikers‑ (client) en eigenaar‑ (admin) wachtwoorden.
+//ExStepSummary:1: Controleer of de bron‑PDF bestaat en annuleer met een foutmelding als dat niet het geval is.
+//ExStepSummary:2: Open de PDF, sta alleen inhoudsbewerking en -extractie toe, versleutel deze met de twee wachtwoorden met AES‑256, sla het beveiligde bestand op en toon een succesbericht.
+//ExStepSummary:3: Vang eventuele fouten op die zich voordoen en schrijf het exceptiebericht naar de foutconsole.
+//ExStep:0-
+const string sourceFile = "original.pdf";
+const string destinationFile = "protected.pdf";
+const string clientPwd = "clientPwd";
+const string adminPwd = "adminPwd";
+
+//ExStep:1-
+if (!File.Exists(sourceFile))
+{
+    Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+    return;
+}
+
+//ExStep:2-
+try
+{
+    using (Document pdfDoc = new Document(sourceFile))
+    {
+        Permissions allowedPerms = Permissions.ModifyContent | Permissions.ExtractContent;
+
+        pdfDoc.Encrypt(clientPwd, adminPwd, allowedPerms, CryptoAlgorithm.AESx256);
+
+        pdfDoc.Save(destinationFile);
+    }
+
+    Console.WriteLine($"Secured PDF written to '{destinationFile}'.");
+}
+
+//ExStep:3-
+catch (Exception ex)
+{
+    Console.Error.WriteLine($"Failure: {ex.Message}");
+}
+//ExEnd

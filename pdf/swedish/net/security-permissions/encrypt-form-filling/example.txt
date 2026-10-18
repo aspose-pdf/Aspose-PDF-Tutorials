@@ -1,0 +1,49 @@
+//ExStart
+//ExSummary: Den här handledningen visar hur man öppnar en befintlig PDF med Aspose.Pdf, begränsar dess behörigheter till endast ifyllning av formulär, krypterar den med AES‑256 med ett visnings- och ägarlösenord och sparar det skyddade dokumentet.
+//ExStepSummary:0: Deklarera sökvägen till käll‑PDF‑filen, utskrivningssökvägen samt visnings‑ och ägarlösenorden.
+//ExStepSummary:1: Kontrollera att källfilen finns; om den inte finns, skriv ett felmeddelande och avsluta.
+//ExStepSummary:2: Gå in i ett try‑block och öppna PDF‑dokumentet med en `using`‑sats, vilket skapar variabeln `pdfDoc`.
+//ExStepSummary:3: Skapa ett `Permissions`‑objekt som endast tillåter ifyllning av formulär.
+//ExStepSummary:4: Kryptera `pdfDoc` med visnings‑ och master‑lösenorden, tillämpa behörighetsuppsättningen och använd AES‑256.
+//ExStepSummary:5: Spara den krypterade PDF‑filen till den angivna utdatafilen och stäng `using`‑blocket.
+//ExStepSummary:6: Skriv ett bekräftelsemeddelande till konsolen och avsluta try‑blocket.
+//ExStepSummary:7: Fånga alla undantag, skriv ut dess meddelande till felströmmen och avsluta catch‑blocket.
+//ExStep:0-
+        const string sourceFile = "sample.pdf";
+        const string encryptedFile = "protected.pdf";
+        const string viewerPwd = "readPass";
+        const string masterPwd = "fullPass";
+
+//ExStep:1-
+        if (!File.Exists(sourceFile))
+        {
+            Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+            return;
+        }
+
+//ExStep:2-
+        try
+        {
+            using (Document pdfDoc = new Document(sourceFile))
+            {
+
+//ExStep:3-
+                Permissions permissionSet = Permissions.FillForm;
+
+//ExStep:4-
+                pdfDoc.Encrypt(viewerPwd, masterPwd, permissionSet, CryptoAlgorithm.AESx256);
+
+//ExStep:5-
+                pdfDoc.Save(encryptedFile);
+            }
+
+//ExStep:6-
+            Console.WriteLine($"Encrypted document written to '{encryptedFile}'.");
+        }
+
+//ExStep:7-
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Error: {ex.Message}");
+        }
+//ExEnd

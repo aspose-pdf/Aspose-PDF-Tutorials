@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: Bu öğreticide, Aspose.Pdf ile mevcut bir PDF'nin nasıl yükleneceği, izinlerinin nasıl kısıtlanacağı, hem kullanıcı (istemci) hem de sahibi (yönetici) parolasıyla AES‑256 algoritması kullanılarak nasıl şifreleneceği ve korumalı belgenin nasıl kaydedileceği gösterilmektedir.
+//ExStepSummary:0: Kaynak ve hedef dosya yollarını ve kullanıcı (istemci) ile sahibi (yönetici) parolalarını tanımlayın.
+//ExStepSummary:1: Kaynak PDF'nin mevcut olduğunu kontrol edin ve yoksa bir hata mesajı ile işlemi durdurun.
+//ExStepSummary:2: PDF'yi açın, yalnızca içerik değiştirme ve çıkarma izinlerini verin, iki parola ile AES‑256 kullanarak şifreleyin, korumalı dosyayı kaydedin ve bir başarı mesajı gösterin.
+//ExStepSummary:3: Oluşan hataları yakalayın ve istisna mesajını hata konsoluna yazın.
+//ExStep:0-
+const string sourceFile = "original.pdf";
+const string destinationFile = "protected.pdf";
+const string clientPwd = "clientPwd";
+const string adminPwd = "adminPwd";
+
+//ExStep:1-
+if (!File.Exists(sourceFile))
+{
+    Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+    return;
+}
+
+//ExStep:2-
+try
+{
+    using (Document pdfDoc = new Document(sourceFile))
+    {
+        Permissions allowedPerms = Permissions.ModifyContent | Permissions.ExtractContent;
+
+        pdfDoc.Encrypt(clientPwd, adminPwd, allowedPerms, CryptoAlgorithm.AESx256);
+
+        pdfDoc.Save(destinationFile);
+    }
+
+    Console.WriteLine($"Secured PDF written to '{destinationFile}'.");
+}
+
+//ExStep:3-
+catch (Exception ex)
+{
+    Console.Error.WriteLine($"Failure: {ex.Message}");
+}
+//ExEnd

@@ -23,6 +23,8 @@
 | [ارسم XForm على الصفحة](./draw-xform-on-page/) | تعلم كيفية رسم XForms في PDF باستخدام Aspose.PDF لـ .NET مع هذا الدليل الشامل خطوة بخطوة. |  
 | [مشغلات PDF](./pdf-operators/) دليل خطوة بخطوة لاستخدام مُشغّلات PDF مع Aspose.PDF لـ .NET. أضف صورة إلى صفحة PDF وحدد موقعها.  
 | [إزالة الكائنات الرسومية في ملف PDF](./remove-graphics-objects/) تعرّف على كيفية إزالة الكائنات الرسومية من ملف PDF باستخدام Aspose.PDF لـ .NET في هذا الدليل التفصيلي. بسّط مهام معالجة ملفات PDF.  
+| [تكرار مجموعة C# – دليل بسيط للتكرار عبر العناصر](./iterate-collection-c-simple-guide-to-loop-over-items/) | تعلم كيفية تكرار العناصر في مجموعة C# باستخدام حلقة بسيطة مع Aspose.PDF لـ .NET. |
+| [إنشاء قاموس PDF فارغ في C# – دليل Aspose.Pdf الكامل](./create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide/) | تعلم كيفية إنشاء قاموس PDF فارغ باستخدام Aspose.PDF لـ .NET في C# من خلال دليل شامل خطوة بخطوة. |  
 | [كيفية إنشاء حالة رسومية فارغة في ملف PDF باستخدام C#](./how-to-create-empty-graphics-state-in-a-pdf-with-c/) | تعلم كيفية إنشاء حالة رسومية فارغة في PDF باستخدام Aspose.PDF لـ .NET مع C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

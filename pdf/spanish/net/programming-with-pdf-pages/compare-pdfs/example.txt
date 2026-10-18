@@ -1,0 +1,74 @@
+//ExStart
+//ExSummary: Este tutorial muestra cómo comparar dos archivos PDF que tienen diferentes dimensiones de página sincronizando el tamaño de sus primeras páginas, configurando un GraphicalPdfComparer y generando un PDF que resalta las diferencias.
+//ExStepSummary:0: Defina las rutas de archivo para los dos PDFs de origen y el PDF resultante.
+//ExStepSummary:1: Verifique que ambos archivos PDF de origen existan y abortar si falta alguno.
+//ExStepSummary:2: Inicie un bloque try para capturar errores durante el procesamiento.
+//ExStepSummary:3: Cargue los dos PDFs en objetos Document `docA` y `docB` dentro de sentencias using.
+//ExStepSummary:4: Asegúrese de que cada PDF contenga al menos una página antes de continuar.
+//ExStepSummary:5: Recupere la primera página de cada documento para la comparación.
+//ExStepSummary:6: Copie la información MediaBox de `firstPage` a `secondPage` para que las páginas compartan las mismas dimensiones.
+//ExStepSummary:7: Cree y configure un `GraphicalPdfComparer` con resaltado rojo, alta resolución y un umbral de diferencia del 1 % .
+//ExStepSummary:8: Ejecute la comparación, genere un PDF de diferencias en `outputPdfPath`, escriba un mensaje de finalización y cierre los ámbitos using y try.
+//ExStepSummary:9: Maneje ArgumentException que pueda surgir si la alineación del tamaño de página sigue siendo insuficiente.
+//ExStepSummary:10: Capture cualquier otra excepción inesperada y repórtela.
+//ExStep:0-
+const string firstPdfPath = "sampleA.pdf";
+const string secondPdfPath = "sampleB.pdf";
+const string outputPdfPath = "diffResult.pdf";
+
+//ExStep:1-
+if (!File.Exists(firstPdfPath) || !File.Exists(secondPdfPath))
+{
+    Console.Error.WriteLine("Missing one or both source PDF files.");
+    return;
+}
+
+//ExStep:2-
+try
+{
+
+//ExStep:3-
+using (Document docA = new Document(firstPdfPath))
+using (Document docB = new Document(secondPdfPath))
+{
+
+//ExStep:4-
+if (docA.Pages.Count == 0 || docB.Pages.Count == 0)
+{
+    Console.Error.WriteLine("At least one document does not contain any pages.");
+    return;
+}
+
+//ExStep:5-
+Page firstPage = docA.Pages[1];
+Page secondPage = docB.Pages[1];
+
+//ExStep:6-
+secondPage.PageInfo = firstPage.PageInfo;
+
+//ExStep:7-
+GraphicalPdfComparer comparer = new GraphicalPdfComparer
+{
+    Color = Aspose.Pdf.Color.Red,
+    Resolution = new Resolution(200),
+    Threshold = 1
+};
+
+//ExStep:8-
+comparer.ComparePagesToPdf(firstPage, secondPage, outputPdfPath);
+Console.WriteLine($"Comparison finished. Output saved as '{outputPdfPath}'.");
+}
+}
+
+//ExStep:9-
+catch (ArgumentException ex)
+{
+    Console.Error.WriteLine($"Argument error during comparison: {ex.Message}");
+}
+
+//ExStep:10-
+catch (Exception ex)
+{
+    Console.Error.WriteLine($"Unexpected error: {ex.Message}");
+}
+//ExEnd

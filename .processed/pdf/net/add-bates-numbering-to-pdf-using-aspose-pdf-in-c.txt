@@ -1,0 +1,7 @@
+Title: Add bates numbering to PDF using Aspose.PDF in C#
+Slug: add-bates-numbering-to-pdf-using-aspose-pdf-in-c
+Category: programming-with-text
+ProcessedDate: 2026-09-28T08:00:06.225627
+SourceRepo: AI Search API
+Keywords: add bates numbering, load pdf document, how to add bates numbering
+PRNumber: 136
