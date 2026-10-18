@@ -24,17 +24,11 @@ title: Создание PDF‑документа с несколькими ви�
 url: /ru/net/programming-with-forms/create-pdf-document-with-multiple-textbox-widgets-step-by-st/
 ---
 
-" is part of the tutorial, but it's a phrase to translate? The instruction: translate all text content naturally to Russian, but keep technical terms in English. "create pdf document" is a phrase but includes "pdf". Probably translate to Russian but keep "pdf". So "создать PDF‑документ". The bold phrase should be translated: **создать PDF‑документ**. Similarly **how to add textbox pdf** keep as phrase but translate: **как добавить textbox pdf**? But "textbox pdf" is technical term; maybe keep as is. We'll translate the surrounding text.
 
-Let's produce translation.
 
-Proceed.
 
-We'll keep code block placeholders unchanged.
 
-Also need to translate bullet points, list items.
 
-Let's craft final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

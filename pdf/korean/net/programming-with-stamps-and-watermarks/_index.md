@@ -26,11 +26,15 @@ Aspose.PDF의 .NET용 "스탬프 및 워터마크 프로그래밍" 튜토리얼�
 | [PDF 파일에 PDF 페이지 스탬프 추가](./add-pdf-page-stamp/) | Aspose.PDF for .NET을 사용하여 PDF 페이지 스탬프를 추가하는 방법을 이 자세한 가이드를 통해 알아보세요. PDF 문서의 효과를 높여 보세요. |  
 | [PDF 파일에 텍스트 스탬프 추가](./add-text-stamp/) | Aspose.PDF for .NET을 사용하여 PDF 파일에 텍스트 스탬프를 추가하는 방법을 단계별 가이드를 통해 알아보고 문서 프레젠테이션을 한 단계 업그레이드하세요. |  
 | [PDF에 스탬프 추가 – 첫 페이지에 워터마크 적용](./add-stamp-to-pdf-apply-watermark-pdf-on-first-page/) | Aspose.PDF for .NET을 사용하여 PDF 첫 페이지에 스탬프와 워터마크를 적용하는 방법을 단계별로 안내합니다. |
+| [PDF에 스탬프 추가 방법 – 자동 맞춤 텍스트 완전 가이드](./how-to-add-stamp-pdf-complete-guide-with-auto-fit-text/) | Aspose.PDF for .NET을 사용하여 자동 맞춤 텍스트와 함께 PDF에 스탬프를 추가하는 방법을 단계별로 안내합니다. |  
 | [PDF 파일에서 아티팩트 계산](./counting-artifacts/) Aspose.PDF for .NET을 사용하여 PDF의 워터마크 개수를 세는 방법을 알아보세요. 사전 경험이 없는 초보자를 위한 단계별 가이드입니다. |  
 | [PDF 파일에서 정렬 정의](./define-alignment/) | 이 가이드에서는 Aspose.PDF for .NET을 사용하여 PDF 파일의 텍스트 정렬을 정의하는 방법을 단계별 자습서와 함께 설명합니다. |  
 | [스탬프 주석에서 텍스트 추출](./extract-text-from-stamp-annotation/) | Aspose.PDF for .NET을 사용하여 PDF의 스탬프 주석에서 텍스트를 추출하는 방법을 단계별 튜토리얼과 자세한 코드 예제를 통해 알아보세요. |  
 | [PDF 파일에 텍스트 채우기](./fill-stroke-text/) | Aspose.PDF for .NET을 사용하여 PDF 파일의 획 텍스트를 손쉽게 채우는 방법을 실용적인 예제가 가득한 단계별 가이드를 통해 알아보세요. |  
 | [PDF 파일에서 워터마크 가져오기](./get-watermark/) | Aspose.PDF for .NET을 사용하여 PDF 파일에서 워터마크를 추출하는 방법을 단계별 가이드와 함께 알아보세요. 워터마크 추출에 대한 자세한 튜토리얼입니다. |  
+| [C#에서 워터마크 PDF 추가 – Aspose와 함께하는 완전 가이드](./add-watermark-pdf-in-c-complete-guide-with-aspose/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF에 워터마크를 추가하는 방법을 단계별로 안내합니다. |  
+| [워터마크 PDF 추가 방법 – Aspose로 텍스트 오버레이 PDF 추가](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) Aspose.PDF for .NET을 사용하여 텍스트 오버레이 워터마크를 PDF에 추가하는 방법을 단계별로 안내합니다. |  
+| [PDF 파일에 투명도 추가 – 완전 C# 가이드](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) | Aspose.PDF for .NET을 사용해 PDF에 투명 효과를 적용하는 방법을 단계별 예제와 함께 자세히 설명합니다. |  
 | [헤더 푸터 섹션의 이미지 및 페이지 번호](./image-and-page-number-in-header-footer-section/) 이 단계별 튜토리얼에서는 Aspose.PDF for .NET을 사용하여 PDF의 머리글과 바닥글에 이미지와 페이지 번호를 추가하는 방법을 알아봅니다. |  
 | [헤더 푸터 섹션 인라인의 이미지 및 페이지 번호](./image-and-page-number-in-header-footer-section-inline/) | 이 단계별 가이드를 통해 Aspose.PDF for .NET을 사용하여 PDF의 머리글 섹션에 이미지와 페이지 번호를 인라인으로 추가하는 방법을 알아보세요. |  
 | [바닥글의 이미지](./image-in-footer/) | Aspose.PDF for .NET을 사용하여 PDF 푸터에 이미지를 추가하는 방법을 단계별로 자세히 알아보세요. 문서 품질 향상에 매우 유용합니다. |  
@@ -49,6 +53,15 @@ Aspose.PDF의 .NET용 "스탬프 및 워터마크 프로그래밍" 튜토리얼�
 | [PDF 저장 방법 — Aspose.Pdf로 베이츠 번호 매기기 추가](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) | Aspose.PDF for .NET을 사용하여 PDF 파일에 베이츠 번호를 추가하고 저장하는 방법을 단계별로 안내합니다. |  
 | [PDF 워터마크 만들기 – 스탬프 추가 및 DOCX를 PDF로 변환](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) | Aspose.PDF for .NET을 사용해 DOCX를 PDF로 변환하고, PDF에 워터마크와 스탬프를 추가하는 방법을 단계별로 안내합니다. |
 | [C#에서 베이츠 번호 매기기로 PDF 문서 만들기 – 전체 가이드](./create-pdf-document-with-bates-numbering-in-c-full-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 베이츠 번호 매기기를 적용해 PDF 문서를 만드는 방법을 단계별 가이드로 확인하세요. |  
+| [Aspose.Pdf를 사용하여 PDF에 스탬프 추가하는 방법 – 단계별 가이드](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) | Aspose.Pdf for .NET을 이용해 PDF 파일에 스탬프를 삽입하는 과정을 단계별로 안내합니다. |  
+| [PDF 전체 페이지 공지 만들기 – 빠른 C# 가이드](./create-pdf-full-page-notice-quick-c-guide/) | Aspose.PDF for .NET을 사용하여 전체 페이지에 공지를 추가하는 간단한 C# 예제와 단계별 가이드를 제공합니다. |
+| [C#을 사용하여 PDF에 베이츠 번호 매기기 추가 – 완전 가이드](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Aspose.PDF for .NET을 사용하여 C#으로 PDF에 베이츠 번호를 자동으로 삽입하고 관리하는 방법을 단계별로 안내합니다. |  
+| [Aspose를 사용하여 PDF에 베이츠 번호 매기기 – 완전 가이드](./add-bates-numbering-to-pdfs-with-aspose-complete-guide/) | Aspose.PDF for .NET을 사용하여 PDF에 베이츠 번호를 추가하는 방법을 단계별로 안내합니다. |  
+| [C#로 PDF에 베이츠 번호 매기기 추가하기 – 완전 가이드](./how-to-add-bates-numbering-in-pdf-with-c-complete-guide/) | Aspose.PDF for .NET을 사용하여 C#로 PDF에 베이츠 번호를 자동으로 삽입하는 방법을 단계별로 안내합니다. |
+| [Bates 번호 매기기 PDF 추가 – Aspose와 함께하는 완전 가이드](./add-bates-numbering-pdf-complete-guide-with-aspose/) | Aspose.PDF for .NET을 사용하여 PDF에 Bates 번호 매기기를 적용하는 방법을 단계별 예제와 함께 자세히 안내합니다. |
+| [C#을 사용하여 PDF에 베이츠 번호 매기기 추가 – 완전 단계별 가이드](./add-bates-numbering-to-pdf-in-c-complete-step-by-step-guide/) | Aspose.PDF for .NET을 사용해 C#에서 PDF에 베이츠 번호를 추가하는 방법을 단계별로 안내합니다. |  
+| [Aspose.Words를 사용하여 Word에 텍스트 워터마크 만들기 – 완전 가이드](./create-text-watermark-in-word-with-aspose-words-complete-gui/) | Aspose.Words for .NET을 활용해 Word 문서에 텍스트 워터마크를 추가하는 방법을 단계별로 안내합니다. |
+| [Bates 번호 매기기 튜토리얼: Aspose를 사용하여 PDF에 번호 추가](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) Aspose.PDF for .NET을 사용하여 PDF에 Bates 번호를 추가하는 방법을 단계별 가이드로 알아보세요. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

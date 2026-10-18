@@ -50,6 +50,9 @@ Apprenez à créer des documents PDF accessibles et balisés avec Aspose.PDF dan
 ### [Comment créer des PDF multicouches avec Aspose.PDF pour .NET : guide complet](./create-multi-layer-pdfs-aspose-pdf-dotnet/)
 Apprenez à créer des documents PDF multicouches dynamiques et interactifs à l’aide d’Aspose.PDF pour .NET avec ce guide étape par étape.
 
+### [Enregistrer chaque calque PDF avec Aspose.Pdf – Guide étape par étape](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
+Apprenez à extraire et enregistrer individuellement chaque calque d'un fichier PDF à l'aide d'Aspose.Pdf en suivant un guide détaillé.
+
 ### [Comment créer des PDF balisés avec Aspose.PDF pour .NET : guide avancé](./creating-tagged-pdfs-aspose-pdf-dotnet/)
 Apprenez à créer des documents PDF balisés accessibles avec Aspose.PDF pour .NET. Améliorez la structure et l'accessibilité de vos documents grâce à ce guide complet.
 
@@ -69,6 +72,12 @@ Apprenez à modifier la transparence des objets PDF en C# avec Aspose.PDF, grâc
 
 ### [Comment exécuter l'OCR sur un PDF avec Aspose.PDF – Guide complet C#](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
 Apprenez à appliquer la reconnaissance optique de caractères (OCR) aux fichiers PDF en C# avec Aspose.PDF, étape par étape.
+
+### [Comparer des documents PDF avec Aspose.Pdf – Guide complet de diff visuel](./compare-pdf-documents-with-aspose-pdf-complete-visual-diff-g/)
+Apprenez à comparer visuellement des documents PDF et à générer un diff complet avec Aspose.Pdf.
+
+### [Comparer deux documents PDF – Guide complet C#](./compare-two-pdf-documents-complete-c-guide/)
+Apprenez à comparer deux fichiers PDF en C# et à générer un rapport de différences complet avec Aspose.PDF.
 
 ## Ressources supplémentaires
 

@@ -19,6 +19,19 @@ Tài liệu "Lập trình với PDF Pages" dành cho Aspose.PDF for .NET cung c�
 Hướng dẫn bao gồm hướng dẫn từng bước, ví dụ mã chi tiết và giải thích rõ ràng để dễ hiểu. Cho dù bạn là người mới bắt đầu hay nhà phát triển có kinh nghiệm, các tài nguyên này sẽ giúp bạn nắm vững các tính năng thao tác trang PDF do Aspose.PDF cung cấp cho .NET, mở ra những khả năng mới cho các dự án phát triển ứng dụng của bạn.
 
 ## Hướng dẫn
+
+{{< tutorial-card link="./rotate-pdf-page/" title="Xoay một trang PDF duy nhất 180 độ với Aspose.PDF for .NET" imgSrc="./rotate-pdf-page/images/thumb.png" >}}
+
+{{< tutorial-card link="./split-pdf/" title="Tách PDF sau trang thứ mười bằng Aspose.Pdf for .NET" imgSrc="./split-pdf/images/thumb.png" >}}
+
+{{< tutorial-card link="./rotate-pages/" title="Xoay Mỗi Trang PDF 180° Bằng Aspose.Pdf cho .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdf-pages/" title="So sánh các trang PDF từng trang với Aspose.Pdf for .NET" imgSrc="./compare-pdf-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdfs/" title="So sánh PDF với kích thước trang khác nhau bằng Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+
+
 | Tiêu đề | Mô tả |
 | --- | --- | 
 | [Thay đổi hướng](./change-orientation/) | Hướng dẫn từng bước để thay đổi hướng trang của PDF bằng Aspose.PDF cho .NET. Dễ dàng thực hiện và triển khai trong các dự án của bạn. |  
@@ -41,6 +54,15 @@ Hướng dẫn bao gồm hướng dẫn từng bước, ví dụ mã chi tiết 
 | [Tạo tài liệu PDF C# – Thêm số Bates](./create-pdf-document-c-add-bates-numbering/) | Hướng dẫn chi tiết cách thêm số Bates vào tài liệu PDF bằng C# với Aspose.PDF cho .NET. |  
 | [Thêm số Bates vào PDF – Hướng dẫn chi tiết từng bước để đánh số các trang PDF](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Hướng dẫn chi tiết các bước để thêm số Bates vào các trang PDF bằng Aspose.PDF cho .NET. |  
 | [Tạo tài liệu PDF C# – Thêm hình dạng & Trang trống](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Hướng dẫn chi tiết cách tạo tài liệu PDF, thêm các hình dạng và chèn trang trống bằng Aspose.PDF cho .NET trong C#. |  
+| [Thêm đánh số Bates vào PDF với Aspose – Hướng dẫn chi tiết](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Hướng dẫn từng bước để thêm đánh số Bates vào tài liệu PDF bằng Aspose.PDF cho .NET, phù hợp cho các dự án quản lý tài liệu. |  
+| [Thêm số Bates trong C# – Hướng dẫn chi tiết từng bước](./add-bates-numbering-in-c-step-by-step-guide/) | Hướng dẫn chi tiết cách thêm số Bates vào tài liệu PDF bằng C# với Aspose.PDF cho .NET. |  
+| [Thêm trang vào PDF – Hướng dẫn chi tiết từng bước cho nhà phát triển C#](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) | Hướng dẫn chi tiết cách thêm trang vào PDF bằng C# với Aspose.PDF cho .NET. |  
+| [Sắp xếp lại các trang PDF trong C# – Hướng dẫn chi tiết từng bước](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | Hướng dẫn chi tiết cách sắp xếp lại thứ tự các trang PDF bằng C# với Aspose.PDF cho .NET. |  
+| [Sắp xếp lại các trang PDF với Aspose.Pdf – Hướng dẫn C# đầy đủ](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) | Hướng dẫn chi tiết cách sắp xếp lại các trang PDF bằng C# với Aspose.PDF cho .NET. |  
+| [Thêm đánh số Bates vào PDF bằng C# – Hướng dẫn chi tiết](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Hướng dẫn chi tiết cách thêm đánh số Bates vào tài liệu PDF bằng C# với Aspose.PDF cho .NET. |  
+| [Sao chép trang PDF với Aspose.Pdf – Hướng dẫn chi tiết](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Hướng dẫn từng bước để sao chép một trang PDF bằng Aspose.Pdf cho .NET, giúp bạn nhân bản nội dung nhanh chóng và dễ dàng. |  
+| [Thêm số Bates vào PDF với Aspose.PDF – Hướng dẫn toàn diện](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Hướng dẫn chi tiết cách thêm số Bates vào tài liệu PDF bằng Aspose.PDF cho .NET. |  
+| [Thêm trang trống PDF với Aspose.PDF – Hướng dẫn đầy đủ](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Hướng dẫn chi tiết cách thêm một trang trống vào PDF bằng Aspose.PDF cho .NET trong hướng dẫn toàn diện. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -49,6 +71,12 @@ Hướng dẫn bao gồm hướng dẫn từng bước, ví dụ mã chi tiết 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Chèn trang trống và cập nhật số Bates](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Hướng dẫn chi tiết cách chèn một trang trống vào PDF và cập nhật số Bates bằng Aspose.PDF cho .NET. |  
 | [Tạo Trang PDF Trống – Hướng Dẫn Vẽ PDF Toàn Diện](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Hướng dẫn chi tiết cách tạo một trang PDF trống và vẽ nội dung bằng Aspose.PDF cho .NET. |  
 | [Thêm trang vào PDF với Aspose – Hướng dẫn C# đầy đủ](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Hướng dẫn chi tiết cách thêm trang vào tệp PDF bằng Aspose.PDF cho .NET sử dụng C#. |

@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: 本教學示範如何使用 Aspose.Pdf 逐頁並排比較兩個 PDF 檔，同時忽略每個文件中的特定矩形區域，產生僅突顯相關變更的差異 PDF。
+//ExStepSummary:0: 為兩個來源 PDF 以及輸出差異 PDF 定義檔案路徑。
+//ExStepSummary:1: 檢查兩個來源 PDF 是否皆存在，若有任一缺失則中止並顯示錯誤訊息。
+//ExStepSummary:2: 建立一個陣列，包含第一個 PDF 中要忽略的矩形區域。
+//ExStepSummary:3: 建立一個陣列，包含第二個 PDF 中要忽略的矩形區域。
+//ExStepSummary:4: 設定並排比較，將忽略區域陣列指派給相應的屬性。
+//ExStepSummary:5: 載入兩個 PDF 並執行並排比較，於指定路徑產生差異檔案。
+//ExStepSummary:6: 印出確認訊息，指出比較已完成以及差異 PDF 儲存的位置。
+//ExStep:0-
+const string sourcePdfA = "originalA.pdf";
+const string sourcePdfB = "originalB.pdf";
+const string diffPdfPath = "diff_output.pdf";
+
+//ExStep:1-
+if (!File.Exists(sourcePdfA) || !File.Exists(sourcePdfB))
+{
+    Console.Error.WriteLine("Required PDF files are missing.");
+    return;
+}
+
+//ExStep:2-
+Aspose.Pdf.Rectangle[] zonesToIgnoreA = new Aspose.Pdf.Rectangle[]
+{
+    new Aspose.Pdf.Rectangle(100, 500, 300, 600) // sample region in the first document
+};
+
+//ExStep:3-
+Aspose.Pdf.Rectangle[] zonesToIgnoreB = new Aspose.Pdf.Rectangle[]
+{
+    new Aspose.Pdf.Rectangle(50, 400, 250, 500) // sample region in the second document
+};
+
+//ExStep:4-
+var comparisonSettings = new SideBySideComparisonOptions
+{
+    ExcludeAreas1 = zonesToIgnoreA,
+    ExcludeAreas2 = zonesToIgnoreB
+    // Other settings may be adjusted here, e.g., ExcludeTables = true;
+};
+
+//ExStep:5-
+using (Document pdfA = new Document(sourcePdfA))
+using (Document pdfB = new Document(sourcePdfB))
+{
+    SideBySidePdfComparer.Compare(pdfA, pdfB, diffPdfPath, comparisonSettings);
+}
+
+//ExStep:6-
+Console.WriteLine($"Comparison finished. Output written to '{diffPdfPath}'.");
+//ExEnd

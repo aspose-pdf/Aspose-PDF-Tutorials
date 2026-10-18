@@ -53,6 +53,12 @@ Các hướng dẫn này cũng cung cấp các ví dụ mã chi tiết, giải t
 | [Hộp văn bản](./text-box/) | Khám phá cách dễ dàng thêm hộp văn bản vào PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Tăng cường tương tác của người dùng. |  
 | [Cách tạo PDF với Aspose – Thêm trường biểu mẫu và trang](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Hướng dẫn tạo PDF, thêm trường biểu mẫu và các trang bằng Aspose.PDF cho .NET trong các bước đơn giản. |  
 | [Tạo PDF với các trang và trường hộp văn bản – Hướng dẫn C# đầy đủ](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Hướng dẫn chi tiết cách tạo PDF với các trang và trường hộp văn bản bằng C# và Aspose.PDF cho .NET. |  
+| [Tạo tài liệu PDF với Aspose – Thêm trường hộp văn bản](./create-pdf-document-with-aspose-add-text-box-field/) | Tìm hiểu cách tạo tài liệu PDF và thêm trường hộp văn bản bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. |  
+| [Tạo tài liệu PDF C# – Hướng dẫn từng bước cho biểu mẫu đa trang](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Hướng dẫn chi tiết cách tạo tài liệu PDF đa trang với các biểu mẫu bằng C# và Aspose.PDF cho .NET. |  
+| [Tạo biểu mẫu đa trang trong C# với Aspose.Pdf – Hướng dẫn từng bước](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | Hướng dẫn chi tiết cách tạo biểu mẫu PDF đa trang bằng C# và Aspose.Pdf, bao gồm các bước thực hiện từng phần. |
+| [Thêm Hộp Văn Bản vào Biểu Mẫu PDF – Hướng Dẫn C# Đầy Đủ](./add-text-box-to-pdf-form-complete-c-guide/) | Tìm hiểu cách thêm hộp văn bản vào biểu mẫu PDF bằng Aspose.PDF cho .NET với hướng dẫn chi tiết bằng C#. |  
+| [Tạo trường hộp văn bản PDF – Hướng dẫn từng bước](./create-pdf-textbox-field-step-by-step-guide/) | Tìm hiểu cách tạo trường hộp văn bản trong PDF bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. |
+| [Nhập FDF vào PDF bằng C# – Hướng dẫn chi tiết từng bước](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Tìm hiểu cách nhập tệp FDF vào tài liệu PDF bằng C# sử dụng Aspose.PDF cho .NET trong hướng dẫn chi tiết từng bước. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -61,6 +67,12 @@ Các hướng dẫn này cũng cung cấp các ví dụ mã chi tiết, giải t
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Cách tạo PDF với Aspose – Thêm trường vào bộ sưu tập](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Tìm hiểu cách tạo tệp PDF và thêm trường vào bộ sưu tập bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết này. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -70,6 +82,12 @@ Các hướng dẫn này cũng cung cấp các ví dụ mã chi tiết, giải t
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Thêm số Bates vào PDF – Hướng dẫn C# từng bước](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Hướng dẫn chi tiết cách thêm số Bates vào tài liệu PDF bằng Aspose.PDF cho .NET với C# trong vài bước đơn giản. |
 | [Tạo tài liệu PDF với nhiều widget Hộp văn bản – Hướng dẫn từng bước](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Tìm hiểu cách tạo tài liệu PDF có nhiều hộp văn bản bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết này. |
 | [Cách Thêm Hộp Văn Bản PDF – Tạo Trường Biểu Mẫu PDF & Lưu Tài Liệu PDF Đã Chỉnh Sửa](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Hướng dẫn chi tiết cách thêm hộp văn bản vào biểu mẫu PDF, tạo trường biểu mẫu và lưu tài liệu PDF đã chỉnh sửa bằng Aspose.PDF cho .NET. |  

@@ -23,13 +23,10 @@ title: PDF-document maken met meerdere tekstvak‑widgets – Stapsgewijze handl
 url: /nl/net/programming-with-forms/create-pdf-document-with-multiple-textbox-widgets-step-by-st/
 ---
 
-CODE_BLOCK_X}}; we keep them unchanged.
 
-Check for image alt and title: we changed alt and title. That's allowed because alt text is not a URL. Must preserve formatting.
 
-Check for any other links: none.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

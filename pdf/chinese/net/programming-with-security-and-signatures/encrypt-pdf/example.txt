@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: 本教程演示如何使用 Aspose.Pdf 加载已有 PDF，限制其权限，使用用户（client）和所有者（admin）密码以及 AES‑256 算法进行加密，并保存受保护的文档。
+//ExStepSummary:0: 声明源文件和目标文件的路径，以及用户（client）和所有者（admin）密码。
+//ExStepSummary:1: 检查源 PDF 是否存在，如果不存在则以错误信息中止。
+//ExStepSummary:2: 打开 PDF，仅允许内容修改和提取，使用 AES‑256 和两个密码进行加密，保存受保护的文件，并显示成功信息。
+//ExStepSummary:3: 捕获所有出现的错误，并将异常信息写入错误控制台。
+//ExStep:0-
+const string sourceFile = "original.pdf";
+const string destinationFile = "protected.pdf";
+const string clientPwd = "clientPwd";
+const string adminPwd = "adminPwd";
+
+//ExStep:1-
+if (!File.Exists(sourceFile))
+{
+    Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+    return;
+}
+
+//ExStep:2-
+try
+{
+    using (Document pdfDoc = new Document(sourceFile))
+    {
+        Permissions allowedPerms = Permissions.ModifyContent | Permissions.ExtractContent;
+
+        pdfDoc.Encrypt(clientPwd, adminPwd, allowedPerms, CryptoAlgorithm.AESx256);
+
+        pdfDoc.Save(destinationFile);
+    }
+
+    Console.WriteLine($"Secured PDF written to '{destinationFile}'.");
+}
+
+//ExStep:3-
+catch (Exception ex)
+{
+    Console.Error.WriteLine($"Failure: {ex.Message}");
+}
+//ExEnd

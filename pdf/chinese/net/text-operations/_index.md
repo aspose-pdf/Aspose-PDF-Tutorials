@@ -20,6 +20,9 @@
 ### [使用 Aspose.PDF .NET 在 PDF 中进行高级正则表达式搜索：综合指南](./aspose-pdf-net-advanced-regex-searches/)
 了解如何使用 Aspose.PDF for .NET 在 PDF 文档中执行高级正则表达式搜索，涵盖精确匹配、不区分大小写和超链接提取。
 
+### [如何使用 Aspose.Pdf 搜索 PDF – 完整 C# 指南](./how-to-search-pdf-with-aspose-pdf-complete-c-guide/)
+了解如何使用 Aspose.Pdf 在 PDF 中执行搜索，提供完整的 C# 示例和最佳实践。
+
 ### [Aspose.PDF .NET：使用 FloatingBox 为 PDF 添加页码](./aspose-pdf-net-floatingbox-page-numbering/)
 学习如何使用 Aspose.PDF for .NET 添加页码，并逐步指导如何实现浮动框 (FloatingBox) 功能。提升您的文档导航能力，提升专业性。
 
@@ -166,6 +169,11 @@ Aspose.PDF Net 代码教程
 
 ### [使用 Aspose.PDF 对 PDF 进行编辑（遮蔽）——分步指南](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
 了解如何使用 Aspose.PDF for .NET 对 PDF 文档进行敏感信息遮蔽，包括文本和图像的删除与隐藏，确保文档安全合规。
+### [使用 Aspose.PDF AI 对 PDF 进行摘要的完整指南](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
+了解如何使用 Aspose.Pdf.AI 自动生成 PDF 内容摘要的完整步骤和代码示例。
+
+### [AI 聊天 PDF：使用 Aspose AI Copilot 提问 PDF 文档](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
+了解如何使用 Aspose AI Copilot 与 PDF 进行交互式问答，轻松获取文档信息。
 
 ## 其他资源
 

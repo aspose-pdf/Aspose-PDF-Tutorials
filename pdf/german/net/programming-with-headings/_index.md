@@ -19,6 +19,9 @@ Die Aspose.PDF für .NET-Tutorials führen Sie Schritt für Schritt zur Programm
 Entdecken Sie die Funktionen von Aspose.PDF für .NET mit speziellen Tutorials. Erfahren Sie anhand praktischer Beispiele und Schritt-für-Schritt-Erklärungen, wie Sie mit Überschriften in Ihren PDF-Dokumenten arbeiten. Verbessern Sie die Lesbarkeit und Navigation Ihrer PDF-Dateien mit diesen umfassenden Ressourcen.
 
 ## Anleitungen
+
+{{< tutorial-card link="./add-heading/" title="Überschrift, Sprache und Titel zu einem PDF hinzufügen mit Aspose.PDF for .NET" imgSrc="./add-heading/images/thumb.png" >}}
+
 | Titel | Beschreibung |
 | --- | --- | 
 | [Zahlenstil in PDF-Datei anwenden](./apply-number-style/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET verschiedene Zahlenstile (römische Ziffern, alphabetisch) auf Überschriften in einer PDF-Datei anwenden. |   

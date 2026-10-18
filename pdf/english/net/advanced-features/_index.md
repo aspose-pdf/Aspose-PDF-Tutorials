@@ -70,6 +70,13 @@ Learn how to compare two PDFs in C# using Aspose.PDF for .NET and generate a vis
 
 ### [How to Run OCR on PDF with Aspose.Pdf – Complete C# Guide](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
 Learn how to perform OCR on PDF files using Aspose.PDF for .NET with a complete C# implementation guide.
+### [Save Each PDF Layer with Aspose.Pdf – Step‑by‑Step Guide](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
+Learn how to extract and save individual PDF layers using Aspose.PDF for .NET with this detailed step‑by‑step guide.
+### [Compare PDF Documents with Aspose.Pdf – Complete Visual Diff Guide](./compare-pdf-documents-with-aspose-pdf-complete-visual-diff-g/)
+Learn how to compare PDF documents and generate a visual diff using Aspose.PDF for .NET with step-by-step C# examples.
+
+### [Compare Two PDF Documents – Complete C# Guide](./compare-two-pdf-documents-complete-c-guide/)
+Learn how to compare two PDF files using Aspose.PDF for .NET with a complete C# guide, covering code examples and visual diff generation.
 
 ## Additional Resources
 

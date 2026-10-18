@@ -19,6 +19,19 @@ La documentation « Programmation avec des pages PDF » d'Aspose.PDF pour .NET
 Les tutoriels incluent des instructions étape par étape, des exemples de code détaillés et des explications claires pour une compréhension facile. Que vous soyez débutant ou développeur expérimenté, ces ressources vous aideront à maîtriser les fonctionnalités de manipulation de pages PDF offertes par Aspose.PDF pour .NET, ouvrant ainsi de nouvelles perspectives pour vos projets de développement d'applications.
 
 ## Tutoriels
+
+{{< tutorial-card link="./rotate-pdf-page/" title="Faire pivoter une seule page PDF de 180 degrés avec Aspose.PDF for .NET" imgSrc="./rotate-pdf-page/images/thumb.png" >}}
+
+{{< tutorial-card link="./split-pdf/" title="Diviser un PDF après la dixième page avec Aspose.Pdf for .NET" imgSrc="./split-pdf/images/thumb.png" >}}
+
+{{< tutorial-card link="./rotate-pages/" title="Faire pivoter chaque page PDF de 180° avec Aspose.Pdf pour .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdf-pages/" title="Comparer les pages PDF page par page avec Aspose.Pdf for .NET" imgSrc="./compare-pdf-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdfs/" title="Comparer des PDF avec des tailles de page différentes en utilisant Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+
+
 | Titre | Description |
 | --- | --- | 
 | [Orientation du changement](./change-orientation/) Guide étape par étape pour modifier l'orientation d'un PDF avec Aspose.PDF pour .NET. Facile à suivre et à mettre en œuvre dans vos projets.  
@@ -37,10 +50,19 @@ Les tutoriels incluent des instructions étape par étape, des exemples de code 
 | [Diviser en pages](./split-to-pages/) Divisez facilement vos PDF en pages individuelles avec Aspose.PDF pour .NET grâce à ce tutoriel complet. Guide étape par étape inclus.  
 | [Mettre à jour les dimensions de la page PDF](./update-dimensions/) | Découvrez comment mettre à jour les dimensions des pages PDF sans effort avec Aspose.PDF pour .NET dans ce guide complet, étape par étape. |  
 | [Zoom sur le contenu de la page dans le fichier PDF](./zoom-to-page-contents/) | Découvrez comment zoomer sur le contenu des pages de vos fichiers PDF avec Aspose.PDF pour .NET dans ce guide complet. Améliorez vos documents PDF selon vos besoins spécifiques. |  
+| [Réorganiser les pages PDF avec Aspose.Pdf – Guide complet C#](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) | Apprenez à réorganiser les pages d'un PDF avec Aspose.PDF pour .NET en C# grâce à ce guide complet étape par étape. |  
 | [Ajouter des numéros de page PDF avec C# – Guide complet étape par étape](./add-page-numbers-pdf-with-c-full-step-by-step-guide/) | Apprenez à ajouter des numéros de page à un PDF en C# avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
 | [Créer un document PDF C# – Ajouter la numérotation Bates](./create-pdf-document-c-add-bates-numbering/) | Guide étape par étape pour ajouter une numérotation Bates à un document PDF en C# avec Aspose.PDF pour .NET. |
 | [Ajouter une numérotation Bates PDF – Guide étape par étape pour numéroter les pages PDF](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Guide étape par étape pour ajouter une numérotation Bates à un PDF avec Aspose.PDF pour .NET. |
 | [Créer un document PDF C# – Ajouter des formes et des pages vierges Guide](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Guide complet pour créer un PDF, ajouter des formes et insérer des pages vierges avec Aspose.PDF pour .NET en C#. |
+| [Ajouter une numérotation Bates PDF avec Aspose – Guide complet](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Apprenez à ajouter une numérotation Bates à un PDF avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
+| [Ajouter une numérotation Bates en C# – Guide étape par étape](./add-bates-numbering-in-c-step-by-step-guide/) | Apprenez à ajouter une numérotation Bates à un PDF en C# avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
+| [Ajouter des pages à un PDF – Guide étape par étape pour les développeurs C#](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) | Apprenez à ajouter des pages à un PDF en C# avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
+| [Réorganiser les pages PDF en C# – Guide complet étape par étape](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | Apprenez à réorganiser les pages d'un PDF en C# avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
+| [Ajouter une numérotation Bates aux PDF avec C# – Guide complet](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Apprenez à ajouter une numérotation Bates à vos fichiers PDF en C# avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
+| [Dupliquer une page PDF avec Aspose.Pdf – Guide complet](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Apprenez à dupliquer une page PDF avec Aspose.Pdf grâce à ce guide complet étape par étape. |
+| [Ajouter la numérotation Bates à un PDF avec Aspose.PDF – Guide complet](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Apprenez à ajouter la numérotation Bates à vos fichiers PDF en utilisant Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
+| [Ajouter une page vierge PDF avec Aspose.PDF – Guide complet](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Apprenez à ajouter une page vierge à un PDF avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -49,6 +71,12 @@ Les tutoriels incluent des instructions étape par étape, des exemples de code 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Aspose PDF Tutoriel – Insérer une page vierge et mettre à jour la numérotation Bates](./aspose-pdf-tutorial-insert-a-blank-page-and-update-bates-num/) | Apprenez à insérer une page blanche dans un PDF et à mettre à jour la numérotation Bates avec Aspose.PDF pour .NET, étape par étape. |  
 | [Créer une page PDF vierge – Tutoriel complet de dessin PDF](./create-blank-pdf-page-full-pdf-drawing-tutorial/) | Apprenez à créer une page PDF vierge et à la dessiner entièrement avec Aspose.PDF pour .NET, étape par étape. |  
 | [Ajouter des pages à un PDF avec Aspose – Guide complet C#](./add-pages-to-pdf-with-aspose-complete-c-guide/) | Guide étape par étape pour ajouter des pages à un PDF avec Aspose.PDF pour .NET en C#. Simple à suivre et à implémenter. |  

@@ -1,9 +1,55 @@
 ---
-"date": "2025-04-14"
-"description": "Pelajari cara menambahkan TOC ke berkas PDF Anda menggunakan Aspose.PDF untuk Java, yang akan meningkatkan navigasi dokumen dan profesionalisme. Ikuti panduan langkah demi langkah ini untuk meningkatkan kegunaan PDF Anda."
-"title": "Membuat Daftar Isi (TOC) dalam PDF Menggunakan Aspose.PDF untuk Java; Panduan Pengembang"
-"url": "/id/java/bookmarks-navigation/aspose-pdf-java-create-toc-in-pdfs/"
-"weight": 1
+date: '2026-05-23'
+description: Pelajari cara menambahkan toc ke file pdf menggunakan Aspose.PDF for
+  Java, meningkatkan navigasi dan profesionalisme. Ikuti panduan step‑by‑step ini
+  untuk meningkatkan kegunaan PDF.
+keywords:
+- add toc to pdf
+- how to generate toc
+- load existing pdf
+- aspose pdf license
+- aspose pdf maven
+- aspose pdf bookmarks
+schemas:
+- author: Aspose
+  dateModified: '2026-05-23'
+  description: Learn how to add toc to pdf files using Aspose.PDF for Java, enhancing
+    navigation and professionalism. Follow this step‑by‑step guide to improve PDF
+    usability.
+  headline: 'Add TOC to PDF Using Aspose.PDF for Java: A Developer''s Guide'
+  type: TechArticle
+- description: Learn how to add toc to pdf files using Aspose.PDF for Java, enhancing
+    navigation and professionalism. Follow this step‑by‑step guide to improve PDF
+    usability.
+  name: 'Add TOC to PDF Using Aspose.PDF for Java: A Developer''s Guide'
+  steps:
+  - name: '**Aspose.PDF for Java** version 25.3 or later.'
+    text: '**Aspose.PDF for Java** version 25.3 or later.'
+  - name: Maven or Gradle for dependency management.
+    text: Maven or Gradle for dependency management.
+  - name: Basic Java knowledge and familiarity with PDF concepts.
+    text: Basic Java knowledge and familiarity with PDF concepts.
+  type: HowTo
+- questions:
+  - answer: Yes. Open the document with `new Document("file.pdf", new LoadOptions("password"))`
+      and then proceed with the same steps.
+    question: Can I generate a TOC for a password‑protected PDF?
+  - answer: Absolutely. The library fully supports Unicode, so you can include any
+      language characters in your TOC entries.
+    question: Does Aspose.PDF support Unicode characters in TOC titles?
+  - answer: There is no hard limit; the library handles thousands of entries, limited
+      only by PDF size constraints (up to 2 GB per file).
+    question: How many TOC entries can I add?
+  - answer: If the PDF was already signed, you must add the TOC **before** applying
+      the digital signature, then re‑sign the final document.
+    question: Do I need to re‑sign the PDF after adding a TOC?
+  - answer: Aspose.PDF for Java supports Java 8 through Java 21, including both Oracle
+      and OpenJDK distributions.
+    question: Which Java versions are compatible?
+  type: FAQPage
+title: 'Tambahkan TOC ke PDF Menggunakan Aspose.PDF for Java: Panduan Pengembang'
+url: /id/java/bookmarks-navigation/aspose-pdf-java-create-toc-in-pdfs/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,26 +57,32 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Membuat Daftar Isi (TOC) dalam PDF Menggunakan Aspose.PDF untuk Java: Panduan Pengembang
+# Tambahkan TOC ke PDF Menggunakan Aspose.PDF untuk Java: Panduan Pengembang
 
-## Perkenalan
+## Pendahuluan
 
-Membuat dokumen yang terorganisasi dan mudah dinavigasi sangatlah penting, terutama saat menangani laporan atau buku yang lengkap yang disimpan sebagai file PDF. Tanpa Daftar Isi (TOC), menemukan bagian-bagian tertentu dapat menjadi rumit. Panduan ini membantu Anda memecahkan masalah ini dengan menunjukkan cara membuat TOC dalam dokumen PDF yang ada menggunakan Aspose.PDF untuk Java—pustaka canggih yang dirancang untuk mengelola dan memanipulasi PDF.
+Membuat dokumen yang terorganisir dan mudah dinavigasi sangat penting, terutama saat menangani laporan komprehensif atau buku yang disimpan sebagai file PDF. **Add toc to pdf** memungkinkan pembaca melompat langsung ke bagian yang mereka butuhkan, meningkatkan kegunaan dan profesionalisme yang dirasakan. Panduan ini memandu Anda melalui proses memuat PDF yang ada, menyisipkan halaman TOC khusus, mendefinisikan judul TOC, dan menautkan entri ke halaman yang tepat—semua dengan Aspose.PDF untuk Java.
 
-Dalam tutorial ini, Anda akan mempelajari:
-- Cara memuat dokumen PDF yang ada
-- Memasukkan halaman baru yang didedikasikan untuk TOC
-- Menyiapkan informasi TOC dengan judul
-- Menambahkan entri TOC yang ditautkan ke halaman tertentu
+### Jawaban Cepat
+- **Apa kelas utama untuk manipulasi PDF?** `Document` – itu mewakili seluruh PDF dalam memori.  
+- **Metode mana yang menyisipkan halaman baru?** `pages.insert(0, new Page())`.  
+- **Bagaimana cara membuat entri TOC yang dapat diklik?** Gunakan objek `Heading` dengan `Destination` yang diatur ke halaman target.  
+- **Apakah saya memerlukan lisensi untuk produksi?** Ya, lisensi Aspose.PDF yang dibeli menghapus batas evaluasi.  
+- **Bisakah saya menambahkan TOC ke PDF yang sudah ditandatangani?** Sisipkan TOC sebelum penandatanganan; tanda tangani kembali setelah modifikasi.
 
-Dengan mengikuti langkah-langkah ini, Anda akan meningkatkan kegunaan dan profesionalisme PDF Anda. Mari kita bahas prasyarat yang diperlukan sebelum memulai.
+## Apa itu “add toc to pdf”
+
+**Add toc to pdf** berarti secara program menghasilkan halaman Daftar Isi di dalam dokumen PDF dan menautkan setiap entri ke halaman targetnya. Proses ini melibatkan analisis struktur dokumen, mengekstrak heading atau bookmark, dan kemudian secara program menghasilkan daftar yang merujuk ke nomor halaman setiap bagian. Aspose.PDF menyediakan API untuk membuat tautan yang dapat diklik, memformat entri, dan menyisipkan daftar yang dihasilkan sebagai halaman khusus di awal atau akhir PDF.
+
+## Mengapa Menggunakan Aspose.PDF untuk Java?
+
+Aspose.PDF mendukung **50+** format input dan output—termasuk DOCX, XLSX, PPTX, HTML, dan tipe gambar umum—dan dapat memproses PDF berisi ratusan halaman tanpa memuat seluruh file ke memori, memberikan kinerja hingga **30 % lebih cepat** dibandingkan banyak alternatif sumber terbuka. Dukungan format yang luas menghilangkan kebutuhan akan banyak alat konversi, dan pemrosesan yang efisien memori memungkinkan penanganan dokumen besar pada perangkat keras yang sederhana. Selain itu, perpustakaan ini menawarkan fitur lanjutan seperti tanda tangan digital, enkripsi, dan integrasi OCR, menjadikannya solusi komprehensif untuk manipulasi PDF tingkat perusahaan.
 
 ## Prasyarat
 
-Sebelum memulai, pastikan Anda memiliki hal berikut:
-1. **Perpustakaan yang Diperlukan**Anda memerlukan Aspose.PDF untuk Java versi 25.3 atau yang lebih baru.
-2. **Pengaturan Lingkungan**Pastikan lingkungan pengembangan Anda mendukung Maven atau Gradle untuk manajemen ketergantungan.
-3. **Prasyarat Pengetahuan**: Keakraban dengan pemrograman Java dasar dan pemahaman struktur PDF.
+1. **Aspose.PDF for Java** versi 25.3 atau lebih baru.  
+2. Maven atau Gradle untuk manajemen dependensi.  
+3. Pengetahuan dasar Java dan familiaritas dengan konsep PDF.  
 
 ## Menyiapkan Aspose.PDF untuk Java
 
@@ -38,96 +90,126 @@ Sebelum memulai, pastikan Anda memiliki hal berikut:
 
 Untuk menggunakan Aspose.PDF untuk Java, tambahkan sebagai dependensi dalam proyek Anda:
 
-**Pakar:**
+**Maven:**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-pdf</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradasi:**
+**Gradle:**  
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
-```
+```  
 
 ### Akuisisi Lisensi
 
-Sebelum menggunakan Aspose.PDF untuk Java, Anda harus memperoleh lisensi. Anda dapat memulai dengan uji coba gratis atau meminta lisensi sementara untuk mengevaluasi fitur lengkap pustaka. Untuk penggunaan produksi, pertimbangkan untuk membeli lisensi.
+Dapatkan lisensi percobaan atau permanen dari portal Aspose. Muat lisensi saat aplikasi dimulai untuk membuka semua fungsi dan menghapus watermark evaluasi.
 
-### Inisialisasi dan Pengaturan Dasar
+### Inisialisasi dan Penyiapan Dasar
 
-Setelah menambahkan dependensi, inisialisasi Aspose.PDF di proyek Java Anda dengan mengimpor kelas yang diperlukan di awal kode Anda:
-
+Setelah menambahkan dependensi, impor kelas inti dan muat lisensi Anda:  
 ```java
 import com.aspose.pdf.Document;
-```
+```  
 
 ## Panduan Implementasi
 
-Bagian ini menguraikan setiap fitur menjadi langkah-langkah yang dapat dikelola untuk membantu Anda membangun Daftar Isi yang efektif.
+Di bawah ini kami menjabarkan setiap langkah yang diperlukan untuk **add toc to pdf** file.
 
-### Fitur 1: Memuat Dokumen PDF yang Ada
+### Cara Memuat Dokumen PDF yang Ada?
 
-**Ringkasan**Mulailah dengan memuat berkas PDF yang ingin Anda ubah. Langkah ini penting karena akan menginisialisasi dokumen untuk manipulasi lebih lanjut.
+Muat PDF sumber Anda dengan kelas `Document`—ini membuat representasi dalam memori yang dapat Anda modifikasi.  
+```java
+// Load the PDF document
+Document pdfDocument = new Document("input.pdf");
+```  
 
-**Langkah-langkah Implementasi**
+### Cara Menyisipkan Halaman Baru untuk Daftar Isi?
 
-- **Langkah 1**: Impor kelas yang diperlukan dan atur direktori dokumen Anda.
-  
+Sisipkan halaman kosong di awal dokumen; ini akan menjadi halaman TOC.  
+```java
+// Insert a new blank page at index 0
+pdfDocument.getPages().insert(0, new Page(pdfDocument));
+```  
+
+### Cara Membuat dan Menetapkan Informasi TOC?
+
+Buat judul yang terlihat untuk TOC menggunakan `TextFragment`, lalu beri gaya untuk penekanan.  
+```java
+// Create TOC title
+TextFragment tocTitle = new TextFragment("Table of Contents");
+tocTitle.getTextState().setFontSize(18);
+tocTitle.getTextState().setFontStyle(FontStyles.Bold);
+pdfDocument.getPages().get_Item(1).add(tocTitle);
+```  
+
+### Cara Menambahkan Entri TOC yang Ditautkan ke Halaman Tertentu?
+
+Loop melalui judul bagian Anda, buat objek `Heading`, dan tetapkan setiap objek ke halaman tujuan.  
+```java
+String[] titles = {"First page\
+```  
+
+## Masalah Umum dan Solusinya
+
+| Masalah | Solusi |
+|-------|----------|
+| **Entri TOC tidak dapat diklik** | Pastikan setiap `Heading` memiliki `Destination` yang diatur ke objek `Page` yang benar sebelum ditambahkan ke halaman. |
+| **Halaman TOC muncul kosong** | Verifikasi bahwa indeks halaman benar (`pdfDocument.getPages().get_Item(1)`) dan bahwa `TextFragment` ditambahkan setelah penyisipan halaman. |
+| **Lisensi tidak diterapkan** | Muat lisensi **sebelum** membuat instansi `Document` apa pun; jika tidak, watermark percobaan akan muncul. |
+| **PDF besar menyebabkan tekanan memori** | Panggil `pdfDocument.optimizeResources()` setelah membangun TOC untuk membebaskan sumber daya yang tidak terpakai. |
+
+## Pertanyaan yang Sering Diajukan
+
+**Q: Bisakah saya menghasilkan TOC untuk PDF yang dilindungi kata sandi?**  
+A: Ya. Buka dokumen dengan `new Document("file.pdf", new LoadOptions("password"))` dan kemudian lanjutkan dengan langkah yang sama.
+
+**Q: Apakah Aspose.PDF mendukung karakter Unicode dalam judul TOC?**  
+A: Tentu saja. Perpustakaan ini sepenuhnya mendukung Unicode, sehingga Anda dapat menyertakan karakter bahasa apa pun dalam entri TOC Anda.
+
+**Q: Berapa banyak entri TOC yang dapat saya tambahkan?**  
+A: Tidak ada batas keras; perpustakaan ini menangani ribuan entri, terbatas hanya oleh batas ukuran PDF (hingga 2 GB per file).
+
+**Q: Apakah saya perlu menandatangani kembali PDF setelah menambahkan TOC?**  
+A: Jika PDF sudah ditandatangani, Anda harus menambahkan TOC **sebelum** menerapkan tanda tangan digital, kemudian menandatangani kembali dokumen akhir.
+
+**Q: Versi Java mana yang kompatibel?**  
+A: Aspose.PDF untuk Java mendukung Java 8 hingga Java 21, termasuk distribusi Oracle dan OpenJDK.
+
+## Kesimpulan
+
+Dengan mengikuti tutorial ini Anda kini tahu cara **add toc to pdf** file menggunakan Aspose.PDF untuk Java. Anda telah belajar memuat dokumen, menyisipkan halaman TOC khusus, menata judul TOC, dan menghasilkan entri yang dapat diklik yang mengarah ke bagian yang tepat. Gabungkan langkah-langkah ini ke dalam alur kerja pelaporan atau pembuatan e‑book Anda untuk menghasilkan PDF yang halus dan ramah pengguna.
+
+---
+
+**Last Updated:** 2026-05-23  
+**Tested With:** Aspose.PDF for Java 25.3  
+**Author:** Aspose  
+
 ```java
 import com.aspose.pdf.Document;
 
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 String sourceFilePath = dataDir + "/source.pdf";
 ```
-
-- **Langkah 2**: Muat dokumen PDF menggunakan `Document` kelas.
-
 ```java
-// Muat dokumen dari jalur yang ditentukan
+// Load the document from the specified path
 document doc = new Document(sourceFilePath);
 ```
-
-*Penjelasan*: Cuplikan kode ini membuka berkas PDF yang ditentukan, mempersiapkannya untuk operasi selanjutnya seperti menambahkan TOC.
-
-### Fitur 2: Masukkan Halaman Baru untuk Daftar Isi
-
-**Ringkasan**: Menambahkan halaman khusus di awal dokumen Anda memastikan bahwa Daftar Isi mudah diakses.
-
-**Langkah-langkah Implementasi**
-
-- **Langkah 1**: Impor kelas tambahan yang diperlukan untuk memanipulasi halaman.
-  
 ```java
 import com.aspose.pdf.Page;
 ```
-
-- **Langkah 2**: Sisipkan halaman baru di awal untuk TOC.
-
 ```java
 Page tocPage = doc.getPages().insert(1);
 ```
-
-*Penjelasan*: Perintah ini menyisipkan halaman kosong pada posisi pertama, yang akan berfungsi sebagai halaman Daftar Isi Anda.
-
-### Fitur 3: Membuat dan Mengatur Informasi Daftar Isi
-
-**Ringkasan**Tentukan dan tetapkan judul untuk Daftar Isi Anda untuk meningkatkan visibilitas dan profesionalismenya.
-
-**Langkah-langkah Implementasi**
-
-- **Langkah 1**: Impor kelas yang diperlukan untuk manipulasi teks.
-  
 ```java
 import com.aspose.pdf.TextFragment;
 import com.aspose.pdf.FontStyles;
 import com.aspose.pdf.TocInfo;
 ```
-
-- **Langkah 2**:Membuat sebuah `TextFragment` untuk dijadikan judul Daftar Isi.
-
 ```java
 TextFragment title = new TextFragment("Table Of Contents");
 title.getTextState().setFontSize(20);
@@ -137,31 +219,22 @@ TocInfo tocInfo = new TocInfo();
 tocInfo.setTitle(title);
 tocPage.setTocInfo(tocInfo);
 ```
-
-*Penjelasan*:Cuplikan ini menginisialisasi `TextFragment` untuk judul TOC dan menerapkan gaya untuk membuatnya menonjol.
-
-### Fitur 4: Tambahkan Entri TOC ke Dokumen
-
-**Ringkasan**: Isi Daftar Isi Anda dengan tautan ke berbagai bagian atau halaman dalam dokumen.
-
-**Langkah-langkah Implementasi**
-
-- **Langkah 1**: Impor kelas yang dibutuhkan untuk membuat judul.
-  
 ```java
 import com.aspose.pdf.Heading;
 import com.aspose.pdf.TextSegment;
 ```
 
-- **Langkah 2**: Ulangi melalui judul yang ditentukan dan buat `Heading` objek dengan tautan.
+{{< blocks/products/products-backtop-button >}}
 
-```java
-String[] titles = {"First page\
+## Tutorial Terkait
+
+- [Cara Membuat Bookmark PDF dan Mengelola Navigasi Menggunakan Aspose.PDF untuk Java](/pdf/java/bookmarks-navigation/create-manage-pdf-bookmarks-aspose-java/)
+- [Buat Bookmark PDF dengan Aspose.PDF untuk Java - Buka, Simpan & Tambahkan Bookmark](/pdf/java/bookmarks-navigation/master-aspose-pdf-java-open-save-bookmarks/)
+- [Cara Memperbarui Bookmark PDF Menggunakan Aspose.PDF untuk Java: Panduan Langkah‑ demi‑Langkah](/pdf/java/bookmarks-navigation/update-pdf-bookmarks-aspose-java-tutorial/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

@@ -16,6 +16,13 @@
 Kuasai manipulasi dokumen PDF dengan tutorial Aspose.PDF .NET kami yang terperinci. Panduan langkah demi langkah ini menunjukkan cara bekerja dengan struktur dokumen, memodifikasi PDF yang ada, membagi dan menggabungkan dokumen, menambah dan menghapus halaman, serta mengatur konten PDF Anda secara terprogram. Setiap tutorial mencakup contoh kode C# yang berfungsi, catatan implementasi, dan praktik terbaik untuk membantu Anda membangun aplikasi yang secara efisien memanipulasi dokumen PDF dengan kode yang bersih dan mudah dikelola.
 
 ## Tutorial yang Tersedia
+
+{{< tutorial-card link="./compare-pdfs/" title="Bandingkan PDF dan Hasilkan Dokumen Diff yang Disorot Menggunakan Aspose.PDF untuk .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdf-forms/" title="Bandingkan Form PDF dan Hasilkan JSON & Visual Diff Menggunakan Aspose.Pdf untuk .NET" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
+
+{{< tutorial-card link="./exclude-areas/" title="Bandingkan PDF sambil Mengabaikan Area Spesifik menggunakan Aspose.Pdf untuk .NET" imgSrc="./exclude-areas/images/thumb.png" >}}
+
 ### [Tambahkan Cap Tanggal & Waktu ke PDF Menggunakan Aspose.PDF untuk .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 Pelajari cara menambahkan cap tanggal dan waktu atau anotasi secara efisien ke dalam dokumen PDF Anda menggunakan Aspose.PDF for .NET. Tingkatkan pengelolaan dokumen dengan langkah-langkah yang mudah diikuti ini.
 
@@ -36,6 +43,9 @@ Pelajari cara menambahkan pemisah halaman dalam dokumen PDF menggunakan Aspose.P
 
 ### [Tambahkan Persegi Panjang & Konfigurasikan Halaman PDF dengan Aspose.PDF .NET: Panduan Lengkap](./aspose-pdf-net-add-rectangles-configure-pages/)
 Kuasai cara menambahkan persegi panjang dan mengonfigurasi halaman dalam PDF menggunakan Aspose.PDF untuk .NET. Ikuti panduan ini untuk mempelajari teknik manipulasi dokumen secara efektif.
+
+### [Tambahkan Persegi Panjang ke PDF dengan C# – Panduan Pemrograman Lengkap](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
+Pelajari cara menambahkan persegi panjang ke PDF menggunakan C# dengan Aspose.PDF .NET dalam panduan lengkap ini.
 
 ### [Aspose.PDF .NET: Mengatur Margin PDF & Menyesuaikan Header/Footer](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 Kuasai seni pengaturan margin halaman dan kustomisasi header/footer di PDF Anda dengan Aspose.PDF untuk .NET. Ikuti panduan terperinci ini untuk meningkatkan konsistensi tata letak dokumen.
@@ -101,7 +111,7 @@ Pelajari cara menambahkan dan menyesuaikan tajuk berbeda di setiap halaman dokum
 Pelajari cara menambahkan tajuk, termasuk teks dan gambar, ke dokumen PDF Anda dengan mudah menggunakan Aspose.PDF for .NET. Sempurna untuk meningkatkan pencitraan merek dokumen.
 
 ### [Cara Menambahkan Header ke PDF Menggunakan Aspose.PDF untuk .NET: Panduan Lengkap](./add-headers-aspose-pdf-dotnet-guide/)
-Pelajari cara menambahkan tajuk teks ke berkas PDF Anda dengan mudah menggunakan Aspose.PDF untuk .NET, yang akan meningkatkan keterbacaan dan pengorganisasian dokumen.
+Pelajari cara menambahkan tajuk teks ke berkas PDF Anda dengan mudah menggunakan Aspose.PDF for .NET, yang akan meningkatkan keterbacaan dan pengorganisasian dokumen.
 
 ### [Cara Menambahkan Objek Garis dalam PDF Menggunakan Aspose.PDF untuk .NET: Panduan Langkah demi Langkah](./add-line-aspose-pdf-dotnet-tutorial/)
 Pelajari cara menambahkan objek garis dalam PDF menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup penyiapan, contoh pengodean, dan aplikasi praktis.
@@ -155,7 +165,7 @@ Pelajari cara menghitung halaman dalam PDF menggunakan Aspose.PDF for .NET denga
 Pelajari cara menyesuaikan PDF menggunakan Aspose.PDF untuk .NET dengan mengatur margin halaman dan menggambar garis. Sempurna bagi pengembang yang ingin menyempurnakan format dokumen.
 
 ### [Cara Menghapus Halaman dari PDF menggunakan Aspose.PDF .NET: Panduan Lengkap](./delete-pdf-pages-aspose-net/)
-Pelajari cara menghapus halaman tertentu dari dokumen PDF dengan mudah menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini mencakup penyiapan, penerapan, dan praktik terbaik.
+Pelajari cara menghapus halaman tertentu dari dokumen PDF dengan mudah menggunakan Aspose.PDF for .NET. Panduan langkah demi langkah ini mencakup penyiapan, penerapan, dan praktik terbaik.
 
 ### [Cara Menonaktifkan Kompresi File di Aspose.PDF untuk .NET: Panduan Langkah demi Langkah](./disable-file-compression-aspose-pdf-net-guide/)
 Pelajari cara menonaktifkan kompresi file dalam PDF menggunakan Aspose.PDF untuk .NET dengan panduan lengkap ini. Tingkatkan keterampilan penanganan dokumen Anda hari ini.
@@ -286,6 +296,9 @@ Kuasai manipulasi PDF dengan Aspose.PDF untuk .NET. Pelajari cara memuat, menyim
 ### [Mengganti Kemunculan Teks Pertama di PDF Menggunakan Aspose.PDF untuk .NET - Panduan Lengkap](./replace-first-text-occurrence-aspose-pdf-net/)
 Pelajari cara mengganti kemunculan teks pertama dalam PDF menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup pengaturan, contoh kode, dan aplikasi praktis.
 
+### [Cara Memperbaiki File PDF dengan Aspose.Pdf – Panduan Lengkap](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
+Pelajari cara memperbaiki file PDF yang rusak menggunakan Aspose.PDF dengan panduan lengkap langkah demi langkah.
+
 ### [Ubah Ukuran Konten PDF dengan Aspose.PDF untuk .NET](./resize-pdf-contents-aspose-pdf-dotnet/)
 Tutorial kode untuk Aspose.PDF Net
 
@@ -312,19 +325,31 @@ Pelajari cara menguasai manipulasi PDF menggunakan Aspose.PDF untuk .NET. Pandua
 
 ### [Cara Menyensor PDF di C# – Sembunyikan Teks PDF & Hapus Konten PDF](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
 Pelajari cara menyensor PDF dengan menyembunyikan teks dan menghapus konten secara programatis menggunakan Aspose.PDF untuk .NET.
+### [Menggabungkan Lapisan PDF di C# – Cara Menggabungkan Lapisan PDF](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+Pelajari cara menggabungkan beberapa lapisan dalam file PDF menggunakan Aspose.PDF untuk .NET dengan C#.
+### [Simpan PDF yang Diperbarui – Edit Sumber Daya PDF dengan Aspose.Pdf](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+Pelajari cara menyimpan PDF yang telah diperbarui setelah mengedit sumber daya PDF menggunakan Aspose.Pdf.
+### [Simpan PDF yang Dimodifikasi dengan Aspose.PDF – Panduan Lengkap C#](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+
+## Sumber Daya Tambahan
 
 ### [Cara Memperbaiki PDF di C# – Memperbaiki File PDF Rusak dengan Cepat](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
 Pelajari cara memperbaiki file PDF yang rusak secara cepat menggunakan C# dan Aspose.PDF.
 ### [Cara Menyensor PDF di C# dengan Aspose PDF – Panduan Lengkap](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
 Pelajari cara menyensor konten sensitif dalam file PDF menggunakan Aspose PDF untuk .NET dengan contoh kode C# lengkap.
+### [Cara Membandingkan PDF dengan Aspose – Panduan Langkah demi Langkah](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
+Pelajari cara membandingkan file PDF secara akurat menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini.
+### [Menghapus Font dari PDF dengan Aspose – Panduan Langkah demi Langkah](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
+Pelajari cara menghapus font dari file PDF secara programatis menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah.
+### [Cara Menghapus Font Tersemat pada PDF – Panduan Langkah demi Langkah C#](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
+Pelajari cara menghapus font tersemat dari file PDF menggunakan Aspose.PDF untuk .NET dengan contoh kode C# yang jelas.
 
 ## Sumber Daya Tambahan
+### [Ratakan Lapisan PDF di C# – Panduan Ekspor & Ekstrak](./flatten-pdf-layers-in-c-export-extract-guide/)
+Pelajari cara meratakan lapisan PDF, mengekspor dan mengekstrak konten menggunakan Aspose.PDF untuk .NET dengan C#.
 
-- [Dokumentasi Aspose.PDF untuk Net](https://docs.aspose.com/pdf/net/)
-- [Referensi API Aspose.PDF untuk Net](https://reference.aspose.com/pdf/net/)
-- [Unduh Aspose.PDF untuk Net](https://releases.aspose.com/pdf/net/)
-- [Dukungan Gratis](https://forum.aspose.com/)
-- [Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
+### [Cara Meratakan PDF dengan Aspose.PDF – Panduan Lengkap](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+Pelajari cara meratakan lapisan PDF menjadi satu lapisan statis menggunakan Aspose.PDF dalam panduan langkah demi langkah lengkap.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

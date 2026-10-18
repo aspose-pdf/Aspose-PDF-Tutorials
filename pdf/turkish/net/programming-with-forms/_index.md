@@ -53,6 +53,12 @@ Bu eğitimler ayrıca anlamanızı ve öğrenmenizi kolaylaştırmak için ayrı
 | [Aspose ile PDF Oluşturma – Form Alanı ve Sayfalar Ekle](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Aspose.PDF for .NET kullanarak PDF'e form alanı eklemeyi ve sayfalar eklemeyi adım adım öğrenin. |  
 | [Çoklu Widget'lı PDF Belgesi Oluşturma – Adım Adım Kılavuz](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) | Aspose.PDF for .NET ile bir PDF belgesine birden fazla widget eklemeyi adım adım öğrenin. |  
 | [Sayfalar ve Metin Kutusu Alanlarıyla PDF Oluşturma – Tam C# Kılavuzu](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Bu adım adım kılavuzda Aspose.PDF for .NET kullanarak sayfalar ve metin kutusu alanları içeren PDF oluşturmayı öğrenin. |
+| [Aspose ile PDF Belgesi Oluştur – Metin Kutusu Alanı Ekle](./create-pdf-document-with-aspose-add-text-box-field/) | Aspose.PDF for .NET kullanarak PDF belgesine metin kutusu alanı eklemeyi adım adım öğrenin. |
+| [PDF Belgesi Oluşturma C# – Çok Sayfalı Formlar İçin Adım Adım Kılavuz](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Aspose.PDF for .NET kullanarak C# ile çok sayfalı PDF formları oluşturmayı adım adım öğrenin. |  
+| [C# ile Aspose.Pdf Kullanarak Çok Sayfalı Form Oluşturma – Adım Adım Kılavuz](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | Aspose.PDF for .NET kullanarak C# dilinde çok sayfalı PDF formları oluşturmayı adım adım öğrenin. |
+| [PDF Formuna Metin Kutusu Ekle – Tam C# Rehberi](./add-text-box-to-pdf-form-complete-c-guide/) | Aspose.PDF for .NET kullanarak PDF formlarına metin kutusu eklemeyi adım adım öğrenin. |
+| [PDF Metin Kutusu Alanı Oluştur – Adım Adım Kılavuz](./create-pdf-textbox-field-step-by-step-guide/) | Bu adım adım rehberde Aspose.PDF for .NET kullanarak PDF belgesine metin kutusu alanı eklemeyi öğrenin. |
+| [C# ile PDF'ye FDF İçe Aktarma – Tam Adım Adım Kılavuz](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Aspose.PDF for .NET kullanarak C# ile FDF dosyasını PDF'ye nasıl aktaracağınızı adım adım öğrenin. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -61,6 +67,12 @@ Bu eğitimler ayrıca anlamanızı ve öğrenmenizi kolaylaştırmak için ayrı
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Aspose ile PDF Oluşturma – Koleksiyona Alan Ekle](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Aspose.PDF for .NET kullanarak bir PDF koleksiyonuna yeni bir alan eklemeyi adım adım öğrenin. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -70,6 +82,12 @@ Bu eğitimler ayrıca anlamanızı ve öğrenmenizi kolaylaştırmak için ayrı
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [PDF'lere Bates Numaraları Ekle – Adım Adım C# Kılavuzu](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Aspose.PDF for .NET ile PDF'lere Bates numaraları ekleyerek belge takibini otomatikleştirin. |
 | [Birden Çok Metin Kutusu Widget'ı Kullanarak PDF Belgesi Oluşturma – Adım Adım Kılavuz](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Aspose.PDF for .NET kullanarak PDF belgesine birden çok metin kutusu widget'ı eklemeyi ve doldurmayı öğrenin. |
 | [PDF'ye Metin Kutusu Ekleme – PDF Form Alanı Oluşturma ve Düzenlenmiş PDF Belgesini Kaydetme](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Aspose.PDF for .NET kullanarak PDF'ye metin kutusu ekleyin, form alanı oluşturun ve düzenlenmiş belgeyi kaydedin. |  

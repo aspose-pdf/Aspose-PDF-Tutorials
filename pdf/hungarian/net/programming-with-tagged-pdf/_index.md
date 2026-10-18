@@ -47,6 +47,12 @@ Az Aspose.PDF for .NET „Címkézett PDF-ekkel való programozás” című okt
 | [Címkézett PDF létrehozása C#‑ban – Lépésről‑lépésre útmutató](./create-tagged-pdf-in-c-step-by-step-guide/) | Ismerje meg, hogyan hozhat létre címkézett PDF-et C#‑ban az Aspose.PDF for .NET segítségével, részletes lépésről‑lépésre útmutatóval. |  
 | [Címkézett PDF létrehozása C#‑ban – Teljes lépésről‑lépésre útmutató](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Ismerje meg, hogyan hozhat létre teljesen címkézett PDF-et C#‑ban az Aspose.PDF for .NET segítségével, részletes lépésről‑lépésre útmutatóval. |  
 | [Címkézett PDF létrehozása C#‑ban – Aspose PDF teljes útmutató](./create-tagged-pdf-in-c-aspose-pdf-complete-guide/) | Ismerje meg, hogyan hozhat létre teljesen címkézett PDF-et C#‑ban az Aspose.PDF for .NET segítségével, részletes lépésről‑lépésre útmutatóval. |  
+| [PDF-dokumentum létrehozása – Címkézett szöveg abszolút pozíciójának beállítása](./create-pdf-document-set-absolute-position-for-tagged-text/) | Tanulja meg, hogyan állíthat be abszolút pozíciót a címkézett szöveghez PDF-dokumentumban az Aspose.PDF for .NET segítségével. |  
+| [PDF dokumentum létrehozása C# – Teljes útmutató címkézett szöveggel és pozicionálással](./create-pdf-document-c-full-guide-with-tagged-text-and-positi/) | Lépésről lépésre útmutató PDF dokumentum C#-ban történő létrehozásához, címkézett szöveggel és elemek pozicionálásával. |
+| [Hozzon létre hozzáférhető szövegrészt PDF-ben az Aspose segítségével: Teljes C# útmutató](./create-accessible-text-span-in-pdf-with-aspose-full-c-guide/) | Lépésről lépésre bemutatja, hogyan hozhat létre hozzáférhető szövegrészt PDF-ben az Aspose.PDF for .NET C# használatával. |  
+| [Hogyan szerkesszünk címkézett PDF-et az Aspose.Pdf segítségével – Teljes útmutató](./how-to-edit-tagged-pdf-with-aspose-pdf-complete-guide/) | Ismerje meg, hogyan szerkesztheti a címkézett PDF-eket az Aspose.Pdf használatával részletes, lépésről‑lépésre útmutatóval. |
+| [Címkézett PDF létrehozása C#‑ban – Teljes lépésről‑lépésre útmutató](./create-tagged-pdf-in-c-full-step-by-step-guide/) | Ismerje meg, hogyan hozhat létre teljesen címkézett PDF-et C#‑ban az Aspose.PDF for .NET segítségével, részletes lépésről‑lépésre útmutatóval. |  
+| [Hogyan címkézzünk PDF-et az Aspose.PDF‑vel – Teljes programozási útmutató](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | Ismerje meg, hogyan címkézhet PDF-fájlokat az Aspose.PDF for .NET segítségével egy részletes, lépésről‑lépésre útmutatóban. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -55,6 +61,12 @@ Az Aspose.PDF for .NET „Címkézett PDF-ekkel való programozás” című okt
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Hogyan címkézzük a PDF-et az Aspose-szal – Teljes útmutató a PDF hozzáférhetőségi címkékhez](./how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/) | Lépésről lépésre útmutató a PDF-ek hozzáférhetőségi címkéinek létrehozásához az Aspose.PDF for .NET segítségével. |
 | [PDF hozzáférhetővé tétele Aspose-szal: Bekezdés beszúrása PDF-be lépésről‑lépésre](./make-pdf-accessible-with-aspose-insert-paragraph-pdf-step-by/) | Ismerje meg, hogyan szúrhat be bekezdést egy PDF-be az Aspose.PDF for .NET segítségével, hogy javítsa a hozzáférhetőséget. |
 | [Címkézett PDF létrehozása C#-ban – Fejléc és akadálymentes szöveg hozzáadása](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Tanulja meg, hogyan hozhat létre címkézett PDF-et C#-ban, fejléccel és akadálymentes szöveggel az Aspose.PDF for .NET segítségével. |

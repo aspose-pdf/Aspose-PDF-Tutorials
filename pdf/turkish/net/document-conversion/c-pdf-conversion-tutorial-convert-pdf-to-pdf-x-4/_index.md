@@ -21,9 +21,7 @@ title: c# pdf dönüşüm öğreticisi – pdf'yi pdf/x-4'e dönüştür
 url: /tr/net/document-conversion/c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/
 ---
 
-**Pro tip:** ... Should translate "Pro tip:" to Turkish maybe "İpucu:" but keep bold.
 
-Let's produce final translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

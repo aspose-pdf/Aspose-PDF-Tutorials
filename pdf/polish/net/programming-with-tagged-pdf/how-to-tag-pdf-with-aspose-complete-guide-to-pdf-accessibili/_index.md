@@ -25,17 +25,11 @@ title: Jak oznaczyć PDF za pomocą Aspose – Kompletny przewodnik po tagach do
 url: /pl/net/programming-with-tagged-pdf/how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/
 ---
 
-must keep shortcodes at start and end.
 
-Let's produce translation.
 
-Check for any URLs inside markdown links: none except image alt and path. Keep them unchanged.
 
-We need to translate all text content, including bullet points, table content, etc.
 
-Also note "proper RTL formatting if needed" – not needed for Polish.
 
-Let's produce final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

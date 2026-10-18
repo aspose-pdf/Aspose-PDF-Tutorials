@@ -20,6 +20,9 @@ Aspose.PDF for .NET 教程将逐步指导您掌握如何在 PDF 文档中使用�
 
 ## 教程
 标题 | 描述 |
+
+{{< tutorial-card link="./add-heading/" title="使用 Aspose.PDF for .NET 向 PDF 添加标题、语言和文档标题。" imgSrc="./add-heading/images/thumb.png" >}}
+
 | --- | --- | 
 | [在 PDF 文件中应用数字样式](./apply-number-style/) 通过本分步指南了解如何使用 Aspose.PDF for .NET 将不同的数字样式（罗马数字、字母）应用于 PDF 中的标题。|   
 | [使用 Aspose 向 PDF 添加标题 – 完整 C# 指南](./add-heading-to-pdf-with-aspose-complete-c-guide/) 通过本完整的 C# 指南学习如何使用 Aspose.PDF for .NET 向 PDF 文档添加标题。|   

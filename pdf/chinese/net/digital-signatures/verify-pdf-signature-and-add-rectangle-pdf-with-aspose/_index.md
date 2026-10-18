@@ -23,9 +23,7 @@ title: 使用 Aspose 验证 PDF 签名并添加矩形
 url: /zh/net/digital-signatures/verify-pdf-signature-and-add-rectangle-pdf-with-aspose/
 ---
 
-them as separate lines.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

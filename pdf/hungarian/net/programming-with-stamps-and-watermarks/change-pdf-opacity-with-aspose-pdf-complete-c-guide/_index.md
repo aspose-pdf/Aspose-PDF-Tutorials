@@ -23,7 +23,7 @@ title: PDF átlátszóságának módosítása az Aspose.PDF segítségével – 
 url: /hu/net/programming-with-stamps-and-watermarks/change-pdf-opacity-with-aspose-pdf-complete-c-guide/
 ---
 
-final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

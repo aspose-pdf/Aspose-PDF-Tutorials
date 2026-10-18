@@ -29,6 +29,8 @@ Trong loạt bài hướng dẫn này, chúng ta sẽ khám phá nhiều khía c
 
 {{< tutorial-card link="./multicolumn-paragraphs/" title="Đoạn văn nhiều cột trong PDF sử dụng Aspose.PDF" imgSrc="./multicolumn-paragraphs/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/" title="Cách sử dụng Aspose để trích xuất văn bản từ PDF đã quét – hướng dẫn từng bước" imgSrc="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

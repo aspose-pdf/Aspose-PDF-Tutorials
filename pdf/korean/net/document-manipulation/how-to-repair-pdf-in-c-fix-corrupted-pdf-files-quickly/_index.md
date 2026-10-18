@@ -23,9 +23,7 @@ title: C#에서 PDF 복구 방법 – 손상된 PDF 파일을 빠르게 고치�
 url: /ko/net/document-manipulation/how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/
 ---
 
-unchanged.
 
-Now produce final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

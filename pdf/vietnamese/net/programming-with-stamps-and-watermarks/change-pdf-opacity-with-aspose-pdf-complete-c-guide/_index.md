@@ -22,7 +22,6 @@ title: Thay đổi độ trong suốt PDF với Aspose.PDF – Hướng dẫn C#
 url: /vi/net/programming-with-stamps-and-watermarks/change-pdf-opacity-with-aspose-pdf-complete-c-guide/
 ---
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

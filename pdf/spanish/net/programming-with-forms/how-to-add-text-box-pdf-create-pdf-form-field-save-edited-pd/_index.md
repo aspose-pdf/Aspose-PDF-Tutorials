@@ -25,15 +25,11 @@ title: Cómo agregar un cuadro de texto en PDF – Crear campo de formulario PDF
 url: /es/net/programming-with-forms/how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/
 ---
 
-NET project—no external UI required."
 
-Translate.
 
-Proceed similarly for all sections.
 
-Make sure to keep markdown formatting.
 
-Let's produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

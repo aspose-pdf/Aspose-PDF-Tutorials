@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: บทเรียนนี้สาธิตวิธีโหลด PDF ที่มีอยู่ด้วย Aspose.Pdf, จำกัดสิทธิ์การใช้งาน, เข้ารหัสด้วยรหัสผ่านผู้ใช้ (client) และรหัสผ่านเจ้าของ (admin) ด้วยอัลกอริทึม AES‑256, และบันทึกเอกสารที่ได้รับการปกป้อง
+//ExStepSummary:0: ประกาศเส้นทางไฟล์ต้นทางและปลายทาง รวมถึงรหัสผ่านผู้ใช้ (client) และรหัสผ่านเจ้าของ (admin).
+//ExStepSummary:1: ตรวจสอบว่า PDF ต้นทางมีอยู่หรือไม่ และยกเลิกการทำงานพร้อมแสดงข้อความข้อผิดพลาดหากไม่มี.
+//ExStepSummary:2: เปิด PDF, ให้อนุญาตเฉพาะการแก้ไขเนื้อหาและการสกัดเนื้อหา, เข้ารหัสด้วยรหัสผ่านสองชุดโดยใช้ AES‑256, บันทึกไฟล์ที่ได้รับการปกป้อง, และแสดงข้อความสำเร็จ.
+//ExStepSummary:3: ดักจับข้อผิดพลาดใด ๆ ที่เกิดขึ้นและเขียนข้อความข้อยกเว้นไปยังคอนโซลข้อผิดพลาด.
+//ExStep:0-
+const string sourceFile = "original.pdf";
+const string destinationFile = "protected.pdf";
+const string clientPwd = "clientPwd";
+const string adminPwd = "adminPwd";
+
+//ExStep:1-
+if (!File.Exists(sourceFile))
+{
+    Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+    return;
+}
+
+//ExStep:2-
+try
+{
+    using (Document pdfDoc = new Document(sourceFile))
+    {
+        Permissions allowedPerms = Permissions.ModifyContent | Permissions.ExtractContent;
+
+        pdfDoc.Encrypt(clientPwd, adminPwd, allowedPerms, CryptoAlgorithm.AESx256);
+
+        pdfDoc.Save(destinationFile);
+    }
+
+    Console.WriteLine($"Secured PDF written to '{destinationFile}'.");
+}
+
+//ExStep:3-
+catch (Exception ex)
+{
+    Console.Error.WriteLine($"Failure: {ex.Message}");
+}
+//ExEnd

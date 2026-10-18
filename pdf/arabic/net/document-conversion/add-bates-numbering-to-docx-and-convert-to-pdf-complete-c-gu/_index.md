@@ -22,7 +22,6 @@ title: إضافة ترقيم بايتس إلى ملفات DOCX وتحويلها 
 url: /ar/net/document-conversion/add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/
 ---
 
-translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

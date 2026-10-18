@@ -21,11 +21,9 @@ title: دليل تحويل PDF باستخدام C# – تحويل PDF إلى PDF
 url: /ar/net/document-conversion/c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/
 ---
 
-URLs. The image alt text changed but URL unchanged.
 
-All shortcodes preserved.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

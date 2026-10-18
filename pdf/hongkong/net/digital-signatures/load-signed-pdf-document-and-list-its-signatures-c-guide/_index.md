@@ -36,8 +36,6 @@ url: /zh-hant/net/digital-signatures/load-signed-pdf-document-and-list-its-signa
 
 不需要外部工具，也不會有模糊的「請參考文件」捷徑——只提供一個完整、可執行的範例，您可以直接複製貼上到 Visual Studio 中使用。
 
-![顯示載入已簽署 PDF 文件並提取其簽名流程的圖示](alt="load signed pdf document flow diagram")
-
 ## 前置條件
 
 在深入之前，請確保您的機器上已具備以下條件：

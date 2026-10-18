@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: 이 튜토리얼에서는 Aspose.Pdf의 TextPdfComparer를 사용하여 두 PDF 문서를 페이지별로 비교하고 차이점 보고서 PDF를 생성하는 방법을 보여줍니다.
+//ExStepSummary:0: 원본 PDF, 수정된 PDF, 그리고 출력 차이점 보고서의 파일 경로를 선언합니다.
+//ExStepSummary:1: 두 소스 PDF가 모두 존재하는지 확인하고, 어느 하나라도 없을 경우 오류 메시지를 출력하고 중단합니다.
+//ExStepSummary:2: 두 PDF를 열고 기본 ComparisonOptions를 생성한 뒤, `TextPdfComparer.CompareDocumentsPageByPage`를 사용해 페이지별 차이점을 실행하고 성공 메시지를 출력합니다.
+//ExStepSummary:3: 비교 중 발생한 모든 예외를 잡아 콘솔에 오류 메시지를 출력합니다.
+//ExStep:0-
+const string sourcePath1 = "original.pdf";
+const string sourcePath2 = "revised.pdf";
+const string resultPath = "changes_report.pdf";
+
+//ExStep:1-
+if (!File.Exists(sourcePath1) || !File.Exists(sourcePath2))
+{
+    Console.Error.WriteLine("Either of the input PDFs could not be located.");
+    return;
+}
+
+//ExStep:2-
+try
+{
+    using (Document pdfA = new Document(sourcePath1))
+    using (Document pdfB = new Document(sourcePath2))
+    {
+        ComparisonOptions compareOpts = new ComparisonOptions();
+        TextPdfComparer.CompareDocumentsPageByPage(pdfA, pdfB, compareOpts, resultPath);
+    }
+
+    Console.WriteLine($"Page‑by‑page diff PDF written to '{resultPath}'.");
+}
+
+//ExStep:3-
+catch (Exception ex)
+{
+    Console.Error.WriteLine($"Comparison failed: {ex.Message}");
+}
+//ExEnd

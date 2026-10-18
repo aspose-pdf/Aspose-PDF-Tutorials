@@ -21,15 +21,10 @@ title: เปลี่ยนความทึบของ PDF ใน C# – ค
 url: /th/net/programming-with-stamps-and-watermarks/change-pdf-opacity-in-c-complete-aspose-guide/
 ---
 
-keep code terms like `CA` unchanged. So translate table headers.
 
-Also the "Pro tip:" etc.
 
-Let's produce the translation.
 
-We must keep the shortcodes at top and bottom unchanged.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

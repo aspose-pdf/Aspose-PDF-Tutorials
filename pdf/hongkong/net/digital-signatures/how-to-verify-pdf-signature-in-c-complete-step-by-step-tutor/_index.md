@@ -21,7 +21,6 @@ title: 如何在 C# 中驗證 PDF 簽名 – 完整逐步教學
 url: /zh-hant/net/digital-signatures/how-to-verify-pdf-signature-in-c-complete-step-by-step-tutor/
 ---
 
-final content with translations.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

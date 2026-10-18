@@ -25,13 +25,9 @@ title: Προσθήκη Bates Numbering σε PDF με C# – Πλήρης Οδη
 url: /el/net/programming-with-stamps-and-watermarks/add-bates-numbering-pdf-in-c-complete-guide/
 ---
 
-")
 
-We translate alt text and title.
 
-Now tables: translate question and answer content.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

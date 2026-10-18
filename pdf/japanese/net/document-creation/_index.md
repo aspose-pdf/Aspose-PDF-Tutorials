@@ -18,6 +18,8 @@
 ## 利用可能なチュートリアル
 
 
+
+{{< tutorial-card link="./create-pdf-x-3-document/" title="Aspose.Pdf for .NET を使用して 3 ページの PDF/X‑3 ドキュメントを作成する" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
 ### [Aspose.PDF for .NET を使用した PDF ブックレットの作成: ステップバイステップ ガイド](./aspose-pdf-net-create-booklets-tutorial/)
 Aspose.PDF for .NET を使ってプロフェッショナルな PDF ブックレットを作成する方法を学びましょう。このチュートリアルでは、セットアップ、実装、そして実践的な応用例を解説します。
 ### [Aspose.PDF .NET を使用して XML と XSLT から PDF を作成する: ステップバイステップ ガイド](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
@@ -88,6 +90,27 @@ Aspose.PDF for .NET を使用して、空白ページを追加し、矩形を描
 
 ### [Aspose.PDF を使用して PDF ドキュメントを作成する – 完全 C# ガイド](./create-pdf-document-with-aspose-pdf-full-c-guide/)
 Aspose.PDF と C# を使って、PDF ドキュメントを最初から作成する方法を包括的に解説します。
+### [C# で PDF ドキュメントを作成 – PDF にページを追加し矩形を描画](./create-pdf-document-in-c-add-page-to-pdf-draw-rectangle/)
+C# と Aspose.PDF for .NET を使用して、PDF に新しいページを追加し矩形を描画する方法を学びます。
+
+
+### [C# で PDF ドキュメントを作成 – メモリ内生成の完全ガイド](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
+Aspose.PDF for .NET を使用して、メモリ上で PDF を生成し、保存せずに操作する方法をステップバイステップで解説します。
+
+### [PDF ドキュメントを作成する C# – 空白ページの追加と矩形の描画 ステップバイステップ ガイド](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
+C# で Aspose.PDF を使用し、空白ページを追加し矩形を描画する方法をステップバイステップで解説します。
+
+### [HEIC 画像から PDF を作成 – 完全 C# ガイド](./create-pdf-image-from-heic-complete-c-guide/)
+HEIC 形式の画像を PDF に変換する方法を C# でステップバイステップで解説します。
+
+### [Aspose.Pdf を使用した PDF ドキュメントの作成 – 完全ステップバイステップガイド](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+Aspose.Pdf を使って .NET で PDF ドキュメントを最初から作成する方法を、詳細な手順で解説します。
+
+### [C# でベーツ番号付けされた新しい PDF ドキュメントを作成する](./create-new-pdf-document-with-bates-numbering-in-c/)
+C# でベーツ番号付けを行いながら新しい PDF ドキュメントを作成する方法をステップバイステップで解説します。
+
+### [C# で PDF/X‑4 ドキュメントを作成する – ステップバイステップ ガイド](./create-pdf-x-4-document-c-step-by-step-guide/)
+Aspose.PDF for .NET を使用して、C# で PDF/X‑4 形式の PDF ドキュメントを作成する方法をステップバイステップで解説します。
 
 ## 追加リソース
 

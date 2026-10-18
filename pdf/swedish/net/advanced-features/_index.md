@@ -53,6 +53,9 @@ Lär dig hur du skapar tillgängliga, taggade PDF-dokument med Aspose.PDF i .NET
 ### [Hur man skapar PDF-filer med flera lager med Aspose.PDF för .NET: En omfattande guide](./create-multi-layer-pdfs-aspose-pdf-dotnet/)
 Lär dig hur du skapar dynamiska och interaktiva PDF-dokument med flera lager med Aspose.PDF för .NET med den här steg-för-steg-guiden.
 
+### [Spara varje PDF-lager med Aspose.Pdf – steg‑för‑steg‑guide](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
+Lär dig hur du sparar varje lager i en PDF-fil med Aspose.Pdf i en detaljerad steg‑för‑steg‑guide.
+
 ### [Hur man skapar taggade PDF-filer med Aspose.PDF för .NET: En avancerad guide](./creating-tagged-pdfs-aspose-pdf-dotnet/)
 Lär dig hur du skapar tillgängliga taggade PDF-dokument med Aspose.PDF för .NET. Förbättra dokumentstruktur och tillgänglighet med den här omfattande guiden.
 
@@ -65,11 +68,16 @@ Lär dig hur du använder Aspose.PDF för .NET för att validera och bearbeta ti
 ### [Bemästra skapande av tillgängliga PDF-filer med Aspose.PDF .NET: Skapa taggade PDF-filer med formaterade tabeller](./aspose-pdf-net-tagged-pdfs-styled-tables/)
 Lär dig skapa tillgängliga, formaterade taggade PDF-dokument med Aspose.PDF för .NET. Bemästra skapandet av kompatibla PDF-filer med strukturerade tabeller och förbättrad tillgänglighet.
 
-### [Hur man jämför PDF-filer i C# – En komplett guide för att generera PDF-diff](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
+### [Hur man jämför PDF-filer i C# – En komplett guide för att generera PDF-di](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 Lär dig att jämföra PDF-dokument i C# och generera diff-filer med Aspose.PDF för .NET.
 
 ### [Hur du kör OCR på PDF med Aspose.Pdf – Komplett C#-guide](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
 Lär dig hur du använder Aspose.Pdf för att köra OCR på PDF-filer med C#, inklusive steg-för-steg-instruktioner och kodexempel.
+### [Jämför PDF-dokument med Aspose.Pdf – Komplett visuell diffguide](./compare-pdf-documents-with-aspose-pdf-complete-visual-diff-g/)
+Lär dig att visuellt jämföra PDF-dokument och skapa diff-filer med Aspose.Pdf för .NET.
+
+### [Jämför två PDF-dokument – Komplett C#-guide](./compare-two-pdf-documents-complete-c-guide/)
+Lär dig att jämföra två PDF-dokument i C# och skapa diff-filer med Aspose.PDF för .NET.
 
 ## Ytterligare resurser
 

@@ -1,0 +1,49 @@
+//ExStart
+//ExSummary: 이 튜토리얼에서는 Aspose.Pdf를 사용하여 기존 PDF를 열고, 권한을 양식 입력만 가능하도록 제한한 뒤, 뷰어 비밀번호와 소유자 비밀번호를 사용해 AES‑256으로 암호화하고, 보호된 문서를 저장하는 방법을 보여줍니다.
+//ExStepSummary:0: 소스 PDF 경로, 출력 경로, 그리고 뷰어 비밀번호와 소유자 비밀번호를 선언합니다.
+//ExStepSummary:1: 소스 파일이 존재하는지 확인합니다; 존재하지 않으면 오류 메시지를 출력하고 종료합니다.
+//ExStepSummary:2: `try` 블록을 시작하고 `using` 문으로 PDF 문서를 열어 `pdfDoc` 변수를 생성합니다.
+//ExStepSummary:3: 양식 입력만 허용하는 `Permissions` 객체를 생성합니다.
+//ExStepSummary:4: 뷰어 비밀번호와 마스터 비밀번호로 `pdfDoc`을 암호화하고, 권한 집합을 적용하며 AES‑256을 사용합니다.
+//ExStepSummary:5: 암호화된 PDF를 지정된 출력 파일에 저장하고 `using` 블록을 닫습니다.
+//ExStepSummary:6: 콘솔에 확인 메시지를 출력하고 `try` 블록을 닫습니다.
+//ExStepSummary:7: 예외를 잡아 그 메시지를 오류 스트림에 출력하고 `catch` 블록을 닫습니다.
+//ExStep:0-
+        const string sourceFile = "sample.pdf";
+        const string encryptedFile = "protected.pdf";
+        const string viewerPwd = "readPass";
+        const string masterPwd = "fullPass";
+
+//ExStep:1-
+        if (!File.Exists(sourceFile))
+        {
+            Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+            return;
+        }
+
+//ExStep:2-
+        try
+        {
+            using (Document pdfDoc = new Document(sourceFile))
+            {
+
+//ExStep:3-
+                Permissions permissionSet = Permissions.FillForm;
+
+//ExStep:4-
+                pdfDoc.Encrypt(viewerPwd, masterPwd, permissionSet, CryptoAlgorithm.AESx256);
+
+//ExStep:5-
+                pdfDoc.Save(encryptedFile);
+            }
+
+//ExStep:6-
+            Console.WriteLine($"Encrypted document written to '{encryptedFile}'.");
+        }
+
+//ExStep:7-
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Error: {ex.Message}");
+        }
+//ExEnd
