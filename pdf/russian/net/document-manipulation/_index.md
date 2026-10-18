@@ -351,6 +351,9 @@
 ### [Сохранить обновлённый PDF – редактирование ресурсов PDF с помощью Aspose.Pdf](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
 Узнайте, как сохранить изменённый PDF‑файл после редактирования ресурсов с помощью Aspose.PDF.
 
+### [Сохранение изменённого PDF с помощью Aspose.PDF – Полное руководство на C#](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+Узнайте, как сохранить изменённый PDF-файл с помощью Aspose.PDF в C#, следуя полному пошаговому руководству.
+
 ## Дополнительные ресурсы
 
 - [Документация Aspose.PDF для сети](https://docs.aspose.com/pdf/net/)

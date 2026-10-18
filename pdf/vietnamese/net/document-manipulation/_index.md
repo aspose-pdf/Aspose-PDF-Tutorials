@@ -344,6 +344,8 @@ Tìm hiểu cách xóa phông chữ nhúng khỏi PDF bằng Aspose.PDF cho .NET
 Tìm hiểu cách khắc phục lỗi và sửa chữa tệp PDF bị hỏng bằng Aspose.Pdf trong .NET với hướng dẫn chi tiết.
 ### [Lưu PDF Đã Cập Nhật – Chỉnh sửa Tài Nguyên PDF với Aspose.Pdf](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
 Hướng dẫn cách lưu tài liệu PDF đã chỉnh sửa và cập nhật tài nguyên PDF bằng Aspose.Pdf trong .NET.
+### [Lưu PDF đã chỉnh sửa bằng Aspose.PDF – Hướng dẫn C# đầy đủ](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+Tìm hiểu cách lưu tài liệu PDF đã chỉnh sửa bằng Aspose.PDF trong C# với hướng dẫn chi tiết và ví dụ thực tế.
 
 ## Tài nguyên bổ sung
 

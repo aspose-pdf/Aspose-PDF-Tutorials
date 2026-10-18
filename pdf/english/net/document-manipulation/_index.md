@@ -313,6 +313,9 @@ Learn how to efficiently rotate PDF pages and retrieve their dimensions using As
 ### [Rotate PDF Pages Using Aspose.PDF in .NET&#58; A Developer’s Guide](./rotate-pdf-pages-aspose-pdf-dotnet/)
 Learn how to rotate PDF pages with Aspose.PDF for .NET. This guide covers rotating specific pages by degrees and includes code examples for efficient document manipulation.
 
+### [Save Modified PDF with Aspose.PDF – Complete C# Guide](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+Learn how to save changes to a PDF document using Aspose.PDF for .NET with a complete C# guide.
+
 ### [Split PDF Pages from a Specific Page Using .NET Streams and Aspose.PDF](./split-pdf-pages-with-net-streams-aspose-pdf/)
 Learn how to efficiently split PDF files from a specific page using .NET streams with Aspose.PDF, enhancing document management in your applications.
 

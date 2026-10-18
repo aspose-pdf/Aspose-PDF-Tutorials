@@ -352,6 +352,8 @@ Aspose.Pdf를 사용하여 손상된 PDF 파일을 복구하고 오류를 해결
 ### [업데이트된 PDF 저장 – Aspose.Pdf로 PDF 리소스 편집](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
 Aspose.PDF를 사용해 수정된 PDF를 저장하고 PDF 리소스를 편집하는 방법을 단계별로 안내합니다.
 
+### [Aspose.PDF를 사용하여 수정된 PDF 저장 – 완전 C# 가이드](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+
 ## 추가 자료
 
 - [Net 문서용 Aspose.PDF](https://docs.aspose.com/pdf/net/)

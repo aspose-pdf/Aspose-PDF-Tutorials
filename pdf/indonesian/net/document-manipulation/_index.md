@@ -111,7 +111,7 @@ Pelajari cara menambahkan dan menyesuaikan tajuk berbeda di setiap halaman dokum
 Pelajari cara menambahkan tajuk, termasuk teks dan gambar, ke dokumen PDF Anda dengan mudah menggunakan Aspose.PDF for .NET. Sempurna untuk meningkatkan pencitraan merek dokumen.
 
 ### [Cara Menambahkan Header ke PDF Menggunakan Aspose.PDF untuk .NET: Panduan Lengkap](./add-headers-aspose-pdf-dotnet-guide/)
-Pelajari cara menambahkan tajuk teks ke berkas PDF Anda dengan mudah menggunakan Aspose.PDF untuk .NET, yang akan meningkatkan keterbacaan dan pengorganisasian dokumen.
+Pelajari cara menambahkan tajuk teks ke berkas PDF Anda dengan mudah menggunakan Aspose.PDF for .NET, yang akan meningkatkan keterbacaan dan pengorganisasian dokumen.
 
 ### [Cara Menambahkan Objek Garis dalam PDF Menggunakan Aspose.PDF untuk .NET: Panduan Langkah demi Langkah](./add-line-aspose-pdf-dotnet-tutorial/)
 Pelajari cara menambahkan objek garis dalam PDF menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup penyiapan, contoh pengodean, dan aplikasi praktis.
@@ -329,6 +329,7 @@ Pelajari cara menyensor PDF dengan menyembunyikan teks dan menghapus konten seca
 Pelajari cara menggabungkan beberapa lapisan dalam file PDF menggunakan Aspose.PDF untuk .NET dengan C#.
 ### [Simpan PDF yang Diperbarui – Edit Sumber Daya PDF dengan Aspose.Pdf](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
 Pelajari cara menyimpan PDF yang telah diperbarui setelah mengedit sumber daya PDF menggunakan Aspose.Pdf.
+### [Simpan PDF yang Dimodifikasi dengan Aspose.PDF – Panduan Lengkap C#](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
 
 ## Sumber Daya Tambahan
 

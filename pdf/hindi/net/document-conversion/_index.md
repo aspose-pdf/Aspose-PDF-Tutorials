@@ -92,6 +92,7 @@
 | [C# में PDF को PDF/X‑1A में परिवर्तित करें – पूर्ण चरण-दर-चरण गाइड](./convert-pdf-to-pdf-x-1a-in-c-complete-step-by-step-guide/) | इस चरण-दर-चरण ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X‑1A फ़ॉर्मेट में बदलना सीखें। |
 
 | [C# में PDF को PDF/X‑1a में परिवर्तित करें – चरण‑दर‑चरण गाइड](./convert-pdf-to-pdf-x-1a-with-c-step-by-step-guide/) | इस ट्यूटोरियल में .NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X‑1a फ़ॉर्मेट में बदलना सीखें। |
+| [Aspose.Pdf के साथ PDF को PDFX में परिवर्तित करें – पूर्ण गाइड](./convert-pdf-to-pdfx-with-aspose-pdf-complete-guide/) | Aspose.Pdf का उपयोग करके PDF को PDFX फ़ॉर्मेट में बदलने की पूरी मार्गदर्शिका। |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

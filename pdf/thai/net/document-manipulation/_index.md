@@ -359,6 +359,8 @@
 ### [เปรียบเทียบ PDF ด้วย Visual PDF Diff ใน C# – คู่มือฉบับสมบูรณ์เพื่อเปรียบเทียบ PDF สองไฟล์](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
 ### [รวมเลเยอร์ PDF ด้วย C# – วิธีการรวมเลเยอร์ PDF](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
 เรียนรู้วิธีรวมเลเยอร์ PDF ด้วย C# และ Aspose.PDF สำหรับ .NET เพื่อสร้างไฟล์ PDF ที่มีหลายเลเยอร์อย่างง่าย
+### [บันทึก PDF ที่แก้ไขด้วย Aspose.PDF – คู่มือ C# ฉบับสมบูรณ์](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+เรียนรู้วิธีบันทึก PDF ที่แก้ไขโดยใช้ Aspose.PDF สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนใน C#
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

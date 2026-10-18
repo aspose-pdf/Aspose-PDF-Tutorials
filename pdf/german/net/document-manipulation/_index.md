@@ -349,6 +349,8 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Layer in C# zusammenführen u
 Erfahren Sie, wie Sie beschädigte PDF-Dateien mit Aspose.Pdf reparieren und wiederherstellen – Schritt-für-Schritt-Anleitung.
 ### [Aktualisiertes PDF speichern – PDF-Ressourcen mit Aspose.Pdf bearbeiten](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
 Erfahren Sie, wie Sie ein geändertes PDF speichern und PDF-Ressourcen mit Aspose.Pdf effizient bearbeiten.
+### [Speichern Sie ein modifiziertes PDF mit Aspose.PDF – Vollständige C#‑Anleitung](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein bearbeitetes PDF speichern und dabei bewährte Vorgehensweisen nutzen.
 
 ## Weitere Ressourcen
 

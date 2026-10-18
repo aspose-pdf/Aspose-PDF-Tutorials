@@ -352,6 +352,9 @@
 ### [Αποθήκευση ενημερωμένου PDF – Επεξεργασία πόρων PDF με το Aspose.Pdf](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
 Μάθετε πώς να αποθηκεύετε το ενημερωμένο PDF μετά την επεξεργασία πόρων PDF χρησιμοποιώντας το Aspose.PDF για .NET.
 
+### [Αποθήκευση τροποποιημένου PDF με Aspose.PDF – Πλήρης οδηγός C#](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+Μάθετε πώς να αποθηκεύετε τροποποιημένα PDF χρησιμοποιώντας το Aspose.PDF με C#.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.PDF για τεκμηρίωση δικτύου](https://docs.aspose.com/pdf/net/)

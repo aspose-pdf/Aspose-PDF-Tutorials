@@ -88,6 +88,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Konversi format PDF Aspose: Mengonversi PDF ke PDF/X‑4 dalam C#](./aspose-pdf-format-conversion-convert-pdf-to-pdf-x-4-in-c/) | Pelajari cara mengonversi PDF ke PDF/X‑4 menggunakan Aspose.PDF untuk .NET dengan contoh kode C# langkah demi langkah. |
 | [Buat Gambar PDF dengan Aspose.Pdf – Panduan Langkah‑per‑Langkah](./create-pdf-image-with-aspose-pdf-step-by-step-guide/) | Pelajari cara membuat gambar PDF menggunakan Aspose.Pdf dengan panduan langkah demi langkah ini. Bahasa Indonesia:  
 | [Cara Mengonversi PDF dengan Aspose – Panduan Lengkap Langkah‑per‑Langkah](./how-to-convert-pdf-with-aspose-complete-step-by-step-guide/) | Pelajari cara mengonversi PDF menggunakan Aspose dengan panduan langkah demi langkah yang lengkap dan mudah diikuti. Bahasa Indonesia:  
+| [Mengonversi PDF ke PDFX dengan Aspose.Pdf – Panduan Lengkap](./convert-pdf-to-pdfx-with-aspose-pdf-complete-guide/) | Pelajari cara mengonversi file PDF ke PDF/X menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah yang lengkap. Bahasa Indonesia: |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

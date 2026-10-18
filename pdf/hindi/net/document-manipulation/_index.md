@@ -353,6 +353,9 @@ Aspose.Pdf का उपयोग करके PDF फ़ाइलों की 
 ### [अपडेटेड PDF सहेजें – Aspose.Pdf के साथ PDF संसाधनों को संपादित करें](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
 Aspose.Pdf के साथ PDF को संपादित करने के बाद अपडेटेड फ़ाइल को सुरक्षित रूप से सहेजने की प्रक्रिया सीखें।
 
+### [Aspose.PDF के साथ संशोधित PDF सहेजें – पूर्ण C# गाइड](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+Aspose.PDF का उपयोग करके C# में संशोधित PDF को सहेजने की पूरी प्रक्रिया सीखें।
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.PDF for Net दस्तावेज़ीकरण](https://docs.aspose.com/pdf/net/)

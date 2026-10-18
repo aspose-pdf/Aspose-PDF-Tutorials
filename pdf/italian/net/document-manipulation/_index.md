@@ -346,6 +346,8 @@ Scopri come unire più livelli di un PDF in C# utilizzando Aspose.PDF per .NET p
 Scopri come riparare file PDF danneggiati o corrotti utilizzando Aspose.Pdf con questa guida passo passo.
 ### [Salva PDF aggiornato – Modifica le risorse PDF con Aspose.Pdf](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
 Scopri come salvare un PDF aggiornato dopo aver modificato le risorse PDF utilizzando Aspose.Pdf per .NET.
+### [Salva PDF modificato con Aspose.PDF – Guida completa C#](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+Scopri come salvare un PDF modificato utilizzando Aspose.PDF per .NET con esempi di codice C# passo passo.
 
 ## Risorse aggiuntive
 

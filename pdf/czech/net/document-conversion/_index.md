@@ -14,7 +14,7 @@
 
 # Konverze dokumentů
 
-V tutoriálech pro převod dokumentů Aspose.PDF pro .NET se naučíte, jak převádět různé typy dokumentů, jako jsou Word, Excel, HTML, obrázky atd., do souborů PDF. Naučíte se, jak převést existující dokument pomocí pokročilých možností převodu, jako je rozvržení, písma, obrázky, tabulky a další. Tutoriály vás také provedou převodem dokumentů PDF do jiných formátů, jako jsou Word, Excel, HTML, obrázky atd. 
+V tutoriálech pro převod dokumentů Aspose.PDF pro .NET se naučíte, jak převádět různé typy dokumentů, jako jsou Word, Excel, HTML, obrázky atd., do souborů PDF. Naučíte se, jak převést existující dokument pomocí pokročilých možností převodu, jako je rozvržení, písma, obrázky, tabulky a další. Tutoriály vás také provedou převadem dokumentů PDF do jiných formátů, jako jsou Word, Excel, HTML, obrázky atd. 
 
 Naučíte se, jak nastavit převod, extrahovat text a obrázky, zachovat původní strukturu a formátování dokumentu a provádět hromadné převody. Návody poskytují podrobné příklady kódu a podrobná vysvětlení, která vám pomohou zvládnout možnosti převodu dokumentů v knihovně Aspose.PDF pro .NET. Ať už potřebujete převést dokumenty pro archivaci, elektronickou distribuci nebo jiné účely, tyto návody vám poskytnou znalosti pro efektivní provádění všech úkolů převodu dokumentů pomocí výkonné knihovny Aspose.PDF pro .NET.
 
@@ -76,6 +76,7 @@ Naučíte se, jak nastavit převod, extrahovat text a obrázky, zachovat původn
 | [Převod PDF na PDF/X-4 pomocí Aspose.PDF – Kompletní průvodce v C#](./convert-pdf-to-pdf-x-4-with-aspose-pdf-complete-c-guide/) | Naučte se, jak převést PDF na PDF/X‑4 pomocí Aspose.PDF v C# s podrobným krok za krokem návodem. |
 | [Převod PDF na PDF/X‑1A v C# – Kompletní průvodce krok za krokem](./convert-pdf-to-pdf-x-1a-in-c-complete-step-by-step-guide/) | Naučte se, jak převést PDF na PDF/X‑1A pomocí Aspose.PDF pro .NET v C# v tomto podrobném průvodci. |
 | [Převod PDF na PDF/X‑1a v C# – krok za krokem průvodce](./convert-pdf-to-pdf-x-1a-with-c-step-by-step-guide/) | Naučte se, jak převést PDF na PDF/X‑1a pomocí Aspose.PDF pro .NET v C# v tomto podrobném návodu krok za krokem. |
+| [Převod PDF na PDFX pomocí Aspose.Pdf – Kompletní průvodce](./convert-pdf-to-pdfx-with-aspose-pdf-complete-guide/) | Naučte se, jak převést PDF na PDF/X pomocí Aspose.PDF pro .NET v tomto podrobném průvodci. |
 | [PDF na PNG tutoriál – Převod stránek PDF do PNG v C#](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Naučte se, jak převést stránky PDF do formátu PNG pomocí Aspose.PDF pro .NET v C#. |
 | [Uložení PDF jako HTML pomocí Aspose.PDF – krok za krokem průvodce v C#](./save-pdf-as-html-with-aspose-pdf-step-by-step-c-guide/) | Naučte se, jak pomocí Aspose.PDF pro .NET převést PDF do HTML v C# pomocí podrobného krok‑za‑krokem návodu. |
 | [Vytvořit PDF z JPG v C# – Kompletní průvodce ořezáváním a novými stránkami](./create-pdf-from-jpg-in-c-full-guide-with-cropping-and-new-pa/) | Naučte se, jak pomocí Aspose.PDF pro .NET vytvořit PDF z JPG, ořezávat obrázky a přidávat nové stránky v podrobném návodu. |

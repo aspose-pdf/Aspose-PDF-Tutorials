@@ -351,6 +351,8 @@ Lär dig hur du visuellt jämför två PDF-filer i C# med Aspose.PDF och identif
 Lär dig steg-för-steg hur du reparerar skadade PDF-filer med Aspose.PDF för .NET och återställer deras integritet.
 ### [Spara uppdaterad PDF – Redigera PDF-resurser med Aspose.Pdf](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
 Lär dig hur du sparar ändrade PDF-filer efter redigering av resurser med Aspose.Pdf för .NET.
+### [Spara modifierad PDF med Aspose.PDF – Komplett C#-guide](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+Lär dig hur du sparar ändrade PDF-filer med Aspose.PDF i C# med en komplett steg-för-steg-guide.
 
 ## Ytterligare resurser
 

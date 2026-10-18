@@ -356,6 +356,9 @@ Aspose.PDF を使って破損した PDF を修復し、正常に開く手順を�
 ### [更新された PDF を保存 – Aspose.Pdf で PDF リソースを編集する](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
 Aspose.PDF を使用して、編集した PDF リソースを保存し、最新の PDF ファイルを生成する方法を学びます。
 
+### [Aspose.PDF を使用して変更された PDF を保存する – 完全 C# ガイド](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+Aspose.PDF for .NET を使用して、変更した PDF を保存する方法をステップバイステップで解説します。
+
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)

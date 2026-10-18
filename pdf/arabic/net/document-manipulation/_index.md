@@ -344,6 +344,9 @@
 تعرف على خطوات إصلاح ملفات PDF التالفة باستخدام Aspose.Pdf في دليل شامل يغطي جميع الجوانب العملية.
 ### [حفظ ملف PDF محدث – تحرير موارد PDF باستخدام Aspose.Pdf](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
 
+### [حفظ ملف PDF معدل باستخدام Aspose.PDF – دليل كامل C#](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+تعلم كيفية حفظ ملفات PDF بعد تعديلها باستخدام Aspose.PDF في C# خطوة بخطوة.
+
 ## موارد إضافية
 
 - [توثيق Aspose.PDF للشبكة](https://docs.aspose.com/pdf/net/)

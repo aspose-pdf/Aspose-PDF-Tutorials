@@ -236,6 +236,9 @@ Aprenda a insertar páginas en un PDF con Aspose.PDF para .NET con esta guía pa
 ### [Insertar una página vacía en un PDF con Aspose.PDF .NET: una guía completa](./aspose-pdf-net-insert-empty-page/)
 Aprenda a insertar páginas vacías en documentos PDF fácilmente con Aspose.PDF .NET. Siga esta guía paso a paso para mejorar sus habilidades de manipulación de documentos.
 
+### [Guardar PDF modificado con Aspose.PDF – Guía completa en C#](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+Aprenda a guardar PDFs modificados usando Aspose.PDF con C# paso a paso.
+
 ### [Domine el método MakeNUp de Aspose.PDF .NET para diseños PDF eficientes](./aspose-pdf-net-make-nup-method-pdf-layout/)
 Aprenda a reorganizar eficientemente varias páginas PDF en nuevos diseños con el método MakeNUp de Aspose.PDF .NET. Ideal para boletines, folletos e informes.
 

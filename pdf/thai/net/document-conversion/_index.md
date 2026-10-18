@@ -86,6 +86,7 @@
 - [แปลง PDF เป็น PDF/X-4 ด้วย Aspose.PDF – คู่มือ C# ฉบับสมบูรณ์](./convert-pdf-to-pdf-x-4-with-aspose-pdf-complete-c-guide/) | เรียนรู้วิธีแปลง PDF เป็น PDF/X‑4 ด้วย Aspose.PDF สำหรับ .NET ด้วยคู่มือ C# ฉบับสมบูรณ์  
 - [แปลง PDF เป็น PDF/X‑1A ด้วย C# – คู่มือขั้นตอนเต็ม](./convert-pdf-to-pdf-x-1a-in-c-complete-step-by-step-guide/) | เรียนรู้วิธีแปลง PDF เป็น PDF/X‑1A ด้วย Aspose.PDF สำหรับ .NET ในคู่มือขั้นตอนเต็มนี้  
 - [แปลง PDF เป็น PDF/X-1a ด้วย C# – คู่มือทีละขั้นตอน](./convert-pdf-to-pdf-x-1a-with-c-step-by-step-guide/) | เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/X-1a ด้วย Aspose.PDF สำหรับ .NET ในบทช่วยสอนแบบทีละขั้นตอนนี้  
+- [แปลง PDF เป็น PDFX ด้วย Aspose.Pdf – คู่มือฉบับสมบูรณ์](./convert-pdf-to-pdfx-with-aspose-pdf-complete-guide/) | เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/X ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียด  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

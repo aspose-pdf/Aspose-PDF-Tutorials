@@ -353,6 +353,9 @@ Aspose.Pdf kullanarak bozuk PDF dosyalarını onarma, hataları düzeltme ve dos
 ### [Güncellenmiş PDF'yi Kaydedin – Aspose.Pdf ile PDF Kaynaklarını Düzenleyin](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
 Aspose.Pdf kullanarak PDF kaynaklarını düzenledikten sonra güncellenmiş PDF dosyasını nasıl kaydedeceğinizi öğrenin.
 
+### [Aspose.PDF ile Değiştirilmiş PDF'yi Kaydet – Tam C# Kılavuzu](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+Aspose.PDF for .NET kullanarak değiştirilmiş PDF dosyalarını kaydetmeyi adım adım öğrenin ve C# kod örnekleriyle uygulayın.
+
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)
