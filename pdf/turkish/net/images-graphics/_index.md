@@ -190,6 +190,8 @@ Aspose.PDF for .NET kullanarak PDF'lere görüntü bindirme, maske ekleme ve oto
 Aspose.Pdf kullanarak PDF belgelerine ExtGState ekleyerek şeffaflık ve render ayarlarını nasıl kontrol edeceğinizi öğrenin.
 ### [Aspose.Pdf ile Grafik Durumu PDF Ekleme: Adım Adım Kılavuz](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
 Aspose.Pdf kullanarak PDF belgelerine grafik durumu eklemeyi ve görüntüleme ayarlarını yönetmeyi öğrenin.
+### [.NET için Aspose.PDF ile Grafik Durumunu PDF'ye Ekleyin ve Şeffaflığı Kontrol Edin](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
+Aspose.PDF ile grafik durumunu ekleyerek PDF'de şeffaflık kontrolünü nasıl sağlayacağınızı öğrenin.
 
 ## Ek Kaynaklar
 

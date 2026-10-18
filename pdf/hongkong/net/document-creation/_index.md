@@ -106,6 +106,8 @@ Aspose.PDF Net 程式碼教學
 
 ### [使用 C# 建立 PDF/X‑4 文件 – 逐步指南](./create-pdf-x-4-document-c-step-by-step-guide/)
 了解如何使用 Aspose.PDF for .NET 以 C# 建立符合 PDF/X‑4 標準的文件。
+### [如何建立帶有空白頁面和矩形的 PDF 文件](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
+了解如何在 C# 中使用 Aspose.PDF for .NET 建立空白頁面並繪製矩形。
 
 ## 其他資源
 

@@ -110,6 +110,8 @@ Leer hoe u met Aspose.PDF een PDF-afbeelding genereert uit HEIC-bestanden met C#
 
 ### [Nieuw PDF-document maken met Bates-nummering in C#](./create-new-pdf-document-with-bates-numbering-in-c/)
 Leer hoe u een nieuw PDF-document maakt en automatisch Bates-nummering toevoegt met C# en Aspose.PDF.
+### [PDF-document maken met een lege pagina en rechthoek](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
+Leer hoe u met Aspose.PDF voor .NET een PDF-document maakt met een lege pagina en een rechthoek.
 
 ## Aanvullende bronnen
 

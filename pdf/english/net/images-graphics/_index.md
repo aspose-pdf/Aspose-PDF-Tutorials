@@ -68,6 +68,10 @@ Learn how to create visually appealing PDF documents by extracting and highlight
 A code tutorial for Aspose.PDF Net
 
 ### [Efficient PDF Image Identification with Aspose.PDF for .NET]({{< relref "master-image-identification-aspose-pdf-net" >}})
+### [How to add graphics state pdf and control transparency with Aspose.PDF](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
+Learn how to use graphics state to control transparency in PDFs with Aspose.PDF for .NET.
+
+### [Efficient PDF Image Identification with Aspose.PDF for .NET](./master-image-identification-aspose-pdf-net/)
 Learn how to identify grayscale and RGB images in PDFs using Aspose.PDF for .NET. This tutorial covers installation, image extraction, and performance tips.
 
 ### [Efficiently Convert Image Streams to PDFs with Aspose.PDF for .NET]({{< relref "convert-image-stream-to-pdf-aspose-dotnet" >}})

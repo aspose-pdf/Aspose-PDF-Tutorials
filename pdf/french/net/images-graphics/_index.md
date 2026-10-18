@@ -184,8 +184,8 @@ Apprenez à compresser et optimiser les images de vos documents PDF avec Aspose.
 ### [Rendu LaTeX au format PDF avec Aspose.PDF .NET : guide étape par étape](./render-latex-aspose-pdf-net-guide/)
 Découvrez comment restituer des scripts LaTeX complexes dans des documents PDF à l'aide d'Aspose.PDF pour .NET, y compris des conseils de configuration, de mise en œuvre et d'optimisation.
 
-### [Définir l'arrière-plan des images dans les fichiers PDF avec Aspose.PDF pour .NET : guide complet](./aspose-pdf-net-set-image-backgrounds/)
-Découvrez comment améliorer vos documents PDF en définissant des images d'arrière-plan avec Aspose.PDF pour .NET. Ce guide présente des conseils de configuration, de mise en œuvre et d'optimisation.
+### [Comment ajouter l'état graphique PDF et contrôler la transparence avec Aspose.PDF](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
+Apprenez à gérer l'état graphique PDF pour contrôler la transparence des éléments dans vos documents avec Aspose.PDF pour .NET.
 
 ### [Compression d'images sans perte dans les documents Word – Guide complet](./lossless-image-compression-in-word-docs-complete-guide/)
 Apprenez à compresser des images dans les fichiers Word sans perte de qualité en utilisant Aspose.Words pour .NET.

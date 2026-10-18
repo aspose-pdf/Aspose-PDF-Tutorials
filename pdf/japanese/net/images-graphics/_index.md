@@ -128,6 +128,8 @@ Aspose.PDF for .NET を使って、アルファ透過の四角形を作成し、
 
 ### [Aspose.PDF を使用して C# で PDF に図形を追加する方法 – ステップバイステップ ガイド](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Aspose.PDF for .NET を使い、C# で PDF に矩形や円、ポリラインなどの図形を追加する手順をステップバイステップで解説します。
+### [Aspose.PDF を使用してグラフィックスステートを追加し、透明度を制御する方法](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
+Aspose.PDF for .NET でグラフィックスステートを設定し、透明度やブレンドモードを制御する手順を学びます。
 
 ### [Aspose.PDF for .NET を使用して PDF ファイルから画像を削除する方法 - 完全ガイド](./delete-images-aspose-pdf-net/)
 Aspose.PDF for .NET を使用して、PDF ファイルから画像を効率的に削除する方法を学びましょう。このガイドでは、セットアップ、コード例、ベストプラクティスについて説明します。

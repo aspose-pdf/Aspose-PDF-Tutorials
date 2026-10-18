@@ -122,6 +122,11 @@ Lär dig hur du förbättrar dina PDF-dokument genom att skapa rektanglar med al
 
 ### [Lägg till transparens i PDF med Aspose PDF i C# – En steg‑för‑steg‑guide](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Lär dig hur du lägger till transparens i PDF-dokument med Aspose PDF för .NET i C#. Följ den här guiden för att skapa genomskinliga element.
+### [Hur man lägger till grafikstatus i PDF och kontrollerar transparens med Aspose.PDF](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
+Lär dig hur du använder grafikstatus för att hantera transparens i PDF-dokument med Aspose.PDF för .NET.
+
+### [Hur man tar bort bilder från PDF-filer med Aspose.PDF för .NET - Komplett guide](./delete-images-aspose-pdf-net/)
+Lär dig hur du effektivt tar bort bilder från PDF-filer med Aspose.PDF för .NET. Den här guiden beskriver installation, kodexempel och bästa praxis.
 
 ### [Lägg till transparens i PDF med Aspose PDF i C# – En steg‑för‑steg‑guide (ny version)](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
 Lär dig hur du lägger till transparens i PDF-dokument med Aspose PDF för .NET i C#. Följ den här guiden för att skapa genomskinliga element.
@@ -143,6 +148,8 @@ Lär dig hur du extraherar bilder inbäddade i PDF-signaturer med Aspose.PDF fö
 
 ### [Extrahera bilder från PDF med Aspose.PDF för .NET](./extract-images-pdfs-aspose-pdf-net/)
 En kodhandledning för Aspose.PDF Net
+### [Hur man extraherar bilder från PDF-filer med Aspose.PDF för .NET: En steg-för-steg-guide](./extract-images-aspose-pdf-dot-net-guide/)
+Lär dig hur du effektivt extraherar bilder från PDF-filer med Aspose.PDF för .NET med den här omfattande guiden. Med kodexempel och bästa praxis.
 
 ### [Snabb bildförminskning i PDF-filer med Aspose.PDF .NET: Optimera och komprimera bilder effektivt](./optimize-pdf-images-aspose-net-fast-compression/)
 Lär dig hur du krymper bilder i PDF-filer med Aspose.PDF för .NET, vilket minskar filstorleken samtidigt som kvaliteten bibehålls. Perfekt för snabbare inläsning och effektiv lagring.

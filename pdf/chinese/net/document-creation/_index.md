@@ -111,6 +111,8 @@ Aspose.PDF Net 代码教程
 
 ### [使用 Aspose.PDF for .NET 在 C# 中创建 PDF/X‑4 文档：分步指南](./create-pdf-x-4-document-c-step-by-step-guide/)
 学习如何使用 Aspose.PDF for .NET 在 C# 中创建符合 PDF/X‑4 标准的 PDF 文档，涵盖设置、属性配置和保存步骤。
+### [如何创建带空白页和矩形的 PDF 文档](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
+学习在 C# 中使用 Aspose.PDF for .NET 添加空白页并绘制矩形到 PDF 文档。
 
 ## 其他资源
 

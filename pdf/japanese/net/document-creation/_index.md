@@ -111,6 +111,7 @@ C# でベーツ番号付けを行いながら新しい PDF ドキュメントを
 
 ### [C# で PDF/X‑4 ドキュメントを作成する – ステップバイステップ ガイド](./create-pdf-x-4-document-c-step-by-step-guide/)
 Aspose.PDF for .NET を使用して、C# で PDF/X‑4 形式の PDF ドキュメントを作成する方法をステップバイステップで解説します。
+### [空白ページと矩形を含む PDF ドキュメントの作成方法](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
 
 ## 追加リソース
 

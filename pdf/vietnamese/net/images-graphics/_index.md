@@ -56,6 +56,8 @@ Hướng dẫn mã cho Aspose.PDF Net
 
 ### [Cách Thêm Hình Dạng vào PDF bằng Aspose.PDF trong C# – Hướng Dẫn Từng Bước](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Tìm hiểu cách thêm hình dạng vào PDF bằng Aspose.PDF trong C# qua hướng dẫn chi tiết từng bước, giúp bạn tạo đồ họa tùy chỉnh trong tài liệu.
+### [Cách thêm trạng thái đồ họa PDF và kiểm soát độ trong suốt với Aspose.PDF](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
+Hướng dẫn cách thêm trạng thái đồ họa và điều chỉnh độ trong suốt trong PDF bằng Aspose.PDF cho .NET.
 
 ### [Nhận dạng hình ảnh PDF hiệu quả với Aspose.PDF cho .NET](./master-image-identification-aspose-pdf-net/)
 Tìm hiểu cách xác định hình ảnh thang độ xám và RGB trong PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm các mẹo cài đặt, trích xuất hình ảnh và hiệu suất.

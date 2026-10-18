@@ -119,6 +119,8 @@ Dowiedz się, jak ulepszyć swoje dokumenty PDF, tworząc prostokąty z przezroc
 
 ### [Jak narysować prostokąt w plikach PDF przy użyciu C# – przewodnik krok po kroku](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
 Dowiedz się, jak narysować prostokąt w pliku PDF przy użyciu C# i Aspose.PDF .NET, krok po kroku, z przykładami kodu.
+### [Jak dodać stan graficzny PDF i kontrolować przezroczystość przy użyciu Aspose.PDF](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
+Dowiedz się, jak zarządzać stanem graficznym i przezroczystością w dokumentach PDF przy użyciu Aspose.PDF dla .NET.
 
 ### [Jak usunąć obrazy z plików PDF za pomocą Aspose.PDF dla .NET - kompletny przewodnik](./delete-images-aspose-pdf-net/)
 Dowiedz się, jak skutecznie usuwać obrazy z plików PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje konfigurację, przykłady kodu i najlepsze praktyki.

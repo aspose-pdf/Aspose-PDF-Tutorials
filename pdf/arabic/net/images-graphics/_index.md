@@ -175,7 +175,8 @@
 تعرف على كيفية تحويل نصوص LaTeX المعقدة إلى مستندات PDF باستخدام Aspose.PDF لـ .NET، بما في ذلك نصائح الإعداد والتنفيذ والتحسين.
 
 ### [تعيين خلفيات الصور في ملفات PDF باستخدام Aspose.PDF لـ .NET: دليل شامل](./aspose-pdf-net-set-image-backgrounds/)
-تعرّف على كيفية تحسين مستندات PDF الخاصة بك عن طريق تعيين خلفيات الصور باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل نصائح للإعداد والتنفيذ والتحسين.
+
+### [كيفية إضافة حالة الرسومات إلى PDF والتحكم في الشفافية باستخدام Aspose.PDF](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
 
 ### [كيفية التحقق من صحة ملف PDF وإضافة مستطيل – دليل شامل](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
 تعرف على خطوات التحقق من صحة ملفات PDF وإدراج مستطلات باستخدام Aspose.PDF لـ .NET مع أمثلة برمجية مفصلة.
