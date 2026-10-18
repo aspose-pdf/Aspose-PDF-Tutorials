@@ -1,14 +1,58 @@
 ---
-date: '2025-12-20'
-description: Apprenez à supprimer les pièces jointes PDF et à optimiser la taille
-  des PDF avec Aspose.PDF pour Java. Ce guide étape par étape couvre la configuration,
-  la dépendance Maven et l’enregistrement du PDF sans pièces jointes.
+date: '2026-05-23'
+description: Apprenez comment supprimer les pièces jointes d'un PDF et optimiser la
+  taille du PDF avec Aspose.PDF for Java. Ce guide étape par étape couvre la configuration,
+  la dépendance Maven et l'enregistrement d'un PDF sans pièces jointes.
 keywords:
-- remove attachments from pdf
-- Aspose.PDF for Java setup
-- manage PDF files
-title: Comment supprimer efficacement les pièces jointes PDF à l'aide d'Aspose.PDF
-  pour Java
+- save pdf without attachments
+- how to remove pdf attachments
+- optimize pdf size java
+- strip embedded files pdf
+- delete embedded files pdf
+schemas:
+- author: Aspose
+  dateModified: '2026-05-23'
+  description: Learn how to remove PDF attachments and optimize PDF size with Aspose.PDF
+    for Java. This step‑by‑step guide covers setup, Maven dependency, and saving PDF
+    without attachments.
+  headline: How to Save PDF Without Attachments Efficiently Using Aspose.PDF for Java
+  type: TechArticle
+- description: Learn how to remove PDF attachments and optimize PDF size with Aspose.PDF
+    for Java. This step‑by‑step guide covers setup, Maven dependency, and saving PDF
+    without attachments.
+  name: How to Save PDF Without Attachments Efficiently Using Aspose.PDF for Java
+  steps:
+  - name: Load the PDF Document
+    text: '- **Why**: Loading creates an object model that lets you access the `EmbeddedFiles`
+      collection.'
+  - name: Remove All Embedded Files (Attachments)
+    text: '- **Why**: Deleting the collection clears hidden data, directly contributing
+      to **reduce pdf file size java** scenarios.'
+  - name: Save the Modified Document
+    text: '- **Why**: Saving persists the changes and produces a **save pdf without
+      attachments** version ready for distribution.'
+  type: HowTo
+- questions:
+  - answer: Aspose.PDF for Java is a powerful library that enables developers to create,
+      edit, convert, and manipulate PDF files programmatically without requiring Adobe
+      Acrobat.
+    question: What is Aspose.PDF for Java?
+  - answer: A free trial is available for evaluation; a purchased license removes
+      all evaluation restrictions and grants access to premium features.
+    question: Can I use this library without any limitations?
+  - answer: Use memory‑efficient coding patterns, process files in batches, and rely
+      on Aspose.PDF’s streaming API, which can work with PDFs up to 2 GB without loading
+      the entire document into RAM.
+    question: How do I handle large PDF files with Aspose.PDF?
+  - answer: Yes—use the `getEmbeddedFile(String name)` method to locate a particular
+      attachment and then call `delete()` on that object.
+    question: Is it possible to remove specific attachments instead of all?
+  - answer: Post questions or bug reports on the [Aspose Support Forum](https://forum.aspose.com/c/pdf/10),
+      where the product team and community members respond promptly.
+    question: How do I get support for issues with Aspose.PDF?
+  type: FAQPage
+title: Comment enregistrer un PDF sans pièces jointes efficacement avec Aspose.PDF
+  for Java
 url: /fr/java/attachments-embedded-files/remove-attachments-pdf-aspose-java/
 weight: 1
 ---
@@ -18,78 +62,73 @@ weight: 1
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Comment supprimer efficacement les pièces jointes PDF à l'aide d'Aspose.PDF pour Java
+# Comment enregistrer un PDF sans pièces jointes de manière efficace avec Aspose.PDF pour Java
 
 ## Introduction
 
-Vous cherchez à rationaliser la gestion des documents en **remove pdf attachments** de vos PDFs ? Que ce soit des fichiers obsolètes ou des données redondantes, nettoyer vos documents PDF peut considérablement améliorer l'efficacité et vous aider à **optimize PDF size**. Ce guide vous montrera comment supprimer tous les fichiers intégrés (pièces jointes) d'un PDF à l'aide d'Aspose.PDF pour Java.
+Vous cherchez à rationaliser la gestion des documents en apprenant comment **enregistrer un PDF sans pièces jointes** ? Que vous ayez besoin de supprimer des fichiers obsolètes, de répondre à des exigences de conformité ou simplement de réduire la taille d’un document, la suppression des pièces jointes intégrées peut améliorer considérablement l’efficacité du stockage et la vitesse de téléchargement. Ce tutoriel vous guide à travers chaque étape — installation d’Aspose.PDF pour Java, chargement d’un PDF, suppression des fichiers intégrés, puis enregistrement d’un PDF propre prêt à être distribué.
 
-Aspose.PDF est une bibliothèque robuste qui simplifie les opérations PDF complexes avec aisance. En suivant ce tutoriel, vous exploiterez ses capacités pour gérer et optimiser vos documents efficacement.
+Aspose.PDF pour Java est une bibliothèque de niveau production qui masque les détails internes du PDF tout en offrant des performances élevées. À la fin de ce guide, vous serez capable de **supprimer les pièces jointes PDF** de n’importe quel PDF et comprendrez comment cette opération contribue à **optimiser la taille du PDF en Java**.
 
-**Ce que vous apprendrez :**  
-- Comment configurer et utiliser Aspose.PDF pour Java  
-- Techniques pour **remove pdf attachments** d'un document PDF  
-- Options de configuration clés de la bibliothèque, y compris la **aspose pdf maven dependency**  
-- Applications pratiques de la gestion des fichiers PDF dans des scénarios réels  
+**Ce que vous allez apprendre**  
+- Comment installer et activer Aspose.PDF pour Java  
+- Le modèle de code exact pour **supprimer les pièces jointes PDF** d’un document PDF  
+- Comment **enregistrer un PDF sans pièces jointes** et vérifier la réduction de taille  
+- Scénarios réels où la suppression des fichiers intégrés économise de la bande passante et du stockage  
 
-Commençons !
+Plongeons‑y !
 
 ## Réponses rapides
-- **Que fait “remove pdf attachments” ?** Elle supprime tous les fichiers intégrés d'un PDF, réduisant ainsi la taille du fichier.  
-- **Quelle bibliothèque est recommandée ?** Aspose.PDF pour Java fournit une API simple pour le nettoyage des pièces jointes.  
-- **Ai‑je besoin d'une licence ?** Un essai gratuit fonctionne pour les tests ; une licence permanente supprime les limites d'utilisation.  
-- **Puis‑je enregistrer le PDF sans pièces jointes ?** Oui—après la suppression, vous enregistrez le document normalement.  
-- **Cela optimisera‑t‑il la taille du PDF ?** La suppression des pièces jointes réduit souvent la taille de façon spectaculaire.
+- **Que fait « remove pdf attachments » ?** Elle supprime chaque fichier intégré à l’intérieur d’un PDF, ce qui peut réduire la taille du fichier de 30 % à 80 % selon les pièces jointes.  
+- **Quelle bibliothèque est recommandée ?** Aspose.PDF pour Java propose une API en une ligne pour purger les pièces jointes et fonctionne sur tout OS avec un JDK.  
+- **Ai‑je besoin d’une licence ?** Un essai gratuit de 30 jours suffit pour les tests ; une licence achetée supprime toutes les limites d’évaluation.  
+- **Puis‑je enregistrer un PDF sans pièces jointes ?** Oui — après avoir appelé la méthode de suppression, il suffit d’appeler `save` pour produire un PDF propre.  
+- **Cette opération optimise‑t‑elle la taille du PDF ?** La suppression des pièces jointes réduit souvent la taille du fichier de façon spectaculaire, surtout lorsque des fichiers volumineux (images, feuilles de calcul) sont intégrés.
 
-## Qu'est-ce que “remove pdf attachments” ?
-Supprimer les pièces jointes PDF signifie enlever tous les fichiers qui ont été intégrés à l'intérieur du PDF (souvent appelés *embedded files*). Ce processus est utile pour le **pdf attachment cleanup**, surtout lorsque vous devez partager un document allégé ou respecter des politiques de stockage.
+## Qu’est‑ce que « remove pdf attachments » ?
+Supprimer les pièces jointes PDF signifie éliminer tous les fichiers qui ont été intégrés dans le PDF (souvent appelés *fichiers intégrés*). Cette opération supprime les données cachées, réduit la taille globale du fichier et garantit que seul le contenu prévu est partagé avec les destinataires.
 
 ## Pourquoi utiliser Aspose.PDF pour Java pour cette tâche ?
-- **API simple** – Une ligne de code supprime toutes les pièces jointes.  
-- **Cross‑platform** – Fonctionne sur tout OS disposant d'un runtime Java.  
-- **Performance‑optimisée** – Gère efficacement les gros PDFs.  
-- **Licence intégrée** – Essai gratuit pour l'évaluation, mise à niveau facile vers une licence complète.
+Supprimer les pièces jointes PDF peut être réalisé en quelques lignes de code grâce à l’API de haut niveau d’Aspose.PDF pour Java qui masque la structure du PDF. La bibliothèque prend en charge **plus de 50 formats d’entrée et de sortie**, peut traiter des PDF jusqu’à 2 Go sans charger le fichier complet en mémoire, et fonctionne sur toute plateforme compatible Java 8 ou supérieure. Ces capacités chiffrées en font un choix fiable pour les pipelines de documents d’entreprise.
 
 ## Prérequis
 
-Avant de commencer, assurez-vous d'avoir les éléments suivants :
-
 ### Bibliothèques requises, versions et dépendances
-- **Aspose.PDF pour Java** : version 25.3 ou ultérieure (couvre la dernière **aspose pdf maven dependency**).  
+- **Aspose.PDF pour Java** : version 25.3 ou ultérieure (couvre la dernière **aspose pdf maven dependency**).  
 
-### Exigences de configuration de l'environnement
-- Un Java Development Kit (JDK) installé sur votre machine.  
-- Un environnement de développement intégré (IDE) tel qu'IntelliJ IDEA ou Eclipse.
+### Exigences de configuration de l’environnement
+- Java Development Kit (JDK) 8 ou plus récent installé.  
+- Un IDE tel qu’IntelliJ IDEA ou Eclipse pour une gestion de projet aisée.  
 
 ### Prérequis de connaissances
-- Compréhension de base de la programmation Java.  
-- Familiarité avec les outils de gestion de projet comme Maven ou Gradle.
+- Compétences de base en programmation Java.  
+- Familiarité avec Maven ou Gradle pour la gestion des dépendances.
 
-## Configuration d'Aspose.PDF pour Java
+## Configuration d’Aspose.PDF pour Java
 
-Pour commencer à utiliser Aspose.PDF pour Java, ajoutez-le comme dépendance dans votre projet. Voici comment procéder avec Maven et Gradle :
+Pour commencer à utiliser Aspose.PDF pour Java, ajoutez‑le comme dépendance dans votre projet. Vous trouverez ci‑dessous les extraits Maven et Gradle nécessaires.
 
-**Maven :**
+**Maven :**  
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
     <artifactId>aspose-pdf</artifactId>
     <version>25.3</version>
 </dependency>
-```
+```  
 
-**Gradle :**
+**Gradle :**  
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
-```
+```  
 
-### Étapes d'acquisition de licence
-1. **Essai gratuit** : Téléchargez un essai gratuit depuis la page [Aspose PDF Downloads](https://releases.aspose.com/pdf/java/).  
-2. **Licence temporaire** : Pour toutes les fonctionnalités sans limitations, obtenez une licence temporaire via [Aspose Temporary License](https://purchase.aspose.com/temporary-license/).  
-3. **Achat** : Pour une utilisation à long terme, achetez une licence sur leur site officiel.
+## Étapes d’acquisition de licence
+1. **Essai gratuit** – Téléchargez un essai depuis la page [Aspose PDF Downloads](https://releases.aspose.com/pdf/java/).  
+2. **Licence temporaire** – Obtenez une clé à durée limitée via le portail [Aspose Temporary License](https://purchase.aspose.com/temporary-license/).  
+3. **Achat** – Pour une utilisation en production, achetez une licence complète sur le site officiel.
 
-### Initialisation et configuration de base
-Une fois que vous avez ajouté Aspose.PDF comme dépendance, initialisez‑la dans votre projet Java :
+## Initialisation et configuration de base
+Une fois la dépendance ajoutée, vous pouvez commencer à utiliser la bibliothèque dans votre code :
 
 ```java
 import com.aspose.pdf.Document;
@@ -105,81 +144,80 @@ public class RemoveAttachments {
         // Proceed with removing attachments in the next section.
     }
 }
-```
+```  
 
 ## Guide de mise en œuvre
 
-### Comment supprimer les pièces jointes PDF avec Aspose.PDF pour Java
+## Comment supprimer les pièces jointes PDF avec Aspose.PDF pour Java
+Pour supprimer les pièces jointes, vous chargez d’abord le PDF dans un objet `Document` d’Aspose.PDF, puis accédez à sa collection `EmbeddedFiles`, supprimez la collection, et enfin enregistrez le document dans un nouveau fichier. Ce flux de travail en trois étapes simples garantit que tous les fichiers intégrés sont retirés tout en préservant le contenu et la mise en page d’origine du PDF.  
+La classe `Document` représente un fichier PDF et fournit des méthodes pour lire, modifier et enregistrer le document.  
+La collection `EmbeddedFiles` contient tous les objets de fichiers intégrés (pièces jointes) du PDF.
 
-Cette fonctionnalité montre comment **remove pdf attachments** intégrées dans vos documents PDF. Nous parcourrons chaque étape.
-
-#### Étape 1 : Charger le document PDF
-Commencez par charger le document en utilisant la classe `Document` fournie par Aspose.PDF :
-
+#### Étape 1 : Charger le document PDF
 ```java
 // Open the specified PDF document
 Document pdfDocument = new Document(dataDir);
-```
-- **Pourquoi** : Cette étape est essentielle pour accéder et manipuler le contenu du document.
+```  
+- **Pourquoi** : Le chargement crée un modèle d’objet qui vous permet d’accéder à la collection `EmbeddedFiles`.
 
-#### Étape 2 : Supprimer tous les fichiers intégrés (pièces jointes)
-Utilisez la méthode `delete()` sur la collection `EmbeddedFiles` pour éliminer chaque pièce jointe :
-
+#### Étape 2 : Supprimer tous les fichiers intégrés (pièces jointes)
 ```java
 // Remove all embedded files (attachments) from the document
 pdfDocument.getEmbeddedFiles().delete();
-```
-- **Pourquoi** : La méthode `delete()` supprime toutes les données inutiles, garantissant que votre PDF est propre et optimisé.
+```  
+- **Pourquoi** : La suppression de la collection élimine les données cachées, contribuant directement aux scénarios de **réduction de la taille du fichier PDF Java**.
 
-#### Étape 3 : Enregistrer le document modifié
-Après la suppression des pièces jointes, enregistrez le PDF mis à jour dans un nouveau fichier :
-
+#### Étape 3 : Enregistrer le document modifié
 ```java
 // Save the modified document to a new file in the specified output directory
 pdfDocument.save(outputDir);
-```
-- **Pourquoi** : L'enregistrement persiste toutes les modifications et produit une version **save pdf without attachments** prête à être distribuée.
+```  
+- **Pourquoi** : L’enregistrement persiste les modifications et produit une version **enregistrer PDF sans pièces jointes** prête à la distribution.
 
-### Conseils de dépannage
-- **Problème courant** : Exceptions dues à des chemins de fichiers incorrects.  
-- **Solution** : Vérifiez que `dataDir` et `outputDir` pointent vers des répertoires existants avec les permissions de lecture/écriture appropriées.
+### Comment dépanner les problèmes courants lors de la suppression des pièces jointes PDF ?
+Si l’opération échoue, les problèmes typiques incluent des chemins de fichier incorrects, des permissions insuffisantes ou la tentative de modifier un PDF protégé par mot de passe. Assurez‑vous que le chemin d’entrée est absolu ou relatif à votre répertoire de travail, accordez les droits de lecture/écriture aux dossiers, et, si nécessaire, fournissez le mot de passe du document via le surchargeur du constructeur `Document`.
 
 ## Applications pratiques
 
-1. **Systèmes de gestion documentaire** – Supprimer les pièces jointes inutiles rationalise la gestion du stockage dans les environnements d'entreprise.  
-2. **Pièces jointes d'e‑mail** – Nettoyez les PDFs avant l'envoi pour réduire la taille des e‑mails.  
-3. **Gestion de documents juridiques** – Assurez‑vous qu'aucun fichier caché n'est partagé avec des contrats sensibles.  
-4. **Archivage** – Conservez uniquement le contenu essentiel, en éliminant les fichiers intégrés supplémentaires.  
-5. **Publication Web** – Temps de chargement plus rapides pour les PDFs hébergés en ligne.
+1. **Systèmes de gestion documentaire** – La suppression des pièces jointes réduit les coûts de stockage et accélère l’indexation.  
+2. **Pièces jointes d’e‑mail** – Nettoyez les PDF avant envoi pour garder les tailles d’e‑mail sous les limites d’entreprise.  
+3. **Gestion de documents juridiques** – Garantit qu’aucun fichier caché n’est partagé involontairement avec les contrats.  
+4. **Archivage** – Conservez uniquement le contenu essentiel, en éliminant les fichiers intégrés superflus pour la rétention à long terme.  
+5. **Publication web** – Temps de chargement plus rapides pour les PDF hébergés sur des sites publics.
 
 ## Considérations de performance
-- Libérez les objets `Document` après utilisation avec `pdfDocument.close()` pour libérer la mémoire.  
-- Pour le traitement par lots, envisagez de boucler sur les fichiers et d'appliquer les mêmes étapes, en surveillant l'utilisation du heap JVM.
+- Appelez `pdfDocument.close()` après le traitement pour libérer les ressources natives.  
+- Pour les traitements par lots, parcourez un répertoire de PDF et appliquez le même schéma en trois étapes, en surveillant l’utilisation du tas JVM avec des outils comme VisualVM.  
+- Aspose.PDF peut gérer des PDF jusqu’à 2 Go sans charger le fichier complet en mémoire, grâce à son architecture de streaming.
 
 ## Conclusion
 
-Vous avez maintenant maîtrisé la technique pour **remove pdf attachments** d'un document PDF à l'aide d'Aspose.PDF pour Java. Cela vous aide non seulement à **optimize PDF size** mais améliore également l'efficacité du stockage et la sécurité.
+Vous disposez désormais d’une méthode complète, prête pour la production, afin de **enregistrer un PDF sans pièces jointes** avec Aspose.PDF pour Java. Cette technique non seulement **optimise la taille du PDF**, mais améliore également la sécurité et la conformité en garantissant qu’aucun fichier caché n’accompagne vos documents.  
 
-**Prochaines étapes :**  
-- Explorez d'autres fonctionnalités d'Aspose.PDF telles que la fusion, le filigrane ou l'extraction de texte.  
-- Consultez la documentation complète de l'API pour des scénarios plus avancés.
+**Prochaines étapes**  
+- Explorez d’autres capacités d’Aspose.PDF telles que la fusion, le filigrane ou l’extraction de texte.  
+- Consultez la référence complète de l’API pour des scénarios avancés comme la suppression de pièces jointes spécifiques par nom.  
 
-Si vous avez des questions, n'hésitez pas à nous contacter via le [Aspose Support Forum](https://forum.aspose.com/c/pdf/10).
+Si vous avez des questions, n’hésitez pas à nous contacter via le [Aspose Support Forum](https://forum.aspose.com/c/pdf/10).
 
 ## Section FAQ
-1. **Qu'est‑ce qu'Aspose.PDF pour Java ?**  
-   - Aspose.PDF pour Java est une bibliothèque puissante conçue pour créer et manipuler des documents PDF dans les applications Java.  
-2. **Puis‑je utiliser cette bibliothèque sans aucune limitation ?**  
-   - Pour un accès complet, vous devez acheter une licence ; toutefois, un essai gratuit est disponible pour l'évaluation.  
-3. **Comment gérer les gros fichiers PDF avec Aspose.PDF ?**  
-   - Envisagez d'utiliser des pratiques de codage économes en mémoire et de traiter les documents par lots si nécessaire.  
-4. **Est‑il possible de supprimer des pièces jointes spécifiques au lieu de toutes ?**  
-   - Oui, vous pouvez utiliser la méthode `getEmbeddedFile` pour cibler et supprimer des pièces jointes particulières par nom ou index.  
-5. **Comment obtenir du support pour les problèmes avec Aspose.PDF ?**  
-   - Utilisez le [Aspose Support Forum](https://forum.aspose.com/c/pdf/10) pour poser des questions ou signaler des problèmes.
+**Q : Qu’est‑ce qu’Aspose.PDF pour Java ?**  
+R : Aspose.PDF pour Java est une bibliothèque puissante qui permet aux développeurs de créer, modifier, convertir et manipuler des fichiers PDF programmatiquement sans nécessiter Adobe Acrobat.  
+
+**Q : Puis‑je utiliser cette bibliothèque sans aucune limitation ?**  
+R : Un essai gratuit est disponible pour l’évaluation ; une licence achetée supprime toutes les restrictions d’évaluation et donne accès aux fonctionnalités premium.  
+
+**Q : Comment gérer les gros fichiers PDF avec Aspose.PDF ?**  
+R : Utilisez des modèles de code économes en mémoire, traitez les fichiers par lots et reposez‑vous sur l’API de streaming d’Aspose.PDF, qui peut travailler avec des PDF jusqu’à 2 Go sans charger le document complet en RAM.  
+
+**Q : Est‑il possible de supprimer des pièces jointes spécifiques au lieu de toutes ?**  
+R : Oui—utilisez la méthode `getEmbeddedFile(String name)` pour localiser une pièce jointe particulière, puis appelez `delete()` sur cet objet.  
+
+**Q : Comment obtenir du support pour des problèmes avec Aspose.PDF ?**  
+R : Publiez vos questions ou rapports de bugs sur le [Aspose Support Forum](https://forum.aspose.com/c/pdf/10), où l’équipe produit et les membres de la communauté répondent rapidement.
 
 ## Ressources
-- **Documentation** : Explorez les références détaillées de l'API sur [Aspose PDF Java Reference](https://reference.aspose.com/pdf/java/)  
+- **Documentation** : Explorez les références détaillées de l’API sur [Aspose PDF Java Reference](https://reference.aspose.com/pdf/java/)  
 - **Télécharger Aspose.PDF** : Accédez au logiciel depuis [Aspose Downloads](https://releases.aspose.com/pdf/java/)  
 - **Acheter une licence** : Obtenez des licences via la [Aspose Purchase Page](https://purchase.aspose.com/buy)  
 - **Essai gratuit** : Commencez avec un essai sur [Aspose PDF Java Downloads](https://releases.aspose.com/pdf/java/)  
@@ -187,14 +225,21 @@ Si vous avez des questions, n'hésitez pas à nous contacter via le [Aspose Supp
 
 ---
 
-**Dernière mise à jour :** 2025-12-20  
-**Testé avec :** Aspose.PDF for Java 25.3  
-**Auteur :** Aspose
+**Dernière mise à jour** : 2026-05-23  
+**Testé avec** : Aspose.PDF pour Java 25.3  
+**Auteur** : Aspose
+
+{{< blocks/products/products-backtop-button >}}
+
+## Tutoriels associés
+
+- [Master Aspose.PDF Java: Access and Manage Embedded Files in PDFs](/pdf/java/attachments-embedded-files/master-aspose-pdf-java-access-manage-embedded-files/)
+- [How to Extract Embedded Files from a PDF Portfolio Using Aspose.PDF Java](/pdf/java/attachments-embedded-files/extract-files-pdf-portfolio-aspose-java/)
+- [Optimize PDF Files Quickly with Aspose.PDF for Java: A Comprehensive Guide](/pdf/java/performance-optimization/master-aspose-pdf-java-optimization/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

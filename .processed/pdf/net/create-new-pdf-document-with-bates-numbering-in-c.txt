@@ -1,0 +1,7 @@
+Title: Create new PDF document with Bates numbering in C#
+Slug: create-new-pdf-document-with-bates-numbering-in-c
+Category: document-creation
+ProcessedDate: 2026-08-05T07:42:07.490757
+SourceRepo: AI Search API
+Keywords: create new pdf document, add bates numbering pdf, how to add bates, add blank page pdf, add custom page numbers
+PRNumber: 114

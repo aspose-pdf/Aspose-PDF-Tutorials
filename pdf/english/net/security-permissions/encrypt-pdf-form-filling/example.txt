@@ -1,0 +1,46 @@
+//ExStart
+//ExSummary: This tutorial demonstrates how to open an existing PDF with Aspose.Pdf, restrict permissions so only form filling is allowed, encrypt it with viewer and owner passwords using AES‑256, and save the protected file.
+//ExStepSummary:0: Define the source and destination file paths and the viewer and owner passwords.
+//ExStepSummary:1: Check that the source PDF exists and abort with an error message if it does not.
+//ExStepSummary:2: Start a try block to handle any errors that may occur during processing.
+//ExStepSummary:3: Open the existing PDF file by creating a Document object named pdfDoc.
+//ExStepSummary:4: Set permissions to allow only form filling, encrypt the document with viewer and owner passwords using AES‑256, and save the protected PDF.
+//ExStepSummary:5: Write a confirmation message to the console and close the try block.
+//ExStepSummary:6: Catch any exceptions and output the error message to the console.
+//ExStep:0-
+        const string sourceFile = "sample.pdf";
+        const string destFile = "protected.pdf";
+        const string viewerPass = "viewerPass";
+        const string adminPass = "adminPass";
+
+//ExStep:1-
+        if (!File.Exists(sourceFile))
+        {
+            Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+            return;
+        }
+
+//ExStep:2-
+        try
+        {
+
+//ExStep:3-
+            using (Document pdfDoc = new Document(sourceFile))
+
+//ExStep:4-
+            {
+                Permissions allowed = Permissions.FillForm;
+                pdfDoc.Encrypt(viewerPass, adminPass, allowed, CryptoAlgorithm.AESx256);
+                pdfDoc.Save(destFile);
+            }
+
+//ExStep:5-
+            Console.WriteLine($"Secure PDF written to '{destFile}'.");
+        }
+
+//ExStep:6-
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Exception occurred: {ex.Message}");
+        }
+//ExEnd

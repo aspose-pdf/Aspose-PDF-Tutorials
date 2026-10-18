@@ -1,0 +1,7 @@
+Title: How to get signatures from a Word document in C#
+Slug: how-to-get-signatures-from-a-word-document-in-c
+Category: digital-signatures
+ProcessedDate: 2026-09-28T08:00:22.117837
+SourceRepo: AI Search API
+Keywords: how to get signatures, read digital signatures
+PRNumber: 136

@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary: يوضح هذا البرنامج التعليمي كيفية فتح ملف PDF موجود باستخدام Aspose.Pdf، وتطبيق تشفير AES‑256 دون منح أي أذونات (مما يعطل الطباعة)، وحفظ الملف المحمي، والتحقق من التشفير باستخدام كلمة مرور المشاهد.
+//ExStepSummary:0: حدد مسار ملف PDF المصدر، واسم ملف الإخراج المحمي، وكلمات مرور المشاهد والمالك.
+//ExStepSummary:1: تحقق من وجود ملف المصدر وقم بإيقاف العملية مع عرض رسالة خطأ إذا كان مفقودًا.
+//ExStepSummary:2: افتح ملف PDF الأصلي، ولا تقم بتعيين أي أذونات، وشفره باستخدام AES‑256 مع كلمات المرور المحددة، ثم احفظ الملف المحمي.
+//ExStepSummary:3: أعد فتح ملف PDF المشفر باستخدام كلمة مرور المشاهد واكتب قيمة علم IsEncrypted إلى وحدة التحكم لتأكيد الحماية.
+//ExStepSummary:4: اعرض رسالة نهائية تشير إلى أن عملية التشفير انتهت واسم ملف الإخراج.
+//ExStep:0-
+const string sourceFile = "original.pdf";
+const string securedFile = "protected.pdf";
+const string viewerPwd = "viewerPwd123";
+const string masterPwd = "masterPwd123";
+
+//ExStep:1-
+if (!File.Exists(sourceFile))
+{
+    Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+    return;
+}
+
+//ExStep:2-
+using (Document pdfDoc = new Document(sourceFile))
+{
+    Permissions rights = 0;
+    pdfDoc.Encrypt(viewerPwd, masterPwd, rights, CryptoAlgorithm.AESx256);
+    pdfDoc.Save(securedFile);
+}
+
+//ExStep:3-
+using (Document checkDoc = new Document(securedFile, viewerPwd))
+{
+    Console.WriteLine($"Encrypted flag: {checkDoc.IsEncrypted}");
+}
+
+//ExStep:4-
+Console.WriteLine($"Encryption finished. Output saved as '{securedFile}'.");
+//ExEnd

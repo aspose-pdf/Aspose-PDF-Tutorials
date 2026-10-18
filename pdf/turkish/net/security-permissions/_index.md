@@ -17,6 +17,12 @@ Güvenlik ve izinler eğitimlerimiz, .NET için Aspose.PDF kullanarak PDF belgel
 
 ## Mevcut Eğitimler
 
+
+{{< tutorial-card link="./encrypt-pdf-form-filling/" title="Aspose.Pdf for .NET kullanarak PDF'yi yalnızca form doldurmaya izin verecek şekilde şifreleyin" imgSrc="./encrypt-pdf-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-form-filling/" title="Aspose.Pdf for .NET kullanarak AES‑256 ile yalnızca form doldurma için PDF'yi şifreleyin" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="Aspose.PDF for .NET kullanarak Yazdırma İzni Olmadan PDF Şifreleme" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [Aspose.PDF for .NET ile PDF Parolalarını Değiştirin](./change-pdf-password-aspose-pdf-net-guide/)
 Aspose.PDF Net için bir kod öğreticisi
 
@@ -62,7 +68,15 @@ Aspose.PDF ile .NET'te PDF'ler için güvenli dijital imzaların ve doğrulaman�
 ### [Aspose.PDF .NET ile PDF Redaksiyonunda Ustalaşma: Güvenli Belge İşleme İçin Kapsamlı Bir Kılavuz](./mastering-pdf-redaction-aspose-pdf-net-guide/)
 Aspose.PDF .NET kullanarak PDF'leri güvenli bir şekilde nasıl düzenleyeceğinizi öğrenin. Bu kılavuz, belgelerinizin uyumlu kalmasını sağlayarak açıklama tabanlı ve cephe yaklaşımlarını kapsar.
 
+### [Aspose Plugin Manager ile PDF'ye Redaksiyon Uygulama – Tam Kılavuz](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
+Aspose Plugin Manager kullanarak PDF'lerde redaksiyon uygulamayı adım adım öğrenin.
+### [C# ile PDF'yi Redakte Etme ve Hassas Verileri Kaldırma](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+C# ve Aspose.PDF for .NET kullanarak PDF'den hassas bilgileri nasıl redakte edip kaldıracağınızı öğrenin.
+
 ### [Aspose.PDF for .NET ile PDF Dosyalarının Kilidini Açın ve Şifresini Çözün: Eksiksiz Bir Kılavuz](./unlock-decrypt-pdf-files-aspose-pdf-net/)
+### [Aspose.Pdf ile PDF Redaksiyonu Nasıl Yapılır – Tam Adım‑Adım Kılavuz](./how-to-redact-pdf-with-aspose-pdf-complete-step-by-step-guid/)
+Aspose.Pdf kullanarak PDF belgelerinde hassas bilgileri güvenli bir şekilde kırpma ve gizleme adımlarını öğrenin.
+
 C# dilinde Aspose.PDF for .NET kullanarak korumalı PDF dosyalarının kilidini açmayı ve şifresini çözmeyi öğrenin. Bu kılavuz kurulum, şifre çözme adımları ve en iyi uygulamaları kapsar.
 
 ### [Aspose.PDF .NET ile PDF Parolalarını Doğrulayın: Güvenlik ve İzinler için Adım Adım Kılavuz](./verify-pdf-passwords-aspose-dot-net-guide/)

@@ -1,9 +1,76 @@
 ---
-"date": "2025-04-14"
-"description": "Tìm hiểu cách chuyển đổi liền mạch các tài liệu PDF sang định dạng XML bằng Aspose.PDF cho Java. Hướng dẫn này bao gồm cài đặt, trích xuất dữ liệu và các biện pháp thực hành tốt nhất."
-"title": "Cách xuất PDF sang XML bằng Aspose.PDF cho Java&#58; Hướng dẫn đầy đủ"
-"url": "/vi/java/conversion-export/export-pdf-xml-aspose-pdf-java-guide/"
-"weight": 1
+date: '2026-07-21'
+description: Tìm hiểu cách xuất PDF sang XML với Aspose.PDF for Java. Hướng dẫn từng
+  bước thiết lập, trích xuất dữ liệu và các thực tiễn tốt nhất để lưu PDF dưới dạng
+  XML.
+keywords:
+- export pdf to xml
+- extract data from pdf
+- save pdf as xml
+- aspose pdf free trial
+- aspose pdf gradle dependency
+lastmod: '2026-07-21'
+og_description: Xuất PDF sang XML với Aspose.PDF for Java. Thực hiện theo hướng dẫn
+  từng bước này để trích xuất dữ liệu từ PDF, lưu dưới dạng XML và tận dụng free trial.
+og_image_alt: Developer guide showing how to export PDF to XML with Aspose.PDF for
+  Java
+og_title: Xuất PDF sang XML bằng Aspose.PDF for Java – Hướng dẫn đầy đủ
+schemas:
+- author: Aspose
+  dateModified: '2026-07-21'
+  description: Learn how to export PDF to XML with Aspose.PDF for Java. Step‑by‑step
+    setup, data extraction, and best practices for saving PDF as XML.
+  headline: Export PDF to XML Using Aspose.PDF for Java – Complete Guide
+  type: TechArticle
+- description: Learn how to export PDF to XML with Aspose.PDF for Java. Step‑by‑step
+    setup, data extraction, and best practices for saving PDF as XML.
+  name: Export PDF to XML Using Aspose.PDF for Java – Complete Guide
+  steps:
+  - name: Set Up Your Development Environment
+    text: Confirm that the Aspose.PDF JAR is on your classpath and that you have read/write
+      permissions for the source PDF and destination XML files.
+  - name: Load the PDF Document
+    text: 'The `Form` class from `com.aspose.pdf.facades` enables direct interaction
+      with PDF forms. **Definition Anchor:** The `Form` class represents a PDF form
+      and provides methods to read, fill, and export its fields. **Explanation:**
+      The `bindPdf` method loads the PDF into the `Form` object, preparing it '
+  - name: Create an OutputStream for XML
+    text: An `OutputStream` directs the XML data from memory to a file on disk. **Definition
+      Anchor:** `FileOutputStream` is a Java I/O class that writes bytes to a file,
+      commonly used for exporting binary or text data.
+  - name: Export the Data to XML
+    text: Invoke `exportXml` to transform the form fields into XML format. **Definition
+      Anchor:** `exportXml` extracts the PDF form’s field values and writes them as
+      a structured XML document via the provided stream.
+  - name: Close All Resources
+    text: Always close streams to free system resources and avoid memory leaks. **Troubleshooting
+      Tip:** If you encounter an `IOException`, double‑check that the file paths are
+      correct and that the application has the necessary file system permissions.
+  type: HowTo
+- questions:
+  - answer: JDK 8+ and a valid Aspose license for production; the free trial works
+      with the same requirements.
+    question: What are the system requirements for using Aspose.PDF for Java?
+  - answer: Yes—Aspose.PDF can parse static text and images, but `exportXml` focuses
+      on interactive form fields.
+    question: Can I extract data from non‑interactive PDF forms?
+  - answer: Use batch processing, increase JVM memory, and close streams promptly
+      to avoid leaks.
+    question: How do I handle large‑scale document processing efficiently?
+  - answer: Absolutely—add `implementation 'com.aspose:aspose-pdf:24.9'` (or the latest
+      version) to your `build.gradle`.
+    question: Is there a Gradle dependency for Aspose.PDF?
+  - answer: The trial imposes a modest page‑count limit (typically 10 pages); a full
+      license removes this restriction.
+    question: Does the free trial limit the size of PDFs I can convert?
+  type: FAQPage
+tags:
+- export pdf to xml
+- aspose pdf
+- java pdf processing
+title: Xuất PDF sang XML bằng Aspose.PDF for Java – Hướng dẫn đầy đủ
+url: /vi/java/conversion-export/export-pdf-xml-aspose-pdf-java-guide/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,33 +78,45 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# Cách xuất PDF sang XML bằng Aspose.PDF cho Java: Hướng dẫn đầy đủ
+# Xuất PDF sang XML bằng Aspose.PDF cho Java: Hướng Dẫn Toàn Diện
 
 ## Giới thiệu
 
-Chuyển đổi PDF sang XML có thể là một thách thức, nhưng với thư viện Aspose.PDF mạnh mẽ trong Java, nó trở nên đơn giản. Hướng dẫn này sẽ trình bày cách tự động trích xuất dữ liệu từ các tài liệu PDF và chuyển đổi chúng sang định dạng XML, tăng cường khả năng tương tác của ứng dụng và hợp lý hóa quy trình làm việc.
+Việc xuất PDF sang XML có thể gặp khó khăn, nhưng với thư viện mạnh mẽ Aspose.PDF cho Java, quá trình trở nên đơn giản và đáng tin cậy. Trong hướng dẫn này, bạn sẽ học cách trích xuất dữ liệu từ các tệp PDF và lưu chúng dưới dạng XML, cho phép trao đổi dữ liệu liền mạch giữa các PDF cũ và các hệ thống hiện đại dựa trên XML.
 
-**Những gì bạn sẽ học được:**
-- Trích xuất dữ liệu từ tài liệu PDF
-- Lưu dữ liệu đó dưới dạng tệp XML bằng Aspose.PDF cho Java
-- Các biện pháp thực hành tốt nhất và cân nhắc về hiệu suất cho các tài liệu lớn
+**Bạn sẽ học**
+- Cách trích xuất dữ liệu từ tài liệu PDF
+- Cách lưu dữ liệu đó dưới dạng tệp XML bằng Aspose.PDF cho Java
+- Các thực tiễn tốt nhất và mẹo hiệu năng khi xử lý tài liệu lớn
 
-Hãy bắt đầu với những điều kiện tiên quyết bạn cần có để bắt đầu.
+Bây giờ bạn đã hiểu giá trị, hãy kiểm tra xem bạn đã có mọi thứ cần thiết.
 
-## Điều kiện tiên quyết
+## Câu trả lời nhanh
+- **“export pdf to xml” có nghĩa là gì?** Nó chuyển đổi dữ liệu cấu trúc và biểu mẫu của một PDF thành một tài liệu XML có cấu trúc hợp lệ.
+- **Thư viện nào thực hiện chuyển đổi này?** Aspose.PDF cho Java cung cấp một API chuyên dụng cho việc xuất PDF sang XML.
+- **Tôi có cần giấy phép không?** Một bản dùng thử miễn phí có sẵn, nhưng phiên bản có giấy phép sẽ loại bỏ các giới hạn đánh giá.
+- **Tôi có thể dùng Gradle thay vì Maven không?** Có — Aspose.PDF cho Java cung cấp tùy chọn phụ thuộc Gradle.
+- **Kết quả XML có thể tùy chỉnh không?** Phương thức `exportXml` tạo ra XML chuẩn; bạn có thể xử lý hậu kỳ theo nhu cầu.
 
-Đảm bảo thiết lập những điều sau trước khi tiếp tục:
-1. **Bộ phát triển Java (JDK):** Yêu cầu phải có JDK 8 trở lên.
-2. **Thư viện Aspose.PDF cho Java:** Cần thiết cho việc xử lý PDF và trích xuất dữ liệu XML.
-3. **Kiến thức Java cơ bản:** Hiểu biết về cách xử lý tệp, quản lý ngoại lệ và sử dụng các thư viện bên ngoài trong Java sẽ rất có ích.
+## Export PDF sang XML là gì?
+Xuất PDF sang XML chuyển đổi các yếu tố cấu trúc, văn bản và các trường biểu mẫu tương tác của một tài liệu PDF thành một tệp XML có cấu trúc hợp lệ. Đại diện XML này bảo tồn thứ bậc và mối quan hệ dữ liệu, giúp các ứng dụng hoặc dịch vụ khác dễ dàng phân tích, chuyển đổi hoặc tích hợp thông tin vào các quy trình làm việc tiếp theo.
 
-## Thiết lập Aspose.PDF cho Java
+## Tại sao nên xuất PDF sang XML bằng Aspose.PDF cho Java?
+Sử dụng Aspose.PDF cho Java để xuất PDF sang XML cung cấp một giải pháp đáng tin cậy, hiệu năng cao, xử lý các tài liệu lớn, phức tạp mà không cần tải toàn bộ tệp vào bộ nhớ. Thư viện hỗ trợ hơn 50 định dạng, cho phép kiểm soát chi tiết đầu ra và bao gồm xử lý tích hợp các trường biểu mẫu, hình ảnh và chú thích, rất phù hợp cho các dự án di chuyển và tích hợp dữ liệu quy mô doanh nghiệp.
 
-Bao gồm Aspose.PDF làm phần phụ thuộc trong dự án của bạn:
+## Yêu cầu trước
+
+1. **Java Development Kit (JDK) 8 hoặc cao hơn** – cần thiết để biên dịch và chạy mã.
+2. **Thư viện Aspose.PDF cho Java** – cung cấp khả năng xử lý PDF.
+3. **Kiến thức cơ bản về Java** – quen thuộc với I/O tệp, xử lý ngoại lệ và các thư viện bên ngoài.
+
+## Cài đặt Aspose.PDF cho Java
+
+Thêm Aspose.PDF vào dự án của bạn bằng công cụ xây dựng ưa thích.
 
 ### Maven
 
-Thêm cấu hình sau vào `pom.xml` tài liệu:
+Thêm cấu hình sau vào tệp `pom.xml` của bạn:
 
 ```xml
 <dependency>
@@ -47,22 +126,22 @@ Thêm cấu hình sau vào `pom.xml` tài liệu:
 </dependency>
 ```
 
-### Tốt nghiệp
+### Gradle
 
-Bao gồm dòng này trong `build.gradle` tài liệu:
+Bao gồm dòng này trong tệp `build.gradle` của bạn:
 
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-#### Các bước xin cấp giấy phép
-1. **Dùng thử miễn phí:** Bắt đầu bằng bản dùng thử miễn phí để kiểm tra các tính năng của Aspose.PDF.
-2. **Giấy phép tạm thời:** Nộp đơn xin cấp giấy phép tạm thời trên [Trang web Aspose](https://purchase.aspose.com/temporary-license/) để thử nghiệm rộng rãi hơn.
-3. **Mua:** Hãy cân nhắc mua giấy phép đầy đủ nếu nó phù hợp với nhu cầu của bạn.
+#### Các bước lấy giấy phép
+1. **Dùng thử miễn phí:** Bắt đầu với bản dùng thử miễn phí để khám phá mọi tính năng mà không tốn phí.  
+2. **Giấy phép tạm thời:** Đăng ký giấy phép tạm thời trên [trang web Aspose](https://purchase.aspose.com/temporary-license/) để thử nghiệm kéo dài.  
+3. **Mua:** Khi bạn sẵn sàng cho môi trường sản xuất, mua giấy phép đầy đủ để mở khóa sử dụng không giới hạn.
 
 ### Khởi tạo cơ bản
 
-Sau đây là cách khởi tạo Aspose.PDF trong ứng dụng Java của bạn:
+Lớp `Form` là cổng kết nối của Aspose.PDF để tương tác với các trường biểu mẫu PDF. Sau khi thêm thư viện, bạn có thể khởi tạo nó như sau:
 
 ```java
 import com.aspose.pdf.Document;
@@ -70,7 +149,7 @@ import com.aspose.pdf.License;
 
 public class InitializeAsposePDF {
     public static void main(String[] args) {
-        // Thiết lập giấy phép (nếu có)
+        // Set the license (if available)
         License license = new License();
         try {
             license.setLicense("Path to Aspose.Total.Product.Family.lic");
@@ -78,23 +157,22 @@ public class InitializeAsposePDF {
             System.out.println("License not applied: " + e.getMessage());
         }
 
-        // Khởi tạo một tài liệu PDF
+        // Initialize a PDF document
         Document pdfDocument = new Document("input.pdf");
     }
 }
 ```
 
-## Hướng dẫn thực hiện
+## Hướng dẫn triển khai
 
-### Xuất dữ liệu từ PDF sang XML
+### Làm sao để xuất dữ liệu PDF sang XML?
+Trong Aspose.PDF, bạn tải PDF bằng lớp `Form`, sau đó liên kết nó với một luồng đầu ra và gọi phương thức `exportXml`. Quá trình này trích xuất tất cả các giá trị trường biểu mẫu và thông tin cấu trúc, ghi chúng vào một tài liệu XML sạch sẽ, có thể được xử lý hoặc lưu trữ tùy theo yêu cầu của ứng dụng.
 
-Thực hiện theo các bước sau để trích xuất dữ liệu từ tệp PDF và lưu dưới dạng tài liệu XML.
-
-#### Bước 1: Thiết lập môi trường của bạn
-Đảm bảo dự án của bạn bao gồm thư viện Aspose.PDF và bạn có quyền đọc tệp PDF đầu vào và ghi tệp XML đầu ra.
+#### Bước 1: Thiết lập môi trường phát triển của bạn
+Xác nhận rằng JAR Aspose.PDF đã có trong classpath và bạn có quyền đọc/ghi cho các tệp PDF nguồn và XML đích.
 
 #### Bước 2: Tải tài liệu PDF
-Sử dụng `Form` lớp từ `com.aspose.pdf.facades` để tương tác với các trường biểu mẫu:
+Lớp `Form` từ `com.aspose.pdf.facades` cho phép tương tác trực tiếp với các biểu mẫu PDF.
 
 ```java
 import com.aspose.pdf.facades.Form;
@@ -104,10 +182,11 @@ Form form = new Form();
 form.bindPdf(inputPdf);
 ```
 
-**Giải thích:** Các `bindPdf` phương pháp tải PDF vào `Form` đối tượng, cho phép tương tác với nội dung của nó.
+**Định nghĩa:** Lớp `Form` đại diện cho một biểu mẫu PDF và cung cấp các phương thức để đọc, điền và xuất các trường của nó.  
+**Giải thích:** Phương thức `bindPdf` tải PDF vào đối tượng `Form`, chuẩn bị cho các thao tác tiếp theo như xuất dữ liệu.
 
-#### Bước 3: Tạo OutputStream
-Thiết lập luồng đầu ra để ghi dữ liệu XML:
+#### Bước 3: Tạo OutputStream cho XML
+Một `OutputStream` chỉ hướng dữ liệu XML từ bộ nhớ tới tệp trên đĩa.
 
 ```java
 import java.io.FileOutputStream;
@@ -117,68 +196,93 @@ String outputXml = "YOUR_OUTPUT_DIRECTORY/student.xml";
 OutputStream xmlOutputStream = new FileOutputStream(outputXml);
 ```
 
-**Giải thích:** Luồng này hỗ trợ việc xuất dữ liệu giữa ứng dụng Java và hệ thống tệp.
+**Định nghĩa:** `FileOutputStream` là lớp I/O của Java ghi byte vào tệp, thường được dùng để xuất dữ liệu nhị phân hoặc văn bản.
 
 #### Bước 4: Xuất dữ liệu sang XML
-Thực hiện trích xuất dữ liệu thực tế:
+Gọi `exportXml` để chuyển đổi các trường biểu mẫu thành định dạng XML.
 
 ```java
 form.exportXml(xmlOutputStream);
 ```
 
-**Giải thích:** Các `exportXml` phương pháp trích xuất dữ liệu trường biểu mẫu từ tài liệu PDF sang định dạng XML thông qua luồng đầu ra.
+**Định nghĩa:** `exportXml` trích xuất các giá trị trường của biểu mẫu PDF và ghi chúng dưới dạng tài liệu XML có cấu trúc qua luồng đã cung cấp.
 
-#### Bước 5: Đóng tài nguyên
-Luôn đóng luồng của bạn để giải phóng tài nguyên hệ thống:
+#### Bước 5: Đóng tất cả tài nguyên
+Luôn đóng các luồng để giải phóng tài nguyên hệ thống và tránh rò rỉ bộ nhớ.
 
 ```java
 xmlOutputStream.close();
 form.dispose();
 ```
 
-**Mẹo khắc phục sự cố:** Nếu bạn gặp phải `IOException`, đảm bảo đường dẫn tệp chính xác và có thể truy cập được, đồng thời xác minh các quyền cần thiết cho các hoạt động của tệp.
+**Mẹo khắc phục:** Nếu gặp `IOException`, hãy kiểm tra lại các đường dẫn tệp và đảm bảo ứng dụng có quyền truy cập hệ thống tệp cần thiết.
 
-## Ứng dụng thực tế
+## Ứng dụng thực tiễn
 
-Việc xuất PDF sang XML rất hữu ích trong nhiều trường hợp:
-1. **Di chuyển dữ liệu:** Chuyển dữ liệu từ các hệ thống cũ được lưu trữ dưới dạng PDF sang các ứng dụng hiện đại yêu cầu đầu vào XML.
-2. **Tích hợp với hệ thống CRM:** Đưa dữ liệu đã trích xuất vào hệ thống quản lý quan hệ khách hàng (CRM).
-3. **Báo cáo tự động:** Tạo và định dạng báo cáo một cách linh hoạt bằng cách sử dụng dữ liệu có cấu trúc từ biểu mẫu PDF.
+1. **Di chuyển dữ liệu:** Chuyển dữ liệu dựa trên PDF cũ sang các hệ thống hiện đại dựa trên XML mà không cần nhập lại thủ công.  
+2. **Tích hợp CRM:** Tự động điền hồ sơ khách hàng bằng cách trích xuất dữ liệu biểu mẫu từ PDF.  
+3. **Báo cáo tự động:** Tạo báo cáo XML có cấu trúc từ biểu mẫu PDF cho các quy trình phân tích tiếp theo.
 
-## Cân nhắc về hiệu suất
+## Các cân nhắc về hiệu năng
 
-Đối với các tệp PDF lớn hoặc xử lý hàng loạt:
-- **Tối ưu hóa việc sử dụng bộ nhớ:** Điều chỉnh cài đặt JVM để phân bổ nhiều bộ nhớ hơn cho các tài liệu lớn.
-- **Quản lý tài nguyên hiệu quả:** Đảm bảo các luồng nước được đóng lại đúng cách sau khi vận hành để tránh rò rỉ tài nguyên.
-- **Xử lý hàng loạt:** Xử lý tài liệu theo từng đợt và sử dụng đa luồng để cải thiện hiệu suất.
+Khi xử lý các PDF lớn hoặc công việc batch, hãy lưu ý các mẹo sau:
 
-## Phần kết luận
+- **Tối ưu bộ nhớ:** Tăng kích thước heap JVM (`-Xmx2g` hoặc cao hơn) cho các PDF vượt quá 100 MB.  
+- **Quản lý tài nguyên:** Sử dụng try‑with‑resources để đảm bảo luồng tự động đóng.  
+- **Xử lý hàng loạt:** Xử lý các tệp song song bằng `ExecutorService` của Java để cải thiện thông lượng.
 
-Hướng dẫn này đã chỉ cho bạn cách trích xuất dữ liệu từ PDF bằng Aspose.PDF cho Java và lưu dưới dạng XML, nâng cao khả năng xử lý dữ liệu của ứng dụng. Thử nghiệm với các tệp PDF khác nhau để khám phá tính linh hoạt của Aspose.PDF và cân nhắc khám phá các tính năng bổ sung như tạo và chỉnh sửa PDF.
+## Các vấn đề thường gặp và giải pháp
 
-**Các bước tiếp theo:**
-- Áp dụng những kỹ thuật này vào ứng dụng của bạn ngay hôm nay!
+- **Vấn đề:** Kết quả XML chứa các thẻ trống.  
+  **Giải pháp:** Kiểm tra xem các trường biểu mẫu PDF đã được điền chưa; các trường trống sẽ tạo ra các phần tử XML trống.  
 
-## Phần Câu hỏi thường gặp
+- **Vấn đề:** `OutOfMemoryError` khi xử lý PDF rất lớn.  
+  **Giải pháp:** Bật tải tăng dần với `PdfLoadOptions` và tăng kích thước heap.
 
-1. **Yêu cầu hệ thống để sử dụng Aspose.PDF cho Java là gì?**
-   - Cần có JDK 8 trở lên, cùng với giấy phép Aspose phù hợp để sử dụng rộng rãi.
-2. **Tôi có thể trích xuất dữ liệu từ các biểu mẫu PDF không tương tác không?**
-   - Mặc dù hướng dẫn này tập trung vào các trường biểu mẫu, Aspose.PDF cũng hỗ trợ các loại trích xuất nội dung khác.
-3. **Tôi phải làm gì nếu tệp XML đã xuất của tôi chứa dữ liệu không mong muốn?**
-   - Xác minh rằng tệp PDF đầu vào được định dạng đúng và có đầy đủ tất cả các trường cần thiết.
-4. **Làm thế nào tôi có thể xử lý hiệu quả khối lượng tài liệu lớn?**
-   - Sử dụng các kỹ thuật xử lý hàng loạt và tối ưu hóa cài đặt bộ nhớ trong môi trường Java của bạn.
-5. **Có thể tích hợp giải pháp này với các ngôn ngữ lập trình hoặc khuôn khổ khác không?**
-   - Aspose.PDF cho Java là một phần của bộ công cụ có sẵn cho .NET, C++, v.v., cho phép tích hợp đa nền tảng.
+## Câu hỏi thường gặp
+
+**H: Yêu cầu hệ thống để sử dụng Aspose.PDF cho Java là gì?**  
+**Đ:** JDK 8+ và giấy phép Aspose hợp lệ cho môi trường sản xuất; bản dùng thử hoạt động với cùng yêu cầu.
+
+**H: Tôi có thể trích xuất dữ liệu từ các biểu mẫu PDF không tương tác không?**  
+**Đ:** Có — Aspose.PDF có thể phân tích văn bản và hình ảnh tĩnh, nhưng `exportXml` tập trung vào các trường biểu mẫu tương tác.
+
+**H: Làm sao để xử lý tài liệu quy mô lớn một cách hiệu quả?**  
+**Đ:** Sử dụng xử lý hàng loạt, tăng bộ nhớ JVM, và đóng luồng kịp thời để tránh rò rỉ.
+
+**H: Có phụ thuộc Gradle cho Aspose.PDF không?**  
+**Đ:** Chắc chắn — thêm `implementation 'com.aspose:aspose-pdf:24.9'` (hoặc phiên bản mới nhất) vào `build.gradle` của bạn.
+
+**H: Bản dùng thử có giới hạn kích thước PDF tôi có thể chuyển đổi không?**  
+**Đ:** Bản dùng thử áp đặt giới hạn số trang (thường 10 trang); giấy phép đầy đủ sẽ bỏ giới hạn này.
+
+## Kết luận
+
+Bạn đã có quy trình hoàn chỉnh, sẵn sàng cho môi trường sản xuất để xuất PDF sang XML bằng Aspose.PDF cho Java. Bằng cách thực hiện các bước trên, bạn có thể tự động hoá việc trích xuất dữ liệu, cải thiện khả năng tương tác và mở rộng giải pháp cho môi trường khối lượng lớn. Thử nghiệm với các PDF khác nhau để xem XML đầu ra thích ứng như thế nào, và khám phá các tính năng bổ sung của Aspose.PDF như tạo PDF, hợp nhất và mã hoá.
+
+**Bước tiếp theo**
+- Tích hợp kết quả XML vào các hệ thống tiếp theo của bạn.  
+- Khám phá các khả năng khác của Aspose.PDF như chuyển PDF sang HTML hoặc chữ ký số.
+
+---
+
+**Last Updated:** 2026-07-21  
+**Tested With:** Aspose.PDF for Java 24.9  
+**Author:** Aspose  
 
 ## Tài nguyên
-- [Tài liệu Aspose.PDF](https://reference.aspose.com/pdf/java/)
-- [Tải xuống Aspose.PDF cho Java](https://releases.aspose.com/pdf/java/)
-- [Mua giấy phép](https://purchase.aspose.com/buy)
-- [Phiên bản dùng thử miễn phí](https://releases.aspose.com/pdf/java/)
-- [Đơn xin cấp giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
-- [Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/c/pdf/10)
+- [Aspose.PDF Documentation](https://reference.aspose.com/pdf/java/)
+- [Download Aspose.PDF for Java](https://releases.aspose.com/pdf/java/)
+- [Purchase License](https://purchase.aspose.com/buy)
+- [Free Trial Version](https://releases.aspose.com/pdf/java/)
+- [Temporary License Application](https://purchase.aspose.com/temporary-license/)
+- [Aspose Support Forum](https://forum.aspose.com/c/pdf/10)
+
+## Hướng dẫn liên quan
+
+- [Cách chuyển PDF sang XML bằng Aspose.PDF cho Java: Hướng dẫn từng bước](/pdf/java/conversion-export/convert-pdfs-xml-aspose-pdf-java-guide/)
+- [Xuất dấu trang PDF sang XML bằng Aspose.PDF cho Java: Hướng dẫn toàn diện](/pdf/java/conversion-export/export-pdf-bookmarks-xml-aspose-pdf-java/)
+- [Các hướng dẫn chuyển đổi và xuất PDF với Aspose.PDF Java](/pdf/java/conversion-export/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

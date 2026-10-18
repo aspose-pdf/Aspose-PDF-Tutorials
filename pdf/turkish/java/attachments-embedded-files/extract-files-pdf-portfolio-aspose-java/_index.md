@@ -12,7 +12,7 @@ url: /tr/java/attachments-embedded-files/extract-files-pdf-portfolio-aspose-java
 weight: 1
 ---
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

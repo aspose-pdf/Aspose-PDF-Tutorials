@@ -17,6 +17,12 @@ Onze tutorials over beveiliging en machtigingen laten zien hoe u PDF-documenten 
 
 ## Beschikbare tutorials
 
+
+{{< tutorial-card link="./encrypt-pdf-form-filling/" title="PDF versleutelen om alleen formulierinvulling toe te staan met Aspose.Pdf for .NET" imgSrc="./encrypt-pdf-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-form-filling/" title="PDF versleutelen voor alleen formulierinvulling met AES‑256 met behulp van Aspose.Pdf voor .NET" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="PDF versleutelen zonder afdrukrechten met Aspose.PDF for .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [PDF-wachtwoorden wijzigen met Aspose.PDF voor .NET](./change-pdf-password-aspose-pdf-net-guide/)
 Een codetutorial voor Aspose.PDF Net
 
@@ -61,6 +67,13 @@ Leer hoe u veilige digitale handtekeningen en verificatie voor PDF's in .NET imp
 
 ### [PDF-redactie onder de knie krijgen met Aspose.PDF .NET: een uitgebreide handleiding voor veilig documentbeheer](./mastering-pdf-redaction-aspose-pdf-net-guide/)
 Leer hoe u PDF's veilig kunt redigeren met Aspose.PDF .NET. Deze handleiding behandelt annotatie- en façadebenaderingen, zodat uw documenten aan de regels blijven voldoen.
+
+### [Redactie toepassen op PDF met Aspose Plugin Manager – een volledige gids](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
+Leer hoe u met Aspose Plugin Manager gevoelige inhoud in PDF's kunt redigeren en beveiligen.
+### [Hoe PDF te redigeren en gevoelige gegevens te verwijderen in C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+Leer hoe u met Aspose.PDF voor .NET PDF's kunt redigeren en gevoelige informatie veilig kunt verwijderen met C#-code.
+### [PDF redigeren met Aspose.Pdf – Complete stapsgewijze handleiding](./how-to-redact-pdf-with-aspose-pdf-complete-step-by-step-guid/)
+Leer hoe u PDF's veilig kunt redigeren met Aspose.Pdf in .NET, stap voor stap met voorbeeldcode.
 
 ### [PDF-bestanden ontgrendelen en decoderen met Aspose.PDF voor .NET: een complete handleiding](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 Leer hoe u beveiligde PDF-bestanden kunt ontgrendelen en decoderen met Aspose.PDF voor .NET in C#. Deze handleiding behandelt de installatie, decoderingsstappen en aanbevolen procedures.

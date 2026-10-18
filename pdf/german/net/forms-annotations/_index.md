@@ -17,6 +17,8 @@ Meistern Sie interaktive PDF-Funktionen mit unseren umfassenden Aspose.PDF-Tutor
 
 ## Verfügbare Tutorials
 
+
+{{< tutorial-card link="./exclude-annotations/" title="Side‑by‑Side‑PDF‑Vergleich ohne Anmerkungen mit Aspose.Pdf für .NET" imgSrc="./exclude-annotations/images/thumb.png" >}}
 ### [Hinzufügen von Formularfeldern zu PDFs mit Aspose.PDF für .NET: Ein umfassender Leitfaden](./add-pdf-form-fields-aspose-pdf-dotnet/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET Text, Kontrollkästchen, Kombinationsfelder, Listenfelder und mehrzeilige Felder zu PDFs hinzufügen. Diese Anleitung umfasst die Einrichtung, Codebeispiele und Integrationstipps.
 
