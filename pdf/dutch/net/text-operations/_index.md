@@ -161,9 +161,13 @@ Leer hoe u PDF-lettertypen kunt optimaliseren met Aspose.PDF .NET en hoe u uw do
 ### [Lettertypen in PDF vervangen met Aspose.PDF voor .NET](./replace-fonts-pdf-aspose-dotnet-guide/)
 Een codetutorial voor Aspose.PDF Net
 
+### [Hoe PDF te zoeken met Aspose.Pdf – Complete C#-handleiding](./how-to-search-pdf-with-aspose-pdf-complete-c-guide/)
+
 ### [Stijltekst in gelabelde PDF's met Aspose.PDF voor .NET | Handleiding voor toegankelijke en esthetische PDF-creatie](./style-text-tagged-pdfs-aspose-pdf-net/)
 Leer hoe u tekst in gelabelde PDF-documenten kunt stylen met Aspose.PDF voor .NET. Deze handleiding behandelt de installatie, technieken en praktische toepassingen om de toegankelijkheid te verbeteren.
 
+### [Hoe PDF te redigeren met Aspose – een stapsgewijze handleiding](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
+Leer hoe u gevoelige informatie uit PDF-documenten kunt verwijderen met Aspose.PDF voor .NET via een duidelijke stap‑voor‑stap gids.
 ### [Hoe PDF samen te vatten met Aspose.Pdf.AI – een volledige handleiding](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
 Leer hoe u met Aspose.Pdf.AI automatisch een samenvatting van PDF-documenten genereert en integreert in uw .NET-toepassing.
 

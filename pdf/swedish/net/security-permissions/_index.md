@@ -17,6 +17,12 @@ Våra handledningar om säkerhet och behörigheter visar hur du skyddar PDF-doku
 
 ## Tillgängliga handledningar
 
+
+{{< tutorial-card link="./encrypt-pdf-form-filling/" title="Kryptera PDF för att endast tillåta formulärifyllning med Aspose.Pdf för .NET" imgSrc="./encrypt-pdf-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-form-filling/" title="Kryptera PDF för endast formulärifyllning med AES‑256 med Aspose.Pdf för .NET" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="Kryptera PDF utan utskriftsbehörighet med Aspose.PDF för .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [Ändra PDF-lösenord med Aspose.PDF för .NET](./change-pdf-password-aspose-pdf-net-guide/)
 En kodhandledning för Aspose.PDF Net
 
@@ -62,11 +68,19 @@ Lär dig hur du implementerar säkra digitala signaturer och verifiering för PD
 ### [Mastering PDF-redigering med Aspose.PDF .NET: En omfattande guide för säker dokumenthantering](./mastering-pdf-redaction-aspose-pdf-net-guide/)
 Lär dig hur du säkert redigerar PDF-filer med Aspose.PDF .NET. Den här guiden behandlar annoteringsbaserade metoder och fasadmetoder, vilket säkerställer att dina dokument förblir kompatibla.
 
+### [Hur man röjer PDF med Aspose.Pdf – Komplett steg‑för‑steg‑guide](./how-to-redact-pdf-with-aspose-pdf-complete-step-by-step-guid/)
+Lär dig hur du säkert raderar känslig information i PDF-dokument med Aspose.Pdf i en komplett steg‑för‑steg‑guide.
+
 ### [Lås upp och dekryptera PDF-filer med Aspose.PDF för .NET: En komplett guide](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 Lär dig hur du låser upp och dekrypterar skyddade PDF-filer med Aspose.PDF för .NET i C#. Den här guiden behandlar installation, dekrypteringssteg och bästa praxis.
 
 ### [Verifiera PDF-lösenord med Aspose.PDF .NET: En steg-för-steg-guide för säkerhet och behörigheter](./verify-pdf-passwords-aspose-dot-net-guide/)
 Lär dig hur du verifierar PDF-lösenord med Aspose.PDF för .NET i C#. Den här omfattande guiden förenklar dokumentsäkerhet och åtkomstkontroll.
+
+### [Applicera redigering på PDF med Aspose Plugin Manager – En komplett guide](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
+Lär dig hur du använder Aspose Plugin Manager för att applicera redigering på PDF-dokument med steg-för-steg‑kodexempel.
+### [Hur man raderar PDF och tar bort känslig data i C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+Lär dig hur du raderar känslig information i PDF-filer med Aspose.PDF för .NET i C#.
 
 ## Ytterligare resurser
 

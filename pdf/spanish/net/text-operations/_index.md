@@ -104,6 +104,9 @@ Domine la rotación de texto en archivos PDF con Aspose.PDF para .NET con esta g
 ### [Domine Aspose.PDF para .NET: abra y busque documentos PDF de manera eficiente](./aspose-pdf-net-open-search-pdfs/)
 Aprenda a usar Aspose.PDF para .NET para abrir y buscar documentos PDF. Esta guía abarca la configuración, la búsqueda de texto en páginas específicas y aplicaciones prácticas.
 
+### [Cómo buscar PDF con Aspose.Pdf – Guía completa en C#](./how-to-search-pdf-with-aspose-pdf-complete-c-guide/)
+Aprenda a buscar texto en documentos PDF usando Aspose.Pdf con C#, siguiendo una guía paso a paso y ejemplos de código.
+
 ### [Domine las tabulaciones personalizadas en archivos PDF con Aspose.PDF para .NET: una guía completa](./master-custom-tab-stops-aspose-pdf-net/)
 Aprenda a dominar las tabulaciones personalizadas en documentos PDF utilizando Aspose.PDF para .NET, mejorando sus habilidades de formato y presentación de documentos.
 
@@ -166,6 +169,9 @@ Aprenda a generar resúmenes automáticos de documentos PDF usando Aspose.Pdf.AI
 
 ### [Chat IA PDF: haga preguntas a PDFs con Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
 Aprenda a interactuar con documentos PDF mediante preguntas usando el Copiloto de IA de Aspose.
+
+### [Cómo redactar PDF con Aspose – Guía paso a paso](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
+Aprenda a redactar información confidencial en documentos PDF usando Aspose.PDF para .NET con esta guía paso a paso.
 
 ## Recursos adicionales
 

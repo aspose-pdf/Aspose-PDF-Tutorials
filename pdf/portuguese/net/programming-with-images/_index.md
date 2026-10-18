@@ -48,7 +48,11 @@ Os tutoriais "Programação com Imagens" do Aspose.PDF para .NET guiam você pel
 | [Pesquise e obtenha imagens em arquivo PDF](./search-and-get-images/) | Aprenda a extrair imagens de arquivos PDF sem esforço com o Aspose.PDF para .NET. Siga este guia passo a passo para aprimorar suas habilidades de processamento de PDF. |  
 | [Definir tamanho da imagem no arquivo PDF](./set-image-size/) | Aprenda a definir o tamanho da imagem em um PDF usando o Aspose.PDF para .NET. Este guia passo a passo ajudará você a redimensionar imagens, ajustar as propriedades da página e salvar PDFs. |  
 | [Reduzir imagens em arquivo PDF](./shrink-images/) | Reduza facilmente imagens em arquivos PDF usando o Aspose.PDF para .NET com este guia passo a passo, garantindo tamanhos de arquivo menores e mantendo a qualidade. |  
+| [Recortar imagem em PDF com Aspose.PDF – Guia completo](./crop-image-in-pdf-with-aspose-pdf-complete-guide/) | Aprenda a recortar imagens em PDFs usando Aspose.PDF para .NET com este guia passo a passo completo. |  
 | [Armazenar imagem na coleção XImage](./store-image-in-ximage-collection/) | Aprenda como armazenar imagens na coleção XImage usando o Aspose.PDF para .NET neste guia passo a passo completo. |  
+| [Comprimir imagens em DOCX – Reduzir tamanho do arquivo](./compress-images-in-docx-reduce-file-size/) | Aprenda a comprimir imagens em documentos DOCX usando Aspose.Words para .NET, reduzindo significativamente o tamanho do arquivo. |  
+| [Adicionar Figura ao Word – Guia Completo de Programação em C#](./add-figure-to-word-complete-c-programming-guide/) | Aprenda a inserir figuras em documentos Word usando Aspose.Words para .NET com este guia passo a passo em C#. |
+| [Criar página PDF em branco – Guia completo para adicionar, recortar e redimensionar imagens](./create-blank-pdf-page-full-guide-to-adding-cropping-resizing/) | Aprenda a criar uma página PDF em branco e a inserir, recortar e redimensionar imagens usando Aspose.PDF para .NET. |  
 | [Criar Copiloto de IA para descrição de imagens PDF – guia passo a passo](./create-ai-copilot-for-pdf-image-description-step-by-step-gui/) | Aprenda a criar um copiloto de IA que gera descrições de imagens em PDFs usando Aspose.PDF para .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

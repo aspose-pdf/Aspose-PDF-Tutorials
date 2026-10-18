@@ -16,12 +16,14 @@
 透過我們全面的 Aspose.PDF 教學如何在 .NET 中建立符合 PDF/A 標準的檔案品質 PDF 文件。這些詳細的指南示範如何建立符合 PDF/A-1b、PDF/A-2b 和 PDF/A-3b 的文件、如何根據合規標準驗證現有 PDF、如何將標準 PDF 轉換為檔案格式以及如何解決常見的合規性問題。每個教學課程都提供了適用於檔案文件場景的 C# 程式碼範例，幫助您建立可產生符合國際標準的長期保存文件的應用程式。
 
 ## 可用教程
-
 ### [Aspose.PDF .NET：新增附件並轉換為 PDF/A](./aspose-pdf-net-add-attachments-convert-pdfa/)
 Aspose.PDF Net 程式碼教學
 
 ### [使用 Aspose.PDF .NET 將 PDF 轉換為 PDF/A：合規性逐步指南](./convert-pdf-to-pdfa-aspose-dotnet-guide/)
 了解如何使用 Aspose.PDF .NET 將常規 PDF 轉換為符合 PDF/A-1b 標準的文件。透過這個詳細的分步指南確保檔案品質和合規性。
+
+### [使用 C# 將 PDF 轉換為 PDF/A：完整步驟指南](./convert-pdf-to-pdf-a-in-c-complete-step-by-step-guide/)
+了解如何使用 C# 與 Aspose.PDF for .NET 將普通 PDF 轉換為符合 PDF/A 標準的文件，提供完整的步驟與程式碼範例。
 
 ### [使用 Aspose.PDF for .NET 將 PDF 轉換為 PDF/A-3B](./convert-pdf-to-pdfa-3b-aspose-net/)
 Aspose.PDF Net 程式碼教學
@@ -32,11 +34,26 @@ Aspose.PDF Net 程式碼教學
 ### [如何使用 Aspose.PDF for .NET 將 PDF 轉換為 PDF/X-4：逐步指南](./convert-pdfs-to-pdf-x4-aspose-dotnet-guide/)
 了解如何使用 Aspose.PDF for .NET 將標準 PDF 文件轉換為強大的 PDF/X-4 格式。本指南涵蓋設定、實施和故障排除。
 
+### [如何使用 Aspose.PDF for .NET 將 PDF 轉換為 PDF/X-1A：逐步指南](./convert-pdf-to-pdf-x-1a-how-to-create-pdf-x-1a-document/)
+了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為符合 PDF/X-1A 標準的文件，提供逐步說明與程式碼範例。
+
 ### [如何使用 Aspose.PDF for .NET 驗證 PDF/A-1a：綜合指南](./validate-pdf-a-1a-aspose-pdf-dotnet/)
 了解如何使用 Aspose.PDF for .NET 驗證 PDF/A-1a 合規性。本指南提供逐步說明、程式碼範例和整合技巧。
 
 ### [使用 C# 中的 Aspose.PDF for .NET 掌握 PDF/A 驗證](./master-pdfa-validation-aspose-pdf-net/)
 了解如何使用 Aspose.PDF .NET 驗證 PDF 文件是否符合 PDF/A 標準。透過我們的逐步指南確保合規性並提高文件可靠性。
+
+### [使用 C# 將 PDF 轉換為 PDF/A：逐步指南](./convert-pdf-to-pdf-a-in-c-step-by-step-guide/)
+了解如何使用 C# 與 Aspose.PDF 將 PDF 轉換為符合 PDF/A 標準的文件，提供詳細的步驟與程式碼示例。
+
+### [在 C# 中建立 PDF/A 檔案 – 完整轉換教學](./create-pdf-a-file-in-c-full-conversion-tutorial/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中完整轉換並建立符合 PDF/A 標準的檔案。
+### [如何在 C# 中建立 PDF/A – Aspose 分步指南](./how-to-create-pdf-a-in-c-step-by-step-aspose-guide/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中逐步建立符合 PDF/A 標準的文件。
+### [如何在 C# 中建立 PDF/A – 輕鬆將 PDF 轉換為 PDF/A](./how-to-create-pdf-a-in-c-convert-pdf-to-pdf-a-easily/)
+了解如何使用 C# 及 Aspose.PDF 輕鬆將 PDF 轉換為符合 PDF/A 標準的文件。
+### [如何在 Aspose PDF 中設定 ICC – 完整 C# 指南](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
+本完整 C# 教學說明如何在 Aspose PDF 中設定 ICC 色彩配置檔，以確保 PDF 輸出色彩一致性。
 
 ## 其他資源
 

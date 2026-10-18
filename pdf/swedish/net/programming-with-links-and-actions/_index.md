@@ -20,7 +20,8 @@ Handledningssidan "Programmering med länkar och åtgärder" på Aspose.PDF för
 | Titel | Beskrivning |
 | --- | --- | 
 | [Lägg till hyperlänk i PDF-fil](./add-hyperlink/) | Lär dig hur du enkelt lägger till hyperlänkar i dina PDF-filer med Aspose.PDF för .NET. Öka interaktiviteten och användarengagemanget i dina dokument. |  
-| [Skapa applikationslänk i PDF-fil](./create-application-link/) Lär dig hur du skapar applikationslänkar i PDF-filer med Aspose.PDF för .NET. Steg-för-steg-guide för att förbättra interaktiviteten i dina PDF-filer. |  
+| [Skapa PDF‑hyperlänk i C# – Steg‑för‑steg‑guide](./create-pdf-hyperlink-in-c-step-by-step-guide/) | Lär dig hur du skapar en PDF‑hyperlänk i C# med en tydlig steg‑för‑steg‑guide. |
+| [Skapa applikationslänk i PDF-fil](./create-application-link/) Lär dig hur du skapar applikationslänkar i PDF-filer med Aspose.PDF för .NET. Steg-för-steg-guide för att förbättra interaktiviteten i dina PDF-filer. |
 | [Skapa dokumentlänk](./create-document-link/) | Upptäck hur du skapar dokumentlänkar i PDF-filer med Aspose.PDF för .NET. Förbättra navigering och interaktivitet i dina PDF-dokument. |  
 | [Skapa lokal hyperlänk i PDF-fil](./create-local-hyperlink/) | Lär dig hur du enkelt skapar lokala hyperlänkar i PDF-filer med Aspose.PDF för .NET med vår steg-för-steg-guide. |  
 | [Extrahera länkar i PDF-fil](./extract-links/) | Lär dig hur du enkelt extraherar länkar från PDF-filer med Aspose.PDF för .NET i den här steg-för-steg-handledningen. |  

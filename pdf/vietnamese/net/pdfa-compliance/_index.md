@@ -16,7 +16,6 @@
 Học cách tạo tài liệu PDF chất lượng lưu trữ với hướng dẫn Aspose.PDF toàn diện của chúng tôi để tuân thủ PDF/A trong .NET. Các hướng dẫn chi tiết này trình bày cách tạo tài liệu tuân thủ PDF/A-1b, PDF/A-2b và PDF/A-3b, xác thực PDF hiện có theo các tiêu chuẩn tuân thủ, chuyển đổi PDF chuẩn sang định dạng lưu trữ và khắc phục sự cố tuân thủ phổ biến. Mỗi hướng dẫn cung cấp các ví dụ mã C# hoạt động cho các tình huống tài liệu lưu trữ, giúp bạn xây dựng các ứng dụng tạo ra các tài liệu bảo quản lâu dài đáp ứng các tiêu chuẩn quốc tế.
 
 ## Hướng dẫn có sẵn
-
 ### [Aspose.PDF .NET: Thêm tệp đính kèm & chuyển đổi sang PDF/A](./aspose-pdf-net-add-attachments-convert-pdfa/)
 Hướng dẫn mã cho Aspose.PDF Net
 
@@ -32,11 +31,28 @@ Tìm hiểu cách tạo tài liệu PDF có gắn thẻ có thể truy cập và
 ### [Cách chuyển đổi PDF sang PDF/X-4 bằng Aspose.PDF cho .NET: Hướng dẫn từng bước](./convert-pdfs-to-pdf-x4-aspose-dotnet-guide/)
 Tìm hiểu cách chuyển đổi tài liệu PDF chuẩn sang định dạng PDF/X-4 mạnh mẽ bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm thiết lập, triển khai và khắc phục sự cố.
 
+### [Chuyển đổi PDF sang PDF/X-1A – Cách tạo tài liệu PDF/X-1A](./convert-pdf-to-pdf-x-1a-how-to-create-pdf-x-1a-document/)
+Hướng dẫn chi tiết cách chuyển đổi PDF sang định dạng PDF/X-1A để đáp ứng tiêu chuẩn lưu trữ và in ấn.
+
 ### [Cách xác thực PDF/A-1a với Aspose.PDF cho .NET: Hướng dẫn toàn diện](./validate-pdf-a-1a-aspose-pdf-dotnet/)
 Tìm hiểu cách xác thực sự tuân thủ PDF/A-1a bằng Aspose.PDF cho .NET. Hướng dẫn này cung cấp hướng dẫn từng bước, ví dụ về mã và mẹo tích hợp.
 
 ### [Xác thực PDF/A bằng Aspose.PDF cho .NET trong C#](./master-pdfa-validation-aspose-pdf-net/)
 Tìm hiểu cách xác thực tài liệu PDF theo tiêu chuẩn PDF/A bằng Aspose.PDF .NET. Đảm bảo tuân thủ và nâng cao độ tin cậy của tài liệu với hướng dẫn từng bước của chúng tôi.
+
+### [Chuyển đổi PDF sang PDF/A trong C# – Hướng dẫn từng bước](./convert-pdf-to-pdf-a-in-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu PDF sang PDF/A trong C# bằng Aspose.PDF, đảm bảo tuân thủ tiêu chuẩn lưu trữ.
+
+### [Tạo tệp PDF/A trong C# – Hướng dẫn chuyển đổi đầy đủ](./create-pdf-a-file-in-c-full-conversion-tutorial/)
+Hướng dẫn chi tiết cách tạo tệp PDF/A trong C# bằng Aspose.PDF, bao gồm các bước chuyển đổi đầy đủ.
+### [Cách tạo PDF/A trong C# – Hướng dẫn từng bước của Aspose](./how-to-create-pdf-a-in-c-step-by-step-aspose-guide/)
+Hướng dẫn chi tiết cách tạo tài liệu PDF/A trong C# bằng Aspose.PDF, bao gồm các bước thực hiện và mã mẫu.
+### [Chuyển đổi PDF sang PDF/A trong C# – Hướng dẫn chi tiết từng bước](./convert-pdf-to-pdf-a-in-c-complete-step-by-step-guide/)
+Hướng dẫn chi tiết cách chuyển đổi tài liệu PDF sang định dạng PDF/A trong C# bằng Aspose.PDF, bao gồm các bước thực hiện và ví dụ mã.
+### [Cách tạo PDF/A trong C# – Chuyển đổi PDF sang PDF/A một cách dễ dàng](./how-to-create-pdf-a-in-c-convert-pdf-to-pdf-a-easily/)
+Hướng dẫn từng bước tạo PDF/A từ PDF bằng C# sử dụng Aspose.PDF, giúp chuyển đổi nhanh chóng và tuân thủ tiêu chuẩn lưu trữ.
+### [Cách thiết lập ICC trong Aspose PDF – Hướng dẫn C# đầy đủ](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
+Hướng dẫn chi tiết cách thiết lập hồ sơ màu ICC trong Aspose PDF bằng C#, giúp tài liệu PDF đáp ứng chuẩn màu sắc.
 
 ## Tài nguyên bổ sung
 

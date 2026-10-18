@@ -10,17 +10,12 @@ url: /zh-hant/java/bookmarks-navigation/aspose-pdf-java-bookmark-management/
 weight: 1
 ---
 
- with Aspose.PDF for Java" => "使用 Aspose.PDF for Java 刪除 PDF 書籤（Java）"
 
-- "Introduction" => "簡介"
 
-- etc.
 
-We need to translate bullet points, Q&A, etc.
 
-Make sure to keep markdown syntax.
 
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 

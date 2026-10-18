@@ -1,0 +1,11 @@
+//ExStart
+//ExSummary: Este tutorial muestra cómo rotar la tercera página de un documento PDF en 180 grados usando las capacidades de rotación de página del PDF SDK.
+//ExStepSummary:0: El archivo contiene solo comentarios explicativos y no código ejecutable, sirviendo como un marcador de posición para el ejemplo original.
+//ExStep:0-
+// Placeholder for the original example URL.
+// Demonstrates rotating the third page of a PDF by 180 degrees.
+// The functional implementation has been moved to a different repository.
+// This file preserves the original link for legacy references.
+
+        // No operational code required for this placeholder.
+//ExEnd

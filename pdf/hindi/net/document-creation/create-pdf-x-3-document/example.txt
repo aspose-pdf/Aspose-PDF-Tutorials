@@ -1,0 +1,33 @@
+//ExStart
+//ExSummary: यह ट्यूटोरियल दर्शाता है कि कैसे नया PDF दस्तावेज़ बनाया जाए, तीन खाली पृष्ठ जोड़े जाएँ, इसे PDF/X‑3 अनुपालन में परिवर्तित किया जाए जबकि रूपांतरण त्रुटियों को लॉग किया जाए, और परिणामी फ़ाइल को Aspose.Pdf Document क्लास का उपयोग करके सहेजा जाए।
+//ExStepSummary:0: आउटपुट PDF फ़ाइल का नाम और रूपांतरण लॉग के पथ को परिभाषित करें।
+//ExStepSummary:1: सही डिस्पोज़ल सुनिश्चित करने के लिए एक using ब्लॉक के भीतर नया Document ऑब्जेक्ट इंस्टैंशिएट करें।
+//ExStepSummary:2: दस्तावेज़ में तीन खाली पृष्ठ जोड़ें, जिससे उसका पृष्ठ गणना बढ़े।
+//ExStepSummary:3: दस्तावेज़ को PDF/X‑3 फ़ॉर्मेट में परिवर्तित करें, और किसी भी रूपांतरण समस्या को लॉग फ़ाइल में रिकॉर्ड करें।
+//ExStepSummary:4: PDF/X‑3 अनुपालन वाला दस्तावेज़ डिस्क पर सहेजें और using ब्लॉक को बंद करें।
+//ExStepSummary:5: कंसोल पर एक पुष्टि संदेश प्रिंट करें जो दर्शाता है कि फ़ाइल कहाँ सहेजी गई।
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+        const string resultFile = "final_pdfx3_output.pdf";
+        const string conversionLog = "pdfx3_conversion_log.xml";
+
+//ExStep:1-
+        using (Document pdfDoc = new Document())
+        {
+
+//ExStep:2-
+            pdfDoc.Pages.Add();
+            pdfDoc.Pages.Add();
+            pdfDoc.Pages.Add();
+
+//ExStep:3-
+            pdfDoc.Convert(conversionLog, PdfFormat.PDF_X_3, ConvertErrorAction.Delete);
+
+//ExStep:4-
+            pdfDoc.Save(resultFile);
+        }
+
+//ExStep:5-
+        Console.WriteLine($"PDF/X‑3 file written to '{resultFile}'.");
+//ExEnd
