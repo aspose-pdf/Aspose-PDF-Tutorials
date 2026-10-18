@@ -66,6 +66,7 @@ Questo tutorial offre una panoramica dettagliata di metodi e tecniche per garant
 | [Recupera firme PDF in C# – Guida completa di programmazione](./retrieve-pdf-signatures-in-c-complete-programming-guide/) | Scopri come estrarre le firme PDF in C# con una guida completa passo passo. |
 | [Come verificare la firma digitale PDF in C# – Guida completa](./how-to-check-pdf-digital-signature-in-c-complete-guide/) | Scopri come verificare le firme digitali nei PDF usando C# e Aspose.PDF per .NET. Guida completa passo passo. |
 | [Verifica firma digitale PDF in C# – convalida firma PDF](./verify-pdf-digital-signature-in-c-validate-pdf-signature/) | Scopri come verificare e convalidare le firme digitali nei PDF usando Aspose.PDF per .NET in C#. |
+| [Come estrarre le firme da un PDF in C# – guida passo passo](./how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/) | Scopri come estrarre le firme digitali da un PDF usando C# e Aspose.PDF per .NET. Guida passo passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

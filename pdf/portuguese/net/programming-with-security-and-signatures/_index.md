@@ -68,6 +68,7 @@ Este tutorial oferece uma visão geral detalhada de métodos e técnicas para ga
 | [Adicionar Numeração Bates ao PDF – Guia Completo em C# com Assinatura e Conversão](./add-bates-numbering-pdf-complete-c-guide-with-signing-conver/) | Aprenda a adicionar numeração Bates a PDFs, assinar e converter documentos usando Aspose.PDF para .NET em C#. Guia passo a passo. |
 | [Verificar assinatura PDF em C# – Guia completo Aspose.PDF](./verify-pdf-signature-in-c-complete-aspose-pdf-guide/) | Aprenda a verificar assinaturas PDF em C# usando Aspose.PDF, passo a passo, para garantir a integridade e autenticidade dos documentos. |
 | [Recuperar assinaturas PDF em C# – Guia completo de programação](./retrieve-pdf-signatures-in-c-complete-programming-guide/) | Aprenda a recuperar assinaturas de PDFs usando C# e Aspose.PDF para .NET. Guia passo a passo completo. |
+| [Como extrair assinaturas de um PDF em C# – guia passo a passo](./how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/) | Aprenda a extrair assinaturas digitais de PDFs usando C# e Aspose.PDF, com instruções passo a passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

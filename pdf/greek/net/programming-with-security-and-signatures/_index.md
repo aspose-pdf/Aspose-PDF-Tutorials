@@ -66,6 +66,7 @@
 | [Ανάκτηση υπογραφών PDF σε C# – Πλήρης προγραμματιστικός οδηγός](./retrieve-pdf-signatures-in-c-complete-programming-guide/) | Μάθετε πώς να ανακτάτε υπογραφές PDF χρησιμοποιώντας C# και Aspose.PDF σε έναν πλήρη οδηγό βήμα προς βήμα. |  
 | [Επαλήθευση υπογραφής PDF σε C# – Πλήρης οδηγός Aspose.PDF](./verify-pdf-signature-in-c-complete-aspose-pdf-guide/) | Μάθετε πώς να επαληθεύσετε υπογραφές PDF σε C# με έναν πλήρη οδηγό Aspose.PDF. |  
 | [Πώς να ελέγξετε την ψηφιακή υπογραφή PDF σε C# – Πλήρης οδηγός](./how-to-check-pdf-digital-signature-in-c-complete-guide/) | Μάθετε πώς να ελέγξετε ψηφιακές υπογραφές PDF σε C# με πλήρη οδηγό και Aspose.PDF. |  
+| [Πώς να εξάγετε υπογραφές από PDF σε C# – βήμα‑βήμα οδηγός](./how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/) | Μάθετε πώς να εξάγετε ψηφιακές υπογραφές από αρχεία PDF χρησιμοποιώντας C# και Aspose.PDF, βήμα‑βήμα. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

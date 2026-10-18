@@ -32,6 +32,7 @@ Hướng dẫn cung cấp cho bạn tổng quan chi tiết về các phương ph
 | [Mã hóa tệp PDF](./encrypt/) | Tìm hiểu cách mã hóa tệp PDF của bạn một cách dễ dàng bằng Aspose.PDF cho .NET. Bảo mật thông tin nhạy cảm với hướng dẫn từng bước dễ dàng của chúng tôi. |  
 | [Trích xuất hình ảnh](./extracting-image/) | Dễ dàng học cách trích xuất hình ảnh từ PDF bằng Aspose.PDF cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để trích xuất hình ảnh liền mạch. |  
 | [Trích xuất thông tin chữ ký](./extract-signature-info/) | Tìm hiểu cách trích xuất chữ ký số và thông tin chứng chỉ từ tài liệu PDF bằng Aspose.PDF cho .NET. Hướng dẫn từng bước đầy đủ dành cho nhà phát triển C#. |  
+| [Cách trích xuất chữ ký từ PDF trong C# – hướng dẫn chi tiết](./how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/) | Hướng dẫn chi tiết cách trích xuất chữ ký từ tệp PDF bằng C# với Aspose.PDF. |  
 | [Kiểm tra chữ ký PDF trong C# – Cách đọc tệp PDF đã ký](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) | Học cách kiểm tra và đọc các chữ ký PDF bằng C# với Aspose.PDF cho .NET trong hướng dẫn chi tiết. |  
 | [Kiểm tra chữ ký PDF trong C# – Hướng dẫn nhanh để xác minh chữ ký số](./check-pdf-signatures-in-c-quick-guide-to-verify-digital-sign/) | Học cách nhanh chóng kiểm tra và xác minh chữ ký số trong tệp PDF bằng C# và Aspose.PDF. |  
 | [Cách đọc chữ ký trong PDF – Hướng dẫn C# đầy đủ](./how-to-read-signatures-in-a-pdf-complete-c-guide/) | Học cách đọc các chữ ký số trong tài liệu PDF bằng Aspose.PDF cho .NET với hướng dẫn chi tiết từng bước. |  

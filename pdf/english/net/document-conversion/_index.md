@@ -107,6 +107,7 @@ doc.Save("output.pdf");
 | [How to Convert PDF with Aspose.Pdf – Complete C# Guide]({{< relref "./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/" >}}) | Learn how to convert PDF files using Aspose.PDF for .NET with a complete C# guide, covering code examples and best practices. |  
 | [Add Attachment to PDFA](./add-attachment-to-pdfa/) | Learn how to add attachments to a PDF/A document using Aspose.PDF for .NET with this step-by-step guide. |  
 | [CGM To PDF Files](./cgm-to-pdf/) | Learn how to convert CGM files to PDF using Aspose.PDF for .NET with this step-by-step guide. Perfect for developers and designers alike. |  
+| [Create PDF/X-4 docx conversion in C# – complete guide](./create-pdf-x-4-docx-conversion-in-c-complete-guide/) | Learn how to convert DOCX to PDF/X‑4 using Aspose.PDF for .NET in this comprehensive C# guide. |
 | [Convert PDF to PDF/X‑4 in C# – Step‑by‑Step ASP.NET PDF Tutorial](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Learn how to convert PDF to PDF/X‑4 using Aspose.PDF for .NET in this step‑by‑step ASP.NET tutorial. |
 | [Aspose PDF format conversion: Convert PDF to PDF/X‑4 in C#](./aspose-pdf-format-conversion-convert-pdf-to-pdf-x-4-in-c/) | Step‑by‑step guide to convert PDF to PDF/X‑4 in C# using Aspose.PDF for .NET. |
 | [Convert PDF to PDF/X-4 with Aspose.PDF – Complete C# Guide](./convert-pdf-to-pdf-x-4-with-aspose-pdf-complete-c-guide/) | Learn how to convert PDF to PDF/X‑4 with Aspose.PDF for .NET using a complete C# guide. |

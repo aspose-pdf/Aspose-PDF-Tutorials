@@ -63,6 +63,7 @@
 | [C#에서 PDF 서명 검색 – 완전 프로그래밍 가이드](./retrieve-pdf-signatures-in-c-complete-programming-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 서명을 검색하고 검증하는 방법을 단계별로 안내합니다. |
 | [C#에서 PDF 디지털 서명 확인 – 완전 가이드](./how-to-check-pdf-digital-signature-in-c-complete-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 디지털 서명을 확인하는 방법을 단계별로 자세히 안내합니다. |  
 | [C#에서 PDF 디지털 서명 확인 – PDF 서명 검증](./verify-pdf-digital-signature-in-c-validate-pdf-signature/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 디지털 서명을 확인하고 검증하는 방법을 단계별로 안내합니다. |  
+| [C#에서 PDF 서명 추출 방법 – 단계별 가이드](./how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 서명을 추출하는 방법을 단계별로 안내합니다. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -63,6 +63,7 @@ Hướng dẫn bao gồm hướng dẫn từng bước, ví dụ mã chi tiết 
 | [Sao chép trang PDF với Aspose.Pdf – Hướng dẫn chi tiết](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Hướng dẫn từng bước để sao chép một trang PDF bằng Aspose.Pdf cho .NET, giúp bạn nhân bản nội dung nhanh chóng và dễ dàng. |  
 | [Thêm số Bates vào PDF với Aspose.PDF – Hướng dẫn toàn diện](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Hướng dẫn chi tiết cách thêm số Bates vào tài liệu PDF bằng Aspose.PDF cho .NET. |  
 | [Thêm trang trống PDF với Aspose.PDF – Hướng dẫn đầy đủ](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Hướng dẫn chi tiết cách thêm một trang trống vào PDF bằng Aspose.PDF cho .NET trong hướng dẫn toàn diện. |  
+| [Thay đổi độ trong suốt PDF trong C# với Aspose.Pdf – hướng dẫn chi tiết từng bước](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Hướng dẫn chi tiết cách thay đổi độ trong suốt của tài liệu PDF bằng C# và Aspose.PDF. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
