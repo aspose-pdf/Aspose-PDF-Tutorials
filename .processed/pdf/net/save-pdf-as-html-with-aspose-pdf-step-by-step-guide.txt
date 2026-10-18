@@ -1,0 +1,7 @@
+Title: Save PDF as HTML with Aspose.PDF – step‑by‑step guide
+Slug: save-pdf-as-html-with-aspose-pdf-step-by-step-guide
+Category: conversion-export
+ProcessedDate: 2026-08-08T10:59:41.059795
+SourceRepo: AI Search API
+Keywords: save pdf as html, convert pdf to html, aspose convert pdf html, aspose pdf html conversion
+PRNumber: 116

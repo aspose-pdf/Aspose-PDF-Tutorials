@@ -50,6 +50,11 @@ Dowiedz się, jak wydajnie drukować określone strony pliku PDF za pomocą Aspo
 ### [Ustawianie niestandardowego współczynnika powiększenia w plikach PDF za pomocą Aspose.PDF dla .NET — kompletny przewodnik](./aspose-pdf-net-set-zoom-factor-pdfs/)
 Dowiedz się, jak ustawić niestandardowy współczynnik powiększenia w dokumentach PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje instalację, kroki implementacji i praktyczne zastosowania.
 
+### [Jak renderować PDF w C# – Kompletny przewodnik po PNG, HTML i znakowaniu](./how-to-render-pdf-in-c-complete-guide-to-png-html-stamping/)
+Dowiedz się, jak renderować pliki PDF w C# do formatu PNG, HTML oraz jak dodawać znaki wodne, korzystając z Aspose.PDF.
+### [Jak renderować PDF jako PNG w C# – przewodnik krok po kroku](./how-to-render-pdf-as-png-in-c-step-by-step-guide/)
+Dowiedz się, jak przy użyciu Aspose.PDF .NET konwertować pliki PDF na obrazy PNG w języku C# krok po kroku.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

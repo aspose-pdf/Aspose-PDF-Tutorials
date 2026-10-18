@@ -1,0 +1,51 @@
+//ExStart
+//ExSummary: บทแนะนำนี้แสดงวิธีใช้ Aspose.Pdf เพื่อเปรียบเทียบไฟล์ PDF สองไฟล์เคียงข้างโดยละเว้นพื้นที่สี่เหลี่ยมเฉพาะในแต่ละเอกสาร โดยสร้างไฟล์ diff PDF ที่เน้นเฉพาะการเปลี่ยนแปลงที่สำคัญเท่านั้น.
+//ExStepSummary:0: กำหนดเส้นทางไฟล์สำหรับ PDF ต้นฉบับสองไฟล์และไฟล์ diff PDF ที่จะส่งออก.
+//ExStepSummary:1: ตรวจสอบว่าไฟล์ PDF ต้นฉบับทั้งสองไฟล์มีอยู่และยกเลิกการทำงานพร้อมแสดงข้อความข้อผิดพลาดหากไฟล์ใดไฟล์หนึ่งหายไป.
+//ExStepSummary:2: สร้างอาร์เรย์ที่บรรจุพื้นที่สี่เหลี่ยมที่ต้องละเว้นใน PDF แรก.
+//ExStepSummary:3: สร้างอาร์เรย์ที่บรรจุพื้นที่สี่เหลี่ยมที่ต้องละเว้นใน PDF ที่สอง.
+//ExStepSummary:4: กำหนดค่าการเปรียบเทียบเคียงข้างกันโดยกำหนดอาร์เรย์พื้นที่ละเว้นให้กับคุณสมบัติที่เหมาะสม.
+//ExStepSummary:5: โหลด PDF ทั้งสองไฟล์และดำเนินการเปรียบเทียบเคียงข้างกัน เพื่อสร้างไฟล์ diff ที่ตำแหน่งที่ระบุ.
+//ExStepSummary:6: พิมพ์ข้อความยืนยันที่ระบุว่าการเปรียบเทียบเสร็จสิ้นและไฟล์ diff PDF ถูกบันทึกไว้ที่ใด.
+//ExStep:0-
+const string sourcePdfA = "originalA.pdf";
+const string sourcePdfB = "originalB.pdf";
+const string diffPdfPath = "diff_output.pdf";
+
+//ExStep:1-
+if (!File.Exists(sourcePdfA) || !File.Exists(sourcePdfB))
+{
+    Console.Error.WriteLine("Required PDF files are missing.");
+    return;
+}
+
+//ExStep:2-
+Aspose.Pdf.Rectangle[] zonesToIgnoreA = new Aspose.Pdf.Rectangle[]
+{
+    new Aspose.Pdf.Rectangle(100, 500, 300, 600) // sample region in the first document
+};
+
+//ExStep:3-
+Aspose.Pdf.Rectangle[] zonesToIgnoreB = new Aspose.Pdf.Rectangle[]
+{
+    new Aspose.Pdf.Rectangle(50, 400, 250, 500) // sample region in the second document
+};
+
+//ExStep:4-
+var comparisonSettings = new SideBySideComparisonOptions
+{
+    ExcludeAreas1 = zonesToIgnoreA,
+    ExcludeAreas2 = zonesToIgnoreB
+    // Other settings may be adjusted here, e.g., ExcludeTables = true;
+};
+
+//ExStep:5-
+using (Document pdfA = new Document(sourcePdfA))
+using (Document pdfB = new Document(sourcePdfB))
+{
+    SideBySidePdfComparer.Compare(pdfA, pdfB, diffPdfPath, comparisonSettings);
+}
+
+//ExStep:6-
+Console.WriteLine($"Comparison finished. Output written to '{diffPdfPath}'.");
+//ExEnd

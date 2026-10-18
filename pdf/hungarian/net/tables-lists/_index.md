@@ -17,6 +17,8 @@ Tanulja meg, hogyan hozhat létre jól strukturált PDF dokumentumokat Aspose.PD
 
 ## Elérhető oktatóanyagok
 
+
+{{< tutorial-card link="./style-table-cells/" title="Testreszabja a táblázat celláinak háttérszínét, szegélyeit és kitöltését (padding) PDF-ekben az Aspose.Pdf for .NET segítségével" imgSrc="./style-table-cells/images/thumb.png" >}}
 ### [HTML rendezett lista hozzáadása PDF-hez az Aspose.PDF .NET segítségével](./add-html-ordered-list-pdf-aspose-net/)
 Kód oktatóanyag az Aspose.PDF Nethez
 

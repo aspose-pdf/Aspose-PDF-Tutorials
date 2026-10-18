@@ -1,0 +1,7 @@
+Title: Create pdf form field in C# – step‑by‑step guide
+Slug: create-pdf-form-field-in-c-step-by-step-guide
+Category: programming-with-forms
+ProcessedDate: 2026-08-14T18:46:34.349961
+SourceRepo: AI Search API
+Keywords: create pdf form field, add text box to pdf, modify pdf to include text box
+PRNumber: 119

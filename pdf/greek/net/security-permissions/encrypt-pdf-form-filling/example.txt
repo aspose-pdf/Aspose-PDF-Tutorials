@@ -1,0 +1,46 @@
+//ExStart
+//ExSummary: Αυτό το σεμινάριο δείχνει πώς να ανοίξετε ένα υπάρχον PDF με Aspose.Pdf, να περιορίσετε τα δικαιώματα ώστε να επιτρέπεται μόνο η συμπλήρωση φορμών, να το κρυπτογραφήσετε με κωδικούς πρόσβασης προβολής και ιδιοκτήτη χρησιμοποιώντας AES‑256 και να αποθηκεύσετε το προστατευμένο αρχείο.
+//ExStepSummary:0: Ορίστε τις διαδρομές αρχείων προέλευσης και προορισμού καθώς και τους κωδικούς πρόσβασης προβολής και ιδιοκτήτη.
+//ExStepSummary:1: Ελέγξτε αν το PDF προέλευσης υπάρχει και τερματίστε με μήνυμα σφάλματος εάν δεν υπάρχει.
+//ExStepSummary:2: Ξεκινήστε ένα μπλοκ try για να διαχειριστείτε τυχόν σφάλματα που μπορεί να προκύψουν κατά την επεξεργασία.
+//ExStepSummary:3: Ανοίξτε το υπάρχον αρχείο PDF δημιουργώντας ένα αντικείμενο Document με όνομα pdfDoc.
+//ExStepSummary:4: Ορίστε τα δικαιώματα ώστε να επιτρέπεται μόνο η συμπλήρωση φορμών, κρυπτογραφήστε το έγγραφο με τους κωδικούς πρόσβασης προβολής και ιδιοκτήτη χρησιμοποιώντας AES‑256 και αποθηκεύστε το προστατευμένο PDF.
+//ExStepSummary:5: Γράψτε ένα μήνυμα επιβεβαίωσης στην κονσόλα και κλείστε το μπλοκ try.
+//ExStepSummary:6: Αντιμετωπίστε τυχόν εξαιρέσεις και εκτυπώστε το μήνυμα σφάλματος στην κονσόλα.
+//ExStep:0-
+        const string sourceFile = "sample.pdf";
+        const string destFile = "protected.pdf";
+        const string viewerPass = "viewerPass";
+        const string adminPass = "adminPass";
+
+//ExStep:1-
+        if (!File.Exists(sourceFile))
+        {
+            Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+            return;
+        }
+
+//ExStep:2-
+        try
+        {
+
+//ExStep:3-
+            using (Document pdfDoc = new Document(sourceFile))
+
+//ExStep:4-
+            {
+                Permissions allowed = Permissions.FillForm;
+                pdfDoc.Encrypt(viewerPass, adminPass, allowed, CryptoAlgorithm.AESx256);
+                pdfDoc.Save(destFile);
+            }
+
+//ExStep:5-
+            Console.WriteLine($"Secure PDF written to '{destFile}'.");
+        }
+
+//ExStep:6-
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Exception occurred: {ex.Message}");
+        }
+//ExEnd

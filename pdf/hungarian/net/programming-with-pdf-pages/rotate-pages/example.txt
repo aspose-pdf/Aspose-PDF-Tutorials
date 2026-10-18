@@ -1,0 +1,41 @@
+//ExStart
+//ExSummary: Ez a bemutató azt mutatja be, hogyan lehet egy meglévő PDF minden oldalát 180 fokkal elforgatni az Aspose.Pdf Document osztály segítségével.
+//ExStepSummary:0: Határozza meg a PDF forrás- és célfájl útvonalát.
+//ExStepSummary:1: Ellenőrizze, hogy a forrásfájl létezik-e, és ha nem, hibajelzéssel szakítsa meg a folyamatot.
+//ExStepSummary:2: Hozzon létre egy Document objektumot a forrás PDF-hez egy using blokkban az erőforrások kezeléséhez.
+//ExStepSummary:3: Iteráljon végig a pdfDoc.Pages gyűjtemény minden Page elemén, és állítsa be a Rotate tulajdonságát Rotation.on180 értékre, így minden oldal fejjel lefelé kerül.
+//ExStepSummary:4: Mentse a módosított Document objektumot a célfájlba, ezzel megőrizve a forgatásokat.
+//ExStepSummary:5: Írjon egy megerősítő üzenetet a konzolra, amely jelzi, hogy a művelet befejeződött.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+        const string sourceFile = "source_document.pdf";
+        const string destinationFile = "flipped_document.pdf";
+
+//ExStep:1-
+        if (!File.Exists(sourceFile))
+        {
+            Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+            return;
+        }
+
+//ExStep:2-
+        // Open the PDF within a using statement to ensure resources are released
+        using (Document pdfDoc = new Document(sourceFile))
+        {
+
+//ExStep:3-
+            // Walk through each page (collection is 1‑based) and apply a 180° rotation
+            foreach (Page pdfPage in pdfDoc.Pages)
+            {
+                // Use the correct enum member with the 'on' prefix
+                pdfPage.Rotate = Rotation.on180;
+            }
+
+//ExStep:4-
+            // Write the altered document to disk
+            pdfDoc.Save(destinationFile);
+        }
+
+//ExStep:5-
+        Console.WriteLine($"All pages rotated and saved as '{destinationFile}'.");
+//ExEnd

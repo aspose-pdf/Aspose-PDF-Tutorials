@@ -62,7 +62,7 @@ Aspose.PDF for .NET を使用して、PDF ドキュメントから段落を効�
 ### [Aspose.PDF for .NET を使用して PDF ファイルからテキストを抽出する](./extract-text-pdf-aspose-dotnet/)
 この包括的なチュートリアルでは、Aspose.PDF for .NET を使用してPDFページからテキストを抽出する方法を学びます。データの処理と分析に最適です。
 
-### [Aspose.PDF for .NET を使用して PDF ファイルからテキストを抽出する: 包括的な C# ガイド](./aspose-pdf-net-text-extraction-csharp/)
+### [Aspose.PDF for .NET を使用して PDF ファイルからテキストを抽出する: 包括的 C# ガイド](./aspose-pdf-net-text-extraction-csharp/)
 このステップバイステップのC#チュートリアルでは、Aspose.PDF for .NETを使用してPDFファイルから効率的にテキストを抽出する方法を学びます。今すぐドキュメント処理ワークフローを強化しましょう。
 
 ### [Aspose.PDF for .NET を使用して PDF からテキストを抽出する: 完全ガイド](./extract-text-aspose-pdf-net-guide/)
@@ -103,6 +103,9 @@ Aspose.PDF for .NET の Font オブジェクトと TextState オブジェクト�
 
 ### [Master Aspose.PDF for .NET: PDF ドキュメントを効率的に開いて検索する](./aspose-pdf-net-open-search-pdfs/)
 Aspose.PDF for .NET を使って PDF ドキュメントを開き、検索する方法を学びましょう。このガイドでは、セットアップ、特定のページ内のテキスト検索、そして実践的な応用例を解説します。
+
+### [Aspose.Pdf で PDF を検索する方法 – 完全 C# ガイド](./how-to-search-pdf-with-aspose-pdf-complete-c-guide/)
+Aspose.Pdf for .NET を使用して PDF 内のテキスト検索を実装する手順とコード例をステップバイステップで解説します。
 
 ### [Aspose.PDF for .NET で PDF のカスタム タブ ストップをマスターする: 包括的なガイド](./master-custom-tab-stops-aspose-pdf-net/)
 Aspose.PDF for .NET を使用して PDF ドキュメント内のカスタム タブ ストップを習得し、ドキュメントの書式設定とプレゼンテーションのスキルを向上させる方法を学習します。
@@ -163,6 +166,9 @@ Aspose.PDF Net のコードチュートリアル
 
 ### [Aspose.PDF for .NET を使用してタグ付き PDF のテキストにスタイルを設定する | アクセシビリティと美観に優れた PDF 作成ガイド](./style-text-tagged-pdfs-aspose-pdf-net/)
 Aspose.PDF for .NET を使って、タグ付き PDF ドキュメント内のテキストにスタイルを設定する方法を学びましょう。このガイドでは、インストール、テクニック、そしてアクセシビリティを向上させるための実践的な応用例を解説します。
+
+### [Aspose.PDF .NET を使用して PDF を編集（赤字消去）する: ステップバイステップガイド](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
+Aspose.PDF for .NET を使用して PDF ドキュメントから機密情報を赤字消去する方法を、コード例と共にステップバイステップで学びます。
 
 ## 追加リソース
 

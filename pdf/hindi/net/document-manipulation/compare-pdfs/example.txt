@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: यह ट्यूटोरियल दिखाता है कि Aspose.Pdf.Comparison का उपयोग करके दो PDF फ़ाइलों की तुलना कैसे करें और एक डिफ़ PDF उत्पन्न करें जो मूल और संशोधित दस्तावेज़ों के बीच अंतर को उजागर करता है।
+//ExStepSummary:0: मूल, संशोधित और डिफ़ आउटपुट PDF के फ़ाइल पाथ को घोषित करें।
+//ExStepSummary:1: सुनिश्चित करें कि दोनों इनपुट PDF मौजूद हैं और यदि कोई भी अनुपलब्ध है तो त्रुटि संदेश के साथ प्रक्रिया को रोक दें।
+//ExStepSummary:2: `using` ब्लॉक के भीतर मूल और संशोधित PDF को `Document` ऑब्जेक्ट्स में लोड करें।
+//ExStepSummary:3: तुलना के लिए डिफ़ॉल्ट सेटिंग्स के साथ एक `ComparisonOptions` इंस्टेंस बनाएं।
+//ExStepSummary:4: तुलना को निष्पादित करें, `outputPath` पर एक डिफ़ PDF उत्पन्न करें जो दो दस्तावेज़ों के बीच अंतर को उजागर करता है।
+//ExStepSummary:5: डिफ़ PDF बन जाने की पुष्टि करने वाला संदेश प्रिंट करें।
+//ExStepSummary:6: `using` ब्लॉक को बंद करें, जिससे स्रोत और लक्ष्य `Document` ऑब्जेक्ट्स डिस्पोज़ हो जाएँ।
+//ExStep:0-
+const string sourcePath = "originalDocument.pdf";
+const string targetPath = "modifiedDocument.pdf";
+const string outputPath = "diffOutput.pdf";
+
+//ExStep:1-
+if (!File.Exists(sourcePath) || !File.Exists(targetPath))
+{
+    Console.Error.WriteLine("Unable to locate one or both PDF inputs.");
+    return;
+}
+
+//ExStep:2-
+using (Document sourceDoc = new Document(sourcePath))
+using (Document targetDoc = new Document(targetPath))
+{
+
+//ExStep:3-
+ComparisonOptions compareOpts = new ComparisonOptions();
+
+//ExStep:4-
+TextPdfComparer.CompareFlatDocuments(sourceDoc, targetDoc, compareOpts, outputPath);
+
+//ExStep:5-
+Console.WriteLine($"Comparison finished. Output written to \"{outputPath}\".");
+
+//ExStep:6-
+}
+//ExEnd

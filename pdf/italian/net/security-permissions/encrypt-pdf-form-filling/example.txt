@@ -1,0 +1,46 @@
+//ExStart
+//ExSummary: Questo tutorial dimostra come aprire un PDF esistente con Aspose.Pdf, limitare le autorizzazioni in modo che sia consentita solo la compilazione dei moduli, crittografarlo con le password di visualizzazione e proprietario usando AES‑256 e salvare il file protetto.
+//ExStepSummary:0: Definisci i percorsi dei file di origine e destinazione e le password di visualizzazione e proprietario.
+//ExStepSummary:1: Verifica che il PDF di origine esista e interrompi l'esecuzione con un messaggio di errore se non esiste.
+//ExStepSummary:2: Avvia un blocco try per gestire eventuali errori che potrebbero verificarsi durante l'elaborazione.
+//ExStepSummary:3: Apri il PDF esistente creando un oggetto Document chiamato pdfDoc.
+//ExStepSummary:4: Imposta le autorizzazioni per consentire solo la compilazione dei moduli, crittografa il documento con le password di visualizzazione e proprietario usando AES‑256 e salva il PDF protetto.
+//ExStepSummary:5: Scrivi un messaggio di conferma sulla console e chiudi il blocco try.
+//ExStepSummary:6: Cattura eventuali eccezioni e stampa il messaggio di errore sulla console.
+//ExStep:0-
+        const string sourceFile = "sample.pdf";
+        const string destFile = "protected.pdf";
+        const string viewerPass = "viewerPass";
+        const string adminPass = "adminPass";
+
+//ExStep:1-
+        if (!File.Exists(sourceFile))
+        {
+            Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+            return;
+        }
+
+//ExStep:2-
+        try
+        {
+
+//ExStep:3-
+            using (Document pdfDoc = new Document(sourceFile))
+
+//ExStep:4-
+            {
+                Permissions allowed = Permissions.FillForm;
+                pdfDoc.Encrypt(viewerPass, adminPass, allowed, CryptoAlgorithm.AESx256);
+                pdfDoc.Save(destFile);
+            }
+
+//ExStep:5-
+            Console.WriteLine($"Secure PDF written to '{destFile}'.");
+        }
+
+//ExStep:6-
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Exception occurred: {ex.Message}");
+        }
+//ExEnd
