@@ -22,7 +22,6 @@ title: إنشاء مستند PDF C# – إضافة صفحة، رسم مستطي�
 url: /ar/net/document-creation/create-pdf-document-c-add-page-draw-rectangle-save/
 ---
 
-final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -20,17 +20,11 @@ title: สร้างเอกสาร PDF ด้วย C# – เพิ่ม
 url: /th/net/programming-with-pdf-pages/create-pdf-document-in-c-add-page-to-pdf-rectangle/
 ---
 
-translate up to that point.
 
-Translate: "อย่าลังเลที่จะทดลองกับพิกัดสี่เหลี่ยม, เส้นขอบ, และสีเติมที่ต่างกัน ยิ่งคุณเล่นมากเท่าไหร่ คุณก็จะเข้าใจวิธีการทำงานของ Aspose.P มากขึ้น"
 
-But the original ends with "Aspose.P". Might be incomplete; keep same truncated? We'll translate as is, maybe keep "Aspose.P". So: "คุณก็จะเข้าใจวิธีการทำงานของ Aspose.P"
 
-Now close shortcodes.
 
-We must keep the final shortcodes unchanged.
 
-Now produce final output with all content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -20,9 +20,12 @@ tutorial "Programmazione con operatori" di Aspose.PDF per .NET ti guideranno att
 ## Tutorial
 | Titolo | Descrizione |
 | --- | --- | 
+| [Come modificare la trasparenza PDF in C# usando Aspose.Pdf](./how-to-change-pdf-transparency-in-c-using-aspose-pdf/) | Guida passo passo per modificare la trasparenza di elementi PDF in C# con Aspose.Pdf. |
 | [Disegna XForm sulla pagina](./draw-xform-on-page/) | Impara a disegnare XForms in PDF usando Aspose.PDF per .NET con questa guida completa passo dopo passo. |  
 | [Operatori PDF](./pdf-operators/) | Guida passo passo all'utilizzo degli operatori PDF con Aspose.PDF per .NET. Aggiungi un'immagine a una pagina PDF e specificane la posizione. |  
 | [Rimuovi oggetti grafici nel file PDF](./remove-graphics-objects/) Scopri come rimuovere oggetti grafici da un file PDF utilizzando Aspose.PDF per .NET in questa guida passo passo. Semplifica le tue attività di manipolazione PDF. |  
+| [Iterare una collezione C# – Guida semplice per scorrere gli elementi](./iterate-collection-c-simple-guide-to-loop-over-items/) | Scopri come iterare una collezione in C# con una guida pratica usando Aspose.PDF per .NET. |  
+| [Crea dizionario PDF vuoto in C# – Guida completa Aspose.Pdf](./create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide/) | Scopri come creare un dizionario PDF vuoto in C# con Aspose.PDF per .NET in questa guida dettagliata passo passo. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

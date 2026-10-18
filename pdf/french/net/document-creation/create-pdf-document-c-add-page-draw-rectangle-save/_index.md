@@ -24,11 +24,9 @@ title: Créer un document PDF C# – Ajouter une page, dessiner un rectangle et 
 url: /fr/net/document-creation/create-pdf-document-c-add-page-draw-rectangle-save/
 ---
 
-quote with "Pro tip:" etc. Keep translation.
 
-Make sure to keep markdown formatting.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

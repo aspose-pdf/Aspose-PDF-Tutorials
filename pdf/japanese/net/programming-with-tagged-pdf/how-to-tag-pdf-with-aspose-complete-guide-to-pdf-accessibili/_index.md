@@ -23,13 +23,10 @@ title: AsposeでPDFにタグ付けする方法 – PDFアクセシビリティ�
 url: /ja/net/programming-with-tagged-pdf/how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/
 ---
 
-: translate.
 
-We need to preserve **...** formatting.
 
-Proceed.
 
-Will produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -11,13 +11,9 @@ url: /cs/java/conversion-export/convert-pdf-mobixml-aspose-java-guide/
 weight: 1
 ---
 
-3 pro Java"
 
-**Author:** Aspose -> "**Autor:** Aspose"
 
-Make sure markdown formatting preserved.
 
-Now produce final content with all translations.
 
 {{< blocks/products/pf/main-wrap-class >}}
 

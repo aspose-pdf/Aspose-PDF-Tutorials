@@ -38,8 +38,6 @@ By the end of this guide you’ll be able to:
 
 No external tools, no vague “see the docs” shortcuts—just a complete, runnable example you can copy‑paste into Visual Studio today.
 
-![Diagram showing the flow of loading a signed PDF document and extracting its signatures](alt="load signed pdf document flow diagram")
-
 ## Prerequisites
 
 Before we dive in, make sure you have the following on your machine:

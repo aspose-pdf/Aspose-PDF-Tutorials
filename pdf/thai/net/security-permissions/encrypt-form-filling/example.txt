@@ -1,0 +1,49 @@
+//ExStart
+//ExSummary: บทแนะนำนี้แสดงวิธีการเปิดไฟล์ PDF ที่มีอยู่แล้วด้วย Aspose.Pdf, จำกัดสิทธิ์การใช้งานให้เป็นการกรอกแบบฟอร์มเท่านั้น, เข้ารหัสโดยใช้ AES‑256 พร้อมรหัสผ่านผู้ดูและรหัสผ่านเจ้าของ, และบันทึกเอกสารที่ได้รับการปกป้อง
+//ExStepSummary:0: ประกาศเส้นทางของ PDF ต้นฉบับ, เส้นทางของไฟล์ผลลัพธ์, และรหัสผ่านผู้ดูและรหัสผ่านเจ้าของ
+//ExStepSummary:1: ตรวจสอบว่าไฟล์ต้นฉบับมีอยู่หรือไม่; หากไม่มี ให้เขียนข้อความแสดงข้อผิดพลาดและออกจากโปรแกรม
+//ExStepSummary:2: เข้าสู่บล็อก try และเปิดเอกสาร PDF ด้วยคำสั่ง `using` เพื่อสร้างตัวแปร `pdfDoc`
+//ExStepSummary:3: สร้างอ็อบเจ็กต์ `Permissions` ที่อนุญาตให้กรอกแบบฟอร์มเท่านั้น
+//ExStepSummary:4: เข้ารหัส `pdfDoc` ด้วยรหัสผ่านผู้ดูและรหัสผ่านหลัก, ใช้ชุดสิทธิ์ที่กำหนดและใช้ AES‑256
+//ExStepSummary:5: บันทึก PDF ที่เข้ารหัสลงในไฟล์ผลลัพธ์ที่ระบุและปิดบล็อก `using`
+//ExStepSummary:6: เขียนข้อความยืนยันไปยังคอนโซลและปิดบล็อก try
+//ExStepSummary:7: ดักจับข้อยกเว้นใด ๆ, แสดงข้อความของมันไปยังสตรีมข้อผิดพลาด, และปิดบล็อก catch
+//ExStep:0-
+        const string sourceFile = "sample.pdf";
+        const string encryptedFile = "protected.pdf";
+        const string viewerPwd = "readPass";
+        const string masterPwd = "fullPass";
+
+//ExStep:1-
+        if (!File.Exists(sourceFile))
+        {
+            Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+            return;
+        }
+
+//ExStep:2-
+        try
+        {
+            using (Document pdfDoc = new Document(sourceFile))
+            {
+
+//ExStep:3-
+                Permissions permissionSet = Permissions.FillForm;
+
+//ExStep:4-
+                pdfDoc.Encrypt(viewerPwd, masterPwd, permissionSet, CryptoAlgorithm.AESx256);
+
+//ExStep:5-
+                pdfDoc.Save(encryptedFile);
+            }
+
+//ExStep:6-
+            Console.WriteLine($"Encrypted document written to '{encryptedFile}'.");
+        }
+
+//ExStep:7-
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Error: {ex.Message}");
+        }
+//ExEnd

@@ -1,65 +1,123 @@
 ---
-date: '2026-02-27'
+date: '2026-08-06'
 description: Aspose.PDF for Java kullanarak PDF portföylerinden gömülü PDF dosyalarını
-  nasıl çıkaracağınızı öğrenin. Dosyaları PDF'den verimli bir şekilde çıkarmak için
-  bu adım adım kılavuzu izleyin.
+  nasıl çıkaracağınızı öğrenin. Dosyaları verimli bir şekilde çıkarmak için bu adım
+  adım kılavuzu izleyin.
 keywords:
-- extract embedded files PDF
+- extract embedded files pdf
+- extract files from pdf portfolio
+- extract files from pdf using java
 - aspose.pdf java library
-- manage data from PDF portfolio
-title: Aspose.PDF Java ile PDF Portföyünden gömülü PDF dosyalarını çıkar
+- manage data from pdf portfolio
+lastmod: '2026-08-06'
+og_description: Aspose.PDF for Java ile PDF portföylerinden gömülü PDF dosyalarını
+  çıkarın. Her dosyayı verimli ve güvenli bir şekilde çıkarmak için bu özlü kılavuzu
+  izleyin.
+og_image_alt: Developer guide showing how to extract embedded files from a PDF portfolio
+  using Aspose.PDF Java
+og_title: Aspose.PDF for Java kullanarak bir PDF Portföyünden gömülü PDF dosyalarını
+  çıkarın
+schemas:
+- author: Aspose
+  dateModified: '2026-08-06'
+  description: Learn how to extract embedded files pdf from PDF portfolios using Aspise.PDF
+    for Java. Follow this step‑by‑step guide to extract files from pdf efficiently.
+  headline: Extract embedded files pdf from a PDF Portfolio with Aspose.PDF Java
+  type: TechArticle
+- description: Learn how to extract embedded files pdf from PDF portfolios using Aspise.PDF
+    for Java. Follow this step‑by‑step guide to extract files from pdf efficiently.
+  name: Extract embedded files pdf from a PDF Portfolio with Aspose.PDF Java
+  steps:
+  - name: '**Free trial:** Download the latest version from [Aspose Downloads](https://releases.aspose.com/pdf/java/).'
+    text: '**Free trial:** Download the latest version from [Aspose Downloads](https://releases.aspose.com/pdf/java/).'
+  - name: '**Temporary license:** Obtain one by visiting [Aspose Temporary License](https://purchase.aspose.com/temporary-license/).'
+    text: '**Temporary license:** Obtain one by visiting [Aspose Temporary License](https://purchase.aspose.com/temporary-license/).'
+  - name: '**Purchase:** For ongoing use, purchase a license through [Aspose Purchase](https://purchase.aspose.com/buy).'
+    text: '**Purchase:** For ongoing use, purchase a license through [Aspose Purchase](https://purchase.aspose.com/buy).'
+  - name: '**Archiving data:** Consolidate and later unpack multiple documents stored
+      in a single PDF.'
+    text: '**Archiving data:** Consolidate and later unpack multiple documents stored
+      in a single PDF.'
+  - name: '**Data processing pipelines:** Feed extracted files directly into ETL workflows.'
+    text: '**Data processing pipelines:** Feed extracted files directly into ETL workflows.'
+  - name: '**Automated document handling:** Enable back‑office systems to automatically
+      retrieve attached assets.'
+    text: '**Automated document handling:** Enable back‑office systems to automatically
+      retrieve attached assets.'
+  type: HowTo
+- questions:
+  - answer: It refers to pulling out each file that’s been packaged inside a PDF portfolio.
+    question: What does “extract embedded files pdf” mean?
+  - answer: Aspose.PDF for Java provides a simple API for PDF embedded file extraction.
+    question: Which library is best for this task?
+  - answer: A free trial works for evaluation; a commercial license is required for
+      production.
+    question: Do I need a license?
+  - answer: Yes—use streaming and buffered I/O to keep memory usage low.
+    question: Can I handle large portfolios?
+  - answer: Absolutely, just provide the decryption password when opening the PDF.
+    question: Is password protection supported?
+  type: FAQPage
+tags:
+- extract embedded files pdf
+- aspose.pdf
+- java pdf processing
+title: Aspose.PDF Java ile bir PDF Portföyünden gömülü PDF dosyalarını çıkarın
 url: /tr/java/attachments-embedded-files/extract-files-pdf-portfolio-aspose-java/
 weight: 1
 ---
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# PDF Portföyünden Gömülü Dosyaları Aspose.PDF Java Kullanarak Nasıl Çıkarılır
+# PDF portföyünden gömülü dosyaları pdf olarak Aspose.PDF Java kullanarak nasıl çıkarılır
 
 ## Giriş
 
 Günümüz dijital ortamında, PDF portföyleri birden fazla dosyayı tek bir belge içinde birleştiren çok değerli araçlardır. Ancak, bu portföylerden tek tek gömülü dosyaları çıkarmak doğru araçlar olmadan zor olabilir. Aspose.PDF for Java ile **extract embedded files pdf** işlemini sorunsuz bir şekilde gerçekleştirebilir ve veri yönetimi iş akışınızı iyileştirebilirsiniz.
 
-Bu öğretici, Aspose.PDF for Java kullanarak bir PDF portföyünden gömülü dosyaları verimli bir şekilde çıkarmayı size gösterecek. Bu adım adım süreci izleyerek, Aspose'un güçlü özelliklerini projelerinizde nasıl kullanabileceğinizi öğreneceksiniz.
+Bu öğretici, Aspose.PDF for Java kullanarak bir PDF portföyünden gömülü dosyaları verimli bir şekilde çıkarmanıza rehberlik edecektir. Bu adım adım süreci izleyerek, projelerinizde Aspose'un güçlü özelliklerinden nasıl yararlanacağınızı öğreneceksiniz.
 
-**Öğrenecekleriniz:**
+**Neler öğreneceksiniz**
 - Java ortamınızda Aspose.PDF kütüphanesini kurma
 - PDF portföyünü yükleme ve ayrıştırma
 - PDF belgesinden gömülü dosyaları çıkarmak için teknikler
 
-## Hızlı Yanıtlar
-- **“extract embedded files pdf” ne anlama geliyor?** PDF portföyü içinde paketlenmiş her dosyanın çıkarılması anlamına gelir.
-- **Bu görev için en iyi kütüphane hangisidir?** Aspose.PDF for Java, PDF gömülü dosya çıkarma için basit bir API sunar.
-- **Lisans gerekir mi?** Değerlendirme için ücretsiz deneme çalışır; üretim için ticari lisans gereklidir.
-- **Büyük portföyleri yönetebilir miyim?** Evet—bellek kullanımını düşük tutmak için akış ve tamponlu I/O kullanın.
-- **Şifre koruması destekleniyor mu?** Kesinlikle, PDF'yi açarken şifre çözme parolasını sağlayın.
+## Hızlı cevaplar
+- **“extract embedded files pdf” ne anlama geliyor?** Bu, bir PDF portföyü içinde paketlenmiş her dosyanın çıkarılması anlamına gelir.
+- **Bu görev için en iyi kütüphane hangisidir?** Aspose.PDF for Java, PDF gömülü dosya çıkarımı için basit bir API sağlar.
+- **Bir lisansa ihtiyacım var mı?** Değerlendirme için ücretsiz deneme çalışır; üretim için ticari bir lisans gereklidir.
+- **Büyük portföyleri yönetebilir miyim?** Evet—akış ve tamponlu I/O kullanarak bellek kullanımını düşük tutabilirsiniz.
+- **Şifre koruması destekleniyor mu?** Kesinlikle, PDF'yi açarken şifre çözme parolasını sağlamanız yeterlidir.
 
 ## “extract embedded files pdf” nedir?
-Extracting embedded files pdf, bir PDF portföyünün içinde depoladığı her dosyayı—örneğin görüntüler, elektronik tablolar veya metin belgeleri—almak ve bunları dosya sistemine kaydedip bağımsız olarak kullanılabilir hâle getirmek anlamına gelir.
 
-## Neden Aspose.PDF for Java Kullanmalı?
-Aspose.PDF for Java, PDF spesifikasyonunun karmaşıklıklarını soyutlayan yüksek seviyeli bir API sunar. Şifreli PDF'leri, büyük dosyaları destekler ve güvenilir akış yönetimi sağlar, bu da **extract files from pdf** senaryoları için onu birincil seçenek yapar.
+Gömülü dosyaları pdf çıkarmak, bir PDF portföyünün içinde depoladığı her dosyayı—örneğin görüntüler, elektronik tablolar veya metin belgeleri—almak ve her birini bağımsız kullanım için yerel dosya sistemine yazmak anlamına gelir. Portföy, bu dosyaları gömülü dosya spesifikasyonları olarak tutar, böylece birlikte paketlenmiş olsalar da programatik olarak erişilebilen ve çıkarılabilen ayrı varlıklar olarak kalırlar.
+
+## Neden Aspose.PDF for Java kullanmalı?
+
+Aspose.PDF for Java, PDF spesifikasyonunun karmaşıklıklarını soyutlayan yüksek seviyeli bir API sunar. Şifreli PDF'leri, büyük dosyaları destekler ve güvenilir akış yönetimi sağlar, bu da **extract files from pdf** senaryoları için onu birincil tercih yapar. Kütüphane, artımlı yükleme mimarisi sayesinde bellek tüketimini 200 MB'nin altında tutarak 2 GB'a kadar PDF işleyebilir.
 
 ## Önkoşullar
 
 Başlamadan önce, aşağıdakilere sahip olduğunuzdan emin olun:
 
 - **Java Development Kit (JDK):** JDK 8 veya üzeri önerilir.
-- **Entegre Geliştirme Ortamı (IDE):** IntelliJ IDEA, Eclipse veya VS Code gibi herhangi bir IDE çalışır.
-- **Maven/Gradle:** Bağımlılık yönetimi için Maven veya Gradle kullanımına temel bilgi.
+- **Integrated Development Environment (IDE):** IntelliJ IDEA, Eclipse veya VS Code gibi herhangi bir IDE çalışır.
+- **Maven/Gradle:** Bağımlılık yönetimi için Maven veya Gradle kullanımına dair temel bilgi.
 
-### Gerekli Kütüphaneler ve Bağımlılıklar
+### Gerekli kütüphaneler ve bağımlılıklar
 
-Projenize Aspose.PDF kütüphanesinin entegre edildiğinden emin olun. Bu bağımlılığı yönetmek için Maven veya Gradle kullanabilirsiniz.
+Aspose.PDF kütüphanesinin projenize entegre edildiğinden emin olun. Bu bağımlılığı yönetmek için Maven veya Gradle kullanabilirsiniz.
 
 ## Aspose.PDF for Java Kurulumu
 
 Aspose.PDF for Java ile başlamak basittir. İşte Maven veya Gradle kullanarak nasıl kuracağınız:
 
-**Maven Kurulumu**
+**Maven kurulumu**
+
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -68,20 +126,21 @@ Aspose.PDF for Java ile başlamak basittir. İşte Maven veya Gradle kullanarak 
 </dependency>
 ```
 
-**Gradle Kurulumu**
+**Gradle kurulumu**
+
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### Lisans Alımı
+### Lisans edinimi
 
 Aspose.PDF'nin özelliklerini tam olarak kullanmak için ücretsiz deneme ile başlayabilir veya değerlendirme amaçlı geçici bir lisans talep edebilirsiniz. Üretim kullanımı için bir lisans satın almayı düşünün.
 
-1. **Ücretsiz Deneme:** En son sürümü [Aspose Downloads](https://releases.aspose.com/pdf/java/) adresinden indirin.  
-2. **Geçici Lisans:** [Aspose Temporary License](https://purchase.aspose.com/temporary-license/) adresini ziyaret ederek edinin.  
-3. **Satın Alma:** Sürekli kullanım için bir lisansı [Aspose Purchase](https://purchase.aspose.com/buy) üzerinden satın alın.
+1. **Free trial:** En son sürümü [Aspose Downloads](https://releases.aspose.com/pdf/java/) adresinden indirin.  
+2. **Temporary license:** [Aspose Temporary License](https://purchase.aspose.com/temporary-license/) adresini ziyaret ederek bir lisans edinin.  
+3. **Purchase:** Sürekli kullanım için bir lisansı [Aspose Purchase](https://purchase.aspose.com/buy) üzerinden satın alın.
 
-### Temel Başlatma ve Kurulum
+### Temel başlatma ve kurulum
 
 Kütüphane kurulduktan ve lisansınız yapılandırıldıktan sonra, Aspose.PDF'yi aşağıdaki gibi başlatın:
 
@@ -92,20 +151,21 @@ import com.aspose.pdf.Document;
 document = new Document("Portfolio_output.pdf");
 ```
 
-## Uygulama Kılavuzu
+## Uygulama rehberi
 
 Kurulum tamamlandığına göre, Aspose.PDF for Java kullanarak bir PDF portföyünden gömülü dosyaları çıkarmayı adım adım inceleyelim.
 
-### PDF Portföyünden Dosyaları Çıkarma
+### PDF portföyünden dosyaları çıkarma
 
 #### Genel Bakış
 
-Bu bölüm, bir PDF portföyünden **extract embedded files pdf** nasıl yapılacağını gösterir. Birden fazla medya türü veya veri dosyası içeren belgelerle çalışırken özellikle faydalıdır.
+Bu bölüm, bir PDF portföyünden **extract embedded files pdf** nasıl çıkarılacağını gösterir. Bu, birden fazla medya türü veya veri dosyası içeren belgelerle çalışırken özellikle faydalıdır.
 
-#### Adım Adım Uygulama
+#### Adım adım uygulama
 
-**1. Kaynak PDF Portföyünü Yükleyin**  
-PDF belgesini bir Aspose.PDF `Document` nesnesine yükleyerek başlayın:
+**1. Kaynak PDF portföyünü yükleyin**  
+
+PDF portföyünüzü belleğe yükleyin. `Document` sınıfı, Aspose.PDF'nin bellekte tek bir PDF dosyasını temsil eden üst düzey nesnesidir.
 
 ```java
 import com.aspose.pdf.Document;
@@ -114,8 +174,9 @@ import com.aspose.pdf.Document;
 document = new Document("Portfolio_output.pdf");
 ```
 
-**2. Gömülü Dosyalar Koleksiyonunu Alın**  
-`getEmbeddedFiles()` yöntemiyle gömülü dosyalar koleksiyonuna erişin:
+**2. Gömülü dosyalar koleksiyonunu alın**  
+
+`getEmbeddedFiles()` yöntemi, portföyde gömülü olan her dosyayı tutan bir koleksiyon döndürür.
 
 ```java
 import com.aspose.pdf.EmbeddedFileCollection;
@@ -124,8 +185,9 @@ import com.aspose.pdf.EmbeddedFileCollection;
 embeddedFiles = document.getEmbeddedFiles();
 ```
 
-**3. Her Dosyayı Döngüyle Çıkarın**  
-Portföydeki her dosyayı tek tek çıkarmak için döngüye alın:
+**3. Her dosyayı döngüyle işleyin ve çıkarın**  
+
+Koleksiyondaki her bir öğeyi döngüyle gezerek dosya akışını diske yazın. `FileSpecification` nesnesi, orijinal dosya adını ve içerik akışını sağlar.
 
 ```java
 import java.io.File;
@@ -158,88 +220,95 @@ for (int counter = 1; counter <= embeddedFiles.size(); counter++) {
 }
 ```
 
-Bu kod parçasında:
+Bu kod parçacığında:
 - `input`, her gömülü dosyanın içerik akışını alır.
-- Dizinler `mkdirs()` ile anında oluşturulur.
+- `mkdirs()` ile dizinler anında oluşturulur.
 - Dosyalar, tamponlu bir `FileOutputStream` kullanılarak diske yazılır.
 
-#### Sorun Giderme İpuçları
+#### Sorun giderme ipuçları
 
-- **Dosya Bulunamadı:** PDF yolunun (`Portfolio_output.pdf`) doğru konuma işaret ettiğini doğrulayın.
-- **İzin Sorunları:** Uygulamanın hedef klasöre yazma izni olduğundan emin olun.
-- **Büyük Dosyalar:** Çok büyük gömülü dosyalar için JVM yığın boyutunu artırmayı veya dosyaları daha küçük partilerde işlemeyi düşünün.
+- **File not found:** PDF yolunun (`Portfolio_output.pdf`) doğru konuma işaret ettiğini doğrulayın.
+- **Permission issues:** Uygulamanın hedef klasöre yazma izni olduğundan emin olun.
+- **Large files:** Çok büyük gömülü dosyalar için JVM yığın boyutunu artırmayı veya dosyaları daha küçük partilerde işlemeyi düşünün.
 
-## Pratik Uygulamalar
+## Pratik uygulamalar
 
 PDF portföylerinden gömülü dosyaları çıkarmak birçok gerçek dünya kullanımına sahiptir:
 
-1. **Veri Arşivleme:** Tek bir PDF içinde depolanan birden fazla belgeyi birleştirip daha sonra açın.
-2. **Veri İşleme Boru Hatları:** Çıkarılan dosyaları doğrudan ETL iş akışlarına besleyin.
-3. **Otomatik Belge İşleme:** Arka ofis sistemlerinin ekli varlıkları otomatik olarak almasını sağlayın.
+1. **Veri arşivleme:** Tek bir PDF içinde depolanan birden fazla belgeyi birleştirip daha sonra açın.
+2. **Veri işleme hatları:** Çıkarılan dosyaları doğrudan ETL iş akışlarına besleyin.
+3. **Otomatik belge işleme:** Arka ofis sistemlerinin ekli varlıkları otomatik olarak almasını sağlayın.
 
-## Performans Düşünceleri
+## Performans hususları
 
-Büyük portföylerle çalışırken şu ipuçlarını aklınızda tutun:
+Büyük portföylerle çalışırken, aşağıdaki ipuçlarını aklınızda bulundurun:
 
-- **Bellek Yönetimi:** Büyük PDF'leri işlemek için yeterli yığın belleği (`-Xmx`) ayırın.
-- **Akış Verimliliği:** I/O yükünü azaltmak için tamponlu akışlar (gösterildiği gibi) kullanın.
-- **Toplu İşleme:** Sistem kaynaklarını tüketmemek için dosyaları gruplar halinde işleyin.
+- **Memory management:** Büyük PDF'leri işlemek için yeterli yığın belleği (`-Xmx`) ayırın.
+- **Stream efficiency:** I/O yükünü azaltmak için tamponlu akışlar (gösterildiği gibi) kullanın.
+- **Batch processing:** Sistem kaynaklarını tüketmemek için dosyaları gruplar halinde işleyin.
 
-## Yaygın Sorunlar ve Çözümleri
+## Yaygın sorunlar ve çözümler
 
 | Sorun | Neden | Çözüm |
 |-------|-------|----------|
 | **OutOfMemoryError** | PDF varsayılan yığın için çok büyük | JVM yığınını (`-Xmx2g`) artırın veya dosyaları tek tek işleyin |
-| **Empty Output Files** | Giriş akışı doğru okunmadı | `input.read(buffer)` döngüsünün `-1` e kadar çalıştığından emin olun |
-| **Missing Files After Extraction** | `fileSpecification.getName()` dizinsiz bir göreli yol döndürür | Eksik klasörleri oluşturmak için gösterildiği gibi `file.getParentFile().mkdirs()` kullanın |
+| **Empty output files** | Giriş akışı doğru okunmadı | `input.read(buffer)` döngüsünün `-1` e kadar çalıştığından emin olun |
+| **Missing files after extraction** | `fileSpecification.getName()` dizinsiz bir göreceli yol döndürür | Eksik klasörleri oluşturmak için gösterildiği gibi `file.getParentFile().mkdirs()` kullanın |
 
 ## Sonuç
 
-Artık Aspose.PDF for Java kullanarak bir PDF portföyünden **extract embedded files pdf** işlemini ustaca gerçekleştirdiniz. Bu yetenek, karmaşık çok‑dosyalı PDF'lerin işlenmesini otomatikleştirmenizi ve veri yönetimi görevlerinizi sadeleştirmenizi sağlar.
+Artık Aspose.PDF for Java kullanarak bir PDF portföyünden **extract embedded files pdf** işlemini ustaca gerçekleştirdiniz. Bu yetenek, karmaşık çok dosyalı PDF'lerin işlenmesini otomatikleştirmenizi ve veri yönetimi görevlerinizi düzene koymanızı sağlar.
 
-### Sonraki Adımlar
+### Sonraki adımlar
 
 - PDF düzenleme, dönüşüm ve dijital imzalar gibi ek Aspose.PDF özelliklerini keşfedin.
-- Bu çıkarma mantığını daha büyük belge‑işleme boru hatlarına entegre edin.
+- Bu çıkarma mantığını daha büyük belge işleme hatlarına entegre edin.
 
-**Eylem Çağrısı:** Bu çözümü bir sonraki Java projenizde uygulamayı deneyin ve manuel dosya çıkarımında ne kadar zaman kazandığınızı görün!
+**Call to action:** Bu çözümü bir sonraki Java projenizde uygulamayı deneyin ve manuel dosya çıkarımında ne kadar zaman kazandığınızı görün!
 
 ## Sıkça Sorulan Sorular
 
-**S1: Şifreli PDF portföylerinden dosya çıkarabilir miyim?**  
-Evet, ancak doğru şifre çözme anahtarına ihtiyacınız olacak. Aspose.PDF, sağlanan kimlik bilgileriyle şifreli belgeleri açmayı destekler.
+**Q1: Şifreli PDF portföylerinden dosya çıkarabilir miyim?**  
+A1: Evet, ancak doğru şifre çözme anahtarına ihtiyacınız olacak. Aspose.PDF, sağlanan kimlik bilgileriyle şifreli belgeleri açmayı destekler.
 
-**S2: Aspose.PDF Java ile hangi dosya türleri çıkarılabilir?**  
-PDF portföyü içinde desteklenen herhangi bir gömülü dosya türünü çıkarabilirsiniz; örneğin görüntüler, metin dosyaları, elektronik tablolar ve daha fazlası.
+**Q2: Aspose.PDF Java ile hangi dosya türleri çıkarılabilir?**  
+A2: PDF portföyü içinde desteklenen herhangi bir gömülü dosya türünü çıkarabilirsiniz; örneğin görüntüler, metin dosyaları, elektronik tablolar vb.
 
-**S3: Aspose.PDF büyük dosya boyutlarını çıkarma sırasında nasıl yönetir?**  
-Özellikle tamponlu I/O kullanıldığında, büyük dosyaların sorunsuz işlenmesini sağlamak için belleği ve akış işlemlerini verimli bir şekilde yönetir.
+**Q3: Aspose.PDF büyük dosya boyutlarını çıkarma sırasında nasıl yönetir?**  
+A3: Bellek ve akış işlemlerini verimli bir şekilde yöneterek, özellikle tamponlu I/O kullanıldığında büyük dosyaların sorunsuz işlenmesini sağlar.
 
-**S4: Çıkarabileceğim gömülü dosya sayısında bir limit yok mu?**  
-Belirli bir limit yok, ancak performans sistem kaynakları ve PDF karmaşıklığına bağlı olarak değişebilir.
+**Q4: Çıkarabileceğim gömülü dosya sayısında bir limit var mı?**  
+A4: Belirli bir limit yoktur, ancak performans sistem kaynakları ve PDF karmaşıklığına bağlı olarak değişebilir.
 
-**S5: Aspose.PDF ticari uygulamalarda kullanılabilir mi?**  
-Kesinlikle! Ticari olarak kullanırken lisans koşullarına uyduğunuzdan emin olun.
+**Q5: Aspose.PDF ticari uygulamalarda kullanılabilir mi?**  
+A5: Kesinlikle! Ticari olarak kullanırken lisans şartlarına uyduğunuzdan emin olun.
 
 ## Kaynaklar
 
 - **Documentation:** [Aspose.PDF Java Documentation](https://reference.aspose.com/pdf/java/)
 - **Download:** [Aspose.PDF Releases](https://releases.aspose.com/pdf/java/)
 - **Purchase:** [Buy Aspose License](https://purchase.aspose.com/buy)
-- **Free Trial:** [Aspose Free Downloads](https://releases.aspose.com/pdf/java/)
-- **Temporary License:** [Request Temporary License](https://purchase.aspose.com/temporary-license/)
+- **Free trial:** [Aspose Free Downloads](https://releases.aspose.com/pdf/java/)
+- **Temporary license:** [Request Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support:** [Aspose Forum](https://forum.aspose.com/c/pdf/10)
 
 ---
 
-**Last Updated:** 2026-02-27  
-**Tested With:** Aspose.PDF 25.3 for Java  
-**Author:** Aspose  
+**Son Güncelleme:** 2026-08-06  
+**Test Edilen Versiyon:** Aspose.PDF 25.3 for Java  
+**Yazar:** Aspose  
+
+{{< blocks/products/products-backtop-button >}}
+
+## İlgili Öğreticiler
+
+- [Aspose.PDF for Java ile PDF Gömülü Ekler Nasıl Oluşturulur - Geliştirici Rehberi](/pdf/java/attachments-embedded-files/add-attachments-pdf-aspose-pdf-java/)
+- [Aspose.PDF for Java Kullanarak PDF Eklerini Verimli Şekilde Nasıl Kaldırılır](/pdf/java/attachments-embedded-files/remove-attachments-pdf-aspose-java/)
+- [Aspose PDF Java Öğreticisi: PDF'lerde Gömülü Dosyalara Erişim ve Yönetim](/pdf/java/attachments-embedded-files/master-aspose-pdf-java-access-manage-embedded-files/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

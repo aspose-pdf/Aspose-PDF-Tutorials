@@ -24,11 +24,9 @@ title: Получить имена подписей PDF в C# – Полно
 url: /ru/net/digital-signatures/retrieve-pdf-signature-names-in-c-complete-programming-guide/
 ---
 
-**bold**.
 
-Proceed.
 
-Will produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

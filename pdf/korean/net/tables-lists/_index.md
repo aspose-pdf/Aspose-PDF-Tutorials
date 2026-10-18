@@ -17,6 +17,8 @@ Aspose.PDF .NET 튜토리얼을 통해 표와 목록을 위한 체계적인 PDF 
 
 ## 사용 가능한 튜토리얼
 
+
+{{< tutorial-card link="./style-table-cells/" title="Aspose.Pdf for .NET을 사용하여 PDF의 테이블 셀 배경, 테두리 및 패딩을 사용자 지정합니다." imgSrc="./style-table-cells/images/thumb.png" >}}
 ### [Aspose.PDF .NET을 사용하여 PDF에 HTML 순서 목록 추가](./add-html-ordered-list-pdf-aspose-net/)
 Aspose.PDF Net에 대한 코드 튜토리얼
 

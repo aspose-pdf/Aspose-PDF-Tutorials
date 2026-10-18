@@ -17,6 +17,8 @@ Pelajari cara membuat dokumen PDF terstruktur dengan baik dengan tutorial Aspose
 
 ## Tutorial yang Tersedia
 
+
+{{< tutorial-card link="./style-table-cells/" title="Sesuaikan Latar Belakang, Border, dan Padding Sel Tabel dalam PDF dengan Aspose.Pdf untuk .NET" imgSrc="./style-table-cells/images/thumb.png" >}}
 ### [Tambahkan Daftar HTML yang Diurutkan ke PDF dengan Aspose.PDF .NET](./add-html-ordered-list-pdf-aspose-net/)
 Tutorial kode untuk Aspose.PDF Net
 

@@ -1,0 +1,41 @@
+//ExStart
+//ExSummary: Bu öğretici, mevcut bir PDF'nin her sayfasını Aspose.Pdf Document sınıfını kullanarak 180 derece döndürmeyi gösterir.
+//ExStepSummary:0: PDF için kaynak ve hedef dosya yollarını bildiriniz.
+//ExStepSummary:1: Kaynak dosyanın var olduğunu kontrol edin ve yoksa bir hata mesajı ile işlemi durdurun.
+//ExStepSummary:2: Kaynak PDF için bir Document nesnesi oluşturun ve kaynakları yönetmek için bir using bloğu içinde tutun.
+//ExStepSummary:3: pdfDoc.Pages içindeki her Page üzerinde döngü yapın ve Rotate özelliğini Rotation.on180 olarak ayarlayın; böylece her sayfa ters çevrilir.
+//ExStepSummary:4: Değiştirilen Document'i hedef dosyaya kaydedin, böylece dönüşler kalıcı olur.
+//ExStepSummary:5: İşlemin tamamlandığını belirten bir onay mesajını konsola yazdırın.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+        const string sourceFile = "source_document.pdf";
+        const string destinationFile = "flipped_document.pdf";
+
+//ExStep:1-
+        if (!File.Exists(sourceFile))
+        {
+            Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+            return;
+        }
+
+//ExStep:2-
+        // Open the PDF within a using statement to ensure resources are released
+        using (Document pdfDoc = new Document(sourceFile))
+        {
+
+//ExStep:3-
+            // Walk through each page (collection is 1‑based) and apply a 180° rotation
+            foreach (Page pdfPage in pdfDoc.Pages)
+            {
+                // Use the correct enum member with the 'on' prefix
+                pdfPage.Rotate = Rotation.on180;
+            }
+
+//ExStep:4-
+            // Write the altered document to disk
+            pdfDoc.Save(destinationFile);
+        }
+
+//ExStep:5-
+        Console.WriteLine($"All pages rotated and saved as '{destinationFile}'.");
+//ExEnd

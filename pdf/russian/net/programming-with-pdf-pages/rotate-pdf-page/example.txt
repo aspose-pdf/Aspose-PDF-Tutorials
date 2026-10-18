@@ -1,0 +1,11 @@
+//ExStart
+//ExSummary: Этот учебник демонстрирует, как повернуть третью страницу PDF‑документа на 180 градусов, используя возможности поворота страниц PDF SDK.
+//ExStepSummary:0: Файл содержит только пояснительные комментарии и не имеет исполняемого кода, служа в качестве заполнителя для оригинального примера.
+//ExStep:0-
+// Placeholder for the original example URL.
+// Demonstrates rotating the third page of a PDF by 180 degrees.
+// The functional implementation has been moved to a different repository.
+// This file preserves the original link for legacy references.
+
+        // No operational code required for this placeholder.
+//ExEnd

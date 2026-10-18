@@ -26,11 +26,9 @@ title: Verifikasi Tanda Tangan Digital PDF di C# – Panduan Lengkap
 url: /id/net/programming-with-security-and-signatures/verify-pdf-digital-signature-in-c-complete-guide/
 ---
 
-of heading we replaced.
 
-Make sure to keep code block placeholders unchanged.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

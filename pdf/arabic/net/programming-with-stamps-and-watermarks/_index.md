@@ -22,7 +22,7 @@
 | --- | --- | 
 | [إضافة طابع التاريخ والوقت في ملف PDF](./add-date-time-stamp/) تعرّف على كيفية إضافة ختم التاريخ والوقت إلى ملفات PDF باستخدام Aspose.PDF لـ .NET من خلال هذا الدليل المفصل. مثالي لتعزيز مصداقية المستندات.  
 | [إضافة ختم الصورة في ملف PDF](./add-image-stamp/) |تعرف على كيفية إضافة ختم صورة إلى ملفات PDF باستخدام Aspose.PDF لـ .NET مع إرشادات خطوة بخطوة ورمز مثال. |  
-| [إضافة عناوين مختلفة في ملف PDF](./adding-different-headers/) | تعرّف على كيفية إضافة عناوين مختلفة إلى ملفات PDF باستخدام Aspose.PDF لـ .NET. دليل خطوة بخطوة لتخصيص ملفات PDF. |  
+| [إضافة عناوين مختلفة في ملف PDF](./adding-different-headers/) | تعرّف على إضافة عناوين مختلفة إلى ملفات PDF باستخدام Aspose.PDF لـ .NET. دليل خطوة بخطوة لتخصيص ملفات PDF. |  
 | [إضافة ختم صفحة PDF في ملف PDF](./add-pdf-page-stamp/) | تعرّف على كيفية إضافة ختم صفحة PDF باستخدام Aspose.PDF لـ .NET من خلال هذا الدليل المُفصّل. عزّز تأثير مستندات PDF الخاصة بك. |  
 | [إضافة ختم نصي في ملف PDF](./add-text-stamp/) |تعرف على كيفية إضافة طابع نصي في ملف PDF باستخدام Aspose.PDF لـ .NET من خلال دليلنا خطوة بخطوة ورفع مستوى عروض المستندات الخاصة بك. |  
 | [عدّ القطع الأثرية في ملف PDF](./counting-artifacts/) تعلّم كيفية حساب العلامات المائية في ملف PDF باستخدام Aspose.PDF لـ .NET. دليل خطوة بخطوة للمبتدئين دون الحاجة لخبرة سابقة. |  
@@ -30,6 +30,7 @@
 | [استخراج النص من شرح الطوابع](./extract-text-from-stamp-annotation/) |تعرف على كيفية استخراج النص من تعليق ختم في PDF باستخدام Aspose.PDF لـ .NET من خلال هذا البرنامج التعليمي خطوة بخطوة، والذي يتضمن مثالاً تفصيليًا للكود. |  
 | [ملء النص في ملف PDF](./fill-stroke-text/) |تعرف على كيفية ملء نص الخطوط في ملفات PDF بسهولة باستخدام Aspose.PDF لـ .NET من خلال هذا الدليل خطوة بخطوة المليء بالأمثلة العملية. |  
 | [الحصول على العلامة المائية من ملف PDF](./get-watermark/) تعلّم كيفية استخراج العلامات المائية من ملفات PDF باستخدام Aspose.PDF لـ .NET من خلال دليل خطوة بخطوة. دليل تعليمي مفصل لاستخراج العلامات المائية.  
+| [إضافة طابع إلى PDF – تطبيق علامة مائية على الصفحة الأولى](./add-stamp-to-pdf-apply-watermark-pdf-on-first-page/) |تعرّف على كيفية إضافة طابع إلى ملف PDF وتطبيق علامة مائية على الصفحة الأولى باستخدام Aspose.PDF لـ .NET.|  
 | [الصورة ورقم الصفحة في قسم الرأس والتذييل](./image-and-page-number-in-header-footer-section/) |تعرف على كيفية إضافة صورة وأرقام الصفحات إلى رأس وتذييل ملف PDF الخاص بك باستخدام Aspose.PDF لـ .NET في هذا البرنامج التعليمي خطوة بخطوة. |  
 | [الصورة ورقم الصفحة في قسم الرأس والتذييل المضمن](./image-and-page-number-in-header-footer-section-inline/) |تعرف على كيفية إضافة صورة ورقم صفحة مضمنًا في قسم الرأس في ملف PDF باستخدام Aspose.PDF لـ .NET من خلال هذا الدليل خطوة بخطوة. |  
 | [الصورة في التذييل](./image-in-footer/) تعلّم كيفية إضافة صورة في تذييل ملف PDF باستخدام Aspose.PDF لـ .NET من خلال هذا البرنامج التعليمي المفصل خطوة بخطوة. مثالي لتحسين مستنداتك.  
@@ -45,6 +46,23 @@
 | [إضافة ترقيم بايتس إلى PDF في C# – دليل كامل](./add-bates-numbering-pdf-in-c-complete-guide/) | تعرف على كيفية إضافة ترقيم بايتس إلى ملفات PDF باستخدام Aspose.PDF لـ .NET في دليل شامل خطوة بخطوة. |
 | [كيفية إضافة Bates – دليل خطوة بخطوة لملفات PDF](./how-to-add-bates-step-by-step-guide-for-pdfs/) |تعرف على كيفية إضافة علامات Bates إلى ملفات PDF باستخدام Aspose.PDF لـ .NET من خلال دليل خطوة بخطوة. |
 | [تغيير شفافية PDF باستخدام Aspose.PDF – دليل C# كامل](./change-pdf-opacity-with-aspose-pdf-complete-c-guide/) |تعرف على كيفية تعديل شفافية ملفات PDF باستخدام Aspose.PDF في دليل شامل بلغة C# مع أمثلة عملية. |
+| [علامة مائية سرية لملف PDF باستخدام Aspose: إضافة طابع نصي إلى الصفحة الأولى](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) | تعلم كيفية إضافة طابع نصي كعلامة مائية سرية إلى الصفحة الأولى من ملف PDF باستخدام Aspose.PDF لـ .NET. |
+| [كيفية حفظ PDF — إضافة ترقيم Bates باستخدام Aspose.Pdf](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) | تعرف على طريقة حفظ ملفات PDF وإضافة ترقيم Bates باستخدام Aspose.PDF لـ .NET خطوة بخطوة مع أمثلة عملية. |
+| [إنشاء علامة مائية PDF – إضافة ختم وتحويل DOCX إلى PDF](./create-pdf-watermark-add-stamp-convert-docx-to-pdf/) | تعلم كيفية إنشاء علامة مائية PDF، إضافة ختم، وتحويل ملفات DOCX إلى PDF باستخدام Aspose.PDF لـ .NET. |
+| [إنشاء مستند PDF مع ترقيم بيثس في C# – دليل كامل](./create-pdf-document-with-bates-numbering-in-c-full-guide/) تعرّف على كيفية إضافة ترقيم بيثس إلى ملفات PDF باستخدام Aspose.PDF لـ .NET عبر دليل خطوة بخطوة مع أمثلة كود.  
+| [كيفية إضافة طابع إلى PDF باستخدام Aspose.Pdf – دليل خطوة بخطوة](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) |تعرف على طريقة إضافة طابع إلى ملفات PDF باستخدام Aspose.Pdf عبر دليل شامل خطوة بخطوة. |
+| [إنشاء إشعار صفحة كاملة في PDF – دليل سريع C#](./create-pdf-full-page-notice-quick-c-guide/) |تعلم كيفية إنشاء إشعار يغطي صفحة كاملة في ملف PDF باستخدام C# و Aspose.PDF خطوة بخطوة. |
+| [إضافة علامة مائية PDF في C# – دليل كامل مع Aspose](./add-watermark-pdf-in-c-complete-guide-with-aspose/) تعرّف على كيفية إضافة علامة مائية إلى ملفات PDF باستخدام Aspose.PDF لـ .NET في C# من خلال دليل شامل خطوة بخطوة.  
+| [إضافة ترقيم بايتس إلى ملفات PDF باستخدام C# – دليل كامل](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | تعرّف على كيفية إضافة ترقيم بايتس إلى ملفات PDF باستخدام Aspose.PDF لـ .NET مع مثال عملي خطوة بخطوة. |
+| [إضافة ترقيم Bates إلى ملفات PDF باستخدام Aspose – دليل كامل](./add-bates-numbering-to-pdfs-with-aspose-complete-guide/) | تعرّف على طريقة إضافة ترقيم Bates إلى ملفات PDF باستخدام Aspose.PDF لـ .NET مع شرح مفصل وأمثلة. |
+| [كيفية إضافة ترقيم بايتس في PDF باستخدام C# – دليل كامل](./how-to-add-bates-numbering-in-pdf-with-c-complete-guide/) | تعرّف على طريقة إضافة ترقيم بايتس إلى ملفات PDF باستخدام Aspose.PDF لـ .NET مع مثال كامل خطوة بخطوة. |
+| [إضافة ترقيم Bates إلى PDF – دليل كامل مع Aspose](./add-bates-numbering-pdf-complete-guide-with-aspose/) |تعرّف على طريقة إضافة ترقيم Bates إلى ملفات PDF باستخدام Aspose.PDF لـ .NET مع شرح مفصل وأمثلة عملية. |
+| [إضافة ترقيم ببيتس إلى PDF في C# – دليل خطوة بخطوة كامل](./add-bates-numbering-to-pdf-in-c-complete-step-by-step-guide/) |تعرف على كيفية إضافة ترقيم ببيتس إلى ملفات PDF باستخدام Aspose.PDF لـ .NET مع دليل شامل خطوة بخطوة. |  
+| [إنشاء علامة مائية نصية في Word باستخدام Aspose.Words – دليل كامل](./create-text-watermark-in-word-with-aspose-words-complete-gui/) | تعلم كيفية إضافة علامة مائية نصية إلى مستندات Word باستخدام Aspose.Words عبر دليل شامل خطوة بخطوة. |
+| [كيفية إضافة ختم PDF – دليل كامل مع ضبط النص تلقائيًا](./how-to-add-stamp-pdf-complete-guide-with-auto-fit-text/) |تعرف على طريقة إضافة ختم إلى ملفات PDF مع ضبط النص تلقائيًا باستخدام Aspose.PDF لـ .NET خطوة بخطوة.|  
+| [دروس ترقيم Bates: إضافة أرقام إلى PDF باستخدام Aspose](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) | تعلم كيفية إضافة ترقيم Bates إلى ملفات PDF باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |
+| [كيفية إضافة علامة مائية إلى PDF – إضافة طبقة نصية إلى PDF باستخدام Aspose](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) |تعرف على كيفية إضافة علامة مائية نصية إلى ملفات PDF باستخدام Aspose.PDF لـ .NET عبر دليل خطوة بخطوة. |
+| [إضافة الشفافية إلى PDF باستخدام Aspose.PDF – دليل C# كامل](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) | تعلم كيفية إضافة تأثير الشفافية إلى ملفات PDF باستخدام Aspose.PDF لـ .NET مع مثال كامل بلغة C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

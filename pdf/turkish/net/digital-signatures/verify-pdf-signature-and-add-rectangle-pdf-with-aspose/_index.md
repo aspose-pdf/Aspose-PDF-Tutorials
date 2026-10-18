@@ -23,17 +23,12 @@ title: Aspose ile PDF imzasını doğrula ve PDF'ye dikdörtgen ekle
 url: /tr/net/digital-signatures/verify-pdf-signature-and-add-rectangle-pdf-with-aspose/
 ---
 
-dikdörtgen ekleme". Keep same heading level.
 
-Proceed.
 
-Paragraphs.
 
-We'll translate accordingly.
 
-Make sure to keep code block placeholders unchanged.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

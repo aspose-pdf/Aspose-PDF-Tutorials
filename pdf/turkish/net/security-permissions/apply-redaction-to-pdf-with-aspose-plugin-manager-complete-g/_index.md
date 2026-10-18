@@ -24,15 +24,11 @@ title: Aspose Eklenti Yöneticisi ile PDF'ye Kırpma Uygulama – Tam Kılavuz
 url: /tr/net/security-permissions/apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/
 ---
 
-ın, iyi kodlamalar!"
 
-Then closing shortcodes.
 
-Now ensure we keep all shortcodes unchanged.
 
-Also ensure we keep code block placeholders unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

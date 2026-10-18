@@ -23,7 +23,7 @@ title: Zapisz PDF jako HTML – zachowaj wektory i wyłącz rasteryzację
 url: /pl/net/document-conversion/save-pdf-as-html-keep-vectors-disable-rasterization/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

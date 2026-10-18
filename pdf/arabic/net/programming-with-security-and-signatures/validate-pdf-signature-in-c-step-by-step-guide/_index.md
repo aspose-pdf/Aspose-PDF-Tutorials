@@ -25,11 +25,8 @@ title: تحقق من صحة توقيع PDF في C# – دليل خطوة بخط�
 url: /ar/net/programming-with-security-and-signatures/validate-pdf-signature-in-c-step-by-step-guide/
 ---
 
-text** keep bold but translate inside.
 
-Also blockquote > lines.
 
-Let's start.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

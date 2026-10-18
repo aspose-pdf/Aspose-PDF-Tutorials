@@ -18,6 +18,8 @@
 ## 可用教程
 
 
+
+{{< tutorial-card link="./create-pdf-x-3-document/" title="使用 Aspose.Pdf for .NET 建立具三頁的 PDF/X‑3 文件" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
 ### [使用 Aspose.PDF for .NET 建立 PDF 小冊子：逐步指南](./aspose-pdf-net-create-booklets-tutorial/)
 了解如何使用 Aspose.PDF for .NET 建立專業的 PDF 小冊子。本教程涵蓋設定、實作和實際應用。
 ### [使用 Aspose.PDF .NET 從 XML 和 XSLT 建立 PDF：逐步指南](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
@@ -67,12 +69,44 @@ Aspose.PDF Net 程式碼教學
 
 ### [使用 Aspose.PDF 建立 PDF 文件 – 新增頁面、形狀與儲存](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 了解如何使用 Aspose.PDF 在 PDF 中新增頁面與形狀，並將文件儲存。
-### [使用 Aspose.PDF 建立 PDF 文件：逐步指南](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
-了解如何使用 Aspose.PDF 逐步建立 PDF 文件，涵蓋設定、內容加入與儲存等關鍵步驟。
 ### [使用 Aspose 在 C# 中建立 PDF 文件：逐步指南](./create-pdf-document-with-aspose-in-c-step-by-step-guide/)
 了解如何在 C# 中使用 Aspose 建立 PDF 文件，從設定到儲存的完整步驟說明。
 ### [建立 PDF 文件 C# – 新增空白頁面與繪製矩形](./create-pdf-document-c-add-blank-page-draw-rectangle/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中建立 PDF，新增空白頁面並繪製矩形圖形。
+### [在 C# 中建立 PDF 文件 – 新增空白頁、標記與 Span](./create-pdf-document-in-c-add-blank-page-tags-and-span/)
+了解如何在 C# 中使用 Aspose.PDF for .NET 新增空白頁、設定標記與 Span，以建立 PDF 文件。
+
+### [如何在 C# 中建立 PDF – 新增頁面、繪製矩形並儲存](./how-to-create-pdf-in-c-add-page-draw-rectangle-save/)
+了解如何在 C# 使用 Aspose.PDF for .NET 新增空白頁、繪製矩形並儲存 PDF 文件。
+
+### [建立 PDF 文件 C# – 添加 Bates 編號指南](./create-pdf-document-c-add-bates-numbering-guide/)
+了解如何在 C# 中使用 Aspose.PDF 為 PDF 文件添加 Bates 編號，以便於文件追蹤與管理。
+
+### [建立 PDF 文件 – 新增空白頁面、繪製矩形並儲存](./create-pdf-document-add-blank-page-draw-rectangle-save/)
+了解如何使用 Aspose.PDF for .NET 建立 PDF，新增空白頁面、繪製矩形，最後儲存檔案。
+### [在 C# 中建立 PDF 文件 – 新增頁面至 PDF 並繪製矩形](./create-pdf-document-in-c-add-page-to-pdf-draw-rectangle/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中新增頁面並繪製矩形，以建立 PDF 文件。
+
+### [在 C# 中建立 PDF 文件 – 完整的記憶體內生成指南](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
+了解如何在 C# 中使用 Aspose.PDF 於記憶體內即時產生 PDF 文件，涵蓋設定、內容加入與儲存。
+
+### [使用 Aspose.PDF 建立 PDF 文件：逐步指南](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+了解如何使用 Aspose.PDF 逐步建立 PDF 文件，涵蓋設定、內容加入與儲存等關鍵步驟。
+
+### [使用 Aspose.PDF 建立 PDF 文件 – 完整 C# 指南](./create-pdf-document-with-aspose-pdf-full-c-guide/)
+了解如何使用 Aspose.PDF 於 C# 完整建立 PDF 文件，涵蓋設定、內容加入與儲存等步驟。
+### [使用 Aspose.PDF for .NET 建立 PDF 文件（C#） – 逐步指南：新增空白頁面並繪製矩形](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中建立 PDF 文件，新增空白頁面並繪製矩形。
+### [從 HEIC 建立 PDF 圖像 – 完整 C# 指南](./create-pdf-image-from-heic-complete-c-guide/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中將 HEIC 圖像轉換為 PDF，涵蓋設定與完整範例。
+### [使用 Aspose.PDF 建立 PDF 文件：完整逐步指南](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+了解如何使用 Aspose.PDF 逐步建立 PDF 文件，涵蓋設定、內容加入與儲存等關鍵步驟。
+### [使用 C# 建立帶有 Bates 編號的 PDF 文件](./create-new-pdf-document-with-bates-numbering-in-c/)
+了解如何在 C# 中使用 Aspose.PDF 為 PDF 文件添加 Bates 編號。
+
+### [使用 C# 建立 PDF/X‑4 文件 – 逐步指南](./create-pdf-x-4-document-c-step-by-step-guide/)
+了解如何使用 Aspose.PDF for .NET 以 C# 建立符合 PDF/X‑4 標準的文件。
+
 ## 其他資源
 
 - [Aspose.PDF 用於網頁文檔](https://docs.aspose.com/pdf/net/)

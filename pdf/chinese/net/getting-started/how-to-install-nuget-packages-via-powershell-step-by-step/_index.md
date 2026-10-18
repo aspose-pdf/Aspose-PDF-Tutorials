@@ -20,9 +20,7 @@ title: 如何通过 PowerShell 安装 NuGet 包 – 步骤指南
 url: /zh/net/getting-started/how-to-install-nuget-packages-via-powershell-step-by-step/
 ---
 
-.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

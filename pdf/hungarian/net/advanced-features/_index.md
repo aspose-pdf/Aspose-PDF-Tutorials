@@ -62,10 +62,22 @@ Ismerje meg, hogyan használható az Aspose.PDF for .NET az akadálymentes PDF d
 ### [Akadálymentes PDF-készítés elsajátítása az Aspose.PDF .NET segítségével: Címkézett PDF-ek készítése stílusos táblázatokkal](./aspose-pdf-net-tagged-pdfs-styled-tables/)
 Tanulj meg akadálymentes, stílusos, címkézett PDF dokumentumokat készíteni az Aspose.PDF for .NET segítségével. Sajátítsd el a strukturált táblázatokkal és fokozott akadálymentesítéssel rendelkező, szabványos PDF dokumentumok létrehozását.
 
-### [Hogyan hasonlítsuk össze a PDF-eket C#-ban – Teljes útmutató a PDF-diff generálásához](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
+### [Hogyan hasonlítsuk össze a PDF-ek C#-ban – Teljes útmutató a PDF-diff generálásához](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
 Ismerje meg, hogyan hozhat létre PDF-összehasonlító megoldást C#-ban az Aspose.PDF segítségével, és generáljon PDF-diff fájlokat.
 ### [PDF átlátszóság szerkesztése C#-ban – Lépésről lépésre útmutató](./edit-pdf-transparency-in-c-step-by-step-guide/)
 Tanulja meg, hogyan módosíthatja a PDF átlátszósági beállításait C#-ban az Aspose.PDF for .NET segítségével.
+
+### [OCR futtatása PDF-en az Aspose.Pdf használatával – Teljes C# útmutató](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
+Ismerje meg, hogyan alkalmazhat OCR-t PDF-fájlokon az Aspose.Pdf segítségével C#-ban, a teljes folyamatot bemutatva.
+
+### [Minden PDF réteg mentése az Aspose.Pdf segítségével – Lépésről‑lépésre útmutató](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
+Ismerje meg, hogyan menthet különálló PDF rétegeket az Aspose.Pdf .NET könyvtárral, részletes lépésekkel és kódrészletekkel.
+
+### [PDF-dokumentumok összehasonlítása az Aspose.Pdf használatával – Teljes vizuális diff útmutató](./compare-pdf-documents-with-aspose-pdf-complete-visual-diff-g/)
+Ismerje meg, hogyan hasonlíthatja össze a PDF-fájlokat C#-ban az Aspose.Pdf vizuális diff funkciójával.
+
+### [Két PDF dokumentum összehasonlítása – Teljes C# útmutató](./compare-two-pdf-documents-complete-c-guide/)
+Ismerje meg, hogyan hasonlíthatja össze a PDF-dokumentumokat C#-ban az Aspose.PDF segítségével, és generáljon PDF-diff fájlokat.
 
 ## További források
 

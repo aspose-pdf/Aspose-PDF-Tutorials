@@ -23,11 +23,9 @@ title: Návod na PDF podpis – Ověřte PDF podpisy v C# pomocí Aspose.Pdf
 url: /cs/net/digital-signatures/pdf-signature-tutorial-verify-pdf-signatures-in-c-with-aspos/
 ---
 
-markdown is part of alt attribute; we changed it.
 
-Make sure we didn't translate code block placeholders.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
