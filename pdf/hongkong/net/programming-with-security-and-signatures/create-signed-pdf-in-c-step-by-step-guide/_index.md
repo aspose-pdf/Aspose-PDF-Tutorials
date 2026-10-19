@@ -22,11 +22,8 @@ title: 在 C# 中建立已簽署的 PDF – 逐步指南
 url: /zh-hant/net/programming-with-security-and-signatures/create-signed-pdf-in-c-step-by-step-guide/
 ---
 
-_BLOCK_0}} etc.
 
-Also keep the blockquote formatting.
 
-Let's assemble.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

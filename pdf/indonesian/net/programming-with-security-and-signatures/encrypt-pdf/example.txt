@@ -1,0 +1,40 @@
+//ExStart
+//ExSummary: Tutorial ini menunjukkan cara memuat PDF yang sudah ada dengan Aspose.Pdf, membatasi izinnya, mengenkripsinya menggunakan password pengguna (klien) dan pemilik (admin) dengan algoritma AES‑256, dan menyimpan dokumen yang dilindungi.
+//ExStepSummary:0: Deklarasikan jalur file sumber dan tujuan serta password pengguna (klien) dan pemilik (admin).
+//ExStepSummary:1: Periksa apakah PDF sumber ada dan batalkan dengan pesan error jika tidak ada.
+//ExStepSummary:2: Buka PDF, izinkan hanya modifikasi konten dan ekstraksi, enkripsi dengan dua password menggunakan AES‑256, simpan file yang dilindungi, dan tampilkan pesan sukses.
+//ExStepSummary:3: Tangkap semua error yang terjadi dan tulis pesan pengecualian ke konsol error.
+//ExStep:0-
+const string sourceFile = "original.pdf";
+const string destinationFile = "protected.pdf";
+const string clientPwd = "clientPwd";
+const string adminPwd = "adminPwd";
+
+//ExStep:1-
+if (!File.Exists(sourceFile))
+{
+    Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+    return;
+}
+
+//ExStep:2-
+try
+{
+    using (Document pdfDoc = new Document(sourceFile))
+    {
+        Permissions allowedPerms = Permissions.ModifyContent | Permissions.ExtractContent;
+
+        pdfDoc.Encrypt(clientPwd, adminPwd, allowedPerms, CryptoAlgorithm.AESx256);
+
+        pdfDoc.Save(destinationFile);
+    }
+
+    Console.WriteLine($"Secured PDF written to '{destinationFile}'.");
+}
+
+//ExStep:3-
+catch (Exception ex)
+{
+    Console.Error.WriteLine($"Failure: {ex.Message}");
+}
+//ExEnd

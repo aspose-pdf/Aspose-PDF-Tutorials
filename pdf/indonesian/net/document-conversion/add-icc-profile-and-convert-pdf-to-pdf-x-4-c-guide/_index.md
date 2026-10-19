@@ -21,11 +21,8 @@ title: Tambahkan profil ICC dan konversi PDF ke PDF/X‑4 – Panduan C#
 url: /id/net/document-conversion/add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/
 ---
 
-to keep code block placeholders unchanged.
 
-Also ensure markdown formatting preserved.
 
-Let's write translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

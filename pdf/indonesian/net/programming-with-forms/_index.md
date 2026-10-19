@@ -23,36 +23,73 @@ Tutorial ini juga menyediakan contoh kode terperinci, penjelasan yang jelas, dan
 Bahasa Indonesia: --- | --- Bahasa Indonesia: 
 | [Tambahkan Tooltip ke Bidang](./add-tooltip-to-field/) | Pelajari cara menambahkan tooltip ke kolom formulir dalam dokumen PDF menggunakan Aspose.PDF for .NET dalam panduan langkah demi langkah ini. Tingkatkan kegunaan dan pengalaman pengguna. Bahasa Indonesia:  
 | [Pengisian Teks Bahasa Arab](./arabic-text-filling/) | Pelajari cara mengisi teks Arab dalam formulir PDF menggunakan Aspose.PDF for .NET dengan tutorial langkah demi langkah ini. Tingkatkan keterampilan manipulasi PDF Anda. Bahasa Indonesia:  
-| [Kotak Kombo](./combo-box/) | Pelajari cara menambahkan Kotak Kombo ke PDF menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah kami untuk membuat formulir PDF interaktif dengan mudah. Bahasa Indonesia:  
+| [Kotak Kombo](./combo-box/) Pelajari cara menambahkan Kotak Kombo ke PDF menggunakan Aspose.PDF untuk .NET. Ikuti panduan langkah demi langkah kami untuk membuat formulir PDF interaktif dengan mudah. Bahasa Indonesia:  
 | [Buat Dokumen](./create-doc/) | Pelajari cara membuat dokumen PDF interaktif dengan tombol radio menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah yang komprehensif ini. Bahasa Indonesia:  
 | [Hapus Bidang Formulir Dalam Dokumen PDF](./delete-form-field/) | Pelajari cara menghapus kolom formulir dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Sempurna untuk pengembang dan penggemar PDF. Bahasa Indonesia:  
 | [Tentukan Bidang yang Diperlukan dalam Formulir PDF](./determine-required-field/) | Pelajari cara menentukan bidang yang diperlukan dalam formulir PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah kami menyederhanakan pengelolaan formulir dan meningkatkan alur kerja otomatisasi PDF Anda. Bahasa Indonesia:  
 | [XFA Dinamis ke Bentuk Akro](./dynamic-xfa-to-acro-form/) | Pelajari cara mengonversi formulir XFA dinamis ke AcroForms standar menggunakan Aspose.PDF untuk .NET dalam tutorial langkah demi langkah ini. Bahasa Indonesia:  
-| [Isi Kolom Formulir PDF](./fill-form-field/) | Pelajari cara mengisi kolom formulir PDF menggunakan Aspose.PDF for .NET dengan tutorial langkah demi langkah ini. Otomatiskan tugas PDF Anda dengan mudah. Bahasa Indonesia:  
+| [Isi Kolom Formulir PDF](./fill-form-field/) Pelajari cara mengisi kolom formulir PDF menggunakan Aspose.PDF for .NET dengan tutorial langkah demi langkah ini. Otomatiskan tugas PDF Anda dengan mudah. Bahasa Indonesia:  
 | [Isi XFAFields](./fill-xfafields/) | Pelajari cara mengisi kolom XFA dalam PDF secara terprogram menggunakan Aspose.PDF for .NET dengan tutorial langkah demi langkah ini. Temukan alat manipulasi PDF yang sederhana dan canggih. Bahasa Indonesia:  
 | [Ratakan Formulir Dalam Dokumen PDF](./flatten-forms/) | Pelajari cara meratakan formulir dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Amankan data Anda dengan mudah. Bahasa Indonesia:  
 | [Formulir Bidang Font 14](./form-field-font-14/) | Pelajari cara mengubah fon bidang formulir dalam dokumen PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah dengan contoh kode dan kiat untuk formulir PDF yang lebih baik. Bahasa Indonesia:  
 | [Dapatkan Koordinat Bidang Formulir PDF](./get-coordinates/) | Buka kunci manipulasi PDF dengan Aspose.PDF untuk .NET! Pelajari cara mengambil koordinat kolom formulir hanya dalam beberapa langkah mudah. Bahasa Indonesia:  
-| [Dapatkan Bidang Dari Wilayah Dalam File PDF](./get-fields-from-region/) | Pelajari cara mengekstrak bidang dari wilayah tertentu dalam file PDF dengan mudah menggunakan Aspose.PDF untuk .NET dalam panduan komprehensif ini. Bahasa Indonesia:  
+| [Dapatkan Bidang Dari Wilayah Dalam File PDF](./get-fields-from-region/) Pelajari cara mengekstrak bidang dari wilayah tertentu dalam file PDF dengan mudah menggunakan Aspose.PDF untuk .NET dalam panduan komprehensif ini. Bahasa Indonesia:  
 | [Dapatkan Nilai Dari Bidang Dalam Dokumen PDF](./get-value-from-field/) | Pelajari cara mudah mengekstrak nilai dari bidang formulir dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan tutorial langkah demi langkah ini. Bahasa Indonesia:  
 | [Dapatkan Nilai Dari Semua Bidang Dalam Dokumen PDF](./get-values-from-all-fields/) | Pelajari cara mengekstrak nilai dari semua bidang dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Bahasa Indonesia:  
 | [Dapatkan XFAProperties](./get-xfaproperties/) | Pelajari cara mengambil properti XFA menggunakan Aspose.PDF untuk .NET dalam tutorial lengkap ini. Panduan langkah demi langkah disertakan. Bahasa Indonesia:  
 | [Kotak Centang yang Dikelompokkan dalam Dokumen PDF](./grouped-check-boxes/) | Pelajari cara membuat kotak centang yang dikelompokkan (tombol radio) dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan tutorial langkah demi langkah ini. Bahasa Indonesia:  
-| [Tombol Radio Horizontal dan Vertikal](./horizontally-and-vertically-radio-buttons/) | Pelajari cara membuat tombol radio yang selaras secara horizontal dan vertikal dalam PDF menggunakan Aspose.PDF untuk .NET dengan tutorial langkah demi langkah ini. Bahasa Indonesia:  
+| [Tombol Radio Horizontal dan Vertikal](./horizontally-and-vertically-radio-buttons/) Pelajari cara membuat tombol radio yang selaras secara horizontal dan vertikal dalam PDF menggunakan Aspose.PDF untuk .NET dengan tutorial langkah demi langkah ini. Bahasa Indonesia:  
 | [Ubah Bidang Formulir Dalam Dokumen PDF](./modify-form-field/) | Pelajari cara mengubah kolom formulir dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Sempurna bagi pengembang yang ingin meningkatkan fungsionalitas PDF. Bahasa Indonesia:  
 | [Pindahkan Bidang Formulir](./move-form-field/) | Pelajari cara memindahkan kolom formulir dalam dokumen PDF menggunakan Aspose.PDF for .NET dengan panduan ini. Ikuti tutorial terperinci ini untuk mengubah lokasi kotak teks dengan mudah. Bahasa Indonesia:  
 | [Pertahankan Hak](./preserve-rights/) | Pertahankan hak formulir dalam dokumen PDF Anda dengan Aspose.PDF untuk .NET. Bahasa Indonesia:  
 | [Tombol Radio](./radio-button/) | Pelajari cara membuat tombol radio interaktif dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan tutorial langkah demi langkah ini. Bahasa Indonesia:  
-| [Tombol Radio Dengan Opsi](./radio-button-with-options/) | Manfaatkan potensi PDF interaktif dengan menambahkan tombol radio menggunakan Aspose.PDF untuk .NET. Buat formulir yang menarik dengan mudah dan tingkatkan pengalaman pengguna. Bahasa Indonesia:  
+| [Tombol Radio Dengan Opsi](./radio-button-with-options/) Manfaatkan potensi PDF interaktif dengan menambahkan tombol radio menggunakan Aspose.PDF untuk .NET. Buat formulir yang menarik dengan mudah dan tingkatkan pengalaman pengguna. Bahasa Indonesia:  
 | [Ambil Bidang Formulir Dalam Urutan Tab](./retrieve-form-field-in-tab-order/) | Pelajari cara mengambil dan mengubah bidang formulir dalam urutan tab menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah dengan contoh kode untuk menyederhanakan navigasi formulir PDF. Bahasa Indonesia:  
 | [Pilih Tombol Radio Dalam Dokumen PDF](./select-radio-button/) | Pelajari cara memilih tombol radio dalam dokumen PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. Otomatiskan interaksi formulir dengan mudah. Bahasa Indonesia:  
 | [Tetapkan Batas Bidang](./set-field-limit/) | Pelajari cara menetapkan batas bidang dalam formulir PDF menggunakan Aspose.PDF untuk .NET dengan tutorial langkah demi langkah ini. Tingkatkan pengalaman pengguna dan integritas data. Bahasa Indonesia:  
 | [Atur Java Script](./set-java-script/) | Manfaatkan kekuatan Aspose.PDF untuk .NET. Pelajari cara mengatur JavaScript pada kolom formulir dengan panduan langkah demi langkah kami. Bahasa Indonesia:  
+| [Mengatur Judul Tombol Radio](./set-radio-button-caption/) Pelajari cara mengatur teks tombol radio dalam PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini memandu Anda dalam memuat, memodifikasi, dan menyimpan formulir PDF. Bahasa Indonesia:  
 | [Kotak Teks](./text-box/) | Temukan cara mudah menambahkan kotak teks ke PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah ini. Tingkatkan interaksi pengguna. |
+| [Buat Dokumen PDF dengan Aspose – Tambahkan Kotak Teks](./create-pdf-document-with-aspose-add-text-box-field/) | Pelajari cara menambahkan bidang kotak teks ke dokumen PDF menggunakan Aspose.PDF for .NET dalam panduan langkah demi langkah ini. |
+| [Tambahkan Kotak Teks ke Formulir PDF – Panduan Lengkap C#](./add-text-box-to-pdf-form-complete-c-guide/) | Pelajari cara menambahkan kotak teks ke formulir PDF menggunakan Aspose.PDF for .NET dengan panduan lengkap C# langkah demi langkah. |
+| [Buat Kolom Teks PDF – Panduan Langkah demi Langkah](./create-pdf-textbox-field-step-by-step-guide/) | Pelajari cara membuat kolom teks dalam PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. |
 | [Cara Membuat PDF dengan Aspose – Tambahkan Bidang Formulir dan Halaman](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Pelajari cara membuat PDF, menambahkan bidang formulir, dan menambah halaman menggunakan Aspose.PDF for .NET. |
+| [Buat Dokumen PDF dengan Beberapa Widget – Panduan Langkah‑demi‑Langkah](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) | Pelajari cara membuat dokumen PDF dengan beberapa widget menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah ini. Bahasa Indonesia: |
+| [Buat PDF dengan Halaman dan Kolom Kotak Teks – Panduan Lengkap C#](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Pelajari cara membuat PDF dengan halaman dan bidang kotak teks menggunakan Aspose.PDF for .NET dalam panduan lengkap C#. Bahasa Indonesia:  
+| [Buat Dokumen PDF C# – Panduan Langkah-demi-Langkah untuk Formulir Multi‑Halaman](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Pelajari cara membuat dokumen PDF multi‑halaman dengan formulir menggunakan Aspose.PDF for .NET dalam panduan langkah demi langkah ini. Bahasa Indonesia:  
+| [Buat Formulir Multi Halaman di C# dengan Aspose.Pdf – Panduan Langkah‑per‑Langkah](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | Pelajari cara membuat formulir PDF multi halaman menggunakan Aspose.PDF untuk .NET dengan contoh kode C# langkah demi langkah. |
+| [Impor FDF ke PDF dengan C# – Panduan Lengkap Langkah demi Langkah](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Pelajari cara mengimpor file FDF ke PDF menggunakan C# dengan panduan langkah demi langkah lengkap. Bahasa Indonesia:  
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
+| [Cara Membuat PDF dengan Aspose – Tambahkan Bidang ke Koleksi](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Pelajari cara menambahkan bidang ke koleksi dalam PDF menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah ini. |
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Menambahkan Bates Numbers ke PDF – Panduan Langkah‑demi‑Langkah C#](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Pelajari cara menambahkan Bates Numbers ke file PDF menggunakan Aspose.PDF for .NET dengan panduan langkah demi langkah dalam C#. |
 | [Buat Dokumen PDF dengan Beberapa Widget Kotak Teks – Panduan Langkah‑demi‑Langkah](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Pelajari cara membuat dokumen PDF dengan beberapa widget kotak teks menggunakan Aspose.PDF untuk .NET dalam panduan langkah demi langkah ini. |
-| [Mengatur Judul Tombol Radio](./set-radio-button-caption/) Pelajari cara mengatur teks tombol radio dalam PDF menggunakan Aspose.PDF untuk .NET. Panduan langkah demi langkah ini memandu Anda dalam memuat, memodifikasi, dan menyimpan formulir PDF. Bahasa Indonesia:  
 | [Cara Menambahkan Kotak Teks PDF – Membuat Kolom Formulir PDF & Menyimpan Dokumen PDF yang Diedit](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Pelajari cara menambahkan kotak teks ke formulir PDF, membuat bidang formulir, dan menyimpan dokumen PDF yang telah diedit menggunakan Aspose.PDF for .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -62,3 +99,4 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+

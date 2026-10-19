@@ -23,15 +23,11 @@ title: Vytvořte PDF dokument v C# – průvodce krok za krokem
 url: /cs/net/document-creation/create-pdf-document-in-c-step-by-step-guide/
 ---
 
-top button.
 
-Now produce final content with translation.
 
-Check for any missed items: The blockquote lines have bullet list; we translated.
 
-Make sure to keep markdown formatting: headings, blockquote, lists.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -1,0 +1,11 @@
+//ExStart
+//ExSummary: このチュートリアルでは、PDF SDK のページ回転機能を使用して、PDF ドキュメントの3ページ目を180度回転させる方法を示します。
+//ExStepSummary:0: このファイルは説明コメントのみで実行可能なコードは含まれておらず、元のサンプルのプレースホルダーとして機能します。
+//ExStep:0-
+// Placeholder for the original example URL.
+// Demonstrates rotating the third page of a PDF by 180 degrees.
+// The functional implementation has been moved to a different repository.
+// This file preserves the original link for legacy references.
+
+        // No operational code required for this placeholder.
+//ExEnd

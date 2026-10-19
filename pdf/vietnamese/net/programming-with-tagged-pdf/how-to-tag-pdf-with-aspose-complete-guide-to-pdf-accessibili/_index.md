@@ -24,15 +24,10 @@ title: Cách gắn thẻ PDF bằng Aspose – Hướng dẫn toàn diện về 
 url: /vi/net/programming-with-tagged-pdf/how-to-tag-pdf-with-aspose-complete-guide-to-pdf-accessibili/
 ---
 
-..." translate.
 
-We'll translate all.
 
-Make sure to keep bold formatting.
 
-Proceed step by step.
 
-Will produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

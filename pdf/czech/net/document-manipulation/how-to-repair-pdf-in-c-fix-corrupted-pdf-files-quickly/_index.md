@@ -24,13 +24,10 @@ title: Jak opravit PDF v C# – Rychle opravit poškozené PDF soubory
 url: /cs/net/document-manipulation/how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/
 ---
 
-same incomplete phrase.
 
-Now ensure we preserve shortcodes at start and end.
 
-At the end after tutorial-page-section close, there is a backtop button shortcode. Keep.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

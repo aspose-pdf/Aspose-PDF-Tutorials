@@ -1,0 +1,11 @@
+//ExStart
+//ExSummary: 本教學示範如何使用 PDF SDK 的頁面旋轉功能，將 PDF 文件的第三頁旋轉 180 度。
+//ExStepSummary:0: 此檔案僅包含說明性註解，沒有可執行程式碼，作為原始範例的佔位符。
+//ExStep:0-
+// Placeholder for the original example URL.
+// Demonstrates rotating the third page of a PDF by 180 degrees.
+// The functional implementation has been moved to a different repository.
+// This file preserves the original link for legacy references.
+
+        // No operational code required for this placeholder.
+//ExEnd

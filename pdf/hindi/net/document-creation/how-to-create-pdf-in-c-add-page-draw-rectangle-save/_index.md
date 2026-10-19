@@ -22,25 +22,16 @@ title: C# में PDF कैसे बनाएं – पेज जोड़�
 url: /hi/net/document-creation/how-to-create-pdf-in-c-add-page-draw-rectangle-save/
 ---
 
-The snippet above is a self‑contained, production‑ready starting point you can adapt to any .NET project."
 
-Translate.
 
-Paragraph: "Give it a try, tweak the rectangle dimensions, drop in some text, and watch your PDF come alive. If you run into quirks, the Aspose forums and documentation are great companions, but most everyday scenarios are handled by the patterns shown here."
 
-Translate.
 
-Paragraph: "Happy coding, and may your PDFs always render exactly as you imagined!"
 
-Translate.
 
-Then closing shortcodes.
 
-Now produce final content.
 
-Be careful to keep markdown formatting exactly.
 
-Let's write final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

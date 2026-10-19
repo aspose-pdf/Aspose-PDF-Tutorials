@@ -24,11 +24,8 @@ title: Cách trích xuất chữ ký từ PDF bằng C# – Hướng dẫn từn
 url: /vi/net/digital-signatures/how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/
 ---
 
-Let's translate.
 
-I'll write Vietnamese.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

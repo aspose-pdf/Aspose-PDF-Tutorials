@@ -24,9 +24,8 @@ title: PDF-fájlok javítása – Lépésről lépésre útmutató az Aspose.Pdf
 url: /hu/net/programming-with-document/how-to-repair-pdf-files-step-by-step-guide-using-aspose-pdf/
 ---
 
-block placeholders.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

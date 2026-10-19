@@ -23,9 +23,7 @@ title: Optimera PDF-bilder – minska PDF-filens storlek med C#
 url: /sv/net/performance-optimization/optimize-pdf-images-reduce-pdf-file-size-with-c/
 ---
 
-closing shortcodes.
 
-Now produce final output with all content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -17,6 +17,13 @@ Aspose.PDF .NETの詳細なチュートリアルで、PDFドキュメントの�
 
 ## 利用可能なチュートリアル
 
+
+{{< tutorial-card link="./compare-pdfs/" title="Aspose.PDF for .NET を使用して PDF を比較し、ハイライトされた diff ドキュメントを生成する" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdf-forms/" title="Aspose.Pdf for .NET を使用して PDF フォームを比較し、JSON とビジュアル差分を生成する" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
+
+{{< tutorial-card link="./exclude-areas/" title="Aspose.Pdf for .NET を使用して特定領域を無視しながら PDF を比較する" imgSrc="./exclude-areas/images/thumb.png" >}}
+
 ### [Aspose.PDF for .NET を使用して PDF に日付と時刻のスタンプを追加する](./aspose-pdf-net-date-time-stamps-annotations/)
 Aspose.PDF for .NET を使用して、PDF ドキュメントに日付と時刻のスタンプや注釈を効率的に追加する方法を学びましょう。これらの簡単な手順でドキュメント管理を強化しましょう。
 
@@ -37,6 +44,9 @@ Aspose.PDF for .NET を使用して PDF ドキュメントに改ページを追�
 
 ### [Aspose.PDF .NET で四角形を追加して PDF ページを構成する: 包括的なガイド](./aspose-pdf-net-add-rectangles-configure-pages/)
 Aspose.PDF for .NET を使用して、PDF に四角形を追加し、ページを構成する方法を習得します。このガイドに従って、ドキュメント操作のテクニックを効果的に習得しましょう。
+
+### [C# で PDF に四角形を追加する – 完全プログラミングガイド](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
+Aspose.PDF for .NET を使用して、C# で PDF に四角形を追加し、ページレイアウトをカスタマイズする方法をステップバイステップで学びます。
 
 ### [Aspose.PDF .NET: PDF の余白の設定とヘッダー/フッターのカスタマイズ](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 Aspose.PDF for .NET を使って、PDF のページ余白の設定やヘッダー/フッターのカスタマイズをマスターしましょう。この詳細なガイドに従って、ドキュメントレイアウトの一貫性を高めましょう。
@@ -63,7 +73,7 @@ C#でAspose.PDFを使用してPDF内のフィールドを効率的にコピー�
 Aspose.PDF for .NETのN-Up機能を使って、複数のPDFファイルを1つに結合する方法を学びましょう。この包括的なガイドに従って、ドキュメント処理を効率化しましょう。
 
 ### [Aspose.PDF を使用して .NET で N-Up ページを作成する: 包括的なガイド](./create-n-up-pages-aspose-pdf-dotnet/)
-Aspose.PDF for .NET を使って、単一ページから複数ページ（N-Up）の PDF ドキュメントを作成する方法を学びましょう。ドキュメント処理ワークフローを効率的に合理化します。
+Aspose.PDF for .NET を使って、単一ページから�数ページ（N-Up）の PDF ドキュメントを作成する方法を学びましょう。ドキュメント処理ワークフローを効率的に合理化します。
 
 ### [Aspose.PDF .NET で N-up PDF レイアウトを作成する](./create-nup-pdf-layout-aspose-pdf-net/)
 Aspose.PDF Net のコードチュートリアル
@@ -76,6 +86,9 @@ Aspose.PDF for .NET を使用して PDF ページをカスタマイズする方�
 
 ### [効率的な PDF 最適化: Aspose.PDF for .NET を使用して未使用オブジェクトを削除する](./optimize-pdf-aspose-pdf-net-remove-unused-objects/)
 Aspose.PDF for .NET を使用して未使用のオブジェクトを削除し、ファイル サイズとパフォーマンスを改善することで PDF を最適化する方法を学習します。
+
+### [Aspose.PDF for .NET を使用して PDF の埋め込みフォントを削除する – ステップバイステップ C# ガイド](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
+Aspose.PDF for .NET を使用して、PDF から埋め込みフォントを削除し、ファイルサイズを削減する方法を学びましょう。ステップバイステップで解説します。
 
 ### [Aspose.PDF for .NET による効率的な PDF ページ操作: 開発者ガイド](./manipulate-pdf-pages-aspose-dot-net/)
 Aspose.PDF for .NET を使用してPDFページを効率的に操作する方法を学びます。このガイドでは、Adobe Acrobat を使わずに回転、ズーム、原点の設定を行う方法について説明します。
@@ -140,6 +153,12 @@ Aspose.PDF for .NET を使用して、PDF のページサイズを効率的に�
 ### [Aspose.PDF for .NET で PDF を連結する方法: 完全ガイド](./concatenate-pdfs-aspose-pdf-dotnet-guide/)
 Aspose.PDF for .NET を使用して複数のPDFファイルを結合する方法を学びましょう。この包括的なガイドでは、セットアップ、実装、そして実用的なアプリケーションを網羅しています。
 
+### [Aspose.PDF for .NET を使用して空白ページを含む PDF を連結する方法: 完全ガイド](./concatenate-pdfs-blank-pages-aspose-pdf-net/)
+Aspose.PDF for .NET を使用して PDF ファイルを結合し、空白ページを追加する方法を学びます。ドキュメント管理ワークフローを効率的に合理化します。
+
+### [.NET と Aspose.PDF を使用して PDF に空白ページを連結して挿入する方法](./master-net-pdf-manipulation-concatenate-insert-blank-pages-asposepdf/)
+Aspose.PDFとC#を使ってPDFドキュメントを連結し、空白ページを挿入する方法を学びましょう。ドキュメント管理ワークフローを簡単に効率化できます。
+
 ### [Aspose.PDF for .NET を使用して PDF のページ サイズを A4 に変換する方法 | ドキュメント操作ガイド](./update-pdf-page-dimensions-aspose-net/)
 Aspose.PDF for .NET を使用して、PDF のページサイズを A4 に更新する方法を学びましょう。このステップバイステップのガイドに従って、ドキュメントを効率的に標準化しましょう。
 
@@ -179,6 +198,9 @@ Aspose.PDF for .NET を使用して、PDF ドキュメントをカスタム CSS 
 ### [Aspose.PDF for .NET を使用して PDF からすべてのブックマークを削除する方法](./remove-all-bookmarks-pdf-aspose-dotnet/)
 Aspose.PDF for .NET を使用して PDF ドキュメントからすべてのブックマークを効率的に削除し、ドキュメント管理を効率化し、セキュリティを強化する方法を学習します。
 
+### [Aspose.PDF for .NET を使用して PDF からフォントを削除する: ステップバイステップ ガイド](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
+Aspose.PDF for .NET を利用し、PDF ドキュメントから不要なフォントを削除してファイルサイズを最適化する方法をステップバイステップで解説します。
+
 ### [Aspose.PDF .NET を使って PDF からすべてのテキストを削除する方法](./remove-text-aspose-pdf-net-tutorial/)
 Aspose.PDF .NET を使用して、PDF からすべてのテキストを効率的に削除する方法を学びましょう。機密データの保護やドキュメントの整理に最適です。
 
@@ -203,7 +225,7 @@ Aspose.PDF for .NET を使用して、PDF ファイル内のリンクをプロ�
 ### [Aspose.PDF .NET を使用して PDF リンクのテキストの色を更新する方法: 完全ガイド](./update-pdf-link-text-color-aspose-net/)
 Aspose.PDF for .NET を使って、PDF 内のリンクのテキスト色を簡単に変更する方法を学びましょう。この包括的なガイドでは、インストール、実装、最適化のヒントを網羅しています。
 
-### [Aspose.PDF for .NET を使用して PDF にページを挿入する: ドキュメント操作の完全ガイド](./insert-pages-pdf-aspose-dotnet-guide/)
+### [Aspose.PDF for .NET を使用して PDF にページを挿入する方法: ドキュメント操作の完全ガイド](./insert-pages-pdf-aspose-dotnet-guide/)
 Aspose.PDF for .NET を使用してPDFにページを挿入する方法を学びましょう。このステップバイステップガイドでは、セットアップから実装まですべてを網羅しており、C#開発者に最適です。
 
 ### [Aspose.PDF for .NET を使用して PDF にページを挿入する: シームレスなドキュメント操作の総合ガイド](./aspose-pdf-net-insert-pages-between-numbers/)
@@ -255,12 +277,12 @@ Aspose.PDF Net のコードチュートリアル
 Aspose.PDF for .NET を使用して、表や画像を使った動的なPDFヘッダーを作成する方法を学びましょう。ドキュメントのデザインを簡単に強化できます。
 
 ### [Aspose.PDF for .NET で PDF 連結をマスターする: 総合ガイド](./mastering-pdf-concatenation-aspose-net-guide/)
-Aspose.PDF for .NET を使用して複数の PDF ファイルをシームレスに連結する方法を学びましょう。このガイドでは、セットアップ、連結、破損したファイルの処理について説明します。
+Aspose.PDF for .NET を使用して�数の PDF ファイルをシームレスに連結する方法を学びましょう。このガイドでは、セットアップ、連結、破損したファイルの処理について説明します。
 
 ### [PDF 管理をマスターする: Aspose.PDF .NET による効率的なページ方向、色、空白検出](./aspose-pdf-net-page-orientation-color-blank-detection/)
 Aspose.PDF for .NET を使用して、ページの向きを変更したり、白色を検出したり、空白ページを識別したりすることで、PDF ドキュメントを効率的に管理する方法を学習します。
 
-### [PDF操作をマスターする：Aspose.PDF for .NETの包括的なガイド](./aspose-pdf-net-manipulation-guide/)
+### [PDF操作をマスターする：Aspose.PDF .NETの包括的なガイド](./aspose-pdf-net-manipulation-guide/)
 Aspose.PDF for .NET を使ってPDFを効率的に操作する方法を学びましょう。セットアップから高度な機能まで、このガイドではドキュメント自動化に必要なすべてを網羅しています。
 
 ### [PDF操作をマスターする：正規表現検索とドキュメント処理のためのAspose.PDF .NET](./aspose-pdf-net-regex-searching/)
@@ -293,6 +315,9 @@ Aspose.PDF for .NET を使って PDF ページを回転する方法を学びま�
 ### [.NET Streams と Aspose.PDF を使用して特定のページから PDF ページを分割する](./split-pdf-pages-with-net-streams-aspose-pdf/)
 Aspose.PDF で .NET ストリームを使用して特定のページから PDF ファイルを効率的に分割し、アプリケーションでのドキュメント管理を強化する方法を学習します。
 
+### [C# で PDF のレイヤーをフラット化する – エクスポートと抽出ガイド](./flatten-pdf-layers-in-c-export-extract-guide/)
+Aspose.PDF for .NET を使用して、PDF のレイヤーをフラット化し、エクスポートおよび抽出する方法を学びます。
+
 ### [Aspose.PDF .NET を使用して PDF ページを個別のファイルに分割する (C# チュートリアル)](./split-pdf-pages-aspose-net-csharp/)
 Aspose.PDF for .NETおよびC#を使用してPDFファイルを個別のページに分割する方法を学びます。このガイドでは、セットアップ、実装、そして実践的な応用例を解説します。
 
@@ -303,10 +328,36 @@ Aspose.PDF for .NET を使用してPDFページを個別のファイルに分割
 Aspose.PDF for .NET を使用して、複数ページのPDFを分割し、新しいPDFファイルを作成する方法を学びましょう。コード例付きの包括的なガイドをご覧ください。
 
 ### [Aspose.PDF .NET による PDF 操作の究極ガイド: テキストを効率的に読み込み、保存し、置換する](./master-pdf-manipulation-aspose-pdf-net/)
-Aspose.PDF for .NET を使って PDF 操作をマスターする方法を学びましょう。このガイドでは、PDF 内のテキストの読み込み、保存、置換について解説しており、効率性を重視する開発者に最適です。
+
+### [Aspose.PDF for .NET を使用して C# で PDF をレダクト（テキスト非表示・コンテンツ削除）する方法](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
+Aspose.PDF for .NET を使用して、PDF の機密情報をテキストを非表示にし、不要なコンテンツを削除する方法を学びます。
 
 ### [C# で PDF を修復する方法 – 壊れた PDF ファイルをすばやく修正する](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
 C# と Aspose.PDF for .NET を使用して、破損した PDF ファイルを迅速に修復する手順を学びます。
+
+### [Aspose.PDF for .NET を使用して C# で PDF を編集（情報隠蔽）する完全ガイド](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
+Aspose.PDF for .NET を使い、C# で PDF の機密情報をマスク（編集）する手順とベストプラクティスをステップバイステップで解説します。
+
+### [Aspose.PDF を使用して PDF をフラット化する方法 – 完全ガイド](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+Aspose.PDF for .NET を使用して、PDF をフラット化し、編集不可にする方法を学びましょう。この完全ガイドで手順を確認してください。
+
+### [C# でのビジュアル PDF 差分 – 2 つの PDF を比較する完全ガイド](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
+Aspose.PDF for .NET を使用して、C# で 2 つの PDF を視覚的に比較し、差分をハイライトする方法を学びます。
+
+### [Aspose.PDF for .NET を使用して PDF を比較する方法 – ステップバイステップ ガイド](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
+Aspose.PDF for .NET を使用して、2つの PDF ドキュメントを比較し、差分を検出する方法をステップバイステップで学びましょう。
+
+### [C# で PDF レイヤーを結合する – PDF レイヤーの結合方法](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+Aspose.PDF for .NET を使用して、PDF ドキュメント内の複数レイヤーを統合し、単一のレイヤーにまとめる方法を学びます。
+
+### [Aspose.PDF を使用して PDF ファイルを修復する方法 – 完全ガイド](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
+Aspose.PDF を使って破損した PDF を修復し、正常に開く手順をステップバイステップで解説します。
+
+### [更新された PDF を保存 – Aspose.Pdf で PDF リソースを編集する](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+Aspose.PDF を使用して、編集した PDF リソースを保存し、最新の PDF ファイルを生成する方法を学びます。
+
+### [Aspose.PDF を使用して変更された PDF を保存する – 完全 C# ガイド](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+Aspose.PDF for .NET を使用して、変更した PDF を保存する方法をステップバイステップで解説します。
 
 ## 追加リソース
 

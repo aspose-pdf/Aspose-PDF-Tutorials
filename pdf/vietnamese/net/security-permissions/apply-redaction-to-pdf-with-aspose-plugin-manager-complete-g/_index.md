@@ -25,15 +25,10 @@ title: Áp dụng chức năng che dấu vào PDF với Aspose Plugin Manager �
 url: /vi/net/security-permissions/apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/
 ---
 
-keep as English term? Technical term maybe keep. Could keep "Redaction". We'll translate "Apply Redaction to PDF" to "Áp dụng Redaction cho PDF". Keep "Aspose Plugin Manager". Good.
 
-Proceed.
 
-Translate each paragraph.
 
-Will keep code block placeholders.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

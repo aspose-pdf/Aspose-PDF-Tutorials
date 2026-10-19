@@ -23,15 +23,10 @@ title: Adicionar numeração Bates a DOCX e converter para PDF – Guia completo
 url: /pt/net/document-conversion/add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/
 ---
 
-can tweak it for your own workflow."
 
-Translate.
 
-Proceed similarly for rest.
 
-Need to keep markdown tables, code block placeholders.
 
-Let's produce final.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

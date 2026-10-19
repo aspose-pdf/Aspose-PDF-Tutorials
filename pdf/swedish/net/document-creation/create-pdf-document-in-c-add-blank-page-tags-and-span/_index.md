@@ -22,7 +22,7 @@ title: Skapa PDF-dokument i C# – Lägg till tom sida, taggar och span
 url: /sv/net/document-creation/create-pdf-document-in-c-add-blank-page-tags-and-span/
 ---
 
-content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

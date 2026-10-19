@@ -17,6 +17,13 @@
 
 ## البرامج التعليمية المتاحة
 
+
+{{< tutorial-card link="./compare-pdfs/" title="قارن ملفات PDF وأنشئ مستند فرق مُبرز باستخدام Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdf-forms/" title="قارن نماذج PDF وأنشئ فرقًا بصريًا وتقرير JSON باستخدام Aspose.Pdf for .NET" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
+
+{{< tutorial-card link="./exclude-areas/" title="قارن ملفات PDF مع تجاهل مناطق محددة باستخدام Aspose.Pdf for .NET" imgSrc="./exclude-areas/images/thumb.png" >}}
+
 ### [إضافة طوابع التاريخ والوقت إلى ملفات PDF باستخدام Aspose.PDF لـ .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 تعرّف على كيفية إضافة التاريخ والوقت أو التعليقات التوضيحية بكفاءة إلى مستندات PDF باستخدام Aspose.PDF لـ .NET. حسّن إدارة مستنداتك باتباع هذه الخطوات السهلة.
 
@@ -37,6 +44,9 @@
 
 ### [إضافة مستطيلات وتكوين صفحات PDF باستخدام Aspose.PDF .NET: دليل شامل](./aspose-pdf-net-add-rectangles-configure-pages/)
 أتقن إضافة المستطيلات وتكوين الصفحات في ملفات PDF باستخدام Aspose.PDF لـ .NET. اتبع هذا الدليل لتعلم تقنيات معالجة المستندات بفعالية.
+
+### [إضافة مستطيل إلى PDF باستخدام C# – دليل برمجة كامل](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
+تعرف على كيفية إضافة مستطيل إلى مستند PDF باستخدام C# مع Aspose.PDF .NET من خلال دليل برمجة شامل خطوة بخطوة.
 
 ### [Aspose.PDF .NET: تعيين هوامش PDF وتخصيص الرؤوس والتذييلات](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 أتقن فن ضبط هوامش الصفحات وتخصيص الرؤوس والتذييلات في ملفات PDF باستخدام Aspose.PDF لـ .NET. اتبع هذا الدليل المفصل لتحسين تناسق تخطيط المستند.
@@ -76,6 +86,9 @@
 
 ### [تحسين كفاءة ملفات PDF: إزالة الكائنات غير المستخدمة باستخدام Aspose.PDF لـ .NET](./optimize-pdf-aspose-pdf-net-remove-unused-objects/)
 تعرف على كيفية تحسين ملفات PDF عن طريق إزالة الكائنات غير المستخدمة باستخدام Aspose.PDF لـ .NET، مما يؤدي إلى تحسين حجم الملف والأداء.
+
+### [كيفية إزالة الخطوط المدمجة من ملفات PDF – دليل خطوة بخطوة بلغة C#](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
+تعرف على كيفية إزالة الخطوط المدمجة من ملفات PDF باستخدام Aspose.PDF لـ .NET مع مثال عملي بلغة C#.
 
 ### [معالجة صفحات PDF بكفاءة باستخدام Aspose.PDF لـ .NET: دليل المطور](./manipulate-pdf-pages-aspose-dot-net/)
 تعلم كيفية التعامل بكفاءة مع صفحات PDF باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل التدوير والتكبير/التصغير وضبط الأصول دون الحاجة إلى Adobe Acrobat.
@@ -191,6 +204,8 @@
 ### [كيفية إزالة إجراءات فتح ملفات PDF باستخدام Aspose.PDF لـ .NET: دليل شامل](./remove-pdf-open-action-aspose-dotnet-guide/)
 تعرّف على كيفية إزالة عمليات الفتح غير المرغوب فيها من ملفات PDF باستخدام Aspose.PDF لـ .NET. يقدم هذا الدليل إرشادات خطوة بخطوة وأفضل الممارسات.
 
+### [إزالة الخط من ملف PDF باستخدام Aspose – دليل خطوة بخطوة](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
+
 ### [كيفية تقسيم صفحات PDF باستخدام Aspose.PDF لـ .NET: دليل شامل](./mastering-pdf-page-splitting-aspose-pdf-net/)
 تعلّم كيفية تقسيم صفحات PDF بكفاءة إلى ملفات منفصلة باستخدام Aspose.PDF لـ .NET مع هذا الدليل الشامل. طوّر مهاراتك في التعامل مع المستندات اليوم.
 
@@ -207,7 +222,7 @@
 تعلّم كيفية تحديث الروابط برمجيًا في ملفات PDF باستخدام Aspose.PDF لـ .NET. أتمتة تحديثات الروابط بكفاءة من خلال هذا الدليل المفصل.
 
 ### [كيفية تحديث لون نص رابط PDF باستخدام Aspose.PDF .NET: دليل شامل](./update-pdf-link-text-color-aspose-net/)
-تعرّف على كيفية تغيير لون نص الروابط في ملفات PDF بسهولة باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل الشامل نصائح التثبيت والتنفيذ والتحسين.
+تعرّف على كيفية تغيير لون نص الروابط في ملفات PDF بسهولة باستخدام Aspose.PDF .NET. يغطي هذا الدليل الشامل نصائح التثبيت والتنفيذ والتحسين.
 
 ### [إدراج صفحات في ملف PDF باستخدام Aspose.PDF لـ .NET: دليل كامل لمعالجة المستندات](./insert-pages-pdf-aspose-dotnet-guide/)
 تعرّف على كيفية إدراج صفحات في ملف PDF باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل التفصيلي كل شيء، من الإعداد إلى التنفيذ، وهو مثالي لمطوري C#.
@@ -216,7 +231,7 @@
 تعرّف على كيفية إدراج صفحات في ملف PDF باستخدام Aspose.PDF لـ .NET من خلال هذا الدليل المفصل. حسّن سير عمل مستندك بكفاءة.
 
 ### [إدراج صفحة فارغة في ملف PDF باستخدام Aspose.PDF .NET: دليل شامل](./aspose-pdf-net-insert-empty-page/)
-تعلّم كيفية إدراج صفحات فارغة في مستندات PDF بسهولة باستخدام Aspose.PDF لـ .NET. اتبع هذا الدليل خطوة بخطوة لتحسين مهاراتك في التعامل مع المستندات.
+تعلّم كيفية إدراج صفحات فارغة في مستندات PDF بسهولة باستخدام Aspose.PDF .NET. اتبع هذا الدليل خطوة بخطوة لتحسين مهاراتك في التعامل مع المستندات.
 
 ### [إتقان أسلوب MakeNUp في Aspose.PDF .NET لإنشاء تخطيطات PDF فعّالة](./aspose-pdf-net-make-nup-method-pdf-layout/)
 تعلّم كيفية إعادة ترتيب صفحات PDF متعددة بكفاءة إلى تخطيطات جديدة باستخدام أسلوب MakeNUP في Aspose.PDF .NET. مثالي للنشرات الإخبارية والكتيبات والتقارير.
@@ -243,34 +258,34 @@
 تعلّم كيفية إتقان تحميل مستندات PDF والتنقل فيها وتعديلها باستخدام مكتبة Aspose.PDF .NET القوية. حسّن تطبيقاتك اليوم!
 
 ### [إتقان التعامل مع ملفات PDF باستخدام Aspose.PDF .NET: دليل التحميل والبحث والتعليق التوضيحي](./aspose-pdf-dotnet-mastering-pdfs-manipulation-guide/)
-تعلم إتقان التعامل مع ملفات PDF باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل تحميل المستندات، والبحث عن النصوص، وتطبيق التعليقات التوضيحية، مثل الشطب.
+تعلم إتقان التعامل مع ملفات PDF باستخدام Aspose.PDF .NET. يغطي هذا الدليل تحميل المستندات، والبحث عن النصوص، وتطبيق التعليقات التوضيحية، مثل الشطب.
 
-### [إتقان التعامل مع ملفات PDF باستخدام Aspose.PDF لـ .NET: دليل شامل](./mastering-pdf-manipulation-aspose-pdf-net-guide/)
-تعرّف على كيفية إنشاء وتعديل ودمج واستخراج البيانات من ملفات PDF بكفاءة باستخدام Aspose.PDF لـ .NET. حسّن سير عمل مستنداتك وحسّن إنتاجيتك.
+### [إتقان التعامل مع ملفات PDF باستخدام Aspose.PDF .NET: دليل شامل](./mastering-pdf-manipulation-aspose-pdf-net-guide/)
+تعرّف على كيفية إنشاء وتعديل ودمج واستخراج البيانات من ملفات PDF بكفاءة باستخدام Aspose.PDF .NET. حسّن سير عمل مستنداتك وحسّن إنتاجيتك.
 
-### [إتقان معالجة عدد صفحات PDF باستخدام Aspose.PDF لـ .NET: دليل كامل](./mastering-pdf-manipulation-aspose-pdf-net/)
-تعرّف على كيفية استرداد وتعديل عدد صفحات PDF بكفاءة باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل الإعداد والتنفيذ والتطبيقات العملية.
+### [إتقان معالجة عدد صفحات PDF باستخدام Aspose.PDF .NET: دليل كامل](./mastering-pdf-manipulation-aspose-pdf-net/)
+تعرّف على كيفية استرداد وتعديل عدد صفحات PDF بكفاءة باستخدام Aspose.PDF .NET. يغطي هذا الدليل الإعداد والتنفيذ والتطبيقات العملية.
 
 ### [إتقان Aspose.PDF .NET: دمج LaTeX بسلاسة في جداول وخلايا PDF](./integrate-latex-aspose-pdf-dotnet/)
-تعلم كيفية دمج LaTeX في ملفات PDF باستخدام Aspose.PDF لـ .NET. حسّن مستنداتك بتعبيرات رياضية احترافية وصيغ علمية.
+تعلم كيفية دمج LaTeX في ملفات PDF باستخدام Aspose.PDF .NET. حسّن مستنداتك بتعبيرات رياضية احترافية وصيغ علمية.
 
-### [إتقان Aspose.PDF لـ .NET: تعديل ملفات PDF بسهولة](./aspose-pdf-net-open-modify-save-pdfs/)
+### [إتقان Aspose.PDF .NET: تعديل ملفات PDF بسهولة](./aspose-pdf-net-open-modify-save-pdfs/)
 برنامج تعليمي لبرمجة Aspose.PDF Net
 
 ### [إتقان عناوين PDF الديناميكية مع الجداول والصور باستخدام Aspose.PDF .NET](./dynamic-pdf-headers-tables-images-aspose-pdf/)
-تعلّم كيفية إنشاء عناوين PDF ديناميكية مع جداول وصور باستخدام Aspose.PDF لـ .NET. حسّن تصميم مستندك بسهولة.
+تعلّم كيفية إنشاء عناوين PDF ديناميكية مع جداول وصور باستخدام Aspose.PDF .NET. حسّن تصميم مستندك بسهولة.
 
-### [إتقان ربط ملفات PDF باستخدام Aspose.PDF لـ .NET: دليل شامل](./mastering-pdf-concatenation-aspose-net-guide/)
-تعرّف على كيفية ربط ملفات PDF متعددة بسلاسة باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل الإعداد والربط ومعالجة الملفات التالفة.
+### [إتقان ربط ملفات PDF باستخدام Aspose.PDF .NET: دليل شامل](./mastering-pdf-concatenation-aspose-net-guide/)
+تعرّف على كيفية ربط ملفات PDF متعددة بسلاسة باستخدام Aspose.PDF .NET. يغطي هذا الدليل الإعداد والربط ومعالجة الملفات التالفة.
 
 ### [إتقان إدارة ملفات PDF: تحديد اتجاه الصفحة واللون والكشف عن المساحات الفارغة بكفاءة باستخدام Aspose.PDF .NET](./aspose-pdf-net-page-orientation-color-blank-detection/)
-تعرف على كيفية إدارة مستندات PDF بكفاءة عن طريق تغيير اتجاه الصفحة، واكتشاف اللون الأبيض، وتحديد الصفحات الفارغة باستخدام Aspose.PDF لـ .NET.
+تعرف على كيفية إدارة مستندات PDF بكفاءة عن طريق تغيير اتجاه الصفحة، واكتشاف اللون الأبيض، وتحديد الصفحات الفارغة باستخدام Aspose.PDF .NET.
 
-### [إتقان التعامل مع ملفات PDF: دليل شامل لاستخدام Aspose.PDF لـ .NET](./aspose-pdf-net-manipulation-guide/)
-تعرّف على كيفية التعامل بكفاءة مع ملفات PDF باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل كل ما تحتاجه لأتمتة المستندات، بدءًا من الإعداد وحتى الميزات المتقدمة.
+### [إتقان التعامل مع ملفات PDF: دليل شامل لاستخدام Aspose.PDF .NET](./aspose-pdf-net-manipulation-guide/)
+تعرّف على كيفية التعامل بكفاءة مع ملفات PDF باستخدام Aspose.PDF .NET. يغطي هذا الدليل كل ما تحتاجه لأتمتة المستندات، بدءًا من الإعداد وحتى الميزات المتقدمة.
 
 ### [إتقان التعامل مع ملفات PDF: Aspose.PDF .NET للبحث عن التعابير العادية ومعالجة المستندات](./aspose-pdf-net-regex-searching/)
-تعرّف على كيفية استخدام Aspose.PDF لـ .NET لتحميل مستندات PDF ومعالجتها وإجراء عمليات بحث عن التعابير العادية فيها. أتمت معالجة مستنداتك بكفاءة.
+تعرّف على كيفية استخدام Aspose.PDF .NET لتحميل مستندات PDF ومعالجتها وإجراء عمليات بحث عن التعابير العادية فيها. أتمت معالجة مستنداتك بكفاءة.
 
 ### [إتقان تقسيم صفحات PDF باستخدام Aspose.PDF .NET](./mastering-page-splitting-aspose-pdf-net/)
 برنامج تعليمي لبرمجة Aspose.PDF Net
@@ -282,37 +297,55 @@
 تعرّف على كيفية نقل حقول نماذج PDF وإعادة وضعها بسهولة باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل عملية الإعداد، والتعليمات خطوة بخطوة، ونصائح لاستكشاف الأخطاء وإصلاحها.
 
 ### [التعامل مع ملفات PDF بسهولة: دليل Aspose.PDF .NET للتحميل والحفظ وتكوين التكبير/التصغير](./master-pdf-manipulation-aspose-dotnet-load-save-configure-page-zoom/)
-أتقن التعامل مع ملفات PDF باستخدام Aspose.PDF لـ .NET. تعلّم كيفية تحميل وحفظ واستخراج الأبعاد وضبط إعدادات التكبير والتصغير بكفاءة.
+أتقن التعامل مع ملفات PDF باستخدام Aspose.PDF .NET. تعلّم كيفية تحميل وحفظ واستخراج الأبعاد وضبط إعدادات التكبير والتصغير بكفاءة.
 
-### [استبدال أول ظهور للنص في ملف PDF باستخدام Aspose.PDF لـ .NET - دليل شامل](./replace-first-text-occurrence-aspose-pdf-net/)
-تعرّف على كيفية استبدال أول نص في ملف PDF باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل الإعداد، وأمثلة التعليمات البرمجية، والتطبيقات العملية.
+### [استبدال أول ظهور للنص في ملف PDF باستخدام Aspose.PDF .NET - دليل شامل](./replace-first-text-occurrence-aspose-pdf-net/)
+تعرّف على كيفية استبدال أول نص في ملف PDF باستخدام Aspose.PDF .NET. يغطي هذا الدليل الإعداد، وأمثلة التعليمات البرمجية، والتطبيقات العملية.
 
-### [تغيير حجم محتويات PDF باستخدام Aspose.PDF لـ .NET](./resize-pdf-contents-aspose-pdf-dotnet/)
+### [تغيير حجم محتويات PDF باستخدام Aspose.PDF .NET](./resize-pdf-contents-aspose-pdf-dotnet/)
 برنامج تعليمي لبرمجة Aspose.PDF Net
 
-### [تدوير صفحات PDF واسترداد الأبعاد باستخدام Aspose.PDF لـ .NET](./rotate-pdf-pages-dimensions-aspose-dotnet/)
-تعلّم كيفية تدوير صفحات PDF بكفاءة واسترجاع أبعادها باستخدام Aspose.PDF لـ .NET. حسّن مهاراتك في التعامل مع المستندات مع هذا الدليل الشامل.
+### [تدوير صفحات PDF واسترداد الأبعاد باستخدام Aspose.PDF .NET](./rotate-pdf-pages-dimensions-aspose-dotnet/)
+تعلّم كيفية تدوير صفحات PDF بكفاءة واسترجاع أبعادها باستخدام Aspose.PDF .NET. حسّن مهاراتك في التعامل مع المستندات مع هذا الدليل الشامل.
 
 ### [تدوير صفحات PDF باستخدام Aspose.PDF في .NET: دليل المطور](./rotate-pdf-pages-aspose-pdf-dotnet/)
-تعرّف على كيفية تدوير صفحات PDF باستخدام Aspose.PDF لـ .NET. يتناول هذا الدليل تدوير صفحات محددة بالدرجات، ويتضمن أمثلة برمجية لمعالجة المستندات بكفاءة.
+تعرّف على كيفية تدوير صفحات PDF باستخدام Aspose.PDF .NET. يتناول هذا الدليل تدوير صفحات محددة بالدرجات، ويتضمن أمثلة برمجية لمعالجة المستندات بكفاءة.
 
 ### [فصل صفحات PDF من صفحة محددة باستخدام .NET Streams و Aspose.PDF](./split-pdf-pages-with-net-streams-aspose-pdf/)
 تعرف على كيفية تقسيم ملفات PDF بكفاءة من صفحة معينة باستخدام تدفقات .NET مع Aspose.PDF، مما يعزز إدارة المستندات في تطبيقاتك.
 
 ### [تقسيم صفحات PDF إلى ملفات فردية باستخدام Aspose.PDF .NET (برنامج تعليمي C#)](./split-pdf-pages-aspose-net-csharp/)
-تعرّف على كيفية تقسيم ملف PDF إلى صفحات منفصلة باستخدام Aspose.PDF لـ .NET وC#. يغطي هذا الدليل الإعداد والتنفيذ والتطبيقات العملية.
+تعرّف على كيفية تقسيم ملف PDF إلى صفحات منفصلة باستخدام Aspose.PDF .NET وC#. يغطي هذا الدليل الإعداد والتنفيذ والتطبيقات العملية.
 
-### [تقسيم صفحات PDF إلى ملفات منفصلة باستخدام Aspose.PDF لـ .NET: دليل شامل](./aspose-pdf-split-pdf-pages-net/)
-تعرّف على كيفية تقسيم صفحات PDF إلى ملفات منفصلة باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل الشامل نصائح الإعداد والتنفيذ والتحسين.
+### [تقسيم صفحات PDF إلى ملفات منفصلة باستخدام Aspose.PDF .NET: دليل شامل](./aspose-pdf-split-pdf-pages-net/)
+تعرّف على كيفية تقسيم صفحات PDF إلى ملفات منفصلة باستخدام Aspose.PDF .NET. يغطي هذا الدليل الشامل نصائح الإعداد والتنفيذ والتحسين.
 
 ### [تقسيم وإنشاء ملفات PDF باستخدام Aspose.PDF .NET | دليل معالجة المستندات](./split-create-pdf-aspose-pdf-net/)
-تعلّم كيفية تقسيم ملفات PDF متعددة الصفحات وإنشاء ملفات PDF جديدة باستخدام Aspose.PDF لـ .NET. اتبع هذا الدليل الشامل مع أمثلة برمجية.
+تعلّم كيفية تقسيم ملفات PDF متعددة الصفحات وإنشاء ملفات PDF جديدة باستخدام Aspose.PDF .NET. اتبع هذا الدليل الشامل مع أمثلة برمجية.
 
 ### [الدليل الشامل لمعالجة ملفات PDF باستخدام Aspose.PDF .NET: تحميل وحفظ واستبدال النص بكفاءة](./master-pdf-manipulation-aspose-pdf-net/)
-تعلّم كيفية إتقان معالجة ملفات PDF باستخدام Aspose.PDF لـ .NET. يغطي هذا الدليل تحميل النصوص وحفظها واستبدالها في ملفات PDF، وهو مثالي للمطورين الباحثين عن الكفاءة.
+### [كيفية تعديل PDF في C# – إخفاء النص وإزالة المحتوى](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
 
 ### [كيفية إصلاح ملفات PDF في C# – إصلاح ملفات PDF التالفة بسرعة](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
 تعرف على طريقة إصلاح ملفات PDF التالفة بسرعة باستخدام C# ومكتبة Aspose.PDF.
+
+### [كيفية إخفاء محتوى PDF في C# باستخدام Aspose PDF – دليل شامل](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
+
+### [كيفية تسوية ملف PDF باستخدام Aspose.PDF – دليل شامل](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+
+### [كيفية مقارنة ملفات PDF باستخدام Aspose – دليل خطوة بخطوة](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
+### [تسوية طبقات PDF في C# – دليل التصدير والاستخراج](./flatten-pdf-layers-in-c-export-extract-guide/)
+
+### [مقارنة PDF بصري في C# – دليل كامل لمقارنة ملفين PDF](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
+
+### [دمج طبقات PDF في C# – كيفية دمج طبقات PDF](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+تعرف على طريقة دمج طبقات ملفات PDF باستخدام C# ومكتبة Aspose.PDF لتحقيق مستند موحد ومتعدد الطبقات.
+### [كيفية إصلاح ملفات PDF باستخدام Aspose.Pdf – دليل شامل](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
+تعرف على خطوات إصلاح ملفات PDF التالفة باستخدام Aspose.Pdf في دليل شامل يغطي جميع الجوانب العملية.
+### [حفظ ملف PDF محدث – تحرير موارد PDF باستخدام Aspose.Pdf](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+
+### [حفظ ملف PDF معدل باستخدام Aspose.PDF – دليل كامل C#](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+تعلم كيفية حفظ ملفات PDF بعد تعديلها باستخدام Aspose.PDF في C# خطوة بخطوة.
 
 ## موارد إضافية
 

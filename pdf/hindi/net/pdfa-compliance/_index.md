@@ -23,6 +23,9 @@ Aspose.PDF नेट के लिए एक कोड ट्यूटोरि�
 ### [Aspose.PDF .NET का उपयोग करके PDF को PDF/A में बदलें: अनुपालन के लिए चरण-दर-चरण मार्गदर्शिका](./convert-pdf-to-pdfa-aspose-dotnet-guide/)
 जानें कि Aspose.PDF .NET के साथ नियमित PDF को PDF/A-1b अनुरूप दस्तावेज़ों में कैसे परिवर्तित करें। इस विस्तृत, चरण-दर-चरण मार्गदर्शिका के माध्यम से अभिलेखीय गुणवत्ता और अनुपालन सुनिश्चित करें।
 
+### [C# में PDF को PDF/A में बदलें – चरण‑दर‑चरण मार्गदर्शिका](./convert-pdf-to-pdf-a-in-c-step-by-step-guide/)
+Aspose.PDF .NET का उपयोग करके C# में PDF को PDF/A में परिवर्तित करने के लिए चरण‑दर‑चरण निर्देश।
+
 ### [.NET के लिए Aspose.PDF के साथ PDF को PDF/A-3B में बदलें](./convert-pdf-to-pdfa-3b-aspose-net/)
 Aspose.PDF नेट के लिए एक कोड ट्यूटोरियल
 
@@ -31,6 +34,9 @@ Aspose.PDF नेट के लिए एक कोड ट्यूटोरि�
 
 ### [.NET के लिए Aspose.PDF का उपयोग करके PDF को PDF/X-4 में कैसे बदलें: चरण-दर-चरण मार्गदर्शिका](./convert-pdfs-to-pdf-x4-aspose-dotnet-guide/)
 जानें कि .NET के लिए Aspose.PDF का उपयोग करके मानक PDF दस्तावेज़ों को मज़बूत PDF/X-4 फ़ॉर्मेट में कैसे परिवर्तित किया जाए। यह मार्गदर्शिका सेटअप, कार्यान्वयन और समस्या निवारण को कवर करती है।
+
+### [PDF को PDF/X-1A में बदलें – PDF/X-1A दस्तावेज़ कैसे बनाएं](./convert-pdf-to-pdf-x-1a-how-to-create-pdf-x-1a-document/)
+Aspose.PDF .NET के साथ PDF को PDF/X-1A फ़ॉर्मेट में बदलने और मानक‑अनुपालन दस्तावेज़ बनाने की चरण‑दर‑चरण मार्गदर्शिका।
 
 ### [.NET के लिए Aspose.PDF के साथ PDF/A-1a को कैसे सत्यापित करें: एक व्यापक गाइड](./validate-pdf-a-1a-aspose-pdf-dotnet/)
 .NET के लिए Aspose.PDF का उपयोग करके PDF/A-1a अनुपालन को सत्यापित करना सीखें। यह मार्गदर्शिका चरण-दर-चरण निर्देश, कोड उदाहरण और एकीकरण युक्तियाँ प्रदान करती है।
@@ -42,6 +48,15 @@ Aspose.PDF .NET का उपयोग करके PDF दस्तावेज
 Aspose.PDF .NET का उपयोग करके C# में PDF को पूर्ण रूप से PDF/A फ़ाइल में बदलने की चरण-दर-चरण मार्गदर्शिका।
 ### [C# में PDF/A कैसे बनाएं – चरण‑दर‑चरण Aspose गाइड](./how-to-create-pdf-a-in-c-step-by-step-aspose-guide/)
 Aspose.PDF .NET का उपयोग करके C# में PDF/A दस्तावेज़ बनाने की पूरी चरण‑दर‑चरण मार्गदर्शिका।
+
+### [C# में PDF को PDF/A में परिवर्तित करें – पूर्ण चरण‑दर‑चरण गाइड](./convert-pdf-to-pdf-a-in-c-complete-step-by-step-guide/)
+Aspose.PDF .NET के साथ C# में PDF को PDF/A में बदलने की पूरी प्रक्रिया सीखें, जिसमें कोड उदाहरण और सर्वोत्तम प्रथाएँ शामिल हैं।
+
+### [C# में PDF/A कैसे बनाएं – PDF को आसानी से PDF/A में बदलें](./how-to-create-pdf-a-in-c-convert-pdf-to-pdf-a-easily/)
+Aspose.PDF .NET के साथ C# में PDF को सरलता से PDF/A में बदलने के चरण-दर-चरण मार्गदर्शिका।
+
+### [Aspose PDF में ICC सेट करने का तरीका – पूर्ण C# गाइड](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
+Aspose.PDF .NET में ICC प्रोफ़ाइल सेट करने के लिए चरण-दर-चरण C# कोड उदाहरण और विस्तृत मार्गदर्शिका।
 
 ## अतिरिक्त संसाधन
 

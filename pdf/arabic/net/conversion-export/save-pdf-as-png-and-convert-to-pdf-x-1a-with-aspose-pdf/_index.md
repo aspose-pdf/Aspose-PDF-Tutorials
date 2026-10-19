@@ -22,15 +22,10 @@ title: حفظ PDF كـ PNG وتحويله إلى PDF/X‑1a باستخدام Asp
 url: /ar/net/conversion-export/save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf/
 ---
 
-كـ PNG وتحويله إلى PDF/X‑1a باستخدام Aspose PDF". Keep same heading level.
 
-Then paragraph.
 
-Proceed.
 
-Be careful with special characters like “ASP.NET PDF conversion” keep as is.
 
-Let's write.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

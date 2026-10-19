@@ -24,15 +24,11 @@ title: come installare aspose – Guida PowerShell per versioni specifiche
 url: /it/net/getting-started/how-to-install-aspose-powershell-guide-for-specific-versions/
 ---
 
-All good.
 
-Now produce final content with translations, preserving formatting.
 
-Check for any other markdown links: none.
 
-Make sure code blocks placeholders remain unchanged.
 
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

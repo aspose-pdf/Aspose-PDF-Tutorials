@@ -13,13 +13,9 @@ url: /sv/java/conversion-export/convert-pdf-mobixml-aspose-java-guide/
 weight: 1
 ---
 
- "Senast uppdaterad". Keep bold markup. So "**Last Updated:**" becomes "**Senast uppdaterad:**". Keep date.
 
-"**Tested With:** Aspose.PDF 25.3 for Java" => translate label: "**Tested With:**" => "**Testad med:**". Keep rest.
 
-"**Author:** Aspose" => "**Author:**" => "**Författare:**". Keep Aspose.
 
-Now produce final content. Ensure no extra spaces.
 
 {{< blocks/products/pf/main-wrap-class >}}
 

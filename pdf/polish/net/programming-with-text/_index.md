@@ -48,7 +48,7 @@ Samouczki „Programowanie z tekstem” dla .NET w Aspose.PDF oferują komplekso
 | [Usuń cały tekst w pliku PDF](./remove-all-text/) | Łatwo usuń cały tekst z pliku PDF za pomocą Aspose.PDF dla .NET, korzystając z naszego przewodnika krok po kroku. |  
 | [Usuń cały tekst z pliku PDF](./remove-all-text-from-pdf/) | Dowiedz się, jak skutecznie usuwać cały tekst z dokumentu PDF za pomocą Aspose.PDF dla .NET. Skorzystaj z naszego prostego przewodnika, aby opanować manipulację plikami PDF. |  
 | [Usuń nieużywane czcionki w pliku PDF](./remove-unused-fonts/) | Dowiedz się, jak bez wysiłku usuwać nieużywane czcionki z plików PDF za pomocą Aspose.PDF dla .NET. Zwiększ wydajność i zmniejsz rozmiar pliku. |  
-| [Renderowanie wymiennych symboli w pliku PDF](./rendering-replaceable-symbols/) Dowiedz się, jak renderować wymienne symbole w plikach PDF za pomocą Aspose.PDF dla .NET, korzystając z tego przewodnika krok po kroku. |  
+| [Renderowanie wymiennych symboli w pliku PDF](./rendering-replaceable-symbols/) Dowiedz się, jak renderować wymienne symbole w plikach PDF za pomocą Aspose.PDF dla .NET, korzystając z tego przewodnika krok po kroku. |
 | [Wymienne symbole w nagłówku i stopce](./replaceable-symbols-in-header-footer/) | Dowiedz się, jak używać wymiennych symboli w nagłówku i stopce dokumentu PDF, korzystając z Aspose.PDF dla platformy .NET. |  
 | [Zastąp pierwsze wystąpienie](./replace-first-occurrence/) | Dowiedz się, jak zastąpić pierwsze wystąpienie tekstu w pliku PDF za pomocą Aspose.PDF dla .NET dzięki naszemu przewodnikowi krok po kroku. Idealne dla programistów i osób zajmujących się dokumentami. |  
 | [Zamień czcionki w pliku PDF](./replace-fonts/) | Łatwa zamiana czcionek w plikach PDF za pomocą Aspose.PDF dla .NET. Przewodnik krok po kroku z przykładami kodu do zamiany czcionek. |  
@@ -70,7 +70,8 @@ Samouczki „Programowanie z tekstem” dla .NET w Aspose.PDF oferują komplekso
 | [Wyrównanie tekstu dla zawartości pływającego pola w pliku PDF](./text-alignment-for-floating-box-contents/) | Dowiedz się, jak wyrównywać zawartość pływających pól w plikach PDF za pomocą Aspose.PDF dla platformy .NET. Twórz oszałamiające dokumenty z profesjonalnymi układami. |  
 | [Tekst i obraz jako akapit w pliku PDF](./text-and-image-as-paragraph/) | Twórz pliki PDF z tekstem i obrazami za pomocą Aspose.PDF dla .NET. Dowiedz się, jak krok po kroku dodawać tekst i obrazy w tekście. |  
 | [Segmenty tekstu w pliku PDF](./text-segments/) | Dowiedz się, jak wyszukiwać określone segmenty tekstu w pliku PDF za pomocą wyrażeń regularnych w Aspose.PDF dla platformy .NET. |  
-| [Użyj skryptu Latex w pliku PDF](./use-latex-script/) | Dowiedz się, jak używać skryptu Latex do dodawania wyrażeń matematycznych lub wzorów do pliku PDF za pomocą Aspose.PDF dla platformy .NET. |  
+| [Użyj skryptu Latex w pliku PDF](./use-latex-script/) | Dowiedz się, jak używać skryptu Latex do dodawania wyrażeń matematycznych lub wzorów do pliku PDF za pomocą Aspose.PDF dla platformy .NET. |
+| [Utwórz element span w Word przy użyciu C# – Kompletny przewodnik](./create-span-element-in-word-with-c-complete-guide/) | Dowiedz się, jak programowo tworzyć elementy span w dokumentach Word przy użyciu C# w tym kompletnym przewodniku. |
 | [Generuj podsumowanie PDF przy użyciu Aspose.Pdf.AI i OpenAI](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Dowiedz się, jak generować podsumowanie dokumentu PDF przy użyciu Aspose.Pdf.AI i OpenAI w .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

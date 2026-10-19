@@ -22,7 +22,6 @@ title: แปลง docx เป็น pdf ใน C# – คู่มือขั
 url: /th/net/document-conversion/convert-docx-to-pdf-in-c-complete-step-by-step-guide/
 ---
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

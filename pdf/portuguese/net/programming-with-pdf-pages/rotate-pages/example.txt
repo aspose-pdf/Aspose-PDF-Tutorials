@@ -1,0 +1,41 @@
+//ExStart
+//ExSummary: Este tutorial demonstra como girar cada página de um PDF existente em 180 graus usando a classe Aspose.Pdf Document.
+//ExStepSummary:0: Declare os caminhos de arquivo de origem e destino para o PDF.
+//ExStepSummary:1: Verifique se o arquivo de origem existe e abortar com uma mensagem de erro caso não exista.
+//ExStepSummary:2: Crie um objeto Document para o PDF de origem dentro de um bloco using para gerenciar recursos.
+//ExStepSummary:3: Itere por cada Page em pdfDoc.Pages e defina sua propriedade Rotate para Rotation.on180, virando cada página de cabeça para baixo.
+//ExStepSummary:4: Salve o Document modificado no arquivo de destino, preservando as rotações.
+//ExStepSummary:5: Escreva uma mensagem de confirmação no console indicando que a operação foi concluída.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+        const string sourceFile = "source_document.pdf";
+        const string destinationFile = "flipped_document.pdf";
+
+//ExStep:1-
+        if (!File.Exists(sourceFile))
+        {
+            Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+            return;
+        }
+
+//ExStep:2-
+        // Open the PDF within a using statement to ensure resources are released
+        using (Document pdfDoc = new Document(sourceFile))
+        {
+
+//ExStep:3-
+            // Walk through each page (collection is 1‑based) and apply a 180° rotation
+            foreach (Page pdfPage in pdfDoc.Pages)
+            {
+                // Use the correct enum member with the 'on' prefix
+                pdfPage.Rotate = Rotation.on180;
+            }
+
+//ExStep:4-
+            // Write the altered document to disk
+            pdfDoc.Save(destinationFile);
+        }
+
+//ExStep:5-
+        Console.WriteLine($"All pages rotated and saved as '{destinationFile}'.");
+//ExEnd

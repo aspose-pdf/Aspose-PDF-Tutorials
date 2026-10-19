@@ -20,29 +20,17 @@ title: 创建空白 PDF 页面 – 完整 PDF 绘图教程
 url: /zh/net/programming-with-pdf-pages/create-blank-pdf-page-full-pdf-drawing-tutorial/
 ---
 
-. Keep URL unchanged.
 
-Also translate headings, bullet points, etc.
 
-Need to keep shortcodes unchanged.
 
-Let's produce final content.
 
-Check all text:
 
-First three shortcodes lines: keep.
 
-Heading "# Create Blank PDF Page – Full PDF Drawing Tutorial" translate: "# 创建空白 PDF 页面 – 完整 PDF 绘图教程"
 
-Paragraphs: translate.
 
-Need to keep code block placeholders unchanged.
 
-Also tables: translate column headers and content.
 
-Make sure to keep markdown formatting.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

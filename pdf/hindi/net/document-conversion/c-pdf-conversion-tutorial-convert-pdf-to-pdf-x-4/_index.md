@@ -21,9 +21,7 @@ title: c# पीडीएफ रूपांतरण ट्यूटोरि�
 url: /hi/net/document-conversion/c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/
 ---
 
-.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

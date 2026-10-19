@@ -1,0 +1,49 @@
+//ExStart
+//ExSummary: This tutorial demonstrates how to open an existing PDF with Aspose.Pdf, restrict its permissions to form‑filling only, encrypt it using AES‑256 with a viewer and owner password, and save the protected document.
+//ExStepSummary:0: Declare the source PDF path, the output path, and the viewer and owner passwords.
+//ExStepSummary:1: Check that the source file exists; if it does not, write an error message and exit.
+//ExStepSummary:2: Enter a try block and open the PDF document with a `using` statement, creating the `pdfDoc` variable.
+//ExStepSummary:3: Create a `Permissions` object that allows only form‑filling.
+//ExStepSummary:4: Encrypt `pdfDoc` with the viewer and master passwords, applying the permission set and using AES‑256.
+//ExStepSummary:5: Save the encrypted PDF to the specified output file and close the `using` block.
+//ExStepSummary:6: Write a confirmation message to the console and close the try block.
+//ExStepSummary:7: Catch any exception, output its message to the error stream, and close the catch block.
+//ExStep:0-
+        const string sourceFile = "sample.pdf";
+        const string encryptedFile = "protected.pdf";
+        const string viewerPwd = "readPass";
+        const string masterPwd = "fullPass";
+
+//ExStep:1-
+        if (!File.Exists(sourceFile))
+        {
+            Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+            return;
+        }
+
+//ExStep:2-
+        try
+        {
+            using (Document pdfDoc = new Document(sourceFile))
+            {
+
+//ExStep:3-
+                Permissions permissionSet = Permissions.FillForm;
+
+//ExStep:4-
+                pdfDoc.Encrypt(viewerPwd, masterPwd, permissionSet, CryptoAlgorithm.AESx256);
+
+//ExStep:5-
+                pdfDoc.Save(encryptedFile);
+            }
+
+//ExStep:6-
+            Console.WriteLine($"Encrypted document written to '{encryptedFile}'.");
+        }
+
+//ExStep:7-
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Error: {ex.Message}");
+        }
+//ExEnd

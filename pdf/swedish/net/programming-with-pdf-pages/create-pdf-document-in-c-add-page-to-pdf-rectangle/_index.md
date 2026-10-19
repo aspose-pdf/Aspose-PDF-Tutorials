@@ -21,9 +21,7 @@ title: Skapa PDF-dokument i C# – Lägg till sida i PDF & rektangel
 url: /sv/net/programming-with-pdf-pages/create-pdf-document-in-c-add-page-to-pdf-rectangle/
 ---
 
-markdown.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -1,0 +1,33 @@
+//ExStart
+//ExSummary: Este tutorial muestra cómo crear un nuevo documento PDF, agregar tres páginas vacías, convertirlo a cumplimiento PDF/X‑3 mientras se registran los errores de conversión, y guardar el archivo resultante usando la clase Document de Aspose.Pdf.
+//ExStepSummary:0: Defina el nombre del archivo PDF de salida y la ruta para el registro de conversión.
+//ExStepSummary:1: Instancie un nuevo objeto Document dentro de un bloque using para garantizar una eliminación adecuada.
+//ExStepSummary:2: Agregue tres páginas vacías al documento, incrementando su número de páginas.
+//ExStepSummary:3: Convierta el documento al formato PDF/X‑3, registrando cualquier problema de conversión en el archivo de registro.
+//ExStepSummary:4: Guarde el documento compatible con PDF/X‑3 en disco y cierre el bloque using.
+//ExStepSummary:5: Imprima un mensaje de confirmación en la consola indicando dónde se guardó el archivo.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+        const string resultFile = "final_pdfx3_output.pdf";
+        const string conversionLog = "pdfx3_conversion_log.xml";
+
+//ExStep:1-
+        using (Document pdfDoc = new Document())
+        {
+
+//ExStep:2-
+            pdfDoc.Pages.Add();
+            pdfDoc.Pages.Add();
+            pdfDoc.Pages.Add();
+
+//ExStep:3-
+            pdfDoc.Convert(conversionLog, PdfFormat.PDF_X_3, ConvertErrorAction.Delete);
+
+//ExStep:4-
+            pdfDoc.Save(resultFile);
+        }
+
+//ExStep:5-
+        Console.WriteLine($"PDF/X‑3 file written to '{resultFile}'.");
+//ExEnd

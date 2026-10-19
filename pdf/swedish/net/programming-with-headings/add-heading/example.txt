@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: Den här handledningen visar hur man skapar ett PDF‑dokument, anger dess standardspråk och titel samt infogar en rubrik på nivå 1 med hjälp av klasserna Document, ITaggedContent, StructureElement och HeaderElement.
+//ExStepSummary:0: Ange filnamnet för den genererade PDF‑filen.
+//ExStepSummary:1: Skapa en ny tom PDF‑dokumentinstans (`pdfDoc`) inom ett `using`‑block.
+//ExStepSummary:2: Hämta `ITaggedContent`‑gränssnittet för att arbeta med taggade PDF‑strukturer.
+//ExStepSummary:3: Ställ in dokumentets standardspråk till English (US) och tilldela en titelmetadata.
+//ExStepSummary:4: Hämta rot‑elementet i det logiska strukturträdet.
+//ExStepSummary:5: Skapa ett rubrik‑element på nivå 1, ange dess visade text och specificera dess språk.
+//ExStepSummary:6: Lägg till rubrik‑elementet i roten, vilket får rubriken att visas i PDF‑filen.
+//ExStepSummary:7: Spara PDF‑filen till den angivna filen och stäng dokumentets omfattning.
+//ExStepSummary:8: Skriv ut ett bekräftelsemeddelande till konsolen.
+//ExStepImage:6:images/1.png
+//ExStep:0-
+const string resultFile = "pdf_with_title.pdf";
+
+//ExStep:1-
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:2-
+ITaggedContent tagContent = pdfDoc.TaggedContent;
+
+//ExStep:3-
+tagContent.SetLanguage("en-US");
+tagContent.SetTitle("PDF Example with Header");
+
+//ExStep:4-
+StructureElement rootElement = tagContent.RootElement;
+
+//ExStep:5-
+HeaderElement header = tagContent.CreateHeaderElement(1);
+header.SetText("Demo Header");
+header.Language = "en-US";
+
+//ExStep:6-
+rootElement.AppendChild(header);
+
+//ExStep:7-
+pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"PDF generated and stored at '{resultFile}'.");
+//ExEnd
