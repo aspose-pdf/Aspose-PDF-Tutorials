@@ -23,17 +23,12 @@ title: como instalar aspose – guia PowerShell para versões específicas
 url: /pt/net/getting-started/how-to-install-aspose-powershell-guide-for-specific-versions/
 ---
 
-through all sections.
 
-Tables: translate column headers and content but keep code flags unchanged.
 
-Edge case note: keep code flags.
 
-Let's craft translation.
 
-Be careful with bullet lists.
 
-Let's produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

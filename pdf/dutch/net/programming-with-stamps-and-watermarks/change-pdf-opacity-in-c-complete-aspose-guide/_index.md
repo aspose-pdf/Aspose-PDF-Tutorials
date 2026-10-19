@@ -23,21 +23,13 @@ title: PDF-opaciteit wijzigen in C# – Complete Aspose-gids
 url: /nl/net/programming-with-stamps-and-watermarks/change-pdf-opacity-in-c-complete-aspose-guide/
 ---
 
-", "Opacity appears unchanged", etc. Should translate but keep technical terms like PluginNotFoundException, NullReferenceException, etc. So translate the description but keep code names.
 
-Also bullet lists.
 
-Need to keep shortcodes at top and bottom unchanged.
 
-Make sure to keep code block placeholders unchanged.
 
-Now produce final content.
 
-Let's craft translation.
 
-Start with shortcodes unchanged.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

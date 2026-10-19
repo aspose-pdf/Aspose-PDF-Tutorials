@@ -17,6 +17,8 @@ Aspose.PDF .NETの表とリストに関するチュートリアルで、構造�
 
 ## 利用可能なチュートリアル
 
+
+{{< tutorial-card link="./style-table-cells/" title="Aspose.Pdf for .NET で PDF のテーブルセルの背景、枠線、パディングをカスタマイズする" imgSrc="./style-table-cells/images/thumb.png" >}}
 ### [Aspose.PDF .NET で HTML 順序付きリストを PDF に追加する](./add-html-ordered-list-pdf-aspose-net/)
 Aspose.PDF Net のコードチュートリアル
 

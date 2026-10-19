@@ -1,0 +1,44 @@
+//ExStart
+//ExSummary: 本教學示範如何建立 PDF 文件、設定其預設語言與標題，並使用 Document、ITaggedContent、StructureElement 及 HeaderElement 類別插入第 1 級標題。
+//ExStepSummary:0: 為產生的 PDF 定義輸出檔案名稱。
+//ExStepSummary:1: 在 `using` 區塊中建立一個新的空 PDF 文件實例（`pdfDoc`）。
+//ExStepSummary:2: 取得 `ITaggedContent` 介面以操作已標記的 PDF 結構。
+//ExStepSummary:3: 將文件的預設語言設為英語（美國），並指定標題中繼資料。
+//ExStepSummary:4: 取得邏輯結構樹的根元素。
+//ExStepSummary:5: 建立第 1 級標題元素，設定其顯示文字，並指定語言。
+//ExStepSummary:6: 將標題元素附加至根元素，使標題顯示於 PDF 中。
+//ExStepSummary:7: 將 PDF 儲存至指定檔案，並關閉文件範圍。
+//ExStepSummary:8: 在主控台輸出確認訊息。
+//ExStepImage:6:images/1.png
+//ExStep:0-
+const string resultFile = "pdf_with_title.pdf";
+
+//ExStep:1-
+using (Document pdfDoc = new Document())
+{
+
+//ExStep:2-
+ITaggedContent tagContent = pdfDoc.TaggedContent;
+
+//ExStep:3-
+tagContent.SetLanguage("en-US");
+tagContent.SetTitle("PDF Example with Header");
+
+//ExStep:4-
+StructureElement rootElement = tagContent.RootElement;
+
+//ExStep:5-
+HeaderElement header = tagContent.CreateHeaderElement(1);
+header.SetText("Demo Header");
+header.Language = "en-US";
+
+//ExStep:6-
+rootElement.AppendChild(header);
+
+//ExStep:7-
+pdfDoc.Save(resultFile);
+}
+
+//ExStep:8-
+Console.WriteLine($"PDF generated and stored at '{resultFile}'.");
+//ExEnd

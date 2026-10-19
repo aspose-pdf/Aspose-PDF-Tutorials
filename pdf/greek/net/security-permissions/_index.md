@@ -17,6 +17,12 @@
 
 ## Διαθέσιμα εκπαιδευτικά βίντεο
 
+
+{{< tutorial-card link="./encrypt-pdf-form-filling/" title="Κρυπτογράφηση PDF ώστε να επιτρέπεται μόνο η συμπλήρωση φορμών χρησιμοποιώντας Aspose.Pdf for .NET" imgSrc="./encrypt-pdf-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-form-filling/" title="Κρυπτογράφηση PDF μόνο για Συμπλήρωση Φορμών με AES‑256 χρησιμοποιώντας το Aspose.Pdf for .NET" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="Κρυπτογράφηση PDF χωρίς δικαίωμα εκτύπωσης χρησιμοποιώντας Aspose.PDF for .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [Αλλαγή κωδικών πρόσβασης PDF με το Aspose.PDF για .NET](./change-pdf-password-aspose-pdf-net-guide/)
 Ένα σεμινάριο κώδικα για το Aspose.PDF Net
 
@@ -64,12 +70,17 @@
 
 ### [Εφαρμογή Σκότωσης σε PDF με το Aspose Plugin Manager – Πλήρης Οδηγός](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
 Μάθετε πώς να εφαρμόζετε σκότωση σε αρχεία PDF χρησιμοποιώντας το Aspose Plugin Manager σε .NET.
+### [Πώς να εφαρμόσετε απόκρυψη σε PDF με το Aspose.Pdf – Πλήρης Οδηγός Βήμα‑βήμα](./how-to-redact-pdf-with-aspose-pdf-complete-step-by-step-guid/)
+Μάθετε πώς να εφαρμόζετε απόκρυψη σε αρχεία PDF χρησιμοποιώντας το Aspose.Pdf με αναλυτικά βήματα και παραδείγματα κώδικα.
 
 ### [Ξεκλείδωμα και αποκρυπτογράφηση αρχείων PDF με το Aspose.PDF για .NET: Ένας πλήρης οδηγός](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 Μάθετε πώς να ξεκλειδώνετε και να αποκρυπτογραφείτε προστατευμένα αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET σε C#. Αυτός ο οδηγός καλύπτει τα βήματα εγκατάστασης, αποκρυπτογράφησης και τις βέλτιστες πρακτικές.
 
 ### [Επαλήθευση κωδικών πρόσβασης PDF με το Aspose.PDF .NET: Ένας οδηγός βήμα προς βήμα για ασφάλεια και δικαιώματα](./verify-pdf-passwords-aspose-dot-net-guide/)
 Μάθετε πώς να επαληθεύετε τους κωδικούς πρόσβασης PDF χρησιμοποιώντας το Aspose.PDF για .NET σε C#. Αυτός ο ολοκληρωμένος οδηγός απλοποιεί την ασφάλεια των εγγράφων και τον έλεγχο πρόσβασης.
+
+### [Πώς να διαγράψετε PDF και να αφαιρέσετε ευαίσθητα δεδομένα PDF σε C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+Μάθετε πώς να διαγράψετε ευαίσθητες πληροφορίες από PDF και να αφαιρέσετε δεδομένα με Aspose.PDF για .NET σε C#.
 
 ## Πρόσθετοι Πόροι
 

@@ -24,19 +24,13 @@ title: Criar documento PDF em C# – Guia passo a passo
 url: /pt/net/document-creation/create-pdf-document-in-c-step-by-step-guide/
 ---
 
-after the comment // Step 6: Save the PDF document, there is no code; it's truncated. Keep as is.
 
-Now after code block, we have closing shortcodes. Keep unchanged.
 
-Make sure all shortcodes remain.
 
-Now produce final output with translated content.
 
-Check for any missed parts: The blockquote lines start with > . Keep formatting.
 
-Also the image alt and title translation.
 
-Now produce final.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

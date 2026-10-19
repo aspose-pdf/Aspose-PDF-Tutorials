@@ -25,21 +25,14 @@ title: Hogyan állítsuk be az ICC-t az Aspose PDF konvertálás során – Telj
 url: /hu/net/document-conversion/how-to-set-icc-in-aspose-pdf-conversion-complete-guide/
 ---
 
-keep **bold** formatting.
 
-Also code block placeholders remain.
 
-List under "What You’ll Need": translate bullet items, keep code file names unchanged.
 
-Proceed.
 
-Table: translate column headers and content? Keep code values unchanged. So Option column values remain same. "What it does" translate to "Mit csinál". "Typical use‑case" -> "Tipikus felhasználási eset". Keep rows.
 
-Proceed.
 
-All other text.
 
-Let's craft final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

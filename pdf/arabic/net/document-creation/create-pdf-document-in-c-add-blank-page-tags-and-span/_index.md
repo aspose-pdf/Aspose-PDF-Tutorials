@@ -22,7 +22,6 @@ title: إنشاء مستند PDF في C# – إضافة صفحة فارغة، و
 url: /ar/net/document-creation/create-pdf-document-in-c-add-blank-page-tags-and-span/
 ---
 
-content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -22,9 +22,8 @@ title: Altere a Opacidade de PDF com Aspose.PDF – Guia Completo em C#
 url: /pt/net/programming-with-stamps-and-watermarks/change-pdf-opacity-with-aspose-pdf-complete-c-guide/
 ---
 
-markdown formatting, code block placeholders unchanged.
 
-Now produce final output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

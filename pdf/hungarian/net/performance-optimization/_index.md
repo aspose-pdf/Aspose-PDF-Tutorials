@@ -61,6 +61,19 @@ Ismerje meg, hogyan tömörítheti a PDF-fájlokat az Aspose.PDF for .NET segít
 
 ### [Optimalizált PDF mentése C#-ban – Méret csökkentése és oldalak tisztítása](./save-optimized-pdf-in-c-reduce-size-clean-pages/)
 Ismerje meg, hogyan menthet optimalizált PDF-et C#-ban, csökkentve a fájlméretet és megtisztítva a felesleges oldalakat.
+### [Hogyan tömörítsük a PDF-et az Aspose.PDF segítségével – gyors útmutató](./how-to-compress-pdf-with-aspose-pdf-quick-guide/)
+Ismerje meg, hogyan lehet gyorsan és hatékonyan tömöríteni PDF-fájlokat az Aspose.PDF for .NET használatával.
+### [Hogyan optimalizálja a PDF-et C#-ban – Csökkentse a fájlméretet gyorsan](./how-to-optimize-pdf-in-c-reduce-file-size-quickly/)
+Ismerje meg, hogyan csökkentheti a PDF-fájlok méretét C#-ban az Aspose.PDF segítségével, gyors és hatékony módszerekkel.
+### [Hogyan tömörítsünk PDF-et az Aspose.PDF segítségével C#-ban – Teljes lépésről lépésre útmutató](./how-to-compress-pdf-with-aspose-pdf-in-c-complete-step-by-st/)
+Ismerje meg, hogyan tömörítheti a PDF-fájlokat az Aspose.PDF for .NET C#-ban, részletes lépésről lépésre útmutatóval a méretcsökkentéshez.
+
+### [Aspose PDF képtömörítés C#-ban – Gyorsan csökkentse a PDF méretét](./aspose-pdf-image-compression-in-c-reduce-pdf-size-quickly/)
+Ismerje meg, hogyan tömörítheti a PDF képeket C#-ban az Aspose.PDF segítségével, hogy gyorsan csökkentse a fájlméretet.
+### [Hogyan optimalizálja a PDF-et – Teljes útmutató az Aspose.Pdf segítségével](./how-to-optimize-pdf-complete-guide-with-aspose-pdf/)
+Ismerje meg a PDF optimalizálásának minden lépését az Aspose.Pdf segítségével, a méretcsökkentéstől a teljesítményjavításig.
+### [Hogyan optimalizálja a PDF-et .NET-ben – PDF tömörítése .NET-ben lépésről lépésre](./how-to-optimize-pdf-in-net-compress-pdf-in-net-step-by-step/)
+Ismerje meg, hogyan tömörítheti a PDF-fájlokat .NET-ben lépésről lépésre az Aspose.PDF segítségével.
 
 ## További források
 

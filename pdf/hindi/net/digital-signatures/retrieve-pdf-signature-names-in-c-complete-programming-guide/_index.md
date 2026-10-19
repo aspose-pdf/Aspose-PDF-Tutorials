@@ -25,7 +25,6 @@ title: C# में PDF सिग्नेचर नाम प्राप्त
 url: /hi/net/digital-signatures/retrieve-pdf-signature-names-in-c-complete-programming-guide/
 ---
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

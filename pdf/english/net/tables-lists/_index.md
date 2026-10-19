@@ -17,6 +17,9 @@ Learn how to create well-structured PDF documents with our Aspose.PDF .NET tutor
 
 ## Available Tutorials
 
+{{< tutorial-card link="./style-table-cells/" title="Customize Table Cell Background, Borders, and Padding in PDFs with Aspose.Pdf for .NET" imgSrc="./style-table-cells/images/thumb.png" >}}
+
+
 ### [Add HTML Ordered List to PDF with Aspose.PDF .NET](./add-html-ordered-list-pdf-aspose-net/)
 A code tutorial for Aspose.PDF Net
 

@@ -21,7 +21,6 @@ title: كيفية استخدام OCSP للتحقق من صحة التوقيع ا
 url: /ar/net/programming-with-security-and-signatures/how-to-use-ocsp-to-validate-pdf-digital-signature-in-c/
 ---
 
-final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

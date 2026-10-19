@@ -20,11 +20,9 @@ title: 为 DOCX 添加贝茨编号并转换为 PDF – 完整 C# 指南
 url: /zh/net/document-conversion/add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/
 ---
 
-: CODE_BLOCK_0-6 already kept.
 
-Also ensure we kept all markdown formatting.
 
-Now produce final output with everything.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

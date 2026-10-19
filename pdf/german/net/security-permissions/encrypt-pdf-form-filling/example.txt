@@ -1,0 +1,46 @@
+//ExStart
+//ExSummary: Dieses Tutorial zeigt, wie man ein bestehendes PDF mit Aspose.Pdf öffnet, die Berechtigungen so einschränkt, dass nur das Ausfüllen von Formularen erlaubt ist, es mit Viewer‑ und Owner‑Passwörtern mittels AES‑256 verschlüsselt und die geschützte Datei speichert.
+//ExStepSummary:0: Definieren Sie die Quell- und Zielpfade sowie die Viewer‑ und Owner‑Passwörter.
+//ExStepSummary:1: Überprüfen Sie, ob das Quell‑PDF existiert, und brechen Sie mit einer Fehlermeldung ab, falls es nicht vorhanden ist.
+//ExStepSummary:2: Starten Sie einen try‑Block, um mögliche Fehler während der Verarbeitung zu behandeln.
+//ExStepSummary:3: Öffnen Sie die vorhandene PDF‑Datei, indem Sie ein Document‑Objekt mit dem Namen pdfDoc erstellen.
+//ExStepSummary:4: Setzen Sie die Berechtigungen so, dass nur das Ausfüllen von Formularen erlaubt ist, verschlüsseln Sie das Dokument mit Viewer‑ und Owner‑Passwörtern mittels AES‑256 und speichern Sie das geschützte PDF.
+//ExStepSummary:5: Geben Sie eine Bestätigungsnachricht in der Konsole aus und schließen Sie den try‑Block.
+//ExStepSummary:6: Fangen Sie alle Ausnahmen ab und geben Sie die Fehlermeldung in der Konsole aus.
+//ExStep:0-
+        const string sourceFile = "sample.pdf";
+        const string destFile = "protected.pdf";
+        const string viewerPass = "viewerPass";
+        const string adminPass = "adminPass";
+
+//ExStep:1-
+        if (!File.Exists(sourceFile))
+        {
+            Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+            return;
+        }
+
+//ExStep:2-
+        try
+        {
+
+//ExStep:3-
+            using (Document pdfDoc = new Document(sourceFile))
+
+//ExStep:4-
+            {
+                Permissions allowed = Permissions.FillForm;
+                pdfDoc.Encrypt(viewerPass, adminPass, allowed, CryptoAlgorithm.AESx256);
+                pdfDoc.Save(destFile);
+            }
+
+//ExStep:5-
+            Console.WriteLine($"Secure PDF written to '{destFile}'.");
+        }
+
+//ExStep:6-
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Exception occurred: {ex.Message}");
+        }
+//ExEnd

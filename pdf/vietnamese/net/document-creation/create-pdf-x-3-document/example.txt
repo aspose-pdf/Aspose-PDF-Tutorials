@@ -1,0 +1,33 @@
+//ExStart
+//ExSummary: Hướng dẫn này trình bày cách tạo một tài liệu PDF mới, thêm ba trang trống, chuyển đổi nó sang tuân thủ PDF/X‑3 đồng thời ghi lại các lỗi chuyển đổi, và lưu tệp kết quả bằng lớp Document của Aspose.Pdf.
+//ExStepSummary:0: Xác định tên tệp PDF đầu ra và đường dẫn cho nhật ký chuyển đổi.
+//ExStepSummary:1: Tạo một đối tượng Document mới trong khối using để đảm bảo giải phóng tài nguyên đúng cách.
+//ExStepSummary:2: Thêm ba trang trống vào tài liệu, tăng số lượng trang của nó.
+//ExStepSummary:3: Chuyển đổi tài liệu sang định dạng PDF/X‑3, ghi lại bất kỳ vấn đề chuyển đổi nào vào tệp nhật ký.
+//ExStepSummary:4: Lưu tài liệu tuân thủ PDF/X‑3 vào đĩa và đóng khối using.
+//ExStepSummary:5: In thông báo xác nhận lên console để chỉ ra vị trí lưu tệp.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+        const string resultFile = "final_pdfx3_output.pdf";
+        const string conversionLog = "pdfx3_conversion_log.xml";
+
+//ExStep:1-
+        using (Document pdfDoc = new Document())
+        {
+
+//ExStep:2-
+            pdfDoc.Pages.Add();
+            pdfDoc.Pages.Add();
+            pdfDoc.Pages.Add();
+
+//ExStep:3-
+            pdfDoc.Convert(conversionLog, PdfFormat.PDF_X_3, ConvertErrorAction.Delete);
+
+//ExStep:4-
+            pdfDoc.Save(resultFile);
+        }
+
+//ExStep:5-
+        Console.WriteLine($"PDF/X‑3 file written to '{resultFile}'.");
+//ExEnd

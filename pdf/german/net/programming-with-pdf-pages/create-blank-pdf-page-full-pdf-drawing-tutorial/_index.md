@@ -24,11 +24,8 @@ title: Leere PDF‑Seite erstellen – Vollständiges PDF‑Zeichnungstutorial
 url: /de/net/programming-with-pdf-pages/create-blank-pdf-page-full-pdf-drawing-tutorial/
 ---
 
-table format.
 
-Translate "Prerequisites", "Pro tip", etc.
 
-Let's produce.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

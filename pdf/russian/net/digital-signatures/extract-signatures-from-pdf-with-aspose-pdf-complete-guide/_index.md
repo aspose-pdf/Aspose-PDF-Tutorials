@@ -23,17 +23,11 @@ title: Извлечение подписей из PDF с помощью Aspose.P
 url: /ru/net/digital-signatures/extract-signatures-from-pdf-with-aspose-pdf-complete-guide/
 ---
 
-process". So translate that too.
 
-Now step headings: "## What You’ll Need Before You Start" -> "## Что понадобится перед началом". List items translate.
 
-"## Extract signatures from PDF – Step‑by‑Step Overview" -> "## Извлечение подписей из PDF – Пошаговый обзор". Then subheadings "### Step 1: Set Up Your Project and Install Aspose.Pdf" -> "### Шаг 1: Настройте проект и установите Aspose.Pdf". etc.
 
-Translate all paragraphs.
 
-Preserve code block placeholders.
 
-Now produce final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

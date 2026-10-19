@@ -38,8 +38,6 @@ url: /ar/net/digital-signatures/load-signed-pdf-document-and-list-its-signatures
 
 بدون أدوات خارجية، دون اختصارات غامضة مثل “see the docs”—فقط مثال كامل وقابل للتنفيذ يمكنك نسخه‑ولصقه في Visual Studio اليوم.
 
-![مخطط يوضح تدفق تحميل مستند PDF موقع واستخراج توقيعاته](alt="load signed pdf document flow diagram")
-
 ## المتطلبات المسبقة
 
 قبل أن نبدأ، تأكد من أن لديك ما يلي على جهازك:

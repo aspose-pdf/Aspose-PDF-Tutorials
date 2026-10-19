@@ -17,6 +17,8 @@ Kuasai fitur-fitur interaktif PDF dengan tutorial formulir dan anotasi Aspose.PD
 
 ## Tutorial yang Tersedia
 
+
+{{< tutorial-card link="./exclude-annotations/" title="Perbandingan PDF Berdampingan dengan Mengecualikan Anotasi menggunakan Aspose.Pdf untuk .NET" imgSrc="./exclude-annotations/images/thumb.png" >}}
 ### [Menambahkan Kolom Formulir ke PDF Menggunakan Aspose.PDF untuk .NET: Panduan Lengkap](./add-pdf-form-fields-aspose-pdf-dotnet/)
 Pelajari cara menambahkan teks, kotak centang, kotak kombo, kotak daftar, dan bidang multi-baris ke PDF menggunakan Aspose.PDF untuk .NET. Panduan ini mencakup penyiapan, contoh kode, dan kiat integrasi.
 

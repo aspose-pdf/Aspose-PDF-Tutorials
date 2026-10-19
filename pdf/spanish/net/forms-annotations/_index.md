@@ -17,6 +17,8 @@ Domine las funciones interactivas de PDF con nuestros completos tutoriales de fo
 
 ## Tutoriales disponibles
 
+
+{{< tutorial-card link="./exclude-annotations/" title="Comparación PDF lado a lado excluyendo anotaciones con Aspose.Pdf for .NET" imgSrc="./exclude-annotations/images/thumb.png" >}}
 ### [Cómo agregar campos de formulario a archivos PDF con Aspose.PDF para .NET: una guía completa](./add-pdf-form-fields-aspose-pdf-dotnet/)
 Aprenda a agregar texto, casillas de verificación, cuadros combinados, cuadros de lista y campos multilínea a archivos PDF con Aspose.PDF para .NET. Esta guía abarca la configuración, ejemplos de código y consejos de integración.
 

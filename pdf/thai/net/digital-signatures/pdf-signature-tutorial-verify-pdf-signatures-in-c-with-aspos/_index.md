@@ -23,7 +23,7 @@ title: บทเรียนการเซ็น PDF – ตรวจสอบ�
 url: /th/net/digital-signatures/pdf-signature-tutorial-verify-pdf-signatures-in-c-with-aspos/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

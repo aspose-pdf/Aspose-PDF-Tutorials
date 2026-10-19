@@ -23,6 +23,11 @@ Een codetutorial voor Aspose.PDF Net
 ### [PDF naar PDF/A converteren met Aspose.PDF .NET: een stapsgewijze handleiding voor naleving](./convert-pdf-to-pdfa-aspose-dotnet-guide/)
 Leer hoe u gewone PDF's kunt converteren naar PDF/A-1b-compatibele documenten met Aspose.PDF .NET. Zorg voor archiefkwaliteit en naleving met deze gedetailleerde, stapsgewijze handleiding.
 
+### [PDF naar PDF/A converteren in C# – Stapsgewijze handleiding](./convert-pdf-to-pdf-a-in-c-step-by-step-guide/)
+Leer hoe u met C# PDF-bestanden omzet naar PDF/A-formaat met een duidelijke, stap‑voor‑stap handleiding.
+### [PDF naar PDF/A converteren in C# – Complete stapsgewijze handleiding](./convert-pdf-to-pdf-a-in-c-complete-step-by-step-guide/)
+Leer hoe u met C# PDF-bestanden omzet naar PDF/A-formaat met een volledige, stapsgewijze uitleg en voorbeeldcode.
+
 ### [Converteer PDF naar PDF/A-3B met Aspose.PDF voor .NET](./convert-pdf-to-pdfa-3b-aspose-net/)
 Een codetutorial voor Aspose.PDF Net
 
@@ -31,6 +36,9 @@ Leer hoe u toegankelijke, getagde PDF-documenten maakt en de naleving ervan vali
 
 ### [PDF's converteren naar PDF/X-4 met Aspose.PDF voor .NET: stapsgewijze handleiding](./convert-pdfs-to-pdf-x4-aspose-dotnet-guide/)
 Leer hoe u standaard PDF-documenten kunt converteren naar het robuuste PDF/X-4-formaat met Aspose.PDF voor .NET. Deze handleiding behandelt de installatie, implementatie en probleemoplossing.
+
+### [PDF naar PDF/X-1A converteren met Aspose.PDF voor .NET: stapsgewijze handleiding](./convert-pdf-to-pdf-x-1a-how-to-create-pdf-x-1a-document/)
+Leer hoe u een PDF-bestand kunt omzetten naar het archiefformaat PDF/X-1A met Aspose.PDF voor .NET. Volg de stapsgewijze instructies voor correcte creatie.
 
 ### [PDF/A-1a valideren met Aspose.PDF voor .NET: een uitgebreide handleiding](./validate-pdf-a-1a-aspose-pdf-dotnet/)
 Leer hoe u PDF/A-1a-compliance kunt valideren met Aspose.PDF voor .NET. Deze handleiding biedt stapsgewijze instructies, codevoorbeelden en integratietips.
@@ -42,6 +50,10 @@ Leer hoe u PDF-documenten kunt valideren volgens PDF/A-standaarden met Aspose.PD
 Leer stap voor stap hoe u met Aspose.PDF voor .NET een PDF/A-bestand maakt en volledig converteert vanuit C#.
 ### [Hoe PDF/A te maken in C# – Stapsgewijze Aspose-gids](./how-to-create-pdf-a-in-c-step-by-step-aspose-guide/)
 Leer hoe u met Aspose.PDF in C# PDF/A‑documenten maakt, stap voor stap, met voorbeeldcode en nalevingsrichtlijnen.
+### [Hoe PDF/A maken in C# – PDF eenvoudig converteren naar PDF/A](./how-to-create-pdf-a-in-c-convert-pdf-to-pdf-a-easily/)
+Leer stap voor stap hoe u met Aspose.PDF in C# een PDF naar PDF/A converteert, zodat u snel archiefklare documenten maakt.
+### [Hoe ICC in Aspose PDF instellen – Complete C#‑gids](./how-to-set-icc-in-aspose-pdf-complete-c-guide/)
+Leer hoe u ICC‑kleurenprofielen instelt in Aspose PDF met een volledige C#‑handleiding voor nauwkeurige kleurweergave.
 
 ## Aanvullende bronnen
 

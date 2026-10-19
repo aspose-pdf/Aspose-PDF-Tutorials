@@ -23,9 +23,7 @@ title: كيفية إصلاح PDF في C# – إصلاح ملفات PDF التا�
 url: /ar/net/document-manipulation/how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/
 ---
 
-Also keep markdown formatting.
 
-Let's craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

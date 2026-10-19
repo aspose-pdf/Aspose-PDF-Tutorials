@@ -24,9 +24,8 @@ title: Εξαγωγή PDF σε HTML & Επικύρωση υπογραφής PDF 
 url: /el/net/digital-signatures/export-pdf-to-html-validate-pdf-signature-with-aspose/
 ---
 
-unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

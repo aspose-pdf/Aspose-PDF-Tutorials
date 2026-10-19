@@ -23,7 +23,7 @@ title: วิธีติดตั้ง Aspose – คู่มือ PowerShel
 url: /th/net/getting-started/how-to-install-aspose-powershell-guide-for-specific-versions/
 ---
 
-.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

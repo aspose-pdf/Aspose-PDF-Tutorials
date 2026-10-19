@@ -17,6 +17,12 @@
 
 ## البرامج التعليمية المتاحة
 
+
+{{< tutorial-card link="./encrypt-pdf-form-filling/" title="تشفير PDF للسماح بملء النماذج فقط باستخدام Aspose.Pdf for .NET" imgSrc="./encrypt-pdf-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-form-filling/" title="تشفير PDF لتعبئة النماذج فقط باستخدام AES‑256 مع Aspose.Pdf for .NET" imgSrc="./encrypt-form-filling/images/thumb.png" >}}
+
+{{< tutorial-card link="./encrypt-pdf-no-print/" title="تشفير PDF بدون إذن طباعة باستخدام Aspose.PDF for .NET" imgSrc="./encrypt-pdf-no-print/images/thumb.png" >}}
 ### [تغيير كلمات مرور PDF باستخدام Aspose.PDF لـ .NET](./change-pdf-password-aspose-pdf-net-guide/)
 برنامج تعليمي لبرمجة Aspose.PDF Net
 
@@ -62,6 +68,9 @@
 ### [إتقان تحرير ملفات PDF باستخدام Aspose.PDF .NET: دليل شامل للتعامل الآمن مع المستندات](./mastering-pdf-redaction-aspose-pdf-net-guide/)
 تعرّف على كيفية تحرير ملفات PDF بأمان باستخدام Aspose.PDF .NET. يتناول هذا الدليل أساليب التعليقات التوضيحية والواجهات، لضمان توافق مستنداتك مع المعايير.
 
+### [كيفية إخفاء محتوى PDF باستخدام Aspose.Pdf – دليل شامل خطوة بخطوة](./how-to-redact-pdf-with-aspose-pdf-complete-step-by-step-guid/)
+تعرّف على كيفية إخفاء المعلومات الحساسة من ملفات PDF باستخدام Aspose.Pdf خطوة بخطوة مع أمثلة C# عملية.
+
 ### [فتح وفك تشفير ملفات PDF باستخدام Aspose.PDF لـ .NET: دليل كامل](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 تعرّف على كيفية فتح وفك تشفير ملفات PDF المحمية باستخدام Aspose.PDF لـ .NET بلغة C#. يغطي هذا الدليل خطوات الإعداد وفك التشفير وأفضل الممارسات.
 
@@ -70,6 +79,8 @@
 
 ### [تطبيق الحجب على ملفات PDF باستخدام مدير الإضافات Aspose – دليل شامل](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
 دليل شامل لتطبيق الحجب على مستندات PDF باستخدام مدير الإضافات Aspose.
+### [كيفية تحرير PDF وإزالة البيانات الحساسة في C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
+تعلم كيفية تحرير ملفات PDF وإزالة المعلومات الحساسة باستخدام Aspose.PDF لـ .NET بلغة C#.
 
 ## موارد إضافية
 

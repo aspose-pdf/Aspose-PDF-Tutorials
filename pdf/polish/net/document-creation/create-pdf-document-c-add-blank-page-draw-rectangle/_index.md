@@ -25,11 +25,8 @@ title: Utwórz dokument PDF w C# – Dodaj pustą stronę i narysuj prostokąt
 url: /pl/net/document-creation/create-pdf-document-c-add-blank-page-draw-rectangle/
 ---
 
-unchanged.
 
-Also keep the shortcodes at start and end.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

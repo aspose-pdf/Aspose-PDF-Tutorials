@@ -24,9 +24,7 @@ title: Φόρτωση PDF Εγγράφου C# – Πλήρης Οδηγός γι
 url: /el/net/programming-with-security-and-signatures/load-pdf-document-c-complete-guide-to-reading-and-listing-si/
 ---
 
-; they will be replaced later. So we keep them.
 
-Now produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

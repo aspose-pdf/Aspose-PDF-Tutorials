@@ -23,11 +23,9 @@ title: إنشاء PDF قابل للوصول باستخدام Aspose.Pdf – دل
 url: /ar/net/programming-with-tagged-pdf/create-accessible-pdf-with-aspose-pdf-step-by-step-guide/
 ---
 
-All preserved.
 
-Make sure to keep markdown formatting, code block placeholders unchanged.
 
-Now produce final answer with only translated content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

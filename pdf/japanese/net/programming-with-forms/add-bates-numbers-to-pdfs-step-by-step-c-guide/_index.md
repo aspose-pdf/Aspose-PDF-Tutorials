@@ -20,17 +20,12 @@ title: PDFにベーツ番号を追加 – ステップバイステップ C# ガ�
 url: /ja/net/programming-with-forms/add-bates-numbers-to-pdfs-step-by-step-c-guide/
 ---
 
-after that.
 
-We must ensure we keep all shortcodes exactly.
 
-Now produce final content with translations.
 
-Check for any leftover English that should be kept? Technical terms like "add bates numbers" etc remain English. Already kept.
 
-Make sure to preserve bold formatting.
 
-Now craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

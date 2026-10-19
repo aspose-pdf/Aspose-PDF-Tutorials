@@ -18,6 +18,8 @@ Nossos tutoriais de criação de documentos oferecem orientações abrangentes p
 ## Tutoriais disponíveis
 
 
+
+{{< tutorial-card link="./create-pdf-x-3-document/" title="Criar Documento PDF/X‑3 com Três Páginas Usando Aspose.Pdf para .NET" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
 ### [Crie livretos em PDF usando Aspose.PDF para .NET: um guia passo a passo](./aspose-pdf-net-create-booklets-tutorial/)
 Aprenda a criar livretos em PDF profissionais com o Aspose.PDF para .NET. Este tutorial aborda configuração, implementação e aplicações práticas.
 ### [Crie PDFs a partir de XML e XSLT usando Aspose.PDF .NET: um guia passo a passo](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)
@@ -67,8 +69,6 @@ Aprenda a criar documentos PDF em C# passo a passo usando Aspose.PDF para .NET.
 
 ### [Criar documento PDF com Aspose.PDF – adicionar página, forma e salvar](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Aprenda a criar um documento PDF, adicionar páginas e formas, e salvar o arquivo usando Aspose.PDF para .NET.
-### [Crie um documento PDF com Aspose.PDF – Guia passo a passo](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
-Aprenda a criar documentos PDF com Aspose.PDF usando um guia passo a passo detalhado.
 ### [Criar documento PDF com Aspose em C# – Guia passo a passo](./create-pdf-document-with-aspose-in-c-step-by-step-guide/)
 Aprenda a criar documentos PDF com Aspose usando C# em um guia passo a passo detalhado.
 ### [Criar documento PDF C# – Adicionar página em branco e desenhar retângulo](./create-pdf-document-c-add-blank-page-draw-rectangle/)
@@ -84,6 +84,34 @@ Aprenda a adicionar numeração Bates a documentos PDF usando Aspose.PDF para .N
 
 ### [Crie documento PDF – adicione página em branco, desenhe retângulo e salve](./create-pdf-document-add-blank-page-draw-rectangle-save/)
 Aprenda a criar um documento PDF, inserir uma página em branco, desenhar um retângulo e salvar o arquivo usando Aspose.PDF para .NET.
+
+### [Criar documento PDF com Aspose.PDF – Guia passo a passo](./create-pdf-document-with-aspose-pdf-step-by-step-guide/)
+Aprenda a criar documentos PDF passo a passo com Aspose.PDF para .NET, cobrindo configuração, adição de conteúdo e salvamento.
+
+### [Criar documento PDF com Aspose.PDF – Guia completo em C#](./create-pdf-document-with-aspose-pdf-full-c-guide/)
+Aprenda passo a passo como criar um documento PDF usando Aspose.PDF em C#, com exemplos completos de código.
+### [Criar documento PDF em C# – Adicionar página ao PDF e desenhar retângulo](./create-pdf-document-in-c-add-page-to-pdf-draw-rectangle/)
+Aprenda a criar um documento PDF, adicionar páginas e desenhar retângulos usando Aspose.PDF para .NET em C#.
+
+
+### [Criar documento PDF em C# – Guia completo para geração em memória](./create-pdf-document-in-c-full-guide-to-in-memory-generation/)
+Aprenda a gerar PDFs totalmente em memória usando Aspose.PDF para .NET em C#, sem criar arquivos temporários.
+
+### [Criar documento PDF C# – Guia passo a passo para adicionar uma página em branco e desenhar um retângulo](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
+Aprenda a criar um documento PDF, adicionar uma página em branco e desenhar um retângulo usando Aspose.PDF para .NET em C#.
+
+### [Criar imagem PDF a partir de HEIC – Guia completo em C#](./create-pdf-image-from-heic-complete-c-guide/)
+Aprenda a gerar PDFs contendo imagens HEIC usando Aspose.PDF para .NET com código C# completo.
+
+### [Criar documento PDF com Aspose.Pdf – Guia completo passo a passo](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+Aprenda a criar documentos PDF com Aspose.PDF usando um guia passo a passo completo.
+
+### [Criar novo documento PDF com numeração Bates em C#](./create-new-pdf-document-with-bates-numbering-in-c/)
+Aprenda a gerar documentos PDF com numeração Bates usando Aspose.PDF para .NET em C#.
+
+### [Criar documento PDF/X‑4 em C# – guia passo a passo](./create-pdf-x-4-document-c-step-by-step-guide/)
+### [Criar documento PDF com página em branco e retângulo](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
+Aprenda a criar um documento PDF, inserir uma página em branco e desenhar um retângulo usando Aspose.PDF para .NET.
 
 ## Recursos adicionais
 

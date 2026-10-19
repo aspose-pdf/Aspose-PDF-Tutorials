@@ -26,17 +26,11 @@ title: Aláírás ellenőrzése PDF-ben az Aspose.Pdf használatával – C# út
 url: /hu/net/digital-signatures/how-to-verify-signature-in-pdf-with-aspose-pdf-c-guide/
 ---
 
-do I handle certificates that aren’t trusted?" etc.
 
-Also translate "Does this work with PDF/A or PDF/X files?" etc.
 
-Also translate "Conclusion" etc.
 
-Also translate final bullet list.
 
-Make sure to keep markdown formatting.
 
-Let's produce final translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

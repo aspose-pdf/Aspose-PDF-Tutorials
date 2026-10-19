@@ -22,9 +22,7 @@ title: تحميل مستند PDF C# – دليل كامل لقراءة وتعد�
 url: /ar/net/programming-with-security-and-signatures/load-pdf-document-c-complete-guide-to-reading-and-listing-si/
 ---
 
-unchanged.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
