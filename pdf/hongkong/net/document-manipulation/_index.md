@@ -16,6 +16,7 @@
 透過我們詳細的 Aspose.PDF .NET 教學掌握 PDF 文件操作。這些逐步指南示範如何處理文件結構、修改現有 PDF、分割和合併文件、新增和刪除頁面以及以程式設計方式組織 PDF 內容。每個教學課程都包含可用的 C# 程式碼範例、實施說明和最佳實踐，以幫助您建立使用乾淨、可維護的程式碼高效操作 PDF 文件的應用程式。
 
 ## 可用教程
+
 ### [使用 Aspose.PDF for .NET 為 PDF 新增日期和時間戳記註解](./aspose-pdf-net-date-time-stamps-annotations/)
 了解如何使用 Aspose.PDF for .NET 有效率地將日期和時間戳記或註解新增至 PDF 文件中。透過這些簡單易行的步驟來增強文件管理。
 
@@ -36,6 +37,8 @@ Aspose.PDF Net 程式碼教學
 
 ### [使用 Aspose.PDF .NET 新增矩形和配置 PDF 頁面：綜合指南](./aspose-pdf-net-add-rectangles-configure-pages/)
 掌握使用 Aspose.PDF for .NET 在 PDF 中新增矩形和設定頁面。按照本指南可以有效地學習文件操作技術。
+
+### [使用 C# 向 PDF 新增矩形 – 完整程式設計指南](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
 
 ### [Aspose.PDF .NET：設定 PDF 頁邊距和自訂頁首/頁尾](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 掌握使用 Aspose.PDF for .NET 設定 PDF 頁邊距和自訂頁首/頁尾的技巧。請按照此詳細指南來增強文件佈局的一致性。
@@ -317,14 +320,30 @@ Aspose.PDF Net 程式碼教學
 ### [如何在 C# 中修復 PDF – 快速修復損壞的 PDF 檔案](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中快速修復受損的 PDF 檔案，恢復其內容與結構。
 
-### [如何使用 Aspose.PDF 扁平化 PDF – 完整指南](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
-了解如何使用 Aspose.PDF for .NET 將 PDF 扁平化，以防止內容被編輯或修改。
-
 ### [如何使用 Aspose.PDF 比較 PDF – 逐步指南](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
 了解如何使用 Aspose 在 .NET 中逐步比較 PDF 文件，找出差異並生成比較報告。
 
 ### [使用 Aspose.PDF 從 PDF 中移除字體 – 步驟指南](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
 了解如何使用 Aspose.PDF for .NET 從 PDF 文件中移除嵌入字體，以減少檔案大小並優化文件。
+### [如何在 PDF 中移除嵌入字型 – 步驟式 C# 教學](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中移除 PDF 檔案的嵌入字型，以減少檔案大小並優化效能。
+
+### [在 C# 中平鋪 PDF 圖層 – 匯出與提取指南](./flatten-pdf-layers-in-c-export-extract-guide/)
+
+### [如何使用 Aspose.PDF for .NET 平鋪 PDF – 完整指南](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+了解如何使用 Aspose.PDF for .NET 將 PDF 文件平鋪，移除圖層並產生單一內容層的完整步驟。
+
+### [C# 中的視覺化 PDF 差異比較 – 完整指南：比較兩個 PDF](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
+
+### [在 C# 中合併 PDF 圖層 – 如何結合 PDF 圖層](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中合併 PDF 圖層，將多個圖層結合為單一文件。
+
+### [使用 Aspose.PDF 修復 PDF 檔案 – 完整指南](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
+了解如何使用 Aspose.PDF 修復受損或錯誤的 PDF 檔案，提供完整步驟與範例程式碼。
+### [儲存已更新的 PDF – 使用 Aspose.Pdf 編輯 PDF 資源](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+
+### [使用 Aspose.PDF 保存已修改的 PDF – 完整 C# 教學](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中保存已修改的 PDF 文件，涵蓋完整步驟與最佳實踐。
 
 ## 其他資源
 

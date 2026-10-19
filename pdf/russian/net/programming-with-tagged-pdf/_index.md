@@ -52,6 +52,12 @@
 | [Создать тегированный PDF в C# – Добавить заголовок и доступный текст](./create-tagged-pdf-in-c-add-heading-accessible-text/) | Узнайте, как создать тегированный PDF в C# с заголовком и доступным текстом, используя Aspose.PDF для .NET. |
 | [Создание доступного PDF с Aspose.Pdf – пошаговое руководство](./create-accessible-pdf-with-aspose-pdf-step-by-step-guide/) | Узнайте, как создать доступный PDF с помощью Aspose.Pdf, следуя пошаговому руководству. |  
 | [Создать тегированный PDF на C# – пошаговое руководство](./create-tagged-pdf-in-c-step-by-step-guide/) | Подробное руководство по созданию тегированного PDF в C# с использованием Aspose.PDF для .NET. |  
+| [Создать PDF-документ C# – Полное руководство с тегированным текстом и позиционированием](./create-pdf-document-c-full-guide-with-tagged-text-and-positi/) | Подробное руководство по созданию PDF-документа на C# с тегированным текстом и управлением позиционированием элементов. |  
+| [Создать доступный текстовый фрагмент в PDF с Aspose: Полное руководство на C#](./create-accessible-text-span-in-pdf-with-aspose-full-c-guide/) | Подробное руководство по созданию доступных текстовых фрагментов в PDF с помощью Aspose.PDF для .NET на C#. |  
+| [Как редактировать тегированный PDF с Aspose.Pdf – Полное руководство](./how-to-edit-tagged-pdf-with-aspose-pdf-complete-guide/) | Узнайте, как редактировать тегированные PDF-файлы с помощью Aspose.Pdf в полном пошаговом руководстве. |  
+| [Создать тегированный PDF на C# – Полное пошаговое руководство](./create-tagged-pdf-in-c-full-step-by-step-guide/) | Полное пошаговое руководство по созданию тегированного PDF в C# с помощью Aspose.PDF, охватывающее все детали. |
+| [Как пометить PDF с помощью Aspose.Pdf – Полное руководство по программированию](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | Подробное пошаговое руководство по тегированию PDF с помощью Aspose.Pdf, охватывающее все аспекты программирования. |  
+| [Создать элемент Span в PDF с Aspose – загрузить PDF и пометить содержимое](./create-span-element-pdf-with-aspose-load-pdf-aspose-and-tag/) | Узнайте, как создать элемент Span, загрузить PDF и пометить содержимое с помощью Aspose.PDF для .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

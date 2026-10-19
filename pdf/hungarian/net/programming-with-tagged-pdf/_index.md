@@ -48,6 +48,11 @@ Az Aspose.PDF for .NET „Címkézett PDF-ekkel való programozás” című okt
 | [Címkézett PDF létrehozása C#‑ban – Teljes lépésről‑lépésre útmutató](./create-tagged-pdf-in-c-complete-step-by-step-guide/) | Ismerje meg, hogyan hozhat létre teljesen címkézett PDF-et C#‑ban az Aspose.PDF for .NET segítségével, részletes lépésről‑lépésre útmutatóval. |  
 | [Címkézett PDF létrehozása C#‑ban – Aspose PDF teljes útmutató](./create-tagged-pdf-in-c-aspose-pdf-complete-guide/) | Ismerje meg, hogyan hozhat létre teljesen címkézett PDF-et C#‑ban az Aspose.PDF for .NET segítségével, részletes lépésről‑lépésre útmutatóval. |  
 | [PDF-dokumentum létrehozása – Címkézett szöveg abszolút pozíciójának beállítása](./create-pdf-document-set-absolute-position-for-tagged-text/) | Tanulja meg, hogyan állíthat be abszolút pozíciót a címkézett szöveghez PDF-dokumentumban az Aspose.PDF for .NET segítségével. |  
+| [PDF dokumentum létrehozása C# – Teljes útmutató címkézett szöveggel és pozicionálással](./create-pdf-document-c-full-guide-with-tagged-text-and-positi/) | Lépésről lépésre útmutató PDF dokumentum C#-ban történő létrehozásához, címkézett szöveggel és elemek pozicionálásával. |
+| [Hozzon létre hozzáférhető szövegrészt PDF-ben az Aspose segítségével: Teljes C# útmutató](./create-accessible-text-span-in-pdf-with-aspose-full-c-guide/) | Lépésről lépésre bemutatja, hogyan hozhat létre hozzáférhető szövegrészt PDF-ben az Aspose.PDF for .NET C# használatával. |  
+| [Hogyan szerkesszünk címkézett PDF-et az Aspose.Pdf segítségével – Teljes útmutató](./how-to-edit-tagged-pdf-with-aspose-pdf-complete-guide/) | Ismerje meg, hogyan szerkesztheti a címkézett PDF-eket az Aspose.Pdf használatával részletes, lépésről‑lépésre útmutatóval. |
+| [Címkézett PDF létrehozása C#‑ban – Teljes lépésről‑lépésre útmutató](./create-tagged-pdf-in-c-full-step-by-step-guide/) | Ismerje meg, hogyan hozhat létre teljesen címkézett PDF-et C#‑ban az Aspose.PDF for .NET segítségével, részletes lépésről‑lépésre útmutatóval. |  
+| [Hogyan címkézzünk PDF-et az Aspose.PDF‑vel – Teljes programozási útmutató](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | Ismerje meg, hogyan címkézhet PDF-fájlokat az Aspose.PDF for .NET segítségével egy részletes, lépésről‑lépésre útmutatóban. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -24,6 +24,9 @@ Aspose.PDF for .NET'in "Operatörlerle Programlama" eğitimleri, PDF programlama
 | [PDF Operatörleri](./pdf-operators/) | Aspose.PDF for .NET ile PDF operatörlerini kullanma konusunda adım adım kılavuz. Bir PDF sayfasına resim ekleyin ve konumunu belirtin. |  
 | [PDF Dosyasındaki Grafik Nesnelerini Kaldır](./remove-graphics-objects/) Bu adım adım kılavuzda Aspose.PDF for .NET kullanarak bir PDF dosyasından grafik nesnelerinin nasıl kaldırılacağını öğrenin. PDF düzenleme görevlerinizi basitleştirin. |  
 | [C# Koleksiyonunu Döndür – Öğeler Üzerinde Döngü Oluşturma Basit Rehberi](./iterate-collection-c-simple-guide-to-loop-over-items/) | Aspose.PDF for .NET kullanarak C# koleksiyonları üzerinde döngü oluşturmayı ve öğeleri işlemeyi öğrenin. |  
+| [C#'ta Boş PDF Sözlüğü Oluşturma – Tam Aspose.Pdf Rehberi](./create-empty-pdf-dictionary-in-c-complete-aspose-pdf-guide/) | Aspose.PDF for .NET kullanarak C# ile boş bir PDF sözlüğü oluşturmayı adım adım öğrenin. |  
+| [C# ile Aspose.Pdf kullanarak PDF şeffaflığını nasıl değiştirirsiniz](./how-to-change-pdf-transparency-in-c-using-aspose-pdf/) | Aspose.PDF for .NET ile PDF belgelerinin şeffaflık ayarlarını değiştirmeyi adım adım öğrenin. |  
+| [Aspose.Pdf ile PDF'de Özel Grafik Durumu Oluşturma](./create-custom-graphics-state-in-pdf-using-aspose-pdf/) | Aspose.PDF for .NET ile PDF içinde özel bir grafik durumu nasıl oluşturulur öğrenin. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

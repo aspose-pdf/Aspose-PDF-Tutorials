@@ -54,6 +54,8 @@ Leer hoe u een aangepaste zoomfactor in PDF-documenten instelt met Aspose.PDF vo
 Leer hoe u PDF's rendert naar PNG, HTML en stempelt met Aspose.PDF voor .NET in C#.
 ### [PDF renderen als PNG in C# – Stapsgewijze handleiding](./how-to-render-pdf-as-png-in-c-step-by-step-guide/)
 Leer hoe u PDF-bestanden kunt converteren naar PNG-afbeeldingen met Aspose.PDF voor .NET in C# met voorbeeldcode.
+### [PDF converteren voor afdrukken met Aspose.PDF – stapsgewijze handleiding](./convert-pdf-for-printing-with-aspose-pdf-step-by-step-guide/)
+Leer hoe u PDF-bestanden optimaliseert voor afdrukken met Aspose.PDF, inclusief instellingen en codevoorbeelden.
 
 ## Aanvullende bronnen
 

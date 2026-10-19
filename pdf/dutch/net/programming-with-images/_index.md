@@ -50,7 +50,10 @@ De tutorials "Programmeren met afbeeldingen" van Aspose.PDF voor .NET begeleiden
 | [Afbeeldingsgrootte instellen in PDF-bestand](./set-image-size/) | Leer hoe u de afbeeldingsgrootte in een PDF instelt met Aspose.PDF voor .NET. Deze stapsgewijze handleiding helpt u bij het aanpassen van de grootte van afbeeldingen, het aanpassen van pagina-eigenschappen en het opslaan van PDF's. |  
 | [Afbeeldingen in PDF-bestand verkleinen](./shrink-images/) | Verklein eenvoudig afbeeldingen in PDF-bestanden met Aspose.PDF voor .NET aan de hand van deze stapsgewijze handleiding. Zo blijven de bestandsgroottes kleiner, terwijl de kwaliteit behouden blijft. |  
 | [Afbeelding opslaan in XImage-collectie](./store-image-in-ximage-collection/) | Leer hoe u afbeeldingen in de XImage-verzameling opslaat met Aspose.PDF voor .NET in deze complete stapsgewijze handleiding. |  
+| [Afbeeldingen comprimeren in DOCX – Bestandsgrootte verkleinen](./compress-images-in-docx-reduce-file-size/) | Leer hoe u afbeeldingen in een DOCX-bestand kunt comprimeren om de bestandsgrootte te verkleinen met Aspose.Words voor .NET. |
 | [Figuur toevoegen aan Word – Complete C# programmeergids](./add-figure-to-word-complete-c-programming-guide/) | Leer hoe u een afbeelding toevoegt aan een Word-document met C# en Aspose.Words voor .NET. |  
+| [Afbeelding bijsnijden in PDF met Aspose.PDF – Complete gids](./crop-image-in-pdf-with-aspose-pdf-complete-guide/) | Leer hoe u afbeeldingen in een PDF kunt bijsnijden met Aspose.PDF voor .NET via een stapsgewijze handleiding en voorbeeldcode. |
+| [Maak AI Copilot voor PDF‑afbeeldingsbeschrijving – stapsgewijze handleiding](./create-ai-copilot-for-pdf-image-description-step-by-step-gui/) | Leer hoe u een AI‑copilot maakt die automatisch PDF‑afbeeldingen beschrijft, stap voor stap met Aspose.PDF voor .NET. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

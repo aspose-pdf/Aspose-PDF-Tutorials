@@ -73,6 +73,12 @@
 ### [Αποθήκευση κάθε επιπέδου PDF με το Aspose.Pdf – Οδηγός βήμα προς βήμα](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
 Μάθετε πώς να αποθηκεύετε κάθε επίπεδο PDF χρησιμοποιώντας το Aspose.Pdf με αναλυτικές οδηγίες βήμα προς βήμα.
 
+### [Σύγκριση δύο εγγράφων PDF – Πλήρης οδηγός C#](./compare-two-pdf-documents-complete-c-guide/)
+Μάθετε πώς να συγκρίνετε δύο έγγραφα PDF χρησιμοποιώντας C# και Aspose.PDF, δημιουργώντας ακριβείς διαφορές.
+
+### [Σύγκριση εγγράφων PDF με το Aspose.Pdf – Πλήρης Οδηγός Οπτικής Διαφοράς](./compare-pdf-documents-with-aspose-pdf-complete-visual-diff-g/)
+Μάθετε πώς να συγκρίνετε έγγραφα PDF με το Aspose.Pdf, δημιουργώντας οπτικές διαφορές για ακριβή ανάλυση.
+
 ## Πρόσθετοι Πόροι
 
 - [Aspose.PDF για τεκμηρίωση δικτύου](https://docs.aspose.com/pdf/net/)

@@ -1,0 +1,33 @@
+//ExStart
+//ExSummary: يوضح هذا البرنامج التعليمي كيفية إنشاء مستند PDF جديد، وإضافة ثلاث صفحات فارغة، وتحويله إلى توافق PDF/X‑3 مع تسجيل أخطاء التحويل، وحفظ الملف الناتج باستخدام فئة Aspose.Pdf Document.
+//ExStepSummary:0: حدد اسم ملف PDF الناتج والمسار لسجل التحويل.
+//ExStepSummary:1: أنشئ كائن Document جديد داخل كتلة using لضمان التخلص السليم.
+//ExStepSummary:2: أضف ثلاث صفحات فارغة إلى المستند، مما يزيد عدد صفحاته.
+//ExStepSummary:3: حوّل المستند إلى تنسيق PDF/X‑3، مع تسجيل أي مشكلات في التحويل في ملف السجل.
+//ExStepSummary:4: احفظ المستند المتوافق مع PDF/X‑3 على القرص وأغلق كتلة using.
+//ExStepSummary:5: اطبع رسالة تأكيد على وحدة التحكم توضح مكان حفظ الملف.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStep:0-
+        const string resultFile = "final_pdfx3_output.pdf";
+        const string conversionLog = "pdfx3_conversion_log.xml";
+
+//ExStep:1-
+        using (Document pdfDoc = new Document())
+        {
+
+//ExStep:2-
+            pdfDoc.Pages.Add();
+            pdfDoc.Pages.Add();
+            pdfDoc.Pages.Add();
+
+//ExStep:3-
+            pdfDoc.Convert(conversionLog, PdfFormat.PDF_X_3, ConvertErrorAction.Delete);
+
+//ExStep:4-
+            pdfDoc.Save(resultFile);
+        }
+
+//ExStep:5-
+        Console.WriteLine($"PDF/X‑3 file written to '{resultFile}'.");
+//ExEnd

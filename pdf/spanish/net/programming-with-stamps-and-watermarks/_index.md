@@ -15,7 +15,7 @@
 # Programación con sellos y marcas de agua
 
 
-Los tutoriales de Aspose.PDF "Programación con sellos y marcas de agua" para .NET te guían paso a paso para añadir sellos y marcas de agua a tus documentos PDF. Aprenderás a personalizar sellos, aplicar marcas de agua de texto y gráficos, y gestionar su posición y apariencia. Estos tutoriales te ayudarán a añadir una capa de seguridad e identificación a tus archivos PDF de forma sencilla y eficaz.
+Los tutoriales de Aspose.PDF "Programación con sellos y marcas de agua" para .NET te guían paso a paso para añadir sellos y marcas de agua a tus documentos PDF. Aprenderás a personalizar sellos, aplicar marcas de agua de texto y gráficos, y gestionar su posición y apariencia. Estos tutoriales te ayudarán a añadir una capa de seguridad e identificación a sus archivos PDF de forma sencilla y eficaz.
 
 ## Tutoriales
 | Título | Descripción |
@@ -39,6 +39,7 @@ Los tutoriales de Aspose.PDF "Programación con sellos y marcas de agua" para .N
 | [Tabla en la sección de encabezado y pie de página](./table-in-header-footer-section/) Aprenda a agregar texto fácilmente al pie de página de un archivo PDF con Aspose.PDF para .NET. Incluye una guía paso a paso para una integración perfecta.  
 | [Texto en el pie de página del archivo PDF](./text-in-footer/) | Aprenda a agregar texto en el pie de página de un PDF con Aspose.PDF para .NET. |  
 | [Texto en el encabezado del archivo PDF](./text-in-header/) Aprenda a agregar encabezados de texto a archivos PDF con Aspose.PDF para .NET con este tutorial paso a paso. Mejore sus documentos de forma eficiente y eficaz.  
+| [Agregar numeración Bates a PDF en C# – Guía completa](./add-bates-numbering-pdf-in-c-complete-guide/) | Aprenda a aplicar numeración Bates a documentos PDF usando Aspose.PDF para .NET con este tutorial paso a paso. |
 | [Cómo agregar un sello a PDF con Aspose.Pdf – Guía paso a paso](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) | Aprenda a añadir un sello a un documento PDF usando Aspose.Pdf con esta guía paso a paso y ejemplos de código. |
 | [Crear aviso de página completa en PDF – Guía rápida en C#](./create-pdf-full-page-notice-quick-c-guide/) | Aprenda a crear un aviso de página completa en un PDF usando Aspose.PDF para .NET con una guía rápida en C#. |
 | [Tutorial de numeración Bates: agregar números Bates a PDFs con C#](./bates-numbering-tutorial-add-bates-numbers-to-pdfs-with-c/) | Aprenda a añadir números Bates a sus PDFs usando Aspose.PDF para .NET con C# en esta guía paso a paso. |
@@ -53,6 +54,14 @@ Los tutoriales de Aspose.PDF "Programación con sellos y marcas de agua" para .N
 | [Agregar marca de agua PDF en C# – Guía completa con Aspose](./add-watermark-pdf-in-c-complete-guide-with-aspose/) | Aprenda a agregar una marca de agua a un PDF usando Aspose.PDF para .NET con esta guía paso a paso. |  
 | [Agregar numeración Bates a PDFs con C# – Guía completa](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Aprenda a agregar numeración Bates a PDFs con C# usando Aspose.PDF para .NET en esta guía completa paso a paso. |
 | [Agregar numeración Bates a PDFs con Aspose – Guía completa](./add-bates-numbering-to-pdfs-with-aspose-complete-guide/) Aprenda a aplicar numeración Bates a documentos PDF usando Aspose.PDF para .NET con esta guía paso a paso y ejemplos de código.  
+| [Cómo agregar numeración Bates en PDF con C# – Guía completa](./how-to-add-bates-numbering-in-pdf-with-c-complete-guide/) Aprenda a aplicar numeración Bates a documentos PDF usando C# y Aspose.PDF con esta guía paso a paso.  
+| [Agregar numeración Bates a PDF – Guía completa con Aspose](./add-bates-numbering-pdf-complete-guide-with-aspose/) | Aprenda a aplicar numeración Bates a documentos PDF con Aspose.PDF para .NET mediante esta guía completa paso a paso. |
+| [Agregar numeración Bates a PDF en C# – Guía completa paso a paso](./add-bates-numbering-to-pdf-in-c-complete-step-by-step-guide/) | Aprenda a agregar numeración Bates a sus documentos PDF usando Aspose.PDF para .NET con esta guía paso a paso. |
+| [Crear marca de agua de texto en Word con Aspose.Words – Guía completa](./create-text-watermark-in-word-with-aspose-words-complete-gui/) | Aprenda a crear una marca de agua de texto en documentos Word usando Aspose.Words con esta guía paso a paso. |
+| [Cómo agregar un sello PDF – Guía completa con ajuste automático de texto](./how-to-add-stamp-pdf-complete-guide-with-auto-fit-text/) | Aprenda a añadir un sello a un PDF con texto que se ajusta automáticamente, paso a paso y con ejemplos de código en Aspose.PDF para .NET. |  
+| [Tutorial de numeración Bates: agregar números a PDF con Aspose](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) | Aprenda a agregar numeración Bates a sus documentos PDF usando Aspose.PDF para .NET con esta guía paso a paso. |
+| [Cómo agregar marca de agua PDF – Añadir superposición de texto con Aspose](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) | Aprenda a agregar una marca de agua de texto a un PDF usando Aspose.PDF para .NET con este tutorial paso a paso. |
+| [Agregar transparencia a PDF con Aspose.PDF – Guía completa en C#](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) | Aprenda a aplicar transparencia a sus documentos PDF usando Aspose.PDF para .NET con esta guía completa en C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

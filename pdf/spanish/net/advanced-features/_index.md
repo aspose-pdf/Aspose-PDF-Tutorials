@@ -73,6 +73,12 @@ Aprenda a editar la transparencia de archivos PDF usando C# y Aspose.PDF .NET, c
 ### [Cómo ejecutar OCR en PDF con Aspose.Pdf – Guía completa en C#](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
 Aprenda a aplicar OCR a documentos PDF usando Aspose.Pdf en C#, paso a paso y con ejemplos completos.
 
+### [Comparar documentos PDF con Aspose.Pdf – Guía completa de diff visual](./compare-pdf-documents-with-aspose-pdf-complete-visual-diff-g/)
+Aprenda a comparar visualmente documentos PDF y generar diferencias precisas con Aspose.Pdf.
+
+### [Comparar dos documentos PDF – Guía completa en C#](./compare-two-pdf-documents-complete-c-guide/)
+Aprenda a comparar dos documentos PDF en C# y generar diferencias precisas con Aspose.PDF.
+
 ## Recursos adicionales
 
 - [Documentación de Aspose.PDF para la red](https://docs.aspose.com/pdf/net/)

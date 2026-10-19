@@ -46,6 +46,8 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein Rechteck in ein PDF-Dokument 
 
 ### [Wie man PDF validiert und ein Rechteck hinzufügt – Vollständiger Leitfaden](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDFs validieren und Rechtecke hinzufügen, um Dokumente zu prüfen und zu markieren.
+### [Rechteck zu PDF hinzufügen mit C#: Schritt‑für‑Schritt‑Anleitung](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# ein Rechteck zu einem PDF hinzufügen und anpassen.
 
 ### [Erstellen Sie benutzerdefinierte PDF-Stempel mit Aspose.PDF in .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Ein Code-Tutorial für Aspose.PDF Net
@@ -58,9 +60,24 @@ Ein Code-Tutorial für Aspose.PDF Net
 
 ### [Transparenz zu PDF mit Aspose PDF in C# hinzufügen – Schritt‑für‑Schritt‑Anleitung](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET Transparenz in PDF-Dokumenten hinzufügen und anpassen – eine praktische Schritt‑für‑Schritt‑Anleitung.
+### [Wie man Formen zu PDF mit Aspose.PDF in C# hinzufügt – Schritt‑für‑Schritt‑Anleitung](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# Formen zu PDFs hinzufügen und anpassen.
+
+### [Transparenz zu PDF mit Aspose.PDF in C# hinzufügen – Schritt‑für‑Schritt‑Anleitung](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET Transparenz in PDF-Dokumenten hinzufügen und anpassen.
+
+### [Wie man Formen zu PDF mit Aspose.PDF in C# hinzufügt – Schritt‑für‑Schritt‑Anleitung](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET in C# Formen zu PDFs hinzufügen und anpassen.
+### [Wie man Transparenz zu PDF hinzufügt und ein Rechteck in PDF zeichnet mit Aspose.PDF](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+Ein Code-Tutorial für Aspose.PDF Net
 
 ### [Effiziente PDF-Bildidentifizierung mit Aspose.PDF für .NET](./master-image-identification-aspose-pdf-net/)
 Erfahren Sie, wie Sie Graustufen- und RGB-Bilder in PDFs mit Aspose.PDF für .NET identifizieren. Dieses Tutorial behandelt Installation, Bildextraktion und Performance-Tipps.
+
+### [So verwenden Sie GraphicsAbsorber – Vektorgrafiken aus PDF mit Aspose.Pdf extrahieren](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
+Erfahren Sie, wie Sie mit Aspose.Pdf den GraphicsAbsorber einsetzen, um Vektorgrafiken aus PDF-Dateien zu extrahieren.
+### [Grafikstatus zu PDF hinzufügen mit Aspose.PDF – Schritt‑für‑Schritt‑Anleitung](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET den Grafikstatus von PDFs verwalten und anpassen, um komplexe Zeichenoperationen zu steuern.
 
 ### [Konvertieren Sie Bildströme effizient in PDFs mit Aspose.PDF für .NET](./convert-image-stream-to-pdf-aspose-dotnet/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET Bildstreams in professionelle PDF-Dokumente konvertieren. Folgen Sie dieser Schritt-für-Schritt-Anleitung, um Ihre Dokumenten-Workflows zu verbessern.
@@ -181,6 +198,14 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET komplexe LaTeX-Skripte in PDF-Dok
 
 ### [Bildhintergründe in PDFs mit Aspose.PDF für .NET festlegen: Eine umfassende Anleitung](./aspose-pdf-net-set-image-backgrounds/)
 Erfahren Sie, wie Sie Ihre PDF-Dokumente mit Aspose.PDF für .NET durch die Einrichtung von Bildhintergründen optimieren. Diese Anleitung enthält Tipps zur Einrichtung, Implementierung und Optimierung.
+
+### [Verlustfreie Bildkompression in Word-Dokumenten – Komplettanleitung](./lossless-image-compression-in-word-docs-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET verlustfreie Bildkompression in Word-Dokumenten durchführen.
+### [Bildüberlagerungs-PDF-Tutorial – Maske hinzufügen und automatische Tablettauswahl aktivieren](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET Masken überlagern und die automatische Tablettauswahl in PDFs aktivieren.
+### [ExtGState zu PDF mit Aspose.PDF hinzufügen – Vollständige Anleitung](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET ExtGState-Objekte zu PDFs hinzufügen, um Transparenz, Blendmodi und weitere Grafik‑Effekte zu steuern.
+### [Wie Sie den Grafikstatus zu PDFs hinzufügen und Transparenz mit Aspose.PDF steuern: Eine Schritt-für-Schritt-Anleitung](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
 
 ## Weitere Ressourcen
 

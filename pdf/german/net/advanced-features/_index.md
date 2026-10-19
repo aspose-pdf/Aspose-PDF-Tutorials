@@ -71,6 +71,11 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET die Transparenz von PDF-Elementen
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET OCR auf PDF‑Dokumenten ausführen und Text extrahieren – komplette Anleitung in C#.
 ### [Jede PDF‑Ebene mit Aspose.Pdf speichern – Schritt‑für‑Schritt‑Anleitung](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.Pdf jede Ebene eines PDFs einzeln speichern und die Dokumentenverwaltung optimieren.
+### [So vergleichen Sie zwei PDF-Dokumente – Vollständiger C#‑Leitfaden](./compare-two-pdf-documents-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET zwei PDF-Dokumente vergleichen und Unterschiede programmatisch ermitteln.
+
+### [PDF-Dokumente vergleichen mit Aspose.Pdf – Vollständige visuelle Diff-Anleitung](./compare-pdf-documents-with-aspose-pdf-complete-visual-diff-g/)
+Erfahren Sie, wie Sie PDF-Dokumente visuell vergleichen und Unterschiede programmatisch ermitteln.
 
 ## Weitere Ressourcen
 

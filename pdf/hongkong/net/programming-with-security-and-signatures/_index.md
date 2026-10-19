@@ -19,6 +19,9 @@
 本教學將為您詳細概述確保 PDF 文件的機密性和真實性的方法和技術。您將學習如何管理數位憑證、新增安全權限、應用程式安全性原則等。使用這些教程，您將能夠可靠、專業地保護您的 PDF 文件。
 
 ## 教學
+
+{{< tutorial-card link="./encrypt-pdf/" title="使用 Aspose.PDF for .NET 以使用者與擁有者密碼加密 PDF" imgSrc="./encrypt-pdf/images/thumb.png" >}}
+
 |標題 |描述 |
 | --- | --- | 
 | [更改 PDF 文件中的密碼](./change-password/) |學習使用 Aspose.PDF for .NET 輕鬆更改 PDF 密碼。我們的逐步指南將引導您安全地完成整個過程。 |  
@@ -33,12 +36,15 @@
 | [在 PDF 檔案中設定權限](./set-privileges/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 設定 PDF 權限。有效地保護您的文件。 |  
 | [使用 PDF 檔案簽名透過智慧卡進行簽名](./sign-with-smart-card-using-pdf-file-signature/) |了解如何使用 Aspose.PDF for .NET 的智慧卡簽署 PDF 檔案。請按照本逐步指南取得安全的數位簽章。 |  
 | [在 C# 中檢查 PDF 簽章 – 如何讀取已簽署的 PDF 檔案](./check-pdf-signatures-in-c-how-to-read-signed-pdf-files/) |了解如何使用 Aspose.PDF for .NET 在 C# 中讀取並驗證 PDF 簽章的步驟與技巧。 |
+| [如何在 C# 中讀取 PDF 簽章 – 完整指南](./how-to-read-signatures-from-a-pdf-in-c-complete-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中完整讀取 PDF 簽章的步驟與技巧。 |
 | [在 C# 中檢查 PDF 簽章 – 快速指南驗證數位簽名](./check-pdf-signatures-in-c-quick-guide-to-verify-digital-sign/) |了解如何使用 Aspose.PDF for .NET 在 C# 中快速驗證 PDF 數位簽章。 |
 | [檢查 PDF 簽章 – 如何在 C# 中列出簽章（使用 Aspose.PDF）](./check-pdf-for-signatures-how-to-list-signatures-in-c-with-as/) |了解如何使用 Aspose.PDF for .NET 在 C# 中列出 PDF 文件的所有簽章。 |  
 | [如何在 PDF 中使用 C# 驗證簽章 – 完整 Aspose 指南](./how-to-verify-signature-in-pdf-using-c-complete-aspose-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中驗證 PDF 簽章的完整步驟與技巧。 |
 | [在 C# 中新增 PDF 數位簽章 – 完整步驟指南](./add-digital-signature-pdf-in-c-complete-step-by-step-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中為 PDF 新增數位簽章，提供完整的逐步指南。 |
 | [在 C# 中驗證 PDF 數位簽章 – 完整 Aspose.PDF 指南](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) |了解如何使用 Aspose.PDF for .NET 完整驗證 PDF 數位簽章的步驟與技巧。 |
 | [在 C# 中驗證 PDF 簽章 – 完整指南](./validate-pdf-signature-in-c-complete-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中驗證 PDF 簽章的完整指南。 |
+| [在 C# 中檢查 PDF 數位簽章 – 完整指南](./how-to-check-pdf-digital-signature-in-c-complete-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中完整檢查 PDF 數位簽章的步驟與技巧。 |
+| [在 C# 中驗證 PDF 數位簽章 – 驗證 PDF 簽章](./verify-pdf-digital-signature-in-c-validate-pdf-signature/) |了解如何在 C# 中驗證 PDF 數位簽章的步驟與技巧。 |
 | [使用簽名字段透過智慧卡簽名](./sign-with-smart-card-using-signature-field/) |了解如何使用 Aspose.PDF for .NET 的智慧卡安全地簽署 PDF。按照我們的逐步指南即可輕鬆實施。 |  
 | [在 C# 中配置 CA 伺服器 – 完整驗證 Word 文件簽章指南](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) |了解如何使用 Aspose.PDF for .NET 在 C# 中配置 CA 伺服器，以驗證 Word 文件的數位簽章，提供完整步驟指南。 |  
 | [驗證 PDF 數位簽章 – 完整的 C# 指南](./validate-pdf-digital-signature-complete-c-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中驗證 PDF 數位簽章的完整步驟與技巧。 |
@@ -46,6 +52,14 @@
 | [如何在 C# 中驗證 PDF 簽章 – 完整指南](./how-to-verify-pdf-signatures-in-c-full-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中驗證 PDF 簽章的完整指南。 |  
 | [PDF 簽章教學 – 在 C# 中驗證 PDF 簽章](./pdf-signature-tutorial-verify-and-validate-pdf-signatures-in/) |了解如何使用 Aspose.PDF for .NET 在 C# 中驗證 PDF 簽章的完整步驟與範例。 |  
 | [如何在 C# 中驗證 PDF 簽章 – 完整指南](./how-to-verify-pdf-signature-in-c-complete-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中驗證 PDF 簽章的完整步驟與技巧。 |  
+| [使用 Aspose.PDF 檢查 PDF 簽章有效性 – 完整 C# 指南](./check-pdf-signature-validity-with-aspose-pdf-complete-c-guid/) |了解如何使用 Aspose.PDF for .NET 在 C# 中檢查 PDF 簽章的有效性，完整步驟指南。 |
+| [驗證 PDF 數位簽章 – Aspose.PDF 完整 C# 指南](./verify-digital-signature-pdf-with-aspose-pdf-complete-c-guid/) |了解如何使用 Aspose.PDF for .NET 在 C# 中驗證 PDF 數位簽章，確保文件完整性與真實性。 |
+| [驗證 PDF 簽章 – Aspose.PDF 完整 C# 指南](./verify-pdf-signature-with-aspose-pdf-complete-c-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中驗證 PDF 簽章，確保文件完整性與真實性。 |
+| [如何在 C# 中使用驗證器 – 完整的簽章有效性檢查指南](./how-to-use-validator-in-c-complete-guide-to-checking-signatu/) |了解如何使用 Aspose.PDF for .NET 在 C# 中檢查簽章有效性。提供完整步驟與技巧。 |
+| [新增 Bates 編號 PDF – 完整 C# 指南（含簽署與轉換）](./add-bates-numbering-pdf-complete-c-guide-with-signing-conver/) |了解如何使用 Aspose.PDF for .NET 在 C# 中為 PDF 添加 Bates 編號、簽署並進行格式轉換的完整步驟。 |
+| [在 C# 中驗證 PDF 簽章 – 完整的 Aspose.PDF 指南](./verify-pdf-signature-in-c-complete-aspose-pdf-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中完整驗證 PDF 簽章的步驟與技巧。 |
+| [在 C# 中檢索 PDF 簽章 – 完整程式設計指南](./retrieve-pdf-signatures-in-c-complete-programming-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中完整檢索 PDF 簽章的步驟與技巧。 |
+| [如何在 C# 中提取 PDF 簽章 – 步驟指南](./how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中提取 PDF 簽章的完整步驟。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -79,6 +93,10 @@
 | [如何使用 Aspose 驗證 PDF 中的簽章 – C# 教學](./how-to-validate-signatures-in-pdf-using-aspose-c-tutorial/) |了解如何使用 Aspose.PDF for .NET 在 C# 中驗證 PDF 簽章，確保文件完整性與真實性。 |  
 | [在 C# 中驗證 PDF 簽章 – 完整程式設計指南](./verify-pdf-signature-in-c-complete-programming-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中完整驗證 PDF 簽章的步驟與技巧。 |
 | [如何修復 PDF 檔案 – 完整的 C# 指南（使用 Aspose.Pdf）](./how-to-repair-pdf-files-complete-c-guide-with-aspose-pdf/) |了解如何使用 Aspose.PDF for .NET 修復受損的 PDF 檔案。逐步指南協助您恢復文件完整性。 |  
+| [使用 Aspose.Pdf 檢查 PDF 簽章 – 完整指南](./check-pdf-signatures-with-aspose-pdf-complete-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中檢查和驗證 PDF 簽章的完整步驟。 |  
+| [在 C# 中建立 PKCS7 分離簽署者 – 完整指南](./create-pkcs7-detached-signer-in-c-complete-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中建立 PKCS7 分離簽署，完整步驟指南。 |  
+| [在 C# 中使用 Aspose.PDF 檢索 PDF 簽章名稱](./retrieve-pdf-signature-names-with-aspose-pdf-in-c/) |了解如何使用 Aspose.PDF for .NET 在 C# 中取得 PDF 文件的簽章名稱，並透過範例程式碼快速實作。 |  
+| [在 C# 中驗證 PDF 簽章 – 完整步驟指南](./validate-pdf-signature-in-c-complete-step-by-step-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中完整驗證 PDF 簽章的每個步驟，確保文件真實性。 |  
 | [PDF 簽章提取教學 – 如何在 C# 中列出 PDF 簽章](./pdf-signature-extraction-tutorial-how-to-list-pdf-signatures/) |了解如何使用 Aspose.PDF for .NET 在 C# 中列出 PDF 檔案的所有簽章，提供逐步指導。 |
 | [在 C# 中驗證 PDF 數位簽章（使用 Aspose.Pdf）](./verify-pdf-digital-signature-in-c-with-aspose-pdf/) |了解如何使用 Aspose.PDF for .NET 在 C# 中驗證 PDF 數位簽章。 |
 | [PDF 簽章教學：在 C# 中驗證 PDF 的數位簽章](./pdf-signature-tutorial-verify-a-pdf-s-digital-signature-in-c/) |了解如何使用 Aspose.PDF for .NET 在 C# 中驗證 PDF 數位簽章的詳細步驟。 |

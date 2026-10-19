@@ -55,6 +55,10 @@ Deze tutorials bieden ook gedetailleerde codevoorbeelden, duidelijke uitleg en i
 | [PDF-document maken met meerdere widgets – stap‑voor‑stap gids](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) | Leer hoe u een PDF-document met meerdere widgets maakt met Aspose.PDF voor .NET in deze stapsgewijze tutorial. |  
 | [PDF maken met pagina's en tekstvakvelden – volledige C#-handleiding](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Leer hoe u met Aspose.PDF voor .NET een PDF maakt met meerdere pagina's en tekstvakvelden in een volledige C#-stapsgewijze tutorial. |  
 | [PDF-document maken C# – Stapsgewijze handleiding voor meerpaginaformulieren](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Leer hoe u met Aspose.PDF voor .NET een meerpagina PDF-formulier maakt in C#. |  
+| [Meervoudig pagina-formulier maken in C# met Aspose.Pdf – Stapsgewijze handleiding](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | Leer hoe u een meervoudig-pagina PDF‑formulier maakt in C# met Aspose.PDF, stap voor stap. |  
+| [Tekstvak toevoegen aan PDF-formulier – Complete C#-gids](./add-text-box-to-pdf-form-complete-c-guide/) | Leer hoe u een tekstvak toevoegt aan een PDF-formulier met Aspose.PDF voor .NET in deze stapsgewijze C#-handleiding. |
+| [PDF-tekstvak maken – Stapsgewijze handleiding](./create-pdf-textbox-field-step-by-step-guide/) | Leer hoe u een tekstvak toevoegt aan een PDF-document met Aspose.PDF voor .NET in deze stapsgewijze tutorial. |  
+| [FDF importeren in PDF met C# – Complete stap‑voor‑stap‑gids](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Leer hoe u een FDF-bestand in een PDF importeert met C# met deze volledige stap‑voor‑stap‑handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

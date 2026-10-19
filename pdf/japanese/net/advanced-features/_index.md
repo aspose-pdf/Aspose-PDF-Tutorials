@@ -73,6 +73,12 @@ Aspose.Pdf の OCR 機能を活用し、PDF からテキスト抽出を行う手
 ### [C#でPDFの透過性を編集する – ステップバイステップ ガイド](./edit-pdf-transparency-in-c-step-by-step-guide/)
 C# と Aspose.PDF を使用して、PDF の透過属性を編集し、透明効果をカスタマイズする方法を学びます。
 
+### [Aspose.Pdf で PDF ドキュメントを比較する – 完全ビジュアル差分ガイド](./compare-pdf-documents-with-aspose-pdf-complete-visual-diff-g/)
+Aspose.Pdf を使って PDF ドキュメントを視覚的に比較し、差分を生成する方法をステップバイステップで解説します。
+
+### [2つの PDF ドキュメントを比較する – 完全 C# ガイド](./compare-two-pdf-documents-complete-c-guide/)
+C# と Aspose.PDF を使用して、2 つの PDF ドキュメントを比較し、差分を生成する方法をステップバイステップで学びます。
+
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)

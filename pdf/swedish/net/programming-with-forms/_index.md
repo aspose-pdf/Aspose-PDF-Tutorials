@@ -25,6 +25,7 @@ Dessa handledningar ger också detaljerade kodexempel, tydliga förklaringar och
 | [Arabisk textfyllning](./arabic-text-filling/) | Lär dig hur du fyller i arabisk text i PDF-formulär med Aspose.PDF för .NET med den här steg-för-steg-handledningen. Förbättra dina PDF-hanteringsfärdigheter. |  
 | [Kombinationsruta](./combo-box/) Lär dig hur du lägger till en kombinationsruta i en PDF med Aspose.PDF för .NET. Följ vår steg-för-steg-guide för att enkelt skapa interaktiva PDF-formulär. |
 | [Skapa dokument](./create-doc/) | Lär dig skapa interaktiva PDF-dokument med radioknappar med Aspose.PDF för .NET i den här omfattande steg-för-steg-guiden. |
+| [Skapa flersidigt formulär i C# med Aspose.Pdf – Steg‑för‑steg‑guide](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | Lär dig hur du skapar ett flersidigt PDF‑formulär i C# med Aspose.Pdf i en detaljerad steg‑för‑steg‑guide. |
 | [Ta bort formulärfält i PDF-dokument](./delete-form-field/) | Lär dig hur du tar bort formulärfält i PDF-dokument med Aspose.PDF för .NET med den här steg-för-steg-guiden. Perfekt för utvecklare och PDF-entusiaster. |
 | [Bestäm obligatoriska fält i PDF-formulär](./determine-required-field/) | Lär dig hur du identifierar obligatoriska fält i ett PDF-formulär med Aspose.PDF för .NET. Vår steg-för-steg-guide förenklar formulärhantering och förbättrar ditt PDF-automatiseringsarbetsflöde. |
 | [Dynamisk XFA till Acro-form](./dynamic-xfa-to-acro-form/) | Lär dig hur du konverterar dynamiska XFA-formulär till vanliga AcroForms med hjälp av Aspose.PDF för .NET i den här steg-för-steg-handledningen. |
@@ -51,10 +52,13 @@ Dessa handledningar ger också detaljerade kodexempel, tydliga förklaringar och
 | [Ställ in bildtext för radioknapp](./set-radio-button-caption/) Lär dig hur du ställer in bildtexter för radioknappar i PDF-filer med Aspose.PDF för .NET. Den här steg-för-steg-guiden guidar dig genom hur du laddar, ändrar och sparar dina PDF-formulär. |
 | [Textruta](./text-box/) | Upptäck hur du enkelt lägger till textrutor i PDF-filer med Aspose.PDF för .NET med den här steg-för-steg-guiden. Förbättra användarinteraktionen. |
 | [Skapa PDF-dokument med Aspose – Lägg till textruta](./create-pdf-document-with-aspose-add-text-box-field/) | Lär dig hur du skapar ett PDF-dokument och lägger till ett textrutefält med Aspose.PDF för .NET i en steg-för-steg-guide. |
+| [Lägg till textruta i PDF-formulär – Komplett C#-guide](./add-text-box-to-pdf-form-complete-c-guide/) | Lär dig hur du lägger till en textruta i ett PDF-formulär med Aspose.PDF för .NET i denna kompletta C#-guide. |
+| [Skapa PDF‑textrutefält – steg‑för‑steg‑guide](./create-pdf-textbox-field-step-by-step-guide/) | Lär dig hur du skapar ett textrutefält i en PDF med Aspose.PDF för .NET i denna steg‑för‑steg‑guide. |
 | [Hur man skapar PDF med Aspose – Lägg till formulärfält och sidor](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Lär dig hur du skapar en PDF, lägger till formulärfält och sidor med Aspose.PDF för .NET i en steg-för-steg-guide. |
 | [Skapa PDF-dokument med flera widgetar – steg-för-steg-guide](./create-pdf-document-with-multiple-widgets-step-by-step-guide/) | Lär dig hur du skapar ett PDF-dokument med flera widgetar med Aspose.PDF för .NET i denna steg-för-steg-guide. |
 | [Skapa PDF med sidor och textrutefält – Fullständig C#-guide](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Lär dig hur du skapar en PDF med flera sidor och textrutefält i C# med Aspose.PDF för .NET i denna steg-för-steg-guide. |
 | [Skapa PDF-dokument C# – Steg‑för‑steg‑guide för flersidiga formulär](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Lär dig skapa PDF-dokument med flera sidor och formulär i C# med Aspose.PDF för .NET i en steg‑för‑steg‑guide. |
+| [Importera FDF till PDF med C# – Komplett steg‑för‑steg‑guide](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Lär dig hur du importerar FDF-filer till PDF med C# med Aspose.PDF för .NET i en komplett steg‑för‑steg‑guide. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

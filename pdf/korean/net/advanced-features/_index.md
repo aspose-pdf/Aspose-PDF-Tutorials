@@ -66,12 +66,15 @@ Aspose.PDF for .NET을 사용하여 PDF/UA-1 표준에 따라 접근 가능한 P
 Aspose.PDF for .NET을 사용하여 접근성이 뛰어나고 스타일이 적용된 태그가 지정된 PDF 문서를 만드는 방법을 알아보세요. 구조화된 표와 향상된 접근성을 갖춘 규격에 맞는 PDF를 만드는 방법을 마스터하세요.
 
 ### [C#에서 PDF 비교 방법 – PDF 차이 생성 완전 가이드](./how-to-compare-pdfs-in-c-complete-guide-to-generating-pdf-di/)
-Aspose.PDF for .NET을 사용하여 PDF를 비교하고 차이를 생성하는 방법을 단계별로 안내합니다.
 ### [Aspose.Pdf를 사용하여 PDF에서 OCR 실행하기 – 완전 C# 가이드](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
 Aspose.PDF를 사용하여 PDF에 OCR을 적용하고 텍스트를 추출하는 방법을 단계별로 안내합니다.
 
 ### [C#에서 PDF 투명도 편집 – 단계별 가이드](./edit-pdf-transparency-in-c-step-by-step-guide/)
 C#와 Aspose.PDF를 사용하여 PDF 투명도를 편집하는 방법을 단계별로 안내합니다.
+### [Aspose.Pdf를 사용한 PDF 문서 비교 – 완전 시각적 차이 가이드](./compare-pdf-documents-with-aspose-pdf-complete-visual-diff-g/)
+
+### [두 PDF 문서 비교 – 완전 C# 가이드](./compare-two-pdf-documents-complete-c-guide/)
+C#을 사용하여 두 PDF 문서를 비교하고 차이를 생성하는 방법을 단계별로 안내합니다.
 
 ## 추가 자료
 

@@ -1,0 +1,72 @@
+//ExStart
+//ExSummary: บทแนะนำนี้แสดงวิธีเปรียบเทียบเอกสาร PDF สองไฟล์ด้วย Aspose.Pdf for .NET โดยการยกเว้นพื้นที่หมายเหตุทั้งหมด โดยการรวบรวมกล่องขอบเขตของหมายเหตุจากแต่ละไฟล์, กำหนดค่า SideBySideComparisonOptions ด้วยพื้นที่เหล่านั้น, และดำเนินการเปรียบเทียบแบบ side‑by‑side ที่ส่งออกไฟล์ PDF diff
+//ExStepSummary:0: กำหนดเส้นทางไฟล์สำหรับ PDF หลัก, PDF รอง, และ PDF diff ที่เป็นผลลัพธ์
+//ExStepSummary:1: ตรวจสอบว่าไฟล์ PDF อินพุตทั้งสองไฟล์มีอยู่และยกเลิกการทำงานพร้อมข้อความแสดงข้อผิดพลาดหากไฟล์ใดไฟล์หนึ่งหายไป
+//ExStepSummary:2: เปิดไฟล์ PDF สองไฟล์เป็นอ็อบเจ็กต์ Document (pdfA และ pdfB) ภายในบล็อก using เพื่อให้มีการปล่อยทรัพยากรโดยอัตโนมัติ
+//ExStepSummary:3: รวบรวมสี่เหลี่ยมขอบเขตของหมายเหตุทั้งหมดใน pdfA และเก็บไว้ใน ignoredRectsA
+//ExStepSummary:4: รวบรวมสี่เหลี่ยมขอบเขตของหมายเหตุทั้งหมดใน pdfB และเก็บไว้ใน ignoredRectsB
+//ExStepSummary:5: สร้างอ็อบเจ็กต์ SideBySideComparisonOptions และกำหนดสี่เหลี่ยมหมายเหตุที่รวบรวมไว้ก่อนหน้านี้ให้กับ ExcludeAreas1 และ ExcludeAreas2 เพื่อให้พื้นที่เหล่านั้นถูกละเว้นระหว่างการเปรียบเทียบ
+//ExStepSummary:6: ดำเนินการเปรียบเทียบ PDF แบบ side‑by‑side โดยใช้ Document ทั้งสองอ็อบเจ็กต์และตัวเลือกที่กำหนดค่าไว้, แล้วบันทึกผลลัพธ์ลงใน outputPdf
+//ExStepSummary:7: ปล่อยอ็อบเจ็กต์ Document และออกจากบล็อก using
+//ExStepSummary:8: พิมพ์ข้อความยืนยันที่ระบุว่าการเปรียบเทียบเสร็จสมบูรณ์และบอกตำแหน่งที่บันทึกไฟล์ diff PDF
+//ExStep:0-
+const string primaryPdf = "sourceA.pdf";
+const string secondaryPdf = "sourceB.pdf";
+const string outputPdf = "diff_output.pdf";
+
+//ExStep:1-
+if (!File.Exists(primaryPdf) || !File.Exists(secondaryPdf))
+{
+    Console.Error.WriteLine("Required input files are missing.");
+    return;
+}
+
+//ExStep:2-
+using (Document pdfA = new Document(primaryPdf))
+using (Document pdfB = new Document(secondaryPdf))
+{
+
+//ExStep:3-
+// Gather bounding boxes of all annotations in the first PDF
+List<Aspose.Pdf.Rectangle> ignoredRectsA = new List<Aspose.Pdf.Rectangle>();
+foreach (Page p in pdfA.Pages)
+{
+    foreach (Annotation a in p.Annotations)
+    {
+        // Each annotation provides its location via the Rect property
+        if (a != null && a.Rect != null)
+            ignoredRectsA.Add(a.Rect);
+    }
+}
+
+//ExStep:4-
+// Gather bounding boxes of all annotations in the second PDF
+List<Aspose.Pdf.Rectangle> ignoredRectsB = new List<Aspose.Pdf.Rectangle>();
+foreach (Page p in pdfB.Pages)
+{
+    foreach (Annotation a in p.Annotations)
+    {
+        if (a != null && a.Rect != null)
+            ignoredRectsB.Add(a.Rect);
+    }
+}
+
+//ExStep:5-
+// Set up comparison settings to omit the collected regions
+SideBySideComparisonOptions compareOpts = new SideBySideComparisonOptions
+{
+    ExcludeAreas1 = ignoredRectsA.ToArray(),
+    ExcludeAreas2 = ignoredRectsB.ToArray()
+    // Additional settings may be adjusted here (e.g., ExcludeTables = true)
+};
+
+//ExStep:6-
+// Execute side‑by‑side comparison and write the outcome
+SideBySidePdfComparer.Compare(pdfA, pdfB, outputPdf, compareOpts);
+
+//ExStep:7-
+}
+
+//ExStep:8-
+Console.WriteLine($"Comparison finished. Output written to '{outputPdf}'.");
+//ExEnd

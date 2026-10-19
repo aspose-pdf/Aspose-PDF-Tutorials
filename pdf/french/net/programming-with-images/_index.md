@@ -46,11 +46,14 @@ Les tutoriels « Programmation avec des images » d'Aspose.PDF pour .NET vous 
 | [Page PDF en TIFF](./page-to-tiff/) | Apprenez à convertir des pages PDF en images TIFF de haute qualité avec Aspose.PDF pour .NET. Ce guide étape par étape couvre la résolution, la compression et bien plus encore. |  
 | [Remplacer l'image dans un fichier PDF](./replace-image/) Remplacez facilement des images dans vos fichiers PDF grâce à Aspose.PDF pour .NET. Suivez ce guide étape par étape pour améliorer vos compétences en gestion de PDF.  
 | [Redimensionner les images dans un fichier PDF](./resize-images/) | Apprenez à redimensionner les images d'un fichier PDF avec Aspose.PDF pour .NET grâce à ce guide détaillé. Optimisez la taille de votre fichier sans perte de qualité. |  
+| [Recadrer une image dans un PDF avec Aspose.PDF – Guide complet](./crop-image-in-pdf-with-aspose-pdf-complete-guide/) | Apprenez à recadrer des images dans un PDF à l'aide d'Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |  
 | [Rechercher et obtenir des images dans un fichier PDF](./search-and-get-images/) | Apprenez à extraire facilement des images de fichiers PDF avec Aspose.PDF pour .NET. Suivez ce guide étape par étape pour améliorer vos compétences en traitement PDF. |  
 | [Définir la taille de l'image dans le fichier PDF](./set-image-size/) | Apprenez à définir la taille d'une image dans un PDF avec Aspose.PDF pour .NET. Ce guide étape par étape vous aidera à redimensionner les images, à ajuster les propriétés des pages et à enregistrer vos PDF. |  
 | [Réduire les images dans un fichier PDF](./shrink-images/) | Réduisez facilement les images dans les fichiers PDF à l'aide d'Aspose.PDF pour .NET avec ce guide étape par étape, garantissant des tailles de fichiers plus petites tout en maintenant la qualité. |  
 | [Stocker l'image dans la collection XImage](./store-image-in-ximage-collection/) | Apprenez à stocker des images dans la collection XImage à l'aide d'Aspose.PDF pour .NET dans ce guide complet étape par étape. |  
+| [Compresser les images dans DOCX – Réduire la taille du fichier](./compress-images-in-docx-reduce-file-size/) | Apprenez à compresser les images dans un document DOCX afin de réduire la taille du fichier avec Aspose.PDF pour .NET. |  
 | [Ajouter une figure à Word – Guide complet de programmation C#](./add-figure-to-word-complete-c-programming-guide/) | Apprenez à insérer une figure dans un document Word en C# avec Aspose.Words pour .NET, guide étape par étape. |  
+| [Créer un copilote IA pour la description d'images PDF – guide étape par étape](./create-ai-copilot-for-pdf-image-description-step-by-step-gui/) | Apprenez à créer un copilote IA qui génère des descriptions d'images PDF, guide complet pas à pas. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -43,6 +43,8 @@ Hướng dẫn chi tiết cách tạo và chèn hình chữ nhật vào tài li�
 
 ### [Thêm Hình Chữ Nhật vào PDF bằng Aspose.PDF – Hướng Dẫn Lập Trình Toàn Diện](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
 Hướng dẫn chi tiết cách tạo hình chữ nhật trong tài liệu PDF bằng Aspose.PDF cho .NET, bao gồm mã mẫu và các tùy chọn tùy chỉnh.
+### [Thêm hình chữ nhật vào PDF bằng C# – hướng dẫn từng bước](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách thêm hình chữ nhật vào tệp PDF bằng C# và Aspose.PDF, bao gồm các bước thiết lập và mã mẫu.
 
 ### [Thêm ExtGState tùy chỉnh vào PDF bằng Aspose.PDF cho .NET: Hướng dẫn từng bước](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
 Hướng dẫn cách tạo và áp dụng ExtGState tùy chỉnh trong PDF bằng Aspose.PDF cho .NET để kiểm soát độ trong suốt và các hiệu ứng đồ họa.
@@ -55,6 +57,11 @@ Tìm hiểu cách tạo tài liệu PDF hấp dẫn về mặt hình ảnh bằn
 
 ### [Vẽ các hình dạng trong suốt trong PDF bằng Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 Hướng dẫn mã cho Aspose.PDF Net
+
+### [Cách Thêm Hình Dạng vào PDF bằng Aspose.PDF trong C# – Hướng Dẫn Từng Bước](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Tìm hiểu cách thêm hình dạng vào PDF bằng Aspose.PDF trong C# qua hướng dẫn chi tiết từng bước, giúp bạn tạo đồ họa tùy chỉnh trong tài liệu.
+### [Cách thêm trạng thái đồ họa PDF và kiểm soát độ trong suốt với Aspose.PDF](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
+Hướng dẫn cách thêm trạng thái đồ họa và điều chỉnh độ trong suốt trong PDF bằng Aspose.PDF cho .NET.
 
 ### [Nhận dạng hình ảnh PDF hiệu quả với Aspose.PDF cho .NET](./master-image-identification-aspose-pdf-net/)
 Tìm hiểu cách xác định hình ảnh thang độ xám và RGB trong PDF bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm các mẹo cài đặt, trích xuất hình ảnh và hiệu suất.
@@ -122,6 +129,11 @@ Tìm hiểu cách vẽ hình chữ nhật trong tài liệu PDF bằng C# sử d
 ### [Thêm Độ Trong Suốt vào PDF với Aspose PDF trong C# – Hướng Dẫn Từng Bước](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Tìm hiểu cách áp dụng độ trong suốt cho các đối tượng trong PDF bằng Aspose PDF và C# qua hướng dẫn chi tiết.
 
+### [Cách thêm độ trong suốt vào PDF bằng Aspose.PDF trong C#](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
+  
+### [Cách thêm độ trong suốt vào PDF và vẽ hình chữ nhật trên PDF bằng Aspose.PDF](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+Hướng dẫn cách áp dụng độ trong suốt và vẽ hình chữ nhật trong PDF bằng Aspose.PDF.
+
 ### [Cách xóa hình ảnh khỏi tệp PDF bằng Aspose.PDF cho .NET - Hướng dẫn đầy đủ](./delete-images-aspose-pdf-net/)
 Tìm hiểu cách xóa hình ảnh khỏi tệp PDF hiệu quả bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm thiết lập, ví dụ về mã và các biện pháp thực hành tốt nhất.
 
@@ -179,8 +191,18 @@ Tìm hiểu cách nén và tối ưu hóa hình ảnh trong tài liệu PDF bằ
 ### [Kết xuất LaTeX trong PDF với Aspose.PDF .NET: Hướng dẫn từng bước](./render-latex-aspose-pdf-net-guide/)
 Tìm hiểu cách chuyển các tập lệnh LaTeX phức tạp thành tài liệu PDF bằng Aspose.PDF cho .NET, bao gồm các mẹo thiết lập, triển khai và tối ưu hóa.
 
+### [Nén Hình Ảnh Không Mất Dữ Liệu trong Tài liệu Word – Hướng Dẫn Toàn Diện](./lossless-image-compression-in-word-docs-complete-guide/)
+Hướng dẫn chi tiết cách nén hình ảnh trong tài liệu Word mà không làm giảm chất lượng, sử dụng Aspose.Words cho .NET.
+
 ### [Đặt hình nền ảnh trong PDF bằng Aspose.PDF cho .NET: Hướng dẫn toàn diện](./aspose-pdf-net-set-image-backgrounds/)
 Tìm hiểu cách cải thiện tài liệu PDF của bạn bằng cách thiết lập hình nền bằng Aspose.PDF cho .NET. Hướng dẫn này bao gồm các mẹo thiết lập, triển khai và tối ưu hóa.
+
+### [Hướng dẫn chồng lớp ảnh PDF – Thêm mặt nạ và bật lựa chọn khay tự động](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+Hướng dẫn cách chồng lớp ảnh lên PDF, thêm mặt nạ và kích hoạt lựa chọn khay tự động bằng Aspose.PDF cho .NET.
+### [Thêm ExtGState vào PDF bằng Aspose.Pdf – Hướng dẫn toàn diện](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+Tìm hiểu cách áp dụng ExtGState để kiểm soát độ trong suốt và các hiệu ứng đồ họa trong PDF bằng Aspose.Pdf cho .NET.
+### [Thêm trạng thái đồ họa vào PDF với Aspose.Pdf – hướng dẫn từng bước](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+Hướng dẫn cách sử dụng GraphicsState trong Aspose.PDF để kiểm soát độ trong suốt và các hiệu ứng đồ họa trong PDF.
 
 ## Tài nguyên bổ sung
 

@@ -1,0 +1,49 @@
+//ExStart
+//ExSummary: يوضح هذا البرنامج التعليمي كيفية فتح ملف PDF موجود باستخدام Aspose.Pdf، وتقييد أذوناته لتعبئة النماذج فقط، وتشفيره باستخدام AES‑256 مع كلمة مرور للعرض وكلمة مرور للمالك، ثم حفظ المستند المحمي.
+//ExStepSummary:0: عرّف مسار ملف PDF المصدر، ومسار الإخراج، وكلمات مرور العرض والمالك.
+//ExStepSummary:1: تحقق من وجود الملف المصدر؛ إذا لم يكن موجودًا، اكتب رسالة خطأ واخرج.
+//ExStepSummary:2: ادخل كتلة try وافتح مستند PDF باستخدام عبارة `using`، مع إنشاء المتغيّر `pdfDoc`.
+//ExStepSummary:3: أنشئ كائن `Permissions` يسمح فقط بتعبئة النماذج.
+//ExStepSummary:4: قم بتشفير `pdfDoc` باستخدام كلمات مرور العرض والمالك، مع تطبيق مجموعة الأذونات واستخدام AES‑256.
+//ExStepSummary:5: احفظ ملف PDF المشفر إلى ملف الإخراج المحدد وأغلق كتلة `using`.
+//ExStepSummary:6: اكتب رسالة تأكيد إلى وحدة التحكم وأغلق كتلة try.
+//ExStepSummary:7: التقط أي استثناء، واعرض رسالته إلى تدفق الأخطاء، ثم أغلق كتلة catch.
+//ExStep:0-
+        const string sourceFile = "sample.pdf";
+        const string encryptedFile = "protected.pdf";
+        const string viewerPwd = "readPass";
+        const string masterPwd = "fullPass";
+
+//ExStep:1-
+        if (!File.Exists(sourceFile))
+        {
+            Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+            return;
+        }
+
+//ExStep:2-
+        try
+        {
+            using (Document pdfDoc = new Document(sourceFile))
+            {
+
+//ExStep:3-
+                Permissions permissionSet = Permissions.FillForm;
+
+//ExStep:4-
+                pdfDoc.Encrypt(viewerPwd, masterPwd, permissionSet, CryptoAlgorithm.AESx256);
+
+//ExStep:5-
+                pdfDoc.Save(encryptedFile);
+            }
+
+//ExStep:6-
+            Console.WriteLine($"Encrypted document written to '{encryptedFile}'.");
+        }
+
+//ExStep:7-
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Error: {ex.Message}");
+        }
+//ExEnd

@@ -54,6 +54,7 @@ Aspose.PDF for .NET을 사용하여 PDF 문서에 사용자 지정 확대/축소
 Aspose.PDF for .NET을 사용해 C#에서 PDF를 PNG와 HTML로 변환하고, 스탬프를 적용하는 전체 과정을 단계별로 안내합니다.
 ### [C#에서 PDF를 PNG로 렌더링하는 방법 – 단계별 가이드](./how-to-render-pdf-as-png-in-c-step-by-step-guide/)
 C#과 Aspose.PDF for .NET을 활용해 PDF 페이지를 PNG 이미지로 변환하는 단계별 가이드를 확인하세요.
+### [Aspose.PDF를 사용한 인쇄용 PDF 변환 – 단계별 가이드](./convert-pdf-for-printing-with-aspose-pdf-step-by-step-guide/)
 
 ## 추가 자료
 

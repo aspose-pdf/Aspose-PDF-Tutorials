@@ -1,0 +1,41 @@
+//ExStart
+//ExSummary: This tutorial demonstrates how to rotate every page of an existing PDF by 180 degrees using the Aspose.Pdf Document class.
+//ExStepSummary:0: Declare the source and destination file paths for the PDF.
+//ExStepSummary:1: Check that the source file exists and abort with an error message if it does not.
+//ExStepSummary:2: Create a Document object for the source PDF inside a using block to manage resources.
+//ExStepSummary:3: Iterate through each Page in pdfDoc.Pages and set its Rotate property to Rotation.on180, turning every page upside‑down.
+//ExStepSummary:4: Save the modified Document to the destination file, persisting the rotations.
+//ExStepSummary:5: Write a confirmation message to the console indicating the operation completed.
+//ExStepImage:3:images/1.png
+//ExStep:0-
+        const string sourceFile = "source_document.pdf";
+        const string destinationFile = "flipped_document.pdf";
+
+//ExStep:1-
+        if (!File.Exists(sourceFile))
+        {
+            Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+            return;
+        }
+
+//ExStep:2-
+        // Open the PDF within a using statement to ensure resources are released
+        using (Document pdfDoc = new Document(sourceFile))
+        {
+
+//ExStep:3-
+            // Walk through each page (collection is 1‑based) and apply a 180° rotation
+            foreach (Page pdfPage in pdfDoc.Pages)
+            {
+                // Use the correct enum member with the 'on' prefix
+                pdfPage.Rotate = Rotation.on180;
+            }
+
+//ExStep:4-
+            // Write the altered document to disk
+            pdfDoc.Save(destinationFile);
+        }
+
+//ExStep:5-
+        Console.WriteLine($"All pages rotated and saved as '{destinationFile}'.");
+//ExEnd

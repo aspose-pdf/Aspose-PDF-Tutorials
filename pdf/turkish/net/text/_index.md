@@ -29,6 +29,8 @@ Bu eğitim serisinde, Aspose.PDF for .NET kullanarak metin düzenlemenin çeşit
 
 {{< tutorial-card link="./multicolumn-paragraphs/" title="Aspose.PDF kullanarak PDF'de Çok Sütunlu Paragraflar" imgSrc="./multicolumn-paragraphs/images/thumb.png" >}}
 
+{{< tutorial-card link="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/" title="Tarama yapılmış PDF'den Metin Çıkarma için Aspose Kullanımı – Adım Adım Kılavuz" imgSrc="./how-to-use-aspose-to-extract-text-from-a-scanned-pdf-step-by/images/thumb.png" >}}
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

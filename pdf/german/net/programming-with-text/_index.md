@@ -71,6 +71,8 @@ Die Aspose.PDF-Tutorials „Programmieren mit Text“ für .NET bieten umfassend
 | [Textsegmente in der PDF-Datei](./text-segments/) | Erfahren Sie, wie Sie mithilfe regulärer Ausdrücke in Aspose.PDF für .NET nach bestimmten Textsegmenten in PDF-Dateien suchen. |  
 | [Latex-Skript in PDF-Datei verwenden](./use-latex-script/) | Erfahren Sie, wie Sie mithilfe von Aspose.PDF für .NET mithilfe eines Latex-Skripts mathematische Ausdrücke oder Formeln in PDF-Dateien einfügen. |  
 | [Bates-Nummern zu PDF hinzufügen – bates numbering pdf](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET Bates-Nummern zu PDF-Dokumenten hinzufügen. Schritt‑für‑Schritt‑Anleitung mit Codebeispielen. |  
+| [Span-Element in Word mit C# erstellen – Komplettanleitung](./create-span-element-in-word-with-c-complete-guide/) | Erfahren Sie, wie Sie mit C# ein Span-Element in einem Word-Dokument erstellen – Schritt‑für‑Schritt‑Anleitung. |
+| [PDF-Zusammenfassung mit Aspose.Pdf.AI und OpenAI generieren](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Erfahren Sie, wie Sie mit Aspose.Pdf.AI und OpenAI automatisch eine Zusammenfassung von PDF-Dokumenten erstellen. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

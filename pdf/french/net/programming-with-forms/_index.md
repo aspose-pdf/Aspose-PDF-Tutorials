@@ -55,6 +55,10 @@ Ces tutoriels proposent également des exemples de code détaillés, des explica
 | [Créer un PDF avec des pages et des champs de zone de texte – Guide complet C#](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Apprenez à créer un PDF contenant plusieurs pages et des champs de zone de texte avec Aspose.PDF pour .NET dans ce guide complet C#. |
 | [Créer un document PDF avec Aspose – Ajouter un champ de zone de texte](./create-pdf-document-with-aspose-add-text-box-field/) | Apprenez à ajouter un champ de zone de texte à un PDF avec Aspose.PDF pour .NET grâce à ce guide étape par étape. |
 | [Créer un document PDF C# – Guide étape par étape pour les formulaires multi‑pages](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Apprenez à créer un document PDF multi‑pages avec des formulaires en C# grâce à ce guide détaillé étape par étape. |
+| [Créer un formulaire multi‑pages en C# avec Aspose.Pdf – Guide étape par étape](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | Apprenez à créer un formulaire PDF multi‑pages en C# avec Aspose.Pdf grâce à ce guide complet étape par étape. |
+| [Ajouter une zone de texte à un formulaire PDF – Guide complet C#](./add-text-box-to-pdf-form-complete-c-guide/) | Apprenez à ajouter une zone de texte à un formulaire PDF avec Aspose.PDF pour .NET en suivant ce guide complet C# étape par étape. |
+| [Créer un champ de zone de texte PDF – Guide étape par étape](./create-pdf-textbox-field-step-by-step-guide/) | Apprenez à créer un champ de zone de texte dans un PDF avec Aspose.PDF pour .NET grâce à ce guide étape par étape. |
+| [Importer un FDF dans un PDF avec C# – Guide complet étape par étape](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Apprenez à importer un fichier FDF dans un PDF en C# avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
