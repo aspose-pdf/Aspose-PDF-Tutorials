@@ -134,9 +134,6 @@ Aspose.PDF for .NET kullanarak PDF belgelerine sayfa numaralarını zahmetsizce 
 ### [Aspose.PDF .NET Kullanarak PDF'lere JavaScript Nasıl Eklenir ve Kaldırılır: Kapsamlı Bir Kılavuz](./aspose-pdf-net-add-remove-javascript-pdfs/)
 Aspose.PDF for .NET kullanarak PDF belgelerinize JavaScript işlevlerinin nasıl ekleneceğini ve kaldırılacağını öğrenin. Adım adım kılavuzumuzla belge etkileşiminizi ve işlevselliğinizi geliştirin.
 
-### [.NET için Aspose.PDF Kullanarak Birden Fazla PDF Dosyasını Nasıl Eklersiniz: Adım Adım Kılavuz](./append-multiple-pdf-files-aspose-net/)
-Ayrıntılı adımlar ve kod örnekleriyle Aspose.PDF for .NET kullanarak birden fazla PDF dosyasını tek bir belgeye nasıl etkili bir şekilde ekleyeceğinizi öğrenin.
-
 ### [.NET için Aspose.PDF Kullanarak PDF Dosyalarına Nasıl Eklenir: Kapsamlı Bir Kılavuz](./append-pdf-files-aspose-pdf-net-guide/)
 Bu ayrıntılı kılavuzla, C# dilinde belge iş akışlarını kolaylaştırmak için mükemmel olan Aspose.PDF for .NET'i kullanarak PDF dosyalarını etkili bir şekilde nasıl ekleyeceğinizi öğrenin.
 
@@ -189,6 +186,7 @@ Aspose.PDF for .NET kullanarak bir PDF'den diğerine belirli sayfaları nasıl e
 Aspose.PDF for .NET kullanarak birden fazla PDF belgesini tek bir dosyada nasıl etkili bir şekilde birleştirebileceğinizi öğrenin. Bu kılavuz, belge yönetimi sürecinizi kolaylaştırmak için adım adım talimatlar, kod örnekleri ve ipuçları sunar.
 
 ### [.NET için Aspose.PDF Kullanarak Birden Fazla PDF'yi Verimli Şekilde Nasıl Birleştirirsiniz | Belge İşleme Kılavuzu](./append-multiple-pdfs-aspose-pdf-dotnet/)
+### [.NET için Aspose.PDF Kullanarak Birden Fazla PDF'yi Verimli Şekilde Nasıl Birleştirirsiniz | Belge İşleme Kılavuzu](./append-multiple-pdf-files-aspose-net/)
 Aspose.PDF for .NET kullanarak birden fazla PDF belgesini tek bir dosyada nasıl etkili bir şekilde birleştireceğinizi öğrenin. Bu kılavuz, belge yönetimi sürecinizi kolaylaştırmak için adım adım talimatlar, kod örnekleri ve ipuçları sunar.
 
 ### [.NET için Aspose.PDF Kullanarak PDF Dosyaları Nasıl Birleştirilir: Akış Birleştirme ve Mantıksal Yapı Koruma](./merge-pdf-aspose-net-streams-structure/)
@@ -285,7 +283,7 @@ Aspose.PDF for .NET'i kullanarak sayfa yönünü değiştirerek, beyaz rengi alg
 Aspose.PDF for .NET ile PDF'leri nasıl verimli bir şekilde işleyeceğinizi öğrenin. Kurulumdan gelişmiş özelliklere kadar, bu kılavuz belge otomasyonu için ihtiyacınız olan her şeyi kapsar.
 
 ### [PDF Manipülasyonunda Ustalaşma: Regex Aramaları ve Belge İşleme için Aspose.PDF .NET](./aspose-pdf-net-regex-searching/)
-PDF belgelerinde regex aramaları yüklemek, düzenlemek ve gerçekleştirmek için Aspose.PDF for .NET'i nasıl kullanacağınızı öğrenin. Belge işleme görevlerinizi verimli bir şekilde otomatikleştirin.
+PDF belgelerinde regex aramaları yüklemek, düzenlemek ve gerçekleştirmek için Aspose.PDF for .NET'i nasıl kullanacağınızı öğrenın. Belge işleme görevlerinizi verimli bir şekilde otomatikleştirin.
 
 ### [Aspose.PDF .NET ile PDF Sayfa Bölmede Ustalaşma](./mastering-page-splitting-aspose-pdf-net/)
 Aspose.PDF Net için bir kod öğreticisi
@@ -352,6 +350,11 @@ C# ve Aspose.PDF kullanarak iki PDF dosyasını görsel olarak karşılaştırma
 Aspose.PDF kullanarak PDF dosyalarını düzleştirmenin adım adım tam rehberini öğrenin.
 ### [Aspose.Pdf ile PDF Dosyalarını Düzeltme – Tam Kılavuz](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
 Aspose.Pdf kullanarak bozuk PDF dosyalarını onarma, hataları düzeltme ve dosya bütünlüğünü sağlama adımlarını öğrenin.
+### [Güncellenmiş PDF'yi Kaydedin – Aspose.Pdf ile PDF Kaynaklarını Düzenleyin](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+Aspose.Pdf kullanarak PDF kaynaklarını düzenledikten sonra güncellenmiş PDF dosyasını nasıl kaydedeceğinizi öğrenin.
+
+### [Aspose.PDF ile Değiştirilmiş PDF'yi Kaydet – Tam C# Kılavuzu](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+Aspose.PDF for .NET kullanarak değiştirilmiş PDF dosyalarını kaydetmeyi adım adım öğrenin ve C# kod örnekleriyle uygulayın.
 
 ## Ek Kaynaklar
 

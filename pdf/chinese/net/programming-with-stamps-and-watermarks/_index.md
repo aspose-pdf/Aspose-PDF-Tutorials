@@ -60,6 +60,7 @@ Aspose.PDF 的“使用图章和水印进行编程”.NET 教程将指导您逐�
 | [如何在 PDF 中添加图章 – 自动适配文本的完整指南](./how-to-add-stamp-pdf-complete-guide-with-auto-fit-text/) 学习如何使用 Aspose.PDF for .NET 在 PDF 中添加图章，并实现文本自动适配，提供完整步骤和示例代码。|  
 | [Bates 编号教程：使用 Aspose 为 PDF 添加编号](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) 学习如何使用 Aspose.PDF for .NET 为 PDF 文档添加 Bates 编号，以实现文档追踪和管理。|  
 | [如何使用 Aspose 为 PDF 添加水印 – 添加文本覆盖](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) 学习使用 Aspose.PDF for .NET 在 PDF 中添加文本水印的步骤和示例代码。|  
+| [使用 Aspose.PDF 为 PDF 添加透明度 – 完整 C# 指南](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) 学习如何使用 Aspose.PDF for .NET 在 PDF 中设置透明度，提供完整的 C# 示例代码和分步说明。|  
 | [使用 Aspose.PDF 更改 PDF 不透明度的完整指南](./how-to-change-opacity-in-pdf-with-aspose-pdf-complete-guide/) 通过本指南学习如何在 PDF 中使用 Aspose.PDF 调整不透明度，实现更灵活的视觉效果。|  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

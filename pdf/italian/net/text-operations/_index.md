@@ -168,6 +168,10 @@ Scopri come formattare il testo nei documenti PDF con tag con Aspose.PDF per .NE
 Scopri come rimuovere o nascondere informazioni sensibili da PDF utilizzando Aspose.PDF per .NET con questa guida passo passo.
 ### [Come cercare PDF con Aspose.PDF – Guida completa C#](./how-to-search-pdf-with-aspose-pdf-complete-c-guide/)
 Scopri come eseguire ricerche di testo nei PDF usando Aspose.PDF per .NET con esempi C# passo passo.
+### [Come riassumere PDF con Aspose.Pdf.AI – guida completa](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
+Scopri come utilizzare Aspose.Pdf.AI per generare riassunti automatici dei documenti PDF in pochi passaggi.
+
+### [AI Chat PDF: chiedi domande sui PDF con Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
 
 ## Risorse aggiuntive
 

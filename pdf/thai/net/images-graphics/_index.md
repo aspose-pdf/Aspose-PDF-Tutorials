@@ -44,6 +44,11 @@
 เรียนรู้วิธีการเพิ่มสี่เหลี่ยมลงในไฟล์ PDF ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนและตัวอย่างโค้ด
 ### [เพิ่มสี่เหลี่ยมลงใน PDF ด้วย Aspose.PDF – คู่มือการเขียนโปรแกรมแบบครบถ้วน](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
 เรียนรู้วิธีเพิ่มสี่เหลี่ยมลงใน PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือการเขียนโปรแกรมแบบครบถ้วน
+### [เพิ่มสี่เหลี่ยมลงใน PDF ด้วย C# – คู่มือทีละขั้นตอน](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+เรียนรู้วิธีการเพิ่มสี่เหลี่ยมลงในไฟล์ PDF ด้วย C# อย่างละเอียดตามขั้นตอน
+
+### [เพิ่มสถานะกราฟิกใน PDF ด้วย Aspose.Pdf – คู่มือทีละขั้นตอน](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+เรียนรู้วิธีจัดการสถานะกราฟิกใน PDF ด้วย Aspose.Pdf ผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ด C#
 
 ### [สร้างแสตมป์ PDF แบบกำหนดเองด้วย Aspose.PDF ใน .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.PDF Net
@@ -58,6 +63,8 @@
 เรียนรู้วิธีเพิ่มความโปร่งใสให้กับไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนใน C#
 ### [วิธีเพิ่มรูปทรงลงใน PDF ด้วย Aspose.PDF ใน C# – คู่มือทีละขั้นตอน](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 เรียนรู้วิธีเพิ่มรูปทรงต่าง ๆ ลงในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET พร้อมตัวอย่างโค้ด C# อย่างละเอียด
+### [วิธีเพิ่มกราฟิกสเตตใน PDF และควบคุมความโปร่งใสด้วย Aspose.PDF](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
+เรียนรู้วิธีใช้กราฟิกสเตตใน PDF และจัดการความโปร่งใสด้วย Aspose.PDF สำหรับ .NET
 
 ### [การระบุรูปภาพ PDF ที่มีประสิทธิภาพด้วย Aspose.PDF สำหรับ .NET](./master-image-identification-aspose-pdf-net/)
 เรียนรู้วิธีระบุภาพโทนสีเทาและ RGB ใน PDF โดยใช้ Aspose.PDF สำหรับ .NET บทช่วยสอนนี้ครอบคลุมถึงการติดตั้ง การแยกภาพ และเคล็ดลับด้านประสิทธิภาพ
@@ -118,6 +125,9 @@
 
 ### [วิธีการสร้างรูปสี่เหลี่ยมผืนผ้าโปร่งใสในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET](./create-transparent-rectangles-aspose-pdf-dotnet/)
 เรียนรู้วิธีปรับปรุงเอกสาร PDF ของคุณโดยสร้างสี่เหลี่ยมผืนผ้าที่มีความโปร่งใสของอัลฟ่าโดยใช้ Aspose.PDF สำหรับ .NET ทำตามคำแนะนำทีละขั้นตอนนี้
+
+### [วิธีเพิ่มความโปร่งใสให้กับ PDF และวาดสี่เหลี่ยมบน PDF ด้วย Aspose.PDF](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+เรียนรู้วิธีตั้งค่าความโปร่งใสและวาดสี่เหลี่ยมบนไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียด
 
 ### [วิธีการลบรูปภาพจากไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET - คู่มือฉบับสมบูรณ์](./delete-images-aspose-pdf-net/)
 เรียนรู้วิธีการลบรูปภาพออกจากไฟล์ PDF อย่างมีประสิทธิภาพโดยใช้ Aspose.PDF สำหรับ .NET คู่มือนี้ครอบคลุมถึงการตั้งค่า ตัวอย่างโค้ด และแนวทางปฏิบัติที่ดีที่สุด
@@ -187,6 +197,12 @@
 เรียนรู้วิธีการซ้อนภาพบน PDF เพิ่มมาสก์และเปิดใช้งานการเลือกถาดอัตโนมัติด้วย Aspose.PDF สำหรับ .NET
 ### [เพิ่ม ExtGState ไปยัง PDF ด้วย Aspose.PDF สำหรับ .NET – คู่มือฉบับสมบูรณ์](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
 เรียนรู้วิธีการใช้ ExtGState เพื่อควบคุมความโปร่งใสและการเรนเดอร์ใน PDF ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียด
+
+### [วิธีเพิ่มความโปร่งใสให้กับ PDF ด้วย Aspose.PDF ใน C#](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
+เรียนรู้วิธีเพิ่มความโปร่งใสให้กับไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียด
+
+### [เพิ่ม ExtGState ที่กำหนดเองใน PDF ด้วย Aspose.PDF – คู่มือขั้นตอนโดยละเอียด](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
+เรียนรู้วิธีการเพิ่ม ExtGState ที่กำหนดเองใน PDF ด้วย Aspose.PDF ผ่านคู่มือขั้นตอนโดยละเอียด
 
 ## แหล่งข้อมูลเพิ่มเติม
 

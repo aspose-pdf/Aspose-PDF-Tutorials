@@ -258,6 +258,9 @@ Aprenda a salvar PDFs como arquivos HTML de forma rápida usando Aspose.PDF em C
 Aprenda a converter PDFs em HTML rapidamente usando C# e Aspose.Pdf com este guia passo a passo.
 
 ### [Conversão de PDF para HTML com Aspose.PDF .NET: um tutorial de código](./pdf-to-html-conversion-aspose-dot-net/)
+### [Salvar PDF como HTML – Criar PDF e adicionar forma retangular](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
+Aprenda a salvar um PDF como HTML, criar um PDF e inserir uma forma retangular usando Aspose.PDF para .NET.
+
 Um tutorial de código para Aspose.PDF Net
 
 ### [Salvar PDF como HTML com Aspose – Guia completo em C#](./save-pdf-as-html-with-aspose-complete-c-guide/)

@@ -169,6 +169,9 @@ Naučte se, jak upravovat styl textu v tagovaných PDF dokumentech pomocí Aspos
 
 ### [Jak redigovat PDF pomocí Aspose – krok za krokem průvodce](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
 Naučte se, jak efektivně redigovat PDF dokumenty pomocí Aspose.PDF pro .NET s podrobným návodem a ukázkami kódu.
+### [Jak shrnout PDF pomocí Aspose.Pdf.AI – kompletní průvodce](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
+
+### [AI chat PDF: kladení otázek k PDF pomocí Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
 
 ## Další zdroje
 

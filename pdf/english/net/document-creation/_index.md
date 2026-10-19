@@ -115,6 +115,13 @@ Learn how to convert HEIC images to PDF using Aspose.PDF for .NET with a complet
 ### [Create PDF Document with Aspose.Pdf – Full Step‑by‑Step Guide](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
 Learn how to create a PDF document from scratch using Aspose.PDF for .NET with a comprehensive step‑by‑step tutorial.
 
+### [Create new PDF document with Bates numbering in C#](./create-new-pdf-document-with-bates-numbering-in-c/)
+Learn how to add Bates numbering to a new PDF document using Aspose.PDF for .NET in C#.
+
+### [Create PDF/X‑4 document C# – step‑by‑step guide](./create-pdf-x-4-document-c-step-by-step-guide/)
+Learn how to generate PDF/X‑4 documents using Aspose.PDF for .NET in C# with a step‑by‑step guide.
+### [How to create PDF document with a blank page and rectangle](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
+
 ## Additional Resources
 
 - [Aspose.PDF for Net Documentation](https://docs.aspose.com/pdf/net/)

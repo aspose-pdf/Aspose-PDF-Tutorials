@@ -289,6 +289,8 @@ Dowiedz się, jak konwertować pliki PDF na obrazy PNG przy użyciu Aspose, krok
 Dowiedz się, jak konwertować pliki PDF do HTML w C# przy użyciu Aspose.PDF, krok po kroku, z praktycznymi przykładami kodu.
 ### [Aspose PDF do HTML: Kompletny przewodnik konwersji PDF i usuwania obrazów](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
 Dowiedz się, jak konwertować pliki PDF do HTML i usuwać obrazy, zachowując formatowanie przy użyciu Aspose.PDF dla .NET.
+### [Zapisz PDF jako HTML – Utwórz PDF, dodaj kształt prostokąta](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
+Dowiedz się, jak zapisać PDF jako HTML, tworząc najpierw plik PDF i dodając kształt prostokąta.
 
 ## Dodatkowe zasoby
 

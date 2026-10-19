@@ -17,12 +17,6 @@
 
 ## 可用教程
 
-{{< tutorial-card link="./compare-pdfs/" title="比較 PDF 並使用 Aspose.PDF for .NET 產生突顯差異的 Diff 文件" imgSrc="./compare-pdfs/images/thumb.png" >}}
-
-{{< tutorial-card link="./compare-pdf-forms/" title="使用 Aspose.Pdf for .NET 比較 PDF 表單並產生 JSON 與視覺差異。" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
-
-{{< tutorial-card link="./exclude-areas/" title="使用 Aspose.Pdf for .NET 在忽略特定區域的情況下比較 PDF" imgSrc="./exclude-areas/images/thumb.png" >}}
-
 ### [使用 Aspose.PDF for .NET 為 PDF 新增日期和時間戳記註解](./aspose-pdf-net-date-time-stamps-annotations/)
 了解如何使用 Aspose.PDF for .NET 有效率地將日期和時間戳記或註解新增至 PDF 文件中。透過這些簡單易行的步驟來增強文件管理。
 
@@ -346,6 +340,10 @@ Aspose.PDF Net 程式碼教學
 
 ### [使用 Aspose.PDF 修復 PDF 檔案 – 完整指南](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
 了解如何使用 Aspose.PDF 修復受損或錯誤的 PDF 檔案，提供完整步驟與範例程式碼。
+### [儲存已更新的 PDF – 使用 Aspose.Pdf 編輯 PDF 資源](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+
+### [使用 Aspose.PDF 保存已修改的 PDF – 完整 C# 教學](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中保存已修改的 PDF 文件，涵蓋完整步驟與最佳實踐。
 
 ## 其他資源
 

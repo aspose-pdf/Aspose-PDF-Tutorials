@@ -41,6 +41,8 @@ Leer hoe u met C# een rechthoek in een PDF-document tekent met Aspose.PDF, inclu
 Leer hoe u met C# een rechthoek aan een PDF toevoegt met behulp van Aspose.PDF, inclusief codevoorbeelden en stapsgewijze instructies.
 ### [Rechthoek toevoegen aan PDF met Aspose.PDF – Complete programmeergids](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
 Leer hoe u met Aspose.PDF een rechthoek aan een PDF toevoegt met volledige codevoorbeelden en stapsgewijze instructies.
+### [Rechthoek toevoegen aan PDF met C# – stapsgewijze handleiding](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+Leer hoe u met Aspose.PDF voor .NET een rechthoek aan een PDF toevoegt met C# in deze stapsgewijze handleiding.
 
 ### [Maak aangepaste PDF-stempels met Aspose.PDF in .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Een codetutorial voor Aspose.PDF Net
@@ -53,8 +55,14 @@ Een codetutorial voor Aspose.PDF Net
 
 ### [Transparantie toevoegen aan PDF met Aspose PDF in C# – Stapsgewijze handleiding](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Leer hoe u transparantie-effecten op PDF‑pagina's toepast met Aspose PDF voor .NET in C#.
+
+### [Transparantie toevoegen aan PDF met Aspose.PDF in C# – Stapsgewijze handleiding](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
+Leer hoe u transparantie-effecten op PDF‑pagina's toepast met Aspose.PDF voor .NET in C#.
+
 ### [Hoe een vorm aan een PDF toe te voegen met Aspose.PDF in C# – Stapsgewijze handleiding](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Leer hoe u met Aspose.PDF voor .NET vormen toevoegt aan PDF‑documenten met C#, inclusief codevoorbeelden en tips voor positionering.
+### [Hoe grafische status toe te voegen aan PDF en transparantie te regelen met Aspose.PDF: een stapsgewijze handleiding](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
+Leer hoe u de graphics state van een PDF kunt manipuleren en transparantie-instellingen kunt beheren met Aspose.PDF voor .NET.
 
 ### [Efficiënte PDF-afbeeldingsidentificatie met Aspose.PDF voor .NET](./master-image-identification-aspose-pdf-net/)
 Leer hoe u grijswaarden- en RGB-afbeeldingen in PDF's kunt identificeren met Aspose.PDF voor .NET. Deze tutorial behandelt installatie, beeldextractie en prestatietips.
@@ -90,7 +98,7 @@ Leer hoe u naadloos afbeeldingen aan uw PDF-documenten kunt toevoegen met Aspose
 Leer hoe u naadloos afbeeldingen aan uw PDF-documenten kunt toevoegen met Aspose.PDF voor .NET. Deze stapsgewijze handleiding behandelt de installatie, implementatie en praktische toepassingen.
 
 ### [Afbeeldingen toevoegen aan PDF's met Aspose.PDF voor .NET: een stapsgewijze handleiding](./add-images-to-pdfs-aspose-pdf-net/)
-Leer hoe u naadloos afbeeldingen aan uw PDF's kunt toevoegen met Aspose.PDF voor .NET. Deze handleiding behandelt het toevoegen van afbeeldingen aan bestaande PDF's en het maken van nieuwe afbeeldingen vanuit DICOM-bestanden.
+Leer hoe u naadloos afbeeldingen aan uw PDF's toevoegt met Aspose.PDF voor .NET. Deze handleiding behandelt het toevoegen van afbeeldingen aan bestaande PDF's en het maken van nieuwe afbeeldingen vanuit DICOM-bestanden.
 
 ### [Een afbeeldingsheader toevoegen aan PDF's met Aspose.PDF voor .NET: een stapsgewijze handleiding](./add-image-header-pdf-aspose-dotnet/)
 Leer hoe u afbeeldingsheaders toevoegt aan uw PDF-documenten met Aspose.PDF voor .NET met deze uitgebreide stapsgewijze handleiding.
@@ -118,6 +126,8 @@ Leer hoe u uw PDF-documenten kunt verbeteren door rechthoeken met alfatransparan
 
 ### [Hoe PDF te valideren en een rechthoek toe te voegen – een volledige handleiding](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
 Leer hoe u een PDF valideert en een rechthoek toevoegt met Aspose.PDF voor .NET, inclusief codevoorbeelden en best practices.
+### [Hoe transparantie aan PDF toe te voegen en een rechthoek te tekenen met Aspose.PDF](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+Leer hoe u transparantie instelt en een rechthoek tekent in een PDF met Aspose.PDF voor .NET.
 
 ### [Afbeeldingen uit PDF-bestanden verwijderen met Aspose.PDF voor .NET - Complete handleiding](./delete-images-aspose-pdf-net/)
 Leer hoe u efficiënt afbeeldingen uit PDF-bestanden verwijdert met Aspose.PDF voor .NET. Deze handleiding behandelt de installatie, codevoorbeelden en aanbevolen procedures.
@@ -185,6 +195,9 @@ Leer hoe u afbeeldingen in Word-documenten zonder kwaliteitsverlies kunt comprim
 Leer hoe u een afbeeldingsoverlay met masker toevoegt en automatische lade-selectie activeert in PDF's met Aspose.PDF voor .NET.
 ### [ExtGState toevoegen aan PDF met Aspose.Pdf – een volledige handleiding](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
 Leer hoe u ExtGState-objecten kunt toepassen om transparantie, mengmodi en andere grafische instellingen in PDF's te beheren met Aspose.Pdf.
+### [Grafische status toevoegen aan PDF met Aspose.PDF voor .NET: een stapsgewijze handleiding](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+### [Aangepaste ExtGState PDF toevoegen met Aspose.PDF: een stapsgewijze handleiding](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
+Leer hoe u met Aspose.PDF aangepaste ExtGState-instellingen toevoegt aan PDF's voor geavanceerde transparantie‑ en weergave‑effecten.
 
 ## Aanvullende bronnen
 

@@ -78,6 +78,9 @@
 ### [วิธีเพิ่มประสิทธิภาพ PDF – คู่มือฉบับสมบูรณ์กับ Aspose.Pdf](./how-to-optimize-pdf-complete-guide-with-aspose-pdf/)
 เรียนรู้ขั้นตอนการเพิ่มประสิทธิภาพไฟล์ PDF อย่างเต็มรูปแบบด้วย Aspose.PDF พร้อมเคล็ดลับและตัวอย่างโค้ดที่ใช้งานได้จริง
 
+### [วิธีเพิ่มประสิทธิภาพ PDF ใน .NET – บีบอัด PDF ใน .NET ทีละขั้นตอน](./how-to-optimize-pdf-in-net-compress-pdf-in-net-step-by-step/)
+เรียนรู้วิธีบีบอัดไฟล์ PDF ใน .NET อย่างเป็นขั้นตอนเพื่อเพิ่มประสิทธิภาพและลดขนาดไฟล์
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)

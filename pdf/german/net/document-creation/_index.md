@@ -106,6 +106,14 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET HEIC‑Bilder in PDFs einbinden u
 ### [PDF-Dokument mit Aspose.PDF erstellen – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF ein PDF-Dokument von Grund auf erstellen, Seiten hinzufügen und das Ergebnis speichern.
 
+### [Erstellen Sie ein neues PDF-Dokument mit Bates-Nummerierung in C#](./create-new-pdf-document-with-bates-numbering-in-c/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF-Dokument erstellen und automatisch Bates‑Nummern hinzufügen.
+
+### [Erstellen Sie ein PDF/X‑4-Dokument in C# – Schritt‑für‑Schritt‑Anleitung](./create-pdf-x-4-document-c-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF/X‑4-Dokument in C# erstellen, inklusive Codebeispielen und Konfiguration.
+### [PDF-Dokument mit einer leeren Seite und Rechteck erstellen](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF-Dokument mit einer leeren Seite und einem gezeichneten Rechteck erstellen.
+
 ## Weitere Ressourcen
 
 - [Aspose.PDF für Net-Dokumentation](https://docs.aspose.com/pdf/net/)

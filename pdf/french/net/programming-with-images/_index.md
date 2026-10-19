@@ -53,6 +53,7 @@ Les tutoriels « Programmation avec des images » d'Aspose.PDF pour .NET vous 
 | [Stocker l'image dans la collection XImage](./store-image-in-ximage-collection/) | Apprenez à stocker des images dans la collection XImage à l'aide d'Aspose.PDF pour .NET dans ce guide complet étape par étape. |  
 | [Compresser les images dans DOCX – Réduire la taille du fichier](./compress-images-in-docx-reduce-file-size/) | Apprenez à compresser les images dans un document DOCX afin de réduire la taille du fichier avec Aspose.PDF pour .NET. |  
 | [Ajouter une figure à Word – Guide complet de programmation C#](./add-figure-to-word-complete-c-programming-guide/) | Apprenez à insérer une figure dans un document Word en C# avec Aspose.Words pour .NET, guide étape par étape. |  
+| [Créer un copilote IA pour la description d'images PDF – guide étape par étape](./create-ai-copilot-for-pdf-image-description-step-by-step-gui/) | Apprenez à créer un copilote IA qui génère des descriptions d'images PDF, guide complet pas à pas. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

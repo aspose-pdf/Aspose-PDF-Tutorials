@@ -280,6 +280,8 @@
 ### [Конвертировать DOCX в HTML на C# – Полное руководство по программированию](./convert-docx-to-html-in-c-complete-programming-guide/)
 ### [Преобразование docx в png на C# – Полное руководство](./convert-docx-to-png-in-c-complete-guide/)
 Узнайте, как преобразовать файлы DOCX в изображения PNG с помощью C# и Aspose.PDF, следуя пошаговым инструкциям и примерам кода.
+### [Сохранить PDF как HTML – создать PDF, добавить прямоугольную форму](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
+Создайте PDF, добавьте прямоугольник и сохраните как HTML с помощью Aspose.PDF для .NET.
 
 ## Дополнительные ресурсы
 

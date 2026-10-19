@@ -87,6 +87,9 @@
 ### [สร้างเอกสาร PDF ด้วย C# – เพิ่มหน้าว่างและวาดสี่เหลี่ยม](./create-pdf-document-c-add-blank-page-draw-rectangle/)
 เรียนรู้วิธีเพิ่มหน้าว่างและวาดสี่เหลี่ยมในเอกสาร PDF ด้วย Aspose.PDF สำหรับ .NET
 
+### [วิธีสร้างเอกสาร PDF ด้วยหน้าเปล่าและสี่เหลี่ยม](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
+เรียนรู้วิธีสร้างเอกสาร PDF พร้อมหน้าเปล่าและวาดสี่เหลี่ยมโดยใช้ Aspose.PDF สำหรับ .NET
+
 ### [สร้างเอกสาร PDF ด้วย C# – เพิ่มหน้า, วาดสี่เหลี่ยมและบันทึก](./create-pdf-document-c-add-page-draw-rectangle-save/)
 เรียนรู้วิธีสร้าง PDF ด้วย C# เพิ่มหน้า วาดสี่เหลี่ยมและบันทึกไฟล์โดยใช้ Aspose.PDF สำหรับ .NET
 
@@ -112,6 +115,11 @@
 ### [สร้าง PDF Image จาก HEIC – คู่มือ C# ฉบับสมบูรณ์](./create-pdf-image-from-heic-complete-c-guide/)
 เรียนรู้วิธีแปลงไฟล์ HEIC เป็นรูปภาพใน PDF ด้วย Aspose.PDF สำหรับ .NET ด้วย C# อย่างละเอียด
 ### [สร้างเอกสาร PDF ด้วย Aspose.PDF – คู่มือเต็มขั้นตอนแบบละเอียด](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+### [สร้างเอกสาร PDF ใหม่พร้อมหมายเลข Bates ใน C#](./create-new-pdf-document-with-bates-numbering-in-c/)
+เรียนรู้วิธีสร้างเอกสาร PDF ใหม่พร้อมการใส่หมายเลข Bates ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET
+
+### [สร้างเอกสาร PDF/X‑4 ด้วย C# – คู่มือทีละขั้นตอน](./create-pdf-x-4-document-c-step-by-step-guide/)
+เรียนรู้วิธีสร้างเอกสาร PDF/X‑4 ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET อย่างละเอียด
 
 ## แหล่งข้อมูลเพิ่มเติม
 

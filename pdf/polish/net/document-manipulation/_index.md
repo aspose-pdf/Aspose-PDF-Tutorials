@@ -303,6 +303,9 @@ Opanuj manipulację PDF za pomocą Aspose.PDF dla .NET. Dowiedz się, jak ładow
 ### [Zastąp pierwsze wystąpienie tekstu w pliku PDF za pomocą Aspose.PDF dla .NET — kompleksowy przewodnik](./replace-first-text-occurrence-aspose-pdf-net/)
 Dowiedz się, jak zastąpić pierwsze wystąpienie tekstu w pliku PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje konfigurację, przykłady kodu i praktyczne zastosowania.
 
+### [Zapisz zaktualizowany PDF – Edytuj zasoby PDF przy użyciu Aspose.PDF](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+Dowiedz się, jak zapisać zmodyfikowany plik PDF po edycji zasobów przy użyciu Aspose.PDF w .NET.
+
 ### [Zmiana rozmiaru zawartości pliku PDF za pomocą Aspose.PDF dla .NET](./resize-pdf-contents-aspose-pdf-dotnet/)
 Samouczek dotyczący kodu dla Aspose.PDF Net
 
@@ -353,6 +356,9 @@ Dowiedz się, jak usuwać wrażliwe informacje z dokumentów PDF przy użyciu As
 
 ### [Jak usunąć osadzone czcionki PDF – przewodnik krok po kroku w C#](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
 Dowiedz się, jak usunąć osadzone czcionki z plików PDF przy użyciu Aspose.PDF dla .NET w języku C#.
+### [Zapisz zmodyfikowany PDF przy użyciu Aspose.PDF – Kompletny przewodnik C#](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+Dowiedz się, jak zapisać zmodyfikowany plik PDF przy użyciu Aspose.PDF w C#, krok po kroku.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

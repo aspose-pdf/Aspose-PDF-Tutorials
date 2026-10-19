@@ -138,6 +138,12 @@ Aspose.PDF ile PDF dosyalarındaki dijital imzaları doğrulamak için adım ad�
 ### [Aspose.PDF ile PDF'de İmzayı Kontrol Etme – Tam Kılavuz](./how-to-check-signature-in-a-pdf-with-aspose-pdf-complete-gui/)
 Aspose.PDF ile PDF dosyalarındaki imzaları kontrol etmeyi adım adım öğrenin ve doğrulama sürecini yönetin.
 
+### [Aspose.PDF ile PDF İmzasını Doğrulama ve PDF İmzalarını Listeleme – Tam Kılavuz](./validate-pdf-signature-and-list-pdf-signatures-with-aspose-p/)
+
+### [C# ile PDF'den İmzaları Nasıl Alırsınız – Adım Adım Kılavuz](./how-to-get-signatures-from-a-pdf-in-c-step-by-step-guide/)
+C# kullanarak PDF'den imzaları çıkarmayı adım adım öğrenin.
+### [Aspose.PDF ile PDF İmzalarını Doğrulama](./how-to-verify-pdf-signatures-with-aspose-pdf/)
+
 ## Ek Kaynaklar
 
 - [Net Belgeleme için Aspose.PDF](https://docs.aspose.com/pdf/net/)

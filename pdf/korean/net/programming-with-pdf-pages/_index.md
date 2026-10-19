@@ -63,6 +63,7 @@ Aspose.PDF for .NET의 "PDF 페이지 프로그래밍" 설명서는 PDF 파일�
 | [Aspose.Pdf로 PDF 페이지 복제 – 전체 가이드](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Aspose.PDF for .NET을 사용하여 PDF 페이지를 복제하는 단계별 가이드입니다. |  
 | [Aspose.PDF를 사용하여 PDF에 베이츠 번호 추가 – 전체 가이드](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Aspose.PDF를 사용해 PDF에 베이츠 번호를 추가하는 단계별 전체 가이드입니다. |
 | [Aspose.PDF를 사용하여 빈 페이지 PDF 추가 – 전체 가이드](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Aspose.PDF for .NET을 사용하여 PDF 문서에 빈 페이지를 삽입하는 전체 단계별 가이드입니다. |  
+| [C#에서 PDF 불투명도 변경 – 단계별 가이드](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Aspose.PDF for .NET을 사용하여 C#에서 PDF 투명도를 변경하는 단계별 가이드입니다. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

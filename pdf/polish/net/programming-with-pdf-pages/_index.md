@@ -63,6 +63,7 @@ Samouczki obejmują instrukcje krok po kroku, szczegółowe przykłady kodu i ja
 | [Duplikowanie strony PDF przy użyciu Aspose.Pdf – Kompletny przewodnik](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Krok po kroku pokażemy, jak zduplikować stronę w pliku PDF przy użyciu Aspose.PDF dla .NET. |  
 | [Dodaj numerację Bates do PDF przy użyciu Aspose.PDF – Kompletny przewodnik](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Krok po kroku pokażemy, jak dodać numerację Bates do pliku PDF przy użyciu Aspose.PDF w .NET. |
 | [Dodaj pustą stronę PDF przy użyciu Aspose.PDF – Kompletny przewodnik](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Krok po kroku pokażemy, jak dodać pustą stronę do pliku PDF przy użyciu Aspose.PDF dla .NET. |
+| [Zmień krycie PDF w C# – przewodnik krok po kroku](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Krok po kroku pokażemy, jak zmienić krycie (przezroczystość) w pliku PDF przy użyciu Aspose.PDF w C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

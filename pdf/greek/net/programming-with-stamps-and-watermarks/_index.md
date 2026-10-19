@@ -60,6 +60,7 @@
 | [Δημιουργία υδατογραφήματος κειμένου σε Word με Aspose.Words – Πλήρης Οδηγός](./create-text-watermark-in-word-with-aspose-words-complete-gui/) | Μάθετε πώς να δημιουργήσετε υδατογράφημα κειμένου σε έγγραφα Word χρησιμοποιώντας το Aspose.Words με αυτόν τον πλήρη οδηγό. |
 | [Πώς να προσθέσετε σφραγίδα PDF – Πλήρης οδηγός με αυτόματη προσαρμογή κειμένου](./how-to-add-stamp-pdf-complete-guide-with-auto-fit-text/) | Μάθετε πώς να προσθέσετε σφραγίδα σε PDF με αυτόματη προσαρμογή κειμένου, βήμα προς βήμα, χρησιμοποιώντας το Aspose.PDF για .NET. |  
 | [Πώς να προσθέσετε υδατογράφημα PDF – Προσθήκη κειμένου επικάλυψης PDF με το Aspose](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) | Μάθετε πώς να προσθέσετε υδατογράφημα κειμένου σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με βήμα-βήμα οδηγίες. |  
+| [Προσθήκη διαφάνειας σε PDF με Aspose.PDF – Πλήρης οδηγός C#](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) | Μάθετε πώς να εφαρμόσετε διαφάνεια σε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET σε πλήρη οδηγό C#. |  
 | [Πώς να αλλάξετε τη διαφάνεια σε PDF με το Aspose.PDF – Πλήρης Οδηγός](./how-to-change-opacity-in-pdf-with-aspose-pdf-complete-guide/) Μάθετε πώς να ρυθμίσετε τη διαφάνεια των στοιχείων σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με αυτόν τον πλήρη οδηγό. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}

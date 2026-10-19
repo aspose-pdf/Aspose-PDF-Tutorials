@@ -34,6 +34,9 @@ Lär dig hur du genererar dynamiska PDF-dokument med text och bilder med Aspose.
 ### [Skapa PDF-dokument C# – Lägg till tom sida och rita rektangel](./create-pdf-document-c-add-blank-page-draw-rectangle/)
 Lär dig hur du skapar ett PDF-dokument i C#, lägger till en tom sida och ritar en rektangel med Aspose.PDF för .NET.
 
+### [Skapa PDF-dokument med en tom sida och rektangel](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
+Lär dig hur du skapar ett PDF-dokument med en tom sida och ritar en rektangel med Aspose.PDF för .NET.
+
 ### [Skapa strukturerade PDF-filer med automatiska sidbrytningar i .NET med Aspose.PDF](./create-pdfs-page-breaks-net-aspose-pdf/)
 Lär dig hur du skapar strukturerade PDF-dokument programmatiskt i en .NET-miljö med hjälp av Aspose.PDF, med automatiska sidbrytningar för exakt formatering.
 ### [Skapa ett PDF-häfte med Aspose.PDF .NET: Strömlinjeformad steg-för-steg-guide](./create-pdf-booklet-aspose-pdf-net-guide/)
@@ -103,6 +106,12 @@ Lär dig hur du skapar ett PDF-dokument i C#, lägger till en tom sida och ritar
 Lär dig hur du konverterar HEIC-bilder till PDF med Aspose.PDF för .NET i en komplett C#‑guide.
 ### [Skapa PDF-dokument med Aspose.Pdf – Fullständig steg‑för‑steg‑guide](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
 Lär dig hur du skapar ett PDF-dokument med Aspose.Pdf genom en komplett steg‑för‑steg‑guide.
+
+### [Skapa nytt PDF-dokument med Bates-nummerering i C#](./create-new-pdf-document-with-bates-numbering-in-c/)
+Lär dig hur du skapar ett PDF-dokument med Bates-nummerering i C# med Aspose.PDF för .NET.
+
+### [Skapa PDF/X‑4-dokument C# – steg‑för‑steg‑guide](./create-pdf-x-4-document-c-step-by-step-guide/)
+Lär dig hur du skapar ett PDF/X‑4-dokument i C# med Aspose.PDF för .NET.
 
 ## Ytterligare resurser
 

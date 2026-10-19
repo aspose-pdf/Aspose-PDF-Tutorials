@@ -62,6 +62,7 @@ De tutorials "Programmeren met stempels en watermerken" van Aspose.PDF voor .NET
 | [Hoe een stempel-pdf toevoegen – Complete gids met automatisch passend tekst](./how-to-add-stamp-pdf-complete-guide-with-auto-fit-text/) | Leer hoe u een stempel-pdf maakt met automatisch passend tekst met Aspose.PDF voor .NET in een stapsgewijze handleiding. |  
 | [Bates-nummeringstutorial: Nummers toevoegen aan PDF met Aspose](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) |  
 | [Hoe watermerk aan PDF toevoegen – Tekstoverlay PDF met Aspose](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) Leer hoe u een tekstwatermerk aan een PDF toevoegt met Aspose.PDF voor .NET. |  
+| [Transparantie toevoegen aan PDF met Aspose.PDF – Complete C#-gids](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) | Leer hoe u transparantie toepast op PDF's met Aspose.PDF in C# met deze stapsgewijze handleiding. |  
 | [Hoe de doorzichtigheid in PDF te wijzigen met Aspose.PDF – Complete gids](./how-to-change-opacity-in-pdf-with-aspose-pdf-complete-guide/) | Leer hoe u de doorzichtigheid van elementen in een PDF kunt aanpassen met Aspose.PDF voor .NET in deze stapsgewijze handleiding. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

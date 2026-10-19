@@ -217,6 +217,9 @@ Pelajari cara mengonversi file DOCX menjadi gambar PNG menggunakan C# dan Aspose
 ### [Aspose PDF ke HTML: Panduan Lengkap untuk Mengonversi PDF dan Menghapus Gambar](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
 Pelajari cara mengonversi PDF ke HTML dan menghilangkan gambar secara otomatis menggunakan Aspose.PDF untuk .NET.
 
+### [Simpan PDF sebagai HTML – Buat PDF, tambahkan bentuk persegi panjang](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
+Pelajari cara menyimpan PDF sebagai HTML, membuat PDF, dan menambahkan bentuk persegi panjang menggunakan Aspose.PDF untuk .NET.
+
 ## Sumber Daya Tambahan
 
 ### [Konversi PDF ke PDF/X-1a, Ekspor Halaman PNG & Tambahkan Stempel Teks](./convert-pdf-to-pdf-x-1a-export-page-png-add-text-stamp/)

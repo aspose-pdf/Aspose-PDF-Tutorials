@@ -106,6 +106,13 @@ HEIC 形式の画像を PDF に変換する方法を C# でステップバイス
 ### [Aspose.Pdf を使用した PDF ドキュメントの作成 – 完全ステップバイステップガイド](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
 Aspose.Pdf を使って .NET で PDF ドキュメントを最初から作成する方法を、詳細な手順で解説します。
 
+### [C# でベーツ番号付けされた新しい PDF ドキュメントを作成する](./create-new-pdf-document-with-bates-numbering-in-c/)
+C# でベーツ番号付けを行いながら新しい PDF ドキュメントを作成する方法をステップバイステップで解説します。
+
+### [C# で PDF/X‑4 ドキュメントを作成する – ステップバイステップ ガイド](./create-pdf-x-4-document-c-step-by-step-guide/)
+Aspose.PDF for .NET を使用して、C# で PDF/X‑4 形式の PDF ドキュメントを作成する方法をステップバイステップで解説します。
+### [空白ページと矩形を含む PDF ドキュメントの作成方法](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
+
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)

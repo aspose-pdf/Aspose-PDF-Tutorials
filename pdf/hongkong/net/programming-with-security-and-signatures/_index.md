@@ -44,6 +44,7 @@
 | [在 C# 中驗證 PDF 數位簽章 – 完整 Aspose.PDF 指南](./validate-digital-signature-pdf-in-c-complete-aspose-pdf-guid/) |了解如何使用 Aspose.PDF for .NET 完整驗證 PDF 數位簽章的步驟與技巧。 |
 | [在 C# 中驗證 PDF 簽章 – 完整指南](./validate-pdf-signature-in-c-complete-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中驗證 PDF 簽章的完整指南。 |
 | [在 C# 中檢查 PDF 數位簽章 – 完整指南](./how-to-check-pdf-digital-signature-in-c-complete-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中完整檢查 PDF 數位簽章的步驟與技巧。 |
+| [在 C# 中驗證 PDF 數位簽章 – 驗證 PDF 簽章](./verify-pdf-digital-signature-in-c-validate-pdf-signature/) |了解如何在 C# 中驗證 PDF 數位簽章的步驟與技巧。 |
 | [使用簽名字段透過智慧卡簽名](./sign-with-smart-card-using-signature-field/) |了解如何使用 Aspose.PDF for .NET 的智慧卡安全地簽署 PDF。按照我們的逐步指南即可輕鬆實施。 |  
 | [在 C# 中配置 CA 伺服器 – 完整驗證 Word 文件簽章指南](./configure-ca-server-in-c-complete-guide-to-validate-word-doc/) |了解如何使用 Aspose.PDF for .NET 在 C# 中配置 CA 伺服器，以驗證 Word 文件的數位簽章，提供完整步驟指南。 |  
 | [驗證 PDF 數位簽章 – 完整的 C# 指南](./validate-pdf-digital-signature-complete-c-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中驗證 PDF 數位簽章的完整步驟與技巧。 |
@@ -58,6 +59,7 @@
 | [新增 Bates 編號 PDF – 完整 C# 指南（含簽署與轉換）](./add-bates-numbering-pdf-complete-c-guide-with-signing-conver/) |了解如何使用 Aspose.PDF for .NET 在 C# 中為 PDF 添加 Bates 編號、簽署並進行格式轉換的完整步驟。 |
 | [在 C# 中驗證 PDF 簽章 – 完整的 Aspose.PDF 指南](./verify-pdf-signature-in-c-complete-aspose-pdf-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中完整驗證 PDF 簽章的步驟與技巧。 |
 | [在 C# 中檢索 PDF 簽章 – 完整程式設計指南](./retrieve-pdf-signatures-in-c-complete-programming-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中完整檢索 PDF 簽章的步驟與技巧。 |
+| [如何在 C# 中提取 PDF 簽章 – 步驟指南](./how-to-extract-signatures-from-a-pdf-in-c-step-by-step-guide/) |了解如何使用 Aspose.PDF for .NET 在 C# 中提取 PDF 簽章的完整步驟。 |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

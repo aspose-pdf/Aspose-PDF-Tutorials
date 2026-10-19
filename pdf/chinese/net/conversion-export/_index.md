@@ -259,6 +259,9 @@ Aspose-PDF Net 代码教程
 ### [如何在 C# 中将 PDF 导出为 HTML – 完整 Aspose 指南](./how-to-export-pdf-to-html-in-c-complete-aspose-guide/)
 学习使用 Aspose.PDF for .NET 在 C# 中将 PDF 导出为 HTML 的完整步骤和代码示例。
 
+### [保存 PDF 为 HTML – 创建 PDF 并添加矩形形状](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
+学习如何使用 Aspose.PDF for .NET 将 PDF 保存为 HTML，并在创建的 PDF 中添加矩形形状。
+
 ### [使用 Aspose.PDF 在 .NET 中将 PDF 转换为 TIFF：分步指南](./pdf-to-tiff-conversion-aspose-pdf-net/)
 学习如何使用 Aspose.PDF for .NET 将 PDF 文档转换为 TIFF 图像。掌握自定义色深和高级图像处理技术。
 

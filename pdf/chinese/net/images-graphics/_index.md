@@ -46,9 +46,13 @@
 
 ### [如何使用 C# 在 PDF 中绘制矩形：分步指南](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
 学习使用 C# 和 Aspose.PDF for .NET 在 PDF 中绘制矩形的步骤，包括位置、尺寸和样式的设置。
+
 ### [如何验证 PDF 并添加矩形 – 完整指南](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
 学习使用 Aspose.PDF for .NET 验证 PDF 文件的完整性并在页面上绘制矩形，实现文档检查和标注。
+
 ### [使用 Aspose.PDF for .NET 向 PDF 添加矩形：完整编程指南](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+### [使用 C# 向 PDF 添加矩形：分步指南](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+Aspose.PDF Net 代码教程
 
 ### [使用 .NET 中的 Aspose.PDF 创建自定义 PDF 图章](./create-custom-pdf-stamps-aspose-pdf-net/)
 Aspose.PDF Net 代码教程
@@ -61,8 +65,21 @@ Aspose.PDF Net 代码教程
 
 ### [使用 Aspose.PDF for .NET 在 C# 中为 PDF 添加透明度 – 分步指南](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中为 PDF 文档中的元素设置透明度，实现更丰富的视觉效果。
+
+### [如何使用 Aspose.PDF 在 C# 中为 PDF 添加透明度](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
+本指南演示如何使用 Aspose.PDF 在 C# 中为 PDF 文档的元素设置透明度，实现更丰富的视觉效果。
+
 ### [使用 Aspose.PDF 向 PDF 添加 ExtGState：完整指南](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
 了解如何使用 Aspose.PDF 在 PDF 中添加 ExtGState，以实现透明度和混合模式等高级图形效果。
+### [使用 Aspose.PDF for .NET 添加图形状态 PDF：分步指南](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+了解如何使用 Aspose.PDF for .NET 在 PDF 中管理图形状态，实现透明度、混合模式等高级绘图效果。
+### [使用 Aspose.PDF for .NET 在 PDF 中创建透明矩形](./create-transparent-rectangles-aspose-pdf-dotnet/)
+了解如何使用 Aspose.PDF for .NET 创建具有 Alpha 透明度的矩形来增强 PDF 文档。请遵循本分步指南。
+
+### [使用 Aspose.PDF 添加图形状态并控制透明度](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
+了解如何使用 Aspose.PDF 管理图形状态并设置透明度，以创建更丰富的 PDF 内容。
+### [使用 Aspose.PDF for .NET 在 PDF 中添加透明度并绘制矩形](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+学习如何在 PDF 中设置透明度并绘制矩形，以实现高级视觉效果。
 
 ### [使用 Aspose.PDF for .NET 实现高效的 PDF 图像识别](./master-image-identification-aspose-pdf-net/)
 学习如何使用 Aspose.PDF for .NET 识别 PDF 中的灰度和 RGB 图像。本教程涵盖安装、图像提取和性能技巧。
@@ -97,10 +114,10 @@ Aspose.PDF Net 代码教程
 ### [如何使用 Aspose.PDF .NET 将图像添加到 PDF：综合指南](./aspose-pdf-net-add-images-pdfs/)
 了解如何使用 Aspose.PDF for .NET 将图像无缝添加到 PDF 文档。本分步指南涵盖设置、实施和实际应用。
 
-### [如何使用 Aspose.PDF for .NET 将图像添加到 PDF：完整指南](./add-images-to-pdfs-using-aspose-pdf-net/)
+### [如何使用 Aspose.PDF .NET 将图像添加到 PDF：完整指南](./add-images-to-pdfs-using-aspose-pdf-net/)
 了解如何使用 Aspose.PDF for .NET 将图像无缝添加到 PDF 文档。本分步指南涵盖设置、实施和实际应用。
 
-### [如何使用 Aspose.PDF for .NET 将图像添加到 PDF：分步指南](./add-images-to-pdfs-aspose-pdf-net/)
+### [如何使用 Aspose.PDF .NET 将图像添加到 PDF：分步指南](./add-images-to-pdfs-aspose-pdf-net/)
 了解如何使用 Aspose.PDF for .NET 将图像无缝添加到您的 PDF 文档中。本指南涵盖了如何将图像添加到现有 PDF 文档以及如何从 DICOM 文件创建新的 PDF 文档。
 
 ### [如何使用 Aspose.PDF for .NET 为 PDF 添加图像页眉：分步指南](./add-image-header-pdf-aspose-dotnet/)
@@ -123,9 +140,6 @@ Aspose.PDF Net 代码教程
 
 ### [如何使用 Aspose.PDF 在 .NET 中创建带图像的标签 PDF](./create-tagged-pdf-image-dotnet/)
 了解如何使用 Aspose.PDF for .NET 创建嵌入图像的可访问带标签的 PDF。增强所有用户的文档可访问性和演示效果。
-
-### [如何使用 Aspose.PDF for .NET 在 PDF 中创建透明矩形](./create-transparent-rectangles-aspose-pdf-dotnet/)
-了解如何使用 Aspose.PDF for .NET 创建具有 Alpha 透明度的矩形来增强 PDF 文档。请遵循本分步指南。
 
 ### [如何使用 Aspose.PDF for .NET 从 PDF 文件中删除图像 - 完整指南](./delete-images-aspose-pdf-net/)
 了解如何使用 Aspose.PDF for .NET 高效地从 PDF 文件中删除图像。本指南涵盖设置、代码示例和最佳实践。
@@ -188,7 +202,7 @@ Aspose.PDF Net 代码教程
 了解如何使用 Aspose.PDF for .NET 设置图像背景来增强您的 PDF 文档。本指南涵盖设置、实施和优化技巧。
 
 ### [图像叠加 PDF 教程 – 添加遮罩并启用自动托盘选择](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
-学习如何在 PDF 中叠加图像，添加遮罩并自动选择托盘，实现高级文档布局。
+### [使用 Aspose.PDF for .NET 添加自定义 ExtGState PDF – 分步指南](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
 
 ## 其他资源
 
