@@ -209,6 +209,8 @@ Aprenda a aprimorar seus documentos PDF definindo fundos de imagem usando o Aspo
 
 ### [Adicionar estado gráfico ao PDF usando Aspose.PDF – guia passo a passo](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
 Aprenda a manipular o estado gráfico em PDFs, controlando transparência, composições e efeitos avançados com Aspose.PDF para .NET.
+### [Adicionar ExtGState personalizado a PDFs usando Aspose.PDF para .NET: um guia passo a passo](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
+Aprenda a criar e aplicar um ExtGState personalizado em PDFs usando Aspose.PDF para .NET, controlando transparência e outras propriedades gráficas.
 
 ## Recursos adicionais
 

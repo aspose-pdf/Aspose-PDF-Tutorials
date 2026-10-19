@@ -202,6 +202,7 @@ Aspose.PDF Net 代码教程
 了解如何使用 Aspose.PDF for .NET 设置图像背景来增强您的 PDF 文档。本指南涵盖设置、实施和优化技巧。
 
 ### [图像叠加 PDF 教程 – 添加遮罩并启用自动托盘选择](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+### [使用 Aspose.PDF for .NET 添加自定义 ExtGState PDF – 分步指南](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
 
 ## 其他资源
 

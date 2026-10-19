@@ -76,7 +76,7 @@ Un tutoriel de code pour Aspose.PDF Net
 Un tutoriel de code pour Aspose.PDF Net
 
 ### [Extraire des images de signatures PDF avec Aspose.PDF .NET : un guide complet](./extract-images-pdf-signatures-aspose-pdf-dotnet/)
-Apprenez à extraire des images intégrées dans des signatures PDF avec Aspose.PDF pour .NET. Ce guide fournit des instructions étape par étape et des applications pratiques.
+Apprenez à extraire les images intégrées dans des signatures PDF avec Aspose.PDF pour .NET. Ce guide fournit des instructions étape par étape et des applications pratiques.
 
 ### [Extraire des images d'un PDF avec Aspose.PDF pour .NET](./extract-images-pdfs-aspose-pdf-net/)
 Un tutoriel de code pour Aspose.PDF Net
@@ -197,6 +197,8 @@ Apprenez à superposer des images sur un PDF, ajouter un masque et activer la s�
 Apprenez à appliquer des états graphiques avancés (ExtGState) aux PDF avec Aspose.PDF pour .NET, incluant la transparence et les effets.
 ### [Ajouter l'état graphique PDF avec Aspose.PDF – guide étape par étape](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
 Apprenez à manipuler l'état graphique d'un PDF avec Aspose.PDF pour .NET grâce à ce guide détaillé étape par étape.
+
+### [Ajouter un ExtGState personnalisé à un PDF avec Aspose.PDF – guide étape par étape](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
 
 ## Ressources supplémentaires
 

@@ -122,7 +122,7 @@ Aspose.PDF for .NET을 사용하여 점선을 추가하여 PDF 문서를 개선�
 Aspose.PDF for .NET을 사용하여 이미지가 포함된 접근성 높은 태그가 지정된 PDF를 만드는 방법을 알아보세요. 모든 사용자를 위해 문서 접근성과 프레젠테이션을 향상시키세요.
 
 ### [Aspose.PDF for .NET을 사용하여 PDF에 투명 사각형을 만드는 방법](./create-transparent-rectangles-aspose-pdf-dotnet/)
-Aspose.PDF for .NET을 사용하여 알파 투명도가 적용된 사각형을 만들어 PDF 문서를 개선하는 방법을 알아보세요. 이 단계별 가이드를 따라 해 보세요.
+Aspose.PDF Net에 대한 코드 튜토리얼
 
 ### [Aspose.PDF for .NET을 사용하여 PDF 파일에서 이미지를 삭제하는 방법 - 전체 가이드](./delete-images-aspose-pdf-net/)
 Aspose.PDF for .NET을 사용하여 PDF 파일에서 이미지를 효율적으로 삭제하는 방법을 알아보세요. 이 가이드에서는 설정, 코드 예제, 그리고 모범 사례를 다룹니다.
@@ -191,6 +191,8 @@ Aspose.PDF를 활용해 PDF 문서에 사각형을 그리는 방법을 단계별
 ### [Word 문서에서 무손실 이미지 압축 – 완전 가이드](./lossless-image-compression-in-word-docs-complete-guide/)
 Aspose.Words for .NET을 사용하여 Word 문서의 이미지를 품질 손실 없이 압축하는 방법을 단계별로 안내합니다.
 ### [이미지 오버레이 PDF 튜토리얼 – 마스크 추가 및 자동 트레이 선택 활성화](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+
+### [Aspose.PDF를 사용하여 사용자 정의 ExtGState PDF 추가 – 단계별 가이드](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
 
 ## 추가 자료
 

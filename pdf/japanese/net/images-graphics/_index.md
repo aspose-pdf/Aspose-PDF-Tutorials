@@ -202,6 +202,8 @@ Aspose.Words for .NET を使用して、Word 文書内の画像を品質を損�
 Aspose.Pdf の GraphicsAbsorber を使用して、PDF からベクター グラフィックを抽出する手順を学びます。
 ### [Aspose.Pdf を使用して PDF に ExtGState を追加する: 完全ガイド](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
 Aspose.Pdf の ExtGState 機能を活用し、PDF の透明度やブレンドモードなど高度な描画設定を追加する方法をステップバイステップで解説します。
+### [Aspose.PDF を使用してカスタム ExtGState PDF を追加する: ステップバイステップ ガイド](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
+Aspose.PDF を使用して、PDF にカスタム ExtGState を追加し、透明度やブレンドモードを制御する方法をステップバイステップで学びます。
 
 ## 追加リソース
 

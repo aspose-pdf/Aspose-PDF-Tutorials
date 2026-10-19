@@ -200,6 +200,8 @@
 Узнайте, как с помощью GraphicsAbsorber извлекать векторные графические элементы из PDF‑документов, используя Aspose.Pdf для .NET.
 ### [Добавление ExtGState в PDF с помощью Aspose.Pdf – Полное руководство](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
 Узнайте, как добавить ExtGState в PDF-файлы с помощью Aspose.Pdf, используя полное руководство с примерами кода C#.
+### [Добавление пользовательского ExtGState в PDF с помощью Aspose.PDF – пошаговое руководство](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
+Узнайте, как создавать и применять пользовательские ExtGState объекты для управления прозрачностью и режимами наложения в PDF с помощью Aspose.PDF для .NET.
 
 ## Дополнительные ресурсы
 

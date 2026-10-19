@@ -17,6 +17,9 @@ Entdecken Sie, wie Sie PDF-Dokumente mit visuellen Elementen aufwerten – mit u
 
 ## Verfügbare Tutorials
 
+### [Benutzerdefinierten ExtGState-PDF mit Aspose.PDF hinzufügen – Schritt‑für‑Schritt‑Anleitung](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET benutzerdefinierte ExtGState-Objekte zu PDFs hinzufügen.
+
 ### [Bildstempel zu PDFs hinzufügen mit Aspose.PDF für .NET: Eine Schritt-für-Schritt-Anleitung](./add-image-stamp-to-pdf-aspose-dotnet/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET nahtlos Bildstempel, z. B. Logos, zu jeder Seite einer PDF-Datei hinzufügen. Werten Sie Ihre Dokumente mit professionellem Branding auf.
 
@@ -40,6 +43,7 @@ Erfahren Sie, wie Sie mit Aspose.PDF für .NET Rechtecke zu PDFs hinzufügen, po
 
 ### [Rechteck in PDF mit C# zeichnen – Schritt‑für‑Schritt‑Anleitung](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein Rechteck in ein PDF-Dokument zeichnen. Folgen Sie dieser Schritt‑für‑Schritt‑Anleitung.
+
 ### [Wie man PDF validiert und ein Rechteck hinzufügt – Vollständiger Leitfaden](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDFs validieren und Rechtecke hinzufügen, um Dokumente zu prüfen und zu markieren.
 ### [Rechteck zu PDF hinzufügen mit C#: Schritt‑für‑Schritt‑Anleitung](./add-rectangle-to-pdf-with-c-step-by-step-guide/)

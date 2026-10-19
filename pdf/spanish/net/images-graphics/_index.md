@@ -73,6 +73,9 @@ Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para
 ### [Cómo añadir estado de gráficos PDF y controlar la transparencia con Aspose.PDF: guía paso a paso](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
 Aprenda a manipular el estado de gráficos y controlar la transparencia en archivos PDF usando Aspose.PDF para .NET.
 
+### [Agregar ExtGState personalizado a PDF con Aspose.PDF – guía paso a paso](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
+Aprenda a crear y aplicar un ExtGState personalizado en documentos PDF usando Aspose.PDF para .NET.
+
 ### [Identificación eficiente de imágenes PDF con Aspose.PDF para .NET](./master-image-identification-aspose-pdf-net/)
 Aprenda a identificar imágenes en escala de grises y RGB en archivos PDF con Aspose.PDF para .NET. Este tutorial abarca la instalación, la extracción de imágenes y consejos de rendimiento.
 

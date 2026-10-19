@@ -127,9 +127,6 @@ Lär dig hur du använder grafikstatus för att hantera transparens i PDF-dokume
 ### [Hur du lägger till transparens i PDF och ritar en rektangel i PDF med Aspose.PDF](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
 Lär dig hur du lägger till transparens och ritar en rektangel i PDF-dokument med Aspose.PDF för .NET.
 
-### [Hur man tar bort bilder från PDF-filer med Aspose.PDF för .NET - Komplett guide](./delete-images-aspose-pdf-net/)
-Lär dig hur du effektivt tar bort bilder från PDF-filer med Aspose.PDF för .NET. Den här guiden beskriver installation, kodexempel och bästa praxis.
-
 ### [Lägg till transparens i PDF med Aspose PDF i C# – En steg‑för‑steg‑guide (ny version)](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
 Lär dig hur du lägger till transparens i PDF-dokument med Aspose PDF för .NET i C#. Följ den här guiden för att skapa genomskinliga element.
 
@@ -266,6 +263,11 @@ Lär dig hur du lägger till transparens i PDF-dokument med Aspose PDF för .NET
 
 ### [Lägg till transparens i PDF med Aspose PDF i C# – En steg‑för‑steg‑guide (ny version)](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
 Lär dig hur du lägger till transparens i PDF-dokument med Aspose PDF för .NET i C#. Följ den här guiden för att skapa genomskinliga element.
+### [Lägg till anpassad ExtGState PDF med Aspose.PDF – steg‑för‑steg‑guide](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
+Lär dig hur du använder anpassade ExtGState‑inställningar för att kontrollera grafik‑ och transparenseffekter i PDF‑dokument med Aspose.PDF för .NET.
+
+### [Hur man tar bort bilder från PDF-filer med Aspose.PDF för .NET - Komplett guide](./delete-images-aspose-pdf-net/)
+Lär dig hur du effektivt tar bort bilder från PDF-filer med Aspose.PDF för .NET. Den här guiden beskriver installation, kodexempel och bästa praxis.
 
 ### [Effektiv PDF-bildidentifiering med Aspose.PDF för .NET](./master-image-identification-aspose-pdf-net/)
 Lär dig hur du identifierar gråskale- och RGB-bilder i PDF-filer med Aspose.PDF för .NET. Den här handledningen täcker installation, bildextrahering och prestandatips.

@@ -193,6 +193,9 @@ Aspose.Words .NET का उपयोग करके Word फ़ाइलों
 Aspose.Pdf का उपयोग करके PDF में ExtGState सेट करके पारदर्शिता और ग्राफ़िक प्रभावों को नियंत्रित करने की पूरी प्रक्रिया सीखें।
 ### [Aspose.Pdf के साथ ग्राफ़िक्स स्टेट PDF जोड़ें – चरण‑दर‑चरण मार्गदर्शिका](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
 
+### [Aspose.PDF के साथ कस्टम ExtGState PDF जोड़ें – चरण‑दर‑चरण गाइड](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
+Aspose.PDF का उपयोग करके PDF में कस्टम ExtGState जोड़ने की प्रक्रिया सीखें। विस्तृत कोड उदाहरण और सर्वोत्तम अभ्यास।
+
 ## अतिरिक्त संसाधन
 
 - [Aspose.PDF for Net दस्तावेज़ीकरण](https://docs.aspose.com/pdf/net/)

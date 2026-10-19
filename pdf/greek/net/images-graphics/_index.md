@@ -194,6 +194,8 @@
 Μάθετε πώς να προσθέτετε ExtGState σε PDF χρησιμοποιώντας το Aspose.Pdf για .NET, βελτιώνοντας τη διαφάνεια και τα εφέ.
 ### [Προσθήκη κατάστασης γραφικών σε PDF με το Aspose.Pdf – οδηγός βήμα προς βήμα](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
 Μάθετε πώς να διαχειρίζεστε την κατάσταση γραφικών σε PDF χρησιμοποιώντας το Aspose.PDF για .NET με αυτόν τον ολοκληρωμένο οδηγό βήμα‑βήμα.
+### [Προσθήκη προσαρμοσμένου ExtGState σε PDF με το Aspose.PDF – Οδηγός βήμα προς βήμα](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
+Μάθετε πώς να δημιουργήσετε και να εφαρμόσετε προσαρμοσμένες καταστάσεις ExtGState σε PDF χρησιμοποιώντας το Aspose.PDF για .NET.
 
 ## Πρόσθετοι Πόροι
 
