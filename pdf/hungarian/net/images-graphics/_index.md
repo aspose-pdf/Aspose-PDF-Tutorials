@@ -185,8 +185,9 @@ Ismerje meg, hogyan renderelhet összetett LaTeX szkripteket PDF dokumentumokká
 ### [Képhátterek beállítása PDF-ekben az Aspose.PDF for .NET használatával: Átfogó útmutató](./aspose-pdf-net-set-image-backgrounds/)
 
 ### [Átlátszóság hozzáadása PDF-hez Aspose PDF használatával C#-ban – Lépésről lépésre útmutató](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-
 ### [Átlátszóság hozzáadása PDF-hez Aspose.PDF használatával C#-ban](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
+### [Átlátszóság beállítása PDF-ben az Aspose.Pdf C#-val](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
+Tanuld meg, hogyan állíthat be átlátszóságot PDF-dokumentumokban az Aspose.Pdf C# használatával.
 
 ### [PDF validálása és téglalap hozzáadása – Teljes útmutató](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
 Tanulja meg, hogyan ellenőrizheti a PDF-et, és adhat hozzá téglalap alakzatot az Aspose.PDF for .NET segítségével.

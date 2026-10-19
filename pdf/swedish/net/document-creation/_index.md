@@ -20,6 +20,7 @@ Våra handledningar för dokumentskapande ger omfattande vägledning för att ge
 
 
 {{< tutorial-card link="./create-pdf-x-3-document/" title="Skapa PDF/X‑3‑dokument med tre sidor med Aspose.Pdf för .NET" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
+{{< tutorial-card link="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/" title="Hur man skapar PDF/X‑1‑dokument med Aspose.PDF för .NET" imgSrc="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/images/thumb.png" >}}
 ### [Skapa PDF-häften med Aspose.PDF för .NET: En steg-för-steg-guide](./aspose-pdf-net-create-booklets-tutorial/)
 Lär dig hur du skapar professionella PDF-häften med Aspose.PDF för .NET. Den här handledningen täcker installation, implementering och praktiska tillämpningar.
 ### [Skapa PDF-filer från XML och XSLT med Aspose.PDF .NET: En steg-för-steg-guide](./aspose-pdf-net-xml-xslt-to-pdfs-guide/)

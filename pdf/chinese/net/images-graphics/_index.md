@@ -80,6 +80,8 @@ Aspose.PDF Net 代码教程
 了解如何使用 Aspose.PDF 管理图形状态并设置透明度，以创建更丰富的 PDF 内容。
 ### [使用 Aspose.PDF for .NET 在 PDF 中添加透明度并绘制矩形](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
 学习如何在 PDF 中设置透明度并绘制矩形，以实现高级视觉效果。
+### [如何在 PDF 中使用 Aspose.Pdf C# 设置透明度：分步指南](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
+了解如何在 PDF 文档中使用 Aspose.Pdf C# 设置元素透明度，实现更丰富的视觉效果。
 
 ### [使用 Aspose.PDF for .NET 实现高效的 PDF 图像识别](./master-image-identification-aspose-pdf-net/)
 学习如何使用 Aspose.PDF for .NET 识别 PDF 中的灰度和 RGB 图像。本教程涵盖安装、图像提取和性能技巧。

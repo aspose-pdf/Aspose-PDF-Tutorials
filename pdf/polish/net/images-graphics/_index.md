@@ -192,6 +192,8 @@ Dowiedz się, jak w C# dodać przezroczystość do plików PDF przy użyciu Aspo
 
 ### [Jak dodać przezroczystość do PDF przy użyciu Aspose.PDF w C#](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
 Dowiedz się, jak dodać przezroczystość do plików PDF w C# przy użyciu Aspose.PDF.
+### [Jak ustawić przezroczystość w pliku PDF przy użyciu Aspose.Pdf w C#](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
+Dowiedz się, jak w C# ustawić przezroczystość w pliku PDF przy użyciu Aspose.Pdf, krok po kroku.
 
 ### [Bezstratna kompresja obrazów w dokumentach Word – kompletny przewodnik](./lossless-image-compression-in-word-docs-complete-guide/)
 Dowiedz się, jak bezstratnie kompresować obrazy w dokumentach Word, aby zmniejszyć rozmiar pliku bez utraty jakości.

@@ -18,6 +18,7 @@ Belge oluşturma eğitimlerimiz, .NET'te programatik olarak PDF dosyaları oluş
 ## Mevcut Eğitimler
 
 {{< tutorial-card link="./create-pdf-x-3-document/" title="Aspose.Pdf for .NET kullanarak Üç Sayfalı PDF/X‑3 Belgesi Oluşturun" imgSrc="./create-pdf-x-3-document/images/thumb.png" >}}
+{{< tutorial-card link="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/" title="Aspose.PDF for .NET kullanarak PDF/X‑1 Belgesi Oluşturun" imgSrc="./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/images/thumb.png" >}}
 ### [.NET için Aspose.PDF Kullanarak PDF Kitapçıkları Oluşturma: Adım Adım Kılavuz](./aspose-pdf-net-create-booklets-tutorial/)
 Aspose.PDF for .NET ile profesyonel PDF kitapçıkları oluşturmayı öğrenin. Bu eğitim kurulum, uygulama ve pratik uygulamaları kapsar.
 

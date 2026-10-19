@@ -23,6 +23,13 @@ using Aspose.Pdf.Annotations;
 ### [How to add transparency to PDF using Aspose.PDF in C#](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
 
 
+pdfDocument.Save("output.pdf");
+```
+
+## Available Tutorials
+### [How to set transparency in a PDF with Aspose.Pdf C#](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
+
+
 
 ### [Add image stamps to PDFs using Aspose.PDF for .NET&#58; a step‑Step guide]({{< relref "add-image-stamp-to-pdf-aspose-dotnet" >}})
 ### [Add graphics state pdf with Aspose.Pdf – step‑by‑step guide](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)

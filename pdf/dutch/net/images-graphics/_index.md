@@ -58,6 +58,8 @@ Leer hoe u transparantie-effecten op PDF‑pagina's toepast met Aspose PDF voor 
 
 ### [Transparantie toevoegen aan PDF met Aspose.PDF in C# – Stapsgewijze handleiding](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
 Leer hoe u transparantie-effecten op PDF‑pagina's toepast met Aspose.PDF voor .NET in C#.
+### [Transparantie instellen in PDF met Aspose.Pdf C# – Stapsgewijze handleiding](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
+Leer hoe u transparantie-effecten in een PDF instelt met Aspose.Pdf voor .NET in C#.
 
 ### [Hoe een vorm aan een PDF toe te voegen met Aspose.PDF in C# – Stapsgewijze handleiding](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Leer hoe u met Aspose.PDF voor .NET vormen toevoegt aan PDF‑documenten met C#, inclusief codevoorbeelden en tips voor positionering.

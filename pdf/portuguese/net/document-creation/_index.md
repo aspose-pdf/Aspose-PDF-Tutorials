@@ -112,6 +112,7 @@ Aprenda a gerar documentos PDF com numeração Bates usando Aspose.PDF para .NET
 ### [Criar documento PDF/X‑4 em C# – guia passo a passo](./create-pdf-x-4-document-c-step-by-step-guide/)
 ### [Criar documento PDF com página em branco e retângulo](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
 Aprenda a criar um documento PDF, inserir uma página em branco e desenhar um retângulo usando Aspose.PDF para .NET.
+### [Como criar documento PDF/X‑1 com Aspose.PDF para .NET](./how-to-create-pdf-x-1-document-with-aspose-pdf-for-net/)
 
 ## Recursos adicionais
 

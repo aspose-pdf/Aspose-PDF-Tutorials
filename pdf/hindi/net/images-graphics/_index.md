@@ -62,6 +62,8 @@ Aspose.PDF नेट के लिए एक कोड ट्यूटोरि�
 C# में Aspose PDF का उपयोग करके PDF दस्तावेज़ों में पारदर्शिता लागू करने का चरण‑दर‑गाइड तरीका सीखें।
 
 ### [C# में Aspose.PDF का उपयोग करके PDF में आकृति कैसे जोड़ें: चरण‑दर‑गाइड](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+### [Aspose.PDF C# के साथ PDF में पारदर्शिता कैसे सेट करें](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
+
 C# कोड के साथ PDF में विभिन्न आकृतियों को जोड़ने, आकार बदलने और शैली लागू करने की प्रक्रिया सीखें।
 
 ### [C# में Aspose.PDF का उपयोग करके PDF में पारदर्शिता कैसे जोड़ें](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)

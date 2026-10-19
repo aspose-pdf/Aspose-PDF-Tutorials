@@ -57,6 +57,8 @@ Aprenda a aplicar transparência a elementos de PDF com Aspose PDF em C#, seguin
 
 ### [Como adicionar transparência a PDF usando Aspose.PDF em C#](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
 Aprenda a aplicar transparência a elementos de PDF usando Aspose.PDF em C# com exemplos de código passo a passo.
+### [Como definir transparência em um PDF com Aspose.Pdf C#](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
+Aprenda a definir a transparência de objetos em PDFs usando Aspose.Pdf para .NET com C#.
 
 ### [Como adicionar forma a PDF usando Aspose.PDF em C# – Guia passo a passo](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Aprenda a inserir formas geométricas em documentos PDF com Aspose.PDF para .NET usando C# passo a passo.
