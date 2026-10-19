@@ -123,6 +123,10 @@ Learn how to add image stamps, such as logos or watermarks, to your PDFs using A
 Learn how to add shapes to PDF documents using Aspose.PDF for .NET with C# in this step-by-step guide.
 
 ### [How to Convert PDF Pages to PNG Images Using Aspose.PDF for .NET]({{< relref "convert-pdf-page-to-png-aspose-dotnet" >}})
+### [How to add transparency to PDF and draw a rectangle on PDF with Aspose.PDF](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+Learn how to add transparency and draw rectangles in PDFs using Aspose.PDF for .NET.
+
+### [How to Convert PDF Pages to PNG Images Using Aspose.PDF for .NET](./convert-pdf-page-to-png-aspose-dotnet/)
 Learn how to convert PDF pages to high-quality PNG images using Aspose.PDF for .NET. Follow this step-by-step guide with code examples and best practices.
 
 ### [How to Create Dashed Lines in PDFs Using Aspose.PDF for .NET&#58; A Step-by-Step Guide]({{< relref "create-dashed-lines-aspose-pdf-net" >}})

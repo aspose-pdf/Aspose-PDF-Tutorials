@@ -140,6 +140,8 @@ Aprenda a validar assinaturas de PDF e listar todas as assinaturas presentes usa
 
 ### [Como obter assinaturas de um PDF em C# – guia passo a passo](./how-to-get-signatures-from-a-pdf-in-c-step-by-step-guide/)
 Aprenda a extrair assinaturas de arquivos PDF usando C# com Aspose.PDF, passo a passo.
+### [Como verificar assinaturas de PDF com Aspose.PDF](./how-to-verify-pdf-signatures-with-aspose-pdf/)
+Aprenda a verificar assinaturas digitais em PDFs usando Aspose.PDF, com exemplos em C# passo a passo.
 
 ## Recursos adicionais
 

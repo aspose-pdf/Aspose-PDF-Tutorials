@@ -141,6 +141,8 @@ Ismerje meg, hogyan ellenőrizheti a PDF aláírásokat és listázhatja az öss
 ### [Hogyan nyerhetünk aláírásokat PDF-ből C#‑ban – lépésről‑lépésre útmutató](./how-to-get-signatures-from-a-pdf-in-c-step-by-step-guide/)
 Ismerje meg, hogyan nyerhet ki aláírásokat PDF-fájlokból C#‑ban az Aspose.PDF for .NET segítségével, lépésről‑lépésre útmutatóval.
 
+### [PDF aláírás ellenőrzése az Aspose.PDF segítségével](./how-to-verify-pdf-signatures-with-aspose-pdf/)
+
 ## További források
 
 - [Aspose.PDF a hálózati dokumentációhoz](https://docs.aspose.com/pdf/net/)

@@ -66,6 +66,8 @@ C# कोड के साथ PDF में विभिन्न आकृत�
 
 ### [C# में Aspose.PDF का उपयोग करके PDF में पारदर्शिता कैसे जोड़ें](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
 C# में Aspose.PDF का उपयोग करके PDF में पारदर्शिता जोड़ने की विस्तृत गाइड।
+### [PDF में पारदर्शिता जोड़ें और आयत बनाएं: Aspose.PDF के साथ चरण-दर-चरण मार्गदर्शिका](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+Aspose.PDF का उपयोग करके PDF में पारदर्शिता लागू करें और आयत आकृति बनाएं। C# कोड उदाहरण के साथ सीखें।
 
 ### [.NET के लिए Aspose.PDF के साथ कुशल PDF छवि पहचान](./master-image-identification-aspose-pdf-net/)
 .NET के लिए Aspose.PDF का उपयोग करके PDF में ग्रेस्केल और RGB छवियों की पहचान करना सीखें। यह ट्यूटोरियल इंस्टॉलेशन, इमेज एक्सट्रैक्शन और प्रदर्शन युक्तियों को कवर करता है।

@@ -126,6 +126,8 @@ Leer hoe u uw PDF-documenten kunt verbeteren door rechthoeken met alfatransparan
 
 ### [Hoe PDF te valideren en een rechthoek toe te voegen – een volledige handleiding](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
 Leer hoe u een PDF valideert en een rechthoek toevoegt met Aspose.PDF voor .NET, inclusief codevoorbeelden en best practices.
+### [Hoe transparantie aan PDF toe te voegen en een rechthoek te tekenen met Aspose.PDF](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+Leer hoe u transparantie instelt en een rechthoek tekent in een PDF met Aspose.PDF voor .NET.
 
 ### [Afbeeldingen uit PDF-bestanden verwijderen met Aspose.PDF voor .NET - Complete handleiding](./delete-images-aspose-pdf-net/)
 Leer hoe u efficiënt afbeeldingen uit PDF-bestanden verwijdert met Aspose.PDF voor .NET. Deze handleiding behandelt de installatie, codevoorbeelden en aanbevolen procedures.

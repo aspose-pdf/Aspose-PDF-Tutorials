@@ -132,6 +132,8 @@ Aprenda a validar arquivos PDF e inserir retângulos usando Aspose.PDF para .NET
 
 ### [Adicionar retângulo a PDF com C# – Guia completo do Aspose PDF](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
 Aprenda a adicionar retângulos a documentos PDF usando C# e Aspose.PDF com este guia completo passo a passo.
+### [Como adicionar transparência a PDFs e desenhar um retângulo em PDF usando Aspose.PDF](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+Aprenda a aplicar transparência e desenhar retângulos em documentos PDF usando Aspose.PDF para .NET.
 
 ### [Como excluir imagens de arquivos PDF usando Aspose.PDF para .NET - Guia completo](./delete-images-aspose-pdf-net/)
 Aprenda a excluir imagens de arquivos PDF com eficiência usando o Aspose.PDF para .NET. Este guia aborda configuração, exemplos de código e práticas recomendadas.

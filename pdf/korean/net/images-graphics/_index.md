@@ -61,6 +61,8 @@ Aspose.PDF for .NET을 사용해 PDF에 투명 효과를 적용하는 방법을 
 C#에서 Aspose.PDF를 사용하여 PDF에 도형을 추가하는 방법을 단계별로 안내합니다.
 ### [Aspose.PDF로 그래픽 상태 추가 및 투명도 제어 방법](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
 Aspose.PDF를 사용해 그래픽 상태를 추가하고 투명도를 제어하는 단계별 가이드
+### [Aspose.PDF를 사용하여 PDF에 투명도를 추가하고 사각형을 그리는 방법](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+PDF에 투명 사각형을 그리는 단계별 가이드
 
 ### [.NET용 Aspose.PDF를 사용한 효율적인 PDF 이미지 식별](./master-image-identification-aspose-pdf-net/)
 Aspose.PDF for .NET을 사용하여 PDF에서 회색조 및 RGB 이미지를 식별하는 방법을 알아보세요. 이 튜토리얼에서는 설치, 이미지 추출 및 성능 향상 팁을 다룹니다.

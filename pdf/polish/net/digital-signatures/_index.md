@@ -136,6 +136,8 @@ Dowiedz się, jak zweryfikować podpis PDF oraz wyświetlić listę podpisów w 
 
 ### [Jak uzyskać podpisy z pliku PDF w C# – przewodnik krok po kroku](./how-to-get-signatures-from-a-pdf-in-c-step-by-step-guide/)
 Dowiedz się, jak pobrać podpisy z pliku PDF przy użyciu C# i Aspose.PDF.
+### [Jak zweryfikować podpisy PDF przy użyciu Aspose.PDF](./how-to-verify-pdf-signatures-with-aspose-pdf/)
+Dowiedz się, jak zweryfikować podpisy PDF przy użyciu Aspose.PDF.
 
 ## Dodatkowe zasoby
 

@@ -60,6 +60,8 @@ Apprenez à appliquer la transparence aux éléments PDF en C# avec Aspose.PDF g
 Apprenez à dessiner un rectangle dans un PDF en C# avec Aspose.PDF .NET grâce à ce guide détaillé étape par étape.
 ### [Comment ajouter une forme à un PDF avec Aspose.PDF en C# – Guide étape par étape](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Apprenez à insérer et personnaliser des formes vectorielles dans vos documents PDF en C# avec Aspose.PDF grâce à ce guide détaillé.
+### [Comment ajouter de la transparence à un PDF et dessiner un rectangle sur un PDF avec Aspose.PDF](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+Apprenez à ajouter de la transparence et à dessiner un rectangle dans un PDF avec Aspose.PDF.
 
 ### [Identification efficace des images PDF avec Aspose.PDF pour .NET](./master-image-identification-aspose-pdf-net/)
 Apprenez à identifier les images en niveaux de gris et RVB dans les PDF avec Aspose.PDF pour .NET. Ce tutoriel couvre l'installation, l'extraction d'images et des conseils de performance.

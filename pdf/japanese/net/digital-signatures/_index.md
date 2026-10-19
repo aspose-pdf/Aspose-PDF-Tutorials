@@ -130,6 +130,8 @@ Aspose.PDF を利用して PDF のデジタル署名を検証する手順をス�
 
 ### [Aspose.PDF を使用した PDF 署名の検証と署名一覧表示 – 完全ガイド](./validate-pdf-signature-and-list-pdf-signatures-with-aspose-p/)
 Aspose.PDF を使用して PDF 署名を検証し、署名情報を一覧表示する方法を学びます。
+### [Aspose.PDF で PDF 署名を検証する方法](./how-to-verify-pdf-signatures-with-aspose-pdf/)
+Aspose.PDF を使用して PDF のデジタル署名を検証する手順とサンプルコードを解説します。
 
 ## 追加リソース
 

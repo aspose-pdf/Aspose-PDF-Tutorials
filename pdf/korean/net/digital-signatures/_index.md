@@ -41,8 +41,6 @@ Aspose.PDF for .NET을 사용하여 PDF에 보안 디지털 서명을 구현하�
 Aspose.PDF .NET을 사용하여 PDF에서 디지털 서명을 효율적으로 제거하는 방법을 알아보세요. 이 종합 가이드에서는 단일 및 다중 서명 제거에 대한 단계별 지침을 제공합니다.
 
 ### [Aspose.PDF for .NET을 사용하여 PDF 서명을 확인하는 방법: 포괄적인 가이드](./verify-pdf-signatures-aspose-pdf-net/)
-Aspose.PDF for .NET을 사용하여 PDF 파일의 디지털 서명을 확인하는 방법을 알아보세요. 이 가이드는 설정, 구현 및 실제 적용 사례를 다룹니다.
-
 ### [Aspose.PDF를 사용하여 PDF 서명을 확인하는 방법 – 완전 가이드](./how-to-check-signature-in-a-pdf-with-aspose-pdf-complete-gui/)
 Aspose.PDF를 사용해 PDF 파일의 디지털 서명을 확인하는 단계별 완전 가이드.
 
@@ -68,6 +66,7 @@ Aspose를 사용하여 PDF 서명을 검증하고 문서 무결성을 확인하�
 
 ### [C#에서 PDF 서명 검증 – 단계별 가이드](./validate-pdf-signature-in-c-step-by-step-guide/)
 C#와 Aspose.PDF를 사용하여 PDF 서명을 검증하는 방법을 단계별로 안내합니다.
+### [Aspose.PDF를 사용하여 PDF 서명 확인하는 방법](./how-to-verify-pdf-signatures-with-aspose-pdf/)
 
 ### [C#을 사용하여 PDF 서명 이름 검색 – 완전 프로그래밍 가이드](./retrieve-pdf-signature-names-in-c-complete-programming-guide/)
 C# 코드 예제로 PDF 파일에서 서명 이름을 추출하고 관리하는 방법을 단계별로 안내합니다.

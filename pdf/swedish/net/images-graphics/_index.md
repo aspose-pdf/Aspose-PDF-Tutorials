@@ -124,6 +124,8 @@ Lär dig hur du förbättrar dina PDF-dokument genom att skapa rektanglar med al
 Lär dig hur du lägger till transparens i PDF-dokument med Aspose PDF för .NET i C#. Följ den här guiden för att skapa genomskinliga element.
 ### [Hur man lägger till grafikstatus i PDF och kontrollerar transparens med Aspose.PDF](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
 Lär dig hur du använder grafikstatus för att hantera transparens i PDF-dokument med Aspose.PDF för .NET.
+### [Hur du lägger till transparens i PDF och ritar en rektangel i PDF med Aspose.PDF](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+Lär dig hur du lägger till transparens och ritar en rektangel i PDF-dokument med Aspose.PDF för .NET.
 
 ### [Hur man tar bort bilder från PDF-filer med Aspose.PDF för .NET - Komplett guide](./delete-images-aspose-pdf-net/)
 Lär dig hur du effektivt tar bort bilder från PDF-filer med Aspose.PDF för .NET. Den här guiden beskriver installation, kodexempel och bästa praxis.

@@ -128,6 +128,8 @@ Aspose.PDF Net 程式碼教學
 
 ### [使用 Aspose.PDF 為 PDF 新增矩形 – 完整程式設計指南](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
 了解如何使用 Aspose.PDF 在 PDF 中建立矩形，涵蓋設定屬性、位置與樣式的完整程式碼示例。
+### [如何在 PDF 中添加透明度並繪製矩形（使用 Aspose.PDF）](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+了解如何使用 Aspose.PDF 為 PDF 添加透明度並繪製矩形，以提升文件的視覺效果。
 
 ### [如何使用 Aspose.PDF for .NET 從 PDF 檔案中刪除影像 - 完整指南](./delete-images-aspose-pdf-net/)
 了解如何使用 Aspose.PDF for .NET 有效地從 PDF 檔案中刪除影像。本指南涵蓋設定、程式碼範例和最佳實踐。

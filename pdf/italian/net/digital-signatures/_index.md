@@ -137,6 +137,8 @@ Scopri come convalidare le firme PDF e elencare tutte le firme presenti usando A
 
 ### [Come ottenere le firme da un PDF in C# – guida passo‑passo](./how-to-get-signatures-from-a-pdf-in-c-step-by-step-guide/)
 Scopri come estrarre le firme da un PDF in C# con una guida passo‑passo.
+### [Come verificare le firme PDF con Aspose.PDF](./how-to-verify-pdf-signatures-with-aspose-pdf/)
+Scopri come verificare le firme PDF con Aspose.PDF, passo dopo passo, per garantire l'integrità dei documenti.
 
 ## Risorse aggiuntive
 
