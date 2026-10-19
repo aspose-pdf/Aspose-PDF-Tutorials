@@ -90,6 +90,7 @@ Tyto tutoriály také obsahují podrobné příklady kódu, jasná vysvětlení 
 | [Vytvořit PDF dokument s více widgety textových polí – krok za krokem](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Naučte se, jak vytvořit PDF dokument s více textovými poli pomocí Aspose.PDF pro .NET v tomto podrobném návodu. |
 | [Přidat Batesová čísla do PDF – krok za krokem C# průvodce](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Naučte se, jak přidat Batesova čísla do PDF souborů pomocí Aspose.PDF pro .NET v tomto podrobném C# návodu. |  
 | [Jak přidat textové pole PDF – Vytvořit pole formuláře PDF a uložit upravený PDF dokument](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Naučte se, jak vytvořit textové pole ve formuláři PDF a uložit upravený dokument pomocí Aspose.PDF pro .NET. |  
+| [Import FDF do PDF pomocí C# – Kompletní průvodce krok za krokem](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Naučte se, jak importovat soubory FDF do PDF pomocí C# s podrobným krok za krokem návodem. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -56,6 +56,9 @@ Samouczek dotyczący kodu dla Aspose.PDF Net
 ### [Konwertuj strony PDF do PNG za pomocą Aspose.PDF .NET: kompleksowy przewodnik](./convert-pdf-pages-to-png-aspose-net/)
 Dowiedz się, jak konwertować strony PDF na wysokiej jakości obrazy PNG za pomocą Aspose.PDF dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby skutecznie zautomatyzować proces konwersji.
 
+### [Konwertuj stronę PDF do PNG – Kompletny przewodnik Aspose.PDF](./convert-pdf-page-to-png-complete-aspose-pdf-guide/)
+Poznaj kompletny przewodnik konwersji pojedynczych stron PDF do formatu PNG przy użyciu Aspose.PDF dla .NET, z praktycznymi przykładami kodu.
+
 ### [Konwersja PDF do BMP za pomocą Aspose.PDF dla .NET: Przewodnik krok po kroku](./convert-pdf-to-bmp-aspose-pdf-net/)
 Dowiedz się, jak konwertować strony PDF na wysokiej jakości obrazy BMP za pomocą Aspose.PDF dla platformy .NET dzięki temu kompleksowemu przewodnikowi.
 
@@ -101,6 +104,8 @@ Dowiedz się, jak zapisać PDF jako PNG, a następnie przekształcić go do stan
 Dowiedz się, jak konwertować pliki PDF na obrazy PNG w C# przy użyciu Aspose.PDF, krok po kroku z praktycznymi przykładami.
 ### [Jak renderować PDF do PNG w C# – Kompletny przewodnik](./how-to-render-pdf-to-png-in-c-complete-guide/)
 Dowiedz się, jak renderować pliki PDF do obrazów PNG w C# przy użyciu Aspose.PDF, krok po kroku.
+### [Jak renderować strony PDF jako obrazy PNG – kompletny przewodnik Aspose.PDF](./how-to-render-pdf-pages-as-png-images-complete-aspose-pdf-gu/)
+Dowiedz się, jak konwertować strony PDF na obrazy PNG przy użyciu Aspose.PDF w .NET, krok po kroku.
 
 ### [Konwertuj PDF do PPTX za pomocą Aspose.PDF dla .NET: Przewodnik krok po kroku](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 Dowiedz się, jak skutecznie konwertować dokumenty PDF na prezentacje PowerPoint za pomocą Aspose.PDF dla .NET. Ten przewodnik krok po kroku obejmuje podstawową konwersję, zaawansowane funkcje, takie jak slajdy z obrazami, i śledzenie postępów.
@@ -249,6 +254,9 @@ Opanuj konwersję PDF-HTML przy użyciu Aspose.PDF dla .NET. Zwiększ dostępno�
 Dowiedz się, jak zapisać plik PDF jako HTML przy użyciu Aspose.PDF w C#, krok po kroku, z przykładami kodu.
 
 ### [Konwersja PDF do HTML z Aspose.PDF .NET](./pdf-to-html-conversion-aspose-dot-net/)
+### [Zapisz PDF bez obrazów – konwertuj PDF do HTML przy użyciu Aspose](./save-pdf-without-images-convert-pdf-to-html-with-aspose/)
+Dowiedz się, jak zapisać plik PDF bez obrazów, konwertując go do HTML przy użyciu Aspose.PDF dla .NET.
+
 Samouczek dotyczący kodu dla Aspose.PDF Net
 ### [Konwertuj PDF do HTML w C# – Szybki przewodnik z Aspose.Pdf](./convert-pdf-to-html-in-c-quick-guide-with-aspose-pdf/)
 Szybki przewodnik pokazujący, jak w C# konwertować pliki PDF do HTML przy użyciu Aspose.Pdf.
@@ -279,6 +287,10 @@ Dowiedz się, jak wyodrębnić i zapisać zawartość HTML z pliku PDF przy uży
 Dowiedz się, jak konwertować pliki PDF na obrazy PNG przy użyciu Aspose, krok po kroku, z przykładami kodu C#.
 ### [Konwertuj PDF do HTML w C# – Kompletny przewodnik krok po kroku](./convert-pdf-to-html-in-c-full-step-by-step-guide/)
 Dowiedz się, jak konwertować pliki PDF do HTML w C# przy użyciu Aspose.PDF, krok po kroku, z praktycznymi przykładami kodu.
+### [Aspose PDF do HTML: Kompletny przewodnik konwersji PDF i usuwania obrazów](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
+Dowiedz się, jak konwertować pliki PDF do HTML i usuwać obrazy, zachowując formatowanie przy użyciu Aspose.PDF dla .NET.
+### [Zapisz PDF jako HTML – Utwórz PDF, dodaj kształt prostokąta](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
+Dowiedz się, jak zapisać PDF jako HTML, tworząc najpierw plik PDF i dodając kształt prostokąta.
 
 ## Dodatkowe zasoby
 

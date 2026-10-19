@@ -62,6 +62,7 @@ Bạn sẽ học cách chỉ định cài đặt chuyển đổi, trích xuất 
 | [XPS sang PDF](./xps-to-pdf/) Tìm hiểu cách chuyển đổi tệp XPS sang PDF bằng Aspose.PDF cho .NET với hướng dẫn từng bước này. Hoàn hảo cho các nhà phát triển và những người đam mê tài liệu. |
 | [Tải tài liệu PDF C# – Chuyển đổi sang PDF/X‑4 với Aspose](./load-pdf-document-c-convert-to-pdf-x-4-with-aspose/) | Tìm hiểu cách tải tài liệu PDF và chuyển đổi sang định dạng PDF/X‑4 bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết này. |
 | [Chuyển đổi PDF sang PDF/X-1A với Quản lý màu trong C#](./convert-pdf-to-pdf-x-1a-with-color-management-in-c/) | Tìm hiểu cách chuyển đổi PDF sang PDF/X-1A với quản lý màu bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết. |
+| [Chuyển đổi PDF sang PDFX với Aspose.Pdf – Hướng dẫn đầy đủ](./convert-pdf-to-pdfx-with-aspose-pdf-complete-guide/) | Hướng dẫn chi tiết cách chuyển đổi tệp PDF sang PDFX bằng Aspose.Pdf cho .NET. |  
 | [Chuyển đổi PDF sang PDF/X‑4 trong C# – Hướng dẫn ASP.NET PDF từng bước](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Tìm hiểu cách chuyển đổi tệp PDF sang định dạng PDF/X‑4 bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. |  
 | [Cách chuyển đổi PDF sang PDF/X-4 với Aspose – Hướng dẫn từng bước](./how-to-convert-pdf-to-pdf-x-4-with-aspose-step-by-step-guide/) | Tìm hiểu cách chuyển đổi tệp PDF sang định dạng PDF/X-4 bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết từng bước này. |  
 | [Cách thiết lập tùy chọn chuyển đổi PDF trong C# – Hướng dẫn Aspose](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | Học cách cấu hình các tùy chọn chuyển đổi PDF trong C# bằng Aspose.PDF cho .NET qua hướng dẫn chi tiết. |
@@ -81,6 +82,14 @@ Bạn sẽ học cách chỉ định cài đặt chuyển đổi, trích xuất 
 | [Chuyển đổi PDF sang 2.0 – Hướng dẫn ASP.NET đầy đủ với ghi nhật ký lỗi](./convert-pdf-to-2-0-full-asp-net-guide-with-error-logging/) | Tìm hiểu cách chuyển đổi tệp PDF sang PDF 2.0 trong ASP.NET, bao gồm ghi nhật ký lỗi, qua hướng dẫn chi tiết từng bước. |
 | [Hướng dẫn Aspose PDF – Chuyển đổi PDF sang PDF/X‑4 từng bước](./aspose-pdf-conversion-tutorial-convert-pdfs-to-pdf-x-4-step/) | Học cách chuyển đổi PDF sang PDF/X‑4 bằng Aspose.PDF cho .NET qua hướng dẫn chi tiết từng bước. |
 | [Tải tài liệu PDF và chuyển đổi sang PDF/X‑4 – Hướng dẫn đầy đủ](./load-pdf-document-and-convert-to-pdf-x-4-complete-guide/) | Tìm hiểu cách tải tài liệu PDF và chuyển đổi sang PDF/X‑4 bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết này. |
+| [Chuyển đổi định dạng PDF Aspose: Chuyển PDF sang PDF/X‑4 trong C#](./aspose-pdf-format-conversion-convert-pdf-to-pdf-x-4-in-c/) | Tìm hiểu cách chuyển đổi PDF sang PDF/X‑4 bằng Aspose.PDF cho .NET trong hướng dẫn từng bước này. |
+| [Tạo hình ảnh PDF bằng Aspose.Pdf – Hướng dẫn từng bước](./create-pdf-image-with-aspose-pdf-step-by-step-guide/) | Tìm hiểu cách tạo hình ảnh PDF bằng Aspose.Pdf trong hướng dẫn chi tiết từng bước. |
+| [Cách chuyển đổi PDF với Aspose – Hướng dẫn chi tiết từng bước](./how-to-convert-pdf-with-aspose-complete-step-by-step-guide/) | Hướng dẫn chi tiết cách chuyển đổi tệp PDF bằng Aspose.PDF cho .NET, bao gồm các bước thực hiện đầy đủ. |
+| [Chuyển đổi PDF sang PDF/X‑1A trong C# – Hướng dẫn đầy đủ từng bước](./convert-pdf-to-pdf-x-1a-in-c-complete-step-by-step-guide/) | Tìm hiểu cách chuyển đổi tệp PDF sang định dạng PDF/X‑1A bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết từng bước. |
+| [Chuyển đổi PDF sang PDF/X-4 với Aspose.PDF – Hướng dẫn C# đầy đủ](./convert-pdf-to-pdf-x-4-with-aspose-pdf-complete-c-guide/) | Tìm hiểu cách chuyển đổi PDF sang PDF/X-4 bằng Aspose.PDF cho .NET trong hướng dẫn C# chi tiết và đầy đủ. |
+| [Chuyển đổi PDF sang HTML trong C# – Hướng dẫn đầy đủ với Aspose](./convert-pdf-to-html-in-c-complete-guide-with-aspose/) | Tìm hiểu cách chuyển đổi PDF sang HTML trong C# bằng Aspose.PDF cho .NET với hướng dẫn chi tiết từng bước. |
+| [PDF sang PDF/X‑1a trong C# – Hướng dẫn từng bước](./convert-pdf-to-pdf-x-1a-with-c-step-by-step-guide/) | Tìm hiểu cách chuyển đổi PDF sang PDF/X‑1a bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết từng bước. |
+| [Tạo chuyển đổi docx sang PDF/X-4 trong C# – hướng dẫn đầy đủ](./create-pdf-x-4-docx-conversion-in-c-complete-guide/) | Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang PDF/X-4 bằng Aspose.PDF cho .NET trong C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

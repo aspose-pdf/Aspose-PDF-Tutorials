@@ -72,6 +72,7 @@ Aspose.PDF'nin .NET için "Metinle Programlama" eğitimleri, PDF belgelerinizdek
 | [PDF Dosyasında Latex Komut Dosyasını Kullan](./use-latex-script/) | Aspose.PDF for .NET kullanarak PDF dosyasına matematiksel ifadeler veya formüller eklemek için Latex betiğinin nasıl kullanılacağını öğrenin. |  
 | [C# ile Word'de Span Elemanı Oluşturma – Tam Kılavuz](./create-span-element-in-word-with-c-complete-guide/) | Aspose.Words for .NET kullanarak C# ile Word belgelerinde span öğesi eklemeyi öğrenin. |  
 | [PDF'ye Bates Numaraları Ekle – bates numbering pdf](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Aspose.PDF for .NET kullanarak PDF dosyalarına Bates numaraları eklemeyi öğrenin. |
+| [Aspose.Pdf.AI ve OpenAI ile PDF özeti oluşturma](./generate-pdf-summary-with-aspose-pdf-ai-and-openai/) | Aspose.PDF for .NET ve OpenAI kullanarak PDF belgelerinin özetini otomatik olarak oluşturmayı öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

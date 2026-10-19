@@ -14,18 +14,31 @@
 
 # Programmieren mit PDF-Seiten
 
-Die Dokumentation „Programmieren mit PDF-Seiten“ für Aspose.PDF für .NET bietet Schritt-für-Schritt-Anleitungen, die Ihnen die Bearbeitung und Verwaltung von Seiten in einer PDF-Datei erleichtern. Sie lernen, wie Sie Seiten hinzufügen, entfernen, extrahieren und neu anordnen sowie Seiteneigenschaften wie Größe, Ausrichtung und Ränder konfigurieren. Diese Tutorials führen Sie anhand praktischer Beispiele und vermitteln Ihnen das Wissen, effektiv mit PDF-Seiten in Ihren .NET-Anwendungen zu arbeiten.
+Die Dokumentation „Programmieren mit PDF-Seiten“ für Aspose.PDF für .NET bietet Schritt‑für‑Schritt‑Anleitungen, die Ihnen die Bearbeitung und Verwaltung von Seiten in einer PDF‑Datei erleichtern. Sie lernen, wie Sie Seiten hinzufügen, entfernen, extrahieren und neu anordnen sowie Seiteneigenschaften wie Größe, Ausrichtung und Ränder konfigurieren. Diese Tutorials führen Sie anhand praktischer Beispiele und vermitteln Ihnen das Wissen, effektiv mit PDF‑Seiten in Ihren .NET‑Anwendungen zu arbeiten.
 
-Die Tutorials enthalten Schritt-für-Schritt-Anleitungen, detaillierte Codebeispiele und klare Erklärungen für ein leichtes Verständnis. Egal, ob Sie Anfänger oder erfahrener Entwickler sind, diese Ressourcen helfen Ihnen, die PDF-Seitenbearbeitungsfunktionen von Aspose.PDF für .NET zu meistern und eröffnen Ihnen neue Möglichkeiten für Ihre Anwendungsentwicklungsprojekte.
+Die Tutorials enthalten Schritt‑für‑Schritt‑Anleitungen, detaillierte Codebeispiele und klare Erklärungen für ein leichtes Verständnis. Egal, ob Sie Anfänger oder erfahrener Entwickler sind, diese Ressourcen helfen Ihnen, die PDF‑Seitenbearbeitungsfunktionen von Aspose.PDF für .NET zu meistern und eröffnen Ihnen neue Möglichkeiten für Ihre Anwendungsentwicklungsprojekte.
 
 ## Anleitungen
+
+{{< tutorial-card link="./rotate-pdf-page/" title="Eine einzelne PDF‑Seite um 180 Grad drehen mit Aspose.PDF für .NET" imgSrc="./rotate-pdf-page/images/thumb.png" >}}
+
+{{< tutorial-card link="./split-pdf/" title="PDF nach Seite zehn mit Aspose.Pdf für .NET aufteilen" imgSrc="./split-pdf/images/thumb.png" >}}
+
+{{< tutorial-card link="./rotate-pages/" title="Alle PDF-Seiten um 180° drehen mit Aspose.Pdf für .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdf-pages/" title="Vergleiche PDF‑Seiten seitenweise mit Aspose.Pdf für .NET" imgSrc="./compare-pdf-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdfs/" title="PDFs mit unterschiedlichen Seitengrößen vergleichen mit Aspose.PDF für .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+
+
 | Titel | Beschreibung |
 | --- | --- | 
 | [Orientierung ändern](./change-orientation/) | Schritt-für-Schritt-Anleitung zum Ändern der Seitenausrichtung einer PDF-Datei mit Aspose.PDF für .NET. Einfach zu befolgen und in Ihren Projekten zu implementieren. |  
-| [PDF-Dateien verketten](./concatenate-pdf-files/) | Verketten Sie PDF-Dateien mühelos mit Aspose.PDF für .NET mit dieser umfassenden Schritt-für-Schritt-Anleitung. |  
-| [Bestimmte Seite in der PDF-Datei löschen](./delete-particular-page/) | Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.PDF für .NET eine bestimmte Seite aus einer PDF-Datei löschen. |  
-| [Seitenfarbe bestimmen](./determine-page-color/) Lernen Sie mit unserer Schritt-für-Schritt-Anleitung, die Seitenfarbe von PDF-Dateien mit Aspose.PDF für .NET zu bestimmen. Einfache Implementierung für alle Kenntnisstufen. |  
-| [Seiteninhalte in PDF-Datei einpassen](./fit-page-contents/) | Passen Sie Ihre PDF-Inhalte mühelos mit Aspose.PDF für .NET an. Diese Anleitung bietet eine detaillierte Schritt-für-Schritt-Anleitung für ein optimales Seitenlayout. |  
+| [PDF-Dateien verketten](./concatenate-pdf-files/) | Verketten Sie PDF-Dateien mühelos mit Aspose.PDF für .NET mit dieser umfassenden Schritt‑für‑Schritt‑Anleitung. |  
+| [Bestimmte Seite in der PDF-Datei löschen](./delete-particular-page/) | Erfahren Sie in dieser Schritt‑für‑Schritt‑Anleitung, wie Sie mit Aspose.PDF für .NET eine bestimmte Seite aus einer PDF-Datei löschen. |  
+| [Seitenfarbe bestimmen](./determine-page-color/) Lernen Sie mit unserer Schritt‑für‑Schritt‑Anleitung, die Seitenfarbe von PDF-Dateien mit Aspose.PDF für .NET zu bestimmen. Einfache Implementierung für alle Kenntnisstufen. |  
+| [Seiteninhalte in PDF-Datei einpassen](./fit-page-contents/) | Passen Sie Ihre PDF-Inhalte mühelos mit Aspose.PDF für .NET an. Diese Anleitung bietet eine detaillierte Schritt‑für‑Schritt‑Anleitung für ein optimales Seitenlayout. |  
 | [PDF-Seitenabmessungen abrufen](./get-dimensions/) | In diesem Tutorial erklären wir, wie Sie PDF-Seitenabmessungen ermitteln und mit Aspose.PDF für .NET bearbeiten. Detaillierte Schritte führen Sie durch den Prozess. |  
 | [Ermitteln Sie die Anzahl der Seiten in einer PDF-Datei](./get-number-of-pages/) | Schritt-für-Schritt-Anleitung zum Ermitteln der Seitenanzahl in einer PDF-Datei mit Aspose.PDF für .NET. Einfach zu implementieren, ideal für Ihre Projekte. |  
 | [Seitenanzahl in PDF-Datei abrufen](./get-page-count/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET die Seitenanzahl in einer PDF-Datei ermitteln. Folgen Sie unserer Schritt-für-Schritt-Anleitung für eine einfache und effektive Lösung. |  
@@ -47,6 +60,10 @@ Die Tutorials enthalten Schritt-für-Schritt-Anleitungen, detaillierte Codebeisp
 | [Bates‑Nummerierung zu PDF hinzufügen mit Aspose – Vollständige Anleitung](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET eine Bates‑Nummerierung zu PDFs hinzufügen – Schritt‑für‑Schritt‑Anleitung. |
 | [PDF-Seiten neu anordnen mit Aspose.Pdf – Vollständige C#‑Anleitung](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF‑Seiten neu anordnen – vollständige Schritt‑für‑Schritt‑Anleitung in C#. |
 | [Bates-Nummerierung zu PDFs mit C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET Bates-Nummern zu PDFs hinzufügen – detaillierte Schritt‑für‑Schritt‑Anleitung. |
+| [PDF-Seite duplizieren mit Aspose.Pdf – Vollständige Anleitung](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.Pdf für .NET eine PDF‑Seite duplizieren – Schritt‑für‑Schritt‑Anleitung für einfache Implementierung. |
+| [Bates-Nummerierung zu PDF hinzufügen mit Aspose.PDF – Vollständige Anleitung](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET eine Bates‑Nummerierung zu PDF‑Dokumenten hinzufügen – Schritt‑für‑Schritt‑Anleitung. |
+| [Leere Seite zu PDF hinzufügen – Vollständige Schritt‑für‑Schritt‑Anleitung](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET eine leere Seite zu einer PDF-Datei hinzufügen – vollständige Schritt‑für‑Schritt‑Anleitung. |
+| [PDF-Opazität in C# mit Aspose.Pdf ändern – Schritt‑für‑Schritt‑Anleitung](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.Pdf für .NET die Transparenz von PDF‑Inhalten in C# anpassen – detaillierte Schritt‑für‑Schritt‑Anleitung. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

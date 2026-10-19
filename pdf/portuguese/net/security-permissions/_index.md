@@ -70,6 +70,8 @@ Aprenda a redigir PDFs com segurança usando o Aspose.PDF .NET. Este guia aborda
 
 ### [Como Redigir PDF e Remover Dados Sensíveis de PDF em C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
 Aprenda a redigir PDFs e eliminar informações confidenciais usando Aspose.PDF para .NET em C#.
+### [Como redigir PDF com Aspose.Pdf – Guia completo passo a passo](./how-to-redact-pdf-with-aspose-pdf-complete-step-by-step-guid/)
+Aprenda a redigir PDFs de forma segura usando Aspose.PDF .NET com instruções passo a passo e exemplos de código.
 
 ### [Desbloqueie e descriptografe arquivos PDF com Aspose.PDF para .NET: um guia completo](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 Aprenda a desbloquear e descriptografar arquivos PDF protegidos usando o Aspose.PDF para .NET em C#. Este guia aborda a configuração, as etapas de descriptografia e as práticas recomendadas.

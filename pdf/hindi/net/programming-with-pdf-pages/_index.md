@@ -19,6 +19,19 @@
 ट्यूटोरियल में चरण-दर-चरण निर्देश, विस्तृत कोड उदाहरण और स्पष्ट स्पष्टीकरण शामिल हैं ताकि इसे समझना आसान हो सके। चाहे आप शुरुआती हों या अनुभवी डेवलपर, ये संसाधन आपको .NET के लिए Aspose.PDF द्वारा पेश की गई PDF पेज मैनिपुलेशन सुविधाओं में महारत हासिल करने में मदद करेंगे, जिससे आपके एप्लिकेशन डेवलपमेंट प्रोजेक्ट्स के लिए नई संभावनाएँ खुलेंगी।
 
 ## ट्यूटोरियल
+
+{{< tutorial-card link="./rotate-pdf-page/" title="Aspose.PDF for .NET के साथ एकल PDF पृष्ठ को 180 डिग्री घुमाएँ" imgSrc="./rotate-pdf-page/images/thumb.png" >}}
+
+{{< tutorial-card link="./split-pdf/" title="Aspose.Pdf for .NET का उपयोग करके पृष्ठ दस के बाद PDF विभाजित करें" imgSrc="./split-pdf/images/thumb.png" >}}
+
+{{< tutorial-card link="./rotate-pages/" title="Aspose.Pdf for .NET का उपयोग करके प्रत्येक PDF पृष्ठ को 180° घुमाएँ" imgSrc="./rotate-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdf-pages/" title="Aspose.Pdf for .NET के साथ PDF पृष्ठों की पृष्ठ‑दर‑पृष्ठ तुलना करें" imgSrc="./compare-pdf-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdfs/" title="Aspose.PDF for .NET का उपयोग करके विभिन्न पृष्ठ आकारों वाले PDF की तुलना करें" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+
+
 | शीर्षक | विवरण |
 | --- | --- | 
 | [दिशा बदलें](./change-orientation/) | .NET के लिए Aspose.PDF के साथ PDF के पेज ओरिएंटेशन को बदलने के लिए चरण-दर-चरण मार्गदर्शिका। अनुसरण करने और अपनी परियोजनाओं में लागू करने में आसान। |  
@@ -33,6 +46,7 @@
 | [पीडीएफ गुण प्राप्त करें](./get-properties/) | .NET के लिए Aspose.PDF का उपयोग करके PDF प्रॉपर्टीज़ को कुशलतापूर्वक निकालने का तरीका जानें। कोड उदाहरणों और सर्वोत्तम प्रथाओं के साथ चरण-दर-स्तर मार्गदर्शिका। |  
 | [पीडीएफ फाइल में पृष्ठ पृष्ठभूमि के रूप में छवि सेट करें](./image-as-background/) | इस चरण-दर-स्तर मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF में पृष्ठ पृष्ठभूमि के रूप में छवि सेट करना सीखें। पेशेवर, दिखने में आकर्षक दस्तावेज़ बनाएँ। |  
 | [पीडीएफ फाइल में खाली पेज डालें](./insert-empty-page/) | .NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ में खाली पृष्ठ सम्मिलित करना सीखें। सहज PDF हेरफेर के लिए कोड उदाहरणों के साथ चरण-दर-स्तर ट्यूटोरियल। |  
+| [Aspose.PDF के साथ खाली पेज PDF जोड़ें – पूर्ण गाइड](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | .NET के लिए Aspose.PDF का उपयोग करके PDF में खाली पृष्ठ जोड़ने की पूरी चरण‑दर‑चरण मार्गदर्शिका। |  
 | [अंत में खाली पृष्ठ डालें](./insert-empty-page-at-end/) | इस शुरुआती-अनुकूल गाइड में .NET के लिए Aspose.PDF के साथ आसानी से एक खाली पृष्ठ को PDF दस्तावेज़ में सम्मिलित करना सीखें। त्वरित संपादन के लिए बिल्कुल सही। |  
 | [पृष्ठों में विभाजित करें](./split-to-pages/) इस व्यापक ट्यूटोरियल के साथ .NET के लिए Aspose.PDF का उपयोग करके PDF को आसानी से अलग-अलग पृष्ठों में विभाजित करें। चरण-दर-चरण मार्गदर्शिका शामिल है। |  
 | [पीडीएफ पेज आयाम अपडेट करें](./update-dimensions/) | इस व्यापक, चरण-दर-चरण मार्गदर्शिका में जानें कि .NET के लिए Aspose.PDF के साथ PDF पृष्ठ आयामों को आसानी से कैसे अपडेट किया जाए। |  
@@ -47,6 +61,9 @@
 | [C# के साथ PDF में पृष्ठ जोड़ें – पूर्ण चरण‑दर‑चरण गाइड](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) | .NET के लिए Aspose.PDF का उपयोग करके C# में PDF फ़ाइल में कई पृष्ठ जोड़ने की विस्तृत चरण‑दर‑चरण मार्गदर्शिका। |
 | [पुनः क्रमित करें PDF पेज C# में – पूर्ण चरण‑दर‑चरण गाइड](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | C# में PDF पेजों को पुनः क्रमित करने के लिए पूर्ण चरण‑दर‑चरण मार्गदर्शिका। |  
 | [C# के साथ PDF में Bates नंबरिंग जोड़ें – पूर्ण गाइड](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | .NET के लिए Aspose.PDF का उपयोग करके C# में PDFs में Bates नंबरिंग जोड़ने की पूर्ण चरण‑दर‑स्टेप मार्गदर्शिका। |
+| [Aspose.Pdf के साथ PDF पृष्ठ को डुप्लिकेट करें – पूर्ण गाइड](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Aspose.PDF का उपयोग करके .NET में PDF पृष्ठ को डुप्लिकेट करने की पूरी चरण‑दर‑चरण गाइड। |
+| [Aspose.PDF के साथ PDF में Bates नंबरिंग जोड़ें – पूर्ण गाइड](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | .NET के लिए Aspose.PDF का उपयोग करके PDF में Bates नंबरिंग जोड़ने की पूर्ण चरण‑दर‑चरण मार्गदर्शिका। |
+| [C# में Aspose.Pdf के साथ PDF की अपारदर्शिता बदलें – चरण‑दर‑चरण गाइड](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | C# में Aspose.Pdf का उपयोग करके PDF की अपारदर्शिता बदलने की चरण‑दर‑चरण मार्गदर्शिका। |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

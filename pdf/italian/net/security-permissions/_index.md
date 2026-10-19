@@ -79,6 +79,8 @@ Scopri come verificare le password dei PDF utilizzando Aspose.PDF per .NET in C#
 
 ### [Come redigere PDF e rimuovere dati sensibili in C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
 Scopri come redigere PDF e rimuovere informazioni sensibili usando Aspose.PDF per .NET con esempi di codice C#.
+### [Come redigere PDF con Aspose.Pdf – Guida completa passo‑passo](./how-to-redact-pdf-with-aspose-pdf-complete-step-by-step-guid/)
+Scopri come redigere PDF in modo sicuro con Aspose.PDF .NET, passo dopo passo, con esempi di codice C#.
 
 ## Risorse aggiuntive
 

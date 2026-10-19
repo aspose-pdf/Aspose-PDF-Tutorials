@@ -70,6 +70,8 @@
 
 ### [Εφαρμογή Σκότωσης σε PDF με το Aspose Plugin Manager – Πλήρης Οδηγός](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
 Μάθετε πώς να εφαρμόζετε σκότωση σε αρχεία PDF χρησιμοποιώντας το Aspose Plugin Manager σε .NET.
+### [Πώς να εφαρμόσετε απόκρυψη σε PDF με το Aspose.Pdf – Πλήρης Οδηγός Βήμα‑βήμα](./how-to-redact-pdf-with-aspose-pdf-complete-step-by-step-guid/)
+Μάθετε πώς να εφαρμόζετε απόκρυψη σε αρχεία PDF χρησιμοποιώντας το Aspose.Pdf με αναλυτικά βήματα και παραδείγματα κώδικα.
 
 ### [Ξεκλείδωμα και αποκρυπτογράφηση αρχείων PDF με το Aspose.PDF για .NET: Ένας πλήρης οδηγός](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 Μάθετε πώς να ξεκλειδώνετε και να αποκρυπτογραφείτε προστατευμένα αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET σε C#. Αυτός ο οδηγός καλύπτει τα βήματα εγκατάστασης, αποκρυπτογράφησης και τις βέλτιστες πρακτικές.

@@ -57,6 +57,16 @@
 ### [PDF ドキュメントを作成する C# – 空白ページの追加と矩形の描画 ステップバイステップ ガイド](./create-pdf-document-c-step-by-step-guide-to-add-a-blank-page/)
 ### [HEIC 画像から PDF を作成 – 完全 C# ガイド](./create-pdf-image-from-heic-complete-c-guide/)
 
+### [Aspose.Pdf を使用した PDF ドキュメントの作成 – 完全ステップバイステップガイド](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+Aspose.Pdf を使って .NET で PDF ドキュメントを最初から作成する方法を、詳細な手順で解説します。
+
+### [C# でベーツ番号付けされた新しい PDF ドキュメントを作成する](./create-new-pdf-document-with-bates-numbering-in-c/)
+C# でベーツ番号付けを行いながら新しい PDF ドキュメントを作成する方法をステップバイステップで解説します。
+
+### [C# で PDF/X‑4 ドキュメントを作成する – ステップバイステップ ガイド](./create-pdf-x-4-document-c-step-by-step-guide/)
+Aspose.PDF for .NET を使用して、C# で PDF/X‑4 形式の PDF ドキュメントを作成する方法をステップバイステップで解説します。
+### [空白ページと矩形を含む PDF ドキュメントの作成方法](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
+
 ## 追加リソース
 
 - [Aspose.PDF for Net ドキュメント](https://docs.aspose.com/pdf/net/)

@@ -56,6 +56,8 @@ Los tutoriales "Programación con PDF etiquetados" de Aspose.PDF para .NET le gu
 | [Crear intervalo de texto accesible en PDF con Aspose: Guía completa en C#](./create-accessible-text-span-in-pdf-with-aspose-full-c-guide/) | Aprenda a crear un intervalo de texto accesible en un PDF usando Aspose.PDF para .NET con esta guía paso a paso en C#. |
 | [Cómo editar PDF etiquetado con Aspose.Pdf – Guía completa](./how-to-edit-tagged-pdf-with-aspose-pdf-complete-guide/) | Aprenda a editar PDFs etiquetados con Aspose.PDF para .NET siguiendo esta guía completa paso a paso. |
 | [Crear PDF etiquetado en C# – Guía completa paso a paso](./create-tagged-pdf-in-c-full-step-by-step-guide/) | Aprenda a crear un PDF etiquetado en C# con Aspose.PDF para .NET siguiendo esta guía completa paso a paso. |
+| [Cómo etiquetar PDF con Aspose.Pdf – Guía completa de programación](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | Aprenda a etiquetar PDFs usando Aspose.Pdf con esta guía completa paso a paso. |
+| [Crear elemento Span en PDF con Aspose – Cargar PDF y etiquetar contenido](./create-span-element-pdf-with-aspose-load-pdf-aspose-and-tag/) | Aprenda a crear un elemento Span en un PDF, cargar el documento y etiquetar su contenido usando Aspose.PDF para .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

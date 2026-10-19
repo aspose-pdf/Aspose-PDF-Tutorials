@@ -52,6 +52,7 @@
 - [สร้าง Text Span ที่เข้าถึงได้ใน PDF ด้วย Aspose: คู่มือ C# ฉบับเต็ม](./create-accessible-text-span-in-pdf-with-aspose-full-c-guide/) | เรียนรู้วิธีสร้าง Text Span ที่เข้าถึงได้ใน PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือ C# ฉบับเต็มขั้นตอนโดยละเอียด  
 - [วิธีแก้ไข PDF ที่มีแท็กด้วย Aspose.Pdf – คู่มือเต็ม](./how-to-edit-tagged-pdf-with-aspose-pdf-complete-guide/) | เรียนรู้วิธีแก้ไข PDF ที่มีแท็กด้วย Aspose.Pdf สำหรับ .NET ผ่านขั้นตอนที่ละเอียดและครบถ้วน  
 - [สร้าง PDF ที่มีแท็กใน C# – คู่มือเต็มขั้นตอนต่อขั้นตอน](./create-tagged-pdf-in-c-full-step-by-step-guide/) | เรียนรู้วิธีสร้าง PDF ที่มีแท็กใน C# ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียดตามขั้นตอนครบถ้วน  
+- [วิธีทำแท็ก PDF ด้วย Aspose.Pdf – คู่มือการเขียนโปรแกรมเต็มรูปแบบ](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | เรียนรู้วิธีทำแท็ก PDF อย่างละเอียดด้วย Aspose.Pdf สำหรับ .NET ผ่านคู่มือการเขียนโปรแกรมเต็มรูปแบบ  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

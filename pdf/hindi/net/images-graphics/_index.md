@@ -28,6 +28,9 @@
 
 ### [.NET के लिए Aspose.PDF का उपयोग करके छवियों को PDF में बदलें: चरण-दर-स्तर मार्गदर्शिका](./convert-images-pdf-aspose-net-guide/)
 जानें कि C# में .NET के लिए Aspose.PDF के साथ छवियों को एकल PDF में कैसे परिवर्तित किया जाए। यह मार्गदर्शिका चरण-दर-स्तर निर्देश, सुझाव और सर्वोत्तम अभ्यास प्रदान करती है।
+### [GraphicsAbsorber का उपयोग कैसे करें – Aspose.Pdf के साथ PDF से वेक्टर ग्राफ़िक्स निकालें](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
+Aspose.Pdf के GraphicsAbsorber का उपयोग करके PDF से वेक्टर ग्राफ़िक्स को आसानी से निकालें और पुन: उपयोग करें।
+
 
 ### [.NET के लिए Aspose.PDF का उपयोग करके SVG को PDF में बदलें: एक चरण-दर-स्तर मार्गदर्शिका](./svg-to-pdf-aspose-pdf-net-tutorial/)
 जानें कि .NET के लिए Aspose.PDF का उपयोग करके SVG फ़ाइलों को उच्च-गुणवत्ता वाली PDF में कैसे आसानी से परिवर्तित किया जाए। कोड उदाहरणों और प्रदर्शन युक्तियों के साथ इस व्यापक ट्यूटोरियल का पालन करें।
@@ -43,6 +46,8 @@ C# में Aspose.PDF का उपयोग करके PDF में आय
 
 ### [C# के साथ PDF में आयत कैसे बनाएं – चरण‑दर‑चरण मार्गदर्शिका](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
 C# का उपयोग करके Aspose.PDF के साथ PDF में आयत बनाना और अनुकूलित करना सीखें।
+### [.NET के लिए Aspose.PDF का उपयोग करके C# के साथ PDF में आयत जोड़ें: एक चरण-दर-स्टेप मार्गदर्शिका](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+C# कोड का उपयोग करके PDF दस्तावेज़ में आयत बनाना और भरना सीखें। यह गाइड चरण‑बद्ध निर्देश प्रदान करता है।
 
 ### [.NET में Aspose.PDF के साथ कस्टम पीडीएफ स्टैम्प बनाएं](./create-custom-pdf-stamps-aspose-pdf-net/)
 Aspose.PDF नेट के लिए एक कोड ट्यूटोरियल
@@ -53,13 +58,18 @@ Aspose.PDF .NET का उपयोग करके पैराग्राफ�
 ### [Aspose.PDF .NET के साथ PDF में पारदर्शी आकृतियाँ बनाएँ](./draw-transparent-shapes-aspose-pdf-net/)
 Aspose.PDF नेट के लिए एक कोड ट्यूटोरियल
 
-### [C# में Aspose PDF के साथ PDF में पारदर्शिता जोड़ें – चरण‑दर‑चरण गाइड](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-C# में Aspose PDF का उपयोग करके PDF दस्तावेज़ों में पारदर्शिता लागू करने का चरण‑दर‑चरण तरीका सीखें।
+### [C# में Aspose PDF के साथ PDF में पारदर्शिता जोड़ें – चरण‑दर‑गाइड](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+C# में Aspose PDF का उपयोग करके PDF दस्तावेज़ों में पारदर्शिता लागू करने का चरण‑दर‑गाइड तरीका सीखें।
 
+### [C# में Aspose.PDF का उपयोग करके PDF में आकृति कैसे जोड़ें: चरण‑दर‑गाइड](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 ### [Aspose.PDF C# के साथ PDF में पारदर्शिता कैसे सेट करें](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
 
-### [C# में Aspose.PDF का उपयोग करके PDF में आकृति कैसे जोड़ें: चरण‑दर‑चरण मार्गदर्शिका](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 C# कोड के साथ PDF में विभिन्न आकृतियों को जोड़ने, आकार बदलने और शैली लागू करने की प्रक्रिया सीखें।
+
+### [C# में Aspose.PDF का उपयोग करके PDF में पारदर्शिता कैसे जोड़ें](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
+C# में Aspose.PDF का उपयोग करके PDF में पारदर्शिता जोड़ने की विस्तृत गाइड।
+### [PDF में पारदर्शिता जोड़ें और आयत बनाएं: Aspose.PDF के साथ चरण-दर-चरण मार्गदर्शिका](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+Aspose.PDF का उपयोग करके PDF में पारदर्शिता लागू करें और आयत आकृति बनाएं। C# कोड उदाहरण के साथ सीखें।
 
 ### [.NET के लिए Aspose.PDF के साथ कुशल PDF छवि पहचान](./master-image-identification-aspose-pdf-net/)
 .NET के लिए Aspose.PDF का उपयोग करके PDF में ग्रेस्केल और RGB छवियों की पहचान करना सीखें। यह ट्यूटोरियल इंस्टॉलेशन, इमेज एक्सट्रैक्शन और प्रदर्शन युक्तियों को कवर करता है।
@@ -83,8 +93,6 @@ Aspose.PDF नेट के लिए एक कोड ट्यूटोरि�
 .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ाइलों में छवियों को छोटा करना सीखें, गुणवत्ता बनाए रखते हुए फ़ाइल आकार को कम करें। तेज़ लोडिंग और कुशल भंडारण के लिए बिल्कुल सही।
 
 ### [C# में Aspose.PDF .NET का उपयोग करके PDF में इमेज फ़ुटर कैसे जोड़ें](./aspose-pdf-net-add-image-footers-pdfs/)
-इस चरण-दर-स्तर मार्गदर्शिका के साथ .NET के लिए Aspose.PDF का उपयोग करके अपने PDF दस्तावेज़ों में छवि फ़ुटर जोड़ना सीखें। ब्रांडिंग और अनुकूलन के लिए बिल्कुल सही।
-
 ### [.NET के लिए Aspose.PDF के साथ PDF में छवियाँ और पाठ कैसे जोड़ें: एक चरण-दर-चरण मार्गदर्शिका](./adding-images-text-pdfs-aspose-pdf-dotnet/)
 .NET के लिए Aspose.PDF का उपयोग करके PDF में छवियाँ और टेक्स्ट जोड़ना सीखें। यह व्यापक गाइड सेटअप से लेकर कार्यान्वयन तक सब कुछ कवर करता है, जो आपके दस्तावेज़ संपादन कौशल को बढ़ाने के लिए एकदम सही है।
 
@@ -110,8 +118,6 @@ Aspose.PDF नेट के लिए एक कोड ट्यूटोरि�
 .NET के लिए Aspose.PDF का उपयोग करके अपने PDF में लोगो या वॉटरमार्क जैसे इमेज स्टैम्प जोड़ना सीखें। यह गाइड सेटअप, कार्यान्वयन और व्यावहारिक अनुप्रयोगों को कवर करती है।
 
 ### [.NET के लिए Aspose.PDF का उपयोग करके PDF पृष्ठों को PNG छवियों में कैसे परिवर्तित करें](./convert-pdf-page-to-png-aspose-dotnet/)
-जानें कि .NET के लिए Aspose.PDF का उपयोग करके PDF पृष्ठों को उच्च-गुणवत्ता वाली PNG छवियों में कैसे परिवर्तित किया जाए। कोड उदाहरणों और सर्वोत्तम प्रथाओं के साथ इस चरण-दर-स्तर मार्गदर्शिका का पालन करें।
-
 ### [.NET के लिए Aspose.PDF का उपयोग करके PDF में डैश्ड लाइन्स कैसे बनाएं: एक चरण-दर-स्तर मार्गदर्शिका](./create-dashed-lines-aspose-pdf-net/)
 जानें कि .NET के लिए Aspose.PDF का उपयोग करके डैश्ड लाइन जोड़कर अपने PDF दस्तावेज़ों को कैसे बेहतर बनाया जाए। एक पॉलिश्ड, प्रोफेशनल लुक के लिए इस चरण-दर-स्तर गाइड का पालन करें।
 
@@ -184,6 +190,13 @@ Aspose.PDF नेट के लिए एक कोड ट्यूटोरि�
 ### [.NET के लिए Aspose.PDF का उपयोग करके PDF में आयत जोड़ें – पूर्ण प्रोग्रामिंग गाइड](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
 ### [Word दस्तावेज़ों में लॉसलेस इमेज संपीड़न – पूर्ण गाइड](./lossless-image-compression-in-word-docs-complete-guide/)
 Aspose.Words .NET का उपयोग करके Word फ़ाइलों में इमेज को बिना गुणवत्ता खोए संपीड़ित करने की पूरी प्रक्रिया सीखें।
+### [इमेज ओवरले PDF ट्यूटोरियल – मास्क जोड़ें और स्वचालित ट्रे चयन सक्षम करें](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+### [Aspose.Pdf के साथ PDF में ExtGState जोड़ें – पूर्ण गाइड](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+Aspose.Pdf का उपयोग करके PDF में ExtGState सेट करके पारदर्शिता और ग्राफ़िक प्रभावों को नियंत्रित करने की पूरी प्रक्रिया सीखें।
+### [Aspose.Pdf के साथ ग्राफ़िक्स स्टेट PDF जोड़ें – चरण‑दर‑चरण मार्गदर्शिका](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+
+### [Aspose.PDF के साथ कस्टम ExtGState PDF जोड़ें – चरण‑दर‑चरण गाइड](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
+Aspose.PDF का उपयोग करके PDF में कस्टम ExtGState जोड़ने की प्रक्रिया सीखें। विस्तृत कोड उदाहरण और सर्वोत्तम अभ्यास।
 
 ## अतिरिक्त संसाधन
 

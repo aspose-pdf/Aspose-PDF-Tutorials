@@ -37,6 +37,9 @@ Lär dig hur du säkert skapar, signerar och verifierar PDF-signaturer med Aspos
 ### [Hur man extraherar PDF-signaturinformation med Aspose.PDF .NET: En steg-för-steg-guide](./extract-pdf-signature-info-aspose-pdf-net/)
 Lär dig hur du extraherar information om digitala signaturer från PDF-filer med Aspose.PDF för .NET. Den här steg-för-steg-guiden täcker installation, implementering och praktiska tillämpningar.
 
+### [Hur du hämtar signaturer från en PDF i C# – steg‑för‑steg‑guide](./how-to-get-signatures-from-a-pdf-in-c-step-by-step-guide/)
+Lär dig hur du extraherar digitala signaturer från PDF-filer med C# och Aspose.PDF för .NET.
+
 ### [Hur man implementerar digitala signaturer i .NET med Aspose.PDF: En omfattande guide](./implement-pdf-signatures-dotnet-aspose-pdf-guide/)
 Lär dig hur du implementerar säkra digitala signaturer på PDF-filer med Aspose.PDF för .NET, inklusive att undertrycka valfria fält.
 
@@ -54,9 +57,6 @@ En kodhandledning för Aspose.PDF Net
 
 ### [Mastering Aspose.PDF .NET: Hur man verifierar digitala signaturer i PDF-filer](./aspose-pdf-net-verify-digital-signature/)
 Lär dig hur du verifierar digitala signaturer i PDF-filer med Aspose.PDF för .NET. Säkerställ dokumentintegritet och äkthet med vår steg-för-steg-guide.
-
-### [Verifiera PDF-signatur i C# – Komplett guide för att validera digital signatur i PDF](./verify-pdf-signature-in-c-complete-guide-to-validate-digital/)
-Lär dig hur du verifierar PDF-signaturer i C# med en komplett guide för att validera digitala signaturer i PDF.
 
 ### [Kontrollera PDF-signatur i C# med Aspose.PDF – Komplett guide](./check-pdf-signature-in-c-with-aspose-pdf-full-guide/)
 Lär dig hur du kontrollerar PDF-signatur i C# med Aspose.PDF i en komplett steg-för-steg-guide.
@@ -94,6 +94,15 @@ Lär dig hur du validerar PDF-signaturer i C# med en komplett steg-för-steg-gui
 ### [Hur man signerar PDF i C# – Komplett guide för att lägga till digitala signaturer](./how-to-sign-pdf-in-c-complete-guide-for-adding-digital-signa/)
 Lär dig steg-för-steg hur du signerar PDF-filer i C# och lägger till digitala signaturer med Aspose.PDF.
 
+### [Verifiera PDF-signatur i C# – Komplett steg‑för‑steg‑guide](./verify-pdf-signature-in-c-complete-step-by-step-guide/)
+Lär dig hur du verifierar PDF-signaturer i C# med en komplett steg‑för‑steg‑guide.
+
+### [Hur man verifierar PDF-signaturer med Aspose.PDF](./how-to-verify-pdf-signatures-with-aspose-pdf/)
+Lär dig hur du verifierar PDF-signaturer med Aspose.PDF i .NET, med steg‑för‑steg‑instruktioner och kodexempel.
+
+### [Verifiera PDF-signatur i C# – Komplett guide för att validera digital signatur i PDF](./verify-pdf-signature-in-c-complete-guide-to-validate-digital/)
+Lär dig hur du verifierar PDF-signaturer i C# med en komplett guide för att validera digitala signaturer i PDF.
+
 ### [Läs in PDF-dokument C# – Konvertera till PDF/X‑4 och lista signaturer](./load-pdf-document-c-convert-to-pdf-x-4-list-signatures/)
 Lär dig hur du laddar en PDF, konverterar den till PDF/X‑4 och listar befintliga signaturer med Aspose.PDF för .NET i C#.
 ### [Validera PDF-signatur med Aspose – Konvertera PDF till HTML](./validate-pdf-signature-with-aspose-convert-pdf-to-html/)
@@ -128,6 +137,12 @@ Lär dig steg-för-steg hur du signerar PDF-filer med ett certifikat i C# med en
 
 ### [Hur man signerar PDF i C# – Komplett guide med Aspose](./how-to-sign-pdf-in-c-complete-guide-with-aspose/)
 Lär dig steg-för-steg hur du signerar PDF-filer i C# med Aspose, inklusive kodexempel och bästa praxis.
+
+### [Hur man kontrollerar signatur i en PDF med Aspose.PDF – En komplett guide](./how-to-check-signature-in-a-pdf-with-aspose-pdf-complete-gui/)
+Lär dig hur du kontrollerar och validerar digitala signaturer i PDF-filer med Aspose.PDF för .NET i en komplett steg-för-steg-guide.
+
+### [Validera PDF-signatur och lista PDF-signaturer med Aspose.PDF – Komplett guide](./validate-pdf-signature-and-list-pdf-signatures-with-aspose-p/)
+Lär dig hur du validerar PDF-signaturer och listar befintliga signaturer med Aspose.PDF för .NET i en komplett guide.
 
 ## Ytterligare resurser
 

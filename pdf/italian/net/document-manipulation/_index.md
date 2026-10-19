@@ -16,6 +16,13 @@
 Padroneggia la manipolazione dei documenti PDF con i nostri tutorial dettagliati su Aspose.PDF .NET. Queste guide passo passo illustrano come lavorare con la struttura dei documenti, modificare PDF esistenti, dividere e unire documenti, aggiungere e rimuovere pagine e organizzare il contenuto dei PDF a livello di codice. Ogni tutorial include esempi di codice C# funzionante, note di implementazione e best practice per aiutarti a creare applicazioni che manipolano in modo efficiente i documenti PDF con codice pulito e manutenibile.
 
 ## Tutorial disponibili
+
+{{< tutorial-card link="./compare-pdfs/" title="Confronta PDF e genera un documento diff evidenziato utilizzando Aspose.PDF per .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdf-forms/" title="Confronta i moduli PDF e genera JSON e diff visivo usando Aspose.Pdf per .NET" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
+
+{{< tutorial-card link="./exclude-areas/" title="Confronta PDF ignorando aree specifiche usando Aspose.Pdf per .NET" imgSrc="./exclude-areas/images/thumb.png" >}}
+
 ### [Aggiungere data e ora ai PDF utilizzando Aspose.PDF per .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 Scopri come aggiungere in modo efficiente data e ora o annotazioni ai tuoi documenti PDF utilizzando Aspose.PDF per .NET. Migliora la gestione dei documenti con questi semplici passaggi.
 
@@ -333,6 +340,14 @@ Scopri come eliminare i font incorporati dai PDF utilizzando Aspose.PDF per .NET
 ### [Appiattire i livelli PDF in C# – Guida all'esportazione e all'estrazione](./flatten-pdf-layers-in-c-export-extract-guide/)
 Scopri come appiattire i livelli di un PDF e esportarli o estrarli usando Aspose.PDF per .NET con C#.
 
+### [Unire i livelli PDF in C# – Come combinare i livelli PDF](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+Scopri come unire più livelli di un PDF in C# utilizzando Aspose.PDF per .NET per creare documenti complessi.
+### [Come riparare i file PDF con Aspose.Pdf – Guida completa](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
+Scopri come riparare file PDF danneggiati o corrotti utilizzando Aspose.Pdf con questa guida passo passo.
+### [Salva PDF aggiornato – Modifica le risorse PDF con Aspose.Pdf](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+Scopri come salvare un PDF aggiornato dopo aver modificato le risorse PDF utilizzando Aspose.Pdf per .NET.
+### [Salva PDF modificato con Aspose.PDF – Guida completa C#](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+Scopri come salvare un PDF modificato utilizzando Aspose.PDF per .NET con esempi di codice C# passo passo.
 
 ## Risorse aggiuntive
 

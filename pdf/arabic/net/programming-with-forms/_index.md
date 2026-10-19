@@ -58,6 +58,7 @@
 | [إنشاء مستند PDF باستخدام C# – دليل خطوة بخطوة للنماذج متعددة الصفحات](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) تعلم كيفية إنشاء مستند PDF متعدد الصفحات مع نماذج تفاعلية باستخدام Aspose.PDF لـ .NET وC# خطوة بخطوة.  
 | [إنشاء نموذج متعدد الصفحات في C# باستخدام Aspose.Pdf – دليل خطوة بخطوة](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) تعلم كيفية إنشاء نموذج PDF متعدد الصفحات باستخدام Aspose.PDF لـ .NET في دليل شامل خطوة بخطوة.  
 | [إنشاء حقل نص في PDF – دليل خطوة بخطوة](./create-pdf-textbox-field-step-by-step-guide/) تعلم كيفية إنشاء حقل نص في مستند PDF باستخدام Aspose.PDF لـ .NET خطوة بخطوة. |
+| [استيراد FDF إلى PDF باستخدام C# – دليل شامل خطوة بخطوة](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) تعرّف على كيفية استيراد ملفات FDF إلى مستندات PDF باستخدام Aspose.PDF لـ .NET مع C# خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

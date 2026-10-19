@@ -21,6 +21,19 @@
 ## บทช่วยสอน
 | ชื่อเรื่อง | คำอธิบาย |
 - 
+
+{{< tutorial-card link="./rotate-pdf-page/" title="หมุนหน้า PDF เดียว 180 องศาด้วย Aspose.PDF for .NET" imgSrc="./rotate-pdf-page/images/thumb.png" >}}
+
+{{< tutorial-card link="./split-pdf/" title="แยก PDF หลังหน้าที่สิบโดยใช้ Aspose.Pdf for .NET" imgSrc="./split-pdf/images/thumb.png" >}}
+
+{{< tutorial-card link="./rotate-pages/" title="หมุนทุกหน้าของ PDF 180° ด้วย Aspose.Pdf for .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdf-pages/" title="เปรียบเทียบหน้าของ PDF หน้า‑ต่อหน้า ด้วย Aspose.Pdf for .NET" imgSrc="./compare-pdf-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdfs/" title="เปรียบเทียบ PDF ที่มีขนาดหน้าต่างกันโดยใช้ Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+
+
 - [การเปลี่ยนแปลงทิศทาง](./change-orientation/) | คำแนะนำทีละขั้นตอนในการเปลี่ยนทิศทางของหน้า PDF ด้วย Aspose.PDF สำหรับ .NET ทำตามและนำไปใช้กับโปรเจ็กต์ของคุณได้ง่าย -  
 | [เชื่อมโยงไฟล์ PDF](./concatenate-pdf-files/) | เชื่อมโยงไฟล์ PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนที่ครอบคลุมนี้  
 - [ลบหน้าใดหน้าหนึ่งในไฟล์ PDF](./delete-particular-page/) | เรียนรู้วิธีการลบหน้าเฉพาะจากไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้ -  
@@ -47,6 +60,10 @@
 - [เพิ่มหมายเลข Bates ให้ PDF – คู่มือขั้นตอนเต็มสำหรับการใส่หมายเลขหน้า PDF](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | เรียนรู้วิธีเพิ่มหมายเลข Bates ให้ไฟล์ PDF อย่างละเอียดด้วย Aspose.PDF สำหรับ .NET ผ่านขั้นตอนที่ชัดเจน
 - [เพิ่มหมายเลขบาเตสใน PDF ด้วย Aspose – คู่มือเต็มขั้นตอน](./add-bates-numbering-pdf-with-aspose-complete-guide/) | เรียนรู้วิธีเพิ่มหมายเลขบาเตสในไฟล์ PDF อย่างละเอียดด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือขั้นตอนเต็มรูปแบบ
 - [เพิ่มหมายเลข Bates ให้กับไฟล์ PDF ด้วย C# – คู่มือเต็มขั้นตอน](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | เรียนรู้วิธีเพิ่มหมายเลข Bates ให้กับไฟล์ PDF ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET ผ่านคู่มือขั้นตอนเต็มรูปแบบ
+- [ทำสำเนาหน้ PDF ด้วย Aspose.Pdf – คู่มือเต็มขั้นตอน](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | เรียนรู้วิธีทำสำเนาหน้าหนึ่งในไฟล์ PDF อย่างง่ายดายด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือขั้นตอนเต็มรูปแบบ
+- [เพิ่มหมายเลข Bates ให้ PDF ด้วย Aspose.PDF – คู่มือเต็มขั้นตอน](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | เรียนรู้วิธีเพิ่มหมายเลข Bates ให้ไฟล์ PDF อย่างละเอียดด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือขั้นตอนเต็มรูปแบบ
+- [เพิ่มหน้าเปล่าใน PDF ด้วย Aspose.PDF – คู่มือเต็มขั้นตอน](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | เรียนรู้วิธีเพิ่มหน้าเปล่าในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือขั้นตอนเต็มรูปแบบ
+- [เปลี่ยนความทึบของ PDF ใน C# ด้วย Aspose.Pdf – คู่มือขั้นตอนเต็ม](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | คำแนะนำทีละขั้นตอนในการปรับความทึบของหน้า PDF ด้วย Aspose.Pdf สำหรับ .NET
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

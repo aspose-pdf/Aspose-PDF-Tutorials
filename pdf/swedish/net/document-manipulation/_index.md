@@ -17,6 +17,13 @@ Bemästra PDF-dokumenthantering med våra detaljerade Aspose.PDF .NET-handlednin
 
 ## Tillgängliga handledningar
 
+
+{{< tutorial-card link="./compare-pdfs/" title="Jämför PDF‑filer och generera ett markerat diff‑dokument med Aspose.PDF för .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdf-forms/" title="Jämför PDF‑formulär och generera JSON‑ och visuell diff med Aspose.Pdf för .NET" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
+
+{{< tutorial-card link="./exclude-areas/" title="Jämför PDF‑filer medan du ignorerar specifika områden med Aspose.Pdf för .NET" imgSrc="./exclude-areas/images/thumb.png" >}}
+
 ### [Hur man jämför PDF-filer med Aspose – steg‑för‑steg‑guide](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
 Lär dig hur du jämför två PDF-dokument programatiskt med Aspose.PDF för .NET i en enkel steg‑för‑steg‑guide.
 
@@ -188,6 +195,9 @@ Lär dig hur du effektivt sammanfogar flera PDF-dokument till en enda fil med As
 ### [Hur man sammanfogar PDF-filer med Aspose.PDF för .NET: Strömsammanfogning och bevarande av logisk struktur](./merge-pdf-aspose-net-streams-structure/)
 Lär dig hur du sammanfogar PDF-filer med Aspose.PDF för .NET, och bevarar den logiska strukturen för tillgänglighet. Den här guiden behandlar strömsammanfogning, prestandaoptimering och praktiska tillämpningar.
 
+### [Sammanfoga PDF-lager i C# – Så kombinerar du PDF-lager](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+Lär dig hur du kombinerar flera PDF-lager i en fil med Aspose.PDF för .NET i C#.
+
 ### [Hur man använder prefix för CSS-klassnamn i PDF-filer med Aspose.PDF för .NET](./prefix-css-class-names-pdf-aspose-pdf-net/)
 Lär dig hur du konverterar PDF-dokument till HTML med anpassade CSS-klassnamnsprefix med Aspose.PDF för .NET. Säkerställ unik stil och undvik konflikter.
 
@@ -337,6 +347,12 @@ Lär dig hur du plattar till PDF-lager och exporterar eller extraherar dem med A
 
 ### [Visuell PDF-jämförelse i C# – Komplett guide för att jämföra två PDF-filer](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
 Lär dig hur du visuellt jämför två PDF-filer i C# med Aspose.PDF och identifierar skillnader enkelt.
+### [Hur du reparerar PDF-filer med Aspose.PDF – En komplett guide](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
+Lär dig steg-för-steg hur du reparerar skadade PDF-filer med Aspose.PDF för .NET och återställer deras integritet.
+### [Spara uppdaterad PDF – Redigera PDF-resurser med Aspose.Pdf](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+Lär dig hur du sparar ändrade PDF-filer efter redigering av resurser med Aspose.Pdf för .NET.
+### [Spara modifierad PDF med Aspose.PDF – Komplett C#-guide](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+Lär dig hur du sparar ändrade PDF-filer med Aspose.PDF i C# med en komplett steg-för-steg-guide.
 
 ## Ytterligare resurser
 

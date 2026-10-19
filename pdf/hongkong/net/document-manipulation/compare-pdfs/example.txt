@@ -1,0 +1,38 @@
+//ExStart
+//ExSummary: 本教學示範如何使用 Aspose.Pdf.Comparison 來比較兩個 PDF 檔案，並產生一個 diff PDF，以突顯原始文件與修改後文件之間的差異。
+//ExStepSummary:0: 宣告原始、修改後以及 diff 輸出 PDF 的檔案路徑。
+//ExStepSummary:1: 驗證兩個輸入 PDF 是否皆存在，若任一缺失則以錯誤訊息中止。
+//ExStepSummary:2: 在 `using` 區塊中將原始與修改後的 PDF 載入為 `Document` 物件。
+//ExStepSummary:3: 建立一個使用預設設定的 `ComparisonOptions` 實例以進行比較。
+//ExStepSummary:4: 執行比較，於 `outputPath` 產生 diff PDF，並突顯兩份文件之間的差異。
+//ExStepSummary:5: 列印確認訊息，表示 diff PDF 已建立。
+//ExStepSummary:6: 關閉 `using` 區塊，釋放 source 與 target 的 `Document` 物件。
+//ExStep:0-
+const string sourcePath = "originalDocument.pdf";
+const string targetPath = "modifiedDocument.pdf";
+const string outputPath = "diffOutput.pdf";
+
+//ExStep:1-
+if (!File.Exists(sourcePath) || !File.Exists(targetPath))
+{
+    Console.Error.WriteLine("Unable to locate one or both PDF inputs.");
+    return;
+}
+
+//ExStep:2-
+using (Document sourceDoc = new Document(sourcePath))
+using (Document targetDoc = new Document(targetPath))
+{
+
+//ExStep:3-
+ComparisonOptions compareOpts = new ComparisonOptions();
+
+//ExStep:4-
+TextPdfComparer.CompareFlatDocuments(sourceDoc, targetDoc, compareOpts, outputPath);
+
+//ExStep:5-
+Console.WriteLine($"Comparison finished. Output written to \"{outputPath}\".");
+
+//ExStep:6-
+}
+//ExEnd

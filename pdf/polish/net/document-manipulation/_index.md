@@ -17,6 +17,13 @@ Opanuj manipulację dokumentami PDF dzięki naszym szczegółowym samouczkom Asp
 
 ## Dostępne samouczki
 
+
+{{< tutorial-card link="./compare-pdfs/" title="Porównaj pliki PDF i wygeneruj podświetlony dokument diff przy użyciu Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdf-forms/" title="Porównaj formularze PDF i wygeneruj JSON oraz wizualne różnice przy użyciu Aspose.Pdf dla .NET" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
+
+{{< tutorial-card link="./exclude-areas/" title="Porównywanie plików PDF z pomijaniem określonych obszarów przy użyciu Aspose.Pdf for .NET" imgSrc="./exclude-areas/images/thumb.png" >}}
+
 ### [Dodawanie znaczników daty i godziny do plików PDF za pomocą Aspose.PDF dla .NET](./aspose-pdf-net-date-time-stamps-annotations/)
 Dowiedz się, jak skutecznie dodawać znaczniki daty i godziny lub adnotacje do dokumentów PDF za pomocą Aspose.PDF dla .NET. Ulepsz zarządzanie dokumentami dzięki tym prostym krokom.
 
@@ -267,7 +274,7 @@ Naucz się integrować LaTeX z plikami PDF za pomocą Aspose.PDF dla .NET. Uleps
 Samouczek dotyczący kodu dla Aspose.PDF Net
 
 ### [Opanowanie dynamicznych nagłówków PDF z tabelami i obrazami przy użyciu Aspose.PDF .NET](./dynamic-pdf-headers-tables-images-aspose-pdf/)
-Dowiedz się, jak tworzyć dynamiczne nagłówki PDF zawierające tabele i obrazy za pomocą Aspose.PDF dla platformy .NET. Ulepsz wygląd swojego dokumentu bez wysiłku.
+Dowiedz się, jak tworzyć dynamiczne nagłówki PDF zawierające tabele i obrazy za pomocą Aspose.PDF dla .NET. Ulepsz wygląd swojego dokumentu bez wysiłku.
 
 ### [Opanowanie łączenia plików PDF za pomocą Aspose.PDF dla .NET: kompleksowy przewodnik](./mastering-pdf-concatenation-aspose-net-guide/)
 Dowiedz się, jak bezproblemowo łączyć wiele plików PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje konfigurację, łączenie i obsługę uszkodzonych plików.
@@ -296,6 +303,9 @@ Opanuj manipulację PDF za pomocą Aspose.PDF dla .NET. Dowiedz się, jak ładow
 ### [Zastąp pierwsze wystąpienie tekstu w pliku PDF za pomocą Aspose.PDF dla .NET — kompleksowy przewodnik](./replace-first-text-occurrence-aspose-pdf-net/)
 Dowiedz się, jak zastąpić pierwsze wystąpienie tekstu w pliku PDF za pomocą Aspose.PDF dla .NET. Ten przewodnik obejmuje konfigurację, przykłady kodu i praktyczne zastosowania.
 
+### [Zapisz zaktualizowany PDF – Edytuj zasoby PDF przy użyciu Aspose.PDF](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+Dowiedz się, jak zapisać zmodyfikowany plik PDF po edycji zasobów przy użyciu Aspose.PDF w .NET.
+
 ### [Zmiana rozmiaru zawartości pliku PDF za pomocą Aspose.PDF dla .NET](./resize-pdf-contents-aspose-pdf-dotnet/)
 Samouczek dotyczący kodu dla Aspose.PDF Net
 
@@ -319,6 +329,10 @@ Dowiedz się, jak dzielić wielostronicowe pliki PDF i tworzyć nowe pliki PDF z
 
 ### [Spłaszczanie warstw PDF w C# – Przewodnik eksportu i wyodrębniania](./flatten-pdf-layers-in-c-export-extract-guide/)
 Dowiedz się, jak spłaszczyć warstwy w plikach PDF i wyeksportować je przy użyciu Aspose.PDF w C#.
+### [Scalanie warstw PDF w C# – Jak połączyć warstwy PDF](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+Dowiedz się, jak łączyć warstwy w plikach PDF przy użyciu Aspose.PDF dla .NET w języku C#.
+### [Jak naprawić pliki PDF za pomocą Aspose.Pdf – Kompletny przewodnik](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
+Dowiedz się, jak naprawić uszkodzone pliki PDF przy użyciu Aspose.Pdf w .NET, krok po kroku, z przykładami kodu.
 
 ### [Jak spłaszczyć PDF za pomocą Aspose.PDF – Kompletny przewodnik](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
 Dowiedz się, jak spłaszczyć plik PDF, usuwając warstwy i zachowując wygląd, korzystając z Aspose.PDF w pełnym przewodniku.
@@ -342,6 +356,9 @@ Dowiedz się, jak usuwać wrażliwe informacje z dokumentów PDF przy użyciu As
 
 ### [Jak usunąć osadzone czcionki PDF – przewodnik krok po kroku w C#](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
 Dowiedz się, jak usunąć osadzone czcionki z plików PDF przy użyciu Aspose.PDF dla .NET w języku C#.
+### [Zapisz zmodyfikowany PDF przy użyciu Aspose.PDF – Kompletny przewodnik C#](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+Dowiedz się, jak zapisać zmodyfikowany plik PDF przy użyciu Aspose.PDF w C#, krok po kroku.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)

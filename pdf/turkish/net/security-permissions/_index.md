@@ -74,6 +74,9 @@ Aspose Plugin Manager kullanarak PDF'lerde redaksiyon uygulamayı adım adım ö
 C# ve Aspose.PDF for .NET kullanarak PDF'den hassas bilgileri nasıl redakte edip kaldıracağınızı öğrenin.
 
 ### [Aspose.PDF for .NET ile PDF Dosyalarının Kilidini Açın ve Şifresini Çözün: Eksiksiz Bir Kılavuz](./unlock-decrypt-pdf-files-aspose-pdf-net/)
+### [Aspose.Pdf ile PDF Redaksiyonu Nasıl Yapılır – Tam Adım‑Adım Kılavuz](./how-to-redact-pdf-with-aspose-pdf-complete-step-by-step-guid/)
+Aspose.Pdf kullanarak PDF belgelerinde hassas bilgileri güvenli bir şekilde kırpma ve gizleme adımlarını öğrenin.
+
 C# dilinde Aspose.PDF for .NET kullanarak korumalı PDF dosyalarının kilidini açmayı ve şifresini çözmeyi öğrenin. Bu kılavuz kurulum, şifre çözme adımları ve en iyi uygulamaları kapsar.
 
 ### [Aspose.PDF .NET ile PDF Parolalarını Doğrulayın: Güvenlik ve İzinler için Adım Adım Kılavuz](./verify-pdf-passwords-aspose-dot-net-guide/)

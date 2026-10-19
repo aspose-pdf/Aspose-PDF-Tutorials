@@ -58,6 +58,7 @@ Aspose.PDF for .NETの「フォームを使ったプログラミング」チュ�
 | [ページとテキストボックスフィールドでPDFを作成 – 完全C#ガイド](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) Aspose.PDF for .NET を使用して、ページとテキストボックスフィールドを含む PDF を作成する方法をステップバイステップで解説します。 |  
 | [PDF ドキュメント作成（C#） – マルチページフォームのステップバイステップガイド](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) Aspose.PDF for .NET を使用して、C# でマルチページのフォーム付き PDF ドキュメントを作成する方法をステップバイステップで解説します。 |  
 | [C# と Aspose.Pdf を使用したマルチページフォームの作成 – ステップバイステップ ガイド](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) Aspose.PDF for .NET を使用し、C# でマルチページ PDF フォームを作成する手順をステップバイステップで紹介します。 |  
+| [C# で FDF を PDF にインポート – 完全ステップバイステップ ガイド](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) Aspose.PDF for .NET を使用して、C# で FDF ファイルを PDF にインポートする方法をステップバイステップで解説します。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

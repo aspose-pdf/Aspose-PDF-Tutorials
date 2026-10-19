@@ -26,11 +26,13 @@ Aspose.PDF 的「使用圖章和浮水印進行程式設計」.NET 教學課程�
 | [在 PDF 檔案中新增不同的頁眉](./adding-different-headers/) |了解如何使用 Aspose.PDF for .NET 在 PDF 檔案中新增不同的標題。自訂 PDF 的逐步指南。 |  
 | [在 PDF 檔案中新增 PDF 頁面戳](./add-pdf-page-stamp/) |透過本詳細指南了解如何使用 Aspose.PDF for .NET 新增 PDF 頁面戳記。增強 PDF 文件的影響力。 |  
 | [在 PDF 檔案中加入文字印章](./add-text-stamp/) |透過我們的逐步指南學習如何使用 Aspose.PDF for .NET 在 PDF 文件中新增文字標記並提升您的文件簡報效果。 |  
+| [在 PDF 檔案中新增印章 – 完整指南與自動適應文字](./how-to-add-stamp-pdf-complete-guide-with-auto-fit-text/) |透過本完整指南學習如何在 PDF 中添加印章，並使用自動適應文字功能確保文字完美呈現。 |  
 | [PDF檔案中的文物計數](./counting-artifacts/) |了解如何使用 Aspose.PDF for .NET 計算 PDF 中的浮水印。為無需任何經驗的初學者提供逐步指南。 |  
 | [在 PDF 檔案中定義對齊方式](./define-alignment/) |本指南說明如何使用 Aspose.PDF for .NET 定義 PDF 檔案中的文字對齊，並附有逐步教學。 |  
 | [從圖章註釋中提取文本](./extract-text-from-stamp-annotation/) |透過本逐步教學（附有詳細的程式碼範例），了解如何使用 Aspose.PDF for .NET 從 PDF 中的印章註解中提取文字。 |  
 | [在 PDF 檔案中填入描邊文本](./fill-stroke-text/) |透過本包含實際範例的逐步指南，了解如何使用 Aspose.PDF for .NET 輕鬆地在 PDF 檔案中填入描邊文字。 |  
 | [從 PDF 檔案取得浮水印](./get-watermark/) |透過逐步指南了解如何使用 Aspose.PDF for .NET 從 PDF 文件中提取浮水印。水印提取詳細教程。 |  
+| [使用 Aspose.PDF 為 PDF 添加透明度 – 完整 C# 指南](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) |透過本完整 C# 教學，了解如何使用 Aspose.PDF 為 PDF 文件設定透明度，提升視覺效果與層次感。 |  
 | [頁眉頁尾部分中的圖像和頁碼](./image-and-page-number-in-header-footer-section/) |在本逐步教學中學習如何使用 Aspose.PDF for .NET 將圖像和頁碼新增至 PDF 的頁首和頁尾。 |  
 | [頁眉頁腳部分內嵌中的圖像和頁碼](./image-and-page-number-in-header-footer-section-inline/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 PDF 的頁首部分內嵌新增圖像和頁碼。 |  
 | [頁腳的圖片](./image-in-footer/) |透過本詳細的逐步教學了解如何使用 Aspose.PDF for .NET 在 PDF 頁腳中新增圖像。非常適合增強您的文件。 |  
@@ -59,6 +61,8 @@ Aspose.PDF 的「使用圖章和浮水印進行程式設計」.NET 教學課程�
 | [新增 Bates 編號 PDF – 使用 Aspose 的完整指南](./add-bates-numbering-pdf-complete-guide-with-aspose/) |透過本完整指南了解如何使用 Aspose 為 PDF 文件新增 Bates 編號，提升文件的追蹤與管理。 |  
 | [在 C# 中為 PDF 添加 Bates 編號 – 完整步驟指南](./add-bates-numbering-to-pdf-in-c-complete-step-by-step-guide/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 在 PDF 中添加 Bates 編號，以提升文件的可追蹤性。 |  
 | [使用 Aspose.Words 在 Word 中建立文字浮水印 – 完整指南](./create-text-watermark-in-word-with-aspose-words-complete-gui/) |透過本完整指南了解如何使用 Aspose.Words 在 Word 文件中新增文字浮水印，提升文件的品牌與安全性。 |  
+| [Bates 編號教學：使用 Aspose 為 PDF 添加編號](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) |本教學說明如何使用 Aspose.PDF for .NET 在 PDF 文件中加入 Bates 編號，以提升文件的追蹤與管理。 |  
+| [如何使用 Aspose 為 PDF 添加浮水印 – 添加文字覆蓋 PDF](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) |透過本教學了解如何使用 Aspose.PDF for .NET 在 PDF 中加入文字浮水印，提升文件的可視化與安全性。 |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -53,6 +53,9 @@
 ### [Конвертируйте PDF-страницы в PNG с помощью Aspose.PDF .NET: подробное руководство](./convert-pdf-pages-to-png-aspose-net/)
 Узнайте, как преобразовать страницы PDF в высококачественные изображения PNG с помощью Aspose.PDF для .NET. Следуйте этому подробному руководству, чтобы эффективно автоматизировать процесс преобразования.
 
+### [Конвертировать страницу PDF в PNG – полное руководство Aspose.PDF](./convert-pdf-page-to-png-complete-aspose-pdf-guide/)
+Узнайте, как преобразовать отдельную страницу PDF в PNG с помощью Aspose.PDF для .NET, следуя полному пошаговому руководству.
+
 ### [Конвертируйте PDF в BMP с помощью Aspose.PDF для .NET: пошаговое руководство](./convert-pdf-to-bmp-aspose-pdf-net/)
 Узнайте, как преобразовать страницы PDF в высококачественные изображения BMP с помощью Aspose.PDF для .NET с помощью этого подробного руководства.
 
@@ -257,6 +260,8 @@
 Узнайте, как экспортировать PDF в HTML с помощью Aspose.PDF для .NET на C#, следуя полному пошаговому руководству.
 ### [Преобразование PDF в HTML на C# – Полное пошаговое руководство](./convert-pdf-to-html-in-c-full-step-by-step-guide/)
 Узнайте, как преобразовать PDF в HTML на C# с помощью Aspose.PDF, следуя подробному пошаговому руководству и примерам кода.
+### [Сохранить PDF без изображений – преобразовать PDF в HTML с помощью Aspose](./save-pdf-without-images-convert-pdf-to-html-with-aspose/)
+Узнайте, как сохранять PDF без включения изображений, преобразуя его в HTML с помощью Aspose.PDF для .NET.
 
 ### [Преобразование PDF в TIFF в .NET с использованием Aspose.PDF: пошаговое руководство](./pdf-to-tiff-conversion-aspose-pdf-net/)
 Узнайте, как преобразовывать документы PDF в изображения TIFF с помощью Aspose.PDF для .NET. Освойте пользовательские глубины цвета и передовые методы обработки изображений.
@@ -275,6 +280,8 @@
 ### [Конвертировать DOCX в HTML на C# – Полное руководство по программированию](./convert-docx-to-html-in-c-complete-programming-guide/)
 ### [Преобразование docx в png на C# – Полное руководство](./convert-docx-to-png-in-c-complete-guide/)
 Узнайте, как преобразовать файлы DOCX в изображения PNG с помощью C# и Aspose.PDF, следуя пошаговым инструкциям и примерам кода.
+### [Сохранить PDF как HTML – создать PDF, добавить прямоугольную форму](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
+Создайте PDF, добавьте прямоугольник и сохраните как HTML с помощью Aspose.PDF для .NET.
 
 ## Дополнительные ресурсы
 
@@ -292,4 +299,9 @@
 
 {{< /blocks/products/pf/main-wrap-class >}}
 
-{{< blocks/products/products-backtop-button >}}
+{{< blocks/products/products-backtop-button >}}### [Как отобразить страницы PDF в виде PNG‑изображений – полное руководство Aspose.PDF](./how-to-render-pdf-pages-as-png-images-complete-aspose-pdf-gu/)
+Подробное руководство по конвертации страниц PDF в PNG‑изображения с использованием Aspose.PDF для .NET.
+
+### [Aspose PDF в HTML: Полное руководство по конвертации PDF и удалению изображений](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
+Подробное руководство по преобразованию PDF в HTML с удалением изображений с помощью Aspose.PDF для .NET.
+

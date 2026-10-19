@@ -99,6 +99,10 @@
 เรียนรู้วิธีส่งออกหน้าหนึ่งแรกของไฟล์ PDF เป็นภาพ PNG ความละเอียด 300 DPI ด้วย Aspose.PDF สำหรับ .NET
 ### [วิธีเรนเดอร์ PDF เป็น PNG ด้วย Aspose – คู่มือฉบับสมบูรณ์](./how-to-render-pdf-to-png-with-aspose-complete-guide/)
 เรียนรู้วิธีแปลง PDF เป็นภาพ PNG คุณภาพสูงโดยใช้ Aspose อย่างละเอียดในคู่มือฉบับสมบูรณ์นี้
+### [แปลงหน้า PDF เป็น PNG – คู่มือ Aspose.Pdf ฉบับสมบูรณ์](./convert-pdf-page-to-png-complete-aspose-pdf-guide/)
+เรียนรู้วิธีแปลงหน้า PDF เป็น PNG อย่างละเอียดด้วย Aspose.PDF สำหรับ .NET
+### [วิธีแปลงหน้า PDF เป็นภาพ PNG – คู่มือ Aspose.PDF ฉบับสมบูรณ์](./how-to-render-pdf-pages-as-png-images-complete-aspose-pdf-gu/)
+เรียนรู้วิธีแปลงหน้า PDF เป็นภาพ PNG ด้วย Aspose.PDF อย่างละเอียด พร้อมตัวอย่างโค้ดและเคล็ดลับการปรับแต่ง
 
 ### [แปลง PDF เป็น PPTX ด้วย Aspose.PDF สำหรับ .NET: คำแนะนำทีละขั้นตอน](./convert-pdf-to-pptx-aspose-dotnet-guide/)
 เรียนรู้วิธีการแปลงเอกสาร PDF เป็นงานนำเสนอ PowerPoint อย่างมีประสิทธิภาพโดยใช้ Aspose.PDF สำหรับ .NET คำแนะนำทีละขั้นตอนนี้ครอบคลุมถึงการแปลงพื้นฐาน คุณสมบัติขั้นสูง เช่น สไลด์รูปภาพ และการติดตามความคืบหน้า
@@ -281,6 +285,14 @@
 
 ### [แปลง docx เป็น png ใน C# – คู่มือฉบับสมบูรณ์](./convert-docx-to-png-in-c-complete-guide/)
 เรียนรู้วิธีแปลงไฟล์ docx เป็นภาพ PNG ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET อย่างละเอียดและครบถ้วน
+### [บันทึก PDF โดยไม่มีรูปภาพ – แปลง PDF เป็น HTML ด้วย Aspose](./save-pdf-without-images-convert-pdf-to-html-with-aspose/)
+เรียนรู้วิธีบันทึกไฟล์ PDF โดยไม่รวมรูปภาพและแปลงเป็น HTML ด้วย Aspose.PDF สำหรับ .NET
+
+### [Aspose PDF เป็น HTML: คู่มือฉบับสมบูรณ์ในการแปลง PDF และลบรูปภาพ](./aspose-pdf-to-html-complete-guide-to-convert-pdfs-and-remove/)
+เรียนรู้วิธีแปลง PDF เป็น HTML และลบรูปภาพโดยใช้ Aspose.PDF .NET อย่างครบถ้วน
+### [บันทึก PDF เป็น HTML – สร้าง PDF และเพิ่มรูปสี่เหลี่ยม](./save-pdf-as-html-create-pdf-add-rectangle-shape/)
+เรียนรู้วิธีบันทึก PDF เป็น HTML พร้อมการสร้าง PDF และเพิ่มรูปสี่เหลี่ยมโดยใช้ Aspose.PDF สำหรับ .NET
+
 
 ## แหล่งข้อมูลเพิ่มเติม
 

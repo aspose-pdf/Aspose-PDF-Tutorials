@@ -57,7 +57,11 @@ Az Aspose.PDF „Bélyegzők és vízjelek programozása” című .NET oktatóa
 | [Bates-számozás hozzáadása PDF-hez – Teljes útmutató az Aspose-szal](./add-bates-numbering-pdf-complete-guide-with-aspose/) Tanulja meg, hogyan adhat hozzá Bates-számozást PDF-fájlokhoz az Aspose.PDF for .NET segítségével ebben a részletes útmutatóban. |  
 | [Bates-számozás hozzáadása PDF-hez C#-ban – Teljes lépésről‑lépésre útmutató](./add-bates-numbering-to-pdf-in-c-complete-step-by-step-guide/) | Tanulja meg, hogyan adhat hozzá Bates-számozást PDF-fájlokhoz C#-ban az Aspose.PDF for .NET segítségével ebben a részletes útmutatóban. |
 | [Szöveges vízjel létrehozása Word-ben az Aspose.Words segítségével – Teljes útmutató](./create-text-watermark-in-word-with-aspose-words-complete-gui/) | Tanulja meg, hogyan hozhat szöveges vízjelet Word dokumentumokba az Aspose.Words használatával, lépésről lépésre útmutatóval. |
+| [Hogyan adjunk hozzá bélyegző PDF-et – Teljes útmutató automatikus szövegillesztéssel](./how-to-add-stamp-pdf-complete-guide-with-auto-fit-text/) | Tanulja meg, hogyan adhat hozzá bélyegzőt PDF-fájlhoz az Aspose.PDF for .NET használatával, automatikus szövegillesztéssel. |
+| [Átlátszóság hozzáadása PDF-hez az Aspose.PDF segítségével – Teljes C# útmutató](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) | Tanulja meg, hogyan adhat hozzá átlátszóságot PDF-fájlokhoz az Aspose.PDF for .NET használatával ebben a részletes C# útmutatóban. |
 
+| [Bates számozás oktatóanyag: Számok hozzáadása PDF-hez az Aspose használatával](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) Tanulja meg, hogyan adhat hozzá Bates számozást PDF-fájlokhoz az Aspose.PDF for .NET használatával lépésről lépésre útmutatóval. |  
+| [Hogyan adjunk hozzá vízjelet PDF-hez – Szöveges átfedés PDF-hez az Aspose használatával](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) | Tanulja meg, hogyan adhat hozzá szöveges vízjelet PDF-fájlokhoz az Aspose.PDF for .NET segítségével lépésről lépésre útmutatóval. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

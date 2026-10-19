@@ -19,6 +19,19 @@ La documentación "Programación con páginas PDF" de Aspose.PDF para .NET ofrec
 Los tutoriales incluyen instrucciones paso a paso, ejemplos de código detallados y explicaciones claras para facilitar su comprensión. Tanto si eres principiante como desarrollador experimentado, estos recursos te ayudarán a dominar las funciones de manipulación de páginas PDF que ofrece Aspose.PDF para .NET, abriendo nuevas posibilidades para tus proyectos de desarrollo de aplicaciones.
 
 ## Tutoriales
+
+{{< tutorial-card link="./rotate-pdf-page/" title="Rotar una sola página PDF 180 grados con Aspose.PDF para .NET" imgSrc="./rotate-pdf-page/images/thumb.png" >}}
+
+{{< tutorial-card link="./split-pdf/" title="Dividir PDF después de la página diez usando Aspose.Pdf for .NET" imgSrc="./split-pdf/images/thumb.png" >}}
+
+{{< tutorial-card link="./rotate-pages/" title="Rotar cada página de PDF 180° usando Aspose.Pdf para .NET" imgSrc="./rotate-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdf-pages/" title="Compare páginas PDF página por página con Aspose.Pdf for .NET" imgSrc="./compare-pdf-pages/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdfs/" title="Compare PDFs con diferentes tamaños de página usando Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+
+
 | Título | Descripción |
 | --- | --- | 
 | [Cambiar la orientación](./change-orientation/) Guía paso a paso para cambiar la orientación de un PDF con Aspose.PDF para .NET. Fácil de seguir e implementar en tus proyectos.  
@@ -47,6 +60,10 @@ Los tutoriales incluyen instrucciones paso a paso, ejemplos de código detallado
 | [Agregar numeración Bates a PDF con Aspose – Guía completa](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Aprenda a aplicar numeración Bates a documentos PDF usando Aspose.PDF para .NET con esta guía paso a paso. |  
 | [Reordenar páginas PDF con Aspose.Pdf – Guía completa en C#](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) | Aprenda a reordenar páginas de un PDF con Aspose.PDF para .NET en C# mediante esta guía paso a paso. |
 | [Agregar numeración Bates a PDFs con C# – Guía completa](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Aprenda a aplicar numeración Bates a documentos PDF usando C# y Aspose.PDF para .NET con esta guía paso a paso. |  
+| [Duplicar página PDF con Aspose.Pdf – Guía completa](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Aprenda a duplicar páginas en un PDF usando Aspose.PDF para .NET con esta guía paso a paso. |  
+| [Agregar numeración Bates a PDF con Aspose.PDF – Guía completa](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Guía paso a paso para agregar numeración Bates a un PDF con Aspose.PDF para .NET. Fácil de seguir e implementar en tus proyectos. |  
+| [Agregar página en blanco a PDF con Aspose.PDF – Guía completa](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Guía paso a paso para agregar una página en blanco a un PDF con Aspose.PDF para .NET. Fácil de seguir e implementar. |  
+| [Cambiar la opacidad de PDF en C# con Aspose.Pdf – guía paso a paso](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Guía paso a paso para cambiar la opacidad de un PDF con Aspose.PDF para .NET. Fácil de seguir e implementar en tus proyectos. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

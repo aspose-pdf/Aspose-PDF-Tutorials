@@ -16,6 +16,13 @@
 Meistern Sie die PDF-Dokumentenbearbeitung mit unseren ausführlichen Aspose.PDF .NET-Tutorials. Diese Schritt-für-Schritt-Anleitungen zeigen Ihnen, wie Sie mit der Dokumentstruktur arbeiten, vorhandene PDFs ändern, Dokumente teilen und zusammenführen, Seiten hinzufügen und entfernen sowie Ihre PDF-Inhalte programmgesteuert organisieren. Jedes Tutorial enthält funktionierende C#-Codebeispiele, Implementierungshinweise und Best Practices, die Ihnen helfen, Anwendungen zu erstellen, die PDF-Dokumente effizient mit sauberem, wartungsfreundlichem Code bearbeiten.
 
 ## Verfügbare Tutorials
+
+{{< tutorial-card link="./compare-pdfs/" title="PDFs vergleichen und ein hervorgehobenes Diff‑Dokument mit Aspose.PDF für .NET erzeugen" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdf-forms/" title="PDF‑Formulare vergleichen und JSON‑ & visuelles Diff mit Aspose.Pdf für .NET erzeugen" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
+
+{{< tutorial-card link="./exclude-areas/" title="PDFs vergleichen, während bestimmte Bereiche ignoriert werden, mit Aspose.Pdf für .NET" imgSrc="./exclude-areas/images/thumb.png" >}}
+
 ### [Fügen Sie mit Aspose.PDF für .NET Datums- und Zeitstempel zu PDFs hinzu](./aspose-pdf-net-date-time-stamps-annotations/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET effizient Datums- und Zeitstempel sowie Anmerkungen in Ihre PDF-Dokumente einfügen. Optimieren Sie Ihr Dokumentenmanagement mit diesen leicht verständlichen Schritten.
 
@@ -336,6 +343,14 @@ Erfahren Sie, wie Sie PDF-Ebenen mit Aspose.PDF für .NET flachlegen und Inhalte
 
 ### [Visueller PDF-Vergleich in C# – Vollständige Anleitung zum Vergleich von zwei PDFs](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET visuelle Unterschiede zwischen zwei PDFs erkennen und vergleichen.
+### [PDF-Layer in C# zusammenführen – So kombinieren Sie PDF-Layer](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET PDF-Layer in C# zusammenführen und mehrere Ebenen zu einem Dokument kombinieren.
+### [Wie man PDF-Dateien mit Aspose.Pdf repariert – Vollständige Anleitung](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
+Erfahren Sie, wie Sie beschädigte PDF-Dateien mit Aspose.Pdf reparieren und wiederherstellen – Schritt-für-Schritt-Anleitung.
+### [Aktualisiertes PDF speichern – PDF-Ressourcen mit Aspose.Pdf bearbeiten](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+Erfahren Sie, wie Sie ein geändertes PDF speichern und PDF-Ressourcen mit Aspose.Pdf effizient bearbeiten.
+### [Speichern Sie ein modifiziertes PDF mit Aspose.PDF – Vollständige C#‑Anleitung](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein bearbeitetes PDF speichern und dabei bewährte Vorgehensweisen nutzen.
 
 ## Weitere Ressourcen
 

@@ -90,10 +90,12 @@
 Узнайте, как создать PDF в C#, добавить страницу, нарисовать прямоугольник и сохранить файл.
 ### [Создание PDF‑документа с Aspose на C# – пошаговое руководство](./create-pdf-document-with-aspose-in-c-step-by-step-guide/)
 Узнайте, как создавать PDF‑документы с помощью Aspose в C#, следуя пошаговым инструкциям.
-### [Создание PDF-документа с Aspose.PDF – добавить страницу, форму и сохранить](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
+### [Создание PDF‑документа с Aspose.PDF – добавить страницу, форму и сохранить](./create-pdf-document-with-aspose-pdf-add-page-shape-save/)
 Узнайте, как добавить страницу, форму и сохранить PDF-документ с помощью Aspose.PDF для .NET.
-### [Создание PDF-документа C# – Добавление пустой страницы и рисование прямоугольника](./create-pdf-document-c-add-blank-page-draw-rectangle/)
-Узнайте, как добавить пустую страницу и нарисовать прямоугольник в PDF-документе с помощью Aspose.PDF для .NET на C#.
+### [Создание PDF‑документа C# – Добавление пустой страницы и рисование прямоугольника](./create-pdf-document-c-add-blank-page-draw-rectangle/)
+Узнайте, как добавить пустую страницу и нарисовать прямоугольник в PDF‑документе с помощью Aspose.PDF для .NET на C#.
+### [Создание PDF‑документа с пустой страницей и прямоугольником](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
+Узнайте, как добавить пустую страницу и нарисовать прямоугольник в PDF‑документе с помощью Aspose.PDF для .NET.
 
 ### [Создание PDF-документа в C# – Добавление пустой страницы, тегов и Span](./create-pdf-document-in-c-add-blank-page-tags-and-span/)
 Узнайте, как программно создать PDF-документ в C#, добавить пустую страницу, теги и элемент Span с помощью Aspose.PDF для .NET.
@@ -121,6 +123,15 @@
 
 ### [Создание PDF‑изображения из HEIC – Полное руководство на C#](./create-pdf-image-from-heic-complete-c-guide/)
 Узнайте, как преобразовать изображения HEIC в PDF с помощью Aspose.PDF для .NET, используя C#.
+
+### [Создание PDF‑документа с Aspose.Pdf – полное пошаговое руководство](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+Узнайте, как создавать PDF‑документы с помощью Aspose.Pdf, следуя полному пошаговому руководству.
+
+### [Создание нового PDF-документа с нумерацией Бейтса в C#](./create-new-pdf-document-with-bates-numbering-in-c/)
+Узнайте, как добавить нумерацию Бейтса к PDF-документу с помощью Aspose.PDF для .NET в C#.
+
+### [Создание PDF/X‑4 документа C# – пошаговое руководство](./create-pdf-x-4-document-c-step-by-step-guide/)
+Узнайте, как создать документ PDF/X‑4 в C# с помощью Aspose.PDF, следуя пошаговым инструкциям.
 
 ## Дополнительные ресурсы
 

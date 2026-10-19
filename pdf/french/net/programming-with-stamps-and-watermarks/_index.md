@@ -59,6 +59,10 @@ Les tutoriels « Programmation avec tampons et filigranes » d'Aspose.PDF pour
 | [Ajouter une numérotation Bates à un PDF – Guide complet avec Aspose](./add-bates-numbering-pdf-complete-guide-with-aspose/) | Apprenez à ajouter une numérotation Bates à vos fichiers PDF avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |  
 | [Ajouter une numérotation Bates à un PDF en C# – Guide complet étape par étape](./add-bates-numbering-to-pdf-in-c-complete-step-by-step-guide/) | Apprenez à ajouter une numérotation Bates à vos PDF en C# avec Aspose.PDF pour .NET grâce à ce guide détaillé. |  
 | [Créer un filigrane texte dans Word avec Aspose.Words – Guide complet](./create-text-watermark-in-word-with-aspose-words-complete-gui/) | Apprenez à créer un filigrane texte dans un document Word avec Aspose.Words grâce à ce guide complet étape par étape. |
+| [Comment ajouter un tampon PDF – Guide complet avec texte auto‑ajusté](./how-to-add-stamp-pdf-complete-guide-with-auto-fit-text/) | Apprenez à ajouter un tampon à un PDF avec texte auto‑ajusté grâce à Aspose.PDF pour .NET, étape par étape. |  
+| [Tutoriel de numérotation Bates : ajouter des numéros à un PDF avec Aspose](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) | Apprenez à ajouter une numérotation Bates à vos fichiers PDF avec Aspose.PDF pour .NET grâce à ce guide étape par étape. |  
+| [Comment ajouter un filigrane PDF – Ajouter une superposition de texte PDF avec Aspose](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) | Apprenez à ajouter un filigrane texte à un PDF avec Aspose.PDF pour .NET grâce à ce guide étape par étape. |
+| [Ajouter de la transparence à un PDF avec Aspose.PDF – Guide complet C#](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) | Apprenez à appliquer la transparence aux éléments d'un PDF avec Aspose.PDF pour .NET grâce à ce guide complet en C#. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

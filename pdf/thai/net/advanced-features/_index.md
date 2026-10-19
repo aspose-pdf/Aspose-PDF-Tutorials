@@ -73,6 +73,12 @@
 ### [บันทึกแต่ละเลเยอร์ PDF ด้วย Aspose.Pdf – คู่มือขั้นตอนโดยขั้นตอน](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
 เรียนรู้วิธีบันทึกแต่ละเลเยอร์ของไฟล์ PDF ด้วย Aspose.Pdf ผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ด C#
 
+### [เปรียบเทียบเอกสาร PDF ด้วย Aspose.Pdf – คู่มือการเปรียบเทียบภาพแบบสมบูรณ์](./compare-pdf-documents-with-aspose-pdf-complete-visual-diff-g/)
+เรียนรู้วิธีเปรียบเทียบเอกสาร PDF ด้วยภาพ Diff อย่างละเอียดโดยใช้ Aspose.Pdf
+
+### [เปรียบเทียบเอกสาร PDF สองไฟล์ – คู่มือ C# ฉบับสมบูรณ์](./compare-two-pdf-documents-complete-c-guide/)
+เรียนรู้วิธีเปรียบเทียบไฟล์ PDF สองไฟล์ด้วย C# โดยใช้ Aspose.PDF อย่างละเอียด
+
 ## แหล่งข้อมูลเพิ่มเติม
 
 - [Aspose.PDF สำหรับเอกสารประกอบ Net](https://docs.aspose.com/pdf/net/)

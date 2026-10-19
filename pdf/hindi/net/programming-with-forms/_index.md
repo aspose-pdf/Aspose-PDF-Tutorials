@@ -58,6 +58,8 @@
 | [Aspose के साथ PDF बनाना – टेक्स्ट बॉक्स फ़ील्ड जोड़ें](./create-pdf-document-with-aspose-add-text-box-field/) | इस चरण-दर-चरण गाइड में .NET के लिए Aspose.PDF का उपयोग करके PDF दस्तावेज़ में टेक्स्ट बॉक्स फ़ील्ड जोड़ना सीखें। |
 | [PDF दस्तावेज़ बनाएं C# – मल्टी‑पेज फ़ॉर्म के लिए चरण‑दर‑चरण गाइड](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | C# में Aspose.PDF का उपयोग करके मल्टी‑पेज फ़ॉर्म वाले PDF दस्तावेज़ बनाने की चरण‑दर‑चरण प्रक्रिया सीखें। |  
 | [PDF फ़ॉर्म में टेक्स्ट बॉक्स जोड़ें – पूर्ण C# गाइड](./add-text-box-to-pdf-form-complete-c-guide/) | इस चरण-दर-चरण गाइड में .NET के लिए Aspose.PDF का उपयोग करके PDF फ़ॉर्म में टेक्स्ट बॉक्स जोड़ना सीखें। |
+| [C# के साथ PDF में FDF आयात – पूर्ण चरण-दर-चरण गाइड](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | इस गाइड में .NET के लिए Aspose.PDF का उपयोग करके C# में FDF फ़ाइल को PDF में आयात करने की पूरी प्रक्रिया सीखें। |  
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

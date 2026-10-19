@@ -39,525 +39,55 @@ Aprenda a crear y rellenar rectángulos en documentos PDF con Aspose.PDF para .N
 Aprenda a dibujar rectángulos en archivos PDF con Aspose.PDF para .NET usando C# paso a paso.
 ### [Agregar rectángulo a PDF con Aspose.PDF – Guía completa de programación](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
 Aprenda a agregar rectángulos a documentos PDF usando Aspose.PDF para .NET con esta guía completa paso a paso.
+### [Añadir rectángulo a PDF con C# – guía paso a paso](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
 
-### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
+### [Cómo añadir transparencia a PDF usando Aspose.PDF en C#](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
 
-### [Cree archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
-Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando párrafos con Aspose.PDF .NET. Mejore la legibilidad de sus documentos con bordes personalizados.
 
-### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
 ### [Cómo establecer la transparencia en un PDF con Aspose.Pdf C#](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
 Aprenda a aplicar transparencias en documentos PDF usando Aspose.Pdf con C# paso a paso.
 
 ### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
 Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
+### [Cómo añadir estado de gráficos PDF y controlar la transparencia con Aspose.PDF: guía paso a paso](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
+Aprenda a manipular el estado de gráficos y controlar la transparencia en archivos PDF usando Aspose.PDF para .NET.
 
+### [Agregar ExtGState personalizado a PDF con Aspose.PDF – guía paso a paso](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
+Aprenda a crear y aplicar un ExtGState personalizado en documentos PDF usando Aspose.PDF para .NET.
+
+### [Identificación eficiente de imágenes PDF con Aspose.PDF para .NET](./master-image-identification-aspose-pdf-net/)
+Aprenda a identificar imágenes en escala de grises y RGB en archivos PDF con Aspose.PDF para .NET. Este tutorial abarca la instalación, la extracción de imágenes y consejos de rendimiento.
+
+### [Cómo usar GraphicsAbsorber – Extraer gráficos vectoriales de PDF con Aspose.Pdf](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
+Aprenda a extraer gráficos vectoriales de archivos PDF usando GraphicsAbsorber de Aspose.Pdf. Guía paso a paso con ejemplos en C#.
+
+### [Convierta secuencias de imágenes a archivos PDF de forma eficiente con Aspose.PDF para .NET](./convert-image-stream-to-pdf-aspose-dotnet/)
+Aprenda a convertir secuencias de imágenes en documentos PDF de calidad profesional con Aspose.PDF para .NET. Siga esta guía paso a paso para optimizar sus flujos de trabajo con documentos.
+
+### [Extraer y convertir regiones de PDF en imágenes con Aspose.PDF](./extract-convert-pdf-regions-aspose-net/)
 ### [Crear sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Un tutorial de código para Aspose.PDF Net
 
 ### [Crear archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
 Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando párrafos con Aspose.PDF .NET. Mejore la legibilidad de sus documentos con bordes personalizados.
 
-### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Cree archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
-Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando párrafos con Aspose.PDF .NET. Mejore la legibilidad de sus documentos con bordes personalizados.
-
-### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Cree archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
-Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando párrafos con Aspose.PDF .NET. Mejore la legibilidad de sus documentos con bordes personalizados.
-
-### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Cree archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
-Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando párrafos con Aspose.PDF .NET. Mejore la legibilidad de sus documentos con bordes personalizados.
-
-### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Cree archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
-Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando párrafos con Aspose.PDF .NET. Mejore la legibilidad de sus documentos con bordes personalizados.
-
-### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Cree archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
-Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando párrafos con Aspose.PDF .NET. Mejore la legibilidad de sus documentos con bordes personalizados.
-
-### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Cree archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
-Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando párrafos con Aspose.PDF .NET. Mejore la legibilidad de sus documentos con bordes personalizados.
-
-### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Cree archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
-Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando párrafos con Aspose.PDF .NET. Mejore la legibilidad de sus documentos con bordes personalizados.
-
-### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Cree archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
-Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando párrafos con Aspose.PDF .NET. Mejore la legibilidad de sus documentos con bordes personalizados.
-
-### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Cree archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
-Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando párrafos con Aspose.PDF .NET. Mejore la legibilidad de sus documentos con bordes personalizados.
-
-### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Cree archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
-Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando párrafos con Aspose.PDF .NET. Mejore la legibilidad de sus documentos con bordes personalizados.
-
-### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Cree archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
-Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando párrafos con Aspose.PDF .NET. Mejore la legibilidad de sus documentos con bordes personalizados.
-
-### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Cree archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
-Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando párrafos con Aspose.PDF .NET. Mejore la legibilidad de sus documentos con bordes personalizados.
-
-### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Cree archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
-Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando párrafos con Aspose.PDF .NET. Mejore la legibilidad de sus documentos con bordes personalizados.
-
-### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Cree archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
-Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando párrafos con Aspose.PDF .NET. Mejore la legibilidad de sus documentos con bordes personalizados.
-
-### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Cree archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
-Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando párrafos con Aspose.PDF .NET. Mejore la legibilidad de sus documentos con bordes personalizados.
-
-### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Cree archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
-Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando párrafos con Aspose.PDF .NET. Mejore la legibilidad de sus documentos con bordes personalizados.
-
-### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Cree archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
-Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando párrafos con Aspose.PDF .NET. Mejore la legibilidad de sus documentos con bordes personalizados.
-
-### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Cree archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
-Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando párrafos con Aspose.PDF .NET. Mejore la legibilidad de sus documentos con bordes personalizados.
-
-### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Cree archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
-Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando párrafos con Aspose.PDF .NET. Mejore la legibilidad de sus documentos con bordes personalizados.
-
-### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Cree archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
-Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando párrafos con Aspose.PDF .NET. Mejore la legibilidad de sus documentos con bordes personalizados.
-
-### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Cree archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
-Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando párrafos con Aspose.PDF .NET. Mejore la legibilidad de sus documentos con bordes personalizados.
-
-### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Cree archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
-Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando párrafos con Aspose.PDF .NET. Mejore la legibilidad de sus documentos con bordes personalizados.
-
-### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Cree archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
-Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando párrafos con Aspose.PDF .NET. Mejore la legibilidad de sus documentos con bordes personalizados.
-
-### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Cree archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
-Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando párrafos con Aspose.PDF .NET. Mejore la legibilidad de sus documentos con bordes personalizados.
-
-### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Cree archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
-Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando párrafos con Aspose.PDF .NET. Mejore la legibilidad de sus documentos con bordes personalizados.
-
-### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Cree archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
-Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando párrafos con Aspose.PDF .NET. Mejore la legibilidad de sus documentos con bordes personalizados.
-
-### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Cree archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
-Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando párrafos con Aspose.PDF .NET. Mejore la legibilidad de sus documentos con bordes personalizados.
-
-### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Cree archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
-Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando párrafos con Aspose.PDF .NET. Mejore la legibilidad de sus documentos con bordes personalizados.
-
-### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Cree archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
-Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando párrafos con Aspose.PDF .NET. Mejore la legibilidad de sus documentos con bordes personalizados.
-
-### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Cree archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
-Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando párrafos con Aspose.PDF .NET. Mejore la legibilidad de sus documentos con bordes personalizados.
-
-### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Cree archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
-Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando párrafos con Aspose.PDF .NET. Mejore la legibilidad de sus documentos con bordes personalizados.
-
-### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Cree archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
-Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando párrafos con Aspose.PDF .NET. Mejore la legibilidad de sus documentos con bordes personalizados.
-
-### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
-
-### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
-Aprende
-
-### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
-Un tutorial de código para Aspose.PDF Net
-
-### [Cree archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
-Aprenda
-
+### [Añadir estado gráfico a PDF con Aspose.Pdf – guía paso a paso](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+Aprenda a manipular el estado gráfico de un PDF usando Aspose.Pdf en C#, con ejemplos paso a paso.
+
+### [Cómo crear archivos PDF etiquetados con imágenes en .NET usando Aspose.PDF](./create-tagged-pdf-image-dotnet/)
+Aprenda a crear archivos PDF accesibles, etiquetados e incrustados con imágenes usando Aspose.PDF para .NET. Mejore la accesibilidad y la presentación de los documentos para todos los usuarios.
+### [Cómo agregar un rectángulo a un PDF con C# – Guía completa de Aspose PDF](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+Aprenda a añadir un rectángulo a un PDF usando C# y Aspose.PDF, con ejemplos paso a paso y mejores prácticas.
+### [Agregar ExtGState a PDF con Aspose.Pdf – Guía completa](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+Aprenda a aplicar objetos ExtGState en PDFs usando Aspose.Pdf para .NET, controlando transparencias y efectos avanzados en sus documentos.
+### [Cómo añadir transparencia a PDF y dibujar un rectángulo en PDF con Aspose.PDF: guía paso a paso](./how-to-add-transparency-to-pdf-and-draw-a-rectangle-on-pdf-w/)
+Aprenda a aplicar transparencia y dibujar rectángulos en documentos PDF usando Aspose.PDF para .NET.
+### [Cómo eliminar imágenes de un PDF con Aspose.PDF para .NET: una guía completa](./delete-images-from-pdf-aspose-dotnet/)
+Aprenda a eliminar eficientemente todas las imágenes de un PDF con Aspose.PDF para .NET, mejorando la privacidad de los archivos y reduciendo su tamaño. Siga una guía paso a paso.
+### [Compresión sin pérdida de imágenes en documentos Word – Guía completa](./lossless-image-compression-in-word-docs-complete-guide/)
+Aprenda a comprimir imágenes en documentos Word sin perder calidad usando Aspose.Words para .NET.
+### [Tutorial de superposición de imágenes en PDF – agregar máscara y habilitar selección automática de bandeja](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+Aprenda a superponer imágenes en PDFs, agregar una máscara y habilitar la selección automática de bandeja con Aspose.PDF para .NET.
 ### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 Un tutorial de código para Aspose.PDF Net
 

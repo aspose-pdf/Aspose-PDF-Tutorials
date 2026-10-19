@@ -99,6 +99,17 @@ Aspose.PDF for .NET을 사용하여 빈 페이지를 추가하고 사각형을 �
 ### [HEIC 이미지에서 PDF 만들기 – 완전한 C# 가이드](./create-pdf-image-from-heic-complete-c-guide/)
 HEIC 이미지를 PDF로 변환하는 방법을 C#으로 단계별로 안내합니다.
 
+### [Aspose.Pdf로 PDF 문서 만들기 – 전체 단계별 가이드](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+Aspose.Pdf를 사용하여 PDF 문서를 처음부터 완전하게 생성하고 저장하는 과정을 상세히 안내합니다.
+
+### [C#를 사용한 베이츠 번호 매기기로 새 PDF 문서 만들기](./create-new-pdf-document-with-bates-numbering-in-c/)
+C#와 Aspose.PDF for .NET을 활용하여 베이츠 번호 매기기가 포함된 PDF 문서를 생성하는 방법을 단계별로 안내합니다.
+
+### [C#로 PDF/X‑4 문서 만들기 – 단계별 가이드](./create-pdf-x-4-document-c-step-by-step-guide/)
+C#와 Aspose.PDF for .NET을 사용하여 PDF/X‑4 표준을 충족하는 PDF 문서를 단계별로 생성하는 방법을 안내합니다.
+### [빈 페이지와 사각형이 포함된 PDF 문서 만들기](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
+Aspose.PDF for .NET을 사용하여 빈 페이지를 추가하고 사각형을 그려 PDF 문서를 만드는 방법을 단계별로 안내합니다.
+
 ## 추가 자료
 
 - [Net 문서용 Aspose.PDF](https://docs.aspose.com/pdf/net/)

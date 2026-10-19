@@ -58,6 +58,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Buat PDF dengan Halaman dan Kolom Kotak Teks – Panduan Lengkap C#](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Pelajari cara membuat PDF dengan halaman dan bidang kotak teks menggunakan Aspose.PDF for .NET dalam panduan lengkap C#. Bahasa Indonesia:  
 | [Buat Dokumen PDF C# – Panduan Langkah-demi-Langkah untuk Formulir Multi‑Halaman](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Pelajari cara membuat dokumen PDF multi‑halaman dengan formulir menggunakan Aspose.PDF for .NET dalam panduan langkah demi langkah ini. Bahasa Indonesia:  
 | [Buat Formulir Multi Halaman di C# dengan Aspose.Pdf – Panduan Langkah‑per‑Langkah](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | Pelajari cara membuat formulir PDF multi halaman menggunakan Aspose.PDF untuk .NET dengan contoh kode C# langkah demi langkah. |
+| [Impor FDF ke PDF dengan C# – Panduan Lengkap Langkah demi Langkah](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Pelajari cara mengimpor file FDF ke PDF menggunakan C# dengan panduan langkah demi langkah lengkap. Bahasa Indonesia:  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

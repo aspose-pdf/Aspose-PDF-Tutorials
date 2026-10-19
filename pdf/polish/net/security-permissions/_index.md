@@ -72,6 +72,8 @@ Dowiedz się, jak bezpiecznie redagować pliki PDF za pomocą Aspose.PDF .NET. T
 Dowiedz się, jak używać Aspose Plugin Manager do stosowania redakcji w dokumentach PDF, krok po kroku.
 ### [Jak redagować PDF i usuwać wrażliwe dane w C#](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
 Dowiedz się, jak używać Aspose.PDF dla .NET do redakcji i usuwania poufnych informacji z dokumentów PDF w C#.
+### [Jak redagować PDF za pomocą Aspose.Pdf – Kompletny przewodnik krok po kroku](./how-to-redact-pdf-with-aspose-pdf-complete-step-by-step-guid/)
+Dowiedz się, jak redagować pliki PDF przy użyciu Aspose.Pdf, krok po kroku, z pełnymi przykładami kodu C#.
 
 ### [Odblokowywanie i deszyfrowanie plików PDF za pomocą Aspose.PDF dla .NET: Kompletny przewodnik](./unlock-decrypt-pdf-files-aspose-pdf-net/)
 Dowiedz się, jak odblokować i odszyfrować chronione pliki PDF za pomocą Aspose.PDF dla .NET w C#. Ten przewodnik obejmuje konfigurację, kroki odszyfrowywania i najlepsze praktyki.

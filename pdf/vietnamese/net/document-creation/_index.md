@@ -106,6 +106,17 @@ Hướng dẫn chi tiết cách thêm một trang trống và vẽ hình chữ n
 ### [Tạo hình ảnh PDF từ HEIC – Hướng dẫn C# đầy đủ](./create-pdf-image-from-heic-complete-c-guide/)
 Hướng dẫn chi tiết cách chuyển đổi tệp HEIC thành hình ảnh PDF bằng C# và Aspose.PDF.
 
+### [Tạo tài liệu PDF với Aspose.Pdf – Hướng dẫn đầy đủ từng bước](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+Hướng dẫn chi tiết toàn bộ các bước để tạo tài liệu PDF bằng Aspose.Pdf trong .NET, bao gồm cài đặt và ví dụ mã thực tế.
+
+### [Tạo tài liệu PDF/X‑4 bằng C# – hướng dẫn từng bước](./create-pdf-x-4-document-c-step-by-step-guide/)
+Hướng dẫn chi tiết cách tạo tài liệu PDF/X‑4 bằng C# sử dụng Aspose.PDF cho .NET.
+
+### [Tạo tài liệu PDF mới với đánh số Bates trong C#](./create-new-pdf-document-with-bates-numbering-in-c/)
+Hướng dẫn tạo tài liệu PDF mới và áp dụng đánh số Bates bằng C# với Aspose.PDF.
+### [Cách tạo tài liệu PDF với trang trắng và hình chữ nhật](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
+Hướng dẫn cách tạo tài liệu PDF với trang trắng và hình chữ nhật bằng Aspose.PDF cho .NET.
+
 ## Tài nguyên bổ sung
 
 - [Aspose.PDF cho Tài liệu Net](https://docs.aspose.com/pdf/net/)

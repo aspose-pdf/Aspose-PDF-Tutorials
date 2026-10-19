@@ -73,6 +73,9 @@ C#에서 Aspose.PDF for .NET을 사용하여 보호된 PDF 파일의 잠금을 �
 ### [C#에서 PDF를 마스킹하고 민감한 데이터를 제거하는 방법](./how-to-redact-pdf-and-remove-sensitive-data-pdf-in-c/)
 C#와 Aspose.PDF를 사용하여 PDF에서 민감한 정보를 마스킹하고 제거하는 단계별 가이드
 
+### [Aspose.Pdf로 PDF 마스킹하는 방법 – 완전 단계별 가이드](./how-to-redact-pdf-with-aspose-pdf-complete-step-by-step-guid/)
+Aspose.Pdf를 사용하여 PDF 문서에서 민감한 정보를 마스킹하고 제거하는 전체 단계별 C# 예제.
+
 
 ### [Aspose.PDF .NET을 사용하여 PDF 비밀번호 확인: 보안 및 권한에 대한 단계별 가이드](./verify-pdf-passwords-aspose-dot-net-guide/)
 C#에서 Aspose.PDF for .NET을 사용하여 PDF 비밀번호를 확인하는 방법을 알아보세요. 이 포괄적인 가이드는 문서 보안 및 액세스 제어를 간소화합니다.

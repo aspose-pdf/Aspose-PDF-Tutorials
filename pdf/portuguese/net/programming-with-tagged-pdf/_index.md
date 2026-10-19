@@ -56,6 +56,8 @@ Os tutoriais "Programação com PDFs Marcados" do Aspose.PDF para .NET orientam 
 | [Criar Span de Texto Acessível em PDF com Aspose: Guia Completo em C#](./create-accessible-text-span-in-pdf-with-aspose-full-c-guide/) | Aprenda a criar spans de texto acessíveis em PDFs usando Aspose.PDF para .NET com C#, passo a passo. |  
 | [Como editar PDF marcado com Aspose.Pdf – Guia completo](./how-to-edit-tagged-pdf-with-aspose-pdf-complete-guide/) | Aprenda a editar PDFs marcados usando Aspose.PDF para .NET neste guia completo passo a passo. |  
 | [Criar PDF Marcado em C# – Guia Completo Passo a Passo](./create-tagged-pdf-in-c-full-step-by-step-guide/) | Aprenda a criar um PDF marcado em C# usando Aspose.PDF para .NET com este guia passo a passo completo. |
+| [Como marcar PDF com Aspose.Pdf – Guia completo de programação](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | Aprenda a marcar PDFs usando Aspose.Pdf com este guia completo de programação passo a passo. |  
+| [Criar elemento Span PDF com Aspose – Carregar PDF Aspose e marcar conteúdo](./create-span-element-pdf-with-aspose-load-pdf-aspose-and-tag/) | Aprenda a criar um elemento Span em PDF usando Aspose, carregando o PDF e marcando o conteúdo, passo a passo. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

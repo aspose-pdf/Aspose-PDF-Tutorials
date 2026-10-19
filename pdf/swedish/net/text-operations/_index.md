@@ -104,6 +104,9 @@ Bemästra textrotation i PDF-filer med Aspose.PDF för .NET med hjälp av den h�
 ### [Master Aspose.PDF för .NET: Öppna och sök PDF-dokument effektivt](./aspose-pdf-net-open-search-pdfs/)
 Lär dig hur du använder Aspose.PDF för .NET för att öppna och söka i PDF-dokument. Den här guiden behandlar installation, textsökning på specifika sidor och praktiska tillämpningar.
 
+### [Hur du söker i PDF med Aspose.Pdf – Komplett C#-guide](./how-to-search-pdf-with-aspose-pdf-complete-c-guide/)
+Lär dig steg för steg hur du söker efter text i PDF-dokument med Aspose.Pdf i C#, inklusive avancerade sökalternativ och kodexempel.
+
 ### [Bemästra anpassade tabbstopp i PDF-filer med Aspose.PDF för .NET: En omfattande guide](./master-custom-tab-stops-aspose-pdf-net/)
 Lär dig hur du behärskar anpassade tabbstopp i PDF-dokument med Aspose.PDF för .NET, vilket förbättrar dina dokumentformaterings- och presentationsfärdigheter.
 
@@ -165,6 +168,12 @@ En kodhandledning för Aspose.PDF Net
 
 ### [Hur man maskar PDF med Aspose – steg‑för‑steg‑guide](./how-to-redact-pdf-with-aspose-step-by-step-guide/)
 Lär dig hur du maskar känslig information i PDF-filer med Aspose i en detaljerad steg‑för‑steg‑guide.
+
+### [Hur du sammanfattar PDF med Aspose.Pdf.AI – en komplett guide](./how-to-summarize-pdf-with-aspose-pdf-ai-complete-guide/)
+Lär dig hur du använder Aspose.Pdf.AI för att automatiskt generera sammanfattningar av PDF-dokument med en steg-för-steg-guide i .NET.
+
+### [AI-chatt PDF: ställ frågor om PDF med Aspose AI Copilot](./ai-chat-pdf-ask-pdf-questions-with-aspose-ai-copilot/)
+Lär dig hur du använder Aspose AI Copilot för att ställa frågor och få svar från PDF-dokument via en chattfunktion.
 
 ## Ytterligare resurser
 

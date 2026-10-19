@@ -56,6 +56,8 @@ Die Tutorials „Programmieren mit getaggten PDFs“ von Aspose.PDF für .NET f�
 | [Erstellen eines barrierefreien Textabschnitts in PDF mit Aspose: Vollständige C#-Anleitung](./create-accessible-text-span-in-pdf-with-aspose-full-c-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET einen barrierefreien Textabschnitt in einem PDF erstellen – vollständige Schritt-für-Schritt-Anleitung in C#. |  
 | [Wie man ein getaggtes PDF mit Aspose.Pdf bearbeitet – Vollständige Anleitung](./how-to-edit-tagged-pdf-with-aspose-pdf-complete-guide/) | Erfahren Sie, wie Sie ein getaggtes PDF mit Aspose.Pdf für .NET bearbeiten – komplette Schritt-für-Schritt-Anleitung. |  
 | [Erstellen eines getaggten PDFs in C# – Vollständige Schritt‑für‑Schritt‑Anleitung](./create-tagged-pdf-in-c-full-step-by-step-guide/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein getaggtes PDF in C# vollständig Schritt für Schritt erstellen. |  
+| [Wie man PDFs mit Aspose.Pdf taggt – Vollständiger Programmierleitfaden](./how-to-tag-pdf-with-aspose-pdf-complete-programming-guide/) | Erfahren Sie, wie Sie mit Aspose.Pdf PDFs vollständig taggen – Schritt-für-Schritt-Anleitung. |  
+| [Span-Element-PDF mit Aspose erstellen – PDF laden und Inhalte taggen](./create-span-element-pdf-with-aspose-load-pdf-aspose-and-tag/) | Erfahren Sie, wie Sie mit Aspose.PDF für .NET ein PDF laden, ein Span-Element hinzufügen und Inhalte taggen. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

@@ -89,6 +89,7 @@ Te samouczki zawierają również szczegółowe przykłady kodu, jasne wyjaśnie
 | [Utwórz wielostronicowy formularz w C# z Aspose.Pdf – przewodnik krok po kroku](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | Dowiedz się, jak w C# stworzyć wielostronicowy formularz PDF przy użyciu Aspose.Pdf, krok po kroku. |
 | [Dodaj pole tekstowe do formularza PDF – Kompletny przewodnik C#](./add-text-box-to-pdf-form-complete-c-guide/) | Dowiedz się, jak dodać pole tekstowe do formularza PDF przy użyciu Aspose.PDF dla .NET w tym kompletnym przewodniku C#. |
 | [Utwórz pole tekstowe PDF – przewodnik krok po kroku](./create-pdf-textbox-field-step-by-step-guide/) | Dowiedz się, jak dodać pole tekstowe do dokumentu PDF przy użyciu Aspose.PDF dla .NET w tym szczegółowym przewodniku krok po kroku. |
+| [Importowanie FDF do PDF w C# – Kompletny przewodnik krok po kroku](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Dowiedz się, jak importować pliki FDF do dokumentów PDF przy użyciu Aspose.PDF dla .NET i języka C# w tym szczegółowym samouczku. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

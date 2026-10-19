@@ -43,7 +43,6 @@
 - [ตารางในส่วนหัวส่วนท้าย](./table-in-header-footer-section/) | เรียนรู้วิธีการเพิ่มข้อความลงในส่วนท้ายของไฟล์ PDF ได้อย่างง่ายดายโดยใช้ Aspose.PDF สำหรับ .NET พร้อมคู่มือทีละขั้นตอนเพื่อการผสานรวมที่ราบรื่น -  
 | [ข้อความในส่วนท้ายของไฟล์ PDF](./text-in-footer/) | เรียนรู้วิธีการเพิ่มข้อความในส่วนท้ายของไฟล์ PDF ด้วย Aspose.PPDF สำหรับ .NET -  
 | [ข้อความในส่วนหัวของไฟล์ PDF](./text-in-header/) | เรียนรู้การเพิ่มส่วนหัวข้อความในไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยบทช่วยสอนทีละขั้นตอนนี้ ปรับปรุงเอกสารของคุณอย่างมีประสิทธิภาพและมีประสิทธิผล |  
-- [สร้างลายน้ำข้อความใน Word ด้วย Aspose.Words – คู่มือครบถ้วน](./create-text-watermark-in-word-with-aspose-words-complete-gui/) เรียนรู้วิธีสร้างลายน้ำข้อความในไฟล์ Word ด้วย Aspose.Words ผ่านขั้นตอนละเอียดและตัวอย่างโค้ด  
 | [ลายน้ำความลับ PDF ด้วย Aspose: เพิ่มแสตมป์ข้อความในหน้าแรก](./confidential-watermark-pdf-with-aspose-add-a-text-stamp-to-f/) | เรียนรู้วิธีเพิ่มแสตมป์ข้อความลายน้ำความลับลงในหน้าแรกของไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET |
 - [บทช่วยสอนบาเตส: เพิ่มหมายเลขบาเตสลงใน PDF ด้วย C#](./bates-numbering-tutorial-add-bates-numbers-to-pdfs-with-c/) เรียนรู้วิธีเพิ่มหมายเลขบาเตสลงในไฟล์ PDF ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET ด้วยขั้นตอนที่ชัดเจน
 | [วิธีบันทึก PDF — เพิ่มหมายเลข Bates ด้วย Aspose.PDF](./how-to-save-pdf-add-bates-numbering-with-aspose-pdf/) | เรียนรู้วิธีเพิ่มหมายเลข Bates ลงในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือขั้นตอนที่ชัดเจน |
@@ -52,6 +51,10 @@
 | [วิธีเพิ่มแสตมป์ลงใน PDF ด้วย Aspose.Pdf – คู่มือทีละขั้นตอน](./how-to-add-stamp-to-pdf-with-aspose-pdf-step-by-step-guide/) | เรียนรู้วิธีเพิ่มแสตมป์ลงในไฟล์ PDF ด้วย Aspote.Pdf สำหรับ .NET
 - [สร้าง PDF ประกาศเต็มหน้า – คู่มือเร็ว C#](./create-pdf-full-page-notice-quick-c-guide/) เรียนรู้วิธีสร้างประกาศเต็มหน้าในไฟล์ PDF ด้วย C# อย่างรวดเร็วโดยใช้ Aspose.PDF สำหรับ .NET
 - [เพิ่มหมายเลข Bates ให้ PDF – คู่มือฉบับสมบูรณ์กับ Aspose](./add-bates-numbering-pdf-complete-guide-with-aspose/) เรียนรู้วิธีเพิ่มหมายเลข Bates ให้ไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านคู่มือฉบับสมบูรณ์
+| [วิธีเพิ่มแสตมป์ PDF – คู่มือฉบับสมบูรณ์พร้อมการปรับข้อความอัตโนมัติ](./how-to-add-stamp-pdf-complete-guide-with-auto-fit-text/) | เรียนรู้วิธีเพิ่มแสตมป์ลงในไฟล์ PDF พร้อมการปรับข้อความอัตโนมัติให้พอดีกับพื้นที่โดยใช้ Aspose.PDF สำหรับ .NET |
+| [บทแนะนำการใส่หมายเลข Bates: เพิ่มหมายเลขลงใน PDF ด้วย Aspose](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) | เรียนรู้วิธีใส่หมายเลข Bates ลงใน PDF ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียด |  
+| [วิธีเพิ่มลายน้ำ PDF – เพิ่มข้อความซ้อนบน PDF ด้วย Aspose](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) | เรียนรู้วิธีเพิ่มลายน้ำข้อความลงในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอน |
+| [เพิ่มความโปร่งใสให้กับ PDF ด้วย Aspose.PDF – คู่มือ C# ฉบับสมบูรณ์](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) | เรียนรู้วิธีเพิ่มความโปร่งใสให้กับไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET ด้วยคู่มือขั้นตอนเต็มสำหรับ C#  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

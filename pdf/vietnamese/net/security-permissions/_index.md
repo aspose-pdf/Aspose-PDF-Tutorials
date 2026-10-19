@@ -79,6 +79,8 @@ Tìm hiểu cách xác minh mật khẩu PDF bằng Aspose.PDF cho .NET trong C#
 
 ### [Áp dụng biên tập PDF với Aspose Plugin Manager – Hướng dẫn toàn diện](./apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/)
 Hướng dẫn chi tiết cách sử dụng Aspose Plugin Manager để áp dụng biên tập nội dung nhạy cảm vào tài liệu PDF một cách hiệu quả.
+### [Cách biên tập PDF với Aspose.Pdf – Hướng dẫn chi tiết từng bước](./how-to-redact-pdf-with-aspose-pdf-complete-step-by-step-guid/)
+Tìm hiểu cách biên tập nội dung nhạy cảm trong PDF bằng Aspose.Pdf với hướng dẫn chi tiết từng bước.
 
 ## Tài nguyên bổ sung
 

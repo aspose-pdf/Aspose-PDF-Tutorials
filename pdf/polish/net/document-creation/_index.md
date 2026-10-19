@@ -104,6 +104,17 @@ Krok po kroku pokażemy, jak dodać pustą stronę i narysować prostokąt w dok
 ### [Utwórz obraz PDF z HEIC – Kompletny przewodnik C#](./create-pdf-image-from-heic-complete-c-guide/)
 Dowiedz się, jak konwertować obrazy HEIC na pliki PDF w C# przy użyciu Aspose.PDF, krok po kroku.
 
+### [Utwórz dokument PDF przy użyciu Aspose.PDF – pełny przewodnik krok po kroku](./create-pdf-document-with-aspose-pdf-full-step-by-step-guide/)
+Dowiedz się, jak kompleksowo tworzyć dokument PDF przy użyciu Aspose.PDF w .NET, od konfiguracji po zapis.
+### [Utwórz nowy dokument PDF z numeracją Bates w C#](./create-new-pdf-document-with-bates-numbering-in-c/)
+Dowiedz się, jak dodać numerację Bates do nowo tworzonego dokumentu PDF w C# przy użyciu Aspose.PDF.
+
+
+### [Tworzenie dokumentu PDF/X‑4 w C# – przewodnik krok po kroku](./create-pdf-x-4-document-c-step-by-step-guide/)
+Dowiedz się, jak stworzyć dokument PDF/X‑4 w C# przy użyciu Aspose.PDF, krok po kroku.
+### [Jak utworzyć dokument PDF z pustą stroną i prostokątem](./how-to-create-pdf-document-with-a-blank-page-and-rectangle/)
+Dowiedz się, jak w C# dodać pustą stronę i narysować prostokąt w dokumencie PDF przy użyciu Aspose.PDF.
+
 ## Dodatkowe zasoby
 
 - [Aspose.PDF dla dokumentacji sieciowej](https://docs.aspose.com/pdf/net/)
