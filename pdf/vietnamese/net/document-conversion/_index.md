@@ -90,6 +90,7 @@ Bạn sẽ học cách chỉ định cài đặt chuyển đổi, trích xuất 
 | [Chuyển đổi PDF sang HTML trong C# – Hướng dẫn đầy đủ với Aspose](./convert-pdf-to-html-in-c-complete-guide-with-aspose/) | Tìm hiểu cách chuyển đổi PDF sang HTML trong C# bằng Aspose.PDF cho .NET với hướng dẫn chi tiết từng bước. |
 | [PDF sang PDF/X‑1a trong C# – Hướng dẫn từng bước](./convert-pdf-to-pdf-x-1a-with-c-step-by-step-guide/) | Tìm hiểu cách chuyển đổi PDF sang PDF/X‑1a bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết từng bước. |
 | [Tạo chuyển đổi docx sang PDF/X-4 trong C# – hướng dẫn đầy đủ](./create-pdf-x-4-docx-conversion-in-c-complete-guide/) | Hướng dẫn chi tiết cách chuyển đổi tài liệu DOCX sang PDF/X-4 bằng Aspose.PDF cho .NET trong C#. |  
+| [Chuyển đổi PDF sang PDF/X‑1a trong C# – Hướng dẫn đầy đủ](./convert-pdf-to-pdf-x-1a-in-c-complete-guide/) | Tìm hiểu cách chuyển đổi tệp PDF sang định dạng PDF/X‑1a bằng Aspose.PDF cho .NET trong hướng dẫn chi tiết từng bước. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

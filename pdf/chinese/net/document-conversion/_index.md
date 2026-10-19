@@ -110,6 +110,7 @@
 | [PDF 转 PDF/X‑1a – 步骤详解 C# 教程](./convert-pdf-to-pdf-x-1a-with-c-step-by-step-guide/) | 通过本分步指南了解如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 转换为 PDF/X‑1a，适用于高质量文档输出。|  
 | [使用 Aspose.Pdf 将 PDF 转换为 PDFX – 完整指南](./convert-pdf-to-pdfx-with-aspose-pdf-complete-guide/) | 通过本完整指南了解如何使用 Aspose.PDF for .NET 将 PDF 转换为 PDFX。|
 | [在 C# 中创建 PDF/X-4 docx 转换 – 完整指南](./create-pdf-x-4-docx-conversion-in-c-complete-guide/) | 通过本分步教程学习如何使用 Aspose.PDF for .NET 在 C# 中将 PDF/X-4 转换为 DOCX。|  
+| [在 C# 中将 PDF 转换为 PDF/X‑1a – 完整指南](./convert-pdf-to-pdf-x-1a-in-c-complete-guide/) | 通过本完整指南学习如何使用 Aspose.PDF for .NET 在 C# 中将 PDF 转换为符合 PDF/X‑1a 标准的文件。|
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

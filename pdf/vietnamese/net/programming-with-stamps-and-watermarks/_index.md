@@ -55,6 +55,7 @@ Hướng dẫn "Lập trình với tem và hình mờ" của Aspose.PDF dành ch
 | [Hướng dẫn Đánh số Bates: Thêm số vào PDF với Aspose](./bates-numbering-tutorial-add-numbers-to-pdf-with-aspose/) Tìm hiểu cách thêm số Bates vào tài liệu PDF bằng Aspose.PDF cho .NET để dễ dàng quản lý và truy xuất. |  
 | [Cách Thêm Hình Mờ PDF – Thêm Văn Bản Đè Lên PDF với Aspose](./how-to-add-watermark-pdf-add-text-overlay-pdf-with-aspose/) | Tìm hiểu cách thêm hình mờ văn bản vào PDF bằng Aspose.PDF cho .NET với hướng dẫn chi tiết và ví dụ mã. |  
 | [Thêm độ trong suốt vào PDF với Aspose.PDF – Hướng dẫn C# đầy đủ](./add-transparency-to-pdf-with-aspose-pdf-complete-c-guide/) | Hướng dẫn chi tiết cách áp dụng độ trong suốt cho tài liệu PDF bằng Aspose.PDF cho .NET với ví dụ C#. |  
+| [Cách Thay Đổi Độ Trong Suốt trong PDF với Aspose.PDF – Hướng Dẫn Đầy Đủ](./how-to-change-opacity-in-pdf-with-aspose-pdf-complete-guide/) | Tìm hiểu cách thay đổi độ trong suốt của các đối tượng trong PDF bằng Aspose.PDF cho .NET qua hướng dẫn chi tiết. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
