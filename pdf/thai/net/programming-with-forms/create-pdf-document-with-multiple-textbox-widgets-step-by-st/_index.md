@@ -23,13 +23,9 @@ title: สร้างเอกสาร PDF พร้อมหลายวิ�
 url: /th/net/programming-with-forms/create-pdf-document-with-multiple-textbox-widgets-step-by-st/
 ---
 
-ดูฟอร์มของคุณมีชีวิตชีวา*"
 
-Then closing shortcodes unchanged.
 
-Also need to keep the block at top and bottom.
 
-Now produce final content with all translations.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

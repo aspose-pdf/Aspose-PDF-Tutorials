@@ -25,9 +25,7 @@ title: Verificar la firma digital de PDF en C# – Guía completa
 url: /es/net/programming-with-security-and-signatures/verify-pdf-digital-signature-in-c-complete-guide/
 ---
 
-etc.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

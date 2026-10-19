@@ -16,6 +16,13 @@
 使用我们详细的 Aspose.PDF .NET 教程掌握 PDF 文档操作。这些分步指南演示了如何操作文档结构、修改现有 PDF、拆分和合并文档、添加和删除页面以及以编程方式组织 PDF 内容。每个教程都包含 C# 代码示例、实现说明和最佳实践，帮助您构建使用简洁易维护代码高效操作 PDF 文档的应用程序。
 
 ## 可用教程
+
+{{< tutorial-card link="./compare-pdfs/" title="使用 Aspose.PDF for .NET 比较 PDF 并生成带高亮的 Diff 文档" imgSrc="./compare-pdfs/images/thumb.png" >}}
+
+{{< tutorial-card link="./compare-pdf-forms/" title="使用 Aspose.Pdf for .NET 比较 PDF 表单并生成 JSON 与可视化差异。" imgSrc="./compare-pdf-forms/images/thumb.png" >}}
+
+{{< tutorial-card link="./exclude-areas/" title="使用 Aspose.Pdf for .NET 在忽略特定区域的情况下比较 PDF" imgSrc="./exclude-areas/images/thumb.png" >}}
+
 ### [使用 Aspose.PDF for .NET 为 PDF 添加日期和时间戳](./aspose-pdf-net-date-time-stamps-annotations/)
 了解如何使用 Aspose.PDF for .NET 高效地将日期、时间戳或注释添加到 PDF 文档中。通过这些简单易懂的步骤，增强文档管理。
 
@@ -36,6 +43,9 @@ Aspose.PDF Net 代码教程
 
 ### [使用 Aspose.PDF .NET 添加矩形和配置 PDF 页面：综合指南](./aspose-pdf-net-add-rectangles-configure-pages/)
 掌握使用 Aspose.PDF for .NET 在 PDF 中添加矩形和配置页面的方法。遵循本指南，高效学习文档操作技巧。
+
+### [使用 C# 向 PDF 添加矩形 – 完整编程指南](./add-rectangle-to-pdf-with-c-complete-programming-guide/)
+了解如何使用 Aspose.PDF for .NET 在 PDF 文档中通过 C# 添加矩形，并进行自定义设置的完整步骤指南。
 
 ### [Aspose.PDF .NET：设置 PDF 页边距和自定义页眉/页脚](./aspose-pdf-net-master-pdfs-margins-headers-footers/)
 使用 Aspose.PDF for .NET 掌握在 PDF 中设置页边距和自定义页眉/页脚的技巧。遵循本详细指南，增强文档布局的一致性。
@@ -187,6 +197,9 @@ Aspose.PDF Net 代码教程
 ### [如何使用 Aspose.PDF .NET 从 PDF 中删除所有文本进行文档操作](./remove-text-aspose-pdf-net-tutorial/)
 了解如何使用 Aspose.PDF .NET 高效地从 PDF 中删除所有文本。非常适合保护敏感数据或整理文档。
 
+### [如何在 C# 中使用 Aspose PDF 对 PDF 进行编辑（遮蔽） – 完整指南](./how-to-redact-pdf-in-c-with-aspose-pdf-complete-guide/)
+了解如何使用 Aspose PDF for .NET 在 C# 中对 PDF 文档进行编辑（遮蔽），通过分步指南实现敏感信息隐藏。
+
 ### [如何使用 Aspose.PDF for .NET 删除 PDF 打开操作：完整指南](./remove-pdf-open-action-aspose-dotnet-guide/)
 了解如何使用 Aspose.PDF for .NET 消除 PDF 文件中不必要的打开操作。本指南提供分步说明和最佳实践。
 
@@ -235,6 +248,9 @@ Aspose.PDF Net 代码教程
 ### [使用 Aspose.PDF 掌握 .NET 中的 PDF 操作：综合指南](./aspose-pdf-net-tutorial/)
 学习如何使用 Aspose.PDF 在 .NET 中以编程方式管理 PDF。本指南涵盖加载文档、访问表单字段以及迭代选项。
 
+### [使用 Aspose.PDF .NET 掌握 PDF 操作：文档自动化综合指南](./master-pdf-manipulation-aspose-pdf-net-guide/)
+了解如何使用 Aspose.PDF for .NET 自动执行 PDF 任务，包括连接文件、添加页面、插入文本戳和创建链接。
+
 ### [使用 Aspose.PDF .NET 掌握 PDF 操作：文档自动化综合指南](./master-pdf-manipulation-aspose-dotnet-guide/)
 了解如何使用 Aspose.PDF for .NET 自动执行 PDF 任务，包括连接文件、添加页面、插入文本戳和创建链接。
 
@@ -265,7 +281,7 @@ Aspose.PDF Net 代码教程
 ### [掌握 PDF 管理：使用 Aspose.PDF .NET 实现高效的页面方向、颜色和空白检测](./aspose-pdf-net-page-orientation-color-blank-detection/)
 了解如何使用 Aspose.PDF for .NET 通过更改页面方向、检测白色和识别空白页来有效地管理 PDF 文档。
 
-### [掌握 PDF 操作：Aspose.PDF for .NET 综合指南](./aspose-pdf-net-manipulation-guide/)
+### [掌握 PDF 操作：Aspose.PDF .NET 综合指南](./aspose-pdf-net-manipulation-guide/)
 学习如何使用 Aspose.PDF for .NET 高效地操作 PDF。从设置到高级功能，本指南涵盖了文档自动化所需的一切。
 
 ### [掌握 PDF 操作：Aspose.PDF .NET 用于正则表达式搜索和文档处理](./aspose-pdf-net-regex-searching/)
@@ -310,11 +326,35 @@ Aspose.PDF Net 代码教程
 ### [使用 Aspose.PDF .NET 进行 PDF 操作的终极指南：高效加载、保存和替换文本](./master-pdf-manipulation-aspose-pdf-net/)
 学习如何使用 Aspose.PDF for .NET 掌握 PDF 操作。本指南涵盖 PDF 中的文本加载、保存和替换，非常适合追求效率的开发人员。
 
+### [使用 Aspose.PDF 从 PDF 中删除字体 – 分步指南](./remove-font-from-pdf-with-aspose-step-by-step-guide/)
+了解如何使用 Aspose.PDF for .NET 从 PDF 文档中删除嵌入的字体，以减小文件大小并优化文档。
+
+### [如何使用 Aspose.PDF 扁平化 PDF – 完整指南](./how-to-flatten-pdf-with-aspose-pdf-complete-guide/)
+
+### [如何使用 Aspose.PDF 比较 PDF – 分步指南](./how-to-compare-pdfs-with-aspose-step-by-step-guide/)
+了解如何使用 Aspose.PDF for .NET 对 PDF 文档进行比较，检测差异并生成报告的完整步骤。
+
 ### [如何在 C# 中编辑 PDF – 隐藏文本并删除内容](./how-to-redact-pdf-in-c-hide-text-pdf-remove-content-pdf/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中隐藏 PDF 文本并删除不需要的内容，实现安全编辑。
 
 ### [如何在 C# 中修复 PDF – 快速修复损坏的 PDF 文件](./how-to-repair-pdf-in-c-fix-corrupted-pdf-files-quickly/)
 了解如何使用 Aspose.PDF for .NET 在 C# 中快速修复损坏的 PDF 文件，步骤简明易懂。
+### [如何在 PDF 中删除嵌入式字体 – 步骤详解 C# 指南](./how-to-remove-embedded-fonts-pdf-step-by-step-c-guide/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中删除 PDF 的嵌入式字体，以减小文件大小并优化文档。
+### [在 C# 中展平 PDF 图层 – 导出与提取指南](./flatten-pdf-layers-in-c-export-extract-guide/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中展平 PDF 图层，并导出或提取图层内容的完整步骤。
+
+### [C# 中的可视化 PDF 差异比较 – 比较两个 PDF 的完整指南](./visual-pdf-diff-in-c-complete-guide-to-compare-two-pdfs/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中实现可视化 PDF 差异比较，轻松对比两个 PDF 文档的内容差异。
+
+### [在 C# 中合并 PDF 图层 – 如何合并 PDF 图层](./merge-pdf-layers-in-c-how-to-combine-pdf-layers/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中合并 PDF 图层，实现图层的组合。
+### [使用 Aspose.PDF 修复 PDF 文件 – 完整指南](./how-to-fix-pdf-files-with-aspose-pdf-complete-guide/)
+了解如何使用 Aspose.PDF for .NET 修复损坏的 PDF 文件，包括检测错误、修复结构并保存有效文档的完整步骤。
+### [保存已更新的 PDF – 使用 Aspose.Pdf 编辑 PDF 资源](./save-updated-pdf-edit-pdf-resources-with-aspose-pdf/)
+了解如何使用 Aspose.Pdf 在 .NET 中保存已编辑的 PDF 并管理相关资源。
+### [使用 Aspose.PDF 保存已修改的 PDF – 完整 C# 指南](./save-modified-pdf-with-aspose-pdf-complete-c-guide/)
+了解如何使用 Aspose.PDF for .NET 在 C# 中保存已修改的 PDF 文档的完整步骤。
 
 ## 其他资源
 

@@ -1,0 +1,46 @@
+//ExStart
+//ExSummary: このチュートリアルでは、Aspose.Pdf を使用して既存の PDF を開き、権限をフォーム入力のみに制限し、ビューア パスワードとオーナーパスワードで AES‑256 暗号化し、保護されたファイルを保存する方法を示します。
+//ExStepSummary:0: ソースおよび宛先のファイルパスと、ビューア パスワードおよびオーナーパスワードを定義します。
+//ExStepSummary:1: ソース PDF が存在するか確認し、存在しない場合はエラーメッセージで中止します。
+//ExStepSummary:2: 処理中に発生する可能性のあるエラーを処理するために、try ブロックを開始します。
+//ExStepSummary:3: Document オブジェクト（名前は pdfDoc）を作成して、既存の PDF ファイルを開きます。
+//ExStepSummary:4: 権限をフォーム入力のみに設定し、ビューア パスワードとオーナーパスワードで AES‑256 暗号化し、保護された PDF を保存します。
+//ExStepSummary:5: コンソールに確認メッセージを書き込み、try ブロックを閉じます。
+//ExStepSummary:6: 例外を捕捉し、エラーメッセージをコンソールに出力します。
+//ExStep:0-
+        const string sourceFile = "sample.pdf";
+        const string destFile = "protected.pdf";
+        const string viewerPass = "viewerPass";
+        const string adminPass = "adminPass";
+
+//ExStep:1-
+        if (!File.Exists(sourceFile))
+        {
+            Console.Error.WriteLine($"Unable to locate file: {sourceFile}");
+            return;
+        }
+
+//ExStep:2-
+        try
+        {
+
+//ExStep:3-
+            using (Document pdfDoc = new Document(sourceFile))
+
+//ExStep:4-
+            {
+                Permissions allowed = Permissions.FillForm;
+                pdfDoc.Encrypt(viewerPass, adminPass, allowed, CryptoAlgorithm.AESx256);
+                pdfDoc.Save(destFile);
+            }
+
+//ExStep:5-
+            Console.WriteLine($"Secure PDF written to '{destFile}'.");
+        }
+
+//ExStep:6-
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"Exception occurred: {ex.Message}");
+        }
+//ExEnd

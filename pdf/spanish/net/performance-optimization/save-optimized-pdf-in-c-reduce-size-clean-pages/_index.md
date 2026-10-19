@@ -24,9 +24,8 @@ title: Guardar PDF optimizado en C# – Reducir tamaño y limpiar páginas
 url: /es/net/performance-optimization/save-optimized-pdf-in-c-reduce-size-clean-pages/
 ---
 
-formatting exactly.
 
-Let's craft final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

@@ -24,13 +24,10 @@ title: C#'ta PDF İmzasını Nasıl Doğrularsınız – Tam Adım Adım Öğret
 url: /tr/net/digital-signatures/how-to-verify-pdf-signature-in-c-complete-step-by-step-tutor/
 ---
 
-block placeholders: CODE_BLOCK_0 etc. Keep them unchanged.
 
-Check for any URLs: none.
 
-Check for any other bold text: we kept.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

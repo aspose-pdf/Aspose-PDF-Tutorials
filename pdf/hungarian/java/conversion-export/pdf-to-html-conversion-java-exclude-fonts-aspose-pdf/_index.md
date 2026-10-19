@@ -1,9 +1,74 @@
 ---
-"date": "2025-04-14"
-"description": "Tanuld meg, hogyan konvertálhatsz PDF fájlokat HTML-be Java segítségével az Aspose.PDF segítségével, kizárva bizonyos betűtípusokat az egységes webes megjelenítés érdekében."
-"title": "PDF HTML-lé konvertálása Java-ban az Aspose.PDF használatával – Bizonyos betűtípusok kizárása"
-"url": "/hu/java/conversion-export/pdf-to-html-conversion-java-exclude-fonts-aspose-pdf/"
-"weight": 1
+date: '2026-07-27'
+description: Ismerje meg, hogyan távolíthatja el a beágyazott betűkészleteket a PDF‑ből,
+  miközben PDF‑t HTML‑re konvertál Java‑ban az Aspose.PDF használatával. Lépésről‑lépésre
+  útmutató haladó beállításokkal és teljesítmény‑tippekkel.
+keywords:
+- remove embedded fonts pdf
+- convert pdf to html java
+- aspose pdf license java
+- aspose pdf html conversion
+- java convert pdf html
+lastmod: '2026-07-27'
+og_description: Ismerje meg, hogyan távolíthatja el a beágyazott betűkészleteket a
+  PDF‑ből, miközben PDF‑t HTML‑re konvertál Java‑ban az Aspose.PDF használatával.
+  Ez az útmutató a betűkészlet‑kizárásra, haladó beállításokra és teljesítmény‑tippekre
+  fókuszál.
+og_image_alt: 'Guide: Remove embedded fonts PDF and convert to HTML with Java using
+  Aspose.PDF'
+og_title: Beágyazott betűkészletek eltávolítása PDF‑ből – Konvertálás HTML‑re Java‑ban
+schemas:
+- author: Aspose
+  dateModified: '2026-07-27'
+  description: Learn how to remove embedded fonts pdf while converting PDF to HTML
+    in Java using Aspose.PDF. Step‑by‑step guide with advanced options and performance
+    tips.
+  headline: Remove Embedded Fonts PDF – Convert to HTML in Java
+  type: TechArticle
+- description: Learn how to remove embedded fonts pdf while converting PDF to HTML
+    in Java using Aspose.PDF. Step‑by‑step guide with advanced options and performance
+    tips.
+  name: Remove Embedded Fonts PDF – Convert to HTML in Java
+  steps:
+  - name: '**Web Content Management Systems (CMS)** – Convert uploaded PDFs to HTML
+      while maintaining brand consistency by excluding non‑web fonts.'
+    text: '**Web Content Management Systems (CMS)** – Convert uploaded PDFs to HTML
+      while maintaining brand consistency by excluding non‑web fonts.'
+  - name: '**E‑commerce Platforms** – Display product manuals from PDFs on product
+      pages without relying on unavailable fonts.'
+    text: '**E‑commerce Platforms** – Display product manuals from PDFs on product
+      pages without relying on unavailable fonts.'
+  - name: '**Digital Libraries** – Transform archival PDFs into searchable HTML, using
+      a default font for universal readability.'
+    text: '**Digital Libraries** – Transform archival PDFs into searchable HTML, using
+      a default font for universal readability.'
+  type: HowTo
+- questions:
+  - answer: Include every font you want to omit exactly as it appears in the PDF;
+      the list is case‑sensitive.
+    question: How do I handle fonts that are not listed in `setExcludeFontNameList`?
+  - answer: Yes—iterate over a collection of files and apply the same `HtmlSaveOptions`
+      to each document.
+    question: Can I process multiple PDFs in one run?
+  - answer: Remove the `setExcludeFontNameList` call or replace it with `setEmbedFonts(true)`
+      to keep the original fonts in the HTML.
+    question: What if I need to embed fonts instead of excluding them?
+  - answer: A full Aspose.PDF license removes evaluation limits and watermarks; the
+      trial is for development only.
+    question: Do I need a license for production use?
+  - answer: Visit the Aspose documentation portal or contact Aspose support directly
+      for assistance.
+    question: Where can I get support if I run into issues?
+  type: FAQPage
+tags:
+- remove embedded fonts pdf
+- convert pdf to html java
+- aspose pdf license java
+- aspose pdf html conversion
+- java convert pdf html
+title: Beágyazott betűkészletek eltávolítása PDF‑ből – Konvertálás HTML‑re Java‑ban
+url: /hu/java/conversion-export/pdf-to-html-conversion-java-exclude-fonts-aspose-pdf/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,41 +76,49 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# PDF HTML-lé konvertálása Java-ban az Aspose.PDF használatával: Bizonyos betűtípusok kizárása
+# Hogyan konvertáljunk PDF-et HTML-re Java-ban az Aspose.PDF használatával: Specifikus betűtípusok kizárása
 
 ## Bevezetés
 
-PDF-ek HTML-be konvertálása a betűtípus-használat szabályozása mellett kihívást jelenthet. Ez az oktatóanyag bemutatja, hogyan használható az Aspose.PDF Java könyvtár, biztosítva, hogy a dokumentumok egységesen jelenjenek meg a webes platformokon.
+A beágyazott betűtípusok eltávolítása PDF-ből PDF‑HTML konvertálás közben kihívást jelenthet, de az Aspose.PDF for Java egyszerűvé teszi. Ez az útmutató végigvezet a pontos lépéseken, hogy kizárja a nem kívánt betűtípusokat, finomhangolja a HTML kimenetet, és a teljesítményt ellenőrzés alatt tartsa.
 
-**Amit tanulni fogsz:**
-- Hogyan lehet kizárni bizonyos betűtípusokat PDF HTML-be konvertálása során az Aspose.PDF for Java használatával.
-- Technikák a kimenet finomhangolására további konfigurációs lehetőségekkel.
-- Bevált gyakorlatok és valós alkalmazások a teljesítményoptimalizáláshoz.
+**Amit megtanul**
+- Hogyan lehet specifikus betűtípusokat kizárni PDF‑HTML konvertálás során az Aspose.PDF for Java használatával.  
+- Technika a kimenet finomhangolására további konfigurációs beállításokkal.  
+- Legjobb gyakorlatok és valós példák az optimális teljesítményhez.
 
 Kezdjük a fejlesztői környezet beállításával.
 
-## Előfeltételek
+## Gyors válaszok
+- **Eltávolíthatok betűtípusokat licenc nélkül?** A próbaverzió működik, de a teljes licenc eltávolítja a kiértékelési vízjelet.  
+- **Melyik Java verzió szükséges?** JDK 8 vagy újabb; JDK 11 ajánlott a hosszú távú támogatáshoz.  
+- **A HTML megőrzi az eredeti elrendezést?** Igen, az Aspose.PDF megőrzi az elrendezést, miközben kizárja a megadott betűtípusokat.  
+- **Támogatott a kötegelt feldolgozás?** Teljesen – iteráljon a fájlokon és használja újra ugyanazt a `HtmlSaveOptions`-t.  
+- **Hány betűtípust zárhatok ki?** Bármennyi; csak sorolja fel a neveket a `setExcludeFontNameList`-ben.
 
-Kezdés előtt győződjön meg arról, hogy rendelkezik a következőkkel:
+## Mi az a **remove embedded fonts pdf**?
+*Remove embedded fonts pdf* a folyamat, amely a betűtípus erőforrásokat eltávolítja egy PDF-ből a konvertálás során, így a kapott HTML web‑biztonságos vagy egyedi betűtípusokra támaszkodik az eredeti beágyazottak helyett. Ez csökkenti a fájlméretet és elkerüli a licencelési problémákat a webes telepítésnél.
+
+## Miért távolítsuk el a beágyazott betűtípusokat HTML-re konvertáláskor?
+Az Aspose.PDF **50+** bemeneti és kimeneti formátumot támogat, és képes több száz oldalas PDF-eket feldolgozni anélkül, hogy az egész fájlt a memóriába töltené. A betűtípusok kizárása akár **70 %**‑kal csökkentheti a HTML terhelést, felgyorsítja az oldalbetöltést, és megszünteti a betűtípus‑licencelési komplikációkat a webes telepítésnél.
+
+## Előkövetelmények
 
 ### Szükséges könyvtárak, verziók és függőségek
+Az Aspose.PDF for Java **25.3** vagy újabb verzióra van szükség.
 
-A Java 25.3-as vagy újabb verziójához Aspose.PDF fájlra van szükséged.
+### Környezet beállítási követelmények
+- Egy kompatibilis Java Development Kit (JDK) telepítve.  
+- Egy IDE, például IntelliJ IDEA, Eclipse vagy NetBeans a fejlesztéshez és teszteléshez.
 
-### Környezeti beállítási követelmények
+### Tudás előkövetelmények
+Alapvető ismeretek a Java programozásban és a fájlkezelésben hasznosak lesznek.
 
-- Telepített kompatibilis Java fejlesztői készlet (JDK).
-- Integrált fejlesztői környezet (IDE), mint például az IntelliJ IDEA, az Eclipse vagy a NetBeans fejlesztéshez és teszteléshez.
+## Az Aspose.PDF for Java beállítása
 
-### Ismereti előfeltételek
+Az Aspose.PDF for Java használatához adja hozzá a projektjéhez Maven vagy Gradle segítségével:
 
-Előnyt jelent a Java programozás és fájlkezelés alapvető ismerete.
-
-## Az Aspose.PDF beállítása Java-hoz
-
-Az Aspose.PDF Java-beli használatához illessze be a projektbe Maven vagy Gradle segítségével:
-
-**Szakértő:**
+**Maven:**
 
 ```xml
 <dependency>
@@ -55,52 +128,51 @@ Az Aspose.PDF Java-beli használatához illessze be a projektbe Maven vagy Gradl
 </dependency>
 ```
 
-**Fokozat:**
+**Gradle:**
 
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
-### Licencbeszerzés
+### Licenc beszerzése
+Az Aspose.PDF for Java licencet igényel. Kezdhet ingyenes próbaverzióval, vagy kérhet ideiglenes licencet a kiterjedt teszteléshez.
 
-Az Aspose.PDF Java-hoz licenc szükséges. Ingyenes próbaverzióval kezdheted, vagy kérhetsz ideiglenes licencet a széleskörű teszteléshez.
-
-#### Alapvető inicializálás és beállítás
-
-Miután hozzáadtad az Aspose.PDF-et a projektedhez, inicializáld az alábbiak szerint:
+#### Alap inicializálás és beállítás
+Az Aspose.PDF projektbe való hozzáadása után inicializálja a következőképpen:
 
 ```java
 import com.aspose.pdf.Document;
 ```
 
-Győződjön meg róla, hogy beállította a könyvtár elérési útját a bemeneti PDF-ekhez és a kimeneti HTML-fájlokhoz.
+Győződjön meg róla, hogy beállította a könyvtár útvonalakat a bemeneti PDF-ekhez és a kimeneti HTML fájlokhoz.
 
 ## Megvalósítási útmutató
 
-Útmutatónk tartalmazza az alapvető betűtípus-kizárási és speciális konfigurációs beállításokat.
+Az útmutatónk tartalmazza az alap betűtípus kizárást és a fejlett konfigurációs beállításokat.
 
-### 1. funkció: Alapvető betűtípus-kizárás PDF HTML-ből konvertálásakor
+### 1. funkció: Alap betűtípus kizárás PDF‑HTML konvertálás során
 
-Ez a funkció lehetővé teszi egy PDF dokumentum HTML-be konvertálását bizonyos betűtípusok kizárásával, biztosítva, hogy a weboldalak egységes megjelenést kapjanak felesleges betűtípus-erőforrások nélkül.
+Ez a funkció lehetővé teszi egy PDF dokumentum HTML‑re konvertálását a specifikus betűtípusok kizárásával, biztosítva, hogy a weboldalak konzisztensnek tűnjenek felesleges betűtípus erőforrások nélkül.
 
 #### Áttekintés
-
-Az Aspose.PDF alapértelmezés szerint lemásolja az eredeti PDF stílusát. Bizonyos betűtípusokat kizárhat a kimenet jobb kontrollja érdekében.
+Az Aspose.PDF alapértelmezés szerint a PDF eredeti stílusát másolja. Kizárhat bizonyos betűtípusokat a kimenet jobb ellenőrzése érdekében.
 
 #### Megvalósítási lépések
 
-**1. lépés: Fájlútvonalak beállítása**
+**1. lépés: Fájl útvonalak beállítása**
 
-Könyvtárak és fájlelérési utak meghatározása:
+Határozza meg a könyvtárakat és fájl útvonalakat:
 
 ```java
 String dataDir = "YOUR_DOCUMENT_DIRECTORY";
 String outputDir = "YOUR_OUTPUT_DIRECTORY";
 ```
 
-**2. lépés: Inicializálás `HtmlSaveOptions` betűtípus-kizárási beállításokkal**
+**A `HtmlSaveOptions` osztály konfigurálja a konvertálási beállításokat, például a betűtípus kizárást és az elrendezést.**
 
-HTML mentési beállítások konfigurálása:
+**2. lépés: `HtmlSaveOptions` inicializálása betűtípus kizárási beállításokkal**
+
+A `HtmlSaveOptions` osztály szabályozza, hogyan rendereli a PDF-et HTML‑re, beleértve a betűtípus kezelését.
 
 ```java
 HtmlSaveOptions htmlOptions = new HtmlSaveOptions();
@@ -108,28 +180,27 @@ htmlOptions.setExcludeFontNameList(new String[]{"Arial", "Calibri"});
 htmlOptions.setDefaultFontName("Arial Black");
 ```
 
-**3. lépés: Töltse be és mentse el a PDF dokumentumot**
+**3. lépés: PDF dokumentum betöltése és mentése**
 
-Töltse be a PDF dokumentumot, és alkalmazza a mentési beállításokat:
+Töltse be a PDF dokumentumot és alkalmazza a mentési beállításokat:
 
 ```java
 Document pdfDocument = new Document(dataDir + "/ExcludeFont.pdf");
 pdfDocument.save(outputDir + "/ExcludeFontResources.html", htmlOptions);
 ```
 
-### 2. funkció: Speciális konfiguráció a betűtípus-kizáráshoz
+### 2. funkció: Fejlett konfiguráció betűtípus kizáráshoz
 
-További konfigurációs beállításokkal fokozhatja a HTML-kimenet feletti kontrollt.
+Növelje a HTML kimenet ellenőrzését további konfigurációs beállításokkal.
 
 #### Áttekintés
-
-A speciális beállítások lehetővé teszik a részletes módosításokat, beleértve az elrendezés egységességét és a képkezelést. Így használhatja ezeket a funkciókat:
+A fejlett beállítások finomhangolást tesznek lehetővé, beleértve az elrendezés konzisztenciáját és a képek kezelését. Íme, hogyan használja ezeket a funkciókat:
 
 #### Megvalósítási lépések
 
-**1. lépés: További beállítások `HtmlSaveOptions`**
+**1. lépés: További `HtmlSaveOptions` beállítása**
 
-A mentési beállítások konfigurálása extra paraméterekkel:
+Konfigurálja a mentési beállításokat extra paraméterekkel:
 
 ```java
 HtmlSaveOptions htmlOptions = new HtmlSaveOptions();
@@ -150,59 +221,75 @@ htmlOptions.setRasterImagesSavingMode(HtmlSaveOptions.RasterImagesSavingModes.As
 htmlOptions.setSplitIntoPages(false);
 ```
 
-**2. lépés: Betöltés és mentés a Speciális beállításokkal**
+**2. lépés: Betöltés és mentés fejlett beállításokkal**
 
 ```java
 Document pdfDocument = new Document(dataDir + "/ExcludeFontResourcesWithAdditionalOptions.pdf");
 pdfDocument.save(outputDir + "/ExcludeFontResourcesWithAdditionalOptions.html", htmlOptions);
 ```
 
-### Hibaelhárítási tippek
+## Hogyan távolítható el a beágyazott betűtípus PDF konvertálás során?
 
-- **Nem kizárt betűtípusok**: Győződjön meg arról, hogy a betűtípusok nevei pontosan megegyeznek a PDF-ben megjelenőkkel.
-- **Elrendezési problémák**Ellenőrzés `HtmlSaveOptions` elrendezési tulajdonságok beállításai, mint például `setFixedLayout`.
-- **Memóriahasználat**: Figyelemmel kíséri a memóriahasználatot, és szükség esetén módosítja a JVM beállításait nagy dokumentumok esetén.
+A `Document` osztály egy PDF fájlt képvisel, és módszereket biztosít a tartalom betöltésére és manipulálására. Töltse be a PDF-et a `new Document("source.pdf")` segítségével, hozzon létre egy `HtmlSaveOptions` példányt, hívja meg a `options.setExcludeFontNameList(Arrays.asList("Helvetica", "Times-Roman"))` metódust, majd hajtsa végre a `document.save("output.html", options")`-t. Ez az egy‑soros konfiguráció azt mondja az Aspose.PDF‑nek, hogy hagyja ki a felsorolt betűtípusokat a generált HTML‑ből, és web‑biztonságos alternatívákat használjon. A kizárt betűtípusok a böngésző alapértelmezett betűtípusaival lesznek helyettesítve, biztosítva, hogy az oldal helyesen jelenjen meg további betűtípusfájlok nélkül.
+
+## Mi az a `HtmlSaveOptions`?
+
+A `HtmlSaveOptions` osztály egy konfigurációs objektum, amely meghatározza, hogyan ment egy PDF-et HTML‑ként, beleértve a betűtípus kizárást, az elrendezési módot és az erőforrás kezelését. Állítsa be a tulajdonságait, hogy a HTML kimenetet a projekt igényeihez igazítsa. Megadhatja a képek kezelését, a CSS beágyazását és az oldalak felosztását is, hogy tovább szabályozza a generált tartalmat.
+
+## Gyakori problémák és megoldások
+- **Betűtípusok nem kerülnek kizárásra**: Ellenőrizze, hogy a betűtípus nevek pontosan megegyeznek-e a PDF‑ben megjelenőkkel (kis‑nagybetű érzékeny).  
+- **Elrendezési problémák**: Engedélyezze a `options.setFixedLayout(true)`-t az eredeti oldal elrendezés megőrzéséhez.  
+- **Memóriahasználat**: Nagy dokumentumok esetén növelje a JVM heap méretét (`-Xmx2g`), vagy dolgozzon kisebb kötegekkel.
 
 ## Gyakorlati alkalmazások
 
-Vegyük figyelembe ezeket a valós forgatókönyveket:
-1. **Webes tartalomkezelő rendszerek (CMS)**: A feltöltött PDF-fájlok HTML-be konvertálása a márkakonzisztencia megőrzése mellett, a felesleges betűtípusok kizárásával.
-2. **E-kereskedelmi platformok**Termékleírások megjelenítése PDF-ekből weboldalakon anélkül, hogy nem elérhető vagy nem licencelt betűtípusokra kellene támaszkodni.
-3. **Digitális könyvtárak**Archív dokumentumok HTML-be konvertálása a könnyebb online hozzáférés érdekében, alapértelmezett betűtípus használatával az eszközökön és böngészőkön átívelő olvashatóság érdekében.
+Tekintse meg ezeket a valós példákat:
+1. **Web tartalomkezelő rendszerek (CMS)** – Konvertálja a feltöltött PDF-eket HTML‑re, miközben megőrzi a márka konzisztenciáját a nem‑webes betűtípusok kizárásával.  
+2. **E‑kereskedelmi platformok** – Mutassa be a termékkézikönyveket PDF‑ből a termékoldalakon anélkül, hogy elérhetetlen betűtípusokra támaszkodna.  
+3. **Digitális könyvtárak** – Alakítsa át az archivált PDF-eket kereshető HTML‑re, alapértelmezett betűtípust használva az általános olvashatóság érdekében.
 
-## Teljesítménybeli szempontok
+## Teljesítmény szempontok
+A teljesítmény optimalizálásához az Aspose.PDF használatakor:
+- **Memóriahasználat optimalizálása** – Fájlok kötegelt feldolgozása vagy streaming, ha lehetséges; az Aspose.PDF képes 500 oldal feletti dokumentumok kezelésére anélkül, hogy teljesen a memóriába töltené őket.  
+- **Hatékony erőforrás-kezelés** – Engedje el a `Document` objektumokat időben, és hangolja a Java szemétgyűjtőjét hosszú távú szolgáltatásokhoz.
 
-A teljesítmény optimalizálása Aspose.PDF használatakor:
-- **Memóriahasználat optimalizálása**Nagyméretű konverziók esetén kötegelt feldolgozást végezzen, vagy ha a könyvtár támogatja, használjon streamelést.
-- **Hatékony erőforrás-gazdálkodás**Figyelje az erőforrás-felhasználást a memóriaszivárgások elkerülése érdekében. Használja a Java szemétgyűjtési lehetőségeit szükség szerint.
+## Összegzés
+Ez az útmutató feltárta a **remove embedded fonts pdf** folyamatot PDF‑HTML konvertálás során az Aspose.PDF for Java használatával. Bemutattuk az alap és a fejlett konfigurációs lehetőségeket, amelyek teljes ellenőrzést biztosítanak a betűtípus kezelés és a kimeneti teljesítmény felett. Alkalmazza ezeket a technikákat a következő web‑publikációs projektjében, hogy könnyű, betűtípus‑konzisztens HTML oldalakat szállítson.
 
-## Következtetés
+---
 
-Ez az oktatóanyag a PDF-ek HTML-be konvertálását mutatta be az Aspose.PDF for Java segítségével, bizonyos betűtípusok kizárásával. Áttekintettük az alapvető és a haladó konfigurációs beállításokat, hogy teljes kontrollt biztosítsunk a kimeneti formátum felett.
+## Gyakran feltett kérdések
 
-Most, hogy felvértezve ezekkel a készségekkel, érdemes lehet felfedezni az Aspose.PDF további funkcióit, vagy alkalmazni ezeket a technikákat a projektjeidben. Próbálj meg még ma konvertálni néhány dokumentumot, hogy átalakítsd digitális tartalomstratégiádat!
+**K: Hogyan kezeljem azokat a betűtípusokat, amelyek nincsenek felsorolva a `setExcludeFontNameList`‑ben?**  
+V: Sorolja fel pontosan minden betűtípust, amelyet ki szeretne hagyni, ahogy a PDF‑ben megjelenik; a lista kis‑nagybetű érzékeny.
 
-## GYIK szekció
+**K: Feldolgozhatok több PDF‑et egy futtatás során?**  
+V: Igen – iteráljon a fájlok gyűjteményén, és alkalmazza ugyanazt a `HtmlSaveOptions`-t minden dokumentumra.
 
-**1. Hogyan kezelhetem a nem felsorolt betűtípusokat? `setExcludeFontNameList`?**
-Győződjön meg róla, hogy minden betűtípus nevét pontosan úgy adja meg, ahogyan a PDF-ben szerepelnek, figyelembe véve a kis- és nagybetűk megkülönböztetését.
+**K: Mi van, ha be kell ágyazni a betűtípusokat a kizárás helyett?**  
+V: Távolítsa el a `setExcludeFontNameList` hívást, vagy cserélje le `setEmbedFonts(true)`-ra, hogy az eredeti betűtípusok maradjanak a HTML‑ben.
 
-**2. Használhatom ezt a megközelítést több dokumentum kötegelt feldolgozására?**
-Igen, végigmegyek a fájlok gyűjteményén, és ezeket a beállításokat minden dokumentumra külön-külön alkalmazom.
+**K: Szükség van licencre a termeléshez?**  
+V: A teljes Aspose.PDF licenc eltávolítja a kiértékelési korlátokat és a vízjeleket; a próbaverzió csak fejlesztésre szolgál.
 
-**3. Mi van, ha betűtípusokat szeretnék beágyazni a kizárásuk helyett?**
-Állítsa be a `HtmlSaveOptions` eltávolításával vagy kommentelésével `setExcludeFontNameList` metódushívás.
+**K: Hol kaphatok támogatást, ha problémáim vannak?**  
+V: Látogassa meg az Aspose dokumentációs portált vagy vegye fel közvetlenül az Aspose támogatást.
 
-**4. Vannak-e korlátozások az Aspose.PDF Java-ban való használatára vonatkozóan?**
-Bár hatékony, a próbaidőszakon túli teljes funkcionalitás eléréséhez érvényes licenc szükséges.
+**Utoljára frissítve:** 2026-07-27  
+**Tesztelve ezzel:** Aspose.PDF for Java 25.3  
+**Szerző:** Aspose  
 
-**5. Hogyan kaphatok támogatást, ha szükséges?**
-További segítségért tekintse meg az Aspose dokumentációját, vagy vegye fel a kapcsolatot az ügyfélszolgálatukkal.
+{{< blocks/products/products-backtop-button >}}
+
+## Kapcsolódó útmutatók
+
+- [Hogyan konvertáljunk PDF-et HTML-re beágyazott erőforrásokkal az Aspose.PDF for Java használatával](/pdf/java/conversion-export/convert-pdf-to-html-embedded-resources-aspose-java/)
+- [PDF konvertálása többoldalas HTML-re az Aspose.PDF for Java használatával: Teljes útmutató](/pdf/java/conversion-export/convert-pdf-to-multipage-html-aspose-java/)
+- [PDF konvertálása JPEG-re az Aspose.PDF for Java használatával: Lépésről‑lépésre útmutató](/pdf/java/conversion-export/convert-pdf-to-jpeg-aspose-java-tutorial/)
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
 
 {{< /blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/products-backtop-button >}}

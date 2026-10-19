@@ -25,7 +25,6 @@ title: Validasi Tanda Tangan PDF di C# – Panduan Langkah demi Langkah
 url: /id/net/programming-with-security-and-signatures/validate-pdf-signature-in-c-step-by-step-guide/
 ---
 
-final output with all translated content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

@@ -17,6 +17,8 @@
 
 ## บทช่วยสอนที่พร้อมใช้งาน
 
+
+{{< tutorial-card link="./style-table-cells/" title="ปรับแต่งพื้นหลัง, เส้นขอบ, และระยะห่างของเซลล์ตารางใน PDF ด้วย Aspose.Pdf for .NET" imgSrc="./style-table-cells/images/thumb.png" >}}
 ### [เพิ่มรายการเรียงลำดับ HTML ลงใน PDF ด้วย Aspose.PDF .NET](./add-html-ordered-list-pdf-aspose-net/)
 บทช่วยสอนเกี่ยวกับโค้ดสำหรับ Aspose.PDF Net
 

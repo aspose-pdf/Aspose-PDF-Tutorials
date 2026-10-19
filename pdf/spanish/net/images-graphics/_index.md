@@ -35,6 +35,12 @@ Aprenda a convertir archivos SVG en PDF de alta calidad sin problemas con Aspose
 ### [Crear y rellenar rectángulos en archivos PDF con Aspose.PDF para .NET: guía paso a paso](./create-fill-rectangle-aspose-pdf-net/)
 Aprenda a crear y rellenar rectángulos en documentos PDF con Aspose.PDF para .NET. Esta guía paso a paso abarca todo, desde la configuración hasta la implementación con C#.
 
+### [Cómo dibujar un rectángulo en PDF con C# – guía paso a paso](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
+Aprenda a dibujar rectángulos en archivos PDF con Aspose.PDF para .NET usando C# paso a paso.
+### [Agregar rectángulo a PDF con Aspose.PDF – Guía completa de programación](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+Aprenda a agregar rectángulos a documentos PDF usando Aspose.PDF para .NET con esta guía completa paso a paso.
+### [Añadir rectángulo a PDF con C# – guía paso a paso](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+
 ### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Un tutorial de código para Aspose.PDF Net
 
@@ -44,8 +50,34 @@ Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando p�
 ### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 Un tutorial de código para Aspose.PDF Net
 
+### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
+### [Cómo añadir transparencia a PDF usando Aspose.PDF en C#](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
+
+### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
+
+### [Cree sellos PDF personalizados con Aspose.PDF en .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
+Un tutorial de código para Aspose.PDF Net
+
+### [Cree archivos PDF con bordes resaltados con Aspose.PDF .NET: una guía completa para desarrolladores](./create-pdf-borders-highlight-aspose-pdf-net/)
+Aprenda a crear documentos PDF visualmente atractivos extrayendo y resaltando párrafos con Aspose.PDF .NET. Mejore la legibilidad de sus documentos con bordes personalizados.
+
+### [Dibujar formas transparentes en archivos PDF con Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
+Un tutorial de código para Aspose.PDF Net
+
+### [Añadir transparencia a PDF con Aspose PDF en C# – Guía paso a paso](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Aprenda a aplicar transparencias en documentos PDF usando Aspose PDF para .NET con C#. Siga esta guía paso a paso.
+### [Cómo añadir una forma a un PDF con Aspose.PDF en C#: guía paso a paso](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Aprenda a dibujar y personalizar formas en documentos PDF usando Aspose.PDF para .NET con C#. Siga esta guía paso a paso.
+### [Cómo añadir estado de gráficos PDF y controlar la transparencia con Aspose.PDF: guía paso a paso](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
+Aprenda a manipular el estado de gráficos y controlar la transparencia en archivos PDF usando Aspose.PDF para .NET.
+
 ### [Identificación eficiente de imágenes PDF con Aspose.PDF para .NET](./master-image-identification-aspose-pdf-net/)
 Aprenda a identificar imágenes en escala de grises y RGB en archivos PDF con Aspose.PDF para .NET. Este tutorial abarca la instalación, la extracción de imágenes y consejos de rendimiento.
+
+### [Cómo usar GraphicsAbsorber – Extraer gráficos vectoriales de PDF con Aspose.Pdf](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
+Aprenda a extraer gráficos vectoriales de archivos PDF usando GraphicsAbsorber de Aspose.Pdf. Guía paso a paso con ejemplos en C#.
 
 ### [Convierta secuencias de imágenes a archivos PDF de forma eficiente con Aspose.PDF para .NET](./convert-image-stream-to-pdf-aspose-dotnet/)
 Aprenda a convertir secuencias de imágenes en documentos PDF de calidad profesional con Aspose.PDF para .NET. Siga esta guía paso a paso para optimizar sus flujos de trabajo con documentos.
@@ -98,11 +130,22 @@ Aprenda a convertir páginas PDF a imágenes PNG de alta calidad con Aspose.PDF 
 ### [Cómo crear líneas discontinuas en archivos PDF con Aspose.PDF para .NET: guía paso a paso](./create-dashed-lines-aspose-pdf-net/)
 Aprenda a mejorar sus documentos PDF añadiendo líneas discontinuas con Aspose.PDF para .NET. Siga esta guía paso a paso para lograr un aspecto impecable y profesional.
 
+### [Añadir estado gráfico a PDF con Aspose.Pdf – guía paso a paso](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+Aprenda a manipular el estado gráfico de un PDF usando Aspose.Pdf en C#, con ejemplos paso a paso.
+
 ### [Cómo crear archivos PDF etiquetados con imágenes en .NET usando Aspose.PDF](./create-tagged-pdf-image-dotnet/)
 Aprenda a crear archivos PDF accesibles, etiquetados e incrustados con imágenes usando Aspose.PDF para .NET. Mejore la accesibilidad y la presentación de los documentos para todos los usuarios.
 
 ### [Cómo crear rectángulos transparentes en archivos PDF con Aspose.PDF para .NET](./create-transparent-rectangles-aspose-pdf-dotnet/)
 Aprenda a mejorar sus documentos PDF creando rectángulos con transparencia alfa con Aspose.PDF para .NET. Siga esta guía paso a paso.
+
+### [Cómo validar PDF y añadir un rectángulo – Guía completa](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
+Aprenda a validar la integridad de un PDF y a dibujar un rectángulo usando Aspose.PDF para .NET en C#.
+
+### [Cómo agregar un rectángulo a un PDF con C# – Guía completa de Aspose PDF](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+Aprenda a añadir un rectángulo a un PDF usando C# y Aspose.PDF, con ejemplos paso a paso y mejores prácticas.
+### [Agregar ExtGState a PDF con Aspose.Pdf – Guía completa](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+Aprenda a aplicar objetos ExtGState en PDFs usando Aspose.Pdf para .NET, controlando transparencias y efectos avanzados en sus documentos.
 
 ### [Cómo eliminar imágenes de archivos PDF con Aspose.PDF para .NET: guía completa](./delete-images-aspose-pdf-net/)
 Aprenda a eliminar imágenes de archivos PDF de forma eficiente con Aspose.PDF para .NET. Esta guía abarca la configuración, ejemplos de código y prácticas recomendadas.
@@ -111,7 +154,7 @@ Aprenda a eliminar imágenes de archivos PDF de forma eficiente con Aspose.PDF p
 Aprenda a eliminar imágenes de archivos PDF con Aspose.PDF para .NET. Esta guía completa abarca la configuración, la implementación y las aplicaciones prácticas.
 
 ### [Cómo eliminar imágenes de un PDF con Aspose.PDF para .NET: una guía completa](./delete-images-from-pdf-aspose-dotnet/)
-Aprenda a eliminar eficientemente todas las imágenes de un PDF con Aspose.PDF para .NET, mejorando la privacidad de los archivos y reduciendo su tamaño. Siga esta guía paso a paso.
+Aprenda a eliminar eficientemente todas las imágenes de un PDF con Aspose.PDF para .NET, mejorando la privacidad de los archivos y reduciendo su tamaño. Siga una guía paso a paso.
 
 ### [Cómo detectar colores de página PDF con Aspose.PDF para .NET: una guía completa](./detect-pdf-page-color-aspose-dotnet/)
 Aprenda a determinar el tipo de color de cada página de un PDF con Aspose.PDF para .NET. Este tutorial paso a paso abarca la instalación, la configuración y las aplicaciones prácticas.
@@ -163,6 +206,11 @@ Aprenda a convertir scripts LaTeX complejos en documentos PDF utilizando Aspose.
 
 ### [Establecer fondos de imagen en archivos PDF con Aspose.PDF para .NET: una guía completa](./aspose-pdf-net-set-image-backgrounds/)
 Aprenda a mejorar sus documentos PDF configurando fondos de imagen con Aspose.PDF para .NET. Esta guía incluye consejos de configuración, implementación y optimización.
+
+### [Compresión sin pérdida de imágenes en documentos Word – Guía completa](./lossless-image-compression-in-word-docs-complete-guide/)
+Aprenda a comprimir imágenes en documentos Word sin perder calidad usando Aspose.Words para .NET.
+### [Tutorial de superposición de imágenes en PDF – agregar máscara y habilitar selección automática de bandeja](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+Aprenda a superponer imágenes en PDFs, agregar una máscara y habilitar la selección automática de bandeja con Aspose.PDF para .NET.
 
 ## Recursos adicionales
 

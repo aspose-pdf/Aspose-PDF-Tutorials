@@ -24,13 +24,10 @@ title: PDF-dokumentum létrehozása – Oldal hozzáadása a PDF-hez, Fejléc c�
 url: /hu/net/document-creation/create-pdf-document-add-page-to-pdf-tag-heading-and-position/
 ---
 
-but keep bold. The instruction says keep technical terms in English, not necessarily UI text. We can translate "Pro tip:" to Hungarian "Pro tipp:" but it's okay. We'll keep as "Pro tip:"? Might be okay. But better translate to Hungarian: "**Pro tipp:**". Let's do that.
 
-Also headings like "## What You’ll Build" we translated fully.
 
-Make sure we keep code block placeholders as separate lines.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

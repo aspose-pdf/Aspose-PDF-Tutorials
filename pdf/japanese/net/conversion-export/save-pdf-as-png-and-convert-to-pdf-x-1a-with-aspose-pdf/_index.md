@@ -21,27 +21,16 @@ title: Aspose PDFでPDFをPNGとして保存し、PDF/X‑1aに変換
 url: /ja/net/conversion-export/save-pdf-as-png-and-convert-to-pdf-x-1a-with-aspose-pdf/
 ---
 
-spits out an HTML version that respects font encoding. No vague references, just concrete code and the “why” behind every line."
 
-Translate.
 
-Next heading: "## Prerequisites"
 
-List items.
 
-Translate each bullet.
 
-Then "## Step 1: Load the Source PDF Document" etc.
 
-Translate each heading and description.
 
-Make sure to keep code block placeholders unchanged.
 
-Also translate "Why this matters:" etc.
 
-Proceed.
 
-Let's craft final output.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

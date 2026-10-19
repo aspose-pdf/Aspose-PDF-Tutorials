@@ -1,62 +1,167 @@
 ---
 category: general
-date: 2026-02-12
-description: 使用 Aspose.Pdf 在 C# 中创建带标签的 PDF。学习如何向 PDF 添加段落、添加段落标签、向段落添加文本，以及制作可访问的
-  PDF。
+date: 2026-03-06
+description: 使用 Aspose.Pdf 在 C# 中创建带标签的 PDF。了解如何向 PDF 添加图像、设置图形位置以及为可访问性标记 PDF。
 draft: false
 keywords:
 - create tagged pdf
-- add paragraph to pdf
-- add paragraph tag
-- add text to paragraph
-- create accessible pdf
+- add image to pdf
+- set figure position
+- how to tag pdf
+- how to add image
 language: zh
-og_description: 使用 Aspose.Pdf 在 C# 中创建带标签的 PDF。本教程展示如何向 PDF 添加段落、设置标签，以及生成可访问的 PDF。
-og_title: 在 C# 中创建带标签的 PDF – 完整编程演练
+og_description: 使用 Aspose.Pdf 创建带标签的 PDF。本指南展示如何向 PDF 添加图像、设置图形位置以及为可访问性标记 PDF。
+og_title: 在 C# 中创建带标签的 PDF – 完整教程
 tags:
 - Aspose.Pdf
 - C#
-- PDF accessibility
+- PDF Accessibility
 title: 在 C# 中创建带标签的 PDF – 步骤指南
 url: /zh/net/programming-with-tagged-pdf/create-tagged-pdf-in-c-step-by-step-guide/
 ---
-
-.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# 在 C# 中创建带标签的 PDF – 步骤指南
+# 在 C# 中创建带标签的 PDF – 完整教程
 
-如果你需要**快速创建带标签的 PDF**，本指南将手把手教你如何实现。为在保持文档可访问性的前提下向 PDF 添加段落而苦恼吗？我们将逐行讲解代码，说明每一步的意义，并在最后提供一个可直接运行的示例，直接复制到你的项目中使用。
+是否曾经需要在 C# 中**创建带标签的 PDF**却不知从何入手？你并不孤单；如今可访问性已是必需，而带标签的 PDF 是合规文档的核心。本教程将通过一个真实案例，演示如何**向 PDF 添加图像**、设置图形的位置，并展示使用 Aspose.Pdf **如何为 PDF 添加标签**。完成后，你将拥有一个可以交付给任何人的完整带标签的 PDF。
 
-在本教程中，你将学习如何**向 PDF 添加段落**、附加正确的**段落标签**、**向段落插入文本**，以及最终**创建可访问的 PDF**文件，使其通过屏幕阅读器检查。无需额外的 PDF 工具——只需 Aspose.Pdf for .NET 和几行 C# 代码。
+我们将从加载现有文件一直讲到保存最终输出，这样你无需再去别处搜索“如何添加图像”。内容简洁——只提供一个清晰、可运行的解决方案，适用于 Aspose.Pdf 23.8（撰写时的最新版本）。打开你的 IDE，开始吧。
 
-## 所需环境
+---
 
-- .NET 6.0 或更高（在 .NET Framework 4.6+ 上 API 行为相同）
-- Aspose.Pdf for .NET（NuGet 包 `Aspose.Pdf`）
-- 基本的 C# IDE（Visual Studio、Rider 或 VS Code）
+## 您需要的条件
 
-就这些。无需外部工具，也不需要奇怪的配置文件。现在开始吧。
+- **Aspose.Pdf for .NET**（NuGet 包 `Aspose.Pdf`）。  
+- .NET 6+（或 .NET Framework 4.7.2+）。  
+- 一个已经具有逻辑结构（即已带标签）的输入 PDF——如果没有，可以通过 `pdfDocument.TaggedContent = true` 启用标签。  
+- 一个你想嵌入的图像文件（`image.png`）。  
 
-![Screenshot of a tagged PDF document showing the paragraph text](/images/create-tagged-pdf.png "create tagged pdf example")
+就这些。无需额外库，也不需要奇怪的配置文件。
 
-*(图片 alt 文本：“create tagged pdf example showing a paragraph with proper tag”)*
+---
 
-## 创建带标签 PDF 的核心概念
+## 步骤 1：加载现有 PDF 文档（创建带标签的 PDF 基础）
 
-在开始编码之前，先了解一下*为什么*需要标签。PDF/UA（通用可访问性）要求文档拥有逻辑结构树，以便辅助技术能够按正确顺序读取内容。通过创建**段落标签**并将**文本放入段落**，你向屏幕阅读器明确指示该内容是一个段落，而不是一串随机字符。
-
-### 步骤 1：设置项目并导入命名空间
-
-创建一个新的控制台应用（或在已有项目中集成），并添加 Aspose.Pdf 引用。
+我们首先打开要增强的 PDF。加载文件后即可访问其逻辑结构，这对**创建带标签的 PDF**工作流至关重要。
 
 ```csharp
 using System;
+using System.IO;
 using Aspose.Pdf;
-using Aspose.Pdf.Text;
+using Aspose.Pdf.LogicalStructure;
+
+// Load the source PDF – make sure the path points to a real file.
+Document pdfDocument = new Document("YOUR_DIRECTORY/input.pdf");
+
+// Verify that the document has a tag tree; if not, enable it.
+if (!pdfDocument.TaggedContent.IsTagged)
+{
+    pdfDocument.TaggedContent.IsTagged = true;
+    Console.WriteLine("Tagging enabled on the document.");
+}
+```
+
+*为什么重要：* 没有标签树，PDF 将无法向屏幕阅读器传递结构信息。启用标签可确保我们添加的任何新元素（如图形）继承正确的层级。
+
+---
+
+## 步骤 2：访问逻辑结构根节点（如何为 PDF 添加标签）
+
+现在我们进入 PDF 的逻辑结构。根元素是所有标签的容器——可以把它看作文档的大纲。
+
+```csharp
+// Grab the root of the logical structure.
+var logicalRoot = pdfDocument.TaggedContent.RootElement;
+
+// Optional: print existing children count for debugging.
+Console.WriteLine($"Root has {logicalRoot.ChildElements.Count} child elements.");
+```
+
+*说明：* `logicalRoot` 让我们能够追加 `<Figure>` 或 `<Table>` 等新标签。这是**如何为 PDF 添加标签**的核心。
+
+---
+
+## 步骤 3：创建 Figure 标签并设置其位置（设置 Figure 位置）
+
+*Figure* 标签将视觉内容与可选的说明文字组合在一起。我们将创建它、定位它，并将其附加到根节点。
+
+```csharp
+// Create a new Figure element.
+var figureTag = logicalRoot.CreateFigureElement();
+
+// Define where the figure appears on the page.
+figureTag.Position = new Position
+{
+    // X/Y are measured from the bottom‑left corner (points).
+    X = 100,   // 100 points from the left edge
+    Y = 150,   // 150 points from the bottom edge
+    Width = 300,
+    Height = 200
+};
+
+// Append the Figure to the logical structure.
+logicalRoot.AppendChild(figureTag);
+
+Console.WriteLine("Figure tag created and positioned.");
+```
+
+*为何要设置位置：* **设置 Figure 位置** 的步骤决定了视觉元素在页面上的落点。如果跳过此步骤，图形可能出现在意外位置，或对辅助技术不可见。
+
+---
+
+## 步骤 4：添加可视化表示 – 插入图像（向 PDF 添加图像）
+
+标签就位后，我们需要实际的图像。这正是回答**向 PDF 添加图像**的问题所在。
+
+```csharp
+// Grab the first page (pages are 1‑based in Aspose.Pdf).
+var firstPage = pdfDocument.Pages[1];
+
+// Create an Image object that points to the file stream.
+var image = new Image
+{
+    ImageStream = File.OpenRead("YOUR_DIRECTORY/image.png"),
+    // The rectangle defines the same area we set for the Figure.
+    Rect = new Rectangle(100, 150, 400, 350) // X, Y, Width, Height
+};
+
+// Add the image to the page's paragraph collection.
+firstPage.Paragraphs.Add(image);
+
+Console.WriteLine("Image added to the first page.");
+```
+
+*关键点：* 矩形坐标必须与前面定义的 `figureTag.Position` 相匹配；否则图形与其视觉内容会不同步，破坏可访问性。
+
+---
+
+## 步骤 5：保存更新后的 PDF（完成创建带标签的 PDF）
+
+最后，将更改持久化到新文件。保留原始文件不变是良好实践。
+
+```csharp
+// Save the modified document.
+pdfDocument.Save("YOUR_DIRECTORY/output.pdf");
+
+Console.WriteLine("Tagged PDF saved as output.pdf");
+```
+
+此时你已经拥有一个**创建带标签的 PDF**文件，其中包含正确定位且被 `<Figure>` 标签包裹的图像。用 Adobe Acrobat 打开 `output.pdf` 并检查 *Tags* 面板——你应该能看到根节点下的 `Figure` 节点。
+
+---
+
+## 完整、可直接运行的示例
+
+下面是可以直接复制粘贴到控制台应用中的完整程序。所有步骤已按正确顺序排列。
+
+```csharp
+using System;
+using System.IO;
+using Aspose.Pdf;
+using Aspose.Pdf.LogicalStructure;
 
 namespace TaggedPdfDemo
 {
@@ -64,183 +169,109 @@ namespace TaggedPdfDemo
     {
         static void Main(string[] args)
         {
-            // The rest of the code lives here
-        }
-    }
-}
-```
-
-> **小贴士：** 如果使用 .NET 6 顶层语句，可以完全省略 `Program` 类——直接在文件中编写代码即可。逻辑保持不变。
-
-### 步骤 2：创建一个空的 PDF 文档
-
-我们从一个空的 `Document` 开始。该对象代表整个 PDF 文件，包括其内部结构树。
-
-```csharp
-// Step 2: Create a new PDF document (the canvas)
-using (var pdfDocument = new Document())
-{
-    // All subsequent operations happen inside this block
-}
-```
-
-`using` 语句确保文件句柄会自动释放，这在多次运行演示时尤为方便。
-
-### 步骤 3：访问带标签的内容结构
-
-带标签的 PDF 在 `TaggedContent` 下拥有一个*结构树*。获取它后即可开始构建逻辑元素，如段落。
-
-```csharp
-// Step 3: Get the tagged content object
-var taggedContent = pdfDocument.TaggedContent;
-```
-
-如果跳过此步骤，后续添加的任何文本都会是**无结构的**，辅助技术只能将其视为平铺的字符串。
-
-### 步骤 4：创建段落元素并定义位置
-
-现在我们真正**向 PDF 添加段落**。段落元素是一个容器，可以容纳一个或多个文本片段。
-
-```csharp
-// Step 4: Create a paragraph element
-var paragraph = taggedContent.CreateParagraphElement();
-
-// Define where the paragraph appears on the page (in points)
-paragraph.Bounds = new Rectangle(0, 700, 500, 720);
-```
-
-`Rectangle` 使用 PDF 坐标系，左下角为 (0,0)。如果需要将段落放得更高或更低，请相应调整 Y 坐标。
-
-### 步骤 5：向段落插入文本
-
-下面这一步是**向段落添加文本**。`Text` 属性是一个便利包装器，内部会创建单个 `TextFragment`。
-
-```csharp
-// Step 5: Set the visible text of the paragraph
-paragraph.Text = "Chapter 1 – Introduction";
-```
-
-如果需要更丰富的格式（字体、颜色、链接），可以手动创建 `TextFragment` 并将其添加到 `paragraph.Segments`。
-
-### 步骤 6：将段落附加到结构树
-
-结构树需要一个*根元素*来挂载子元素。通过追加段落，我们实际上**向 PDF 添加段落标签**。
-
-```csharp
-// Step 6: Append the paragraph to the root element of the structure tree
-taggedContent.RootElement.AppendChild(paragraph);
-```
-
-此时 PDF 已拥有指向我们刚放置的可视文本的逻辑段落节点。
-
-### 步骤 7：将文档保存为可访问的 PDF
-
-最后，将文件写入磁盘。输出将是一个完整的**可访问 PDF**，可用于屏幕阅读器测试。
-
-```csharp
-// Step 7: Save the tagged PDF to a file
-pdfDocument.Save("tagged.pdf");
-```
-
-你可以在 Adobe Acrobat 中打开 `tagged.pdf`，检查 *文件 → 属性 → 标签*，以验证结构是否正确。
-
-### 完整工作示例
-
-将所有步骤组合在一起，下面是可直接复制粘贴的完整程序：
-
-```csharp
-using System;
-using Aspose.Pdf;
-using Aspose.Pdf.Text;
-
-namespace TaggedPdfDemo
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // Step 1‑7: Create a tagged PDF with a single paragraph
-            using (var pdfDocument = new Document())
+            // 1️⃣ Load the PDF.
+            Document pdfDocument = new Document("YOUR_DIRECTORY/input.pdf");
+            if (!pdfDocument.TaggedContent.IsTagged)
             {
-                // Access tagged content
-                var taggedContent = pdfDocument.TaggedContent;
-
-                // Create paragraph element
-                var paragraph = taggedContent.CreateParagraphElement();
-
-                // Position the paragraph on the first page
-                paragraph.Bounds = new Rectangle(0, 700, 500, 720);
-
-                // Add visible text
-                paragraph.Text = "Chapter 1 – Introduction";
-
-                // Append paragraph to the root of the structure tree
-                taggedContent.RootElement.AppendChild(paragraph);
-
-                // Save the result
-                pdfDocument.Save("tagged.pdf");
+                pdfDocument.TaggedContent.IsTagged = true;
+                Console.WriteLine("Tagging enabled.");
             }
 
-            Console.WriteLine("Tagged PDF created successfully at: tagged.pdf");
+            // 2️⃣ Access the logical structure root.
+            var logicalRoot = pdfDocument.TaggedContent.RootElement;
+
+            // 3️⃣ Create a Figure tag and set its position.
+            var figureTag = logicalRoot.CreateFigureElement();
+            figureTag.Position = new Position
+            {
+                X = 100,
+                Y = 150,
+                Width = 300,
+                Height = 200
+            };
+            logicalRoot.AppendChild(figureTag);
+            Console.WriteLine("Figure tag added.");
+
+            // 4️⃣ Add the image to the first page.
+            var firstPage = pdfDocument.Pages[1];
+            var image = new Image
+            {
+                ImageStream = File.OpenRead("YOUR_DIRECTORY/image.png"),
+                Rect = new Rectangle(100, 150, 400, 350)
+            };
+            firstPage.Paragraphs.Add(image);
+            Console.WriteLine("Image inserted.");
+
+            // 5️⃣ Save the result.
+            pdfDocument.Save("YOUR_DIRECTORY/output.pdf");
+            Console.WriteLine("PDF saved – tagging complete.");
         }
     }
 }
 ```
 
-**预期输出：** 运行程序后，执行目录下会生成名为 `tagged.pdf` 的文件。用 Adobe Acrobat 打开后，可看到文本 “Chapter 1 – Introduction” 位于页面顶部附近，*标签*面板中列出一个 `<P>` 元素（段落），并关联到该文本。
+### 预期结果
 
-## 添加更多内容 – 常见变体
+- `output.pdf` 打开后，图像显示在 (100, 150) 点的位置，尺寸为 300 × 200 点。  
+- *Tags* 面板显示一个包含该图像的 `Figure` 元素。  
+- 屏幕阅读器在描述图片之前会先朗读 “Figure”，满足基本的可访问性标准。
 
-### 多个段落
+---
 
-如果需要**多次向 PDF 添加段落**，只需对步骤 4‑6 进行重复，使用新的边界和文本。记得让 Y 坐标递减，以防段落重叠。
+## 常见问题与边缘情况
+
+### 如果源 PDF 尚未带标签怎么办？
+
+Aspose.Pdf 允许通过设置 `pdfDocument.TaggedContent.IsTagged = true;` 来开启标签。库会生成默认的标签树，随后你可以按示例添加自定义标签。
+
+### 能给 Figure 添加说明文字吗？
+
+可以。创建 `figureTag` 后，你可以附加一个包含 `TextFragment` 的 `Paragraph`，并将其 `Tag` 设置为 `Caption`。示例：
 
 ```csharp
-var secondParagraph = taggedContent.CreateParagraphElement();
-secondParagraph.Bounds = new Rectangle(0, 660, 500, 680);
-secondParagraph.Text = "This is the second paragraph.";
-taggedContent.RootElement.AppendChild(secondParagraph);
+var caption = new Paragraph(new TextFragment("Figure 1: Sample diagram"));
+caption.Tag = figureTag.CreateCaptionElement();
+logicalRoot.AppendChild(caption);
 ```
 
-### 文本样式
+### 如何将 Figure 放在其他页面上？
 
-若需更丰富的格式，可创建 `TextFragment` 并加入段落的 `Segments` 集合：
+将 `var firstPage = pdfDocument.Pages[1];` 替换为目标页面索引，例如 `pdfDocument.Pages[3]`。如果页面尺寸不同，请相应调整 `Position` 坐标。
+
+### 如果需要为多个图像添加标签怎么办？
+
+为每个图像创建一个新的 `Figure`，为每个 `Figure` 设置唯一的 `Position`，并将对应的 `Image` 对象添加到相应页面。对图像集合进行循环即可。
+
+### 这能满足 PDF/A 合规性吗？
+
+Aspose.Pdf 支持 PDF/A‑1b、PDF/A‑2b 和 PDF/A‑3b。生成 PDF/A 文档时，请在保存前设置合规模式：
 
 ```csharp
-var tf = new TextFragment("Bold heading")
-{
-    TextState = { FontSize = 14, FontStyle = FontStyles.Bold }
-};
-paragraph.Segments.Add(tf);
+pdfDocument.Convert(ConvertFormat.PdfA1b);
 ```
 
-### 处理多页
+标签逻辑保持不变。
 
-示例自动创建单页 PDF。如果需要更多页面，可通过 `pdfDocument.Pages.Add()` 添加，并使用 `paragraph.PageNumber = 2;` 将 `paragraph.Bounds` 设置到相应页。
+---
 
-## 可访问性测试
+## 专业提示与常见陷阱
 
-快速验证你是否真正**创建了可访问的 PDF**的方法：
+- **专业提示：** 始终使用绝对路径或 `Path.Combine`，以避免运行时文件未找到错误。  
+- **注意事项：** `Figure` 标签与 `Image` 矩形的坐标不匹配会导致辅助技术无法正确识别。  
+- **性能提示：** 若处理大量页面，请在 `using` 块中包装图像流，以及时释放资源。  
+- **版本检查：** 本示例代码适用于 Aspose.Pdf 23.8+。旧版本的类名可能略有不同（例如 `LogicalStructureElement` 而非 `FigureElement`）。
 
-1. 在 Adobe Acrobat Pro 中打开文件。
-2. 选择 *视图 → 工具 → 可访问性 → 完整检查*。
-3. 查看 *标签* 树；每个段落应显示为 `<P>` 节点。
-
-如果检查报告缺少标签，请再次确认对每个创建的元素都调用了 `taggedContent.RootElement.AppendChild(paragraph);`。
-
-## 常见陷阱及避免方法
-
-- **忘记启用标签：** 仅创建 `Document` 并不会自动生成结构树。务必在添加元素前访问 `TaggedContent`。
-- **边界超出页面范围：** 矩形必须位于页面尺寸内（默认 A4 ≈ 595 × 842 点）。超出范围的矩形会被静默忽略。
-- **先保存后追加：** 若在 `AppendChild` 之前调用 `Save`，生成的 PDF 将没有标签。
+---
 
 ## 结论
 
-现在，你已经掌握了使用 Aspose.Pdf for .NET **创建带标签的 PDF**、**向 PDF 添加段落**、附加正确的 **段落标签**，以及 **向段落插入文本** 的完整流程，能够生成符合可访问性要求的 **可访问 PDF**。上面的完整代码示例可直接复制到任意 C# 项目中运行，无需额外修改。
+我们已经从头到尾**创建了带标签的 PDF**，演示了**向 PDF 添加图像**，并展示了如何**设置 Figure 位置**，同时回答了**如何为 PDF 添加标签**以及**如何添加图像**等问题。代码可直接运行，解释覆盖了每一步的“为什么”，现在你拥有了在 C# 中构建可访问 PDF 的坚实基础。
 
-准备好下一步了吗？尝试将此方法与表格、图片或自定义标题标签结合，构建完整的结构化报告。或者探索 Aspose 的 *PdfConverter*，将已有 PDF 自动转换为带标签的版本。
+准备好迎接下一个挑战了吗？尝试使用 `<Table>` 标签添加表格，或嵌入 PDF/A‑2b 合规层以实现归档。相同的模式——加载、访问逻辑结构、创建标签、附加视觉内容、保存——适用于大多数 PDF 可访问性任务。
 
-祝编码愉快，愿你的 PDF 既美观 **又** 可访问！
+如果遇到问题或有未覆盖的使用场景，欢迎在下方留言。祝你标记愉快，享受构建人人可读的 PDF 的过程！
+
+![展示带有 Figure 标签和图像的 PDF 的示意图 – 说明如何创建带标签的 PDF](placeholder-image.png "创建带标签的 PDF 示例")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}

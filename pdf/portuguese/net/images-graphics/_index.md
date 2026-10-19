@@ -35,6 +35,14 @@ Aprenda a converter arquivos SVG em PDFs de alta qualidade com facilidade usando
 ### [Crie e preencha retângulos em PDFs usando Aspose.PDF para .NET: um guia passo a passo](./create-fill-rectangle-aspose-pdf-net/)
 Aprenda a criar e preencher retângulos em documentos PDF usando o Aspose.PDF para .NET. Este guia passo a passo abrange tudo, desde a configuração até a implementação em C#.
 
+### [Adicionar retângulo a PDF com Aspose.PDF – Guia completo de programação](./add-rectangle-to-pdf-with-aspose-pdf-complete-programming-gu/)
+Aprenda a inserir retângulos em documentos PDF usando Aspose.PDF para .NET com este guia completo de programação.
+
+### [Como desenhar retângulo em PDF com C# – Guia passo a passo](./how-to-draw-rectangle-in-pdf-with-c-step-by-step-guide/)
+Aprenda a desenhar retângulos em documentos PDF usando Aspose.PDF para .NET com C#. Siga este guia passo a passo.
+### [Adicionar retângulo a PDF com C# – guia passo a passo](./add-rectangle-to-pdf-with-c-step-by-step-guide/)
+Aprenda a adicionar um retângulo a um documento PDF usando C# e Aspose.PDF para .NET. Guia completo com exemplos de código.
+
 ### [Crie carimbos PDF personalizados com Aspose.PDF no .NET](./create-custom-pdf-stamps-aspose-pdf-net/)
 Um tutorial de código para Aspose.PDF Net
 
@@ -43,6 +51,18 @@ Aprenda a criar documentos PDF visualmente atraentes extraindo e destacando par�
 
 ### [Desenhe formas transparentes em PDFs com Aspose.PDF .NET](./draw-transparent-shapes-aspose-pdf-net/)
 Um tutorial de código para Aspose.PDF Net
+
+### [Adicionar transparência a PDFs usando Aspose PDF em C# – um guia passo a passo](./add-transparency-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Aprenda a aplicar transparência a elementos de PDF com Aspose PDF em C#, seguindo este tutorial passo a passo com exemplos de código.
+
+### [Como adicionar transparência a PDF usando Aspose.PDF em C#](./how-to-add-transparency-to-pdf-using-aspose-pdf-in-c/)
+Aprenda a aplicar transparência a elementos de PDF usando Aspose.PDF em C# com exemplos de código passo a passo.
+
+### [Como adicionar forma a PDF usando Aspose.PDF em C# – Guia passo a passo](./how-to-add-shape-to-pdf-with-aspose-pdf-in-c-step-by-step-gu/)
+Aprenda a inserir formas geométricas em documentos PDF com Aspose.PDF para .NET usando C# passo a passo.
+
+### [Adicionar ExtGState a PDF com Aspose.Pdf – Guia completo](./add-extgstate-to-pdf-with-aspose-pdf-complete-guide/)
+Aprenda a aplicar objetos ExtGState para controlar transparência e outras propriedades gráficas em PDFs usando Aspose.Pdf para .NET.
 
 ### [Identificação eficiente de imagens em PDF com Aspose.PDF para .NET](./master-image-identification-aspose-pdf-net/)
 Aprenda a identificar imagens em tons de cinza e RGB em PDFs usando o Aspose.PDF para .NET. Este tutorial aborda instalação, extração de imagens e dicas de desempenho.
@@ -84,13 +104,16 @@ Aprenda a adicionar imagens aos seus PDFs com facilidade usando o Aspose.PDF par
 Aprenda como adicionar cabeçalhos de imagem aos seus documentos PDF usando o Aspose.PDF para .NET com este guia passo a passo abrangente.
 
 ### [Como adicionar um carimbo de imagem aos cabeçalhos de PDF usando Aspose.PDF para .NET](./add-image-stamp-pdf-header-aspose-pdf/)
-Aprenda a adicionar carimbos de imagem aos seus cabeçalhos de PDF com o Aspose.PDF para .NET, aprimorando a marca e o profissionalismo.
+Aprenda a adicionar carimbos de imagem aos cabeçalhos de PDF com o Aspose.PDF para .NET, aprimorando a marca e o profissionalismo.
 
 ### [Como adicionar um carimbo de imagem a páginas PDF usando Aspose.PDF para .NET](./add-image-stamp-pdf-pages-aspose-dotnet/)
 Aprenda a adicionar carimbos de imagem a páginas específicas dos seus PDFs usando o Aspose.PDF para .NET. Aprimore a identidade visual, a aplicação de marcas d'água ou personalize documentos com eficiência.
 
 ### [Como adicionar um carimbo de imagem a um PDF usando Aspose.PDF para .NET: um guia completo](./add-image-stamp-pdf-aspose-dotnet/)
 Aprenda a adicionar carimbos de imagem, como logotipos ou marcas d'água, aos seus PDFs usando o Aspose.PDF para .NET. Este guia aborda configuração, implementação e aplicações práticas.
+
+### [Como adicionar estado gráfico ao PDF e controlar transparência com Aspose.PDF](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
+Aprenda a usar o estado gráfico para aplicar transparência avançada em PDFs com Aspose.PDF para .NET.
 
 ### [Como converter páginas PDF em imagens PNG usando Aspose.PDF para .NET](./convert-pdf-page-to-png-aspose-dotnet/)
 Aprenda a converter páginas PDF em imagens PNG de alta qualidade usando o Aspose.PDF para .NET. Siga este guia passo a passo com exemplos de código e práticas recomendadas.
@@ -103,6 +126,12 @@ Aprenda a criar PDFs acessíveis com tags e imagens incorporadas usando o Aspose
 
 ### [Como criar retângulos transparentes em PDFs usando Aspose.PDF para .NET](./create-transparent-rectangles-aspose-pdf-dotnet/)
 Aprenda a aprimorar seus documentos PDF criando retângulos com transparência alfa usando o Aspose.PDF para .NET. Siga este guia passo a passo.
+
+### [Como validar PDF e adicionar retângulo – Guia completo](./how-to-validate-pdf-and-add-rectangle-complete-guide/)
+Aprenda a validar arquivos PDF e inserir retângulos usando Aspose.PDF para .NET com este guia completo.
+
+### [Adicionar retângulo a PDF com C# – Guia completo do Aspose PDF](./add-rectangle-to-pdf-with-c-full-aspose-pdf-guide/)
+Aprenda a adicionar retângulos a documentos PDF usando C# e Aspose.PDF com este guia completo passo a passo.
 
 ### [Como excluir imagens de arquivos PDF usando Aspose.PDF para .NET - Guia completo](./delete-images-aspose-pdf-net/)
 Aprenda a excluir imagens de arquivos PDF com eficiência usando o Aspose.PDF para .NET. Este guia aborda configuração, exemplos de código e práticas recomendadas.
@@ -131,8 +160,14 @@ Aprenda como extrair imagens de arquivos PDF com eficiência usando o Aspose.PDF
 ### [Como extrair imagens de PDFs usando Aspose.PDF para .NET: um guia passo a passo](./extract-images-aspose-pdf-net-guide/)
 Aprenda a extrair imagens de documentos PDF usando o Aspose.PDF para .NET com este guia completo. Perfeito para desenvolvedores que buscam aprimorar os recursos de processamento de documentos.
 
+### [Como extrair imagens de PDFs usando Aspose.PDF para .NET: um guia passo a passo](./extract-images-aspose-pdf-net/)
+Um tutorial de código para Aspose.PDF Net
+
 ### [Como extrair imagens de páginas específicas de um PDF usando Aspose.PDF para .NET](./extract-images-pdfs-specific-pages-aspose-dotnet/)
 Aprenda a extrair imagens de páginas específicas de um PDF com eficiência usando o Aspose.PDF para .NET. Este guia aborda dicas de configuração, implementação e desempenho.
+
+### [Como usar o GraphicsAbsorber – Extrair gráficos vetoriais de PDF com Aspose.Pdf](./how-to-use-graphicsabsorber-extract-vector-graphics-from-pdf/)
+Aprenda a extrair gráficos vetoriais de PDFs usando o GraphicsAbsorber do Aspose.Pdf em C#.
 
 ### [Como extrair informações de páginas de PDF e renderizar imagens com Aspose.PDF para .NET (Guia 2023)](./extract-pdf-info-render-images-aspose-dotnet/)
 Aprenda a extrair dimensões de páginas e renderizar imagens de PDFs usando o Aspose.PDF para .NET. Este guia aborda configuração, implementação e aplicações práticas.
@@ -141,7 +176,10 @@ Aprenda a extrair dimensões de páginas e renderizar imagens de PDFs usando o A
 Aprenda a redimensionar, compactar e ajustar a qualidade de imagens em PDFs com eficiência usando o Aspose.PDF para .NET. Melhore o desempenho dos documentos e a experiência do usuário.
 
 ### [Como remover gráficos de PDFs usando Aspose.PDF .NET: um guia completo](./remove-graphics-aspose-pdf-net/)
-Aprenda a remover gráficos de PDFs com eficiência usando o Aspose.PDF para .NET. Siga este guia passo a passo para organizar seus documentos e otimizar o tamanho dos arquivos.
+Aprenda a remover gráficos de PDFs com eficiência usando o Aspose.PDF .NET. Siga este guia passo a passo para organizar seus documentos e otimizar o tamanho dos arquivos.
+
+### [Compressão de Imagem sem Perdas em Documentos Word – Guia Completo](./lossless-image-compression-in-word-docs-complete-guide/)
+Aprenda a comprimir imagens em documentos Word sem perda de qualidade usando Aspose.Words para .NET.
 
 ### [Como substituir imagens em PDFs usando Aspose.PDF .NET: um guia para desenvolvedores](./replace-images-pdf-aspose-net-guide/)
 Aprenda a substituir imagens em documentos PDF com eficiência usando o Aspose.PDF para .NET. Simplifique as atualizações de seus documentos com este guia completo para desenvolvedores.
@@ -155,6 +193,9 @@ Aprenda a ajustar o tamanho das imagens em PDFs com o Aspose.PDF para .NET, perf
 ### [Dominando o posicionamento de imagens em PDFs usando Aspose.PDF para .NET](./optimize-image-placement-aspose-pdf-net/)
 Aprenda a otimizar o posicionamento de imagens em documentos PDF com o Aspose.PDF para .NET. Melhore a qualidade e a eficiência dos seus documentos com guias práticos.
 
+### [Tutorial de sobreposição de imagem em PDF – adicionar máscara e habilitar seleção automática de bandeja](./image-overlay-pdf-tutorial-add-mask-enable-automatic-tray-se/)
+Aprenda a sobrepor imagens em PDFs, adicionar máscaras e habilitar a seleção automática de bandeja usando Aspose.PDF para .NET.
+
 ### [Otimize imagens PDF com Aspose.PDF para .NET: um guia completo](./optimize-pdf-images-aspose-pdf-dotnet/)
 Aprenda a compactar e otimizar imagens em documentos PDF usando o Aspose.PDF para .NET, reduzindo o tamanho do arquivo e mantendo a qualidade. Ideal para desenvolvedores e gerentes de documentos.
 
@@ -163,6 +204,9 @@ Aprenda a renderizar scripts LaTeX complexos em documentos PDF usando o Aspose.P
 
 ### [Definir fundos de imagem em PDFs usando Aspose.PDF para .NET: um guia completo](./aspose-pdf-net-set-image-backgrounds/)
 Aprenda a aprimorar seus documentos PDF definindo fundos de imagem usando o Aspose.PDF para .NET. Este guia aborda dicas de configuração, implementação e otimização.
+
+### [Adicionar estado gráfico ao PDF usando Aspose.PDF – guia passo a passo](./add-graphics-state-pdf-with-aspose-pdf-step-by-step-guide/)
+Aprenda a manipular o estado gráfico em PDFs, controlando transparência, composições e efeitos avançados com Aspose.PDF para .NET.
 
 ## Recursos adicionais
 

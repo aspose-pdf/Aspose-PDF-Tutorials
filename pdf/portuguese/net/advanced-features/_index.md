@@ -67,6 +67,18 @@ Aprenda a comparar documentos PDF em C# usando Aspose.PDF, gerando diferenças d
 ### [Editar transparência de PDF em C# – Guia passo a passo](./edit-pdf-transparency-in-c-step-by-step-guide/)
 Aprenda a modificar a transparência de objetos em PDFs usando Aspose.PDF para .NET com exemplos práticos em C#.
 
+### [Como executar OCR em PDF com Aspose.Pdf – Guia completo em C#](./how-to-run-ocr-on-pdf-with-aspose-pdf-complete-c-guide/)
+Aprenda a executar OCR em PDFs usando Aspose.Pdf com C#, passo a passo, para extrair texto de documentos digitalizados.
+
+### [Salvar Cada Camada de PDF com Aspose.Pdf – Guia Passo a Passo](./save-each-pdf-layer-with-aspose-pdf-step-by-step-guide/)
+Aprenda a salvar individualmente cada camada de um documento PDF usando Aspose.Pdf em .NET, com exemplos de código passo a passo.
+
+### [Comparar documentos PDF com Aspose.Pdf – Guia completo de diff visual](./compare-pdf-documents-with-aspose-pdf-complete-visual-diff-g/)
+Aprenda a comparar visualmente documentos PDF usando Aspose.Pdf com este guia completo.
+
+### [Comparar dois documentos PDF – Guia completo em C#](./compare-two-pdf-documents-complete-c-guide/)
+Aprenda a comparar dois documentos PDF em C# usando Aspose.PDF, gerando diferenças detalhadas de forma automatizada.
+
 ## Recursos adicionais
 
 - [Aspose.PDF para documentação da Net](https://docs.aspose.com/pdf/net/)

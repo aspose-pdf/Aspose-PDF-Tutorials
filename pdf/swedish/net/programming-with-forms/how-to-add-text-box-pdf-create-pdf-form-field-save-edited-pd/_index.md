@@ -23,17 +23,12 @@ title: Hur man lägger till textruta i PDF – Skapa PDF-formulärfält och spar
 url: /sv/net/programming-with-forms/how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/
 ---
 
-kommentar nedan—vi felsöker tillsammans.*"
 
-Then closing shortcodes.
 
-Now ensure we kept all shortcodes at start and end.
 
-Also there is a backtop button shortcode after closing tags.
 
-We must keep them unchanged.
 
-Now produce final content.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

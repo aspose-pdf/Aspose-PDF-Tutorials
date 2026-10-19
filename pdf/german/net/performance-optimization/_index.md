@@ -49,6 +49,12 @@ Meistern Sie die Kunst, SVG-Dateien präzise und effizient in PDFs zu konvertier
 ### [Einbetten von Schriftarten in PDFs mit Aspose.PDF für .NET: Reduzieren Sie die Dateigröße und verbessern Sie die Leistung](./optimize-pdfs-unembed-fonts-aspose-pdf-net/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET Schriftarten aus Ihren PDF-Dateien entfernen. Optimieren Sie die PDF-Leistung, reduzieren Sie die Dateigröße und verbessern Sie die Ladezeiten mit dieser Schritt-für-Schritt-Anleitung.
 
+### [Wie man PDF mit Aspose.PDF in C# komprimiert – vollständige Schritt‑für‑Schritt‑Anleitung](./how-to-compress-pdf-with-aspose-pdf-in-c-complete-step-by-st/)
+Erfahren Sie, wie Sie PDFs mit Aspose.PDF in C# komprimieren, um Dateigröße zu reduzieren und die Leistung zu steigern.
+
+### [Aspose PDF Bildkomprimierung in C# – PDF-Größe schnell reduzieren](./aspose-pdf-image-compression-in-c-reduce-pdf-size-quickly/)
+Erfahren Sie, wie Sie mit Aspose.PDF in C# Bilder komprimieren und die PDF-Dateigröße rasch verringern.
+
 ### [Optimiertes PDF erstellen – PDF-Bilder mit verlustfreiem JPEG komprimieren](./create-optimized-pdf-compress-pdf-images-with-lossless-jpeg/)
 Erfahren Sie, wie Sie PDF-Bilder mit verlustfreiem JPEG komprimieren, um die Dateigröße zu reduzieren und die Qualität beizubehalten.
 
@@ -62,6 +68,14 @@ Erfahren Sie, wie Sie PDFs mit Aspose komprimieren und die Dateigröße reduzier
 
 ### [Optimiertes PDF in C# speichern – Größe reduzieren und Seiten bereinigen](./save-optimized-pdf-in-c-reduce-size-clean-pages/)
 Erfahren Sie, wie Sie mit Aspose.PDF für .NET optimierte PDFs speichern, die Dateigröße verringern und nicht benötigte Seiten entfernen.
+### [PDF mit Aspose.PDF komprimieren – Schnellleitfaden](./how-to-compress-pdf-with-aspose-pdf-quick-guide/)
+Erfahren Sie, wie Sie PDFs schnell mit Aspose.PDF komprimieren, um Dateigröße zu reduzieren und die Leistung zu verbessern.
+### [Wie man PDF in C# optimiert – Dateigröße schnell reduzieren](./how-to-optimize-pdf-in-c-reduce-file-size-quickly/)
+Erfahren Sie, wie Sie PDFs in C# schnell verkleinern und die Leistung steigern.
+### [Wie man PDFs optimiert – Vollständiger Leitfaden mit Aspose.Pdf](./how-to-optimize-pdf-complete-guide-with-aspose-pdf/)
+Erfahren Sie, wie Sie PDFs umfassend optimieren, von der Komprimierung bis zur Inhaltsverwaltung, mit Aspose.Pdf in .NET.
+### [Wie man PDFs in .NET optimiert – PDF in .NET Schritt für Schritt komprimieren](./how-to-optimize-pdf-in-net-compress-pdf-in-net-step-by-step/)
+Erfahren Sie, wie Sie PDFs in .NET effizient komprimieren und die Dateigröße reduzieren, um die Leistung zu verbessern.
 
 ## Weitere Ressourcen
 

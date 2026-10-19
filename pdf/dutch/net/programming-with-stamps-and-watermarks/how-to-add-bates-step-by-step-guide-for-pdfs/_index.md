@@ -24,21 +24,14 @@ title: Hoe Bates toe te voegen – Stapsgewijze gids voor PDF's
 url: /nl/net/programming-with-stamps-and-watermarks/how-to-add-bates-step-by-step-guide-for-pdfs/
 ---
 
-"Next steps? Try swapping the text stamp for an image stamp, experiment with different artifact types, or integrate this logic into a batch‑processing service that automatically Bates‑numbers every document in a folder. The possibilities are endless, and now you have a solid foundation to build on."
 
-Translate.
 
-"Happy coding, and may your PDFs always be perfectly numbered!" -> "Veel plezier met coderen, en moge je PDF’s altijd perfect genummerd zijn!"
 
-Then closing shortcodes.
 
-Now produce final content.
 
-Check for any URLs: none.
 
-Make sure to keep code block placeholders unchanged.
 
-Now output.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

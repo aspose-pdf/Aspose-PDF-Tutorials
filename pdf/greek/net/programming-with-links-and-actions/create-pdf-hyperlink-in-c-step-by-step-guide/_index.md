@@ -24,13 +24,9 @@ title: Δημιουργία υπερσυνδέσμου PDF σε C# – Οδηγ�
 url: /el/net/programming-with-links-and-actions/create-pdf-hyperlink-in-c-step-by-step-guide/
 ---
 
-create clickable PDF link**, etc.
 
-Also keep code block placeholders.
 
-Translate table headings.
 
-Let's craft.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

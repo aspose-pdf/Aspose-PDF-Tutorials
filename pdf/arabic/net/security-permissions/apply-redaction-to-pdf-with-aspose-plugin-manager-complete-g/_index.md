@@ -23,9 +23,7 @@ title: تطبيق التعتيم على ملفات PDF باستخدام مدير
 url: /ar/net/security-permissions/apply-redaction-to-pdf-with-aspose-plugin-manager-complete-g/
 ---
 
-shortcodes at top and bottom.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

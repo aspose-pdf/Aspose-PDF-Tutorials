@@ -53,6 +53,12 @@ Ezek az oktatóanyagok részletes kódpéldákat, világos magyarázatokat és i
 | [Szövegdoboz](./text-box/) | Fedezze fel, hogyan adhat könnyedén szövegdobozokat PDF-fájlokhoz az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Fokozza a felhasználói interakciót. |  
 | [PDF létrehozása Aspose-szal – Űrlapmező és oldalak hozzáadása](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Ismerje meg, hogyan hozhat létre PDF-et Aspose használatával, és adhat hozzá űrlapmezőket és oldalakat lépésről lépésre. |
 | [PDF létrehozása oldalakkal és szövegdoboz mezőkkel – Teljes C# útmutató](./create-pdf-with-pages-and-text-box-fields-full-c-guide/) | Lépésről lépésre bemutatja, hogyan hozhat létre PDF-et több oldallal és szövegdoboz mezőkkel C#-ban az Aspose.PDF for .NET segítségével. |
+| [PDF dokumentum létrehozása Aspose-szal – Szövegdoboz mező hozzáadása](./create-pdf-document-with-aspose-add-text-box-field/) | Ismerje meg, hogyan adhat hozzá szövegdoboz mezőt PDF dokumentumhoz az Aspose.PDF for .NET használatával lépésről lépésre. |
+| [PDF dokumentum létrehozása C# – Lépésről lépésre útmutató többoldalas űrlapokhoz](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Tanulja meg, hogyan hozhat létre többoldalas űrlapokat tartalmazó PDF dokumentumot C#-ban az Aspose.PDF for .NET segítségével. |
+| [Többoldalas űrlap létrehozása C#-ban az Aspose.Pdf‑vel – Lépésről‑lépésre útmutató](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | Ismerje meg, hogyan hozhat létre többoldalas PDF űrlapot C#-ban az Aspose.Pdf segítségével lépésről‑lépésre. |
+| [Szövegdoboz hozzáadása PDF űrlaphoz – Teljes C# útmutató](./add-text-box-to-pdf-form-complete-c-guide/) | Lépésről lépésre bemutatjuk, hogyan adhat szövegdobozt PDF űrlaphoz C#-ban az Aspose.PDF for .NET használatával. |
+| [PDF szövegdoboz mező létrehozása – Lépés‑ről‑lépésre útmutató](./create-pdf-textbox-field-step-by-step-guide/) | Tanulja meg, hogyan hozhat létre szövegdoboz mezőt PDF-ben az Aspose.PDF for .NET segítségével ebben a lépésről‑lépésre útmutatóban. |
+| [FDF importálása PDF-be C#‑val – Teljes lépésről‑lépésre útmutató](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Tanulja meg, hogyan importálhat FDF fájlokat PDF dokumentumokba C#‑ban az Aspose.PDF for .NET segítségével, lépésről‑lépésre. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -61,6 +67,12 @@ Ezek az oktatóanyagok részletes kódpéldákat, világos magyarázatokat és i
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [PDF létrehozása az Aspose-szal – Mező hozzáadása a gyűjteményhez](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Tanulja meg, hogyan adhat hozzá mezőt egy gyűjteményhez PDF létrehozásakor az Aspose.PDF for .NET használatával. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
@@ -70,6 +82,12 @@ Ezek az oktatóanyagok részletes kódpéldákat, világos magyarázatokat és i
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Bates-számok hozzáadása PDF-ekhez – Lépésről lépésre C# útmutató](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Tanulja meg, hogyan adhat hozzá Bates-számokat PDF dokumentumokhoz C#-ban az Aspose.PDF for .NET használatával. |
 | [PDF dokumentum létrehozása több szövegdoboz widgettel – Lépésről lépésre útmutató](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Lépésről lépésre bemutatja, hogyan hozhat létre PDF dokumentumot több szövegdoboz widgettel az Aspose.PDF for .NET segítségével. |
 | [Hogyan adjunk hozzá szövegdobozt PDF-hez – PDF űrlapmező létrehozása és szerkesztett PDF dokumentum mentése](./how-to-add-text-box-pdf-create-pdf-form-field-save-edited-pd/) | Tanulja meg, hogyan adhat szövegdobozt PDF űrlaphoz, és mentheti a módosított dokumentumot az Aspose.PDF for .NET használatával. |  

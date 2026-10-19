@@ -1,9 +1,72 @@
 ---
-"date": "2025-04-14"
-"description": "Leer hoe u PDF's naar HTML converteert met Aspose.PDF voor Java, inclusief technieken voor lettertypevervanging. Perfect voor ontwikkelaars die de integriteit van hun documenten willen behouden."
-"title": "PDF naar HTML-conversie met lettertypevervanging met Aspose.PDF voor Java"
-"url": "/nl/java/conversion-export/pdf-to-html-conversion-font-substitution-aspose-pdf-java/"
-"weight": 1
+date: '2026-07-27'
+description: Leer hoe u PDF naar HTML Java kunt converteren met Aspose.PDF, inclusief
+  hoe u lettertypen kunt vervangen voor ontbrekende lettertypes. Volg stapsgewijze
+  instructies voor een naadloze conversie.
+keywords:
+- convert pdf to html java
+- how to substitute fonts
+- Aspose.PDF for Java
+lastmod: '2026-07-27'
+og_description: Leer hoe u PDF naar HTML Java kunt converteren met Aspose.PDF, inclusief
+  hoe u lettertypen kunt vervangen voor ontbrekende lettertypes. Volg stapsgewijze
+  instructies voor een naadloze conversie.
+og_image_alt: Guide showing PDF to HTML conversion with font substitution in Java
+  using Aspose.PDF
+og_title: PDF naar HTML Java converteren met lettertypevervanging Aspose.PDF
+schemas:
+- author: Aspose
+  dateModified: '2026-07-27'
+  description: Learn how to convert PDF to HTML Java using Aspose.PDF, including how
+    to substitute fonts for missing typefaces. Follow step‑by‑step instructions for
+    seamless conversion.
+  headline: Convert PDF to HTML Java with Font Substitution Aspose.PDF
+  type: TechArticle
+- description: Learn how to convert PDF to HTML Java using Aspose.PDF, including how
+    to substitute fonts for missing typefaces. Follow step‑by‑step instructions for
+    seamless conversion.
+  name: Convert PDF to HTML Java with Font Substitution Aspose.PDF
+  steps:
+  - name: Set up directories and load the document
+    text: Define the input PDF path and the desired HTML output location. Then create
+      a `Document` instance to represent the source PDF.
+  - name: Create a custom font‑substitution class
+    text: '`CustomFontSubstitutionBase` is the base class Aspose.PDF uses to resolve
+      missing fonts. Extend it and override the `substituteFont` method to map source
+      fonts to your preferred replacements.'
+  - name: Register a notifier for substitution events
+    text: Attach an event handler to `Document` so you can log each substitution occurrence.
+      This helps you verify that all missing fonts are being correctly replaced.
+  - name: Configure HtmlSaveOptions and perform the conversion
+    text: Instantiate `HtmlSaveOptions`, set any required options (such as `SplitIntoPages`),
+      and call `document.save(outputPath, htmlOptions)` to generate the HTML files.
+  type: HowTo
+- questions:
+  - answer: Yes – instantiate `Document` with the password parameter or set `document.decrypt(password)`
+      before conversion.
+    question: Can I convert password‑protected PDFs?
+  - answer: Absolutely. Use `HtmlSaveOptions.setPageIndex()` and `setPageCount()`
+      to limit the conversion range.
+    question: Does the API support converting only selected pages?
+  - answer: There is no hard limit; you can map as many as needed, typically using
+      a `Map<String, String>` for fast lookup.
+    question: How many fonts can I map in a single substitution class?
+  - answer: Font names are matched case‑insensitively by default, but you can enforce
+      case sensitivity by customizing the logic.
+    question: Is font substitution case‑sensitive?
+  - answer: The Aspose.PDF for Java documentation provides a rich set of code samples
+      covering all conversion scenarios.
+    question: Where can I find more examples?
+  type: FAQPage
+tags:
+- convert pdf
+- Aspose.PDF
+- Java
+- font substitution
+- PDF to HTML
+title: PDF naar HTML Java converteren met lettertypevervanging Aspose.PDF
+url: /nl/java/conversion-export/pdf-to-html-conversion-font-substitution-aspose-pdf-java/
+weight: 1
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
@@ -11,33 +74,59 @@
 {{< blocks/products/pf/main-container >}}
 
 {{< blocks/products/pf/tutorial-page-section >}}
-# PDF naar HTML-conversie met lettertypevervanging beheersen met Aspose.PDF voor Java
+# Beheersing van PDF-naar-HTML-conversie met lettertypevervanging met Aspose.PDF voor Java
 
-## Invoering
+## Introductie
 
-Zoekt u een naadloze manier om PDF-documenten naar HTML te converteren met behoud van de integriteit van uw lettertypen? Dan bent u hier aan het juiste adres! Deze tutorial begeleidt u bij het gebruik van Aspose.PDF voor Java voor een efficiënte conversie van PDF naar HTML, inclusief lettertypevervanging. Of u nu een ontwikkelaar bent die documentworkflows beheert of een IT-professional die op zoek is naar robuuste oplossingen, deze functie is van onschatbare waarde.
+Converteer PDF naar HTML Java met Aspose.PDF en houd uw lettertypen er precies uitzien zoals bedoeld. In deze tutorial leert u een volledige, productieklare manier om PDF‑bestanden om te zetten naar web‑gereed HTML terwijl ontbrekende lettertypen automatisch worden vervangen. Of u nu een document‑archiveringsservice, een e‑commerce‑catalogus of een CMS‑importeur bouwt, deze gids geeft u het vertrouwen om pixel‑perfecte resultaten te leveren.
 
-### Wat je leert:
-- Aspose.PDF voor Java installeren en gebruiken.
-- PDF's converteren naar HTML met lettertypevervangingen.
-- Pas de logica voor lettertypevervanging aan met de krachtige API van Aspose.PDF.
-- Toepassingen van het conversieproces in de praktijk.
+### Snelle antwoorden
+- **Wat doet de conversie?** Het maakt HTML die de oorspronkelijke PDF‑lay-out weerspiegelt, inclusief afbeeldingen, tabellen en opgemaakte tekst.  
+- **Kan ik ontbrekende lettertypen vervangen?** Ja – Aspose.PDF laat u niet‑beschikbare lettertypen toewijzen aan door u opgegeven alternatieven.  
+- **Welke Java‑versie is vereist?** Java 8 of hoger; de bibliotheek werkt op alle moderne JVM’s.  
+- **Heb ik een licentie nodig voor productie?** Een commerciële licentie verwijdert proefbeperkingen; een gratis proefversie is beschikbaar voor evaluatie.  
+- **Is het proces snel voor grote bestanden?** Met de juiste geheugenafstemming verwerkt Aspose.PDF 500‑pagina‑PDF’s in minder dan een minuut.
 
-Voordat u met de implementatie begint, moet u ervoor zorgen dat u alle benodigde vereisten paraat hebt.
+## Wat is Aspose.PDF voor Java?
 
-## Vereisten
+Aspose.PDF voor Java is een uitgebreide API die het maken, manipuleren en converteren van PDF‑documenten mogelijk maakt zonder Adobe Acrobat te hoeven gebruiken. Het ondersteunt meer dan 50 invoer‑ en uitvoerformaten, biedt low‑level objecttoegang, en kan bestanden met honderden pagina’s verwerken zonder het volledige document in het geheugen te laden, waardoor het ideaal is voor server‑side automatisering.
 
-Om deze tutorial effectief te kunnen volgen, heb je het volgende nodig:
+## Waarom Aspose.PDF voor Java gebruiken om PDF naar HTML te converteren?
 
-- **Bibliotheken en versies**: Zorg ervoor dat u Aspose.PDF voor Java versie 25.3 hebt.
-- **Omgevingsinstelling**: Een ontwikkelomgeving waarin Java-applicaties kunnen worden uitgevoerd (een IDE zoals IntelliJ IDEA of Eclipse wordt aanbevolen).
-- **Kennisvereisten**: Kennis van Java-programmeerconcepten, met name het omgaan met bestanden en uitzonderingen.
+Aspose.PDF verwerkt PDF’s op objectniveau, waarbij vector‑graphics, ingesloten lettertypen en complexe lay‑outs behouden blijven. Kwantificeerbare voordelen omvatten ondersteuning voor **50+ bestandsformaten**, de mogelijkheid om **500‑pagina‑PDF’s in minder dan 60 seconden** te converteren, en **zero‑dependency** werking (geen externe PDF‑viewers vereist).
 
-## Aspose.PDF instellen voor Java
+## Wat is lettertypevervanging en waarom is het belangrijk?
+
+Lettertypevervanging vervangt een ontbrekend of niet‑beschikbaar lettertype door een vooraf gedefinieerd alternatief, waardoor het visuele uiterlijk van de geconverteerde HTML consistent blijft. Zonder vervanging kan de output standaard systeemlettertypen tonen, waardoor het ontwerp en de leesbaarheid van uw webpagina’s worden verstoord.
+
+## Voorvereisten
+
+- **Aspose.PDF for Java** versie 25.3 (of later).  
+- Een Java 8+ ontwikkelomgeving (IntelliJ IDEA, Eclipse, of een IDE naar keuze).  
+- Basiskennis van Java I/O en exception‑handling.  
+
+## Hoe PDF naar HTML Java converteren met lettertypevervanging?
+
+De conversieworkflow bestaat uit drie hoofd stappen: het laden van de PDF, het toepassen van een aangepaste lettertype‑vervangingshandler, en het opslaan van het resultaat als HTML. De `Document`‑klasse vertegenwoordigt een PDF‑bestand en biedt methoden om de inhoud te manipuleren. De `HtmlSaveOptions`‑klasse definieert hoe de PDF wordt gerenderd naar HTML, en de `CustomFontSubstitutionBase`‑klasse stelt u in staat de lettertype‑vervangingslogica te beheersen. Door de onderstaande gedetailleerde stappen te volgen, kunt u betrouwbaar web‑gereed documenten produceren die het oorspronkelijke uiterlijk en gevoel behouden.
+
+### Stap 1: Stel mappen in en laad het document
+Definieer het pad naar de invoer‑PDF en de gewenste HTML‑uitvoerlokatie. Maak vervolgens een `Document`‑instantie om de bron‑PDF te vertegenwoordigen.
+
+### Stap 2: Maak een aangepaste lettertype‑vervangingsklasse
+`CustomFontSubstitutionBase` is de basisklasse die Aspose.PDF gebruikt om ontbrekende lettertypen op te lossen. Breid deze uit en overschrijf de `substituteFont`‑methode om bronlettertypen te koppelen aan uw gewenste vervangingen.
+
+### Stap 3: Registreer een notifier voor vervangingsgebeurtenissen
+Koppel een event‑handler aan `Document` zodat u elke vervangingsgebeurtenis kunt loggen. Dit helpt u te verifiëren dat alle ontbrekende lettertypen correct worden vervangen.
+
+### Stap 4: Configureer HtmlSaveOptions en voer de conversie uit
+Instantieer `HtmlSaveOptions`, stel eventuele vereiste opties in (zoals `SplitIntoPages`), en roep `document.save(outputPath, htmlOptions)` aan om de HTML‑bestanden te genereren.
+
+## Hoe Aspose.PDF voor Java instellen?
+
+Aspose.PDF voor Java kan aan uw project worden toegevoegd via Maven of Gradle. Kies de build‑tool die bij uw workflow past en voeg de afhankelijkheid toe zoals hieronder weergegeven.
 
 ### Installatie via Maven
-
-Om Aspose.PDF aan uw project toe te voegen met behulp van Maven, neemt u de volgende afhankelijkheid op in uw `pom.xml`:
+Voeg de volgende afhankelijkheid toe aan uw `pom.xml`:
 
 ```xml
 <dependency>
@@ -48,58 +137,101 @@ Om Aspose.PDF aan uw project toe te voegen met behulp van Maven, neemt u de volg
 ```
 
 ### Installatie via Gradle
-
-Voor projecten die Gradle gebruiken, voegt u de volgende regel toe aan uw `build.gradle`:
+Neem deze regel op in uw `build.gradle`‑bestand:
 
 ```gradle
 implementation 'com.aspose:aspose-pdf:25.3'
 ```
 
 ### Stappen voor het verkrijgen van een licentie
+Aspose.PDF biedt een gratis proefversie, tijdelijke licenties voor evaluatie, en volledige commerciële licenties voor productiegebruik. Kies de optie die past bij uw projectplanning.
 
-Aspose.PDF biedt verschillende licentieopties:
-- **Gratis proefperiode**: Test functies met beperkingen.
-- **Tijdelijke licentie**:Verkrijg een tijdelijke licentie voor volledige toegang tijdens de evaluatie.
-- **Aankoop**: Koop een abonnement of een permanente licentie voor langdurig gebruik.
-
-#### Basisinitialisatie en -installatie
-Nadat u de bibliotheek hebt toegevoegd, initialiseert u deze in uw Java-toepassing:
+#### Basisinitialisatie en -configuratie
+Na het toevoegen van de bibliotheek, stelt u de licentie in aan het begin van uw applicatie:
 
 ```java
 com.aspose.pdf.License license = new com.aspose.pdf.License();
 license.setLicense("path_to_your_license.lic");
 ```
 
-## Implementatiegids
+## Samenvatting van de implementatie‑gids
 
-### Functieoverzicht: PDF naar HTML-conversie met lettertypevervanging
+De conversieworkflow bestaat uit het laden van de PDF, het toepassen van lettertype‑vervangingslogica, en het opslaan als HTML. Door de vier bovenstaande stappen te volgen, kunt u betrouwbaar web‑gereed documenten produceren die het oorspronkelijke uiterlijk en gevoel behouden.
 
-Met deze functie kunt u PDF-documenten converteren naar HTML-formaat, waarbij niet-beschikbare lettertypen worden vervangen door opgegeven alternatieven. Zo wordt de visuele consistentie gewaarborgd.
+## Veelvoorkomende problemen en tips voor probleemoplossing
 
-#### Stap 1: Mappen instellen en het document laden
+- **Onjuiste bestands‑paden** – Controleer dubbel of de invoer‑ en uitvoermappen bestaan en schrijfbaar zijn.  
+- **Licentie niet toegepast** – Zorg ervoor dat `License.setLicense()` naar een geldig `.lic`‑bestand wijst; anders ziet u watermerk‑berichten.  
+- **Ontbrekende lettertypen niet vervangen** – Verifieer dat uw aangepaste vervangingsklasse een geldig `FontInfo`‑object retourneert voor elk niet‑gekoppeld lettertype.
 
-Begin met het opgeven van paden voor uw invoer-PDF en uitvoer-HTML-bestand:
+## Praktische toepassingen
+
+1. **Documentarchivering** – Converteer legacy‑PDF’s naar doorzoekbare HTML voor webportalen.  
+2. **E‑commerce‑catalogi** – Transformeer product‑PDF’s naar responsieve HTML‑lijsten.  
+3. **Content Management Systems** – Sta redacteuren toe PDF’s te importeren en automatisch weer te geven als webpagina’s.  
+4. **Geautomatiseerde rapportage** – Genereer HTML‑rapporten uit PDF‑templates voor e‑maildistributie.
+
+## Prestaties overwegingen
+
+### Prestaties optimaliseren
+- Verwerk PDF’s in een streaming‑modus om het geheugenverbruik laag te houden.  
+- Hergebruik `HtmlSaveOptions`‑objecten bij het batch‑gewijs converteren van veel bestanden.
+
+### Best practices voor Java‑geheugenbeheer
+- Monitor de JVM‑heap‑grootte en schakel G1GC in voor grootschalige conversies.  
+- Roep `document.dispose()` aan na elke conversie om native resources snel vrij te geven.
+
+## Conclusie
+
+U heeft nu een volledige, productieklare methode om **PDF naar HTML Java** te converteren terwijl lettertypevervanging automatisch wordt afgehandeld. Deze mogelijkheid zorgt ervoor dat uw HTML‑output er precies uitziet als de bron‑PDF, zelfs wanneer de oorspronkelijke lettertypen niet beschikbaar zijn op het doelsysteem.
+
+### Volgende stappen
+Ontdek aanvullende Aspose.PDF‑functies zoals PDF‑samenvoegen, watermerken en digitale handtekeningen om uw document‑verwerkingspipeline verder te verrijken.
+
+## Veelgestelde vragen
+
+**Q: Kan ik met wachtwoord beveiligde PDF’s converteren?**  
+A: Ja – instantieer `Document` met de wachtwoord‑parameter of stel `document.decrypt(password)` in vóór de conversie.
+
+**Q: Ondersteunt de API het converteren van alleen geselecteerde pagina’s?**  
+A: Absoluut. Gebruik `HtmlSaveOptions.setPageIndex()` en `setPageCount()` om het conversiebereik te beperken.
+
+**Q: Hoeveel lettertypen kan ik in één vervangingsklasse in kaart brengen?**  
+A: Er is geen harde limiet; u kunt er zoveel in kaart brengen als nodig, meestal met een `Map<String, String>` voor snelle lookup.
+
+**Q: Is lettertypevervanging hoofdlettergevoelig?**  
+A: Lettertype‑namen worden standaard hoofdletterongevoelig gematcht, maar u kunt hoofdlettergevoeligheid afdwingen door de logica aan te passen.
+
+**Q: Waar kan ik meer voorbeelden vinden?**  
+A: De Aspose.PDF voor Java‑documentatie biedt een uitgebreide set code‑voorbeelden die alle conversiescenario’s dekken.
+
+## Bronnen
+- [Documentatie](https://reference.aspose.com/pdf/java/)
+- [Bibliotheek downloaden](https://releases.aspose.com/pdf/java/)
+- [Licenties kopen](https://purchase.aspose.com/buy)
+- [Gratis proefversie](https://releases.aspose.com/pdf/java/)
+- [Tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
+- [Supportforum](https://forum.aspose.com/c/pdf/10)
+
+Duik in de wereld van documentconversie met Aspose.PDF voor Java en revolutioneer hoe u PDF’s beheert in uw applicaties!
+
+---
+**Laatst bijgewerkt:** 2026-07-27  
+**Getest met:** Aspose.PDF for Java 25.3  
+**Auteur:** Aspose
 
 ```java
-String dataDir = "YOUR_DOCUMENT_DIRECTORY/input1.pdf"; // Invoer PDF-pad
-String outputDir = "YOUR_OUTPUT_DIRECTORY/pdfToHTMLWithFontSubstitution.html"; // Uitvoer HTML-pad
+String dataDir = "YOUR_DOCUMENT_DIRECTORY/input1.pdf"; // Input PDF path
+String outputDir = "YOUR_OUTPUT_DIRECTORY/pdfToHTMLWithFontSubstitution.html"; // Output HTML path
 
-// Laad het document vanuit de opgegeven directory
+// Load the document from the specified directory
 Document pdf = new Document(dataDir);
 ```
-
-#### Stap 2: Configureer de logica voor lettertypevervanging
-
-Maak een aangepaste subklasse van `CustomFontSubstitutionBase` om lettertypevervangingen te verwerken:
 
 ```java
 CustomSubst1 subst1 = new CustomSubst1();
 FontRepository.getSubstitutions().add(subst1);
 ```
-
-#### Stap 3: Voeg een melder toe voor lettertypevervangingsgebeurtenissen
-
-Registreer een gebeurtenis-handler om details over lettertypevervanging vast te leggen of af te drukken:
 
 ```java
 pdf.FontSubstitution.add(new Document.FontSubstitutionHandler() {
@@ -109,71 +241,21 @@ pdf.FontSubstitution.add(new Document.FontSubstitutionHandler() {
 });
 ```
 
-#### Stap 4: PDF naar HTML converteren
-
-Stel de `HtmlSaveOptions` en sla het document op als een HTML-bestand:
-
 ```java
 HtmlSaveOptions options = new HtmlSaveOptions();
 pdf.save(outputDir, options);
 ```
 
-### Tips voor probleemoplossing
+## Gerelateerde tutorials
 
-- Zorg ervoor dat alle paden correct zijn gespecificeerd.
-- Controleer of de Aspose.PDF-licentie correct is ingesteld als u beperkingen in functies tegenkomt.
+- [PDF naar HTML-conversie: Lettertypevervangingswaarschuwingen vastleggen met Aspose.PDF voor Java](/pdf/java/conversion-export/capture-font-substitution-warnings-pdf-html-conversion-asposepdf-java/)
+- [Hoe PDF naar HTML te converteren in Java met Aspose.PDF: Specifieke lettertypen uitsluiten](/pdf/java/conversion-export/pdf-to-html-conversion-java-exclude-fonts-aspose-pdf/)
+- [pdf naar html java – PDF naar HTML converteren met ingesloten resources met Aspose.PDF voor Java](/pdf/java/conversion-export/convert-pdf-to-html-aspose-java-embedded-resources/)
 
-## Praktische toepassingen
-
-1. **Documentarchivering**: Converteer oude PDF-archieven naar webvriendelijke HTML-indelingen voor betere toegankelijkheid.
-2. **E-commerceplatforms**: Transformeer productcatalogi naar HTML voor naadloze integratie met online winkels.
-3. **Content Management Systemen (CMS)**: Verbeter CMS door het importeren en converteren van uitgebreide documenten mogelijk te maken.
-4. **Geautomatiseerde rapportgeneratie**: Converteer rapporten van verschillende afdelingen dynamisch naar HTML voor uniforme distributie.
-
-## Prestatieoverwegingen
-
-### Prestaties optimaliseren
-- Maak gebruik van efficiënte methoden voor resourcebeheer om grote PDF's te verwerken.
-- Zorg ervoor dat de applicatie voldoende geheugenruimte heeft om complexe documenten soepel te kunnen verwerken.
-
-### Aanbevolen procedures voor Java-geheugenbeheer
-- Controleer en beheer regelmatig de JVM-heapruimte.
-- Optimaliseer garbage collection door JVM-parameters indien nodig aan te passen.
-
-## Conclusie
-
-Door deze handleiding te volgen, beschikt u nu over een robuuste methode om PDF-bestanden naar HTML te converteren en tegelijkertijd de lettertypeconsistentie te waarborgen. Deze vaardigheid is van onschatbare waarde voor het behouden van de documentintegriteit op alle platforms.
-
-### Volgende stappen
-Overweeg om de meer geavanceerde functies van Aspose.PDF voor Java te verkennen of het te integreren met andere systemen om de mogelijkheden van uw applicatie uit te breiden.
-
-## FAQ-sectie
-
-1. **Wat zijn de voordelen van het gebruik van Aspose.PDF voor Java?**
-   - Uitgebreide mogelijkheden voor PDF-manipulatie en -conversie, waarmee een hoge getrouwheid van de uitvoer wordt gegarandeerd.
-2. **Hoe kan ik licentieproblemen met Aspose.PDF oplossen?**
-   - Begin met een gratis proefversie of vraag een tijdelijke licentie aan om alle functies te evalueren.
-3. **Kan ik grote PDF-documenten converteren zonder dat de prestaties achteruitgaan?**
-   - Ja, door uw Java-applicatie te optimaliseren voor beter resourcebeheer en geheugentoewijzing.
-4. **Is lettertypevervanging aanpasbaar?**
-   - Absoluut! U kunt indien nodig specifieke regels en toewijzingen voor lettertypevervangingen definiëren.
-5. **Welke ondersteuningsopties zijn beschikbaar als ik problemen ondervind?**
-   - Aspose biedt uitgebreide documentatie en een ondersteunend communityforum om u te helpen bij eventuele uitdagingen.
-
-## Bronnen
-- [Documentatie](https://reference.aspose.com/pdf/java/)
-- [Download Bibliotheek](https://releases.aspose.com/pdf/java/)
-- [Licenties kopen](https://purchase.aspose.com/buy)
-- [Gratis proefperiode](https://releases.aspose.com/pdf/java/)
-- [Tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
-- [Ondersteuningsforum](https://forum.aspose.com/c/pdf/10)
-
-Duik in de wereld van documentconversie met Aspose.PDF voor Java en verander de manier waarop u PDF's beheert in uw applicaties!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
-
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

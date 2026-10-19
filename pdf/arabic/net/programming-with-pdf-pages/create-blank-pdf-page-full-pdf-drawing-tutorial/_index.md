@@ -22,17 +22,12 @@ title: إنشاء صفحة PDF فارغة – دليل كامل لرسم PDF
 url: /ar/net/programming-with-pdf-pages/create-blank-pdf-page-full-pdf-drawing-tutorial/
 ---
 
->}}
 
-All unchanged.
 
-Now produce final content with translations.
 
-Check we didn't miss any markdown elements.
 
-Make sure to keep code block placeholders as they are.
 
-Now produce final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 

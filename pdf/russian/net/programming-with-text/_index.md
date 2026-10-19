@@ -71,6 +71,7 @@
 | [Текстовые сегменты в PDF-файле](./text-segments/) | Узнайте, как искать определенные текстовые сегменты в PDF-файле с помощью регулярных выражений в Aspose.PDF для .NET. |  
 | [Использовать скрипт Latex в PDF-файле](./use-latex-script/) | Узнайте, как использовать скрипт Latex для добавления математических выражений или формул в файл PDF с помощью Aspose.PDF для .NET. |  
 | [Добавить номера Бейтса в PDF](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Узнайте, как добавить номера Бейтса в PDF с помощью Aspose.PDF для .NET в этом пошаговом руководстве. |
+| [Создание элемента Span в Word с C# – Полное руководство](./create-span-element-in-word-with-c-complete-guide/) | Узнайте, как создать элемент span в документе Word с помощью C# – полное руководство. |  
 | [Как создать сводный PDF с Aspose.Pdf.AI на C#](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Узнайте, как с помощью Aspose.Pdf.AI создать сводный PDF-файл в C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}

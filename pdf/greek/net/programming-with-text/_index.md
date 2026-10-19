@@ -73,6 +73,7 @@
 | [Προσθήκη Bates Numbers σε PDF – αριθμοδότηση Bates](./add-bates-numbers-to-pdf-bates-numbering-pdf/) | Μάθετε πώς να προσθέτετε Bates Numbers σε αρχεία PDF χρησιμοποιώντας το Aspose.PDF για .NET. |  
 | [Πώς να δημιουργήσετε PDF περίληψης με Aspose.Pdf.AI σε C#](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Μάθετε πώς να δημιουργήσετε PDF περίληψης χρησιμοποιώντας το Aspose.Pdf.AI σε C# με βήμα-βήμα οδηγίες. |  
 
+| [Δημιουργία στοιχείου Span σε Word με C# – Πλήρης οδηγός](./create-span-element-in-word-with-c-complete-guide/) | Μάθετε πώς να δημιουργήσετε στοιχείο Span σε έγγραφα Word χρησιμοποιώντας C# με αυτόν τον πλήρη οδηγό βήμα προς βήμα. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

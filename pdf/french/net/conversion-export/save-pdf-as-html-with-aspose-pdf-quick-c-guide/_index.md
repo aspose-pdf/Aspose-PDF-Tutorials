@@ -25,11 +25,8 @@ title: Enregistrer le PDF en HTML avec Aspose.PDF – Guide rapide C#
 url: /fr/net/conversion-export/save-pdf-as-html-with-aspose-pdf-quick-c-guide/
 ---
 
-alt text label? Usually alt text is after image, but it's a caption. We'll translate the whole line.
 
-Also the "Quick Verification" heading etc.
 
-Let's produce final content.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

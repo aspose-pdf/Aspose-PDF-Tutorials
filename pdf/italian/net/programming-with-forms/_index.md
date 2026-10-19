@@ -53,6 +53,12 @@ Questi tutorial forniscono anche esempi di codice dettagliati, spiegazioni chiar
 | [Imposta la didascalia del pulsante di scelta](./set-radio-button-caption/) Scopri come impostare le didascalie dei pulsanti di opzione nei PDF utilizzando Aspose.PDF per .NET. Questa guida dettagliata ti guiderà passo passo nel caricamento, nella modifica e nel salvataggio dei tuoi moduli PDF. |  
 | [Casella di testo](./text-box/) | Scopri come aggiungere facilmente caselle di testo ai PDF utilizzando Aspose.PDF per .NET con questa guida passo passo. Migliora l'interazione con l'utente. |  
 | [Come creare PDF con Aspose – Aggiungi campo a una raccolta](./how-to-create-pdf-with-aspose-add-field-to-collection/) | Scopri come aggiungere un campo a una raccolta in un PDF usando Aspose.PDF per .NET in questa guida passo passo. |
+| [Crea documento PDF con Aspose – Aggiungi campo casella di testo](./create-pdf-document-with-aspose-add-text-box-field/) | Scopri come aggiungere un campo casella di testo a un documento PDF usando Aspose.PDF per .NET. |
+| [Creare documento PDF C# – Guida passo‑a‑passo per moduli multi‑pagina](./create-pdf-document-c-step-by-step-guide-to-multi-page-forms/) | Scopri come creare PDF multi‑pagina con moduli interattivi usando Aspose.PDF per .NET in C#. |
+| [Crea modulo multipagina in C# con Aspose.Pdf – Guida passo‑passo](./create-multi-page-form-in-c-with-aspose-pdf-step-by-step-gui/) | Scopri come creare un modulo PDF multipagina in C# usando Aspose.Pdf con questa guida dettagliata passo passo. |
+| [Aggiungi casella di testo al modulo PDF – Guida completa C#](./add-text-box-to-pdf-form-complete-c-guide/) | Scopri come aggiungere una casella di testo a un modulo PDF con Aspose.PDF per .NET in questa guida completa passo passo. |
+| [Crea campo di testo PDF – Guida passo‑passo](./create-pdf-textbox-field-step-by-step-guide/) | Scopri come creare un campo di testo in un PDF con Aspose.PDF per .NET in questa guida passo passo. |
+| [Importa FDF in PDF con C# – Guida completa passo‑passo](./import-fdf-into-pdf-with-c-complete-step-by-step-guide/) | Scopri come importare file FDF in un PDF usando C# con Aspose.PDF per .NET in questa guida dettagliata passo passo. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -61,6 +67,12 @@ Questi tutorial forniscono anche esempi di codice dettagliati, spiegazioni chiar
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/pf/main-container >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
+
 | [Come creare PDF con Aspose – Aggiungere campo modulo e pagine](./how-to-create-pdf-with-aspose-add-form-field-and-pages/) | Scopri come creare un PDF, aggiungere campi modulo e gestire le pagine usando Aspose.PDF per .NET. |
 | [Aggiungi numeri Bates ai PDF – Guida passo‑passo C#](./add-bates-numbers-to-pdfs-step-by-step-c-guide/) | Scopri come aggiungere numeri Bates ai PDF con Aspose.PDF per .NET in C#, passo dopo passo. |
 | [Crea documento PDF con più widget di casella di testo – Guida passo‑passo](./create-pdf-document-with-multiple-textbox-widgets-step-by-st/) | Scopri come creare un documento PDF con più widget di casella di testo usando Aspose.PDF per .NET in questa guida passo‑passo. |

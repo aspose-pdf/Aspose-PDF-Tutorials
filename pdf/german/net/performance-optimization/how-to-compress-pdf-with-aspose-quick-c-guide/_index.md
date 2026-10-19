@@ -25,15 +25,10 @@ title: PDF mit Aspose komprimieren – Schnellleitfaden für C#
 url: /de/net/performance-optimization/how-to-compress-pdf-with-aspose-quick-c-guide/
 ---
 
-with translated German text, preserving all placeholders.
 
-Let's craft translation.
 
-Be careful with markdown formatting: keep headings levels.
 
-Also note rule 5: "For German, ensure proper RTL formatting if needed" - German is LTR, ignore.
 
-Now produce final.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

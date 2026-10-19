@@ -24,7 +24,6 @@ title: Xác minh chữ ký PDF và thêm hình chữ nhật vào PDF bằng Aspo
 url: /vi/net/digital-signatures/verify-pdf-signature-and-add-rectangle-pdf-with-aspose/
 ---
 
-craft translation.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

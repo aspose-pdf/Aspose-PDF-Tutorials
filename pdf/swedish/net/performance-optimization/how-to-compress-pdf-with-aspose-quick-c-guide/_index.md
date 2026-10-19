@@ -24,9 +24,7 @@ title: Hur man komprimerar PDF med Aspose – Snabb C#‑guide
 url: /sv/net/performance-optimization/how-to-compress-pdf-with-aspose-quick-c-guide/
 ---
 
-keep markdown formatting.
 
-Proceed.
 
 {{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}

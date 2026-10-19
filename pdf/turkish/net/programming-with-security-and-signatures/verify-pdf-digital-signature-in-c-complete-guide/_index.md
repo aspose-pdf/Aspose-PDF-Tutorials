@@ -26,17 +26,12 @@ title: C#'te PDF Dijital İmzasını Doğrulama – Tam Kılavuz
 url: /tr/net/programming-with-security-and-signatures/verify-pdf-digital-signature-in-c-complete-guide/
 ---
 
-/products/products-backtop-button >}}
 
-All unchanged.
 
-Now produce final content with all translations.
 
-Check we didn't miss any text: At top there is "CRITICAL REQUIREMENTS - YOUR OUTPUT WILL BE VALIDATED:" etc. That's not part of content; we only output translated content.
 
-Make sure to keep code block placeholders unchanged.
 
-Let's assemble final answer.{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/pf/main-container >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 
