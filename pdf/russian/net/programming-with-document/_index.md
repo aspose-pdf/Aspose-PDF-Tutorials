@@ -64,6 +64,7 @@
 | [Создать пользовательский плагин Aspose – Полное руководство по автоматизации обработки PDF](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Полное руководство по созданию пользовательского плагина Aspose для автоматизации обработки PDF. |  
 | [Добавить нумерацию Бейтса в Word – Полное пошаговое руководство](./add-bates-numbering-in-word-complete-step-by-step-guide/) | Узнайте, как добавить нумерацию Бейтса в документы Word с помощью Aspose.Words для .NET в полном пошаговом руководстве. |
 | [Добавить пустую страницу в документ Word с C# – Полное пошаговое руководство](./add-blank-page-in-word-document-with-c-complete-guide/) | Узнайте, как добавить пустую страницу в документ Word с помощью C# и Aspose.Words в полном пошаговом руководстве. |
+| [Как создать пустой PDF-словарь с Aspose.PDF на C#](./how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c/) | Узнайте, как создать пустой словарь PDF с помощью Aspose.PDF для .NET на C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

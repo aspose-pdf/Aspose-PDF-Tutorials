@@ -90,6 +90,7 @@ Aprenderá a especificar la configuración de conversión, extraer texto e imág
 | [Conversión de formato PDF de Aspose: Convertir PDF a PDF/X‑4 en C#](./aspose-pdf-format-conversion-convert-pdf-to-pdf-x-4-in-c/) | Aprenda a convertir PDF a PDF/X‑4 usando Aspose.PDF para .NET con este tutorial paso a paso. |
 | [Crear imagen PDF con Aspose.Pdf – Guía paso a paso](./create-pdf-image-with-aspose-pdf-step-by-step-guide/) | Aprenda a crear una imagen PDF usando Aspose.PDF para .NET con esta guía paso a paso. |
 | [Cómo convertir PDF con Aspose – Guía completa paso a paso](./how-to-convert-pdf-with-aspose-complete-step-by-step-guide/) | Aprenda a convertir PDF con Aspose.PDF para .NET mediante esta guía completa paso a paso. |
+| [Cómo incrustar perfil ICC y convertir PDF a PDF/X‑1 con Aspose.Pdf](./how-to-embed-icc-profile-and-convert-pdf-to-pdf-x-1-with-asp/) | Aprenda a incrustar un perfil ICC y convertir PDFs a PDF/X‑1 usando Aspose.PDF para .NET paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -129,4 +130,3 @@ Aprenderá a especificar la configuración de conversión, extraer texto e imág
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

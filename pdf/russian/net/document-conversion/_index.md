@@ -26,7 +26,7 @@
 | [Создать элемент span и добавить на страницу – Конвертировать DOCX в PDF](./create-span-element-and-add-to-page-convert-docx-to-pdf/) | Узнайте, как создать элемент span и добавить его на страницу при конвертации DOCX в PDF с помощью Aspose.PDF для .NET. |
 | [EPUB в PDF](./epub-to-pdf/) Узнайте, как конвертировать EPUB в PDF с помощью Aspose.PDF для .NET с помощью этого пошагового руководства. Легко, эффективно и идеально подходит для всех пользователей. |  
 | [Получить размеры SVG](./get-svg-dimensions/) | Узнайте, как использовать Aspose.PDF для .NET для преобразования файлов SVG в PDF с помощью этого пошагового руководства. Идеально подходит для разработчиков, желающих работать с PDF. |  
-| [HTML в PDF](./html-to-pdf/) | Узнайте, как преобразовать HTML в PDF с помощью Aspose.PDF для .NET с помощью этого подробного пошагового руководства. |  
+| [HTML в PDF](./html-to-pdf/) | Узнайте, как преобразовать HTML в PDF с помощью Aspose.PDF для .NET с этим подробным пошаговым руководством. |  
 | [Разметка в PDF](./markdown-to-pdf/) | Узнайте, как преобразовать Markdown в PDF с помощью Aspose.PDF для .NET в этом пошаговом руководстве. Идеально подходит для разработчиков, желающих оптимизировать преобразование документов. |  
 | [MHT в PDF](./mht-to-pdf/) | Узнайте, как конвертировать файлы MHT в PDF с помощью Aspose.PDF для .NET в этом пошаговом руководстве. Простое и эффективное преобразование документов. |  
 | [Ориентация страницы в соответствии с размерами изображения](./page-orientation-according-image-dimensions/) Узнайте, как создавать PDF-файлы с помощью Aspose.PDF для .NET, настраивая ориентацию страницы на основе размеров изображения в этом пошаговом руководстве. |  
@@ -65,6 +65,7 @@
 | [Как установить параметры преобразования PDF в C# – Руководство Aspose](./how-to-set-options-for-pdf-conversion-in-c-aspose-guide/) | Узнайте, как задать параметры конвертации PDF в C# с помощью Aspose.PDF для .NET в этом пошаговом руководстве. |
 | [Конвертировать PDF в PDF/X‑1a с C# – пошаговое руководство](./convert-pdf-to-pdf-x-1a-with-c-step-by-step-guide/) | Узнайте, как конвертировать PDF в PDF/X‑1a с помощью Aspose.PDF для .NET в этом пошаговом руководстве. |
 | [Конвертировать PDF в PDFX с Aspose.Pdf – Полное руководство](./convert-pdf-to-pdfx-with-aspose-pdf-complete-guide/) Узнайте, как преобразовать PDF в PDF/X с помощью Aspose.PDF для .NET в полном пошаговом руководстве. |
+| [Как встроить ICC профиль и конвертировать PDF в PDF/X‑1 с помощью Aspose.Pdf](./how-to-embed-icc-profile-and-convert-pdf-to-pdf-x-1-with-asp/) | Узнайте, как добавить ICC профиль и преобразовать PDF в PDF/X‑1 с помощью Aspose.PDF для .NET в этом пошаговом руководстве. |
 | [Конвертировать PDF в PDF/X‑4 на C# – пошаговое руководство ASP.NET PDF](./convert-pdf-to-pdf-x-4-in-c-step-by-step-asp-net-pdf-tutoria/) | Узнайте, как конвертировать PDF в PDF/X‑4 с помощью Aspose.PDF для .NET в этом пошаговом руководстве. |
 | [Открыть PDF-документ C# – Конвертировать в PDF/X‑4 для печати](./open-pdf-document-c-convert-to-pdf-x-4-for-printing/) | Узнайте, как открыть PDF-документ в C# и конвертировать его в PDF/X‑4 для печати с помощью Aspose.PDF для .NET. |
 | [Как конвертировать PDF в PDF/X‑4 с Aspose – пошаговое руководство](./how-to-convert-pdf-to-pdf-x-4-with-aspose-step-by-step-guide/) | Узнайте, как преобразовать PDF в PDF/X‑4 с помощью Aspose.PDF для .NET в этом пошаговом руководстве. |
@@ -144,4 +145,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

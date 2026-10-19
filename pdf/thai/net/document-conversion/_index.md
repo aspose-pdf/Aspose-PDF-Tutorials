@@ -88,6 +88,7 @@
 - [แปลง PDF เป็น PDF/X-1a ด้วย C# – คู่มือทีละขั้นตอน](./convert-pdf-to-pdf-x-1a-with-c-step-by-step-guide/) | เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/X-1a ด้วย Aspose.PDF สำหรับ .NET ในบทช่วยสอนแบบทีละขั้นตอนนี้  
 - [แปลง PDF เป็น PDFX ด้วย Aspose.Pdf – คู่มือฉบับสมบูรณ์](./convert-pdf-to-pdfx-with-aspose-pdf-complete-guide/) | เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/X ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียด  
 - [สร้างการแปลง docx เป็น PDF/X-4 ใน C# – คู่มือฉบับสมบูรณ์](./create-pdf-x-4-docx-conversion-in-c-complete-guide/) | เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF/X‑4 ด้วย Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนนี้  
+- [วิธีฝังโปรไฟล์ ICC และแปลง PDF เป็น PDF/X-1 ด้วย Aspose.Pdf](./how-to-embed-icc-profile-and-convert-pdf-to-pdf-x-1-with-asp/) | เรียนรู้วิธีฝังโปรไฟล์ ICC และแปลง PDF เป็น PDF/X-1 ด้วย Aspose.Pdf สำหรับ .NET อย่างละเอียด  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -134,4 +135,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

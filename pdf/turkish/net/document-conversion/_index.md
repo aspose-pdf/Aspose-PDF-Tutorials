@@ -90,6 +90,7 @@ Dönüştürme ayarlarını nasıl belirleyeceğinizi, metin ve görüntüleri n
 | [C# ile PDF'yi PDF/X‑1a'ya Dönüştür – Adım Adım Kılavuz](./convert-pdf-to-pdf-x-1a-with-c-step-by-step-guide/) | Aspose.PDF for .NET kullanarak C# ile PDF dosyalarını PDF/X‑1a formatına nasıl dönüştüreceğinizi adım adım öğrenin. |
 | [Aspose.PDF ile PDF'yi PDFX'e Dönüştür – Tam Kılavuz](./convert-pdf-to-pdfx-with-aspose-pdf-complete-guide/) | Bu adım adım kılavuzda Aspose.PDF for .NET kullanarak PDF'yi PDFX formatına nasıl dönüştüreceğinizi öğrenin. |
 | [C#'ta PDF/X‑4 docx dönüşümü oluşturma – tam rehber](./create-pdf-x-4-docx-conversion-in-c-complete-guide/) | Bu adım adım kılavuzda Aspose.PDF for .NET kullanarak C# ile docx dosyalarını PDF/X‑4 formatına nasıl dönüştüreceğinizi öğrenin. |
+| [ICC profili ekleyin ve PDF'yi PDF/X-1'e dönüştürün Aspose.Pdf ile](./how-to-embed-icc-profile-and-convert-pdf-to-pdf-x-1-with-asp/) | Aspose.Pdf kullanarak PDF dosyasına ICC profili ekleyip PDF/X-1 formatına dönüştürmeyi öğrenin. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -143,4 +144,3 @@ Dönüştürme ayarlarını nasıl belirleyeceğinizi, metin ve görüntüleri n
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

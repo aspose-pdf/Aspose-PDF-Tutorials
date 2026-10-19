@@ -72,6 +72,7 @@ Aspose.PDFs handledningar "Programmering med text" för .NET erbjuder ett omfatt
 | [Textsegment i PDF-fil](./text-segments/) | Lär dig hur du söker efter specifika textsegment i PDF-filer med hjälp av reguljära uttryck i Aspose.PDF för .NET. |
 | [Använd Latex-skript i PDF-fil](./use-latex-script/) | Lär dig hur du använder Latex-skript för att lägga till matematiska uttryck eller formler i PDF-filer med Aspose.PDF för .NET. |
 | [Skapa Span-element i Word med C# – Komplett guide](./create-span-element-in-word-with-c-complete-guide/) | Lär dig hur du skapar ett Span-element i ett Word-dokument med C# i en komplett steg-för-steg-guide. |
+| [Skapa sammanfattnings-PDF med Aspose.Pdf.AI i C#](./how-to-create-summary-pdf-with-aspose-pdf-ai-in-c/) | Lär dig skapa en sammanfattnings-PDF med Aspose.Pdf.AI i C# med steg-för-steg-instruktioner. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

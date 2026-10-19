@@ -59,6 +59,7 @@ Du lär dig hur du anger konverteringsinställningar, extraherar text och bilder
 | [Konvertera PDF till PDF/X-1a med C# – Steg‑för‑steg‑guide](./convert-pdf-to-pdf-x-1a-with-c-step-by-step-guide/) | Lär dig hur du konverterar PDF till PDF/X‑1a med Aspose.PDF för .NET i en detaljerad steg‑för‑steg‑guide. |
 | [Konvertera PDF till PDFX med Aspose.Pdf – Komplett guide](./convert-pdf-to-pdfx-with-aspose-pdf-complete-guide/) | Lär dig hur du konverterar PDF-filer till PDF/X-format med Aspose.PDF för .NET i en detaljerad steg‑för‑steg‑guide. |
 | [Skapa PDF/X‑4 docx‑konvertering i C# – komplett guide](./create-pdf-x-4-docx-conversion-in-c-complete-guide/) | Lär dig hur du konverterar DOCX till PDF/X‑4 i C# med Aspose.PDF för .NET i en komplett guide. |
+| [Hur man bäddar in ICC-profil och konverterar PDF till PDF/X-1 med Aspose.Pdf](./how-to-embed-icc-profile-and-convert-pdf-to-pdf-x-1-with-asp/) | Lär dig hur du bäddar in en ICC-profil och konverterar PDF till PDF/X-1 med Aspose.PDF för .NET i denna steg‑för‑steg‑guide. |
 | [PDF till PNG-teckensnittstips](./pdf-to-png-font-hinting/) | Lär dig konvertera PDF till PNG med teckensnittstips med hjälp av Aspose.PDF för .NET i en enkel steg-för-steg-guide. |
 | [Skapa PDF från JPG i C# – Fullständig guide med beskärning och nya sidor](./create-pdf-from-jpg-in-c-full-guide-with-cropping-and-new-pa/) | Lär dig hur du skapar en PDF från JPG-bilder i C# med beskärning och flera sidor i en komplett steg‑för‑steg‑guide. |
 | [Aspose PDF‑konverteringshandledning – Konvertera PDF-filer till PDF/X‑4 steg‑för‑steg](./aspose-pdf-conversion-tutorial-convert-pdfs-to-pdf-x-4-step/) | Lär dig hur du konverterar PDF-filer till PDF/X‑4 med Aspose.PDF för .NET i en detaljerad steg‑för‑steg‑guide. |
@@ -98,12 +99,6 @@ Du lär dig hur du anger konverteringsinställningar, extraherar text och bilder
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-{{< blocks/products/pf/main-wrap-class >}}
-
-{{< blocks/products/pf/main-container >}}
-
-{{< blocks/products/pf/tutorial-page-section >}}
-
 | [Aspose PDF‑konvertering: Konvertera PDF till PDF/X‑4 i C#](./aspose-pdf-conversion-convert-pdf-to-pdf-x-4-in-c/) | Lär dig hur du konverterar PDF till PDF/X‑4 med Aspose.PDF för .NET i C# med den här steg-för-steg‑guiden. |
 | [Lägg till ICC-profil och konvertera PDF till PDF/X‑4 – C#-guide](./add-icc-profile-and-convert-pdf-to-pdf-x-4-c-guide/) | Lär dig hur du lägger till en ICC-profil och konverterar PDF till PDF/X‑4 med Aspose.PDF för .NET i C#. |  
 | [Lägg till Bates-nummerering i DOCX och konvertera till PDF – Komplett C#-guide](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | Lär dig hur du lägger till Bates-nummerering i DOCX-filer och konverterar dem till PDF med Aspose.PDF för .NET i en komplett C#‑guide. |
@@ -129,4 +124,3 @@ Du lär dig hur du anger konverteringsinställningar, extraherar text och bilder
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

@@ -90,6 +90,7 @@
 | [تحويل تنسيق Aspose PDF: تحويل PDF إلى PDF/X‑4 باستخدام C#](./aspose-pdf-format-conversion-convert-pdf-to-pdf-x-4-in-c/) |تعلم كيفية تحويل ملفات PDF إلى تنسيق PDF/X‑4 باستخدام Aspose.PDF لـ .NET مع C# خطوة بخطوة. |
 | [إنشاء صورة PDF باستخدام Aspose.Pdf – دليل خطوة بخطوة](./create-pdf-image-with-aspose-pdf-step-by-step-guide/) |تعلم كيفية إنشاء صورة PDF باستخدام Aspose.PDF لـ .NET من خلال هذا الدليل خطوة بخطوة. |  
 | [كيفية تحويل PDF باستخدام Aspose – دليل شامل خطوة بخطوة](./how-to-convert-pdf-with-aspose-complete-step-by-step-guide/) |تعرف على كيفية تحويل ملفات PDF باستخدام Aspose خطوة بخطوة مع شرح مفصل وأمثلة برمجية. |
+| [كيفية تضمين ملف تعريف ICC وتحويل PDF إلى PDF/X-1 باستخدام Aspose.Pdf](./how-to-embed-icc-profile-and-convert-pdf-to-pdf-x-1-with-asp/) |تعرف على كيفية تضمين ملف تعريف ICC وتحويل ملفات PDF إلى PDF/X-1 باستخدام Aspose.Pdf لـ .NET خطوة بخطوة. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -143,4 +144,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

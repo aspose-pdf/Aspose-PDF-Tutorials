@@ -90,6 +90,7 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 | [Buat Gambar PDF dengan Aspose.Pdf – Panduan Langkah‑per‑Langkah](./create-pdf-image-with-aspose-pdf-step-by-step-guide/) | Pelajari cara membuat gambar PDF menggunakan Aspose.Pdf dengan panduan langkah demi langkah ini. Bahasa Indonesia:  
 | [Cara Mengonversi PDF dengan Aspose – Panduan Lengkap Langkah‑per‑Langkah](./how-to-convert-pdf-with-aspose-complete-step-by-step-guide/) | Pelajari cara mengonversi PDF menggunakan Aspose dengan panduan langkah demi langkah yang lengkap dan mudah diikuti. Bahasa Indonesia:  
 | [Mengonversi PDF ke PDFX dengan Aspose.Pdf – Panduan Lengkap](./convert-pdf-to-pdfx-with-aspose-pdf-complete-guide/) | Pelajari cara mengonversi file PDF ke PDF/X menggunakan Aspose.PDF untuk .NET dengan panduan langkah demi langkah yang lengkap. Bahasa Indonesia: |
+| [Cara menyematkan profil ICC dan mengonversi PDF ke PDF/X-1 dengan Aspose.Pdf](./how-to-embed-icc-profile-and-convert-pdf-to-pdf-x-1-with-asp/) | Pelajari cara menyematkan profil ICC ke PDF dan mengonversinya ke PDF/X-1 menggunakan Aspose.Pdf untuk .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -108,9 +109,9 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< /blocks/products/pf/main-container >}}
+{{< blocks/products/pf/main-container >}}
 
-{{< /blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
 {{< blocks/products/pf/main-wrap-class >}}
@@ -142,4 +143,3 @@ Bahasa Indonesia: --- | --- Bahasa Indonesia:
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

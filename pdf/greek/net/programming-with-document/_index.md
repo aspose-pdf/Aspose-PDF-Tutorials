@@ -65,6 +65,7 @@
 
 | [Δημιουργία προσαρμοσμένου plugin Aspose – Πλήρης οδηγός για αυτοματοποίηση επεξεργασίας PDF](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Μάθετε πώς να δημιουργήσετε ένα προσαρμοσμένο plugin Aspose για την αυτοματοποίηση της επεξεργασίας PDF χρησιμοποιώντας το Aspose.PDF για .NET. |
 | [Προσθήκη αριθμητικής Bates σε Word – Πλήρης οδηγός βήμα προς βήμα](./add-bates-numbering-in-word-complete-step-by-step-guide/) | Μάθετε πώς να προσθέσετε αριθμητική Bates σε έγγραφα Word χρησιμοποιώντας το Aspose.Words για .NET, βήμα προς βήμα. |
+| [Πώς να δημιουργήσετε κενό λεξικό PDF με Aspose.PDF σε C#](./how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c/) | Μάθετε πώς να δημιουργήσετε ένα κενό λεξικό PDF χρησιμοποιώντας το Aspose.PDF για .NET σε C#. |
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}

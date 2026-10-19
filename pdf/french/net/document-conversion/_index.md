@@ -58,6 +58,7 @@ Vous apprendrez à définir les paramètres de conversion, à extraire du texte 
 | [Convertir PDF en PDF/X‑1A en C# – Guide complet étape par étape](./convert-pdf-to-pdf-x-1a-in-c-complete-step-by-step-guide/) | Apprenez à convertir un PDF en PDF/X‑1A en C# avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
 | [Convertir PDF en PDFX avec Aspose.Pdf – Guide complet](./convert-pdf-to-pdfx-with-aspose-pdf-complete-guide/) | Apprenez à convertir un PDF en PDF/X avec Aspose.PDF pour .NET grâce à ce guide complet étape par étape. |
 | [Créer une conversion PDF/X‑4 docx en C# – guide complet](./create-pdf-x-4-docx-conversion-in-c-complete-guide/) | Apprenez à convertir des fichiers DOCX en PDF/X‑4 avec Aspose.PDF pour .NET en C# grâce à ce guide complet étape par étape. |
+| [Comment intégrer un profil ICC et convertir un PDF en PDF/X‑1 avec Aspose.Pdf](./how-to-embed-icc-profile-and-convert-pdf-to-pdf-x-1-with-asp/) | Apprenez à intégrer un profil ICC dans un PDF et le convertir en PDF/X‑1 avec Aspose.PDF pour .NET, étape par étape. |
 | [Conversion de polices PDF en PNG](./pdf-to-png-font-hinting/) | Apprenez à convertir un PDF en PNG avec indication de police à l'aide d'Aspose.PDF pour .NET dans un guide étape par étape simple. |  
 | [Tutoriel PDF vers PNG – Convertir des pages PDF en PNG en C#](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) | Apprenez à convertir chaque page d'un PDF en images PNG avec Aspose.PDF pour .NET en C#. |
 | [PDF en PPT](./pdf-to-ppt/) | Apprenez à convertir un PDF en PowerPoint avec Aspose.PDF pour .NET grâce à ce guide étape par étape. Simple, efficace et idéal pour les présentations. |  
@@ -129,4 +130,3 @@ Vous apprendrez à définir les paramètres de conversion, à extraire du texte 
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

@@ -64,6 +64,7 @@ Az anyag oktatóanyagokat tartalmaz az Aspose.PDF for .NET könyvtár dokumentum
 | [Egyedi Aspose plugin létrehozása – Teljes útmutató a PDF feldolgozás automatizálásához](./create-custom-aspose-plugin-complete-guide-to-automate-pdf-p/) | Ismerje meg, hogyan hozhat létre egyedi Aspose plugint a PDF-feldolgozás automatizálásához lépésről lépésre útmutatóval. |  
 | [Bates-számozás hozzáadása Word-hez – Teljes lépésről‑lépésre útmutató](./add-bates-numbering-in-word-complete-step-by-step-guide/) | Ismerje meg, hogyan adhat hozzá Bates-számozást Word dokumentumokhoz az Aspose.Words for .NET segítségével, részletes lépésről‑lépésre útmutatóval. |
 | [Üres oldal hozzáadása Word dokumentumhoz C#-ban – Teljes útmutató](./add-blank-page-in-word-document-with-c-complete-guide/) | Ismerje meg, hogyan adhat hozzá üres oldalt egy Word dokumentumhoz C#-ban az Aspose.Words for .NET használatával. Lépésről lépésre útmutató. |
+| [Üres PDF szótár létrehozása Aspose.PDF segítségével C#-ban](./how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c/) | Ismerje meg, hogyan hozhat létre üres PDF szótárat az Aspose.PDF for .NET C#-os példájával. |  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
