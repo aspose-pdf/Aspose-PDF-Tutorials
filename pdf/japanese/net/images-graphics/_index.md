@@ -67,6 +67,8 @@ Aspose.PDF .NET を使い、C# で PDF の要素に透明効果を適用する�
 Aspose.PDF を使い、C# で PDF に透明効果を追加する手順を解説します。
 ### [Aspose.PDF with C# を使用して PDF に透明度を設定する: ステップバイステップ ガイド](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
 Aspose.PDF C# を使って PDF の要素に透明効果を設定する手順を段階的に解説します。
+### [Aspose.PDF for .NET を使用して PDF ファイルに透明度を追加する方法](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
+Aspose.PDF for .NET を利用し、PDF ドキュメントに透明な要素や画像を追加して、デザインの柔軟性を高める手順を解説します。
 
 ### [Aspose.PDF for .NET による効率的な PDF 画像識別](./master-image-identification-aspose-pdf-net/)
 Aspose.PDF for .NET を使用して、PDF 内のグレースケール画像と RGB 画像を識別する方法を学びます。このチュートリアルでは、インストール、画像の抽出、パフォーマンスに関するヒントを紹介します。

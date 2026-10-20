@@ -122,9 +122,11 @@ Naučíte se, jak nastavit převod, extrahovat text a obrázky, zachovat původn
 | [Nastavení ICC profilu při převodu Wordu do PDF – Kompletní průvodce C#](./set-icc-profile-when-converting-word-to-pdf-complete-c-guide/) | Naučte se, jak nastavit ICC profil při převodu dokumentů Word do PDF pomocí Aspose.PDF pro .NET v tomto podrobném průvodci C#. |  
 | [Uložit dokument jako HTML – Kompletní průvodce C# pro export Word do HTML](./save-document-as-html-complete-c-guide-to-export-word-to-htm/) | Naučte se, jak pomocí Aspose.PDF pro .NET uložit dokument Word jako HTML v podrobném průvodci pro C#. |  
 
+| [Jak použít Aspose k převodu PDF na PDF/X‑1A s ICC](./how-to-use-aspose-to-convert-pdf-to-pdf-x-1a-with-icc/) | Naučte se převádět PDF na PDF/X‑1A s ICC pomocí Aspose.PDF pro .NET. |
+| 
 | [Načíst PDF dokument C# – Převod na PDF/X-4 krok za krokem](./load-pdf-document-c-convert-to-pdf-x-4-step-by-step-guide/) | Naučte se, jak načíst PDF a převést jej na PDF/X-4 pomocí Aspose.PDF pro .NET. Praktický průvodce krok za krokem. |
 | [Aspose PDF do HTML převod v C# – kompletní průvodce](./aspose-pdf-to-html-conversion-in-c-complete-guide/) | Naučte se, jak převést PDF soubory do HTML pomocí Aspose.PDF pro .NET v C# s tímto podrobným návodem. |
-
+| 
 | [Jak převést PDF pomocí Aspose.Pdf – Kompletní průvodce v C#](./how-to-convert-pdf-with-aspose-pdf-complete-c-guide/) | Kompletní návod, jak převést PDF soubory pomocí Aspose.Pdf v jazyce C# s podrobnými ukázkami kódu. |  
 {{< /blocks/products/pf/tutorial-page-section >}}
 

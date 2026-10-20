@@ -67,6 +67,8 @@ Leer hoe u met Aspose.PDF voor .NET vormen toevoegt aan PDF‑documenten met C#,
 Leer hoe u de graphics state van een PDF kunt manipuleren en transparantie-instellingen kunt beheren met Aspose.PDF voor .NET.
 ### [PDF-opaciteit instellen in C# met Aspose.PDF – volledige handleiding](./set-pdf-opacity-in-c-with-aspose-pdf-complete-guide/)
 Leer hoe u de doorzichtigheid van PDF-pagina's of elementen kunt aanpassen met Aspose.PDF voor .NET in C#.
+### [Transparantie toevoegen aan PDF-bestanden met Aspose.PDF voor .NET](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
+Een codetutorial voor Aspose.PDF Net
 
 ### [Efficiënte PDF-afbeeldingsidentificatie met Aspose.PDF voor .NET](./master-image-identification-aspose-pdf-net/)
 Leer hoe u grijswaarden- en RGB-afbeeldingen in PDF's kunt identificeren met Aspose.PDF voor .NET. Deze tutorial behandelt installatie, beeldextractie en prestatietips.

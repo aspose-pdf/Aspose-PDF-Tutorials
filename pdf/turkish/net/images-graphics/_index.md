@@ -63,6 +63,9 @@ Aspose.PDF Net için bir kod öğreticisi
 
 ### [Aspose.PDF for .NET ile PDF'de Şeffaflık Ayarlama: Adım Adım Kılavuz](./how-to-set-transparency-in-a-pdf-with-aspose-pdf-c/)
 Aspose.PDF for .NET kullanarak PDF belgelerinde şeffaflık efektlerini nasıl ekleyeceğinizi ve ayarlayacağınızı öğrenin.
+### [Aspose.PDF for .NET kullanarak PDF dosyalarına şeffaflık ekleme](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
+Aspose.PDF for .NET ile PDF dosyalarına şeffaf öğeler ekleyerek belge görünümünü geliştirin.
+
 
 ### [Aspose.PDF .NET Kullanarak PDF'lerden Görüntü Damgalarını Çıkarın](./extract-image-stamps-pdfs-aspose-pdf-net/)
 Aspose.PDF Net için bir kod öğreticisi

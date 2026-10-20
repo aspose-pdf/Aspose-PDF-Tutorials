@@ -93,6 +93,7 @@ Aprenderá a especificar la configuración de conversión, extraer texto e imág
 | [Crear imagen PDF con Aspose.Pdf – Guía paso a paso](./create-pdf-image-with-aspose-pdf-step-by-step-guide/) | Aprenda a crear una imagen PDF usando Aspose.PDF para .NET con esta guía paso a paso. |
 | [Cómo convertir PDF con Aspose – Guía completa paso a paso](./how-to-convert-pdf-with-aspose-complete-step-by-step-guide/) | Aprenda a convertir PDF con Aspose.PDF para .NET mediante esta guía completa paso a paso. |
 | [Convertir PDF a PDF/X-4 con C# – Guía completa de Aspose.PDF](./convert-pdf-to-pdf-x-4-with-c-complete-aspose-pdf-guide/) | Aprenda a convertir PDF a PDF/X‑4 usando Aspose.PDF para .NET con esta guía completa paso a paso. |
+| [Cómo usar Aspose para convertir PDF a PDF/X‑1A con ICC](./how-to-use-aspose-to-convert-pdf-to-pdf-x-1a-with-icc/) | Aprenda a convertir PDF a PDF/X‑1A con perfil ICC usando Aspose.PDF para .NET en esta guía paso a paso. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

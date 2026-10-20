@@ -55,6 +55,9 @@ Aprenda a manipular el estado de gráficos y controlar la transparencia en archi
 ### [Agregar ExtGState personalizado a PDF con Aspose.PDF – guía paso a paso](./add-custom-extgstate-pdf-with-aspose-pdf-step-by-step-guide/)
 Aprenda a crear y aplicar un ExtGState personalizado en documentos PDF usando Aspose.PDF para .NET.
 
+### [Cómo añadir transparencia a archivos PDF con Aspose.PDF para .NET: guía paso a paso](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
+Aprenda a aplicar efectos de transparencia a contenido PDF usando Aspose.PDF para .NET, con ejemplos de código paso a paso.
+
 ### [Identificación eficiente de imágenes PDF con Aspose.PDF para .NET](./master-image-identification-aspose-pdf-net/)
 Aprenda a identificar imágenes en escala de grises y RGB en archivos PDF con Aspose.PDF para .NET. Este tutorial abarca la instalación, la extracción de imágenes y consejos de rendimiento.
 

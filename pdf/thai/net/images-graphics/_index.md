@@ -69,6 +69,8 @@
 เรียนรู้วิธีเพิ่มรูปทรงต่าง ๆ ลงในไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET พร้อมตัวอย่างโค้ด C# อย่างละเอียด
 ### [วิธีเพิ่มกราฟิกสเตตใน PDF และควบคุมความโปร่งใสด้วย Aspose.PDF](./how-to-add-graphics-state-pdf-and-control-transparency-with/)
 เรียนรู้วิธีใช้กราฟิกสเตตใน PDF และจัดการความโปร่งใสด้วย Aspose.PDF สำหรับ .NET
+### [วิธีเพิ่มความโปร่งใสให้ไฟล์ PDF โดยใช้ Aspose.PDF สำหรับ .NET: คำแนะนำทีละขั้นตอน](./how-to-add-transparency-to-pdf-files-using-aspose-pdf-for-ne/)
+เรียนรู้วิธีเพิ่มความโปร่งใสให้ไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ผ่านขั้นตอนที่ชัดเจนและตัวอย่างโค้ด
 
 ### [การระบุรูปภาพ PDF ที่มีประสิทธิภาพด้วย Aspose.PDF สำหรับ .NET](./master-image-identification-aspose-pdf-net/)
 เรียนรู้วิธีระบุภาพโทนสีเทาและ RGB ใน PDF โดยใช้ Aspose.PDF สำหรับ .NET บทช่วยสอนนี้ครอบคลุมถึงการติดตั้ง การแยกภาพ และเคล็ดลับด้านประสิทธิภาพ

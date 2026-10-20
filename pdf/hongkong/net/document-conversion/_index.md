@@ -42,6 +42,7 @@
 | [在 C# 中將 DOCX 轉換為 HTML – 完整指南](./convert-docx-to-html-in-c-complete-guide/) |本完整指南說明如何使用 Aspose.PDF for .NET 在 C# 中將 DOCX 檔案轉換為 HTML，包含程式碼範例與步驟說明。 |
 | [在 C# 中將 PDF 轉換為 HTML – 完整指南（使用 Aspose）](./convert-pdf-to-html-in-c-complete-guide-with-aspose/) |透過本完整指南了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 轉換為 HTML，包含詳細步驟與範例。 |
 | [PDF 轉 PNG 字體提示](./pdf-to-png-font-hinting/) |透過簡單的逐步指南學習如何使用 Aspose.PDF for .NET 將 PDF 轉換為帶有字體提示的 PNG。 |
+| [如何使用 Aspose 將 PDF 轉換為 PDF/X‑1A（含 ICC）](./how-to-use-aspose-to-convert-pdf-to-pdf-x-1a-with-icc/) |了解如何使用 Aspose PDF for .NET 在 C# 中將 PDF 轉換為 PDF/X‑1A 並設定 ICC 配置檔。 |
 | [PDF 轉 PNG 教學 – 在 C# 中將 PDF 頁面轉換為 PNG](./pdf-to-png-tutorial-convert-pdf-pages-to-png-in-c/) |了解如何使用 Aspose.PDF for .NET 在 C# 中將 PDF 頁面轉換為 PNG 圖像。 |
 | [PDF轉PPT](./pdf-to-ppt/) |透過本逐步指南了解如何使用 Aspose.PDF for .NET 將 PDF 轉換為 PPT。簡單、高效，非常適合演示。 |  
 | [PDF 轉 SVG](./pdf-to-svg/) |在本逐步教學中學習如何使用 Aspose.PDF for .NET 將 PDF 檔案轉換為 SVG 格式。非常適合開發人員和設計師。 |  

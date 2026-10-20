@@ -91,6 +91,13 @@
 - [แปลง PDF เป็น PDF/X‑1A ด้วย C# – คู่มือฉบับสมบูรณ์](./convert-pdf-to-pdf-x-1a-in-c-complete-guide/) | เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/X‑1A ด้วย Aspose.PDF สำหรับ .NET ในบทช่วยสอนทีละขั้นตอนนี้  
 - [แปลง PDF เป็น PDF/X‑4 ด้วย C# – คู่มือ Aspose.Pdf ฉบับสมบูรณ์](./convert-pdf-to-pdf-x-4-with-c-complete-aspose-pdf-guide/) | เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/X‑4 ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET อย่างละเอียดและครบถ้วน  
 - [บทแนะนำการแปลง PDFX4 – ตั้งค่ามาตรฐาน PDF และแปลง PDF ด้วย Aspose](./pdfx4-conversion-tutorial-set-pdf-standard-and-convert-pdf-u/) | เรียนรู้วิธีตั้งค่ามาตรฐาน PDF/X‑4 และแปลงไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET  
+- [วิธีใช้ Aspose แปลง PDF เป็น PDF/X‑1A พร้อม ICC](./how-to-use-aspose-to-convert-pdf-to-pdf-x-1a-with-icc/) | เรียนรู้วิธีแปลง PDF เป็น PDF/X‑1A พร้อมโปรไฟล์ ICC ด้วย Aspose.PDF สำหรับ .NET  
+- [บันทึกเอกสาร PDF – วิธีเพิ่มรูปวงรีและแปลง DOCX เป็น PDF](./save-document-pdf-how-to-add-ellipse-convert-docx-to-pdf/) | เรียนรู้วิธีบันทึกเอกสาร PDF, เพิ่มรูปวงรี และแปลงไฟล์ DOCX เป็น PDF ด้วย Aspose.PDF สำหรับ .NET ในคู่มือทีละขั้นตอนนี้  
+- [เพิ่มหมายเลข Bates ให้กับ DOCX และแปลงเป็น PDF – คู่มือ C# ฉบับสมบูรณ์](./add-bates-numbering-to-docx-and-convert-to-pdf-complete-c-gu/) | เรียนรู้วิธีเพิ่มหมายเลข Batesให้กับไฟล์ DOCX และแปลงเป็น PDF ด้วย Aspose.PDF สำหรับ .NET ด้วยคู่มือ C# ขั้นตอนโดยละเอียด  
+- [แปลง docx เป็น pdf ใน C# – คู่มือขั้นตอนเต็ม](./convert-docx-to-pdf-in-c-complete-step-by-step-guide/) | เรียนรู้วิธีแปลงไฟล์ DOCX เป็น PDF ด้วย C# โดยใช้ Aspose.PDF สำหรับ .NET ในคู่มือขั้นตอนเต็มที่เข้าใจง่าย  
+- [สร้าง HTML จาก PDF ด้วย C# – คู่มือขั้นตอนเต็ม](./create-html-from-pdf-in-c-complete-step-by-step-guide/) | เรียนรู้วิธีสร้าง HTML จากไฟล์ PDF ด้วย Aspose.PDF สำหรับ .NET ด้วยคู่มือทีละขั้นตอนนี้  
+- [บทช่วยสอนการแปลง PDF ด้วย C# – แปลง PDF เป็น PDF/X-4](./c-pdf-conversion-tutorial-convert-pdf-to-pdf-x-4/) | เรียนรู้วิธีแปลงไฟล์ PDF เป็น PDF/X-4 ด้วย Aspose.PDF สำหรับ .NET ในบทช่วยสอนขั้นตอนเดียวนี้  
+- [วิธีตั้งค่า ICC ในการแปลง PDF ด้วย Aspose – คู่มือครบถ้วน](./how-to-set-icc-in-aspose-pdf-conversion-complete-guide/) | เรียนรู้วิธีตั้งค่า ICC ในการแปลง PDF ด้วย Aspose.PDF สำหรับ .NET อย่างละเอียดในคู่มือขั้นตอนเต็ม  
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

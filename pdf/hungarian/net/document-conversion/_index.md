@@ -124,6 +124,7 @@ Megtanulod, hogyan adhatsz meg konvertálási beállításokat, hogyan kinyerhet
 | [Dokumentum mentése HTML-ként – Teljes C# útmutató a Word HTML-be exportálásához](./save-document-as-html-complete-c-guide-to-export-word-to-htm/) | Tanulja meg, hogyan menthet Word dokumentumot HTML formátumba az Aspose.PDF for .NET segítségével ebben a részletes C# útmutatóban. |
 | [PDF konvertálása PDF/X‑4-re C#‑ban](./how-to-convert-pdf-to-pdf-x-4-in-c-step-by-step-guide/) | Tanulja meg, hogyan konvertálhat PDF fájlokat PDF/X‑4 formátumba C#‑ban az Aspose.PDF for .NET segítségével ezzel a lépésről lépésre útmutatóval. |
 | [ICC profil beállítása Word PDF-re konvertálásakor – Teljes C# útmutató](./set-icc-profile-when-converting-word-to-pdf-complete-c-guide/) | Tanulja meg, hogyan állíthat be ICC profilt a Word dokumentum PDF-re konvertálásakor az Aspose.PDF for .NET segítségével ebben a lépésről lépésre útmutatóban. |
+| [Hogyan használja az Aspose-t PDF PDF/X‑1A‑ra ICC-vel konvertáláshoz](./how-to-use-aspose-to-convert-pdf-to-pdf-x-1a-with-icc/) | Tanulja meg, hogyan konvertálhat PDF fájlokat PDF/X‑1A formátumba ICC profilokkal az Aspose.PDF for .NET segítségével. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 

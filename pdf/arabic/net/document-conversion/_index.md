@@ -138,6 +138,7 @@
 | [كيفية تحويل PDF إلى PDF/X‑4 باستخدام C# – دليل خطوة بخطوة](./how-to-convert-pdf-to-pdf-x-4-in-c-step-by-step-guide/) |تعرف على طريقة تحويل ملفات PDF إلى صيغة PDF/X‑4 باستخدام Aspose.PDF لـ .NET في دليل شامل خطوة بخطوة. |  
 | [تعيين ملف تعريف ICC عند تحويل Word إلى PDF – دليل C# كامل](./set-icc-profile-when-converting-word-to-pdf-complete-c-guide/) |تعرف على كيفية تعيين ملف تعريف ICC أثناء تحويل مستندات Word إلى PDF باستخدام Aspose.PDF لـ .NET في دليل C# خطوة بخطوة. |  
 | [حفظ المستند كـ HTML – دليل C# كامل لتصدير Word إلى HTML](./save-document-as-html-complete-c-guide-to-export-word-to-htm/) |تعرف على كيفية حفظ مستند Word كملف HTML باستخدام Aspose.PDF لـ .NET من خلال دليل خطوة بخطوة شامل. |
+| [كيفية استخدام Aspose لتحويل PDF إلى PDF/X‑1A مع ICC](./how-to-use-aspose-to-convert-pdf-to-pdf-x-1a-with-icc/) | تعلم كيفية تحويل ملفات PDF إلى PDF/X‑1A مع تضمين ملف ICC باستخدام Aspose.PDF لـ .NET. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
