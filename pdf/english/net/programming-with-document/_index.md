@@ -121,6 +121,7 @@ pdfDocument.Save("output.pdf");
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
 
 {{< /blocks/products/pf/main-container >}}
 

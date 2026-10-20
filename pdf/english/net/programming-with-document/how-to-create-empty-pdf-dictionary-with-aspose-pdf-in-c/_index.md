@@ -30,7 +30,7 @@ tags:
 - PDF
 - C#
 - Aspose.PDF
-title: How to create empty PDF dictionary with Aspose.PDF in C#
+title: Learn how to create empty PDF dictionary with Aspose.PDF in C#
 url: /net/programming-with-document/how-to-create-empty-pdf-dictionary-with-aspose-pdf-in-c/
 ---
 
@@ -217,17 +217,16 @@ You now know how to **create empty PDF dictionary** objects with Aspose.PDF, pop
 
 Next, explore related topics such as **PDF manipulation C#**, adding custom **ExtGState dictionary** entries for advanced transparency effects, or using **CosPdfDictionary** to modify other resource types like fonts or XObjects. Experiment with multiple graphics states to build sophisticated visual effects in your PDFs.
 
-
-## What Should You Learn Next?
-
+## What should you learn next?
 
 The following tutorials cover closely related topics that build on the techniques demonstrated in this guide. Each resource includes complete working code examples with step-by-step explanations to help you master additional API features and explore alternative implementation approaches in your own projects.
 
-- [Create & Fill Rectangles in PDFs Using Aspose.PDF for .NET&#58; A Step-by-Step Guide](/pdf/english/net/images-graphics/create-fill-rectangle-aspose-pdf-net/)
-- [How to Create Dashed Lines in PDFs Using Aspose.PDF for .NET&#58; A Step-by-Step Guide](/pdf/english/net/images-graphics/create-dashed-lines-aspose-pdf-net/)
+- [Create & Fill Rectangles in PDFs Using Aspose.PDF for .NET: A Step-by-Step Guide](/pdf/english/net/images-graphics/create-fill-rectangle-aspose-pdf-net/)
+- [How to Create Dashed Lines in PDFs Using Aspose.PDF for .NET: A Step-by-Step Guide](/pdf/english/net/images-graphics/create-dashed-lines-aspose-pdf-net/)
 - [How to Add an Empty Page at the End of a PDF Using Aspose.PDF for .NET | Step-by-Step Guide](/pdf/english/net/document-manipulation/add-empty-page-end-pdf-aspose-pdf-net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< /blocks/products/pf/main-container >}}
 {{< /blocks/products/pf/main-wrap-class >}}
 {{< blocks/products/products-backtop-button >}}
+{{< /blocks/products/products-backtop-button >}}
