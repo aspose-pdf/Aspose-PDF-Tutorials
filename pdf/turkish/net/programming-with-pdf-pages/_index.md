@@ -30,7 +30,7 @@ Eğitimler, adım adım talimatlar, ayrıntılı kod örnekleri ve anlaşılmas�
 
 {{< tutorial-card link="./compare-pdfs/" title="Aspose.PDF for .NET kullanarak farklı sayfa boyutlarına sahip PDF'leri karşılaştırın" imgSrc="./compare-pdfs/images/thumb.png" >}}
 
-
+{{< tutorial-card link="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/" title="Aspose.PDF ile C#'ta PDF Sayfa Kaynaklarını Düzenleme" imgSrc="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/images/thumb.png" >}}
 
 | Başlık | Açıklama |
 | --- | --- | 
@@ -91,4 +91,3 @@ Eğitimler, adım adım talimatlar, ayrıntılı kod örnekleri ve anlaşılmas�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

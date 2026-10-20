@@ -30,7 +30,7 @@ Aspose.PDF for .NET의 "PDF 페이지 프로그래밍" 설명서는 PDF 파일�
 
 {{< tutorial-card link="./compare-pdfs/" title="Aspose.PDF for .NET을 사용하여 페이지 크기가 다른 PDF 비교하기" imgSrc="./compare-pdfs/images/thumb.png" >}}
 
-
+{{< tutorial-card link="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/" title="Aspose.PDF for .NET을 사용하여 C#에서 PDF 페이지 리소스를 편집하는 방법" imgSrc="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/images/thumb.png" >}}
 
 | 제목 | 설명 |
 | --- | --- | 
@@ -104,4 +104,3 @@ Aspose.PDF for .NET의 "PDF 페이지 프로그래밍" 설명서는 PDF 파일�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

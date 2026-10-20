@@ -30,7 +30,7 @@ Aspose.PDF for .NET 的「使用 PDF 頁面進行編程」文件提供了逐步�
 
 {{< tutorial-card link="./compare-pdfs/" title="使用 Aspose.PDF for .NET 比較頁面尺寸不同的 PDF" imgSrc="./compare-pdfs/images/thumb.png" >}}
 
-
+{{< tutorial-card link="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/" title="使用 Aspose.PDF 在 C# 中編輯 PDF 頁面資源" imgSrc="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/images/thumb.png" >}}
 
 |標題 |描述 |
 | --- | --- | 
@@ -105,4 +105,3 @@ Aspose.PDF for .NET 的「使用 PDF 頁面進行編程」文件提供了逐步�
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

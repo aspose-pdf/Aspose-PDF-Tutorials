@@ -30,7 +30,9 @@
 
 {{< tutorial-card link="./compare-pdfs/" title="Aspose.PDF for .NET का उपयोग करके विभिन्न पृष्ठ आकारों वाले PDF की तुलना करें" imgSrc="./compare-pdfs/images/thumb.png" >}}
 
+{{< tutorial-card link="./add-bates-numbering-pdf-with-aspose-step-by-step-guide/" title="Aspose के साथ Bates नंबरिंग PDF जोड़ें – चरण‑दर‑चरण गाइड" >}}
 
+{{< tutorial-card link="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/" title="Aspose.PDF का उपयोग करके C# में PDF पेज संसाधनों को संपादित कैसे करें" imgSrc="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/images/thumb.png" >}}
 
 | शीर्षक | विवरण |
 | --- | --- | 
@@ -105,4 +107,3 @@
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

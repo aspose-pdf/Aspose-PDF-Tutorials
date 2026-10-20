@@ -30,7 +30,7 @@ Handledningarna innehåller steg-för-steg-instruktioner, detaljerade kodexempel
 
 {{< tutorial-card link="./compare-pdfs/" title="Jämför PDF‑filer med olika sidstorlekar med Aspose.PDF för .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
 
-
+{{< tutorial-card link="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/" title="Redigera PDF‑sidresurser med Aspose.PDF i C#" imgSrc="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/images/thumb.png" >}}
 
 | Titel | Beskrivning |
 | --- | --- | 
@@ -56,11 +56,11 @@ Handledningarna innehåller steg-för-steg-instruktioner, detaljerade kodexempel
 | [Lägg till Bates-nummerering i PDF – Steg‑för‑steg‑guide för att numrera PDF‑sidor](./add-bates-numbering-pdf-step-by-step-guide-to-number-pdf-pag/) | Lär dig hur du lägger till Bates‑nummerering i PDF‑dokument med Aspose.PDF för .NET i en detaljerad steg‑för‑steg‑guide. |
 | [Skapa PDF-dokument C# – Lägg till former & tomma sidor – Guide](./create-pdf-document-c-add-shapes-blank-pages-guide/) | Steg-för-steg-guide för att skapa PDF-dokument i C# och lägga till former samt tomma sidor med Aspose.PDF för .NET. |
 | [Lägg till Bates‑numrering i PDF med Aspose – Komplett guide](./add-bates-numbering-pdf-with-aspose-complete-guide/) | Steg‑för‑steg‑guide för att lägga till Bates‑numrering i PDF‑dokument med Aspose.PDF för .NET. |
-| [Lägg till Bates-nummerering i C# – Steg‑för‑steg‑guide](./add-bates-numbering-in-c-step-by-step-guide/) | Lär dig hur du lägger till Bates‑nummerering i en PDF med C# i en detaljerad steg‑för‑steg‑guide. |
+| [Lägg till Bates-nummerering i C# – Steg‑för‑steg‑guide](./add-bates-numbering-in-c-step-by-step-guide/) | Lär dig hur du lägger till Bates‑numrering i en PDF med C# i en detaljerad steg‑för‑steg‑guide. |
 | [Lägg till sidor i PDF – Steg‑för‑steg‑guide för C#‑utvecklare](./add-pages-to-pdf-step-by-step-guide-for-c-developers/) | Lär dig hur du lägger till sidor i en PDF med Aspose.PDF för .NET i en detaljerad steg‑för‑steg‑guide för C#‑utvecklare. |
 | [Omordna PDF-sidor i C# – Fullständig steg‑för‑steg‑guide](./reorder-pdf-pages-in-c-complete-step-by-step-guide/) | Steg-för-steg-guide för att omordna PDF-sidor i en PDF med Aspose.PDF för .NET i C#. |
 | [Omordna PDF-sidor med Aspose.Pdf – Fullständig C#‑guide](./reorder-pdf-pages-with-aspose-pdf-complete-c-guide/) | Steg‑för‑steg‑guide för att omordna PDF‑sidor med Aspose.Pdf i C#. Lätt att följa och implementera. |
-| [Lägg till Bates-nummerering i PDF-filer med C# – Komplett guide](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Steg-för-steg-guide för att lägga till Bates-nummerering i PDF-filer med C# och Aspose.PDF för .NET. |
+| [Lägg till Bates‑nummerering i PDF-filer med C# – Komplett guide](./add-bates-numbering-to-pdfs-with-c-complete-guide/) | Steg-för-steg-guide för att lägga till Bates-nummerering i PDF-filer med C# och Aspose.PDF för .NET. |
 | [Lägg till Bates-nummerering i PDF med Aspose.PDF – Komplett guide](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Steg-för-steg-guide för att lägga till Bates-nummerering i PDF-filer med Aspose.PDF för .NET. |
 | [Lägg till tom sida i PDF med Aspose.PDF – Komplett guide](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Steg-för-steg-guide för att lägga till en tom sida i en PDF med Aspose.PDF för .NET. |
 | [Ändra opacitet i PDF med C# – steg‑för‑steg‑guide](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Lär dig hur du ändrar opaciteten i en PDF med Aspose.PDF för .NET i en steg‑för‑steg‑guide. |
@@ -105,4 +105,3 @@ Handledningarna innehåller steg-för-steg-instruktioner, detaljerade kodexempel
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

@@ -30,8 +30,6 @@ Návody obsahují podrobné pokyny, podrobné příklady kódu a jasná vysvětl
 
 {{< tutorial-card link="./compare-pdfs/" title="Porovnejte PDF soubory s různými velikostmi stránek pomocí Aspose.PDF pro .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
 
-
-
 | Název | Popis |
 | --- | --- | 
 | [Změna orientace](./change-orientation/) | Podrobný návod pro změnu orientace stránky PDF pomocí Aspose.PDF pro .NET. Snadno sledovatelný a implementovatelný ve vašich projektech. |  
@@ -65,6 +63,7 @@ Návody obsahují podrobné pokyny, podrobné příklady kódu a jasná vysvětl
 | [Přidat Batesovo číslování do PDF pomocí Aspose.PDF – Kompletní průvodce](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Naučte se, jak přidat Batesovo číslování do PDF souborů pomocí Aspose.PDF pro .NET v tomto podrobném průvodci. |
 | [Změna průhlednosti PDF v C# – krok‑za‑krokem průvodce](./change-opacity-pdf-in-c-with-aspose-pdf-step-by-step-guide/) | Naučte se, jak změnit průhlednost PDF pomocí Aspose.PDF pro .NET v C# s podrobným krok‑za‑krokem návodem. |
 | [Přidat Batesovo číslování PDF pomocí Aspose – průvodce krok za krokem](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Kompletní průvodce přidáním Batesova číslování do PDF souborů pomocí Aspose.PDF pro .NET. |
+| [Jak upravit zdroje stránky PDF pomocí Aspose.PDF v C#](./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/) | Naučte se upravovat zdroje stránky PDF, jako jsou fonty a obrázky, pomocí Aspose.PDF pro .NET v C#. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -105,4 +104,3 @@ Návody obsahují podrobné pokyny, podrobné příklady kódu a jasná vysvětl
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

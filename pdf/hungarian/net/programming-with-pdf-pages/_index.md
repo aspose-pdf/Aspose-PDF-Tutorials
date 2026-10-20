@@ -46,7 +46,7 @@ Az oktatóanyagok lépésről lépésre bemutatják az utasításokat, részlete
 | [PDF-tulajdonságok lekérése](./get-properties/) | Ismerje meg, hogyan kinyerheti hatékonyan a PDF tulajdonságait az Aspose.PDF for .NET használatával. Lépésről lépésre útmutató kódpéldákkal és bevált gyakorlatokkal.  
 | [Kép beállítása oldal háttereként PDF fájlban](./image-as-background/) | Tanulja meg, hogyan állíthat be képet hátterként egy PDF dokumentumban az Aspose.PDF for .NET használatával ezzel a lépésről lépésre szóló útmutatóval. Készítsen professzionális, vizuálisan vonzó dokumentumokat. |  
 | [Üres oldal beszúrása PDF fájlba](./insert-empty-page/) | Tanulja meg, hogyan szúrhat be üres oldalt egy PDF dokumentumba az Aspose.PDF for .NET használatával. Lépésről lépésre bemutató kódpéldákkal a zökkenőmentes PDF-szerkesztéshez. |  
-| [Üres oldal beszúrása a végére](./insert-empty-page-at-end/) | Tanuld meg, hogyan szúrhatsz be könnyedén üres oldalt egy PDF dokumentumba az Aspose.PDF for .NET segítségével ebben a kezdőknek szóló útmutatóban. Tökéletes a gyors szerkesztésekhez. |  
+| [Üres oldal beszúrása a végére](./insert-empty-page-at-end/) | Tanuld meg, hogyan szúrhatsz be üres oldalt egy PDF dokumentumba az Aspose.PDF for .NET segítségével ebben a kezdőknek szóló útmutatóban. Tökéletes a gyors szerkesztésekhez. |  
 | [Üres oldal hozzáadása PDF-hez Aspose.PDF – Teljes útmutató](./add-blank-page-pdf-with-aspose-pdf-complete-guide/) | Lépésről lépésre bemutatja, hogyan szúrhat be üres oldalt PDF dokumentumba az Aspose.PDF for .NET segítségével. |  
 | [Oldalakra osztás](./split-to-pages/) Könnyedén bontsd fel a PDF fájlokat különálló oldalakra az Aspose.PDF for .NET segítségével ezzel az átfogó oktatóanyaggal. Lépésről lépésre útmutató mellékelve. |  
 | [PDF oldalméretek frissítése](./update-dimensions/) | Fedezze fel, hogyan frissítheti könnyedén a PDF oldalak méreteit az Aspose.PDF for .NET segítségével ebben az átfogó, lépésről lépésre szóló útmutatóban. |  
@@ -65,6 +65,7 @@ Az oktatóanyagok lépésről lépésre bemutatják az utasításokat, részlete
 | [PDF oldal duplikálása Aspose.Pdf‑vel – Teljes útmutató](./duplicate-pdf-page-with-aspose-pdf-complete-guide/) | Lépésről lépésre bemutatja, hogyan másolhat vagy duplikálhat egy oldalt PDF dokumentumban az Aspose.PDF for .NET segítségével. |
 | [Bates-számozás hozzáadása PDF-hez az Aspose.PDF segítségével – Teljes útmutató](./add-bates-numbering-to-pdf-with-aspose-pdf-complete-guide/) | Lépésről lépésre útmutató a Bates-számozás PDF-fájlokhoz való hozzáadásához az Aspose.PDF for .NET használatával. |
 | [Bates számozás hozzáadása PDF-hez Aspose‑val – lépésről‑lépésre útmutató](./add-bates-numbering-pdf-with-aspose-step-by-step-guide/) | Ismerje meg, hogyan adhat hozzá Bates‑számozást PDF dokumentumokhoz az Aspose.PDF for .NET segítségével. |
+| [PDF oldal erőforrásainak szerkesztése Aspose.PDF használatával C#-ban](./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/) | Lépésről lépésre útmutató a PDF oldal erőforrásainak módosításához az Aspose.PDF for .NET segítségével C#-ban. |
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
@@ -105,4 +106,3 @@ Az oktatóanyagok lépésről lépésre bemutatják az utasításokat, részlete
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-

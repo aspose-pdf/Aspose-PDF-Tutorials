@@ -30,7 +30,7 @@ Los tutoriales incluyen instrucciones paso a paso, ejemplos de código detallado
 
 {{< tutorial-card link="./compare-pdfs/" title="Compare PDFs con diferentes tamaños de página usando Aspose.PDF for .NET" imgSrc="./compare-pdfs/images/thumb.png" >}}
 
-
+{{< tutorial-card link="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/" title="Cómo editar recursos de página PDF usando Aspose.PDF en C#" imgSrc="./how-to-edit-pdf-page-resources-using-aspose-pdf-in-c/images/thumb.png" >}}
 
 | Título | Descripción |
 | --- | --- | 
@@ -105,4 +105,3 @@ Los tutoriales incluyen instrucciones paso a paso, ejemplos de código detallado
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
-
